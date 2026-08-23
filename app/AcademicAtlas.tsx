@@ -1,7 +1,7 @@
 "use client";
 
 import { useMemo, useState } from "react";
-import { communities, coverage, people, relationships, stageLabels, type Person, type Relationship } from "./data";
+import { communities, coverage, people, relationships, stageLabels, studentPlacements, type Person, type Relationship } from "./data";
 
 type EdgeFilter = "all" | Relationship["type"];
 type InstitutionFilter = "All" | Person["institution"];
@@ -13,6 +13,7 @@ const institutionColors: Record<Person["institution"], string> = {
   NUS: "#275ee6", NTU: "#f16f51", SUTD: "#d99f00", SMU: "#8a5bdb", "A*STAR": "#07a383", External: "#8390a5",
 };
 const relationColors: Record<Relationship["type"], string> = { lineage: "#275ee6", collaboration: "#f16f51", industry: "#07a383", talent: "#8a5bdb" };
+const placementKindLabels = { current: "当前任职", first_job: "毕业去向", founder: "创业" } as const;
 
 function RelationChip({ type }: { type: Relationship["type"] }) {
   return <span className={`relation-chip relation-${type}`}>{edgeLabels[type]}</span>;
@@ -28,10 +29,22 @@ export default function AcademicAtlas() {
   const [focus, setFocus] = useState<FocusFilter>("all");
   const [query, setQuery] = useState("");
   const [selectedId, setSelectedId] = useState("wei-lu");
+  const [selectedCompany, setSelectedCompany] = useState("Salesforce");
   const [view, setView] = useState<"graph" | "people" | "evidence">("people");
 
   const selected = people.find((person) => person.id === selectedId) ?? people[0];
   const selectedRelations = relationships.filter((r) => r.from === selected.id || r.to === selected.id);
+  const selectedPlacements = studentPlacements.filter((placement) => placement.teacherId === selected.id);
+
+  const companyIndex = useMemo(() => Array.from(new Set(studentPlacements.map((placement) => placement.company))).map((company) => {
+    const placements = studentPlacements.filter((placement) => placement.company === company);
+    return { company, placements, teachers: new Set(placements.map((placement) => placement.teacherId)).size };
+  }).sort((a, b) => b.teachers - a.teachers || b.placements.length - a.placements.length || a.company.localeCompare(b.company)), []);
+  const selectedCompanyData = companyIndex.find((entry) => entry.company === selectedCompany) ?? companyIndex[0];
+  const companyPipelines = Array.from(new Set(selectedCompanyData.placements.map((placement) => placement.teacherId))).map((teacherId) => ({
+    teacher: people.find((person) => person.id === teacherId)!,
+    placements: selectedCompanyData.placements.filter((placement) => placement.teacherId === teacherId),
+  }));
 
   const visiblePeople = useMemo(() => {
     const needle = query.trim().toLowerCase();
@@ -53,35 +66,35 @@ export default function AcademicAtlas() {
   );
   const currentPiCount = people.filter((p) => p.primary && p.category !== "historical").length;
   const coreCount = people.filter((p) => p.primary && p.category === "core").length;
-  const sourceCount = new Set(people.flatMap((p) => p.sources.map((s) => s.url)).concat(relationships.map((r) => r.source.url))).size;
+  const sourceCount = new Set(people.flatMap((p) => p.sources.map((s) => s.url)).concat(relationships.map((r) => r.source.url), studentPlacements.map((p) => p.source.url))).size;
 
   return (
     <main>
       <header className="topbar">
         <a className="brand" href="#top" aria-label="学脉 Atlas 首页"><span className="brand-mark">脉</span><span>学脉 Atlas</span></a>
-        <nav aria-label="站内导航"><a href="#atlas">名录与图谱</a><a href="#coverage">覆盖审计</a><a href="#communities">研究群落</a><a href="#industry">产业连接</a><a href="#method">方法</a></nav>
-        <span className="pilot-pill"><i /> Singapore pilot · v0.2</span>
+        <nav aria-label="站内导航"><a href="#atlas">人物图谱</a><a href="#companies">公司反向图</a><a href="#coverage">覆盖审计</a><a href="#communities">研究群落</a><a href="#industry">产业连接</a></nav>
+        <span className="pilot-pill"><i /> Singapore pilot · v0.3</span>
       </header>
 
       <section className="hero" id="top">
         <div className="hero-copy">
           <p className="eyebrow">Roster first · evidence linked · scope explicit</p>
           <h1>先把人找齐，<br />再谈学术山头。</h1>
-          <p className="hero-deck">新版从机构名录出发，区分核心 NLP / LLM PI、发展期独立 PI、相邻 AI / 系统方向和历史节点；师承、合作与产业关系分别核验。</p>
+          <p className="hero-deck">从机构名录到导师—学生—公司三层关系：区分核心 PI、发展期独立 PI、相邻方向和历史节点，并把学生的公开职业去向反向映射到企业与研究部门。</p>
           <div className="hero-actions"><a className="primary-button" href="#atlas">浏览完整名录 <span>↘</span></a><a className="text-button" href="#coverage">查看覆盖边界 <span>→</span></a></div>
         </div>
         <div className="hero-metrics" aria-label="试点数据概况">
           <div><strong>{coreCount}</strong><span>核心 NLP / LLM PI</span></div>
           <div><strong>5</strong><span>新加坡机构</span></div>
           <div><strong>{currentPiCount}</strong><span>当前 PI（含相邻层）</span></div>
-          <div><strong>{relationships.length}</strong><span>已核验关系</span></div>
+          <div><strong>{studentPlacements.length}</strong><span>已核验学生去向</span></div>
           <p>{sourceCount} 个去重来源 · 更新于 2026.08.23</p>
         </div>
       </section>
 
       <section className="correction-note" aria-label="版本说明">
-        <strong>v0.2 修订</strong>
-        <p>新增 SUTD 机构层与 Wei Lu、Wenxuan Zhang、Soujanya Poria；补入 Yang Deng、Shafiq Joty、Anh Tuan Luu、Wenya Wang、Michael Qizhe Shieh 等。旧版 8 人只是种子样本，不应被理解为地区全景。</p>
+        <strong>v0.3 修订</strong>
+        <p>新增中文名与学生职业去向层；明确 Tat-Seng Chua（蔡达成）创办 ViSenze、6Estates，并加入公司/部门反向图。同步校正 Wei Lu、Soujanya Poria 已转任 NTU 的现职变化。</p>
       </section>
 
       <section className="atlas-section" id="atlas">
@@ -111,8 +124,8 @@ export default function AcademicAtlas() {
               <div className="graph-scroll">
                 <div className="graph-canvas" aria-label="学者关系网络">
                   <div className="institution-zone zone-nus"><b>NUS</b><span>7 current PI</span></div>
-                  <div className="institution-zone zone-ntu"><b>NTU</b><span>6 current PI</span></div>
-                  <div className="institution-zone zone-sutd"><b>SUTD</b><span>3 current PI</span></div>
+                  <div className="institution-zone zone-ntu"><b>NTU</b><span>8 current PI</span></div>
+                  <div className="institution-zone zone-sutd"><b>SUTD</b><span>1 current PI</span></div>
                   <div className="institution-zone zone-smu"><b>SMU</b><span>2 current + 1 historical</span></div>
                   <div className="institution-zone zone-astar"><b>A*STAR</b><span>3 research PIs</span></div>
                   <svg className="edge-layer" viewBox="0 0 1180 800" aria-hidden="true">
@@ -125,7 +138,7 @@ export default function AcademicAtlas() {
                   </svg>
                   {visiblePeople.map((person) => (
                     <button key={person.id} className={`person-node ${person.primary ? "primary-node" : "external-node"} ${selected.id === person.id ? "selected" : ""}`} style={{ left: person.x, top: person.y, "--node-color": institutionColors[person.institution] } as React.CSSProperties} onClick={() => setSelectedId(person.id)}>
-                      <span className="node-avatar">{initials(person.name)}</span><span className="node-copy"><strong>{person.name}</strong><small>{person.institution} · {person.stage === "emerging" ? "发展期 PI" : person.area.split(" · ")[0]}</small></span>
+                      <span className="node-avatar">{initials(person.name)}</span><span className="node-copy"><strong>{person.name}{person.chinese ? ` · ${person.chinese}` : ""}</strong><small>{person.institution} · {person.stage === "emerging" ? "发展期 PI" : person.area.split(" · ")[0]}</small></span>
                     </button>
                   ))}
                   {visibleRelations.filter((r) => r.from === r.to).map((r, index) => {
@@ -147,7 +160,7 @@ export default function AcademicAtlas() {
                     <div className="people-grid">{group.map((person) => (
                       <button key={person.id} className={`person-card ${selected.id === person.id ? "selected" : ""}`} onClick={() => setSelectedId(person.id)}>
                         <span className="person-monogram" style={{ background: institutionColors[person.institution] }}>{initials(person.name)}</span>
-                        <span><small>{stageLabels[person.stage]}</small><strong>{person.name}</strong><em>{person.area}</em></span><b>→</b>
+                        <span><small>{stageLabels[person.stage]}</small><strong>{person.name}{person.chinese && <span className="card-chinese"> · {person.chinese}</span>}</strong><em>{person.area}</em></span><b>→</b>
                       </button>
                     ))}</div>
                   </section>;
@@ -169,6 +182,12 @@ export default function AcademicAtlas() {
               <h3>{selected.name}</h3>{selected.chinese && <p className="chinese-name">{selected.chinese}</p>}<p className="role-label">{selected.role}</p><p className="summary">{selected.summary}</p>
               {selected.status && <p className="status-note">◷ {selected.status}</p>}
               <div className="tag-list">{selected.tags.map((tag) => <span key={tag}>{tag}</span>)}</div>
+              <div className="inspector-block placement-block"><h4>学生去向 <span>{selectedPlacements.length ? `${selectedPlacements.length} 条已核验` : "待补"}</span></h4>
+                {selected.id === "tat-seng-chua" && <p className="placement-context">个人主页列出 37 名博士毕业生；下方是目前已逐条核验的产业/创业去向，不代表完整就业统计。</p>}
+                {selectedPlacements.slice(0, 8).map((placement) => <a key={placement.id} className="placement-row" href={placement.source.url} target="_blank" rel="noreferrer"><span className="placement-person"><strong>{placement.student}</strong><small>{placementKindLabels[placement.kind]} · {placement.role}</small></span><span className="placement-destination"><b>{placement.company}</b>{placement.department && <small>{placement.department}</small>}</span>{placement.highLevel && <em>重点职位</em>}</a>)}
+                {selectedPlacements.length > 8 && <a className="more-placements" href="#companies">另有 {selectedPlacements.length - 8} 条，在公司反向图中查看 →</a>}
+                {selectedPlacements.length === 0 && <p className="quiet">尚未找到可逐条核验的公开学生职业去向；这不等于该导师没有产业输送。</p>}
+              </div>
               <div className="inspector-block"><h4>关系证据 <span>{selectedRelations.length}</span></h4>
                 {selectedRelations.slice(0, 6).map((relation) => <a key={relation.id} className="relation-row" href={relation.source.url} target="_blank" rel="noreferrer"><RelationChip type={relation.type} /><span><strong>{relation.label}</strong><small>{relation.evidence}</small></span><b>↗</b></a>)}
                 {selectedRelations.length === 0 && <p className="quiet">暂无已核验关系；不以“共同任职”自动推断合作。</p>}
@@ -197,19 +216,41 @@ export default function AcademicAtlas() {
         <div className="community-grid">{communities.map((community, index) => <article key={community.name} className={`community-card ${community.color}`}><span className="community-number">0{index + 1}</span><p>{community.kicker}</p><h3>{community.name}</h3><strong>{community.anchor}</strong><span>{community.description}</span><button onClick={() => document.querySelector("#atlas")?.scrollIntoView({ behavior: "smooth" })}>在名录中查看 ↗</button></article>)}</div>
       </section>
 
+      <section className="company-section" id="companies">
+        <div className="section-heading">
+          <div><p className="section-index">04 / COMPANY-CENTERED GRAPH</p><h2>从公司反查导师输送。</h2></div>
+          <p>选择公司或部门，中心图会显示哪些老师的学生进入该组织、学生姓名与公开职位。重点职位单独标记；“首份去向”与“当前任职”保留原始页面口径。</p>
+        </div>
+        <div className="company-atlas">
+          <aside className="company-index" aria-label="公司与部门索引">
+            <header><strong>公司 / 机构</strong><span>{companyIndex.length} 个节点</span></header>
+            <div>{companyIndex.map((entry) => <button key={entry.company} className={selectedCompanyData.company === entry.company ? "active" : ""} onClick={() => setSelectedCompany(entry.company)}><span><strong>{entry.company}</strong><small>{entry.teachers} 位导师 · {entry.placements.length} 名学生</small></span><b>→</b></button>)}</div>
+          </aside>
+          <div className="company-graph" aria-label={`${selectedCompanyData.company} 的导师学生流向图`}>
+            <div className="company-hub"><small>COMPANY / DEPARTMENT</small><strong>{selectedCompanyData.company}</strong><span>{selectedCompanyData.placements.length} 名已核验学生</span></div>
+            <div className="pipeline-list">{companyPipelines.map(({ teacher, placements }) => <article className="pipeline" key={teacher.id}>
+              <button className="pipeline-teacher" onClick={() => { setSelectedId(teacher.id); document.querySelector("#atlas")?.scrollIntoView({ behavior: "smooth" }); }}><span style={{ background: institutionColors[teacher.institution] }}>{initials(teacher.name)}</span><div><small>{teacher.institution} · 导师</small><strong>{teacher.name}{teacher.chinese ? ` · ${teacher.chinese}` : ""}</strong></div></button>
+              <div className="pipeline-edge"><span>{placements.length} 名学生</span></div>
+              <div className="pipeline-students">{placements.map((placement) => <a href={placement.source.url} target="_blank" rel="noreferrer" key={placement.id}><span><strong>{placement.student}</strong><small>{placementKindLabels[placement.kind]} · {placement.role}{placement.department ? ` · ${placement.department}` : ""}</small></span>{placement.highLevel && <em>高管 / 高级职位</em>}</a>)}</div>
+            </article>)}</div>
+            <p className="company-disclaimer">只展示公开页面可逐条核验的去向；公司节点没有连线，不代表该导师没有学生进入。</p>
+          </div>
+        </div>
+      </section>
+
       <section className="industry-section" id="industry">
-        <div className="section-heading"><div><p className="section-index">04 / INDUSTRY PATHWAYS</p><h2>产业连接分类型记录。</h2></div><p>正式/联合任职、前雇主、研究资助、联合实验室、创业与技术部署不混为一谈。</p></div>
+        <div className="section-heading"><div><p className="section-index">05 / INDUSTRY PATHWAYS</p><h2>导师本人的产业连接。</h2></div><p>这里记录 PI 本人的正式/联合任职、前雇主、研究资助、联合实验室、创业与技术部署；学生就业单独放在上面的公司反向图。</p></div>
         <div className="pathways">
           <article><span>01</span><div><small>JOINT / PARALLEL AFFILIATION</small><h3>Shafiq Joty ↔ Salesforce Research</h3><p>NTU 官方公告以 Salesforce Research、NTU 双重身份署名，是最直接的学界—企业研究连接。</p></div><a href="https://www.ntu.edu.sg/computing/news-events/news/detail/the-2024-conference-on-empirical-methods-in-natural-language-processing" target="_blank" rel="noreferrer">证据 ↗</a></article>
           <article><span>02</span><div><small>PRIOR EMPLOYMENT</small><h3>Wenxuan Zhang ↔ Alibaba Singapore</h3><p>SUTD 官方简介记录其此前为 Alibaba Group Singapore 研究科学家，并获 Ali Star。</p></div><a href="https://www.sutd.edu.sg/profile/zhang-wenxuan" target="_blank" rel="noreferrer">证据 ↗</a></article>
-          <article><span>03</span><div><small>JOINT LAB + STARTUPS</small><h3>Tat-Seng Chua ↔ Sea Group / startups</h3><p>NUS 官方页列出 Sea-NExT Joint Lab 与两家新加坡技术创业公司。</p></div><a href="https://www.comp.nus.edu.sg/cs/people/chuats/" target="_blank" rel="noreferrer">证据 ↗</a></article>
-          <article><span>04</span><div><small>RESEARCH COLLABORATION</small><h3>Wei Lu ↔ Alibaba</h3><p>SUTD 公开报道记录 Wei Lu 团队与 Alibaba 在 NLP 方向的合作。</p></div><a href="https://www.sutd.edu.sg/stories-listing/taking-natural-language-processing-to-greater-heights" target="_blank" rel="noreferrer">证据 ↗</a></article>
+          <article><span>03</span><div><small>JOINT LAB + STARTUPS</small><h3>Tat-Seng Chua（蔡达成）↔ Sea / ViSenze / 6Estates</h3><p>公开主页明确列出 Sea–NExT Joint Lab，以及其共同创办的视觉搜索公司 ViSenze Pte Ltd 和大数据智能公司 6Estates Pte Ltd；学生 Guangda Li 任 ViSenze 联合创始人兼 CTO。</p></div><a href="https://www.chuatatseng.com/" target="_blank" rel="noreferrer">证据 ↗</a></article>
+          <article><span>04</span><div><small>RESEARCH COLLABORATION</small><h3>Wei Lu ↔ Alibaba</h3><p>其在 SUTD 任职期间的公开报道记录了团队与 Alibaba 在 NLP 方向的合作；Wei Lu 现已转任 NTU。</p></div><a href="https://www.sutd.edu.sg/stories-listing/taking-natural-language-processing-to-greater-heights" target="_blank" rel="noreferrer">证据 ↗</a></article>
           <article><span>05</span><div><small>INDUSTRY RESEARCH CENTRE</small><h3>Jian Su ↔ Baidu–I²R</h3><p>A*STAR 官方页列其为 Baidu I²R Research Centre 联合主任。</p></div><a href="https://research.a-star.edu.sg/researcher/jian-su/" target="_blank" rel="noreferrer">证据 ↗</a></article>
         </div>
       </section>
 
       <section className="method-section" id="method">
-        <div><p className="section-index">05 / EVIDENCE STANDARD</p><h2>从名单到关系，<br />分四层核验。</h2></div>
+        <div><p className="section-index">06 / EVIDENCE STANDARD</p><h2>从名单到关系，<br />分四层核验。</h2></div>
         <div className="method-copy"><p>这不是“谁名气大”的排行榜，而是一张可持续修订的证据图谱。</p><ol>
           <li><span>A</span><div><strong>机构 roster</strong><p>先按 NUS、NTU、SUTD、SMU、A*STAR 核对现任人员。</p></div></li>
           <li><span>B</span><div><strong>PI 与方向边界</strong><p>确认是否独立招生/带组，并区分核心语言方向与 AI 相邻层。</p></div></li>
@@ -218,7 +259,7 @@ export default function AcademicAtlas() {
         </ol></div>
       </section>
 
-      <footer><div className="brand"><span className="brand-mark">脉</span><span>学脉 Atlas</span></div><p>新加坡 NLP / LLM 学术关系试点 · v0.2 · 公开来源研究项目</p><a href="#top">回到顶部 ↑</a></footer>
+      <footer><div className="brand"><span className="brand-mark">脉</span><span>学脉 Atlas</span></div><p>新加坡 NLP / LLM 学术关系试点 · v0.3 · 公开来源研究项目</p><a href="#top">回到顶部 ↑</a></footer>
     </main>
   );
 }
