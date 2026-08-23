@@ -122,7 +122,7 @@ button { color: inherit; }
 .atlas-content { display: grid; grid-template-columns: minmax(0, 1fr) 360px; min-height: 690px; }
 .graph-scroll { min-width: 0; overflow-x: auto; border-right: 1px solid var(--line); }
 .graph-canvas { width: 1180px; height: 800px; position: relative; overflow: hidden; background-color: #f7f9f5; background-image: linear-gradient(rgba(80,96,116,.06) 1px, transparent 1px), linear-gradient(90deg, rgba(80,96,116,.06) 1px, transparent 1px); background-size: 28px 28px; }
-.graph-canvas::after { content: "evidence-linked graph · select a person to focus direct connections"; position: absolute; left: 20px; bottom: 12px; color: #a0aaa0; font: 600 9px var(--font-space), sans-serif; letter-spacing: .1em; text-transform: uppercase; }
+.graph-canvas::after { content: "evidence-linked graph · select a person to focus · click blank space to reset"; position: absolute; left: 20px; bottom: 12px; color: #8b978e; font: 600 9px var(--font-space), sans-serif; letter-spacing: .1em; text-transform: uppercase; }
 .graph-instruction { position: absolute; z-index: 7; top: 12px; left: 20px; display: flex; align-items: center; gap: 8px; padding: 6px 8px; border: 1px solid #d5ddd3; border-radius: 4px; background: rgba(255,255,255,.9); color: #66758a; font-size: 8px; box-shadow: 0 3px 10px rgba(35,53,73,.06); }
 .graph-instruction button { border: 0; border-bottom: 1px solid var(--cobalt); padding: 0 0 1px; background: transparent; color: var(--cobalt); font-size: 8px; font-weight: 800; cursor: pointer; }
 .institution-zone { position: absolute; border: 1px dashed; border-radius: 12px; padding: 12px 14px; pointer-events: none; opacity: .48; }
@@ -151,13 +151,13 @@ button { color: inherit; }
 .external-node .node-avatar { width: 27px; height: 27px; background: #8793a4; font-size: 8px; }
 .external-node .node-copy strong { font-size: 9px; }
 .external-node .node-copy small { font-size: 7px; }
-.person-node.dimmed { background: #edf1ed; border-color: #dce2db; opacity: .38; box-shadow: none; }
-.person-node.dimmed .node-avatar { background: #bdc5bf; }
-.person-node.dimmed .node-copy strong { color: #7d8994; }
-.person-node.dimmed .node-copy small { color: #9aa4aa; }
-.person-node.dimmed:hover { opacity: .72; }
+.person-node.dimmed { background: #dfe5df; border-color: #c6d0c8; opacity: .68; box-shadow: none; }
+.person-node.dimmed .node-avatar { background: #9da8a0; }
+.person-node.dimmed .node-copy strong { color: #526171; }
+.person-node.dimmed .node-copy small { color: #74818a; }
+.person-node.dimmed:hover { opacity: .86; }
 .self-relation-badge { position: absolute; z-index: 5; border: 0; border-radius: 3px; color: white; padding: 4px 7px; font-size: 7px; font-weight: 700; cursor: pointer; box-shadow: 0 2px 6px rgba(16,32,56,.12); }
-.self-relation-badge.dimmed { opacity: .18; }
+.self-relation-badge.dimmed { opacity: .42; }
 .badge-industry { background: var(--teal); }
 .badge-talent { background: var(--violet); }
 .empty-state { position: absolute; inset: 0; display: grid; place-items: center; color: var(--muted); font-size: 13px; }

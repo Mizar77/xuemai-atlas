@@ -158,10 +158,15 @@ export const people: Person[] = [
     x: 485, y: 395, primary: true,
   },
   {
-    id: "bo-an", name: "Bo An", role: "President’s Chair Professor · AI Division Head", institution: "NTU",
-    area: "Multi-agent Systems · RL", tags: ["Multi-agent", "博弈论", "强化学习"], stage: "adjacent", category: "adjacent",
-    summary: "NTU AI Division 负责人，重点是多智能体、计算博弈与强化学习；属于 Agentic AI 相邻层。",
-    sources: [{ label: "NTU 个人主页", url: "https://personal.ntu.edu.sg/boan/", kind: "official" }],
+    id: "bo-an", name: "Bo An", chinese: "安波", role: "President’s Chair Professor · Head, AI Division · Director, Centre of AI-for-X", institution: "NTU",
+    area: "Multi-agent Systems · Computational Game Theory · RL · LLM Agents", tags: ["多智能体系统", "计算博弈", "强化学习", "LLM Agents", "AAAI Fellow", "IJCAI 2027 Program Chair"], stage: "senior", category: "adjacent",
+    summary: "NTU 校长讲席教授、人工智能系主任与 Centre of AI-for-X 主任，AAAI Fellow、IJCAI 2027 Program Chair、IEEE Intelligent Systems 主编。研究从多智能体系统、计算博弈与强化学习延伸到 LLM-powered agents；安全博弈成果曾部署于美国联邦空警、海岸警卫队及野生动物保护场景。",
+    sources: [
+      { label: "Bo An 个人主页", url: "https://personal.ntu.edu.sg/boan/", kind: "official" },
+      { label: "Bo An 学术履历", url: "https://personal.ntu.edu.sg/boan/CV-BOAN.pdf", kind: "cv" },
+      { label: "NTU AI Faculty", url: "https://www.ntu.edu.sg/computing/ai-at-ntu/ai-faculty", kind: "official" },
+      { label: "NTU 中文师资页", url: "https://www.ntu.edu.sg/business/admissions/china-programmes-cn/embac", kind: "official" },
+    ],
     x: 660, y: 395, primary: true,
   },
 
@@ -242,10 +247,12 @@ export const people: Person[] = [
     x: 900, y: 720, primary: true,
   },
 
-  { id: "raymond-mooney", name: "Raymond Mooney", role: "Professor", institution: "External", area: "Machine Learning · NLP", tags: ["导师", "UT Austin"], stage: "historical", category: "historical", summary: "Hwee Tou Ng 博士导师。", sources: [{ label: "Ng 博士论文", url: "https://www.cs.utexas.edu/~ml/papers/hweetou_dissertation.pdf", kind: "thesis" }], x: 85, y: 40 },
-  { id: "kathleen-mckeown", name: "Kathleen McKeown", role: "Professor", institution: "External", area: "Natural Language Processing", tags: ["导师", "Columbia"], stage: "historical", category: "historical", summary: "Min-Yen Kan CV 列出的博士导师之一。", sources: [{ label: "Kan CV", url: "https://www.comp.nus.edu.sg/~kanmy/cv.1page.html", kind: "cv" }], x: 295, y: 40 },
-  { id: "wai-lam", name: "Wai Lam", role: "Professor", institution: "External", area: "NLP · Information Retrieval", tags: ["导师", "CUHK"], stage: "historical", category: "historical", summary: "Yang Deng 与 Wenxuan Zhang 的博士导师。", sources: [{ label: "CUHK Profile", url: "https://research.cuhk.edu.hk/en/persons/wai-lam/", kind: "official" }], x: 1000, y: 40 },
-  { id: "sinno-pan", name: "Sinno Jialin Pan", role: "Professor", institution: "External", area: "Machine Learning", tags: ["导师"], stage: "historical", category: "historical", summary: "Wenya Wang 公开主页列出的博士导师。", sources: [{ label: "Wenya Wang 主页", url: "https://personal.ntu.edu.sg/wangwy/", kind: "official" }], x: 650, y: 40 },
+  { id: "raymond-mooney", name: "Raymond Mooney", role: "Professor", institution: "External", area: "Machine Learning · NLP", tags: ["导师", "UT Austin"], stage: "historical", category: "historical", summary: "Hwee Tou Ng 博士导师。", sources: [{ label: "Ng 博士论文", url: "https://www.cs.utexas.edu/~ml/papers/hweetou_dissertation.pdf", kind: "thesis" }], x: 70, y: 40 },
+  { id: "kathleen-mckeown", name: "Kathleen McKeown", role: "Professor", institution: "External", area: "Natural Language Processing", tags: ["导师", "Columbia"], stage: "historical", category: "historical", summary: "Min-Yen Kan CV 列出的博士导师之一。", sources: [{ label: "Kan CV", url: "https://www.comp.nus.edu.sg/~kanmy/cv.1page.html", kind: "cv" }], x: 230, y: 40 },
+  { id: "victor-lesser", name: "Victor Lesser", role: "Distinguished Professor Emeritus", institution: "External", area: "Multi-agent Systems", tags: ["博士导师", "UMass Amherst", "AAAI Founding Fellow"], stage: "historical", category: "historical", summary: "Bo An 的博士导师，多智能体系统领域先驱、UMass Amherst Multi-Agent Systems Laboratory 创始主任。", sources: [{ label: "UMass Multi-Agent Systems Lab", url: "https://mas.cs.umass.edu/lesser.html", kind: "official" }], x: 405, y: 40 },
+  { id: "sinno-pan", name: "Sinno Jialin Pan", role: "Professor", institution: "External", area: "Machine Learning", tags: ["导师"], stage: "historical", category: "historical", summary: "Wenya Wang 公开主页列出的博士导师。", sources: [{ label: "Wenya Wang 主页", url: "https://personal.ntu.edu.sg/wangwy/", kind: "official" }], x: 575, y: 40 },
+  { id: "milind-tambe", name: "Milind Tambe", role: "Gordon McKay Professor · Google DeepMind", institution: "External", area: "Multi-agent Systems · AI for Social Good", tags: ["博士后合作", "Harvard", "Google DeepMind"], stage: "historical", category: "historical", summary: "Bo An 在 USC 博士后阶段的合作导师；现任 Harvard 教授及 Google DeepMind AI for Social Good 负责人。", sources: [{ label: "Google DeepMind Profile", url: "https://research.google/people/milindtambe/", kind: "official" }, { label: "Harvard Faculty Profile", url: "https://seas.harvard.edu/person/milind-tambe", kind: "official" }], x: 770, y: 40 },
+  { id: "wai-lam", name: "Wai Lam", role: "Professor", institution: "External", area: "NLP · Information Retrieval", tags: ["导师", "CUHK"], stage: "historical", category: "historical", summary: "Yang Deng 与 Wenxuan Zhang 的博士导师。", sources: [{ label: "CUHK Profile", url: "https://research.cuhk.edu.hk/en/persons/wai-lam/", kind: "official" }], x: 1015, y: 40 },
 ];
 
 export const relationships: Relationship[] = [
@@ -255,6 +262,8 @@ export const relationships: Relationship[] = [
   { id: "lam-deng", from: "wai-lam", to: "yang-deng", type: "lineage", label: "博士导师", evidence: "Yang Deng 的公开招聘资料明确写明博士阶段由 Wai Lam 指导。", source: { label: "Yang Deng Openings", url: "https://dengyang17.github.io/files/Openings.pdf", kind: "cv" }, verified: true },
   { id: "lam-zhang", from: "wai-lam", to: "wenxuan-zhang", type: "lineage", label: "博士导师", evidence: "SUTD 官方简介明确写明 Wenxuan Zhang 的博士导师为 Wai Lam。", source: { label: "SUTD Faculty Profile", url: "https://www.sutd.edu.sg/profile/zhang-wenxuan", kind: "official" }, verified: true },
   { id: "pan-wang", from: "sinno-pan", to: "wenya-wang", type: "lineage", label: "博士导师", evidence: "Wenya Wang 主页明确写明其博士阶段由 Sinno Jialin Pan 指导。", source: { label: "Wenya Wang 主页", url: "https://personal.ntu.edu.sg/wangwy/", kind: "official" }, verified: true },
+  { id: "lesser-an", from: "victor-lesser", to: "bo-an", type: "lineage", label: "博士导师", evidence: "Bo An 的个人主页与学术履历均列 Victor Lesser 为其 UMass Amherst 博士导师。", source: { label: "Bo An 学术履历", url: "https://personal.ntu.edu.sg/boan/CV-BOAN.pdf", kind: "cv" }, verified: true },
+  { id: "tambe-an", from: "milind-tambe", to: "bo-an", type: "talent", label: "博士后合作 / USC", evidence: "Bo An 官方主页记录其 2010–2012 年在 USC 与 Milind Tambe 开展博士后研究。", source: { label: "Bo An 个人主页", url: "https://personal.ntu.edu.sg/boan/", kind: "official" }, verified: true },
 
   { id: "ng-kan", from: "hwee-tou-ng", to: "min-yen-kan", type: "collaboration", label: "论文合作", evidence: "NUS 公开出版物记录两人的共同论文。", source: { label: "NUS Faculty Profile", url: "https://www.comp.nus.edu.sg/cs/people/kanmy/", kind: "official" }, verified: true },
   { id: "deng-chua", from: "tat-seng-chua", to: "yang-deng", type: "talent", label: "博士后指导 / NExT++", evidence: "Yang Deng 主页写明其在 NUS NExT++ 博士后阶段与 Tat-Seng Chua、See-Kiong Ng 工作。", source: { label: "CHAT NLP Group", url: "https://dengyang17.github.io/", kind: "profile" }, verified: true },
@@ -268,6 +277,8 @@ export const relationships: Relationship[] = [
   { id: "you-google", from: "yang-you", to: "yang-you", type: "industry", label: "Google Research Award · 2026", evidence: "NUS 公告确认其获得 Google 2026 研究奖。", source: { label: "NUS 公告", url: "https://www.comp.nus.edu.sg/bytes/nus-presidential-young-professor-yang-you-wins-google-research-award-to-build-foundations-for-next-generation-ai/", kind: "official" }, verified: true },
   { id: "joty-salesforce", from: "shafiq-joty", to: "shafiq-joty", type: "industry", label: "Salesforce Research 联合身份", evidence: "NTU 官方公告将其署名为 Salesforce Research 与 NTU。", source: { label: "NTU 公告", url: "https://www.ntu.edu.sg/computing/news-events/news/detail/the-2024-conference-on-empirical-methods-in-natural-language-processing", kind: "official" }, verified: true },
   { id: "cambria-industry", from: "erik-cambria", to: "erik-cambria", type: "industry", label: "MSRA / HP Labs / 创业", evidence: "NTU 实验室资料记录其企业研究经历与 SenticNet、finaXai 创业。", source: { label: "NTU Multi-Net Lab", url: "https://blogs.ntu.edu.sg/multi-net-lab/erik-cambria-5/", kind: "official" }, verified: true },
+  { id: "an-deployment", from: "bo-an", to: "bo-an", type: "industry", label: "安全博弈部署", evidence: "Bo An 官方简介称相关安全博弈软件已用于美国联邦空警、海岸警卫队与野生动物保护组织。", source: { label: "Bo An 个人主页", url: "https://personal.ntu.edu.sg/boan/", kind: "official" }, verified: true },
+  { id: "an-microsoft", from: "bo-an", to: "bo-an", type: "industry", label: "Microsoft Collaborative AI Challenge", evidence: "NTU 官方介绍记录 Bo An 团队 HogRider 获得 2017 Microsoft Collaborative AI Challenge 冠军。", source: { label: "NTU Professorial Installation", url: "https://www.ntu.edu.sg/computing/news-events/news/detail/professor-installation-ceremony-2022", kind: "official" }, verified: true },
   { id: "lu-alibaba", from: "wei-lu", to: "wei-lu", type: "industry", label: "Alibaba 研究合作", evidence: "SUTD 公开报道介绍 Wei Lu 团队与 Alibaba 的 NLP 合作。", source: { label: "SUTD Story", url: "https://www.sutd.edu.sg/stories-listing/taking-natural-language-processing-to-greater-heights", kind: "official" }, verified: true },
   { id: "zhang-alibaba", from: "wenxuan-zhang", to: "wenxuan-zhang", type: "industry", label: "Alibaba Singapore 前研究科学家", evidence: "SUTD 官方简介记录其此前任 Alibaba Group Singapore 研究科学家并获 Ali Star。", source: { label: "SUTD Faculty Profile", url: "https://www.sutd.edu.sg/profile/zhang-wenxuan", kind: "official" }, verified: true },
   { id: "deng-google", from: "yang-deng", to: "yang-deng", type: "industry", label: "Google South / Southeast Asia Research Award", evidence: "SMU 官方 CV 记录其 2024 Google South Asia & Southeast Asia Research Award。", source: { label: "SMU CV", url: "https://computing.smu.edu.sg/sites/scis.smu.edu.sg/files/2025-02/ydeng-CV.pdf", kind: "cv" }, verified: true },

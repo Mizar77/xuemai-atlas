@@ -66,12 +66,13 @@ export default function AcademicAtlas() {
   const visibleRelations = relationships.filter((relation) =>
     (edgeFilter === "all" || relation.type === edgeFilter) && visibleIds.has(relation.from) && visibleIds.has(relation.to)
   );
+  const activeGraphFocusId = graphFocusId && visibleIds.has(graphFocusId) ? graphFocusId : null;
   const graphFocusedIds = new Set<string>();
-  if (graphFocusId) {
-    graphFocusedIds.add(graphFocusId);
+  if (activeGraphFocusId) {
+    graphFocusedIds.add(activeGraphFocusId);
     visibleRelations.forEach((relation) => {
-      if (relation.from === graphFocusId) graphFocusedIds.add(relation.to);
-      if (relation.to === graphFocusId) graphFocusedIds.add(relation.from);
+      if (relation.from === activeGraphFocusId) graphFocusedIds.add(relation.to);
+      if (relation.to === activeGraphFocusId) graphFocusedIds.add(relation.from);
     });
   }
   const currentPiCount = people.filter((p) => p.primary && p.category !== "historical").length;
@@ -127,8 +128,8 @@ export default function AcademicAtlas() {
           <div className="atlas-content">
             {view === "graph" && (
               <div className="graph-scroll">
-                <div className="graph-canvas" aria-label="学者关系网络">
-                  <div className="graph-instruction"><span>点击人物，聚焦其直接关系</span>{graphFocusId && <button onClick={() => setGraphFocusId(null)}>显示全部</button>}</div>
+                <div className="graph-canvas" aria-label="学者关系网络" onClick={() => setGraphFocusId(null)}>
+                  <div className="graph-instruction" onClick={(event) => event.stopPropagation()}><span>点击人物聚焦关系 · 点击空白恢复全图</span>{activeGraphFocusId && <button onClick={() => setGraphFocusId(null)}>显示全部</button>}</div>
                   <div className="institution-zone zone-nus"><b>NUS</b><span>7 current PI</span></div>
                   <div className="institution-zone zone-ntu"><b>NTU</b><span>8 current PI</span></div>
                   <div className="institution-zone zone-sutd"><b>SUTD</b><span>1 current PI</span></div>
@@ -138,18 +139,18 @@ export default function AcademicAtlas() {
                     {visibleRelations.filter((r) => r.from !== r.to).map((relation) => {
                       const from = people.find((p) => p.id === relation.from)!;
                       const to = people.find((p) => p.id === relation.to)!;
-                      const active = graphFocusId !== null && (relation.from === graphFocusId || relation.to === graphFocusId);
-                      return <line key={relation.id} x1={from.x} y1={from.y} x2={to.x} y2={to.y} stroke={active ? relationColors[relation.type] : "#aeb9c5"} strokeWidth={active ? 3 : 1} strokeDasharray={relation.type === "collaboration" ? "7 5" : relation.type === "talent" ? "2 5" : undefined} opacity={active ? .95 : .2}><title>{relation.label}：{relation.evidence}</title></line>;
+                      const active = activeGraphFocusId !== null && (relation.from === activeGraphFocusId || relation.to === activeGraphFocusId);
+                      return <line key={relation.id} x1={from.x} y1={from.y} x2={to.x} y2={to.y} stroke={active ? relationColors[relation.type] : "#8290a0"} strokeWidth={active ? 3 : 1.25} strokeDasharray={relation.type === "collaboration" ? "7 5" : relation.type === "talent" ? "2 5" : undefined} opacity={active ? .95 : .42}><title>{relation.label}：{relation.evidence}</title></line>;
                     })}
                   </svg>
                   {visiblePeople.map((person) => (
-                    <button key={person.id} className={`person-node ${person.primary ? "primary-node" : "external-node"} ${graphFocusId === person.id ? "selected" : ""} ${graphFocusId && !graphFocusedIds.has(person.id) ? "dimmed" : "focus-active"}`} style={{ left: person.x, top: person.y, "--node-color": institutionColors[person.institution] } as React.CSSProperties} onClick={() => { setSelectedId(person.id); setGraphFocusId((current) => current === person.id ? null : person.id); }}>
+                    <button key={person.id} className={`person-node ${person.primary ? "primary-node" : "external-node"} ${activeGraphFocusId === person.id ? "selected" : ""} ${activeGraphFocusId && !graphFocusedIds.has(person.id) ? "dimmed" : "focus-active"}`} style={{ left: person.x, top: person.y, "--node-color": institutionColors[person.institution] } as React.CSSProperties} onClick={(event) => { event.stopPropagation(); setSelectedId(person.id); setGraphFocusId((current) => current === person.id ? null : person.id); }}>
                       <span className="node-avatar">{initials(person.name)}</span><span className="node-copy"><strong>{person.name}{person.chinese ? ` · ${person.chinese}` : ""}</strong><small>{person.institution} · {person.stage === "emerging" ? "发展期 PI" : person.area.split(" · ")[0]}</small></span>
                     </button>
                   ))}
                   {visibleRelations.filter((r) => r.from === r.to).map((r, index) => {
                     const owner = people.find((p) => p.id === r.from)!;
-                    return <button key={r.id} className={`self-relation-badge badge-${r.type} ${graphFocusId && graphFocusId !== owner.id ? "dimmed" : ""}`} style={{ left: owner.x + 28, top: owner.y + 35 + (index % 2) * 15 }} onClick={() => { setSelectedId(owner.id); setGraphFocusId((current) => current === owner.id ? null : owner.id); }}>↗ {r.label}</button>;
+                    return <button key={r.id} className={`self-relation-badge badge-${r.type} ${activeGraphFocusId && activeGraphFocusId !== owner.id ? "dimmed" : ""}`} style={{ left: owner.x + 28, top: owner.y + 35 + (index % 2) * 15 }} onClick={(event) => { event.stopPropagation(); setSelectedId(owner.id); setGraphFocusId((current) => current === owner.id ? null : owner.id); }}>↗ {r.label}</button>;
                   })}
                   {visiblePeople.length === 0 && <div className="empty-state">没有匹配结果。试试清除筛选条件。</div>}
                 </div>
