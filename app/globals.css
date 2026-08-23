@@ -324,7 +324,9 @@ footer > a { font-size: 10px; border-bottom: 1px solid #65748a; padding-bottom: 
   .focus-toolbar { flex-wrap: wrap; }
   .community-grid { grid-template-columns: repeat(2,1fr); }
   .scope-notes { grid-template-columns: 1fr; }
-  .company-atlas { grid-template-columns: 270px minmax(620px,1fr); overflow-x: auto; }
+  .company-atlas { display: block; min-height: 0; overflow: visible; }
+  .company-index { border-right: 0; border-bottom: 1px solid var(--line); }
+  .company-index > div { max-height: 250px; }
 }
 
 @media (max-width: 760px) {
@@ -364,9 +366,6 @@ footer > a { font-size: 10px; border-bottom: 1px solid #65748a; padding-bottom: 
   .coverage-row > span:nth-child(3)::before { content: "相邻"; }
   .community-grid { grid-template-columns: 1fr; }
   .community-card { min-height: 310px; }
-  .company-atlas { display: block; min-height: 0; overflow: visible; }
-  .company-index { border-right: 0; border-bottom: 1px solid var(--line); }
-  .company-index > div { max-height: 250px; }
   .company-graph { padding: 34px 16px 58px; }
   .pipeline { grid-template-columns: 1fr; gap: 8px; }
   .pipeline-edge { width: 1px; height: 18px; margin-left: 28px; }
