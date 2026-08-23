@@ -284,7 +284,7 @@ export const coverage = [
 ];
 
 export const communities = [
-  { kicker: "成熟谱系", name: "NUS Language & Multimodal", anchor: "Hwee Tou Ng · Min-Yen Kan · Tat-Seng Chua", description: "传统 NLP、检索与多模态基础模型并存，并向 SUTD 与 SMU 输送独立 PI。", color: "cobalt" },
+  { kicker: "成熟谱系", name: "NUS Language & Multimodal", anchor: "Hwee Tou Ng · Min-Yen Kan · Tat-Seng Chua", description: "传统 NLP、检索与多模态基础模型并存，并形成跨 NUS、NTU、SUTD 与 SMU 的人才联系。", color: "cobalt" },
   { kicker: "新生代独立组", name: "SUTD iNLP Lab", anchor: "Wenxuan Zhang", description: "聚焦多语言、多模态、Audio-Language 与 LLM Agents；曾任 Alibaba Singapore 研究科学家。", color: "lime" },
   { kicker: "多中心生态", name: "NTU NLP & Generative AI", anchor: "Shafiq Joty · Wei Lu · Soujanya Poria · Anh Tuan Luu", description: "多语言、可信 LLM、推理与多模态对话；学生产业去向覆盖 Salesforce、Apple、腾讯、华为、阿里与字节。", color: "coral" },
   { kicker: "研究院转化", name: "A*STAR Language Intelligence", anchor: "Ai Ti Aw · Nancy Chen · Jian Su", description: "东南亚语言、语音对话、国家多模态 LLM 与大规模技术部署。", color: "violet" },
