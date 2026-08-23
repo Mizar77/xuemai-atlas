@@ -1,100 +1,171 @@
-# vinext-starter
+# 学脉 Atlas / Xuemai Atlas
 
-A clean full-stack starter running on
-[vinext](https://github.com/cloudflare/vinext), with optional Cloudflare D1 and
-Drizzle support.
+[中文](#中文) · [English](#english)
 
-## Prerequisites
+**在线图谱 / Live website:** [https://xuemai-atlas.miromind-0889.chatgpt.site](https://xuemai-atlas.miromind-0889.chatgpt.site)
 
-- Node.js `>=22.13.0`
+学脉 Atlas 是一个由公开证据驱动的 AI、NLP 与 LLM 学术关系图谱。我们希望更清楚地呈现研究者之间的师承、合作、人才流动与产业连接，并通过社区纠错持续补全信息。
 
-## Quick Start
+Xuemai Atlas is an evidence-linked academic network for AI, NLP, and LLM researchers. It maps academic lineage, collaboration, career movement, and industry connections, and improves through community-contributed corrections and additions.
+
+---
+
+<a id="中文"></a>
+
+## 中文
+
+### 这个项目是什么？
+
+学术关系很难从单一网页看清：导师与学生可能分布在不同学校，合作者可能跨越多个机构，学生毕业后又会进入高校、研究院、创业公司或互联网企业。学脉 Atlas 将这些分散在学校主页、个人简历、论文、实验室页面和公司资料中的公开信息连接起来，形成可以按人物、机构、关系类型和公司反向查找的图谱。
+
+当前首期聚焦**新加坡的 AI、NLP 与 LLM 学术生态**，包括 NUS、NTU、SUTD、SMU 与 A\*STAR；长期目标是逐步扩展到**中国大陆、香港和新加坡**，同时保持清晰的收录边界与来源标准。
+
+### 图谱里有什么信息？
+
+- 学者姓名与公开中文名、现任机构、职务、研究方向和实验室
+- 资深 PI、发展期独立 PI、相邻 AI 方向与历史节点
+- 博士导师、博士后指导或合作、公开论文合作
+- 教师与企业研究部门、联合实验室、创业公司的连接
+- 已公开核验的学生毕业去向、当前任职和重要职位
+- 以公司或部门为中心的反向人才图
+- 每条人物信息和关系所对应的公开来源
+- 覆盖范围、统计口径以及尚待补充的空白
+
+图谱不会因为两个人在同一机构、参加同一会议或研究方向相近，就自动推断他们存在师承或合作关系。没有可靠来源时，我们宁愿暂时留空。
+
+### 查看在线图谱
+
+访问：[学脉 Atlas 在线网站](https://xuemai-atlas.miromind-0889.chatgpt.site)
+
+你可以搜索人物与研究方向、按机构和关系类型筛选、点击人物突出直接关系，并从公司反向查看不同教师的学生去向。
+
+### 欢迎纠错、补充和 Comment
+
+这份图谱一定还有遗漏，也可能遇到职位变化、主页更新或关系证据不完整。**欢迎任何了解相关领域的人提交纠正与补充。每一条有来源的反馈，都会让图谱更准确。**
+
+你可以通过三种方式参与：
+
+1. **网站侧边栏**：打开在线图谱，点击页面右侧的“纠错 / 补充”，选择反馈类型，填写涉及对象、具体说明和公开来源链接。提交内容会进入审核队列，不会未经核验直接公开。
+2. **GitHub Issue**：在 [Issues](https://github.com/Mizar77/xuemai-atlas/issues/new) 中提出新增人物、关系纠错、职位更新、学生去向或来源补充。
+3. **Pull Request**：如果你熟悉代码，可以直接修改 [`app/data.ts`](./app/data.ts) 或相关页面并提交 PR。请在 PR 中说明修改理由并附上来源。
+
+为了便于核验，建议反馈尽量包含：
+
+- 人物的中英文姓名
+- 需要新增或修改的具体字段
+- 关系双方及关系类型
+- 学校主页、个人 CV、博士论文、论文页面、实验室或公司官方页面
+- 信息对应的时间，例如“2026 年起任职”
+
+请不要提交私人联系方式、未经公开的就业信息、传闻或仅凭印象判断的关系。
+
+### 数据与审核原则
+
+- 优先使用学校、研究机构、个人主页、CV、论文和公司官方资料
+- 师承、合作与职业去向均需有可访问的公开证据
+- 区分当前任职、历史节点和跨地区流动
+- 对争议信息保持中性描述，并保留来源与时间语境
+- 社区提交默认先审核，再进入公开图谱
+
+### 本地运行
+
+需要 Node.js `>=22.13.0`。
 
 ```bash
 npm install
 npm run dev
+```
+
+验证构建：
+
+```bash
 npm run build
+npm test
 ```
 
-This starter does not use `wrangler.jsonc`.
+项目使用 React、vinext、Cloudflare Workers、D1 与 Drizzle。反馈接口位于 `app/api/feedback`，数据库结构位于 `db/`，迁移文件位于 `drizzle/`。
 
-## Included Shape
+---
 
-- edit site code under `app/`
-- `.openai/hosting.json` declares optional Sites D1 and R2 bindings
-- `vite.config.ts` simulates declared bindings for local development
-- `db/schema.ts` starts intentionally empty
-- `examples/d1/` contains an optional D1 example surface
-- `drizzle.config.ts` supports local migration generation when needed
+<a id="english"></a>
 
-## Workspace Auth Headers
+## English
 
-Signed-in visitors receive both `oai-authenticated-user-id` and `oai-authenticated-user-email`. Private Sites require every visitor to sign in; public Sites may also have anonymous visitors, for whom neither header is present.
+### What is this repository?
 
-The user ID is stable for the same user on the same Site and different across Sites. Email and name are intended for display or contact purposes.
+Academic relationships are scattered across faculty pages, CVs, dissertations, papers, lab websites, and company profiles. Xuemai Atlas connects those public records so that academic lineage, collaboration, career movement, and industry links can be explored in one place.
 
-SIWC-authenticated workspace sites may also receive
-`oai-authenticated-user-full-name` when the user's SIWC profile has a non-empty
-`name` claim. The full-name value is percent-encoded UTF-8 and is accompanied by
-`oai-authenticated-user-full-name-encoding: percent-encoded-utf-8`.
+The first release focuses on the **AI, NLP, and LLM ecosystem in Singapore**, covering NUS, NTU, SUTD, SMU, and A\*STAR. The longer-term goal is to expand carefully across **Mainland China, Hong Kong, and Singapore** while keeping the scope and evidence standard explicit.
 
-Treat the full name as optional and fall back to email when it is absent:
+### What information does the atlas contain?
 
-```tsx
-import { headers } from "next/headers";
+- Researchers' names and publicly established Chinese names, affiliations, roles, research areas, and labs
+- Senior PIs, emerging independent PIs, adjacent AI areas, and historical nodes
+- PhD supervision, postdoctoral mentorship or collaboration, and verified publication links
+- Connections to industrial research teams, joint labs, startups, and technology companies
+- Publicly verifiable student placements, current roles, and selected senior positions
+- A reverse index organized by company or department
+- Source links attached to people and relationships
+- Coverage notes, inclusion rules, and known gaps
 
-export default async function Home() {
-  const requestHeaders = await headers();
-  const userId = requestHeaders.get("oai-authenticated-user-id");
-  const email = requestHeaders.get("oai-authenticated-user-email");
-  const encodedFullName = requestHeaders.get("oai-authenticated-user-full-name");
-  const fullName =
-    encodedFullName &&
-    requestHeaders.get("oai-authenticated-user-full-name-encoding") ===
-      "percent-encoded-utf-8"
-      ? decodeURIComponent(encodedFullName)
-      : null;
+The atlas does not infer a relationship merely because two people share an institution, conference, or research interest. When reliable evidence is unavailable, the edge is left open.
 
-  const displayName = fullName ?? email;
-  // ...
-}
+### Explore the live atlas
+
+Visit: [Xuemai Atlas](https://xuemai-atlas.miromind-0889.chatgpt.site)
+
+You can search by researcher or topic, filter by institution and relationship type, select a person to highlight direct connections, and browse student pipelines from the company side.
+
+### Corrections, additions, and comments are welcome
+
+This atlas is necessarily incomplete, and academic roles and affiliations change over time. **If you know this community, please help us improve the data. A well-sourced correction or missing connection is genuinely valuable.**
+
+There are three ways to contribute:
+
+1. **Website feedback drawer:** open the live atlas and select “纠错 / 补充” on the right side. Choose a feedback type and provide the subject, explanation, and a public source URL. Submissions enter a moderation queue and are not published automatically.
+2. **GitHub Issue:** open a [new issue](https://github.com/Mizar77/xuemai-atlas/issues/new) for a missing researcher, incorrect relationship, role change, student placement, or additional source.
+3. **Pull Request:** edit [`app/data.ts`](./app/data.ts) or the relevant page and submit a PR. Explain the change and include supporting sources.
+
+Helpful submissions usually include:
+
+- The researcher's English and Chinese names, when applicable
+- The exact field or statement to add or correct
+- Both endpoints and the type of a proposed relationship
+- A university page, CV, dissertation, paper, lab page, or official company profile
+- A date or time context for role and affiliation changes
+
+Please do not submit private contact details, non-public employment information, rumors, or relationships inferred only from proximity.
+
+### Data and moderation principles
+
+- Prefer first-party university, institute, researcher, publication, and company sources
+- Require accessible public evidence for lineage, collaboration, and career outcomes
+- Distinguish current appointments from historical and cross-region nodes
+- Describe disputed information neutrally and preserve its source and time context
+- Review community submissions before publishing them in the atlas
+
+### Local development
+
+Node.js `>=22.13.0` is required.
+
+```bash
+npm install
+npm run dev
 ```
 
-## Optional Dispatch-Owned ChatGPT Sign-In
+Validate the project with:
 
-Import the ready-to-use helpers from `app/chatgpt-auth.ts` when the site needs
-optional or required ChatGPT sign-in:
+```bash
+npm run build
+npm test
+```
 
-- Use `getChatGPTUser()` for optional signed-in UI.
-- Use `requireChatGPTUser(returnTo)` for server-rendered pages that should send
-  anonymous visitors through Sign in with ChatGPT.
-- Use `chatGPTSignInPath(returnTo)` and `chatGPTSignOutPath(returnTo)` for
-  browser links or actions.
-- Pass a same-origin relative `returnTo` path for the destination after sign-in
-  or sign-out. The helper validates and safely encodes it.
-- Mark protected pages with `export const dynamic = "force-dynamic"` because
-  they depend on per-request identity headers.
+The project uses React, vinext, Cloudflare Workers, D1, and Drizzle. The feedback API lives under `app/api/feedback`, the database schema is in `db/`, and migrations are stored in `drizzle/`.
 
-Dispatch owns `/signin-with-chatgpt`, `/signout-with-chatgpt`, `/callback`, the
-OAuth cookies, and identity header injection. Do not implement app routes for
-those reserved paths. Routes that do not import and call the helper remain
-anonymous-compatible.
+---
 
-SIWC establishes identity only; it does not prove workspace membership. Use the
-Sites hosting platform's access policy controls for workspace-wide restrictions,
-or enforce explicit server-side membership or allowlist checks.
+## Acknowledgement / 致谢
 
-Use SIWC for account pages, user-specific dashboards, saved records, and write
-actions tied to the current ChatGPT user. Leave public content anonymous.
+感谢每一位提供纠错、来源与遗漏线索的贡献者。学术生态持续变化，这个项目也会随着可靠的新证据持续更新。
 
-## Useful Commands
-
-- `npm run dev`: start local development
-- `npm run build`: verify the vinext build output
-- `npm test`: build the starter and verify its rendered loading skeleton
-- `npm run db:generate`: generate Drizzle migrations after schema changes
-
-## Learn More
-
-- [vinext Documentation](https://github.com/cloudflare/vinext)
-- [Drizzle D1 Guide](https://orm.drizzle.team/docs/get-started/d1-new)
+Thank you to everyone who contributes corrections, sources, and missing links. Academic communities evolve, and this project should evolve with reliable new evidence.
