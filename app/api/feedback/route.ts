@@ -1,6 +1,8 @@
 import { getDb } from "../../../db";
 import { feedback } from "../../../db/schema";
 
+const githubPagesOrigin = "https://mizar77.github.io";
+
 const feedbackTypes = new Set([
   "correction",
   "add_person",
@@ -24,6 +26,35 @@ function validSourceUrl(value: string) {
   }
 }
 
+function corsHeaders(request: Request) {
+  return request.headers.get("origin") === githubPagesOrigin
+    ? { "Access-Control-Allow-Origin": githubPagesOrigin, Vary: "Origin" }
+    : {};
+}
+
+function json(request: Request, body: unknown, init?: ResponseInit) {
+  const headers = new Headers(init?.headers);
+  Object.entries(corsHeaders(request)).forEach(([key, value]) => headers.set(key, value));
+  return Response.json(body, { ...init, headers });
+}
+
+export async function OPTIONS(request: Request) {
+  if (request.headers.get("origin") !== githubPagesOrigin) {
+    return new Response(null, { status: 403 });
+  }
+
+  return new Response(null, {
+    status: 204,
+    headers: {
+      "Access-Control-Allow-Origin": githubPagesOrigin,
+      "Access-Control-Allow-Methods": "POST, OPTIONS",
+      "Access-Control-Allow-Headers": "Content-Type",
+      "Access-Control-Max-Age": "86400",
+      Vary: "Origin",
+    },
+  });
+}
+
 export async function POST(request: Request) {
   try {
     const payload = (await request.json()) as Record<string, unknown>;
@@ -31,7 +62,7 @@ export async function POST(request: Request) {
 
     // Hidden honeypot: acknowledge automated submissions without storing them.
     if (website) {
-      return Response.json({ ok: true, reference: "received" }, { status: 201 });
+      return json(request, { ok: true, reference: "received" }, { status: 201 });
     }
 
     const feedbackType = clean(payload.feedbackType, 40);
@@ -43,16 +74,16 @@ export async function POST(request: Request) {
     const context = clean(payload.context, 300);
 
     if (!feedbackTypes.has(feedbackType)) {
-      return Response.json({ error: "请选择反馈类型。" }, { status: 400 });
+      return json(request, { error: "请选择反馈类型。" }, { status: 400 });
     }
     if (subject.length < 2) {
-      return Response.json({ error: "请填写涉及的人物、机构或关系。" }, { status: 400 });
+      return json(request, { error: "请填写涉及的人物、机构或关系。" }, { status: 400 });
     }
     if (content.length < 10) {
-      return Response.json({ error: "请至少提供 10 个字的说明。" }, { status: 400 });
+      return json(request, { error: "请至少提供 10 个字的说明。" }, { status: 400 });
     }
     if (!validSourceUrl(sourceUrl)) {
-      return Response.json({ error: "来源链接需要以 http:// 或 https:// 开头。" }, { status: 400 });
+      return json(request, { error: "来源链接需要以 http:// 或 https:// 开头。" }, { status: 400 });
     }
 
     const publicId = `fb_${crypto.randomUUID().replaceAll("-", "").slice(0, 12)}`;
@@ -68,8 +99,8 @@ export async function POST(request: Request) {
       context: context || null,
     });
 
-    return Response.json({ ok: true, reference: publicId }, { status: 201 });
+    return json(request, { ok: true, reference: publicId }, { status: 201 });
   } catch {
-    return Response.json({ error: "暂时无法提交，请稍后再试。" }, { status: 500 });
+    return json(request, { error: "暂时无法提交，请稍后再试。" }, { status: 500 });
   }
 }

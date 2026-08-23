@@ -2,7 +2,7 @@
 
 [中文](#中文) · [English](#english)
 
-**在线图谱 / Live website:** [https://xuemai-atlas.miromind-0889.chatgpt.site](https://xuemai-atlas.miromind-0889.chatgpt.site)
+**在线图谱 / Live website:** [https://mizar77.github.io/xuemai-atlas/](https://mizar77.github.io/xuemai-atlas/)
 
 学脉 Atlas 是一个由公开证据驱动的 AI、NLP 与 LLM 学术关系图谱。我们希望更清楚地呈现研究者之间的师承、合作、人才流动与产业连接，并通过社区纠错持续补全信息。
 
@@ -35,7 +35,7 @@ Xuemai Atlas is an evidence-linked academic network for AI, NLP, and LLM researc
 
 ### 查看在线图谱
 
-访问：[学脉 Atlas 在线网站](https://xuemai-atlas.miromind-0889.chatgpt.site)
+访问：[学脉 Atlas 在线网站](https://mizar77.github.io/xuemai-atlas/)
 
 你可以搜索人物与研究方向、按机构和关系类型筛选、点击人物突出直接关系，并从公司反向查看不同教师的学生去向。
 
@@ -112,7 +112,7 @@ The atlas does not infer a relationship merely because two people share an insti
 
 ### Explore the live atlas
 
-Visit: [Xuemai Atlas](https://xuemai-atlas.miromind-0889.chatgpt.site)
+Visit: [Xuemai Atlas](https://mizar77.github.io/xuemai-atlas/)
 
 You can search by researcher or topic, filter by institution and relationship type, select a person to highlight direct connections, and browse student pipelines from the company side.
 

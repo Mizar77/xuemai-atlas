@@ -15,6 +15,12 @@ const feedbackOptions = [
   ["other", "其他建议"],
 ] as const;
 
+function feedbackApiUrl() {
+  return window.location.hostname.toLowerCase() === "mizar77.github.io"
+    ? "https://xuemai-atlas.miromind-0889.chatgpt.site/api/feedback"
+    : "/api/feedback";
+}
+
 export default function FeedbackDrawer({ defaultSubject }: FeedbackDrawerProps) {
   const [open, setOpen] = useState(false);
   const [feedbackType, setFeedbackType] = useState("correction");
@@ -46,7 +52,7 @@ export default function FeedbackDrawer({ defaultSubject }: FeedbackDrawerProps) 
     setSubmitting(true);
     setError("");
     try {
-      const response = await fetch("/api/feedback", {
+      const response = await fetch(feedbackApiUrl(), {
         method: "POST",
         headers: { "content-type": "application/json" },
         body: JSON.stringify({
