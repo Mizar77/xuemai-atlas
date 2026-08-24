@@ -52,13 +52,13 @@ button { color: inherit; }
 .status-pill i { display: inline-block; width: 7px; height: 7px; background: var(--teal); border-radius: 50%; margin-right: 7px; box-shadow: 0 0 0 3px rgba(7,163,131,.12); }
 
 .hero {
-  max-width: 1480px;
+  max-width: none;
   margin: 0 auto;
-  padding: 30px 48px 42px;
+  padding: 0 48px 42px;
 }
-.hero-visual { display: block; width: 100%; overflow: hidden; border: 1px solid #d9d6cb; border-radius: 18px; background: #f7f3e9; box-shadow: 0 22px 60px rgba(38,55,75,.09); line-height: 0; }
+.hero-visual { display: block; width: min(1728px, calc(100vw - 96px)); margin: 0 auto; overflow: hidden; background: #f7f1e5; line-height: 0; }
 .hero-visual img { display: block; width: 100%; height: auto; }
-.hero-utility { display: grid; grid-template-columns: auto minmax(260px, 1fr) auto; gap: 24px; align-items: center; margin-top: 16px; padding: 13px 16px; border: 1px solid #d7ded4; border-radius: 12px; background: rgba(255,255,255,.78); box-shadow: 0 10px 28px rgba(38,55,75,.05); }
+.hero-utility { max-width: 1384px; display: grid; grid-template-columns: auto minmax(260px, 1fr) auto; gap: 24px; align-items: center; margin: 16px auto 0; padding: 13px 16px; border-top: 1px solid #d7ded4; border-bottom: 1px solid #d7ded4; background: rgba(255,255,255,.48); }
 .region-switch { width: max-content; display: flex; gap: 4px; margin: 0; padding: 4px; border: 1px solid #cdd6ca; border-radius: 999px; background: rgba(255,255,255,.82); }
 .region-switch button { min-width: 108px; padding: 8px 14px; border: 0; border-radius: 999px; background: transparent; color: #657386; cursor: pointer; font-size: 12px; font-weight: 800; }
 .region-switch button small { display: block; margin-top: 1px; color: #8995a4; font: 600 7px var(--font-space), sans-serif; letter-spacing: .08em; text-transform: uppercase; }
@@ -387,7 +387,8 @@ footer > a { font-size: 10px; border-bottom: 1px solid #65748a; padding-bottom: 
 @media (max-width: 1040px) {
   .topbar { padding: 0 24px; grid-template-columns: 1fr auto; }
   .topbar nav { display: none; }
-  .hero { padding: 24px 24px 36px; }
+  .hero { padding: 0 24px 36px; }
+  .hero-visual { width: calc(100vw - 48px); }
   .hero-utility { grid-template-columns: 1fr auto; }
   .region-switch { grid-column: 1 / -1; }
   .hero-summary { justify-self: start; }
@@ -405,9 +406,9 @@ footer > a { font-size: 10px; border-bottom: 1px solid #65748a; padding-bottom: 
 @media (max-width: 760px) {
   .topbar { height: 66px; padding: 0 18px; }
   .status-pill { font-size: 8px; padding: 7px 9px; }
-  .hero { padding: 16px 12px 36px; }
-  .hero-visual { border-radius: 12px; }
-  .hero-utility { display: block; padding: 12px; }
+  .hero { padding: 0 12px 36px; }
+  .hero-visual { width: calc(100vw - 24px); }
+  .hero-utility { display: block; margin-top: 10px; padding: 12px 0; }
   .region-switch { width: 100%; overflow-x: auto; }
   .region-switch button { min-width: 94px; padding: 8px 10px; }
   .hero-summary { margin: 12px 0 16px; }
