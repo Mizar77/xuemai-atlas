@@ -19,6 +19,7 @@ export type Person = {
   area: string;
   tags: string[];
   summary: string;
+  facts?: { label: string; value: string; source?: Source }[];
   stage: Stage;
   category: Category;
   status?: string;
@@ -67,6 +68,15 @@ export type StudentPlacement = {
   kind: "current" | "first_job" | "founder" | "reported";
   highLevel?: boolean;
   note?: string;
+  source: Source;
+};
+
+export type GroupMember = {
+  id: string;
+  teacherId: string;
+  name: string;
+  role: string;
+  focus?: string;
   source: Source;
 };
 
@@ -387,31 +397,58 @@ export const people: Person[] = [
     x: 275, y: 575, primary: true,
   },
   {
-    id: "zhisong-zhang", name: "Zhisong Zhang", role: "Presidential Assistant Professor", institution: "CityU", region: "Hong Kong",
+    id: "zhisong-zhang", name: "Zhisong Zhang", chinese: "張智松", role: "Presidential Assistant Professor", institution: "CityU", region: "Hong Kong",
     area: "Long-context LLM · Agents · NLP", tags: ["长上下文", "LLM Agents", "NLP", "2025 新 PI"], stage: "emerging", category: "core",
-    summary: "2025 年加入 CityU 的 Presidential Assistant Professor，CMU LTI 博士；研究长上下文语言模型、LLM 智能体与语言模型机制，是香港最新一批独立 NLP PI。",
-    sources: [{ label: "CityU Presidential Assistant Professors", url: "https://www.cityu.edu.hk/vpti/presidential-assistant-professors-scheme/paps", kind: "official" }],
+    summary: "CMU Language Technologies Institute 博士，当前从模型层和系统层研究高效、可靠的 LLM / Agent：包括长上下文压缩、语言模型机制、Web Agent 与 Deep Research 系统。",
+    facts: [
+      { label: "教育", value: "CMU LTI PhD (2023)；上海交通大学计算机 BS / MS", source: { label: "Zhisong Zhang 主页", url: "https://zzsfornlp.github.io/", kind: "profile" } },
+      { label: "博士导师", value: "Xuezhe Ma", source: { label: "CMU LTI Alumni", url: "https://www.lti.cs.cmu.edu/people/alumni/alumni-2023/zhang-zhisong.html", kind: "official" } },
+      { label: "研究层次", value: "模型层：长上下文与机制；系统层：搜索、Web Agent 与 Deep Research", source: { label: "Research Page", url: "https://zzsfornlp.github.io/research", kind: "profile" } },
+      { label: "招生状态", value: "公开招收 PhD / MPhil、RA 与访问学生", source: { label: "Openings", url: "https://zzsfornlp.github.io/opening", kind: "profile" } },
+    ],
+    sources: [{ label: "CityU Presidential Assistant Professors", url: "https://www.cityu.edu.hk/vpti/presidential-assistant-professors-scheme/paps", kind: "official" }, { label: "Zhisong Zhang 主页", url: "https://zzsfornlp.github.io/", kind: "profile" }, { label: "CMU LTI Alumni", url: "https://www.lti.cs.cmu.edu/people/alumni/alumni-2023/zhang-zhisong.html", kind: "official" }],
     x: 115, y: 665, primary: true,
   },
   {
-    id: "gang-liu-cityu", name: "Gang Liu", role: "Assistant Professor", institution: "CityU", region: "Hong Kong",
-    area: "Generative AI · LLM · Foundation Models", tags: ["LLM", "生成式 AI", "基础模型", "新独立 PI"], stage: "emerging", category: "core",
-    summary: "CityU 数据科学系新独立 PI，官方研究方向直接列为生成式 AI、大语言模型和基础模型。",
-    sources: [{ label: "CityU Data Science Academic Staff", url: "https://www.ds.cityu.edu.hk/en/people/academic-staff", kind: "official" }],
+    id: "gang-liu-cityu", name: "Gang Liu", chinese: "劉罡", role: "Assistant Professor · DSAIL Director", institution: "CityU", region: "Hong Kong",
+    area: "Generative AI · Multimodal LLM · AI for Science", tags: ["LLM", "生成式 AI", "基础模型", "AI4Science", "分子设计"], stage: "emerging", category: "core",
+    summary: "CityU 数据科学系与香港人工智能与科学研究院独立 PI，创建 Data × Science × AI Lab；以生成式/多模态基础模型和数据中心学习推动分子、材料发现。",
+    facts: [
+      { label: "教育与导师", value: "Notre Dame CSE PhD (2026)，导师 Meng Jiang；与 Tengfei Luo 合作 AI for Science", source: { label: "Gang Liu 主页", url: "https://liugangcode.github.io/", kind: "profile" } },
+      { label: "研究组", value: "Data × Science × Artificial Intelligence Lab (DSAIL)", source: { label: "DSAIL", url: "https://liugangcode.github.io/dsail.html", kind: "profile" } },
+      { label: "产业研究", value: "Amazon Applied Scientist 实习；Broad Institute 与 MIT–IBM Watson AI Lab 研究实习", source: { label: "Gang Liu 主页", url: "https://liugangcode.github.io/", kind: "profile" } },
+      { label: "研究资助", value: "IBM PhD Fellowship、OpenAI Researcher Access、Kaggle Competition Research Grant", source: { label: "Gang Liu 主页", url: "https://liugangcode.github.io/", kind: "profile" } },
+      { label: "开放工具", value: "torch-molecule；NeurIPS 2025 Open Polymer Challenge 负责人", source: { label: "CityU DSAI Profile", url: "https://www.ds.cityu.edu.hk/people/academic-staff/professor-gang-liu", kind: "official" } },
+    ],
+    sources: [{ label: "CityU DSAI Profile", url: "https://www.ds.cityu.edu.hk/people/academic-staff/professor-gang-liu", kind: "official" }, { label: "Gang Liu 主页", url: "https://liugangcode.github.io/", kind: "profile" }, { label: "DSAIL", url: "https://liugangcode.github.io/dsail.html", kind: "profile" }],
     x: 275, y: 665, primary: true,
   },
   {
-    id: "ning-miao", name: "Ning Miao", role: "Assistant Professor", institution: "CityU", region: "Hong Kong",
-    area: "LLM Reasoning · Generative Models · NLP", tags: ["LLM 推理", "生成模型", "NLP", "Oxford PhD"], stage: "emerging", category: "core",
-    summary: "CityU 数据科学系发展期 PI，研究大语言模型推理能力、生成模型与自然语言处理。",
-    sources: [{ label: "CityU Data Science Academic Staff", url: "https://www.ds.cityu.edu.hk/en/people/academic-staff", kind: "official" }],
+    id: "ning-miao", name: "Ning Miao", chinese: "苗寧", role: "Assistant Professor · Miaow Lab Director", institution: "CityU", region: "Hong Kong",
+    area: "LLM Reasoning · AI4Math · Generative Models", tags: ["LLM 推理", "AI4Math", "生成模型", "Oxford PhD", "ByteDance AI Lab"], stage: "emerging", category: "core",
+    summary: "CityU 数据科学系与香港人工智能与科学研究院 PI，创建 Miaow Lab；从推理过程解释、奖励模型、工具使用与数学推理等方向研究 machine reasoning，并延续深度生成模型主线。",
+    facts: [
+      { label: "教育", value: "Oxford Statistics PhD；Peking University BS / MS", source: { label: "Ning Miao 主页", url: "https://www.ningmiao.space/", kind: "profile" } },
+      { label: "博士导师", value: "Tom Rainforth、Yee Whye Teh", source: { label: "Oxford CSML", url: "https://csml.stats.ox.ac.uk/people/miao/", kind: "official" } },
+      { label: "研究组", value: "Miaow Lab：LLM reasoning、AI4Math、generative models", source: { label: "Miaow Lab", url: "https://miaow-lab.github.io/", kind: "profile" } },
+      { label: "产业经历", value: "ByteDance AI Lab 前研究员", source: { label: "Ning Miao 主页", url: "https://www.ningmiao.space/", kind: "profile" } },
+      { label: "近期进展", value: "2026 RGC Early Career Scheme；ICML 2026 reasoning interpretability 工作", source: { label: "Ning Miao 主页", url: "https://www.ningmiao.space/", kind: "profile" } },
+    ],
+    sources: [{ label: "CityU DSAI Profile", url: "https://www.ds.cityu.edu.hk/people/academic-staff/professor-ning-miao", kind: "official" }, { label: "Ning Miao 主页", url: "https://www.ningmiao.space/", kind: "profile" }, { label: "Miaow Lab", url: "https://miaow-lab.github.io/", kind: "profile" }, { label: "Oxford CSML", url: "https://csml.stats.ox.ac.uk/people/miao/", kind: "official" }],
     x: 115, y: 755, primary: true,
   },
   {
     id: "jianyuan-guo", name: "Jianyuan Guo", chinese: "郭健元", role: "Presidential Assistant Professor", institution: "CityU", region: "Hong Kong",
-    area: "Efficient Multimodal AI · LLM", tags: ["多模态", "LLM", "模型压缩", "2025 新 PI"], stage: "emerging", category: "adjacent",
-    summary: "2025 年加入 CityU，研究高效计算机视觉、自然语言处理、大模型与多模态理解；以机器感知为主，列入相邻层。",
-    sources: [{ label: "CityU CS Academic Staff", url: "https://www.cs.cityu.edu.hk/en/people/academic-staff", kind: "official" }, { label: "CityU Presidential Assistant Professors", url: "https://www.cityu.edu.hk/vpti/presidential-assistant-professors-scheme/paps", kind: "official" }],
+    area: "Efficient Multimodal AI · LLM/LVM · Agents", tags: ["多模态", "LLM / LVM", "模型压缩", "具身 AI", "Agentic FM"], stage: "emerging", category: "adjacent",
+    summary: "2025 年 6 月加入 CityU 的 Presidential Assistant Professor，以高效机器感知为主线，覆盖 LLM/LVM 新架构、模型压缩、多模态理解、边缘计算、具身 AI 与 agentic foundation models。",
+    facts: [
+      { label: "教育", value: "University of Sydney CS PhD；Peking University EECS BS / MS", source: { label: "CityU PAPS", url: "https://www.cityu.edu.hk/vpti/presidential-assistant-professors-scheme/paps", kind: "official" } },
+      { label: "导师谱系", value: "博士导师 Chang Xu；北大阶段导师 Chao Zhang", source: { label: "Jianyuan Guo 主页", url: "https://ggjy.github.io/", kind: "profile" } },
+      { label: "代表方向", value: "高效视觉/语言大模型、知识蒸馏、多模态融合、具身 AI 与智能体", source: { label: "Jianyuan Guo 主页", url: "https://ggjy.github.io/", kind: "profile" } },
+      { label: "奖项", value: "2022 Google PhD Fellowship；2026 CORE Australasian Distinguished Dissertation Commendation", source: { label: "Jianyuan Guo 主页", url: "https://ggjy.github.io/", kind: "profile" } },
+      { label: "教学", value: "Topics in Generative AI、Topics in Machine Learning、Artificial Intelligence", source: { label: "Jianyuan Guo 主页", url: "https://ggjy.github.io/", kind: "profile" } },
+    ],
+    sources: [{ label: "CityU CS Academic Staff", url: "https://www.cs.cityu.edu.hk/en/people/academic-staff", kind: "official" }, { label: "CityU Presidential Assistant Professors", url: "https://www.cityu.edu.hk/vpti/presidential-assistant-professors-scheme/paps", kind: "official" }, { label: "Jianyuan Guo 主页", url: "https://ggjy.github.io/", kind: "profile" }],
     x: 275, y: 755, primary: true,
   },
   {
@@ -542,6 +579,10 @@ export const relationships: Relationship[] = [
   { id: "radev-yu", from: "dragomir-radev", to: "tao-yu", type: "lineage", label: "博士导师", evidence: "Tao Yu 公开主页写明其 Yale 博士导师为 Dragomir Radev。", source: { label: "Tao Yu 个人主页", url: "https://taoyds.github.io/", kind: "profile" }, verified: true },
   { id: "berg-he", from: "taylor-berg-kirkpatrick", to: "junxian-he", type: "lineage", label: "博士导师", evidence: "CMU LTI alumni 页面列 Taylor Berg-Kirkpatrick 为 Junxian He 的 Academic Advisor。", source: { label: "CMU LTI Alumni", url: "https://www.lti.cs.cmu.edu/people/alumni/alumni-2022/he-junxian.html", kind: "official" }, verified: true },
   { id: "wong-ma", from: "kam-fai-wong", to: "jing-ma-hkbu", type: "lineage", label: "共同博士导师", evidence: "HKBU Scholars 明确记录 Jing Ma 的 CUHK 博士由 Kam-Fai Wong 与 Wei Gao 共同指导。", source: { label: "HKBU Scholars", url: "https://scholars.hkbu.edu.hk/en/persons/MAJING/", kind: "official" }, verified: true },
+  { id: "ma-zhisong-lineage", from: "zhisong-zhang", to: "zhisong-zhang", type: "lineage", label: "博士导师：Xuezhe Ma", evidence: "CMU LTI alumni 页面记录 Zhisong Zhang 的 Academic Advisor 为 Xuezhe Ma。", source: { label: "CMU LTI Alumni", url: "https://www.lti.cs.cmu.edu/people/alumni/alumni-2023/zhang-zhisong.html", kind: "official" }, verified: true },
+  { id: "jiang-gang-lineage", from: "gang-liu-cityu", to: "gang-liu-cityu", type: "lineage", label: "博士导师：Meng Jiang", evidence: "Gang Liu 主页记录其 Notre Dame 博士由 Meng Jiang 指导，并与 Tengfei Luo 合作分子基础模型。", source: { label: "Gang Liu 主页", url: "https://liugangcode.github.io/", kind: "profile" }, verified: true },
+  { id: "ning-oxford-lineage", from: "ning-miao", to: "ning-miao", type: "lineage", label: "共同博士导师：Tom Rainforth / Yee Whye Teh", evidence: "Oxford CSML 与个人主页均记录 Ning Miao 博士阶段由 Tom Rainforth、Yee Whye Teh 共同指导。", source: { label: "Oxford CSML", url: "https://csml.stats.ox.ac.uk/people/miao/", kind: "official" }, verified: true },
+  { id: "guo-lineage", from: "jianyuan-guo", to: "jianyuan-guo", type: "lineage", label: "博士导师：Chang Xu；北大导师：Chao Zhang", evidence: "Jianyuan Guo 个人主页明确列出 University of Sydney 博士导师 Chang Xu，以及 Peking University BS/MS 阶段导师 Chao Zhang。", source: { label: "Jianyuan Guo 主页", url: "https://ggjy.github.io/", kind: "profile" }, verified: true },
 
   { id: "ng-kan", from: "hwee-tou-ng", to: "min-yen-kan", type: "collaboration", label: "论文合作", evidence: "NUS 公开出版物记录两人的共同论文。", source: { label: "NUS Faculty Profile", url: "https://www.comp.nus.edu.sg/cs/people/kanmy/", kind: "official" }, verified: true },
   { id: "deng-chua", from: "tat-seng-chua", to: "yang-deng", type: "talent", label: "博士后指导 / NExT++", evidence: "Yang Deng 主页写明其在 NUS NExT++ 博士后阶段与 Tat-Seng Chua、See-Kiong Ng 工作。", source: { label: "CHAT NLP Group", url: "https://dengyang17.github.io/", kind: "profile" }, verified: true },
@@ -549,6 +590,7 @@ export const relationships: Relationship[] = [
   { id: "joty-chen", from: "shafiq-joty", to: "nancy-chen", type: "collaboration", label: "EMNLP 2024 合作", evidence: "NTU 公告记录 Shafiq Joty、Nancy Chen 等人的共同论文获 EMNLP 2024 Outstanding Paper。", source: { label: "NTU 公告", url: "https://www.ntu.edu.sg/computing/news-events/news/detail/the-2024-conference-on-empirical-methods-in-natural-language-processing", kind: "official" }, verified: true },
   { id: "joty-sun", from: "shafiq-joty", to: "aixin-sun", type: "collaboration", label: "共同指导", evidence: "NTU 公告记录两人与 Nancy Chen 共同指导摘要生成方向博士生。", source: { label: "NTU SDSC Fellowship", url: "https://www.ntu.edu.sg/computing/news-events/news/detail/phd-student-awarded-a-sdsc-dissertation-research-fellowship-2022", kind: "official" }, verified: true },
   { id: "fung-dekai", from: "pascale-fung", to: "de-kai", type: "collaboration", label: "HKUST Human Language Technology 合作", evidence: "HKUST HLTC 官方页面将 Pascale Fung 与 De Kai 列为中心核心 faculty，并保留两人长期共同论文记录。", source: { label: "HKUST HLTC People", url: "https://cse.hkust.edu.hk/~hltc/people.html", kind: "official" }, verified: true },
+  { id: "zhisong-lam", from: "zhisong-zhang", to: "wai-lam", type: "collaboration", label: "长上下文压缩 / 模型编辑合作", evidence: "Zhisong Zhang 的研究页列出与 Wai Lam 共同指导和署名的 InComeS 长上下文压缩与模型编辑工作。", source: { label: "Zhisong Zhang Research", url: "https://zzsfornlp.github.io/research", kind: "profile" }, verified: true },
 
   { id: "qizhe-google", from: "qizhe-shieh", to: "qizhe-shieh", type: "industry", label: "Google DeepMind / Brain 前研究经历", evidence: "NUS 官方简介称其加入 NUS 前在 Google DeepMind（原 Google Brain）研究两年。", source: { label: "NUS Faculty Profile", url: "https://www.comp.nus.edu.sg/cs/people/mshieh/", kind: "official" }, verified: true },
   { id: "chua-sea", from: "tat-seng-chua", to: "tat-seng-chua", type: "industry", label: "Sea–NExT Joint Lab / ViSenze / 6Estates", evidence: "Chua 的个人主页与 NUS 材料明确列出 Sea–NExT Joint Lab，并称其共同创办 ViSenze Pte Ltd 与 6Estates Pte Ltd。", source: { label: "Chua Tat-Seng 个人主页", url: "https://www.chuatatseng.com/", kind: "profile" }, verified: true },
@@ -574,6 +616,9 @@ export const relationships: Relationship[] = [
   { id: "qiang-industry", from: "qiang-yang-polyu", to: "qiang-yang-polyu", type: "industry", label: "WeBank / WeChat / Huawei Noah’s Ark", evidence: "PolyU 官方履历记录其曾任 WeBank CAIO、WeChat–HKUST Joint Lab 主任及 Huawei Noah’s Ark 创始主任。", source: { label: "PolyU Faculty Profile", url: "https://www.polyu.edu.hk/dsai/docdrive/personal/yangqiang.html", kind: "official" }, verified: true },
   { id: "ma-tencent", from: "jing-ma-hkbu", to: "jing-ma-hkbu", type: "industry", label: "Tencent Rhino-Bird Focused Research", evidence: "HKBU 公告确认 Jing Ma 入选 2024 Tencent Rhino-Bird Focused Research Program，项目为价值对齐可信大模型。", source: { label: "HKBU 公告", url: "https://www.comp.hkbu.edu.hk/v1/?id=204&page=fac_ach", kind: "official" }, verified: true },
   { id: "han-tencent", from: "bo-han-hkbu", to: "bo-han-hkbu", type: "industry", label: "Tencent WeChat AI Agents", evidence: "HKBU 公告记录其面向 Tencent WeChat 开展专家知识驱动的可信 AI Agents 研究。", source: { label: "HKBU 公告", url: "https://www.comp.hkbu.edu.hk/v1/?id=204&page=fac_ach", kind: "official" }, verified: true },
+  { id: "ning-bytedance", from: "ning-miao", to: "ning-miao", type: "industry", label: "ByteDance AI Lab 前研究员", evidence: "Ning Miao 个人主页记录其加入 CityU 前曾在 ByteDance AI Lab 任研究员。", source: { label: "Ning Miao 主页", url: "https://www.ningmiao.space/", kind: "profile" }, verified: true },
+  { id: "gang-industry", from: "gang-liu-cityu", to: "gang-liu-cityu", type: "industry", label: "Amazon / MIT–IBM Watson / IBM Fellowship", evidence: "Gang Liu 主页记录 Amazon Applied Scientist 实习、Broad Institute 与 MIT–IBM Watson AI Lab 研究实习，以及 IBM PhD Fellowship。", source: { label: "Gang Liu 主页", url: "https://liugangcode.github.io/", kind: "profile" }, verified: true },
+  { id: "guo-google", from: "jianyuan-guo", to: "jianyuan-guo", type: "industry", label: "Google PhD Fellowship · 2022", evidence: "CityU PAPS 简介与个人主页均记录 Jianyuan Guo 获 2022 Google PhD Fellowship。", source: { label: "CityU PAPS", url: "https://www.cityu.edu.hk/vpti/presidential-assistant-professors-scheme/paps", kind: "official" }, verified: true },
 ];
 
 export const coverage = [
@@ -612,6 +657,9 @@ export const industryPathways: IndustryPathway[] = [
   { id: "hk-cao", region: "Hong Kong", kind: "LARGE-SCALE AI SYSTEMS", title: "Liangliang Cao（曹亮亮）↔ Google / Apple / DeepMind", description: "PolyU 官方简介记录其领导 Google Cloud Speech、参与 Apple Intelligence，并在 Gemini / Project Astra 团队担任 Director。", source: { label: "PolyU DSAI Profile", url: "https://www.polyu.edu.hk/dsai/people/academic-staff/cao-liangliang/?sc_lang=en", kind: "official" } },
   { id: "hk-qiang", region: "Hong Kong", kind: "JOINT LAB + AI LEADERSHIP", title: "Qiang Yang（杨强）↔ WeBank / WeChat / Huawei", description: "PolyU 官方履历列出 WeBank CAIO、WeChat–HKUST Joint Lab 主任与 Huawei Noah’s Ark 创始主任等岗位。", source: { label: "PolyU Faculty Profile", url: "https://www.polyu.edu.hk/dsai/docdrive/personal/yangqiang.html", kind: "official" } },
   { id: "hk-jing", region: "Hong Kong", kind: "INDUSTRY RESEARCH + COLLABORATION", title: "Jing Li（李菁）↔ Tencent AI Lab / Huawei / Baidu", description: "PolyU 官方简介记录其为 Tencent AI Lab NLP Center 前高级研究员；个人主页另列 Huawei、Baidu、Tencent 研究合作。", source: { label: "PolyU Faculty Profile", url: "https://www.polyu.edu.hk/comp/People/Academic-Staff/Prof-LI-Jing-Amelia", kind: "official" } },
+  { id: "hk-ning", region: "Hong Kong", kind: "PRIOR INDUSTRY RESEARCH", title: "Ning Miao（苗寧）↔ ByteDance AI Lab", description: "个人主页记录其曾任 ByteDance AI Lab 研究员；当前 Miaow Lab 聚焦 LLM reasoning、AI4Math 与生成模型。", source: { label: "Ning Miao 主页", url: "https://www.ningmiao.space/", kind: "profile" } },
+  { id: "hk-gang", region: "Hong Kong", kind: "INDUSTRY + RESEARCH FUNDING", title: "Gang Liu（劉罡）↔ Amazon / MIT–IBM Watson / IBM", description: "其公开履历列出 Amazon Applied Scientist 实习、Broad Institute 与 MIT–IBM Watson AI Lab 研究实习，以及 IBM PhD Fellowship。", source: { label: "Gang Liu 主页", url: "https://liugangcode.github.io/", kind: "profile" } },
+  { id: "hk-guo", region: "Hong Kong", kind: "INDUSTRY FELLOWSHIP", title: "Jianyuan Guo（郭健元）↔ Google", description: "CityU PAPS 官方简介记录其获得 2022 Google PhD Fellowship；该项为研究资助关系，不表示 Google 雇佣经历。", source: { label: "CityU PAPS", url: "https://www.cityu.edu.hk/vpti/presidential-assistant-professors-scheme/paps", kind: "official" } },
 ];
 
 const nusNlpAlumni: Source = { label: "NUS NLP Group alumni", url: "https://www.comp.nus.edu.sg/~nlp/people.html", kind: "official" };
@@ -620,6 +668,19 @@ const weiStudents: Source = { label: "SUTD / StatNLP alumni records", url: "http
 const chuaStudents: Source = { label: "Chua Tat-Seng students", url: "https://www.chuatatseng.com/", kind: "profile" };
 const songStudents: Source = { label: "Yangqiu Song students", url: "https://cse.hkust.edu.hk/~yqsong/", kind: "profile" };
 const wenjieStudents: Source = { label: "PolyU NLP Group members & alumni", url: "https://www4.comp.polyu.edu.hk/~cswjli/Group.html", kind: "profile" };
+
+const miaowMembers: Source = { label: "Miaow Lab Team", url: "https://miaow-lab.github.io/team/", kind: "profile" };
+
+export const groupMembers: GroupMember[] = [
+  { id: "miaow-jiayu", teacherId: "ning-miao", name: "Jiayu Liu", role: "Research Assistant Professor", focus: "Machine reasoning", source: miaowMembers },
+  { id: "miaow-yuhang", teacherId: "ning-miao", name: "Yuhang Lai", role: "PhD Student", focus: "AI4Math · LLM reasoning", source: miaowMembers },
+  { id: "miaow-ningyuan", teacherId: "ning-miao", name: "Ningyuan Xi", role: "PhD Student", focus: "LLM reasoning", source: miaowMembers },
+  { id: "miaow-qiyuan", teacherId: "ning-miao", name: "Qiyuan Liu", role: "PhD Student", focus: "Reward models", source: miaowMembers },
+  { id: "miaow-tianle", teacherId: "ning-miao", name: "Tianle Wang", role: "PhD Student", focus: "Reasoning training", source: miaowMembers },
+  { id: "miaow-xuan", teacherId: "ning-miao", name: "Xuan Yang", role: "PhD Student", focus: "Reasoning interpretability", source: miaowMembers },
+  { id: "miaow-yuxian", teacherId: "ning-miao", name: "Yuxian Jiang", role: "PhD Student", source: miaowMembers },
+  { id: "miaow-ruizhi", teacherId: "ning-miao", name: "Ruizhi Zhao", role: "Engineer", source: miaowMembers },
+];
 
 export const studentPlacements: StudentPlacement[] = [
   { id: "ng-chan-bbn", student: "Yee Seng Chan", teacherId: "hwee-tou-ng", company: "Raytheon BBN", role: "Scientist", kind: "first_job", source: nusNlpAlumni },

@@ -1,7 +1,7 @@
 "use client";
 
 import { useMemo, useState } from "react";
-import { communities, coverage, industryPathways, people, regionOf, regionalInstitutions, relationships, stageLabels, studentPlacements, type Person, type Region, type Relationship } from "./data";
+import { communities, coverage, groupMembers, industryPathways, people, regionOf, regionalInstitutions, relationships, stageLabels, studentPlacements, type Person, type Region, type Relationship } from "./data";
 import FeedbackDrawer from "./FeedbackDrawer";
 
 type EdgeFilter = "all" | Relationship["type"];
@@ -64,6 +64,7 @@ export default function AcademicAtlas() {
   const selected = people.find((person) => person.id === selectedId) ?? regionPeople[0];
   const selectedRelations = relationships.filter((r) => r.from === selected.id || r.to === selected.id);
   const selectedPlacements = studentPlacements.filter((placement) => placement.teacherId === selected.id);
+  const selectedGroupMembers = groupMembers.filter((member) => member.teacherId === selected.id);
 
   const companyIndex = useMemo(() => Array.from(new Set(regionalPlacements.map((placement) => placement.company))).map((company) => {
     const placements = regionalPlacements.filter((placement) => placement.company === company);
@@ -227,6 +228,16 @@ export default function AcademicAtlas() {
               <h3>{selected.name}</h3>{selected.chinese && <p className="chinese-name">{selected.chinese}</p>}<p className="role-label">{selected.role}</p><p className="summary">{selected.summary}</p>
               {selected.status && <p className="status-note">◷ {selected.status}</p>}
               <div className="tag-list">{selected.tags.map((tag) => <span key={tag}>{tag}</span>)}</div>
+              {selected.facts?.length ? <div className="inspector-block fact-block"><h4>人物脉络 <span>{selected.facts.length} 项</span></h4>
+                {selected.facts.map((fact) => {
+                  const content = <><small>{fact.label}</small><strong>{fact.value}</strong>{fact.source && <b>↗</b>}</>;
+                  return fact.source ? <a key={`${fact.label}-${fact.value}`} href={fact.source.url} target="_blank" rel="noreferrer">{content}</a> : <div key={`${fact.label}-${fact.value}`}>{content}</div>;
+                })}
+              </div> : null}
+              {selectedGroupMembers.length ? <div className="inspector-block group-block"><h4>当前研究组 <span>{selectedGroupMembers.length} 位公开成员</span></h4>
+                <p className="placement-context">这里列在读学生与研究人员，不计入毕业就业去向。</p>
+                {selectedGroupMembers.map((member) => <a key={member.id} href={member.source.url} target="_blank" rel="noreferrer"><span><strong>{member.name}</strong><small>{member.role}{member.focus ? ` · ${member.focus}` : ""}</small></span><b>↗</b></a>)}
+              </div> : null}
               <div className="inspector-block placement-block"><h4>学生去向 <span>{selectedPlacements.length ? `${selectedPlacements.length} 条已核验` : "待补"}</span></h4>
                 {selected.id === "tat-seng-chua" && <p className="placement-context">个人主页列出 37 名博士毕业生；下方是目前已逐条核验的产业/创业去向，不代表完整就业统计。</p>}
                 {selectedPlacements.slice(0, 8).map((placement) => <a key={placement.id} className="placement-row" href={placement.source.url} target="_blank" rel="noreferrer"><span className="placement-person"><strong>{placement.student}</strong><small>{placementKindLabels[placement.kind]} · {placement.role}</small></span><span className="placement-destination"><b>{placement.company}</b>{placement.department && <small>{placement.department}</small>}</span>{placement.highLevel && <em>重点职位</em>}</a>)}

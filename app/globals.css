@@ -205,6 +205,15 @@ button { color: inherit; }
 .relation-industry { background: var(--teal); }
 .relation-talent { background: var(--violet); }
 .quiet { color: #8a95a3; font-size: 10px; }
+.fact-block > a, .fact-block > div { position: relative; display: grid; gap: 3px; padding: 9px 20px 9px 0; border-bottom: 1px solid #edf0eb; }
+.fact-block small { color: var(--cobalt); font-size: 7px; font-weight: 800; letter-spacing: .08em; text-transform: uppercase; }
+.fact-block strong { color: #45556b; font-size: 9px; font-weight: 600; line-height: 1.55; }
+.fact-block b { position: absolute; top: 12px; right: 1px; font-size: 9px; }
+.group-block > a { display: flex; align-items: start; justify-content: space-between; gap: 10px; padding: 8px 0; border-bottom: 1px solid #edf0eb; }
+.group-block > a span, .group-block > a strong, .group-block > a small { display: block; }
+.group-block > a strong { font-size: 10px; }
+.group-block > a small { margin-top: 3px; color: #7a8797; font-size: 8px; line-height: 1.45; }
+.group-block > a b { font-size: 9px; }
 .source-block a { display: flex; justify-content: space-between; padding: 7px 0; font-size: 10px; color: #4d5d72; border-bottom: 1px solid #edf0eb; }
 .placement-context { margin: -2px 0 8px; padding: 8px 9px; background: #f2f6ec; color: #66758a; font-size: 9px; line-height: 1.55; }
 .placement-row { display: grid; grid-template-columns: minmax(0,1fr) minmax(0,1fr); gap: 8px; position: relative; padding: 9px 0; border-bottom: 1px solid #edf0eb; }
