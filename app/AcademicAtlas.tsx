@@ -165,10 +165,7 @@ export default function AcademicAtlas() {
       if (relation.to === activeGraphFocusId) graphFocusedIds.add(relation.from);
     });
   }
-  const currentPiCount = regionPeople.filter((p) => p.primary && p.category !== "historical").length;
   const coreCount = regionPeople.filter((p) => p.primary && p.category === "core").length;
-  const placementTeacherCount = new Set(regionalPlacements.map((placement) => placement.teacherId)).size;
-  const sourceCount = new Set(regionPeople.flatMap((p) => p.sources.map((s) => s.url)).concat(relationships.filter((r) => regionIds.has(r.from) || regionIds.has(r.to)).map((r) => r.source.url), regionalPlacements.map((p) => p.source.url))).size;
   const regionalCoverage = coverage.filter((row) => row.region === region);
   const regionalCommunities = communities.filter((community) => community.region === region);
   const regionalPathways = industryPathways.filter((pathway) => pathway.region === region);
@@ -191,21 +188,24 @@ export default function AcademicAtlas() {
       </header>
 
       <section className="hero" id="top">
-        <div className="hero-copy">
+        <picture className="hero-visual">
+          <source media="(max-width: 760px)" srcSet="atlas-hero-portrait.png" />
+          <img src="atlas-hero-landscape.png" alt="学脉 Atlas：连接中国大陆、香港、新加坡与美国的 AI、NLP、LLM 学术关系图谱" />
+        </picture>
+        <div className="sr-only">
+          <h1>梳理学术脉络，连接人才流向。</h1>
+          <p>从机构名录到导师、学生和公司的三层关系，呈现师承、合作、产业连接与公开职业去向。</p>
+        </div>
+        <div className="hero-utility">
           <div className="region-switch" role="tablist" aria-label="地区切换">
             {(["Mainland China", "Hong Kong", "Singapore", "United States"] as Region[]).map((item) => <button key={item} className={region === item ? "active" : ""} onClick={() => changeRegion(item)}>{regionLabels[item]}<small>{item}</small></button>)}
           </div>
-          <p className="eyebrow">Roster first · evidence linked · scope explicit</p>
-          <h1>梳理学术脉络，<br />连接人才流向。</h1>
-          <p className="hero-deck">从机构名录到导师—学生—公司三层关系：呈现核心 PI、发展期独立 PI、相邻方向与历史节点，并把公开职业去向映射到企业和研究部门。</p>
+          <div className="hero-summary" aria-live="polite">
+            <div><strong>{coreCount}</strong><span>核心 PI</span></div>
+            <div><strong>{regionalInstitutions[region].length}</strong><span>{regionLabels[region]}机构</span></div>
+            <div><strong>{regionalPlacements.length}</strong><span>学生去向</span></div>
+          </div>
           <div className="hero-actions"><a className="primary-button" href="#atlas">浏览完整名录 <span>↘</span></a><a className="text-button" href="#coverage">查看覆盖边界 <span>→</span></a></div>
-        </div>
-        <div className="hero-metrics" aria-label="图谱数据概况">
-          <div><strong>{coreCount}</strong><span>核心 NLP / LLM PI</span></div>
-          <div><strong>{regionalInstitutions[region].length}</strong><span>{regionLabels[region]}机构</span></div>
-          <div><strong>{currentPiCount}</strong><span>当前 PI（含相邻层）</span></div>
-          <div><strong>{regionalPlacements.length}</strong><span>已核验学生去向 · {placementTeacherCount} 位导师</span></div>
-          <p>{sourceCount} 个去重来源 · 更新于 2026.08.24</p>
         </div>
       </section>
 
