@@ -55,6 +55,19 @@ function initials(name: string) {
   return name.split(" ").map((part) => part[0]).slice(0, 2).join("");
 }
 
+function primaryName(person: Person) {
+  return regionOf(person) === "Mainland China" && person.chinese ? person.chinese : person.name;
+}
+
+function secondaryName(person: Person) {
+  return regionOf(person) === "Mainland China" ? undefined : person.chinese;
+}
+
+function displayName(person: Person) {
+  const secondary = secondaryName(person);
+  return `${primaryName(person)}${secondary ? ` · ${secondary}` : ""}`;
+}
+
 export default function AcademicAtlas() {
   const [region, setRegion] = useState<Region>("Mainland China");
   const [edgeFilter, setEdgeFilter] = useState<EdgeFilter>("all");
@@ -196,7 +209,7 @@ export default function AcademicAtlas() {
                   </svg>
                   {visiblePeople.map((person) => (
                     <button key={person.id} className={`person-node ${person.primary ? "primary-node" : "external-node"} ${activeGraphFocusId === person.id ? "selected" : ""} ${activeGraphFocusId && !graphFocusedIds.has(person.id) ? "dimmed" : "focus-active"}`} style={{ left: person.x, top: person.y, "--node-color": institutionColors[person.institution] } as React.CSSProperties} onClick={(event) => { event.stopPropagation(); setSelectedId(person.id); setGraphFocusId((current) => current === person.id ? null : person.id); }}>
-                      <span className="node-avatar">{initials(person.name)}</span><span className="node-copy"><strong>{person.name}{person.chinese ? ` · ${person.chinese}` : ""}</strong><small>{person.institution} · {person.stage === "emerging" ? "发展期 PI" : person.area.split(" · ")[0]}</small></span>
+                      <span className="node-avatar">{initials(primaryName(person))}</span><span className="node-copy"><strong>{displayName(person)}</strong><small>{person.institution} · {person.stage === "emerging" ? "发展期 PI" : person.area.split(" · ")[0]}</small></span>
                     </button>
                   ))}
                   {visibleRelations.filter((r) => r.from === r.to).map((r, index) => {
@@ -217,8 +230,8 @@ export default function AcademicAtlas() {
                     <header><span style={{ background: institutionColors[inst] }} /> <h3>{inst}</h3><b>{group.length}</b></header>
                     <div className="people-grid">{group.map((person) => (
                       <button key={person.id} className={`person-card ${selected.id === person.id ? "selected" : ""}`} onClick={() => setSelectedId(person.id)}>
-                        <span className="person-monogram" style={{ background: institutionColors[person.institution] }}>{initials(person.name)}</span>
-                        <span><small>{stageLabels[person.stage]}</small><strong>{person.name}{person.chinese && <span className="card-chinese"> · {person.chinese}</span>}</strong><em>{person.area}</em></span><b>→</b>
+                        <span className="person-monogram" style={{ background: institutionColors[person.institution] }}>{initials(primaryName(person))}</span>
+                        <span><small>{stageLabels[person.stage]}</small><strong>{primaryName(person)}{secondaryName(person) && <span className="card-chinese"> · {secondaryName(person)}</span>}</strong><em>{person.area}</em></span><b>→</b>
                       </button>
                     ))}</div>
                   </section>;
@@ -230,14 +243,14 @@ export default function AcademicAtlas() {
             {view === "evidence" && (
               <div className="evidence-list">{visibleRelations.map((relation) => {
                 const from = people.find((p) => p.id === relation.from)!; const to = people.find((p) => p.id === relation.to)!;
-                return <article key={relation.id}><RelationChip type={relation.type} /><div><strong>{from.name}{from.id !== to.id ? ` → ${to.name}` : ""}</strong><p>{relation.evidence}</p></div><a href={relation.source.url} target="_blank" rel="noreferrer">原始来源 ↗</a></article>;
+                return <article key={relation.id}><RelationChip type={relation.type} /><div><strong>{primaryName(from)}{from.id !== to.id ? ` → ${primaryName(to)}` : ""}</strong><p>{relation.evidence}</p></div><a href={relation.source.url} target="_blank" rel="noreferrer">原始来源 ↗</a></article>;
               })}</div>
             )}
 
             <aside className="inspector">
-              <div className="inspector-top"><span className="large-monogram" style={{ background: institutionColors[selected.institution] }}>{initials(selected.name)}</span><span className="verified-badge">✓ SOURCED</span></div>
+              <div className="inspector-top"><span className="large-monogram" style={{ background: institutionColors[selected.institution] }}>{initials(primaryName(selected))}</span><span className="verified-badge">✓ SOURCED</span></div>
               <div className="inspector-meta"><p className="institution-label">{selected.institution}</p><span className={`stage-badge stage-${selected.stage}`}>{stageLabels[selected.stage]}</span></div>
-              <h3>{selected.name}</h3>{selected.chinese && <p className="chinese-name">{selected.chinese}</p>}<p className="role-label">{selected.role}</p><p className="summary">{selected.summary}</p>
+              <h3>{primaryName(selected)}</h3>{secondaryName(selected) && <p className="chinese-name">{secondaryName(selected)}</p>}<p className="role-label">{selected.role}</p><p className="summary">{selected.summary}</p>
               {selected.status && <p className="status-note">◷ {selected.status}</p>}
               <div className="tag-list">{selected.tags.map((tag) => <span key={tag}>{tag}</span>)}</div>
               {selected.facts?.length ? <div className="inspector-block fact-block"><h4>人物脉络 <span>{selected.facts.length} 项</span></h4>
@@ -297,7 +310,7 @@ export default function AcademicAtlas() {
           <div className="company-graph" aria-label={`${selectedCompanyData.company} 的导师学生流向图`}>
             <div className="company-hub"><small>COMPANY / DEPARTMENT</small><strong>{selectedCompanyData.company}</strong><span>{selectedCompanyData.placements.length} 名已核验学生</span></div>
             <div className="pipeline-list">{companyPipelines.map(({ teacher, placements }) => <article className="pipeline" key={teacher.id}>
-              <button className="pipeline-teacher" onClick={() => { setSelectedId(teacher.id); document.querySelector("#atlas")?.scrollIntoView({ behavior: "smooth" }); }}><span style={{ background: institutionColors[teacher.institution] }}>{initials(teacher.name)}</span><div><small>{teacher.institution} · 导师</small><strong>{teacher.name}{teacher.chinese ? ` · ${teacher.chinese}` : ""}</strong></div></button>
+              <button className="pipeline-teacher" onClick={() => { setSelectedId(teacher.id); document.querySelector("#atlas")?.scrollIntoView({ behavior: "smooth" }); }}><span style={{ background: institutionColors[teacher.institution] }}>{initials(primaryName(teacher))}</span><div><small>{teacher.institution} · 导师</small><strong>{displayName(teacher)}</strong></div></button>
               <div className="pipeline-edge"><span>{placements.length} 名学生</span></div>
               <div className="pipeline-students">{placements.map((placement) => <a href={placement.source.url} target="_blank" rel="noreferrer" key={placement.id}><span><strong>{placement.student}</strong><small>{placementKindLabels[placement.kind]} · {placement.role}{placement.department ? ` · ${placement.department}` : ""}</small></span>{placement.highLevel && <em>高管 / 高级职位</em>}</a>)}</div>
             </article>)}</div>
@@ -323,7 +336,7 @@ export default function AcademicAtlas() {
         </ol></div>
       </section>
 
-      <FeedbackDrawer defaultSubject={`${selected.name}${selected.chinese ? `（${selected.chinese}）` : ""}`} />
+      <FeedbackDrawer defaultSubject={displayName(selected)} />
       <footer><div className="brand"><span className="brand-mark">脉</span><span>学脉 Atlas</span></div><p>{regionLabels[region]} NLP / LLM / AI 学术关系图谱 · 基于公开来源持续维护</p><a href="#top">回到顶部 ↑</a></footer>
     </main>
   );

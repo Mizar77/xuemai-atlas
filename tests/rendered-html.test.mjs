@@ -45,8 +45,11 @@ test("renders the Mainland China phase-one roster and coverage", async () => {
   for (const institution of ["THU", "PKU", "FDU", "RUC", "HIT", "CAS-IA", "NJU", "SJTU"]) {
     assert.match(html, new RegExp(`>${institution}<`));
   }
-  for (const scholar of ["Maosong Sun", "Liangming Pan", "Xipeng Qiu", "Zhicheng Dou", "Wanxiang Che", "Chengqing Zong", "Shujian Huang", "Xiaobao Wu"]) {
+  for (const scholar of ["孙茂松", "潘亮铭", "邱锡鹏", "窦志成", "车万翔", "宗成庆", "黄书剑", "吴小宝"]) {
     assert.match(html, new RegExp(scholar));
+  }
+  for (const romanizedName of ["Maosong Sun", "Liangming Pan", "Xipeng Qiu", "Zhicheng Dou"]) {
+    assert.doesNotMatch(html, new RegExp(romanizedName));
   }
   assert.match(html, /大陆第一期|第一期覆盖/);
 });

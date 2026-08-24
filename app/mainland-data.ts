@@ -396,12 +396,12 @@ const dongSource = official("人大高瓴董冠霆报道", "https://ai.ruc.edu.c
 const hitLiSource = official("哈工大李忠阳博士答辩报道", "https://ir.hit.edu.cn/2021/0325/c19589a357055/page.htm");
 
 export const mainlandGroupMembers: GroupMember[] = [
-  { id: "dou-dong-guanting", teacherId: "zhicheng-dou", name: "Guanting Dong（董冠霆）", role: "PhD Student · co-advised with Ji-Rong Wen", focus: "Intelligent retrieval · agent RL", source: dongSource },
+  { id: "dou-dong-guanting", teacherId: "zhicheng-dou", name: "董冠霆", role: "PhD Student · co-advised with Ji-Rong Wen", focus: "Intelligent retrieval · agent RL", source: dongSource },
 ];
 
 export const mainlandStudentPlacements: StudentPlacement[] = [
-  { id: "hit-li-zhongyang-huawei", student: "Zhongyang Li（李忠阳）", teacherId: "ting-liu-hit", company: "Huawei", department: "Genius Youth Program", role: "R&D researcher", kind: "first_job", highLevel: true, source: hitLiSource },
-  { id: "ruc-dong-bytedance", student: "Guanting Dong（董冠霆）", teacherId: "zhicheng-dou", company: "ByteDance", department: "Seed", role: "Research intern", kind: "internship", note: "与文继荣共同指导；官方报道记录其实习经历。", source: dongSource },
-  { id: "ruc-dong-alibaba", student: "Guanting Dong（董冠霆）", teacherId: "zhicheng-dou", company: "Alibaba", department: "Qwen", role: "Research intern", kind: "internship", note: "与文继荣共同指导；官方报道记录其实习经历。", source: dongSource },
-  { id: "ruc-dong-kuaishou", student: "Guanting Dong（董冠霆）", teacherId: "zhicheng-dou", company: "Kuaishou", department: "Kwai Large Model", role: "Research intern", kind: "internship", note: "与文继荣共同指导；官方报道记录其实习经历。", source: dongSource },
+  { id: "hit-li-zhongyang-huawei", student: "李忠阳", teacherId: "ting-liu-hit", company: "Huawei", department: "Genius Youth Program", role: "R&D researcher", kind: "first_job", highLevel: true, source: hitLiSource },
+  { id: "ruc-dong-bytedance", student: "董冠霆", teacherId: "zhicheng-dou", company: "ByteDance", department: "Seed", role: "Research intern", kind: "internship", note: "与文继荣共同指导；官方报道记录其实习经历。", source: dongSource },
+  { id: "ruc-dong-alibaba", student: "董冠霆", teacherId: "zhicheng-dou", company: "Alibaba", department: "Qwen", role: "Research intern", kind: "internship", note: "与文继荣共同指导；官方报道记录其实习经历。", source: dongSource },
+  { id: "ruc-dong-kuaishou", student: "董冠霆", teacherId: "zhicheng-dou", company: "Kuaishou", department: "Kwai Large Model", role: "Research intern", kind: "internship", note: "与文继荣共同指导；官方报道记录其实习经历。", source: dongSource },
 ];
