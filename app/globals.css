@@ -163,6 +163,18 @@ button { color: inherit; }
 .zone-sysu { left: 600px; top: 1648px; width: 270px; height: 430px; color: #1d746c; background: rgba(29,116,108,.025); }
 .zone-ecnu { left: 890px; top: 1648px; width: 270px; height: 430px; color: #7b4d91; background: rgba(123,77,145,.025); }
 .zone-whu { left: 20px; top: 2168px; width: 270px; height: 430px; color: #355f9d; background: rgba(53,95,157,.025); }
+.zone-stanford { left: 20px; top: 88px; width: 270px; height: 500px; color: #8c1515; background: rgba(140,21,21,.025); }
+.zone-berkeley { left: 310px; top: 88px; width: 270px; height: 500px; color: #003262; background: rgba(0,50,98,.025); }
+.zone-cmu { left: 600px; top: 88px; width: 270px; height: 500px; color: #c41230; background: rgba(196,18,48,.025); }
+.zone-uw { left: 890px; top: 88px; width: 270px; height: 500px; color: #4b2e83; background: rgba(75,46,131,.025); }
+.zone-mit { left: 20px; top: 688px; width: 270px; height: 500px; color: #a31f34; background: rgba(163,31,52,.025); }
+.zone-princeton { left: 310px; top: 688px; width: 270px; height: 500px; color: #e77500; background: rgba(231,117,0,.025); }
+.zone-cornell { left: 600px; top: 688px; width: 270px; height: 500px; color: #b31b1b; background: rgba(179,27,27,.025); }
+.zone-nyu { left: 890px; top: 688px; width: 270px; height: 500px; color: #57068c; background: rgba(87,6,140,.025); }
+.zone-columbia { left: 20px; top: 1288px; width: 270px; height: 500px; color: #3979a8; background: rgba(91,155,213,.035); }
+.zone-umass { left: 310px; top: 1288px; width: 270px; height: 500px; color: #881c1c; background: rgba(136,28,28,.025); }
+.zone-jhu { left: 600px; top: 1288px; width: 270px; height: 500px; color: #2c2c77; background: rgba(44,44,119,.025); }
+.zone-utaustin { left: 890px; top: 1288px; width: 270px; height: 500px; color: #bf5700; background: rgba(191,87,0,.025); }
 .edge-layer { position: absolute; inset: 0; width: 1180px; height: 100%; z-index: 1; pointer-events: none; }
 .graph-line { position: absolute; height: 0; border-top: 2px solid; transform-origin: 0 0; z-index: 1; opacity: .75; }
 .graph-line::after { content: ""; position: absolute; right: -1px; top: -4px; width: 7px; height: 7px; border-top: 2px solid; border-right: 2px solid; transform: rotate(45deg); }

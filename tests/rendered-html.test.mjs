@@ -1,4 +1,5 @@
 import assert from "node:assert/strict";
+import { readFile } from "node:fs/promises";
 import test from "node:test";
 
 async function render() {
@@ -20,12 +21,27 @@ test("server-renders the public academic atlas", async () => {
 
   const html = await response.text();
   assert.match(html, /<title>学脉 Atlas — AI \/ NLP 学术关系图谱<\/title>/i);
-  assert.match(html, /中国大陆、香港与新加坡 AI、NLP、LLM 学者/);
+  assert.match(html, /中国大陆、香港、新加坡与美国 AI、NLP、LLM 学者/);
   assert.match(html, /Mainland China/);
   assert.match(html, /Hong Kong/);
   assert.match(html, /Singapore/);
+  assert.match(html, /United States/);
   assert.match(html, /纠错 \/ 补充/);
   assert.doesNotMatch(html, /codex-preview/);
+});
+
+test("includes the United States roster, lineages, and student destinations", async () => {
+  const source = await readFile(new URL("../app/us-data.ts", import.meta.url), "utf8");
+
+  for (const institution of ["Stanford", "Berkeley", "CMU", "UW", "MIT", "Princeton", "Cornell", "NYU", "Columbia", "UMass", "JHU", "UT Austin"]) {
+    assert.match(source, new RegExp(`"${institution}"`));
+  }
+  for (const scholar of ["Christopher Manning", "Dan Klein", "Graham Neubig", "Hanna Hajishirzi", "Regina Barzilay", "Danqi Chen", "Kathleen McKeown", "Benjamin Van Durme"]) {
+    assert.match(source, new RegExp(scholar));
+  }
+  for (const destination of ["Thinking Machines Lab", "Meta FAIR", "Google Gemini", "Microsoft Frontier Tuning"]) {
+    assert.match(source, new RegExp(destination));
+  }
 });
 
 test("renders company and evidence sections", async () => {

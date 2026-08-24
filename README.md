@@ -18,7 +18,7 @@ Xuemai Atlas is an evidence-linked academic network for AI, NLP, and LLM researc
 
 学术关系很难从单一网页看清：导师与学生可能分布在不同学校，合作者可能跨越多个机构，学生毕业后又会进入高校、研究院、创业公司或互联网企业。学脉 Atlas 将这些分散在学校主页、个人简历、论文、实验室页面和公司资料中的公开信息连接起来，形成可以按人物、机构、关系类型和公司反向查找的图谱。
 
-当前版本覆盖**中国大陆、香港与新加坡的 AI、NLP 与 LLM 学术生态**。中国大陆第二期已扩展到 17 个重点机构：清华、北大、复旦、人大、哈工大、中科院自动化所、南京大学、上海交大、浙江大学、中国科大、北京理工、北航、北邮、西安交大、中山大学、华东师大与武汉大学；香港包括 HKU、HKUST、CUHK、CityU、PolyU 与 HKBU；新加坡包括 NUS、NTU、SUTD、SMU 与 A\*STAR。大陆范围较大，网页会明确标出当前覆盖边界，并持续按机构名录补充。
+当前版本覆盖**中国大陆、香港、新加坡与美国的 AI、NLP 与 LLM 学术生态**。美国首期覆盖 Stanford、UC Berkeley、CMU、UW、MIT、Princeton、Cornell、NYU、Columbia、UMass Amherst、Johns Hopkins 与 UT Austin 12 个重点中心。中国大陆第二期已扩展到 17 个重点机构：清华、北大、复旦、人大、哈工大、中科院自动化所、南京大学、上海交大、浙江大学、中国科大、北京理工、北航、北邮、西安交大、中山大学、华东师大与武汉大学；香港包括 HKU、HKUST、CUHK、CityU、PolyU 与 HKBU；新加坡包括 NUS、NTU、SUTD、SMU 与 A\*STAR。各地区范围都会在网页中明确标出，并持续按机构名录补充。
 
 ### 图谱里有什么信息？
 
@@ -95,7 +95,7 @@ npm test
 
 Academic relationships are scattered across faculty pages, CVs, dissertations, papers, lab websites, and company profiles. Xuemai Atlas connects those public records so that academic lineage, collaboration, career movement, and industry links can be explored in one place.
 
-The atlas currently covers the **AI, NLP, and LLM ecosystems in Mainland China, Hong Kong, and Singapore**. The second Mainland China release covers 17 focal institutions: Tsinghua, Peking University, Fudan, Renmin University, Harbin Institute of Technology, CAS Institute of Automation, Nanjing University, Shanghai Jiao Tong University, Zhejiang University, University of Science and Technology of China, Beijing Institute of Technology, Beihang University, Beijing University of Posts and Telecommunications, Xi'an Jiaotong University, Sun Yat-sen University, East China Normal University, and Wuhan University. Hong Kong includes HKU, HKUST, CUHK, CityU, PolyU, and HKBU; Singapore includes NUS, NTU, SUTD, SMU, and A\*STAR. Because Mainland China is much larger, the site labels the current boundary explicitly and continues auditing institution rosters.
+The atlas currently covers the **AI, NLP, and LLM ecosystems in Mainland China, Hong Kong, Singapore, and the United States**. The first U.S. release covers 12 focal centers: Stanford, UC Berkeley, CMU, UW, MIT, Princeton, Cornell, NYU, Columbia, UMass Amherst, Johns Hopkins, and UT Austin. The second Mainland China release covers 17 focal institutions: Tsinghua, Peking University, Fudan, Renmin University, Harbin Institute of Technology, CAS Institute of Automation, Nanjing University, Shanghai Jiao Tong University, Zhejiang University, University of Science and Technology of China, Beijing Institute of Technology, Beihang University, Beijing University of Posts and Telecommunications, Xi'an Jiaotong University, Sun Yat-sen University, East China Normal University, and Wuhan University. Hong Kong includes HKU, HKUST, CUHK, CityU, PolyU, and HKBU; Singapore includes NUS, NTU, SUTD, SMU, and A\*STAR. Each regional boundary is stated explicitly and continues to be audited against institutional rosters.
 
 ### What information does the atlas contain?
 

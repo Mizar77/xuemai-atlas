@@ -15,10 +15,11 @@ const institutionColors: Record<Person["institution"], string> = {
   HKU: "#8f1d2c", HKUST: "#007c8a", CUHK: "#6f3aa8", CityU: "#cf4e20", PolyU: "#a32638", HKBU: "#1f6b52", External: "#8390a5",
   THU: "#7b2431", PKU: "#a33a4a", FDU: "#244c8f", RUC: "#76509b", HIT: "#0b668d", "CAS-IA": "#28726f", NJU: "#6653a2", SJTU: "#a52e2e",
   ZJU: "#2f67a3", USTC: "#3d7b66", BIT: "#9b5c2e", BUAA: "#315b8f", BUPT: "#5b4c9a", XJTU: "#9a3e35", SYSU: "#1d746c", ECNU: "#7b4d91", WHU: "#355f9d",
+  Stanford: "#8c1515", Berkeley: "#003262", CMU: "#c41230", UW: "#4b2e83", MIT: "#a31f34", Princeton: "#e77500", Cornell: "#b31b1b", NYU: "#57068c", Columbia: "#5b9bd5", UMass: "#881c1c", JHU: "#2c2c77", "UT Austin": "#bf5700",
 };
 const relationColors: Record<Relationship["type"], string> = { lineage: "#275ee6", collaboration: "#f16f51", industry: "#07a383", talent: "#8a5bdb" };
 const placementKindLabels = { current: "当前任职", first_job: "毕业去向", founder: "创业", reported: "组页记录", internship: "产业实习" } as const;
-const regionLabels: Record<Region, string> = { Singapore: "新加坡", "Hong Kong": "香港", "Mainland China": "中国大陆" };
+const regionLabels: Record<Region, string> = { Singapore: "新加坡", "Hong Kong": "香港", "Mainland China": "中国大陆", "United States": "美国" };
 
 const graphZones: Record<Region, { institution: string; note: string; className: string }[]> = {
   Singapore: [
@@ -54,6 +55,20 @@ const graphZones: Record<Region, { institution: string; note: string; className:
     { institution: "SYSU", note: "4 core + 1 adjacent", className: "zone-sysu" },
     { institution: "ECNU", note: "5 core PI", className: "zone-ecnu" },
     { institution: "WHU", note: "5 core PI", className: "zone-whu" },
+  ],
+  "United States": [
+    { institution: "Stanford", note: "7 core + 1 adjacent", className: "zone-stanford" },
+    { institution: "Berkeley", note: "5 core + 1 adjacent", className: "zone-berkeley" },
+    { institution: "CMU", note: "5 core + 1 adjacent", className: "zone-cmu" },
+    { institution: "UW", note: "5 core + 1 adjacent", className: "zone-uw" },
+    { institution: "MIT", note: "3 core PI", className: "zone-mit" },
+    { institution: "Princeton", note: "2 core PI", className: "zone-princeton" },
+    { institution: "Cornell", note: "6 core PI", className: "zone-cornell" },
+    { institution: "NYU", note: "4 core PI", className: "zone-nyu" },
+    { institution: "Columbia", note: "5 core PI", className: "zone-columbia" },
+    { institution: "UMass", note: "4 core PI", className: "zone-umass" },
+    { institution: "JHU", note: "3 core + 1 adjacent", className: "zone-jhu" },
+    { institution: "UT Austin", note: "2 core + 2 adjacent", className: "zone-utaustin" },
   ],
 };
 
@@ -157,14 +172,14 @@ export default function AcademicAtlas() {
   const regionalCoverage = coverage.filter((row) => row.region === region);
   const regionalCommunities = communities.filter((community) => community.region === region);
   const regionalPathways = industryPathways.filter((pathway) => pathway.region === region);
-  const graphHeight = region === "Mainland China" ? 2640 : 910;
+  const graphHeight = region === "Mainland China" ? 2640 : region === "United States" ? 1810 : 910;
 
   function changeRegion(nextRegion: Region) {
     setRegion(nextRegion);
     setInstitution("All");
     setQuery("");
     setGraphFocusId(null);
-    setSelectedId(nextRegion === "Hong Kong" ? "lingpeng-kong" : nextRegion === "Singapore" ? "wei-lu" : "maosong-sun");
+    setSelectedId(nextRegion === "Hong Kong" ? "lingpeng-kong" : nextRegion === "Singapore" ? "wei-lu" : nextRegion === "United States" ? "christopher-manning-us" : "maosong-sun");
   }
 
   return (
@@ -178,7 +193,7 @@ export default function AcademicAtlas() {
       <section className="hero" id="top">
         <div className="hero-copy">
           <div className="region-switch" role="tablist" aria-label="地区切换">
-            {(["Mainland China", "Hong Kong", "Singapore"] as Region[]).map((item) => <button key={item} className={region === item ? "active" : ""} onClick={() => changeRegion(item)}>{regionLabels[item]}<small>{item}</small></button>)}
+            {(["Mainland China", "Hong Kong", "Singapore", "United States"] as Region[]).map((item) => <button key={item} className={region === item ? "active" : ""} onClick={() => changeRegion(item)}>{regionLabels[item]}<small>{item}</small></button>)}
           </div>
           <p className="eyebrow">Roster first · evidence linked · scope explicit</p>
           <h1>梳理学术脉络，<br />连接人才流向。</h1>

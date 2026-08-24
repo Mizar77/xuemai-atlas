@@ -1,6 +1,7 @@
 import { mainlandCommunities, mainlandCoverage, mainlandGroupMembers, mainlandIndustryPathways, mainlandPeople, mainlandRelationships, mainlandStudentPlacements } from "./mainland-data";
 import { mainlandEnrichmentGroupMembers, mainlandEnrichmentIndustryPathways, mainlandEnrichmentRelationships, mainlandEnrichmentStudentPlacements, mainlandPersonEnhancements } from "./mainland-enrichment-data";
 import { mainlandPhase2Communities, mainlandPhase2Coverage, mainlandPhase2GroupMembers, mainlandPhase2IndustryPathways, mainlandPhase2People, mainlandPhase2Relationships } from "./mainland-phase2-data";
+import { usCommunities, usCoverage, usGroupMembers, usIndustryPathways, usPeople, usRelationships, usStudentPlacements } from "./us-data";
 
 export type Source = {
   label: string;
@@ -8,8 +9,8 @@ export type Source = {
   kind: "official" | "cv" | "thesis" | "profile";
 };
 
-export type Region = "Singapore" | "Hong Kong" | "Mainland China";
-export type Institution = "NUS" | "NTU" | "SUTD" | "SMU" | "A*STAR" | "HKU" | "HKUST" | "CUHK" | "CityU" | "PolyU" | "HKBU" | "THU" | "PKU" | "FDU" | "RUC" | "HIT" | "CAS-IA" | "NJU" | "SJTU" | "ZJU" | "USTC" | "BIT" | "BUAA" | "BUPT" | "XJTU" | "SYSU" | "ECNU" | "WHU" | "External";
+export type Region = "Singapore" | "Hong Kong" | "Mainland China" | "United States";
+export type Institution = "NUS" | "NTU" | "SUTD" | "SMU" | "A*STAR" | "HKU" | "HKUST" | "CUHK" | "CityU" | "PolyU" | "HKBU" | "THU" | "PKU" | "FDU" | "RUC" | "HIT" | "CAS-IA" | "NJU" | "SJTU" | "ZJU" | "USTC" | "BIT" | "BUAA" | "BUPT" | "XJTU" | "SYSU" | "ECNU" | "WHU" | "Stanford" | "Berkeley" | "CMU" | "UW" | "MIT" | "Princeton" | "Cornell" | "NYU" | "Columbia" | "UMass" | "JHU" | "UT Austin" | "External";
 export type Stage = "senior" | "emerging" | "institute" | "adjacent" | "historical";
 export type Category = "core" | "adjacent" | "historical";
 
@@ -46,6 +47,7 @@ export const regionalInstitutions: Record<Region, Institution[]> = {
   Singapore: ["NUS", "NTU", "SUTD", "SMU", "A*STAR"],
   "Hong Kong": ["HKU", "HKUST", "CUHK", "CityU", "PolyU", "HKBU"],
   "Mainland China": ["THU", "PKU", "FDU", "RUC", "HIT", "CAS-IA", "NJU", "SJTU", "ZJU", "USTC", "BIT", "BUAA", "BUPT", "XJTU", "SYSU", "ECNU", "WHU"],
+  "United States": ["Stanford", "Berkeley", "CMU", "UW", "MIT", "Princeton", "Cornell", "NYU", "Columbia", "UMass", "JHU", "UT Austin"],
 };
 
 export function regionOf(person: Person): Region {
@@ -570,6 +572,7 @@ const basePeople: Person[] = [
   { id: "taylor-berg-kirkpatrick", name: "Taylor Berg-Kirkpatrick", role: "Associate Professor", institution: "External", region: "Hong Kong", area: "Natural Language Processing", tags: ["博士导师", "UC San Diego"], stage: "historical", category: "historical", summary: "CMU LTI alumni 记录的 Junxian He 博士导师。", sources: [{ label: "CMU LTI Alumni", url: "https://www.lti.cs.cmu.edu/people/alumni/alumni-2022/he-junxian.html", kind: "official" }], x: 790, y: 45 },
   ...mainlandPeople,
   ...mainlandPhase2People,
+  ...usPeople,
 ];
 
 export const people: Person[] = basePeople.map((person) => {
@@ -642,6 +645,7 @@ export const relationships: Relationship[] = [
   ...mainlandEnrichmentRelationships,
   ...mainlandRelationships,
   ...mainlandPhase2Relationships,
+  ...usRelationships,
 ];
 
 export const coverage = [
@@ -658,6 +662,7 @@ export const coverage = [
   { region: "Hong Kong" as Region, institution: "HKBU", core: 2, adjacent: 2, note: "事实核查与知识增强 LLM 为核心；可信基础模型与视觉语言单列相邻层" },
   ...mainlandCoverage,
   ...mainlandPhase2Coverage,
+  ...usCoverage,
 ];
 
 export const communities = [
@@ -671,6 +676,7 @@ export const communities = [
   { region: "Hong Kong" as Region, kicker: "产业回流型集群", name: "PolyU Generative AI & Systems", anchor: "Hongxia Yang · Liangliang Cao · Qiang Yang · Jing Li", description: "IBM、Microsoft、Google、Apple、Alibaba、ByteDance、Tencent 与 WeBank 的研究履历回流到高校。", color: "violet" },
   ...mainlandCommunities,
   ...mainlandPhase2Communities,
+  ...usCommunities,
 ];
 
 export const industryPathways: IndustryPathway[] = [
@@ -690,6 +696,7 @@ export const industryPathways: IndustryPathway[] = [
   ...mainlandEnrichmentIndustryPathways,
   ...mainlandIndustryPathways,
   ...mainlandPhase2IndustryPathways,
+  ...usIndustryPathways,
 ];
 
 const nusNlpAlumni: Source = { label: "NUS NLP Group alumni", url: "https://www.comp.nus.edu.sg/~nlp/people.html", kind: "official" };
@@ -713,6 +720,7 @@ export const groupMembers: GroupMember[] = [
   ...mainlandEnrichmentGroupMembers,
   ...mainlandGroupMembers,
   ...mainlandPhase2GroupMembers,
+  ...usGroupMembers,
 ];
 
 export const studentPlacements: StudentPlacement[] = [
@@ -765,4 +773,5 @@ export const studentPlacements: StudentPlacement[] = [
   { id: "wenjie-zhang-baidu", student: "Ji Zhang", teacherId: "wenjie-li", company: "Baidu", role: "Researcher", kind: "reported", source: wenjieStudents },
   ...mainlandEnrichmentStudentPlacements,
   ...mainlandStudentPlacements,
+  ...usStudentPlacements,
 ];
