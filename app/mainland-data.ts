@@ -360,7 +360,7 @@ export const mainlandRelationships: Relationship[] = [
 ];
 
 export const mainlandCoverage = [
-  { region: "Mainland China" as Region, institution: "THU", core: 5, adjacent: 0, note: "第一期覆盖 THUNLP 与基础模型研究中心的主要现任 PI；暂未穷举清华其他院系的泛 AI 教师" },
+  { region: "Mainland China" as Region, institution: "THU", core: 5, adjacent: 0, note: "重点覆盖 THUNLP 与基础模型研究中心的主要现任 PI；暂未穷举清华其他院系的泛 AI 教师" },
   { region: "Mainland China" as Region, institution: "PKU", core: 6, adjacent: 0, note: "从计算语言学研究所与学院 NLP 博导名录中选取方向最明确的资深与新晋 PI" },
   { region: "Mainland China" as Region, institution: "FDU", core: 7, adjacent: 0, note: "按复旦 NLP 官方教师名录与 NLP/大模型团队页收录，覆盖 MOSS 主轴和发展期 PI" },
   { region: "Mainland China" as Region, institution: "RUC", core: 6, adjacent: 0, note: "聚焦高瓴人工智能学院的大模型、智能检索、NLP、对齐与智能体群落" },

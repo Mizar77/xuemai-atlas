@@ -38,11 +38,11 @@ test("renders company and evidence sections", async () => {
   assert.match(html, /Singapore/);
 });
 
-test("renders the Mainland China phase-one roster and coverage", async () => {
+test("renders the expanded Mainland China roster and coverage", async () => {
   const response = await render();
   const html = await response.text();
 
-  for (const institution of ["THU", "PKU", "FDU", "RUC", "HIT", "CAS-IA", "NJU", "SJTU"]) {
+  for (const institution of ["THU", "PKU", "FDU", "RUC", "HIT", "CAS-IA", "NJU", "SJTU", "ZJU", "USTC", "BIT", "BUAA", "BUPT", "XJTU", "SYSU", "ECNU", "WHU"]) {
     assert.match(html, new RegExp(`>${institution}<`));
   }
   for (const scholar of ["孙茂松", "潘亮铭", "邱锡鹏", "窦志成", "车万翔", "宗成庆", "黄书剑", "吴小宝"]) {
@@ -51,5 +51,8 @@ test("renders the Mainland China phase-one roster and coverage", async () => {
   for (const romanizedName of ["Maosong Sun", "Liangming Pan", "Xipeng Qiu", "Zhicheng Dou"]) {
     assert.doesNotMatch(html, new RegExp(romanizedName));
   }
-  assert.match(html, /大陆第一期|第一期覆盖/);
+  for (const addedScholar of ["陈华钧", "张岸", "黄河燕", "陶重阳", "王小捷", "丁宁", "刘咏梅", "周杰", "钱铁云"]) {
+    assert.match(html, new RegExp(addedScholar));
+  }
+  assert.match(html, /大陆第二期|17 个重点机构/);
 });

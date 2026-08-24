@@ -14,6 +14,7 @@ const institutionColors: Record<Person["institution"], string> = {
   NUS: "#275ee6", NTU: "#f16f51", SUTD: "#d99f00", SMU: "#8a5bdb", "A*STAR": "#07a383",
   HKU: "#8f1d2c", HKUST: "#007c8a", CUHK: "#6f3aa8", CityU: "#cf4e20", PolyU: "#a32638", HKBU: "#1f6b52", External: "#8390a5",
   THU: "#7b2431", PKU: "#a33a4a", FDU: "#244c8f", RUC: "#76509b", HIT: "#0b668d", "CAS-IA": "#28726f", NJU: "#6653a2", SJTU: "#a52e2e",
+  ZJU: "#2f67a3", USTC: "#3d7b66", BIT: "#9b5c2e", BUAA: "#315b8f", BUPT: "#5b4c9a", XJTU: "#9a3e35", SYSU: "#1d746c", ECNU: "#7b4d91", WHU: "#355f9d",
 };
 const relationColors: Record<Relationship["type"], string> = { lineage: "#275ee6", collaboration: "#f16f51", industry: "#07a383", talent: "#8a5bdb" };
 const placementKindLabels = { current: "当前任职", first_job: "毕业去向", founder: "创业", reported: "组页记录", internship: "产业实习" } as const;
@@ -44,6 +45,15 @@ const graphZones: Record<Region, { institution: string; note: string; className:
     { institution: "CAS-IA", note: "6 core PI", className: "zone-casia" },
     { institution: "NJU", note: "6 core PI", className: "zone-nju" },
     { institution: "SJTU", note: "4 core + 2 adjacent", className: "zone-sjtu" },
+    { institution: "ZJU", note: "5 core PI", className: "zone-zju" },
+    { institution: "USTC", note: "4 core + 1 adjacent", className: "zone-ustc" },
+    { institution: "BIT", note: "5 core PI", className: "zone-bit" },
+    { institution: "BUAA", note: "5 core PI", className: "zone-buaa" },
+    { institution: "BUPT", note: "3 core + 2 adjacent", className: "zone-bupt" },
+    { institution: "XJTU", note: "5 core PI", className: "zone-xjtu" },
+    { institution: "SYSU", note: "4 core + 1 adjacent", className: "zone-sysu" },
+    { institution: "ECNU", note: "5 core PI", className: "zone-ecnu" },
+    { institution: "WHU", note: "5 core PI", className: "zone-whu" },
   ],
 };
 
@@ -133,7 +143,7 @@ export default function AcademicAtlas() {
   const regionalCoverage = coverage.filter((row) => row.region === region);
   const regionalCommunities = communities.filter((community) => community.region === region);
   const regionalPathways = industryPathways.filter((pathway) => pathway.region === region);
-  const graphHeight = region === "Mainland China" ? 1080 : 910;
+  const graphHeight = region === "Mainland China" ? 2640 : 910;
 
   function changeRegion(nextRegion: Region) {
     setRegion(nextRegion);
@@ -280,7 +290,7 @@ export default function AcademicAtlas() {
       </section>
 
       <section className="coverage-section" id="coverage">
-        <div className="section-heading"><div><p className="section-index">02 / COVERAGE AUDIT</p><h2>覆盖多少，也写清楚。</h2></div><p>“完整”取决于边界。当前核心口径是：{regionLabels[region]}现任、可独立招生或领导研究组，且官方研究描述明确包含 NLP、LLM、语言/语音或多模态语言。{region === "Mainland China" && " 大陆第一期先审计 8 个主要研究中心，不把首批名单表述为全国完整名录。"}</p></div>
+        <div className="section-heading"><div><p className="section-index">02 / COVERAGE AUDIT</p><h2>覆盖多少，也写清楚。</h2></div><p>“完整”取决于边界。当前核心口径是：{regionLabels[region]}现任、可独立招生或领导研究组，且官方研究描述明确包含 NLP、LLM、语言/语音或多模态语言。{region === "Mainland China" && " 大陆第二期已扩展到 17 个重点机构、覆盖多区域与新晋 PI；仍不表述为全国穷尽名录。"}</p></div>
         <div className="coverage-table">
           <div className="coverage-head"><span>机构</span><span>核心 NLP / LLM</span><span>相邻层</span><span>本轮覆盖说明</span></div>
           {regionalCoverage.map((row) => <div className="coverage-row" key={row.institution}><strong>{row.institution}</strong><span>{row.core}</span><span>{row.adjacent}</span><p>{row.note}</p></div>)}
