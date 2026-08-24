@@ -67,6 +67,11 @@ button { color: inherit; }
 .hero::before { width: 370px; height: 370px; right: 80px; top: 85px; border: 1px solid rgba(39,94,230,.18); box-shadow: inset 0 0 0 55px rgba(255,255,255,.15), inset 0 0 0 56px rgba(39,94,230,.12); }
 .hero::after { width: 190px; height: 190px; right: 300px; top: 195px; background: var(--lime); opacity: .28; filter: blur(2px); }
 .hero-copy { position: relative; z-index: 2; }
+.region-switch { width: max-content; display: flex; gap: 4px; margin-bottom: 22px; padding: 4px; border: 1px solid #cdd6ca; border-radius: 999px; background: rgba(255,255,255,.68); }
+.region-switch button { min-width: 108px; padding: 8px 14px; border: 0; border-radius: 999px; background: transparent; color: #657386; cursor: pointer; font-size: 12px; font-weight: 800; }
+.region-switch button small { display: block; margin-top: 1px; color: #8995a4; font: 600 7px var(--font-space), sans-serif; letter-spacing: .08em; text-transform: uppercase; }
+.region-switch button.active { background: var(--ink); color: white; box-shadow: 0 3px 9px rgba(16,32,56,.16); }
+.region-switch button.active small { color: var(--lime); }
 .eyebrow, .section-index { font: 700 11px var(--font-space), sans-serif; text-transform: uppercase; letter-spacing: .14em; color: var(--cobalt); }
 .eyebrow::before { content: ""; display: inline-block; width: 28px; height: 2px; background: var(--cobalt); vertical-align: middle; margin-right: 10px; }
 .hero h1 { margin: 18px 0 22px; font-size: clamp(58px, 7vw, 104px); line-height: .96; letter-spacing: -.075em; font-weight: 900; }
@@ -121,9 +126,10 @@ button { color: inherit; }
 
 .atlas-content { display: grid; grid-template-columns: minmax(0, 1fr) 360px; min-height: 690px; }
 .graph-scroll { min-width: 0; overflow-x: auto; border-right: 1px solid var(--line); }
-.graph-canvas { width: 1180px; height: 800px; position: relative; overflow: hidden; background-color: #f7f9f5; background-image: linear-gradient(rgba(80,96,116,.06) 1px, transparent 1px), linear-gradient(90deg, rgba(80,96,116,.06) 1px, transparent 1px); background-size: 28px 28px; }
+.graph-canvas { width: 1180px; height: 910px; position: relative; overflow: hidden; background-color: #f7f9f5; background-image: linear-gradient(rgba(80,96,116,.06) 1px, transparent 1px), linear-gradient(90deg, rgba(80,96,116,.06) 1px, transparent 1px); background-size: 28px 28px; }
 .graph-canvas::after { content: "evidence-linked graph · select a person to focus · click blank space to reset"; position: absolute; left: 20px; bottom: 12px; color: #8b978e; font: 600 9px var(--font-space), sans-serif; letter-spacing: .1em; text-transform: uppercase; }
-.graph-instruction { position: absolute; z-index: 7; top: 12px; left: 20px; display: flex; align-items: center; gap: 8px; padding: 6px 8px; border: 1px solid #d5ddd3; border-radius: 4px; background: rgba(255,255,255,.9); color: #66758a; font-size: 8px; box-shadow: 0 3px 10px rgba(35,53,73,.06); }
+.graph-reset-surface { position: absolute; z-index: 0; inset: 0; width: 100%; height: 100%; border: 0; background: transparent; cursor: default; }
+.graph-instruction { position: absolute; z-index: 7; top: 12px; right: 20px; display: flex; align-items: center; gap: 8px; padding: 6px 8px; border: 1px solid #d5ddd3; border-radius: 4px; background: rgba(255,255,255,.9); color: #66758a; font-size: 8px; box-shadow: 0 3px 10px rgba(35,53,73,.06); }
 .graph-instruction button { border: 0; border-bottom: 1px solid var(--cobalt); padding: 0 0 1px; background: transparent; color: var(--cobalt); font-size: 8px; font-weight: 800; cursor: pointer; }
 .institution-zone { position: absolute; border: 1px dashed; border-radius: 12px; padding: 12px 14px; pointer-events: none; opacity: .48; }
 .institution-zone b, .institution-zone span { display: block; }
@@ -134,7 +140,13 @@ button { color: inherit; }
 .zone-sutd { left: 790px; top: 88px; width: 350px; height: 155px; color: #a87900; background: rgba(217,159,0,.035); }
 .zone-smu { left: 790px; top: 285px; width: 350px; height: 225px; color: var(--violet); background: rgba(138,91,219,.025); }
 .zone-astar { left: 420px; top: 650px; width: 600px; height: 112px; color: var(--teal); background: rgba(7,163,131,.025); }
-.edge-layer { position: absolute; inset: 0; width: 1180px; height: 800px; z-index: 1; pointer-events: none; }
+.zone-hku { left: 35px; top: 95px; width: 315px; height: 380px; color: #8f1d2c; background: rgba(143,29,44,.025); }
+.zone-hkust { left: 365px; top: 95px; width: 315px; height: 380px; color: #007c8a; background: rgba(0,124,138,.025); }
+.zone-cuhk { left: 695px; top: 95px; width: 445px; height: 380px; color: #6f3aa8; background: rgba(111,58,168,.025); }
+.zone-cityu { left: 35px; top: 515px; width: 315px; height: 370px; color: #cf4e20; background: rgba(207,78,32,.025); }
+.zone-polyu { left: 365px; top: 515px; width: 505px; height: 370px; color: #a32638; background: rgba(163,38,56,.025); }
+.zone-hkbu { left: 885px; top: 515px; width: 255px; height: 370px; color: #1f6b52; background: rgba(31,107,82,.025); }
+.edge-layer { position: absolute; inset: 0; width: 1180px; height: 910px; z-index: 1; pointer-events: none; }
 .graph-line { position: absolute; height: 0; border-top: 2px solid; transform-origin: 0 0; z-index: 1; opacity: .75; }
 .graph-line::after { content: ""; position: absolute; right: -1px; top: -4px; width: 7px; height: 7px; border-top: 2px solid; border-right: 2px solid; transform: rotate(45deg); }
 .line-lineage { border-color: var(--cobalt); }

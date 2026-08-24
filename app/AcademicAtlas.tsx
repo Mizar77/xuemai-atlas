@@ -1,7 +1,7 @@
 "use client";
 
 import { useMemo, useState } from "react";
-import { communities, coverage, people, relationships, stageLabels, studentPlacements, type Person, type Relationship } from "./data";
+import { communities, coverage, industryPathways, people, regionOf, regionalInstitutions, relationships, stageLabels, studentPlacements, type Person, type Region, type Relationship } from "./data";
 import FeedbackDrawer from "./FeedbackDrawer";
 
 type EdgeFilter = "all" | Relationship["type"];
@@ -11,10 +11,30 @@ type FocusFilter = "all" | "core" | "emerging" | "adjacent" | "historical";
 const edgeLabels: Record<EdgeFilter, string> = { all: "全部关系", lineage: "师承", collaboration: "合作", industry: "产业", talent: "人才流向" };
 const focusLabels: Record<FocusFilter, string> = { all: "全部当前 PI", core: "核心 NLP / LLM", emerging: "发展期独立 PI", adjacent: "AI / 系统相邻", historical: "历史节点" };
 const institutionColors: Record<Person["institution"], string> = {
-  NUS: "#275ee6", NTU: "#f16f51", SUTD: "#d99f00", SMU: "#8a5bdb", "A*STAR": "#07a383", External: "#8390a5",
+  NUS: "#275ee6", NTU: "#f16f51", SUTD: "#d99f00", SMU: "#8a5bdb", "A*STAR": "#07a383",
+  HKU: "#8f1d2c", HKUST: "#007c8a", CUHK: "#6f3aa8", CityU: "#cf4e20", PolyU: "#a32638", HKBU: "#1f6b52", External: "#8390a5",
 };
 const relationColors: Record<Relationship["type"], string> = { lineage: "#275ee6", collaboration: "#f16f51", industry: "#07a383", talent: "#8a5bdb" };
-const placementKindLabels = { current: "当前任职", first_job: "毕业去向", founder: "创业" } as const;
+const placementKindLabels = { current: "当前任职", first_job: "毕业去向", founder: "创业", reported: "组页记录" } as const;
+const regionLabels: Record<Region, string> = { Singapore: "新加坡", "Hong Kong": "香港" };
+
+const graphZones: Record<Region, { institution: string; note: string; className: string }[]> = {
+  Singapore: [
+    { institution: "NUS", note: "7 current PI", className: "zone-nus" },
+    { institution: "NTU", note: "8 current PI", className: "zone-ntu" },
+    { institution: "SUTD", note: "1 current PI", className: "zone-sutd" },
+    { institution: "SMU", note: "2 current + 1 historical", className: "zone-smu" },
+    { institution: "A*STAR", note: "3 research PIs", className: "zone-astar" },
+  ],
+  "Hong Kong": [
+    { institution: "HKU", note: "3 core + 1 adjacent", className: "zone-hku" },
+    { institution: "HKUST", note: "5 core + 1 adjacent", className: "zone-hkust" },
+    { institution: "CUHK", note: "3 core + 2 adjacent", className: "zone-cuhk" },
+    { institution: "CityU", note: "5 core + 3 adjacent", className: "zone-cityu" },
+    { institution: "PolyU", note: "5 core + 2 adjacent", className: "zone-polyu" },
+    { institution: "HKBU", note: "2 core + 2 adjacent", className: "zone-hkbu" },
+  ],
+};
 
 function RelationChip({ type }: { type: Relationship["type"] }) {
   return <span className={`relation-chip relation-${type}`}>{edgeLabels[type]}</span>;
@@ -25,23 +45,30 @@ function initials(name: string) {
 }
 
 export default function AcademicAtlas() {
+  const [region, setRegion] = useState<Region>("Hong Kong");
   const [edgeFilter, setEdgeFilter] = useState<EdgeFilter>("all");
   const [institution, setInstitution] = useState<InstitutionFilter>("All");
   const [focus, setFocus] = useState<FocusFilter>("all");
   const [query, setQuery] = useState("");
-  const [selectedId, setSelectedId] = useState("wei-lu");
+  const [selectedId, setSelectedId] = useState("lingpeng-kong");
   const [graphFocusId, setGraphFocusId] = useState<string | null>(null);
   const [selectedCompany, setSelectedCompany] = useState("Salesforce");
   const [view, setView] = useState<"graph" | "people" | "evidence">("people");
 
-  const selected = people.find((person) => person.id === selectedId) ?? people[0];
+  const regionPeople = useMemo(() => people.filter((person) => regionOf(person) === region), [region]);
+  const regionIds = useMemo(() => new Set(regionPeople.map((person) => person.id)), [regionPeople]);
+  const regionalPlacements = useMemo(
+    () => studentPlacements.filter((placement) => regionIds.has(placement.teacherId)),
+    [regionIds],
+  );
+  const selected = people.find((person) => person.id === selectedId) ?? regionPeople[0];
   const selectedRelations = relationships.filter((r) => r.from === selected.id || r.to === selected.id);
   const selectedPlacements = studentPlacements.filter((placement) => placement.teacherId === selected.id);
 
-  const companyIndex = useMemo(() => Array.from(new Set(studentPlacements.map((placement) => placement.company))).map((company) => {
-    const placements = studentPlacements.filter((placement) => placement.company === company);
+  const companyIndex = useMemo(() => Array.from(new Set(regionalPlacements.map((placement) => placement.company))).map((company) => {
+    const placements = regionalPlacements.filter((placement) => placement.company === company);
     return { company, placements, teachers: new Set(placements.map((placement) => placement.teacherId)).size };
-  }).sort((a, b) => b.teachers - a.teachers || b.placements.length - a.placements.length || a.company.localeCompare(b.company)), []);
+  }).sort((a, b) => b.teachers - a.teachers || b.placements.length - a.placements.length || a.company.localeCompare(b.company)), [regionalPlacements]);
   const selectedCompanyData = companyIndex.find((entry) => entry.company === selectedCompany) ?? companyIndex[0];
   const companyPipelines = Array.from(new Set(selectedCompanyData.placements.map((placement) => placement.teacherId))).map((teacherId) => ({
     teacher: people.find((person) => person.id === teacherId)!,
@@ -50,7 +77,7 @@ export default function AcademicAtlas() {
 
   const visiblePeople = useMemo(() => {
     const needle = query.trim().toLowerCase();
-    return people.filter((person) => {
+    return regionPeople.filter((person) => {
       const institutionMatch = institution === "All" || person.institution === institution;
       const focusMatch =
         focus === "all" ? person.category !== "historical" || person.institution === "External" :
@@ -60,7 +87,7 @@ export default function AcademicAtlas() {
       const queryMatch = !needle || [person.name, person.chinese, person.area, person.role, ...person.tags].filter(Boolean).join(" ").toLowerCase().includes(needle);
       return institutionMatch && focusMatch && queryMatch;
     });
-  }, [focus, institution, query]);
+  }, [focus, institution, query, regionPeople]);
 
   const visibleIds = new Set(visiblePeople.map((person) => person.id));
   const visibleRelations = relationships.filter((relation) =>
@@ -75,9 +102,20 @@ export default function AcademicAtlas() {
       if (relation.to === activeGraphFocusId) graphFocusedIds.add(relation.from);
     });
   }
-  const currentPiCount = people.filter((p) => p.primary && p.category !== "historical").length;
-  const coreCount = people.filter((p) => p.primary && p.category === "core").length;
-  const sourceCount = new Set(people.flatMap((p) => p.sources.map((s) => s.url)).concat(relationships.map((r) => r.source.url), studentPlacements.map((p) => p.source.url))).size;
+  const currentPiCount = regionPeople.filter((p) => p.primary && p.category !== "historical").length;
+  const coreCount = regionPeople.filter((p) => p.primary && p.category === "core").length;
+  const sourceCount = new Set(regionPeople.flatMap((p) => p.sources.map((s) => s.url)).concat(relationships.filter((r) => regionIds.has(r.from) || regionIds.has(r.to)).map((r) => r.source.url), regionalPlacements.map((p) => p.source.url))).size;
+  const regionalCoverage = coverage.filter((row) => row.region === region);
+  const regionalCommunities = communities.filter((community) => community.region === region);
+  const regionalPathways = industryPathways.filter((pathway) => pathway.region === region);
+
+  function changeRegion(nextRegion: Region) {
+    setRegion(nextRegion);
+    setInstitution("All");
+    setQuery("");
+    setGraphFocusId(null);
+    setSelectedId(nextRegion === "Hong Kong" ? "lingpeng-kong" : "wei-lu");
+  }
 
   return (
     <main>
@@ -89,6 +127,9 @@ export default function AcademicAtlas() {
 
       <section className="hero" id="top">
         <div className="hero-copy">
+          <div className="region-switch" role="tablist" aria-label="地区切换">
+            {(["Hong Kong", "Singapore"] as Region[]).map((item) => <button key={item} className={region === item ? "active" : ""} onClick={() => changeRegion(item)}>{regionLabels[item]}<small>{item}</small></button>)}
+          </div>
           <p className="eyebrow">Roster first · evidence linked · scope explicit</p>
           <h1>梳理学术脉络，<br />连接人才流向。</h1>
           <p className="hero-deck">从机构名录到导师—学生—公司三层关系：呈现核心 PI、发展期独立 PI、相邻方向与历史节点，并把公开职业去向映射到企业和研究部门。</p>
@@ -96,16 +137,16 @@ export default function AcademicAtlas() {
         </div>
         <div className="hero-metrics" aria-label="图谱数据概况">
           <div><strong>{coreCount}</strong><span>核心 NLP / LLM PI</span></div>
-          <div><strong>5</strong><span>新加坡机构</span></div>
+          <div><strong>{regionalInstitutions[region].length}</strong><span>{regionLabels[region]}机构</span></div>
           <div><strong>{currentPiCount}</strong><span>当前 PI（含相邻层）</span></div>
-          <div><strong>{studentPlacements.length}</strong><span>已核验学生去向</span></div>
-          <p>{sourceCount} 个去重来源 · 更新于 2026.08.23</p>
+          <div><strong>{regionalPlacements.length}</strong><span>已核验学生去向</span></div>
+          <p>{sourceCount} 个去重来源 · 更新于 2026.08.24</p>
         </div>
       </section>
 
       <section className="atlas-section" id="atlas">
         <div className="section-heading">
-          <div><p className="section-index">01 / ROSTER + INTERACTIVE ATLAS</p><h2>新加坡 NLP / LLM PI 名录</h2></div>
+          <div><p className="section-index">01 / ROSTER + INTERACTIVE ATLAS</p><h2>{regionLabels[region]} NLP / LLM / AI PI 名录</h2></div>
           <div className="view-switch" role="tablist" aria-label="图谱视图">
             {(["people", "graph", "evidence"] as const).map((item) => <button key={item} className={view === item ? "active" : ""} onClick={() => setView(item)}>{item === "graph" ? "关系图" : item === "people" ? "人物名录" : "证据清单"}</button>)}
           </div>
@@ -115,7 +156,7 @@ export default function AcademicAtlas() {
           <div className="atlas-toolbar">
             <label className="search-box"><span>⌕</span><input value={query} onChange={(e) => setQuery(e.target.value)} placeholder="搜索学者、实验室、方向…" /></label>
             <div className="filter-row" aria-label="机构筛选">
-              {(["All", "NUS", "NTU", "SUTD", "SMU", "A*STAR"] as InstitutionFilter[]).map((item) => <button key={item} className={institution === item ? "active" : ""} onClick={() => setInstitution(item)}>{item === "All" ? "全部机构" : item}</button>)}
+              {(["All", ...regionalInstitutions[region]] as InstitutionFilter[]).map((item) => <button key={item} className={institution === item ? "active" : ""} onClick={() => setInstitution(item)}>{item === "All" ? "全部机构" : item}</button>)}
             </div>
             <span className="result-count">{visiblePeople.filter((p) => p.primary).length} 人</span>
           </div>
@@ -128,14 +169,11 @@ export default function AcademicAtlas() {
           <div className="atlas-content">
             {view === "graph" && (
               <div className="graph-scroll">
-                <div className="graph-canvas" aria-label="学者关系网络" onClick={() => setGraphFocusId(null)}>
-                  <div className="graph-instruction" onClick={(event) => event.stopPropagation()}><span>点击人物聚焦关系 · 点击空白恢复全图</span>{activeGraphFocusId && <button onClick={() => setGraphFocusId(null)}>显示全部</button>}</div>
-                  <div className="institution-zone zone-nus"><b>NUS</b><span>7 current PI</span></div>
-                  <div className="institution-zone zone-ntu"><b>NTU</b><span>8 current PI</span></div>
-                  <div className="institution-zone zone-sutd"><b>SUTD</b><span>1 current PI</span></div>
-                  <div className="institution-zone zone-smu"><b>SMU</b><span>2 current + 1 historical</span></div>
-                  <div className="institution-zone zone-astar"><b>A*STAR</b><span>3 research PIs</span></div>
-                  <svg className="edge-layer" viewBox="0 0 1180 800" aria-hidden="true">
+                <div className="graph-canvas" aria-label="学者关系网络">
+                  <button className="graph-reset-surface" aria-label="显示全部人物关系" onClick={() => setGraphFocusId(null)} />
+                  <div className="graph-instruction"><span>点击人物聚焦关系 · 点击空白恢复全图</span>{activeGraphFocusId && <button onClick={() => setGraphFocusId(null)}>显示全部</button>}</div>
+                  {graphZones[region].map((zone) => <div className={`institution-zone ${zone.className}`} key={zone.institution}><b>{zone.institution}</b><span>{zone.note}</span></div>)}
+                  <svg className="edge-layer" viewBox="0 0 1180 910" aria-hidden="true">
                     {visibleRelations.filter((r) => r.from !== r.to).map((relation) => {
                       const from = people.find((p) => p.id === relation.from)!;
                       const to = people.find((p) => p.id === relation.to)!;
@@ -159,7 +197,7 @@ export default function AcademicAtlas() {
 
             {view === "people" && (
               <div className="people-directory">
-                {(["NUS", "NTU", "SUTD", "SMU", "A*STAR"] as Person["institution"][]).map((inst) => {
+                {regionalInstitutions[region].map((inst) => {
                   const group = visiblePeople.filter((p) => p.primary && p.institution === inst);
                   if (!group.length) return null;
                   return <section className="institution-group" key={inst}>
@@ -206,10 +244,10 @@ export default function AcademicAtlas() {
       </section>
 
       <section className="coverage-section" id="coverage">
-        <div className="section-heading"><div><p className="section-index">02 / COVERAGE AUDIT</p><h2>覆盖多少，也写清楚。</h2></div><p>“完整”取决于边界。当前核心口径是：新加坡现任、可独立招生或领导研究组，且官方研究描述明确包含 NLP、LLM、语言/语音或多模态语言。</p></div>
+        <div className="section-heading"><div><p className="section-index">02 / COVERAGE AUDIT</p><h2>覆盖多少，也写清楚。</h2></div><p>“完整”取决于边界。当前核心口径是：{regionLabels[region]}现任、可独立招生或领导研究组，且官方研究描述明确包含 NLP、LLM、语言/语音或多模态语言。</p></div>
         <div className="coverage-table">
           <div className="coverage-head"><span>机构</span><span>核心 NLP / LLM</span><span>相邻层</span><span>本轮覆盖说明</span></div>
-          {coverage.map((row) => <div className="coverage-row" key={row.institution}><strong>{row.institution}</strong><span>{row.core}</span><span>{row.adjacent}</span><p>{row.note}</p></div>)}
+          {regionalCoverage.map((row) => <div className="coverage-row" key={row.institution}><strong>{row.institution}</strong><span>{row.core}</span><span>{row.adjacent}</span><p>{row.note}</p></div>)}
         </div>
         <div className="scope-notes">
           <article><strong>计入核心</strong><p>NLP、LLM、语言/语音、多模态语言为主要研究主线的现任独立 PI 或研究院 PI。</p></article>
@@ -220,13 +258,13 @@ export default function AcademicAtlas() {
 
       <section className="communities-section" id="communities">
         <div className="section-heading light-heading"><div><p className="section-index">03 / RESEARCH COMMUNITIES</p><h2>从导师谱系到研究群落。</h2></div><p>群落同时参考师承、实验室、长期合作与组织关系；这里呈现由公开证据支持的研究集群，不对群体作价值判断。</p></div>
-        <div className="community-grid">{communities.map((community, index) => <article key={community.name} className={`community-card ${community.color}`}><span className="community-number">0{index + 1}</span><p>{community.kicker}</p><h3>{community.name}</h3><strong>{community.anchor}</strong><span>{community.description}</span><button onClick={() => document.querySelector("#atlas")?.scrollIntoView({ behavior: "smooth" })}>在名录中查看 ↗</button></article>)}</div>
+        <div className="community-grid">{regionalCommunities.map((community, index) => <article key={community.name} className={`community-card ${community.color}`}><span className="community-number">0{index + 1}</span><p>{community.kicker}</p><h3>{community.name}</h3><strong>{community.anchor}</strong><span>{community.description}</span><button onClick={() => document.querySelector("#atlas")?.scrollIntoView({ behavior: "smooth" })}>在名录中查看 ↗</button></article>)}</div>
       </section>
 
       <section className="company-section" id="companies">
         <div className="section-heading">
           <div><p className="section-index">04 / COMPANY-CENTERED GRAPH</p><h2>从机构观察人才流向。</h2></div>
-          <p>选择公司或部门，中心图会显示哪些老师的学生进入该组织、学生姓名与公开职位。重点职位单独标记；“首份去向”与“当前任职”保留原始页面口径。</p>
+          <p>选择公司或部门，中心图会显示{regionLabels[region]}哪些老师的学生进入该组织、学生姓名与公开职位。重点职位单独标记；“毕业去向”“当前任职”与“组页记录”保留原始页面口径。</p>
         </div>
         <div className="company-atlas">
           <aside className="company-index" aria-label="公司与部门索引">
@@ -248,18 +286,14 @@ export default function AcademicAtlas() {
       <section className="industry-section" id="industry">
         <div className="section-heading"><div><p className="section-index">05 / INDUSTRY PATHWAYS</p><h2>导师本人的产业连接。</h2></div><p>这里记录 PI 本人的正式/联合任职、前雇主、研究资助、联合实验室、创业与技术部署；学生就业单独放在上面的公司反向图。</p></div>
         <div className="pathways">
-          <article><span>01</span><div><small>JOINT / PARALLEL AFFILIATION</small><h3>Shafiq Joty ↔ Salesforce Research</h3><p>NTU 官方公告以 Salesforce Research、NTU 双重身份署名，是最直接的学界—企业研究连接。</p></div><a href="https://www.ntu.edu.sg/computing/news-events/news/detail/the-2024-conference-on-empirical-methods-in-natural-language-processing" target="_blank" rel="noreferrer">证据 ↗</a></article>
-          <article><span>02</span><div><small>PRIOR EMPLOYMENT</small><h3>Wenxuan Zhang ↔ Alibaba Singapore</h3><p>SUTD 官方简介记录其此前为 Alibaba Group Singapore 研究科学家，并获 Ali Star。</p></div><a href="https://www.sutd.edu.sg/profile/zhang-wenxuan" target="_blank" rel="noreferrer">证据 ↗</a></article>
-          <article><span>03</span><div><small>JOINT LAB + STARTUPS</small><h3>Tat-Seng Chua（蔡达成）↔ Sea / ViSenze / 6Estates</h3><p>公开主页明确列出 Sea–NExT Joint Lab，以及其共同创办的视觉搜索公司 ViSenze Pte Ltd 和大数据智能公司 6Estates Pte Ltd；学生 Guangda Li 任 ViSenze 联合创始人兼 CTO。</p></div><a href="https://www.chuatatseng.com/" target="_blank" rel="noreferrer">证据 ↗</a></article>
-          <article><span>04</span><div><small>RESEARCH COLLABORATION</small><h3>Wei Lu ↔ Alibaba</h3><p>其在 SUTD 任职期间的公开报道记录了团队与 Alibaba 在 NLP 方向的合作；Wei Lu 现已转任 NTU。</p></div><a href="https://www.sutd.edu.sg/stories-listing/taking-natural-language-processing-to-greater-heights" target="_blank" rel="noreferrer">证据 ↗</a></article>
-          <article><span>05</span><div><small>INDUSTRY RESEARCH CENTRE</small><h3>Jian Su ↔ Baidu–I²R</h3><p>A*STAR 官方页列其为 Baidu I²R Research Centre 联合主任。</p></div><a href="https://research.a-star.edu.sg/researcher/jian-su/" target="_blank" rel="noreferrer">证据 ↗</a></article>
+          {regionalPathways.map((pathway, index) => <article key={pathway.id}><span>{String(index + 1).padStart(2, "0")}</span><div><small>{pathway.kind}</small><h3>{pathway.title}</h3><p>{pathway.description}</p></div><a href={pathway.source.url} target="_blank" rel="noreferrer">证据 ↗</a></article>)}
         </div>
       </section>
 
       <section className="method-section" id="method">
         <div><p className="section-index">06 / EVIDENCE STANDARD</p><h2>从名单到关系，<br />分四层核验。</h2></div>
         <div className="method-copy"><p>图谱以公开证据为基础，持续核验人物、关系与职业信息。</p><ol>
-          <li><span>A</span><div><strong>机构 roster</strong><p>先按 NUS、NTU、SUTD、SMU、A*STAR 核对现任人员。</p></div></li>
+          <li><span>A</span><div><strong>机构 roster</strong><p>先按 {regionalInstitutions[region].join("、")} 核对现任人员。</p></div></li>
           <li><span>B</span><div><strong>PI 与方向边界</strong><p>确认是否独立招生/带组，并区分核心语言方向与 AI 相邻层。</p></div></li>
           <li><span>C</span><div><strong>关系类型不混用</strong><p>导师、共同论文、联合项目、任职与人才流向分别建边。</p></div></li>
           <li><span>D</span><div><strong>保留历史状态</strong><p>on leave、跨地区任职和前雇主单独标注，不计作当前核心节点。</p></div></li>
@@ -267,7 +301,7 @@ export default function AcademicAtlas() {
       </section>
 
       <FeedbackDrawer defaultSubject={`${selected.name}${selected.chinese ? `（${selected.chinese}）` : ""}`} />
-      <footer><div className="brand"><span className="brand-mark">脉</span><span>学脉 Atlas</span></div><p>新加坡 NLP / LLM 学术关系图谱 · 基于公开来源持续维护</p><a href="#top">回到顶部 ↑</a></footer>
+      <footer><div className="brand"><span className="brand-mark">脉</span><span>学脉 Atlas</span></div><p>{regionLabels[region]} NLP / LLM / AI 学术关系图谱 · 基于公开来源持续维护</p><a href="#top">回到顶部 ↑</a></footer>
     </main>
   );
 }

@@ -35,10 +35,6 @@ export default function FeedbackDrawer({ defaultSubject }: FeedbackDrawerProps) 
   const [reference, setReference] = useState("");
 
   useEffect(() => {
-    if (open && !content && !reference) setSubject(defaultSubject);
-  }, [defaultSubject, open, content, reference]);
-
-  useEffect(() => {
     if (!open) return;
     const onKeyDown = (event: KeyboardEvent) => {
       if (event.key === "Escape") setOpen(false);
@@ -87,7 +83,10 @@ export default function FeedbackDrawer({ defaultSubject }: FeedbackDrawerProps) 
 
   return (
     <>
-      <button className="feedback-trigger" onClick={() => setOpen(true)} aria-label="提交纠错或补充信息">
+      <button className="feedback-trigger" onClick={() => {
+        if (!content && !reference) setSubject(defaultSubject);
+        setOpen(true);
+      }} aria-label="提交纠错或补充信息">
         <span>＋</span><b>纠错 / 补充</b>
       </button>
       {open && <div className="feedback-overlay" onClick={() => setOpen(false)} aria-hidden="true" />}

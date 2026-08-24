@@ -4,7 +4,8 @@ export type Source = {
   kind: "official" | "cv" | "thesis" | "profile";
 };
 
-export type Institution = "NUS" | "NTU" | "SUTD" | "SMU" | "A*STAR" | "External";
+export type Region = "Singapore" | "Hong Kong";
+export type Institution = "NUS" | "NTU" | "SUTD" | "SMU" | "A*STAR" | "HKU" | "HKUST" | "CUHK" | "CityU" | "PolyU" | "HKBU" | "External";
 export type Stage = "senior" | "emerging" | "institute" | "adjacent" | "historical";
 export type Category = "core" | "adjacent" | "historical";
 
@@ -14,6 +15,7 @@ export type Person = {
   chinese?: string;
   role: string;
   institution: Institution;
+  region?: Region;
   area: string;
   tags: string[];
   summary: string;
@@ -25,6 +27,24 @@ export type Person = {
   y: number;
   primary?: boolean;
 };
+
+export type IndustryPathway = {
+  id: string;
+  region: Region;
+  kind: string;
+  title: string;
+  description: string;
+  source: Source;
+};
+
+export const regionalInstitutions: Record<Region, Institution[]> = {
+  Singapore: ["NUS", "NTU", "SUTD", "SMU", "A*STAR"],
+  "Hong Kong": ["HKU", "HKUST", "CUHK", "CityU", "PolyU", "HKBU"],
+};
+
+export function regionOf(person: Person): Region {
+  return person.region ?? "Singapore";
+}
 
 export type Relationship = {
   id: string;
@@ -44,7 +64,7 @@ export type StudentPlacement = {
   company: string;
   department?: string;
   role: string;
-  kind: "current" | "first_job" | "founder";
+  kind: "current" | "first_job" | "founder" | "reported";
   highLevel?: boolean;
   note?: string;
   source: Source;
@@ -247,12 +267,265 @@ export const people: Person[] = [
     x: 900, y: 720, primary: true,
   },
 
+  // Hong Kong · HKU
+  {
+    id: "lingpeng-kong", name: "Lingpeng Kong", chinese: "孔令鹏", role: "Assistant Professor", institution: "HKU", region: "Hong Kong",
+    area: "NLP · Structured Prediction · Language Models", tags: ["NLP", "结构化预测", "语言模型", "Google DeepMind"], stage: "senior", category: "core",
+    summary: "HKU NLP Group 的核心 PI，研究结构化语言建模、表示学习与生成；加入 HKU 前在 Google DeepMind 任 Research Scientist / Senior Research Scientist。博士阶段由 Noah Smith 与 Chris Dyer 共同指导。",
+    sources: [{ label: "HKU Faculty Profile", url: "https://ai.hku.hk/people/academic-staff/lpk", kind: "official" }, { label: "HKU LawTech Profile", url: "https://www.lawtech.hku.hk/people/lingpeng-kong/", kind: "official" }],
+    x: 120, y: 165, primary: true,
+  },
+  {
+    id: "tao-yu", name: "Tao Yu", chinese: "余涛", role: "Assistant Professor · XLANG Lab Director", institution: "HKU", region: "Hong Kong",
+    area: "LLM Reasoning · Agents · Text-to-SQL", tags: ["LLM", "智能体", "Text-to-SQL", "对话式数据接口"], stage: "emerging", category: "core",
+    summary: "XLANG Lab 负责人、HKU NLP Group 联合负责人，研究长程推理与规划、自然语言数据接口和 Text-to-SQL；博士毕业于 Yale，导师为 Dragomir Radev。",
+    sources: [{ label: "HKU IDS Profile", url: "https://datascience.hku.hk/people/tao-yu/", kind: "official" }, { label: "Tao Yu 个人主页", url: "https://taoyds.github.io/", kind: "profile" }],
+    x: 280, y: 165, primary: true,
+  },
+  {
+    id: "qi-liu-hku", name: "Qi Liu", role: "Assistant Professor · FinTech Programme Director", institution: "HKU", region: "Hong Kong",
+    area: "NLP · Language Models · FinTech", tags: ["NLP", "LLM", "对话", "DeepMind", "FAIR", "MSR"], stage: "emerging", category: "core",
+    summary: "研究语言模型、对话与自然语言处理；加入 HKU 前曾在 Google DeepMind、Facebook AI Research 和 Microsoft Research 工作，当前还延伸到自然语言—形式语言统一推理。",
+    sources: [{ label: "HKU Faculty Profile", url: "https://www.ai.hku.hk/people/academic-staff/liuqi", kind: "official" }, { label: "HKU 人物报道", url: "https://www.cs.hku.hk/news-events/news-and-announcements/20230525_qliu_forbes-under30_asia_2023", kind: "official" }],
+    x: 120, y: 295, primary: true,
+  },
+  {
+    id: "chao-huang-hku", name: "Chao Huang", role: "Assistant Professor · IDS Scholar", institution: "HKU", region: "Hong Kong",
+    area: "Recommendation · Graph Learning · LLM Agents", tags: ["推荐系统", "图学习", "Agentic AI", "Auto-Deep-Research"], stage: "emerging", category: "adjacent",
+    summary: "数据挖掘、推荐与图学习独立 PI；近年团队构建开放式 Auto-Deep-Research 智能体，并开展 LLM 增强推荐和面向长者的 agentic foundation model。",
+    sources: [{ label: "HKU Faculty Profile", url: "https://www.ai.hku.hk/people/academic-staff/chuang", kind: "official" }, { label: "HKU Auto-Deep-Research", url: "https://ai.hku.hk/news-events/news-and-announcements/20250307-chao", kind: "official" }],
+    x: 280, y: 295, primary: true,
+  },
+
+  // Hong Kong · HKUST
+  {
+    id: "pascale-fung", name: "Pascale Fung", chinese: "馮雁", role: "Chair Professor · CAiRE Director", institution: "HKUST", region: "Hong Kong",
+    area: "Conversational AI · Multilingual NLP · Responsible AI", tags: ["对话 AI", "多语言 NLP", "语音", "ACL Fellow", "AAAI Fellow"], stage: "senior", category: "core",
+    summary: "HKUST Human Language Technology Center 创始成员、Center for AI Research 主任；长期研究跨语言处理、机器翻译、语音、情感与负责任 AI。早年曾在 AT&T/Bell Labs 与 BBN 工作。",
+    sources: [{ label: "HKUST ECE Profile", url: "https://ece.hkust.edu.hk/pascale", kind: "official" }, { label: "HKUST ACL Fellow 公告", url: "https://ece.hkust.edu.hk/news/prof-pascale-fung-has-been-elected-association-computational-linguistics-acl-fellow-2020", kind: "official" }],
+    x: 445, y: 165, primary: true,
+  },
+  {
+    id: "de-kai", name: "De Kai", chinese: "吳德愷", role: "Professor of Engineering Education · AI Education Ambassador", institution: "HKUST", region: "Hong Kong",
+    area: "Computational Linguistics · Machine Translation", tags: ["计算语言学", "机器翻译", "中文 NLP", "AI Ethics"], stage: "senior", category: "core",
+    summary: "1992 年加入 HKUST，是香港中文 NLP 与统计机器翻译的早期关键节点；研究计算语言学、机器翻译、语言与音乐技术，并长期参与 AI 伦理教育。",
+    sources: [{ label: "HKUST Faculty Profile", url: "https://cse.hkust.edu.hk/admin/people/faculty/profile/dekai", kind: "official" }, { label: "De Kai Research Page", url: "https://cse.hkust.edu.hk/faculty/dekai/", kind: "profile" }],
+    x: 605, y: 165, primary: true,
+  },
+  {
+    id: "yangqiu-song", name: "Yangqiu Song", chinese: "宋陽秋", role: "Associate Professor · PG Programs Coordinator", institution: "HKUST", region: "Hong Kong",
+    area: "NLP · Knowledge Graphs · LLM Agents", tags: ["NLP", "知识图谱", "智能体", "WeBank Joint Lab"], stage: "senior", category: "core",
+    summary: "研究文本挖掘、知识图谱、常识与 LLM 智能体，联合领导 HKUST–WeBank Joint Lab；公开履历连接 IBM Research、MSRA、Huawei Noah’s Ark、Amazon A9/Rufus。",
+    sources: [{ label: "HKUST Faculty Profile", url: "https://cse.hkust.edu.hk/admin/people/faculty/profile/yqsong", kind: "official" }, { label: "个人主页（学生去向）", url: "https://cse.hkust.edu.hk/~yqsong/", kind: "profile" }],
+    x: 445, y: 285, primary: true,
+  },
+  {
+    id: "junxian-he", name: "Junxian He", chinese: "何俊賢", role: "Assistant Professor", institution: "HKUST", region: "Hong Kong",
+    area: "LLM Reasoning · Planning · Efficient NLP", tags: ["LLM 推理", "规划", "高效 NLP", "新独立 PI"], stage: "emerging", category: "core",
+    summary: "研究资源高效 NLP、LLM 推理与规划、强化学习和智能体；CMU LTI 博士，公开记录列 Taylor Berg-Kirkpatrick 为学术导师。",
+    sources: [{ label: "HKUST Faculty Profile", url: "https://cse.hkust.edu.hk/admin/people/faculty/profile/junxianh", kind: "official" }, { label: "CMU LTI Alumni", url: "https://www.lti.cs.cmu.edu/people/alumni/alumni-2022/he-junxian.html", kind: "official" }],
+    x: 605, y: 285, primary: true,
+  },
+  {
+    id: "yi-fung", name: "Yi R. Fung", chinese: "馮一人", role: "Assistant Professor", institution: "HKUST", region: "Hong Kong",
+    area: "Trustworthy NLP · Multimodal Reasoning · Agents", tags: ["可信 NLP", "多模态推理", "RAG", "智能体", "2024 新 PI"], stage: "emerging", category: "core",
+    summary: "发展期独立 PI，研究人本可信 AI/NLP、多模态知识推理、RAG、智能体与社会文化适配；官方简介明确其领导一个正在扩展的新研究组。",
+    sources: [{ label: "HKUST Faculty Profile", url: "https://cse.hkust.edu.hk/admin/people/faculty/profile/yrfung", kind: "official" }],
+    x: 445, y: 405, primary: true,
+  },
+  {
+    id: "song-guo-hkust", name: "Song Guo", chinese: "郭嵩", role: "Chair Professor · Associate Head", institution: "HKUST", region: "Hong Kong",
+    area: "LLM Systems · Physical AI", tags: ["LLM Systems", "机器学习系统", "Physical AI"], stage: "adjacent", category: "adjacent",
+    summary: "以大模型系统、机器学习系统与 Physical AI 为主线的系统相邻 PI；不归入纯语言方向，但与香港 LLM 训练和部署生态直接相关。",
+    sources: [{ label: "HKUST Faculty Profile", url: "https://cse.hkust.edu.hk/admin/people/faculty/profile/songguo", kind: "official" }],
+    x: 605, y: 405, primary: true,
+  },
+
+  // Hong Kong · CUHK
+  {
+    id: "kam-fai-wong", name: "Kam-Fai Wong", chinese: "黃錦輝", role: "Professor", institution: "CUHK", region: "Hong Kong",
+    area: "Chinese NLP · Information Retrieval", tags: ["中文信息处理", "NLP", "IR", "ACL Fellow"], stage: "senior", category: "core",
+    summary: "CUHK 中文信息处理的重要资深节点，ACL Fellow，长期推动亚洲 NLP 社群；Jing Ma 的博士导师之一，并连接多项知识转移与产业项目。",
+    sources: [{ label: "CUHK SEEM Academic Staff", url: "https://www.se.cuhk.edu.hk/people/academic-staff/", kind: "official" }, { label: "CUHK Research Portal", url: "https://research.cuhk.edu.hk/en/persons/kam-fai-william-wong/", kind: "official" }],
+    x: 980, y: 165, primary: true,
+  },
+  {
+    id: "xixin-wu", name: "Xixin Wu", chinese: "吳錫欣", role: "Assistant Professor", institution: "CUHK", region: "Hong Kong",
+    area: "Generative AI · Speech & Language for Health", tags: ["生成式 AI", "语音语言", "健康", "情感计算"], stage: "emerging", category: "core",
+    summary: "CUHK SEEM 的发展期独立 PI，研究生成式 AI、健康场景语音与语言处理、情感计算和人机交互。",
+    sources: [{ label: "CUHK SEEM Academic Staff", url: "https://www.se.cuhk.edu.hk/people/academic-staff/", kind: "official" }],
+    x: 780, y: 285, primary: true,
+  },
+  {
+    id: "irwin-king", name: "Irwin King", role: "Professor · MISC Lab PI", institution: "CUHK", region: "Hong Kong",
+    area: "Machine Learning · Social Computing · NLP", tags: ["NLP", "社交计算", "e-learning", "MISC Lab"], stage: "senior", category: "adjacent",
+    summary: "MISC Lab PI，研究机器学习、社交计算与教育技术，实验室明确设有 NLP 主线；因整体研究范围更宽，本图列入 AI 相邻层。",
+    sources: [{ label: "CUHK MISC Lab", url: "https://misc-lab.cse.cuhk.edu.hk/", kind: "official" }],
+    x: 980, y: 285, primary: true,
+  },
+  {
+    id: "yu-cheng-cuhk", name: "Yu Cheng", role: "Research Professor", institution: "CUHK", region: "Hong Kong",
+    area: "Multimodal Learning · Efficient AI · NLP", tags: ["多模态", "NLP", "模型压缩", "Research Professor"], stage: "adjacent", category: "adjacent",
+    summary: "研究多模态学习、自然语言处理与模型压缩；当前为 Research Professor，因职位轨道与常规 tenure-track 不同，单列在相邻层。",
+    sources: [{ label: "CUHK CSE Profile", url: "https://www.cse.cuhk.edu.hk/people/faculty/yu-cheng/", kind: "official" }],
+    x: 780, y: 405, primary: true,
+  },
+
+  // Hong Kong · CityU
+  {
+    id: "wei-ying-ma", name: "Wei-Ying Ma", chinese: "馬維英", role: "Chair Professor of AI for Science", institution: "CityU", region: "Hong Kong",
+    area: "Search · NLP · Generative AI", tags: ["搜索", "NLP", "生成式 AI", "MSRA"], stage: "senior", category: "core",
+    summary: "CityU Chief of AI、HKAI-Sci 主任，搜索、数据挖掘与自然语言处理领域资深学者；曾任 MSRA 常务副院长与 ByteDance 副总裁兼 AI Lab 负责人。",
+    sources: [{ label: "CityU Named Professorship", url: "https://www.cityu.edu.hk/named-professorship/named-professorship-scheme/named-chair-professorships/lee-shau-kee-chair-professorship-in-information-engineering", kind: "official" }, { label: "CityU CS Academic Staff", url: "https://www.cs.cityu.edu.hk/en/people/academic-staff", kind: "official" }],
+    x: 115, y: 575, primary: true,
+  },
+  {
+    id: "chen-ma-cityu", name: "Chen Ma", role: "Associate Professor", institution: "CityU", region: "Hong Kong",
+    area: "Recommender Systems · NLP · Social Computing", tags: ["推荐系统", "NLP", "社会计算", "深度学习"], stage: "senior", category: "core",
+    summary: "横跨推荐系统、自然语言处理、数据挖掘与社会计算的独立 PI。",
+    sources: [{ label: "CityU CS Academic Staff", url: "https://www.cs.cityu.edu.hk/en/people/academic-staff", kind: "official" }],
+    x: 275, y: 575, primary: true,
+  },
+  {
+    id: "zhisong-zhang", name: "Zhisong Zhang", role: "Presidential Assistant Professor", institution: "CityU", region: "Hong Kong",
+    area: "Long-context LLM · Agents · NLP", tags: ["长上下文", "LLM Agents", "NLP", "2025 新 PI"], stage: "emerging", category: "core",
+    summary: "2025 年加入 CityU 的 Presidential Assistant Professor，CMU LTI 博士；研究长上下文语言模型、LLM 智能体与语言模型机制，是香港最新一批独立 NLP PI。",
+    sources: [{ label: "CityU Presidential Assistant Professors", url: "https://www.cityu.edu.hk/vpti/presidential-assistant-professors-scheme/paps", kind: "official" }],
+    x: 115, y: 665, primary: true,
+  },
+  {
+    id: "gang-liu-cityu", name: "Gang Liu", role: "Assistant Professor", institution: "CityU", region: "Hong Kong",
+    area: "Generative AI · LLM · Foundation Models", tags: ["LLM", "生成式 AI", "基础模型", "新独立 PI"], stage: "emerging", category: "core",
+    summary: "CityU 数据科学系新独立 PI，官方研究方向直接列为生成式 AI、大语言模型和基础模型。",
+    sources: [{ label: "CityU Data Science Academic Staff", url: "https://www.ds.cityu.edu.hk/en/people/academic-staff", kind: "official" }],
+    x: 275, y: 665, primary: true,
+  },
+  {
+    id: "ning-miao", name: "Ning Miao", role: "Assistant Professor", institution: "CityU", region: "Hong Kong",
+    area: "LLM Reasoning · Generative Models · NLP", tags: ["LLM 推理", "生成模型", "NLP", "Oxford PhD"], stage: "emerging", category: "core",
+    summary: "CityU 数据科学系发展期 PI，研究大语言模型推理能力、生成模型与自然语言处理。",
+    sources: [{ label: "CityU Data Science Academic Staff", url: "https://www.ds.cityu.edu.hk/en/people/academic-staff", kind: "official" }],
+    x: 115, y: 755, primary: true,
+  },
+  {
+    id: "jianyuan-guo", name: "Jianyuan Guo", chinese: "郭健元", role: "Presidential Assistant Professor", institution: "CityU", region: "Hong Kong",
+    area: "Efficient Multimodal AI · LLM", tags: ["多模态", "LLM", "模型压缩", "2025 新 PI"], stage: "emerging", category: "adjacent",
+    summary: "2025 年加入 CityU，研究高效计算机视觉、自然语言处理、大模型与多模态理解；以机器感知为主，列入相邻层。",
+    sources: [{ label: "CityU CS Academic Staff", url: "https://www.cs.cityu.edu.hk/en/people/academic-staff", kind: "official" }, { label: "CityU Presidential Assistant Professors", url: "https://www.cityu.edu.hk/vpti/presidential-assistant-professors-scheme/paps", kind: "official" }],
+    x: 275, y: 755, primary: true,
+  },
+  {
+    id: "xiaotie-deng", name: "Xiaotie Deng", chinese: "鄧小鐵", role: "Chair Professor of Multi-Agent Economics", institution: "CityU", region: "Hong Kong",
+    area: "LLM Multi-agent Systems · Algorithmic Game Theory", tags: ["多智能体", "LLM", "机制设计", "算法博弈"], stage: "adjacent", category: "adjacent",
+    summary: "资深算法博弈学者，当前研究方向已明确包含 LLM-based multiagent systems；属于智能体和决策相邻层。",
+    sources: [{ label: "CityU CS Academic Staff", url: "https://www.cs.cityu.edu.hk/en/people/academic-staff", kind: "official" }],
+    x: 115, y: 845, primary: true,
+  },
+  {
+    id: "zhenjiang-li", name: "Zhenjiang Li", chinese: "李鎮江", role: "Professor", institution: "CityU", region: "Hong Kong",
+    area: "LLM Systems · Edge AI", tags: ["LLM Systems", "边缘 AI", "AIoT"], stage: "adjacent", category: "adjacent",
+    summary: "研究大语言模型系统、边缘与嵌入式 AI；作为基础设施与部署方向单列相邻层。",
+    sources: [{ label: "CityU CS Academic Staff", url: "https://www.cs.cityu.edu.hk/en/people/academic-staff", kind: "official" }],
+    x: 275, y: 845, primary: true,
+  },
+
+  // Hong Kong · PolyU
+  {
+    id: "wenjie-li", name: "Wenjie Li", role: "Professor · NLP Group", institution: "PolyU", region: "Hong Kong",
+    area: "NLU/NLG · Summarization · Dialogue", tags: ["NLP", "摘要", "问答", "对话", "Microsoft alumni"], stage: "senior", category: "core",
+    summary: "PolyU NLP Group 资深 PI，研究理解与生成、摘要、问答、机器对话；公开组页列出多名校友进入 Microsoft、Alibaba、Tencent、Baidu。",
+    sources: [{ label: "PolyU Academic Staff", url: "https://www.polyu.edu.hk/comp/people/academic-staff/?sc_lang=en", kind: "official" }, { label: "PolyU NLP Group", url: "https://www4.comp.polyu.edu.hk/~cswjli/Group.html", kind: "profile" }],
+    x: 450, y: 575, primary: true,
+  },
+  {
+    id: "jing-li-polyu", name: "Jing Li", chinese: "李菁", role: "Associate Professor · Embodied AI Lab Founder", institution: "PolyU", region: "Hong Kong",
+    area: "Human-centered NLP · Embodied AI · LLM", tags: ["NLP", "具身 AI", "LLM", "Tencent AI Lab"], stage: "senior", category: "core",
+    summary: "PolyU Embodied AI Lab 创始人，研究人本 NLP、语言表示与面向具身智能体的 LLM；加入 PolyU 前任 Tencent AI Lab NLP Center 高级研究员，并与 Huawei、Baidu、Tencent 有公开合作。",
+    sources: [{ label: "PolyU Faculty Profile", url: "https://www.polyu.edu.hk/comp/People/Academic-Staff/Prof-LI-Jing-Amelia", kind: "official" }, { label: "个人主页", url: "https://www4.comp.polyu.edu.hk/~jing1li/", kind: "profile" }],
+    x: 620, y: 575, primary: true,
+  },
+  {
+    id: "hongxia-yang", name: "Hongxia Yang", chinese: "杨红霞", role: "Chair Professor of Generative AI · UCAIC Director", institution: "PolyU", region: "Hong Kong",
+    area: "Generative AI · LLM/MLLM · Reinforcement Learning", tags: ["LLM", "多模态大模型", "强化学习", "Alibaba DAMO", "ByteDance"], stage: "senior", category: "core",
+    summary: "生成式 AI 讲席教授；此前经历覆盖 IBM Watson、Yahoo、Alibaba DAMO 与 ByteDance US Head of LLMs，当前领导 PolyU 生成式 AI 与协作式大模型项目。",
+    sources: [{ label: "PolyU Academic Staff", url: "https://www.polyu.edu.hk/comp/people/academic-staff/?sc_lang=en", kind: "official" }, { label: "个人主页", url: "https://www4.comp.polyu.edu.hk/~hongxyang/", kind: "profile" }],
+    x: 790, y: 575, primary: true,
+  },
+  {
+    id: "liangliang-cao", name: "Liangliang Cao", chinese: "曹亮亮", role: "Chair Professor of AI Systems", institution: "PolyU", region: "Hong Kong",
+    area: "Multimodal LLM · Speech · AI Systems", tags: ["Gemini", "Apple Intelligence", "Google Speech", "多模态 LLM"], stage: "senior", category: "core",
+    summary: "2026 年加入 PolyU；曾领导 Google Cloud Speech 建模团队、参与 Apple Intelligence，并在 Google DeepMind Gemini / Project Astra 团队任 Principal Engineer and Director。",
+    sources: [{ label: "PolyU DSAI Profile", url: "https://www.polyu.edu.hk/dsai/people/academic-staff/cao-liangliang/?sc_lang=en", kind: "official" }],
+    x: 450, y: 690, primary: true,
+  },
+  {
+    id: "wenqi-fan", name: "Wenqi Fan", role: "Assistant Professor", institution: "PolyU", region: "Hong Kong",
+    area: "LLM for Recommendation · RAG · Graph Learning", tags: ["LLM4Rec", "RAG", "推荐系统", "图学习"], stage: "emerging", category: "core",
+    summary: "从推荐系统、图学习延伸到 LLM4Rec、RAG 与 LLM 安全的独立 PI；从 PolyU RAP 晋升至 Assistant Professor。",
+    sources: [{ label: "PolyU Faculty Profile", url: "https://www.polyu.edu.hk/comp/people/academic-staff/prof-fan-wenqi/?sc_lang=en", kind: "official" }, { label: "个人主页", url: "https://wenqifan03.github.io/", kind: "profile" }],
+    x: 620, y: 690, primary: true,
+  },
+  {
+    id: "xiao-huang-polyu", name: "Xiao Huang", role: "Associate Professor", institution: "PolyU", region: "Hong Kong",
+    area: "RAG · LLM Reasoning · Knowledge Graphs", tags: ["RAG", "Text-to-SQL", "LLM 推理", "知识图谱"], stage: "adjacent", category: "adjacent",
+    summary: "数据挖掘与图学习 PI，近年研究重点包括图 RAG、Text-to-SQL、LLM 推理和 agentic AI；列入知识与数据相邻层。",
+    sources: [{ label: "个人主页", url: "https://www4.comp.polyu.edu.hk/~xiaohuang/", kind: "profile" }, { label: "PolyU Academic Staff", url: "https://www.polyu.edu.hk/comp/people/academic-staff/?sc_lang=en", kind: "official" }],
+    x: 790, y: 690, primary: true,
+  },
+  {
+    id: "qiang-yang-polyu", name: "Qiang Yang", chinese: "杨强", role: "Chief AI Officer · Chair Professor · PAAI Director", institution: "PolyU", region: "Hong Kong",
+    area: "Machine Learning · Federated Learning · AI Strategy", tags: ["联邦学习", "迁移学习", "WeBank", "WeChat", "Huawei Noah's Ark"], stage: "adjacent", category: "adjacent",
+    summary: "香港 AI 生态的重要组织与产业连接节点：现任 PolyU CAIO、PAAI 主任和讲席教授；曾任 WeBank CAIO、WeChat–HKUST Joint Lab 主任及 Huawei Noah’s Ark 创始主任。",
+    sources: [{ label: "PolyU Faculty Profile", url: "https://www.polyu.edu.hk/dsai/docdrive/personal/yangqiang.html", kind: "official" }],
+    x: 530, y: 805, primary: true,
+  },
+
+  // Hong Kong · HKBU
+  {
+    id: "jing-ma-hkbu", name: "Jing Ma", chinese: "馬晶", role: "Associate Professor", institution: "HKBU", region: "Hong Kong",
+    area: "NLP · Fact Verification · LLM Safety", tags: ["NLP", "事实核查", "谣言检测", "可信 LLM", "Tencent"], stage: "senior", category: "core",
+    summary: "研究事实核查、谣言检测、NLP 与可信 LLM；CUHK 博士阶段由 Kam-Fai Wong 与 Wei Gao 共同指导，2024 年入选 Tencent Rhino-Bird Focused Research Program。",
+    sources: [{ label: "HKBU Faculty Profile", url: "https://www.comp.hkbu.edu.hk/v1/?id=majing&page=profile", kind: "official" }, { label: "HKBU Scholars", url: "https://scholars.hkbu.edu.hk/en/persons/MAJING/", kind: "official" }],
+    x: 1010, y: 575, primary: true,
+  },
+  {
+    id: "jiaxin-bai", name: "Jiaxin Bai", role: "Assistant Professor", institution: "HKBU", region: "Hong Kong",
+    area: "RAG · Knowledge Reasoning · AI Agents", tags: ["RAG", "知识图谱", "AI Agents", "2026 新 PI"], stage: "emerging", category: "core",
+    summary: "2026 年加入 HKBU 的新独立 PI，研究知识图谱、逻辑与溯因推理、RAG、知识增强大模型和 AI 智能体。",
+    sources: [{ label: "HKBU Faculty Profile", url: "https://www.comp.hkbu.edu.hk/v1/?id=baijiaxin&page=profile", kind: "official" }],
+    x: 1010, y: 665, primary: true,
+  },
+  {
+    id: "kaiyang-zhou", name: "Kaiyang Zhou", chinese: "周鍇陽", role: "Assistant Professor", institution: "HKBU", region: "Hong Kong",
+    area: "Vision-Language Models · Trustworthy Multimodal AI", tags: ["VLM", "多模态", "泛化", "校准"], stage: "emerging", category: "adjacent",
+    summary: "以计算机视觉和 vision-language models 为主，研究跨域泛化、适配与校准；不计入纯 NLP 核心，单列多模态相邻层。",
+    sources: [{ label: "HKBU Faculty Profile", url: "https://www.comp.hkbu.edu.hk/v1/?id=kyzhou&page=profile", kind: "official" }],
+    x: 1010, y: 755, primary: true,
+  },
+  {
+    id: "bo-han-hkbu", name: "Bo Han", chinese: "韓波", role: "Associate Professor", institution: "HKBU", region: "Hong Kong",
+    area: "Trustworthy Foundation Models · AI Agents", tags: ["可信 AI", "基础模型", "AI Agents", "Tencent WeChat"], stage: "adjacent", category: "adjacent",
+    summary: "可信机器学习与基础模型 PI；HKBU 官方项目页记录其研究可信 foundation models，并与 Tencent WeChat 开展 expert-knowledge-driven AI agents 合作。",
+    sources: [{ label: "HKBU AI/ML Research Area", url: "https://www.comp.hkbu.edu.hk/v1/?id=1&page=research_areas", kind: "official" }, { label: "Tencent Rhino-Bird 合作", url: "https://www.comp.hkbu.edu.hk/v1/?id=204&page=fac_ach", kind: "official" }],
+    x: 1010, y: 845, primary: true,
+  },
+
   { id: "raymond-mooney", name: "Raymond Mooney", role: "Professor", institution: "External", area: "Machine Learning · NLP", tags: ["导师", "UT Austin"], stage: "historical", category: "historical", summary: "Hwee Tou Ng 博士导师。", sources: [{ label: "Ng 博士论文", url: "https://www.cs.utexas.edu/~ml/papers/hweetou_dissertation.pdf", kind: "thesis" }], x: 70, y: 40 },
   { id: "kathleen-mckeown", name: "Kathleen McKeown", role: "Professor", institution: "External", area: "Natural Language Processing", tags: ["导师", "Columbia"], stage: "historical", category: "historical", summary: "Min-Yen Kan CV 列出的博士导师之一。", sources: [{ label: "Kan CV", url: "https://www.comp.nus.edu.sg/~kanmy/cv.1page.html", kind: "cv" }], x: 230, y: 40 },
   { id: "victor-lesser", name: "Victor Lesser", role: "Distinguished Professor Emeritus", institution: "External", area: "Multi-agent Systems", tags: ["博士导师", "UMass Amherst", "AAAI Founding Fellow"], stage: "historical", category: "historical", summary: "Bo An 的博士导师，多智能体系统领域先驱、UMass Amherst Multi-Agent Systems Laboratory 创始主任。", sources: [{ label: "UMass Multi-Agent Systems Lab", url: "https://mas.cs.umass.edu/lesser.html", kind: "official" }], x: 405, y: 40 },
   { id: "sinno-pan", name: "Sinno Jialin Pan", role: "Professor", institution: "External", area: "Machine Learning", tags: ["导师"], stage: "historical", category: "historical", summary: "Wenya Wang 公开主页列出的博士导师。", sources: [{ label: "Wenya Wang 主页", url: "https://personal.ntu.edu.sg/wangwy/", kind: "official" }], x: 575, y: 40 },
   { id: "milind-tambe", name: "Milind Tambe", role: "Gordon McKay Professor · Google DeepMind", institution: "External", area: "Multi-agent Systems · AI for Social Good", tags: ["博士后合作", "Harvard", "Google DeepMind"], stage: "historical", category: "historical", summary: "Bo An 在 USC 博士后阶段的合作导师；现任 Harvard 教授及 Google DeepMind AI for Social Good 负责人。", sources: [{ label: "Google DeepMind Profile", url: "https://research.google/people/milindtambe/", kind: "official" }, { label: "Harvard Faculty Profile", url: "https://seas.harvard.edu/person/milind-tambe", kind: "official" }], x: 770, y: 40 },
-  { id: "wai-lam", name: "Wai Lam", role: "Professor", institution: "External", area: "NLP · Information Retrieval", tags: ["导师", "CUHK"], stage: "historical", category: "historical", summary: "Yang Deng 与 Wenxuan Zhang 的博士导师。", sources: [{ label: "CUHK Profile", url: "https://research.cuhk.edu.hk/en/persons/wai-lam/", kind: "official" }], x: 1015, y: 40 },
+  {
+    id: "wai-lam", name: "Wai Lam", chinese: "林偉", role: "Professor", institution: "CUHK", region: "Hong Kong",
+    area: "NLP · Text Mining · Information Retrieval", tags: ["NLP", "文本挖掘", "IR", "导师谱系"], stage: "senior", category: "core",
+    summary: "CUHK NLP 与信息检索资深 PI，研究文本挖掘、生成与知识增强；其博士生谱系延伸到新加坡现任 PI Yang Deng 与 Wenxuan Zhang。",
+    sources: [{ label: "CUHK Research Portal", url: "https://research.cuhk.edu.hk/en/persons/wai-lam/", kind: "official" }, { label: "CUHK SEEM 2025 Brochure", url: "https://www.se.cuhk.edu.hk/wp-content/uploads/2025/09/2025-SEEM-Brochure_final.pdf", kind: "official" }],
+    x: 780, y: 165, primary: true,
+  },
+  { id: "noah-smith", name: "Noah A. Smith", role: "Professor", institution: "External", region: "Hong Kong", area: "Natural Language Processing", tags: ["博士导师", "University of Washington"], stage: "historical", category: "historical", summary: "Lingpeng Kong 的共同博士导师。", sources: [{ label: "HKU LawTech Profile", url: "https://www.lawtech.hku.hk/people/lingpeng-kong/", kind: "official" }], x: 110, y: 45 },
+  { id: "chris-dyer", name: "Chris Dyer", role: "Professor", institution: "External", region: "Hong Kong", area: "Natural Language Processing", tags: ["博士导师", "CMU"], stage: "historical", category: "historical", summary: "Lingpeng Kong 的共同博士导师。", sources: [{ label: "HKU LawTech Profile", url: "https://www.lawtech.hku.hk/people/lingpeng-kong/", kind: "official" }], x: 330, y: 45 },
+  { id: "dragomir-radev", name: "Dragomir Radev", role: "Professor (1968–2023)", institution: "External", region: "Hong Kong", area: "Natural Language Processing", tags: ["博士导师", "Yale"], stage: "historical", category: "historical", summary: "Tao Yu 的博士导师。", sources: [{ label: "Tao Yu 个人主页", url: "https://taoyds.github.io/", kind: "profile" }], x: 550, y: 45 },
+  { id: "taylor-berg-kirkpatrick", name: "Taylor Berg-Kirkpatrick", role: "Associate Professor", institution: "External", region: "Hong Kong", area: "Natural Language Processing", tags: ["博士导师", "UC San Diego"], stage: "historical", category: "historical", summary: "CMU LTI alumni 记录的 Junxian He 博士导师。", sources: [{ label: "CMU LTI Alumni", url: "https://www.lti.cs.cmu.edu/people/alumni/alumni-2022/he-junxian.html", kind: "official" }], x: 790, y: 45 },
 ];
 
 export const relationships: Relationship[] = [
@@ -264,12 +537,18 @@ export const relationships: Relationship[] = [
   { id: "pan-wang", from: "sinno-pan", to: "wenya-wang", type: "lineage", label: "博士导师", evidence: "Wenya Wang 主页明确写明其博士阶段由 Sinno Jialin Pan 指导。", source: { label: "Wenya Wang 主页", url: "https://personal.ntu.edu.sg/wangwy/", kind: "official" }, verified: true },
   { id: "lesser-an", from: "victor-lesser", to: "bo-an", type: "lineage", label: "博士导师", evidence: "Bo An 的个人主页与学术履历均列 Victor Lesser 为其 UMass Amherst 博士导师。", source: { label: "Bo An 学术履历", url: "https://personal.ntu.edu.sg/boan/CV-BOAN.pdf", kind: "cv" }, verified: true },
   { id: "tambe-an", from: "milind-tambe", to: "bo-an", type: "talent", label: "博士后合作 / USC", evidence: "Bo An 官方主页记录其 2010–2012 年在 USC 与 Milind Tambe 开展博士后研究。", source: { label: "Bo An 个人主页", url: "https://personal.ntu.edu.sg/boan/", kind: "official" }, verified: true },
+  { id: "smith-kong", from: "noah-smith", to: "lingpeng-kong", type: "lineage", label: "共同博士导师", evidence: "HKU 官方关联简介写明 Lingpeng Kong 的 CMU 博士由 Noah Smith 与 Chris Dyer 共同指导。", source: { label: "HKU LawTech Profile", url: "https://www.lawtech.hku.hk/people/lingpeng-kong/", kind: "official" }, verified: true },
+  { id: "dyer-kong", from: "chris-dyer", to: "lingpeng-kong", type: "lineage", label: "共同博士导师", evidence: "HKU 官方关联简介写明 Lingpeng Kong 的 CMU 博士由 Noah Smith 与 Chris Dyer 共同指导。", source: { label: "HKU LawTech Profile", url: "https://www.lawtech.hku.hk/people/lingpeng-kong/", kind: "official" }, verified: true },
+  { id: "radev-yu", from: "dragomir-radev", to: "tao-yu", type: "lineage", label: "博士导师", evidence: "Tao Yu 公开主页写明其 Yale 博士导师为 Dragomir Radev。", source: { label: "Tao Yu 个人主页", url: "https://taoyds.github.io/", kind: "profile" }, verified: true },
+  { id: "berg-he", from: "taylor-berg-kirkpatrick", to: "junxian-he", type: "lineage", label: "博士导师", evidence: "CMU LTI alumni 页面列 Taylor Berg-Kirkpatrick 为 Junxian He 的 Academic Advisor。", source: { label: "CMU LTI Alumni", url: "https://www.lti.cs.cmu.edu/people/alumni/alumni-2022/he-junxian.html", kind: "official" }, verified: true },
+  { id: "wong-ma", from: "kam-fai-wong", to: "jing-ma-hkbu", type: "lineage", label: "共同博士导师", evidence: "HKBU Scholars 明确记录 Jing Ma 的 CUHK 博士由 Kam-Fai Wong 与 Wei Gao 共同指导。", source: { label: "HKBU Scholars", url: "https://scholars.hkbu.edu.hk/en/persons/MAJING/", kind: "official" }, verified: true },
 
   { id: "ng-kan", from: "hwee-tou-ng", to: "min-yen-kan", type: "collaboration", label: "论文合作", evidence: "NUS 公开出版物记录两人的共同论文。", source: { label: "NUS Faculty Profile", url: "https://www.comp.nus.edu.sg/cs/people/kanmy/", kind: "official" }, verified: true },
   { id: "deng-chua", from: "tat-seng-chua", to: "yang-deng", type: "talent", label: "博士后指导 / NExT++", evidence: "Yang Deng 主页写明其在 NUS NExT++ 博士后阶段与 Tat-Seng Chua、See-Kiong Ng 工作。", source: { label: "CHAT NLP Group", url: "https://dengyang17.github.io/", kind: "profile" }, verified: true },
   { id: "deng-zhang", from: "yang-deng", to: "wenxuan-zhang", type: "collaboration", label: "LLM knowledge boundary 合作", evidence: "两人共同参与 LLM knowledge boundary 综述与教程，也连接 SMU 与 SUTD 的新生代 NLP 群体。", source: { label: "公开综述", url: "https://dengyang17.github.io/files/arxiv_Knowledge_Boundary_Survey.pdf", kind: "profile" }, verified: true },
   { id: "joty-chen", from: "shafiq-joty", to: "nancy-chen", type: "collaboration", label: "EMNLP 2024 合作", evidence: "NTU 公告记录 Shafiq Joty、Nancy Chen 等人的共同论文获 EMNLP 2024 Outstanding Paper。", source: { label: "NTU 公告", url: "https://www.ntu.edu.sg/computing/news-events/news/detail/the-2024-conference-on-empirical-methods-in-natural-language-processing", kind: "official" }, verified: true },
   { id: "joty-sun", from: "shafiq-joty", to: "aixin-sun", type: "collaboration", label: "共同指导", evidence: "NTU 公告记录两人与 Nancy Chen 共同指导摘要生成方向博士生。", source: { label: "NTU SDSC Fellowship", url: "https://www.ntu.edu.sg/computing/news-events/news/detail/phd-student-awarded-a-sdsc-dissertation-research-fellowship-2022", kind: "official" }, verified: true },
+  { id: "fung-dekai", from: "pascale-fung", to: "de-kai", type: "collaboration", label: "HKUST Human Language Technology 合作", evidence: "HKUST HLTC 官方页面将 Pascale Fung 与 De Kai 列为中心核心 faculty，并保留两人长期共同论文记录。", source: { label: "HKUST HLTC People", url: "https://cse.hkust.edu.hk/~hltc/people.html", kind: "official" }, verified: true },
 
   { id: "qizhe-google", from: "qizhe-shieh", to: "qizhe-shieh", type: "industry", label: "Google DeepMind / Brain 前研究经历", evidence: "NUS 官方简介称其加入 NUS 前在 Google DeepMind（原 Google Brain）研究两年。", source: { label: "NUS Faculty Profile", url: "https://www.comp.nus.edu.sg/cs/people/mshieh/", kind: "official" }, verified: true },
   { id: "chua-sea", from: "tat-seng-chua", to: "tat-seng-chua", type: "industry", label: "Sea–NExT Joint Lab / ViSenze / 6Estates", evidence: "Chua 的个人主页与 NUS 材料明确列出 Sea–NExT Joint Lab，并称其共同创办 ViSenze Pte Ltd 与 6Estates Pte Ltd。", source: { label: "Chua Tat-Seng 个人主页", url: "https://www.chuatatseng.com/", kind: "profile" }, verified: true },
@@ -284,27 +563,63 @@ export const relationships: Relationship[] = [
   { id: "deng-google", from: "yang-deng", to: "yang-deng", type: "industry", label: "Google South / Southeast Asia Research Award", evidence: "SMU 官方 CV 记录其 2024 Google South Asia & Southeast Asia Research Award。", source: { label: "SMU CV", url: "https://computing.smu.edu.sg/sites/scis.smu.edu.sg/files/2025-02/ydeng-CV.pdf", kind: "cv" }, verified: true },
   { id: "nancy-transfer", from: "nancy-chen", to: "nancy-chen", type: "industry", label: "商业 spin-off / 政府部署", evidence: "A*STAR 官方简介称团队技术已形成商业 spin-off 和政府部署。", source: { label: "A*STAR I²R Profile", url: "https://www.a-star.edu.sg/i2r/i2r-profiles/nancychen", kind: "official" }, verified: true },
   { id: "su-baidu", from: "jian-su", to: "jian-su", type: "industry", label: "Baidu–I²R Research Centre", evidence: "A*STAR 官方资料列其为 Baidu I²R Research Centre 联合主任。", source: { label: "A*STAR Research Profile", url: "https://research.a-star.edu.sg/researcher/jian-su/", kind: "official" }, verified: true },
+  { id: "kong-deepmind", from: "lingpeng-kong", to: "lingpeng-kong", type: "industry", label: "Google DeepMind 前研究科学家", evidence: "HKU 官方简介记录其 2017–2020 年在 Google DeepMind 任 Research Scientist / Senior Research Scientist。", source: { label: "HKU Profile", url: "https://ai.hku.hk/people/academic-staff/lpk", kind: "official" }, verified: true },
+  { id: "liu-industry-labs", from: "qi-liu-hku", to: "qi-liu-hku", type: "industry", label: "DeepMind / FAIR / Microsoft Research", evidence: "HKU 官方报道列出其加入 HKU 前在 Google DeepMind、Facebook AI Research 与 Microsoft Research 的经历。", source: { label: "HKU 人物报道", url: "https://www.cs.hku.hk/news-events/news-and-announcements/20230525_qliu_forbes-under30_asia_2023", kind: "official" }, verified: true },
+  { id: "pascale-att-bbn", from: "pascale-fung", to: "pascale-fung", type: "industry", label: "AT&T / Bell Labs / BBN 研究经历", evidence: "HKUST ECE 官方简介记录其曾任 AT&T Research affiliate，并早年任 BBN Associate Scientist。", source: { label: "HKUST ECE Profile", url: "https://ece.hkust.edu.hk/pascale", kind: "official" }, verified: true },
+  { id: "song-industry", from: "yangqiu-song", to: "yangqiu-song", type: "industry", label: "WeBank / Amazon / Huawei / MSRA / IBM", evidence: "个人主页与 HKUST 简介记录 HKUST–WeBank Joint Lab，以及 Amazon A9/Rufus、Huawei Noah’s Ark、MSRA、IBM Research 经历。", source: { label: "Yangqiu Song 主页", url: "https://cse.hkust.edu.hk/~yqsong/", kind: "profile" }, verified: true },
+  { id: "ma-msra", from: "wei-ying-ma", to: "wei-ying-ma", type: "industry", label: "MSRA / ByteDance AI Lab 领导经历", evidence: "CityU 官方讲席教授页记录其曾任 MSRA 常务副院长，以及 ByteDance 副总裁兼 AI Lab 负责人。", source: { label: "CityU Named Professorship", url: "https://www.cityu.edu.hk/named-professorship/named-professorship-scheme/named-chair-professorships/lee-shau-kee-chair-professorship-in-information-engineering", kind: "official" }, verified: true },
+  { id: "li-tencent", from: "jing-li-polyu", to: "jing-li-polyu", type: "industry", label: "Tencent AI Lab 前高级研究员", evidence: "PolyU 官方简介记录其 2017–2019 年在 Tencent AI Lab NLP Center 任高级研究员。", source: { label: "PolyU Faculty Profile", url: "https://www.polyu.edu.hk/comp/People/Academic-Staff/Prof-LI-Jing-Amelia", kind: "official" }, verified: true },
+  { id: "yang-hongxia-industry", from: "hongxia-yang", to: "hongxia-yang", type: "industry", label: "IBM / Yahoo / Alibaba DAMO / ByteDance", evidence: "公开主页列出 IBM Watson、Yahoo、Alibaba DAMO Director 与 ByteDance US Head of LLMs 经历。", source: { label: "Hongxia Yang 主页", url: "https://www4.comp.polyu.edu.hk/~hongxyang/", kind: "profile" }, verified: true },
+  { id: "cao-industry", from: "liangliang-cao", to: "liangliang-cao", type: "industry", label: "Google Speech / Apple Intelligence / Gemini", evidence: "PolyU 官方简介记录其领导 Google Cloud Speech 团队、担任 Apple Principal Scientist，并在 Google DeepMind Gemini 团队任 Director。", source: { label: "PolyU DSAI Profile", url: "https://www.polyu.edu.hk/dsai/people/academic-staff/cao-liangliang/?sc_lang=en", kind: "official" }, verified: true },
+  { id: "qiang-industry", from: "qiang-yang-polyu", to: "qiang-yang-polyu", type: "industry", label: "WeBank / WeChat / Huawei Noah’s Ark", evidence: "PolyU 官方履历记录其曾任 WeBank CAIO、WeChat–HKUST Joint Lab 主任及 Huawei Noah’s Ark 创始主任。", source: { label: "PolyU Faculty Profile", url: "https://www.polyu.edu.hk/dsai/docdrive/personal/yangqiang.html", kind: "official" }, verified: true },
+  { id: "ma-tencent", from: "jing-ma-hkbu", to: "jing-ma-hkbu", type: "industry", label: "Tencent Rhino-Bird Focused Research", evidence: "HKBU 公告确认 Jing Ma 入选 2024 Tencent Rhino-Bird Focused Research Program，项目为价值对齐可信大模型。", source: { label: "HKBU 公告", url: "https://www.comp.hkbu.edu.hk/v1/?id=204&page=fac_ach", kind: "official" }, verified: true },
+  { id: "han-tencent", from: "bo-han-hkbu", to: "bo-han-hkbu", type: "industry", label: "Tencent WeChat AI Agents", evidence: "HKBU 公告记录其面向 Tencent WeChat 开展专家知识驱动的可信 AI Agents 研究。", source: { label: "HKBU 公告", url: "https://www.comp.hkbu.edu.hk/v1/?id=204&page=fac_ach", kind: "official" }, verified: true },
 ];
 
 export const coverage = [
-  { institution: "NUS", core: 4, adjacent: 3, note: "传统 NLP + 多模态/检索；另列 3 位 LLM 理论与系统相邻 PI" },
-  { institution: "NTU", core: 7, adjacent: 1, note: "含 2025 年转入的 Wei Lu、Soujanya Poria；Shafiq Joty 为 on leave 状态" },
-  { institution: "SUTD", core: 1, adjacent: 0, note: "当前核心名录为 Wenxuan Zhang；Wei Lu、Soujanya Poria 已转任 NTU" },
-  { institution: "SMU", core: 2, adjacent: 0, note: "当前独立 PI；Jing Jiang 另列为历史/跨地区节点" },
-  { institution: "A*STAR", core: 3, adjacent: 0, note: "研究院 PI：语音、机器翻译、区域语言与 NLP 部署" },
+  { region: "Singapore" as Region, institution: "NUS", core: 4, adjacent: 3, note: "传统 NLP + 多模态/检索；另列 3 位 LLM 理论与系统相邻 PI" },
+  { region: "Singapore" as Region, institution: "NTU", core: 7, adjacent: 1, note: "含 2025 年转入的 Wei Lu、Soujanya Poria；Shafiq Joty 为 on leave 状态" },
+  { region: "Singapore" as Region, institution: "SUTD", core: 1, adjacent: 0, note: "当前核心名录为 Wenxuan Zhang；Wei Lu、Soujanya Poria 已转任 NTU" },
+  { region: "Singapore" as Region, institution: "SMU", core: 2, adjacent: 0, note: "当前独立 PI；Jing Jiang 另列为历史/跨地区节点" },
+  { region: "Singapore" as Region, institution: "A*STAR", core: 3, adjacent: 0, note: "研究院 PI：语音、机器翻译、区域语言与 NLP 部署" },
+  { region: "Hong Kong" as Region, institution: "HKU", core: 3, adjacent: 1, note: "HKU NLP Group 为主轴；另列推荐、图学习与 agentic AI 相邻 PI" },
+  { region: "Hong Kong" as Region, institution: "HKUST", core: 5, adjacent: 1, note: "HLTC / CAiRE 资深主线与 Junxian He、Yi R. Fung 两位发展期独立 PI 并存" },
+  { region: "Hong Kong" as Region, institution: "CUHK", core: 3, adjacent: 2, note: "覆盖 SEEM 与 CSE：中文 NLP、检索、语音语言，以及多模态与 social AI 相邻层" },
+  { region: "Hong Kong" as Region, institution: "CityU", core: 5, adjacent: 3, note: "包含 2025–2026 新引进的 Zhisong Zhang、Gang Liu、Ning Miao 与高效多模态 / LLM 系统相邻层" },
+  { region: "Hong Kong" as Region, institution: "PolyU", core: 5, adjacent: 2, note: "传统 NLP、具身语言、生成式 AI 与新引进产业型讲席教授并存" },
+  { region: "Hong Kong" as Region, institution: "HKBU", core: 2, adjacent: 2, note: "事实核查与知识增强 LLM 为核心；可信基础模型与视觉语言单列相邻层" },
 ];
 
 export const communities = [
-  { kicker: "成熟谱系", name: "NUS Language & Multimodal", anchor: "Hwee Tou Ng · Min-Yen Kan · Tat-Seng Chua", description: "传统 NLP、检索与多模态基础模型并存，并形成跨 NUS、NTU、SUTD 与 SMU 的人才联系。", color: "cobalt" },
-  { kicker: "新生代独立组", name: "SUTD iNLP Lab", anchor: "Wenxuan Zhang", description: "聚焦多语言、多模态、Audio-Language 与 LLM Agents；曾任 Alibaba Singapore 研究科学家。", color: "lime" },
-  { kicker: "多中心生态", name: "NTU NLP & Generative AI", anchor: "Shafiq Joty · Wei Lu · Soujanya Poria · Anh Tuan Luu", description: "多语言、可信 LLM、推理与多模态对话；学生产业去向覆盖 Salesforce、Apple、腾讯、华为、阿里与字节。", color: "coral" },
-  { kicker: "研究院转化", name: "A*STAR Language Intelligence", anchor: "Ai Ti Aw · Nancy Chen · Jian Su", description: "东南亚语言、语音对话、国家多模态 LLM 与大规模技术部署。", color: "violet" },
+  { region: "Singapore" as Region, kicker: "成熟谱系", name: "NUS Language & Multimodal", anchor: "Hwee Tou Ng · Min-Yen Kan · Tat-Seng Chua", description: "传统 NLP、检索与多模态基础模型并存，并形成跨 NUS、NTU、SUTD 与 SMU 的人才联系。", color: "cobalt" },
+  { region: "Singapore" as Region, kicker: "新生代独立组", name: "SUTD iNLP Lab", anchor: "Wenxuan Zhang", description: "聚焦多语言、多模态、Audio-Language 与 LLM Agents；曾任 Alibaba Singapore 研究科学家。", color: "lime" },
+  { region: "Singapore" as Region, kicker: "多中心生态", name: "NTU NLP & Generative AI", anchor: "Shafiq Joty · Wei Lu · Soujanya Poria · Anh Tuan Luu", description: "多语言、可信 LLM、推理与多模态对话；学生产业去向覆盖 Salesforce、Apple、腾讯、华为、阿里与字节。", color: "coral" },
+  { region: "Singapore" as Region, kicker: "研究院转化", name: "A*STAR Language Intelligence", anchor: "Ai Ti Aw · Nancy Chen · Jian Su", description: "东南亚语言、语音对话、国家多模态 LLM 与大规模技术部署。", color: "violet" },
+  { region: "Hong Kong" as Region, kicker: "早期语言技术主线", name: "HKUST Human Language Technology", anchor: "Pascale Fung · De Kai · Yangqiu Song", description: "从中文语言技术、机器翻译与语音，延伸到可信对话、知识图谱、RAG 与智能体。", color: "cobalt" },
+  { region: "Hong Kong" as Region, kicker: "跨地区导师谱系", name: "CUHK NLP & IR Lineage", anchor: "Wai Lam · Kam-Fai Wong · Xixin Wu", description: "资深中文 NLP / IR 主线向香港本地与新加坡独立 PI 扩散，并连接事实核查与对话研究。", color: "lime" },
+  { region: "Hong Kong" as Region, kicker: "新生代独立组", name: "HKU + CityU LLM Labs", anchor: "Tao Yu · Qi Liu · Zhisong Zhang · Ning Miao", description: "围绕推理、智能体、长上下文、对话式数据接口和语言模型机制形成的新增长层。", color: "coral" },
+  { region: "Hong Kong" as Region, kicker: "产业回流型集群", name: "PolyU Generative AI & Systems", anchor: "Hongxia Yang · Liangliang Cao · Qiang Yang · Jing Li", description: "IBM、Microsoft、Google、Apple、Alibaba、ByteDance、Tencent 与 WeBank 的研究履历回流到高校。", color: "violet" },
+];
+
+export const industryPathways: IndustryPathway[] = [
+  { id: "sg-joty", region: "Singapore", kind: "JOINT / PARALLEL AFFILIATION", title: "Shafiq Joty ↔ Salesforce Research", description: "NTU 官方公告以 Salesforce Research、NTU 双重身份署名，是直接的学界—企业研究连接。", source: { label: "NTU 公告", url: "https://www.ntu.edu.sg/computing/news-events/news/detail/the-2024-conference-on-empirical-methods-in-natural-language-processing", kind: "official" } },
+  { id: "sg-zhang", region: "Singapore", kind: "PRIOR EMPLOYMENT", title: "Wenxuan Zhang ↔ Alibaba Singapore", description: "SUTD 官方简介记录其此前为 Alibaba Group Singapore 研究科学家，并获 Ali Star。", source: { label: "SUTD Faculty Profile", url: "https://www.sutd.edu.sg/profile/zhang-wenxuan", kind: "official" } },
+  { id: "sg-chua", region: "Singapore", kind: "JOINT LAB + STARTUPS", title: "Tat-Seng Chua（蔡达成）↔ Sea / ViSenze / 6Estates", description: "公开主页列出 Sea–NExT Joint Lab、ViSenze 与 6Estates；学生 Guangda Li 任 ViSenze 联合创始人兼 CTO。", source: { label: "Chua Tat-Seng 主页", url: "https://www.chuatatseng.com/", kind: "profile" } },
+  { id: "sg-lu", region: "Singapore", kind: "RESEARCH COLLABORATION", title: "Wei Lu ↔ Alibaba", description: "其在 SUTD 任职期间的公开报道记录了团队与 Alibaba 的 NLP 合作；Wei Lu 现已转任 NTU。", source: { label: "SUTD Story", url: "https://www.sutd.edu.sg/stories-listing/taking-natural-language-processing-to-greater-heights", kind: "official" } },
+  { id: "sg-su", region: "Singapore", kind: "INDUSTRY RESEARCH CENTRE", title: "Jian Su ↔ Baidu–I²R", description: "A*STAR 官方页列其为 Baidu I²R Research Centre 联合主任。", source: { label: "A*STAR Profile", url: "https://research.a-star.edu.sg/researcher/jian-su/", kind: "official" } },
+  { id: "hk-ma", region: "Hong Kong", kind: "RESEARCH LEADERSHIP", title: "Wei-Ying Ma（馬維英）↔ MSRA / ByteDance", description: "CityU 官方讲席教授页记录其曾任 MSRA 常务副院长、ByteDance 副总裁兼 AI Lab 负责人，相关技术进入 Bing、TikTok、Douyin、CapCut 与 Lark。", source: { label: "CityU Named Professorship", url: "https://www.cityu.edu.hk/named-professorship/named-professorship-scheme/named-chair-professorships/lee-shau-kee-chair-professorship-in-information-engineering", kind: "official" } },
+  { id: "hk-hongxia", region: "Hong Kong", kind: "INDUSTRY-TO-ACADEMIA", title: "Hongxia Yang（杨红霞）↔ IBM / Yahoo / Alibaba / ByteDance", description: "其公开主页记录 IBM Watson、Yahoo、Alibaba DAMO Director 与 ByteDance US Head of LLMs 经历。", source: { label: "Hongxia Yang 主页", url: "https://www4.comp.polyu.edu.hk/~hongxyang/", kind: "profile" } },
+  { id: "hk-cao", region: "Hong Kong", kind: "LARGE-SCALE AI SYSTEMS", title: "Liangliang Cao（曹亮亮）↔ Google / Apple / DeepMind", description: "PolyU 官方简介记录其领导 Google Cloud Speech、参与 Apple Intelligence，并在 Gemini / Project Astra 团队担任 Director。", source: { label: "PolyU DSAI Profile", url: "https://www.polyu.edu.hk/dsai/people/academic-staff/cao-liangliang/?sc_lang=en", kind: "official" } },
+  { id: "hk-qiang", region: "Hong Kong", kind: "JOINT LAB + AI LEADERSHIP", title: "Qiang Yang（杨强）↔ WeBank / WeChat / Huawei", description: "PolyU 官方履历列出 WeBank CAIO、WeChat–HKUST Joint Lab 主任与 Huawei Noah’s Ark 创始主任等岗位。", source: { label: "PolyU Faculty Profile", url: "https://www.polyu.edu.hk/dsai/docdrive/personal/yangqiang.html", kind: "official" } },
+  { id: "hk-jing", region: "Hong Kong", kind: "INDUSTRY RESEARCH + COLLABORATION", title: "Jing Li（李菁）↔ Tencent AI Lab / Huawei / Baidu", description: "PolyU 官方简介记录其为 Tencent AI Lab NLP Center 前高级研究员；个人主页另列 Huawei、Baidu、Tencent 研究合作。", source: { label: "PolyU Faculty Profile", url: "https://www.polyu.edu.hk/comp/People/Academic-Staff/Prof-LI-Jing-Amelia", kind: "official" } },
 ];
 
 const nusNlpAlumni: Source = { label: "NUS NLP Group alumni", url: "https://www.comp.nus.edu.sg/~nlp/people.html", kind: "official" };
 const jotyStudents: Source = { label: "Shafiq Joty students & alumni", url: "https://raihanjoty.github.io/students.html", kind: "profile" };
 const weiStudents: Source = { label: "SUTD / StatNLP alumni records", url: "https://www.sutd.edu.sg/esd/profile/lu-wei/", kind: "official" };
 const chuaStudents: Source = { label: "Chua Tat-Seng students", url: "https://www.chuatatseng.com/", kind: "profile" };
+const songStudents: Source = { label: "Yangqiu Song students", url: "https://cse.hkust.edu.hk/~yqsong/", kind: "profile" };
+const wenjieStudents: Source = { label: "PolyU NLP Group members & alumni", url: "https://www4.comp.polyu.edu.hk/~cswjli/Group.html", kind: "profile" };
 
 export const studentPlacements: StudentPlacement[] = [
   { id: "ng-chan-bbn", student: "Yee Seng Chan", teacherId: "hwee-tou-ng", company: "Raytheon BBN", role: "Scientist", kind: "first_job", source: nusNlpAlumni },
@@ -341,4 +656,17 @@ export const studentPlacements: StudentPlacement[] = [
   { id: "lu-cheng-alibaba", student: "Liying Cheng", teacherId: "wei-lu", company: "Alibaba", department: "Singapore", role: "NLP researcher · EDB IPP", kind: "first_job", source: weiStudents },
   { id: "lu-sun-astar", student: "Richard Sun", teacherId: "wei-lu", company: "A*STAR", department: "Singapore", role: "Researcher", kind: "first_job", source: weiStudents },
   { id: "lu-li-bytedance", student: "Haoran Li", teacherId: "wei-lu", company: "ByteDance", department: "Beijing", role: "NLP researcher", kind: "first_job", source: weiStudents },
+
+  { id: "song-cheng-qwen", student: "Jiayang Cheng", teacherId: "yangqiu-song", company: "Alibaba", department: "Qwen", role: "Researcher", kind: "first_job", source: songStudents },
+  { id: "song-wang-hunyuan", student: "Weiqi Wang", teacherId: "yangqiu-song", company: "Tencent", department: "Hunyuan · Beijing", role: "Researcher", kind: "first_job", source: songStudents },
+  { id: "song-hu-bytedance", student: "Qi Hu", teacherId: "yangqiu-song", company: "ByteDance", department: "Shanghai", role: "Researcher", kind: "first_job", source: songStudents },
+  { id: "song-lin-faculty", student: "Zizheng Lin", teacherId: "yangqiu-song", company: "Xiamen University of Technology", role: "Faculty", kind: "first_job", source: songStudents },
+
+  { id: "wenjie-wei-msra", student: "Furu Wei", teacherId: "wenjie-li", company: "Microsoft Research Asia", department: "Natural Language Computing Group", role: "Lead Researcher", kind: "reported", highLevel: true, source: wenjieStudents },
+  { id: "wenjie-cao-ms", student: "Guihong Cao", teacherId: "wenjie-li", company: "Microsoft", department: "Redmond", role: "Researcher", kind: "reported", source: wenjieStudents },
+  { id: "wenjie-hu-alibaba", student: "Yi Hu", teacherId: "wenjie-li", company: "Alibaba", department: "Hangzhou", role: "Researcher", kind: "reported", source: wenjieStudents },
+  { id: "wenjie-chen-tencent", student: "Qiang Chen", teacherId: "wenjie-li", company: "Tencent", role: "Researcher", kind: "reported", source: wenjieStudents },
+  { id: "wenjie-wang-tencent", student: "Wei Wang", teacherId: "wenjie-li", company: "Tencent", role: "Researcher", kind: "reported", source: wenjieStudents },
+  { id: "wenjie-ye-baidu", student: "Wen Ye", teacherId: "wenjie-li", company: "Baidu", role: "Researcher", kind: "reported", source: wenjieStudents },
+  { id: "wenjie-zhang-baidu", student: "Ji Zhang", teacherId: "wenjie-li", company: "Baidu", role: "Researcher", kind: "reported", source: wenjieStudents },
 ];
