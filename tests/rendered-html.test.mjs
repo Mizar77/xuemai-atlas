@@ -66,3 +66,16 @@ test("renders enriched senior-scholar profiles and evidence density", async () =
   assert.match(html, /来源 3 · 脉络 5 · 关系 3/);
   assert.match(html, /来源 4 · 脉络 4 · 关系 2 · 去向 3 · 组员 1/);
 });
+
+test("renders named Mainland student destinations with teacher coverage", async () => {
+  const response = await render();
+  const html = await response.text();
+
+  assert.match(html, /已核验学生去向 · .*12.* 位导师/);
+  assert.match(html, /<strong>79<\/strong><span>已核验学生去向/);
+  for (const student of ["宋皓宇", "袁建华", "王兴昊", "朱泽圻"]) {
+    assert.match(html, new RegExp(student));
+  }
+  assert.match(html, /Genius Youth Program/);
+  assert.match(html, /去向 24/);
+});

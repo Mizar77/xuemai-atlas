@@ -8,6 +8,16 @@ const tangEducation = official("清华人工智能国际治理研究院", "https
 const tangThesisQiu = official("清华学位论文：裘捷中", "https://newetds.lib.tsinghua.edu.cn/qh/paper/summary?dbCode=ETDQH&sysId=273307");
 const cheProfile = official("哈工大 SCIR：车万翔", "https://ir.hit.edu.cn/_s334/2024/1021/c19599a356042/page.psp");
 const cheThesis = official("哈工大优秀博士论文公示", "https://hitgs.hit.edu.cn/2025/0928/c17455a379037/page.htm");
+const hitAlumni = official("哈工大 SCIR 历届毕业生与去向", "https://ir.hit.edu.cn/2024/1023/c19599a356822/page.htm");
+const hitLaAlumni = official("哈工大 SCIR 语言智能体组成员", "https://ir.hit.edu.cn/19625/list.htm");
+const hitScAlumni = official("哈工大 SCIR 情感计算组成员", "https://ir.hit.edu.cn/19641/list.htm");
+const hitDtAlumni = official("哈工大 SCIR 对话技术组成员", "https://ir.hit.edu.cn/19632/list.htm");
+const hitTgAlumni = official("哈工大 SCIR 可信生成组成员", "https://ir.hit.edu.cn/19606/list.htm");
+const hitQinDefense = official("哈工大 SCIR：秦兵指导博士生答辩", "https://ir.hit.edu.cn/2024/0711/c19589a357072/page.htm");
+const njuAlumni = official("南京大学 NLP 组毕业生去向", "https://nlp.nju.edu.cn/people.html");
+const huangShujianProfile = profile("黄书剑个人主页", "https://nlp.nju.edu.cn/huangsj/");
+const zhengChujieProfile = profile("郑楚杰个人主页", "https://chujiezheng.github.io/");
+const kePeiProfile = profile("柯沛个人主页", "https://kepei1106.github.io/");
 const sunProfile = official("清华教师主页：孙茂松", "https://www.cs.tsinghua.edu.cn/info/1121/3554.htm");
 const liuProfile = official("哈工大 SCIR：刘挺履历", "https://ir.hit.edu.cn/19589/list76.htm");
 const wenProfile = official("人大 DEKE：文继荣", "https://deke.ruc.edu.cn/kytd/xsdtr/340049a15927468a9e1205fd9521e0d0.htm");
@@ -171,6 +181,76 @@ export const mainlandEnrichmentStudentPlacements: StudentPlacement[] = [
   { id: "wen-dong-bytedance", student: "董冠霆", teacherId: "jirong-wen", company: "ByteDance", department: "Seed", role: "Research intern · 与窦志成共同指导", kind: "internship", source: dongProfile },
   { id: "wen-dong-alibaba", student: "董冠霆", teacherId: "jirong-wen", company: "Alibaba", department: "Qwen", role: "Research intern · 与窦志成共同指导", kind: "internship", source: dongProfile },
   { id: "wen-dong-kuaishou", student: "董冠霆", teacherId: "jirong-wen", company: "Kuaishou", department: "Kwai Large Model", role: "Research intern · 与窦志成共同指导", kind: "internship", source: dongProfile },
+  { id: "huang-zheng-qwen", student: "郑楚杰", teacherId: "minlie-huang", company: "Alibaba", department: "Qwen", role: "Researcher · CoAI 组员", kind: "current", note: "CoAI 组页列其为博士生；个人主页列当前任职 Qwen。", source: zhengChujieProfile },
+  { id: "huang-ke-tsinghua", student: "柯沛", teacherId: "minlie-huang", company: "Tsinghua University", department: "CoAI", role: "Postdoctoral Researcher", kind: "first_job", note: "个人主页明确列博士导师为朱小燕、黄民烈。", source: kePeiProfile },
+
+  { id: "che-li-zhenghua-suda", student: "李正华", teacherId: "wanxiang-che", company: "Soochow University", role: "Faculty · LA 组博士毕业生", kind: "reported", note: "LA 组页列为毕业博士；中心毕业生页列去向。", source: hitAlumni },
+  { id: "che-zhang-meishan-sutd", student: "张梅山", teacherId: "wanxiang-che", company: "SUTD", role: "Postdoctoral Researcher · LA 组博士毕业生", kind: "reported", note: "以 SCIR/LA 研究组口径记录，组页未逐项标注个人导师。", source: hitAlumni },
+  { id: "che-guo-jiang-mit", student: "郭江", teacherId: "wanxiang-che", company: "MIT", role: "Postdoctoral Researcher · LA 组博士毕业生", kind: "reported", note: "官方答辩报道另列车万翔为副导师。", source: hitAlumni },
+  { id: "che-liu-yijia-alibaba", student: "刘一佳", teacherId: "wanxiang-che", company: "Alibaba", department: "Hangzhou", role: "LA 组博士毕业去向", kind: "reported", note: "以 SCIR/LA 研究组口径记录。", source: hitAlumni },
+  { id: "che-xu-jun-baidu", student: "徐俊", teacherId: "wanxiang-che", company: "Baidu", role: "LA 组博士毕业去向", kind: "reported", note: "以 SCIR/LA 研究组口径记录。", source: hitAlumni },
+  { id: "che-zheng-bo-alibaba", student: "郑博", teacherId: "wanxiang-che", company: "Alibaba", role: "LA 组博士毕业去向", kind: "reported", note: "以 SCIR/LA 研究组口径记录。", source: hitAlumni },
+  { id: "che-cui-yiming-iflytek", student: "崔一鸣", teacherId: "wanxiang-che", company: "iFLYTEK", role: "LA 组博士毕业去向", kind: "reported", note: "以 SCIR/LA 研究组口径记录。", source: hitAlumni },
+  { id: "che-ren-bin-baidu", student: "任彬", teacherId: "wanxiang-che", company: "Baidu", role: "LA 组硕士毕业去向", kind: "reported", note: "语言智能体组毕业生页与中心去向页交叉核验。", source: hitLaAlumni },
+  { id: "che-han-bing-tencent", student: "韩冰", teacherId: "wanxiang-che", company: "Tencent", department: "Beijing", role: "LA 组硕士毕业去向", kind: "reported", note: "语言智能体组毕业生页与中心去向页交叉核验。", source: hitAlumni },
+  { id: "che-zhang-yi-tencent", student: "张毅", teacherId: "wanxiang-che", company: "Tencent", department: "Beijing", role: "LA 组硕士毕业去向", kind: "reported", note: "以 SCIR/LA 研究组口径记录。", source: hitAlumni },
+  { id: "che-xu-zixiang-baidu", student: "徐梓翔", teacherId: "wanxiang-che", company: "Baidu", role: "LA 组硕士毕业去向", kind: "reported", note: "以 SCIR/LA 研究组口径记录。", source: hitAlumni },
+  { id: "che-xu-wei-baidu", student: "徐伟", teacherId: "wanxiang-che", company: "Baidu", role: "LA 组硕士毕业去向", kind: "reported", note: "以 SCIR/LA 研究组口径记录。", source: hitAlumni },
+  { id: "che-deng-wenchao-tencent", student: "邓文超", teacherId: "wanxiang-che", company: "Tencent", role: "LA 组硕士毕业去向", kind: "reported", note: "以 SCIR/LA 研究组口径记录。", source: hitAlumni },
+  { id: "che-zhu-jiaqi-baidu", student: "朱嘉琪", teacherId: "wanxiang-che", company: "Baidu", role: "LA 组硕士毕业去向", kind: "reported", note: "以 SCIR/LA 研究组口径记录。", source: hitAlumni },
+  { id: "che-zhao-huaipeng-alibaba", student: "赵怀鹏", teacherId: "wanxiang-che", company: "Alibaba", role: "LA 组硕士毕业去向", kind: "reported", note: "以 SCIR/LA 研究组口径记录。", source: hitAlumni },
+  { id: "che-liu-yang-iflytek", student: "刘洋", teacherId: "wanxiang-che", company: "iFLYTEK", department: "Beijing", role: "LA 组硕士毕业去向", kind: "reported", note: "以 SCIR/LA 研究组口径记录。", source: hitAlumni },
+  { id: "che-han-yu-alibaba", student: "韩宇", teacherId: "wanxiang-che", company: "Alibaba", department: "Hangzhou", role: "LA 组硕士毕业去向", kind: "reported", note: "以 SCIR/LA 研究组口径记录。", source: hitAlumni },
+  { id: "che-li-qixin-alibaba", student: "李祺欣", teacherId: "wanxiang-che", company: "Alibaba", department: "Hangzhou", role: "LA 组硕士毕业去向", kind: "reported", note: "以 SCIR/LA 研究组口径记录。", source: hitAlumni },
+  { id: "che-lai-yongkui-tencent", student: "赖勇魁", teacherId: "wanxiang-che", company: "Tencent", department: "Shenzhen", role: "LA 组硕士毕业去向", kind: "reported", note: "以 SCIR/LA 研究组口径记录。", source: hitAlumni },
+  { id: "che-wang-chongyuan-bytedance", student: "王重元", teacherId: "wanxiang-che", company: "ByteDance", department: "Beijing", role: "LA 组硕士毕业去向", kind: "reported", note: "以 SCIR/LA 研究组口径记录。", source: hitAlumni },
+  { id: "che-lei-zhilin-bytedance", student: "雷志林", teacherId: "wanxiang-che", company: "ByteDance", department: "Shanghai", role: "LA 组硕士毕业去向", kind: "reported", note: "以 SCIR/LA 研究组口径记录。", source: hitAlumni },
+  { id: "che-wang-xinghao-huawei", student: "王兴昊", teacherId: "wanxiang-che", company: "Huawei", department: "Beijing", role: "LA 组硕士毕业去向", kind: "reported", note: "以 SCIR/LA 研究组口径记录。", source: hitAlumni },
+  { id: "che-sun-bo-alibaba", student: "孙博", teacherId: "wanxiang-che", company: "Alibaba", department: "Hangzhou", role: "LA 组硕士毕业去向", kind: "reported", note: "以 SCIR/LA 研究组口径记录。", source: hitAlumni },
+  { id: "che-xia-wentian-bytedance", student: "夏闻添", teacherId: "wanxiang-che", company: "ByteDance", department: "Beijing", role: "LA 组硕士毕业去向", kind: "reported", note: "以 SCIR/LA 研究组口径记录。", source: hitAlumni },
+
+  { id: "qin-yuan-jianhua-huawei", student: "袁建华", teacherId: "bing-qin", company: "Huawei", role: "PhD graduate", kind: "first_job", note: "答辩报道明确列秦兵为导师；情感计算组页列去向为华为。", source: hitQinDefense },
+  { id: "qin-li-jiaqi-iflytek", student: "李家琦", teacherId: "bing-qin", company: "iFLYTEK", department: "Beijing", role: "PhD graduate", kind: "first_job", note: "答辩报道明确列秦兵为导师；中心毕业生页列去向。", source: hitQinDefense },
+
+  { id: "zhao-cong-dawei-alibaba", student: "丛大玮", teacherId: "yanyan-zhao-hit", company: "Alibaba", department: "Hangzhou", role: "SC 组硕士毕业去向", kind: "reported", note: "情感计算组官方成员页按研究组口径列示，未逐项标注个人导师。", source: hitScAlumni },
+  { id: "zhao-luo-guanzhu-tencent", student: "罗观柱", teacherId: "yanyan-zhao-hit", company: "Tencent", department: "Shenzhen", role: "SC 组硕士毕业去向", kind: "reported", note: "以 SC 研究组口径记录。", source: hitScAlumni },
+  { id: "zhao-wang-shuai-bytedance", student: "王帅", teacherId: "yanyan-zhao-hit", company: "ByteDance", role: "SC 组硕士毕业去向", kind: "reported", note: "以 SC 研究组口径记录。", source: hitScAlumni },
+  { id: "zhao-li-zhaopeng-baidu", student: "李照鹏", teacherId: "yanyan-zhao-hit", company: "Baidu", department: "Shanghai", role: "SC 组硕士毕业去向", kind: "reported", note: "以 SC 研究组口径记录。", source: hitScAlumni },
+  { id: "zhao-hu-xiaoyu-tencent", student: "胡晓毓", teacherId: "yanyan-zhao-hit", company: "Tencent", department: "Shenzhen", role: "SC 组硕士毕业去向", kind: "reported", note: "以 SC 研究组口径记录。", source: hitScAlumni },
+  { id: "zhao-yuan-mingchen-baidu", student: "袁明琛", teacherId: "yanyan-zhao-hit", company: "Baidu", department: "Shanghai", role: "SC 组硕士毕业去向", kind: "reported", note: "以 SC 研究组口径记录。", source: hitScAlumni },
+  { id: "zhao-lu-yanyue-tencent", student: "卢延悦", teacherId: "yanyan-zhao-hit", company: "Tencent", department: "Shenzhen", role: "SC 组硕士毕业去向", kind: "reported", note: "以 SC 研究组口径记录。", source: hitScAlumni },
+  { id: "zhao-zhang-xin-tencent", student: "张馨", teacherId: "yanyan-zhao-hit", company: "Tencent", department: "Shenzhen", role: "SC 组硕士毕业去向", kind: "reported", note: "以 SC 研究组口径记录。", source: hitScAlumni },
+  { id: "zhao-yi-wenjia-meituan", student: "易文佳", teacherId: "yanyan-zhao-hit", company: "Meituan", department: "Beijing", role: "SC 组硕士毕业去向", kind: "reported", note: "以 SC 研究组口径记录。", source: hitScAlumni },
+  { id: "zhao-chen-song-bytedance", student: "陈嵩", teacherId: "yanyan-zhao-hit", company: "ByteDance", department: "Beijing", role: "SC 组硕士毕业去向", kind: "reported", note: "以 SC 研究组口径记录。", source: hitScAlumni },
+  { id: "zhao-zhang-zhenyu-meituan", student: "张震宇", teacherId: "yanyan-zhao-hit", company: "Meituan", department: "Shanghai", role: "SC 组硕士毕业去向", kind: "reported", note: "以 SC 研究组口径记录。", source: hitScAlumni },
+  { id: "zhao-peng-pai-pinduoduo", student: "彭湃", teacherId: "yanyan-zhao-hit", company: "Pinduoduo", department: "Shanghai", role: "SC 组硕士毕业去向", kind: "reported", note: "以 SC 研究组口径记录。", source: hitScAlumni },
+
+  { id: "zhang-du-yumeng-tencent", student: "杜雨萌", teacherId: "weinan-zhang-hit", company: "Tencent", department: "Beijing", role: "DT 组硕士毕业去向", kind: "reported", note: "对话技术组官方页按研究组口径列示，未逐项标注个人导师。", source: hitDtAlumni },
+  { id: "zhang-qiu-shi-tencent", student: "裘实", teacherId: "weinan-zhang-hit", company: "Tencent", department: "Shenzhen", role: "DT 组硕士毕业去向", kind: "reported", note: "以 DT 研究组口径记录。", source: hitDtAlumni },
+  { id: "zhang-cao-dongyan-zte", student: "曹东岩", teacherId: "weinan-zhang-hit", company: "ZTE", department: "Nanjing", role: "DT 组硕士毕业去向", kind: "reported", note: "以 DT 研究组口径记录。", source: hitDtAlumni },
+  { id: "zhang-zhang-yangzi-hna", student: "张杨子", teacherId: "weinan-zhang-hit", company: "HNA Technology Research Institute", role: "DT 组硕士毕业去向", kind: "reported", note: "以 DT 研究组口径记录。", source: hitDtAlumni },
+  { id: "zhang-wang-yifa-iflytek", student: "汪意发", teacherId: "weinan-zhang-hit", company: "iFLYTEK", role: "DT 组硕士毕业去向", kind: "reported", note: "以 DT 研究组口径记录。", source: hitDtAlumni },
+  { id: "zhang-zhu-zeqi-huawei", student: "朱泽圻", teacherId: "weinan-zhang-hit", company: "Huawei", department: "Nanjing", role: "DT 组硕士毕业去向", kind: "reported", note: "以 DT 研究组口径记录。", source: hitDtAlumni },
+  { id: "zhang-li-lingzhi-tencent", student: "李凌志", teacherId: "weinan-zhang-hit", company: "Tencent", department: "Shenzhen", role: "DT 组硕士毕业去向", kind: "reported", note: "以 DT 研究组口径记录。", source: hitDtAlumni },
+  { id: "zhang-zhao-zhengyu-tencent", student: "赵正宇", teacherId: "weinan-zhang-hit", company: "Tencent", department: "Shenzhen", role: "DT 组硕士毕业去向", kind: "reported", note: "以 DT 研究组口径记录。", source: hitDtAlumni },
+  { id: "zhang-zhu-caihai-tencent", student: "朱才海", teacherId: "weinan-zhang-hit", company: "Tencent", department: "Shenzhen", role: "DT 组硕士毕业去向", kind: "reported", note: "以 DT 研究组口径记录。", source: hitDtAlumni },
+  { id: "zhang-zhang-jiayue-tencent", student: "张家乐", teacherId: "weinan-zhang-hit", company: "Tencent", department: "Shenzhen", role: "DT 组硕士毕业去向", kind: "reported", note: "以 DT 研究组口径记录。", source: hitDtAlumni },
+  { id: "zhang-zhuang-ziyu-ctrip", student: "庄子彧", teacherId: "weinan-zhang-hit", company: "Ctrip", department: "Shanghai", role: "DT 组硕士毕业去向", kind: "reported", note: "以 DT 研究组口径记录。", source: hitDtAlumni },
+  { id: "zhang-wang-hang-byd", student: "王航", teacherId: "weinan-zhang-hit", company: "BYD", department: "Shenzhen", role: "DT 组硕士毕业去向", kind: "reported", note: "以 DT 研究组口径记录。", source: hitDtAlumni },
+  { id: "zhang-song-haoyu-huawei", student: "宋皓宇", teacherId: "weinan-zhang-hit", company: "Huawei", department: "Genius Youth Program", role: "PhD graduate · 天才少年", kind: "reported", highLevel: true, note: "DT 组页列北京华为天才少年。", source: hitDtAlumni },
+  { id: "zhang-li-jiapeng-tencent", student: "李佳朋", teacherId: "weinan-zhang-hit", company: "Tencent", department: "Shenzhen", role: "DT 组硕士毕业去向", kind: "reported", note: "以 DT 研究组口径记录。", source: hitDtAlumni },
+  { id: "zhang-qi-biqing-shlab", student: "齐弼卿", teacherId: "weinan-zhang-hit", company: "Shanghai AI Laboratory", role: "PhD graduate", kind: "reported", note: "以 DT 研究组口径记录。", source: hitDtAlumni },
+
+  { id: "feng-liu-jiahao-alibaba", student: "刘家豪", teacherId: "xiaocheng-feng", company: "Alibaba", role: "TG 组毕业去向", kind: "reported", note: "可信生成组官方页按研究组口径列示，未逐项标注个人导师。", source: hitTgAlumni },
+  { id: "feng-ning-dandan-cetc", student: "宁丹丹", teacherId: "xiaocheng-feng", company: "CETC 15th Institute", role: "TG 组毕业去向", kind: "reported", note: "以 TG 研究组口径记录。", source: hitTgAlumni },
+  { id: "feng-leng-haitao-alibaba", student: "冷海涛", teacherId: "xiaocheng-feng", company: "Alibaba", role: "TG 组毕业去向", kind: "reported", note: "以 TG 研究组口径记录。", source: hitTgAlumni },
+  { id: "feng-sun-zhuo-baidu", student: "孙卓", teacherId: "xiaocheng-feng", company: "Baidu", role: "TG 组毕业去向", kind: "reported", note: "以 TG 研究组口径记录。", source: hitTgAlumni },
+  { id: "feng-chen-yuyu-pinduoduo", student: "陈昱宇", teacherId: "xiaocheng-feng", company: "Pinduoduo", role: "TG 组毕业去向", kind: "reported", note: "以 TG 研究组口径记录。", source: hitTgAlumni },
+
+  { id: "huang-zhou-hao-bytedance", student: "周浩", teacherId: "shujian-huang", company: "ByteDance", department: "AI Lab · Beijing", role: "PhD graduate", kind: "reported", note: "黄书剑主页列其为 alumni；NJU NLP 组页列博士去向。", source: njuAlumni },
+  { id: "huang-zheng-zaixiang-bytedance", student: "郑在翔", teacherId: "shujian-huang", company: "ByteDance", department: "Shanghai", role: "PhD graduate", kind: "reported", note: "黄书剑主页列其为 alumni；NJU NLP 组页列博士去向。", source: njuAlumni },
+  { id: "huang-bao-yu-bytedance", student: "鲍宇", teacherId: "shujian-huang", company: "ByteDance", department: "Shanghai", role: "PhD graduate · 与陈家骏共同指导", kind: "reported", note: "黄书剑主页明确列与陈家骏共同指导。", source: huangShujianProfile },
+  { id: "chen-bao-yu-bytedance", student: "鲍宇", teacherId: "jiajun-chen-nju", company: "ByteDance", department: "Shanghai", role: "PhD graduate · 与黄书剑共同指导", kind: "reported", note: "黄书剑主页明确列与陈家骏共同指导。", source: huangShujianProfile },
 ];
 
 export const mainlandEnrichmentIndustryPathways: IndustryPathway[] = [

@@ -152,6 +152,7 @@ export default function AcademicAtlas() {
   }
   const currentPiCount = regionPeople.filter((p) => p.primary && p.category !== "historical").length;
   const coreCount = regionPeople.filter((p) => p.primary && p.category === "core").length;
+  const placementTeacherCount = new Set(regionalPlacements.map((placement) => placement.teacherId)).size;
   const sourceCount = new Set(regionPeople.flatMap((p) => p.sources.map((s) => s.url)).concat(relationships.filter((r) => regionIds.has(r.from) || regionIds.has(r.to)).map((r) => r.source.url), regionalPlacements.map((p) => p.source.url))).size;
   const regionalCoverage = coverage.filter((row) => row.region === region);
   const regionalCommunities = communities.filter((community) => community.region === region);
@@ -188,7 +189,7 @@ export default function AcademicAtlas() {
           <div><strong>{coreCount}</strong><span>核心 NLP / LLM PI</span></div>
           <div><strong>{regionalInstitutions[region].length}</strong><span>{regionLabels[region]}机构</span></div>
           <div><strong>{currentPiCount}</strong><span>当前 PI（含相邻层）</span></div>
-          <div><strong>{regionalPlacements.length}</strong><span>已核验学生去向</span></div>
+          <div><strong>{regionalPlacements.length}</strong><span>已核验学生去向 · {placementTeacherCount} 位导师</span></div>
           <p>{sourceCount} 个去重来源 · 更新于 2026.08.24</p>
         </div>
       </section>
