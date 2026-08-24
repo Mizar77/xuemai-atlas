@@ -237,6 +237,7 @@ button { color: inherit; }
 .placement-row span, .placement-row strong, .placement-row small { display: block; }
 .placement-row strong, .placement-row b { font-size: 10px; }
 .placement-row small { margin-top: 3px; color: #7a8797; font-size: 8px; line-height: 1.4; }
+.placement-row .placement-note, .pipeline-students .placement-note { color: #536171; }
 .placement-row em { position: absolute; right: 0; top: -4px; padding: 2px 5px; border-radius: 999px; background: #fff0cb; color: #8a5a00; font-size: 7px; font-style: normal; font-weight: 800; }
 .more-placements { display: block; margin-top: 10px; color: var(--cobalt); font-size: 9px; font-weight: 700; }
 

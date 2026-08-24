@@ -13,9 +13,7 @@ const hitLaAlumni = official("哈工大 SCIR 语言智能体组成员", "https:/
 const hitScAlumni = official("哈工大 SCIR 情感计算组成员", "https://ir.hit.edu.cn/19641/list.htm");
 const hitDtAlumni = official("哈工大 SCIR 对话技术组成员", "https://ir.hit.edu.cn/19632/list.htm");
 const hitTgAlumni = official("哈工大 SCIR 可信生成组成员", "https://ir.hit.edu.cn/19606/list.htm");
-const hitQinDefense = official("哈工大 SCIR：秦兵指导博士生答辩", "https://ir.hit.edu.cn/2024/0711/c19589a357072/page.htm");
 const njuAlumni = official("南京大学 NLP 组毕业生去向", "https://nlp.nju.edu.cn/people.html");
-const huangShujianProfile = profile("黄书剑个人主页", "https://nlp.nju.edu.cn/huangsj/");
 const zhengChujieProfile = profile("郑楚杰个人主页", "https://chujiezheng.github.io/");
 const kePeiProfile = profile("柯沛个人主页", "https://kepei1106.github.io/");
 const sunProfile = official("清华教师主页：孙茂松", "https://www.cs.tsinghua.edu.cn/info/1121/3554.htm");
@@ -209,8 +207,8 @@ export const mainlandEnrichmentStudentPlacements: StudentPlacement[] = [
   { id: "che-sun-bo-alibaba", student: "孙博", teacherId: "wanxiang-che", company: "Alibaba", department: "Hangzhou", role: "LA 组硕士毕业去向", kind: "reported", note: "以 SCIR/LA 研究组口径记录。", source: hitAlumni },
   { id: "che-xia-wentian-bytedance", student: "夏闻添", teacherId: "wanxiang-che", company: "ByteDance", department: "Beijing", role: "LA 组硕士毕业去向", kind: "reported", note: "以 SCIR/LA 研究组口径记录。", source: hitAlumni },
 
-  { id: "qin-yuan-jianhua-huawei", student: "袁建华", teacherId: "bing-qin", company: "Huawei", role: "PhD graduate", kind: "first_job", note: "答辩报道明确列秦兵为导师；情感计算组页列去向为华为。", source: hitQinDefense },
-  { id: "qin-li-jiaqi-iflytek", student: "李家琦", teacherId: "bing-qin", company: "iFLYTEK", department: "Beijing", role: "PhD graduate", kind: "first_job", note: "答辩报道明确列秦兵为导师；中心毕业生页列去向。", source: hitQinDefense },
+  { id: "qin-yuan-jianhua-huawei", student: "袁建华", teacherId: "bing-qin", company: "Huawei", role: "PhD graduate", kind: "first_job", note: "答辩报道明确列秦兵为导师；去向来源为情感计算组官方页。", source: hitScAlumni },
+  { id: "qin-li-jiaqi-iflytek", student: "李家琦", teacherId: "bing-qin", company: "iFLYTEK", department: "Beijing", role: "PhD graduate", kind: "first_job", note: "答辩报道明确列秦兵为导师；去向来源为中心毕业生页。", source: hitAlumni },
 
   { id: "zhao-cong-dawei-alibaba", student: "丛大玮", teacherId: "yanyan-zhao-hit", company: "Alibaba", department: "Hangzhou", role: "SC 组硕士毕业去向", kind: "reported", note: "情感计算组官方成员页按研究组口径列示，未逐项标注个人导师。", source: hitScAlumni },
   { id: "zhao-luo-guanzhu-tencent", student: "罗观柱", teacherId: "yanyan-zhao-hit", company: "Tencent", department: "Shenzhen", role: "SC 组硕士毕业去向", kind: "reported", note: "以 SC 研究组口径记录。", source: hitScAlumni },
@@ -249,8 +247,8 @@ export const mainlandEnrichmentStudentPlacements: StudentPlacement[] = [
 
   { id: "huang-zhou-hao-bytedance", student: "周浩", teacherId: "shujian-huang", company: "ByteDance", department: "AI Lab · Beijing", role: "PhD graduate", kind: "reported", note: "黄书剑主页列其为 alumni；NJU NLP 组页列博士去向。", source: njuAlumni },
   { id: "huang-zheng-zaixiang-bytedance", student: "郑在翔", teacherId: "shujian-huang", company: "ByteDance", department: "Shanghai", role: "PhD graduate", kind: "reported", note: "黄书剑主页列其为 alumni；NJU NLP 组页列博士去向。", source: njuAlumni },
-  { id: "huang-bao-yu-bytedance", student: "鲍宇", teacherId: "shujian-huang", company: "ByteDance", department: "Shanghai", role: "PhD graduate · 与陈家骏共同指导", kind: "reported", note: "黄书剑主页明确列与陈家骏共同指导。", source: huangShujianProfile },
-  { id: "chen-bao-yu-bytedance", student: "鲍宇", teacherId: "jiajun-chen-nju", company: "ByteDance", department: "Shanghai", role: "PhD graduate · 与黄书剑共同指导", kind: "reported", note: "黄书剑主页明确列与陈家骏共同指导。", source: huangShujianProfile },
+  { id: "huang-bao-yu-bytedance", student: "鲍宇", teacherId: "shujian-huang", company: "ByteDance", department: "Shanghai", role: "PhD graduate · 与陈家骏共同指导", kind: "reported", note: "黄书剑主页明确列与陈家骏共同指导；去向来源为 NJU NLP 组页。", source: njuAlumni },
+  { id: "chen-bao-yu-bytedance", student: "鲍宇", teacherId: "jiajun-chen-nju", company: "ByteDance", department: "Shanghai", role: "PhD graduate · 与黄书剑共同指导", kind: "reported", note: "黄书剑主页明确列与陈家骏共同指导；去向来源为 NJU NLP 组页。", source: njuAlumni },
 ];
 
 export const mainlandEnrichmentIndustryPathways: IndustryPathway[] = [
