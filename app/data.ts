@@ -1,4 +1,5 @@
 import { mainlandCommunities, mainlandCoverage, mainlandGroupMembers, mainlandIndustryPathways, mainlandPeople, mainlandRelationships, mainlandStudentPlacements } from "./mainland-data";
+import { mainlandEnrichmentGroupMembers, mainlandEnrichmentIndustryPathways, mainlandEnrichmentRelationships, mainlandEnrichmentStudentPlacements, mainlandPersonEnhancements } from "./mainland-enrichment-data";
 import { mainlandPhase2Communities, mainlandPhase2Coverage, mainlandPhase2GroupMembers, mainlandPhase2IndustryPathways, mainlandPhase2People, mainlandPhase2Relationships } from "./mainland-phase2-data";
 
 export type Source = {
@@ -92,7 +93,7 @@ export const stageLabels: Record<Stage, string> = {
   historical: "历史 / 跨地区",
 };
 
-export const people: Person[] = [
+const basePeople: Person[] = [
   {
     id: "hwee-tou-ng", name: "Hwee Tou Ng", role: "Provost’s Chair Professor", institution: "NUS",
     area: "Natural Language Processing", tags: ["NLP", "语法纠错", "ACL Fellow"], stage: "senior", category: "core",
@@ -571,6 +572,19 @@ export const people: Person[] = [
   ...mainlandPhase2People,
 ];
 
+export const people: Person[] = basePeople.map((person) => {
+  const enhancement = mainlandPersonEnhancements[person.id];
+  if (!enhancement) return person;
+  const sources = [...person.sources, ...(enhancement.sources ?? [])].filter((source, index, all) => all.findIndex((candidate) => candidate.url === source.url) === index);
+  return {
+    ...person,
+    ...enhancement,
+    tags: Array.from(new Set([...person.tags, ...(enhancement.tags ?? [])])),
+    facts: [...(person.facts ?? []), ...(enhancement.facts ?? [])],
+    sources,
+  };
+});
+
 export const relationships: Relationship[] = [
   { id: "mooney-ng", from: "raymond-mooney", to: "hwee-tou-ng", type: "lineage", label: "博士导师", evidence: "Ng 的博士论文致谢明确称 Raymond Mooney 为 advisor。", source: { label: "UT Austin 博士论文", url: "https://www.cs.utexas.edu/~ml/papers/hweetou_dissertation.pdf", kind: "thesis" }, verified: true },
   { id: "mckeown-kan", from: "kathleen-mckeown", to: "min-yen-kan", type: "lineage", label: "博士导师", evidence: "Kan 的 CV 列出 Kathleen McKeown 与 Judith Klavans 为导师。", source: { label: "Min-Yen Kan CV", url: "https://www.comp.nus.edu.sg/~kanmy/cv.1page.html", kind: "cv" }, verified: true },
@@ -625,6 +639,7 @@ export const relationships: Relationship[] = [
   { id: "ning-bytedance", from: "ning-miao", to: "ning-miao", type: "industry", label: "ByteDance AI Lab 前研究员", evidence: "Ning Miao 个人主页记录其加入 CityU 前曾在 ByteDance AI Lab 任研究员。", source: { label: "Ning Miao 主页", url: "https://www.ningmiao.space/", kind: "profile" }, verified: true },
   { id: "gang-industry", from: "gang-liu-cityu", to: "gang-liu-cityu", type: "industry", label: "Amazon / MIT–IBM Watson / IBM Fellowship", evidence: "Gang Liu 主页记录 Amazon Applied Scientist 实习、Broad Institute 与 MIT–IBM Watson AI Lab 研究实习，以及 IBM PhD Fellowship。", source: { label: "Gang Liu 主页", url: "https://liugangcode.github.io/", kind: "profile" }, verified: true },
   { id: "guo-google", from: "jianyuan-guo", to: "jianyuan-guo", type: "industry", label: "Google PhD Fellowship · 2022", evidence: "CityU PAPS 简介与个人主页均记录 Jianyuan Guo 获 2022 Google PhD Fellowship。", source: { label: "CityU PAPS", url: "https://www.cityu.edu.hk/vpti/presidential-assistant-professors-scheme/paps", kind: "official" }, verified: true },
+  ...mainlandEnrichmentRelationships,
   ...mainlandRelationships,
   ...mainlandPhase2Relationships,
 ];
@@ -672,6 +687,7 @@ export const industryPathways: IndustryPathway[] = [
   { id: "hk-ning", region: "Hong Kong", kind: "PRIOR INDUSTRY RESEARCH", title: "Ning Miao（苗寧）↔ ByteDance AI Lab", description: "个人主页记录其曾任 ByteDance AI Lab 研究员；当前 Miaow Lab 聚焦 LLM reasoning、AI4Math 与生成模型。", source: { label: "Ning Miao 主页", url: "https://www.ningmiao.space/", kind: "profile" } },
   { id: "hk-gang", region: "Hong Kong", kind: "INDUSTRY + RESEARCH FUNDING", title: "Gang Liu（劉罡）↔ Amazon / MIT–IBM Watson / IBM", description: "其公开履历列出 Amazon Applied Scientist 实习、Broad Institute 与 MIT–IBM Watson AI Lab 研究实习，以及 IBM PhD Fellowship。", source: { label: "Gang Liu 主页", url: "https://liugangcode.github.io/", kind: "profile" } },
   { id: "hk-guo", region: "Hong Kong", kind: "INDUSTRY FELLOWSHIP", title: "Jianyuan Guo（郭健元）↔ Google", description: "CityU PAPS 官方简介记录其获得 2022 Google PhD Fellowship；该项为研究资助关系，不表示 Google 雇佣经历。", source: { label: "CityU PAPS", url: "https://www.cityu.edu.hk/vpti/presidential-assistant-professors-scheme/paps", kind: "official" } },
+  ...mainlandEnrichmentIndustryPathways,
   ...mainlandIndustryPathways,
   ...mainlandPhase2IndustryPathways,
 ];
@@ -694,6 +710,7 @@ export const groupMembers: GroupMember[] = [
   { id: "miaow-xuan", teacherId: "ning-miao", name: "Xuan Yang", role: "PhD Student", focus: "Reasoning interpretability", source: miaowMembers },
   { id: "miaow-yuxian", teacherId: "ning-miao", name: "Yuxian Jiang", role: "PhD Student", source: miaowMembers },
   { id: "miaow-ruizhi", teacherId: "ning-miao", name: "Ruizhi Zhao", role: "Engineer", source: miaowMembers },
+  ...mainlandEnrichmentGroupMembers,
   ...mainlandGroupMembers,
   ...mainlandPhase2GroupMembers,
 ];
@@ -746,5 +763,6 @@ export const studentPlacements: StudentPlacement[] = [
   { id: "wenjie-wang-tencent", student: "Wei Wang", teacherId: "wenjie-li", company: "Tencent", role: "Researcher", kind: "reported", source: wenjieStudents },
   { id: "wenjie-ye-baidu", student: "Wen Ye", teacherId: "wenjie-li", company: "Baidu", role: "Researcher", kind: "reported", source: wenjieStudents },
   { id: "wenjie-zhang-baidu", student: "Ji Zhang", teacherId: "wenjie-li", company: "Baidu", role: "Researcher", kind: "reported", source: wenjieStudents },
+  ...mainlandEnrichmentStudentPlacements,
   ...mainlandStudentPlacements,
 ];

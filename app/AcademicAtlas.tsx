@@ -78,6 +78,19 @@ function displayName(person: Person) {
   return `${primaryName(person)}${secondary ? ` · ${secondary}` : ""}`;
 }
 
+function evidenceSummary(person: Person) {
+  const relationCount = relationships.filter((relation) => relation.from === person.id || relation.to === person.id).length;
+  const placementCount = studentPlacements.filter((placement) => placement.teacherId === person.id).length;
+  const memberCount = groupMembers.filter((member) => member.teacherId === person.id).length;
+  return [
+    `来源 ${person.sources.length}`,
+    person.facts?.length ? `脉络 ${person.facts.length}` : "",
+    relationCount ? `关系 ${relationCount}` : "",
+    placementCount ? `去向 ${placementCount}` : "",
+    memberCount ? `组员 ${memberCount}` : "",
+  ].filter(Boolean).join(" · ");
+}
+
 export default function AcademicAtlas() {
   const [region, setRegion] = useState<Region>("Mainland China");
   const [edgeFilter, setEdgeFilter] = useState<EdgeFilter>("all");
@@ -241,7 +254,7 @@ export default function AcademicAtlas() {
                     <div className="people-grid">{group.map((person) => (
                       <button key={person.id} className={`person-card ${selected.id === person.id ? "selected" : ""}`} onClick={() => setSelectedId(person.id)}>
                         <span className="person-monogram" style={{ background: institutionColors[person.institution] }}>{initials(primaryName(person))}</span>
-                        <span><small>{stageLabels[person.stage]}</small><strong>{primaryName(person)}{secondaryName(person) && <span className="card-chinese"> · {secondaryName(person)}</span>}</strong><em>{person.area}</em></span><b>→</b>
+                        <span><small>{stageLabels[person.stage]}</small><strong>{primaryName(person)}{secondaryName(person) && <span className="card-chinese"> · {secondaryName(person)}</span>}</strong><em>{person.area}</em><span className="card-evidence">{evidenceSummary(person)}</span></span><b>→</b>
                       </button>
                     ))}</div>
                   </section>;
@@ -280,7 +293,7 @@ export default function AcademicAtlas() {
                 {selectedPlacements.length === 0 && <p className="quiet">尚未找到可逐条核验的公开学生职业去向；这不表示该导师没有相关学生记录。</p>}
               </div>
               <div className="inspector-block"><h4>关系证据 <span>{selectedRelations.length}</span></h4>
-                {selectedRelations.slice(0, 6).map((relation) => <a key={relation.id} className="relation-row" href={relation.source.url} target="_blank" rel="noreferrer"><RelationChip type={relation.type} /><span><strong>{relation.label}</strong><small>{relation.evidence}</small></span><b>↗</b></a>)}
+                {selectedRelations.slice(0, 10).map((relation) => <a key={relation.id} className="relation-row" href={relation.source.url} target="_blank" rel="noreferrer"><RelationChip type={relation.type} /><span><strong>{relation.label}</strong><small>{relation.evidence}</small></span><b>↗</b></a>)}
                 {selectedRelations.length === 0 && <p className="quiet">暂无已核验关系；不以“共同任职”自动推断合作。</p>}
               </div>
               <div className="inspector-block source-block"><h4>人物来源 <span>{selected.sources.length}</span></h4>{selected.sources.map((source) => <a key={source.url} href={source.url} target="_blank" rel="noreferrer">{source.label}<span>↗</span></a>)}</div>

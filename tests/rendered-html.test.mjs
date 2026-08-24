@@ -56,3 +56,13 @@ test("renders the expanded Mainland China roster and coverage", async () => {
   }
   assert.match(html, /大陆第二期|17 个重点机构/);
 });
+
+test("renders enriched senior-scholar profiles and evidence density", async () => {
+  const response = await render();
+  const html = await response.text();
+
+  assert.match(html, /学堂在线/);
+  assert.match(html, /来源 4 · 脉络 5 · 关系 6 · 去向 8/);
+  assert.match(html, /来源 3 · 脉络 5 · 关系 3/);
+  assert.match(html, /来源 4 · 脉络 4 · 关系 2 · 去向 3 · 组员 1/);
+});

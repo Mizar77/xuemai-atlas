@@ -255,6 +255,7 @@ button { color: inherit; }
 .person-card strong { margin: 2px 0; font-size: 12px; }
 .person-card .card-chinese { display: inline; color: #53657b; font-weight: 700; }
 .person-card em { font-size: 8px; color: #7a8798; font-style: normal; }
+.person-card .card-evidence { display: block; margin-top: 7px; color: #596b80; font: 700 7px var(--font-space), sans-serif; letter-spacing: .02em; }
 .person-card b { font-size: 11px; }
 .directory-empty { min-height: 300px; display: grid; place-items: center; color: var(--muted); font-size: 12px; }
 .evidence-list { padding: 20px 24px; border-right: 1px solid var(--line); }
