@@ -13,10 +13,11 @@ const focusLabels: Record<FocusFilter, string> = { all: "全部当前 PI", core:
 const institutionColors: Record<Person["institution"], string> = {
   NUS: "#275ee6", NTU: "#f16f51", SUTD: "#d99f00", SMU: "#8a5bdb", "A*STAR": "#07a383",
   HKU: "#8f1d2c", HKUST: "#007c8a", CUHK: "#6f3aa8", CityU: "#cf4e20", PolyU: "#a32638", HKBU: "#1f6b52", External: "#8390a5",
+  THU: "#7b2431", PKU: "#a33a4a", FDU: "#244c8f", RUC: "#76509b", HIT: "#0b668d", "CAS-IA": "#28726f", NJU: "#6653a2", SJTU: "#a52e2e",
 };
 const relationColors: Record<Relationship["type"], string> = { lineage: "#275ee6", collaboration: "#f16f51", industry: "#07a383", talent: "#8a5bdb" };
-const placementKindLabels = { current: "当前任职", first_job: "毕业去向", founder: "创业", reported: "组页记录" } as const;
-const regionLabels: Record<Region, string> = { Singapore: "新加坡", "Hong Kong": "香港" };
+const placementKindLabels = { current: "当前任职", first_job: "毕业去向", founder: "创业", reported: "组页记录", internship: "产业实习" } as const;
+const regionLabels: Record<Region, string> = { Singapore: "新加坡", "Hong Kong": "香港", "Mainland China": "中国大陆" };
 
 const graphZones: Record<Region, { institution: string; note: string; className: string }[]> = {
   Singapore: [
@@ -34,6 +35,16 @@ const graphZones: Record<Region, { institution: string; note: string; className:
     { institution: "PolyU", note: "5 core + 2 adjacent", className: "zone-polyu" },
     { institution: "HKBU", note: "2 core + 2 adjacent", className: "zone-hkbu" },
   ],
+  "Mainland China": [
+    { institution: "THU", note: "5 core PI", className: "zone-thu" },
+    { institution: "PKU", note: "6 core PI", className: "zone-pku" },
+    { institution: "FDU", note: "7 core PI", className: "zone-fdu" },
+    { institution: "RUC", note: "6 core PI", className: "zone-ruc" },
+    { institution: "HIT", note: "6 core PI", className: "zone-hit" },
+    { institution: "CAS-IA", note: "6 core PI", className: "zone-casia" },
+    { institution: "NJU", note: "6 core PI", className: "zone-nju" },
+    { institution: "SJTU", note: "4 core + 2 adjacent", className: "zone-sjtu" },
+  ],
 };
 
 function RelationChip({ type }: { type: Relationship["type"] }) {
@@ -45,14 +56,14 @@ function initials(name: string) {
 }
 
 export default function AcademicAtlas() {
-  const [region, setRegion] = useState<Region>("Hong Kong");
+  const [region, setRegion] = useState<Region>("Mainland China");
   const [edgeFilter, setEdgeFilter] = useState<EdgeFilter>("all");
   const [institution, setInstitution] = useState<InstitutionFilter>("All");
   const [focus, setFocus] = useState<FocusFilter>("all");
   const [query, setQuery] = useState("");
-  const [selectedId, setSelectedId] = useState("lingpeng-kong");
+  const [selectedId, setSelectedId] = useState("maosong-sun");
   const [graphFocusId, setGraphFocusId] = useState<string | null>(null);
-  const [selectedCompany, setSelectedCompany] = useState("Salesforce");
+  const [selectedCompany, setSelectedCompany] = useState("Huawei");
   const [view, setView] = useState<"graph" | "people" | "evidence">("people");
 
   const regionPeople = useMemo(() => people.filter((person) => regionOf(person) === region), [region]);
@@ -109,13 +120,14 @@ export default function AcademicAtlas() {
   const regionalCoverage = coverage.filter((row) => row.region === region);
   const regionalCommunities = communities.filter((community) => community.region === region);
   const regionalPathways = industryPathways.filter((pathway) => pathway.region === region);
+  const graphHeight = region === "Mainland China" ? 1080 : 910;
 
   function changeRegion(nextRegion: Region) {
     setRegion(nextRegion);
     setInstitution("All");
     setQuery("");
     setGraphFocusId(null);
-    setSelectedId(nextRegion === "Hong Kong" ? "lingpeng-kong" : "wei-lu");
+    setSelectedId(nextRegion === "Hong Kong" ? "lingpeng-kong" : nextRegion === "Singapore" ? "wei-lu" : "maosong-sun");
   }
 
   return (
@@ -129,7 +141,7 @@ export default function AcademicAtlas() {
       <section className="hero" id="top">
         <div className="hero-copy">
           <div className="region-switch" role="tablist" aria-label="地区切换">
-            {(["Hong Kong", "Singapore"] as Region[]).map((item) => <button key={item} className={region === item ? "active" : ""} onClick={() => changeRegion(item)}>{regionLabels[item]}<small>{item}</small></button>)}
+            {(["Mainland China", "Hong Kong", "Singapore"] as Region[]).map((item) => <button key={item} className={region === item ? "active" : ""} onClick={() => changeRegion(item)}>{regionLabels[item]}<small>{item}</small></button>)}
           </div>
           <p className="eyebrow">Roster first · evidence linked · scope explicit</p>
           <h1>梳理学术脉络，<br />连接人才流向。</h1>
@@ -170,11 +182,11 @@ export default function AcademicAtlas() {
           <div className="atlas-content">
             {view === "graph" && (
               <div className="graph-scroll">
-                <div className="graph-canvas" aria-label="学者关系网络">
+                <div className="graph-canvas" style={{ height: graphHeight }} aria-label="学者关系网络">
                   <button className="graph-reset-surface" aria-label="显示全部人物关系" onClick={() => setGraphFocusId(null)} />
                   <div className="graph-instruction"><span>点击人物聚焦关系 · 点击空白恢复全图</span>{activeGraphFocusId && <button onClick={() => setGraphFocusId(null)}>显示全部</button>}</div>
                   {graphZones[region].map((zone) => <div className={`institution-zone ${zone.className}`} key={zone.institution}><b>{zone.institution}</b><span>{zone.note}</span></div>)}
-                  <svg className="edge-layer" viewBox="0 0 1180 910" aria-hidden="true">
+                  <svg className="edge-layer" viewBox={`0 0 1180 ${graphHeight}`} aria-hidden="true">
                     {visibleRelations.filter((r) => r.from !== r.to).map((relation) => {
                       const from = people.find((p) => p.id === relation.from)!;
                       const to = people.find((p) => p.id === relation.to)!;
@@ -189,7 +201,7 @@ export default function AcademicAtlas() {
                   ))}
                   {visibleRelations.filter((r) => r.from === r.to).map((r, index) => {
                     const owner = people.find((p) => p.id === r.from)!;
-                    return <button key={r.id} className={`self-relation-badge badge-${r.type} ${activeGraphFocusId && activeGraphFocusId !== owner.id ? "dimmed" : ""}`} style={{ left: owner.x + 28, top: owner.y + 35 + (index % 2) * 15 }} onClick={(event) => { event.stopPropagation(); setSelectedId(owner.id); setGraphFocusId((current) => current === owner.id ? null : owner.id); }}>↗ {r.label}</button>;
+                    return <button key={r.id} className={`self-relation-badge badge-${r.type} ${activeGraphFocusId && activeGraphFocusId !== owner.id ? "dimmed" : ""}`} style={{ left: owner.x + 62, top: owner.y + 22 + (index % 2) * 13 }} onClick={(event) => { event.stopPropagation(); setSelectedId(owner.id); setGraphFocusId((current) => current === owner.id ? null : owner.id); }}>↗ {r.label}</button>;
                   })}
                   {visiblePeople.length === 0 && <div className="empty-state">没有匹配结果。试试清除筛选条件。</div>}
                 </div>
@@ -255,7 +267,7 @@ export default function AcademicAtlas() {
       </section>
 
       <section className="coverage-section" id="coverage">
-        <div className="section-heading"><div><p className="section-index">02 / COVERAGE AUDIT</p><h2>覆盖多少，也写清楚。</h2></div><p>“完整”取决于边界。当前核心口径是：{regionLabels[region]}现任、可独立招生或领导研究组，且官方研究描述明确包含 NLP、LLM、语言/语音或多模态语言。</p></div>
+        <div className="section-heading"><div><p className="section-index">02 / COVERAGE AUDIT</p><h2>覆盖多少，也写清楚。</h2></div><p>“完整”取决于边界。当前核心口径是：{regionLabels[region]}现任、可独立招生或领导研究组，且官方研究描述明确包含 NLP、LLM、语言/语音或多模态语言。{region === "Mainland China" && " 大陆第一期先审计 8 个主要研究中心，不把首批名单表述为全国完整名录。"}</p></div>
         <div className="coverage-table">
           <div className="coverage-head"><span>机构</span><span>核心 NLP / LLM</span><span>相邻层</span><span>本轮覆盖说明</span></div>
           {regionalCoverage.map((row) => <div className="coverage-row" key={row.institution}><strong>{row.institution}</strong><span>{row.core}</span><span>{row.adjacent}</span><p>{row.note}</p></div>)}

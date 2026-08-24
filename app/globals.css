@@ -146,7 +146,15 @@ button { color: inherit; }
 .zone-cityu { left: 35px; top: 515px; width: 315px; height: 370px; color: #cf4e20; background: rgba(207,78,32,.025); }
 .zone-polyu { left: 365px; top: 515px; width: 505px; height: 370px; color: #a32638; background: rgba(163,38,56,.025); }
 .zone-hkbu { left: 885px; top: 515px; width: 255px; height: 370px; color: #1f6b52; background: rgba(31,107,82,.025); }
-.edge-layer { position: absolute; inset: 0; width: 1180px; height: 910px; z-index: 1; pointer-events: none; }
+.zone-thu { left: 20px; top: 88px; width: 270px; height: 430px; color: #7b2431; background: rgba(123,36,49,.025); }
+.zone-pku { left: 310px; top: 88px; width: 270px; height: 430px; color: #a33a4a; background: rgba(163,58,74,.025); }
+.zone-fdu { left: 600px; top: 88px; width: 270px; height: 430px; color: #244c8f; background: rgba(36,76,143,.025); }
+.zone-ruc { left: 890px; top: 88px; width: 270px; height: 430px; color: #76509b; background: rgba(118,80,155,.025); }
+.zone-hit { left: 20px; top: 608px; width: 270px; height: 430px; color: #0b668d; background: rgba(11,102,141,.025); }
+.zone-casia { left: 310px; top: 608px; width: 270px; height: 430px; color: #28726f; background: rgba(40,114,111,.025); }
+.zone-nju { left: 600px; top: 608px; width: 270px; height: 430px; color: #6653a2; background: rgba(102,83,162,.025); }
+.zone-sjtu { left: 890px; top: 608px; width: 270px; height: 430px; color: #a52e2e; background: rgba(165,46,46,.025); }
+.edge-layer { position: absolute; inset: 0; width: 1180px; height: 100%; z-index: 1; pointer-events: none; }
 .graph-line { position: absolute; height: 0; border-top: 2px solid; transform-origin: 0 0; z-index: 1; opacity: .75; }
 .graph-line::after { content: ""; position: absolute; right: -1px; top: -4px; width: 7px; height: 7px; border-top: 2px solid; border-right: 2px solid; transform: rotate(45deg); }
 .line-lineage { border-color: var(--cobalt); }

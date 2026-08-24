@@ -1,11 +1,13 @@
+import { mainlandCommunities, mainlandCoverage, mainlandGroupMembers, mainlandIndustryPathways, mainlandPeople, mainlandRelationships, mainlandStudentPlacements } from "./mainland-data";
+
 export type Source = {
   label: string;
   url: string;
   kind: "official" | "cv" | "thesis" | "profile";
 };
 
-export type Region = "Singapore" | "Hong Kong";
-export type Institution = "NUS" | "NTU" | "SUTD" | "SMU" | "A*STAR" | "HKU" | "HKUST" | "CUHK" | "CityU" | "PolyU" | "HKBU" | "External";
+export type Region = "Singapore" | "Hong Kong" | "Mainland China";
+export type Institution = "NUS" | "NTU" | "SUTD" | "SMU" | "A*STAR" | "HKU" | "HKUST" | "CUHK" | "CityU" | "PolyU" | "HKBU" | "THU" | "PKU" | "FDU" | "RUC" | "HIT" | "CAS-IA" | "NJU" | "SJTU" | "External";
 export type Stage = "senior" | "emerging" | "institute" | "adjacent" | "historical";
 export type Category = "core" | "adjacent" | "historical";
 
@@ -41,6 +43,7 @@ export type IndustryPathway = {
 export const regionalInstitutions: Record<Region, Institution[]> = {
   Singapore: ["NUS", "NTU", "SUTD", "SMU", "A*STAR"],
   "Hong Kong": ["HKU", "HKUST", "CUHK", "CityU", "PolyU", "HKBU"],
+  "Mainland China": ["THU", "PKU", "FDU", "RUC", "HIT", "CAS-IA", "NJU", "SJTU"],
 };
 
 export function regionOf(person: Person): Region {
@@ -65,7 +68,7 @@ export type StudentPlacement = {
   company: string;
   department?: string;
   role: string;
-  kind: "current" | "first_job" | "founder" | "reported";
+  kind: "current" | "first_job" | "founder" | "reported" | "internship";
   highLevel?: boolean;
   note?: string;
   source: Source;
@@ -563,6 +566,7 @@ export const people: Person[] = [
   { id: "chris-dyer", name: "Chris Dyer", role: "Professor", institution: "External", region: "Hong Kong", area: "Natural Language Processing", tags: ["博士导师", "CMU"], stage: "historical", category: "historical", summary: "Lingpeng Kong 的共同博士导师。", sources: [{ label: "HKU LawTech Profile", url: "https://www.lawtech.hku.hk/people/lingpeng-kong/", kind: "official" }], x: 330, y: 45 },
   { id: "dragomir-radev", name: "Dragomir Radev", role: "Professor (1968–2023)", institution: "External", region: "Hong Kong", area: "Natural Language Processing", tags: ["博士导师", "Yale"], stage: "historical", category: "historical", summary: "Tao Yu 的博士导师。", sources: [{ label: "Tao Yu 个人主页", url: "https://taoyds.github.io/", kind: "profile" }], x: 550, y: 45 },
   { id: "taylor-berg-kirkpatrick", name: "Taylor Berg-Kirkpatrick", role: "Associate Professor", institution: "External", region: "Hong Kong", area: "Natural Language Processing", tags: ["博士导师", "UC San Diego"], stage: "historical", category: "historical", summary: "CMU LTI alumni 记录的 Junxian He 博士导师。", sources: [{ label: "CMU LTI Alumni", url: "https://www.lti.cs.cmu.edu/people/alumni/alumni-2022/he-junxian.html", kind: "official" }], x: 790, y: 45 },
+  ...mainlandPeople,
 ];
 
 export const relationships: Relationship[] = [
@@ -619,6 +623,7 @@ export const relationships: Relationship[] = [
   { id: "ning-bytedance", from: "ning-miao", to: "ning-miao", type: "industry", label: "ByteDance AI Lab 前研究员", evidence: "Ning Miao 个人主页记录其加入 CityU 前曾在 ByteDance AI Lab 任研究员。", source: { label: "Ning Miao 主页", url: "https://www.ningmiao.space/", kind: "profile" }, verified: true },
   { id: "gang-industry", from: "gang-liu-cityu", to: "gang-liu-cityu", type: "industry", label: "Amazon / MIT–IBM Watson / IBM Fellowship", evidence: "Gang Liu 主页记录 Amazon Applied Scientist 实习、Broad Institute 与 MIT–IBM Watson AI Lab 研究实习，以及 IBM PhD Fellowship。", source: { label: "Gang Liu 主页", url: "https://liugangcode.github.io/", kind: "profile" }, verified: true },
   { id: "guo-google", from: "jianyuan-guo", to: "jianyuan-guo", type: "industry", label: "Google PhD Fellowship · 2022", evidence: "CityU PAPS 简介与个人主页均记录 Jianyuan Guo 获 2022 Google PhD Fellowship。", source: { label: "CityU PAPS", url: "https://www.cityu.edu.hk/vpti/presidential-assistant-professors-scheme/paps", kind: "official" }, verified: true },
+  ...mainlandRelationships,
 ];
 
 export const coverage = [
@@ -633,6 +638,7 @@ export const coverage = [
   { region: "Hong Kong" as Region, institution: "CityU", core: 5, adjacent: 3, note: "包含 2025–2026 新引进的 Zhisong Zhang、Gang Liu、Ning Miao 与高效多模态 / LLM 系统相邻层" },
   { region: "Hong Kong" as Region, institution: "PolyU", core: 5, adjacent: 2, note: "传统 NLP、具身语言、生成式 AI 与新引进产业型讲席教授并存" },
   { region: "Hong Kong" as Region, institution: "HKBU", core: 2, adjacent: 2, note: "事实核查与知识增强 LLM 为核心；可信基础模型与视觉语言单列相邻层" },
+  ...mainlandCoverage,
 ];
 
 export const communities = [
@@ -644,6 +650,7 @@ export const communities = [
   { region: "Hong Kong" as Region, kicker: "跨地区导师谱系", name: "CUHK NLP & IR Lineage", anchor: "Wai Lam · Kam-Fai Wong · Xixin Wu", description: "资深中文 NLP / IR 主线向香港本地与新加坡独立 PI 扩散，并连接事实核查与对话研究。", color: "lime" },
   { region: "Hong Kong" as Region, kicker: "新生代独立组", name: "HKU + CityU LLM Labs", anchor: "Tao Yu · Qi Liu · Zhisong Zhang · Ning Miao", description: "围绕推理、智能体、长上下文、对话式数据接口和语言模型机制形成的新增长层。", color: "coral" },
   { region: "Hong Kong" as Region, kicker: "产业回流型集群", name: "PolyU Generative AI & Systems", anchor: "Hongxia Yang · Liangliang Cao · Qiang Yang · Jing Li", description: "IBM、Microsoft、Google、Apple、Alibaba、ByteDance、Tencent 与 WeBank 的研究履历回流到高校。", color: "violet" },
+  ...mainlandCommunities,
 ];
 
 export const industryPathways: IndustryPathway[] = [
@@ -660,6 +667,7 @@ export const industryPathways: IndustryPathway[] = [
   { id: "hk-ning", region: "Hong Kong", kind: "PRIOR INDUSTRY RESEARCH", title: "Ning Miao（苗寧）↔ ByteDance AI Lab", description: "个人主页记录其曾任 ByteDance AI Lab 研究员；当前 Miaow Lab 聚焦 LLM reasoning、AI4Math 与生成模型。", source: { label: "Ning Miao 主页", url: "https://www.ningmiao.space/", kind: "profile" } },
   { id: "hk-gang", region: "Hong Kong", kind: "INDUSTRY + RESEARCH FUNDING", title: "Gang Liu（劉罡）↔ Amazon / MIT–IBM Watson / IBM", description: "其公开履历列出 Amazon Applied Scientist 实习、Broad Institute 与 MIT–IBM Watson AI Lab 研究实习，以及 IBM PhD Fellowship。", source: { label: "Gang Liu 主页", url: "https://liugangcode.github.io/", kind: "profile" } },
   { id: "hk-guo", region: "Hong Kong", kind: "INDUSTRY FELLOWSHIP", title: "Jianyuan Guo（郭健元）↔ Google", description: "CityU PAPS 官方简介记录其获得 2022 Google PhD Fellowship；该项为研究资助关系，不表示 Google 雇佣经历。", source: { label: "CityU PAPS", url: "https://www.cityu.edu.hk/vpti/presidential-assistant-professors-scheme/paps", kind: "official" } },
+  ...mainlandIndustryPathways,
 ];
 
 const nusNlpAlumni: Source = { label: "NUS NLP Group alumni", url: "https://www.comp.nus.edu.sg/~nlp/people.html", kind: "official" };
@@ -680,6 +688,7 @@ export const groupMembers: GroupMember[] = [
   { id: "miaow-xuan", teacherId: "ning-miao", name: "Xuan Yang", role: "PhD Student", focus: "Reasoning interpretability", source: miaowMembers },
   { id: "miaow-yuxian", teacherId: "ning-miao", name: "Yuxian Jiang", role: "PhD Student", source: miaowMembers },
   { id: "miaow-ruizhi", teacherId: "ning-miao", name: "Ruizhi Zhao", role: "Engineer", source: miaowMembers },
+  ...mainlandGroupMembers,
 ];
 
 export const studentPlacements: StudentPlacement[] = [
@@ -730,4 +739,5 @@ export const studentPlacements: StudentPlacement[] = [
   { id: "wenjie-wang-tencent", student: "Wei Wang", teacherId: "wenjie-li", company: "Tencent", role: "Researcher", kind: "reported", source: wenjieStudents },
   { id: "wenjie-ye-baidu", student: "Wen Ye", teacherId: "wenjie-li", company: "Baidu", role: "Researcher", kind: "reported", source: wenjieStudents },
   { id: "wenjie-zhang-baidu", student: "Ji Zhang", teacherId: "wenjie-li", company: "Baidu", role: "Researcher", kind: "reported", source: wenjieStudents },
+  ...mainlandStudentPlacements,
 ];
