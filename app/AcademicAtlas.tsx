@@ -190,7 +190,7 @@ export default function AcademicAtlas() {
       <section className="hero" id="top">
         <picture className="hero-visual">
           <source media="(max-width: 760px)" srcSet="atlas-hero-portrait.png" />
-          <img src="atlas-hero-landscape.png" alt="学脉 Atlas：连接中国大陆、香港、新加坡与美国的 AI、NLP、LLM 学术关系图谱" />
+          <img src="atlas-hero-natural.png" alt="学脉 Atlas：连接中国大陆、香港、新加坡与美国的 AI、NLP、LLM 学术关系图谱" />
         </picture>
         <div className="sr-only">
           <h1>梳理学术脉络，连接人才流向。</h1>
