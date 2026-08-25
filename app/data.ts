@@ -153,7 +153,23 @@ const basePeople: Person[] = [
     sources: [
       { label: "NUS Faculty Profile", url: "https://www.comp.nus.edu.sg/cs/people/youy/", kind: "official" },
       { label: "Google Research Award", url: "https://www.comp.nus.edu.sg/bytes/nus-presidential-young-professor-yang-you-wins-google-research-award-to-build-foundations-for-next-generation-ai/", kind: "official" },
-    ], x: 215, y: 515, primary: true,
+    ], x: 130, y: 515, primary: true,
+  },
+  {
+    id: "bryan-hooi", name: "Bryan Hooi", role: "Assistant Professor · School of Computing & Institute of Data Science", institution: "NUS",
+    area: "Trustworthy AI · Graph ML · LLM/VLM Safety", tags: ["可信 AI", "图机器学习", "LLM / VLM Safety", "AI Agents", "异常检测"], stage: "adjacent", category: "adjacent",
+    summary: "NUS 计算机学院与数据科学研究院独立 PI。传统主线是图机器学习、异常检测与可信机器学习，近年持续研究 LLM/VLM 的事实性、置信度、幻觉与安全，以及 LLM agents 和图基础模型；因此列入 AI/ML 相邻层，而非传统核心 NLP。",
+    facts: [
+      { label: "博士师承", value: "CMU Machine Learning PhD · Christos Faloutsos", source: { label: "Bryan Hooi 主页", url: "https://bhooi.github.io/", kind: "profile" } },
+      { label: "当前任职", value: "NUS School of Computing + Institute of Data Science", source: { label: "Bryan Hooi 主页", url: "https://bhooi.github.io/", kind: "profile" } },
+      { label: "官方研究领域", value: "Artificial Intelligence · Database", source: { label: "NUS Faculty Profile", url: "https://www.comp.nus.edu.sg/cs/people/bhooi/", kind: "official" } },
+      { label: "近年语言模型方向", value: "LLM/VLM reliability, safety, agents and graph foundation models", source: { label: "Bryan Hooi publications", url: "https://bhooi.github.io/", kind: "profile" } },
+    ],
+    sources: [
+      { label: "NUS Faculty Profile", url: "https://www.comp.nus.edu.sg/cs/people/bhooi/", kind: "official" },
+      { label: "Bryan Hooi 个人主页", url: "https://bhooi.github.io/", kind: "profile" },
+      { label: "NUS AI Lab People", url: "https://nusail.comp.nus.edu.sg/people/index.html", kind: "official" },
+    ], x: 305, y: 515, primary: true,
   },
 
   {
@@ -559,6 +575,7 @@ const basePeople: Person[] = [
   { id: "victor-lesser", name: "Victor Lesser", role: "Distinguished Professor Emeritus", institution: "External", area: "Multi-agent Systems", tags: ["博士导师", "UMass Amherst", "AAAI Founding Fellow"], stage: "historical", category: "historical", summary: "Bo An 的博士导师，多智能体系统领域先驱、UMass Amherst Multi-Agent Systems Laboratory 创始主任。", sources: [{ label: "UMass Multi-Agent Systems Lab", url: "https://mas.cs.umass.edu/lesser.html", kind: "official" }], x: 405, y: 40 },
   { id: "sinno-pan", name: "Sinno Jialin Pan", role: "Professor", institution: "External", area: "Machine Learning", tags: ["导师"], stage: "historical", category: "historical", summary: "Wenya Wang 公开主页列出的博士导师。", sources: [{ label: "Wenya Wang 主页", url: "https://personal.ntu.edu.sg/wangwy/", kind: "official" }], x: 575, y: 40 },
   { id: "milind-tambe", name: "Milind Tambe", role: "Gordon McKay Professor · Google DeepMind", institution: "External", area: "Multi-agent Systems · AI for Social Good", tags: ["博士后合作", "Harvard", "Google DeepMind"], stage: "historical", category: "historical", summary: "Bo An 在 USC 博士后阶段的合作导师；现任 Harvard 教授及 Google DeepMind AI for Social Good 负责人。", sources: [{ label: "Google DeepMind Profile", url: "https://research.google/people/milindtambe/", kind: "official" }, { label: "Harvard Faculty Profile", url: "https://seas.harvard.edu/person/milind-tambe", kind: "official" }], x: 770, y: 40 },
+  { id: "christos-faloutsos", name: "Christos Faloutsos", role: "Professor", institution: "External", area: "Graph Mining · Anomaly Detection", tags: ["博士导师", "CMU", "图挖掘"], stage: "historical", category: "historical", summary: "Bryan Hooi 在 Carnegie Mellon University 的机器学习博士导师。", sources: [{ label: "Bryan Hooi 个人主页", url: "https://bhooi.github.io/", kind: "profile" }], x: 970, y: 40 },
   {
     id: "wai-lam", name: "Wai Lam", chinese: "林偉", role: "Professor", institution: "CUHK", region: "Hong Kong",
     area: "NLP · Text Mining · Information Retrieval", tags: ["NLP", "文本挖掘", "IR", "导师谱系"], stage: "senior", category: "core",
@@ -597,6 +614,7 @@ export const relationships: Relationship[] = [
   { id: "pan-wang", from: "sinno-pan", to: "wenya-wang", type: "lineage", label: "博士导师", evidence: "Wenya Wang 主页明确写明其博士阶段由 Sinno Jialin Pan 指导。", source: { label: "Wenya Wang 主页", url: "https://personal.ntu.edu.sg/wangwy/", kind: "official" }, verified: true },
   { id: "lesser-an", from: "victor-lesser", to: "bo-an", type: "lineage", label: "博士导师", evidence: "Bo An 的个人主页与学术履历均列 Victor Lesser 为其 UMass Amherst 博士导师。", source: { label: "Bo An 学术履历", url: "https://personal.ntu.edu.sg/boan/CV-BOAN.pdf", kind: "cv" }, verified: true },
   { id: "tambe-an", from: "milind-tambe", to: "bo-an", type: "talent", label: "博士后合作 / USC", evidence: "Bo An 官方主页记录其 2010–2012 年在 USC 与 Milind Tambe 开展博士后研究。", source: { label: "Bo An 个人主页", url: "https://personal.ntu.edu.sg/boan/", kind: "official" }, verified: true },
+  { id: "faloutsos-hooi", from: "christos-faloutsos", to: "bryan-hooi", type: "lineage", label: "博士导师", evidence: "Bryan Hooi 个人主页明确写明其 CMU Machine Learning 博士由 Christos Faloutsos 指导。", source: { label: "Bryan Hooi 个人主页", url: "https://bhooi.github.io/", kind: "profile" }, verified: true },
   { id: "smith-kong", from: "noah-smith", to: "lingpeng-kong", type: "lineage", label: "共同博士导师", evidence: "HKU 官方关联简介写明 Lingpeng Kong 的 CMU 博士由 Noah Smith 与 Chris Dyer 共同指导。", source: { label: "HKU LawTech Profile", url: "https://www.lawtech.hku.hk/people/lingpeng-kong/", kind: "official" }, verified: true },
   { id: "dyer-kong", from: "chris-dyer", to: "lingpeng-kong", type: "lineage", label: "共同博士导师", evidence: "HKU 官方关联简介写明 Lingpeng Kong 的 CMU 博士由 Noah Smith 与 Chris Dyer 共同指导。", source: { label: "HKU LawTech Profile", url: "https://www.lawtech.hku.hk/people/lingpeng-kong/", kind: "official" }, verified: true },
   { id: "radev-yu", from: "dragomir-radev", to: "tao-yu", type: "lineage", label: "博士导师", evidence: "Tao Yu 公开主页写明其 Yale 博士导师为 Dragomir Radev。", source: { label: "Tao Yu 个人主页", url: "https://taoyds.github.io/", kind: "profile" }, verified: true },
@@ -612,6 +630,9 @@ export const relationships: Relationship[] = [
   { id: "deng-zhang", from: "yang-deng", to: "wenxuan-zhang", type: "collaboration", label: "LLM knowledge boundary 合作", evidence: "两人共同参与 LLM knowledge boundary 综述与教程，也连接 SMU 与 SUTD 的新生代 NLP 群体。", source: { label: "公开综述", url: "https://dengyang17.github.io/files/arxiv_Knowledge_Boundary_Survey.pdf", kind: "profile" }, verified: true },
   { id: "joty-chen", from: "shafiq-joty", to: "nancy-chen", type: "collaboration", label: "EMNLP 2024 合作", evidence: "NTU 公告记录 Shafiq Joty、Nancy Chen 等人的共同论文获 EMNLP 2024 Outstanding Paper。", source: { label: "NTU 公告", url: "https://www.ntu.edu.sg/computing/news-events/news/detail/the-2024-conference-on-empirical-methods-in-natural-language-processing", kind: "official" }, verified: true },
   { id: "joty-sun", from: "shafiq-joty", to: "aixin-sun", type: "collaboration", label: "共同指导", evidence: "NTU 公告记录两人与 Nancy Chen 共同指导摘要生成方向博士生。", source: { label: "NTU SDSC Fellowship", url: "https://www.ntu.edu.sg/computing/news-events/news/detail/phd-student-awarded-a-sdsc-dissertation-research-fellowship-2022", kind: "official" }, verified: true },
+  { id: "hooi-kan", from: "bryan-hooi", to: "min-yen-kan", type: "collaboration", label: "多模态虚假信息研究合作", evidence: "Bryan Hooi 的公开论文列表记录两人共同署名 ICLR 2026 的多模态误导意图识别工作。", source: { label: "Bryan Hooi publications", url: "https://bhooi.github.io/", kind: "profile" }, verified: true },
+  { id: "hooi-luu", from: "bryan-hooi", to: "anh-tuan-luu", type: "collaboration", label: "LLM 推理与长上下文合作", evidence: "公开论文列表记录两人共同参与 NeurIPS 2024 的不确定性感知规划与 ACL 2025 的长上下文泛化研究。", source: { label: "Bryan Hooi publications", url: "https://bhooi.github.io/", kind: "profile" }, verified: true },
+  { id: "hooi-kawaguchi", from: "bryan-hooi", to: "kenji-kawaguchi", type: "collaboration", label: "图机器学习合作", evidence: "Bryan Hooi 的公开论文列表记录两人共同署名 ICLR 2024 与 NeurIPS 2022 的图神经网络工作。", source: { label: "Bryan Hooi publications", url: "https://bhooi.github.io/", kind: "profile" }, verified: true },
   { id: "fung-dekai", from: "pascale-fung", to: "de-kai", type: "collaboration", label: "HKUST Human Language Technology 合作", evidence: "HKUST HLTC 官方页面将 Pascale Fung 与 De Kai 列为中心核心 faculty，并保留两人长期共同论文记录。", source: { label: "HKUST HLTC People", url: "https://cse.hkust.edu.hk/~hltc/people.html", kind: "official" }, verified: true },
   { id: "zhisong-lam", from: "zhisong-zhang", to: "wai-lam", type: "collaboration", label: "长上下文压缩 / 模型编辑合作", evidence: "Zhisong Zhang 的研究页列出与 Wai Lam 共同指导和署名的 InComeS 长上下文压缩与模型编辑工作。", source: { label: "Zhisong Zhang Research", url: "https://zzsfornlp.github.io/research", kind: "profile" }, verified: true },
 
@@ -649,7 +670,7 @@ export const relationships: Relationship[] = [
 ];
 
 export const coverage = [
-  { region: "Singapore" as Region, institution: "NUS", core: 4, adjacent: 3, note: "传统 NLP + 多模态/检索；另列 3 位 LLM 理论与系统相邻 PI" },
+  { region: "Singapore" as Region, institution: "NUS", core: 4, adjacent: 4, note: "传统 NLP + 多模态/检索；另列 4 位可信 AI、LLM 理论与系统相邻 PI" },
   { region: "Singapore" as Region, institution: "NTU", core: 7, adjacent: 1, note: "含 2025 年转入的 Wei Lu、Soujanya Poria；Shafiq Joty 为 on leave 状态" },
   { region: "Singapore" as Region, institution: "SUTD", core: 1, adjacent: 0, note: "当前核心名录为 Wenxuan Zhang；Wei Lu、Soujanya Poria 已转任 NTU" },
   { region: "Singapore" as Region, institution: "SMU", core: 2, adjacent: 0, note: "当前独立 PI；Jing Jiang 另列为历史/跨地区节点" },
@@ -666,7 +687,7 @@ export const coverage = [
 ];
 
 export const communities = [
-  { region: "Singapore" as Region, kicker: "成熟谱系", name: "NUS Language & Multimodal", anchor: "Hwee Tou Ng · Min-Yen Kan · Tat-Seng Chua", description: "传统 NLP、检索与多模态基础模型并存，并形成跨 NUS、NTU、SUTD 与 SMU 的人才联系。", color: "cobalt" },
+  { region: "Singapore" as Region, kicker: "成熟谱系与交叉方向", name: "NUS Language, Multimodal & Trustworthy AI", anchor: "Hwee Tou Ng · Min-Yen Kan · Tat-Seng Chua · Bryan Hooi", description: "传统 NLP、检索、多模态基础模型与可信 AI 并存，并形成跨 NUS、NTU、SUTD 与 SMU 的师承及合作联系。", color: "cobalt" },
   { region: "Singapore" as Region, kicker: "新生代独立组", name: "SUTD iNLP Lab", anchor: "Wenxuan Zhang", description: "聚焦多语言、多模态、Audio-Language 与 LLM Agents；曾任 Alibaba Singapore 研究科学家。", color: "lime" },
   { region: "Singapore" as Region, kicker: "多中心生态", name: "NTU NLP & Generative AI", anchor: "Shafiq Joty · Wei Lu · Soujanya Poria · Anh Tuan Luu", description: "多语言、可信 LLM、推理与多模态对话；学生产业去向覆盖 Salesforce、Apple、腾讯、华为、阿里与字节。", color: "coral" },
   { region: "Singapore" as Region, kicker: "研究院转化", name: "A*STAR Language Intelligence", anchor: "Ai Ti Aw · Nancy Chen · Jian Su", description: "东南亚语言、语音对话、国家多模态 LLM 与大规模技术部署。", color: "violet" },
@@ -707,8 +728,20 @@ const songStudents: Source = { label: "Yangqiu Song students", url: "https://cse
 const wenjieStudents: Source = { label: "PolyU NLP Group members & alumni", url: "https://www4.comp.polyu.edu.hk/~cswjli/Group.html", kind: "profile" };
 
 const miaowMembers: Source = { label: "Miaow Lab Team", url: "https://miaow-lab.github.io/team/", kind: "profile" };
+const hooiMembers: Source = { label: "Bryan Hooi students", url: "https://bhooi.github.io/", kind: "profile" };
 
 export const groupMembers: GroupMember[] = [
+  { id: "hooi-zhiyuan-hu", teacherId: "bryan-hooi", name: "Zhiyuan Hu", role: "Student", focus: "Co-advised with See-Kiong Ng", source: hooiMembers },
+  { id: "hooi-sara-bakic", teacherId: "bryan-hooi", name: "Sara Bakić", role: "Student", focus: "Co-advised with Mile Šikić", source: hooiMembers },
+  { id: "hooi-ivona-martinovic", teacherId: "bryan-hooi", name: "Ivona Martinović", role: "Student", focus: "Co-advised with Mile Šikić", source: hooiMembers },
+  { id: "hooi-yufei-he", teacherId: "bryan-hooi", name: "Yufei He", role: "Student", source: hooiMembers },
+  { id: "hooi-yuan-sui", teacherId: "bryan-hooi", name: "Yuan Sui", role: "Student", source: hooiMembers },
+  { id: "hooi-yue-liu", teacherId: "bryan-hooi", name: "Yue Liu", role: "Student", focus: "Co-advised with Jiaheng Zhang", source: hooiMembers },
+  { id: "hooi-yulin-chen", teacherId: "bryan-hooi", name: "Yulin Chen", role: "Student", source: hooiMembers },
+  { id: "hooi-yuexin-li", teacherId: "bryan-hooi", name: "Yuexin Li", role: "Student", focus: "Co-advised with Jiaheng Zhang", source: hooiMembers },
+  { id: "hooi-tri-cao", teacherId: "bryan-hooi", name: "Tri Cao", role: "Student", focus: "Co-advised with Shuicheng Yan", source: hooiMembers },
+  { id: "hooi-yibo-li", teacherId: "bryan-hooi", name: "Yibo Li", role: "Student", source: hooiMembers },
+  { id: "hooi-shuo-ji", teacherId: "bryan-hooi", name: "Shuo Ji", role: "Student", source: hooiMembers },
   { id: "miaow-jiayu", teacherId: "ning-miao", name: "Jiayu Liu", role: "Research Assistant Professor", focus: "Machine reasoning", source: miaowMembers },
   { id: "miaow-yuhang", teacherId: "ning-miao", name: "Yuhang Lai", role: "PhD Student", focus: "AI4Math · LLM reasoning", source: miaowMembers },
   { id: "miaow-ningyuan", teacherId: "ning-miao", name: "Ningyuan Xi", role: "PhD Student", focus: "LLM reasoning", source: miaowMembers },

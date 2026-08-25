@@ -23,7 +23,7 @@ const regionLabels: Record<Region, string> = { Singapore: "新加坡", "Hong Kon
 
 const graphZones: Record<Region, { institution: string; note: string; className: string }[]> = {
   Singapore: [
-    { institution: "NUS", note: "7 current PI", className: "zone-nus" },
+    { institution: "NUS", note: "8 current PI", className: "zone-nus" },
     { institution: "NTU", note: "8 current PI", className: "zone-ntu" },
     { institution: "SUTD", note: "1 current PI", className: "zone-sutd" },
     { institution: "SMU", note: "2 current + 1 historical", className: "zone-smu" },
