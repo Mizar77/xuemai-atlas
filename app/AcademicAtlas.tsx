@@ -1,12 +1,27 @@
 "use client";
 
-import { useMemo, useState } from "react";
-import { communities, coverage, groupMembers, industryPathways, people, regionOf, regionalInstitutions, relationships, stageLabels, studentPlacements, type Person, type Region, type Relationship } from "./data";
+import { useEffect, useMemo, useRef, useState } from "react";
+import { communities, coverage, groupMembers, industryPathways, people, placementSectorLabels, placementSectorOf, regionOf, regionalInstitutions, relationships, relationshipSubtypeLabels, relationshipSubtypeOf, stageLabels, studentPlacements, type Person, type PlacementSector, type Region, type Relationship, type Source, type StudentPlacement } from "./data";
 import FeedbackDrawer from "./FeedbackDrawer";
+import VisitorMap from "./VisitorMap";
 
 type EdgeFilter = "all" | Relationship["type"];
 type InstitutionFilter = "All" | Person["institution"];
 type FocusFilter = "all" | "core" | "emerging" | "adjacent" | "historical";
+type AtlasView = "graph" | "people" | "evidence";
+type PlacementKindFilter = "all" | StudentPlacement["kind"];
+type PlacementSectorFilter = "all" | PlacementSector;
+type TimelineType = "appointment" | "collaboration" | "topic" | "talent";
+type TimelineFilter = "all" | TimelineType;
+type TimelineEvent = {
+  id: string;
+  type: TimelineType;
+  dateLabel: string;
+  sortYear: number;
+  title: string;
+  detail: string;
+  source: Source;
+};
 
 const edgeLabels: Record<EdgeFilter, string> = { all: "全部关系", lineage: "师承", collaboration: "合作", industry: "产业", talent: "人才流向" };
 const focusLabels: Record<FocusFilter, string> = { all: "全部当前 PI", core: "核心 NLP / LLM", emerging: "发展期独立 PI", adjacent: "AI / 系统相邻", historical: "历史节点" };
@@ -19,7 +34,18 @@ const institutionColors: Record<Person["institution"], string> = {
 };
 const relationColors: Record<Relationship["type"], string> = { lineage: "#275ee6", collaboration: "#f16f51", industry: "#07a383", talent: "#8a5bdb" };
 const placementKindLabels = { current: "当前任职", first_job: "毕业去向", founder: "创业", reported: "组页记录", internship: "产业实习" } as const;
+const timelineTypeLabels: Record<TimelineType, string> = { appointment: "人物任职", collaboration: "合作关系", topic: "研究方向", talent: "人才流动" };
 const regionLabels: Record<Region, string> = { Singapore: "新加坡", "Hong Kong": "香港", "Mainland China": "中国大陆", "United States": "美国" };
+const sourceKindLabels = { official: "官方", self_submitted: "本人 / 实验室提交", cv: "CV", thesis: "学位论文", profile: "个人主页", publication: "论文", company: "公司资料" } as const;
+const regionSlugs: Record<Region, string> = { Singapore: "singapore", "Hong Kong": "hong-kong", "Mainland China": "mainland", "United States": "us" };
+
+function regionFromSlug(value: string | null): Region | undefined {
+  return (Object.keys(regionSlugs) as Region[]).find((key) => regionSlugs[key] === value);
+}
+
+function normalizedTokens(value: string) {
+  return value.toLocaleLowerCase().split(/\s+/).map((token) => token.trim()).filter(Boolean);
+}
 
 const graphZones: Record<Region, { institution: string; note: string; className: string }[]> = {
   Singapore: [
@@ -80,6 +106,14 @@ function initials(name: string) {
   return name.split(" ").map((part) => part[0]).slice(0, 2).join("");
 }
 
+function PersonAvatar({ person, className, style }: { person: Person; className: string; style?: React.CSSProperties }) {
+  return <span className={`${className}${person.portrait ? " has-portrait" : ""}`} style={style} aria-hidden="true">
+    {/* Small local card portraits are already cropped and compressed; routing them through image optimization would add avoidable requests. */}
+    {/* eslint-disable-next-line @next/next/no-img-element */}
+    {person.portrait ? <img src={person.portrait.src} alt="" loading="lazy" decoding="async" /> : initials(primaryName(person))}
+  </span>;
+}
+
 function primaryName(person: Person) {
   return regionOf(person) === "Mainland China" && person.chinese ? person.chinese : person.name;
 }
@@ -106,6 +140,73 @@ function evidenceSummary(person: Person) {
   ].filter(Boolean).join(" · ");
 }
 
+function relationshipYears(relationship: Relationship) {
+  if (relationship.startYear && relationship.endYear) return `${relationship.startYear}–${relationship.endYear}`;
+  if (relationship.startYear) return `${relationship.startYear}–至今`;
+  if (relationship.recentYear) return `最近记录 ${relationship.recentYear}`;
+  const mentionedYears = Array.from(`${relationship.label} ${relationship.evidence}`.matchAll(/\b(?:19|20)\d{2}\b/g), (match) => Number(match[0]));
+  if (mentionedYears.length > 1) return `证据所述 ${Math.min(...mentionedYears)}–${Math.max(...mentionedYears)}`;
+  if (mentionedYears.length === 1) return `证据记录 ${mentionedYears[0]}`;
+  return "时间待补";
+}
+
+function yearsIn(value: string) {
+  return Array.from(value.matchAll(/\b(?:19|20)\d{2}\b/g), (match) => Number(match[0]));
+}
+
+function buildPersonTimeline(person: Person, personRelations: Relationship[], placements: StudentPlacement[]): TimelineEvent[] {
+  const fallbackSource = person.sources[0];
+  const events: TimelineEvent[] = [];
+
+  person.facts?.forEach((fact, index) => {
+    const content = `${fact.label} ${fact.value}`;
+    const years = yearsIn(content);
+    const isAppointment = /任职|职位|履历|加入|创办|创业|回到|调任|career|appointment|joined|found/i.test(content);
+    const isTopic = /研究主题|研究方向|方向变化|research (?:theme|focus|area)/i.test(content);
+    // A timeline should show dated development, not turn an undated current-profile
+    // statement into a synthetic snapshot event.
+    if ((!isAppointment && !isTopic) || years.length === 0) return;
+    events.push({
+      id: `${person.id}-fact-${index}`,
+      type: isTopic ? "topic" : "appointment",
+      dateLabel: years.length ? (years.length > 1 ? `${Math.min(...years)}–${Math.max(...years)}` : String(years[0])) : "时间待补",
+      sortYear: years.length ? Math.max(...years) : 0,
+      title: fact.label,
+      detail: fact.value,
+      source: fact.source ?? fallbackSource,
+    });
+  });
+
+  personRelations.forEach((relationship) => {
+    const counterpartId = relationship.from === person.id ? relationship.to : relationship.from;
+    const counterpart = people.find((candidate) => candidate.id === counterpartId);
+    const years = [relationship.startYear, relationship.endYear, relationship.recentYear].filter((year): year is number => Boolean(year));
+    events.push({
+      id: `timeline-${relationship.id}`,
+      type: "collaboration",
+      dateLabel: relationshipYears(relationship),
+      sortYear: years.length ? Math.max(...years) : Math.max(0, ...yearsIn(`${relationship.label} ${relationship.evidence}`)),
+      title: `${relationshipSubtypeLabels[relationshipSubtypeOf(relationship)]}${counterpart && counterpart.id !== person.id ? ` · ${displayName(counterpart)}` : ""}`,
+      detail: relationship.evidenceObject ?? relationship.evidence,
+      source: relationship.source,
+    });
+  });
+
+  placements.forEach((placement) => {
+    events.push({
+      id: `timeline-${placement.id}`,
+      type: "talent",
+      dateLabel: placement.graduationYear ? `${placement.graduationYear} 届` : "时间待补",
+      sortYear: placement.graduationYear ?? 0,
+      title: `${placement.student} → ${placement.company}`,
+      detail: `${placementSectorLabels[placementSectorOf(placement)]} · ${placementKindLabels[placement.kind]} · ${placement.role}`,
+      source: placement.source,
+    });
+  });
+
+  return events.sort((a, b) => b.sortYear - a.sortYear || a.title.localeCompare(b.title));
+}
+
 export default function AcademicAtlas() {
   const [region, setRegion] = useState<Region>("Mainland China");
   const [edgeFilter, setEdgeFilter] = useState<EdgeFilter>("all");
@@ -115,7 +216,65 @@ export default function AcademicAtlas() {
   const [selectedId, setSelectedId] = useState("maosong-sun");
   const [graphFocusId, setGraphFocusId] = useState<string | null>(null);
   const [selectedCompany, setSelectedCompany] = useState("Huawei");
-  const [view, setView] = useState<"graph" | "people" | "evidence">("people");
+  const [view, setView] = useState<AtlasView>("people");
+  const [timelineFilter, setTimelineFilter] = useState<TimelineFilter>("all");
+  const [companySector, setCompanySector] = useState<PlacementSectorFilter>("all");
+  const [companyKind, setCompanyKind] = useState<PlacementKindFilter>("all");
+  const [companyDepartment, setCompanyDepartment] = useState("all");
+  const [companyDegree, setCompanyDegree] = useState("all");
+  const [companyYear, setCompanyYear] = useState("all");
+  const [urlReady, setUrlReady] = useState(false);
+  const [copied, setCopied] = useState(false);
+  const searchInputRef = useRef<HTMLInputElement>(null);
+
+  useEffect(() => {
+    const applyUrlState = () => {
+      const params = new URLSearchParams(window.location.search);
+      const urlRegion = regionFromSlug(params.get("region"));
+      const person = people.find((candidate) => candidate.id === params.get("person"));
+      const urlView = params.get("view") as AtlasView | null;
+      const urlFocus = params.get("focus") as FocusFilter | null;
+      const urlEdge = params.get("relation") as EdgeFilter | null;
+      if (person) {
+        setSelectedId(person.id);
+        setRegion(regionOf(person));
+        if (urlView === "graph") setGraphFocusId(person.id);
+      } else if (urlRegion) {
+        setRegion(urlRegion);
+      }
+      if (urlView && ["graph", "people", "evidence"].includes(urlView)) setView(urlView);
+      if (urlFocus && Object.hasOwn(focusLabels, urlFocus)) setFocus(urlFocus);
+      if (urlEdge && Object.hasOwn(edgeLabels, urlEdge)) setEdgeFilter(urlEdge);
+      setQuery(params.get("q") ?? "");
+      setSelectedCompany(params.get("company") ?? selectedCompany);
+      setInstitution("All");
+    };
+    const initialSync = window.setTimeout(() => {
+      applyUrlState();
+      setUrlReady(true);
+    }, 0);
+    window.addEventListener("popstate", applyUrlState);
+    return () => {
+      window.clearTimeout(initialSync);
+      window.removeEventListener("popstate", applyUrlState);
+    };
+  // URL state is intentionally read only once and again on browser navigation.
+  // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, []);
+
+  useEffect(() => {
+    if (!urlReady) return;
+    const params = new URLSearchParams();
+    params.set("region", regionSlugs[region]);
+    params.set("view", view);
+    params.set("person", selectedId);
+    if (query) params.set("q", query);
+    if (focus !== "all") params.set("focus", focus);
+    if (edgeFilter !== "all") params.set("relation", edgeFilter);
+    if (selectedCompany) params.set("company", selectedCompany);
+    const nextUrl = `${window.location.pathname}?${params.toString()}${window.location.hash}`;
+    window.history.replaceState(null, "", nextUrl);
+  }, [edgeFilter, focus, query, region, selectedCompany, selectedId, urlReady, view]);
 
   const regionPeople = useMemo(() => people.filter((person) => regionOf(person) === region), [region]);
   const regionIds = useMemo(() => new Set(regionPeople.map((person) => person.id)), [regionPeople]);
@@ -127,15 +286,53 @@ export default function AcademicAtlas() {
   const selectedRelations = relationships.filter((r) => r.from === selected.id || r.to === selected.id);
   const selectedPlacements = studentPlacements.filter((placement) => placement.teacherId === selected.id);
   const selectedGroupMembers = groupMembers.filter((member) => member.teacherId === selected.id);
+  const selectedTimeline = buildPersonTimeline(selected, selectedRelations, selectedPlacements);
+  const visibleTimeline = selectedTimeline.filter((event) => timelineFilter === "all" || event.type === timelineFilter);
+
+  const globalMatches = useMemo(() => {
+    const tokens = normalizedTokens(query);
+    if (!tokens.length) return [];
+    return people.map((person) => {
+      const members = groupMembers.filter((member) => member.teacherId === person.id);
+      const placements = studentPlacements.filter((placement) => placement.teacherId === person.id);
+      const personRelations = relationships.filter((relationship) => relationship.from === person.id || relationship.to === person.id);
+      const fields = {
+        person: [person.name, person.chinese, person.institution, regionOf(person), regionLabels[regionOf(person)], person.role, person.area, ...person.tags, person.summary, ...(person.facts ?? []).flatMap((fact) => [fact.label, fact.value])].filter(Boolean).join(" "),
+        group: members.flatMap((member) => [member.name, member.role, member.focus]).filter(Boolean).join(" "),
+        placement: placements.flatMap((placement) => [placement.student, placement.company, placement.department, placement.role, placement.degree, placement.graduationYear]).filter(Boolean).join(" "),
+        relation: personRelations.flatMap((relationship) => [relationship.label, relationship.evidence, relationship.evidenceObject, relationship.source.label]).filter(Boolean).join(" "),
+      };
+      const haystack = Object.values(fields).join(" ").toLocaleLowerCase();
+      if (!tokens.every((token) => haystack.includes(token))) return null;
+      const matchedIn = Object.entries(fields).filter(([, value]) => tokens.some((token) => value.toLocaleLowerCase().includes(token))).map(([key]) => key);
+      return { person, matchedIn };
+    }).filter((result): result is { person: Person; matchedIn: string[] } => Boolean(result)).slice(0, 24);
+  }, [query]);
 
   const companyIndex = useMemo(() => Array.from(new Set(regionalPlacements.map((placement) => placement.company))).map((company) => {
     const placements = regionalPlacements.filter((placement) => placement.company === company);
     return { company, placements, teachers: new Set(placements.map((placement) => placement.teacherId)).size };
   }).sort((a, b) => b.teachers - a.teachers || b.placements.length - a.placements.length || a.company.localeCompare(b.company)), [regionalPlacements]);
   const selectedCompanyData = companyIndex.find((entry) => entry.company === selectedCompany) ?? companyIndex[0];
-  const companyPipelines = Array.from(new Set(selectedCompanyData.placements.map((placement) => placement.teacherId))).map((teacherId) => ({
+  const companyFilterOptions = useMemo(() => ({
+    departments: Array.from(new Set(regionalPlacements.map((placement) => placement.department).filter((value): value is string => Boolean(value)))).sort(),
+    degrees: Array.from(new Set(regionalPlacements.map((placement) => placement.degree).filter((value): value is NonNullable<StudentPlacement["degree"]> => Boolean(value)))).sort(),
+    years: Array.from(new Set(regionalPlacements.map((placement) => placement.graduationYear).filter((value): value is number => Boolean(value)))).sort((a, b) => b - a),
+  }), [regionalPlacements]);
+  const filteredCompanyPlacements = selectedCompanyData.placements.filter((placement) =>
+    (companySector === "all" || placementSectorOf(placement) === companySector) &&
+    (companyKind === "all" || placement.kind === companyKind) &&
+    (companyDepartment === "all" || placement.department === companyDepartment) &&
+    (companyDegree === "all" || placement.degree === companyDegree) &&
+    (companyYear === "all" || placement.graduationYear === Number(companyYear))
+  );
+  const companyPipelines = Array.from(new Set(filteredCompanyPlacements.map((placement) => placement.teacherId))).map((teacherId) => ({
     teacher: people.find((person) => person.id === teacherId)!,
-    placements: selectedCompanyData.placements.filter((placement) => placement.teacherId === teacherId),
+    placements: filteredCompanyPlacements.filter((placement) => placement.teacherId === teacherId),
+  }));
+  const regionalSectorCounts = (Object.keys(placementSectorLabels) as PlacementSector[]).map((sector) => ({
+    sector,
+    count: regionalPlacements.filter((placement) => placementSectorOf(placement) === sector).length,
   }));
 
   const visiblePeople = useMemo(() => {
@@ -147,10 +344,10 @@ export default function AcademicAtlas() {
         focus === "core" ? person.category === "core" :
         focus === "emerging" ? person.stage === "emerging" :
         focus === "adjacent" ? person.category === "adjacent" : person.category === "historical";
-      const queryMatch = !needle || [person.name, person.chinese, person.area, person.role, ...person.tags].filter(Boolean).join(" ").toLowerCase().includes(needle);
+      const queryMatch = !needle || globalMatches.some((match) => match.person.id === person.id);
       return institutionMatch && focusMatch && queryMatch;
     });
-  }, [focus, institution, query, regionPeople]);
+  }, [focus, globalMatches, institution, query, regionPeople]);
 
   const visibleIds = new Set(visiblePeople.map((person) => person.id));
   const visibleRelations = relationships.filter((relation) =>
@@ -177,6 +374,25 @@ export default function AcademicAtlas() {
     setQuery("");
     setGraphFocusId(null);
     setSelectedId(nextRegion === "Hong Kong" ? "lingpeng-kong" : nextRegion === "Singapore" ? "wei-lu" : nextRegion === "United States" ? "christopher-manning-us" : "maosong-sun");
+  }
+
+  function openPerson(person: Person, nextView: AtlasView = view) {
+    setRegion(regionOf(person));
+    setInstitution("All");
+    setSelectedId(person.id);
+    setView(nextView);
+    setGraphFocusId(nextView === "graph" ? person.id : null);
+  }
+
+  async function copyPersonLink() {
+    const url = new URL(window.location.href);
+    url.searchParams.set("region", regionSlugs[regionOf(selected)]);
+    url.searchParams.set("person", selected.id);
+    url.searchParams.set("view", view);
+    url.hash = "atlas";
+    await navigator.clipboard.writeText(url.toString());
+    setCopied(true);
+    window.setTimeout(() => setCopied(false), 1800);
   }
 
   return (
@@ -209,6 +425,15 @@ export default function AcademicAtlas() {
         </div>
       </section>
 
+      <section className="task-entry" aria-label="按目标开始探索">
+        <div><small>从你的目标开始</small><strong>不必先读懂整张图</strong></div>
+        <button onClick={() => { setView("people"); setQuery(""); document.querySelector("#atlas")?.scrollIntoView({ behavior: "smooth" }); }}>找导师 / 研究组<span>按地区和方向浏览 →</span></button>
+        <button onClick={() => { setView("graph"); setGraphFocusId(selected.id); document.querySelector("#atlas")?.scrollIntoView({ behavior: "smooth" }); }}>看师承与合作<span>从一位人物的一跳关系开始 →</span></button>
+        <button onClick={() => document.querySelector("#companies")?.scrollIntoView({ behavior: "smooth" })}>看学生工业去向<span>从公司、部门和职位反查 →</span></button>
+        <button onClick={() => { setView("evidence"); document.querySelector("#atlas")?.scrollIntoView({ behavior: "smooth" }); }}>核验一条资料<span>查看关系类型与原始来源 →</span></button>
+        <details className="atlas-glossary"><summary>第一次使用？查看术语说明</summary><div><p><strong>PI</strong>可独立领导研究组或招生的研究负责人。</p><p><strong>师承</strong>有公开资料直接支持的博士导师、共同导师或博士后指导关系。</p><p><strong>相邻节点</strong>与 LLM 密切相关、但主要研究主线不以语言为中心的 AI 或系统学者。</p><p><strong>人才流向</strong>公开可核验的学习、任职或职业移动，不表示因果关系。</p></div></details>
+      </section>
+
       <section className="atlas-section" id="atlas">
         <div className="section-heading">
           <div><p className="section-index">01 / ROSTER + INTERACTIVE ATLAS</p><h2>{regionLabels[region]} NLP / LLM / AI PI 名录</h2></div>
@@ -219,7 +444,18 @@ export default function AcademicAtlas() {
 
         <div className="atlas-shell">
           <div className="atlas-toolbar">
-            <label className="search-box"><span>⌕</span><input value={query} onChange={(e) => setQuery(e.target.value)} placeholder="搜索学者、实验室、方向…" /></label>
+            <div className="search-wrap">
+              <label className="search-box"><span>⌕</span><input ref={searchInputRef} value={query} onChange={(e) => setQuery(e.target.value)} placeholder="跨四地区搜索人物、学生、公司、方向…" aria-label="全局搜索" /></label>
+              {query.trim() && <div className="global-search-results" role="listbox" aria-label="全局搜索结果">
+                <header><strong>全局结果</strong><span>{globalMatches.length} 位相关学者</span></header>
+                {globalMatches.map(({ person, matchedIn }) => <button key={person.id} role="option" aria-selected={selected.id === person.id} onClick={() => { openPerson(person, "people"); setQuery(""); }}>
+                  <PersonAvatar person={person} className="search-monogram" style={{ background: institutionColors[person.institution] }} />
+                  <span><strong>{displayName(person)}</strong><small>{regionLabels[regionOf(person)]} · {person.institution} · {person.area}</small><em>命中：{matchedIn.map((field) => ({ person: "人物", group: "组员", placement: "学生去向", relation: "关系证据" })[field]).join("、")}</em></span>
+                  <b>→</b>
+                </button>)}
+                {globalMatches.length === 0 && <p>没有同时满足所有关键词的结果。可尝试减少一个关键词。</p>}
+              </div>}
+            </div>
             <div className="filter-row" aria-label="机构筛选">
               {(["All", ...regionalInstitutions[region]] as InstitutionFilter[]).map((item) => <button key={item} className={institution === item ? "active" : ""} onClick={() => setInstitution(item)}>{item === "All" ? "全部机构" : item}</button>)}
             </div>
@@ -233,11 +469,25 @@ export default function AcademicAtlas() {
 
           <div className="atlas-content">
             {view === "graph" && (
+              <>
+              <div className="mobile-ego" aria-label={`${displayName(selected)} 的一跳关系`}>
+                <header><div><small>ONE-HOP RELATIONSHIPS</small><strong>{displayName(selected)}</strong><span>{selected.institution} · {selected.area}</span></div><button onClick={() => openPerson(selected, "people")}>查看详情</button></header>
+                <div>{selectedRelations.filter((relation) => relation.from !== relation.to).map((relation) => {
+                  const neighborId = relation.from === selected.id ? relation.to : relation.from;
+                  const neighbor = people.find((person) => person.id === neighborId);
+                  if (!neighbor) return null;
+                  return <button key={relation.id} onClick={() => openPerson(neighbor, "graph")}>
+                    <PersonAvatar person={neighbor} className="search-monogram" style={{ background: institutionColors[neighbor.institution] }} />
+                    <span><strong>{displayName(neighbor)}</strong><small>{relationshipSubtypeLabels[relationshipSubtypeOf(relation)]} · {relationshipYears(relation)}</small><em>{relation.evidence}</em></span><b>→</b>
+                  </button>;
+                })}</div>
+                {selectedRelations.filter((relation) => relation.from !== relation.to).length === 0 && <p>暂无已核验的一跳人物关系；这不表示不存在相关联系。</p>}
+              </div>
               <div className="graph-scroll">
                 <div className="graph-canvas" style={{ height: graphHeight }} aria-label="学者关系网络">
                   <button className="graph-reset-surface" aria-label="显示全部人物关系" onClick={() => setGraphFocusId(null)} />
                   <div className="graph-instruction"><span>点击人物聚焦关系 · 点击空白恢复全图</span>{activeGraphFocusId && <button onClick={() => setGraphFocusId(null)}>显示全部</button>}</div>
-                  {graphZones[region].map((zone) => <div className={`institution-zone ${zone.className}`} key={zone.institution}><b>{zone.institution}</b><span>{zone.note}</span></div>)}
+                  {graphZones[region].map((zone) => <div className={`institution-zone ${zone.className}`} key={zone.institution}><b>{zone.institution}</b><span>{regionPeople.filter((person) => person.primary && person.institution === zone.institution).length} current nodes</span></div>)}
                   <svg className="edge-layer" viewBox={`0 0 1180 ${graphHeight}`} aria-hidden="true">
                     {visibleRelations.filter((r) => r.from !== r.to).map((relation) => {
                       const from = people.find((p) => p.id === relation.from)!;
@@ -248,7 +498,7 @@ export default function AcademicAtlas() {
                   </svg>
                   {visiblePeople.map((person) => (
                     <button key={person.id} className={`person-node ${person.primary ? "primary-node" : "external-node"} ${activeGraphFocusId === person.id ? "selected" : ""} ${activeGraphFocusId && !graphFocusedIds.has(person.id) ? "dimmed" : "focus-active"}`} style={{ left: person.x, top: person.y, "--node-color": institutionColors[person.institution] } as React.CSSProperties} onClick={(event) => { event.stopPropagation(); setSelectedId(person.id); setGraphFocusId((current) => current === person.id ? null : person.id); }}>
-                      <span className="node-avatar">{initials(primaryName(person))}</span><span className="node-copy"><strong>{displayName(person)}</strong><small>{person.institution} · {person.stage === "emerging" ? "发展期 PI" : person.area.split(" · ")[0]}</small></span>
+                      <PersonAvatar person={person} className="node-avatar" /><span className="node-copy"><strong>{displayName(person)}</strong><small>{person.institution} · {person.stage === "emerging" ? "发展期 PI" : person.area.split(" · ")[0]}</small></span>
                     </button>
                   ))}
                   {visibleRelations.filter((r) => r.from === r.to).map((r, index) => {
@@ -258,6 +508,7 @@ export default function AcademicAtlas() {
                   {visiblePeople.length === 0 && <div className="empty-state">没有匹配结果。试试清除筛选条件。</div>}
                 </div>
               </div>
+              </>
             )}
 
             {view === "people" && (
@@ -268,8 +519,8 @@ export default function AcademicAtlas() {
                   return <section className="institution-group" key={inst}>
                     <header><span style={{ background: institutionColors[inst] }} /> <h3>{inst}</h3><b>{group.length}</b></header>
                     <div className="people-grid">{group.map((person) => (
-                      <button key={person.id} className={`person-card ${selected.id === person.id ? "selected" : ""}`} onClick={() => setSelectedId(person.id)}>
-                        <span className="person-monogram" style={{ background: institutionColors[person.institution] }}>{initials(primaryName(person))}</span>
+                      <button key={person.id} className={`person-card ${selected.id === person.id ? "selected" : ""}`} onClick={() => openPerson(person, "people")}>
+                        <PersonAvatar person={person} className="person-monogram" style={{ background: institutionColors[person.institution] }} />
                         <span><small>{stageLabels[person.stage]}</small><strong>{primaryName(person)}{secondaryName(person) && <span className="card-chinese"> · {secondaryName(person)}</span>}</strong><em>{person.area}</em><span className="card-evidence">{evidenceSummary(person)}</span></span><b>→</b>
                       </button>
                     ))}</div>
@@ -282,16 +533,34 @@ export default function AcademicAtlas() {
             {view === "evidence" && (
               <div className="evidence-list">{visibleRelations.map((relation) => {
                 const from = people.find((p) => p.id === relation.from)!; const to = people.find((p) => p.id === relation.to)!;
-                return <article key={relation.id}><RelationChip type={relation.type} /><div><strong>{primaryName(from)}{from.id !== to.id ? ` → ${primaryName(to)}` : ""}</strong><p>{relation.evidence}</p></div><a href={relation.source.url} target="_blank" rel="noreferrer">原始来源 ↗</a></article>;
+                return <article key={relation.id}><RelationChip type={relation.type} /><div><strong>{primaryName(from)}{from.id !== to.id ? ` → ${primaryName(to)}` : ""}</strong><small>{relationshipSubtypeLabels[relationshipSubtypeOf(relation)]} · {relationshipYears(relation)}</small><p>{relation.evidence}</p></div><a href={relation.source.url} target="_blank" rel="noreferrer">原始来源 ↗</a></article>;
               })}</div>
             )}
 
             <aside className="inspector">
-              <div className="inspector-top"><span className="large-monogram" style={{ background: institutionColors[selected.institution] }}>{initials(primaryName(selected))}</span><span className="verified-badge">✓ SOURCED</span></div>
+              <div className="inspector-top">
+                <div className="inspector-portrait">
+                  <PersonAvatar person={selected} className="large-monogram" style={{ background: institutionColors[selected.institution] }} />
+                  {selected.portrait && <a href={selected.portrait.source.url} target="_blank" rel="noreferrer">头像来源 ↗</a>}
+                </div>
+                <span className="verified-badge">✓ {selected.sources.length} SOURCES</span>
+              </div>
               <div className="inspector-meta"><p className="institution-label">{selected.institution}</p><span className={`stage-badge stage-${selected.stage}`}>{stageLabels[selected.stage]}</span></div>
               <h3>{primaryName(selected)}</h3>{secondaryName(selected) && <p className="chinese-name">{secondaryName(selected)}</p>}<p className="role-label">{selected.role}</p><p className="summary">{selected.summary}</p>
               {selected.status && <p className="status-note">◷ {selected.status}</p>}
+              <div className="record-status"><span><small>资料核验</small><strong>{selected.lastVerifiedAt ?? "待补"}</strong></span><button onClick={copyPersonLink}>{copied ? "已复制 ✓" : "复制人物链接"}</button></div>
               <div className="tag-list">{selected.tags.map((tag) => <span key={tag}>{tag}</span>)}</div>
+              <div className="inspector-block timeline-block"><h4>人物时间轴 <span>{visibleTimeline.length} / {selectedTimeline.length} 项</span></h4>
+                <p className="timeline-context">按公开记录整理任职、合作、研究方向变化和学生人才流动；未知年份不会推断。</p>
+                <div className="timeline-filters" aria-label="时间轴类型筛选">
+                  {(["all", "appointment", "collaboration", "topic", "talent"] as TimelineFilter[]).map((item) => <button key={item} className={timelineFilter === item ? "active" : ""} onClick={() => setTimelineFilter(item)}>{item === "all" ? "全部" : timelineTypeLabels[item]}</button>)}
+                </div>
+                <ol className="person-timeline">{visibleTimeline.map((event) => <li className={`timeline-${event.type}`} key={event.id}>
+                  <span className="timeline-marker" />
+                  <div><small>{event.dateLabel} · {timelineTypeLabels[event.type]}</small><strong>{event.title}</strong><p>{event.detail}</p><a href={event.source.url} target="_blank" rel="noreferrer">查看证据 ↗</a></div>
+                </li>)}</ol>
+                {visibleTimeline.length === 0 && <p className="quiet">该类型暂无公开记录。</p>}
+              </div>
               {selected.facts?.length ? <div className="inspector-block fact-block"><h4>人物脉络 <span>{selected.facts.length} 项</span></h4>
                 {selected.facts.map((fact) => {
                   const content = <><small>{fact.label}</small><strong>{fact.value}</strong>{fact.source && <b>↗</b>}</>;
@@ -302,17 +571,17 @@ export default function AcademicAtlas() {
                 <p className="placement-context">这里列在读学生与研究人员，不计入毕业就业去向。</p>
                 {selectedGroupMembers.map((member) => <a key={member.id} href={member.source.url} target="_blank" rel="noreferrer"><span><strong>{member.name}</strong><small>{member.role}{member.focus ? ` · ${member.focus}` : ""}</small></span><b>↗</b></a>)}
               </div> : null}
-              <div className="inspector-block placement-block"><h4>学生去向 <span>{selectedPlacements.length ? `${selectedPlacements.length} 条已核验` : "待补"}</span></h4>
-                {selected.id === "tat-seng-chua" && <p className="placement-context">个人主页列出 37 名博士毕业生；下方是目前已逐条核验的产业/创业去向，不代表完整就业统计。</p>}
-                {selectedPlacements.slice(0, 8).map((placement) => <a key={placement.id} className="placement-row" href={placement.source.url} target="_blank" rel="noreferrer"><span className="placement-person"><strong>{placement.student}</strong><small>{placementKindLabels[placement.kind]} · {placement.role}</small>{placement.note && <small className="placement-note">口径：{placement.note}</small>}</span><span className="placement-destination"><b>{placement.company}</b>{placement.department && <small>{placement.department}</small>}</span>{placement.highLevel && <em>重点职位</em>}</a>)}
+              <div className="inspector-block placement-block"><h4>学生去向 <span>{selectedPlacements.length ? `${selectedPlacements.length} 条已核验${selected.knownAlumniCount ? ` / 已知 ${selected.knownAlumniCount}` : ""}` : "待补"}</span></h4>
+                <p className="placement-context">{selected.knownAlumniCount ? `公开名录记录 ${selected.knownAlumniCount} 名毕业生；下方仅为目前逐条核验的公开去向。` : "尚未建立完整毕业生分母；下方数量是公开可核验样本，不是完整就业统计或导师排名。"}</p>
+                {selectedPlacements.slice(0, 8).map((placement) => <a key={placement.id} className="placement-row" href={placement.source.url} target="_blank" rel="noreferrer"><span className="placement-person"><strong>{placement.student}</strong><small><i className={`sector-badge sector-${placementSectorOf(placement)}`}>{placementSectorLabels[placementSectorOf(placement)]}</i>{placementKindLabels[placement.kind]} · {placement.degree ?? "学位待补"}{placement.graduationYear ? ` · ${placement.graduationYear}` : ""}</small><small>{placement.firstJob ? `首份工作：${placement.firstJob}` : placement.currentRole ? `当前：${placement.currentRole}` : placement.role}</small>{placement.note && <small className="placement-note">口径：{placement.note}</small>}</span><span className="placement-destination"><b>{placement.company}</b>{placement.department && <small>{placement.department}</small>}<small>{placement.verifiedAt ? `核验 ${placement.verifiedAt}` : "核验日期待补"}</small></span>{placement.highLevel && <em>重点职位</em>}</a>)}
                 {selectedPlacements.length > 8 && <a className="more-placements" href="#companies">另有 {selectedPlacements.length - 8} 条，在公司反向图中查看 →</a>}
                 {selectedPlacements.length === 0 && <p className="quiet">尚未找到可逐条核验的公开学生职业去向；这不表示该导师没有相关学生记录。</p>}
               </div>
               <div className="inspector-block"><h4>关系证据 <span>{selectedRelations.length}</span></h4>
-                {selectedRelations.slice(0, 10).map((relation) => <a key={relation.id} className="relation-row" href={relation.source.url} target="_blank" rel="noreferrer"><RelationChip type={relation.type} /><span><strong>{relation.label}</strong><small>{relation.evidence}</small></span><b>↗</b></a>)}
+                {selectedRelations.slice(0, 10).map((relation) => <a key={relation.id} className="relation-row" href={relation.source.url} target="_blank" rel="noreferrer"><RelationChip type={relation.type} /><span><strong>{relationshipSubtypeLabels[relationshipSubtypeOf(relation)]} · {relation.label}</strong><small>{relationshipYears(relation)} · {relation.evidenceObject ?? relation.evidence}</small></span><b>↗</b></a>)}
                 {selectedRelations.length === 0 && <p className="quiet">暂无已核验关系；不以“共同任职”自动推断合作。</p>}
               </div>
-              <div className="inspector-block source-block"><h4>人物来源 <span>{selected.sources.length}</span></h4>{selected.sources.map((source) => <a key={source.url} href={source.url} target="_blank" rel="noreferrer">{source.label}<span>↗</span></a>)}</div>
+              <div className="inspector-block source-block"><h4>人物来源 <span>{selected.sources.length}</span></h4>{selected.sources.map((source) => <a key={source.url} href={source.url} target="_blank" rel="noreferrer"><span><strong>{source.label}</strong><small>{sourceKindLabels[source.kind]} · {source.supports ?? "支持人物基础信息"} · {source.checkedAt ? `核验 ${source.checkedAt}` : "核验日期待补"}{source.asOf ? ` · 信息截至 ${source.asOf}` : ""}</small></span><b>↗</b></a>)}</div>
             </aside>
           </div>
         </div>
@@ -339,7 +608,16 @@ export default function AcademicAtlas() {
       <section className="company-section" id="companies">
         <div className="section-heading">
           <div><p className="section-index">04 / COMPANY-CENTERED GRAPH</p><h2>从机构观察人才流向。</h2></div>
-          <p>选择公司或部门，中心图会显示{regionLabels[region]}哪些老师的学生进入该组织、学生姓名与公开职位。重点职位单独标记；“毕业去向”“当前任职”与“组页记录”保留原始页面口径。</p>
+          <p>选择单位或部门，中心图会显示{regionLabels[region]}哪些老师的学生进入该组织、学生姓名与公开职位。职业去向分为学术界、工业界、创业、博后和其他；“毕业去向”“当前任职”等则保留原始页面的记录口径。</p>
+        </div>
+        <div className="sector-summary" aria-label="职业去向类别统计">{regionalSectorCounts.map(({ sector, count }) => <button key={sector} className={`${companySector === sector ? "active" : ""} sector-summary-${sector}`} onClick={() => setCompanySector((current) => current === sector ? "all" : sector)}><span>{placementSectorLabels[sector]}</span><strong>{count}</strong></button>)}</div>
+        <div className="company-filterbar" aria-label="学生去向筛选">
+          <label>职业去向<select value={companySector} onChange={(event) => setCompanySector(event.target.value as PlacementSectorFilter)}><option value="all">全部五类去向</option>{Object.entries(placementSectorLabels).map(([value, label]) => <option key={value} value={value}>{label}</option>)}</select></label>
+          <label>记录口径<select value={companyKind} onChange={(event) => setCompanyKind(event.target.value as PlacementKindFilter)}><option value="all">全部公开口径</option>{Object.entries(placementKindLabels).map(([value, label]) => <option key={value} value={value}>{label}</option>)}</select></label>
+          <label>部门<select value={companyDepartment} onChange={(event) => setCompanyDepartment(event.target.value)}><option value="all">全部部门</option>{companyFilterOptions.departments.map((department) => <option key={department}>{department}</option>)}</select></label>
+          <label>学位<select value={companyDegree} onChange={(event) => setCompanyDegree(event.target.value)}><option value="all">全部学位</option>{companyFilterOptions.degrees.map((degree) => <option key={degree}>{degree}</option>)}</select></label>
+          <label>毕业年份<select value={companyYear} onChange={(event) => setCompanyYear(event.target.value)}><option value="all">全部年份</option>{companyFilterOptions.years.map((year) => <option key={year}>{year}</option>)}</select></label>
+          <button onClick={() => { setCompanySector("all"); setCompanyKind("all"); setCompanyDepartment("all"); setCompanyDegree("all"); setCompanyYear("all"); }}>清除筛选</button>
         </div>
         <div className="company-atlas">
           <aside className="company-index" aria-label="公司与部门索引">
@@ -347,12 +625,13 @@ export default function AcademicAtlas() {
             <div>{companyIndex.map((entry) => <button key={entry.company} className={selectedCompanyData.company === entry.company ? "active" : ""} onClick={() => setSelectedCompany(entry.company)}><span><strong>{entry.company}</strong><small>{entry.teachers} 位导师 · {entry.placements.length} 名学生</small></span><b>→</b></button>)}</div>
           </aside>
           <div className="company-graph" aria-label={`${selectedCompanyData.company} 的导师学生流向图`}>
-            <div className="company-hub"><small>COMPANY / DEPARTMENT</small><strong>{selectedCompanyData.company}</strong><span>{selectedCompanyData.placements.length} 名已核验学生</span></div>
+            <div className="company-hub"><small>COMPANY / DEPARTMENT</small><strong>{selectedCompanyData.company}</strong><span>{filteredCompanyPlacements.length} / {selectedCompanyData.placements.length} 条匹配记录</span></div>
             <div className="pipeline-list">{companyPipelines.map(({ teacher, placements }) => <article className="pipeline" key={teacher.id}>
-              <button className="pipeline-teacher" onClick={() => { setSelectedId(teacher.id); document.querySelector("#atlas")?.scrollIntoView({ behavior: "smooth" }); }}><span style={{ background: institutionColors[teacher.institution] }}>{initials(primaryName(teacher))}</span><div><small>{teacher.institution} · 导师</small><strong>{displayName(teacher)}</strong></div></button>
+              <button className="pipeline-teacher" onClick={() => { openPerson(teacher, "people"); document.querySelector("#atlas")?.scrollIntoView({ behavior: "smooth" }); }}><PersonAvatar person={teacher} className="pipeline-avatar" style={{ background: institutionColors[teacher.institution] }} /><div><small>{teacher.institution} · 导师</small><strong>{displayName(teacher)}</strong></div></button>
               <div className="pipeline-edge"><span>{placements.length} 名学生</span></div>
-              <div className="pipeline-students">{placements.map((placement) => <a href={placement.source.url} target="_blank" rel="noreferrer" key={placement.id}><span><strong>{placement.student}</strong><small>{placementKindLabels[placement.kind]} · {placement.role}{placement.department ? ` · ${placement.department}` : ""}</small>{placement.note && <small className="placement-note">口径：{placement.note}</small>}</span>{placement.highLevel && <em>高管 / 高级职位</em>}</a>)}</div>
+              <div className="pipeline-students">{placements.map((placement) => <a href={placement.source.url} target="_blank" rel="noreferrer" key={placement.id}><span><strong>{placement.student} <i className={`sector-badge sector-${placementSectorOf(placement)}`}>{placementSectorLabels[placementSectorOf(placement)]}</i></strong><small>{placementKindLabels[placement.kind]} · {placement.role}{placement.department ? ` · ${placement.department}` : ""}</small><small>{placement.degree ?? "学位待补"}{placement.graduationYear ? ` · ${placement.graduationYear} 届` : " · 年份待补"}{placement.verifiedAt ? ` · 核验 ${placement.verifiedAt}` : ""}</small>{placement.note && <small className="placement-note">口径：{placement.note}</small>}</span>{placement.highLevel && <em>高管 / 高级职位</em>}</a>)}</div>
             </article>)}</div>
+            {filteredCompanyPlacements.length === 0 && <div className="company-empty">当前筛选没有匹配记录。缺少学位或年份的数据不会被推断，请清除相应筛选后查看。</div>}
             <p className="company-disclaimer">只展示公开页面可逐条核验的去向；公司节点没有连线，不代表该导师没有学生进入。</p>
           </div>
         </div>
@@ -374,6 +653,8 @@ export default function AcademicAtlas() {
           <li><span>D</span><div><strong>保留历史状态</strong><p>on leave、跨地区任职和前雇主单独标注，不计作当前核心节点。</p></div></li>
         </ol></div>
       </section>
+
+      <VisitorMap />
 
       <FeedbackDrawer defaultSubject={displayName(selected)} />
       <footer><div className="brand"><span className="brand-mark">脉</span><span>学脉 Atlas</span></div><p>{regionLabels[region]} NLP / LLM / AI 学术关系图谱 · 基于公开来源持续维护</p><a href="#top">回到顶部 ↑</a></footer>

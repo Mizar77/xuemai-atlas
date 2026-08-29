@@ -23,6 +23,7 @@ function feedbackApiUrl() {
 
 export default function FeedbackDrawer({ defaultSubject }: FeedbackDrawerProps) {
   const [open, setOpen] = useState(false);
+  const [mode, setMode] = useState<"submit" | "status">("submit");
   const [feedbackType, setFeedbackType] = useState("correction");
   const [subject, setSubject] = useState(defaultSubject);
   const [content, setContent] = useState("");
@@ -33,6 +34,9 @@ export default function FeedbackDrawer({ defaultSubject }: FeedbackDrawerProps) 
   const [submitting, setSubmitting] = useState(false);
   const [error, setError] = useState("");
   const [reference, setReference] = useState("");
+  const [statusReference, setStatusReference] = useState("");
+  const [statusLoading, setStatusLoading] = useState(false);
+  const [statusResult, setStatusResult] = useState<{ reference: string; status: "pending" | "reviewing" | "accepted" | "declined"; createdAt: string } | null>(null);
 
   useEffect(() => {
     if (!open) return;
@@ -79,6 +83,24 @@ export default function FeedbackDrawer({ defaultSubject }: FeedbackDrawerProps) 
     setFeedbackType("correction");
     setSubject(defaultSubject);
     setError("");
+    setMode("submit");
+  }
+
+  async function lookupStatus(event: FormEvent<HTMLFormElement>) {
+    event.preventDefault();
+    setStatusLoading(true);
+    setStatusResult(null);
+    setError("");
+    try {
+      const response = await fetch(`${feedbackApiUrl()}?reference=${encodeURIComponent(statusReference.trim())}`);
+      const payload = await response.json() as { error?: string; reference?: string; status?: "pending" | "reviewing" | "accepted" | "declined"; createdAt?: string };
+      if (!response.ok || !payload.reference || !payload.status || !payload.createdAt) throw new Error(payload.error || "未找到该反馈编号。");
+      setStatusResult({ reference: payload.reference, status: payload.status, createdAt: payload.createdAt });
+    } catch (lookupError) {
+      setError(lookupError instanceof Error ? lookupError.message : "暂时无法查询，请稍后再试。");
+    } finally {
+      setStatusLoading(false);
+    }
   }
 
   return (
@@ -96,12 +118,26 @@ export default function FeedbackDrawer({ defaultSubject }: FeedbackDrawerProps) 
           <button onClick={() => setOpen(false)} aria-label="关闭反馈面板">×</button>
         </header>
 
-        {reference ? (
+        <div className="feedback-tabs" role="tablist" aria-label="反馈功能">
+          <button className={mode === "submit" ? "active" : ""} onClick={() => { setMode("submit"); setError(""); }} role="tab" aria-selected={mode === "submit"}>提交纠错</button>
+          <button className={mode === "status" ? "active" : ""} onClick={() => { setMode("status"); setError(""); }} role="tab" aria-selected={mode === "status"}>查询进度</button>
+        </div>
+
+        {mode === "status" ? (
+          <form className="feedback-status-form" onSubmit={lookupStatus}>
+            <p className="feedback-intro">输入提交后获得的参考编号，查看审核进度。查询结果只显示状态和提交时间，不公开反馈正文或联系方式。</p>
+            <label>反馈参考编号<input value={statusReference} onChange={(event) => setStatusReference(event.target.value)} required pattern="fb_[A-Za-z0-9]{12}" placeholder="fb_123456789abc" autoComplete="off" /></label>
+            {error && <p className="feedback-error" role="alert">{error}</p>}
+            <button className="feedback-submit" type="submit" disabled={statusLoading}>{statusLoading ? "正在查询…" : "查询处理状态"}<span>→</span></button>
+            {statusResult && <div className={`feedback-status-result status-${statusResult.status}`} role="status"><small>{statusResult.reference}</small><strong>{{ pending: "待审核", reviewing: "核验中", accepted: "已采纳", declined: "未采纳" }[statusResult.status]}</strong><span>提交时间：{new Date(statusResult.createdAt).toLocaleString("zh-CN")}</span></div>}
+          </form>
+        ) : reference ? (
           <div className="feedback-success" role="status">
             <span>✓</span>
             <h3>已收到，谢谢你的补充。</h3>
             <p>提交内容将经过来源核验后再更新到图谱，不会直接公开显示。</p>
             <small>参考编号：{reference}</small>
+            <button onClick={() => { setStatusReference(reference); setMode("status"); }}>查询处理状态</button>
             <button onClick={startAnother}>继续提交</button>
           </div>
         ) : (

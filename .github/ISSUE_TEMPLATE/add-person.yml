@@ -1,0 +1,25 @@
+name: 新增人物 / Add a researcher
+description: 建议补充一位符合收录边界的 AI、NLP 或 LLM 学者
+title: "[人物] "
+labels: ["data", "new-person"]
+body:
+  - type: input
+    id: name
+    attributes: { label: 人物姓名, description: 请提供公开使用的中英文姓名。 }
+    validations: { required: true }
+  - type: input
+    id: affiliation
+    attributes: { label: 现任机构与职务 }
+    validations: { required: true }
+  - type: textarea
+    id: scope
+    attributes: { label: 研究方向与收录理由, description: 请说明与 AI、NLP、LLM 的关系。 }
+    validations: { required: true }
+  - type: textarea
+    id: sources
+    attributes: { label: 公开来源, description: 优先提供学校主页、个人主页或 CV，每行一个链接。 }
+    validations: { required: true }
+  - type: input
+    id: asof
+    attributes: { label: 信息时间, placeholder: "例如：截至 2026-08" }
+    validations: { required: true }

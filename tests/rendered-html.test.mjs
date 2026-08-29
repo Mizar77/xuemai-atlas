@@ -2,13 +2,13 @@ import assert from "node:assert/strict";
 import { readFile } from "node:fs/promises";
 import test from "node:test";
 
-async function render() {
+async function render(path = "/") {
   const workerUrl = new URL("../dist/server/index.js", import.meta.url);
   workerUrl.searchParams.set("test", `${process.pid}-${Date.now()}`);
   const { default: worker } = await import(workerUrl.href);
 
   return worker.fetch(
-    new Request("http://localhost/", { headers: { accept: "text/html" } }),
+    new Request(`http://localhost${path}`, { headers: { accept: path.startsWith("/api/") ? "application/json" : "text/html" } }),
     { ASSETS: { fetch: async () => new Response("Not found", { status: 404 }) } },
     { waitUntil() {}, passThroughOnException() {} },
   );
@@ -87,11 +87,91 @@ test("renders named Mainland student destinations with teacher coverage", async 
   const response = await render();
   const html = await response.text();
 
-  assert.match(html, /已核验学生去向 · .*12.* 位导师/);
-  assert.match(html, /<strong>79<\/strong><span>已核验学生去向/);
+  assert.match(html, /学生去向/);
+  assert.match(html, /公开可核验样本，不是完整就业统计或导师排名/);
   for (const student of ["宋皓宇", "袁建华", "王兴昊", "朱泽圻"]) {
     assert.match(html, new RegExp(student));
   }
   assert.match(html, /Genius Youth Program/);
   assert.match(html, /去向 24/);
+});
+
+test("renders P0 discovery, trust, and contribution controls", async () => {
+  const response = await render();
+  const html = await response.text();
+  const feedbackSource = await readFile(new URL("../app/FeedbackDrawer.tsx", import.meta.url), "utf8");
+  const feedbackRouteSource = await readFile(new URL("../app/api/feedback/route.ts", import.meta.url), "utf8");
+
+  assert.match(html, /跨四地区搜索人物、学生、公司、方向/);
+  assert.match(html, /从你的目标开始/);
+  assert.match(html, /复制人物链接/);
+  assert.match(html, /资料核验/);
+  assert.match(html, /学位待补/);
+  assert.match(feedbackSource, /查询进度/);
+  assert.match(feedbackRouteSource, /export async function GET/);
+  assert.match(feedbackRouteSource, /未找到该反馈编号/);
+});
+
+test("renders destination sectors and evidence-linked person timelines", async () => {
+  const response = await render();
+  const html = await response.text();
+  const dataSource = await readFile(new URL("../app/data.ts", import.meta.url), "utf8");
+
+  for (const sector of ["学术界", "工业界", "创业", "博后", "其他去向"]) {
+    assert.match(html, new RegExp(sector));
+  }
+  assert.match(html, /人物时间轴/);
+  assert.match(html, /人物任职/);
+  assert.match(html, /合作关系/);
+  assert.match(html, /研究方向/);
+  assert.match(html, /人才流动/);
+  assert.match(html, /未知年份不会推断/);
+  assert.doesNotMatch(html, /当前快照|数据快照/);
+  assert.match(dataSource, /export function placementSectorOf/);
+});
+
+test("includes evidence-dense profiles from all four regions", async () => {
+  const enrichment = await readFile(new URL("../app/profile-enrichment-data.ts", import.meta.url), "utf8");
+
+  for (const scholarId of [
+    "xiting-wang", "pengfei-liu-sjtu", "hai-zhao-sjtu",
+    "yi-fung", "xixin-wu", "liangliang-cao",
+    "aixin-sun", "anh-tuan-luu", "jiancong-xiao",
+    "dan-jurafsky-us", "diyi-yang-us", "mona-diab-us",
+  ]) {
+    assert.match(enrichment, new RegExp(`"${scholarId}"`));
+  }
+  for (const detail of ["微软亚洲研究院研究员", "Inspired Cognition", "Helen Meng", "Regina Barzilay", "Google Cloud Speech", "Socially Aware NLP", "R3LIT Lab"]) {
+    assert.match(enrichment, new RegExp(detail));
+  }
+  assert.match(enrichment, /fourRegionProfileGroupMembers/);
+  assert.match(enrichment, /fourRegionProfileStudentPlacements/);
+});
+
+test("renders the sourced portrait collection and privacy-preserving visitor map", async () => {
+  const dataSource = await readFile(new URL("../app/data.ts", import.meta.url), "utf8");
+  const atlasSource = await readFile(new URL("../app/AcademicAtlas.tsx", import.meta.url), "utf8");
+  const visitorSource = await readFile(new URL("../app/VisitorMap.tsx", import.meta.url), "utf8");
+  const visitorRoute = await readFile(new URL("../app/api/visitors/route.ts", import.meta.url), "utf8");
+  const portraitMaps = await Promise.all([
+    "portrait-data-mainland.ts",
+    "portrait-data-mainland-fill-a.ts",
+    "portrait-data-mainland-fill-b.ts",
+    "portrait-data-hk-sg.ts",
+    "portrait-data-us.ts",
+  ].map((name) => readFile(new URL(`../app/${name}`, import.meta.url), "utf8")));
+
+  for (const portrait of ["portraits/lingpeng-kong.jpg", "portraits/tao-yu.jpg", "portraits/qi-liu.jpg"]) {
+    assert.match(dataSource, new RegExp(portrait));
+    assert.ok((await readFile(new URL(`../public/${portrait}`, import.meta.url))).byteLength > 10_000);
+  }
+  const mappedPortraitIds = portraitMaps.flatMap((source) => Array.from(source.matchAll(/^ {2}"([^"]+)"\s*:/gm), (match) => match[1]));
+  assert.ok(mappedPortraitIds.length >= 190, `expected broad portrait coverage, found ${mappedPortraitIds.length}`);
+  assert.equal(new Set(mappedPortraitIds).size, mappedPortraitIds.length);
+  assert.match(atlasSource, /头像来源 ↗/);
+  assert.match(visitorSource, /学脉从哪里被看见/);
+  assert.match(visitorSource, /累计访问次数/);
+  assert.match(visitorSource, /不保存原始 IP、城市、浏览轨迹或个人身份/);
+  assert.match(visitorRoute, /visitorCountryCounts/);
+  assert.doesNotMatch(visitorRoute, /ip_address|user_agent|city/i);
 });

@@ -1,0 +1,21 @@
+name: 职务或机构更新 / Role update
+description: 更新人物现任职务、机构或历史任职
+title: "[任职] "
+labels: ["data", "role-update"]
+body:
+  - type: input
+    id: person
+    attributes: { label: 人物姓名 }
+    validations: { required: true }
+  - type: textarea
+    id: change
+    attributes: { label: 当前信息与建议修改, description: 请区分当前任职、即将入职、兼职和历史任职。 }
+    validations: { required: true }
+  - type: input
+    id: effective
+    attributes: { label: 生效或核验时间 }
+    validations: { required: true }
+  - type: textarea
+    id: sources
+    attributes: { label: 官方来源链接 }
+    validations: { required: true }

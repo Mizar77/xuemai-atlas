@@ -1,0 +1,21 @@
+name: 来源补充或失效 / Source update
+description: 为现有字段补充来源，或报告链接失效
+title: "[来源] "
+labels: ["data", "source"]
+body:
+  - type: input
+    id: subject
+    attributes: { label: 涉及人物或关系 }
+    validations: { required: true }
+  - type: textarea
+    id: claim
+    attributes: { label: 来源具体支持的字段或陈述 }
+    validations: { required: true }
+  - type: textarea
+    id: links
+    attributes: { label: 新来源或失效链接 }
+    validations: { required: true }
+  - type: input
+    id: asof
+    attributes: { label: 来源适用时间或核验日期 }
+    validations: { required: true }

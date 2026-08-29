@@ -18,3 +18,12 @@ export const feedback = sqliteTable("feedback", {
 }, (table) => [
   index("idx_feedback_status_created_at").on(table.status, table.createdAt),
 ]);
+
+export const visitorCountryCounts = sqliteTable("visitor_country_counts", {
+  countryCode: text("country_code").primaryKey(),
+  visits: integer("visits").notNull().default(0),
+  firstSeenAt: text("first_seen_at").notNull().default(sql`CURRENT_TIMESTAMP`),
+  lastSeenAt: text("last_seen_at").notNull().default(sql`CURRENT_TIMESTAMP`),
+}, (table) => [
+  index("idx_visitor_country_visits").on(table.visits),
+]);

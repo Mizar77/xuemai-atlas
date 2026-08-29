@@ -169,10 +169,10 @@ export const mainlandEnrichmentGroupMembers: GroupMember[] = [
 
 export const mainlandEnrichmentStudentPlacements: StudentPlacement[] = [
   { id: "tang-shayuan-baai", student: "Sha Yuan", teacherId: "jie-tang-thu", company: "BAAI", role: "Leader", kind: "reported", highLevel: true, source: tangProfile },
-  { id: "tang-yutao-recurrent", student: "Yutao Zhang", teacherId: "jie-tang-thu", company: "Recurrent.ai", role: "CTO", kind: "reported", highLevel: true, source: tangProfile },
+  { id: "tang-yutao-recurrent", student: "Yutao Zhang", teacherId: "jie-tang-thu", company: "Recurrent.ai", role: "CTO", kind: "reported", sector: "startup", highLevel: true, source: tangProfile },
   { id: "tang-yuhan-alibaba", student: "Yu Han", teacherId: "jie-tang-thu", company: "Alibaba", role: "公开主页所列去向", kind: "reported", source: tangProfile },
-  { id: "tang-muyang-facepp", student: "Mu Yang", teacherId: "jie-tang-thu", company: "Face++", role: "CTO", kind: "reported", highLevel: true, source: tangProfile },
-  { id: "tang-wenbin-facepp", student: "Wenbin Tang", teacherId: "jie-tang-thu", company: "Face++", role: "CTO", kind: "reported", highLevel: true, source: tangProfile },
+  { id: "tang-muyang-facepp", student: "Mu Yang", teacherId: "jie-tang-thu", company: "Face++", role: "CTO", kind: "reported", sector: "startup", highLevel: true, source: tangProfile },
+  { id: "tang-wenbin-facepp", student: "Wenbin Tang", teacherId: "jie-tang-thu", company: "Face++", role: "CTO", kind: "reported", sector: "startup", highLevel: true, source: tangProfile },
   { id: "tang-zhanpeng-google-ms", student: "方展鹏", teacherId: "jie-tang-thu", company: "Google", department: "US", role: "2016 届硕士去向", kind: "first_job", source: tangProfile },
   { id: "tang-yangyang-zju", student: "杨洋", teacherId: "jie-tang-thu", company: "Zhejiang University", role: "Assistant Professor（主页记录）", kind: "reported", source: tangProfile },
   { id: "tang-jingzhang-ruc", student: "Jing Zhang", teacherId: "jie-tang-thu", company: "Renmin University of China", role: "Assistant Professor（主页记录）", kind: "reported", source: tangProfile },

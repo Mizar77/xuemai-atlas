@@ -2,12 +2,31 @@ import { mainlandCommunities, mainlandCoverage, mainlandGroupMembers, mainlandIn
 import { mainlandEnrichmentGroupMembers, mainlandEnrichmentIndustryPathways, mainlandEnrichmentRelationships, mainlandEnrichmentStudentPlacements, mainlandPersonEnhancements } from "./mainland-enrichment-data";
 import { mainlandPhase2Communities, mainlandPhase2Coverage, mainlandPhase2GroupMembers, mainlandPhase2IndustryPathways, mainlandPhase2People, mainlandPhase2Relationships } from "./mainland-phase2-data";
 import { usCommunities, usCoverage, usGroupMembers, usIndustryPathways, usPeople, usRelationships, usStudentPlacements } from "./us-data";
+import { fourRegionProfileEnhancements, fourRegionProfileGroupMembers, fourRegionProfileRelationships, fourRegionProfileStudentPlacements } from "./profile-enrichment-data";
+import { mainlandFullProfileEnhancements, mainlandFullProfileGroupMembers, mainlandFullProfileRelationships, mainlandFullProfileStudentPlacements } from "./mainland-full-profile-enrichment";
+import { usFullProfileEnhancements, usFullProfileGroupMembers, usFullProfileRelationships, usFullProfileStudentPlacements } from "./us-full-profile-enrichment";
+import { sgHkFullProfileEnhancements, sgHkFullProfileGroupMembers, sgHkFullProfileRelationships, sgHkFullProfileStudentPlacements } from "./sg-hk-full-profile-enrichment";
+import { mainlandFullProfileEnhancements2, mainlandFullProfileGroupMembers2, mainlandFullProfileRelationships2, mainlandFullProfileStudentPlacements2 } from "./mainland-full-profile-enrichment-2";
+import { mainlandFullProfileEnhancements3, mainlandFullProfileGroupMembers3, mainlandFullProfileRelationships3, mainlandFullProfileStudentPlacements3 } from "./mainland-full-profile-enrichment-3";
+import { hkSgPortraits } from "./portrait-data-hk-sg";
+import { mainlandPortraits } from "./portrait-data-mainland";
+import { mainlandFillAPortraits } from "./portrait-data-mainland-fill-a";
+import { mainlandFillBPortraits } from "./portrait-data-mainland-fill-b";
+import { usPortraits } from "./portrait-data-us";
 
 export type Source = {
   label: string;
   url: string;
-  kind: "official" | "cv" | "thesis" | "profile";
+  kind: "official" | "self_submitted" | "cv" | "thesis" | "profile" | "publication" | "company";
+  /** Date represented by the source, when the page itself makes this explicit. */
+  asOf?: string;
+  /** Date when this source was last checked by the atlas. */
+  checkedAt?: string;
+  /** The exact field or statement supported by this source. */
+  supports?: string;
 };
+
+export const dataSnapshotDate = "2026-08-28";
 
 export type Region = "Singapore" | "Hong Kong" | "Mainland China" | "United States";
 export type Institution = "NUS" | "NTU" | "SUTD" | "SMU" | "A*STAR" | "HKU" | "HKUST" | "CUHK" | "CityU" | "PolyU" | "HKBU" | "THU" | "PKU" | "FDU" | "RUC" | "HIT" | "CAS-IA" | "NJU" | "SJTU" | "ZJU" | "USTC" | "BIT" | "BUAA" | "BUPT" | "XJTU" | "SYSU" | "ECNU" | "WHU" | "Stanford" | "Berkeley" | "CMU" | "UW" | "MIT" | "Princeton" | "Cornell" | "NYU" | "Columbia" | "UMass" | "JHU" | "UT Austin" | "External";
@@ -32,6 +51,16 @@ export type Person = {
   x: number;
   y: number;
   primary?: boolean;
+  /** Most recent field-level review date. Kept optional so missing review data stays visible. */
+  lastVerifiedAt?: string;
+  /** Known alumni denominator from a public roster; placements may cover only a subset. */
+  knownAlumniCount?: number;
+  /** Locally stored portrait copied from a public faculty/profile page. */
+  portrait?: {
+    src: string;
+    alt: string;
+    source: Source;
+  };
 };
 
 export type IndustryPathway = {
@@ -63,7 +92,43 @@ export type Relationship = {
   evidence: string;
   source: Source;
   verified: boolean;
+  subtype?: "phd_adviser" | "co_adviser" | "postdoc_mentor" | "sustained_collaboration" | "publication" | "joint_project" | "joint_lab" | "industry_affiliation" | "career_movement" | "other";
+  startYear?: number;
+  endYear?: number;
+  recentYear?: number;
+  evidenceObject?: string;
 };
+
+export type RelationshipSubtype = NonNullable<Relationship["subtype"]>;
+
+export const relationshipSubtypeLabels: Record<RelationshipSubtype, string> = {
+  phd_adviser: "博士导师",
+  co_adviser: "共同导师",
+  postdoc_mentor: "博士后指导",
+  sustained_collaboration: "长期研究合作",
+  publication: "论文合作",
+  joint_project: "共同项目",
+  joint_lab: "联合实验室",
+  industry_affiliation: "产业任职 / 创业",
+  career_movement: "人才流动",
+  other: "其他已核验关系",
+};
+
+/** Normalize explicit labels without inventing a relationship that is not already sourced. */
+export function relationshipSubtypeOf(relationship: Relationship): RelationshipSubtype {
+  if (relationship.subtype) return relationship.subtype;
+  const label = `${relationship.label} ${relationship.evidence}`.toLowerCase();
+  if (label.includes("共同博士导师") || label.includes("共同导师") || label.includes("共同指导")) return "co_adviser";
+  if (label.includes("博士后")) return "postdoc_mentor";
+  if (label.includes("博士导师") || label.includes("academic advisor") || label.includes("advisor")) return "phd_adviser";
+  if (label.includes("joint lab") || label.includes("联合实验室")) return "joint_lab";
+  if (label.includes("共同项目") || label.includes("项目合作") || label.includes("challenge")) return "joint_project";
+  if (relationship.type === "industry") return "industry_affiliation";
+  if (relationship.type === "talent") return "career_movement";
+  if (label.includes("论文") || label.includes("共同署名") || label.includes("publication")) return "publication";
+  if (relationship.type === "collaboration") return "sustained_collaboration";
+  return "other";
+}
 
 export type StudentPlacement = {
   id: string;
@@ -76,7 +141,43 @@ export type StudentPlacement = {
   highLevel?: boolean;
   note?: string;
   source: Source;
+  degree?: "PhD" | "Master" | "Bachelor" | "Postdoc" | "Unknown";
+  graduationYear?: number;
+  firstJob?: string;
+  currentRole?: string;
+  coAdvisers?: string[];
+  verifiedAt?: string;
+  /** Career destination category. When omitted, placementSectorOf applies the public, deterministic rules below. */
+  sector?: PlacementSector;
 };
+
+export type PlacementSector = "academia" | "industry" | "startup" | "postdoc" | "other";
+
+export const placementSectorLabels: Record<PlacementSector, string> = {
+  academia: "学术界",
+  industry: "工业界",
+  startup: "创业",
+  postdoc: "博后",
+  other: "其他去向",
+};
+
+const academicDestinationPattern = /(?:University|大学|College|Stanford CRFM|^MIT$|^SUTD$)/i;
+const otherResearchDestinationPattern = /^(?:A\*STAR|BAAI|Shanghai AI Laboratory|AI2)$/i;
+
+/**
+ * Classify only from explicit destination/role fields. The fallback is industry
+ * because the placement collection was originally company-centred; ambiguous
+ * public and non-profit research institutes are kept in "other".
+ */
+export function placementSectorOf(placement: StudentPlacement): PlacementSector {
+  if (placement.sector) return placement.sector;
+  const role = `${placement.role} ${placement.firstJob ?? ""} ${placement.currentRole ?? ""}`;
+  if (placement.kind === "founder" || /\b(?:co-?founder|founder)\b/i.test(role)) return "startup";
+  if (placement.degree === "Postdoc" || /\bpost-?doctoral\b|\bpostdoc\b|博士后/i.test(role)) return "postdoc";
+  if (academicDestinationPattern.test(placement.company) || /\b(?:faculty|professor)\b/i.test(role)) return "academia";
+  if (otherResearchDestinationPattern.test(placement.company)) return "other";
+  return "industry";
+}
 
 export type GroupMember = {
   id: string;
@@ -123,7 +224,7 @@ const basePeople: Person[] = [
       { label: "个人主页（中文名、学生与创业）", url: "https://www.chuatatseng.com/", kind: "profile" },
       { label: "NUS Research Recognition", url: "https://www.nus.edu.sg/docs/default-source/universityawards/2022/chua-tat-seng.pdf", kind: "official" },
     ],
-    x: 130, y: 275, primary: true,
+    x: 130, y: 275, primary: true, knownAlumniCount: 37,
   },
   {
     id: "qizhe-shieh", name: "Michael Qizhe Shieh", role: "Assistant Professor", institution: "NUS",
@@ -306,6 +407,7 @@ const basePeople: Person[] = [
     area: "NLP · Structured Prediction · Language Models", tags: ["NLP", "结构化预测", "语言模型", "Google DeepMind"], stage: "senior", category: "core",
     summary: "HKU NLP Group 的核心 PI，研究结构化语言建模、表示学习与生成；加入 HKU 前在 Google DeepMind 任 Research Scientist / Senior Research Scientist。博士阶段由 Noah Smith 与 Chris Dyer 共同指导。",
     sources: [{ label: "HKU Faculty Profile", url: "https://ai.hku.hk/people/academic-staff/lpk", kind: "official" }, { label: "HKU LawTech Profile", url: "https://www.lawtech.hku.hk/people/lingpeng-kong/", kind: "official" }],
+    portrait: { src: "portraits/lingpeng-kong.jpg", alt: "Lingpeng Kong", source: { label: "HKU Faculty Profile portrait", url: "https://ai.hku.hk/people/academic-staff/lpk", kind: "official" } },
     x: 120, y: 165, primary: true,
   },
   {
@@ -313,6 +415,7 @@ const basePeople: Person[] = [
     area: "LLM Reasoning · Agents · Text-to-SQL", tags: ["LLM", "智能体", "Text-to-SQL", "对话式数据接口"], stage: "emerging", category: "core",
     summary: "XLANG Lab 负责人、HKU NLP Group 联合负责人，研究长程推理与规划、自然语言数据接口和 Text-to-SQL；博士毕业于 Yale，导师为 Dragomir Radev。",
     sources: [{ label: "HKU IDS Profile", url: "https://datascience.hku.hk/people/tao-yu/", kind: "official" }, { label: "Tao Yu 个人主页", url: "https://taoyds.github.io/", kind: "profile" }],
+    portrait: { src: "portraits/tao-yu.jpg", alt: "Tao Yu", source: { label: "HKU IDS Profile portrait", url: "https://datascience.hku.hk/people/tao-yu/", kind: "official" } },
     x: 280, y: 165, primary: true,
   },
   {
@@ -320,6 +423,7 @@ const basePeople: Person[] = [
     area: "NLP · Language Models · FinTech", tags: ["NLP", "LLM", "对话", "DeepMind", "FAIR", "MSR"], stage: "emerging", category: "core",
     summary: "研究语言模型、对话与自然语言处理；加入 HKU 前曾在 Google DeepMind、Facebook AI Research 和 Microsoft Research 工作，当前还延伸到自然语言—形式语言统一推理。",
     sources: [{ label: "HKU Faculty Profile", url: "https://www.ai.hku.hk/people/academic-staff/liuqi", kind: "official" }, { label: "HKU 人物报道", url: "https://www.cs.hku.hk/news-events/news-and-announcements/20230525_qliu_forbes-under30_asia_2023", kind: "official" }],
+    portrait: { src: "portraits/qi-liu.jpg", alt: "Qi Liu", source: { label: "HKU Faculty Profile portrait", url: "https://www.ai.hku.hk/people/academic-staff/liuqi", kind: "official" } },
     x: 120, y: 295, primary: true,
   },
   {
@@ -593,15 +697,31 @@ const basePeople: Person[] = [
 ];
 
 export const people: Person[] = basePeople.map((person) => {
-  const enhancement = mainlandPersonEnhancements[person.id];
-  if (!enhancement) return person;
-  const sources = [...person.sources, ...(enhancement.sources ?? [])].filter((source, index, all) => all.findIndex((candidate) => candidate.url === source.url) === index);
+  const portrait = mainlandFillAPortraits[person.id] ?? mainlandFillBPortraits[person.id] ?? mainlandPortraits[person.id] ?? hkSgPortraits[person.id] ?? usPortraits[person.id] ?? person.portrait;
+  const enhancements: Partial<Person>[] = [
+    mainlandPersonEnhancements[person.id],
+    fourRegionProfileEnhancements[person.id],
+    mainlandFullProfileEnhancements[person.id],
+    usFullProfileEnhancements[person.id],
+    sgHkFullProfileEnhancements[person.id],
+    mainlandFullProfileEnhancements2[person.id],
+    mainlandFullProfileEnhancements3[person.id],
+  ].filter((enhancement): enhancement is Partial<Person> => Boolean(enhancement));
+  if (!enhancements.length && !portrait) return person;
+  const sources = Array.from(
+    new Map(
+      [...person.sources, ...enhancements.flatMap((enhancement) => enhancement?.sources ?? []), ...(portrait ? [portrait.source] : [])]
+        .map((source) => [source.url, source] as const),
+    ).values(),
+  );
+  const facts = [...(person.facts ?? []), ...enhancements.flatMap((enhancement) => enhancement?.facts ?? [])].filter((fact, index, all) => all.findIndex((candidate) => candidate.label === fact.label && candidate.value === fact.value) === index);
   return {
     ...person,
-    ...enhancement,
-    tags: Array.from(new Set([...person.tags, ...(enhancement.tags ?? [])])),
-    facts: [...(person.facts ?? []), ...(enhancement.facts ?? [])],
+    ...Object.assign({}, ...enhancements),
+    tags: Array.from(new Set([...person.tags, ...enhancements.flatMap((enhancement) => enhancement?.tags ?? [])])),
+    facts,
     sources,
+    portrait,
   };
 });
 
@@ -667,6 +787,12 @@ export const relationships: Relationship[] = [
   ...mainlandRelationships,
   ...mainlandPhase2Relationships,
   ...usRelationships,
+  ...fourRegionProfileRelationships,
+  ...mainlandFullProfileRelationships,
+  ...usFullProfileRelationships,
+  ...sgHkFullProfileRelationships,
+  ...mainlandFullProfileRelationships2,
+  ...mainlandFullProfileRelationships3,
 ];
 
 export const coverage = [
@@ -754,6 +880,12 @@ export const groupMembers: GroupMember[] = [
   ...mainlandGroupMembers,
   ...mainlandPhase2GroupMembers,
   ...usGroupMembers,
+  ...fourRegionProfileGroupMembers,
+  ...mainlandFullProfileGroupMembers,
+  ...usFullProfileGroupMembers,
+  ...sgHkFullProfileGroupMembers,
+  ...mainlandFullProfileGroupMembers2,
+  ...mainlandFullProfileGroupMembers3,
 ];
 
 export const studentPlacements: StudentPlacement[] = [
@@ -807,4 +939,10 @@ export const studentPlacements: StudentPlacement[] = [
   ...mainlandEnrichmentStudentPlacements,
   ...mainlandStudentPlacements,
   ...usStudentPlacements,
+  ...fourRegionProfileStudentPlacements,
+  ...mainlandFullProfileStudentPlacements,
+  ...usFullProfileStudentPlacements,
+  ...sgHkFullProfileStudentPlacements,
+  ...mainlandFullProfileStudentPlacements2,
+  ...mainlandFullProfileStudentPlacements3,
 ];

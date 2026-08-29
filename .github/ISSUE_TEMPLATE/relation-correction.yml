@@ -1,0 +1,23 @@
+name: 关系新增或纠错 / Relationship
+description: 补充或纠正师承、共同指导、合作、联合实验室或人才流动
+title: "[关系] "
+labels: ["data", "relationship"]
+body:
+  - type: input
+    id: endpoints
+    attributes: { label: 关系双方, placeholder: "人物 A → 人物 B" }
+    validations: { required: true }
+  - type: dropdown
+    id: subtype
+    attributes:
+      label: 关系类型
+      options: [博士导师, 共同导师, 博士后指导, 长期研究合作, 单篇论文合作, 共同项目, 联合实验室, 产业任职或创业, 人才流动, 其他]
+    validations: { required: true }
+  - type: textarea
+    id: correction
+    attributes: { label: 建议表述与时间, description: 请注明起止年份或最近发生年份；未知可写“公开来源未说明”。 }
+    validations: { required: true }
+  - type: textarea
+    id: sources
+    attributes: { label: 直接证据链接, description: 请提供明确支持该关系的论文、论文致谢、CV、项目页或官方页面。 }
+    validations: { required: true }

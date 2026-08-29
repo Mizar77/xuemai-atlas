@@ -1,0 +1,25 @@
+name: 学生去向 / Student placement
+description: 补充或纠正公开可核验的毕业生职业去向
+title: "[去向] "
+labels: ["data", "placement"]
+body:
+  - type: input
+    id: student
+    attributes: { label: 学生姓名 }
+    validations: { required: true }
+  - type: input
+    id: adviser
+    attributes: { label: 导师及共同导师 }
+    validations: { required: true }
+  - type: textarea
+    id: placement
+    attributes: { label: 学位、毕业年份与职业记录, description: 请尽量区分第一份工作和当前任职，并写明公司部门与职位。 }
+    validations: { required: true }
+  - type: textarea
+    id: sources
+    attributes: { label: 公开来源链接 }
+    validations: { required: true }
+  - type: input
+    id: checked
+    attributes: { label: 核验日期 }
+    validations: { required: true }

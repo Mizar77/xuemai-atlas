@@ -1,5 +1,6 @@
 import { getDb } from "../../../db";
 import { feedback } from "../../../db/schema";
+import { eq } from "drizzle-orm";
 
 const githubPagesOrigin = "https://mizar77.github.io";
 
@@ -47,12 +48,32 @@ export async function OPTIONS(request: Request) {
     status: 204,
     headers: {
       "Access-Control-Allow-Origin": githubPagesOrigin,
-      "Access-Control-Allow-Methods": "POST, OPTIONS",
+      "Access-Control-Allow-Methods": "GET, POST, OPTIONS",
       "Access-Control-Allow-Headers": "Content-Type",
       "Access-Control-Max-Age": "86400",
       Vary: "Origin",
     },
   });
+}
+
+export async function GET(request: Request) {
+  try {
+    const reference = new URL(request.url).searchParams.get("reference")?.trim() ?? "";
+    if (!/^fb_[a-f0-9]{12}$/i.test(reference)) {
+      return json(request, { error: "请输入有效的反馈参考编号。" }, { status: 400 });
+    }
+
+    const db = getDb();
+    const [record] = await db.select({ publicId: feedback.publicId, status: feedback.status, createdAt: feedback.createdAt })
+      .from(feedback)
+      .where(eq(feedback.publicId, reference))
+      .limit(1);
+
+    if (!record) return json(request, { error: "未找到该反馈编号。" }, { status: 404 });
+    return json(request, { reference: record.publicId, status: record.status, createdAt: record.createdAt });
+  } catch {
+    return json(request, { error: "暂时无法查询，请稍后再试。" }, { status: 500 });
+  }
 }
 
 export async function POST(request: Request) {
