@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1242" height="1656" viewBox="0 0 1242 1656">
+  <defs>
+    <linearGradient id="shade" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#102038" stop-opacity=".98"/>
+      <stop offset=".35" stop-color="#102038" stop-opacity=".86"/>
+      <stop offset=".67" stop-color="#102038" stop-opacity=".28"/>
+      <stop offset="1" stop-color="#102038" stop-opacity=".96"/>
+    </linearGradient>
+    <style>.font{font-family:-apple-system,BlinkMacSystemFont,'PingFang SC','Noto Sans SC',sans-serif}.heavy{font-weight:900}.bold{font-weight:750}</style>
+  </defs>
+  <rect width="1242" height="1656" fill="url(#shade)"/>
+  <rect x="78" y="80" width="490" height="58" rx="29" fill="none" stroke="#c7f36b" stroke-opacity=".82"/>
+  <text x="105" y="118" font-size="20" letter-spacing="3" fill="#c7f36b" class="font heavy">AI · NLP · LLM ACADEMIC ATLAS</text>
+  <g fill="#ffffff"><text x="78" y="305" font-size="114" class="font heavy"><tspan x="78" dy="0">学术图谱</tspan><tspan x="78" dy="122">更新啦</tspan></text></g>
+  <text x="78" y="595" font-size="38" fill="#f4f6f1" class="font bold">覆盖中 · 美 · 新 · 港</text>
+  <line x1="78" y1="1474" x2="1164" y2="1474" stroke="#ffffff" stroke-opacity=".34"/>
+  <text x="78" y="1530" font-size="28" fill="#ffffff" class="font heavy">学脉 Atlas</text>
+  <text x="78" y="1572" font-size="20" fill="#d2dcd1" class="font">mizar77.github.io/xuemai-atlas/</text>
+  <circle cx="1118" cy="1535" r="47" fill="#c7f36b"/><text x="1118" y="1552" text-anchor="middle" font-size="38" fill="#102038" class="font heavy">脉</text>
+  </svg>

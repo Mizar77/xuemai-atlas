@@ -8,11 +8,18 @@ import { usFullProfileEnhancements, usFullProfileGroupMembers, usFullProfileRela
 import { sgHkFullProfileEnhancements, sgHkFullProfileGroupMembers, sgHkFullProfileRelationships, sgHkFullProfileStudentPlacements } from "./sg-hk-full-profile-enrichment";
 import { mainlandFullProfileEnhancements2, mainlandFullProfileGroupMembers2, mainlandFullProfileRelationships2, mainlandFullProfileStudentPlacements2 } from "./mainland-full-profile-enrichment-2";
 import { mainlandFullProfileEnhancements3, mainlandFullProfileGroupMembers3, mainlandFullProfileRelationships3, mainlandFullProfileStudentPlacements3 } from "./mainland-full-profile-enrichment-3";
+import { mainlandAiCvGroupMembers, mainlandAiCvPeople, mainlandAiCvPlacements, mainlandAiCvRelationships } from "./mainland-ai-cv-expansion";
+import { hkSgAiCvExpansionGroupMembers, hkSgAiCvExpansionPeople, hkSgAiCvExpansionPlacements, hkSgAiCvExpansionRelationships } from "./hk-sg-ai-cv-expansion";
+import { usAiCvExpansionGroupMembers, usAiCvExpansionPeople, usAiCvExpansionPlacements, usAiCvExpansionRelationships } from "./us-ai-cv-expansion";
+import { systematicRosterGroupMembers, systematicRosterPeople, systematicRosterPlacements, systematicRosterRelationships } from "./systematic-roster-expansion";
 import { hkSgPortraits } from "./portrait-data-hk-sg";
+import { hkSgMissingPortraits } from "./portrait-data-hk-sg-missing";
 import { mainlandPortraits } from "./portrait-data-mainland";
 import { mainlandFillAPortraits } from "./portrait-data-mainland-fill-a";
 import { mainlandFillBPortraits } from "./portrait-data-mainland-fill-b";
+import { mainlandMissingPortraits } from "./portrait-data-mainland-missing";
 import { usPortraits } from "./portrait-data-us";
+import { systematicRosterPortraits } from "./portrait-data-systematic-roster";
 
 export type Source = {
   label: string;
@@ -29,7 +36,7 @@ export type Source = {
 export const dataSnapshotDate = "2026-08-28";
 
 export type Region = "Singapore" | "Hong Kong" | "Mainland China" | "United States";
-export type Institution = "NUS" | "NTU" | "SUTD" | "SMU" | "A*STAR" | "HKU" | "HKUST" | "CUHK" | "CityU" | "PolyU" | "HKBU" | "THU" | "PKU" | "FDU" | "RUC" | "HIT" | "CAS-IA" | "NJU" | "SJTU" | "ZJU" | "USTC" | "BIT" | "BUAA" | "BUPT" | "XJTU" | "SYSU" | "ECNU" | "WHU" | "Stanford" | "Berkeley" | "CMU" | "UW" | "MIT" | "Princeton" | "Cornell" | "NYU" | "Columbia" | "UMass" | "JHU" | "UT Austin" | "External";
+export type Institution = "NUS" | "NTU" | "SUTD" | "SMU" | "A*STAR" | "HKU" | "HKUST" | "CUHK" | "CityU" | "PolyU" | "HKBU" | "THU" | "PKU" | "FDU" | "RUC" | "HIT" | "CAS-IA" | "NJU" | "SJTU" | "ZJU" | "USTC" | "BIT" | "BUAA" | "BUPT" | "XJTU" | "SYSU" | "ECNU" | "WHU" | "Stanford" | "Berkeley" | "CMU" | "UW" | "MIT" | "Princeton" | "Cornell" | "NYU" | "Columbia" | "UMass" | "JHU" | "UT Austin" | "UMich" | "UIUC" | "Georgia Tech" | "UCLA" | "UCSD" | "External";
 export type Stage = "senior" | "emerging" | "institute" | "adjacent" | "historical";
 export type Category = "core" | "adjacent" | "historical";
 
@@ -76,7 +83,7 @@ export const regionalInstitutions: Record<Region, Institution[]> = {
   Singapore: ["NUS", "NTU", "SUTD", "SMU", "A*STAR"],
   "Hong Kong": ["HKU", "HKUST", "CUHK", "CityU", "PolyU", "HKBU"],
   "Mainland China": ["THU", "PKU", "FDU", "RUC", "HIT", "CAS-IA", "NJU", "SJTU", "ZJU", "USTC", "BIT", "BUAA", "BUPT", "XJTU", "SYSU", "ECNU", "WHU"],
-  "United States": ["Stanford", "Berkeley", "CMU", "UW", "MIT", "Princeton", "Cornell", "NYU", "Columbia", "UMass", "JHU", "UT Austin"],
+  "United States": ["Stanford", "Berkeley", "CMU", "UW", "MIT", "Princeton", "Cornell", "NYU", "Columbia", "UMass", "JHU", "UT Austin", "UMich", "UIUC", "Georgia Tech", "UCLA", "UCSD"],
 };
 
 export function regionOf(person: Person): Region {
@@ -192,7 +199,7 @@ export const stageLabels: Record<Stage, string> = {
   senior: "资深 PI",
   emerging: "发展期独立 PI",
   institute: "研究院 PI",
-  adjacent: "AI / 系统相邻",
+  adjacent: "交叉 AI PI",
   historical: "历史 / 跨地区",
 };
 
@@ -691,13 +698,17 @@ const basePeople: Person[] = [
   { id: "chris-dyer", name: "Chris Dyer", role: "Professor", institution: "External", region: "Hong Kong", area: "Natural Language Processing", tags: ["博士导师", "CMU"], stage: "historical", category: "historical", summary: "Lingpeng Kong 的共同博士导师。", sources: [{ label: "HKU LawTech Profile", url: "https://www.lawtech.hku.hk/people/lingpeng-kong/", kind: "official" }], x: 330, y: 45 },
   { id: "dragomir-radev", name: "Dragomir Radev", role: "Professor (1968–2023)", institution: "External", region: "Hong Kong", area: "Natural Language Processing", tags: ["博士导师", "Yale"], stage: "historical", category: "historical", summary: "Tao Yu 的博士导师。", sources: [{ label: "Tao Yu 个人主页", url: "https://taoyds.github.io/", kind: "profile" }], x: 550, y: 45 },
   { id: "taylor-berg-kirkpatrick", name: "Taylor Berg-Kirkpatrick", role: "Associate Professor", institution: "External", region: "Hong Kong", area: "Natural Language Processing", tags: ["博士导师", "UC San Diego"], stage: "historical", category: "historical", summary: "CMU LTI alumni 记录的 Junxian He 博士导师。", sources: [{ label: "CMU LTI Alumni", url: "https://www.lti.cs.cmu.edu/people/alumni/alumni-2022/he-junxian.html", kind: "official" }], x: 790, y: 45 },
+  ...hkSgAiCvExpansionPeople,
   ...mainlandPeople,
   ...mainlandPhase2People,
+  ...mainlandAiCvPeople,
   ...usPeople,
+  ...usAiCvExpansionPeople,
+  ...systematicRosterPeople,
 ];
 
 export const people: Person[] = basePeople.map((person) => {
-  const portrait = mainlandFillAPortraits[person.id] ?? mainlandFillBPortraits[person.id] ?? mainlandPortraits[person.id] ?? hkSgPortraits[person.id] ?? usPortraits[person.id] ?? person.portrait;
+  const portrait = systematicRosterPortraits[person.id] ?? hkSgMissingPortraits[person.id] ?? mainlandMissingPortraits[person.id] ?? mainlandFillAPortraits[person.id] ?? mainlandFillBPortraits[person.id] ?? mainlandPortraits[person.id] ?? hkSgPortraits[person.id] ?? usPortraits[person.id] ?? person.portrait;
   const enhancements: Partial<Person>[] = [
     mainlandPersonEnhancements[person.id],
     fourRegionProfileEnhancements[person.id],
@@ -793,6 +804,10 @@ export const relationships: Relationship[] = [
   ...sgHkFullProfileRelationships,
   ...mainlandFullProfileRelationships2,
   ...mainlandFullProfileRelationships3,
+  ...mainlandAiCvRelationships,
+  ...hkSgAiCvExpansionRelationships,
+  ...usAiCvExpansionRelationships,
+  ...systematicRosterRelationships,
 ];
 
 export const coverage = [
@@ -817,10 +832,20 @@ export const communities = [
   { region: "Singapore" as Region, kicker: "新生代独立组", name: "SUTD iNLP Lab", anchor: "Wenxuan Zhang", description: "聚焦多语言、多模态、Audio-Language 与 LLM Agents；曾任 Alibaba Singapore 研究科学家。", color: "lime" },
   { region: "Singapore" as Region, kicker: "多中心生态", name: "NTU NLP & Generative AI", anchor: "Shafiq Joty · Wei Lu · Soujanya Poria · Anh Tuan Luu", description: "多语言、可信 LLM、推理与多模态对话；学生产业去向覆盖 Salesforce、Apple、腾讯、华为、阿里与字节。", color: "coral" },
   { region: "Singapore" as Region, kicker: "研究院转化", name: "A*STAR Language Intelligence", anchor: "Ai Ti Aw · Nancy Chen · Jian Su", description: "东南亚语言、语音对话、国家多模态 LLM 与大规模技术部署。", color: "violet" },
+  { region: "Singapore" as Region, kicker: "视觉与生成式智能", name: "Singapore Vision & Multimodal AI", anchor: "Mohan Kankanhalli · Mike Zheng Shou · Chen Change Loy · Ziwei Liu · Ngai-Man Cheung · Joo Hwee Lim", description: "NUS、NTU、SUTD 与 A*STAR 的视觉、多模态、视频生成、三维感知和神经符号研究形成跨机构网络。", color: "cobalt" },
+  { region: "Singapore" as Region, kicker: "开放世界与可靠学习", name: "Trustworthy & Open-World AI", anchor: "Guansong Pang · Bryan Hooi · Kenji Kawaguchi · Yang You", description: "从异常检测、开放世界学习和可信基础模型，延伸到深度学习理论与大规模 AI 系统。", color: "lime" },
   { region: "Hong Kong" as Region, kicker: "早期语言技术主线", name: "HKUST Human Language Technology", anchor: "Pascale Fung · De Kai · Yangqiu Song", description: "从中文语言技术、机器翻译与语音，延伸到可信对话、知识图谱、RAG 与智能体。", color: "cobalt" },
   { region: "Hong Kong" as Region, kicker: "跨地区导师谱系", name: "CUHK NLP & IR Lineage", anchor: "Wai Lam · Kam-Fai Wong · Xixin Wu", description: "资深中文 NLP / IR 主线向香港本地与新加坡独立 PI 扩散，并连接事实核查与对话研究。", color: "lime" },
   { region: "Hong Kong" as Region, kicker: "新生代独立组", name: "HKU + CityU LLM Labs", anchor: "Tao Yu · Qi Liu · Zhisong Zhang · Ning Miao", description: "围绕推理、智能体、长上下文、对话式数据接口和语言模型机制形成的新增长层。", color: "coral" },
   { region: "Hong Kong" as Region, kicker: "产业回流型集群", name: "PolyU Generative AI & Systems", anchor: "Hongxia Yang · Liangliang Cao · Qiang Yang · Jing Li", description: "IBM、Microsoft、Google、Apple、Alibaba、ByteDance、Tencent 与 WeBank 的研究履历回流到高校。", color: "violet" },
+  { region: "Hong Kong" as Region, kicker: "跨校视觉谱系", name: "Hong Kong MMLab Network", anchor: "Xiaogang Wang · Dahua Lin · Ping Luo", description: "CUHK 与 HKU 的 MMLab 研究谱系连接计算机视觉、视觉语言、生成式 AI、具身智能与产业研究经历。", color: "cobalt" },
+  { region: "Hong Kong" as Region, kicker: "视觉、图形与内容生成", name: "Vision, Graphics & Generative AI", anchor: "Yizhou Yu · Qifeng Chen · Shiqi Wang · Lei Zhang · Jie Chen", description: "覆盖视觉计算、三维视觉、AIGC、图像复原、计算摄影与 AI for Art-Tech。", color: "lime" },
+  { region: "Mainland China" as Region, kicker: "机器学习基础", name: "General Machine Learning & Reliable AI", anchor: "朱军 · 周志华 · 蔡登 · 陈恩红", description: "概率学习、集成学习、表征学习、数据挖掘与可靠 AI 构成通用机器学习的方法主线。", color: "cobalt" },
+  { region: "Mainland China" as Region, kicker: "视觉到行动", name: "Vision, Multimodal & Embodied AI", anchor: "邢俊亮 · 王亦洲 · 施柏鑫 · 钟亦武 · 卢策吾 · 王延峰 · 翟广涛", description: "从视觉感知、视觉语言和三维空间推理，延伸到机器人学习、具身智能与医疗视觉。", color: "lime" },
+  { region: "Mainland China" as Region, kicker: "视觉感知与内容智能", name: "Visual Perception, Video & Generative Media", anchor: "谭铁牛 · 王亮 · 孙哲南 · 吴飞 · 卜佳俊 · 薛向阳 · 吴祖煊 · 吴建鑫 · 路通 · 李厚强 · 江俊君 · 赵琛", description: "覆盖模式识别、生物识别、图像视频理解、跨媒体计算、内容生成和高效视觉学习。", color: "coral" },
+  { region: "United States" as Region, kicker: "视觉基础与空间智能", name: "US Vision, Generative & Spatial Intelligence", anchor: "Fei-Fei Li · Jiajun Wu · Trevor Darrell · Alexei A. Efros · Antonio Torralba · Phillip Isola · Yann LeCun · Shree K. Nayar", description: "连接视觉识别、生成式视觉、计算摄影、世界模型与空间智能的代表性实验室。", color: "cobalt" },
+  { region: "United States" as Region, kicker: "视觉语言与具身智能", name: "US Multimodal, Embodied & Robot Learning", anchor: "Deva Ramanan · Louis-Philippe Morency · Ali Farhadi · Dieter Fox · Kristen Grauman · Zsolt Kira · Bolei Zhou · Achuta Kadambi", description: "覆盖视觉语言、三维感知、第一视角学习、机器人学习和具身 AI。", color: "lime" },
+  { region: "United States" as Region, kicker: "通用学习与科学智能", name: "US General ML, AI for Science & Data-Centric AI", anchor: "Rada Mihalcea · Satinder Singh Baveja · Rose Yu · Julian McAuley · Svetlana Lazebnik · Derek Hoiem · Jia Deng · Olga Russakovsky", description: "覆盖强化学习、时空机器学习、AI for Science、推荐系统、数据中心 AI 与可靠视觉。", color: "coral" },
   ...mainlandCommunities,
   ...mainlandPhase2Communities,
   ...usCommunities,
@@ -886,6 +911,10 @@ export const groupMembers: GroupMember[] = [
   ...sgHkFullProfileGroupMembers,
   ...mainlandFullProfileGroupMembers2,
   ...mainlandFullProfileGroupMembers3,
+  ...mainlandAiCvGroupMembers,
+  ...hkSgAiCvExpansionGroupMembers,
+  ...usAiCvExpansionGroupMembers,
+  ...systematicRosterGroupMembers,
 ];
 
 export const studentPlacements: StudentPlacement[] = [
@@ -945,4 +974,8 @@ export const studentPlacements: StudentPlacement[] = [
   ...sgHkFullProfileStudentPlacements,
   ...mainlandFullProfileStudentPlacements2,
   ...mainlandFullProfileStudentPlacements3,
+  ...mainlandAiCvPlacements,
+  ...hkSgAiCvExpansionPlacements,
+  ...usAiCvExpansionPlacements,
+  ...systematicRosterPlacements,
 ];

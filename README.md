@@ -6,9 +6,9 @@
 
 **路线图 / Roadmap:** [`TODO.md`](./TODO.md) · **更新记录 / Changelog:** [`CHANGELOG.md`](./CHANGELOG.md)
 
-学脉 Atlas 是一个由公开证据驱动的 AI、NLP 与 LLM 学术关系图谱。我们希望更清楚地呈现研究者之间的师承、合作、人才流动与产业连接，并通过社区纠错持续补全信息。
+学脉 Atlas 是一个由公开证据驱动的 AI 学术关系图谱，覆盖 NLP、计算机视觉、多模态、机器学习、机器人与基础模型等方向。我们希望更清楚地呈现研究者之间的师承、合作、人才流动与产业连接，并通过社区纠错持续补全信息。
 
-Xuemai Atlas is an evidence-linked academic network for AI, NLP, and LLM researchers. It maps academic lineage, collaboration, career movement, and industry connections, and improves through community-contributed corrections and additions.
+Xuemai Atlas is an evidence-linked academic network for AI researchers across NLP, computer vision, multimodal learning, machine learning, robotics, and foundation models. It maps academic lineage, collaboration, career movement, and industry connections, and improves through community-contributed corrections and additions.
 
 ---
 
@@ -20,12 +20,12 @@ Xuemai Atlas is an evidence-linked academic network for AI, NLP, and LLM researc
 
 学术关系很难从单一网页看清：导师与学生可能分布在不同学校，合作者可能跨越多个机构，学生毕业后又会进入高校、研究院、创业公司或互联网企业。学脉 Atlas 将这些分散在学校主页、个人简历、论文、实验室页面和公司资料中的公开信息连接起来，形成可以按人物、机构、关系类型和公司反向查找的图谱。
 
-当前版本覆盖**中国大陆、香港、新加坡与美国的 AI、NLP 与 LLM 学术生态**。美国首期覆盖 Stanford、UC Berkeley、CMU、UW、MIT、Princeton、Cornell、NYU、Columbia、UMass Amherst、Johns Hopkins 与 UT Austin 12 个重点中心。中国大陆第二期已扩展到 17 个重点机构：清华、北大、复旦、人大、哈工大、中科院自动化所、南京大学、上海交大、浙江大学、中国科大、北京理工、北航、北邮、西安交大、中山大学、华东师大与武汉大学；香港包括 HKU、HKUST、CUHK、CityU、PolyU 与 HKBU；新加坡包括 NUS、NTU、SUTD、SMU 与 A\*STAR。各地区范围都会在网页中明确标出，并持续按机构名录补充。
+当前版本覆盖**中国大陆、香港、新加坡与美国的 AI 学术生态**，从原有 NLP / LLM 主线进一步扩展到计算机视觉、多模态、机器学习、机器人与通用 AI。中国大陆覆盖清华、北大、复旦、人大、哈工大、中科院自动化所、南京大学、上海交大、浙江大学、中国科大、北京理工、北航、北邮、西安交大、中山大学、华东师大与武汉大学；香港包括 HKU、HKUST、CUHK、CityU、PolyU 与 HKBU；新加坡包括 NUS、NTU、SUTD、SMU 与 A\*STAR；美国覆盖 Stanford、Berkeley、CMU、UW、MIT、Princeton、Cornell、NYU、Columbia、UMass、JHU、UT Austin、UMich、UIUC、Georgia Tech、UCLA 与 UCSD。各地区范围都会在网页中明确标出，并持续按机构名录补充。
 
 ### 图谱里有什么信息？
 
 - 学者姓名与公开中文名、现任机构、职务、研究方向和实验室
-- 资深 PI、发展期独立 PI、相邻 AI 方向与历史节点
+- 资深 PI、发展期独立 PI、核心 AI 方向、交叉研究层与历史节点
 - 博士导师、博士后指导或合作、公开论文合作
 - 教师与企业研究部门、联合实验室、创业公司的连接
 - 已公开核验的学生毕业去向、当前任职和重要职位
@@ -99,12 +99,12 @@ npm test
 
 Academic relationships are scattered across faculty pages, CVs, dissertations, papers, lab websites, and company profiles. Xuemai Atlas connects those public records so that academic lineage, collaboration, career movement, and industry links can be explored in one place.
 
-The atlas currently covers the **AI, NLP, and LLM ecosystems in Mainland China, Hong Kong, Singapore, and the United States**. The first U.S. release covers 12 focal centers: Stanford, UC Berkeley, CMU, UW, MIT, Princeton, Cornell, NYU, Columbia, UMass Amherst, Johns Hopkins, and UT Austin. The second Mainland China release covers 17 focal institutions: Tsinghua, Peking University, Fudan, Renmin University, Harbin Institute of Technology, CAS Institute of Automation, Nanjing University, Shanghai Jiao Tong University, Zhejiang University, University of Science and Technology of China, Beijing Institute of Technology, Beihang University, Beijing University of Posts and Telecommunications, Xi'an Jiaotong University, Sun Yat-sen University, East China Normal University, and Wuhan University. Hong Kong includes HKU, HKUST, CUHK, CityU, PolyU, and HKBU; Singapore includes NUS, NTU, SUTD, SMU, and A\*STAR. Each regional boundary is stated explicitly and continues to be audited against institutional rosters.
+The atlas covers the **AI ecosystems of Mainland China, Hong Kong, Singapore, and the United States**, expanding from its original NLP and LLM focus to computer vision, multimodal learning, machine learning, robotics, and general AI. Mainland China currently covers 17 focal institutions; Hong Kong includes HKU, HKUST, CUHK, CityU, PolyU, and HKBU; Singapore includes NUS, NTU, SUTD, SMU, and A\*STAR; and the United States currently covers 17 representative institutions, including Stanford, Berkeley, CMU, MIT, UW, UMich, UIUC, Georgia Tech, UCLA, and UCSD. Each regional boundary is stated explicitly and continues to be audited against institutional rosters.
 
 ### What information does the atlas contain?
 
 - Researchers' names and publicly established Chinese names, affiliations, roles, research areas, and labs
-- Senior PIs, emerging independent PIs, adjacent AI areas, and historical nodes
+- Senior PIs, emerging independent PIs, core AI areas, cross-disciplinary research, and historical nodes
 - PhD supervision, postdoctoral mentorship or collaboration, and verified publication links
 - Connections to industrial research teams, joint labs, startups, and technology companies
 - Publicly verifiable student placements, current roles, and selected senior positions

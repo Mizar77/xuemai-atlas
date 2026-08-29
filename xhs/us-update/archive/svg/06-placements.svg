@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1242" height="1656" viewBox="0 0 1242 1656">
+  <defs>
+    <linearGradient id="paper" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#f9fbf6"/><stop offset="1" stop-color="#eff3eb"/></linearGradient>
+    <filter id="shadow" x="-10%" y="-10%" width="130%" height="130%"><feDropShadow dx="15" dy="18" stdDeviation="0" flood-color="#275ee6" flood-opacity=".08"/></filter>
+    <clipPath id="clip"><rect x="66" y="420" width="1110" height="820" rx="24"/></clipPath>
+    <style>.font{font-family:-apple-system,BlinkMacSystemFont,'PingFang SC','Noto Sans SC',sans-serif}.heavy{font-weight:900}.bold{font-weight:700}</style>
+  </defs>
+  <rect width="1242" height="1656" fill="url(#paper)"/>
+  <text x="66" y="92" font-size="19" letter-spacing="3" fill="#275ee6" class="font heavy">STUDENT PLACEMENTS</text>
+  <text x="1176" y="92" text-anchor="end" font-size="19" letter-spacing="2" fill="#829080" class="font heavy">06 / 08</text>
+  <text x="66" y="190" font-size="74" class="font heavy"><tspan x="66" dy="0">从老师看到</tspan><tspan x="66" dy="80">学生去向</tspan></text>
+  <text x="66" y="360" font-size="27" class="font bold"><tspan x="66" dy="0">公开职业记录连接到公司、研究部门与独立教职</tspan></text>
+  <rect x="66" y="420" width="1110" height="820" rx="24" fill="#ffffff" stroke="#c8d2c6" filter="url(#shadow)"/>
+  <rect x="66" y="1282" width="180" height="58" rx="29" fill="#102038"/><text x="156" y="1320" text-anchor="middle" font-size="21" fill="#ffffff" class="font heavy">Cursor</text><rect x="262" y="1282" width="230" height="58" rx="29" fill="#e4ebde"/><text x="377" y="1320" text-anchor="middle" font-size="21" fill="#102038" class="font heavy">Meta · OpenAI</text><rect x="508" y="1282" width="265" height="58" rx="29" fill="#102038"/><text x="640.5" y="1320" text-anchor="middle" font-size="21" fill="#ffffff" class="font heavy">Apple · Google</text>
+  <line x1="66" y1="1512" x2="1176" y2="1512" stroke="#c8d2c6"/>
+  <text x="66" y="1560" font-size="23" fill="#102038" class="font heavy">学脉 Atlas</text>
+  <text x="66" y="1600" font-size="17" fill="#6f7c73" class="font">mizar77.github.io/xuemai-atlas/</text>
+  <circle cx="1148" cy="1564" r="27" fill="#c7f36b"/><text x="1148" y="1575" text-anchor="middle" font-size="20" fill="#102038" class="font heavy">脉</text>
+  </svg>

@@ -20,8 +20,8 @@ test("server-renders the public academic atlas", async () => {
   assert.match(response.headers.get("content-type") ?? "", /^text\/html\b/i);
 
   const html = await response.text();
-  assert.match(html, /<title>学脉 Atlas — AI \/ NLP 学术关系图谱<\/title>/i);
-  assert.match(html, /中国大陆、香港、新加坡与美国 AI、NLP、LLM 学者/);
+  assert.match(html, /<title>学脉 Atlas — AI \/ NLP \/ CV 学术关系图谱<\/title>/i);
+  assert.match(html, /中国大陆、香港、新加坡与美国 AI、NLP、计算机视觉、多模态与机器人学者/);
   assert.match(html, /Mainland China/);
   assert.match(html, /Hong Kong/);
   assert.match(html, /Singapore/);
@@ -42,6 +42,35 @@ test("includes the United States roster, lineages, and student destinations", as
   for (const destination of ["Thinking Machines Lab", "Meta FAIR", "Google Gemini", "Microsoft Frontier Tuning"]) {
     assert.match(source, new RegExp(destination));
   }
+});
+
+test("includes the cross-region AI and computer-vision expansion", async () => {
+  const [mainland, hkSg, us, dataSource] = await Promise.all([
+    readFile(new URL("../app/mainland-ai-cv-expansion.ts", import.meta.url), "utf8"),
+    readFile(new URL("../app/hk-sg-ai-cv-expansion.ts", import.meta.url), "utf8"),
+    readFile(new URL("../app/us-ai-cv-expansion.ts", import.meta.url), "utf8"),
+    readFile(new URL("../app/data.ts", import.meta.url), "utf8"),
+  ]);
+
+  for (const scholar of ["朱军", "王亦洲", "谭铁牛", "卢策吾"]) assert.match(mainland, new RegExp(scholar));
+  for (const scholar of ["Mohan Kankanhalli", "Chen Change Loy", "Xiaogang Wang", "Dahua Lin"]) assert.match(hkSg, new RegExp(scholar));
+  for (const scholar of ["Fei-Fei Li", "Trevor Darrell", "Yann LeCun", "Kristen Grauman", "Rose Yu"]) assert.match(us, new RegExp(scholar));
+  for (const institution of ["UMich", "UIUC", "Georgia Tech", "UCLA", "UCSD"]) assert.match(dataSource, new RegExp(`"${institution}"`));
+  assert.match(dataSource, /US Vision, Generative & Spatial Intelligence/);
+  assert.match(dataSource, /Vision, Multimodal & Embodied AI/);
+});
+
+test("includes the systematic faculty-roster audit", async () => {
+  const [roster, dataSource] = await Promise.all([
+    readFile(new URL("../app/systematic-roster-expansion.ts", import.meta.url), "utf8"),
+    readFile(new URL("../app/data.ts", import.meta.url), "utf8"),
+  ]);
+
+  for (const scholar of ["Hanwang Zhang", "张含望", "Xingang Pan", "Xihui Liu", "Dan Xu", "高文", "Chelsea Finn", "Pieter Abbeel"]) {
+    assert.match(roster, new RegExp(scholar));
+  }
+  assert.match(dataSource, /systematicRosterPeople/);
+  assert.match(dataSource, /systematicRosterRelationships/);
 });
 
 test("renders company and evidence sections", async () => {
