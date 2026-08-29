@@ -133,6 +133,14 @@ const graphZoneGapX = 50;
 const graphZoneGapY = 30;
 const graphZoneStartX = 20;
 const graphZoneStartY = 100;
+const graphLeadOrder: Partial<Record<Region, string[]>> = {
+  Singapore: ["wenxuan-zhang", "yang-deng"],
+  "Hong Kong": ["wai-lam"],
+};
+const directoryLeadByRegion: Partial<Record<Region, string>> = {
+  Singapore: "wenxuan-zhang",
+  "Hong Kong": "wai-lam",
+};
 
 function graphZoneRect(index: number) {
   return {
@@ -379,7 +387,17 @@ export default function AcademicAtlas() {
       const rect = graphZoneRect(zoneIndex);
       const centerX = rect.left + rect.width / 2;
       const centerY = rect.top + rect.height / 2;
-      const members = regionPeople.filter((person) => person.institution === zone.institution);
+      const leadIds = graphLeadOrder[region] ?? [];
+      const members = regionPeople
+        .filter((person) => person.institution === zone.institution)
+        .sort((a, b) => {
+          const aIndex = leadIds.indexOf(a.id);
+          const bIndex = leadIds.indexOf(b.id);
+          if (aIndex === -1 && bIndex === -1) return 0;
+          if (aIndex === -1) return 1;
+          if (bIndex === -1) return -1;
+          return aIndex - bIndex;
+        });
       members.forEach((person, memberIndex) => {
         positions.set(person.id, institutionOrbitPoint(memberIndex, members.length, centerX, centerY));
       });
@@ -538,17 +556,20 @@ export default function AcademicAtlas() {
     selectedPlacements.length ? `人才流向：已核验 ${selectedPlacements.length} 条学生去向，涉及 ${new Set(selectedPlacements.map((placement) => placement.company)).size} 个组织。` : "人才流向：暂无可逐条核验的公开记录，等待社区补充。",
   ];
 
-  const institutionDirectoryGroups = regionalInstitutions[region].map((inst) => ({
+  const directoryLeadId = directoryLeadByRegion[region];
+  const leadFirst = (members: Person[]) => members.toSorted((a, b) => Number(b.id === directoryLeadId) - Number(a.id === directoryLeadId));
+  const leadGroupFirst = <T extends { people: Person[] }>(groups: T[]) => groups.toSorted((a, b) => Number(b.people.some((person) => person.id === directoryLeadId)) - Number(a.people.some((person) => person.id === directoryLeadId)));
+  const institutionDirectoryGroups = leadGroupFirst(regionalInstitutions[region].map((inst) => ({
     key: inst, label: inst, note: `${visiblePeople.filter((person) => person.primary && person.institution === inst).length} 位`, color: institutionColors[inst],
-    people: visiblePeople.filter((person) => person.primary && person.institution === inst),
-  })).filter((group) => group.people.length);
+    people: leadFirst(visiblePeople.filter((person) => person.primary && person.institution === inst)),
+  })).filter((group) => group.people.length));
   const assignedTopicPeople = new Set<string>();
-  const topicDirectoryGroups = regionalCommunities.map((community) => {
-    const members = visiblePeople.filter((person) => person.primary && communityIncludesPerson(community, person));
+  const topicDirectoryGroups = leadGroupFirst(regionalCommunities.map((community) => {
+    const members = leadFirst(visiblePeople.filter((person) => person.primary && communityIncludesPerson(community, person)));
     members.forEach((person) => assignedTopicPeople.add(person.id));
     return { key: community.name, label: community.name, note: community.kicker, color: community.color, people: members };
-  }).filter((group) => group.people.length);
-  const remainingTopicPeople = visiblePeople.filter((person) => person.primary && !assignedTopicPeople.has(person.id));
+  }).filter((group) => group.people.length));
+  const remainingTopicPeople = leadFirst(visiblePeople.filter((person) => person.primary && !assignedTopicPeople.has(person.id)));
   const directoryGroups = directoryGrouping === "institution" ? institutionDirectoryGroups : [...topicDirectoryGroups, ...(remainingTopicPeople.length ? [{ key: "other-topics", label: "其他研究方向", note: "尚未归入公开研究群落", color: "neutral", people: remainingTopicPeople }] : [])];
 
   function openPerson(person: Person, nextView: AtlasView = view) {
@@ -659,7 +680,7 @@ export default function AcademicAtlas() {
 
           {view === "people" && directoryGrouping === "topic" && <div className="community-filter" aria-label="研究主题社区筛选"><button className={selectedCommunity === "all" ? "active" : ""} onClick={() => setSelectedCommunity("all")}>全部研究主题</button>{regionalCommunities.map((community) => <button key={community.name} className={selectedCommunity === community.name ? "active" : ""} onClick={() => setSelectedCommunity(community.name)}>{community.name}</button>)}</div>}
 
-          <div className="atlas-content">
+          <div className={`atlas-content atlas-content-${view}`}>
             {view === "graph" && (
               <>
               <div className="mobile-ego" aria-label={`${displayName(selected)} 的一跳关系`}>
