@@ -176,6 +176,9 @@ button:focus-visible, a:focus-visible, input:focus-visible, select:focus-visible
 .dot-talent { background: var(--violet); }
 
 .atlas-content { display: grid; grid-template-columns: minmax(0, 1fr) 360px; min-height: 690px; }
+.atlas-content-people { align-items: start; min-height: 0; }
+.atlas-content-people .people-directory { width: 100%; box-sizing: border-box; align-self: start; }
+.atlas-content-people .inspector { max-height: 800px; align-self: start; }
 .mobile-ego { display: none; }
 .graph-scroll { min-width: 0; overflow-x: auto; border-right: 1px solid var(--line); }
 .graph-canvas { width: 1180px; height: 910px; position: relative; overflow: hidden; background-color: #f7f9f5; background-image: linear-gradient(rgba(80,96,116,.06) 1px, transparent 1px), linear-gradient(90deg, rgba(80,96,116,.06) 1px, transparent 1px); background-size: 28px 28px; }
@@ -838,6 +841,7 @@ body { background: var(--paper); }
 
 @media (max-width: 1180px) {
   .atlas-content { display: block; }
+  .atlas-content-people .inspector { max-height: none; }
   .graph-scroll, .people-directory, .evidence-list { border-right: 0; border-bottom: 1px solid var(--line); }
   .people-directory { max-height: 880px; }
   .inspector { max-height: none; border-left: 0; border-top: 1px solid var(--line); }
