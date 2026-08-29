@@ -1,0 +1,36 @@
+name: Import current site update
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - ".github/workflows/import-site-update.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  import:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v6
+
+      - name: Import the prepared website snapshot
+        run: |
+          cat site-update.zip.part-* > site-update.zip
+          unzip -oq site-update.zip -d .
+          rm site-update.zip site-update.zip.part-*
+
+      - name: Commit imported files
+        run: |
+          git config user.name "Mizar77"
+          git config user.email "Mizar77@users.noreply.github.com"
+          git add -A
+          if git diff --cached --quiet; then
+            echo "No site changes to commit."
+            exit 0
+          fi
+          git commit -m "Expand AI scholar coverage and portraits"
+          git push origin HEAD:main
