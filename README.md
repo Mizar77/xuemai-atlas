@@ -4,6 +4,8 @@
 
 **在线图谱 / Live website:** [https://mizar77.github.io/xuemai-atlas/](https://mizar77.github.io/xuemai-atlas/)
 
+**路线图 / Roadmap:** [`TODO.md`](./TODO.md) · **更新记录 / Changelog:** [`CHANGELOG.md`](./CHANGELOG.md)
+
 学脉 Atlas 是一个由公开证据驱动的 AI、NLP 与 LLM 学术关系图谱。我们希望更清楚地呈现研究者之间的师承、合作、人才流动与产业连接，并通过社区纠错持续补全信息。
 
 Xuemai Atlas is an evidence-linked academic network for AI, NLP, and LLM researchers. It maps academic lineage, collaboration, career movement, and industry connections, and improves through community-contributed corrections and additions.
@@ -58,6 +60,8 @@ Xuemai Atlas is an evidence-linked academic network for AI, NLP, and LLM researc
 - 信息对应的时间，例如“2026 年起任职”
 
 请不要提交私人联系方式、未经公开的就业信息、传闻或仅凭印象判断的关系。
+
+计划中的搜索、比较、数据可信度、移动端与社区维护功能记录在 [`TODO.md`](./TODO.md)。欢迎认领其中的任务，并在 Issue 或 PR 中注明对应待办。
 
 ### 数据与审核原则
 
@@ -135,6 +139,8 @@ Helpful submissions usually include:
 - A date or time context for role and affiliation changes
 
 Please do not submit private contact details, non-public employment information, rumors, or relationships inferred only from proximity.
+
+Planned work on search, comparison, data trust, mobile usability, and community maintenance is tracked in [`TODO.md`](./TODO.md). Contributors are welcome to take an item and reference it in an Issue or Pull Request.
 
 ### Data and moderation principles
 
