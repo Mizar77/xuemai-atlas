@@ -20,6 +20,15 @@ import { mainlandFillBPortraits } from "./portrait-data-mainland-fill-b";
 import { mainlandMissingPortraits } from "./portrait-data-mainland-missing";
 import { usPortraits } from "./portrait-data-us";
 import { systematicRosterPortraits } from "./portrait-data-systematic-roster";
+import { europePortraits } from "./portrait-data-europe";
+import { europeCommunities, europeCoverage, europeGroupMembers, europeIndustryPathways, europePeople, europeRelationships, europeStudentPlacements } from "./europe-data";
+import { academicCommunities, academicLineagePeople, academicLineageRelationships } from "./academic-community-data";
+import { lamdaGroupMembers, lamdaPeople, lamdaPersonEnhancements, lamdaPlacements, lamdaRelationships } from "./lamda-expansion";
+import { lamdaPortraits } from "./portrait-data-lamda";
+import { finalEuropeHkPortraits } from "./portrait-data-final-europe-hk";
+import { finalMainlandPortraits } from "./portrait-data-final-mainland";
+import { finalUsPortraits } from "./portrait-data-final-us";
+import { cvRosterAuditPeople, cvRosterAuditRelationships } from "./cv-roster-audit-expansion";
 
 export type Source = {
   label: string;
@@ -33,10 +42,10 @@ export type Source = {
   supports?: string;
 };
 
-export const dataSnapshotDate = "2026-08-28";
+export const dataSnapshotDate = "2026-08-30";
 
-export type Region = "Singapore" | "Hong Kong" | "Mainland China" | "United States";
-export type Institution = "NUS" | "NTU" | "SUTD" | "SMU" | "A*STAR" | "HKU" | "HKUST" | "CUHK" | "CityU" | "PolyU" | "HKBU" | "THU" | "PKU" | "FDU" | "RUC" | "HIT" | "CAS-IA" | "NJU" | "SJTU" | "ZJU" | "USTC" | "BIT" | "BUAA" | "BUPT" | "XJTU" | "SYSU" | "ECNU" | "WHU" | "Stanford" | "Berkeley" | "CMU" | "UW" | "MIT" | "Princeton" | "Cornell" | "NYU" | "Columbia" | "UMass" | "JHU" | "UT Austin" | "UMich" | "UIUC" | "Georgia Tech" | "UCLA" | "UCSD" | "External";
+export type Region = "Singapore" | "Hong Kong" | "Mainland China" | "United States" | "Europe";
+export type Institution = "NUS" | "NTU" | "SUTD" | "SMU" | "A*STAR" | "HKU" | "HKUST" | "CUHK" | "CityU" | "PolyU" | "HKBU" | "THU" | "PKU" | "FDU" | "RUC" | "HIT" | "CAS-IA" | "NJU" | "SJTU" | "ZJU" | "USTC" | "BIT" | "BUAA" | "BUPT" | "XJTU" | "SYSU" | "ECNU" | "WHU" | "Stanford" | "Berkeley" | "CMU" | "UW" | "MIT" | "Princeton" | "Cornell" | "NYU" | "Columbia" | "UMass" | "JHU" | "UT Austin" | "UMich" | "UIUC" | "Georgia Tech" | "UCLA" | "UCSD" | "Oxford" | "Cambridge" | "UCL" | "Edinburgh" | "ETH Zurich" | "EPFL" | "Tübingen/MPI" | "TUM" | "TU Darmstadt" | "UvA" | "KU Leuven" | "Inria" | "Sapienza" | "External";
 export type Stage = "senior" | "emerging" | "institute" | "adjacent" | "historical";
 export type Category = "core" | "adjacent" | "historical";
 
@@ -84,6 +93,7 @@ export const regionalInstitutions: Record<Region, Institution[]> = {
   "Hong Kong": ["HKU", "HKUST", "CUHK", "CityU", "PolyU", "HKBU"],
   "Mainland China": ["THU", "PKU", "FDU", "RUC", "HIT", "CAS-IA", "NJU", "SJTU", "ZJU", "USTC", "BIT", "BUAA", "BUPT", "XJTU", "SYSU", "ECNU", "WHU"],
   "United States": ["Stanford", "Berkeley", "CMU", "UW", "MIT", "Princeton", "Cornell", "NYU", "Columbia", "UMass", "JHU", "UT Austin", "UMich", "UIUC", "Georgia Tech", "UCLA", "UCSD"],
+  Europe: ["Oxford", "Cambridge", "UCL", "Edinburgh", "ETH Zurich", "EPFL", "Tübingen/MPI", "TUM", "TU Darmstadt", "UvA", "KU Leuven", "Inria", "Sapienza"],
 };
 
 export function regionOf(person: Person): Region {
@@ -702,13 +712,18 @@ const basePeople: Person[] = [
   ...mainlandPeople,
   ...mainlandPhase2People,
   ...mainlandAiCvPeople,
+  ...lamdaPeople,
   ...usPeople,
   ...usAiCvExpansionPeople,
   ...systematicRosterPeople,
+  ...europePeople,
+  ...academicLineagePeople,
+  ...cvRosterAuditPeople,
 ];
 
 export const people: Person[] = basePeople.map((person) => {
-  const portrait = systematicRosterPortraits[person.id] ?? hkSgMissingPortraits[person.id] ?? mainlandMissingPortraits[person.id] ?? mainlandFillAPortraits[person.id] ?? mainlandFillBPortraits[person.id] ?? mainlandPortraits[person.id] ?? hkSgPortraits[person.id] ?? usPortraits[person.id] ?? person.portrait;
+  const portrait = finalEuropeHkPortraits[person.id] ?? finalMainlandPortraits[person.id] ?? finalUsPortraits[person.id] ?? lamdaPortraits[person.id] ?? europePortraits[person.id] ?? systematicRosterPortraits[person.id] ?? hkSgMissingPortraits[person.id] ?? mainlandMissingPortraits[person.id] ?? mainlandFillAPortraits[person.id] ?? mainlandFillBPortraits[person.id] ?? mainlandPortraits[person.id] ?? hkSgPortraits[person.id] ?? usPortraits[person.id] ?? person.portrait;
+  const lamdaEnhancement = lamdaPersonEnhancements[person.id];
   const enhancements: Partial<Person>[] = [
     mainlandPersonEnhancements[person.id],
     fourRegionProfileEnhancements[person.id],
@@ -717,6 +732,7 @@ export const people: Person[] = basePeople.map((person) => {
     sgHkFullProfileEnhancements[person.id],
     mainlandFullProfileEnhancements2[person.id],
     mainlandFullProfileEnhancements3[person.id],
+    lamdaEnhancement,
   ].filter((enhancement): enhancement is Partial<Person> => Boolean(enhancement));
   if (!enhancements.length && !portrait) return person;
   const sources = Array.from(
@@ -725,7 +741,9 @@ export const people: Person[] = basePeople.map((person) => {
         .map((source) => [source.url, source] as const),
     ).values(),
   );
-  const facts = [...(person.facts ?? []), ...enhancements.flatMap((enhancement) => enhancement?.facts ?? [])].filter((fact, index, all) => all.findIndex((candidate) => candidate.label === fact.label && candidate.value === fact.value) === index);
+  const lamdaFactLabels = new Set((lamdaEnhancement?.facts ?? []).map((fact) => fact.label));
+  const baseFacts = (person.facts ?? []).filter((fact) => !lamdaFactLabels.has(fact.label));
+  const facts = [...baseFacts, ...enhancements.flatMap((enhancement) => enhancement?.facts ?? [])].filter((fact, index, all) => all.findIndex((candidate) => candidate.label === fact.label && candidate.value === fact.value) === index);
   return {
     ...person,
     ...Object.assign({}, ...enhancements),
@@ -805,9 +823,13 @@ export const relationships: Relationship[] = [
   ...mainlandFullProfileRelationships2,
   ...mainlandFullProfileRelationships3,
   ...mainlandAiCvRelationships,
+  ...lamdaRelationships,
   ...hkSgAiCvExpansionRelationships,
   ...usAiCvExpansionRelationships,
   ...systematicRosterRelationships,
+  ...europeRelationships,
+  ...academicLineageRelationships,
+  ...cvRosterAuditRelationships,
 ];
 
 export const coverage = [
@@ -825,9 +847,10 @@ export const coverage = [
   ...mainlandCoverage,
   ...mainlandPhase2Coverage,
   ...usCoverage,
+  ...europeCoverage,
 ];
 
-export const communities = [
+export const topicCommunities = [
   { region: "Singapore" as Region, kicker: "成熟谱系与交叉方向", name: "NUS Language, Multimodal & Trustworthy AI", anchor: "Hwee Tou Ng · Min-Yen Kan · Tat-Seng Chua · Bryan Hooi", description: "传统 NLP、检索、多模态基础模型与可信 AI 并存，并形成跨 NUS、NTU、SUTD 与 SMU 的师承及合作联系。", color: "cobalt" },
   { region: "Singapore" as Region, kicker: "新生代独立组", name: "SUTD iNLP Lab", anchor: "Wenxuan Zhang", description: "聚焦多语言、多模态、Audio-Language 与 LLM Agents；曾任 Alibaba Singapore 研究科学家。", color: "lime" },
   { region: "Singapore" as Region, kicker: "多中心生态", name: "NTU NLP & Generative AI", anchor: "Shafiq Joty · Wei Lu · Soujanya Poria · Anh Tuan Luu", description: "多语言、可信 LLM、推理与多模态对话；学生产业去向覆盖 Salesforce、Apple、腾讯、华为、阿里与字节。", color: "coral" },
@@ -849,7 +872,16 @@ export const communities = [
   ...mainlandCommunities,
   ...mainlandPhase2Communities,
   ...usCommunities,
+  ...europeCommunities,
 ];
+
+/**
+ * Cross-institution labs and adviser lineages.  Broad research-topic buckets
+ * remain available as `topicCommunities`, but the public “research
+ * communities” view is intentionally based on named groups and sourced
+ * academic descent rather than similarity of research keywords.
+ */
+export const communities = academicCommunities;
 
 export const industryPathways: IndustryPathway[] = [
   { id: "sg-joty", region: "Singapore", kind: "JOINT / PARALLEL AFFILIATION", title: "Shafiq Joty ↔ Salesforce Research", description: "NTU 官方公告以 Salesforce Research、NTU 双重身份署名，是直接的学界—企业研究连接。", source: { label: "NTU 公告", url: "https://www.ntu.edu.sg/computing/news-events/news/detail/the-2024-conference-on-empirical-methods-in-natural-language-processing", kind: "official" } },
@@ -869,6 +901,7 @@ export const industryPathways: IndustryPathway[] = [
   ...mainlandIndustryPathways,
   ...mainlandPhase2IndustryPathways,
   ...usIndustryPathways,
+  ...europeIndustryPathways,
 ];
 
 const nusNlpAlumni: Source = { label: "NUS NLP Group alumni", url: "https://www.comp.nus.edu.sg/~nlp/people.html", kind: "official" };
@@ -912,9 +945,11 @@ export const groupMembers: GroupMember[] = [
   ...mainlandFullProfileGroupMembers2,
   ...mainlandFullProfileGroupMembers3,
   ...mainlandAiCvGroupMembers,
+  ...lamdaGroupMembers,
   ...hkSgAiCvExpansionGroupMembers,
   ...usAiCvExpansionGroupMembers,
   ...systematicRosterGroupMembers,
+  ...europeGroupMembers,
 ];
 
 export const studentPlacements: StudentPlacement[] = [
@@ -975,7 +1010,9 @@ export const studentPlacements: StudentPlacement[] = [
   ...mainlandFullProfileStudentPlacements2,
   ...mainlandFullProfileStudentPlacements3,
   ...mainlandAiCvPlacements,
+  ...lamdaPlacements,
   ...hkSgAiCvExpansionPlacements,
   ...usAiCvExpansionPlacements,
   ...systematicRosterPlacements,
+  ...europeStudentPlacements,
 ];
