@@ -58,6 +58,7 @@ function countryName(code: string) {
 export default function VisitorMap() {
   const [snapshot, setSnapshot] = useState<VisitorSnapshot>({ totalVisits: 0, countries: [] });
   const [loading, setLoading] = useState(true);
+  const [unavailable, setUnavailable] = useState(false);
 
   useEffect(() => {
     let active = true;
@@ -78,12 +79,16 @@ export default function VisitorMap() {
           : await fetch(endpoint);
         if (!response.ok) throw new Error("visitor stats unavailable");
         const data = await response.json() as VisitorSnapshot;
-        if (active) setSnapshot(data);
+        if (active) {
+          setSnapshot(data);
+          setUnavailable(false);
+        }
         if (!privacyOptOut && !alreadyCounted) {
           try { sessionStorage.setItem("xuemai-visit-counted", "1"); } catch { /* optional session guard */ }
         }
       } catch {
-        // The local preview has no D1 binding. Keep the honest empty state instead of inventing traffic.
+        // Do not present a failed request as a real zero count.
+        if (active) setUnavailable(true);
       } finally {
         if (active) setLoading(false);
       }
@@ -104,7 +109,7 @@ export default function VisitorMap() {
       <p className="section-index">07 / GLOBAL READERS</p>
       <h2 id="visitor-map-title">学脉从哪里被看见。</h2>
       <p>地图按国家或地区汇总公开访问次数，用来观察这份学术图谱连接到了哪些地方。</p>
-      <div className="visitor-total"><strong>{loading ? "—" : snapshot.totalVisits.toLocaleString("zh-CN")}</strong><span>累计访问次数</span></div>
+      <div className="visitor-total"><strong>{loading || unavailable ? "—" : snapshot.totalVisits.toLocaleString("zh-CN")}</strong><span>{unavailable ? "统计服务暂不可用" : "累计访问次数"}</span></div>
       <p className="visitor-privacy">不保存原始 IP、城市、浏览轨迹或个人身份；尊重 Do Not Track 与 Global Privacy Control。刷新页面不会在同一浏览会话中重复计数。</p>
     </div>
     <div className="visitor-map-card">
@@ -113,12 +118,14 @@ export default function VisitorMap() {
           {landRows.flatMap((row, rowIndex) => row.padEnd(landRows[0].length, ".").slice(0, landRows[0].length).split("").map((cell, columnIndex) => <i className={cell === "#" ? "land" : ""} key={`${rowIndex}-${columnIndex}`} />))}
         </div>
         {markers.map((marker) => <span className="visitor-marker" key={marker.countryCode} style={{ left: `${marker.left}%`, top: `${marker.top}%`, "--marker-scale": Math.min(1.9, 1 + Math.log10(marker.visits + 1) * .35) } as React.CSSProperties} title={`${countryName(marker.countryCode)}：${marker.visits} 次访问`}><i /><b>{marker.visits}</b></span>)}
-        {!loading && snapshot.totalVisits === 0 && <p className="visitor-empty">线上部署后开始累计真实访问，不显示模拟数据。</p>}
+        {!loading && unavailable && <p className="visitor-empty">访问统计暂时不可用，请稍后再试。</p>}
+        {!loading && !unavailable && snapshot.totalVisits === 0 && <p className="visitor-empty">尚未记录到线上访问，不显示模拟数据。</p>}
       </div>
       <div className="visitor-ranking">
         <header><strong>访问来源</strong><span>{snapshot.countries.length} 个国家 / 地区</span></header>
         {snapshot.countries.slice(0, 6).map((country, index) => <div key={country.countryCode}><span><b>{String(index + 1).padStart(2, "0")}</b>{countryName(country.countryCode)}</span><strong>{country.visits.toLocaleString("zh-CN")}</strong></div>)}
-        {!loading && snapshot.countries.length === 0 && <p>尚未记录到线上访问。</p>}
+        {!loading && unavailable && <p>统计服务暂不可用。</p>}
+        {!loading && !unavailable && snapshot.countries.length === 0 && <p>尚未记录到线上访问。</p>}
         {loading && <p>正在读取公开访问统计…</p>}
       </div>
     </div>

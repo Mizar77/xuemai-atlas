@@ -1,7 +1,8 @@
 "use client";
 
 import { useEffect, useMemo, useRef, useState } from "react";
-import { communities, coverage, groupMembers, industryPathways, people, placementSectorLabels, placementSectorOf, regionOf, regionalInstitutions, relationships, relationshipSubtypeLabels, relationshipSubtypeOf, stageLabels, studentPlacements, type Person, type PlacementSector, type Region, type Relationship, type Source, type StudentPlacement } from "./data";
+import { communities, coverage, groupMembers, industryPathways, people, placementSectorLabels, placementSectorOf, regionOf, regionalInstitutions, relationships, relationshipSubtypeLabels, relationshipSubtypeOf, stageLabels, studentPlacements, type Person, type Region, type Relationship, type Source, type StudentPlacement } from "./data";
+import { companyResearchLineages, type CompanyLineageAdviser } from "./company-lineage-data";
 import FeedbackDrawer from "./FeedbackDrawer";
 import VisitorMap from "./VisitorMap";
 
@@ -9,8 +10,6 @@ type EdgeFilter = "all" | Relationship["type"];
 type InstitutionFilter = "All" | Person["institution"];
 type FocusFilter = "all" | "core" | "emerging" | "adjacent" | "historical";
 type AtlasView = "graph" | "people" | "evidence";
-type PlacementKindFilter = "all" | StudentPlacement["kind"];
-type PlacementSectorFilter = "all" | PlacementSector;
 type TimelineType = "appointment" | "collaboration" | "topic" | "talent";
 type TimelineFilter = "all" | TimelineType;
 type DiscoveryMode = "mentor" | "network";
@@ -34,13 +33,14 @@ const institutionColors: Record<Person["institution"], string> = {
   ZJU: "#2f67a3", USTC: "#3d7b66", BIT: "#9b5c2e", BUAA: "#315b8f", BUPT: "#5b4c9a", XJTU: "#9a3e35", SYSU: "#1d746c", ECNU: "#7b4d91", WHU: "#355f9d",
   Stanford: "#8c1515", Berkeley: "#003262", CMU: "#c41230", UW: "#4b2e83", MIT: "#a31f34", Princeton: "#e77500", Cornell: "#b31b1b", NYU: "#57068c", Columbia: "#5b9bd5", UMass: "#881c1c", JHU: "#2c2c77", "UT Austin": "#bf5700",
   UMich: "#00274c", UIUC: "#e84a27", "Georgia Tech": "#b3a369", UCLA: "#2774ae", UCSD: "#00629b",
+  Oxford: "#002147", Cambridge: "#a3c1ad", UCL: "#003b5c", Edinburgh: "#b51f1f", "ETH Zurich": "#1f82c0", EPFL: "#d71920", "Tübingen/MPI": "#5b3f91", TUM: "#0065bd", "TU Darmstadt": "#005aa9", UvA: "#bc0031", "KU Leuven": "#116e8a", Inria: "#5b38b4", Sapienza: "#8b1d3d",
 };
 const relationColors: Record<Relationship["type"], string> = { lineage: "#275ee6", collaboration: "#f16f51", industry: "#07a383", talent: "#8a5bdb" };
 const placementKindLabels = { current: "当前任职", first_job: "毕业去向", founder: "创业", reported: "组页记录", internship: "产业实习" } as const;
 const timelineTypeLabels: Record<TimelineType, string> = { appointment: "人物任职", collaboration: "合作关系", topic: "研究方向", talent: "人才流动" };
-const regionLabels: Record<Region, string> = { Singapore: "新加坡", "Hong Kong": "香港", "Mainland China": "中国大陆", "United States": "美国" };
+const regionLabels: Record<Region, string> = { Singapore: "新加坡", "Hong Kong": "香港", "Mainland China": "中国大陆", "United States": "美国", Europe: "欧洲" };
 const sourceKindLabels = { official: "官方", self_submitted: "本人 / 实验室提交", cv: "CV", thesis: "学位论文", profile: "个人主页", publication: "论文", company: "公司资料" } as const;
-const regionSlugs: Record<Region, string> = { Singapore: "singapore", "Hong Kong": "hong-kong", "Mainland China": "mainland", "United States": "us" };
+const regionSlugs: Record<Region, string> = { Singapore: "singapore", "Hong Kong": "hong-kong", "Mainland China": "mainland", "United States": "us", Europe: "europe" };
 
 function regionFromSlug(value: string | null): Region | undefined {
   return (Object.keys(regionSlugs) as Region[]).find((key) => regionSlugs[key] === value);
@@ -61,14 +61,12 @@ function hasRecruitingIntent(value: string) {
 }
 
 function communityIncludesPerson(community: (typeof communities)[number], person: Person) {
-  return [person.name, person.chinese, primaryName(person)].filter(Boolean).some((name) => community.anchor.toLocaleLowerCase().includes(String(name).toLocaleLowerCase()));
+  return community.memberIds.includes(person.id);
 }
 
-function yearSpan(placements: StudentPlacement[]) {
-  const years = placements.map((placement) => placement.graduationYear).filter((year): year is number => Boolean(year));
-  if (!years.length) return "年份待补";
-  const first = Math.min(...years); const last = Math.max(...years);
-  return first === last ? `${first}` : `${first}–${last}`;
+function companyOrbitPoint(index: number, total: number, radius: number, centerX = 450, centerY = 340, startAngle = -Math.PI / 2) {
+  const angle = startAngle + (Math.PI * 2 * index) / Math.max(total, 1);
+  return { x: centerX + Math.cos(angle) * radius, y: centerY + Math.sin(angle) * radius };
 }
 
 const graphZones: Record<Region, { institution: Person["institution"]; note: string; className: string }[]> = {
@@ -125,6 +123,21 @@ const graphZones: Record<Region, { institution: Person["institution"]; note: str
     { institution: "UCLA", note: "2 vision PI", className: "zone-ucla" },
     { institution: "UCSD", note: "2 ML / multimodal PI", className: "zone-ucsd" },
   ],
+  Europe: [
+    { institution: "Oxford", note: "5 representative PI", className: "zone-oxford" },
+    { institution: "Cambridge", note: "5 representative PI", className: "zone-cambridge" },
+    { institution: "UCL", note: "5 representative PI", className: "zone-ucl" },
+    { institution: "Edinburgh", note: "4 representative PI", className: "zone-edinburgh" },
+    { institution: "ETH Zurich", note: "4 representative PI", className: "zone-eth" },
+    { institution: "EPFL", note: "4 representative PI", className: "zone-epfl" },
+    { institution: "Tübingen/MPI", note: "3 representative PI", className: "zone-tuebingen" },
+    { institution: "TUM", note: "1 representative PI", className: "zone-tum" },
+    { institution: "TU Darmstadt", note: "2 representative PI", className: "zone-darmstadt" },
+    { institution: "UvA", note: "3 representative PI", className: "zone-uva" },
+    { institution: "KU Leuven", note: "3 representative PI", className: "zone-kuleuven" },
+    { institution: "Inria", note: "3 representative PI", className: "zone-inria" },
+    { institution: "Sapienza", note: "1 representative PI", className: "zone-sapienza" },
+  ],
 };
 
 const graphZoneSize = 340;
@@ -136,6 +149,7 @@ const graphZoneStartY = 100;
 const graphLeadOrder: Partial<Record<Region, string[]>> = {
   Singapore: ["wenxuan-zhang", "yang-deng"],
   "Hong Kong": ["wai-lam"],
+  Europe: ["mirella-lapata-eu", "yarin-gal-eu", "michael-bronstein-eu", "cordelia-schmid-eu"],
 };
 const directoryLeadByRegion: Partial<Record<Region, string>> = {
   Singapore: "wenxuan-zhang",
@@ -164,17 +178,17 @@ function institutionOrbitPoint(index: number, count: number, centerX: number, ce
 
   if (count <= 18) {
     const outerCount = Math.min(11, Math.ceil(count * .62));
-    if (index < outerCount) return orbitPoint(index, outerCount, 142, centerX, centerY, -2);
-    return orbitPoint(index - outerCount, count - outerCount, 82, centerX, centerY, 16);
+    if (index < outerCount) return orbitPoint(index, outerCount, 134, centerX, centerY, -2);
+    return orbitPoint(index - outerCount, count - outerCount, 68, centerX, centerY, 16);
   }
 
   // Dense institutions use three rings. Keeping no more than 12 names on the
   // outer orbit leaves enough arc length for the 76px labels inside a 340px zone.
   const outerCount = 12;
   const middleCount = Math.min(7, count - outerCount);
-  if (index < outerCount) return orbitPoint(index, outerCount, 143, centerX, centerY, -2);
-  if (index < outerCount + middleCount) return orbitPoint(index - outerCount, middleCount, 91, centerX, centerY, 12);
-  return orbitPoint(index - outerCount - middleCount, count - outerCount - middleCount, 43, centerX, centerY, 30);
+  if (index < outerCount) return orbitPoint(index, outerCount, 134, centerX, centerY, -2);
+  if (index < outerCount + middleCount) return orbitPoint(index - outerCount, middleCount, 68, centerX, centerY, 12);
+  return orbitPoint(index - outerCount - middleCount, count - outerCount - middleCount, 28, centerX, centerY, 30);
 }
 
 function RelationChip({ type }: { type: Relationship["type"] }) {
@@ -294,14 +308,10 @@ export default function AcademicAtlas() {
   const [query, setQuery] = useState("");
   const [selectedId, setSelectedId] = useState("maosong-sun");
   const [graphFocusId, setGraphFocusId] = useState<string | null>(null);
-  const [selectedCompany, setSelectedCompany] = useState("Huawei");
+  const [selectedCompany, setSelectedCompany] = useState("ByteDance Seed");
+  const [selectedCompanyResearcher, setSelectedCompanyResearcher] = useState("seed-wanjun-zhong");
   const [view, setView] = useState<AtlasView>("people");
   const [timelineFilter, setTimelineFilter] = useState<TimelineFilter>("all");
-  const [companySector, setCompanySector] = useState<PlacementSectorFilter>("all");
-  const [companyKind, setCompanyKind] = useState<PlacementKindFilter>("all");
-  const [companyDepartment, setCompanyDepartment] = useState("all");
-  const [companyDegree, setCompanyDegree] = useState("all");
-  const [companyYear, setCompanyYear] = useState("all");
   const [discoveryMode, setDiscoveryMode] = useState<DiscoveryMode>("mentor");
   const [directoryGrouping, setDirectoryGrouping] = useState<DirectoryGrouping>("institution");
   const [selectedCommunity, setSelectedCommunity] = useState("all");
@@ -326,6 +336,8 @@ export default function AcademicAtlas() {
         if (urlView === "graph") setGraphFocusId(person.id);
       } else if (urlRegion) {
         setRegion(urlRegion);
+        const firstRegionalPerson = people.find((candidate) => regionOf(candidate) === urlRegion && candidate.primary);
+        if (firstRegionalPerson) setSelectedId(firstRegionalPerson.id);
       }
       if (urlView && ["graph", "people", "evidence"].includes(urlView)) setView(urlView);
       if (urlFocus && Object.hasOwn(focusLabels, urlFocus)) setFocus(urlFocus);
@@ -439,35 +451,26 @@ export default function AcademicAtlas() {
       .slice(0, 24);
   }, [query]);
 
-  const companyIndex = useMemo(() => Array.from(new Set(regionalPlacements.map((placement) => placement.company))).map((company) => {
-    const placements = regionalPlacements.filter((placement) => placement.company === company);
-    return { company, placements, teachers: new Set(placements.map((placement) => placement.teacherId)).size };
-  }).sort((a, b) => b.teachers - a.teachers || b.placements.length - a.placements.length || a.company.localeCompare(b.company)), [regionalPlacements]);
+  const companyIndex = useMemo(() => Array.from(new Set(companyResearchLineages.map((record) => record.company))).map((company) => {
+    const records = companyResearchLineages.filter((record) => record.company === company);
+    const adviserKeys = new Set(records.flatMap((record) => record.advisers.map((adviser) => adviser.teacherId ?? adviser.name)));
+    return { company, records, advisers: adviserKeys.size, color: records[0].companyColor, accent: records[0].companyAccent, short: records[0].companyShort };
+  }), []);
   const selectedCompanyData = companyIndex.find((entry) => entry.company === selectedCompany) ?? companyIndex[0];
-  const companyFilterOptions = useMemo(() => ({
-    departments: Array.from(new Set(regionalPlacements.map((placement) => placement.department).filter((value): value is string => Boolean(value)))).sort(),
-    degrees: Array.from(new Set(regionalPlacements.map((placement) => placement.degree).filter((value): value is NonNullable<StudentPlacement["degree"]> => Boolean(value)))).sort(),
-    years: Array.from(new Set(regionalPlacements.map((placement) => placement.graduationYear).filter((value): value is number => Boolean(value)))).sort((a, b) => b - a),
-  }), [regionalPlacements]);
-  const filteredCompanyPlacements = selectedCompanyData.placements.filter((placement) =>
-    (companySector === "all" || placementSectorOf(placement) === companySector) &&
-    (companyKind === "all" || placement.kind === companyKind) &&
-    (companyDepartment === "all" || placement.department === companyDepartment) &&
-    (companyDegree === "all" || placement.degree === companyDegree) &&
-    (companyYear === "all" || placement.graduationYear === Number(companyYear))
-  );
-  const companyPipelines = Array.from(new Set(filteredCompanyPlacements.map((placement) => placement.teacherId))).map((teacherId) => ({
-    teacher: people.find((person) => person.id === teacherId)!,
-    placements: filteredCompanyPlacements.filter((placement) => placement.teacherId === teacherId),
+  const selectedCompanyRecord = selectedCompanyData.records.find((record) => record.id === selectedCompanyResearcher) ?? selectedCompanyData.records[0];
+  const companyResearcherNodes = selectedCompanyData.records.map((record, index) => ({
+    record,
+    ...companyOrbitPoint(index, selectedCompanyData.records.length, selectedCompanyData.records.length === 1 ? 158 : 176),
   }));
-  const companyInstitutionSources = Array.from(new Set(companyPipelines.map(({ teacher }) => teacher.institution))).map((sourceInstitution) => {
-    const placements = filteredCompanyPlacements.filter((placement) => people.find((person) => person.id === placement.teacherId)?.institution === sourceInstitution);
-    return { institution: sourceInstitution, placements, teachers: new Set(placements.map((placement) => placement.teacherId)).size };
-  }).sort((a, b) => b.placements.length - a.placements.length);
-  const regionalSectorCounts = (Object.keys(placementSectorLabels) as PlacementSector[]).map((sector) => ({
-    sector,
-    count: regionalPlacements.filter((placement) => placementSectorOf(placement) === sector).length,
+  const adviserMap = new Map<string, CompanyLineageAdviser>();
+  selectedCompanyData.records.forEach((record) => record.advisers.forEach((adviser) => adviserMap.set(adviser.teacherId ?? adviser.name, adviser)));
+  const companyAdviserNodes = Array.from(adviserMap.entries()).map(([key, adviser], index, all) => ({
+    key,
+    adviser,
+    teacher: adviser.teacherId ? people.find((person) => person.id === adviser.teacherId) : undefined,
+    ...companyOrbitPoint(index, all.length, all.length === 1 ? 292 : 304, 450, 340, -Math.PI / 2 + Math.PI / Math.max(all.length, 2)),
   }));
+  const companyAdviserNodeByKey = new Map(companyAdviserNodes.map((node) => [node.key, node]));
 
   const visiblePeople = useMemo(() => {
     const needle = query.trim().toLowerCase();
@@ -480,7 +483,7 @@ export default function AcademicAtlas() {
         focus === "adjacent" ? person.category === "adjacent" : person.category === "historical";
       const queryMatch = !needle || globalMatches.some((match) => match.person.id === person.id);
       const favoriteMatch = !favoritesOnly || favoriteIds.has(person.id);
-      const communityMatch = directoryGrouping !== "topic" || selectedCommunity === "all" || communities.some((community) => community.region === region && community.name === selectedCommunity && communityIncludesPerson(community, person));
+      const communityMatch = directoryGrouping !== "topic" || selectedCommunity === "all" || communities.some((community) => community.regions.includes(region) && community.name === selectedCommunity && communityIncludesPerson(community, person));
       return institutionMatch && focusMatch && queryMatch && favoriteMatch && communityMatch;
     });
   }, [directoryGrouping, favoriteIds, favoritesOnly, focus, globalMatches, institution, query, region, regionPeople, selectedCommunity]);
@@ -510,12 +513,7 @@ export default function AcademicAtlas() {
       note: documented?.note ?? "本轮按公开院系名录与教师主页扩展；关系与去向仅在有逐条证据时收录。",
     };
   });
-  const regionalCommunities = communities.filter((community) => community.region === region);
-  const companyCommunitySources = regionalCommunities.map((community) => {
-    const teacherIds = new Set(companyPipelines.filter(({ teacher }) => communityIncludesPerson(community, teacher)).map(({ teacher }) => teacher.id));
-    const placements = filteredCompanyPlacements.filter((placement) => teacherIds.has(placement.teacherId));
-    return { community, placements, teachers: teacherIds.size };
-  }).filter((entry) => entry.placements.length).sort((a, b) => b.placements.length - a.placements.length);
+  const regionalCommunities = communities.filter((community) => community.regions.includes(region));
   const regionalPathways = industryPathways.filter((pathway) => pathway.region === region);
   const graphRows = Math.ceil(graphZones[region].length / graphZoneColumns);
   const graphHeight = Math.max(910, graphZoneStartY + graphRows * graphZoneSize + (graphRows - 1) * graphZoneGapY + 60);
@@ -526,7 +524,7 @@ export default function AcademicAtlas() {
     setQuery("");
     setGraphFocusId(null);
     setSelectedCommunity("all");
-    setSelectedId(nextRegion === "Hong Kong" ? "lingpeng-kong" : nextRegion === "Singapore" ? "wei-lu" : nextRegion === "United States" ? "christopher-manning-us" : "maosong-sun");
+    setSelectedId(nextRegion === "Hong Kong" ? "lingpeng-kong" : nextRegion === "Singapore" ? "wei-lu" : nextRegion === "United States" ? "christopher-manning-us" : nextRegion === "Europe" ? "mirella-lapata-eu" : "maosong-sun");
   }
 
   function chooseMode(mode: DiscoveryMode) {
@@ -570,7 +568,7 @@ export default function AcademicAtlas() {
     return { key: community.name, label: community.name, note: community.kicker, color: community.color, people: members };
   }).filter((group) => group.people.length));
   const remainingTopicPeople = leadFirst(visiblePeople.filter((person) => person.primary && !assignedTopicPeople.has(person.id)));
-  const directoryGroups = directoryGrouping === "institution" ? institutionDirectoryGroups : [...topicDirectoryGroups, ...(remainingTopicPeople.length ? [{ key: "other-topics", label: "其他研究方向", note: "尚未归入公开研究群落", color: "neutral", people: remainingTopicPeople }] : [])];
+  const directoryGroups = directoryGrouping === "institution" ? institutionDirectoryGroups : [...topicDirectoryGroups, ...(remainingTopicPeople.length ? [{ key: "other-communities", label: "其他人物", note: "尚未归入有公开名录的学术共同体", color: "neutral", people: remainingTopicPeople }] : [])];
 
   function openPerson(person: Person, nextView: AtlasView = view) {
     setRegion(regionOf(person));
@@ -614,17 +612,17 @@ export default function AcademicAtlas() {
             </div>
             <form className="hero-search" onSubmit={submitHeroSearch}>
               <label><span>⌕</span><input value={query} onChange={(event) => setQuery(event.target.value)} placeholder="输入地区、方向、老师或招生意图" aria-label="搜索导师与学术网络" /><button type="submit">开始探索</button></label>
-              <div><small>试试</small>{["新加坡 + 多模态 + 招 RA", "香港 + 计算机视觉", "美国 + 具身智能 + PhD"].map((example) => <button type="button" key={example} onClick={() => { setQuery(example); setView("people"); document.querySelector("#atlas")?.scrollIntoView({ behavior: "smooth" }); }}>{example}</button>)}</div>
+              <div><small>试试</small>{["新加坡 + 多模态 + 招 RA", "欧洲 + NLP", "美国 + 具身智能 + PhD"].map((example) => <button type="button" key={example} onClick={() => { setQuery(example); setView("people"); document.querySelector("#atlas")?.scrollIntoView({ behavior: "smooth" }); }}>{example}</button>)}</div>
             </form>
           </div>
           <picture className="hero-visual">
-            <source media="(max-width: 760px)" srcSet="atlas-hero-tech-v2.png" />
-            <img src="atlas-hero-tech-v2.png" alt="学脉 Atlas：连接中国大陆、香港、新加坡与美国的 AI、NLP、计算机视觉和多模态学术关系图谱" />
+            <source media="(max-width: 760px)" srcSet="atlas-hero-tech-v3.png" />
+            <img src="atlas-hero-tech-v3.png" alt="学脉 Atlas：连接中国大陆、香港、新加坡、美国与欧洲的 AI、NLP、计算机视觉和多模态学术关系图谱" />
           </picture>
         </div>
         <div className="hero-utility">
           <div className="region-switch" role="tablist" aria-label="地区切换">
-            {(["Mainland China", "Hong Kong", "Singapore", "United States"] as Region[]).map((item) => <button key={item} className={region === item ? "active" : ""} onClick={() => changeRegion(item)}>{regionLabels[item]}<small>{item}</small></button>)}
+            {(["Mainland China", "Hong Kong", "Singapore", "United States", "Europe"] as Region[]).map((item) => <button key={item} className={region === item ? "active" : ""} onClick={() => changeRegion(item)}>{regionLabels[item]}<small>{item}</small></button>)}
           </div>
           <div className="hero-summary" aria-live="polite">
             <div><strong>{coreCount}</strong><span>核心 PI</span></div>
@@ -655,7 +653,7 @@ export default function AcademicAtlas() {
         <div className="atlas-shell">
           <div className="atlas-toolbar">
             <div className="search-wrap">
-              <label className="search-box"><span>⌕</span><input ref={searchInputRef} value={query} onChange={(e) => setQuery(e.target.value)} placeholder="跨四地区搜索人物、学生、公司、方向…" aria-label="全局搜索" /></label>
+              <label className="search-box"><span>⌕</span><input ref={searchInputRef} value={query} onChange={(e) => setQuery(e.target.value)} placeholder="跨五地区搜索人物、学生、公司、方向…" aria-label="全局搜索" /></label>
               {query.trim() && <div className="global-search-results" role="listbox" aria-label="全局搜索结果">
                 <header><strong>全局结果</strong><span>{globalMatches.length} 位相关学者</span></header>
                 {globalMatches.map(({ person, matchedIn, recruitingMatch }) => <button key={person.id} role="option" aria-selected={selected.id === person.id} onClick={() => { openPerson(person, "people"); setQuery(""); }}>
@@ -674,11 +672,11 @@ export default function AcademicAtlas() {
           <div className="focus-toolbar">
             <span>收录层级</span>
             <div className="filter-row">{(Object.keys(focusLabels) as FocusFilter[]).map((item) => <button key={item} className={focus === item ? "active" : ""} onClick={() => setFocus(item)}>{focusLabels[item]}</button>)}</div>
-            {view === "people" && <div className="directory-controls" aria-label="名录组织方式"><span>组织方式</span><button className={directoryGrouping === "institution" ? "active" : ""} onClick={() => { setDirectoryGrouping("institution"); setSelectedCommunity("all"); }}>按学校</button><button className={directoryGrouping === "topic" ? "active" : ""} onClick={() => setDirectoryGrouping("topic")}>按研究主题</button><button className={favoritesOnly ? "active favorite-active" : ""} onClick={() => setFavoritesOnly((current) => !current)}>★ 我的收藏 {favoriteIds.size}</button></div>}
+            {view === "people" && <div className="directory-controls" aria-label="名录组织方式"><span>组织方式</span><button className={directoryGrouping === "institution" ? "active" : ""} onClick={() => { setDirectoryGrouping("institution"); setSelectedCommunity("all"); }}>按学校</button><button className={directoryGrouping === "topic" ? "active" : ""} onClick={() => setDirectoryGrouping("topic")}>按学术共同体</button><button className={favoritesOnly ? "active favorite-active" : ""} onClick={() => setFavoritesOnly((current) => !current)}>★ 我的收藏 {favoriteIds.size}</button></div>}
             {view !== "people" && <div className="filter-row relation-filter">{(Object.keys(edgeLabels) as EdgeFilter[]).map((item) => <button key={item} className={edgeFilter === item ? "active" : ""} onClick={() => setEdgeFilter(item)}>{item !== "all" && <i className={`dot-${item}`} />}{edgeLabels[item]}</button>)}</div>}
           </div>
 
-          {view === "people" && directoryGrouping === "topic" && <div className="community-filter" aria-label="研究主题社区筛选"><button className={selectedCommunity === "all" ? "active" : ""} onClick={() => setSelectedCommunity("all")}>全部研究主题</button>{regionalCommunities.map((community) => <button key={community.name} className={selectedCommunity === community.name ? "active" : ""} onClick={() => setSelectedCommunity(community.name)}>{community.name}</button>)}</div>}
+          {view === "people" && directoryGrouping === "topic" && <div className="community-filter" aria-label="学术共同体筛选"><button className={selectedCommunity === "all" ? "active" : ""} onClick={() => setSelectedCommunity("all")}>全部学术共同体</button>{regionalCommunities.map((community) => <button key={community.id} className={selectedCommunity === community.name ? "active" : ""} onClick={() => setSelectedCommunity(community.name)}>{community.name}</button>)}</div>}
 
           <div className={`atlas-content atlas-content-${view}`}>
             {view === "graph" && (
@@ -713,7 +711,7 @@ export default function AcademicAtlas() {
                   </svg>
                   {visiblePeople.map((person) => {
                     const point = graphPositionFor(person);
-                    const denseInstitution = regionPeople.filter((candidate) => candidate.institution === person.institution).length > 18;
+                    const denseInstitution = regionPeople.filter((candidate) => candidate.institution === person.institution).length > 10;
                     return (
                     <button key={person.id} data-institution={person.institution} aria-label={`${displayName(person)} · ${person.institution} · ${person.area}`} title={`${displayName(person)} · ${person.institution} · ${person.area}`} className={`person-node ${denseInstitution ? "dense-node" : ""} ${person.primary ? "primary-node" : "external-node"} ${activeGraphFocusId === person.id ? "selected" : ""} ${activeGraphFocusId && !graphFocusedIds.has(person.id) ? "dimmed" : "focus-active"}`} style={{ left: point.x, top: point.y, "--node-color": institutionColors[person.institution] } as React.CSSProperties} onClick={(event) => { event.stopPropagation(); setSelectedId(person.id); setGraphFocusId((current) => current === person.id ? null : person.id); }}>
                       <PersonAvatar person={person} className="node-avatar" /><span className="node-copy"><strong>{displayName(person)}</strong></span>
@@ -826,42 +824,70 @@ export default function AcademicAtlas() {
       </section>
 
       <section className="communities-section" id="communities">
-        <div className="section-heading light-heading"><div><p className="section-index">03 / RESEARCH COMMUNITIES</p><h2>从导师谱系到研究群落。</h2></div><p>群落同时参考师承、实验室、长期合作与组织关系；这里呈现由公开证据支持的研究集群，不对群体作价值判断。</p></div>
-        <div className="community-grid">{regionalCommunities.map((community, index) => <article key={community.name} className={`community-card ${community.color}`}><span className="community-number">0{index + 1}</span><p>{community.kicker}</p><h3>{community.name}</h3><strong>{community.anchor}</strong><span>{community.description}</span><button onClick={() => { setView("people"); setDirectoryGrouping("topic"); setSelectedCommunity(community.name); document.querySelector("#atlas")?.scrollIntoView({ behavior: "smooth" }); }}>查看这个研究社区 ↗</button></article>)}</div>
+        <div className="section-heading light-heading"><div><p className="section-index">03 / ACADEMIC COMMUNITIES</p><h2>越过学校边界，查看师门与实验室网络。</h2></div><p>这里只收录能够由实验室名录、导师说明或校友去向直接支持的共同体。相似研究方向不会被自动归为同一群体。</p></div>
+        <div className="community-legend"><span><i className="community-kind-lab" />实验室母体 / 分支</span><span><i className="community-kind-lineage" />导师 / 学术后代</span><b>当前地区：{regionLabels[region]} · 同一共同体可跨地区出现</b></div>
+        <div className="community-grid">{regionalCommunities.map((community, index) => <article key={community.id} className={`community-card ${community.color}`}>
+          <span className="community-number">{String(index + 1).padStart(2, "0")}</span>
+          <p>{community.kicker}</p>
+          <h3>{community.name}</h3>
+          <strong className="community-root">{community.roots}</strong>
+          <span className="community-anchor">{community.anchor}</span>
+          <span className="community-description">{community.description}</span>
+          <div className="community-branches">{community.branches.map((branch) => {
+            const branchPeople = (branch.memberIds ?? []).map((id) => people.find((person) => person.id === id)).filter((person): person is Person => Boolean(person));
+            return <div key={branch.label}><b>{branch.label}</b><div>{branchPeople.map((person) => <button key={person.id} onClick={() => { openPerson(person, "people"); setDirectoryGrouping("topic"); setSelectedCommunity(community.name); document.querySelector("#atlas")?.scrollIntoView({ behavior: "smooth" }); }}>{displayName(person)}</button>)}{(branch.names ?? []).map((name) => <span key={name}>{name}</span>)}</div></div>;
+          })}</div>
+          <div className="community-meta"><span>{community.regions.map((item) => regionLabels[item]).join(" · ")}</span><span>{community.memberIds.length} 位站内成员</span></div>
+          <div className="community-actions"><button disabled={!community.memberIds.some((id) => people.some((person) => person.id === id && regionOf(person) === region))} onClick={() => { setView("people"); setDirectoryGrouping("topic"); setSelectedCommunity(community.name); document.querySelector("#atlas")?.scrollIntoView({ behavior: "smooth" }); }}>{community.memberIds.some((id) => people.some((person) => person.id === id && regionOf(person) === region)) ? "查看当前地区成员 ↗" : "当前地区成员待补"}</button><a href={community.sources[0].url} target="_blank" rel="noreferrer">共同体证据 ↗</a></div>
+        </article>)}</div>
       </section>
 
       <section className="company-section" id="companies">
         <div className="section-heading">
-          <div><p className="section-index">04 / COMPANY-CENTERED GRAPH</p><h2>从机构观察人才流向。</h2></div>
-          <p>选择单位或部门，中心图会显示{regionLabels[region]}哪些老师的学生进入该组织、学生姓名与公开职位。职业去向分为学术界、工业界、创业、博后和其他；“毕业去向”“当前任职”等则保留原始页面的记录口径。</p>
+          <div><p className="section-index">04 / COMPANY-CENTERED GRAPH</p><h2>从技术报告反查人才谱系。</h2></div>
+          <p>先从代表性模型报告、论文及贡献声明识别研究者，再用个人主页、学位材料核验当前团队与导师。论文归属锚定发表年份，当前任职单独核验，避免把一次署名误当成长期雇佣关系。</p>
         </div>
-        <div className="sector-summary" aria-label="职业去向类别统计">{regionalSectorCounts.map(({ sector, count }) => <button key={sector} className={`${companySector === sector ? "active" : ""} sector-summary-${sector}`} onClick={() => setCompanySector((current) => current === sector ? "all" : sector)}><span>{placementSectorLabels[sector]}</span><strong>{count}</strong></button>)}</div>
-        <div className="company-filterbar" aria-label="学生去向筛选">
-          <label>职业去向<select value={companySector} onChange={(event) => setCompanySector(event.target.value as PlacementSectorFilter)}><option value="all">全部五类去向</option>{Object.entries(placementSectorLabels).map(([value, label]) => <option key={value} value={value}>{label}</option>)}</select></label>
-          <label>记录口径<select value={companyKind} onChange={(event) => setCompanyKind(event.target.value as PlacementKindFilter)}><option value="all">全部公开口径</option>{Object.entries(placementKindLabels).map(([value, label]) => <option key={value} value={value}>{label}</option>)}</select></label>
-          <label>部门<select value={companyDepartment} onChange={(event) => setCompanyDepartment(event.target.value)}><option value="all">全部部门</option>{companyFilterOptions.departments.map((department) => <option key={department}>{department}</option>)}</select></label>
-          <label>学位<select value={companyDegree} onChange={(event) => setCompanyDegree(event.target.value)}><option value="all">全部学位</option>{companyFilterOptions.degrees.map((degree) => <option key={degree}>{degree}</option>)}</select></label>
-          <label>毕业年份<select value={companyYear} onChange={(event) => setCompanyYear(event.target.value)}><option value="all">全部年份</option>{companyFilterOptions.years.map((year) => <option key={year}>{year}</option>)}</select></label>
-          <button onClick={() => { setCompanySector("all"); setCompanyKind("all"); setCompanyDepartment("all"); setCompanyDegree("all"); setCompanyYear("all"); }}>清除筛选</button>
-        </div>
+        <div className="company-method-strip" aria-label="公司图谱核验流程"><span><b>01</b>模型报告 / 论文</span><i>→</i><span><b>02</b>贡献声明与署名</span><i>→</i><span><b>03</b>当前角色核验</span><i>→</i><span><b>04</b>学位与导师</span></div>
         <div className="company-atlas">
           <aside className="company-index" aria-label="公司与部门索引">
-            <header><strong>公司 / 机构</strong><span>{companyIndex.length} 个节点</span></header>
-            <div>{companyIndex.map((entry) => <button key={entry.company} className={selectedCompanyData.company === entry.company ? "active" : ""} onClick={() => setSelectedCompany(entry.company)}><span><strong>{entry.company}</strong><small>{entry.teachers} 位导师 · {entry.placements.length} 名学生</small></span><b>→</b></button>)}</div>
+            <header><strong>大模型公司 / 团队</strong><span>{companyIndex.length} 个公司节点</span></header>
+            <div>{companyIndex.map((entry) => <button key={entry.company} className={selectedCompanyData.company === entry.company ? "active" : ""} onClick={() => { setSelectedCompany(entry.company); setSelectedCompanyResearcher(entry.records[0].id); }}><span><strong>{entry.company}</strong><small>{entry.records.length} 位技术人员 · {entry.advisers} 个导师节点</small></span><b>→</b></button>)}</div>
+            <p>只收录能够同时核验“代表性工作、任职状态、学术来源”的人物。当前与历史关系分开标注；没有公开技术报告或导师证据时会明确留空，不用合著关系代替。</p>
           </aside>
-          <div className="company-graph" aria-label={`${selectedCompanyData.company} 的导师学生流向图`}>
-            <div className="company-hub"><small>COMPANY / DEPARTMENT</small><strong>{selectedCompanyData.company}</strong><span>{filteredCompanyPlacements.length} / {selectedCompanyData.placements.length} 条匹配记录</span></div>
-            <div className="company-source-map" aria-label={`${selectedCompanyData.company} 的学校和实验室人才来源`}>
-              <div><small>SOURCE INSTITUTIONS</small><strong>主要学校来源</strong><ul>{companyInstitutionSources.map((entry) => <li key={entry.institution}><span>{entry.institution}</span><b>{entry.teachers} 位导师 · {entry.placements.length} 人 · {yearSpan(entry.placements)}</b></li>)}</ul></div>
-              <div><small>LABS / RESEARCH COMMUNITIES</small><strong>实验室与研究群落</strong><ul>{companyCommunitySources.map((entry) => <li key={entry.community.name}><span>{entry.community.name}</span><b>{entry.teachers} 位导师 · {entry.placements.length} 人 · {yearSpan(entry.placements)}</b></li>)}{companyCommunitySources.length === 0 && <li><span>群落归属待补</span><b>不根据学校自动推断实验室</b></li>}</ul></div>
+          <div className="company-graph" aria-label={`${selectedCompanyData.company} 的公司—研究者—导师关系图`} style={{ "--company-color": selectedCompanyData.color, "--company-accent": selectedCompanyData.accent } as React.CSSProperties}>
+            <div className="company-orbit-scroll">
+              <div className="company-orbit-canvas">
+                <svg className="company-orbit-lines" viewBox="0 0 900 680" aria-hidden="true">
+                  <circle className="company-orbit-ring ring-inner" cx="450" cy="340" r="176" />
+                  <circle className="company-orbit-ring ring-outer" cx="450" cy="340" r="304" />
+                  {companyResearcherNodes.map((node) => <line key={`company-${node.record.id}`} className="company-link company-link-researcher" x1="450" y1="340" x2={node.x} y2={node.y} />)}
+                  {companyResearcherNodes.flatMap((node) => node.record.advisers.map((adviser) => {
+                    const adviserNode = companyAdviserNodeByKey.get(adviser.teacherId ?? adviser.name);
+                    return adviserNode ? <line key={`${node.record.id}-${adviserNode.key}`} className="company-link company-link-adviser" x1={node.x} y1={node.y} x2={adviserNode.x} y2={adviserNode.y} /> : null;
+                  }))}
+                </svg>
+                <div className="company-orbit-label label-researchers">REPORT AUTHORS / TEAM</div>
+                <div className="company-orbit-label label-advisers">ACADEMIC ADVISERS</div>
+                <div className="company-circle-hub"><small>COMPANY / MODEL TEAM</small><strong>{selectedCompanyData.short}</strong><span>{selectedCompanyData.records.length} 位研究者</span></div>
+                {companyResearcherNodes.map((node) => <button key={node.record.id} className={`company-researcher-node ${selectedCompanyRecord.id === node.record.id ? "active" : ""}`} style={{ left: node.x, top: node.y }} onClick={() => setSelectedCompanyResearcher(node.record.id)} aria-label={`查看 ${node.record.researcher} 的证据`}>
+                  <span>{initials(node.record.researcher.split("·")[0].trim())}</span><strong>{node.record.researcher}</strong><small>{node.record.team}</small>
+                </button>)}
+                {companyAdviserNodes.map((node) => node.teacher ? <button key={node.key} className="company-adviser-node local" style={{ left: node.x, top: node.y }} onClick={() => { openPerson(node.teacher!, "people"); document.querySelector("#atlas")?.scrollIntoView({ behavior: "smooth" }); }}>
+                  <PersonAvatar person={node.teacher} className="company-adviser-avatar" style={{ background: institutionColors[node.teacher.institution] }} /><strong>{displayName(node.teacher)}</strong><small>{node.adviser.relation}</small>
+                </button> : <a key={node.key} className="company-adviser-node" style={{ left: node.x, top: node.y }} href={node.adviser.source.url} target="_blank" rel="noreferrer">
+                  <span>{initials(node.adviser.name.split("·")[0].trim())}</span><strong>{node.adviser.name}</strong><small>{node.adviser.institution}</small>
+                </a>)}
+              </div>
             </div>
-            <div className="pipeline-list">{companyPipelines.map(({ teacher, placements }) => <article className="pipeline" key={teacher.id}>
-              <button className="pipeline-teacher" onClick={() => { openPerson(teacher, "people"); document.querySelector("#atlas")?.scrollIntoView({ behavior: "smooth" }); }}><PersonAvatar person={teacher} className="pipeline-avatar" style={{ background: institutionColors[teacher.institution] }} /><div><small>{teacher.institution} · 导师</small><strong>{displayName(teacher)}</strong></div></button>
-              <div className="pipeline-edge"><span>{placements.length} 名学生</span></div>
-              <div className="pipeline-students">{placements.map((placement) => <a href={placement.source.url} target="_blank" rel="noreferrer" key={placement.id}><span><strong>{placement.student} <i className={`sector-badge sector-${placementSectorOf(placement)}`}>{placementSectorLabels[placementSectorOf(placement)]}</i></strong><small>{placementKindLabels[placement.kind]} · {placement.role}{placement.department ? ` · ${placement.department}` : ""}</small><small>{placement.degree ?? "学位待补"}{placement.graduationYear ? ` · ${placement.graduationYear} 届` : " · 年份待补"}{placement.verifiedAt ? ` · 核验 ${placement.verifiedAt}` : ""}</small>{placement.note && <small className="placement-note">口径：{placement.note}</small>}</span>{placement.highLevel && <em>高管 / 高级职位</em>}</a>)}</div>
-            </article>)}</div>
-            {filteredCompanyPlacements.length === 0 && <div className="company-empty">当前筛选没有匹配记录。缺少学位或年份的数据不会被推断，请清除相应筛选后查看。</div>}
-            <p className="company-disclaimer">只展示公开页面可逐条核验的去向；公司节点没有连线，不代表该导师没有学生进入。</p>
+            <article className="company-evidence-panel">
+              <header><div><small>{selectedCompanyRecord.workYear} · {selectedCompanyRecord.workType}</small><h3>{selectedCompanyRecord.researcher}</h3><p>{selectedCompanyRecord.role} · {selectedCompanyRecord.team}</p><span className={`company-affiliation-status ${selectedCompanyRecord.affiliationStatus === "historical" ? "historical" : "current"}`}>{selectedCompanyRecord.affiliationStatus === "historical" ? `历史关系${selectedCompanyRecord.affiliationPeriod ? ` · ${selectedCompanyRecord.affiliationPeriod}` : ""}` : "当前任职"}</span></div><b>{selectedCompanyData.short}</b></header>
+              <div className="company-evidence-grid">
+                <div><small>为什么视为代表性技术人员</small><p>{selectedCompanyRecord.contribution}</p><a href={selectedCompanyRecord.currentStatusSource.url} target="_blank" rel="noreferrer">核验当前角色 ↗</a></div>
+                <div><small>代表性工作</small><strong>{selectedCompanyRecord.workTitle}</strong><p>{selectedCompanyRecord.workEvidence}</p><a href={selectedCompanyRecord.workSource.url} target="_blank" rel="noreferrer">查看{selectedCompanyRecord.workType} ↗</a></div>
+                <div><small>导师来源</small>{selectedCompanyRecord.advisers.length ? <ul>{selectedCompanyRecord.advisers.map((adviser) => <li key={`${selectedCompanyRecord.id}-${adviser.name}`}><span>{adviser.name}</span><b>{adviser.relation} · {adviser.institution}</b></li>)}</ul> : <p className="company-evidence-empty">未找到可公开核验的正式导师关系，暂不连边。</p>}</div>
+              </div>
+              <p className="company-time-note">时间口径：代表性工作按 {selectedCompanyRecord.workYear} 年发表记录；“当前角色”核验至 {selectedCompanyRecord.lastVerifiedAt}。两者分别存证，不根据作者顺序推断职位或贡献大小。</p>
+            </article>
           </div>
         </div>
       </section>

@@ -21,11 +21,12 @@ test("server-renders the public academic atlas", async () => {
 
   const html = await response.text();
   assert.match(html, /<title>学脉 Atlas — AI \/ NLP \/ CV 学术关系图谱<\/title>/i);
-  assert.match(html, /中国大陆、香港、新加坡与美国 AI、NLP、计算机视觉、多模态与机器人学者/);
+  assert.match(html, /中国大陆、香港、新加坡、美国与欧洲 AI、NLP、计算机视觉、多模态与机器人学者/);
   assert.match(html, /Mainland China/);
   assert.match(html, /Hong Kong/);
   assert.match(html, /Singapore/);
   assert.match(html, /United States/);
+  assert.match(html, /Europe/);
   assert.match(html, /纠错 \/ 补充/);
   assert.doesNotMatch(html, /codex-preview/);
 });
@@ -60,6 +61,24 @@ test("includes the cross-region AI and computer-vision expansion", async () => {
   assert.match(dataSource, /Vision, Multimodal & Embodied AI/);
 });
 
+test("includes the Europe roster, academic lineages, and industry bridges", async () => {
+  const [europe, dataSource] = await Promise.all([
+    readFile(new URL("../app/europe-data.ts", import.meta.url), "utf8"),
+    readFile(new URL("../app/data.ts", import.meta.url), "utf8"),
+  ]);
+  for (const institution of ["Oxford", "Cambridge", "UCL", "Edinburgh", "ETH Zurich", "EPFL", "Tübingen/MPI", "TU Darmstadt", "UvA", "KU Leuven", "Inria", "Sapienza"]) {
+    assert.match(europe, new RegExp(`"${institution.replace("/", "\\/")}"`));
+  }
+  for (const scholar of ["Mirella Lapata", "Yarin Gal", "Michael Bronstein", "Cordelia Schmid", "Iryna Gurevych", "Roberto Navigli"]) {
+    assert.match(europe, new RegExp(scholar));
+  }
+  for (const connection of ["Microsoft", "Amazon", "Toshiba", "CuspAI", "Babelscape", "Google Research"]) {
+    assert.match(europe, new RegExp(connection));
+  }
+  assert.match(dataSource, /europePeople/);
+  assert.match(dataSource, /europeRelationships/);
+});
+
 test("includes the systematic faculty-roster audit", async () => {
   const [roster, dataSource] = await Promise.all([
     readFile(new URL("../app/systematic-roster-expansion.ts", import.meta.url), "utf8"),
@@ -73,14 +92,43 @@ test("includes the systematic faculty-roster audit", async () => {
   assert.match(dataSource, /systematicRosterRelationships/);
 });
 
+test("includes the reverse lineage and flagship CV roster audit", async () => {
+  const [audit, communities, dataSource] = await Promise.all([
+    readFile(new URL("../app/cv-roster-audit-expansion.ts", import.meta.url), "utf8"),
+    readFile(new URL("../app/academic-community-data.ts", import.meta.url), "utf8"),
+    readFile(new URL("../app/data.ts", import.meta.url), "utf8"),
+  ]);
+
+  for (const scholar of ["Kaiming He", "何恺明", "Xiaoou Tang", "汤晓鸥", "Jitendra Malik", "Abhinav Gupta", "Shuran Song", "Saining Xie", "Angjoo Kanazawa", "Jiaya Jia"]) {
+    assert.match(audit, new RegExp(scholar));
+  }
+  assert.match(audit, /tang-kaiming-phd-lineage/);
+  assert.match(audit, /CUHK IE 官方页面明确称何恺明为汤晓鸥的博士生/);
+  assert.match(communities, /北美学术分支/);
+  assert.match(dataSource, /cvRosterAuditPeople/);
+  assert.match(dataSource, /cvRosterAuditRelationships/);
+});
+
 test("renders company and evidence sections", async () => {
   const response = await render();
   const html = await response.text();
+  const companyLineages = await readFile(new URL("../app/company-lineage-data.ts", import.meta.url), "utf8");
+  const atlasSource = await readFile(new URL("../app/AcademicAtlas.tsx", import.meta.url), "utf8");
 
   assert.match(html, /COMPANY-CENTERED GRAPH/);
   assert.match(html, /EVIDENCE STANDARD/);
   assert.match(html, /Hong Kong/);
   assert.match(html, /Singapore/);
+  for (const company of ["ByteDance Seed", "Alibaba Qwen", "Moonshot AI / Kimi", "Zhipu AI / GLM", "OpenAI", "Anthropic", "Meta FAIR", "Character.AI", "Thinking Machines Lab", "Safe Superintelligence", "Google DeepMind"]) {
+    assert.match(companyLineages, new RegExp(company));
+  }
+  for (const researcher of ["Wanjun Zhong", "Fangzhi Xu", "Bowen Yu", "Chujie Zheng", "Zhilin Yang", "Zhengxiao Du", "Noam Brown", "Nicholas Carlini", "Luke Zettlemoyer", "Noam Shazeer", "John Schulman", "Ilya Sutskever", "Koray Kavukcuoglu"]) {
+    assert.match(companyLineages, new RegExp(researcher));
+  }
+  assert.match(atlasSource, /company-orbit-canvas/);
+  assert.match(atlasSource, /历史关系/);
+  assert.match(atlasSource, /未找到可公开核验的正式导师关系/);
+  assert.match(atlasSource, /不根据作者顺序推断职位或贡献大小/);
 });
 
 test("renders the expanded Mainland China roster and coverage", async () => {
@@ -131,7 +179,7 @@ test("renders P0 discovery, trust, and contribution controls", async () => {
   const feedbackSource = await readFile(new URL("../app/FeedbackDrawer.tsx", import.meta.url), "utf8");
   const feedbackRouteSource = await readFile(new URL("../app/api/feedback/route.ts", import.meta.url), "utf8");
 
-  assert.match(html, /跨四地区搜索人物、学生、公司、方向/);
+  assert.match(html, /跨五地区搜索人物、学生、公司、方向/);
   assert.match(html, /从你的目标开始/);
   assert.match(html, /复制人物链接/);
   assert.match(html, /资料核验/);
@@ -159,7 +207,7 @@ test("renders destination sectors and evidence-linked person timelines", async (
   assert.match(dataSource, /export function placementSectorOf/);
 });
 
-test("includes evidence-dense profiles from all four regions", async () => {
+test("includes evidence-dense profiles from the original four regions", async () => {
   const enrichment = await readFile(new URL("../app/profile-enrichment-data.ts", import.meta.url), "utf8");
 
   for (const scholarId of [
@@ -188,6 +236,7 @@ test("renders the sourced portrait collection and privacy-preserving visitor map
     "portrait-data-mainland-fill-b.ts",
     "portrait-data-hk-sg.ts",
     "portrait-data-us.ts",
+    "portrait-data-lamda.ts",
   ].map((name) => readFile(new URL(`../app/${name}`, import.meta.url), "utf8")));
 
   for (const portrait of ["portraits/lingpeng-kong.jpg", "portraits/tao-yu.jpg", "portraits/qi-liu.jpg"]) {
@@ -197,6 +246,9 @@ test("renders the sourced portrait collection and privacy-preserving visitor map
   const mappedPortraitIds = portraitMaps.flatMap((source) => Array.from(source.matchAll(/^ {2}"([^"]+)"\s*:/gm), (match) => match[1]));
   assert.ok(mappedPortraitIds.length >= 190, `expected broad portrait coverage, found ${mappedPortraitIds.length}`);
   assert.equal(new Set(mappedPortraitIds).size, mappedPortraitIds.length);
+  for (const id of ["wei-gao-lamda", "yuan-jiang-lamda", "yu-feng-li-lamda", "chao-qian-lamda", "yang-yu-lamda", "zongzhang-zhang-lamda", "dechuan-zhan-lamda", "lijun-zhang-lamda", "hanjia-ye-lamda", "peng-zhao-lamda"]) {
+    assert.ok(mappedPortraitIds.includes(id), `expected a sourced portrait for ${id}`);
+  }
   assert.match(atlasSource, /头像来源 ↗/);
   assert.match(visitorSource, /学脉从哪里被看见/);
   assert.match(visitorSource, /累计访问次数/);
