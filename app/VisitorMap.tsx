@@ -5,7 +5,7 @@ import { useEffect, useMemo, useState } from "react";
 type CountryVisit = { countryCode: string; visits: number };
 type VisitorSnapshot = { totalVisits: number; countries: CountryVisit[] };
 
-const liveVisitorApi = "https://xuemai-atlas.miromind-0889.chatgpt.site/api/visitors";
+const liveVisitorApi = "https://xuemai-atlas-stats.xut0092.workers.dev/api/visitors";
 
 // Approximate country centroids for the on-page equirectangular map. Countries
 // without a marker are still retained in the ranked list returned by the API.
