@@ -621,9 +621,6 @@ export default function AcademicAtlas() {
           </picture>
         </div>
         <div className="hero-utility">
-          <div className="region-switch" role="tablist" aria-label="地区切换">
-            {(["Mainland China", "Hong Kong", "Singapore", "United States", "Europe"] as Region[]).map((item) => <button key={item} className={region === item ? "active" : ""} onClick={() => changeRegion(item)}>{regionLabels[item]}<small>{item}</small></button>)}
-          </div>
           <div className="hero-summary" aria-live="polite">
             <div><strong>{coreCount}</strong><span>核心 PI</span></div>
             <div><strong>{regionalInstitutions[region].length}</strong><span>{regionLabels[region]}机构</span></div>
@@ -645,6 +642,12 @@ export default function AcademicAtlas() {
       <section className="atlas-section" id="atlas">
         <div className="section-heading">
           <div><p className="section-index">01 / ROSTER + INTERACTIVE ATLAS</p><h2>{regionLabels[region]} AI / NLP / CV PI 名录</h2></div>
+        </div>
+
+        <div className="atlas-local-nav" aria-label="图谱地区与视图切换">
+          <div className="region-switch atlas-region-switch" role="tablist" aria-label="图谱地区切换">
+            {(["Mainland China", "Hong Kong", "Singapore", "United States", "Europe"] as Region[]).map((item) => <button key={item} className={region === item ? "active" : ""} onClick={() => changeRegion(item)}>{regionLabels[item]}<small>{item}</small></button>)}
+          </div>
           <div className="view-switch" role="tablist" aria-label="图谱视图">
             {(["people", "graph", "evidence"] as const).map((item) => <button key={item} className={view === item ? "active" : ""} onClick={() => setView(item)}>{item === "graph" ? "关系图" : item === "people" ? "人物名录" : "证据清单"}</button>)}
           </div>

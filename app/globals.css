@@ -86,7 +86,7 @@ button:focus-visible, a:focus-visible, input:focus-visible, select:focus-visible
 .hero-search > div small { color: #7b8796; font-size: 8px; }
 .hero-search > div button { border: 1px solid #d0d8cd; border-radius: 999px; padding: 5px 8px; background: rgba(255,255,255,.6); color: #536278; font-size: 8px; cursor: pointer; }
 .hero-search > div button:hover { border-color: var(--cobalt); color: var(--cobalt); }
-.hero-utility { max-width: 1384px; display: grid; grid-template-columns: auto minmax(260px, 1fr) auto; gap: 24px; align-items: center; margin: 16px auto 0; padding: 13px 16px; border-top: 1px solid #d7ded4; border-bottom: 1px solid #d7ded4; background: rgba(255,255,255,.48); }
+.hero-utility { max-width: 1384px; display: grid; grid-template-columns: minmax(260px, 1fr) auto; gap: 24px; align-items: center; margin: 16px auto 0; padding: 13px 16px; border-top: 1px solid #d7ded4; border-bottom: 1px solid #d7ded4; background: rgba(255,255,255,.48); }
 .region-switch { width: max-content; display: flex; gap: 4px; margin: 0; padding: 4px; border: 1px solid #cdd6ca; border-radius: 999px; background: rgba(255,255,255,.82); }
 .region-switch button { min-width: 108px; padding: 8px 14px; border: 0; border-radius: 999px; background: transparent; color: #657386; cursor: pointer; font-size: 12px; font-weight: 800; }
 .region-switch button small { display: block; margin-top: 1px; color: #8995a4; font: 600 7px var(--font-space), sans-serif; letter-spacing: .08em; text-transform: uppercase; }
@@ -125,6 +125,11 @@ button:focus-visible, a:focus-visible, input:focus-visible, select:focus-visible
 .section-heading { max-width: 1380px; margin: 0 auto 34px; display: flex; align-items: end; justify-content: space-between; gap: 40px; }
 .section-heading h2 { margin: 8px 0 0; font-size: clamp(34px, 4vw, 56px); letter-spacing: -.055em; line-height: 1.08; }
 .section-heading > p { max-width: 430px; margin: 0 0 5px; color: var(--muted); font-size: 14px; line-height: 1.7; }
+.atlas-local-nav { position: sticky; z-index: 60; top: 78px; max-width: 1380px; margin: 0 auto 12px; padding: 10px; display: flex; align-items: center; justify-content: space-between; gap: 16px; border: 1px solid rgba(215,222,232,.9); border-radius: 16px; background: rgba(255,255,255,.92); box-shadow: 0 10px 32px rgba(15,23,42,.08); backdrop-filter: blur(16px) saturate(1.2); }
+.atlas-region-switch { min-width: 0; overflow-x: auto; scrollbar-width: none; }
+.atlas-region-switch::-webkit-scrollbar { display: none; }
+.atlas-region-switch button { min-width: 104px; padding: 7px 12px; }
+.atlas-local-nav .view-switch { flex: 0 0 auto; }
 .view-switch { display: flex; border: 1px solid var(--line); padding: 4px; background: var(--paper); border-radius: 4px; }
 .view-switch button, .filter-row button { border: 0; background: transparent; cursor: pointer; }
 .view-switch button { padding: 9px 17px; font-size: 12px; font-weight: 700; border-radius: 3px; }
@@ -611,7 +616,6 @@ footer > a { font-size: 10px; border-bottom: 1px solid #65748a; padding-bottom: 
   .hero-copy { padding: 54px 48px 42px; }
   .hero-visual { width: auto; height: 380px; }
   .hero-utility { grid-template-columns: 1fr auto; }
-  .region-switch { grid-column: 1 / -1; }
   .hero-summary { justify-self: start; }
   .task-entry { grid-template-columns: repeat(2, 1fr); padding: 0 24px; }
   .task-entry > div { grid-column: 1 / -1; }
@@ -657,6 +661,12 @@ footer > a { font-size: 10px; border-bottom: 1px solid #65748a; padding-bottom: 
   .section-heading { display: block; }
   .section-heading > p { margin-top: 18px; }
   .view-switch { margin-top: 22px; width: max-content; }
+  .atlas-local-nav { top: 72px; margin: 0 -6px 12px; padding: 8px; display: block; border-radius: 13px; }
+  .atlas-region-switch { width: 100%; }
+  .atlas-region-switch button { flex: 1 1 0; min-width: 0; padding: 8px 2px; font-size: 9px; }
+  .atlas-region-switch button small { display: none; }
+  .atlas-local-nav .view-switch { width: 100%; margin-top: 8px; }
+  .atlas-local-nav .view-switch button { flex: 1 1 0; padding: 9px 8px; }
   .atlas-toolbar { display: block; }
   .search-wrap { width: 100%; margin-bottom: 10px; }
   .search-box { width: 100%; margin-bottom: 0; }
