@@ -171,6 +171,29 @@ test("includes the reverse lineage and flagship CV roster audit", async () => {
   assert.match(dataSource, /cvRosterAuditRelationships/);
 });
 
+test("includes the 2024–2026 conference-award reverse audit", async () => {
+  const [acl, neurips, cvpr, iclrIcml, dataSource, atlasSource] = await Promise.all([
+    readFile(new URL("../app/award-audit-acl.ts", import.meta.url), "utf8"),
+    readFile(new URL("../app/award-audit-neurips.ts", import.meta.url), "utf8"),
+    readFile(new URL("../app/award-audit-cvpr.ts", import.meta.url), "utf8"),
+    readFile(new URL("../app/award-audit-iclr-icml.ts", import.meta.url), "utf8"),
+    readFile(new URL("../app/data.ts", import.meta.url), "utf8"),
+    readFile(new URL("../app/AcademicAtlas.tsx", import.meta.url), "utf8"),
+  ]);
+
+  for (const page of ["2024.aclweb.org/program/best_papers", "neurips.cc/virtual/2025/awards_detail", "cvpr.thecvf.com/Conferences/2026/News/Best_Papers", "blog.iclr.cc/2026", "icml.cc/virtual/2025/awards_detail"]) {
+    assert.match(`${acl}\n${neurips}\n${cvpr}\n${iclrIcml}`, new RegExp(page.replaceAll("/", "\\/")));
+  }
+  for (const scholar of ["Richard Futrell", "Boaz Barak", "Andrea Vedaldi", "Eero P. Simoncelli", "Stéphane Mallat", "Dale Schuurmans"]) {
+    assert.match(`${acl}\n${neurips}\n${cvpr}\n${iclrIcml}`, new RegExp(scholar));
+  }
+  assert.match(dataSource, /awardAuditEnhancements/);
+  assert.match(dataSource, /conferenceAwardAudit/);
+  assert.match(dataSource, /iclrIcmlAwardAuditRelationships/);
+  assert.match(atlasSource, /获奖作者网络/);
+  assert.match(atlasSource, /conferenceAwardAudit/);
+});
+
 test("renders company and evidence sections", async () => {
   const response = await render();
   const html = await response.text();
