@@ -3,6 +3,7 @@
 import { useEffect, useMemo, useRef, useState } from "react";
 import { communities, conferenceAwardAudit, coverage, groupMembers, industryPathways, people, placementSectorLabels, placementSectorOf, regionOf, regionalInstitutions, relationships, relationshipSubtypeLabels, relationshipSubtypeOf, stageLabels, studentPlacements, type Person, type Region, type Relationship, type Source, type StudentPlacement } from "./data";
 import { companyResearchLineages, type CompanyLineageAdviser } from "./company-lineage-data";
+import { buildGlobalGraphLayout, graphInstitutionKey, graphRegionOrder, type GraphRect } from "./global-graph-layout";
 import FeedbackDrawer from "./FeedbackDrawer";
 import VisitorMap from "./VisitorMap";
 
@@ -10,10 +11,11 @@ type EdgeFilter = "all" | Relationship["type"];
 type InstitutionFilter = "All" | Person["institution"];
 type FocusFilter = "all" | "core" | "emerging" | "adjacent" | "historical";
 type AtlasView = "graph" | "people" | "evidence";
-type TimelineType = "appointment" | "collaboration" | "topic" | "talent";
+type TimelineType = "appointment" | "lineage" | "collaboration" | "topic" | "talent";
 type TimelineFilter = "all" | TimelineType;
 type DiscoveryMode = "mentor" | "network";
 type DirectoryGrouping = "institution" | "topic";
+type GraphMapScope = "global" | "region" | "institution";
 type TimelineEvent = {
   id: string;
   type: TimelineType;
@@ -25,7 +27,8 @@ type TimelineEvent = {
 };
 
 const edgeLabels: Record<EdgeFilter, string> = { all: "全部关系", lineage: "师承", collaboration: "合作", industry: "产业", talent: "人才流向" };
-const focusLabels: Record<FocusFilter, string> = { all: "全部当前 PI", core: "核心 AI PI", emerging: "发展期独立 PI", adjacent: "交叉 / 系统", historical: "历史节点" };
+const focusLabels: Record<FocusFilter, string> = { all: "全部当前 PI", core: "核心 AI PI", emerging: "发展期独立 PI", adjacent: "交叉 / 系统", historical: "师承上游" };
+const focusOrder: FocusFilter[] = ["all", "core", "emerging", "adjacent"];
 const institutionColors: Record<Person["institution"], string> = {
   NUS: "#275ee6", NTU: "#f16f51", SUTD: "#d99f00", SMU: "#8a5bdb", "A*STAR": "#07a383",
   HKU: "#8f1d2c", HKUST: "#007c8a", CUHK: "#6f3aa8", CityU: "#cf4e20", PolyU: "#a32638", HKBU: "#1f6b52", External: "#8390a5",
@@ -39,7 +42,7 @@ const institutionColors: Record<Person["institution"], string> = {
 };
 const relationColors: Record<Relationship["type"], string> = { lineage: "#275ee6", collaboration: "#f16f51", industry: "#07a383", talent: "#8a5bdb" };
 const placementKindLabels = { current: "当前任职", first_job: "毕业去向", founder: "创业", reported: "组页记录", internship: "产业实习" } as const;
-const timelineTypeLabels: Record<TimelineType, string> = { appointment: "人物任职", collaboration: "合作关系", topic: "研究方向", talent: "人才流动" };
+const timelineTypeLabels: Record<TimelineType, string> = { appointment: "人物任职", lineage: "师承关系", collaboration: "合作关系", topic: "研究方向", talent: "人才流动" };
 const regionLabels: Record<Region, string> = { Singapore: "新加坡", "Hong Kong": "香港", "Mainland China": "中国大陆", "United States": "美国", Canada: "加拿大", Europe: "欧洲" };
 const sourceKindLabels = { official: "官方", self_submitted: "本人 / 实验室提交", cv: "CV", thesis: "学位论文", profile: "个人主页", publication: "论文", company: "公司资料" } as const;
 const regionSlugs: Record<Region, string> = { Singapore: "singapore", "Hong Kong": "hong-kong", "Mainland China": "mainland", "United States": "us", Canada: "canada", Europe: "europe" };
@@ -79,143 +82,22 @@ function companyOrbitPoint(index: number, total: number, radius: number, centerX
   return { x: centerX + Math.cos(angle) * radius, y: centerY + Math.sin(angle) * radius };
 }
 
-const graphZones: Record<Region, { institution: Person["institution"]; note: string; className: string }[]> = {
-  Singapore: [
-    { institution: "NUS", note: "8 current PI", className: "zone-nus" },
-    { institution: "NTU", note: "8 current PI", className: "zone-ntu" },
-    { institution: "SUTD", note: "1 current PI", className: "zone-sutd" },
-    { institution: "SMU", note: "2 current + 1 historical", className: "zone-smu" },
-    { institution: "A*STAR", note: "3 research PIs", className: "zone-astar" },
-    { institution: "Award Network", note: "award-audited faculty", className: "zone-awards" },
-  ],
-  "Hong Kong": [
-    { institution: "HKU", note: "3 core + 1 adjacent", className: "zone-hku" },
-    { institution: "HKUST", note: "5 core + 1 adjacent", className: "zone-hkust" },
-    { institution: "CUHK", note: "3 core + 2 adjacent", className: "zone-cuhk" },
-    { institution: "CityU", note: "5 core + 3 adjacent", className: "zone-cityu" },
-    { institution: "PolyU", note: "5 core + 2 adjacent", className: "zone-polyu" },
-    { institution: "HKBU", note: "2 core + 2 adjacent", className: "zone-hkbu" },
-    { institution: "Award Network", note: "award-audited faculty", className: "zone-awards" },
-  ],
-  "Mainland China": [
-    { institution: "THU", note: "5 core PI", className: "zone-thu" },
-    { institution: "PKU", note: "6 core PI", className: "zone-pku" },
-    { institution: "FDU", note: "7 core PI", className: "zone-fdu" },
-    { institution: "RUC", note: "6 core PI", className: "zone-ruc" },
-    { institution: "HIT", note: "6 core PI", className: "zone-hit" },
-    { institution: "CAS-IA", note: "6 core PI", className: "zone-casia" },
-    { institution: "NJU", note: "6 core PI", className: "zone-nju" },
-    { institution: "SJTU", note: "4 core + 2 adjacent", className: "zone-sjtu" },
-    { institution: "ZJU", note: "5 core PI", className: "zone-zju" },
-    { institution: "USTC", note: "4 core + 1 adjacent", className: "zone-ustc" },
-    { institution: "BIT", note: "5 core PI", className: "zone-bit" },
-    { institution: "BUAA", note: "5 core PI", className: "zone-buaa" },
-    { institution: "BUPT", note: "3 core + 2 adjacent", className: "zone-bupt" },
-    { institution: "XJTU", note: "5 core PI", className: "zone-xjtu" },
-    { institution: "SYSU", note: "4 core + 1 adjacent", className: "zone-sysu" },
-    { institution: "ECNU", note: "5 core PI", className: "zone-ecnu" },
-    { institution: "WHU", note: "5 core PI", className: "zone-whu" },
-    { institution: "Award Network", note: "award-audited faculty", className: "zone-awards" },
-  ],
-  "United States": [
-    { institution: "Stanford", note: "7 core + 1 adjacent", className: "zone-stanford" },
-    { institution: "Berkeley", note: "5 core + 1 adjacent", className: "zone-berkeley" },
-    { institution: "CMU", note: "5 core + 1 adjacent", className: "zone-cmu" },
-    { institution: "UW", note: "5 core + 1 adjacent", className: "zone-uw" },
-    { institution: "MIT", note: "3 core PI", className: "zone-mit" },
-    { institution: "Princeton", note: "2 core PI", className: "zone-princeton" },
-    { institution: "Cornell", note: "6 core PI", className: "zone-cornell" },
-    { institution: "NYU", note: "4 core PI", className: "zone-nyu" },
-    { institution: "Columbia", note: "5 core PI", className: "zone-columbia" },
-    { institution: "UMass", note: "4 core PI", className: "zone-umass" },
-    { institution: "JHU", note: "3 core + 1 adjacent", className: "zone-jhu" },
-    { institution: "UT Austin", note: "2 core + 2 adjacent", className: "zone-utaustin" },
-    { institution: "UMich", note: "2 AI PI", className: "zone-umich" },
-    { institution: "UIUC", note: "2 vision PI", className: "zone-uiuc" },
-    { institution: "Georgia Tech", note: "2 vision / robotics PI", className: "zone-georgiatech" },
-    { institution: "UCLA", note: "2 vision PI", className: "zone-ucla" },
-    { institution: "UCSD", note: "2 ML / multimodal PI", className: "zone-ucsd" },
-    { institution: "Award Network", note: "award-audited faculty", className: "zone-awards" },
-  ],
-  Canada: [
-    { institution: "U of Toronto", note: "deep learning · vision · AI for health", className: "zone-utoronto" },
-    { institution: "Université de Montréal", note: "Mila · deep learning · AI safety", className: "zone-udem" },
-    { institution: "McGill", note: "RL · NLP · AI for climate", className: "zone-mcgill" },
-    { institution: "Polytechnique Montréal", note: "Mila · multimodal learning", className: "zone-polymtl" },
-    { institution: "UBC", note: "vision · NLP · machine learning", className: "zone-ubc" },
-    { institution: "University of Alberta", note: "Amii · reinforcement learning", className: "zone-alberta" },
-    { institution: "Waterloo", note: "NLP · agents · decision making", className: "zone-waterloo" },
-    { institution: "Award Network", note: "award-audited faculty", className: "zone-awards" },
-  ],
-  Europe: [
-    { institution: "Oxford", note: "5 representative PI", className: "zone-oxford" },
-    { institution: "Cambridge", note: "5 representative PI", className: "zone-cambridge" },
-    { institution: "UCL", note: "5 representative PI", className: "zone-ucl" },
-    { institution: "Edinburgh", note: "4 representative PI", className: "zone-edinburgh" },
-    { institution: "ETH Zurich", note: "4 representative PI", className: "zone-eth" },
-    { institution: "EPFL", note: "4 representative PI", className: "zone-epfl" },
-    { institution: "Tübingen/MPI", note: "3 representative PI", className: "zone-tuebingen" },
-    { institution: "TUM", note: "1 representative PI", className: "zone-tum" },
-    { institution: "TU Darmstadt", note: "2 representative PI", className: "zone-darmstadt" },
-    { institution: "UvA", note: "3 representative PI", className: "zone-uva" },
-    { institution: "KU Leuven", note: "3 representative PI", className: "zone-kuleuven" },
-    { institution: "Inria", note: "3 representative PI", className: "zone-inria" },
-    { institution: "Sapienza", note: "1 representative PI", className: "zone-sapienza" },
-    { institution: "Award Network", note: "award-audited faculty", className: "zone-awards" },
-  ],
-};
-
-const graphZoneSize = 340;
-const graphZoneColumns = 3;
-const graphZoneGapX = 50;
-const graphZoneGapY = 30;
-const graphZoneStartX = 20;
-const graphZoneStartY = 100;
-const graphLeadOrder: Partial<Record<Region, string[]>> = {
-  Singapore: ["wenxuan-zhang", "yang-deng"],
-  "Hong Kong": ["wai-lam"],
-  Canada: ["geoffrey-hinton-ca", "yoshua-bengio-ca", "richard-sutton-ca"],
-  Europe: ["mirella-lapata-eu", "yarin-gal-eu", "michael-bronstein-eu", "cordelia-schmid-eu"],
-};
 const directoryLeadByRegion: Partial<Record<Region, string>> = {
   Singapore: "wenxuan-zhang",
   "Hong Kong": "wai-lam",
   Canada: "yoshua-bengio-ca",
 };
 
-function graphZoneRect(index: number) {
+function insetLine(from: { x: number; y: number }, to: { x: number; y: number }, startGap = 30, endGap = 32) {
+  const dx = to.x - from.x;
+  const dy = to.y - from.y;
+  const length = Math.hypot(dx, dy) || 1;
   return {
-    left: graphZoneStartX + (index % graphZoneColumns) * (graphZoneSize + graphZoneGapX),
-    top: graphZoneStartY + Math.floor(index / graphZoneColumns) * (graphZoneSize + graphZoneGapY),
-    width: graphZoneSize,
-    height: graphZoneSize,
+    x1: from.x + dx / length * startGap,
+    y1: from.y + dy / length * startGap,
+    x2: to.x - dx / length * endGap,
+    y2: to.y - dy / length * endGap,
   };
-}
-
-function orbitPoint(index: number, count: number, radius: number, centerX: number, centerY: number, rotation = 0) {
-  const angle = (-90 + rotation + (360 / count) * index) * Math.PI / 180;
-  return { x: centerX + Math.cos(angle) * radius, y: centerY + Math.sin(angle) * radius };
-}
-
-function institutionOrbitPoint(index: number, count: number, centerX: number, centerY: number) {
-  if (count <= 10) {
-    const radius = count <= 3 ? 94 : count <= 6 ? 110 : 132;
-    return orbitPoint(index, count, radius, centerX, centerY, count === 9 ? 9 : 0);
-  }
-
-  if (count <= 18) {
-    const outerCount = Math.min(11, Math.ceil(count * .62));
-    if (index < outerCount) return orbitPoint(index, outerCount, 134, centerX, centerY, -2);
-    return orbitPoint(index - outerCount, count - outerCount, 68, centerX, centerY, 16);
-  }
-
-  // Dense institutions use three rings. Keeping no more than 12 names on the
-  // outer orbit leaves enough arc length for the 76px labels inside a 340px zone.
-  const outerCount = 12;
-  const middleCount = Math.min(9, count - outerCount);
-  if (index < outerCount) return orbitPoint(index, outerCount, 134, centerX, centerY, -2);
-  if (index < outerCount + middleCount) return orbitPoint(index - outerCount, middleCount, 82, centerX, centerY, 12);
-  return orbitPoint(index - outerCount - middleCount, count - outerCount - middleCount, 36, centerX, centerY, 30);
 }
 
 function RelationChip({ type }: { type: Relationship["type"] }) {
@@ -303,7 +185,7 @@ function buildPersonTimeline(person: Person, personRelations: Relationship[], pl
     const years = [relationship.startYear, relationship.endYear, relationship.recentYear].filter((year): year is number => Boolean(year));
     events.push({
       id: `timeline-${relationship.id}`,
-      type: "collaboration",
+      type: relationship.type === "lineage" ? "lineage" : "collaboration",
       dateLabel: relationshipYears(relationship),
       sortYear: years.length ? Math.max(...years) : Math.max(0, ...yearsIn(`${relationship.label} ${relationship.evidence}`)),
       title: `${relationshipSubtypeLabels[relationshipSubtypeOf(relationship)]}${counterpart && counterpart.id !== person.id ? ` · ${displayName(counterpart)}` : ""}`,
@@ -335,6 +217,12 @@ export default function AcademicAtlas() {
   const [query, setQuery] = useState("");
   const [selectedId, setSelectedId] = useState("maosong-sun");
   const [graphFocusId, setGraphFocusId] = useState<string | null>(null);
+  const [graphMapScope, setGraphMapScope] = useState<GraphMapScope>("global");
+  const [graphInstitutionFocus, setGraphInstitutionFocus] = useState<string | null>(null);
+  const [graphZoom, setGraphZoom] = useState(1);
+  const [graphPan, setGraphPan] = useState({ x: 0, y: 0 });
+  const [graphDragging, setGraphDragging] = useState(false);
+  const [graphViewportWidth, setGraphViewportWidth] = useState(780);
   const [selectedCompany, setSelectedCompany] = useState("ByteDance Seed");
   const [selectedCompanyResearcher, setSelectedCompanyResearcher] = useState("seed-wanjun-zhong");
   const [view, setView] = useState<AtlasView>("people");
@@ -348,6 +236,13 @@ export default function AcademicAtlas() {
   const [urlReady, setUrlReady] = useState(false);
   const [copied, setCopied] = useState(false);
   const searchInputRef = useRef<HTMLInputElement>(null);
+  const graphCanvasRef = useRef<HTMLDivElement>(null);
+  const graphDragRef = useRef<{ pointerId: number; startX: number; startY: number; panX: number; panY: number } | null>(null);
+
+  function resetGraphCamera() {
+    setGraphZoom(1);
+    setGraphPan({ x: 0, y: 0 });
+  }
 
   useEffect(() => {
     const applyUrlState = () => {
@@ -357,21 +252,35 @@ export default function AcademicAtlas() {
       const urlView = params.get("view") as AtlasView | null;
       const urlFocus = params.get("focus") as FocusFilter | null;
       const urlEdge = params.get("relation") as EdgeFilter | null;
+      const urlScope = params.get("scope") as GraphMapScope | null;
+      const urlSchool = params.get("school");
       if (person) {
         setSelectedId(person.id);
         setRegion(regionOf(person));
-        if (urlView === "graph") setGraphFocusId(person.id);
       } else if (urlRegion) {
         setRegion(urlRegion);
         const firstRegionalPerson = people.find((candidate) => regionOf(candidate) === urlRegion && candidate.primary);
         if (firstRegionalPerson) setSelectedId(firstRegionalPerson.id);
       }
       if (urlView && ["graph", "people", "evidence"].includes(urlView)) setView(urlView);
-      if (urlFocus && Object.hasOwn(focusLabels, urlFocus)) setFocus(urlFocus);
+      if (urlFocus && Object.hasOwn(focusLabels, urlFocus)) setFocus(urlFocus === "historical" ? "all" : urlFocus);
       if (urlEdge && Object.hasOwn(edgeLabels, urlEdge)) setEdgeFilter(urlEdge);
+      if (urlScope && ["global", "region", "institution"].includes(urlScope)) {
+        setGraphMapScope(urlScope);
+        if (urlScope === "institution") {
+          const schoolKey = urlSchool ?? (person ? graphInstitutionKey(person) : null);
+          setGraphInstitutionFocus(schoolKey);
+          const matchedInstitution = schoolKey ? regionalInstitutions[person ? regionOf(person) : (urlRegion ?? "Singapore")].find((item) => institutionLabel(item) === schoolKey || String(item) === schoolKey) : undefined;
+          setInstitution(matchedInstitution ?? "All");
+        } else {
+          setGraphInstitutionFocus(null);
+          setInstitution("All");
+        }
+      } else {
+        setInstitution("All");
+      }
       setQuery(params.get("q") ?? "");
       setSelectedCompany(params.get("company") ?? selectedCompany);
-      setInstitution("All");
     };
     const initialSync = window.setTimeout(() => {
       applyUrlState();
@@ -413,37 +322,15 @@ export default function AcademicAtlas() {
     if (query) params.set("q", query);
     if (focus !== "all") params.set("focus", focus);
     if (edgeFilter !== "all") params.set("relation", edgeFilter);
+    if (view === "graph" && graphMapScope !== "global") params.set("scope", graphMapScope);
+    if (view === "graph" && graphMapScope === "institution" && graphInstitutionFocus) params.set("school", graphInstitutionFocus);
     if (selectedCompany) params.set("company", selectedCompany);
     const nextUrl = `${window.location.pathname}?${params.toString()}${window.location.hash}`;
     window.history.replaceState(null, "", nextUrl);
-  }, [edgeFilter, focus, query, region, selectedCompany, selectedId, urlReady, view]);
+  }, [edgeFilter, focus, graphInstitutionFocus, graphMapScope, query, region, selectedCompany, selectedId, urlReady, view]);
 
   const regionPeople = useMemo(() => people.filter((person) => regionOf(person) === region), [region]);
   const regionIds = useMemo(() => new Set(regionPeople.map((person) => person.id)), [regionPeople]);
-  const graphPositionById = useMemo(() => {
-    const positions = new Map<string, { x: number; y: number }>();
-    graphZones[region].forEach((zone, zoneIndex) => {
-      const rect = graphZoneRect(zoneIndex);
-      const centerX = rect.left + rect.width / 2;
-      const centerY = rect.top + rect.height / 2;
-      const leadIds = graphLeadOrder[region] ?? [];
-      const members = regionPeople
-        .filter((person) => person.institution === zone.institution)
-        .sort((a, b) => {
-          const aIndex = leadIds.indexOf(a.id);
-          const bIndex = leadIds.indexOf(b.id);
-          if (aIndex === -1 && bIndex === -1) return 0;
-          if (aIndex === -1) return 1;
-          if (bIndex === -1) return -1;
-          return aIndex - bIndex;
-        });
-      members.forEach((person, memberIndex) => {
-        positions.set(person.id, institutionOrbitPoint(memberIndex, members.length, centerX, centerY));
-      });
-    });
-    return positions;
-  }, [region, regionPeople]);
-  const graphPositionFor = (person: Person) => graphPositionById.get(person.id) ?? { x: person.x, y: person.y };
   const regionalPlacements = useMemo(
     () => studentPlacements.filter((placement) => regionIds.has(placement.teacherId)),
     [regionIds],
@@ -504,10 +391,10 @@ export default function AcademicAtlas() {
     return regionPeople.filter((person) => {
       const institutionMatch = institution === "All" || person.institution === institution;
       const focusMatch =
-        focus === "all" ? person.category !== "historical" || person.institution === "External" :
-        focus === "core" ? person.category === "core" :
-        focus === "emerging" ? person.stage === "emerging" :
-        focus === "adjacent" ? person.category === "adjacent" : person.category === "historical";
+        focus === "all" ? person.primary :
+        focus === "core" ? person.primary && person.category === "core" :
+        focus === "emerging" ? person.primary && person.stage === "emerging" :
+        focus === "adjacent" ? person.primary && person.category === "adjacent" : false;
       const queryMatch = !needle || globalMatches.some((match) => match.person.id === person.id);
       const favoriteMatch = !favoritesOnly || favoriteIds.has(person.id);
       const communityMatch = directoryGrouping !== "topic" || selectedCommunity === "all" || communities.some((community) => community.regions.includes(region) && community.name === selectedCommunity && communityIncludesPerson(community, person));
@@ -515,11 +402,137 @@ export default function AcademicAtlas() {
     });
   }, [directoryGrouping, favoriteIds, favoritesOnly, focus, globalMatches, institution, query, region, regionPeople, selectedCommunity]);
 
-  const visibleIds = new Set(visiblePeople.map((person) => person.id));
+  const graphNeedle = query.trim().toLowerCase();
+  const graphBasePeople = people.filter((person) => {
+    const focusMatch =
+      focus === "all" ? person.primary :
+      focus === "core" ? person.primary && person.category === "core" :
+      focus === "emerging" ? person.primary && person.stage === "emerging" :
+      focus === "adjacent" ? person.primary && person.category === "adjacent" : false;
+    if (!focusMatch) return false;
+    if (graphNeedle && !globalMatches.some((match) => match.person.id === person.id)) return false;
+    if (graphMapScope === "global") return true;
+    if (regionOf(person) !== region) return false;
+    if (graphMapScope === "institution") return graphInstitutionKey(person) === graphInstitutionFocus;
+    return true;
+  });
+  const visibleIds = new Set(graphBasePeople.map((person) => person.id));
+  const upstreamIds = new Set<string>();
+  if (edgeFilter === "all" || edgeFilter === "lineage") {
+    const lineageFrontier = new Set(visibleIds);
+    for (let depth = 0; depth < 3; depth += 1) {
+      const nextFrontier = new Set<string>();
+      relationships.forEach((relation) => {
+        if (relation.type !== "lineage" || !lineageFrontier.has(relation.to) || visibleIds.has(relation.from) || upstreamIds.has(relation.from)) return;
+        upstreamIds.add(relation.from);
+        nextFrontier.add(relation.from);
+      });
+      if (!nextFrontier.size) break;
+      lineageFrontier.clear();
+      nextFrontier.forEach((id) => lineageFrontier.add(id));
+    }
+  }
+  const upstreamPeople = people.filter((person) => upstreamIds.has(person.id));
+  const graphPeople = [...graphBasePeople, ...upstreamPeople.filter((person) => !visibleIds.has(person.id))];
+  const graphIds = new Set(graphPeople.map((person) => person.id));
   const visibleRelations = relationships.filter((relation) =>
-    (edgeFilter === "all" || relation.type === edgeFilter) && visibleIds.has(relation.from) && visibleIds.has(relation.to)
+    (edgeFilter === "all" || relation.type === edgeFilter) && graphIds.has(relation.from) && graphIds.has(relation.to)
   );
-  const activeGraphFocusId = graphFocusId && visibleIds.has(graphFocusId) ? graphFocusId : null;
+  const globalGraphLayout = buildGlobalGraphLayout(graphPeople);
+  const graphInstitutionCountByKey = new Map(globalGraphLayout.regions.flatMap((entry) => entry.institutions.map((zone) => [`${zone.region}::${zone.key}`, zone.count] as const)));
+  const graphPositionFor = (person: Person) => globalGraphLayout.positions.get(person.id) ?? { x: globalGraphLayout.width / 2, y: globalGraphLayout.height / 2 };
+  const focusedRegionLayout = globalGraphLayout.regions.find((entry) => entry.region === region);
+  const focusedInstitutionLayout = focusedRegionLayout?.institutions.find((entry) => entry.key === graphInstitutionFocus);
+  const globalRect: GraphRect = { left: 0, top: 0, width: globalGraphLayout.width, height: globalGraphLayout.height };
+  const cameraRect = graphMapScope === "institution" && focusedInstitutionLayout
+    ? focusedInstitutionLayout.rect
+    : graphMapScope === "region" && focusedRegionLayout
+      ? focusedRegionLayout.rect
+      : globalRect;
+  const graphHeight = 900;
+  const cameraPadding = graphMapScope === "global" ? 90 : graphMapScope === "region" ? 70 : 45;
+  const fitScale = Math.min(
+    (graphViewportWidth - cameraPadding * 2) / Math.max(cameraRect.width, 1),
+    (graphHeight - cameraPadding * 2) / Math.max(cameraRect.height, 1),
+  );
+  const maxScale = 2.8;
+  const graphScale = Math.max(.055, Math.min(maxScale, fitScale * graphZoom));
+  const graphTranslateX = (graphViewportWidth - cameraRect.width * graphScale) / 2 - cameraRect.left * graphScale;
+  const graphTranslateY = (graphHeight - cameraRect.height * graphScale) / 2 - cameraRect.top * graphScale;
+  const graphWorldStyle = {
+    width: globalGraphLayout.width,
+    height: globalGraphLayout.height,
+    transform: `translate(${graphTranslateX + graphPan.x}px, ${graphTranslateY + graphPan.y}px) scale(${graphScale})`,
+  };
+
+  useEffect(() => {
+    const canvas = graphCanvasRef.current;
+    if (!canvas || view !== "graph") return;
+    const updateWidth = () => setGraphViewportWidth(Math.max(520, Math.round(canvas.getBoundingClientRect().width)));
+    updateWidth();
+    const observer = new ResizeObserver(updateWidth);
+    observer.observe(canvas);
+    return () => observer.disconnect();
+  }, [view]);
+
+  useEffect(() => {
+    const canvas = graphCanvasRef.current;
+    if (!canvas || view !== "graph") return;
+    const handleWheel = (event: WheelEvent) => {
+      event.preventDefault();
+      event.stopPropagation();
+      if (event.ctrlKey || event.metaKey) {
+        const nextZoom = Math.max(.45, Math.min(8, graphZoom * Math.exp(-event.deltaY * .012)));
+        const currentScale = Math.max(.055, Math.min(maxScale, fitScale * graphZoom));
+        const nextScale = Math.max(.055, Math.min(maxScale, fitScale * nextZoom));
+        const ratio = nextScale / Math.max(currentScale, .0001);
+        const rect = canvas.getBoundingClientRect();
+        const cursorX = event.clientX - rect.left;
+        const cursorY = event.clientY - rect.top;
+        setGraphPan((current) => ({
+          x: (cursorX - graphViewportWidth / 2) * (1 - ratio) + current.x * ratio,
+          y: (cursorY - graphHeight / 2) * (1 - ratio) + current.y * ratio,
+        }));
+        setGraphZoom(nextZoom);
+        return;
+      }
+      setGraphPan((current) => ({ x: current.x - event.deltaX, y: current.y - event.deltaY }));
+    };
+    canvas.addEventListener("wheel", handleWheel, { passive: false });
+    return () => canvas.removeEventListener("wheel", handleWheel);
+  }, [fitScale, graphViewportWidth, graphZoom, maxScale, view]);
+
+  function beginGraphDrag(event: React.PointerEvent<HTMLDivElement>) {
+    if (event.button !== 0) return;
+    const target = event.target as HTMLElement;
+    if (target.closest(".person-node, .adaptive-institution-zone, .global-region-focus, .graph-camera-controls, .graph-instruction")) return;
+    event.preventDefault();
+    event.currentTarget.setPointerCapture(event.pointerId);
+    graphDragRef.current = { pointerId: event.pointerId, startX: event.clientX, startY: event.clientY, panX: graphPan.x, panY: graphPan.y };
+    setGraphDragging(true);
+  }
+
+  function moveGraphDrag(event: React.PointerEvent<HTMLDivElement>) {
+    const drag = graphDragRef.current;
+    if (!drag || drag.pointerId !== event.pointerId) return;
+    event.preventDefault();
+    setGraphPan({ x: drag.panX + event.clientX - drag.startX, y: drag.panY + event.clientY - drag.startY });
+  }
+
+  function endGraphDrag(event: React.PointerEvent<HTMLDivElement>) {
+    const drag = graphDragRef.current;
+    if (!drag || drag.pointerId !== event.pointerId) return;
+    if (event.currentTarget.hasPointerCapture(event.pointerId)) event.currentTarget.releasePointerCapture(event.pointerId);
+    graphDragRef.current = null;
+    setGraphDragging(false);
+  }
+  const graphSemanticClass = graphScale < .17 ? "global-overview" : graphScale < .48 ? "region-overview" : "institution-detail";
+  const activeGraphFocusId = graphFocusId && graphIds.has(graphFocusId) ? graphFocusId : null;
+  const graphDegreeById = new Map<string, number>();
+  visibleRelations.forEach((relation) => {
+    graphDegreeById.set(relation.from, (graphDegreeById.get(relation.from) ?? 0) + 1);
+    if (relation.to !== relation.from) graphDegreeById.set(relation.to, (graphDegreeById.get(relation.to) ?? 0) + 1);
+  });
   const graphFocusedIds = new Set<string>();
   if (activeGraphFocusId) {
     graphFocusedIds.add(activeGraphFocusId);
@@ -544,11 +557,11 @@ export default function AcademicAtlas() {
   });
   const regionalCommunities = communities.filter((community) => community.regions.includes(region));
   const regionalPathways = industryPathways.filter((pathway) => pathway.region === region);
-  const graphRows = Math.ceil(graphZones[region].length / graphZoneColumns);
-  const graphHeight = Math.max(910, graphZoneStartY + graphRows * graphZoneSize + (graphRows - 1) * graphZoneGapY + 60);
-
   function changeRegion(nextRegion: Region) {
     setRegion(nextRegion);
+    if (view === "graph") setGraphMapScope("region");
+    setGraphInstitutionFocus(null);
+    resetGraphCamera();
     setInstitution("All");
     setQuery("");
     setGraphFocusId(null);
@@ -559,6 +572,12 @@ export default function AcademicAtlas() {
   function chooseMode(mode: DiscoveryMode) {
     setDiscoveryMode(mode);
     setView(mode === "mentor" ? "people" : "graph");
+    if (mode === "network") {
+      setGraphMapScope("global");
+      setGraphInstitutionFocus(null);
+      setInstitution("All");
+      resetGraphCamera();
+    }
     setDirectoryGrouping(mode === "mentor" ? "topic" : "institution");
     window.setTimeout(() => document.querySelector("#atlas")?.scrollIntoView({ behavior: "smooth" }), 0);
   }
@@ -586,17 +605,18 @@ export default function AcademicAtlas() {
   const directoryLeadId = directoryLeadByRegion[region];
   const leadFirst = (members: Person[]) => members.toSorted((a, b) => Number(b.id === directoryLeadId) - Number(a.id === directoryLeadId));
   const leadGroupFirst = <T extends { people: Person[] }>(groups: T[]) => groups.toSorted((a, b) => Number(b.people.some((person) => person.id === directoryLeadId)) - Number(a.people.some((person) => person.id === directoryLeadId)));
+  const directoryPeople = visiblePeople.filter((person) => person.primary);
   const institutionDirectoryGroups = leadGroupFirst(regionalInstitutions[region].map((inst) => ({
-    key: inst, label: institutionLabel(inst), note: `${visiblePeople.filter((person) => person.primary && person.institution === inst).length} 位`, color: institutionColors[inst],
-    people: leadFirst(visiblePeople.filter((person) => person.primary && person.institution === inst)),
+    key: inst, label: institutionLabel(inst), note: `${directoryPeople.filter((person) => person.institution === inst).length} 位`, color: institutionColors[inst],
+    people: leadFirst(directoryPeople.filter((person) => person.institution === inst)),
   })).filter((group) => group.people.length));
   const assignedTopicPeople = new Set<string>();
   const topicDirectoryGroups = leadGroupFirst(regionalCommunities.map((community) => {
-    const members = leadFirst(visiblePeople.filter((person) => person.primary && communityIncludesPerson(community, person)));
+    const members = leadFirst(directoryPeople.filter((person) => communityIncludesPerson(community, person)));
     members.forEach((person) => assignedTopicPeople.add(person.id));
     return { key: community.name, label: community.name, note: community.kicker, color: community.color, people: members };
   }).filter((group) => group.people.length));
-  const remainingTopicPeople = leadFirst(visiblePeople.filter((person) => person.primary && !assignedTopicPeople.has(person.id)));
+  const remainingTopicPeople = leadFirst(directoryPeople.filter((person) => !assignedTopicPeople.has(person.id)));
   const directoryGroups = directoryGrouping === "institution" ? institutionDirectoryGroups : [...topicDirectoryGroups, ...(remainingTopicPeople.length ? [{ key: "other-communities", label: "其他人物", note: "尚未归入有公开名录的学术共同体", color: "neutral", people: remainingTopicPeople }] : [])];
 
   function openPerson(person: Person, nextView: AtlasView = view) {
@@ -662,7 +682,7 @@ export default function AcademicAtlas() {
       <section className="task-entry" aria-label="按目标开始探索">
         <div><small>从你的目标开始</small><strong>不必先读懂整张图</strong></div>
         <button onClick={() => { setView("people"); setQuery(""); document.querySelector("#atlas")?.scrollIntoView({ behavior: "smooth" }); }}>找导师 / 研究组<span>按地区和方向浏览 →</span></button>
-        <button onClick={() => { setView("graph"); setGraphFocusId(selected.id); document.querySelector("#atlas")?.scrollIntoView({ behavior: "smooth" }); }}>看师承与合作<span>从一位人物的一跳关系开始 →</span></button>
+        <button onClick={() => { setView("graph"); setGraphMapScope("global"); setGraphInstitutionFocus(null); setInstitution("All"); setGraphFocusId(null); resetGraphCamera(); document.querySelector("#atlas")?.scrollIntoView({ behavior: "smooth" }); }}>看师承与合作<span>先看全球，再逐层放大 →</span></button>
         <button onClick={() => document.querySelector("#companies")?.scrollIntoView({ behavior: "smooth" })}>看学生工业去向<span>从公司、部门和职位反查 →</span></button>
         <button onClick={() => { setView("evidence"); document.querySelector("#atlas")?.scrollIntoView({ behavior: "smooth" }); }}>核验一条资料<span>查看关系类型与原始来源 →</span></button>
         <details className="atlas-glossary"><summary>第一次使用？查看术语说明</summary><div><p><strong>PI</strong>可独立领导研究组或招生的研究负责人。</p><p><strong>师承</strong>有公开资料直接支持的博士导师、共同导师或博士后指导关系。</p><p><strong>交叉节点</strong>以 AI 系统、HCI、AI4Science 等为主线，并与 NLP、CV、多模态或机器人持续交叉的研究者。</p><p><strong>人才流向</strong>公开可核验的学习、任职或职业移动，不表示因果关系。</p></div></details>
@@ -670,15 +690,16 @@ export default function AcademicAtlas() {
 
       <section className="atlas-section" id="atlas">
         <div className="section-heading">
-          <div><p className="section-index">01 / ROSTER + INTERACTIVE ATLAS</p><h2>{regionLabels[region]} AI / NLP / CV PI 名录</h2></div>
+          <div><p className="section-index">01 / ROSTER + INTERACTIVE ATLAS</p><h2>{view === "graph" && graphMapScope === "global" ? "全球 AI / NLP / CV 学术关系图" : `${regionLabels[region]} AI / NLP / CV PI 名录`}</h2></div>
         </div>
 
         <div className="atlas-local-nav" aria-label="图谱地区与视图切换">
           <div className="region-switch atlas-region-switch" role="tablist" aria-label="图谱地区切换">
-            {(["Mainland China", "Hong Kong", "Singapore", "United States", "Canada", "Europe"] as Region[]).map((item) => <button key={item} className={region === item ? "active" : ""} onClick={() => changeRegion(item)}>{regionLabels[item]}<small>{item}</small></button>)}
+            {view === "graph" && <button className={graphMapScope === "global" ? "active" : ""} onClick={() => { setGraphMapScope("global"); setInstitution("All"); setGraphInstitutionFocus(null); resetGraphCamera(); }}>全球<small>GLOBAL</small></button>}
+            {graphRegionOrder.map((item) => <button key={item} className={graphMapScope !== "global" && region === item ? "active" : view !== "graph" && region === item ? "active" : ""} onClick={() => changeRegion(item)}>{regionLabels[item]}<small>{item}</small></button>)}
           </div>
           <div className="view-switch" role="tablist" aria-label="图谱视图">
-            {(["people", "graph", "evidence"] as const).map((item) => <button key={item} className={view === item ? "active" : ""} onClick={() => setView(item)}>{item === "graph" ? "关系图" : item === "people" ? "人物名录" : "证据清单"}</button>)}
+            {(["people", "graph", "evidence"] as const).map((item) => <button key={item} className={view === item ? "active" : ""} onClick={() => { setView(item); if (item === "graph") { setGraphMapScope("global"); setInstitution("All"); setGraphInstitutionFocus(null); setGraphFocusId(null); resetGraphCamera(); } }}>{item === "graph" ? "关系图" : item === "people" ? "人物名录" : "证据清单"}</button>)}
           </div>
         </div>
 
@@ -697,13 +718,13 @@ export default function AcademicAtlas() {
               </div>}
             </div>
             <div className="filter-row" aria-label="机构筛选">
-              {(["All", ...regionalInstitutions[region]] as InstitutionFilter[]).map((item) => <button key={item} className={institution === item ? "active" : ""} onClick={() => setInstitution(item)}>{item === "All" ? "全部机构" : institutionLabel(item)}</button>)}
+              {(["All", ...regionalInstitutions[region]] as InstitutionFilter[]).map((item) => <button key={item} className={institution === item ? "active" : ""} onClick={() => { setInstitution(item); if (view === "graph") { setGraphMapScope(item === "All" ? "region" : "institution"); setGraphInstitutionFocus(item === "All" ? null : institutionLabel(item)); resetGraphCamera(); } }}>{item === "All" ? "全部机构" : institutionLabel(item)}</button>)}
             </div>
-            <span className="result-count">{visiblePeople.filter((p) => p.primary).length} 人</span>
+            <span className="result-count">{view === "graph" ? graphPeople.length : directoryPeople.length} 人</span>
           </div>
           <div className="focus-toolbar">
             <span>收录层级</span>
-            <div className="filter-row">{(Object.keys(focusLabels) as FocusFilter[]).map((item) => <button key={item} className={focus === item ? "active" : ""} onClick={() => setFocus(item)}>{focusLabels[item]}</button>)}</div>
+            <div className="filter-row">{focusOrder.map((item) => <button key={item} className={focus === item ? "active" : ""} onClick={() => setFocus(item)}>{focusLabels[item]}</button>)}</div>
             {view === "people" && <div className="directory-controls" aria-label="名录组织方式"><span>组织方式</span><button className={directoryGrouping === "institution" ? "active" : ""} onClick={() => { setDirectoryGrouping("institution"); setSelectedCommunity("all"); }}>按学校</button><button className={directoryGrouping === "topic" ? "active" : ""} onClick={() => setDirectoryGrouping("topic")}>按学术共同体</button><button className={favoritesOnly ? "active favorite-active" : ""} onClick={() => setFavoritesOnly((current) => !current)}>★ 我的收藏 {favoriteIds.size}</button></div>}
             {view !== "people" && <div className="filter-row relation-filter">{(Object.keys(edgeLabels) as EdgeFilter[]).map((item) => <button key={item} className={edgeFilter === item ? "active" : ""} onClick={() => setEdgeFilter(item)}>{item !== "all" && <i className={`dot-${item}`} />}{edgeLabels[item]}</button>)}</div>}
           </div>
@@ -727,26 +748,39 @@ export default function AcademicAtlas() {
                 {selectedRelations.filter((relation) => relation.from !== relation.to).length === 0 && <p>暂无已核验的一跳人物关系；这不表示不存在相关联系。</p>}
               </div>
               <div className="graph-scroll">
-                <div className="graph-canvas" style={{ height: graphHeight }} aria-label="学者关系网络">
+                <div ref={graphCanvasRef} className={`graph-canvas global-graph-canvas obsidian-graph ${graphSemanticClass} ${graphDragging ? "is-dragging" : ""}`} style={{ height: graphHeight }} aria-label="全球学者关系网络" onPointerDown={beginGraphDrag} onPointerMove={moveGraphDrag} onPointerUp={endGraphDrag} onPointerCancel={endGraphDrag}>
                   <button className="graph-reset-surface" aria-label="显示全部人物关系" onClick={() => setGraphFocusId(null)} />
-                  <div className="graph-instruction"><span>点击人物聚焦关系 · 点击空白恢复全图</span>{activeGraphFocusId && <button onClick={() => setGraphFocusId(null)}>显示全部</button>}</div>
-                  {graphZones[region].map((zone, zoneIndex) => <div className={`institution-zone ${zone.className}`} style={graphZoneRect(zoneIndex)} key={zone.institution}><b>{institutionLabel(zone.institution)}</b><span>{regionPeople.filter((person) => person.primary && person.institution === zone.institution).length} current nodes</span></div>)}
-                  <svg className="edge-layer" viewBox={`0 0 1180 ${graphHeight}`} aria-hidden="true">
+                  <div className="graph-instruction"><span>点击人物聚焦 · 双指缩放平移</span>{graphFocusId && <button onClick={() => setGraphFocusId(null)}>显示全部关系</button>}</div>
+                  <div className="graph-camera-controls" aria-label="地图缩放控制"><button className={graphMapScope === "global" && !query.trim() && focus === "all" ? "active" : ""} aria-pressed={graphMapScope === "global" && !query.trim() && focus === "all"} onClick={() => { setGraphMapScope("global"); setInstitution("All"); setGraphInstitutionFocus(null); setGraphFocusId(null); setQuery(""); setFocus("all"); resetGraphCamera(); }}>全球</button><button aria-label="复位当前视角" onClick={resetGraphCamera}>复位</button><button aria-label="缩小地图" onClick={() => setGraphZoom((value) => Math.max(.45, value - .25))}>−</button><span>{Math.round(graphScale * 100)}%</span><button aria-label="放大地图" onClick={() => setGraphZoom((value) => Math.min(8, value + .25))}>＋</button></div>
+                  <div className="graph-legend" aria-label="关系图例"><span><i className="legend-lineage" />师承</span><span><i className="legend-collaboration" />合作</span><span><i className="legend-industry" />产业</span><span><i className="legend-talent" />人才流动</span></div>
+                  <div className="graph-world" style={graphWorldStyle}>
+                  {globalGraphLayout.regions.map((entry) => <div className={`global-region-zone region-${regionSlugs[entry.region]} ${graphMapScope !== "global" && entry.region === region ? "active" : ""}`} style={entry.rect} key={entry.region} />)}
+                  {globalGraphLayout.regions.map((entry) => <button type="button" className={`global-region-focus region-${regionSlugs[entry.region]}`} style={{ left: entry.rect.left + 28, top: entry.rect.top + 20 }} key={`${entry.region}-focus`} onClick={(event) => { event.stopPropagation(); setGraphFocusId(null); const firstRegionalPerson = graphPeople.find((person) => regionOf(person) === entry.region && person.primary); if (firstRegionalPerson) setSelectedId(firstRegionalPerson.id); setRegion(entry.region); setGraphMapScope("region"); setInstitution("All"); setGraphInstitutionFocus(null); resetGraphCamera(); }}><b>{regionLabels[entry.region]}</b><span>{graphPeople.filter((person) => regionOf(person) === entry.region).length} 位人物</span></button>)}
+                  {globalGraphLayout.regions.flatMap((entry) => entry.institutions.map((zone) => <button type="button" className={`institution-zone adaptive-institution-zone ${graphMapScope === "institution" && zone.region === region && zone.key === graphInstitutionFocus ? "active" : ""}`} style={{ ...zone.rect, color: institutionColors[zone.institution] }} key={zone.id} onClick={(event) => { event.stopPropagation(); setGraphFocusId(null); const matchedInstitution = regionalInstitutions[zone.region].find((item) => institutionLabel(item) === zone.key || String(item) === zone.key); const firstInstitutionPerson = graphPeople.find((person) => regionOf(person) === zone.region && graphInstitutionKey(person) === zone.key && person.primary) ?? graphPeople.find((person) => regionOf(person) === zone.region && graphInstitutionKey(person) === zone.key); if (firstInstitutionPerson) setSelectedId(firstInstitutionPerson.id); setRegion(zone.region); setInstitution(matchedInstitution ?? "All"); setGraphMapScope("institution"); setGraphInstitutionFocus(zone.key); resetGraphCamera(); }}><b>{zone.label}</b><span>{zone.count} nodes</span></button>))}
+                  <svg className="edge-layer" viewBox={`0 0 ${globalGraphLayout.width} ${globalGraphLayout.height}`} aria-hidden="true">
+                    <defs>
+                      <marker id="lineage-arrow" markerWidth="8" markerHeight="8" refX="6.5" refY="4" orient="auto" markerUnits="strokeWidth"><path d="M0,0 L8,4 L0,8 Z" fill={relationColors.lineage} /></marker>
+                    </defs>
                     {visibleRelations.filter((r) => r.from !== r.to).map((relation) => {
                       const from = people.find((p) => p.id === relation.from)!;
                       const to = people.find((p) => p.id === relation.to)!;
                       const fromPoint = graphPositionFor(from);
                       const toPoint = graphPositionFor(to);
+                      const visualFrom = relation.type === "lineage" ? toPoint : fromPoint;
+                      const visualTo = relation.type === "lineage" ? fromPoint : toPoint;
+                      const line = insetLine(visualFrom, visualTo, relation.type === "lineage" ? 30 : 22, relation.type === "lineage" ? 34 : 22);
                       const active = activeGraphFocusId !== null && (relation.from === activeGraphFocusId || relation.to === activeGraphFocusId);
-                      return <line key={relation.id} x1={fromPoint.x} y1={fromPoint.y} x2={toPoint.x} y2={toPoint.y} stroke={active ? relationColors[relation.type] : "#8290a0"} strokeWidth={active ? 3 : 1.25} strokeDasharray={relation.type === "collaboration" ? "7 5" : relation.type === "talent" ? "2 5" : undefined} opacity={active ? .95 : .42}><title>{relation.label}：{relation.evidence}</title></line>;
+                      return <line className={`graph-edge edge-${relation.type} ${active ? "active" : activeGraphFocusId ? "muted" : ""}`} key={relation.id} {...line} markerEnd={relation.type === "lineage" ? "url(#lineage-arrow)" : undefined} stroke={active ? relationColors[relation.type] : relation.type === "lineage" ? "#91a0bb" : "#a4afc1"} strokeWidth={active ? 3 : relation.type === "lineage" ? 1.35 : 1} strokeDasharray={relation.type === "collaboration" ? "7 5" : relation.type === "talent" ? "2 5" : undefined} opacity={active ? .98 : activeGraphFocusId ? .08 : relation.type === "lineage" ? .25 : .16}><title>{relation.type === "lineage" ? `${displayName(to)} → ${displayName(from)}（学生 → 导师）` : relation.label}：{relation.evidence}</title></line>;
                     })}
                   </svg>
-                  {visiblePeople.map((person) => {
+                  {graphPeople.map((person) => {
                     const point = graphPositionFor(person);
-                    const denseInstitution = regionPeople.filter((candidate) => candidate.institution === person.institution).length > 10;
+                    const denseInstitution = (graphInstitutionCountByKey.get(`${regionOf(person)}::${graphInstitutionKey(person)}`) ?? 0) > 18;
+                    const degree = graphDegreeById.get(person.id) ?? 0;
+                    const nodeDiameter = Math.round(38 + Math.min(20, Math.sqrt(degree) * 4.2));
                     return (
-                    <button key={person.id} data-institution={person.institution} aria-label={`${displayName(person)} · ${affiliationLabel(person)} · ${person.area}`} title={`${displayName(person)} · ${affiliationLabel(person)} · ${person.area}`} className={`person-node ${denseInstitution ? "dense-node" : ""} ${person.primary ? "primary-node" : "external-node"} ${activeGraphFocusId === person.id ? "selected" : ""} ${activeGraphFocusId && !graphFocusedIds.has(person.id) ? "dimmed" : "focus-active"}`} style={{ left: point.x, top: point.y, "--node-color": institutionColors[person.institution] } as React.CSSProperties} onClick={(event) => { event.stopPropagation(); setSelectedId(person.id); setGraphFocusId((current) => current === person.id ? null : person.id); }}>
-                      <PersonAvatar person={person} className="node-avatar" /><span className="node-copy"><strong>{displayName(person)}</strong></span>
+                    <button key={person.id} data-institution={person.institution} data-lineage-upstream={upstreamIds.has(person.id) || undefined} data-degree={degree} aria-label={`${displayName(person)} · ${affiliationLabel(person)} · ${person.area} · ${degree} 条关系`} title={`${displayName(person)} · ${affiliationLabel(person)} · ${person.area}`} className={`person-node ${denseInstitution && !upstreamIds.has(person.id) ? "dense-node" : ""} ${upstreamIds.has(person.id) ? "lineage-upstream-node" : person.primary ? "primary-node" : "external-node"} ${graphFocusId === person.id ? "selected" : ""} ${activeGraphFocusId && !graphFocusedIds.has(person.id) ? "dimmed" : "focus-active"}`} style={{ left: point.x, top: point.y, "--node-color": institutionColors[person.institution], "--node-diameter": `${nodeDiameter}px` } as React.CSSProperties} onClick={(event) => { event.stopPropagation(); setSelectedId(person.id); setGraphFocusId((current) => current === person.id ? null : person.id); }}>
+                      <PersonAvatar person={person} className="node-avatar" /><span className="node-copy"><strong>{displayName(person)}</strong>{upstreamIds.has(person.id) && <small>{affiliationLabel(person)}</small>}</span>
                     </button>
                     );
                   })}
@@ -755,7 +789,8 @@ export default function AcademicAtlas() {
                     const ownerPoint = graphPositionFor(owner);
                     return <button key={r.id} aria-label={`${displayName(owner)}：${r.label}`} title={r.label} className={`self-relation-badge badge-${r.type} ${activeGraphFocusId && activeGraphFocusId !== owner.id ? "dimmed" : ""}`} style={{ left: ownerPoint.x + 22, top: ownerPoint.y - 24 + (index % 2) * 15 }} onClick={(event) => { event.stopPropagation(); setSelectedId(owner.id); setGraphFocusId((current) => current === owner.id ? null : owner.id); }}>↗</button>;
                   })}
-                  {visiblePeople.length === 0 && <div className="empty-state">没有匹配结果。试试清除筛选条件。</div>}
+                  {graphPeople.length === 0 && <div className="empty-state">没有匹配结果。试试清除筛选条件。</div>}
+                  </div>
                 </div>
               </div>
               </>
@@ -777,14 +812,14 @@ export default function AcademicAtlas() {
                     ))}</div>
                   </section>;
                 })}
-                {visiblePeople.filter((p) => p.primary).length === 0 && <div className="directory-empty">{favoritesOnly ? "还没有收藏符合当前条件的导师。点击人物卡片上的 ☆ 即可收藏。" : "没有匹配的当前 PI。"}</div>}
+                {directoryPeople.length === 0 && <div className="directory-empty">{favoritesOnly ? "还没有收藏符合当前条件的人物。点击人物卡片上的 ☆ 即可收藏。" : "没有匹配的当前 PI。"}</div>}
               </div>
             )}
 
             {view === "evidence" && (
               <div className="evidence-list">{visibleRelations.map((relation) => {
                 const from = people.find((p) => p.id === relation.from)!; const to = people.find((p) => p.id === relation.to)!;
-                return <article key={relation.id}><RelationChip type={relation.type} /><div><strong>{primaryName(from)}{from.id !== to.id ? ` → ${primaryName(to)}` : ""}</strong><small>{relationshipSubtypeLabels[relationshipSubtypeOf(relation)]} · {relationshipYears(relation)}</small><p>{relation.evidence}</p></div><a href={relation.source.url} target="_blank" rel="noreferrer">原始来源 ↗</a></article>;
+                return <article key={relation.id}><RelationChip type={relation.type} /><div><strong>{relation.type === "lineage" ? `${primaryName(to)} → ${primaryName(from)}` : `${primaryName(from)}${from.id !== to.id ? ` → ${primaryName(to)}` : ""}`}</strong><small>{relationshipSubtypeLabels[relationshipSubtypeOf(relation)]} · {relationshipYears(relation)}{relation.type === "lineage" ? " · 学生 → 导师" : ""}</small><p>{relation.evidence}</p></div><a href={relation.source.url} target="_blank" rel="noreferrer">原始来源 ↗</a></article>;
               })}</div>
             )}
 
@@ -808,7 +843,7 @@ export default function AcademicAtlas() {
               <div className="inspector-block timeline-block"><h4>人物时间轴 <span>{visibleTimeline.length} / {selectedTimeline.length} 项</span></h4>
                 <p className="timeline-context">按公开记录整理任职、合作、研究方向变化和学生人才流动；未知年份不会推断。</p>
                 <div className="timeline-filters" aria-label="时间轴类型筛选">
-                  {(["all", "appointment", "collaboration", "topic", "talent"] as TimelineFilter[]).map((item) => <button key={item} className={timelineFilter === item ? "active" : ""} onClick={() => setTimelineFilter(item)}>{item === "all" ? "全部" : timelineTypeLabels[item]}</button>)}
+                  {(["all", "appointment", "lineage", "collaboration", "topic", "talent"] as TimelineFilter[]).map((item) => <button key={item} className={timelineFilter === item ? "active" : ""} onClick={() => setTimelineFilter(item)}>{item === "all" ? "全部" : timelineTypeLabels[item]}</button>)}
                 </div>
                 <ol className="person-timeline">{visibleTimeline.map((event) => <li className={`timeline-${event.type}`} key={event.id}>
                   <span className="timeline-marker" />
@@ -935,12 +970,13 @@ export default function AcademicAtlas() {
       </section>
 
       <section className="method-section" id="method">
-        <div><p className="section-index">06 / EVIDENCE STANDARD</p><h2>从名单到关系，<br />分四层核验。</h2></div>
+        <div><p className="section-index">06 / EVIDENCE STANDARD</p><h2>从名单到关系，<br />分五层核验。</h2></div>
         <div className="method-copy"><p>图谱以公开证据为基础，持续核验人物、关系与职业信息。</p><ol>
           <li><span>A</span><div><strong>机构 roster</strong><p>先按 {regionalInstitutions[region].join("、")} 核对现任人员。</p></div></li>
           <li><span>B</span><div><strong>PI 与方向边界</strong><p>确认是否独立招生或带组，并区分核心 AI 方向与交叉研究层。</p></div></li>
           <li><span>C</span><div><strong>关系类型不混用</strong><p>导师、共同论文、联合项目、任职与人才流向分别建边。</p></div></li>
           <li><span>D</span><div><strong>保留历史状态</strong><p>on leave、跨地区任职和前雇主单独标注，不计作当前核心节点。</p></div></li>
+          <li><span>E</span><div><strong>Academic Tree 只做候选发现</strong><p>利用其 CC BY 3.0 导出发现师承候选，再回到论文、CV、学校或本人页面复核；普通合作不转成导师边。</p></div></li>
         </ol></div>
       </section>
 

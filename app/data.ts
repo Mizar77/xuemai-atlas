@@ -47,6 +47,11 @@ import { aclAwardAuditCoverage, aclAwardAuditPeople, aclAwardRecords } from "./a
 import { neuripsAwardAuditPeople, neuripsAwardCoverage, neuripsAwardRecords } from "./award-audit-neurips";
 import { cvprAwardAuditCoverage, cvprAwardAuditPeople, cvprAwardAuditRecords } from "./award-audit-cvpr";
 import { iclrIcmlAwardAuditCoverage, iclrIcmlAwardAuditPeople, iclrIcmlAwardAuditRelationships, iclrIcmlAwardRecords } from "./award-audit-iclr-icml";
+import { historicalCorePeople, historicalCoreRelationships } from "./historical-core-expansion";
+import { adviserLineagePeople, adviserLineageRelationships } from "./adviser-lineage-expansion";
+import { legacyAdviserLineagePeople, legacyAdviserLineageRelationships, supersededLegacyLineageIds } from "./legacy-adviser-lineage-migration";
+import { adviserLineagePeople2, adviserLineageRelationships2 } from "./adviser-lineage-expansion-2";
+import { academicTreeLineagePeople, academicTreeLineageRelationships } from "./academic-tree-lineage-expansion";
 
 export type Source = {
   label: string;
@@ -130,7 +135,7 @@ export type Relationship = {
   evidence: string;
   source: Source;
   verified: boolean;
-  subtype?: "phd_adviser" | "co_adviser" | "postdoc_mentor" | "sustained_collaboration" | "publication" | "joint_project" | "joint_lab" | "industry_affiliation" | "career_movement" | "other";
+  subtype?: "phd_adviser" | "co_adviser" | "master_adviser" | "postdoc_mentor" | "sustained_collaboration" | "publication" | "joint_project" | "joint_lab" | "industry_affiliation" | "career_movement" | "other";
   startYear?: number;
   endYear?: number;
   recentYear?: number;
@@ -142,6 +147,7 @@ export type RelationshipSubtype = NonNullable<Relationship["subtype"]>;
 export const relationshipSubtypeLabels: Record<RelationshipSubtype, string> = {
   phd_adviser: "博士导师",
   co_adviser: "共同导师",
+  master_adviser: "硕士导师",
   postdoc_mentor: "博士后指导",
   sustained_collaboration: "长期研究合作",
   publication: "论文合作",
@@ -157,6 +163,7 @@ export function relationshipSubtypeOf(relationship: Relationship): RelationshipS
   if (relationship.subtype) return relationship.subtype;
   const label = `${relationship.label} ${relationship.evidence}`.toLowerCase();
   if (label.includes("共同博士导师") || label.includes("共同导师") || label.includes("共同指导")) return "co_adviser";
+  if (label.includes("硕士导师") || label.includes("master adviser") || label.includes("master advisor")) return "master_adviser";
   if (label.includes("博士后")) return "postdoc_mentor";
   if (label.includes("博士导师") || label.includes("academic advisor") || label.includes("advisor")) return "phd_adviser";
   if (label.includes("joint lab") || label.includes("联合实验室")) return "joint_lab";
@@ -231,7 +238,7 @@ export const stageLabels: Record<Stage, string> = {
   emerging: "发展期独立 PI",
   institute: "研究院 PI",
   adjacent: "交叉 AI PI",
-  historical: "历史 / 跨地区",
+  historical: "师承上游",
 };
 
 const basePeople: Person[] = [
@@ -743,6 +750,11 @@ const basePeople: Person[] = [
   ...academicLineagePeople,
   ...cvRosterAuditPeople,
   ...globalP0People,
+  ...adviserLineagePeople,
+  ...legacyAdviserLineagePeople,
+  ...adviserLineagePeople2,
+  ...historicalCorePeople,
+  ...academicTreeLineagePeople,
 ];
 
 const awardAuditRawPeople: Person[] = [
@@ -787,7 +799,14 @@ awardAuditRawPeople.forEach((rawPerson) => {
   [person.name, person.chinese].filter(Boolean).forEach((name) => awardResolvedByName.set(normalizedPersonKey(name), person));
 });
 
-const peopleBeforeEnhancement: Person[] = [...basePeople, ...awardAuditPeople];
+const canonicalLegacyPersonIds: Record<string, string> = {
+  "raymond-mooney": "raymond-mooney-us",
+  "kathleen-mckeown": "kathleen-mckeown-us",
+  "noah-smith": "noah-smith-us",
+};
+
+const peopleBeforeEnhancement: Person[] = [...basePeople, ...awardAuditPeople]
+  .filter((person) => !canonicalLegacyPersonIds[person.id]);
 
 /** Net-new people found by the conference-award reverse audit after name deduplication. */
 const awardVenuesByPersonId = new Map<string, Set<string>>();
@@ -869,7 +888,7 @@ export const people: Person[] = peopleBeforeEnhancement.map((person) => {
   };
 });
 
-export const relationships: Relationship[] = [
+const relationshipsBeforeLegacyMigration: Relationship[] = [
   { id: "mooney-ng", from: "raymond-mooney", to: "hwee-tou-ng", type: "lineage", label: "博士导师", evidence: "Ng 的博士论文致谢明确称 Raymond Mooney 为 advisor。", source: { label: "UT Austin 博士论文", url: "https://www.cs.utexas.edu/~ml/papers/hweetou_dissertation.pdf", kind: "thesis" }, verified: true },
   { id: "mckeown-kan", from: "kathleen-mckeown", to: "min-yen-kan", type: "lineage", label: "博士导师", evidence: "Kan 的 CV 列出 Kathleen McKeown 与 Judith Klavans 为导师。", source: { label: "Min-Yen Kan CV", url: "https://www.comp.nus.edu.sg/~kanmy/cv.1page.html", kind: "cv" }, verified: true },
   { id: "ng-lu", from: "hwee-tou-ng", to: "wei-lu", type: "lineage", label: "博士导师", evidence: "NUS NLP Group alumni 页将 Wei Lu 列为 2009 年博士毕业生；Wei Lu 现任 NTU 教授。", source: { label: "NUS NLP Group alumni", url: "https://www.comp.nus.edu.sg/~nlp/people.html", kind: "official" }, verified: true },
@@ -951,7 +970,20 @@ export const relationships: Relationship[] = [
   ...globalP0Relationships,
   ...globalP0StrongRelationships,
   ...iclrIcmlAwardAuditRelationships,
+  ...adviserLineageRelationships,
+  ...legacyAdviserLineageRelationships,
+  ...adviserLineageRelationships2,
+  ...historicalCoreRelationships,
+  ...academicTreeLineageRelationships,
 ];
+
+export const relationships: Relationship[] = relationshipsBeforeLegacyMigration
+  .filter((relationship) => !supersededLegacyLineageIds.has(relationship.id))
+  .map((relationship) => ({
+    ...relationship,
+    from: canonicalLegacyPersonIds[relationship.from] ?? relationship.from,
+    to: canonicalLegacyPersonIds[relationship.to] ?? relationship.to,
+  }));
 
 export const coverage = [
   { region: "Singapore" as Region, institution: "NUS", core: 4, adjacent: 4, note: "传统 NLP + 多模态/检索；另列 4 位可信 AI、LLM 理论与系统相邻 PI" },

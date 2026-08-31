@@ -127,7 +127,7 @@ export const usFullProfileEnhancements: Record<string, PersonEnhancement> = {
 export const usFullProfileRelationships: Relationship[] = [
   { id: "us-full-jurafsky-demszky", from: "dan-jurafsky-us", to: "dora-demszky-us", type: "lineage", subtype: "phd_adviser", label: "博士导师", evidence: "Stanford GSE 官方简介明确写明 Dora Demszky 的 Stanford Linguistics 博士由 Dan Jurafsky 指导。", source: demszky, verified: true, endYear: 2023 },
   { id: "us-full-artzi-suhr", from: "yoav-artzi-us", to: "alane-suhr-us", type: "lineage", subtype: "phd_adviser", label: "博士导师", evidence: "Alane Suhr 个人主页明确写明其 Cornell 计算机科学博士由 Yoav Artzi 指导。", source: suhr, verified: true, endYear: 2022 },
-  { id: "us-full-liang-hashimoto", from: "percy-liang-us", to: "tatsunori-hashimoto-us", type: "talent", subtype: "postdoc_mentor", label: "博士后指导", evidence: "Tatsunori Hashimoto 个人主页记录其 2016–2019 年在 Stanford CS/Statistics 从事博士后研究，合作导师包括 Percy Liang 与 John Duchi。", source: hashimoto, verified: true, startYear: 2016, endYear: 2019 },
+  { id: "us-full-liang-hashimoto", from: "percy-liang-us", to: "tatsunori-hashimoto-us", type: "lineage", subtype: "postdoc_mentor", label: "博士后指导", evidence: "Tatsunori Hashimoto 个人主页记录其 2016–2019 年在 Stanford CS/Statistics 从事博士后研究，合作导师包括 Percy Liang 与 John Duchi。", source: hashimoto, verified: true, startYear: 2016, endYear: 2019 },
   { id: "us-full-rush-yoonkim", from: "sasha-rush-us", to: "yoon-kim-us", type: "lineage", subtype: "phd_adviser", label: "博士导师", evidence: "Yoon Kim 个人主页与 CV 明确写明其 Harvard 计算机科学博士导师为 Alexander Rush。", source: yoonkim, verified: true, endYear: 2020 },
 ];
 

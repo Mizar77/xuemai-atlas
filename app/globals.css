@@ -185,17 +185,58 @@ button:focus-visible, a:focus-visible, input:focus-visible, select:focus-visible
 .atlas-content-people .people-directory { width: 100%; box-sizing: border-box; align-self: start; }
 .atlas-content-people .inspector { max-height: 800px; align-self: start; }
 .mobile-ego { display: none; }
-.graph-scroll { min-width: 0; overflow-x: auto; border-right: 1px solid var(--line); }
-.graph-canvas { width: 1180px; height: 910px; position: relative; overflow: hidden; background-color: #f7f9f5; background-image: linear-gradient(rgba(80,96,116,.06) 1px, transparent 1px), linear-gradient(90deg, rgba(80,96,116,.06) 1px, transparent 1px); background-size: 28px 28px; }
+.graph-scroll { min-width: 0; overflow: hidden; border-right: 1px solid var(--line); }
+.graph-canvas { width: 100%; height: 910px; position: relative; overflow: hidden; background-color: #f7f9f5; background-image: linear-gradient(rgba(80,96,116,.06) 1px, transparent 1px), linear-gradient(90deg, rgba(80,96,116,.06) 1px, transparent 1px); background-size: 28px 28px; cursor: grab; touch-action: none; user-select: none; }
+.graph-canvas.is-dragging { cursor: grabbing; }
+.graph-canvas.is-dragging .graph-world, .graph-canvas.is-dragging .graph-world button { pointer-events: none; }
+.global-graph-canvas { background-color: #f3f7f4; background-image: radial-gradient(circle at 50% 44%, rgba(39,94,230,.08), transparent 55%), linear-gradient(rgba(80,96,116,.055) 1px, transparent 1px), linear-gradient(90deg, rgba(80,96,116,.055) 1px, transparent 1px); }
+.graph-world { position: absolute; z-index: 1; left: 0; top: 0; transform-origin: 0 0; transition: none; will-change: transform; pointer-events: none; }
+.graph-world button { pointer-events: auto; }
 .graph-canvas::after { content: "evidence-linked graph · select a person to focus · click blank space to reset"; position: absolute; left: 20px; bottom: 12px; color: #8b978e; font: 600 9px var(--font-space), sans-serif; letter-spacing: .1em; text-transform: uppercase; }
-.graph-reset-surface { position: absolute; z-index: 0; inset: 0; width: 100%; height: 100%; border: 0; background: transparent; cursor: default; }
+.graph-reset-surface { position: absolute; z-index: 0; inset: 0; width: 100%; height: 100%; border: 0; background: transparent; cursor: grab; }
 .graph-instruction { position: absolute; z-index: 7; top: 12px; right: 20px; display: flex; align-items: center; gap: 8px; padding: 6px 8px; border: 1px solid #d5ddd3; border-radius: 4px; background: rgba(255,255,255,.9); color: #66758a; font-size: 8px; box-shadow: 0 3px 10px rgba(35,53,73,.06); }
 .graph-instruction button { border: 0; border-bottom: 1px solid var(--cobalt); padding: 0 0 1px; background: transparent; color: var(--cobalt); font-size: 8px; font-weight: 800; cursor: pointer; }
+.graph-camera-controls { position: absolute; z-index: 9; left: 16px; top: 12px; display: flex; align-items: center; gap: 4px; padding: 4px; border: 1px solid #cfd8d0; border-radius: 999px; background: rgba(255,255,255,.94); box-shadow: 0 6px 18px rgba(16,32,56,.09); }
+.graph-camera-controls button { min-width: 28px; height: 26px; border: 0; border-radius: 999px; background: #edf2eb; color: #304158; font-size: 10px; font-weight: 850; cursor: pointer; }
+.graph-camera-controls button.active { padding: 0 10px; background: var(--ink); color: white; }
+.graph-camera-controls span { min-width: 34px; color: #687688; font: 700 8px var(--font-space), sans-serif; text-align: center; }
+.global-region-zone { position: absolute; z-index: 0; box-sizing: border-box; border: 2px solid rgba(25,52,82,.22); border-radius: 44px; background: rgba(255,255,255,.43); color: #10213c; padding: 20px 28px; text-align: left; pointer-events: none; box-shadow: inset 0 0 100px rgba(255,255,255,.45); }
+.global-region-zone::after { content: ""; position: absolute; inset: 14px; border: 1px dashed currentColor; border-radius: 32px; opacity: .13; }
+.global-region-focus { position: absolute; z-index: 5; display: block; width: fit-content; border: 0; border-radius: 13px; padding: 5px 8px 7px; background: rgba(247,250,246,.94); color: inherit; text-align: left; pointer-events: auto; cursor: zoom-in; box-shadow: 0 3px 12px rgba(14,29,52,.06); }
+.global-region-focus > b, .global-region-focus > span { display: block; width: fit-content; }
+.global-region-focus > b { font: 900 30px var(--font-space), sans-serif; letter-spacing: -.035em; }
+.global-region-focus > span { margin-top: 2px; color: #6f7d90; font: 750 10px var(--font-space), sans-serif; }
+.global-region-zone.active { border-color: var(--cobalt); box-shadow: inset 0 0 110px rgba(39,94,230,.08), 0 0 0 5px rgba(39,94,230,.08); }
+.region-mainland { color: #275ee6; }
+.region-hong-kong { color: #db583a; }
+.region-singapore { color: #079883; }
+.region-us { color: #7650b0; }
+.region-canada { color: #b22e38; }
+.region-europe { color: #14708b; }
+.lineage-rail { position: absolute; z-index: 0; top: 24px; left: 20px; width: 1140px; box-sizing: border-box; border: 1px dashed rgba(39,94,230,.32); border-radius: 22px; background: linear-gradient(180deg, rgba(39,94,230,.075), rgba(39,94,230,.018)); color: #275ee6; pointer-events: none; }
+.lineage-rail b { position: absolute; left: 16px; top: 12px; font: 800 10px var(--font-space), sans-serif; letter-spacing: .1em; }
+.lineage-rail span { position: absolute; left: 16px; top: 29px; color: #71819a; font-size: 8px; }
 .institution-zone { position: absolute; display: flex; box-sizing: border-box; flex-direction: column; align-items: center; justify-content: center; border: 1px dashed; border-radius: 50%; padding: 0; pointer-events: none; opacity: .55; box-shadow: inset 0 0 80px rgba(255,255,255,.5); }
 .institution-zone::before { content: ""; position: absolute; inset: 42px; border: 1px solid currentColor; border-radius: 50%; opacity: .12; }
 .institution-zone b, .institution-zone span { position: relative; z-index: 1; display: block; text-align: center; }
 .institution-zone b { font: 800 18px var(--font-space), sans-serif; letter-spacing: .12em; }
 .institution-zone span { margin-top: 4px; font: 700 8px var(--font-space), sans-serif; letter-spacing: .06em; text-transform: uppercase; }
+.adaptive-institution-zone { z-index: 1; pointer-events: auto; justify-content: flex-start; padding-top: 22px; cursor: zoom-in; background: color-mix(in srgb, currentColor 5%, rgba(255,255,255,.72)); transition: border-color .2s, background .2s, box-shadow .2s; }
+.adaptive-institution-zone:hover, .adaptive-institution-zone.active { opacity: .86; border-width: 2px; background: color-mix(in srgb, currentColor 9%, rgba(255,255,255,.82)); box-shadow: inset 0 0 90px rgba(255,255,255,.62), 0 0 0 5px color-mix(in srgb, currentColor 10%, transparent); }
+.adaptive-institution-zone b { max-width: 72%; overflow: hidden; font-size: 17px; text-overflow: ellipsis; white-space: nowrap; }
+.global-overview .person-node { pointer-events: none; }
+.global-overview .node-copy { display: none; }
+.global-overview .person-node, .global-overview .person-node.dense-node { width: 42px; height: 42px; }
+.global-overview .person-node .node-avatar, .global-overview .person-node.dense-node .node-avatar { width: 34px; height: 34px; border-width: 2px; }
+.global-overview .global-region-focus { padding: 14px 22px 18px; border-radius: 28px; }
+.global-overview .global-region-focus > b { font-size: 92px; }
+.global-overview .global-region-focus > span { margin-top: 7px; font-size: 30px; }
+.global-overview .institution-zone b, .global-overview .institution-zone span { display: none; }
+.region-overview .person-node .node-copy { display: none; }
+.region-overview .institution-zone b { font-size: 62px; }
+.region-overview .institution-zone span { font-size: 25px; }
+.region-overview .global-region-focus > b { font-size: 72px; }
+.region-overview .global-region-focus > span { font-size: 24px; }
 .zone-nus { left: 38px; top: 88px; width: 355px; height: 485px; color: var(--cobalt); background: rgba(39,94,230,.025); }
 .zone-ntu { left: 415px; top: 88px; width: 355px; height: 485px; color: var(--coral); background: rgba(241,111,81,.025); }
 .zone-sutd { left: 790px; top: 88px; width: 350px; height: 155px; color: #a87900; background: rgba(217,159,0,.035); }
@@ -248,7 +289,7 @@ button:focus-visible, a:focus-visible, input:focus-visible, select:focus-visible
 .zone-ubc { color: #002145; background: rgba(0,33,69,.035); }
 .zone-alberta { color: #007c41; background: rgba(0,124,65,.03); }
 .zone-waterloo { color: #9a7600; background: rgba(242,195,0,.04); }
-.edge-layer { position: absolute; inset: 0; width: 1180px; height: 100%; z-index: 1; pointer-events: none; }
+.edge-layer { position: absolute; inset: 0; width: 100%; height: 100%; z-index: 2; pointer-events: none; overflow: visible; }
 .graph-line { position: absolute; height: 0; border-top: 2px solid; transform-origin: 0 0; z-index: 1; opacity: .75; }
 .graph-line::after { content: ""; position: absolute; right: -1px; top: -4px; width: 7px; height: 7px; border-top: 2px solid; border-right: 2px solid; transform: rotate(45deg); }
 .line-lineage { border-color: var(--cobalt); }
@@ -266,10 +307,22 @@ button:focus-visible, a:focus-visible, input:focus-visible, select:focus-visible
 .person-node.dense-node .node-copy { width: 56px; }
 .person-node.dense-node .node-copy strong { font-size: 9px; }
 .person-node.dense-node.selected::after { left: 4px; top: -3px; width: 44px; height: 44px; }
+.institution-detail .person-node:not(.lineage-upstream-node), .institution-detail .person-node:not(.lineage-upstream-node):hover, .institution-detail .person-node:not(.lineage-upstream-node).selected { width: 100px; height: 80px; }
+.institution-detail .person-node:not(.lineage-upstream-node) .node-copy { width: 100px; overflow: visible; }
+.institution-detail .person-node:not(.lineage-upstream-node) .node-copy strong { display: -webkit-box; overflow: hidden; font-size: 9px; line-height: 1.12; white-space: normal; -webkit-box-orient: vertical; -webkit-line-clamp: 2; }
+.institution-detail .person-node:not(.lineage-upstream-node).selected::after { left: 24px; }
+.institution-detail .adaptive-institution-zone { align-items: flex-start; padding-left: 34px; }
+.institution-detail .adaptive-institution-zone b, .institution-detail .adaptive-institution-zone span { text-align: left; }
 .person-node:hover .node-copy strong, .person-node.selected .node-copy strong { color: var(--node-color); }
 .external-node { background: transparent; border: 0; box-shadow: none; }
 .external-node .node-avatar { width: 40px; height: 40px; border-color: #758195; background: #758195; font-size: 9px; }
 .external-node .node-copy strong { color: #617086; font-size: 9px; }
+.lineage-upstream-node, .lineage-upstream-node:hover, .lineage-upstream-node.selected { z-index: 4; width: 92px; height: 70px; }
+.lineage-upstream-node .node-avatar { width: 42px; height: 42px; border-color: color-mix(in srgb, var(--node-color) 70%, white); box-shadow: 0 4px 12px rgba(39,94,230,.2); }
+.lineage-upstream-node .node-copy { width: 92px; overflow: visible; }
+.lineage-upstream-node .node-copy strong { font-size: 9px; color: #183b83; }
+.lineage-upstream-node .node-copy small { display: block; max-width: 92px; margin-top: 1px; overflow: hidden; color: #738198; font: 700 7px var(--font-space), sans-serif; text-overflow: ellipsis; white-space: nowrap; }
+.lineage-upstream-node.selected::after { left: 20px; top: -4px; width: 48px; height: 48px; }
 .person-node.dimmed { background: transparent; border-color: transparent; opacity: .48; box-shadow: none; filter: grayscale(.55); }
 .person-node.dimmed .node-avatar { background: #9da8a0; border-color: #aab4ad; }
 .person-node.dimmed .node-copy strong { color: #68766e; }
@@ -327,6 +380,7 @@ button:focus-visible, a:focus-visible, input:focus-visible, select:focus-visible
 .person-timeline li:last-child::before { display: none; }
 .timeline-marker { position: relative; z-index: 1; width: 11px; height: 11px; margin-top: 2px; border: 3px solid white; border-radius: 50%; background: #84909e; box-shadow: 0 0 0 1px #b8c2b8; }
 .timeline-appointment .timeline-marker { background: var(--cobalt); }
+.timeline-lineage .timeline-marker { background: var(--cobalt); box-shadow: 0 0 0 1px rgba(39,94,230,.52); }
 .timeline-collaboration .timeline-marker { background: var(--coral); }
 .timeline-topic .timeline-marker { background: var(--teal); }
 .timeline-talent .timeline-marker { background: var(--violet); }
@@ -414,6 +468,9 @@ button:focus-visible, a:focus-visible, input:focus-visible, select:focus-visible
 .scope-notes article { padding: 20px; background: rgba(255,255,255,.65); border: 1px solid #d1d8cc; }
 .scope-notes strong { font-size: 12px; }
 .scope-notes p { margin: 7px 0 0; color: #687687; font-size: 10px; line-height: 1.65; }
+.award-audit-summary { grid-template-columns: repeat(5, minmax(0, 1fr)); margin-bottom: 28px; }
+.award-audit-summary article { border-top: 3px solid var(--teal); background: rgba(255,255,255,.88); }
+.award-audit-summary a { color: var(--cobalt); font-weight: 800; text-decoration: none; white-space: nowrap; }
 
 .communities-section { background: var(--ink); color: white; padding: 100px 48px 110px; }
 .light-heading .section-index { color: var(--lime); }
@@ -882,6 +939,164 @@ body { background: var(--paper); }
 .company-atlas { border: 0; border-radius: 20px; overflow: hidden; box-shadow: 0 24px 70px rgba(15,23,42,.1); }
 .pathways article { margin: 0; }
 .method-section { background: radial-gradient(circle at 80% 20%,rgba(118,230,197,.18),transparent 28%),linear-gradient(145deg,#5264e5,#3947b9); }
+
+/* Obsidian-inspired graph explorer: stable academic geography with local-network focus. */
+.graph-scroll:has(.obsidian-graph) { background: #edf2f8; }
+.obsidian-graph {
+  color-scheme: light;
+  background-color: #edf2f8;
+  background-image:
+    radial-gradient(circle at 50% 45%, rgba(94,116,255,.13), transparent 42%),
+    radial-gradient(circle at 15% 15%, rgba(50,185,158,.09), transparent 26%),
+    radial-gradient(circle, rgba(73,91,127,.2) .65px, transparent .8px);
+  background-size: auto, auto, 22px 22px;
+  box-shadow: inset 0 0 110px rgba(112,131,169,.13);
+}
+.obsidian-graph::before {
+  content: "";
+  position: absolute;
+  z-index: 0;
+  inset: 0;
+  pointer-events: none;
+  background: linear-gradient(180deg, rgba(255,255,255,.28), transparent 24%, transparent 80%, rgba(91,111,151,.07));
+}
+.obsidian-graph::after {
+  content: "XUEMAI GRAPH · HOVER TO EXPLORE · CLICK TO LOCK";
+  color: rgba(68,84,113,.56);
+  text-shadow: 0 1px 0 rgba(255,255,255,.8);
+}
+.obsidian-graph .graph-reset-surface { cursor: grab; }
+.obsidian-graph .graph-camera-controls,
+.obsidian-graph .graph-instruction,
+.obsidian-graph .graph-legend {
+  border: 1px solid rgba(69,86,119,.17);
+  background: rgba(255,255,255,.88);
+  color: #53627a;
+  box-shadow: 0 12px 30px rgba(44,61,91,.12), inset 0 1px 0 rgba(255,255,255,.8);
+  backdrop-filter: blur(14px);
+}
+.obsidian-graph .graph-camera-controls { padding: 5px; }
+.obsidian-graph .graph-camera-controls button {
+  background: #e8edf5;
+  color: #40506a;
+  transition: color .15s, background .15s, box-shadow .15s;
+}
+.obsidian-graph .graph-camera-controls button:hover { background: #dbe3ff; color: #263f9a; }
+.obsidian-graph .graph-camera-controls button.active { background: #5868dd; color: white; box-shadow: 0 0 18px rgba(88,104,221,.35); }
+.obsidian-graph .graph-camera-controls span { color: #66758d; }
+.obsidian-graph .graph-instruction { border-radius: 999px; padding: 7px 10px; }
+.obsidian-graph .graph-instruction button { border-color: #5d70d6; color: #4055c1; }
+.graph-legend {
+  position: absolute;
+  z-index: 9;
+  left: 18px;
+  bottom: 34px;
+  display: flex;
+  gap: 12px;
+  padding: 8px 11px;
+  border-radius: 9px;
+  font: 700 8px var(--font-space), sans-serif;
+}
+.graph-legend span { display: inline-flex; align-items: center; gap: 5px; white-space: nowrap; }
+.graph-legend i { width: 7px; height: 7px; border-radius: 50%; box-shadow: 0 0 9px currentColor; }
+.graph-legend .legend-lineage { color: var(--cobalt); background: currentColor; }
+.graph-legend .legend-collaboration { color: var(--coral); background: currentColor; }
+.graph-legend .legend-industry { color: var(--teal); background: currentColor; }
+.graph-legend .legend-talent { color: var(--violet); background: currentColor; }
+
+.obsidian-graph .global-region-zone {
+  border-color: currentColor;
+  border-width: 1px;
+  background: color-mix(in srgb, currentColor 5%, rgba(255,255,255,.42));
+  opacity: .32;
+  box-shadow: inset 0 0 140px rgba(255,255,255,.34), 0 0 55px color-mix(in srgb, currentColor 7%, transparent);
+}
+.obsidian-graph .global-region-zone::after { opacity: .1; }
+.obsidian-graph .global-region-zone.active {
+  opacity: .7;
+  border-color: currentColor;
+  box-shadow: inset 0 0 150px color-mix(in srgb, currentColor 10%, transparent), 0 0 55px color-mix(in srgb, currentColor 10%, transparent);
+}
+.obsidian-graph .global-region-focus {
+  border: 1px solid rgba(70,89,122,.15);
+  background: rgba(255,255,255,.88);
+  box-shadow: 0 9px 25px rgba(55,71,103,.12), 0 0 22px color-mix(in srgb, currentColor 9%, transparent);
+  backdrop-filter: blur(10px);
+}
+.obsidian-graph .global-region-focus > b { color: #17253c; text-shadow: 0 1px 0 white; }
+.obsidian-graph .global-region-focus > span { color: #697992; }
+.obsidian-graph .institution-zone {
+  border-color: currentColor;
+  background: color-mix(in srgb, currentColor 4%, rgba(255,255,255,.5));
+  opacity: .34;
+  box-shadow: inset 0 0 95px rgba(255,255,255,.35);
+}
+.obsidian-graph .institution-zone::before { opacity: .08; }
+.obsidian-graph .adaptive-institution-zone:hover,
+.obsidian-graph .adaptive-institution-zone.active {
+  opacity: .78;
+  border-width: 1px;
+  background: color-mix(in srgb, currentColor 8%, rgba(255,255,255,.75));
+  box-shadow: inset 0 0 100px rgba(255,255,255,.45), 0 0 34px color-mix(in srgb, currentColor 12%, transparent);
+}
+.obsidian-graph .institution-zone b { color: #293a55; text-shadow: 0 1px 0 white; }
+.obsidian-graph .institution-zone span { color: #63738b; }
+
+.obsidian-graph .graph-edge { transition: opacity .16s, stroke-width .16s, filter .16s; }
+.obsidian-graph .graph-edge.active { filter: drop-shadow(0 0 5px currentColor); }
+.obsidian-graph .graph-edge.muted { filter: none; }
+.obsidian-graph .person-node,
+.obsidian-graph .person-node:hover,
+.obsidian-graph .person-node.selected {
+  width: 100px;
+  height: 84px;
+  transform: translate(-50%, -50%);
+  color: #e8eefb;
+  filter: none;
+}
+.obsidian-graph .person-node .node-avatar,
+.obsidian-graph .person-node.dense-node .node-avatar,
+.obsidian-graph.institution-detail .person-node:not(.lineage-upstream-node) .node-avatar {
+  width: var(--node-diameter, 44px);
+  height: var(--node-diameter, 44px);
+  border: 2px solid color-mix(in srgb, var(--node-color) 78%, #ffffff);
+  background: color-mix(in srgb, var(--node-color) 84%, #ffffff);
+  box-shadow: 0 0 0 3px rgba(255,255,255,.88), 0 3px 11px rgba(38,54,84,.2), 0 0 10px color-mix(in srgb, var(--node-color) 24%, transparent);
+  transition: width .16s, height .16s, border-color .16s, box-shadow .16s, filter .16s;
+}
+.obsidian-graph .person-node.selected .node-avatar {
+  border-color: white;
+  box-shadow: 0 0 0 3px white, 0 0 0 6px var(--node-color), 0 8px 22px rgba(31,46,76,.25), 0 0 24px color-mix(in srgb, var(--node-color) 45%, transparent);
+}
+.obsidian-graph .person-node.selected::after { display: none; }
+.obsidian-graph .node-copy,
+.obsidian-graph .person-node.dense-node .node-copy,
+.obsidian-graph.institution-detail .person-node:not(.lineage-upstream-node) .node-copy { width: 112px; overflow: visible; }
+.obsidian-graph .node-copy strong,
+.obsidian-graph .person-node.dense-node .node-copy strong,
+.obsidian-graph.institution-detail .person-node:not(.lineage-upstream-node) .node-copy strong {
+  display: block;
+  overflow: hidden;
+  color: #18273f;
+  font-size: 9px;
+  line-height: 1.2;
+  text-overflow: ellipsis;
+  text-shadow: 0 1px 0 rgba(255,255,255,.95), 0 0 7px rgba(255,255,255,.95);
+  white-space: nowrap;
+}
+.obsidian-graph .person-node.selected .node-copy strong { color: #0c1729; }
+.obsidian-graph .lineage-upstream-node .node-copy small { color: #667891; text-shadow: 0 1px 0 white; }
+.obsidian-graph .person-node.dimmed { opacity: .42; filter: grayscale(.32); }
+.obsidian-graph .person-node.dimmed .node-avatar { border-color: #8794a8; background: #aeb8c8; box-shadow: 0 0 0 3px rgba(255,255,255,.78); }
+.obsidian-graph .person-node.dimmed .node-copy strong { color: #718096; }
+.obsidian-graph .person-node.dimmed:hover { opacity: .42; filter: grayscale(.32); }
+.obsidian-graph.global-overview .person-node,
+.obsidian-graph.global-overview .person-node.dense-node { width: 48px; height: 48px; }
+.obsidian-graph.global-overview .person-node { pointer-events: auto; }
+.obsidian-graph.global-overview .person-node .node-avatar,
+.obsidian-graph.global-overview .person-node.dense-node .node-avatar { width: 30px; height: 30px; border-width: 1.5px; }
+.obsidian-graph.region-overview .person-node .node-avatar { width: min(var(--node-diameter, 40px), 44px); height: min(var(--node-diameter, 40px), 44px); }
+.obsidian-graph .self-relation-badge { border-color: white; box-shadow: 0 3px 10px rgba(35,50,79,.22), 0 0 9px currentColor; }
 
 @media (max-width: 760px) {
   .community-card { min-height: 0; }
