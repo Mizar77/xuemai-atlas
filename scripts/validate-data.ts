@@ -66,15 +66,18 @@ for (const person of people) {
   assert(person.sources.length > 0, `Person ${person.id} has no public source`);
   assert(person.sources.every((source) => validHttpUrl(source.url)), `Person ${person.id} has an invalid source URL`);
   if (person.portrait) {
-    assert(!/^https?:\/\//.test(person.portrait.src), `Person ${person.id} portrait must be stored locally`);
     assert(validHttpUrl(person.portrait.source.url), `Person ${person.id} portrait has an invalid source URL`);
-    const portraitPath = join(process.cwd(), "public", person.portrait.src.replace(/^\//, ""));
-    assert(existsSync(portraitPath), `Person ${person.id} portrait file does not exist: ${person.portrait.src}`);
-    assert(statSync(portraitPath).size >= 2_000, `Person ${person.id} portrait file is unexpectedly small`);
-    const hash = createHash("sha256").update(readFileSync(portraitPath)).digest("hex");
-    const duplicateOwner = portraitHashes.get(hash);
-    assert(!duplicateOwner, `People ${duplicateOwner} and ${person.id} use the same portrait file`);
-    portraitHashes.set(hash, person.id);
+    if (/^https?:\/\//.test(person.portrait.src)) {
+      assert(person.portrait.src.startsWith("https://"), `Person ${person.id} remote portrait must use HTTPS`);
+    } else {
+      const portraitPath = join(process.cwd(), "public", person.portrait.src.replace(/^\//, ""));
+      assert(existsSync(portraitPath), `Person ${person.id} portrait file does not exist: ${person.portrait.src}`);
+      assert(statSync(portraitPath).size >= 2_000, `Person ${person.id} portrait file is unexpectedly small`);
+      const hash = createHash("sha256").update(readFileSync(portraitPath)).digest("hex");
+      const duplicateOwner = portraitHashes.get(hash);
+      assert(!duplicateOwner, `People ${duplicateOwner} and ${person.id} use the same portrait file`);
+      portraitHashes.set(hash, person.id);
+    }
   }
 
   if (person.primary) {
