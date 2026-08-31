@@ -42,6 +42,11 @@ import { globalP0FinalPortraits } from "./portrait-data-global-p0-final";
 import { globalP0BPortraits } from "./portrait-data-global-p0-b";
 import { usFoundationalAuditPeople, usFoundationalAuditPersonEnhancements, usFoundationalAuditRelationships } from "./us-foundational-audit-expansion";
 import { usFoundationalPortraits } from "./portrait-data-us-foundational";
+import { awardAuditPortraits } from "./portrait-data-award-audit";
+import { aclAwardAuditCoverage, aclAwardAuditPeople, aclAwardRecords } from "./award-audit-acl";
+import { neuripsAwardAuditPeople, neuripsAwardCoverage, neuripsAwardRecords } from "./award-audit-neurips";
+import { cvprAwardAuditCoverage, cvprAwardAuditPeople, cvprAwardAuditRecords } from "./award-audit-cvpr";
+import { iclrIcmlAwardAuditCoverage, iclrIcmlAwardAuditPeople, iclrIcmlAwardAuditRelationships, iclrIcmlAwardRecords } from "./award-audit-iclr-icml";
 
 export type Source = {
   label: string;
@@ -58,7 +63,7 @@ export type Source = {
 export const dataSnapshotDate = "2026-08-31";
 
 export type Region = "Singapore" | "Hong Kong" | "Mainland China" | "United States" | "Canada" | "Europe";
-export type Institution = "NUS" | "NTU" | "SUTD" | "SMU" | "A*STAR" | "HKU" | "HKUST" | "CUHK" | "CityU" | "PolyU" | "HKBU" | "THU" | "PKU" | "FDU" | "RUC" | "HIT" | "CAS-IA" | "NJU" | "SJTU" | "ZJU" | "USTC" | "BIT" | "BUAA" | "BUPT" | "XJTU" | "SYSU" | "ECNU" | "WHU" | "Stanford" | "Berkeley" | "CMU" | "UW" | "MIT" | "Princeton" | "Cornell" | "NYU" | "Columbia" | "UMass" | "JHU" | "UT Austin" | "UMich" | "UIUC" | "Georgia Tech" | "UCLA" | "UCSD" | "U of Toronto" | "Université de Montréal" | "McGill" | "Polytechnique Montréal" | "UBC" | "University of Alberta" | "Waterloo" | "Oxford" | "Cambridge" | "UCL" | "Edinburgh" | "ETH Zurich" | "EPFL" | "Tübingen/MPI" | "TUM" | "TU Darmstadt" | "UvA" | "KU Leuven" | "Inria" | "Sapienza" | "External";
+export type Institution = "NUS" | "NTU" | "SUTD" | "SMU" | "A*STAR" | "HKU" | "HKUST" | "CUHK" | "CityU" | "PolyU" | "HKBU" | "THU" | "PKU" | "FDU" | "RUC" | "HIT" | "CAS-IA" | "NJU" | "SJTU" | "ZJU" | "USTC" | "BIT" | "BUAA" | "BUPT" | "XJTU" | "SYSU" | "ECNU" | "WHU" | "Stanford" | "Berkeley" | "CMU" | "UW" | "MIT" | "Princeton" | "Cornell" | "NYU" | "Columbia" | "UMass" | "JHU" | "UT Austin" | "UMich" | "UIUC" | "Georgia Tech" | "UCLA" | "UCSD" | "U of Toronto" | "Université de Montréal" | "McGill" | "Polytechnique Montréal" | "UBC" | "University of Alberta" | "Waterloo" | "Oxford" | "Cambridge" | "UCL" | "Edinburgh" | "ETH Zurich" | "EPFL" | "Tübingen/MPI" | "TUM" | "TU Darmstadt" | "UvA" | "KU Leuven" | "Inria" | "Sapienza" | "Award Network" | "External";
 export type Stage = "senior" | "emerging" | "institute" | "adjacent" | "historical";
 export type Category = "core" | "adjacent" | "historical";
 
@@ -68,6 +73,8 @@ export type Person = {
   chinese?: string;
   role: string;
   institution: Institution;
+  /** Full affiliation for award-audited faculty outside the focal institution roster. */
+  actualInstitution?: string;
   region?: Region;
   area: string;
   tags: string[];
@@ -84,7 +91,7 @@ export type Person = {
   lastVerifiedAt?: string;
   /** Known alumni denominator from a public roster; placements may cover only a subset. */
   knownAlumniCount?: number;
-  /** Locally stored portrait copied from a public faculty/profile page. */
+  /** Portrait copied locally or linked from a verified public faculty/profile host. */
   portrait?: {
     src: string;
     alt: string;
@@ -102,12 +109,12 @@ export type IndustryPathway = {
 };
 
 export const regionalInstitutions: Record<Region, Institution[]> = {
-  Singapore: ["NUS", "NTU", "SUTD", "SMU", "A*STAR"],
-  "Hong Kong": ["HKU", "HKUST", "CUHK", "CityU", "PolyU", "HKBU"],
-  "Mainland China": ["THU", "PKU", "FDU", "RUC", "HIT", "CAS-IA", "NJU", "SJTU", "ZJU", "USTC", "BIT", "BUAA", "BUPT", "XJTU", "SYSU", "ECNU", "WHU"],
-  "United States": ["Stanford", "Berkeley", "CMU", "UW", "MIT", "Princeton", "Cornell", "NYU", "Columbia", "UMass", "JHU", "UT Austin", "UMich", "UIUC", "Georgia Tech", "UCLA", "UCSD"],
-  Canada: ["U of Toronto", "Université de Montréal", "McGill", "Polytechnique Montréal", "UBC", "University of Alberta", "Waterloo"],
-  Europe: ["Oxford", "Cambridge", "UCL", "Edinburgh", "ETH Zurich", "EPFL", "Tübingen/MPI", "TUM", "TU Darmstadt", "UvA", "KU Leuven", "Inria", "Sapienza"],
+  Singapore: ["NUS", "NTU", "SUTD", "SMU", "A*STAR", "Award Network"],
+  "Hong Kong": ["HKU", "HKUST", "CUHK", "CityU", "PolyU", "HKBU", "Award Network"],
+  "Mainland China": ["THU", "PKU", "FDU", "RUC", "HIT", "CAS-IA", "NJU", "SJTU", "ZJU", "USTC", "BIT", "BUAA", "BUPT", "XJTU", "SYSU", "ECNU", "WHU", "Award Network"],
+  "United States": ["Stanford", "Berkeley", "CMU", "UW", "MIT", "Princeton", "Cornell", "NYU", "Columbia", "UMass", "JHU", "UT Austin", "UMich", "UIUC", "Georgia Tech", "UCLA", "UCSD", "Award Network"],
+  Canada: ["U of Toronto", "Université de Montréal", "McGill", "Polytechnique Montréal", "UBC", "University of Alberta", "Waterloo", "Award Network"],
+  Europe: ["Oxford", "Cambridge", "UCL", "Edinburgh", "ETH Zurich", "EPFL", "Tübingen/MPI", "TUM", "TU Darmstadt", "UvA", "KU Leuven", "Inria", "Sapienza", "Award Network"],
 };
 
 export function regionOf(person: Person): Region {
@@ -738,8 +745,94 @@ const basePeople: Person[] = [
   ...globalP0People,
 ];
 
-export const people: Person[] = basePeople.map((person) => {
-  const portrait = globalP0BPortraits[person.id] ?? canadaEastPortraits[person.id] ?? canadaWestPortraits[person.id] ?? globalP0FinalPortraits[person.id] ?? usFoundationalPortraits[person.id] ?? canadaPortraits[person.id] ?? globalP0Portraits[person.id] ?? finalEuropeHkPortraits[person.id] ?? finalMainlandPortraits[person.id] ?? finalUsPortraits[person.id] ?? lamdaPortraits[person.id] ?? europePortraits[person.id] ?? systematicRosterPortraits[person.id] ?? hkSgMissingPortraits[person.id] ?? mainlandMissingPortraits[person.id] ?? mainlandFillAPortraits[person.id] ?? mainlandFillBPortraits[person.id] ?? mainlandPortraits[person.id] ?? hkSgPortraits[person.id] ?? usPortraits[person.id] ?? person.portrait;
+const awardAuditRawPeople: Person[] = [
+  ...aclAwardAuditPeople,
+  ...neuripsAwardAuditPeople,
+  ...cvprAwardAuditPeople,
+  ...iclrIcmlAwardAuditPeople,
+];
+
+function normalizedPersonKey(value?: string) {
+  return (value ?? "").normalize("NFKD").replace(/[^a-z0-9\p{Script=Han}]/giu, "").toLocaleLowerCase();
+}
+
+/**
+ * Award papers often overlap across conferences and with the institution-first roster.
+ * Resolve those names to one canonical person and treat the later record as enrichment,
+ * rather than creating a second node for the same scholar.
+ */
+const awardAuditEnhancements: Record<string, Partial<Person>> = {};
+const awardAuditPeople: Person[] = [];
+const awardResolvedByName = new Map<string, Person>();
+basePeople.forEach((person) => {
+  [person.name, person.chinese].filter(Boolean).forEach((name) => awardResolvedByName.set(normalizedPersonKey(name), person));
+});
+awardAuditRawPeople.forEach((rawPerson) => {
+  const existing = awardResolvedByName.get(normalizedPersonKey(rawPerson.name))
+    ?? awardResolvedByName.get(normalizedPersonKey(rawPerson.chinese));
+  if (existing) {
+    const prior = awardAuditEnhancements[existing.id];
+    awardAuditEnhancements[existing.id] = {
+      tags: Array.from(new Set([...(prior?.tags ?? []), ...rawPerson.tags])),
+      facts: [...(prior?.facts ?? []), ...(rawPerson.facts ?? [])],
+      sources: [...(prior?.sources ?? []), ...rawPerson.sources],
+      lastVerifiedAt: rawPerson.lastVerifiedAt ?? prior?.lastVerifiedAt,
+    };
+    return;
+  }
+  const person = rawPerson.institution === "External" && rawPerson.actualInstitution
+    ? { ...rawPerson, institution: "Award Network" as const }
+    : rawPerson;
+  awardAuditPeople.push(person);
+  [person.name, person.chinese].filter(Boolean).forEach((name) => awardResolvedByName.set(normalizedPersonKey(name), person));
+});
+
+const peopleBeforeEnhancement: Person[] = [...basePeople, ...awardAuditPeople];
+
+/** Net-new people found by the conference-award reverse audit after name deduplication. */
+const awardVenuesByPersonId = new Map<string, Set<string>>();
+const addAwardVenue = (id: string | undefined, venue: string) => {
+  if (!id) return;
+    const venues = awardVenuesByPersonId.get(id) ?? new Set<string>();
+    venues.add(venue);
+    awardVenuesByPersonId.set(id, venues);
+};
+aclAwardRecords.forEach((record) => record.facultyAuthorIds.forEach((id) => addAwardVenue(id, record.venue)));
+neuripsAwardRecords.forEach((record) => record.addedIds.forEach((id) => addAwardVenue(id, "NeurIPS")));
+cvprAwardAuditRecords.forEach((record) => {
+  record.added.forEach((name) => addAwardVenue(awardResolvedByName.get(normalizedPersonKey(name))?.id, "CVPR"));
+});
+iclrIcmlAwardRecords.forEach((record) => record.facultyAudit.forEach((author) => addAwardVenue(author.personId, record.venue)));
+
+awardAuditPeople.forEach((person) => {
+  const venues = Array.from(awardVenuesByPersonId.get(person.id) ?? []);
+  const profileSource = person.sources.find((source) => !/award|best paper|outstanding/i.test(`${source.label} ${source.supports ?? ""}`)) ?? person.sources.at(-1);
+  const awardSource = person.sources.find((source) => /award|best paper|outstanding/i.test(`${source.label} ${source.supports ?? ""}`)) ?? person.sources[0];
+  person.tags = Array.from(new Set([...person.tags, ...venues.map((venue) => `${venue} award network`)]));
+  person.facts = [
+    ...(person.facts ?? []),
+    ...(profileSource ? [{ label: "研究定位", value: `${person.role}；主要关注 ${person.area.replaceAll(" · ", "、")}。`, source: profileSource }] : []),
+    ...(awardSource ? [{
+      label: "获奖网络中的位置",
+      value: `作为近三年 ${venues.join(" / ") || "顶级会议"} 获奖论文作者中的现任教师或独立 PI 被反向识别；这里只把获奖作者身份作为纳入依据，不由合著自动推断师承或长期合作。`,
+      source: awardSource,
+    }] : []),
+  ];
+});
+
+/** Net-new people found by the conference-award reverse audit after name deduplication. */
+export const awardAuditAddedPeople: Person[] = awardAuditPeople;
+
+export const conferenceAwardAudit = [
+  { venue: "ACL", years: aclAwardAuditCoverage.years, recordCount: aclAwardRecords.length, officialSources: aclAwardAuditCoverage.officialAwardPages },
+  { venue: "NeurIPS", years: neuripsAwardCoverage.years, recordCount: neuripsAwardRecords.length, officialSources: neuripsAwardCoverage.officialAwardPages },
+  { venue: "CVPR", years: cvprAwardAuditCoverage.map((row) => row.year), recordCount: cvprAwardAuditRecords.length, officialSources: cvprAwardAuditCoverage.flatMap((row) => row.officialSources) },
+  { venue: "ICLR", years: iclrIcmlAwardAuditCoverage.years, recordCount: iclrIcmlAwardRecords.filter((row) => row.venue === "ICLR").length, officialSources: iclrIcmlAwardAuditCoverage.officialAwardPages.slice(0, 3) },
+  { venue: "ICML", years: iclrIcmlAwardAuditCoverage.years, recordCount: iclrIcmlAwardRecords.filter((row) => row.venue === "ICML").length, officialSources: iclrIcmlAwardAuditCoverage.officialAwardPages.slice(3) },
+];
+
+export const people: Person[] = peopleBeforeEnhancement.map((person) => {
+  const portrait = awardAuditPortraits[person.id] ?? globalP0BPortraits[person.id] ?? canadaEastPortraits[person.id] ?? canadaWestPortraits[person.id] ?? globalP0FinalPortraits[person.id] ?? usFoundationalPortraits[person.id] ?? canadaPortraits[person.id] ?? globalP0Portraits[person.id] ?? finalEuropeHkPortraits[person.id] ?? finalMainlandPortraits[person.id] ?? finalUsPortraits[person.id] ?? lamdaPortraits[person.id] ?? europePortraits[person.id] ?? systematicRosterPortraits[person.id] ?? hkSgMissingPortraits[person.id] ?? mainlandMissingPortraits[person.id] ?? mainlandFillAPortraits[person.id] ?? mainlandFillBPortraits[person.id] ?? mainlandPortraits[person.id] ?? hkSgPortraits[person.id] ?? usPortraits[person.id] ?? person.portrait;
   const lamdaEnhancement = lamdaPersonEnhancements[person.id];
   const enhancements: Partial<Person>[] = [
     mainlandPersonEnhancements[person.id],
@@ -753,6 +846,7 @@ export const people: Person[] = basePeople.map((person) => {
     canadaEastPersonEnhancements[person.id],
     canadaWestPersonEnhancements[person.id],
     globalP0PersonEnhancements[person.id],
+    awardAuditEnhancements[person.id],
     lamdaEnhancement,
   ].filter((enhancement): enhancement is Partial<Person> => Boolean(enhancement));
   if (!enhancements.length && !portrait) return person;
@@ -856,6 +950,7 @@ export const relationships: Relationship[] = [
   ...usFoundationalAuditRelationships,
   ...globalP0Relationships,
   ...globalP0StrongRelationships,
+  ...iclrIcmlAwardAuditRelationships,
 ];
 
 export const coverage = [

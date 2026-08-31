@@ -1,7 +1,7 @@
 "use client";
 
 import { useEffect, useMemo, useRef, useState } from "react";
-import { communities, coverage, groupMembers, industryPathways, people, placementSectorLabels, placementSectorOf, regionOf, regionalInstitutions, relationships, relationshipSubtypeLabels, relationshipSubtypeOf, stageLabels, studentPlacements, type Person, type Region, type Relationship, type Source, type StudentPlacement } from "./data";
+import { communities, conferenceAwardAudit, coverage, groupMembers, industryPathways, people, placementSectorLabels, placementSectorOf, regionOf, regionalInstitutions, relationships, relationshipSubtypeLabels, relationshipSubtypeOf, stageLabels, studentPlacements, type Person, type Region, type Relationship, type Source, type StudentPlacement } from "./data";
 import { companyResearchLineages, type CompanyLineageAdviser } from "./company-lineage-data";
 import FeedbackDrawer from "./FeedbackDrawer";
 import VisitorMap from "./VisitorMap";
@@ -35,6 +35,7 @@ const institutionColors: Record<Person["institution"], string> = {
   UMich: "#00274c", UIUC: "#e84a27", "Georgia Tech": "#b3a369", UCLA: "#2774ae", UCSD: "#00629b",
   "U of Toronto": "#1e3765", "Université de Montréal": "#0057a8", McGill: "#ed1b2f", "Polytechnique Montréal": "#00843d", UBC: "#002145", "University of Alberta": "#007c41", Waterloo: "#f2c300",
   Oxford: "#002147", Cambridge: "#a3c1ad", UCL: "#003b5c", Edinburgh: "#b51f1f", "ETH Zurich": "#1f82c0", EPFL: "#d71920", "Tübingen/MPI": "#5b3f91", TUM: "#0065bd", "TU Darmstadt": "#005aa9", UvA: "#bc0031", "KU Leuven": "#116e8a", Inria: "#5b38b4", Sapienza: "#8b1d3d",
+  "Award Network": "#00a88f",
 };
 const relationColors: Record<Relationship["type"], string> = { lineage: "#275ee6", collaboration: "#f16f51", industry: "#07a383", talent: "#8a5bdb" };
 const placementKindLabels = { current: "当前任职", first_job: "毕业去向", founder: "创业", reported: "组页记录", internship: "产业实习" } as const;
@@ -45,6 +46,14 @@ const regionSlugs: Record<Region, string> = { Singapore: "singapore", "Hong Kong
 
 function regionFromSlug(value: string | null): Region | undefined {
   return (Object.keys(regionSlugs) as Region[]).find((key) => regionSlugs[key] === value);
+}
+
+function affiliationLabel(person: Person) {
+  return person.actualInstitution ?? person.institution;
+}
+
+function institutionLabel(institution: Person["institution"]) {
+  return institution === "Award Network" ? "获奖作者网络" : institution;
 }
 
 function normalizedTokens(value: string) {
@@ -77,6 +86,7 @@ const graphZones: Record<Region, { institution: Person["institution"]; note: str
     { institution: "SUTD", note: "1 current PI", className: "zone-sutd" },
     { institution: "SMU", note: "2 current + 1 historical", className: "zone-smu" },
     { institution: "A*STAR", note: "3 research PIs", className: "zone-astar" },
+    { institution: "Award Network", note: "award-audited faculty", className: "zone-awards" },
   ],
   "Hong Kong": [
     { institution: "HKU", note: "3 core + 1 adjacent", className: "zone-hku" },
@@ -85,6 +95,7 @@ const graphZones: Record<Region, { institution: Person["institution"]; note: str
     { institution: "CityU", note: "5 core + 3 adjacent", className: "zone-cityu" },
     { institution: "PolyU", note: "5 core + 2 adjacent", className: "zone-polyu" },
     { institution: "HKBU", note: "2 core + 2 adjacent", className: "zone-hkbu" },
+    { institution: "Award Network", note: "award-audited faculty", className: "zone-awards" },
   ],
   "Mainland China": [
     { institution: "THU", note: "5 core PI", className: "zone-thu" },
@@ -104,6 +115,7 @@ const graphZones: Record<Region, { institution: Person["institution"]; note: str
     { institution: "SYSU", note: "4 core + 1 adjacent", className: "zone-sysu" },
     { institution: "ECNU", note: "5 core PI", className: "zone-ecnu" },
     { institution: "WHU", note: "5 core PI", className: "zone-whu" },
+    { institution: "Award Network", note: "award-audited faculty", className: "zone-awards" },
   ],
   "United States": [
     { institution: "Stanford", note: "7 core + 1 adjacent", className: "zone-stanford" },
@@ -123,6 +135,7 @@ const graphZones: Record<Region, { institution: Person["institution"]; note: str
     { institution: "Georgia Tech", note: "2 vision / robotics PI", className: "zone-georgiatech" },
     { institution: "UCLA", note: "2 vision PI", className: "zone-ucla" },
     { institution: "UCSD", note: "2 ML / multimodal PI", className: "zone-ucsd" },
+    { institution: "Award Network", note: "award-audited faculty", className: "zone-awards" },
   ],
   Canada: [
     { institution: "U of Toronto", note: "deep learning · vision · AI for health", className: "zone-utoronto" },
@@ -132,6 +145,7 @@ const graphZones: Record<Region, { institution: Person["institution"]; note: str
     { institution: "UBC", note: "vision · NLP · machine learning", className: "zone-ubc" },
     { institution: "University of Alberta", note: "Amii · reinforcement learning", className: "zone-alberta" },
     { institution: "Waterloo", note: "NLP · agents · decision making", className: "zone-waterloo" },
+    { institution: "Award Network", note: "award-audited faculty", className: "zone-awards" },
   ],
   Europe: [
     { institution: "Oxford", note: "5 representative PI", className: "zone-oxford" },
@@ -147,6 +161,7 @@ const graphZones: Record<Region, { institution: Person["institution"]; note: str
     { institution: "KU Leuven", note: "3 representative PI", className: "zone-kuleuven" },
     { institution: "Inria", note: "3 representative PI", className: "zone-inria" },
     { institution: "Sapienza", note: "1 representative PI", className: "zone-sapienza" },
+    { institution: "Award Network", note: "award-audited faculty", className: "zone-awards" },
   ],
 };
 
@@ -197,10 +212,10 @@ function institutionOrbitPoint(index: number, count: number, centerX: number, ce
   // Dense institutions use three rings. Keeping no more than 12 names on the
   // outer orbit leaves enough arc length for the 76px labels inside a 340px zone.
   const outerCount = 12;
-  const middleCount = Math.min(7, count - outerCount);
+  const middleCount = Math.min(9, count - outerCount);
   if (index < outerCount) return orbitPoint(index, outerCount, 134, centerX, centerY, -2);
-  if (index < outerCount + middleCount) return orbitPoint(index - outerCount, middleCount, 68, centerX, centerY, 12);
-  return orbitPoint(index - outerCount - middleCount, count - outerCount - middleCount, 28, centerX, centerY, 30);
+  if (index < outerCount + middleCount) return orbitPoint(index - outerCount, middleCount, 82, centerX, centerY, 12);
+  return orbitPoint(index - outerCount - middleCount, count - outerCount - middleCount, 36, centerX, centerY, 30);
 }
 
 function RelationChip({ type }: { type: Relationship["type"] }) {
@@ -215,7 +230,7 @@ function PersonAvatar({ person, className, style }: { person: Person; className:
   return <span className={`${className}${person.portrait ? " has-portrait" : ""}`} style={style} aria-hidden="true">
     {/* Small local card portraits are already cropped and compressed; routing them through image optimization would add avoidable requests. */}
     {/* eslint-disable-next-line @next/next/no-img-element */}
-    {person.portrait ? <img src={person.portrait.src} alt="" loading="lazy" decoding="async" /> : initials(primaryName(person))}
+    {person.portrait ? <img src={person.portrait.src} alt="" loading="lazy" decoding="async" referrerPolicy="no-referrer" /> : initials(primaryName(person))}
   </span>;
 }
 
@@ -449,7 +464,7 @@ export default function AcademicAtlas() {
       const placements = studentPlacements.filter((placement) => placement.teacherId === person.id);
       const personRelations = relationships.filter((relationship) => relationship.from === person.id || relationship.to === person.id);
       const fields = {
-        person: [person.name, person.chinese, person.institution, regionOf(person), regionLabels[regionOf(person)], person.role, person.area, ...person.tags, person.summary, person.status, ...(person.facts ?? []).flatMap((fact) => [fact.label, fact.value])].filter(Boolean).join(" "),
+        person: [person.name, person.chinese, person.institution, person.actualInstitution, regionOf(person), regionLabels[regionOf(person)], person.role, person.area, ...person.tags, person.summary, person.status, ...(person.facts ?? []).flatMap((fact) => [fact.label, fact.value])].filter(Boolean).join(" "),
         group: members.flatMap((member) => [member.name, member.role, member.focus]).filter(Boolean).join(" "),
         placement: placements.flatMap((placement) => [placement.student, placement.company, placement.department, placement.role, placement.degree, placement.graduationYear]).filter(Boolean).join(" "),
         relation: personRelations.flatMap((relationship) => [relationship.label, relationship.evidence, relationship.evidenceObject, relationship.source.label]).filter(Boolean).join(" "),
@@ -522,7 +537,9 @@ export default function AcademicAtlas() {
       institution: coverageInstitution,
       core: institutionPeople.filter((person) => person.category === "core").length,
       adjacent: institutionPeople.filter((person) => person.category === "adjacent").length,
-      note: documented?.note ?? "本轮按公开院系名录与教师主页扩展；关系与去向仅在有逐条证据时收录。",
+      note: documented?.note ?? (coverageInstitution === "Award Network"
+        ? "由近三年 ICLR、ICML、NeurIPS、CVPR 与 ACL 官方论文奖项反向核验；仅纳入已核验的现任独立 PI。"
+        : "本轮按公开院系名录与教师主页扩展；关系与去向仅在有逐条证据时收录。"),
     };
   });
   const regionalCommunities = communities.filter((community) => community.regions.includes(region));
@@ -570,7 +587,7 @@ export default function AcademicAtlas() {
   const leadFirst = (members: Person[]) => members.toSorted((a, b) => Number(b.id === directoryLeadId) - Number(a.id === directoryLeadId));
   const leadGroupFirst = <T extends { people: Person[] }>(groups: T[]) => groups.toSorted((a, b) => Number(b.people.some((person) => person.id === directoryLeadId)) - Number(a.people.some((person) => person.id === directoryLeadId)));
   const institutionDirectoryGroups = leadGroupFirst(regionalInstitutions[region].map((inst) => ({
-    key: inst, label: inst, note: `${visiblePeople.filter((person) => person.primary && person.institution === inst).length} 位`, color: institutionColors[inst],
+    key: inst, label: institutionLabel(inst), note: `${visiblePeople.filter((person) => person.primary && person.institution === inst).length} 位`, color: institutionColors[inst],
     people: leadFirst(visiblePeople.filter((person) => person.primary && person.institution === inst)),
   })).filter((group) => group.people.length));
   const assignedTopicPeople = new Set<string>();
@@ -673,14 +690,14 @@ export default function AcademicAtlas() {
                 <header><strong>全局结果</strong><span>{globalMatches.length} 位相关学者</span></header>
                 {globalMatches.map(({ person, matchedIn, recruitingMatch }) => <button key={person.id} role="option" aria-selected={selected.id === person.id} onClick={() => { openPerson(person, "people"); setQuery(""); }}>
                   <PersonAvatar person={person} className="search-monogram" style={{ background: institutionColors[person.institution] }} />
-                  <span><strong>{displayName(person)}</strong><small>{regionLabels[regionOf(person)]} · {person.institution} · {person.area}</small><em>命中：{matchedIn.map((field) => ({ person: "人物", group: "组员", placement: "学生去向", relation: "关系证据" })[field]).join("、")}{hasRecruitingIntent(query) ? ` · ${recruitingMatch ? "有公开招生说明" : "招生状态待核验"}` : ""}</em></span>
+                  <span><strong>{displayName(person)}</strong><small>{regionLabels[regionOf(person)]} · {affiliationLabel(person)} · {person.area}</small><em>命中：{matchedIn.map((field) => ({ person: "人物", group: "组员", placement: "学生去向", relation: "关系证据" })[field]).join("、")}{hasRecruitingIntent(query) ? ` · ${recruitingMatch ? "有公开招生说明" : "招生状态待核验"}` : ""}</em></span>
                   <b>→</b>
                 </button>)}
                 {globalMatches.length === 0 && <p>没有同时满足所有关键词的结果。可尝试减少一个关键词。</p>}
               </div>}
             </div>
             <div className="filter-row" aria-label="机构筛选">
-              {(["All", ...regionalInstitutions[region]] as InstitutionFilter[]).map((item) => <button key={item} className={institution === item ? "active" : ""} onClick={() => setInstitution(item)}>{item === "All" ? "全部机构" : item}</button>)}
+              {(["All", ...regionalInstitutions[region]] as InstitutionFilter[]).map((item) => <button key={item} className={institution === item ? "active" : ""} onClick={() => setInstitution(item)}>{item === "All" ? "全部机构" : institutionLabel(item)}</button>)}
             </div>
             <span className="result-count">{visiblePeople.filter((p) => p.primary).length} 人</span>
           </div>
@@ -697,7 +714,7 @@ export default function AcademicAtlas() {
             {view === "graph" && (
               <>
               <div className="mobile-ego" aria-label={`${displayName(selected)} 的一跳关系`}>
-                <header><div><small>ONE-HOP RELATIONSHIPS</small><strong>{displayName(selected)}</strong><span>{selected.institution} · {selected.area}</span></div><button onClick={() => openPerson(selected, "people")}>查看详情</button></header>
+                <header><div><small>ONE-HOP RELATIONSHIPS</small><strong>{displayName(selected)}</strong><span>{affiliationLabel(selected)} · {selected.area}</span></div><button onClick={() => openPerson(selected, "people")}>查看详情</button></header>
                 <div>{selectedRelations.filter((relation) => relation.from !== relation.to).map((relation) => {
                   const neighborId = relation.from === selected.id ? relation.to : relation.from;
                   const neighbor = people.find((person) => person.id === neighborId);
@@ -713,7 +730,7 @@ export default function AcademicAtlas() {
                 <div className="graph-canvas" style={{ height: graphHeight }} aria-label="学者关系网络">
                   <button className="graph-reset-surface" aria-label="显示全部人物关系" onClick={() => setGraphFocusId(null)} />
                   <div className="graph-instruction"><span>点击人物聚焦关系 · 点击空白恢复全图</span>{activeGraphFocusId && <button onClick={() => setGraphFocusId(null)}>显示全部</button>}</div>
-                  {graphZones[region].map((zone, zoneIndex) => <div className={`institution-zone ${zone.className}`} style={graphZoneRect(zoneIndex)} key={zone.institution}><b>{zone.institution}</b><span>{regionPeople.filter((person) => person.primary && person.institution === zone.institution).length} current nodes</span></div>)}
+                  {graphZones[region].map((zone, zoneIndex) => <div className={`institution-zone ${zone.className}`} style={graphZoneRect(zoneIndex)} key={zone.institution}><b>{institutionLabel(zone.institution)}</b><span>{regionPeople.filter((person) => person.primary && person.institution === zone.institution).length} current nodes</span></div>)}
                   <svg className="edge-layer" viewBox={`0 0 1180 ${graphHeight}`} aria-hidden="true">
                     {visibleRelations.filter((r) => r.from !== r.to).map((relation) => {
                       const from = people.find((p) => p.id === relation.from)!;
@@ -728,7 +745,7 @@ export default function AcademicAtlas() {
                     const point = graphPositionFor(person);
                     const denseInstitution = regionPeople.filter((candidate) => candidate.institution === person.institution).length > 10;
                     return (
-                    <button key={person.id} data-institution={person.institution} aria-label={`${displayName(person)} · ${person.institution} · ${person.area}`} title={`${displayName(person)} · ${person.institution} · ${person.area}`} className={`person-node ${denseInstitution ? "dense-node" : ""} ${person.primary ? "primary-node" : "external-node"} ${activeGraphFocusId === person.id ? "selected" : ""} ${activeGraphFocusId && !graphFocusedIds.has(person.id) ? "dimmed" : "focus-active"}`} style={{ left: point.x, top: point.y, "--node-color": institutionColors[person.institution] } as React.CSSProperties} onClick={(event) => { event.stopPropagation(); setSelectedId(person.id); setGraphFocusId((current) => current === person.id ? null : person.id); }}>
+                    <button key={person.id} data-institution={person.institution} aria-label={`${displayName(person)} · ${affiliationLabel(person)} · ${person.area}`} title={`${displayName(person)} · ${affiliationLabel(person)} · ${person.area}`} className={`person-node ${denseInstitution ? "dense-node" : ""} ${person.primary ? "primary-node" : "external-node"} ${activeGraphFocusId === person.id ? "selected" : ""} ${activeGraphFocusId && !graphFocusedIds.has(person.id) ? "dimmed" : "focus-active"}`} style={{ left: point.x, top: point.y, "--node-color": institutionColors[person.institution] } as React.CSSProperties} onClick={(event) => { event.stopPropagation(); setSelectedId(person.id); setGraphFocusId((current) => current === person.id ? null : person.id); }}>
                       <PersonAvatar person={person} className="node-avatar" /><span className="node-copy"><strong>{displayName(person)}</strong></span>
                     </button>
                     );
@@ -753,7 +770,7 @@ export default function AcademicAtlas() {
                       <article key={person.id} className={`person-card ${selected.id === person.id ? "selected" : ""}`}>
                         <button className="person-card-main" onClick={() => openPerson(person, "people")}>
                           <PersonAvatar person={person} className="person-monogram" style={{ background: institutionColors[person.institution] }} />
-                          <span><small>{person.institution} · {stageLabels[person.stage]}</small><strong>{primaryName(person)}{secondaryName(person) && <span className="card-chinese"> · {secondaryName(person)}</span>}</strong><em>{person.area}</em><span className="card-evidence">{evidenceSummary(person)}</span></span><b>→</b>
+                          <span><small>{affiliationLabel(person)} · {stageLabels[person.stage]}</small><strong>{primaryName(person)}{secondaryName(person) && <span className="card-chinese"> · {secondaryName(person)}</span>}</strong><em>{person.area}</em><span className="card-evidence">{evidenceSummary(person)}</span></span><b>→</b>
                         </button>
                         <button className={`card-favorite ${favoriteIds.has(person.id) ? "active" : ""}`} onClick={() => toggleFavorite(person.id)} aria-label={`${favoriteIds.has(person.id) ? "取消收藏" : "收藏"}${displayName(person)}`}>{favoriteIds.has(person.id) ? "★" : "☆"}</button>
                       </article>
@@ -780,7 +797,7 @@ export default function AcademicAtlas() {
                 </div>
                 <span className="verified-badge">✓ {selected.sources.length} SOURCES</span>
               </div>
-              <div className="inspector-meta"><p className="institution-label">{selected.institution}</p><span className={`stage-badge stage-${selected.stage}`}>{stageLabels[selected.stage]}</span></div>
+              <div className="inspector-meta"><p className="institution-label">{affiliationLabel(selected)}</p><span className={`stage-badge stage-${selected.stage}`}>{stageLabels[selected.stage]}</span></div>
               <h3>{primaryName(selected)}</h3>{secondaryName(selected) && <p className="chinese-name">{secondaryName(selected)}</p>}<p className="role-label">{selected.role}</p>
               <p className="editorial-summary"><b>编辑摘要</b>{stageLabels[selected.stage]}，研究重点为 {selected.area}；当前公开资料已连接 {selectedRelations.length} 条学术关系与 {selectedPlacements.length} 条学生去向。</p>
               <div className="attention-card"><small>为什么值得关注</small><ul>{attentionPoints.map((point) => <li key={point}>{point}</li>)}</ul></div>
@@ -827,9 +844,12 @@ export default function AcademicAtlas() {
 
       <section className="coverage-section" id="coverage">
         <div className="section-heading"><div><p className="section-index">02 / COVERAGE AUDIT</p><h2>覆盖多少，也写清楚。</h2></div><p>“完整”取决于边界。当前核心口径是：{regionLabels[region]}现任、可独立招生或领导研究组，且公开研究描述明确属于 AI、机器学习、NLP、计算机视觉、多模态、机器人或相关基础模型。{region === "Mainland China" && " 大陆覆盖 17 个重点机构、多区域与不同发展阶段 PI；仍不表述为全国穷尽名录。"}</p></div>
+        <div className="scope-notes award-audit-summary">
+          {conferenceAwardAudit.map((item) => <article key={item.venue}><strong>{item.venue} · {item.years.join("–")}</strong><p>已逐篇反向核验 {item.recordCount} 篇官方获奖论文。 <a href={item.officialSources[0]?.url} target="_blank" rel="noreferrer">查看奖项页 ↗</a></p></article>)}
+        </div>
         <div className="coverage-table">
           <div className="coverage-head"><span>机构</span><span>核心 AI</span><span>交叉层</span><span>本轮覆盖说明</span></div>
-          {regionalCoverage.map((row) => <div className="coverage-row" key={row.institution}><strong>{row.institution}</strong><span>{row.core}</span><span>{row.adjacent}</span><p>{row.note}</p></div>)}
+          {regionalCoverage.map((row) => <div className="coverage-row" key={row.institution}><strong>{institutionLabel(row.institution)}</strong><span>{row.core}</span><span>{row.adjacent}</span><p>{row.note}</p></div>)}
         </div>
         <div className="scope-notes">
           <article><strong>计入核心</strong><p>AI、机器学习、NLP、CV、多模态、机器人或基础模型为主要研究主线的现任独立 PI 或研究院 PI。</p></article>
