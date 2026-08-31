@@ -33,14 +33,15 @@ const institutionColors: Record<Person["institution"], string> = {
   ZJU: "#2f67a3", USTC: "#3d7b66", BIT: "#9b5c2e", BUAA: "#315b8f", BUPT: "#5b4c9a", XJTU: "#9a3e35", SYSU: "#1d746c", ECNU: "#7b4d91", WHU: "#355f9d",
   Stanford: "#8c1515", Berkeley: "#003262", CMU: "#c41230", UW: "#4b2e83", MIT: "#a31f34", Princeton: "#e77500", Cornell: "#b31b1b", NYU: "#57068c", Columbia: "#5b9bd5", UMass: "#881c1c", JHU: "#2c2c77", "UT Austin": "#bf5700",
   UMich: "#00274c", UIUC: "#e84a27", "Georgia Tech": "#b3a369", UCLA: "#2774ae", UCSD: "#00629b",
+  "U of Toronto": "#1e3765", "Université de Montréal": "#0057a8", McGill: "#ed1b2f", "Polytechnique Montréal": "#00843d", UBC: "#002145", "University of Alberta": "#007c41", Waterloo: "#f2c300",
   Oxford: "#002147", Cambridge: "#a3c1ad", UCL: "#003b5c", Edinburgh: "#b51f1f", "ETH Zurich": "#1f82c0", EPFL: "#d71920", "Tübingen/MPI": "#5b3f91", TUM: "#0065bd", "TU Darmstadt": "#005aa9", UvA: "#bc0031", "KU Leuven": "#116e8a", Inria: "#5b38b4", Sapienza: "#8b1d3d",
 };
 const relationColors: Record<Relationship["type"], string> = { lineage: "#275ee6", collaboration: "#f16f51", industry: "#07a383", talent: "#8a5bdb" };
 const placementKindLabels = { current: "当前任职", first_job: "毕业去向", founder: "创业", reported: "组页记录", internship: "产业实习" } as const;
 const timelineTypeLabels: Record<TimelineType, string> = { appointment: "人物任职", collaboration: "合作关系", topic: "研究方向", talent: "人才流动" };
-const regionLabels: Record<Region, string> = { Singapore: "新加坡", "Hong Kong": "香港", "Mainland China": "中国大陆", "United States": "美国", Europe: "欧洲" };
+const regionLabels: Record<Region, string> = { Singapore: "新加坡", "Hong Kong": "香港", "Mainland China": "中国大陆", "United States": "美国", Canada: "加拿大", Europe: "欧洲" };
 const sourceKindLabels = { official: "官方", self_submitted: "本人 / 实验室提交", cv: "CV", thesis: "学位论文", profile: "个人主页", publication: "论文", company: "公司资料" } as const;
-const regionSlugs: Record<Region, string> = { Singapore: "singapore", "Hong Kong": "hong-kong", "Mainland China": "mainland", "United States": "us", Europe: "europe" };
+const regionSlugs: Record<Region, string> = { Singapore: "singapore", "Hong Kong": "hong-kong", "Mainland China": "mainland", "United States": "us", Canada: "canada", Europe: "europe" };
 
 function regionFromSlug(value: string | null): Region | undefined {
   return (Object.keys(regionSlugs) as Region[]).find((key) => regionSlugs[key] === value);
@@ -123,6 +124,15 @@ const graphZones: Record<Region, { institution: Person["institution"]; note: str
     { institution: "UCLA", note: "2 vision PI", className: "zone-ucla" },
     { institution: "UCSD", note: "2 ML / multimodal PI", className: "zone-ucsd" },
   ],
+  Canada: [
+    { institution: "U of Toronto", note: "deep learning · vision · AI for health", className: "zone-utoronto" },
+    { institution: "Université de Montréal", note: "Mila · deep learning · AI safety", className: "zone-udem" },
+    { institution: "McGill", note: "RL · NLP · AI for climate", className: "zone-mcgill" },
+    { institution: "Polytechnique Montréal", note: "Mila · multimodal learning", className: "zone-polymtl" },
+    { institution: "UBC", note: "vision · NLP · machine learning", className: "zone-ubc" },
+    { institution: "University of Alberta", note: "Amii · reinforcement learning", className: "zone-alberta" },
+    { institution: "Waterloo", note: "NLP · agents · decision making", className: "zone-waterloo" },
+  ],
   Europe: [
     { institution: "Oxford", note: "5 representative PI", className: "zone-oxford" },
     { institution: "Cambridge", note: "5 representative PI", className: "zone-cambridge" },
@@ -149,11 +159,13 @@ const graphZoneStartY = 100;
 const graphLeadOrder: Partial<Record<Region, string[]>> = {
   Singapore: ["wenxuan-zhang", "yang-deng"],
   "Hong Kong": ["wai-lam"],
+  Canada: ["geoffrey-hinton-ca", "yoshua-bengio-ca", "richard-sutton-ca"],
   Europe: ["mirella-lapata-eu", "yarin-gal-eu", "michael-bronstein-eu", "cordelia-schmid-eu"],
 };
 const directoryLeadByRegion: Partial<Record<Region, string>> = {
   Singapore: "wenxuan-zhang",
   "Hong Kong": "wai-lam",
+  Canada: "yoshua-bengio-ca",
 };
 
 function graphZoneRect(index: number) {
@@ -524,7 +536,7 @@ export default function AcademicAtlas() {
     setQuery("");
     setGraphFocusId(null);
     setSelectedCommunity("all");
-    setSelectedId(nextRegion === "Hong Kong" ? "lingpeng-kong" : nextRegion === "Singapore" ? "wei-lu" : nextRegion === "United States" ? "christopher-manning-us" : nextRegion === "Europe" ? "mirella-lapata-eu" : "maosong-sun");
+    setSelectedId(nextRegion === "Hong Kong" ? "lingpeng-kong" : nextRegion === "Singapore" ? "wei-lu" : nextRegion === "United States" ? "christopher-manning-us" : nextRegion === "Canada" ? "yoshua-bengio-ca" : nextRegion === "Europe" ? "mirella-lapata-eu" : "maosong-sun");
   }
 
   function chooseMode(mode: DiscoveryMode) {
@@ -612,12 +624,12 @@ export default function AcademicAtlas() {
             </div>
             <form className="hero-search" onSubmit={submitHeroSearch}>
               <label><span>⌕</span><input value={query} onChange={(event) => setQuery(event.target.value)} placeholder="输入地区、方向、老师或招生意图" aria-label="搜索导师与学术网络" /><button type="submit">开始探索</button></label>
-              <div><small>试试</small>{["新加坡 + 多模态 + 招 RA", "欧洲 + NLP", "美国 + 具身智能 + PhD"].map((example) => <button type="button" key={example} onClick={() => { setQuery(example); setView("people"); document.querySelector("#atlas")?.scrollIntoView({ behavior: "smooth" }); }}>{example}</button>)}</div>
+              <div><small>试试</small>{["新加坡 + 多模态 + 招 RA", "加拿大 + 深度学习", "美国 + 具身智能 + PhD"].map((example) => <button type="button" key={example} onClick={() => { setQuery(example); setView("people"); document.querySelector("#atlas")?.scrollIntoView({ behavior: "smooth" }); }}>{example}</button>)}</div>
             </form>
           </div>
           <picture className="hero-visual">
-            <source media="(max-width: 760px)" srcSet="atlas-hero-tech-v3.png" />
-            <img src="atlas-hero-tech-v3.png" alt="学脉 Atlas：连接中国大陆、香港、新加坡、美国与欧洲的 AI、NLP、计算机视觉和多模态学术关系图谱" />
+            <source media="(max-width: 760px)" srcSet="atlas-hero-tech-v4.jpg" />
+            <img src="atlas-hero-tech-v4.jpg" alt="学脉 Atlas：连接中国大陆、香港、新加坡、美国、加拿大与欧洲的 AI、NLP、计算机视觉和多模态学术关系图谱" />
           </picture>
         </div>
         <div className="hero-utility">
@@ -646,7 +658,7 @@ export default function AcademicAtlas() {
 
         <div className="atlas-local-nav" aria-label="图谱地区与视图切换">
           <div className="region-switch atlas-region-switch" role="tablist" aria-label="图谱地区切换">
-            {(["Mainland China", "Hong Kong", "Singapore", "United States", "Europe"] as Region[]).map((item) => <button key={item} className={region === item ? "active" : ""} onClick={() => changeRegion(item)}>{regionLabels[item]}<small>{item}</small></button>)}
+            {(["Mainland China", "Hong Kong", "Singapore", "United States", "Canada", "Europe"] as Region[]).map((item) => <button key={item} className={region === item ? "active" : ""} onClick={() => changeRegion(item)}>{regionLabels[item]}<small>{item}</small></button>)}
           </div>
           <div className="view-switch" role="tablist" aria-label="图谱视图">
             {(["people", "graph", "evidence"] as const).map((item) => <button key={item} className={view === item ? "active" : ""} onClick={() => setView(item)}>{item === "graph" ? "关系图" : item === "people" ? "人物名录" : "证据清单"}</button>)}
@@ -656,7 +668,7 @@ export default function AcademicAtlas() {
         <div className="atlas-shell">
           <div className="atlas-toolbar">
             <div className="search-wrap">
-              <label className="search-box"><span>⌕</span><input ref={searchInputRef} value={query} onChange={(e) => setQuery(e.target.value)} placeholder="跨五地区搜索人物、学生、公司、方向…" aria-label="全局搜索" /></label>
+              <label className="search-box"><span>⌕</span><input ref={searchInputRef} value={query} onChange={(e) => setQuery(e.target.value)} placeholder="跨六地区搜索人物、学生、公司、方向…" aria-label="全局搜索" /></label>
               {query.trim() && <div className="global-search-results" role="listbox" aria-label="全局搜索结果">
                 <header><strong>全局结果</strong><span>{globalMatches.length} 位相关学者</span></header>
                 {globalMatches.map(({ person, matchedIn, recruitingMatch }) => <button key={person.id} role="option" aria-selected={selected.id === person.id} onClick={() => { openPerson(person, "people"); setQuery(""); }}>

@@ -241,6 +241,13 @@ button:focus-visible, a:focus-visible, input:focus-visible, select:focus-visible
 .zone-georgiatech { left: 600px; top: 1888px; width: 270px; height: 380px; color: #8b7b38; background: rgba(179,163,105,.035); }
 .zone-ucla { left: 890px; top: 1888px; width: 270px; height: 380px; color: #2774ae; background: rgba(39,116,174,.025); }
 .zone-ucsd { left: 20px; top: 2288px; width: 270px; height: 350px; color: #00629b; background: rgba(0,98,155,.025); }
+.zone-utoronto { color: #1e3765; background: rgba(30,55,101,.035); }
+.zone-udem { color: #0057a8; background: rgba(0,87,168,.035); }
+.zone-mcgill { color: #c91528; background: rgba(237,27,47,.03); }
+.zone-polymtl { color: #00843d; background: rgba(0,132,61,.03); }
+.zone-ubc { color: #002145; background: rgba(0,33,69,.035); }
+.zone-alberta { color: #007c41; background: rgba(0,124,65,.03); }
+.zone-waterloo { color: #9a7600; background: rgba(242,195,0,.04); }
 .edge-layer { position: absolute; inset: 0; width: 1180px; height: 100%; z-index: 1; pointer-events: none; }
 .graph-line { position: absolute; height: 0; border-top: 2px solid; transform-origin: 0 0; z-index: 1; opacity: .75; }
 .graph-line::after { content: ""; position: absolute; right: -1px; top: -4px; width: 7px; height: 7px; border-top: 2px solid; border-right: 2px solid; transform: rotate(45deg); }

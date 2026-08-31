@@ -483,7 +483,7 @@ export const companyResearchLineages: CompanyLineageRecord[] = [
     ),
     workEvidence: "这篇论文只用于展示创始人的学术技术轨迹，并非 SSI 公司成果；待 SSI 发布可归因报告后再补公司技术节点。",
     advisers: [
-      { name: "Geoffrey Hinton", institution: "University of Toronto", relation: "博士导师", source: hintonStudents },
+      { name: "Geoffrey Hinton", institution: "University of Toronto", relation: "博士导师", teacherId: "geoffrey-hinton-ca", source: hintonStudents },
     ],
   },
   {

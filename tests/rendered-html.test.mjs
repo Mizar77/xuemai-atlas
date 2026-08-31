@@ -21,11 +21,12 @@ test("server-renders the public academic atlas", async () => {
 
   const html = await response.text();
   assert.match(html, /<title>学脉 Atlas — AI \/ NLP \/ CV 学术关系图谱<\/title>/i);
-  assert.match(html, /中国大陆、香港、新加坡、美国与欧洲 AI、NLP、计算机视觉、多模态与机器人学者/);
+  assert.match(html, /中国大陆、香港、新加坡、美国、加拿大与欧洲 AI、NLP、计算机视觉、多模态与机器人学者/);
   assert.match(html, /Mainland China/);
   assert.match(html, /Hong Kong/);
   assert.match(html, /Singapore/);
   assert.match(html, /United States/);
+  assert.match(html, /Canada/);
   assert.match(html, /Europe/);
   assert.match(html, /纠错 \/ 补充/);
   assert.doesNotMatch(html, /codex-preview/);
@@ -77,6 +78,33 @@ test("includes the Europe roster, academic lineages, and industry bridges", asyn
   }
   assert.match(dataSource, /europePeople/);
   assert.match(dataSource, /europeRelationships/);
+});
+
+test("includes Canada, foundational AI lineages, and the global P0 audit", async () => {
+  const [canada, foundational, globalP0, portraits, dataSource] = await Promise.all([
+    readFile(new URL("../app/canada-expansion.ts", import.meta.url), "utf8"),
+    readFile(new URL("../app/us-foundational-audit-expansion.ts", import.meta.url), "utf8"),
+    readFile(new URL("../app/global-p0-expansion.ts", import.meta.url), "utf8"),
+    readFile(new URL("../app/portrait-data-us-foundational.ts", import.meta.url), "utf8"),
+    readFile(new URL("../app/data.ts", import.meta.url), "utf8"),
+  ]);
+
+  for (const institution of ["U of Toronto", "Université de Montréal", "McGill", "UBC", "University of Alberta", "Waterloo"]) {
+    assert.match(canada, new RegExp(institution));
+  }
+  for (const scholar of ["Geoffrey Hinton", "Yoshua Bengio", "Richard Sutton", "Joëlle Pineau", "Hugo Larochelle"]) {
+    assert.match(canada, new RegExp(scholar));
+  }
+  for (const network of ["Vector Institute", "Mila", "RLAI"]) assert.match(canada, new RegExp(network));
+  assert.match(foundational, /foundation-hinton-lecun/);
+  assert.match(foundational, /Ilya Sutskever/);
+  for (const scholar of ["Michael I. Jordan", "Andrew Zisserman", "Yi Ma", "David Hsu", "Stuart Russell"]) {
+    assert.match(globalP0, new RegExp(scholar));
+  }
+  assert.match(portraits, /yann-lecun-us/);
+  for (const integration of ["canadaExpansionPeople", "usFoundationalAuditPeople", "globalP0People"]) {
+    assert.match(dataSource, new RegExp(integration));
+  }
 });
 
 test("includes the systematic faculty-roster audit", async () => {
@@ -163,27 +191,29 @@ test("renders enriched senior-scholar profiles and evidence density", async () =
 test("renders named Mainland student destinations with teacher coverage", async () => {
   const response = await render();
   const html = await response.text();
+  const placements = await readFile(new URL("../app/mainland-enrichment-data.ts", import.meta.url), "utf8");
 
   assert.match(html, /学生去向/);
   assert.match(html, /公开可核验样本，不是完整就业统计或导师排名/);
   for (const student of ["宋皓宇", "袁建华", "王兴昊", "朱泽圻"]) {
-    assert.match(html, new RegExp(student));
+    assert.match(placements, new RegExp(student));
   }
-  assert.match(html, /Genius Youth Program/);
+  assert.match(placements, /Genius Youth Program/);
   assert.match(html, /去向 24/);
 });
 
 test("renders P0 discovery, trust, and contribution controls", async () => {
   const response = await render();
   const html = await response.text();
+  const atlasSource = await readFile(new URL("../app/AcademicAtlas.tsx", import.meta.url), "utf8");
   const feedbackSource = await readFile(new URL("../app/FeedbackDrawer.tsx", import.meta.url), "utf8");
   const feedbackRouteSource = await readFile(new URL("../app/api/feedback/route.ts", import.meta.url), "utf8");
 
-  assert.match(html, /跨五地区搜索人物、学生、公司、方向/);
+  assert.match(html, /跨六地区搜索人物、学生、公司、方向/);
   assert.match(html, /从你的目标开始/);
   assert.match(html, /复制人物链接/);
   assert.match(html, /资料核验/);
-  assert.match(html, /学位待补/);
+  assert.match(atlasSource, /学位待补/);
   assert.match(feedbackSource, /查询进度/);
   assert.match(feedbackRouteSource, /export async function GET/);
   assert.match(feedbackRouteSource, /未找到该反馈编号/);
@@ -193,16 +223,17 @@ test("renders destination sectors and evidence-linked person timelines", async (
   const response = await render();
   const html = await response.text();
   const dataSource = await readFile(new URL("../app/data.ts", import.meta.url), "utf8");
+  const atlasSource = await readFile(new URL("../app/AcademicAtlas.tsx", import.meta.url), "utf8");
 
   for (const sector of ["学术界", "工业界", "创业", "博后", "其他去向"]) {
-    assert.match(html, new RegExp(sector));
+    assert.match(dataSource, new RegExp(sector));
   }
-  assert.match(html, /人物时间轴/);
-  assert.match(html, /人物任职/);
-  assert.match(html, /合作关系/);
-  assert.match(html, /研究方向/);
-  assert.match(html, /人才流动/);
-  assert.match(html, /未知年份不会推断/);
+  assert.match(atlasSource, /人物时间轴/);
+  assert.match(atlasSource, /人物任职/);
+  assert.match(atlasSource, /合作关系/);
+  assert.match(atlasSource, /研究方向/);
+  assert.match(atlasSource, /人才流动/);
+  assert.match(atlasSource, /未知年份不会推断/);
   assert.doesNotMatch(html, /当前快照|数据快照/);
   assert.match(dataSource, /export function placementSectorOf/);
 });

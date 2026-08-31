@@ -20,7 +20,7 @@ Xuemai Atlas is an evidence-linked academic network for AI researchers across NL
 
 学术关系很难从单一网页看清：导师与学生可能分布在不同学校，合作者可能跨越多个机构，学生毕业后又会进入高校、研究院、创业公司或互联网企业。学脉 Atlas 将这些分散在学校主页、个人简历、论文、实验室页面和公司资料中的公开信息连接起来，形成可以按人物、机构、关系类型和公司反向查找的图谱。
 
-当前版本覆盖**中国大陆、香港、新加坡、美国与欧洲的 AI 学术生态**，从原有 NLP / LLM 主线进一步扩展到计算机视觉、多模态、机器学习、机器人与通用 AI。中国大陆覆盖 17 个重点机构；香港包括 HKU、HKUST、CUHK、CityU、PolyU 与 HKBU；新加坡包括 NUS、NTU、SUTD、SMU 与 A\*STAR；美国覆盖 17 个代表性机构；欧洲首批覆盖 Oxford、Cambridge、UCL、Edinburgh、ETH Zurich、EPFL、Tübingen / MPI、TUM、TU Darmstadt、UvA、KU Leuven、Inria 与 Sapienza。各地区范围都会在网页中明确标出，并持续按机构名录补充。
+当前版本覆盖**中国大陆、香港、新加坡、美国、加拿大与欧洲的 AI 学术生态**，从原有 NLP / LLM 主线进一步扩展到计算机视觉、多模态、机器学习、机器人与通用 AI。中国大陆覆盖 17 个重点机构；香港包括 HKU、HKUST、CUHK、CityU、PolyU 与 HKBU；新加坡包括 NUS、NTU、SUTD、SMU 与 A\*STAR；美国覆盖 17 个代表性机构；加拿大首批覆盖 University of Toronto、Université de Montréal、McGill、Polytechnique Montréal、UBC、University of Alberta 与 Waterloo，并呈现 Vector Institute、Mila 和 RLAI 等跨校研究网络；欧洲首批覆盖 Oxford、Cambridge、UCL、Edinburgh、ETH Zurich、EPFL、Tübingen / MPI、TUM、TU Darmstadt、UvA、KU Leuven、Inria 与 Sapienza。各地区范围都会在网页中明确标出，并持续按机构名录补充。
 
 ### 图谱里有什么信息？
 
@@ -99,7 +99,7 @@ npm test
 
 Academic relationships are scattered across faculty pages, CVs, dissertations, papers, lab websites, and company profiles. Xuemai Atlas connects those public records so that academic lineage, collaboration, career movement, and industry links can be explored in one place.
 
-The atlas covers the **AI ecosystems of Mainland China, Hong Kong, Singapore, the United States, and Europe**, expanding from its original NLP and LLM focus to computer vision, multimodal learning, machine learning, robotics, and general AI. Mainland China and the United States each currently cover 17 focal institutions; Hong Kong includes six institutions; Singapore includes five; and the first European release covers Oxford, Cambridge, UCL, Edinburgh, ETH Zurich, EPFL, Tübingen / MPI, TUM, TU Darmstadt, UvA, KU Leuven, Inria, and Sapienza. Each regional boundary is stated explicitly and continues to be audited against institutional rosters.
+The atlas covers the **AI ecosystems of Mainland China, Hong Kong, Singapore, the United States, Canada, and Europe**, expanding from its original NLP and LLM focus to computer vision, multimodal learning, machine learning, robotics, and general AI. Mainland China and the United States each currently cover 17 focal institutions; Hong Kong includes six institutions; Singapore includes five; Canada includes the University of Toronto, Université de Montréal, McGill, Polytechnique Montréal, UBC, the University of Alberta, and Waterloo, together with cross-campus networks such as Vector Institute, Mila, and RLAI; and the first European release covers Oxford, Cambridge, UCL, Edinburgh, ETH Zurich, EPFL, Tübingen / MPI, TUM, TU Darmstadt, UvA, KU Leuven, Inria, and Sapienza. Each regional boundary is stated explicitly and continues to be audited against institutional rosters.
 
 ### What information does the atlas contain?
 
