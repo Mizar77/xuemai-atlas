@@ -107,10 +107,10 @@ export const canadaExpansionPeople: Person[] = [
     sources: [torontoDirectory, vectorTeam, official("UHN AI Hub — Bo Wang", "https://www.uhnresearch.ca/researcher/bo-wang", "UHN role and biomedical machine-learning programme")],
   }),
   makePerson({
-    id: "richard-zemel-ca", name: "Richard Zemel", role: "Professor of Computer Science", institution: "U of Toronto",
+    id: "richard-zemel-ca", name: "Richard Zemel", role: "Professor, Columbia University · former U of Toronto faculty", institution: "U of Toronto",
     area: "Representation Learning · Generative Models · Responsible AI", tags: ["表征学习", "生成模型", "负责任 AI", "Vector"],
-    summary: "多伦多表征学习与负责任 AI 的资深 PI，研究生成模型、视觉与算法公平，并长期参与 Vector 学术网络。",
-    node: "U of T Machine Learning / Vector Institute", stage: "senior", x: 1020, y: 220,
+    summary: "多伦多表征学习与负责任 AI 网络的历史节点，研究生成模型、视觉与算法公平；2021 年转任 Columbia University，因此不计入加拿大 current PI。",
+    node: "Former U of T / Vector Institute · current Columbia", stage: "historical", historical: true, x: 1020, y: 220,
     sources: [torontoDirectory, vectorTeam, profile("Richard Zemel homepage", "https://www.cs.toronto.edu/~zemel/", "Research programme and publications")],
   }),
 
@@ -369,7 +369,7 @@ export const canadaExpansionGroupMembers: GroupMember[] = [
 ];
 
 export const canadaExpansionCoverage = [
-  { region: "Canada" as Region, institution: "U of Toronto", core: 6, adjacent: 1, note: "6 位 current PI；Geoffrey Hinton 作为荣休/奠基节点显示，但不计入 current PI" },
+  { region: "Canada" as Region, institution: "U of Toronto", core: 5, adjacent: 2, note: "5 位 current PI；Geoffrey Hinton 与 Richard Zemel 作为奠基/历史网络节点显示，但不计入 current PI" },
   { region: "Canada" as Region, institution: "Université de Montréal", core: 6, adjacent: 0, note: "以 Mila 为跨校母体，覆盖深度学习、生成模型、AI 安全、图学习与优化" },
   { region: "Canada" as Region, institution: "McGill", core: 5, adjacent: 0, note: "强化学习、NLP、机器人与 AI for Climate；Joëlle Pineau 当前 part-time leave 且不招生" },
   { region: "Canada" as Region, institution: "Polytechnique Montréal", core: 1, adjacent: 0, note: "Christopher Pal 为本批代表性 Mila 核心学术成员" },

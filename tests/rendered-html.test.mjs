@@ -107,6 +107,40 @@ test("includes Canada, foundational AI lineages, and the global P0 audit", async
   }
 });
 
+test("includes detailed Canada and global P0 profiles with verified portrait mappings", async () => {
+  const [east, west, eastPortraits, westPortraits, globalP0, globalP0BPortraits, dataSource] = await Promise.all([
+    readFile(new URL("../app/canada-east-profile-enrichment.ts", import.meta.url), "utf8"),
+    readFile(new URL("../app/canada-west-profile-enrichment.ts", import.meta.url), "utf8"),
+    readFile(new URL("../app/portrait-data-canada-east.ts", import.meta.url), "utf8"),
+    readFile(new URL("../app/portrait-data-canada-west.ts", import.meta.url), "utf8"),
+    readFile(new URL("../app/global-p0-profile-enrichment.ts", import.meta.url), "utf8"),
+    readFile(new URL("../app/portrait-data-global-p0-b.ts", import.meta.url), "utf8"),
+    readFile(new URL("../app/data.ts", import.meta.url), "utf8"),
+  ]);
+
+  for (const scholar of ["geoffrey-hinton-ca", "yoshua-bengio-ca", "sanja-fidler-ca", "doina-precup-ca", "siva-reddy-ca"]) {
+    assert.match(east, new RegExp(scholar));
+    assert.match(eastPortraits, new RegExp(scholar));
+  }
+  for (const scholar of ["richard-sutton-ca", "vered-shwartz-ca", "pascal-poupart-ca", "wenhu-chen-ca", "yuntian-deng-ca"]) {
+    assert.match(west, new RegExp(scholar));
+    assert.match(westPortraits, new RegExp(scholar));
+  }
+  for (const correction of ["Columbia", "on leave January–December 2026", "Associate Professor", "Physical Medicine & Rehabilitation"]) {
+    assert.match(`${east}\n${west}`, new RegExp(correction));
+  }
+  for (const relationship of ["ca-west-black-sigal", "ca-west-bowling-martha-white", "ca-west-sutton-pilarski", "global-p0-enrich-hinton-dayan"]) {
+    assert.match(`${west}\n${globalP0}`, new RegExp(relationship));
+  }
+  for (const scholar of ["yi-ma-hku", "tong-zhang-hkust", "david-hsu-nus", "shuicheng-yan-nus", "ivor-tsang-astar", "steven-hoi-smu"]) {
+    assert.match(globalP0BPortraits, new RegExp(scholar));
+  }
+  assert.doesNotMatch(globalP0BPortraits, /src: `\/portraits/);
+  for (const integration of ["canadaEastPersonEnhancements", "canadaWestPersonEnhancements", "globalP0PersonEnhancements", "globalP0BPortraits"]) {
+    assert.match(dataSource, new RegExp(integration));
+  }
+});
+
 test("includes the systematic faculty-roster audit", async () => {
   const [roster, dataSource] = await Promise.all([
     readFile(new URL("../app/systematic-roster-expansion.ts", import.meta.url), "utf8"),

@@ -31,8 +31,15 @@ import { finalUsPortraits } from "./portrait-data-final-us";
 import { cvRosterAuditPeople, cvRosterAuditRelationships } from "./cv-roster-audit-expansion";
 import { canadaAcademicCommunities, canadaExpansionCoverage, canadaExpansionGroupMembers, canadaExpansionPeople, canadaExpansionPlacements, canadaExpansionRelationships, canadaExpansionTopicCommunities } from "./canada-expansion";
 import { canadaPortraits } from "./portrait-data-canada";
+import { canadaEastPersonEnhancements } from "./canada-east-profile-enrichment";
+import { canadaEastPortraits } from "./portrait-data-canada-east";
+import { canadaWestGroupMembers, canadaWestPersonEnhancements, canadaWestRelationships, canadaWestStudentPlacements } from "./canada-west-profile-enrichment";
+import { canadaWestPortraits } from "./portrait-data-canada-west";
 import { globalP0People, globalP0Relationships } from "./global-p0-expansion";
 import { globalP0Portraits } from "./portrait-data-global-p0";
+import { globalP0PersonEnhancements, globalP0StrongGroupMembers, globalP0StrongPlacements, globalP0StrongRelationships } from "./global-p0-profile-enrichment";
+import { globalP0FinalPortraits } from "./portrait-data-global-p0-final";
+import { globalP0BPortraits } from "./portrait-data-global-p0-b";
 import { usFoundationalAuditPeople, usFoundationalAuditPersonEnhancements, usFoundationalAuditRelationships } from "./us-foundational-audit-expansion";
 import { usFoundationalPortraits } from "./portrait-data-us-foundational";
 
@@ -48,7 +55,7 @@ export type Source = {
   supports?: string;
 };
 
-export const dataSnapshotDate = "2026-08-30";
+export const dataSnapshotDate = "2026-08-31";
 
 export type Region = "Singapore" | "Hong Kong" | "Mainland China" | "United States" | "Canada" | "Europe";
 export type Institution = "NUS" | "NTU" | "SUTD" | "SMU" | "A*STAR" | "HKU" | "HKUST" | "CUHK" | "CityU" | "PolyU" | "HKBU" | "THU" | "PKU" | "FDU" | "RUC" | "HIT" | "CAS-IA" | "NJU" | "SJTU" | "ZJU" | "USTC" | "BIT" | "BUAA" | "BUPT" | "XJTU" | "SYSU" | "ECNU" | "WHU" | "Stanford" | "Berkeley" | "CMU" | "UW" | "MIT" | "Princeton" | "Cornell" | "NYU" | "Columbia" | "UMass" | "JHU" | "UT Austin" | "UMich" | "UIUC" | "Georgia Tech" | "UCLA" | "UCSD" | "U of Toronto" | "Université de Montréal" | "McGill" | "Polytechnique Montréal" | "UBC" | "University of Alberta" | "Waterloo" | "Oxford" | "Cambridge" | "UCL" | "Edinburgh" | "ETH Zurich" | "EPFL" | "Tübingen/MPI" | "TUM" | "TU Darmstadt" | "UvA" | "KU Leuven" | "Inria" | "Sapienza" | "External";
@@ -732,7 +739,7 @@ const basePeople: Person[] = [
 ];
 
 export const people: Person[] = basePeople.map((person) => {
-  const portrait = usFoundationalPortraits[person.id] ?? canadaPortraits[person.id] ?? globalP0Portraits[person.id] ?? finalEuropeHkPortraits[person.id] ?? finalMainlandPortraits[person.id] ?? finalUsPortraits[person.id] ?? lamdaPortraits[person.id] ?? europePortraits[person.id] ?? systematicRosterPortraits[person.id] ?? hkSgMissingPortraits[person.id] ?? mainlandMissingPortraits[person.id] ?? mainlandFillAPortraits[person.id] ?? mainlandFillBPortraits[person.id] ?? mainlandPortraits[person.id] ?? hkSgPortraits[person.id] ?? usPortraits[person.id] ?? person.portrait;
+  const portrait = globalP0BPortraits[person.id] ?? canadaEastPortraits[person.id] ?? canadaWestPortraits[person.id] ?? globalP0FinalPortraits[person.id] ?? usFoundationalPortraits[person.id] ?? canadaPortraits[person.id] ?? globalP0Portraits[person.id] ?? finalEuropeHkPortraits[person.id] ?? finalMainlandPortraits[person.id] ?? finalUsPortraits[person.id] ?? lamdaPortraits[person.id] ?? europePortraits[person.id] ?? systematicRosterPortraits[person.id] ?? hkSgMissingPortraits[person.id] ?? mainlandMissingPortraits[person.id] ?? mainlandFillAPortraits[person.id] ?? mainlandFillBPortraits[person.id] ?? mainlandPortraits[person.id] ?? hkSgPortraits[person.id] ?? usPortraits[person.id] ?? person.portrait;
   const lamdaEnhancement = lamdaPersonEnhancements[person.id];
   const enhancements: Partial<Person>[] = [
     mainlandPersonEnhancements[person.id],
@@ -743,6 +750,9 @@ export const people: Person[] = basePeople.map((person) => {
     mainlandFullProfileEnhancements2[person.id],
     mainlandFullProfileEnhancements3[person.id],
     usFoundationalAuditPersonEnhancements[person.id],
+    canadaEastPersonEnhancements[person.id],
+    canadaWestPersonEnhancements[person.id],
+    globalP0PersonEnhancements[person.id],
     lamdaEnhancement,
   ].filter((enhancement): enhancement is Partial<Person> => Boolean(enhancement));
   if (!enhancements.length && !portrait) return person;
@@ -842,8 +852,10 @@ export const relationships: Relationship[] = [
   ...academicLineageRelationships,
   ...cvRosterAuditRelationships,
   ...canadaExpansionRelationships,
+  ...canadaWestRelationships,
   ...usFoundationalAuditRelationships,
   ...globalP0Relationships,
+  ...globalP0StrongRelationships,
 ];
 
 export const coverage = [
@@ -966,6 +978,8 @@ export const groupMembers: GroupMember[] = [
   ...usAiCvExpansionGroupMembers,
   ...systematicRosterGroupMembers,
   ...canadaExpansionGroupMembers,
+  ...canadaWestGroupMembers,
+  ...globalP0StrongGroupMembers,
   ...europeGroupMembers,
 ];
 
@@ -1032,5 +1046,7 @@ export const studentPlacements: StudentPlacement[] = [
   ...usAiCvExpansionPlacements,
   ...systematicRosterPlacements,
   ...canadaExpansionPlacements,
+  ...canadaWestStudentPlacements,
+  ...globalP0StrongPlacements,
   ...europeStudentPlacements,
 ];
