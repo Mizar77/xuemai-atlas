@@ -411,9 +411,9 @@ export default function AcademicAtlas() {
       focus === "adjacent" ? person.primary && person.category === "adjacent" : false;
     if (!focusMatch) return false;
     if (graphNeedle && !globalMatches.some((match) => match.person.id === person.id)) return false;
-    if (graphMapScope === "global") return true;
-    if (regionOf(person) !== region) return false;
-    if (graphMapScope === "institution") return graphInstitutionKey(person) === graphInstitutionFocus;
+    // Region and institution controls are camera targets, not data filters.
+    // Keeping the complete graph mounted means users can zoom back out or pan
+    // to nearby schools without the rest of the academic map disappearing.
     return true;
   });
   const visibleIds = new Set(graphBasePeople.map((person) => person.id));
