@@ -29,7 +29,7 @@ const sources: Record<string, Source> = {
 
 export const canadaEastPortraits: Record<string, NonNullable<Person["portrait"]>> = Object.fromEntries(
   Object.entries(sources).map(([id, source]) => [id, {
-    src: `/portraits/canada-east/${id}.jpg`,
+    src: `portraits/canada-east/${id}.jpg`,
     alt: `${id.replace(/-ca$/, "").replaceAll("-", " ")} official portrait`,
     source,
   }]),

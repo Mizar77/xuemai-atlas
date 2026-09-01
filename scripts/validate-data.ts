@@ -70,6 +70,7 @@ for (const person of people) {
     if (/^https?:\/\//.test(person.portrait.src)) {
       assert(person.portrait.src.startsWith("https://"), `Person ${person.id} remote portrait must use HTTPS`);
     } else {
+      assert(!person.portrait.src.startsWith("/"), `Person ${person.id} local portrait must be relative so it works under the GitHub Pages /xuemai-atlas/ base path`);
       const portraitPath = join(process.cwd(), "public", person.portrait.src.replace(/^\//, ""));
       assert(existsSync(portraitPath), `Person ${person.id} portrait file does not exist: ${person.portrait.src}`);
       assert(statSync(portraitPath).size >= 2_000, `Person ${person.id} portrait file is unexpectedly small`);

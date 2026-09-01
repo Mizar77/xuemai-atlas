@@ -95,6 +95,7 @@ import { influenceQueueUsTengyuFinalGroupMembers, influenceQueueUsTengyuFinalPeo
 import { influenceQueueCanadaFinalGroupMembers, influenceQueueCanadaFinalPeople, influenceQueueCanadaFinalPersonEnhancements, influenceQueueCanadaFinalPlacements, influenceQueueCanadaFinalPortraits, influenceQueueCanadaFinalRelationships } from "./influence-queue-canada-final";
 import { influenceQueueUsFinalGroupMembers, influenceQueueUsFinalPeople, influenceQueueUsFinalPersonEnhancements, influenceQueueUsFinalPlacements, influenceQueueUsFinalPortraits, influenceQueueUsFinalRelationships } from "./influence-queue-us-final";
 import { influenceQueueFixPortraits } from "./portrait-data-influence-queue-fixes";
+import { topSchoolAdviserPeople, topSchoolAdviserPersonEnhancements, topSchoolAdviserPortraits, topSchoolAdviserRelationships } from "./top-school-adviser-expansion";
 
 export type Source = {
   label: string;
@@ -834,6 +835,7 @@ const basePeople: Person[] = [
   ...influenceQueueUsTengyuFinalPeople,
   ...influenceQueueCanadaFinalPeople,
   ...influenceQueueUsFinalPeople,
+  ...topSchoolAdviserPeople,
 ];
 
 const awardAuditRawPeople: Person[] = [
@@ -930,7 +932,7 @@ export const conferenceAwardAudit = [
 ];
 
 export const people: Person[] = peopleBeforeEnhancement.map((person) => {
-  const portrait = influenceQueueFixPortraits[person.id] ?? influenceQueueUsFinalPortraits[person.id] ?? influenceQueueCanadaFinalPortraits[person.id] ?? influenceQueueUsTengyuFinalPortraits[person.id] ?? influenceQueueUsCanadaPortraits3[person.id] ?? influenceQueueUsResidualAPortraits[person.id] ?? influenceQueueAsiaFinalPortraits[person.id] ?? influenceQueueAsiaPortraits[person.id] ?? influenceQueueUsCanadaPortraits2[person.id] ?? influenceQueueEuropePortraits[person.id] ?? influenceQueueUsCanadaPortraits[person.id] ?? wuFengNetworkPortraits[person.id] ?? seniorCoreNetworkPortraits[person.id] ?? tieniuTanNetworkPortraits[person.id] ?? leadershipNetworkPortraits[person.id] ?? zongNetworkPortraits[person.id] ?? yiMaNetworkPortraits[person.id] ?? atlasNetworkPortraits[person.id] ?? networkExpansionPortraits[person.id] ?? awardAuditPortraits[person.id] ?? globalP0BPortraits[person.id] ?? canadaEastPortraits[person.id] ?? canadaWestPortraits[person.id] ?? globalP0FinalPortraits[person.id] ?? usFoundationalPortraits[person.id] ?? canadaPortraits[person.id] ?? globalP0Portraits[person.id] ?? finalEuropeHkPortraits[person.id] ?? finalMainlandPortraits[person.id] ?? finalUsPortraits[person.id] ?? lamdaPortraits[person.id] ?? europePortraits[person.id] ?? systematicRosterPortraits[person.id] ?? hkSgMissingPortraits[person.id] ?? mainlandMissingPortraits[person.id] ?? mainlandFillAPortraits[person.id] ?? mainlandFillBPortraits[person.id] ?? mainlandPortraits[person.id] ?? hkSgPortraits[person.id] ?? usPortraits[person.id] ?? person.portrait;
+  const portrait = topSchoolAdviserPortraits[person.id] ?? influenceQueueFixPortraits[person.id] ?? influenceQueueUsFinalPortraits[person.id] ?? influenceQueueCanadaFinalPortraits[person.id] ?? influenceQueueUsTengyuFinalPortraits[person.id] ?? influenceQueueUsCanadaPortraits3[person.id] ?? influenceQueueUsResidualAPortraits[person.id] ?? influenceQueueAsiaFinalPortraits[person.id] ?? influenceQueueAsiaPortraits[person.id] ?? influenceQueueUsCanadaPortraits2[person.id] ?? influenceQueueEuropePortraits[person.id] ?? influenceQueueUsCanadaPortraits[person.id] ?? wuFengNetworkPortraits[person.id] ?? seniorCoreNetworkPortraits[person.id] ?? tieniuTanNetworkPortraits[person.id] ?? leadershipNetworkPortraits[person.id] ?? zongNetworkPortraits[person.id] ?? yiMaNetworkPortraits[person.id] ?? atlasNetworkPortraits[person.id] ?? networkExpansionPortraits[person.id] ?? awardAuditPortraits[person.id] ?? globalP0BPortraits[person.id] ?? canadaEastPortraits[person.id] ?? canadaWestPortraits[person.id] ?? globalP0FinalPortraits[person.id] ?? usFoundationalPortraits[person.id] ?? canadaPortraits[person.id] ?? globalP0Portraits[person.id] ?? finalEuropeHkPortraits[person.id] ?? finalMainlandPortraits[person.id] ?? finalUsPortraits[person.id] ?? lamdaPortraits[person.id] ?? europePortraits[person.id] ?? systematicRosterPortraits[person.id] ?? hkSgMissingPortraits[person.id] ?? mainlandMissingPortraits[person.id] ?? mainlandFillAPortraits[person.id] ?? mainlandFillBPortraits[person.id] ?? mainlandPortraits[person.id] ?? hkSgPortraits[person.id] ?? usPortraits[person.id] ?? person.portrait;
   const lamdaEnhancement = lamdaPersonEnhancements[person.id];
   const enhancements: Partial<Person>[] = [
     mainlandPersonEnhancements[person.id],
@@ -976,6 +978,7 @@ export const people: Person[] = peopleBeforeEnhancement.map((person) => {
     influenceQueueUsTengyuFinalPersonEnhancements[person.id],
     influenceQueueCanadaFinalPersonEnhancements[person.id],
     influenceQueueUsFinalPersonEnhancements[person.id],
+    topSchoolAdviserPersonEnhancements[person.id],
     lamdaEnhancement,
   ].filter((enhancement): enhancement is Partial<Person> => Boolean(enhancement));
   if (!enhancements.length && !portrait) return person;
@@ -1122,6 +1125,7 @@ const relationshipsBeforeLegacyMigration: Relationship[] = [
   ...influenceQueueUsTengyuFinalRelationships,
   ...influenceQueueCanadaFinalRelationships,
   ...influenceQueueUsFinalRelationships,
+  ...topSchoolAdviserRelationships,
 ];
 
 export const relationships: Relationship[] = relationshipsBeforeLegacyMigration

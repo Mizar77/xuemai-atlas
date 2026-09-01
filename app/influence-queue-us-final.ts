@@ -50,7 +50,7 @@ const sources = {
 };
 
 const jianxiongPortrait: NonNullable<Person["portrait"]> = {
-  src: "/portraits/influence-final/jianxiong-xiao.png",
+  src: "portraits/influence-final/jianxiong-xiao.png",
   alt: "Jianxiong Xiao",
   source: sources.xiaoPortrait,
 };

@@ -77,6 +77,28 @@ if (process.argv.includes("--fact-candidates")) {
   console.log(JSON.stringify(candidates, null, 2));
 }
 
+if (process.argv.includes("--priority-institutions")) {
+  const priorityInstitutions = new Set(["THU", "PKU", "Stanford", "Berkeley", "CMU", "MIT", "Princeton"]);
+  const candidates = currentPeople
+    .filter((person) => priorityInstitutions.has(person.institution) && !byTarget.has(person.id))
+    .sort((left, right) => {
+      const stageRank = { emerging: 0, adjacent: 1, senior: 2, institute: 3, historical: 4 } as const;
+      return stageRank[left.stage] - stageRank[right.stage] || left.institution.localeCompare(right.institution) || left.name.localeCompare(right.name);
+    })
+    .map((person) => ({
+      id: person.id,
+      name: person.name,
+      chinese: person.chinese,
+      institution: person.institution,
+      actualInstitution: person.actualInstitution,
+      role: person.role,
+      stage: person.stage,
+      reviewSources: adviserEvidenceAudit.find((record) => record.personId === person.id)?.reviewSources ?? [],
+    }));
+  console.log(`\nPriority-institution current PIs without a verified adviser edge: ${candidates.length}`);
+  console.log(JSON.stringify(candidates, null, 2));
+}
+
 const selfLineage = relationships.filter((relationship) => relationship.type === "lineage" && relationship.from === relationship.to);
 if (selfLineage.length) throw new Error(`Legacy self-lineage records require migration: ${selfLineage.map((relationship) => relationship.id).join(", ")}`);
 

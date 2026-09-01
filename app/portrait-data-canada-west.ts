@@ -2,7 +2,7 @@ import type { Person, Source } from "./data";
 
 const checkedAt = "2026-08-31";
 const portrait = (id: string, name: string, label: string, url: string): NonNullable<Person["portrait"]> => ({
-  src: `/portraits/canada-west/${id}.jpg`,
+  src: `portraits/canada-west/${id}.jpg`,
   alt: `${name} official portrait`,
   source: { label, url, kind: "official", checkedAt, supports: "Official or self-published single-person portrait" } satisfies Source,
 });
