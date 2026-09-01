@@ -3,7 +3,8 @@
 import { useEffect, useMemo, useRef, useState } from "react";
 import { communities, conferenceAwardAudit, coverage, groupMembers, industryPathways, people, placementSectorLabels, placementSectorOf, regionOf, regionalInstitutions, relationships, relationshipSubtypeLabels, relationshipSubtypeOf, stageLabels, studentPlacements, type Person, type Region, type Relationship, type Source, type StudentPlacement } from "./data";
 import { companyResearchLineages, type CompanyLineageAdviser } from "./company-lineage-data";
-import { buildGlobalGraphLayout, graphInstitutionKey, graphRegionOrder, type GraphRect } from "./global-graph-layout";
+import { buildEgoGraphLayout, buildGlobalGraphLayout, graphInstitutionKey, graphRegionOrder, type GraphRect } from "./global-graph-layout";
+import { undirectedConnectedPersonIds } from "./graph-connectivity";
 import FeedbackDrawer from "./FeedbackDrawer";
 import VisitorMap from "./VisitorMap";
 
@@ -33,10 +34,10 @@ const institutionColors: Record<Person["institution"], string> = {
   NUS: "#275ee6", NTU: "#f16f51", SUTD: "#d99f00", SMU: "#8a5bdb", "A*STAR": "#07a383",
   HKU: "#8f1d2c", HKUST: "#007c8a", CUHK: "#6f3aa8", CityU: "#cf4e20", PolyU: "#a32638", HKBU: "#1f6b52", External: "#8390a5",
   THU: "#7b2431", PKU: "#a33a4a", FDU: "#244c8f", RUC: "#76509b", HIT: "#0b668d", "CAS-IA": "#28726f", NJU: "#6653a2", SJTU: "#a52e2e",
-  ZJU: "#2f67a3", USTC: "#3d7b66", BIT: "#9b5c2e", BUAA: "#315b8f", BUPT: "#5b4c9a", XJTU: "#9a3e35", SYSU: "#1d746c", ECNU: "#7b4d91", WHU: "#355f9d",
+  ZJU: "#2f67a3", USTC: "#3d7b66", BIT: "#9b5c2e", BUAA: "#315b8f", BUPT: "#5b4c9a", XJTU: "#9a3e35", SYSU: "#1d746c", ECNU: "#7b4d91", WHU: "#355f9d", "Duke Kunshan": "#9b2446", "CUHK-Shenzhen": "#6f3aa8", "HKUST(GZ)": "#007c8a",
   Stanford: "#8c1515", Berkeley: "#003262", CMU: "#c41230", UW: "#4b2e83", MIT: "#a31f34", Princeton: "#e77500", Cornell: "#b31b1b", NYU: "#57068c", Columbia: "#5b9bd5", UMass: "#881c1c", JHU: "#2c2c77", "UT Austin": "#bf5700",
-  UMich: "#00274c", UIUC: "#e84a27", "Georgia Tech": "#b3a369", UCLA: "#2774ae", UCSD: "#00629b",
-  "U of Toronto": "#1e3765", "Université de Montréal": "#0057a8", McGill: "#ed1b2f", "Polytechnique Montréal": "#00843d", UBC: "#002145", "University of Alberta": "#007c41", Waterloo: "#f2c300",
+  UMich: "#00274c", UIUC: "#e84a27", "Georgia Tech": "#b3a369", UCLA: "#2774ae", UCSD: "#00629b", UNC: "#4b9cd3", "Texas A&M": "#500000", "UT Dallas": "#e87500",
+  "U of Toronto": "#1e3765", "Université de Montréal": "#0057a8", McGill: "#ed1b2f", "Polytechnique Montréal": "#00843d", UBC: "#002145", "University of Alberta": "#007c41", Waterloo: "#f2c300", SFU: "#cc0633",
   Oxford: "#002147", Cambridge: "#a3c1ad", UCL: "#003b5c", Edinburgh: "#b51f1f", "ETH Zurich": "#1f82c0", EPFL: "#d71920", "Tübingen/MPI": "#5b3f91", TUM: "#0065bd", "TU Darmstadt": "#005aa9", UvA: "#bc0031", "KU Leuven": "#116e8a", Inria: "#5b38b4", Sapienza: "#8b1d3d",
   "Award Network": "#00a88f",
 };
@@ -217,6 +218,7 @@ export default function AcademicAtlas() {
   const [query, setQuery] = useState("");
   const [selectedId, setSelectedId] = useState("maosong-sun");
   const [graphFocusId, setGraphFocusId] = useState<string | null>(null);
+  const [graphEgoId, setGraphEgoId] = useState<string | null>(null);
   const [graphMapScope, setGraphMapScope] = useState<GraphMapScope>("global");
   const [graphInstitutionFocus, setGraphInstitutionFocus] = useState<string | null>(null);
   const [graphZoom, setGraphZoom] = useState(1);
@@ -402,15 +404,21 @@ export default function AcademicAtlas() {
     });
   }, [directoryGrouping, favoriteIds, favoritesOnly, focus, globalMatches, institution, query, region, regionPeople, selectedCommunity]);
 
-  const graphNeedle = query.trim().toLowerCase();
+  const graphEgoPerson = graphEgoId ? people.find((person) => person.id === graphEgoId) ?? null : null;
+  const graphConnectivityRelations = graphEgoPerson
+    ? relationships.filter((relation) => edgeFilter === "all" || relation.type === edgeFilter)
+    : [];
+  const graphEgoIds = graphEgoPerson
+    ? undirectedConnectedPersonIds(graphEgoPerson.id, graphConnectivityRelations)
+    : new Set<string>();
   const graphBasePeople = people.filter((person) => {
+    if (graphEgoPerson) return graphEgoIds.has(person.id);
     const focusMatch =
       focus === "all" ? person.primary :
       focus === "core" ? person.primary && person.category === "core" :
       focus === "emerging" ? person.primary && person.stage === "emerging" :
       focus === "adjacent" ? person.primary && person.category === "adjacent" : false;
     if (!focusMatch) return false;
-    if (graphNeedle && !globalMatches.some((match) => match.person.id === person.id)) return false;
     // Region and institution controls are camera targets, not data filters.
     // Keeping the complete graph mounted means users can zoom back out or pan
     // to nearby schools without the rest of the academic map disappearing.
@@ -418,7 +426,7 @@ export default function AcademicAtlas() {
   });
   const visibleIds = new Set(graphBasePeople.map((person) => person.id));
   const upstreamIds = new Set<string>();
-  if (edgeFilter === "all" || edgeFilter === "lineage") {
+  if (!graphEgoPerson && (edgeFilter === "all" || edgeFilter === "lineage")) {
     const lineageFrontier = new Set(visibleIds);
     for (let depth = 0; depth < 3; depth += 1) {
       const nextFrontier = new Set<string>();
@@ -438,7 +446,9 @@ export default function AcademicAtlas() {
   const visibleRelations = relationships.filter((relation) =>
     (edgeFilter === "all" || relation.type === edgeFilter) && graphIds.has(relation.from) && graphIds.has(relation.to)
   );
-  const globalGraphLayout = buildGlobalGraphLayout(graphPeople);
+  const globalGraphLayout = graphEgoPerson
+    ? buildEgoGraphLayout(graphPeople, graphEgoPerson.id, visibleRelations)
+    : buildGlobalGraphLayout(graphPeople);
   const graphInstitutionCountByKey = new Map(globalGraphLayout.regions.flatMap((entry) => entry.institutions.map((zone) => [`${zone.region}::${zone.key}`, zone.count] as const)));
   const graphPositionFor = (person: Person) => globalGraphLayout.positions.get(person.id) ?? { x: globalGraphLayout.width / 2, y: globalGraphLayout.height / 2 };
   const focusedRegionLayout = globalGraphLayout.regions.find((entry) => entry.region === region);
@@ -505,7 +515,7 @@ export default function AcademicAtlas() {
   function beginGraphDrag(event: React.PointerEvent<HTMLDivElement>) {
     if (event.button !== 0) return;
     const target = event.target as HTMLElement;
-    if (target.closest(".person-node, .adaptive-institution-zone, .global-region-focus, .graph-camera-controls, .graph-instruction")) return;
+    if (target.closest(".person-node, .adaptive-institution-zone, .global-region-focus, .graph-camera-controls, .graph-instruction, .graph-ego-banner")) return;
     event.preventDefault();
     event.currentTarget.setPointerCapture(event.pointerId);
     graphDragRef.current = { pointerId: event.pointerId, startX: event.clientX, startY: event.clientY, panX: graphPan.x, panY: graphPan.y };
@@ -560,6 +570,7 @@ export default function AcademicAtlas() {
   function changeRegion(nextRegion: Region) {
     setRegion(nextRegion);
     if (view === "graph") setGraphMapScope("region");
+    setGraphEgoId(null);
     setGraphInstitutionFocus(null);
     resetGraphCamera();
     setInstitution("All");
@@ -573,6 +584,7 @@ export default function AcademicAtlas() {
     setDiscoveryMode(mode);
     setView(mode === "mentor" ? "people" : "graph");
     if (mode === "network") {
+      setGraphEgoId(null);
       setGraphMapScope("global");
       setGraphInstitutionFocus(null);
       setInstitution("All");
@@ -592,7 +604,22 @@ export default function AcademicAtlas() {
 
   function submitHeroSearch(event: React.FormEvent) {
     event.preventDefault();
-    setView("people");
+    if (discoveryMode === "network" && globalMatches[0]) {
+      const person = globalMatches[0].person;
+      setView("graph");
+      setGraphEgoId(person.id);
+      setGraphFocusId(null);
+      setSelectedId(person.id);
+      setRegion(regionOf(person));
+      setInstitution("All");
+      setGraphMapScope("global");
+      setGraphInstitutionFocus(null);
+      setQuery("");
+      resetGraphCamera();
+    } else {
+      setView("people");
+      setGraphEgoId(null);
+    }
     window.setTimeout(() => document.querySelector("#atlas")?.scrollIntoView({ behavior: "smooth" }), 0);
   }
 
@@ -618,6 +645,17 @@ export default function AcademicAtlas() {
   }).filter((group) => group.people.length));
   const remainingTopicPeople = leadFirst(directoryPeople.filter((person) => !assignedTopicPeople.has(person.id)));
   const directoryGroups = directoryGrouping === "institution" ? institutionDirectoryGroups : [...topicDirectoryGroups, ...(remainingTopicPeople.length ? [{ key: "other-communities", label: "其他人物", note: "尚未归入有公开名录的学术共同体", color: "neutral", people: remainingTopicPeople }] : [])];
+  const atlasHeading = view === "graph"
+    ? graphEgoPerson
+      ? `${displayName(graphEgoPerson)} 的学术关系图`
+      : graphMapScope === "institution" && graphInstitutionFocus
+        ? `${graphInstitutionFocus} 学术关系图`
+        : graphMapScope === "region"
+          ? `${regionLabels[region]} AI / NLP / CV 学术关系图`
+          : "全球 AI / NLP / CV 学术关系图"
+    : view === "evidence"
+      ? `${regionLabels[region]} 关系证据清单`
+      : `${regionLabels[region]} AI / NLP / CV PI 名录`;
 
   function openPerson(person: Person, nextView: AtlasView = view) {
     setRegion(regionOf(person));
@@ -625,8 +663,42 @@ export default function AcademicAtlas() {
     setSelectedId(person.id);
     setView(nextView);
     setGraphFocusId(nextView === "graph" ? person.id : null);
+    if (nextView !== "graph") setGraphEgoId(null);
     if (nextView === "people" && window.matchMedia("(max-width: 1180px)").matches) {
       window.setTimeout(() => document.querySelector(".inspector")?.scrollIntoView({ behavior: "smooth", block: "start" }), 0);
+    }
+  }
+
+  function openSearchResult(person: Person) {
+    if (view === "graph") {
+      setGraphEgoId(person.id);
+      setGraphMapScope("global");
+      setGraphInstitutionFocus(null);
+      setInstitution("All");
+      setQuery("");
+      openPerson(person, "graph");
+      setGraphFocusId(null);
+      resetGraphCamera();
+      return;
+    }
+    openPerson(person, "people");
+    setQuery("");
+  }
+
+  function exitGraphEgo() {
+    setGraphEgoId(null);
+    setGraphFocusId(null);
+    setGraphMapScope("global");
+    setGraphInstitutionFocus(null);
+    setInstitution("All");
+    resetGraphCamera();
+  }
+
+  function updateSearch(value: string) {
+    setQuery(value);
+    if (view === "graph" && value.trim()) {
+      setGraphEgoId(null);
+      setGraphFocusId(null);
     }
   }
 
@@ -660,8 +732,8 @@ export default function AcademicAtlas() {
               <button className={discoveryMode === "network" ? "active" : ""} onClick={() => chooseMode("network")}><span>02</span><strong>我要看学术网络</strong><small>看师承、合作与人才流动</small><b>→</b></button>
             </div>
             <form className="hero-search" onSubmit={submitHeroSearch}>
-              <label><span>⌕</span><input value={query} onChange={(event) => setQuery(event.target.value)} placeholder="输入地区、方向、老师或招生意图" aria-label="搜索导师与学术网络" /><button type="submit">开始探索</button></label>
-              <div><small>试试</small>{["新加坡 + 多模态 + 招 RA", "加拿大 + 深度学习", "美国 + 具身智能 + PhD"].map((example) => <button type="button" key={example} onClick={() => { setQuery(example); setView("people"); document.querySelector("#atlas")?.scrollIntoView({ behavior: "smooth" }); }}>{example}</button>)}</div>
+              <label><span>⌕</span><input value={query} onChange={(event) => updateSearch(event.target.value)} placeholder="输入地区、方向、老师或招生意图" aria-label="搜索导师与学术网络" /><button type="submit">开始探索</button></label>
+              <div><small>试试</small>{["新加坡 + 多模态 + 招 RA", "加拿大 + 深度学习", "美国 + 具身智能 + PhD"].map((example) => <button type="button" key={example} onClick={() => { setQuery(example); setGraphEgoId(null); setView("people"); document.querySelector("#atlas")?.scrollIntoView({ behavior: "smooth" }); }}>{example}</button>)}</div>
             </form>
           </div>
           <picture className="hero-visual">
@@ -681,8 +753,8 @@ export default function AcademicAtlas() {
 
       <section className="task-entry" aria-label="按目标开始探索">
         <div><small>从你的目标开始</small><strong>不必先读懂整张图</strong></div>
-        <button onClick={() => { setView("people"); setQuery(""); document.querySelector("#atlas")?.scrollIntoView({ behavior: "smooth" }); }}>找导师 / 研究组<span>按地区和方向浏览 →</span></button>
-        <button onClick={() => { setView("graph"); setGraphMapScope("global"); setGraphInstitutionFocus(null); setInstitution("All"); setGraphFocusId(null); resetGraphCamera(); document.querySelector("#atlas")?.scrollIntoView({ behavior: "smooth" }); }}>看师承与合作<span>先看全球，再逐层放大 →</span></button>
+        <button onClick={() => { setView("people"); setGraphEgoId(null); setQuery(""); document.querySelector("#atlas")?.scrollIntoView({ behavior: "smooth" }); }}>找导师 / 研究组<span>按地区和方向浏览 →</span></button>
+        <button onClick={() => { setView("graph"); setGraphEgoId(null); setGraphMapScope("global"); setGraphInstitutionFocus(null); setInstitution("All"); setGraphFocusId(null); resetGraphCamera(); document.querySelector("#atlas")?.scrollIntoView({ behavior: "smooth" }); }}>看师承与合作<span>先看全球，再逐层放大 →</span></button>
         <button onClick={() => document.querySelector("#companies")?.scrollIntoView({ behavior: "smooth" })}>看学生工业去向<span>从公司、部门和职位反查 →</span></button>
         <button onClick={() => { setView("evidence"); document.querySelector("#atlas")?.scrollIntoView({ behavior: "smooth" }); }}>核验一条资料<span>查看关系类型与原始来源 →</span></button>
         <details className="atlas-glossary"><summary>第一次使用？查看术语说明</summary><div><p><strong>PI</strong>可独立领导研究组或招生的研究负责人。</p><p><strong>师承</strong>有公开资料直接支持的博士导师、共同导师或博士后指导关系。</p><p><strong>交叉节点</strong>以 AI 系统、HCI、AI4Science 等为主线，并与 NLP、CV、多模态或机器人持续交叉的研究者。</p><p><strong>人才流向</strong>公开可核验的学习、任职或职业移动，不表示因果关系。</p></div></details>
@@ -690,41 +762,41 @@ export default function AcademicAtlas() {
 
       <section className="atlas-section" id="atlas">
         <div className="section-heading">
-          <div><p className="section-index">01 / ROSTER + INTERACTIVE ATLAS</p><h2>{view === "graph" && graphMapScope === "global" ? "全球 AI / NLP / CV 学术关系图" : `${regionLabels[region]} AI / NLP / CV PI 名录`}</h2></div>
+          <div><p className="section-index">01 / ROSTER + INTERACTIVE ATLAS</p><h2>{atlasHeading}</h2></div>
         </div>
 
         <div className="atlas-local-nav" aria-label="图谱地区与视图切换">
           <div className="region-switch atlas-region-switch" role="tablist" aria-label="图谱地区切换">
-            {view === "graph" && <button className={graphMapScope === "global" ? "active" : ""} onClick={() => { setGraphMapScope("global"); setInstitution("All"); setGraphInstitutionFocus(null); resetGraphCamera(); }}>全球<small>GLOBAL</small></button>}
+            {view === "graph" && <button className={graphMapScope === "global" && !graphEgoPerson ? "active" : ""} onClick={exitGraphEgo}>全球<small>GLOBAL</small></button>}
             {graphRegionOrder.map((item) => <button key={item} className={graphMapScope !== "global" && region === item ? "active" : view !== "graph" && region === item ? "active" : ""} onClick={() => changeRegion(item)}>{regionLabels[item]}<small>{item}</small></button>)}
           </div>
           <div className="view-switch" role="tablist" aria-label="图谱视图">
-            {(["people", "graph", "evidence"] as const).map((item) => <button key={item} className={view === item ? "active" : ""} onClick={() => { setView(item); if (item === "graph") { setGraphMapScope("global"); setInstitution("All"); setGraphInstitutionFocus(null); setGraphFocusId(null); resetGraphCamera(); } }}>{item === "graph" ? "关系图" : item === "people" ? "人物名录" : "证据清单"}</button>)}
+            {(["people", "graph", "evidence"] as const).map((item) => <button key={item} className={view === item ? "active" : ""} onClick={() => { setView(item); setGraphEgoId(null); if (item === "graph") { setGraphMapScope("global"); setInstitution("All"); setGraphInstitutionFocus(null); setGraphFocusId(null); resetGraphCamera(); } }}>{item === "graph" ? "关系图" : item === "people" ? "人物名录" : "证据清单"}</button>)}
           </div>
         </div>
 
         <div className="atlas-shell">
           <div className="atlas-toolbar">
             <div className="search-wrap">
-              <label className="search-box"><span>⌕</span><input ref={searchInputRef} value={query} onChange={(e) => setQuery(e.target.value)} placeholder="跨六地区搜索人物、学生、公司、方向…" aria-label="全局搜索" /></label>
+              <label className="search-box"><span>⌕</span><input ref={searchInputRef} value={query} onChange={(event) => updateSearch(event.target.value)} placeholder={view === "graph" ? "搜索人物，打开以他为中心的关系图…" : "跨六地区搜索人物、学生、公司、方向…"} aria-label="全局搜索" />{query && <button type="button" className="search-clear" onClick={() => setQuery("")} aria-label="清除搜索">×</button>}</label>
               {query.trim() && <div className="global-search-results" role="listbox" aria-label="全局搜索结果">
                 <header><strong>全局结果</strong><span>{globalMatches.length} 位相关学者</span></header>
-                {globalMatches.map(({ person, matchedIn, recruitingMatch }) => <button key={person.id} role="option" aria-selected={selected.id === person.id} onClick={() => { openPerson(person, "people"); setQuery(""); }}>
+                {globalMatches.map(({ person, matchedIn, recruitingMatch }) => <button key={person.id} role="option" aria-selected={selected.id === person.id} onClick={() => openSearchResult(person)}>
                   <PersonAvatar person={person} className="search-monogram" style={{ background: institutionColors[person.institution] }} />
                   <span><strong>{displayName(person)}</strong><small>{regionLabels[regionOf(person)]} · {affiliationLabel(person)} · {person.area}</small><em>命中：{matchedIn.map((field) => ({ person: "人物", group: "组员", placement: "学生去向", relation: "关系证据" })[field]).join("、")}{hasRecruitingIntent(query) ? ` · ${recruitingMatch ? "有公开招生说明" : "招生状态待核验"}` : ""}</em></span>
-                  <b>→</b>
+                  <b>{view === "graph" ? "关系图 →" : "详情 →"}</b>
                 </button>)}
                 {globalMatches.length === 0 && <p>没有同时满足所有关键词的结果。可尝试减少一个关键词。</p>}
               </div>}
             </div>
             <div className="filter-row" aria-label="机构筛选">
-              {(["All", ...regionalInstitutions[region]] as InstitutionFilter[]).map((item) => <button key={item} className={institution === item ? "active" : ""} onClick={() => { setInstitution(item); if (view === "graph") { setGraphMapScope(item === "All" ? "region" : "institution"); setGraphInstitutionFocus(item === "All" ? null : institutionLabel(item)); resetGraphCamera(); } }}>{item === "All" ? "全部机构" : institutionLabel(item)}</button>)}
+              {(["All", ...regionalInstitutions[region]] as InstitutionFilter[]).map((item) => <button key={item} className={institution === item ? "active" : ""} onClick={() => { setInstitution(item); if (view === "graph") { setGraphEgoId(null); setGraphFocusId(null); setGraphMapScope(item === "All" ? "region" : "institution"); setGraphInstitutionFocus(item === "All" ? null : institutionLabel(item)); resetGraphCamera(); } }}>{item === "All" ? "全部机构" : institutionLabel(item)}</button>)}
             </div>
             <span className="result-count">{view === "graph" ? graphPeople.length : directoryPeople.length} 人</span>
           </div>
           <div className="focus-toolbar">
-            <span>收录层级</span>
-            <div className="filter-row">{focusOrder.map((item) => <button key={item} className={focus === item ? "active" : ""} onClick={() => setFocus(item)}>{focusLabels[item]}</button>)}</div>
+            <span>{graphEgoPerson && view === "graph" ? "人物中心" : "收录层级"}</span>
+            {graphEgoPerson && view === "graph" ? <p className="ego-filter-note">忽略边的方向，展示所有能沿已核验关系到达该人物的节点与关系</p> : <div className="filter-row">{focusOrder.map((item) => <button key={item} className={focus === item ? "active" : ""} onClick={() => setFocus(item)}>{focusLabels[item]}</button>)}</div>}
             {view === "people" && <div className="directory-controls" aria-label="名录组织方式"><span>组织方式</span><button className={directoryGrouping === "institution" ? "active" : ""} onClick={() => { setDirectoryGrouping("institution"); setSelectedCommunity("all"); }}>按学校</button><button className={directoryGrouping === "topic" ? "active" : ""} onClick={() => setDirectoryGrouping("topic")}>按学术共同体</button><button className={favoritesOnly ? "active favorite-active" : ""} onClick={() => setFavoritesOnly((current) => !current)}>★ 我的收藏 {favoriteIds.size}</button></div>}
             {view !== "people" && <div className="filter-row relation-filter">{(Object.keys(edgeLabels) as EdgeFilter[]).map((item) => <button key={item} className={edgeFilter === item ? "active" : ""} onClick={() => setEdgeFilter(item)}>{item !== "all" && <i className={`dot-${item}`} />}{edgeLabels[item]}</button>)}</div>}
           </div>
@@ -734,29 +806,30 @@ export default function AcademicAtlas() {
           <div className={`atlas-content atlas-content-${view}`}>
             {view === "graph" && (
               <>
-              <div className="mobile-ego" aria-label={`${displayName(selected)} 的一跳关系`}>
-                <header><div><small>ONE-HOP RELATIONSHIPS</small><strong>{displayName(selected)}</strong><span>{affiliationLabel(selected)} · {selected.area}</span></div><button onClick={() => openPerson(selected, "people")}>查看详情</button></header>
-                <div>{selectedRelations.filter((relation) => relation.from !== relation.to).map((relation) => {
-                  const neighborId = relation.from === selected.id ? relation.to : relation.from;
-                  const neighbor = people.find((person) => person.id === neighborId);
-                  if (!neighbor) return null;
-                  return <button key={relation.id} onClick={() => openPerson(neighbor, "graph")}>
-                    <PersonAvatar person={neighbor} className="search-monogram" style={{ background: institutionColors[neighbor.institution] }} />
-                    <span><strong>{displayName(neighbor)}</strong><small>{relationshipSubtypeLabels[relationshipSubtypeOf(relation)]} · {relationshipYears(relation)}</small><em>{relation.evidence}</em></span><b>→</b>
+              <div className="mobile-ego" aria-label={`${displayName(graphEgoPerson ?? selected)} 的连通关系网络`}>
+                <header><div><small>CONNECTED RELATIONSHIP NETWORK</small><strong>{displayName(graphEgoPerson ?? selected)}</strong><span>{graphPeople.length} 人 · {visibleRelations.filter((relation) => relation.from !== relation.to).length} 条关系</span></div><button onClick={() => openPerson(graphEgoPerson ?? selected, "people")}>查看详情</button></header>
+                <div>{visibleRelations.filter((relation) => relation.from !== relation.to).map((relation) => {
+                  const from = people.find((person) => person.id === relation.from);
+                  const to = people.find((person) => person.id === relation.to);
+                  if (!from || !to) return null;
+                  return <button key={relation.id} onClick={() => { setSelectedId(to.id); setGraphFocusId(to.id); }}>
+                    <PersonAvatar person={from} className="search-monogram" style={{ background: institutionColors[from.institution] }} />
+                    <span><strong>{displayName(from)} ↔ {displayName(to)}</strong><small>{relationshipSubtypeLabels[relationshipSubtypeOf(relation)]} · {relationshipYears(relation)}</small><em>{relation.evidence}</em></span><b>→</b>
                   </button>;
                 })}</div>
-                {selectedRelations.filter((relation) => relation.from !== relation.to).length === 0 && <p>暂无已核验的一跳人物关系；这不表示不存在相关联系。</p>}
+                {visibleRelations.filter((relation) => relation.from !== relation.to).length === 0 && <p>暂无已核验的人物关系；这不表示不存在相关联系。</p>}
               </div>
               <div className="graph-scroll">
-                <div ref={graphCanvasRef} className={`graph-canvas global-graph-canvas obsidian-graph ${graphSemanticClass} ${graphDragging ? "is-dragging" : ""}`} style={{ height: graphHeight }} aria-label="全球学者关系网络" onPointerDown={beginGraphDrag} onPointerMove={moveGraphDrag} onPointerUp={endGraphDrag} onPointerCancel={endGraphDrag}>
+                <div ref={graphCanvasRef} className={`graph-canvas global-graph-canvas obsidian-graph ${graphSemanticClass} ${graphEgoPerson ? "ego-network" : ""} ${graphDragging ? "is-dragging" : ""}`} style={{ height: graphHeight }} aria-label={graphEgoPerson ? `${displayName(graphEgoPerson)} 的人物中心关系网络` : "全球学者关系网络"} onPointerDown={beginGraphDrag} onPointerMove={moveGraphDrag} onPointerUp={endGraphDrag} onPointerCancel={endGraphDrag}>
                   <button className="graph-reset-surface" aria-label="显示全部人物关系" onClick={() => setGraphFocusId(null)} />
-                  <div className="graph-instruction"><span>点击人物聚焦 · 双指缩放平移</span>{graphFocusId && <button onClick={() => setGraphFocusId(null)}>显示全部关系</button>}</div>
-                  <div className="graph-camera-controls" aria-label="地图缩放控制"><button className={graphMapScope === "global" && !query.trim() && focus === "all" ? "active" : ""} aria-pressed={graphMapScope === "global" && !query.trim() && focus === "all"} onClick={() => { setGraphMapScope("global"); setInstitution("All"); setGraphInstitutionFocus(null); setGraphFocusId(null); setQuery(""); setFocus("all"); resetGraphCamera(); }}>全球</button><button aria-label="复位当前视角" onClick={resetGraphCamera}>复位</button><button aria-label="缩小地图" onClick={() => setGraphZoom((value) => Math.max(.45, value - .25))}>−</button><span>{Math.round(graphScale * 100)}%</span><button aria-label="放大地图" onClick={() => setGraphZoom((value) => Math.min(8, value + .25))}>＋</button></div>
+                  <div className="graph-instruction"><span>{graphEgoPerson ? "完整连通网络 · 双指缩放平移" : "点击人物聚焦 · 双指缩放平移"}</span>{graphFocusId && <button onClick={() => setGraphFocusId(null)}>显示全部关系</button>}</div>
+                  <div className="graph-camera-controls" aria-label="地图缩放控制"><button className={graphMapScope === "global" && !query.trim() && focus === "all" && !graphEgoPerson ? "active" : ""} aria-pressed={graphMapScope === "global" && !query.trim() && focus === "all" && !graphEgoPerson} onClick={() => { exitGraphEgo(); setQuery(""); setFocus("all"); }}>全球</button><button aria-label="复位当前视角" onClick={resetGraphCamera}>复位</button><button aria-label="缩小地图" onClick={() => setGraphZoom((value) => Math.max(.45, value - .25))}>−</button><span>{Math.round(graphScale * 100)}%</span><button aria-label="放大地图" onClick={() => setGraphZoom((value) => Math.min(8, value + .25))}>＋</button></div>
+                  {graphEgoPerson && <div className="graph-ego-banner"><PersonAvatar person={graphEgoPerson} className="search-monogram" style={{ background: institutionColors[graphEgoPerson.institution] }} /><span><small>CONNECTED ACADEMIC NETWORK</small><strong>{displayName(graphEgoPerson)}</strong><em>{graphPeople.length} 位人物 · {visibleRelations.filter((relation) => relation.from !== relation.to).length} 条已核验关系</em></span><button onClick={exitGraphEgo}>返回全球图</button></div>}
                   <div className="graph-legend" aria-label="关系图例"><span><i className="legend-lineage" />师承</span><span><i className="legend-collaboration" />合作</span><span><i className="legend-industry" />产业</span><span><i className="legend-talent" />人才流动</span></div>
                   <div className="graph-world" style={graphWorldStyle}>
                   {globalGraphLayout.regions.map((entry) => <div className={`global-region-zone region-${regionSlugs[entry.region]} ${graphMapScope !== "global" && entry.region === region ? "active" : ""}`} style={entry.rect} key={entry.region} />)}
-                  {globalGraphLayout.regions.map((entry) => <button type="button" className={`global-region-focus region-${regionSlugs[entry.region]}`} style={{ left: entry.rect.left + 28, top: entry.rect.top + 20 }} key={`${entry.region}-focus`} onClick={(event) => { event.stopPropagation(); setGraphFocusId(null); const firstRegionalPerson = graphPeople.find((person) => regionOf(person) === entry.region && person.primary); if (firstRegionalPerson) setSelectedId(firstRegionalPerson.id); setRegion(entry.region); setGraphMapScope("region"); setInstitution("All"); setGraphInstitutionFocus(null); resetGraphCamera(); }}><b>{regionLabels[entry.region]}</b><span>{graphPeople.filter((person) => regionOf(person) === entry.region).length} 位人物</span></button>)}
-                  {globalGraphLayout.regions.flatMap((entry) => entry.institutions.map((zone) => <button type="button" className={`institution-zone adaptive-institution-zone ${graphMapScope === "institution" && zone.region === region && zone.key === graphInstitutionFocus ? "active" : ""}`} style={{ ...zone.rect, color: institutionColors[zone.institution] }} key={zone.id} onClick={(event) => { event.stopPropagation(); setGraphFocusId(null); const matchedInstitution = regionalInstitutions[zone.region].find((item) => institutionLabel(item) === zone.key || String(item) === zone.key); const firstInstitutionPerson = graphPeople.find((person) => regionOf(person) === zone.region && graphInstitutionKey(person) === zone.key && person.primary) ?? graphPeople.find((person) => regionOf(person) === zone.region && graphInstitutionKey(person) === zone.key); if (firstInstitutionPerson) setSelectedId(firstInstitutionPerson.id); setRegion(zone.region); setInstitution(matchedInstitution ?? "All"); setGraphMapScope("institution"); setGraphInstitutionFocus(zone.key); resetGraphCamera(); }}><b>{zone.label}</b><span>{zone.count} nodes</span></button>))}
+                  {globalGraphLayout.regions.map((entry) => <button type="button" className={`global-region-focus region-${regionSlugs[entry.region]}`} style={{ left: entry.rect.left + 28, top: entry.rect.top + 20 }} key={`${entry.region}-focus`} onClick={(event) => { event.stopPropagation(); setGraphEgoId(null); setGraphFocusId(null); const firstRegionalPerson = graphPeople.find((person) => regionOf(person) === entry.region && person.primary); if (firstRegionalPerson) setSelectedId(firstRegionalPerson.id); setRegion(entry.region); setGraphMapScope("region"); setInstitution("All"); setGraphInstitutionFocus(null); resetGraphCamera(); }}><b>{regionLabels[entry.region]}</b><span>{graphPeople.filter((person) => regionOf(person) === entry.region).length} 位人物</span></button>)}
+                  {globalGraphLayout.regions.flatMap((entry) => entry.institutions.map((zone) => <button type="button" className={`institution-zone adaptive-institution-zone ${graphMapScope === "institution" && zone.region === region && zone.key === graphInstitutionFocus ? "active" : ""}`} style={{ ...zone.rect, color: institutionColors[zone.institution] }} key={zone.id} onClick={(event) => { event.stopPropagation(); setGraphEgoId(null); setGraphFocusId(null); const matchedInstitution = regionalInstitutions[zone.region].find((item) => institutionLabel(item) === zone.key || String(item) === zone.key); const firstInstitutionPerson = graphPeople.find((person) => regionOf(person) === zone.region && graphInstitutionKey(person) === zone.key && person.primary) ?? graphPeople.find((person) => regionOf(person) === zone.region && graphInstitutionKey(person) === zone.key); if (firstInstitutionPerson) setSelectedId(firstInstitutionPerson.id); setRegion(zone.region); setInstitution(matchedInstitution ?? "All"); setGraphMapScope("institution"); setGraphInstitutionFocus(zone.key); resetGraphCamera(); }}><b>{zone.label}</b><span>{zone.count} nodes</span></button>))}
                   <svg className="edge-layer" viewBox={`0 0 ${globalGraphLayout.width} ${globalGraphLayout.height}`} aria-hidden="true">
                     <defs>
                       <marker id="lineage-arrow" markerWidth="8" markerHeight="8" refX="6.5" refY="4" orient="auto" markerUnits="strokeWidth"><path d="M0,0 L8,4 L0,8 Z" fill={relationColors.lineage} /></marker>
@@ -779,7 +852,7 @@ export default function AcademicAtlas() {
                     const degree = graphDegreeById.get(person.id) ?? 0;
                     const nodeDiameter = Math.round(38 + Math.min(20, Math.sqrt(degree) * 4.2));
                     return (
-                    <button key={person.id} data-institution={person.institution} data-lineage-upstream={upstreamIds.has(person.id) || undefined} data-degree={degree} aria-label={`${displayName(person)} · ${affiliationLabel(person)} · ${person.area} · ${degree} 条关系`} title={`${displayName(person)} · ${affiliationLabel(person)} · ${person.area}`} className={`person-node ${denseInstitution && !upstreamIds.has(person.id) ? "dense-node" : ""} ${upstreamIds.has(person.id) ? "lineage-upstream-node" : person.primary ? "primary-node" : "external-node"} ${graphFocusId === person.id ? "selected" : ""} ${activeGraphFocusId && !graphFocusedIds.has(person.id) ? "dimmed" : "focus-active"}`} style={{ left: point.x, top: point.y, "--node-color": institutionColors[person.institution], "--node-diameter": `${nodeDiameter}px` } as React.CSSProperties} onClick={(event) => { event.stopPropagation(); setSelectedId(person.id); setGraphFocusId((current) => current === person.id ? null : person.id); }}>
+                    <button key={person.id} data-institution={person.institution} data-lineage-upstream={upstreamIds.has(person.id) || undefined} data-degree={degree} aria-label={`${displayName(person)} · ${affiliationLabel(person)} · ${person.area} · ${degree} 条关系`} title={`${displayName(person)} · ${affiliationLabel(person)} · ${person.area}`} className={`person-node ${person.id === graphEgoPerson?.id ? "ego-center-node" : ""} ${denseInstitution && !upstreamIds.has(person.id) ? "dense-node" : ""} ${upstreamIds.has(person.id) ? "lineage-upstream-node" : person.primary ? "primary-node" : "external-node"} ${graphFocusId === person.id ? "selected" : ""} ${activeGraphFocusId && !graphFocusedIds.has(person.id) ? "dimmed" : "focus-active"}`} style={{ left: point.x, top: point.y, "--node-color": institutionColors[person.institution], "--node-diameter": `${nodeDiameter}px` } as React.CSSProperties} onClick={(event) => { event.stopPropagation(); setSelectedId(person.id); setGraphFocusId((current) => current === person.id ? null : person.id); }}>
                       <PersonAvatar person={person} className="node-avatar" /><span className="node-copy"><strong>{displayName(person)}</strong>{upstreamIds.has(person.id) && <small>{affiliationLabel(person)}</small>}</span>
                     </button>
                     );
@@ -800,7 +873,7 @@ export default function AcademicAtlas() {
               <div className="people-directory">
                 {directoryGroups.map((group) => {
                   return <section className={`institution-group grouping-${directoryGrouping}`} key={group.key}>
-                    <header><span style={{ background: group.color.startsWith("#") ? group.color : ({ cobalt: "#7fa5ff", lime: "#c7f36b", coral: "#f58b70", violet: "#a982f0", neutral: "#8793a4" } as Record<string,string>)[group.color] }} /> <h3>{group.label}</h3><small>{group.note}</small><b>{group.people.length}</b></header>
+                    <header><span style={{ background: group.color?.startsWith("#") ? group.color : ({ cobalt: "#7fa5ff", lime: "#c7f36b", coral: "#f58b70", violet: "#a982f0", neutral: "#8793a4" } as Record<string,string>)[group.color ?? "neutral"] ?? "#8793a4" }} /> <h3>{group.label}</h3><small>{group.note}</small><b>{group.people.length}</b></header>
                     <div className="people-grid">{group.people.map((person) => (
                       <article key={person.id} className={`person-card ${selected.id === person.id ? "selected" : ""}`}>
                         <button className="person-card-main" onClick={() => openPerson(person, "people")}>

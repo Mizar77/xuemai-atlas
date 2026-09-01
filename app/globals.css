@@ -868,14 +868,14 @@ body { background: var(--paper); }
 .primary-button { border-radius: 10px; box-shadow: none; }
 .primary-button:hover { transform: translateY(-1px); box-shadow: 0 10px 24px rgba(17,24,39,.16); }
 
-.task-entry { margin-bottom: 70px; gap: 12px; }
+.task-entry { margin-bottom: 24px; gap: 12px; }
 .task-entry > div, .task-entry > button { min-height: 104px; padding: 19px; border-color: #e0e6ef; border-radius: 16px; background: rgba(255,255,255,.82); box-shadow: 0 8px 26px rgba(15,23,42,.04); }
 .task-entry > div { background: linear-gradient(145deg,#151f34,#0f1728); }
 .task-entry > button { transition: transform .18s, box-shadow .18s, border-color .18s; }
 .task-entry > button:hover { border-color: #cad3e2; transform: translateY(-3px); box-shadow: 0 16px 34px rgba(15,23,42,.08); }
 .atlas-glossary { border-radius: 12px; background: rgba(255,255,255,.7); }
 
-.atlas-section { padding-top: 92px; background: #f8fafc; }
+.atlas-section { padding-top: 52px; background: #f8fafc; }
 .section-index { color: var(--cobalt); letter-spacing: .16em; }
 .section-heading h2 { color: #0f172a; letter-spacing: -.06em; }
 .view-switch { padding: 5px; border: 0; border-radius: 12px; background: #e9edf4; }
@@ -885,10 +885,14 @@ body { background: var(--paper); }
 .atlas-toolbar { min-height: 76px; padding: 15px 18px; background: rgba(255,255,255,.96); }
 .search-box { border-color: #dce3ed; border-radius: 11px; background: #f7f9fc; }
 .search-box:focus-within { border-color: #9aa8f1; box-shadow: 0 0 0 4px rgba(85,103,232,.08); }
+.search-box .search-clear { width: 25px; height: 25px; flex: 0 0 auto; display: grid; place-items: center; border: 0; border-radius: 50%; background: #e8edf5; color: #536078; font-size: 15px; line-height: 1; cursor: pointer; }
+.search-box .search-clear:hover { background: #dce3ef; color: #17233a; }
+.global-search-results > button b { color: #4456cb; font-size: 8px; white-space: nowrap; }
 .filter-row button { border-radius: 8px; }
 .filter-row button.active { background: #e9edff; color: #3547c2; }
 .result-count { padding: 7px 11px; }
 .focus-toolbar { min-height: 60px; padding: 10px 18px; background: #f3f6fa; }
+.ego-filter-note { margin: 0; color: #69768a; font-size: 9px; line-height: 1.45; }
 .directory-controls button { border-radius: 8px; }
 .community-filter { padding: 11px 18px; background: #eef2f7; }
 .community-filter button { border: 0; background: white; box-shadow: 0 3px 10px rgba(15,23,42,.04); }
@@ -961,10 +965,30 @@ body { background: var(--paper); }
   background: linear-gradient(180deg, rgba(255,255,255,.28), transparent 24%, transparent 80%, rgba(91,111,151,.07));
 }
 .obsidian-graph::after {
-  content: "XUEMAI GRAPH · HOVER TO EXPLORE · CLICK TO LOCK";
+  content: "XUEMAI GRAPH · CLICK TO FOCUS · DRAG OR PINCH TO NAVIGATE";
   color: rgba(68,84,113,.56);
   text-shadow: 0 1px 0 rgba(255,255,255,.8);
 }
+.graph-ego-banner {
+  position: absolute; z-index: 10; top: 58px; left: 50%; transform: translateX(-50%);
+  min-width: min(480px, calc(100% - 300px)); display: grid; grid-template-columns: auto minmax(0,1fr) auto;
+  align-items: center; gap: 11px; padding: 10px 12px; border: 1px solid rgba(85,103,232,.2);
+  border-radius: 15px; background: rgba(255,255,255,.94); color: #17233a;
+  box-shadow: 0 14px 38px rgba(35,49,88,.14); backdrop-filter: blur(16px);
+}
+.graph-ego-banner .search-monogram { width: 42px; height: 42px; }
+.graph-ego-banner > span, .graph-ego-banner > span > * { min-width: 0; display: block; }
+.graph-ego-banner small { color: #5567e8; font: 800 7px var(--font-space), sans-serif; letter-spacing: .12em; }
+.graph-ego-banner strong { margin-top: 2px; overflow: hidden; font-size: 12px; text-overflow: ellipsis; white-space: nowrap; }
+.graph-ego-banner em { margin-top: 2px; overflow: hidden; color: #718096; font-size: 8px; font-style: normal; text-overflow: ellipsis; white-space: nowrap; }
+.graph-ego-banner > button { border: 0; border-radius: 9px; padding: 8px 10px; background: #17233a; color: white; font-size: 8px; font-weight: 800; cursor: pointer; white-space: nowrap; }
+.ego-network { background-image: radial-gradient(circle at 50% 50%,rgba(85,103,232,.17),transparent 32%),radial-gradient(circle,rgba(73,91,127,.18) .65px,transparent .8px); }
+.ego-network::after { content: "PERSON-CENTERED GRAPH · VERIFIED DIRECT RELATIONSHIPS"; }
+.obsidian-graph.ego-network .person-node { width: 88px; height: 72px; }
+.obsidian-graph.ego-network .person-node .node-avatar { width: min(var(--node-diameter, 46px), 52px); height: min(var(--node-diameter, 46px), 52px); }
+.obsidian-graph.ego-network .person-node.ego-center-node { z-index: 8; width: 124px; height: 104px; }
+.obsidian-graph.ego-network .person-node.ego-center-node .node-avatar { width: 72px; height: 72px; border-width: 3px; box-shadow: 0 0 0 7px rgba(255,255,255,.92),0 0 36px rgba(85,103,232,.42); }
+.obsidian-graph.ego-network .person-node.ego-center-node .node-copy strong { font-size: 11px; }
 .obsidian-graph .graph-reset-surface { cursor: grab; }
 .obsidian-graph .graph-camera-controls,
 .obsidian-graph .graph-instruction,

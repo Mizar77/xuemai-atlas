@@ -1,9 +1,8 @@
-import { people, regionOf, relationships, relationshipSubtypeOf, type Region } from "../app/data";
+import { adviserEvidenceAudit, people, regionOf, relationships, relationshipSubtypeOf, type Region } from "../app/data";
 
 const currentPeople = people.filter((person) => person.primary);
 const currentIds = new Set(currentPeople.map((person) => person.id));
 const adviserRelations = relationships.filter((relationship) =>
-  relationship.type === "lineage" &&
   relationship.from !== relationship.to &&
   ["phd_adviser", "co_adviser", "master_adviser", "postdoc_mentor"].includes(relationshipSubtypeOf(relationship)),
 );
@@ -34,6 +33,17 @@ if (missingEndpoints.length) throw new Error(`Adviser relations contain missing 
 
 const totalWithAny = currentPeople.filter((person) => byTarget.has(person.id)).length;
 console.log(`Adviser coverage: ${totalWithAny}/${currentPeople.length} current PIs (${Math.round(totalWithAny / currentPeople.length * 100)}%)`);
+const auditIds = new Set(adviserEvidenceAudit.map((record) => record.personId));
+const peopleIds = new Set(people.map((person) => person.id));
+const missingAuditRecords = people.filter((person) => !auditIds.has(person.id));
+const orphanAuditRecords = adviserEvidenceAudit.filter((record) => !peopleIds.has(record.personId));
+const duplicateAuditIds = adviserEvidenceAudit
+  .map((record) => record.personId)
+  .filter((id, index, ids) => ids.indexOf(id) !== index);
+if (missingAuditRecords.length || orphanAuditRecords.length || duplicateAuditIds.length) {
+  throw new Error(`Adviser audit ledger mismatch: missing=${missingAuditRecords.map((person) => person.id).join(",") || "none"}; orphan=${orphanAuditRecords.map((record) => record.personId).join(",") || "none"}; duplicate=${[...new Set(duplicateAuditIds)].join(",") || "none"}`);
+}
+console.log(`Adviser audit ledger: ${adviserEvidenceAudit.length}/${people.length} visible people have an explicit verification state`);
 console.table(rows.map((row) => ({
   region: row.region,
   current: row.current,
@@ -47,6 +57,24 @@ if (process.argv.includes("--verbose")) {
     console.log(`\n${row.region} missing ${row.missing.length}:`);
     console.log(row.missing.map((person) => `${person.name} [${person.id}]`).join("\n"));
   }
+}
+
+if (process.argv.includes("--fact-candidates")) {
+  const adviserPattern = /(?:博士|硕士|博后|学术)?导师(?:为|是|：|:)|师从|(?:advised|supervised)\s+by|(?:advis(?:e|o)r|supervis(?:e|o)r)\s+(?:is|was)/i;
+  const candidates = currentPeople
+    .filter((person) => !byTarget.has(person.id))
+    .map((person) => ({
+      id: person.id,
+      name: person.name,
+      chinese: person.chinese,
+      region: person.region,
+      institution: person.institution,
+      facts: (person.facts ?? []).filter((fact) => adviserPattern.test(`${fact.label} ${fact.value}`)),
+      sources: person.sources.filter((source) => adviserPattern.test(`${source.supports ?? ""} ${source.label}`)),
+    }))
+    .filter((person) => person.facts.length || person.sources.length);
+  console.log("\nMissing-edge people with adviser evidence already in their profile:");
+  console.log(JSON.stringify(candidates, null, 2));
 }
 
 const selfLineage = relationships.filter((relationship) => relationship.type === "lineage" && relationship.from === relationship.to);

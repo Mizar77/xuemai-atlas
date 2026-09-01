@@ -1,4 +1,5 @@
-import { regionOf, regionalInstitutions, type Person, type Region } from "./data";
+import { regionOf, regionalInstitutions, type Person, type Region, type Relationship } from "./data";
+import { undirectedHopDistances } from "./graph-connectivity";
 
 export type GraphRect = { left: number; top: number; width: number; height: number };
 
@@ -137,4 +138,97 @@ export function buildGlobalGraphLayout(graphPeople: Person[]): GlobalGraphLayout
     positions,
     regions,
   };
+}
+
+function sectorPoint(index: number, count: number, radius: number, startAngle: number, endAngle: number, centerX: number, centerY: number) {
+  const ratio = count <= 1 ? .5 : index / (count - 1);
+  const angle = (startAngle + (endAngle - startAngle) * ratio) * Math.PI / 180;
+  return { x: centerX + Math.cos(angle) * radius, y: centerY + Math.sin(angle) * radius };
+}
+
+/**
+ * A person-centred layout for the complete undirected connected component.
+ * Direct advisers remain above the focal scholar and direct students below;
+ * more distant people occupy progressively larger rings by shortest-hop
+ * distance. Arrow direction is preserved by the renderer, not by reachability.
+ */
+export function buildEgoGraphLayout(graphPeople: Person[], centerId: string, graphRelations: Relationship[]): GlobalGraphLayout {
+  const peopleById = new Map(graphPeople.map((person) => [person.id, person]));
+  const hopDistances = undirectedHopDistances(centerId, graphRelations);
+  const layers = new Map<number, string[]>();
+  graphPeople.forEach((person) => {
+    if (person.id === centerId) return;
+    const distance = hopDistances.get(person.id) ?? Number.POSITIVE_INFINITY;
+    layers.set(distance, [...(layers.get(distance) ?? []), person.id]);
+  });
+  layers.forEach((ids) => ids.sort((a, b) => {
+    const left = peopleById.get(a);
+    const right = peopleById.get(b);
+    return `${left ? regionOf(left) : ""}-${left?.institution ?? ""}-${left?.name ?? a}`
+      .localeCompare(`${right ? regionOf(right) : ""}-${right?.institution ?? ""}-${right?.name ?? b}`);
+  }));
+
+  const directCount = layers.get(1)?.length ?? 0;
+  const directRadius = Math.max(245, directCount * 66 / (Math.PI * 2));
+  const radiusByLayer = new Map<number, number>([[1, directRadius]]);
+  const finiteLayerNumbers = [...layers.keys()].filter(Number.isFinite).sort((a, b) => a - b);
+  finiteLayerNumbers.filter((distance) => distance > 1).forEach((distance) => {
+    const count = layers.get(distance)?.length ?? 0;
+    const priorRadius = radiusByLayer.get(distance - 1) ?? directRadius + (distance - 2) * 170;
+    radiusByLayer.set(distance, Math.max(priorRadius + 170, count * 70 / (Math.PI * 2)));
+  });
+  const maxRadius = Math.max(directRadius, ...radiusByLayer.values());
+  const width = Math.max(1120, Math.ceil((maxRadius + 150) * 2));
+  const height = Math.max(760, Math.ceil((maxRadius + 130) * 2));
+  const centerX = width / 2;
+  const centerY = height / 2 + 8;
+  const positions = new Map<string, { x: number; y: number }>([[centerId, { x: centerX, y: centerY }]]);
+  const adviserIds = new Set<string>();
+  const studentIds = new Set<string>();
+  const peerIds = new Set<string>();
+
+  graphRelations.forEach((relation) => {
+    if (relation.from === relation.to) return;
+    if (hopDistances.get(relation.from) !== 0 && hopDistances.get(relation.to) !== 0) return;
+    const neighborId = relation.from === centerId ? relation.to : relation.from;
+    if (!peopleById.has(neighborId) || hopDistances.get(neighborId) !== 1) return;
+    if (relation.type === "lineage" && relation.to === centerId) adviserIds.add(neighborId);
+    else if (relation.type === "lineage" && relation.from === centerId) studentIds.add(neighborId);
+    else peerIds.add(neighborId);
+  });
+  adviserIds.forEach((id) => { studentIds.delete(id); peerIds.delete(id); });
+  studentIds.forEach((id) => peerIds.delete(id));
+
+  const sortIds = (ids: Set<string>) => [...ids].sort((a, b) => (peopleById.get(a)?.name ?? a).localeCompare(peopleById.get(b)?.name ?? b));
+  const advisers = sortIds(adviserIds);
+  const students = sortIds(studentIds);
+  const peers = sortIds(peerIds);
+
+  advisers.forEach((id, index) => positions.set(id, sectorPoint(index, advisers.length, directRadius, 205, 335, centerX, centerY)));
+  students.forEach((id, index) => positions.set(id, sectorPoint(index, students.length, directRadius, 25, 155, centerX, centerY)));
+  peers.forEach((id, index) => {
+    const leftSide = index % 2 === 0;
+    const sideIndex = Math.floor(index / 2);
+    const sideCount = Math.ceil(peers.length / 2);
+    const angleStart = leftSide ? 125 : -55;
+    const angleEnd = leftSide ? 235 : 55;
+    positions.set(id, sectorPoint(sideIndex, sideCount, directRadius, angleStart, angleEnd, centerX, centerY));
+  });
+
+  finiteLayerNumbers.filter((distance) => distance > 1).forEach((distance) => {
+    const members = layers.get(distance) ?? [];
+    const radius = radiusByLayer.get(distance) ?? directRadius + (distance - 1) * 170;
+    const angleOffset = -90 + (distance % 2 === 0 ? 9 : -7);
+    members.forEach((id, index) => {
+      const angle = (angleOffset + index * 360 / Math.max(members.length, 1)) * Math.PI / 180;
+      positions.set(id, { x: centerX + Math.cos(angle) * radius, y: centerY + Math.sin(angle) * radius });
+    });
+  });
+
+  // Defensive fallback for endpoints that are present but not reachable after
+  // relation filtering. Normal component construction should make this empty.
+  graphPeople.filter((person) => !positions.has(person.id)).forEach((person, index, remaining) => {
+    positions.set(person.id, sectorPoint(index, remaining.length, maxRadius + 110, -170, 170, centerX, centerY));
+  });
+  return { width, height, positions, regions: [] };
 }

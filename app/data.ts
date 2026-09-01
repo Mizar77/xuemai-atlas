@@ -43,6 +43,8 @@ import { globalP0BPortraits } from "./portrait-data-global-p0-b";
 import { usFoundationalAuditPeople, usFoundationalAuditPersonEnhancements, usFoundationalAuditRelationships } from "./us-foundational-audit-expansion";
 import { usFoundationalPortraits } from "./portrait-data-us-foundational";
 import { awardAuditPortraits } from "./portrait-data-award-audit";
+import { networkExpansionPortraits } from "./portrait-data-network-expansion";
+import { atlasNetworkPortraits } from "./portrait-data-atlas-network";
 import { aclAwardAuditCoverage, aclAwardAuditPeople, aclAwardRecords } from "./award-audit-acl";
 import { neuripsAwardAuditPeople, neuripsAwardCoverage, neuripsAwardRecords } from "./award-audit-neurips";
 import { cvprAwardAuditCoverage, cvprAwardAuditPeople, cvprAwardAuditRecords } from "./award-audit-cvpr";
@@ -52,6 +54,47 @@ import { adviserLineagePeople, adviserLineageRelationships } from "./adviser-lin
 import { legacyAdviserLineagePeople, legacyAdviserLineageRelationships, supersededLegacyLineageIds } from "./legacy-adviser-lineage-migration";
 import { adviserLineagePeople2, adviserLineageRelationships2 } from "./adviser-lineage-expansion-2";
 import { academicTreeLineagePeople, academicTreeLineageRelationships } from "./academic-tree-lineage-expansion";
+import { foundationalNetworkPeople, foundationalNetworkRelationships } from "./foundational-network-expansion";
+import { goodfellowMilaNetworkPeople, goodfellowMilaNetworkRelationships } from "./goodfellow-mila-network-expansion";
+import { westernFoundationalNetworkPeople, westernFoundationalNetworkPersonEnhancements, westernFoundationalNetworkRelationships } from "./western-foundational-network-expansion";
+import { asiaSeniorNetworkPeople, asiaSeniorNetworkRelationships } from "./asia-senior-network-expansion";
+import { chuaUstcLineagePeople, chuaUstcLineagePersonEnhancements, chuaUstcLineageRelationships } from "./chua-ustc-lineage-expansion";
+import { thesisSupervisorAudit, thesisSupervisorPeople, thesisSupervisorPersonEnhancements, thesisSupervisorRelationships } from "./thesis-supervisor-expansion";
+import { thesisSupervisorPeople2, thesisSupervisorPersonEnhancements2, thesisSupervisorRelationships2 } from "./thesis-supervisor-expansion-2";
+import { thesisSupervisorPeople3, thesisSupervisorPersonEnhancements3, thesisSupervisorRelationships3 } from "./thesis-supervisor-expansion-3";
+import { thesisSupervisorPeople4, thesisSupervisorPersonEnhancements4, thesisSupervisorRelationships4 } from "./thesis-supervisor-expansion-4";
+import { thesisSupervisorPeople5, thesisSupervisorPersonEnhancements5, thesisSupervisorRelationships5 } from "./thesis-supervisor-expansion-5";
+import { thesisSupervisorPersonEnhancements6, thesisSupervisorRelationships6 } from "./thesis-supervisor-expansion-6";
+import { thesisSupervisorPeople7, thesisSupervisorPersonEnhancements7, thesisSupervisorRelationships7 } from "./thesis-supervisor-expansion-7";
+import { thesisSupervisorPeople8, thesisSupervisorPersonEnhancements8, thesisSupervisorRelationships8 } from "./thesis-supervisor-expansion-8";
+import { thesisSupervisorPeople9, thesisSupervisorPersonEnhancements9, thesisSupervisorRelationships9 } from "./thesis-supervisor-expansion-9";
+import { thesisSupervisorPeople10, thesisSupervisorPersonEnhancements10, thesisSupervisorRelationships10 } from "./thesis-supervisor-expansion-10";
+import { thesisSupervisorPeople11, thesisSupervisorPersonEnhancements11, thesisSupervisorRelationships11 } from "./thesis-supervisor-expansion-11";
+import { thesisSupervisorPeople12, thesisSupervisorPersonEnhancements12, thesisSupervisorRelationships12 } from "./thesis-supervisor-expansion-12";
+import { atlasWangGroupMembers, atlasWangPersonEnhancements, atlasWangRelationships, atlasWangStudentPlacements } from "./atlas-wang-enrichment";
+import { atlasWangAlumniAuditGroupMembers, atlasWangAlumniAuditStudentPlacements, atlasWangExistingPlacementCorrections } from "./atlas-wang-alumni-audit";
+import { atlasWangLineageAuditPeople, atlasWangLineageAuditRelationships } from "./atlas-wang-lineage-audit";
+import { atlasWangIndustryAuditCollaborationRelationships, atlasWangIndustryAuditPathways, atlasWangIndustryAuditPersonEnhancements } from "./atlas-wang-industry-audit";
+import { yiMaNetworkGroupMembers, yiMaNetworkPeople, yiMaNetworkPersonEnhancements, yiMaNetworkPlacements, yiMaNetworkRelationships } from "./yi-ma-network-expansion";
+import { yiMaNetworkPortraits } from "./portrait-data-yi-ma-network";
+import { zongNetworkGroupMembers, zongNetworkPeople, zongNetworkPersonEnhancements, zongNetworkPlacements, zongNetworkRelationships } from "./zong-network-expansion";
+import { zongNetworkPortraits } from "./portrait-data-zong-network";
+import { leadershipNetworkGroupMembers, leadershipNetworkPeople, leadershipNetworkPersonEnhancements, leadershipNetworkPlacements, leadershipNetworkPortraits, leadershipNetworkRelationships } from "./leadership-network-expansion";
+import { tieniuTanNetworkPeople, tieniuTanNetworkPersonEnhancements, tieniuTanNetworkPlacements, tieniuTanNetworkPortraits, tieniuTanNetworkRelationships } from "./tieniu-tan-network-expansion";
+import { seniorCoreNetworkPeople, seniorCoreNetworkPersonEnhancements, seniorCoreNetworkPlacements, seniorCoreNetworkPortraits, seniorCoreNetworkRelationships } from "./senior-core-network-expansion";
+import { influencePriorityGroupMembers, influencePriorityPeople, influencePriorityPersonEnhancements, influencePriorityPlacements, influencePriorityRelationships } from "./influence-priority-network-expansion";
+import { wuFengNetworkGroupMembers, wuFengNetworkPeople, wuFengNetworkPlacements, wuFengNetworkPortraits, wuFengNetworkRelationships } from "./wu-feng-network-expansion";
+import { influenceQueueUsCanadaGroupMembers, influenceQueueUsCanadaPeople, influenceQueueUsCanadaPersonEnhancements, influenceQueueUsCanadaPlacements, influenceQueueUsCanadaPortraits, influenceQueueUsCanadaRelationships } from "./influence-queue-us-canada-expansion";
+import { influenceQueueEuropeGroupMembers, influenceQueueEuropePeople, influenceQueueEuropePersonEnhancements, influenceQueueEuropePlacements, influenceQueueEuropePortraits, influenceQueueEuropeRelationships } from "./influence-queue-europe-expansion";
+import { influenceQueueUsCanadaGroupMembers2, influenceQueueUsCanadaPeople2, influenceQueueUsCanadaPersonEnhancements2, influenceQueueUsCanadaPlacements2, influenceQueueUsCanadaPortraits2, influenceQueueUsCanadaRelationships2 } from "./influence-queue-us-canada-expansion-2";
+import { influenceQueueAsiaGroupMembers, influenceQueueAsiaPeople, influenceQueueAsiaPersonEnhancements, influenceQueueAsiaPlacements, influenceQueueAsiaPortraits, influenceQueueAsiaRelationships } from "./influence-queue-asia-expansion";
+import { influenceQueueAsiaFinalPeople, influenceQueueAsiaFinalPortraits, influenceQueueAsiaFinalRelationships } from "./influence-queue-asia-final";
+import { influenceQueueUsResidualAGroupMembers, influenceQueueUsResidualAPeople, influenceQueueUsResidualAPersonEnhancements, influenceQueueUsResidualAPlacements, influenceQueueUsResidualAPortraits, influenceQueueUsResidualARelationships } from "./influence-queue-us-residual-a";
+import { influenceQueueUsCanadaGroupMembers3, influenceQueueUsCanadaPeople3, influenceQueueUsCanadaPersonEnhancements3, influenceQueueUsCanadaPlacements3, influenceQueueUsCanadaPortraits3, influenceQueueUsCanadaRelationships3 } from "./influence-queue-us-canada-expansion-3";
+import { influenceQueueUsTengyuFinalGroupMembers, influenceQueueUsTengyuFinalPeople, influenceQueueUsTengyuFinalPersonEnhancements, influenceQueueUsTengyuFinalPlacements, influenceQueueUsTengyuFinalPortraits, influenceQueueUsTengyuFinalRelationships } from "./influence-queue-us-tengyu-final";
+import { influenceQueueCanadaFinalGroupMembers, influenceQueueCanadaFinalPeople, influenceQueueCanadaFinalPersonEnhancements, influenceQueueCanadaFinalPlacements, influenceQueueCanadaFinalPortraits, influenceQueueCanadaFinalRelationships } from "./influence-queue-canada-final";
+import { influenceQueueUsFinalGroupMembers, influenceQueueUsFinalPeople, influenceQueueUsFinalPersonEnhancements, influenceQueueUsFinalPlacements, influenceQueueUsFinalPortraits, influenceQueueUsFinalRelationships } from "./influence-queue-us-final";
+import { influenceQueueFixPortraits } from "./portrait-data-influence-queue-fixes";
 
 export type Source = {
   label: string;
@@ -65,10 +108,10 @@ export type Source = {
   supports?: string;
 };
 
-export const dataSnapshotDate = "2026-08-31";
+export const dataSnapshotDate = "2026-09-01";
 
 export type Region = "Singapore" | "Hong Kong" | "Mainland China" | "United States" | "Canada" | "Europe";
-export type Institution = "NUS" | "NTU" | "SUTD" | "SMU" | "A*STAR" | "HKU" | "HKUST" | "CUHK" | "CityU" | "PolyU" | "HKBU" | "THU" | "PKU" | "FDU" | "RUC" | "HIT" | "CAS-IA" | "NJU" | "SJTU" | "ZJU" | "USTC" | "BIT" | "BUAA" | "BUPT" | "XJTU" | "SYSU" | "ECNU" | "WHU" | "Stanford" | "Berkeley" | "CMU" | "UW" | "MIT" | "Princeton" | "Cornell" | "NYU" | "Columbia" | "UMass" | "JHU" | "UT Austin" | "UMich" | "UIUC" | "Georgia Tech" | "UCLA" | "UCSD" | "U of Toronto" | "Université de Montréal" | "McGill" | "Polytechnique Montréal" | "UBC" | "University of Alberta" | "Waterloo" | "Oxford" | "Cambridge" | "UCL" | "Edinburgh" | "ETH Zurich" | "EPFL" | "Tübingen/MPI" | "TUM" | "TU Darmstadt" | "UvA" | "KU Leuven" | "Inria" | "Sapienza" | "Award Network" | "External";
+export type Institution = "NUS" | "NTU" | "SUTD" | "SMU" | "A*STAR" | "HKU" | "HKUST" | "CUHK" | "CityU" | "PolyU" | "HKBU" | "THU" | "PKU" | "FDU" | "RUC" | "HIT" | "CAS-IA" | "NJU" | "Soochow" | "SJTU" | "ZJU" | "USTC" | "BIT" | "BUAA" | "BUPT" | "XJTU" | "SYSU" | "ECNU" | "WHU" | "Duke Kunshan" | "CUHK-Shenzhen" | "HKUST(GZ)" | "Stanford" | "Berkeley" | "CMU" | "UW" | "MIT" | "Princeton" | "Cornell" | "NYU" | "Columbia" | "UMass" | "JHU" | "UT Austin" | "UMich" | "UIUC" | "Georgia Tech" | "UCLA" | "UCSD" | "UNC" | "Texas A&M" | "UT Dallas" | "UChicago" | "UMD" | "Penn State" | "Indiana U" | "UAlbany" | "UCF" | "Texas State" | "U of Toronto" | "Université de Montréal" | "McGill" | "Polytechnique Montréal" | "UBC" | "University of Alberta" | "Waterloo" | "SFU" | "Oxford" | "Cambridge" | "UCL" | "Edinburgh" | "ETH Zurich" | "EPFL" | "Tübingen/MPI" | "TUM" | "TU Darmstadt" | "UvA" | "KU Leuven" | "Inria" | "Sapienza" | "Award Network" | "External";
 export type Stage = "senior" | "emerging" | "institute" | "adjacent" | "historical";
 export type Category = "core" | "adjacent" | "historical";
 
@@ -94,6 +137,8 @@ export type Person = {
   primary?: boolean;
   /** Most recent field-level review date. Kept optional so missing review data stays visible. */
   lastVerifiedAt?: string;
+  /** Date when a newly added node entered the atlas; activates the strict new-person quality gate. */
+  introducedAt?: string;
   /** Known alumni denominator from a public roster; placements may cover only a subset. */
   knownAlumniCount?: number;
   /** Portrait copied locally or linked from a verified public faculty/profile host. */
@@ -116,9 +161,9 @@ export type IndustryPathway = {
 export const regionalInstitutions: Record<Region, Institution[]> = {
   Singapore: ["NUS", "NTU", "SUTD", "SMU", "A*STAR", "Award Network"],
   "Hong Kong": ["HKU", "HKUST", "CUHK", "CityU", "PolyU", "HKBU", "Award Network"],
-  "Mainland China": ["THU", "PKU", "FDU", "RUC", "HIT", "CAS-IA", "NJU", "SJTU", "ZJU", "USTC", "BIT", "BUAA", "BUPT", "XJTU", "SYSU", "ECNU", "WHU", "Award Network"],
-  "United States": ["Stanford", "Berkeley", "CMU", "UW", "MIT", "Princeton", "Cornell", "NYU", "Columbia", "UMass", "JHU", "UT Austin", "UMich", "UIUC", "Georgia Tech", "UCLA", "UCSD", "Award Network"],
-  Canada: ["U of Toronto", "Université de Montréal", "McGill", "Polytechnique Montréal", "UBC", "University of Alberta", "Waterloo", "Award Network"],
+  "Mainland China": ["THU", "PKU", "FDU", "RUC", "HIT", "CAS-IA", "NJU", "Soochow", "SJTU", "ZJU", "USTC", "BIT", "BUAA", "BUPT", "XJTU", "SYSU", "ECNU", "WHU", "Duke Kunshan", "CUHK-Shenzhen", "HKUST(GZ)", "Award Network"],
+  "United States": ["Stanford", "Berkeley", "CMU", "UW", "MIT", "Princeton", "Cornell", "NYU", "Columbia", "UMass", "JHU", "UT Austin", "UMich", "UIUC", "Georgia Tech", "UCLA", "UCSD", "UNC", "Texas A&M", "UT Dallas", "UChicago", "UMD", "Penn State", "Indiana U", "UAlbany", "UCF", "Texas State", "Award Network"],
+  Canada: ["U of Toronto", "Université de Montréal", "McGill", "Polytechnique Montréal", "UBC", "University of Alberta", "Waterloo", "SFU", "Award Network"],
   Europe: ["Oxford", "Cambridge", "UCL", "Edinburgh", "ETH Zurich", "EPFL", "Tübingen/MPI", "TUM", "TU Darmstadt", "UvA", "KU Leuven", "Inria", "Sapienza", "Award Network"],
 };
 
@@ -755,6 +800,40 @@ const basePeople: Person[] = [
   ...adviserLineagePeople2,
   ...historicalCorePeople,
   ...academicTreeLineagePeople,
+  ...foundationalNetworkPeople,
+  ...goodfellowMilaNetworkPeople,
+  ...westernFoundationalNetworkPeople,
+  ...asiaSeniorNetworkPeople,
+  ...chuaUstcLineagePeople,
+  ...thesisSupervisorPeople,
+  ...thesisSupervisorPeople2,
+  ...thesisSupervisorPeople3,
+  ...thesisSupervisorPeople4,
+  ...thesisSupervisorPeople5,
+  ...thesisSupervisorPeople7,
+  ...thesisSupervisorPeople8,
+  ...thesisSupervisorPeople9,
+  ...thesisSupervisorPeople10,
+  ...thesisSupervisorPeople11,
+  ...thesisSupervisorPeople12,
+  ...atlasWangLineageAuditPeople,
+  ...yiMaNetworkPeople,
+  ...zongNetworkPeople,
+  ...leadershipNetworkPeople,
+  ...tieniuTanNetworkPeople,
+  ...seniorCoreNetworkPeople,
+  ...influencePriorityPeople,
+  ...wuFengNetworkPeople,
+  ...influenceQueueUsCanadaPeople,
+  ...influenceQueueEuropePeople,
+  ...influenceQueueUsCanadaPeople2,
+  ...influenceQueueAsiaPeople,
+  ...influenceQueueAsiaFinalPeople,
+  ...influenceQueueUsResidualAPeople,
+  ...influenceQueueUsCanadaPeople3,
+  ...influenceQueueUsTengyuFinalPeople,
+  ...influenceQueueCanadaFinalPeople,
+  ...influenceQueueUsFinalPeople,
 ];
 
 const awardAuditRawPeople: Person[] = [
@@ -851,7 +930,7 @@ export const conferenceAwardAudit = [
 ];
 
 export const people: Person[] = peopleBeforeEnhancement.map((person) => {
-  const portrait = awardAuditPortraits[person.id] ?? globalP0BPortraits[person.id] ?? canadaEastPortraits[person.id] ?? canadaWestPortraits[person.id] ?? globalP0FinalPortraits[person.id] ?? usFoundationalPortraits[person.id] ?? canadaPortraits[person.id] ?? globalP0Portraits[person.id] ?? finalEuropeHkPortraits[person.id] ?? finalMainlandPortraits[person.id] ?? finalUsPortraits[person.id] ?? lamdaPortraits[person.id] ?? europePortraits[person.id] ?? systematicRosterPortraits[person.id] ?? hkSgMissingPortraits[person.id] ?? mainlandMissingPortraits[person.id] ?? mainlandFillAPortraits[person.id] ?? mainlandFillBPortraits[person.id] ?? mainlandPortraits[person.id] ?? hkSgPortraits[person.id] ?? usPortraits[person.id] ?? person.portrait;
+  const portrait = influenceQueueFixPortraits[person.id] ?? influenceQueueUsFinalPortraits[person.id] ?? influenceQueueCanadaFinalPortraits[person.id] ?? influenceQueueUsTengyuFinalPortraits[person.id] ?? influenceQueueUsCanadaPortraits3[person.id] ?? influenceQueueUsResidualAPortraits[person.id] ?? influenceQueueAsiaFinalPortraits[person.id] ?? influenceQueueAsiaPortraits[person.id] ?? influenceQueueUsCanadaPortraits2[person.id] ?? influenceQueueEuropePortraits[person.id] ?? influenceQueueUsCanadaPortraits[person.id] ?? wuFengNetworkPortraits[person.id] ?? seniorCoreNetworkPortraits[person.id] ?? tieniuTanNetworkPortraits[person.id] ?? leadershipNetworkPortraits[person.id] ?? zongNetworkPortraits[person.id] ?? yiMaNetworkPortraits[person.id] ?? atlasNetworkPortraits[person.id] ?? networkExpansionPortraits[person.id] ?? awardAuditPortraits[person.id] ?? globalP0BPortraits[person.id] ?? canadaEastPortraits[person.id] ?? canadaWestPortraits[person.id] ?? globalP0FinalPortraits[person.id] ?? usFoundationalPortraits[person.id] ?? canadaPortraits[person.id] ?? globalP0Portraits[person.id] ?? finalEuropeHkPortraits[person.id] ?? finalMainlandPortraits[person.id] ?? finalUsPortraits[person.id] ?? lamdaPortraits[person.id] ?? europePortraits[person.id] ?? systematicRosterPortraits[person.id] ?? hkSgMissingPortraits[person.id] ?? mainlandMissingPortraits[person.id] ?? mainlandFillAPortraits[person.id] ?? mainlandFillBPortraits[person.id] ?? mainlandPortraits[person.id] ?? hkSgPortraits[person.id] ?? usPortraits[person.id] ?? person.portrait;
   const lamdaEnhancement = lamdaPersonEnhancements[person.id];
   const enhancements: Partial<Person>[] = [
     mainlandPersonEnhancements[person.id],
@@ -865,7 +944,38 @@ export const people: Person[] = peopleBeforeEnhancement.map((person) => {
     canadaEastPersonEnhancements[person.id],
     canadaWestPersonEnhancements[person.id],
     globalP0PersonEnhancements[person.id],
+    westernFoundationalNetworkPersonEnhancements[person.id],
+    chuaUstcLineagePersonEnhancements[person.id],
+    thesisSupervisorPersonEnhancements[person.id],
+    thesisSupervisorPersonEnhancements2[person.id],
+    thesisSupervisorPersonEnhancements3[person.id],
+    thesisSupervisorPersonEnhancements4[person.id],
+    thesisSupervisorPersonEnhancements5[person.id],
+    thesisSupervisorPersonEnhancements6[person.id],
+    thesisSupervisorPersonEnhancements7[person.id],
+    thesisSupervisorPersonEnhancements8[person.id],
+    thesisSupervisorPersonEnhancements9[person.id],
+    thesisSupervisorPersonEnhancements10[person.id],
+    thesisSupervisorPersonEnhancements11[person.id],
+    thesisSupervisorPersonEnhancements12[person.id],
     awardAuditEnhancements[person.id],
+    atlasWangPersonEnhancements[person.id],
+    atlasWangIndustryAuditPersonEnhancements[person.id],
+    yiMaNetworkPersonEnhancements[person.id],
+    zongNetworkPersonEnhancements[person.id],
+    leadershipNetworkPersonEnhancements[person.id],
+    tieniuTanNetworkPersonEnhancements[person.id],
+    seniorCoreNetworkPersonEnhancements[person.id],
+    influencePriorityPersonEnhancements[person.id],
+    influenceQueueUsCanadaPersonEnhancements[person.id],
+    influenceQueueEuropePersonEnhancements[person.id],
+    influenceQueueUsCanadaPersonEnhancements2[person.id],
+    influenceQueueAsiaPersonEnhancements[person.id],
+    influenceQueueUsResidualAPersonEnhancements[person.id],
+    influenceQueueUsCanadaPersonEnhancements3[person.id],
+    influenceQueueUsTengyuFinalPersonEnhancements[person.id],
+    influenceQueueCanadaFinalPersonEnhancements[person.id],
+    influenceQueueUsFinalPersonEnhancements[person.id],
     lamdaEnhancement,
   ].filter((enhancement): enhancement is Partial<Person> => Boolean(enhancement));
   if (!enhancements.length && !portrait) return person;
@@ -975,6 +1085,43 @@ const relationshipsBeforeLegacyMigration: Relationship[] = [
   ...adviserLineageRelationships2,
   ...historicalCoreRelationships,
   ...academicTreeLineageRelationships,
+  ...foundationalNetworkRelationships,
+  ...goodfellowMilaNetworkRelationships,
+  ...westernFoundationalNetworkRelationships,
+  ...asiaSeniorNetworkRelationships,
+  ...chuaUstcLineageRelationships,
+  ...thesisSupervisorRelationships,
+  ...thesisSupervisorRelationships2,
+  ...thesisSupervisorRelationships3,
+  ...thesisSupervisorRelationships4,
+  ...thesisSupervisorRelationships5,
+  ...thesisSupervisorRelationships6,
+  ...thesisSupervisorRelationships7,
+  ...thesisSupervisorRelationships8,
+  ...thesisSupervisorRelationships9,
+  ...thesisSupervisorRelationships10,
+  ...thesisSupervisorRelationships11,
+  ...thesisSupervisorRelationships12,
+  ...atlasWangRelationships,
+  ...atlasWangLineageAuditRelationships,
+  ...atlasWangIndustryAuditCollaborationRelationships,
+  ...yiMaNetworkRelationships,
+  ...zongNetworkRelationships,
+  ...leadershipNetworkRelationships,
+  ...tieniuTanNetworkRelationships,
+  ...seniorCoreNetworkRelationships,
+  ...influencePriorityRelationships,
+  ...wuFengNetworkRelationships,
+  ...influenceQueueUsCanadaRelationships,
+  ...influenceQueueEuropeRelationships,
+  ...influenceQueueUsCanadaRelationships2,
+  ...influenceQueueAsiaRelationships,
+  ...influenceQueueAsiaFinalRelationships,
+  ...influenceQueueUsResidualARelationships,
+  ...influenceQueueUsCanadaRelationships3,
+  ...influenceQueueUsTengyuFinalRelationships,
+  ...influenceQueueCanadaFinalRelationships,
+  ...influenceQueueUsFinalRelationships,
 ];
 
 export const relationships: Relationship[] = relationshipsBeforeLegacyMigration
@@ -984,6 +1131,67 @@ export const relationships: Relationship[] = relationshipsBeforeLegacyMigration
     from: canonicalLegacyPersonIds[relationship.from] ?? relationship.from,
     to: canonicalLegacyPersonIds[relationship.to] ?? relationship.to,
   }));
+
+export type AdviserEvidenceAuditRecord = {
+  personId: string;
+  status: "verified" | "doctoral_record_without_named_supervisor" | "pending_first_party_verification";
+  relationshipIds: string[];
+  /** First-party pages to inspect next; presence does not itself prove an adviser relationship. */
+  reviewSources: Source[];
+  note?: string;
+};
+
+const adviserRelationshipSubtypes = new Set<RelationshipSubtype>([
+  "phd_adviser",
+  "co_adviser",
+  "master_adviser",
+  "postdoc_mentor",
+]);
+const auditedDoctoralRecords = new Map(thesisSupervisorAudit.map((record) => [record.personId, record]));
+const adviserRelationshipsByTarget = new Map<string, Relationship[]>();
+relationships.forEach((relationship) => {
+  if (relationship.from === relationship.to || !adviserRelationshipSubtypes.has(relationshipSubtypeOf(relationship))) return;
+  adviserRelationshipsByTarget.set(relationship.to, [...(adviserRelationshipsByTarget.get(relationship.to) ?? []), relationship]);
+});
+
+/**
+ * Full-population adviser audit ledger. Every visible person has a machine-readable
+ * state, while only first-party-verifiable records are allowed to become graph
+ * edges. `pending_first_party_verification` means unknown, never "no adviser".
+ */
+export const adviserEvidenceAudit: AdviserEvidenceAuditRecord[] = people.map((person) => {
+  const verifiedRelationships = adviserRelationshipsByTarget.get(person.id) ?? [];
+  const doctoralRecord = auditedDoctoralRecords.get(person.id);
+  const reviewSources = [
+    ...(doctoralRecord ? [doctoralRecord.source] : []),
+    ...person.sources.filter((source) => ["thesis", "cv", "official", "profile"].includes(source.kind)),
+  ].filter((source, index, sources) => sources.findIndex((candidate) => candidate.url === source.url) === index).slice(0, 4);
+
+  if (verifiedRelationships.length) {
+    return {
+      personId: person.id,
+      status: "verified",
+      relationshipIds: verifiedRelationships.map((relationship) => relationship.id),
+      reviewSources,
+    };
+  }
+  if (doctoralRecord?.status === "supervisor_not_publicly_verified") {
+    return {
+      personId: person.id,
+      status: "doctoral_record_without_named_supervisor",
+      relationshipIds: [],
+      reviewSources,
+      note: `已核验 ${doctoralRecord.doctoralInstitution}${doctoralRecord.doctoralYear ? ` ${doctoralRecord.doctoralYear} 年` : ""}博士记录，但现有一手页面未具名导师。`,
+    };
+  }
+  return {
+    personId: person.id,
+    status: "pending_first_party_verification",
+    relationshipIds: [],
+    reviewSources,
+    note: "待从博士论文、学位库、本人 CV 或导师官方毕业生名录核验；不把缺边解释为没有导师。",
+  };
+});
 
 export const coverage = [
   { region: "Singapore" as Region, institution: "NUS", core: 4, adjacent: 4, note: "传统 NLP + 多模态/检索；另列 4 位可信 AI、LLM 理论与系统相邻 PI" },
@@ -1057,6 +1265,7 @@ export const industryPathways: IndustryPathway[] = [
   ...mainlandPhase2IndustryPathways,
   ...usIndustryPathways,
   ...europeIndustryPathways,
+  ...atlasWangIndustryAuditPathways,
 ];
 
 const nusNlpAlumni: Source = { label: "NUS NLP Group alumni", url: "https://www.comp.nus.edu.sg/~nlp/people.html", kind: "official" };
@@ -1108,9 +1317,25 @@ export const groupMembers: GroupMember[] = [
   ...canadaWestGroupMembers,
   ...globalP0StrongGroupMembers,
   ...europeGroupMembers,
+  ...atlasWangGroupMembers,
+  ...atlasWangAlumniAuditGroupMembers,
+  ...yiMaNetworkGroupMembers,
+  ...zongNetworkGroupMembers,
+  ...leadershipNetworkGroupMembers,
+  ...influencePriorityGroupMembers,
+  ...wuFengNetworkGroupMembers,
+  ...influenceQueueUsCanadaGroupMembers,
+  ...influenceQueueEuropeGroupMembers,
+  ...influenceQueueUsCanadaGroupMembers2,
+  ...influenceQueueAsiaGroupMembers,
+  ...influenceQueueUsResidualAGroupMembers,
+  ...influenceQueueUsCanadaGroupMembers3,
+  ...influenceQueueUsTengyuFinalGroupMembers,
+  ...influenceQueueCanadaFinalGroupMembers,
+  ...influenceQueueUsFinalGroupMembers,
 ];
 
-export const studentPlacements: StudentPlacement[] = [
+const studentPlacementsBeforeAtlasCorrections: StudentPlacement[] = [
   { id: "ng-chan-bbn", student: "Yee Seng Chan", teacherId: "hwee-tou-ng", company: "Raytheon BBN", role: "Scientist", kind: "first_job", source: nusNlpAlumni },
   { id: "ng-chia-tl", student: "Tee Kiah Chia", teacherId: "hwee-tou-ng", company: "Temasek Labs", role: "Research Scientist", kind: "first_job", source: nusNlpAlumni },
   { id: "ng-zhao-elance", student: "Shanheng Zhao", teacherId: "hwee-tou-ng", company: "Elance", role: "Senior Software Engineer", kind: "first_job", highLevel: true, source: nusNlpAlumni },
@@ -1176,4 +1401,27 @@ export const studentPlacements: StudentPlacement[] = [
   ...canadaWestStudentPlacements,
   ...globalP0StrongPlacements,
   ...europeStudentPlacements,
+  ...atlasWangStudentPlacements,
+  ...atlasWangAlumniAuditStudentPlacements,
+  ...yiMaNetworkPlacements,
+  ...zongNetworkPlacements,
+  ...leadershipNetworkPlacements,
+  ...tieniuTanNetworkPlacements,
+  ...seniorCoreNetworkPlacements,
+  ...influencePriorityPlacements,
+  ...wuFengNetworkPlacements,
+  ...influenceQueueUsCanadaPlacements,
+  ...influenceQueueEuropePlacements,
+  ...influenceQueueUsCanadaPlacements2,
+  ...influenceQueueAsiaPlacements,
+  ...influenceQueueUsResidualAPlacements,
+  ...influenceQueueUsCanadaPlacements3,
+  ...influenceQueueUsTengyuFinalPlacements,
+  ...influenceQueueCanadaFinalPlacements,
+  ...influenceQueueUsFinalPlacements,
 ];
+
+export const studentPlacements: StudentPlacement[] = studentPlacementsBeforeAtlasCorrections.map((placement) => ({
+  ...placement,
+  ...(atlasWangExistingPlacementCorrections[placement.id] ?? {}),
+}));

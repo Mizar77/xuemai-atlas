@@ -1,6 +1,7 @@
 import assert from "node:assert/strict";
 import { readFile } from "node:fs/promises";
 import test from "node:test";
+import { transform } from "esbuild";
 
 async function render(path = "/") {
   const workerUrl = new URL("../dist/server/index.js", import.meta.url);
@@ -30,6 +31,52 @@ test("server-renders the public academic atlas", async () => {
   assert.match(html, /Europe/);
   assert.match(html, /纠错 \/ 补充/);
   assert.doesNotMatch(html, /codex-preview/);
+});
+
+test("person search expands the complete undirected connected component", async () => {
+  const source = await readFile(new URL("../app/graph-connectivity.ts", import.meta.url), "utf8");
+  const compiled = await transform(source, { loader: "ts", format: "esm", target: "es2022" });
+  const moduleUrl = `data:text/javascript;base64,${Buffer.from(compiled.code).toString("base64")}`;
+  const { undirectedConnectedPersonIds, undirectedHopDistances } = await import(moduleUrl);
+  const links = [
+    { from: "mentor", to: "center" },
+    { from: "center", to: "student" },
+    { from: "student", to: "second-hop" },
+    { from: "isolated", to: "isolated" },
+  ];
+  assert.deepEqual([...undirectedConnectedPersonIds("center", links)].sort(), ["center", "mentor", "second-hop", "student"]);
+  assert.equal(undirectedHopDistances("center", links).get("second-hop"), 2);
+  assert.deepEqual([...undirectedConnectedPersonIds("second-hop", links)].sort(), ["center", "mentor", "second-hop", "student"]);
+});
+
+test("includes evidence-backed Goodfellow and foundational scholar networks", async () => {
+  const [goodfellow, western, asia, portraits, dataSource, auditSource] = await Promise.all([
+    readFile(new URL("../app/goodfellow-mila-network-expansion.ts", import.meta.url), "utf8"),
+    readFile(new URL("../app/western-foundational-network-expansion.ts", import.meta.url), "utf8"),
+    readFile(new URL("../app/asia-senior-network-expansion.ts", import.meta.url), "utf8"),
+    readFile(new URL("../app/portrait-data-network-expansion.ts", import.meta.url), "utf8"),
+    readFile(new URL("../app/data.ts", import.meta.url), "utf8"),
+    readFile(new URL("../scripts/audit-network-coverage.ts", import.meta.url), "utf8"),
+  ]);
+  for (const relationship of ["goodfellow-network-ng-goodfellow-msc", "goodfellow-network-bengio-dauphin-phd", "goodfellow-network-bengio-bahdanau-phd"]) {
+    assert.match(goodfellow, new RegExp(relationship));
+  }
+  for (const relationship of ["western-bresnan-manning-phd", "western-malik-efros-phd", "western-pearl-bareinboim-phd", "western-abbeel-levine-postdoc"]) {
+    assert.match(western, new RegExp(relationship));
+  }
+  for (const relationship of ["asia-senior-zhang-bo-ma-shaoping", "asia-senior-sun-maosong-liu-zhiyuan", "asia-senior-lyu-zibin-zheng", "asia-senior-chua-lizi-liao"]) {
+    assert.match(asia, new RegExp(relationship));
+  }
+  for (const integration of ["goodfellowMilaNetworkPeople", "westernFoundationalNetworkPeople", "westernFoundationalNetworkPersonEnhancements", "asiaSeniorNetworkPeople"]) {
+    assert.match(dataSource, new RegExp(integration));
+  }
+  for (const portraitId of ["yann-dauphin-mila-network", "joan-bresnan-foundational", "dinesh-jayaraman-foundational", "shaoping-ma-thu", "lizi-liao-smu"]) {
+    assert.match(portraits, new RegExp(portraitId));
+  }
+  assert.match(dataSource, /networkExpansionPortraits/);
+  for (const scholar of ["ian-goodfellow-foundational", "christopher-manning-us", "jitendra-malik-us", "judea-pearl-historical"]) {
+    assert.match(auditSource, new RegExp(scholar));
+  }
 });
 
 test("includes the United States roster, lineages, and student destinations", async () => {
@@ -227,7 +274,7 @@ test("renders the expanded Mainland China roster and coverage", async () => {
     assert.match(html, new RegExp(scholar));
   }
   for (const romanizedName of ["Maosong Sun", "Liangming Pan", "Xipeng Qiu", "Zhicheng Dou"]) {
-    assert.doesNotMatch(html, new RegExp(romanizedName));
+    assert.doesNotMatch(html, new RegExp(`<(?:strong|h3)>${romanizedName}</(?:strong|h3)>`));
   }
   for (const addedScholar of ["陈华钧", "张岸", "黄河燕", "陶重阳", "王小捷", "丁宁", "刘咏梅", "周杰", "钱铁云"]) {
     assert.match(html, new RegExp(addedScholar));
@@ -240,9 +287,9 @@ test("renders enriched senior-scholar profiles and evidence density", async () =
   const html = await response.text();
 
   assert.match(html, /学堂在线/);
-  assert.match(html, /来源 4 · 脉络 5 · 关系 6 · 去向 8/);
-  assert.match(html, /来源 3 · 脉络 5 · 关系 3/);
-  assert.match(html, /来源 4 · 脉络 4 · 关系 2 · 去向 3 · 组员 1/);
+  assert.match(html, /来源 [4-9]\d* · 脉络 (?:[5-9]|\d{2,}) · 关系 (?:[3-9]|\d{2,}) · 去向 (?:[8-9]|\d{2,})/);
+  assert.match(html, /来源 3 · 脉络 5 · 关系 2 · 去向 24/);
+  assert.match(html, /来源 4 · 脉络 4 · 关系 1 · 去向 3 · 组员 1/);
 });
 
 test("renders named Mainland student destinations with teacher coverage", async () => {

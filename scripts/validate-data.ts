@@ -85,6 +85,17 @@ for (const person of people) {
     assert((person.facts?.length ?? 0) >= 3, `Primary PI ${person.id} has fewer than three profile facts`);
     assert(Boolean(person.lastVerifiedAt), `Primary PI ${person.id} has not been reviewed`);
   }
+
+  if (person.introducedAt) {
+    const factLabels = new Set((person.facts ?? []).map((fact) => fact.label));
+    assert(person.sources.length >= 2, `New person ${person.id} has fewer than two public sources`);
+    assert((person.facts?.length ?? 0) >= 4, `New person ${person.id} has fewer than four profile facts`);
+    assert(Boolean(person.lastVerifiedAt), `New person ${person.id} has not been reviewed`);
+    assert(Boolean(person.portrait), `New person ${person.id} is missing a verified portrait`);
+    assert(factLabels.has("当前任职"), `New person ${person.id} is missing current-role evidence`);
+    assert(factLabels.has("研究主线"), `New person ${person.id} is missing research-topic evidence`);
+    assert(factLabels.has("教育与学术训练"), `New person ${person.id} is missing education/training evidence`);
+  }
 }
 
 const currentPeople = people.filter((person) => person.primary);
