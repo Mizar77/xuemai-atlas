@@ -1,0 +1,246 @@
+{
+  "schemaVersion": 1,
+  "region": "Mainland China",
+  "scope": "Top-school audit ranks 11–20 (Wuhan University through Nankai University)",
+  "reviewedAt": "2026-09-03",
+  "frozenOfficialRosterCount": 2159,
+  "previouslyDecidedCount": 493,
+  "previousDecisionSources": [
+    "data/roster-decisions/hust-cs-2026-09-02.json",
+    "data/roster-decisions/hust-aia-2026-09-02.json",
+    "data/roster-decisions/hust-sse-2026-09-02.json",
+    "data/roster-decisions/nankai-cs-2026-09-02.json",
+    "data/roster-decisions/nankai-ai-2026-09-02.json"
+  ],
+  "batchDecisionCount": 1666,
+  "totalsByDecision": {
+    "included_existing": 18,
+    "include_new_pi": 822,
+    "excluded_non_ai_cs": 199,
+    "excluded_non_pi": 122,
+    "excluded_historical": 137,
+    "excluded_industry_only": 29,
+    "excluded_insufficient_scope_evidence": 339,
+    "pending_profile_verification": 0
+  },
+  "pendingCount": 0,
+  "remainingUncheckedCount": 0,
+  "units": {
+    "whu-cs-rank11-18": {
+      "rank": 11,
+      "institution": "武汉大学",
+      "unitName": "计算机学院",
+      "officialRosterCount": 322,
+      "decisionCount": 322,
+      "counts": {
+        "included_existing": 3,
+        "include_new_pi": 95,
+        "excluded_non_ai_cs": 26,
+        "excluded_non_pi": 60,
+        "excluded_historical": 136,
+        "excluded_industry_only": 0,
+        "excluded_insufficient_scope_evidence": 2,
+        "pending_profile_verification": 0
+      },
+      "outputPath": "data/roster-decisions/mainland-rank11-18-2026-09-03/whu-cs-rank11-18.json"
+    },
+    "whu-ai-rank11-18": {
+      "rank": 11,
+      "institution": "武汉大学",
+      "unitName": "人工智能学院",
+      "officialRosterCount": 122,
+      "decisionCount": 122,
+      "counts": {
+        "included_existing": 1,
+        "include_new_pi": 100,
+        "excluded_non_ai_cs": 1,
+        "excluded_non_pi": 3,
+        "excluded_historical": 0,
+        "excluded_industry_only": 0,
+        "excluded_insufficient_scope_evidence": 17,
+        "pending_profile_verification": 0
+      },
+      "outputPath": "data/roster-decisions/mainland-rank11-18-2026-09-03/whu-ai-rank11-18.json"
+    },
+    "uestc-cs-rank11-18": {
+      "rank": 12,
+      "institution": "电子科技大学",
+      "unitName": "计算机科学与工程学院（网络空间安全学院）",
+      "officialRosterCount": 150,
+      "decisionCount": 150,
+      "counts": {
+        "included_existing": 2,
+        "include_new_pi": 56,
+        "excluded_non_ai_cs": 90,
+        "excluded_non_pi": 2,
+        "excluded_historical": 0,
+        "excluded_industry_only": 0,
+        "excluded_insufficient_scope_evidence": 0,
+        "pending_profile_verification": 0
+      },
+      "outputPath": "data/roster-decisions/mainland-rank11-18-2026-09-03/uestc-cs-rank11-18.json"
+    },
+    "seu-cse-rank11-18": {
+      "rank": 13,
+      "institution": "东南大学",
+      "unitName": "计算机科学与工程学院 / 软件学院 / 人工智能学院",
+      "officialRosterCount": 195,
+      "decisionCount": 195,
+      "counts": {
+        "included_existing": 0,
+        "include_new_pi": 113,
+        "excluded_non_ai_cs": 0,
+        "excluded_non_pi": 4,
+        "excluded_historical": 0,
+        "excluded_industry_only": 0,
+        "excluded_insufficient_scope_evidence": 78,
+        "pending_profile_verification": 0
+      },
+      "outputPath": "data/roster-decisions/mainland-rank11-18-2026-09-03/seu-cse-rank11-18.json"
+    },
+    "sysu-cse-rank11-18": {
+      "rank": 14,
+      "institution": "中山大学",
+      "unitName": "计算机学院",
+      "officialRosterCount": 150,
+      "decisionCount": 150,
+      "counts": {
+        "included_existing": 4,
+        "include_new_pi": 97,
+        "excluded_non_ai_cs": 10,
+        "excluded_non_pi": 37,
+        "excluded_historical": 0,
+        "excluded_industry_only": 0,
+        "excluded_insufficient_scope_evidence": 2,
+        "pending_profile_verification": 0
+      },
+      "outputPath": "data/roster-decisions/mainland-rank11-18-2026-09-03/sysu-cse-rank11-18.json"
+    },
+    "sysu-ai-rank11-18": {
+      "rank": 14,
+      "institution": "中山大学",
+      "unitName": "人工智能学院",
+      "officialRosterCount": 62,
+      "decisionCount": 62,
+      "counts": {
+        "included_existing": 0,
+        "include_new_pi": 31,
+        "excluded_non_ai_cs": 2,
+        "excluded_non_pi": 0,
+        "excluded_historical": 0,
+        "excluded_industry_only": 29,
+        "excluded_insufficient_scope_evidence": 0,
+        "pending_profile_verification": 0
+      },
+      "outputPath": "data/roster-decisions/mainland-rank11-18-2026-09-03/sysu-ai-rank11-18.json"
+    },
+    "buaa-cs-rank11-18": {
+      "rank": 15,
+      "institution": "北京航空航天大学",
+      "unitName": "计算机学院",
+      "officialRosterCount": 80,
+      "decisionCount": 80,
+      "counts": {
+        "included_existing": 3,
+        "include_new_pi": 33,
+        "excluded_non_ai_cs": 44,
+        "excluded_non_pi": 0,
+        "excluded_historical": 0,
+        "excluded_industry_only": 0,
+        "excluded_insufficient_scope_evidence": 0,
+        "pending_profile_verification": 0
+      },
+      "outputPath": "data/roster-decisions/mainland-rank11-18-2026-09-03/buaa-cs-rank11-18.json"
+    },
+    "buaa-ai-rank11-18": {
+      "rank": 15,
+      "institution": "北京航空航天大学",
+      "unitName": "人工智能学院",
+      "officialRosterCount": 58,
+      "decisionCount": 58,
+      "counts": {
+        "included_existing": 1,
+        "include_new_pi": 44,
+        "excluded_non_ai_cs": 8,
+        "excluded_non_pi": 1,
+        "excluded_historical": 0,
+        "excluded_industry_only": 0,
+        "excluded_insufficient_scope_evidence": 4,
+        "pending_profile_verification": 0
+      },
+      "outputPath": "data/roster-decisions/mainland-rank11-18-2026-09-03/buaa-ai-rank11-18.json"
+    },
+    "cuhksz-sds-rank11-18": {
+      "rank": 16,
+      "institution": "香港中文大学（深圳）",
+      "unitName": "数据科学学院",
+      "officialRosterCount": 105,
+      "decisionCount": 105,
+      "counts": {
+        "included_existing": 1,
+        "include_new_pi": 89,
+        "excluded_non_ai_cs": 14,
+        "excluded_non_pi": 0,
+        "excluded_historical": 1,
+        "excluded_industry_only": 0,
+        "excluded_insufficient_scope_evidence": 0,
+        "pending_profile_verification": 0
+      },
+      "outputPath": "data/roster-decisions/mainland-rank11-18-2026-09-03/cuhksz-sds-rank11-18.json"
+    },
+    "bupt-cs-rank11-18": {
+      "rank": 17,
+      "institution": "北京邮电大学",
+      "unitName": "计算机学院",
+      "officialRosterCount": 224,
+      "decisionCount": 224,
+      "counts": {
+        "included_existing": 1,
+        "include_new_pi": 0,
+        "excluded_non_ai_cs": 0,
+        "excluded_non_pi": 0,
+        "excluded_historical": 0,
+        "excluded_industry_only": 0,
+        "excluded_insufficient_scope_evidence": 223,
+        "pending_profile_verification": 0
+      },
+      "outputPath": "data/roster-decisions/mainland-rank11-18-2026-09-03/bupt-cs-rank11-18.json"
+    },
+    "bupt-ai-rank11-18": {
+      "rank": 17,
+      "institution": "北京邮电大学",
+      "unitName": "人工智能学院",
+      "officialRosterCount": 141,
+      "decisionCount": 141,
+      "counts": {
+        "included_existing": 1,
+        "include_new_pi": 112,
+        "excluded_non_ai_cs": 0,
+        "excluded_non_pi": 15,
+        "excluded_historical": 0,
+        "excluded_industry_only": 0,
+        "excluded_insufficient_scope_evidence": 13,
+        "pending_profile_verification": 0
+      },
+      "outputPath": "data/roster-decisions/mainland-rank11-18-2026-09-03/bupt-ai-rank11-18.json"
+    },
+    "szu-ai-rank11-18": {
+      "rank": 18,
+      "institution": "深圳大学",
+      "unitName": "人工智能学院",
+      "officialRosterCount": 57,
+      "decisionCount": 57,
+      "counts": {
+        "included_existing": 1,
+        "include_new_pi": 52,
+        "excluded_non_ai_cs": 4,
+        "excluded_non_pi": 0,
+        "excluded_historical": 0,
+        "excluded_industry_only": 0,
+        "excluded_insufficient_scope_evidence": 0,
+        "pending_profile_verification": 0
+      },
+      "outputPath": "data/roster-decisions/mainland-rank11-18-2026-09-03/szu-ai-rank11-18.json"
+    }
+  }
+}

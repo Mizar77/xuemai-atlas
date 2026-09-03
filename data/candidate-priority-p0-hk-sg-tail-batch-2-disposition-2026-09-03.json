@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-03",
+  "sourceLedger": "data/candidate-priority-p0-master-disposition-2026-09-03.json",
+  "previousCheckpoint": "data/candidate-priority-p0-hk-sg-tail-disposition-2026-09-03.json",
+  "startingRemainingCount": 266,
+  "readyCount": 10,
+  "endingRemainingCount": 256,
+  "endingRemainingCounts": {
+    "Hong Kong": { "missing_relationship": 98, "missing_portrait": 20 },
+    "Singapore": { "missing_relationship": 113, "missing_portrait": 25 }
+  },
+  "records": [
+    { "canonicalKey": "Hong Kong:香港中文大学:jimmyhomanlee", "name": "Jimmy Ho Man Lee", "priorDisposition": "missing_relationship", "disposition": "ready_for_integration", "atlasPersonId": "jimmy-lee-cuhk-p0-tail-b2", "networkEvidence": "CUHK official profile names PhD adviser Maarten van Emden", "portrait": "portraits/candidate-p0-hk-sg-tail-batch-2-2026/jimmy-ho-man-lee.png" },
+    { "canonicalKey": "Hong Kong:香港中文大学:zilishao", "name": "Zili Shao", "priorDisposition": "missing_relationship", "disposition": "ready_for_integration", "atlasPersonId": "zili-shao-cuhk-p0-tail-b2", "networkEvidence": "first-party homepage records exact publications with Tianyu Wang", "portrait": "portraits/candidate-p0-hk-sg-tail-batch-2-2026/zili-shao.png" },
+    { "canonicalKey": "Hong Kong:香港城市大学:makede馬柯德", "name": "Prof MA, Kede 馬柯德", "priorDisposition": "missing_relationship", "disposition": "ready_for_integration", "atlasPersonId": "kede-ma-cityu-p0-tail-b2", "networkEvidence": "CityUHK Scholars supervised-student roster", "portrait": "portraits/candidate-p0-hk-sg-tail-batch-2-2026/kede-ma.png" },
+    { "canonicalKey": "Hong Kong:香港城市大学:liaojing廖菁", "name": "Prof LIAO, Jing 廖菁", "priorDisposition": "missing_relationship", "disposition": "ready_for_integration", "atlasPersonId": "jing-liao-cityu-p0-tail-b2", "networkEvidence": "CityUHK Scholars supervised-student roster", "portrait": "portraits/candidate-p0-hk-sg-tail-batch-2-2026/jing-liao.png" },
+    { "canonicalKey": "Hong Kong:香港城市大学:songlinqi宋林琦", "name": "Prof SONG, Linqi 宋林琦", "priorDisposition": "missing_relationship", "disposition": "ready_for_integration", "atlasPersonId": "linqi-song-cityu-p0-tail-b2", "networkEvidence": "CityUHK Scholars supervised-student roster", "portrait": "portraits/candidate-p0-hk-sg-tail-batch-2-2026/linqi-song.png" },
+    { "canonicalKey": "Singapore:Nanyang Technological University:asstprofzhangmengmi", "name": "Asst Prof Zhang Mengmi", "priorDisposition": "missing_relationship", "disposition": "ready_for_integration", "atlasPersonId": "mengmi-zhang-ntu-p0-tail-b2", "networkEvidence": "NTU official profile names postdoctoral mentor Gabriel Kreiman", "portrait": "portraits/candidate-p0-hk-sg-tail-batch-2-2026/zhang-mengmi.png" },
+    { "canonicalKey": "Singapore:National University of Singapore:ilyasergey", "name": "Ilya SERGEY", "priorDisposition": "missing_relationship", "disposition": "ready_for_integration", "atlasPersonId": "ilya-sergey-nus-p0-tail-b2", "networkEvidence": "first-party student roster and NUS award report", "portrait": "portraits/candidate-p0-hk-sg-tail-batch-2-2026/ilya-sergey.png" },
+    { "canonicalKey": "Singapore:National University of Singapore:surangananayakkara", "name": "Suranga NANAYAKKARA", "priorDisposition": "missing_relationship", "disposition": "ready_for_integration", "atlasPersonId": "suranga-nanayakkara-nus-p0-tail-b2", "networkEvidence": "Augmented Human Lab current team roster", "portrait": "portraits/candidate-p0-hk-sg-tail-batch-2-2026/suranga-nanayakkara.png" },
+    { "canonicalKey": "Singapore:Singapore Management University:hadywlauw", "name": "Hady W. LAUW", "priorDisposition": "missing_relationship", "disposition": "ready_for_integration", "atlasPersonId": "hady-lauw-smu-p0-tail-b2", "networkEvidence": "SMU official research-adviser roster", "portrait": "portraits/candidate-p0-hk-sg-tail-batch-2-2026/hady-lauw.png" },
+    { "canonicalKey": "Singapore:Nanyang Technological University:assocprofkwohcheekeong", "name": "Assoc Prof Kwoh Chee Keong", "priorDisposition": "missing_relationship", "disposition": "ready_for_integration", "atlasPersonId": "kwoh-chee-keong-ntu-p0-tail-b2", "networkEvidence": "NTU official seminar identifies Liu Chen as supervised PhD student", "portrait": "portraits/candidate-p0-hk-sg-tail-batch-2-2026/kwoh-chee-keong.png" }
+  ]
+}

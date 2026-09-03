@@ -1,0 +1,34 @@
+{
+  "generatedAt": "2026-09-03",
+  "scope": "Europe P0 batch 15 checkpoint",
+  "qualityGate": "current independent PI + two sources + 3-5 sourced facts including education + reliable 512 portrait + verified relationship or named group member",
+  "resolved": {
+    "count": 7,
+    "people": [
+      { "name": "Javier Esparza", "canonicalKey": "Europe:Technical University of Munich:franciscojavieresparzaestaun", "atlasPersonId": "javier-esparza-tum-p0-2026", "networkEvidence": "official current/past doctoral-student roster", "portrait": "official TUM portrait" },
+      { "name": "Seyed Jalal Etesami", "canonicalKey": "Europe:Technical University of Munich:seyedjalaletesami", "atlasPersonId": "jalal-etesami-tum-p0-2026", "networkEvidence": "EPFL appointment interview names PhD adviser Negar Kiyavash", "portrait": "official TUM portrait" },
+      { "name": "Yannis Chronis", "canonicalKey": "Europe:ETH Zurich:yannischronis", "atlasPersonId": "yannis-chronis-eth-p0-2026", "networkEvidence": "personal page names PhD adviser Jignesh Patel", "portrait": "academic homepage portrait" },
+      { "name": "Alessandro Chiesa", "canonicalKey": "Europe:EPFL:alessandrochiesa", "atlasPersonId": "alessandro-chiesa-epfl-p0-2026", "networkEvidence": "EPFL page names current PhD student Zijing Di", "portrait": "EPFL People portrait" },
+      { "name": "George Candea", "canonicalKey": "Europe:EPFL:georgecandea", "atlasPersonId": "george-candea-epfl-p0-2026", "networkEvidence": "EPFL page names former PhD student Stefan Bucur", "portrait": "EPFL People portrait" },
+      { "name": "Martin Odersky", "canonicalKey": "Europe:EPFL:martinodersky", "atlasPersonId": "martin-odersky-epfl-p0-2026", "networkEvidence": "EPFL page names current PhD student Matthieu Bovel", "portrait": "EPFL People portrait" },
+      { "name": "Patrick Thiran", "canonicalKey": "Europe:EPFL:patrickthiran", "atlasPersonId": "patrick-thiran-epfl-p0-2026", "networkEvidence": "EPFL page names current PhD student Sepehr Elahi", "portrait": "EPFL People portrait" }
+    ]
+  },
+  "remainingRelationshipBlockers": {
+    "count": 3,
+    "people": [
+      { "name": "Florian Bruse", "blocker": "TUM directory asset is a generic person SVG; no named adviser/student/team edge was verified in the checked first-party pages." },
+      { "name": "Marie-Christine Düker", "blocker": "Current statistics professor profile is available, but no named first-party adviser/student/team edge has passed manual verification." },
+      { "name": "V. Spors", "blocker": "Frozen roster record is abbreviated and points to a news page plus generic person SVG; identity, portrait, and named network edge remain unresolved." }
+    ]
+  },
+  "remainingPortraitAndProfileBlockers": {
+    "count": 189,
+    "note": "The legacy disposition label is retained for queue precedence. Many have a downloaded candidate image, but still require manual source-to-claim verification of education and a named network record before publication. No gate was relaxed."
+  },
+  "artifacts": {
+    "module": "app/candidate-priority-p0-europe-batch-15-2026.ts",
+    "audit": "scripts/audit-candidate-priority-p0-europe-batch-15-2026.mjs",
+    "portraits": "public/portraits/candidate-p0-europe-batch-15-2026/"
+  }
+}

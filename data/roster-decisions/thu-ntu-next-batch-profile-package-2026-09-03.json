@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "reviewedAt": "2026-09-03",
+  "scope": "Standalone high-confidence expansion selected from the four-unit THU CS, THU Automation, THU AIR and NTU CCDS decision batch.",
+  "module": "app/thu-ntu-next-batch-pi-expansion-2026.ts",
+  "portraitDirectory": "public/portraits/thu-ntu-next-batch-2026",
+  "readyCount": 15,
+  "ready": [
+    { "id": "guoliang-li-thu", "name": "李国良", "unit": "THU CS" },
+    { "id": "juanzi-li-thu", "name": "李涓子", "unit": "THU CS" },
+    { "id": "jianyong-wang-thu", "name": "王建勇", "unit": "THU CS" },
+    { "id": "yuxiao-dong-thu", "name": "董宇啸", "unit": "THU CS" },
+    { "id": "lei-hou-thu", "name": "侯磊", "unit": "THU CS" },
+    { "id": "yongjin-liu-thu", "name": "刘永进", "unit": "THU CS" },
+    { "id": "wenwu-zhu-thu", "name": "朱文武", "unit": "THU CS" },
+    { "id": "hang-su-thu", "name": "苏航", "unit": "THU CS" },
+    { "id": "changshui-zhang-thu", "name": "张长水", "unit": "THU Automation" },
+    { "id": "xuegong-zhang-thu", "name": "张学工", "unit": "THU Automation" },
+    { "id": "jie-zhou-thu-auto", "name": "周杰", "unit": "THU Automation" },
+    { "id": "jiwen-lu-thu", "name": "鲁继文", "unit": "THU Automation" },
+    { "id": "xiangyang-ji-thu", "name": "季向阳", "unit": "THU Automation" },
+    { "id": "yebin-liu-thu", "name": "刘烨斌", "unit": "THU Automation" },
+    { "id": "zaiqing-nie-air", "name": "聂再清", "unit": "THU AIR" }
+  ],
+  "relationshipPolicy": "No relationship edge is emitted until both endpoints have graph nodes. First-party adviser, alumni and industry evidence is retained in sourced person facts.",
+  "firstPartyRelationshipFacts": [
+    "聂再清官方 AIR 页面明确写明其 ASU 博士导师为 Subbarao Kambhampati。",
+    "周杰官方自动化系页面明确列出受其指导并获优秀博士论文荣誉的陈芳林、代季峰、胡瀚。",
+    "董宇啸、王建勇、刘烨斌与聂再清的官方页面给出可核验产业任职、项目或合作连接。"
+  ],
+  "deferredCount": 4,
+  "deferred": [
+    { "name": "Haixin DUAN", "unit": "THU CS", "reason": "官方卡片缺少足以确认独立 PI 身份的职称。" },
+    { "name": "刘莉扬", "unit": "THU Automation", "reason": "冻结名录没有职称字段，官方个人页未能抽取独立 PI 职称。" },
+    { "name": "赵峰", "unit": "THU AIR", "reason": "位于教授/研究员分组，但官方卡片缺少职称。" },
+    { "name": "Asst Prof Hai Dang Dau", "unit": "NTU CCDS", "reason": "冻结官方目录未给研究关键词，需核验个人页后判断研究范围。" }
+  ]
+}

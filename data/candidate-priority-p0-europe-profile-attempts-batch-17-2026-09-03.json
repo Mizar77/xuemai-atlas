@@ -1,0 +1,55 @@
+{
+  "generatedAt": "2026-09-03",
+  "scope": "Europe P0 batch 17 checkpoint",
+  "qualityGate": "current independent PI + two sources + 3-5 sourced facts including education + reliable 512 portrait + verified relationship or named group member",
+  "resolved": {
+    "count": 5,
+    "people": [
+      {
+        "name": "Anne-Marie Kermarrec",
+        "canonicalKey": "Europe:EPFL:annemariekermarrec",
+        "atlasPersonId": "anne-marie-kermarrec-epfl-p0-2026",
+        "networkEvidence": "EPFL People page names Maxime Jacovella and four additional current PhD students",
+        "portrait": "EPFL People portrait"
+      },
+      {
+        "name": "Bryan Ford",
+        "canonicalKey": "Europe:EPFL:bryanford",
+        "atlasPersonId": "bryan-ford-epfl-p0-2026",
+        "networkEvidence": "EPFL People page names Shailesh Mishra, Ant Srikanth and Haoqian Zhang as current PhD students",
+        "portrait": "EPFL People portrait"
+      },
+      {
+        "name": "Mathias Payer",
+        "canonicalKey": "Europe:EPFL:mathiasjosefpayer",
+        "atlasPersonId": "mathias-payer-epfl-p0-2026",
+        "networkEvidence": "EPFL People page and CV name current and former PhD students; CV also names PhD adviser Thomas R. Gross",
+        "portrait": "EPFL People portrait"
+      },
+      {
+        "name": "Rachid Guerraoui",
+        "canonicalKey": "Europe:EPFL:rachidguerraoui",
+        "atlasPersonId": "rachid-guerraoui-epfl-p0-2026",
+        "networkEvidence": "EPFL People and DCL pages provide a large doctoral roster plus academic and industry placements",
+        "portrait": "EPFL People portrait"
+      },
+      {
+        "name": "Viktor Kunčak",
+        "canonicalKey": "Europe:EPFL:viktorkuncak",
+        "atlasPersonId": "viktor-kuncak-epfl-p0-2026",
+        "networkEvidence": "EPFL People page states at least 15 completed PhD theses and names current doctoral students",
+        "portrait": "EPFL People portrait"
+      }
+    ]
+  },
+  "remainingPortraitAndProfileBlockers": {
+    "count": 182,
+    "note": "Each remaining record still requires an attributable portrait plus manual verification of education and a named network record. Existing downloaded files are treated as candidates until source-to-person attribution passes review."
+  },
+  "artifacts": {
+    "module": "app/candidate-priority-p0-europe-batch-17-2026.ts",
+    "audit": "scripts/audit-candidate-priority-p0-europe-batch-17-2026.mjs",
+    "portraits": "public/portraits/candidate-p0-europe-batch-17-2026/",
+    "disposition": "data/candidate-priority-p0-europe-remaining-disposition-2026-09-03.json"
+  }
+}

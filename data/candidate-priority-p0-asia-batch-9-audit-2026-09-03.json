@@ -1,0 +1,61 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-03",
+  "module": "app/candidate-priority-p0-asia-batch-9-2026.ts",
+  "candidateCount": 8,
+  "readyCount": 8,
+  "failedCount": 0,
+  "relationshipCount": 8,
+  "placementCount": 0,
+  "groupMemberCount": 0,
+  "portraitCount": 8,
+  "rosterPromotionCount": 8,
+  "qualityGate": {
+    "currentIndependentPi": true,
+    "minimumDistinctSources": 2,
+    "minimumSourcedFacts": 3,
+    "maximumSourcedFacts": 5,
+    "educationFactRequired": true,
+    "portraitDimensions": "512x512",
+    "networkEvidenceRequired": true,
+    "relationshipEndpointsRequired": true,
+    "manualPortraitQa": true
+  },
+  "ready": [
+    "Mainland China:清华大学:mingshengying",
+    "Mainland China:清华大学:minzhang",
+    "Mainland China:清华大学:haizhouai",
+    "Mainland China:清华大学:xiaolinhu",
+    "Mainland China:清华大学:songhaizhang",
+    "Mainland China:清华大学:兰艳艳",
+    "Mainland China:北京大学:张铭",
+    "Singapore:National University of Singapore:simmongchengterence"
+  ],
+  "relationshipSummary": {
+    "publication": 8,
+    "directionNotes": "All edges represent one specific coauthored publication listed on the candidate's official faculty profile; no long-term collaboration is inferred."
+  },
+  "remainingAsiaP0Disposition": {
+    "total": 1181,
+    "readyInThisBatch": 8,
+    "duplicate": 0,
+    "missingPortrait": 703,
+    "missingRelationship": 470,
+    "unresolvedAfterThisBatch": 1173
+  },
+  "deferred": [
+    {
+      "canonicalKey": "Singapore:National University of Singapore:liuyuejiang",
+      "reason": "NUS profile currently describes an incoming Assistant Professor who is still a Stanford postdoctoral fellow; deferred until the independent appointment is unambiguously active."
+    },
+    {
+      "canonicalKey": "Hong Kong:香港科技大学:chaojianli",
+      "reason": "Official profile identifies Yingyan Lin as PhD adviser, but that endpoint is not yet in the atlas; adding it requires a separate full-quality endpoint package."
+    }
+  ],
+  "notes": [
+    "All eight portraits came from official university profile pages, were converted to exact 512x512 local assets, and were manually checked for identity and framing.",
+    "All eight new IDs were checked against the integrated atlas; every relationship endpoint resolves against the atlas plus this module.",
+    "The latest queue snapshot already excludes integrated Batch 8, reducing the Asia P0 total from 1,190 to 1,181 before Batch 9 publication."
+  ]
+}

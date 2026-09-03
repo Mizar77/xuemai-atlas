@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-03",
+  "sourceLedger": "data/candidate-priority-p0-master-disposition-2026-09-03.json",
+  "scope": "P0 candidates in Hong Kong or Singapore whose starting disposition is missing_portrait or missing_relationship",
+  "inputCount": 276,
+  "inputCounts": {
+    "Hong Kong": { "missing_relationship": 108, "missing_portrait": 20 },
+    "Singapore": { "missing_relationship": 123, "missing_portrait": 25 }
+  },
+  "readyCount": 10,
+  "remainingCount": 266,
+  "remainingCounts": {
+    "Hong Kong": { "missing_relationship": 103, "missing_portrait": 20 },
+    "Singapore": { "missing_relationship": 118, "missing_portrait": 25 }
+  },
+  "records": [
+    { "canonicalKey": "Hong Kong:香港中文大学:chiwingfu", "name": "Chi Wing Fu", "priorDisposition": "missing_relationship", "disposition": "ready_for_integration", "atlasPersonId": "chi-wing-fu-cuhk-p0-tail", "networkEvidence": "current PhD student plus public alumni placements", "portrait": "portraits/candidate-p0-hk-sg-tail-2026/chi-wing-fu.png" },
+    { "canonicalKey": "Hong Kong:香港中文大学:patrickpclee", "name": "Patrick P. C. Lee", "priorDisposition": "missing_relationship", "disposition": "ready_for_integration", "atlasPersonId": "patrick-lee-cuhk-p0-tail", "networkEvidence": "current graduate student plus public alumni placements", "portrait": "portraits/candidate-p0-hk-sg-tail-2026/patrick-lee.png" },
+    { "canonicalKey": "Hong Kong:香港中文大学:qiangxu", "name": "Qiang Xu", "priorDisposition": "missing_relationship", "disposition": "ready_for_integration", "atlasPersonId": "qiang-xu-cuhk-p0-tail", "networkEvidence": "official research-group member", "portrait": "portraits/candidate-p0-hk-sg-tail-2026/qiang-xu.png" },
+    { "canonicalKey": "Hong Kong:香港中文大学:yuanyixuan袁奕萱", "name": "Prof YUAN, Yixuan 袁奕萱", "priorDisposition": "missing_relationship", "disposition": "ready_for_integration", "atlasPersonId": "yixuan-yuan-cuhk-p0-tail", "networkEvidence": "official group student and named academic mentors", "portrait": "portraits/candidate-p0-hk-sg-tail-2026/yixuan-yuan.png" },
+    { "canonicalKey": "Hong Kong:香港中文大学:shengchaoliu", "name": "Shengchao Liu", "priorDisposition": "missing_relationship", "disposition": "ready_for_integration", "atlasPersonId": "shengchao-liu-cuhk-p0-tail", "networkEvidence": "first-party named PhD adviser and postdoctoral mentors", "portrait": "portraits/candidate-p0-hk-sg-tail-2026/shengchao-liu.png" },
+    { "canonicalKey": "Singapore:Nanyang Technological University:assocprofyingzhenli", "name": "Assoc Prof Yingzhen Li", "priorDisposition": "missing_relationship", "disposition": "ready_for_integration", "atlasPersonId": "yingzhen-li-ntu-p0-tail", "networkEvidence": "current PhD student plus public alumnus placement", "portrait": "portraits/candidate-p0-hk-sg-tail-2026/yingzhen-li.png" },
+    { "canonicalKey": "Singapore:Nanyang Technological University:assocprofyuhan", "name": "Assoc Prof Yu Han", "priorDisposition": "missing_relationship", "disposition": "ready_for_integration", "atlasPersonId": "yu-han-ntu-p0-tail", "networkEvidence": "first-party current PhD student", "portrait": "portraits/candidate-p0-hk-sg-tail-2026/yu-han.png" },
+    { "canonicalKey": "Singapore:Nanyang Technological University:asstprofalvinchanguowei", "name": "Asst Prof Alvin Chan Guo Wei", "priorDisposition": "missing_relationship", "disposition": "ready_for_integration", "atlasPersonId": "alvin-chan-ntu-p0-tail", "networkEvidence": "CV-named PhD adviser and postdoctoral mentor", "portrait": "portraits/candidate-p0-hk-sg-tail-2026/alvin-chan.png" },
+    { "canonicalKey": "Singapore:National University of Singapore:anjiliu", "name": "Anji LIU", "priorDisposition": "missing_relationship", "disposition": "ready_for_integration", "atlasPersonId": "anji-liu-nus-p0-tail", "networkEvidence": "UCLA official PhD-adviser record", "portrait": "portraits/candidate-p0-hk-sg-tail-2026/anji-liu.png" },
+    { "canonicalKey": "Singapore:National University of Singapore:chentsuhan", "name": "CHEN Tsuhan", "priorDisposition": "missing_relationship", "disposition": "ready_for_integration", "atlasPersonId": "tsuhan-chen-nus-p0-tail", "networkEvidence": "Cornell-hosted advisee PhD thesis", "portrait": "portraits/candidate-p0-hk-sg-tail-2026/tsuhan-chen.png" }
+  ]
+}

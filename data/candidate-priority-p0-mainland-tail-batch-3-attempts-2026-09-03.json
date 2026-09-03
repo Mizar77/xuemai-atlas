@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-03",
+  "batch": "candidate-priority-p0-mainland-tail-batch-3-2026",
+  "attempts": [
+    {
+      "name": "徐华", "masterName": "Hua XU",
+      "checked": ["https://www.cs.tsinghua.edu.cn/csen/info/1313/4458.htm", "https://www.cs.tsinghua.edu.cn/csen/info/1154/3951.htm", "https://www.cs.tsinghua.edu.cn/csen/Faculty/Full_time_Faculty.htm"],
+      "portrait": "Tsinghua CS official faculty portrait", "relationship": "Official publication list records coauthorship with 张钹", "result": "ready"
+    },
+    {
+      "name": "孙季", "masterName": "Ji Sun",
+      "checked": ["https://www.cs.tsinghua.edu.cn/csen/info/1305/4663.htm", "https://dbgroup.cs.tsinghua.edu.cn/ligl/students.html", "https://www.cs.tsinghua.edu.cn/csen/Faculty/Full_time_Faculty.htm"],
+      "portrait": "Tsinghua CS official faculty portrait", "relationship": "李国良's student page lists Ji Sun as a 2016-2021 PhD student", "result": "ready"
+    },
+    {
+      "name": "董豪",
+      "checked": ["https://cfcs.pku.edu.cn/english/people/faculty/haodong/index.htm", "https://zsdonghao.github.io/", "https://cs.pku.edu.cn/szdw/jyxl/amz/ALL.htm"],
+      "portrait": "PKU official faculty portrait", "relationship": "PKU CFCS bio names Yike Guo as PhD supervisor", "result": "ready"
+    },
+    {
+      "name": "李彤阳",
+      "checked": ["https://cfcs.pku.edu.cn/english/people/faculty/tongyangli/index.htm", "https://www.tongyangli.com/", "https://www.tongyangli.com/students", "https://drum.lib.umd.edu/items/1d5f279e-6cad-4194-9ec5-cf0b88680dc2/full"],
+      "portrait": "PKU official faculty portrait", "relationship": "UMD dissertation metadata names Andrew M. Childs as adviser", "result": "ready"
+    },
+    {
+      "name": "周迪宇",
+      "checked": ["https://cs.pku.edu.cn/info/1239/3368.htm", "https://zhou-diyu.github.io/", "https://cs.pku.edu.cn/szdw/jyxl/amz/ALL.htm"],
+      "portrait": "PKU official faculty portrait", "relationship": "Personal homepage names Yuval Tamir as PhD adviser", "result": "ready"
+    }
+  ]
+}

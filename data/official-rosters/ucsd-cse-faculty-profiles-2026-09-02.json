@@ -1,0 +1,1446 @@
+{
+  "completeness": "complete",
+  "fetchedAt": "2026-09-02",
+  "institution": "UC San Diego Computer Science and Engineering",
+  "officialPageUrl": "https://cse.ucsd.edu/people/faculty-profiles",
+  "officialDataUrl": "https://cse.ucsd.edu/people/faculty-profiles",
+  "officialRosterCount": 178,
+  "officialSectionCounts": {
+    "Department Leadership": 5,
+    "Faculty": 77,
+    "Continuing Lecturers": 10,
+    "Researchers": 1,
+    "Adjunct": 8,
+    "Affiliated": 45,
+    "Emeritus": 19,
+    "Alumni": 13
+  },
+  "sourcePageSha256": "b9b78fe9113166a4c258650cf94668dc70bb7f743defaaaa01293acfaaa3d443",
+  "sourceDescription": "Every unique profile card in each official Faculty Profiles section; the page has no pager or load-more control. Leadership and category cards are distinct profiles on this snapshot.",
+  "people": [
+    {
+      "officialId": "steven-swanson",
+      "name": "Steven Swanson",
+      "officialSection": "Department Leadership",
+      "sectionRole": "Department Chair",
+      "profileUrl": "https://cse.ucsd.edu/people/faculty-profiles/steven-swanson",
+      "portraitUrl": "https://cse.ucsd.edu/sites/default/files/styles/faculty_profile/public/faculty/UCSD-JacobsSchool-Swanson_Steve-3586-resized-zoomed_0.png?itok=zmkenxxb"
+    },
+    {
+      "officialId": "nadia-polikarpova",
+      "name": "Nadia Polikarpova",
+      "officialSection": "Department Leadership",
+      "sectionRole": "Vice Chair for Graduate Education",
+      "profileUrl": "https://cse.ucsd.edu/people/faculty-profiles/nadia-polikarpova",
+      "portraitUrl": "https://cse.ucsd.edu/sites/default/files/styles/faculty_profile/public/faculty/polikarpova17-115x150.jpg?itok=NWv6Hhiz"
+    },
+    {
+      "officialId": "mia-minnes",
+      "name": "Mia Minnes",
+      "officialSection": "Department Leadership",
+      "sectionRole": "Vice Chair for Undergraduate Education",
+      "profileUrl": "https://cse.ucsd.edu/people/faculty-profiles/mia-minnes",
+      "portraitUrl": "https://cse.ucsd.edu/sites/default/files/styles/faculty_profile/public/faculty/prof-minnes-headshot.jpg?itok=VcFhARkg"
+    },
+    {
+      "officialId": "vineet-bafna",
+      "name": "Vineet Bafna",
+      "officialSection": "Department Leadership",
+      "sectionRole": "Co-Vice Chair for Academic Personnel",
+      "profileUrl": "https://cse.ucsd.edu/people/faculty-profiles/vineet-bafna",
+      "portraitUrl": "https://cse.ucsd.edu/sites/default/files/styles/faculty_profile/public/faculty/bafna17-115x150.jpg?itok=5IM7o45Y"
+    },
+    {
+      "officialId": "leo-porter",
+      "name": "Leo Porter",
+      "officialSection": "Department Leadership",
+      "sectionRole": "Director of Masters Programs",
+      "profileUrl": "https://cse.ucsd.edu/people/faculty-profiles/leo-porter",
+      "portraitUrl": "https://cse.ucsd.edu/sites/default/files/styles/faculty_profile/public/faculty/porterl17-115x150.jpg?itok=5HDRlX3M"
+    },
+    {
+      "officialId": "christine-alvarado",
+      "name": "Christine Alvarado",
+      "officialSection": "Faculty",
+      "sectionRole": "",
+      "profileUrl": "https://cse.ucsd.edu/people/faculty-profiles/christine-alvarado",
+      "portraitUrl": "https://cse.ucsd.edu/sites/default/files/styles/faculty_profile/public/faculty/alvarado17-115x150.jpg?itok=MSu_Ofh1"
+    },
+    {
+      "officialId": "prithviraj-ammanabrolu",
+      "name": "Prithviraj Ammanabrolu",
+      "officialSection": "Faculty",
+      "sectionRole": "",
+      "profileUrl": "https://cse.ucsd.edu/people/faculty-profiles/prithviraj-ammanabrolu",
+      "portraitUrl": "https://cse.ucsd.edu/sites/default/files/styles/faculty_profile/public/faculty/prithviraj-ammanabrolu.jpg?itok=VAUf00lV"
+    },
+    {
+      "officialId": "nuno-bandeira",
+      "name": "Nuno Bandeira",
+      "officialSection": "Faculty",
+      "sectionRole": "",
+      "profileUrl": "https://cse.ucsd.edu/people/faculty-profiles/nuno-bandeira",
+      "portraitUrl": "https://cse.ucsd.edu/sites/default/files/styles/faculty_profile/public/faculty/bandeira17-115x150.jpg?itok=1ShsCJ7Z"
+    },
+    {
+      "officialId": "mihir-bellare",
+      "name": "Mihir Bellare",
+      "officialSection": "Faculty",
+      "sectionRole": "",
+      "profileUrl": "https://cse.ucsd.edu/people/faculty-profiles/mihir-bellare",
+      "portraitUrl": "https://cse.ucsd.edu/sites/default/files/styles/faculty_profile/public/faculty/bellare17-115x150.jpg?itok=WifZLRox"
+    },
+    {
+      "officialId": "taylor-berg-kirkpatrick",
+      "name": "Taylor Berg-Kirkpatrick",
+      "officialSection": "Faculty",
+      "sectionRole": "",
+      "profileUrl": "https://cse.ucsd.edu/people/faculty-profiles/taylor-berg-kirkpatrick",
+      "portraitUrl": "https://cse.ucsd.edu/sites/default/files/styles/faculty_profile/public/faculty/berg17-115x150_2.png?itok=YYimA_NK"
+    },
+    {
+      "officialId": "trevor-bonjour",
+      "name": "Trevor Bonjour",
+      "officialSection": "Faculty",
+      "sectionRole": "",
+      "profileUrl": "https://cse.ucsd.edu/people/faculty-profiles/trevor-bonjour",
+      "portraitUrl": "https://cse.ucsd.edu/sites/default/files/styles/faculty_profile/public/faculty/bonjour.jpg?itok=vWWuAFpI"
+    },
+    {
+      "officialId": "manmohan-chandraker",
+      "name": "Manmohan Chandraker",
+      "officialSection": "Faculty",
+      "sectionRole": "",
+      "profileUrl": "https://cse.ucsd.edu/people/faculty-profiles/manmohan-chandraker",
+      "portraitUrl": "https://cse.ucsd.edu/sites/default/files/styles/faculty_profile/public/faculty/chandraker17-115x150.jpg?itok=VVG5EBJK"
+    },
+    {
+      "officialId": "kamalika-chaudhuri",
+      "name": "Kamalika Chaudhuri",
+      "officialSection": "Faculty",
+      "sectionRole": "",
+      "profileUrl": "https://cse.ucsd.edu/people/faculty-profiles/kamalika-chaudhuri",
+      "portraitUrl": "https://cse.ucsd.edu/sites/default/files/styles/faculty_profile/public/faculty/chaudhuri17-115x150.jpg?itok=V4iBtAMl"
+    },
+    {
+      "officialId": "c-k-cheng",
+      "name": "C. K. Cheng",
+      "officialSection": "Faculty",
+      "sectionRole": "",
+      "profileUrl": "https://cse.ucsd.edu/people/faculty-profiles/c-k-cheng",
+      "portraitUrl": "https://cse.ucsd.edu/sites/default/files/styles/faculty_profile/public/faculty/cheng17-115x150.jpg?itok=FcJkNSfL"
+    },
+    {
+      "officialId": "albert-chern",
+      "name": "Albert Chern",
+      "officialSection": "Faculty",
+      "sectionRole": "",
+      "profileUrl": "https://cse.ucsd.edu/people/faculty-profiles/albert-chern",
+      "portraitUrl": "https://cse.ucsd.edu/sites/default/files/styles/faculty_profile/public/faculty/chern17-115x150_1.png?itok=e8i3u92S"
+    },
+    {
+      "officialId": "henrik-i-christensen",
+      "name": "Henrik I. Christensen",
+      "officialSection": "Faculty",
+      "sectionRole": "",
+      "profileUrl": "https://cse.ucsd.edu/people/faculty-profiles/henrik-i-christensen",
+      "portraitUrl": "https://cse.ucsd.edu/sites/default/files/styles/faculty_profile/public/faculty/christensen17-115x150.jpg?itok=3A3jK19-"
+    },
+    {
+      "officialId": "michael-coblenz",
+      "name": "Michael Coblenz",
+      "officialSection": "Faculty",
+      "sectionRole": "",
+      "profileUrl": "https://cse.ucsd.edu/people/faculty-profiles/michael-coblenz",
+      "portraitUrl": "https://cse.ucsd.edu/sites/default/files/styles/faculty_profile/public/faculty/coblenz17-115x150.png?itok=K2FHOOBj"
+    },
+    {
+      "officialId": "loris-dantoni",
+      "name": "Loris D'Antoni",
+      "officialSection": "Faculty",
+      "sectionRole": "",
+      "profileUrl": "https://cse.ucsd.edu/people/faculty-profiles/loris-dantoni",
+      "portraitUrl": "https://cse.ucsd.edu/sites/default/files/styles/faculty_profile/public/faculty/dantoni.jpg?itok=U6RLDXIM"
+    },
+    {
+      "officialId": "sanjoy-dasgupta",
+      "name": "Sanjoy Dasgupta",
+      "officialSection": "Faculty",
+      "sectionRole": "",
+      "profileUrl": "https://cse.ucsd.edu/people/faculty-profiles/sanjoy-dasgupta",
+      "portraitUrl": "https://cse.ucsd.edu/sites/default/files/styles/faculty_profile/public/faculty/dasgupta17-115x150.jpg?itok=vmivRR4k"
+    },
+    {
+      "officialId": "alin-deutsch",
+      "name": "Alin Deutsch",
+      "officialSection": "Faculty",
+      "sectionRole": "",
+      "profileUrl": "https://cse.ucsd.edu/people/faculty-profiles/alin-deutsch",
+      "portraitUrl": "https://cse.ucsd.edu/sites/default/files/styles/faculty_profile/public/faculty/deutsch17-115x150_0_0.jpg?itok=xGsWBAr-"
+    },
+    {
+      "officialId": "yufei-ding",
+      "name": "Yufei Ding",
+      "officialSection": "Faculty",
+      "sectionRole": "",
+      "profileUrl": "https://cse.ucsd.edu/people/faculty-profiles/yufei-ding",
+      "portraitUrl": "https://cse.ucsd.edu/sites/default/files/styles/faculty_profile/public/faculty/yufei-ding_0.jpg?itok=xpNuf9I0"
+    },
+    {
+      "officialId": "hadi-esmaeilzadeh",
+      "name": "Hadi Esmaeilzadeh",
+      "officialSection": "Faculty",
+      "sectionRole": "",
+      "profileUrl": "https://cse.ucsd.edu/people/faculty-profiles/hadi-esmaeilzadeh",
+      "portraitUrl": "https://cse.ucsd.edu/sites/default/files/styles/faculty_profile/public/faculty/esmaeilzadeh17-115x150.png?itok=o6T8-KfC"
+    },
+    {
+      "officialId": "earlence-fernandes",
+      "name": "Earlence Fernandes",
+      "officialSection": "Faculty",
+      "sectionRole": "",
+      "profileUrl": "https://cse.ucsd.edu/people/faculty-profiles/earlence-fernandes",
+      "portraitUrl": "https://cse.ucsd.edu/sites/default/files/styles/faculty_profile/public/faculty/fernandez17-115x150.png?itok=0u1qx-Ge"
+    },
+    {
+      "officialId": "yoav-freund",
+      "name": "Yoav Freund",
+      "officialSection": "Faculty",
+      "sectionRole": "",
+      "profileUrl": "https://cse.ucsd.edu/people/faculty-profiles/yoav-freund",
+      "portraitUrl": "https://cse.ucsd.edu/sites/default/files/styles/faculty_profile/public/faculty/freund17-115x150.jpg?itok=EmZL8b5B"
+    },
+    {
+      "officialId": "alex-gantman",
+      "name": "Alex Gantman",
+      "officialSection": "Faculty",
+      "sectionRole": "",
+      "profileUrl": "https://cse.ucsd.edu/people/faculty-profiles/alex-gantman",
+      "portraitUrl": "https://cse.ucsd.edu/sites/default/files/styles/faculty_profile/public/faculty/gantman17-115x150_0.png?itok=I7GoDcfe"
+    },
+    {
+      "officialId": "sicun-gao",
+      "name": "Sicun Gao",
+      "officialSection": "Faculty",
+      "sectionRole": "",
+      "profileUrl": "https://cse.ucsd.edu/people/faculty-profiles/sicun-gao",
+      "portraitUrl": "https://cse.ucsd.edu/sites/default/files/styles/faculty_profile/public/faculty/gao17-115x150.jpg?itok=Z8cAG622"
+    },
+    {
+      "officialId": "daniel-grier",
+      "name": "Daniel Grier",
+      "officialSection": "Faculty",
+      "sectionRole": "",
+      "profileUrl": "https://cse.ucsd.edu/people/faculty-profiles/daniel-grier",
+      "portraitUrl": "https://cse.ucsd.edu/sites/default/files/styles/faculty_profile/public/faculty/grier17-115x150.png?itok=F2zSeukI"
+    },
+    {
+      "officialId": "william-g-griswold",
+      "name": "William G. Griswold",
+      "officialSection": "Faculty",
+      "sectionRole": "",
+      "profileUrl": "https://cse.ucsd.edu/people/faculty-profiles/william-g-griswold",
+      "portraitUrl": "https://cse.ucsd.edu/sites/default/files/styles/faculty_profile/public/faculty/griswold17-115x150.jpg?itok=oAjTwexC"
+    },
+    {
+      "officialId": "rajesh-k-gupta",
+      "name": "Rajesh K. Gupta",
+      "officialSection": "Faculty",
+      "sectionRole": "",
+      "profileUrl": "https://cse.ucsd.edu/people/faculty-profiles/rajesh-k-gupta",
+      "portraitUrl": "https://cse.ucsd.edu/sites/default/files/styles/faculty_profile/public/faculty/gupta17-115x150.jpg?itok=Zb1-D1VD"
+    },
+    {
+      "officialId": "melissa-gymrek",
+      "name": "Melissa Gymrek",
+      "officialSection": "Faculty",
+      "sectionRole": "",
+      "profileUrl": "https://cse.ucsd.edu/people/faculty-profiles/melissa-gymrek",
+      "portraitUrl": "https://cse.ucsd.edu/sites/default/files/styles/faculty_profile/public/faculty/gymrek17-115x150.jpg?itok=BRGniKLm"
+    },
+    {
+      "officialId": "nadia-heninger",
+      "name": "Nadia Heninger",
+      "officialSection": "Faculty",
+      "sectionRole": "",
+      "profileUrl": "https://cse.ucsd.edu/people/faculty-profiles/nadia-heninger",
+      "portraitUrl": "https://cse.ucsd.edu/sites/default/files/styles/faculty_profile/public/faculty/heninger17-115x150_0.png?itok=3w_qepJi"
+    },
+    {
+      "officialId": "russell-impagliazzo",
+      "name": "Russell Impagliazzo",
+      "officialSection": "Faculty",
+      "sectionRole": "",
+      "profileUrl": "https://cse.ucsd.edu/people/faculty-profiles/russell-impagliazzo",
+      "portraitUrl": "https://cse.ucsd.edu/sites/default/files/styles/faculty_profile/public/faculty/impagliazzo17-115x150.jpg?itok=1turFHvY"
+    },
+    {
+      "officialId": "ranjit-jhala",
+      "name": "Ranjit Jhala",
+      "officialSection": "Faculty",
+      "sectionRole": "",
+      "profileUrl": "https://cse.ucsd.edu/people/faculty-profiles/ranjit-jhala",
+      "portraitUrl": "https://cse.ucsd.edu/sites/default/files/styles/faculty_profile/public/faculty/jhala17-115x150.jpg?itok=XRo2gHu3"
+    },
+    {
+      "officialId": "andrew-b-kahng",
+      "name": "Andrew B. Kahng",
+      "officialSection": "Faculty",
+      "sectionRole": "",
+      "profileUrl": "https://cse.ucsd.edu/people/faculty-profiles/andrew-b-kahng",
+      "portraitUrl": "https://cse.ucsd.edu/sites/default/files/styles/faculty_profile/public/faculty/kahng17-115x150.jpg?itok=ifhdDQX2"
+    },
+    {
+      "officialId": "daniel-m-kane",
+      "name": "Daniel M. Kane",
+      "officialSection": "Faculty",
+      "sectionRole": "",
+      "profileUrl": "https://cse.ucsd.edu/people/faculty-profiles/daniel-m-kane",
+      "portraitUrl": "https://cse.ucsd.edu/sites/default/files/styles/faculty_profile/public/faculty/kane17-115x150.jpg?itok=9Sy_cv70"
+    },
+    {
+      "officialId": "ryan-kastner",
+      "name": "Ryan Kastner",
+      "officialSection": "Faculty",
+      "sectionRole": "",
+      "profileUrl": "https://cse.ucsd.edu/people/faculty-profiles/ryan-kastner",
+      "portraitUrl": "https://cse.ucsd.edu/sites/default/files/styles/faculty_profile/public/faculty/kastner17-115x150.jpg?itok=2yzajjEk"
+    },
+    {
+      "officialId": "pradeep-k-khosla",
+      "name": "Pradeep K. Khosla",
+      "officialSection": "Faculty",
+      "sectionRole": "",
+      "profileUrl": "https://cse.ucsd.edu/people/faculty-profiles/pradeep-k-khosla",
+      "portraitUrl": "https://cse.ucsd.edu/sites/default/files/styles/faculty_profile/public/faculty/khosla17-115x150.jpg?itok=CqybUK6i"
+    },
+    {
+      "officialId": "scott-klemmer",
+      "name": "Scott Klemmer",
+      "officialSection": "Faculty",
+      "sectionRole": "",
+      "profileUrl": "https://cse.ucsd.edu/people/faculty-profiles/scott-klemmer",
+      "portraitUrl": "https://cse.ucsd.edu/sites/default/files/styles/faculty_profile/public/faculty/klemmer17-115x150.jpg?itok=kcqz4FV_"
+    },
+    {
+      "officialId": "rob-knight",
+      "name": "Rob Knight",
+      "officialSection": "Faculty",
+      "sectionRole": "",
+      "profileUrl": "https://cse.ucsd.edu/people/faculty-profiles/rob-knight",
+      "portraitUrl": "https://cse.ucsd.edu/sites/default/files/styles/faculty_profile/public/faculty/knight17-115x150.jpg?itok=5DeAIEF7"
+    },
+    {
+      "officialId": "arun-kumar",
+      "name": "Arun Kumar",
+      "officialSection": "Faculty",
+      "sectionRole": "",
+      "profileUrl": "https://cse.ucsd.edu/people/faculty-profiles/arun-kumar",
+      "portraitUrl": "https://cse.ucsd.edu/sites/default/files/styles/faculty_profile/public/faculty/kumar17-115x150.jpg?itok=NuaHWl42"
+    },
+    {
+      "officialId": "deepak-kumar",
+      "name": "Deepak Kumar",
+      "officialSection": "Faculty",
+      "sectionRole": "",
+      "profileUrl": "https://cse.ucsd.edu/people/faculty-profiles/deepak-kumar",
+      "portraitUrl": "https://cse.ucsd.edu/sites/default/files/styles/faculty_profile/public/faculty/deepak-kumar_0.png?itok=JT8azqgY"
+    },
+    {
+      "officialId": "tzu-mao-li",
+      "name": "Tzu-Mao Li",
+      "officialSection": "Faculty",
+      "sectionRole": "",
+      "profileUrl": "https://cse.ucsd.edu/people/faculty-profiles/tzu-mao-li",
+      "portraitUrl": "https://cse.ucsd.edu/sites/default/files/styles/faculty_profile/public/faculty/li-115x150.png?itok=Okry1YaE"
+    },
+    {
+      "officialId": "qipeng-liu",
+      "name": "Qipeng Liu",
+      "officialSection": "Faculty",
+      "sectionRole": "",
+      "profileUrl": "https://cse.ucsd.edu/people/faculty-profiles/qipeng-liu",
+      "portraitUrl": "https://cse.ucsd.edu/sites/default/files/styles/faculty_profile/public/faculty/qipeng17-115x150.png?itok=CnXOr2s6"
+    },
+    {
+      "officialId": "shachar-lovett",
+      "name": "Shachar Lovett",
+      "officialSection": "Faculty",
+      "sectionRole": "",
+      "profileUrl": "https://cse.ucsd.edu/people/faculty-profiles/shachar-lovett",
+      "portraitUrl": "https://cse.ucsd.edu/sites/default/files/styles/faculty_profile/public/faculty/lovett17-115x150.jpg?itok=S_l5Tdut"
+    },
+    {
+      "officialId": "julian-mcauley",
+      "name": "Julian McAuley",
+      "officialSection": "Faculty",
+      "sectionRole": "",
+      "profileUrl": "https://cse.ucsd.edu/people/faculty-profiles/julian-mcauley",
+      "portraitUrl": "https://cse.ucsd.edu/sites/default/files/styles/faculty_profile/public/faculty/mcauley17-115x150.jpg?itok=lqWFql-Y"
+    },
+    {
+      "officialId": "daniele-micciancio",
+      "name": "Daniele Micciancio",
+      "officialSection": "Faculty",
+      "sectionRole": "",
+      "profileUrl": "https://cse.ucsd.edu/people/faculty-profiles/daniele-micciancio",
+      "portraitUrl": "https://cse.ucsd.edu/sites/default/files/styles/faculty_profile/public/faculty/micciancio17-115x150.png?itok=U5q0xq4e"
+    },
+    {
+      "officialId": "niema-moshiri",
+      "name": "Niema Moshiri",
+      "officialSection": "Faculty",
+      "sectionRole": "",
+      "profileUrl": "https://cse.ucsd.edu/people/faculty-profiles/niema-moshiri",
+      "portraitUrl": "https://cse.ucsd.edu/sites/default/files/styles/faculty_profile/public/faculty/moshiri17-115x150_2.png?itok=EBmiAH-W"
+    },
+    {
+      "officialId": "imani-munyaka",
+      "name": "Imani Munyaka",
+      "officialSection": "Faculty",
+      "sectionRole": "",
+      "profileUrl": "https://cse.ucsd.edu/people/faculty-profiles/imani-munyaka",
+      "portraitUrl": "https://cse.ucsd.edu/sites/default/files/styles/faculty_profile/public/faculty/munyaka17-115x150.png?itok=dvOyg7ZW"
+    },
+    {
+      "officialId": "ndapa-nakashole",
+      "name": "Ndapa Nakashole",
+      "officialSection": "Faculty",
+      "sectionRole": "",
+      "profileUrl": "https://cse.ucsd.edu/people/faculty-profiles/ndapa-nakashole",
+      "portraitUrl": "https://cse.ucsd.edu/sites/default/files/styles/faculty_profile/public/faculty/nakashole17-115x150.jpg?itok=CnRBTQ58"
+    },
+    {
+      "officialId": "marc-niethammer",
+      "name": "Marc Niethammer",
+      "officialSection": "Faculty",
+      "sectionRole": "",
+      "profileUrl": "https://cse.ucsd.edu/people/faculty-profiles/marc-niethammer",
+      "portraitUrl": "https://cse.ucsd.edu/sites/default/files/styles/faculty_profile/public/faculty/niethammer.png?itok=zJyAEYQO"
+    },
+    {
+      "officialId": "alex-orailoglu",
+      "name": "Alex Orailoglu",
+      "officialSection": "Faculty",
+      "sectionRole": "",
+      "profileUrl": "https://cse.ucsd.edu/people/faculty-profiles/alex-orailoglu",
+      "portraitUrl": "https://cse.ucsd.edu/sites/default/files/styles/faculty_profile/public/faculty/orailoglu17-115x150.png?itok=uJIhbqVS"
+    },
+    {
+      "officialId": "alon-orlitsky",
+      "name": "Alon Orlitsky",
+      "officialSection": "Faculty",
+      "sectionRole": "",
+      "profileUrl": "https://cse.ucsd.edu/people/faculty-profiles/alon-orlitsky",
+      "portraitUrl": "https://cse.ucsd.edu/sites/default/files/styles/faculty_profile/public/faculty/orlitsky17-115x150.jpg?itok=z5bb9E74"
+    },
+    {
+      "officialId": "amy-ousterhout",
+      "name": "Amy Ousterhout",
+      "officialSection": "Faculty",
+      "sectionRole": "",
+      "profileUrl": "https://cse.ucsd.edu/people/faculty-profiles/amy-ousterhout",
+      "portraitUrl": "https://cse.ucsd.edu/sites/default/files/styles/faculty_profile/public/faculty/AmyOusterhout115x150.png?itok=r268lQ4F"
+    },
+    {
+      "officialId": "pat-pannuto",
+      "name": "Pat Pannuto",
+      "officialSection": "Faculty",
+      "sectionRole": "",
+      "profileUrl": "https://cse.ucsd.edu/people/faculty-profiles/pat-pannuto",
+      "portraitUrl": "https://cse.ucsd.edu/sites/default/files/styles/faculty_profile/public/faculty/pannuto17-115x150_0.png?itok=iztCuYaH"
+    },
+    {
+      "officialId": "ramamohan-paturi",
+      "name": "Ramamohan Paturi",
+      "officialSection": "Faculty",
+      "sectionRole": "",
+      "profileUrl": "https://cse.ucsd.edu/people/faculty-profiles/ramamohan-paturi",
+      "portraitUrl": "https://cse.ucsd.edu/sites/default/files/styles/faculty_profile/public/faculty/paturi17-115x150.png?itok=BU9dMaAb"
+    },
+    {
+      "officialId": "pavel-pevzner",
+      "name": "Pavel A. Pevzner",
+      "officialSection": "Faculty",
+      "sectionRole": "",
+      "profileUrl": "https://cse.ucsd.edu/people/faculty-profiles/pavel-pevzner",
+      "portraitUrl": "https://cse.ucsd.edu/sites/default/files/styles/faculty_profile/public/faculty/pevzner17-115x150.jpg?itok=s0AHqqzP"
+    },
+    {
+      "officialId": "joe-gibbs-politz",
+      "name": "Joe Gibbs Politz",
+      "officialSection": "Faculty",
+      "sectionRole": "",
+      "profileUrl": "https://cse.ucsd.edu/people/faculty-profiles/joe-gibbs-politz",
+      "portraitUrl": "https://cse.ucsd.edu/sites/default/files/styles/faculty_profile/public/faculty/politz17-115x150.jpg?itok=LjeVokXN"
+    },
+    {
+      "officialId": "george-porter",
+      "name": "George Porter",
+      "officialSection": "Faculty",
+      "sectionRole": "",
+      "profileUrl": "https://cse.ucsd.edu/people/faculty-profiles/george-porter",
+      "portraitUrl": "https://cse.ucsd.edu/sites/default/files/styles/faculty_profile/public/faculty/porterg17-115x150.jpg?itok=P20DkBsP"
+    },
+    {
+      "officialId": "lianhui-qin",
+      "name": "Lianhui Qin",
+      "officialSection": "Faculty",
+      "sectionRole": "",
+      "profileUrl": "https://cse.ucsd.edu/people/faculty-profiles/lianhui-qin",
+      "portraitUrl": "https://cse.ucsd.edu/sites/default/files/styles/faculty_profile/public/faculty/lainhui-qin.png?itok=zyps3Unp"
+    },
+    {
+      "officialId": "adalbert-gerald-soosai-raj",
+      "name": "Adalbert Gerald Soosai Raj",
+      "officialSection": "Faculty",
+      "sectionRole": "",
+      "profileUrl": "https://cse.ucsd.edu/people/faculty-profiles/adalbert-gerald-soosai-raj",
+      "portraitUrl": "https://cse.ucsd.edu/sites/default/files/styles/faculty_profile/public/faculty/raj17-115x150_0_0.png?itok=_eg276EB"
+    },
+    {
+      "officialId": "ravi-ramamoorthi",
+      "name": "Ravi Ramamoorthi",
+      "officialSection": "Faculty",
+      "sectionRole": "",
+      "profileUrl": "https://cse.ucsd.edu/people/faculty-profiles/ravi-ramamoorthi",
+      "portraitUrl": "https://cse.ucsd.edu/sites/default/files/styles/faculty_profile/public/faculty/ramamoorthi17-115x150.png?itok=CEQzlvYv"
+    },
+    {
+      "officialId": "laurel-riek",
+      "name": "Laurel Riek",
+      "officialSection": "Faculty",
+      "sectionRole": "",
+      "profileUrl": "https://cse.ucsd.edu/people/faculty-profiles/laurel-riek",
+      "portraitUrl": "https://cse.ucsd.edu/sites/default/files/styles/faculty_profile/public/faculty/riek17-115x150.jpg?itok=GpI22Eil"
+    },
+    {
+      "officialId": "tajana-simunic-rosing",
+      "name": "Tajana Šimunić Rosing",
+      "officialSection": "Faculty",
+      "sectionRole": "",
+      "profileUrl": "https://cse.ucsd.edu/people/faculty-profiles/tajana-simunic-rosing",
+      "portraitUrl": "https://cse.ucsd.edu/sites/default/files/styles/faculty_profile/public/faculty/rosing17-115x150_0.png?itok=iB_Cx_KU"
+    },
+    {
+      "officialId": "barna-saha",
+      "name": "Barna Saha",
+      "officialSection": "Faculty",
+      "sectionRole": "",
+      "profileUrl": "https://cse.ucsd.edu/people/faculty-profiles/barna-saha",
+      "portraitUrl": "https://cse.ucsd.edu/sites/default/files/styles/faculty_profile/public/faculty/saha17-115x150.png?itok=qS2aNb88"
+    },
+    {
+      "officialId": "debashis-sahoo",
+      "name": "Debashis Sahoo",
+      "officialSection": "Faculty",
+      "sectionRole": "",
+      "profileUrl": "https://cse.ucsd.edu/people/faculty-profiles/debashis-sahoo",
+      "portraitUrl": "https://cse.ucsd.edu/sites/default/files/styles/faculty_profile/public/faculty/sahoo17-115x150.jpg?itok=8LYciOaV"
+    },
+    {
+      "officialId": "stefan-savage",
+      "name": "Stefan Savage",
+      "officialSection": "Faculty",
+      "sectionRole": "",
+      "profileUrl": "https://cse.ucsd.edu/people/faculty-profiles/stefan-savage",
+      "portraitUrl": "https://cse.ucsd.edu/sites/default/files/styles/faculty_profile/public/faculty/savage17-115x150.jpg?itok=ubCAhHnV"
+    },
+    {
+      "officialId": "aaron-schulman",
+      "name": "Aaron Schulman",
+      "officialSection": "Faculty",
+      "sectionRole": "",
+      "profileUrl": "https://cse.ucsd.edu/people/faculty-profiles/aaron-schulman",
+      "portraitUrl": "https://cse.ucsd.edu/sites/default/files/styles/faculty_profile/public/faculty/schulman17-115x150_1.jpg?itok=2O3VPvFM"
+    },
+    {
+      "officialId": "hovav-shacham",
+      "name": "Hovav Shacham",
+      "officialSection": "Faculty",
+      "sectionRole": "",
+      "profileUrl": "https://cse.ucsd.edu/people/faculty-profiles/hovav-shacham",
+      "portraitUrl": "https://cse.ucsd.edu/sites/default/files/styles/faculty_profile/public/faculty/shacham17-115x150.jpg?itok=zkJak-Tb"
+    },
+    {
+      "officialId": "jingbo-shang",
+      "name": "Jingbo Shang",
+      "officialSection": "Faculty",
+      "sectionRole": "",
+      "profileUrl": "https://cse.ucsd.edu/people/faculty-profiles/jingbo-shang",
+      "portraitUrl": "https://cse.ucsd.edu/sites/default/files/styles/faculty_profile/public/faculty/shang17-115x150.png?itok=dozHSRj1"
+    },
+    {
+      "officialId": "alex-c-snoeren",
+      "name": "Alex C. Snoeren",
+      "officialSection": "Faculty",
+      "sectionRole": "",
+      "profileUrl": "https://cse.ucsd.edu/people/faculty-profiles/alex-c-snoeren",
+      "portraitUrl": "https://cse.ucsd.edu/sites/default/files/styles/faculty_profile/public/faculty/snoeren17-115x150.jpg?itok=VNMjBIgo"
+    },
+    {
+      "officialId": "deian-stefan",
+      "name": "Deian Stefan",
+      "officialSection": "Faculty",
+      "sectionRole": "",
+      "profileUrl": "https://cse.ucsd.edu/people/faculty-profiles/deian-stefan",
+      "portraitUrl": "https://cse.ucsd.edu/sites/default/files/styles/faculty_profile/public/faculty/stefan217-115x150.jpg?itok=sxU1S-Oe"
+    },
+    {
+      "officialId": "shankar-subramaniam",
+      "name": "Shankar Subramaniam",
+      "officialSection": "Faculty",
+      "sectionRole": "",
+      "profileUrl": "https://cse.ucsd.edu/people/faculty-profiles/shankar-subramaniam",
+      "portraitUrl": "https://cse.ucsd.edu/sites/default/files/styles/faculty_profile/public/faculty/subramaniam17-115x150.jpg?itok=6V7oo5vU"
+    },
+    {
+      "officialId": "dean-m-tullsen",
+      "name": "Dean M. Tullsen",
+      "officialSection": "Faculty",
+      "sectionRole": "",
+      "profileUrl": "https://cse.ucsd.edu/people/faculty-profiles/dean-m-tullsen",
+      "portraitUrl": "https://cse.ucsd.edu/sites/default/files/styles/faculty_profile/public/faculty/tullsen17-115x150.jpg?itok=TBPyv0AZ"
+    },
+    {
+      "officialId": "kristen-vaccaro",
+      "name": "Kristen Vaccaro",
+      "officialSection": "Faculty",
+      "sectionRole": "",
+      "profileUrl": "https://cse.ucsd.edu/people/faculty-profiles/kristen-vaccaro",
+      "portraitUrl": "https://cse.ucsd.edu/sites/default/files/styles/faculty_profile/public/faculty/vaccaro-115x150.png?itok=SCR_9cj1"
+    },
+    {
+      "officialId": "victor-vianu",
+      "name": "Victor Vianu",
+      "officialSection": "Faculty",
+      "sectionRole": "",
+      "profileUrl": "https://cse.ucsd.edu/people/faculty-profiles/victor-vianu",
+      "portraitUrl": "https://cse.ucsd.edu/sites/default/files/styles/faculty_profile/public/faculty/vianu17-115x150.jpg?itok=DArATw-n"
+    },
+    {
+      "officialId": "geoffrey-m-voelker",
+      "name": "Geoffrey M. Voelker",
+      "officialSection": "Faculty",
+      "sectionRole": "",
+      "profileUrl": "https://cse.ucsd.edu/people/faculty-profiles/geoffrey-m-voelker",
+      "portraitUrl": "https://cse.ucsd.edu/sites/default/files/styles/faculty_profile/public/faculty/voelker24-thm.jpg?itok=OpHN44nK"
+    },
+    {
+      "officialId": "thuy-duong-june-vuong",
+      "name": "Thuy-Duong June Vuong",
+      "officialSection": "Faculty",
+      "sectionRole": "",
+      "profileUrl": "https://cse.ucsd.edu/people/faculty-profiles/thuy-duong-june-vuong",
+      "portraitUrl": "https://cse.ucsd.edu/sites/default/files/styles/faculty_profile/public/faculty/vuong115x150.png?itok=7JYCelK4"
+    },
+    {
+      "officialId": "nadir-weibel",
+      "name": "Nadir Weibel",
+      "officialSection": "Faculty",
+      "sectionRole": "",
+      "profileUrl": "https://cse.ucsd.edu/people/faculty-profiles/nadir-weibel",
+      "portraitUrl": "https://cse.ucsd.edu/sites/default/files/styles/faculty_profile/public/faculty/NadirWeibel_Headshot.jpeg?itok=adH_fptq"
+    },
+    {
+      "officialId": "qi-rose-yu",
+      "name": "Qi (Rose) Yu",
+      "officialSection": "Faculty",
+      "sectionRole": "",
+      "profileUrl": "https://cse.ucsd.edu/people/faculty-profiles/qi-rose-yu",
+      "portraitUrl": "https://cse.ucsd.edu/sites/default/files/styles/faculty_profile/public/faculty/yur-115x150.png?itok=VmqwVvIl"
+    },
+    {
+      "officialId": "yiying-zhang",
+      "name": "Yiying Zhang",
+      "officialSection": "Faculty",
+      "sectionRole": "",
+      "profileUrl": "https://cse.ucsd.edu/people/faculty-profiles/yiying-zhang",
+      "portraitUrl": "https://cse.ucsd.edu/sites/default/files/styles/faculty_profile/public/faculty/zhang17-115x150_0.png?itok=rOz9Xs9G"
+    },
+    {
+      "officialId": "jishen-zhao",
+      "name": "Jishen Zhao",
+      "officialSection": "Faculty",
+      "sectionRole": "",
+      "profileUrl": "https://cse.ucsd.edu/people/faculty-profiles/jishen-zhao",
+      "portraitUrl": "https://cse.ucsd.edu/sites/default/files/styles/faculty_profile/public/faculty/zhao17-115x150.jpg?itok=tNg6Msgz"
+    },
+    {
+      "officialId": "yuanyuan-zhou",
+      "name": "Yuanyuan Zhou",
+      "officialSection": "Faculty",
+      "sectionRole": "",
+      "profileUrl": "https://cse.ucsd.edu/people/faculty-profiles/yuanyuan-zhou",
+      "portraitUrl": "https://cse.ucsd.edu/sites/default/files/styles/faculty_profile/public/faculty/zhou17-115x150.jpg?itok=-M63A4o-"
+    },
+    {
+      "officialId": "ilkay-altintas",
+      "name": "İlkay Altıntaş",
+      "officialSection": "Continuing Lecturers",
+      "sectionRole": "",
+      "profileUrl": "https://cse.ucsd.edu/people/faculty-profiles/ilkay-altintas",
+      "portraitUrl": "https://cse.ucsd.edu/sites/default/files/styles/faculty_profile/public/faculty/altinas17-115x150.jpg?itok=PvLdMuGz"
+    },
+    {
+      "officialId": "paul-cao",
+      "name": "Paul Cao",
+      "officialSection": "Continuing Lecturers",
+      "sectionRole": "",
+      "profileUrl": "https://cse.ucsd.edu/people/faculty-profiles/paul-cao",
+      "portraitUrl": "https://cse.ucsd.edu/sites/default/files/styles/faculty_profile/public/faculty/caoF17-115x150.jpg?itok=ifCxcSHq"
+    },
+    {
+      "officialId": "bryan-chin",
+      "name": "Bryan Chin",
+      "officialSection": "Continuing Lecturers",
+      "sectionRole": "",
+      "profileUrl": "https://cse.ucsd.edu/people/faculty-profiles/bryan-chin",
+      "portraitUrl": "https://cse.ucsd.edu/sites/default/files/styles/faculty_profile/public/faculty/chinB17-115x150.jpg?itok=RQGOU8wC"
+    },
+    {
+      "officialId": "john-eldon",
+      "name": "John A. Eldon",
+      "officialSection": "Continuing Lecturers",
+      "sectionRole": "",
+      "profileUrl": "https://cse.ucsd.edu/people/faculty-profiles/john-eldon",
+      "portraitUrl": "https://cse.ucsd.edu/sites/default/files/styles/faculty_profile/public/faculty/eldon17-115x150.jpg?itok=u0x4G0EI"
+    },
+    {
+      "officialId": "taner-halicioglu",
+      "name": "Taner Halicioglu",
+      "officialSection": "Continuing Lecturers",
+      "sectionRole": "",
+      "profileUrl": "https://cse.ucsd.edu/people/faculty-profiles/taner-halicioglu",
+      "portraitUrl": "https://cse.ucsd.edu/sites/default/files/styles/faculty_profile/public/faculty/halicioglu17-115x150.png?itok=npB7742e"
+    },
+    {
+      "officialId": "miles-e-jones",
+      "name": "Miles E. Jones",
+      "officialSection": "Continuing Lecturers",
+      "sectionRole": "",
+      "profileUrl": "https://cse.ucsd.edu/people/faculty-profiles/miles-e-jones",
+      "portraitUrl": "https://cse.ucsd.edu/sites/default/files/styles/faculty_profile/public/faculty/jones17-115x150.jpg?itok=58pp38ur"
+    },
+    {
+      "officialId": "rakesh-kumar",
+      "name": "Rakesh Kumar",
+      "officialSection": "Continuing Lecturers",
+      "sectionRole": "",
+      "profileUrl": "https://cse.ucsd.edu/people/faculty-profiles/rakesh-kumar",
+      "portraitUrl": "https://cse.ucsd.edu/sites/default/files/styles/faculty_profile/public/faculty/kumarr17-115x150_0.jpg?itok=mSaZK3cv"
+    },
+    {
+      "officialId": "benjamin-l-ochoa",
+      "name": "Benjamin L. Ochoa",
+      "officialSection": "Continuing Lecturers",
+      "sectionRole": "",
+      "profileUrl": "https://cse.ucsd.edu/people/faculty-profiles/benjamin-l-ochoa",
+      "portraitUrl": "https://cse.ucsd.edu/sites/default/files/styles/faculty_profile/public/faculty/ochoa17-115x150.jpg?itok=LmmXDJk7"
+    },
+    {
+      "officialId": "thomas-powell",
+      "name": "Thomas A. Powell",
+      "officialSection": "Continuing Lecturers",
+      "sectionRole": "",
+      "profileUrl": "https://cse.ucsd.edu/people/faculty-profiles/thomas-powell",
+      "portraitUrl": "https://cse.ucsd.edu/sites/default/files/styles/faculty_profile/public/faculty/powellF17-115x150.jpg?itok=T-QXI2-r"
+    },
+    {
+      "officialId": "steve-rotenberg",
+      "name": "Steve Rotenberg",
+      "officialSection": "Continuing Lecturers",
+      "sectionRole": "",
+      "profileUrl": "https://cse.ucsd.edu/people/faculty-profiles/steve-rotenberg",
+      "portraitUrl": "https://cse.ucsd.edu/sites/default/files/styles/faculty_profile/public/faculty/blank115x150-2.jpg?itok=DtUO_TTl"
+    },
+    {
+      "officialId": "beth-friedman",
+      "name": "Beth Friedman",
+      "officialSection": "Researchers",
+      "sectionRole": "",
+      "profileUrl": "https://cse.ucsd.edu/people/faculty-profiles/beth-friedman",
+      "portraitUrl": "https://cse.ucsd.edu/sites/default/files/styles/faculty_profile/public/faculty/friedman17-115x150.jpg?itok=3ccn-98E"
+    },
+    {
+      "officialId": "samuel-r-buss",
+      "name": "Samuel R. Buss",
+      "officialSection": "Adjunct",
+      "sectionRole": "",
+      "profileUrl": "https://cse.ucsd.edu/people/faculty-profiles/samuel-r-buss",
+      "portraitUrl": "https://cse.ucsd.edu/sites/default/files/styles/faculty_profile/public/faculty/buss17-115x150.jpg?itok=bYkwoyrk"
+    },
+    {
+      "officialId": "kimberly-c-claffy",
+      "name": "Kimberly C. Claffy",
+      "officialSection": "Adjunct",
+      "sectionRole": "",
+      "profileUrl": "https://cse.ucsd.edu/people/faculty-profiles/kimberly-c-claffy",
+      "portraitUrl": "https://cse.ucsd.edu/sites/default/files/styles/faculty_profile/public/faculty/claffy17-115x150_0.jpg?itok=1AZ_g6sS"
+    },
+    {
+      "officialId": "charles-elkan",
+      "name": "Charles Elkan",
+      "officialSection": "Adjunct",
+      "sectionRole": "",
+      "profileUrl": "https://cse.ucsd.edu/people/faculty-profiles/charles-elkan",
+      "portraitUrl": "https://cse.ucsd.edu/sites/default/files/styles/faculty_profile/public/faculty/elkan17-115x150.jpg?itok=P0xP0r3c"
+    },
+    {
+      "officialId": "mai-elsherief",
+      "name": "Mai ElSherief",
+      "officialSection": "Adjunct",
+      "sectionRole": "",
+      "profileUrl": "https://cse.ucsd.edu/people/faculty-profiles/mai-elsherief",
+      "portraitUrl": "https://cse.ucsd.edu/sites/default/files/styles/faculty_profile/public/faculty/elsherief17-115x150.png?itok=nXeU_XfJ"
+    },
+    {
+      "officialId": "james-d-hollan",
+      "name": "James D. Hollan",
+      "officialSection": "Adjunct",
+      "sectionRole": "",
+      "profileUrl": "https://cse.ucsd.edu/people/faculty-profiles/james-d-hollan",
+      "portraitUrl": "https://cse.ucsd.edu/sites/default/files/styles/faculty_profile/public/faculty/hollan17-115x150.jpg?itok=PVxP7qsx"
+    },
+    {
+      "officialId": "sorin-lerner",
+      "name": "Sorin Lerner",
+      "officialSection": "Adjunct",
+      "sectionRole": "",
+      "profileUrl": "https://cse.ucsd.edu/people/faculty-profiles/sorin-lerner",
+      "portraitUrl": "https://cse.ucsd.edu/sites/default/files/styles/faculty_profile/public/faculty/lerner17-115x150.jpg?itok=vlAmeDYB"
+    },
+    {
+      "officialId": "yannis-papakonstantinou",
+      "name": "Yannis Papakonstantinou",
+      "officialSection": "Adjunct",
+      "sectionRole": "",
+      "profileUrl": "https://cse.ucsd.edu/people/faculty-profiles/yannis-papakonstantinou",
+      "portraitUrl": "https://cse.ucsd.edu/sites/default/files/styles/faculty_profile/public/faculty/yannis17-115x150.jpg?itok=W7OJTCs2"
+    },
+    {
+      "officialId": "terrence-j-sejnowski",
+      "name": "Terrence J. Sejnowski",
+      "officialSection": "Adjunct",
+      "sectionRole": "",
+      "profileUrl": "https://cse.ucsd.edu/people/faculty-profiles/terrence-j-sejnowski",
+      "portraitUrl": "https://cse.ucsd.edu/sites/default/files/styles/faculty_profile/public/faculty/sejnowski17-115x150.jpg?itok=uiwG8Mhh"
+    },
+    {
+      "officialId": "mikio-aoi",
+      "name": "Mikio Aoi",
+      "officialSection": "Affiliated",
+      "sectionRole": "",
+      "profileUrl": "https://cse.ucsd.edu/people/faculty-profiles/mikio-aoi",
+      "portraitUrl": "https://cse.ucsd.edu/sites/default/files/styles/faculty_profile/public/faculty/aoi17-115x150.png?itok=YTjJA-E9"
+    },
+    {
+      "officialId": "vikas-bansal",
+      "name": "Vikas Bansal",
+      "officialSection": "Affiliated",
+      "sectionRole": "",
+      "profileUrl": "https://cse.ucsd.edu/people/faculty-profiles/vikas-bansal",
+      "portraitUrl": "https://cse.ucsd.edu/sites/default/files/styles/faculty_profile/public/faculty/bansal17-115x150.jpg?itok=uylEEW7q"
+    },
+    {
+      "officialId": "mikhail-belkin",
+      "name": "Mikhail Belkin",
+      "officialSection": "Affiliated",
+      "sectionRole": "",
+      "profileUrl": "https://cse.ucsd.edu/people/faculty-profiles/mikhail-belkin",
+      "portraitUrl": "https://cse.ucsd.edu/sites/default/files/styles/faculty_profile/public/faculty/belkin17-115x150.png?itok=iEJ5fCM7"
+    },
+    {
+      "officialId": "leon-bergen",
+      "name": "Leon Bergen",
+      "officialSection": "Affiliated",
+      "sectionRole": "",
+      "profileUrl": "https://cse.ucsd.edu/people/faculty-profiles/leon-bergen",
+      "portraitUrl": "https://cse.ucsd.edu/sites/default/files/styles/faculty_profile/public/faculty/bergen17-115x150.png?itok=HtWYousA"
+    },
+    {
+      "officialId": "thomas-bewley",
+      "name": "Thomas Bewley",
+      "officialSection": "Affiliated",
+      "sectionRole": "",
+      "profileUrl": "https://cse.ucsd.edu/people/faculty-profiles/thomas-bewley",
+      "portraitUrl": "https://cse.ucsd.edu/sites/default/files/styles/faculty_profile/public/faculty/bewley17-115x150.jpg?itok=loflEMH4"
+    },
+    {
+      "officialId": "dinesh-bharadia",
+      "name": "Dinesh Bharadia",
+      "officialSection": "Affiliated",
+      "sectionRole": "",
+      "profileUrl": "https://cse.ucsd.edu/people/faculty-profiles/dinesh-bharadia",
+      "portraitUrl": "https://cse.ucsd.edu/sites/default/files/styles/faculty_profile/public/faculty/bharadia17-115x150.jpg?itok=w49bbfJ8"
+    },
+    {
+      "officialId": "christian-dameff",
+      "name": "Christian Dameff",
+      "officialSection": "Affiliated",
+      "sectionRole": "",
+      "profileUrl": "https://cse.ucsd.edu/people/faculty-profiles/christian-dameff",
+      "portraitUrl": "https://cse.ucsd.edu/sites/default/files/styles/faculty_profile/public/faculty/dameff17-115x150.png?itok=rA_IUkTe"
+    },
+    {
+      "officialId": "david-danks",
+      "name": "David Danks",
+      "officialSection": "Affiliated",
+      "sectionRole": "",
+      "profileUrl": "https://cse.ucsd.edu/people/faculty-profiles/david-danks",
+      "portraitUrl": "https://cse.ucsd.edu/sites/default/files/styles/faculty_profile/public/faculty/danks17-115x150.png?itok=hgMjWRvy"
+    },
+    {
+      "officialId": "virginia-de-sa",
+      "name": "Virginia de Sa",
+      "officialSection": "Affiliated",
+      "sectionRole": "",
+      "profileUrl": "https://cse.ucsd.edu/people/faculty-profiles/virginia-de-sa",
+      "portraitUrl": "https://cse.ucsd.edu/sites/default/files/styles/faculty_profile/public/faculty/desa17-115x150.png?itok=L3NgEvE8"
+    },
+    {
+      "officialId": "steven-dow",
+      "name": "Steven Dow",
+      "officialSection": "Affiliated",
+      "sectionRole": "",
+      "profileUrl": "https://cse.ucsd.edu/people/faculty-profiles/steven-dow",
+      "portraitUrl": "https://cse.ucsd.edu/sites/default/files/styles/faculty_profile/public/faculty/dow17-115x150.jpg?itok=ICoz9AsJ"
+    },
+    {
+      "officialId": "shlomo-dubnov",
+      "name": "Shlomo Dubnov",
+      "officialSection": "Affiliated",
+      "sectionRole": "",
+      "profileUrl": "https://cse.ucsd.edu/people/faculty-profiles/shlomo-dubnov",
+      "portraitUrl": "https://cse.ucsd.edu/sites/default/files/styles/faculty_profile/public/faculty/dubnov17-115x150.jpg?itok=kKVHDlGe"
+    },
+    {
+      "officialId": "stuart-geiger",
+      "name": "Stuart Geiger",
+      "officialSection": "Affiliated",
+      "sectionRole": "",
+      "profileUrl": "https://cse.ucsd.edu/people/faculty-profiles/stuart-geiger",
+      "portraitUrl": "https://cse.ucsd.edu/sites/default/files/styles/faculty_profile/public/faculty/geiger17-115x150.png?itok=nvQyg_5i"
+    },
+    {
+      "officialId": "philip-j-guo",
+      "name": "Philip J. Guo",
+      "officialSection": "Affiliated",
+      "sectionRole": "",
+      "profileUrl": "https://cse.ucsd.edu/people/faculty-profiles/philip-j-guo",
+      "portraitUrl": "https://cse.ucsd.edu/sites/default/files/styles/faculty_profile/public/faculty/guo17-115x150.jpg?itok=rz1S4lk0"
+    },
+    {
+      "officialId": "amarnath-gupta",
+      "name": "Amarnath Gupta",
+      "officialSection": "Affiliated",
+      "sectionRole": "",
+      "profileUrl": "https://cse.ucsd.edu/people/faculty-profiles/amarnath-gupta",
+      "portraitUrl": "https://cse.ucsd.edu/sites/default/files/styles/faculty_profile/public/faculty/guptaa17-115x150.jpg?itok=g59otpS0"
+    },
+    {
+      "officialId": "sylvia-herbert",
+      "name": "Sylvia Herbert",
+      "officialSection": "Affiliated",
+      "sectionRole": "",
+      "profileUrl": "https://cse.ucsd.edu/people/faculty-profiles/sylvia-herbert",
+      "portraitUrl": "https://cse.ucsd.edu/sites/default/files/styles/faculty_profile/public/faculty/herbert17-115x150.png?itok=_OwyCIZE"
+    },
+    {
+      "officialId": "zhiting-hu",
+      "name": "Zhiting Hu",
+      "officialSection": "Affiliated",
+      "sectionRole": "",
+      "profileUrl": "https://cse.ucsd.edu/people/faculty-profiles/zhiting-hu",
+      "portraitUrl": "https://cse.ucsd.edu/sites/default/files/styles/faculty_profile/public/faculty/hu-z17-115x150.png?itok=icVIlmWK"
+    },
+    {
+      "officialId": "trey-ideker",
+      "name": "Trey Ideker",
+      "officialSection": "Affiliated",
+      "sectionRole": "",
+      "profileUrl": "https://cse.ucsd.edu/people/faculty-profiles/trey-ideker",
+      "portraitUrl": "https://cse.ucsd.edu/sites/default/files/styles/faculty_profile/public/faculty/i.png?itok=DajkZjHO"
+    },
+    {
+      "officialId": "lilly-irani",
+      "name": "Lilly Irani",
+      "officialSection": "Affiliated",
+      "sectionRole": "",
+      "profileUrl": "https://cse.ucsd.edu/people/faculty-profiles/lilly-irani",
+      "portraitUrl": "https://cse.ucsd.edu/sites/default/files/styles/faculty_profile/public/faculty/irani17-115x150.png?itok=QBXtbcmx"
+    },
+    {
+      "officialId": "tara-javidi",
+      "name": "Tara Javidi",
+      "officialSection": "Affiliated",
+      "sectionRole": "",
+      "profileUrl": "https://cse.ucsd.edu/people/faculty-profiles/tara-javidi",
+      "portraitUrl": "https://cse.ucsd.edu/sites/default/files/styles/faculty_profile/public/faculty/javidi17-115x150.jpg?itok=a1aXTntN"
+    },
+    {
+      "officialId": "haojian-jin",
+      "name": "Haojian Jin",
+      "officialSection": "Affiliated",
+      "sectionRole": "",
+      "profileUrl": "https://cse.ucsd.edu/people/faculty-profiles/haojian-jin",
+      "portraitUrl": "https://cse.ucsd.edu/sites/default/files/styles/faculty_profile/public/faculty/haojian-img.png?itok=GUC773dJ"
+    },
+    {
+      "officialId": "david-kirsh",
+      "name": "David Kirsh",
+      "officialSection": "Affiliated",
+      "sectionRole": "",
+      "profileUrl": "https://cse.ucsd.edu/people/faculty-profiles/david-kirsh",
+      "portraitUrl": "https://cse.ucsd.edu/sites/default/files/styles/faculty_profile/public/faculty/kirsh17-115x150.jpg?itok=hyojqPu9"
+    },
+    {
+      "officialId": "falko-kuester",
+      "name": "Falko Kuester",
+      "officialSection": "Affiliated",
+      "sectionRole": "",
+      "profileUrl": "https://cse.ucsd.edu/people/faculty-profiles/falko-kuester",
+      "portraitUrl": "https://cse.ucsd.edu/sites/default/files/styles/faculty_profile/public/faculty/kuester17-115x150.jpg?itok=qYO7IZgE"
+    },
+    {
+      "officialId": "yian-ma",
+      "name": "Yian Ma",
+      "officialSection": "Affiliated",
+      "sectionRole": "",
+      "profileUrl": "https://cse.ucsd.edu/people/faculty-profiles/yian-ma",
+      "portraitUrl": "https://cse.ucsd.edu/sites/default/files/styles/faculty_profile/public/faculty/yianma17-115x150.png?itok=ztLlX5TP"
+    },
+    {
+      "officialId": "marcelo-mattar",
+      "name": "Marcelo Mattar",
+      "officialSection": "Affiliated",
+      "sectionRole": "",
+      "profileUrl": "https://cse.ucsd.edu/people/faculty-profiles/marcelo-mattar",
+      "portraitUrl": "https://cse.ucsd.edu/sites/default/files/styles/faculty_profile/public/faculty/MarceloMattar_800x800_1.png?itok=wyfmDoyW"
+    },
+    {
+      "officialId": "arya-mazumdar",
+      "name": "Arya Mazumdar",
+      "officialSection": "Affiliated",
+      "sectionRole": "",
+      "profileUrl": "https://cse.ucsd.edu/people/faculty-profiles/arya-mazumdar",
+      "portraitUrl": "https://cse.ucsd.edu/sites/default/files/styles/faculty_profile/public/faculty/mazumdar17-115x150.png?itok=LnlbrFxo"
+    },
+    {
+      "officialId": "jill-p-mesirov",
+      "name": "Jill P. Mesirov",
+      "officialSection": "Affiliated",
+      "sectionRole": "",
+      "profileUrl": "https://cse.ucsd.edu/people/faculty-profiles/jill-p-mesirov",
+      "portraitUrl": "https://cse.ucsd.edu/sites/default/files/styles/faculty_profile/public/faculty/mesirov17-115x150.jpg?itok=yA_Ny3vq"
+    },
+    {
+      "officialId": "siavash-mirarab",
+      "name": "Siavash Mirarab",
+      "officialSection": "Affiliated",
+      "sectionRole": "",
+      "profileUrl": "https://cse.ucsd.edu/people/faculty-profiles/siavash-mirarab",
+      "portraitUrl": "https://cse.ucsd.edu/sites/default/files/styles/faculty_profile/public/faculty/mirarab17-115x150_1.png?itok=J6SgAybs"
+    },
+    {
+      "officialId": "gal-mishne",
+      "name": "Gal Mishne",
+      "officialSection": "Affiliated",
+      "sectionRole": "",
+      "profileUrl": "https://cse.ucsd.edu/people/faculty-profiles/gal-mishne",
+      "portraitUrl": "https://cse.ucsd.edu/sites/default/files/styles/faculty_profile/public/faculty/mishne17-115x150.png?itok=pFxMr7XT"
+    },
+    {
+      "officialId": "michael-norman",
+      "name": "Michael Norman",
+      "officialSection": "Affiliated",
+      "sectionRole": "",
+      "profileUrl": "https://cse.ucsd.edu/people/faculty-profiles/michael-norman",
+      "portraitUrl": "https://cse.ucsd.edu/sites/default/files/styles/faculty_profile/public/faculty/norman17-115x150.jpg?itok=xTLCBqGc"
+    },
+    {
+      "officialId": "tauhidur-rahman",
+      "name": "Tauhidur Rahman",
+      "officialSection": "Affiliated",
+      "sectionRole": "",
+      "profileUrl": "https://cse.ucsd.edu/people/faculty-profiles/tauhidur-rahman",
+      "portraitUrl": "https://cse.ucsd.edu/sites/default/files/styles/faculty_profile/public/faculty/tauhidur-rahman.jpeg?itok=LYqxhv-x"
+    },
+    {
+      "officialId": "babak-salimi",
+      "name": "Babak Salimi",
+      "officialSection": "Affiliated",
+      "sectionRole": "",
+      "profileUrl": "https://cse.ucsd.edu/people/faculty-profiles/babak-salimi",
+      "portraitUrl": "https://cse.ucsd.edu/sites/default/files/styles/faculty_profile/public/faculty/salimi17-115x150.png?itok=CGKxlZ8m"
+    },
+    {
+      "officialId": "glenn-tesler",
+      "name": "Glenn Tesler",
+      "officialSection": "Affiliated",
+      "sectionRole": "",
+      "profileUrl": "https://cse.ucsd.edu/people/faculty-profiles/glenn-tesler",
+      "portraitUrl": "https://cse.ucsd.edu/sites/default/files/styles/faculty_profile/public/faculty/tesler17-115x150.jpg?itok=0DnweXky"
+    },
+    {
+      "officialId": "zhuowen-tu",
+      "name": "Zhuowen Tu",
+      "officialSection": "Affiliated",
+      "sectionRole": "",
+      "profileUrl": "https://cse.ucsd.edu/people/faculty-profiles/zhuowen-tu",
+      "portraitUrl": "https://cse.ucsd.edu/sites/default/files/styles/faculty_profile/public/faculty/tu17-115x150.jpg?itok=QONviKYa"
+    },
+    {
+      "officialId": "yatish-turakhia",
+      "name": "Yatish Turakhia",
+      "officialSection": "Affiliated",
+      "sectionRole": "",
+      "profileUrl": "https://cse.ucsd.edu/people/faculty-profiles/yatish-turakhia",
+      "portraitUrl": "https://cse.ucsd.edu/sites/default/files/styles/faculty_profile/public/faculty/turakhia17-115x150.png?itok=dK40xItY"
+    },
+    {
+      "officialId": "berk-ustun",
+      "name": "Berk Ustun",
+      "officialSection": "Affiliated",
+      "sectionRole": "",
+      "profileUrl": "https://cse.ucsd.edu/people/faculty-profiles/berk-ustun",
+      "portraitUrl": "https://cse.ucsd.edu/sites/default/files/styles/faculty_profile/public/faculty/ustun17-115x150.png?itok=Ro295vBU"
+    },
+    {
+      "officialId": "edward-wang",
+      "name": "Edward Wang",
+      "officialSection": "Affiliated",
+      "sectionRole": "",
+      "profileUrl": "https://cse.ucsd.edu/people/faculty-profiles/edward-wang",
+      "portraitUrl": "https://cse.ucsd.edu/sites/default/files/styles/faculty_profile/public/faculty/ewang17-115x150.png?itok=HudTec_g"
+    },
+    {
+      "officialId": "xiaolong-wang",
+      "name": "Xiaolong Wang",
+      "officialSection": "Affiliated",
+      "sectionRole": "",
+      "profileUrl": "https://cse.ucsd.edu/people/faculty-profiles/xiaolong-wang",
+      "portraitUrl": "https://cse.ucsd.edu/sites/default/files/styles/faculty_profile/public/faculty/wangx17-115x150.png?itok=nx5oUiKx"
+    },
+    {
+      "officialId": "yusu-wang",
+      "name": "Yusu Wang",
+      "officialSection": "Affiliated",
+      "sectionRole": "",
+      "profileUrl": "https://cse.ucsd.edu/people/faculty-profiles/yusu-wang",
+      "portraitUrl": "https://cse.ucsd.edu/sites/default/files/styles/faculty_profile/public/faculty/wang17-115x150.png?itok=hQwIN6NS"
+    },
+    {
+      "officialId": "lily-weng",
+      "name": "Lily Weng",
+      "officialSection": "Affiliated",
+      "sectionRole": "",
+      "profileUrl": "https://cse.ucsd.edu/people/faculty-profiles/lily-weng",
+      "portraitUrl": "https://cse.ucsd.edu/sites/default/files/styles/faculty_profile/public/faculty/Lily-2_2.jpeg?itok=BhkHnq_u"
+    },
+    {
+      "officialId": "haijun-xia",
+      "name": "Haijun Xia",
+      "officialSection": "Affiliated",
+      "sectionRole": "",
+      "profileUrl": "https://cse.ucsd.edu/people/faculty-profiles/haijun-xia",
+      "portraitUrl": "https://cse.ucsd.edu/sites/default/files/styles/faculty_profile/public/faculty/xia17-115x150.png?itok=VXLScgoP"
+    },
+    {
+      "officialId": "michael-yip",
+      "name": "Michael Yip",
+      "officialSection": "Affiliated",
+      "sectionRole": "",
+      "profileUrl": "https://cse.ucsd.edu/people/faculty-profiles/michael-yip",
+      "portraitUrl": "https://cse.ucsd.edu/sites/default/files/styles/faculty_profile/public/faculty/y2.jpg?itok=Kw_V6XVE"
+    },
+    {
+      "officialId": "angela-j-yu",
+      "name": "Angela J. Yu",
+      "officialSection": "Affiliated",
+      "sectionRole": "",
+      "profileUrl": "https://cse.ucsd.edu/people/faculty-profiles/angela-j-yu",
+      "portraitUrl": "https://cse.ucsd.edu/sites/default/files/styles/faculty_profile/public/faculty/yu17-115x150.jpg?itok=cN2JSzpP"
+    },
+    {
+      "officialId": "hao-zhang",
+      "name": "Hao Zhang",
+      "officialSection": "Affiliated",
+      "sectionRole": "",
+      "profileUrl": "https://cse.ucsd.edu/people/faculty-profiles/hao-zhang",
+      "portraitUrl": "https://cse.ucsd.edu/sites/default/files/styles/faculty_profile/public/faculty/hao2.png?itok=GUwdXNmX"
+    },
+    {
+      "officialId": "xinyu-zhang",
+      "name": "Xinyu Zhang",
+      "officialSection": "Affiliated",
+      "sectionRole": "",
+      "profileUrl": "https://cse.ucsd.edu/people/faculty-profiles/xinyu-zhang",
+      "portraitUrl": "https://cse.ucsd.edu/sites/default/files/styles/faculty_profile/public/faculty/xyzhang17-115x150.png?itok=VLdEOGIj"
+    },
+    {
+      "officialId": "yang-zheng",
+      "name": "Yang Zheng",
+      "officialSection": "Affiliated",
+      "sectionRole": "",
+      "profileUrl": "https://cse.ucsd.edu/people/faculty-profiles/yang-zheng",
+      "portraitUrl": "https://cse.ucsd.edu/sites/default/files/styles/faculty_profile/public/faculty/Yang_Zheng.jpg?itok=ckgX3ShI"
+    },
+    {
+      "officialId": "scott-b-baden",
+      "name": "Scott B. Baden",
+      "officialSection": "Emeritus",
+      "sectionRole": "",
+      "profileUrl": "https://cse.ucsd.edu/people/faculty-profiles/scott-b-baden",
+      "portraitUrl": "https://cse.ucsd.edu/sites/default/files/styles/faculty_profile/public/faculty/baden17-115x150.jpg?itok=dBst7-Nd"
+    },
+    {
+      "officialId": "francine-berman",
+      "name": "Francine Berman",
+      "officialSection": "Emeritus",
+      "sectionRole": "",
+      "profileUrl": "https://cse.ucsd.edu/people/faculty-profiles/francine-berman",
+      "portraitUrl": "https://cse.ucsd.edu/sites/default/files/styles/faculty_profile/public/faculty/berman17-115x150.png?itok=7AdOW73j"
+    },
+    {
+      "officialId": "kenneth-l-bowles",
+      "name": "Kenneth L. Bowles",
+      "officialSection": "Emeritus",
+      "sectionRole": "",
+      "profileUrl": "https://cse.ucsd.edu/people/faculty-profiles/kenneth-l-bowles",
+      "portraitUrl": "https://cse.ucsd.edu/sites/default/files/styles/faculty_profile/public/faculty/bowles17-115x150.jpg?itok=guzqNrNA"
+    },
+    {
+      "officialId": "walter-burkhard",
+      "name": "Walter A. Burkhard",
+      "officialSection": "Emeritus",
+      "sectionRole": "",
+      "profileUrl": "https://cse.ucsd.edu/people/faculty-profiles/walter-burkhard",
+      "portraitUrl": "https://cse.ucsd.edu/sites/default/files/styles/faculty_profile/public/faculty/burkhard17-115x150.jpg?itok=sqbXmDy-"
+    },
+    {
+      "officialId": "larry-carter",
+      "name": "Larry Carter",
+      "officialSection": "Emeritus",
+      "sectionRole": "",
+      "profileUrl": "https://cse.ucsd.edu/people/faculty-profiles/larry-carter",
+      "portraitUrl": "https://cse.ucsd.edu/sites/default/files/styles/faculty_profile/public/faculty/carter17-115x150.jpg?itok=wrd1sqqF"
+    },
+    {
+      "officialId": "gary-cottrell",
+      "name": "Gary Cottrell",
+      "officialSection": "Emeritus",
+      "sectionRole": "",
+      "profileUrl": "https://cse.ucsd.edu/people/faculty-profiles/gary-cottrell",
+      "portraitUrl": "https://cse.ucsd.edu/sites/default/files/styles/faculty_profile/public/faculty/cottrell17-115x150.jpg?itok=KdlJ0ocg"
+    },
+    {
+      "officialId": "jeanne-ferrante",
+      "name": "Jeanne Ferrante",
+      "officialSection": "Emeritus",
+      "sectionRole": "",
+      "profileUrl": "https://cse.ucsd.edu/people/faculty-profiles/jeanne-ferrante",
+      "portraitUrl": "https://cse.ucsd.edu/sites/default/files/styles/faculty_profile/public/faculty/ferrante17-115x150.jpg?itok=HEYcKJSX"
+    },
+    {
+      "officialId": "ronald-graham",
+      "name": "Ronald Graham",
+      "officialSection": "Emeritus",
+      "sectionRole": "",
+      "profileUrl": "https://cse.ucsd.edu/people/faculty-profiles/ronald-graham",
+      "portraitUrl": "https://cse.ucsd.edu/sites/default/files/styles/faculty_profile/public/faculty/grahamr17-115x150.jpg?itok=5jgs7G82"
+    },
+    {
+      "officialId": "fan-chung-graham",
+      "name": "Fan Chung Graham",
+      "officialSection": "Emeritus",
+      "sectionRole": "",
+      "profileUrl": "https://cse.ucsd.edu/people/faculty-profiles/fan-chung-graham",
+      "portraitUrl": "https://cse.ucsd.edu/sites/default/files/styles/faculty_profile/public/faculty/grahamf17-115x150.jpg?itok=QbbJSyNF"
+    },
+    {
+      "officialId": "william-e-howden",
+      "name": "William E. Howden",
+      "officialSection": "Emeritus",
+      "sectionRole": "",
+      "profileUrl": "https://cse.ucsd.edu/people/faculty-profiles/william-e-howden",
+      "portraitUrl": "https://cse.ucsd.edu/sites/default/files/styles/faculty_profile/public/faculty/howden17-115x150.png?itok=anOW3S4J"
+    },
+    {
+      "officialId": "t-c-hu",
+      "name": "T. C. Hu",
+      "officialSection": "Emeritus",
+      "sectionRole": "",
+      "profileUrl": "https://cse.ucsd.edu/people/faculty-profiles/t-c-hu",
+      "portraitUrl": "https://cse.ucsd.edu/sites/default/files/styles/faculty_profile/public/faculty/hu17-115x150.jpg?itok=9ujjRgci"
+    },
+    {
+      "officialId": "henrik-wann-jensen",
+      "name": "Henrik Wann Jensen",
+      "officialSection": "Emeritus",
+      "sectionRole": "",
+      "profileUrl": "https://cse.ucsd.edu/people/faculty-profiles/henrik-wann-jensen",
+      "portraitUrl": "https://cse.ucsd.edu/sites/default/files/styles/faculty_profile/public/faculty/jensen17-115x150.jpg?itok=CtZiVo1N"
+    },
+    {
+      "officialId": "sidney-karin",
+      "name": "Sidney Karin",
+      "officialSection": "Emeritus",
+      "sectionRole": "",
+      "profileUrl": "https://cse.ucsd.edu/people/faculty-profiles/sidney-karin",
+      "portraitUrl": "https://cse.ucsd.edu/sites/default/files/styles/faculty_profile/public/faculty/karin17-115x150.jpg?itok=QFrO78C3"
+    },
+    {
+      "officialId": "david-kriegman",
+      "name": "David Kriegman",
+      "officialSection": "Emeritus",
+      "sectionRole": "",
+      "profileUrl": "https://cse.ucsd.edu/people/faculty-profiles/david-kriegman",
+      "portraitUrl": "https://cse.ucsd.edu/sites/default/files/styles/faculty_profile/public/faculty/kriegman17-115x150.png?itok=HO08JRSN"
+    },
+    {
+      "officialId": "paul-r-kube",
+      "name": "Paul R. Kube",
+      "officialSection": "Emeritus",
+      "sectionRole": "",
+      "profileUrl": "https://cse.ucsd.edu/people/faculty-profiles/paul-r-kube",
+      "portraitUrl": "https://cse.ucsd.edu/sites/default/files/styles/faculty_profile/public/faculty/kube17-115x150.jpg?itok=ZHCR8cVs"
+    },
+    {
+      "officialId": "joseph-pasquale",
+      "name": "Joseph Pasquale",
+      "officialSection": "Emeritus",
+      "sectionRole": "",
+      "profileUrl": "https://cse.ucsd.edu/people/faculty-profiles/joseph-pasquale",
+      "portraitUrl": "https://cse.ucsd.edu/sites/default/files/styles/faculty_profile/public/faculty/pasquale17-115x150.png?itok=tKqhaMfk"
+    },
+    {
+      "officialId": "walter-savitch",
+      "name": "Walter Savitch",
+      "officialSection": "Emeritus",
+      "sectionRole": "",
+      "profileUrl": "https://cse.ucsd.edu/people/faculty-profiles/walter-savitch",
+      "portraitUrl": "https://cse.ucsd.edu/sites/default/files/styles/faculty_profile/public/faculty/savitch17-115x150.jpg?itok=9OJlv2PV"
+    },
+    {
+      "officialId": "larry-smarr",
+      "name": "Larry Smarr",
+      "officialSection": "Emeritus",
+      "sectionRole": "",
+      "profileUrl": "https://cse.ucsd.edu/people/faculty-profiles/larry-smarr",
+      "portraitUrl": "https://cse.ucsd.edu/sites/default/files/styles/faculty_profile/public/faculty/smarr17-115x150.png?itok=SLHuriQe"
+    },
+    {
+      "officialId": "s-gill-williamson",
+      "name": "S. Gill Williamson",
+      "officialSection": "Emeritus",
+      "sectionRole": "",
+      "profileUrl": "https://cse.ucsd.edu/people/faculty-profiles/s-gill-williamson",
+      "portraitUrl": "https://cse.ucsd.edu/sites/default/files/styles/faculty_profile/public/faculty/williamson17-115x150.jpg?itok=6pCQCjKQ"
+    },
+    {
+      "officialId": "richard-k-belew",
+      "name": "Richard K. Belew",
+      "officialSection": "Alumni",
+      "sectionRole": "",
+      "profileUrl": "https://cse.ucsd.edu/people/faculty-profiles/richard-k-belew",
+      "portraitUrl": "https://cse.ucsd.edu/sites/default/files/styles/faculty_profile/public/faculty/belew17-115x150_0.png?itok=VscJjw5j"
+    },
+    {
+      "officialId": "serge-belongie",
+      "name": "Serge Belongie",
+      "officialSection": "Alumni",
+      "sectionRole": "",
+      "profileUrl": "https://cse.ucsd.edu/people/faculty-profiles/serge-belongie",
+      "portraitUrl": "https://cse.ucsd.edu/sites/default/files/styles/faculty_profile/public/faculty/belongie17-115x150.jpg?itok=j6cliq6w"
+    },
+    {
+      "officialId": "brad-calder",
+      "name": "Brad Calder",
+      "officialSection": "Alumni",
+      "sectionRole": "",
+      "profileUrl": "https://cse.ucsd.edu/people/faculty-profiles/brad-calder",
+      "portraitUrl": "https://cse.ucsd.edu/sites/default/files/styles/faculty_profile/public/faculty/calder17-115x150_1.png?itok=NarKX7vf"
+    },
+    {
+      "officialId": "eleazar-eskin",
+      "name": "Eleazar Eskin",
+      "officialSection": "Alumni",
+      "sectionRole": "",
+      "profileUrl": "https://cse.ucsd.edu/people/faculty-profiles/eleazar-eskin",
+      "portraitUrl": "https://cse.ucsd.edu/sites/default/files/styles/faculty_profile/public/faculty/eskin17-115x150_0.png?itok=3hTEKsT4"
+    },
+    {
+      "officialId": "gary-gillespie",
+      "name": "Gary Gillespie",
+      "officialSection": "Alumni",
+      "sectionRole": "",
+      "profileUrl": "https://cse.ucsd.edu/people/faculty-profiles/gary-gillespie",
+      "portraitUrl": "https://cse.ucsd.edu/sites/default/files/styles/faculty_profile/public/faculty/gillespie17M-115x150.jpg?itok=fi7UONOk"
+    },
+    {
+      "officialId": "joseph-goguen",
+      "name": "Joseph Goguen",
+      "officialSection": "Alumni",
+      "sectionRole": "",
+      "profileUrl": "https://cse.ucsd.edu/people/faculty-profiles/joseph-goguen",
+      "portraitUrl": "https://cse.ucsd.edu/sites/default/files/styles/faculty_profile/public/faculty/goguen17-115x150_0.png?itok=f9DJVgba"
+    },
+    {
+      "officialId": "keith-marzullo",
+      "name": "Keith Marzullo",
+      "officialSection": "Alumni",
+      "sectionRole": "",
+      "profileUrl": "https://cse.ucsd.edu/people/faculty-profiles/keith-marzullo",
+      "portraitUrl": "https://cse.ucsd.edu/sites/default/files/styles/faculty_profile/public/faculty/marzullo17-115x150_0_0.png?itok=niSNmAeI"
+    },
+    {
+      "officialId": "richard-c-ord",
+      "name": "Richard C. Ord",
+      "officialSection": "Alumni",
+      "sectionRole": "",
+      "profileUrl": "https://cse.ucsd.edu/people/faculty-profiles/richard-c-ord",
+      "portraitUrl": "https://cse.ucsd.edu/sites/default/files/styles/faculty_profile/public/faculty/ord17-115x150.jpg?itok=BpAJUZmX"
+    },
+    {
+      "officialId": "george-c-polyzos-0",
+      "name": "George C. Polyzos",
+      "officialSection": "Alumni",
+      "sectionRole": "",
+      "profileUrl": "https://cse.ucsd.edu/people/faculty-profiles/george-c-polyzos-0",
+      "portraitUrl": "https://cse.ucsd.edu/sites/default/files/styles/faculty_profile/public/faculty/polyzos230x300.png?itok=CN1KIPAy"
+    },
+    {
+      "officialId": "michael-b-taylor",
+      "name": "Michael B. Taylor",
+      "officialSection": "Alumni",
+      "sectionRole": "",
+      "profileUrl": "https://cse.ucsd.edu/people/faculty-profiles/michael-b-taylor",
+      "portraitUrl": "https://cse.ucsd.edu/sites/default/files/styles/faculty_profile/public/faculty/taylor17-115x150.jpg?itok=kFf9UpWY"
+    },
+    {
+      "officialId": "amin-vahdat",
+      "name": "Amin Vahdat",
+      "officialSection": "Alumni",
+      "sectionRole": "",
+      "profileUrl": "https://cse.ucsd.edu/people/faculty-profiles/amin-vahdat",
+      "portraitUrl": "https://cse.ucsd.edu/sites/default/files/styles/faculty_profile/public/faculty/vahdat-115x150_0.png?itok=3R4nVMwR"
+    },
+    {
+      "officialId": "george-varghese",
+      "name": "George Varghese",
+      "officialSection": "Alumni",
+      "sectionRole": "",
+      "profileUrl": "https://cse.ucsd.edu/people/faculty-profiles/george-varghese",
+      "portraitUrl": "https://cse.ucsd.edu/sites/default/files/styles/faculty_profile/public/faculty/varghese17-115x150_0.png?itok=34U-_E9Y"
+    },
+    {
+      "officialId": "matthias-zwicker",
+      "name": "Matthias Zwicker",
+      "officialSection": "Alumni",
+      "sectionRole": "Emergency Action Plan",
+      "profileUrl": "https://cse.ucsd.edu/people/faculty-profiles/matthias-zwicker",
+      "portraitUrl": "https://cse.ucsd.edu/sites/default/files/styles/faculty_profile/public/faculty/zwicker17-115x150_0.png?itok=svZapPCJ"
+    }
+  ]
+}

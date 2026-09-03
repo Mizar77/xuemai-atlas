@@ -1,0 +1,663 @@
+{
+  "completeness": "complete",
+  "fetchedAt": "2026-09-02",
+  "institution": "Georgia Tech School of Interactive Computing",
+  "officialPageUrl": "https://ic.gatech.edu/people/faculty",
+  "officialDataUrl": "https://ic.gatech.edu/people/faculty",
+  "officialRosterCount": 59,
+  "sourcePageSha256": "0af0118936599f6a684f6f164b5b095cb1a78d5a651dae1f0cb2e243f1ab756f",
+  "sourceDescription": "All official profile cards rendered on the Faculty page; the page has no pager or load-more control.",
+  "people": [
+    {
+      "officialId": "alexander-t-adams",
+      "name": "Alexander T Adams",
+      "title": "Assistant Professor",
+      "officialClassifications": [
+        "Faculty"
+      ],
+      "profileUrl": "https://ic.gatech.edu/people/alexander-t-adams",
+      "portraitUrl": "https://ic.gatech.edu/sites/default/files/styles/profile_150x180_/public/images/profiles/2026-02/alexander_adams_86a6793_copy.jpg?itok=91NUVbIT",
+      "sourcePage": "https://ic.gatech.edu/people/faculty"
+    },
+    {
+      "officialId": "clio-andris",
+      "name": "Clio Andris",
+      "title": "Associate Professor",
+      "officialClassifications": [
+        "Faculty"
+      ],
+      "profileUrl": "https://ic.gatech.edu/people/clio-andris",
+      "portraitUrl": "https://ic.gatech.edu/sites/default/files/styles/profile_150x180_/public/images/profiles/2025-03/clio_andris_0.png?itok=fKpEVMhN",
+      "sourcePage": "https://ic.gatech.edu/people/faculty"
+    },
+    {
+      "officialId": "annie-anton",
+      "name": "Annie Antón",
+      "title": "Professor",
+      "officialClassifications": [
+        "Faculty"
+      ],
+      "profileUrl": "https://ic.gatech.edu/people/annie-anton",
+      "portraitUrl": "https://ic.gatech.edu/sites/default/files/styles/profile_150x180_/public/images/profiles/2026-08/annie_anton_0.png?itok=LeU2JpkP",
+      "sourcePage": "https://ic.gatech.edu/people/faculty"
+    },
+    {
+      "officialId": "rosa-arriaga",
+      "name": "Rosa Arriaga",
+      "title": "Associate Professor",
+      "officialClassifications": [
+        "Faculty"
+      ],
+      "profileUrl": "https://ic.gatech.edu/people/rosa-arriaga",
+      "portraitUrl": "https://ic.gatech.edu/sites/default/files/styles/profile_150x180_/public/images/profiles/2025-03/arriaga_rosa.jpg?itok=bU_F6ejW",
+      "sourcePage": "https://ic.gatech.edu/people/faculty"
+    },
+    {
+      "officialId": "shaowen-bardzell",
+      "name": "Shaowen Bardzell",
+      "title": "Professor and Chair of Interactive Computing",
+      "officialClassifications": [
+        "Faculty"
+      ],
+      "profileUrl": "https://ic.gatech.edu/people/shaowen-bardzell",
+      "portraitUrl": "https://ic.gatech.edu/sites/default/files/styles/profile_150x180_/public/images/profiles/2025-03/shaowen_bardzell.png?itok=bbYt2P7V",
+      "sourcePage": "https://ic.gatech.edu/people/faculty"
+    },
+    {
+      "officialId": "michael-best",
+      "name": "Michael Best",
+      "title": "Professor",
+      "officialClassifications": [
+        "Faculty"
+      ],
+      "profileUrl": "https://ic.gatech.edu/people/michael-best",
+      "portraitUrl": "https://ic.gatech.edu/sites/default/files/styles/profile_150x180_/public/images/profiles/2025-03/best.michael.jpeg?itok=LwzQJKtV",
+      "sourcePage": "https://ic.gatech.edu/people/faculty"
+    },
+    {
+      "officialId": "carrie-bruce",
+      "name": "Carrie Bruce",
+      "title": "Principal Research Scientist, Assistant Director…",
+      "officialClassifications": [
+        "Faculty"
+      ],
+      "profileUrl": "https://ic.gatech.edu/people/carrie-bruce",
+      "portraitUrl": "https://ic.gatech.edu/sites/default/files/styles/profile_150x180_/public/images/profiles/2025-03/bruce_carrie_0.jpg?itok=xBNNAIyf",
+      "sourcePage": "https://ic.gatech.edu/people/faculty"
+    },
+    {
+      "officialId": "amy-bruckman",
+      "name": "Amy Bruckman",
+      "title": "Regents' Professor and Senior Associate Chair",
+      "officialClassifications": [
+        "Faculty"
+      ],
+      "profileUrl": "https://ic.gatech.edu/people/amy-bruckman",
+      "portraitUrl": "https://ic.gatech.edu/sites/default/files/styles/profile_150x180_/public/images/profiles/2025-03/bruckman_amy.jpeg?itok=_XRvyZgy",
+      "sourcePage": "https://ic.gatech.edu/people/faculty"
+    },
+    {
+      "officialId": "sonia-chernova",
+      "name": "Sonia Chernova",
+      "title": "Professor",
+      "officialClassifications": [
+        "Faculty"
+      ],
+      "profileUrl": "https://ic.gatech.edu/people/sonia-chernova",
+      "portraitUrl": "https://ic.gatech.edu/sites/default/files/styles/profile_150x180_/public/images/profiles/2026-08/sonia_chernova_0.png?itok=DO3RhYq_",
+      "sourcePage": "https://ic.gatech.edu/people/faculty"
+    },
+    {
+      "officialId": "munmun-de-choudhury",
+      "name": "Munmun De Choudhury",
+      "title": "Professor",
+      "officialClassifications": [
+        "Faculty"
+      ],
+      "profileUrl": "https://ic.gatech.edu/people/munmun-de-choudhury",
+      "portraitUrl": "https://ic.gatech.edu/sites/default/files/styles/profile_150x180_/public/images/profiles/2026-08/munmun_de_choudhury.jpg?itok=zFiUgEvC",
+      "sourcePage": "https://ic.gatech.edu/people/faculty"
+    },
+    {
+      "officialId": "frank-dellaert",
+      "name": "Frank Dellaert",
+      "title": "Professor",
+      "officialClassifications": [
+        "Faculty"
+      ],
+      "profileUrl": "https://ic.gatech.edu/people/frank-dellaert",
+      "portraitUrl": "https://ic.gatech.edu/sites/default/files/styles/profile_150x180_/public/images/profiles/2026-08/frank_dellaert_0.png?itok=qOpn8Jlx",
+      "sourcePage": "https://ic.gatech.edu/people/faculty"
+    },
+    {
+      "officialId": "betsy-disalvo",
+      "name": "Betsy DiSalvo",
+      "title": "Professor",
+      "officialClassifications": [
+        "Faculty"
+      ],
+      "profileUrl": "https://ic.gatech.edu/people/betsy-disalvo",
+      "portraitUrl": "https://ic.gatech.edu/sites/default/files/styles/profile_150x180_/public/images/profiles/2025-03/disalvo_betsy.jpeg?itok=eTY-H0W6",
+      "sourcePage": "https://ic.gatech.edu/people/faculty"
+    },
+    {
+      "officialId": "carl-disalvo",
+      "name": "Carl DiSalvo",
+      "title": "Professor",
+      "officialClassifications": [
+        "Faculty"
+      ],
+      "profileUrl": "https://ic.gatech.edu/people/carl-disalvo",
+      "portraitUrl": "https://ic.gatech.edu/sites/default/files/styles/profile_150x180_/public/images/profiles/2025-03/disalvo_carl.jpeg?itok=3XLpgAPs",
+      "sourcePage": "https://ic.gatech.edu/people/faculty"
+    },
+    {
+      "officialId": "lynn-dombrowski",
+      "name": "Lynn Dombrowski",
+      "title": "Associate Professor",
+      "officialClassifications": [
+        "Faculty"
+      ],
+      "profileUrl": "https://ic.gatech.edu/people/lynn-dombrowski",
+      "portraitUrl": "https://ic.gatech.edu/sites/default/files/styles/profile_150x180_/public/images/profiles/2025-03/lynndombrowski.jpg?itok=ouSxJOAB",
+      "sourcePage": "https://ic.gatech.edu/people/faculty"
+    },
+    {
+      "officialId": "keith-edwards",
+      "name": "Keith Edwards",
+      "title": "Professor and Director of GVU",
+      "officialClassifications": [
+        "Faculty"
+      ],
+      "profileUrl": "https://ic.gatech.edu/people/keith-edwards",
+      "portraitUrl": "https://ic.gatech.edu/sites/default/files/styles/profile_150x180_/public/images/profiles/2025-03/keith_edwards.jpg?itok=gyLVWMVI",
+      "sourcePage": "https://ic.gatech.edu/people/faculty"
+    },
+    {
+      "officialId": "alex-endert",
+      "name": "Alex Endert",
+      "title": "Professor",
+      "officialClassifications": [
+        "Faculty"
+      ],
+      "profileUrl": "https://ic.gatech.edu/people/alex-endert",
+      "portraitUrl": "https://ic.gatech.edu/sites/default/files/styles/profile_150x180_/public/images/profiles/2026-08/alex_endert.jpg?itok=lMUOW-PC",
+      "sourcePage": "https://ic.gatech.edu/people/faculty"
+    },
+    {
+      "officialId": "irfan-essa",
+      "name": "Irfan Essa",
+      "title": "Distinguished Professor",
+      "officialClassifications": [
+        "Faculty"
+      ],
+      "profileUrl": "https://ic.gatech.edu/people/irfan-essa",
+      "portraitUrl": "https://ic.gatech.edu/sites/default/files/styles/profile_150x180_/public/images/profiles/2026-08/irfan_essa_0.png?itok=YoApYWPV",
+      "sourcePage": "https://ic.gatech.edu/people/faculty"
+    },
+    {
+      "officialId": "james-foley",
+      "name": "James Foley",
+      "title": "Professor and Fleming Chair Emeritus",
+      "officialClassifications": [
+        "Faculty"
+      ],
+      "profileUrl": "https://ic.gatech.edu/people/james-foley",
+      "portraitUrl": "https://ic.gatech.edu/sites/default/files/styles/profile_150x180_/public/images/profiles/2025-03/james_foley_0.png?itok=31zJBqPu",
+      "sourcePage": "https://ic.gatech.edu/people/faculty"
+    },
+    {
+      "officialId": "animesh-garg",
+      "name": "Animesh Garg",
+      "title": "Stephen Fleming Early Career Asisstant Professor",
+      "officialClassifications": [
+        "Faculty"
+      ],
+      "profileUrl": "https://ic.gatech.edu/people/animesh-garg",
+      "portraitUrl": "https://ic.gatech.edu/sites/default/files/styles/profile_150x180_/public/images/profiles/2026-08/animesh_garg.jpg?itok=7nRfWgMc",
+      "sourcePage": "https://ic.gatech.edu/people/faculty"
+    },
+    {
+      "officialId": "william-gelder",
+      "name": "William Gelder",
+      "title": "Research Associate I",
+      "officialClassifications": [
+        "Faculty"
+      ],
+      "profileUrl": "https://ic.gatech.edu/people/william-gelder",
+      "portraitUrl": "https://ic.gatech.edu/sites/default/files/styles/profile_150x180_/public/default_images/profile-default.jpg?itok=-4Ivn_3v",
+      "sourcePage": "https://ic.gatech.edu/people/faculty"
+    },
+    {
+      "officialId": "ashok-goel",
+      "name": "Ashok Goel",
+      "title": "Professor",
+      "officialClassifications": [
+        "Adjunct Faculty",
+        "Faculty"
+      ],
+      "profileUrl": "https://ic.gatech.edu/people/ashok-goel",
+      "portraitUrl": "https://ic.gatech.edu/sites/default/files/styles/profile_150x180_/public/images/profiles/2026-08/goel_ashok.png?itok=lOQGT7MC",
+      "sourcePage": "https://ic.gatech.edu/people/faculty"
+    },
+    {
+      "officialId": "matthew-gombolay",
+      "name": "Matthew Gombolay",
+      "title": "Associate Professor",
+      "officialClassifications": [
+        "Faculty"
+      ],
+      "profileUrl": "https://ic.gatech.edu/people/matthew-gombolay",
+      "portraitUrl": "https://ic.gatech.edu/sites/default/files/styles/profile_150x180_/public/images/profiles/2026-08/gombolay_matthew.jpeg?itok=zjDa9mzC",
+      "sourcePage": "https://ic.gatech.edu/people/faculty"
+    },
+    {
+      "officialId": "kartik-goyal",
+      "name": "Kartik Goyal",
+      "title": "Assistant Professor",
+      "officialClassifications": [
+        "Faculty"
+      ],
+      "profileUrl": "https://ic.gatech.edu/people/kartik-goyal",
+      "portraitUrl": "https://ic.gatech.edu/sites/default/files/styles/profile_150x180_/public/images/profiles/2026-08/kartik_goyal.jpg?itok=v8O3dV1W",
+      "sourcePage": "https://ic.gatech.edu/people/faculty"
+    },
+    {
+      "officialId": "beki-grinter",
+      "name": "Beki Grinter",
+      "title": "Professor and Associate Dean for Faculty…",
+      "officialClassifications": [
+        "Faculty"
+      ],
+      "profileUrl": "https://ic.gatech.edu/people/beki-grinter",
+      "portraitUrl": "https://ic.gatech.edu/sites/default/files/styles/profile_150x180_/public/images/profiles/2024-09/beki_grinter.jpg?itok=IgN-xpYG",
+      "sourcePage": "https://ic.gatech.edu/people/faculty"
+    },
+    {
+      "officialId": "sehoon-ha",
+      "name": "Sehoon Ha",
+      "title": "Associate Professor",
+      "officialClassifications": [
+        "Faculty"
+      ],
+      "profileUrl": "https://ic.gatech.edu/people/sehoon-ha",
+      "portraitUrl": "https://ic.gatech.edu/sites/default/files/styles/profile_150x180_/public/images/profiles/2026-08/sehoon_ha_2.png?itok=a7mHAiJ8",
+      "sourcePage": "https://ic.gatech.edu/people/faculty"
+    },
+    {
+      "officialId": "james-hays",
+      "name": "James Hays",
+      "title": "Professor",
+      "officialClassifications": [
+        "Faculty"
+      ],
+      "profileUrl": "https://ic.gatech.edu/people/james-hays",
+      "portraitUrl": "https://ic.gatech.edu/sites/default/files/styles/profile_150x180_/public/images/profiles/2026-08/james_hays.jpg?itok=Ciz1ugJ2",
+      "sourcePage": "https://ic.gatech.edu/people/faculty"
+    },
+    {
+      "officialId": "larry-heck",
+      "name": "Larry Heck",
+      "title": "Professor",
+      "officialClassifications": [
+        "Faculty"
+      ],
+      "profileUrl": "https://ic.gatech.edu/people/larry-heck",
+      "portraitUrl": "https://ic.gatech.edu/sites/default/files/styles/profile_150x180_/public/images/profiles/2026-01/heck_larry2.jpg?itok=t0o6Epyi",
+      "sourcePage": "https://ic.gatech.edu/people/faculty"
+    },
+    {
+      "officialId": "richard-henneman",
+      "name": "Richard Henneman",
+      "title": "Professor of the Practice",
+      "officialClassifications": [
+        "Faculty"
+      ],
+      "profileUrl": "https://ic.gatech.edu/people/richard-henneman",
+      "portraitUrl": "https://ic.gatech.edu/sites/default/files/styles/profile_150x180_/public/images/profiles/2025-03/richard_henneman_0.png?itok=EiZ0KY70",
+      "sourcePage": "https://ic.gatech.edu/people/faculty"
+    },
+    {
+      "officialId": "josiah-hester",
+      "name": "Josiah Hester",
+      "title": "Associate Professor; Catherine M. and James E.…",
+      "officialClassifications": [
+        "Faculty"
+      ],
+      "profileUrl": "https://ic.gatech.edu/people/josiah-hester",
+      "portraitUrl": "https://ic.gatech.edu/sites/default/files/styles/profile_150x180_/public/images/profiles/2025-09/josiah_hester_web.jpg?itok=HxRByCrs",
+      "sourcePage": "https://ic.gatech.edu/people/faculty"
+    },
+    {
+      "officialId": "melody-jackson",
+      "name": "Melody Jackson",
+      "title": "Director, Center for BioInterface Research and…",
+      "officialClassifications": [
+        "Faculty"
+      ],
+      "profileUrl": "https://ic.gatech.edu/people/melody-jackson",
+      "portraitUrl": "https://ic.gatech.edu/sites/default/files/styles/profile_150x180_/public/images/profiles/2025-03/melody_jackson_0.png?itok=HAU2vEjq",
+      "sourcePage": "https://ic.gatech.edu/people/faculty"
+    },
+    {
+      "officialId": "david-joyner",
+      "name": "David Joyner",
+      "title": "Associate Dean for Off-Campus and Special…",
+      "officialClassifications": [
+        "Adjunct Faculty",
+        "Faculty"
+      ],
+      "profileUrl": "https://ic.gatech.edu/people/david-joyner",
+      "portraitUrl": "https://ic.gatech.edu/sites/default/files/styles/profile_150x180_/public/images/profiles/2025-01/david_joyner_0.png?itok=ZZ9ABYLD",
+      "sourcePage": "https://ic.gatech.edu/people/faculty"
+    },
+    {
+      "officialId": "siddharth-karamcheti",
+      "name": "Siddharth Karamcheti",
+      "title": "Assistant Professor",
+      "officialClassifications": [
+        "Faculty"
+      ],
+      "profileUrl": "https://ic.gatech.edu/people/siddharth-karamcheti",
+      "portraitUrl": "https://ic.gatech.edu/sites/default/files/styles/profile_150x180_/public/images/profiles/2026-08/siddharth-karamcheti.png?itok=Jc-dQTSa",
+      "sourcePage": "https://ic.gatech.edu/people/faculty"
+    },
+    {
+      "officialId": "naveena-karusala",
+      "name": "Naveena Karusala",
+      "title": "Assistant Professor",
+      "officialClassifications": [
+        "Faculty"
+      ],
+      "profileUrl": "https://ic.gatech.edu/people/naveena-karusala",
+      "portraitUrl": "https://ic.gatech.edu/sites/default/files/styles/profile_150x180_/public/images/profiles/2025-03/naveena_karusala.jpg?itok=IuWTS5GE",
+      "sourcePage": "https://ic.gatech.edu/people/faculty"
+    },
+    {
+      "officialId": "jennifer-kim",
+      "name": "Jennifer Kim",
+      "title": "Assistant Professor",
+      "officialClassifications": [
+        "Faculty"
+      ],
+      "profileUrl": "https://ic.gatech.edu/people/jennifer-kim",
+      "portraitUrl": "https://ic.gatech.edu/sites/default/files/styles/profile_150x180_/public/images/profiles/2026-08/kim_jennifer.jpeg?itok=RZjtbjVo",
+      "sourcePage": "https://ic.gatech.edu/people/faculty"
+    },
+    {
+      "officialId": "zsolt-kira",
+      "name": "Zsolt Kira",
+      "title": "Associate Professor",
+      "officialClassifications": [
+        "Faculty"
+      ],
+      "profileUrl": "https://ic.gatech.edu/people/zsolt-kira",
+      "portraitUrl": "https://ic.gatech.edu/sites/default/files/styles/profile_150x180_/public/images/profiles/2026-08/zsolt_kira.jpg?itok=t5NOnaEM",
+      "sourcePage": "https://ic.gatech.edu/people/faculty"
+    },
+    {
+      "officialId": "neha-kumar",
+      "name": "Neha Kumar",
+      "title": "Professor",
+      "officialClassifications": [
+        "Faculty"
+      ],
+      "profileUrl": "https://ic.gatech.edu/people/neha-kumar",
+      "portraitUrl": "https://ic.gatech.edu/sites/default/files/styles/profile_150x180_/public/images/profiles/2026-08/neha_web.jpg?itok=zd2A1bS2",
+      "sourcePage": "https://ic.gatech.edu/people/faculty"
+    },
+    {
+      "officialId": "cindy-kaiying-lin",
+      "name": "Cindy Kaiying Lin",
+      "title": "Stephen Fleming Early Career Assistant Professor",
+      "officialClassifications": [
+        "Faculty"
+      ],
+      "profileUrl": "https://ic.gatech.edu/people/cindy-kaiying-lin",
+      "portraitUrl": "https://ic.gatech.edu/sites/default/files/styles/profile_150x180_/public/images/profiles/2025-03/cindylin.jpg?itok=L_QXZYzQ",
+      "sourcePage": "https://ic.gatech.edu/people/faculty"
+    },
+    {
+      "officialId": "christopher-j-maclellan",
+      "name": "Christopher J. MacLellan",
+      "title": "Associate Professor",
+      "officialClassifications": [
+        "Faculty"
+      ],
+      "profileUrl": "https://ic.gatech.edu/people/christopher-j-maclellan",
+      "portraitUrl": "https://ic.gatech.edu/sites/default/files/styles/profile_150x180_/public/images/profiles/2026-08/christopher_maclellan.jpg?itok=wsMk9Rji",
+      "sourcePage": "https://ic.gatech.edu/people/faculty"
+    },
+    {
+      "officialId": "hyunjoo-oh",
+      "name": "HyunJoo Oh",
+      "title": "Associate Professor, joint w/ School of…",
+      "officialClassifications": [
+        "Faculty"
+      ],
+      "profileUrl": "https://ic.gatech.edu/people/hyunjoo-oh",
+      "portraitUrl": "https://ic.gatech.edu/sites/default/files/styles/profile_150x180_/public/images/profiles/2026-08/headshot2.hyun_.joo_.oh_.jpg?itok=DgKeoS_5",
+      "sourcePage": "https://ic.gatech.edu/people/faculty"
+    },
+    {
+      "officialId": "andrea-grimes-parker",
+      "name": "Andrea Grimes Parker",
+      "title": "Associate Professor",
+      "officialClassifications": [
+        "Faculty"
+      ],
+      "profileUrl": "https://ic.gatech.edu/people/andrea-grimes-parker",
+      "portraitUrl": "https://ic.gatech.edu/sites/default/files/styles/profile_150x180_/public/images/profiles/2025-03/andrea_grimes_parker_1.png?itok=Xja4DP2t",
+      "sourcePage": "https://ic.gatech.edu/people/faculty"
+    },
+    {
+      "officialId": "thomas-ploetz",
+      "name": "Thomas Ploetz",
+      "title": "Professor and Associate Chair of Graduate Studies",
+      "officialClassifications": [
+        "Faculty"
+      ],
+      "profileUrl": "https://ic.gatech.edu/people/thomas-ploetz",
+      "portraitUrl": "https://ic.gatech.edu/sites/default/files/styles/profile_150x180_/public/images/profiles/2026-08/thomas_ploetz_0.png?itok=Ed570rWd",
+      "sourcePage": "https://ic.gatech.edu/people/faculty"
+    },
+    {
+      "officialId": "harish-ravichandar",
+      "name": "Harish Ravichandar",
+      "title": "Assistant Professor",
+      "officialClassifications": [
+        "Faculty"
+      ],
+      "profileUrl": "https://ic.gatech.edu/people/harish-ravichandar",
+      "portraitUrl": "https://ic.gatech.edu/sites/default/files/styles/profile_150x180_/public/images/profiles/2026-08/harish_ravichandar.jpeg?itok=5OxtmgcP",
+      "sourcePage": "https://ic.gatech.edu/people/faculty"
+    },
+    {
+      "officialId": "mark-riedl",
+      "name": "Mark Riedl",
+      "title": "Professor",
+      "officialClassifications": [
+        "Faculty"
+      ],
+      "profileUrl": "https://ic.gatech.edu/people/mark-riedl",
+      "portraitUrl": "https://ic.gatech.edu/sites/default/files/styles/profile_150x180_/public/images/profiles/2026-08/riedl_mark.jpeg?itok=BgQHctG-",
+      "sourcePage": "https://ic.gatech.edu/people/faculty"
+    },
+    {
+      "officialId": "alan-ritter",
+      "name": "Alan Ritter",
+      "title": "Associate Professor",
+      "officialClassifications": [
+        "Faculty"
+      ],
+      "profileUrl": "https://ic.gatech.edu/people/alan-ritter",
+      "portraitUrl": "https://ic.gatech.edu/sites/default/files/styles/profile_150x180_/public/images/profiles/2026-08/ritter_alan.jpeg?itok=_q5g3cur",
+      "sourcePage": "https://ic.gatech.edu/people/faculty"
+    },
+    {
+      "officialId": "jessica-roberts",
+      "name": "Jessica Roberts",
+      "title": "Associate Professor",
+      "officialClassifications": [
+        "Faculty"
+      ],
+      "profileUrl": "https://ic.gatech.edu/people/jessica-roberts",
+      "portraitUrl": "https://ic.gatech.edu/sites/default/files/styles/profile_150x180_/public/images/profiles/2025-08/jessica_roberts_0.png?itok=rs6jx89e",
+      "sourcePage": "https://ic.gatech.edu/people/faculty"
+    },
+    {
+      "officialId": "agata-rozga",
+      "name": "Agata Rozga",
+      "title": "Principal Research Scientist",
+      "officialClassifications": [
+        "Faculty"
+      ],
+      "profileUrl": "https://ic.gatech.edu/people/agata-rozga",
+      "portraitUrl": "https://ic.gatech.edu/sites/default/files/styles/profile_150x180_/public/images/profiles/2025-03/rozga_agata.jpg?itok=KfAisCxk",
+      "sourcePage": "https://ic.gatech.edu/people/faculty"
+    },
+    {
+      "officialId": "humphrey-shi",
+      "name": "Humphrey Shi",
+      "title": "Associate Professor",
+      "officialClassifications": [
+        "Faculty"
+      ],
+      "profileUrl": "https://ic.gatech.edu/people/humphrey-shi",
+      "portraitUrl": "https://ic.gatech.edu/sites/default/files/styles/profile_150x180_/public/images/profiles/2026-08/shi_humphrey_1.jpg?itok=ou8pDWuR",
+      "sourcePage": "https://ic.gatech.edu/people/faculty"
+    },
+    {
+      "officialId": "thad-starner",
+      "name": "Thad Starner",
+      "title": "Professor",
+      "officialClassifications": [
+        "Faculty"
+      ],
+      "profileUrl": "https://ic.gatech.edu/people/thad-starner",
+      "portraitUrl": "https://ic.gatech.edu/sites/default/files/styles/profile_150x180_/public/images/profiles/2026-08/thad_starner_0.png?itok=E0uMYxNw",
+      "sourcePage": "https://ic.gatech.edu/people/faculty"
+    },
+    {
+      "officialId": "john-stasko",
+      "name": "John Stasko",
+      "title": "Professor Emeritus",
+      "officialClassifications": [
+        "Faculty"
+      ],
+      "profileUrl": "https://ic.gatech.edu/people/john-stasko",
+      "portraitUrl": "https://ic.gatech.edu/sites/default/files/styles/profile_150x180_/public/images/profiles/2026-08/john_stasko_0.jpg?itok=iPW-Vw-7",
+      "sourcePage": "https://ic.gatech.edu/people/faculty"
+    },
+    {
+      "officialId": "jesse-thomason",
+      "name": "Jesse Thomason",
+      "title": "Associate Professor",
+      "officialClassifications": [
+        "Faculty"
+      ],
+      "profileUrl": "https://ic.gatech.edu/people/jesse-thomason",
+      "portraitUrl": "https://ic.gatech.edu/sites/default/files/styles/profile_150x180_/public/images/profiles/2026-08/jessethomason.jpg?itok=NnOCWi08",
+      "sourcePage": "https://ic.gatech.edu/people/faculty"
+    },
+    {
+      "officialId": "greg-turk",
+      "name": "Greg Turk",
+      "title": "Professor",
+      "officialClassifications": [
+        "Faculty"
+      ],
+      "profileUrl": "https://ic.gatech.edu/people/greg-turk",
+      "portraitUrl": "https://ic.gatech.edu/sites/default/files/styles/profile_150x180_/public/images/profiles/2026-08/greg_turk_0.png?itok=LiswMD6G",
+      "sourcePage": "https://ic.gatech.edu/people/faculty"
+    },
+    {
+      "officialId": "judith-uchidiuno",
+      "name": "Judith Uchidiuno",
+      "title": "Assistant Professor",
+      "officialClassifications": [
+        "Faculty"
+      ],
+      "profileUrl": "https://ic.gatech.edu/people/judith-uchidiuno",
+      "portraitUrl": "https://ic.gatech.edu/sites/default/files/styles/profile_150x180_/public/images/profiles/2025-03/uchidiuno_judith.jpg?itok=knlC6071",
+      "sourcePage": "https://ic.gatech.edu/people/faculty"
+    },
+    {
+      "officialId": "sashank-varma",
+      "name": "Sashank Varma",
+      "title": "Professor",
+      "officialClassifications": [
+        "Faculty"
+      ],
+      "profileUrl": "https://ic.gatech.edu/people/sashank-varma",
+      "portraitUrl": "https://ic.gatech.edu/sites/default/files/styles/profile_150x180_/public/images/profiles/2026-08/sashank_varma.jpg?itok=D5RfbxiC",
+      "sourcePage": "https://ic.gatech.edu/people/faculty"
+    },
+    {
+      "officialId": "bruce-walker",
+      "name": "Bruce Walker",
+      "title": "Professor (Joint with School of Psychology)",
+      "officialClassifications": [
+        "Faculty"
+      ],
+      "profileUrl": "https://ic.gatech.edu/people/bruce-walker",
+      "portraitUrl": "https://ic.gatech.edu/sites/default/files/styles/profile_150x180_/public/images/profiles/2026-08/bruce_walker_0.png?itok=ALOmjVhW",
+      "sourcePage": "https://ic.gatech.edu/people/faculty"
+    },
+    {
+      "officialId": "cindy-xiong",
+      "name": "Cindy Xiong",
+      "title": "Assistant Professor",
+      "officialClassifications": [
+        "Faculty"
+      ],
+      "profileUrl": "https://ic.gatech.edu/people/cindy-xiong",
+      "portraitUrl": "https://ic.gatech.edu/sites/default/files/styles/profile_150x180_/public/images/profiles/2025-03/2x6a2954_copy.jpg?itok=rsgFBJRp",
+      "sourcePage": "https://ic.gatech.edu/people/faculty"
+    },
+    {
+      "officialId": "danfei-xu",
+      "name": "Danfei Xu",
+      "title": "Assistant Professor",
+      "officialClassifications": [
+        "Faculty"
+      ],
+      "profileUrl": "https://ic.gatech.edu/people/danfei-xu",
+      "portraitUrl": "https://ic.gatech.edu/sites/default/files/styles/profile_150x180_/public/images/profiles/2026-08/danfeixu2.jpg?itok=kHsRPiiZ",
+      "sourcePage": "https://ic.gatech.edu/people/faculty"
+    },
+    {
+      "officialId": "wei-xu",
+      "name": "Wei Xu",
+      "title": "Associate Professor",
+      "officialClassifications": [
+        "Faculty"
+      ],
+      "profileUrl": "https://ic.gatech.edu/people/wei-xu",
+      "portraitUrl": "https://ic.gatech.edu/sites/default/files/styles/profile_150x180_/public/images/profiles/2026-08/wei_xu_0.png?itok=T4Oe__YZ",
+      "sourcePage": "https://ic.gatech.edu/people/faculty"
+    },
+    {
+      "officialId": "yalong-yang",
+      "name": "Yalong Yang",
+      "title": "Assistant Professor",
+      "officialClassifications": [
+        "Faculty"
+      ],
+      "profileUrl": "https://ic.gatech.edu/people/yalong-yang",
+      "portraitUrl": "https://ic.gatech.edu/sites/default/files/styles/profile_150x180_/public/images/profiles/2025-03/yalong_yang.jpg?itok=_j49SOQ3",
+      "sourcePage": "https://ic.gatech.edu/people/faculty"
+    },
+    {
+      "officialId": "bo-zhu",
+      "name": "Bo Zhu",
+      "title": "Associate Professor",
+      "officialClassifications": [
+        "Faculty"
+      ],
+      "profileUrl": "https://ic.gatech.edu/people/bo-zhu",
+      "portraitUrl": "https://ic.gatech.edu/sites/default/files/styles/profile_150x180_/public/images/profiles/2025-08/zhu_bo.png?itok=pH3HXdTL",
+      "sourcePage": "https://ic.gatech.edu/people/faculty"
+    }
+  ]
+}

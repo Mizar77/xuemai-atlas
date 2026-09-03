@@ -1,0 +1,47 @@
+{
+  "schemaVersion": 1,
+  "reviewedAt": "2026-09-03",
+  "scope": "Standalone graph-ready proposal selected from PKU Intelligence, Nankai AI and HUST CS frozen rosters; does not modify app/data.ts or the shared ledger.",
+  "module": "app/asia-next-roster-pi-expansion-2026.ts",
+  "portraitDirectory": "public/portraits/asia-next-batch-2026",
+  "readyCount": 18,
+  "ready": [
+    { "id": "cong-fang-pku", "name": "方聪", "institution": "PKU" },
+    { "id": "zhouchen-lin-pku", "name": "林宙辰", "institution": "PKU" },
+    { "id": "chi-zhang-pku", "name": "张驰", "institution": "PKU" },
+    { "id": "hangxin-liu-pku", "name": "刘航欣", "institution": "PKU" },
+    { "id": "zhihong-deng-pku", "name": "邓志鸿", "institution": "PKU" },
+    { "id": "songchun-zhu-pku", "name": "朱松纯", "institution": "PKU" },
+    { "id": "jie-liu-nankai", "name": "刘杰", "institution": "Nankai" },
+    { "id": "jingtai-liu-nankai", "name": "刘景泰", "institution": "Nankai" },
+    { "id": "zepeng-ning-nankai", "name": "宁泽鹏", "institution": "Nankai" },
+    { "id": "zhongxin-liu-nankai", "name": "刘忠信", "institution": "Nankai" },
+    { "id": "jing-xu-nankai", "name": "许静", "institution": "Nankai" },
+    { "id": "han-zhang-nankai", "name": "张瀚", "institution": "Nankai" },
+    { "id": "jianlei-zhang-nankai", "name": "张建磊", "institution": "Nankai" },
+    { "id": "fei-chen-nankai", "name": "陈飞", "institution": "Nankai" },
+    { "id": "xiao-liang-nankai", "name": "梁潇", "institution": "Nankai" },
+    { "id": "kun-he-hust", "name": "何琨", "institution": "HUST" },
+    { "id": "hefei-ling-hust", "name": "凌贺飞", "institution": "HUST" },
+    { "id": "wei-wei-hust", "name": "魏巍", "institution": "HUST" }
+  ],
+  "verifiedRelationshipCount": 2,
+  "verifiedRelationships": [
+    "林宙辰 → 方聪（博士导师；方聪官方个人页）",
+    "朱松纯 → 张驰（博士导师；张驰官方个人页）"
+  ],
+  "deferredCount": 10,
+  "deferredReason": "The frozen NUS roster contains no research-area field for these records; their individual profile must be checked before an AI/CS inclusion decision.",
+  "deferred": [
+    "CHEN Nan",
+    "Olivier DANVY",
+    "FOONG Sew Bun",
+    "LEE Jiho",
+    "LI Wei",
+    "LI Yunyi",
+    "LIU Na",
+    "QUEK Yihui",
+    "Patrick REBENTROST",
+    "Oleh STUPAK"
+  ]
+}

@@ -1,0 +1,960 @@
+{
+  "schemaVersion": 1,
+  "unitId": "gatech-ic",
+  "unitLabel": "Georgia Tech School of Interactive Computing",
+  "unitUrl": "https://ic.gatech.edu/people/faculty",
+  "snapshotAt": "2026-09-03",
+  "rosterArtifact": "data/official-rosters/gatech-interactive-computing-faculty-2026-09-02.json",
+  "frozenOfficialRosterCount": 59,
+  "rawRosterRowCount": 59,
+  "duplicateRosterCardCount": 0,
+  "deduplicatedRosterPersonCount": 59,
+  "decisionCount": 59,
+  "counts": {
+    "excluded_historical": 2,
+    "excluded_non_pi": 5,
+    "include_new_pi": 46,
+    "included_existing": 6
+  },
+  "decisions": [
+    {
+      "officialId": "alexander-t-adams",
+      "rosterName": "Alexander T Adams",
+      "title": "Assistant Professor",
+      "profileUrl": "https://ic.gatech.edu/people/alexander-t-adams",
+      "portraitUrl": "https://ic.gatech.edu/sites/default/files/styles/profile_150x180_/public/images/profiles/2026-02/alexander_adams_86a6793_copy.jpg?itok=91NUVbIT",
+      "officialSections": [
+        "Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://ic.gatech.edu/people/faculty",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Assistant Professor | Faculty | https://ic.gatech.edu/people/alexander-t-adams",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "clio-andris",
+      "rosterName": "Clio Andris",
+      "title": "Associate Professor",
+      "profileUrl": "https://ic.gatech.edu/people/clio-andris",
+      "portraitUrl": "https://ic.gatech.edu/sites/default/files/styles/profile_150x180_/public/images/profiles/2025-03/clio_andris_0.png?itok=fKpEVMhN",
+      "officialSections": [
+        "Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://ic.gatech.edu/people/faculty",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Associate Professor | Faculty | https://ic.gatech.edu/people/clio-andris",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "annie-anton",
+      "rosterName": "Annie Antón",
+      "title": "Professor",
+      "profileUrl": "https://ic.gatech.edu/people/annie-anton",
+      "portraitUrl": "https://ic.gatech.edu/sites/default/files/styles/profile_150x180_/public/images/profiles/2026-08/annie_anton_0.png?itok=LeU2JpkP",
+      "officialSections": [
+        "Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://ic.gatech.edu/people/faculty",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Professor | Faculty | https://ic.gatech.edu/people/annie-anton",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "rosa-arriaga",
+      "rosterName": "Rosa Arriaga",
+      "title": "Associate Professor",
+      "profileUrl": "https://ic.gatech.edu/people/rosa-arriaga",
+      "portraitUrl": "https://ic.gatech.edu/sites/default/files/styles/profile_150x180_/public/images/profiles/2025-03/arriaga_rosa.jpg?itok=bU_F6ejW",
+      "officialSections": [
+        "Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://ic.gatech.edu/people/faculty",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Associate Professor | Faculty | https://ic.gatech.edu/people/rosa-arriaga",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "shaowen-bardzell",
+      "rosterName": "Shaowen Bardzell",
+      "title": "Professor and Chair of Interactive Computing",
+      "profileUrl": "https://ic.gatech.edu/people/shaowen-bardzell",
+      "portraitUrl": "https://ic.gatech.edu/sites/default/files/styles/profile_150x180_/public/images/profiles/2025-03/shaowen_bardzell.png?itok=bbYt2P7V",
+      "officialSections": [
+        "Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://ic.gatech.edu/people/faculty",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Professor and Chair of Interactive Computing | Faculty | https://ic.gatech.edu/people/shaowen-bardzell",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "michael-best",
+      "rosterName": "Michael Best",
+      "title": "Professor",
+      "profileUrl": "https://ic.gatech.edu/people/michael-best",
+      "portraitUrl": "https://ic.gatech.edu/sites/default/files/styles/profile_150x180_/public/images/profiles/2025-03/best.michael.jpeg?itok=LwzQJKtV",
+      "officialSections": [
+        "Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://ic.gatech.edu/people/faculty",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Professor | Faculty | https://ic.gatech.edu/people/michael-best",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "carrie-bruce",
+      "rosterName": "Carrie Bruce",
+      "title": "Principal Research Scientist, Assistant Director…",
+      "profileUrl": "https://ic.gatech.edu/people/carrie-bruce",
+      "portraitUrl": "https://ic.gatech.edu/sites/default/files/styles/profile_150x180_/public/images/profiles/2025-03/bruce_carrie_0.jpg?itok=xBNNAIyf",
+      "officialSections": [
+        "Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://ic.gatech.edu/people/faculty",
+      "decision": "excluded_non_pi",
+      "reason": "官方职称或名录分组属于教学、兼职、附属、科研支持或其他非独立 PI 岗位。",
+      "evidence": "Principal Research Scientist, Assistant Director… | Faculty | https://ic.gatech.edu/people/carrie-bruce"
+    },
+    {
+      "officialId": "amy-bruckman",
+      "rosterName": "Amy Bruckman",
+      "title": "Regents' Professor and Senior Associate Chair",
+      "profileUrl": "https://ic.gatech.edu/people/amy-bruckman",
+      "portraitUrl": "https://ic.gatech.edu/sites/default/files/styles/profile_150x180_/public/images/profiles/2025-03/bruckman_amy.jpeg?itok=_XRvyZgy",
+      "officialSections": [
+        "Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://ic.gatech.edu/people/faculty",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Regents' Professor and Senior Associate Chair | Faculty | https://ic.gatech.edu/people/amy-bruckman",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "sonia-chernova",
+      "rosterName": "Sonia Chernova",
+      "title": "Professor",
+      "profileUrl": "https://ic.gatech.edu/people/sonia-chernova",
+      "portraitUrl": "https://ic.gatech.edu/sites/default/files/styles/profile_150x180_/public/images/profiles/2026-08/sonia_chernova_0.png?itok=DO3RhYq_",
+      "officialSections": [
+        "Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://ic.gatech.edu/people/faculty",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Professor | Faculty | https://ic.gatech.edu/people/sonia-chernova",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "munmun-de-choudhury",
+      "rosterName": "Munmun De Choudhury",
+      "title": "Professor",
+      "profileUrl": "https://ic.gatech.edu/people/munmun-de-choudhury",
+      "portraitUrl": "https://ic.gatech.edu/sites/default/files/styles/profile_150x180_/public/images/profiles/2026-08/munmun_de_choudhury.jpg?itok=zFiUgEvC",
+      "officialSections": [
+        "Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://ic.gatech.edu/people/faculty",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Professor | Faculty | https://ic.gatech.edu/people/munmun-de-choudhury",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "frank-dellaert",
+      "rosterName": "Frank Dellaert",
+      "title": "Professor",
+      "profileUrl": "https://ic.gatech.edu/people/frank-dellaert",
+      "portraitUrl": "https://ic.gatech.edu/sites/default/files/styles/profile_150x180_/public/images/profiles/2026-08/frank_dellaert_0.png?itok=qOpn8Jlx",
+      "officialSections": [
+        "Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://ic.gatech.edu/people/faculty",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Professor | Faculty | https://ic.gatech.edu/people/frank-dellaert",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "betsy-disalvo",
+      "rosterName": "Betsy DiSalvo",
+      "title": "Professor",
+      "profileUrl": "https://ic.gatech.edu/people/betsy-disalvo",
+      "portraitUrl": "https://ic.gatech.edu/sites/default/files/styles/profile_150x180_/public/images/profiles/2025-03/disalvo_betsy.jpeg?itok=eTY-H0W6",
+      "officialSections": [
+        "Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://ic.gatech.edu/people/faculty",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Professor | Faculty | https://ic.gatech.edu/people/betsy-disalvo",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "carl-disalvo",
+      "rosterName": "Carl DiSalvo",
+      "title": "Professor",
+      "profileUrl": "https://ic.gatech.edu/people/carl-disalvo",
+      "portraitUrl": "https://ic.gatech.edu/sites/default/files/styles/profile_150x180_/public/images/profiles/2025-03/disalvo_carl.jpeg?itok=3XLpgAPs",
+      "officialSections": [
+        "Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://ic.gatech.edu/people/faculty",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Professor | Faculty | https://ic.gatech.edu/people/carl-disalvo",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "lynn-dombrowski",
+      "rosterName": "Lynn Dombrowski",
+      "title": "Associate Professor",
+      "profileUrl": "https://ic.gatech.edu/people/lynn-dombrowski",
+      "portraitUrl": "https://ic.gatech.edu/sites/default/files/styles/profile_150x180_/public/images/profiles/2025-03/lynndombrowski.jpg?itok=ouSxJOAB",
+      "officialSections": [
+        "Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://ic.gatech.edu/people/faculty",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Associate Professor | Faculty | https://ic.gatech.edu/people/lynn-dombrowski",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "keith-edwards",
+      "rosterName": "Keith Edwards",
+      "title": "Professor and Director of GVU",
+      "profileUrl": "https://ic.gatech.edu/people/keith-edwards",
+      "portraitUrl": "https://ic.gatech.edu/sites/default/files/styles/profile_150x180_/public/images/profiles/2025-03/keith_edwards.jpg?itok=gyLVWMVI",
+      "officialSections": [
+        "Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://ic.gatech.edu/people/faculty",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Professor and Director of GVU | Faculty | https://ic.gatech.edu/people/keith-edwards",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "alex-endert",
+      "rosterName": "Alex Endert",
+      "title": "Professor",
+      "profileUrl": "https://ic.gatech.edu/people/alex-endert",
+      "portraitUrl": "https://ic.gatech.edu/sites/default/files/styles/profile_150x180_/public/images/profiles/2026-08/alex_endert.jpg?itok=lMUOW-PC",
+      "officialSections": [
+        "Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://ic.gatech.edu/people/faculty",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Professor | Faculty | https://ic.gatech.edu/people/alex-endert",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "irfan-essa",
+      "rosterName": "Irfan Essa",
+      "title": "Distinguished Professor",
+      "profileUrl": "https://ic.gatech.edu/people/irfan-essa",
+      "portraitUrl": "https://ic.gatech.edu/sites/default/files/styles/profile_150x180_/public/images/profiles/2026-08/irfan_essa_0.png?itok=YoApYWPV",
+      "officialSections": [
+        "Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://ic.gatech.edu/people/faculty",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Distinguished Professor | Faculty | https://ic.gatech.edu/people/irfan-essa",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "james-foley",
+      "rosterName": "James Foley",
+      "title": "Professor and Fleming Chair Emeritus",
+      "profileUrl": "https://ic.gatech.edu/people/james-foley",
+      "portraitUrl": "https://ic.gatech.edu/sites/default/files/styles/profile_150x180_/public/images/profiles/2025-03/james_foley_0.png?itok=31zJBqPu",
+      "officialSections": [
+        "Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://ic.gatech.edu/people/faculty",
+      "decision": "excluded_historical",
+      "reason": "官方职称或名录分组明确为荣休、退休或历史人员。",
+      "evidence": "Professor and Fleming Chair Emeritus | Faculty | https://ic.gatech.edu/people/james-foley"
+    },
+    {
+      "officialId": "animesh-garg",
+      "rosterName": "Animesh Garg",
+      "title": "Stephen Fleming Early Career Asisstant Professor",
+      "profileUrl": "https://ic.gatech.edu/people/animesh-garg",
+      "portraitUrl": "https://ic.gatech.edu/sites/default/files/styles/profile_150x180_/public/images/profiles/2026-08/animesh_garg.jpg?itok=7nRfWgMc",
+      "officialSections": [
+        "Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://ic.gatech.edu/people/faculty",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Stephen Fleming Early Career Asisstant Professor | Faculty | https://ic.gatech.edu/people/animesh-garg",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "william-gelder",
+      "rosterName": "William Gelder",
+      "title": "Research Associate I",
+      "profileUrl": "https://ic.gatech.edu/people/william-gelder",
+      "portraitUrl": "https://ic.gatech.edu/sites/default/files/styles/profile_150x180_/public/default_images/profile-default.jpg?itok=-4Ivn_3v",
+      "officialSections": [
+        "Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://ic.gatech.edu/people/faculty",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Research Associate I | Faculty | https://ic.gatech.edu/people/william-gelder",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "ashok-goel",
+      "rosterName": "Ashok Goel",
+      "title": "Professor",
+      "profileUrl": "https://ic.gatech.edu/people/ashok-goel",
+      "portraitUrl": "https://ic.gatech.edu/sites/default/files/styles/profile_150x180_/public/images/profiles/2026-08/goel_ashok.png?itok=lOQGT7MC",
+      "officialSections": [
+        "Adjunct Faculty",
+        "Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://ic.gatech.edu/people/faculty",
+      "decision": "excluded_non_pi",
+      "reason": "官方职称或名录分组属于教学、兼职、附属、科研支持或其他非独立 PI 岗位。",
+      "evidence": "Professor | Adjunct Faculty · Faculty | https://ic.gatech.edu/people/ashok-goel"
+    },
+    {
+      "officialId": "matthew-gombolay",
+      "rosterName": "Matthew Gombolay",
+      "title": "Associate Professor",
+      "profileUrl": "https://ic.gatech.edu/people/matthew-gombolay",
+      "portraitUrl": "https://ic.gatech.edu/sites/default/files/styles/profile_150x180_/public/images/profiles/2026-08/gombolay_matthew.jpeg?itok=zjDa9mzC",
+      "officialSections": [
+        "Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://ic.gatech.edu/people/faculty",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Associate Professor | Faculty | https://ic.gatech.edu/people/matthew-gombolay",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "kartik-goyal",
+      "rosterName": "Kartik Goyal",
+      "title": "Assistant Professor",
+      "profileUrl": "https://ic.gatech.edu/people/kartik-goyal",
+      "portraitUrl": "https://ic.gatech.edu/sites/default/files/styles/profile_150x180_/public/images/profiles/2026-08/kartik_goyal.jpg?itok=v8O3dV1W",
+      "officialSections": [
+        "Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://ic.gatech.edu/people/faculty",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Assistant Professor | Faculty | https://ic.gatech.edu/people/kartik-goyal",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "beki-grinter",
+      "rosterName": "Beki Grinter",
+      "title": "Professor and Associate Dean for Faculty…",
+      "profileUrl": "https://ic.gatech.edu/people/beki-grinter",
+      "portraitUrl": "https://ic.gatech.edu/sites/default/files/styles/profile_150x180_/public/images/profiles/2024-09/beki_grinter.jpg?itok=IgN-xpYG",
+      "officialSections": [
+        "Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://ic.gatech.edu/people/faculty",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Professor and Associate Dean for Faculty… | Faculty | https://ic.gatech.edu/people/beki-grinter",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "sehoon-ha",
+      "rosterName": "Sehoon Ha",
+      "title": "Associate Professor",
+      "profileUrl": "https://ic.gatech.edu/people/sehoon-ha",
+      "portraitUrl": "https://ic.gatech.edu/sites/default/files/styles/profile_150x180_/public/images/profiles/2026-08/sehoon_ha_2.png?itok=a7mHAiJ8",
+      "officialSections": [
+        "Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://ic.gatech.edu/people/faculty",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Associate Professor | Faculty | https://ic.gatech.edu/people/sehoon-ha",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "james-hays",
+      "rosterName": "James Hays",
+      "title": "Professor",
+      "profileUrl": "https://ic.gatech.edu/people/james-hays",
+      "portraitUrl": "https://ic.gatech.edu/sites/default/files/styles/profile_150x180_/public/images/profiles/2026-08/james_hays.jpg?itok=Ciz1ugJ2",
+      "officialSections": [
+        "Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://ic.gatech.edu/people/faculty",
+      "decision": "included_existing",
+      "atlasPersonId": "james-hays-us",
+      "reason": "符合范围，且规范化姓名可与当前图谱人物唯一匹配。",
+      "evidence": "Professor | Faculty | https://ic.gatech.edu/people/james-hays"
+    },
+    {
+      "officialId": "larry-heck",
+      "rosterName": "Larry Heck",
+      "title": "Professor",
+      "profileUrl": "https://ic.gatech.edu/people/larry-heck",
+      "portraitUrl": "https://ic.gatech.edu/sites/default/files/styles/profile_150x180_/public/images/profiles/2026-01/heck_larry2.jpg?itok=t0o6Epyi",
+      "officialSections": [
+        "Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://ic.gatech.edu/people/faculty",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Professor | Faculty | https://ic.gatech.edu/people/larry-heck",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "richard-henneman",
+      "rosterName": "Richard Henneman",
+      "title": "Professor of the Practice",
+      "profileUrl": "https://ic.gatech.edu/people/richard-henneman",
+      "portraitUrl": "https://ic.gatech.edu/sites/default/files/styles/profile_150x180_/public/images/profiles/2025-03/richard_henneman_0.png?itok=EiZ0KY70",
+      "officialSections": [
+        "Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://ic.gatech.edu/people/faculty",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Professor of the Practice | Faculty | https://ic.gatech.edu/people/richard-henneman",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "josiah-hester",
+      "rosterName": "Josiah Hester",
+      "title": "Associate Professor; Catherine M. and James E.…",
+      "profileUrl": "https://ic.gatech.edu/people/josiah-hester",
+      "portraitUrl": "https://ic.gatech.edu/sites/default/files/styles/profile_150x180_/public/images/profiles/2025-09/josiah_hester_web.jpg?itok=HxRByCrs",
+      "officialSections": [
+        "Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://ic.gatech.edu/people/faculty",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Associate Professor; Catherine M. and James E.… | Faculty | https://ic.gatech.edu/people/josiah-hester",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "melody-jackson",
+      "rosterName": "Melody Jackson",
+      "title": "Director, Center for BioInterface Research and…",
+      "profileUrl": "https://ic.gatech.edu/people/melody-jackson",
+      "portraitUrl": "https://ic.gatech.edu/sites/default/files/styles/profile_150x180_/public/images/profiles/2025-03/melody_jackson_0.png?itok=HAU2vEjq",
+      "officialSections": [
+        "Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://ic.gatech.edu/people/faculty",
+      "decision": "excluded_non_pi",
+      "reason": "官方卡片仅显示行政/项目领导职务，未显示独立教授或 PI 职称。",
+      "evidence": "Director, Center for BioInterface Research and… | Faculty | https://ic.gatech.edu/people/melody-jackson"
+    },
+    {
+      "officialId": "david-joyner",
+      "rosterName": "David Joyner",
+      "title": "Associate Dean for Off-Campus and Special…",
+      "profileUrl": "https://ic.gatech.edu/people/david-joyner",
+      "portraitUrl": "https://ic.gatech.edu/sites/default/files/styles/profile_150x180_/public/images/profiles/2025-01/david_joyner_0.png?itok=ZZ9ABYLD",
+      "officialSections": [
+        "Adjunct Faculty",
+        "Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://ic.gatech.edu/people/faculty",
+      "decision": "excluded_non_pi",
+      "reason": "官方职称或名录分组属于教学、兼职、附属、科研支持或其他非独立 PI 岗位。",
+      "evidence": "Associate Dean for Off-Campus and Special… | Adjunct Faculty · Faculty | https://ic.gatech.edu/people/david-joyner"
+    },
+    {
+      "officialId": "siddharth-karamcheti",
+      "rosterName": "Siddharth Karamcheti",
+      "title": "Assistant Professor",
+      "profileUrl": "https://ic.gatech.edu/people/siddharth-karamcheti",
+      "portraitUrl": "https://ic.gatech.edu/sites/default/files/styles/profile_150x180_/public/images/profiles/2026-08/siddharth-karamcheti.png?itok=Jc-dQTSa",
+      "officialSections": [
+        "Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://ic.gatech.edu/people/faculty",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Assistant Professor | Faculty | https://ic.gatech.edu/people/siddharth-karamcheti",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "naveena-karusala",
+      "rosterName": "Naveena Karusala",
+      "title": "Assistant Professor",
+      "profileUrl": "https://ic.gatech.edu/people/naveena-karusala",
+      "portraitUrl": "https://ic.gatech.edu/sites/default/files/styles/profile_150x180_/public/images/profiles/2025-03/naveena_karusala.jpg?itok=IuWTS5GE",
+      "officialSections": [
+        "Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://ic.gatech.edu/people/faculty",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Assistant Professor | Faculty | https://ic.gatech.edu/people/naveena-karusala",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "jennifer-kim",
+      "rosterName": "Jennifer Kim",
+      "title": "Assistant Professor",
+      "profileUrl": "https://ic.gatech.edu/people/jennifer-kim",
+      "portraitUrl": "https://ic.gatech.edu/sites/default/files/styles/profile_150x180_/public/images/profiles/2026-08/kim_jennifer.jpeg?itok=RZjtbjVo",
+      "officialSections": [
+        "Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://ic.gatech.edu/people/faculty",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Assistant Professor | Faculty | https://ic.gatech.edu/people/jennifer-kim",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "zsolt-kira",
+      "rosterName": "Zsolt Kira",
+      "title": "Associate Professor",
+      "profileUrl": "https://ic.gatech.edu/people/zsolt-kira",
+      "portraitUrl": "https://ic.gatech.edu/sites/default/files/styles/profile_150x180_/public/images/profiles/2026-08/zsolt_kira.jpg?itok=t5NOnaEM",
+      "officialSections": [
+        "Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://ic.gatech.edu/people/faculty",
+      "decision": "included_existing",
+      "atlasPersonId": "zsolt-kira-us",
+      "reason": "符合范围，且规范化姓名可与当前图谱人物唯一匹配。",
+      "evidence": "Associate Professor | Faculty | https://ic.gatech.edu/people/zsolt-kira"
+    },
+    {
+      "officialId": "neha-kumar",
+      "rosterName": "Neha Kumar",
+      "title": "Professor",
+      "profileUrl": "https://ic.gatech.edu/people/neha-kumar",
+      "portraitUrl": "https://ic.gatech.edu/sites/default/files/styles/profile_150x180_/public/images/profiles/2026-08/neha_web.jpg?itok=zd2A1bS2",
+      "officialSections": [
+        "Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://ic.gatech.edu/people/faculty",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Professor | Faculty | https://ic.gatech.edu/people/neha-kumar",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "cindy-kaiying-lin",
+      "rosterName": "Cindy Kaiying Lin",
+      "title": "Stephen Fleming Early Career Assistant Professor",
+      "profileUrl": "https://ic.gatech.edu/people/cindy-kaiying-lin",
+      "portraitUrl": "https://ic.gatech.edu/sites/default/files/styles/profile_150x180_/public/images/profiles/2025-03/cindylin.jpg?itok=L_QXZYzQ",
+      "officialSections": [
+        "Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://ic.gatech.edu/people/faculty",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Stephen Fleming Early Career Assistant Professor | Faculty | https://ic.gatech.edu/people/cindy-kaiying-lin",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "christopher-j-maclellan",
+      "rosterName": "Christopher J. MacLellan",
+      "title": "Associate Professor",
+      "profileUrl": "https://ic.gatech.edu/people/christopher-j-maclellan",
+      "portraitUrl": "https://ic.gatech.edu/sites/default/files/styles/profile_150x180_/public/images/profiles/2026-08/christopher_maclellan.jpg?itok=wsMk9Rji",
+      "officialSections": [
+        "Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://ic.gatech.edu/people/faculty",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Associate Professor | Faculty | https://ic.gatech.edu/people/christopher-j-maclellan",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "hyunjoo-oh",
+      "rosterName": "HyunJoo Oh",
+      "title": "Associate Professor, joint w/ School of…",
+      "profileUrl": "https://ic.gatech.edu/people/hyunjoo-oh",
+      "portraitUrl": "https://ic.gatech.edu/sites/default/files/styles/profile_150x180_/public/images/profiles/2026-08/headshot2.hyun_.joo_.oh_.jpg?itok=DgKeoS_5",
+      "officialSections": [
+        "Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://ic.gatech.edu/people/faculty",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Associate Professor, joint w/ School of… | Faculty | https://ic.gatech.edu/people/hyunjoo-oh",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "andrea-grimes-parker",
+      "rosterName": "Andrea Grimes Parker",
+      "title": "Associate Professor",
+      "profileUrl": "https://ic.gatech.edu/people/andrea-grimes-parker",
+      "portraitUrl": "https://ic.gatech.edu/sites/default/files/styles/profile_150x180_/public/images/profiles/2025-03/andrea_grimes_parker_1.png?itok=Xja4DP2t",
+      "officialSections": [
+        "Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://ic.gatech.edu/people/faculty",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Associate Professor | Faculty | https://ic.gatech.edu/people/andrea-grimes-parker",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "thomas-ploetz",
+      "rosterName": "Thomas Ploetz",
+      "title": "Professor and Associate Chair of Graduate Studies",
+      "profileUrl": "https://ic.gatech.edu/people/thomas-ploetz",
+      "portraitUrl": "https://ic.gatech.edu/sites/default/files/styles/profile_150x180_/public/images/profiles/2026-08/thomas_ploetz_0.png?itok=Ed570rWd",
+      "officialSections": [
+        "Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://ic.gatech.edu/people/faculty",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Professor and Associate Chair of Graduate Studies | Faculty | https://ic.gatech.edu/people/thomas-ploetz",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "harish-ravichandar",
+      "rosterName": "Harish Ravichandar",
+      "title": "Assistant Professor",
+      "profileUrl": "https://ic.gatech.edu/people/harish-ravichandar",
+      "portraitUrl": "https://ic.gatech.edu/sites/default/files/styles/profile_150x180_/public/images/profiles/2026-08/harish_ravichandar.jpeg?itok=5OxtmgcP",
+      "officialSections": [
+        "Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://ic.gatech.edu/people/faculty",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Assistant Professor | Faculty | https://ic.gatech.edu/people/harish-ravichandar",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "mark-riedl",
+      "rosterName": "Mark Riedl",
+      "title": "Professor",
+      "profileUrl": "https://ic.gatech.edu/people/mark-riedl",
+      "portraitUrl": "https://ic.gatech.edu/sites/default/files/styles/profile_150x180_/public/images/profiles/2026-08/riedl_mark.jpeg?itok=BgQHctG-",
+      "officialSections": [
+        "Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://ic.gatech.edu/people/faculty",
+      "decision": "included_existing",
+      "atlasPersonId": "mark-riedl-gatech",
+      "reason": "符合范围，且规范化姓名可与当前图谱人物唯一匹配。",
+      "evidence": "Professor | Faculty | https://ic.gatech.edu/people/mark-riedl"
+    },
+    {
+      "officialId": "alan-ritter",
+      "rosterName": "Alan Ritter",
+      "title": "Associate Professor",
+      "profileUrl": "https://ic.gatech.edu/people/alan-ritter",
+      "portraitUrl": "https://ic.gatech.edu/sites/default/files/styles/profile_150x180_/public/images/profiles/2026-08/ritter_alan.jpeg?itok=_q5g3cur",
+      "officialSections": [
+        "Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://ic.gatech.edu/people/faculty",
+      "decision": "included_existing",
+      "atlasPersonId": "alan-ritter-award",
+      "reason": "符合范围，且规范化姓名可与当前图谱人物唯一匹配。",
+      "evidence": "Associate Professor | Faculty | https://ic.gatech.edu/people/alan-ritter"
+    },
+    {
+      "officialId": "jessica-roberts",
+      "rosterName": "Jessica Roberts",
+      "title": "Associate Professor",
+      "profileUrl": "https://ic.gatech.edu/people/jessica-roberts",
+      "portraitUrl": "https://ic.gatech.edu/sites/default/files/styles/profile_150x180_/public/images/profiles/2025-08/jessica_roberts_0.png?itok=rs6jx89e",
+      "officialSections": [
+        "Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://ic.gatech.edu/people/faculty",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Associate Professor | Faculty | https://ic.gatech.edu/people/jessica-roberts",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "agata-rozga",
+      "rosterName": "Agata Rozga",
+      "title": "Principal Research Scientist",
+      "profileUrl": "https://ic.gatech.edu/people/agata-rozga",
+      "portraitUrl": "https://ic.gatech.edu/sites/default/files/styles/profile_150x180_/public/images/profiles/2025-03/rozga_agata.jpg?itok=KfAisCxk",
+      "officialSections": [
+        "Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://ic.gatech.edu/people/faculty",
+      "decision": "excluded_non_pi",
+      "reason": "官方职称或名录分组属于教学、兼职、附属、科研支持或其他非独立 PI 岗位。",
+      "evidence": "Principal Research Scientist | Faculty | https://ic.gatech.edu/people/agata-rozga"
+    },
+    {
+      "officialId": "humphrey-shi",
+      "rosterName": "Humphrey Shi",
+      "title": "Associate Professor",
+      "profileUrl": "https://ic.gatech.edu/people/humphrey-shi",
+      "portraitUrl": "https://ic.gatech.edu/sites/default/files/styles/profile_150x180_/public/images/profiles/2026-08/shi_humphrey_1.jpg?itok=ou8pDWuR",
+      "officialSections": [
+        "Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://ic.gatech.edu/people/faculty",
+      "decision": "included_existing",
+      "atlasPersonId": "humphrey-shi-gatech",
+      "reason": "符合范围，且规范化姓名可与当前图谱人物唯一匹配。",
+      "evidence": "Associate Professor | Faculty | https://ic.gatech.edu/people/humphrey-shi"
+    },
+    {
+      "officialId": "thad-starner",
+      "rosterName": "Thad Starner",
+      "title": "Professor",
+      "profileUrl": "https://ic.gatech.edu/people/thad-starner",
+      "portraitUrl": "https://ic.gatech.edu/sites/default/files/styles/profile_150x180_/public/images/profiles/2026-08/thad_starner_0.png?itok=E0uMYxNw",
+      "officialSections": [
+        "Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://ic.gatech.edu/people/faculty",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Professor | Faculty | https://ic.gatech.edu/people/thad-starner",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "john-stasko",
+      "rosterName": "John Stasko",
+      "title": "Professor Emeritus",
+      "profileUrl": "https://ic.gatech.edu/people/john-stasko",
+      "portraitUrl": "https://ic.gatech.edu/sites/default/files/styles/profile_150x180_/public/images/profiles/2026-08/john_stasko_0.jpg?itok=iPW-Vw-7",
+      "officialSections": [
+        "Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://ic.gatech.edu/people/faculty",
+      "decision": "excluded_historical",
+      "reason": "官方职称或名录分组明确为荣休、退休或历史人员。",
+      "evidence": "Professor Emeritus | Faculty | https://ic.gatech.edu/people/john-stasko"
+    },
+    {
+      "officialId": "jesse-thomason",
+      "rosterName": "Jesse Thomason",
+      "title": "Associate Professor",
+      "profileUrl": "https://ic.gatech.edu/people/jesse-thomason",
+      "portraitUrl": "https://ic.gatech.edu/sites/default/files/styles/profile_150x180_/public/images/profiles/2026-08/jessethomason.jpg?itok=NnOCWi08",
+      "officialSections": [
+        "Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://ic.gatech.edu/people/faculty",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Associate Professor | Faculty | https://ic.gatech.edu/people/jesse-thomason",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "greg-turk",
+      "rosterName": "Greg Turk",
+      "title": "Professor",
+      "profileUrl": "https://ic.gatech.edu/people/greg-turk",
+      "portraitUrl": "https://ic.gatech.edu/sites/default/files/styles/profile_150x180_/public/images/profiles/2026-08/greg_turk_0.png?itok=LiswMD6G",
+      "officialSections": [
+        "Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://ic.gatech.edu/people/faculty",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Professor | Faculty | https://ic.gatech.edu/people/greg-turk",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "judith-uchidiuno",
+      "rosterName": "Judith Uchidiuno",
+      "title": "Assistant Professor",
+      "profileUrl": "https://ic.gatech.edu/people/judith-uchidiuno",
+      "portraitUrl": "https://ic.gatech.edu/sites/default/files/styles/profile_150x180_/public/images/profiles/2025-03/uchidiuno_judith.jpg?itok=knlC6071",
+      "officialSections": [
+        "Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://ic.gatech.edu/people/faculty",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Assistant Professor | Faculty | https://ic.gatech.edu/people/judith-uchidiuno",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "sashank-varma",
+      "rosterName": "Sashank Varma",
+      "title": "Professor",
+      "profileUrl": "https://ic.gatech.edu/people/sashank-varma",
+      "portraitUrl": "https://ic.gatech.edu/sites/default/files/styles/profile_150x180_/public/images/profiles/2026-08/sashank_varma.jpg?itok=D5RfbxiC",
+      "officialSections": [
+        "Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://ic.gatech.edu/people/faculty",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Professor | Faculty | https://ic.gatech.edu/people/sashank-varma",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "bruce-walker",
+      "rosterName": "Bruce Walker",
+      "title": "Professor (Joint with School of Psychology)",
+      "profileUrl": "https://ic.gatech.edu/people/bruce-walker",
+      "portraitUrl": "https://ic.gatech.edu/sites/default/files/styles/profile_150x180_/public/images/profiles/2026-08/bruce_walker_0.png?itok=ALOmjVhW",
+      "officialSections": [
+        "Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://ic.gatech.edu/people/faculty",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Professor (Joint with School of Psychology) | Faculty | https://ic.gatech.edu/people/bruce-walker",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "cindy-xiong",
+      "rosterName": "Cindy Xiong",
+      "title": "Assistant Professor",
+      "profileUrl": "https://ic.gatech.edu/people/cindy-xiong",
+      "portraitUrl": "https://ic.gatech.edu/sites/default/files/styles/profile_150x180_/public/images/profiles/2025-03/2x6a2954_copy.jpg?itok=rsgFBJRp",
+      "officialSections": [
+        "Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://ic.gatech.edu/people/faculty",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Assistant Professor | Faculty | https://ic.gatech.edu/people/cindy-xiong",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "danfei-xu",
+      "rosterName": "Danfei Xu",
+      "title": "Assistant Professor",
+      "profileUrl": "https://ic.gatech.edu/people/danfei-xu",
+      "portraitUrl": "https://ic.gatech.edu/sites/default/files/styles/profile_150x180_/public/images/profiles/2026-08/danfeixu2.jpg?itok=kHsRPiiZ",
+      "officialSections": [
+        "Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://ic.gatech.edu/people/faculty",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Assistant Professor | Faculty | https://ic.gatech.edu/people/danfei-xu",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "wei-xu",
+      "rosterName": "Wei Xu",
+      "title": "Associate Professor",
+      "profileUrl": "https://ic.gatech.edu/people/wei-xu",
+      "portraitUrl": "https://ic.gatech.edu/sites/default/files/styles/profile_150x180_/public/images/profiles/2026-08/wei_xu_0.png?itok=T4Oe__YZ",
+      "officialSections": [
+        "Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://ic.gatech.edu/people/faculty",
+      "decision": "included_existing",
+      "atlasPersonId": "wei-xu-award",
+      "reason": "符合范围，且规范化姓名可与当前图谱人物唯一匹配。",
+      "evidence": "Associate Professor | Faculty | https://ic.gatech.edu/people/wei-xu"
+    },
+    {
+      "officialId": "yalong-yang",
+      "rosterName": "Yalong Yang",
+      "title": "Assistant Professor",
+      "profileUrl": "https://ic.gatech.edu/people/yalong-yang",
+      "portraitUrl": "https://ic.gatech.edu/sites/default/files/styles/profile_150x180_/public/images/profiles/2025-03/yalong_yang.jpg?itok=_j49SOQ3",
+      "officialSections": [
+        "Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://ic.gatech.edu/people/faculty",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Assistant Professor | Faculty | https://ic.gatech.edu/people/yalong-yang",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "bo-zhu",
+      "rosterName": "Bo Zhu",
+      "title": "Associate Professor",
+      "profileUrl": "https://ic.gatech.edu/people/bo-zhu",
+      "portraitUrl": "https://ic.gatech.edu/sites/default/files/styles/profile_150x180_/public/images/profiles/2025-08/zhu_bo.png?itok=pH3HXdTL",
+      "officialSections": [
+        "Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://ic.gatech.edu/people/faculty",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Associate Professor | Faculty | https://ic.gatech.edu/people/bo-zhu",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    }
+  ]
+}

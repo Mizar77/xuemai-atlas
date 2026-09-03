@@ -1,0 +1,2724 @@
+{
+  "schemaVersion": 1,
+  "unitId": "umich-cse",
+  "unitLabel": "University of Michigan Computer Science and Engineering",
+  "unitUrl": "https://cse.engin.umich.edu/people/faculty/",
+  "snapshotAt": "2026-09-03",
+  "rosterArtifact": "data/official-rosters/umich-cse-all-faculty-2026-09-02.json",
+  "frozenOfficialRosterCount": 161,
+  "rawRosterRowCount": 161,
+  "duplicateRosterCardCount": 0,
+  "deduplicatedRosterPersonCount": 161,
+  "decisionCount": 161,
+  "counts": {
+    "excluded_historical": 19,
+    "excluded_non_pi": 75,
+    "include_new_pi": 67
+  },
+  "decisions": [
+    {
+      "officialId": "ackerm",
+      "rosterName": "Ackerman, Mark S.",
+      "title": "George Herbert Mead Collegiate Professor Emeritus of Human-Computer Interaction · Professor Emeritus, School of Information · Professor Emeritus, EECS – Computer Science and Engineering · Professor Emeritus of Learning Health Sciences , Medical School",
+      "profileUrl": "https://www.eecs.umich.edu/~ackerm",
+      "portraitUrl": "https://eecs.engin.umich.edu/wp-content/uploads/portraits/ackerm.jpg",
+      "officialSections": [
+        "All Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://cse.engin.umich.edu/people/faculty/",
+      "decision": "excluded_historical",
+      "reason": "官方职称或名录分组明确为荣休、退休或历史人员。",
+      "evidence": "George Herbert Mead Collegiate Professor Emeritus of Human-Computer Interaction · Professor Emeritus, School of Information · Professor Emeritus, EECS – Computer Science and Engineering · Professor Emeritus of Learning Health Sciences , Medical School | All Faculty | https://www.eecs.umich.edu/~ackerm"
+    },
+    {
+      "officialId": "eadar",
+      "rosterName": "Adar, Eytan",
+      "title": "Professor, School of Information · Professor (courtesy), EECS – Computer Science and Engineering",
+      "profileUrl": "http://www.cond.org/",
+      "portraitUrl": "https://eecs.engin.umich.edu/wp-content/uploads/portraits/eadar.jpg",
+      "officialSections": [
+        "All Faculty"
+      ],
+      "researchFields": [
+        "Human-Computer Interaction, Visualization, Text Mining, and Social Network Analysis"
+      ],
+      "unitUrl": "https://cse.engin.umich.edu/people/faculty/",
+      "decision": "excluded_non_pi",
+      "reason": "官方职称或名录分组属于教学、兼职、附属、科研支持或其他非独立 PI 岗位。",
+      "evidence": "Professor, School of Information · Professor (courtesy), EECS – Computer Science and Engineering | All Faculty | Human-Computer Interaction, Visualization, Text Mining, and Social Network Analysis | http://www.cond.org/"
+    },
+    {
+      "officialId": "adlerdan",
+      "rosterName": "Adler, Dan",
+      "title": "Assistant Professor, EECS- Computer Science and Engineering",
+      "profileUrl": "https://dadler.co/",
+      "portraitUrl": "https://cse.engin.umich.edu/wp-content/uploads/2025/08/adler.jpg",
+      "officialSections": [
+        "All Faculty"
+      ],
+      "researchFields": [
+        "Human-Computer Interaction, Responsible AI, Computing for Healthcare, Ubiquitous Computing, Multimodal Machine Learning"
+      ],
+      "unitUrl": "https://cse.engin.umich.edu/people/faculty/",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Assistant Professor, EECS- Computer Science and Engineering | All Faculty | Human-Computer Interaction, Responsible AI, Computing for Healthcare, Ubiquitous Computing, Multimodal Machine Learning | https://dadler.co/",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "almomani",
+      "rosterName": "Almomani, Raed",
+      "title": "Lecturer I, EECS – Computer Science and Engineering",
+      "profileUrl": "https://cse.engin.umich.edu/people/faculty/",
+      "portraitUrl": "https://eecs.engin.umich.edu/wp-content/uploads/portraits/almomani.jpg",
+      "officialSections": [
+        "All Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://cse.engin.umich.edu/people/faculty/",
+      "decision": "excluded_non_pi",
+      "reason": "官方职称或名录分组属于教学、兼职、附属、科研支持或其他非独立 PI 岗位。",
+      "evidence": "Lecturer I, EECS – Computer Science and Engineering | All Faculty | https://cse.engin.umich.edu/people/faculty/"
+    },
+    {
+      "officialId": "warthur",
+      "rosterName": "Arthur, William",
+      "title": "Lecturer IV, EECS – Computer Science and Engineeing",
+      "profileUrl": "http://web.eecs.umich.edu/~warthur/",
+      "portraitUrl": "https://eecs.engin.umich.edu/wp-content/uploads/portraits/warthur.jpg",
+      "officialSections": [
+        "All Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://cse.engin.umich.edu/people/faculty/",
+      "decision": "excluded_non_pi",
+      "reason": "官方职称或名录分组属于教学、兼职、附属、科研支持或其他非独立 PI 岗位。",
+      "evidence": "Lecturer IV, EECS – Computer Science and Engineeing | All Faculty | http://web.eecs.umich.edu/~warthur/"
+    },
+    {
+      "officialId": "atkins",
+      "rosterName": "Atkins, Daniel E.",
+      "title": "Professor Emeritus, School of Information · Professor Emeritus, EECS – Computer Science and Engineering",
+      "profileUrl": "https://cse.engin.umich.edu/people/faculty/",
+      "portraitUrl": "https://eecs.engin.umich.edu/wp-content/uploads/portraits/atkins.jpg",
+      "officialSections": [
+        "All Faculty"
+      ],
+      "researchFields": [
+        "Library and Information Services"
+      ],
+      "unitUrl": "https://cse.engin.umich.edu/people/faculty/",
+      "decision": "excluded_historical",
+      "reason": "官方职称或名录分组明确为荣休、退休或历史人员。",
+      "evidence": "Professor Emeritus, School of Information · Professor Emeritus, EECS – Computer Science and Engineering | All Faculty | Library and Information Services | https://cse.engin.umich.edu/people/faculty/"
+    },
+    {
+      "officialId": "austin",
+      "rosterName": "Austin, Todd",
+      "title": "S. Jack Hu Collegiate Professor of Computer Science and Engineering · Professor, EECS – Computer Science and Engineering · Professor (courtesy), EECS – Electrical and Computer Engineering · Director, Computer Engineering Lab · he/him/his",
+      "profileUrl": "http://web.eecs.umich.edu/~taustin/",
+      "portraitUrl": "https://eecs.engin.umich.edu/wp-content/uploads/portraits/austin.jpg",
+      "officialSections": [
+        "All Faculty"
+      ],
+      "researchFields": [
+        "Computer architecture, robust and secure system design, hardware and software verification, and performance analysis tools and techniques."
+      ],
+      "unitUrl": "https://cse.engin.umich.edu/people/faculty/",
+      "decision": "excluded_non_pi",
+      "reason": "官方职称或名录分组属于教学、兼职、附属、科研支持或其他非独立 PI 岗位。",
+      "evidence": "S. Jack Hu Collegiate Professor of Computer Science and Engineering · Professor, EECS – Computer Science and Engineering · Professor (courtesy), EECS – Electrical and Computer Engineering · Director, Computer Engineering Lab · he/him/his | All Faculty | Computer architecture, robust and secure system design, hardware and software verification, and performance analysis tools and techniques. | http://web.eecs.umich.edu/~taustin/"
+    },
+    {
+      "officialId": "nbanovic",
+      "rosterName": "Banovic, Nikola",
+      "title": "Associate Professor, EECS – Computer Science and Engineering · Associate Director, Michigan Institute for Data Science · he/him/his",
+      "profileUrl": "http://www.nikolabanovic.net/",
+      "portraitUrl": "https://cse.engin.umich.edu/wp-content/uploads/2023/11/banovic-n.jpg",
+      "officialSections": [
+        "All Faculty"
+      ],
+      "researchFields": [
+        "Human-Computer Interaction, Explainable AI, Responsible AI."
+      ],
+      "unitUrl": "https://cse.engin.umich.edu/people/faculty/",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Associate Professor, EECS – Computer Science and Engineering · Associate Director, Michigan Institute for Data Science · he/him/his | All Faculty | Human-Computer Interaction, Explainable AI, Responsible AI. | http://www.nikolabanovic.net/",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "bansaln",
+      "rosterName": "Bansal, Nikhil",
+      "title": "Patrick C. Fischer Professor of Theoretical Computer Science · Professor, EECS – Computer Science and Engineering · Director, Theory of Computation Lab",
+      "profileUrl": "https://bansal.engin.umich.edu/",
+      "portraitUrl": "https://cse.engin.umich.edu/wp-content/uploads/2022/01/nikhil.jpg",
+      "officialSections": [
+        "All Faculty"
+      ],
+      "researchFields": [
+        "Algorithms, Optimization, Machine Learning, Discrete Mathematics."
+      ],
+      "unitUrl": "https://cse.engin.umich.edu/people/faculty/",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Patrick C. Fischer Professor of Theoretical Computer Science · Professor, EECS – Computer Science and Engineering · Director, Theory of Computation Lab | All Faculty | Algorithms, Optimization, Machine Learning, Discrete Mathematics. | https://bansal.engin.umich.edu/",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "baveja",
+      "rosterName": "Baveja, Satinder Singh",
+      "title": "Professor, EECS – Computer Science and Engineering",
+      "profileUrl": "http://web.eecs.umich.edu/~baveja",
+      "portraitUrl": "https://eecs.engin.umich.edu/wp-content/uploads/portraits/baveja.jpg",
+      "officialSections": [
+        "All Faculty"
+      ],
+      "researchFields": [
+        "Reinforcement Learning, Machine Learning, Computational Game Theory, Adaptive Human Computer Interaction."
+      ],
+      "unitUrl": "https://cse.engin.umich.edu/people/faculty/",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Professor, EECS – Computer Science and Engineering | All Faculty | Reinforcement Learning, Machine Learning, Computational Game Theory, Adaptive Human Computer Interaction. | http://web.eecs.umich.edu/~baveja",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "jbbeau",
+      "rosterName": "Beaumont, Jonathan",
+      "title": "Lecturer IV, EECS – Computer Science and Engineering · he/him/his",
+      "profileUrl": "https://cse.engin.umich.edu/people/faculty/",
+      "portraitUrl": "https://eecs.engin.umich.edu/wp-content/uploads/portraits/jbbeau.jpg",
+      "officialSections": [
+        "All Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://cse.engin.umich.edu/people/faculty/",
+      "decision": "excluded_non_pi",
+      "reason": "官方职称或名录分组属于教学、兼职、附属、科研支持或其他非独立 PI 岗位。",
+      "evidence": "Lecturer IV, EECS – Computer Science and Engineering · he/him/his | All Faculty | https://cse.engin.umich.edu/people/faculty/"
+    },
+    {
+      "officialId": "valeria",
+      "rosterName": "Bertacco, Valeria",
+      "title": "Arthur F. Thurnau Professor · Mary Lou Dorf Collegiate Professor of Computer Science and Engineering, College of Engineering · Vice Provost for Engaged Learning, Office of the Provost · Professor, EECS – Computer Science and Engineering",
+      "profileUrl": "http://web.eecs.umich.edu/~valeria",
+      "portraitUrl": "https://eecs.engin.umich.edu/wp-content/uploads/portraits/valeria.jpg",
+      "officialSections": [
+        "All Faculty"
+      ],
+      "researchFields": [
+        "Improving the functional correctness of digital integrated circuits, by developing technology that attacks the issue at design time, in post-silicon, and throughout the lifetime of a digital integrated component, in face of the challenges posed by fragile silicon and extreme design complexity."
+      ],
+      "unitUrl": "https://cse.engin.umich.edu/people/faculty/",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Arthur F. Thurnau Professor · Mary Lou Dorf Collegiate Professor of Computer Science and Engineering, College of Engineering · Vice Provost for Engaged Learning, Office of the Provost · Professor, EECS – Computer Science and Engineering | All Faculty | Improving the functional correctness of digital integrated circuits, by developing technology that attacks the issue at design time, in post-silicon, and throughout the lifetime of a digital integrated component, in face of the challenges posed by fragile silicon and extreme design complexity. | http://web.eecs.umich.edu/~valeria",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "nbleier",
+      "rosterName": "Bleier, Nathaniel",
+      "title": "Assistant Professor, EECS – Computer Science and Engineering",
+      "profileUrl": "https://crucible.eecs.umich.edu/",
+      "portraitUrl": "https://cse.engin.umich.edu/wp-content/uploads/2024/06/Bleier-705.jpg",
+      "officialSections": [
+        "All Faculty"
+      ],
+      "researchFields": [
+        "Extending the reach of computing to new applications and domains whose constraints are not met by traditional computing platforms through the development of novel chips, architectures, and systems."
+      ],
+      "unitUrl": "https://cse.engin.umich.edu/people/faculty/",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Assistant Professor, EECS – Computer Science and Engineering | All Faculty | Extending the reach of computing to new applications and domains whose constraints are not met by traditional computing platforms through the development of novel chips, architectures, and systems. | https://crucible.eecs.umich.edu/",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "bodwin",
+      "rosterName": "Bodwin, Greg",
+      "title": "Associate Professor, EECS – Computer Science and Engineering",
+      "profileUrl": "https://bodwin.engin.umich.edu/",
+      "portraitUrl": "https://cse.engin.umich.edu/wp-content/uploads/2022/01/bodwin.jpg",
+      "officialSections": [
+        "All Faculty"
+      ],
+      "researchFields": [
+        "Graph algorithms, data structures, sketching, game theory, and combinatorics."
+      ],
+      "unitUrl": "https://cse.engin.umich.edu/people/faculty/",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Associate Professor, EECS – Computer Science and Engineering | All Faculty | Graph algorithms, data structures, sketching, game theory, and combinatorics. | https://bodwin.engin.umich.edu/",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "bogaerts",
+      "rosterName": "Bogaerts, Steven",
+      "title": "Lecturer IV, EECS – Computer Science and Engineering",
+      "profileUrl": "https://cse.engin.umich.edu/people/faculty/",
+      "portraitUrl": "https://cse.engin.umich.edu/wp-content/uploads/2023/09/bogaerts.jpg",
+      "officialSections": [
+        "All Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://cse.engin.umich.edu/people/faculty/",
+      "decision": "excluded_non_pi",
+      "reason": "官方职称或名录分组属于教学、兼职、附属、科研支持或其他非独立 PI 岗位。",
+      "evidence": "Lecturer IV, EECS – Computer Science and Engineering | All Faculty | https://cse.engin.umich.edu/people/faculty/"
+    },
+    {
+      "officialId": "ecbk",
+      "rosterName": "Bondi-Kelly, Elizabeth",
+      "title": "Assistant Professor, EECS – Computer Science and Engineering · she/her/hers",
+      "profileUrl": "https://www.sites.google.com/view/elizabethbondi",
+      "portraitUrl": "https://cse.engin.umich.edu/wp-content/uploads/2023/11/bondi.jpg",
+      "officialSections": [
+        "All Faculty"
+      ],
+      "researchFields": [
+        "Multi-agent systems, human-AI collaboration, and machine learning for social impact."
+      ],
+      "unitUrl": "https://cse.engin.umich.edu/people/faculty/",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Assistant Professor, EECS – Computer Science and Engineering · she/her/hers | All Faculty | Multi-agent systems, human-AI collaboration, and machine learning for social impact. | https://www.sites.google.com/view/elizabethbondi",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "brehob",
+      "rosterName": "Brehob, Mark",
+      "title": "Kurt Metzger Collegiate Lecturer · Teaching Professor, EECS – Computer Science and Engineering · Teaching Professor (courtesy), EECS – Electrical and Computer Engineering · he/him/his",
+      "profileUrl": "http://web.eecs.umich.edu/~brehob/",
+      "portraitUrl": "https://eecs.engin.umich.edu/wp-content/uploads/portraits/brehob.jpg",
+      "officialSections": [
+        "All Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://cse.engin.umich.edu/people/faculty/",
+      "decision": "excluded_non_pi",
+      "reason": "官方职称或名录分组属于教学、兼职、附属、科研支持或其他非独立 PI 岗位。",
+      "evidence": "Kurt Metzger Collegiate Lecturer · Teaching Professor, EECS – Computer Science and Engineering · Teaching Professor (courtesy), EECS – Electrical and Computer Engineering · he/him/his | All Faculty | http://web.eecs.umich.edu/~brehob/"
+    },
+    {
+      "officialId": "bucherb",
+      "rosterName": "Bucher, Bernadette",
+      "title": "Assistant Professor, Robotics · Assistant Professor (courtesy), EECS – Computer Science and Engineering",
+      "profileUrl": "https://bucherb.github.io/",
+      "portraitUrl": "https://cse.engin.umich.edu/wp-content/uploads/2024/08/bb.jpg",
+      "officialSections": [
+        "All Faculty"
+      ],
+      "researchFields": [
+        "Robot learning, mobile manipulation, computer vision, natural language instruction following in robotics, applications of robotics and computer vision in science and medicine"
+      ],
+      "unitUrl": "https://cse.engin.umich.edu/people/faculty/",
+      "decision": "excluded_non_pi",
+      "reason": "官方职称或名录分组属于教学、兼职、附属、科研支持或其他非独立 PI 岗位。",
+      "evidence": "Assistant Professor, Robotics · Assistant Professor (courtesy), EECS – Computer Science and Engineering | All Faculty | Robot learning, mobile manipulation, computer vision, natural language instruction following in robotics, applications of robotics and computer vision in science and medicine | https://bucherb.github.io/"
+    },
+    {
+      "officialId": "cbudak",
+      "rosterName": "Budak, Ceren",
+      "title": "Associate Professor, School of Information · Affiliate Faculty, EECS – Computer Science and Engineering",
+      "profileUrl": "http://cbudak.com/index.html",
+      "portraitUrl": "https://eecs.engin.umich.edu/wp-content/uploads/portraits/cbudak.jpg",
+      "officialSections": [
+        "All Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://cse.engin.umich.edu/people/faculty/",
+      "decision": "excluded_non_pi",
+      "reason": "官方职称或名录分组属于教学、兼职、附属、科研支持或其他非独立 PI 岗位。",
+      "evidence": "Associate Professor, School of Information · Affiliate Faculty, EECS – Computer Science and Engineering | All Faculty | http://cbudak.com/index.html"
+    },
+    {
+      "officialId": "henrych",
+      "rosterName": "Chai, Henry",
+      "title": "Lecturer III, EECS – Computer Science and Engineering",
+      "profileUrl": "https://henrych.engin.umich.edu/",
+      "portraitUrl": "https://cse.engin.umich.edu/wp-content/uploads/2025/04/henry-chai.jpg",
+      "officialSections": [
+        "All Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://cse.engin.umich.edu/people/faculty/",
+      "decision": "excluded_non_pi",
+      "reason": "官方职称或名录分组属于教学、兼职、附属、科研支持或其他非独立 PI 岗位。",
+      "evidence": "Lecturer III, EECS – Computer Science and Engineering | All Faculty | https://henrych.engin.umich.edu/"
+    },
+    {
+      "officialId": "chaijy",
+      "rosterName": "Chai, Joyce",
+      "title": "Professor, EECS – Computer Science and Engineering",
+      "profileUrl": "https://web.eecs.umich.edu/~chaijy/",
+      "portraitUrl": "https://eecs.engin.umich.edu/wp-content/uploads/portraits/chaijy.jpg",
+      "officialSections": [
+        "All Faculty"
+      ],
+      "researchFields": [
+        "Natural language processing, language grounding to vision and robotics, situated human-machine communication, interactive task learning."
+      ],
+      "unitUrl": "https://cse.engin.umich.edu/people/faculty/",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Professor, EECS – Computer Science and Engineering | All Faculty | Natural language processing, language grounding to vision and robotics, situated human-machine communication, interactive task learning. | https://web.eecs.umich.edu/~chaijy/",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "dcsmc",
+      "rosterName": "Chakraborty, Mithun",
+      "title": "Associate Research Scientist, EECS – Computer Science and Engineering · he/him/his",
+      "profileUrl": "https://sites.google.com/umich.edu/mithunchakra/",
+      "portraitUrl": "https://cse.engin.umich.edu/wp-content/uploads/2023/11/mithun.jpg",
+      "officialSections": [
+        "All Faculty"
+      ],
+      "researchFields": [
+        "Multi-Agent Systems, Computational Economics, Algorithmic Game Theory and Mechanism Design, Fair Allocation, Collective Forecasting."
+      ],
+      "unitUrl": "https://cse.engin.umich.edu/people/faculty/",
+      "decision": "excluded_non_pi",
+      "reason": "官方职称或名录分组属于教学、兼职、附属、科研支持或其他非独立 PI 岗位。",
+      "evidence": "Associate Research Scientist, EECS – Computer Science and Engineering · he/him/his | All Faculty | Multi-Agent Systems, Computational Economics, Algorithmic Game Theory and Mechanism Design, Fair Allocation, Collective Forecasting. | https://sites.google.com/umich.edu/mithunchakra/"
+    },
+    {
+      "officialId": "chenang",
+      "rosterName": "Chen, Ang",
+      "title": "Associate Professor, EECS – Computer Science and Engineering · Associate Director, Systems Lab",
+      "profileUrl": "https://web.eecs.umich.edu/~chenang/",
+      "portraitUrl": "https://cse.engin.umich.edu/wp-content/uploads/2023/08/ang-chen.jpg",
+      "officialSections": [
+        "All Faculty"
+      ],
+      "researchFields": [
+        "Systems, networking, security."
+      ],
+      "unitUrl": "https://cse.engin.umich.edu/people/faculty/",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Associate Professor, EECS – Computer Science and Engineering · Associate Director, Systems Lab | All Faculty | Systems, networking, security. | https://web.eecs.umich.edu/~chenang/",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "jiasi",
+      "rosterName": "Chen, Jiasi",
+      "title": "Associate Professor, EECS – Electrical and Computer Engineering · Associate Professor (courtesy), EECS – Computer Science and Engineering",
+      "profileUrl": "https://jiasi.engin.umich.edu/",
+      "portraitUrl": "https://cse.engin.umich.edu/wp-content/uploads/2023/09/jiasichen-web.jpg",
+      "officialSections": [
+        "All Faculty"
+      ],
+      "researchFields": [
+        "Computer networks, mobile computing, multimedia systems, augmented/virtual reality."
+      ],
+      "unitUrl": "https://cse.engin.umich.edu/people/faculty/",
+      "decision": "excluded_non_pi",
+      "reason": "官方职称或名录分组属于教学、兼职、附属、科研支持或其他非独立 PI 岗位。",
+      "evidence": "Associate Professor, EECS – Electrical and Computer Engineering · Associate Professor (courtesy), EECS – Computer Science and Engineering | All Faculty | Computer networks, mobile computing, multimedia systems, augmented/virtual reality. | https://jiasi.engin.umich.edu/"
+    },
+    {
+      "officialId": "pmchen",
+      "rosterName": "Chen, Peter M.",
+      "title": "Arthur F. Thurnau Professor · Professor, EECS – Computer Science and Engineering",
+      "profileUrl": "http://web.eecs.umich.edu/~pmchen",
+      "portraitUrl": "https://eecs.engin.umich.edu/wp-content/uploads/portraits/pmchen.jpg",
+      "officialSections": [
+        "All Faculty"
+      ],
+      "researchFields": [
+        "Operating systems, computer security, virtual machines, fault-tolerant computing."
+      ],
+      "unitUrl": "https://cse.engin.umich.edu/people/faculty/",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Arthur F. Thurnau Professor · Professor, EECS – Computer Science and Engineering | All Faculty | Operating systems, computer security, virtual machines, fault-tolerant computing. | http://web.eecs.umich.edu/~pmchen",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "mahdich",
+      "rosterName": "Cheraghchi, Mahdi",
+      "title": "Associate Professor, EECS – Computer Science and Engineering · he/him/his",
+      "profileUrl": "https://mahdi.ch/",
+      "portraitUrl": "https://cse.engin.umich.edu/wp-content/uploads/2021/10/mahdich2.jpg",
+      "officialSections": [
+        "All Faculty"
+      ],
+      "researchFields": [
+        "All theoretical aspects of CS, especially the role of information and coding theory in cryptography, complexity, algorithms, and high-dimensional geometry."
+      ],
+      "unitUrl": "https://cse.engin.umich.edu/people/faculty/",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Associate Professor, EECS – Computer Science and Engineering · he/him/his | All Faculty | All theoretical aspects of CS, especially the role of information and coding theory in cryptography, complexity, algorithms, and high-dimensional geometry. | https://mahdi.ch/",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "chesneyd",
+      "rosterName": "Chesney, David",
+      "title": "Collegiate Lecturer Emeritus, EECS – Computer Science and Engineering · Teaching Professor Emeritus, EECS – Computer Science and Engineering",
+      "profileUrl": "https://chesneyd.engin.umich.edu/",
+      "portraitUrl": "https://eecs.engin.umich.edu/wp-content/uploads/portraits/chesneyd.jpg",
+      "officialSections": [
+        "All Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://cse.engin.umich.edu/people/faculty/",
+      "decision": "excluded_historical",
+      "reason": "官方职称或名录分组明确为荣休、退休或历史人员。",
+      "evidence": "Collegiate Lecturer Emeritus, EECS – Computer Science and Engineering · Teaching Professor Emeritus, EECS – Computer Science and Engineering | All Faculty | https://chesneyd.engin.umich.edu/"
+    },
+    {
+      "officialId": "mosharaf",
+      "rosterName": "Chowdhury, Mosharaf",
+      "title": "Associate Professor, EECS – Computer Science and Engineering",
+      "profileUrl": "https://www.mosharaf.com/",
+      "portraitUrl": "https://eecs.engin.umich.edu/wp-content/uploads/portraits/mosharaf.jpg",
+      "officialSections": [
+        "All Faculty"
+      ],
+      "researchFields": [
+        "Systems for AI; Networked Systems; and Cloud Computing."
+      ],
+      "unitUrl": "https://cse.engin.umich.edu/people/faculty/",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Associate Professor, EECS – Computer Science and Engineering | All Faculty | Systems for AI; Networked Systems; and Cloud Computing. | https://www.mosharaf.com/",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "kjc",
+      "rosterName": "Compton, Kevin J.",
+      "title": "Associate Professor Emeritus, EECS – Computer Science and Engineering",
+      "profileUrl": "http://web.eecs.umich.edu/~kjc",
+      "portraitUrl": "https://eecs.engin.umich.edu/wp-content/uploads/portraits/kjc.jpg",
+      "officialSections": [
+        "All Faculty"
+      ],
+      "researchFields": [
+        "Theory of computation, Complexity of combinatorial and logical problems, analysis of algorithms, automata theory"
+      ],
+      "unitUrl": "https://cse.engin.umich.edu/people/faculty/",
+      "decision": "excluded_historical",
+      "reason": "官方职称或名录分组明确为荣休、退休或历史人员。",
+      "evidence": "Associate Professor Emeritus, EECS – Computer Science and Engineering | All Faculty | Theory of computation, Complexity of combinatorial and logical problems, analysis of algorithms, automata theory | http://web.eecs.umich.edu/~kjc"
+    },
+    {
+      "officialId": "jjcorso",
+      "rosterName": "Corso, Jason",
+      "title": "Professor, Robotics · Professor, EECS – Electrical and Computer Engineering · Professor (courtesy), EECS – Computer Science and Engineering",
+      "profileUrl": "http://web.eecs.umich.edu/~jjcorso/",
+      "portraitUrl": "https://cse.engin.umich.edu/wp-content/uploads/2020/08/corso-jason-2020.jpg",
+      "officialSections": [
+        "All Faculty"
+      ],
+      "researchFields": [
+        "Computer vision, robotics, artificial intelligence."
+      ],
+      "unitUrl": "https://cse.engin.umich.edu/people/faculty/",
+      "decision": "excluded_non_pi",
+      "reason": "官方职称或名录分组属于教学、兼职、附属、科研支持或其他非独立 PI 岗位。",
+      "evidence": "Professor, Robotics · Professor, EECS – Electrical and Computer Engineering · Professor (courtesy), EECS – Computer Science and Engineering | All Faculty | Computer vision, robotics, artificial intelligence. | http://web.eecs.umich.edu/~jjcorso/"
+    },
+    {
+      "officialId": "mmdarden",
+      "rosterName": "Darden, Marcus",
+      "title": "Teaching Professor, EECS – Computer Science and Engineering · he/him/his",
+      "profileUrl": "https://cse.engin.umich.edu/people/faculty/",
+      "portraitUrl": "https://eecs.engin.umich.edu/wp-content/uploads/portraits/mmdarden.jpg",
+      "officialSections": [
+        "All Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://cse.engin.umich.edu/people/faculty/",
+      "decision": "excluded_non_pi",
+      "reason": "官方职称或名录分组属于教学、兼职、附属、科研支持或其他非独立 PI 岗位。",
+      "evidence": "Teaching Professor, EECS – Computer Science and Engineering · he/him/his | All Faculty | https://cse.engin.umich.edu/people/faculty/"
+    },
+    {
+      "officialId": "reetudas",
+      "rosterName": "Das, Reetuparna",
+      "title": "Professor, EECS – Computer Science and Engineering · Associate Director, Computer Engineering Lab",
+      "profileUrl": "http://web.eecs.umich.edu/~reetudas/",
+      "portraitUrl": "https://eecs.engin.umich.edu/wp-content/uploads/portraits/reetudas.jpg",
+      "officialSections": [
+        "All Faculty"
+      ],
+      "researchFields": [
+        "Computer architecture, and its interaction with software systems and device/VLSI technologies. Specialized interests include on-chip interconnection networks, three-dimensional IC design, and multi-core memory systems."
+      ],
+      "unitUrl": "https://cse.engin.umich.edu/people/faculty/",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Professor, EECS – Computer Science and Engineering · Associate Director, Computer Engineering Lab | All Faculty | Computer architecture, and its interaction with software systems and device/VLSI technologies. Specialized interests include on-chip interconnection networks, three-dimensional IC design, and multi-core memory systems. | http://web.eecs.umich.edu/~reetudas/",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "davidson",
+      "rosterName": "Davidson, Edward S",
+      "title": "Professor Emeritus, EECS – Computer Science and Engineering",
+      "profileUrl": "http://web.eecs.umich.edu/~davidson",
+      "portraitUrl": "https://cse.engin.umich.edu/wp-content/uploads/2020/02/ed-davidson.jpg",
+      "officialSections": [
+        "All Faculty"
+      ],
+      "researchFields": [
+        "Computer architecture, parallel and pipelined computing, performance modeling of computer systems"
+      ],
+      "unitUrl": "https://cse.engin.umich.edu/people/faculty/",
+      "decision": "excluded_historical",
+      "reason": "官方职称或名录分组明确为荣休、退休或历史人员。",
+      "evidence": "Professor Emeritus, EECS – Computer Science and Engineering | All Faculty | Computer architecture, parallel and pipelined computing, performance modeling of computer systems | http://web.eecs.umich.edu/~davidson"
+    },
+    {
+      "officialId": "awdeorio",
+      "rosterName": "DeOrio, Andrew W.",
+      "title": "Teaching Professor, EECS – Computer Science and Engineering · CSE Associate Chair for Undergraduate Affairs · he/him/his",
+      "profileUrl": "https://andrewdeorio.com/",
+      "portraitUrl": "https://cse.engin.umich.edu/wp-content/uploads/2023/11/deorio.jpg",
+      "officialSections": [
+        "All Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://cse.engin.umich.edu/people/faculty/",
+      "decision": "excluded_non_pi",
+      "reason": "官方职称或名录分组属于教学、兼职、附属、科研支持或其他非独立 PI 岗位。",
+      "evidence": "Teaching Professor, EECS – Computer Science and Engineering · CSE Associate Chair for Undergraduate Affairs · he/him/his | All Faculty | https://andrewdeorio.com/"
+    },
+    {
+      "officialId": "derezin",
+      "rosterName": "Dereziński, Michał",
+      "title": "Assistant Professor, EECS – Computer Science and Engineering",
+      "profileUrl": "https://web.eecs.umich.edu/~derezin/",
+      "portraitUrl": "https://cse.engin.umich.edu/wp-content/uploads/2021/08/dere.jpg",
+      "officialSections": [
+        "All Faculty"
+      ],
+      "researchFields": [
+        "Machine learning and statistical learning theory, scalable stochastic and distributed optimization, randomized numerical linear algebra, dimensionality reduction."
+      ],
+      "unitUrl": "https://cse.engin.umich.edu/people/faculty/",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Assistant Professor, EECS – Computer Science and Engineering | All Faculty | Machine learning and statistical learning theory, scalable stochastic and distributed optimization, randomized numerical linear algebra, dimensionality reduction. | https://web.eecs.umich.edu/~derezin/",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "sdexter",
+      "rosterName": "Dexter, Scott",
+      "title": "Lecturer III, EECS – Computer Science and Engineering",
+      "profileUrl": "https://sdexter.engin.umich.edu/",
+      "portraitUrl": "https://cse.engin.umich.edu/wp-content/uploads/2024/03/sd2.jpg",
+      "officialSections": [
+        "All Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://cse.engin.umich.edu/people/faculty/",
+      "decision": "excluded_non_pi",
+      "reason": "官方职称或名录分组属于教学、兼职、附属、科研支持或其他非独立 PI 岗位。",
+      "evidence": "Lecturer III, EECS – Computer Science and Engineering | All Faculty | https://sdexter.engin.umich.edu/"
+    },
+    {
+      "officialId": "kkhalsa",
+      "rosterName": "Diaz, Kimberly Khalsa",
+      "title": "Lecturer IV, EECS – Computer Science and Engineering · she/her/hers",
+      "profileUrl": "https://kkhalsa.engin.umich.edu/",
+      "portraitUrl": "https://cse.engin.umich.edu/wp-content/uploads/2020/06/Khalsa-Diaz-Kim.jpg",
+      "officialSections": [
+        "All Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://cse.engin.umich.edu/people/faculty/",
+      "decision": "excluded_non_pi",
+      "reason": "官方职称或名录分组属于教学、兼职、附属、科研支持或其他非独立 PI 岗位。",
+      "evidence": "Lecturer IV, EECS – Computer Science and Engineering · she/her/hers | All Faculty | https://kkhalsa.engin.umich.edu/"
+    },
+    {
+      "officialId": "dickrp",
+      "rosterName": "Dick, Robert",
+      "title": "Professor, EECS – Electrical and Computer Engineering · Professor (courtesy), EECS – Computer Science and Engineering",
+      "profileUrl": "http://robertdick.org/",
+      "portraitUrl": "https://cse.engin.umich.edu/wp-content/uploads/2023/08/Dick_Robert_2023.jpg",
+      "officialSections": [
+        "All Faculty"
+      ],
+      "researchFields": [
+        "Embedded systems and AI/ML."
+      ],
+      "unitUrl": "https://cse.engin.umich.edu/people/faculty/",
+      "decision": "excluded_non_pi",
+      "reason": "官方职称或名录分组属于教学、兼职、附属、科研支持或其他非独立 PI 岗位。",
+      "evidence": "Professor, EECS – Electrical and Computer Engineering · Professor (courtesy), EECS – Computer Science and Engineering | All Faculty | Embedded systems and AI/ML. | http://robertdick.org/"
+    },
+    {
+      "officialId": "hwdong",
+      "rosterName": "Dong, Hao-Wen (Herman)",
+      "title": "Assistant Professor of Music, School of Music, Theatre & Dance · Affiliate Faculty, EECS – Computer Science and Engineering · Affiliate Faculty, EECS – Electrical and Computer Engineering",
+      "profileUrl": "https://hermandong.com/",
+      "portraitUrl": "https://cse.engin.umich.edu/wp-content/uploads/2024/11/had.jpg",
+      "officialSections": [
+        "All Faculty"
+      ],
+      "researchFields": [
+        "Music Generation, Music Technology, Audio Synthesis, Video Editing, Multimodal AI"
+      ],
+      "unitUrl": "https://cse.engin.umich.edu/people/faculty/",
+      "decision": "excluded_non_pi",
+      "reason": "官方职称或名录分组属于教学、兼职、附属、科研支持或其他非独立 PI 岗位。",
+      "evidence": "Assistant Professor of Music, School of Music, Theatre & Dance · Affiliate Faculty, EECS – Computer Science and Engineering · Affiliate Faculty, EECS – Electrical and Computer Engineering | All Faculty | Music Generation, Music Technology, Audio Synthesis, Video Editing, Multimodal AI | https://hermandong.com/"
+    },
+    {
+      "officialId": "tdoom",
+      "rosterName": "Doom, Travis",
+      "title": "Lecturer III, EECS-Computer Science & Engineering",
+      "profileUrl": "https://tdoom.engin.umich.edu/",
+      "portraitUrl": "https://cse.engin.umich.edu/wp-content/uploads/2025/01/travis-doom.jpg",
+      "officialSections": [
+        "All Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://cse.engin.umich.edu/people/faculty/",
+      "decision": "excluded_non_pi",
+      "reason": "官方职称或名录分组属于教学、兼职、附属、科研支持或其他非独立 PI 岗位。",
+      "evidence": "Lecturer III, EECS-Computer Science & Engineering | All Faculty | https://tdoom.engin.umich.edu/"
+    },
+    {
+      "officialId": "mdorf",
+      "rosterName": "Dorf, Mary Lou",
+      "title": "Collegiate Lecturer Emerita, EECS – Computer Science and Engineering · she/her/hers",
+      "profileUrl": "https://cse.engin.umich.edu/people/faculty/",
+      "portraitUrl": "https://eecs.engin.umich.edu/wp-content/uploads/portraits/mdorf.jpg",
+      "officialSections": [
+        "All Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://cse.engin.umich.edu/people/faculty/",
+      "decision": "excluded_historical",
+      "reason": "官方职称或名录分组明确为荣休、退休或历史人员。",
+      "evidence": "Collegiate Lecturer Emerita, EECS – Computer Science and Engineering · she/her/hers | All Faculty | https://cse.engin.umich.edu/people/faculty/"
+    },
+    {
+      "officialId": "rdreslin",
+      "rosterName": "Dreslinski, Ronald",
+      "title": "Miller Faculty Scholar · Associate Professor, EECS – Computer Science and Engineering",
+      "profileUrl": "http://web.eecs.umich.edu/~rdreslin/",
+      "portraitUrl": "https://eecs.engin.umich.edu/wp-content/uploads/portraits/rdreslin.jpg",
+      "officialSections": [
+        "All Faculty"
+      ],
+      "researchFields": [
+        "Novel architectures and design technologies for energy-efficient computing, including near-threshold computer design and experimental 3D computer chips."
+      ],
+      "unitUrl": "https://cse.engin.umich.edu/people/faculty/",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Miller Faculty Scholar · Associate Professor, EECS – Computer Science and Engineering | All Faculty | Novel architectures and design technologies for energy-efficient computing, including near-threshold computer design and experimental 3D computer chips. | http://web.eecs.umich.edu/~rdreslin/",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "durfee",
+      "rosterName": "Durfee, Edmund H.",
+      "title": "Professor Emeritus, EECS – Computer Science and Engineering",
+      "profileUrl": "https://durfee.engin.umich.edu/",
+      "portraitUrl": "https://eecs.engin.umich.edu/wp-content/uploads/portraits/durfee.jpg",
+      "officialSections": [
+        "All Faculty"
+      ],
+      "researchFields": [
+        "Multi-agent coordination and intelligent real-time systems"
+      ],
+      "unitUrl": "https://cse.engin.umich.edu/people/faculty/",
+      "decision": "excluded_historical",
+      "reason": "官方职称或名录分组明确为荣休、退休或历史人员。",
+      "evidence": "Professor Emeritus, EECS – Computer Science and Engineering | All Faculty | Multi-agent coordination and intelligent real-time systems | https://durfee.engin.umich.edu/"
+    },
+    {
+      "officialId": "ensafi",
+      "rosterName": "Ensafi, Roya",
+      "title": "Associate Professor, EECS – Computer Science and Engineering",
+      "profileUrl": "https://ensa.fi/",
+      "portraitUrl": "https://eecs.engin.umich.edu/wp-content/uploads/portraits/ensafi.jpg",
+      "officialSections": [
+        "All Faculty"
+      ],
+      "researchFields": [
+        "Computer and network security, surveillance and censorship measurement, privacy and tech policy."
+      ],
+      "unitUrl": "https://cse.engin.umich.edu/people/faculty/",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Associate Professor, EECS – Computer Science and Engineering | All Faculty | Computer and network security, surveillance and censorship measurement, privacy and tech policy. | https://ensa.fi/",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "barbarer",
+      "rosterName": "Ericson, Barbara",
+      "title": "Associate Professor, School of Information · Associate Professor (courtesy), EECS – Computer Science and Engineering · she/her/hers",
+      "profileUrl": "https://cse.engin.umich.edu/people/faculty/",
+      "portraitUrl": "https://cse.engin.umich.edu/wp-content/uploads/2020/06/Ericson-Barbara.jpg",
+      "officialSections": [
+        "All Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://cse.engin.umich.edu/people/faculty/",
+      "decision": "excluded_non_pi",
+      "reason": "官方职称或名录分组属于教学、兼职、附属、科研支持或其他非独立 PI 岗位。",
+      "evidence": "Associate Professor, School of Information · Associate Professor (courtesy), EECS – Computer Science and Engineering · she/her/hers | All Faculty | https://cse.engin.umich.edu/people/faculty/"
+    },
+    {
+      "officialId": "nfz",
+      "rosterName": "Fazeli, Nima",
+      "title": "Associate Professor of Robotics · Affiliate Faculty, EECS – Computer Science and Engineering · Assistant Professor (courtesy), Mechanical Engineering",
+      "profileUrl": "https://robotics.umich.edu/profile/nima-fazeli/",
+      "portraitUrl": "https://cse.engin.umich.edu/wp-content/uploads/2024/10/fazeli.jpg",
+      "officialSections": [
+        "All Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://cse.engin.umich.edu/people/faculty/",
+      "decision": "excluded_non_pi",
+      "reason": "官方职称或名录分组属于教学、兼职、附属、科研支持或其他非独立 PI 岗位。",
+      "evidence": "Associate Professor of Robotics · Affiliate Faculty, EECS – Computer Science and Engineering · Assistant Professor (courtesy), Mechanical Engineering | All Faculty | https://robotics.umich.edu/profile/nima-fazeli/"
+    },
+    {
+      "officialId": "benfish",
+      "rosterName": "Fish, Benjamin",
+      "title": "Adjunct Assistant Professor, EECS – Computer Science and Engineering",
+      "profileUrl": "https://cse.engin.umich.edu/people/faculty/",
+      "portraitUrl": "https://cse.engin.umich.edu/wp-content/uploads/2022/02/cse-photo-placeholder.png",
+      "officialSections": [
+        "All Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://cse.engin.umich.edu/people/faculty/",
+      "decision": "excluded_non_pi",
+      "reason": "官方职称或名录分组属于教学、兼职、附属、科研支持或其他非独立 PI 岗位。",
+      "evidence": "Adjunct Assistant Professor, EECS – Computer Science and Engineering | All Faculty | https://cse.engin.umich.edu/people/faculty/"
+    },
+    {
+      "officialId": "manowar",
+      "rosterName": "Flautner, Krisztián",
+      "title": "Professor of Engineering Practice, EECS – Computer Science and Engineering",
+      "profileUrl": "https://cse.engin.umich.edu/people/faculty/",
+      "portraitUrl": "https://cse.engin.umich.edu/wp-content/uploads/2023/11/flautner.jpg",
+      "officialSections": [
+        "All Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://cse.engin.umich.edu/people/faculty/",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Professor of Engineering Practice, EECS – Computer Science and Engineering | All Faculty | https://cse.engin.umich.edu/people/faculty/",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "hjgarcia",
+      "rosterName": "Garcia-Ramirez, Héctor",
+      "title": "Lecturer II, EECS – Computer Science and Engineering · he/him/his",
+      "profileUrl": "https://hjgarcia.engin.umich.edu/",
+      "portraitUrl": "https://eecs.engin.umich.edu/wp-content/uploads/portraits/hjgarcia.jpg",
+      "officialSections": [
+        "All Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://cse.engin.umich.edu/people/faculty/",
+      "decision": "excluded_non_pi",
+      "reason": "官方职称或名录分组属于教学、兼职、附属、科研支持或其他非独立 PI 岗位。",
+      "evidence": "Lecturer II, EECS – Computer Science and Engineering · he/him/his | All Faculty | https://hjgarcia.engin.umich.edu/"
+    },
+    {
+      "officialId": "eegg",
+      "rosterName": "Gilbert, Eric",
+      "title": "John Derby Evans Professor of Information · Professor, School of Information · Professor (courtesy), EECS – Computer Science and Engineering",
+      "profileUrl": "http://eegilbert.org/",
+      "portraitUrl": "https://eecs.engin.umich.edu/wp-content/uploads/portraits/eegg.jpg",
+      "officialSections": [
+        "All Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://cse.engin.umich.edu/people/faculty/",
+      "decision": "excluded_non_pi",
+      "reason": "官方职称或名录分组属于教学、兼职、附属、科研支持或其他非独立 PI 岗位。",
+      "evidence": "John Derby Evans Professor of Information · Professor, School of Information · Professor (courtesy), EECS – Computer Science and Engineering | All Faculty | http://eegilbert.org/"
+    },
+    {
+      "officialId": "graetzer",
+      "rosterName": "Graetz, Emily",
+      "title": "Lecturer II, EECS – Computer Science and Engineering · they/them/theirs",
+      "profileUrl": "https://cse.engin.umich.edu/people/faculty/",
+      "portraitUrl": "https://eecs.engin.umich.edu/wp-content/uploads/portraits/graetzer.jpg",
+      "officialSections": [
+        "All Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://cse.engin.umich.edu/people/faculty/",
+      "decision": "excluded_non_pi",
+      "reason": "官方职称或名录分组属于教学、兼职、附属、科研支持或其他非独立 PI 岗位。",
+      "evidence": "Lecturer II, EECS – Computer Science and Engineering · they/them/theirs | All Faculty | https://cse.engin.umich.edu/people/faculty/"
+    },
+    {
+      "officialId": "paulgrub",
+      "rosterName": "Grubbs, Paul",
+      "title": "Assistant Professor, EECS – Computer Science and Engineering · he/him/his",
+      "profileUrl": "https://web.eecs.umich.edu/~paulgrub/",
+      "portraitUrl": "https://eecs.engin.umich.edu/wp-content/uploads/portraits/paulgrub.jpg",
+      "officialSections": [
+        "All Faculty"
+      ],
+      "researchFields": [
+        "Applied cryptography, computer security, privacy, systems security, and technology policy."
+      ],
+      "unitUrl": "https://cse.engin.umich.edu/people/faculty/",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Assistant Professor, EECS – Computer Science and Engineering · he/him/his | All Faculty | Applied cryptography, computer security, privacy, systems security, and technology policy. | https://web.eecs.umich.edu/~paulgrub/",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "anhong",
+      "rosterName": "Guo, Anhong",
+      "title": "Morris Wellman Faculty Development Assistant Professor of Computer Science and Engineering · Assistant Professor, EECS – Computer Science and Engineering · Assistant Professor (courtesy), School of Information · he/him/his",
+      "profileUrl": "https://guoanhong.com/",
+      "portraitUrl": "https://cse.engin.umich.edu/wp-content/uploads/2020/08/guo.jpg",
+      "officialSections": [
+        "All Faculty"
+      ],
+      "researchFields": [
+        "Human-computer interaction, artificial intelligence, accessibility, augmented reality, human-AI interaction"
+      ],
+      "unitUrl": "https://cse.engin.umich.edu/people/faculty/",
+      "decision": "excluded_non_pi",
+      "reason": "官方职称或名录分组属于教学、兼职、附属、科研支持或其他非独立 PI 岗位。",
+      "evidence": "Morris Wellman Faculty Development Assistant Professor of Computer Science and Engineering · Assistant Professor, EECS – Computer Science and Engineering · Assistant Professor (courtesy), School of Information · he/him/his | All Faculty | Human-computer interaction, artificial intelligence, accessibility, augmented reality, human-AI interaction | https://guoanhong.com/"
+    },
+    {
+      "officialId": "gurevich",
+      "rosterName": "Gurevich, Yuri",
+      "title": "Professor Emeritus, EECS – Computer Science and Engineering",
+      "profileUrl": "https://web.eecs.umich.edu/~gurevich/",
+      "portraitUrl": "https://eecs.engin.umich.edu/wp-content/uploads/portraits/gurevich.jpg",
+      "officialSections": [
+        "All Faculty"
+      ],
+      "researchFields": [
+        "Quantum computing, privacy and security, software engineering, and theoretical computer science"
+      ],
+      "unitUrl": "https://cse.engin.umich.edu/people/faculty/",
+      "decision": "excluded_historical",
+      "reason": "官方职称或名录分组明确为荣休、退休或历史人员。",
+      "evidence": "Professor Emeritus, EECS – Computer Science and Engineering | All Faculty | Quantum computing, privacy and security, software engineering, and theoretical computer science | https://web.eecs.umich.edu/~gurevich/"
+    },
+    {
+      "officialId": "mjguz",
+      "rosterName": "Guzdial, Mark",
+      "title": "Professor, EECS – Computer Science and Engineering · Director, Program in Computing for the Arts and Sciences (PCAS) · he/him/his",
+      "profileUrl": "https://guzdial.engin.umich.edu/",
+      "portraitUrl": "https://eecs.engin.umich.edu/wp-content/uploads/portraits/mjguz.jpg",
+      "officialSections": [
+        "All Faculty"
+      ],
+      "researchFields": [
+        "Computing education research, task-specific programming languages, learning sciences, education public policy, design methods, and public policy."
+      ],
+      "unitUrl": "https://cse.engin.umich.edu/people/faculty/",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Professor, EECS – Computer Science and Engineering · Director, Program in Computing for the Arts and Sciences (PCAS) · he/him/his | All Faculty | Computing education research, task-specific programming languages, learning sciences, education public policy, design methods, and public policy. | https://guzdial.engin.umich.edu/",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "jhalderm",
+      "rosterName": "Halderman, J. Alex",
+      "title": "Bredt Family Professor of Engineering · Professor, EECS – Computer Science and Engineering · Director, Systems Lab",
+      "profileUrl": "https://jhalderm.com/",
+      "portraitUrl": "https://cse.engin.umich.edu/wp-content/uploads/2025/03/halderman-705.jpg",
+      "officialSections": [
+        "All Faculty"
+      ],
+      "researchFields": [
+        "Computer security, electronic voting, digital rights management, information privacy, and tech policy."
+      ],
+      "unitUrl": "https://cse.engin.umich.edu/people/faculty/",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Bredt Family Professor of Engineering · Professor, EECS – Computer Science and Engineering · Director, Systems Lab | All Faculty | Computer security, electronic voting, digital rights management, information privacy, and tech policy. | https://jhalderm.com/",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "nham",
+      "rosterName": "Hamilton, Nicole",
+      "title": "Lecturer, EECS – Computer Science and Engineering · she/her/hers",
+      "profileUrl": "https://web.eecs.umich.edu/~nham/",
+      "portraitUrl": "https://eecs.engin.umich.edu/wp-content/uploads/portraits/nham.jpg",
+      "officialSections": [
+        "All Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://cse.engin.umich.edu/people/faculty/",
+      "decision": "excluded_non_pi",
+      "reason": "官方职称或名录分组属于教学、兼职、附属、科研支持或其他非独立 PI 岗位。",
+      "evidence": "Lecturer, EECS – Computer Science and Engineering · she/her/hers | All Faculty | https://web.eecs.umich.edu/~nham/"
+    },
+    {
+      "officialId": "jhayes",
+      "rosterName": "Hayes, John P.",
+      "title": "Claude E. Shannon Professor Emeritus of Engineering Science · Professor Emeritus, EECS – Computer Science and Engineering",
+      "profileUrl": "http://web.eecs.umich.edu/~jhayes/",
+      "portraitUrl": "https://eecs.engin.umich.edu/wp-content/uploads/portraits/jhayes.jpg",
+      "officialSections": [
+        "All Faculty"
+      ],
+      "researchFields": [
+        "Computer-aided design and testing, Computer architecture, Fault-tolerant design, VLSI circuits, Stochastic computing."
+      ],
+      "unitUrl": "https://cse.engin.umich.edu/people/faculty/",
+      "decision": "excluded_historical",
+      "reason": "官方职称或名录分组明确为荣休、退休或历史人员。",
+      "evidence": "Claude E. Shannon Professor Emeritus of Engineering Science · Professor Emeritus, EECS – Computer Science and Engineering | All Faculty | Computer-aided design and testing, Computer architecture, Fault-tolerant design, VLSI circuits, Stochastic computing. | http://web.eecs.umich.edu/~jhayes/"
+    },
+    {
+      "officialId": "hero",
+      "rosterName": "Hero, Alfred O.",
+      "title": "John H. Holland Distinguished University Professor of EECS · R. Jamison and Betty Williams Professor of Engineering · Professor, EECS – Electrical and Computer Engineering · Professor (courtesy), Biomedical Engineering; EECS – Computer Science and Engineering; Statistics",
+      "profileUrl": "https://hero.engin.umich.edu/",
+      "portraitUrl": "https://eecs.engin.umich.edu/wp-content/uploads/portraits/hero.jpg",
+      "officialSections": [
+        "All Faculty"
+      ],
+      "researchFields": [
+        "Theory and algorithms underlying data science and machine learning. Theory includes applied probability, statistical modeling, and optimization. Applications include complex networks, spatio-temporal processes, computational biology, personalized health, and security."
+      ],
+      "unitUrl": "https://cse.engin.umich.edu/people/faculty/",
+      "decision": "excluded_non_pi",
+      "reason": "官方职称或名录分组属于教学、兼职、附属、科研支持或其他非独立 PI 岗位。",
+      "evidence": "John H. Holland Distinguished University Professor of EECS · R. Jamison and Betty Williams Professor of Engineering · Professor, EECS – Electrical and Computer Engineering · Professor (courtesy), Biomedical Engineering; EECS – Computer Science and Engineering; Statistics | All Faculty | Theory and algorithms underlying data science and machine learning. Theory includes applied probability, statistical modeling, and optimization. Applications include complex networks, spatio-temporal processes, computational biology, personalized health, and security. | https://hero.engin.umich.edu/"
+    },
+    {
+      "officialId": "tocho",
+      "rosterName": "Hollon, Todd",
+      "title": "Associate Professor, Neurosurgery · Associate Professor, Computational Medicine and Bioinformatics · Affiliate Faculty, EECS – Computer Science and Engineering",
+      "profileUrl": "https://mlins.org/",
+      "portraitUrl": "https://cse.engin.umich.edu/wp-content/uploads/2023/09/hollon.jpg",
+      "officialSections": [
+        "All Faculty"
+      ],
+      "researchFields": [
+        "Computer vision, self-supervised learning, medical vision-language models, neuroimaging"
+      ],
+      "unitUrl": "https://cse.engin.umich.edu/people/faculty/",
+      "decision": "excluded_non_pi",
+      "reason": "官方职称或名录分组属于教学、兼职、附属、科研支持或其他非独立 PI 岗位。",
+      "evidence": "Associate Professor, Neurosurgery · Associate Professor, Computational Medicine and Bioinformatics · Affiliate Faculty, EECS – Computer Science and Engineering | All Faculty | Computer vision, self-supervised learning, medical vision-language models, neuroimaging | https://mlins.org/"
+    },
+    {
+      "officialId": "honey",
+      "rosterName": "Honeyman, Peter",
+      "title": "Research Professor Emeritus, EECS – Computer Science and Engineering",
+      "profileUrl": "http://www.citi.umich.edu/u/honey/",
+      "portraitUrl": "https://eecs.engin.umich.edu/wp-content/uploads/portraits/honey.jpg",
+      "officialSections": [
+        "All Faculty"
+      ],
+      "researchFields": [
+        "Experimental distributed systems"
+      ],
+      "unitUrl": "https://cse.engin.umich.edu/people/faculty/",
+      "decision": "excluded_historical",
+      "reason": "官方职称或名录分组明确为荣休、退休或历史人员。",
+      "evidence": "Research Professor Emeritus, EECS – Computer Science and Engineering | All Faculty | Experimental distributed systems | http://www.citi.umich.edu/u/honey/"
+    },
+    {
+      "officialId": "vvh",
+      "rosterName": "Hu, Wei",
+      "title": "Assistant Professor, EECS – Computer Science and Engineering",
+      "profileUrl": "https://weihu.me/",
+      "portraitUrl": "https://cse.engin.umich.edu/wp-content/uploads/2021/10/hu.jpg",
+      "officialSections": [
+        "All Faculty"
+      ],
+      "researchFields": [
+        "Theory and science of deep learning, large language models."
+      ],
+      "unitUrl": "https://cse.engin.umich.edu/people/faculty/",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Assistant Professor, EECS – Computer Science and Engineering | All Faculty | Theory and science of deep learning, large language models. | https://weihu.me/",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "ryanph",
+      "rosterName": "Huang, Ryan",
+      "title": "Associate Professor, EECS – Computer Science and Engineering",
+      "profileUrl": "https://web.eecs.umich.edu/~ryanph/",
+      "portraitUrl": "https://cse.engin.umich.edu/wp-content/uploads/2023/11/huang.jpg",
+      "officialSections": [
+        "All Faculty"
+      ],
+      "researchFields": [
+        "Operating systems, distributed systems, cloud and mobile computing, software dependability, program analysis."
+      ],
+      "unitUrl": "https://cse.engin.umich.edu/people/faculty/",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Associate Professor, EECS – Computer Science and Engineering | All Faculty | Operating systems, distributed systems, cloud and mobile computing, software dependability, program analysis. | https://web.eecs.umich.edu/~ryanph/",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "jag",
+      "rosterName": "Jagadish, H.V.",
+      "title": "Bernard A. Galler Collegiate Professor of Electrical Engineering and Computer Science · Edgar F. Codd Distinguished University Professor of Electrical Engineering and Computer Science · Professor, EECS – Computer Science and Engineering",
+      "profileUrl": "http://web.eecs.umich.edu/~jag/",
+      "portraitUrl": "https://eecs.engin.umich.edu/wp-content/uploads/portraits/jag.jpg",
+      "officialSections": [
+        "All Faculty"
+      ],
+      "researchFields": [
+        "Big data, data mining, database systems, and bioinformatics."
+      ],
+      "unitUrl": "https://cse.engin.umich.edu/people/faculty/",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Bernard A. Galler Collegiate Professor of Electrical Engineering and Computer Science · Edgar F. Codd Distinguished University Professor of Electrical Engineering and Computer Science · Professor, EECS – Computer Science and Engineering | All Faculty | Big data, data mining, database systems, and bioinformatics. | http://web.eecs.umich.edu/~jag/",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "farnaz",
+      "rosterName": "Jahanbakhsh, Farnaz",
+      "title": "Assistant Professor, EECS – Computer Science and Engineering",
+      "profileUrl": "https://people.csail.mit.edu/farnazj/",
+      "portraitUrl": "https://cse.engin.umich.edu/wp-content/uploads/2024/01/fj.jpg",
+      "officialSections": [
+        "All Faculty"
+      ],
+      "researchFields": [
+        "Social computing systems that have pro-social outcomes, with applications to social media, education, collaboration, social justice, and gig economy. A main interest is designing systems that give people more autonomy and democratize power that is otherwise in the hands of a centralized authority."
+      ],
+      "unitUrl": "https://cse.engin.umich.edu/people/faculty/",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Assistant Professor, EECS – Computer Science and Engineering | All Faculty | Social computing systems that have pro-social outcomes, with applications to social media, education, collaboration, social justice, and gig economy. A main interest is designing systems that give people more autonomy and democratize power that is otherwise in the hands of a centralized authority. | https://people.csail.mit.edu/farnazj/",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "profdj",
+      "rosterName": "Jain, Dhruv",
+      "title": "Assistant Professor, EECS – Computer Science and Engineering",
+      "profileUrl": "https://web.eecs.umich.edu/~profdj/",
+      "portraitUrl": "https://cse.engin.umich.edu/wp-content/uploads/2022/10/DJ-HeadShot.jpg",
+      "officialSections": [
+        "All Faculty"
+      ],
+      "researchFields": [
+        "HCI, human-centered AI, accessibility, healthcare, audio interfaces."
+      ],
+      "unitUrl": "https://cse.engin.umich.edu/people/faculty/",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Assistant Professor, EECS – Computer Science and Engineering | All Faculty | HCI, human-centered AI, accessibility, healthcare, audio interfaces. | https://web.eecs.umich.edu/~profdj/",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "sugih",
+      "rosterName": "Jamin, Sugih",
+      "title": "Associate Professor, EECS – Computer Science and Engineering",
+      "profileUrl": "http://web.eecs.umich.edu/~sugih/",
+      "portraitUrl": "https://eecs.engin.umich.edu/wp-content/uploads/portraits/sugih.jpg",
+      "officialSections": [
+        "All Faculty"
+      ],
+      "researchFields": [
+        "Dynamic behaviors of large-scale systems, probabilistic distributed algorithms, computer network protocols and architectures, computer graphics."
+      ],
+      "unitUrl": "https://cse.engin.umich.edu/people/faculty/",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Associate Professor, EECS – Computer Science and Engineering | All Faculty | Dynamic behaviors of large-scale systems, probabilistic distributed algorithms, computer network protocols and architectures, computer graphics. | http://web.eecs.umich.edu/~sugih/",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "jeannin",
+      "rosterName": "Jeannin, Jean-Baptiste",
+      "title": "Associate Professor, Aerospace Engineering · Associate Professor (courtesy), EECS – Computer Science and Engineering · he/him/his",
+      "profileUrl": "https://jeannin.github.io/",
+      "portraitUrl": "https://eecs.engin.umich.edu/wp-content/uploads/portraits/jeannin.jpg",
+      "officialSections": [
+        "All Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://cse.engin.umich.edu/people/faculty/",
+      "decision": "excluded_non_pi",
+      "reason": "官方职称或名录分组属于教学、兼职、附属、科研支持或其他非独立 PI 岗位。",
+      "evidence": "Associate Professor, Aerospace Engineering · Associate Professor (courtesy), EECS – Computer Science and Engineering · he/him/his | All Faculty | https://jeannin.github.io/"
+    },
+    {
+      "officialId": "ocj",
+      "rosterName": "Jenkins, Chad",
+      "title": "Professor, College of Engineering Robotics Institute · Associate Director, Michigan Robotics Institute · Professor (courtesy), EECS – Computer Science and Engineering",
+      "profileUrl": "https://web.eecs.umich.edu/~ocj/",
+      "portraitUrl": "https://cse.engin.umich.edu/wp-content/uploads/2022/01/jenkins.jpg",
+      "officialSections": [
+        "All Faculty"
+      ],
+      "researchFields": [
+        "Human-robot interaction, including exploration of methods that enable robots to learn human skills."
+      ],
+      "unitUrl": "https://cse.engin.umich.edu/people/faculty/",
+      "decision": "excluded_non_pi",
+      "reason": "官方职称或名录分组属于教学、兼职、附属、科研支持或其他非独立 PI 岗位。",
+      "evidence": "Professor, College of Engineering Robotics Institute · Associate Director, Michigan Robotics Institute · Professor (courtesy), EECS – Computer Science and Engineering | All Faculty | Human-robot interaction, including exploration of methods that enable robots to learn human skills. | https://web.eecs.umich.edu/~ocj/"
+    },
+    {
+      "officialId": "jjuett",
+      "rosterName": "Juett, James",
+      "title": "Lecturer IV, EECS – Computer Science and Engineering · he/him/his",
+      "profileUrl": "https://cse.engin.umich.edu/people/faculty/",
+      "portraitUrl": "https://eecs.engin.umich.edu/wp-content/uploads/portraits/jjuett.jpg",
+      "officialSections": [
+        "All Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://cse.engin.umich.edu/people/faculty/",
+      "decision": "excluded_non_pi",
+      "reason": "官方职称或名录分组属于教学、兼职、附属、科研支持或其他非独立 PI 岗位。",
+      "evidence": "Lecturer IV, EECS – Computer Science and Engineering · he/him/his | All Faculty | https://cse.engin.umich.edu/people/faculty/"
+    },
+    {
+      "officialId": "jurgens",
+      "rosterName": "Jurgens, David",
+      "title": "Associate Professor, EECS – Computer Science and Engineering · Associate Professor, School of Information",
+      "profileUrl": "http://jurgens.people.si.umich.edu/",
+      "portraitUrl": "https://eecs.engin.umich.edu/wp-content/uploads/portraits/jurgens.jpg",
+      "officialSections": [
+        "All Faculty"
+      ],
+      "researchFields": [
+        "Natural language processing, Generative AI, Computational social science, Crowdsourcing"
+      ],
+      "unitUrl": "https://cse.engin.umich.edu/people/faculty/",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Associate Professor, EECS – Computer Science and Engineering · Associate Professor, School of Information | All Faculty | Natural language processing, Generative AI, Computational social science, Crowdsourcing | http://jurgens.people.si.umich.edu/",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "akamil",
+      "rosterName": "Kamil, Amir",
+      "title": "Lecturer IV, EECS – Computer Science and Engineering · he/him/his",
+      "profileUrl": "http://web.eecs.umich.edu/~akamil/",
+      "portraitUrl": "https://cse.engin.umich.edu/wp-content/uploads/2023/11/akamil25m.jpg",
+      "officialSections": [
+        "All Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://cse.engin.umich.edu/people/faculty/",
+      "decision": "excluded_non_pi",
+      "reason": "官方职称或名录分组属于教学、兼职、附属、科研支持或其他非独立 PI 岗位。",
+      "evidence": "Lecturer IV, EECS – Computer Science and Engineering · he/him/his | All Faculty | http://web.eecs.umich.edu/~akamil/"
+    },
+    {
+      "officialId": "manosk",
+      "rosterName": "Kapritsos, Manos",
+      "title": "Associate Professor, EECS – Computer Science and Engineering · he/him/his",
+      "profileUrl": "http://web.eecs.umich.edu/~manosk/",
+      "portraitUrl": "https://cse.engin.umich.edu/wp-content/uploads/2021/10/kapritsos-web.jpg",
+      "officialSections": [
+        "All Faculty"
+      ],
+      "researchFields": [
+        "Distributed systems, fault tolerance, formal verification."
+      ],
+      "unitUrl": "https://cse.engin.umich.edu/people/faculty/",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Associate Professor, EECS – Computer Science and Engineering · he/him/his | All Faculty | Distributed systems, fault tolerance, formal verification. | http://web.eecs.umich.edu/~manosk/",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "kieras",
+      "rosterName": "Kieras, David E.",
+      "title": "Professor Emeritus, EECS – Computer Science and Engineering · Professor Emeritus, Psychology Department",
+      "profileUrl": "http://web.eecs.umich.edu/~kieras/",
+      "portraitUrl": "https://eecs.engin.umich.edu/wp-content/uploads/portraits/kieras.jpg",
+      "officialSections": [
+        "All Faculty"
+      ],
+      "researchFields": [
+        "Human-computer interaction, User interface design, Human cognition and performance, Natural language processing"
+      ],
+      "unitUrl": "https://cse.engin.umich.edu/people/faculty/",
+      "decision": "excluded_historical",
+      "reason": "官方职称或名录分组明确为荣休、退休或历史人员。",
+      "evidence": "Professor Emeritus, EECS – Computer Science and Engineering · Professor Emeritus, Psychology Department | All Faculty | Human-computer interaction, User interface design, Human cognition and performance, Natural language processing | http://web.eecs.umich.edu/~kieras/"
+    },
+    {
+      "officialId": "jklooste",
+      "rosterName": "Kloosterman, John",
+      "title": "Lecturer IV, EECS – Computer Science and Engineering · he/him/his",
+      "profileUrl": "http://jkloosterman.net/",
+      "portraitUrl": "https://eecs.engin.umich.edu/wp-content/uploads/portraits/jklooste.jpg",
+      "officialSections": [
+        "All Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://cse.engin.umich.edu/people/faculty/",
+      "decision": "excluded_non_pi",
+      "reason": "官方职称或名录分组属于教学、兼职、附属、科研支持或其他非独立 PI 岗位。",
+      "evidence": "Lecturer IV, EECS – Computer Science and Engineering · he/him/his | All Faculty | http://jkloosterman.net/"
+    },
+    {
+      "officialId": "dkoutra",
+      "rosterName": "Koutra, Danai",
+      "title": "Associate Professor, EECS – Computer Science and Engineering",
+      "profileUrl": "http://web.eecs.umich.edu/~dkoutra/",
+      "portraitUrl": "https://eecs.engin.umich.edu/wp-content/uploads/portraits/dkoutra.jpg",
+      "officialSections": [
+        "All Faculty"
+      ],
+      "researchFields": [
+        "Artificial Intelligence, Data mining, Graph learning, Large-scale data analysis."
+      ],
+      "unitUrl": "https://cse.engin.umich.edu/people/faculty/",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Associate Professor, EECS – Computer Science and Engineering | All Faculty | Artificial Intelligence, Data mining, Graph learning, Large-scale data analysis. | http://web.eecs.umich.edu/~dkoutra/",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "kuipers",
+      "rosterName": "Kuipers, Benjamin",
+      "title": "Professor Emeritus, EECS – Computer Science and Engineering",
+      "profileUrl": "http://web.eecs.umich.edu/~kuipers/",
+      "portraitUrl": "https://eecs.engin.umich.edu/wp-content/uploads/portraits/kuipers.jpg",
+      "officialSections": [
+        "All Faculty"
+      ],
+      "researchFields": [
+        "The representation of common sense and expert knowledge, with particular emphasis on the effective use of incomplete knowledge."
+      ],
+      "unitUrl": "https://cse.engin.umich.edu/people/faculty/",
+      "decision": "excluded_historical",
+      "reason": "官方职称或名录分组明确为荣休、退休或历史人员。",
+      "evidence": "Professor Emeritus, EECS – Computer Science and Engineering | All Faculty | The representation of common sense and expert knowledge, with particular emphasis on the effective use of incomplete knowledge. | http://web.eecs.umich.edu/~kuipers/"
+    },
+    {
+      "officialId": "skutty",
+      "rosterName": "Kutty, Sindhu",
+      "title": "Lecturer IV, EECS – Computer Science and Engineering · Director, Teaching Lab · she/her/hers",
+      "profileUrl": "https://cse.engin.umich.edu/people/faculty/",
+      "portraitUrl": "https://cse.engin.umich.edu/wp-content/uploads/2023/02/kutty-705.jpg",
+      "officialSections": [
+        "All Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://cse.engin.umich.edu/people/faculty/",
+      "decision": "excluded_non_pi",
+      "reason": "官方职称或名录分组属于教学、兼职、附属、科研支持或其他非独立 PI 岗位。",
+      "evidence": "Lecturer IV, EECS – Computer Science and Engineering · Director, Teaching Lab · she/her/hers | All Faculty | https://cse.engin.umich.edu/people/faculty/"
+    },
+    {
+      "officialId": "stephane",
+      "rosterName": "Lafortune, Stéphane",
+      "title": "N. Harris McClamroch Collegiate Professor Emeritus of Electrical Engineering and Computer Science · Professor Emeritus, EECS – Electrical and Computer Engineering · Professor Emeritus, EECS – Computer Science and Engineering · he/him/his",
+      "profileUrl": "https://lafortune.engin.umich.edu/",
+      "portraitUrl": "https://cse.engin.umich.edu/wp-content/uploads/2023/01/lafortune-pref-705x705-1.jpg",
+      "officialSections": [
+        "All Faculty"
+      ],
+      "researchFields": [
+        "System and control theory; Discrete event systems; Application to computer and communication systems"
+      ],
+      "unitUrl": "https://cse.engin.umich.edu/people/faculty/",
+      "decision": "excluded_historical",
+      "reason": "官方职称或名录分组明确为荣休、退休或历史人员。",
+      "evidence": "N. Harris McClamroch Collegiate Professor Emeritus of Electrical Engineering and Computer Science · Professor Emeritus, EECS – Electrical and Computer Engineering · Professor Emeritus, EECS – Computer Science and Engineering · he/him/his | All Faculty | System and control theory; Discrete event systems; Application to computer and communication systems | https://lafortune.engin.umich.edu/"
+    },
+    {
+      "officialId": "laird",
+      "rosterName": "Laird, John E.",
+      "title": "John L. Tishman Professor Emeritus of Engineering · Professor Emeritus, EECS – Computer Science and Engineering",
+      "profileUrl": "https://laird.engin.umich.edu/",
+      "portraitUrl": "https://eecs.engin.umich.edu/wp-content/uploads/portraits/laird.jpg",
+      "officialSections": [
+        "All Faculty"
+      ],
+      "researchFields": [
+        "Artificial Intelligence, Cognitive Architectures, Machine Learning, and Computer Games."
+      ],
+      "unitUrl": "https://cse.engin.umich.edu/people/faculty/",
+      "decision": "excluded_historical",
+      "reason": "官方职称或名录分组明确为荣休、退休或历史人员。",
+      "evidence": "John L. Tishman Professor Emeritus of Engineering · Professor Emeritus, EECS – Computer Science and Engineering | All Faculty | Artificial Intelligence, Cognitive Architectures, Machine Learning, and Computer Games. | https://laird.engin.umich.edu/"
+    },
+    {
+      "officialId": "euiwoong",
+      "rosterName": "Lee, Euiwoong",
+      "title": "Associate Professor, EECS – Computer Science and Engineering · he/him/his",
+      "profileUrl": "https://web.eecs.umich.edu/~euiwoong/",
+      "portraitUrl": "https://cse.engin.umich.edu/wp-content/uploads/2020/03/euiwoong.jpg",
+      "officialSections": [
+        "All Faculty"
+      ],
+      "researchFields": [
+        "Algorithms, computational complexity, graph theory, and convex optimization. A particular focus is on approximation algorithms for NP-hard optimization problems."
+      ],
+      "unitUrl": "https://cse.engin.umich.edu/people/faculty/",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Associate Professor, EECS – Computer Science and Engineering · he/him/his | All Faculty | Algorithms, computational complexity, graph theory, and convex optimization. A particular focus is on approximation algorithms for NP-hard optimization problems. | https://web.eecs.umich.edu/~euiwoong/",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "honglak",
+      "rosterName": "Lee, Honglak",
+      "title": "Professor, EECS – Computer Science and Engineering",
+      "profileUrl": "http://web.eecs.umich.edu/~honglak/",
+      "portraitUrl": "https://eecs.engin.umich.edu/wp-content/uploads/portraits/honglak.jpg",
+      "officialSections": [
+        "All Faculty"
+      ],
+      "researchFields": [
+        "Machine Learning, Deep Learning, Artificial Intelligence, Computer Vision"
+      ],
+      "unitUrl": "https://cse.engin.umich.edu/people/faculty/",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Professor, EECS – Computer Science and Engineering | All Faculty | Machine Learning, Deep Learning, Artificial Intelligence, Computer Vision | http://web.eecs.umich.edu/~honglak/",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "veraliao",
+      "rosterName": "Liao, Q. Vera",
+      "title": "Associate Professor, EECS – Computer Science and Engineering",
+      "profileUrl": "https://qveraliao.com/",
+      "portraitUrl": "https://cse.engin.umich.edu/wp-content/uploads/2024/08/vera-liao.jpg",
+      "officialSections": [
+        "All Faculty"
+      ],
+      "researchFields": [
+        "Human-computer interaction, human-AI interaction, responsible AI"
+      ],
+      "unitUrl": "https://cse.engin.umich.edu/people/faculty/",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Associate Professor, EECS – Computer Science and Engineering | All Faculty | Human-computer interaction, human-AI interaction, responsible AI | https://qveraliao.com/",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "drjieliu",
+      "rosterName": "Liu, Jie",
+      "title": "Associate Professor of Computational Medicine and Bioinformatics, Medical School · Associate Professor (courtesy), EECS – Computer Science and Engineering",
+      "profileUrl": "https://jieliu6.github.io/",
+      "portraitUrl": "https://eecs.engin.umich.edu/wp-content/uploads/portraits/drjieliu.jpg",
+      "officialSections": [
+        "All Faculty"
+      ],
+      "researchFields": [
+        "Bioinformatics, Machine Learning"
+      ],
+      "unitUrl": "https://cse.engin.umich.edu/people/faculty/",
+      "decision": "excluded_non_pi",
+      "reason": "官方职称或名录分组属于教学、兼职、附属、科研支持或其他非独立 PI 岗位。",
+      "evidence": "Associate Professor of Computational Medicine and Bioinformatics, Medical School · Associate Professor (courtesy), EECS – Computer Science and Engineering | All Faculty | Bioinformatics, Machine Learning | https://jieliu6.github.io/"
+    },
+    {
+      "officialId": "mingyan",
+      "rosterName": "Liu, Mingyan",
+      "title": "T. C. Chang Professor of Engineering · Professor, EECS – Electrical and Computer Engineering · Professor (courtesy), EECS – Computer Science and Engineering · Associate Dean for Academic Affairs, College of Engineering · she/her/hers",
+      "profileUrl": "https://liu.engin.umich.edu/",
+      "portraitUrl": "https://eecs.engin.umich.edu/wp-content/uploads/portraits/mingyan.jpg",
+      "officialSections": [
+        "All Faculty"
+      ],
+      "researchFields": [
+        "Resource allocation, performance modeling, sequential decision and learning theory, game theory and incentive mechanisms, with applications to large-scale networked systems, cybersecurity and cyber risk quantification."
+      ],
+      "unitUrl": "https://cse.engin.umich.edu/people/faculty/",
+      "decision": "excluded_non_pi",
+      "reason": "官方职称或名录分组属于教学、兼职、附属、科研支持或其他非独立 PI 岗位。",
+      "evidence": "T. C. Chang Professor of Engineering · Professor, EECS – Electrical and Computer Engineering · Professor (courtesy), EECS – Computer Science and Engineering · Associate Dean for Academic Affairs, College of Engineering · she/her/hers | All Faculty | Resource allocation, performance modeling, sequential decision and learning theory, game theory and incentive mechanisms, with applications to large-scale networked systems, cybersecurity and cyber risk quantification. | https://liu.engin.umich.edu/"
+    },
+    {
+      "officialId": "vyl",
+      "rosterName": "Liu, Victor",
+      "title": "Adjunct Research Professor · he/him/his",
+      "profileUrl": "http://websites.umich.edu/~vyl/",
+      "portraitUrl": "https://cse.engin.umich.edu/wp-content/uploads/2023/03/VictorLiu-Head.jpg",
+      "officialSections": [
+        "All Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://cse.engin.umich.edu/people/faculty/",
+      "decision": "excluded_non_pi",
+      "reason": "官方职称或名录分组属于教学、兼职、附属、科研支持或其他非独立 PI 岗位。",
+      "evidence": "Adjunct Research Professor · he/him/his | All Faculty | http://websites.umich.edu/~vyl/"
+    },
+    {
+      "officialId": "linmacse",
+      "rosterName": "Ma, Lin",
+      "title": "Assistant Professor, EECS – Computer Science and Engineering",
+      "profileUrl": "https://web.eecs.umich.edu/~linmacse/",
+      "portraitUrl": "https://cse.engin.umich.edu/wp-content/uploads/2022/10/lin-ma-705.jpg",
+      "officialSections": [
+        "All Faculty"
+      ],
+      "researchFields": [
+        "Database management systems, machine learning for systems."
+      ],
+      "unitUrl": "https://cse.engin.umich.edu/people/faculty/",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Assistant Professor, EECS – Computer Science and Engineering | All Faculty | Database management systems, machine learning for systems. | https://web.eecs.umich.edu/~linmacse/",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "mahlke",
+      "rosterName": "Mahlke, Scott",
+      "title": "Claude E. Shannon Professor of Engineering Science · Professor, EECS – Computer Science and Engineering",
+      "profileUrl": "https://cse.engin.umich.edu/people/faculty/",
+      "portraitUrl": "https://eecs.engin.umich.edu/wp-content/uploads/portraits/mahlke.jpg",
+      "officialSections": [
+        "All Faculty"
+      ],
+      "researchFields": [
+        "Compilers, application-specific processors, computer architecture and microarchitecture, embedded systems"
+      ],
+      "unitUrl": "https://cse.engin.umich.edu/people/faculty/",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Claude E. Shannon Professor of Engineering Science · Professor, EECS – Computer Science and Engineering | All Faculty | Compilers, application-specific processors, computer architecture and microarchitecture, embedded systems | https://cse.engin.umich.edu/people/faculty/",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "mmakar",
+      "rosterName": "Makar, Maggie",
+      "title": "Assistant Professor, EECS – Computer Science and Engineering · she/her/hers",
+      "profileUrl": "https://mymakar.github.io/",
+      "portraitUrl": "https://cse.engin.umich.edu/wp-content/uploads/2023/11/maggie-makar.jpg",
+      "officialSections": [
+        "All Faculty"
+      ],
+      "researchFields": [
+        "Causal inference, machine learning, healthcare"
+      ],
+      "unitUrl": "https://cse.engin.umich.edu/people/faculty/",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Assistant Professor, EECS – Computer Science and Engineering · she/her/hers | All Faculty | Causal inference, machine learning, healthcare | https://mymakar.github.io/",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "manerkar",
+      "rosterName": "Manerkar, Yatin",
+      "title": "Adjunct Assistant Professor, EECS – Computer Science and Engineering",
+      "profileUrl": "https://cse.engin.umich.edu/people/faculty/",
+      "portraitUrl": "https://cse.engin.umich.edu/wp-content/uploads/2022/02/cse-photo-placeholder.png",
+      "officialSections": [
+        "All Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://cse.engin.umich.edu/people/faculty/",
+      "decision": "excluded_non_pi",
+      "reason": "官方职称或名录分组属于教学、兼职、附属、科研支持或其他非独立 PI 岗位。",
+      "evidence": "Adjunct Assistant Professor, EECS – Computer Science and Engineering | All Faculty | https://cse.engin.umich.edu/people/faculty/"
+    },
+    {
+      "officialId": "zmao",
+      "rosterName": "Mao, Z. Morley",
+      "title": "Adjunct Professor, EECS – Computer Science and Engineering",
+      "profileUrl": "https://cse.engin.umich.edu/people/faculty/",
+      "portraitUrl": "https://cse.engin.umich.edu/wp-content/uploads/2022/02/cse-photo-placeholder.png",
+      "officialSections": [
+        "All Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://cse.engin.umich.edu/people/faculty/",
+      "decision": "excluded_non_pi",
+      "reason": "官方职称或名录分组属于教学、兼职、附属、科研支持或其他非独立 PI 岗位。",
+      "evidence": "Adjunct Professor, EECS – Computer Science and Engineering | All Faculty | https://cse.engin.umich.edu/people/faculty/"
+    },
+    {
+      "officialId": "profmars",
+      "rosterName": "Mars, Jason",
+      "title": "Associate Professor, EECS – Computer Science and Engineering",
+      "profileUrl": "http://web.eecs.umich.edu/~profmars/",
+      "portraitUrl": "https://cse.engin.umich.edu/wp-content/uploads/2023/11/jmars.jpg",
+      "officialSections": [
+        "All Faculty"
+      ],
+      "researchFields": [
+        "Cross-layer systems architectures for emerging applications, datacenter and warehouse-scale computer architecture, and hardware / software co-design."
+      ],
+      "unitUrl": "https://cse.engin.umich.edu/people/faculty/",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Associate Professor, EECS – Computer Science and Engineering | All Faculty | Cross-layer systems architectures for emerging applications, datacenter and warehouse-scale computer architecture, and hardware / software co-design. | http://web.eecs.umich.edu/~profmars/",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "mazum",
+      "rosterName": "Mazumder, Pinaki",
+      "title": "Professor, EECS – Electrical and Computer Engineering · Professor, EECS – Computer Science and Engineering",
+      "profileUrl": "http://web.eecs.umich.edu/~mazum/",
+      "portraitUrl": "https://eecs.engin.umich.edu/wp-content/uploads/portraits/mazum.jpg",
+      "officialSections": [
+        "All Faculty"
+      ],
+      "researchFields": [
+        "VLSI Design, Nanoelectronics, Quantum Computing and Emerging Technology"
+      ],
+      "unitUrl": "https://cse.engin.umich.edu/people/faculty/",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Professor, EECS – Electrical and Computer Engineering · Professor, EECS – Computer Science and Engineering | All Faculty | VLSI Design, Nanoelectronics, Quantum Computing and Emerging Technology | http://web.eecs.umich.edu/~mazum/",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "qmei",
+      "rosterName": "Mei, Qiaozhu",
+      "title": "Professor, School of Information · Professor (courtesy), EECS – Computer Science and Engineering · Associate Dean for Research and Innovation, UMSI",
+      "profileUrl": "http://www-personal.umich.edu/~qmei/",
+      "portraitUrl": "https://eecs.engin.umich.edu/wp-content/uploads/portraits/qmei.jpg",
+      "officialSections": [
+        "All Faculty"
+      ],
+      "researchFields": [
+        "Information retrieval, text mining, social network analysis, and biomedical informatics"
+      ],
+      "unitUrl": "https://cse.engin.umich.edu/people/faculty/",
+      "decision": "excluded_non_pi",
+      "reason": "官方职称或名录分组属于教学、兼职、附属、科研支持或其他非独立 PI 岗位。",
+      "evidence": "Professor, School of Information · Professor (courtesy), EECS – Computer Science and Engineering · Associate Dean for Research and Innovation, UMSI | All Faculty | Information retrieval, text mining, social network analysis, and biomedical informatics | http://www-personal.umich.edu/~qmei/"
+    },
+    {
+      "officialId": "jfm",
+      "rosterName": "Meyer, John F.",
+      "title": "Professor Emeritus, EECS – Computer Science and Engineering",
+      "profileUrl": "http://web.eecs.umich.edu/~jfm",
+      "portraitUrl": "https://eecs.engin.umich.edu/wp-content/uploads/portraits/jfm.jpg",
+      "officialSections": [
+        "All Faculty"
+      ],
+      "researchFields": [
+        "Fault-tolerant computing, model-based performability evaluation, computer and telecommunication networks"
+      ],
+      "unitUrl": "https://cse.engin.umich.edu/people/faculty/",
+      "decision": "excluded_historical",
+      "reason": "官方职称或名录分组明确为荣休、退休或历史人员。",
+      "evidence": "Professor Emeritus, EECS – Computer Science and Engineering | All Faculty | Fault-tolerant computing, model-based performability evaluation, computer and telecommunication networks | http://web.eecs.umich.edu/~jfm"
+    },
+    {
+      "officialId": "mihalcea",
+      "rosterName": "Mihalcea, Rada",
+      "title": "Janice M. Jenkins Collegiate Professor of Computer Science and Engineering · Professor, EECS – Computer Science and Engineering · Director, Artificial Intelligence Lab",
+      "profileUrl": "http://web.eecs.umich.edu/~mihalcea/",
+      "portraitUrl": "https://eecs.engin.umich.edu/wp-content/uploads/portraits/mihalcea.jpg",
+      "officialSections": [
+        "All Faculty"
+      ],
+      "researchFields": [
+        "Natural language processing, computational social sciences, multimodal tracking and understanding of human behavior."
+      ],
+      "unitUrl": "https://cse.engin.umich.edu/people/faculty/",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Janice M. Jenkins Collegiate Professor of Computer Science and Engineering · Professor, EECS – Computer Science and Engineering · Director, Artificial Intelligence Lab | All Faculty | Natural language processing, computational social sciences, multimodal tracking and understanding of human behavior. | http://web.eecs.umich.edu/~mihalcea/",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "morgana",
+      "rosterName": "Morgan, Andrew",
+      "title": "Lecturer II, EECS – Computer Science and Engineering",
+      "profileUrl": "https://cse.engin.umich.edu/people/faculty/",
+      "portraitUrl": "https://eecs.engin.umich.edu/wp-content/uploads/portraits/morgana.jpg",
+      "officialSections": [
+        "All Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://cse.engin.umich.edu/people/faculty/",
+      "decision": "excluded_non_pi",
+      "reason": "官方职称或名录分组属于教学、兼职、附属、科研支持或其他非独立 PI 岗位。",
+      "evidence": "Lecturer II, EECS – Computer Science and Engineering | All Faculty | https://cse.engin.umich.edu/people/faculty/"
+    },
+    {
+      "officialId": "emilykmp",
+      "rosterName": "Mower Provost, Emily",
+      "title": "Professor, EECS – Computer Science and Engineering · Professor (courtesy), Michigan Medicine Psychiatry Department · she/her/hers",
+      "profileUrl": "https://emp.engin.umich.edu/",
+      "portraitUrl": "https://cse.engin.umich.edu/wp-content/uploads/2021/10/EMP-square-705.jpg",
+      "officialSections": [
+        "All Faculty"
+      ],
+      "researchFields": [
+        "Audio-visual modeling of human behavior focusing on emotion. Focus on assistive speech-based technologies."
+      ],
+      "unitUrl": "https://cse.engin.umich.edu/people/faculty/",
+      "decision": "excluded_non_pi",
+      "reason": "官方职称或名录分组属于教学、兼职、附属、科研支持或其他非独立 PI 岗位。",
+      "evidence": "Professor, EECS – Computer Science and Engineering · Professor (courtesy), Michigan Medicine Psychiatry Department · she/her/hers | All Faculty | Audio-visual modeling of human behavior focusing on emotion. Focus on assistive speech-based technologies. | https://emp.engin.umich.edu/"
+    },
+    {
+      "officialId": "mozafari",
+      "rosterName": "Mozafari, Barzan",
+      "title": "Associate Professor, EECS – Computer Science and Engineering",
+      "profileUrl": "http://web.eecs.umich.edu/~mozafari/",
+      "portraitUrl": "https://eecs.engin.umich.edu/wp-content/uploads/portraits/mozafari.jpg",
+      "officialSections": [
+        "All Faculty"
+      ],
+      "researchFields": [
+        "Large-scale data-intensive systems, database-as-a-service clouds, distributed systems, and crowdsourcing."
+      ],
+      "unitUrl": "https://cse.engin.umich.edu/people/faculty/",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Associate Professor, EECS – Computer Science and Engineering | All Faculty | Large-scale data-intensive systems, database-as-a-service clouds, distributed systems, and crowdsourcing. | http://web.eecs.umich.edu/~mozafari/",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "tnm",
+      "rosterName": "Mudge, Trevor",
+      "title": "Bredt Family Professor Emeritus of Engineering · Professor Emeritus, EECS – Computer Science and Engineering",
+      "profileUrl": "https://tnm.engin.umich.edu/",
+      "portraitUrl": "https://eecs.engin.umich.edu/wp-content/uploads/portraits/tnm.jpg",
+      "officialSections": [
+        "All Faculty"
+      ],
+      "researchFields": [
+        "Computer systems design, low power computing, parallel processing, computer-aided design, impact of technology."
+      ],
+      "unitUrl": "https://cse.engin.umich.edu/people/faculty/",
+      "decision": "excluded_historical",
+      "reason": "官方职称或名录分组明确为荣休、退休或历史人员。",
+      "evidence": "Bredt Family Professor Emeritus of Engineering · Professor Emeritus, EECS – Computer Science and Engineering | All Faculty | Computer systems design, low power computing, parallel processing, computer-aided design, impact of technology. | https://tnm.engin.umich.edu/"
+    },
+    {
+      "officialId": "viswa",
+      "rosterName": "Nagarajan, Viswanath",
+      "title": "Associate Professor, Industrial & Operations Engineering · Affiliate Faculty, EECS – Computer Science and Engineering",
+      "profileUrl": "https://viswa.engin.umich.edu/",
+      "portraitUrl": "https://eecs.engin.umich.edu/wp-content/uploads/portraits/viswa.jpg",
+      "officialSections": [
+        "All Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://cse.engin.umich.edu/people/faculty/",
+      "decision": "excluded_non_pi",
+      "reason": "官方职称或名录分组属于教学、兼职、附属、科研支持或其他非独立 PI 岗位。",
+      "evidence": "Associate Professor, Industrial & Operations Engineering · Affiliate Faculty, EECS – Computer Science and Engineering | All Faculty | https://viswa.engin.umich.edu/"
+    },
+    {
+      "officialId": "kayvan",
+      "rosterName": "Najarian, Kayvan",
+      "title": "Professor, Computational Medicine and Bioinformatics · Professor, Emergency Medicine · Professor (courtesy), EECS – Computer Science and Engineering",
+      "profileUrl": "http://najarianlab.ccmb.med.umich.edu/",
+      "portraitUrl": "https://cse.engin.umich.edu/wp-content/uploads/2023/10/kayvan.jpg",
+      "officialSections": [
+        "All Faculty"
+      ],
+      "researchFields": [
+        "Research Interests: AI in Medicine and Health, Machine Learning, AI for Drug Discovery, Biomedical Informatics, Computer-Aided Decision Support Systems, Biomedical Signal and Image Processing"
+      ],
+      "unitUrl": "https://cse.engin.umich.edu/people/faculty/",
+      "decision": "excluded_non_pi",
+      "reason": "官方职称或名录分组属于教学、兼职、附属、科研支持或其他非独立 PI 岗位。",
+      "evidence": "Professor, Computational Medicine and Bioinformatics · Professor, Emergency Medicine · Professor (courtesy), EECS – Computer Science and Engineering | All Faculty | Research Interests: AI in Medicine and Health, Machine Learning, AI for Drug Discovery, Biomedical Informatics, Computer-Aided Decision Support Systems, Biomedical Signal and Image Processing | http://najarianlab.ccmb.med.umich.edu/"
+    },
+    {
+      "officialId": "nsatish",
+      "rosterName": "Narayanasamy, Satish",
+      "title": "Professor, EECS – Computer Science and Engineering",
+      "profileUrl": "http://web.eecs.umich.edu/~nsatish/",
+      "portraitUrl": "https://cse.engin.umich.edu/wp-content/uploads/2023/11/narayanasamy.jpg",
+      "officialSections": [
+        "All Faculty"
+      ],
+      "researchFields": [
+        "Computer Architecture; Program Analysis; Confidential Computing; Health Systems"
+      ],
+      "unitUrl": "https://cse.engin.umich.edu/people/faculty/",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Professor, EECS – Computer Science and Engineering | All Faculty | Computer Architecture; Program Analysis; Confidential Computing; Health Systems | http://web.eecs.umich.edu/~nsatish/",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "nebeling",
+      "rosterName": "Nebeling, Michael",
+      "title": "Associate Professor, School of Information · Associate Professor (courtesy), EECS – Computer Science and Engineering",
+      "profileUrl": "http://michael-nebeling.de/",
+      "portraitUrl": "https://eecs.engin.umich.edu/wp-content/uploads/portraits/nebeling.jpg",
+      "officialSections": [
+        "All Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://cse.engin.umich.edu/people/faculty/",
+      "decision": "excluded_non_pi",
+      "reason": "官方职称或名录分组属于教学、兼职、附属、科研支持或其他非独立 PI 岗位。",
+      "evidence": "Associate Professor, School of Information · Associate Professor (courtesy), EECS – Computer Science and Engineering | All Faculty | http://michael-nebeling.de/"
+    },
+    {
+      "officialId": "maxsnew",
+      "rosterName": "New, Max",
+      "title": "Assistant Professor, EECS – Computer Science and Engineering · he/him/his",
+      "profileUrl": "http://maxsnew.com/",
+      "portraitUrl": "https://cse.engin.umich.edu/wp-content/uploads/2021/10/new.jpg",
+      "officialSections": [
+        "All Faculty"
+      ],
+      "researchFields": [
+        "Developing and using mathematical tools to ensure correctness, safety and security of programming languages and their implementations."
+      ],
+      "unitUrl": "https://cse.engin.umich.edu/people/faculty/",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Assistant Professor, EECS – Computer Science and Engineering · he/him/his | All Faculty | Developing and using mathematical tools to ensure correctness, safety and security of programming languages and their implementations. | http://maxsnew.com/",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "mwnewman",
+      "rosterName": "Newman, Mark W",
+      "title": "Professor, School of Information · Professor (courtesy), EECS – Computer Science and Engineering",
+      "profileUrl": "http://mwnewman.people.si.umich.edu/",
+      "portraitUrl": "https://eecs.engin.umich.edu/wp-content/uploads/portraits/mwnewman.jpg",
+      "officialSections": [
+        "All Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://cse.engin.umich.edu/people/faculty/",
+      "decision": "excluded_non_pi",
+      "reason": "官方职称或名录分组属于教学、兼职、附属、科研支持或其他非独立 PI 岗位。",
+      "evidence": "Professor, School of Information · Professor (courtesy), EECS – Computer Science and Engineering | All Faculty | http://mwnewman.people.si.umich.edu/"
+    },
+    {
+      "officialId": "xuanlong",
+      "rosterName": "Nguyen, Long",
+      "title": "Professor, Statistics · Affiliate Faculty, EECS – Computer Science and Engineering",
+      "profileUrl": "http://dept.stat.lsa.umich.edu/~xuanlong/",
+      "portraitUrl": "https://eecs.engin.umich.edu/wp-content/uploads/portraits/xuanlong.jpg",
+      "officialSections": [
+        "All Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://cse.engin.umich.edu/people/faculty/",
+      "decision": "excluded_non_pi",
+      "reason": "官方职称或名录分组属于教学、兼职、附属、科研支持或其他非独立 PI 岗位。",
+      "evidence": "Professor, Statistics · Affiliate Faculty, EECS – Computer Science and Engineering | All Faculty | http://dept.stat.lsa.umich.edu/~xuanlong/"
+    },
+    {
+      "officialId": "bnoble",
+      "rosterName": "Noble, Brian",
+      "title": "Professor, EECS – Computer Science and Engineering · he/him/his",
+      "profileUrl": "https://bnoble.engin.umich.edu/",
+      "portraitUrl": "https://eecs.engin.umich.edu/wp-content/uploads/portraits/bnoble.jpg",
+      "officialSections": [
+        "All Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://cse.engin.umich.edu/people/faculty/",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Professor, EECS – Computer Science and Engineering · he/him/his | All Faculty | https://bnoble.engin.umich.edu/",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "cathieno",
+      "rosterName": "Norris, Cathie",
+      "title": "Adjunct Clinical Professor",
+      "profileUrl": "https://cse.engin.umich.edu/people/faculty/",
+      "portraitUrl": "https://cse.engin.umich.edu/wp-content/plugins/cbd-eecs-blocks/dist/images/cse-photo-placeholder.png",
+      "officialSections": [
+        "All Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://cse.engin.umich.edu/people/faculty/",
+      "decision": "excluded_non_pi",
+      "reason": "官方职称或名录分组属于教学、兼职、附属、科研支持或其他非独立 PI 岗位。",
+      "evidence": "Adjunct Clinical Professor | All Faculty | https://cse.engin.umich.edu/people/faculty/"
+    },
+    {
+      "officialId": "ebolson",
+      "rosterName": "Olson, Edwin",
+      "title": "Adjunct Professor, EECS – Computer Science and Engineering",
+      "profileUrl": "https://april.eecs.umich.edu/people/ebolson/",
+      "portraitUrl": "https://eecs.engin.umich.edu/wp-content/uploads/portraits/ebolson.jpg",
+      "officialSections": [
+        "All Faculty"
+      ],
+      "researchFields": [
+        "Finding ways for robots to sense and understand their environment while coping with uncertainty and ambiguity, multi-autonomous systems."
+      ],
+      "unitUrl": "https://cse.engin.umich.edu/people/faculty/",
+      "decision": "excluded_non_pi",
+      "reason": "官方职称或名录分组属于教学、兼职、附属、科研支持或其他非独立 PI 岗位。",
+      "evidence": "Adjunct Professor, EECS – Computer Science and Engineering | All Faculty | Finding ways for robots to sense and understand their environment while coping with uncertainty and ambiguity, multi-autonomous systems. | https://april.eecs.umich.edu/people/ebolson/"
+    },
+    {
+      "officialId": "comar",
+      "rosterName": "Omar, Cyrus",
+      "title": "Associate Professor, EECS – Computer Science and Engineering · he/him/his",
+      "profileUrl": "https://web.eecs.umich.edu/~comar/",
+      "portraitUrl": "https://cse.engin.umich.edu/wp-content/uploads/2023/11/omar.jpg",
+      "officialSections": [
+        "All Faculty"
+      ],
+      "researchFields": [
+        "Fundamentally improving the programming experience for computational and data scientists, web app programmers, students and educators, and for people with disabilities who cannot effectively use other programming tools."
+      ],
+      "unitUrl": "https://cse.engin.umich.edu/people/faculty/",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Associate Professor, EECS – Computer Science and Engineering · he/him/his | All Faculty | Fundamentally improving the programming experience for computational and data scientists, web app programmers, students and educators, and for people with disabilities who cannot effectively use other programming tools. | https://web.eecs.umich.edu/~comar/",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "soney",
+      "rosterName": "Oney, Stephen",
+      "title": "Associate Professor, School of Information · Affiliate Faculty, EECS – Computer Science and Engineering · he/him/his",
+      "profileUrl": "http://from.so/",
+      "portraitUrl": "https://cse.engin.umich.edu/wp-content/uploads/2023/11/soney.jpg",
+      "officialSections": [
+        "All Faculty"
+      ],
+      "researchFields": [
+        "Designing, understanding, and creating usable programming tools, improving programming education, domain-specific tools and languages, accessibility"
+      ],
+      "unitUrl": "https://cse.engin.umich.edu/people/faculty/",
+      "decision": "excluded_non_pi",
+      "reason": "官方职称或名录分组属于教学、兼职、附属、科研支持或其他非独立 PI 岗位。",
+      "evidence": "Associate Professor, School of Information · Affiliate Faculty, EECS – Computer Science and Engineering · he/him/his | All Faculty | Designing, understanding, and creating usable programming tools, improving programming education, domain-specific tools and languages, accessibility | http://from.so/"
+    },
+    {
+      "officialId": "paoletti",
+      "rosterName": "Paoletti, David Robert",
+      "title": "Teaching Professor, EECS – Computer Science and Engineering · he/him/his",
+      "profileUrl": "https://cse.engin.umich.edu/people/faculty/",
+      "portraitUrl": "https://eecs.engin.umich.edu/wp-content/uploads/portraits/paoletti.jpg",
+      "officialSections": [
+        "All Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://cse.engin.umich.edu/people/faculty/",
+      "decision": "excluded_non_pi",
+      "reason": "官方职称或名录分组属于教学、兼职、附属、科研支持或其他非独立 PI 岗位。",
+      "evidence": "Teaching Professor, EECS – Computer Science and Engineering · he/him/his | All Faculty | https://cse.engin.umich.edu/people/faculty/"
+    },
+    {
+      "officialId": "jjparkcv",
+      "rosterName": "Park, Jeong Joon",
+      "title": "Assistant Professor, EECS – Computer Science and Engineering",
+      "profileUrl": "https://jjparkcv.github.io/",
+      "portraitUrl": "https://cse.engin.umich.edu/wp-content/uploads/2023/06/jjpark.jpg",
+      "officialSections": [
+        "All Faculty"
+      ],
+      "researchFields": [
+        "Computer vision; computer graphics; 3D reconstruction and generative models; applications of vision and graphics to robotics, medical imaging, and scientific problems."
+      ],
+      "unitUrl": "https://cse.engin.umich.edu/people/faculty/",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Assistant Professor, EECS – Computer Science and Engineering | All Faculty | Computer vision; computer graphics; 3D reconstruction and generative models; applications of vision and graphics to robotics, medical imaging, and scientific problems. | https://jjparkcv.github.io/",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "cpeikert",
+      "rosterName": "Peikert, Christopher",
+      "title": "Arthur W. Burks Collegiate Professor of Computer Science and Engineering · Professor, EECS – Computer Science and Engineering · CSE Associate Chair for Graduate Affairs · he/him/his",
+      "profileUrl": "http://web.eecs.umich.edu/~cpeikert/",
+      "portraitUrl": "https://eecs.engin.umich.edu/wp-content/uploads/portraits/cpeikert.jpg",
+      "officialSections": [
+        "All Faculty"
+      ],
+      "researchFields": [
+        "Cryptography, lattices, coding theory, algorithms, and computational complexity. A particular focus is on cryptographic schemes whose security can be based on the apparent intractability of lattice problems."
+      ],
+      "unitUrl": "https://cse.engin.umich.edu/people/faculty/",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Arthur W. Burks Collegiate Professor of Computer Science and Engineering · Professor, EECS – Computer Science and Engineering · CSE Associate Chair for Graduate Affairs · he/him/his | All Faculty | Cryptography, lattices, coding theory, algorithms, and computational complexity. A particular focus is on cryptographic schemes whose security can be based on the apparent intractability of lattice problems. | http://web.eecs.umich.edu/~cpeikert/",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "rpendse",
+      "rosterName": "Pendse, Ravi",
+      "title": "Vice President for Information Technology and Chief Information Officer, Office of the President · Clinical Professor of Engineering Practice (courtesy), EECS – Computer Science and Engineering",
+      "profileUrl": "https://cse.engin.umich.edu/people/faculty/",
+      "portraitUrl": "https://eecs.engin.umich.edu/wp-content/uploads/portraits/rpendse.jpg",
+      "officialSections": [
+        "All Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://cse.engin.umich.edu/people/faculty/",
+      "decision": "excluded_non_pi",
+      "reason": "官方职称或名录分组属于教学、兼职、附属、科研支持或其他非独立 PI 岗位。",
+      "evidence": "Vice President for Information Technology and Chief Information Officer, Office of the President · Clinical Professor of Engineering Practice (courtesy), EECS – Computer Science and Engineering | All Faculty | https://cse.engin.umich.edu/people/faculty/"
+    },
+    {
+      "officialId": "vrncapr",
+      "rosterName": "Perez-Rosas, Veronica",
+      "title": "Adjunct Assistant Research Scientist, EECS – Computer Science and Engineering",
+      "profileUrl": "https://cse.engin.umich.edu/people/faculty/",
+      "portraitUrl": "https://cse.engin.umich.edu/wp-content/uploads/2022/02/cse-photo-placeholder.png",
+      "officialSections": [
+        "All Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://cse.engin.umich.edu/people/faculty/",
+      "decision": "excluded_non_pi",
+      "reason": "官方职称或名录分组属于教学、兼职、附属、科研支持或其他非独立 PI 岗位。",
+      "evidence": "Adjunct Assistant Research Scientist, EECS – Computer Science and Engineering | All Faculty | https://cse.engin.umich.edu/people/faculty/"
+    },
+    {
+      "officialId": "pettie",
+      "rosterName": "Pettie, Seth",
+      "title": "Professor, EECS – Computer Science and Engineering · CSE Senior Associate Chair for Academic Affairs",
+      "profileUrl": "http://web.eecs.umich.edu/~pettie/",
+      "portraitUrl": "https://eecs.engin.umich.edu/wp-content/uploads/portraits/pettie.jpg",
+      "officialSections": [
+        "All Faculty"
+      ],
+      "researchFields": [
+        "Optimization algorithms, data structures, parallel and distributed computing, graph theory, and combinatorics."
+      ],
+      "unitUrl": "https://cse.engin.umich.edu/people/faculty/",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Professor, EECS – Computer Science and Engineering · CSE Senior Associate Chair for Academic Affairs | All Faculty | Optimization algorithms, data structures, parallel and distributed computing, graph theory, and combinatorics. | http://web.eecs.umich.edu/~pettie/",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "spitis",
+      "rosterName": "Pitis, Silviu",
+      "title": "Assistant Professor, EECS – Computer Science and Engineering",
+      "profileUrl": "https://silviupitis.com/",
+      "portraitUrl": "https://cse.engin.umich.edu/wp-content/uploads/2025/08/pitis.jpg",
+      "officialSections": [
+        "All Faculty"
+      ],
+      "researchFields": [
+        "Goals and rewards for intelligent agents, including reinforcement learning and language model based agents; Aligning, steering and evaluating multi-principal agents."
+      ],
+      "unitUrl": "https://cse.engin.umich.edu/people/faculty/",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Assistant Professor, EECS – Computer Science and Engineering | All Faculty | Goals and rewards for intelligent agents, including reinforcement learning and language model based agents; Aligning, steering and evaluating multi-principal agents. | https://silviupitis.com/",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "poesia",
+      "rosterName": "Poesia, Gabriel",
+      "title": "Assistant Professor, EECS- Computer Science and Engineering",
+      "profileUrl": "https://gpoesia.com/",
+      "portraitUrl": "https://cse.engin.umich.edu/wp-content/uploads/2025/09/gabe.jpg",
+      "officialSections": [
+        "All Faculty"
+      ],
+      "researchFields": [
+        "Artificial Intelligence, Formal Reasoning, Neuro-symbolic Systems, Reinforcement Learning, Large Language Models, Discovery Systems, Open-Ended Learning."
+      ],
+      "unitUrl": "https://cse.engin.umich.edu/people/faculty/",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Assistant Professor, EECS- Computer Science and Engineering | All Faculty | Artificial Intelligence, Formal Reasoning, Neuro-symbolic Systems, Reinforcement Learning, Large Language Models, Discovery Systems, Open-Ended Learning. | https://gpoesia.com/",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "potluriv",
+      "rosterName": "Potluri, Venkatesh",
+      "title": "Assistant Professor, School of Information · Affiliate Faculty, EECS – Computer Science and Engineering",
+      "profileUrl": "https://cse.engin.umich.edu/people/faculty/",
+      "portraitUrl": "https://cse.engin.umich.edu/wp-content/uploads/2025/09/potluri.jpg",
+      "officialSections": [
+        "All Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://cse.engin.umich.edu/people/faculty/",
+      "decision": "excluded_non_pi",
+      "reason": "官方职称或名录分组属于教学、兼职、附属、科研支持或其他非独立 PI 岗位。",
+      "evidence": "Assistant Professor, School of Information · Affiliate Faculty, EECS – Computer Science and Engineering | All Faculty | https://cse.engin.umich.edu/people/faculty/"
+    },
+    {
+      "officialId": "aprakash",
+      "rosterName": "Prakash, Atul",
+      "title": "Richard H. Orenstein Division Chair of Computer Science and Engineering · Professor, EECS – Computer Science and Engineering",
+      "profileUrl": "http://web.eecs.umich.edu/~aprakash/",
+      "portraitUrl": "https://cse.engin.umich.edu/wp-content/uploads/2026/08/atul.jpg",
+      "officialSections": [
+        "All Faculty"
+      ],
+      "researchFields": [
+        "Computer systems security; Security and privacy of machine learning models; trustworthy AI; and trustworthy computing infrastructures. Also interested in designing efficient and scalable systems."
+      ],
+      "unitUrl": "https://cse.engin.umich.edu/people/faculty/",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Richard H. Orenstein Division Chair of Computer Science and Engineering · Professor, EECS – Computer Science and Engineering | All Faculty | Computer systems security; Security and privacy of machine learning models; trustworthy AI; and trustworthy computing infrastructures. Also interested in designing efficient and scalable systems. | http://web.eecs.umich.edu/~aprakash/",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "radaideh",
+      "rosterName": "Radaideh, Majdi",
+      "title": "Assistant Professor, Nuclear Engineering & Radiological Sciences · Affiliate Faculty, EECS – Computer Science and Engineering",
+      "profileUrl": "https://www.aims-umich.com/",
+      "portraitUrl": "https://cse.engin.umich.edu/wp-content/uploads/2025/09/mr.jpg",
+      "officialSections": [
+        "All Faculty"
+      ],
+      "researchFields": [
+        "Physics-informed Machine Learning, Reinforcement Learning, Large-scale Optimization Algorithms, Applied Generative AI, Bayesian Computation, and Control Systems. Mentoring plan"
+      ],
+      "unitUrl": "https://cse.engin.umich.edu/people/faculty/",
+      "decision": "excluded_non_pi",
+      "reason": "官方职称或名录分组属于教学、兼职、附属、科研支持或其他非独立 PI 岗位。",
+      "evidence": "Assistant Professor, Nuclear Engineering & Radiological Sciences · Affiliate Faculty, EECS – Computer Science and Engineering | All Faculty | Physics-informed Machine Learning, Reinforcement Learning, Large-scale Optimization Algorithms, Applied Generative AI, Bayesian Computation, and Control Systems. Mentoring plan | https://www.aims-umich.com/"
+    },
+    {
+      "officialId": "rampure",
+      "rosterName": "Rampure, Suraj",
+      "title": "Lecturer III, EECS – Computer Science and Engineering",
+      "profileUrl": "https://rampure.org/",
+      "portraitUrl": "https://cse.engin.umich.edu/wp-content/uploads/2024/04/s-rampure-705.jpg",
+      "officialSections": [
+        "All Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://cse.engin.umich.edu/people/faculty/",
+      "decision": "excluded_non_pi",
+      "reason": "官方职称或名录分组属于教学、兼职、附属、科研支持或其他非独立 PI 岗位。",
+      "evidence": "Lecturer III, EECS – Computer Science and Engineering | All Faculty | https://rampure.org/"
+    },
+    {
+      "officialId": "gsravi",
+      "rosterName": "Ravi, Gokul",
+      "title": "Assistant Professor, EECS – Computer Science and Engineering",
+      "profileUrl": "https://gsravi.engin.umich.edu/",
+      "portraitUrl": "https://cse.engin.umich.edu/wp-content/uploads/2023/08/ravi.jpg",
+      "officialSections": [
+        "All Faculty"
+      ],
+      "researchFields": [
+        "Quantum computing: Application-tailored full-stack optimization, Hardware-tailored error mitigation, Hybrid quantum-classical systems, Quantum error correction decoding, Classical simulation for quantum, Resource management (e.g., in the quantum cloud), Scalable quantum compilers; Computer architecture and systems; ML-assisted systems, Accelerating scientific applications."
+      ],
+      "unitUrl": "https://cse.engin.umich.edu/people/faculty/",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Assistant Professor, EECS – Computer Science and Engineering | All Faculty | Quantum computing: Application-tailored full-stack optimization, Hardware-tailored error mitigation, Hybrid quantum-classical systems, Quantum error correction decoding, Classical simulation for quantum, Resource management (e.g., in the quantum cloud), Scalable quantum compilers; Computer architecture and systems; ML-assisted systems, Accelerating scientific applications. | https://gsravi.engin.umich.edu/",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "razak",
+      "rosterName": "Razak, Saquib",
+      "title": "LEO Lecturer III, EECS – Computer Science and Engineering",
+      "profileUrl": "https://cse.engin.umich.edu/people/faculty/",
+      "portraitUrl": "https://cse.engin.umich.edu/wp-content/uploads/2023/08/saquib-razak.jpg",
+      "officialSections": [
+        "All Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://cse.engin.umich.edu/people/faculty/",
+      "decision": "excluded_non_pi",
+      "reason": "官方职称或名录分组属于教学、兼职、附属、科研支持或其他非独立 PI 岗位。",
+      "evidence": "LEO Lecturer III, EECS – Computer Science and Engineering | All Faculty | https://cse.engin.umich.edu/people/faculty/"
+    },
+    {
+      "officialId": "jringenb",
+      "rosterName": "Ringenberg, Jeffrey S.",
+      "title": "Teaching Professor, EECS – Computer Science and Engineering",
+      "profileUrl": "https://cse.engin.umich.edu/people/faculty/",
+      "portraitUrl": "https://eecs.engin.umich.edu/wp-content/uploads/portraits/jringenb.jpg",
+      "officialSections": [
+        "All Faculty"
+      ],
+      "researchFields": [
+        "Mobile learning software development, tactile programming, methods for bringing technology into the classroom, and studying the effects of social networking and collaboration on learning."
+      ],
+      "unitUrl": "https://cse.engin.umich.edu/people/faculty/",
+      "decision": "excluded_non_pi",
+      "reason": "官方职称或名录分组属于教学、兼职、附属、科研支持或其他非独立 PI 岗位。",
+      "evidence": "Teaching Professor, EECS – Computer Science and Engineering | All Faculty | Mobile learning software development, tactile programming, methods for bringing technology into the classroom, and studying the effects of social networking and collaboration on learning. | https://cse.engin.umich.edu/people/faculty/"
+    },
+    {
+      "officialId": "alrodri",
+      "rosterName": "Rodríguez, Alexander",
+      "title": "Assistant Professor, EECS – Computer Science and Engineering",
+      "profileUrl": "https://alrodri.engin.umich.edu/",
+      "portraitUrl": "https://cse.engin.umich.edu/wp-content/uploads/2023/11/rodriguez.jpg",
+      "officialSections": [
+        "All Faculty"
+      ],
+      "researchFields": [
+        "Artificial intelligence, machine learning, multi-agent systems, computational epidemiology, public health."
+      ],
+      "unitUrl": "https://cse.engin.umich.edu/people/faculty/",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Assistant Professor, EECS – Computer Science and Engineering | All Faculty | Artificial intelligence, machine learning, multi-agent systems, computational epidemiology, public health. | https://alrodri.engin.umich.edu/",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "drom",
+      "rosterName": "Romero, Daniel",
+      "title": "Professor, School of Information · Professor (courtesy), EECS – Computer Science and Engineering",
+      "profileUrl": "http://www.dromero.org/",
+      "portraitUrl": "https://eecs.engin.umich.edu/wp-content/uploads/portraits/drom.jpg",
+      "officialSections": [
+        "All Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://cse.engin.umich.edu/people/faculty/",
+      "decision": "excluded_non_pi",
+      "reason": "官方职称或名录分组属于教学、兼职、附属、科研支持或其他非独立 PI 岗位。",
+      "evidence": "Professor, School of Information · Professor (courtesy), EECS – Computer Science and Engineering | All Faculty | http://www.dromero.org/"
+    },
+    {
+      "officialId": "rounds",
+      "rosterName": "Rounds, Bill",
+      "title": "Professor Emeritus, EECS – Computer Science and Engineering",
+      "profileUrl": "https://cse.engin.umich.edu/people/faculty/",
+      "portraitUrl": "https://eecs.engin.umich.edu/wp-content/uploads/portraits/rounds.jpg",
+      "officialSections": [
+        "All Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://cse.engin.umich.edu/people/faculty/",
+      "decision": "excluded_historical",
+      "reason": "官方职称或名录分组明确为荣休、退休或历史人员。",
+      "evidence": "Professor Emeritus, EECS – Computer Science and Engineering | All Faculty | https://cse.engin.umich.edu/people/faculty/"
+    },
+    {
+      "officialId": "aroyc",
+      "rosterName": "Roy Chowdhury, Amrita",
+      "title": "Assistant Professor, EECS – Computer Science and Engineering",
+      "profileUrl": "https://sites.google.com/wisc.edu/amrita-roy-chowdhury/",
+      "portraitUrl": "https://cse.engin.umich.edu/wp-content/uploads/2024/06/arc.jpg",
+      "officialSections": [
+        "All Faculty"
+      ],
+      "researchFields": [
+        "Cryptography, Differential Privacy, Machine Learning"
+      ],
+      "unitUrl": "https://cse.engin.umich.edu/people/faculty/",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Assistant Professor, EECS – Computer Science and Engineering | All Faculty | Cryptography, Differential Privacy, Machine Learning | https://sites.google.com/wisc.edu/amrita-roy-chowdhury/",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "karem",
+      "rosterName": "Sakallah, Karem A.",
+      "title": "Professor, EECS – Computer Science and Engineering · Professor (courtesy), EECS – Electrical and Computer Engineering",
+      "profileUrl": "http://web.eecs.umich.edu/~karem/",
+      "portraitUrl": "https://eecs.engin.umich.edu/wp-content/uploads/portraits/karem.jpg",
+      "officialSections": [
+        "All Faculty"
+      ],
+      "researchFields": [
+        "Computer-aided design of electronic systems, Boolean satisfiability, discrete optimization, and hardware and software verification."
+      ],
+      "unitUrl": "https://cse.engin.umich.edu/people/faculty/",
+      "decision": "excluded_non_pi",
+      "reason": "官方职称或名录分组属于教学、兼职、附属、科研支持或其他非独立 PI 岗位。",
+      "evidence": "Professor, EECS – Computer Science and Engineering · Professor (courtesy), EECS – Electrical and Computer Engineering | All Faculty | Computer-aided design of electronic systems, Boolean satisfiability, discrete optimization, and hardware and software verification. | http://web.eecs.umich.edu/~karem/"
+    },
+    {
+      "officialId": "apsample",
+      "rosterName": "Sample, Alanson",
+      "title": "Associate Professor, EECS – Computer Science and Engineering · Associate Professor (courtesy), EECS – Electrical and Computer Engineering · Director, Human Centered Computing Lab · he/him/his",
+      "profileUrl": "http://alansonsample.com/",
+      "portraitUrl": "https://cse.engin.umich.edu/wp-content/uploads/2023/11/sample.jpg",
+      "officialSections": [
+        "All Faculty"
+      ],
+      "researchFields": [
+        "Human-computer interaction, wireless technology, and embedded systems, with the goal of tackling the critical bottlenecks that limit interactive sensing systems with an eye towards reducing deployment barriers and ensuring scalability."
+      ],
+      "unitUrl": "https://cse.engin.umich.edu/people/faculty/",
+      "decision": "excluded_non_pi",
+      "reason": "官方职称或名录分组属于教学、兼职、附属、科研支持或其他非独立 PI 岗位。",
+      "evidence": "Associate Professor, EECS – Computer Science and Engineering · Associate Professor (courtesy), EECS – Electrical and Computer Engineering · Director, Human Centered Computing Lab · he/him/his | All Faculty | Human-computer interaction, wireless technology, and embedded systems, with the goal of tackling the critical bottlenecks that limit interactive sensing systems with an eye towards reducing deployment barriers and ensuring scalability. | http://alansonsample.com/"
+    },
+    {
+      "officialId": "thsa",
+      "rosterName": "Saranurak, Thatchaphol",
+      "title": "Morris Wellman Faculty Development Professor · Assistant Professor, EECS – Computer Science and Engineering",
+      "profileUrl": "https://sites.google.com/site/thsaranurak/",
+      "portraitUrl": "https://cse.engin.umich.edu/wp-content/uploads/2020/09/Saranurak-Thatchaphol.jpg",
+      "officialSections": [
+        "All Faculty"
+      ],
+      "researchFields": [
+        "Efficient graph algorithms and data structures; dynamic/online/distributed algorithms; graph decomposition and graph theory in general."
+      ],
+      "unitUrl": "https://cse.engin.umich.edu/people/faculty/",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Morris Wellman Faculty Development Professor · Assistant Professor, EECS – Computer Science and Engineering | All Faculty | Efficient graph algorithms and data structures; dynamic/online/distributed algorithms; graph decomposition and graph theory in general. | https://sites.google.com/site/thsaranurak/",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "fschaub",
+      "rosterName": "Schaub, Florian",
+      "title": "Associate Professor, School of Information · Associate Professor (courtesy), EECS – Computer Science and Engineering",
+      "profileUrl": "https://www.si.umich.edu/people/florian-schaub",
+      "portraitUrl": "https://cse.engin.umich.edu/wp-content/uploads/2023/11/fs.jpg",
+      "officialSections": [
+        "All Faculty"
+      ],
+      "researchFields": [
+        "Human-centered privacy and security; human-computer interaction; cybersecurity; and technology policy."
+      ],
+      "unitUrl": "https://cse.engin.umich.edu/people/faculty/",
+      "decision": "excluded_non_pi",
+      "reason": "官方职称或名录分组属于教学、兼职、附属、科研支持或其他非独立 PI 岗位。",
+      "evidence": "Associate Professor, School of Information · Associate Professor (courtesy), EECS – Computer Science and Engineering | All Faculty | Human-centered privacy and security; human-computer interaction; cybersecurity; and technology policy. | https://www.si.umich.edu/people/florian-schaub"
+    },
+    {
+      "officialId": "msbaz",
+      "rosterName": "Shahbaz, Muhammad",
+      "title": "Assistant Professor, EECS – Computer Science and Engineering",
+      "profileUrl": "https://mshahbaz.gitlab.io/",
+      "portraitUrl": "https://cse.engin.umich.edu/wp-content/uploads/2024/04/shahbaz-705.jpg",
+      "officialSections": [
+        "All Faculty"
+      ],
+      "researchFields": [
+        "Computer Systems, Networks, and Architecture and their interaction with Machine Learning."
+      ],
+      "unitUrl": "https://cse.engin.umich.edu/people/faculty/",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Assistant Professor, EECS – Computer Science and Engineering | All Faculty | Computer Systems, Networks, and Architecture and their interaction with Machine Learning. | https://mshahbaz.gitlab.io/",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "yunong",
+      "rosterName": "Shi, Yunong",
+      "title": "Visiting Assistant Professor, EECS- Computer Science and Engineering",
+      "profileUrl": "https://yunongshi.me/",
+      "portraitUrl": "https://cse.engin.umich.edu/wp-content/uploads/2025/12/y-shi-705.jpg",
+      "officialSections": [
+        "All Faculty"
+      ],
+      "researchFields": [
+        "Quantum computing, formal verification, AI for systems"
+      ],
+      "unitUrl": "https://cse.engin.umich.edu/people/faculty/",
+      "decision": "excluded_non_pi",
+      "reason": "官方职称或名录分组属于教学、兼职、附属、科研支持或其他非独立 PI 岗位。",
+      "evidence": "Visiting Assistant Professor, EECS- Computer Science and Engineering | All Faculty | Quantum computing, formal verification, AI for systems | https://yunongshi.me/"
+    },
+    {
+      "officialId": "kgshin",
+      "rosterName": "Shin, Kang G.",
+      "title": "Kevin and Nancy O’Connor Emeritus Professor of Computer Science · Emeritus Professor, EECS – Computer Science and Engineering · Emeritus Professor (courtesy), EECS – Electrical and Computer Engineering",
+      "profileUrl": "http://web.eecs.umich.edu/~kgshin/",
+      "portraitUrl": "https://cse.engin.umich.edu/wp-content/uploads/2021/10/shin-web.jpg",
+      "officialSections": [
+        "All Faculty"
+      ],
+      "researchFields": [
+        "Wireless/mobile computation and networks, security and dependability, cyber-physical systems, embedded real-time systems."
+      ],
+      "unitUrl": "https://cse.engin.umich.edu/people/faculty/",
+      "decision": "excluded_historical",
+      "reason": "官方职称或名录分组明确为荣休、退休或历史人员。",
+      "evidence": "Kevin and Nancy O’Connor Emeritus Professor of Computer Science · Emeritus Professor, EECS – Computer Science and Engineering · Emeritus Professor (courtesy), EECS – Electrical and Computer Engineering | All Faculty | Wireless/mobile computation and networks, security and dependability, cyber-physical systems, embedded real-time systems. | http://web.eecs.umich.edu/~kgshin/"
+    },
+    {
+      "officialId": "smithdj",
+      "rosterName": "Smith, James",
+      "title": "Adjunct Professor, EECS – Computer Science and Engineering",
+      "profileUrl": "https://cse.engin.umich.edu/people/faculty/",
+      "portraitUrl": "https://cse.engin.umich.edu/wp-content/plugins/cbd-eecs-blocks/dist/images/cse-photo-placeholder.png",
+      "officialSections": [
+        "All Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://cse.engin.umich.edu/people/faculty/",
+      "decision": "excluded_non_pi",
+      "reason": "官方职称或名录分组属于教学、兼职、附属、科研支持或其他非独立 PI 岗位。",
+      "evidence": "Adjunct Professor, EECS – Computer Science and Engineering | All Faculty | https://cse.engin.umich.edu/people/faculty/"
+    },
+    {
+      "officialId": "soloway",
+      "rosterName": "Soloway, Elliot",
+      "title": "Arthur F. Thurnau Professor · Professor, EECS – Computer Science and Engineering · Professor, School of Information and School of Education",
+      "profileUrl": "https://www.si.umich.edu/people/elliot-soloway",
+      "portraitUrl": "https://eecs.engin.umich.edu/wp-content/uploads/portraits/soloway.jpg",
+      "officialSections": [
+        "All Faculty"
+      ],
+      "researchFields": [
+        "Artificial intelligence and software engineering, Artificial intelligence and education."
+      ],
+      "unitUrl": "https://cse.engin.umich.edu/people/faculty/",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Arthur F. Thurnau Professor · Professor, EECS – Computer Science and Engineering · Professor, School of Information and School of Education | All Faculty | Artificial intelligence and software engineering, Artificial intelligence and education. | https://www.si.umich.edu/people/elliot-soloway",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "qstout",
+      "rosterName": "Stout, Quentin F.",
+      "title": "Co-Director, Center for Space Environment Modeling · Professor, EECS – Computer Science and Engineering · Professor (courtesy), Climate and Space Research (CLASP)",
+      "profileUrl": "http://web.eecs.umich.edu/~qstout/",
+      "portraitUrl": "https://eecs.engin.umich.edu/wp-content/uploads/portraits/qstout.jpg",
+      "officialSections": [
+        "All Faculty"
+      ],
+      "researchFields": [
+        "Parallel computing, algorithms, supercomputing applied to problems in science and engineering, optimizing clinical trials"
+      ],
+      "unitUrl": "https://cse.engin.umich.edu/people/faculty/",
+      "decision": "excluded_non_pi",
+      "reason": "官方职称或名录分组属于教学、兼职、附属、科研支持或其他非独立 PI 岗位。",
+      "evidence": "Co-Director, Center for Space Environment Modeling · Professor, EECS – Computer Science and Engineering · Professor (courtesy), Climate and Space Research (CLASP) | All Faculty | Parallel computing, algorithms, supercomputing applied to problems in science and engineering, optimizing clinical trials | http://web.eecs.umich.edu/~qstout/"
+    },
+    {
+      "officialId": "kesuniot",
+      "rosterName": "Sun, Ke",
+      "title": "Assistant Professor, EECS – Computer Science and Engineering",
+      "profileUrl": "https://samsonsjarkal.github.io/KeSun/",
+      "portraitUrl": "https://cse.engin.umich.edu/wp-content/uploads/2024/06/Ke-Sun.jpg",
+      "officialSections": [
+        "All Faculty"
+      ],
+      "researchFields": [
+        "Mobile computing, Human-computer interaction, embedded systems, and IoT security and privacy, with the vision of developing intelligent, cost-effective, deployable, human-centric, and trustworthy mobile, wearable, and IoT systems."
+      ],
+      "unitUrl": "https://cse.engin.umich.edu/people/faculty/",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Assistant Professor, EECS – Computer Science and Engineering | All Faculty | Mobile computing, Human-computer interaction, embedded systems, and IoT security and privacy, with the vision of developing intelligent, cost-effective, deployable, human-centric, and trustworthy mobile, wearable, and IoT systems. | https://samsonsjarkal.github.io/KeSun/",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "lingjia",
+      "rosterName": "Tang, Lingjia",
+      "title": "Associate Professor, EECS – Computer Science and Engineering",
+      "profileUrl": "https://lingjia.engin.umich.edu/",
+      "portraitUrl": "https://cse.engin.umich.edu/wp-content/uploads/2023/11/lingjia.jpg",
+      "officialSections": [
+        "All Faculty"
+      ],
+      "researchFields": [
+        "Computer architecture and compiler and runtime systems, especially such systems for large scale data centers."
+      ],
+      "unitUrl": "https://cse.engin.umich.edu/people/faculty/",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Associate Professor, EECS – Computer Science and Engineering | All Faculty | Computer architecture and compiler and runtime systems, especially such systems for large scale data centers. | https://lingjia.engin.umich.edu/",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "teorey",
+      "rosterName": "Teorey, Toby",
+      "title": "Professor Emeritus, EECS – Computer Science and Engineering",
+      "profileUrl": "http://web.eecs.umich.edu/~teorey",
+      "portraitUrl": "https://eecs.engin.umich.edu/wp-content/uploads/portraits/teorey.jpg",
+      "officialSections": [
+        "All Faculty"
+      ],
+      "researchFields": [
+        "Database design and data warehousing, OLAP, data mining, performance of computer systems"
+      ],
+      "unitUrl": "https://cse.engin.umich.edu/people/faculty/",
+      "decision": "excluded_historical",
+      "reason": "官方职称或名录分组明确为荣休、退休或历史人员。",
+      "evidence": "Professor Emeritus, EECS – Computer Science and Engineering | All Faculty | Database design and data warehousing, OLAP, data mining, performance of computer systems | http://web.eecs.umich.edu/~teorey"
+    },
+    {
+      "officialId": "tewaria",
+      "rosterName": "Tewari, Ambuj",
+      "title": "Professor, Statistics · Professor (courtesy), EECS – Computer Science and Engineering",
+      "profileUrl": "https://www.ambujtewari.com/",
+      "portraitUrl": "https://cse.engin.umich.edu/wp-content/uploads/2023/11/tewari.jpg",
+      "officialSections": [
+        "All Faculty"
+      ],
+      "researchFields": [
+        "Machine Learning, AI for Chemistry, AI for Psychiatry"
+      ],
+      "unitUrl": "https://cse.engin.umich.edu/people/faculty/",
+      "decision": "excluded_non_pi",
+      "reason": "官方职称或名录分组属于教学、兼职、附属、科研支持或其他非独立 PI 岗位。",
+      "evidence": "Professor, Statistics · Professor (courtesy), EECS – Computer Science and Engineering | All Faculty | Machine Learning, AI for Chemistry, AI for Psychiatry | https://www.ambujtewari.com/"
+    },
+    {
+      "officialId": "bentorra",
+      "rosterName": "Torralva, Ben",
+      "title": "LEO Lecturer I, EECS – Computer Science and Engineering",
+      "profileUrl": "https://cse.engin.umich.edu/people/faculty/",
+      "portraitUrl": "https://cse.engin.umich.edu/wp-content/uploads/2023/10/ben-t.jpg",
+      "officialSections": [
+        "All Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://cse.engin.umich.edu/people/faculty/",
+      "decision": "excluded_non_pi",
+      "reason": "官方职称或名录分组属于教学、兼职、附属、科研支持或其他非独立 PI 岗位。",
+      "evidence": "LEO Lecturer I, EECS – Computer Science and Engineering | All Faculty | https://cse.engin.umich.edu/people/faculty/"
+    },
+    {
+      "officialId": "gtzimpra",
+      "rosterName": "Tzimpragos, Georgios",
+      "title": "Adjunct Assistant Professor, EECS – Computer Science and Engineering",
+      "profileUrl": "https://cse.engin.umich.edu/people/faculty/",
+      "portraitUrl": "https://cse.engin.umich.edu/wp-content/plugins/cbd-eecs-blocks/dist/images/cse-photo-placeholder.png",
+      "officialSections": [
+        "All Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://cse.engin.umich.edu/people/faculty/",
+      "decision": "excluded_non_pi",
+      "reason": "官方职称或名录分组属于教学、兼职、附属、科研支持或其他非独立 PI 岗位。",
+      "evidence": "Adjunct Assistant Professor, EECS – Computer Science and Engineering | All Faculty | https://cse.engin.umich.edu/people/faculty/"
+    },
+    {
+      "officialId": "wangluxy",
+      "rosterName": "Wang, Lu",
+      "title": "Associate Professor, EECS – Computer Science and Engineering · she/her/hers",
+      "profileUrl": "https://web.eecs.umich.edu/~wangluxy/",
+      "portraitUrl": "https://cse.engin.umich.edu/wp-content/uploads/2023/11/lw.jpg",
+      "officialSections": [
+        "All Faculty"
+      ],
+      "researchFields": [
+        "Natural language processing, machine learning, trustworthy AI, AI safety, and AI evaluation."
+      ],
+      "unitUrl": "https://cse.engin.umich.edu/people/faculty/",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Associate Professor, EECS – Computer Science and Engineering · she/her/hers | All Faculty | Natural language processing, machine learning, trustworthy AI, AI safety, and AI evaluation. | https://web.eecs.umich.edu/~wangluxy/",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "xwangsd",
+      "rosterName": "Wang, Xinyu",
+      "title": "Associate Professor, EECS – Computer Science and Engineering · he/him/his",
+      "profileUrl": "https://web.eecs.umich.edu/~xwangsd/",
+      "portraitUrl": "https://cse.engin.umich.edu/wp-content/uploads/2021/11/xw.jpg",
+      "officialSections": [
+        "All Faculty"
+      ],
+      "researchFields": [
+        "Programming Languages, Formal Methods, Software Engineering. Program synthesis, verification, analysis, and testing."
+      ],
+      "unitUrl": "https://cse.engin.umich.edu/people/faculty/",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Associate Professor, EECS – Computer Science and Engineering · he/him/his | All Faculty | Programming Languages, Formal Methods, Software Engineering. Program synthesis, verification, analysis, and testing. | https://web.eecs.umich.edu/~xwangsd/",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "xwanghci",
+      "rosterName": "Wang, Xu",
+      "title": "Assistant Professor, EECS – Computer Science and Engineering",
+      "profileUrl": "https://web.eecs.umich.edu/~xwanghci/",
+      "portraitUrl": "https://cse.engin.umich.edu/wp-content/uploads/2020/09/Wang-Xu.jpg",
+      "officialSections": [
+        "All Faculty"
+      ],
+      "researchFields": [
+        "Human-computer interaction, artificial intelligence in education, computer supported collaborative learning and work, human-AI interaction, learning sciences and technologies, cognitive science."
+      ],
+      "unitUrl": "https://cse.engin.umich.edu/people/faculty/",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Assistant Professor, EECS – Computer Science and Engineering | All Faculty | Human-computer interaction, artificial intelligence in education, computer supported collaborative learning and work, human-AI interaction, learning sciences and technologies, cognitive science. | https://web.eecs.umich.edu/~xwanghci/",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "weimerw",
+      "rosterName": "Weimer, Westley",
+      "title": "Professor, EECS – Computer Science and Engineering",
+      "profileUrl": "http://web.eecs.umich.edu/~weimerw/",
+      "portraitUrl": "https://eecs.engin.umich.edu/wp-content/uploads/portraits/weimerw.jpg",
+      "officialSections": [
+        "All Faculty"
+      ],
+      "researchFields": [
+        "Programming languages; software engineering; medical imaging; program analysis, synthesis and improvement."
+      ],
+      "unitUrl": "https://cse.engin.umich.edu/people/faculty/",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Professor, EECS – Computer Science and Engineering | All Faculty | Programming languages; software engineering; medical imaging; program analysis, synthesis and improvement. | http://web.eecs.umich.edu/~weimerw/",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "nswein",
+      "rosterName": "Wein, Nicole",
+      "title": "Assistant Professor, EECS – Computer Science and Engineering",
+      "profileUrl": "https://web.eecs.umich.edu/~nswein/",
+      "portraitUrl": "https://cse.engin.umich.edu/wp-content/uploads/2023/11/nicole-wein-705.jpg",
+      "officialSections": [
+        "All Faculty"
+      ],
+      "researchFields": [
+        "Algorithms, data structures, graph theory, dynamic/online/distributed models, fine-grained complexity."
+      ],
+      "unitUrl": "https://cse.engin.umich.edu/people/faculty/",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Assistant Professor, EECS – Computer Science and Engineering | All Faculty | Algorithms, data structures, graph theory, dynamic/online/distributed models, fine-grained complexity. | https://web.eecs.umich.edu/~nswein/",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "welchjd",
+      "rosterName": "Welch, Joshua",
+      "title": "Associate Professor, Computational Medicine and Bioinformatics · Associate Professor (courtesy), EECS – Computer Science and Engineering",
+      "profileUrl": "https://welch-lab.github.io/",
+      "portraitUrl": "https://cse.engin.umich.edu/wp-content/uploads/2023/11/jw-1.jpg",
+      "officialSections": [
+        "All Faculty"
+      ],
+      "researchFields": [
+        "Artificial Intelligence, Machine Learning, Computational Biology"
+      ],
+      "unitUrl": "https://cse.engin.umich.edu/people/faculty/",
+      "decision": "excluded_non_pi",
+      "reason": "官方职称或名录分组属于教学、兼职、附属、科研支持或其他非独立 PI 岗位。",
+      "evidence": "Associate Professor, Computational Medicine and Bioinformatics · Associate Professor (courtesy), EECS – Computer Science and Engineering | All Faculty | Artificial Intelligence, Machine Learning, Computational Biology | https://welch-lab.github.io/"
+    },
+    {
+      "officialId": "wellman",
+      "rosterName": "Wellman, Michael",
+      "title": "Interim Associate Dean for Academic Affairs · Lynn A. Conway Collegiate Professor of Computer Science and Engineering · Professor, EECS – Computer Science and Engineering · he/him/his",
+      "profileUrl": "http://strategicreasoning.org/michael-p-wellman/",
+      "portraitUrl": "https://cse.engin.umich.edu/wp-content/uploads/2023/11/Wellman-headshot_square.png",
+      "officialSections": [
+        "All Faculty"
+      ],
+      "researchFields": [
+        "Artificial Intelligence, Electronic Commerce"
+      ],
+      "unitUrl": "https://cse.engin.umich.edu/people/faculty/",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Interim Associate Dean for Academic Affairs · Lynn A. Conway Collegiate Professor of Computer Science and Engineering · Professor, EECS – Computer Science and Engineering · he/him/his | All Faculty | Artificial Intelligence, Electronic Commerce | http://strategicreasoning.org/michael-p-wellman/",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "wiensj",
+      "rosterName": "Wiens, Jenna",
+      "title": "Professor, EECS – Computer Science and Engineering · Co-Director, AI & Digital Health Innovation · Associate Director, Artificial Intelligence Lab",
+      "profileUrl": "http://web.eecs.umich.edu/~wiensj/",
+      "portraitUrl": "https://cse.engin.umich.edu/wp-content/uploads/2023/11/jw.jpg",
+      "officialSections": [
+        "All Faculty"
+      ],
+      "researchFields": [
+        "Artificial Intelligence, Machine Learning, Computational Healthcare"
+      ],
+      "unitUrl": "https://cse.engin.umich.edu/people/faculty/",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Professor, EECS – Computer Science and Engineering · Co-Director, AI & Digital Health Innovation · Associate Director, Artificial Intelligence Lab | All Faculty | Artificial Intelligence, Machine Learning, Computational Healthcare | http://web.eecs.umich.edu/~wiensj/",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "don",
+      "rosterName": "Winsor, Don",
+      "title": "Departmental Computing Organization Coordinator · Adjunct Professor, Electrical Engineering and Computer Science · he/him/his",
+      "profileUrl": "https://cse.engin.umich.edu/people/faculty/",
+      "portraitUrl": "https://eecs.engin.umich.edu/wp-content/uploads/portraits/don.jpg",
+      "officialSections": [
+        "All Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://cse.engin.umich.edu/people/faculty/",
+      "decision": "excluded_non_pi",
+      "reason": "官方职称或名录分组属于教学、兼职、附属、科研支持或其他非独立 PI 岗位。",
+      "evidence": "Departmental Computing Organization Coordinator · Adjunct Professor, Electrical Engineering and Computer Science · he/him/his | All Faculty | https://cse.engin.umich.edu/people/faculty/"
+    },
+    {
+      "officialId": "kewucse",
+      "rosterName": "Wu, Ke",
+      "title": "Assistant Professor, EECS – Computer Science and Engineering",
+      "profileUrl": "https://kewucse.engin.umich.edu/",
+      "portraitUrl": "https://cse.engin.umich.edu/wp-content/uploads/2024/03/kewu705b.jpg",
+      "officialSections": [
+        "All Faculty"
+      ],
+      "researchFields": [
+        "Cryptography and game theory, as well as related areas in theoretical Computer Science, especially how they can be combined and applied to design better decentralized applications."
+      ],
+      "unitUrl": "https://cse.engin.umich.edu/people/faculty/",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Assistant Professor, EECS – Computer Science and Engineering | All Faculty | Cryptography and game theory, as well as related areas in theoretical Computer Science, especially how they can be combined and applied to design better decentralized applications. | https://kewucse.engin.umich.edu/",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "ayarger",
+      "rosterName": "Yarger, Austin",
+      "title": "Lecturer II, EECS – Computer Science and Engineering · he/him/his",
+      "profileUrl": "https://ayarger.engin.umich.edu/",
+      "portraitUrl": "https://cse.engin.umich.edu/wp-content/uploads/2021/10/yarger-web.jpg",
+      "officialSections": [
+        "All Faculty"
+      ],
+      "researchFields": [
+        "– Midwestern Entrepreneurship (Founder of the Michigan Game Studios Database) – Game Development / Extended Reality (Arbor Interactive Game Studio) – Game Development pedagogy (EECS 494 : Introduction to Game Development course) – Extended Reality (XR) pedagogy (EECS 498 : Extended Reality and Society course) – Game Engine pedagogy (EECS 498 : Game Engine Architecture) – Student-Run Game Studios (Wolverine Soft Studio)"
+      ],
+      "unitUrl": "https://cse.engin.umich.edu/people/faculty/",
+      "decision": "excluded_non_pi",
+      "reason": "官方职称或名录分组属于教学、兼职、附属、科研支持或其他非独立 PI 岗位。",
+      "evidence": "Lecturer II, EECS – Computer Science and Engineering · he/him/his | All Faculty | – Midwestern Entrepreneurship (Founder of the Michigan Game Studios Database) – Game Development / Extended Reality (Arbor Interactive Game Studio) – Game Development pedagogy (EECS 494 : Introduction to Game Development course) – Extended Reality (XR) pedagogy (EECS 498 : Extended Reality and Society course) – Game Engine pedagogy (EECS 498 : Game Engine Architecture) – Student-Run Game Studios (Wolverine Soft Studio) | https://ayarger.engin.umich.edu/"
+    },
+    {
+      "officialId": "stellayu",
+      "rosterName": "Yu, Stella",
+      "title": "Professor, EECS – Computer Science and Engineering",
+      "profileUrl": "https://web.eecs.umich.edu/~stellayu/",
+      "portraitUrl": "https://cse.engin.umich.edu/wp-content/uploads/2022/08/stella-yu.jpg",
+      "officialSections": [
+        "All Faculty"
+      ],
+      "researchFields": [
+        "I study visual perception from multiple perspectives: human vision, computer vision, robotic vision, and artistic vision. To me, visual perception presents not just a fascinating computational problem, but more importantly an intelligent solution for large-scale data mining and pattern recognition applications."
+      ],
+      "unitUrl": "https://cse.engin.umich.edu/people/faculty/",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Professor, EECS – Computer Science and Engineering | All Faculty | I study visual perception from multiple perspectives: human vision, computer vision, robotic vision, and artistic vision. To me, visual perception presents not just a fascinating computational problem, but more importantly an intelligent solution for large-scale data mining and pattern recognition applications. | https://web.eecs.umich.edu/~stellayu/",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "jiayuz",
+      "rosterName": "Zhou, Jiayu",
+      "title": "Professor of Information, School of Information · Affiliate Faculty, EECS – Computer Science and Engineering",
+      "profileUrl": "https://cse.engin.umich.edu/people/faculty/",
+      "portraitUrl": "https://cse.engin.umich.edu/wp-content/uploads/2024/10/jz.jpg",
+      "officialSections": [
+        "All Faculty"
+      ],
+      "researchFields": [
+        "Machine Learning and AI + Health Informatics."
+      ],
+      "unitUrl": "https://cse.engin.umich.edu/people/faculty/",
+      "decision": "excluded_non_pi",
+      "reason": "官方职称或名录分组属于教学、兼职、附属、科研支持或其他非独立 PI 岗位。",
+      "evidence": "Professor of Information, School of Information · Affiliate Faculty, EECS – Computer Science and Engineering | All Faculty | Machine Learning and AI + Health Informatics. | https://cse.engin.umich.edu/people/faculty/"
+    },
+    {
+      "officialId": "zhujunyi",
+      "rosterName": "Zhu, Junyi",
+      "title": "Assistant Professor, EECS – Electrical and Computer Engineering · Assistant Professor (courtesy), EECS-Computer Science and Engineering",
+      "profileUrl": "https://sixlab-eecs.com/",
+      "portraitUrl": "https://cse.engin.umich.edu/wp-content/uploads/2024/07/Zhu_Junyi-2025.jpg",
+      "officialSections": [
+        "All Faculty"
+      ],
+      "researchFields": [
+        "Human-computer interaction, novel sensing devices, fabrication, embedded systems, personal health and medical devices, interaction techniques, prototyping"
+      ],
+      "unitUrl": "https://cse.engin.umich.edu/people/faculty/",
+      "decision": "excluded_non_pi",
+      "reason": "官方职称或名录分组属于教学、兼职、附属、科研支持或其他非独立 PI 岗位。",
+      "evidence": "Assistant Professor, EECS – Electrical and Computer Engineering · Assistant Professor (courtesy), EECS-Computer Science and Engineering | All Faculty | Human-computer interaction, novel sensing devices, fabrication, embedded systems, personal health and medical devices, interaction techniques, prototyping | https://sixlab-eecs.com/"
+    }
+  ]
+}

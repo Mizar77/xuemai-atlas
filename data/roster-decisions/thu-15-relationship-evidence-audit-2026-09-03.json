@@ -1,0 +1,135 @@
+{
+  "schemaVersion": 1,
+  "reviewedAt": "2026-09-03",
+  "scope": "Relationship evidence audit for the 15 ready THU PI profiles in app/thu-ntu-next-batch-pi-expansion-2026.ts",
+  "policy": "Only a first-party CV, thesis, official adviser/lab page, or official student-destination page can support a relationship. Publication coauthorship alone is not treated as supervision. A graph edge is emitted only when both endpoints have complete atlas nodes.",
+  "counts": {
+    "peopleChecked": 15,
+    "explicitRelationshipFound": 4,
+    "edgesReady": 6,
+    "explicitButEndpointMissing": 0,
+    "noExplicitFirstPartyRelationshipFound": 11
+  },
+  "audits": [
+    {
+      "personId": "guoliang-li-thu",
+      "name": "李国良",
+      "status": "no_explicit_first_party_relationship",
+      "sourcesChecked": ["https://www.cs.tsinghua.edu.cn/csen/info/1303/4317.htm"],
+      "note": "官方页列教育经历与研究方向，但未写博士导师或可逐人核验的毕业学生现职。"
+    },
+    {
+      "personId": "juanzi-li-thu",
+      "name": "李涓子",
+      "status": "edges_ready",
+      "sourcesChecked": ["https://keg.cs.tsinghua.edu.cn/persons/ljz/", "https://www.cs.tsinghua.edu.cn/csen/info/1303/4318.htm"],
+      "relationships": [
+        {"kind": "phd_adviser", "otherPersonId": "changning-huang-thu-historical", "otherName": "黄昌宁", "evidence": "个人主页明确列 1996–2000 博士论文导师为 Prof. Huang Changning。", "edgeReady": true},
+        {"kind": "postdoc_mentor", "otherPersonId": "zuoying-wang-thu", "otherName": "王作英", "evidence": "个人主页明确列 2000–2001 博士后 coordinator 为 Prof. Wang Zuoying。", "edgeReady": true}
+      ],
+      "note": "黄昌宁与王作英均已在 atlas 中有完整上游节点，可直接发出两条核验关系边。"
+    },
+    {
+      "personId": "jianyong-wang-thu",
+      "name": "王建勇",
+      "status": "no_explicit_first_party_relationship",
+      "sourcesChecked": ["https://www.cs.tsinghua.edu.cn/csen/info/1303/4320.htm"],
+      "note": "官方页未明确列博士导师或学生职业去向。"
+    },
+    {
+      "personId": "yuxiao-dong-thu",
+      "name": "董宇啸",
+      "status": "no_explicit_first_party_relationship",
+      "sourcesChecked": ["https://www.cs.tsinghua.edu.cn/csen/info/1304/4468.htm"],
+      "note": "官方页可核验 Meta/MSR 经历，但未明确博士导师。"
+    },
+    {
+      "personId": "lei-hou-thu",
+      "name": "侯磊",
+      "status": "no_explicit_first_party_relationship",
+      "sourcesChecked": ["https://www.cs.tsinghua.edu.cn/info/1112/7030.htm", "https://www.cs.tsinghua.edu.cn/2023niandi2qizongdi28qi.pdf"],
+      "note": "校内材料可核验其参与共同指导学生论文，但未提供可唯一识别并具有完整 atlas 节点的导师—学生对。"
+    },
+    {
+      "personId": "yongjin-liu-thu",
+      "name": "刘永进",
+      "status": "no_explicit_first_party_relationship",
+      "sourcesChecked": ["https://www.cs.tsinghua.edu.cn/csen/info/1306/4331.htm"],
+      "note": "官方页列 HKUST 硕博与博士后经历，但未写导师姓名。"
+    },
+    {
+      "personId": "wenwu-zhu-thu",
+      "name": "朱文武",
+      "status": "no_explicit_first_party_relationship",
+      "sourcesChecked": ["https://www.cs.tsinghua.edu.cn/csen/info/1306/4336.htm"],
+      "note": "官方页列 NYU 博士训练与学术服务，未写导师或学生去向表。"
+    },
+    {
+      "personId": "hang-su-thu",
+      "name": "苏航",
+      "status": "no_explicit_first_party_relationship",
+      "sourcesChecked": ["https://www.cs.tsinghua.edu.cn/csen/info/1313/4403.htm"],
+      "note": "官方页未明确博士导师或学生现职。"
+    },
+    {
+      "personId": "changshui-zhang-thu",
+      "name": "张长水",
+      "status": "no_explicit_first_party_relationship",
+      "sourcesChecked": ["https://www.au.tsinghua.edu.cn/info/1078/3257.htm"],
+      "note": "官方页列清华博士经历，但未明确导师；不按同系资历推断。"
+    },
+    {
+      "personId": "xuegong-zhang-thu",
+      "name": "张学工",
+      "status": "no_explicit_first_party_relationship",
+      "sourcesChecked": ["https://www.au.tsinghua.edu.cn/info/1078/3135.htm"],
+      "note": "官方页未明确博士导师或可核验的学生职业去向。"
+    },
+    {
+      "personId": "jie-zhou-thu-auto",
+      "name": "周杰",
+      "status": "edges_ready",
+      "sourcesChecked": ["https://www.au.tsinghua.edu.cn/info/1078/3126.htm"],
+      "relationships": [
+        {"kind": "student", "otherName": "陈芳林", "evidence": "官方主页列其受指导博士生并获优秀博士论文荣誉。", "edgeReady": false},
+        {"kind": "student", "otherPersonId": "jifeng-dai-thu-upstream", "otherName": "代季峰", "evidence": "周杰官方主页列代季峰为受指导博士生；代季峰清华电子系官方主页明确写明博士导师为周杰。", "edgeReady": true},
+        {"kind": "student", "otherName": "胡瀚", "evidence": "官方主页列其受指导博士生并获优秀博士论文荣誉。", "edgeReady": false}
+      ],
+      "note": "代季峰已完成当前任职、研究、教育、产业履历、双一手来源与官方头像，可发博士导师边；陈芳林、胡瀚仍只保留证据，不发空边。"
+    },
+    {
+      "personId": "jiwen-lu-thu",
+      "name": "鲁继文",
+      "status": "no_explicit_first_party_relationship",
+      "sourcesChecked": ["https://www.au.tsinghua.edu.cn/info/1078/3156.htm"],
+      "note": "官方页列 NTU 博士经历但未写导师。"
+    },
+    {
+      "personId": "xiangyang-ji-thu",
+      "name": "季向阳",
+      "status": "edges_ready",
+      "sourcesChecked": ["https://www.au.tsinghua.edu.cn/info/1166/3180.htm", "https://www.jdl.ac.cn/rencai/taolitianxia"],
+      "relationships": [
+        {"kind": "co_adviser", "otherPersonId": "gao-wen-pku", "otherName": "高文", "evidence": "JDL 官方名录列季向阳 2008 年视频编码博士导师为赵德斌、高文。", "edgeReady": true},
+        {"kind": "co_adviser", "otherPersonId": "zhao-debin-hit", "otherName": "赵德斌", "evidence": "JDL 官方名录列季向阳 2008 年视频编码博士导师为赵德斌、高文。", "edgeReady": true}
+      ]
+    },
+    {
+      "personId": "yebin-liu-thu",
+      "name": "刘烨斌",
+      "status": "no_explicit_first_party_relationship",
+      "sourcesChecked": ["https://www.au.tsinghua.edu.cn/info/1080/3160.htm"],
+      "note": "官方页列清华博士与博士后经历，但未明确导师姓名。"
+    },
+    {
+      "personId": "zaiqing-nie-air",
+      "name": "聂再清",
+      "status": "edges_ready",
+      "sourcesChecked": ["https://air.tsinghua.edu.cn/info/1046/1203.htm", "https://search.asu.edu/profile/95646"],
+      "relationships": [
+        {"kind": "phd_adviser", "otherPersonId": "subbarao-kambhampati-asu-upstream", "otherName": "Subbarao Kambhampati", "evidence": "清华 AIR 官方简介明确写明其 ASU 博士师从 Subbarao Kambhampati；导师 ASU 托管 CV 亦列 Zaiqing Nie 为 2004 年春博士毕业生。", "edgeReady": true}
+      ],
+      "note": "导师已补 ASU 当前任职、教育、研究、学生去向、官方头像和双向一手证据，可发博士导师边。"
+    }
+  ]
+}

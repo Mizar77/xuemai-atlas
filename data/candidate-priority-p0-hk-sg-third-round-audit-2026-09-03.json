@@ -1,0 +1,20 @@
+{
+  "ok": true,
+  "reviewed": 189,
+  "dispositionCounts": {
+    "exclude_non_independent": 1,
+    "exclude_out_of_scope": 1,
+    "missing_relationship": 171,
+    "ready": 16
+  },
+  "regionCounts": {
+    "Hong Kong": 71,
+    "Singapore": 118
+  },
+  "priorityLocalPortraitReviewed": 19,
+  "newPeople": 16,
+  "supportingPeople": 10,
+  "relationships": 15,
+  "rosterPromotions": 16,
+  "failures": []
+}

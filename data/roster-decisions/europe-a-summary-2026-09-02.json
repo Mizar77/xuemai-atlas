@@ -1,0 +1,2175 @@
+{
+  "schemaVersion": 1,
+  "snapshotAt": "2026-09-02",
+  "scope": "Tübingen CS; TU Darmstadt CS; Surrey CSEE, CVSSP and People-Centred AI; Copenhagen DIKU",
+  "decisionPolicy": "Current independent PI or independently recruiting faculty in AI/NLP/CV/ML/robotics/data science and closely related HCI, graphics, intelligent perception and decision fields. Visitors, students, postdocs, administrative, emeritus and research-only entries are not treated as core PI without explicit evidence.",
+  "officialRosterTotal": 737,
+  "decisionTotal": 737,
+  "totalsByDecision": {
+    "included_existing": 13,
+    "include_new_pi": 231,
+    "excluded_non_ai_cs": 124,
+    "excluded_non_pi": 287,
+    "excluded_historical": 33,
+    "excluded_industry_only": 1,
+    "excluded_duplicate": 34,
+    "pending_profile_verification": 14
+  },
+  "units": {
+    "tuebingen-cs": {
+      "officialRosterCount": 58,
+      "decisionCount": 58,
+      "counts": {
+        "included_existing": 4,
+        "include_new_pi": 37,
+        "excluded_non_ai_cs": 15,
+        "excluded_industry_only": 1,
+        "pending_profile_verification": 1
+      },
+      "outputPath": "data/roster-decisions/tuebingen-cs-2026-09-02.json"
+    },
+    "tu-darmstadt-cs": {
+      "officialRosterCount": 79,
+      "decisionCount": 79,
+      "counts": {
+        "included_existing": 4,
+        "include_new_pi": 21,
+        "excluded_non_ai_cs": 21,
+        "excluded_non_pi": 8,
+        "excluded_historical": 20,
+        "pending_profile_verification": 5
+      },
+      "outputPath": "data/roster-decisions/tu-darmstadt-cs-2026-09-02.json"
+    },
+    "surrey-cvssp": {
+      "officialRosterCount": 28,
+      "decisionCount": 28,
+      "counts": {
+        "included_existing": 3,
+        "include_new_pi": 23,
+        "excluded_historical": 2
+      },
+      "outputPath": "data/roster-decisions/surrey-cvssp-2026-09-02.json"
+    },
+    "surrey-csee": {
+      "officialRosterCount": 95,
+      "decisionCount": 95,
+      "counts": {
+        "included_existing": 1,
+        "include_new_pi": 50,
+        "excluded_non_ai_cs": 21,
+        "excluded_non_pi": 1,
+        "excluded_historical": 1,
+        "excluded_duplicate": 21
+      },
+      "outputPath": "data/roster-decisions/surrey-csee-2026-09-02.json"
+    },
+    "surrey-pai": {
+      "officialRosterCount": 110,
+      "decisionCount": 110,
+      "counts": {
+        "include_new_pi": 44,
+        "excluded_non_ai_cs": 36,
+        "excluded_non_pi": 6,
+        "excluded_historical": 3,
+        "excluded_duplicate": 13,
+        "pending_profile_verification": 8
+      },
+      "outputPath": "data/roster-decisions/surrey-pai-2026-09-02.json"
+    },
+    "copenhagen-diku": {
+      "officialRosterCount": 367,
+      "decisionCount": 367,
+      "counts": {
+        "included_existing": 1,
+        "include_new_pi": 56,
+        "excluded_non_ai_cs": 31,
+        "excluded_non_pi": 272,
+        "excluded_historical": 7
+      },
+      "outputPath": "data/roster-decisions/copenhagen-diku-2026-09-02.json"
+    }
+  },
+  "includeNewPiCount": 231,
+  "includeNewPi": [
+    {
+      "unitId": "tuebingen-cs",
+      "officialId": "prof-dr-philipp-berens-coopted",
+      "name": "Prof. Dr. Philipp Berens (coopted)",
+      "profileUrl": "http://www.eye-tuebingen.de/berenslab/",
+      "title": null,
+      "section": "All research groups",
+      "evidence": "LKUNDE Institute for Ophthalmic Research Labs Berens Lab Search Members of the Berens Lab Data Science for Vision Research Computational Neuroscience At the Hertie Insitute for AI in Brain Health in the Department of Data Science we generate knowledge from data to advance neuroscience and ophthalmology. We closely collab"
+    },
+    {
+      "unitId": "tuebingen-cs",
+      "officialId": "prof-dr-matthias-bethge-coopted",
+      "name": "Prof. Dr. Matthias Bethge (coopted)",
+      "profileUrl": "http://www.uni-tuebingen.de/fakultaeten/mathematisch-naturwissenschaftliche-fakultaet/fachbereiche/physik/institute/institut-fuer-theoretische-physik/arbeitsgruppen/ag-bethge.html",
+      "title": null,
+      "section": "All research groups",
+      "evidence": "te Institut für Theoretische Physik Arbeitsgruppen AG Bethge Computational Neuroscience & Machine Learning Prof. Dr. Matthias Bethge Eberhard Karls Universität Tübingen Maria-von-Linden-Str. 1 D - 72076 Tübingen Office: 1st Floor, Room A344 Tel: +49 7071 29 70862 matthias.bethge(at)uni-tuebingen.de Website Secretary: Heike K"
+    },
+    {
+      "unitId": "tuebingen-cs",
+      "officialId": "prof-martin-butz-ph-d",
+      "name": "Prof. Martin Butz, Ph.D.",
+      "profileUrl": "https://cm.inf.uni-tuebingen.de/",
+      "title": null,
+      "section": "All research groups",
+      "evidence": "ow can these structures and processes be modeled with both Bayesian models and artificial neural networks (ANNs)? And, based on these insights, how can artificial intelligence (AI) be made human-compatible; ideally self-explaining its knowledge and reasoning. We try to steer our research towards supporting healthy, sustain"
+    },
+    {
+      "unitId": "tuebingen-cs",
+      "officialId": "prof-dr-manfred-claassen-coopted",
+      "name": "Prof. Dr. Manfred Claassen (coopted)",
+      "profileUrl": "https://www.medizin.uni-tuebingen.de/de/das-klinikum/mitarbeiter/profil/2147",
+      "title": null,
+      "section": "All research groups",
+      "evidence": " Sprache Suche Deutsch English Das Klinikum Prof. Dr. Manfred Claassen Professor Clinical bioinformatics & Machine learning in translational single-cell biology Kontakt Telefonnummer: 07071 29-82529 Faxnummer: 07071 29-4630 E-Mail-Adresse: manfred.claassen@med.uni-tuebingen.de Klinik / Institut / Zentrum Innere Medizin I -"
+    },
+    {
+      "unitId": "tuebingen-cs",
+      "officialId": "apl-prof-dr-rer-nat-britta-dorn",
+      "name": "Apl. Prof. Dr. rer. nat. Britta Dorn",
+      "profileUrl": "https://uni-tuebingen.de/en/fakultaeten/mathematisch-naturwissenschaftliche-fakultaet/fachbereiche/informatik/lehrstuehle/mathematische-strukturen/home/",
+      "title": null,
+      "section": "All research groups",
+      "evidence": "opics from the field of computational social choice - a research area at the interface of AI and social choice theory, combining ideas and methods from logic, game theory, economics, algorithms and complexity. Adresse Britta Dorn Sand 13 72076 Tübingen Germany Kontakt Büro: B124, Sand 13 Telefon: +49-7071-29-78"
+    },
+    {
+      "unitId": "tuebingen-cs",
+      "officialId": "jun-prof-dr-stephan-eckstein-coopted",
+      "name": "Jun.-Prof. Dr. Stephan Eckstein (coopted)",
+      "profileUrl": "https://www.math.uni-tuebingen.de/en/research-chairs/info-methods",
+      "title": null,
+      "section": "All research groups",
+      "evidence": "nection between these fields. Our research is centered on the mathematical foundations of machine learning, aiming towards a causal and mechanistic understanding of learning methods. The mathematical tools we use often revolve around spaces of probability measures. For more details, please visit our research page . Teaching "
+    },
+    {
+      "unitId": "tuebingen-cs",
+      "officialId": "prof-dr-carsten-eickhoff-coopted",
+      "name": "Prof. Dr. Carsten Eickhoff (coopted)",
+      "profileUrl": "https://health-nlp.com/",
+      "title": null,
+      "section": "All research groups",
+      "evidence": "standing and generation. Our goal is to develop data-driven techniques to assist clinical decision making, avoid medical errors and ultimately improve patient health. Some key directions of interest include: Clinical Text Mining Patient-centric Information Retrieval Biomedical Text Understanding and Summarization Diagnostic"
+    },
+    {
+      "unitId": "tuebingen-cs",
+      "officialId": "dr-shahram-eivazi-festo-ioc",
+      "name": "Dr. Shahram Eivazi (Festo IoC)",
+      "profileUrl": "https://uni-tuebingen.de/en/fakultaeten/mathematisch-naturwissenschaftliche-fakultaet/fachbereiche/informatik/lehrstuehle/autonomous-systems/home/",
+      "title": null,
+      "section": "All research groups",
+      "evidence": "Autonomous Systems Lab Tübingen University&#32;&#124; University of Tübingen Skip to main navigation Skip to content Skip to footer Skip to search Uni A-Z Contact Search Search (via Ecosia) Search Search Login Login Login Form Login Langu"
+    },
+    {
+      "unitId": "tuebingen-cs",
+      "officialId": "prof-dr-michael-franke-coopted",
+      "name": "Prof. Dr. Michael Franke (coopted)",
+      "profileUrl": "https://uni-tuebingen.de/en/faculties/faculty-of-humanities/departments/modern-languages/department-of-linguistics/chairs/general-linguistics-pragmatics/",
+      "title": null,
+      "section": "All research groups",
+      "evidence": " study Back Courses of Study at the SfS Back General Linguistics International Studies in Computational Linguistics FAQ Erasmus Back Erasmus application form for the Seminar für Sprachwissenschaft Fachschaft Sprachwissenschaft FAQ Chairs Back Assoziierte Forschergruppen Back Emmy Noether Research Group General and Computational Lingu"
+    },
+    {
+      "unitId": "tuebingen-cs",
+      "officialId": "prof-dr-rer-nat-volker-franz",
+      "name": "Prof. Dr. rer. nat. Volker Franz",
+      "profileUrl": "http://www.ecogsci.cs.uni-tuebingen.de/",
+      "title": null,
+      "section": "All research groups",
+      "evidence": "d a simple model of motor guidance in grasping, which forms a link to applied research in robotics. Based on this expertise on the processing of visual information for --> --> To conduct this research, we have employed a variety of techniques. For example, we have used virtual environments that allow us to simulate a"
+    },
+    {
+      "unitId": "tuebingen-cs",
+      "officialId": "prof-dr-moritz-hardt-honorary-prof",
+      "name": "Prof. Dr. Moritz Hardt (Honorary prof.)",
+      "profileUrl": "https://is.mpg.de/sf",
+      "title": null,
+      "section": "All research groups",
+      "evidence": "403 | Forbidden 403 Forbidden ( client-side error ) Request ID: a4619d542b5e9b41777356e85abeed62 203.127.189.78 2026-09-02 14:02:33 UTC Your Client Forbidden BunkerWeb Working Web Server Working What happened? Access is forbidden to the requested page. What can I do? Please try again in a few minutes This website is protected with BunkerWeb"
+    },
+    {
+      "unitId": "tuebingen-cs",
+      "officialId": "prof-dr-daniel-haufle-coopted",
+      "name": "Prof. Dr. Daniel Häufle (coopted)",
+      "profileUrl": "https://www.hih-tuebingen.de/neuromech",
+      "title": null,
+      "section": "All research groups",
+      "evidence": "FG Haeufle: Hertie-Institut für klinische Hirnforschung Home Login de en de en Intranet spenden Home Aktuelles Neuigkeiten aus dem HIH HIH-Veranstaltungs&shy;kalender weitere Termine & Veranstaltungen Presse Presseservice | Kontakt Pressemitteilungen Mediathek Karriere Aktuelle Karriere&shy;möglichkeiten Studierende Promovierende Ärztinnen und Ärzte in Ausbildung Postdocs & Nachwuchs&shy;gruppenleitende Förderprogram"
+    },
+    {
+      "unitId": "tuebingen-cs",
+      "officialId": "prof-dr-rer-nat-matthias-hein",
+      "name": "Prof. Dr. rer. nat. Matthias Hein",
+      "profileUrl": "https://uni-tuebingen.de/en/fakultaeten/mathematisch-naturwissenschaftliche-fakultaet/fachbereiche/informatik/lehrstuehle/maschinelles-lernen/news/",
+      "title": null,
+      "section": "All research groups",
+      "evidence": "News - Machine Learning Group - Matthias Hein&#32;&#124; University of Tübingen Skip to main navigation Skip to content Skip to footer Skip to search Uni A-Z Contact Search Search (via Ecosia) Search Search Login Login Login Form Login Languag"
+    },
+    {
+      "unitId": "tuebingen-cs",
+      "officialId": "prof-dr-philipp-hennig",
+      "name": "Prof. Dr. Philipp Hennig",
+      "profileUrl": "https://uni-tuebingen.de/fakultaeten/mathematisch-naturwissenschaftliche-fakultaet/fachbereiche/informatik/lehrstuehle/methoden-des-maschinellen-lernens/",
+      "title": null,
+      "section": "All research groups",
+      "evidence": "Prof. Dr. Philipp Hennig Kontakt: Oleksandra Hlushchenko Sekretariat +49 7071 29 70850 mml-sekretariat spam prevention @inf.uni-tuebingen.de Adresse und Anfahrt Interesse an Abschlussarbeiten oder Promotion? Informationen zu angebotenen Projekten und offenen Stellen finden Sie hier. Service Amtliche Bekanntmachungen Barrierefreie Zugänge Beratung für internationale Studierende Presse Semestertermine Stellenangebote S"
+    },
+    {
+      "unitId": "tuebingen-cs",
+      "officialId": "prof-dr-niels-henze",
+      "name": "Prof. Dr. Niels Henze",
+      "profileUrl": "https://uni-tuebingen.de/en/fakultaeten/mathematisch-naturwissenschaftliche-fakultaet/fachbereiche/informatik/lehrstuehle/medieninformatik/",
+      "title": null,
+      "section": "All research groups",
+      "evidence": "Prof. Dr. Niels Henze mailto:niels.henze spam prevention @uni-tuebingen.de Sand 14, Room: C221 Contact: Mrs Nicola Georgiadis-Müller Secretary + 49 7071 29 70491 mailto:hci-sekretariat spam prevention @inf.uni-tuebingen.de Key services Official bulletins Disabled access Advice for international students Media Semester Dates Jobs Organizing Your Studies University Library Programs available Welcome Center for Scholars"
+    },
+    {
+      "unitId": "tuebingen-cs",
+      "officialId": "prof-dr-math-daniel-huson",
+      "name": "Prof. Dr. math. Daniel Huson",
+      "profileUrl": "https://uni-tuebingen.de/en/fakultaeten/mathematisch-naturwissenschaftliche-fakultaet/fachbereiche/informatik/lehrstuehle/algorithms-in-bioinformatics/",
+      "title": null,
+      "section": "All research groups",
+      "evidence": "Algorithms in Bioinformatics&#32;&#124; University of Tübingen Skip to main navigation Skip to content Skip to footer Skip to search Uni A-Z Contact Search Search (via Ecosia) Search Search Login Login Login Form Login Language Choose language Germ"
+    },
+    {
+      "unitId": "tuebingen-cs",
+      "officialId": "prof-dr-ing-oliver-kohlbacher",
+      "name": "Prof. Dr.-Ing. Oliver Kohlbacher",
+      "profileUrl": "https://kohlbacherlab.org/",
+      "title": null,
+      "section": "All research groups",
+      "evidence": "age KohlbacherLab ​ Founded in 2000, the Kohlbacher lab is made up of two groups: Applied Bioinformatics (ABI) at the University Tübingen Translational Bioinformatics (TBI) at the University Hospital Tübingen ABI ​ The ABI at the University of Tübingen specializes in the analysis of omics data (genomics, proteomics, metabo"
+    },
+    {
+      "unitId": "tuebingen-cs",
+      "officialId": "prof-dr-mario-krenn",
+      "name": "Prof. Dr. Mario Krenn",
+      "profileUrl": "https://artificial-scientist-lab.ai/",
+      "title": null,
+      "section": "All research groups",
+      "evidence": "Lab News Team Research Publications Software Join the Team Contact Funding Proceedings of Machine Learning in Science II • Tübingen Artificial Scientist Lab AI for Conceptual Advances in Physics The Artificial Scientist Lab is part of the Department for Computer Science at the University of Tübingen since June 2025. We are p"
+    },
+    {
+      "unitId": "tuebingen-cs",
+      "officialId": "prof-dr-hilde-kuhne-coopted",
+      "name": "Prof. Dr. Hilde Kühne (coopted)",
+      "profileUrl": "https://hildekuehne.github.io/index.html",
+      "title": null,
+      "section": "All research groups",
+      "evidence": "Hilde Kuehne - Personal Homepage --> --> Hilde Kuehne CVML Group , Tuebingen AI Center , University of Tuebingen MIT-IBM Watson AI Lab h.kuehne@uni-tuebingen.de old: kuehne@uni-frankfurt.de --> Toggle navigation Home Papers More Pages Left Sidebar Right Sidebar Blog Post --> Group About News --> Ne"
+    },
+    {
+      "unitId": "tuebingen-cs",
+      "officialId": "prof-dr-ing-thomas-kustner-coopted",
+      "name": "Prof. Dr.-Ing. Thomas Küstner (coopted)",
+      "profileUrl": "http://www.midaslab.org/",
+      "title": null,
+      "section": "All research groups",
+      "evidence": "diology at the University Hospital in Tuebingen, Germany and the Max Planck Institute for Intelligent Systems, Germany. Our aim is to advance and translate methods and applications for processing and analysis of medical imaging data using artificial intelligence (AI) and machine learning (ML) methods. We envision imaging applic"
+    },
+    {
+      "unitId": "tuebingen-cs",
+      "officialId": "prof-dr-ing-hendrik-lensch",
+      "name": "Prof. Dr.-Ing. Hendrik Lensch",
+      "profileUrl": "https://graphics.cs.uni-tuebingen.de/",
+      "title": null,
+      "section": "All research groups",
+      "evidence": "Computer Graphics | University of Tübingen -->"
+    },
+    {
+      "unitId": "tuebingen-cs",
+      "officialId": "apl-prof-dr-anna-levina-martius",
+      "name": "Apl. Prof. Dr. Anna Levina (Martius)",
+      "profileUrl": "https://uni-tuebingen.de/en/fakultaeten/mathematisch-naturwissenschaftliche-fakultaet/fachbereiche/informatik/lehrstuehle/self-organization-and-optimality-in-neuronal-networks/",
+      "title": null,
+      "section": "All research groups",
+      "evidence": "ics. I believe the self-organization on all levels is necessary for the functioning of an intelligent system (such as ourselves) in the complex world. Often, to learn something new, we need to develop new methods to analyze existing data. We like to find new ways of looking at multidimensional neural data, complex networks, an"
+    },
+    {
+      "unitId": "tuebingen-cs",
+      "officialId": "prof-dr-zhaoping-li-phd",
+      "name": "Prof. Dr. Zhaoping Li, PhD",
+      "profileUrl": "https://www.kyb.tuebingen.mpg.de/person/95845/2549b",
+      "title": null,
+      "section": "All research groups",
+      "evidence": "eering Translational Sensory and Circadian Neuroscience Minerva Fast Track Groups Natural Decision Making Institutional Guests Former Departments Physiology of Cognitve Processes Human Perception, Cognition & Action Empirical Inference Comparative Neurobiology Neurophysiology of Insect Behavior Information Processing in Ins"
+    },
+    {
+      "unitId": "tuebingen-cs",
+      "officialId": "jun-prof-dr-nicole-ludwig-coopted",
+      "name": "Jun.-Prof. Dr. Nicole Ludwig (coopted)",
+      "profileUrl": "https://www.mlsustainableenergy.com/",
+      "title": null,
+      "section": "All research groups",
+      "evidence": "p CEALS Group News Team Research FEAT IN-ML-OUT Teaching Publications Climate, Energy and Machine Learning Systems Who we are: We&rsquo;re the CEALS group interested in developing and applying machine learning algorithms to enable decision makers to create a more sustainable future. The group just moved to the University of "
+    },
+    {
+      "unitId": "tuebingen-cs",
+      "officialId": "prof-dr-rer-nat-ulrike-von-luxburg",
+      "name": "Prof. Dr. rer. nat. Ulrike von Luxburg",
+      "profileUrl": "http://www.tml.cs.uni-tuebingen.de/index.php",
+      "title": null,
+      "section": "All research groups",
+      "evidence": "Theory of Machine Learning - Welcome --> Theory of Machine Learning --> Research Group Theory of Machine Learning University of T&uuml;bingen > Computer Science > Groups > Theory of Machine Learning Theory of Machine Learning Welcome Team Researc"
+    },
+    {
+      "unitId": "tuebingen-cs",
+      "officialId": "prof-dr-jakob-macke",
+      "name": "Prof. Dr. Jakob Macke",
+      "profileUrl": "https://uni-tuebingen.de/en/fakultaeten/mathematisch-naturwissenschaftliche-fakultaet/fachbereiche/informatik/lehrstuehle/machine-learning-in-science/start/",
+      "title": null,
+      "section": "All research groups",
+      "evidence": "ourse Catalogue Webmail Uni Tübingen Advice for International Students Faculty of Science Machine Learning in Science Machine Learning in Science Start Information for Back Prospective Students Current Students Staff Back Advice and help Computer and IT Staying healthy Communication and media Human Resources Use of rooms Cor"
+    },
+    {
+      "unitId": "tuebingen-cs",
+      "officialId": "prof-dr-georg-martius",
+      "name": "Prof. Dr. Georg Martius",
+      "profileUrl": "https://uni-tuebingen.de/en/fakultaeten/mathematisch-naturwissenschaftliche-fakultaet/fachbereiche/informatik/lehrstuehle/distributed-intelligence/home/",
+      "title": null,
+      "section": "All research groups",
+      "evidence": "Prof. Dr. Georg Martius Open Postions Back Postdoc position -- Machine Learning for Earth-Systems Modelling Postdoc position -- Neuro-AI Project: Computational Neuroscience and Machine Learning / RL Information for Back Prospective Students Current Students Staff Back Advice and help Computer and I"
+    },
+    {
+      "unitId": "tuebingen-cs",
+      "officialId": "prof-dr-detmar-meurers",
+      "name": "Prof. Dr. Detmar Meurers",
+      "profileUrl": "https://www.iwm-tuebingen.de/www/en/forschung/forschungsbereiche/AG8_Meurers/index.html",
+      "title": null,
+      "section": "All research groups",
+      "evidence": "ahin Associated Scientist k.sahin@iwm-tuebingen.de Projects DiLKI: Dialogic Reading 2.0 - AI-Supported Language Development in Childcare Centers Language and AI in Education Duration 04/2026 - 03/2029 Language development is one of the key challenges in early childhood education. Despite intensive efforts by th"
+    },
+    {
+      "unitId": "tuebingen-cs",
+      "officialId": "prof-dr-rer-nat-sven-nahnsen",
+      "name": "Prof. Dr. rer. nat. Sven Nahnsen",
+      "profileUrl": "https://uni-tuebingen.de/en/40854",
+      "title": null,
+      "section": "All research groups",
+      "evidence": "bust Cluster of Excellence HUMAN ORIGINS Cluster of Excellence iFIT Cluster of Excellence Machine Learning Cluster of Excellence TERRA CIN LEAD Graduate School & Research Network Collaborative Research Centers Research Training Groups DFG Research Units Emmy Noether Groups Centers and institutes Back Center for Brazil and La"
+    },
+    {
+      "unitId": "tuebingen-cs",
+      "officialId": "prof-dr-math-kay-nieselt",
+      "name": "Prof. Dr. math. Kay Nieselt",
+      "profileUrl": "https://uni-tuebingen.de/en/fakultaeten/mathematisch-naturwissenschaftliche-fakultaet/fachbereiche/informatik/lehrstuehle/integrative-transcriptomics/home/",
+      "title": null,
+      "section": "All research groups",
+      "evidence": " (web-)tools that allow the analysis of genomics, transcriptomics and/or proteomics data; visualization of the data obtained from omics-analysis tools; analysis of (ancient) (pan-)genomic data; analysis of expression data and of the transcriptome's architecture of prokaryotes; development of machine learning methods for d"
+    },
+    {
+      "unitId": "tuebingen-cs",
+      "officialId": "prof-dr-rer-nat-nico-pfeifer",
+      "name": "Prof. Dr. rer. nat. Nico Pfeifer",
+      "profileUrl": "https://uni-tuebingen.de/en/fakultaeten/mathematisch-naturwissenschaftliche-fakultaet/fachbereiche/informatik/lehrstuehle/methods-in-medical-informatics/",
+      "title": null,
+      "section": "All research groups",
+      "evidence": "B/ECCB 2023 (one at ML cosi) ⇒ Check out the new AIMe standard and registry for reporting AI results in medicine and biomedical research (paper at Nature Methods )! ⇒ More News… Contact Methods in Medical Informatics (Methoden der Medizininformatik) Department of Computer Science (Fachbereich Informatik) Univer"
+    },
+    {
+      "unitId": "tuebingen-cs",
+      "officialId": "prof-dr-gerard-pons-moll",
+      "name": "Prof. Dr. Gerard Pons-Moll",
+      "profileUrl": "https://virtualhumans.mpi-inf.mpg.de/",
+      "title": null,
+      "section": "All research groups",
+      "evidence": "estigious recognition given to papers with significant and lasting impact on the field of computer graphics. Congratulations to Gerard Pons-Moll and his collaborators! Vladimir Guzov defended his PhD thesis November 2025 Vladimir Guzov defended his PhD thesis \"Recovering 3D Human Motion in Scenes from Wearable Sensors\". Congr"
+    },
+    {
+      "unitId": "tuebingen-cs",
+      "officialId": "prof-dr-kerstin-ritter-coopted",
+      "name": "Prof. Dr. Kerstin Ritter (coopted)",
+      "profileUrl": "https://hertie.ai/machine-learning",
+      "title": null,
+      "section": "All research groups",
+      "evidence": "Hertie AI Department: Machine Learning Menu The Institute About Us Central Structures Career at Hertie AI News & Events Data Science About Us Team Research Groups Publications Machine Learning About us Team Research Groups Public"
+    },
+    {
+      "unitId": "tuebingen-cs",
+      "officialId": "jun-prof-dr-harry-scells-coopted",
+      "name": "Jun.-Prof. Dr. Harry Scells (coopted)",
+      "profileUrl": "https://scells.me/",
+      "title": null,
+      "section": "All research groups",
+      "evidence": "f publications can be found on my Google Scholar profile. Interests Information Retrieval Large Language Models Systematic Reviews Education PhD, 2021 The University of Queensland Bachelor of Information Technology (Hons), 2016 Queensland University of Technology Bachelor of Information Technology, 2015 Queensland University of "
+    },
+    {
+      "unitId": "tuebingen-cs",
+      "officialId": "prof-felix-wichmann-dphil",
+      "name": "Prof. Felix Wichmann, DPhil",
+      "profileUrl": "https://uni-tuebingen.de/en/fakultaeten/mathematisch-naturwissenschaftliche-fakultaet/fachbereiche/informatik/lehrstuehle/neuronale-informationsverarbeitung/home/",
+      "title": null,
+      "section": "All research groups",
+      "evidence": "Home Wichmann-Lab&#32;&#124; University of Tübingen Skip to main navigation Skip to content Skip to footer Skip to search Uni A-Z Contact Search Search (via Ecosia) Search Search Login Login Login Form Login Language Choose language German English Mainmenu Information for Prospective Students Current Students Staff Teaching Staff Alumni Media Business Lifelong learning Quicklinks All Degree Programs ALMA Portal Excel"
+    },
+    {
+      "unitId": "tuebingen-cs",
+      "officialId": "prof-dr-robert-c-williamson",
+      "name": "Prof. Dr. Robert C. Williamson",
+      "profileUrl": "https://uni-tuebingen.de/en/fakultaeten/mathematisch-naturwissenschaftliche-fakultaet/fachbereiche/informatik/lehrstuehle/foundations-of-machine-learning-systems/",
+      "title": null,
+      "section": "All research groups",
+      "evidence": "Foundations of Machine Learning Systems&#32;&#124; University of Tübingen Skip to main navigation Skip to content Skip to footer Skip to search Uni A-Z Contact Search Search (via Ecosia) Search Search Login Login Login Form Login Language Choose langu"
+    },
+    {
+      "unitId": "tuebingen-cs",
+      "officialId": "prof-dr-rer-nat-andreas-zell",
+      "name": "Prof. Dr. rer. nat. Andreas Zell",
+      "profileUrl": "https://cogsys.cs.uni-tuebingen.de/",
+      "title": null,
+      "section": "All research groups",
+      "evidence": "dreas Zell andreas.zell@uni-tuebingen.de Research Topics General Autonomous Mobile Robots Machine Learning Publications Projects Avalon TCML-Cluster Table Tennis Robot Complete List of Projects Teaching Lectures and Courses Bachelor Theses Master Theses News 07.05.2025 - Congratulations to Rafia Rahim on successfully defendi"
+    },
+    {
+      "unitId": "tu-darmstadt-cs",
+      "officialId": "carsten-binnig",
+      "name": "Carsten Binnig",
+      "profileUrl": "https://www.informatik.tu-darmstadt.de/systems/systems_tuda/group/team_detail_18624.en.jsp",
+      "title": null,
+      "section": "Professuren",
+      "evidence": "Carsten Binnig Professor Working area(s) Data and AI Systems Contact carsten.binnig&#064;cs.tu-... work +49 6151 16-25601 Work S2|02 D106 Hochschulstr. 10 64289 Darmstadt Links Homepage Research My main research focus is at the moment on the design of distributed and para"
+    },
+    {
+      "unitId": "tu-darmstadt-cs",
+      "officialId": "georgia-chalvatzaki-ph-d",
+      "name": "Georgia Chalvatzaki, Ph.D.",
+      "profileUrl": "https://pearl-lab.com/people/georgia-chalvatzaki/",
+      "title": null,
+      "section": "Professuren",
+      "evidence": " a Full Professor for Interactive Robot Perception & Learning at TU Darmstadt and Hessian.AI. She received her Ph.D. in 2020 from the Intelligent Robotics and Automation Lab at the Electrical and Computer Engineering School of the National Technical University of Athens, Greece. She is the recipient of the DFG "
+    },
+    {
+      "unitId": "tu-darmstadt-cs",
+      "officialId": "naser-damer",
+      "name": "Naser Damer",
+      "profileUrl": "https://www.igd.fraunhofer.de/institut/ueber-uns/mitarbeiter/naser-damer",
+      "title": null,
+      "section": "Professuren",
+      "evidence": "Max Snijder, Research, and Industry Awards Eugen Münch-Preis 2022 geht an Marian Haescher Computer Graphics Night 2022 – Preisträger Passive Electric Field Sensing for Ubiquitous and Environmental Perception Jugend forscht Hessen-Süd 2023 - Gewinner Prof. Dr. Fellner in den »Hessischen Zukunftsrat Wirtschaft« berufen Threedy "
+    },
+    {
+      "unitId": "tu-darmstadt-cs",
+      "officialId": "roderich-gro",
+      "name": "Roderich Groß",
+      "profileUrl": "https://www.informatik.tu-darmstadt.de/rcps/rcps_menu/team_menu_rcps/team_details_135744.en.jsp",
+      "title": null,
+      "section": "Professuren",
+      "evidence": "Roderich Groß Head of RCPS Lab Working area(s) swarm robotics, multi-robot-systems, modular and reconfigurable robotics, human-robot interaction Contact roderich.gross&#064;tu-... work +49 6151 16-25711 Work S4|14 2.3.17 Mornewegstraße 30-32 64293 Darmstadt Links Google Scholar Na"
+    },
+    {
+      "unitId": "tu-darmstadt-cs",
+      "officialId": "kristian-kersting",
+      "name": "Kristian Kersting",
+      "profileUrl": "http://www.ml.informatik.tu-darmstadt.de/",
+      "title": null,
+      "section": "Professuren",
+      "evidence": "Artificial Intelligence and Machine Learning Lab @ TU Darmstadt AIML Lab Research People Teaching Publications Contact Legal TU Darmstadt Artificial Intelligence & Machine Learning Lab TU Darmstadt We advance statistical learning, probabilisti"
+    },
+    {
+      "unitId": "tu-darmstadt-cs",
+      "officialId": "mohammad-emtiyaz-khan-ph-d",
+      "name": "Mohammad Emtiyaz Khan, Ph.D.",
+      "profileUrl": "https://www.informatik.tu-darmstadt.de/fb20/professuren_und_gruppenleitungen/fb20professuren_und_gruppenleitungen_detailseite_139776.de.jsp",
+      "title": null,
+      "section": "Professuren",
+      "evidence": "Mohammad Emtiyaz Khan, Ph.D. Arbeitsgebiet(e) Adaptive Bayesianische Intelligenz Kontakt emtiyaz.khan&#064;tu-... work +49 6151 16-28600 Work S4|22 Landwehrstraße 48/50A 64293 Darmstadt Links Persönliche Homepage LinkedIn-Seite des Fachbereichs Informatik der TU Darmstadt YouTube Bluesky Kontakt Anfahrt Sitemap Impressum Barrierefreiheit Datenschutzerklärung Webseitenanalyse Zum Seitenbeginn Wir möchten die Informati"
+    },
+    {
+      "unitId": "tu-darmstadt-cs",
+      "officialId": "arjan-kuijper",
+      "name": "Arjan Kuijper",
+      "profileUrl": "https://www.informatik.tu-darmstadt.de/gris/startseite_1/team/team_details_8832.de.jsp",
+      "title": null,
+      "section": "Professuren",
+      "evidence": ", associate editor for CVIU, PR, and TVCJ, President of the International Association for Pattern Recognition (IAPR). He serves as reviewer for many journals and conferences, and as program committee member and organizer of conferences. His research interests cover all aspects of mathematics-based methods for computer vision, b"
+    },
+    {
+      "unitId": "tu-darmstadt-cs",
+      "officialId": "dominik-l-michels",
+      "name": "Dominik L. Michels",
+      "profileUrl": "https://www.informatik.tu-darmstadt.de/fb20/professuren_und_gruppenleitungen/fb20professuren_und_gruppenleitungen_detailseite_126848.de.jsp",
+      "title": null,
+      "section": "Professuren",
+      "evidence": ".. work +49 6151 16 20802 Work S4|14 2.4.04 Mornewegstr. 30 64293 Darmstadt Links hessian.AI Faculty LinkedIn-Seite des Fachbereichs Informatik der TU Darmstadt YouTube Bluesky Kontakt Anfahrt Sitemap Impressum Barrierefreiheit Datenschutzerklärung Webseitenanalyse Zum Seitenbeginn Wir möchten die Informationen"
+    },
+    {
+      "unitId": "tu-darmstadt-cs",
+      "officialId": "jan-peters-ph-d",
+      "name": "Jan Peters, Ph.D.",
+      "profileUrl": "https://www.ias.informatik.tu-darmstadt.de/Team/JanPeters",
+      "title": null,
+      "section": "Professuren",
+      "evidence": "Intelligent Autonomous Systems | Team / Jan Peters --> News News News via BlueSky News via X Upcoming Talks Team Team Current Members Off-Campus Students Alumni Research Research Overview Our Robots Robot Videos Funded Projects Publications Publicati"
+    },
+    {
+      "unitId": "tu-darmstadt-cs",
+      "officialId": "christian-reuter",
+      "name": "Christian Reuter",
+      "profileUrl": "https://peasec.de/team/reuter/",
+      "title": null,
+      "section": "Professuren",
+      "evidence": "rsection of (A) cyber security and privacy, (B) peace and conflict studies as well as (C) human-computer interaction, he and his team specifically address (1) peace informatics and technical peace research, (2) crisis informatics and information warfare as well as (3) usable safety, security and privacy. Christian Reuter studied Infor"
+    },
+    {
+      "unitId": "tu-darmstadt-cs",
+      "officialId": "ahmad-reza-sadeghi",
+      "name": "Ahmad-Reza Sadeghi",
+      "profileUrl": "https://www.informatik.tu-darmstadt.de/systemsecurity/people_sys/people_details_sys_45184.en.jsp",
+      "title": null,
+      "section": "Professuren",
+      "evidence": "e Computing in Mobile and Embedded Systems, Autonomous and Resilient Systems, and Private AI. Moreover, he also established the Open Lab for Sustainable Security and Safety (OpenS3 Lab) with Huawei in 2019. He received his Ph.D. in Computer Science with a focus on Cryptography from the University of Saarland, G"
+    },
+    {
+      "unitId": "tu-darmstadt-cs",
+      "officialId": "simone-schaub-meyer",
+      "name": "Simone Schaub-Meyer",
+      "profileUrl": "https://www.visinf.tu-darmstadt.de/visual_inference/people_vi/visinf_team_details_102784.en.jsp",
+      "title": null,
+      "section": "Professuren",
+      "evidence": "r at the Technical University of Darmstadt, as well as a member of the Hessian Center for Artificial Intelligence (hessian.AI). The focus of her research is on developing efficient, robust, and understandable methods and algorithms for image and video analysis. She recently got the renowned Emmy Noether Programme (ENP) fund of the "
+    },
+    {
+      "unitId": "tu-darmstadt-cs",
+      "officialId": "oskar-von-stryk",
+      "name": "Oskar von Stryk",
+      "profileUrl": "https://www.sim.informatik.tu-darmstadt.de/pers/mitarbeiter/stryk/",
+      "title": null,
+      "section": "Professuren",
+      "evidence": "ications LinkedIn Profile Google Scholar Weitere Aktiviäten Gründungsmitglied von hessian.AI , dem Hessischen Zentrum für Künstliche Intelligenz Mitglied von AI.DA (Künstliche Intelligenz@TU Darmstadt) Mitglied des Senats der TU Darmstadt (2013 &#8211; 2019) Mitglied der Universitätsversammlung der TU Darmstadt"
+    },
+    {
+      "unitId": "tu-darmstadt-cs",
+      "officialId": "justus-thies",
+      "name": "Justus Thies",
+      "profileUrl": "https://www.informatik.tu-darmstadt.de/fb20/professuren_und_gruppenleitungen/fb20professuren_und_gruppenleitungen_detailseite_132544.de.jsp",
+      "title": null,
+      "section": "Professuren",
+      "evidence": "Justus Thies Arbeitsgebiet(e) 3D Graphics &#38; Vision (GraVis) Kontakt justus.thies&#064;tu-... Work S4 14 Mornewegstraße 30-32 64293 Darmstadt LinkedIn-Seite des Fachbereichs Informatik der TU Darmstadt YouTube Bluesky Kontakt Anfahrt Sitemap Impressum Barrierefreiheit Datenschutzerklärung Webseitenanalyse Zum Seitenbeginn Wir möchten die Informationen und das Nutzungserlebnis auf dieser Webseite an Ihre Bedürfniss"
+    },
+    {
+      "unitId": "tu-darmstadt-cs",
+      "officialId": "jan-gugenheimer",
+      "name": "Jan Gugenheimer",
+      "profileUrl": "https://www.informatik.tu-darmstadt.de/fb20/professuren_und_gruppenleitungen/fb20professuren_und_gruppenleitungen_detailseite_121792.de.jsp",
+      "title": null,
+      "section": "Assistenzprofessuren",
+      "evidence": "Jan Gugenheimer Arbeitsgebiet(e) Mensch-Computer-Interaktion (MCI) Kontakt jan.gugenheimer&#064;tu-... work +49 6151 16-23206 LinkedIn-Seite des Fachbereichs Informatik der TU Darmstadt YouTube Bluesky Kontakt Anfahrt Sitemap Impressum Barrierefreiheit Datenschutzerklärung Webseitenanalyse Zum Seitenbeginn Wir möchten die Informationen und das Nutzungserlebnis auf dieser Webseite an Ihre Bedürfnisse anpassen. Deswege"
+    },
+    {
+      "unitId": "tu-darmstadt-cs",
+      "officialId": "florian-muller",
+      "name": "Florian Müller",
+      "profileUrl": "https://www.informatik.tu-darmstadt.de/fb20/professuren_und_gruppenleitungen/fb20professuren_und_gruppenleitungen_detailseite_141568.de.jsp",
+      "title": null,
+      "section": "Assistenzprofessuren",
+      "evidence": "Florian Müller Assistenzprofessor Arbeitsgebiet(e) Mobile Mensch-Computer Interaktion Kontakt florian.mueller&#064;tu-... work 06151-16 23194 Work S202 A106 Hochschulstraße 10 64289 Darmstadt Links HCI@TUDA Personal Website Publications Mehr Informationen Ich bin Assistenzprofessor für Mobile Mensch-Computer-Interaktion an der TU Darmstadt, wo ich das Urban Interaction Lab leite. Meine Forschung folgt der Vision eine"
+    },
+    {
+      "unitId": "tu-darmstadt-cs",
+      "officialId": "kay-hamacher",
+      "name": "Kay Hamacher",
+      "profileUrl": "http://www.kay-hamacher.de/",
+      "title": null,
+      "section": "Professorale Zweitmitglieder am Fachbereich Informatik",
+      "evidence": "Kay Hamacher Professor of Computational Biology & Simulation Dept. of Biology Dept. of Computer Science (Cooptation) Dept. of Physics (Cooptation) kay[DOT]hamacher[AT]tu-darmstadt_DE ++49-6151-16-20370 TU Darmstadt Schnittspahnstr. 10 64287 Darmstadt Germany (C) by K"
+    },
+    {
+      "unitId": "tu-darmstadt-cs",
+      "officialId": "constantin-rothkopf",
+      "name": "Constantin Rothkopf",
+      "profileUrl": "https://www.pip.tu-darmstadt.de/members_pip/publications.de.jsp",
+      "title": null,
+      "section": "Professorale Zweitmitglieder am Fachbereich Informatik",
+      "evidence": "ed und Mitglied des Vorstands des Hessischen Zentrums für Künstliche Intelligenz (hessian.ai). Er ist ausserdem Mitglied des Direktoriums des Center for Mind, Brain and Behavior (CMBB). Er ist Mitglied des European Laboratory for Learning and Intelligent Systems (ELLIS), der ELLIS Unit Darmstadt , und der DAAD "
+    },
+    {
+      "unitId": "tu-darmstadt-cs",
+      "officialId": "angela-yu",
+      "name": "Angela Yu",
+      "profileUrl": "https://www.humanw.tu-darmstadt.de/kontakt_details_83584.de.jsp",
+      "title": null,
+      "section": "Professorale Zweitmitglieder am Fachbereich Informatik",
+      "evidence": "Angela Yu Computational Modelling of Intelligent Systems Alexander von Humboldt Professur Arbeitsgebiet(e) Computational Modelling of Intelligent Systems Kontakt angela.yu&#064;tu-... Work S1|15 216 Alexanderstraße 10 64283 Darmstadt Sitemap Impressum Barrierefreiheit Datensc"
+    },
+    {
+      "unitId": "tu-darmstadt-cs",
+      "officialId": "simone-balloccu-ph-d",
+      "name": "Simone Balloccu, Ph.D.",
+      "profileUrl": "https://www.informatik.tu-darmstadt.de/fb20/professuren_und_gruppenleitungen/fb20professuren_und_gruppenleitungen_detailseite_143552.de.jsp",
+      "title": null,
+      "section": "Leitung Unabhängige Nachwuchsgruppe (IRG)",
+      "evidence": "Simone Balloccu, Ph.D. Arbeitsgebiet(e) Natural Language Processing for Expert Domains (ExpNLP) Kontakt simone.balloccu&#064;tu-... Work S2|02 D205 LinkedIn-Seite des Fachbereichs Informatik der TU Darmstadt YouTube Bluesky Kontakt Anfahrt Sitemap Impressum Barrierefreiheit D"
+    },
+    {
+      "unitId": "tu-darmstadt-cs",
+      "officialId": "manisha-luthra-agnihotri-ne-luthra",
+      "name": "Manisha Luthra Agnihotri (né Luthra)",
+      "profileUrl": "https://www.informatik.tu-darmstadt.de/systems/systems_tuda/group/team_detail_113600.en.jsp",
+      "title": null,
+      "section": "Athene Young Investigator",
+      "evidence": "orking Areas Stream processing and Complex Event Processing In-network processing Applied machine learning Bio Manisha Luthra joined the Data Management Lab as a Post-doctoral researcher in July 2021. She has recently defended her dissertation titled “Network-centric Complex Event Processing” with a focus on three core probl"
+    },
+    {
+      "unitId": "surrey-cvssp",
+      "officialId": "miroslaw-bober",
+      "name": "Miroslaw Bober",
+      "profileUrl": "https://www.surrey.ac.uk/people/miroslaw-bober",
+      "title": null,
+      "section": "Academic staff",
+      "evidence": "Professor Miroslaw Bober Professor of Video Processing and Machine Intelligence BSc, MSc, PhD, MIEEE +44 (0)1483 684724 m.bober@surrey.ac.uk 29 BA 00 "
+    },
+    {
+      "unitId": "surrey-cvssp",
+      "officialId": "richard-bowden",
+      "name": "Richard Bowden",
+      "profileUrl": "https://www.surrey.ac.uk/people/richard-bowden",
+      "title": null,
+      "section": "Academic staff",
+      "evidence": "Professor Richard Bowden Professor of Computer Vision and Machine Learning BSc, MSc, PhD, SMIEEE, FHEA, FAAIA, FIAPR, FBMVA +44 (0)1483 689838 r.bowden@surrey.ac.uk Personal website 22 BA 00 "
+    },
+    {
+      "unitId": "surrey-cvssp",
+      "officialId": "gustavo-carneiro",
+      "name": "Gustavo Carneiro",
+      "profileUrl": "https://www.surrey.ac.uk/people/gustavo-carneiro",
+      "title": null,
+      "section": "Academic staff",
+      "evidence": "Professor Gustavo Carneiro Professor of AI and Machine Learning PhD +441483689801 g.carneiro@surrey.ac.uk 31 BA 00 "
+    },
+    {
+      "unitId": "surrey-cvssp",
+      "officialId": "john-collomosse",
+      "name": "John Collomosse",
+      "profileUrl": "https://www.surrey.ac.uk/people/john-collomosse",
+      "title": null,
+      "section": "Academic staff",
+      "evidence": "Professor John Collomosse Professor of Computer Vision and AI | Director DECaDE: UKRI/EPSRC Centre for the Decentralised Digital Economy PhD, CEng, FIET, FBCS, FRSA j.collomosse@surrey.ac.uk Personal website 23 BA 00 "
+    },
+    {
+      "unitId": "surrey-cvssp",
+      "officialId": "anjan-dutta",
+      "name": "Anjan Dutta",
+      "profileUrl": "https://www.surrey.ac.uk/people/anjan-dutta",
+      "title": null,
+      "section": "Academic staff",
+      "evidence": "Dr Anjan Dutta Senior Lecturer in People-Centred AI PhD, FHEA anjan.dutta@surrey.ac.uk Personal Webpage "
+    },
+    {
+      "unitId": "surrey-cvssp",
+      "officialId": "lucia-florescu",
+      "name": "Lucia Florescu",
+      "profileUrl": "https://www.surrey.ac.uk/people/lucia-florescu",
+      "title": null,
+      "section": "Academic staff",
+      "evidence": "Dr Lucia Florescu PhD FHEA Lecturer in Medical Imaging PhD FHEA +44 (0)1483 686045 l.m.florescu@surrey.ac.uk 15 BA 00 "
+    },
+    {
+      "unitId": "surrey-cvssp",
+      "officialId": "jean-yves-guillemaut",
+      "name": "Jean-Yves Guillemaut",
+      "profileUrl": "https://www.surrey.ac.uk/people/jean-yves-guillemaut",
+      "title": null,
+      "section": "Academic staff",
+      "evidence": "Dr Jean-Yves Guillemaut Senior Lecturer in 3D Computer Vision MEng (hons), PhD, MIEEE, MIET, FHEA +441483686042 j.guillemaut@surrey.ac.uk Personal website 32 BA 00 "
+    },
+    {
+      "unitId": "surrey-cvssp",
+      "officialId": "simon-hadfield",
+      "name": "Simon Hadfield",
+      "profileUrl": "https://www.surrey.ac.uk/people/simon-hadfield",
+      "title": null,
+      "section": "Academic staff",
+      "evidence": "Professor Simon Hadfield Pronouns: He/Him Professor of Robot Vision and Autonomous Systems PhD, FHEA, AUS, MENG, Graduate Certificate in Teaching & Learning +44 (0)1483 689856 s.hadfield@surrey.ac.uk Personal webpage "
+    },
+    {
+      "unitId": "surrey-cvssp",
+      "officialId": "syed-sameed-husain",
+      "name": "Syed Sameed Husain",
+      "profileUrl": "https://www.surrey.ac.uk/people/syed-sameed-husain",
+      "title": null,
+      "section": "Academic staff",
+      "evidence": "Dr Syed Sameed Husain Lecturer in People-Centred AI PhD in Computer Vision +44 (0)1483 689842 sameed.husain@surrey.ac.uk 40 BA 01 "
+    },
+    {
+      "unitId": "surrey-cvssp",
+      "officialId": "philip-jackson",
+      "name": "Philip Jackson",
+      "profileUrl": "https://www.surrey.ac.uk/people/philip-jackson",
+      "title": null,
+      "section": "Academic staff",
+      "evidence": "Professor Philip Jackson Professor in Machine Audition +441483686044 p.jackson@surrey.ac.uk Personal website 07 BB 01 "
+    },
+    {
+      "unitId": "surrey-cvssp",
+      "officialId": "samaneh-kouchaki",
+      "name": "Samaneh Kouchaki",
+      "profileUrl": "https://www.surrey.ac.uk/people/samaneh-kouchaki",
+      "title": null,
+      "section": "Academic staff",
+      "evidence": "Dr Samaneh Kouchaki Senior Lecturer in Machine Learning for Healthcare samaneh.kouchaki@surrey.ac.uk 38 BA 01 "
+    },
+    {
+      "unitId": "surrey-cvssp",
+      "officialId": "jiri-matas",
+      "name": "Jiri Matas",
+      "profileUrl": "https://www.surrey.ac.uk/people/jiri-matas",
+      "title": null,
+      "section": "Academic staff",
+      "evidence": "Professor Jiri Matas Vice Chancellor Fellow g.matas@surrey.ac.uk "
+    },
+    {
+      "unitId": "surrey-cvssp",
+      "officialId": "armin-mustafa",
+      "name": "Armin Mustafa",
+      "profileUrl": "https://www.surrey.ac.uk/people/armin-mustafa",
+      "title": null,
+      "section": "Academic staff",
+      "evidence": "Dr Armin Mustafa Associate Professor in Computer Vision and AI PhD, M.Tech, FHEA, DSIT AI Fellow +44 (0)1483 684262 armin.mustafa@surrey.ac.uk 39 BA 01 "
+    },
+    {
+      "unitId": "surrey-cvssp",
+      "officialId": "cuong-nguyen",
+      "name": "Cuong Nguyen",
+      "profileUrl": "https://www.surrey.ac.uk/people/cuong-nguyen",
+      "title": null,
+      "section": "Academic staff",
+      "evidence": "Dr Cuong Nguyen Pronouns: He/him Lecturer in People-centred AI Ph.D. c.nguyen@surrey.ac.uk Personal website 43 BA 01 "
+    },
+    {
+      "unitId": "surrey-cvssp",
+      "officialId": "muhammad-awais",
+      "name": "Muhammad Rana",
+      "profileUrl": "https://www.surrey.ac.uk/people/muhammad-awais",
+      "title": null,
+      "section": "Academic staff",
+      "evidence": "ers Grant success Consultancy excellence Surrey Research Park Container (column 3) For students Opportunities Container (column 4) Innovate Surrey Ltd Intellectual property code Start-up companies Unitemps Giving Giving home Container Donate to the Forever Surrey Fund Make a regular gift Volunteering Current opportunities Why volunteer? Leave a gift in your will Visit Visit home Open days Our campus Our location Accessibility information Campus tours Events How to get here Search Search the University of Surrey website (required) Submit Open days Accommodation Library Prospectus See all search results Dr Muhammad Awais Senior Lecturer in Trustworthy and Responsible AI | Leading the research on foundation models and self-supervised learning PhD in AI, MSc in AI, BSc Computer Engineering, Bsc in Math and Physics muhammad.awais@surrey.ac.uk "
+    },
+    {
+      "unitId": "surrey-cvssp",
+      "officialId": "yi-zhe-song",
+      "name": "Yi-Zhe Song",
+      "profileUrl": "https://www.surrey.ac.uk/people/yi-zhe-song",
+      "title": null,
+      "section": "Academic staff",
+      "evidence": "Professor Yi-Zhe Song Co-Director Surrey Institute for People-Centred AI; Programme Lead of MSc in Artificial Intelligence BSc (Bath), MSc (Cantab), PhD (Bath), FHEA, SMIEEE +44 (0)1483 684823 y.song@surrey.ac.uk Personal website 27 BA 00 "
+    },
+    {
+      "unitId": "surrey-cvssp",
+      "officialId": "erick-giovani-sperandio-nascimento",
+      "name": "Erick Sperandio Nascimento",
+      "profileUrl": "https://www.surrey.ac.uk/people/erick-giovani-sperandio-nascimento",
+      "title": null,
+      "section": "Academic staff",
+      "evidence": "ntainer (column 2) For researchers Grant success Consultancy excellence Surrey Research Park Container (column 3) For students Opportunities Container (column 4) Innovate Surrey Ltd Intellectual property code Start-up companies Unitemps Giving Giving home Container Donate to the Forever Surrey Fund Make a regular gift Volunteering Current opportunities Why volunteer? Leave a gift in your will Visit Visit home Open days Our campus Our location Accessibility information Campus tours Events How to get here Search Search the University of Surrey website (required) Submit Open days Accommodation Library Prospectus See all search results linkedin twitter googlescholar orcid researchgate Dr Erick Giovani Sperandio Nascimento Associate Professor (Reader) in AI for Clean Air and Programme Lead of AI and Sustainability erick.sperandio@surrey.ac.uk "
+    },
+    {
+      "unitId": "surrey-cvssp",
+      "officialId": "graham-thomas",
+      "name": "Graham Thomas",
+      "profileUrl": "https://www.surrey.ac.uk/people/graham-thomas",
+      "title": null,
+      "section": "Academic staff",
+      "evidence": "Dr Graham Thomas Professor of Creative Technology MA PhD CEng FIET g.a.thomas@surrey.ac.uk 03 BB 00 0900-1700, usually Wed-Fri "
+    },
+    {
+      "unitId": "surrey-cvssp",
+      "officialId": "marco-volino",
+      "name": "Marco Volino",
+      "profileUrl": "https://www.surrey.ac.uk/people/marco-volino",
+      "title": null,
+      "section": "Academic staff",
+      "evidence": "Dr Marco Volino Lecturer in Computer Vision and Graphics PhD MEng FHEA +441483686047 m.volino@surrey.ac.uk Personal website "
+    },
+    {
+      "unitId": "surrey-cvssp",
+      "officialId": "wenwu-wang",
+      "name": "Wenwu Wang",
+      "profileUrl": "https://www.surrey.ac.uk/people/wenwu-wang",
+      "title": null,
+      "section": "Academic staff",
+      "evidence": "Professor Wenwu Wang FIEEE Professor in Signal Processing and Machine Learning; Associate Head (External Engagement), School of Computer Science and Electronic Engineering; Core AI Fellow, Surrey Institute for People Centred AI BSc, MSc, PhD, FIEEE +44 (0)1483 686039 W.Wang@surrey.ac.uk Personal website 06 BB 01 "
+    },
+    {
+      "unitId": "surrey-cvssp",
+      "officialId": "peng-wang-fhea",
+      "name": "Peng Wang",
+      "profileUrl": "https://www.surrey.ac.uk/people/peng-wang-fhea",
+      "title": null,
+      "section": "Academic staff",
+      "evidence": "Dr Peng Wang, FHEA Pronouns: He/Him Lecturer in Robotics PhD peng.wang@surrey.ac.uk 12 BA 00 Wednesday 2-4pm "
+    },
+    {
+      "unitId": "surrey-cvssp",
+      "officialId": "kevin-wells",
+      "name": "Kevin Wells",
+      "profileUrl": "https://www.surrey.ac.uk/people/kevin-wells",
+      "title": null,
+      "section": "Academic staff",
+      "evidence": "Professor Kevin Wells Professor of AI in Human and Veterinary Healthcare PhD BSc(Hons) CEng CPhys MInstP +441483686036 k.wells@surrey.ac.uk 30 BA 00 "
+    },
+    {
+      "unitId": "surrey-cvssp",
+      "officialId": "xiatian-zhu",
+      "name": "Xiatian Zhu",
+      "profileUrl": "https://www.surrey.ac.uk/people/xiatian-zhu",
+      "title": null,
+      "section": "Academic staff",
+      "evidence": "Dr Xiatian Zhu Pronouns: He/him/his Reader (Associate Professor) in People-Centred AI PhD (London), FHEA, SMIEEE xiatian.zhu@surrey.ac.uk https://x-up-lab.github.io 11.00 - 12.00 Tues "
+    },
+    {
+      "unitId": "surrey-csee",
+      "officialId": "helen-treharne",
+      "name": "Helen Treharne",
+      "profileUrl": "https://www.surrey.ac.uk/people/helen-treharne",
+      "title": null,
+      "section": "Academic staff",
+      "evidence": " processes. My research spans formal verification of secure systems, useable security and AI-assisted technologies. I am particularly interested in ensuring that security technology is accessible to older people. Expand biography University roles and responsibilities Head of School of Computer Science and Elect"
+    },
+    {
+      "unitId": "surrey-csee",
+      "officialId": "joe-appleton",
+      "name": "Joseph Appleton",
+      "profileUrl": "https://www.surrey.ac.uk/people/joe-appleton",
+      "title": null,
+      "section": "Computer science staff",
+      "evidence": "ocuses on inclusion, assessment automation, and the evolution of assessment in the age of AI. Expand biography University roles and responsibilities Undergraduate Employability Lead Undergraduate Placement Supervisor Affiliations and memberships Senior Fellow of the Higher Education Academy Senior Fellow of the"
+    },
+    {
+      "unitId": "surrey-csee",
+      "officialId": "rizwan-asghar",
+      "name": "Rizwan Asghar",
+      "profileUrl": "https://www.surrey.ac.uk/people/rizwan-asghar",
+      "title": null,
+      "section": "Computer science staff",
+      "evidence": ".2025.3560246 Network Intrusion Detection Systems (NIDSes) are increasingly incorporating Machine Learning (ML) and Deep Learning (DL) algorithms for detecting network intrusions. However, ML/DL algorithms are susceptible to adversarial examples, which can lead to the misclassification of input data. This vulnerability poses"
+    },
+    {
+      "unitId": "surrey-csee",
+      "officialId": "martin-barrere-cambrun",
+      "name": "Martin Barrere Cambrun",
+      "profileUrl": "https://www.surrey.ac.uk/people/martin-barrere-cambrun",
+      "title": null,
+      "section": "Computer science staff",
+      "evidence": "INSIGHT) The INSIGHT project aims to improve cyber threat detection by combining advanced artificial intelligence with a structured understanding of how data flows through digital systems. Rather than relying solely on predefined rules or historical patterns, it represents systems as interconnected networks, enabling the tracing of"
+    },
+    {
+      "unitId": "surrey-csee",
+      "officialId": "roman-bauer",
+      "name": "Roman Bauer",
+      "profileUrl": "https://www.surrey.ac.uk/people/roman-bauer",
+      "title": null,
+      "section": "Computer science staff",
+      "evidence": ",   , School of Computer Science and Electronic Engineering , Centre for Mathematical and Computational Biology . About News Research Supervision Teaching Publications About Biography Roman is a Senior Lecturer at the Computer Science Research Centre, where he leads the Nature Inspired Computing and Engineering (NICE) research gr"
+    },
+    {
+      "unitId": "surrey-csee",
+      "officialId": "gregory-chockler",
+      "name": "Gregory Chockler",
+      "profileUrl": "https://www.surrey.ac.uk/people/gregory-chockler",
+      "title": null,
+      "section": "Computer science staff",
+      "evidence": "esearch. From 2003-2005, I was a Postdoctoral Associate with the MIT Computer Science and Artificial Intelligence Laboratory. I have held visiting scientist positions at EPFL, KTH, SICS, Emory University, IBM, and IMDEA Software Institute. Expand biography Areas of specialism Trustworthy and secure distributed systems; Large-scale "
+    },
+    {
+      "unitId": "surrey-csee",
+      "officialId": "mariam-cirovic",
+      "name": "Mariam Cirovic",
+      "profileUrl": "https://www.surrey.ac.uk/people/mariam-cirovic",
+      "title": null,
+      "section": "Computer science staff",
+      "evidence": "dern system, whether it is a social media or gaming platform or a banking, healthcare, or AI system. This data needs to be stored securely and organised such that data retrieval is fast, accurate and consistent. Database systems provide this functionality – from relational databases that store customer data sec"
+    },
+    {
+      "unitId": "surrey-csee",
+      "officialId": "andrew-crossan",
+      "name": "Andrew Crossan",
+      "profileUrl": "https://www.surrey.ac.uk/people/andrew-crossan",
+      "title": null,
+      "section": "Computer science staff",
+      "evidence": " Computer Science (BSc/MEng Computing with Business Management (BSc) Computer Science and Artificial Intelligence (BSc/MEng) Computer Science and Cuber Security (BSc) Expand biography University roles and responsibilities Programme Lead Computer Science (BSc Hons, MEng) Programme Lead Compuing with Business Management (BSc Hons) Te"
+    },
+    {
+      "unitId": "surrey-csee",
+      "officialId": "santanu-dash",
+      "name": "Santanu Dash",
+      "profileUrl": "https://www.surrey.ac.uk/people/santanu-dash",
+      "title": null,
+      "section": "Computer science staff",
+      "evidence": "ct-Checking Judge for API Migration , In: arXiv.org Cornell University Library, arXiv.org Large Language Models (LLMs) are increasingly deployed in automated software engineering for tasks such as API migration. While LLMs are able to identify migration patterns, they often make mistakes and fail to produce correct glue code to "
+    },
+    {
+      "unitId": "surrey-csee",
+      "officialId": "suparna-de",
+      "name": "Suparna De",
+      "profileUrl": "https://www.surrey.ac.uk/people/suparna-de",
+      "title": null,
+      "section": "Computer science staff",
+      "evidence": "cturer in Computer Science, a Principal Fellow in the Surrey Institute for People-Centred AI and an Honorary Senior Research Fellow in the Social Research Institute at UCL, UK. She is also a visiting lecturer at the Research Center for Information and Communications Technologies (CITIC), University of Granada, "
+    },
+    {
+      "unitId": "surrey-csee",
+      "officialId": "brijesh-dongol",
+      "name": "Brijesh Dongol",
+      "profileUrl": "https://www.surrey.ac.uk/people/brijesh-dongol",
+      "title": null,
+      "section": "Computer science staff",
+      "evidence": "les to home assistance, potential applications are numerous. The UK government identified robotics as a key technology that will lead us to future economic growth (tinyurl.com/q8bhcy7). They have recognised, however, that autonomous robots are complex and typically operate in ever-changing environments (tinyurl.com/o"
+    },
+    {
+      "unitId": "surrey-csee",
+      "officialId": "constantin-catalin-dragan",
+      "name": "Catalin Dragan",
+      "profileUrl": "https://www.surrey.ac.uk/people/constantin-catalin-dragan",
+      "title": null,
+      "section": "Computer science staff",
+      "evidence": "y in electronic voting, E2E, secure messaging apps (e.g., Signal), and privacy preserving machine learning COM3017 Information Security Management (Module Lead): every year since 2020 Aim : to provide an introduction to risk management and understand its principles Indicative content : risk identification, business impact an"
+    },
+    {
+      "unitId": "surrey-csee",
+      "officialId": "nada-el-kassem",
+      "name": "Nada El Kassem",
+      "profileUrl": "https://www.surrey.ac.uk/people/nada-el-kassem",
+      "title": null,
+      "section": "Computer science staff",
+      "evidence": "a diverse range of advanced topics, including Cryptography, Internet of Things (IoT), and Data Science, guiding students in developing rigorous, innovative, and real-world research contributions. Expand Teaching I have contributed to the teaching of several modules across the undergraduate and postgraduate curriculum, in"
+    },
+    {
+      "unitId": "surrey-csee",
+      "officialId": "nick-frymann",
+      "name": "Nick Frymann",
+      "profileUrl": "https://www.surrey.ac.uk/people/nick-frymann",
+      "title": null,
+      "section": "Computer science staff",
+      "evidence": "ARE ENGINEERING Teaching assistant 2021/22 COM1031 COMPUTER LOGIC COM2028 INTRODUCTION TO ARTIFICIAL INTELLIGENCE COM3009 COMPUTER SECURITY 2020/21 COM2028 INTRODUCTION TO ARTIFICIAL INTELLIGENCE COM2034 INFORMATION RETRIEVAL COM3009 COMPUTER SECURITY 2019/20 COM2034 INFORMATION RETRIEVAL COM3025 DEEP LEARNING AND ADVANCED AI 2018/"
+    },
+    {
+      "unitId": "surrey-csee",
+      "officialId": "daniel-gardham",
+      "name": "Daniel Gardham",
+      "profileUrl": "https://www.surrey.ac.uk/people/daniel-gardham",
+      "title": null,
+      "section": "Computer science staff",
+      "evidence": "of Surrey News 23 JUL 2026 Commentary: OpenAI cyber incident highlights need for stronger AI safeguards 29 APR 2026 Surrey retains Gold status in cyber security education 22 SEP 2025 Commentary: Why airports are only as secure as their weakest link Teaching My teaching within the School of Computer Science and "
+    },
+    {
+      "unitId": "surrey-csee",
+      "officialId": "xiaowei-gu",
+      "name": "Xiaowei Gu",
+      "profileUrl": "https://www.surrey.ac.uk/people/xiaowei-gu",
+      "title": null,
+      "section": "Computer science staff",
+      "evidence": "a Senior Research Associate at Lancaster University. Expand biography Areas of specialism Machine Learning; Artificial Intelligence; Data Analytics; Signal Processing University roles and responsibilities School&#039;s MSc Employability Lead Personal Tutor My qualifications 2021 Fellow of HEA 2018 PhD in Computer Science Res"
+    },
+    {
+      "unitId": "surrey-csee",
+      "officialId": "frank-guerin",
+      "name": "Frank Guerin",
+      "profileUrl": "https://www.surrey.ac.uk/people/frank-guerin",
+      "title": null,
+      "section": "Computer science staff",
+      "evidence": "f Aberdeen and before that a PhD student in Imperial College. His research interest is in Artificial Intelligence, with a recent focus on language processing. In the past he has published in robotics, vision, and machine learning. He has established a track record of taking ideas from psychology research and importing them to Artif"
+    },
+    {
+      "unitId": "surrey-csee",
+      "officialId": "diptesh-kanojia",
+      "name": "Diptesh Kanojia",
+      "profileUrl": "https://www.surrey.ac.uk/people/diptesh-kanojia",
+      "title": null,
+      "section": "Computer science staff",
+      "evidence": "Dr Diptesh Kanojia Senior Lecturer in People-Centred AI FHEA, PhD, BTech (CSE) d.kanojia@surrey.ac.uk Book a meeting 10am - 5pm https://dipteshkanojia.co.uk Academic and research departments   , Nature Inspired Computing and Engineering Research Group , Computer Science Rese"
+    },
+    {
+      "unitId": "surrey-csee",
+      "officialId": "joey-sik-chun-lam",
+      "name": "Joey Lam",
+      "profileUrl": "https://www.surrey.ac.uk/people/joey-sik-chun-lam",
+      "title": null,
+      "section": "Computer science staff",
+      "evidence": "tal or theoretical research, or a substantial analysis on a specific topic. COMM070 - MSc Data Science Dissertation The dissertation consists of a substantial written report. This report is based on a major piece of work that involves applying material encountered in the taught component of the degree, and extending that"
+    },
+    {
+      "unitId": "surrey-csee",
+      "officialId": "chaoyun-li",
+      "name": "Chaoyun Li",
+      "profileUrl": "https://www.surrey.ac.uk/people/chaoyun-li",
+      "title": null,
+      "section": "Computer science staff",
+      "evidence": "on physical and mathematical attacks. Expand Teaching Modules I am teaching In the age of AI, I believe higher education is more vital than ever—not just for technical skill, but for developing the human-centric expertise machines cannot replicate. My teaching philosophy centres on making material accessible th"
+    },
+    {
+      "unitId": "surrey-csee",
+      "officialId": "alaa-marshan",
+      "name": "Alaa Marshan",
+      "profileUrl": "https://www.surrey.ac.uk/people/alaa-marshan",
+      "title": null,
+      "section": "Computer science staff",
+      "evidence": "Dr Alaa Marshan Senior Lecturer in Intelligent Data Analysis BSc, MSc and PhD a.marshan@surrey.ac.uk 08 BB 02 TUE: 2-4pm, THU: 11-3pm, and FRI: 11-1pm Academic and research departments Nature Inspired Computing and Engineering Research Group , Computer Science Research C"
+    },
+    {
+      "unitId": "surrey-csee",
+      "officialId": "sotiris-moschoyiannis",
+      "name": "Sotiris Moschoyiannis",
+      "profileUrl": "https://www.surrey.ac.uk/people/sotiris-moschoyiannis",
+      "title": null,
+      "section": "Computer science staff",
+      "evidence": "d research departments Surrey Centre for Cyber Security ,   , Centre for Mathematical and Computational Biology , Computer Science Research Centre , School of Computer Science and Electronic Engineering . About News Research Teaching Sustainable development goals Publications About Biography I am a mathematician (Maths, Universit"
+    },
+    {
+      "unitId": "surrey-csee",
+      "officialId": "pedro-porto-buarque-de-gusmao",
+      "name": "Pedro Porto Buarque De Gusmao",
+      "profileUrl": "https://www.surrey.ac.uk/people/pedro-porto-buarque-de-gusmao",
+      "title": null,
+      "section": "Computer science staff",
+      "evidence": "iography Pedro is a Lecturer at the Computer Science Research Centre and a People-Centred AI fellow. He completed his BSc in Electrical Engineering (Telecommunications) at the University of São Paulo, and his MSc in Telecommunications Engineering as part of a double-degree between Politecnico di Torino and Poli"
+    },
+    {
+      "unitId": "surrey-csee",
+      "officialId": "nishanth-sastry",
+      "name": "Nishanth Sastry",
+      "profileUrl": "https://www.surrey.ac.uk/people/nishanth-sastry",
+      "title": null,
+      "section": "Computer science staff",
+      "evidence": "Networked Systems Theme within the Surrey Centre for Cyber Security . He is also a Surrey AI Fellow and co-leads the Pan University Surrey Security Network . Nationally, he is a member of several advisory bodies including the College of Experts advising the Chief Scientific Advisor of the UK Government's Depart"
+    },
+    {
+      "unitId": "surrey-csee",
+      "officialId": "steve-schneider",
+      "name": "Steve Schneider",
+      "profileUrl": "https://www.surrey.ac.uk/people/steve-schneider",
+      "title": null,
+      "section": "Computer science staff",
+      "evidence": ", and the Digital Catapult. It builds upon world-leading expertise at the intersection of Artificial Intelligence (AI) and Distributed Ledger Technologies (DLT) within Surrey’s Centre for Vision Speech and Signal Processing (CVSSP). These technical capabilities fuse with expertise in socio-economic modelling and digital business tr"
+    },
+    {
+      "unitId": "surrey-csee",
+      "officialId": "alireza-tamaddoni-nezhad",
+      "name": "Alireza Tamaddoni Nezhad",
+      "profileUrl": "https://www.surrey.ac.uk/people/alireza-tamaddoni-nezhad",
+      "title": null,
+      "section": "Computer science staff",
+      "evidence": "scholar researchgate mastodon Dr Alireza Tamaddoni-Nezhad Reader (Associate Professor) in Machine Learning and Computational Intelligence BSc, MSc, DIC, PhD (Imperial College London), FHEA a.tamaddoni-nezhad@surrey.ac.uk hmlr-lab.github.io Appointments via email Academic and research departments   , Nature Inspired Computing"
+    },
+    {
+      "unitId": "surrey-csee",
+      "officialId": "h-lilian-tang",
+      "name": "H Lilian Tang",
+      "profileUrl": "https://www.surrey.ac.uk/people/h-lilian-tang",
+      "title": null,
+      "section": "Computer science staff",
+      "evidence": "Professor H Lilian Tang Professor in Artificial Intelligence BEng, MEng, PhD (Cantab) +44 (0)1483 686054 h.tang@surrey.ac.uk 02 BB 02 Academic and research departments Computer Science Research Centre , School of Computer Science and Electronic Engineering . About Research Teachi"
+    },
+    {
+      "unitId": "surrey-csee",
+      "officialId": "tom-thorne",
+      "name": "Tom Thorne",
+      "profileUrl": "https://www.surrey.ac.uk/people/tom-thorne",
+      "title": null,
+      "section": "Computer science staff",
+      "evidence": "Dr Tom Thorne Senior Lecturer; Programme Lead of MSc Data Science MA (Cantab), PhD (Imperial), FHEA tom.thorne@surrey.ac.uk Personal website 03 BB 02 Varies weekly. Please email to book an appointment Academic and research departments Centre for Mathematical and Computational Biology "
+    },
+    {
+      "unitId": "surrey-csee",
+      "officialId": "yangguang-tian",
+      "name": "Jack Tian",
+      "profileUrl": "https://www.surrey.ac.uk/people/yangguang-tian",
+      "title": null,
+      "section": "Computer science staff",
+      "evidence": "cryptography, network security, blockchain technologies, privacy-preserving technologies, AI-assisted cryptanalysis Expand research interests Research projects SECANT (ID: 101019645): September 2021 - August 2024 I was Co-Investigator & project manager, the Principal Investigator was Prof. Liqun Chen, and the P"
+    },
+    {
+      "unitId": "surrey-csee",
+      "officialId": "fernando-virdia",
+      "name": "Fernando Virdia",
+      "profileUrl": "https://www.surrey.ac.uk/people/fernando-virdia",
+      "title": null,
+      "section": "Computer science staff",
+      "evidence": "ructions. In [Wenger et al. IEEE S&P 2025] two approaches, 'Cool and Cruel' (C+C) and the machine learning based 'SALSA', were benchmarked against the well established primal attack on sparse secrets. The authors concluded that C+C outperforms SALSA and both outperform the primal attack. In this work we show that the apparen"
+    },
+    {
+      "unitId": "surrey-csee",
+      "officialId": "xilu-wang",
+      "name": "Xilu Wang",
+      "profileUrl": "https://www.surrey.ac.uk/people/xilu-wang",
+      "title": null,
+      "section": "Computer science staff",
+      "evidence": "ey in 2022, funded by the Honda Research Institute Europe. Her research focuses on making AI optimisation smarter, more efficient, and trustworthy — particularly in settings where data is scarce, distributed, or sensitive. She has published in multi-objective Bayesian optimisation, surrogate-assisted evolutiona"
+    },
+    {
+      "unitId": "surrey-csee",
+      "officialId": "sara-atito",
+      "name": "Sara Ahmed",
+      "profileUrl": "https://www.surrey.ac.uk/people/sara-atito",
+      "title": null,
+      "section": "Electronic engineering staff",
+      "evidence": "ntre for Vision, Speech and Signal Processing (CVSSP) and the Institute of People-Centred Artificial Intelligence. Prior to her current role, Sara completed her PhD in computer science at Sabanci University, where she specialised in deep learning ensembles for image understanding. Currently, her primary focus is on advancing the fi"
+    },
+    {
+      "unitId": "surrey-csee",
+      "officialId": "mahdi-boloursaz-mashhadi",
+      "name": "Mahdi Boloursaz Mashhadi",
+      "profileUrl": "https://www.surrey.ac.uk/people/mahdi-boloursaz-mashhadi",
+      "title": null,
+      "section": "Electronic engineering staff",
+      "evidence": "Dr Mahdi Boloursaz Mashhadi Lecturer in Communications and AI PhD m.boloursazmashhadi@surrey.ac.uk Academic and research departments Institute for Communication Systems , School of Computer Science and Electronic Engineering . About News Research Supervision Teaching Publications "
+    },
+    {
+      "unitId": "surrey-csee",
+      "officialId": "tim-brown",
+      "name": "Tim Brown",
+      "profileUrl": "https://www.surrey.ac.uk/people/tim-brown",
+      "title": null,
+      "section": "Electronic engineering staff",
+      "evidence": "Brown 14 MAR 2024 University of Surrey leads £8 million initiative for training in secure AI-era networks 06 OCT 2022 Why you should study electrical and electronic engineering at Surrey 17 DEC 2020 Continuing professional development courses an ongoing success in 2020 Show all articles Research Research intere"
+    },
+    {
+      "unitId": "surrey-csee",
+      "officialId": "david-carey",
+      "name": "David Carey",
+      "profileUrl": "https://www.surrey.ac.uk/people/david-carey",
+      "title": null,
+      "section": "Electronic engineering staff",
+      "evidence": "partnership focused on educating and developing future leaders in electronic engineering, artificial intelligence, and computer science. Professor Carey has held several senior academic positions at the University of Surrey. He was Head of the Department of Electrical and Electronic Engineering from 2015 to 2022, and following the "
+    },
+    {
+      "unitId": "surrey-csee",
+      "officialId": "emily-corrigan-kavanagh",
+      "name": "Emily Corrigan-Kavanagh",
+      "profileUrl": "https://www.surrey.ac.uk/people/emily-corrigan-kavanagh",
+      "title": null,
+      "section": "Electronic engineering staff",
+      "evidence": "Dr Emily Corrigan-Kavanagh (formerly Corrigan-Doyle) Surrey Future Fellow in Designing AI for Home Wellbeing, Surrey AI Fellow BA (Distinction), MA (Distinction), PhD, FHEA +441483686714 e.corrigandoyle@surrey.ac.uk emilycorrigandoyle.wixsite.com/emilyresearcher Wednesday: 11am to 4.30pm Academic and researc"
+    },
+    {
+      "unitId": "surrey-csee",
+      "officialId": "chuan-foh",
+      "name": "Chuan Foh",
+      "profileUrl": "https://www.surrey.ac.uk/people/chuan-foh",
+      "title": null,
+      "section": "Electronic engineering staff",
+      "evidence": "n international journals and conferences. His research interests include protocol design, machine learning application, and performance analysis of various computer networks, including wireless local area networks, mobile ad-hoc and sensor networks, vehicular networks, the Internet of Things, 5G/6G networks, and open RAN. He"
+    },
+    {
+      "unitId": "surrey-csee",
+      "officialId": "yue-gao",
+      "name": "Yue Gao",
+      "profileUrl": "https://www.surrey.ac.uk/people/yue-gao",
+      "title": null,
+      "section": "Electronic engineering staff",
+      "evidence": "and THz Software-defined mm-wave/THz transceiver systems and OAM Sub-Nyquist sampling and machine learning from theory to practice IoT systems from antennas to signal processing Access to the antenna measurement facilities at NPL Smart chamber (400 MHz to 110 GHz) THz Spectroscopy (maximum 4THz) and VNA (up to 750 GHz) Expan"
+    },
+    {
+      "unitId": "surrey-csee",
+      "officialId": "yi-ma",
+      "name": "Yi Ma",
+      "profileUrl": "https://www.surrey.ac.uk/people/yi-ma",
+      "title": null,
+      "section": "Electronic engineering staff",
+      "evidence": "6G Innovation Centre (6GIC). He has extensive expertise in the area of Signal Processing, Deep Learning and Information Theory, with their applications in Wireless Communication, Positioning and Sensing. Expand biography Research Research interests Quantum wireless Semantic/effective communication and sensing Machine lear"
+    },
+    {
+      "unitId": "surrey-csee",
+      "officialId": "mahtab-mirmohseni",
+      "name": "Mahtab Mirmohseni",
+      "profileUrl": "https://www.surrey.ac.uk/people/mahtab-mirmohseni",
+      "title": null,
+      "section": "Electronic engineering staff",
+      "evidence": " Award at the National Festival of Women and Science in 2019. She is also a theme lead on AI-assisted Physical Layer Security for EPSRC Centre for Doctoral Training (CDT) in Future Open SecuRe NeTworks (FORT). She has served as an Associate Editor for the IEEE Transactions on Communications , and currently serv"
+    },
+    {
+      "unitId": "surrey-csee",
+      "officialId": "klaus-moessner",
+      "name": "Klaus Moessner",
+      "profileUrl": "https://www.surrey.ac.uk/people/klaus-moessner",
+      "title": null,
+      "section": "Electronic engineering staff",
+      "evidence": "nagement and scheduling in wireless networks as well as network supported adaptability of multimodal user interfaces. He was founding chair of the IEEE DySPAN working group 6 on Spectrum Sensing Interfaces. He is actively involved in the investigation and teaching of mobile service provision (including IoT deployments "
+    },
+    {
+      "unitId": "surrey-csee",
+      "officialId": "mohammad-shojafar",
+      "name": "Mohammad Shojafar",
+      "profileUrl": "https://www.surrey.ac.uk/people/mohammad-shojafar",
+      "title": null,
+      "section": "Electronic engineering staff",
+      "evidence": "etwork Security and Privacy; Open-RAN Security and Privacy; Green Networking; Adversarial Machine Learning; Applied Cryotography Affiliations and memberships IEEE Transactions on Network and Service Management Associate Editor IEEE Transactions on Intelligent Transportation Systems Associate Editor IEEE Transactions on Green"
+    },
+    {
+      "unitId": "surrey-csee",
+      "officialId": "radu-sporea",
+      "name": "Radu Sporea",
+      "profileUrl": "https://www.surrey.ac.uk/people/radu-sporea",
+      "title": null,
+      "section": "Electronic engineering staff",
+      "evidence": "Surrey's Advanced Technology Institute, where he leads research on contact-controlled and multimodal semiconductor devices and their application in energy-efficient electronic systems. His research explores how charge injection, transport and switching can be engineered independently within transistor structures. Rathe"
+    },
+    {
+      "unitId": "surrey-csee",
+      "officialId": "vlad-stolojan",
+      "name": "Vlad Stolojan",
+      "profileUrl": "https://www.surrey.ac.uk/people/vlad-stolojan",
+      "title": null,
+      "section": "Electronic engineering staff",
+      "evidence": "sation (Module Co-ordinator): This module covers data processing and analysis, microscopy image processing and analysis, optical spectroscopies, carbon nanotube growth mechanisms, thin film deposition techniques, ion-beam fabrication, implantation and analysis and journal article writing. EEE3037 - Nanoscience and Nanotechno"
+    },
+    {
+      "unitId": "surrey-csee",
+      "officialId": "martin-sweeting",
+      "name": "Martin Sweeting",
+      "profileUrl": "https://www.surrey.ac.uk/people/martin-sweeting",
+      "title": null,
+      "section": "Electronic engineering staff",
+      "evidence": "hair of the Trustees The London Institute of Space Policy and Law Trustee UK Hub on Space Robotics and Autonomous Systems Director Magrathea Research Ltd Director Seraphim Capital Advisor Karista CosmiCapital Advisor Space Energy Initiative Advisor AMSAT-UK Chair Show all News 26 FEB 2026 Professor Sir Martin Sweetin"
+    },
+    {
+      "unitId": "surrey-csee",
+      "officialId": "rahim-tafazolli",
+      "name": "Rahim Tafazolli",
+      "profileUrl": "https://www.surrey.ac.uk/people/rahim-tafazolli",
+      "title": null,
+      "section": "Electronic engineering staff",
+      "evidence": " MoU with A*STAR Institute for Infocomm Research (I2R) in Singapore for joint research in AI, 6G and satellite communications 14 MAR 2024 University of Surrey leads £8 million initiative for training in secure AI-era networks 01 DEC 2023 University of Surrey’s 5G/6G Innovation Centre celebrates triple awards su"
+    },
+    {
+      "unitId": "surrey-csee",
+      "officialId": "serdar-vural",
+      "name": "Serdar Vural",
+      "profileUrl": "https://www.surrey.ac.uk/people/serdar-vural",
+      "title": null,
+      "section": "Electronic engineering staff",
+      "evidence": "in 5G/6G mobile networks and satellite communications. Open PhD studentship : Multi-agent AI for software-defined traffic control in satellite networks Expand Teaching My teaching at the School of Computer Science and Electronic Engineering is centred at mobile network management systems and satellite networks."
+    },
+    {
+      "unitId": "surrey-csee",
+      "officialId": "pei-xiao",
+      "name": "Pei Xiao",
+      "profileUrl": "https://www.surrey.ac.uk/people/pei-xiao",
+      "title": null,
+      "section": "Electronic engineering staff",
+      "evidence": "rements. To address the coordination challenge among distributed UAVs, we first develop a Graph Neural Network (GNN)-enhanced Multi-Agent Deep Reinforcement Learning (MADRL) architecture that explicitly captures inter-UAV interactions and enables scalable cooperative decision-making. Building upon this, we further propos"
+    },
+    {
+      "unitId": "surrey-csee",
+      "officialId": "kai-yang",
+      "name": "Kai Yang",
+      "profileUrl": "https://www.surrey.ac.uk/people/kai-yang",
+      "title": null,
+      "section": "Electronic engineering staff",
+      "evidence": " Supervision Postgraduate research supervision Principle Supervisor: Mr. Guangpeng Zhang: Multimodal electrochemical platform and electrochemical sensors (Email: g.zhang@surrey.ac.uk ) Mr. Yunke Wang: Implantable distributed battery sensors (Email: yunke.wang@surrey.ac.uk ) Co-supervisor: Miss. Zhufang Wang: Engineerin"
+    },
+    {
+      "unitId": "surrey-csee",
+      "officialId": "lu-yin",
+      "name": "Lu Yin",
+      "profileUrl": "https://www.surrey.ac.uk/people/lu-yin",
+      "title": null,
+      "section": "Electronic engineering staff",
+      "evidence": "Dr Lu Yin Assistant Professor in AI Ph.D l.yin@surrey.ac.uk https://luuyin.com/ 15 BB 02 Friday Afternoon 2:00- 3:00 PM Academic and research departments Computer Science Research Centre , Nature Inspired Computing and Engineering Research Group ,   . Abo"
+    },
+    {
+      "unitId": "surrey-pai",
+      "officialId": "sabine-braun",
+      "name": "Sabine Braun",
+      "profileUrl": "https://www.surrey.ac.uk/people/sabine-braun",
+      "title": null,
+      "section": "Leadership team",
+      "evidence": "Leadership team；Professor Sabine Braun Professor of Translation Studies; Director, Centre for Translation Studies; Co-Director, Surrey Institute for People-Centred AI MA (Heidelberg), Dr Phil (Tuebingen) s.braun@surrey.ac.uk "
+    },
+    {
+      "unitId": "surrey-pai",
+      "officialId": "joaquin-m-prada",
+      "name": "Joaquin Prada",
+      "profileUrl": "https://www.surrey.ac.uk/people/joaquin-m-prada",
+      "title": null,
+      "section": "Leadership team",
+      "evidence": "Leadership team；aborations Talent pipeline World-class facilities Container (column 2) For researchers Grant success Consultancy excellence Surrey Research Park Container (column 3) For students Opportunities Container (column 4) Innovate Surrey Ltd Intellectual property code Start-up companies Unitemps Giving Giving home Container Donate to the Forever Surrey Fund Make a regular gift Volunteering Current opportunities Why volunteer? Leave a gift in your will Visit Visit home Open days Our campus Our location Accessibility information Campus tours Events How to get here Search Search the University of Surrey website (required) Submit Open days Accommodation Library Prospectus See all search results twitter Dr Joaquin M. Prada Co-Director Surrey Institute for People-Centred AI Associate Professor in Epidemiology BEng, MEng, PhD, FHEA j.prada@surrey.ac.uk "
+    },
+    {
+      "unitId": "surrey-pai",
+      "officialId": "andrew-rogoyski",
+      "name": "Andrew Rogoyski",
+      "profileUrl": "https://www.surrey.ac.uk/people/andrew-rogoyski",
+      "title": null,
+      "section": "Leadership team",
+      "evidence": "Leadership team；Andrew Rogoyski Director of Innovation and Partnerships at the Surrey Institute for People-Centred AI PhD, BSc "
+    },
+    {
+      "unitId": "surrey-pai",
+      "officialId": "ayse-demirkan",
+      "name": "Ayse Demirkan",
+      "profileUrl": "https://www.surrey.ac.uk/people/ayse-demirkan",
+      "title": null,
+      "section": "Academic staff",
+      "evidence": "Academic staff；Dr Ayse Demirkan Senior Lecturer in AI Multiomics for Health and Wellbeing a.demirkan@surrey.ac.uk European Mathematical Genetics Meeting 2023 "
+    },
+    {
+      "unitId": "surrey-pai",
+      "officialId": "bahareh-heravi",
+      "name": "Bahareh Heravi",
+      "profileUrl": "https://www.surrey.ac.uk/people/bahareh-heravi",
+      "title": null,
+      "section": "Academic staff",
+      "evidence": "Academic staff；Dr Bahareh Heravi Associate Professor (Reader) in AI and Media b.heravi@surrey.ac.uk https://about.me/bheravi 57 MS 02 "
+    },
+    {
+      "unitId": "surrey-pai",
+      "officialId": "erin-chao-ling",
+      "name": "Erin Ling",
+      "profileUrl": "https://www.surrey.ac.uk/people/erin-chao-ling",
+      "title": null,
+      "section": "Academic staff",
+      "evidence": "Academic staff；esearchers Grant success Consultancy excellence Surrey Research Park Container (column 3) For students Opportunities Container (column 4) Innovate Surrey Ltd Intellectual property code Start-up companies Unitemps Giving Giving home Container Donate to the Forever Surrey Fund Make a regular gift Volunteering Current opportunities Why volunteer? Leave a gift in your will Visit Visit home Open days Our campus Our location Accessibility information Campus tours Events How to get here Search Search the University of Surrey website (required) Submit Open days Accommodation Library Prospectus See all search results linkedin twitter googlescholar researchgate Dr Erin Chao Ling Senior Lecturer in Artificial Intelligence and the Future of Work, Director of Executive Education (SBS) BSc, MSc, FHEA, PhD chao.ling@surrey.ac.uk 50 AP 02 by appointment "
+    },
+    {
+      "unitId": "surrey-pai",
+      "officialId": "benita-mathew",
+      "name": "Benita Rose Mathew",
+      "profileUrl": "https://www.surrey.ac.uk/people/benita-mathew",
+      "title": null,
+      "section": "Academic staff",
+      "evidence": "Academic staff； Talent pipeline World-class facilities Container (column 2) For researchers Grant success Consultancy excellence Surrey Research Park Container (column 3) For students Opportunities Container (column 4) Innovate Surrey Ltd Intellectual property code Start-up companies Unitemps Giving Giving home Container Donate to the Forever Surrey Fund Make a regular gift Volunteering Current opportunities Why volunteer? Leave a gift in your will Visit Visit home Open days Our campus Our location Accessibility information Campus tours Events How to get here Search Search the University of Surrey website (required) Submit Open days Accommodation Library Prospectus See all search results Dr Benita Mathew Lecturer in AI and Fintech PhD, ACCA, ACGP benitarose.mathew@surrey.ac.uk 57 MS 02 Please email benitarose.mathew@surrey.ac.uk to book an appointment. "
+    },
+    {
+      "unitId": "surrey-pai",
+      "officialId": "bingxin-lu",
+      "name": "Bingxin Lu",
+      "profileUrl": "https://www.surrey.ac.uk/people/bingxin-lu",
+      "title": null,
+      "section": "PAI pan-University Fellows and Associates",
+      "evidence": "eterogeneity and clonal evolution in liver and lung cancer genomes. I completed my PhD in Computational Biology under the supervision of Hon Wai Leong at School of Computing National University of Singapore, where I developed machine learning and phylogenetic methods for problems related to lateral gene transfer. I obtained my Ma"
+    },
+    {
+      "unitId": "surrey-pai",
+      "officialId": "klara-wanelik",
+      "name": "Klara Wanelik",
+      "profileUrl": "https://www.surrey.ac.uk/people/klara-wanelik",
+      "title": null,
+      "section": "Surrey Future Fellows",
+      "evidence": "Surrey Future Fellows；Dr Klara Wanelik Surrey Future Fellow DPhil k.wanelik@surrey.ac.uk "
+    },
+    {
+      "unitId": "surrey-pai",
+      "officialId": "daniel-abasolo",
+      "name": "Daniel Abasolo",
+      "profileUrl": "https://www.surrey.ac.uk/people/daniel-abasolo",
+      "title": null,
+      "section": "PAI pan-University Fellows and Associates",
+      "evidence": " studies, and electrocardiogram analysis in atrial fibrillation. He is also interested in deep learning techniques for EEG analysis and the identification of circadian and ultradian rhythms with advanced signal processing algorithms. Dr Daniel Abásolo is a passionate advocate for biomedical engineering and has been champi"
+    },
+    {
+      "unitId": "surrey-pai",
+      "officialId": "simon-n-archer",
+      "name": "Simon Archer",
+      "profileUrl": "https://www.surrey.ac.uk/people/simon-n-archer",
+      "title": null,
+      "section": "PAI pan-University Fellows and Associates",
+      "evidence": "ated microgravity during a constant bed rest protocol (with ESA). With the application of machine learning to these datasets, we have also developed and validated human blood transcriptome biomarkers for circadian phase and sleep loss. Expand research interests Indicators of esteem Editorial Board Member, Frontiers in Neuros"
+    },
+    {
+      "unitId": "surrey-pai",
+      "officialId": "matteo-barberis",
+      "name": "Matteo Barberis",
+      "profileUrl": "https://www.surrey.ac.uk/people/matteo-barberis",
+      "title": null,
+      "section": "PAI pan-University Fellows and Associates",
+      "evidence": "eme Leader for Infection and Immunity, Faculty Coordinator of Centre for Mathematical and Computational Biology (CMCB), and Reader in Systems Biology PhD (Industrial Biotechnology and Biochemistry), FRSB (Fellow, Royal Society of Biology Council), BSc (Bioinformatics), MSc (Industrial Biotechnology) +44 (0)1483 684610 m.barberis@"
+    },
+    {
+      "unitId": "surrey-pai",
+      "officialId": "mikolaj-barczentewicz",
+      "name": "Mikolaj Barczentewicz",
+      "profileUrl": "https://www.surrey.ac.uk/people/mikolaj-barczentewicz",
+      "title": null,
+      "section": "PAI pan-University Fellows and Associates",
+      "evidence": "ilosophy News 16 SEP 2025 Justice is being lost in translation – Surrey researchers build AI to fix this problem 15 OCT 2019 New Surrey Law and Technology Hub! In the media December 2016 Commenting live from the Supreme Court on the hearings in the&nbsp;Miller&nbsp;[Brexit / Article 50]&nbsp;case for BBC News B"
+    },
+    {
+      "unitId": "surrey-pai",
+      "officialId": "ullrich-bartsch",
+      "name": "Ullrich Bartsch",
+      "profileUrl": "https://www.surrey.ac.uk/people/ullrich-bartsch",
+      "title": null,
+      "section": "PAI pan-University Fellows and Associates",
+      "evidence": "art of the Dementia Research Institute - Care Research and Technology Centre and a Surrey AI Fellow at the Institute for People-Centred AI. His academic career started when he completed his undergraduate degree in Biochemistry at the University of Bochum (Ruhr-Universität Bochum) with a final year project in Bi"
+    },
+    {
+      "unitId": "surrey-pai",
+      "officialId": "bonnie-buchanan",
+      "name": "Bonnie Buchanan",
+      "profileUrl": "https://www.surrey.ac.uk/people/bonnie-buchanan",
+      "title": null,
+      "section": "PAI pan-University Fellows and Associates",
+      "evidence": "ournal of Finance and Economics (an ABS 3 journal). Professor Buchanan also serves on the AI Consortium, established by the Bank of England and UK FCA. She is the Immediate Past Head of the Department of Finance and Accounting at SBS (2019 - 2023). Professor Buchanan is also a fellow of the University's Center "
+    },
+    {
+      "unitId": "surrey-pai",
+      "officialId": "alison-callwood",
+      "name": "Alison Callwood",
+      "profileUrl": "https://www.surrey.ac.uk/people/alison-callwood",
+      "title": null,
+      "section": "PAI pan-University Fellows and Associates",
+      "evidence": "ficult and spatially challenging. There is a lack of digital learning technologies to aid visualisation and comprehension of reproductive anatomy. Thorough knowledge of anatomy and physiology is essential for healthcare students. Interaction with three-dimensional (3D) digital technology can provide accessible, intuitive "
+    },
+    {
+      "unitId": "surrey-pai",
+      "officialId": "franjo-cecelja",
+      "name": "Franjo Cecelja",
+      "profileUrl": "https://www.surrey.ac.uk/people/franjo-cecelja",
+      "title": null,
+      "section": "PAI pan-University Fellows and Associates",
+      "evidence": "g. He has expertise in Optical Sensors and Measurement, Data Processing, Optimisation and Decision Making and Computer Modelling. Dr Franjo Cecelja has worked closely with the UK and international companies and universities and research institutions which resulted in more than 15 funded research projects. He is currently pr"
+    },
+    {
+      "unitId": "surrey-pai",
+      "officialId": "irina-cojuharenco",
+      "name": "Irina Cojuharenco",
+      "profileUrl": "https://www.surrey.ac.uk/people/irina-cojuharenco",
+      "title": null,
+      "section": "PAI pan-University Fellows and Associates",
+      "evidence": "ined the University of Surrey in 2017 as Senior Lecturer at the Centre for Leadership and Decision Making. Irina has taught courses in leadership, negotiation, organisational behaviour, organisation theory and decision making at different levels of instruction in Europe (Universitat Pompeu Fabra, Universidade Catolica Portu"
+    },
+    {
+      "unitId": "surrey-pai",
+      "officialId": "alexessander-couto-alves",
+      "name": "Alex Couto Alves",
+      "profileUrl": "https://www.surrey.ac.uk/people/alexessander-couto-alves",
+      "title": null,
+      "section": "PAI pan-University Fellows and Associates",
+      "evidence": "arch results twitter linkedin googlescholar orcid Dr Alexessander Couto Alves Lecturer in Bioinformatics and Statistical Genomics PhD, MSc, MEng a.coutoalves@surrey.ac.uk Blog 14AX02, by appointment Academic and research departments School of Biosciences , Faculty of Health and Medical Sciences . About News Research Superv"
+    },
+    {
+      "unitId": "surrey-pai",
+      "officialId": "enzo-de-sena",
+      "name": "Enzo De Sena",
+      "profileUrl": "https://www.surrey.ac.uk/people/enzo-de-sena",
+      "title": null,
+      "section": "PAI pan-University Fellows and Associates",
+      "evidence": "Enzo De Sena Professor and Director of the Institute of Sound Recording (IoSR) BSc, MSc, PhD, FHEA e.desena@surrey.ac.uk http://www.desena.org 07 BC 03 About News Research Publications About Biography Enzo De Sena received the PhD degree in Electronic Engineering from King’s College London, UK, in 2013. Between 2013 and 2016 he was a postdoctoral researcher at KU Leuven, Belgium. He held visiting researcher positions"
+    },
+    {
+      "unitId": "surrey-pai",
+      "officialId": "ali-emrouznejad",
+      "name": "Ali Emrouznejad",
+      "profileUrl": "https://www.surrey.ac.uk/people/ali-emrouznejad",
+      "title": null,
+      "section": "PAI pan-University Fellows and Associates",
+      "evidence": " performance measurement and management, efficiency and productivity analysis, as well as AI and big data. Prior to his current position, he held the role of head of the Business Analytics Group at Aston University. He completed his MSc in Applied Mathematics and later earned his PhD in Operational Research and"
+    },
+    {
+      "unitId": "surrey-pai",
+      "officialId": "masoud-fakhimi",
+      "name": "Masoud Fakhimi",
+      "profileUrl": "https://www.surrey.ac.uk/people/masoud-fakhimi",
+      "title": null,
+      "section": "PAI pan-University Fellows and Associates",
+      "evidence": "r economy, and supply chain management, developing data-driven methods to support complex decision-making. His work spans several multidisciplinary research projects with partners from industry and academia, particularly in healthcare, education, and agri-food supply chains. Masoud is a Fellow of the Higher Education Academ"
+    },
+    {
+      "unitId": "surrey-pai",
+      "officialId": "saber-fallah",
+      "name": "Saber Fallah",
+      "profileUrl": "https://www.surrey.ac.uk/people/saber-fallah",
+      "title": null,
+      "section": "PAI pan-University Fellows and Associates",
+      "evidence": "Professor Saber Fallah Professor of Safe AI and Autonomy PhD, PEng +44 (0)1483 686528 s.fallah@surrey.ac.uk Cognitive Autonomous Vehicles Research Lab 11 AA 03 Academic and research departments Centre for Aerodynamics, Aerospace and Automotive Engineering , Schoo"
+    },
+    {
+      "unitId": "surrey-pai",
+      "officialId": "nophar-geifman",
+      "name": "Nophar Geifman",
+      "profileUrl": "https://www.surrey.ac.uk/people/nophar-geifman",
+      "title": null,
+      "section": "PAI pan-University Fellows and Associates",
+      "evidence": "Digital Health Expert Group . About News Publications About Biography My interests lie in data sciences within healthcare and medicine; extending the use of artificial intelligence and big-data analytics to improve patient-centric predictions, treatment and outcomes, while also enhancing the open sharing of biomedical da"
+    },
+    {
+      "unitId": "surrey-pai",
+      "officialId": "andrew-gilbert",
+      "name": "Andrew Gilbert",
+      "profileUrl": "https://www.surrey.ac.uk/people/andrew-gilbert",
+      "title": null,
+      "section": "PAI pan-University Fellows and Associates",
+      "evidence": "Dr Andrew Gilbert Associate Professor in Computer Vision and Machine Learning BEng, PhD, FHEA +441483684713 a.gilbert@surrey.ac.uk Personal website 04 BC 03 Academic and research departments Faculty of Arts, Business and Social Sciences , Music and Media . About Supervision T"
+    },
+    {
+      "unitId": "surrey-pai",
+      "officialId": "donya-hajializadeh",
+      "name": "Donya Hajializadeh",
+      "profileUrl": "https://www.surrey.ac.uk/people/donya-hajializadeh",
+      "title": null,
+      "section": "PAI pan-University Fellows and Associates",
+      "evidence": "gineering at the University of Surrey, School of Engineering. Donya is a Fellow of the   (AI), CEE Director of Employability and Deputy coordinator of Surrey/ICE Scholarship. She was a recipient of the prestigious Marie Curie Early Stage Researcher Scholarship awarded by the European Commission for the duration"
+    },
+    {
+      "unitId": "surrey-pai",
+      "officialId": "jenny-harris",
+      "name": "Jenny Harris",
+      "profileUrl": "https://www.surrey.ac.uk/people/jenny-harris",
+      "title": null,
+      "section": "PAI pan-University Fellows and Associates",
+      "evidence": "e, Elizabeth M Zelinski, Daniel James Maupin, Bart Orriens, Haomiao Jin (2026) Low-burden AI approach for cross-national early identification of cognitive impairment using real-world questionnaire response behaviours , In: Nature communications Nature DOI: 10.1038/s41467-026-76071-9 Under-recognition of cogniti"
+    },
+    {
+      "unitId": "surrey-pai",
+      "officialId": "kathryn-hart",
+      "name": "Kath Hart",
+      "profileUrl": "https://www.surrey.ac.uk/people/kathryn-hart",
+      "title": null,
+      "section": "PAI pan-University Fellows and Associates",
+      "evidence": " of up to date science and scientific methods. Fellow of the Institute for People centred AI and the Institute for Sustainability Expand biography Areas of specialism Nutrition in early life; Dietary assessment; Vitamin D; Bariatric surgery University roles and responsibilities Level 4 co-ordinator Personal tut"
+    },
+    {
+      "unitId": "surrey-pai",
+      "officialId": "christine-hine",
+      "name": "Christine Hine",
+      "profileUrl": "https://www.surrey.ac.uk/people/christine-hine",
+      "title": null,
+      "section": "PAI pan-University Fellows and Associates",
+      "evidence": " of Science and Technology. Expand biography University roles and responsibilities Surrey AI Fellow, Surrey Institute for People-Centred AI Fellow, Surrey Centre for Excellence on Ageing Postgraduate Research Director, Sociology News 19 NOV 2024 CEA Showcase Integrated Care 29 MAR 2023 Animated short videos to "
+    },
+    {
+      "unitId": "surrey-pai",
+      "officialId": "haomiao-jin",
+      "name": "Haomiao Jin",
+      "profileUrl": "https://www.surrey.ac.uk/people/haomiao-jin",
+      "title": null,
+      "section": "PAI pan-University Fellows and Associates",
+      "evidence": "Dr Haomiao Jin Senior Lecturer in Health Data Sciences h.jin@surrey.ac.uk Academic and research departments School of Health Sciences , Digital Health Expert Group , Long-term Conditions and Ageing Expert Group . About News Research Publications About Biography I am a stat"
+    },
+    {
+      "unitId": "surrey-pai",
+      "officialId": "marika-kaakinen",
+      "name": "Marika Kaakinen",
+      "profileUrl": "https://www.surrey.ac.uk/people/marika-kaakinen",
+      "title": null,
+      "section": "PAI pan-University Fellows and Associates",
+      "evidence": "ulty of Health and Medical Sciences , School of Biosciences , Centre for Mathematical and Computational Biology . About News Research Supervision Teaching Publications About Biography I hold an MSc degree in statistics and a PhD in genetic and life-course epidemiology from the University of Oulu, Finland. Before joining the Unive"
+    },
+    {
+      "unitId": "surrey-pai",
+      "officialId": "gianni-lo-iacono",
+      "name": "Giovanni Lo Iacono",
+      "profileUrl": "https://www.surrey.ac.uk/people/gianni-lo-iacono",
+      "title": null,
+      "section": "PAI pan-University Fellows and Associates",
+      "evidence": " will break new ground, producing world-class research and effecting significant change.\" AI fellow at People-Centred Artificial Intelligence Institute \"Our pan-university institute brings together Surrey’s core AI-related expertise in vision, speech and signal processing, computer science, and mathematics, wit"
+    },
+    {
+      "unitId": "surrey-pai",
+      "officialId": "steven-w-lockley",
+      "name": "Steven Lockley",
+      "profileUrl": "https://www.surrey.ac.uk/people/steven-w-lockley",
+      "title": null,
+      "section": "PAI pan-University Fellows and Associates",
+      "evidence": "stitute R01HL132556 Co-Investigator Major Goals: We propose to utilize the analytical and bioinformatics platforms and experience in population-level metabolomics studies to study banked plasma samples from well-characterized individuals in tightly controlled circadian rhythm studies to determine circadian phase from a sin"
+    },
+    {
+      "unitId": "surrey-pai",
+      "officialId": "olaf-marxen",
+      "name": "Olaf Marxen",
+      "profileUrl": "https://www.surrey.ac.uk/people/olaf-marxen",
+      "title": null,
+      "section": "PAI pan-University Fellows and Associates",
+      "evidence": "D MECHANICS AND THERMODYNAMICS ENG3163 INDIVIDUAL PROJECT ENG3209 NUMERICAL SIMULATIONS & MACHINE LEARNING ENGM296 ADVANCED RESEARCH PROJECT Expand my teaching Publications Ruonan Wang, John Chew, Feng Gao, Olaf Marxen (2025) Effect of Axial Throughflow Swirl on Flow and Heat Transfer in a Compressor Disc Cavity , In: Journa"
+    },
+    {
+      "unitId": "surrey-pai",
+      "officialId": "sebastiano-massaro",
+      "name": "Sebastiano Massaro",
+      "profileUrl": "https://www.surrey.ac.uk/people/sebastiano-massaro",
+      "title": null,
+      "section": "PAI pan-University Fellows and Associates",
+      "evidence": "conomy, Centred of Future of Work and a Surrey Fellow at the Institute for People-Centred Artificial Intelligence. Before joining Surrey, he co-directed the Global Research Priority in Behavioural Science of the University of Warwick, where he worked as an Assistant Professor of Behavioural Science at the Warwick Business School. A"
+    },
+    {
+      "unitId": "surrey-pai",
+      "officialId": "constantin-orasan",
+      "name": "Constantin Orasan",
+      "profileUrl": "https://www.surrey.ac.uk/people/constantin-orasan",
+      "title": null,
+      "section": "PAI pan-University Fellows and Associates",
+      "evidence": "Professor Constantin Orasan Professor of Language and Translation Technologies PhD in Computational Linguistics +441483 684115 c.orasan@surrey.ac.uk Personal page 06 LC 03 Mondays 10-11am, Fridays 4-5pm Academic and research departments Literature and Languages , Centre for Translation Studies ,   . About News Research Supervisio"
+    },
+    {
+      "unitId": "surrey-pai",
+      "officialId": "erich-round",
+      "name": "Erich Round",
+      "profileUrl": "https://www.surrey.ac.uk/people/erich-round",
+      "title": null,
+      "section": "PAI pan-University Fellows and Associates",
+      "evidence": "human language 21 FEB 2023 Humans’ talent for languages is still far more impressive than AI, say researchers of £1.7m project 19 JUL 2022 Two decades of Open Data for language diversity at the Surrey Morphology Group Research Research projects REVOLUPHON: Rational Evolutionary Phonology (Project leader) UK Hor"
+    },
+    {
+      "unitId": "surrey-pai",
+      "officialId": "yashwanth-subbannayya",
+      "name": "Yashwanth Subbannayya",
+      "profileUrl": "https://www.surrey.ac.uk/people/yashwanth-subbannayya",
+      "title": null,
+      "section": "PAI pan-University Fellows and Associates",
+      "evidence": " is a Lecturer in Translational Biosystems and Fellow of the Institute for People-Centred AI at the University of Surrey with over 15 years of experience in applying Systems Biology approaches, including proteomics, PTMomics, metabolomics, and bioinformatics, to study human diseases. His research focuses on ide"
+    },
+    {
+      "unitId": "surrey-pai",
+      "officialId": "richard-tee",
+      "name": "Richard Tee",
+      "profileUrl": "https://www.surrey.ac.uk/people/richard-tee",
+      "title": null,
+      "section": "PAI pan-University Fellows and Associates",
+      "evidence": " research and consulting institute in the Netherlands and at a digital startup focused on natural language search technology. Expand biography Areas of specialism Strategy, Innovation, Entrepreneurship; Industry Lifecycle and Dominant Designs; Digital Platforms; Business Ecosystems; Modularity and Technological Architecture "
+    },
+    {
+      "unitId": "surrey-pai",
+      "officialId": "christopher-turner",
+      "name": "Christopher Turner",
+      "profileUrl": "https://www.surrey.ac.uk/people/christopher-turner",
+      "title": null,
+      "section": "PAI pan-University Fellows and Associates",
+      "evidence": "0 automation solutions. Dr Turner is also a fellow of the cross-University People-centred AI Institute with his research focussing on Industry 5.0 Human Centred Manufacturing. Dr Turner has published over 100 papers (including over 60 journal papers) in peer reviewed international journals and conferences and h"
+    },
+    {
+      "unitId": "surrey-pai",
+      "officialId": "iis-tussyadiah",
+      "name": "Iis Tussyadiah",
+      "profileUrl": "https://www.surrey.ac.uk/people/iis-tussyadiah",
+      "title": null,
+      "section": "PAI pan-University Fellows and Associates",
+      "evidence": "Sustainable development goals Publications About Biography Iis Tussyadiah is Professor of Intelligent Systems in Service, Dean of Surrey Business School, and Fellow of the   at University of Surrey. Iis is an advocate of utilising technology to forge new pathways to a better future. She is internationally recognised for her con"
+    },
+    {
+      "unitId": "surrey-pai",
+      "officialId": "ines-violante",
+      "name": "Ines Violante",
+      "profileUrl": "https://www.surrey.ac.uk/people/ines-violante",
+      "title": null,
+      "section": "PAI pan-University Fellows and Associates",
+      "evidence": "ptive Bayesian optimization, which uses a close-loop search combining real-time fMRI with machine learning. This approach conducts an automatic and intelligent search across the multitude of tACS parameters in order to identify those that optimally elicit a particular target state. This framework has translational potential,"
+    },
+    {
+      "unitId": "surrey-pai",
+      "officialId": "anthony-whetton",
+      "name": "Tony Whetton",
+      "profileUrl": "https://www.surrey.ac.uk/people/anthony-whetton",
+      "title": null,
+      "section": "PAI pan-University Fellows and Associates",
+      "evidence": "Anthony Onoja, Kris Elomaa, Anthony D Whetton, Nophar Geifman (2026) Explainable temporal machine learning of multimorbidity trajectories after acute myocardial infarction: complementing clinical risk scores with mechanistic phenotypes , In: Journal of the American Medical Informatics Association : JAMIA Oxford Academic DOI:"
+    },
+    {
+      "unitId": "surrey-pai",
+      "officialId": "felix-do-carmo",
+      "name": "Felix do Carmo",
+      "profileUrl": "https://www.surrey.ac.uk/people/felix-do-carmo",
+      "title": null,
+      "section": "PAI pan-University Fellows and Associates",
+      "evidence": "ch results bluesky linkedin academia Dr Félix do Carmo Senior Lecturer in Translation and Natural Language Processing BA, MA, PhD - University of Porto (Portugal) +441483 684118 f.docarmo@surrey.ac.uk 09 LC 03 Office hours (subject to appointment): Wednesdays & Thursdays, from 11am to 12 noon. Academic and research departmen"
+    },
+    {
+      "unitId": "copenhagen-diku",
+      "officialId": "790067",
+      "name": "Amartya Sanyal",
+      "profileUrl": "https://di.ku.dk/english/staff/vip/?pure=en/persons/790067",
+      "title": "Assistant Professor - Tenure Track",
+      "section": "Research staff",
+      "evidence": "Assistant Professor - Tenure Track；Machine Learning"
+    },
+    {
+      "unitId": "copenhagen-diku",
+      "officialId": "8330",
+      "name": "Anders Krogh",
+      "profileUrl": "https://di.ku.dk/english/staff/vip/?pure=en/persons/8330",
+      "title": "Professor",
+      "section": "Research staff",
+      "evidence": "Professor；Machine Learning"
+    },
+    {
+      "unitId": "copenhagen-diku",
+      "officialId": "221553",
+      "name": "Anders Søgaard",
+      "profileUrl": "https://di.ku.dk/english/staff/vip/?pure=en/persons/221553",
+      "title": "Professor",
+      "section": "Research staff",
+      "evidence": "Professor；The Artificial Intelligence Section"
+    },
+    {
+      "unitId": "copenhagen-diku",
+      "officialId": "636966",
+      "name": "Ankit Kariryaa",
+      "profileUrl": "https://di.ku.dk/english/staff/vip/?pure=en/persons/636966",
+      "title": "Assistant Professor - Tenure Track",
+      "section": "Research staff",
+      "evidence": "Assistant Professor - Tenure Track；Machine Learning"
+    },
+    {
+      "unitId": "copenhagen-diku",
+      "officialId": "742081",
+      "name": "Barry Brown",
+      "profileUrl": "https://di.ku.dk/english/staff/vip/?pure=en/persons/742081",
+      "title": "Professor",
+      "section": "Research staff",
+      "evidence": "Professor；Human-Centred Computing"
+    },
+    {
+      "unitId": "copenhagen-diku",
+      "officialId": "840995",
+      "name": "Bernhard Kerbl",
+      "profileUrl": "https://di.ku.dk/english/staff/vip/?pure=en/persons/840995",
+      "title": "Assistant Professor - Tenure Track",
+      "section": "Research staff",
+      "evidence": "Assistant Professor - Tenure Track；Image Analysis, Computational Modelling and Geometry"
+    },
+    {
+      "unitId": "copenhagen-diku",
+      "officialId": "644987",
+      "name": "Bulat Ibragimov",
+      "profileUrl": "https://di.ku.dk/english/staff/vip/?pure=en/persons/644987",
+      "title": "Associate Professor - Promotion Programme",
+      "section": "Research staff",
+      "evidence": "Associate Professor - Promotion Programme；Image Analysis, Computational Modelling and Geometry"
+    },
+    {
+      "unitId": "copenhagen-diku",
+      "officialId": "400547",
+      "name": "Christian Igel",
+      "profileUrl": "https://di.ku.dk/english/staff/vip/?pure=en/persons/400547",
+      "title": "Professor",
+      "section": "Research staff",
+      "evidence": "Professor；Machine Learning"
+    },
+    {
+      "unitId": "copenhagen-diku",
+      "officialId": "424829",
+      "name": "Christina Lioma",
+      "profileUrl": "https://di.ku.dk/english/staff/vip/?pure=en/persons/424829",
+      "title": "Professor",
+      "section": "Research staff",
+      "evidence": "Professor；Machine Learning"
+    },
+    {
+      "unitId": "copenhagen-diku",
+      "officialId": "643203",
+      "name": "Daniel Hershcovich",
+      "profileUrl": "https://di.ku.dk/english/staff/vip/?pure=en/persons/643203",
+      "title": "Assistant Professor - Tenure Track",
+      "section": "Research staff",
+      "evidence": "Assistant Professor - Tenure Track；The Artificial Intelligence Section"
+    },
+    {
+      "unitId": "copenhagen-diku",
+      "officialId": "609533",
+      "name": "Daniel Lee Ashbrook",
+      "profileUrl": "https://di.ku.dk/english/staff/vip/?pure=en/persons/609533",
+      "title": "Associate Professor",
+      "section": "Research staff",
+      "evidence": "Associate Professor；Human-Centred Computing"
+    },
+    {
+      "unitId": "copenhagen-diku",
+      "officialId": "709183",
+      "name": "Daniel Spikol",
+      "profileUrl": "https://di.ku.dk/english/staff/vip/?pure=en/persons/709183",
+      "title": "Associate Professor",
+      "section": "Research staff",
+      "evidence": "Associate Professor；Human-Centred Computing"
+    },
+    {
+      "unitId": "copenhagen-diku",
+      "officialId": "631668",
+      "name": "Desmond Elliott",
+      "profileUrl": "https://di.ku.dk/english/staff/vip/?pure=en/persons/631668",
+      "title": "Associate Professor",
+      "section": "Research staff",
+      "evidence": "Associate Professor；The Artificial Intelligence Section"
+    },
+    {
+      "unitId": "copenhagen-diku",
+      "officialId": "93620",
+      "name": "Erik Bjørnager Dam",
+      "profileUrl": "https://di.ku.dk/english/staff/vip/?pure=en/persons/93620",
+      "title": "Professor",
+      "section": "Research staff",
+      "evidence": "Professor；Machine Learning"
+    },
+    {
+      "unitId": "copenhagen-diku",
+      "officialId": "473301",
+      "name": "Fabian Christian Gieseke",
+      "profileUrl": "https://di.ku.dk/english/staff/vip/?pure=en/persons/473301",
+      "title": "Associate Professor",
+      "section": "Research staff",
+      "evidence": "Associate Professor；Machine Learning"
+    },
+    {
+      "unitId": "copenhagen-diku",
+      "officialId": "200294",
+      "name": "Francois Lauze",
+      "profileUrl": "https://di.ku.dk/english/staff/vip/?pure=en/persons/200294",
+      "title": "Associate Professor",
+      "section": "Research staff",
+      "evidence": "Associate Professor；Image Analysis, Computational Modelling and Geometry"
+    },
+    {
+      "unitId": "copenhagen-diku",
+      "officialId": "773091",
+      "name": "Hang Yin",
+      "profileUrl": "https://di.ku.dk/english/staff/vip/?pure=en/persons/773091",
+      "title": "Assistant Professor - Tenure Track",
+      "section": "Research staff",
+      "evidence": "Assistant Professor - Tenure Track；Image Analysis, Computational Modelling and Geometry"
+    },
+    {
+      "unitId": "copenhagen-diku",
+      "officialId": "456392",
+      "name": "Ingemar Johansson Cox",
+      "profileUrl": "https://di.ku.dk/english/staff/vip/?pure=en/persons/456392",
+      "title": "Professor",
+      "section": "Research staff",
+      "evidence": "Professor；Machine Learning"
+    },
+    {
+      "unitId": "copenhagen-diku",
+      "officialId": "672153",
+      "name": "Irina Alex Shklovski",
+      "profileUrl": "https://di.ku.dk/english/staff/vip/?pure=en/persons/672153",
+      "title": "Professor",
+      "section": "Research staff",
+      "evidence": "Professor；Human-Centred Computing"
+    },
+    {
+      "unitId": "copenhagen-diku",
+      "officialId": "178402",
+      "name": "Jens Petersen",
+      "profileUrl": "https://di.ku.dk/english/staff/vip/?pure=en/persons/178402",
+      "title": "Associate Professor",
+      "section": "Research staff",
+      "evidence": "Associate Professor；Image Analysis, Computational Modelling and Geometry"
+    },
+    {
+      "unitId": "copenhagen-diku",
+      "officialId": "793108",
+      "name": "Jeppe Have Rasmussen",
+      "profileUrl": "https://di.ku.dk/english/staff/vip/?pure=en/persons/793108",
+      "title": "Assistant Professor",
+      "section": "Research staff",
+      "evidence": "Assistant Professor；Machine Learning"
+    },
+    {
+      "unitId": "copenhagen-diku",
+      "officialId": "540723",
+      "name": "Joanna Bergström",
+      "profileUrl": "https://di.ku.dk/english/staff/vip/?pure=en/persons/540723",
+      "title": "Associate Professor",
+      "section": "Research staff",
+      "evidence": "Associate Professor；Human-Centred Computing"
+    },
+    {
+      "unitId": "copenhagen-diku",
+      "officialId": "45217",
+      "name": "Jon Sporring",
+      "profileUrl": "https://di.ku.dk/english/staff/vip/?pure=en/persons/45217",
+      "title": "Professor",
+      "section": "Research staff",
+      "evidence": "Professor；Image Analysis, Computational Modelling and Geometry"
+    },
+    {
+      "unitId": "copenhagen-diku",
+      "officialId": "373643",
+      "name": "Julius Bier Kirkegaard",
+      "profileUrl": "https://di.ku.dk/english/staff/vip/?pure=en/persons/373643",
+      "title": "Assistant Professor - Tenure Track",
+      "section": "Research staff",
+      "evidence": "Assistant Professor - Tenure Track；Image Analysis, Computational Modelling and Geometry"
+    },
+    {
+      "unitId": "copenhagen-diku",
+      "officialId": "141851",
+      "name": "Kasper Hornbæk",
+      "profileUrl": "https://di.ku.dk/english/staff/vip/?pure=en/persons/141851",
+      "title": "Professor",
+      "section": "Research staff",
+      "evidence": "Professor；Human-Centred Computing"
+    },
+    {
+      "unitId": "copenhagen-diku",
+      "officialId": "110537",
+      "name": "Kenny Erleben",
+      "profileUrl": "https://di.ku.dk/english/staff/vip/?pure=en/persons/110537",
+      "title": "Professor",
+      "section": "Research staff",
+      "evidence": "Professor；Image Analysis, Computational Modelling and Geometry"
+    },
+    {
+      "unitId": "copenhagen-diku",
+      "officialId": "83684",
+      "name": "Kim Steenstrup Pedersen",
+      "profileUrl": "https://di.ku.dk/english/staff/vip/?pure=en/persons/83684",
+      "title": "Professor",
+      "section": "Research staff",
+      "evidence": "Professor；Image Analysis, Computational Modelling and Geometry"
+    },
+    {
+      "unitId": "copenhagen-diku",
+      "officialId": "137906",
+      "name": "Mads Nielsen",
+      "profileUrl": "https://di.ku.dk/english/staff/vip/?pure=en/persons/137906",
+      "title": "Professor",
+      "section": "Research staff",
+      "evidence": "Professor；Pioneer AI (P1AI)"
+    },
+    {
+      "unitId": "copenhagen-diku",
+      "officialId": "641366",
+      "name": "Maria Maistro",
+      "profileUrl": "https://di.ku.dk/english/staff/vip/?pure=en/persons/641366",
+      "title": "Associate Professor",
+      "section": "Research staff",
+      "evidence": "Associate Professor；Machine Learning"
+    },
+    {
+      "unitId": "copenhagen-diku",
+      "officialId": "318626",
+      "name": "Marleen de Bruijne",
+      "profileUrl": "https://di.ku.dk/english/staff/vip/?pure=en/persons/318626",
+      "title": "Professor",
+      "section": "Research staff",
+      "evidence": "Professor；Image Analysis, Computational Modelling and Geometry"
+    },
+    {
+      "unitId": "copenhagen-diku",
+      "officialId": "24414",
+      "name": "Martin Lillholm",
+      "profileUrl": "https://di.ku.dk/english/staff/vip/?pure=en/persons/24414",
+      "title": "Professor",
+      "section": "Research staff",
+      "evidence": "Professor；Image Analysis, Computational Modelling and Geometry"
+    },
+    {
+      "unitId": "copenhagen-diku",
+      "officialId": "397206",
+      "name": "Martin Nørgaard",
+      "profileUrl": "https://di.ku.dk/english/staff/vip/?pure=en/persons/397206",
+      "title": "Assistant Professor",
+      "section": "Research staff",
+      "evidence": "Assistant Professor；Image Analysis, Computational Modelling and Geometry"
+    },
+    {
+      "unitId": "copenhagen-diku",
+      "officialId": "341919",
+      "name": "Melanie Ganz-Benjaminsen",
+      "profileUrl": "https://di.ku.dk/english/staff/vip/?pure=en/persons/341919",
+      "title": "Associate Professor - Promotion Programme",
+      "section": "Research staff",
+      "evidence": "Associate Professor - Promotion Programme；Image Analysis, Computational Modelling and Geometry"
+    },
+    {
+      "unitId": "copenhagen-diku",
+      "officialId": "354625",
+      "name": "Michael Kastoryano",
+      "profileUrl": "https://di.ku.dk/english/staff/vip/?pure=en/persons/354625",
+      "title": "Associate Professor",
+      "section": "Research staff",
+      "evidence": "Associate Professor；Machine Learning"
+    },
+    {
+      "unitId": "copenhagen-diku",
+      "officialId": "21225",
+      "name": "Morten Misfeldt",
+      "profileUrl": "https://di.ku.dk/english/staff/vip/?pure=en/persons/21225",
+      "title": "Professor",
+      "section": "Research staff",
+      "evidence": "Professor；Human-Centred Computing"
+    },
+    {
+      "unitId": "copenhagen-diku",
+      "officialId": "595060",
+      "name": "Mostafa Mehdipour Ghazi",
+      "profileUrl": "https://di.ku.dk/english/staff/vip/?pure=en/persons/595060",
+      "title": "Assistant Professor",
+      "section": "Research staff",
+      "evidence": "Assistant Professor；Pioneer AI (P1AI)"
+    },
+    {
+      "unitId": "copenhagen-diku",
+      "officialId": "340853",
+      "name": "Naja Holten Møller",
+      "profileUrl": "https://di.ku.dk/english/staff/vip/?pure=en/persons/340853",
+      "title": "Associate Professor - Promotion Programme",
+      "section": "Research staff",
+      "evidence": "Associate Professor - Promotion Programme；Human-Centred Computing"
+    },
+    {
+      "unitId": "copenhagen-diku",
+      "officialId": "819815",
+      "name": "Nirupam Gupta",
+      "profileUrl": "https://di.ku.dk/english/staff/vip/?pure=en/persons/819815",
+      "title": "Assistant Professor - Tenure Track",
+      "section": "Research staff",
+      "evidence": "Assistant Professor - Tenure Track；Machine Learning"
+    },
+    {
+      "unitId": "copenhagen-diku",
+      "officialId": "440348",
+      "name": "Oswin Krause",
+      "profileUrl": "https://di.ku.dk/english/staff/vip/?pure=en/persons/440348",
+      "title": "Associate Professor",
+      "section": "Research staff",
+      "evidence": "Associate Professor；Machine Learning"
+    },
+    {
+      "unitId": "copenhagen-diku",
+      "officialId": "644356",
+      "name": "Pepa Kostadinova Atanasova",
+      "profileUrl": "https://di.ku.dk/english/staff/vip/?pure=en/persons/644356",
+      "title": "Assistant Professor - Tenure Track",
+      "section": "Research staff",
+      "evidence": "Assistant Professor - Tenure Track；The Artificial Intelligence Section"
+    },
+    {
+      "unitId": "copenhagen-diku",
+      "officialId": "417695",
+      "name": "Pernille Bjørn",
+      "profileUrl": "https://di.ku.dk/english/staff/vip/?pure=en/persons/417695",
+      "title": "Professor",
+      "section": "Research staff",
+      "evidence": "Professor；Human-Centred Computing"
+    },
+    {
+      "unitId": "copenhagen-diku",
+      "officialId": "532407",
+      "name": "Raghavendra Selvan",
+      "profileUrl": "https://di.ku.dk/english/staff/vip/?pure=en/persons/532407",
+      "title": "Assistant Professor - Tenure Track",
+      "section": "Research staff",
+      "evidence": "Assistant Professor - Tenure Track；Machine Learning"
+    },
+    {
+      "unitId": "copenhagen-diku",
+      "officialId": "722791",
+      "name": "Robert Jenssen",
+      "profileUrl": "https://di.ku.dk/english/staff/vip/?pure=en/persons/722791",
+      "title": "Professor",
+      "section": "Research staff",
+      "evidence": "Professor；Pioneer AI (P1AI)"
+    },
+    {
+      "unitId": "copenhagen-diku",
+      "officialId": "673024",
+      "name": "Sadegh Talebi",
+      "profileUrl": "https://di.ku.dk/english/staff/vip/?pure=en/persons/673024",
+      "title": "Associate Professor",
+      "section": "Research staff",
+      "evidence": "Associate Professor；Machine Learning"
+    },
+    {
+      "unitId": "copenhagen-diku",
+      "officialId": "710616",
+      "name": "Sarah Frances Homewood",
+      "profileUrl": "https://di.ku.dk/english/staff/vip/?pure=en/persons/710616",
+      "title": "Assistant Professor - Tenure Track",
+      "section": "Research staff",
+      "evidence": "Assistant Professor - Tenure Track；Human-Centred Computing"
+    },
+    {
+      "unitId": "copenhagen-diku",
+      "officialId": "575485",
+      "name": "Serge Belongie",
+      "profileUrl": "https://di.ku.dk/english/staff/vip/?pure=en/persons/575485",
+      "title": "Professor",
+      "section": "Research staff",
+      "evidence": "Professor；Pioneer AI (P1AI)"
+    },
+    {
+      "unitId": "copenhagen-diku",
+      "officialId": "641966",
+      "name": "Stefan Oehmcke",
+      "profileUrl": "https://di.ku.dk/english/staff/vip/?pure=en/persons/641966",
+      "title": "Assistant Professor",
+      "section": "Research staff",
+      "evidence": "Assistant Professor；Machine Learning"
+    },
+    {
+      "unitId": "copenhagen-diku",
+      "officialId": "254908",
+      "name": "Stefan Sommer",
+      "profileUrl": "https://di.ku.dk/english/staff/vip/?pure=en/persons/254908",
+      "title": "Professor",
+      "section": "Research staff",
+      "evidence": "Professor；Pioneer AI (P1AI)"
+    },
+    {
+      "unitId": "copenhagen-diku",
+      "officialId": "383640",
+      "name": "Sune Darkner",
+      "profileUrl": "https://di.ku.dk/english/staff/vip/?pure=en/persons/383640",
+      "title": "Professor",
+      "section": "Research staff",
+      "evidence": "Professor；Image Analysis, Computational Modelling and Geometry"
+    },
+    {
+      "unitId": "copenhagen-diku",
+      "officialId": "642441",
+      "name": "Svetlana Kutuzova",
+      "profileUrl": "https://di.ku.dk/english/staff/vip/?pure=en/persons/642441",
+      "title": "Assistant Professor",
+      "section": "Research staff",
+      "evidence": "Assistant Professor；Pioneer AI (P1AI)"
+    },
+    {
+      "unitId": "copenhagen-diku",
+      "officialId": "745346",
+      "name": "Teresa Hirzle",
+      "profileUrl": "https://di.ku.dk/english/staff/vip/?pure=en/persons/745346",
+      "title": "Assistant Professor - Tenure Track",
+      "section": "Research staff",
+      "evidence": "Assistant Professor - Tenure Track；Human-Centred Computing"
+    },
+    {
+      "unitId": "copenhagen-diku",
+      "officialId": "679001",
+      "name": "Tuukka Ruotsalo",
+      "profileUrl": "https://di.ku.dk/english/staff/vip/?pure=en/persons/679001",
+      "title": "Associate Professor",
+      "section": "Research staff",
+      "evidence": "Associate Professor；Machine Learning"
+    },
+    {
+      "unitId": "copenhagen-diku",
+      "officialId": "729674",
+      "name": "Valkyrie Savage",
+      "profileUrl": "https://di.ku.dk/english/staff/vip/?pure=en/persons/729674",
+      "title": "Assistant Professor - Tenure Track",
+      "section": "Research staff",
+      "evidence": "Assistant Professor - Tenure Track；Human-Centred Computing"
+    },
+    {
+      "unitId": "copenhagen-diku",
+      "officialId": "922895",
+      "name": "Vikrant Singhal",
+      "profileUrl": "https://di.ku.dk/english/staff/vip/?pure=en/persons/922895",
+      "title": "Assistant Professor",
+      "section": "Research staff",
+      "evidence": "Assistant Professor；Machine Learning"
+    },
+    {
+      "unitId": "copenhagen-diku",
+      "officialId": "275482",
+      "name": "Wouter Boomsma",
+      "profileUrl": "https://di.ku.dk/english/staff/vip/?pure=en/persons/275482",
+      "title": "Professor",
+      "section": "Research staff",
+      "evidence": "Professor；Machine Learning"
+    },
+    {
+      "unitId": "copenhagen-diku",
+      "officialId": "500475",
+      "name": "Yevgeny Seldin",
+      "profileUrl": "https://di.ku.dk/english/staff/vip/?pure=en/persons/500475",
+      "title": "Professor",
+      "section": "Research staff",
+      "evidence": "Professor；Machine Learning"
+    }
+  ]
+}

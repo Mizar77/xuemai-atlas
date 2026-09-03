@@ -1,0 +1,37 @@
+{
+  "reviewedAt": "2026-09-02",
+  "units": 2,
+  "officialPeople": 292,
+  "checkedPeople": 292,
+  "unitSummaries": [
+    {
+      "unitId": "pku-cs",
+      "sourcePageUrl": "https://cs.pku.edu.cn/szdw/jyxl/amz/ALL.htm",
+      "officialPeople": 195,
+      "checkedPeople": 195,
+      "decisionCounts": {
+        "excluded_historical": 57,
+        "excluded_non_ai_cs": 56,
+        "excluded_non_pi": 6,
+        "include_new_pi": 61,
+        "included_existing": 11,
+        "pending_profile_verification": 4
+      }
+    },
+    {
+      "unitId": "hkust-cse",
+      "sourcePageUrl": "https://cse.hkust.edu.hk/admin/people/faculty",
+      "officialPeople": 97,
+      "checkedPeople": 97,
+      "decisionCounts": {
+        "excluded_historical": 14,
+        "excluded_non_ai_cs": 24,
+        "excluded_non_pi": 13,
+        "include_new_pi": 25,
+        "included_existing": 10,
+        "pending_profile_verification": 11
+      }
+    }
+  ],
+  "note": "Every frozen officialId in PKU CS and HKUST CSE has exactly one deterministic person-level decision. Joint appointments without a primary title remain pending rather than being inferred as independent CSE PIs."
+}

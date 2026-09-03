@@ -1,0 +1,1994 @@
+{
+  "schemaVersion": 1,
+  "unitId": "wisc-cs",
+  "unitLabel": "University of Wisconsin–Madison Computer Sciences",
+  "unitUrl": "https://www.cs.wisc.edu/people/faculty-2/",
+  "snapshotAt": "2026-09-03",
+  "rosterArtifact": "data/official-rosters/wisc-cs-faculty-2026-09-02.json",
+  "frozenOfficialRosterCount": 128,
+  "rawRosterRowCount": 128,
+  "duplicateRosterCardCount": 0,
+  "deduplicatedRosterPersonCount": 128,
+  "decisionCount": 128,
+  "counts": {
+    "excluded_historical": 20,
+    "excluded_non_pi": 54,
+    "include_new_pi": 54
+  },
+  "decisions": [
+    {
+      "officialId": "12889",
+      "rosterName": "Adithya Murali",
+      "title": "Assistant Professor",
+      "profileUrl": "https://www.cs.wisc.edu/staff/murali-adithya/",
+      "portraitUrl": "https://www.cs.wisc.edu/wp-content/uploads/sites/166/2025/01/Adithya-Murali-150-x-190.png",
+      "officialSections": [
+        "Core Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cs.wisc.edu/people/faculty-2/",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Assistant Professor | Core Faculty | https://www.cs.wisc.edu/staff/murali-adithya/",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "12891",
+      "rosterName": "Akarsh Prabhakara",
+      "title": "Assistant Professor",
+      "profileUrl": "https://www.cs.wisc.edu/staff/prabhakara-akarsh/",
+      "portraitUrl": "https://www.cs.wisc.edu/wp-content/uploads/sites/166/2025/01/Akarsh_Prabhakara-150-x-190.png",
+      "officialSections": [
+        "Core Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cs.wisc.edu/people/faculty-2/",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Assistant Professor | Core Faculty | https://www.cs.wisc.edu/staff/prabhakara-akarsh/",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "964",
+      "rosterName": "Alberto Del Pia",
+      "title": "Associate Professor, College of Engineering",
+      "profileUrl": "https://www.cs.wisc.edu/staff/del-pia-alberto/",
+      "portraitUrl": "https://www.cs.wisc.edu/wp-content/uploads/sites/166/2020/06/Alberto-Del-Pia.jpg",
+      "officialSections": [
+        "Affiliate Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cs.wisc.edu/people/faculty-2/",
+      "decision": "excluded_non_pi",
+      "reason": "官方职称或名录分组属于教学、兼职、附属、科研支持或其他非独立 PI 岗位。",
+      "evidence": "Associate Professor, College of Engineering | Affiliate Faculty | https://www.cs.wisc.edu/staff/del-pia-alberto/"
+    },
+    {
+      "officialId": "11759",
+      "rosterName": "Ali Abedi",
+      "title": "Assistant Professor",
+      "profileUrl": "https://www.cs.wisc.edu/staff/abedi-ali/",
+      "portraitUrl": "https://www.cs.wisc.edu/wp-content/uploads/sites/166/2024/08/Ali-Abedi-2024-150-x-190.png",
+      "officialSections": [
+        "Core Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cs.wisc.edu/people/faculty-2/",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Assistant Professor | Core Faculty | https://www.cs.wisc.edu/staff/abedi-ali/",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "5151",
+      "rosterName": "Amber Field",
+      "title": "Instructional Administrator",
+      "profileUrl": "https://www.cs.wisc.edu/staff/field-amber/",
+      "portraitUrl": "https://www.cs.wisc.edu/wp-content/uploads/sites/166/2020/08/Amber-Field-150-x-190.jpg",
+      "officialSections": [
+        "Instructors"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cs.wisc.edu/people/faculty-2/",
+      "decision": "excluded_non_pi",
+      "reason": "官方职称或名录分组属于教学、兼职、附属、科研支持或其他非独立 PI 岗位。",
+      "evidence": "Instructional Administrator | Instructors | https://www.cs.wisc.edu/staff/field-amber/"
+    },
+    {
+      "officialId": "756",
+      "rosterName": "Amos Ron",
+      "title": "Emeritus Professor",
+      "profileUrl": "https://www.cs.wisc.edu/staff/ron-amos/",
+      "portraitUrl": "https://www.cs.wisc.edu/wp-content/uploads/sites/166/2020/06/Amos-Ron.jpg",
+      "officialSections": [
+        "Emeritus Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cs.wisc.edu/people/faculty-2/",
+      "decision": "excluded_historical",
+      "reason": "官方职称或名录分组明确为荣休、退休或历史人员。",
+      "evidence": "Emeritus Professor | Emeritus Faculty | https://www.cs.wisc.edu/staff/ron-amos/"
+    },
+    {
+      "officialId": "526",
+      "rosterName": "Andrea Arpaci-Dusseau",
+      "title": "Catherine A. Erickson Professor; Susan B. Horwitz Professor",
+      "profileUrl": "https://www.cs.wisc.edu/staff/arpaci-duseau-andrea/",
+      "portraitUrl": "https://www.cs.wisc.edu/wp-content/uploads/sites/166/2018/10/AndreaArpaciDusseau_1_3.17.17-151-x-191.jpg",
+      "officialSections": [
+        "Core Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cs.wisc.edu/people/faculty-2/",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Catherine A. Erickson Professor; Susan B. Horwitz Professor | Core Faculty | https://www.cs.wisc.edu/staff/arpaci-duseau-andrea/",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "1021",
+      "rosterName": "Andrew Kuemmel",
+      "title": "Teaching Professor",
+      "profileUrl": "https://www.cs.wisc.edu/staff/kuemmel-andrew/",
+      "portraitUrl": "https://www.cs.wisc.edu/wp-content/uploads/sites/166/2018/11/Andy-Kuemmel-2024-150-x-190.png",
+      "officialSections": [
+        "Teaching Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cs.wisc.edu/people/faculty-2/",
+      "decision": "excluded_non_pi",
+      "reason": "官方职称或名录分组属于教学、兼职、附属、科研支持或其他非独立 PI 岗位。",
+      "evidence": "Teaching Professor | Teaching Faculty | https://www.cs.wisc.edu/staff/kuemmel-andrew/"
+    },
+    {
+      "officialId": "741",
+      "rosterName": "AnHai Doan",
+      "title": "Vilas Distinguished Achievement Professor; Gurindar S. Sohi Professor",
+      "profileUrl": "https://www.cs.wisc.edu/staff/doan-anhai/",
+      "portraitUrl": "https://www.cs.wisc.edu/wp-content/uploads/sites/166/2020/06/Anhai-Doan.jpg",
+      "officialSections": [
+        "Core Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cs.wisc.edu/people/faculty-2/",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Vilas Distinguished Achievement Professor; Gurindar S. Sohi Professor | Core Faculty | https://www.cs.wisc.edu/staff/doan-anhai/",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "968",
+      "rosterName": "Anthony Gitter",
+      "title": "Associate Professor, Biostatistics & Medical Informatics",
+      "profileUrl": "https://www.cs.wisc.edu/staff/gitter-anthony/",
+      "portraitUrl": "https://www.cs.wisc.edu/wp-content/uploads/sites/166/2020/06/Anthony-Gitter.jpg",
+      "officialSections": [
+        "Affiliate Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cs.wisc.edu/people/faculty-2/",
+      "decision": "excluded_non_pi",
+      "reason": "官方职称或名录分组属于教学、兼职、附属、科研支持或其他非独立 PI 岗位。",
+      "evidence": "Associate Professor, Biostatistics & Medical Informatics | Affiliate Faculty | https://www.cs.wisc.edu/staff/gitter-anthony/"
+    },
+    {
+      "officialId": "523",
+      "rosterName": "Aws Albarghouthi",
+      "title": "Associate Professor",
+      "profileUrl": "https://www.cs.wisc.edu/staff/albarghouthi-aws/",
+      "portraitUrl": "https://www.cs.wisc.edu/wp-content/uploads/sites/166/2020/06/Aws-Albarghouthi.jpg",
+      "officialSections": [
+        "Core Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cs.wisc.edu/people/faculty-2/",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Associate Professor | Core Faculty | https://www.cs.wisc.edu/staff/albarghouthi-aws/",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "751",
+      "rosterName": "Barton Miller",
+      "title": "Vilas Distinguished Achievement Professor; Amar & Balinder Sohi Professor",
+      "profileUrl": "https://www.cs.wisc.edu/staff/miller-barton/",
+      "portraitUrl": "https://www.cs.wisc.edu/wp-content/uploads/sites/166/2020/06/Barton-Miller.jpg",
+      "officialSections": [
+        "Core Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cs.wisc.edu/people/faculty-2/",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Vilas Distinguished Achievement Professor; Amar & Balinder Sohi Professor | Core Faculty | https://www.cs.wisc.edu/staff/miller-barton/",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "1018",
+      "rosterName": "Beck Hasti",
+      "title": "Teaching Professor",
+      "profileUrl": "https://www.cs.wisc.edu/staff/hasti-beck/",
+      "portraitUrl": "https://www.cs.wisc.edu/wp-content/uploads/sites/166/2018/11/hasti23_150width-150-x-190.jpg",
+      "officialSections": [
+        "Teaching Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cs.wisc.edu/people/faculty-2/",
+      "decision": "excluded_non_pi",
+      "reason": "官方职称或名录分组属于教学、兼职、附属、科研支持或其他非独立 PI 岗位。",
+      "evidence": "Teaching Professor | Teaching Faculty | https://www.cs.wisc.edu/staff/hasti-beck/"
+    },
+    {
+      "officialId": "12375",
+      "rosterName": "Benjamin Lengerich",
+      "title": "Assistant Professor, Department of Statistics",
+      "profileUrl": "https://www.cs.wisc.edu/staff/lengerich-benjamin/",
+      "portraitUrl": "https://www.cs.wisc.edu/wp-content/uploads/sites/166/2024/11/Ben-Lengerich-150-x-190.png",
+      "officialSections": [
+        "Affiliate Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cs.wisc.edu/people/faculty-2/",
+      "decision": "excluded_non_pi",
+      "reason": "官方职称或名录分组属于教学、兼职、附属、科研支持或其他非独立 PI 岗位。",
+      "evidence": "Assistant Professor, Department of Statistics | Affiliate Faculty | https://www.cs.wisc.edu/staff/lengerich-benjamin/"
+    },
+    {
+      "officialId": "9104",
+      "rosterName": "Bhuvana Krishnaswamy",
+      "title": "Assistant Professor, Electrical & Computer Engineering",
+      "profileUrl": "https://www.cs.wisc.edu/staff/krishnaswamy-bhuvana/",
+      "portraitUrl": "https://www.cs.wisc.edu/wp-content/uploads/sites/166/2022/12/krishnaswamy_bhuvana-150-x-190.jpg",
+      "officialSections": [
+        "Affiliate Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cs.wisc.edu/people/faculty-2/",
+      "decision": "excluded_non_pi",
+      "reason": "官方职称或名录分组属于教学、兼职、附属、科研支持或其他非独立 PI 岗位。",
+      "evidence": "Assistant Professor, Electrical & Computer Engineering | Affiliate Faculty | https://www.cs.wisc.edu/staff/krishnaswamy-bhuvana/"
+    },
+    {
+      "officialId": "752",
+      "rosterName": "Bilge Mutlu",
+      "title": "Stephen Wright Professor",
+      "profileUrl": "https://www.cs.wisc.edu/staff/mutlu-bilge/",
+      "portraitUrl": "https://www.cs.wisc.edu/wp-content/uploads/sites/166/2018/10/Mutlu_Bilge_hs21_1827-150-x-190.jpg",
+      "officialSections": [
+        "Core Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cs.wisc.edu/people/faculty-2/",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Stephen Wright Professor | Core Faculty | https://www.cs.wisc.edu/staff/mutlu-bilge/",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "11565",
+      "rosterName": "Blerina Gkotse",
+      "title": "Teaching Faculty",
+      "profileUrl": "https://www.cs.wisc.edu/staff/blerina-gkotse/",
+      "portraitUrl": "https://www.cs.wisc.edu/wp-content/uploads/sites/166/2024/07/Blerina-Gkotse-150-x-190.png",
+      "officialSections": [
+        "Teaching Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cs.wisc.edu/people/faculty-2/",
+      "decision": "excluded_non_pi",
+      "reason": "官方职称或名录分组属于教学、兼职、附属、科研支持或其他非独立 PI 岗位。",
+      "evidence": "Teaching Faculty | Teaching Faculty | https://www.cs.wisc.edu/staff/blerina-gkotse/"
+    },
+    {
+      "officialId": "1031",
+      "rosterName": "Carl de Boor",
+      "title": "Emeritus",
+      "profileUrl": "https://www.cs.wisc.edu/staff/de-boor-carl/",
+      "portraitUrl": "https://www.cs.wisc.edu/wp-content/uploads/sites/166/2018/11/deBoor_h-150-x-190.jpg",
+      "officialSections": [
+        "Emeritus Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cs.wisc.edu/people/faculty-2/",
+      "decision": "excluded_historical",
+      "reason": "官方职称或名录分组明确为荣休、退休或历史人员。",
+      "evidence": "Emeritus | Emeritus Faculty | https://www.cs.wisc.edu/staff/de-boor-carl/"
+    },
+    {
+      "officialId": "1034",
+      "rosterName": "Charles Dyer",
+      "title": "Emeritus",
+      "profileUrl": "https://www.cs.wisc.edu/staff/dyer-charles/",
+      "portraitUrl": "https://www.cs.wisc.edu/wp-content/uploads/sites/166/2020/06/Charles-Dyer.jpg",
+      "officialSections": [
+        "Emeritus Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cs.wisc.edu/people/faculty-2/",
+      "decision": "excluded_historical",
+      "reason": "官方职称或名录分组明确为荣休、退休或历史人员。",
+      "evidence": "Emeritus | Emeritus Faculty | https://www.cs.wisc.edu/staff/dyer-charles/"
+    },
+    {
+      "officialId": "1035",
+      "rosterName": "Charles Fischer",
+      "title": "Emeritus",
+      "profileUrl": "https://www.cs.wisc.edu/staff/fischer-charles/",
+      "portraitUrl": "https://www.cs.wisc.edu/wp-content/uploads/sites/166/2020/07/Charles-Fischer.jpg",
+      "officialSections": [
+        "Emeritus Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cs.wisc.edu/people/faculty-2/",
+      "decision": "excluded_historical",
+      "reason": "官方职称或名录分组明确为荣休、退休或历史人员。",
+      "evidence": "Emeritus | Emeritus Faculty | https://www.cs.wisc.edu/staff/fischer-charles/"
+    },
+    {
+      "officialId": "13972",
+      "rosterName": "Charles Yuan",
+      "title": "Assistant Professor",
+      "profileUrl": "https://www.cs.wisc.edu/staff/yuan-charles/",
+      "portraitUrl": "https://www.cs.wisc.edu/wp-content/uploads/sites/166/2025/08/Charles-Yuan-150-x-190.png",
+      "officialSections": [
+        "Core Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cs.wisc.edu/people/faculty-2/",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Assistant Professor | Core Faculty | https://www.cs.wisc.edu/staff/yuan-charles/",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "11575",
+      "rosterName": "Cole Nelson",
+      "title": "Teaching Faculty",
+      "profileUrl": "https://www.cs.wisc.edu/staff/nelson-cole/",
+      "portraitUrl": "https://www.cs.wisc.edu/wp-content/uploads/sites/166/2024/07/Cole-Nelson-2024-150-x-190.png",
+      "officialSections": [
+        "Teaching Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cs.wisc.edu/people/faculty-2/",
+      "decision": "excluded_non_pi",
+      "reason": "官方职称或名录分组属于教学、兼职、附属、科研支持或其他非独立 PI 岗位。",
+      "evidence": "Teaching Faculty | Teaching Faculty | https://www.cs.wisc.edu/staff/nelson-cole/"
+    },
+    {
+      "officialId": "965",
+      "rosterName": "Colin Dewey",
+      "title": "Professor, Biostatistics & Medical Informatics",
+      "profileUrl": "https://www.cs.wisc.edu/staff/dewey-colin/",
+      "portraitUrl": "https://www.cs.wisc.edu/wp-content/uploads/sites/166/2020/06/Colin-Dewey.jpg",
+      "officialSections": [
+        "Affiliate Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cs.wisc.edu/people/faculty-2/",
+      "decision": "excluded_non_pi",
+      "reason": "官方职称或名录分组属于教学、兼职、附属、科研支持或其他非独立 PI 岗位。",
+      "evidence": "Professor, Biostatistics & Medical Informatics | Affiliate Faculty | https://www.cs.wisc.edu/staff/dewey-colin/"
+    },
+    {
+      "officialId": "5138",
+      "rosterName": "Daifeng Wang",
+      "title": "Associate Professor, Biostatistics & Medical Informatics",
+      "profileUrl": "https://www.cs.wisc.edu/staff/wang-daifeng/",
+      "portraitUrl": "https://www.cs.wisc.edu/wp-content/uploads/sites/166/2020/08/Wang-Daifeng-2019-150-x-189.jpg",
+      "officialSections": [
+        "Affiliate Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cs.wisc.edu/people/faculty-2/",
+      "decision": "excluded_non_pi",
+      "reason": "官方职称或名录分组属于教学、兼职、附属、科研支持或其他非独立 PI 岗位。",
+      "evidence": "Associate Professor, Biostatistics & Medical Informatics | Affiliate Faculty | https://www.cs.wisc.edu/staff/wang-daifeng/"
+    },
+    {
+      "officialId": "975",
+      "rosterName": "Dan Negrut",
+      "title": "Professor, Mechanical Engineering",
+      "profileUrl": "https://www.cs.wisc.edu/staff/negrut-dan/",
+      "portraitUrl": "https://www.cs.wisc.edu/wp-content/uploads/sites/166/2020/06/Dan-Negrut-1.jpg",
+      "officialSections": [
+        "Affiliate Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cs.wisc.edu/people/faculty-2/",
+      "decision": "excluded_non_pi",
+      "reason": "官方职称或名录分组属于教学、兼职、附属、科研支持或其他非独立 PI 岗位。",
+      "evidence": "Professor, Mechanical Engineering | Affiliate Faculty | https://www.cs.wisc.edu/staff/negrut-dan/"
+    },
+    {
+      "officialId": "1033",
+      "rosterName": "David DeWitt",
+      "title": "Emeritus",
+      "profileUrl": "https://www.cs.wisc.edu/staff/dewitt-david/",
+      "portraitUrl": "https://www.cs.wisc.edu/wp-content/uploads/sites/166/2018/11/David-DeWitt-150-x-190.jpg",
+      "officialSections": [
+        "Emeritus Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cs.wisc.edu/people/faculty-2/",
+      "decision": "excluded_historical",
+      "reason": "官方职称或名录分组明确为荣休、退休或历史人员。",
+      "evidence": "Emeritus | Emeritus Faculty | https://www.cs.wisc.edu/staff/dewitt-david/"
+    },
+    {
+      "officialId": "1048",
+      "rosterName": "David Wood",
+      "title": "Emeritus",
+      "profileUrl": "https://www.cs.wisc.edu/staff/wood-david/",
+      "portraitUrl": "https://www.cs.wisc.edu/wp-content/uploads/sites/166/2018/11/Wood-2020-151-x-191-e1593117779242.jpg",
+      "officialSections": [
+        "Emeritus Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cs.wisc.edu/people/faculty-2/",
+      "decision": "excluded_historical",
+      "reason": "官方职称或名录分组明确为荣休、退休或历史人员。",
+      "evidence": "Emeritus | Emeritus Faculty | https://www.cs.wisc.edu/staff/wood-david/"
+    },
+    {
+      "officialId": "1037",
+      "rosterName": "Deborah Joseph",
+      "title": null,
+      "profileUrl": "https://www.cs.wisc.edu/staff/joseph-deborah/",
+      "portraitUrl": "https://www.cs.wisc.edu/wp-content/uploads/sites/166/2020/07/Deborah-Joseph.jpg",
+      "officialSections": [
+        "Emeritus Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cs.wisc.edu/people/faculty-2/",
+      "decision": "excluded_historical",
+      "reason": "官方职称或名录分组明确为荣休、退休或历史人员。",
+      "evidence": "Emeritus Faculty | https://www.cs.wisc.edu/staff/joseph-deborah/"
+    },
+    {
+      "officialId": "763",
+      "rosterName": "Dieter van Melkebeek",
+      "title": "Professor",
+      "profileUrl": "https://www.cs.wisc.edu/staff/van-melkebeek-dieter/",
+      "portraitUrl": "https://www.cs.wisc.edu/wp-content/uploads/sites/166/2020/06/Dieter-van-Melkebeek.jpg",
+      "officialSections": [
+        "Core Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cs.wisc.edu/people/faculty-2/",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Professor | Core Faculty | https://www.cs.wisc.edu/staff/van-melkebeek-dieter/",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "979",
+      "rosterName": "Dimitris Papailiopoulos",
+      "title": "Assistant Professor, Electrical & Computer Engineering",
+      "profileUrl": "https://www.cs.wisc.edu/staff/papailiopoulos-dimitris/",
+      "portraitUrl": "https://www.cs.wisc.edu/wp-content/uploads/sites/166/2020/06/Dimitris-Papailiopoulos.jpg",
+      "officialSections": [
+        "Affiliate Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cs.wisc.edu/people/faculty-2/",
+      "decision": "excluded_non_pi",
+      "reason": "官方职称或名录分组属于教学、兼职、附属、科研支持或其他非独立 PI 岗位。",
+      "evidence": "Assistant Professor, Electrical & Computer Engineering | Affiliate Faculty | https://www.cs.wisc.edu/staff/papailiopoulos-dimitris/"
+    },
+    {
+      "officialId": "758",
+      "rosterName": "Eftychios Sifakis",
+      "title": "Professor and Associate Chair for Graduate Studies",
+      "profileUrl": "https://www.cs.wisc.edu/staff/sifakis-eftychios/",
+      "portraitUrl": "https://www.cs.wisc.edu/wp-content/uploads/sites/166/2020/06/Eftychios-Sifakis.jpg",
+      "officialSections": [
+        "Core Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cs.wisc.edu/people/faculty-2/",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Professor and Associate Chair for Graduate Studies | Core Faculty | https://www.cs.wisc.edu/staff/sifakis-eftychios/",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "545",
+      "rosterName": "Eric Bach",
+      "title": "Emeritus Professor",
+      "profileUrl": "https://www.cs.wisc.edu/staff/bach-eric/",
+      "portraitUrl": "https://www.cs.wisc.edu/wp-content/uploads/sites/166/2020/06/Eric-Bach.jpg",
+      "officialSections": [
+        "Emeritus Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cs.wisc.edu/people/faculty-2/",
+      "decision": "excluded_historical",
+      "reason": "官方职称或名录分组明确为荣休、退休或历史人员。",
+      "evidence": "Emeritus Professor | Emeritus Faculty | https://www.cs.wisc.edu/staff/bach-eric/"
+    },
+    {
+      "officialId": "9922",
+      "rosterName": "Ethan Cecchetti",
+      "title": "Assistant Professor",
+      "profileUrl": "https://www.cs.wisc.edu/staff/cecchetti-ethan/",
+      "portraitUrl": "https://www.cs.wisc.edu/wp-content/uploads/sites/166/2023/09/Ethan-2023-150x190-1.png",
+      "officialSections": [
+        "Core Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cs.wisc.edu/people/faculty-2/",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Assistant Professor | Core Faculty | https://www.cs.wisc.edu/staff/cecchetti-ethan/",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "1574",
+      "rosterName": "Florian Heimerl",
+      "title": "Teaching Faculty",
+      "profileUrl": "https://www.cs.wisc.edu/staff/heimerl-florian/",
+      "portraitUrl": "https://www.cs.wisc.edu/wp-content/uploads/sites/166/2018/11/Florian-Heimerl-150-x-190.jpg",
+      "officialSections": [
+        "Teaching Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cs.wisc.edu/people/faculty-2/",
+      "decision": "excluded_non_pi",
+      "reason": "官方职称或名录分组属于教学、兼职、附属、科研支持或其他非独立 PI 岗位。",
+      "evidence": "Teaching Faculty | Teaching Faculty | https://www.cs.wisc.edu/staff/heimerl-florian/"
+    },
+    {
+      "officialId": "4832",
+      "rosterName": "Frederic Sala",
+      "title": "Assistant Professor",
+      "profileUrl": "https://www.cs.wisc.edu/staff/sala-frederic/",
+      "portraitUrl": "https://www.cs.wisc.edu/wp-content/uploads/sites/166/2020/06/Fred-Sala-150-x-190.jpg",
+      "officialSections": [
+        "Core Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cs.wisc.edu/people/faculty-2/",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Assistant Professor | Core Faculty | https://www.cs.wisc.edu/staff/sala-frederic/",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "1264",
+      "rosterName": "Gary Dahl",
+      "title": "Teaching Professor",
+      "profileUrl": "https://www.cs.wisc.edu/staff/dahl-gary-2/",
+      "portraitUrl": "https://www.cs.wisc.edu/wp-content/uploads/sites/166/2018/11/Gary-Dahl-150-x-190-1.png",
+      "officialSections": [
+        "Teaching Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cs.wisc.edu/people/faculty-2/",
+      "decision": "excluded_non_pi",
+      "reason": "官方职称或名录分组属于教学、兼职、附属、科研支持或其他非独立 PI 岗位。",
+      "evidence": "Teaching Professor | Teaching Faculty | https://www.cs.wisc.edu/staff/dahl-gary-2/"
+    },
+    {
+      "officialId": "13969",
+      "rosterName": "Gavin Brown",
+      "title": "Assistant Professor",
+      "profileUrl": "https://www.cs.wisc.edu/staff/brown-gavin/",
+      "portraitUrl": "https://www.cs.wisc.edu/wp-content/uploads/sites/166/2025/08/Gavin-Brown-150-x-190.png",
+      "officialSections": [
+        "Core Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cs.wisc.edu/people/faculty-2/",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Assistant Professor | Core Faculty | https://www.cs.wisc.edu/staff/brown-gavin/",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "992",
+      "rosterName": "Grace Wahba",
+      "title": "Professor Emeritus, Department of Statistics, Computer Sciences Affiliate Faculty",
+      "profileUrl": "https://www.cs.wisc.edu/staff/wahba-grace/",
+      "portraitUrl": "https://www.cs.wisc.edu/wp-content/uploads/sites/166/2020/06/Grace-Wahba.jpg",
+      "officialSections": [
+        "Emeritus Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cs.wisc.edu/people/faculty-2/",
+      "decision": "excluded_historical",
+      "reason": "官方职称或名录分组明确为荣休、退休或历史人员。",
+      "evidence": "Professor Emeritus, Department of Statistics, Computer Sciences Affiliate Faculty | Emeritus Faculty | https://www.cs.wisc.edu/staff/wahba-grace/"
+    },
+    {
+      "officialId": "13828",
+      "rosterName": "Grigoris Chrysos",
+      "title": "Assistant Professor, Electrical and Computer Engineering",
+      "profileUrl": "https://www.cs.wisc.edu/staff/chrysos-grigoris/",
+      "portraitUrl": "https://www.cs.wisc.edu/wp-content/uploads/sites/166/2025/07/Chrysos-150-x-190.png",
+      "officialSections": [
+        "Affiliate Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cs.wisc.edu/people/faculty-2/",
+      "decision": "excluded_non_pi",
+      "reason": "官方职称或名录分组属于教学、兼职、附属、科研支持或其他非独立 PI 岗位。",
+      "evidence": "Assistant Professor, Electrical and Computer Engineering | Affiliate Faculty | https://www.cs.wisc.edu/staff/chrysos-grigoris/"
+    },
+    {
+      "officialId": "760",
+      "rosterName": "Gurindar Sohi",
+      "title": "E. David Cronon Professor; Vilas Research Professor",
+      "profileUrl": "https://www.cs.wisc.edu/staff/sohi-gurindar/",
+      "portraitUrl": "https://www.cs.wisc.edu/wp-content/uploads/sites/166/2020/07/Gurindar-Sohi.jpg",
+      "officialSections": [
+        "Core Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cs.wisc.edu/people/faculty-2/",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "E. David Cronon Professor; Vilas Research Professor | Core Faculty | https://www.cs.wisc.edu/staff/sohi-gurindar/",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "8492",
+      "rosterName": "Gurmail Singh",
+      "title": "Teaching Faculty",
+      "profileUrl": "https://www.cs.wisc.edu/staff/singh-gurmail/",
+      "portraitUrl": "https://www.cs.wisc.edu/wp-content/uploads/sites/166/2022/08/Gurmail-Singh-150-x-191.jpg",
+      "officialSections": [
+        "Teaching Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cs.wisc.edu/people/faculty-2/",
+      "decision": "excluded_non_pi",
+      "reason": "官方职称或名录分组属于教学、兼职、附属、科研支持或其他非独立 PI 岗位。",
+      "evidence": "Teaching Faculty | Teaching Faculty | https://www.cs.wisc.edu/staff/singh-gurmail/"
+    },
+    {
+      "officialId": "12863",
+      "rosterName": "Hanbaek Lyu",
+      "title": "Assistant Professor, Department of Mathematics",
+      "profileUrl": "https://www.cs.wisc.edu/staff/hanbaek-lyu/",
+      "portraitUrl": "https://www.cs.wisc.edu/wp-content/uploads/sites/166/2025/01/Hanbaek-Lyu-150-x-190.png",
+      "officialSections": [
+        "Affiliate Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cs.wisc.edu/people/faculty-2/",
+      "decision": "excluded_non_pi",
+      "reason": "官方职称或名录分组属于教学、兼职、附属、科研支持或其他非独立 PI 岗位。",
+      "evidence": "Assistant Professor, Department of Mathematics | Affiliate Faculty | https://www.cs.wisc.edu/staff/hanbaek-lyu/"
+    },
+    {
+      "officialId": "11573",
+      "rosterName": "Hina Mahmood",
+      "title": "Teaching Faculty",
+      "profileUrl": "https://www.cs.wisc.edu/staff/mahmood-hina/",
+      "portraitUrl": "https://www.cs.wisc.edu/wp-content/uploads/sites/166/2024/07/Hina-Mahmood-150-x-190.png",
+      "officialSections": [
+        "Teaching Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cs.wisc.edu/people/faculty-2/",
+      "decision": "excluded_non_pi",
+      "reason": "官方职称或名录分组属于教学、兼职、附属、科研支持或其他非独立 PI 岗位。",
+      "evidence": "Teaching Faculty | Teaching Faculty | https://www.cs.wisc.edu/staff/mahmood-hina/"
+    },
+    {
+      "officialId": "3566",
+      "rosterName": "Ilias Diakonikolas",
+      "title": "Stephen C. Kleene Professor",
+      "profileUrl": "https://www.cs.wisc.edu/staff/diakonikolas-ilias/",
+      "portraitUrl": "https://www.cs.wisc.edu/wp-content/uploads/sites/166/2020/06/Ilias-Diakonikolas.jpg",
+      "officialSections": [
+        "Core Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cs.wisc.edu/people/faculty-2/",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Stephen C. Kleene Professor | Core Faculty | https://www.cs.wisc.edu/staff/diakonikolas-ilias/",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "12270",
+      "rosterName": "Irene Ong",
+      "title": "Associate Professor, Obstetrics & Gynecology, Biostatistics & Medical Informatics",
+      "profileUrl": "https://www.cs.wisc.edu/staff/ong-irene/",
+      "portraitUrl": "https://www.cs.wisc.edu/wp-content/uploads/sites/166/2024/10/Irene-Ong-150-x-190.png",
+      "officialSections": [
+        "Affiliate Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cs.wisc.edu/people/faculty-2/",
+      "decision": "excluded_non_pi",
+      "reason": "官方职称或名录分组属于教学、兼职、附属、科研支持或其他非独立 PI 岗位。",
+      "evidence": "Associate Professor, Obstetrics & Gynecology, Biostatistics & Medical Informatics | Affiliate Faculty | https://www.cs.wisc.edu/staff/ong-irene/"
+    },
+    {
+      "officialId": "7264",
+      "rosterName": "Jacob Thebault-Spieker",
+      "title": "Assistant Professor, The Information School",
+      "profileUrl": "https://www.cs.wisc.edu/staff/thebault-spieker-jacob/",
+      "portraitUrl": "https://www.cs.wisc.edu/wp-content/uploads/sites/166/2021/11/Jacob-Thebault-Spieker-150-x-190.jpg",
+      "officialSections": [
+        "Affiliate Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cs.wisc.edu/people/faculty-2/",
+      "decision": "excluded_non_pi",
+      "reason": "官方职称或名录分组属于教学、兼职、附属、科研支持或其他非独立 PI 岗位。",
+      "evidence": "Assistant Professor, The Information School | Affiliate Faculty | https://www.cs.wisc.edu/staff/thebault-spieker-jacob/"
+    },
+    {
+      "officialId": "1036",
+      "rosterName": "James Goodman",
+      "title": "Emeritus",
+      "profileUrl": "https://www.cs.wisc.edu/staff/goodman-james/",
+      "portraitUrl": "https://www.cs.wisc.edu/wp-content/uploads/sites/166/2018/11/James-Goodman-150-x-190.jpg",
+      "officialSections": [
+        "Emeritus Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cs.wisc.edu/people/faculty-2/",
+      "decision": "excluded_historical",
+      "reason": "官方职称或名录分组明确为荣休、退休或历史人员。",
+      "evidence": "Emeritus | Emeritus Faculty | https://www.cs.wisc.edu/staff/goodman-james/"
+    },
+    {
+      "officialId": "974",
+      "rosterName": "James Luedtke",
+      "title": "Associate Professor, Industrial & Systems Engineering",
+      "profileUrl": "https://www.cs.wisc.edu/staff/luedtke-james/",
+      "portraitUrl": "https://www.cs.wisc.edu/wp-content/uploads/sites/166/2020/06/James-Luedtke-1.jpg",
+      "officialSections": [
+        "Affiliate Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cs.wisc.edu/people/faculty-2/",
+      "decision": "excluded_non_pi",
+      "reason": "官方职称或名录分组属于教学、兼职、附属、科研支持或其他非独立 PI 岗位。",
+      "evidence": "Associate Professor, Industrial & Systems Engineering | Affiliate Faculty | https://www.cs.wisc.edu/staff/luedtke-james/"
+    },
+    {
+      "officialId": "972",
+      "rosterName": "Jeffrey Linderoth",
+      "title": "Professor, Industrial & Systems Engineering",
+      "profileUrl": "https://www.cs.wisc.edu/staff/linderoth-jeffrey/",
+      "portraitUrl": "https://www.cs.wisc.edu/wp-content/uploads/sites/166/2020/06/Jeffrey-Linderoth.jpg",
+      "officialSections": [
+        "Affiliate Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cs.wisc.edu/people/faculty-2/",
+      "decision": "excluded_non_pi",
+      "reason": "官方职称或名录分组属于教学、兼职、附属、科研支持或其他非独立 PI 岗位。",
+      "evidence": "Professor, Industrial & Systems Engineering | Affiliate Faculty | https://www.cs.wisc.edu/staff/linderoth-jeffrey/"
+    },
+    {
+      "officialId": "1041",
+      "rosterName": "Jeffrey Naughton",
+      "title": "Emeritus",
+      "profileUrl": "https://www.cs.wisc.edu/staff/naughton-jeffrey/",
+      "portraitUrl": "https://www.cs.wisc.edu/wp-content/uploads/sites/166/2018/11/Naughton_Dec-13-graduation-e1542053077724.jpg",
+      "officialSections": [
+        "Emeritus Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cs.wisc.edu/people/faculty-2/",
+      "decision": "excluded_historical",
+      "reason": "官方职称或名录分组明确为荣休、退休或历史人员。",
+      "evidence": "Emeritus | Emeritus Faculty | https://www.cs.wisc.edu/staff/naughton-jeffrey/"
+    },
+    {
+      "officialId": "4012",
+      "rosterName": "Jelena Diakonikolas",
+      "title": "Associate Professor",
+      "profileUrl": "https://www.cs.wisc.edu/staff/diakonikolas-jelena/",
+      "portraitUrl": "https://www.cs.wisc.edu/wp-content/uploads/sites/166/2020/06/Jelena-Diakonikolas.jpg",
+      "officialSections": [
+        "Core Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cs.wisc.edu/people/faculty-2/",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Associate Professor | Core Faculty | https://www.cs.wisc.edu/staff/diakonikolas-jelena/",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "766",
+      "rosterName": "Jerry Zhu",
+      "title": "Professor, Sheldon B. Lubar Chair in Computer Sciences",
+      "profileUrl": "https://www.cs.wisc.edu/staff/zhu-jerry/",
+      "portraitUrl": "https://www.cs.wisc.edu/wp-content/uploads/sites/166/2018/10/Jerry-Zhu-CS-e1706282831290.png",
+      "officialSections": [
+        "Core Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cs.wisc.edu/people/faculty-2/",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Professor, Sheldon B. Lubar Chair in Computer Sciences | Core Faculty | https://www.cs.wisc.edu/staff/zhu-jerry/",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "13675",
+      "rosterName": "Jiawei Zhang",
+      "title": "Assistant Professor",
+      "profileUrl": "https://www.cs.wisc.edu/staff/zhang-jaiwei/",
+      "portraitUrl": "https://www.cs.wisc.edu/wp-content/uploads/sites/166/2025/06/Jiawei-Zhang-150-x-190.png",
+      "officialSections": [
+        "Core Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cs.wisc.edu/people/faculty-2/",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Assistant Professor | Core Faculty | https://www.cs.wisc.edu/staff/zhang-jaiwei/",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "1029",
+      "rosterName": "Jim Williams",
+      "title": "Teaching Professor",
+      "profileUrl": "https://www.cs.wisc.edu/staff/williams-jim/",
+      "portraitUrl": "https://www.cs.wisc.edu/wp-content/uploads/sites/166/2018/11/Jim-Williams-2020-150-x-191.jpg",
+      "officialSections": [
+        "Teaching Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cs.wisc.edu/people/faculty-2/",
+      "decision": "excluded_non_pi",
+      "reason": "官方职称或名录分组属于教学、兼职、附属、科研支持或其他非独立 PI 岗位。",
+      "evidence": "Teaching Professor | Teaching Faculty | https://www.cs.wisc.edu/staff/williams-jim/"
+    },
+    {
+      "officialId": "738",
+      "rosterName": "Jin-Yi Cai",
+      "title": "Juris Hartmanis Professor; Rajiv and Ritu Batra Chair",
+      "profileUrl": "https://www.cs.wisc.edu/staff/cai-jin-yi/",
+      "portraitUrl": "https://www.cs.wisc.edu/wp-content/uploads/sites/166/2018/10/Jin-Yi-Chai-150-x-190.png",
+      "officialSections": [
+        "Core Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cs.wisc.edu/people/faculty-2/",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Juris Hartmanis Professor; Rajiv and Ritu Batra Chair | Core Faculty | https://www.cs.wisc.edu/staff/cai-jin-yi/",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "1046",
+      "rosterName": "John Strikwerda",
+      "title": "Emeritus",
+      "profileUrl": "https://www.cs.wisc.edu/staff/strikwerda-john/",
+      "portraitUrl": "https://www.cs.wisc.edu/wp-content/uploads/sites/166/2020/06/person-150-x-190.png",
+      "officialSections": [
+        "Emeritus Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cs.wisc.edu/people/faculty-2/",
+      "decision": "excluded_historical",
+      "reason": "官方职称或名录分组明确为荣休、退休或历史人员。",
+      "evidence": "Emeritus | Emeritus Faculty | https://www.cs.wisc.edu/staff/strikwerda-john/"
+    },
+    {
+      "officialId": "988",
+      "rosterName": "Joshua San Miguel",
+      "title": "Assistant Professor, Electrical & Computer Engineering",
+      "profileUrl": "https://www.cs.wisc.edu/staff/san-miguel-joshua/",
+      "portraitUrl": "https://www.cs.wisc.edu/wp-content/uploads/sites/166/2020/06/Joshua-San-Miguel-1.jpg",
+      "officialSections": [
+        "Affiliate Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cs.wisc.edu/people/faculty-2/",
+      "decision": "excluded_non_pi",
+      "reason": "官方职称或名录分组属于教学、兼职、附属、科研支持或其他非独立 PI 岗位。",
+      "evidence": "Assistant Professor, Electrical & Computer Engineering | Affiliate Faculty | https://www.cs.wisc.edu/staff/san-miguel-joshua/"
+    },
+    {
+      "officialId": "4828",
+      "rosterName": "Josiah Hanna",
+      "title": "Assistant Professor",
+      "profileUrl": "https://www.cs.wisc.edu/staff/hanna-josiah/",
+      "portraitUrl": "https://www.cs.wisc.edu/wp-content/uploads/sites/166/2020/06/josiah-headshot-150-x-190-e1632511677301.jpg",
+      "officialSections": [
+        "Core Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cs.wisc.edu/people/faculty-2/",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Assistant Professor | Core Faculty | https://www.cs.wisc.edu/staff/hanna-josiah/",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "12273",
+      "rosterName": "Juan Caicedo",
+      "title": "Assistant Professor, Biostatistics & Medical Informatics",
+      "profileUrl": "https://www.cs.wisc.edu/staff/caicedo-juan/",
+      "portraitUrl": "https://www.cs.wisc.edu/wp-content/uploads/sites/166/2024/10/Juan-Caicedo-150-x-190.png",
+      "officialSections": [
+        "Affiliate Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cs.wisc.edu/people/faculty-2/",
+      "decision": "excluded_non_pi",
+      "reason": "官方职称或名录分组属于教学、兼职、附属、科研支持或其他非独立 PI 岗位。",
+      "evidence": "Assistant Professor, Biostatistics & Medical Informatics | Affiliate Faculty | https://www.cs.wisc.edu/staff/caicedo-juan/"
+    },
+    {
+      "officialId": "1044",
+      "rosterName": "Jude Shavlik",
+      "title": "Emeritus",
+      "profileUrl": "https://www.cs.wisc.edu/staff/shavlik-jude/",
+      "portraitUrl": "https://www.cs.wisc.edu/wp-content/uploads/sites/166/2020/06/Jude-Shavlik.jpg",
+      "officialSections": [
+        "Emeritus Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cs.wisc.edu/people/faculty-2/",
+      "decision": "excluded_historical",
+      "reason": "官方职称或名录分组明确为荣休、退休或历史人员。",
+      "evidence": "Emeritus | Emeritus Faculty | https://www.cs.wisc.edu/staff/shavlik-jude/"
+    },
+    {
+      "officialId": "7260",
+      "rosterName": "Junjie Hu",
+      "title": "Assistant Professor",
+      "profileUrl": "https://www.cs.wisc.edu/staff/hu-junjie/",
+      "portraitUrl": "https://www.cs.wisc.edu/wp-content/uploads/sites/166/2021/11/Jinjie-Hu-150-x-190.png",
+      "officialSections": [
+        "Core Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cs.wisc.edu/people/faculty-2/",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Assistant Professor | Core Faculty | https://www.cs.wisc.edu/staff/hu-junjie/",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "11580",
+      "rosterName": "Kaiser Pister",
+      "title": "Teaching Faculty",
+      "profileUrl": "https://www.cs.wisc.edu/staff/pister-kaiser-2/",
+      "portraitUrl": "https://www.cs.wisc.edu/wp-content/uploads/sites/166/2024/07/Kaiser-Pister-150-x-190.png",
+      "officialSections": [
+        "Teaching Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cs.wisc.edu/people/faculty-2/",
+      "decision": "excluded_non_pi",
+      "reason": "官方职称或名录分组属于教学、兼职、附属、科研支持或其他非独立 PI 岗位。",
+      "evidence": "Teaching Faculty | Teaching Faculty | https://www.cs.wisc.edu/staff/pister-kaiser-2/"
+    },
+    {
+      "officialId": "5133",
+      "rosterName": "Kangwook Lee",
+      "title": "Assistant Professor, Electrical & Computer Engineering",
+      "profileUrl": "https://www.cs.wisc.edu/staff/lee-kangwook/",
+      "portraitUrl": "https://www.cs.wisc.edu/wp-content/uploads/sites/166/2020/08/lee_kangwook-150-x-190.jpg",
+      "officialSections": [
+        "Affiliate Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cs.wisc.edu/people/faculty-2/",
+      "decision": "excluded_non_pi",
+      "reason": "官方职称或名录分组属于教学、兼职、附属、科研支持或其他非独立 PI 岗位。",
+      "evidence": "Assistant Professor, Electrical & Computer Engineering | Affiliate Faculty | https://www.cs.wisc.edu/staff/lee-kangwook/"
+    },
+    {
+      "officialId": "757",
+      "rosterName": "Karthikeyan Sankaralingam",
+      "title": "Mark D. Hill and David A. Wood Professor and Associate Chair for Instruction",
+      "profileUrl": "https://www.cs.wisc.edu/staff/sankaralingam-karthikeyan/",
+      "portraitUrl": "https://www.cs.wisc.edu/wp-content/uploads/sites/166/2020/06/Karu-Sankaralingam.jpg",
+      "officialSections": [
+        "Core Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cs.wisc.edu/people/faculty-2/",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Mark D. Hill and David A. Wood Professor and Associate Chair for Instruction | Core Faculty | https://www.cs.wisc.edu/staff/sankaralingam-karthikeyan/",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "966",
+      "rosterName": "Kassem Fawaz",
+      "title": "Assistant Professor, Electrical & Computer Engineering",
+      "profileUrl": "https://www.cs.wisc.edu/staff/fawaz-kassem/",
+      "portraitUrl": "https://www.cs.wisc.edu/wp-content/uploads/sites/166/2020/06/Kassem-Fawaz.jpg",
+      "officialSections": [
+        "Affiliate Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cs.wisc.edu/people/faculty-2/",
+      "decision": "excluded_non_pi",
+      "reason": "官方职称或名录分组属于教学、兼职、附属、科研支持或其他非独立 PI 岗位。",
+      "evidence": "Assistant Professor, Electrical & Computer Engineering | Affiliate Faculty | https://www.cs.wisc.edu/staff/fawaz-kassem/"
+    },
+    {
+      "officialId": "15169",
+      "rosterName": "Kate Jensen",
+      "title": "Teaching faculty",
+      "profileUrl": "https://www.cs.wisc.edu/staff/jensen-kate/",
+      "portraitUrl": "https://www.cs.wisc.edu/wp-content/uploads/sites/166/2026/03/Kate-Jensen-150-x-190.png",
+      "officialSections": [
+        "Teaching Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cs.wisc.edu/people/faculty-2/",
+      "decision": "excluded_non_pi",
+      "reason": "官方职称或名录分组属于教学、兼职、附属、科研支持或其他非独立 PI 岗位。",
+      "evidence": "Teaching faculty | Teaching Faculty | https://www.cs.wisc.edu/staff/jensen-kate/"
+    },
+    {
+      "officialId": "2511",
+      "rosterName": "Kevin Ponto",
+      "title": "Associate Professor, Design Studies, School of Human Ecology",
+      "profileUrl": "https://www.cs.wisc.edu/staff/ponto-kevin-2/",
+      "portraitUrl": "https://www.cs.wisc.edu/wp-content/uploads/sites/166/2020/06/Kevin-Ponto.jpg",
+      "officialSections": [
+        "Affiliate Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cs.wisc.edu/people/faculty-2/",
+      "decision": "excluded_non_pi",
+      "reason": "官方职称或名录分组属于教学、兼职、附属、科研支持或其他非独立 PI 岗位。",
+      "evidence": "Associate Professor, Design Studies, School of Human Ecology | Affiliate Faculty | https://www.cs.wisc.edu/staff/ponto-kevin-2/"
+    },
+    {
+      "officialId": "8474",
+      "rosterName": "Kirthevasan (Kirthi) Kandasamy",
+      "title": "Assistant Professor",
+      "profileUrl": "https://www.cs.wisc.edu/staff/kandasamy-kirthevasan-kirthi/",
+      "portraitUrl": "https://www.cs.wisc.edu/wp-content/uploads/sites/166/2022/08/Kirthi-kandasamy_headshot-150-x-190.jpg",
+      "officialSections": [
+        "Core Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cs.wisc.edu/people/faculty-2/",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Assistant Professor | Core Faculty | https://www.cs.wisc.edu/staff/kandasamy-kirthevasan-kirthi/",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "7266",
+      "rosterName": "Kyle Cranmer",
+      "title": "Professor, Physics Department; Director, American Family Data Science Institute",
+      "profileUrl": "https://www.cs.wisc.edu/staff/cranmer-kyle/",
+      "portraitUrl": "https://www.cs.wisc.edu/wp-content/uploads/sites/166/2021/11/Dr-Kyle-Cranmer-Photo-edited-1-150-x-190.jpg",
+      "officialSections": [
+        "Affiliate Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cs.wisc.edu/people/faculty-2/",
+      "decision": "excluded_non_pi",
+      "reason": "官方职称或名录分组属于教学、兼职、附属、科研支持或其他非独立 PI 岗位。",
+      "evidence": "Professor, Physics Department; Director, American Family Data Science Institute | Affiliate Faculty | https://www.cs.wisc.edu/staff/cranmer-kyle/"
+    },
+    {
+      "officialId": "4017",
+      "rosterName": "L. Hobbes Legault",
+      "title": "Teaching Professor",
+      "profileUrl": "https://www.cs.wisc.edu/staff/legault-laura-hobbes/",
+      "portraitUrl": "https://www.cs.wisc.edu/wp-content/uploads/sites/166/2020/01/Hobbes-LeGault-150-x-190.jpg",
+      "officialSections": [
+        "Teaching Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cs.wisc.edu/people/faculty-2/",
+      "decision": "excluded_non_pi",
+      "reason": "官方职称或名录分组属于教学、兼职、附属、科研支持或其他非独立 PI 岗位。",
+      "evidence": "Teaching Professor | Teaching Faculty | https://www.cs.wisc.edu/staff/legault-laura-hobbes/"
+    },
+    {
+      "officialId": "1038",
+      "rosterName": "Lawrence Landweber",
+      "title": "Emeritus",
+      "profileUrl": "https://www.cs.wisc.edu/staff/landweber-lawrence/",
+      "portraitUrl": "https://www.cs.wisc.edu/wp-content/uploads/sites/166/2020/06/Lawrence-Landweber.jpg",
+      "officialSections": [
+        "Emeritus Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cs.wisc.edu/people/faculty-2/",
+      "decision": "excluded_historical",
+      "reason": "官方职称或名录分组明确为荣休、退休或历史人员。",
+      "evidence": "Emeritus | Emeritus Faculty | https://www.cs.wisc.edu/staff/landweber-lawrence/"
+    },
+    {
+      "officialId": "11577",
+      "rosterName": "Louis Oliphant",
+      "title": "Teaching Faculty",
+      "profileUrl": "https://www.cs.wisc.edu/staff/oliphant-louis/",
+      "portraitUrl": "https://www.cs.wisc.edu/wp-content/uploads/sites/166/2024/07/Louis-Oliphant-2024-150-x-190.png",
+      "officialSections": [
+        "Teaching Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cs.wisc.edu/people/faculty-2/",
+      "decision": "excluded_non_pi",
+      "reason": "官方职称或名录分组属于教学、兼职、附属、科研支持或其他非独立 PI 岗位。",
+      "evidence": "Teaching Faculty | Teaching Faculty | https://www.cs.wisc.edu/staff/oliphant-louis/"
+    },
+    {
+      "officialId": "11809",
+      "rosterName": "Manolis Vlatakis",
+      "title": "Assistant Professor",
+      "profileUrl": "https://www.cs.wisc.edu/staff/vlatakis-manolis/",
+      "portraitUrl": "https://www.cs.wisc.edu/wp-content/uploads/sites/166/2024/08/Manolis-Vlatakis-2026-150-x-190.png",
+      "officialSections": [
+        "Core Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cs.wisc.edu/people/faculty-2/",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Assistant Professor | Core Faculty | https://www.cs.wisc.edu/staff/vlatakis-manolis/",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "1025",
+      "rosterName": "Marc Renault",
+      "title": "Teaching Professor",
+      "profileUrl": "https://www.cs.wisc.edu/staff/renault-marc/",
+      "portraitUrl": "https://www.cs.wisc.edu/wp-content/uploads/sites/166/2018/11/Marc-Renault-150-x-190.png",
+      "officialSections": [
+        "Teaching Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cs.wisc.edu/people/faculty-2/",
+      "decision": "excluded_non_pi",
+      "reason": "官方职称或名录分组属于教学、兼职、附属、科研支持或其他非独立 PI 岗位。",
+      "evidence": "Teaching Professor | Teaching Faculty | https://www.cs.wisc.edu/staff/renault-marc/"
+    },
+    {
+      "officialId": "963",
+      "rosterName": "Mark Craven",
+      "title": "Professor,  Department of Biostatistics & Medical Informatics",
+      "profileUrl": "https://www.cs.wisc.edu/staff/craven-mark/",
+      "portraitUrl": "https://www.cs.wisc.edu/wp-content/uploads/sites/166/2020/06/Mark-Craven.jpg",
+      "officialSections": [
+        "Affiliate Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cs.wisc.edu/people/faculty-2/",
+      "decision": "excluded_non_pi",
+      "reason": "官方职称或名录分组属于教学、兼职、附属、科研支持或其他非独立 PI 岗位。",
+      "evidence": "Professor,  Department of Biostatistics & Medical Informatics | Affiliate Faculty | https://www.cs.wisc.edu/staff/craven-mark/"
+    },
+    {
+      "officialId": "746",
+      "rosterName": "Mark D. Hill",
+      "title": "Emeritus",
+      "profileUrl": "https://www.cs.wisc.edu/staff/hill-mark-d/",
+      "portraitUrl": "https://www.cs.wisc.edu/wp-content/uploads/sites/166/2018/10/Mark-Hill-150-x-190.png",
+      "officialSections": [
+        "Emeritus Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cs.wisc.edu/people/faculty-2/",
+      "decision": "excluded_historical",
+      "reason": "官方职称或名录分组明确为荣休、退休或历史人员。",
+      "evidence": "Emeritus | Emeritus Faculty | https://www.cs.wisc.edu/staff/hill-mark-d/"
+    },
+    {
+      "officialId": "1047",
+      "rosterName": "Mary Vernon",
+      "title": "Emeritus",
+      "profileUrl": "https://www.cs.wisc.edu/staff/vernon-mary/",
+      "portraitUrl": "https://www.cs.wisc.edu/wp-content/uploads/sites/166/2020/06/person-150-x-190.png",
+      "officialSections": [
+        "Emeritus Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cs.wisc.edu/people/faculty-2/",
+      "decision": "excluded_historical",
+      "reason": "官方职称或名录分组明确为荣休、退休或历史人员。",
+      "evidence": "Emeritus | Emeritus Faculty | https://www.cs.wisc.edu/staff/vernon-mary/"
+    },
+    {
+      "officialId": "759",
+      "rosterName": "Matthew Sinclair",
+      "title": "Associate Professor",
+      "profileUrl": "https://www.cs.wisc.edu/staff/sinclair-matthew/",
+      "portraitUrl": "https://www.cs.wisc.edu/wp-content/uploads/sites/166/2020/06/Matt-Sinclair-2.jpg",
+      "officialSections": [
+        "Core Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cs.wisc.edu/people/faculty-2/",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Associate Professor | Core Faculty | https://www.cs.wisc.edu/staff/sinclair-matthew/",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "4009",
+      "rosterName": "Meenakshi Syamkumar",
+      "title": "Teaching Faculty",
+      "profileUrl": "https://www.cs.wisc.edu/staff/syamkumar-meenakshi/",
+      "portraitUrl": "https://www.cs.wisc.edu/wp-content/uploads/sites/166/2020/01/Meena-Syamkumar-150-x-190-1.png",
+      "officialSections": [
+        "Teaching Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cs.wisc.edu/people/faculty-2/",
+      "decision": "excluded_non_pi",
+      "reason": "官方职称或名录分组属于教学、兼职、附属、科研支持或其他非独立 PI 岗位。",
+      "evidence": "Teaching Faculty | Teaching Faculty | https://www.cs.wisc.edu/staff/syamkumar-meenakshi/"
+    },
+    {
+      "officialId": "1012",
+      "rosterName": "Michael Doescher",
+      "title": "Teaching Faculty",
+      "profileUrl": "https://www.cs.wisc.edu/staff/doescher-michael/",
+      "portraitUrl": "https://www.cs.wisc.edu/wp-content/uploads/sites/166/2018/11/Michael-Doescher-150-x-190.png",
+      "officialSections": [
+        "Teaching Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cs.wisc.edu/people/faculty-2/",
+      "decision": "excluded_non_pi",
+      "reason": "官方职称或名录分组属于教学、兼职、附属、科研支持或其他非独立 PI 岗位。",
+      "evidence": "Teaching Faculty | Teaching Faculty | https://www.cs.wisc.edu/staff/doescher-michael/"
+    },
+    {
+      "officialId": "742",
+      "rosterName": "Michael Ferris",
+      "title": "John P. Morgridge Chair; Jacques-Louis Lions Professor",
+      "profileUrl": "https://www.cs.wisc.edu/staff/ferris-michael/",
+      "portraitUrl": "https://www.cs.wisc.edu/wp-content/uploads/sites/166/2020/06/Michael-Ferris.jpg",
+      "officialSections": [
+        "Emeritus Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cs.wisc.edu/people/faculty-2/",
+      "decision": "excluded_historical",
+      "reason": "官方职称或名录分组明确为荣休、退休或历史人员。",
+      "evidence": "John P. Morgridge Chair; Jacques-Louis Lions Professor | Emeritus Faculty | https://www.cs.wisc.edu/staff/ferris-michael/"
+    },
+    {
+      "officialId": "743",
+      "rosterName": "Michael Gleicher",
+      "title": "David DeWitt Professor",
+      "profileUrl": "https://www.cs.wisc.edu/staff/gleicher-michael/",
+      "portraitUrl": "https://www.cs.wisc.edu/wp-content/uploads/sites/166/2018/10/Michael-Gleicher-150-x-190.png",
+      "officialSections": [
+        "Core Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cs.wisc.edu/people/faculty-2/",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "David DeWitt Professor | Core Faculty | https://www.cs.wisc.edu/staff/gleicher-michael/",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "761",
+      "rosterName": "Michael Swift",
+      "title": "Vilas Distinguished Achievement Professor",
+      "profileUrl": "https://www.cs.wisc.edu/staff/swift-michael/",
+      "portraitUrl": "https://www.cs.wisc.edu/wp-content/uploads/sites/166/2020/06/Michael-Swift-1.jpg",
+      "officialSections": [
+        "Core Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cs.wisc.edu/people/faculty-2/",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Vilas Distinguished Achievement Professor | Core Faculty | https://www.cs.wisc.edu/staff/swift-michael/",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "13975",
+      "rosterName": "Mike Hagenow",
+      "title": "Assistant Professor",
+      "profileUrl": "https://www.cs.wisc.edu/staff/hagenow-mike/",
+      "portraitUrl": "https://www.cs.wisc.edu/wp-content/uploads/sites/166/2025/08/Mike-Hagenow-150-x-190.png",
+      "officialSections": [
+        "Core Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cs.wisc.edu/people/faculty-2/",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Assistant Professor | Core Faculty | https://www.cs.wisc.edu/staff/hagenow-mike/",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "973",
+      "rosterName": "Mikko Lipasti",
+      "title": "Professor, Electrical & Computer Engineering",
+      "profileUrl": "https://www.cs.wisc.edu/staff/lipasti-mikko/",
+      "portraitUrl": "https://www.cs.wisc.edu/wp-content/uploads/sites/166/2020/06/Mikko-Lipasti.jpg",
+      "officialSections": [
+        "Affiliate Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cs.wisc.edu/people/faculty-2/",
+      "decision": "excluded_non_pi",
+      "reason": "官方职称或名录分组属于教学、兼职、附属、科研支持或其他非独立 PI 岗位。",
+      "evidence": "Professor, Electrical & Computer Engineering | Affiliate Faculty | https://www.cs.wisc.edu/staff/lipasti-mikko/"
+    },
+    {
+      "officialId": "4824",
+      "rosterName": "Ming Liu",
+      "title": "Assistant Professor",
+      "profileUrl": "https://www.cs.wisc.edu/staff/liu-ming/",
+      "portraitUrl": "https://www.cs.wisc.edu/wp-content/uploads/sites/166/2020/06/Ming-Liu-150-x-190.jpg",
+      "officialSections": [
+        "Core Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cs.wisc.edu/people/faculty-2/",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Assistant Professor | Core Faculty | https://www.cs.wisc.edu/staff/liu-ming/",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "750",
+      "rosterName": "Miron Livny",
+      "title": "John P. Morgridge Chair; Vilas Research Professor",
+      "profileUrl": "https://www.cs.wisc.edu/staff/livny-miron/",
+      "portraitUrl": "https://www.cs.wisc.edu/wp-content/uploads/sites/166/2020/07/Miron-Livny-2.jpg",
+      "officialSections": [
+        "Core Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cs.wisc.edu/people/faculty-2/",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "John P. Morgridge Chair; Vilas Research Professor | Core Faculty | https://www.cs.wisc.edu/staff/livny-miron/",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "13977",
+      "rosterName": "Misha Khodak",
+      "title": "Assistant Professor",
+      "profileUrl": "https://www.cs.wisc.edu/staff/khodak-misha/",
+      "portraitUrl": "https://www.cs.wisc.edu/wp-content/uploads/sites/166/2025/08/Misha-Khodak-150-x-190.png",
+      "officialSections": [
+        "Core Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cs.wisc.edu/people/faculty-2/",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Assistant Professor | Core Faculty | https://www.cs.wisc.edu/staff/khodak-misha/",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "745",
+      "rosterName": "Mohit Gupta",
+      "title": "Associate Professor",
+      "profileUrl": "https://www.cs.wisc.edu/staff/gupta-mohit/",
+      "portraitUrl": "https://www.cs.wisc.edu/wp-content/uploads/sites/166/2020/06/Mohit-Gupta.jpg",
+      "officialSections": [
+        "Core Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cs.wisc.edu/people/faculty-2/",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Associate Professor | Core Faculty | https://www.cs.wisc.edu/staff/gupta-mohit/",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "1253",
+      "rosterName": "Mouna Ayari Ben Hadj Kacem",
+      "title": "Teaching Faculty",
+      "profileUrl": "https://www.cs.wisc.edu/staff/ayari-ben-hadj-kacem-mouna/",
+      "portraitUrl": "https://www.cs.wisc.edu/wp-content/uploads/sites/166/2018/11/Mouna-150-x-190.jpg",
+      "officialSections": [
+        "Teaching Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cs.wisc.edu/people/faculty-2/",
+      "decision": "excluded_non_pi",
+      "reason": "官方职称或名录分组属于教学、兼职、附属、科研支持或其他非独立 PI 岗位。",
+      "evidence": "Teaching Faculty | Teaching Faculty | https://www.cs.wisc.edu/staff/ayari-ben-hadj-kacem-mouna/"
+    },
+    {
+      "officialId": "982",
+      "rosterName": "Parameswaran Ramanathan",
+      "title": "Professor, Electrical & Computer Engineering",
+      "profileUrl": "https://www.cs.wisc.edu/staff/ramanathan-parameswaran/",
+      "portraitUrl": "https://www.cs.wisc.edu/wp-content/uploads/sites/166/2020/06/Parameswaran-Ramanathan.jpg",
+      "officialSections": [
+        "Affiliate Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cs.wisc.edu/people/faculty-2/",
+      "decision": "excluded_non_pi",
+      "reason": "官方职称或名录分组属于教学、兼职、附属、科研支持或其他非独立 PI 岗位。",
+      "evidence": "Professor, Electrical & Computer Engineering | Affiliate Faculty | https://www.cs.wisc.edu/staff/ramanathan-parameswaran/"
+    },
+    {
+      "officialId": "767",
+      "rosterName": "Paris Koutris",
+      "title": "Associate Professor",
+      "profileUrl": "https://www.cs.wisc.edu/staff/koutris-paris/",
+      "portraitUrl": "https://www.cs.wisc.edu/wp-content/uploads/sites/166/2020/06/Paris-Koutris.jpg",
+      "officialSections": [
+        "Core Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cs.wisc.edu/people/faculty-2/",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Associate Professor | Core Faculty | https://www.cs.wisc.edu/staff/koutris-paris/",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "8473",
+      "rosterName": "Patrick McDaniel",
+      "title": "Tsun-Ming Shih Professor",
+      "profileUrl": "https://www.cs.wisc.edu/staff/mcdaniel-patrick/",
+      "portraitUrl": "https://www.cs.wisc.edu/wp-content/uploads/sites/166/2022/08/Patrick-McDaniel-headshot-07-2015-150-x-190.png",
+      "officialSections": [
+        "Core Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cs.wisc.edu/people/faculty-2/",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Tsun-Ming Shih Professor | Core Faculty | https://www.cs.wisc.edu/staff/mcdaniel-patrick/",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "736",
+      "rosterName": "Paul Barford",
+      "title": "Department Chair and Carl de Boor Professor",
+      "profileUrl": "https://www.cs.wisc.edu/staff/barford-paul/",
+      "portraitUrl": "https://www.cs.wisc.edu/wp-content/uploads/sites/166/2025/01/Paul-Barford-150-x-190.png",
+      "officialSections": [
+        "Core Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cs.wisc.edu/people/faculty-2/",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Department Chair and Carl de Boor Professor | Core Faculty | https://www.cs.wisc.edu/staff/barford-paul/",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "12258",
+      "rosterName": "Qiaomin Xie",
+      "title": "Assistant Professor, Industrial and Systems Engineering",
+      "profileUrl": "https://www.cs.wisc.edu/staff/xie-qiaomin/",
+      "portraitUrl": "https://www.cs.wisc.edu/wp-content/uploads/sites/166/2024/10/Qiaomin-Xie-150-x-190.png",
+      "officialSections": [
+        "Affiliate Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cs.wisc.edu/people/faculty-2/",
+      "decision": "excluded_non_pi",
+      "reason": "官方职称或名录分组属于教学、兼职、附属、科研支持或其他非独立 PI 岗位。",
+      "evidence": "Assistant Professor, Industrial and Systems Engineering | Affiliate Faculty | https://www.cs.wisc.edu/staff/xie-qiaomin/"
+    },
+    {
+      "officialId": "3563",
+      "rosterName": "Rahul Chatterjee",
+      "title": "Associate Professor",
+      "profileUrl": "https://www.cs.wisc.edu/staff/chatterjee-rahul/",
+      "portraitUrl": "https://www.cs.wisc.edu/wp-content/uploads/sites/166/2019/09/Rahul-Chatterjee-e1706282640371.png",
+      "officialSections": [
+        "Core Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cs.wisc.edu/people/faculty-2/",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Associate Professor | Core Faculty | https://www.cs.wisc.edu/staff/chatterjee-rahul/",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "6556",
+      "rosterName": "Ramya Vinayak",
+      "title": "Assistant Professor, Electrical & Computer Engineering",
+      "profileUrl": "https://www.cs.wisc.edu/staff/vinayak-ramya/",
+      "portraitUrl": "https://www.cs.wisc.edu/wp-content/uploads/sites/166/2021/06/RamyaVinayak3-150-x-190.jpg",
+      "officialSections": [
+        "Affiliate Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cs.wisc.edu/people/faculty-2/",
+      "decision": "excluded_non_pi",
+      "reason": "官方职称或名录分组属于教学、兼职、附属、科研支持或其他非独立 PI 岗位。",
+      "evidence": "Assistant Professor, Electrical & Computer Engineering | Affiliate Faculty | https://www.cs.wisc.edu/staff/vinayak-ramya/"
+    },
+    {
+      "officialId": "530",
+      "rosterName": "Remzi Arpaci-Dusseau",
+      "title": "Grace Wahba Professor; Vilas Distinguished Achievement Professor",
+      "profileUrl": "https://www.cs.wisc.edu/staff/arpaci-dusseau-remzi/",
+      "portraitUrl": "https://www.cs.wisc.edu/wp-content/uploads/sites/166/2018/10/Remzi-Headshot-copy-150-x-190.jpg",
+      "officialSections": [
+        "Core Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cs.wisc.edu/people/faculty-2/",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Grace Wahba Professor; Vilas Distinguished Achievement Professor | Core Faculty | https://www.cs.wisc.edu/staff/arpaci-dusseau-remzi/",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "8477",
+      "rosterName": "Rishab Goyal",
+      "title": "Assistant Professor",
+      "profileUrl": "https://www.cs.wisc.edu/staff/goyal-rishab/",
+      "portraitUrl": "https://www.cs.wisc.edu/wp-content/uploads/sites/166/2022/08/Rishab-Goyal-150-x-190.png",
+      "officialSections": [
+        "Core Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cs.wisc.edu/people/faculty-2/",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Assistant Professor | Core Faculty | https://www.cs.wisc.edu/staff/goyal-rishab/",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "1040",
+      "rosterName": "Robert Meyer",
+      "title": "Emeritus",
+      "profileUrl": "https://www.cs.wisc.edu/staff/meyer-robert/",
+      "portraitUrl": "https://www.cs.wisc.edu/wp-content/uploads/sites/166/2020/08/meyer.jpg",
+      "officialSections": [
+        "Emeritus Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cs.wisc.edu/people/faculty-2/",
+      "decision": "excluded_historical",
+      "reason": "官方职称或名录分组明确为荣休、退休或历史人员。",
+      "evidence": "Emeritus | Emeritus Faculty | https://www.cs.wisc.edu/staff/meyer-robert/"
+    },
+    {
+      "officialId": "977",
+      "rosterName": "Robert Nowak",
+      "title": "Professor, Electrical & Computer Engineering",
+      "profileUrl": "https://www.cs.wisc.edu/staff/nowak-robert/",
+      "portraitUrl": "https://www.cs.wisc.edu/wp-content/uploads/sites/166/2020/06/Robert-Nowak-1.jpg",
+      "officialSections": [
+        "Affiliate Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cs.wisc.edu/people/faculty-2/",
+      "decision": "excluded_non_pi",
+      "reason": "官方职称或名录分组属于教学、兼职、附属、科研支持或其他非独立 PI 岗位。",
+      "evidence": "Professor, Electrical & Computer Engineering | Affiliate Faculty | https://www.cs.wisc.edu/staff/nowak-robert/"
+    },
+    {
+      "officialId": "11812",
+      "rosterName": "Sandeep Silwal",
+      "title": "Assistant Professor",
+      "profileUrl": "https://www.cs.wisc.edu/staff/silwal-sandeep/",
+      "portraitUrl": "https://www.cs.wisc.edu/wp-content/uploads/sites/166/2024/08/Sandeep-Silwal-150-x-190.png",
+      "officialSections": [
+        "Core Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cs.wisc.edu/people/faculty-2/",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Assistant Professor | Core Faculty | https://www.cs.wisc.edu/staff/silwal-sandeep/",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "17874",
+      "rosterName": "Sara McAllister",
+      "title": "Assistant Professor",
+      "profileUrl": "https://www.cs.wisc.edu/staff/mcallister-sara/",
+      "portraitUrl": "https://www.cs.wisc.edu/wp-content/uploads/sites/166/2026/08/Sara-McAllister-150-x-190.png",
+      "officialSections": [
+        "Core Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cs.wisc.edu/people/faculty-2/",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Assistant Professor | Core Faculty | https://www.cs.wisc.edu/staff/mcallister-sara/",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "8490",
+      "rosterName": "Scott Swanson",
+      "title": "Teaching Faculty",
+      "profileUrl": "https://www.cs.wisc.edu/staff/swanson-scott/",
+      "portraitUrl": "https://www.cs.wisc.edu/wp-content/uploads/sites/166/2022/08/Scott-Swanson-150-x-190.jpg",
+      "officialSections": [
+        "Teaching Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cs.wisc.edu/people/faculty-2/",
+      "decision": "excluded_non_pi",
+      "reason": "官方职称或名录分组属于教学、兼职、附属、科研支持或其他非独立 PI 岗位。",
+      "evidence": "Teaching Faculty | Teaching Faculty | https://www.cs.wisc.edu/staff/swanson-scott/"
+    },
+    {
+      "officialId": "4672",
+      "rosterName": "Sharon Li",
+      "title": "Associate Professor",
+      "profileUrl": "https://www.cs.wisc.edu/staff/li-sharon/",
+      "portraitUrl": "https://www.cs.wisc.edu/wp-content/uploads/sites/166/2020/06/Sharon-Li-150-x-190-1.png",
+      "officialSections": [
+        "Core Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cs.wisc.edu/people/faculty-2/",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Associate Professor | Core Faculty | https://www.cs.wisc.edu/staff/li-sharon/",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "17868",
+      "rosterName": "Shayne Wadle",
+      "title": "Teaching Faculty I",
+      "profileUrl": "https://www.cs.wisc.edu/staff/wadle-shayne/",
+      "portraitUrl": "https://www.cs.wisc.edu/wp-content/uploads/sites/166/2026/08/Shayne-Wadle-150-x-190.png",
+      "officialSections": [
+        "Teaching Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cs.wisc.edu/people/faculty-2/",
+      "decision": "excluded_non_pi",
+      "reason": "官方职称或名录分组属于教学、兼职、附属、科研支持或其他非独立 PI 岗位。",
+      "evidence": "Teaching Faculty I | Teaching Faculty | https://www.cs.wisc.edu/staff/wadle-shayne/"
+    },
+    {
+      "officialId": "764",
+      "rosterName": "Shivaram Venkataraman",
+      "title": "Associate Professor",
+      "profileUrl": "https://www.cs.wisc.edu/staff/venkataraman-shivaram/",
+      "portraitUrl": "https://www.cs.wisc.edu/wp-content/uploads/sites/166/2020/06/Shivaram-Venkataraman.jpg",
+      "officialSections": [
+        "Core Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cs.wisc.edu/people/faculty-2/",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Associate Professor | Core Faculty | https://www.cs.wisc.edu/staff/venkataraman-shivaram/",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "748",
+      "rosterName": "Somesh Jha",
+      "title": "Sheldon B. Lubar Chair and Professor",
+      "profileUrl": "https://www.cs.wisc.edu/staff/jha-somesh/",
+      "portraitUrl": "https://www.cs.wisc.edu/wp-content/uploads/sites/166/2020/06/Somesh-Jha.jpg",
+      "officialSections": [
+        "Core Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cs.wisc.edu/people/faculty-2/",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Sheldon B. Lubar Chair and Professor | Core Faculty | https://www.cs.wisc.edu/staff/jha-somesh/",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "13831",
+      "rosterName": "Song Gao",
+      "title": "Associate Professor, Department of Geography & Director of Geospatial Data Science Lab",
+      "profileUrl": "https://www.cs.wisc.edu/staff/gao-song/",
+      "portraitUrl": "https://www.cs.wisc.edu/wp-content/uploads/sites/166/2025/07/Song-Gao-150-x-190.png",
+      "officialSections": [
+        "Affiliate Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cs.wisc.edu/people/faculty-2/",
+      "decision": "excluded_non_pi",
+      "reason": "官方职称或名录分组属于教学、兼职、附属、科研支持或其他非独立 PI 岗位。",
+      "evidence": "Associate Professor, Department of Geography & Director of Geospatial Data Science Lab | Affiliate Faculty | https://www.cs.wisc.edu/staff/gao-song/"
+    },
+    {
+      "officialId": "1043",
+      "rosterName": "Stephen Robinson",
+      "title": "Emeritus",
+      "profileUrl": "https://www.cs.wisc.edu/staff/robinson-stephen/",
+      "portraitUrl": "https://www.cs.wisc.edu/wp-content/uploads/sites/166/2020/06/Stephen-Robinson.jpg",
+      "officialSections": [
+        "Emeritus Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cs.wisc.edu/people/faculty-2/",
+      "decision": "excluded_historical",
+      "reason": "官方职称或名录分组明确为荣休、退休或历史人员。",
+      "evidence": "Emeritus | Emeritus Faculty | https://www.cs.wisc.edu/staff/robinson-stephen/"
+    },
+    {
+      "officialId": "765",
+      "rosterName": "Stephen Wright",
+      "title": "George B. Dantzig Professor; Sheldon B. Lubar Chair; Hilldale Professor",
+      "profileUrl": "https://www.cs.wisc.edu/staff/wright-steven/",
+      "portraitUrl": "https://www.cs.wisc.edu/wp-content/uploads/sites/166/2018/10/Wright-Steve-150-x-190.png",
+      "officialSections": [
+        "Core Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cs.wisc.edu/people/faculty-2/",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "George B. Dantzig Professor; Sheldon B. Lubar Chair; Hilldale Professor | Core Faculty | https://www.cs.wisc.edu/staff/wright-steven/",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "547",
+      "rosterName": "Suman Banerjee",
+      "title": "David J. DeWitt Professor and Associate Chair for Professional Programs",
+      "profileUrl": "https://www.cs.wisc.edu/staff/banerjee-suman/",
+      "portraitUrl": "https://www.cs.wisc.edu/wp-content/uploads/sites/166/2020/06/Suman-Banerjee.jpg",
+      "officialSections": [
+        "Core Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cs.wisc.edu/people/faculty-2/",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "David J. DeWitt Professor and Associate Chair for Professional Programs | Core Faculty | https://www.cs.wisc.edu/staff/banerjee-suman/",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "986",
+      "rosterName": "Sushmita Roy",
+      "title": "Professor, Biostatistics & Medical Informatics",
+      "profileUrl": "https://www.cs.wisc.edu/staff/roy-sushmita/",
+      "portraitUrl": "https://www.cs.wisc.edu/wp-content/uploads/sites/166/2020/06/Sushmita-Roy.jpg",
+      "officialSections": [
+        "Affiliate Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cs.wisc.edu/people/faculty-2/",
+      "decision": "excluded_non_pi",
+      "reason": "官方职称或名录分组属于教学、兼职、附属、科研支持或其他非独立 PI 岗位。",
+      "evidence": "Professor, Biostatistics & Medical Informatics | Affiliate Faculty | https://www.cs.wisc.edu/staff/roy-sushmita/"
+    },
+    {
+      "officialId": "4830",
+      "rosterName": "Swamit Tannu",
+      "title": "Assistant Professor",
+      "profileUrl": "https://www.cs.wisc.edu/staff/tannu-swamit/",
+      "portraitUrl": "https://www.cs.wisc.edu/wp-content/uploads/sites/166/2020/06/Swamit-Tannu-e1706282285746.png",
+      "officialSections": [
+        "Core Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cs.wisc.edu/people/faculty-2/",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Assistant Professor | Core Faculty | https://www.cs.wisc.edu/staff/tannu-swamit/",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "9928",
+      "rosterName": "Tej Chajed",
+      "title": "Assistant Professor",
+      "profileUrl": "https://www.cs.wisc.edu/staff/chajed-tej/",
+      "portraitUrl": "https://www.cs.wisc.edu/wp-content/uploads/sites/166/2023/08/Tej-Chajed-151-x-190.jpg",
+      "officialSections": [
+        "Core Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cs.wisc.edu/people/faculty-2/",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Assistant Professor | Core Faculty | https://www.cs.wisc.edu/staff/chajed-tej/",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "11814",
+      "rosterName": "Tengyang Xie",
+      "title": "Assistant Professor",
+      "profileUrl": "https://www.cs.wisc.edu/staff/xie-tengyang/",
+      "portraitUrl": "https://www.cs.wisc.edu/wp-content/uploads/sites/166/2024/08/Tengyang-Xie-150-x-190.png",
+      "officialSections": [
+        "Core Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cs.wisc.edu/people/faculty-2/",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Assistant Professor | Core Faculty | https://www.cs.wisc.edu/staff/xie-tengyang/",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "755",
+      "rosterName": "Thomas Reps",
+      "title": "J. Barkley Rosser Professor; Rajiv and Ritu Batra Chair",
+      "profileUrl": "https://www.cs.wisc.edu/staff/reps-thomas/",
+      "portraitUrl": "https://www.cs.wisc.edu/wp-content/uploads/sites/166/2020/06/Thomas-Reps.jpg",
+      "officialSections": [
+        "Emeritus Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cs.wisc.edu/people/faculty-2/",
+      "decision": "excluded_historical",
+      "reason": "官方职称或名录分组明确为荣休、退休或历史人员。",
+      "evidence": "J. Barkley Rosser Professor; Rajiv and Ritu Batra Chair | Emeritus Faculty | https://www.cs.wisc.edu/staff/reps-thomas/"
+    },
+    {
+      "officialId": "17871",
+      "rosterName": "Tinayu Li",
+      "title": "Assistant Professor",
+      "profileUrl": "https://www.cs.wisc.edu/staff/li-tinayu/",
+      "portraitUrl": "https://www.cs.wisc.edu/wp-content/uploads/sites/166/2026/08/Tianyu-Li-150-x-190.png",
+      "officialSections": [
+        "Core Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cs.wisc.edu/people/faculty-2/",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Assistant Professor | Core Faculty | https://www.cs.wisc.edu/staff/li-tinayu/",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "12267",
+      "rosterName": "Tsung-Wei Huang",
+      "title": "Assistant Professor, Electrical & Computer Engineering",
+      "profileUrl": "https://www.cs.wisc.edu/staff/huang-tsung-wei/",
+      "portraitUrl": "https://www.cs.wisc.edu/wp-content/uploads/sites/166/2024/10/Tsung-Wei-Huang-150-x-190.png",
+      "officialSections": [
+        "Affiliate Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cs.wisc.edu/people/faculty-2/",
+      "decision": "excluded_non_pi",
+      "reason": "官方职称或名录分组属于教学、兼职、附属、科研支持或其他非独立 PI 岗位。",
+      "evidence": "Assistant Professor, Electrical & Computer Engineering | Affiliate Faculty | https://www.cs.wisc.edu/staff/huang-tsung-wei/"
+    },
+    {
+      "officialId": "1292",
+      "rosterName": "Tyler Caraza-Harter",
+      "title": "Teaching Professor",
+      "profileUrl": "https://www.cs.wisc.edu/staff/harter-tyler-2/",
+      "portraitUrl": "https://www.cs.wisc.edu/wp-content/uploads/sites/166/2018/11/Tyler-Harter-150-x-190.jpg",
+      "officialSections": [
+        "Teaching Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cs.wisc.edu/people/faculty-2/",
+      "decision": "excluded_non_pi",
+      "reason": "官方职称或名录分组属于教学、兼职、附属、科研支持或其他非独立 PI 岗位。",
+      "evidence": "Teaching Professor | Teaching Faculty | https://www.cs.wisc.edu/staff/harter-tyler-2/"
+    },
+    {
+      "officialId": "991",
+      "rosterName": "Vikas Singh",
+      "title": "Professor, Department of Biostatistics & Medical Informatics",
+      "profileUrl": "https://www.cs.wisc.edu/staff/singh-vikas/",
+      "portraitUrl": "https://www.cs.wisc.edu/wp-content/uploads/sites/166/2020/06/Vikas-Singh.jpg",
+      "officialSections": [
+        "Affiliate Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cs.wisc.edu/people/faculty-2/",
+      "decision": "excluded_non_pi",
+      "reason": "官方职称或名录分组属于教学、兼职、附属、科研支持或其他非独立 PI 岗位。",
+      "evidence": "Professor, Department of Biostatistics & Medical Informatics | Affiliate Faculty | https://www.cs.wisc.edu/staff/singh-vikas/"
+    },
+    {
+      "officialId": "4021",
+      "rosterName": "Xiangyao Yu",
+      "title": "Assistant Professor",
+      "profileUrl": "https://www.cs.wisc.edu/staff/yu-xiangyao/",
+      "portraitUrl": "https://www.cs.wisc.edu/wp-content/uploads/sites/166/2020/01/Xiangyao_headshot_1-150-x-190.jpg",
+      "officialSections": [
+        "Core Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cs.wisc.edu/people/faculty-2/",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Assistant Professor | Core Faculty | https://www.cs.wisc.edu/staff/yu-xiangyao/",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "2722",
+      "rosterName": "Yin Li",
+      "title": "Assistant Professor, Department of Biostatistics & Medical Informatics",
+      "profileUrl": "https://www.cs.wisc.edu/staff/li-yin/",
+      "portraitUrl": "https://www.cs.wisc.edu/wp-content/uploads/sites/166/2020/07/Yin-Li.jpg",
+      "officialSections": [
+        "Affiliate Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cs.wisc.edu/people/faculty-2/",
+      "decision": "excluded_non_pi",
+      "reason": "官方职称或名录分组属于教学、兼职、附属、科研支持或其他非独立 PI 岗位。",
+      "evidence": "Assistant Professor, Department of Biostatistics & Medical Informatics | Affiliate Faculty | https://www.cs.wisc.edu/staff/li-yin/"
+    },
+    {
+      "officialId": "13836",
+      "rosterName": "Yiqiao Zhong",
+      "title": "Assistant Professor, Department of Statistics",
+      "profileUrl": "https://www.cs.wisc.edu/staff/zhong-yiqiao/",
+      "portraitUrl": "https://www.cs.wisc.edu/wp-content/uploads/sites/166/2025/07/Yiqiao-Zhong-150-x-190.png",
+      "officialSections": [
+        "Affiliate Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cs.wisc.edu/people/faculty-2/",
+      "decision": "excluded_non_pi",
+      "reason": "官方职称或名录分组属于教学、兼职、附属、科研支持或其他非独立 PI 岗位。",
+      "evidence": "Assistant Professor, Department of Statistics | Affiliate Faculty | https://www.cs.wisc.edu/staff/zhong-yiqiao/"
+    },
+    {
+      "officialId": "4826",
+      "rosterName": "Yong Jae Lee",
+      "title": "Susan Beth Horwitz Professor",
+      "profileUrl": "https://www.cs.wisc.edu/staff/lee-yong-jae/",
+      "portraitUrl": "https://www.cs.wisc.edu/wp-content/uploads/sites/166/2020/06/yong-jae-150-x-190.jpg",
+      "officialSections": [
+        "Core Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cs.wisc.edu/people/faculty-2/",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Susan Beth Horwitz Professor | Core Faculty | https://www.cs.wisc.edu/staff/lee-yong-jae/",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "11583",
+      "rosterName": "Young Wu",
+      "title": "Teaching Faculty",
+      "profileUrl": "https://www.cs.wisc.edu/staff/wu-young/",
+      "portraitUrl": "https://www.cs.wisc.edu/wp-content/uploads/sites/166/2024/07/Young-Wu-150-x-190.png",
+      "officialSections": [
+        "Teaching Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cs.wisc.edu/people/faculty-2/",
+      "decision": "excluded_non_pi",
+      "reason": "官方职称或名录分组属于教学、兼职、附属、科研支持或其他非独立 PI 岗位。",
+      "evidence": "Teaching Faculty | Teaching Faculty | https://www.cs.wisc.edu/staff/wu-young/"
+    },
+    {
+      "officialId": "6911",
+      "rosterName": "Yudong Chen",
+      "title": "Sheldon B. and Marianne S. Lubar Professor",
+      "profileUrl": "https://www.cs.wisc.edu/staff/chen-yudong/",
+      "portraitUrl": "https://www.cs.wisc.edu/wp-content/uploads/sites/166/2021/09/Yudong-Chen-150-x-190.jpg",
+      "officialSections": [
+        "Core Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cs.wisc.edu/people/faculty-2/",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Sheldon B. and Marianne S. Lubar Professor | Core Faculty | https://www.cs.wisc.edu/staff/chen-yudong/",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "4692",
+      "rosterName": "Yuhang Zhao",
+      "title": "Assistant Professor",
+      "profileUrl": "https://www.cs.wisc.edu/staff/zhao-yuhang/",
+      "portraitUrl": "https://www.cs.wisc.edu/wp-content/uploads/sites/166/2020/06/thumbnail_Yuhang_Zhao-150-x-190.jpg",
+      "officialSections": [
+        "Core Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cs.wisc.edu/people/faculty-2/",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Assistant Professor | Core Faculty | https://www.cs.wisc.edu/staff/zhao-yuhang/",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    }
+  ]
+}

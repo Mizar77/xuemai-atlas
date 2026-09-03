@@ -1,0 +1,2887 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-03",
+  "scope": "Mainland China P0 fourth-pass high-yield frozen cohort",
+  "frozenCandidateCount": 40,
+  "reviewedCandidateCount": 40,
+  "dispositionCounts": {
+    "missing_relationship": 29,
+    "ready": 10,
+    "identity_disambiguation_required": 1
+  },
+  "records": [
+    {
+      "canonicalKey": "Mainland China:北京大学:姜少峰",
+      "name": "姜少峰",
+      "region": "Mainland China",
+      "institution": "北京大学",
+      "status": "missing_relationship",
+      "evidenceUrls": [
+        "https://cs.pku.edu.cn/info/1069/1633.htm",
+        "https://cs.pku.edu.cn/szdw/jyxl/amz/ALL.htm"
+      ],
+      "portraitUrl": "https://cs.pku.edu.cn/virtual_attach_file.vsb?afc=5nR-CYLzv4Uzf2MQlr2LmLYLRL8nz-q4nmW2MRNaLzLZU4C0gihFp2hmCIa0MkhRLkhRMYyDMmnfM8-ZLR6kLllPLmAkLzTkUmC8ozCiLRAFU4lZLmAVoznFLl7sUlLJv2bjo4OeoDX4qjAb_khXptQ0gY84gY84gtA8pUpcc&oid=1934453449&e=.png",
+      "checkedSources": [
+        {
+          "url": "https://cs.pku.edu.cn/info/1069/1633.htm",
+          "kind": "official_profile",
+          "result": "identified"
+        },
+        {
+          "url": "https://cs.pku.edu.cn/szdw/jyxl/amz/ALL.htm",
+          "kind": "official_roster",
+          "result": "identified"
+        },
+        {
+          "url": "https://cs.pku.edu.cn/info/1069/1633.htm",
+          "finalUrl": null,
+          "kind": "profile_fetch",
+          "result": "fetch_failed",
+          "httpStatus": null,
+          "error": "fetch failed"
+        }
+      ],
+      "extractedEvidence": {
+        "pageTitle": null,
+        "metaDescription": null,
+        "imageCandidates": [],
+        "relationshipEvidenceCandidates": [],
+        "relevantLinks": []
+      },
+      "reason": "现任 PI 与名录来源已定位，但本轮未找到可由本人 CV、博士论文库、研究组 alumni 或官方项目页直接确认且端点可接入的关系证据；继续待核验。",
+      "disposition": "missing_relationship",
+      "sourceLedger": "data/candidate-priority-p0-asia-disposition-2026-09-03.json",
+      "priorStatus": "missing_relationship",
+      "atlasPersonId": null
+    },
+    {
+      "canonicalKey": "Mainland China:北京大学:宋国杰",
+      "name": "宋国杰",
+      "region": "Mainland China",
+      "institution": "北京大学",
+      "status": "missing_relationship",
+      "evidenceUrls": [
+        "https://www.cis.pku.edu.cn/info/1362/2256.htm",
+        "https://www.cis.pku.edu.cn/szdw/zzjs.htm"
+      ],
+      "portraitUrl": "https://www.cis.pku.edu.cn/virtual_attach_file.vsb?afc=5U4fCVU8nkLzV2MQz-inm9PoRUsnNQq7n7MRL778MzlPUNL0gihFp2hmCIa0LkhkMSysLkhko7MVUm-YUzW2U47YM8LPMzrVLRLso7MkMmMFoz7aolLaolVFMR-DM8-Jqjfjo4OeosXJ_dTJQ5v0qIbtpYyxLYyxLYbw62p8c&oid=1887772040&e=.jpg",
+      "checkedSources": [
+        {
+          "url": "https://www.cis.pku.edu.cn/info/1362/2256.htm",
+          "kind": "official_profile",
+          "result": "identified"
+        },
+        {
+          "url": "https://www.cis.pku.edu.cn/szdw/zzjs.htm",
+          "kind": "official_roster",
+          "result": "identified"
+        },
+        {
+          "url": "https://www.cis.pku.edu.cn/info/1362/2256.htm",
+          "finalUrl": "https://www.cis.pku.edu.cn/info/1362/2256.htm",
+          "kind": "profile_fetch",
+          "result": "fetched",
+          "httpStatus": 200,
+          "error": null
+        }
+      ],
+      "extractedEvidence": {
+        "pageTitle": "宋国杰-北京大学智能学院",
+        "metaDescription": "宋国杰                                  职称：长聘副教授/研究员                  研究领域：价值观建模与测量、智能体建模与应用、图机器学习            ...",
+        "imageCandidates": [
+          "https://www.cis.pku.edu.cn/images/logo.png",
+          "https://www.cis.pku.edu.cn/info/1362/images/lw1.png",
+          "https://www.cis.pku.edu.cn/info/1362/images/lw2.png",
+          "https://www.cis.pku.edu.cn/info/1362/images/lw3.png",
+          "https://www.cis.pku.edu.cn/info/1362/images/lw4.png",
+          "https://www.cis.pku.edu.cn/info/1362/images/lw5.png",
+          "https://www.cis.pku.edu.cn/info/1362/images/lw6.png",
+          "https://www.cis.pku.edu.cn/info/1362/images/lw7.png",
+          "https://www.cis.pku.edu.cn/info/1362/images/lw8.png",
+          "https://www.cis.pku.edu.cn/images/logo_wz33.png",
+          "https://www.cis.pku.edu.cn/images/lbypic.jpg",
+          "https://www.cis.pku.edu.cn/images/ltlf_pic.jpg",
+          "https://www.cis.pku.edu.cn/virtual_attach_file.vsb?afc=DLlCs4M7CbLm9bnZRCboRlPL4U4LR9biMlMRMRLaUz98Mm-0gihFp2hmCIa0LYyYn1yZL1y4MzvZnmvDnRAfLzrkU8QRnmC4L7VVLRNaLmnFM7U4M8MfMzVFnR-iMm-Jqjfjo4OeosXJ_dTJQ5v0qIbtpYyPL4CYg4-YMzCJqdEnx&oid=1887772040&tid=1362&nid=2256&e=.jpg",
+          "https://www.cis.pku.edu.cn/images/db_logo.png",
+          "https://www.cis.pku.edu.cn/images/dbewm.jpg"
+        ],
+        "relationshipEvidenceCandidates": [
+          "宋国杰-北京大学智能学院 Birthplace of the Intelligence Discipline --> English 北京大学 首页 新闻动态 通知公告 学术交流 科研成果 学院概况 院长致辞 学院简介 组织结构 委员会 师资队伍 专职教师 博士后 行政教辅 荣休教师 学科建设 学科介绍 学科方向 学术成果 跨媒体通用人工智能全国重点实验室 校企合作 人才培养 研究生招生 研究生培养 智班培养 继续教育 招贤纳士 教师 博士后 青年论坛 行政教辅 学生工作 学工队伍 学生风采 公示信息 党团建设 所获荣誉 党建工作 党建动态 工会风采 智能校友 校友会 校友动态 校友捐赠 办公服务 行政办公 规章制度 常用下载 办事流程 会议室预定 学习专区 阅读专区 AI微课十讲 English 北京大学 导航菜单 专职教师 博士后 行政教辅 荣休教师 师资队伍 专职教师 博士后 行政教辅 荣休教师 当前位置: 首页 > 师资队伍 > 专职教师 > 正文 专职教师 宋国杰 时间：2019-04-12 点击数： 职称 长聘副教授/研究员 研究领域 价值观建模与测量、智能体建模与应用、图机器学习 办公电话 86-10-62754785 电子邮件 gjsong@pku.",
+          "欢迎申请课题组博士后、博士、硕士以及本科实习，请联系 gjsong@pku.",
+          "cn 个人简介 担任北京大学智能学院党委副书记、重庆人工智能学院执行院长、人工智能基础和应用标准工信部重点实验室副主任、北京通用人工智能学会秘书长、以及“北大-阿里妈妈人工智能创新联合实验室”“北大-中国铁塔智能社会和空间治理联合实验室”主任。"
+        ],
+        "relevantLinks": [
+          {
+            "label": "跨媒体通用人工智能全国重点实验室",
+            "url": "https://www.cis.pku.edu.cn/xkjs/kmttyrgzngzdsys/sysjj.htm"
+          },
+          {
+            "label": "学生工作",
+            "url": "https://www.cis.pku.edu.cn/xsgz/xgdw1.htm"
+          },
+          {
+            "label": "学生风采",
+            "url": "https://www.cis.pku.edu.cn/xsgz/xsfc1.htm"
+          },
+          {
+            "label": "会议室预定",
+            "url": "http://162.105.209.37/Member/YDConRoom/"
+          }
+        ]
+      },
+      "reason": "第四轮逐人补证已核实现任独立 PI、两项以上可靠来源、3–5 条带来源事实、512×512 可靠头像及至少一条一手可核验关系。",
+      "disposition": "ready",
+      "sourceLedger": "data/candidate-priority-p0-asia-disposition-2026-09-03.json",
+      "priorStatus": "missing_relationship",
+      "atlasPersonId": "guojie-song-pku-p0-fourth-b1"
+    },
+    {
+      "canonicalKey": "Mainland China:北京大学:崔锦实",
+      "name": "崔锦实",
+      "region": "Mainland China",
+      "institution": "北京大学",
+      "status": "missing_relationship",
+      "evidenceUrls": [
+        "https://www.cis.pku.edu.cn/info/1362/2261.htm",
+        "https://www.cis.pku.edu.cn/szdw/zzjs.htm"
+      ],
+      "portraitUrl": "https://www.cis.pku.edu.cn/virtual_attach_file.vsb?afc=5MRMCVUlLYMzMkMQNC8M8l8olUaLmCq4L4CiMNLDMlUbnzl0gihFp2hmCIa0L1ybMkyPMYhRo7-iozWfnmWRM46fU4GinNWfMRn7M4LbnNrFLzWfMzvaMzrFL4QVnSb/v2veo4Oe_tbZ_IbT6YhXptQ0gY84gY84gtA8pUpcc&oid=1887772040&e=.jpg",
+      "checkedSources": [
+        {
+          "url": "https://www.cis.pku.edu.cn/info/1362/2261.htm",
+          "kind": "official_profile",
+          "result": "identified"
+        },
+        {
+          "url": "https://www.cis.pku.edu.cn/szdw/zzjs.htm",
+          "kind": "official_roster",
+          "result": "identified"
+        },
+        {
+          "url": "https://www.cis.pku.edu.cn/info/1362/2261.htm",
+          "finalUrl": "https://www.cis.pku.edu.cn/info/1362/2261.htm",
+          "kind": "profile_fetch",
+          "result": "fetched",
+          "httpStatus": 200,
+          "error": null
+        }
+      ],
+      "extractedEvidence": {
+        "pageTitle": "崔锦实-北京大学智能学院",
+        "metaDescription": "崔锦实                                  职称：副教授                  研究所：信息科学中心                                    研究领域：                   办公电话：86-10-62759076              ...",
+        "imageCandidates": [
+          "https://www.cis.pku.edu.cn/images/logo.png",
+          "https://www.cis.pku.edu.cn/info/1362/images/lw1.png",
+          "https://www.cis.pku.edu.cn/info/1362/images/lw2.png",
+          "https://www.cis.pku.edu.cn/info/1362/images/lw3.png",
+          "https://www.cis.pku.edu.cn/info/1362/images/lw4.png",
+          "https://www.cis.pku.edu.cn/info/1362/images/lw5.png",
+          "https://www.cis.pku.edu.cn/info/1362/images/lw6.png",
+          "https://www.cis.pku.edu.cn/info/1362/images/lw7.png",
+          "https://www.cis.pku.edu.cn/info/1362/images/lw8.png",
+          "https://www.cis.pku.edu.cn/images/logo_wz33.png",
+          "https://www.cis.pku.edu.cn/images/lbypic.jpg",
+          "https://www.cis.pku.edu.cn/images/ltlf_pic.jpg",
+          "https://www.cis.pku.edu.cn/virtual_attach_file.vsb?afc=DLNCsiL47DLRMfUZzGsUNlio7-PUN7bZUm7ZnmQfnNnfMl70gihFp2hmCIa0L1ybMkyPMYhRo7-iozWfnmWRM46fU4GinNWfMRn7M4LbnNrFLzWfMzvaMzrFL4QVnSb/v2veo4Oe_tbZ_IbT6YhXptQ0g474Mm-0Lm-DLSbw62E8c&oid=1887772040&tid=1362&nid=2261&e=.jpg",
+          "https://www.cis.pku.edu.cn/images/db_logo.png",
+          "https://www.cis.pku.edu.cn/images/dbewm.jpg"
+        ],
+        "relationshipEvidenceCandidates": [
+          "崔锦实-北京大学智能学院 Birthplace of the Intelligence Discipline --> English 北京大学 首页 新闻动态 通知公告 学术交流 科研成果 学院概况 院长致辞 学院简介 组织结构 委员会 师资队伍 专职教师 博士后 行政教辅 荣休教师 学科建设 学科介绍 学科方向 学术成果 跨媒体通用人工智能全国重点实验室 校企合作 人才培养 研究生招生 研究生培养 智班培养 继续教育 招贤纳士 教师 博士后 青年论坛 行政教辅 学生工作 学工队伍 学生风采 公示信息 党团建设 所获荣誉 党建工作 党建动态 工会风采 智能校友 校友会 校友动态 校友捐赠 办公服务 行政办公 规章制度 常用下载 办事流程 会议室预定 学习专区 阅读专区 AI微课十讲 English 北京大学 导航菜单 专职教师 博士后 行政教辅 荣休教师 师资队伍 专职教师 博士后 行政教辅 荣休教师 当前位置: 首页 > 师资队伍 > 专职教师 > 正文 专职教师 崔锦实 时间：2019-04-12 点击数： 职称 副教授 研究领域 计算机视觉，多模态数据融合与心理学应用 办公电话 86-10-62759076 电子邮件 cjs@cis."
+        ],
+        "relevantLinks": [
+          {
+            "label": "跨媒体通用人工智能全国重点实验室",
+            "url": "https://www.cis.pku.edu.cn/xkjs/kmttyrgzngzdsys/sysjj.htm"
+          },
+          {
+            "label": "学生工作",
+            "url": "https://www.cis.pku.edu.cn/xsgz/xgdw1.htm"
+          },
+          {
+            "label": "学生风采",
+            "url": "https://www.cis.pku.edu.cn/xsgz/xsfc1.htm"
+          },
+          {
+            "label": "会议室预定",
+            "url": "http://162.105.209.37/Member/YDConRoom/"
+          }
+        ]
+      },
+      "reason": "现任 PI 与名录来源已定位，但本轮未找到可由本人 CV、博士论文库、研究组 alumni 或官方项目页直接确认且端点可接入的关系证据；继续待核验。",
+      "disposition": "missing_relationship",
+      "sourceLedger": "data/candidate-priority-p0-asia-disposition-2026-09-03.json",
+      "priorStatus": "missing_relationship",
+      "atlasPersonId": null
+    },
+    {
+      "canonicalKey": "Mainland China:北京大学:曲天书",
+      "name": "曲天书",
+      "region": "Mainland China",
+      "institution": "北京大学",
+      "status": "missing_relationship",
+      "evidenceUrls": [
+        "https://www.cis.pku.edu.cn/info/1362/2241.htm",
+        "https://www.cis.pku.edu.cn/szdw/zzjs.htm"
+      ],
+      "portraitUrl": "https://www.cis.pku.edu.cn/virtual_attach_file.vsb?afc=5nmvCDnl7PMRT2oQ7WfL4rRL7MRolrqRLzLsnNr7L4CZMlU0gihFp2hmCIa0nSy4LSyiLkh2UlC8olCsoRLPMNlPM87ioz74LRLbU8VVMRAFL8WVLzfRLRAFUznVLSb/v2veo4Oe_tbZ_IbT6YhXptQ0gY84gY84gtA8pUpcc&oid=1887772040&e=.jpg",
+      "checkedSources": [
+        {
+          "url": "https://www.cis.pku.edu.cn/info/1362/2241.htm",
+          "kind": "official_profile",
+          "result": "identified"
+        },
+        {
+          "url": "https://www.cis.pku.edu.cn/szdw/zzjs.htm",
+          "kind": "official_roster",
+          "result": "identified"
+        },
+        {
+          "url": "https://www.cis.pku.edu.cn/info/1362/2241.htm",
+          "finalUrl": "https://www.cis.pku.edu.cn/info/1362/2241.htm",
+          "kind": "profile_fetch",
+          "result": "fetched",
+          "httpStatus": 200,
+          "error": null
+        }
+      ],
+      "extractedEvidence": {
+        "pageTitle": "曲天书-北京大学智能学院",
+        "metaDescription": "曲天书                                  职称：副教授                  研究所：信息科学中心                                    研究领域：音频编码，空间听觉，声源定位与增强                   办公电...",
+        "imageCandidates": [
+          "https://www.cis.pku.edu.cn/images/logo.png",
+          "https://www.cis.pku.edu.cn/info/1362/images/lw1.png",
+          "https://www.cis.pku.edu.cn/info/1362/images/lw2.png",
+          "https://www.cis.pku.edu.cn/info/1362/images/lw3.png",
+          "https://www.cis.pku.edu.cn/info/1362/images/lw4.png",
+          "https://www.cis.pku.edu.cn/info/1362/images/lw5.png",
+          "https://www.cis.pku.edu.cn/info/1362/images/lw6.png",
+          "https://www.cis.pku.edu.cn/info/1362/images/lw7.png",
+          "https://www.cis.pku.edu.cn/info/1362/images/lw8.png",
+          "https://www.cis.pku.edu.cn/images/logo_wz33.png",
+          "https://www.cis.pku.edu.cn/images/lbypic.jpg",
+          "https://www.cis.pku.edu.cn/images/ltlf_pic.jpg",
+          "https://www.cis.pku.edu.cn/virtual_attach_file.vsb?afc=DUlWsfMRARL4LinZRLYMllDnRffolVbknNVfUzNPolnVoll0gihFp2hmCIa0nSy4LSyiLkh2UlC8olCsoRLPMNlPM87ioz74LRLbU8VVMRAFL8WVLzfRLRAFUznVLSb/v2veo4Oe_tbZ_IbT6YhXptQ0g474Mm-0Lm-8LSbw62E8c&oid=1887772040&tid=1362&nid=2241&e=.jpg",
+          "https://www.cis.pku.edu.cn/images/db_logo.png",
+          "https://www.cis.pku.edu.cn/images/dbewm.jpg"
+        ],
+        "relationshipEvidenceCandidates": [
+          "曲天书-北京大学智能学院 Birthplace of the Intelligence Discipline --> English 北京大学 首页 新闻动态 通知公告 学术交流 科研成果 学院概况 院长致辞 学院简介 组织结构 委员会 师资队伍 专职教师 博士后 行政教辅 荣休教师 学科建设 学科介绍 学科方向 学术成果 跨媒体通用人工智能全国重点实验室 校企合作 人才培养 研究生招生 研究生培养 智班培养 继续教育 招贤纳士 教师 博士后 青年论坛 行政教辅 学生工作 学工队伍 学生风采 公示信息 党团建设 所获荣誉 党建工作 党建动态 工会风采 智能校友 校友会 校友动态 校友捐赠 办公服务 行政办公 规章制度 常用下载 办事流程 会议室预定 学习专区 阅读专区 AI微课十讲 English 北京大学 导航菜单 专职教师 博士后 行政教辅 荣休教师 师资队伍 专职教师 博士后 行政教辅 荣休教师 当前位置: 首页 > 师资队伍 > 专职教师 > 正文 专职教师 曲天书 时间：2019-04-12 点击数： 职称 副教授 研究领域 音频编码，空间听觉，声源定位与增强 办公电话 86-10-62756824 电子邮件 qutianshu@pku.",
+          "2002年毕业于吉林大学通信与信息系统专业，获博士学位。",
+          "2002年 —2004年在北京大学做博士后研究工作，2004年至今在北京大学信息科学技术学院智能科学系承担教学科研工作，现任副教授。",
+          "主要学术任职 担任AVS音频组联合组长及IEEE，ASA，AES会员。"
+        ],
+        "relevantLinks": [
+          {
+            "label": "跨媒体通用人工智能全国重点实验室",
+            "url": "https://www.cis.pku.edu.cn/xkjs/kmttyrgzngzdsys/sysjj.htm"
+          },
+          {
+            "label": "学生工作",
+            "url": "https://www.cis.pku.edu.cn/xsgz/xgdw1.htm"
+          },
+          {
+            "label": "学生风采",
+            "url": "https://www.cis.pku.edu.cn/xsgz/xsfc1.htm"
+          },
+          {
+            "label": "会议室预定",
+            "url": "http://162.105.209.37/Member/YDConRoom/"
+          }
+        ]
+      },
+      "reason": "现任 PI 与名录来源已定位，但本轮未找到可由本人 CV、博士论文库、研究组 alumni 或官方项目页直接确认且端点可接入的关系证据；继续待核验。",
+      "disposition": "missing_relationship",
+      "sourceLedger": "data/candidate-priority-p0-asia-disposition-2026-09-03.json",
+      "priorStatus": "missing_relationship",
+      "atlasPersonId": null
+    },
+    {
+      "canonicalKey": "Mainland China:北京大学:曾钢",
+      "name": "曾钢",
+      "region": "Mainland China",
+      "institution": "北京大学",
+      "status": "missing_relationship",
+      "evidenceUrls": [
+        "https://www.cis.pku.edu.cn/info/1362/2254.htm",
+        "https://www.cis.pku.edu.cn/szdw/zzjs.htm"
+      ],
+      "portraitUrl": "https://www.cis.pku.edu.cn/virtual_attach_file.vsb?afc=5LzLC4LRG4M7CioQRWfolQ7UlnfL7lqPM4WfLRV7nm-DU4G0gihFp2hmCIa0M1hkMSh2Mkh7nmVfLNlPUzARn7-aUzUiM4-ZL7UYLRrVLRnFolM7n77PMmQFLlW7L1b/v2veo4Oe_tbZ_IbT6YhXptQ0gY84gY84gtA8pUpcc&oid=1887772040&e=.jpg",
+      "checkedSources": [
+        {
+          "url": "https://www.cis.pku.edu.cn/info/1362/2254.htm",
+          "kind": "official_profile",
+          "result": "identified"
+        },
+        {
+          "url": "https://www.cis.pku.edu.cn/szdw/zzjs.htm",
+          "kind": "official_roster",
+          "result": "identified"
+        },
+        {
+          "url": "https://www.cis.pku.edu.cn/info/1362/2254.htm",
+          "finalUrl": "https://www.cis.pku.edu.cn/info/1362/2254.htm",
+          "kind": "profile_fetch",
+          "result": "fetched",
+          "httpStatus": 200,
+          "error": null
+        }
+      ],
+      "extractedEvidence": {
+        "pageTitle": "曾钢-北京大学智能学院",
+        "metaDescription": "曾钢                                  职称：研究员                  研究所：信息科学中心                                    研究领域：计算机视觉和图形学，三维场景建模，基于图像或交互的建模和渲染，...",
+        "imageCandidates": [
+          "https://www.cis.pku.edu.cn/images/logo.png",
+          "https://www.cis.pku.edu.cn/info/1362/images/lw1.png",
+          "https://www.cis.pku.edu.cn/info/1362/images/lw2.png",
+          "https://www.cis.pku.edu.cn/info/1362/images/lw3.png",
+          "https://www.cis.pku.edu.cn/info/1362/images/lw4.png",
+          "https://www.cis.pku.edu.cn/info/1362/images/lw5.png",
+          "https://www.cis.pku.edu.cn/info/1362/images/lw6.png",
+          "https://www.cis.pku.edu.cn/info/1362/images/lw7.png",
+          "https://www.cis.pku.edu.cn/info/1362/images/lw8.png",
+          "https://www.cis.pku.edu.cn/images/logo_wz33.png",
+          "https://www.cis.pku.edu.cn/images/lbypic.jpg",
+          "https://www.cis.pku.edu.cn/images/ltlf_pic.jpg",
+          "https://www.cis.pku.edu.cn/virtual_attach_file.vsb?afc=DnmWsRUzGsnN7PLZz7Yn7nVUNWVLNlbiMmvaLNWVnzNZLN70gihFp2hmCIa0M1hkMSh2Mkh7nmVfLNlPUzARn7-aUzUiM4-ZL7UYLRrVLRnFolM7n77PMmQFLlW7L1b/v2veo4Oe_tbZ_IbT6YhXptQ0g474Mm-0Lm-iMkbw62E8c&oid=1887772040&tid=1362&nid=2254&e=.jpg",
+          "https://www.cis.pku.edu.cn/images/db_logo.png",
+          "https://www.cis.pku.edu.cn/images/dbewm.jpg"
+        ],
+        "relationshipEvidenceCandidates": [
+          "曾钢-北京大学智能学院 Birthplace of the Intelligence Discipline --> English 北京大学 首页 新闻动态 通知公告 学术交流 科研成果 学院概况 院长致辞 学院简介 组织结构 委员会 师资队伍 专职教师 博士后 行政教辅 荣休教师 学科建设 学科介绍 学科方向 学术成果 跨媒体通用人工智能全国重点实验室 校企合作 人才培养 研究生招生 研究生培养 智班培养 继续教育 招贤纳士 教师 博士后 青年论坛 行政教辅 学生工作 学工队伍 学生风采 公示信息 党团建设 所获荣誉 党建工作 党建动态 工会风采 智能校友 校友会 校友动态 校友捐赠 办公服务 行政办公 规章制度 常用下载 办事流程 会议室预定 学习专区 阅读专区 AI微课十讲 English 北京大学 导航菜单 专职教师 博士后 行政教辅 荣休教师 师资队伍 专职教师 博士后 行政教辅 荣休教师 当前位置: 首页 > 师资队伍 > 专职教师 > 正文 专职教师 曾钢 时间：2019-04-12 点击数： 职称 研究员 研究领域 计算机视觉和图形学，三维场景建模，基于图像或交互的建模和渲染，自动图像分割 办公电话 86-10-6275 7069 电子邮件 gang.",
+          "cn 2001年本科毕业于北京大学数学科学学院，2006年在香港科技大学计算机科学与技术系获博士学位，之后在苏黎世联邦理工学院从事助理研究员工作，2008 年底入选北京大学“青年优秀人才”，长期专注于计算机视觉和图形学研究，特别是基于图像的场景解析和几何建模。",
+          "曾担任国际学术期刊Neurocomputing编委，国际学术会议 ACPR 2011、CAD/Graphics 2013、IWRCV 2015领域主席，中国图像图形学学会机器视觉专业委员会秘书长和常务委员、国家能源核电工程建设技术研发(实验)中心数字化核电工程虚拟仿真实验室与协作平台专家组成员、北京大学-微软统计与信息技术实验室助理主任等职务。"
+        ],
+        "relevantLinks": [
+          {
+            "label": "跨媒体通用人工智能全国重点实验室",
+            "url": "https://www.cis.pku.edu.cn/xkjs/kmttyrgzngzdsys/sysjj.htm"
+          },
+          {
+            "label": "学生工作",
+            "url": "https://www.cis.pku.edu.cn/xsgz/xgdw1.htm"
+          },
+          {
+            "label": "学生风采",
+            "url": "https://www.cis.pku.edu.cn/xsgz/xsfc1.htm"
+          },
+          {
+            "label": "会议室预定",
+            "url": "http://162.105.209.37/Member/YDConRoom/"
+          }
+        ]
+      },
+      "reason": "现任 PI 与名录来源已定位，但本轮未找到可由本人 CV、博士论文库、研究组 alumni 或官方项目页直接确认且端点可接入的关系证据；继续待核验。",
+      "disposition": "missing_relationship",
+      "sourceLedger": "data/candidate-priority-p0-asia-disposition-2026-09-03.json",
+      "priorStatus": "missing_relationship",
+      "atlasPersonId": null
+    },
+    {
+      "canonicalKey": "Mainland China:北京大学:李红燕",
+      "name": "李红燕",
+      "region": "Mainland China",
+      "institution": "北京大学",
+      "status": "missing_relationship",
+      "evidenceUrls": [
+        "https://www.cis.pku.edu.cn/info/1362/2242.htm",
+        "https://www.cis.pku.edu.cn/szdw/zzjs.htm"
+      ],
+      "portraitUrl": "https://www.cis.pku.edu.cn/virtual_attach_file.vsb?afc=5nmfCVUmNaLRrRMQRnkLRliL7LYozUqPL8r7U4ARLmlYLzv0gihFp2hmCIa0MShVUSyYn1hfUlrVLz9ZUz7YLzCDUNLPnNrVLNU4nNlYUzrFUzrRnzNDnlMFLNU8MYb/v2veo4Oe_tbZ_IbT6YhXptQ0gY84gY84gtA8pUpcc&oid=1887772040&e=.jpg",
+      "checkedSources": [
+        {
+          "url": "https://www.cis.pku.edu.cn/info/1362/2242.htm",
+          "kind": "official_profile",
+          "result": "identified"
+        },
+        {
+          "url": "https://www.cis.pku.edu.cn/szdw/zzjs.htm",
+          "kind": "official_roster",
+          "result": "identified"
+        },
+        {
+          "url": "https://www.cis.pku.edu.cn/info/1362/2242.htm",
+          "finalUrl": "https://www.cis.pku.edu.cn/info/1362/2242.htm",
+          "kind": "profile_fetch",
+          "result": "fetched",
+          "httpStatus": 200,
+          "error": null
+        }
+      ],
+      "extractedEvidence": {
+        "pageTitle": "李红燕-北京大学智能学院",
+        "metaDescription": "李红燕                                  职称：教授                  研究所：信息科学中心                                    研究领域：大数据管理与挖掘                   办公电话：86-10-6275 491...",
+        "imageCandidates": [
+          "https://www.cis.pku.edu.cn/images/logo.png",
+          "https://www.cis.pku.edu.cn/info/1362/images/lw1.png",
+          "https://www.cis.pku.edu.cn/info/1362/images/lw2.png",
+          "https://www.cis.pku.edu.cn/info/1362/images/lw3.png",
+          "https://www.cis.pku.edu.cn/info/1362/images/lw4.png",
+          "https://www.cis.pku.edu.cn/info/1362/images/lw5.png",
+          "https://www.cis.pku.edu.cn/info/1362/images/lw6.png",
+          "https://www.cis.pku.edu.cn/info/1362/images/lw7.png",
+          "https://www.cis.pku.edu.cn/info/1362/images/lw8.png",
+          "https://www.cis.pku.edu.cn/images/logo_wz33.png",
+          "https://www.cis.pku.edu.cn/images/lbypic.jpg",
+          "https://www.cis.pku.edu.cn/images/ltlf_pic.jpg",
+          "https://www.cis.pku.edu.cn/virtual_attach_file.vsb?afc=DL8UsiMz7Po7n2MZ4UDnlLPnzLDM4fbVnlVRLmLZMmLPL4l0gihFp2hmCIa0MShVUSyYn1hfUlrVLz9ZUz7YLzCDUNLPnNrVLNU4nNlYUzrFUzrRnzNDnlMFLNU8MYb/v2veo4Oe_tbZ_IbT6YhXptQ0g474Mm-0Lm-8L1bw62E8c&oid=1887772040&tid=1362&nid=2242&e=.jpg",
+          "https://www.cis.pku.edu.cn/images/db_logo.png",
+          "https://www.cis.pku.edu.cn/images/dbewm.jpg"
+        ],
+        "relationshipEvidenceCandidates": [
+          "李红燕-北京大学智能学院 Birthplace of the Intelligence Discipline --> English 北京大学 首页 新闻动态 通知公告 学术交流 科研成果 学院概况 院长致辞 学院简介 组织结构 委员会 师资队伍 专职教师 博士后 行政教辅 荣休教师 学科建设 学科介绍 学科方向 学术成果 跨媒体通用人工智能全国重点实验室 校企合作 人才培养 研究生招生 研究生培养 智班培养 继续教育 招贤纳士 教师 博士后 青年论坛 行政教辅 学生工作 学工队伍 学生风采 公示信息 党团建设 所获荣誉 党建工作 党建动态 工会风采 智能校友 校友会 校友动态 校友捐赠 办公服务 行政办公 规章制度 常用下载 办事流程 会议室预定 学习专区 阅读专区 AI微课十讲 English 北京大学 导航菜单 专职教师 博士后 行政教辅 荣休教师 师资队伍 专职教师 博士后 行政教辅 荣休教师 当前位置: 首页 > 师资队伍 > 专职教师 > 正文 专职教师 李红燕 时间：2019-04-12 点击数： 职称 教授 研究领域 大数据管理与挖掘 办公电话 86-10-6275 4911 电子邮件 lihy@cis.",
+          "cn 1999获西北工业大学计算机科学与工程系计算机软件与理论专业工学博士学位后，到北京大学信息科学中心进行博士后研究工作，2001年留校任教至今。",
+          "现为北京大学信息科学技术学院智能科学系教授，博士生导师。",
+          "注重理论研究与实际应用的紧密结合，在大数据管理和挖掘方向的相关成果应用于中国移动通信、Singapore National Healthcare Group等重要应用领域。",
+          "指导学生获得第二届“IBM杯”高校校园创新设计大赛二等奖、第一届中国大数据技术创新与创业大赛二等奖、“中国好创意”全国青年大数据创新大赛一等奖、第18届PhysioNet比赛一等奖。"
+        ],
+        "relevantLinks": [
+          {
+            "label": "跨媒体通用人工智能全国重点实验室",
+            "url": "https://www.cis.pku.edu.cn/xkjs/kmttyrgzngzdsys/sysjj.htm"
+          },
+          {
+            "label": "学生工作",
+            "url": "https://www.cis.pku.edu.cn/xsgz/xgdw1.htm"
+          },
+          {
+            "label": "学生风采",
+            "url": "https://www.cis.pku.edu.cn/xsgz/xsfc1.htm"
+          },
+          {
+            "label": "会议室预定",
+            "url": "http://162.105.209.37/Member/YDConRoom/"
+          }
+        ]
+      },
+      "reason": "现任 PI 与名录来源已定位，但本轮未找到可由本人 CV、博士论文库、研究组 alumni 或官方项目页直接确认且端点可接入的关系证据；继续待核验。",
+      "disposition": "missing_relationship",
+      "sourceLedger": "data/candidate-priority-p0-asia-disposition-2026-09-03.json",
+      "priorStatus": "missing_relationship",
+      "atlasPersonId": null
+    },
+    {
+      "canonicalKey": "Mainland China:北京大学:查红彬",
+      "name": "查红彬",
+      "region": "Mainland China",
+      "institution": "北京大学",
+      "status": "missing_relationship",
+      "evidenceUrls": [
+        "https://www.cis.pku.edu.cn/info/1362/2247.htm",
+        "https://www.cis.pku.edu.cn/szdw/zzjs.htm"
+      ],
+      "portraitUrl": "https://www.cis.pku.edu.cn/virtual_attach_file.vsb?afc=5nR7CDMz6fU4vsoQRUsUmVfoRf7nmrq7M4Lanl-aM7-4LRN0gihFp2hmCIa0MYhkUYy8LSyDollbMR9YnlLbL4W7Llr7LmlZUm-DL47DM8MFMRU4nRlaMNQFLmfkLYb/v2veo4Oe_tbZ_IbT6YhXptQ0gY84gY84gtA8pUpcc&oid=1887772040&e=.jpg",
+      "checkedSources": [
+        {
+          "url": "https://www.cis.pku.edu.cn/info/1362/2247.htm",
+          "kind": "official_profile",
+          "result": "identified"
+        },
+        {
+          "url": "https://www.cis.pku.edu.cn/szdw/zzjs.htm",
+          "kind": "official_roster",
+          "result": "identified"
+        },
+        {
+          "url": "https://www.cis.pku.edu.cn/info/1362/2247.htm",
+          "finalUrl": "https://www.cis.pku.edu.cn/info/1362/2247.htm",
+          "kind": "profile_fetch",
+          "result": "fetched",
+          "httpStatus": 200,
+          "error": null
+        }
+      ],
+      "extractedEvidence": {
+        "pageTitle": "查红彬-北京大学智能学院",
+        "metaDescription": "查红彬                                  职称：教授                  研究所：信息科学中心                                    研究领域：智能科学技术、计算机视觉                   办公电话：86-10...",
+        "imageCandidates": [
+          "https://www.cis.pku.edu.cn/images/logo.png",
+          "https://www.cis.pku.edu.cn/info/1362/images/lw1.png",
+          "https://www.cis.pku.edu.cn/info/1362/images/lw2.png",
+          "https://www.cis.pku.edu.cn/info/1362/images/lw3.png",
+          "https://www.cis.pku.edu.cn/info/1362/images/lw4.png",
+          "https://www.cis.pku.edu.cn/info/1362/images/lw5.png",
+          "https://www.cis.pku.edu.cn/info/1362/images/lw6.png",
+          "https://www.cis.pku.edu.cn/info/1362/images/lw7.png",
+          "https://www.cis.pku.edu.cn/info/1362/images/lw8.png",
+          "https://www.cis.pku.edu.cn/images/logo_wz33.png",
+          "https://www.cis.pku.edu.cn/images/lbypic.jpg",
+          "https://www.cis.pku.edu.cn/images/ltlf_pic.jpg",
+          "https://www.cis.pku.edu.cn/virtual_attach_file.vsb?afc=DUmGsPLmvbL7UsoZzVfM8-ZUlnVUlnb2UzGZMRfkMlQVM8l0gihFp2hmCIa0MYhkUYy8LSyDollbMR9YnlLbL4W7Llr7LmlZUm-DL47DM8MFMRU4nRlaMNQFLmfkLYb/v2veo4Oe_tbZ_IbT6YhXptQ0g474Mm-0Lm-8MYbw62E8c&oid=1887772040&tid=1362&nid=2247&e=.jpg",
+          "https://www.cis.pku.edu.cn/images/db_logo.png",
+          "https://www.cis.pku.edu.cn/images/dbewm.jpg"
+        ],
+        "relationshipEvidenceCandidates": [
+          "查红彬-北京大学智能学院 Birthplace of the Intelligence Discipline --> English 北京大学 首页 新闻动态 通知公告 学术交流 科研成果 学院概况 院长致辞 学院简介 组织结构 委员会 师资队伍 专职教师 博士后 行政教辅 荣休教师 学科建设 学科介绍 学科方向 学术成果 跨媒体通用人工智能全国重点实验室 校企合作 人才培养 研究生招生 研究生培养 智班培养 继续教育 招贤纳士 教师 博士后 青年论坛 行政教辅 学生工作 学工队伍 学生风采 公示信息 党团建设 所获荣誉 党建工作 党建动态 工会风采 智能校友 校友会 校友动态 校友捐赠 办公服务 行政办公 规章制度 常用下载 办事流程 会议室预定 学习专区 阅读专区 AI微课十讲 English 北京大学 导航菜单 专职教师 博士后 行政教辅 荣休教师 师资队伍 专职教师 博士后 行政教辅 荣休教师 当前位置: 首页 > 师资队伍 > 专职教师 > 正文 专职教师 查红彬 时间：2019-04-12 点击数： 职称 教授 研究领域 智能科学技术、计算机视觉.",
+          "1991 年任九州大学副教授，现为北京大学信息科学技术学院教授，机器感知与智能教育部重点实验室主任，教育部长江学者奖励计划特聘教授。",
+          "教育部创新团队“机器感知理论及应用”团队学术带头人（2009）。"
+        ],
+        "relevantLinks": [
+          {
+            "label": "跨媒体通用人工智能全国重点实验室",
+            "url": "https://www.cis.pku.edu.cn/xkjs/kmttyrgzngzdsys/sysjj.htm"
+          },
+          {
+            "label": "学生工作",
+            "url": "https://www.cis.pku.edu.cn/xsgz/xgdw1.htm"
+          },
+          {
+            "label": "学生风采",
+            "url": "https://www.cis.pku.edu.cn/xsgz/xsfc1.htm"
+          },
+          {
+            "label": "会议室预定",
+            "url": "http://162.105.209.37/Member/YDConRoom/"
+          }
+        ]
+      },
+      "reason": "现任 PI 与名录来源已定位，但本轮未找到可由本人 CV、博士论文库、研究组 alumni 或官方项目页直接确认且端点可接入的关系证据；继续待核验。",
+      "disposition": "missing_relationship",
+      "sourceLedger": "data/candidate-priority-p0-asia-disposition-2026-09-03.json",
+      "priorStatus": "missing_relationship",
+      "atlasPersonId": null
+    },
+    {
+      "canonicalKey": "Mainland China:北京大学:楚梦渝",
+      "name": "楚梦渝",
+      "region": "Mainland China",
+      "institution": "北京大学",
+      "status": "missing_relationship",
+      "evidenceUrls": [
+        "https://www.cis.pku.edu.cn/info/1362/2386.htm",
+        "https://www.cis.pku.edu.cn/szdw/zzjs.htm"
+      ],
+      "portraitUrl": "https://www.cis.pku.edu.cn/virtual_attach_file.vsb?afc=5MR-Cboz7ZoRW7MQNVVMmnRMNV2oRMq7ol-inmWfoRQRoRv0gihFp2hmCIa0UYhfUYhfU1hfMmCYMmUPMzGsL7U8UN74MRN4UNC4Mm67MRAFnRvsol7YLR6FL4WfU1b/v2veo4Oe_tbZ_IbT6YhXptQ0gY84gY84gtA8pUpcc&oid=1887772040&e=.jpg",
+      "checkedSources": [
+        {
+          "url": "https://www.cis.pku.edu.cn/info/1362/2386.htm",
+          "kind": "official_profile",
+          "result": "identified"
+        },
+        {
+          "url": "https://www.cis.pku.edu.cn/szdw/zzjs.htm",
+          "kind": "official_roster",
+          "result": "identified"
+        },
+        {
+          "url": "https://www.cis.pku.edu.cn/info/1362/2386.htm",
+          "finalUrl": "https://www.cis.pku.edu.cn/info/1362/2386.htm",
+          "kind": "profile_fetch",
+          "result": "fetched",
+          "httpStatus": 200,
+          "error": null
+        }
+      ],
+      "extractedEvidence": {
+        "pageTitle": "楚梦渝-北京大学智能学院",
+        "metaDescription": "楚梦渝职称：助理教授研究领域：计算机图形学，物理仿真，机器学习电子邮件：mchu@pku.edu.c",
+        "imageCandidates": [
+          "https://www.cis.pku.edu.cn/images/logo.png",
+          "https://www.cis.pku.edu.cn/info/1362/images/lw1.png",
+          "https://www.cis.pku.edu.cn/info/1362/images/lw2.png",
+          "https://www.cis.pku.edu.cn/info/1362/images/lw3.png",
+          "https://www.cis.pku.edu.cn/info/1362/images/lw4.png",
+          "https://www.cis.pku.edu.cn/info/1362/images/lw5.png",
+          "https://www.cis.pku.edu.cn/info/1362/images/lw6.png",
+          "https://www.cis.pku.edu.cn/info/1362/images/lw7.png",
+          "https://www.cis.pku.edu.cn/info/1362/images/lw8.png",
+          "https://www.cis.pku.edu.cn/images/logo_wz33.png",
+          "https://www.cis.pku.edu.cn/images/lbypic.jpg",
+          "https://www.cis.pku.edu.cn/images/ltlf_pic.jpg",
+          "https://www.cis.pku.edu.cn/virtual_attach_file.vsb?afc=sLz9Z8U8U4LmvaobRVVLlVRM7UbU8rE2nm94MRQ2nRQknm70gihFp2hmCIa0U1yankhVMSyYn7-4LRf7LNCYLmvaM4UbMmf2M77iLR6fU4nFM47aL7r7UNMFLzLanmlJqjfjo4OeosXJ_dTJQ5v0qIbtpYyPL4CYg4-4oRCJqdenx&oid=1887772040&tid=1362&nid=2386&e=.jpg",
+          "https://www.cis.pku.edu.cn/images/db_logo.png",
+          "https://www.cis.pku.edu.cn/images/dbewm.jpg"
+        ],
+        "relationshipEvidenceCandidates": [
+          "楚梦渝-北京大学智能学院 Birthplace of the Intelligence Discipline --> English 北京大学 首页 新闻动态 通知公告 学术交流 科研成果 学院概况 院长致辞 学院简介 组织结构 委员会 师资队伍 专职教师 博士后 行政教辅 荣休教师 学科建设 学科介绍 学科方向 学术成果 跨媒体通用人工智能全国重点实验室 校企合作 人才培养 研究生招生 研究生培养 智班培养 继续教育 招贤纳士 教师 博士后 青年论坛 行政教辅 学生工作 学工队伍 学生风采 公示信息 党团建设 所获荣誉 党建工作 党建动态 工会风采 智能校友 校友会 校友动态 校友捐赠 办公服务 行政办公 规章制度 常用下载 办事流程 会议室预定 学习专区 阅读专区 AI微课十讲 English 北京大学 导航菜单 专职教师 博士后 行政教辅 荣休教师 师资队伍 专职教师 博士后 行政教辅 荣休教师 当前位置: 首页 > 师资队伍 > 专职教师 > 正文 专职教师 楚梦渝 时间：2019-04-12 点击数： 职称 助理教授 研究领域 计算机图形学，物理仿真，机器学习 办公电话 电子邮件 mchu@pku."
+        ],
+        "relevantLinks": [
+          {
+            "label": "跨媒体通用人工智能全国重点实验室",
+            "url": "https://www.cis.pku.edu.cn/xkjs/kmttyrgzngzdsys/sysjj.htm"
+          },
+          {
+            "label": "学生工作",
+            "url": "https://www.cis.pku.edu.cn/xsgz/xgdw1.htm"
+          },
+          {
+            "label": "学生风采",
+            "url": "https://www.cis.pku.edu.cn/xsgz/xsfc1.htm"
+          },
+          {
+            "label": "会议室预定",
+            "url": "http://162.105.209.37/Member/YDConRoom/"
+          }
+        ]
+      },
+      "reason": "现任 PI 与名录来源已定位，但本轮未找到可由本人 CV、博士论文库、研究组 alumni 或官方项目页直接确认且端点可接入的关系证据；继续待核验。",
+      "disposition": "missing_relationship",
+      "sourceLedger": "data/candidate-priority-p0-asia-disposition-2026-09-03.json",
+      "priorStatus": "missing_relationship",
+      "atlasPersonId": null
+    },
+    {
+      "canonicalKey": "Mainland China:北京大学:童云海",
+      "name": "童云海",
+      "region": "Mainland China",
+      "institution": "北京大学",
+      "status": "missing_relationship",
+      "evidenceUrls": [
+        "https://www.cis.pku.edu.cn/info/1362/2252.htm",
+        "https://www.cis.pku.edu.cn/szdw/zzjs.htm"
+      ],
+      "portraitUrl": "https://www.cis.pku.edu.cn/virtual_attach_file.vsb?afc=5oz-CPLmNaU8C8MQ4TkU4-4MRffolnq2nNUbLN7anzNZnmL0gihFp2hmCIa0U1h7n1yaU1yYUmM2oz74MNV7o7U4ozLsMz62ol-iLNCbL4QFLmn2nzvaMRnFUzCPoSb/v2veo4Oe_tbZ_IbT6YhXptQ0gY84gY84gtA8pUpcc&oid=1887772040&e=.jpg",
+      "checkedSources": [
+        {
+          "url": "https://www.cis.pku.edu.cn/info/1362/2252.htm",
+          "kind": "official_profile",
+          "result": "identified"
+        },
+        {
+          "url": "https://www.cis.pku.edu.cn/szdw/zzjs.htm",
+          "kind": "official_roster",
+          "result": "identified"
+        },
+        {
+          "url": "https://www.cis.pku.edu.cn/info/1362/2252.htm",
+          "finalUrl": "https://www.cis.pku.edu.cn/info/1362/2252.htm",
+          "kind": "profile_fetch",
+          "result": "fetched",
+          "httpStatus": 200,
+          "error": null
+        }
+      ],
+      "extractedEvidence": {
+        "pageTitle": "童云海-北京大学智能学院",
+        "metaDescription": "童云海                                  职称：教授                  研究所：信息科学中心                                    研究领域：数据挖掘与知识发现，智能媒体分析，隐私保护，数字图书馆      ...",
+        "imageCandidates": [
+          "https://www.cis.pku.edu.cn/images/logo.png",
+          "https://www.cis.pku.edu.cn/info/1362/images/lw1.png",
+          "https://www.cis.pku.edu.cn/info/1362/images/lw2.png",
+          "https://www.cis.pku.edu.cn/info/1362/images/lw3.png",
+          "https://www.cis.pku.edu.cn/info/1362/images/lw4.png",
+          "https://www.cis.pku.edu.cn/info/1362/images/lw5.png",
+          "https://www.cis.pku.edu.cn/info/1362/images/lw6.png",
+          "https://www.cis.pku.edu.cn/info/1362/images/lw7.png",
+          "https://www.cis.pku.edu.cn/info/1362/images/lw8.png",
+          "https://www.cis.pku.edu.cn/images/logo_wz33.png",
+          "https://www.cis.pku.edu.cn/images/lbypic.jpg",
+          "https://www.cis.pku.edu.cn/images/ltlf_pic.jpg",
+          "https://www.cis.pku.edu.cn/virtual_attach_file.vsb?afc=Dnz9sYLmLiMz-PnZNnRn7lsLz-8nmTbfnlMRLNUbMRl4nNU0gihFp2hmCIa0U1h7n1yaU1yYUmM2oz74MNV7o7U4ozLsMz62ol-iLNCbL4QFLmn2nzvaMRnFUzCPoSb/v2veo4Oe_tbZ_IbT6YhXptQ0g474Mm-0Lm-iL1bw62E8c&oid=1887772040&tid=1362&nid=2252&e=.jpg",
+          "https://www.cis.pku.edu.cn/images/db_logo.png",
+          "https://www.cis.pku.edu.cn/images/dbewm.jpg"
+        ],
+        "relationshipEvidenceCandidates": [
+          "童云海-北京大学智能学院 Birthplace of the Intelligence Discipline --> English 北京大学 首页 新闻动态 通知公告 学术交流 科研成果 学院概况 院长致辞 学院简介 组织结构 委员会 师资队伍 专职教师 博士后 行政教辅 荣休教师 学科建设 学科介绍 学科方向 学术成果 跨媒体通用人工智能全国重点实验室 校企合作 人才培养 研究生招生 研究生培养 智班培养 继续教育 招贤纳士 教师 博士后 青年论坛 行政教辅 学生工作 学工队伍 学生风采 公示信息 党团建设 所获荣誉 党建工作 党建动态 工会风采 智能校友 校友会 校友动态 校友捐赠 办公服务 行政办公 规章制度 常用下载 办事流程 会议室预定 学习专区 阅读专区 AI微课十讲 English 北京大学 导航菜单 专职教师 博士后 行政教辅 荣休教师 师资队伍 专职教师 博士后 行政教辅 荣休教师 当前位置: 首页 > 师资队伍 > 专职教师 > 正文 专职教师 童云海 时间：2019-04-12 点击数： 职称 教授 研究领域 数据挖掘与知识发现，智能媒体分析，隐私保护，数字图书馆 办公电话 86-10-62756920 电子邮件 yhtong@pku."
+        ],
+        "relevantLinks": [
+          {
+            "label": "跨媒体通用人工智能全国重点实验室",
+            "url": "https://www.cis.pku.edu.cn/xkjs/kmttyrgzngzdsys/sysjj.htm"
+          },
+          {
+            "label": "学生工作",
+            "url": "https://www.cis.pku.edu.cn/xsgz/xgdw1.htm"
+          },
+          {
+            "label": "学生风采",
+            "url": "https://www.cis.pku.edu.cn/xsgz/xsfc1.htm"
+          },
+          {
+            "label": "会议室预定",
+            "url": "http://162.105.209.37/Member/YDConRoom/"
+          }
+        ]
+      },
+      "reason": "现任 PI 与名录来源已定位，但本轮未找到可由本人 CV、博士论文库、研究组 alumni 或官方项目页直接确认且端点可接入的关系证据；继续待核验。",
+      "disposition": "missing_relationship",
+      "sourceLedger": "data/candidate-priority-p0-asia-disposition-2026-09-03.json",
+      "priorStatus": "missing_relationship",
+      "atlasPersonId": null
+    },
+    {
+      "canonicalKey": "Mainland China:北京大学:罗定生",
+      "name": "罗定生",
+      "region": "Mainland China",
+      "institution": "北京大学",
+      "status": "missing_relationship",
+      "evidenceUrls": [
+        "https://www.cis.pku.edu.cn/info/1362/2259.htm",
+        "https://www.cis.pku.edu.cn/szdw/zzjs.htm"
+      ],
+      "portraitUrl": "https://www.cis.pku.edu.cn/virtual_attach_file.vsb?afc=5LzvCDLzrfU4vDnQR-ZUzNYLz-bozAq7ozLPU4lDoznVLzN0gihFp2hmCIa0n1ybUYyPnkyaU8lbLmCbUNLanzL4nlrVM4vYUN7iMlnRLzMFnllsMzNaLmQFLzG8UzCJv2bjo4OeosXJ_dTJQ5v0qIbtpYyxLYyxLYbw62p8c&oid=1887772040&e=.png",
+      "checkedSources": [
+        {
+          "url": "https://www.cis.pku.edu.cn/info/1362/2259.htm",
+          "kind": "official_profile",
+          "result": "identified"
+        },
+        {
+          "url": "https://www.cis.pku.edu.cn/szdw/zzjs.htm",
+          "kind": "official_roster",
+          "result": "identified"
+        },
+        {
+          "url": "https://www.cis.pku.edu.cn/info/1362/2259.htm",
+          "finalUrl": "https://www.cis.pku.edu.cn/info/1362/2259.htm",
+          "kind": "profile_fetch",
+          "result": "fetched",
+          "httpStatus": 200,
+          "error": null
+        }
+      ],
+      "extractedEvidence": {
+        "pageTitle": "罗定生-北京大学智能学院",
+        "metaDescription": "罗定生                                  职称：副教授                  研究所：信息科学中心                                    研究领域：涉身智能、机器学习、智能信息处理、机器人学、仿人机器人等  ...",
+        "imageCandidates": [
+          "https://www.cis.pku.edu.cn/images/logo.png",
+          "https://www.cis.pku.edu.cn/info/1362/images/lw1.png",
+          "https://www.cis.pku.edu.cn/info/1362/images/lw2.png",
+          "https://www.cis.pku.edu.cn/info/1362/images/lw3.png",
+          "https://www.cis.pku.edu.cn/info/1362/images/lw4.png",
+          "https://www.cis.pku.edu.cn/info/1362/images/lw5.png",
+          "https://www.cis.pku.edu.cn/info/1362/images/lw6.png",
+          "https://www.cis.pku.edu.cn/info/1362/images/lw7.png",
+          "https://www.cis.pku.edu.cn/info/1362/images/lw8.png",
+          "https://www.cis.pku.edu.cn/images/logo_wz33.png",
+          "https://www.cis.pku.edu.cn/images/lbypic.jpg",
+          "https://www.cis.pku.edu.cn/images/ltlf_pic.jpg",
+          "https://www.cis.pku.edu.cn/virtual_attach_file.vsb?afc=DolLs8MzfVU8M2MZNCDUzA7nRUsL7lbYLNUaUm7iL7C4ozG0gihFp2hmCIa0n1ybUYyPnkyaU8lbLmCbUNLanzL4nlrVM4vYUN7iMlnRLzMFnllsMzNaLmQFLzG8UzCJv2bjo4OeosXJ_dTJQ5v0qIbtpYyPL4CYg4-YMzNJqdEnx&oid=1887772040&tid=1362&nid=2259&e=.png",
+          "https://www.cis.pku.edu.cn/images/db_logo.png",
+          "https://www.cis.pku.edu.cn/images/dbewm.jpg"
+        ],
+        "relationshipEvidenceCandidates": [
+          "罗定生-北京大学智能学院 Birthplace of the Intelligence Discipline --> English 北京大学 首页 新闻动态 通知公告 学术交流 科研成果 学院概况 院长致辞 学院简介 组织结构 委员会 师资队伍 专职教师 博士后 行政教辅 荣休教师 学科建设 学科介绍 学科方向 学术成果 跨媒体通用人工智能全国重点实验室 校企合作 人才培养 研究生招生 研究生培养 智班培养 继续教育 招贤纳士 教师 博士后 青年论坛 行政教辅 学生工作 学工队伍 学生风采 公示信息 党团建设 所获荣誉 党建工作 党建动态 工会风采 智能校友 校友会 校友动态 校友捐赠 办公服务 行政办公 规章制度 常用下载 办事流程 会议室预定 学习专区 阅读专区 AI微课十讲 English 北京大学 导航菜单 专职教师 博士后 行政教辅 荣休教师 师资队伍 专职教师 博士后 行政教辅 荣休教师 当前位置: 首页 > 师资队伍 > 专职教师 > 正文 专职教师 罗定生 时间：2019-04-12 点击数： 职称 副教授 研究领域 人工智能、机器学习、语音语言信息处理、智能信息处理、机器人学、仿人机器人等.",
+          "cn/dsluo 罗定生，北京大学副教授，博士，北京大学智能科学系副系主任。",
+          "1997年获西北师范大学计算机科学系学士学位，2000年获兰州大学数学系计算数学专业硕士学位，2003年在北京大学视觉与听觉信息处理国家重点实验室、信息科学中心信号与信息处理专业获博士学位，并于同年就职于北京大学，从事教学科研工作至今。",
+          "所在单位北京大学信息学院智能科学系、机器感知与智能教育部重点实验室。"
+        ],
+        "relevantLinks": [
+          {
+            "label": "跨媒体通用人工智能全国重点实验室",
+            "url": "https://www.cis.pku.edu.cn/xkjs/kmttyrgzngzdsys/sysjj.htm"
+          },
+          {
+            "label": "学生工作",
+            "url": "https://www.cis.pku.edu.cn/xsgz/xgdw1.htm"
+          },
+          {
+            "label": "学生风采",
+            "url": "https://www.cis.pku.edu.cn/xsgz/xsfc1.htm"
+          },
+          {
+            "label": "会议室预定",
+            "url": "http://162.105.209.37/Member/YDConRoom/"
+          }
+        ]
+      },
+      "reason": "现任 PI 与名录来源已定位，但本轮未找到可由本人 CV、博士论文库、研究组 alumni 或官方项目页直接确认且端点可接入的关系证据；继续待核验。",
+      "disposition": "missing_relationship",
+      "sourceLedger": "data/candidate-priority-p0-asia-disposition-2026-09-03.json",
+      "priorStatus": "missing_relationship",
+      "atlasPersonId": null
+    },
+    {
+      "canonicalKey": "Mainland China:北京大学:英向华",
+      "name": "英向华",
+      "region": "Mainland China",
+      "institution": "北京大学",
+      "status": "missing_relationship",
+      "evidenceUrls": [
+        "https://www.cis.pku.edu.cn/info/1362/2272.htm",
+        "https://www.cis.pku.edu.cn/szdw/zzjs.htm"
+      ],
+      "portraitUrl": "https://www.cis.pku.edu.cn/virtual_attach_file.vsb?afc=5M4LCaLzvPo7LaLQ4A7oRT2MRvDn7WqVL4CinNnVU8Wfnz-0gihFp2hmCIa0n1yZMSybLYyPozU4Mm6kLm7YMRl8LznfnmUYL47PLlUsU4AFM49PMm78UlMFLzQ2USb/v2veo4Oe_tbZ_IbT6YhXptQ0gY84gY84gtA8pUpcc&oid=1887772040&e=.jpg",
+      "checkedSources": [
+        {
+          "url": "https://www.cis.pku.edu.cn/info/1362/2272.htm",
+          "kind": "official_profile",
+          "result": "identified"
+        },
+        {
+          "url": "https://www.cis.pku.edu.cn/szdw/zzjs.htm",
+          "kind": "official_roster",
+          "result": "identified"
+        },
+        {
+          "url": "https://www.cis.pku.edu.cn/info/1362/2272.htm",
+          "finalUrl": "https://www.cis.pku.edu.cn/info/1362/2272.htm",
+          "kind": "profile_fetch",
+          "result": "fetched",
+          "httpStatus": 200,
+          "error": null
+        }
+      ],
+      "extractedEvidence": {
+        "pageTitle": "英向华-北京大学智能学院",
+        "metaDescription": "英向华                                  职称：教授                  研究所：信息科学中心                                    研究领域：计算机视觉、虚拟现实、计算成像学                   办公电话...",
+        "imageCandidates": [
+          "https://www.cis.pku.edu.cn/images/logo.png",
+          "https://www.cis.pku.edu.cn/info/1362/images/lw1.png",
+          "https://www.cis.pku.edu.cn/info/1362/images/lw2.png",
+          "https://www.cis.pku.edu.cn/info/1362/images/lw3.png",
+          "https://www.cis.pku.edu.cn/info/1362/images/lw4.png",
+          "https://www.cis.pku.edu.cn/info/1362/images/lw5.png",
+          "https://www.cis.pku.edu.cn/info/1362/images/lw6.png",
+          "https://www.cis.pku.edu.cn/info/1362/images/lw7.png",
+          "https://www.cis.pku.edu.cn/info/1362/images/lw8.png",
+          "https://www.cis.pku.edu.cn/images/logo_wz33.png",
+          "https://www.cis.pku.edu.cn/images/lbypic.jpg",
+          "https://www.cis.pku.edu.cn/images/ltlf_pic.jpg",
+          "https://www.cis.pku.edu.cn/virtual_attach_file.vsb?afc=Dnm7ssLzlDnmTkLZR7ZMRC8nmNPnm7biUmV2U4VfMlLbLzG0gihFp2hmCIa0n1yZMSybLYyPozU4Mm6kLm7YMRl8LznfnmUYL47PLlUsU4AFM49PMm78UlMFLzQ2USb/v2veo4Oe_tbZ_IbT6YhXptQ0g474Mm-0Lm-sL1bw62E8c&oid=1887772040&tid=1362&nid=2272&e=.jpg",
+          "https://www.cis.pku.edu.cn/images/db_logo.png",
+          "https://www.cis.pku.edu.cn/images/dbewm.jpg"
+        ],
+        "relationshipEvidenceCandidates": [
+          "英向华-北京大学智能学院 Birthplace of the Intelligence Discipline --> English 北京大学 首页 新闻动态 通知公告 学术交流 科研成果 学院概况 院长致辞 学院简介 组织结构 委员会 师资队伍 专职教师 博士后 行政教辅 荣休教师 学科建设 学科介绍 学科方向 学术成果 跨媒体通用人工智能全国重点实验室 校企合作 人才培养 研究生招生 研究生培养 智班培养 继续教育 招贤纳士 教师 博士后 青年论坛 行政教辅 学生工作 学工队伍 学生风采 公示信息 党团建设 所获荣誉 党建工作 党建动态 工会风采 智能校友 校友会 校友动态 校友捐赠 办公服务 行政办公 规章制度 常用下载 办事流程 会议室预定 学习专区 阅读专区 AI微课十讲 English 北京大学 导航菜单 专职教师 博士后 行政教辅 荣休教师 师资队伍 专职教师 博士后 行政教辅 荣休教师 当前位置: 首页 > 师资队伍 > 专职教师 > 正文 专职教师 英向华 时间：2019-04-12 点击数： 职称 教授 研究领域 计算机视觉、虚拟现实、计算成像学.",
+          "cn 教育背景 2004年于中国科学院自动化研究所获模式识别与智能系统专业工学博士学位。",
+          "主要学术任职 参加过多个国际会议的组织工作：IEEE Conference on Computer Vision and Pattern Recognition (CVPR 2011、2012、2013、2014、2015、2016) 程序委员会委员。"
+        ],
+        "relevantLinks": [
+          {
+            "label": "跨媒体通用人工智能全国重点实验室",
+            "url": "https://www.cis.pku.edu.cn/xkjs/kmttyrgzngzdsys/sysjj.htm"
+          },
+          {
+            "label": "学生工作",
+            "url": "https://www.cis.pku.edu.cn/xsgz/xgdw1.htm"
+          },
+          {
+            "label": "学生风采",
+            "url": "https://www.cis.pku.edu.cn/xsgz/xsfc1.htm"
+          },
+          {
+            "label": "会议室预定",
+            "url": "http://162.105.209.37/Member/YDConRoom/"
+          }
+        ]
+      },
+      "reason": "现任 PI 与名录来源已定位，但本轮未找到可由本人 CV、博士论文库、研究组 alumni 或官方项目页直接确认且端点可接入的关系证据；继续待核验。",
+      "disposition": "missing_relationship",
+      "sourceLedger": "data/candidate-priority-p0-asia-disposition-2026-09-03.json",
+      "priorStatus": "missing_relationship",
+      "atlasPersonId": null
+    },
+    {
+      "canonicalKey": "Mainland China:北京大学:袁晓如",
+      "name": "袁晓如",
+      "region": "Mainland China",
+      "institution": "北京大学",
+      "status": "missing_relationship",
+      "evidenceUrls": [
+        "https://www.cis.pku.edu.cn/info/1362/2270.htm",
+        "https://www.cis.pku.edu.cn/szdw/zzjs.htm"
+      ],
+      "portraitUrl": "https://www.cis.pku.edu.cn/virtual_attach_file.vsb?afc=5L77C4U8Q2L8VVMQRU8U4nfnmMknzCq4nRWRUNn7nlC4nR-0gihFp2hmCIa0M1yZM1y4UYy4LNU8UllaMNUao7CYLN78o7LbnNQVMzM7L8WFUzGDM8QkMmVFLlCDM1b/v2veo4Oe_tbZ_IbT6YhXptQ0gY84gY84gtA8pUpcc&oid=1887772040&e=.jpg",
+      "checkedSources": [
+        {
+          "url": "https://www.cis.pku.edu.cn/info/1362/2270.htm",
+          "kind": "official_profile",
+          "result": "identified"
+        },
+        {
+          "url": "https://www.cis.pku.edu.cn/szdw/zzjs.htm",
+          "kind": "official_roster",
+          "result": "identified"
+        },
+        {
+          "url": "https://www.cis.pku.edu.cn/info/1362/2270.htm",
+          "finalUrl": "https://www.cis.pku.edu.cn/info/1362/2270.htm",
+          "kind": "profile_fetch",
+          "result": "fetched",
+          "httpStatus": 200,
+          "error": null
+        }
+      ],
+      "extractedEvidence": {
+        "pageTitle": "袁晓如-北京大学智能学院",
+        "metaDescription": "袁晓如                                  职称：研究员                  研究所：信息科学中心                                    研究领域：科学可视化，信息可视化，可视分析，人机交互，计算机图形学 ...",
+        "imageCandidates": [
+          "https://www.cis.pku.edu.cn/images/logo.png",
+          "https://www.cis.pku.edu.cn/info/1362/images/lw1.png",
+          "https://www.cis.pku.edu.cn/info/1362/images/lw2.png",
+          "https://www.cis.pku.edu.cn/info/1362/images/lw3.png",
+          "https://www.cis.pku.edu.cn/info/1362/images/lw4.png",
+          "https://www.cis.pku.edu.cn/info/1362/images/lw5.png",
+          "https://www.cis.pku.edu.cn/info/1362/images/lw6.png",
+          "https://www.cis.pku.edu.cn/info/1362/images/lw7.png",
+          "https://www.cis.pku.edu.cn/info/1362/images/lw8.png",
+          "https://www.cis.pku.edu.cn/images/logo_wz33.png",
+          "https://www.cis.pku.edu.cn/images/lbypic.jpg",
+          "https://www.cis.pku.edu.cn/images/ltlf_pic.jpg",
+          "https://www.cis.pku.edu.cn/virtual_attach_file.vsb?afc=DM4Gs8UllbUzvinZ7liUNUYozMVoz-b4M4CZU46fLlMVoz90gihFp2hmCIa0M1yZM1y4UYy4LNU8UllaMNUao7CYLN78o7LbnNQVMzM7L8WFUzGDM8QkMmVFLlCDM1b/v2veo4Oe_tbZ_IbT6YhXptQ0g474Mm-0Lm-sLkbw62E8c&oid=1887772040&tid=1362&nid=2270&e=.jpg",
+          "https://www.cis.pku.edu.cn/images/db_logo.png",
+          "https://www.cis.pku.edu.cn/images/dbewm.jpg"
+        ],
+        "relationshipEvidenceCandidates": [
+          "袁晓如-北京大学智能学院 Birthplace of the Intelligence Discipline --> English 北京大学 首页 新闻动态 通知公告 学术交流 科研成果 学院概况 院长致辞 学院简介 组织结构 委员会 师资队伍 专职教师 博士后 行政教辅 荣休教师 学科建设 学科介绍 学科方向 学术成果 跨媒体通用人工智能全国重点实验室 校企合作 人才培养 研究生招生 研究生培养 智班培养 继续教育 招贤纳士 教师 博士后 青年论坛 行政教辅 学生工作 学工队伍 学生风采 公示信息 党团建设 所获荣誉 党建工作 党建动态 工会风采 智能校友 校友会 校友动态 校友捐赠 办公服务 行政办公 规章制度 常用下载 办事流程 会议室预定 学习专区 阅读专区 AI微课十讲 English 北京大学 导航菜单 专职教师 博士后 行政教辅 荣休教师 师资队伍 专职教师 博士后 行政教辅 荣休教师 当前位置: 首页 > 师资队伍 > 专职教师 > 正文 专职教师 袁晓如 时间：2019-04-12 点击数： 职称 研究员 研究领域 科学可视化，信息可视化，可视分析，人机交互，计算机图形学."
+        ],
+        "relevantLinks": [
+          {
+            "label": "跨媒体通用人工智能全国重点实验室",
+            "url": "https://www.cis.pku.edu.cn/xkjs/kmttyrgzngzdsys/sysjj.htm"
+          },
+          {
+            "label": "学生工作",
+            "url": "https://www.cis.pku.edu.cn/xsgz/xgdw1.htm"
+          },
+          {
+            "label": "学生风采",
+            "url": "https://www.cis.pku.edu.cn/xsgz/xsfc1.htm"
+          },
+          {
+            "label": "会议室预定",
+            "url": "http://162.105.209.37/Member/YDConRoom/"
+          }
+        ]
+      },
+      "reason": "第四轮逐人补证已核实现任独立 PI、两项以上可靠来源、3–5 条带来源事实、512×512 可靠头像及至少一条一手可核验关系。",
+      "disposition": "ready",
+      "sourceLedger": "data/candidate-priority-p0-asia-disposition-2026-09-03.json",
+      "priorStatus": "missing_relationship",
+      "atlasPersonId": "xiaoru-yuan-pku-p0-fourth-b1"
+    },
+    {
+      "canonicalKey": "Mainland China:北京大学:裴玉茹",
+      "name": "裴玉茹",
+      "region": "Mainland China",
+      "institution": "北京大学",
+      "status": "missing_relationship",
+      "evidenceUrls": [
+        "https://www.cis.pku.edu.cn/info/1362/2238.htm",
+        "https://www.cis.pku.edu.cn/szdw/zzjs.htm"
+      ],
+      "portraitUrl": "https://www.cis.pku.edu.cn/virtual_attach_file.vsb?afc=5MRvC4nNUZUllDLQ4VVoRr2LmV7LmNqYM7UYM4vYLmWknmN0gihFp2hmCIa0LYyPLSy4M1yPM8-DM4V2MzLao7UsnRUDLNLZU4vsU4AVLlQFU4-8MzWkUmrFnRf2LSbaptveo4Oe_tbZ_IbT6YhXptQ0gY84gY84gtA8pUpcc&oid=1887772040&e=.png",
+      "checkedSources": [
+        {
+          "url": "https://www.cis.pku.edu.cn/info/1362/2238.htm",
+          "kind": "official_profile",
+          "result": "identified"
+        },
+        {
+          "url": "https://www.cis.pku.edu.cn/szdw/zzjs.htm",
+          "kind": "official_roster",
+          "result": "identified"
+        },
+        {
+          "url": "https://www.cis.pku.edu.cn/info/1362/2238.htm",
+          "finalUrl": "https://www.cis.pku.edu.cn/info/1362/2238.htm",
+          "kind": "profile_fetch",
+          "result": "fetched",
+          "httpStatus": 200,
+          "error": null
+        }
+      ],
+      "extractedEvidence": {
+        "pageTitle": "裴玉茹-北京大学智能学院",
+        "metaDescription": "裴玉茹                                  职称：副教授                  研究所：信息科学中心                                    研究领域：三维形状分析，医学图像配准，颅面重建                   办公...",
+        "imageCandidates": [
+          "https://www.cis.pku.edu.cn/images/logo.png",
+          "https://www.cis.pku.edu.cn/info/1362/images/lw1.png",
+          "https://www.cis.pku.edu.cn/info/1362/images/lw2.png",
+          "https://www.cis.pku.edu.cn/info/1362/images/lw3.png",
+          "https://www.cis.pku.edu.cn/info/1362/images/lw4.png",
+          "https://www.cis.pku.edu.cn/info/1362/images/lw5.png",
+          "https://www.cis.pku.edu.cn/info/1362/images/lw6.png",
+          "https://www.cis.pku.edu.cn/info/1362/images/lw7.png",
+          "https://www.cis.pku.edu.cn/info/1362/images/lw8.png",
+          "https://www.cis.pku.edu.cn/images/logo_wz33.png",
+          "https://www.cis.pku.edu.cn/images/lbypic.jpg",
+          "https://www.cis.pku.edu.cn/images/ltlf_pic.jpg",
+          "https://www.cis.pku.edu.cn/virtual_attach_file.vsb?afc=sM4MZkn7UiLRUsobRLan7nRMm94LmAEfoRL8LlLYUmWkLmC0gihFp2hmCIa0LYyPLSy4M1yPM8-DM4V2MzLao7UsnRUDLNLZU4vsU4AVLlQFU4-8MzWkUmrFnRf2LSbaptveo4Oe_tbZ_IbT6YhXptQ0g474Mm-0Lm-4okbw62e8c&oid=1887772040&tid=1362&nid=2238&e=.png",
+          "https://www.cis.pku.edu.cn/images/db_logo.png",
+          "https://www.cis.pku.edu.cn/images/dbewm.jpg"
+        ],
+        "relationshipEvidenceCandidates": [
+          "裴玉茹-北京大学智能学院 Birthplace of the Intelligence Discipline --> English 北京大学 首页 新闻动态 通知公告 学术交流 科研成果 学院概况 院长致辞 学院简介 组织结构 委员会 师资队伍 专职教师 博士后 行政教辅 荣休教师 学科建设 学科介绍 学科方向 学术成果 跨媒体通用人工智能全国重点实验室 校企合作 人才培养 研究生招生 研究生培养 智班培养 继续教育 招贤纳士 教师 博士后 青年论坛 行政教辅 学生工作 学工队伍 学生风采 公示信息 党团建设 所获荣誉 党建工作 党建动态 工会风采 智能校友 校友会 校友动态 校友捐赠 办公服务 行政办公 规章制度 常用下载 办事流程 会议室预定 学习专区 阅读专区 AI微课十讲 English 北京大学 导航菜单 专职教师 博士后 行政教辅 荣休教师 师资队伍 专职教师 博士后 行政教辅 荣休教师 当前位置: 首页 > 师资队伍 > 专职教师 > 正文 专职教师 裴玉茹 时间：2019-04-12 点击数： 职称 副教授 研究领域 三维形状分析，医学图像配准，颅面重建 办公电话 86-10-62756657 电子邮件 peiyuru@cis.",
+          "工学博士 (计算机科学与技术), 北京大学, 中国, 2006;"
+        ],
+        "relevantLinks": [
+          {
+            "label": "跨媒体通用人工智能全国重点实验室",
+            "url": "https://www.cis.pku.edu.cn/xkjs/kmttyrgzngzdsys/sysjj.htm"
+          },
+          {
+            "label": "学生工作",
+            "url": "https://www.cis.pku.edu.cn/xsgz/xgdw1.htm"
+          },
+          {
+            "label": "学生风采",
+            "url": "https://www.cis.pku.edu.cn/xsgz/xsfc1.htm"
+          },
+          {
+            "label": "会议室预定",
+            "url": "http://162.105.209.37/Member/YDConRoom/"
+          }
+        ]
+      },
+      "reason": "现任 PI 与名录来源已定位，但本轮未找到可由本人 CV、博士论文库、研究组 alumni 或官方项目页直接确认且端点可接入的关系证据；继续待核验。",
+      "disposition": "missing_relationship",
+      "sourceLedger": "data/candidate-priority-p0-asia-disposition-2026-09-03.json",
+      "priorStatus": "missing_relationship",
+      "atlasPersonId": null
+    },
+    {
+      "canonicalKey": "Mainland China:北京大学:谭营",
+      "name": "谭营",
+      "region": "Mainland China",
+      "institution": "北京大学",
+      "status": "missing_relationship",
+      "evidenceUrls": [
+        "https://www.cis.pku.edu.cn/info/1362/2263.htm",
+        "https://www.cis.pku.edu.cn/szdw/zzjs.htm"
+      ],
+      "portraitUrl": "https://www.cis.pku.edu.cn/virtual_attach_file.vsb?afc=5MmnCRUl7sM7WkLQmUDMRARUmNPU87qbL8LPLlnkM4VVnRl0gihFp2hmCIa0UYyiUYhRLYy8MlCPLRVkUmT7LR-ZUmG4nm-YLmG8nR-PM4AFL4WfU4N8MznFLlnknkb/v2veo4Oe_tbZ_IbT6YhXptQ0gY84gY84gtA8pUpcc&oid=1887772040&e=.jpg",
+      "checkedSources": [
+        {
+          "url": "https://www.cis.pku.edu.cn/info/1362/2263.htm",
+          "kind": "official_profile",
+          "result": "identified"
+        },
+        {
+          "url": "https://www.cis.pku.edu.cn/szdw/zzjs.htm",
+          "kind": "official_roster",
+          "result": "identified"
+        },
+        {
+          "url": "https://www.cis.pku.edu.cn/info/1362/2263.htm",
+          "finalUrl": "https://www.cis.pku.edu.cn/info/1362/2263.htm",
+          "kind": "profile_fetch",
+          "result": "fetched",
+          "httpStatus": 200,
+          "error": null
+        }
+      ],
+      "extractedEvidence": {
+        "pageTitle": "谭营-北京大学智能学院",
+        "metaDescription": "谭营                                  职称：教授                  研究所：信息科学中心                                    研究领域：计算智能，神经网络，群智能算法，机器学习，人工免疫算法，计算机安...",
+        "imageCandidates": [
+          "https://www.cis.pku.edu.cn/images/logo.png",
+          "https://www.cis.pku.edu.cn/info/1362/images/lw1.png",
+          "https://www.cis.pku.edu.cn/info/1362/images/lw2.png",
+          "https://www.cis.pku.edu.cn/info/1362/images/lw3.png",
+          "https://www.cis.pku.edu.cn/info/1362/images/lw4.png",
+          "https://www.cis.pku.edu.cn/info/1362/images/lw5.png",
+          "https://www.cis.pku.edu.cn/info/1362/images/lw6.png",
+          "https://www.cis.pku.edu.cn/info/1362/images/lw7.png",
+          "https://www.cis.pku.edu.cn/info/1362/images/lw8.png",
+          "https://www.cis.pku.edu.cn/images/logo_wz33.png",
+          "https://www.cis.pku.edu.cn/images/lbypic.jpg",
+          "https://www.cis.pku.edu.cn/images/ltlf_pic.jpg",
+          "https://www.cis.pku.edu.cn/virtual_attach_file.vsb?afc=DozlsDU4NiUlMkUZ4CZM47DUlQ2MlLb4n7l8L4nRMmLaoRU0gihFp2hmCIa0UYyiUYhRLYy8MlCPLRVkUmT7LR-ZUmG4nm-YLmG8nR-PM4AFL4WfU4N8MznFLlnknkb/v2veo4Oe_tbZ_IbT6YhXptQ0g474Mm-0Lm-DLYbw62E8c&oid=1887772040&tid=1362&nid=2263&e=.jpg",
+          "https://www.cis.pku.edu.cn/images/db_logo.png",
+          "https://www.cis.pku.edu.cn/images/dbewm.jpg"
+        ],
+        "relationshipEvidenceCandidates": [
+          "谭营-北京大学智能学院 Birthplace of the Intelligence Discipline --> English 北京大学 首页 新闻动态 通知公告 学术交流 科研成果 学院概况 院长致辞 学院简介 组织结构 委员会 师资队伍 专职教师 博士后 行政教辅 荣休教师 学科建设 学科介绍 学科方向 学术成果 跨媒体通用人工智能全国重点实验室 校企合作 人才培养 研究生招生 研究生培养 智班培养 继续教育 招贤纳士 教师 博士后 青年论坛 行政教辅 学生工作 学工队伍 学生风采 公示信息 党团建设 所获荣誉 党建工作 党建动态 工会风采 智能校友 校友会 校友动态 校友捐赠 办公服务 行政办公 规章制度 常用下载 办事流程 会议室预定 学习专区 阅读专区 AI微课十讲 English 北京大学 导航菜单 专职教师 博士后 行政教辅 荣休教师 师资队伍 专职教师 博士后 行政教辅 荣休教师 当前位置: 首页 > 师资队伍 > 专职教师 > 正文 专职教师 谭营 时间：2019-04-12 点击数： 职称 教授 研究领域 计算智能，神经网络，群智能算法，机器学习，人工免疫算法，计算机安全，数据挖掘与知识发现 办公电话 86-10-6276 7611 电子邮件 ytan@pku."
+        ],
+        "relevantLinks": [
+          {
+            "label": "跨媒体通用人工智能全国重点实验室",
+            "url": "https://www.cis.pku.edu.cn/xkjs/kmttyrgzngzdsys/sysjj.htm"
+          },
+          {
+            "label": "学生工作",
+            "url": "https://www.cis.pku.edu.cn/xsgz/xgdw1.htm"
+          },
+          {
+            "label": "学生风采",
+            "url": "https://www.cis.pku.edu.cn/xsgz/xsfc1.htm"
+          },
+          {
+            "label": "会议室预定",
+            "url": "http://162.105.209.37/Member/YDConRoom/"
+          }
+        ]
+      },
+      "reason": "现任 PI 与名录来源已定位，但本轮未找到可由本人 CV、博士论文库、研究组 alumni 或官方项目页直接确认且端点可接入的关系证据；继续待核验。",
+      "disposition": "missing_relationship",
+      "sourceLedger": "data/candidate-priority-p0-asia-disposition-2026-09-03.json",
+      "priorStatus": "missing_relationship",
+      "atlasPersonId": null
+    },
+    {
+      "canonicalKey": "Mainland China:北京大学:赵卉菁",
+      "name": "赵卉菁",
+      "region": "Mainland China",
+      "institution": "北京大学",
+      "status": "missing_relationship",
+      "evidenceUrls": [
+        "https://www.cis.pku.edu.cn/info/1362/2246.htm",
+        "https://www.cis.pku.edu.cn/szdw/zzjs.htm"
+      ],
+      "portraitUrl": "https://www.cis.pku.edu.cn/virtual_attach_file.vsb?afc=5ozVCfUzCPM4VRMQz9bLN-sM77ZLNLqaUmlYozQRUNl4n770gihFp2hmCIa0n1ybUShRoSyaM8MfM4ARMmvanRWfM7L4M7n7ozGYnRffUNVFoRCPnRQ7ozMFn7lsL1baptveo4Oe_tbZ_IbT6YhXptQ0gY84gY84gtA8pUpcc&oid=1887772040&e=.png",
+      "checkedSources": [
+        {
+          "url": "https://www.cis.pku.edu.cn/info/1362/2246.htm",
+          "kind": "official_profile",
+          "result": "identified"
+        },
+        {
+          "url": "https://www.cis.pku.edu.cn/szdw/zzjs.htm",
+          "kind": "official_roster",
+          "result": "identified"
+        },
+        {
+          "url": "https://www.cis.pku.edu.cn/info/1362/2246.htm",
+          "finalUrl": "https://www.cis.pku.edu.cn/info/1362/2246.htm",
+          "kind": "profile_fetch",
+          "result": "fetched",
+          "httpStatus": 200,
+          "error": null
+        }
+      ],
+      "extractedEvidence": {
+        "pageTitle": "赵卉菁-北京大学智能学院",
+        "metaDescription": "赵卉菁                                  职称：教授                  研究所：信息科学中心                                    研究领域：智能感知技术，传感器技术，智能汽车和移动机器人，智能交通 ...",
+        "imageCandidates": [
+          "https://www.cis.pku.edu.cn/images/logo.png",
+          "https://www.cis.pku.edu.cn/info/1362/images/lw1.png",
+          "https://www.cis.pku.edu.cn/info/1362/images/lw2.png",
+          "https://www.cis.pku.edu.cn/info/1362/images/lw3.png",
+          "https://www.cis.pku.edu.cn/info/1362/images/lw4.png",
+          "https://www.cis.pku.edu.cn/info/1362/images/lw5.png",
+          "https://www.cis.pku.edu.cn/info/1362/images/lw6.png",
+          "https://www.cis.pku.edu.cn/info/1362/images/lw7.png",
+          "https://www.cis.pku.edu.cn/info/1362/images/lw8.png",
+          "https://www.cis.pku.edu.cn/images/logo_wz33.png",
+          "https://www.cis.pku.edu.cn/images/lbypic.jpg",
+          "https://www.cis.pku.edu.cn/images/ltlf_pic.jpg",
+          "https://www.cis.pku.edu.cn/virtual_attach_file.vsb?afc=DMRlsDnNWfMNM7LZmlPLml4olLiLmrbVnmC8M4ffUNMRnN70gihFp2hmCIa0MYyYoSy4L1ysoR9YolMknmrfL4U8L7nknzLsnl78M4V2L4fFU8lPnlnVMmVFMNrfUYb/v2veo4Oe_tbZ_IbT6YhXptQ0g474Mm-0Lm-8M1bw62E8c&oid=1887772040&tid=1362&nid=2246&e=.jpg",
+          "https://www.cis.pku.edu.cn/images/db_logo.png",
+          "https://www.cis.pku.edu.cn/images/dbewm.jpg"
+        ],
+        "relationshipEvidenceCandidates": [
+          "赵卉菁-北京大学智能学院 Birthplace of the Intelligence Discipline --> English 北京大学 首页 新闻动态 通知公告 学术交流 科研成果 学院概况 院长致辞 学院简介 组织结构 委员会 师资队伍 专职教师 博士后 行政教辅 荣休教师 学科建设 学科介绍 学科方向 学术成果 跨媒体通用人工智能全国重点实验室 校企合作 人才培养 研究生招生 研究生培养 智班培养 继续教育 招贤纳士 教师 博士后 青年论坛 行政教辅 学生工作 学工队伍 学生风采 公示信息 党团建设 所获荣誉 党建工作 党建动态 工会风采 智能校友 校友会 校友动态 校友捐赠 办公服务 行政办公 规章制度 常用下载 办事流程 会议室预定 学习专区 阅读专区 AI微课十讲 English 北京大学 导航菜单 专职教师 博士后 行政教辅 荣休教师 师资队伍 专职教师 博士后 行政教辅 荣休教师 当前位置: 首页 > 师资队伍 > 专职教师 > 正文 专职教师 赵卉菁 时间：2019-04-12 点击数： 职称 教授 研究领域 机器感知，智能车，自动驾驶，自主移动机器人 办公电话 86-10-6275 7458 电子邮件 zhaohj@cis.",
+          "09 ： 东京大学工学系研究科社会基础专业、博士课程、获博士学位 1994.",
+          "法国标致雪铁龙 PCA-PKU 开放实验室项目（项目负责人），基于多模态传感器环境感知的驾驶行为建模与理解研究， 2012.",
+          ", Reconstruction Textured Urban 3D Model by Fusing Ground-Based Laser Range Image and CCD Image, IAPR Workshop on Machine Vision Application, 1998) 主要学术任职 1."
+        ],
+        "relevantLinks": [
+          {
+            "label": "跨媒体通用人工智能全国重点实验室",
+            "url": "https://www.cis.pku.edu.cn/xkjs/kmttyrgzngzdsys/sysjj.htm"
+          },
+          {
+            "label": "学生工作",
+            "url": "https://www.cis.pku.edu.cn/xsgz/xgdw1.htm"
+          },
+          {
+            "label": "学生风采",
+            "url": "https://www.cis.pku.edu.cn/xsgz/xsfc1.htm"
+          },
+          {
+            "label": "会议室预定",
+            "url": "http://162.105.209.37/Member/YDConRoom/"
+          }
+        ]
+      },
+      "reason": "现任 PI 与名录来源已定位，但本轮未找到可由本人 CV、博士论文库、研究组 alumni 或官方项目页直接确认且端点可接入的关系证据；继续待核验。",
+      "disposition": "missing_relationship",
+      "sourceLedger": "data/candidate-priority-p0-asia-disposition-2026-09-03.json",
+      "priorStatus": "missing_relationship",
+      "atlasPersonId": null
+    },
+    {
+      "canonicalKey": "Mainland China:北京大学:马修军",
+      "name": "马修军",
+      "region": "Mainland China",
+      "institution": "北京大学",
+      "status": "missing_relationship",
+      "evidenceUrls": [
+        "https://www.cis.pku.edu.cn/info/1362/2250.htm",
+        "https://www.cis.pku.edu.cn/szdw/zzjs.htm"
+      ],
+      "portraitUrl": "https://www.cis.pku.edu.cn/virtual_attach_file.vsb?afc=5LlVC2MRL8nRUiMQzTfU8UPMNMRL4NqDLRTVoRlYUNQ2UzG0gihFp2hmCIa0L1yZLkhRLSybLzMVMll8oRGPnNlPUmNsMRG4nRT2L4C8UmnFUNnkMzA7LlQFM7LDL1b/v2veo4Oe_tbZ_IbT6YhXptQ0gY84gY84gtA8pUpcc&oid=1887772040&e=.jpg",
+      "checkedSources": [
+        {
+          "url": "https://www.cis.pku.edu.cn/info/1362/2250.htm",
+          "kind": "official_profile",
+          "result": "identified"
+        },
+        {
+          "url": "https://www.cis.pku.edu.cn/szdw/zzjs.htm",
+          "kind": "official_roster",
+          "result": "identified"
+        },
+        {
+          "url": "https://www.cis.pku.edu.cn/info/1362/2250.htm",
+          "finalUrl": "https://www.cis.pku.edu.cn/info/1362/2250.htm",
+          "kind": "profile_fetch",
+          "result": "fetched",
+          "httpStatus": 200,
+          "error": null
+        }
+      ],
+      "extractedEvidence": {
+        "pageTitle": "马修军-北京大学智能学院",
+        "metaDescription": "马修军                                  职称：副教授                  研究所：信息科学中心                                    研究领域：群体智能、多Agent系统、机器学习、分布式系统、大数据、地理信...",
+        "imageCandidates": [
+          "https://www.cis.pku.edu.cn/images/logo.png",
+          "https://www.cis.pku.edu.cn/info/1362/images/lw1.png",
+          "https://www.cis.pku.edu.cn/info/1362/images/lw2.png",
+          "https://www.cis.pku.edu.cn/info/1362/images/lw3.png",
+          "https://www.cis.pku.edu.cn/info/1362/images/lw4.png",
+          "https://www.cis.pku.edu.cn/info/1362/images/lw5.png",
+          "https://www.cis.pku.edu.cn/info/1362/images/lw6.png",
+          "https://www.cis.pku.edu.cn/info/1362/images/lw7.png",
+          "https://www.cis.pku.edu.cn/info/1362/images/lw8.png",
+          "https://www.cis.pku.edu.cn/images/logo_wz33.png",
+          "https://www.cis.pku.edu.cn/images/lbypic.jpg",
+          "https://www.cis.pku.edu.cn/images/ltlf_pic.jpg",
+          "https://www.cis.pku.edu.cn/virtual_attach_file.vsb?afc=DU87ssM4-ioRCbUZmAkLzCiUz94M7Qb2L4-DM8UYM49ZM7-0gihFp2hmCIa0U1y4M1yDLShVozUbnlnkL7LPMRW2o778Mm9aoRQRLmWfoRTFLz-4LRA7MRMFozNZL7CJv2bjo4OeosXJ_dTJQ5v0qIbtpYyPL4CYg4-YMzGJqdEnx&oid=1887772040&tid=1362&nid=2250&e=.png",
+          "https://www.cis.pku.edu.cn/virtual_attach_file.vsb?afc=DUlVskMmMfLmCPLZ8L8M47aLRvaLNWbVozlsUlLsUNMRUzC0gihFp2hmCIa0LYh7nShVLkyPL7LaUmrRMmvDMRWkn7V7U4UbLR9YUlr7L4fFU4v8UmMkM4MFM7UYU4GJv2bjo4OeosXJ_dTJQ5v0qIbtpYyPL4CYg4-YMzGJqdEnx&oid=1887772040&tid=1362&nid=2250&e=.png",
+          "https://www.cis.pku.edu.cn/images/db_logo.png",
+          "https://www.cis.pku.edu.cn/images/dbewm.jpg"
+        ],
+        "relationshipEvidenceCandidates": [
+          "马修军-北京大学智能学院 Birthplace of the Intelligence Discipline --> English 北京大学 首页 新闻动态 通知公告 学术交流 科研成果 学院概况 院长致辞 学院简介 组织结构 委员会 师资队伍 专职教师 博士后 行政教辅 荣休教师 学科建设 学科介绍 学科方向 学术成果 跨媒体通用人工智能全国重点实验室 校企合作 人才培养 研究生招生 研究生培养 智班培养 继续教育 招贤纳士 教师 博士后 青年论坛 行政教辅 学生工作 学工队伍 学生风采 公示信息 党团建设 所获荣誉 党建工作 党建动态 工会风采 智能校友 校友会 校友动态 校友捐赠 办公服务 行政办公 规章制度 常用下载 办事流程 会议室预定 学习专区 阅读专区 AI微课十讲 English 北京大学 导航菜单 专职教师 博士后 行政教辅 荣休教师 师资队伍 专职教师 博士后 行政教辅 荣休教师 当前位置: 首页 > 师资队伍 > 专职教师 > 正文 专职教师 马修军 时间：2019-04-12 点击数： 职称 研究员 研究领域 群体智能、多Agent系统、机器学习、分布式系统、大数据、地理信息系统、网络空间安全 办公电话 86-10-62757085 电子邮件 maxiujun@pku.",
+          "cn 教育背景 2022/8-今，北京大学智能学院，研究员 2009/7-2022/8，北京大学信息科学技术学院，智能科学系，副教授 2005/9-2006/9，德国柏林自由大学，数学与计算机科学系，访问学者 2002/7-2009/7，北京大学信息科学技术学院，智能科学系，讲师 1999/09-2002/06，北京大学，遥感与地理信息系统研究所，博士 1996/09-1999/06，北京师范大学，资源环境系，硕士 1992/09-1996/06，山东师范大学，地理系，学士 个人简介 马修军，博士，北京大学智能学院研究员（教授）。",
+          "在GIS、移动互联网、大数据平台、人工智能、物联网等领域研发多个产业化创新项目，积累了丰富的项目资源和技术团队。",
+          "12，北京大学-上海弘玑超级自动化联合实验室平台；",
+          "主要获奖成果 北京大学教学成果一等奖（个人排名第2），智能科学技术主干基础课《人工智能》的课程建设与全课时英语教学实践, 2004 主要学术任职 2015."
+        ],
+        "relevantLinks": [
+          {
+            "label": "跨媒体通用人工智能全国重点实验室",
+            "url": "https://www.cis.pku.edu.cn/xkjs/kmttyrgzngzdsys/sysjj.htm"
+          },
+          {
+            "label": "学生工作",
+            "url": "https://www.cis.pku.edu.cn/xsgz/xgdw1.htm"
+          },
+          {
+            "label": "学生风采",
+            "url": "https://www.cis.pku.edu.cn/xsgz/xsfc1.htm"
+          },
+          {
+            "label": "会议室预定",
+            "url": "http://162.105.209.37/Member/YDConRoom/"
+          }
+        ]
+      },
+      "reason": "现任 PI 与名录来源已定位，但本轮未找到可由本人 CV、博士论文库、研究组 alumni 或官方项目页直接确认且端点可接入的关系证据；继续待核验。",
+      "disposition": "missing_relationship",
+      "sourceLedger": "data/candidate-priority-p0-asia-disposition-2026-09-03.json",
+      "priorStatus": "missing_relationship",
+      "atlasPersonId": null
+    },
+    {
+      "canonicalKey": "Mainland China:北京大学:黄铁军",
+      "name": "黄铁军",
+      "region": "Mainland China",
+      "institution": "北京大学",
+      "status": "missing_relationship",
+      "evidenceUrls": [
+        "https://cs.pku.edu.cn/info/1067/1625.htm",
+        "https://cs.pku.edu.cn/szdw/jyxl/amz/ALL.htm"
+      ],
+      "portraitUrl": "https://cs.pku.edu.cn/virtual_attach_file.vsb?afc=5UmNCZnNlsLNrRnQRvYozrfMmlsL8MqVUzUZnmlaMR-8LRL0gihFp2hmCIa0LSyZokysn1y8M4QRLzf7MRG8nmN8M47ZnzNZo7LZLmWVM4WFUmUinmA2nlWFMRTRM49Jv2bjo4OeoDX4qjAb_khXptQ0gY84gY84gtA8pUpcc&oid=1934453449&e=.png",
+      "checkedSources": [
+        {
+          "url": "https://cs.pku.edu.cn/info/1067/1625.htm",
+          "kind": "official_profile",
+          "result": "identified"
+        },
+        {
+          "url": "https://cs.pku.edu.cn/szdw/jyxl/amz/ALL.htm",
+          "kind": "official_roster",
+          "result": "identified"
+        },
+        {
+          "url": "https://cs.pku.edu.cn/info/1067/1625.htm",
+          "finalUrl": "https://cs.pku.edu.cn/info/1067/1625.htm",
+          "kind": "profile_fetch",
+          "result": "fetched",
+          "httpStatus": 200,
+          "error": null
+        }
+      ],
+      "extractedEvidence": {
+        "pageTitle": "黄铁军-北京大学计算机学院",
+        "metaDescription": "黄铁军                                  职称：教授                  研究所：数字媒体研究所                                    研究领域：图像识别与视频编码                   办公电话：86-10-627...",
+        "imageCandidates": [
+          "https://cs.pku.edu.cn/images/logo.png",
+          "https://cs.pku.edu.cn/images/n_banner1.jpg",
+          "https://cs.pku.edu.cn/images/m_n_nav_left.svg",
+          "https://cs.pku.edu.cn/images/m_n_nav_right.svg",
+          "https://cs.pku.edu.cn/virtual_attach_file.vsb?afc=5UmNCZnNlsLNrRnQRvYozrfMmlsL8MqVUzUZnmlaMR-8LRL0gihFp2hmCIa0LSyZokysn1y8M4QRLzf7MRG8nmN8M47ZnzNZo7LZLmWVM4WFUmUinmA2nlWFMRTRM49Jv2bjo4OeoDX4qjAb_khXptQ0gY84gY84gtA8pUpcc&oid=1934453449&e=.png",
+          "https://cs.pku.edu.cn/_mediafile/jsjxyx/f_h_pic.png",
+          "https://cs.pku.edu.cn/images/footer_logo.png",
+          "https://cs.pku.edu.cn/images/list13_ico1.png",
+          "https://cs.pku.edu.cn/images/ewm.jpg"
+        ],
+        "relationshipEvidenceCandidates": [],
+        "relevantLinks": [
+          {
+            "label": "会议室预订",
+            "url": "http://162.105.209.37:8080/Member/YDConRoom/"
+          },
+          {
+            "label": "学生工作",
+            "url": "https://cs.pku.edu.cn/xsgz/dtjs.htm"
+          },
+          {
+            "label": "学生动态",
+            "url": "https://cs.pku.edu.cn/xsgz/xsdt.htm"
+          },
+          {
+            "label": "留学生项目",
+            "url": "https://cs.pku.edu.cn/gjh/lxsxm.htm"
+          },
+          {
+            "label": "International Student Admission",
+            "url": "https://cs.pku.edu.cn/internationalization/"
+          },
+          {
+            "label": "会议室预定",
+            "url": "http://162.105.209.37:8080/Member/YDConRoom/"
+          }
+        ]
+      },
+      "reason": "第四轮逐人补证已核实现任独立 PI、两项以上可靠来源、3–5 条带来源事实、512×512 可靠头像及至少一条一手可核验关系。",
+      "disposition": "ready",
+      "sourceLedger": "data/candidate-priority-p0-asia-disposition-2026-09-03.json",
+      "priorStatus": "missing_relationship",
+      "atlasPersonId": "tiejun-huang-pku-p0-fourth-b1"
+    },
+    {
+      "canonicalKey": "Mainland China:北京大学:邓小铁",
+      "name": "邓小铁",
+      "region": "Mainland China",
+      "institution": "北京大学",
+      "status": "missing_relationship",
+      "evidenceUrls": [
+        "https://cs.pku.edu.cn/info/1063/1616.htm",
+        "https://cs.pku.edu.cn/szdw/jyxl/amz/ALL.htm"
+      ],
+      "portraitUrl": "https://cs.pku.edu.cn/virtual_attach_file.vsb?afc=5UN7C4nzV2oRVkLQlC4LNWRL7LiozQqRnzCDMRlZn7V2nRC0gihFp2hmCIa0LShkLYyiokyDoRf7MmQRM77DM4UDozvZnmAkUNrfU4LbnzTFozUYnm-YL7QFLm7DoRlJv2bjo4OeoDX4qjAb_khXptQ0gY84gY84gtA8pUpcc&oid=1934453449&e=.png",
+      "checkedSources": [
+        {
+          "url": "https://cs.pku.edu.cn/info/1063/1616.htm",
+          "kind": "official_profile",
+          "result": "identified"
+        },
+        {
+          "url": "https://cs.pku.edu.cn/szdw/jyxl/amz/ALL.htm",
+          "kind": "official_roster",
+          "result": "identified"
+        },
+        {
+          "url": "https://cs.pku.edu.cn/info/1063/1616.htm",
+          "finalUrl": "https://cs.pku.edu.cn/info/1063/1616.htm",
+          "kind": "profile_fetch",
+          "result": "fetched",
+          "httpStatus": 200,
+          "error": null
+        }
+      ],
+      "extractedEvidence": {
+        "pageTitle": "邓小铁-北京大学计算机学院",
+        "metaDescription": "个人主页：邓小铁，1982年于清华大学获得学士学位，1984年于中国科学院获得硕士学位，1989年于斯坦福大学获得博士学位。1984-1985年，任中国科学院系统科学研究所助理研究员；1991-1999年任加拿大约克大学计算机科学与工程系助理教授、副教授；1997-2012年任香港城市大学计算机科学与工程系副教授、教授、讲席教授，同时，于2010年-2012年兼任英国利物浦大学计算机科学与工程系讲席教授；2012-2017年任上海交通大学计算机科学与...",
+        "imageCandidates": [
+          "https://cs.pku.edu.cn/images/logo.png",
+          "https://cs.pku.edu.cn/images/n_banner1.jpg",
+          "https://cs.pku.edu.cn/images/m_n_nav_left.svg",
+          "https://cs.pku.edu.cn/images/m_n_nav_right.svg",
+          "https://cs.pku.edu.cn/virtual_attach_file.vsb?afc=5UN7C4nzV2oRVkLQlC4LNWRL7LiozQqRnzCDMRlZn7V2nRC0gihFp2hmCIa0LShkLYyiokyDoRf7MmQRM77DM4UDozvZnmAkUNrfU4LbnzTFozUYnm-YL7QFLm7DoRlJv2bjo4OeoDX4qjAb_khXptQ0gY84gY84gtA8pUpcc&oid=1934453449&e=.png",
+          "https://cs.pku.edu.cn/_mediafile/jsjxyx/f_h_pic.png",
+          "https://cs.pku.edu.cn/images/footer_logo.png",
+          "https://cs.pku.edu.cn/images/list13_ico1.png",
+          "https://cs.pku.edu.cn/images/ewm.jpg"
+        ],
+        "relationshipEvidenceCandidates": [
+          "cn 个人主页： 邓小铁，1982年于清华大学获得学士学位，1984年于中国科学院获得硕士学位，1989年于斯坦福大学获得博士学位。"
+        ],
+        "relevantLinks": [
+          {
+            "label": "会议室预订",
+            "url": "http://162.105.209.37:8080/Member/YDConRoom/"
+          },
+          {
+            "label": "学生工作",
+            "url": "https://cs.pku.edu.cn/xsgz/dtjs.htm"
+          },
+          {
+            "label": "学生动态",
+            "url": "https://cs.pku.edu.cn/xsgz/xsdt.htm"
+          },
+          {
+            "label": "留学生项目",
+            "url": "https://cs.pku.edu.cn/gjh/lxsxm.htm"
+          },
+          {
+            "label": "International Student Admission",
+            "url": "https://cs.pku.edu.cn/internationalization/"
+          },
+          {
+            "label": "会议室预定",
+            "url": "http://162.105.209.37:8080/Member/YDConRoom/"
+          }
+        ]
+      },
+      "reason": "现任 PI 与名录来源已定位，但本轮未找到可由本人 CV、博士论文库、研究组 alumni 或官方项目页直接确认且端点可接入的关系证据；继续待核验。",
+      "disposition": "missing_relationship",
+      "sourceLedger": "data/candidate-priority-p0-asia-disposition-2026-09-03.json",
+      "priorStatus": "missing_relationship",
+      "atlasPersonId": null
+    },
+    {
+      "canonicalKey": "Mainland China:清华大学:刘云浩",
+      "name": "刘云浩",
+      "region": "Mainland China",
+      "institution": "清华大学",
+      "status": "missing_relationship",
+      "evidenceUrls": [
+        "https://www.au.tsinghua.edu.cn/info/1076/3158.htm",
+        "https://www.au.tsinghua.edu.cn/szdw/jsdw1/ayjscz.htm"
+      ],
+      "portraitUrl": "https://www.au.tsinghua.edu.cn/__local/4/B0/74/015D553973715423D1539E009D0_44252046_2213C8.jpg",
+      "checkedSources": [
+        {
+          "url": "https://www.au.tsinghua.edu.cn/info/1076/3158.htm",
+          "kind": "official_profile",
+          "result": "identified"
+        },
+        {
+          "url": "https://www.au.tsinghua.edu.cn/szdw/jsdw1/ayjscz.htm",
+          "kind": "official_roster",
+          "result": "identified"
+        },
+        {
+          "url": "https://www.au.tsinghua.edu.cn/info/1076/3158.htm",
+          "finalUrl": "https://www.au.tsinghua.edu.cn/info/1076/3158.htm",
+          "kind": "profile_fetch",
+          "result": "fetched",
+          "httpStatus": 200,
+          "error": null
+        }
+      ],
+      "extractedEvidence": {
+        "pageTitle": "刘云浩-清华大学自动化系",
+        "metaDescription": "教育背景1998年9月-2002年7月 北京邮电大学自动化学院机械电子工程专业，获学士学位2002年9月-2009年7月 清华大学自动化系控制科学与工程, 获博士学位工作履历2009年7月-2011年5月 清华大学自动化系博士后2010年...",
+        "imageCandidates": [
+          "https://www.au.tsinghua.edu.cn/images/logo.png",
+          "https://www.au.tsinghua.edu.cn/images/3.jpg",
+          "https://www.au.tsinghua.edu.cn/images/m_n_nav_left.svg",
+          "https://www.au.tsinghua.edu.cn/images/m_n_nav_right.svg",
+          "https://www.au.tsinghua.edu.cn/__local/4/B0/74/015D553973715423D1539E009D0_44252046_2213C8.jpg",
+          "https://www.au.tsinghua.edu.cn/images/list21_ico1.png",
+          "https://www.au.tsinghua.edu.cn/images/list21_ico2.png",
+          "https://www.au.tsinghua.edu.cn/images/list21_ico3.png",
+          "https://www.au.tsinghua.edu.cn/images/home5_bg1.png",
+          "https://www.au.tsinghua.edu.cn/images/footer_logo.png",
+          "https://www.au.tsinghua.edu.cn/images/list10_ico.png",
+          "https://www.au.tsinghua.edu.cn/weixintupian_20240115091903.jpg",
+          "https://www.au.tsinghua.edu.cn/images/ewm_js.jpg"
+        ],
+        "relationshipEvidenceCandidates": [
+          "刘云浩-清华大学自动化系 55周年活动 English 紫冬视频 会议室预定 院系简介 本系概况 主任致辞 现任领导 历任领导 历史沿革 机构设置 委员会 研究所 实验中心 综合办公室 师资队伍 两院院士 教师队伍 党建专栏 科学研究 学科方向 研究机构 科研成果 研究中心 科研动态 教育教学 本科生教学 研究生教学 因材施教 教学成果 招生动态 本科生招生 研究生招生 博导名单 学生活动 国际交流 系友天地 系友活动 系友风采 系友捐赠 55周年系庆 联系我们 招聘信息 社会服务 55周年活动 English 紫冬视频 会议室预定 院系简介 本系概况 主任致辞 现任领导 历任领导 历史沿革 机构设置 委员会 研究所 实验中心 综合办公室 师资队伍 两院院士 教师队伍 党建专栏 科学研究 学科方向 研究机构 科研成果 研究中心 科研动态 教育教学 本科生教学 研究生教学 因材施教 教学成果 招生动态 本科生招生 研究生招生 博导名单 学生活动 国际交流 系友天地 系友活动 系友风采 系友捐赠 55周年系庆 联系我们 招聘信息 社会服务 × 请输入您搜索的信息！"
+        ],
+        "relevantLinks": [
+          {
+            "label": "学生活动",
+            "url": "https://www.au.tsinghua.edu.cn/xshd.htm"
+          },
+          {
+            "label": "国家级自动化实验教学中心",
+            "url": "http://lab.au.tsinghua.edu.cn/lab2020/"
+          }
+        ]
+      },
+      "reason": "清华自动化系同名人物的教育经历与知名物联网学者刘云浩不一致；需先完成同名身份消歧，禁止迁移外部导师关系。",
+      "disposition": "identity_disambiguation_required",
+      "sourceLedger": "data/candidate-priority-p0-asia-disposition-2026-09-03.json",
+      "priorStatus": "missing_relationship",
+      "atlasPersonId": null
+    },
+    {
+      "canonicalKey": "Mainland China:清华大学:冯建江",
+      "name": "冯建江",
+      "region": "Mainland China",
+      "institution": "清华大学",
+      "status": "missing_relationship",
+      "evidenceUrls": [
+        "https://www.au.tsinghua.edu.cn/info/1078/3262.htm",
+        "https://www.au.tsinghua.edu.cn/szdw/jsdw1/ayjscz.htm"
+      ],
+      "portraitUrl": "https://www.au.tsinghua.edu.cn/__local/8/96/08/6B65844A3C743D4F205088E9612_ED1D1C18_586F.jpg",
+      "checkedSources": [
+        {
+          "url": "https://www.au.tsinghua.edu.cn/info/1078/3262.htm",
+          "kind": "official_profile",
+          "result": "identified"
+        },
+        {
+          "url": "https://www.au.tsinghua.edu.cn/szdw/jsdw1/ayjscz.htm",
+          "kind": "official_roster",
+          "result": "identified"
+        },
+        {
+          "url": "https://www.au.tsinghua.edu.cn/info/1078/3262.htm",
+          "finalUrl": "https://www.au.tsinghua.edu.cn/info/1078/3262.htm",
+          "kind": "profile_fetch",
+          "result": "fetched",
+          "httpStatus": 200,
+          "error": null
+        }
+      ],
+      "extractedEvidence": {
+        "pageTitle": "冯建江 -清华大学自动化系",
+        "metaDescription": "教育背景1996年9月-2000年7月 北京邮电大学电信工程学院 学士2000年9月-2006年12月 北京邮电大学电信工程学院 博士工作履历2007.1-2007.10 香港理工大学计算机系 研究助理2008.1-2009.10 美国密西根州立大学计算...",
+        "imageCandidates": [
+          "https://www.au.tsinghua.edu.cn/images/logo.png",
+          "https://www.au.tsinghua.edu.cn/images/3.jpg",
+          "https://www.au.tsinghua.edu.cn/images/m_n_nav_left.svg",
+          "https://www.au.tsinghua.edu.cn/images/m_n_nav_right.svg",
+          "https://www.au.tsinghua.edu.cn/__local/8/96/08/6B65844A3C743D4F205088E9612_ED1D1C18_586F.jpg",
+          "https://www.au.tsinghua.edu.cn/images/list21_ico1.png",
+          "https://www.au.tsinghua.edu.cn/images/list21_ico2.png",
+          "https://www.au.tsinghua.edu.cn/images/list21_ico3.png",
+          "https://www.au.tsinghua.edu.cn/images/home5_bg1.png",
+          "https://www.au.tsinghua.edu.cn/images/footer_logo.png",
+          "https://www.au.tsinghua.edu.cn/images/list10_ico.png",
+          "https://www.au.tsinghua.edu.cn/weixintupian_20240115091903.jpg",
+          "https://www.au.tsinghua.edu.cn/images/ewm_js.jpg"
+        ],
+        "relationshipEvidenceCandidates": [
+          "冯建江 -清华大学自动化系 55周年活动 English 紫冬视频 会议室预定 院系简介 本系概况 主任致辞 现任领导 历任领导 历史沿革 机构设置 委员会 研究所 实验中心 综合办公室 师资队伍 两院院士 教师队伍 党建专栏 科学研究 学科方向 研究机构 科研成果 研究中心 科研动态 教育教学 本科生教学 研究生教学 因材施教 教学成果 招生动态 本科生招生 研究生招生 博导名单 学生活动 国际交流 系友天地 系友活动 系友风采 系友捐赠 55周年系庆 联系我们 招聘信息 社会服务 55周年活动 English 紫冬视频 会议室预定 院系简介 本系概况 主任致辞 现任领导 历任领导 历史沿革 机构设置 委员会 研究所 实验中心 综合办公室 师资队伍 两院院士 教师队伍 党建专栏 科学研究 学科方向 研究机构 科研成果 研究中心 科研动态 教育教学 本科生教学 研究生教学 因材施教 教学成果 招生动态 本科生招生 研究生招生 博导名单 学生活动 国际交流 系友天地 系友活动 系友风采 系友捐赠 55周年系庆 联系我们 招聘信息 社会服务 × 请输入您搜索的信息！",
+          "cn 电话： 010-62795528 地点：北京清华大学自动化系 教育背景 1996年9月-2000年7月 北京邮电大学电信工程学院 学士 2000年9月-2006年12月 北京邮电大学电信工程学院 博士 工作履历 2007.",
+          "10 美国密西根州立大学计算机系 博士后 2009.",
+          "12，负责人 奖励与荣誉 一、科研奖励及荣誉 [1] 2018年获国家技术发明二等奖（排名第2） [2] 2016年获国家自然科学基金优秀青年基金 [3] 2015年获教育部自然科学二等奖（排名第1） [4] 2011年获中国电子学会电子信息科学技术奖一等奖（排名第3） [5] 2011年获教育部自然科学二等奖（排名第2） 二、论文奖励 [1] 2017年获国际生物特征识别联合会议（IJCB）最佳学生论文提名奖（排名第2） [2] 2012年获ICIEA最佳论文奖（排名第2） [3] 2011年获国际生物特征识别联合会议（IJCB）最佳学生论文奖（排名第2） [4] 2010年获SIBGRAPI最佳学生论文奖（排名第3） 学术成果 一、指纹识别 [1]Shan Gu, Jianjiang Feng, Jiwen Lu, Jie Zhou, “Efficient Rectification of Distorted Fingerprints”, IEEE Transactions on Information Forensics and Security, vol.",
+          "[11]Hao Liu, Jiwen Lu, Jianjiang Feng, Jie Zhou, “Group-Aware Deep Feature Learning for Facial Age Estimation”, Pattern Recognition, vol.",
+          "四、开设课程 本科生《数字图象处理》，研究生《信息论基础》 地址：北京市海淀区清华园1号 100084 电话：（010）62789010 快速链接 院系简介 机构设置 师资队伍 党建专栏 科学研究 教育教学 招生动态 学生活动 国际交流 系友天地 招聘信息 社会服务 友情链接 清华大学 虚拟仿真实验教学中心 清华大学新闻网 国家级自动化实验教学中心 清华大学具身智能与机器人研究院 清华大学自动化系 公众号 清华大学具身智能与机器人研究院 公众号"
+        ],
+        "relevantLinks": [
+          {
+            "label": "学生活动",
+            "url": "https://www.au.tsinghua.edu.cn/xshd.htm"
+          },
+          {
+            "label": "国家级自动化实验教学中心",
+            "url": "http://lab.au.tsinghua.edu.cn/lab2020/"
+          }
+        ]
+      },
+      "reason": "第四轮逐人补证已核实现任独立 PI、两项以上可靠来源、3–5 条带来源事实、512×512 可靠头像及至少一条一手可核验关系。",
+      "disposition": "ready",
+      "sourceLedger": "data/candidate-priority-p0-asia-disposition-2026-09-03.json",
+      "priorStatus": "missing_relationship",
+      "atlasPersonId": "jianjiang-feng-thu-p0-fourth-b1"
+    },
+    {
+      "canonicalKey": "Mainland China:清华大学:陶建华",
+      "name": "陶建华",
+      "region": "Mainland China",
+      "institution": "清华大学",
+      "status": "missing_relationship",
+      "evidenceUrls": [
+        "https://www.au.tsinghua.edu.cn/info/1080/3219.htm",
+        "https://www.au.tsinghua.edu.cn/szdw/jsdw1/ayjscz.htm"
+      ],
+      "portraitUrl": "https://www.au.tsinghua.edu.cn/__local/0/0D/4A/56C7ADA0952ADD2A2B4E8174CCC_A58F22D4_5ADB.jpg",
+      "checkedSources": [
+        {
+          "url": "https://www.au.tsinghua.edu.cn/info/1080/3219.htm",
+          "kind": "official_profile",
+          "result": "identified"
+        },
+        {
+          "url": "https://www.au.tsinghua.edu.cn/szdw/jsdw1/ayjscz.htm",
+          "kind": "official_roster",
+          "result": "identified"
+        },
+        {
+          "url": "https://www.au.tsinghua.edu.cn/info/1080/3219.htm",
+          "finalUrl": "https://www.au.tsinghua.edu.cn/info/1080/3219.htm",
+          "kind": "profile_fetch",
+          "result": "fetched",
+          "httpStatus": 200,
+          "error": null
+        }
+      ],
+      "extractedEvidence": {
+        "pageTitle": "陶建华-清华大学自动化系",
+        "metaDescription": "教育背景1993年、1996年 分别获南京大学理学学士、硕士学位2001年 清华大学工学博士学位工作履历2001.07-2003.02 清华大学计算机系 助理研究员2003.03-2022.12 中国科学院自动化研究所 历任副研究员、研究员、模式识别国家重点实验室副主任、学术委员会委员、学位委员会委员2022.12-至今 清华大学自动化系 长聘教授学术兼职Board Member, International Speech Communication Association(ISCA )Steering Committee Member, IEE...",
+        "imageCandidates": [
+          "https://www.au.tsinghua.edu.cn/images/logo.png",
+          "https://www.au.tsinghua.edu.cn/images/3.jpg",
+          "https://www.au.tsinghua.edu.cn/images/m_n_nav_left.svg",
+          "https://www.au.tsinghua.edu.cn/images/m_n_nav_right.svg",
+          "https://www.au.tsinghua.edu.cn/__local/0/0D/4A/56C7ADA0952ADD2A2B4E8174CCC_A58F22D4_5ADB.jpg",
+          "https://www.au.tsinghua.edu.cn/images/list21_ico1.png",
+          "https://www.au.tsinghua.edu.cn/images/list21_ico2.png",
+          "https://www.au.tsinghua.edu.cn/images/list21_ico3.png",
+          "https://www.au.tsinghua.edu.cn/images/home5_bg1.png",
+          "https://www.au.tsinghua.edu.cn/images/footer_logo.png",
+          "https://www.au.tsinghua.edu.cn/images/list10_ico.png",
+          "https://www.au.tsinghua.edu.cn/weixintupian_20240115091903.jpg",
+          "https://www.au.tsinghua.edu.cn/images/ewm_js.jpg"
+        ],
+        "relationshipEvidenceCandidates": [
+          "陶建华-清华大学自动化系 55周年活动 English 紫冬视频 会议室预定 院系简介 本系概况 主任致辞 现任领导 历任领导 历史沿革 机构设置 委员会 研究所 实验中心 综合办公室 师资队伍 两院院士 教师队伍 党建专栏 科学研究 学科方向 研究机构 科研成果 研究中心 科研动态 教育教学 本科生教学 研究生教学 因材施教 教学成果 招生动态 本科生招生 研究生招生 博导名单 学生活动 国际交流 系友天地 系友活动 系友风采 系友捐赠 55周年系庆 联系我们 招聘信息 社会服务 55周年活动 English 紫冬视频 会议室预定 院系简介 本系概况 主任致辞 现任领导 历任领导 历史沿革 机构设置 委员会 研究所 实验中心 综合办公室 师资队伍 两院院士 教师队伍 党建专栏 科学研究 学科方向 研究机构 科研成果 研究中心 科研动态 教育教学 本科生教学 研究生教学 因材施教 教学成果 招生动态 本科生招生 研究生招生 博导名单 学生活动 国际交流 系友天地 系友活动 系友风采 系友捐赠 55周年系庆 联系我们 招聘信息 社会服务 × 请输入您搜索的信息！",
+          "cn 电话： 地点：清华大学自动化系 教育背景 1993年、1996年 分别获南京大学理学学士、硕士学位 2001年 清华大学工学博士学位 工作履历 2001.",
+          "12 中国科学院自动化研究所 历任副研究员、研究员、模式识别国家重点实验室副主任、学术委员会委员、学位委员会委员 2022.",
+          "5,2006 地址：北京市海淀区清华园1号 100084 电话：（010）62789010 快速链接 院系简介 机构设置 师资队伍 党建专栏 科学研究 教育教学 招生动态 学生活动 国际交流 系友天地 招聘信息 社会服务 友情链接 清华大学 虚拟仿真实验教学中心 清华大学新闻网 国家级自动化实验教学中心 清华大学具身智能与机器人研究院 清华大学自动化系 公众号 清华大学具身智能与机器人研究院 公众号"
+        ],
+        "relevantLinks": [
+          {
+            "label": "学生活动",
+            "url": "https://www.au.tsinghua.edu.cn/xshd.htm"
+          },
+          {
+            "label": "国家级自动化实验教学中心",
+            "url": "http://lab.au.tsinghua.edu.cn/lab2020/"
+          }
+        ]
+      },
+      "reason": "第四轮逐人补证已核实现任独立 PI、两项以上可靠来源、3–5 条带来源事实、512×512 可靠头像及至少一条一手可核验关系。",
+      "disposition": "ready",
+      "sourceLedger": "data/candidate-priority-p0-asia-disposition-2026-09-03.json",
+      "priorStatus": "missing_relationship",
+      "atlasPersonId": "jianhua-tao-thu-p0-fourth-b1"
+    },
+    {
+      "canonicalKey": "Mainland China:清华大学:吴澄",
+      "name": "吴澄",
+      "region": "Mainland China",
+      "institution": "清华大学",
+      "status": "missing_relationship",
+      "evidenceUrls": [
+        "https://www.au.tsinghua.edu.cn/info/1075/3144.htm",
+        "https://www.au.tsinghua.edu.cn/szdw/jsdw1/ayjscz.htm"
+      ],
+      "portraitUrl": "https://www.au.tsinghua.edu.cn/__local/4/A0/B0/4D4AF2DF96BB6DFBFD437C47CCB_169F647E_139921.jpg",
+      "checkedSources": [
+        {
+          "url": "https://www.au.tsinghua.edu.cn/info/1075/3144.htm",
+          "kind": "official_profile",
+          "result": "identified"
+        },
+        {
+          "url": "https://www.au.tsinghua.edu.cn/szdw/jsdw1/ayjscz.htm",
+          "kind": "official_roster",
+          "result": "identified"
+        },
+        {
+          "url": "https://www.au.tsinghua.edu.cn/info/1075/3144.htm",
+          "finalUrl": "https://www.au.tsinghua.edu.cn/info/1075/3144.htm",
+          "kind": "profile_fetch",
+          "result": "fetched",
+          "httpStatus": 200,
+          "error": null
+        }
+      ],
+      "extractedEvidence": {
+        "pageTitle": "吴澄 -清华大学自动化系",
+        "metaDescription": "教育背景1962 年毕业于清华大学电机工程系，主修工业自动化1966 年研究生毕业于清华大学工作履历1981年2月-1983年3月 美国Case Western Reserve大学的系统工程系以Post Doctorial Fellow身份进修1967年2月-至今...",
+        "imageCandidates": [
+          "https://www.au.tsinghua.edu.cn/images/logo.png",
+          "https://www.au.tsinghua.edu.cn/images/3.jpg",
+          "https://www.au.tsinghua.edu.cn/images/m_n_nav_left.svg",
+          "https://www.au.tsinghua.edu.cn/images/m_n_nav_right.svg",
+          "https://www.au.tsinghua.edu.cn/__local/4/A0/B0/4D4AF2DF96BB6DFBFD437C47CCB_169F647E_139921.jpg",
+          "https://www.au.tsinghua.edu.cn/images/list21_ico1.png",
+          "https://www.au.tsinghua.edu.cn/images/list21_ico2.png",
+          "https://www.au.tsinghua.edu.cn/images/list21_ico3.png",
+          "https://www.au.tsinghua.edu.cn/images/home5_bg1.png",
+          "https://www.au.tsinghua.edu.cn/images/footer_logo.png",
+          "https://www.au.tsinghua.edu.cn/images/list10_ico.png",
+          "https://www.au.tsinghua.edu.cn/weixintupian_20240115091903.jpg",
+          "https://www.au.tsinghua.edu.cn/images/ewm_js.jpg"
+        ],
+        "relationshipEvidenceCandidates": [
+          "吴澄 -清华大学自动化系 55周年活动 English 紫冬视频 会议室预定 院系简介 本系概况 主任致辞 现任领导 历任领导 历史沿革 机构设置 委员会 研究所 实验中心 综合办公室 师资队伍 两院院士 教师队伍 党建专栏 科学研究 学科方向 研究机构 科研成果 研究中心 科研动态 教育教学 本科生教学 研究生教学 因材施教 教学成果 招生动态 本科生招生 研究生招生 博导名单 学生活动 国际交流 系友天地 系友活动 系友风采 系友捐赠 55周年系庆 联系我们 招聘信息 社会服务 55周年活动 English 紫冬视频 会议室预定 院系简介 本系概况 主任致辞 现任领导 历任领导 历史沿革 机构设置 委员会 研究所 实验中心 综合办公室 师资队伍 两院院士 教师队伍 党建专栏 科学研究 学科方向 研究机构 科研成果 研究中心 科研动态 教育教学 本科生教学 研究生教学 因材施教 教学成果 招生动态 本科生招生 研究生招生 博导名单 学生活动 国际交流 系友天地 系友活动 系友风采 系友捐赠 55周年系庆 联系我们 招聘信息 社会服务 × 请输入您搜索的信息！",
+          "何玲娟（博士生），刘连臣，吴澄 , 一种改进的基于 WSDL 描述的操作相似性度量方法 , 计算机学报 , 2008 年 8 月 P1331-1339 4.",
+          "蚁龙（博士生），刘连臣，何玲娟，吴澄 , 协商支持系统综述与展望 , 计算机集成制造系统 , （总第 129 期） 2009 年 1 月 6.",
+          "NGAI Lung （ 博士生 ） , LIU Lian-chen and WU Cheng, HE Ling-juan ， Third Party Subsidy does not improve E-Business Market Trading Efficiency, 2007 IEEE Asia-Pacific Services Computing Conference, Proceedings of IEEE APSCC2007, 2007: 218-223 15.",
+          "NGAI Lung （ 博士生 ） , LIU Lian-chen, WU Cheng, MAK Phil ；",
+          "Lung Ngai （ 博士生 ） , WanCheng Ni, LianChen Liu, Cheng Wu.",
+          "尹文 君 （ 博士生 ） 刘民, 吴澄, 随机故障下单机鲁棒调度算法的遗传编程方法, 清华大学学报(自然科学版), 45 (1):81-84, 2005 40.",
+          "周华（博士后） 刘民 吴澄, 基于遗传算 法和代理的集成调度系统框架 , 计算机集成制造系统-CIMS , 11(10), 1414-1418, 1443, 2005 41.",
+          "周华（博士后） 刘民 吴澄 , 基于代理的可重构制造执行系统研究 , 计算机集成制造系统-CIMS , 11(6):776-780, 2005 42.",
+          "周华（博士后） 刘民 吴澄， 一种支持VPL的制造执行系统的体系结构 ， 控制工程 ， 12(2):101-103, 200 5 45.",
+          "周华（博士后） 刘民 吴澄, 一种模型驱动基于代理的制造执行系统 , 控制工程 , 12(1):8-10, 2005 46.",
+          "郝井华（博士生）刘民 , 吴澄 , 陈少卿， 一种基于 LLM 的高维时间序列数据异常检测方法 , 控制工程 12(3):207-209,265, 2005 47.",
+          "董明宇（博士生）刘民 , 吴澄，带并行机调度问题中基于 ANFIS 的自适应算法 , 控制工程 , 12(3):203-206, 2005 48.",
+          "郝井华 （博士生） 刘民 , 刘屹洲 , 吴澄 , 张瑞，复杂并行机调度问题基于分解的优化算法 , 控制工程 , 12(6):520-522, 2005 50.",
+          "孙跃鹏 （博士生） 刘民 , 吴澄，面向色织生产过程的整经轴数智能预测算法 , 控制工程 , 12(6):523-526, 2005 51.",
+          "6 地址：北京市海淀区清华园1号 100084 电话：（010）62789010 快速链接 院系简介 机构设置 师资队伍 党建专栏 科学研究 教育教学 招生动态 学生活动 国际交流 系友天地 招聘信息 社会服务 友情链接 清华大学 虚拟仿真实验教学中心 清华大学新闻网 国家级自动化实验教学中心 清华大学具身智能与机器人研究院 清华大学自动化系 公众号 清华大学具身智能与机器人研究院 公众号"
+        ],
+        "relevantLinks": [
+          {
+            "label": "学生活动",
+            "url": "https://www.au.tsinghua.edu.cn/xshd.htm"
+          },
+          {
+            "label": "国家级自动化实验教学中心",
+            "url": "http://lab.au.tsinghua.edu.cn/lab2020/"
+          }
+        ]
+      },
+      "reason": "现任 PI 与名录来源已定位，但本轮未找到可由本人 CV、博士论文库、研究组 alumni 或官方项目页直接确认且端点可接入的关系证据；继续待核验。",
+      "disposition": "missing_relationship",
+      "sourceLedger": "data/candidate-priority-p0-asia-disposition-2026-09-03.json",
+      "priorStatus": "missing_relationship",
+      "atlasPersonId": null
+    },
+    {
+      "canonicalKey": "Mainland China:清华大学:李衍达",
+      "name": "李衍达",
+      "region": "Mainland China",
+      "institution": "清华大学",
+      "status": "missing_relationship",
+      "evidenceUrls": [
+        "https://www.au.tsinghua.edu.cn/info/1078/3128.htm",
+        "https://www.au.tsinghua.edu.cn/szdw/jsdw1/ayjscz.htm"
+      ],
+      "portraitUrl": "https://www.au.tsinghua.edu.cn/__local/D/89/2C/788E783ECB9F4EE5D230B87EBFE_EDB555F1_8949.jpg",
+      "checkedSources": [
+        {
+          "url": "https://www.au.tsinghua.edu.cn/info/1078/3128.htm",
+          "kind": "official_profile",
+          "result": "identified"
+        },
+        {
+          "url": "https://www.au.tsinghua.edu.cn/szdw/jsdw1/ayjscz.htm",
+          "kind": "official_roster",
+          "result": "identified"
+        },
+        {
+          "url": "https://www.au.tsinghua.edu.cn/info/1078/3128.htm",
+          "finalUrl": "https://www.au.tsinghua.edu.cn/info/1078/3128.htm",
+          "kind": "profile_fetch",
+          "result": "fetched",
+          "httpStatus": 200,
+          "error": null
+        }
+      ],
+      "extractedEvidence": {
+        "pageTitle": "李衍达-清华大学自动化系",
+        "metaDescription": "教育背景1954年9月-1959年7月 清华大学自动控制自动控制专业学习，获学士学位工作履历1958年9月-1970年9月 清华大学电机系 助教，讲师1970年9月-1978年10月 清华大学自动化系 讲师1978年10月-1981年3月 MIT 访问...",
+        "imageCandidates": [
+          "https://www.au.tsinghua.edu.cn/images/logo.png",
+          "https://www.au.tsinghua.edu.cn/images/3.jpg",
+          "https://www.au.tsinghua.edu.cn/images/m_n_nav_left.svg",
+          "https://www.au.tsinghua.edu.cn/images/m_n_nav_right.svg",
+          "https://www.au.tsinghua.edu.cn/__local/D/89/2C/788E783ECB9F4EE5D230B87EBFE_EDB555F1_8949.jpg",
+          "https://www.au.tsinghua.edu.cn/images/list21_ico1.png",
+          "https://www.au.tsinghua.edu.cn/images/list21_ico2.png",
+          "https://www.au.tsinghua.edu.cn/images/list21_ico3.png",
+          "https://www.au.tsinghua.edu.cn/images/home5_bg1.png",
+          "https://www.au.tsinghua.edu.cn/images/footer_logo.png",
+          "https://www.au.tsinghua.edu.cn/images/list10_ico.png",
+          "https://www.au.tsinghua.edu.cn/weixintupian_20240115091903.jpg",
+          "https://www.au.tsinghua.edu.cn/images/ewm_js.jpg"
+        ],
+        "relationshipEvidenceCandidates": [
+          "李衍达-清华大学自动化系 55周年活动 English 紫冬视频 会议室预定 院系简介 本系概况 主任致辞 现任领导 历任领导 历史沿革 机构设置 委员会 研究所 实验中心 综合办公室 师资队伍 两院院士 教师队伍 党建专栏 科学研究 学科方向 研究机构 科研成果 研究中心 科研动态 教育教学 本科生教学 研究生教学 因材施教 教学成果 招生动态 本科生招生 研究生招生 博导名单 学生活动 国际交流 系友天地 系友活动 系友风采 系友捐赠 55周年系庆 联系我们 招聘信息 社会服务 55周年活动 English 紫冬视频 会议室预定 院系简介 本系概况 主任致辞 现任领导 历任领导 历史沿革 机构设置 委员会 研究所 实验中心 综合办公室 师资队伍 两院院士 教师队伍 党建专栏 科学研究 学科方向 研究机构 科研成果 研究中心 科研动态 教育教学 本科生教学 研究生教学 因材施教 教学成果 招生动态 本科生招生 研究生招生 博导名单 学生活动 国际交流 系友天地 系友活动 系友风采 系友捐赠 55周年系庆 联系我们 招聘信息 社会服务 × 请输入您搜索的信息！",
+          "cn 电话： 010-62794295 Fax: 010-62786911 地点：北京清华大学自动化系 教育背景 1954年9月-1959年7月 清华大学自动控制自动控制专业学习，获学士学位 工作履历 1958年9月-1970年9月 清华大学电机系 助教，讲师 1970年9月-1978年10月 清华大学自动化系 讲师 1978年10月-1981年3月 MIT 访问学者 1983年3月-至今 清华大学自动化系 副教授，教授 学术兼职 1983年1月-至今 在IEEE担任高级会员 1995年9月-2005年9月 在国务院（学位委员会控制科学与工程)学科评议组担任召集人 1997年7月-至今 在电子学报担任副主编 1998年7月-至今 在中国自动化学会智能自动化专业委员会担任名誉主任 1998年9月-2007年9月 在中国自动化学会担任副理事长 1999年9月-至今 在清华大学担任校务委员会委员 2002年7月-2007年9月 在教育部高等学校电子信息与电气科学教学指导委员会担任主任委员 2002年7月-至今 在北京大学理论生物学中心学术委员会担任委员 研究领域 [1] 生物信息学 将复杂系统的信息处理方法应用在分子生物学中,如基因组序列的信息结构研究，基因调控网络的建模和仿真等方面的研究，复杂疾病的易感基因分析等。",
+          "计算机科学, 2002, 29(6), 1-4 [46] 李梢（博士后）,王永炎,季梁,李衍达（导师）.",
+          "中国科学，2001，31，4，348-354 [52] 刘宇新（研究生），李衍达（导师）.",
+          "2， March， 1983 地址：北京市海淀区清华园1号 100084 电话：（010）62789010 快速链接 院系简介 机构设置 师资队伍 党建专栏 科学研究 教育教学 招生动态 学生活动 国际交流 系友天地 招聘信息 社会服务 友情链接 清华大学 虚拟仿真实验教学中心 清华大学新闻网 国家级自动化实验教学中心 清华大学具身智能与机器人研究院 清华大学自动化系 公众号 清华大学具身智能与机器人研究院 公众号"
+        ],
+        "relevantLinks": [
+          {
+            "label": "学生活动",
+            "url": "https://www.au.tsinghua.edu.cn/xshd.htm"
+          },
+          {
+            "label": "国家级自动化实验教学中心",
+            "url": "http://lab.au.tsinghua.edu.cn/lab2020/"
+          }
+        ]
+      },
+      "reason": "现任 PI 与名录来源已定位，但本轮未找到可由本人 CV、博士论文库、研究组 alumni 或官方项目页直接确认且端点可接入的关系证据；继续待核验。",
+      "disposition": "missing_relationship",
+      "sourceLedger": "data/candidate-priority-p0-asia-disposition-2026-09-03.json",
+      "priorStatus": "missing_relationship",
+      "atlasPersonId": null
+    },
+    {
+      "canonicalKey": "Mainland China:清华大学:周东华",
+      "name": "周东华",
+      "region": "Mainland China",
+      "institution": "清华大学",
+      "status": "missing_relationship",
+      "evidenceUrls": [
+        "https://www.au.tsinghua.edu.cn/info/1077/3123.htm",
+        "https://www.au.tsinghua.edu.cn/szdw/jsdw1/ayjscz.htm"
+      ],
+      "portraitUrl": "https://www.au.tsinghua.edu.cn/__local/4/D9/FB/CF99DA57C16B499C3F1FD204940_9B7F399F_B212F.jpg",
+      "checkedSources": [
+        {
+          "url": "https://www.au.tsinghua.edu.cn/info/1077/3123.htm",
+          "kind": "official_profile",
+          "result": "identified"
+        },
+        {
+          "url": "https://www.au.tsinghua.edu.cn/szdw/jsdw1/ayjscz.htm",
+          "kind": "official_roster",
+          "result": "identified"
+        },
+        {
+          "url": "https://www.au.tsinghua.edu.cn/info/1077/3123.htm",
+          "finalUrl": "https://www.au.tsinghua.edu.cn/info/1077/3123.htm",
+          "kind": "profile_fetch",
+          "result": "fetched",
+          "httpStatus": 200,
+          "error": null
+        }
+      ],
+      "extractedEvidence": {
+        "pageTitle": "周东华-清华大学自动化系",
+        "metaDescription": "教育背景1981-1990， 获上海交通大学学士、硕士、博士学位工作履历曾任北京理工大学副研究员（1993-1994）德国杜伊斯堡大学洪堡学者（1994-1996）耶鲁大学访问学者（1991-1992）学术兼职IFAC 技术过程故障诊断...",
+        "imageCandidates": [
+          "https://www.au.tsinghua.edu.cn/images/logo.png",
+          "https://www.au.tsinghua.edu.cn/images/3.jpg",
+          "https://www.au.tsinghua.edu.cn/images/m_n_nav_left.svg",
+          "https://www.au.tsinghua.edu.cn/images/m_n_nav_right.svg",
+          "https://www.au.tsinghua.edu.cn/__local/4/D9/FB/CF99DA57C16B499C3F1FD204940_9B7F399F_B212F.jpg",
+          "https://www.au.tsinghua.edu.cn/images/list21_ico1.png",
+          "https://www.au.tsinghua.edu.cn/images/list21_ico2.png",
+          "https://www.au.tsinghua.edu.cn/images/list21_ico3.png",
+          "https://www.au.tsinghua.edu.cn/images/home5_bg1.png",
+          "https://www.au.tsinghua.edu.cn/images/footer_logo.png",
+          "https://www.au.tsinghua.edu.cn/images/list10_ico.png",
+          "https://www.au.tsinghua.edu.cn/weixintupian_20240115091903.jpg",
+          "https://www.au.tsinghua.edu.cn/images/ewm_js.jpg"
+        ],
+        "relationshipEvidenceCandidates": [
+          "周东华-清华大学自动化系 55周年活动 English 紫冬视频 会议室预定 院系简介 本系概况 主任致辞 现任领导 历任领导 历史沿革 机构设置 委员会 研究所 实验中心 综合办公室 师资队伍 两院院士 教师队伍 党建专栏 科学研究 学科方向 研究机构 科研成果 研究中心 科研动态 教育教学 本科生教学 研究生教学 因材施教 教学成果 招生动态 本科生招生 研究生招生 博导名单 学生活动 国际交流 系友天地 系友活动 系友风采 系友捐赠 55周年系庆 联系我们 招聘信息 社会服务 55周年活动 English 紫冬视频 会议室预定 院系简介 本系概况 主任致辞 现任领导 历任领导 历史沿革 机构设置 委员会 研究所 实验中心 综合办公室 师资队伍 两院院士 教师队伍 党建专栏 科学研究 学科方向 研究机构 科研成果 研究中心 科研动态 教育教学 本科生教学 研究生教学 因材施教 教学成果 招生动态 本科生招生 研究生招生 博导名单 学生活动 国际交流 系友天地 系友活动 系友风采 系友捐赠 55周年系庆 联系我们 招聘信息 社会服务 × 请输入您搜索的信息！",
+          "师资队伍 师资队伍 两院院士 教师队伍 首页 > 师资队伍 > 教师队伍 > 按研究所查找 > 控制与决策研究所 > 正文 周东华 上海交通大学博士、浙江大学博士后 曾任北京理工大学副研究员、德国洪堡学者、美国耶鲁大学访问学者、清华大学自动化系主任 目前任山东科技大学副校长、清华大学教授（双聘） 邮箱： zdh@tsinghua.",
+          "cn 电话： 地点： 教育背景 1981-1990， 获上海交通大学学士、硕士、博士学位 工作履历 曾任北京理工大学副研究员（1993-1994） 德国杜伊斯堡大学洪堡学者（1994-1996） 耶鲁大学访问学者（1991-1992） 学术兼职 IFAC 技术过程故障诊断与安全性技术委员会委员 中国自动化学会副理事长 技术过程故障诊断与安全性专业委员会主任等 研究领域 动态系统故障诊断、容错控制与运行安全性评估理论等。",
+          "曾获第六届中国青年科技奖、全国优秀博士后奖、国家杰出青年科学基金、教育部长江学者特聘教授、国家“万人计划”领军人才、山东省泰山学者优势特色学科人才团队领军人才、全国优秀科技工作者等称号，并曾任国家自然科学基金会优秀创新群体负责人。",
+          "地址：北京市海淀区清华园1号 100084 电话：（010）62789010 快速链接 院系简介 机构设置 师资队伍 党建专栏 科学研究 教育教学 招生动态 学生活动 国际交流 系友天地 招聘信息 社会服务 友情链接 清华大学 虚拟仿真实验教学中心 清华大学新闻网 国家级自动化实验教学中心 清华大学具身智能与机器人研究院 清华大学自动化系 公众号 清华大学具身智能与机器人研究院 公众号"
+        ],
+        "relevantLinks": [
+          {
+            "label": "学生活动",
+            "url": "https://www.au.tsinghua.edu.cn/xshd.htm"
+          },
+          {
+            "label": "国家级自动化实验教学中心",
+            "url": "http://lab.au.tsinghua.edu.cn/lab2020/"
+          }
+        ]
+      },
+      "reason": "现任 PI 与名录来源已定位，但本轮未找到可由本人 CV、博士论文库、研究组 alumni 或官方项目页直接确认且端点可接入的关系证据；继续待核验。",
+      "disposition": "missing_relationship",
+      "sourceLedger": "data/candidate-priority-p0-asia-disposition-2026-09-03.json",
+      "priorStatus": "missing_relationship",
+      "atlasPersonId": null
+    },
+    {
+      "canonicalKey": "Mainland China:清华大学:贾庆山",
+      "name": "贾庆山",
+      "region": "Mainland China",
+      "institution": "清华大学",
+      "status": "missing_relationship",
+      "evidenceUrls": [
+        "https://www.au.tsinghua.edu.cn/info/1076/3252.htm",
+        "https://www.au.tsinghua.edu.cn/szdw/jsdw1/ayjscz.htm"
+      ],
+      "portraitUrl": "https://www.au.tsinghua.edu.cn/__local/D/62/2C/3E39C17E0EA7AEF3DDE095B48BE_42EC8E09_638C.jpg",
+      "checkedSources": [
+        {
+          "url": "https://www.au.tsinghua.edu.cn/info/1076/3252.htm",
+          "kind": "official_profile",
+          "result": "identified"
+        },
+        {
+          "url": "https://www.au.tsinghua.edu.cn/szdw/jsdw1/ayjscz.htm",
+          "kind": "official_roster",
+          "result": "identified"
+        },
+        {
+          "url": "https://www.au.tsinghua.edu.cn/info/1076/3252.htm",
+          "finalUrl": "https://www.au.tsinghua.edu.cn/info/1076/3252.htm",
+          "kind": "profile_fetch",
+          "result": "fetched",
+          "httpStatus": 200,
+          "error": null
+        }
+      ],
+      "extractedEvidence": {
+        "pageTitle": "贾庆山 -清华大学自动化系",
+        "metaDescription": "教育背景1998年8月至2002年7月 清华大学自动化系自动化专业学习，获工学学士学位；2002年8月至2006年7月 清华大学自动化系控制科学与工程专业学习，获工学博士学位工作履历2006年8月至2010年11月 清华大学自动化...",
+        "imageCandidates": [
+          "https://www.au.tsinghua.edu.cn/images/logo.png",
+          "https://www.au.tsinghua.edu.cn/images/3.jpg",
+          "https://www.au.tsinghua.edu.cn/images/m_n_nav_left.svg",
+          "https://www.au.tsinghua.edu.cn/images/m_n_nav_right.svg",
+          "https://www.au.tsinghua.edu.cn/__local/D/62/2C/3E39C17E0EA7AEF3DDE095B48BE_42EC8E09_638C.jpg",
+          "https://www.au.tsinghua.edu.cn/images/list21_ico1.png",
+          "https://www.au.tsinghua.edu.cn/images/list21_ico2.png",
+          "https://www.au.tsinghua.edu.cn/images/list21_ico3.png",
+          "https://www.au.tsinghua.edu.cn/images/home5_bg1.png",
+          "https://www.au.tsinghua.edu.cn/images/footer_logo.png",
+          "https://www.au.tsinghua.edu.cn/images/list10_ico.png",
+          "https://www.au.tsinghua.edu.cn/weixintupian_20240115091903.jpg",
+          "https://www.au.tsinghua.edu.cn/images/ewm_js.jpg"
+        ],
+        "relationshipEvidenceCandidates": [
+          "贾庆山 -清华大学自动化系 55周年活动 English 紫冬视频 会议室预定 院系简介 本系概况 主任致辞 现任领导 历任领导 历史沿革 机构设置 委员会 研究所 实验中心 综合办公室 师资队伍 两院院士 教师队伍 党建专栏 科学研究 学科方向 研究机构 科研成果 研究中心 科研动态 教育教学 本科生教学 研究生教学 因材施教 教学成果 招生动态 本科生招生 研究生招生 博导名单 学生活动 国际交流 系友天地 系友活动 系友风采 系友捐赠 55周年系庆 联系我们 招聘信息 社会服务 55周年活动 English 紫冬视频 会议室预定 院系简介 本系概况 主任致辞 现任领导 历任领导 历史沿革 机构设置 委员会 研究所 实验中心 综合办公室 师资队伍 两院院士 教师队伍 党建专栏 科学研究 学科方向 研究机构 科研成果 研究中心 科研动态 教育教学 本科生教学 研究生教学 因材施教 教学成果 招生动态 本科生招生 研究生招生 博导名单 学生活动 国际交流 系友天地 系友活动 系友风采 系友捐赠 55周年系庆 联系我们 招聘信息 社会服务 × 请输入您搜索的信息！",
+          "地址：北京市海淀区清华园1号 100084 电话：（010）62789010 快速链接 院系简介 机构设置 师资队伍 党建专栏 科学研究 教育教学 招生动态 学生活动 国际交流 系友天地 招聘信息 社会服务 友情链接 清华大学 虚拟仿真实验教学中心 清华大学新闻网 国家级自动化实验教学中心 清华大学具身智能与机器人研究院 清华大学自动化系 公众号 清华大学具身智能与机器人研究院 公众号"
+        ],
+        "relevantLinks": [
+          {
+            "label": "学生活动",
+            "url": "https://www.au.tsinghua.edu.cn/xshd.htm"
+          },
+          {
+            "label": "国家级自动化实验教学中心",
+            "url": "http://lab.au.tsinghua.edu.cn/lab2020/"
+          }
+        ]
+      },
+      "reason": "现任 PI 与名录来源已定位，但本轮未找到可由本人 CV、博士论文库、研究组 alumni 或官方项目页直接确认且端点可接入的关系证据；继续待核验。",
+      "disposition": "missing_relationship",
+      "sourceLedger": "data/candidate-priority-p0-asia-disposition-2026-09-03.json",
+      "priorStatus": "missing_relationship",
+      "atlasPersonId": null
+    },
+    {
+      "canonicalKey": "Mainland China:清华大学:赵千川",
+      "name": "赵千川",
+      "region": "Mainland China",
+      "institution": "清华大学",
+      "status": "missing_relationship",
+      "evidenceUrls": [
+        "https://www.au.tsinghua.edu.cn/info/1076/3244.htm",
+        "https://www.au.tsinghua.edu.cn/szdw/jsdw1/ayjscz.htm"
+      ],
+      "portraitUrl": "https://www.au.tsinghua.edu.cn/__local/7/9F/D7/50E49E763735C1EA458EA15FABE_30B4C6B0_40EB.jpg",
+      "checkedSources": [
+        {
+          "url": "https://www.au.tsinghua.edu.cn/info/1076/3244.htm",
+          "kind": "official_profile",
+          "result": "identified"
+        },
+        {
+          "url": "https://www.au.tsinghua.edu.cn/szdw/jsdw1/ayjscz.htm",
+          "kind": "official_roster",
+          "result": "identified"
+        },
+        {
+          "url": "https://www.au.tsinghua.edu.cn/info/1076/3244.htm",
+          "finalUrl": "https://www.au.tsinghua.edu.cn/info/1076/3244.htm",
+          "kind": "profile_fetch",
+          "result": "fetched",
+          "httpStatus": 200,
+          "error": null
+        }
+      ],
+      "extractedEvidence": {
+        "pageTitle": "赵千川 -清华大学自动化系",
+        "metaDescription": "教育背景1987年9月-1992年7月 清华大学自动化系学习，获工学学士学位并获得应用数学专业理学学士学位1992年9月-1996年7月 清华大学自动化系学习，获工学博士学位工作履历1996年8月留校任教至今1998年8月被评为副...",
+        "imageCandidates": [
+          "https://www.au.tsinghua.edu.cn/images/logo.png",
+          "https://www.au.tsinghua.edu.cn/images/3.jpg",
+          "https://www.au.tsinghua.edu.cn/images/m_n_nav_left.svg",
+          "https://www.au.tsinghua.edu.cn/images/m_n_nav_right.svg",
+          "https://www.au.tsinghua.edu.cn/__local/7/9F/D7/50E49E763735C1EA458EA15FABE_30B4C6B0_40EB.jpg",
+          "https://www.au.tsinghua.edu.cn/images/list21_ico1.png",
+          "https://www.au.tsinghua.edu.cn/images/list21_ico2.png",
+          "https://www.au.tsinghua.edu.cn/images/list21_ico3.png",
+          "https://www.au.tsinghua.edu.cn/images/home5_bg1.png",
+          "https://www.au.tsinghua.edu.cn/images/footer_logo.png",
+          "https://www.au.tsinghua.edu.cn/images/list10_ico.png",
+          "https://www.au.tsinghua.edu.cn/weixintupian_20240115091903.jpg",
+          "https://www.au.tsinghua.edu.cn/images/ewm_js.jpg"
+        ],
+        "relationshipEvidenceCandidates": [
+          "赵千川 -清华大学自动化系 55周年活动 English 紫冬视频 会议室预定 院系简介 本系概况 主任致辞 现任领导 历任领导 历史沿革 机构设置 委员会 研究所 实验中心 综合办公室 师资队伍 两院院士 教师队伍 党建专栏 科学研究 学科方向 研究机构 科研成果 研究中心 科研动态 教育教学 本科生教学 研究生教学 因材施教 教学成果 招生动态 本科生招生 研究生招生 博导名单 学生活动 国际交流 系友天地 系友活动 系友风采 系友捐赠 55周年系庆 联系我们 招聘信息 社会服务 55周年活动 English 紫冬视频 会议室预定 院系简介 本系概况 主任致辞 现任领导 历任领导 历史沿革 机构设置 委员会 研究所 实验中心 综合办公室 师资队伍 两院院士 教师队伍 党建专栏 科学研究 学科方向 研究机构 科研成果 研究中心 科研动态 教育教学 本科生教学 研究生教学 因材施教 教学成果 招生动态 本科生招生 研究生招生 博导名单 学生活动 国际交流 系友天地 系友活动 系友风采 系友捐赠 55周年系庆 联系我们 招聘信息 社会服务 × 请输入您搜索的信息！",
+          "cn 电话： 010-62783612 Fax：010-62796115 地点：北京清华大学自动化系 教育背景 1987年9月-1992年7月 清华大学自动化系学习，获工学学士学位并获得应用数学专业理学学士学位 1992年9月-1996年7月 清华大学自动化系学习，获工学博士学位 工作履历 1996年8月留校任教至今 1998年8月被评为副教授 2003年12月被评为教授 2004年9月获得博士生导师任职资格 2000年3月-2001年4月 在卡内基梅隆大学担任访问学者(国家教委公派) 2002年5月-2002年9月 在哈佛大学担任访问学者 2006年7月-2006年11月 在康乃尔大学担任访问教授 2015年1月-2015年7月在麻省理工学院担任访问学者 学术兼职 IEEE RAS TC on Smart Buildings 主任 中国系统工程学会常务理事 中国自动化学会控制理论专业委员会委员 中国节能协会群智能建筑专业委员会副主任委员 Results in Control and Optimization 主编 控制理论与应用 副主编 IEEE Transactions on Automation Science and Engineering 编辑 Journal of Optimization Theory and Applications 编委 研究领域 控制理论与应用：网络化动态系统建模、分析、控制与优化的理论及应用 研究概况 1.",
+          "赵千川，郑大钟， “离散事件动态系统事件时序的鲁棒性”，自动化学报，23（4）：432－438，1997 (第四届何潘清漪优秀论文奖获奖论文) 地址：北京市海淀区清华园1号 100084 电话：（010）62789010 快速链接 院系简介 机构设置 师资队伍 党建专栏 科学研究 教育教学 招生动态 学生活动 国际交流 系友天地 招聘信息 社会服务 友情链接 清华大学 虚拟仿真实验教学中心 清华大学新闻网 国家级自动化实验教学中心 清华大学具身智能与机器人研究院 清华大学自动化系 公众号 清华大学具身智能与机器人研究院 公众号"
+        ],
+        "relevantLinks": [
+          {
+            "label": "学生活动",
+            "url": "https://www.au.tsinghua.edu.cn/xshd.htm"
+          },
+          {
+            "label": "国家级自动化实验教学中心",
+            "url": "http://lab.au.tsinghua.edu.cn/lab2020/"
+          }
+        ]
+      },
+      "reason": "现任 PI 与名录来源已定位，但本轮未找到可由本人 CV、博士论文库、研究组 alumni 或官方项目页直接确认且端点可接入的关系证据；继续待核验。",
+      "disposition": "missing_relationship",
+      "sourceLedger": "data/candidate-priority-p0-asia-disposition-2026-09-03.json",
+      "priorStatus": "missing_relationship",
+      "atlasPersonId": null
+    },
+    {
+      "canonicalKey": "Mainland China:清华大学:王凌",
+      "name": "王凌",
+      "region": "Mainland China",
+      "institution": "清华大学",
+      "status": "missing_relationship",
+      "evidenceUrls": [
+        "https://www.au.tsinghua.edu.cn/info/1077/3265.htm",
+        "https://www.au.tsinghua.edu.cn/szdw/jsdw1/ayjscz.htm"
+      ],
+      "portraitUrl": "https://www.au.tsinghua.edu.cn/__local/C/6A/F1/749246DA1E7909E41B8717E075E_B4B7E664_434C.jpg",
+      "checkedSources": [
+        {
+          "url": "https://www.au.tsinghua.edu.cn/info/1077/3265.htm",
+          "kind": "official_profile",
+          "result": "identified"
+        },
+        {
+          "url": "https://www.au.tsinghua.edu.cn/szdw/jsdw1/ayjscz.htm",
+          "kind": "official_roster",
+          "result": "identified"
+        },
+        {
+          "url": "https://www.au.tsinghua.edu.cn/info/1077/3265.htm",
+          "finalUrl": "https://www.au.tsinghua.edu.cn/info/1077/3265.htm",
+          "kind": "profile_fetch",
+          "result": "fetched",
+          "httpStatus": 200,
+          "error": null
+        }
+      ],
+      "extractedEvidence": {
+        "pageTitle": "王凌 -清华大学自动化系",
+        "metaDescription": "教育背景1990年9月至1995年7月 在清华大学自动化系过程控制专业学习，获学士学位1995年9月至1999年10月 在清华大学自动化系控制理论与控制工程专业学习，获博士学位工作履历1999年10月至2002年11月 清华大学自动...",
+        "imageCandidates": [
+          "https://www.au.tsinghua.edu.cn/images/logo.png",
+          "https://www.au.tsinghua.edu.cn/images/3.jpg",
+          "https://www.au.tsinghua.edu.cn/images/m_n_nav_left.svg",
+          "https://www.au.tsinghua.edu.cn/images/m_n_nav_right.svg",
+          "https://www.au.tsinghua.edu.cn/__local/C/6A/F1/749246DA1E7909E41B8717E075E_B4B7E664_434C.jpg",
+          "https://www.au.tsinghua.edu.cn/images/list21_ico1.png",
+          "https://www.au.tsinghua.edu.cn/images/list21_ico2.png",
+          "https://www.au.tsinghua.edu.cn/images/list21_ico3.png",
+          "https://www.au.tsinghua.edu.cn/images/home5_bg1.png",
+          "https://www.au.tsinghua.edu.cn/images/footer_logo.png",
+          "https://www.au.tsinghua.edu.cn/images/list10_ico.png",
+          "https://www.au.tsinghua.edu.cn/weixintupian_20240115091903.jpg",
+          "https://www.au.tsinghua.edu.cn/images/ewm_js.jpg"
+        ],
+        "relationshipEvidenceCandidates": [
+          "王凌 -清华大学自动化系 55周年活动 English 紫冬视频 会议室预定 院系简介 本系概况 主任致辞 现任领导 历任领导 历史沿革 机构设置 委员会 研究所 实验中心 综合办公室 师资队伍 两院院士 教师队伍 党建专栏 科学研究 学科方向 研究机构 科研成果 研究中心 科研动态 教育教学 本科生教学 研究生教学 因材施教 教学成果 招生动态 本科生招生 研究生招生 博导名单 学生活动 国际交流 系友天地 系友活动 系友风采 系友捐赠 55周年系庆 联系我们 招聘信息 社会服务 55周年活动 English 紫冬视频 会议室预定 院系简介 本系概况 主任致辞 现任领导 历任领导 历史沿革 机构设置 委员会 研究所 实验中心 综合办公室 师资队伍 两院院士 教师队伍 党建专栏 科学研究 学科方向 研究机构 科研成果 研究中心 科研动态 教育教学 本科生教学 研究生教学 因材施教 教学成果 招生动态 本科生招生 研究生招生 博导名单 学生活动 国际交流 系友天地 系友活动 系友风采 系友捐赠 55周年系庆 联系我们 招聘信息 社会服务 × 请输入您搜索的信息！",
+          "(负责人) (2010~2012) [12] 高等学校博士学科点专项科研基金(20130002110057)：基于协同分布估计算法的分布式车间调度研究。",
+          "(负责人) (2014~2016) [13] 高等学校博士学科点专项科研基金(20100002110014)：基于新型混合群智能的资源约束项目调度研究。",
+          "A greedy cooperative co-evolutionary algorithm with problem-specific knowledge for multi-objective flowshop group scheduling problems.",
+          "An effective cooperative co-evolutionary algorithm for distributed flowshop group scheduling problems."
+        ],
+        "relevantLinks": [
+          {
+            "label": "学生活动",
+            "url": "https://www.au.tsinghua.edu.cn/xshd.htm"
+          },
+          {
+            "label": "国家级自动化实验教学中心",
+            "url": "http://lab.au.tsinghua.edu.cn/lab2020/"
+          }
+        ]
+      },
+      "reason": "现任 PI 与名录来源已定位，但本轮未找到可由本人 CV、博士论文库、研究组 alumni 或官方项目页直接确认且端点可接入的关系证据；继续待核验。",
+      "disposition": "missing_relationship",
+      "sourceLedger": "data/candidate-priority-p0-asia-disposition-2026-09-03.json",
+      "priorStatus": "missing_relationship",
+      "atlasPersonId": null
+    },
+    {
+      "canonicalKey": "Mainland China:上海交通大学:李健",
+      "name": "李健",
+      "region": "Mainland China",
+      "institution": "上海交通大学",
+      "status": "missing_relationship",
+      "evidenceUrls": [
+        "https://www.cs.sjtu.edu.cn/jiaoshiml/lijian.html",
+        "https://www.cs.sjtu.edu.cn/jiaoshiml.html"
+      ],
+      "portraitUrl": null,
+      "checkedSources": [
+        {
+          "url": "https://www.cs.sjtu.edu.cn/jiaoshiml/lijian.html",
+          "kind": "official_profile",
+          "result": "identified"
+        },
+        {
+          "url": "https://www.cs.sjtu.edu.cn/jiaoshiml.html",
+          "kind": "official_roster",
+          "result": "identified"
+        },
+        {
+          "url": "https://www.cs.sjtu.edu.cn/jiaoshiml/lijian.html",
+          "finalUrl": "https://www.cs.sjtu.edu.cn/jiaoshiml/lijian.html",
+          "kind": "profile_fetch",
+          "result": "fetched",
+          "httpStatus": 200,
+          "error": null
+        }
+      ],
+      "extractedEvidence": {
+        "pageTitle": "李健-上海交通大学计算机学院（网络空间安全学院、密码学院）",
+        "metaDescription": "上海交通大学计算机学院（网络空间安全学院、密码学院）",
+        "imageCandidates": [
+          "https://www.cs.sjtu.edu.cn/img/lang.gif",
+          "https://www.cs.sjtu.edu.cn/upload/image/20250909/20250909162943.png",
+          "https://www.cs.sjtu.edu.cn/upload/image/20250617/20250617132943.jpg",
+          "https://www.cs.sjtu.edu.cn/img/logo2.png",
+          "https://www.cs.sjtu.edu.cn/img/wx.png",
+          "https://www.cs.sjtu.edu.cn/upload/image/20250520/20250520143220.jpg",
+          "https://www.cs.sjtu.edu.cn/img/xhs.png",
+          "https://www.cs.sjtu.edu.cn/upload/image/20250529/20250529100826.jpg",
+          "https://www.cs.sjtu.edu.cn/img/bili.png",
+          "https://www.cs.sjtu.edu.cn/upload/image/20250529/20250529104548.jpg"
+        ],
+        "relationshipEvidenceCandidates": [
+          "李健-上海交通大学计算机学院（网络空间安全学院、密码学院） 使用jAccount登录 English 学院概况 学院简介 历史沿革 学院领导 组织架构 行政机构 党建工作 党委概况 党建风采 工会组织 理论学习 师资队伍 教师名录 院士学者 国家级人才 兼职和双聘教师 退休教师 人才招聘 科学研究 科研概况 研究机构 平台基地 科研合作 人才培养 本科生培养 研究生培养 微专业培养 教学成果 教学实践 学生工作 校友天地 知名校友 校友风采 季度简报 校友基金 新闻动态 学院新闻 「01」探索 学术活动 学院视频 办事指南 通知公告 规章制度 下载专区 投票系统 学院概况 学院简介 历史沿革 学院领导 组织架构 行政机构 党建工作 党委概况 党建风采 工会组织 理论学习 师资队伍 教师名录 院士学者 国家级人才 兼职和双聘教师 退休教师 人才招聘 科学研究 科研概况 研究机构 平台基地 科研合作 人才培养 本科生培养 研究生培养 微专业培养 教学成果 教学实践 学生工作 校友天地 知名校友 校友风采 季度简报 校友基金 新闻动态 学院新闻 「01」探索 学术活动 学院视频 办事指南 通知公告 规章制度 下载专区 投票系统 您当前所在的位置： 首页 > 师资队伍 > 教师名录 师资队伍 教师名录 院士学者 国家级人才 兼职和双聘教师 退休教师 人才招聘 教师名录 李健 研究员 邮箱：li-jian@sjtu.",
+          "cn 所在研究所：可扩展计算研究所 个人简介 李健，现任职于上海交通大学计算机学院研究员、博导，软件定义云平台（SDIC）研究组负责人。",
+          "依托省部共建国家重点实验室培育基地、上海市可扩展计算与系统重点实验室，研究领域包括AI Infra, 新型异构云计算架构，虚拟化技术。",
+          "于2001年于天津大学获得学士学位，2003年于法国Nancy第一大学获得硕士学位，2007年于法国洛林理工学院年博士学位,硕士和博士论文在法国INRIA实验室完成。",
+          "2007至2008年，在加拿大多伦多大学和麦吉尔大学做博士后和访问学者。",
+          "教育背景 于2001年于天津大学获得学士学位，2003年于法国Nancy第一大学获得硕士学位，2007年于法国洛林理工学院年博士学位,硕士和博士论文在法国INRIA实验室完成。",
+          "2007至2008年，在加拿大多伦多大学和麦吉尔大学做博士后和访问学者。"
+        ],
+        "relevantLinks": [
+          {
+            "label": "学生工作",
+            "url": "https://www.cs.sjtu.edu.cn/xsgz.html"
+          }
+        ]
+      },
+      "reason": "现任 PI 与名录来源已定位，但本轮未找到可由本人 CV、博士论文库、研究组 alumni 或官方项目页直接确认且端点可接入的关系证据；继续待核验。",
+      "disposition": "missing_relationship",
+      "sourceLedger": "data/candidate-priority-p0-asia-disposition-2026-09-03.json",
+      "priorStatus": "missing_relationship",
+      "atlasPersonId": null
+    },
+    {
+      "canonicalKey": "Mainland China:上海交通大学:陈全",
+      "name": "陈全",
+      "region": "Mainland China",
+      "institution": "上海交通大学",
+      "status": "missing_relationship",
+      "evidenceUrls": [
+        "https://www.cs.sjtu.edu.cn/jiaoshiml/chenquan.html",
+        "https://www.cs.sjtu.edu.cn/jiaoshiml.html"
+      ],
+      "portraitUrl": null,
+      "checkedSources": [
+        {
+          "url": "https://www.cs.sjtu.edu.cn/jiaoshiml/chenquan.html",
+          "kind": "official_profile",
+          "result": "identified"
+        },
+        {
+          "url": "https://www.cs.sjtu.edu.cn/jiaoshiml.html",
+          "kind": "official_roster",
+          "result": "identified"
+        },
+        {
+          "url": "https://www.cs.sjtu.edu.cn/jiaoshiml/chenquan.html",
+          "finalUrl": "https://www.cs.sjtu.edu.cn/jiaoshiml/chenquan.html",
+          "kind": "profile_fetch",
+          "result": "fetched",
+          "httpStatus": 200,
+          "error": null
+        }
+      ],
+      "extractedEvidence": {
+        "pageTitle": "陈全-上海交通大学计算机学院（网络空间安全学院、密码学院）",
+        "metaDescription": "上海交通大学计算机学院（网络空间安全学院、密码学院）",
+        "imageCandidates": [
+          "https://www.cs.sjtu.edu.cn/img/lang.gif",
+          "https://www.cs.sjtu.edu.cn/upload/image/20250909/20250909162943.png",
+          "https://www.cs.sjtu.edu.cn/upload/image/jiaoshiml/%E9%99%88%E5%85%A8.jpg",
+          "https://www.cs.sjtu.edu.cn/img/logo2.png",
+          "https://www.cs.sjtu.edu.cn/img/wx.png",
+          "https://www.cs.sjtu.edu.cn/upload/image/20250520/20250520143220.jpg",
+          "https://www.cs.sjtu.edu.cn/img/xhs.png",
+          "https://www.cs.sjtu.edu.cn/upload/image/20250529/20250529100826.jpg",
+          "https://www.cs.sjtu.edu.cn/img/bili.png",
+          "https://www.cs.sjtu.edu.cn/upload/image/20250529/20250529104548.jpg"
+        ],
+        "relationshipEvidenceCandidates": [
+          "陈全-上海交通大学计算机学院（网络空间安全学院、密码学院） 使用jAccount登录 English 学院概况 学院简介 历史沿革 学院领导 组织架构 行政机构 党建工作 党委概况 党建风采 工会组织 理论学习 师资队伍 教师名录 院士学者 国家级人才 兼职和双聘教师 退休教师 人才招聘 科学研究 科研概况 研究机构 平台基地 科研合作 人才培养 本科生培养 研究生培养 微专业培养 教学成果 教学实践 学生工作 校友天地 知名校友 校友风采 季度简报 校友基金 新闻动态 学院新闻 「01」探索 学术活动 学院视频 办事指南 通知公告 规章制度 下载专区 投票系统 学院概况 学院简介 历史沿革 学院领导 组织架构 行政机构 党建工作 党委概况 党建风采 工会组织 理论学习 师资队伍 教师名录 院士学者 国家级人才 兼职和双聘教师 退休教师 人才招聘 科学研究 科研概况 研究机构 平台基地 科研合作 人才培养 本科生培养 研究生培养 微专业培养 教学成果 教学实践 学生工作 校友天地 知名校友 校友风采 季度简报 校友基金 新闻动态 学院新闻 「01」探索 学术活动 学院视频 办事指南 通知公告 规章制度 下载专区 投票系统 您当前所在的位置： 首页 > 师资队伍 > 教师名录 师资队伍 教师名录 院士学者 国家级人才 兼职和双聘教师 退休教师 人才招聘 教师名录 陈全 教授 邮箱：chen-quan@sjtu.",
+          "06, 博士， 上海交通大学计算机科学与工程系 2007.",
+          "04, 博士后， 密西根大学安娜堡分校计算机系 2014.",
+          "06, 海外师资博士后，上海交通大学软件学院 教授课程 操作系统 论文发表 研究成果发表在体系结构和系统领域的重要国际会议和期刊，如 ASPLOS 、 OSDI 、 SC 、 EuroSys 、 ATC 、 MLSys 、 IEEE TC 、 ACM TACO 、 IEEE TPDS 等。"
+        ],
+        "relevantLinks": [
+          {
+            "label": "学生工作",
+            "url": "https://www.cs.sjtu.edu.cn/xsgz.html"
+          }
+        ]
+      },
+      "reason": "现任 PI 与名录来源已定位，但本轮未找到可由本人 CV、博士论文库、研究组 alumni 或官方项目页直接确认且端点可接入的关系证据；继续待核验。",
+      "disposition": "missing_relationship",
+      "sourceLedger": "data/candidate-priority-p0-asia-disposition-2026-09-03.json",
+      "priorStatus": "missing_relationship",
+      "atlasPersonId": null
+    },
+    {
+      "canonicalKey": "Mainland China:上海交通大学:柯晶",
+      "name": "柯晶",
+      "region": "Mainland China",
+      "institution": "上海交通大学",
+      "status": "missing_relationship",
+      "evidenceUrls": [
+        "https://www.cs.sjtu.edu.cn/jiaoshiml/kejing.html",
+        "https://www.cs.sjtu.edu.cn/jiaoshiml.html"
+      ],
+      "portraitUrl": null,
+      "checkedSources": [
+        {
+          "url": "https://www.cs.sjtu.edu.cn/jiaoshiml/kejing.html",
+          "kind": "official_profile",
+          "result": "identified"
+        },
+        {
+          "url": "https://www.cs.sjtu.edu.cn/jiaoshiml.html",
+          "kind": "official_roster",
+          "result": "identified"
+        },
+        {
+          "url": "https://www.cs.sjtu.edu.cn/jiaoshiml/kejing.html",
+          "finalUrl": "https://www.cs.sjtu.edu.cn/jiaoshiml/kejing.html",
+          "kind": "profile_fetch",
+          "result": "fetched",
+          "httpStatus": 200,
+          "error": null
+        }
+      ],
+      "extractedEvidence": {
+        "pageTitle": "柯晶-上海交通大学计算机学院（网络空间安全学院、密码学院）",
+        "metaDescription": "上海交通大学计算机学院（网络空间安全学院、密码学院）",
+        "imageCandidates": [
+          "https://www.cs.sjtu.edu.cn/img/lang.gif",
+          "https://www.cs.sjtu.edu.cn/upload/image/20250909/20250909162943.png",
+          "https://www.cs.sjtu.edu.cn/upload/image/jiaoshiml/%E6%9F%AF%E6%99%B6.jpg",
+          "https://www.cs.sjtu.edu.cn/img/logo2.png",
+          "https://www.cs.sjtu.edu.cn/img/wx.png",
+          "https://www.cs.sjtu.edu.cn/upload/image/20250520/20250520143220.jpg",
+          "https://www.cs.sjtu.edu.cn/img/xhs.png",
+          "https://www.cs.sjtu.edu.cn/upload/image/20250529/20250529100826.jpg",
+          "https://www.cs.sjtu.edu.cn/img/bili.png",
+          "https://www.cs.sjtu.edu.cn/upload/image/20250529/20250529104548.jpg"
+        ],
+        "relationshipEvidenceCandidates": [
+          "柯晶-上海交通大学计算机学院（网络空间安全学院、密码学院） 使用jAccount登录 English 学院概况 学院简介 历史沿革 学院领导 组织架构 行政机构 党建工作 党委概况 党建风采 工会组织 理论学习 师资队伍 教师名录 院士学者 国家级人才 兼职和双聘教师 退休教师 人才招聘 科学研究 科研概况 研究机构 平台基地 科研合作 人才培养 本科生培养 研究生培养 微专业培养 教学成果 教学实践 学生工作 校友天地 知名校友 校友风采 季度简报 校友基金 新闻动态 学院新闻 「01」探索 学术活动 学院视频 办事指南 通知公告 规章制度 下载专区 投票系统 学院概况 学院简介 历史沿革 学院领导 组织架构 行政机构 党建工作 党委概况 党建风采 工会组织 理论学习 师资队伍 教师名录 院士学者 国家级人才 兼职和双聘教师 退休教师 人才招聘 科学研究 科研概况 研究机构 平台基地 科研合作 人才培养 本科生培养 研究生培养 微专业培养 教学成果 教学实践 学生工作 校友天地 知名校友 校友风采 季度简报 校友基金 新闻动态 学院新闻 「01」探索 学术活动 学院视频 办事指南 通知公告 规章制度 下载专区 投票系统 您当前所在的位置： 首页 > 师资队伍 > 教师名录 师资队伍 教师名录 院士学者 国家级人才 兼职和双聘教师 退休教师 人才招聘 教师名录 柯晶 副研究员 邮箱：kejing@cs.",
+          "io/ 个人简介 柯晶，博士毕业于澳大利亚新南威尔士大学，目前在上海交通大学计算机系任副教授、博导，任新南威尔士大学联席高级讲师（Adjunct Senior Lecturer）。"
+        ],
+        "relevantLinks": [
+          {
+            "label": "学生工作",
+            "url": "https://www.cs.sjtu.edu.cn/xsgz.html"
+          }
+        ]
+      },
+      "reason": "现任 PI 与名录来源已定位，但本轮未找到可由本人 CV、博士论文库、研究组 alumni 或官方项目页直接确认且端点可接入的关系证据；继续待核验。",
+      "disposition": "missing_relationship",
+      "sourceLedger": "data/candidate-priority-p0-asia-disposition-2026-09-03.json",
+      "priorStatus": "missing_relationship",
+      "atlasPersonId": null
+    },
+    {
+      "canonicalKey": "Mainland China:上海交通大学:郭捷",
+      "name": "郭捷",
+      "region": "Mainland China",
+      "institution": "上海交通大学",
+      "status": "missing_relationship",
+      "evidenceUrls": [
+        "https://www.cs.sjtu.edu.cn/jiaoshiml/guojie.html",
+        "https://www.cs.sjtu.edu.cn/jiaoshiml.html"
+      ],
+      "portraitUrl": null,
+      "checkedSources": [
+        {
+          "url": "https://www.cs.sjtu.edu.cn/jiaoshiml/guojie.html",
+          "kind": "official_profile",
+          "result": "identified"
+        },
+        {
+          "url": "https://www.cs.sjtu.edu.cn/jiaoshiml.html",
+          "kind": "official_roster",
+          "result": "identified"
+        },
+        {
+          "url": "https://www.cs.sjtu.edu.cn/jiaoshiml/guojie.html",
+          "finalUrl": "https://www.cs.sjtu.edu.cn/jiaoshiml/guojie.html",
+          "kind": "profile_fetch",
+          "result": "fetched",
+          "httpStatus": 200,
+          "error": null
+        }
+      ],
+      "extractedEvidence": {
+        "pageTitle": "郭捷-上海交通大学计算机学院（网络空间安全学院、密码学院）",
+        "metaDescription": "上海交通大学计算机学院（网络空间安全学院、密码学院）",
+        "imageCandidates": [
+          "https://www.cs.sjtu.edu.cn/img/lang.gif",
+          "https://www.cs.sjtu.edu.cn/upload/image/20250909/20250909162943.png",
+          "https://www.cs.sjtu.edu.cn/upload/image/20250904/20250904122436.jpg",
+          "https://www.cs.sjtu.edu.cn/img/logo2.png",
+          "https://www.cs.sjtu.edu.cn/img/wx.png",
+          "https://www.cs.sjtu.edu.cn/upload/image/20250520/20250520143220.jpg",
+          "https://www.cs.sjtu.edu.cn/img/xhs.png",
+          "https://www.cs.sjtu.edu.cn/upload/image/20250529/20250529100826.jpg",
+          "https://www.cs.sjtu.edu.cn/img/bili.png",
+          "https://www.cs.sjtu.edu.cn/upload/image/20250529/20250529104548.jpg"
+        ],
+        "relationshipEvidenceCandidates": [
+          "郭捷-上海交通大学计算机学院（网络空间安全学院、密码学院） 使用jAccount登录 English 学院概况 学院简介 历史沿革 学院领导 组织架构 行政机构 党建工作 党委概况 党建风采 工会组织 理论学习 师资队伍 教师名录 院士学者 国家级人才 兼职和双聘教师 退休教师 人才招聘 科学研究 科研概况 研究机构 平台基地 科研合作 人才培养 本科生培养 研究生培养 微专业培养 教学成果 教学实践 学生工作 校友天地 知名校友 校友风采 季度简报 校友基金 新闻动态 学院新闻 「01」探索 学术活动 学院视频 办事指南 通知公告 规章制度 下载专区 投票系统 学院概况 学院简介 历史沿革 学院领导 组织架构 行政机构 党建工作 党委概况 党建风采 工会组织 理论学习 师资队伍 教师名录 院士学者 国家级人才 兼职和双聘教师 退休教师 人才招聘 科学研究 科研概况 研究机构 平台基地 科研合作 人才培养 本科生培养 研究生培养 微专业培养 教学成果 教学实践 学生工作 校友天地 知名校友 校友风采 季度简报 校友基金 新闻动态 学院新闻 「01」探索 学术活动 学院视频 办事指南 通知公告 规章制度 下载专区 投票系统 您当前所在的位置： 首页 > 师资队伍 > 教师名录 师资队伍 教师名录 院士学者 国家级人才 兼职和双聘教师 退休教师 人才招聘 教师名录 郭捷 副研究员 邮箱：guojie@sjtu.",
+          "cn 所在研究所：交叉前沿研究所 个人简介 2003 年毕业于上海交通大学，获得图像处理与模式识别专业博士学位，现任计算机学院副研究员。"
+        ],
+        "relevantLinks": [
+          {
+            "label": "学生工作",
+            "url": "https://www.cs.sjtu.edu.cn/xsgz.html"
+          }
+        ]
+      },
+      "reason": "现任 PI 与名录来源已定位，但本轮未找到可由本人 CV、博士论文库、研究组 alumni 或官方项目页直接确认且端点可接入的关系证据；继续待核验。",
+      "disposition": "missing_relationship",
+      "sourceLedger": "data/candidate-priority-p0-asia-disposition-2026-09-03.json",
+      "priorStatus": "missing_relationship",
+      "atlasPersonId": null
+    },
+    {
+      "canonicalKey": "Mainland China:上海交通大学:王士林",
+      "name": "王士林",
+      "region": "Mainland China",
+      "institution": "上海交通大学",
+      "status": "missing_relationship",
+      "evidenceUrls": [
+        "https://www.cs.sjtu.edu.cn/jiaoshiml/wangshilin.html",
+        "https://www.cs.sjtu.edu.cn/jiaoshiml.html"
+      ],
+      "portraitUrl": null,
+      "checkedSources": [
+        {
+          "url": "https://www.cs.sjtu.edu.cn/jiaoshiml/wangshilin.html",
+          "kind": "official_profile",
+          "result": "identified"
+        },
+        {
+          "url": "https://www.cs.sjtu.edu.cn/jiaoshiml.html",
+          "kind": "official_roster",
+          "result": "identified"
+        },
+        {
+          "url": "https://www.cs.sjtu.edu.cn/jiaoshiml/wangshilin.html",
+          "finalUrl": "https://www.cs.sjtu.edu.cn/jiaoshiml/wangshilin.html",
+          "kind": "profile_fetch",
+          "result": "fetched",
+          "httpStatus": 200,
+          "error": null
+        }
+      ],
+      "extractedEvidence": {
+        "pageTitle": "王士林-上海交通大学计算机学院（网络空间安全学院、密码学院）",
+        "metaDescription": "上海交通大学计算机学院（网络空间安全学院、密码学院）",
+        "imageCandidates": [
+          "https://www.cs.sjtu.edu.cn/img/lang.gif",
+          "https://www.cs.sjtu.edu.cn/upload/image/20250909/20250909162943.png",
+          "https://www.cs.sjtu.edu.cn/upload/image/jiaoshiml/%E7%8E%8B%E5%A3%AB%E6%9E%97.jpg",
+          "https://www.cs.sjtu.edu.cn/img/logo2.png",
+          "https://www.cs.sjtu.edu.cn/img/wx.png",
+          "https://www.cs.sjtu.edu.cn/upload/image/20250520/20250520143220.jpg",
+          "https://www.cs.sjtu.edu.cn/img/xhs.png",
+          "https://www.cs.sjtu.edu.cn/upload/image/20250529/20250529100826.jpg",
+          "https://www.cs.sjtu.edu.cn/img/bili.png",
+          "https://www.cs.sjtu.edu.cn/upload/image/20250529/20250529104548.jpg"
+        ],
+        "relationshipEvidenceCandidates": [
+          "王士林-上海交通大学计算机学院（网络空间安全学院、密码学院） 使用jAccount登录 English 学院概况 学院简介 历史沿革 学院领导 组织架构 行政机构 党建工作 党委概况 党建风采 工会组织 理论学习 师资队伍 教师名录 院士学者 国家级人才 兼职和双聘教师 退休教师 人才招聘 科学研究 科研概况 研究机构 平台基地 科研合作 人才培养 本科生培养 研究生培养 微专业培养 教学成果 教学实践 学生工作 校友天地 知名校友 校友风采 季度简报 校友基金 新闻动态 学院新闻 「01」探索 学术活动 学院视频 办事指南 通知公告 规章制度 下载专区 投票系统 学院概况 学院简介 历史沿革 学院领导 组织架构 行政机构 党建工作 党委概况 党建风采 工会组织 理论学习 师资队伍 教师名录 院士学者 国家级人才 兼职和双聘教师 退休教师 人才招聘 科学研究 科研概况 研究机构 平台基地 科研合作 人才培养 本科生培养 研究生培养 微专业培养 教学成果 教学实践 学生工作 校友天地 知名校友 校友风采 季度简报 校友基金 新闻动态 学院新闻 「01」探索 学术活动 学院视频 办事指南 通知公告 规章制度 下载专区 投票系统 您当前所在的位置： 首页 > 师资队伍 > 教师名录 师资队伍 教师名录 院士学者 国家级人才 兼职和双聘教师 退休教师 人才招聘 教师名录 王士林 教授 邮箱：wsl@sjtu.",
+          "多次指导本科生参加全国大学生信息安全竞赛，获决赛一等奖和最具创新创业价值奖。",
+          "2004 年于香港城市大学电脑工程与资讯科技系获博士学位。"
+        ],
+        "relevantLinks": [
+          {
+            "label": "学生工作",
+            "url": "https://www.cs.sjtu.edu.cn/xsgz.html"
+          }
+        ]
+      },
+      "reason": "现任 PI 与名录来源已定位，但本轮未找到可由本人 CV、博士论文库、研究组 alumni 或官方项目页直接确认且端点可接入的关系证据；继续待核验。",
+      "disposition": "missing_relationship",
+      "sourceLedger": "data/candidate-priority-p0-asia-disposition-2026-09-03.json",
+      "priorStatus": "missing_relationship",
+      "atlasPersonId": null
+    },
+    {
+      "canonicalKey": "Mainland China:上海交通大学:吕宝粮",
+      "name": "吕宝粮",
+      "region": "Mainland China",
+      "institution": "上海交通大学",
+      "status": "missing_relationship",
+      "evidenceUrls": [
+        "https://www.cs.sjtu.edu.cn/jiaoshiml/lyubaoliang.html",
+        "https://www.cs.sjtu.edu.cn/jiaoshiml.html"
+      ],
+      "portraitUrl": null,
+      "checkedSources": [
+        {
+          "url": "https://www.cs.sjtu.edu.cn/jiaoshiml/lyubaoliang.html",
+          "kind": "official_profile",
+          "result": "identified"
+        },
+        {
+          "url": "https://www.cs.sjtu.edu.cn/jiaoshiml.html",
+          "kind": "official_roster",
+          "result": "identified"
+        },
+        {
+          "url": "https://www.cs.sjtu.edu.cn/jiaoshiml/lyubaoliang.html",
+          "finalUrl": null,
+          "kind": "profile_fetch",
+          "result": "fetch_failed",
+          "httpStatus": null,
+          "error": "fetch failed"
+        }
+      ],
+      "extractedEvidence": {
+        "pageTitle": null,
+        "metaDescription": null,
+        "imageCandidates": [],
+        "relationshipEvidenceCandidates": [],
+        "relevantLinks": []
+      },
+      "reason": "第四轮逐人补证已核实现任独立 PI、两项以上可靠来源、3–5 条带来源事实、512×512 可靠头像及至少一条一手可核验关系。",
+      "disposition": "ready",
+      "sourceLedger": "data/candidate-priority-p0-asia-disposition-2026-09-03.json",
+      "priorStatus": "missing_relationship",
+      "atlasPersonId": "baoliang-lu-sjtu-p0-fourth-b1"
+    },
+    {
+      "canonicalKey": "Mainland China:上海交通大学:张丽清",
+      "name": "张丽清",
+      "region": "Mainland China",
+      "institution": "上海交通大学",
+      "status": "missing_relationship",
+      "evidenceUrls": [
+        "https://www.cs.sjtu.edu.cn/jiaoshiml/zhangliqing.html",
+        "https://www.cs.sjtu.edu.cn/jiaoshiml.html"
+      ],
+      "portraitUrl": null,
+      "checkedSources": [
+        {
+          "url": "https://www.cs.sjtu.edu.cn/jiaoshiml/zhangliqing.html",
+          "kind": "official_profile",
+          "result": "identified"
+        },
+        {
+          "url": "https://www.cs.sjtu.edu.cn/jiaoshiml.html",
+          "kind": "official_roster",
+          "result": "identified"
+        },
+        {
+          "url": "https://www.cs.sjtu.edu.cn/jiaoshiml/zhangliqing.html",
+          "finalUrl": null,
+          "kind": "profile_fetch",
+          "result": "fetch_failed",
+          "httpStatus": null,
+          "error": "fetch failed"
+        }
+      ],
+      "extractedEvidence": {
+        "pageTitle": null,
+        "metaDescription": null,
+        "imageCandidates": [],
+        "relationshipEvidenceCandidates": [],
+        "relevantLinks": []
+      },
+      "reason": "现任 PI 与名录来源已定位，但本轮未找到可由本人 CV、博士论文库、研究组 alumni 或官方项目页直接确认且端点可接入的关系证据；继续待核验。",
+      "disposition": "missing_relationship",
+      "sourceLedger": "data/candidate-priority-p0-asia-disposition-2026-09-03.json",
+      "priorStatus": "missing_relationship",
+      "atlasPersonId": null
+    },
+    {
+      "canonicalKey": "Mainland China:上海交通大学:杨小康",
+      "name": "杨小康",
+      "region": "Mainland China",
+      "institution": "上海交通大学",
+      "status": "missing_relationship",
+      "evidenceUrls": [
+        "https://www.cs.sjtu.edu.cn/jiaoshiml/yangxiaokang.html",
+        "https://www.cs.sjtu.edu.cn/jiaoshiml.html"
+      ],
+      "portraitUrl": null,
+      "checkedSources": [
+        {
+          "url": "https://www.cs.sjtu.edu.cn/jiaoshiml/yangxiaokang.html",
+          "kind": "official_profile",
+          "result": "identified"
+        },
+        {
+          "url": "https://www.cs.sjtu.edu.cn/jiaoshiml.html",
+          "kind": "official_roster",
+          "result": "identified"
+        },
+        {
+          "url": "https://www.cs.sjtu.edu.cn/jiaoshiml/yangxiaokang.html",
+          "finalUrl": "https://www.cs.sjtu.edu.cn/jiaoshiml/yangxiaokang.html",
+          "kind": "profile_fetch",
+          "result": "fetched",
+          "httpStatus": 200,
+          "error": null
+        }
+      ],
+      "extractedEvidence": {
+        "pageTitle": "杨小康-上海交通大学计算机学院（网络空间安全学院、密码学院）",
+        "metaDescription": "上海交通大学计算机学院（网络空间安全学院、密码学院）",
+        "imageCandidates": [
+          "https://www.cs.sjtu.edu.cn/img/lang.gif",
+          "https://www.cs.sjtu.edu.cn/upload/image/20250909/20250909162943.png",
+          "https://www.cs.sjtu.edu.cn/upload/image/jiaoshiml/%E6%9D%A8%E5%B0%8F%E5%BA%B7.jpg",
+          "https://www.cs.sjtu.edu.cn/img/logo2.png",
+          "https://www.cs.sjtu.edu.cn/img/wx.png",
+          "https://www.cs.sjtu.edu.cn/upload/image/20250520/20250520143220.jpg",
+          "https://www.cs.sjtu.edu.cn/img/xhs.png",
+          "https://www.cs.sjtu.edu.cn/upload/image/20250529/20250529100826.jpg",
+          "https://www.cs.sjtu.edu.cn/img/bili.png",
+          "https://www.cs.sjtu.edu.cn/upload/image/20250529/20250529104548.jpg"
+        ],
+        "relationshipEvidenceCandidates": [
+          "杨小康-上海交通大学计算机学院（网络空间安全学院、密码学院） 使用jAccount登录 English 学院概况 学院简介 历史沿革 学院领导 组织架构 行政机构 党建工作 党委概况 党建风采 工会组织 理论学习 师资队伍 教师名录 院士学者 国家级人才 兼职和双聘教师 退休教师 人才招聘 科学研究 科研概况 研究机构 平台基地 科研合作 人才培养 本科生培养 研究生培养 微专业培养 教学成果 教学实践 学生工作 校友天地 知名校友 校友风采 季度简报 校友基金 新闻动态 学院新闻 「01」探索 学术活动 学院视频 办事指南 通知公告 规章制度 下载专区 投票系统 学院概况 学院简介 历史沿革 学院领导 组织架构 行政机构 党建工作 党委概况 党建风采 工会组织 理论学习 师资队伍 教师名录 院士学者 国家级人才 兼职和双聘教师 退休教师 人才招聘 科学研究 科研概况 研究机构 平台基地 科研合作 人才培养 本科生培养 研究生培养 微专业培养 教学成果 教学实践 学生工作 校友天地 知名校友 校友风采 季度简报 校友基金 新闻动态 学院新闻 「01」探索 学术活动 学院视频 办事指南 通知公告 规章制度 下载专区 投票系统 您当前所在的位置： 首页 > 师资队伍 > 教师名录 师资队伍 教师名录 院士学者 国家级人才 兼职和双聘教师 退休教师 人才招聘 教师名录 杨小康 讲席研究员 邮箱：xkyang@sjtu."
+        ],
+        "relevantLinks": [
+          {
+            "label": "学生工作",
+            "url": "https://www.cs.sjtu.edu.cn/xsgz.html"
+          }
+        ]
+      },
+      "reason": "第四轮逐人补证已核实现任独立 PI、两项以上可靠来源、3–5 条带来源事实、512×512 可靠头像及至少一条一手可核验关系。",
+      "disposition": "ready",
+      "sourceLedger": "data/candidate-priority-p0-asia-disposition-2026-09-03.json",
+      "priorStatus": "missing_relationship",
+      "atlasPersonId": "xiaokang-yang-sjtu-p0-fourth-b1"
+    },
+    {
+      "canonicalKey": "Mainland China:上海交通大学:张拳石",
+      "name": "张拳石",
+      "region": "Mainland China",
+      "institution": "上海交通大学",
+      "status": "missing_relationship",
+      "evidenceUrls": [
+        "https://www.cs.sjtu.edu.cn/jiaoshiml/zhangquanshi.html",
+        "https://www.cs.sjtu.edu.cn/jiaoshiml.html"
+      ],
+      "portraitUrl": null,
+      "checkedSources": [
+        {
+          "url": "https://www.cs.sjtu.edu.cn/jiaoshiml/zhangquanshi.html",
+          "kind": "official_profile",
+          "result": "identified"
+        },
+        {
+          "url": "https://www.cs.sjtu.edu.cn/jiaoshiml.html",
+          "kind": "official_roster",
+          "result": "identified"
+        },
+        {
+          "url": "https://www.cs.sjtu.edu.cn/jiaoshiml/zhangquanshi.html",
+          "finalUrl": null,
+          "kind": "profile_fetch",
+          "result": "fetch_failed",
+          "httpStatus": null,
+          "error": "fetch failed"
+        }
+      ],
+      "extractedEvidence": {
+        "pageTitle": null,
+        "metaDescription": null,
+        "imageCandidates": [],
+        "relationshipEvidenceCandidates": [],
+        "relevantLinks": []
+      },
+      "reason": "第四轮逐人补证已核实现任独立 PI、两项以上可靠来源、3–5 条带来源事实、512×512 可靠头像及至少一条一手可核验关系。",
+      "disposition": "ready",
+      "sourceLedger": "data/candidate-priority-p0-asia-disposition-2026-09-03.json",
+      "priorStatus": "missing_relationship",
+      "atlasPersonId": "quanshi-zhang-sjtu-p0-fourth-b1"
+    },
+    {
+      "canonicalKey": "Mainland China:浙江大学:巫英才",
+      "name": "巫英才",
+      "region": "Mainland China",
+      "institution": "浙江大学",
+      "status": "missing_relationship",
+      "evidenceUrls": [
+        "http://www.ycwu.org/",
+        "http://www.cs.zju.edu.cn/csen/27003/list.htm"
+      ],
+      "portraitUrl": null,
+      "checkedSources": [
+        {
+          "url": "http://www.ycwu.org/",
+          "kind": "official_profile",
+          "result": "identified"
+        },
+        {
+          "url": "http://www.cs.zju.edu.cn/csen/27003/list.htm",
+          "kind": "official_roster",
+          "result": "identified"
+        },
+        {
+          "url": "http://www.ycwu.org/",
+          "finalUrl": "http://www.ycwu.org/",
+          "kind": "profile_fetch",
+          "result": "fetched",
+          "httpStatus": 200,
+          "error": null
+        }
+      ],
+      "extractedEvidence": {
+        "pageTitle": "Yingcai Wu | Home",
+        "metaDescription": "Yingcai Wu",
+        "imageCandidates": [
+          "http://www.ycwu.org/img/cn_s.jpg",
+          "http://www.ycwu.org/img/en_s.jpg",
+          "http://www.ycwu.org/img/1inch_photo.jpg",
+          "http://www.ycwu.org/img/photo.jpg",
+          "http://www.ycwu.org/img/yingcai_eng.jpg",
+          "http://www.ycwu.org/img/email.jpg",
+          "http://www.ycwu.org/img/smartadp.jpg",
+          "http://www.ycwu.org/img/route.jpg",
+          "http://www.ycwu.org/img/piecestack.jpg",
+          "http://www.ycwu.org/img/peakvizor.jpg",
+          "http://www.ycwu.org/img/evoriver.jpg",
+          "http://www.ycwu.org/img/loyaltracker.jpg",
+          "http://www.ycwu.org/img/opinionflow.jpg",
+          "http://www.ycwu.org/holder.js/100%x500/auto/#777:#7a7a7a/text:First%20slide",
+          "http://www.ycwu.org/img/carousel_images/LordoftheRings.jpg",
+          "http://www.ycwu.org/img/carousel_images/competition.jpg",
+          "http://www.ycwu.org/img/carousel_images/resizing.jpg",
+          "http://www.ycwu.org/img/carousel_images/depth.jpg",
+          "http://www.ycwu.org/img/carousel_images/uncertainty.jpg",
+          "http://c.statcounter.com/10031468/0/d39ff929/0/"
+        ],
+        "relationshipEvidenceCandidates": [
+          "--> Yingcai Wu | Home --> --> --> HOME ABOUT ME TEAM WEBSITE PUBLICATION TEAM --> TALKS SERVICE --> Yingcai Wu Head , IDG@ZJU (Interactive Data Group at Zhejiang University) Professor , State Key Lab of CAD &amp CG , College of Computer Science and Technology , Zhejiang University , Hangzhou, Zhejiang, China Deputy Dean , College of Computer Science and Technology --> Zhejiang University , Hangzhou, Zhejiang, China Email: ycwu [at] zju.",
+          "cn --> Research Interests: Visual Analytics: Urban Informatics, Sports Analytics, and Social Media Visual Behavior Analytics Visual Social Analytics Visual Text Analytics --> Information Visualization and HCI Uncertainty-Aware Visual Analytics Unambiguous Volume Data Visualization Faithful Information Visualization --> News & Events --> News --> I am looking for strongly-motivated PostDoc, PhD, Master, and undergraduate students to join my research team .",
+          "Our group has received two Honorable Mention Awards by IEEE VIS 2022 .",
+          "--> Our group gave two paper presentations ( SmartAdP and RouteZoomer ) in IEEE VIS 2016.",
+          "--> I have joined the program committees of IEEE VIS (InfoVis) 2016 and EuroVis 2016 .",
+          "--> I have joined the program committees of IEEE VIS (InfoVis) 2015 , IEEE VIS (SciVis) 2015 , and EuroVis 2015 .",
+          "From January 2015, I have joined the CAD&CG Lab at the Zhejiang University, China.",
+          "--> I have joined the program committee of EuroVis 2015 ."
+        ],
+        "relevantLinks": [
+          {
+            "label": "TEAM WEBSITE",
+            "url": "https://zjuidg.org/"
+          },
+          {
+            "label": "TEAM",
+            "url": "http://www.ycwu.org/team.html"
+          },
+          {
+            "label": "CV",
+            "url": "http://www.ycwu.org/Files/yingcai-cv.pdf"
+          },
+          {
+            "label": "team",
+            "url": "https://zjuidg.org/"
+          },
+          {
+            "label": "paper",
+            "url": "https://zjuidg.org/source/projects/tacValuer/tacValuer.pdf"
+          }
+        ]
+      },
+      "reason": "第四轮逐人补证已核实现任独立 PI、两项以上可靠来源、3–5 条带来源事实、512×512 可靠头像及至少一条一手可核验关系。",
+      "disposition": "ready",
+      "sourceLedger": "data/candidate-priority-p0-asia-disposition-2026-09-03.json",
+      "priorStatus": "missing_relationship",
+      "atlasPersonId": "yingcai-wu-zju-p0-fourth-b1"
+    },
+    {
+      "canonicalKey": "Mainland China:浙江大学:王越",
+      "name": "王越",
+      "region": "Mainland China",
+      "institution": "浙江大学",
+      "status": "missing_relationship",
+      "evidenceUrls": [
+        "http://www.cse.zju.edu.cn/2020/0218/c72509a2660326/page.htm",
+        "http://www.cse.zju.edu.cn/39568/list.htm"
+      ],
+      "portraitUrl": null,
+      "checkedSources": [
+        {
+          "url": "http://www.cse.zju.edu.cn/2020/0218/c72509a2660326/page.htm",
+          "kind": "official_profile",
+          "result": "identified"
+        },
+        {
+          "url": "http://www.cse.zju.edu.cn/39568/list.htm",
+          "kind": "official_roster",
+          "result": "identified"
+        },
+        {
+          "url": "http://www.cse.zju.edu.cn/2020/0218/c72509a2660326/page.htm",
+          "finalUrl": "http://www.cse.zju.edu.cn/2020/0218/c72509a2660326/page.htm",
+          "kind": "profile_fetch",
+          "result": "fetched",
+          "httpStatus": 200,
+          "error": null
+        }
+      ],
+      "extractedEvidence": {
+        "pageTitle": "王越",
+        "metaDescription": "副教授、博士生导师邮箱：ywang24@zju.edu.cn个人主页：https://ywa",
+        "imageCandidates": [
+          "http://www.cse.zju.edu.cn/_upload/tpl/0b/1d/2845/template2845/images/logo.png",
+          "http://www.cse.zju.edu.cn/_upload/tpl/0b/1d/2845/template2845/images/menu.png",
+          "http://www.cse.zju.edu.cn/_upload/tpl/0b/1d/2845/template2845/images/search1.png",
+          "http://www.cse.zju.edu.cn/_upload/tpl/0b/1d/2845/template2845/images/banner2.png",
+          "http://www.cse.zju.edu.cn/_upload/tpl/0b/1d/2845/template2845/images/t4.png",
+          "http://www.cse.zju.edu.cn/_upload/article/images/2b/a0/73606e9e4236941d49aefd825c78/edd2268b-49b0-44c5-86aa-96f504b64e87.png",
+          "http://www.cse.zju.edu.cn/_upload/tpl/0b/1d/2845/template2845/images/ewm2.png",
+          "http://www.cse.zju.edu.cn/_visitcount?siteId=98&type=3&articleId=2660326"
+        ],
+        "relationshipEvidenceCandidates": [
+          "王越 内网登录 English 首页 学院概况 学院简介 组织机构 发展沿革 现任领导 学院标识 重大活动 办公指南 党建工作 最新消息 活动简讯 组织架构 理论学习 党风党纪 党建风采 下载专区 文件汇编 人事工作 最新消息 人事文件 师资队伍 招聘信息 科研学术 最新消息 基地平台 科研政策 科研项目 成果奖励 表格下载 服务指南 科技创新论坛 本科生教育 最新消息 招生信息 培养方案 文件汇编 科研训练 对外交流 短学期 毕业设计 表格下载 服务指南 研究生教育 最新消息 招生信息 学籍管理 过程管理 学位管理 在职硕士（单证） 文件汇编 表格下载 研究生成果展示 学生思政 日常通告 新闻动态 学生党建 学生团建 评奖评优 勤工资助 创新创业 办事指南 文件汇编 就业指导 相关通知 学院就业网 对外交流 通知公告 办事指南 学术报告 因公出国(境)公示 学生交流分享 党政综合 通知公告 文件汇编 实验室安全 会议室预约 工会 最新消息 工会风采 校友与发展联络 校友名录 校友资讯 电子相册 档案服务 产研联动 筹资捐赠 首页 学院概况 党建工作 人事工作 科研学术 本科生教育 研究生教育 学生思政 就业指导 对外交流 党政综合 工会 校友与发展联络 内网登录 | EN 人事工作 最新消息 人事文件 师资队伍 - 院士 - 国家级高层次人才 - 国家级青年人才 - 教师 - 机关教工 - 实验中心 招聘信息 智能系统与控制研究所 当前位置： 首页 人事工作 师资队伍 教师 智能系统与控制研究所 王越 时间：2020-02-18 来源：组织人事办 编辑：zzrs 访问次数: 26108 教授、博士生导师 邮箱： ywang24@zju.",
+          "io/ 研究方向： 机器人与人工智能 研究主题： 机器人自主导航，智能操作，计算机视觉，深度学习 版权所有：2018 浙江大学控制科学与工程学院 通讯地址：浙江省杭州市浙大路38号控制科学与工程学院 邮编：310027 技术支持： 寸草心科技 管理登录 您是第 控制科学与工程学院 位访问者 相关链接 浙江大学 | 信息学部 | 工业控制技术全国重点实验室 | 赛博协同创新中心 | 科研院 | 图书馆 | 信息技术中心 | 浙大个人主页系统 | 本科生院 | 研究生院 | 就业指导中心 | 浙江大学控制学院校友网 | 浙江大学湖州研究院 |"
+        ],
+        "relevantLinks": [
+          {
+            "label": "学生思政",
+            "url": "http://www.cse.zju.edu.cn/39342/list.htm"
+          },
+          {
+            "label": "学生党建",
+            "url": "http://www.cse.zju.edu.cn/39343/list.htm"
+          },
+          {
+            "label": "学生团建",
+            "url": "http://www.cse.zju.edu.cn/73393/list.htm"
+          },
+          {
+            "label": "学生交流分享",
+            "url": "http://www.cse.zju.edu.cn/39358/list.htm"
+          },
+          {
+            "label": "实验室安全",
+            "url": "http://www.cse.zju.edu.cn/39666/list.htm"
+          },
+          {
+            "label": "工业控制技术全国重点实验室",
+            "url": "https://sklict.zju.edu.cn/"
+          }
+        ]
+      },
+      "reason": "现任 PI 与名录来源已定位，但本轮未找到可由本人 CV、博士论文库、研究组 alumni 或官方项目页直接确认且端点可接入的关系证据；继续待核验。",
+      "disposition": "missing_relationship",
+      "sourceLedger": "data/candidate-priority-p0-asia-disposition-2026-09-03.json",
+      "priorStatus": "missing_relationship",
+      "atlasPersonId": null
+    },
+    {
+      "canonicalKey": "Mainland China:浙江大学:王文冠",
+      "name": "王文冠",
+      "region": "Mainland China",
+      "institution": "浙江大学",
+      "status": "missing_relationship",
+      "evidenceUrls": [
+        "https://person.zju.edu.cn/wenguanwang",
+        "http://www.cs.zju.edu.cn/csen/27003/list.htm"
+      ],
+      "portraitUrl": null,
+      "checkedSources": [
+        {
+          "url": "https://person.zju.edu.cn/wenguanwang",
+          "kind": "official_profile",
+          "result": "identified"
+        },
+        {
+          "url": "http://www.cs.zju.edu.cn/csen/27003/list.htm",
+          "kind": "official_roster",
+          "result": "identified"
+        },
+        {
+          "url": "https://person.zju.edu.cn/wenguanwang",
+          "finalUrl": "https://person.zju.edu.cn/wenguanwang",
+          "kind": "profile_fetch",
+          "result": "fetched",
+          "httpStatus": 200,
+          "error": null
+        }
+      ],
+      "extractedEvidence": {
+        "pageTitle": "王文冠-浙江大学个人主页",
+        "metaDescription": "王文冠,王文冠,zju,浙江大学个人主页,浙江大学,个人主页",
+        "imageCandidates": [
+          "https://person.zju.edu.cn/person//attachments/2026-08/0814102611-260858540.png",
+          "https://person.zju.edu.cn/person/getQRcode.php?uid=0023051&type=1&sign=70ca54c59e92c2b07caf065f179027c2&dt=1788408098&url=https://person.zju.edu.cn/wenguanwang",
+          "https://person.zju.edu.cn/+teacherInfo[i].photo+"
+        ],
+        "relationshipEvidenceCandidates": [
+          "管理主页 退出登录 登录 相关教师 换一批 更新时间 ：2026-08-14 总访问量 ：53890 王文冠 博士 中国 --> 百人计划研究员 | 博士生导师 单位 人工智能学院 邮箱 wenguanwang@zju."
+        ],
+        "relevantLinks": []
+      },
+      "reason": "第四轮逐人补证已核实现任独立 PI、两项以上可靠来源、3–5 条带来源事实、512×512 可靠头像及至少一条一手可核验关系。",
+      "disposition": "ready",
+      "sourceLedger": "data/candidate-priority-p0-asia-disposition-2026-09-03.json",
+      "priorStatus": "missing_relationship",
+      "atlasPersonId": "wenguan-wang-zju-p0-fourth-b1"
+    },
+    {
+      "canonicalKey": "Mainland China:浙江大学:张寅",
+      "name": "张寅",
+      "region": "Mainland China",
+      "institution": "浙江大学",
+      "status": "missing_relationship",
+      "evidenceUrls": [
+        "http://mypage.zju.edu.cn/en/zhangyin",
+        "http://www.cs.zju.edu.cn/csen/27003/list.htm"
+      ],
+      "portraitUrl": null,
+      "checkedSources": [
+        {
+          "url": "http://mypage.zju.edu.cn/en/zhangyin",
+          "kind": "official_profile",
+          "result": "identified"
+        },
+        {
+          "url": "http://www.cs.zju.edu.cn/csen/27003/list.htm",
+          "kind": "official_roster",
+          "result": "identified"
+        },
+        {
+          "url": "http://mypage.zju.edu.cn/en/zhangyin",
+          "finalUrl": "https://person.zju.edu.cn/en/zhangyin",
+          "kind": "profile_fetch",
+          "result": "fetched",
+          "httpStatus": 200,
+          "error": null
+        }
+      ],
+      "extractedEvidence": {
+        "pageTitle": "Yin Zhang, College of Artificial Intelligence, Zhejiang University-Zhejiang University Personal homepage",
+        "metaDescription": "ZHANGYIN,ZHANGYIN,Yin Zhang, College of Artificial Intelligence, Zhejiang University,zju,浙江大学个人主页,浙江大学,个人主页",
+        "imageCandidates": [
+          "https://person.zju.edu.cn/person//attachments/2018-09/0915122529-1164451943.jpg",
+          "https://person.zju.edu.cn/person/getQRcode.php?uid=0010633&type=2&sign=3dc6e962efe496d4d9dd39db636405a0&dt=1788408096&url=https://person.zju.edu.cn/en/zhangyin",
+          "https://person.zju.edu.cn/en/+teacherInfo[i].photo+"
+        ],
+        "relationshipEvidenceCandidates": [
+          "China --> Professor | Doctoral supervisor Phone +86-571-87952300 E-mail zhangyin98@zju."
+        ],
+        "relevantLinks": [
+          {
+            "label": "Biography",
+            "url": "https://person.zju.edu.cn/en/zhangyin#0"
+          }
+        ]
+      },
+      "reason": "现任 PI 与名录来源已定位，但本轮未找到可由本人 CV、博士论文库、研究组 alumni 或官方项目页直接确认且端点可接入的关系证据；继续待核验。",
+      "disposition": "missing_relationship",
+      "sourceLedger": "data/candidate-priority-p0-asia-disposition-2026-09-03.json",
+      "priorStatus": "missing_relationship",
+      "atlasPersonId": null
+    }
+  ]
+}

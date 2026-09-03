@@ -1,0 +1,51 @@
+{
+  "batchId": "asia-pending-resolution-2026-09-03",
+  "reviewedAt": "2026-09-03",
+  "inputPendingCount": 52,
+  "resolvedCount": 50,
+  "remainingPendingCount": 2,
+  "counts": {
+    "include_new_pi": 17,
+    "excluded_non_ai_cs": 15,
+    "excluded_non_pi": 16,
+    "excluded_historical": 1,
+    "excluded_industry_only": 1,
+    "pending_profile_verification": 2
+  },
+  "namedVerificationResults": [
+    {
+      "name": "Haixin DUAN / 段海新",
+      "decision": "include_new_pi",
+      "basis": "清华计算机系在职教授名录与官方个人页共同确认现任教授；研究网络安全、网络测量与互联网治理。"
+    },
+    {
+      "name": "刘莉扬",
+      "decision": "excluded_non_pi",
+      "basis": "自动化系个人页无职称、独立招生或研究组领导字段；现有一手材料不足以认定独立 PI。"
+    },
+    {
+      "name": "赵峰",
+      "decision": "excluded_historical",
+      "basis": "AIR 官方履历把首席科学家任期写为 2021–2025，并列 2020–至今投资合伙人任职。"
+    },
+    {
+      "name": "Hai-Dang Dau",
+      "decision": "include_new_pi",
+      "basis": "NTU CCDS 当前目录确认 Nanyang Assistant Professor；官方讲座简介确认 Bayesian computation、sampling、diffusion/transport generative models。"
+    }
+  ],
+  "externalEvidenceBlockers": {
+    "unit": "HUST Computer Science",
+    "count": 2,
+    "names": ["熊正大", "赵小松"],
+    "reason": "冻结院系名录只有姓名与研究所分组；校内域名检索没有找到职称、独立招生或研究组领导页面。现有论文/课程记录不能证明独立 PI 身份，因此保持 pending。"
+  },
+  "readyArtifacts": {
+    "decisions": "data/roster-decisions/asia-pending-resolution-2026-09-03.json",
+    "ledgerAdapter": "app/asia-pending-resolution-roster-audits-2026.ts",
+    "peopleAndEdges": "app/asia-pending-resolution-pi-expansion-2026.ts",
+    "portraits": "public/portraits/asia-pending-resolution-2026/",
+    "thuRelationshipAudit": "data/roster-decisions/thu-15-relationship-evidence-audit-2026-09-03.json",
+    "qa": "scripts/audit-asia-pending-resolution-2026.mjs"
+  }
+}

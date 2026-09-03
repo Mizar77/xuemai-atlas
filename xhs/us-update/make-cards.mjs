@@ -17,7 +17,7 @@ function lineText(lines, x, y, size, gap, className = "") {
   return `<text x="${x}" y="${y}" font-size="${size}" class="${className}">${lines.map((line, index) => `<tspan x="${x}" dy="${index ? gap : 0}">${esc(line)}</tspan>`).join("")}</text>`;
 }
 
-async function cover(spec) {
+async function cover() {
   return `<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1242" height="1656" viewBox="0 0 1242 1656">
   <defs>
     <linearGradient id="shade" x1="0" y1="0" x2="0" y2="1">

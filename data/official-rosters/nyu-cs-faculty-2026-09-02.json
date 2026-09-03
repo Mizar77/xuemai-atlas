@@ -1,0 +1,1236 @@
+{
+  "completeness": "complete",
+  "fetchedAt": "2026-09-02",
+  "institution": "New York University Computer Science",
+  "officialPageUrl": "https://cs.nyu.edu/dynamic/people/faculty/",
+  "officialDataUrl": "https://cs.nyu.edu/dynamic/people/faculty/",
+  "officialRosterCount": 122,
+  "officialSectionCardCounts": {
+    "Tenure-Track Faculty": 92,
+    "Associated/Affiliated Faculty": 30
+  },
+  "overlapAcrossSections": 0,
+  "sourceDescription": "The official NYU CS faculty page renders two complete lists on one page: Tenure-Track Faculty and Associated/Affiliated Faculty. All 122 unique entries and their original section labels are retained for later person-level classification.",
+  "people": [
+    {
+      "officialId": "aaron-bernstein",
+      "name": "Aaron Bernstein",
+      "officialSections": [
+        "Tenure-Track Faculty"
+      ],
+      "title": "Charles S. Baylis Associate Professor of Computer Science and Engineering",
+      "profileUrl": "https://engineering.nyu.edu/faculty/aaron-bernstein",
+      "portraitUrl": "https://cs.nyu.edu/media/faculty_photos/aaron_bernstein.jpg"
+    },
+    {
+      "officialId": "ainesh-bakshi",
+      "name": "Ainesh Bakshi",
+      "officialSections": [
+        "Tenure-Track Faculty"
+      ],
+      "title": "Assistant Professor of Computer Science and Engineering",
+      "profileUrl": "https://engineering.nyu.edu/faculty/ainesh-bakshi",
+      "portraitUrl": "https://cs.nyu.edu/media/faculty_photos/ainesh_bakshi.jpg"
+    },
+    {
+      "officialId": "akbar-rafiey",
+      "name": "Akbar Rafiey",
+      "officialSections": [
+        "Associated/Affiliated Faculty"
+      ],
+      "title": "Visiting Assistant Professor of Computer Science and Engineering",
+      "profileUrl": "",
+      "portraitUrl": "https://cs.nyu.edu/media/faculty_photos/akbar_rafiey.jpg"
+    },
+    {
+      "officialId": "alan-siegel",
+      "name": "Alan Siegel",
+      "officialSections": [
+        "Tenure-Track Faculty"
+      ],
+      "title": "Associate Professor of Computer Science",
+      "profileUrl": "http://cs.nyu.edu/cs/faculty/siegel/",
+      "portraitUrl": "https://cs.nyu.edu/media/faculty_photos/Siegel_16-0015_0819_250x250.jpg"
+    },
+    {
+      "officialId": "allen-liu",
+      "name": "Allen Liu",
+      "officialSections": [
+        "Tenure-Track Faculty"
+      ],
+      "title": "Assistant Professor of Computer Science",
+      "profileUrl": "https://aliu42.github.io/",
+      "portraitUrl": "https://cs.nyu.edu/media/faculty_photos/pro-pic-3-3.jpg"
+    },
+    {
+      "officialId": "andrew-gordon-wilson",
+      "name": "Andrew Gordon Wilson",
+      "officialSections": [
+        "Tenure-Track Faculty"
+      ],
+      "title": "Professor of Computer Science and Data Science",
+      "profileUrl": "https://cims.nyu.edu/~andrewgw",
+      "portraitUrl": "https://cs.nyu.edu/media/faculty_photos/andrewgwphoto_250x250.jpeg"
+    },
+    {
+      "officialId": "anirudh-sivaraman",
+      "name": "Anirudh Sivaraman",
+      "officialSections": [
+        "Tenure-Track Faculty"
+      ],
+      "title": "Associate Professor of Computer Science",
+      "profileUrl": "https://cs.nyu.edu/~anirudh/",
+      "portraitUrl": "https://cs.nyu.edu/media/faculty_photos/Sivaraman_18-0078__0006_250x250.jpg"
+    },
+    {
+      "officialId": "anupam-gupta",
+      "name": "Anupam Gupta",
+      "officialSections": [
+        "Tenure-Track Faculty"
+      ],
+      "title": "Silver Professor of Computer Science",
+      "profileUrl": "https://cs.nyu.edu/~anupamg/",
+      "portraitUrl": "https://cs.nyu.edu/media/faculty_photos/anupam-gupta-2_PaZ6eIn.jpeg"
+    },
+    {
+      "officialId": "aurojit-panda",
+      "name": "Aurojit Panda",
+      "officialSections": [
+        "Tenure-Track Faculty"
+      ],
+      "title": "Associate Professor of Computer Science",
+      "profileUrl": "https://cs.nyu.edu/~apanda/",
+      "portraitUrl": "https://cs.nyu.edu/media/faculty_photos/Panda_250x250_0cflZFt.jpg"
+    },
+    {
+      "officialId": "benedikt-bunz",
+      "name": "Benedikt Bünz",
+      "officialSections": [
+        "Tenure-Track Faculty"
+      ],
+      "title": "Assistant Professor Computer Science",
+      "profileUrl": "http://bue.nz",
+      "portraitUrl": "https://cs.nyu.edu/media/faculty_photos/bunz-cropped.png"
+    },
+    {
+      "officialId": "benjamin-peherstorfer",
+      "name": "Benjamin Peherstorfer",
+      "officialSections": [
+        "Tenure-Track Faculty"
+      ],
+      "title": "Associate Professor of Computer Science and Mathematics",
+      "profileUrl": "https://cims.nyu.edu/~pehersto/",
+      "portraitUrl": "https://cs.nyu.edu/media/faculty_photos/Peherstorfer_250x250_D3KQHjs.jpg"
+    },
+    {
+      "officialId": "benjamin-riviere",
+      "name": "Benjamin Riviere",
+      "officialSections": [
+        "Tenure-Track Faculty"
+      ],
+      "title": "Assistant Professor of Mechanical and Aerospace Engineering, and Computer Science",
+      "profileUrl": "https://sites.google.com/view/riviere-robot-lab/people",
+      "portraitUrl": "https://cs.nyu.edu/media/faculty_photos/headshot_v3_FeqH38j.jpg"
+    },
+    {
+      "officialId": "bhubaneswar-mishra",
+      "name": "Bhubaneswar Mishra",
+      "officialSections": [
+        "Tenure-Track Faculty"
+      ],
+      "title": "Professor of Computer Science, Mathematics, and Cell Biology",
+      "profileUrl": "http://cs.nyu.edu/cs/faculty/mishra/",
+      "portraitUrl": "https://cs.nyu.edu/media/faculty_photos/Mishra_16-0015_0263_250x250.jpg"
+    },
+    {
+      "officialId": "boris-aronov",
+      "name": "Boris Aronov",
+      "officialSections": [
+        "Tenure-Track Faculty"
+      ],
+      "title": "Professor of Computer Science and Engineering",
+      "profileUrl": "https://engineering.nyu.edu/faculty/boris-aronov",
+      "portraitUrl": "https://cs.nyu.edu/media/faculty_photos/boris_aronov.jpg"
+    },
+    {
+      "officialId": "brandon-reagen",
+      "name": "Brandon Reagen",
+      "officialSections": [
+        "Associated/Affiliated Faculty"
+      ],
+      "title": "Assistant Professor of Electrical & Computer Engineering",
+      "profileUrl": "https://brandonreagen.com/",
+      "portraitUrl": "https://cs.nyu.edu/media/faculty_photos/reagen_headshot.jpg"
+    },
+    {
+      "officialId": "chee-yap",
+      "name": "Chee Yap",
+      "officialSections": [
+        "Tenure-Track Faculty"
+      ],
+      "title": "Professor of Computer Science",
+      "profileUrl": "https://cs.nyu.edu/~yap/",
+      "portraitUrl": "https://cs.nyu.edu/media/faculty_photos/Yap_16-0015_0061_250x250.jpg"
+    },
+    {
+      "officialId": "chen-feng",
+      "name": "Chen Feng",
+      "officialSections": [
+        "Associated/Affiliated Faculty"
+      ],
+      "title": "Institute Associate Professor, NYU Tandon",
+      "profileUrl": "http://ai4ce.github.io",
+      "portraitUrl": "https://cs.nyu.edu/media/faculty_photos/chen-feng.jpg"
+    },
+    {
+      "officialId": "chen-zhao",
+      "name": "Chen Zhao",
+      "officialSections": [
+        "Associated/Affiliated Faculty"
+      ],
+      "title": "Assistant Professor",
+      "profileUrl": "",
+      "portraitUrl": "https://cs.nyu.edu/media/faculty_photos/Screenshot_2025-12-12_at_4.02.17PM.png"
+    },
+    {
+      "officialId": "chinmay-hegde",
+      "name": "Chinmay Hegde",
+      "officialSections": [
+        "Tenure-Track Faculty"
+      ],
+      "title": "Associate Professor of Computer Science and Engineering",
+      "profileUrl": "https://engineering.nyu.edu/faculty/chinmay-hegde",
+      "portraitUrl": "https://cs.nyu.edu/media/faculty_photos/chinmay_hegde.jpg"
+    },
+    {
+      "officialId": "christopher-musco",
+      "name": "Christopher Musco",
+      "officialSections": [
+        "Tenure-Track Faculty"
+      ],
+      "title": "Institute Associate Professor of Computer Science and Engineering",
+      "profileUrl": "https://engineering.nyu.edu/faculty/christopher-musco",
+      "portraitUrl": "https://cs.nyu.edu/media/faculty_photos/christopher_musco.jpeg"
+    },
+    {
+      "officialId": "claudio-silva",
+      "name": "Claudio Silva",
+      "officialSections": [
+        "Tenure-Track Faculty"
+      ],
+      "title": "Professor of Computer Science and Engineering, NYU Tandon; Professor of Data Science",
+      "profileUrl": "https://engineering.nyu.edu/faculty/claudio-silva",
+      "portraitUrl": "https://cs.nyu.edu/media/faculty_photos/Silva_250x250.jpg"
+    },
+    {
+      "officialId": "damon-mccoy",
+      "name": "Damon McCoy",
+      "officialSections": [
+        "Tenure-Track Faculty"
+      ],
+      "title": "Professor of Computer Science and Engineering",
+      "profileUrl": "https://engineering.nyu.edu/faculty/damon-mccoy",
+      "portraitUrl": "https://cs.nyu.edu/media/faculty_photos/damon_mccoy.jpg"
+    },
+    {
+      "officialId": "daniel-neill",
+      "name": "Daniel Neill",
+      "officialSections": [
+        "Tenure-Track Faculty"
+      ],
+      "title": "Professor of Public Service and Computer Science",
+      "profileUrl": "http://www.cs.nyu.edu/%7Eneill",
+      "portraitUrl": "https://cs.nyu.edu/media/faculty_photos/Neill_Daniel_250x250.jpg"
+    },
+    {
+      "officialId": "daniele-panozzo",
+      "name": "Daniele Panozzo",
+      "officialSections": [
+        "Tenure-Track Faculty"
+      ],
+      "title": "Professor of Computer Science",
+      "profileUrl": "http://cs.nyu.edu/~panozzo/",
+      "portraitUrl": "https://cs.nyu.edu/media/faculty_photos/Panozzo_250x250_tLQe4j9.jpg"
+    },
+    {
+      "officialId": "danny-yuxing-huang",
+      "name": "Danny Yuxing Huang",
+      "officialSections": [
+        "Associated/Affiliated Faculty"
+      ],
+      "title": "Assistant Professor",
+      "profileUrl": "",
+      "portraitUrl": "https://cs.nyu.edu/media/faculty_photos/Screenshot_2025-12-12_at_3.46.14PM.png"
+    },
+    {
+      "officialId": "davi-geiger",
+      "name": "Davi Geiger",
+      "officialSections": [
+        "Tenure-Track Faculty"
+      ],
+      "title": "Associate Professor of Computer Science and Neural Science",
+      "profileUrl": "http://cs.nyu.edu/cs/faculty/geiger/",
+      "portraitUrl": "https://cs.nyu.edu/media/faculty_photos/Geiger_16-0015_0112_250x250.jpg"
+    },
+    {
+      "officialId": "david-fouhey",
+      "name": "David Fouhey",
+      "officialSections": [
+        "Tenure-Track Faculty"
+      ],
+      "title": "Institute Associate Professor of Computer Science and Electrical and Computer Engineering",
+      "profileUrl": "https://cs.nyu.edu/~fouhey/",
+      "portraitUrl": "https://cs.nyu.edu/media/faculty_photos/crop5.jpg"
+    },
+    {
+      "officialId": "denis-zorin",
+      "name": "Denis Zorin",
+      "officialSections": [
+        "Tenure-Track Faculty"
+      ],
+      "title": "Silver Professor of Computer Science and Mathematics",
+      "profileUrl": "http://cs.nyu.edu/~dzorin/",
+      "portraitUrl": "https://cs.nyu.edu/media/faculty_photos/Zorin_16-0015_0510_250x250.jpg"
+    },
+    {
+      "officialId": "dennis-shasha",
+      "name": "Dennis Shasha",
+      "officialSections": [
+        "Tenure-Track Faculty"
+      ],
+      "title": "Silver Professor of Computer Science",
+      "profileUrl": "http://cs.nyu.edu/cs/faculty/shasha/",
+      "portraitUrl": "https://cs.nyu.edu/media/faculty_photos/Shasha_16-0015_0005_250x250.jpg"
+    },
+    {
+      "officialId": "ed-k-wong",
+      "name": "Ed K Wong",
+      "officialSections": [
+        "Tenure-Track Faculty"
+      ],
+      "title": "Associate Professor of Computer Science and Engineering",
+      "profileUrl": "https://engineering.nyu.edu/faculty/edward-wong",
+      "portraitUrl": "https://cs.nyu.edu/media/faculty_photos/ed_wong.jpg"
+    },
+    {
+      "officialId": "emily-black",
+      "name": "Emily Black",
+      "officialSections": [
+        "Tenure-Track Faculty"
+      ],
+      "title": "Assistant Professor of Computer Science and Engineering",
+      "profileUrl": "https://engineering.nyu.edu/faculty/emily-black",
+      "portraitUrl": "https://cs.nyu.edu/media/faculty_photos/emily_black.jpg"
+    },
+    {
+      "officialId": "eran-halperin",
+      "name": "Eran Halperin",
+      "officialSections": [
+        "Tenure-Track Faculty"
+      ],
+      "title": "Professor of Computer Science; Research Professor of Medicine",
+      "profileUrl": "https://tinyurl.com/4ub7hv6p",
+      "portraitUrl": "https://cs.nyu.edu/media/faculty_photos/EranHalperinheadshot.jpg"
+    },
+    {
+      "officialId": "erdem-varol",
+      "name": "Erdem Varol",
+      "officialSections": [
+        "Tenure-Track Faculty"
+      ],
+      "title": "Assistant Professor of Computer Science and Engineering",
+      "profileUrl": "https://engineering.nyu.edu/faculty/erdem-varol",
+      "portraitUrl": "https://cs.nyu.edu/media/faculty_photos/erdem_varol.png"
+    },
+    {
+      "officialId": "ernest-davis",
+      "name": "Ernest Davis",
+      "officialSections": [
+        "Tenure-Track Faculty"
+      ],
+      "title": "Professor of Computer Science",
+      "profileUrl": "http://cs.nyu.edu/cs/faculty/davise/",
+      "portraitUrl": "https://cs.nyu.edu/media/faculty_photos/Davis_16-0015_0748_250x250.jpg"
+    },
+    {
+      "officialId": "eugene-vinitsky",
+      "name": "Eugene Vinitsky",
+      "officialSections": [
+        "Associated/Affiliated Faculty"
+      ],
+      "title": "Assistant Professor",
+      "profileUrl": "",
+      "portraitUrl": "https://cs.nyu.edu/media/faculty_photos/Screenshot_2025-12-12_at_4.00.45PM.png"
+    },
+    {
+      "officialId": "eunsol-choi",
+      "name": "Eunsol Choi",
+      "officialSections": [
+        "Tenure-Track Faculty"
+      ],
+      "title": "Assistant Professor of Computer Science and Data Science",
+      "profileUrl": "https://eunsol.github.io/",
+      "portraitUrl": "https://cs.nyu.edu/media/faculty_photos/choi_eunsol_larger_headshot250x250.jpg"
+    },
+    {
+      "officialId": "evan-johnson",
+      "name": "Evan Johnson",
+      "officialSections": [
+        "Tenure-Track Faculty"
+      ],
+      "title": "Assistant Professor of Computer Science and Engineering",
+      "profileUrl": "",
+      "portraitUrl": "https://cs.nyu.edu/media/faculty_photos/profile.jpg"
+    },
+    {
+      "officialId": "fermi-ma",
+      "name": "Fermi Ma",
+      "officialSections": [
+        "Tenure-Track Faculty"
+      ],
+      "title": "Assistant Professor of Computer Science",
+      "profileUrl": "https://fermima.com/",
+      "portraitUrl": "https://cs.nyu.edu/media/faculty_photos/fermi.png"
+    },
+    {
+      "officialId": "florian-schaefer",
+      "name": "Florian Schaefer",
+      "officialSections": [
+        "Tenure-Track Faculty"
+      ],
+      "title": "Assistant Professor of Computer Science",
+      "profileUrl": "https://f-t-s.github.io/",
+      "portraitUrl": "https://cs.nyu.edu/media/faculty_photos/prof_pic-480.webp"
+    },
+    {
+      "officialId": "gautam-kamath",
+      "name": "Gautam Kamath",
+      "officialSections": [
+        "Tenure-Track Faculty"
+      ],
+      "title": "Assistant Professor of Computer Science",
+      "profileUrl": "http://www.gautamkamath.com/#http:// http://www.gautamkamath.com/",
+      "portraitUrl": "https://cs.nyu.edu/media/faculty_photos/gautam_Kamath.jpg"
+    },
+    {
+      "officialId": "georg-stadler",
+      "name": "Georg Stadler",
+      "officialSections": [
+        "Associated/Affiliated Faculty"
+      ],
+      "title": "Professor of Mathematics and Computer Science",
+      "profileUrl": "https://math.nyu.edu/~stadler/",
+      "portraitUrl": "https://cs.nyu.edu/media/faculty_photos/georg_office_small.png"
+    },
+    {
+      "officialId": "greg-durrett",
+      "name": "Greg Durrett",
+      "officialSections": [
+        "Tenure-Track Faculty"
+      ],
+      "title": "Associate Professor of Computer Science and Data Science",
+      "profileUrl": "https://gregdurrett.github.io/",
+      "portraitUrl": "https://cs.nyu.edu/media/faculty_photos/photo.png"
+    },
+    {
+      "officialId": "hao-su",
+      "name": "Hao Su",
+      "officialSections": [
+        "Associated/Affiliated Faculty"
+      ],
+      "title": "Associate Professor of Biomedical Engineering",
+      "profileUrl": "https://haosu-robotics.github.io/",
+      "portraitUrl": "https://cs.nyu.edu/media/faculty_photos/Screenshot_2025-12-18_at_4.30.29PM.png"
+    },
+    {
+      "officialId": "he-he",
+      "name": "He He",
+      "officialSections": [
+        "Tenure-Track Faculty"
+      ],
+      "title": "Associate Professor of Computer Science and Data Science",
+      "profileUrl": "https://hhexiy.github.io/",
+      "portraitUrl": "https://cs.nyu.edu/media/faculty_photos/He_250x250.jpg"
+    },
+    {
+      "officialId": "hongyi-wen",
+      "name": "Hongyi Wen",
+      "officialSections": [
+        "Associated/Affiliated Faculty"
+      ],
+      "title": "Assistant Professor",
+      "profileUrl": "",
+      "portraitUrl": "https://cs.nyu.edu/media/faculty_photos/Screenshot_2025-12-12_at_4.01.47PM.png"
+    },
+    {
+      "officialId": "jie-xue",
+      "name": "Jie Xue",
+      "officialSections": [
+        "Associated/Affiliated Faculty"
+      ],
+      "title": "Assistant Professor",
+      "profileUrl": "",
+      "portraitUrl": "https://cs.nyu.edu/media/faculty_photos/Screenshot_2025-12-12_at_4.24.44PM.png"
+    },
+    {
+      "officialId": "jinyang-li",
+      "name": "Jinyang Li",
+      "officialSections": [
+        "Tenure-Track Faculty"
+      ],
+      "title": "Professor of Computer Science",
+      "profileUrl": "http://cs.nyu.edu/~jinyang/",
+      "portraitUrl": "https://cs.nyu.edu/media/faculty_photos/Li_16-0015_0086_250x250.jpg"
+    },
+    {
+      "officialId": "joan-bruna",
+      "name": "Joan Bruna",
+      "officialSections": [
+        "Tenure-Track Faculty"
+      ],
+      "title": "Professor of Computer Science and Data Science",
+      "profileUrl": "http://cims.nyu.edu/~bruna",
+      "portraitUrl": "https://cs.nyu.edu/media/faculty_photos/Bruna_250x250.jpg"
+    },
+    {
+      "officialId": "joseph-bonneau",
+      "name": "Joseph Bonneau",
+      "officialSections": [
+        "Tenure-Track Faculty"
+      ],
+      "title": "Associate Professor of Computer Science",
+      "profileUrl": "http://jbonneau.com/",
+      "portraitUrl": "https://cs.nyu.edu/media/faculty_photos/Bonneau_Joseph_final_250x250.jpg"
+    },
+    {
+      "officialId": "joseph-tassarotti",
+      "name": "Joseph Tassarotti",
+      "officialSections": [
+        "Tenure-Track Faculty"
+      ],
+      "title": "Assistant Professor of Computer Science",
+      "profileUrl": "https://cs.nyu.edu/~jt4767/",
+      "portraitUrl": "https://cs.nyu.edu/media/faculty_photos/jtassarotti_profile.jpg"
+    },
+    {
+      "officialId": "juan-de-pablo",
+      "name": "Juan de Pablo",
+      "officialSections": [
+        "Tenure-Track Faculty"
+      ],
+      "title": "Executive Vice President for Global Science and Technology; Executive Dean of the NYU Tandon School of Engineering; Professor of Chemical and Biomolecular Engineering",
+      "profileUrl": "https://engineering.nyu.edu/faculty/juan-de-pablo",
+      "portraitUrl": "https://cs.nyu.edu/media/faculty_photos/Juan_de_Pablo_2022.jpg"
+    },
+    {
+      "officialId": "juan-pablo-bello",
+      "name": "Juan Pablo Bello",
+      "officialSections": [
+        "Tenure-Track Faculty"
+      ],
+      "title": "Professor of Computer Science and Engineering",
+      "profileUrl": "https://engineering.nyu.edu/faculty/juan-pablo-bello",
+      "portraitUrl": "https://cs.nyu.edu/media/faculty_photos/Bello_Juan_Pablo_-_Headshot_2.png"
+    },
+    {
+      "officialId": "juan-perdomo-silva",
+      "name": "Juan Perdomo Silva",
+      "officialSections": [
+        "Tenure-Track Faculty"
+      ],
+      "title": "Assistant Professor of Computer Science and Data Science",
+      "profileUrl": "http://jcperdomo.org/",
+      "portraitUrl": "https://cs.nyu.edu/media/faculty_photos/juan_carlos_perdomo_BmIoIYn.JPG"
+    },
+    {
+      "officialId": "julia-kempe",
+      "name": "Julia Kempe",
+      "officialSections": [
+        "Tenure-Track Faculty"
+      ],
+      "title": "Silver Professor of Computer Science, Mathematics and Data Science",
+      "profileUrl": "https://cims.nyu.edu/~kempe/",
+      "portraitUrl": "https://cs.nyu.edu/media/faculty_photos/Kempe_250x250.jpg"
+    },
+    {
+      "officialId": "julia-stoyanovich",
+      "name": "Julia Stoyanovich",
+      "officialSections": [
+        "Tenure-Track Faculty"
+      ],
+      "title": "Institute Associate Professor of Computer Science and Engineering, Associate Professor of Data Science",
+      "profileUrl": "https://engineering.nyu.edu/faculty/julia-stoyanovich",
+      "portraitUrl": "https://cs.nyu.edu/media/faculty_photos/julia_stoyanovich.jpg"
+    },
+    {
+      "officialId": "julian-togelius",
+      "name": "Julian Togelius",
+      "officialSections": [
+        "Tenure-Track Faculty"
+      ],
+      "title": "Professor of Computer Science and Engineering",
+      "profileUrl": "https://engineering.nyu.edu/faculty/julian-togelius",
+      "portraitUrl": "https://cs.nyu.edu/media/faculty_photos/julian_togelius.png"
+    },
+    {
+      "officialId": "juliana-freire",
+      "name": "Juliana Freire",
+      "officialSections": [
+        "Tenure-Track Faculty"
+      ],
+      "title": "Professor of Computer Science and Engineering, NYU Tandon; Professor of Data Science",
+      "profileUrl": "https://engineering.nyu.edu/faculty/juliana-freire",
+      "portraitUrl": "https://cs.nyu.edu/media/faculty_photos/Freire_250x250.jpg"
+    },
+    {
+      "officialId": "justin-cappos",
+      "name": "Justin Cappos",
+      "officialSections": [
+        "Tenure-Track Faculty"
+      ],
+      "title": "Professor of Computer Science and Engineering",
+      "profileUrl": "https://engineering.nyu.edu/faculty/justin-cappos",
+      "portraitUrl": "https://cs.nyu.edu/media/faculty_photos/justin_cappos.JPG"
+    },
+    {
+      "officialId": "keith-ross",
+      "name": "Keith Ross",
+      "officialSections": [
+        "Associated/Affiliated Faculty"
+      ],
+      "title": "Dean of Engineering and Computer Science, NYU Shanghai; Leonard J. Shustek Professor of Computer Science, NYU Tandon",
+      "profileUrl": "",
+      "portraitUrl": "https://cs.nyu.edu/media/faculty_photos/Ross_250x250.jpg"
+    },
+    {
+      "officialId": "kenneth-perlin",
+      "name": "Kenneth Perlin",
+      "officialSections": [
+        "Tenure-Track Faculty"
+      ],
+      "title": "Professor of Computer Science",
+      "profileUrl": "http://cs.nyu.edu/~perlin/",
+      "portraitUrl": "https://cs.nyu.edu/media/faculty_photos/Perlin_16-0015_1040_250x250.jpg"
+    },
+    {
+      "officialId": "kyunghyun-cho",
+      "name": "Kyunghyun Cho",
+      "officialSections": [
+        "Tenure-Track Faculty"
+      ],
+      "title": "Glen de Vries Chaired Professor of Computer Science and Data Science",
+      "profileUrl": "http://kyunghyuncho.me/",
+      "portraitUrl": "https://cs.nyu.edu/media/faculty_photos/Cho_16-0015_1000_250x250.jpg"
+    },
+    {
+      "officialId": "lakshminarayanan-subramanian",
+      "name": "Lakshminarayanan Subramanian",
+      "officialSections": [
+        "Tenure-Track Faculty"
+      ],
+      "title": "Professor of Computer Science",
+      "profileUrl": "http://cs.nyu.edu/~lakshmi/",
+      "portraitUrl": "https://cs.nyu.edu/media/faculty_photos/Subramanian_16-0015_0690_250x250.jpg"
+    },
+    {
+      "officialId": "lerrel-pinto",
+      "name": "Lerrel Pinto",
+      "officialSections": [
+        "Tenure-Track Faculty"
+      ],
+      "title": "Assistant Professor of Computer Science",
+      "profileUrl": "https://cs.nyu.edu/lerrel",
+      "portraitUrl": "https://cs.nyu.edu/media/faculty_photos/lerrel.jpg"
+    },
+    {
+      "officialId": "leslie-greengard",
+      "name": "Leslie Greengard",
+      "officialSections": [
+        "Associated/Affiliated Faculty"
+      ],
+      "title": "Silver Professor of Mathematics and Computer Science",
+      "profileUrl": "http://math.nyu.edu/faculty/greengar/index.html",
+      "portraitUrl": "https://cs.nyu.edu/media/faculty_photos/Greengard_250x250_Whz5A82.jpg"
+    },
+    {
+      "officialId": "liat-shenhav",
+      "name": "Liat Shenhav",
+      "officialSections": [
+        "Associated/Affiliated Faculty"
+      ],
+      "title": "Assistant Professor, Department of Microbiology Assistant Professor, Department of Obstetrics and Gynecology",
+      "profileUrl": "https://med.nyu.edu/faculty/liat-shenhav",
+      "portraitUrl": "https://cs.nyu.edu/media/faculty_photos/liat_shenhav.jpg"
+    },
+    {
+      "officialId": "lisa-hellerstein",
+      "name": "Lisa Hellerstein",
+      "officialSections": [
+        "Tenure-Track Faculty"
+      ],
+      "title": "Professor of Computer Science and Engineering",
+      "profileUrl": "https://engineering.nyu.edu/faculty/lisa-hellerstein",
+      "portraitUrl": "https://cs.nyu.edu/media/faculty_photos/lisa_hellerstein.jpg"
+    },
+    {
+      "officialId": "ludovic-righetti",
+      "name": "Ludovic Righetti",
+      "officialSections": [
+        "Associated/Affiliated Faculty"
+      ],
+      "title": "Professor of Electrical and Computer Engineering, Mechanical and Space Engineering, and Computer Science",
+      "profileUrl": "https://engineering.nyu.edu/faculty/ludovic-righetti",
+      "portraitUrl": "https://cs.nyu.edu/media/faculty_photos/Screenshot_2025-12-18_at_4.33.16PM.png"
+    },
+    {
+      "officialId": "magdalena-fuentes",
+      "name": "Magdalena Fuentes",
+      "officialSections": [
+        "Associated/Affiliated Faculty"
+      ],
+      "title": "Assistant Professor of Music Technology and Integrated Design & Media",
+      "profileUrl": "",
+      "portraitUrl": "https://cs.nyu.edu/media/faculty_photos/Screenshot_2025-12-12_at_4.13.49PM.png"
+    },
+    {
+      "officialId": "marcelo-mattar",
+      "name": "Marcelo Mattar",
+      "officialSections": [
+        "Associated/Affiliated Faculty"
+      ],
+      "title": "Assistant Professor",
+      "profileUrl": "",
+      "portraitUrl": "https://cs.nyu.edu/media/faculty_photos/Screenshot_2025-12-12_at_4.23.27PM.png"
+    },
+    {
+      "officialId": "mark-ho",
+      "name": "Mark Ho",
+      "officialSections": [
+        "Associated/Affiliated Faculty"
+      ],
+      "title": "Assistant Professor of Psychology",
+      "profileUrl": "https://as.nyu.edu/faculty/mark-ho.html",
+      "portraitUrl": "https://cs.nyu.edu/media/faculty_photos/Screenshot_2025-12-17_at_4.38.08PM.png"
+    },
+    {
+      "officialId": "marshall-ball",
+      "name": "Marshall Ball",
+      "officialSections": [
+        "Tenure-Track Faculty"
+      ],
+      "title": "Assistant Professor of Computer Science",
+      "profileUrl": "https://cs.nyu.edu/~mmb586/index.html",
+      "portraitUrl": "https://cs.nyu.edu/media/faculty_photos/Ball.JPG"
+    },
+    {
+      "officialId": "martin-farach-colton",
+      "name": "Martin Farach-Colton",
+      "officialSections": [
+        "Tenure-Track Faculty"
+      ],
+      "title": "Leonard J. Shustek Professor of Computer Science and Engineering",
+      "profileUrl": "https://engineering.nyu.edu/faculty/martin-farach-colton",
+      "portraitUrl": "https://cs.nyu.edu/media/faculty_photos/martin_colton.JPG"
+    },
+    {
+      "officialId": "matus-telgarsky",
+      "name": "Matus Telgarsky",
+      "officialSections": [
+        "Tenure-Track Faculty"
+      ],
+      "title": "Associate Professor of Computer Science",
+      "profileUrl": "https://cims.nyu.edu/~matus/",
+      "portraitUrl": "https://cs.nyu.edu/media/faculty_photos/matus-cropped.png"
+    },
+    {
+      "officialId": "mehryar-mohri",
+      "name": "Mehryar Mohri",
+      "officialSections": [
+        "Tenure-Track Faculty"
+      ],
+      "title": "Professor of Computer Science",
+      "profileUrl": "http://cs.nyu.edu/cs/faculty/mohri/",
+      "portraitUrl": "https://cs.nyu.edu/media/faculty_photos/Mohri_16-0015_0666_250x250.jpg"
+    },
+    {
+      "officialId": "mengye-ren",
+      "name": "Mengye Ren",
+      "officialSections": [
+        "Tenure-Track Faculty"
+      ],
+      "title": "Assistant Professor of Computer Science and Data Science",
+      "profileUrl": "https://mengyeren.com/",
+      "portraitUrl": "https://cs.nyu.edu/media/faculty_photos/mengye_ren4.jpg"
+    },
+    {
+      "officialId": "michael-overton",
+      "name": "Michael Overton",
+      "officialSections": [
+        "Tenure-Track Faculty"
+      ],
+      "title": "Silver Professor of Computer Science and Mathematics",
+      "profileUrl": "http://cs.nyu.edu/cs/faculty/overton/",
+      "portraitUrl": "https://cs.nyu.edu/media/faculty_photos/Overton_16-0015_0604_250x250.jpg"
+    },
+    {
+      "officialId": "michael-walfish",
+      "name": "Michael Walfish",
+      "officialSections": [
+        "Tenure-Track Faculty"
+      ],
+      "title": "Professor of Computer Science",
+      "profileUrl": "http://www.cs.nyu.edu/~mwalfish/",
+      "portraitUrl": "https://cs.nyu.edu/media/faculty_photos/Walfish_16-0015_1156_250x250.jpg"
+    },
+    {
+      "officialId": "nadav-brandes",
+      "name": "Nadav Brandes",
+      "officialSections": [
+        "Associated/Affiliated Faculty"
+      ],
+      "title": "Assistant Professor, Department of Biochemistry and Molecular Pharmacology",
+      "profileUrl": "https://med.nyu.edu/faculty/nadav-brandes",
+      "portraitUrl": "https://cs.nyu.edu/media/faculty_photos/nadav_brandes.jpg"
+    },
+    {
+      "officialId": "nasir-memon",
+      "name": "Nasir Memon",
+      "officialSections": [
+        "Tenure-Track Faculty"
+      ],
+      "title": "Vice Dean for Academics and Student Affairs and Professor of Computer Science and Engineering, NYU Tandon",
+      "profileUrl": "https://engineering.nyu.edu/faculty/nasir-memon",
+      "portraitUrl": "https://cs.nyu.edu/media/faculty_photos/Memon_250x250.jpg"
+    },
+    {
+      "officialId": "nir-bitansky",
+      "name": "Nir Bitansky",
+      "officialSections": [
+        "Tenure-Track Faculty"
+      ],
+      "title": "Associate Professor of Computer Science",
+      "profileUrl": "https://cs.nyu.edu/~nb3873/",
+      "portraitUrl": "https://cs.nyu.edu/media/faculty_photos/nir-cropped_iNfo8Hd.png"
+    },
+    {
+      "officialId": "oded-nov",
+      "name": "Oded Nov",
+      "officialSections": [
+        "Associated/Affiliated Faculty"
+      ],
+      "title": "Technology Management and Innovation Department Chair, Morton L. Topfer Professor of Technology Management",
+      "profileUrl": "https://wp.nyu.edu/odednov\nDigital Health Work",
+      "portraitUrl": "https://cs.nyu.edu/media/faculty_photos/Screenshot_2025-12-12_at_3.49.57PM_Ys73ZUG.png"
+    },
+    {
+      "officialId": "oded-regev",
+      "name": "Oded Regev",
+      "officialSections": [
+        "Tenure-Track Faculty"
+      ],
+      "title": "Silver Professor of Computer Science",
+      "profileUrl": "http://www.cims.nyu.edu/~regev/",
+      "portraitUrl": "https://cs.nyu.edu/media/faculty_photos/Regev_16-0015_0376_250x250.jpg"
+    },
+    {
+      "officialId": "patrick-cousot",
+      "name": "Patrick Cousot",
+      "officialSections": [
+        "Tenure-Track Faculty"
+      ],
+      "title": "Silver Professor of Computer Science",
+      "profileUrl": "http://cs.nyu.edu/~pcousot/",
+      "portraitUrl": "https://cs.nyu.edu/media/faculty_photos/Cousot_16-0015_1348_250x250.jpg"
+    },
+    {
+      "officialId": "paul-torrens",
+      "name": "Paul Torrens",
+      "officialSections": [
+        "Tenure-Track Faculty"
+      ],
+      "title": "Professor of Computer Science and Engineering; Vice Dean for Faculty Affairs, Tandon School of Engineering",
+      "profileUrl": "https://engineering.nyu.edu/faculty/paul-torrens",
+      "portraitUrl": "https://cs.nyu.edu/media/faculty_photos/paul_torrens.png"
+    },
+    {
+      "officialId": "pavel-izmailov",
+      "name": "Pavel Izmailov",
+      "officialSections": [
+        "Tenure-Track Faculty"
+      ],
+      "title": "Assistant Professor of Computer Science and Engineering",
+      "profileUrl": "https://engineering.nyu.edu/faculty/pavel-izmailov",
+      "portraitUrl": "https://cs.nyu.edu/media/faculty_photos/pavel_izmailov.jpeg"
+    },
+    {
+      "officialId": "pratyusha-sharma",
+      "name": "Pratyusha Sharma",
+      "officialSections": [
+        "Tenure-Track Faculty"
+      ],
+      "title": "Assistant Professor of Computer Science and Data Science",
+      "profileUrl": "https://pratyushasharma.github.io",
+      "portraitUrl": "https://cs.nyu.edu/media/faculty_photos/pratyusha-headshot_1.jpg"
+    },
+    {
+      "officialId": "qi-lei",
+      "name": "Qi Lei",
+      "officialSections": [
+        "Associated/Affiliated Faculty"
+      ],
+      "title": "Assistant Professor of Mathematics and Data Science",
+      "profileUrl": "https://cecilialeiqi.github.io/",
+      "portraitUrl": "https://cs.nyu.edu/media/faculty_photos/Qi_Lei_KjliKMY.jpg"
+    },
+    {
+      "officialId": "qi-sun",
+      "name": "Qi Sun",
+      "officialSections": [
+        "Tenure-Track Faculty"
+      ],
+      "title": "Associate Professor of Computer Science and Engineering",
+      "profileUrl": "https://qisun.me/",
+      "portraitUrl": "https://cs.nyu.edu/media/faculty_photos/qi_sun.jpg"
+    },
+    {
+      "officialId": "qiaoyu-tan",
+      "name": "Qiaoyu Tan",
+      "officialSections": [
+        "Associated/Affiliated Faculty"
+      ],
+      "title": "Assistant Professor",
+      "profileUrl": "",
+      "portraitUrl": "https://cs.nyu.edu/media/faculty_photos/Screenshot_2025-12-12_at_4.00.09PM.png"
+    },
+    {
+      "officialId": "rachel-greenstadt",
+      "name": "Rachel Greenstadt",
+      "officialSections": [
+        "Tenure-Track Faculty"
+      ],
+      "title": "Professor of Computer Science and Engineering",
+      "profileUrl": "https://engineering.nyu.edu/faculty/rachel-greenstadt",
+      "portraitUrl": "https://cs.nyu.edu/media/faculty_photos/rachel_greenstadt.jpg"
+    },
+    {
+      "officialId": "rajesh-ranganath",
+      "name": "Rajesh Ranganath",
+      "officialSections": [
+        "Tenure-Track Faculty"
+      ],
+      "title": "Associate Professor of Computer Science and Data Science",
+      "profileUrl": "https://cims.nyu.edu/~rajeshr/",
+      "portraitUrl": "https://cs.nyu.edu/media/faculty_photos/Ranganath_250x250_cCkxoxI.jpg"
+    },
+    {
+      "officialId": "ramesh-karri",
+      "name": "Ramesh Karri",
+      "officialSections": [
+        "Associated/Affiliated Faculty"
+      ],
+      "title": "Electrical and Computer Engineering Department Chair",
+      "profileUrl": "",
+      "portraitUrl": "https://cs.nyu.edu/media/faculty_photos/Screenshot_2025-12-12_at_3.48.21PM.png"
+    },
+    {
+      "officialId": "rob-fergus",
+      "name": "Rob Fergus",
+      "officialSections": [
+        "Tenure-Track Faculty"
+      ],
+      "title": "Professor of Computer Science",
+      "profileUrl": "http://cs.nyu.edu/~fergus/",
+      "portraitUrl": "https://cs.nyu.edu/media/faculty_photos/Fergus_16-0015_1004.jpg"
+    },
+    {
+      "officialId": "robert-krueger",
+      "name": "Robert Krueger",
+      "officialSections": [
+        "Tenure-Track Faculty"
+      ],
+      "title": "Assistant Professor of Computer Science and Engineering",
+      "profileUrl": "https://engineering.nyu.edu/faculty/robert-krueger",
+      "portraitUrl": "https://cs.nyu.edu/media/faculty_photos/robert_krueger.jpg"
+    },
+    {
+      "officialId": "romain-lopez",
+      "name": "Romain Lopez",
+      "officialSections": [
+        "Tenure-Track Faculty"
+      ],
+      "title": "Assistant Professor of Computer Science and Biology",
+      "profileUrl": "https://romain-lopez.github.io/",
+      "portraitUrl": "https://cs.nyu.edu/media/faculty_photos/avatar_huee5440d67f790764fd5d8017075b032f_1280543_250x250_fill_q90_lanczos_center.jpg"
+    },
+    {
+      "officialId": "rosanna-bellini",
+      "name": "Rosanna Bellini",
+      "officialSections": [
+        "Tenure-Track Faculty"
+      ],
+      "title": "Assistant Professor of Computer Science and Engineering",
+      "profileUrl": "https://engineering.nyu.edu/faculty/rosanna-bellini",
+      "portraitUrl": "https://cs.nyu.edu/media/faculty_photos/rosanna_bellini.png"
+    },
+    {
+      "officialId": "rumi-chunara",
+      "name": "Rumi Chunara",
+      "officialSections": [
+        "Tenure-Track Faculty"
+      ],
+      "title": "Associate Professor of Computer Science and Engineering and Biostatistics",
+      "profileUrl": "https://engineering.nyu.edu/faculty/rumi-chunara",
+      "portraitUrl": "https://cs.nyu.edu/media/faculty_photos/rumi_chunara.png"
+    },
+    {
+      "officialId": "sai-qian-zhang",
+      "name": "Sai Qian Zhang",
+      "officialSections": [
+        "Tenure-Track Faculty"
+      ],
+      "title": "Assistant Professor of Electrical and Computer Engineering and Computer Science",
+      "profileUrl": "https://saiqianzhang.com/",
+      "portraitUrl": "https://cs.nyu.edu/media/faculty_photos/sai-cropped.png"
+    },
+    {
+      "officialId": "saining-xie",
+      "name": "Saining Xie",
+      "officialSections": [
+        "Tenure-Track Faculty"
+      ],
+      "title": "Assistant Professor of Computer Science",
+      "profileUrl": "http://www.sainingxie.com/",
+      "portraitUrl": "https://cs.nyu.edu/media/faculty_photos/Saining_xie.jpeg"
+    },
+    {
+      "officialId": "sam-westrick",
+      "name": "Sam Westrick",
+      "officialSections": [
+        "Tenure-Track Faculty"
+      ],
+      "title": "Assistant Professor of Computer Science",
+      "profileUrl": "http://samwestrick.com",
+      "portraitUrl": "https://cs.nyu.edu/media/faculty_photos/westrick-headshot-2024-250x250.jpg"
+    },
+    {
+      "officialId": "samuel-bowman",
+      "name": "Samuel Bowman",
+      "officialSections": [
+        "Tenure-Track Faculty"
+      ],
+      "title": "Associate Professor of Computer Science and Data Science",
+      "profileUrl": "https://sleepinyourhat.github.io/",
+      "portraitUrl": "https://cs.nyu.edu/media/faculty_photos/Bowman_Samuel_250x250.jpg"
+    },
+    {
+      "officialId": "sandra-siby",
+      "name": "Sandra Siby",
+      "officialSections": [
+        "Associated/Affiliated Faculty"
+      ],
+      "title": "Global Network Assistant Professor of Computer Science and Engineering",
+      "profileUrl": "",
+      "portraitUrl": "https://cs.nyu.edu/media/faculty_photos/siby-sandra-sds8646-cropped.jpg"
+    },
+    {
+      "officialId": "sanjeev-khanna",
+      "name": "Sanjeev Khanna",
+      "officialSections": [
+        "Tenure-Track Faculty"
+      ],
+      "title": "Silver Professor of Computer Science",
+      "profileUrl": "https://sanjeevkhanna.org/",
+      "portraitUrl": "https://cs.nyu.edu/media/faculty_photos/Sanjeev_Profile_Photo.jpg"
+    },
+    {
+      "officialId": "semiha-ergan",
+      "name": "Semiha Ergan",
+      "officialSections": [
+        "Associated/Affiliated Faculty"
+      ],
+      "title": "Associate Department Chair, Civil and Urban Engineering",
+      "profileUrl": "https://bilab.engineering.nyu.edu",
+      "portraitUrl": "https://cs.nyu.edu/media/faculty_photos/Screenshot_2025-12-12_at_3.13.33PM.png"
+    },
+    {
+      "officialId": "shengjie-wang",
+      "name": "Shengjie Wang",
+      "officialSections": [
+        "Associated/Affiliated Faculty"
+      ],
+      "title": "Assistant Professor",
+      "profileUrl": "",
+      "portraitUrl": "https://cs.nyu.edu/media/faculty_photos/Screenshot_2025-12-12_at_4.01.20PM.png"
+    },
+    {
+      "officialId": "sherry-yang",
+      "name": "Sherry Yang",
+      "officialSections": [
+        "Tenure-Track Faculty"
+      ],
+      "title": "Assistant Professor of Computer Science",
+      "profileUrl": "https://sherryy.github.io/.",
+      "portraitUrl": "https://cs.nyu.edu/media/faculty_photos/sherry_1.jpeg"
+    },
+    {
+      "officialId": "siddharth-garg",
+      "name": "Siddharth Garg",
+      "officialSections": [
+        "Associated/Affiliated Faculty"
+      ],
+      "title": "Professor of ECE at NYU Tandon",
+      "profileUrl": "",
+      "portraitUrl": "https://cs.nyu.edu/media/faculty_photos/Screenshot_2025-12-12_at_3.45.29PM.png"
+    },
+    {
+      "officialId": "subhash-khot",
+      "name": "Subhash Khot",
+      "officialSections": [
+        "Tenure-Track Faculty"
+      ],
+      "title": "Silver Professor of Computer Science",
+      "profileUrl": "http://cs.nyu.edu/~khot/",
+      "portraitUrl": "https://cs.nyu.edu/media/faculty_photos/Khot_250x250.jpg"
+    },
+    {
+      "officialId": "sumit-chopra",
+      "name": "Sumit Chopra",
+      "officialSections": [
+        "Tenure-Track Faculty"
+      ],
+      "title": "Associate Professor of Computer Science",
+      "profileUrl": "https://www.spchopra.net/",
+      "portraitUrl": "https://cs.nyu.edu/media/faculty_photos/Chopra.jpg"
+    },
+    {
+      "officialId": "sunoo-park",
+      "name": "Sunoo Park",
+      "officialSections": [
+        "Tenure-Track Faculty"
+      ],
+      "title": "Assistant Professor of Computer Science",
+      "profileUrl": "https://sunoopark.com",
+      "portraitUrl": "https://cs.nyu.edu/media/faculty_photos/sunoo-cropped.jpg"
+    },
+    {
+      "officialId": "tamar-schlick",
+      "name": "Tamar Schlick",
+      "officialSections": [
+        "Associated/Affiliated Faculty"
+      ],
+      "title": "Professor of Chemistry, Mathematics and Computer Science",
+      "profileUrl": "https://as.nyu.edu/faculty/tamar-schlick.html",
+      "portraitUrl": "https://cs.nyu.edu/media/faculty_photos/Schlick_250x250.jpg"
+    },
+    {
+      "officialId": "theodore-rappaport",
+      "name": "Theodore Rappaport",
+      "officialSections": [
+        "Tenure-Track Faculty"
+      ],
+      "title": "Professor of Electrical and Computer Engineering, Computer Science, and Radiology",
+      "profileUrl": "https://wireless.engineering.nyu.edu/tedrappaport/",
+      "portraitUrl": "https://cs.nyu.edu/media/faculty_photos/Rappaport_18-0078__0284_250x250.jpg"
+    },
+    {
+      "officialId": "thibault-dardinier",
+      "name": "Thibault Dardinier",
+      "officialSections": [
+        "Tenure-Track Faculty"
+      ],
+      "title": "Assistant Professor of Computer Science",
+      "profileUrl": "https://dardinier.me/",
+      "portraitUrl": "https://cs.nyu.edu/media/faculty_photos/picture_profile.jpeg"
+    },
+    {
+      "officialId": "thomas-wies",
+      "name": "Thomas Wies",
+      "officialSections": [
+        "Tenure-Track Faculty"
+      ],
+      "title": "Professor of Computer Science",
+      "profileUrl": "http://cs.nyu.edu/wies/",
+      "portraitUrl": "https://cs.nyu.edu/media/faculty_photos/Wies_16-0015_0573_250x250.jpg"
+    },
+    {
+      "officialId": "tony-metger",
+      "name": "Tony Metger",
+      "officialSections": [
+        "Tenure-Track Faculty"
+      ],
+      "title": "Assistant Professor of Computer Science and Physics",
+      "profileUrl": "https://tonymetger.com/",
+      "portraitUrl": "https://cs.nyu.edu/media/faculty_photos/Tony_Metger_poster_v1.jpg"
+    },
+    {
+      "officialId": "torsten-suel",
+      "name": "Torsten Suel",
+      "officialSections": [
+        "Tenure-Track Faculty"
+      ],
+      "title": "Professor of Computer Science and Engineering",
+      "profileUrl": "https://engineering.nyu.edu/faculty/torsten-suel",
+      "portraitUrl": "https://cs.nyu.edu/media/faculty_photos/torsten_suel.jpg"
+    },
+    {
+      "officialId": "yanjun-han",
+      "name": "Yanjun Han",
+      "officialSections": [
+        "Associated/Affiliated Faculty"
+      ],
+      "title": "Assistant Professor of Mathematics and Data Science",
+      "profileUrl": "https://yanjunhan2021.github.io/index.html",
+      "portraitUrl": "https://cs.nyu.edu/media/faculty_photos/yanjun-cropped.JPG"
+    },
+    {
+      "officialId": "yann-lecun",
+      "name": "Yann LeCun",
+      "officialSections": [
+        "Tenure-Track Faculty"
+      ],
+      "title": "Jacob T. Schwartz Chaired Professor in Computer Science",
+      "profileUrl": "http://yann.lecun.com",
+      "portraitUrl": "https://cs.nyu.edu/media/faculty_photos/Lecun_16-0015_0310_250x250.jpg"
+    },
+    {
+      "officialId": "yevgeniy-dodis",
+      "name": "Yevgeniy Dodis",
+      "officialSections": [
+        "Tenure-Track Faculty"
+      ],
+      "title": "Professor of Computer Science",
+      "profileUrl": "http://cs.nyu.edu/~dodis/",
+      "portraitUrl": "https://cs.nyu.edu/media/faculty_photos/Dodis_16-0015_1192_250x250.jpg"
+    },
+    {
+      "officialId": "yi-jen-chiang",
+      "name": "Yi-Jen Chiang",
+      "officialSections": [
+        "Tenure-Track Faculty"
+      ],
+      "title": "Associate Professor of Computer Science and Engineering",
+      "profileUrl": "https://engineering.nyu.edu/faculty/yi-jen-chiang",
+      "portraitUrl": "https://cs.nyu.edu/media/faculty_photos/yijen_chiang.jpg"
+    },
+    {
+      "officialId": "zhengyuan-zhou",
+      "name": "Zhengyuan Zhou",
+      "officialSections": [
+        "Associated/Affiliated Faculty"
+      ],
+      "title": "Assistant Professor",
+      "profileUrl": "",
+      "portraitUrl": "https://cs.nyu.edu/media/faculty_photos/Screenshot_2025-12-12_at_4.25.33PM.png"
+    },
+    {
+      "officialId": "zhong-ping-jiang",
+      "name": "Zhong-Ping Jiang",
+      "officialSections": [
+        "Associated/Affiliated Faculty"
+      ],
+      "title": "Institute Professor",
+      "profileUrl": "https://engineering.nyu.edu/faculty/zhong-ping-jiang",
+      "portraitUrl": "https://cs.nyu.edu/media/faculty_photos/zhongping_jiang.jpg"
+    }
+  ]
+}

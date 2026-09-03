@@ -1,0 +1,628 @@
+{
+  "completeness": "complete",
+  "fetchedAt": "2026-09-02",
+  "institution": "Johns Hopkins University Department of Computer Science",
+  "officialPageUrl": "https://www.cs.jhu.edu/faculty/",
+  "officialDataUrl": "https://www.cs.jhu.edu/wp-json/wp/v2/people?per_page=100&_fields=id,slug,link,title,meta",
+  "officialRosterCount": 77,
+  "sourcePageSha256": "8875f759551539477ff3bda9faf898d34f87b07c716e4bd30b1c455aa43a7083",
+  "sourceDescription": "The official WordPress People API returns exactly 77 records, matching the 77 unique faculty cards on the official page. The archive rel=next metadata repeats the same records and is not a second roster page.",
+  "people": [
+    {
+      "officialId": "yair-amir",
+      "name": "Yair Amir",
+      "title": "Professor Emeritus",
+      "researchAreas": [],
+      "profileUrl": "https://www.cs.jhu.edu/faculty/yair-amir/",
+      "portraitUrl": "https://www.cs.jhu.edu/wp-content/uploads/2021/06/amir-yair-e1750170145431-150x150.jpg"
+    },
+    {
+      "officialId": "raman-arora",
+      "name": "Raman Arora",
+      "title": "Associate Professor",
+      "researchAreas": [],
+      "profileUrl": "https://www.cs.jhu.edu/faculty/raman-arora/",
+      "portraitUrl": "https://www.cs.jhu.edu/wp-content/uploads/2021/06/Arora-square-e1750170199732-150x150.jpg"
+    },
+    {
+      "officialId": "alexis-battle",
+      "name": "Alexis Battle",
+      "title": "Wu and Zhang Professor and Data Science and AI Institute Director of Research for Strategy and Partnerships",
+      "researchAreas": [],
+      "profileUrl": "https://www.cs.jhu.edu/faculty/alexis-battle/",
+      "portraitUrl": "https://www.cs.jhu.edu/wp-content/uploads/2025/06/Alexis-Battle-new-headshot-e1787944330912-150x150.jpg"
+    },
+    {
+      "officialId": "homanga-bharadhwaj",
+      "name": "Homanga Bharadhwaj",
+      "title": "Assistant Professor",
+      "researchAreas": [],
+      "profileUrl": "https://www.cs.jhu.edu/faculty/homanga-bharadhwaj/",
+      "portraitUrl": "https://www.cs.jhu.edu/wp-content/uploads/2025/11/homanga-square-150x150.jpg"
+    },
+    {
+      "officialId": "anand-bhattad",
+      "name": "Anand Bhattad",
+      "title": "Assistant Professor",
+      "researchAreas": [],
+      "profileUrl": "https://www.cs.jhu.edu/faculty/anand-bhattad/",
+      "portraitUrl": "https://www.cs.jhu.edu/wp-content/uploads/2025/08/Anand-Bhattad-square-2026-150x150.jpg"
+    },
+    {
+      "officialId": "vladimir-braverman",
+      "name": "Vladimir Braverman",
+      "title": "Associate Head of Faculty and Professor",
+      "researchAreas": [],
+      "profileUrl": "https://www.cs.jhu.edu/faculty/vladimir-braverman/",
+      "portraitUrl": "https://www.cs.jhu.edu/wp-content/uploads/2023/08/vladimir-braverman-sq-150x150.jpg"
+    },
+    {
+      "officialId": "randal-burns",
+      "name": "Randal Burns",
+      "title": "Bill and Lisa Stromberg Department Head and Professor",
+      "researchAreas": [],
+      "profileUrl": "https://www.cs.jhu.edu/faculty/randal-burns/",
+      "portraitUrl": "https://www.cs.jhu.edu/wp-content/uploads/2021/06/randal-burns-sq-e1750170299807-150x150.jpg"
+    },
+    {
+      "officialId": "yinzhi-cao",
+      "name": "Yinzhi Cao",
+      "title": "Technical Director of the JHU Information Security Institute and Associate Professor",
+      "researchAreas": [],
+      "profileUrl": "https://www.cs.jhu.edu/faculty/yinzhi-cao/",
+      "portraitUrl": "https://www.cs.jhu.edu/wp-content/uploads/2021/06/Yinzhi-Cao-sq-e1750170527610-150x150.jpg"
+    },
+    {
+      "officialId": "uthsav-chitra",
+      "name": "Uthsav Chitra",
+      "title": "Assistant Professor",
+      "researchAreas": [],
+      "profileUrl": "https://www.cs.jhu.edu/faculty/uthsav-chitra/",
+      "portraitUrl": "https://www.cs.jhu.edu/wp-content/uploads/2025/07/Uthsav-Chitra-square-2026-150x150.jpg"
+    },
+    {
+      "officialId": "zih-yun-sarah-chiu",
+      "name": "Zih-Yun “Sarah” Chiu",
+      "title": "Assistant Professor",
+      "researchAreas": [],
+      "profileUrl": "https://www.cs.jhu.edu/faculty/zih-yun-sarah-chiu/",
+      "portraitUrl": "https://www.cs.jhu.edu/wp-content/uploads/2025/08/Sarah-Chiu-new-square-150x150.jpg"
+    },
+    {
+      "officialId": "jaemin-cho",
+      "name": "Jaemin Cho",
+      "title": "Assistant Professor",
+      "researchAreas": [],
+      "profileUrl": "https://www.cs.jhu.edu/faculty/jaemin-cho/",
+      "portraitUrl": "https://www.cs.jhu.edu/wp-content/uploads/2025/08/Jaemin-Cho-square-150x150.jpg"
+    },
+    {
+      "officialId": "nicolas-christianson",
+      "name": "Nicolas Christianson",
+      "title": "Assistant Professor",
+      "researchAreas": [],
+      "profileUrl": "https://www.cs.jhu.edu/faculty/nicolas-christianson/",
+      "portraitUrl": "https://www.cs.jhu.edu/wp-content/uploads/2025/10/NHC_headshot-square-150x150.jpg"
+    },
+    {
+      "officialId": "adina-crainiceanu",
+      "name": "Adina Crainiceanu",
+      "title": "Director of Undergraduate Studies and Teaching Professor",
+      "researchAreas": [],
+      "profileUrl": "https://www.cs.jhu.edu/faculty/adina-crainiceanu/",
+      "portraitUrl": "https://www.cs.jhu.edu/wp-content/uploads/2026/01/Adina-Crainiceanu-square-150x150.jpg"
+    },
+    {
+      "officialId": "anton-dahbura",
+      "name": "Anton Dahbura",
+      "title": "Executive Director of the Johns Hopkins University Information Security Institute and Co-Director of the Johns Hopkins Institute for Assured Autonomy",
+      "researchAreas": [],
+      "profileUrl": "https://www.cs.jhu.edu/faculty/anton-dahbura/",
+      "portraitUrl": "https://www.cs.jhu.edu/wp-content/uploads/2021/06/Tony2025-high-res-e1763737333422-150x150.jpg"
+    },
+    {
+      "officialId": "mohammad-ali-darvish",
+      "name": "Mohammad Ali Darvish",
+      "title": "Senior Lecturer",
+      "researchAreas": [],
+      "profileUrl": "https://www.cs.jhu.edu/faculty/mohammad-ali-darvish/",
+      "portraitUrl": "https://www.cs.jhu.edu/wp-content/uploads/2021/06/Ali-Darvish-sq-e1750170865336-150x150.jpg"
+    },
+    {
+      "officialId": "michael-dinitz",
+      "name": "Michael Dinitz",
+      "title": "Associate Professor",
+      "researchAreas": [],
+      "profileUrl": "https://www.cs.jhu.edu/faculty/michael-dinitz/",
+      "portraitUrl": "https://www.cs.jhu.edu/wp-content/uploads/2021/06/Michael-Dinitz-profile-picture-square-e1750170928515-150x150.png"
+    },
+    {
+      "officialId": "mark-dredze",
+      "name": "Mark Dredze",
+      "title": "Director of the Data Science and AI Institute and John C. Malone Professor",
+      "researchAreas": [],
+      "profileUrl": "https://www.cs.jhu.edu/faculty/mark-dredze/",
+      "portraitUrl": "https://www.cs.jhu.edu/wp-content/uploads/2021/06/JHU_WSE_Headshots_04_10_24_Mark_Dredze-1698-e1787944433347-150x150.jpg"
+    },
+    {
+      "officialId": "kevin-duh",
+      "name": "Kevin Duh",
+      "title": "Associate Research Professor",
+      "researchAreas": [],
+      "profileUrl": "https://www.cs.jhu.edu/faculty/kevin-duh/",
+      "portraitUrl": "https://www.cs.jhu.edu/wp-content/uploads/2021/06/Kevin-Duh-profile-picture-square-e1750171536215-150x150.png"
+    },
+    {
+      "officialId": "jason-eisner",
+      "name": "Jason Eisner",
+      "title": "Professor",
+      "researchAreas": [],
+      "profileUrl": "https://www.cs.jhu.edu/faculty/jason-eisner/",
+      "portraitUrl": "https://www.cs.jhu.edu/wp-content/uploads/2021/06/Jason_Eisner_WSE_JHU-6567-150x150.jpg"
+    },
+    {
+      "officialId": "anjalie-field",
+      "name": "Anjalie Field",
+      "title": "Assistant Professor",
+      "researchAreas": [],
+      "profileUrl": "https://www.cs.jhu.edu/faculty/anjalie-field/",
+      "portraitUrl": "https://www.cs.jhu.edu/wp-content/uploads/2022/11/Anjalie-Field-profile-picture-square-e1750171752865-150x150.png"
+    },
+    {
+      "officialId": "gagan-garg",
+      "name": "Gagan Garg",
+      "title": "Associate Teaching Professor",
+      "researchAreas": [],
+      "profileUrl": "https://www.cs.jhu.edu/faculty/gagan-garg/",
+      "portraitUrl": "https://www.cs.jhu.edu/wp-content/uploads/2022/07/gagan-garg-002-150x150.jpg"
+    },
+    {
+      "officialId": "soudeh-ghorbani",
+      "name": "Soudeh Ghorbani",
+      "title": "Assistant Professor",
+      "researchAreas": [],
+      "profileUrl": "https://www.cs.jhu.edu/faculty/soudeh-ghorbani/",
+      "portraitUrl": "https://www.cs.jhu.edu/wp-content/uploads/2021/06/ghorbani-soudeh-e1750172033971-150x150.jpg"
+    },
+    {
+      "officialId": "kristina-gligoric",
+      "name": "Kristina Gligorić",
+      "title": "Assistant Professor",
+      "researchAreas": [],
+      "profileUrl": "https://www.cs.jhu.edu/faculty/kristina-gligoric/",
+      "portraitUrl": "https://www.cs.jhu.edu/wp-content/uploads/2025/09/Kristina-Gligoric-square-150x150.jpg"
+    },
+    {
+      "officialId": "matthew-green",
+      "name": "Matthew Green",
+      "title": "Associate Professor",
+      "researchAreas": [],
+      "profileUrl": "https://www.cs.jhu.edu/faculty/matthew-green/",
+      "portraitUrl": "https://www.cs.jhu.edu/wp-content/uploads/2021/06/matthew-green-sq-150x150.jpg"
+    },
+    {
+      "officialId": "gillian-hadfield",
+      "name": "Gillian Hadfield",
+      "title": "Bloomberg Distinguished Professor",
+      "researchAreas": [],
+      "profileUrl": "https://www.cs.jhu.edu/faculty/gillian-hadfield/",
+      "portraitUrl": "https://www.cs.jhu.edu/wp-content/uploads/2024/09/gillian-hadfield-jan26-e1787943989196-150x150.jpg"
+    },
+    {
+      "officialId": "gregory-hager",
+      "name": "Gregory D. Hager",
+      "title": "Mandell Bellmore Professor",
+      "researchAreas": [],
+      "profileUrl": "https://www.cs.jhu.edu/faculty/gregory-hager/",
+      "portraitUrl": "https://www.cs.jhu.edu/wp-content/uploads/2025/03/Gregory-Hager-2026-Square-150x150.jpg"
+    },
+    {
+      "officialId": "susan-hohenberger-waters",
+      "name": "Susan Hohenberger-Waters",
+      "title": "Research Professor",
+      "researchAreas": [],
+      "profileUrl": "https://www.cs.jhu.edu/faculty/susan-hohenberger-waters/",
+      "portraitUrl": "https://www.cs.jhu.edu/wp-content/uploads/2021/06/Susan-Waters-sq-150x150.jpg"
+    },
+    {
+      "officialId": "david-hovemeyer",
+      "name": "David Hovemeyer",
+      "title": "Associate Teaching Professor",
+      "researchAreas": [],
+      "profileUrl": "https://www.cs.jhu.edu/faculty/david-hovemeyer/",
+      "portraitUrl": "https://www.cs.jhu.edu/wp-content/uploads/2021/06/David-Hovemeyer-Cool-e1787944179550-150x150.jpg"
+    },
+    {
+      "officialId": "haimin-hu",
+      "name": "Haimin Hu",
+      "title": "Assistant Professor",
+      "researchAreas": [],
+      "profileUrl": "https://www.cs.jhu.edu/faculty/haimin-hu/",
+      "portraitUrl": "https://www.cs.jhu.edu/wp-content/uploads/2025/08/haimin_square-150x150.jpg"
+    },
+    {
+      "officialId": "chien-ming-huang",
+      "name": "Chien-Ming Huang",
+      "title": "John C. Malone Associate Professor",
+      "researchAreas": [],
+      "profileUrl": "https://www.cs.jhu.edu/faculty/chien-ming-huang/",
+      "portraitUrl": "https://www.cs.jhu.edu/wp-content/uploads/2021/06/CMHuang-square-1-150x150.jpg"
+    },
+    {
+      "officialId": "abhishek-jain",
+      "name": "Abhishek Jain",
+      "title": "Associate Professor",
+      "researchAreas": [],
+      "profileUrl": "https://www.cs.jhu.edu/faculty/abhishek-jain/",
+      "portraitUrl": "https://www.cs.jhu.edu/wp-content/uploads/2021/06/abhishek-jain-sq-e1750172844435-150x150.jpg"
+    },
+    {
+      "officialId": "krishna-murthy-jatavallabhula",
+      "name": "Krishna Murthy Jatavallabhula",
+      "title": "Assistant Professor",
+      "researchAreas": [],
+      "profileUrl": "https://www.cs.jhu.edu/faculty/krishna-murthy-jatavallabhula/",
+      "portraitUrl": "https://www.cs.jhu.edu/wp-content/uploads/2025/08/krishna-headshot-attempt-2-e1784667069564-150x150.jpg"
+    },
+    {
+      "officialId": "peter-kazanzides",
+      "name": "Peter Kazanzides",
+      "title": "Research Professor",
+      "researchAreas": [],
+      "profileUrl": "https://www.cs.jhu.edu/faculty/peter-kazanzides/",
+      "portraitUrl": "https://www.cs.jhu.edu/wp-content/uploads/2021/06/Peter-Kazanzides-sq-e1750173128523-150x150.jpg"
+    },
+    {
+      "officialId": "michael-kazhdan",
+      "name": "Misha Kazhdan",
+      "title": "Professor",
+      "researchAreas": [],
+      "profileUrl": "https://www.cs.jhu.edu/faculty/michael-kazhdan/",
+      "portraitUrl": "https://www.cs.jhu.edu/wp-content/uploads/2021/06/Michael-Misha-Kazhdan-sq-1-150x150.jpg"
+    },
+    {
+      "officialId": "daniel-khashabi",
+      "name": "Daniel Khashabi",
+      "title": "Assistant Professor",
+      "researchAreas": [],
+      "profileUrl": "https://www.cs.jhu.edu/faculty/daniel-khashabi/",
+      "portraitUrl": "https://www.cs.jhu.edu/wp-content/uploads/2022/09/Daniel-Khashabi-e1750173173720-150x150.jpg"
+    },
+    {
+      "officialId": "murat-kocaoglu",
+      "name": "Murat Kocaoglu",
+      "title": "Assistant Professor",
+      "researchAreas": [],
+      "profileUrl": "https://www.cs.jhu.edu/faculty/murat-kocaoglu/",
+      "portraitUrl": "https://www.cs.jhu.edu/wp-content/uploads/2025/08/Murat-square-150x150.jpeg"
+    },
+    {
+      "officialId": "philipp-koehn",
+      "name": "Philipp Koehn",
+      "title": "Professor",
+      "researchAreas": [],
+      "profileUrl": "https://www.cs.jhu.edu/faculty/philipp-koehn/",
+      "portraitUrl": "https://www.cs.jhu.edu/wp-content/uploads/2021/06/philipp-koehn-sq-e1750173620205-150x150.jpg"
+    },
+    {
+      "officialId": "s-rao-kosaraju",
+      "name": "S. Rao Kosaraju",
+      "title": "Edward J. Schaefer Professor Emeritus",
+      "researchAreas": [],
+      "profileUrl": "https://www.cs.jhu.edu/faculty/s-rao-kosaraju/",
+      "portraitUrl": "https://www.cs.jhu.edu/wp-content/uploads/2021/06/s-rao-kosaraju-sq-e1750173666144-150x150.jpg"
+    },
+    {
+      "officialId": "benjamin-langmead",
+      "name": "Ben Langmead",
+      "title": "Professor",
+      "researchAreas": [],
+      "profileUrl": "https://www.cs.jhu.edu/faculty/benjamin-langmead/",
+      "portraitUrl": "https://www.cs.jhu.edu/wp-content/uploads/2021/06/ben-langmead-150x150.jpg"
+    },
+    {
+      "officialId": "xiangyang-li",
+      "name": "Xiangyang Li",
+      "title": "Master of Science in Security Informatics Program Director and Associate Teaching Professor",
+      "researchAreas": [],
+      "profileUrl": "https://www.cs.jhu.edu/faculty/xiangyang-li/",
+      "portraitUrl": "https://www.cs.jhu.edu/wp-content/uploads/2021/11/Xiangyang-Li-sq-150x150.jpg"
+    },
+    {
+      "officialId": "xin-li",
+      "name": "Xin Li",
+      "title": "Associate Professor",
+      "researchAreas": [],
+      "profileUrl": "https://www.cs.jhu.edu/faculty/xin-li/",
+      "portraitUrl": "https://www.cs.jhu.edu/wp-content/uploads/2021/06/JHU2138-e1750173974694-150x150.jpg"
+    },
+    {
+      "officialId": "ziyang-li",
+      "name": "Ziyang Li",
+      "title": "Assistant Professor",
+      "researchAreas": [],
+      "profileUrl": "https://www.cs.jhu.edu/faculty/ziyang-li/",
+      "portraitUrl": "https://www.cs.jhu.edu/wp-content/uploads/2025/07/Ziyang-Li-square-1-150x150.jpg"
+    },
+    {
+      "officialId": "thomas-lippincott",
+      "name": "Tom Lippincott",
+      "title": "Associate Research Professor",
+      "researchAreas": [],
+      "profileUrl": "https://www.cs.jhu.edu/faculty/thomas-lippincott/",
+      "portraitUrl": "https://www.cs.jhu.edu/wp-content/uploads/2021/11/Tom-Lippincott-Profile-Picture-square-e1787944105737-150x150.png"
+    },
+    {
+      "officialId": "anqi-angie-liu",
+      "name": "Anqi \"Angie\" Liu",
+      "title": "Assistant Professor",
+      "researchAreas": [],
+      "profileUrl": "https://www.cs.jhu.edu/faculty/anqi-angie-liu/",
+      "portraitUrl": "https://www.cs.jhu.edu/wp-content/uploads/2021/11/AnqiLiu2-e1750174234751-150x150.jpg"
+    },
+    {
+      "officialId": "ali-madooei",
+      "name": "Ali Madooei",
+      "title": "Associate Teaching Professor",
+      "researchAreas": [],
+      "profileUrl": "https://www.cs.jhu.edu/faculty/ali-madooei/",
+      "portraitUrl": "https://www.cs.jhu.edu/wp-content/uploads/2021/06/JHU_WSE_Headshots_05_08_24_Ali_Madooei-3132-square-150x150.jpg"
+    },
+    {
+      "officialId": "alex-marder",
+      "name": "Alex Marder",
+      "title": "Assistant Professor",
+      "researchAreas": [],
+      "profileUrl": "https://www.cs.jhu.edu/faculty/alex-marder/",
+      "portraitUrl": "https://www.cs.jhu.edu/wp-content/uploads/2023/09/Alex-Marder-profile-picture-square-e1750174421646-150x150.png"
+    },
+    {
+      "officialId": "stephanie-milani",
+      "name": "Stephanie Milani",
+      "title": "Incoming Assistant Professor",
+      "researchAreas": [],
+      "profileUrl": "https://www.cs.jhu.edu/faculty/stephanie-milani/",
+      "portraitUrl": "https://www.cs.jhu.edu/wp-content/uploads/2025/09/Milani-square-150x150.jpeg"
+    },
+    {
+      "officialId": "sara-miner-more",
+      "name": "Sara Miner More",
+      "title": "Director of Academic Programs and Associate Teaching Professor",
+      "researchAreas": [],
+      "profileUrl": "https://www.cs.jhu.edu/faculty/sara-miner-more/",
+      "portraitUrl": "https://www.cs.jhu.edu/wp-content/uploads/2021/06/sara-more-sq-1-150x150.jpg"
+    },
+    {
+      "officialId": "eric-nalisnick",
+      "name": "Eric Nalisnick",
+      "title": "Assistant Professor",
+      "researchAreas": [],
+      "profileUrl": "https://www.cs.jhu.edu/faculty/eric-nalisnick/",
+      "portraitUrl": "https://www.cs.jhu.edu/wp-content/uploads/2023/12/JHU_WSE_Headshots_05_14_24_Eric_Nalisnick-3337-1-e1750174573321-150x150.jpg"
+    },
+    {
+      "officialId": "michael-oberst",
+      "name": "Michael Oberst",
+      "title": "Assistant Professor",
+      "researchAreas": [],
+      "profileUrl": "https://www.cs.jhu.edu/faculty/michael-oberst/",
+      "portraitUrl": "https://www.cs.jhu.edu/wp-content/uploads/2023/11/Michael-Oberst-square-e1763483322141-150x150.jpeg"
+    },
+    {
+      "officialId": "adam-phillippy",
+      "name": "Adam Phillippy",
+      "title": "Research Professor",
+      "researchAreas": [],
+      "profileUrl": "https://www.cs.jhu.edu/faculty/adam-phillippy/",
+      "portraitUrl": "https://www.cs.jhu.edu/wp-content/uploads/2026/04/Phillippy_Adam_square-150x150.jpg"
+    },
+    {
+      "officialId": "tiziano-piccardi",
+      "name": "Tiziano Piccardi",
+      "title": "Assistant Professor",
+      "researchAreas": [],
+      "profileUrl": "https://www.cs.jhu.edu/faculty/tiziano-piccardi/",
+      "portraitUrl": "https://www.cs.jhu.edu/wp-content/uploads/2025/09/Piccardi-square-2026-150x150.jpg"
+    },
+    {
+      "officialId": "kai-presler-marshall",
+      "name": "Kai Presler-Marshall",
+      "title": "Lecturer",
+      "researchAreas": [],
+      "profileUrl": "https://www.cs.jhu.edu/faculty/kai-presler-marshall/",
+      "portraitUrl": "https://www.cs.jhu.edu/wp-content/uploads/2024/07/Kai_Presler-Marshall_square-150x150.jpg"
+    },
+    {
+      "officialId": "aviel-rubin",
+      "name": "Aviel D. Rubin",
+      "title": "Professor Emeritus",
+      "researchAreas": [],
+      "profileUrl": "https://www.cs.jhu.edu/faculty/aviel-rubin/",
+      "portraitUrl": "https://www.cs.jhu.edu/wp-content/uploads/2021/06/2025-Headshot-square-e1750176006285-150x150.jpg"
+    },
+    {
+      "officialId": "dan-ryan",
+      "name": "Dan Ryan",
+      "title": "Teaching Professor",
+      "researchAreas": [],
+      "profileUrl": "https://www.cs.jhu.edu/faculty/dan-ryan/",
+      "portraitUrl": "https://www.cs.jhu.edu/wp-content/uploads/2024/12/Dan_Ryan_WSE_JHU-5636-e1750174906108-150x150.jpg"
+    },
+    {
+      "officialId": "erik-rye",
+      "name": "Erik Rye",
+      "title": "Assistant Professor",
+      "researchAreas": [],
+      "profileUrl": "https://www.cs.jhu.edu/faculty/erik-rye/",
+      "portraitUrl": "https://www.cs.jhu.edu/wp-content/uploads/2025/08/Erik-Rye-Square-150x150.jpg"
+    },
+    {
+      "officialId": "krishan-sabnani",
+      "name": "Krishan Sabnani",
+      "title": "Professor",
+      "researchAreas": [],
+      "profileUrl": "https://www.cs.jhu.edu/faculty/krishan-sabnani/",
+      "portraitUrl": "https://www.cs.jhu.edu/wp-content/uploads/2024/07/sabnani-e1750174942467-150x150.jpg"
+    },
+    {
+      "officialId": "steven-salzberg",
+      "name": "Steven Salzberg",
+      "title": "Bloomberg Distinguished Professor",
+      "researchAreas": [],
+      "profileUrl": "https://www.cs.jhu.edu/faculty/steven-salzberg/",
+      "portraitUrl": "https://www.cs.jhu.edu/wp-content/uploads/2021/06/salzberg-steven-e1750175018677-150x150.jpg"
+    },
+    {
+      "officialId": "suchi-saria",
+      "name": "Suchi Saria",
+      "title": "John C. Malone Associate Professor",
+      "researchAreas": [],
+      "profileUrl": "https://www.cs.jhu.edu/faculty/suchi-saria/",
+      "portraitUrl": "https://www.cs.jhu.edu/wp-content/uploads/2021/06/saria-suchi-e1596557268614-150x150.jpg"
+    },
+    {
+      "officialId": "michael-schatz",
+      "name": "Michael Schatz",
+      "title": "Bloomberg Distinguished Professor",
+      "researchAreas": [],
+      "profileUrl": "https://www.cs.jhu.edu/faculty/michael-schatz/",
+      "portraitUrl": "https://www.cs.jhu.edu/wp-content/uploads/2021/06/schatz-michael-e1596553248886-150x150.jpg"
+    },
+    {
+      "officialId": "joanne-selinski",
+      "name": "Joanne Selinski",
+      "title": "Associate Head for Education and Teaching Professor",
+      "researchAreas": [],
+      "profileUrl": "https://www.cs.jhu.edu/faculty/joanne-selinski/",
+      "portraitUrl": "https://www.cs.jhu.edu/wp-content/uploads/2021/06/joanne-selinski-sq-150x150.jpg"
+    },
+    {
+      "officialId": "ilya-shpitser",
+      "name": "Ilya Shpitser",
+      "title": "John C. Malone Associate Professor",
+      "researchAreas": [],
+      "profileUrl": "https://www.cs.jhu.edu/faculty/ilya-shpitser/",
+      "portraitUrl": "https://www.cs.jhu.edu/wp-content/uploads/2021/06/shpitser-ilya-e1596239069924-150x150.jpg"
+    },
+    {
+      "officialId": "tianmin-shu",
+      "name": "Tianmin Shu",
+      "title": "Assistant Professor",
+      "researchAreas": [],
+      "profileUrl": "https://www.cs.jhu.edu/faculty/tianmin-shu/",
+      "portraitUrl": "https://www.cs.jhu.edu/wp-content/uploads/2023/11/JHU_WSE_Headshots_04_10_24_Tianmin_Shu-1715-square-150x150.jpg"
+    },
+    {
+      "officialId": "patricio-simari",
+      "name": "Patricio Simari",
+      "title": "Associate Teaching Professor",
+      "researchAreas": [],
+      "profileUrl": "https://www.cs.jhu.edu/faculty/patricio-simari/",
+      "portraitUrl": "https://www.cs.jhu.edu/wp-content/uploads/2021/11/Patricio-Simari-e1750175100541-150x150.jpg"
+    },
+    {
+      "officialId": "scott-smith",
+      "name": "Scott Smith",
+      "title": "Director of Graduate Studies and Professor",
+      "researchAreas": [],
+      "profileUrl": "https://www.cs.jhu.edu/faculty/scott-smith/",
+      "portraitUrl": "https://www.cs.jhu.edu/wp-content/uploads/2021/06/Scott-Smith-150x150.jpg"
+    },
+    {
+      "officialId": "jessica-sorrell",
+      "name": "Jessica Sorrell",
+      "title": "Assistant Professor",
+      "researchAreas": [],
+      "profileUrl": "https://www.cs.jhu.edu/faculty/jessica-sorrell/",
+      "portraitUrl": "https://www.cs.jhu.edu/wp-content/uploads/2024/10/Jessica-Sorrell-square-150x150.jpg"
+    },
+    {
+      "officialId": "alexander-szalay",
+      "name": "Alex Szalay",
+      "title": "Bloomberg Distinguished Professor",
+      "researchAreas": [],
+      "profileUrl": "https://www.cs.jhu.edu/faculty/alexander-szalay/",
+      "portraitUrl": "https://www.cs.jhu.edu/wp-content/uploads/2021/06/Alex-Szalay-2022-e1724077696142-150x150.jpg"
+    },
+    {
+      "officialId": "russell-taylor",
+      "name": "Russell Taylor",
+      "title": "John C. Malone Professor",
+      "researchAreas": [],
+      "profileUrl": "https://www.cs.jhu.edu/faculty/russell-taylor/",
+      "portraitUrl": "https://www.cs.jhu.edu/wp-content/uploads/2021/06/Russell_Taylor_square-150x150.jpg"
+    },
+    {
+      "officialId": "mathias-unberath",
+      "name": "Mathias Unberath",
+      "title": "John C. Malone Associate Professor",
+      "researchAreas": [],
+      "profileUrl": "https://www.cs.jhu.edu/faculty/mathias-unberath/",
+      "portraitUrl": "https://www.cs.jhu.edu/wp-content/uploads/2021/06/profile_pic_mathias_square-1-150x150.jpg"
+    },
+    {
+      "officialId": "benjamin-van-durme",
+      "name": "Benjamin Van Durme",
+      "title": "Professor",
+      "researchAreas": [],
+      "profileUrl": "https://www.cs.jhu.edu/faculty/benjamin-van-durme/",
+      "portraitUrl": "https://www.cs.jhu.edu/wp-content/uploads/2021/06/van-durme-benjamin-e1596220964141-150x150.jpg"
+    },
+    {
+      "officialId": "ziang-xiao",
+      "name": "Ziang Xiao",
+      "title": "Assistant Professor",
+      "researchAreas": [],
+      "profileUrl": "https://www.cs.jhu.edu/faculty/ziang-xiao/",
+      "portraitUrl": "https://www.cs.jhu.edu/wp-content/uploads/2022/11/Ziang-Xiao-square-1-150x150.jpeg"
+    },
+    {
+      "officialId": "yaxing-yao",
+      "name": "Yaxing Yao",
+      "title": "Assistant Professor",
+      "researchAreas": [],
+      "profileUrl": "https://www.cs.jhu.edu/faculty/yaxing-yao/",
+      "portraitUrl": "https://www.cs.jhu.edu/wp-content/uploads/2025/07/Yaxing-Yao-square-new-e1787944236796-150x150.jpg"
+    },
+    {
+      "officialId": "david-yarowsky",
+      "name": "David Yarowsky",
+      "title": "Professor",
+      "researchAreas": [],
+      "profileUrl": "https://www.cs.jhu.edu/faculty/david-yarowsky/",
+      "portraitUrl": "https://www.cs.jhu.edu/wp-content/uploads/2021/06/David-Yarowsky-150x150.jpg"
+    },
+    {
+      "officialId": "alan-yuille",
+      "name": "Alan Yuille",
+      "title": "Bloomberg Distinguished Professor",
+      "researchAreas": [],
+      "profileUrl": "https://www.cs.jhu.edu/faculty/alan-yuille/",
+      "portraitUrl": "https://www.cs.jhu.edu/wp-content/uploads/2021/06/yuille-alan-e1596210774910-150x150.jpg"
+    },
+    {
+      "officialId": "lydia-zakynthinou",
+      "name": "Lydia Zakynthinou",
+      "title": "Assistant Professor",
+      "researchAreas": [],
+      "profileUrl": "https://www.cs.jhu.edu/faculty/lydia-zakynthinou/",
+      "portraitUrl": "https://www.cs.jhu.edu/wp-content/uploads/2025/07/Zakynthinou-2025-square-150x150.jpg"
+    },
+    {
+      "officialId": "renjie-zhao",
+      "name": "Renjie Zhao",
+      "title": "Assistant Professor",
+      "researchAreas": [],
+      "profileUrl": "https://www.cs.jhu.edu/faculty/renjie-zhao/",
+      "portraitUrl": "https://www.cs.jhu.edu/wp-content/uploads/2024/08/Renjie_Zhao_photo-e1750175144241-150x150.png"
+    },
+    {
+      "officialId": "zongwei-zhou",
+      "name": "Zongwei Zhou",
+      "title": "Assistant Research Professor",
+      "researchAreas": [],
+      "profileUrl": "https://www.cs.jhu.edu/faculty/zongwei-zhou/",
+      "portraitUrl": "https://www.cs.jhu.edu/wp-content/uploads/2025/11/Zongwei-Zhou-square-e1763483535488-150x150.jpg"
+    }
+  ]
+}

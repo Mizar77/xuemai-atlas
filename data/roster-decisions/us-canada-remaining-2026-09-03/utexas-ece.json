@@ -1,0 +1,1658 @@
+{
+  "schemaVersion": 1,
+  "unitId": "utexas-ece",
+  "unitLabel": "University of Texas at Austin Electrical and Computer Engineering",
+  "unitUrl": "https://www.ece.utexas.edu/people/faculty",
+  "snapshotAt": "2026-09-03",
+  "rosterArtifact": "data/official-rosters/utexas-ece-faculty-2026-09-02.json",
+  "frozenOfficialRosterCount": 109,
+  "rawRosterRowCount": 109,
+  "duplicateRosterCardCount": 0,
+  "deduplicatedRosterPersonCount": 109,
+  "decisionCount": 109,
+  "counts": {
+    "excluded_historical": 1,
+    "excluded_non_ai_cs": 90,
+    "excluded_non_pi": 16,
+    "include_new_pi": 2
+  },
+  "decisions": [
+    {
+      "officialId": "abhay-samant",
+      "rosterName": "Abhay Samant",
+      "title": "Professor of Practice",
+      "profileUrl": "https://www.ece.utexas.edu/people/faculty/abhay-samant",
+      "portraitUrl": "https://www.ece.utexas.edu/sites/default/files/styles/max_325x325/public/portraits/Abhay%20Samant.png?itok=umuIpmZr",
+      "officialSections": [
+        "Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.ece.utexas.edu/people/faculty",
+      "decision": "excluded_non_pi",
+      "reason": "官方职称或名录分组属于教学、兼职、附属、科研支持或其他非独立 PI 岗位。",
+      "evidence": "Professor of Practice | Faculty | https://www.ece.utexas.edu/people/faculty/abhay-samant"
+    },
+    {
+      "officialId": "adela-ben-yakar",
+      "rosterName": "Adela Ben-Yakar",
+      "title": "Professor; Cockrell Family Chair in Engineering #14, Department of Mechanical Engineering, Department of Biomedical Engineering",
+      "profileUrl": "https://www.ece.utexas.edu/people/faculty/adela-ben-yakar",
+      "portraitUrl": "https://www.ece.utexas.edu/sites/default/files/styles/max_325x325/public/portraits/Ben-Yakar-Adela.jpg?itok=tXt0eXji",
+      "officialSections": [
+        "Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.ece.utexas.edu/people/faculty",
+      "decision": "excluded_non_ai_cs",
+      "reason": "现有官方字段未显示 AI、NLP、CV、ML、机器人、数据智能或相关计算研究主线。",
+      "evidence": "Professor; Cockrell Family Chair in Engineering #14, Department of Mechanical Engineering, Department of Biomedical Engineering | Faculty | https://www.ece.utexas.edu/people/faculty/adela-ben-yakar"
+    },
+    {
+      "officialId": "alan-bovik",
+      "rosterName": "Alan Bovik",
+      "title": "Adjunct Professor; Cockrell Family Regents Endowed Chair in Engineering #3, Cockrell Family Dean's Chair for Engineering Excellence",
+      "profileUrl": "https://www.ece.utexas.edu/people/faculty/alan-bovik",
+      "portraitUrl": "https://www.ece.utexas.edu/sites/default/files/styles/max_325x325/public/portraits/Bovik-Al.jpg?itok=TFnHI5p5",
+      "officialSections": [
+        "Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.ece.utexas.edu/people/faculty",
+      "decision": "excluded_non_pi",
+      "reason": "官方职称或名录分组属于教学、兼职、附属、科研支持或其他非独立 PI 岗位。",
+      "evidence": "Adjunct Professor; Cockrell Family Regents Endowed Chair in Engineering #3, Cockrell Family Dean's Chair for Engineering Excellence | Faculty | https://www.ece.utexas.edu/people/faculty/alan-bovik"
+    },
+    {
+      "officialId": "alex-dimakis",
+      "rosterName": "Alex Dimakis",
+      "title": "Adjunct Professor",
+      "profileUrl": "https://www.ece.utexas.edu/people/faculty/alex-dimakis",
+      "portraitUrl": "https://www.ece.utexas.edu/sites/default/files/styles/max_325x325/public/portraits/Dimakis-Alex.png?itok=iYsdC4s9",
+      "officialSections": [
+        "Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.ece.utexas.edu/people/faculty",
+      "decision": "excluded_non_pi",
+      "reason": "官方职称或名录分组属于教学、兼职、附属、科研支持或其他非独立 PI 岗位。",
+      "evidence": "Adjunct Professor | Faculty | https://www.ece.utexas.edu/people/faculty/alex-dimakis"
+    },
+    {
+      "officialId": "alex-j-hanson",
+      "rosterName": "Alex J. Hanson",
+      "title": "Associate Professor; Chevron Centennial Fellowship in Engineering No. 1",
+      "profileUrl": "https://www.ece.utexas.edu/people/faculty/alex-j-hanson",
+      "portraitUrl": "https://www.ece.utexas.edu/sites/default/files/styles/max_325x325/public/portraits/Hanson-Alex.jpg?itok=JmSWHF6d",
+      "officialSections": [
+        "Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.ece.utexas.edu/people/faculty",
+      "decision": "excluded_non_ai_cs",
+      "reason": "现有官方字段未显示 AI、NLP、CV、ML、机器人、数据智能或相关计算研究主线。",
+      "evidence": "Associate Professor; Chevron Centennial Fellowship in Engineering No. 1 | Faculty | https://www.ece.utexas.edu/people/faculty/alex-j-hanson"
+    },
+    {
+      "officialId": "alex-q-huang",
+      "rosterName": "Alex Q. Huang",
+      "title": "Professor; Dula D. Cockrell Centennial Chair in Engineering, Director, Semiconductor Power Electronics Center",
+      "profileUrl": "https://www.ece.utexas.edu/people/faculty/alex-q-huang",
+      "portraitUrl": "https://www.ece.utexas.edu/sites/default/files/styles/max_325x325/public/portraits/Huang-Alex.jpg?itok=79DnWxOk",
+      "officialSections": [
+        "Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.ece.utexas.edu/people/faculty",
+      "decision": "excluded_non_ai_cs",
+      "reason": "现有官方字段未显示 AI、NLP、CV、ML、机器人、数据智能或相关计算研究主线。",
+      "evidence": "Professor; Dula D. Cockrell Centennial Chair in Engineering, Director, Semiconductor Power Electronics Center | Faculty | https://www.ece.utexas.edu/people/faculty/alex-q-huang"
+    },
+    {
+      "officialId": "alfonso-cuevas",
+      "rosterName": "Alfonso Cuevas",
+      "title": "Associate Professor of Instruction",
+      "profileUrl": "https://www.ece.utexas.edu/people/faculty/alfonso-cuevas",
+      "portraitUrl": "https://www.ece.utexas.edu/sites/default/files/styles/max_325x325/public/portraits/Alfonso-Cuevas_0006.jpg?itok=rQspNtir",
+      "officialSections": [
+        "Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.ece.utexas.edu/people/faculty",
+      "decision": "excluded_non_ai_cs",
+      "reason": "现有官方字段未显示 AI、NLP、CV、ML、机器人、数据智能或相关计算研究主线。",
+      "evidence": "Associate Professor of Instruction | Faculty | https://www.ece.utexas.edu/people/faculty/alfonso-cuevas"
+    },
+    {
+      "officialId": "amy-zhang",
+      "rosterName": "Amy Zhang",
+      "title": "Assistant Professor; Fellow of the Jack Kilby/Texas Instruments Endowed Faculty Fellowship in Computer Engineering",
+      "profileUrl": "https://www.ece.utexas.edu/people/faculty/amy-zhang",
+      "portraitUrl": "https://www.ece.utexas.edu/sites/default/files/styles/max_325x325/public/portraits/2023_ECE_Zhang-Amy-3.jpg?itok=HqA2HSsj",
+      "officialSections": [
+        "Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.ece.utexas.edu/people/faculty",
+      "decision": "excluded_non_ai_cs",
+      "reason": "现有官方字段未显示 AI、NLP、CV、ML、机器人、数据智能或相关计算研究主线。",
+      "evidence": "Assistant Professor; Fellow of the Jack Kilby/Texas Instruments Endowed Faculty Fellowship in Computer Engineering | Faculty | https://www.ece.utexas.edu/people/faculty/amy-zhang"
+    },
+    {
+      "officialId": "ananth-dodabalapur",
+      "rosterName": "Ananth Dodabalapur",
+      "title": "Professor; Motorola Regents Chair in Electrical and Computer Engineering #1",
+      "profileUrl": "https://www.ece.utexas.edu/people/faculty/ananth-dodabalapur",
+      "portraitUrl": "https://www.ece.utexas.edu/sites/default/files/styles/max_325x325/public/portraits/Dodabalapur-Ananth.jpg?itok=fSMBY8NY",
+      "officialSections": [
+        "Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.ece.utexas.edu/people/faculty",
+      "decision": "excluded_non_ai_cs",
+      "reason": "现有官方字段未显示 AI、NLP、CV、ML、机器人、数据智能或相关计算研究主线。",
+      "evidence": "Professor; Motorola Regents Chair in Electrical and Computer Engineering #1 | Faculty | https://www.ece.utexas.edu/people/faculty/ananth-dodabalapur"
+    },
+    {
+      "officialId": "andreas-gerstlauer",
+      "rosterName": "Andreas Gerstlauer",
+      "title": "Professor; Cullen Trust for Higher Education Endowed Professorship in Engineering #6, Associate Chair for Academic Affairs",
+      "profileUrl": "https://www.ece.utexas.edu/people/faculty/andreas-gerstlauer",
+      "portraitUrl": "https://www.ece.utexas.edu/sites/default/files/styles/max_325x325/public/portraits/Gerstlauer-Andreas.png?itok=AQi111Lk",
+      "officialSections": [
+        "Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.ece.utexas.edu/people/faculty",
+      "decision": "excluded_non_ai_cs",
+      "reason": "现有官方字段未显示 AI、NLP、CV、ML、机器人、数据智能或相关计算研究主线。",
+      "evidence": "Professor; Cullen Trust for Higher Education Endowed Professorship in Engineering #6, Associate Chair for Academic Affairs | Faculty | https://www.ece.utexas.edu/people/faculty/andreas-gerstlauer"
+    },
+    {
+      "officialId": "andrew-dunn",
+      "rosterName": "Andrew Dunn",
+      "title": "Professor; Department of Biomedical Engineering",
+      "profileUrl": "https://www.ece.utexas.edu/people/faculty/andrew-dunn",
+      "portraitUrl": "https://www.ece.utexas.edu/sites/default/files/styles/max_325x325/public/portraits/Dunn-Andrew.jpg?itok=LtsahE0w",
+      "officialSections": [
+        "Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.ece.utexas.edu/people/faculty",
+      "decision": "excluded_non_ai_cs",
+      "reason": "现有官方字段未显示 AI、NLP、CV、ML、机器人、数据智能或相关计算研究主线。",
+      "evidence": "Professor; Department of Biomedical Engineering | Faculty | https://www.ece.utexas.edu/people/faculty/andrew-dunn"
+    },
+    {
+      "officialId": "archie-l-holmes-jr",
+      "rosterName": "Archie L. Holmes Jr.",
+      "title": "Professor; Executive Vice Chancellor of Academic Affairs, UT System",
+      "profileUrl": "https://www.ece.utexas.edu/people/faculty/archie-l-holmes-jr",
+      "portraitUrl": "https://www.ece.utexas.edu/sites/default/files/styles/max_325x325/public/portraits/archie_holmes.jpg?itok=8YKBvdEO",
+      "officialSections": [
+        "Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.ece.utexas.edu/people/faculty",
+      "decision": "excluded_non_pi",
+      "reason": "官方职称或名录分组属于教学、兼职、附属、科研支持或其他非独立 PI 岗位。",
+      "evidence": "Professor; Executive Vice Chancellor of Academic Affairs, UT System | Faculty | https://www.ece.utexas.edu/people/faculty/archie-l-holmes-jr"
+    },
+    {
+      "officialId": "aryan-mokhtari",
+      "rosterName": "Aryan Mokhtari",
+      "title": "Associate Professor; William W. Hagerty Fellowship in Engineering",
+      "profileUrl": "https://www.ece.utexas.edu/people/faculty/aryan-mokhtari",
+      "portraitUrl": "https://www.ece.utexas.edu/sites/default/files/styles/max_325x325/public/portraits/Mokhtari-Aryan.jpg?itok=uW4nKWBI",
+      "officialSections": [
+        "Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.ece.utexas.edu/people/faculty",
+      "decision": "excluded_non_ai_cs",
+      "reason": "现有官方字段未显示 AI、NLP、CV、ML、机器人、数据智能或相关计算研究主线。",
+      "evidence": "Associate Professor; William W. Hagerty Fellowship in Engineering | Faculty | https://www.ece.utexas.edu/people/faculty/aryan-mokhtari"
+    },
+    {
+      "officialId": "atlas-wang",
+      "rosterName": "Atlas Wang",
+      "title": "Associate Professor; Temple Foundation Endowed Faculty Fellowship #7",
+      "profileUrl": "https://www.ece.utexas.edu/people/faculty/atlas-wang",
+      "portraitUrl": "https://www.ece.utexas.edu/sites/default/files/styles/max_325x325/public/portraits/Wang-Atlas_0058.jpg?itok=dkatJ8Ij",
+      "officialSections": [
+        "Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.ece.utexas.edu/people/faculty",
+      "decision": "excluded_non_ai_cs",
+      "reason": "现有官方字段未显示 AI、NLP、CV、ML、机器人、数据智能或相关计算研究主线。",
+      "evidence": "Associate Professor; Temple Foundation Endowed Faculty Fellowship #7 | Faculty | https://www.ece.utexas.edu/people/faculty/atlas-wang"
+    },
+    {
+      "officialId": "august-shi",
+      "rosterName": "August Shi",
+      "title": "Associate Professor; Fellow of David and Kasumi Jarmon Innovation Endowment for the Department of Electrical and Computer Engineering",
+      "profileUrl": "https://www.ece.utexas.edu/people/faculty/august-shi",
+      "portraitUrl": "https://www.ece.utexas.edu/sites/default/files/styles/max_325x325/public/portraits/shi-august.png?itok=Sq2M4QWV",
+      "officialSections": [
+        "Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.ece.utexas.edu/people/faculty",
+      "decision": "excluded_non_ai_cs",
+      "reason": "现有官方字段未显示 AI、NLP、CV、ML、机器人、数据智能或相关计算研究主线。",
+      "evidence": "Associate Professor; Fellow of David and Kasumi Jarmon Innovation Endowment for the Department of Electrical and Computer Engineering | Faculty | https://www.ece.utexas.edu/people/faculty/august-shi"
+    },
+    {
+      "officialId": "brian-evans",
+      "rosterName": "Brian Evans",
+      "title": "Professor; Engineering Foundation Professorship in Engineering",
+      "profileUrl": "https://www.ece.utexas.edu/people/faculty/brian-evans",
+      "portraitUrl": "https://www.ece.utexas.edu/sites/default/files/styles/max_325x325/public/portraits/Evans-Brian.jpg?itok=2c8W0L7g",
+      "officialSections": [
+        "Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.ece.utexas.edu/people/faculty",
+      "decision": "excluded_non_ai_cs",
+      "reason": "现有官方字段未显示 AI、NLP、CV、ML、机器人、数据智能或相关计算研究主线。",
+      "evidence": "Professor; Engineering Foundation Professorship in Engineering | Faculty | https://www.ece.utexas.edu/people/faculty/brian-evans"
+    },
+    {
+      "officialId": "brian-johnson",
+      "rosterName": "Brian Johnson",
+      "title": "Associate Professor; Cockrell Family Fellowship No. 3",
+      "profileUrl": "https://www.ece.utexas.edu/people/faculty/brian-johnson",
+      "portraitUrl": "https://www.ece.utexas.edu/sites/default/files/styles/max_325x325/public/portraits/Johnson-Brian_0.jpg?itok=HUVMce6X",
+      "officialSections": [
+        "Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.ece.utexas.edu/people/faculty",
+      "decision": "excluded_non_ai_cs",
+      "reason": "现有官方字段未显示 AI、NLP、CV、ML、机器人、数据智能或相关计算研究主线。",
+      "evidence": "Associate Professor; Cockrell Family Fellowship No. 3 | Faculty | https://www.ece.utexas.edu/people/faculty/brian-johnson"
+    },
+    {
+      "officialId": "calvin-lin",
+      "rosterName": "Calvin Lin",
+      "title": "Professor; Department of Computer Science",
+      "profileUrl": "https://www.ece.utexas.edu/people/faculty/calvin-lin",
+      "portraitUrl": "https://www.ece.utexas.edu/sites/default/files/styles/max_325x325/public/portraits/Lin-Calvin.jpg?itok=1l4hk0rp",
+      "officialSections": [
+        "Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.ece.utexas.edu/people/faculty",
+      "decision": "excluded_non_ai_cs",
+      "reason": "现有官方字段未显示 AI、NLP、CV、ML、机器人、数据智能或相关计算研究主线。",
+      "evidence": "Professor; Department of Computer Science | Faculty | https://www.ece.utexas.edu/people/faculty/calvin-lin"
+    },
+    {
+      "officialId": "cheng-guo",
+      "rosterName": "Cheng Guo",
+      "title": "Assistant Professor; Fellow of Jack Kilby/Texas Instruments Endowed Faculty Fellowship in Computer Engineering",
+      "profileUrl": "https://www.ece.utexas.edu/people/faculty/cheng-guo",
+      "portraitUrl": "https://www.ece.utexas.edu/sites/default/files/styles/max_325x325/public/portraits/Guo-Cheng.jpg?itok=twjaOxg4",
+      "officialSections": [
+        "Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.ece.utexas.edu/people/faculty",
+      "decision": "excluded_non_ai_cs",
+      "reason": "现有官方字段未显示 AI、NLP、CV、ML、机器人、数据智能或相关计算研究主线。",
+      "evidence": "Assistant Professor; Fellow of Jack Kilby/Texas Instruments Endowed Faculty Fellowship in Computer Engineering | Faculty | https://www.ece.utexas.edu/people/faculty/cheng-guo"
+    },
+    {
+      "officialId": "christine-julien",
+      "rosterName": "Christine Julien",
+      "title": "Adjunct Faculty",
+      "profileUrl": "https://www.ece.utexas.edu/people/faculty/christine-julien",
+      "portraitUrl": "https://www.ece.utexas.edu/sites/default/files/styles/max_325x325/public/portraits/Julien-Christine.jpg?itok=GBqRPglx",
+      "officialSections": [
+        "Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.ece.utexas.edu/people/faculty",
+      "decision": "excluded_non_pi",
+      "reason": "官方职称或名录分组属于教学、兼职、附属、科研支持或其他非独立 PI 岗位。",
+      "evidence": "Adjunct Faculty | Faculty | https://www.ece.utexas.edu/people/faculty/christine-julien"
+    },
+    {
+      "officialId": "constantine-caramanis",
+      "rosterName": "Constantine Caramanis",
+      "title": "Professor; Chandra Family Endowed Distinguished Professorship in Electrical and Computer Engineering #1",
+      "profileUrl": "https://www.ece.utexas.edu/people/faculty/constantine-caramanis",
+      "portraitUrl": "https://www.ece.utexas.edu/sites/default/files/styles/max_325x325/public/portraits/Caramanis-Constantine.jpg?itok=9NWhS6cK",
+      "officialSections": [
+        "Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.ece.utexas.edu/people/faculty",
+      "decision": "excluded_non_ai_cs",
+      "reason": "现有官方字段未显示 AI、NLP、CV、ML、机器人、数据智能或相关计算研究主线。",
+      "evidence": "Professor; Chandra Family Endowed Distinguished Professorship in Electrical and Computer Engineering #1 | Faculty | https://www.ece.utexas.edu/people/faculty/constantine-caramanis"
+    },
+    {
+      "officialId": "daniel-wasserman",
+      "rosterName": "Daniel Wasserman",
+      "title": "Professor; Cullen Trust for Higher Education Endowed Professorship in Engineering #3",
+      "profileUrl": "https://www.ece.utexas.edu/people/faculty/daniel-wasserman",
+      "portraitUrl": "https://www.ece.utexas.edu/sites/default/files/styles/max_325x325/public/portraits/wasserman-dan.jpg?itok=-lCRO3JN",
+      "officialSections": [
+        "Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.ece.utexas.edu/people/faculty",
+      "decision": "excluded_non_ai_cs",
+      "reason": "现有官方字段未显示 AI、NLP、CV、ML、机器人、数据智能或相关计算研究主线。",
+      "evidence": "Professor; Cullen Trust for Higher Education Endowed Professorship in Engineering #3 | Faculty | https://www.ece.utexas.edu/people/faculty/daniel-wasserman"
+    },
+    {
+      "officialId": "david-burghoff",
+      "rosterName": "David Burghoff",
+      "title": "Associate Professor; Werner W. Dornberger Centennial Teaching Fellowship in Engineering",
+      "profileUrl": "https://www.ece.utexas.edu/people/faculty/david-burghoff",
+      "portraitUrl": "https://www.ece.utexas.edu/sites/default/files/styles/max_325x325/public/portraits/2023-ECE-David-Burghoff-5.jpg?itok=zAx1Qe5I",
+      "officialSections": [
+        "Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.ece.utexas.edu/people/faculty",
+      "decision": "excluded_non_pi",
+      "reason": "官方职称或名录分组属于教学、兼职、附属、科研支持或其他非独立 PI 岗位。",
+      "evidence": "Associate Professor; Werner W. Dornberger Centennial Teaching Fellowship in Engineering | Faculty | https://www.ece.utexas.edu/people/faculty/david-burghoff"
+    },
+    {
+      "officialId": "david-soloveichik",
+      "rosterName": "David Soloveichik",
+      "title": "Associate Professor; Temple Foundation Endowed Faculty Fellowship No.4",
+      "profileUrl": "https://www.ece.utexas.edu/people/faculty/david-soloveichik",
+      "portraitUrl": "https://www.ece.utexas.edu/sites/default/files/styles/max_325x325/public/portraits/Soloveichik-David.jpg?itok=A2WOT1qr",
+      "officialSections": [
+        "Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.ece.utexas.edu/people/faculty",
+      "decision": "excluded_non_ai_cs",
+      "reason": "现有官方字段未显示 AI、NLP、CV、ML、机器人、数据智能或相关计算研究主线。",
+      "evidence": "Associate Professor; Temple Foundation Endowed Faculty Fellowship No.4 | Faculty | https://www.ece.utexas.edu/people/faculty/david-soloveichik"
+    },
+    {
+      "officialId": "david-z-pan",
+      "rosterName": "David Z. Pan",
+      "title": "Professor; Silicon Laboratories Endowed Chair in Electrical Engineering",
+      "profileUrl": "https://www.ece.utexas.edu/people/faculty/david-z-pan",
+      "portraitUrl": "https://www.ece.utexas.edu/sites/default/files/styles/max_325x325/public/portraits/Pan-David.jpg?itok=TKsi_5F2",
+      "officialSections": [
+        "Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.ece.utexas.edu/people/faculty",
+      "decision": "excluded_non_ai_cs",
+      "reason": "现有官方字段未显示 AI、NLP、CV、ML、机器人、数据智能或相关计算研究主线。",
+      "evidence": "Professor; Silicon Laboratories Endowed Chair in Electrical Engineering | Faculty | https://www.ece.utexas.edu/people/faculty/david-z-pan"
+    },
+    {
+      "officialId": "deji-akinwande",
+      "rosterName": "Deji Akinwande",
+      "title": "Professor; Cockrell Family Regents Chair in Engineering #8",
+      "profileUrl": "https://www.ece.utexas.edu/people/faculty/deji-akinwande",
+      "portraitUrl": "https://www.ece.utexas.edu/sites/default/files/styles/max_325x325/public/portraits/Akinwande-Deji.png?itok=Ex9IHgk-",
+      "officialSections": [
+        "Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.ece.utexas.edu/people/faculty",
+      "decision": "excluded_non_ai_cs",
+      "reason": "现有官方字段未显示 AI、NLP、CV、ML、机器人、数据智能或相关计算研究主线。",
+      "evidence": "Professor; Cockrell Family Regents Chair in Engineering #8 | Faculty | https://www.ece.utexas.edu/people/faculty/deji-akinwande"
+    },
+    {
+      "officialId": "diana-marculescu",
+      "rosterName": "Diana Marculescu",
+      "title": "Professor; Motorola Regents Chair in Electrical and Computer Engineering #2, Cockrell Family Chair for Departmental Leadership #5",
+      "profileUrl": "https://www.ece.utexas.edu/people/faculty/diana-marculescu",
+      "portraitUrl": "https://www.ece.utexas.edu/sites/default/files/styles/max_325x325/public/portraits/Marculescu-Diana.png?itok=QSfwxo2l",
+      "officialSections": [
+        "Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.ece.utexas.edu/people/faculty",
+      "decision": "excluded_non_ai_cs",
+      "reason": "现有官方字段未显示 AI、NLP、CV、ML、机器人、数据智能或相关计算研究主线。",
+      "evidence": "Professor; Motorola Regents Chair in Electrical and Computer Engineering #2, Cockrell Family Chair for Departmental Leadership #5 | Faculty | https://www.ece.utexas.edu/people/faculty/diana-marculescu"
+    },
+    {
+      "officialId": "don-fussell",
+      "rosterName": "Don Fussell",
+      "title": "Professor; Department of Computer Science",
+      "profileUrl": "https://www.ece.utexas.edu/people/faculty/don-fussell",
+      "portraitUrl": "https://www.ece.utexas.edu/sites/default/files/styles/max_325x325/public/portraits/Fussell-Don.jpg?itok=hAmfqLA4",
+      "officialSections": [
+        "Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.ece.utexas.edu/people/faculty",
+      "decision": "excluded_non_ai_cs",
+      "reason": "现有官方字段未显示 AI、NLP、CV、ML、机器人、数据智能或相关计算研究主线。",
+      "evidence": "Professor; Department of Computer Science | Faculty | https://www.ece.utexas.edu/people/faculty/don-fussell"
+    },
+    {
+      "officialId": "donglei-emma-fan",
+      "rosterName": "Donglei \"Emma\" Fan",
+      "title": "Professor; Department of Mechanical Engineering",
+      "profileUrl": "https://www.ece.utexas.edu/people/faculty/donglei-emma-fan",
+      "portraitUrl": "https://www.ece.utexas.edu/sites/default/files/styles/max_325x325/public/portraits/emma-fan.png?itok=I4v5rvgs",
+      "officialSections": [
+        "Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.ece.utexas.edu/people/faculty",
+      "decision": "excluded_non_ai_cs",
+      "reason": "现有官方字段未显示 AI、NLP、CV、ML、机器人、数据智能或相关计算研究主线。",
+      "evidence": "Professor; Department of Mechanical Engineering | Faculty | https://www.ece.utexas.edu/people/faculty/donglei-emma-fan"
+    },
+    {
+      "officialId": "earl-swartzlander",
+      "rosterName": "Earl Swartzlander",
+      "title": "Professor",
+      "profileUrl": "https://www.ece.utexas.edu/people/faculty/earl-swartzlander",
+      "portraitUrl": "https://www.ece.utexas.edu/sites/default/files/styles/max_325x325/public/portraits/Swartzlander-Earl.jpg?itok=pJ2e0UEm",
+      "officialSections": [
+        "Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.ece.utexas.edu/people/faculty",
+      "decision": "excluded_non_ai_cs",
+      "reason": "现有官方字段未显示 AI、NLP、CV、ML、机器人、数据智能或相关计算研究主线。",
+      "evidence": "Professor | Faculty | https://www.ece.utexas.edu/people/faculty/earl-swartzlander"
+    },
+    {
+      "officialId": "edison-thomaz",
+      "rosterName": "Edison Thomaz",
+      "title": "Associate Professor; William H. Hartwig Fellowship in Electrical Engineering",
+      "profileUrl": "https://www.ece.utexas.edu/people/faculty/edison-thomaz",
+      "portraitUrl": "https://www.ece.utexas.edu/sites/default/files/styles/max_325x325/public/portraits/Thomaz-Edison.jpg?itok=LEh0P8Ui",
+      "officialSections": [
+        "Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.ece.utexas.edu/people/faculty",
+      "decision": "excluded_non_ai_cs",
+      "reason": "现有官方字段未显示 AI、NLP、CV、ML、机器人、数据智能或相关计算研究主线。",
+      "evidence": "Associate Professor; William H. Hartwig Fellowship in Electrical Engineering | Faculty | https://www.ece.utexas.edu/people/faculty/edison-thomaz"
+    },
+    {
+      "officialId": "edward-yu",
+      "rosterName": "Edward Yu",
+      "title": "Professor; Cockrell Family Regents Chair in Engineering No. 3",
+      "profileUrl": "https://www.ece.utexas.edu/people/faculty/edward-yu",
+      "portraitUrl": "https://www.ece.utexas.edu/sites/default/files/styles/max_325x325/public/portraits/Yu-Ed.jpg?itok=cTc1ZBaw",
+      "officialSections": [
+        "Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.ece.utexas.edu/people/faculty",
+      "decision": "excluded_non_ai_cs",
+      "reason": "现有官方字段未显示 AI、NLP、CV、ML、机器人、数据智能或相关计算研究主线。",
+      "evidence": "Professor; Cockrell Family Regents Chair in Engineering No. 3 | Faculty | https://www.ece.utexas.edu/people/faculty/edward-yu"
+    },
+    {
+      "officialId": "emanuel-tutuc",
+      "rosterName": "Emanuel Tutuc",
+      "title": "Professor; B. N. Gafford Professorship in Electrical Engineering",
+      "profileUrl": "https://www.ece.utexas.edu/people/faculty/emanuel-tutuc",
+      "portraitUrl": "https://www.ece.utexas.edu/sites/default/files/styles/max_325x325/public/portraits/Tutuc-Emanuel_0.jpg?itok=IVfzETC_",
+      "officialSections": [
+        "Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.ece.utexas.edu/people/faculty",
+      "decision": "excluded_non_ai_cs",
+      "reason": "现有官方字段未显示 AI、NLP、CV、ML、机器人、数据智能或相关计算研究主线。",
+      "evidence": "Professor; B. N. Gafford Professorship in Electrical Engineering | Faculty | https://www.ece.utexas.edu/people/faculty/emanuel-tutuc"
+    },
+    {
+      "officialId": "emanuele-galiffi",
+      "rosterName": "Emanuele Galiffi",
+      "title": "Assistant Professor; Fellow of Silicon Laboratories Endowed Chair in Electrical Engineering",
+      "profileUrl": "https://www.ece.utexas.edu/people/faculty/emanuele-galiffi",
+      "portraitUrl": "https://www.ece.utexas.edu/sites/default/files/styles/max_325x325/public/portraits/Galiffi-Emanuele-web.jpg?itok=8X6ccdtC",
+      "officialSections": [
+        "Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.ece.utexas.edu/people/faculty",
+      "decision": "excluded_non_ai_cs",
+      "reason": "现有官方字段未显示 AI、NLP、CV、ML、机器人、数据智能或相关计算研究主线。",
+      "evidence": "Assistant Professor; Fellow of Silicon Laboratories Endowed Chair in Electrical Engineering | Faculty | https://www.ece.utexas.edu/people/faculty/emanuele-galiffi"
+    },
+    {
+      "officialId": "evan-speight",
+      "rosterName": "Evan Speight",
+      "title": "Professor of Practice",
+      "profileUrl": "https://www.ece.utexas.edu/people/faculty/evan-speight",
+      "portraitUrl": "https://www.ece.utexas.edu/sites/default/files/styles/max_325x325/public/portraits/Speight-Evan.png?itok=p-5a5h55",
+      "officialSections": [
+        "Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.ece.utexas.edu/people/faculty",
+      "decision": "excluded_non_pi",
+      "reason": "官方职称或名录分组属于教学、兼职、附属、科研支持或其他非独立 PI 岗位。",
+      "evidence": "Professor of Practice | Faculty | https://www.ece.utexas.edu/people/faculty/evan-speight"
+    },
+    {
+      "officialId": "guandao-yang",
+      "rosterName": "Guandao Yang",
+      "title": "Assistant Professor; Fellow of the Advanced Micro Devices (AMD) Chair in Computer Engineering",
+      "profileUrl": "https://www.ece.utexas.edu/people/faculty/guandao-yang",
+      "portraitUrl": "https://www.ece.utexas.edu/sites/default/files/styles/max_325x325/public/portraits/Yang-Guandao-Web.png?itok=eEv_5fh2",
+      "officialSections": [
+        "Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.ece.utexas.edu/people/faculty",
+      "decision": "excluded_non_ai_cs",
+      "reason": "现有官方字段未显示 AI、NLP、CV、ML、机器人、数据智能或相关计算研究主线。",
+      "evidence": "Assistant Professor; Fellow of the Advanced Micro Devices (AMD) Chair in Computer Engineering | Faculty | https://www.ece.utexas.edu/people/faculty/guandao-yang"
+    },
+    {
+      "officialId": "gustavo-de-veciana",
+      "rosterName": "Gustavo de Veciana",
+      "title": "Professor; Cockrell Family Chair in Engineering # 18, Associate Chair for Faculty Affairs",
+      "profileUrl": "https://www.ece.utexas.edu/people/faculty/gustavo-de-veciana",
+      "portraitUrl": "https://www.ece.utexas.edu/sites/default/files/styles/max_325x325/public/portraits/De-Veciana-Gustavo.jpg?itok=eHCXeHtH",
+      "officialSections": [
+        "Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.ece.utexas.edu/people/faculty",
+      "decision": "excluded_non_ai_cs",
+      "reason": "现有官方字段未显示 AI、NLP、CV、ML、机器人、数据智能或相关计算研究主线。",
+      "evidence": "Professor; Cockrell Family Chair in Engineering # 18, Associate Chair for Faculty Affairs | Faculty | https://www.ece.utexas.edu/people/faculty/gustavo-de-veciana"
+    },
+    {
+      "officialId": "haley-eazor",
+      "rosterName": "Haley Eazor",
+      "title": "Assistant Professor of Instruction",
+      "profileUrl": "https://www.ece.utexas.edu/people/faculty/haley-eazor",
+      "portraitUrl": "https://www.ece.utexas.edu/sites/default/files/styles/max_325x325/public/default_images/grey-box-silhouette_0.jpg?itok=4Yo5bIJ_",
+      "officialSections": [
+        "Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.ece.utexas.edu/people/faculty",
+      "decision": "excluded_non_ai_cs",
+      "reason": "现有官方字段未显示 AI、NLP、CV、ML、机器人、数据智能或相关计算研究主线。",
+      "evidence": "Assistant Professor of Instruction | Faculty | https://www.ece.utexas.edu/people/faculty/haley-eazor"
+    },
+    {
+      "officialId": "hao-zhu",
+      "rosterName": "Hao Zhu",
+      "title": "Associate Professor; Texas Atomic Energy Research Foundation Centennial Fellowship in Electrical Engineering",
+      "profileUrl": "https://www.ece.utexas.edu/people/faculty/hao-zhu",
+      "portraitUrl": "https://www.ece.utexas.edu/sites/default/files/styles/max_325x325/public/portraits/Zhu-Hao.jpg?itok=vH4SsuMd",
+      "officialSections": [
+        "Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.ece.utexas.edu/people/faculty",
+      "decision": "excluded_non_ai_cs",
+      "reason": "现有官方字段未显示 AI、NLP、CV、ML、机器人、数据智能或相关计算研究主线。",
+      "evidence": "Associate Professor; Texas Atomic Energy Research Foundation Centennial Fellowship in Electrical Engineering | Faculty | https://www.ece.utexas.edu/people/faculty/hao-zhu"
+    },
+    {
+      "officialId": "haris-vikalo",
+      "rosterName": "Haris Vikalo",
+      "title": "Professor; Temple Foundation Endowed Professorship No. 3",
+      "profileUrl": "https://www.ece.utexas.edu/people/faculty/haris-vikalo",
+      "portraitUrl": "https://www.ece.utexas.edu/sites/default/files/styles/max_325x325/public/default_images/grey-box-silhouette_0.jpg?itok=4Yo5bIJ_",
+      "officialSections": [
+        "Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.ece.utexas.edu/people/faculty",
+      "decision": "excluded_non_ai_cs",
+      "reason": "现有官方字段未显示 AI、NLP、CV、ML、机器人、数据智能或相关计算研究主线。",
+      "evidence": "Professor; Temple Foundation Endowed Professorship No. 3 | Faculty | https://www.ece.utexas.edu/people/faculty/haris-vikalo"
+    },
+    {
+      "officialId": "hyeji-kim",
+      "rosterName": "Hyeji Kim",
+      "title": "Associate Professor; Fluor Centennial Teaching Fellowship in Engineering # 2",
+      "profileUrl": "https://www.ece.utexas.edu/people/faculty/hyeji-kim",
+      "portraitUrl": "https://www.ece.utexas.edu/sites/default/files/styles/max_325x325/public/portraits/Kim-Hyeji-Web.png?itok=U4Gz9Rkz",
+      "officialSections": [
+        "Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.ece.utexas.edu/people/faculty",
+      "decision": "excluded_non_pi",
+      "reason": "官方职称或名录分组属于教学、兼职、附属、科研支持或其他非独立 PI 岗位。",
+      "evidence": "Associate Professor; Fluor Centennial Teaching Fellowship in Engineering # 2 | Faculty | https://www.ece.utexas.edu/people/faculty/hyeji-kim"
+    },
+    {
+      "officialId": "inderjit-dhillon",
+      "rosterName": "Inderjit Dhillon",
+      "title": "Professor; Department of Computer Science",
+      "profileUrl": "https://www.ece.utexas.edu/people/faculty/inderjit-dhillon",
+      "portraitUrl": "https://www.ece.utexas.edu/sites/default/files/styles/max_325x325/public/portraits/Dhillon-Inderjit.jpg?itok=3jtJjYrv",
+      "officialSections": [
+        "Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.ece.utexas.edu/people/faculty",
+      "decision": "excluded_non_ai_cs",
+      "reason": "现有官方字段未显示 AI、NLP、CV、ML、机器人、数据智能或相关计算研究主线。",
+      "evidence": "Professor; Department of Computer Science | Faculty | https://www.ece.utexas.edu/people/faculty/inderjit-dhillon"
+    },
+    {
+      "officialId": "james-tunnell",
+      "rosterName": "James Tunnell",
+      "title": "Associate Professor; Department of Biomedical Engineering",
+      "profileUrl": "https://www.ece.utexas.edu/people/faculty/james-tunnell",
+      "portraitUrl": "https://www.ece.utexas.edu/sites/default/files/styles/max_325x325/public/portraits/Tunnell-James.jpg?itok=KlTO0RJE",
+      "officialSections": [
+        "Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.ece.utexas.edu/people/faculty",
+      "decision": "excluded_non_ai_cs",
+      "reason": "现有官方字段未显示 AI、NLP、CV、ML、机器人、数据智能或相关计算研究主线。",
+      "evidence": "Associate Professor; Department of Biomedical Engineering | Faculty | https://www.ece.utexas.edu/people/faculty/james-tunnell"
+    },
+    {
+      "officialId": "javad-mohammadi",
+      "rosterName": "Javad Mohammadi",
+      "title": "Assistant Professor; Maseeh Department of Civil, Architectural, and Environmental Engineering",
+      "profileUrl": "https://www.ece.utexas.edu/people/faculty/javad-mohammadi",
+      "portraitUrl": "https://www.ece.utexas.edu/sites/default/files/styles/max_325x325/public/portraits/javad_mohammadi2.png?itok=VI2fnHQ4",
+      "officialSections": [
+        "Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.ece.utexas.edu/people/faculty",
+      "decision": "excluded_non_ai_cs",
+      "reason": "现有官方字段未显示 AI、NLP、CV、ML、机器人、数据智能或相关计算研究主线。",
+      "evidence": "Assistant Professor; Maseeh Department of Civil, Architectural, and Environmental Engineering | Faculty | https://www.ece.utexas.edu/people/faculty/javad-mohammadi"
+    },
+    {
+      "officialId": "jaydeep-kulkarni",
+      "rosterName": "Jaydeep Kulkarni",
+      "title": "Associate Professor; Fellow of Silicon Laboratories Endowed Chair in Electrical Engineering",
+      "profileUrl": "https://www.ece.utexas.edu/people/faculty/jaydeep-kulkarni",
+      "portraitUrl": "https://www.ece.utexas.edu/sites/default/files/styles/max_325x325/public/portraits/Kulkarni-Jaydeep.jpg?itok=FKpi3-O6",
+      "officialSections": [
+        "Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.ece.utexas.edu/people/faculty",
+      "decision": "excluded_non_ai_cs",
+      "reason": "现有官方字段未显示 AI、NLP、CV、ML、机器人、数据智能或相关计算研究主线。",
+      "evidence": "Associate Professor; Fellow of Silicon Laboratories Endowed Chair in Electrical Engineering | Faculty | https://www.ece.utexas.edu/people/faculty/jaydeep-kulkarni"
+    },
+    {
+      "officialId": "jean-anne-incorvia",
+      "rosterName": "Jean Anne Incorvia",
+      "title": "Associate Professor; Engineering Foundation Endowed Faculty Fellowship in Engineering",
+      "profileUrl": "https://www.ece.utexas.edu/people/faculty/jean-anne-incorvia",
+      "portraitUrl": "https://www.ece.utexas.edu/sites/default/files/styles/max_325x325/public/portraits/Incorvia-ECE_4515.jpg?itok=REp3Hqcu",
+      "officialSections": [
+        "Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.ece.utexas.edu/people/faculty",
+      "decision": "excluded_non_ai_cs",
+      "reason": "现有官方字段未显示 AI、NLP、CV、ML、机器人、数据智能或相关计算研究主线。",
+      "evidence": "Associate Professor; Engineering Foundation Endowed Faculty Fellowship in Engineering | Faculty | https://www.ece.utexas.edu/people/faculty/jean-anne-incorvia"
+    },
+    {
+      "officialId": "jeffrey-andrews",
+      "rosterName": "Jeffrey Andrews",
+      "title": "Professor; Truchard Family Chair in Engineering",
+      "profileUrl": "https://www.ece.utexas.edu/people/faculty/jeffrey-andrews",
+      "portraitUrl": "https://www.ece.utexas.edu/sites/default/files/styles/max_325x325/public/portraits/Andrews-Jeffrey.jpg?itok=A5kuXDSO",
+      "officialSections": [
+        "Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.ece.utexas.edu/people/faculty",
+      "decision": "excluded_non_ai_cs",
+      "reason": "现有官方字段未显示 AI、NLP、CV、ML、机器人、数据智能或相关计算研究主线。",
+      "evidence": "Professor; Truchard Family Chair in Engineering | Faculty | https://www.ece.utexas.edu/people/faculty/jeffrey-andrews"
+    },
+    {
+      "officialId": "jon-tamir",
+      "rosterName": "Jon Tamir",
+      "title": "Associate Professor; William J. Murray, Jr. Fellowship in Engineering No. 4",
+      "profileUrl": "https://www.ece.utexas.edu/people/faculty/jon-tamir",
+      "portraitUrl": "https://www.ece.utexas.edu/sites/default/files/styles/max_325x325/public/portraits/Tamir-Jon.png?itok=3HQuEEfM",
+      "officialSections": [
+        "Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.ece.utexas.edu/people/faculty",
+      "decision": "excluded_non_ai_cs",
+      "reason": "现有官方字段未显示 AI、NLP、CV、ML、机器人、数据智能或相关计算研究主线。",
+      "evidence": "Associate Professor; William J. Murray, Jr. Fellowship in Engineering No. 4 | Faculty | https://www.ece.utexas.edu/people/faculty/jon-tamir"
+    },
+    {
+      "officialId": "jonathan-baker",
+      "rosterName": "Jonathan Baker",
+      "title": "Assistant Professor; Fellow of the Advanced Micro Devices Chair in Computer Engineering",
+      "profileUrl": "https://www.ece.utexas.edu/people/faculty/jonathan-baker",
+      "portraitUrl": "https://www.ece.utexas.edu/sites/default/files/styles/max_325x325/public/portraits/2023-ECE-Baker-Jonathan.jpg?itok=qgft4dFS",
+      "officialSections": [
+        "Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.ece.utexas.edu/people/faculty",
+      "decision": "excluded_non_ai_cs",
+      "reason": "现有官方字段未显示 AI、NLP、CV、ML、机器人、数据智能或相关计算研究主线。",
+      "evidence": "Assistant Professor; Fellow of the Advanced Micro Devices Chair in Computer Engineering | Faculty | https://www.ece.utexas.edu/people/faculty/jonathan-baker"
+    },
+    {
+      "officialId": "jonathan-valvano",
+      "rosterName": "Jonathan Valvano",
+      "title": "Professor; Engineering Foundation Centennial Teaching Fellow in Electrical Engineering #1",
+      "profileUrl": "https://www.ece.utexas.edu/people/faculty/jonathan-valvano",
+      "portraitUrl": "https://www.ece.utexas.edu/sites/default/files/styles/max_325x325/public/portraits/Valvano-Jon.jpg?itok=t-vyxG4T",
+      "officialSections": [
+        "Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.ece.utexas.edu/people/faculty",
+      "decision": "excluded_non_pi",
+      "reason": "官方职称或名录分组属于教学、兼职、附属、科研支持或其他非独立 PI 岗位。",
+      "evidence": "Professor; Engineering Foundation Centennial Teaching Fellow in Electrical Engineering #1 | Faculty | https://www.ece.utexas.edu/people/faculty/jonathan-valvano"
+    },
+    {
+      "officialId": "jose-del-r-millan",
+      "rosterName": "José del R. Millán",
+      "title": "Professor; Linda Steen Norris & Lee Norris Endowed Chair in Neuroengineering",
+      "profileUrl": "https://www.ece.utexas.edu/people/faculty/jose-del-r-millan",
+      "portraitUrl": "https://www.ece.utexas.edu/sites/default/files/styles/max_325x325/public/portraits/Millan-Jose.jpg?itok=qUgog4Rj",
+      "officialSections": [
+        "Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.ece.utexas.edu/people/faculty",
+      "decision": "excluded_non_ai_cs",
+      "reason": "现有官方字段未显示 AI、NLP、CV、ML、机器人、数据智能或相关计算研究主线。",
+      "evidence": "Professor; Linda Steen Norris & Lee Norris Endowed Chair in Neuroengineering | Faculty | https://www.ece.utexas.edu/people/faculty/jose-del-r-millan"
+    },
+    {
+      "officialId": "joydeep-ghosh",
+      "rosterName": "Joydeep Ghosh",
+      "title": "Professor; Schlumberger Centennial Chair in Electrical Engineering",
+      "profileUrl": "https://www.ece.utexas.edu/people/faculty/joydeep-ghosh",
+      "portraitUrl": "https://www.ece.utexas.edu/sites/default/files/styles/max_325x325/public/portraits/Ghosh-Joydeep-USE-WEB.jpg?itok=4ZBUC3Te",
+      "officialSections": [
+        "Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.ece.utexas.edu/people/faculty",
+      "decision": "excluded_non_ai_cs",
+      "reason": "现有官方字段未显示 AI、NLP、CV、ML、机器人、数据智能或相关计算研究主线。",
+      "evidence": "Professor; Schlumberger Centennial Chair in Electrical Engineering | Faculty | https://www.ece.utexas.edu/people/faculty/joydeep-ghosh"
+    },
+    {
+      "officialId": "jun-wang",
+      "rosterName": "Jun Wang",
+      "title": "Associate Professor; Department of Speech, Language, and Hearing Sciences",
+      "profileUrl": "https://www.ece.utexas.edu/people/faculty/jun-wang",
+      "portraitUrl": "https://www.ece.utexas.edu/sites/default/files/styles/max_325x325/public/portraits/Wang%2C%20Jun_ECE2.jpg?itok=aVsuiArw",
+      "officialSections": [
+        "Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.ece.utexas.edu/people/faculty",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Associate Professor; Department of Speech, Language, and Hearing Sciences | Faculty | https://www.ece.utexas.edu/people/faculty/jun-wang",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "kaushik-chowdhury",
+      "rosterName": "Kaushik Chowdhury",
+      "title": "Professor; Ernest Cockrell, Jr. Memorial Chair in Engineering",
+      "profileUrl": "https://www.ece.utexas.edu/people/faculty/kaushik-chowdhury",
+      "portraitUrl": "https://www.ece.utexas.edu/sites/default/files/styles/max_325x325/public/portraits/Chowdhury-Kaushik-Web.jpg?itok=YQl4Bl86",
+      "officialSections": [
+        "Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.ece.utexas.edu/people/faculty",
+      "decision": "excluded_non_ai_cs",
+      "reason": "现有官方字段未显示 AI、NLP、CV、ML、机器人、数据智能或相关计算研究主线。",
+      "evidence": "Professor; Ernest Cockrell, Jr. Memorial Chair in Engineering | Faculty | https://www.ece.utexas.edu/people/faculty/kaushik-chowdhury"
+    },
+    {
+      "officialId": "keshav-pingali",
+      "rosterName": "Keshav Pingali",
+      "title": "Professor; Department of Computer Science",
+      "profileUrl": "https://www.ece.utexas.edu/people/faculty/keshav-pingali",
+      "portraitUrl": "https://www.ece.utexas.edu/sites/default/files/styles/max_325x325/public/portraits/Pingali-Keshav.jpg?itok=m_3Z0ZYr",
+      "officialSections": [
+        "Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.ece.utexas.edu/people/faculty",
+      "decision": "excluded_non_ai_cs",
+      "reason": "现有官方字段未显示 AI、NLP、CV、ML、机器人、数据智能或相关计算研究主线。",
+      "evidence": "Professor; Department of Computer Science | Faculty | https://www.ece.utexas.edu/people/faculty/keshav-pingali"
+    },
+    {
+      "officialId": "kristen-grauman",
+      "rosterName": "Kristen Grauman",
+      "title": "Professor; Department of Computer Science",
+      "profileUrl": "https://www.ece.utexas.edu/people/faculty/kristen-grauman",
+      "portraitUrl": "https://www.ece.utexas.edu/sites/default/files/styles/max_325x325/public/portraits/Grauman-Kristen.jpg?itok=j2SI_mk1",
+      "officialSections": [
+        "Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.ece.utexas.edu/people/faculty",
+      "decision": "excluded_non_ai_cs",
+      "reason": "现有官方字段未显示 AI、NLP、CV、ML、机器人、数据智能或相关计算研究主线。",
+      "evidence": "Professor; Department of Computer Science | Faculty | https://www.ece.utexas.edu/people/faculty/kristen-grauman"
+    },
+    {
+      "officialId": "kun-woo-cho",
+      "rosterName": "Kun Woo Cho",
+      "title": "Assistant Professor; Fellow of the Jack Kilby/Texas Instruments Endowed Faculty Fellowship in Computer Engineering",
+      "profileUrl": "https://www.ece.utexas.edu/people/faculty/kun-woo-cho",
+      "portraitUrl": "https://www.ece.utexas.edu/sites/default/files/styles/max_325x325/public/portraits/Cho-Kun-Woo_0035.png?itok=hYP_hmTB",
+      "officialSections": [
+        "Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.ece.utexas.edu/people/faculty",
+      "decision": "excluded_non_ai_cs",
+      "reason": "现有官方字段未显示 AI、NLP、CV、ML、机器人、数据智能或相关计算研究主线。",
+      "evidence": "Assistant Professor; Fellow of the Jack Kilby/Texas Instruments Endowed Faculty Fellowship in Computer Engineering | Faculty | https://www.ece.utexas.edu/people/faculty/kun-woo-cho"
+    },
+    {
+      "officialId": "leonard-frank-register",
+      "rosterName": "Leonard Frank Register",
+      "title": "Professor; Cockrell Family Dean's Chair for in Engineering Excellence",
+      "profileUrl": "https://www.ece.utexas.edu/people/faculty/leonard-frank-register",
+      "portraitUrl": "https://www.ece.utexas.edu/sites/default/files/styles/max_325x325/public/portraits/Register-Frank.jpg?itok=3WSAYJqm",
+      "officialSections": [
+        "Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.ece.utexas.edu/people/faculty",
+      "decision": "excluded_non_ai_cs",
+      "reason": "现有官方字段未显示 AI、NLP、CV、ML、机器人、数据智能或相关计算研究主线。",
+      "evidence": "Professor; Cockrell Family Dean's Chair for in Engineering Excellence | Faculty | https://www.ece.utexas.edu/people/faculty/leonard-frank-register"
+    },
+    {
+      "officialId": "lili-qiu",
+      "rosterName": "Lili Qiu",
+      "title": "Professor; Department of Computer Science",
+      "profileUrl": "https://www.ece.utexas.edu/people/faculty/lili-qiu",
+      "portraitUrl": "https://www.ece.utexas.edu/sites/default/files/styles/max_325x325/public/portraits/Qiu-Lili.jpg?itok=gF9fuBVu",
+      "officialSections": [
+        "Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.ece.utexas.edu/people/faculty",
+      "decision": "excluded_non_ai_cs",
+      "reason": "现有官方字段未显示 AI、NLP、CV、ML、机器人、数据智能或相关计算研究主线。",
+      "evidence": "Professor; Department of Computer Science | Faculty | https://www.ece.utexas.edu/people/faculty/lili-qiu"
+    },
+    {
+      "officialId": "lillian-chin",
+      "rosterName": "Lillian Chin",
+      "title": "Assistant Professor; Fellow of the Jack Kilby/Texas Instruments Endowed Faculty Fellowship in Computer Engineering",
+      "profileUrl": "https://www.ece.utexas.edu/people/faculty/lillian-chin",
+      "portraitUrl": "https://www.ece.utexas.edu/sites/default/files/styles/max_325x325/public/portraits/Chin-Lillian-Web.jpg?itok=VIBL6z5t",
+      "officialSections": [
+        "Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.ece.utexas.edu/people/faculty",
+      "decision": "excluded_non_ai_cs",
+      "reason": "现有官方字段未显示 AI、NLP、CV、ML、机器人、数据智能或相关计算研究主线。",
+      "evidence": "Assistant Professor; Fellow of the Jack Kilby/Texas Instruments Endowed Faculty Fellowship in Computer Engineering | Faculty | https://www.ece.utexas.edu/people/faculty/lillian-chin"
+    },
+    {
+      "officialId": "linran-fan",
+      "rosterName": "Linran Fan",
+      "title": "Associate Professor; General Motors Foundation Centennial Teaching Fellowship in Electrical Engineering",
+      "profileUrl": "https://www.ece.utexas.edu/people/faculty/linran-fan",
+      "portraitUrl": "https://www.ece.utexas.edu/sites/default/files/styles/max_325x325/public/portraits/Fan-Linran-Web.png?itok=v4gBaRaK",
+      "officialSections": [
+        "Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.ece.utexas.edu/people/faculty",
+      "decision": "excluded_non_pi",
+      "reason": "官方职称或名录分组属于教学、兼职、附属、科研支持或其他非独立 PI 岗位。",
+      "evidence": "Associate Professor; General Motors Foundation Centennial Teaching Fellowship in Electrical Engineering | Faculty | https://www.ece.utexas.edu/people/faculty/linran-fan"
+    },
+    {
+      "officialId": "lizy-john",
+      "rosterName": "Lizy John",
+      "title": "Professor; Truchard Foundation Chair in Engineering",
+      "profileUrl": "https://www.ece.utexas.edu/people/faculty/lizy-john",
+      "portraitUrl": "https://www.ece.utexas.edu/sites/default/files/styles/max_325x325/public/portraits/John-Lizy.jpg?itok=RiifbQFu",
+      "officialSections": [
+        "Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.ece.utexas.edu/people/faculty",
+      "decision": "excluded_non_ai_cs",
+      "reason": "现有官方字段未显示 AI、NLP、CV、ML、机器人、数据智能或相关计算研究主线。",
+      "evidence": "Professor; Truchard Foundation Chair in Engineering | Faculty | https://www.ece.utexas.edu/people/faculty/lizy-john"
+    },
+    {
+      "officialId": "mark-f-hamilton",
+      "rosterName": "Mark F Hamilton",
+      "title": "Professor; Department of Mechanical Engineering",
+      "profileUrl": "https://www.ece.utexas.edu/people/faculty/mark-f-hamilton",
+      "portraitUrl": "https://www.ece.utexas.edu/sites/default/files/styles/max_325x325/public/portraits/mark-hamilton-2.png?itok=kcfBK04S",
+      "officialSections": [
+        "Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.ece.utexas.edu/people/faculty",
+      "decision": "excluded_non_ai_cs",
+      "reason": "现有官方字段未显示 AI、NLP、CV、ML、机器人、数据智能或相关计算研究主线。",
+      "evidence": "Professor; Department of Mechanical Engineering | Faculty | https://www.ece.utexas.edu/people/faculty/mark-f-hamilton"
+    },
+    {
+      "officialId": "mark-mcdermott",
+      "rosterName": "Mark McDermott",
+      "title": "Professor of Practice Emeritus; Entrepreneur in Residence",
+      "profileUrl": "https://www.ece.utexas.edu/people/faculty/mark-mcdermott",
+      "portraitUrl": "https://www.ece.utexas.edu/sites/default/files/styles/max_325x325/public/portraits/McDermott-Mark.jpg?itok=ZgO2PcyB",
+      "officialSections": [
+        "Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.ece.utexas.edu/people/faculty",
+      "decision": "excluded_historical",
+      "reason": "官方职称或名录分组明确为荣休、退休或历史人员。",
+      "evidence": "Professor of Practice Emeritus; Entrepreneur in Residence | Faculty | https://www.ece.utexas.edu/people/faculty/mark-mcdermott"
+    },
+    {
+      "officialId": "mattan-erez",
+      "rosterName": "Mattan Erez",
+      "title": "Professor; Cullen Trust for Higher Education Endowed Professorship in Engineering # 7",
+      "profileUrl": "https://www.ece.utexas.edu/people/faculty/mattan-erez",
+      "portraitUrl": "https://www.ece.utexas.edu/sites/default/files/styles/max_325x325/public/portraits/Erez-Mattan.png?itok=OhuDuwS9",
+      "officialSections": [
+        "Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.ece.utexas.edu/people/faculty",
+      "decision": "excluded_non_ai_cs",
+      "reason": "现有官方字段未显示 AI、NLP、CV、ML、机器人、数据智能或相关计算研究主线。",
+      "evidence": "Professor; Cullen Trust for Higher Education Endowed Professorship in Engineering # 7 | Faculty | https://www.ece.utexas.edu/people/faculty/mattan-erez"
+    },
+    {
+      "officialId": "michael-cullinan",
+      "rosterName": "Michael Cullinan",
+      "title": "Associate Professor; Department of Mechanical Engineering",
+      "profileUrl": "https://www.ece.utexas.edu/people/faculty/michael-cullinan",
+      "portraitUrl": "https://www.ece.utexas.edu/sites/default/files/styles/max_325x325/public/portraits/Cullinan-Michael.jpg?itok=a_HQceuI",
+      "officialSections": [
+        "Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.ece.utexas.edu/people/faculty",
+      "decision": "excluded_non_ai_cs",
+      "reason": "现有官方字段未显示 AI、NLP、CV、ML、机器人、数据智能或相关计算研究主线。",
+      "evidence": "Associate Professor; Department of Mechanical Engineering | Faculty | https://www.ece.utexas.edu/people/faculty/michael-cullinan"
+    },
+    {
+      "officialId": "michael-orshansky",
+      "rosterName": "Michael Orshansky",
+      "title": "Professor; John E. Kasch Endowed Faculty Fellowship in Engineering",
+      "profileUrl": "https://www.ece.utexas.edu/people/faculty/michael-orshansky",
+      "portraitUrl": "https://www.ece.utexas.edu/sites/default/files/styles/max_325x325/public/portraits/Orshansky-Michael.jpg?itok=DSO0vnjQ",
+      "officialSections": [
+        "Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.ece.utexas.edu/people/faculty",
+      "decision": "excluded_non_ai_cs",
+      "reason": "现有官方字段未显示 AI、NLP、CV、ML、机器人、数据智能或相关计算研究主线。",
+      "evidence": "Professor; John E. Kasch Endowed Faculty Fellowship in Engineering | Faculty | https://www.ece.utexas.edu/people/faculty/michael-orshansky"
+    },
+    {
+      "officialId": "milos-gligoric",
+      "rosterName": "Milos Gligoric",
+      "title": "Associate Professor; Archie W. Straiton Endowed Faculty Fellowship in Engineering",
+      "profileUrl": "https://www.ece.utexas.edu/people/faculty/milos-gligoric",
+      "portraitUrl": "https://www.ece.utexas.edu/sites/default/files/styles/max_325x325/public/portraits/Gligoric-Milos.png?itok=s2lBigji",
+      "officialSections": [
+        "Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.ece.utexas.edu/people/faculty",
+      "decision": "excluded_non_ai_cs",
+      "reason": "现有官方字段未显示 AI、NLP、CV、ML、机器人、数据智能或相关计算研究主线。",
+      "evidence": "Associate Professor; Archie W. Straiton Endowed Faculty Fellowship in Engineering | Faculty | https://www.ece.utexas.edu/people/faculty/milos-gligoric"
+    },
+    {
+      "officialId": "mingyuan-zhou",
+      "rosterName": "Mingyuan Zhou",
+      "title": "Associate Professor; Department of Statistics and Data Sciences",
+      "profileUrl": "https://www.ece.utexas.edu/people/faculty/mingyuan-zhou",
+      "portraitUrl": "https://www.ece.utexas.edu/sites/default/files/styles/max_325x325/public/default_images/grey-box-silhouette_0.jpg?itok=4Yo5bIJ_",
+      "officialSections": [
+        "Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.ece.utexas.edu/people/faculty",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Associate Professor; Department of Statistics and Data Sciences | Faculty | https://www.ece.utexas.edu/people/faculty/mingyuan-zhou",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "mohit-tiwari",
+      "rosterName": "Mohit Tiwari",
+      "title": "Associate Professor; Raytheon Company Faculty Fellowship",
+      "profileUrl": "https://www.ece.utexas.edu/people/faculty/mohit-tiwari",
+      "portraitUrl": "https://www.ece.utexas.edu/sites/default/files/styles/max_325x325/public/portraits/Tiwari-Mohit.jpg?itok=Q5sim9mY",
+      "officialSections": [
+        "Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.ece.utexas.edu/people/faculty",
+      "decision": "excluded_non_ai_cs",
+      "reason": "现有官方字段未显示 AI、NLP、CV、ML、机器人、数据智能或相关计算研究主线。",
+      "evidence": "Associate Professor; Raytheon Company Faculty Fellowship | Faculty | https://www.ece.utexas.edu/people/faculty/mohit-tiwari"
+    },
+    {
+      "officialId": "nanshu-lu",
+      "rosterName": "Nanshu Lu",
+      "title": "Professor; Carol Cockrell Curran Chair in Engineering, Department of Aerospace Engineering and Engineering Mechanics",
+      "profileUrl": "https://www.ece.utexas.edu/people/faculty/nanshu-lu",
+      "portraitUrl": "https://www.ece.utexas.edu/sites/default/files/styles/max_325x325/public/portraits/Lu-Nanshu.jpg?itok=Of2AFn7n",
+      "officialSections": [
+        "Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.ece.utexas.edu/people/faculty",
+      "decision": "excluded_non_ai_cs",
+      "reason": "现有官方字段未显示 AI、NLP、CV、ML、机器人、数据智能或相关计算研究主线。",
+      "evidence": "Professor; Carol Cockrell Curran Chair in Engineering, Department of Aerospace Engineering and Engineering Mechanics | Faculty | https://www.ece.utexas.edu/people/faculty/nanshu-lu"
+    },
+    {
+      "officialId": "neal-hall",
+      "rosterName": "Neal Hall",
+      "title": "Associate Professor; Temple Foundation Endowed Faculty Fellowship No. 5",
+      "profileUrl": "https://www.ece.utexas.edu/people/faculty/neal-hall",
+      "portraitUrl": "https://www.ece.utexas.edu/sites/default/files/styles/max_325x325/public/portraits/Hall-Neal.jpg?itok=ljAOcP9s",
+      "officialSections": [
+        "Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.ece.utexas.edu/people/faculty",
+      "decision": "excluded_non_ai_cs",
+      "reason": "现有官方字段未显示 AI、NLP、CV、ML、机器人、数据智能或相关计算研究主线。",
+      "evidence": "Associate Professor; Temple Foundation Endowed Faculty Fellowship No. 5 | Faculty | https://www.ece.utexas.edu/people/faculty/neal-hall"
+    },
+    {
+      "officialId": "neeraja-yadwadkar",
+      "rosterName": "Neeraja Yadwadkar",
+      "title": "Assistant Professor; Fellow of the Advanced Micro Devices (AMD) Chair in Computer Engineering",
+      "profileUrl": "https://www.ece.utexas.edu/people/faculty/neeraja-yadwadkar",
+      "portraitUrl": "https://www.ece.utexas.edu/sites/default/files/styles/max_325x325/public/portraits/Yadwadkar-Neeraja.jpg?itok=QN3h9ury",
+      "officialSections": [
+        "Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.ece.utexas.edu/people/faculty",
+      "decision": "excluded_non_ai_cs",
+      "reason": "现有官方字段未显示 AI、NLP、CV、ML、机器人、数据智能或相关计算研究主线。",
+      "evidence": "Assistant Professor; Fellow of the Advanced Micro Devices (AMD) Chair in Computer Engineering | Faculty | https://www.ece.utexas.edu/people/faculty/neeraja-yadwadkar"
+    },
+    {
+      "officialId": "neil-zhao",
+      "rosterName": "Neil Zhao",
+      "title": "Assistant Professor; Fellow of Advanced Micro Devices (AMD) Chair in Computer Engineering",
+      "profileUrl": "https://www.ece.utexas.edu/people/faculty/neil-zhao",
+      "portraitUrl": "https://www.ece.utexas.edu/sites/default/files/styles/max_325x325/public/portraits/Zhao-Neil.jpg?itok=W0tO5zme",
+      "officialSections": [
+        "Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.ece.utexas.edu/people/faculty",
+      "decision": "excluded_non_ai_cs",
+      "reason": "现有官方字段未显示 AI、NLP、CV、ML、机器人、数据智能或相关计算研究主线。",
+      "evidence": "Assistant Professor; Fellow of Advanced Micro Devices (AMD) Chair in Computer Engineering | Faculty | https://www.ece.utexas.edu/people/faculty/neil-zhao"
+    },
+    {
+      "officialId": "nina-telang",
+      "rosterName": "Nina Telang",
+      "title": "Professor of Instruction; Fellow of the Jack Kilby/Texas Instruments Endowed Faculty Fellowship in Computer Engineering, Associate Chair for Student Success",
+      "profileUrl": "https://www.ece.utexas.edu/people/faculty/nina-telang",
+      "portraitUrl": "https://www.ece.utexas.edu/sites/default/files/styles/max_325x325/public/portraits/Telang-Nina.png?itok=gZ3R1WT1",
+      "officialSections": [
+        "Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.ece.utexas.edu/people/faculty",
+      "decision": "excluded_non_ai_cs",
+      "reason": "现有官方字段未显示 AI、NLP、CV、ML、机器人、数据智能或相关计算研究主线。",
+      "evidence": "Professor of Instruction; Fellow of the Jack Kilby/Texas Instruments Endowed Faculty Fellowship in Computer Engineering, Associate Chair for Student Success | Faculty | https://www.ece.utexas.edu/people/faculty/nina-telang"
+    },
+    {
+      "officialId": "nur-touba",
+      "rosterName": "Nur Touba",
+      "title": "Professor; General Motors Foundation Centennial Teaching Fellowship in Electrical Engineering",
+      "profileUrl": "https://www.ece.utexas.edu/people/faculty/nur-touba",
+      "portraitUrl": "https://www.ece.utexas.edu/sites/default/files/styles/max_325x325/public/portraits/Touba-Nur.jpg?itok=bPsAgJdg",
+      "officialSections": [
+        "Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.ece.utexas.edu/people/faculty",
+      "decision": "excluded_non_pi",
+      "reason": "官方职称或名录分组属于教学、兼职、附属、科研支持或其他非独立 PI 岗位。",
+      "evidence": "Professor; General Motors Foundation Centennial Teaching Fellowship in Electrical Engineering | Faculty | https://www.ece.utexas.edu/people/faculty/nur-touba"
+    },
+    {
+      "officialId": "pedro-santacruz",
+      "rosterName": "Pedro Santacruz",
+      "title": "Associate Professor of Instruction",
+      "profileUrl": "https://www.ece.utexas.edu/people/faculty/pedro-santacruz",
+      "portraitUrl": "https://www.ece.utexas.edu/sites/default/files/styles/max_325x325/public/portraits/Santacruz-Pedro.jpg?itok=z2F7sznm",
+      "officialSections": [
+        "Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.ece.utexas.edu/people/faculty",
+      "decision": "excluded_non_ai_cs",
+      "reason": "现有官方字段未显示 AI、NLP、CV、ML、机器人、数据智能或相关计算研究主线。",
+      "evidence": "Associate Professor of Instruction | Faculty | https://www.ece.utexas.edu/people/faculty/pedro-santacruz"
+    },
+    {
+      "officialId": "peter-stone",
+      "rosterName": "Peter Stone",
+      "title": "Professor; Department of Computer Science",
+      "profileUrl": "https://www.ece.utexas.edu/people/faculty/peter-stone",
+      "portraitUrl": "https://www.ece.utexas.edu/sites/default/files/styles/max_325x325/public/portraits/Stone-Peter.jpg?itok=37fLa4P0",
+      "officialSections": [
+        "Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.ece.utexas.edu/people/faculty",
+      "decision": "excluded_non_ai_cs",
+      "reason": "现有官方字段未显示 AI、NLP、CV、ML、机器人、数据智能或相关计算研究主线。",
+      "evidence": "Professor; Department of Computer Science | Faculty | https://www.ece.utexas.edu/people/faculty/peter-stone"
+    },
+    {
+      "officialId": "poulami-das",
+      "rosterName": "Poulami Das",
+      "title": "Assistant Professor; Fellow of the Advanced Micro Devices (AMD) Chair in Computer Engineering",
+      "profileUrl": "https://www.ece.utexas.edu/people/faculty/poulami-das",
+      "portraitUrl": "https://www.ece.utexas.edu/sites/default/files/styles/max_325x325/public/portraits/2023-ECE-Das-Poulami.png?itok=7Sz3MC5B",
+      "officialSections": [
+        "Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.ece.utexas.edu/people/faculty",
+      "decision": "excluded_non_ai_cs",
+      "reason": "现有官方字段未显示 AI、NLP、CV、ML、机器人、数据智能或相关计算研究主线。",
+      "evidence": "Assistant Professor; Fellow of the Advanced Micro Devices (AMD) Chair in Computer Engineering | Faculty | https://www.ece.utexas.edu/people/faculty/poulami-das"
+    },
+    {
+      "officialId": "preston-wilson",
+      "rosterName": "Preston Wilson",
+      "title": "Professor; Department of Mechanical Engineering",
+      "profileUrl": "https://www.ece.utexas.edu/people/faculty/preston-wilson",
+      "portraitUrl": "https://www.ece.utexas.edu/sites/default/files/styles/max_325x325/public/portraits/Wilson-Preston.jpg?itok=pd7fzJKn",
+      "officialSections": [
+        "Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.ece.utexas.edu/people/faculty",
+      "decision": "excluded_non_ai_cs",
+      "reason": "现有官方字段未显示 AI、NLP、CV、ML、机器人、数据智能或相关计算研究主线。",
+      "evidence": "Professor; Department of Mechanical Engineering | Faculty | https://www.ece.utexas.edu/people/faculty/preston-wilson"
+    },
+    {
+      "officialId": "radu-marculescu",
+      "rosterName": "Radu Marculescu",
+      "title": "Professor; Laura Jennings Turner Chair in Engineering",
+      "profileUrl": "https://www.ece.utexas.edu/people/faculty/radu-marculescu",
+      "portraitUrl": "https://www.ece.utexas.edu/sites/default/files/styles/max_325x325/public/portraits/Marculescu-Radu.jpg?itok=iY4hpc_o",
+      "officialSections": [
+        "Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.ece.utexas.edu/people/faculty",
+      "decision": "excluded_non_ai_cs",
+      "reason": "现有官方字段未显示 AI、NLP、CV、ML、机器人、数据智能或相关计算研究主线。",
+      "evidence": "Professor; Laura Jennings Turner Chair in Engineering | Faculty | https://www.ece.utexas.edu/people/faculty/radu-marculescu"
+    },
+    {
+      "officialId": "ramesh-yerraballi",
+      "rosterName": "Ramesh Yerraballi",
+      "title": "Professor of Instruction",
+      "profileUrl": "https://www.ece.utexas.edu/people/faculty/ramesh-yerraballi",
+      "portraitUrl": "https://www.ece.utexas.edu/sites/default/files/styles/max_325x325/public/portraits/Yerraballi-Ramesh.png?itok=zwUumsuy",
+      "officialSections": [
+        "Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.ece.utexas.edu/people/faculty",
+      "decision": "excluded_non_ai_cs",
+      "reason": "现有官方字段未显示 AI、NLP、CV、ML、机器人、数据智能或相关计算研究主线。",
+      "evidence": "Professor of Instruction | Faculty | https://www.ece.utexas.edu/people/faculty/ramesh-yerraballi"
+    },
+    {
+      "officialId": "ray-chen",
+      "rosterName": "Ray Chen",
+      "title": "Professor; Keys and Joan Curry/Cullen Trust Endowed Chair",
+      "profileUrl": "https://www.ece.utexas.edu/people/faculty/ray-chen",
+      "portraitUrl": "https://www.ece.utexas.edu/sites/default/files/styles/max_325x325/public/portraits/Chen-Ray.png?itok=KAq1FfoV",
+      "officialSections": [
+        "Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.ece.utexas.edu/people/faculty",
+      "decision": "excluded_non_ai_cs",
+      "reason": "现有官方字段未显示 AI、NLP、CV、ML、机器人、数据智能或相关计算研究主线。",
+      "evidence": "Professor; Keys and Joan Curry/Cullen Trust Endowed Chair | Faculty | https://www.ece.utexas.edu/people/faculty/ray-chen"
+    },
+    {
+      "officialId": "ruochen-lu",
+      "rosterName": "Ruochen Lu",
+      "title": "Assistant Professor; Fellow of Silicon Laboratories Endowed Chair in Electrical Engineering",
+      "profileUrl": "https://www.ece.utexas.edu/people/faculty/ruochen-lu",
+      "portraitUrl": "https://www.ece.utexas.edu/sites/default/files/styles/max_325x325/public/portraits/Lu-Ruochen.jpg?itok=geJPLJM3",
+      "officialSections": [
+        "Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.ece.utexas.edu/people/faculty",
+      "decision": "excluded_non_ai_cs",
+      "reason": "现有官方字段未显示 AI、NLP、CV、ML、机器人、数据智能或相关计算研究主线。",
+      "evidence": "Assistant Professor; Fellow of Silicon Laboratories Endowed Chair in Electrical Engineering | Faculty | https://www.ece.utexas.edu/people/faculty/ruochen-lu"
+    },
+    {
+      "officialId": "saad-saleh",
+      "rosterName": "Saad Saleh",
+      "title": "Professor of Practice",
+      "profileUrl": "https://www.ece.utexas.edu/people/faculty/saad-saleh",
+      "portraitUrl": "https://www.ece.utexas.edu/sites/default/files/styles/max_325x325/public/portraits/Saleh-Saad.jpg?itok=TtQs58xI",
+      "officialSections": [
+        "Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.ece.utexas.edu/people/faculty",
+      "decision": "excluded_non_pi",
+      "reason": "官方职称或名录分组属于教学、兼职、附属、科研支持或其他非独立 PI 岗位。",
+      "evidence": "Professor of Practice | Faculty | https://www.ece.utexas.edu/people/faculty/saad-saleh"
+    },
+    {
+      "officialId": "samantha-santacruz",
+      "rosterName": "Samantha Santacruz",
+      "title": "Assistant Professor; Department of Biomedical Engineering",
+      "profileUrl": "https://www.ece.utexas.edu/people/faculty/samantha-santacruz",
+      "portraitUrl": "https://www.ece.utexas.edu/sites/default/files/styles/max_325x325/public/portraits/Santacruz-Samantha.jpg?itok=aKV0aWOR",
+      "officialSections": [
+        "Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.ece.utexas.edu/people/faculty",
+      "decision": "excluded_non_ai_cs",
+      "reason": "现有官方字段未显示 AI、NLP、CV、ML、机器人、数据智能或相关计算研究主线。",
+      "evidence": "Assistant Professor; Department of Biomedical Engineering | Faculty | https://www.ece.utexas.edu/people/faculty/samantha-santacruz"
+    },
+    {
+      "officialId": "sandeep-chinchali",
+      "rosterName": "Sandeep Chinchali",
+      "title": "Assistant Professor; Fellow of the Jack Kilby/Texas Instruments Endowed Faculty Fellowship in Computer Engineering",
+      "profileUrl": "https://www.ece.utexas.edu/people/faculty/sandeep-chinchali",
+      "portraitUrl": "https://www.ece.utexas.edu/sites/default/files/styles/max_325x325/public/portraits/Chinchali-Sandeep.jpg?itok=yha-7W-9",
+      "officialSections": [
+        "Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.ece.utexas.edu/people/faculty",
+      "decision": "excluded_non_ai_cs",
+      "reason": "现有官方字段未显示 AI、NLP、CV、ML、机器人、数据智能或相关计算研究主线。",
+      "evidence": "Assistant Professor; Fellow of the Jack Kilby/Texas Instruments Endowed Faculty Fellowship in Computer Engineering | Faculty | https://www.ece.utexas.edu/people/faculty/sandeep-chinchali"
+    },
+    {
+      "officialId": "sanjay-banerjee",
+      "rosterName": "Sanjay Banerjee",
+      "title": "Professor; Cockrell Family Regents Chair in Engineering #4",
+      "profileUrl": "https://www.ece.utexas.edu/people/faculty/sanjay-banerjee",
+      "portraitUrl": "https://www.ece.utexas.edu/sites/default/files/styles/max_325x325/public/portraits/Banerjee-Sanjay.jpg?itok=jIRguGVu",
+      "officialSections": [
+        "Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.ece.utexas.edu/people/faculty",
+      "decision": "excluded_non_ai_cs",
+      "reason": "现有官方字段未显示 AI、NLP、CV、ML、机器人、数据智能或相关计算研究主线。",
+      "evidence": "Professor; Cockrell Family Regents Chair in Engineering #4 | Faculty | https://www.ece.utexas.edu/people/faculty/sanjay-banerjee"
+    },
+    {
+      "officialId": "sanjay-shakkottai",
+      "rosterName": "Sanjay Shakkottai",
+      "title": "Professor; Cockrell Family Chair in Engineering # 15",
+      "profileUrl": "https://www.ece.utexas.edu/people/faculty/sanjay-shakkottai",
+      "portraitUrl": "https://www.ece.utexas.edu/sites/default/files/styles/max_325x325/public/portraits/Shakkottai-Sanjay.jpg?itok=cfEZFfnN",
+      "officialSections": [
+        "Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.ece.utexas.edu/people/faculty",
+      "decision": "excluded_non_ai_cs",
+      "reason": "现有官方字段未显示 AI、NLP、CV、ML、机器人、数据智能或相关计算研究主线。",
+      "evidence": "Professor; Cockrell Family Chair in Engineering # 15 | Faculty | https://www.ece.utexas.edu/people/faculty/sanjay-shakkottai"
+    },
+    {
+      "officialId": "sarfraz-khurshid",
+      "rosterName": "Sarfraz Khurshid",
+      "title": "Professor; Temple Foundation Endowed Teaching Fellowship in Engineering No. 2",
+      "profileUrl": "https://www.ece.utexas.edu/people/faculty/sarfraz-khurshid",
+      "portraitUrl": "https://www.ece.utexas.edu/sites/default/files/styles/max_325x325/public/portraits/Khurshid-Sarfraz.jpg?itok=H9q7ohPf",
+      "officialSections": [
+        "Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.ece.utexas.edu/people/faculty",
+      "decision": "excluded_non_pi",
+      "reason": "官方职称或名录分组属于教学、兼职、附属、科研支持或其他非独立 PI 岗位。",
+      "evidence": "Professor; Temple Foundation Endowed Teaching Fellowship in Engineering No. 2 | Faculty | https://www.ece.utexas.edu/people/faculty/sarfraz-khurshid"
+    },
+    {
+      "officialId": "sensen-li",
+      "rosterName": "Sensen Li",
+      "title": "Assistant Professor; Fellow of Silicon Laboratories Endowed Chair in Electrical Engineering",
+      "profileUrl": "https://www.ece.utexas.edu/people/faculty/sensen-li",
+      "portraitUrl": "https://www.ece.utexas.edu/sites/default/files/styles/max_325x325/public/portraits/2023-ECE-Sensen-Li-7.jpg?itok=DznSWxs4",
+      "officialSections": [
+        "Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.ece.utexas.edu/people/faculty",
+      "decision": "excluded_non_ai_cs",
+      "reason": "现有官方字段未显示 AI、NLP、CV、ML、机器人、数据智能或相关计算研究主线。",
+      "evidence": "Assistant Professor; Fellow of Silicon Laboratories Endowed Chair in Electrical Engineering | Faculty | https://www.ece.utexas.edu/people/faculty/sensen-li"
+    },
+    {
+      "officialId": "seth-bank",
+      "rosterName": "Seth Bank",
+      "title": "Professor; Cockrell Family Chair in Engineering #21",
+      "profileUrl": "https://www.ece.utexas.edu/people/faculty/seth-bank",
+      "portraitUrl": "https://www.ece.utexas.edu/sites/default/files/styles/max_325x325/public/portraits/Bank-Seth.jpg?itok=rS_v4FLX",
+      "officialSections": [
+        "Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.ece.utexas.edu/people/faculty",
+      "decision": "excluded_non_ai_cs",
+      "reason": "现有官方字段未显示 AI、NLP、CV、ML、机器人、数据智能或相关计算研究主线。",
+      "evidence": "Professor; Cockrell Family Chair in Engineering #21 | Faculty | https://www.ece.utexas.edu/people/faculty/seth-bank"
+    },
+    {
+      "officialId": "shwetadwip-chowdhury",
+      "rosterName": "Shwetadwip Chowdhury",
+      "title": "Assistant Professor; Fellow of the Jack Kilby/Texas Instruments Endowed Faculty Fellowship in Computer Engineering",
+      "profileUrl": "https://www.ece.utexas.edu/people/faculty/shwetadwip-chowdhury",
+      "portraitUrl": "https://www.ece.utexas.edu/sites/default/files/styles/max_325x325/public/portraits/Chowdhury-Shwetadwip-web.jpg?itok=L5xXKcQA",
+      "officialSections": [
+        "Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.ece.utexas.edu/people/faculty",
+      "decision": "excluded_non_ai_cs",
+      "reason": "现有官方字段未显示 AI、NLP、CV、ML、机器人、数据智能或相关计算研究主线。",
+      "evidence": "Assistant Professor; Fellow of the Jack Kilby/Texas Instruments Endowed Faculty Fellowship in Computer Engineering | Faculty | https://www.ece.utexas.edu/people/faculty/shwetadwip-chowdhury"
+    },
+    {
+      "officialId": "shyam-shankar",
+      "rosterName": "Shyam Shankar",
+      "title": "Assistant Professor; Fellow of Silicon Laboratories Endowed Chair in Electrical Engineering",
+      "profileUrl": "https://www.ece.utexas.edu/people/faculty/shyam-shankar",
+      "portraitUrl": "https://www.ece.utexas.edu/sites/default/files/styles/max_325x325/public/portraits/Shankar-Shyam.jpg?itok=s_8DngTV",
+      "officialSections": [
+        "Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.ece.utexas.edu/people/faculty",
+      "decision": "excluded_non_ai_cs",
+      "reason": "现有官方字段未显示 AI、NLP、CV、ML、机器人、数据智能或相关计算研究主线。",
+      "evidence": "Assistant Professor; Fellow of Silicon Laboratories Endowed Chair in Electrical Engineering | Faculty | https://www.ece.utexas.edu/people/faculty/shyam-shankar"
+    },
+    {
+      "officialId": "sriram-vishwanath",
+      "rosterName": "Sriram Vishwanath",
+      "title": "Adjunct Professor",
+      "profileUrl": "https://www.ece.utexas.edu/people/faculty/sriram-vishwanath",
+      "portraitUrl": "https://www.ece.utexas.edu/sites/default/files/styles/max_325x325/public/portraits/Vishwanath-Sriram.jpg?itok=7VoR0KUr",
+      "officialSections": [
+        "Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.ece.utexas.edu/people/faculty",
+      "decision": "excluded_non_pi",
+      "reason": "官方职称或名录分组属于教学、兼职、附属、科研支持或其他非独立 PI 岗位。",
+      "evidence": "Adjunct Professor | Faculty | https://www.ece.utexas.edu/people/faculty/sriram-vishwanath"
+    },
+    {
+      "officialId": "sujay-sanghavi",
+      "rosterName": "Sujay Sanghavi",
+      "title": "Professor; Bettie Margaret Smith Professor of Engineering",
+      "profileUrl": "https://www.ece.utexas.edu/people/faculty/sujay-sanghavi",
+      "portraitUrl": "https://www.ece.utexas.edu/sites/default/files/styles/max_325x325/public/portraits/Sanghavi-Sujay.jpg?itok=vLSkC_kN",
+      "officialSections": [
+        "Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.ece.utexas.edu/people/faculty",
+      "decision": "excluded_non_ai_cs",
+      "reason": "现有官方字段未显示 AI、NLP、CV、ML、机器人、数据智能或相关计算研究主线。",
+      "evidence": "Professor; Bettie Margaret Smith Professor of Engineering | Faculty | https://www.ece.utexas.edu/people/faculty/sujay-sanghavi"
+    },
+    {
+      "officialId": "surya-santoso",
+      "rosterName": "Surya Santoso",
+      "title": "Professor; Engineering Foundation Centennial Teaching Fellowship in Electrical Engineering No. 2",
+      "profileUrl": "https://www.ece.utexas.edu/people/faculty/surya-santoso",
+      "portraitUrl": "https://www.ece.utexas.edu/sites/default/files/styles/max_325x325/public/portraits/Santoso-Surya.jpg?itok=xRaCSgOZ",
+      "officialSections": [
+        "Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.ece.utexas.edu/people/faculty",
+      "decision": "excluded_non_pi",
+      "reason": "官方职称或名录分组属于教学、兼职、附属、科研支持或其他非独立 PI 岗位。",
+      "evidence": "Professor; Engineering Foundation Centennial Teaching Fellowship in Electrical Engineering No. 2 | Faculty | https://www.ece.utexas.edu/people/faculty/surya-santoso"
+    },
+    {
+      "officialId": "suzanne-barber",
+      "rosterName": "Suzanne Barber",
+      "title": "Professor; AT&T Foundation Endowed Professor in Engineering",
+      "profileUrl": "https://www.ece.utexas.edu/people/faculty/suzanne-barber",
+      "portraitUrl": "https://www.ece.utexas.edu/sites/default/files/styles/max_325x325/public/portraits/Barber-Suzanne.jpg?itok=_Nh8wwml",
+      "officialSections": [
+        "Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.ece.utexas.edu/people/faculty",
+      "decision": "excluded_non_ai_cs",
+      "reason": "现有官方字段未显示 AI、NLP、CV、ML、机器人、数据智能或相关计算研究主线。",
+      "evidence": "Professor; AT&T Foundation Endowed Professor in Engineering | Faculty | https://www.ece.utexas.edu/people/faculty/suzanne-barber"
+    },
+    {
+      "officialId": "todd-humphreys",
+      "rosterName": "Todd Humphreys",
+      "title": "Professor; Ernest Dashiell Cockrell II Chair in Engineering, Department of Aerospace Engineering and Engineering Mechanics",
+      "profileUrl": "https://www.ece.utexas.edu/people/faculty/todd-humphreys",
+      "portraitUrl": "https://www.ece.utexas.edu/sites/default/files/styles/max_325x325/public/portraits/Humphreys-Todd.jpg?itok=-qbUZrBk",
+      "officialSections": [
+        "Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.ece.utexas.edu/people/faculty",
+      "decision": "excluded_non_ai_cs",
+      "reason": "现有官方字段未显示 AI、NLP、CV、ML、机器人、数据智能或相关计算研究主线。",
+      "evidence": "Professor; Ernest Dashiell Cockrell II Chair in Engineering, Department of Aerospace Engineering and Engineering Mechanics | Faculty | https://www.ece.utexas.edu/people/faculty/todd-humphreys"
+    },
+    {
+      "officialId": "ufuk-topcu",
+      "rosterName": "Ufuk Topcu",
+      "title": "Professor; Department of Aerospace Engineering and Engineering Mechanics, W.A. “Tex” Moncrief, Jr. Chair in Computational Engineering and Sciences VI",
+      "profileUrl": "https://www.ece.utexas.edu/people/faculty/ufuk-topcu",
+      "portraitUrl": "https://www.ece.utexas.edu/sites/default/files/styles/max_325x325/public/portraits/Topcu-Ufuk.jpg?itok=x2YTlk_X",
+      "officialSections": [
+        "Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.ece.utexas.edu/people/faculty",
+      "decision": "excluded_non_ai_cs",
+      "reason": "现有官方字段未显示 AI、NLP、CV、ML、机器人、数据智能或相关计算研究主线。",
+      "evidence": "Professor; Department of Aerospace Engineering and Engineering Mechanics, W.A. “Tex” Moncrief, Jr. Chair in Computational Engineering and Sciences VI | Faculty | https://www.ece.utexas.edu/people/faculty/ufuk-topcu"
+    },
+    {
+      "officialId": "vijay-garg",
+      "rosterName": "Vijay Garg",
+      "title": "Professor; Cullen Trust for Higher Education Endowed Professor in Engineering #5",
+      "profileUrl": "https://www.ece.utexas.edu/people/faculty/vijay-garg",
+      "portraitUrl": "https://www.ece.utexas.edu/sites/default/files/styles/max_325x325/public/portraits/Garg-Vijay_0.jpeg?itok=ZVWHLYWG",
+      "officialSections": [
+        "Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.ece.utexas.edu/people/faculty",
+      "decision": "excluded_non_ai_cs",
+      "reason": "现有官方字段未显示 AI、NLP、CV、ML、机器人、数据智能或相关计算研究主线。",
+      "evidence": "Professor; Cullen Trust for Higher Education Endowed Professor in Engineering #5 | Faculty | https://www.ece.utexas.edu/people/faculty/vijay-garg"
+    },
+    {
+      "officialId": "vivek-telang",
+      "rosterName": "Vivek Telang",
+      "title": "Professor of Practice",
+      "profileUrl": "https://www.ece.utexas.edu/people/faculty/vivek-telang",
+      "portraitUrl": "https://www.ece.utexas.edu/sites/default/files/styles/max_325x325/public/default_images/grey-box-silhouette_0.jpg?itok=4Yo5bIJ_",
+      "officialSections": [
+        "Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.ece.utexas.edu/people/faculty",
+      "decision": "excluded_non_pi",
+      "reason": "官方职称或名录分组属于教学、兼职、附属、科研支持或其他非独立 PI 岗位。",
+      "evidence": "Professor of Practice | Faculty | https://www.ece.utexas.edu/people/faculty/vivek-telang"
+    },
+    {
+      "officialId": "warren-hunt-jr",
+      "rosterName": "Warren Hunt Jr",
+      "title": "Professor; Department of Computer Science",
+      "profileUrl": "https://www.ece.utexas.edu/people/faculty/warren-hunt-jr",
+      "portraitUrl": "https://www.ece.utexas.edu/sites/default/files/styles/max_325x325/public/portraits/Hunt-Warren.jpg?itok=Vd_ecz8X",
+      "officialSections": [
+        "Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.ece.utexas.edu/people/faculty",
+      "decision": "excluded_non_ai_cs",
+      "reason": "现有官方字段未显示 AI、NLP、CV、ML、机器人、数据智能或相关计算研究主线。",
+      "evidence": "Professor; Department of Computer Science | Faculty | https://www.ece.utexas.edu/people/faculty/warren-hunt-jr"
+    },
+    {
+      "officialId": "william-fagelson",
+      "rosterName": "William Fagelson",
+      "title": "Associate Professor of Instruction",
+      "profileUrl": "https://www.ece.utexas.edu/people/faculty/william-fagelson",
+      "portraitUrl": "https://www.ece.utexas.edu/sites/default/files/styles/max_325x325/public/portraits/Fagelson-Bill.png?itok=jLVFOCdg",
+      "officialSections": [
+        "Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.ece.utexas.edu/people/faculty",
+      "decision": "excluded_non_ai_cs",
+      "reason": "现有官方字段未显示 AI、NLP、CV、ML、机器人、数据智能或相关计算研究主线。",
+      "evidence": "Associate Professor of Instruction | Faculty | https://www.ece.utexas.edu/people/faculty/william-fagelson"
+    },
+    {
+      "officialId": "xiuling-li",
+      "rosterName": "Xiuling Li",
+      "title": "Professor; Truchard Foundation Endowed Chair in Electrical and Computer Engineering, Fellow of the Dow Professorship (Chemistry)",
+      "profileUrl": "https://www.ece.utexas.edu/people/faculty/xiuling-li",
+      "portraitUrl": "https://www.ece.utexas.edu/sites/default/files/styles/max_325x325/public/portraits/Li-Xiuling.png?itok=YjQWvyX7",
+      "officialSections": [
+        "Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.ece.utexas.edu/people/faculty",
+      "decision": "excluded_non_ai_cs",
+      "reason": "现有官方字段未显示 AI、NLP、CV、ML、机器人、数据智能或相关计算研究主线。",
+      "evidence": "Professor; Truchard Foundation Endowed Chair in Electrical and Computer Engineering, Fellow of the Dow Professorship (Chemistry) | Faculty | https://www.ece.utexas.edu/people/faculty/xiuling-li"
+    },
+    {
+      "officialId": "yale-patt",
+      "rosterName": "Yale Patt",
+      "title": "Professor; Virginia H. Cockrell Centennial Chair in Engineering",
+      "profileUrl": "https://www.ece.utexas.edu/people/faculty/yale-patt",
+      "portraitUrl": "https://www.ece.utexas.edu/sites/default/files/styles/max_325x325/public/portraits/Patt-Mod-7.png?itok=WqSCDbpJ",
+      "officialSections": [
+        "Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.ece.utexas.edu/people/faculty",
+      "decision": "excluded_non_ai_cs",
+      "reason": "现有官方字段未显示 AI、NLP、CV、ML、机器人、数据智能或相关计算研究主线。",
+      "evidence": "Professor; Virginia H. Cockrell Centennial Chair in Engineering | Faculty | https://www.ece.utexas.edu/people/faculty/yale-patt"
+    },
+    {
+      "officialId": "yaoyao-jia",
+      "rosterName": "Yaoyao Jia",
+      "title": "Associate Professor; Fellow of Silicon Laboratories Endowed Chair in Electrical Engineering",
+      "profileUrl": "https://www.ece.utexas.edu/people/faculty/yaoyao-jia",
+      "portraitUrl": "https://www.ece.utexas.edu/sites/default/files/styles/max_325x325/public/portraits/Jia-Yaoyao-Personal-web.jpg?itok=i_xGpLH7",
+      "officialSections": [
+        "Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.ece.utexas.edu/people/faculty",
+      "decision": "excluded_non_ai_cs",
+      "reason": "现有官方字段未显示 AI、NLP、CV、ML、机器人、数据智能或相关计算研究主线。",
+      "evidence": "Associate Professor; Fellow of Silicon Laboratories Endowed Chair in Electrical Engineering | Faculty | https://www.ece.utexas.edu/people/faculty/yaoyao-jia"
+    },
+    {
+      "officialId": "yicheng-zhu",
+      "rosterName": "Yicheng Zhu",
+      "title": "Assistant Professor; Fellow of Friends of Alec Electrical and Computer Engineering Fund",
+      "profileUrl": "https://www.ece.utexas.edu/people/faculty/yicheng-zhu",
+      "portraitUrl": "https://www.ece.utexas.edu/sites/default/files/styles/max_325x325/public/portraits/Zhu-Yicheng-Web.png?itok=HHhhWBIq",
+      "officialSections": [
+        "Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.ece.utexas.edu/people/faculty",
+      "decision": "excluded_non_ai_cs",
+      "reason": "现有官方字段未显示 AI、NLP、CV、ML、机器人、数据智能或相关计算研究主线。",
+      "evidence": "Assistant Professor; Fellow of Friends of Alec Electrical and Computer Engineering Fund | Faculty | https://www.ece.utexas.edu/people/faculty/yicheng-zhu"
+    },
+    {
+      "officialId": "yuebing-zheng",
+      "rosterName": "Yuebing Zheng",
+      "title": "Professor; Department of Mechanical Engineering, Cullen Trust for Higher Education Endowed Professorship in Engineering #4",
+      "profileUrl": "https://www.ece.utexas.edu/people/faculty/yuebing-zheng",
+      "portraitUrl": "https://www.ece.utexas.edu/sites/default/files/styles/max_325x325/public/portraits/Zheng-Yuebing.jpg?itok=2xrzRmBj",
+      "officialSections": [
+        "Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.ece.utexas.edu/people/faculty",
+      "decision": "excluded_non_ai_cs",
+      "reason": "现有官方字段未显示 AI、NLP、CV、ML、机器人、数据智能或相关计算研究主线。",
+      "evidence": "Professor; Department of Mechanical Engineering, Cullen Trust for Higher Education Endowed Professorship in Engineering #4 | Faculty | https://www.ece.utexas.edu/people/faculty/yuebing-zheng"
+    }
+  ]
+}

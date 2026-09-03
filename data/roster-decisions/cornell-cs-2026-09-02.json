@@ -1,0 +1,2181 @@
+{
+  "schemaVersion": 1,
+  "unitId": "cornell-cs",
+  "unitUrl": "https://www.cs.cornell.edu/directory?department=15",
+  "snapshotAt": "2026-09-02",
+  "rosterArtifact": "data/official-rosters/cornell-cs-faculty-2026-09-02.json",
+  "officialRosterCount": 143,
+  "decisionCount": 143,
+  "counts": {
+    "excluded_non_ai_cs": 58,
+    "included_existing": 20,
+    "excluded_non_pi": 13,
+    "include_new_pi": 44,
+    "excluded_historical": 8
+  },
+  "decisions": [
+    {
+      "officialId": "a-kevin-tang",
+      "name": "A. Kevin Tang",
+      "profileUrl": "mailto:at422@cornell.edu",
+      "portraitUrl": "https://www.cs.cornell.edu/sites/default/files/styles/people_directory/public/images/people/Tang%2C_A._Kevin.jpg?h=07a49c3e&itok=06scttJY",
+      "title": "Associate Professor of Electrical and Computer Engineering",
+      "researchAreas": [
+        "Systems + Networking",
+        "Theory of Computing"
+      ],
+      "sourcePageUrl": "https://www.cs.cornell.edu/directory?department=15",
+      "decision": "excluded_non_ai_cs",
+      "reason": "官方研究方向未落入本图谱 AI、ML、NLP、CV、机器人、HCI、图形学或数据科学主线。",
+      "evidence": "Systems + Networking | Theory of Computing"
+    },
+    {
+      "officialId": "aaron-wagner",
+      "name": "Aaron Wagner",
+      "profileUrl": "mailto:wagner@ece.cornell.edu",
+      "portraitUrl": "https://www.cs.cornell.edu/sites/default/files/styles/people_directory/public/images/people/aaron.jpg?h=6901fa23&itok=HtIdqgVF",
+      "title": "Associate Professor of Electrical and Computer Engineering",
+      "researchAreas": [
+        "Theory of Computing"
+      ],
+      "sourcePageUrl": "https://www.cs.cornell.edu/directory?department=15",
+      "decision": "excluded_non_ai_cs",
+      "reason": "官方研究方向未落入本图谱 AI、ML、NLP、CV、机器人、HCI、图形学或数据科学主线。",
+      "evidence": "Theory of Computing"
+    },
+    {
+      "officialId": "abe-davis",
+      "name": "Abe Davis",
+      "profileUrl": "https://www.cs.cornell.edu/people/abe-davis",
+      "portraitUrl": "https://www.cs.cornell.edu/sites/default/files/styles/people_directory/public/2025-12/abe-davis-12-4-25.png?h=d1cb525d&itok=kdfFFSX4",
+      "title": "Assistant Professor of Computer Science",
+      "researchAreas": [
+        "Graphics",
+        "Human Interaction",
+        "Vision"
+      ],
+      "sourcePageUrl": "https://www.cs.cornell.edu/directory?department=15",
+      "decision": "included_existing",
+      "reason": "同名现任范围内 PI 已在图谱中。",
+      "evidence": "https://www.cs.cornell.edu/people/abe-davis",
+      "atlasPersonId": "abe-davis-cornell"
+    },
+    {
+      "officialId": "aditya-vashistha",
+      "name": "Aditya Vashistha",
+      "profileUrl": "https://www.cs.cornell.edu/people/aditya-vashistha",
+      "portraitUrl": "https://www.cs.cornell.edu/sites/default/files/styles/people_directory/public/images/people/BowersCIS_Headshots_10032023-%C2%A9RachelPhilipson_3381_2.jpg?h=00546c34&itok=5cz4xNJ8",
+      "title": "Assistant Professor of Information Science",
+      "researchAreas": [
+        "AI Auditing + Accountability",
+        "Human Centered Natural Language Processing",
+        "Human-AI interaction",
+        "Artificial Intelligence (AI)",
+        "Human Interaction",
+        "Accessibility"
+      ],
+      "sourcePageUrl": "https://www.cs.cornell.edu/directory?department=15",
+      "decision": "included_existing",
+      "reason": "同名现任范围内 PI 已在图谱中。",
+      "evidence": "https://www.cs.cornell.edu/people/aditya-vashistha",
+      "atlasPersonId": "aditya-vashistha-cornell"
+    },
+    {
+      "officialId": "adrian-sampson",
+      "name": "Adrian Sampson",
+      "profileUrl": "https://www.cs.cornell.edu/people/adrian-sampson",
+      "portraitUrl": "https://www.cs.cornell.edu/sites/default/files/styles/people_directory/public/2025-07/adrian-s.jpg?h=ce5fe46c&itok=WgkP2hF1",
+      "title": "Associate Professor of Computer Science",
+      "researchAreas": [
+        "Architecture",
+        "Programming Languages"
+      ],
+      "sourcePageUrl": "https://www.cs.cornell.edu/directory?department=15",
+      "decision": "excluded_non_ai_cs",
+      "reason": "官方研究方向未落入本图谱 AI、ML、NLP、CV、机器人、HCI、图形学或数据科学主线。",
+      "evidence": "Architecture | Programming Languages"
+    },
+    {
+      "officialId": "ahmed-el-alaoui",
+      "name": "Ahmed El Alaoui",
+      "profileUrl": "https://www.cs.cornell.edu/people/ahmed-el-alaoui",
+      "portraitUrl": "https://www.cs.cornell.edu/sites/default/files/styles/people_directory/public/images/people/El_Alaoui_Ahmed_0.jpg?h=1e295ffc&itok=72fXst2G",
+      "title": "Assistant Professor of Statistics and Data Science",
+      "researchAreas": [
+        "High-dimensional Statistics",
+        "Machine Learning",
+        "Stochastic Processes",
+        "Theory of Computing"
+      ],
+      "sourcePageUrl": "https://www.cs.cornell.edu/directory?department=15",
+      "decision": "included_existing",
+      "reason": "同名现任范围内 PI 已在图谱中。",
+      "evidence": "https://www.cs.cornell.edu/people/ahmed-el-alaoui",
+      "atlasPersonId": "ahmed-el-alaoui-cornell"
+    },
+    {
+      "officialId": "aleksandr-golovnev",
+      "name": "Aleksandr Golovnev",
+      "profileUrl": "https://www.cs.cornell.edu/people/aleksandr-golovnev",
+      "portraitUrl": "",
+      "title": "Associate Professor of Computer Science",
+      "researchAreas": [],
+      "sourcePageUrl": "https://www.cs.cornell.edu/directory?department=15",
+      "decision": "excluded_non_ai_cs",
+      "reason": "官方研究方向未落入本图谱 AI、ML、NLP、CV、机器人、HCI、图形学或数据科学主线。",
+      "evidence": "Associate Professor of Computer Science"
+    },
+    {
+      "officialId": "alex-conway",
+      "name": "Alex Conway",
+      "profileUrl": "https://www.cs.cornell.edu/people/alex-conway",
+      "portraitUrl": "https://www.cs.cornell.edu/sites/default/files/styles/people_directory/public/chronicle/alex_conway_0.jpg?h=5f3c3f4c&itok=7d_4Gx57",
+      "title": "Assistant Professor of Computer Science",
+      "researchAreas": [
+        "Systems + Networking",
+        "Theory of Computing"
+      ],
+      "sourcePageUrl": "https://www.cs.cornell.edu/directory?department=15",
+      "decision": "excluded_non_ai_cs",
+      "reason": "官方研究方向未落入本图谱 AI、ML、NLP、CV、机器人、HCI、图形学或数据科学主线。",
+      "evidence": "Systems + Networking | Theory of Computing"
+    },
+    {
+      "officialId": "alex-townsend",
+      "name": "Alex Townsend",
+      "profileUrl": "mailto:ajt253@cornell.edu",
+      "portraitUrl": "https://www.cs.cornell.edu/sites/default/files/styles/people_directory/public/images/people/alex-townsend.jpg?h=bd371e23&itok=WOknvk2S",
+      "title": "Associate Professor of Mathematics",
+      "researchAreas": [
+        "Scientific Computing"
+      ],
+      "sourcePageUrl": "https://www.cs.cornell.edu/directory?department=15",
+      "decision": "excluded_non_ai_cs",
+      "reason": "官方研究方向未落入本图谱 AI、ML、NLP、CV、机器人、HCI、图形学或数据科学主线。",
+      "evidence": "Scientific Computing"
+    },
+    {
+      "officialId": "alexandra-silva",
+      "name": "Alexandra Silva",
+      "profileUrl": "https://www.cs.cornell.edu/people/alexandra-silva",
+      "portraitUrl": "https://www.cs.cornell.edu/sites/default/files/styles/people_directory/public/2025-07/alexandra-silva.jpeg?h=46c5031c&itok=Zdpt_QGT",
+      "title": "Professor of Computer Science",
+      "researchAreas": [
+        "Programming Languages",
+        "Security",
+        "Software Engineering",
+        "Theory of Computing"
+      ],
+      "sourcePageUrl": "https://www.cs.cornell.edu/directory?department=15",
+      "decision": "excluded_non_ai_cs",
+      "reason": "官方研究方向未落入本图谱 AI、ML、NLP、CV、机器人、HCI、图形学或数据科学主线。",
+      "evidence": "Programming Languages | Security | Software Engineering | Theory of Computing"
+    },
+    {
+      "officialId": "allison-koenecke",
+      "name": "Allison Koenecke",
+      "profileUrl": "https://www.cs.cornell.edu/people/allison-koenecke",
+      "portraitUrl": "https://www.cs.cornell.edu/sites/default/files/styles/people_directory/public/2025-07/koenecke-allison.jpg?h=c63e3543&itok=_cUihLYf",
+      "title": "Assistant Professor of Information Science",
+      "researchAreas": [
+        "AI Auditing + Accountability",
+        "Data Science",
+        "Algorithmic fairness and discrimination"
+      ],
+      "sourcePageUrl": "https://www.cs.cornell.edu/directory?department=15",
+      "decision": "included_existing",
+      "reason": "同名现任范围内 PI 已在图谱中。",
+      "evidence": "https://www.cs.cornell.edu/people/allison-koenecke",
+      "atlasPersonId": "allison-koenecke-cornell"
+    },
+    {
+      "officialId": "andrew-appel",
+      "name": "Andrew Appel",
+      "profileUrl": "https://www.cs.cornell.edu/people/andrew-w-appel",
+      "portraitUrl": "https://www.cs.cornell.edu/sites/default/files/styles/people_directory/public/2026-04/appel.jpg?h=13616002&itok=XProL7ip",
+      "title": "Visiting Professor of Computer Science",
+      "researchAreas": [],
+      "sourcePageUrl": "https://www.cs.cornell.edu/directory?department=15",
+      "decision": "excluded_non_pi",
+      "reason": "官方职称不是当前独立研究 PI。",
+      "evidence": "Visiting Professor of Computer Science"
+    },
+    {
+      "officialId": "andrew-myers",
+      "name": "Andrew Myers",
+      "profileUrl": "https://www.cs.cornell.edu/people/andrew-myers",
+      "portraitUrl": "https://www.cs.cornell.edu/sites/default/files/styles/people_directory/public/2025-08/andrew-myers-16x9.png?h=44e502a5&itok=vWNcAibd",
+      "title": "Professor of Computer Science Class of 1912 Professor of Engineering Director of Graduate Studies",
+      "researchAreas": [
+        "Programming Languages",
+        "Security",
+        "Systems + Networking"
+      ],
+      "sourcePageUrl": "https://www.cs.cornell.edu/directory?department=15",
+      "decision": "excluded_non_ai_cs",
+      "reason": "官方研究方向未落入本图谱 AI、ML、NLP、CV、机器人、HCI、图形学或数据科学主线。",
+      "evidence": "Programming Languages | Security | Systems + Networking"
+    },
+    {
+      "officialId": "andrew-owens",
+      "name": "Andrew Owens",
+      "profileUrl": "https://www.cs.cornell.edu/people/andrew-owens",
+      "portraitUrl": "https://www.cs.cornell.edu/sites/default/files/styles/people_directory/public/2025-08/owens-andrew-1440x1440.jpg?h=adf6292f&itok=aODyhbNb",
+      "title": "Associate Professor of Computer Science",
+      "researchAreas": [
+        "Artificial Intelligence (AI)",
+        "Graphics",
+        "Vision"
+      ],
+      "sourcePageUrl": "https://www.cs.cornell.edu/directory?department=15",
+      "decision": "included_existing",
+      "reason": "同名现任范围内 PI 已在图谱中。",
+      "evidence": "https://www.cs.cornell.edu/people/andrew-owens",
+      "atlasPersonId": "andrew-owens-cornell"
+    },
+    {
+      "officialId": "angelina-wang",
+      "name": "Angelina Wang",
+      "profileUrl": "https://www.cs.cornell.edu/people/angelina-wang",
+      "portraitUrl": "https://www.cs.cornell.edu/sites/default/files/styles/people_directory/public/2025-08/wang-angelina.jpg?h=0f9948ba&itok=hwUqaeL6",
+      "title": "Assistant Professor of Information Science",
+      "researchAreas": [
+        "AI Auditing + Accountability",
+        "Data Science",
+        "Artificial Intelligence (AI)",
+        "Ethics, Law and Policy",
+        "Algorithmic fairness and discrimination"
+      ],
+      "sourcePageUrl": "https://www.cs.cornell.edu/directory?department=15",
+      "decision": "included_existing",
+      "reason": "同名现任范围内 PI 已在图谱中。",
+      "evidence": "https://www.cs.cornell.edu/people/angelina-wang",
+      "atlasPersonId": "angelina-wang-cornell"
+    },
+    {
+      "officialId": "angelique-taylor",
+      "name": "Angelique Taylor",
+      "profileUrl": "https://www.cs.cornell.edu/people/angelique-taylor",
+      "portraitUrl": "https://www.cs.cornell.edu/sites/default/files/styles/people_directory/public/2025-08/taylor-angelique.jpg?h=69472a99&itok=3S15POaf",
+      "title": "Andrew H. and Ann R. Tisch Assistant Professor of Information Science",
+      "researchAreas": [
+        "Human-Robot Interaction"
+      ],
+      "sourcePageUrl": "https://www.cs.cornell.edu/directory?department=15",
+      "decision": "excluded_non_ai_cs",
+      "reason": "官方研究方向未落入本图谱 AI、ML、NLP、CV、机器人、HCI、图形学或数据科学主线。",
+      "evidence": "Human-Robot Interaction"
+    },
+    {
+      "officialId": "anil-damle",
+      "name": "Anil Damle",
+      "profileUrl": "https://www.cs.cornell.edu/people/anil-damle",
+      "portraitUrl": "https://www.cs.cornell.edu/sites/default/files/styles/people_directory/public/images/people/Damle%2C_Anil.jpg?h=822c4ee1&itok=as3JNDOy",
+      "title": "Associate Professor of Computer Science",
+      "researchAreas": [
+        "Scientific Computing"
+      ],
+      "sourcePageUrl": "https://www.cs.cornell.edu/directory?department=15",
+      "decision": "excluded_non_ai_cs",
+      "reason": "官方研究方向未落入本图谱 AI、ML、NLP、CV、机器人、HCI、图形学或数据科学主线。",
+      "evidence": "Scientific Computing"
+    },
+    {
+      "officialId": "anil-nerode",
+      "name": "Anil Nerode",
+      "profileUrl": "mailto:an17@cornell.edu",
+      "portraitUrl": "https://www.cs.cornell.edu/sites/default/files/styles/people_directory/public/images/people/Nerode%2C_Anil.jpg?h=07a49c3e&itok=rwJNhjpC",
+      "title": "Professor of Mathematics",
+      "researchAreas": [
+        "Theory of Computing"
+      ],
+      "sourcePageUrl": "https://www.cs.cornell.edu/directory?department=15",
+      "decision": "excluded_non_ai_cs",
+      "reason": "官方研究方向未落入本图谱 AI、ML、NLP、CV、机器人、HCI、图形学或数据科学主线。",
+      "evidence": "Theory of Computing"
+    },
+    {
+      "officialId": "anke-van-zuylen",
+      "name": "Anke van Zuylen",
+      "profileUrl": "https://www.cs.cornell.edu/people/anke-van-zuylen",
+      "portraitUrl": "https://www.cs.cornell.edu/sites/default/files/styles/people_directory/public/2025-07/van-zuylen-anke.png?h=0419be36&itok=J6iBbyrg",
+      "title": "Teaching Professor of Computer Science",
+      "researchAreas": [
+        "Theory of Computing"
+      ],
+      "sourcePageUrl": "https://www.cs.cornell.edu/directory?department=15",
+      "decision": "excluded_non_pi",
+      "reason": "官方职称不是当前独立研究 PI。",
+      "evidence": "Teaching Professor of Computer Science"
+    },
+    {
+      "officialId": "ari-juels",
+      "name": "Ari Juels",
+      "profileUrl": "https://www.cs.cornell.edu/people/ari-juels",
+      "portraitUrl": "https://www.cs.cornell.edu/sites/default/files/styles/people_directory/public/2025-08/juels-ari.jpg?h=2af5537c&itok=p1WchSox",
+      "title": "Weill Family Foundation and Joan and Sanford I. Weill Professor of Computer Science",
+      "researchAreas": [
+        "Security",
+        "Systems + Networking"
+      ],
+      "sourcePageUrl": "https://www.cs.cornell.edu/directory?department=15",
+      "decision": "excluded_non_ai_cs",
+      "reason": "官方研究方向未落入本图谱 AI、ML、NLP、CV、机器人、HCI、图形学或数据科学主线。",
+      "evidence": "Security | Systems + Networking"
+    },
+    {
+      "officialId": "bart-selman",
+      "name": "Bart Selman",
+      "profileUrl": "https://www.cs.cornell.edu/people/bart-selman",
+      "portraitUrl": "https://www.cs.cornell.edu/sites/default/files/styles/people_directory/public/2025-08/bart-selman1.png?h=d1cb525d&itok=i0K5P4CM",
+      "title": "Professor of Computer Science",
+      "researchAreas": [
+        "Computing and the Environment"
+      ],
+      "sourcePageUrl": "https://www.cs.cornell.edu/directory?department=15",
+      "decision": "include_new_pi",
+      "reason": "官方个人页确认其为现任 AI 独立 PI；既有 canonical 节点不满足资料与头像基线，转入补全队列。",
+      "evidence": "Professor of Computer Science; https://www.cs.cornell.edu/people/bart-selman"
+    },
+    {
+      "officialId": "bharath-hariharan",
+      "name": "Bharath Hariharan",
+      "profileUrl": "https://www.cs.cornell.edu/people/bharath-hariharan",
+      "portraitUrl": "https://www.cs.cornell.edu/sites/default/files/styles/people_directory/public/2025-08/bharath-hariharan-16x9.png?h=68adb54f&itok=Tt4rU-s1",
+      "title": "Associate Professor of Computer Science",
+      "researchAreas": [
+        "Artificial Intelligence (AI)",
+        "Machine Learning",
+        "Vision"
+      ],
+      "sourcePageUrl": "https://www.cs.cornell.edu/directory?department=15",
+      "decision": "included_existing",
+      "reason": "同名现任范围内 PI 已在图谱中。",
+      "evidence": "https://www.cs.cornell.edu/people/bharath-hariharan",
+      "atlasPersonId": "bharath-hariharan-us"
+    },
+    {
+      "officialId": "carla-gomes",
+      "name": "Carla Gomes",
+      "profileUrl": "https://www.cs.cornell.edu/people/carla-gomes",
+      "portraitUrl": "https://www.cs.cornell.edu/sites/default/files/styles/people_directory/public/2025-09/gomes-aaai-fp-2021.png?h=d1cb525d&itok=bt-VL8Dx",
+      "title": "Ronald C. and Antonia V. Nielsen Professor of Computing and Information Science",
+      "researchAreas": [
+        "Artificial Intelligence (AI)",
+        "Computational Biology",
+        "Computing and the Environment",
+        "Scientific Computing"
+      ],
+      "sourcePageUrl": "https://www.cs.cornell.edu/directory?department=15",
+      "decision": "include_new_pi",
+      "reason": "Cornell CS 官方名录确认其当前教师身份、范围内研究方向，并提供官方个人页与头像。",
+      "evidence": "Ronald C. and Antonia V. Nielsen Professor of Computing and Information Science; Artificial Intelligence (AI) | Computational Biology | Computing and the Environment | Scientific Computing"
+    },
+    {
+      "officialId": "charles-f-van-loan",
+      "name": "Charles F. Van Loan",
+      "profileUrl": "https://www.cs.cornell.edu/people/charles-van-loan",
+      "portraitUrl": "https://www.cs.cornell.edu/sites/default/files/styles/people_directory/public/images/people/cv_photo.jpg?h=d56790fa&itok=apawFDVo",
+      "title": "Professor Emeritus",
+      "researchAreas": [
+        "Scientific Computing"
+      ],
+      "sourcePageUrl": "https://www.cs.cornell.edu/directory?department=15",
+      "decision": "excluded_historical",
+      "reason": "官方职称不是当前独立研究 PI。",
+      "evidence": "Professor Emeritus"
+    },
+    {
+      "officialId": "cheng-zhang",
+      "name": "Cheng Zhang",
+      "profileUrl": "https://www.cs.cornell.edu/people/cheng-zhang-0",
+      "portraitUrl": "https://www.cs.cornell.edu/sites/default/files/styles/people_directory/public/2025-07/zhang-cheng-1.png?h=d1cb525d&itok=F80KKKwq",
+      "title": "Associate Professor of Information Science",
+      "researchAreas": [
+        "Human-AI interaction",
+        "Human Interaction",
+        "Human-Computer Interaction and Design",
+        "Fabrication",
+        "Human-Robot Interaction",
+        "Ubiquitous Computing"
+      ],
+      "sourcePageUrl": "https://www.cs.cornell.edu/directory?department=15",
+      "decision": "included_existing",
+      "reason": "同名现任范围内 PI 已在图谱中。",
+      "evidence": "https://www.cs.cornell.edu/people/cheng-zhang-0",
+      "atlasPersonId": "cheng-zhang-cornell"
+    },
+    {
+      "officialId": "christina-lee-yu",
+      "name": "Christina Lee Yu",
+      "profileUrl": "mailto:cleeyu@cornell.edu",
+      "portraitUrl": "https://www.cs.cornell.edu/sites/default/files/styles/people_directory/public/images/people/christina.jpg?h=c9c4fc9b&itok=4L8cI_Ys",
+      "title": "Assistant Professor of Operations Research and Information Engineering",
+      "researchAreas": [
+        "Theory of Computing"
+      ],
+      "sourcePageUrl": "https://www.cs.cornell.edu/directory?department=15",
+      "decision": "excluded_non_ai_cs",
+      "reason": "官方研究方向未落入本图谱 AI、ML、NLP、CV、机器人、HCI、图形学或数据科学主线。",
+      "evidence": "Theory of Computing"
+    },
+    {
+      "officialId": "christopher-batten",
+      "name": "Christopher Batten",
+      "profileUrl": "mailto:cb535@cornell.edu",
+      "portraitUrl": "https://www.cs.cornell.edu/sites/default/files/styles/people_directory/public/images/people/batten_.png?h=df744964&itok=R3ofeSFJ",
+      "title": "Professor of Electrical and Computer Engineering",
+      "researchAreas": [
+        "Architecture",
+        "Systems + Networking"
+      ],
+      "sourcePageUrl": "https://www.cs.cornell.edu/directory?department=15",
+      "decision": "excluded_non_ai_cs",
+      "reason": "官方研究方向未落入本图谱 AI、ML、NLP、CV、机器人、HCI、图形学或数据科学主线。",
+      "evidence": "Architecture | Systems + Networking"
+    },
+    {
+      "officialId": "christopher-de-sa",
+      "name": "Christopher De Sa",
+      "profileUrl": "https://www.cs.cornell.edu/people/christopher-de-sa",
+      "portraitUrl": "https://www.cs.cornell.edu/sites/default/files/styles/people_directory/public/images/people/cmd353-cs-ap-002_2.jpg?h=37e5fdf1&itok=rsZQMT4Z",
+      "title": "Associate Professor of Computer Science",
+      "researchAreas": [
+        "Artificial Intelligence (AI)",
+        "Machine Learning",
+        "Systems + Networking"
+      ],
+      "sourcePageUrl": "https://www.cs.cornell.edu/directory?department=15",
+      "decision": "included_existing",
+      "reason": "同名现任范围内 PI 已在图谱中。",
+      "evidence": "https://www.cs.cornell.edu/people/christopher-de-sa",
+      "atlasPersonId": "christopher-de-sa-cornell"
+    },
+    {
+      "officialId": "claire-cardie",
+      "name": "Claire Cardie",
+      "profileUrl": "https://www.cs.cornell.edu/people/claire-cardie",
+      "portraitUrl": "https://www.cs.cornell.edu/sites/default/files/styles/people_directory/public/2025-07/cardie-claire-2021.png?h=d1cb525d&itok=AqSrd796",
+      "title": "John C. Ford Professor of Engineering in the Departments of Computer Science and Information Science",
+      "researchAreas": [
+        "Human Centered Natural Language Processing",
+        "Human Interaction",
+        "Natural Language Processing"
+      ],
+      "sourcePageUrl": "https://www.cs.cornell.edu/directory?department=15",
+      "decision": "included_existing",
+      "reason": "同名现任范围内 PI 已在图谱中。",
+      "evidence": "https://www.cs.cornell.edu/people/claire-cardie",
+      "atlasPersonId": "claire-cardie-us"
+    },
+    {
+      "officialId": "cristian-danescu-niculescu-mizil",
+      "name": "Cristian Danescu-Niculescu-Mizil",
+      "profileUrl": "https://www.cs.cornell.edu/people/cristian-danescu-niculescu-mizil",
+      "portraitUrl": "https://www.cs.cornell.edu/sites/default/files/styles/people_directory/public/2025-08/danescu-niculescu-mizil-cristian1.png?h=e7f7be8c&itok=1mZkzBRG",
+      "title": "Professor of Information Science",
+      "researchAreas": [
+        "Data Science",
+        "Human Centered Natural Language Processing",
+        "Artificial Intelligence (AI)",
+        "Computational approaches to studying people and society",
+        "Computational Social Sciences",
+        "Machine Learning",
+        "Natural Language Processing"
+      ],
+      "sourcePageUrl": "https://www.cs.cornell.edu/directory?department=15",
+      "decision": "included_existing",
+      "reason": "同名现任范围内 PI 已在图谱中。",
+      "evidence": "https://www.cs.cornell.edu/people/cristian-danescu-niculescu-mizil",
+      "atlasPersonId": "cristian-danescu-us"
+    },
+    {
+      "officialId": "daniel-lee",
+      "name": "Daniel Lee",
+      "profileUrl": "mailto:ddl46@cornell.edu",
+      "portraitUrl": "https://www.cs.cornell.edu/sites/default/files/styles/people_directory/public/images/people/daniel-lee_0.jpg?h=cdafec50&itok=uAu3TKSB",
+      "title": "Tisch University Professor of Electrical and Computer Engineering",
+      "researchAreas": [
+        "Robotics"
+      ],
+      "sourcePageUrl": "https://www.cs.cornell.edu/directory?department=15",
+      "decision": "include_new_pi",
+      "reason": "Cornell CS 官方名录确认其当前教师身份、范围内研究方向，并提供官方个人页与头像。",
+      "evidence": "Tisch University Professor of Electrical and Computer Engineering; Robotics"
+    },
+    {
+      "officialId": "david-bindel",
+      "name": "David Bindel",
+      "profileUrl": "https://www.cs.cornell.edu/people/david-bindel",
+      "portraitUrl": "https://www.cs.cornell.edu/sites/default/files/styles/people_directory/public/2025-08/david-bindel-16x9.png?h=e7f7be8c&itok=sPseuUc_",
+      "title": "Professor of Computer Science",
+      "researchAreas": [
+        "Bayesian Analysis",
+        "Machine Learning",
+        "Scientific Computing",
+        "Spatial Analysis or Spatial Statistics",
+        "Systems + Networking"
+      ],
+      "sourcePageUrl": "https://www.cs.cornell.edu/directory?department=15",
+      "decision": "include_new_pi",
+      "reason": "Cornell CS 官方名录确认其当前教师身份、范围内研究方向，并提供官方个人页与头像。",
+      "evidence": "Professor of Computer Science; Bayesian Analysis | Machine Learning | Scientific Computing | Spatial Analysis or Spatial Statistics | Systems + Networking"
+    },
+    {
+      "officialId": "david-gries",
+      "name": "David Gries",
+      "profileUrl": "https://www.cs.cornell.edu/people/david-gries",
+      "portraitUrl": "https://www.cs.cornell.edu/sites/default/files/styles/people_directory/public/images/people/Gries%2C_David.jpg?h=55541bb6&itok=r7Xaue7r",
+      "title": "Professor Emeritus",
+      "researchAreas": [],
+      "sourcePageUrl": "https://www.cs.cornell.edu/directory?department=15",
+      "decision": "excluded_historical",
+      "reason": "官方职称不是当前独立研究 PI。",
+      "evidence": "Professor Emeritus"
+    },
+    {
+      "officialId": "david-mimno",
+      "name": "David Mimno",
+      "profileUrl": "https://www.cs.cornell.edu/people/david-mimno",
+      "portraitUrl": "https://www.cs.cornell.edu/sites/default/files/styles/people_directory/public/2026-03/2025_bowers_david_7.jpg?h=454660cd&itok=UsKDc4hd",
+      "title": "Professor of Information Science Department Chair",
+      "researchAreas": [
+        "Data Science",
+        "Human Centered Natural Language Processing",
+        "Human-AI interaction",
+        "Digital Humanities, Cultural Analytics",
+        "Computational Social Sciences",
+        "Natural Language Processing"
+      ],
+      "sourcePageUrl": "https://www.cs.cornell.edu/directory?department=15",
+      "decision": "include_new_pi",
+      "reason": "Cornell CS 官方名录确认其当前教师身份、范围内研究方向，并提供官方个人页与头像。",
+      "evidence": "Professor of Information Science Department Chair; Data Science | Human Centered Natural Language Processing | Human-AI interaction | Digital Humanities, Cultural Analytics | Computational Social Sciences | Natural Language Processing"
+    },
+    {
+      "officialId": "david-naumann",
+      "name": "David Naumann",
+      "profileUrl": "mailto:dan223@cornell.edu",
+      "portraitUrl": "",
+      "title": "Visiting Professor of computer science",
+      "researchAreas": [],
+      "sourcePageUrl": "https://www.cs.cornell.edu/directory?department=15",
+      "decision": "excluded_non_pi",
+      "reason": "官方职称不是当前独立研究 PI。",
+      "evidence": "Visiting Professor of computer science"
+    },
+    {
+      "officialId": "david-s-matteson",
+      "name": "David S. Matteson",
+      "profileUrl": "https://www.cs.cornell.edu/people/david-s-matteson-0",
+      "portraitUrl": "https://www.cs.cornell.edu/sites/default/files/styles/people_directory/public/2025-07/matteson-david.png?h=d1cb525d&itok=osOCS8-o",
+      "title": "Professor of Statistics and Data Science Director of the National Institute of Statistical Sciences",
+      "researchAreas": [
+        "Data Science",
+        "Artificial Intelligence (AI)",
+        "Asymptotic Statistics",
+        "Bayesian Analysis",
+        "Network Science",
+        "Econometrics",
+        "Functional Data Analysis",
+        "High-dimensional Statistics",
+        "Machine Learning",
+        "Spatial Analysis or Spatial Statistics",
+        "Stochastic Processes",
+        "Time Series Analysis"
+      ],
+      "sourcePageUrl": "https://www.cs.cornell.edu/directory?department=15",
+      "decision": "include_new_pi",
+      "reason": "Cornell CS 官方名录确认其当前教师身份、范围内研究方向，并提供官方个人页与头像。",
+      "evidence": "Professor of Statistics and Data Science Director of the National Institute of Statistical Sciences; Data Science | Artificial Intelligence (AI) | Asymptotic Statistics | Bayesian Analysis | Network Science | Econometrics | Functional Data Analysis | High-dimensional Statistics | Machine Learning | Spatial Analysis or Spatial Statistics | Stochastic Processes | Time Series Analysis"
+    },
+    {
+      "officialId": "david-shmoys",
+      "name": "David Shmoys",
+      "profileUrl": "https://www.cs.cornell.edu/people/david-shmoys",
+      "portraitUrl": "https://www.cs.cornell.edu/sites/default/files/styles/people_directory/public/images/people/David_Shmoys.jpg?h=79d7425c&itok=HponAAob",
+      "title": "Laibe/Acheson Professor of Business Management & Leadership Studies",
+      "researchAreas": [
+        "Computing and the Environment",
+        "Theory of Computing"
+      ],
+      "sourcePageUrl": "https://www.cs.cornell.edu/directory?department=15",
+      "decision": "excluded_non_ai_cs",
+      "reason": "官方研究方向未落入本图谱 AI、ML、NLP、CV、机器人、HCI、图形学或数据科学主线。",
+      "evidence": "Computing and the Environment | Theory of Computing"
+    },
+    {
+      "officialId": "david-williamson",
+      "name": "David Williamson",
+      "profileUrl": "https://www.cs.cornell.edu/people/david-williamson",
+      "portraitUrl": "https://www.cs.cornell.edu/sites/default/files/styles/people_directory/public/2025-08/avatar_huf5b8210202f7440519cacea091a6dcf2_313544_250x250_fill_q90_lanczos_center.jpg?h=038a9462&itok=Yub90-vK",
+      "title": "Professor of Information Science Director of the School of Operations Research and Information Engineering",
+      "researchAreas": [
+        "Network Science",
+        "Algorithmic fairness and discrimination",
+        "Theory of Computing"
+      ],
+      "sourcePageUrl": "https://www.cs.cornell.edu/directory?department=15",
+      "decision": "include_new_pi",
+      "reason": "Cornell CS 官方名录确认其当前教师身份、范围内研究方向，并提供官方个人页与头像。",
+      "evidence": "Professor of Information Science Director of the School of Operations Research and Information Engineering; Network Science | Algorithmic fairness and discrimination | Theory of Computing"
+    },
+    {
+      "officialId": "deborah-estrin",
+      "name": "Deborah Estrin",
+      "profileUrl": "https://www.cs.cornell.edu/people/deborah-estrin",
+      "portraitUrl": "https://www.cs.cornell.edu/sites/default/files/styles/people_directory/public/2025-08/estrin_deborah_007hr5-1.jpg?h=9d950064&itok=08CynvHp",
+      "title": "Associate Dean for Impact Robert V. Tishman ’37 Professor of Computer Science",
+      "researchAreas": [
+        "Ubiquitous Computing",
+        "Systems + Networking"
+      ],
+      "sourcePageUrl": "https://www.cs.cornell.edu/directory?department=15",
+      "decision": "excluded_non_ai_cs",
+      "reason": "官方研究方向未落入本图谱 AI、ML、NLP、CV、机器人、HCI、图形学或数据科学主线。",
+      "evidence": "Ubiquitous Computing | Systems + Networking"
+    },
+    {
+      "officialId": "dexter-kozen",
+      "name": "Dexter Kozen",
+      "profileUrl": "https://www.cs.cornell.edu/people/dexter-kozen",
+      "portraitUrl": "https://www.cs.cornell.edu/sites/default/files/styles/people_directory/public/2025-08/dexter-kozen-16x9b.png?h=e7f7be8c&itok=9M7itiep",
+      "title": "Joseph Newton Pew, Jr. Professor Emeritus",
+      "researchAreas": [
+        "Programming Languages",
+        "Security",
+        "Systems + Networking",
+        "Theory of Computing"
+      ],
+      "sourcePageUrl": "https://www.cs.cornell.edu/directory?department=15",
+      "decision": "excluded_historical",
+      "reason": "官方职称不是当前独立研究 PI。",
+      "evidence": "Joseph Newton Pew, Jr. Professor Emeritus"
+    },
+    {
+      "officialId": "diana-cai",
+      "name": "Diana Cai",
+      "profileUrl": "https://www.cs.cornell.edu/people/diana-cai",
+      "portraitUrl": "https://www.cs.cornell.edu/sites/default/files/styles/people_directory/public/2026-08/diana-cai.png?h=d1cb525d&itok=HuCKakhg",
+      "title": "Assistant Professor of Computer Science",
+      "researchAreas": [
+        "Data Science",
+        "Artificial Intelligence (AI)",
+        "Bayesian Analysis",
+        "Machine Learning",
+        "Scientific Computing"
+      ],
+      "sourcePageUrl": "https://www.cs.cornell.edu/directory?department=15",
+      "decision": "included_existing",
+      "reason": "同名现任范围内 PI 已在图谱中。",
+      "evidence": "https://www.cs.cornell.edu/people/diana-cai",
+      "atlasPersonId": "diana-cai-cornell"
+    },
+    {
+      "officialId": "donald-greenberg",
+      "name": "Donald Greenberg",
+      "profileUrl": "https://www.cs.cornell.edu/people/donald-greenberg",
+      "portraitUrl": "https://www.cs.cornell.edu/sites/default/files/styles/people_directory/public/2025-10/don_greenberg.jpg?h=1e66e246&itok=eRQ_27m-",
+      "title": "Professor Emeritus",
+      "researchAreas": [
+        "Graphics"
+      ],
+      "sourcePageUrl": "https://www.cs.cornell.edu/directory?department=15",
+      "decision": "excluded_historical",
+      "reason": "官方职称不是当前独立研究 PI。",
+      "evidence": "Professor Emeritus"
+    },
+    {
+      "officialId": "douglas-turnbull",
+      "name": "Douglas Turnbull",
+      "profileUrl": "mailto:drt67@cornell.edu",
+      "portraitUrl": "",
+      "title": "Visiting Associate Professor of computer science",
+      "researchAreas": [],
+      "sourcePageUrl": "https://www.cs.cornell.edu/directory?department=15",
+      "decision": "excluded_non_pi",
+      "reason": "官方职称不是当前独立研究 PI。",
+      "evidence": "Visiting Associate Professor of computer science"
+    },
+    {
+      "officialId": "emaad-manzoor",
+      "name": "Emaad Manzoor",
+      "profileUrl": "mailto:emaadmanzoor@cornell.edu",
+      "portraitUrl": "https://www.cs.cornell.edu/sites/default/files/styles/people_directory/public/images/people/emaad_0.jpg?h=a299adf4&itok=WclPOw3A",
+      "title": "Assistant Professor of Marketing, Cornell SC Johnson College of Business",
+      "researchAreas": [
+        "Machine Learning"
+      ],
+      "sourcePageUrl": "https://www.cs.cornell.edu/directory?department=15",
+      "decision": "include_new_pi",
+      "reason": "Cornell CS 官方名录确认其当前教师身份、范围内研究方向，并提供官方个人页与头像。",
+      "evidence": "Assistant Professor of Marketing, Cornell SC Johnson College of Business; Machine Learning"
+    },
+    {
+      "officialId": "erasmo-tani",
+      "name": "Erasmo Tani",
+      "profileUrl": "https://www.cs.cornell.edu/people/erasmo-tani",
+      "portraitUrl": "https://www.cs.cornell.edu/sites/default/files/styles/people_directory/public/2026-08/5f8a0077-2888_0.png?h=d1cb525d&itok=XNJX-d3b",
+      "title": "Assistant Teaching Professor of Computer Science",
+      "researchAreas": [
+        "Artificial Intelligence (AI)",
+        "Machine Learning",
+        "Theory of Computing"
+      ],
+      "sourcePageUrl": "https://www.cs.cornell.edu/directory?department=15",
+      "decision": "excluded_non_pi",
+      "reason": "官方职称不是当前独立研究 PI。",
+      "evidence": "Assistant Teaching Professor of Computer Science"
+    },
+    {
+      "officialId": "eshan-chattopadhyay",
+      "name": "Eshan Chattopadhyay",
+      "profileUrl": "https://www.cs.cornell.edu/people/eshan-chattopadhyay",
+      "portraitUrl": "https://www.cs.cornell.edu/sites/default/files/styles/people_directory/public/2025-07/chattopadhyay-eshan.jpg?h=bc7d0c7c&itok=UFZlxFuA",
+      "title": "Associate Professor of Computer Science",
+      "researchAreas": [
+        "Theory of Computing"
+      ],
+      "sourcePageUrl": "https://www.cs.cornell.edu/directory?department=15",
+      "decision": "excluded_non_ai_cs",
+      "reason": "官方研究方向未落入本图谱 AI、ML、NLP、CV、机器人、HCI、图形学或数据科学主线。",
+      "evidence": "Theory of Computing"
+    },
+    {
+      "officialId": "fei-wang",
+      "name": "Fei Wang",
+      "profileUrl": "mailto:fw83@cornell.edu",
+      "portraitUrl": "https://www.cs.cornell.edu/sites/default/files/styles/people_directory/public/images/people/fei_wang_1.jpeg?h=182c954e&itok=hXnlraTE",
+      "title": "Assistant Professor of Healthcare Policy and Research, Weil Cornell",
+      "researchAreas": [
+        "Data Science"
+      ],
+      "sourcePageUrl": "https://www.cs.cornell.edu/directory?department=15",
+      "decision": "include_new_pi",
+      "reason": "Cornell CS 官方名录确认其当前教师身份、范围内研究方向，并提供官方个人页与头像。",
+      "evidence": "Assistant Professor of Healthcare Policy and Research, Weil Cornell; Data Science"
+    },
+    {
+      "officialId": "fengqi-you",
+      "name": "Fengqi You",
+      "profileUrl": "mailto:fengqi.you@cornell.edu",
+      "portraitUrl": "https://www.cs.cornell.edu/sites/default/files/styles/people_directory/public/images/people/fengqi_you_0.jpg?h=0f24e3c2&itok=MtqsyFuu",
+      "title": "Roxanne E. and Michael J. Zak Professor in Energy Systems Engineering",
+      "researchAreas": [],
+      "sourcePageUrl": "https://www.cs.cornell.edu/directory?department=15",
+      "decision": "excluded_non_ai_cs",
+      "reason": "官方研究方向未落入本图谱 AI、ML、NLP、CV、机器人、HCI、图形学或数据科学主线。",
+      "evidence": "Roxanne E. and Michael J. Zak Professor in Energy Systems Engineering"
+    },
+    {
+      "officialId": "florentina-bunea",
+      "name": "Florentina Bunea",
+      "profileUrl": "https://www.cs.cornell.edu/people/florentina-bunea",
+      "portraitUrl": "https://www.cs.cornell.edu/sites/default/files/styles/people_directory/public/2026-05/florentina_bunea-16x9_0.png?h=d1cb525d&itok=XsD4JTo4",
+      "title": "Professor of Statistics and Data Science",
+      "researchAreas": [
+        "Asymptotic Statistics",
+        "Machine Learning",
+        "Model Selection",
+        "Statistical Optimal Transport in High Dimensions"
+      ],
+      "sourcePageUrl": "https://www.cs.cornell.edu/directory?department=15",
+      "decision": "include_new_pi",
+      "reason": "Cornell CS 官方名录确认其当前教师身份、范围内研究方向，并提供官方个人页与头像。",
+      "evidence": "Professor of Statistics and Data Science; Asymptotic Statistics | Machine Learning | Model Selection | Statistical Optimal Transport in High Dimensions"
+    },
+    {
+      "officialId": "francesca-parise",
+      "name": "Francesca Parise",
+      "profileUrl": "mailto:fp264@cornell.edu",
+      "portraitUrl": "https://www.cs.cornell.edu/sites/default/files/styles/people_directory/public/images/people/parise-231x300.jpg?h=3e790d90&itok=Q9sM1Ef1",
+      "title": "Assistant Professor of Electrical and Computer Engineering",
+      "researchAreas": [
+        "Theory of Computing"
+      ],
+      "sourcePageUrl": "https://www.cs.cornell.edu/directory?department=15",
+      "decision": "excluded_non_ai_cs",
+      "reason": "官方研究方向未落入本图谱 AI、ML、NLP、CV、机器人、HCI、图形学或数据科学主线。",
+      "evidence": "Theory of Computing"
+    },
+    {
+      "officialId": "francois-guimbretiere",
+      "name": "François Guimbretière",
+      "profileUrl": "https://www.cs.cornell.edu/people/francois-guimbretiere",
+      "portraitUrl": "https://www.cs.cornell.edu/sites/default/files/styles/people_directory/public/images/people/guimbretiere-francois.jpg?h=d649f601&itok=eqgDGPsy",
+      "title": "Professor of Information Science",
+      "researchAreas": [
+        "Human-Computer Interaction and Design",
+        "Fabrication",
+        "Human-Robot Interaction",
+        "Ubiquitous Computing"
+      ],
+      "sourcePageUrl": "https://www.cs.cornell.edu/directory?department=15",
+      "decision": "include_new_pi",
+      "reason": "Cornell CS 官方名录确认其当前教师身份、范围内研究方向，并提供官方个人页与头像。",
+      "evidence": "Professor of Information Science; Human-Computer Interaction and Design | Fabrication | Human-Robot Interaction | Ubiquitous Computing"
+    },
+    {
+      "officialId": "fred-b-schneider",
+      "name": "Fred B. Schneider",
+      "profileUrl": "https://www.cs.cornell.edu/people/fred-b-schneider",
+      "portraitUrl": "https://www.cs.cornell.edu/sites/default/files/styles/people_directory/public/2025-07/fred-schneider.jpg?h=3817fcf2&itok=xyrGn-EK",
+      "title": "Samuel B. Eckert Professor of Computer Science",
+      "researchAreas": [
+        "Ethics, Law and Policy",
+        "Tech and the law",
+        "Programming Languages",
+        "Security",
+        "Software Engineering",
+        "Systems + Networking"
+      ],
+      "sourcePageUrl": "https://www.cs.cornell.edu/directory?department=15",
+      "decision": "excluded_non_ai_cs",
+      "reason": "官方研究方向未落入本图谱 AI、ML、NLP、CV、机器人、HCI、图形学或数据科学主线。",
+      "evidence": "Ethics, Law and Policy | Tech and the law | Programming Languages | Security | Software Engineering | Systems + Networking"
+    },
+    {
+      "officialId": "giulia-guidi",
+      "name": "Giulia Guidi",
+      "profileUrl": "https://www.cs.cornell.edu/people/giulia-guidi",
+      "portraitUrl": "https://www.cs.cornell.edu/sites/default/files/styles/people_directory/public/2026-06/gg434_cornell_edu-5381d094-original-edited_0.jpg?h=73ac769d&itok=Wn1PYmhJ",
+      "title": "Assistant Professor of Computer Science",
+      "researchAreas": [
+        "Scientific Computing",
+        "Systems + Networking"
+      ],
+      "sourcePageUrl": "https://www.cs.cornell.edu/directory?department=15",
+      "decision": "excluded_non_ai_cs",
+      "reason": "官方研究方向未落入本图谱 AI、ML、NLP、CV、机器人、HCI、图形学或数据科学主线。",
+      "evidence": "Scientific Computing | Systems + Networking"
+    },
+    {
+      "officialId": "graeme-bailey",
+      "name": "Graeme Bailey",
+      "profileUrl": "mailto:bailey@cs.cornell.edu",
+      "portraitUrl": "",
+      "title": "Adjunct Professor of Computer Science",
+      "researchAreas": [],
+      "sourcePageUrl": "https://www.cs.cornell.edu/directory?department=15",
+      "decision": "excluded_non_ai_cs",
+      "reason": "官方研究方向未落入本图谱 AI、ML、NLP、CV、机器人、HCI、图形学或数据科学主线。",
+      "evidence": "Adjunct Professor of Computer Science"
+    },
+    {
+      "officialId": "greg-morrisett",
+      "name": "Greg Morrisett",
+      "profileUrl": "https://www.cs.cornell.edu/people/greg-morrisett",
+      "portraitUrl": "https://www.cs.cornell.edu/sites/default/files/styles/people_directory/public/2025-08/morrisett-greg.jpg?h=0500856d&itok=icJekXmP",
+      "title": "Professor of Computer Science Jack and Rilla Neafsey Dean and Vice Provost, Cornell Tech",
+      "researchAreas": [
+        "Programming Languages",
+        "Security",
+        "Systems + Networking"
+      ],
+      "sourcePageUrl": "https://www.cs.cornell.edu/directory?department=15",
+      "decision": "excluded_non_ai_cs",
+      "reason": "官方研究方向未落入本图谱 AI、ML、NLP、CV、机器人、HCI、图形学或数据科学主线。",
+      "evidence": "Programming Languages | Security | Systems + Networking"
+    },
+    {
+      "officialId": "guy-hoffman",
+      "name": "Guy Hoffman",
+      "profileUrl": "mailto:hoffman@cornell.edu",
+      "portraitUrl": "https://www.cs.cornell.edu/sites/default/files/styles/people_directory/public/images/people/guy-hoffman.jpg?h=93fa4828&itok=AC5kwK-F",
+      "title": "Associate Professor of Mechanical and Aerospace Engineering Mills Family Faculty Fellow",
+      "researchAreas": [
+        "Human-Robot Interaction"
+      ],
+      "sourcePageUrl": "https://www.cs.cornell.edu/directory?department=15",
+      "decision": "excluded_non_ai_cs",
+      "reason": "官方研究方向未落入本图谱 AI、ML、NLP、CV、机器人、HCI、图形学或数据科学主线。",
+      "evidence": "Human-Robot Interaction"
+    },
+    {
+      "officialId": "hadar-averbuch-elor",
+      "name": "Hadar Averbuch-Elor",
+      "profileUrl": "https://www.cs.cornell.edu/people/hadar-averbuch-elor",
+      "portraitUrl": "https://www.cs.cornell.edu/sites/default/files/styles/people_directory/public/images/people/hadar2022.png?h=554f4fc8&itok=HXLujPc6",
+      "title": "Assistant Professor of Computer Science",
+      "researchAreas": [
+        "Graphics",
+        "Vision"
+      ],
+      "sourcePageUrl": "https://www.cs.cornell.edu/directory?department=15",
+      "decision": "included_existing",
+      "reason": "同名现任范围内 PI 已在图谱中。",
+      "evidence": "https://www.cs.cornell.edu/people/hadar-averbuch-elor",
+      "atlasPersonId": "hadar-averbuch-elor-cornell"
+    },
+    {
+      "officialId": "hadas-kress-gazit",
+      "name": "Hadas Kress-Gazit",
+      "profileUrl": "mailto:hk478@cornell.edu",
+      "portraitUrl": "https://www.cs.cornell.edu/sites/default/files/styles/people_directory/public/2025-08/hadas-kress-gazit.png?h=a9538768&itok=_it_AlD5",
+      "title": "Professor at the Sibley School of Mechanical and Aerospace Engineerin",
+      "researchAreas": [
+        "Human Interaction",
+        "Robotics"
+      ],
+      "sourcePageUrl": "https://www.cs.cornell.edu/directory?department=15",
+      "decision": "include_new_pi",
+      "reason": "Cornell CS 官方名录确认其当前教师身份、范围内研究方向，并提供官方个人页与头像。",
+      "evidence": "Professor at the Sibley School of Mechanical and Aerospace Engineerin; Human Interaction | Robotics"
+    },
+    {
+      "officialId": "haiyuan-yu",
+      "name": "Haiyuan Yu",
+      "profileUrl": "mailto:hy299@cornell.edu",
+      "portraitUrl": "https://www.cs.cornell.edu/sites/default/files/styles/people_directory/public/images/people/yu.jpg?h=7d66a0c3&itok=gO4VwsjZ",
+      "title": "Professor of Biological Statistics & Computational Biology",
+      "researchAreas": [
+        "Computational Biology"
+      ],
+      "sourcePageUrl": "https://www.cs.cornell.edu/directory?department=15",
+      "decision": "include_new_pi",
+      "reason": "Cornell CS 官方名录确认其当前教师身份、范围内研究方向，并提供官方个人页与头像。",
+      "evidence": "Professor of Biological Statistics & Computational Biology; Computational Biology"
+    },
+    {
+      "officialId": "hakim-weatherspoon",
+      "name": "Hakim Weatherspoon",
+      "profileUrl": "https://www.cs.cornell.edu/people/hakim-weatherspoon",
+      "portraitUrl": "https://www.cs.cornell.edu/sites/default/files/styles/people_directory/public/2025-07/hakim-weatherspoon.jpg?h=5d7d0d7f&itok=IQhzUcb8",
+      "title": "Associate Dean for Belonging at Bowers, Professor of Computer Science",
+      "researchAreas": [
+        "Systems + Networking"
+      ],
+      "sourcePageUrl": "https://www.cs.cornell.edu/directory?department=15",
+      "decision": "excluded_non_ai_cs",
+      "reason": "官方研究方向未落入本图谱 AI、ML、NLP、CV、机器人、HCI、图形学或数据科学主线。",
+      "evidence": "Systems + Networking"
+    },
+    {
+      "officialId": "haym-hirsh",
+      "name": "Haym Hirsh",
+      "profileUrl": "https://www.cs.cornell.edu/people/haym-hirsh",
+      "portraitUrl": "https://www.cs.cornell.edu/sites/default/files/styles/people_directory/public/2025-07/hirsh-haym.jpg?h=de9a6b06&itok=rZNAxMll",
+      "title": "Professor of Computer Science Director of MEng Program",
+      "researchAreas": [
+        "Data Science",
+        "Human-AI interaction",
+        "Artificial Intelligence (AI)",
+        "Machine Learning"
+      ],
+      "sourcePageUrl": "https://www.cs.cornell.edu/directory?department=15",
+      "decision": "include_new_pi",
+      "reason": "Cornell CS 官方名录确认其当前教师身份、范围内研究方向，并提供官方个人页与头像。",
+      "evidence": "Professor of Computer Science Director of MEng Program; Data Science | Human-AI interaction | Artificial Intelligence (AI) | Machine Learning"
+    },
+    {
+      "officialId": "immanuel-trummer",
+      "name": "Immanuel Trummer",
+      "profileUrl": "https://www.cs.cornell.edu/people/immanuel-trummer",
+      "portraitUrl": "https://www.cs.cornell.edu/sites/default/files/styles/people_directory/public/2026-04/itrummer1_0.png?h=f3e1135c&itok=mM_0y1cg",
+      "title": "Associate Professor of Computer Science",
+      "researchAreas": [
+        "Database Systems"
+      ],
+      "sourcePageUrl": "https://www.cs.cornell.edu/directory?department=15",
+      "decision": "excluded_non_ai_cs",
+      "reason": "官方研究方向未落入本图谱 AI、ML、NLP、CV、机器人、HCI、图形学或数据科学主线。",
+      "evidence": "Database Systems"
+    },
+    {
+      "officialId": "jayadev-acharya",
+      "name": "Jayadev Acharya",
+      "profileUrl": "mailto:acharya@cornell.edu",
+      "portraitUrl": "https://www.cs.cornell.edu/sites/default/files/styles/people_directory/public/images/people/Acharya%2C_Jayadev.jpg?h=396fc95b&itok=dmu4Zz_E",
+      "title": "Assistant Professor of Electrical and Computer Engineering",
+      "researchAreas": [
+        "Theory of Computing"
+      ],
+      "sourcePageUrl": "https://www.cs.cornell.edu/directory?department=15",
+      "decision": "excluded_non_ai_cs",
+      "reason": "官方研究方向未落入本图谱 AI、ML、NLP、CV、机器人、HCI、图形学或数据科学主线。",
+      "evidence": "Theory of Computing"
+    },
+    {
+      "officialId": "jennifer-j-sun",
+      "name": "Jennifer J. Sun",
+      "profileUrl": "https://www.cs.cornell.edu/people/jennifer-j-sun",
+      "portraitUrl": "https://www.cs.cornell.edu/sites/default/files/styles/people_directory/public/images/people/sun_jennifer.jpeg?h=efcd68b1&itok=-2vndPiq",
+      "title": "Assistant Professor in Computer Science",
+      "researchAreas": [
+        "Artificial Intelligence (AI)",
+        "Machine Learning",
+        "Vision"
+      ],
+      "sourcePageUrl": "https://www.cs.cornell.edu/directory?department=15",
+      "decision": "included_existing",
+      "reason": "同名现任范围内 PI 已在图谱中。",
+      "evidence": "https://www.cs.cornell.edu/people/jennifer-j-sun",
+      "atlasPersonId": "jennifer-sun-cornell"
+    },
+    {
+      "officialId": "john-hopcroft",
+      "name": "John Hopcroft",
+      "profileUrl": "https://www.cs.cornell.edu/people/john-hopcroft",
+      "portraitUrl": "https://www.cs.cornell.edu/sites/default/files/styles/people_directory/public/2025-06/0781_07_a_014_select.jpg?h=5483fcba&itok=tJNZ8ekd",
+      "title": "Professor Emeritus",
+      "researchAreas": [
+        "Theory of Computing"
+      ],
+      "sourcePageUrl": "https://www.cs.cornell.edu/directory?department=15",
+      "decision": "excluded_historical",
+      "reason": "官方职称不是当前独立研究 PI。",
+      "evidence": "Professor Emeritus"
+    },
+    {
+      "officialId": "john-thickstun",
+      "name": "John Thickstun",
+      "profileUrl": "https://www.cs.cornell.edu/people/john-thickstun",
+      "portraitUrl": "https://www.cs.cornell.edu/sites/default/files/styles/people_directory/public/images/people/thumbnail_john-thickstun.jpg?h=4e8d6f4c&itok=Cin_idSV",
+      "title": "Assistant Professor of Computer Science",
+      "researchAreas": [
+        "Artificial Intelligence (AI)",
+        "Machine Learning",
+        "Natural Language Processing"
+      ],
+      "sourcePageUrl": "https://www.cs.cornell.edu/directory?department=15",
+      "decision": "included_existing",
+      "reason": "同名现任范围内 PI 已在图谱中。",
+      "evidence": "https://www.cs.cornell.edu/people/john-thickstun",
+      "atlasPersonId": "john-thickstun-cornell"
+    },
+    {
+      "officialId": "jon-kleinberg",
+      "name": "Jon Kleinberg",
+      "profileUrl": "https://www.cs.cornell.edu/people/jon-kleinberg",
+      "portraitUrl": "https://www.cs.cornell.edu/sites/default/files/styles/people_directory/public/2025-07/cis_jonkaren_05062024_crachelphilipson_4164-crop.jpg?h=c2b46446&itok=EBUkaNhO",
+      "title": "Tisch University Professor of Computer Science and Information Science",
+      "researchAreas": [
+        "Data Science",
+        "Artificial Intelligence (AI)",
+        "Network Science",
+        "Computational Social Sciences",
+        "Ethics, Law and Policy",
+        "Human-Computer Interaction and Design",
+        "Theory of Computing"
+      ],
+      "sourcePageUrl": "https://www.cs.cornell.edu/directory?department=15",
+      "decision": "include_new_pi",
+      "reason": "Cornell CS 官方名录确认其当前教师身份、范围内研究方向，并提供官方个人页与头像。",
+      "evidence": "Tisch University Professor of Computer Science and Information Science; Data Science | Artificial Intelligence (AI) | Network Science | Computational Social Sciences | Ethics, Law and Policy | Human-Computer Interaction and Design | Theory of Computing"
+    },
+    {
+      "officialId": "jose-martinez",
+      "name": "Josè Martinez",
+      "profileUrl": "mailto:jfm37@cornell.edu",
+      "portraitUrl": "https://www.cs.cornell.edu/sites/default/files/styles/people_directory/public/images/people/Martinez%2C_Jose.jpg?h=07a49c3e&itok=vGZEBG9l",
+      "title": "Professor of Electrical and Computer Engineering",
+      "researchAreas": [
+        "Architecture",
+        "Systems + Networking"
+      ],
+      "sourcePageUrl": "https://www.cs.cornell.edu/directory?department=15",
+      "decision": "excluded_non_ai_cs",
+      "reason": "官方研究方向未落入本图谱 AI、ML、NLP、CV、机器人、HCI、图形学或数据科学主线。",
+      "evidence": "Architecture | Systems + Networking"
+    },
+    {
+      "officialId": "justin-hsu",
+      "name": "Justin Hsu",
+      "profileUrl": "https://www.cs.cornell.edu/people/justin-hsu",
+      "portraitUrl": "https://www.cs.cornell.edu/sites/default/files/styles/people_directory/public/2025-08/justin-hsu-16x9.png?h=8663ca18&itok=vkyGWLFT",
+      "title": "Associate Professor of Computer Science",
+      "researchAreas": [
+        "Programming Languages",
+        "Security",
+        "Theory of Computing"
+      ],
+      "sourcePageUrl": "https://www.cs.cornell.edu/directory?department=15",
+      "decision": "excluded_non_ai_cs",
+      "reason": "官方研究方向未落入本图谱 AI、ML、NLP、CV、机器人、HCI、图形学或数据科学主线。",
+      "evidence": "Programming Languages | Security | Theory of Computing"
+    },
+    {
+      "officialId": "k-y-daisy-fan",
+      "name": "K.-Y. Daisy Fan",
+      "profileUrl": "https://www.cs.cornell.edu/people/k-y-daisy-fan",
+      "portraitUrl": "https://www.cs.cornell.edu/sites/default/files/styles/people_directory/public/2025-07/dfan_bw_2022.png?h=d1cb525d&itok=5byn3VKb",
+      "title": "Teaching Professor of Computer Science",
+      "researchAreas": [],
+      "sourcePageUrl": "https://www.cs.cornell.edu/directory?department=15",
+      "decision": "excluded_non_pi",
+      "reason": "官方职称不是当前独立研究 PI。",
+      "evidence": "Teaching Professor of Computer Science"
+    },
+    {
+      "officialId": "kamile-stankeviciute",
+      "name": "Kamile Stankevičiūtė",
+      "profileUrl": "mailto:ks2448@cornell.edu",
+      "portraitUrl": "",
+      "title": "Visiting Research Scholar of computer science",
+      "researchAreas": [],
+      "sourcePageUrl": "https://www.cs.cornell.edu/directory?department=15",
+      "decision": "excluded_non_pi",
+      "reason": "官方职称不是当前独立研究 PI。",
+      "evidence": "Visiting Research Scholar of computer science"
+    },
+    {
+      "officialId": "karthik-sridharan",
+      "name": "Karthik Sridharan",
+      "profileUrl": "https://www.cs.cornell.edu/people/karthik-sridharan",
+      "portraitUrl": "https://www.cs.cornell.edu/sites/default/files/styles/people_directory/public/2025-08/karthik-sridharan-16x9.png.jpg?h=e7f7be8c&itok=kHqmRLn0",
+      "title": "Associate Professor of Computer Science",
+      "researchAreas": [],
+      "sourcePageUrl": "https://www.cs.cornell.edu/directory?department=15",
+      "decision": "excluded_non_ai_cs",
+      "reason": "官方研究方向未落入本图谱 AI、ML、NLP、CV、机器人、HCI、图形学或数据科学主线。",
+      "evidence": "Associate Professor of Computer Science"
+    },
+    {
+      "officialId": "kavita-bala",
+      "name": "Kavita Bala",
+      "profileUrl": "https://www.cs.cornell.edu/people/kavita-bala",
+      "portraitUrl": "https://www.cs.cornell.edu/sites/default/files/styles/people_directory/public/2025-07/bala-16x9.jpg?h=ca579add&itok=HrbL0wcT",
+      "title": "Provost Professor of Computer Science",
+      "researchAreas": [
+        "Artificial Intelligence (AI)",
+        "Graphics",
+        "Machine Learning",
+        "Vision"
+      ],
+      "sourcePageUrl": "https://www.cs.cornell.edu/directory?department=15",
+      "decision": "include_new_pi",
+      "reason": "Cornell CS 官方名录确认其当前教师身份、范围内研究方向，并提供官方个人页与头像。",
+      "evidence": "Provost Professor of Computer Science; Artificial Intelligence (AI) | Graphics | Machine Learning | Vision"
+    },
+    {
+      "officialId": "ken-birman",
+      "name": "Ken Birman",
+      "profileUrl": "https://www.cs.cornell.edu/people/ken-birman",
+      "portraitUrl": "https://www.cs.cornell.edu/sites/default/files/styles/people_directory/public/2025-07/birman.jpg?h=495df1f7&itok=IF0cEQV5",
+      "title": "N. Rama Rao Professor of Computer Science",
+      "researchAreas": [
+        "Machine Learning",
+        "Security",
+        "Software Engineering",
+        "Systems + Networking"
+      ],
+      "sourcePageUrl": "https://www.cs.cornell.edu/directory?department=15",
+      "decision": "include_new_pi",
+      "reason": "Cornell CS 官方名录确认其当前教师身份、范围内研究方向，并提供官方个人页与头像。",
+      "evidence": "N. Rama Rao Professor of Computer Science; Machine Learning | Security | Software Engineering | Systems + Networking"
+    },
+    {
+      "officialId": "kevin-ellis",
+      "name": "Kevin Ellis",
+      "profileUrl": "https://www.cs.cornell.edu/people/kevin-ellis",
+      "portraitUrl": "https://www.cs.cornell.edu/sites/default/files/styles/people_directory/public/images/people/kme72-cs-ap-001_2.jpg?h=1311d30a&itok=SucwK0O9",
+      "title": "Assistant Professor of Computer Science",
+      "researchAreas": [
+        "Artificial Intelligence (AI)",
+        "Machine Learning",
+        "Programming Languages"
+      ],
+      "sourcePageUrl": "https://www.cs.cornell.edu/directory?department=15",
+      "decision": "included_existing",
+      "reason": "同名现任范围内 PI 已在图谱中。",
+      "evidence": "https://www.cs.cornell.edu/people/kevin-ellis",
+      "atlasPersonId": "armando-solar-lezama-lineage"
+    },
+    {
+      "officialId": "kilian-weinberger",
+      "name": "Kilian Weinberger",
+      "profileUrl": "https://www.cs.cornell.edu/people/kilian-weinberger",
+      "portraitUrl": "https://www.cs.cornell.edu/sites/default/files/styles/people_directory/public/2025-07/kilian.png?h=9d107385&itok=TR_ndQha",
+      "title": "Professor of Computer Science",
+      "researchAreas": [
+        "Artificial Intelligence (AI)",
+        "Machine Learning",
+        "Natural Language Processing",
+        "Vision"
+      ],
+      "sourcePageUrl": "https://www.cs.cornell.edu/directory?department=15",
+      "decision": "include_new_pi",
+      "reason": "Cornell CS 官方名录确认其当前教师身份、范围内研究方向，并提供官方个人页与头像。",
+      "evidence": "Professor of Computer Science; Artificial Intelligence (AI) | Machine Learning | Natural Language Processing | Vision"
+    },
+    {
+      "officialId": "kirstin-petersen",
+      "name": "Kirstin Petersen",
+      "profileUrl": "mailto:khp37@cornell.edu",
+      "portraitUrl": "",
+      "title": "Assistant Professor of Electrical and Computer Engineering",
+      "researchAreas": [],
+      "sourcePageUrl": "https://www.cs.cornell.edu/directory?department=15",
+      "decision": "excluded_non_ai_cs",
+      "reason": "官方研究方向未落入本图谱 AI、ML、NLP、CV、机器人、HCI、图形学或数据科学主线。",
+      "evidence": "Assistant Professor of Electrical and Computer Engineering"
+    },
+    {
+      "officialId": "kristina-monakhova",
+      "name": "Kristina Monakhova",
+      "profileUrl": "https://www.cs.cornell.edu/people/kristina-monakhova",
+      "portraitUrl": "https://www.cs.cornell.edu/sites/default/files/styles/people_directory/public/images/people/monakhova_kristina.jpeg?h=6258387e&itok=3dFRAo52",
+      "title": "Assistant Professor of Computer Science",
+      "researchAreas": [
+        "Artificial Intelligence (AI)",
+        "Computational Biology",
+        "Graphics",
+        "Machine Learning",
+        "Vision"
+      ],
+      "sourcePageUrl": "https://www.cs.cornell.edu/directory?department=15",
+      "decision": "include_new_pi",
+      "reason": "Cornell CS 官方名录确认其当前教师身份、范围内研究方向，并提供官方个人页与头像。",
+      "evidence": "Assistant Professor of Computer Science; Artificial Intelligence (AI) | Computational Biology | Graphics | Machine Learning | Vision"
+    },
+    {
+      "officialId": "kuan-fang",
+      "name": "Kuan Fang",
+      "profileUrl": "https://www.cs.cornell.edu/people/kuan-fang",
+      "portraitUrl": "https://www.cs.cornell.edu/sites/default/files/styles/people_directory/public/images/people/fang_kuan.jpeg?h=72de13fc&itok=oaGYxFE2",
+      "title": "Assistant Professor of Computer Science",
+      "researchAreas": [
+        "Artificial Intelligence (AI)",
+        "Machine Learning",
+        "Robotics",
+        "Vision"
+      ],
+      "sourcePageUrl": "https://www.cs.cornell.edu/directory?department=15",
+      "decision": "include_new_pi",
+      "reason": "Cornell CS 官方名录确认其当前教师身份、范围内研究方向，并提供官方个人页与头像。",
+      "evidence": "Assistant Professor of Computer Science; Artificial Intelligence (AI) | Machine Learning | Robotics | Vision"
+    },
+    {
+      "officialId": "kyra-gan",
+      "name": "Kyra Gan",
+      "profileUrl": "mailto:kyragan@cornell.edu",
+      "portraitUrl": "https://www.cs.cornell.edu/sites/default/files/styles/people_directory/public/images/people/kyragan.png?h=43700c77&itok=iPnwxpYF",
+      "title": "Assistant Professor of Operations Research and Information Engineering",
+      "researchAreas": [],
+      "sourcePageUrl": "https://www.cs.cornell.edu/directory?department=15",
+      "decision": "excluded_non_ai_cs",
+      "reason": "官方研究方向未落入本图谱 AI、ML、NLP、CV、机器人、HCI、图形学或数据科学主线。",
+      "evidence": "Assistant Professor of Operations Research and Information Engineering"
+    },
+    {
+      "officialId": "leah-perlmutter",
+      "name": "Leah Perlmutter",
+      "profileUrl": "https://www.cs.cornell.edu/people/leah-perlmutter",
+      "portraitUrl": "",
+      "title": "Lecturer of Computer Science",
+      "researchAreas": [
+        "Human Interaction"
+      ],
+      "sourcePageUrl": "https://www.cs.cornell.edu/directory?department=15",
+      "decision": "excluded_non_pi",
+      "reason": "官方职称不是当前独立研究 PI。",
+      "evidence": "Lecturer of Computer Science"
+    },
+    {
+      "officialId": "lillian-lee",
+      "name": "Lillian Lee",
+      "profileUrl": "https://www.cs.cornell.edu/people/lillian-lee",
+      "portraitUrl": "",
+      "title": "Charles Roy Davis Professor of Computer Science",
+      "researchAreas": [
+        "Artificial Intelligence (AI)",
+        "Human Interaction",
+        "Machine Learning",
+        "Natural Language Processing"
+      ],
+      "sourcePageUrl": "https://www.cs.cornell.edu/directory?department=15",
+      "decision": "included_existing",
+      "reason": "同名现任范围内 PI 已在图谱中。",
+      "evidence": "https://www.cs.cornell.edu/people/lillian-lee",
+      "atlasPersonId": "lillian-lee-us"
+    },
+    {
+      "officialId": "liron-cohen",
+      "name": "Liron Cohen",
+      "profileUrl": "mailto:lironcohen@cornell.edu",
+      "portraitUrl": "",
+      "title": "Visting Scientist of computer science",
+      "researchAreas": [],
+      "sourcePageUrl": "https://www.cs.cornell.edu/directory?department=15",
+      "decision": "excluded_non_ai_cs",
+      "reason": "官方研究方向未落入本图谱 AI、ML、NLP、CV、机器人、HCI、图形学或数据科学主线。",
+      "evidence": "Visting Scientist of computer science"
+    },
+    {
+      "officialId": "lorenzo-alvisi",
+      "name": "Lorenzo Alvisi",
+      "profileUrl": "https://www.cs.cornell.edu/people/lorenzo-alvisi",
+      "portraitUrl": "https://www.cs.cornell.edu/sites/default/files/styles/people_directory/public/2025-07/alvisi-lorenzo-crop-not-workingjpg_2.jpg?h=fffdf331&itok=0zjIz7gs",
+      "title": "Tisch University Professor of Computer Science Chair of the Department of Computer Science",
+      "researchAreas": [
+        "Systems + Networking"
+      ],
+      "sourcePageUrl": "https://www.cs.cornell.edu/directory?department=15",
+      "decision": "excluded_non_ai_cs",
+      "reason": "官方研究方向未落入本图谱 AI、ML、NLP、CV、机器人、HCI、图形学或数据科学主线。",
+      "evidence": "Systems + Networking"
+    },
+    {
+      "officialId": "mae-milano",
+      "name": "Mae Milano",
+      "profileUrl": "mailto:mpm288@cornell.edu",
+      "portraitUrl": "",
+      "title": "Visiting Scholar in computer science",
+      "researchAreas": [],
+      "sourcePageUrl": "https://www.cs.cornell.edu/directory?department=15",
+      "decision": "excluded_non_pi",
+      "reason": "官方职称不是当前独立研究 PI。",
+      "evidence": "Visiting Scholar in computer science"
+    },
+    {
+      "officialId": "malte-f-jung",
+      "name": "Malte F. Jung",
+      "profileUrl": "https://www.cs.cornell.edu/people/malte-f-jung",
+      "portraitUrl": "https://www.cs.cornell.edu/sites/default/files/styles/people_directory/public/2025-07/malte-jung.png?h=d1cb525d&itok=f9WPd3-D",
+      "title": "Associate Professor of Information Science Nancy H. ’62 and Philip M. ’62 Young Sesquicentennial Faculty Fellow",
+      "researchAreas": [
+        "Human-AI interaction",
+        "Critical and humanistic approaches to computing",
+        "Arts and Technology",
+        "Science + Technology Studies",
+        "Human Interaction",
+        "Human-Computer Interaction and Design",
+        "Human-Robot Interaction",
+        "Robotics"
+      ],
+      "sourcePageUrl": "https://www.cs.cornell.edu/directory?department=15",
+      "decision": "include_new_pi",
+      "reason": "Cornell CS 官方名录确认其当前教师身份、范围内研究方向，并提供官方个人页与头像。",
+      "evidence": "Associate Professor of Information Science Nancy H. ’62 and Philip M. ’62 Young Sesquicentennial Faculty Fellow; Human-AI interaction | Critical and humanistic approaches to computing | Arts and Technology | Science + Technology Studies | Human Interaction | Human-Computer Interaction and Design | Human-Robot Interaction | Robotics"
+    },
+    {
+      "officialId": "mark-campbell",
+      "name": "Mark Campbell",
+      "profileUrl": "https://www.duffield.cornell.edu/people/mark-campbell/",
+      "portraitUrl": "https://www.cs.cornell.edu/sites/default/files/styles/people_directory/public/images/people/campbellpic2.jpg?h=601e9b23&itok=esdsuN6H",
+      "title": "John A. Mellowes '60 Professor in Mechanical Engineering",
+      "researchAreas": [
+        "Robotics"
+      ],
+      "sourcePageUrl": "https://www.cs.cornell.edu/directory?department=15",
+      "decision": "include_new_pi",
+      "reason": "Cornell CS 官方名录确认其当前教师身份、范围内研究方向，并提供官方个人页与头像。",
+      "evidence": "John A. Mellowes '60 Professor in Mechanical Engineering; Robotics"
+    },
+    {
+      "officialId": "mark-wilde",
+      "name": "Mark Wilde",
+      "profileUrl": "mailto:wilde@cornell.edu",
+      "portraitUrl": "https://www.cs.cornell.edu/sites/default/files/styles/people_directory/public/images/people/mark-wilde.jpeg?h=c4d65c51&itok=xd0bF9jp",
+      "title": "Associate Professor of Electrical and Computer Engineering",
+      "researchAreas": [
+        "Theory of Computing"
+      ],
+      "sourcePageUrl": "https://www.cs.cornell.edu/directory?department=15",
+      "decision": "excluded_non_ai_cs",
+      "reason": "官方研究方向未落入本图谱 AI、ML、NLP、CV、机器人、HCI、图形学或数据科学主线。",
+      "evidence": "Theory of Computing"
+    },
+    {
+      "officialId": "marten-van-schijndel",
+      "name": "Marten van Schijndel",
+      "profileUrl": "mailto:mv443@cornell.edu",
+      "portraitUrl": "https://www.cs.cornell.edu/sites/default/files/styles/people_directory/public/images/people/marten.png?h=c35ab9d9&itok=0R3hyh2W",
+      "title": "Assistant Professor of Linguistics",
+      "researchAreas": [],
+      "sourcePageUrl": "https://www.cs.cornell.edu/directory?department=15",
+      "decision": "excluded_non_ai_cs",
+      "reason": "官方研究方向未落入本图谱 AI、ML、NLP、CV、机器人、HCI、图形学或数据科学主线。",
+      "evidence": "Assistant Professor of Linguistics"
+    },
+    {
+      "officialId": "matthew-eichhorn",
+      "name": "Matthew Eichhorn",
+      "profileUrl": "https://www.cs.cornell.edu/people/matthew-eichhorn",
+      "portraitUrl": "https://www.cs.cornell.edu/sites/default/files/styles/people_directory/public/2025-07/eichhorn-matthew-2025.jpg?h=79dc4e1f&itok=xXJFpjsf",
+      "title": "Assistant Teaching Professor of Computer Science",
+      "researchAreas": [
+        "Causal Inference",
+        "Theory of Computing"
+      ],
+      "sourcePageUrl": "https://www.cs.cornell.edu/directory?department=15",
+      "decision": "excluded_non_pi",
+      "reason": "官方职称不是当前独立研究 PI。",
+      "evidence": "Assistant Teaching Professor of Computer Science"
+    },
+    {
+      "officialId": "mert-sabuncu",
+      "name": "Mert Sabuncu",
+      "profileUrl": "mailto:msabuncu@cornell.edu",
+      "portraitUrl": "https://www.cs.cornell.edu/sites/default/files/styles/people_directory/public/images/people/sabuncu-circle-300px-qylw3q_0.png?h=6c83441f&itok=HTOxi1wB",
+      "title": "Professor of Electrical and Computer Engineering",
+      "researchAreas": [],
+      "sourcePageUrl": "https://www.cs.cornell.edu/directory?department=15",
+      "decision": "excluded_non_ai_cs",
+      "reason": "官方研究方向未落入本图谱 AI、ML、NLP、CV、机器人、HCI、图形学或数据科学主线。",
+      "evidence": "Professor of Electrical and Computer Engineering"
+    },
+    {
+      "officialId": "michael-clarkson",
+      "name": "Michael Clarkson",
+      "profileUrl": "https://www.cs.cornell.edu/people/michael-clarkson",
+      "portraitUrl": "https://www.cs.cornell.edu/sites/default/files/styles/people_directory/public/2025-07/michael-clarkson2.png?h=d1cb525d&itok=AO03vhwI",
+      "title": "Steven H. Weiss Provost’s Teaching Fellow Teaching Professor of Computer Science Director of Undergraduate Studies, Computer Science",
+      "researchAreas": [
+        "Programming Languages",
+        "Security"
+      ],
+      "sourcePageUrl": "https://www.cs.cornell.edu/directory?department=15",
+      "decision": "excluded_non_pi",
+      "reason": "官方职称不是当前独立研究 PI。",
+      "evidence": "Steven H. Weiss Provost’s Teaching Fellow Teaching Professor of Computer Science Director of Undergraduate Studies, Computer Science"
+    },
+    {
+      "officialId": "michael-kim",
+      "name": "Michael Kim",
+      "profileUrl": "https://www.cs.cornell.edu/people/michael-kim",
+      "portraitUrl": "https://www.cs.cornell.edu/sites/default/files/styles/people_directory/public/2025-07/mkim-2.jpg?h=619cbd6f&itok=b5OFMICM",
+      "title": "Assistant Professor of Computer Science",
+      "researchAreas": [
+        "Machine Learning",
+        "Theory of Computing"
+      ],
+      "sourcePageUrl": "https://www.cs.cornell.edu/directory?department=15",
+      "decision": "include_new_pi",
+      "reason": "Cornell CS 官方名录确认其当前教师身份、范围内研究方向，并提供官方个人页与头像。",
+      "evidence": "Assistant Professor of Computer Science; Machine Learning | Theory of Computing"
+    },
+    {
+      "officialId": "mohamed-abdelfattah",
+      "name": "Mohamed Abdelfattah",
+      "profileUrl": "mailto:mohamed@cornell.edu",
+      "portraitUrl": "https://www.cs.cornell.edu/sites/default/files/styles/people_directory/public/2025-08/mohamed-s.-abdelfattah.png?h=e7f7be8c&itok=IKIGvwxK",
+      "title": "Assistant Professor of Electrical and Computer Engineering",
+      "researchAreas": [
+        "Machine Learning"
+      ],
+      "sourcePageUrl": "https://www.cs.cornell.edu/directory?department=15",
+      "decision": "include_new_pi",
+      "reason": "Cornell CS 官方名录确认其当前教师身份、范围内研究方向，并提供官方个人页与头像。",
+      "evidence": "Assistant Professor of Electrical and Computer Engineering; Machine Learning"
+    },
+    {
+      "officialId": "nate-foster",
+      "name": "Nate Foster",
+      "profileUrl": "https://www.cs.cornell.edu/people/nate-foster",
+      "portraitUrl": "https://www.cs.cornell.edu/sites/default/files/styles/people_directory/public/2025-08/nate_foster-16x9.png?h=e7f7be8c&itok=KZ9lpxUg",
+      "title": "Adjunct Professor of Computer Science",
+      "researchAreas": [
+        "Critical and humanistic approaches to computing",
+        "History of Technology",
+        "Philosophy of Technology",
+        "Science + Technology Studies",
+        "Database Systems",
+        "Ethics, Law and Policy",
+        "Privacy + Surveillance",
+        "Tech and the law",
+        "Programming Languages",
+        "Security",
+        "Systems + Networking"
+      ],
+      "sourcePageUrl": "https://www.cs.cornell.edu/directory?department=15",
+      "decision": "excluded_non_ai_cs",
+      "reason": "官方研究方向未落入本图谱 AI、ML、NLP、CV、机器人、HCI、图形学或数据科学主线。",
+      "evidence": "Critical and humanistic approaches to computing | History of Technology | Philosophy of Technology | Science + Technology Studies | Database Systems | Ethics, Law and Policy | Privacy + Surveillance | Tech and the law | Programming Languages | Security | Systems + Networking"
+    },
+    {
+      "officialId": "nathan-kallus",
+      "name": "Nathan Kallus",
+      "profileUrl": "mailto:kallus@cornell.edu",
+      "portraitUrl": "https://www.cs.cornell.edu/sites/default/files/styles/people_directory/public/images/people/kallus_Nathan.jpg?h=1eab30ba&itok=ty5z8MFJ",
+      "title": "Assistant Professor in Operations Research and Information Engineering",
+      "researchAreas": [],
+      "sourcePageUrl": "https://www.cs.cornell.edu/directory?department=15",
+      "decision": "excluded_non_ai_cs",
+      "reason": "官方研究方向未落入本图谱 AI、ML、NLP、CV、机器人、HCI、图形学或数据科学主线。",
+      "evidence": "Assistant Professor in Operations Research and Information Engineering"
+    },
+    {
+      "officialId": "nicholas-spooner",
+      "name": "Nicholas Spooner",
+      "profileUrl": "https://www.cs.cornell.edu/people/nicholas-spooner",
+      "portraitUrl": "https://www.cs.cornell.edu/sites/default/files/styles/people_directory/public/2025-07/nick-spooner.jpg?h=22cb73ce&itok=fJpjpJJh",
+      "title": "Assistant Professor of Computer Science",
+      "researchAreas": [
+        "Security",
+        "Theory of Computing"
+      ],
+      "sourcePageUrl": "https://www.cs.cornell.edu/directory?department=15",
+      "decision": "excluded_non_ai_cs",
+      "reason": "官方研究方向未落入本图谱 AI、ML、NLP、CV、机器人、HCI、图形学或数据科学主线。",
+      "evidence": "Security | Theory of Computing"
+    },
+    {
+      "officialId": "nicola-dell",
+      "name": "Nicola Dell",
+      "profileUrl": "https://www.cs.cornell.edu/people/nicola-dell",
+      "portraitUrl": "https://www.cs.cornell.edu/sites/default/files/styles/people_directory/public/images/people/niclidell.jpg?h=199dbf31&itok=EFuweeDo",
+      "title": "Associate Professor of Information Science",
+      "researchAreas": [
+        "Human Interaction"
+      ],
+      "sourcePageUrl": "https://www.cs.cornell.edu/directory?department=15",
+      "decision": "include_new_pi",
+      "reason": "Cornell CS 官方名录确认其当前教师身份、范围内研究方向，并提供官方个人页与头像。",
+      "evidence": "Associate Professor of Information Science; Human Interaction"
+    },
+    {
+      "officialId": "nikhil-garg",
+      "name": "Nikhil Garg",
+      "profileUrl": "mailto:ng343@cornell.edu",
+      "portraitUrl": "https://www.cs.cornell.edu/sites/default/files/styles/people_directory/public/2025-08/garg-nikhil_0.jpg?h=4eac5043&itok=AQj7GvOh",
+      "title": "Assistant Professor of Operations Research and Information Engineering",
+      "researchAreas": [
+        "Data Science"
+      ],
+      "sourcePageUrl": "https://www.cs.cornell.edu/directory?department=15",
+      "decision": "include_new_pi",
+      "reason": "Cornell CS 官方名录确认其当前教师身份、范围内研究方向，并提供官方个人页与头像。",
+      "evidence": "Assistant Professor of Operations Research and Information Engineering; Data Science"
+    },
+    {
+      "officialId": "noah-snavely",
+      "name": "Noah Snavely",
+      "profileUrl": "https://www.cs.cornell.edu/people/noah-snavely",
+      "portraitUrl": "https://www.cs.cornell.edu/sites/default/files/styles/people_directory/public/images/people/noahsnavely_headshot.jpg?h=ca01ea12&itok=jFZJRCx_",
+      "title": "Professor of Computer Science",
+      "researchAreas": [
+        "Graphics",
+        "Human Interaction",
+        "Vision"
+      ],
+      "sourcePageUrl": "https://www.cs.cornell.edu/directory?department=15",
+      "decision": "included_existing",
+      "reason": "同名现任范围内 PI 已在图谱中。",
+      "evidence": "https://www.cs.cornell.edu/people/noah-snavely",
+      "atlasPersonId": "noah-snavely-us"
+    },
+    {
+      "officialId": "noah-stephens-davidowitz",
+      "name": "Noah Stephens-Davidowitz",
+      "profileUrl": "https://www.cs.cornell.edu/people/noah-stephens-davidowitz",
+      "portraitUrl": "https://www.cs.cornell.edu/sites/default/files/styles/people_directory/public/images/people/nhs59-cs-ap-001_2.jpg?h=c003b248&itok=6xQ3rr_9",
+      "title": "Associate Professor of Computer Science",
+      "researchAreas": [
+        "Security",
+        "Theory of Computing"
+      ],
+      "sourcePageUrl": "https://www.cs.cornell.edu/directory?department=15",
+      "decision": "excluded_non_ai_cs",
+      "reason": "官方研究方向未落入本图谱 AI、ML、NLP、CV、机器人、HCI、图形学或数据科学主线。",
+      "evidence": "Security | Theory of Computing"
+    },
+    {
+      "officialId": "nori-jacoby",
+      "name": "Nori Jacoby",
+      "profileUrl": "https://www.cs.cornell.edu/people/nori-jacoby",
+      "portraitUrl": "https://www.cs.cornell.edu/sites/default/files/styles/people_directory/public/2026-06/norijacoby-1316-croppeople.png?h=d1cb525d&itok=mJSyxfAQ",
+      "title": "Assistant Professor in Dept of Psychology",
+      "researchAreas": [
+        "Artificial Intelligence (AI)"
+      ],
+      "sourcePageUrl": "https://www.cs.cornell.edu/directory?department=15",
+      "decision": "include_new_pi",
+      "reason": "Cornell CS 官方名录确认其当前教师身份、范围内研究方向，并提供官方个人页与头像。",
+      "evidence": "Assistant Professor in Dept of Psychology; Artificial Intelligence (AI)"
+    },
+    {
+      "officialId": "owolabi-legunsen",
+      "name": "Owolabi Legunsen",
+      "profileUrl": "https://www.cs.cornell.edu/people/owolabi-legunsen",
+      "portraitUrl": "https://www.cs.cornell.edu/sites/default/files/styles/people_directory/public/images/people/owolabilegunsenheadshot.jpg?h=bdcd71a6&itok=MbGfMP-E",
+      "title": "Assistant Professor of Computer Science",
+      "researchAreas": [
+        "Software Engineering"
+      ],
+      "sourcePageUrl": "https://www.cs.cornell.edu/directory?department=15",
+      "decision": "excluded_non_ai_cs",
+      "reason": "官方研究方向未落入本图谱 AI、ML、NLP、CV、机器人、HCI、图形学或数据科学主线。",
+      "evidence": "Software Engineering"
+    },
+    {
+      "officialId": "phoebe-sengers",
+      "name": "Phoebe Sengers",
+      "profileUrl": "https://www.cs.cornell.edu/people/phoebe-sengers",
+      "portraitUrl": "https://www.cs.cornell.edu/sites/default/files/styles/people_directory/public/2025-07/sengers-phoebe-2025.jpg?h=aff4348d&itok=wazPn3BR",
+      "title": "Professor of Information Science",
+      "researchAreas": [
+        "History of Technology",
+        "Infrastructure Studies",
+        "Science + Technology Studies",
+        "AI Ethics and Policy",
+        "Computer-supported cooperative work"
+      ],
+      "sourcePageUrl": "https://www.cs.cornell.edu/directory?department=15",
+      "decision": "excluded_non_ai_cs",
+      "reason": "官方研究方向未落入本图谱 AI、ML、NLP、CV、机器人、HCI、图形学或数据科学主线。",
+      "evidence": "History of Technology | Infrastructure Studies | Science + Technology Studies | AI Ethics and Policy | Computer-supported cooperative work"
+    },
+    {
+      "officialId": "preston-culbertson",
+      "name": "Preston Culbertson",
+      "profileUrl": "https://www.cs.cornell.edu/people/preston-culbertson",
+      "portraitUrl": "https://www.cs.cornell.edu/sites/default/files/styles/people_directory/public/images/people/preston_culbertson_1.jpg?h=3ce58fe6&itok=H-grNiHx",
+      "title": "Assistant Professor of Computer Science",
+      "researchAreas": [
+        "Artificial Intelligence (AI)",
+        "Machine Learning",
+        "Robotics"
+      ],
+      "sourcePageUrl": "https://www.cs.cornell.edu/directory?department=15",
+      "decision": "include_new_pi",
+      "reason": "Cornell CS 官方名录确认其当前教师身份、范围内研究方向，并提供官方个人页与头像。",
+      "evidence": "Assistant Professor of Computer Science; Artificial Intelligence (AI) | Machine Learning | Robotics"
+    },
+    {
+      "officialId": "qian-yang",
+      "name": "Qian Yang",
+      "profileUrl": "https://www.cs.cornell.edu/people/qian-yang",
+      "portraitUrl": "https://www.cs.cornell.edu/sites/default/files/styles/people_directory/public/images/people/img_5328.jpg?h=d13a94d8&itok=A0uh8eBC",
+      "title": "Assistant Professor of Information Science",
+      "researchAreas": [
+        "Human Centered Natural Language Processing",
+        "Human-AI interaction",
+        "Human-Computer Interaction and Design"
+      ],
+      "sourcePageUrl": "https://www.cs.cornell.edu/directory?department=15",
+      "decision": "include_new_pi",
+      "reason": "Cornell CS 官方名录确认其当前教师身份、范围内研究方向，并提供官方个人页与头像。",
+      "evidence": "Assistant Professor of Information Science; Human Centered Natural Language Processing | Human-AI interaction | Human-Computer Interaction and Design"
+    },
+    {
+      "officialId": "raaz-dwivedi",
+      "name": "Raaz Dwivedi",
+      "profileUrl": "mailto:rd597@cornell.edu",
+      "portraitUrl": "https://www.cs.cornell.edu/sites/default/files/styles/people_directory/public/images/people/raaz.jpg?h=2bdeb27e&itok=A4drTjp8",
+      "title": "Assistant Professor of Operations Research and Information Engineering",
+      "researchAreas": [],
+      "sourcePageUrl": "https://www.cs.cornell.edu/directory?department=15",
+      "decision": "excluded_non_ai_cs",
+      "reason": "官方研究方向未落入本图谱 AI、ML、NLP、CV、机器人、HCI、图形学或数据科学主线。",
+      "evidence": "Assistant Professor of Operations Research and Information Engineering"
+    },
+    {
+      "officialId": "rachee-singh",
+      "name": "Rachee Singh",
+      "profileUrl": "https://www.cs.cornell.edu/people/rachee-singh",
+      "portraitUrl": "https://www.cs.cornell.edu/sites/default/files/styles/people_directory/public/2025-07/rachee-singh.png?h=aff2dae3&itok=gr9q3Osn",
+      "title": "Assistant Professor of Computer Science",
+      "researchAreas": [
+        "Systems + Networking"
+      ],
+      "sourcePageUrl": "https://www.cs.cornell.edu/directory?department=15",
+      "decision": "excluded_non_ai_cs",
+      "reason": "官方研究方向未落入本图谱 AI、ML、NLP、CV、机器人、HCI、图形学或数据科学主线。",
+      "evidence": "Systems + Networking"
+    },
+    {
+      "officialId": "rachit-agarwal",
+      "name": "Rachit Agarwal",
+      "profileUrl": "https://www.cs.cornell.edu/people/rachit-agarwal",
+      "portraitUrl": "https://www.cs.cornell.edu/sites/default/files/styles/people_directory/public/images/people/Rachit.png?h=887259cb&itok=3XDNSzMM",
+      "title": "Associate Professor of Computer Science",
+      "researchAreas": [
+        "Architecture",
+        "Systems + Networking",
+        "Theory of Computing"
+      ],
+      "sourcePageUrl": "https://www.cs.cornell.edu/directory?department=15",
+      "decision": "excluded_non_ai_cs",
+      "reason": "官方研究方向未落入本图谱 AI、ML、NLP、CV、机器人、HCI、图形学或数据科学主线。",
+      "evidence": "Architecture | Systems + Networking | Theory of Computing"
+    },
+    {
+      "officialId": "rafael-pass",
+      "name": "Rafael Pass",
+      "profileUrl": "https://www.cs.cornell.edu/people/rafael-pass",
+      "portraitUrl": "https://www.cs.cornell.edu/sites/default/files/styles/people_directory/public/images/articles/Rafael_Pass.jpg?h=5185f460&itok=TevlWw38",
+      "title": "Professor of Computer Science",
+      "researchAreas": [
+        "Security",
+        "Theory of Computing"
+      ],
+      "sourcePageUrl": "https://www.cs.cornell.edu/directory?department=15",
+      "decision": "excluded_non_ai_cs",
+      "reason": "官方研究方向未落入本图谱 AI、ML、NLP、CV、机器人、HCI、图形学或数据科学主线。",
+      "evidence": "Security | Theory of Computing"
+    },
+    {
+      "officialId": "rajalakshmi-nandakumar",
+      "name": "Rajalakshmi Nandakumar",
+      "profileUrl": "https://www.cs.cornell.edu/people/rajalakshmi-nandakumar",
+      "portraitUrl": "https://www.cs.cornell.edu/sites/default/files/styles/people_directory/public/images/people/nandakumar_0.jpg?h=4aadc332&itok=HYqpNh-e",
+      "title": "Assistant Professor of Information Science",
+      "researchAreas": [
+        "Data Science",
+        "Ubiquitous Computing"
+      ],
+      "sourcePageUrl": "https://www.cs.cornell.edu/directory?department=15",
+      "decision": "include_new_pi",
+      "reason": "Cornell CS 官方名录确认其当前教师身份、范围内研究方向，并提供官方个人页与头像。",
+      "evidence": "Assistant Professor of Information Science; Data Science | Ubiquitous Computing"
+    },
+    {
+      "officialId": "ramin-zabih",
+      "name": "Ramin Zabih",
+      "profileUrl": "https://www.cs.cornell.edu/people/ramin-zabih",
+      "portraitUrl": "https://www.cs.cornell.edu/sites/default/files/styles/people_directory/public/2025-08/ramin_zabih-1.jpg?h=13eccfd3&itok=HDZg_IoJ",
+      "title": "Professor of Computer Science",
+      "researchAreas": [],
+      "sourcePageUrl": "https://www.cs.cornell.edu/directory?department=15",
+      "decision": "excluded_non_ai_cs",
+      "reason": "官方研究方向未落入本图谱 AI、ML、NLP、CV、机器人、HCI、图形学或数据科学主线。",
+      "evidence": "Professor of Computer Science"
+    },
+    {
+      "officialId": "robbert-van-renesse",
+      "name": "Robbert van Renesse",
+      "profileUrl": "https://www.cs.cornell.edu/people/robbert-van-renesse",
+      "portraitUrl": "https://www.cs.cornell.edu/sites/default/files/styles/people_directory/public/images/people/van_Renesse%2C_Robbert.jpg?h=c095c311&itok=Rs8Ed66G",
+      "title": "Professor of Computer Science",
+      "researchAreas": [
+        "Security",
+        "Systems + Networking"
+      ],
+      "sourcePageUrl": "https://www.cs.cornell.edu/directory?department=15",
+      "decision": "excluded_non_ai_cs",
+      "reason": "官方研究方向未落入本图谱 AI、ML、NLP、CV、机器人、HCI、图形学或数据科学主线。",
+      "evidence": "Security | Systems + Networking"
+    },
+    {
+      "officialId": "robert-constable",
+      "name": "Robert Constable",
+      "profileUrl": "https://www.cs.cornell.edu/people/robert-constable",
+      "portraitUrl": "https://www.cs.cornell.edu/sites/default/files/styles/people_directory/public/2025-08/constable.2005portrait.small_.jpeg?h=8c892f33&itok=bLVjiiwu",
+      "title": "Professor of Computer Science, Emeritus",
+      "researchAreas": [],
+      "sourcePageUrl": "https://www.cs.cornell.edu/directory?department=15",
+      "decision": "excluded_historical",
+      "reason": "官方职称不是当前独立研究 PI。",
+      "evidence": "Professor of Computer Science, Emeritus"
+    },
+    {
+      "officialId": "robert-kleinberg",
+      "name": "Robert Kleinberg",
+      "profileUrl": "https://www.cs.cornell.edu/people/robert-kleinberg",
+      "portraitUrl": "https://www.cs.cornell.edu/sites/default/files/styles/people_directory/public/2025-07/robert_kleinberg.png?h=e70ca0ea&itok=Rx41JF2j",
+      "title": "Professor of Computer Science",
+      "researchAreas": [
+        "Theory of Computing"
+      ],
+      "sourcePageUrl": "https://www.cs.cornell.edu/directory?department=15",
+      "decision": "excluded_non_ai_cs",
+      "reason": "官方研究方向未落入本图谱 AI、ML、NLP、CV、机器人、HCI、图形学或数据科学主线。",
+      "evidence": "Theory of Computing"
+    },
+    {
+      "officialId": "ronald-dinapoli",
+      "name": "Ronald DiNapoli",
+      "profileUrl": "mailto:rd29@cornell.edu",
+      "portraitUrl": "",
+      "title": "Adjunct Professor of Computer Science",
+      "researchAreas": [],
+      "sourcePageUrl": "https://www.cs.cornell.edu/directory?department=15",
+      "decision": "excluded_non_ai_cs",
+      "reason": "官方研究方向未落入本图谱 AI、ML、NLP、CV、机器人、HCI、图形学或数据科学主线。",
+      "evidence": "Adjunct Professor of Computer Science"
+    },
+    {
+      "officialId": "saikat-dutta",
+      "name": "Saikat Dutta",
+      "profileUrl": "https://www.cs.cornell.edu/people/saikat-dutta",
+      "portraitUrl": "https://www.cs.cornell.edu/sites/default/files/styles/people_directory/public/images/people/dutta_saikat.jpeg?h=45d8f4fe&itok=c5Lb39UW",
+      "title": "Assistant Professor of Computer Science",
+      "researchAreas": [
+        "Programming Languages",
+        "Software Engineering"
+      ],
+      "sourcePageUrl": "https://www.cs.cornell.edu/directory?department=15",
+      "decision": "excluded_non_ai_cs",
+      "reason": "官方研究方向未落入本图谱 AI、ML、NLP、CV、机器人、HCI、图形学或数据科学主线。",
+      "evidence": "Programming Languages | Software Engineering"
+    },
+    {
+      "officialId": "sainyam-galhotra",
+      "name": "Sainyam Galhotra",
+      "profileUrl": "https://www.cs.cornell.edu/people/sainyam-galhotra",
+      "portraitUrl": "https://www.cs.cornell.edu/sites/default/files/styles/people_directory/public/2025-07/galhotra-sainyam.jpg?h=c3635fa2&itok=6SPrMo9g",
+      "title": "Assistant Professor of Computer Science",
+      "researchAreas": [
+        "Artificial Intelligence (AI)",
+        "Causal Inference",
+        "Database Systems",
+        "Machine Learning",
+        "Software Engineering"
+      ],
+      "sourcePageUrl": "https://www.cs.cornell.edu/directory?department=15",
+      "decision": "include_new_pi",
+      "reason": "Cornell CS 官方名录确认其当前教师身份、范围内研究方向，并提供官方个人页与头像。",
+      "evidence": "Assistant Professor of Computer Science; Artificial Intelligence (AI) | Causal Inference | Database Systems | Machine Learning | Software Engineering"
+    },
+    {
+      "officialId": "sanjiban-choudhury",
+      "name": "Sanjiban Choudhury",
+      "profileUrl": "https://www.cs.cornell.edu/people/sanjiban-choudhury-0",
+      "portraitUrl": "https://www.cs.cornell.edu/sites/default/files/styles/people_directory/public/2025-07/sanjiban-choudury.jpg?h=96046cf0&itok=9NAHLBTf",
+      "title": "Assistant Professor of Computer Science",
+      "researchAreas": [],
+      "sourcePageUrl": "https://www.cs.cornell.edu/directory?department=15",
+      "decision": "excluded_non_ai_cs",
+      "reason": "官方研究方向未落入本图谱 AI、ML、NLP、CV、机器人、HCI、图形学或数据科学主线。",
+      "evidence": "Assistant Professor of Computer Science"
+    },
+    {
+      "officialId": "sarah-dean",
+      "name": "Sarah Dean",
+      "profileUrl": "https://www.cs.cornell.edu/people/sarah-dean",
+      "portraitUrl": "https://www.cs.cornell.edu/sites/default/files/styles/people_directory/public/2025-07/dsc_5280.jpg?h=2bfa1da1&itok=onxRkxL7",
+      "title": "Assistant Professor of Computer Science",
+      "researchAreas": [
+        "Artificial Intelligence (AI)",
+        "Machine Learning",
+        "Theory of Computing"
+      ],
+      "sourcePageUrl": "https://www.cs.cornell.edu/directory?department=15",
+      "decision": "include_new_pi",
+      "reason": "Cornell CS 官方名录确认其当前教师身份、范围内研究方向，并提供官方个人页与头像。",
+      "evidence": "Assistant Professor of Computer Science; Artificial Intelligence (AI) | Machine Learning | Theory of Computing"
+    },
+    {
+      "officialId": "shiri-azenkot",
+      "name": "Shiri Azenkot",
+      "profileUrl": "https://www.cs.cornell.edu/people/shiri-azenkot",
+      "portraitUrl": "https://www.cs.cornell.edu/sites/default/files/styles/people_directory/public/images/people/tech_20190926_021_shiri_edit.png?h=a7e6d17b&itok=kKyy-9qu",
+      "title": "Associate Professor of Information Science",
+      "researchAreas": [
+        "Human Interaction"
+      ],
+      "sourcePageUrl": "https://www.cs.cornell.edu/directory?department=15",
+      "decision": "include_new_pi",
+      "reason": "Cornell CS 官方名录确认其当前教师身份、范围内研究方向，并提供官方个人页与头像。",
+      "evidence": "Associate Professor of Information Science; Human Interaction"
+    },
+    {
+      "officialId": "siddhartha-banerjee",
+      "name": "Siddhartha Banerjee",
+      "profileUrl": "https://www.duffield.cornell.edu/people/sid-banerjee/",
+      "portraitUrl": "https://www.cs.cornell.edu/sites/default/files/styles/people_directory/public/images/people/Banerjee%2C_Siddhartha.JPG?h=70e30a26&itok=3yAiUcdv",
+      "title": "Assistant Professor of Operations Research and Information Engineering",
+      "researchAreas": [
+        "Theory of Computing"
+      ],
+      "sourcePageUrl": "https://www.cs.cornell.edu/directory?department=15",
+      "decision": "excluded_non_ai_cs",
+      "reason": "官方研究方向未落入本图谱 AI、ML、NLP、CV、机器人、HCI、图形学或数据科学主线。",
+      "evidence": "Theory of Computing"
+    },
+    {
+      "officialId": "silvia-ferrari",
+      "name": "Silvia Ferrari",
+      "profileUrl": "mailto:sf375@cornell.edu",
+      "portraitUrl": "https://www.cs.cornell.edu/sites/default/files/styles/people_directory/public/images/articles/Ferrari%252C_Siliva.jpeg?h=cdf08b7e&itok=QcCszLs9",
+      "title": "Professor of Mechanical and Aerospace Engineering",
+      "researchAreas": [
+        "Robotics"
+      ],
+      "sourcePageUrl": "https://www.cs.cornell.edu/directory?department=15",
+      "decision": "include_new_pi",
+      "reason": "Cornell CS 官方名录确认其当前教师身份、范围内研究方向，并提供官方个人页与头像。",
+      "evidence": "Professor of Mechanical and Aerospace Engineering; Robotics"
+    },
+    {
+      "officialId": "sorin-lerner",
+      "name": "Sorin Lerner",
+      "profileUrl": "https://www.cs.cornell.edu/people/sorin-lerner",
+      "portraitUrl": "https://www.cs.cornell.edu/sites/default/files/styles/people_directory/public/2026-01/2025_1374_021.jpg?h=e4316b9e&itok=b_lQZSO8",
+      "title": "Dean, Cornell Bowers Professor of Computer Science",
+      "researchAreas": [
+        "Artificial Intelligence (AI)",
+        "Machine Learning"
+      ],
+      "sourcePageUrl": "https://www.cs.cornell.edu/directory?department=15",
+      "decision": "include_new_pi",
+      "reason": "Cornell CS 官方名录确认其当前教师身份、范围内研究方向，并提供官方个人页与头像。",
+      "evidence": "Dean, Cornell Bowers Professor of Computer Science; Artificial Intelligence (AI) | Machine Learning"
+    },
+    {
+      "officialId": "steve-marschner",
+      "name": "Steve Marschner",
+      "profileUrl": "https://www.cs.cornell.edu/people/steve-marschner",
+      "portraitUrl": "https://www.cs.cornell.edu/sites/default/files/styles/people_directory/public/2025-12/steve-marschner-2025.png?h=d1cb525d&itok=gQiAnN_R",
+      "title": "Professor of Computer Science Associate Dean for Research",
+      "researchAreas": [
+        "Graphics",
+        "Vision"
+      ],
+      "sourcePageUrl": "https://www.cs.cornell.edu/directory?department=15",
+      "decision": "include_new_pi",
+      "reason": "Cornell CS 官方名录确认其当前教师身份、范围内研究方向，并提供官方个人页与头像。",
+      "evidence": "Professor of Computer Science Associate Dean for Research; Graphics | Vision"
+    },
+    {
+      "officialId": "tanya-goyal",
+      "name": "Tanya Goyal",
+      "profileUrl": "https://www.cs.cornell.edu/people/tanya-goyal",
+      "portraitUrl": "https://www.cs.cornell.edu/sites/default/files/styles/people_directory/public/2025-08/tanya-goyal-16x9.png?h=e7f7be8c&itok=iUZDFrWG",
+      "title": "Assistant Professor of Computer Science",
+      "researchAreas": [
+        "Natural Language Processing"
+      ],
+      "sourcePageUrl": "https://www.cs.cornell.edu/directory?department=15",
+      "decision": "included_existing",
+      "reason": "同名现任范围内 PI 已在图谱中。",
+      "evidence": "https://www.cs.cornell.edu/people/tanya-goyal",
+      "atlasPersonId": "tanya-goyal-us"
+    },
+    {
+      "officialId": "tanzeem-choudhury",
+      "name": "Tanzeem Choudhury",
+      "profileUrl": "https://www.cs.cornell.edu/people/tanzeem-choudhury",
+      "portraitUrl": "https://www.cs.cornell.edu/sites/default/files/styles/people_directory/public/2025-07/choudhury-tanzeem.jpg?h=a35f3b8c&itok=zmgqQCO4",
+      "title": "Roger and Joelle Burnell Professor in Integrated Health and Technology Chief of Health Innovation",
+      "researchAreas": [
+        "Human-Computer Interaction and Design",
+        "Ubiquitous Computing"
+      ],
+      "sourcePageUrl": "https://www.cs.cornell.edu/directory?department=15",
+      "decision": "include_new_pi",
+      "reason": "Cornell CS 官方名录确认其当前教师身份、范围内研究方向，并提供官方个人页与头像。",
+      "evidence": "Roger and Joelle Burnell Professor in Integrated Health and Technology Chief of Health Innovation; Human-Computer Interaction and Design | Ubiquitous Computing"
+    },
+    {
+      "officialId": "tapomayukh-bhattacharjee",
+      "name": "Tapomayukh Bhattacharjee",
+      "profileUrl": "https://www.cs.cornell.edu/people/tapomayukh-bhattacharjee",
+      "portraitUrl": "https://www.cs.cornell.edu/sites/default/files/styles/people_directory/public/2025-07/bhattacharjee-tapomayukh.png?h=80934524&itok=QLzfeubt",
+      "title": "Assistant Professor of Computer Science",
+      "researchAreas": [
+        "Artificial Intelligence (AI)",
+        "Human Interaction",
+        "Machine Learning",
+        "Robotics"
+      ],
+      "sourcePageUrl": "https://www.cs.cornell.edu/directory?department=15",
+      "decision": "include_new_pi",
+      "reason": "Cornell CS 官方名录确认其当前教师身份、范围内研究方向，并提供官方个人页与头像。",
+      "evidence": "Assistant Professor of Computer Science; Artificial Intelligence (AI) | Human Interaction | Machine Learning | Robotics"
+    },
+    {
+      "officialId": "thijs-roumen",
+      "name": "Thijs Roumen",
+      "profileUrl": "https://www.cs.cornell.edu/people/thijs-roumen",
+      "portraitUrl": "https://www.cs.cornell.edu/sites/default/files/styles/people_directory/public/2025-08/roumen-thijs.jpg?h=0eb8436a&itok=eFDk4LGi",
+      "title": "Assistant Professor of Information Science",
+      "researchAreas": [
+        "Human-Computer Interaction and Design",
+        "Fabrication"
+      ],
+      "sourcePageUrl": "https://www.cs.cornell.edu/directory?department=15",
+      "decision": "include_new_pi",
+      "reason": "Cornell CS 官方名录确认其当前教师身份、范围内研究方向，并提供官方个人页与头像。",
+      "evidence": "Assistant Professor of Information Science; Human-Computer Interaction and Design | Fabrication"
+    },
+    {
+      "officialId": "thorsten-joachims",
+      "name": "Thorsten Joachims",
+      "profileUrl": "https://www.cs.cornell.edu/people/thorsten-joachims",
+      "portraitUrl": "https://www.cs.cornell.edu/sites/default/files/styles/people_directory/public/2026-04/thorsten-fav.png?h=c673cd1c&itok=-JWgmwtW",
+      "title": "Jacob Gould Schurman Professor of Computer Science and Information Science Director, Cornell AI Initiative Vice Provost for AI Strategy",
+      "researchAreas": [
+        "Human-AI interaction",
+        "Artificial Intelligence (AI)",
+        "Human Interaction",
+        "Machine Learning"
+      ],
+      "sourcePageUrl": "https://www.cs.cornell.edu/directory?department=15",
+      "decision": "include_new_pi",
+      "reason": "Cornell CS 官方名录确认其当前教师身份、范围内研究方向，并提供官方个人页与头像。",
+      "evidence": "Jacob Gould Schurman Professor of Computer Science and Information Science Director, Cornell AI Initiative Vice Provost for AI Strategy; Human-AI interaction | Artificial Intelligence (AI) | Human Interaction | Machine Learning"
+    },
+    {
+      "officialId": "tim-teitelbaum",
+      "name": "Tim Teitelbaum",
+      "profileUrl": "https://www.cs.cornell.edu/people/tim-teitelbaum",
+      "portraitUrl": "https://www.cs.cornell.edu/sites/default/files/styles/people_directory/public/2026-03/tim1.png?h=d1cb525d&itok=QBMafgQP",
+      "title": "Professor Emeritus",
+      "researchAreas": [],
+      "sourcePageUrl": "https://www.cs.cornell.edu/directory?department=15",
+      "decision": "excluded_historical",
+      "reason": "官方职称不是当前独立研究 PI。",
+      "evidence": "Professor Emeritus"
+    },
+    {
+      "officialId": "udit-gupta",
+      "name": "Udit Gupta",
+      "profileUrl": "mailto:ugupta@cornell.edu",
+      "portraitUrl": "https://www.cs.cornell.edu/sites/default/files/styles/people_directory/public/images/people/udit_gupta.jpeg?h=91dc79df&itok=VtnsCEAR",
+      "title": "Assistant Professor of Electrical and Computer Engineering",
+      "researchAreas": [],
+      "sourcePageUrl": "https://www.cs.cornell.edu/directory?department=15",
+      "decision": "excluded_non_ai_cs",
+      "reason": "官方研究方向未落入本图谱 AI、ML、NLP、CV、机器人、HCI、图形学或数据科学主线。",
+      "evidence": "Assistant Professor of Electrical and Computer Engineering"
+    },
+    {
+      "officialId": "vitaly-shmatikov",
+      "name": "Vitaly Shmatikov",
+      "profileUrl": "https://www.cs.cornell.edu/people/vitaly-shmatikov",
+      "portraitUrl": "https://www.cs.cornell.edu/sites/default/files/styles/people_directory/public/2025-08/shmatikov-vitaly.jpg?h=f6c4a0e4&itok=ZddlOL4F",
+      "title": "Professor of Computer Science",
+      "researchAreas": [
+        "Security",
+        "Systems + Networking"
+      ],
+      "sourcePageUrl": "https://www.cs.cornell.edu/directory?department=15",
+      "decision": "excluded_non_ai_cs",
+      "reason": "官方研究方向未落入本图谱 AI、ML、NLP、CV、机器人、HCI、图形学或数据科学主线。",
+      "evidence": "Security | Systems + Networking"
+    },
+    {
+      "officialId": "volodymyr-kuleshov",
+      "name": "Volodymyr Kuleshov",
+      "profileUrl": "https://www.cs.cornell.edu/people/volodymyr-kuleshov",
+      "portraitUrl": "https://www.cs.cornell.edu/sites/default/files/styles/people_directory/public/2025-08/volodymyr-kuleshov-headshot.jpg?h=e09954a2&itok=TguX8Yxq",
+      "title": "Joan Eliasoph, M.D. Assistant Professor of Computer Science",
+      "researchAreas": [
+        "Computational Biology",
+        "Scientific Computing"
+      ],
+      "sourcePageUrl": "https://www.cs.cornell.edu/directory?department=15",
+      "decision": "include_new_pi",
+      "reason": "Cornell CS 官方名录确认其当前教师身份、范围内研究方向，并提供官方个人页与头像。",
+      "evidence": "Joan Eliasoph, M.D. Assistant Professor of Computer Science; Computational Biology | Scientific Computing"
+    },
+    {
+      "officialId": "walker-white",
+      "name": "Walker White",
+      "profileUrl": "https://www.cs.cornell.edu/people/walker-white",
+      "portraitUrl": "https://www.cs.cornell.edu/sites/default/files/styles/people_directory/public/2025-07/walker-white.png?h=9c3ff57d&itok=hxFxOpUP",
+      "title": "Teaching Professor of Computer Science Stephen H. Weiss Provost’s Teaching Fellow",
+      "researchAreas": [],
+      "sourcePageUrl": "https://www.cs.cornell.edu/directory?department=15",
+      "decision": "excluded_non_pi",
+      "reason": "官方职称不是当前独立研究 PI。",
+      "evidence": "Teaching Professor of Computer Science Stephen H. Weiss Provost’s Teaching Fellow"
+    },
+    {
+      "officialId": "wei-chiu-ma",
+      "name": "Wei-Chiu Ma",
+      "profileUrl": "https://www.cs.cornell.edu/people/wei-chiu-ma",
+      "portraitUrl": "https://www.cs.cornell.edu/sites/default/files/styles/people_directory/public/images/people/ma_wei-chiu.png?h=57024e64&itok=Zz-h3Pb_",
+      "title": "Assistant Professor of Computer Science",
+      "researchAreas": [
+        "Scientific Computing",
+        "Vision"
+      ],
+      "sourcePageUrl": "https://www.cs.cornell.edu/directory?department=15",
+      "decision": "include_new_pi",
+      "reason": "Cornell CS 官方名录确认其当前教师身份、范围内研究方向，并提供官方个人页与头像。",
+      "evidence": "Assistant Professor of Computer Science; Scientific Computing | Vision"
+    },
+    {
+      "officialId": "wendy-ju",
+      "name": "Wendy Ju",
+      "profileUrl": "https://www.cs.cornell.edu/people/wendy-ju",
+      "portraitUrl": "https://www.cs.cornell.edu/sites/default/files/styles/people_directory/public/2025-09/headshot_office_wju.jpg?h=3f6b85a8&itok=1x7Tdpr0",
+      "title": "Professor of Information Science",
+      "researchAreas": [
+        "Human-Computer Interaction and Design",
+        "Human-Robot Interaction",
+        "Ubiquitous Computing"
+      ],
+      "sourcePageUrl": "https://www.cs.cornell.edu/directory?department=15",
+      "decision": "include_new_pi",
+      "reason": "Cornell CS 官方名录确认其当前教师身份、范围内研究方向，并提供官方个人页与头像。",
+      "evidence": "Professor of Information Science; Human-Computer Interaction and Design | Human-Robot Interaction | Ubiquitous Computing"
+    },
+    {
+      "officialId": "william-arms",
+      "name": "William Arms",
+      "profileUrl": "https://www.cs.cornell.edu/people/william-arms",
+      "portraitUrl": "",
+      "title": "Professor Emeritus",
+      "researchAreas": [],
+      "sourcePageUrl": "https://www.cs.cornell.edu/directory?department=15",
+      "decision": "excluded_historical",
+      "reason": "官方职称不是当前独立研究 PI。",
+      "evidence": "Professor Emeritus"
+    },
+    {
+      "officialId": "yiyi-zhang",
+      "name": "Yiyi Zhang",
+      "profileUrl": "mailto:yz2364@cornell.edu",
+      "portraitUrl": "",
+      "title": "Visiting Scientist in computer science, Weill Cornell",
+      "researchAreas": [],
+      "sourcePageUrl": "https://www.cs.cornell.edu/directory?department=15",
+      "decision": "excluded_non_pi",
+      "reason": "官方职称不是当前独立研究 PI。",
+      "evidence": "Visiting Scientist in computer science, Weill Cornell"
+    },
+    {
+      "officialId": "yoav-artzi",
+      "name": "Yoav Artzi",
+      "profileUrl": "https://www.cs.cornell.edu/people/yoav-artzi",
+      "portraitUrl": "https://www.cs.cornell.edu/sites/default/files/styles/people_directory/public/2025-08/artzi-yoav.jpg?h=d576aba4&itok=mXzeN2rk",
+      "title": "Associate Professor of Computer Science",
+      "researchAreas": [
+        "Machine Learning",
+        "Natural Language Processing"
+      ],
+      "sourcePageUrl": "https://www.cs.cornell.edu/directory?department=15",
+      "decision": "included_existing",
+      "reason": "同名现任范围内 PI 已在图谱中。",
+      "evidence": "https://www.cs.cornell.edu/people/yoav-artzi",
+      "atlasPersonId": "yoav-artzi-us"
+    },
+    {
+      "officialId": "zhiru-zhang",
+      "name": "Zhiru Zhang",
+      "profileUrl": "mailto:zz284@cornell.edu",
+      "portraitUrl": "https://www.cs.cornell.edu/sites/default/files/styles/people_directory/public/images/people/Zhang%2C_Shiru.jpg?h=07a49c3e&itok=IlVaKcml",
+      "title": "Professor of Electrical and Computer Engineering",
+      "researchAreas": [
+        "Systems + Networking"
+      ],
+      "sourcePageUrl": "https://www.cs.cornell.edu/directory?department=15",
+      "decision": "excluded_non_ai_cs",
+      "reason": "官方研究方向未落入本图谱 AI、ML、NLP、CV、机器人、HCI、图形学或数据科学主线。",
+      "evidence": "Systems + Networking"
+    },
+    {
+      "officialId": "ziv-goldfeld",
+      "name": "Ziv Goldfeld",
+      "profileUrl": "mailto:goldfeld@cornell.edu",
+      "portraitUrl": "https://www.cs.cornell.edu/sites/default/files/styles/people_directory/public/images/people/Goldfeld_Ziv.png?h=c1ae4c87&itok=fvbrEhy8",
+      "title": "Assistant Professor in Electrical and Computer Engineering",
+      "researchAreas": [],
+      "sourcePageUrl": "https://www.cs.cornell.edu/directory?department=15",
+      "decision": "excluded_non_ai_cs",
+      "reason": "官方研究方向未落入本图谱 AI、ML、NLP、CV、机器人、HCI、图形学或数据科学主线。",
+      "evidence": "Assistant Professor in Electrical and Computer Engineering"
+    },
+    {
+      "officialId": "eva-tardos",
+      "name": "Éva Tardos",
+      "profileUrl": "https://www.cs.cornell.edu/people/tardos",
+      "portraitUrl": "https://www.cs.cornell.edu/sites/default/files/styles/people_directory/public/images/people/tardos_eva.jpg?h=5f7ae5a4&itok=rvCbs6Jk",
+      "title": "Jacob Gould Schurman Professor of Computer Science",
+      "researchAreas": [
+        "Economics + Information",
+        "Network Science",
+        "Computational Social Sciences",
+        "Theory of Computing"
+      ],
+      "sourcePageUrl": "https://www.cs.cornell.edu/directory?department=15",
+      "decision": "include_new_pi",
+      "reason": "Cornell CS 官方名录确认其当前教师身份、范围内研究方向，并提供官方个人页与头像。",
+      "evidence": "Jacob Gould Schurman Professor of Computer Science; Economics + Information | Network Science | Computational Social Sciences | Theory of Computing"
+    }
+  ]
+}

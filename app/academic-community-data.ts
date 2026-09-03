@@ -1,6 +1,6 @@
 import type { Person, Region, Relationship, Source } from "./data";
 
-const checkedAt = "2026-08-30";
+const checkedAt = "2026-09-02";
 
 const official = (label: string, url: string, supports: string): Source => ({
   label,
@@ -75,6 +75,16 @@ const vggPeople = official(
   "https://www.robots.ox.ac.uk/~vgg/people/",
   "Current and former VGG members and academic network",
 );
+const ustcMsraTraining = official(
+  "中国科大—微软亚洲研究院联合培养博士生项目",
+  "https://sist.ustc.edu.cn/2021/0317/c5142a476799/page.htm",
+  "Joint doctoral-training programme and named returnees including Dong Liu and Zhiwei Xiong",
+);
+const ustcBrainLab = official(
+  "中国科大 · 脑启发智能感知与认知重点实验室团队",
+  "https://institution.ustc.edu.cn/naoqifazhinengganzhiyurenzhijiaoyubuzhongdianshiyanshi/en/more/992950/tdgd/index.htm",
+  "Current research units listing Feng Wu, Xiaoyan Sun, Zhiwei Xiong and Dong Liu in the USTC visual and brain-inspired intelligence team",
+);
 
 export const academicCommunities: AcademicCommunity[] = [
   {
@@ -120,23 +130,25 @@ export const academicCommunities: AcademicCommunity[] = [
   {
     id: "wai-lam-lineage",
     name: "Wai Lam NLP 师门网络",
-    kicker: "香港母体 · 新加坡分支",
+    kicker: "香港母体 · 新加坡 / 中国大陆分支",
     kind: "advisor_lineage",
     roots: "根节点：Wai Lam（林伟）",
-    anchor: "CUHK → SUTD · SMU",
-    description: "以 CUHK 文本挖掘与 NLP 为母体，博士谱系延伸到新加坡的独立 PI，并继续形成合作网络。",
+    anchor: "CUHK → SUTD · SMU · SJTU",
+    description: "以 CUHK 文本挖掘与 NLP 为母体；导师主页公开列出 8 名在读博士生与 34 名校友，博士谱系已延伸到新加坡和中国大陆的独立 PI，并继续形成合作与产业人才网络。",
     color: "lime",
-    regions: ["Hong Kong", "Singapore"],
-    memberIds: ["wai-lam", "wenxuan-zhang", "yang-deng", "zhisong-zhang"],
+    regions: ["Hong Kong", "Singapore", "Mainland China"],
+    memberIds: ["wai-lam", "wenxuan-zhang", "yang-deng", "deng-cai-sjtu", "zhisong-zhang"],
     branches: [
       { label: "CUHK", memberIds: ["wai-lam"] },
       { label: "SUTD", memberIds: ["wenxuan-zhang"] },
       { label: "SMU", memberIds: ["yang-deng"] },
+      { label: "SJTU / ByteDance Seed", memberIds: ["deng-cai-sjtu"] },
       { label: "CityU 合作分支", memberIds: ["zhisong-zhang"] },
     ],
     sources: [
       official("Wai Lam · CUHK research portal", "https://research.cuhk.edu.hk/en/persons/wai-lam/", "Current CUHK role and research"),
       official("Wenxuan Zhang · SUTD profile", "https://www.sutd.edu.sg/profile/zhang-wenxuan", "Wai Lam doctoral supervision and current SUTD role"),
+      official("CUHK Text Mining Group · students and alumni", "https://www1.se.cuhk.edu.hk/~textmine/", "Eight current PhD students, 34 alumni and published destinations"),
     ],
   },
   {
@@ -178,6 +190,25 @@ export const academicCommunities: AcademicCommunity[] = [
       { label: "公开学生流向", names: ["高校", "Huawei", "ByteDance", "Alibaba", "Tencent", "Ant Group", "Xiaohongshu"] },
     ],
     sources: [lamdaPeople, lamdaAlumni],
+  },
+  {
+    id: "ustc-msra-intelligent-media-network",
+    name: "中国科大—微软智能媒体网络",
+    kicker: "联合培养 · 产业研究 · 高校回流",
+    kind: "lab_network",
+    roots: "桥接节点：吴枫（MSRA Internet Media Group → 中国科大）",
+    anchor: "MSRA → USTC · 视频编码 · 低层视觉 · 计算摄影 · 类脑视觉",
+    description: "这不是单一导师树，而是由博士联合培养、微软研究团队协作和人才回流共同形成的学术网络：刘东可核验为吴枫博士生，熊志伟在 MSRA 完成联培阶段研究，孙晓艳负责相关视觉编码研究；三人后来均在中国科大形成独立研究方向。",
+    color: "violet",
+    regions: ["Mainland China"],
+    memberIds: ["feng-wu-ustc", "xiaoyan-sun-ustc", "zhiwei-xiong-ustc", "dong-liu-ustc", "haichuan-ma-huawei"],
+    branches: [
+      { label: "MSRA 研究与指导枢纽", memberIds: ["feng-wu-ustc", "xiaoyan-sun-ustc"] },
+      { label: "联合培养 / 回流 PI", memberIds: ["zhiwei-xiong-ustc", "dong-liu-ustc"] },
+      { label: "中国科大当前研究单元", memberIds: ["feng-wu-ustc", "xiaoyan-sun-ustc", "zhiwei-xiong-ustc", "dong-liu-ustc"] },
+      { label: "学生产业流向", memberIds: ["haichuan-ma-huawei"], names: ["华为诺亚方舟实验室 · 陈畅", "华为数据存储与机器视觉 · 林建平"] },
+    ],
+    sources: [ustcMsraTraining, ustcBrainLab],
   },
   {
     id: "berkeley-nlp-lineage",

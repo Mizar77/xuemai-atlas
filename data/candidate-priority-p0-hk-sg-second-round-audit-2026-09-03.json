@@ -1,0 +1,22 @@
+{
+  "ok": true,
+  "reviewed": 216,
+  "dispositionCounts": {
+    "missing_portrait": 16,
+    "missing_relationship": 189,
+    "ready": 11
+  },
+  "transitionCounts": {
+    "missing_portrait->missing_portrait": 16,
+    "missing_portrait->missing_relationship": 19,
+    "missing_portrait->ready": 4,
+    "missing_relationship->missing_relationship": 170,
+    "missing_relationship->ready": 7
+  },
+  "newPeople": 11,
+  "supportingPeople": 11,
+  "relationships": 13,
+  "rosterPromotions": 11,
+  "localPortraits": 30,
+  "failures": []
+}

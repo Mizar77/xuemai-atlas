@@ -1,0 +1,1466 @@
+{
+  "schemaVersion": 1,
+  "unitId": "ucla-ece",
+  "unitLabel": "UCLA Electrical and Computer Engineering",
+  "unitUrl": "https://samueli.ucla.edu/search-faculty/#ece",
+  "snapshotAt": "2026-09-03",
+  "rosterArtifact": "data/official-rosters/ucla-ece-faculty-2026-09-02.json",
+  "frozenOfficialRosterCount": 96,
+  "rawRosterRowCount": 96,
+  "duplicateRosterCardCount": 0,
+  "deduplicatedRosterPersonCount": 96,
+  "decisionCount": 96,
+  "counts": {
+    "excluded_historical": 21,
+    "excluded_non_ai_cs": 59,
+    "excluded_non_pi": 16
+  },
+  "decisions": [
+    {
+      "officialId": "abeer-alwan",
+      "rosterName": "Abeer Alwan",
+      "title": "Distinguished Professor",
+      "profileUrl": "https://samueli.ucla.edu/people/abeer-alwan/",
+      "portraitUrl": "https://samueli.ucla.edu/wp-content/uploads/samueli/Alwan_Abeer-300x200.jpg",
+      "officialSections": [
+        "Core Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://samueli.ucla.edu/search-faculty/#ece",
+      "decision": "excluded_non_ai_cs",
+      "reason": "现有官方字段未显示 AI、NLP、CV、ML、机器人、数据智能或相关计算研究主线。",
+      "evidence": "Distinguished Professor | Core Faculty | https://samueli.ucla.edu/people/abeer-alwan/"
+    },
+    {
+      "officialId": "achuta-kadambi",
+      "rosterName": "Achuta Kadambi",
+      "title": "Associate Professor",
+      "profileUrl": "https://samueli.ucla.edu/people/achuta-kadambi/",
+      "portraitUrl": "https://samueli.ucla.edu/wp-content/uploads/samueli/Achuta-Kadambi-1.png",
+      "officialSections": [
+        "Core Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://samueli.ucla.edu/search-faculty/#ece",
+      "decision": "excluded_non_ai_cs",
+      "reason": "现有官方字段未显示 AI、NLP、CV、ML、机器人、数据智能或相关计算研究主线。",
+      "evidence": "Associate Professor | Core Faculty | https://samueli.ucla.edu/people/achuta-kadambi/"
+    },
+    {
+      "officialId": "alan-laub",
+      "rosterName": "Alan Laub",
+      "title": "Distinguished Professor Emeritus",
+      "profileUrl": "https://samueli.ucla.edu/people/alan-laub/",
+      "portraitUrl": "https://samueli.ucla.edu/wp-content/plugins/seas-people/lib/../assets/images/faculty-profile-photo-default-img.jpg",
+      "officialSections": [
+        "Emeriti Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://samueli.ucla.edu/search-faculty/#ece",
+      "decision": "excluded_historical",
+      "reason": "官方职称或名录分组明确为荣休、退休或历史人员。",
+      "evidence": "Distinguished Professor Emeritus | Emeriti Faculty | https://samueli.ucla.edu/people/alan-laub/"
+    },
+    {
+      "officialId": "alan-n-willson-jr",
+      "rosterName": "Alan N. Willson, Jr.",
+      "title": "Distinguished Professor Emeritus",
+      "profileUrl": "https://samueli.ucla.edu/people/alan-n-willson-jr/",
+      "portraitUrl": "https://samueli.ucla.edu/wp-content/plugins/seas-people/lib/../assets/images/faculty-profile-photo-default-img.jpg",
+      "officialSections": [
+        "Emeriti Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://samueli.ucla.edu/search-faculty/#ece",
+      "decision": "excluded_historical",
+      "reason": "官方职称或名录分组明确为荣休、退休或历史人员。",
+      "evidence": "Distinguished Professor Emeritus | Emeriti Faculty | https://samueli.ucla.edu/people/alan-n-willson-jr/"
+    },
+    {
+      "officialId": "ali-mosleh",
+      "rosterName": "Ali Mosleh",
+      "title": "Distinguished Professor",
+      "profileUrl": "https://samueli.ucla.edu/people/ali-mosleh/",
+      "portraitUrl": "https://samueli.ucla.edu/wp-content/uploads/samueli/Ali_Mosleh-300x200.jpg",
+      "officialSections": [
+        "Joint Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://samueli.ucla.edu/search-faculty/#ece",
+      "decision": "excluded_non_ai_cs",
+      "reason": "现有官方字段未显示 AI、NLP、CV、ML、机器人、数据智能或相关计算研究主线。",
+      "evidence": "Distinguished Professor | Joint Faculty | https://samueli.ucla.edu/people/ali-mosleh/"
+    },
+    {
+      "officialId": "ali-sayed",
+      "rosterName": "Ali Sayed",
+      "title": "Distinguished Professor Emeritus",
+      "profileUrl": "https://samueli.ucla.edu/people/ali-sayed/",
+      "portraitUrl": "https://samueli.ucla.edu/wp-content/uploads/samueli/ali-sayed-featured-300x200.jpg",
+      "officialSections": [
+        "Emeriti Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://samueli.ucla.edu/search-faculty/#ece",
+      "decision": "excluded_historical",
+      "reason": "官方职称或名录分组明确为荣休、退休或历史人员。",
+      "evidence": "Distinguished Professor Emeritus | Emeriti Faculty | https://samueli.ucla.edu/people/ali-sayed/"
+    },
+    {
+      "officialId": "ankur-mehta",
+      "rosterName": "Ankur Mehta",
+      "title": "Associate Professor",
+      "profileUrl": "https://samueli.ucla.edu/people/ankur-mehta/",
+      "portraitUrl": "https://samueli.ucla.edu/wp-content/uploads/samueli/Ankur_Mehta-300x200.png",
+      "officialSections": [
+        "Core Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://samueli.ucla.edu/search-faculty/#ece",
+      "decision": "excluded_non_ai_cs",
+      "reason": "现有官方字段未显示 AI、NLP、CV、ML、机器人、数据智能或相关计算研究主线。",
+      "evidence": "Associate Professor | Core Faculty | https://samueli.ucla.edu/people/ankur-mehta/"
+    },
+    {
+      "officialId": "asad-a-abidi",
+      "rosterName": "Asad A. Abidi",
+      "title": "Distinguished Chancellor’s Professor",
+      "profileUrl": "https://samueli.ucla.edu/people/asad-a-abidi/",
+      "portraitUrl": "https://samueli.ucla.edu/wp-content/uploads/samueli/Asad_Abidi-300x200.jpg",
+      "officialSections": [
+        "Core Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://samueli.ucla.edu/search-faculty/#ece",
+      "decision": "excluded_non_ai_cs",
+      "reason": "现有官方字段未显示 AI、NLP、CV、ML、机器人、数据智能或相关计算研究主线。",
+      "evidence": "Distinguished Chancellor’s Professor | Core Faculty | https://samueli.ucla.edu/people/asad-a-abidi/"
+    },
+    {
+      "officialId": "asad-m-madni",
+      "rosterName": "Asad M. Madni",
+      "title": "Distinguished Adjunct Professor",
+      "profileUrl": "https://samueli.ucla.edu/people/asad-m-madni/",
+      "portraitUrl": "https://samueli.ucla.edu/wp-content/uploads/samueli/asad-mandi-featured.jpg",
+      "officialSections": [
+        "Adjunct Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://samueli.ucla.edu/search-faculty/#ece",
+      "decision": "excluded_non_pi",
+      "reason": "官方职称或名录分组属于教学、兼职、附属、科研支持或其他非独立 PI 岗位。",
+      "evidence": "Distinguished Adjunct Professor | Adjunct Faculty | https://samueli.ucla.edu/people/asad-m-madni/"
+    },
+    {
+      "officialId": "aydin-babakhani",
+      "rosterName": "Aydin Babakhani",
+      "title": "Professor",
+      "profileUrl": "https://samueli.ucla.edu/people/aydin-babakhani/",
+      "portraitUrl": "https://samueli.ucla.edu/wp-content/uploads/samueli/Aydin_Babakhani-300x200.png",
+      "officialSections": [
+        "Core Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://samueli.ucla.edu/search-faculty/#ece",
+      "decision": "excluded_non_ai_cs",
+      "reason": "现有官方字段未显示 AI、NLP、CV、ML、机器人、数据智能或相关计算研究主线。",
+      "evidence": "Professor | Core Faculty | https://samueli.ucla.edu/people/aydin-babakhani/"
+    },
+    {
+      "officialId": "aydogan-ozcan",
+      "rosterName": "Aydogan Ozcan",
+      "title": "Professor",
+      "profileUrl": "https://samueli.ucla.edu/people/aydogan-ozcan/",
+      "portraitUrl": "https://samueli.ucla.edu/wp-content/uploads/samueli/Aydogan-Ozcan-profile-300x200.jpg",
+      "officialSections": [
+        "Core Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://samueli.ucla.edu/search-faculty/#ece",
+      "decision": "excluded_non_ai_cs",
+      "reason": "现有官方字段未显示 AI、NLP、CV、ML、机器人、数据智能或相关计算研究主线。",
+      "evidence": "Professor | Core Faculty | https://samueli.ucla.edu/people/aydogan-ozcan/"
+    },
+    {
+      "officialId": "babak-daneshrad",
+      "rosterName": "Babak Daneshrad",
+      "title": "Professor Emeritus",
+      "profileUrl": "https://samueli.ucla.edu/people/babak-daneshrad/",
+      "portraitUrl": "https://samueli.ucla.edu/wp-content/uploads/samueli/daneshrad-babak-profile-featured-300x200.jpg",
+      "officialSections": [
+        "Emeriti Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://samueli.ucla.edu/search-faculty/#ece",
+      "decision": "excluded_historical",
+      "reason": "官方职称或名录分组明确为荣休、退休或历史人员。",
+      "evidence": "Professor Emeritus | Emeriti Faculty | https://samueli.ucla.edu/people/babak-daneshrad/"
+    },
+    {
+      "officialId": "bahram-jalali",
+      "rosterName": "Bahram Jalali",
+      "title": "Distinguished Professor Emeritus",
+      "profileUrl": "https://samueli.ucla.edu/people/bahram-jalali/",
+      "portraitUrl": "https://samueli.ucla.edu/wp-content/uploads/samueli/Bahram_Jalali-300x200.png",
+      "officialSections": [
+        "Emeriti Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://samueli.ucla.edu/search-faculty/#ece",
+      "decision": "excluded_historical",
+      "reason": "官方职称或名录分组明确为荣休、退休或历史人员。",
+      "evidence": "Distinguished Professor Emeritus | Emeriti Faculty | https://samueli.ucla.edu/people/bahram-jalali/"
+    },
+    {
+      "officialId": "behzad-razavi",
+      "rosterName": "Behzad Razavi",
+      "title": "Professor",
+      "profileUrl": "https://samueli.ucla.edu/people/behzad-razavi/",
+      "portraitUrl": "https://samueli.ucla.edu/wp-content/uploads/samueli/behza-razavi-featured-300x200.jpg",
+      "officialSections": [
+        "Core Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://samueli.ucla.edu/search-faculty/#ece",
+      "decision": "excluded_non_ai_cs",
+      "reason": "现有官方字段未显示 AI、NLP、CV、ML、机器人、数据智能或相关计算研究主线。",
+      "evidence": "Professor | Core Faculty | https://samueli.ucla.edu/people/behzad-razavi/"
+    },
+    {
+      "officialId": "benjamin-williams",
+      "rosterName": "Benjamin Williams",
+      "title": "Professor",
+      "profileUrl": "https://samueli.ucla.edu/people/benjamin-williams/",
+      "portraitUrl": "https://samueli.ucla.edu/wp-content/uploads/samueli/Benjamin_Williams-300x200.jpg",
+      "officialSections": [
+        "Chair",
+        "Core Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://samueli.ucla.edu/search-faculty/#ece",
+      "decision": "excluded_non_ai_cs",
+      "reason": "现有官方字段未显示 AI、NLP、CV、ML、机器人、数据智能或相关计算研究主线。",
+      "evidence": "Professor | Chair · Core Faculty | https://samueli.ucla.edu/people/benjamin-williams/"
+    },
+    {
+      "officialId": "chih-kong-yang",
+      "rosterName": "C.K. Ken Yang",
+      "title": "Professor",
+      "profileUrl": "https://samueli.ucla.edu/people/chih-kong-yang/",
+      "portraitUrl": "https://samueli.ucla.edu/wp-content/uploads/samueli/C.K.-Ken-Yang-300x200.png",
+      "officialSections": [
+        "Core Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://samueli.ucla.edu/search-faculty/#ece",
+      "decision": "excluded_non_ai_cs",
+      "reason": "现有官方字段未显示 AI、NLP、CV、ML、机器人、数据智能或相关计算研究主线。",
+      "evidence": "Professor | Core Faculty | https://samueli.ucla.edu/people/chih-kong-yang/"
+    },
+    {
+      "officialId": "chandrashekhar-joshi",
+      "rosterName": "Chandrashekhar Joshi",
+      "title": "Distinguished Professor",
+      "profileUrl": "https://samueli.ucla.edu/people/chandrashekhar-joshi/",
+      "portraitUrl": "https://samueli.ucla.edu/wp-content/uploads/samueli/Joshi_Chandrashekhar-300x200.jpg",
+      "officialSections": [
+        "Core Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://samueli.ucla.edu/search-faculty/#ece",
+      "decision": "excluded_non_ai_cs",
+      "reason": "现有官方字段未显示 AI、NLP、CV、ML、机器人、数据智能或相关计算研究主线。",
+      "evidence": "Distinguished Professor | Core Faculty | https://samueli.ucla.edu/people/chandrashekhar-joshi/"
+    },
+    {
+      "officialId": "chee-wei-wong",
+      "rosterName": "Chee Wei Wong",
+      "title": "Professor / Area Director for Physical and Wave Electronics",
+      "profileUrl": "https://samueli.ucla.edu/people/chee-wei-wong/",
+      "portraitUrl": "https://samueli.ucla.edu/wp-content/uploads/samueli/che-wei-wong-profile-featured-300x200.jpg",
+      "officialSections": [
+        "Core Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://samueli.ucla.edu/search-faculty/#ece",
+      "decision": "excluded_non_ai_cs",
+      "reason": "现有官方字段未显示 AI、NLP、CV、ML、机器人、数据智能或相关计算研究主线。",
+      "evidence": "Professor / Area Director for Physical and Wave Electronics | Core Faculty | https://samueli.ucla.edu/people/chee-wei-wong/"
+    },
+    {
+      "officialId": "christina-fragouli",
+      "rosterName": "Christina Fragouli",
+      "title": "Professor",
+      "profileUrl": "https://samueli.ucla.edu/people/christina-fragouli/",
+      "portraitUrl": "https://samueli.ucla.edu/wp-content/uploads/samueli/christina-fragouli-profile-featured-300x200.jpg",
+      "officialSections": [
+        "Core Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://samueli.ucla.edu/search-faculty/#ece",
+      "decision": "excluded_non_ai_cs",
+      "reason": "现有官方字段未显示 AI、NLP、CV、ML、机器人、数据智能或相关计算研究主线。",
+      "evidence": "Professor | Core Faculty | https://samueli.ucla.edu/people/christina-fragouli/"
+    },
+    {
+      "officialId": "corey-arnold",
+      "rosterName": "Corey Arnold",
+      "title": "Professor",
+      "profileUrl": "https://samueli.ucla.edu/people/corey-arnold/",
+      "portraitUrl": "https://samueli.ucla.edu/wp-content/uploads/samueli/Corey-Arnold-profile-300x200.jpg",
+      "officialSections": [
+        "Affiliate Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://samueli.ucla.edu/search-faculty/#ece",
+      "decision": "excluded_non_pi",
+      "reason": "官方职称或名录分组属于教学、兼职、附属、科研支持或其他非独立 PI 岗位。",
+      "evidence": "Professor | Affiliate Faculty | https://samueli.ucla.edu/people/corey-arnold/"
+    },
+    {
+      "officialId": "dan-goebel",
+      "rosterName": "Dan Goebel",
+      "title": "Adjunct Professor",
+      "profileUrl": "https://samueli.ucla.edu/people/dan-goebel/",
+      "portraitUrl": "https://samueli.ucla.edu/wp-content/uploads/samueli/D2017_0213_T064-3.jpg",
+      "officialSections": [
+        "Joint Faculty",
+        "Adjunct Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://samueli.ucla.edu/search-faculty/#ece",
+      "decision": "excluded_non_pi",
+      "reason": "官方职称或名录分组属于教学、兼职、附属、科研支持或其他非独立 PI 岗位。",
+      "evidence": "Adjunct Professor | Joint Faculty · Adjunct Faculty | https://samueli.ucla.edu/people/dan-goebel/"
+    },
+    {
+      "officialId": "dana-cairns-watson",
+      "rosterName": "Dana Cairns Watson",
+      "title": "Continuing Lecturer",
+      "profileUrl": "https://samueli.ucla.edu/people/dana-cairns-watson/",
+      "portraitUrl": "https://samueli.ucla.edu/wp-content/plugins/seas-people/lib/../assets/images/faculty-profile-photo-default-img.jpg",
+      "officialSections": [
+        "Lecturer"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://samueli.ucla.edu/search-faculty/#ece",
+      "decision": "excluded_non_pi",
+      "reason": "官方职称或名录分组属于教学、兼职、附属、科研支持或其他非独立 PI 岗位。",
+      "evidence": "Continuing Lecturer | Lecturer | https://samueli.ucla.edu/people/dana-cairns-watson/"
+    },
+    {
+      "officialId": "danijela-cabric",
+      "rosterName": "Danijela Cabric",
+      "title": "Professor",
+      "profileUrl": "https://samueli.ucla.edu/people/danijela-cabric/",
+      "portraitUrl": "https://samueli.ucla.edu/wp-content/uploads/samueli/Danijela_Cabric-300x200.jpg",
+      "officialSections": [
+        "Vice Chairs",
+        "Core Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://samueli.ucla.edu/search-faculty/#ece",
+      "decision": "excluded_non_ai_cs",
+      "reason": "现有官方字段未显示 AI、NLP、CV、ML、机器人、数据智能或相关计算研究主线。",
+      "evidence": "Professor | Vice Chairs · Core Faculty | https://samueli.ucla.edu/people/danijela-cabric/"
+    },
+    {
+      "officialId": "dariush-divsalar",
+      "rosterName": "Dariush Divsalar",
+      "title": "Adjunct Professor",
+      "profileUrl": "https://samueli.ucla.edu/people/dariush-divsalar/",
+      "portraitUrl": "https://samueli.ucla.edu/wp-content/plugins/seas-people/lib/../assets/images/faculty-profile-photo-default-img.jpg",
+      "officialSections": [
+        "Adjunct Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://samueli.ucla.edu/search-faculty/#ece",
+      "decision": "excluded_non_pi",
+      "reason": "官方职称或名录分组属于教学、兼职、附属、科研支持或其他非独立 PI 岗位。",
+      "evidence": "Adjunct Professor | Adjunct Faculty | https://samueli.ucla.edu/people/dariush-divsalar/"
+    },
+    {
+      "officialId": "dee-son-pan",
+      "rosterName": "Dee Son Pan",
+      "title": "Professor Emeritus",
+      "profileUrl": "https://samueli.ucla.edu/people/dee-son-pan/",
+      "portraitUrl": "https://samueli.ucla.edu/wp-content/plugins/seas-people/lib/../assets/images/faculty-profile-photo-default-img.jpg",
+      "officialSections": [
+        "Emeriti Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://samueli.ucla.edu/search-faculty/#ece",
+      "decision": "excluded_historical",
+      "reason": "官方职称或名录分组明确为荣休、退休或历史人员。",
+      "evidence": "Professor Emeritus | Emeriti Faculty | https://samueli.ucla.edu/people/dee-son-pan/"
+    },
+    {
+      "officialId": "dejan-markovic",
+      "rosterName": "Dejan Markovic",
+      "title": "Professor / Area Director for Circuits and Embedded Systems",
+      "profileUrl": "https://samueli.ucla.edu/people/dejan-markovic/",
+      "portraitUrl": "https://samueli.ucla.edu/wp-content/uploads/samueli/Dejan_Markovic-300x200.jpg",
+      "officialSections": [
+        "Core Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://samueli.ucla.edu/search-faculty/#ece",
+      "decision": "excluded_non_ai_cs",
+      "reason": "现有官方字段未显示 AI、NLP、CV、ML、机器人、数据智能或相关计算研究主线。",
+      "evidence": "Professor / Area Director for Circuits and Embedded Systems | Core Faculty | https://samueli.ucla.edu/people/dejan-markovic/"
+    },
+    {
+      "officialId": "donald-m-wiberg",
+      "rosterName": "Donald M. Wiberg",
+      "title": "Professor Emeritus",
+      "profileUrl": "https://samueli.ucla.edu/people/donald-m-wiberg/",
+      "portraitUrl": "https://samueli.ucla.edu/wp-content/plugins/seas-people/lib/../assets/images/faculty-profile-photo-default-img.jpg",
+      "officialSections": [
+        "Emeriti Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://samueli.ucla.edu/search-faculty/#ece",
+      "decision": "excluded_historical",
+      "reason": "官方职称或名录分组明确为荣休、退休或历史人员。",
+      "evidence": "Professor Emeritus | Emeriti Faculty | https://samueli.ucla.edu/people/donald-m-wiberg/"
+    },
+    {
+      "officialId": "douglas-lichtman",
+      "rosterName": "Douglas Lichtman",
+      "title": "Professor of Law",
+      "profileUrl": "https://samueli.ucla.edu/people/douglas-lichtman/",
+      "portraitUrl": "https://samueli.ucla.edu/wp-content/plugins/seas-people/lib/../assets/images/faculty-profile-photo-default-img.jpg",
+      "officialSections": [
+        "Joint Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://samueli.ucla.edu/search-faculty/#ece",
+      "decision": "excluded_non_ai_cs",
+      "reason": "现有官方字段未显示 AI、NLP、CV、ML、机器人、数据智能或相关计算研究主线。",
+      "evidence": "Professor of Law | Joint Faculty | https://samueli.ucla.edu/people/douglas-lichtman/"
+    },
+    {
+      "officialId": "elaheh-ahmadi",
+      "rosterName": "Elaheh Ahmadi",
+      "title": "Adjunct Professor",
+      "profileUrl": "https://samueli.ucla.edu/people/elaheh-ahmadi/",
+      "portraitUrl": "https://samueli.ucla.edu/wp-content/uploads/samueli/elahe-ahmadi-photo-featured-300x200-1.png",
+      "officialSections": [
+        "Adjunct Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://samueli.ucla.edu/search-faculty/#ece",
+      "decision": "excluded_non_pi",
+      "reason": "官方职称或名录分组属于教学、兼职、附属、科研支持或其他非独立 PI 岗位。",
+      "evidence": "Adjunct Professor | Adjunct Faculty | https://samueli.ucla.edu/people/elaheh-ahmadi/"
+    },
+    {
+      "officialId": "eli-yablonovitch",
+      "rosterName": "Eli Yablonovitch",
+      "title": "Professor Emeritus",
+      "profileUrl": "https://samueli.ucla.edu/people/eli-yablonovitch/",
+      "portraitUrl": "https://samueli.ucla.edu/wp-content/uploads/samueli/EliYablonovitch-300x200-1.png",
+      "officialSections": [
+        "Emeriti Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://samueli.ucla.edu/search-faculty/#ece",
+      "decision": "excluded_historical",
+      "reason": "官方职称或名录分组明确为荣休、退休或历史人员。",
+      "evidence": "Professor Emeritus | Emeriti Faculty | https://samueli.ucla.edu/people/eli-yablonovitch/"
+    },
+    {
+      "officialId": "farid-mesghali",
+      "rosterName": "Farid Mesghali",
+      "title": "Continuing Lecturer",
+      "profileUrl": "https://samueli.ucla.edu/people/farid-mesghali/",
+      "portraitUrl": "https://samueli.ucla.edu/wp-content/plugins/seas-people/lib/../assets/images/faculty-profile-photo-default-img.jpg",
+      "officialSections": [
+        "Lecturer"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://samueli.ucla.edu/search-faculty/#ece",
+      "decision": "excluded_non_pi",
+      "reason": "官方职称或名录分组属于教学、兼职、附属、科研支持或其他非独立 PI 岗位。",
+      "evidence": "Continuing Lecturer | Lecturer | https://samueli.ucla.edu/people/farid-mesghali/"
+    },
+    {
+      "officialId": "flavio-lorenzelli",
+      "rosterName": "Flavio Lorenzelli",
+      "title": "Continuing Lecturer",
+      "profileUrl": "https://samueli.ucla.edu/people/flavio-lorenzelli/",
+      "portraitUrl": "https://samueli.ucla.edu/wp-content/plugins/seas-people/lib/../assets/images/faculty-profile-photo-default-img.jpg",
+      "officialSections": [
+        "Lecturer"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://samueli.ucla.edu/search-faculty/#ece",
+      "decision": "excluded_non_pi",
+      "reason": "官方职称或名录分组属于教学、兼职、附属、科研支持或其他非独立 PI 岗位。",
+      "evidence": "Continuing Lecturer | Lecturer | https://samueli.ucla.edu/people/flavio-lorenzelli/"
+    },
+    {
+      "officialId": "francis-chen",
+      "rosterName": "Francis Chen",
+      "title": "Professor Emeritus",
+      "profileUrl": "https://samueli.ucla.edu/people/francis-chen/",
+      "portraitUrl": "https://samueli.ucla.edu/wp-content/plugins/seas-people/lib/../assets/images/faculty-profile-photo-default-img.jpg",
+      "officialSections": [
+        "Emeriti Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://samueli.ucla.edu/search-faculty/#ece",
+      "decision": "excluded_historical",
+      "reason": "官方职称或名录分组明确为荣休、退休或历史人员。",
+      "evidence": "Professor Emeritus | Emeriti Faculty | https://samueli.ucla.edu/people/francis-chen/"
+    },
+    {
+      "officialId": "fred-allen",
+      "rosterName": "Fred Allen",
+      "title": "Professor Emeritus",
+      "profileUrl": "https://samueli.ucla.edu/people/fred-allen/",
+      "portraitUrl": "https://samueli.ucla.edu/wp-content/plugins/seas-people/lib/../assets/images/faculty-profile-photo-default-img.jpg",
+      "officialSections": [
+        "Emeriti Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://samueli.ucla.edu/search-faculty/#ece",
+      "decision": "excluded_historical",
+      "reason": "官方职称或名录分组明确为荣休、退休或历史人员。",
+      "evidence": "Professor Emeritus | Emeriti Faculty | https://samueli.ucla.edu/people/fred-allen/"
+    },
+    {
+      "officialId": "gabor-temes",
+      "rosterName": "Gabor Temes",
+      "title": "Distinguished Professor Emeritus",
+      "profileUrl": "https://samueli.ucla.edu/people/gabor-temes/",
+      "portraitUrl": "https://samueli.ucla.edu/wp-content/plugins/seas-people/lib/../assets/images/faculty-profile-photo-default-img.jpg",
+      "officialSections": [
+        "Emeriti Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://samueli.ucla.edu/search-faculty/#ece",
+      "decision": "excluded_historical",
+      "reason": "官方职称或名录分组明确为荣休、退休或历史人员。",
+      "evidence": "Distinguished Professor Emeritus | Emeriti Faculty | https://samueli.ucla.edu/people/gabor-temes/"
+    },
+    {
+      "officialId": "gregory-pottie",
+      "rosterName": "Gregory Pottie",
+      "title": "Professor Emeritus",
+      "profileUrl": "https://samueli.ucla.edu/people/gregory-pottie/",
+      "portraitUrl": "https://samueli.ucla.edu/wp-content/uploads/samueli/profile-photo-featured-greg-pottie-300x200.jpg",
+      "officialSections": [
+        "Emeriti Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://samueli.ucla.edu/search-faculty/#ece",
+      "decision": "excluded_historical",
+      "reason": "官方职称或名录分组明确为荣休、退休或历史人员。",
+      "evidence": "Professor Emeritus | Emeriti Faculty | https://samueli.ucla.edu/people/gregory-pottie/"
+    },
+    {
+      "officialId": "harold-fetterman",
+      "rosterName": "Harold Fetterman",
+      "title": "Professor Emeritus",
+      "profileUrl": "https://samueli.ucla.edu/people/harold-fetterman/",
+      "portraitUrl": "https://samueli.ucla.edu/wp-content/plugins/seas-people/lib/../assets/images/faculty-profile-photo-default-img.jpg",
+      "officialSections": [
+        "Emeriti Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://samueli.ucla.edu/search-faculty/#ece",
+      "decision": "excluded_historical",
+      "reason": "官方职称或名录分组明确为荣休、退休或历史人员。",
+      "evidence": "Professor Emeritus | Emeriti Faculty | https://samueli.ucla.edu/people/harold-fetterman/"
+    },
+    {
+      "officialId": "henry-samueli",
+      "rosterName": "Henry Samueli",
+      "title": "Professor",
+      "profileUrl": "https://samueli.ucla.edu/people/henry-samueli/",
+      "portraitUrl": "https://samueli.ucla.edu/wp-content/uploads/samueli/TPC4903-henry-samueli-1-300x200.png",
+      "officialSections": [
+        "Core Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://samueli.ucla.edu/search-faculty/#ece",
+      "decision": "excluded_non_ai_cs",
+      "reason": "现有官方字段未显示 AI、NLP、CV、ML、机器人、数据智能或相关计算研究主线。",
+      "evidence": "Professor | Core Faculty | https://samueli.ucla.edu/people/henry-samueli/"
+    },
+    {
+      "officialId": "hooman-darabi",
+      "rosterName": "Hooman Darabi",
+      "title": "Teaching Professor",
+      "profileUrl": "https://samueli.ucla.edu/people/hooman-darabi/",
+      "portraitUrl": "https://samueli.ucla.edu/wp-content/uploads/samueli/Hooman-Darabi-new-300-200.jpg",
+      "officialSections": [
+        "Core Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://samueli.ucla.edu/search-faculty/#ece",
+      "decision": "excluded_non_pi",
+      "reason": "官方职称或名录分组属于教学、兼职、附属、科研支持或其他非独立 PI 岗位。",
+      "evidence": "Teaching Professor | Core Faculty | https://samueli.ucla.edu/people/hooman-darabi/"
+    },
+    {
+      "officialId": "ian-roberts",
+      "rosterName": "Ian Roberts",
+      "title": "Assistant Professor",
+      "profileUrl": "https://samueli.ucla.edu/people/ian-roberts/",
+      "portraitUrl": "https://samueli.ucla.edu/wp-content/uploads/samueli/Ian-Roberts-300-200.jpeg",
+      "officialSections": [
+        "Core Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://samueli.ucla.edu/search-faculty/#ece",
+      "decision": "excluded_non_ai_cs",
+      "reason": "现有官方字段未显示 AI、NLP、CV、ML、机器人、数据智能或相关计算研究主线。",
+      "evidence": "Assistant Professor | Core Faculty | https://samueli.ucla.edu/people/ian-roberts/"
+    },
+    {
+      "officialId": "izhak-rubin",
+      "rosterName": "Izhak Rubin",
+      "title": "Distinguished Professor Emeritus",
+      "profileUrl": "https://samueli.ucla.edu/people/izhak-rubin/",
+      "portraitUrl": "https://samueli.ucla.edu/wp-content/uploads/samueli/rubin_izhak_thumbnail-300x200.jpg",
+      "officialSections": [
+        "Emeriti Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://samueli.ucla.edu/search-faculty/#ece",
+      "decision": "excluded_historical",
+      "reason": "官方职称或名录分组明确为荣休、退休或历史人员。",
+      "evidence": "Distinguished Professor Emeritus | Emeriti Faculty | https://samueli.ucla.edu/people/izhak-rubin/"
+    },
+    {
+      "officialId": "jason-jingsheng-cong",
+      "rosterName": "Jason (Jingsheng) Cong",
+      "title": "Distinguished Professor",
+      "profileUrl": "https://samueli.ucla.edu/people/jason-jingsheng-cong/",
+      "portraitUrl": "https://samueli.ucla.edu/wp-content/uploads/samueli/cong_jason_thumbnail-300x200.jpg",
+      "officialSections": [
+        "Joint Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://samueli.ucla.edu/search-faculty/#ece",
+      "decision": "excluded_non_ai_cs",
+      "reason": "现有官方字段未显示 AI、NLP、CV、ML、机器人、数据智能或相关计算研究主线。",
+      "evidence": "Distinguished Professor | Joint Faculty | https://samueli.ucla.edu/people/jason-jingsheng-cong/"
+    },
+    {
+      "officialId": "jason-jangho-choi",
+      "rosterName": "Jason Jangho Choi",
+      "title": "Assistant Professor",
+      "profileUrl": "https://samueli.ucla.edu/people/jason-jangho-choi/",
+      "portraitUrl": "https://samueli.ucla.edu/wp-content/uploads/samueli/Jason-Jangho-Choi-300x200-1.jpg",
+      "officialSections": [
+        "Core Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://samueli.ucla.edu/search-faculty/#ece",
+      "decision": "excluded_non_ai_cs",
+      "reason": "现有官方字段未显示 AI、NLP、CV、ML、机器人、数据智能或相关计算研究主线。",
+      "evidence": "Assistant Professor | Core Faculty | https://samueli.ucla.edu/people/jason-jangho-choi/"
+    },
+    {
+      "officialId": "jason-petta",
+      "rosterName": "Jason Petta",
+      "title": "Distinguished Professor",
+      "profileUrl": "https://samueli.ucla.edu/people/jason-petta/",
+      "portraitUrl": "https://samueli.ucla.edu/wp-content/uploads/samueli/Jason-Petta-1.jpg",
+      "officialSections": [
+        "Joint Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://samueli.ucla.edu/search-faculty/#ece",
+      "decision": "excluded_non_ai_cs",
+      "reason": "现有官方字段未显示 AI、NLP、CV、ML、机器人、数据智能或相关计算研究主线。",
+      "evidence": "Distinguished Professor | Joint Faculty | https://samueli.ucla.edu/people/jason-petta/"
+    },
+    {
+      "officialId": "jason-woo",
+      "rosterName": "Jason Woo",
+      "title": "Professor Emeritus",
+      "profileUrl": "https://samueli.ucla.edu/people/jason-woo/",
+      "portraitUrl": "https://samueli.ucla.edu/wp-content/uploads/samueli/jason-woo-profile-featured-300x200.jpg",
+      "officialSections": [
+        "Emeriti Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://samueli.ucla.edu/search-faculty/#ece",
+      "decision": "excluded_historical",
+      "reason": "官方职称或名录分组明确为荣休、退休或历史人员。",
+      "evidence": "Professor Emeritus | Emeriti Faculty | https://samueli.ucla.edu/people/jason-woo/"
+    },
+    {
+      "officialId": "jia-ming-liu",
+      "rosterName": "Jia-Ming Liu",
+      "title": "Distinguished Professor",
+      "profileUrl": "https://samueli.ucla.edu/people/jia-ming-liu/",
+      "portraitUrl": "https://samueli.ucla.edu/wp-content/uploads/samueli/profile-photo-featured-jia-ming-liu-300x200.jpg",
+      "officialSections": [
+        "Core Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://samueli.ucla.edu/search-faculty/#ece",
+      "decision": "excluded_non_ai_cs",
+      "reason": "现有官方字段未显示 AI、NLP、CV、ML、机器人、数据智能或相关计算研究主线。",
+      "evidence": "Distinguished Professor | Core Faculty | https://samueli.ucla.edu/people/jia-ming-liu/"
+    },
+    {
+      "officialId": "john-villasenor",
+      "rosterName": "John Villasenor",
+      "title": "Professor",
+      "profileUrl": "https://samueli.ucla.edu/people/john-villasenor/",
+      "portraitUrl": "https://samueli.ucla.edu/wp-content/uploads/samueli/john-villasenor-feature-300x200.jpg",
+      "officialSections": [
+        "Core Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://samueli.ucla.edu/search-faculty/#ece",
+      "decision": "excluded_non_ai_cs",
+      "reason": "现有官方字段未显示 AI、NLP、CV、ML、机器人、数据智能或相关计算研究主线。",
+      "evidence": "Professor | Core Faculty | https://samueli.ucla.edu/people/john-villasenor/"
+    },
+    {
+      "officialId": "jonathan-kao",
+      "rosterName": "Jonathan Kao",
+      "title": "Associate Professor",
+      "profileUrl": "https://samueli.ucla.edu/people/jonathan-kao/",
+      "portraitUrl": "https://samueli.ucla.edu/wp-content/uploads/samueli/Jonathan_Kao-300x200.jpg",
+      "officialSections": [
+        "Core Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://samueli.ucla.edu/search-faculty/#ece",
+      "decision": "excluded_non_ai_cs",
+      "reason": "现有官方字段未显示 AI、NLP、CV、ML、机器人、数据智能或相关计算研究主线。",
+      "evidence": "Associate Professor | Core Faculty | https://samueli.ucla.edu/people/jonathan-kao/"
+    },
+    {
+      "officialId": "kambiz-shoarinejad",
+      "rosterName": "Kambiz Shoarinejad",
+      "title": "Lecturer",
+      "profileUrl": "https://samueli.ucla.edu/people/kambiz-shoarinejad/",
+      "portraitUrl": "https://samueli.ucla.edu/wp-content/plugins/seas-people/lib/../assets/images/faculty-profile-photo-default-img.jpg",
+      "officialSections": [
+        "Lecturer"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://samueli.ucla.edu/search-faculty/#ece",
+      "decision": "excluded_non_pi",
+      "reason": "官方职称或名录分组属于教学、兼职、附属、科研支持或其他非独立 PI 岗位。",
+      "evidence": "Lecturer | Lecturer | https://samueli.ucla.edu/people/kambiz-shoarinejad/"
+    },
+    {
+      "officialId": "kang-wang",
+      "rosterName": "Kang Wang",
+      "title": "Distinguished Professor",
+      "profileUrl": "https://samueli.ucla.edu/people/kang-wang/",
+      "portraitUrl": "https://samueli.ucla.edu/wp-content/uploads/samueli/kang-wang-profile-featured-300x200.jpg",
+      "officialSections": [
+        "Core Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://samueli.ucla.edu/search-faculty/#ece",
+      "decision": "excluded_non_ai_cs",
+      "reason": "现有官方字段未显示 AI、NLP、CV、ML、机器人、数据智能或相关计算研究主线。",
+      "evidence": "Distinguished Professor | Core Faculty | https://samueli.ucla.edu/people/kang-wang/"
+    },
+    {
+      "officialId": "katsushi-arisaka",
+      "rosterName": "Katsushi Arisaka",
+      "title": "Professor",
+      "profileUrl": "https://samueli.ucla.edu/people/katsushi-arisaka/",
+      "portraitUrl": "https://samueli.ucla.edu/wp-content/plugins/seas-people/lib/../assets/images/faculty-profile-photo-default-img.jpg",
+      "officialSections": [
+        "Joint Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://samueli.ucla.edu/search-faculty/#ece",
+      "decision": "excluded_non_ai_cs",
+      "reason": "现有官方字段未显示 AI、NLP、CV、ML、机器人、数据智能或相关计算研究主线。",
+      "evidence": "Professor | Joint Faculty | https://samueli.ucla.edu/people/katsushi-arisaka/"
+    },
+    {
+      "officialId": "kung-yao",
+      "rosterName": "Kung Yao",
+      "title": "Distinguished Professor Emeritus",
+      "profileUrl": "https://samueli.ucla.edu/people/kung-yao/",
+      "portraitUrl": "https://samueli.ucla.edu/wp-content/uploads/samueli/Kung_Yao-300x200.jpg",
+      "officialSections": [
+        "Emeriti Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://samueli.ucla.edu/search-faculty/#ece",
+      "decision": "excluded_historical",
+      "reason": "官方职称或名录分组明确为荣休、退休或历史人员。",
+      "evidence": "Distinguished Professor Emeritus | Emeriti Faculty | https://samueli.ucla.edu/people/kung-yao/"
+    },
+    {
+      "officialId": "lara-dolecek",
+      "rosterName": "Lara Dolecek",
+      "title": "Professor",
+      "profileUrl": "https://samueli.ucla.edu/people/lara-dolecek/",
+      "portraitUrl": "https://samueli.ucla.edu/wp-content/uploads/samueli/lara-dolecek-300x200.jpg",
+      "officialSections": [
+        "Core Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://samueli.ucla.edu/search-faculty/#ece",
+      "decision": "excluded_non_ai_cs",
+      "reason": "现有官方字段未显示 AI、NLP、CV、ML、机器人、数据智能或相关计算研究主线。",
+      "evidence": "Professor | Core Faculty | https://samueli.ucla.edu/people/lara-dolecek/"
+    },
+    {
+      "officialId": "lei-he",
+      "rosterName": "Lei He",
+      "title": "Professor Emeritus",
+      "profileUrl": "https://samueli.ucla.edu/people/lei-he/",
+      "portraitUrl": "https://samueli.ucla.edu/wp-content/uploads/samueli/he-lei-profile-featured-300x200.jpg",
+      "officialSections": [
+        "Emeriti Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://samueli.ucla.edu/search-faculty/#ece",
+      "decision": "excluded_historical",
+      "reason": "官方职称或名录分组明确为荣休、退休或历史人员。",
+      "evidence": "Professor Emeritus | Emeriti Faculty | https://samueli.ucla.edu/people/lei-he/"
+    },
+    {
+      "officialId": "leo-zhou",
+      "rosterName": "Leo Zhou",
+      "title": "Assistant Professor",
+      "profileUrl": "https://samueli.ucla.edu/people/leo-zhou/",
+      "portraitUrl": "https://samueli.ucla.edu/wp-content/uploads/samueli/Zhou-Leo-300x200-1.jpg",
+      "officialSections": [
+        "Core Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://samueli.ucla.edu/search-faculty/#ece",
+      "decision": "excluded_non_ai_cs",
+      "reason": "现有官方字段未显示 AI、NLP、CV、ML、机器人、数据智能或相关计算研究主线。",
+      "evidence": "Assistant Professor | Core Faculty | https://samueli.ucla.edu/people/leo-zhou/"
+    },
+    {
+      "officialId": "lieven-vandenberghe",
+      "rosterName": "Lieven Vandenberghe",
+      "title": "Professor",
+      "profileUrl": "https://samueli.ucla.edu/people/lieven-vandenberghe/",
+      "portraitUrl": "https://samueli.ucla.edu/wp-content/uploads/samueli/vandenberghe_lieven_thumbnail-300x200.jpg",
+      "officialSections": [
+        "Core Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://samueli.ucla.edu/search-faculty/#ece",
+      "decision": "excluded_non_ai_cs",
+      "reason": "现有官方字段未显示 AI、NLP、CV、ML、机器人、数据智能或相关计算研究主线。",
+      "evidence": "Professor | Core Faculty | https://samueli.ucla.edu/people/lieven-vandenberghe/"
+    },
+    {
+      "officialId": "lin-yang",
+      "rosterName": "Lin Yang",
+      "title": "Associate Professor",
+      "profileUrl": "https://samueli.ucla.edu/people/lin-yang/",
+      "portraitUrl": "https://samueli.ucla.edu/wp-content/uploads/samueli/lin-yang-featured-300x200.jpg",
+      "officialSections": [
+        "Core Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://samueli.ucla.edu/search-faculty/#ece",
+      "decision": "excluded_non_ai_cs",
+      "reason": "现有官方字段未显示 AI、NLP、CV、ML、机器人、数据智能或相关计算研究主线。",
+      "evidence": "Associate Professor | Core Faculty | https://samueli.ucla.edu/people/lin-yang/"
+    },
+    {
+      "officialId": "lixia-zhang",
+      "rosterName": "Lixia Zhang",
+      "title": "Distinguished Professor",
+      "profileUrl": "https://samueli.ucla.edu/people/lixia-zhang/",
+      "portraitUrl": "https://samueli.ucla.edu/wp-content/uploads/samueli/Lixia-Zhang-thumbnail.png",
+      "officialSections": [
+        "Joint Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://samueli.ucla.edu/search-faculty/#ece",
+      "decision": "excluded_non_ai_cs",
+      "reason": "现有官方字段未显示 AI、NLP、CV、ML、机器人、数据智能或相关计算研究主线。",
+      "evidence": "Distinguished Professor | Joint Faculty | https://samueli.ucla.edu/people/lixia-zhang/"
+    },
+    {
+      "officialId": "liz-izhikevich",
+      "rosterName": "Liz Izhikevich",
+      "title": "Assistant Professor / Area Director for Signals and Systems",
+      "profileUrl": "https://samueli.ucla.edu/people/liz-izhikevich/",
+      "portraitUrl": "https://samueli.ucla.edu/wp-content/uploads/samueli/Liz-Izhikevich-scaled-300x206.jpg",
+      "officialSections": [
+        "Core Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://samueli.ucla.edu/search-faculty/#ece",
+      "decision": "excluded_non_ai_cs",
+      "reason": "现有官方字段未显示 AI、NLP、CV、ML、机器人、数据智能或相关计算研究主线。",
+      "evidence": "Assistant Professor / Area Director for Signals and Systems | Core Faculty | https://samueli.ucla.edu/people/liz-izhikevich/"
+    },
+    {
+      "officialId": "m-c-frank-chang",
+      "rosterName": "M. C. Frank Chang",
+      "title": "Distinguished Professor",
+      "profileUrl": "https://samueli.ucla.edu/people/m-c-frank-chang/",
+      "portraitUrl": "https://samueli.ucla.edu/wp-content/uploads/samueli/frank-chang-profile-featured-300x200.jpg",
+      "officialSections": [
+        "Core Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://samueli.ucla.edu/search-faculty/#ece",
+      "decision": "excluded_non_ai_cs",
+      "reason": "现有官方字段未显示 AI、NLP、CV、ML、机器人、数据智能或相关计算研究主线。",
+      "evidence": "Distinguished Professor | Core Faculty | https://samueli.ucla.edu/people/m-c-frank-chang/"
+    },
+    {
+      "officialId": "majid-sarrafzadeh",
+      "rosterName": "Majid Sarrafzadeh",
+      "title": "Distinguished Professor/Vice Chair for Graduate Programs",
+      "profileUrl": "https://samueli.ucla.edu/people/majid-sarrafzadeh/",
+      "portraitUrl": "https://samueli.ucla.edu/wp-content/uploads/samueli/Majid-300x200.png",
+      "officialSections": [
+        "Joint Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://samueli.ucla.edu/search-faculty/#ece",
+      "decision": "excluded_non_ai_cs",
+      "reason": "现有官方字段未显示 AI、NLP、CV、ML、机器人、数据智能或相关计算研究主线。",
+      "evidence": "Distinguished Professor/Vice Chair for Graduate Programs | Joint Faculty | https://samueli.ucla.edu/people/majid-sarrafzadeh/"
+    },
+    {
+      "officialId": "mani-srivastava",
+      "rosterName": "Mani Srivastava",
+      "title": "Professor",
+      "profileUrl": "https://samueli.ucla.edu/people/mani-srivastava/",
+      "portraitUrl": "https://samueli.ucla.edu/wp-content/uploads/samueli/srivastava111-300x200.png",
+      "officialSections": [
+        "Vice Chairs",
+        "Core Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://samueli.ucla.edu/search-faculty/#ece",
+      "decision": "excluded_non_ai_cs",
+      "reason": "现有官方字段未显示 AI、NLP、CV、ML、机器人、数据智能或相关计算研究主线。",
+      "evidence": "Professor | Vice Chairs · Core Faculty | https://samueli.ucla.edu/people/mani-srivastava/"
+    },
+    {
+      "officialId": "mark-gyure",
+      "rosterName": "Mark Gyure",
+      "title": "Adjunct Professor",
+      "profileUrl": "https://samueli.ucla.edu/people/mark-gyure/",
+      "portraitUrl": "https://samueli.ucla.edu/wp-content/uploads/samueli/Mark_Gyure-scaled-300x200.jpg",
+      "officialSections": [
+        "Adjunct Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://samueli.ucla.edu/search-faculty/#ece",
+      "decision": "excluded_non_pi",
+      "reason": "官方职称或名录分组属于教学、兼职、附属、科研支持或其他非独立 PI 岗位。",
+      "evidence": "Adjunct Professor | Adjunct Faculty | https://samueli.ucla.edu/people/mark-gyure/"
+    },
+    {
+      "officialId": "marko-sokolich",
+      "rosterName": "Marko Sokolich",
+      "title": "Adjunct Professor",
+      "profileUrl": "https://samueli.ucla.edu/people/marko-sokolich/",
+      "portraitUrl": "https://samueli.ucla.edu/wp-content/plugins/seas-people/lib/../assets/images/faculty-profile-photo-default-img.jpg",
+      "officialSections": [
+        "Adjunct Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://samueli.ucla.edu/search-faculty/#ece",
+      "decision": "excluded_non_pi",
+      "reason": "官方职称或名录分组属于教学、兼职、附属、科研支持或其他非独立 PI 岗位。",
+      "evidence": "Adjunct Professor | Adjunct Faculty | https://samueli.ucla.edu/people/marko-sokolich/"
+    },
+    {
+      "officialId": "mihaela-van-der-schaar",
+      "rosterName": "Mihaela van der Schaar",
+      "title": "Professor Emeritus",
+      "profileUrl": "https://samueli.ucla.edu/people/mihaela-van-der-schaar/",
+      "portraitUrl": "https://samueli.ucla.edu/wp-content/uploads/samueli/VAN-DER-SCHAAR-NEW-PROF-1-300x200.jpg",
+      "officialSections": [
+        "Emeriti Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://samueli.ucla.edu/search-faculty/#ece",
+      "decision": "excluded_historical",
+      "reason": "官方职称或名录分组明确为荣休、退休或历史人员。",
+      "evidence": "Professor Emeritus | Emeriti Faculty | https://samueli.ucla.edu/people/mihaela-van-der-schaar/"
+    },
+    {
+      "officialId": "mike-briggs",
+      "rosterName": "Mike Briggs",
+      "title": "Continuing Lecturer",
+      "profileUrl": "https://samueli.ucla.edu/people/mike-briggs/",
+      "portraitUrl": "https://samueli.ucla.edu/wp-content/plugins/seas-people/lib/../assets/images/faculty-profile-photo-default-img.jpg",
+      "officialSections": [
+        "Lecturer"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://samueli.ucla.edu/search-faculty/#ece",
+      "decision": "excluded_non_pi",
+      "reason": "官方职称或名录分组属于教学、兼职、附属、科研支持或其他非独立 PI 岗位。",
+      "evidence": "Continuing Lecturer | Lecturer | https://samueli.ucla.edu/people/mike-briggs/"
+    },
+    {
+      "officialId": "mona-jarrahi",
+      "rosterName": "Mona Jarrahi",
+      "title": "Professor",
+      "profileUrl": "https://samueli.ucla.edu/people/mona-jarrahi/",
+      "portraitUrl": "https://samueli.ucla.edu/wp-content/uploads/samueli/mona-jarrahi-profile-featured-300x200.jpg",
+      "officialSections": [
+        "Core Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://samueli.ucla.edu/search-faculty/#ece",
+      "decision": "excluded_non_ai_cs",
+      "reason": "现有官方字段未显示 AI、NLP、CV、ML、机器人、数据智能或相关计算研究主线。",
+      "evidence": "Professor | Core Faculty | https://samueli.ucla.edu/people/mona-jarrahi/"
+    },
+    {
+      "officialId": "nader-sehatbakhsh",
+      "rosterName": "Nader Sehatbakhsh",
+      "title": "Assistant Professor",
+      "profileUrl": "https://samueli.ucla.edu/people/nader-sehatbakhsh/",
+      "portraitUrl": "https://samueli.ucla.edu/wp-content/uploads/samueli/Nader-Sehatbakhsh-thumbnail.png",
+      "officialSections": [
+        "Core Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://samueli.ucla.edu/search-faculty/#ece",
+      "decision": "excluded_non_ai_cs",
+      "reason": "现有官方字段未显示 AI、NLP、CV、ML、机器人、数据智能或相关计算研究主线。",
+      "evidence": "Assistant Professor | Core Faculty | https://samueli.ucla.edu/people/nader-sehatbakhsh/"
+    },
+    {
+      "officialId": "omid-abari",
+      "rosterName": "Omid Abari",
+      "title": "Associate Professor",
+      "profileUrl": "https://samueli.ucla.edu/people/omid-abari/",
+      "portraitUrl": "https://samueli.ucla.edu/wp-content/uploads/samueli/omid-ABARI.jpg",
+      "officialSections": [
+        "Joint Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://samueli.ucla.edu/search-faculty/#ece",
+      "decision": "excluded_non_ai_cs",
+      "reason": "现有官方字段未显示 AI、NLP、CV、ML、机器人、数据智能或相关计算研究主线。",
+      "evidence": "Associate Professor | Joint Faculty | https://samueli.ucla.edu/people/omid-abari/"
+    },
+    {
+      "officialId": "panagiotis-christofides",
+      "rosterName": "Panagiotis Christofides",
+      "title": "Distinguished Professor",
+      "profileUrl": "https://samueli.ucla.edu/people/panagiotis-christofides/",
+      "portraitUrl": "https://samueli.ucla.edu/wp-content/uploads/samueli/panagiotis-profile-photo-featured-300x200.jpg",
+      "officialSections": [
+        "Joint Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://samueli.ucla.edu/search-faculty/#ece",
+      "decision": "excluded_non_ai_cs",
+      "reason": "现有官方字段未显示 AI、NLP、CV、ML、机器人、数据智能或相关计算研究主线。",
+      "evidence": "Distinguished Professor | Joint Faculty | https://samueli.ucla.edu/people/panagiotis-christofides/"
+    },
+    {
+      "officialId": "paulo-tabuada",
+      "rosterName": "Paulo Tabuada",
+      "title": "Professor",
+      "profileUrl": "https://samueli.ucla.edu/people/paulo-tabuada/",
+      "portraitUrl": "https://samueli.ucla.edu/wp-content/uploads/samueli/tabuada_paulo_thumbnail-300x200.jpg",
+      "officialSections": [
+        "Core Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://samueli.ucla.edu/search-faculty/#ece",
+      "decision": "excluded_non_ai_cs",
+      "reason": "现有官方字段未显示 AI、NLP、CV、ML、机器人、数据智能或相关计算研究主线。",
+      "evidence": "Professor | Core Faculty | https://samueli.ucla.edu/people/paulo-tabuada/"
+    },
+    {
+      "officialId": "prineha-narang",
+      "rosterName": "Prineha Narang",
+      "title": "Professor",
+      "profileUrl": "https://samueli.ucla.edu/people/prineha-narang/",
+      "portraitUrl": "https://samueli.ucla.edu/wp-content/uploads/samueli/Prineha-Narang-1-300x211.jpg",
+      "officialSections": [
+        "Joint Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://samueli.ucla.edu/search-faculty/#ece",
+      "decision": "excluded_non_ai_cs",
+      "reason": "现有官方字段未显示 AI、NLP、CV、ML、机器人、数据智能或相关计算研究主线。",
+      "evidence": "Professor | Joint Faculty | https://samueli.ucla.edu/people/prineha-narang/"
+    },
+    {
+      "officialId": "puneet-gupta",
+      "rosterName": "Puneet Gupta",
+      "title": "Professor",
+      "profileUrl": "https://samueli.ucla.edu/people/puneet-gupta/",
+      "portraitUrl": "https://samueli.ucla.edu/wp-content/uploads/samueli/Puneet_Gupta-300x200.jpg",
+      "officialSections": [
+        "Core Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://samueli.ucla.edu/search-faculty/#ece",
+      "decision": "excluded_non_ai_cs",
+      "reason": "现有官方字段未显示 AI、NLP、CV、ML、机器人、数据智能或相关计算研究主线。",
+      "evidence": "Professor | Core Faculty | https://samueli.ucla.edu/people/puneet-gupta/"
+    },
+    {
+      "officialId": "rajeev-jain",
+      "rosterName": "Rajeev Jain",
+      "title": "Professor Emeritus",
+      "profileUrl": "https://samueli.ucla.edu/people/rajeev-jain/",
+      "portraitUrl": "https://samueli.ucla.edu/wp-content/plugins/seas-people/lib/../assets/images/faculty-profile-photo-default-img.jpg",
+      "officialSections": [
+        "Emeriti Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://samueli.ucla.edu/search-faculty/#ece",
+      "decision": "excluded_historical",
+      "reason": "官方职称或名录分组明确为荣休、退休或历史人员。",
+      "evidence": "Professor Emeritus | Emeriti Faculty | https://samueli.ucla.edu/people/rajeev-jain/"
+    },
+    {
+      "officialId": "richard-wesel",
+      "rosterName": "Richard Wesel",
+      "title": "Professor",
+      "profileUrl": "https://samueli.ucla.edu/people/richard-wesel/",
+      "portraitUrl": "https://samueli.ucla.edu/wp-content/uploads/samueli/profile-photo-featured-richard-wessel-300x200.jpg",
+      "officialSections": [
+        "Core Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://samueli.ucla.edu/search-faculty/#ece",
+      "decision": "excluded_non_ai_cs",
+      "reason": "现有官方字段未显示 AI、NLP、CV、ML、机器人、数据智能或相关计算研究主线。",
+      "evidence": "Professor | Core Faculty | https://samueli.ucla.edu/people/richard-wesel/"
+    },
+    {
+      "officialId": "robert-candler",
+      "rosterName": "Robert Candler",
+      "title": "Professor",
+      "profileUrl": "https://samueli.ucla.edu/people/robert-candler/",
+      "portraitUrl": "https://samueli.ucla.edu/wp-content/uploads/samueli/Rob_Candler-300x200.jpg",
+      "officialSections": [
+        "Core Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://samueli.ucla.edu/search-faculty/#ece",
+      "decision": "excluded_non_ai_cs",
+      "reason": "现有官方字段未显示 AI、NLP、CV、ML、机器人、数据智能或相关计算研究主线。",
+      "evidence": "Professor | Core Faculty | https://samueli.ucla.edu/people/robert-candler/"
+    },
+    {
+      "officialId": "sam-emaminejad",
+      "rosterName": "Sam Emaminejad",
+      "title": "Associate Professor",
+      "profileUrl": "https://samueli.ucla.edu/people/sam-emaminejad/",
+      "portraitUrl": "https://samueli.ucla.edu/wp-content/uploads/samueli/Sam-Emaminejad-profile-300x200.jpg",
+      "officialSections": [
+        "Core Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://samueli.ucla.edu/search-faculty/#ece",
+      "decision": "excluded_non_ai_cs",
+      "reason": "现有官方字段未显示 AI、NLP、CV、ML、机器人、数据智能或相关计算研究主线。",
+      "evidence": "Associate Professor | Core Faculty | https://samueli.ucla.edu/people/sam-emaminejad/"
+    },
+    {
+      "officialId": "sean-wang",
+      "rosterName": "Sean Wang",
+      "title": "Lecturer",
+      "profileUrl": "https://samueli.ucla.edu/people/sean-wang/",
+      "portraitUrl": "https://samueli.ucla.edu/wp-content/plugins/seas-people/lib/../assets/images/faculty-profile-photo-default-img.jpg",
+      "officialSections": [
+        "Lecturer"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://samueli.ucla.edu/search-faculty/#ece",
+      "decision": "excluded_non_pi",
+      "reason": "官方职称或名录分组属于教学、兼职、附属、科研支持或其他非独立 PI 岗位。",
+      "evidence": "Lecturer | Lecturer | https://samueli.ucla.edu/people/sean-wang/"
+    },
+    {
+      "officialId": "sergio-carbajo",
+      "rosterName": "Sergio Carbajo",
+      "title": "Associate Professor / Inclusive Excellence Officer",
+      "profileUrl": "https://samueli.ucla.edu/people/sergio-carbajo/",
+      "portraitUrl": "https://samueli.ucla.edu/wp-content/uploads/samueli/sergio_carbajo-1-300x200.png",
+      "officialSections": [
+        "Inclusive Excellence Officer(s)",
+        "Core Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://samueli.ucla.edu/search-faculty/#ece",
+      "decision": "excluded_non_ai_cs",
+      "reason": "现有官方字段未显示 AI、NLP、CV、ML、机器人、数据智能或相关计算研究主线。",
+      "evidence": "Associate Professor / Inclusive Excellence Officer | Inclusive Excellence Officer(s) · Core Faculty | https://samueli.ucla.edu/people/sergio-carbajo/"
+    },
+    {
+      "officialId": "shervin-moloudi",
+      "rosterName": "Shervin Moloudi",
+      "title": "Assistant Adjunct Professor",
+      "profileUrl": "https://samueli.ucla.edu/people/shervin-moloudi/",
+      "portraitUrl": "https://samueli.ucla.edu/wp-content/plugins/seas-people/lib/../assets/images/faculty-profile-photo-default-img.jpg",
+      "officialSections": [
+        "Adjunct Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://samueli.ucla.edu/search-faculty/#ece",
+      "decision": "excluded_non_pi",
+      "reason": "官方职称或名录分组属于教学、兼职、附属、科研支持或其他非独立 PI 岗位。",
+      "evidence": "Assistant Adjunct Professor | Adjunct Faculty | https://samueli.ucla.edu/people/shervin-moloudi/"
+    },
+    {
+      "officialId": "stefano-soatto",
+      "rosterName": "Stefano Soatto",
+      "title": "Professor",
+      "profileUrl": "https://samueli.ucla.edu/people/stefano-soatto/",
+      "portraitUrl": "https://samueli.ucla.edu/wp-content/uploads/samueli/Stefano-Soatto-300x200.jpg",
+      "officialSections": [
+        "Joint Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://samueli.ucla.edu/search-faculty/#ece",
+      "decision": "excluded_non_ai_cs",
+      "reason": "现有官方字段未显示 AI、NLP、CV、ML、机器人、数据智能或相关计算研究主线。",
+      "evidence": "Professor | Joint Faculty | https://samueli.ucla.edu/people/stefano-soatto/"
+    },
+    {
+      "officialId": "stephen-jacobsen",
+      "rosterName": "Stephen Jacobsen",
+      "title": "Professor Emeritus",
+      "profileUrl": "https://samueli.ucla.edu/people/stephen-jacobsen/",
+      "portraitUrl": "https://samueli.ucla.edu/wp-content/plugins/seas-people/lib/../assets/images/faculty-profile-photo-default-img.jpg",
+      "officialSections": [
+        "Emeriti Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://samueli.ucla.edu/search-faculty/#ece",
+      "decision": "excluded_historical",
+      "reason": "官方职称或名录分组明确为荣休、退休或历史人员。",
+      "evidence": "Professor Emeritus | Emeriti Faculty | https://samueli.ucla.edu/people/stephen-jacobsen/"
+    },
+    {
+      "officialId": "subramanian-iyer",
+      "rosterName": "Subramanian Iyer",
+      "title": "Distinguished Professor",
+      "profileUrl": "https://samueli.ucla.edu/people/subramanian-iyer/",
+      "portraitUrl": "https://samueli.ucla.edu/wp-content/uploads/samueli/iyer_subramanian_s_thumbnail-300x200.jpg",
+      "officialSections": [
+        "Core Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://samueli.ucla.edu/search-faculty/#ece",
+      "decision": "excluded_non_ai_cs",
+      "reason": "现有官方字段未显示 AI、NLP、CV、ML、机器人、数据智能或相关计算研究主线。",
+      "evidence": "Distinguished Professor | Core Faculty | https://samueli.ucla.edu/people/subramanian-iyer/"
+    },
+    {
+      "officialId": "sudhakar-pamarti",
+      "rosterName": "Sudhakar Pamarti",
+      "title": "Professor",
+      "profileUrl": "https://samueli.ucla.edu/people/sudhakar-pamarti/",
+      "portraitUrl": "https://samueli.ucla.edu/wp-content/uploads/samueli/pamarti_sudhakar_thumbnail-300x200.jpg",
+      "officialSections": [
+        "Vice Chairs",
+        "Core Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://samueli.ucla.edu/search-faculty/#ece",
+      "decision": "excluded_non_ai_cs",
+      "reason": "现有官方字段未显示 AI、NLP、CV、ML、机器人、数据智能或相关计算研究主线。",
+      "evidence": "Professor | Vice Chairs · Core Faculty | https://samueli.ucla.edu/people/sudhakar-pamarti/"
+    },
+    {
+      "officialId": "suhas-diggavi",
+      "rosterName": "Suhas Diggavi",
+      "title": "Professor",
+      "profileUrl": "https://samueli.ucla.edu/people/suhas-diggavi/",
+      "portraitUrl": "https://samueli.ucla.edu/wp-content/uploads/samueli/Suhas_Diggavi-300x200.jpg",
+      "officialSections": [
+        "Core Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://samueli.ucla.edu/search-faculty/#ece",
+      "decision": "excluded_non_ai_cs",
+      "reason": "现有官方字段未显示 AI、NLP、CV、ML、机器人、数据智能或相关计算研究主线。",
+      "evidence": "Professor | Core Faculty | https://samueli.ucla.edu/people/suhas-diggavi/"
+    },
+    {
+      "officialId": "vwani-roychowdhury",
+      "rosterName": "Vwani Roychowdhury",
+      "title": "Professor",
+      "profileUrl": "https://samueli.ucla.edu/people/vwani-roychowdhury/",
+      "portraitUrl": "https://samueli.ucla.edu/wp-content/uploads/samueli/vwani-roychowdhury-profile-featured-300x200.jpg",
+      "officialSections": [
+        "Core Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://samueli.ucla.edu/search-faculty/#ece",
+      "decision": "excluded_non_ai_cs",
+      "reason": "现有官方字段未显示 AI、NLP、CV、ML、机器人、数据智能或相关计算研究主线。",
+      "evidence": "Professor | Core Faculty | https://samueli.ucla.edu/people/vwani-roychowdhury/"
+    },
+    {
+      "officialId": "warren-mori",
+      "rosterName": "Warren Mori",
+      "title": "Professor",
+      "profileUrl": "https://samueli.ucla.edu/people/warren-mori/",
+      "portraitUrl": "https://samueli.ucla.edu/wp-content/uploads/samueli/warren-mori-profile-featured-300x200.jpg",
+      "officialSections": [
+        "Core Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://samueli.ucla.edu/search-faculty/#ece",
+      "decision": "excluded_non_ai_cs",
+      "reason": "现有官方字段未显示 AI、NLP、CV、ML、机器人、数据智能或相关计算研究主线。",
+      "evidence": "Professor | Core Faculty | https://samueli.ucla.edu/people/warren-mori/"
+    },
+    {
+      "officialId": "wentai-liu",
+      "rosterName": "Wentai Liu",
+      "title": "Distinguished Professor",
+      "profileUrl": "https://samueli.ucla.edu/people/wentai-liu/",
+      "portraitUrl": "https://samueli.ucla.edu/wp-content/uploads/samueli/liu_wentai_thumbnail-300x200.jpg",
+      "officialSections": [
+        "Joint Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://samueli.ucla.edu/search-faculty/#ece",
+      "decision": "excluded_non_ai_cs",
+      "reason": "现有官方字段未显示 AI、NLP、CV、ML、机器人、数据智能或相关计算研究主线。",
+      "evidence": "Distinguished Professor | Joint Faculty | https://samueli.ucla.edu/people/wentai-liu/"
+    },
+    {
+      "officialId": "william-kaiser",
+      "rosterName": "William Kaiser",
+      "title": "Professor Emeritus",
+      "profileUrl": "https://samueli.ucla.edu/people/william-kaiser/",
+      "portraitUrl": "https://samueli.ucla.edu/wp-content/uploads/samueli/William-Kaiser-profile-300x200.jpg",
+      "officialSections": [
+        "Emeriti Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://samueli.ucla.edu/search-faculty/#ece",
+      "decision": "excluded_historical",
+      "reason": "官方职称或名录分组明确为荣休、退休或历史人员。",
+      "evidence": "Professor Emeritus | Emeriti Faculty | https://samueli.ucla.edu/people/william-kaiser/"
+    },
+    {
+      "officialId": "xiang-anthony-chen",
+      "rosterName": "Xiang Anthony Chen",
+      "title": "Associate Professor",
+      "profileUrl": "https://samueli.ucla.edu/people/xiang-anthony-chen/",
+      "portraitUrl": "https://samueli.ucla.edu/wp-content/uploads/samueli/anthony-chen-profile-featured-300x200.jpg",
+      "officialSections": [
+        "Core Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://samueli.ucla.edu/search-faculty/#ece",
+      "decision": "excluded_non_ai_cs",
+      "reason": "现有官方字段未显示 AI、NLP、CV、ML、机器人、数据智能或相关计算研究主线。",
+      "evidence": "Associate Professor | Core Faculty | https://samueli.ucla.edu/people/xiang-anthony-chen/"
+    },
+    {
+      "officialId": "xiaofan-cui",
+      "rosterName": "Xiaofan Cui",
+      "title": "Assistant Professor",
+      "profileUrl": "https://samueli.ucla.edu/people/xiaofan-cui/",
+      "portraitUrl": "https://samueli.ucla.edu/wp-content/uploads/samueli/Xiaofan-Lanscape-300x200-1.jpeg",
+      "officialSections": [
+        "Core Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://samueli.ucla.edu/search-faculty/#ece",
+      "decision": "excluded_non_ai_cs",
+      "reason": "现有官方字段未显示 AI、NLP、CV、ML、机器人、数据智能或相关计算研究主线。",
+      "evidence": "Assistant Professor | Core Faculty | https://samueli.ucla.edu/people/xiaofan-cui/"
+    },
+    {
+      "officialId": "yahya-rahmat-samii",
+      "rosterName": "Yahya Rahmat-Samii",
+      "title": "Distinguished Professor",
+      "profileUrl": "https://samueli.ucla.edu/people/yahya-rahmat-samii/",
+      "portraitUrl": "https://samueli.ucla.edu/wp-content/uploads/samueli/yahya-rahmat-samii-featured-300x200.jpg",
+      "officialSections": [
+        "Core Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://samueli.ucla.edu/search-faculty/#ece",
+      "decision": "excluded_non_ai_cs",
+      "reason": "现有官方字段未显示 AI、NLP、CV、ML、机器人、数据智能或相关计算研究主线。",
+      "evidence": "Distinguished Professor | Core Faculty | https://samueli.ucla.edu/people/yahya-rahmat-samii/"
+    },
+    {
+      "officialId": "yair-rivenson",
+      "rosterName": "Yair Rivenson",
+      "title": "Adjunct Professor",
+      "profileUrl": "https://samueli.ucla.edu/people/yair-rivenson/",
+      "portraitUrl": "https://samueli.ucla.edu/wp-content/plugins/seas-people/lib/../assets/images/faculty-profile-photo-default-img.jpg",
+      "officialSections": [
+        "Adjunct Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://samueli.ucla.edu/search-faculty/#ece",
+      "decision": "excluded_non_pi",
+      "reason": "官方职称或名录分组属于教学、兼职、附属、科研支持或其他非独立 PI 岗位。",
+      "evidence": "Adjunct Professor | Adjunct Faculty | https://samueli.ucla.edu/people/yair-rivenson/"
+    },
+    {
+      "officialId": "yang-zhang",
+      "rosterName": "Yang Zhang",
+      "title": "Assistant Professor",
+      "profileUrl": "https://samueli.ucla.edu/people/yang-zhang/",
+      "portraitUrl": "https://samueli.ucla.edu/wp-content/uploads/samueli/yang_zhang3x2-300x200.jpg",
+      "officialSections": [
+        "Core Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://samueli.ucla.edu/search-faculty/#ece",
+      "decision": "excluded_non_ai_cs",
+      "reason": "现有官方字段未显示 AI、NLP、CV、ML、机器人、数据智能或相关计算研究主线。",
+      "evidence": "Assistant Professor | Core Faculty | https://samueli.ucla.edu/people/yang-zhang/"
+    },
+    {
+      "officialId": "yuan-tian",
+      "rosterName": "Yuan Tian",
+      "title": "Associate Professor",
+      "profileUrl": "https://samueli.ucla.edu/people/yuan-tian/",
+      "portraitUrl": "https://samueli.ucla.edu/wp-content/uploads/samueli/Yuan-Tian-f.png",
+      "officialSections": [
+        "Core Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://samueli.ucla.edu/search-faculty/#ece",
+      "decision": "excluded_non_ai_cs",
+      "reason": "现有官方字段未显示 AI、NLP、CV、ML、机器人、数据智能或相关计算研究主线。",
+      "evidence": "Associate Professor | Core Faculty | https://samueli.ucla.edu/people/yuan-tian/"
+    },
+    {
+      "officialId": "yuanxun-wang",
+      "rosterName": "Yuanxun Ethan Wang",
+      "title": "Professor",
+      "profileUrl": "https://samueli.ucla.edu/people/yuanxun-wang/",
+      "portraitUrl": "https://samueli.ucla.edu/wp-content/uploads/samueli/ethan-wang-profile-featured-300x200.jpg",
+      "officialSections": [
+        "Core Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://samueli.ucla.edu/search-faculty/#ece",
+      "decision": "excluded_non_ai_cs",
+      "reason": "现有官方字段未显示 AI、NLP、CV、ML、机器人、数据智能或相关计算研究主线。",
+      "evidence": "Professor | Core Faculty | https://samueli.ucla.edu/people/yuanxun-wang/"
+    }
+  ]
+}

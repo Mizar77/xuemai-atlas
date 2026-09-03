@@ -1,0 +1,42 @@
+import type { GroupMember, Person, Relationship, Source, StudentPlacement } from "./data";
+
+const checkedAt = "2026-09-03";
+const source = (label: string, url: string, supports: string): Source => ({ label, url, kind: "official", supports, checkedAt });
+const roster = source("EPFL IC · Faculty members", "https://www.epfl.ch/schools/ic/about/faculty-members/", "EPFL IC 现任教师名录");
+const kapralovProfile = source("EPFL People · Michael Kapralov", "https://people.epfl.ch/michael.kapralov/?lang=en", "现任职务、课程、现任与历届博士生及官方头像");
+const kapralovLab = source("EPFL Theory · Michael Kapralov", "https://theory.epfl.ch/kapralov/", "现任职务、研究方向、Stanford 博士导师、MIT 与 IBM 博士后履历和学生列表");
+const grossglauserProfile = source("EPFL People · Matthias Grossglauser", "https://people.epfl.ch/matthias.grossglauser?lang=en", "EPFL 现任职务、博士生和官方头像");
+const grossglauserLab = source("EPFL INDY · Matthias Grossglauser", "https://indy.epfl.ch/grossglauser/", "现任职务、教育、Nokia 与 AT&T 履历、研究方向和团队成员");
+const vidickProfile = source("EPFL People · Thomas Vidick", "https://people.epfl.ch/thomas.vidick?lang=en", "EPFL 现任职务、课程、博士生与官方头像");
+const vidickBio = source("EPFL · Thomas Vidick inaugural lecture", "https://memento.epfl.ch/event/inaugural-lectures-prof-charlotte-bunne-and-prof-t/", "UC Berkeley 博士、MIT 博士后、Caltech/Weizmann/EPFL 任职与量子计算研究履历");
+const salatheProfile = source("EPFL People · Marcel Salathé", "https://people.epfl.ch/marcel.salathe?lang=en", "现任职务、课程、现任及历届博士生和官方头像");
+const salatheBio = source("EPFL CIS · Marcel Salathé seminar", "https://memento.epfl.ch/event/cis-serie-de-seminaires-apprenez-a-connaitre-vo-22/", "ETH Zurich 博士、Stanford 博士后、EPFL 数字流行病学实验室和研究方向");
+const fact = (label: string, value: string, evidence: Source) => ({ label, value, source: evidence });
+const person = (row: Omit<Person, "category" | "primary" | "status" | "introducedAt" | "lastVerifiedAt" | "portrait"> & { portraitFile: string; portraitSource: Source }): Person => ({ ...row, category: "core", primary: true, status: "current independent PI · official profile verified", introducedAt: checkedAt, lastVerifiedAt: checkedAt, portrait: { src: `portraits/candidate-p0-europe-full-batch-2-2026/${row.portraitFile}`, alt: `${row.name} 头像`, source: row.portraitSource } });
+
+export const candidatePriorityP0EuropeFullBatch2People2026: Person[] = [
+  person({ id: "michael-kapralov-epfl-p0-full-2026", name: "Michael Kapralov", role: "Associate Professor · Theory Group", institution: "EPFL", region: "Europe", area: "Sublinear Algorithms · Streaming · Graph Algorithms", tags: ["Algorithms", "Sublinear Algorithms", "Streaming", "Theoretical Computer Science"], summary: "EPFL 理论计算机科学 PI，研究面向大规模数据的次线性、流式与通信受限算法。", stage: "senior", x: 210, y: 210, portraitFile: "michael-kapralov.jpg", portraitSource: kapralovProfile, facts: [fact("当前任职", "EPFL School of Computer and Communication Sciences Associate Professor，并为 EPFL Theory Group 成员。", kapralovLab), fact("教育与学术训练", "在 Stanford iCME 完成博士学位，导师为 Ashish Goel。", kapralovLab), fact("任职经历", "博士后阶段先后在 MIT CSAIL Theory of Computation Group 与 IBM T. J. Watson Research Center 工作。", kapralovLab), fact("研究主线", "研究次线性算法，关注在时间、空间或通信资源受限条件下处理大规模数据。", kapralovLab), fact("学生体系", "EPFL 官方页面列出 Weronika Wrzos-Kaminska、Guy Weissenberg、Davide Mazzali、Ekaterina Kochetkova 与 Kshiteej Jitesh Sheth 为现任博士生。", kapralovProfile)], sources: [roster, kapralovProfile, kapralovLab] }),
+  person({ id: "matthias-grossglauser-epfl-p0-full-2026", name: "Matthias Grossglauser", role: "Professor · Information and Network Dynamics", institution: "EPFL", region: "Europe", area: "Machine Learning · Network Science · Reinforcement Learning", tags: ["Machine Learning", "Reinforcement Learning", "Network Science", "Recommender Systems"], summary: "EPFL INDY 共同负责人，研究机器学习、随机网络与离散选择，并延伸到强化学习和计算社会科学。", stage: "senior", x: 430, y: 210, portraitFile: "matthias-grossglauser.jpg", portraitSource: grossglauserProfile, facts: [fact("当前任职", "EPFL Computer and Communication Sciences Professor，联合主持 Information and Network Dynamics group。", grossglauserLab), fact("教育与学术训练", "获 Sorbonne Universités 计算机科学博士、Georgia Tech 电气工程硕士及 EPFL 通信系统工程学位。", grossglauserLab), fact("产业经历", "曾任 Nokia Research Center Internet Laboratory 负责人并进入 Nokia CEO Technology Council，此前任 AT&T Research Principal Research Scientist。", grossglauserLab), fact("研究主线", "研究机器学习、随机网络、离散选择及其在 AI、强化学习、网络科学和推荐系统中的应用。", grossglauserLab), fact("学生体系", "INDY 官方页面列出 Amir Aboueimehrizi、Daichi Kuroda、Sadegh Khorasani 与 Oscar Villemaud 为博士生。", grossglauserLab)], sources: [roster, grossglauserProfile, grossglauserLab] }),
+  person({ id: "thomas-vidick-epfl-p0-full-2026", name: "Thomas Vidick", role: "Full Professor · Quantum Computing and Complexity", institution: "EPFL", region: "Europe", area: "Quantum Computing · Complexity · Cryptography", tags: ["Quantum Computing", "Complexity Theory", "Cryptography", "Theoretical Computer Science"], summary: "EPFL 量子计算与复杂性教授，用复杂性理论和密码学研究量子系统、交互式证明与可验证性。", stage: "senior", x: 650, y: 210, portraitFile: "thomas-vidick.jpg", portraitSource: vidickProfile, facts: [fact("当前任职", "2024 年秋加入 EPFL，任 Full Professor。", vidickBio), fact("教育与学术训练", "获 École Normale Supérieure 数学学位、Université Paris 7 计算机科学硕士，并于 UC Berkeley 获博士学位。", vidickBio), fact("任职经历", "博士后在 MIT 工作，之后任教 Caltech；2022 年转至 Weizmann Institute，2024 年加入 EPFL。", vidickBio), fact("研究主线", "研究理论计算机科学、量子信息与密码学的交叉，重点包括量子交互式证明和量子系统验证。", vidickBio), fact("学生体系", "EPFL 官方页面列出 Aviv Taller 为现任博士生。", vidickProfile)], sources: [roster, vidickProfile, vidickBio] }),
+  person({ id: "marcel-salathe-epfl-p0-full-2026", name: "Marcel Salathé", role: "Associate Professor · Digital Epidemiology Lab", institution: "EPFL", region: "Europe", area: "Machine Learning · Digital Epidemiology · AI for Health", tags: ["Machine Learning", "Digital Health", "AI for Science", "Computational Epidemiology"], summary: "EPFL 数字流行病学实验室负责人，把机器学习与移动技术用于公共健康、传染病监测和个性化营养。", stage: "senior", x: 870, y: 210, portraitFile: "marcel-salathe.jpg", portraitSource: salatheProfile, facts: [fact("当前任职", "EPFL Associate Professor，领导 Digital Epidemiology Lab，并担任 EPFL AI Center academic co-director。", salatheProfile), fact("教育与学术训练", "于 ETH Zurich 获博士学位，随后在 Stanford 开展博士后研究。", salatheBio), fact("研究主线", "以机器学习和大规模移动技术构建数字流行病学与健康系统。", salatheBio), fact("跨学科定位", "实验室位于 Campus Biotech，研究延伸到数字健康与个性化营养。", salatheBio), fact("学生体系", "EPFL 官方页面列出 Rohan Singh 与 Marouane Toumi 为现任博士生。", salatheProfile)], sources: [roster, salatheProfile, salatheBio] }),
+];
+
+export const candidatePriorityP0EuropeFullBatch2Relationships2026: Relationship[] = [];
+export const candidatePriorityP0EuropeFullBatch2Placements2026: StudentPlacement[] = [];
+export const candidatePriorityP0EuropeFullBatch2GroupMembers2026: GroupMember[] = [
+  { id: "p0-eu-full2-kapralov-ekaterina-kochetkova", teacherId: "michael-kapralov-epfl-p0-full-2026", name: "Ekaterina Kochetkova", role: "Current PhD student", focus: "Sublinear algorithms", source: kapralovProfile },
+  { id: "p0-eu-full2-grossglauser-amir-aboueimehrizi", teacherId: "matthias-grossglauser-epfl-p0-full-2026", name: "Amir Aboueimehrizi", role: "Current PhD student", focus: "Machine learning and network dynamics", source: grossglauserLab },
+  { id: "p0-eu-full2-vidick-aviv-taller", teacherId: "thomas-vidick-epfl-p0-full-2026", name: "Aviv Taller", role: "Current PhD student", focus: "Quantum computing and complexity", source: vidickProfile },
+  { id: "p0-eu-full2-salathe-rohan-singh", teacherId: "marcel-salathe-epfl-p0-full-2026", name: "Rohan Singh", role: "Current PhD student", focus: "Digital epidemiology", source: salatheProfile },
+];
+export const candidatePriorityP0EuropeFullBatch2RosterPromotions2026 = [
+  { unitUrl: roster.url, rosterName: "Michael Kapralov", atlasPersonId: "michael-kapralov-epfl-p0-full-2026" },
+  { unitUrl: roster.url, rosterName: "Matthias Grossglauser", atlasPersonId: "matthias-grossglauser-epfl-p0-full-2026" },
+  { unitUrl: roster.url, rosterName: "Thomas Vidick", atlasPersonId: "thomas-vidick-epfl-p0-full-2026" },
+  { unitUrl: roster.url, rosterName: "Marcel Salathé", atlasPersonId: "marcel-salathe-epfl-p0-full-2026" },
+] as const;
+export const people = candidatePriorityP0EuropeFullBatch2People2026;
+export const relationships = candidatePriorityP0EuropeFullBatch2Relationships2026;
+export const placements = candidatePriorityP0EuropeFullBatch2Placements2026;
+export const groupMembers = candidatePriorityP0EuropeFullBatch2GroupMembers2026;
+export const rosterPromotions = candidatePriorityP0EuropeFullBatch2RosterPromotions2026;

@@ -1,0 +1,2050 @@
+{
+  "schemaVersion": 1,
+  "unitId": "umd-umiacs",
+  "unitLabel": "University of Maryland UMIACS",
+  "unitUrl": "https://www.umiacs.umd.edu/our-experts/faculty",
+  "snapshotAt": "2026-09-03",
+  "rosterArtifact": "data/official-rosters/umd-umiacs-faculty-2026-09-02.json",
+  "frozenOfficialRosterCount": 129,
+  "rawRosterRowCount": 129,
+  "duplicateRosterCardCount": 0,
+  "deduplicatedRosterPersonCount": 129,
+  "decisionCount": 129,
+  "counts": {
+    "excluded_historical": 15,
+    "excluded_non_pi": 20,
+    "include_new_pi": 88,
+    "included_existing": 6
+  },
+  "decisions": [
+    {
+      "officialId": "daniel-abadi",
+      "rosterName": "Daniel Abadi",
+      "title": "Professor",
+      "profileUrl": "https://www.umiacs.umd.edu/our-experts/faculty/daniel-abadi",
+      "portraitUrl": "https://www.umiacs.umd.edu/sites/default/files/styles/optimized/public/Abadi.png.webp?itok=j2UIzGye",
+      "officialSections": [],
+      "researchFields": [
+        "Database System Architecture"
+      ],
+      "unitUrl": "https://www.umiacs.umd.edu/our-experts/faculty",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Professor | Database System Architecture | https://www.umiacs.umd.edu/our-experts/faculty/daniel-abadi",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "wei-ai",
+      "rosterName": "Wei Ai",
+      "title": "Assistant Professor",
+      "profileUrl": "https://www.umiacs.umd.edu/our-experts/faculty/wei-ai",
+      "portraitUrl": "https://www.umiacs.umd.edu/sites/default/files/styles/optimized/public/wei_ai_hallway-%20Square%20-%20Copy.jpeg.webp?itok=xnObVkI6",
+      "officialSections": [],
+      "researchFields": [
+        "Machine Learning & Data Mining Algorithms"
+      ],
+      "unitUrl": "https://www.umiacs.umd.edu/our-experts/faculty",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Assistant Professor | Machine Learning & Data Mining Algorithms | https://www.umiacs.umd.edu/our-experts/faculty/wei-ai",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "gorjan-alagic",
+      "rosterName": "Gorjan Alagic",
+      "title": "Associate Research Scientist",
+      "profileUrl": "https://www.umiacs.umd.edu/our-experts/faculty/gorjan-alagic",
+      "portraitUrl": "https://www.umiacs.umd.edu/sites/default/files/styles/optimized/public/Alagic%2C%20Gorjan.jpeg.webp?itok=R1WBDJHl",
+      "officialSections": [],
+      "researchFields": [
+        "Cryptography & Quantum Algorithms"
+      ],
+      "unitUrl": "https://www.umiacs.umd.edu/our-experts/faculty",
+      "decision": "excluded_non_pi",
+      "reason": "官方职称或名录分组属于教学、兼职、附属、科研支持或其他非独立 PI 岗位。",
+      "evidence": "Associate Research Scientist | Cryptography & Quantum Algorithms | https://www.umiacs.umd.edu/our-experts/faculty/gorjan-alagic"
+    },
+    {
+      "officialId": "victor-albert",
+      "rosterName": "Victor Albert",
+      "title": "Adjunct Assistant Professor",
+      "profileUrl": "https://www.umiacs.umd.edu/our-experts/faculty/victor-albert",
+      "portraitUrl": "https://www.umiacs.umd.edu/sites/default/files/styles/optimized/public/Victor%20Albert.png.webp?itok=OthEiZvH",
+      "officialSections": [],
+      "researchFields": [
+        "Theoretical physics"
+      ],
+      "unitUrl": "https://www.umiacs.umd.edu/our-experts/faculty",
+      "decision": "excluded_non_pi",
+      "reason": "官方职称或名录分组属于教学、兼职、附属、科研支持或其他非独立 PI 岗位。",
+      "evidence": "Adjunct Assistant Professor | Theoretical physics | https://www.umiacs.umd.edu/our-experts/faculty/victor-albert"
+    },
+    {
+      "officialId": "yiannis-aloimonos",
+      "rosterName": "Yiannis Aloimonos",
+      "title": "Professor",
+      "profileUrl": "https://www.umiacs.umd.edu/our-experts/faculty/yiannis-aloimonos",
+      "portraitUrl": "https://www.umiacs.umd.edu/sites/default/files/styles/optimized/public/web-aloimonos.jpg.webp?itok=yNBoPUTW",
+      "officialSections": [],
+      "researchFields": [
+        "Vision & Robotics"
+      ],
+      "unitUrl": "https://www.umiacs.umd.edu/our-experts/faculty",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Professor | Vision & Robotics | https://www.umiacs.umd.edu/our-experts/faculty/yiannis-aloimonos",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "stephen-altschul",
+      "rosterName": "Stephen Altschul",
+      "title": "Adjunct Professor",
+      "profileUrl": "https://www.umiacs.umd.edu/our-experts/faculty/stephen-altschul",
+      "portraitUrl": "https://www.umiacs.umd.edu/sites/default/files/styles/optimized/public/Altschul%2C%20Stephen.jpeg.webp?itok=DxS7y3fX",
+      "officialSections": [],
+      "researchFields": [
+        "Computational Biology"
+      ],
+      "unitUrl": "https://www.umiacs.umd.edu/our-experts/faculty",
+      "decision": "excluded_non_pi",
+      "reason": "官方职称或名录分组属于教学、兼职、附属、科研支持或其他非独立 PI 岗位。",
+      "evidence": "Adjunct Professor | Computational Biology | https://www.umiacs.umd.edu/our-experts/faculty/stephen-altschul"
+    },
+    {
+      "officialId": "bill-arbaugh",
+      "rosterName": "Bill Arbaugh",
+      "title": "Associate Professor Emeritus",
+      "profileUrl": "https://www.umiacs.umd.edu/our-experts/faculty/bill-arbaugh",
+      "portraitUrl": "https://www.umiacs.umd.edu/sites/default/files/styles/optimized/public/web-Arbaugh.jpg.webp?itok=xtVxrfu3",
+      "officialSections": [],
+      "researchFields": [
+        "Information System Security"
+      ],
+      "unitUrl": "https://www.umiacs.umd.edu/our-experts/faculty",
+      "decision": "excluded_historical",
+      "reason": "官方职称或名录分组明确为荣休、退休或历史人员。",
+      "evidence": "Associate Professor Emeritus | Information System Security | https://www.umiacs.umd.edu/our-experts/faculty/bill-arbaugh"
+    },
+    {
+      "officialId": "bahar-asgari",
+      "rosterName": "Bahar Asgari",
+      "title": "Assistant Professor",
+      "profileUrl": "https://www.umiacs.umd.edu/our-experts/faculty/bahar-asgari",
+      "portraitUrl": "https://www.umiacs.umd.edu/sites/default/files/styles/optimized/public/Asgari%2C%20Bahar%20new%20crop.jpeg.webp?itok=8YZ-HQ9F",
+      "officialSections": [],
+      "researchFields": [
+        "Computer Architecture"
+      ],
+      "unitUrl": "https://www.umiacs.umd.edu/our-experts/faculty",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Assistant Professor | Computer Architecture | https://www.umiacs.umd.edu/our-experts/faculty/bahar-asgari",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "victor-basili",
+      "rosterName": "Victor Basili",
+      "title": "Professor Emeritus",
+      "profileUrl": "https://www.umiacs.umd.edu/our-experts/faculty/victor-basili",
+      "portraitUrl": "https://www.umiacs.umd.edu/sites/default/files/styles/optimized/public/web-basili.jpg.webp?itok=dYS5eeUb",
+      "officialSections": [],
+      "researchFields": [
+        "Software Engineering"
+      ],
+      "unitUrl": "https://www.umiacs.umd.edu/our-experts/faculty",
+      "decision": "excluded_historical",
+      "reason": "官方职称或名录分组明确为荣休、退休或历史人员。",
+      "evidence": "Professor Emeritus | Software Engineering | https://www.umiacs.umd.edu/our-experts/faculty/victor-basili"
+    },
+    {
+      "officialId": "ben-bederson",
+      "rosterName": "Ben Bederson",
+      "title": "Professor Emeritus",
+      "profileUrl": "https://www.umiacs.umd.edu/our-experts/faculty/ben-bederson",
+      "portraitUrl": "https://www.umiacs.umd.edu/sites/default/files/styles/optimized/public/web-Bederson.jpg.webp?itok=VdN5W2LC",
+      "officialSections": [],
+      "researchFields": [
+        "Human-Computer Interaction"
+      ],
+      "unitUrl": "https://www.umiacs.umd.edu/our-experts/faculty",
+      "decision": "excluded_historical",
+      "reason": "官方职称或名录分组明确为荣休、退休或历史人员。",
+      "evidence": "Professor Emeritus | Human-Computer Interaction | https://www.umiacs.umd.edu/our-experts/faculty/ben-bederson"
+    },
+    {
+      "officialId": "abhinav-bhatele",
+      "rosterName": "Abhinav Bhatele",
+      "title": "Professor",
+      "profileUrl": "https://www.umiacs.umd.edu/our-experts/faculty/abhinav-bhatele",
+      "portraitUrl": "https://www.umiacs.umd.edu/sites/default/files/styles/optimized/public/people/bhatele.jpg.webp?itok=uKWBCpmx",
+      "officialSections": [],
+      "researchFields": [
+        "Parallel Computing & Distributed AI"
+      ],
+      "unitUrl": "https://www.umiacs.umd.edu/our-experts/faculty",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Professor | Parallel Computing & Distributed AI | https://www.umiacs.umd.edu/our-experts/faculty/abhinav-bhatele",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "shuvra-bhattacharyya",
+      "rosterName": "Shuvra Bhattacharyya",
+      "title": "Professor",
+      "profileUrl": "https://www.umiacs.umd.edu/our-experts/faculty/shuvra-bhattacharyya",
+      "portraitUrl": "https://www.umiacs.umd.edu/sites/default/files/styles/optimized/public/web-Shuvra%20S.jpg.webp?itok=ldejWXTG",
+      "officialSections": [],
+      "researchFields": [
+        "Digital Signal Processing"
+      ],
+      "unitUrl": "https://www.umiacs.umd.edu/our-experts/faculty",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Professor | Digital Signal Processing | https://www.umiacs.umd.edu/our-experts/faculty/shuvra-bhattacharyya",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "jordan-boyd-graber",
+      "rosterName": "Jordan Boyd-Graber",
+      "title": "Professor",
+      "profileUrl": "https://www.umiacs.umd.edu/our-experts/faculty/jordan-boyd-graber",
+      "portraitUrl": "https://www.umiacs.umd.edu/sites/default/files/styles/optimized/public/boyd%20graber%20squared_0.jpeg.webp?itok=BGikqfxx",
+      "officialSections": [],
+      "researchFields": [
+        "Machine Learning"
+      ],
+      "unitUrl": "https://www.umiacs.umd.edu/our-experts/faculty",
+      "decision": "included_existing",
+      "atlasPersonId": "jordan-boyd-graber-lineage",
+      "reason": "符合范围，且规范化姓名可与当前图谱人物唯一匹配。",
+      "evidence": "Professor | Machine Learning | https://www.umiacs.umd.edu/our-experts/faculty/jordan-boyd-graber"
+    },
+    {
+      "officialId": "cody-buntain",
+      "rosterName": "Cody Buntain",
+      "title": "Assistant Professor",
+      "profileUrl": "https://www.umiacs.umd.edu/our-experts/faculty/cody-buntain",
+      "portraitUrl": "https://www.umiacs.umd.edu/sites/default/files/styles/optimized/public/Buntain%2C%20Cody%20cropped.jpg.webp?itok=aLqk5XwT",
+      "officialSections": [],
+      "researchFields": [
+        "Data Science"
+      ],
+      "unitUrl": "https://www.umiacs.umd.edu/our-experts/faculty",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Assistant Professor | Data Science | https://www.umiacs.umd.edu/our-experts/faculty/cody-buntain",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "marine-carpuat",
+      "rosterName": "Marine Carpuat",
+      "title": "Professor",
+      "profileUrl": "https://www.umiacs.umd.edu/our-experts/faculty/marine-carpuat",
+      "portraitUrl": "https://www.umiacs.umd.edu/sites/default/files/styles/optimized/public/IMG_1083_forweb.jpg.webp?itok=_oxxHTZ3",
+      "officialSections": [],
+      "researchFields": [
+        "Natural Language Processing"
+      ],
+      "unitUrl": "https://www.umiacs.umd.edu/our-experts/faculty",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Professor | Natural Language Processing | https://www.umiacs.umd.edu/our-experts/faculty/marine-carpuat",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "rama-chellappa",
+      "rosterName": "Rama Chellappa",
+      "title": "College Park Professor",
+      "profileUrl": "https://www.umiacs.umd.edu/our-experts/faculty/rama-chellappa",
+      "portraitUrl": "https://www.umiacs.umd.edu/sites/default/files/styles/optimized/public/people/web-Chellapa316.jpg.webp?itok=uQcWzz1i",
+      "officialSections": [],
+      "researchFields": [
+        "Computer Vision"
+      ],
+      "unitUrl": "https://www.umiacs.umd.edu/our-experts/faculty",
+      "decision": "included_existing",
+      "atlasPersonId": "rama-chellappa-us",
+      "reason": "符合范围，且规范化姓名可与当前图谱人物唯一匹配。",
+      "evidence": "College Park Professor | Computer Vision | https://www.umiacs.umd.edu/our-experts/faculty/rama-chellappa"
+    },
+    {
+      "officialId": "yizheng-chen",
+      "rosterName": "Yizheng Chen",
+      "title": "Assistant Professor",
+      "profileUrl": "https://www.umiacs.umd.edu/our-experts/faculty/yizheng-chen",
+      "portraitUrl": "https://www.umiacs.umd.edu/sites/default/files/styles/optimized/public/Chen%2C%20Yizheng%202024%20cropped.jpg.webp?itok=86z-lCX5",
+      "officialSections": [],
+      "researchFields": [
+        "AI & Security"
+      ],
+      "unitUrl": "https://www.umiacs.umd.edu/our-experts/faculty",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Assistant Professor | AI & Security | https://www.umiacs.umd.edu/our-experts/faculty/yizheng-chen",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "andrew-childs",
+      "rosterName": "Andrew Childs",
+      "title": "Professor & Interim Director",
+      "profileUrl": "https://www.umiacs.umd.edu/our-experts/faculty/andrew-childs",
+      "portraitUrl": "https://www.umiacs.umd.edu/sites/default/files/styles/optimized/public/IMG_9750_0.JPG.webp?itok=jZ6mK_5B",
+      "officialSections": [],
+      "researchFields": [
+        "Quantum Information Processing"
+      ],
+      "unitUrl": "https://www.umiacs.umd.edu/our-experts/faculty",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Professor & Interim Director | Quantum Information Processing | https://www.umiacs.umd.edu/our-experts/faculty/andrew-childs",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "rita-r-colwell",
+      "rosterName": "Rita R. Colwell",
+      "title": "Distinguished University Professor",
+      "profileUrl": "https://www.umiacs.umd.edu/our-experts/faculty/rita-r-colwell",
+      "portraitUrl": "https://www.umiacs.umd.edu/sites/default/files/styles/optimized/public/1RitaColwell_0.JPG.webp?itok=E_mMHGgy",
+      "officialSections": [],
+      "researchFields": [
+        "Computational Biology"
+      ],
+      "unitUrl": "https://www.umiacs.umd.edu/our-experts/faculty",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Distinguished University Professor | Computational Biology | https://www.umiacs.umd.edu/our-experts/faculty/rita-r-colwell",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "matthew-coudron",
+      "rosterName": "Matthew Coudron",
+      "title": "Adjunct Assistant Professor",
+      "profileUrl": "https://www.umiacs.umd.edu/our-experts/faculty/matthew-coudron",
+      "portraitUrl": "https://www.umiacs.umd.edu/sites/default/files/styles/optimized/public/Coudron.jpg.webp?itok=rTrr9mhf",
+      "officialSections": [],
+      "researchFields": [
+        "Theoretical Computer Science"
+      ],
+      "unitUrl": "https://www.umiacs.umd.edu/our-experts/faculty",
+      "decision": "excluded_non_pi",
+      "reason": "官方职称或名录分组属于教学、兼职、附属、科研支持或其他非独立 PI 岗位。",
+      "evidence": "Adjunct Assistant Professor | Theoretical Computer Science | https://www.umiacs.umd.edu/our-experts/faculty/matthew-coudron"
+    },
+    {
+      "officialId": "michel-cukier",
+      "rosterName": "Michel Cukier",
+      "title": "Professor",
+      "profileUrl": "https://www.umiacs.umd.edu/our-experts/faculty/michel-cukier",
+      "portraitUrl": "https://www.umiacs.umd.edu/sites/default/files/styles/optimized/public/webCukier.jpg.webp?itok=u5P62BPL",
+      "officialSections": [],
+      "researchFields": [
+        "Reliability & Security"
+      ],
+      "unitUrl": "https://www.umiacs.umd.edu/our-experts/faculty",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Professor | Reliability & Security | https://www.umiacs.umd.edu/our-experts/faculty/michel-cukier",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "michael-cummings",
+      "rosterName": "Michael Cummings",
+      "title": "MPower Professor",
+      "profileUrl": "https://www.umiacs.umd.edu/our-experts/faculty/michael-cummings",
+      "portraitUrl": "https://www.umiacs.umd.edu/sites/default/files/styles/optimized/public/cummings.png.webp?itok=vmlBJjfc",
+      "officialSections": [],
+      "researchFields": [
+        "Computational Biology"
+      ],
+      "unitUrl": "https://www.umiacs.umd.edu/our-experts/faculty",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "MPower Professor | Computational Biology | https://www.umiacs.umd.edu/our-experts/faculty/michael-cummings",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "dana-dachman-soled",
+      "rosterName": "Dana Dachman-Soled",
+      "title": "Professor",
+      "profileUrl": "https://www.umiacs.umd.edu/our-experts/faculty/dana-dachman-soled",
+      "portraitUrl": "https://www.umiacs.umd.edu/sites/default/files/styles/optimized/public/people/dana-profile%20copy.jpeg.webp?itok=UYyj3GE7",
+      "officialSections": [],
+      "researchFields": [
+        "Cryptography"
+      ],
+      "unitUrl": "https://www.umiacs.umd.edu/our-experts/faculty",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Professor | Cryptography | https://www.umiacs.umd.edu/our-experts/faculty/dana-dachman-soled",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "hal-daume-iii",
+      "rosterName": "Hal Daumé III",
+      "title": "Professor",
+      "profileUrl": "https://www.umiacs.umd.edu/our-experts/faculty/hal-daume-iii",
+      "portraitUrl": "https://www.umiacs.umd.edu/sites/default/files/styles/optimized/public/Hal%20Daume%20III_0.jpeg.webp?itok=iweolW82",
+      "officialSections": [],
+      "researchFields": [
+        "Trustworthy AI"
+      ],
+      "unitUrl": "https://www.umiacs.umd.edu/our-experts/faculty",
+      "decision": "included_existing",
+      "atlasPersonId": "hal-daume-lineage",
+      "reason": "符合范围，且规范化姓名可与当前图谱人物唯一匹配。",
+      "evidence": "Professor | Trustworthy AI | https://www.umiacs.umd.edu/our-experts/faculty/hal-daume-iii"
+    },
+    {
+      "officialId": "larry-davis",
+      "rosterName": "Larry Davis",
+      "title": "Distinguished University Professor Emeritus",
+      "profileUrl": "https://www.umiacs.umd.edu/our-experts/faculty/larry-davis",
+      "portraitUrl": "https://www.umiacs.umd.edu/sites/default/files/styles/optimized/public/web-Davis17.jpg.webp?itok=pQICQKZc",
+      "officialSections": [],
+      "researchFields": [
+        "Computer Vision"
+      ],
+      "unitUrl": "https://www.umiacs.umd.edu/our-experts/faculty",
+      "decision": "excluded_historical",
+      "reason": "官方职称或名录分组明确为荣休、退休或历史人员。",
+      "evidence": "Distinguished University Professor Emeritus | Computer Vision | https://www.umiacs.umd.edu/our-experts/faculty/larry-davis"
+    },
+    {
+      "officialId": "leila-de-floriani",
+      "rosterName": "Leila De Floriani",
+      "title": "Distinguished University Professor",
+      "profileUrl": "https://www.umiacs.umd.edu/our-experts/faculty/leila-de-floriani",
+      "portraitUrl": "https://www.umiacs.umd.edu/sites/default/files/styles/optimized/public/RM_Leila_De-Floriani_March2024_webpage.jpg.webp?itok=iEplYYEk",
+      "officialSections": [],
+      "researchFields": [
+        "Geometry Modeling & Visualization"
+      ],
+      "unitUrl": "https://www.umiacs.umd.edu/our-experts/faculty",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Distinguished University Professor | Geometry Modeling & Visualization | https://www.umiacs.umd.edu/our-experts/faculty/leila-de-floriani",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "amol-deshpande",
+      "rosterName": "Amol Deshpande",
+      "title": "Professor",
+      "profileUrl": "https://www.umiacs.umd.edu/our-experts/faculty/amol-deshpande",
+      "portraitUrl": "https://www.umiacs.umd.edu/sites/default/files/styles/optimized/public/web-Deshpande.jpg.webp?itok=tvrDSE_o",
+      "officialSections": [],
+      "researchFields": [
+        "Database Systems"
+      ],
+      "unitUrl": "https://www.umiacs.umd.edu/our-experts/faculty",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Professor | Database Systems | https://www.umiacs.umd.edu/our-experts/faculty/amol-deshpande",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "laxman-dhulipala",
+      "rosterName": "Laxman Dhulipala",
+      "title": "Assistant Professor",
+      "profileUrl": "https://www.umiacs.umd.edu/our-experts/faculty/laxman-dhulipala",
+      "portraitUrl": "https://www.umiacs.umd.edu/sites/default/files/styles/optimized/public/Laxman%20headshot.jpg.webp?itok=KDACx8DB",
+      "officialSections": [],
+      "researchFields": [
+        "High-performance Graph Algorithms"
+      ],
+      "unitUrl": "https://www.umiacs.umd.edu/our-experts/faculty",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Assistant Professor | High-performance Graph Algorithms | https://www.umiacs.umd.edu/our-experts/faculty/laxman-dhulipala",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "david-doermann",
+      "rosterName": "David Doermann",
+      "title": "Research Scientist Emeritus",
+      "profileUrl": "https://www.umiacs.umd.edu/our-experts/faculty/david-doermann",
+      "portraitUrl": "https://www.umiacs.umd.edu/sites/default/files/styles/optimized/public/web-Doermann15.jpg.webp?itok=4Sx3lK4Y",
+      "officialSections": [],
+      "researchFields": [
+        "Document Image & Video Understanding"
+      ],
+      "unitUrl": "https://www.umiacs.umd.edu/our-experts/faculty",
+      "decision": "excluded_historical",
+      "reason": "官方职称或名录分组明确为荣休、退休或历史人员。",
+      "evidence": "Research Scientist Emeritus | Document Image & Video Understanding | https://www.umiacs.umd.edu/our-experts/faculty/david-doermann"
+    },
+    {
+      "officialId": "bonnie-dorr",
+      "rosterName": "Bonnie Dorr",
+      "title": "Professor Emerita",
+      "profileUrl": "https://www.umiacs.umd.edu/our-experts/faculty/bonnie-dorr",
+      "portraitUrl": "https://www.umiacs.umd.edu/sites/default/files/styles/optimized/public/Dorr_2021%202.jpg.webp?itok=1ddE-r3I",
+      "officialSections": [],
+      "researchFields": [
+        "Computational Linguistics"
+      ],
+      "unitUrl": "https://www.umiacs.umd.edu/our-experts/faculty",
+      "decision": "excluded_historical",
+      "reason": "官方职称或名录分组明确为荣休、退休或历史人员。",
+      "evidence": "Professor Emerita | Computational Linguistics | https://www.umiacs.umd.edu/our-experts/faculty/bonnie-dorr"
+    },
+    {
+      "officialId": "tudor-dumitras",
+      "rosterName": "Tudor Dumitraș",
+      "title": "Professor",
+      "profileUrl": "https://www.umiacs.umd.edu/our-experts/faculty/tudor-dumitras",
+      "portraitUrl": "https://www.umiacs.umd.edu/sites/default/files/styles/optimized/public/people/tudor_mmorgan_241022_117292%20cropped.jpg.webp?itok=7n3r_Hpf",
+      "officialSections": [],
+      "researchFields": [
+        "System Security"
+      ],
+      "unitUrl": "https://www.umiacs.umd.edu/our-experts/faculty",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Professor | System Security | https://www.umiacs.umd.edu/our-experts/faculty/tudor-dumitras",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "ramani-duraiswami",
+      "rosterName": "Ramani Duraiswami",
+      "title": "Professor",
+      "profileUrl": "https://www.umiacs.umd.edu/our-experts/faculty/ramani-duraiswami",
+      "portraitUrl": "https://www.umiacs.umd.edu/sites/default/files/styles/optimized/public/231208_umd_045%20copy.jpg.webp?itok=-G_KeU9a",
+      "officialSections": [],
+      "researchFields": [
+        "Audio, Vision, Scientific Computing"
+      ],
+      "unitUrl": "https://www.umiacs.umd.edu/our-experts/faculty",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Professor | Audio, Vision, Scientific Computing | https://www.umiacs.umd.edu/our-experts/faculty/ramani-duraiswami",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "sanghamitra-dutta",
+      "rosterName": "Sanghamitra Dutta",
+      "title": "Assistant Professor",
+      "profileUrl": "https://www.umiacs.umd.edu/our-experts/faculty/sanghamitra-dutta",
+      "portraitUrl": "https://www.umiacs.umd.edu/sites/default/files/styles/optimized/public/mmorgan_240612_18303-preferred%20square%20tight.jpg.webp?itok=VjdpxA68",
+      "officialSections": [],
+      "researchFields": [
+        "Machine Learning"
+      ],
+      "unitUrl": "https://www.umiacs.umd.edu/our-experts/faculty",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Assistant Professor | Machine Learning | https://www.umiacs.umd.edu/our-experts/faculty/sanghamitra-dutta",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "josiah-dykstra",
+      "rosterName": "Josiah Dykstra",
+      "title": "Adjunct Research Scientist",
+      "profileUrl": "https://www.umiacs.umd.edu/our-experts/faculty/josiah-dykstra",
+      "portraitUrl": "https://www.umiacs.umd.edu/sites/default/files/styles/optimized/public/people/Josiah%20Dykstra.png.webp?itok=BIxQZ5OS",
+      "officialSections": [],
+      "researchFields": [
+        "Human-centered Cybersecurity"
+      ],
+      "unitUrl": "https://www.umiacs.umd.edu/our-experts/faculty",
+      "decision": "excluded_non_pi",
+      "reason": "官方职称或名录分组属于教学、兼职、附属、科研支持或其他非独立 PI 岗位。",
+      "evidence": "Adjunct Research Scientist | Human-centered Cybersecurity | https://www.umiacs.umd.edu/our-experts/faculty/josiah-dykstra"
+    },
+    {
+      "officialId": "evan-economo",
+      "rosterName": "Evan Economo",
+      "title": "Professor",
+      "profileUrl": "https://www.umiacs.umd.edu/our-experts/faculty/evan-economo",
+      "portraitUrl": "https://www.umiacs.umd.edu/sites/default/files/styles/optimized/public/people/Economo_Headshot_2025.jpg.webp?itok=obDqh82G",
+      "officialSections": [],
+      "researchFields": [
+        "Biodiversity Informatics"
+      ],
+      "unitUrl": "https://www.umiacs.umd.edu/our-experts/faculty",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Professor | Biodiversity Informatics | https://www.umiacs.umd.edu/our-experts/faculty/evan-economo",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "najib-el-sayed",
+      "rosterName": "Najib El-Sayed",
+      "title": "Professor",
+      "profileUrl": "https://www.umiacs.umd.edu/our-experts/faculty/najib-el-sayed",
+      "portraitUrl": "https://www.umiacs.umd.edu/sites/default/files/styles/optimized/public/web-el-Sayed.jpg.webp?itok=6TCD03MY",
+      "officialSections": [],
+      "researchFields": [
+        "Computational Biology"
+      ],
+      "unitUrl": "https://www.umiacs.umd.edu/our-experts/faculty",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Professor | Computational Biology | https://www.umiacs.umd.edu/our-experts/faculty/najib-el-sayed",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "soheil-feizi",
+      "rosterName": "Soheil Feizi",
+      "title": "Associate Professor",
+      "profileUrl": "https://www.umiacs.umd.edu/our-experts/faculty/soheil-feizi",
+      "portraitUrl": "https://www.umiacs.umd.edu/sites/default/files/styles/optimized/public/CROPPED%20Soheil%20Feizi.jpg.webp?itok=T2ayP-Wa",
+      "officialSections": [],
+      "researchFields": [
+        "Machine Learning & Statistical Inference"
+      ],
+      "unitUrl": "https://www.umiacs.umd.edu/our-experts/faculty",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Associate Professor | Machine Learning & Statistical Inference | https://www.umiacs.umd.edu/our-experts/faculty/soheil-feizi",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "naomi-feldman",
+      "rosterName": "Naomi Feldman",
+      "title": "Professor",
+      "profileUrl": "https://www.umiacs.umd.edu/our-experts/faculty/naomi-feldman",
+      "portraitUrl": "https://www.umiacs.umd.edu/sites/default/files/styles/optimized/public/NaomiPortrait_0.jpg.webp?itok=wM-j-2ea",
+      "officialSections": [],
+      "researchFields": [
+        "Computational Linguistics"
+      ],
+      "unitUrl": "https://www.umiacs.umd.edu/our-experts/faculty",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Professor | Computational Linguistics | https://www.umiacs.umd.edu/our-experts/faculty/naomi-feldman",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "cornelia-fermuller",
+      "rosterName": "Cornelia Fermüller",
+      "title": "Research Scientist",
+      "profileUrl": "https://www.umiacs.umd.edu/our-experts/faculty/cornelia-fermuller",
+      "portraitUrl": "https://www.umiacs.umd.edu/sites/default/files/styles/optimized/public/web-Fermuller04.jpg.webp?itok=-6vvBp44",
+      "officialSections": [],
+      "researchFields": [
+        "Vision & Robotics"
+      ],
+      "unitUrl": "https://www.umiacs.umd.edu/our-experts/faculty",
+      "decision": "excluded_non_pi",
+      "reason": "官方职称或名录分组属于教学、兼职、附属、科研支持或其他非独立 PI 岗位。",
+      "evidence": "Research Scientist | Vision & Robotics | https://www.umiacs.umd.edu/our-experts/faculty/cornelia-fermuller"
+    },
+    {
+      "officialId": "dov-fields",
+      "rosterName": "Dov Fields",
+      "title": "Assistant Research Scientist",
+      "profileUrl": "https://www.umiacs.umd.edu/our-experts/faculty/dov-fields",
+      "portraitUrl": "https://www.umiacs.umd.edu/sites/default/files/styles/optimized/public/people/Fields%2C%20Dov.jpeg.webp?itok=2YOjda4I",
+      "officialSections": [],
+      "researchFields": [
+        "Quantum Information"
+      ],
+      "unitUrl": "https://www.umiacs.umd.edu/our-experts/faculty",
+      "decision": "excluded_non_pi",
+      "reason": "官方职称或名录分组属于教学、兼职、附属、科研支持或其他非独立 PI 岗位。",
+      "evidence": "Assistant Research Scientist | Quantum Information | https://www.umiacs.umd.edu/our-experts/faculty/dov-fields"
+    },
+    {
+      "officialId": "can-firtina",
+      "rosterName": "Can Firtina",
+      "title": "Assistant Professor",
+      "profileUrl": "https://www.umiacs.umd.edu/our-experts/faculty/can-firtina",
+      "portraitUrl": "https://www.umiacs.umd.edu/sites/default/files/styles/optimized/public/people/Can%20Firtina.jpg.webp?itok=IEVBs9eo",
+      "officialSections": [],
+      "researchFields": [
+        "Computational Biology"
+      ],
+      "unitUrl": "https://www.umiacs.umd.edu/our-experts/faculty",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Assistant Professor | Computational Biology | https://www.umiacs.umd.edu/our-experts/faculty/can-firtina",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "vanessa-frias-martinez",
+      "rosterName": "Vanessa Frias-Martinez",
+      "title": "Professor",
+      "profileUrl": "https://www.umiacs.umd.edu/our-experts/faculty/vanessa-frias-martinez",
+      "portraitUrl": "https://www.umiacs.umd.edu/sites/default/files/styles/optimized/public/Martinez%2C%20Vanessa%20cropped.jpg.webp?itok=gSewAhfW",
+      "officialSections": [],
+      "researchFields": [
+        "Data Science"
+      ],
+      "unitUrl": "https://www.umiacs.umd.edu/our-experts/faculty",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Professor | Data Science | https://www.umiacs.umd.edu/our-experts/faculty/vanessa-frias-martinez",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "megan-fritz",
+      "rosterName": "Megan Fritz",
+      "title": "Associate Professor",
+      "profileUrl": "https://www.umiacs.umd.edu/our-experts/faculty/megan-fritz",
+      "portraitUrl": "https://www.umiacs.umd.edu/sites/default/files/styles/optimized/public/mmorgan_240612_18229%20-%20preferred%20square%20tight.jpg.webp?itok=k3SJmhjf",
+      "officialSections": [],
+      "researchFields": [
+        "Computational Biology"
+      ],
+      "unitUrl": "https://www.umiacs.umd.edu/our-experts/faculty",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Associate Professor | Computational Biology | https://www.umiacs.umd.edu/our-experts/faculty/megan-fritz",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "david-fushman",
+      "rosterName": "David Fushman",
+      "title": "Professor",
+      "profileUrl": "https://www.umiacs.umd.edu/our-experts/faculty/david-fushman",
+      "portraitUrl": "https://www.umiacs.umd.edu/sites/default/files/styles/optimized/public/web-Fushman68.jpg.webp?itok=wHSAZ-4k",
+      "officialSections": [],
+      "researchFields": [
+        "Protein Structure"
+      ],
+      "unitUrl": "https://www.umiacs.umd.edu/our-experts/faculty",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Professor | Protein Structure | https://www.umiacs.umd.edu/our-experts/faculty/david-fushman",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "ruohan-gao",
+      "rosterName": "Ruohan Gao",
+      "title": "Assistant Professor",
+      "profileUrl": "https://www.umiacs.umd.edu/our-experts/faculty/ruohan-gao",
+      "portraitUrl": "https://www.umiacs.umd.edu/sites/default/files/styles/optimized/public/people/Ruohan.jpg.webp?itok=P57vRrlo",
+      "officialSections": [],
+      "researchFields": [
+        "Computer Vision & Machine Learning"
+      ],
+      "unitUrl": "https://www.umiacs.umd.edu/our-experts/faculty",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Assistant Professor | Computer Vision & Machine Learning | https://www.umiacs.umd.edu/our-experts/faculty/ruohan-gao",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "ge-gao",
+      "rosterName": "Ge Gao",
+      "title": "Associate Professor",
+      "profileUrl": "https://www.umiacs.umd.edu/our-experts/faculty/ge-gao",
+      "portraitUrl": "https://www.umiacs.umd.edu/sites/default/files/styles/optimized/public/Gao_UMIACS%20Headshot%20cropped%20for%20website.jpeg.webp?itok=f1KnaLy8",
+      "officialSections": [],
+      "researchFields": [
+        "Human-centered Computing"
+      ],
+      "unitUrl": "https://www.umiacs.umd.edu/our-experts/faculty",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Associate Professor | Human-centered Computing | https://www.umiacs.umd.edu/our-experts/faculty/ge-gao",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "thomas-goldstein",
+      "rosterName": "Thomas Goldstein",
+      "title": "Professor",
+      "profileUrl": "https://www.umiacs.umd.edu/our-experts/faculty/thomas-goldstein",
+      "portraitUrl": "https://www.umiacs.umd.edu/sites/default/files/styles/optimized/public/goldstein_02.jpg.webp?itok=MOMLJDaz",
+      "officialSections": [],
+      "researchFields": [
+        "Large-Scale Optimization for Big Data"
+      ],
+      "unitUrl": "https://www.umiacs.umd.edu/our-experts/faculty",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Professor | Large-Scale Optimization for Big Data | https://www.umiacs.umd.edu/our-experts/faculty/thomas-goldstein",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "lawrence-gordon",
+      "rosterName": "Lawrence Gordon",
+      "title": "Professor",
+      "profileUrl": "https://www.umiacs.umd.edu/our-experts/faculty/lawrence-gordon",
+      "portraitUrl": "https://www.umiacs.umd.edu/sites/default/files/styles/optimized/public/Larry%20Gordon.jpg.webp?itok=xANa51in",
+      "officialSections": [],
+      "researchFields": [
+        "Cybersecurity Economics"
+      ],
+      "unitUrl": "https://www.umiacs.umd.edu/our-experts/faculty",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Professor | Cybersecurity Economics | https://www.umiacs.umd.edu/our-experts/faculty/lawrence-gordon",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "alexey-gorshkov",
+      "rosterName": "Alexey Gorshkov",
+      "title": "Adjunct Professor",
+      "profileUrl": "https://www.umiacs.umd.edu/our-experts/faculty/alexey-gorshkov",
+      "portraitUrl": "https://www.umiacs.umd.edu/sites/default/files/styles/optimized/public/Gorshkov%20Stratton%20Picture%20cropped.jpeg.webp?itok=PeuxXnvo",
+      "officialSections": [],
+      "researchFields": [
+        "Quantum Information Science & Quantum Optics"
+      ],
+      "unitUrl": "https://www.umiacs.umd.edu/our-experts/faculty",
+      "decision": "excluded_non_pi",
+      "reason": "官方职称或名录分组属于教学、兼职、附属、科研支持或其他非独立 PI 岗位。",
+      "evidence": "Adjunct Professor | Quantum Information Science & Quantum Optics | https://www.umiacs.umd.edu/our-experts/faculty/alexey-gorshkov"
+    },
+    {
+      "officialId": "daniel-gottesman",
+      "rosterName": "Daniel Gottesman",
+      "title": "Professor",
+      "profileUrl": "https://www.umiacs.umd.edu/our-experts/faculty/daniel-gottesman",
+      "portraitUrl": "https://www.umiacs.umd.edu/sites/default/files/styles/optimized/public/gottesman%20headshot_square%20tighter.jpg.webp?itok=vPFmQ1dl",
+      "officialSections": [],
+      "researchFields": [
+        "Quantum Computation & Quantum Information"
+      ],
+      "unitUrl": "https://www.umiacs.umd.edu/our-experts/faculty",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Professor | Quantum Computation & Quantum Information | https://www.umiacs.umd.edu/our-experts/faculty/daniel-gottesman",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "john-grant",
+      "rosterName": "John Grant",
+      "title": "Adjunct Professor",
+      "profileUrl": "https://www.umiacs.umd.edu/our-experts/faculty/john-grant",
+      "portraitUrl": "https://www.umiacs.umd.edu/sites/default/files/styles/optimized/public/people/John%20Grant.png.webp?itok=XfiiPno3",
+      "officialSections": [],
+      "researchFields": [
+        "AI and Robotics"
+      ],
+      "unitUrl": "https://www.umiacs.umd.edu/our-experts/faculty",
+      "decision": "excluded_non_pi",
+      "reason": "官方职称或名录分组属于教学、兼职、附属、科研支持或其他非独立 PI 岗位。",
+      "evidence": "Adjunct Professor | AI and Robotics | https://www.umiacs.umd.edu/our-experts/faculty/john-grant"
+    },
+    {
+      "officialId": "michael-gullans",
+      "rosterName": "Michael Gullans",
+      "title": "Adjunct Assistant Professor",
+      "profileUrl": "https://www.umiacs.umd.edu/our-experts/faculty/michael-gullans",
+      "portraitUrl": "https://www.umiacs.umd.edu/sites/default/files/styles/optimized/public/Gullans%2C%20Michael%20cropped_1.jpg.webp?itok=uGwgtLwQ",
+      "officialSections": [],
+      "researchFields": [
+        "Quantum Information Systems"
+      ],
+      "unitUrl": "https://www.umiacs.umd.edu/our-experts/faculty",
+      "decision": "excluded_non_pi",
+      "reason": "官方职称或名录分组属于教学、兼职、附属、科研支持或其他非独立 PI 岗位。",
+      "evidence": "Adjunct Assistant Professor | Quantum Information Systems | https://www.umiacs.umd.edu/our-experts/faculty/michael-gullans"
+    },
+    {
+      "officialId": "mohammad-hajiaghayi",
+      "rosterName": "Mohammad Hajiaghayi",
+      "title": "Professor",
+      "profileUrl": "https://www.umiacs.umd.edu/our-experts/faculty/mohammad-hajiaghayi",
+      "portraitUrl": "https://www.umiacs.umd.edu/sites/default/files/styles/optimized/public/web-Hajiaghayi.jpg.webp?itok=9G7JGXF6",
+      "officialSections": [],
+      "researchFields": [
+        "Algorithms"
+      ],
+      "unitUrl": "https://www.umiacs.umd.edu/our-experts/faculty",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Professor | Algorithms | https://www.umiacs.umd.edu/our-experts/faculty/mohammad-hajiaghayi",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "brantley-hall",
+      "rosterName": "Brantley Hall",
+      "title": "Associate Professor",
+      "profileUrl": "https://www.umiacs.umd.edu/our-experts/faculty/brantley-hall",
+      "portraitUrl": "https://www.umiacs.umd.edu/sites/default/files/styles/optimized/public/Hall-Brantley-1.jpg.webp?itok=iFzR6xTG",
+      "officialSections": [],
+      "researchFields": [
+        "Computational Biology"
+      ],
+      "unitUrl": "https://www.umiacs.umd.edu/our-experts/faculty",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Associate Professor | Computational Biology | https://www.umiacs.umd.edu/our-experts/faculty/brantley-hall",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "mike-hicks",
+      "rosterName": "Mike Hicks",
+      "title": "Professor Emeritus",
+      "profileUrl": "https://www.umiacs.umd.edu/our-experts/faculty/mike-hicks",
+      "portraitUrl": "https://www.umiacs.umd.edu/sites/default/files/styles/optimized/public/web-Hicks.jpg.webp?itok=jFqY3T_f",
+      "officialSections": [],
+      "researchFields": [
+        "Software Reliability & Security"
+      ],
+      "unitUrl": "https://www.umiacs.umd.edu/our-experts/faculty",
+      "decision": "excluded_historical",
+      "reason": "官方职称或名录分组明确为荣休、退休或历史人员。",
+      "evidence": "Professor Emeritus | Software Reliability & Security | https://www.umiacs.umd.edu/our-experts/faculty/mike-hicks"
+    },
+    {
+      "officialId": "jeff-hollingsworth",
+      "rosterName": "Jeff Hollingsworth",
+      "title": "Professor",
+      "profileUrl": "https://www.umiacs.umd.edu/our-experts/faculty/jeff-hollingsworth",
+      "portraitUrl": "https://www.umiacs.umd.edu/sites/default/files/styles/optimized/public/web%20Hollingsworth_0.jpg.webp?itok=Hbfy6Qbj",
+      "officialSections": [],
+      "researchFields": [
+        "Parallel Programming Systems"
+      ],
+      "unitUrl": "https://www.umiacs.umd.edu/our-experts/faculty",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Professor | Parallel Programming Systems | https://www.umiacs.umd.edu/our-experts/faculty/jeff-hollingsworth",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "john-horty",
+      "rosterName": "John Horty",
+      "title": "Distinguished University Professor",
+      "profileUrl": "https://www.umiacs.umd.edu/our-experts/faculty/john-horty",
+      "portraitUrl": "https://www.umiacs.umd.edu/sites/default/files/styles/optimized/public/Horty.jpg.webp?itok=OHo0m0Ni",
+      "officialSections": [],
+      "researchFields": [
+        "Philosophy & Logic"
+      ],
+      "unitUrl": "https://www.umiacs.umd.edu/our-experts/faculty",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Distinguished University Professor | Philosophy & Logic | https://www.umiacs.umd.edu/our-experts/faculty/john-horty",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "furong-huang",
+      "rosterName": "Furong Huang",
+      "title": "Associate Professor",
+      "profileUrl": "https://www.umiacs.umd.edu/our-experts/faculty/furong-huang",
+      "portraitUrl": "https://www.umiacs.umd.edu/sites/default/files/styles/optimized/public/mmorgan_240612_19063-preferred%20square%20-%20Copy.jpg.webp?itok=LeZ4R7A7",
+      "officialSections": [],
+      "researchFields": [
+        "Machine Learning"
+      ],
+      "unitUrl": "https://www.umiacs.umd.edu/our-experts/faculty",
+      "decision": "included_existing",
+      "atlasPersonId": "furong-huang-top",
+      "reason": "符合范围，且规范化姓名可与当前图谱人物唯一匹配。",
+      "evidence": "Associate Professor | Machine Learning | https://www.umiacs.umd.edu/our-experts/faculty/furong-huang"
+    },
+    {
+      "officialId": "jia-bin-huang",
+      "rosterName": "Jia-Bin Huang",
+      "title": "Associate Professor",
+      "profileUrl": "https://www.umiacs.umd.edu/our-experts/faculty/jia-bin-huang",
+      "portraitUrl": "https://www.umiacs.umd.edu/sites/default/files/styles/optimized/public/Huang%2C%20Jia-Bin.jpeg.webp?itok=zB_muTVh",
+      "officialSections": [],
+      "researchFields": [
+        "Computer Vision"
+      ],
+      "unitUrl": "https://www.umiacs.umd.edu/our-experts/faculty",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Associate Professor | Computer Vision | https://www.umiacs.umd.edu/our-experts/faculty/jia-bin-huang",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "heng-huang",
+      "rosterName": "Heng Huang",
+      "title": "Professor",
+      "profileUrl": "https://www.umiacs.umd.edu/our-experts/faculty/heng-huang",
+      "portraitUrl": "https://www.umiacs.umd.edu/sites/default/files/styles/optimized/public/231208_umd_072%20copy.jpg.webp?itok=S8dxy4un",
+      "officialSections": [],
+      "researchFields": [
+        "Machine Learning & Computational Health"
+      ],
+      "unitUrl": "https://www.umiacs.umd.edu/our-experts/faculty",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Professor | Machine Learning & Computational Health | https://www.umiacs.umd.edu/our-experts/faculty/heng-huang",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "mohit-iyyer",
+      "rosterName": "Mohit Iyyer",
+      "title": "Associate Professor",
+      "profileUrl": "https://www.umiacs.umd.edu/our-experts/faculty/mohit-iyyer",
+      "portraitUrl": "https://www.umiacs.umd.edu/sites/default/files/styles/optimized/public/people/miyyer_headshot%20cropped.jpg.webp?itok=KQGNaunC",
+      "officialSections": [],
+      "researchFields": [
+        "Natural Language Processing"
+      ],
+      "unitUrl": "https://www.umiacs.umd.edu/our-experts/faculty",
+      "decision": "included_existing",
+      "atlasPersonId": "mohit-iyyer-us",
+      "reason": "符合范围，且规范化姓名可与当前图谱人物唯一匹配。",
+      "evidence": "Associate Professor | Natural Language Processing | https://www.umiacs.umd.edu/our-experts/faculty/mohit-iyyer"
+    },
+    {
+      "officialId": "david-jacobs",
+      "rosterName": "David Jacobs",
+      "title": "Professor",
+      "profileUrl": "https://www.umiacs.umd.edu/our-experts/faculty/david-jacobs",
+      "portraitUrl": "https://www.umiacs.umd.edu/sites/default/files/styles/optimized/public/people/jacobs_david_umiacs_hs_1.jpg.webp?itok=6mMd5dLi",
+      "officialSections": [],
+      "researchFields": [
+        "Computer & Human Vision"
+      ],
+      "unitUrl": "https://www.umiacs.umd.edu/our-experts/faculty",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Professor | Computer & Human Vision | https://www.umiacs.umd.edu/our-experts/faculty/david-jacobs",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "joseph-jaja",
+      "rosterName": "Joseph JaJa",
+      "title": "Professor Emeritus",
+      "profileUrl": "https://www.umiacs.umd.edu/our-experts/faculty/joseph-jaja",
+      "portraitUrl": "https://www.umiacs.umd.edu/sites/default/files/styles/optimized/public/webJaja.jpg.webp?itok=P-n_ZEG1",
+      "officialSections": [],
+      "researchFields": [
+        "High Performance Computing & Visualization"
+      ],
+      "unitUrl": "https://www.umiacs.umd.edu/our-experts/faculty",
+      "decision": "excluded_historical",
+      "reason": "官方职称或名录分组明确为荣休、退休或历史人员。",
+      "evidence": "Professor Emeritus | High Performance Computing & Visualization | https://www.umiacs.umd.edu/our-experts/faculty/joseph-jaja"
+    },
+    {
+      "officialId": "hernisa-kacorri",
+      "rosterName": "Hernisa Kacorri",
+      "title": "Associate Professor",
+      "profileUrl": "https://www.umiacs.umd.edu/our-experts/faculty/hernisa-kacorri",
+      "portraitUrl": "https://www.umiacs.umd.edu/sites/default/files/styles/optimized/public/Hernisa%20Kacorri_large.png.webp?itok=ND5BwV6-",
+      "officialSections": [],
+      "researchFields": [
+        "Human-Computer Interaction"
+      ],
+      "unitUrl": "https://www.umiacs.umd.edu/our-experts/faculty",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Associate Professor | Human-Computer Interaction | https://www.umiacs.umd.edu/our-experts/faculty/hernisa-kacorri",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "gabriel-kaptchuk",
+      "rosterName": "Gabriel Kaptchuk",
+      "title": "Assistant Professor",
+      "profileUrl": "https://www.umiacs.umd.edu/our-experts/faculty/gabriel-kaptchuk",
+      "portraitUrl": "https://www.umiacs.umd.edu/sites/default/files/styles/optimized/public/Gabe%20K%20headshot%20cropped.jpeg.webp?itok=FneNP6BV",
+      "officialSections": [],
+      "researchFields": [
+        "Cryptography and Privacy"
+      ],
+      "unitUrl": "https://www.umiacs.umd.edu/our-experts/faculty",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Assistant Professor | Cryptography and Privacy | https://www.umiacs.umd.edu/our-experts/faculty/gabriel-kaptchuk",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "jonathan-katz",
+      "rosterName": "Jonathan Katz",
+      "title": "Professor",
+      "profileUrl": "https://www.umiacs.umd.edu/our-experts/faculty/jonathan-katz",
+      "portraitUrl": "https://www.umiacs.umd.edu/sites/default/files/styles/optimized/public/people/jonthan%20katz_new.png.webp?itok=roUnMdKQ",
+      "officialSections": [],
+      "researchFields": [
+        "Cryptography"
+      ],
+      "unitUrl": "https://www.umiacs.umd.edu/our-experts/faculty",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Professor | Cryptography | https://www.umiacs.umd.edu/our-experts/faculty/jonathan-katz",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "yonghwi-kwon",
+      "rosterName": "Yonghwi Kwon",
+      "title": "Assistant Professor",
+      "profileUrl": "https://www.umiacs.umd.edu/our-experts/faculty/yonghwi-kwon",
+      "portraitUrl": "https://www.umiacs.umd.edu/sites/default/files/styles/optimized/public/yonghwi_kwon_1.jpg.webp?itok=AiqUjszW",
+      "officialSections": [],
+      "researchFields": [
+        "Software Security"
+      ],
+      "unitUrl": "https://www.umiacs.umd.edu/our-experts/faculty",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Assistant Professor | Software Security | https://www.umiacs.umd.edu/our-experts/faculty/yonghwi-kwon",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "leonidas-lampropoulos",
+      "rosterName": "Leonidas Lampropoulos",
+      "title": "Associate Professor",
+      "profileUrl": "https://www.umiacs.umd.edu/our-experts/faculty/leonidas-lampropoulos",
+      "portraitUrl": "https://www.umiacs.umd.edu/sites/default/files/styles/optimized/public/Lampropoulos%2C%20Leonidas.jpg.webp?itok=DM7plcur",
+      "officialSections": [],
+      "researchFields": [
+        "Software Reliability & Security"
+      ],
+      "unitUrl": "https://www.umiacs.umd.edu/our-experts/faculty",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Associate Professor | Software Reliability & Security | https://www.umiacs.umd.edu/our-experts/faculty/leonidas-lampropoulos",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "dave-levin",
+      "rosterName": "Dave Levin",
+      "title": "Associate Professor",
+      "profileUrl": "https://www.umiacs.umd.edu/our-experts/faculty/dave-levin",
+      "portraitUrl": "https://www.umiacs.umd.edu/sites/default/files/styles/optimized/public/dave%20Levin%20new.jpeg.webp?itok=mS4MQvzL",
+      "officialSections": [],
+      "researchFields": [
+        "Networking & Security"
+      ],
+      "unitUrl": "https://www.umiacs.umd.edu/our-experts/faculty",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Associate Professor | Networking & Security | https://www.umiacs.umd.edu/our-experts/faculty/dave-levin",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "jing-liu",
+      "rosterName": "Jing Liu",
+      "title": "Associate Professor",
+      "profileUrl": "https://www.umiacs.umd.edu/our-experts/faculty/jing-liu",
+      "portraitUrl": "https://www.umiacs.umd.edu/sites/default/files/styles/optimized/public/people/Jing_Liu_Headshot_2024%20cropped.png.webp?itok=F1yJQQXF",
+      "officialSections": [],
+      "researchFields": [
+        "Education Policy Analysis"
+      ],
+      "unitUrl": "https://www.umiacs.umd.edu/our-experts/faculty",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Associate Professor | Education Policy Analysis | https://www.umiacs.umd.edu/our-experts/faculty/jing-liu",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "yi-kai-liu",
+      "rosterName": "Yi-Kai Liu",
+      "title": "Adjunct Associate Professor",
+      "profileUrl": "https://www.umiacs.umd.edu/our-experts/faculty/yi-kai-liu",
+      "portraitUrl": "https://www.umiacs.umd.edu/sites/default/files/styles/optimized/public/YiKaiLiu_04152015_9575.JPG.webp?itok=G4SmVHrQ",
+      "officialSections": [],
+      "researchFields": [
+        "Quantum Computation"
+      ],
+      "unitUrl": "https://www.umiacs.umd.edu/our-experts/faculty",
+      "decision": "excluded_non_pi",
+      "reason": "官方职称或名录分组属于教学、兼职、附属、科研支持或其他非独立 PI 岗位。",
+      "evidence": "Adjunct Associate Professor | Quantum Computation | https://www.umiacs.umd.edu/our-experts/faculty/yi-kai-liu"
+    },
+    {
+      "officialId": "alan-zaoxing-liu",
+      "rosterName": "Alan Zaoxing Liu",
+      "title": "Assistant Professor",
+      "profileUrl": "https://www.umiacs.umd.edu/our-experts/faculty/alan-zaoxing-liu",
+      "portraitUrl": "https://www.umiacs.umd.edu/sites/default/files/styles/optimized/public/Alan%20Liu.jpg.webp?itok=o9in7gAk",
+      "officialSections": [],
+      "researchFields": [
+        "Networking & Applied Algorithms"
+      ],
+      "unitUrl": "https://www.umiacs.umd.edu/our-experts/faculty",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Assistant Professor | Networking & Applied Algorithms | https://www.umiacs.umd.edu/our-experts/faculty/alan-zaoxing-liu",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "martin-loeb",
+      "rosterName": "Martin Loeb",
+      "title": "Professor",
+      "profileUrl": "https://www.umiacs.umd.edu/our-experts/faculty/martin-loeb",
+      "portraitUrl": "https://www.umiacs.umd.edu/sites/default/files/styles/optimized/public/Loeb.png.webp?itok=oQY2voAu",
+      "officialSections": [],
+      "researchFields": [
+        "Cybersecurity Economics"
+      ],
+      "unitUrl": "https://www.umiacs.umd.edu/our-experts/faculty",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Professor | Cybersecurity Economics | https://www.umiacs.umd.edu/our-experts/faculty/martin-loeb",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "dinesh-manocha",
+      "rosterName": "Dinesh Manocha",
+      "title": "Distinguished University Professor",
+      "profileUrl": "https://www.umiacs.umd.edu/our-experts/faculty/dinesh-manocha",
+      "portraitUrl": "https://www.umiacs.umd.edu/sites/default/files/styles/optimized/public/Dinesh%20Manocha-Hallway-med%202_0.jpg.webp?itok=lyLXpR_v",
+      "officialSections": [],
+      "researchFields": [
+        "Computer Graphics, Robotics & Virtual Environments"
+      ],
+      "unitUrl": "https://www.umiacs.umd.edu/our-experts/faculty",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Distinguished University Professor | Computer Graphics, Robotics & Virtual Environments | https://www.umiacs.umd.edu/our-experts/faculty/dinesh-manocha",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "michelle-mazurek",
+      "rosterName": "Michelle Mazurek",
+      "title": "Professor",
+      "profileUrl": "https://www.umiacs.umd.edu/our-experts/faculty/michelle-mazurek",
+      "portraitUrl": "https://www.umiacs.umd.edu/sites/default/files/styles/optimized/public/Mazurek%2C%20Michelle%202024%20cropped.jpg.webp?itok=KQaUCKMT",
+      "officialSections": [],
+      "researchFields": [
+        "Computer Security"
+      ],
+      "unitUrl": "https://www.umiacs.umd.edu/our-experts/faculty",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Professor | Computer Security | https://www.umiacs.umd.edu/our-experts/faculty/michelle-mazurek",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "julia-mendelsohn",
+      "rosterName": "Julia Mendelsohn",
+      "title": "Assistant Professor",
+      "profileUrl": "https://www.umiacs.umd.edu/our-experts/faculty/julia-mendelsohn",
+      "portraitUrl": "https://www.umiacs.umd.edu/sites/default/files/styles/optimized/public/people/Mendelsohn.jpg.webp?itok=-V7mwEqL",
+      "officialSections": [],
+      "researchFields": [
+        "Natural Language Processing"
+      ],
+      "unitUrl": "https://www.umiacs.umd.edu/our-experts/faculty",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Assistant Professor | Natural Language Processing | https://www.umiacs.umd.edu/our-experts/faculty/julia-mendelsohn",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "chris-metzler",
+      "rosterName": "Chris Metzler",
+      "title": "Associate Professor",
+      "profileUrl": "https://www.umiacs.umd.edu/our-experts/faculty/chris-metzler",
+      "portraitUrl": "https://www.umiacs.umd.edu/sites/default/files/styles/optimized/public/chris_portrait.jpg.webp?itok=J4rtjal3",
+      "officialSections": [],
+      "researchFields": [
+        "Computational Imaging and Sensing"
+      ],
+      "unitUrl": "https://www.umiacs.umd.edu/our-experts/faculty",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Associate Professor | Computational Imaging and Sensing | https://www.umiacs.umd.edu/our-experts/faculty/chris-metzler",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "ian-miers",
+      "rosterName": "Ian Miers",
+      "title": "Assistant Professor",
+      "profileUrl": "https://www.umiacs.umd.edu/our-experts/faculty/ian-miers",
+      "portraitUrl": "https://www.umiacs.umd.edu/sites/default/files/styles/optimized/public/Miers%2C%20Ian.jpeg.webp?itok=Ytgmrd1A",
+      "officialSections": [],
+      "researchFields": [
+        "Computer Security & Applied Cryptography"
+      ],
+      "unitUrl": "https://www.umiacs.umd.edu/our-experts/faculty",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Assistant Professor | Computer Security & Applied Cryptography | https://www.umiacs.umd.edu/our-experts/faculty/ian-miers",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "carl-miller",
+      "rosterName": "Carl Miller",
+      "title": "Adjunct Associate Professor",
+      "profileUrl": "https://www.umiacs.umd.edu/our-experts/faculty/carl-miller",
+      "portraitUrl": "https://www.umiacs.umd.edu/sites/default/files/styles/optimized/public/people/Carl%20Miller%20headshot.png.webp?itok=Zz6N6LXV",
+      "officialSections": [],
+      "researchFields": [
+        "Quantum Information Processing"
+      ],
+      "unitUrl": "https://www.umiacs.umd.edu/our-experts/faculty",
+      "decision": "excluded_non_pi",
+      "reason": "官方职称或名录分组属于教学、兼职、附属、科研支持或其他非独立 PI 岗位。",
+      "evidence": "Adjunct Associate Professor | Quantum Information Processing | https://www.umiacs.umd.edu/our-experts/faculty/carl-miller"
+    },
+    {
+      "officialId": "alan-mink",
+      "rosterName": "Alan Mink",
+      "title": "Affiliate Research Scientist",
+      "profileUrl": "https://www.umiacs.umd.edu/our-experts/faculty/alan-mink",
+      "portraitUrl": "https://www.umiacs.umd.edu/sites/default/files/styles/optimized/public/Alan-Mink-Head-shot_1.gif.webp?itok=z0Mnbw-v",
+      "officialSections": [],
+      "researchFields": [
+        "Quantum Communications"
+      ],
+      "unitUrl": "https://www.umiacs.umd.edu/our-experts/faculty",
+      "decision": "excluded_non_pi",
+      "reason": "官方职称或名录分组属于教学、兼职、附属、科研支持或其他非独立 PI 岗位。",
+      "evidence": "Affiliate Research Scientist | Quantum Communications | https://www.umiacs.umd.edu/our-experts/faculty/alan-mink"
+    },
+    {
+      "officialId": "maria-j-molina",
+      "rosterName": "Maria J. Molina",
+      "title": "Assistant Professor",
+      "profileUrl": "https://www.umiacs.umd.edu/our-experts/faculty/maria-j-molina",
+      "portraitUrl": "https://www.umiacs.umd.edu/sites/default/files/styles/optimized/public/molina_headshot_umd2022.jpg.webp?itok=7Al7DsDK",
+      "officialSections": [],
+      "researchFields": [
+        "Machine Learning"
+      ],
+      "unitUrl": "https://www.umiacs.umd.edu/our-experts/faculty",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Assistant Professor | Machine Learning | https://www.umiacs.umd.edu/our-experts/faculty/maria-j-molina",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "erin-molloy",
+      "rosterName": "Erin Molloy",
+      "title": "Assistant Professor",
+      "profileUrl": "https://www.umiacs.umd.edu/our-experts/faculty/erin-molloy",
+      "portraitUrl": "https://www.umiacs.umd.edu/sites/default/files/styles/optimized/public/231208_umd_022%20copy.jpg.webp?itok=Vdd6oj6U",
+      "officialSections": [],
+      "researchFields": [
+        "Computational Biology"
+      ],
+      "unitUrl": "https://www.umiacs.umd.edu/our-experts/faculty",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Assistant Professor | Computational Biology | https://www.umiacs.umd.edu/our-experts/faculty/erin-molloy",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "nazifa-ahmed-moumi",
+      "rosterName": "Nazifa Ahmed Moumi",
+      "title": "Bioinformatics Engineer",
+      "profileUrl": "https://www.umiacs.umd.edu/our-experts/faculty/nazifa-ahmed-moumi",
+      "portraitUrl": "https://www.umiacs.umd.edu/sites/default/files/styles/optimized/public/people/Nazifa%20Moumi_0.jpg.webp?itok=leskCRO6",
+      "officialSections": [],
+      "researchFields": [
+        "Metagenomics & Software Engineering"
+      ],
+      "unitUrl": "https://www.umiacs.umd.edu/our-experts/faculty",
+      "decision": "excluded_non_pi",
+      "reason": "冻结官方名录未提供可确认现任独立 PI 的教授或 faculty 职称。",
+      "evidence": "Bioinformatics Engineer | Metagenomics & Software Engineering | https://www.umiacs.umd.edu/our-experts/faculty/nazifa-ahmed-moumi"
+    },
+    {
+      "officialId": "dave-mount",
+      "rosterName": "Dave Mount",
+      "title": "Professor",
+      "profileUrl": "https://www.umiacs.umd.edu/our-experts/faculty/dave-mount",
+      "portraitUrl": "https://www.umiacs.umd.edu/sites/default/files/styles/optimized/public/web-Mount08.jpg.webp?itok=bqgV7t5o",
+      "officialSections": [],
+      "researchFields": [
+        "Computational Geometry"
+      ],
+      "unitUrl": "https://www.umiacs.umd.edu/our-experts/faculty",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Professor | Computational Geometry | https://www.umiacs.umd.edu/our-experts/faculty/dave-mount",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "irina-muresanu",
+      "rosterName": "Irina Muresanu",
+      "title": "Professor",
+      "profileUrl": "https://www.umiacs.umd.edu/our-experts/faculty/irina-muresanu",
+      "portraitUrl": "https://www.umiacs.umd.edu/sites/default/files/styles/optimized/public/Muresanu%20cropped.jpg.webp?itok=9jif9CH0",
+      "officialSections": [],
+      "researchFields": [
+        "AI & Violin"
+      ],
+      "unitUrl": "https://www.umiacs.umd.edu/our-experts/faculty",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Professor | AI & Violin | https://www.umiacs.umd.edu/our-experts/faculty/irina-muresanu",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "jun-nishida",
+      "rosterName": "Jun Nishida",
+      "title": "Assistant Professor",
+      "profileUrl": "https://www.umiacs.umd.edu/our-experts/faculty/jun-nishida",
+      "portraitUrl": "https://www.umiacs.umd.edu/sites/default/files/styles/optimized/public/mmorgan_240612_17587-preferred%20square_0.jpg.webp?itok=LXIc7wLe",
+      "officialSections": [],
+      "researchFields": [
+        "Human-Computer Interaction"
+      ],
+      "unitUrl": "https://www.umiacs.umd.edu/our-experts/faculty",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Assistant Professor | Human-Computer Interaction | https://www.umiacs.umd.edu/our-experts/faculty/jun-nishida",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "murphy-yuezhen-niu",
+      "rosterName": "Murphy Yuezhen Niu",
+      "title": "Adjunct Assistant Professor",
+      "profileUrl": "https://www.umiacs.umd.edu/our-experts/faculty/murphy-yuezhen-niu",
+      "portraitUrl": "https://www.umiacs.umd.edu/sites/default/files/styles/optimized/public/Murphy%20Niu%202022.jpg.webp?itok=GT9UwX6m",
+      "officialSections": [],
+      "researchFields": [
+        "Quantum Optimization & Algorithms"
+      ],
+      "unitUrl": "https://www.umiacs.umd.edu/our-experts/faculty",
+      "decision": "excluded_non_pi",
+      "reason": "官方职称或名录分组属于教学、兼职、附属、科研支持或其他非独立 PI 岗位。",
+      "evidence": "Adjunct Assistant Professor | Quantum Optimization & Algorithms | https://www.umiacs.umd.edu/our-experts/faculty/murphy-yuezhen-niu"
+    },
+    {
+      "officialId": "dianne-oleary",
+      "rosterName": "Dianne O'Leary",
+      "title": "Professor Emerita",
+      "profileUrl": "https://www.umiacs.umd.edu/our-experts/faculty/dianne-oleary",
+      "portraitUrl": "https://www.umiacs.umd.edu/sites/default/files/styles/optimized/public/selectedoleary.png.webp?itok=ERgTlEbN",
+      "officialSections": [],
+      "researchFields": [
+        "Scientific Computing"
+      ],
+      "unitUrl": "https://www.umiacs.umd.edu/our-experts/faculty",
+      "decision": "excluded_historical",
+      "reason": "官方职称或名录分组明确为荣休、退休或历史人员。",
+      "evidence": "Professor Emerita | Scientific Computing | https://www.umiacs.umd.edu/our-experts/faculty/dianne-oleary"
+    },
+    {
+      "officialId": "douglas-oard",
+      "rosterName": "Douglas Oard",
+      "title": "Professor",
+      "profileUrl": "https://www.umiacs.umd.edu/our-experts/faculty/douglas-oard",
+      "portraitUrl": "https://www.umiacs.umd.edu/sites/default/files/styles/optimized/public/people/Douglas%20Oard.png.webp?itok=QwKH7g8d",
+      "officialSections": [],
+      "researchFields": [
+        "Information Retrieval"
+      ],
+      "unitUrl": "https://www.umiacs.umd.edu/our-experts/faculty",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Professor | Information Retrieval | https://www.umiacs.umd.edu/our-experts/faculty/douglas-oard",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "pablo-paredes-castro",
+      "rosterName": "Pablo Paredes Castro",
+      "title": "Assistant Professor",
+      "profileUrl": "https://www.umiacs.umd.edu/our-experts/faculty/pablo-paredes-castro",
+      "portraitUrl": "https://www.umiacs.umd.edu/sites/default/files/styles/optimized/public/pablo_paredes_squared%202.jpg.webp?itok=k3rdCM5y",
+      "officialSections": [],
+      "researchFields": [
+        "Behavioral Sciences"
+      ],
+      "unitUrl": "https://www.umiacs.umd.edu/our-experts/faculty",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Assistant Professor | Behavioral Sciences | https://www.umiacs.umd.edu/our-experts/faculty/pablo-paredes-castro",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "rob-patro",
+      "rosterName": "Rob Patro",
+      "title": "Professor",
+      "profileUrl": "https://www.umiacs.umd.edu/our-experts/faculty/rob-patro",
+      "portraitUrl": "https://www.umiacs.umd.edu/sites/default/files/styles/optimized/public/IMG_0480.jpeg.webp?itok=rf24CX9U",
+      "officialSections": [],
+      "researchFields": [
+        "Computational Biology"
+      ],
+      "unitUrl": "https://www.umiacs.umd.edu/our-experts/faculty",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Professor | Computational Biology | https://www.umiacs.umd.edu/our-experts/faculty/rob-patro",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "huaishu-peng",
+      "rosterName": "Huaishu Peng",
+      "title": "Associate Professor",
+      "profileUrl": "https://www.umiacs.umd.edu/our-experts/faculty/huaishu-peng",
+      "portraitUrl": "https://www.umiacs.umd.edu/sites/default/files/styles/optimized/public/240405_umd_128%20copy.jpg.webp?itok=wuGA4F44",
+      "officialSections": [],
+      "researchFields": [
+        "Human-Computer Interaction"
+      ],
+      "unitUrl": "https://www.umiacs.umd.edu/our-experts/faculty",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Associate Professor | Human-Computer Interaction | https://www.umiacs.umd.edu/our-experts/faculty/huaishu-peng",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "don-perlis",
+      "rosterName": "Don Perlis",
+      "title": "Professor Emeritus",
+      "profileUrl": "https://www.umiacs.umd.edu/our-experts/faculty/don-perlis",
+      "portraitUrl": "https://www.umiacs.umd.edu/sites/default/files/styles/optimized/public/Perlis%2C%20Don_0.jpg.webp?itok=XCk8uHol",
+      "officialSections": [],
+      "researchFields": [
+        "Artificial Intelligence"
+      ],
+      "unitUrl": "https://www.umiacs.umd.edu/our-experts/faculty",
+      "decision": "excluded_historical",
+      "reason": "官方职称或名录分组明确为荣休、退休或历史人员。",
+      "evidence": "Professor Emeritus | Artificial Intelligence | https://www.umiacs.umd.edu/our-experts/faculty/don-perlis"
+    },
+    {
+      "officialId": "catherine-plaisant",
+      "rosterName": "Catherine Plaisant",
+      "title": "Senior Research Scientist Emerita",
+      "profileUrl": "https://www.umiacs.umd.edu/our-experts/faculty/catherine-plaisant",
+      "portraitUrl": "https://www.umiacs.umd.edu/sites/default/files/styles/optimized/public/Plaisant%2C%20Catherine%20UMIACS%20site.jpg.webp?itok=rRU8IczT",
+      "officialSections": [],
+      "researchFields": [
+        "Human-Computer Interaction"
+      ],
+      "unitUrl": "https://www.umiacs.umd.edu/our-experts/faculty",
+      "decision": "excluded_historical",
+      "reason": "官方职称或名录分组明确为荣休、退休或历史人员。",
+      "evidence": "Senior Research Scientist Emerita | Human-Computer Interaction | https://www.umiacs.umd.edu/our-experts/faculty/catherine-plaisant"
+    },
+    {
+      "officialId": "mihai-pop",
+      "rosterName": "Mihai Pop",
+      "title": "MPower Professor",
+      "profileUrl": "https://www.umiacs.umd.edu/our-experts/faculty/mihai-pop",
+      "portraitUrl": "https://www.umiacs.umd.edu/sites/default/files/styles/optimized/public/people/Pop_Mihai_UMIACS_CS_44_SQ.jpg.webp?itok=Z6UPfXMY",
+      "officialSections": [],
+      "researchFields": [
+        "Computational Biology"
+      ],
+      "unitUrl": "https://www.umiacs.umd.edu/our-experts/faculty",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "MPower Professor | Computational Biology | https://www.umiacs.umd.edu/our-experts/faculty/mihai-pop",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "adam-porter",
+      "rosterName": "Adam Porter",
+      "title": "Professor",
+      "profileUrl": "https://www.umiacs.umd.edu/our-experts/faculty/adam-porter",
+      "portraitUrl": "https://www.umiacs.umd.edu/sites/default/files/styles/optimized/public/webPorter30.jpg.webp?itok=W734abFy",
+      "officialSections": [],
+      "researchFields": [
+        "Software Engineering"
+      ],
+      "unitUrl": "https://www.umiacs.umd.edu/our-experts/faculty",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Professor | Software Engineering | https://www.umiacs.umd.edu/our-experts/faculty/adam-porter",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "bill-pugh",
+      "rosterName": "Bill Pugh",
+      "title": "Professor Emeritus",
+      "profileUrl": "https://www.umiacs.umd.edu/our-experts/faculty/bill-pugh",
+      "portraitUrl": "https://www.umiacs.umd.edu/sites/default/files/styles/optimized/public/pugh.png.webp?itok=pFlL9WTW",
+      "officialSections": [],
+      "researchFields": [
+        "Programming Languages"
+      ],
+      "unitUrl": "https://www.umiacs.umd.edu/our-experts/faculty",
+      "decision": "excluded_historical",
+      "reason": "官方职称或名录分组明确为荣休、退休或历史人员。",
+      "evidence": "Professor Emeritus | Programming Languages | https://www.umiacs.umd.edu/our-experts/faculty/bill-pugh"
+    },
+    {
+      "officialId": "louiqa-raschid",
+      "rosterName": "Louiqa Raschid",
+      "title": "Professor",
+      "profileUrl": "https://www.umiacs.umd.edu/our-experts/faculty/louiqa-raschid",
+      "portraitUrl": "https://www.umiacs.umd.edu/sites/default/files/styles/optimized/public/louiqa_preferred_headshot.jpg.webp?itok=S4dtPOzd",
+      "officialSections": [],
+      "researchFields": [
+        "Database Systems"
+      ],
+      "unitUrl": "https://www.umiacs.umd.edu/our-experts/faculty",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Professor | Database Systems | https://www.umiacs.umd.edu/our-experts/faculty/louiqa-raschid",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "jim-reggia",
+      "rosterName": "Jim Reggia",
+      "title": "Professor Emeritus",
+      "profileUrl": "https://www.umiacs.umd.edu/our-experts/faculty/jim-reggia",
+      "portraitUrl": "https://www.umiacs.umd.edu/sites/default/files/styles/optimized/public/reggia.png.webp?itok=Pxh4wsWa",
+      "officialSections": [],
+      "researchFields": [
+        "Neural Computation"
+      ],
+      "unitUrl": "https://www.umiacs.umd.edu/our-experts/faculty",
+      "decision": "excluded_historical",
+      "reason": "官方职称或名录分组明确为荣休、退休或历史人员。",
+      "evidence": "Professor Emeritus | Neural Computation | https://www.umiacs.umd.edu/our-experts/faculty/jim-reggia"
+    },
+    {
+      "officialId": "philip-resnik",
+      "rosterName": "Philip Resnik",
+      "title": "Professor",
+      "profileUrl": "https://www.umiacs.umd.edu/our-experts/faculty/philip-resnik",
+      "portraitUrl": "https://www.umiacs.umd.edu/sites/default/files/styles/optimized/public/people/Resnik%202023%20cropped%20in.png.webp?itok=WiS7Ij0X",
+      "officialSections": [],
+      "researchFields": [
+        "Computational Linguistics"
+      ],
+      "unitUrl": "https://www.umiacs.umd.edu/our-experts/faculty",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Professor | Computational Linguistics | https://www.umiacs.umd.edu/our-experts/faculty/philip-resnik",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "nirupam-roy",
+      "rosterName": "Nirupam Roy",
+      "title": "Associate Professor",
+      "profileUrl": "https://www.umiacs.umd.edu/our-experts/faculty/nirupam-roy",
+      "portraitUrl": "https://www.umiacs.umd.edu/sites/default/files/styles/optimized/public/Roy%2C%20Nirupam%20cropped.jpeg.webp?itok=QoB09m1L",
+      "officialSections": [],
+      "researchFields": [
+        "Wireless Networking & Mobile Sensing"
+      ],
+      "unitUrl": "https://www.umiacs.umd.edu/our-experts/faculty",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Associate Professor | Wireless Networking & Mobile Sensing | https://www.umiacs.umd.edu/our-experts/faculty/nirupam-roy",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "rachel-rudinger",
+      "rosterName": "Rachel Rudinger",
+      "title": "Associate Professor",
+      "profileUrl": "https://www.umiacs.umd.edu/our-experts/faculty/rachel-rudinger",
+      "portraitUrl": "https://www.umiacs.umd.edu/sites/default/files/styles/optimized/public/Rudinger%2C%20Rachel.jpg.webp?itok=Mv1UdPZU",
+      "officialSections": [],
+      "researchFields": [
+        "Computational Linguistics"
+      ],
+      "unitUrl": "https://www.umiacs.umd.edu/our-experts/faculty",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Associate Professor | Computational Linguistics | https://www.umiacs.umd.edu/our-experts/faculty/rachel-rudinger",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "hanan-samet",
+      "rosterName": "Hanan Samet",
+      "title": "Distinguished University Professor",
+      "profileUrl": "https://www.umiacs.umd.edu/our-experts/faculty/hanan-samet",
+      "portraitUrl": "https://www.umiacs.umd.edu/sites/default/files/styles/optimized/public/web-samet.jpg.webp?itok=wt1RN1AW",
+      "officialSections": [],
+      "researchFields": [
+        "Spatial Data Structures"
+      ],
+      "unitUrl": "https://www.umiacs.umd.edu/our-experts/faculty",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Distinguished University Professor | Spatial Data Structures | https://www.umiacs.umd.edu/our-experts/faculty/hanan-samet",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "han-shao",
+      "rosterName": "Han Shao",
+      "title": "Assistant Professor",
+      "profileUrl": "https://www.umiacs.umd.edu/our-experts/faculty/han-shao",
+      "portraitUrl": "https://www.umiacs.umd.edu/sites/default/files/styles/optimized/public/people/han%20shao%20umiacs%20website.jpg.webp?itok=VFbjJ00J",
+      "officialSections": [],
+      "researchFields": [
+        "Machine Learning Theory"
+      ],
+      "unitUrl": "https://www.umiacs.umd.edu/our-experts/faculty",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Assistant Professor | Machine Learning Theory | https://www.umiacs.umd.edu/our-experts/faculty/han-shao",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "katie-shilton",
+      "rosterName": "Katie Shilton",
+      "title": "Professor",
+      "profileUrl": "https://www.umiacs.umd.edu/our-experts/faculty/katie-shilton",
+      "portraitUrl": "https://www.umiacs.umd.edu/sites/default/files/styles/optimized/public/KatieShilton%20cropped.jpg.webp?itok=TBu0NFvg",
+      "officialSections": [],
+      "researchFields": [
+        "Data Ethics"
+      ],
+      "unitUrl": "https://www.umiacs.umd.edu/our-experts/faculty",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Professor | Data Ethics | https://www.umiacs.umd.edu/our-experts/faculty/katie-shilton",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "ben-shneiderman",
+      "rosterName": "Ben Shneiderman",
+      "title": "Distinguished University Professor Emeritus",
+      "profileUrl": "https://www.umiacs.umd.edu/our-experts/faculty/ben-shneiderman",
+      "portraitUrl": "https://www.umiacs.umd.edu/sites/default/files/styles/optimized/public/web-Schneiderman08.jpg.webp?itok=pzi6VjPC",
+      "officialSections": [],
+      "researchFields": [
+        "Human-Computer Interaction"
+      ],
+      "unitUrl": "https://www.umiacs.umd.edu/our-experts/faculty",
+      "decision": "excluded_historical",
+      "reason": "官方职称或名录分组明确为荣休、退休或历史人员。",
+      "evidence": "Distinguished University Professor Emeritus | Human-Computer Interaction | https://www.umiacs.umd.edu/our-experts/faculty/ben-shneiderman"
+    },
+    {
+      "officialId": "abhinav-shrivastava",
+      "rosterName": "Abhinav Shrivastava",
+      "title": "Associate Professor",
+      "profileUrl": "https://www.umiacs.umd.edu/our-experts/faculty/abhinav-shrivastava",
+      "portraitUrl": "https://www.umiacs.umd.edu/sites/default/files/styles/optimized/public/IMG_1722.jpeg.webp?itok=WiQpjHhN",
+      "officialSections": [],
+      "researchFields": [
+        "Vision & Learning"
+      ],
+      "unitUrl": "https://www.umiacs.umd.edu/our-experts/faculty",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Associate Professor | Vision & Learning | https://www.umiacs.umd.edu/our-experts/faculty/abhinav-shrivastava",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "aravind-srinivasan",
+      "rosterName": "Aravind Srinivasan",
+      "title": "Distinguished University Professor",
+      "profileUrl": "https://www.umiacs.umd.edu/our-experts/faculty/aravind-srinivasan",
+      "portraitUrl": "https://www.umiacs.umd.edu/sites/default/files/styles/optimized/public/Srinivasan.jpg.webp?itok=XANBrX6r",
+      "officialSections": [],
+      "researchFields": [
+        "Algorithms"
+      ],
+      "unitUrl": "https://www.umiacs.umd.edu/our-experts/faculty",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Distinguished University Professor | Algorithms | https://www.umiacs.umd.edu/our-experts/faculty/aravind-srinivasan",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "milijana-surbatovich",
+      "rosterName": "Milijana Surbatovich",
+      "title": "Assistant Professor",
+      "profileUrl": "https://www.umiacs.umd.edu/our-experts/faculty/milijana-surbatovich",
+      "portraitUrl": "https://www.umiacs.umd.edu/sites/default/files/styles/optimized/public/people/milijana%20headshot%202.jpg.webp?itok=p_Nh1YRn",
+      "officialSections": [],
+      "researchFields": [
+        "Programming Languages"
+      ],
+      "unitUrl": "https://www.umiacs.umd.edu/our-experts/faculty",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Assistant Professor | Programming Languages | https://www.umiacs.umd.edu/our-experts/faculty/milijana-surbatovich",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "jacob-taylor",
+      "rosterName": "Jacob Taylor",
+      "title": "Adjunct Professor",
+      "profileUrl": "https://www.umiacs.umd.edu/our-experts/faculty/jacob-taylor",
+      "portraitUrl": "https://www.umiacs.umd.edu/sites/default/files/styles/optimized/public/JacobTaylor_04152015_9602.JPG.webp?itok=GfQ0SvZ3",
+      "officialSections": [],
+      "researchFields": [
+        "Quantum Mechanics"
+      ],
+      "unitUrl": "https://www.umiacs.umd.edu/our-experts/faculty",
+      "decision": "excluded_non_pi",
+      "reason": "官方职称或名录分组属于教学、兼职、附属、科研支持或其他非独立 PI 岗位。",
+      "evidence": "Adjunct Professor | Quantum Mechanics | https://www.umiacs.umd.edu/our-experts/faculty/jacob-taylor"
+    },
+    {
+      "officialId": "pratap-tokekar",
+      "rosterName": "Pratap Tokekar",
+      "title": "Associate Professor",
+      "profileUrl": "https://www.umiacs.umd.edu/our-experts/faculty/pratap-tokekar",
+      "portraitUrl": "https://www.umiacs.umd.edu/sites/default/files/styles/optimized/public/PratapTokekar%20squared.png.webp?itok=1dI64Jg3",
+      "officialSections": [],
+      "researchFields": [
+        "Robotics"
+      ],
+      "unitUrl": "https://www.umiacs.umd.edu/our-experts/faculty",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Associate Professor | Robotics | https://www.umiacs.umd.edu/our-experts/faculty/pratap-tokekar",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "david-van-horn",
+      "rosterName": "David Van Horn",
+      "title": "Associate Professor",
+      "profileUrl": "https://www.umiacs.umd.edu/our-experts/faculty/david-van-horn",
+      "portraitUrl": "https://www.umiacs.umd.edu/sites/default/files/styles/optimized/public/VanHorn.jpg.webp?itok=8kgou3I4",
+      "officialSections": [],
+      "researchFields": [
+        "Programming Languages"
+      ],
+      "unitUrl": "https://www.umiacs.umd.edu/our-experts/faculty",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Associate Professor | Programming Languages | https://www.umiacs.umd.edu/our-experts/faculty/david-van-horn",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "amitabh-varshney",
+      "rosterName": "Amitabh Varshney",
+      "title": "Professor and Dean",
+      "profileUrl": "https://www.umiacs.umd.edu/our-experts/faculty/amitabh-varshney",
+      "portraitUrl": "https://www.umiacs.umd.edu/sites/default/files/styles/optimized/public/AmitabhVarshney-squared.jpg.webp?itok=0BXZOIlz",
+      "officialSections": [],
+      "researchFields": [
+        "Visualization & Graphics"
+      ],
+      "unitUrl": "https://www.umiacs.umd.edu/our-experts/faculty",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Professor and Dean | Visualization & Graphics | https://www.umiacs.umd.edu/our-experts/faculty/amitabh-varshney",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "uzi-vishkin",
+      "rosterName": "Uzi Vishkin",
+      "title": "Professor",
+      "profileUrl": "https://www.umiacs.umd.edu/our-experts/faculty/uzi-vishkin",
+      "portraitUrl": "https://www.umiacs.umd.edu/sites/default/files/styles/optimized/public/people/uzi%20vishkin_0.jpg.webp?itok=YyoaNQGs",
+      "officialSections": [],
+      "researchFields": [
+        "Parallel Computing"
+      ],
+      "unitUrl": "https://www.umiacs.umd.edu/our-experts/faculty",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Professor | Parallel Computing | https://www.umiacs.umd.edu/our-experts/faculty/uzi-vishkin",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "joshua-weitz",
+      "rosterName": "Joshua Weitz",
+      "title": "Professor and Clark Leadership Chair in Data Analytics",
+      "profileUrl": "https://www.umiacs.umd.edu/our-experts/faculty/joshua-weitz",
+      "portraitUrl": "https://www.umiacs.umd.edu/sites/default/files/styles/optimized/public/jsweitz%20cropped.png.webp?itok=v85TYGu6",
+      "officialSections": [],
+      "researchFields": [
+        "Virology & Computational Biology"
+      ],
+      "unitUrl": "https://www.umiacs.umd.edu/our-experts/faculty",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Professor and Clark Leadership Chair in Data Analytics | Virology & Computational Biology | https://www.umiacs.umd.edu/our-experts/faculty/joshua-weitz",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "sarah-wiegreffe",
+      "rosterName": "Sarah Wiegreffe",
+      "title": "Assistant Professor",
+      "profileUrl": "https://www.umiacs.umd.edu/our-experts/faculty/sarah-wiegreffe",
+      "portraitUrl": "https://www.umiacs.umd.edu/sites/default/files/styles/optimized/public/people/website_headshot.jpeg.webp?itok=3Na1IFi2",
+      "officialSections": [],
+      "researchFields": [
+        "AI Interpretability"
+      ],
+      "unitUrl": "https://www.umiacs.umd.edu/our-experts/faculty",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Assistant Professor | AI Interpretability | https://www.umiacs.umd.edu/our-experts/faculty/sarah-wiegreffe",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "xiaodi-wu",
+      "rosterName": "Xiaodi Wu",
+      "title": "Associate Professor",
+      "profileUrl": "https://www.umiacs.umd.edu/our-experts/faculty/xiaodi-wu",
+      "portraitUrl": "https://www.umiacs.umd.edu/sites/default/files/styles/optimized/public/wu%20squared.JPG.webp?itok=LKGU3Gka",
+      "officialSections": [],
+      "researchFields": [
+        "Theoretical Computer Science"
+      ],
+      "unitUrl": "https://www.umiacs.umd.edu/our-experts/faculty",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Associate Professor | Theoretical Computer Science | https://www.umiacs.umd.edu/our-experts/faculty/xiaodi-wu",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "min-wu",
+      "rosterName": "Min Wu",
+      "title": "Distinguished University Professor",
+      "profileUrl": "https://www.umiacs.umd.edu/our-experts/faculty/min-wu",
+      "portraitUrl": "https://www.umiacs.umd.edu/sites/default/files/styles/optimized/public/minwu_0.png.webp?itok=z_qv6Jse",
+      "officialSections": [],
+      "researchFields": [
+        "Digital Forensics"
+      ],
+      "unitUrl": "https://www.umiacs.umd.edu/our-experts/faculty",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Distinguished University Professor | Digital Forensics | https://www.umiacs.umd.edu/our-experts/faculty/min-wu",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "alexander-xu",
+      "rosterName": "Alexander Xu",
+      "title": "Assistant Professor",
+      "profileUrl": "https://www.umiacs.umd.edu/our-experts/faculty/alexander-xu",
+      "portraitUrl": "https://www.umiacs.umd.edu/sites/default/files/styles/optimized/public/people/Alex%20Xu%20Faculty%20Headshot%20420x500.png.webp?itok=1WZyGJu_",
+      "officialSections": [],
+      "researchFields": [
+        "Spatial Biology"
+      ],
+      "unitUrl": "https://www.umiacs.umd.edu/our-experts/faculty",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Assistant Professor | Spatial Biology | https://www.umiacs.umd.edu/our-experts/faculty/alexander-xu",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "yaser-yacoob",
+      "rosterName": "Yaser Yacoob",
+      "title": "Associate Research Scientist",
+      "profileUrl": "https://www.umiacs.umd.edu/our-experts/faculty/yaser-yacoob",
+      "portraitUrl": "https://www.umiacs.umd.edu/sites/default/files/styles/optimized/public/web-Yacoob33.jpg.webp?itok=3uZulj-X",
+      "officialSections": [],
+      "researchFields": [
+        "Vision & Robotics"
+      ],
+      "unitUrl": "https://www.umiacs.umd.edu/our-experts/faculty",
+      "decision": "excluded_non_pi",
+      "reason": "官方职称或名录分组属于教学、兼职、附属、科研支持或其他非独立 PI 岗位。",
+      "evidence": "Associate Research Scientist | Vision & Robotics | https://www.umiacs.umd.edu/our-experts/faculty/yaser-yacoob"
+    },
+    {
+      "officialId": "haizhao-yang",
+      "rosterName": "Haizhao Yang",
+      "title": "Professor",
+      "profileUrl": "https://www.umiacs.umd.edu/our-experts/faculty/haizhao-yang",
+      "portraitUrl": "https://www.umiacs.umd.edu/sites/default/files/styles/optimized/public/Yang%2C%20Haizhao.png.webp?itok=cAl34fM3",
+      "officialSections": [],
+      "researchFields": [
+        "Machine Learning"
+      ],
+      "unitUrl": "https://www.umiacs.umd.edu/our-experts/faculty",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Professor | Machine Learning | https://www.umiacs.umd.edu/our-experts/faculty/haizhao-yang",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "fumeng-yang",
+      "rosterName": "Fumeng Yang",
+      "title": "Assistant Professor",
+      "profileUrl": "https://www.umiacs.umd.edu/our-experts/faculty/fumeng-yang",
+      "portraitUrl": "https://www.umiacs.umd.edu/sites/default/files/styles/optimized/public/people/FumengYang%20cropped.jpg.webp?itok=7RwBJvhz",
+      "officialSections": [],
+      "researchFields": [
+        "Trustworthy AI"
+      ],
+      "unitUrl": "https://www.umiacs.umd.edu/our-experts/faculty",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Assistant Professor | Trustworthy AI | https://www.umiacs.umd.edu/our-experts/faculty/fumeng-yang",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "yaodong-yu",
+      "rosterName": "Yaodong Yu",
+      "title": "Assistant Professor",
+      "profileUrl": "https://www.umiacs.umd.edu/our-experts/faculty/yaodong-yu",
+      "portraitUrl": "https://www.umiacs.umd.edu/sites/default/files/styles/optimized/public/people/Yaodong-Yu.jpg.webp?itok=-NStKsHV",
+      "officialSections": [],
+      "researchFields": [
+        "Trustworthy Machine Learning"
+      ],
+      "unitUrl": "https://www.umiacs.umd.edu/our-experts/faculty",
+      "decision": "included_existing",
+      "atlasPersonId": "yaodong-yu-us",
+      "reason": "符合范围，且规范化姓名可与当前图谱人物唯一匹配。",
+      "evidence": "Assistant Professor | Trustworthy Machine Learning | https://www.umiacs.umd.edu/our-experts/faculty/yaodong-yu"
+    },
+    {
+      "officialId": "nicole-yunger-halpern",
+      "rosterName": "Nicole Yunger Halpern",
+      "title": "Adjunct Assistant Professor",
+      "profileUrl": "https://www.umiacs.umd.edu/our-experts/faculty/nicole-yunger-halpern",
+      "portraitUrl": "https://www.umiacs.umd.edu/sites/default/files/styles/optimized/public/Yunger%20Halpern%2C%20Nicole.jpg.webp?itok=Rju-LJ0D",
+      "officialSections": [],
+      "researchFields": [
+        "Quantum Thermodynamics & Quantum Information"
+      ],
+      "unitUrl": "https://www.umiacs.umd.edu/our-experts/faculty",
+      "decision": "excluded_non_pi",
+      "reason": "官方职称或名录分组属于教学、兼职、附属、科研支持或其他非独立 PI 岗位。",
+      "evidence": "Adjunct Assistant Professor | Quantum Thermodynamics & Quantum Information | https://www.umiacs.umd.edu/our-experts/faculty/nicole-yunger-halpern"
+    },
+    {
+      "officialId": "marv-zelkowitz",
+      "rosterName": "Marv Zelkowitz",
+      "title": "Professor Emeritus",
+      "profileUrl": "https://www.umiacs.umd.edu/our-experts/faculty/marv-zelkowitz",
+      "portraitUrl": "https://www.umiacs.umd.edu/sites/default/files/styles/optimized/public/webZelkowitz31.jpg.webp?itok=9Hrgvk7C",
+      "officialSections": [],
+      "researchFields": [
+        "Software Engineering"
+      ],
+      "unitUrl": "https://www.umiacs.umd.edu/our-experts/faculty",
+      "decision": "excluded_historical",
+      "reason": "官方职称或名录分组明确为荣休、退休或历史人员。",
+      "evidence": "Professor Emeritus | Software Engineering | https://www.umiacs.umd.edu/our-experts/faculty/marv-zelkowitz"
+    },
+    {
+      "officialId": "kaiqing-zhang",
+      "rosterName": "Kaiqing Zhang",
+      "title": "Assistant Professor",
+      "profileUrl": "https://www.umiacs.umd.edu/our-experts/faculty/kaiqing-zhang",
+      "portraitUrl": "https://www.umiacs.umd.edu/sites/default/files/styles/optimized/public/Kaiqing%2C%20Zhang.jpg.webp?itok=iCgxAnUl",
+      "officialSections": [],
+      "researchFields": [
+        "Machine Learning & Reinforcement Learning"
+      ],
+      "unitUrl": "https://www.umiacs.umd.edu/our-experts/faculty",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Assistant Professor | Machine Learning & Reinforcement Learning | https://www.umiacs.umd.edu/our-experts/faculty/kaiqing-zhang",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "dmitry-zotkin",
+      "rosterName": "Dmitry Zotkin",
+      "title": "Adjunct Associate Professor",
+      "profileUrl": "https://www.umiacs.umd.edu/our-experts/faculty/dmitry-zotkin",
+      "portraitUrl": "https://www.umiacs.umd.edu/sites/default/files/styles/optimized/public/web-Zotkin26.jpg.webp?itok=7ZlbSjgg",
+      "officialSections": [],
+      "researchFields": [
+        "Computational Audio"
+      ],
+      "unitUrl": "https://www.umiacs.umd.edu/our-experts/faculty",
+      "decision": "excluded_non_pi",
+      "reason": "官方职称或名录分组属于教学、兼职、附属、科研支持或其他非独立 PI 岗位。",
+      "evidence": "Adjunct Associate Professor | Computational Audio | https://www.umiacs.umd.edu/our-experts/faculty/dmitry-zotkin"
+    },
+    {
+      "officialId": "matthias-zwicker",
+      "rosterName": "Matthias Zwicker",
+      "title": "Professor and Chair",
+      "profileUrl": "https://www.umiacs.umd.edu/our-experts/faculty/matthias-zwicker",
+      "portraitUrl": "https://www.umiacs.umd.edu/sites/default/files/styles/optimized/public/Zwicker%202024_0.jpeg.webp?itok=x5KFEGeQ",
+      "officialSections": [],
+      "researchFields": [
+        "Computer Graphics & Data-Driven Modeling"
+      ],
+      "unitUrl": "https://www.umiacs.umd.edu/our-experts/faculty",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Professor and Chair | Computer Graphics & Data-Driven Modeling | https://www.umiacs.umd.edu/our-experts/faculty/matthias-zwicker",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "justyna-zwolak",
+      "rosterName": "Justyna Zwolak",
+      "title": "Adjunct Assistant Professor",
+      "profileUrl": "https://www.umiacs.umd.edu/our-experts/faculty/justyna-zwolak",
+      "portraitUrl": "https://www.umiacs.umd.edu/sites/default/files/styles/optimized/public/zwolak%2C%20justyna%20cropped.png.webp?itok=iHCPDgp3",
+      "officialSections": [],
+      "researchFields": [
+        "Quantum Computation"
+      ],
+      "unitUrl": "https://www.umiacs.umd.edu/our-experts/faculty",
+      "decision": "excluded_non_pi",
+      "reason": "官方职称或名录分组属于教学、兼职、附属、科研支持或其他非独立 PI 岗位。",
+      "evidence": "Adjunct Assistant Professor | Quantum Computation | https://www.umiacs.umd.edu/our-experts/faculty/justyna-zwolak"
+    }
+  ]
+}

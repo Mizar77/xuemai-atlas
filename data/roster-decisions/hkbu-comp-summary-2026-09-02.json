@@ -1,0 +1,17 @@
+{
+  "reviewedAt": "2026-09-02",
+  "units": 1,
+  "officialPeople": 44,
+  "checkedPeople": 44,
+  "decisionCounts": {
+    "excluded_industry_only": 1,
+    "excluded_non_ai_cs": 3,
+    "excluded_non_pi": 12,
+    "include_new_pi": 23,
+    "included_existing": 5
+  },
+  "readyNewPi": 23,
+  "existingPi": 5,
+  "deferred": 0,
+  "note": "HKBU Computer Science complete person-level audit. Every frozen officialId has exactly one decision; official profile title, research interests, biography and portrait URL are preserved in the evidence artifact."
+}

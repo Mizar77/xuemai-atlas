@@ -1,0 +1,1299 @@
+{
+  "completeness": "complete",
+  "fetchedAt": "2026-09-02",
+  "institution": "University of Wisconsin–Madison Computer Sciences",
+  "officialPageUrl": "https://www.cs.wisc.edu/people/faculty-2/",
+  "officialDataUrl": "https://www.cs.wisc.edu/wp-json/wp/v2/uw_staff",
+  "officialRosterCount": 128,
+  "officialSectionCardCounts": {
+    "Core Faculty": 54,
+    "Teaching Faculty": 21,
+    "Instructors": 1,
+    "Affiliate Faculty": 32,
+    "Emeritus Faculty": 20
+  },
+  "overlapAcrossSections": 0,
+  "sourceDescription": "The official faculty page renders five UW People categories. All records in Core Faculty, Teaching Faculty, Instructors, Affiliate Faculty, and Emeritus Faculty were fetched from the official WordPress REST API and merged by official staff ID; section memberships are retained without double-counting overlaps.",
+  "people": [
+    {
+      "officialId": "12889",
+      "name": "Adithya Murali",
+      "officialSections": [
+        "Core Faculty"
+      ],
+      "title": "Assistant Professor",
+      "profileUrl": "https://www.cs.wisc.edu/staff/murali-adithya/",
+      "portraitUrl": "https://www.cs.wisc.edu/wp-content/uploads/sites/166/2025/01/Adithya-Murali-150-x-190.png"
+    },
+    {
+      "officialId": "12891",
+      "name": "Akarsh Prabhakara",
+      "officialSections": [
+        "Core Faculty"
+      ],
+      "title": "Assistant Professor",
+      "profileUrl": "https://www.cs.wisc.edu/staff/prabhakara-akarsh/",
+      "portraitUrl": "https://www.cs.wisc.edu/wp-content/uploads/sites/166/2025/01/Akarsh_Prabhakara-150-x-190.png"
+    },
+    {
+      "officialId": "964",
+      "name": "Alberto Del Pia",
+      "officialSections": [
+        "Affiliate Faculty"
+      ],
+      "title": "Associate Professor, College of Engineering",
+      "profileUrl": "https://www.cs.wisc.edu/staff/del-pia-alberto/",
+      "portraitUrl": "https://www.cs.wisc.edu/wp-content/uploads/sites/166/2020/06/Alberto-Del-Pia.jpg"
+    },
+    {
+      "officialId": "11759",
+      "name": "Ali Abedi",
+      "officialSections": [
+        "Core Faculty"
+      ],
+      "title": "Assistant Professor",
+      "profileUrl": "https://www.cs.wisc.edu/staff/abedi-ali/",
+      "portraitUrl": "https://www.cs.wisc.edu/wp-content/uploads/sites/166/2024/08/Ali-Abedi-2024-150-x-190.png"
+    },
+    {
+      "officialId": "5151",
+      "name": "Amber Field",
+      "officialSections": [
+        "Instructors"
+      ],
+      "title": "Instructional Administrator",
+      "profileUrl": "https://www.cs.wisc.edu/staff/field-amber/",
+      "portraitUrl": "https://www.cs.wisc.edu/wp-content/uploads/sites/166/2020/08/Amber-Field-150-x-190.jpg"
+    },
+    {
+      "officialId": "756",
+      "name": "Amos Ron",
+      "officialSections": [
+        "Emeritus Faculty"
+      ],
+      "title": "Emeritus Professor",
+      "profileUrl": "https://www.cs.wisc.edu/staff/ron-amos/",
+      "portraitUrl": "https://www.cs.wisc.edu/wp-content/uploads/sites/166/2020/06/Amos-Ron.jpg"
+    },
+    {
+      "officialId": "526",
+      "name": "Andrea Arpaci-Dusseau",
+      "officialSections": [
+        "Core Faculty"
+      ],
+      "title": "Catherine A. Erickson Professor; Susan B. Horwitz Professor",
+      "profileUrl": "https://www.cs.wisc.edu/staff/arpaci-duseau-andrea/",
+      "portraitUrl": "https://www.cs.wisc.edu/wp-content/uploads/sites/166/2018/10/AndreaArpaciDusseau_1_3.17.17-151-x-191.jpg"
+    },
+    {
+      "officialId": "1021",
+      "name": "Andrew Kuemmel",
+      "officialSections": [
+        "Teaching Faculty"
+      ],
+      "title": "Teaching Professor",
+      "profileUrl": "https://www.cs.wisc.edu/staff/kuemmel-andrew/",
+      "portraitUrl": "https://www.cs.wisc.edu/wp-content/uploads/sites/166/2018/11/Andy-Kuemmel-2024-150-x-190.png"
+    },
+    {
+      "officialId": "741",
+      "name": "AnHai Doan",
+      "officialSections": [
+        "Core Faculty"
+      ],
+      "title": "Vilas Distinguished Achievement Professor; Gurindar S. Sohi Professor",
+      "profileUrl": "https://www.cs.wisc.edu/staff/doan-anhai/",
+      "portraitUrl": "https://www.cs.wisc.edu/wp-content/uploads/sites/166/2020/06/Anhai-Doan.jpg"
+    },
+    {
+      "officialId": "968",
+      "name": "Anthony Gitter",
+      "officialSections": [
+        "Affiliate Faculty"
+      ],
+      "title": "Associate Professor, Biostatistics & Medical Informatics",
+      "profileUrl": "https://www.cs.wisc.edu/staff/gitter-anthony/",
+      "portraitUrl": "https://www.cs.wisc.edu/wp-content/uploads/sites/166/2020/06/Anthony-Gitter.jpg"
+    },
+    {
+      "officialId": "523",
+      "name": "Aws Albarghouthi",
+      "officialSections": [
+        "Core Faculty"
+      ],
+      "title": "Associate Professor",
+      "profileUrl": "https://www.cs.wisc.edu/staff/albarghouthi-aws/",
+      "portraitUrl": "https://www.cs.wisc.edu/wp-content/uploads/sites/166/2020/06/Aws-Albarghouthi.jpg"
+    },
+    {
+      "officialId": "751",
+      "name": "Barton Miller",
+      "officialSections": [
+        "Core Faculty"
+      ],
+      "title": "Vilas Distinguished Achievement Professor; Amar & Balinder Sohi Professor",
+      "profileUrl": "https://www.cs.wisc.edu/staff/miller-barton/",
+      "portraitUrl": "https://www.cs.wisc.edu/wp-content/uploads/sites/166/2020/06/Barton-Miller.jpg"
+    },
+    {
+      "officialId": "1018",
+      "name": "Beck Hasti",
+      "officialSections": [
+        "Teaching Faculty"
+      ],
+      "title": "Teaching Professor",
+      "profileUrl": "https://www.cs.wisc.edu/staff/hasti-beck/",
+      "portraitUrl": "https://www.cs.wisc.edu/wp-content/uploads/sites/166/2018/11/hasti23_150width-150-x-190.jpg"
+    },
+    {
+      "officialId": "12375",
+      "name": "Benjamin Lengerich",
+      "officialSections": [
+        "Affiliate Faculty"
+      ],
+      "title": "Assistant Professor, Department of Statistics",
+      "profileUrl": "https://www.cs.wisc.edu/staff/lengerich-benjamin/",
+      "portraitUrl": "https://www.cs.wisc.edu/wp-content/uploads/sites/166/2024/11/Ben-Lengerich-150-x-190.png"
+    },
+    {
+      "officialId": "9104",
+      "name": "Bhuvana Krishnaswamy",
+      "officialSections": [
+        "Affiliate Faculty"
+      ],
+      "title": "Assistant Professor, Electrical & Computer Engineering",
+      "profileUrl": "https://www.cs.wisc.edu/staff/krishnaswamy-bhuvana/",
+      "portraitUrl": "https://www.cs.wisc.edu/wp-content/uploads/sites/166/2022/12/krishnaswamy_bhuvana-150-x-190.jpg"
+    },
+    {
+      "officialId": "752",
+      "name": "Bilge Mutlu",
+      "officialSections": [
+        "Core Faculty"
+      ],
+      "title": "Stephen Wright Professor",
+      "profileUrl": "https://www.cs.wisc.edu/staff/mutlu-bilge/",
+      "portraitUrl": "https://www.cs.wisc.edu/wp-content/uploads/sites/166/2018/10/Mutlu_Bilge_hs21_1827-150-x-190.jpg"
+    },
+    {
+      "officialId": "11565",
+      "name": "Blerina Gkotse",
+      "officialSections": [
+        "Teaching Faculty"
+      ],
+      "title": "Teaching Faculty",
+      "profileUrl": "https://www.cs.wisc.edu/staff/blerina-gkotse/",
+      "portraitUrl": "https://www.cs.wisc.edu/wp-content/uploads/sites/166/2024/07/Blerina-Gkotse-150-x-190.png"
+    },
+    {
+      "officialId": "1031",
+      "name": "Carl de Boor",
+      "officialSections": [
+        "Emeritus Faculty"
+      ],
+      "title": "Emeritus",
+      "profileUrl": "https://www.cs.wisc.edu/staff/de-boor-carl/",
+      "portraitUrl": "https://www.cs.wisc.edu/wp-content/uploads/sites/166/2018/11/deBoor_h-150-x-190.jpg"
+    },
+    {
+      "officialId": "1034",
+      "name": "Charles Dyer",
+      "officialSections": [
+        "Emeritus Faculty"
+      ],
+      "title": "Emeritus",
+      "profileUrl": "https://www.cs.wisc.edu/staff/dyer-charles/",
+      "portraitUrl": "https://www.cs.wisc.edu/wp-content/uploads/sites/166/2020/06/Charles-Dyer.jpg"
+    },
+    {
+      "officialId": "1035",
+      "name": "Charles Fischer",
+      "officialSections": [
+        "Emeritus Faculty"
+      ],
+      "title": "Emeritus",
+      "profileUrl": "https://www.cs.wisc.edu/staff/fischer-charles/",
+      "portraitUrl": "https://www.cs.wisc.edu/wp-content/uploads/sites/166/2020/07/Charles-Fischer.jpg"
+    },
+    {
+      "officialId": "13972",
+      "name": "Charles Yuan",
+      "officialSections": [
+        "Core Faculty"
+      ],
+      "title": "Assistant Professor",
+      "profileUrl": "https://www.cs.wisc.edu/staff/yuan-charles/",
+      "portraitUrl": "https://www.cs.wisc.edu/wp-content/uploads/sites/166/2025/08/Charles-Yuan-150-x-190.png"
+    },
+    {
+      "officialId": "11575",
+      "name": "Cole Nelson",
+      "officialSections": [
+        "Teaching Faculty"
+      ],
+      "title": "Teaching Faculty",
+      "profileUrl": "https://www.cs.wisc.edu/staff/nelson-cole/",
+      "portraitUrl": "https://www.cs.wisc.edu/wp-content/uploads/sites/166/2024/07/Cole-Nelson-2024-150-x-190.png"
+    },
+    {
+      "officialId": "965",
+      "name": "Colin Dewey",
+      "officialSections": [
+        "Affiliate Faculty"
+      ],
+      "title": "Professor, Biostatistics & Medical Informatics",
+      "profileUrl": "https://www.cs.wisc.edu/staff/dewey-colin/",
+      "portraitUrl": "https://www.cs.wisc.edu/wp-content/uploads/sites/166/2020/06/Colin-Dewey.jpg"
+    },
+    {
+      "officialId": "5138",
+      "name": "Daifeng Wang",
+      "officialSections": [
+        "Affiliate Faculty"
+      ],
+      "title": "Associate Professor, Biostatistics & Medical Informatics",
+      "profileUrl": "https://www.cs.wisc.edu/staff/wang-daifeng/",
+      "portraitUrl": "https://www.cs.wisc.edu/wp-content/uploads/sites/166/2020/08/Wang-Daifeng-2019-150-x-189.jpg"
+    },
+    {
+      "officialId": "975",
+      "name": "Dan Negrut",
+      "officialSections": [
+        "Affiliate Faculty"
+      ],
+      "title": "Professor, Mechanical Engineering",
+      "profileUrl": "https://www.cs.wisc.edu/staff/negrut-dan/",
+      "portraitUrl": "https://www.cs.wisc.edu/wp-content/uploads/sites/166/2020/06/Dan-Negrut-1.jpg"
+    },
+    {
+      "officialId": "1033",
+      "name": "David DeWitt",
+      "officialSections": [
+        "Emeritus Faculty"
+      ],
+      "title": "Emeritus",
+      "profileUrl": "https://www.cs.wisc.edu/staff/dewitt-david/",
+      "portraitUrl": "https://www.cs.wisc.edu/wp-content/uploads/sites/166/2018/11/David-DeWitt-150-x-190.jpg"
+    },
+    {
+      "officialId": "1048",
+      "name": "David Wood",
+      "officialSections": [
+        "Emeritus Faculty"
+      ],
+      "title": "Emeritus",
+      "profileUrl": "https://www.cs.wisc.edu/staff/wood-david/",
+      "portraitUrl": "https://www.cs.wisc.edu/wp-content/uploads/sites/166/2018/11/Wood-2020-151-x-191-e1593117779242.jpg"
+    },
+    {
+      "officialId": "1037",
+      "name": "Deborah Joseph",
+      "officialSections": [
+        "Emeritus Faculty"
+      ],
+      "title": "",
+      "profileUrl": "https://www.cs.wisc.edu/staff/joseph-deborah/",
+      "portraitUrl": "https://www.cs.wisc.edu/wp-content/uploads/sites/166/2020/07/Deborah-Joseph.jpg"
+    },
+    {
+      "officialId": "763",
+      "name": "Dieter van Melkebeek",
+      "officialSections": [
+        "Core Faculty"
+      ],
+      "title": "Professor",
+      "profileUrl": "https://www.cs.wisc.edu/staff/van-melkebeek-dieter/",
+      "portraitUrl": "https://www.cs.wisc.edu/wp-content/uploads/sites/166/2020/06/Dieter-van-Melkebeek.jpg"
+    },
+    {
+      "officialId": "979",
+      "name": "Dimitris Papailiopoulos",
+      "officialSections": [
+        "Affiliate Faculty"
+      ],
+      "title": "Assistant Professor, Electrical & Computer Engineering",
+      "profileUrl": "https://www.cs.wisc.edu/staff/papailiopoulos-dimitris/",
+      "portraitUrl": "https://www.cs.wisc.edu/wp-content/uploads/sites/166/2020/06/Dimitris-Papailiopoulos.jpg"
+    },
+    {
+      "officialId": "758",
+      "name": "Eftychios Sifakis",
+      "officialSections": [
+        "Core Faculty"
+      ],
+      "title": "Professor and Associate Chair for Graduate Studies",
+      "profileUrl": "https://www.cs.wisc.edu/staff/sifakis-eftychios/",
+      "portraitUrl": "https://www.cs.wisc.edu/wp-content/uploads/sites/166/2020/06/Eftychios-Sifakis.jpg"
+    },
+    {
+      "officialId": "545",
+      "name": "Eric Bach",
+      "officialSections": [
+        "Emeritus Faculty"
+      ],
+      "title": "Emeritus Professor",
+      "profileUrl": "https://www.cs.wisc.edu/staff/bach-eric/",
+      "portraitUrl": "https://www.cs.wisc.edu/wp-content/uploads/sites/166/2020/06/Eric-Bach.jpg"
+    },
+    {
+      "officialId": "9922",
+      "name": "Ethan Cecchetti",
+      "officialSections": [
+        "Core Faculty"
+      ],
+      "title": "Assistant Professor",
+      "profileUrl": "https://www.cs.wisc.edu/staff/cecchetti-ethan/",
+      "portraitUrl": "https://www.cs.wisc.edu/wp-content/uploads/sites/166/2023/09/Ethan-2023-150x190-1.png"
+    },
+    {
+      "officialId": "1574",
+      "name": "Florian Heimerl",
+      "officialSections": [
+        "Teaching Faculty"
+      ],
+      "title": "Teaching Faculty",
+      "profileUrl": "https://www.cs.wisc.edu/staff/heimerl-florian/",
+      "portraitUrl": "https://www.cs.wisc.edu/wp-content/uploads/sites/166/2018/11/Florian-Heimerl-150-x-190.jpg"
+    },
+    {
+      "officialId": "4832",
+      "name": "Frederic Sala",
+      "officialSections": [
+        "Core Faculty"
+      ],
+      "title": "Assistant Professor",
+      "profileUrl": "https://www.cs.wisc.edu/staff/sala-frederic/",
+      "portraitUrl": "https://www.cs.wisc.edu/wp-content/uploads/sites/166/2020/06/Fred-Sala-150-x-190.jpg"
+    },
+    {
+      "officialId": "1264",
+      "name": "Gary Dahl",
+      "officialSections": [
+        "Teaching Faculty"
+      ],
+      "title": "Teaching Professor",
+      "profileUrl": "https://www.cs.wisc.edu/staff/dahl-gary-2/",
+      "portraitUrl": "https://www.cs.wisc.edu/wp-content/uploads/sites/166/2018/11/Gary-Dahl-150-x-190-1.png"
+    },
+    {
+      "officialId": "13969",
+      "name": "Gavin Brown",
+      "officialSections": [
+        "Core Faculty"
+      ],
+      "title": "Assistant Professor",
+      "profileUrl": "https://www.cs.wisc.edu/staff/brown-gavin/",
+      "portraitUrl": "https://www.cs.wisc.edu/wp-content/uploads/sites/166/2025/08/Gavin-Brown-150-x-190.png"
+    },
+    {
+      "officialId": "992",
+      "name": "Grace Wahba",
+      "officialSections": [
+        "Emeritus Faculty"
+      ],
+      "title": "Professor Emeritus, Department of Statistics, Computer Sciences Affiliate Faculty",
+      "profileUrl": "https://www.cs.wisc.edu/staff/wahba-grace/",
+      "portraitUrl": "https://www.cs.wisc.edu/wp-content/uploads/sites/166/2020/06/Grace-Wahba.jpg"
+    },
+    {
+      "officialId": "13828",
+      "name": "Grigoris Chrysos",
+      "officialSections": [
+        "Affiliate Faculty"
+      ],
+      "title": "Assistant Professor, Electrical and Computer Engineering",
+      "profileUrl": "https://www.cs.wisc.edu/staff/chrysos-grigoris/",
+      "portraitUrl": "https://www.cs.wisc.edu/wp-content/uploads/sites/166/2025/07/Chrysos-150-x-190.png"
+    },
+    {
+      "officialId": "760",
+      "name": "Gurindar Sohi",
+      "officialSections": [
+        "Core Faculty"
+      ],
+      "title": "E. David Cronon Professor; Vilas Research Professor",
+      "profileUrl": "https://www.cs.wisc.edu/staff/sohi-gurindar/",
+      "portraitUrl": "https://www.cs.wisc.edu/wp-content/uploads/sites/166/2020/07/Gurindar-Sohi.jpg"
+    },
+    {
+      "officialId": "8492",
+      "name": "Gurmail Singh",
+      "officialSections": [
+        "Teaching Faculty"
+      ],
+      "title": "Teaching Faculty",
+      "profileUrl": "https://www.cs.wisc.edu/staff/singh-gurmail/",
+      "portraitUrl": "https://www.cs.wisc.edu/wp-content/uploads/sites/166/2022/08/Gurmail-Singh-150-x-191.jpg"
+    },
+    {
+      "officialId": "12863",
+      "name": "Hanbaek Lyu",
+      "officialSections": [
+        "Affiliate Faculty"
+      ],
+      "title": "Assistant Professor, Department of Mathematics",
+      "profileUrl": "https://www.cs.wisc.edu/staff/hanbaek-lyu/",
+      "portraitUrl": "https://www.cs.wisc.edu/wp-content/uploads/sites/166/2025/01/Hanbaek-Lyu-150-x-190.png"
+    },
+    {
+      "officialId": "11573",
+      "name": "Hina Mahmood",
+      "officialSections": [
+        "Teaching Faculty"
+      ],
+      "title": "Teaching Faculty",
+      "profileUrl": "https://www.cs.wisc.edu/staff/mahmood-hina/",
+      "portraitUrl": "https://www.cs.wisc.edu/wp-content/uploads/sites/166/2024/07/Hina-Mahmood-150-x-190.png"
+    },
+    {
+      "officialId": "3566",
+      "name": "Ilias Diakonikolas",
+      "officialSections": [
+        "Core Faculty"
+      ],
+      "title": "Stephen C. Kleene Professor",
+      "profileUrl": "https://www.cs.wisc.edu/staff/diakonikolas-ilias/",
+      "portraitUrl": "https://www.cs.wisc.edu/wp-content/uploads/sites/166/2020/06/Ilias-Diakonikolas.jpg"
+    },
+    {
+      "officialId": "12270",
+      "name": "Irene Ong",
+      "officialSections": [
+        "Affiliate Faculty"
+      ],
+      "title": "Associate Professor, Obstetrics & Gynecology, Biostatistics & Medical Informatics",
+      "profileUrl": "https://www.cs.wisc.edu/staff/ong-irene/",
+      "portraitUrl": "https://www.cs.wisc.edu/wp-content/uploads/sites/166/2024/10/Irene-Ong-150-x-190.png"
+    },
+    {
+      "officialId": "7264",
+      "name": "Jacob Thebault-Spieker",
+      "officialSections": [
+        "Affiliate Faculty"
+      ],
+      "title": "Assistant Professor, The Information School",
+      "profileUrl": "https://www.cs.wisc.edu/staff/thebault-spieker-jacob/",
+      "portraitUrl": "https://www.cs.wisc.edu/wp-content/uploads/sites/166/2021/11/Jacob-Thebault-Spieker-150-x-190.jpg"
+    },
+    {
+      "officialId": "1036",
+      "name": "James Goodman",
+      "officialSections": [
+        "Emeritus Faculty"
+      ],
+      "title": "Emeritus",
+      "profileUrl": "https://www.cs.wisc.edu/staff/goodman-james/",
+      "portraitUrl": "https://www.cs.wisc.edu/wp-content/uploads/sites/166/2018/11/James-Goodman-150-x-190.jpg"
+    },
+    {
+      "officialId": "974",
+      "name": "James Luedtke",
+      "officialSections": [
+        "Affiliate Faculty"
+      ],
+      "title": "Associate Professor, Industrial & Systems Engineering",
+      "profileUrl": "https://www.cs.wisc.edu/staff/luedtke-james/",
+      "portraitUrl": "https://www.cs.wisc.edu/wp-content/uploads/sites/166/2020/06/James-Luedtke-1.jpg"
+    },
+    {
+      "officialId": "972",
+      "name": "Jeffrey Linderoth",
+      "officialSections": [
+        "Affiliate Faculty"
+      ],
+      "title": "Professor, Industrial & Systems Engineering",
+      "profileUrl": "https://www.cs.wisc.edu/staff/linderoth-jeffrey/",
+      "portraitUrl": "https://www.cs.wisc.edu/wp-content/uploads/sites/166/2020/06/Jeffrey-Linderoth.jpg"
+    },
+    {
+      "officialId": "1041",
+      "name": "Jeffrey Naughton",
+      "officialSections": [
+        "Emeritus Faculty"
+      ],
+      "title": "Emeritus",
+      "profileUrl": "https://www.cs.wisc.edu/staff/naughton-jeffrey/",
+      "portraitUrl": "https://www.cs.wisc.edu/wp-content/uploads/sites/166/2018/11/Naughton_Dec-13-graduation-e1542053077724.jpg"
+    },
+    {
+      "officialId": "4012",
+      "name": "Jelena Diakonikolas",
+      "officialSections": [
+        "Core Faculty"
+      ],
+      "title": "Associate Professor",
+      "profileUrl": "https://www.cs.wisc.edu/staff/diakonikolas-jelena/",
+      "portraitUrl": "https://www.cs.wisc.edu/wp-content/uploads/sites/166/2020/06/Jelena-Diakonikolas.jpg"
+    },
+    {
+      "officialId": "766",
+      "name": "Jerry Zhu",
+      "officialSections": [
+        "Core Faculty"
+      ],
+      "title": "Professor, Sheldon B. Lubar Chair in Computer Sciences",
+      "profileUrl": "https://www.cs.wisc.edu/staff/zhu-jerry/",
+      "portraitUrl": "https://www.cs.wisc.edu/wp-content/uploads/sites/166/2018/10/Jerry-Zhu-CS-e1706282831290.png"
+    },
+    {
+      "officialId": "13675",
+      "name": "Jiawei Zhang",
+      "officialSections": [
+        "Core Faculty"
+      ],
+      "title": "Assistant Professor",
+      "profileUrl": "https://www.cs.wisc.edu/staff/zhang-jaiwei/",
+      "portraitUrl": "https://www.cs.wisc.edu/wp-content/uploads/sites/166/2025/06/Jiawei-Zhang-150-x-190.png"
+    },
+    {
+      "officialId": "1029",
+      "name": "Jim Williams",
+      "officialSections": [
+        "Teaching Faculty"
+      ],
+      "title": "Teaching Professor",
+      "profileUrl": "https://www.cs.wisc.edu/staff/williams-jim/",
+      "portraitUrl": "https://www.cs.wisc.edu/wp-content/uploads/sites/166/2018/11/Jim-Williams-2020-150-x-191.jpg"
+    },
+    {
+      "officialId": "738",
+      "name": "Jin-Yi Cai",
+      "officialSections": [
+        "Core Faculty"
+      ],
+      "title": "Juris Hartmanis Professor; Rajiv and Ritu Batra Chair",
+      "profileUrl": "https://www.cs.wisc.edu/staff/cai-jin-yi/",
+      "portraitUrl": "https://www.cs.wisc.edu/wp-content/uploads/sites/166/2018/10/Jin-Yi-Chai-150-x-190.png"
+    },
+    {
+      "officialId": "1046",
+      "name": "John Strikwerda",
+      "officialSections": [
+        "Emeritus Faculty"
+      ],
+      "title": "Emeritus",
+      "profileUrl": "https://www.cs.wisc.edu/staff/strikwerda-john/",
+      "portraitUrl": "https://www.cs.wisc.edu/wp-content/uploads/sites/166/2020/06/person-150-x-190.png"
+    },
+    {
+      "officialId": "988",
+      "name": "Joshua San Miguel",
+      "officialSections": [
+        "Affiliate Faculty"
+      ],
+      "title": "Assistant Professor, Electrical & Computer Engineering",
+      "profileUrl": "https://www.cs.wisc.edu/staff/san-miguel-joshua/",
+      "portraitUrl": "https://www.cs.wisc.edu/wp-content/uploads/sites/166/2020/06/Joshua-San-Miguel-1.jpg"
+    },
+    {
+      "officialId": "4828",
+      "name": "Josiah Hanna",
+      "officialSections": [
+        "Core Faculty"
+      ],
+      "title": "Assistant Professor",
+      "profileUrl": "https://www.cs.wisc.edu/staff/hanna-josiah/",
+      "portraitUrl": "https://www.cs.wisc.edu/wp-content/uploads/sites/166/2020/06/josiah-headshot-150-x-190-e1632511677301.jpg"
+    },
+    {
+      "officialId": "12273",
+      "name": "Juan Caicedo",
+      "officialSections": [
+        "Affiliate Faculty"
+      ],
+      "title": "Assistant Professor, Biostatistics & Medical Informatics",
+      "profileUrl": "https://www.cs.wisc.edu/staff/caicedo-juan/",
+      "portraitUrl": "https://www.cs.wisc.edu/wp-content/uploads/sites/166/2024/10/Juan-Caicedo-150-x-190.png"
+    },
+    {
+      "officialId": "1044",
+      "name": "Jude Shavlik",
+      "officialSections": [
+        "Emeritus Faculty"
+      ],
+      "title": "Emeritus",
+      "profileUrl": "https://www.cs.wisc.edu/staff/shavlik-jude/",
+      "portraitUrl": "https://www.cs.wisc.edu/wp-content/uploads/sites/166/2020/06/Jude-Shavlik.jpg"
+    },
+    {
+      "officialId": "7260",
+      "name": "Junjie Hu",
+      "officialSections": [
+        "Core Faculty"
+      ],
+      "title": "Assistant Professor",
+      "profileUrl": "https://www.cs.wisc.edu/staff/hu-junjie/",
+      "portraitUrl": "https://www.cs.wisc.edu/wp-content/uploads/sites/166/2021/11/Jinjie-Hu-150-x-190.png"
+    },
+    {
+      "officialId": "11580",
+      "name": "Kaiser Pister",
+      "officialSections": [
+        "Teaching Faculty"
+      ],
+      "title": "Teaching Faculty",
+      "profileUrl": "https://www.cs.wisc.edu/staff/pister-kaiser-2/",
+      "portraitUrl": "https://www.cs.wisc.edu/wp-content/uploads/sites/166/2024/07/Kaiser-Pister-150-x-190.png"
+    },
+    {
+      "officialId": "5133",
+      "name": "Kangwook Lee",
+      "officialSections": [
+        "Affiliate Faculty"
+      ],
+      "title": "Assistant Professor, Electrical & Computer Engineering",
+      "profileUrl": "https://www.cs.wisc.edu/staff/lee-kangwook/",
+      "portraitUrl": "https://www.cs.wisc.edu/wp-content/uploads/sites/166/2020/08/lee_kangwook-150-x-190.jpg"
+    },
+    {
+      "officialId": "757",
+      "name": "Karthikeyan Sankaralingam",
+      "officialSections": [
+        "Core Faculty"
+      ],
+      "title": "Mark D. Hill and David A. Wood Professor and Associate Chair for Instruction",
+      "profileUrl": "https://www.cs.wisc.edu/staff/sankaralingam-karthikeyan/",
+      "portraitUrl": "https://www.cs.wisc.edu/wp-content/uploads/sites/166/2020/06/Karu-Sankaralingam.jpg"
+    },
+    {
+      "officialId": "966",
+      "name": "Kassem Fawaz",
+      "officialSections": [
+        "Affiliate Faculty"
+      ],
+      "title": "Assistant Professor, Electrical & Computer Engineering",
+      "profileUrl": "https://www.cs.wisc.edu/staff/fawaz-kassem/",
+      "portraitUrl": "https://www.cs.wisc.edu/wp-content/uploads/sites/166/2020/06/Kassem-Fawaz.jpg"
+    },
+    {
+      "officialId": "15169",
+      "name": "Kate Jensen",
+      "officialSections": [
+        "Teaching Faculty"
+      ],
+      "title": "Teaching faculty",
+      "profileUrl": "https://www.cs.wisc.edu/staff/jensen-kate/",
+      "portraitUrl": "https://www.cs.wisc.edu/wp-content/uploads/sites/166/2026/03/Kate-Jensen-150-x-190.png"
+    },
+    {
+      "officialId": "2511",
+      "name": "Kevin Ponto",
+      "officialSections": [
+        "Affiliate Faculty"
+      ],
+      "title": "Associate Professor, Design Studies, School of Human Ecology",
+      "profileUrl": "https://www.cs.wisc.edu/staff/ponto-kevin-2/",
+      "portraitUrl": "https://www.cs.wisc.edu/wp-content/uploads/sites/166/2020/06/Kevin-Ponto.jpg"
+    },
+    {
+      "officialId": "8474",
+      "name": "Kirthevasan (Kirthi) Kandasamy",
+      "officialSections": [
+        "Core Faculty"
+      ],
+      "title": "Assistant Professor",
+      "profileUrl": "https://www.cs.wisc.edu/staff/kandasamy-kirthevasan-kirthi/",
+      "portraitUrl": "https://www.cs.wisc.edu/wp-content/uploads/sites/166/2022/08/Kirthi-kandasamy_headshot-150-x-190.jpg"
+    },
+    {
+      "officialId": "7266",
+      "name": "Kyle Cranmer",
+      "officialSections": [
+        "Affiliate Faculty"
+      ],
+      "title": "Professor, Physics Department; Director, American Family Data Science Institute",
+      "profileUrl": "https://www.cs.wisc.edu/staff/cranmer-kyle/",
+      "portraitUrl": "https://www.cs.wisc.edu/wp-content/uploads/sites/166/2021/11/Dr-Kyle-Cranmer-Photo-edited-1-150-x-190.jpg"
+    },
+    {
+      "officialId": "4017",
+      "name": "L. Hobbes Legault",
+      "officialSections": [
+        "Teaching Faculty"
+      ],
+      "title": "Teaching Professor",
+      "profileUrl": "https://www.cs.wisc.edu/staff/legault-laura-hobbes/",
+      "portraitUrl": "https://www.cs.wisc.edu/wp-content/uploads/sites/166/2020/01/Hobbes-LeGault-150-x-190.jpg"
+    },
+    {
+      "officialId": "1038",
+      "name": "Lawrence Landweber",
+      "officialSections": [
+        "Emeritus Faculty"
+      ],
+      "title": "Emeritus",
+      "profileUrl": "https://www.cs.wisc.edu/staff/landweber-lawrence/",
+      "portraitUrl": "https://www.cs.wisc.edu/wp-content/uploads/sites/166/2020/06/Lawrence-Landweber.jpg"
+    },
+    {
+      "officialId": "11577",
+      "name": "Louis Oliphant",
+      "officialSections": [
+        "Teaching Faculty"
+      ],
+      "title": "Teaching Faculty",
+      "profileUrl": "https://www.cs.wisc.edu/staff/oliphant-louis/",
+      "portraitUrl": "https://www.cs.wisc.edu/wp-content/uploads/sites/166/2024/07/Louis-Oliphant-2024-150-x-190.png"
+    },
+    {
+      "officialId": "11809",
+      "name": "Manolis Vlatakis",
+      "officialSections": [
+        "Core Faculty"
+      ],
+      "title": "Assistant Professor",
+      "profileUrl": "https://www.cs.wisc.edu/staff/vlatakis-manolis/",
+      "portraitUrl": "https://www.cs.wisc.edu/wp-content/uploads/sites/166/2024/08/Manolis-Vlatakis-2026-150-x-190.png"
+    },
+    {
+      "officialId": "1025",
+      "name": "Marc Renault",
+      "officialSections": [
+        "Teaching Faculty"
+      ],
+      "title": "Teaching Professor",
+      "profileUrl": "https://www.cs.wisc.edu/staff/renault-marc/",
+      "portraitUrl": "https://www.cs.wisc.edu/wp-content/uploads/sites/166/2018/11/Marc-Renault-150-x-190.png"
+    },
+    {
+      "officialId": "963",
+      "name": "Mark Craven",
+      "officialSections": [
+        "Affiliate Faculty"
+      ],
+      "title": "Professor,  Department of Biostatistics & Medical Informatics",
+      "profileUrl": "https://www.cs.wisc.edu/staff/craven-mark/",
+      "portraitUrl": "https://www.cs.wisc.edu/wp-content/uploads/sites/166/2020/06/Mark-Craven.jpg"
+    },
+    {
+      "officialId": "746",
+      "name": "Mark D. Hill",
+      "officialSections": [
+        "Emeritus Faculty"
+      ],
+      "title": "Emeritus",
+      "profileUrl": "https://www.cs.wisc.edu/staff/hill-mark-d/",
+      "portraitUrl": "https://www.cs.wisc.edu/wp-content/uploads/sites/166/2018/10/Mark-Hill-150-x-190.png"
+    },
+    {
+      "officialId": "1047",
+      "name": "Mary Vernon",
+      "officialSections": [
+        "Emeritus Faculty"
+      ],
+      "title": "Emeritus",
+      "profileUrl": "https://www.cs.wisc.edu/staff/vernon-mary/",
+      "portraitUrl": "https://www.cs.wisc.edu/wp-content/uploads/sites/166/2020/06/person-150-x-190.png"
+    },
+    {
+      "officialId": "759",
+      "name": "Matthew Sinclair",
+      "officialSections": [
+        "Core Faculty"
+      ],
+      "title": "Associate Professor",
+      "profileUrl": "https://www.cs.wisc.edu/staff/sinclair-matthew/",
+      "portraitUrl": "https://www.cs.wisc.edu/wp-content/uploads/sites/166/2020/06/Matt-Sinclair-2.jpg"
+    },
+    {
+      "officialId": "4009",
+      "name": "Meenakshi Syamkumar",
+      "officialSections": [
+        "Teaching Faculty"
+      ],
+      "title": "Teaching Faculty",
+      "profileUrl": "https://www.cs.wisc.edu/staff/syamkumar-meenakshi/",
+      "portraitUrl": "https://www.cs.wisc.edu/wp-content/uploads/sites/166/2020/01/Meena-Syamkumar-150-x-190-1.png"
+    },
+    {
+      "officialId": "1012",
+      "name": "Michael Doescher",
+      "officialSections": [
+        "Teaching Faculty"
+      ],
+      "title": "Teaching Faculty",
+      "profileUrl": "https://www.cs.wisc.edu/staff/doescher-michael/",
+      "portraitUrl": "https://www.cs.wisc.edu/wp-content/uploads/sites/166/2018/11/Michael-Doescher-150-x-190.png"
+    },
+    {
+      "officialId": "742",
+      "name": "Michael Ferris",
+      "officialSections": [
+        "Emeritus Faculty"
+      ],
+      "title": "John P. Morgridge Chair; Jacques-Louis Lions Professor",
+      "profileUrl": "https://www.cs.wisc.edu/staff/ferris-michael/",
+      "portraitUrl": "https://www.cs.wisc.edu/wp-content/uploads/sites/166/2020/06/Michael-Ferris.jpg"
+    },
+    {
+      "officialId": "743",
+      "name": "Michael Gleicher",
+      "officialSections": [
+        "Core Faculty"
+      ],
+      "title": "David DeWitt Professor",
+      "profileUrl": "https://www.cs.wisc.edu/staff/gleicher-michael/",
+      "portraitUrl": "https://www.cs.wisc.edu/wp-content/uploads/sites/166/2018/10/Michael-Gleicher-150-x-190.png"
+    },
+    {
+      "officialId": "761",
+      "name": "Michael Swift",
+      "officialSections": [
+        "Core Faculty"
+      ],
+      "title": "Vilas Distinguished Achievement Professor",
+      "profileUrl": "https://www.cs.wisc.edu/staff/swift-michael/",
+      "portraitUrl": "https://www.cs.wisc.edu/wp-content/uploads/sites/166/2020/06/Michael-Swift-1.jpg"
+    },
+    {
+      "officialId": "13975",
+      "name": "Mike Hagenow",
+      "officialSections": [
+        "Core Faculty"
+      ],
+      "title": "Assistant Professor",
+      "profileUrl": "https://www.cs.wisc.edu/staff/hagenow-mike/",
+      "portraitUrl": "https://www.cs.wisc.edu/wp-content/uploads/sites/166/2025/08/Mike-Hagenow-150-x-190.png"
+    },
+    {
+      "officialId": "973",
+      "name": "Mikko Lipasti",
+      "officialSections": [
+        "Affiliate Faculty"
+      ],
+      "title": "Professor, Electrical & Computer Engineering",
+      "profileUrl": "https://www.cs.wisc.edu/staff/lipasti-mikko/",
+      "portraitUrl": "https://www.cs.wisc.edu/wp-content/uploads/sites/166/2020/06/Mikko-Lipasti.jpg"
+    },
+    {
+      "officialId": "4824",
+      "name": "Ming Liu",
+      "officialSections": [
+        "Core Faculty"
+      ],
+      "title": "Assistant Professor",
+      "profileUrl": "https://www.cs.wisc.edu/staff/liu-ming/",
+      "portraitUrl": "https://www.cs.wisc.edu/wp-content/uploads/sites/166/2020/06/Ming-Liu-150-x-190.jpg"
+    },
+    {
+      "officialId": "750",
+      "name": "Miron Livny",
+      "officialSections": [
+        "Core Faculty"
+      ],
+      "title": "John P. Morgridge Chair; Vilas Research Professor",
+      "profileUrl": "https://www.cs.wisc.edu/staff/livny-miron/",
+      "portraitUrl": "https://www.cs.wisc.edu/wp-content/uploads/sites/166/2020/07/Miron-Livny-2.jpg"
+    },
+    {
+      "officialId": "13977",
+      "name": "Misha Khodak",
+      "officialSections": [
+        "Core Faculty"
+      ],
+      "title": "Assistant Professor",
+      "profileUrl": "https://www.cs.wisc.edu/staff/khodak-misha/",
+      "portraitUrl": "https://www.cs.wisc.edu/wp-content/uploads/sites/166/2025/08/Misha-Khodak-150-x-190.png"
+    },
+    {
+      "officialId": "745",
+      "name": "Mohit Gupta",
+      "officialSections": [
+        "Core Faculty"
+      ],
+      "title": "Associate Professor",
+      "profileUrl": "https://www.cs.wisc.edu/staff/gupta-mohit/",
+      "portraitUrl": "https://www.cs.wisc.edu/wp-content/uploads/sites/166/2020/06/Mohit-Gupta.jpg"
+    },
+    {
+      "officialId": "1253",
+      "name": "Mouna Ayari Ben Hadj Kacem",
+      "officialSections": [
+        "Teaching Faculty"
+      ],
+      "title": "Teaching Faculty",
+      "profileUrl": "https://www.cs.wisc.edu/staff/ayari-ben-hadj-kacem-mouna/",
+      "portraitUrl": "https://www.cs.wisc.edu/wp-content/uploads/sites/166/2018/11/Mouna-150-x-190.jpg"
+    },
+    {
+      "officialId": "982",
+      "name": "Parameswaran Ramanathan",
+      "officialSections": [
+        "Affiliate Faculty"
+      ],
+      "title": "Professor, Electrical & Computer Engineering",
+      "profileUrl": "https://www.cs.wisc.edu/staff/ramanathan-parameswaran/",
+      "portraitUrl": "https://www.cs.wisc.edu/wp-content/uploads/sites/166/2020/06/Parameswaran-Ramanathan.jpg"
+    },
+    {
+      "officialId": "767",
+      "name": "Paris Koutris",
+      "officialSections": [
+        "Core Faculty"
+      ],
+      "title": "Associate Professor",
+      "profileUrl": "https://www.cs.wisc.edu/staff/koutris-paris/",
+      "portraitUrl": "https://www.cs.wisc.edu/wp-content/uploads/sites/166/2020/06/Paris-Koutris.jpg"
+    },
+    {
+      "officialId": "8473",
+      "name": "Patrick McDaniel",
+      "officialSections": [
+        "Core Faculty"
+      ],
+      "title": "Tsun-Ming Shih Professor",
+      "profileUrl": "https://www.cs.wisc.edu/staff/mcdaniel-patrick/",
+      "portraitUrl": "https://www.cs.wisc.edu/wp-content/uploads/sites/166/2022/08/Patrick-McDaniel-headshot-07-2015-150-x-190.png"
+    },
+    {
+      "officialId": "736",
+      "name": "Paul Barford",
+      "officialSections": [
+        "Core Faculty"
+      ],
+      "title": "Department Chair and Carl de Boor Professor",
+      "profileUrl": "https://www.cs.wisc.edu/staff/barford-paul/",
+      "portraitUrl": "https://www.cs.wisc.edu/wp-content/uploads/sites/166/2025/01/Paul-Barford-150-x-190.png"
+    },
+    {
+      "officialId": "12258",
+      "name": "Qiaomin Xie",
+      "officialSections": [
+        "Affiliate Faculty"
+      ],
+      "title": "Assistant Professor, Industrial and Systems Engineering",
+      "profileUrl": "https://www.cs.wisc.edu/staff/xie-qiaomin/",
+      "portraitUrl": "https://www.cs.wisc.edu/wp-content/uploads/sites/166/2024/10/Qiaomin-Xie-150-x-190.png"
+    },
+    {
+      "officialId": "3563",
+      "name": "Rahul Chatterjee",
+      "officialSections": [
+        "Core Faculty"
+      ],
+      "title": "Associate Professor",
+      "profileUrl": "https://www.cs.wisc.edu/staff/chatterjee-rahul/",
+      "portraitUrl": "https://www.cs.wisc.edu/wp-content/uploads/sites/166/2019/09/Rahul-Chatterjee-e1706282640371.png"
+    },
+    {
+      "officialId": "6556",
+      "name": "Ramya Vinayak",
+      "officialSections": [
+        "Affiliate Faculty"
+      ],
+      "title": "Assistant Professor, Electrical & Computer Engineering",
+      "profileUrl": "https://www.cs.wisc.edu/staff/vinayak-ramya/",
+      "portraitUrl": "https://www.cs.wisc.edu/wp-content/uploads/sites/166/2021/06/RamyaVinayak3-150-x-190.jpg"
+    },
+    {
+      "officialId": "530",
+      "name": "Remzi Arpaci-Dusseau",
+      "officialSections": [
+        "Core Faculty"
+      ],
+      "title": "Grace Wahba Professor; Vilas Distinguished Achievement Professor",
+      "profileUrl": "https://www.cs.wisc.edu/staff/arpaci-dusseau-remzi/",
+      "portraitUrl": "https://www.cs.wisc.edu/wp-content/uploads/sites/166/2018/10/Remzi-Headshot-copy-150-x-190.jpg"
+    },
+    {
+      "officialId": "8477",
+      "name": "Rishab Goyal",
+      "officialSections": [
+        "Core Faculty"
+      ],
+      "title": "Assistant Professor",
+      "profileUrl": "https://www.cs.wisc.edu/staff/goyal-rishab/",
+      "portraitUrl": "https://www.cs.wisc.edu/wp-content/uploads/sites/166/2022/08/Rishab-Goyal-150-x-190.png"
+    },
+    {
+      "officialId": "1040",
+      "name": "Robert Meyer",
+      "officialSections": [
+        "Emeritus Faculty"
+      ],
+      "title": "Emeritus",
+      "profileUrl": "https://www.cs.wisc.edu/staff/meyer-robert/",
+      "portraitUrl": "https://www.cs.wisc.edu/wp-content/uploads/sites/166/2020/08/meyer.jpg"
+    },
+    {
+      "officialId": "977",
+      "name": "Robert Nowak",
+      "officialSections": [
+        "Affiliate Faculty"
+      ],
+      "title": "Professor, Electrical & Computer Engineering",
+      "profileUrl": "https://www.cs.wisc.edu/staff/nowak-robert/",
+      "portraitUrl": "https://www.cs.wisc.edu/wp-content/uploads/sites/166/2020/06/Robert-Nowak-1.jpg"
+    },
+    {
+      "officialId": "11812",
+      "name": "Sandeep Silwal",
+      "officialSections": [
+        "Core Faculty"
+      ],
+      "title": "Assistant Professor",
+      "profileUrl": "https://www.cs.wisc.edu/staff/silwal-sandeep/",
+      "portraitUrl": "https://www.cs.wisc.edu/wp-content/uploads/sites/166/2024/08/Sandeep-Silwal-150-x-190.png"
+    },
+    {
+      "officialId": "17874",
+      "name": "Sara McAllister",
+      "officialSections": [
+        "Core Faculty"
+      ],
+      "title": "Assistant Professor",
+      "profileUrl": "https://www.cs.wisc.edu/staff/mcallister-sara/",
+      "portraitUrl": "https://www.cs.wisc.edu/wp-content/uploads/sites/166/2026/08/Sara-McAllister-150-x-190.png"
+    },
+    {
+      "officialId": "8490",
+      "name": "Scott Swanson",
+      "officialSections": [
+        "Teaching Faculty"
+      ],
+      "title": "Teaching Faculty",
+      "profileUrl": "https://www.cs.wisc.edu/staff/swanson-scott/",
+      "portraitUrl": "https://www.cs.wisc.edu/wp-content/uploads/sites/166/2022/08/Scott-Swanson-150-x-190.jpg"
+    },
+    {
+      "officialId": "4672",
+      "name": "Sharon Li",
+      "officialSections": [
+        "Core Faculty"
+      ],
+      "title": "Associate Professor",
+      "profileUrl": "https://www.cs.wisc.edu/staff/li-sharon/",
+      "portraitUrl": "https://www.cs.wisc.edu/wp-content/uploads/sites/166/2020/06/Sharon-Li-150-x-190-1.png"
+    },
+    {
+      "officialId": "17868",
+      "name": "Shayne Wadle",
+      "officialSections": [
+        "Teaching Faculty"
+      ],
+      "title": "Teaching Faculty I",
+      "profileUrl": "https://www.cs.wisc.edu/staff/wadle-shayne/",
+      "portraitUrl": "https://www.cs.wisc.edu/wp-content/uploads/sites/166/2026/08/Shayne-Wadle-150-x-190.png"
+    },
+    {
+      "officialId": "764",
+      "name": "Shivaram Venkataraman",
+      "officialSections": [
+        "Core Faculty"
+      ],
+      "title": "Associate Professor",
+      "profileUrl": "https://www.cs.wisc.edu/staff/venkataraman-shivaram/",
+      "portraitUrl": "https://www.cs.wisc.edu/wp-content/uploads/sites/166/2020/06/Shivaram-Venkataraman.jpg"
+    },
+    {
+      "officialId": "748",
+      "name": "Somesh Jha",
+      "officialSections": [
+        "Core Faculty"
+      ],
+      "title": "Sheldon B. Lubar Chair and Professor",
+      "profileUrl": "https://www.cs.wisc.edu/staff/jha-somesh/",
+      "portraitUrl": "https://www.cs.wisc.edu/wp-content/uploads/sites/166/2020/06/Somesh-Jha.jpg"
+    },
+    {
+      "officialId": "13831",
+      "name": "Song Gao",
+      "officialSections": [
+        "Affiliate Faculty"
+      ],
+      "title": "Associate Professor, Department of Geography & Director of Geospatial Data Science Lab",
+      "profileUrl": "https://www.cs.wisc.edu/staff/gao-song/",
+      "portraitUrl": "https://www.cs.wisc.edu/wp-content/uploads/sites/166/2025/07/Song-Gao-150-x-190.png"
+    },
+    {
+      "officialId": "1043",
+      "name": "Stephen Robinson",
+      "officialSections": [
+        "Emeritus Faculty"
+      ],
+      "title": "Emeritus",
+      "profileUrl": "https://www.cs.wisc.edu/staff/robinson-stephen/",
+      "portraitUrl": "https://www.cs.wisc.edu/wp-content/uploads/sites/166/2020/06/Stephen-Robinson.jpg"
+    },
+    {
+      "officialId": "765",
+      "name": "Stephen Wright",
+      "officialSections": [
+        "Core Faculty"
+      ],
+      "title": "George B. Dantzig Professor; Sheldon B. Lubar Chair; Hilldale Professor",
+      "profileUrl": "https://www.cs.wisc.edu/staff/wright-steven/",
+      "portraitUrl": "https://www.cs.wisc.edu/wp-content/uploads/sites/166/2018/10/Wright-Steve-150-x-190.png"
+    },
+    {
+      "officialId": "547",
+      "name": "Suman Banerjee",
+      "officialSections": [
+        "Core Faculty"
+      ],
+      "title": "David J. DeWitt Professor and Associate Chair for Professional Programs",
+      "profileUrl": "https://www.cs.wisc.edu/staff/banerjee-suman/",
+      "portraitUrl": "https://www.cs.wisc.edu/wp-content/uploads/sites/166/2020/06/Suman-Banerjee.jpg"
+    },
+    {
+      "officialId": "986",
+      "name": "Sushmita Roy",
+      "officialSections": [
+        "Affiliate Faculty"
+      ],
+      "title": "Professor, Biostatistics & Medical Informatics",
+      "profileUrl": "https://www.cs.wisc.edu/staff/roy-sushmita/",
+      "portraitUrl": "https://www.cs.wisc.edu/wp-content/uploads/sites/166/2020/06/Sushmita-Roy.jpg"
+    },
+    {
+      "officialId": "4830",
+      "name": "Swamit Tannu",
+      "officialSections": [
+        "Core Faculty"
+      ],
+      "title": "Assistant Professor",
+      "profileUrl": "https://www.cs.wisc.edu/staff/tannu-swamit/",
+      "portraitUrl": "https://www.cs.wisc.edu/wp-content/uploads/sites/166/2020/06/Swamit-Tannu-e1706282285746.png"
+    },
+    {
+      "officialId": "9928",
+      "name": "Tej Chajed",
+      "officialSections": [
+        "Core Faculty"
+      ],
+      "title": "Assistant Professor",
+      "profileUrl": "https://www.cs.wisc.edu/staff/chajed-tej/",
+      "portraitUrl": "https://www.cs.wisc.edu/wp-content/uploads/sites/166/2023/08/Tej-Chajed-151-x-190.jpg"
+    },
+    {
+      "officialId": "11814",
+      "name": "Tengyang Xie",
+      "officialSections": [
+        "Core Faculty"
+      ],
+      "title": "Assistant Professor",
+      "profileUrl": "https://www.cs.wisc.edu/staff/xie-tengyang/",
+      "portraitUrl": "https://www.cs.wisc.edu/wp-content/uploads/sites/166/2024/08/Tengyang-Xie-150-x-190.png"
+    },
+    {
+      "officialId": "755",
+      "name": "Thomas Reps",
+      "officialSections": [
+        "Emeritus Faculty"
+      ],
+      "title": "J. Barkley Rosser Professor; Rajiv and Ritu Batra Chair",
+      "profileUrl": "https://www.cs.wisc.edu/staff/reps-thomas/",
+      "portraitUrl": "https://www.cs.wisc.edu/wp-content/uploads/sites/166/2020/06/Thomas-Reps.jpg"
+    },
+    {
+      "officialId": "17871",
+      "name": "Tinayu Li",
+      "officialSections": [
+        "Core Faculty"
+      ],
+      "title": "Assistant Professor",
+      "profileUrl": "https://www.cs.wisc.edu/staff/li-tinayu/",
+      "portraitUrl": "https://www.cs.wisc.edu/wp-content/uploads/sites/166/2026/08/Tianyu-Li-150-x-190.png"
+    },
+    {
+      "officialId": "12267",
+      "name": "Tsung-Wei Huang",
+      "officialSections": [
+        "Affiliate Faculty"
+      ],
+      "title": "Assistant Professor, Electrical & Computer Engineering",
+      "profileUrl": "https://www.cs.wisc.edu/staff/huang-tsung-wei/",
+      "portraitUrl": "https://www.cs.wisc.edu/wp-content/uploads/sites/166/2024/10/Tsung-Wei-Huang-150-x-190.png"
+    },
+    {
+      "officialId": "1292",
+      "name": "Tyler Caraza-Harter",
+      "officialSections": [
+        "Teaching Faculty"
+      ],
+      "title": "Teaching Professor",
+      "profileUrl": "https://www.cs.wisc.edu/staff/harter-tyler-2/",
+      "portraitUrl": "https://www.cs.wisc.edu/wp-content/uploads/sites/166/2018/11/Tyler-Harter-150-x-190.jpg"
+    },
+    {
+      "officialId": "991",
+      "name": "Vikas Singh",
+      "officialSections": [
+        "Affiliate Faculty"
+      ],
+      "title": "Professor, Department of Biostatistics & Medical Informatics",
+      "profileUrl": "https://www.cs.wisc.edu/staff/singh-vikas/",
+      "portraitUrl": "https://www.cs.wisc.edu/wp-content/uploads/sites/166/2020/06/Vikas-Singh.jpg"
+    },
+    {
+      "officialId": "4021",
+      "name": "Xiangyao Yu",
+      "officialSections": [
+        "Core Faculty"
+      ],
+      "title": "Assistant Professor",
+      "profileUrl": "https://www.cs.wisc.edu/staff/yu-xiangyao/",
+      "portraitUrl": "https://www.cs.wisc.edu/wp-content/uploads/sites/166/2020/01/Xiangyao_headshot_1-150-x-190.jpg"
+    },
+    {
+      "officialId": "2722",
+      "name": "Yin Li",
+      "officialSections": [
+        "Affiliate Faculty"
+      ],
+      "title": "Assistant Professor, Department of Biostatistics & Medical Informatics",
+      "profileUrl": "https://www.cs.wisc.edu/staff/li-yin/",
+      "portraitUrl": "https://www.cs.wisc.edu/wp-content/uploads/sites/166/2020/07/Yin-Li.jpg"
+    },
+    {
+      "officialId": "13836",
+      "name": "Yiqiao Zhong",
+      "officialSections": [
+        "Affiliate Faculty"
+      ],
+      "title": "Assistant Professor, Department of Statistics",
+      "profileUrl": "https://www.cs.wisc.edu/staff/zhong-yiqiao/",
+      "portraitUrl": "https://www.cs.wisc.edu/wp-content/uploads/sites/166/2025/07/Yiqiao-Zhong-150-x-190.png"
+    },
+    {
+      "officialId": "4826",
+      "name": "Yong Jae Lee",
+      "officialSections": [
+        "Core Faculty"
+      ],
+      "title": "Susan Beth Horwitz Professor",
+      "profileUrl": "https://www.cs.wisc.edu/staff/lee-yong-jae/",
+      "portraitUrl": "https://www.cs.wisc.edu/wp-content/uploads/sites/166/2020/06/yong-jae-150-x-190.jpg"
+    },
+    {
+      "officialId": "11583",
+      "name": "Young Wu",
+      "officialSections": [
+        "Teaching Faculty"
+      ],
+      "title": "Teaching Faculty",
+      "profileUrl": "https://www.cs.wisc.edu/staff/wu-young/",
+      "portraitUrl": "https://www.cs.wisc.edu/wp-content/uploads/sites/166/2024/07/Young-Wu-150-x-190.png"
+    },
+    {
+      "officialId": "6911",
+      "name": "Yudong Chen",
+      "officialSections": [
+        "Core Faculty"
+      ],
+      "title": "Sheldon B. and Marianne S. Lubar Professor",
+      "profileUrl": "https://www.cs.wisc.edu/staff/chen-yudong/",
+      "portraitUrl": "https://www.cs.wisc.edu/wp-content/uploads/sites/166/2021/09/Yudong-Chen-150-x-190.jpg"
+    },
+    {
+      "officialId": "4692",
+      "name": "Yuhang Zhao",
+      "officialSections": [
+        "Core Faculty"
+      ],
+      "title": "Assistant Professor",
+      "profileUrl": "https://www.cs.wisc.edu/staff/zhao-yuhang/",
+      "portraitUrl": "https://www.cs.wisc.edu/wp-content/uploads/sites/166/2020/06/thumbnail_Yuhang_Zhao-150-x-190.jpg"
+    }
+  ]
+}

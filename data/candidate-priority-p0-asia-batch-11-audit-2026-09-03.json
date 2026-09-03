@@ -1,0 +1,25 @@
+{
+  "checkedAt": "2026-09-03",
+  "scope": "Asia P0 batch 11",
+  "status": "ready_for_integration",
+  "people": 6,
+  "relationships": 5,
+  "placements": 0,
+  "groupMembers": 0,
+  "rosterPromotions": 6,
+  "portraitDimensions": "512x512",
+  "relationshipEndpointsVerified": true,
+  "peopleIds": [
+    "lifeng-sun-thu-p0-b11",
+    "taijiang-mu-thu-p0-b11",
+    "yunxin-liu-thu-air-p0-b11",
+    "ting-cao-thu-air-p0-b11",
+    "yunfang-wu-pku-p0-b11",
+    "sergey-mechtaev-pku-p0-b11"
+  ],
+  "notes": [
+    "All six people have current independent-PI evidence, at least two distinct first-party sources, five sourced facts, an exact education fact, and a manually inspected 512x512 portrait.",
+    "Four collaboration edges name a specific publication; the lineage edge uses the NUS adviser team's official student-placement page and is directed adviser to student.",
+    "No shared entrypoint or candidate queue was modified."
+  ]
+}

@@ -1,0 +1,989 @@
+{
+  "completeness": "complete",
+  "fetchedAt": "2026-09-02",
+  "institution": "华中科技大学计算机科学与技术学院",
+  "officialPageUrl": "https://cs.hust.edu.cn/szdw/js.htm",
+  "officialDataUrl": "http://www.cs.hust.edu.cn/szdw/jsml/axmpyszmlb.htm",
+  "officialRosterCount": 163,
+  "sourceDescription": "The current official alphabetical faculty directory was fetched from the working www HTTP endpoint after the obsolete non-www HTTPS scope URL returned a university 404 page. All letter sections were parsed; experimental staff and postdoctoral directories are separate and not included.",
+  "people": [
+    {
+      "officialId": "http://faculty.hust.edu.cn/banpengxin/zh_CN/index.htm",
+      "name": "班鹏新",
+      "profileUrl": "http://faculty.hust.edu.cn/banpengxin/zh_CN/index.htm",
+      "sourcePageUrl": "http://www.cs.hust.edu.cn/szdw/jsml/axmpyszmlb.htm"
+    },
+    {
+      "officialId": "http://faculty.hust.edu.cn/chenyao_cs/zh_CN/index/2699631/list/index.htm",
+      "name": "陈瑶",
+      "profileUrl": "http://faculty.hust.edu.cn/chenyao_cs/zh_CN/index/2699631/list/index.htm",
+      "sourcePageUrl": "http://www.cs.hust.edu.cn/szdw/jsml/axmpyszmlb.htm"
+    },
+    {
+      "officialId": "http://faculty.hust.edu.cn/caoqiang/zh_CN/index.htm",
+      "name": "曹强",
+      "profileUrl": "http://faculty.hust.edu.cn/caoqiang/zh_CN/index.htm",
+      "sourcePageUrl": "http://www.cs.hust.edu.cn/szdw/jsml/axmpyszmlb.htm"
+    },
+    {
+      "officialId": "http://faculty.hust.edu.cn/caozhongsheng/zh_CN/index.htm",
+      "name": "曹忠升",
+      "profileUrl": "http://faculty.hust.edu.cn/caozhongsheng/zh_CN/index.htm",
+      "sourcePageUrl": "http://www.cs.hust.edu.cn/szdw/jsml/axmpyszmlb.htm"
+    },
+    {
+      "officialId": "http://faculty.hust.edu.cn/chen/zh_CN/index.htm",
+      "name": "陈汉华",
+      "profileUrl": "http://faculty.hust.edu.cn/chen/zh_CN/index.htm",
+      "sourcePageUrl": "http://www.cs.hust.edu.cn/szdw/jsml/axmpyszmlb.htm"
+    },
+    {
+      "officialId": "http://faculty.hust.edu.cn/chenjiazhong/zh_CN/index.htm",
+      "name": "陈加忠",
+      "profileUrl": "http://faculty.hust.edu.cn/chenjiazhong/zh_CN/index.htm",
+      "sourcePageUrl": "http://www.cs.hust.edu.cn/szdw/jsml/axmpyszmlb.htm"
+    },
+    {
+      "officialId": "http://faculty.hust.edu.cn/chenjianxi/zh_CN/index.htm",
+      "name": "陈俭喜",
+      "profileUrl": "http://faculty.hust.edu.cn/chenjianxi/zh_CN/index.htm",
+      "sourcePageUrl": "http://www.cs.hust.edu.cn/szdw/jsml/axmpyszmlb.htm"
+    },
+    {
+      "officialId": "http://faculty.hust.edu.cn/chenjincai/zh_CN/index.htm",
+      "name": "陈进才",
+      "profileUrl": "http://faculty.hust.edu.cn/chenjincai/zh_CN/index.htm",
+      "sourcePageUrl": "http://www.cs.hust.edu.cn/szdw/jsml/axmpyszmlb.htm"
+    },
+    {
+      "officialId": "http://faculty.hust.edu.cn/cuijinhua/zh_CN/index.htm",
+      "name": "崔金华",
+      "profileUrl": "http://faculty.hust.edu.cn/cuijinhua/zh_CN/index.htm",
+      "sourcePageUrl": "http://www.cs.hust.edu.cn/szdw/jsml/axmpyszmlb.htm"
+    },
+    {
+      "officialId": "http://faculty.hust.edu.cn/xiaohai/zh_CN/index.htm",
+      "name": "戴小海",
+      "profileUrl": "http://faculty.hust.edu.cn/xiaohai/zh_CN/index.htm",
+      "sourcePageUrl": "http://www.cs.hust.edu.cn/szdw/jsml/axmpyszmlb.htm"
+    },
+    {
+      "officialId": "http://faculty.hust.edu.cn/dingjunwen1/zh_CN/index.htm",
+      "name": "丁俊文",
+      "profileUrl": "http://faculty.hust.edu.cn/dingjunwen1/zh_CN/index.htm",
+      "sourcePageUrl": "http://www.cs.hust.edu.cn/szdw/jsml/axmpyszmlb.htm"
+    },
+    {
+      "officialId": "http://faculty.hust.edu.cn/dingxiaofeng/zh_CN/index.htm",
+      "name": "丁晓锋",
+      "profileUrl": "http://faculty.hust.edu.cn/dingxiaofeng/zh_CN/index.htm",
+      "sourcePageUrl": "http://www.cs.hust.edu.cn/szdw/jsml/axmpyszmlb.htm"
+    },
+    {
+      "officialId": "http://faculty.hust.edu.cn/dubingqian/zh_CN/index.htm",
+      "name": "杜冰倩",
+      "profileUrl": "http://faculty.hust.edu.cn/dubingqian/zh_CN/index.htm",
+      "sourcePageUrl": "http://www.cs.hust.edu.cn/szdw/jsml/axmpyszmlb.htm"
+    },
+    {
+      "officialId": "http://faculty.hust.edu.cn/fengqi/zh_CN/index.htm",
+      "name": "冯琪",
+      "profileUrl": "http://faculty.hust.edu.cn/fengqi/zh_CN/index.htm",
+      "sourcePageUrl": "http://www.cs.hust.edu.cn/szdw/jsml/axmpyszmlb.htm"
+    },
+    {
+      "officialId": "http://faculty.hust.edu.cn/fanyebin/zh_CN/index.htm",
+      "name": "范晔斌",
+      "profileUrl": "http://faculty.hust.edu.cn/fanyebin/zh_CN/index.htm",
+      "sourcePageUrl": "http://www.cs.hust.edu.cn/szdw/jsml/axmpyszmlb.htm"
+    },
+    {
+      "officialId": "http://faculty.hust.edu.cn/dfeng/zh_CN/index.htm",
+      "name": "冯丹",
+      "profileUrl": "http://faculty.hust.edu.cn/dfeng/zh_CN/index.htm",
+      "sourcePageUrl": "http://www.cs.hust.edu.cn/szdw/jsml/axmpyszmlb.htm"
+    },
+    {
+      "officialId": "http://faculty.hust.edu.cn/fuquan/zh_CN/index.htm",
+      "name": "付铨",
+      "profileUrl": "http://faculty.hust.edu.cn/fuquan/zh_CN/index.htm",
+      "sourcePageUrl": "http://www.cs.hust.edu.cn/szdw/jsml/axmpyszmlb.htm"
+    },
+    {
+      "officialId": "http://faculty.hust.edu.cn/ganzaobin/zh_CN/index.htm",
+      "name": "甘早斌",
+      "profileUrl": "http://faculty.hust.edu.cn/ganzaobin/zh_CN/index.htm",
+      "sourcePageUrl": "http://www.cs.hust.edu.cn/szdw/jsml/axmpyszmlb.htm"
+    },
+    {
+      "officialId": "http://faculty.hust.edu.cn/ganzongsong/zh_CN/index.htm",
+      "name": "甘棕松",
+      "profileUrl": "http://faculty.hust.edu.cn/ganzongsong/zh_CN/index.htm",
+      "sourcePageUrl": "http://www.cs.hust.edu.cn/szdw/jsml/axmpyszmlb.htm"
+    },
+    {
+      "officialId": "http://faculty.hust.edu.cn/guantao1/zh_CN/index.htm",
+      "name": "管涛",
+      "profileUrl": "http://faculty.hust.edu.cn/guantao1/zh_CN/index.htm",
+      "sourcePageUrl": "http://www.cs.hust.edu.cn/szdw/jsml/axmpyszmlb.htm"
+    },
+    {
+      "officialId": "http://faculty.hust.edu.cn/gulin/zh_CN/index.htm",
+      "name": "顾琳",
+      "profileUrl": "http://faculty.hust.edu.cn/gulin/zh_CN/index.htm",
+      "sourcePageUrl": "http://www.cs.hust.edu.cn/szdw/jsml/axmpyszmlb.htm"
+    },
+    {
+      "officialId": "http://faculty.hust.edu.cn/guxiwu/zh_CN/index.htm",
+      "name": "辜希武",
+      "profileUrl": "http://faculty.hust.edu.cn/guxiwu/zh_CN/index.htm",
+      "sourcePageUrl": "http://www.cs.hust.edu.cn/szdw/jsml/axmpyszmlb.htm"
+    },
+    {
+      "officialId": "http://faculty.hust.edu.cn/guohongxing/zh_CN/index.htm",
+      "name": "郭红星",
+      "profileUrl": "http://faculty.hust.edu.cn/guohongxing/zh_CN/index.htm",
+      "sourcePageUrl": "http://www.cs.hust.edu.cn/szdw/jsml/axmpyszmlb.htm"
+    },
+    {
+      "officialId": "http://www.cs.hust.edu.cn/szdw/jsml/axmpyszmlb.htm#%E4%BD%95%E5%BC%BA",
+      "name": "何强",
+      "profileUrl": null,
+      "sourcePageUrl": "http://www.cs.hust.edu.cn/szdw/jsml/axmpyszmlb.htm"
+    },
+    {
+      "officialId": "http://faculty.hust.edu.cn/huangkeke/zh_CN/index.htm",
+      "name": "黄柯柯",
+      "profileUrl": "http://faculty.hust.edu.cn/huangkeke/zh_CN/index.htm",
+      "sourcePageUrl": "http://www.cs.hust.edu.cn/szdw/jsml/axmpyszmlb.htm"
+    },
+    {
+      "officialId": "http://faculty.hust.edu.cn/huanghang/zh_CN/index.htm",
+      "name": "黄航",
+      "profileUrl": "http://faculty.hust.edu.cn/huanghang/zh_CN/index.htm",
+      "sourcePageUrl": "http://www.cs.hust.edu.cn/szdw/jsml/axmpyszmlb.htm"
+    },
+    {
+      "officialId": "http://faculty.hust.edu.cn/hulong/zh_CN/index/585065/list/index.htm",
+      "name": "胡龙",
+      "profileUrl": "http://faculty.hust.edu.cn/hulong/zh_CN/index/585065/list/index.htm",
+      "sourcePageUrl": "http://www.cs.hust.edu.cn/szdw/jsml/axmpyszmlb.htm"
+    },
+    {
+      "officialId": "http://faculty.hust.edu.cn/hekun/zh_CN/index.htm",
+      "name": "何琨",
+      "profileUrl": "http://faculty.hust.edu.cn/hekun/zh_CN/index.htm",
+      "sourcePageUrl": "http://www.cs.hust.edu.cn/szdw/jsml/axmpyszmlb.htm"
+    },
+    {
+      "officialId": "http://faculty.hust.edu.cn/huangzhi/zh_CN/index.htm",
+      "name": "黄志",
+      "profileUrl": "http://faculty.hust.edu.cn/huangzhi/zh_CN/index.htm",
+      "sourcePageUrl": "http://www.cs.hust.edu.cn/szdw/jsml/axmpyszmlb.htm"
+    },
+    {
+      "officialId": "http://faculty.hust.edu.cn/haoyixue1/zh_CN/index.htm",
+      "name": "郝义学",
+      "profileUrl": "http://faculty.hust.edu.cn/haoyixue1/zh_CN/index.htm",
+      "sourcePageUrl": "http://www.cs.hust.edu.cn/szdw/jsml/axmpyszmlb.htm"
+    },
+    {
+      "officialId": "http://faculty.hust.edu.cn/huyingsong1/zh_CN/index.htm",
+      "name": "胡迎松",
+      "profileUrl": "http://faculty.hust.edu.cn/huyingsong1/zh_CN/index.htm",
+      "sourcePageUrl": "http://www.cs.hust.edu.cn/szdw/jsml/axmpyszmlb.htm"
+    },
+    {
+      "officialId": "http://faculty.hust.edu.cn/heyunfeng/zh_CN/index.htm",
+      "name": "何云峰",
+      "profileUrl": "http://faculty.hust.edu.cn/heyunfeng/zh_CN/index.htm",
+      "sourcePageUrl": "http://www.cs.hust.edu.cn/szdw/jsml/axmpyszmlb.htm"
+    },
+    {
+      "officialId": "http://faculty.hust.edu.cn/jianjunhan/zh_CN/index.htm",
+      "name": "韩建军",
+      "profileUrl": "http://faculty.hust.edu.cn/jianjunhan/zh_CN/index.htm",
+      "sourcePageUrl": "http://www.cs.hust.edu.cn/szdw/jsml/axmpyszmlb.htm"
+    },
+    {
+      "officialId": "http://faculty.hust.edu.cn/hudiqing/zh_CN/index.htm",
+      "name": "胡迪青",
+      "profileUrl": "http://faculty.hust.edu.cn/hudiqing/zh_CN/index.htm",
+      "sourcePageUrl": "http://www.cs.hust.edu.cn/szdw/jsml/axmpyszmlb.htm"
+    },
+    {
+      "officialId": "http://faculty.hust.edu.cn/huguanrong/zh_CN/index.htm",
+      "name": "胡贯荣",
+      "profileUrl": "http://faculty.hust.edu.cn/huguanrong/zh_CN/index.htm",
+      "sourcePageUrl": "http://www.cs.hust.edu.cn/szdw/jsml/axmpyszmlb.htm"
+    },
+    {
+      "officialId": "http://faculty.hust.edu.cn/huyuchong/zh_CN/index.htm",
+      "name": "胡燏翀",
+      "profileUrl": "http://faculty.hust.edu.cn/huyuchong/zh_CN/index.htm",
+      "sourcePageUrl": "http://www.cs.hust.edu.cn/szdw/jsml/axmpyszmlb.htm"
+    },
+    {
+      "officialId": "http://faculty.hust.edu.cn/huaqiangsheng/zh_CN/index.htm",
+      "name": "华强胜",
+      "profileUrl": "http://faculty.hust.edu.cn/huaqiangsheng/zh_CN/index.htm",
+      "sourcePageUrl": "http://www.cs.hust.edu.cn/szdw/jsml/axmpyszmlb.htm"
+    },
+    {
+      "officialId": "http://faculty.hust.edu.cn/huayu/zh_CN/index.htm",
+      "name": "华宇",
+      "profileUrl": "http://faculty.hust.edu.cn/huayu/zh_CN/index.htm",
+      "sourcePageUrl": "http://www.cs.hust.edu.cn/szdw/jsml/axmpyszmlb.htm"
+    },
+    {
+      "officialId": "http://faculty.hust.edu.cn/honghuang/zh_CN/index.htm",
+      "name": "黄宏",
+      "profileUrl": "http://faculty.hust.edu.cn/honghuang/zh_CN/index.htm",
+      "sourcePageUrl": "http://www.cs.hust.edu.cn/szdw/jsml/axmpyszmlb.htm"
+    },
+    {
+      "officialId": "http://faculty.hust.edu.cn/jijunwen/zh_CN/index.htm",
+      "name": "纪俊文",
+      "profileUrl": "http://faculty.hust.edu.cn/jijunwen/zh_CN/index.htm",
+      "sourcePageUrl": "http://www.cs.hust.edu.cn/szdw/jsml/axmpyszmlb.htm"
+    },
+    {
+      "officialId": "http://faculty.hust.edu.cn/jinyan1/zh_CN/index.htm",
+      "name": "金燕",
+      "profileUrl": "http://faculty.hust.edu.cn/jinyan1/zh_CN/index.htm",
+      "sourcePageUrl": "http://www.cs.hust.edu.cn/szdw/jsml/axmpyszmlb.htm"
+    },
+    {
+      "officialId": "http://faculty.hust.edu.cn/LianghaiJin/zh_CN/index.htm",
+      "name": "金良海",
+      "profileUrl": "http://faculty.hust.edu.cn/LianghaiJin/zh_CN/index.htm",
+      "sourcePageUrl": "http://www.cs.hust.edu.cn/szdw/jsml/axmpyszmlb.htm"
+    },
+    {
+      "officialId": "http://faculty.hust.edu.cn/rjin/zh_CN/index.htm",
+      "name": "金人超",
+      "profileUrl": "http://faculty.hust.edu.cn/rjin/zh_CN/index.htm",
+      "sourcePageUrl": "http://www.cs.hust.edu.cn/szdw/jsml/axmpyszmlb.htm"
+    },
+    {
+      "officialId": "http://faculty.hust.edu.cn/jiangsheng/zh_CN/index.htm",
+      "name": "江胜",
+      "profileUrl": "http://faculty.hust.edu.cn/jiangsheng/zh_CN/index.htm",
+      "sourcePageUrl": "http://www.cs.hust.edu.cn/szdw/jsml/axmpyszmlb.htm"
+    },
+    {
+      "officialId": "http://faculty.hust.edu.cn/jiangwenbin/zh_CN/index.htm",
+      "name": "蒋文斌",
+      "profileUrl": "http://faculty.hust.edu.cn/jiangwenbin/zh_CN/index.htm",
+      "sourcePageUrl": "http://www.cs.hust.edu.cn/szdw/jsml/axmpyszmlb.htm"
+    },
+    {
+      "officialId": "http://faculty.hust.edu.cn/jinhai/zh_CN/index.htm",
+      "name": "金海",
+      "profileUrl": "http://faculty.hust.edu.cn/jinhai/zh_CN/index.htm",
+      "sourcePageUrl": "http://www.cs.hust.edu.cn/szdw/jsml/axmpyszmlb.htm"
+    },
+    {
+      "officialId": "http://faculty.hust.edu.cn/LIQINBIN/zh_CN",
+      "name": "李钦宾",
+      "profileUrl": "http://faculty.hust.edu.cn/LIQINBIN/zh_CN",
+      "sourcePageUrl": "http://www.cs.hust.edu.cn/szdw/jsml/axmpyszmlb.htm"
+    },
+    {
+      "officialId": "http://faculty.hust.edu.cn/lichunhua/zh_CN/index.htm",
+      "name": "李春花",
+      "profileUrl": "http://faculty.hust.edu.cn/lichunhua/zh_CN/index.htm",
+      "sourcePageUrl": "http://www.cs.hust.edu.cn/szdw/jsml/axmpyszmlb.htm"
+    },
+    {
+      "officialId": "http://faculty.hust.edu.cn/lidan20/zh_CN/index.htm",
+      "name": "李丹",
+      "profileUrl": "http://faculty.hust.edu.cn/lidan20/zh_CN/index.htm",
+      "sourcePageUrl": "http://www.cs.hust.edu.cn/szdw/jsml/axmpyszmlb.htm"
+    },
+    {
+      "officialId": "http://faculty.hust.edu.cn/liguohui/zh_CN/index.htm",
+      "name": "李国徽",
+      "profileUrl": "http://faculty.hust.edu.cn/liguohui/zh_CN/index.htm",
+      "sourcePageUrl": "http://www.cs.hust.edu.cn/szdw/jsml/axmpyszmlb.htm"
+    },
+    {
+      "officialId": "http://www.cs.hust.edu.cn/szdw/jsml/axmpyszmlb.htm#%E6%9D%8E%E5%9B%BD%E5%AE%BD",
+      "name": "李国宽",
+      "profileUrl": null,
+      "sourcePageUrl": "http://www.cs.hust.edu.cn/szdw/jsml/axmpyszmlb.htm"
+    },
+    {
+      "officialId": "http://faculty.hust.edu.cn/lihaibo/zh_CN/index.htm",
+      "name": "李海波",
+      "profileUrl": "http://faculty.hust.edu.cn/lihaibo/zh_CN/index.htm",
+      "sourcePageUrl": "http://www.cs.hust.edu.cn/szdw/jsml/axmpyszmlb.htm"
+    },
+    {
+      "officialId": "http://faculty.hust.edu.cn/lijianjun1/zh_CN/index.htm",
+      "name": "李剑军",
+      "profileUrl": "http://faculty.hust.edu.cn/lijianjun1/zh_CN/index.htm",
+      "sourcePageUrl": "http://www.cs.hust.edu.cn/szdw/jsml/axmpyszmlb.htm"
+    },
+    {
+      "officialId": "http://faculty.hust.edu.cn/likai1/zh_CN/index.htm",
+      "name": "李开",
+      "profileUrl": "http://faculty.hust.edu.cn/likai1/zh_CN/index.htm",
+      "sourcePageUrl": "http://www.cs.hust.edu.cn/szdw/jsml/axmpyszmlb.htm"
+    },
+    {
+      "officialId": "http://faculty.hust.edu.cn/liping12/zh_CN/index.htm",
+      "name": "李平",
+      "profileUrl": "http://faculty.hust.edu.cn/liping12/zh_CN/index.htm",
+      "sourcePageUrl": "http://www.cs.hust.edu.cn/szdw/jsml/axmpyszmlb.htm"
+    },
+    {
+      "officialId": "http://faculty.hust.edu.cn/lirong7/zh_CN/index.htm",
+      "name": "李榕",
+      "profileUrl": "http://faculty.hust.edu.cn/lirong7/zh_CN/index.htm",
+      "sourcePageUrl": "http://www.cs.hust.edu.cn/szdw/jsml/axmpyszmlb.htm"
+    },
+    {
+      "officialId": "http://faculty.hust.edu.cn/rxli/zh_CN/index.htm",
+      "name": "李瑞轩",
+      "profileUrl": "http://faculty.hust.edu.cn/rxli/zh_CN/index.htm",
+      "sourcePageUrl": "http://www.cs.hust.edu.cn/szdw/jsml/axmpyszmlb.htm"
+    },
+    {
+      "officialId": "http://faculty.hust.edu.cn/lixianzhi1/zh_CN/index.htm",
+      "name": "李贤芝",
+      "profileUrl": "http://faculty.hust.edu.cn/lixianzhi1/zh_CN/index.htm",
+      "sourcePageUrl": "http://www.cs.hust.edu.cn/szdw/jsml/axmpyszmlb.htm"
+    },
+    {
+      "officialId": "http://faculty.hust.edu.cn/lixiaolu666/zh_CN/index.htm",
+      "name": "李晓露",
+      "profileUrl": "http://faculty.hust.edu.cn/lixiaolu666/zh_CN/index.htm",
+      "sourcePageUrl": "http://www.cs.hust.edu.cn/szdw/jsml/axmpyszmlb.htm"
+    },
+    {
+      "officialId": "http://faculty.hust.edu.cn/yhli/zh_CN/index.htm",
+      "name": "李玉华",
+      "profileUrl": "http://faculty.hust.edu.cn/yhli/zh_CN/index.htm",
+      "sourcePageUrl": "http://www.cs.hust.edu.cn/szdw/jsml/axmpyszmlb.htm"
+    },
+    {
+      "officialId": "http://faculty.hust.edu.cn/lizhuan/zh_CN/index.htm",
+      "name": "李专",
+      "profileUrl": "http://faculty.hust.edu.cn/lizhuan/zh_CN/index.htm",
+      "sourcePageUrl": "http://www.cs.hust.edu.cn/szdw/jsml/axmpyszmlb.htm"
+    },
+    {
+      "officialId": "http://faculty.hust.edu.cn/xfliao/zh_CN/index.htm",
+      "name": "廖小飞",
+      "profileUrl": "http://faculty.hust.edu.cn/xfliao/zh_CN/index.htm",
+      "sourcePageUrl": "http://www.cs.hust.edu.cn/szdw/jsml/axmpyszmlb.htm"
+    },
+    {
+      "officialId": "http://faculty.hust.edu.cn/liuhong11/zh_CN/index.htm",
+      "name": "刘宏",
+      "profileUrl": "http://faculty.hust.edu.cn/liuhong11/zh_CN/index.htm",
+      "sourcePageUrl": "http://www.cs.hust.edu.cn/szdw/jsml/axmpyszmlb.htm"
+    },
+    {
+      "officialId": "http://faculty.hust.edu.cn/liuhaikun/zh_CN/index.htm",
+      "name": "刘海坤",
+      "profileUrl": "http://faculty.hust.edu.cn/liuhaikun/zh_CN/index.htm",
+      "sourcePageUrl": "http://www.cs.hust.edu.cn/szdw/jsml/axmpyszmlb.htm"
+    },
+    {
+      "officialId": "http://faculty.hust.edu.cn/liuhuiyu_cs/zh_CN/index.htm",
+      "name": "刘辉宇",
+      "profileUrl": "http://faculty.hust.edu.cn/liuhuiyu_cs/zh_CN/index.htm",
+      "sourcePageUrl": "http://www.cs.hust.edu.cn/szdw/jsml/axmpyszmlb.htm"
+    },
+    {
+      "officialId": "http://faculty.hust.edu.cn/kangliu/zh_CN/index.htm",
+      "name": "刘康",
+      "profileUrl": "http://faculty.hust.edu.cn/kangliu/zh_CN/index.htm",
+      "sourcePageUrl": "http://www.cs.hust.edu.cn/szdw/jsml/axmpyszmlb.htm"
+    },
+    {
+      "officialId": "http://faculty.hust.edu.cn/liuyu123/zh_CN/index.htm",
+      "name": "刘渝",
+      "profileUrl": "http://faculty.hust.edu.cn/liuyu123/zh_CN/index.htm",
+      "sourcePageUrl": "http://www.cs.hust.edu.cn/szdw/jsml/axmpyszmlb.htm"
+    },
+    {
+      "officialId": "http://faculty.hust.edu.cn/lufeng2/zh_CN/index.htm",
+      "name": "陆枫",
+      "profileUrl": "http://faculty.hust.edu.cn/lufeng2/zh_CN/index.htm",
+      "sourcePageUrl": "http://www.cs.hust.edu.cn/szdw/jsml/axmpyszmlb.htm"
+    },
+    {
+      "officialId": "http://faculty.hust.edu.cn/luping/zh_CN/index.htm",
+      "name": "卢萍",
+      "profileUrl": "http://faculty.hust.edu.cn/luping/zh_CN/index.htm",
+      "sourcePageUrl": "http://www.cs.hust.edu.cn/szdw/jsml/axmpyszmlb.htm"
+    },
+    {
+      "officialId": "http://faculty.hust.edu.cn/lzp/zh_CN/index.htm",
+      "name": "吕志鹏",
+      "profileUrl": "http://faculty.hust.edu.cn/lzp/zh_CN/index.htm",
+      "sourcePageUrl": "http://www.cs.hust.edu.cn/szdw/jsml/axmpyszmlb.htm"
+    },
+    {
+      "officialId": "http://faculty.hust.edu.cn/linghefei/zh_CN/index.htm",
+      "name": "凌贺飞",
+      "profileUrl": "http://faculty.hust.edu.cn/linghefei/zh_CN/index.htm",
+      "sourcePageUrl": "http://www.cs.hust.edu.cn/szdw/jsml/axmpyszmlb.htm"
+    },
+    {
+      "officialId": "http://faculty.hust.edu.cn/mengzaiqiao/zh_CN/index.htm",
+      "name": "蒙在桥",
+      "profileUrl": "http://faculty.hust.edu.cn/mengzaiqiao/zh_CN/index.htm",
+      "sourcePageUrl": "http://www.cs.hust.edu.cn/szdw/jsml/axmpyszmlb.htm"
+    },
+    {
+      "officialId": "http://faculty.hust.edu.cn/MAZHIYUAN/zh_CN/index.htm",
+      "name": "马志远",
+      "profileUrl": "http://faculty.hust.edu.cn/MAZHIYUAN/zh_CN/index.htm",
+      "sourcePageUrl": "http://www.cs.hust.edu.cn/szdw/jsml/axmpyszmlb.htm"
+    },
+    {
+      "officialId": "http://faculty.hust.edu.cn/moyj/zh_CN/index.htm",
+      "name": "莫益军",
+      "profileUrl": "http://faculty.hust.edu.cn/moyj/zh_CN/index.htm",
+      "sourcePageUrl": "http://www.cs.hust.edu.cn/szdw/jsml/axmpyszmlb.htm"
+    },
+    {
+      "officialId": "http://faculty.hust.edu.cn/maguangzhi/zh_CN/index.htm",
+      "name": "马光志",
+      "profileUrl": "http://faculty.hust.edu.cn/maguangzhi/zh_CN/index.htm",
+      "sourcePageUrl": "http://www.cs.hust.edu.cn/szdw/jsml/axmpyszmlb.htm"
+    },
+    {
+      "officialId": "http://faculty.hust.edu.cn/maofubing/zh_CN/index.htm",
+      "name": "毛伏兵",
+      "profileUrl": "http://faculty.hust.edu.cn/maofubing/zh_CN/index.htm",
+      "sourcePageUrl": "http://www.cs.hust.edu.cn/szdw/jsml/axmpyszmlb.htm"
+    },
+    {
+      "officialId": "http://www.cs.hust.edu.cn/szdw/jsml/axmpyszmlb.htm#%E6%AC%A7%E9%98%B3%E7%94%B1",
+      "name": "欧阳由",
+      "profileUrl": null,
+      "sourcePageUrl": "http://www.cs.hust.edu.cn/szdw/jsml/axmpyszmlb.htm"
+    },
+    {
+      "officialId": "http://faculty.hust.edu.cn/panpeng1/zh_CN/index.htm",
+      "name": "潘鹏",
+      "profileUrl": "http://faculty.hust.edu.cn/panpeng1/zh_CN/index.htm",
+      "sourcePageUrl": "http://www.cs.hust.edu.cn/szdw/jsml/axmpyszmlb.htm"
+    },
+    {
+      "officialId": "http://faculty.hust.edu.cn/qinleihua/zh_CN/index.htm",
+      "name": "秦磊华",
+      "profileUrl": "http://faculty.hust.edu.cn/qinleihua/zh_CN/index.htm",
+      "sourcePageUrl": "http://www.cs.hust.edu.cn/szdw/jsml/axmpyszmlb.htm"
+    },
+    {
+      "officialId": "http://faculty.hust.edu.cn/jubinbin/zh_CN/index.htm",
+      "name": "瞿彬彬",
+      "profileUrl": "http://faculty.hust.edu.cn/jubinbin/zh_CN/index.htm",
+      "sourcePageUrl": "http://www.cs.hust.edu.cn/szdw/jsml/axmpyszmlb.htm"
+    },
+    {
+      "officialId": "http://faculty.hust.edu.cn/suyixin/zh_CN/index.htm",
+      "name": "苏奕昕",
+      "profileUrl": "http://faculty.hust.edu.cn/suyixin/zh_CN/index.htm",
+      "sourcePageUrl": "http://www.cs.hust.edu.cn/szdw/jsml/axmpyszmlb.htm"
+    },
+    {
+      "officialId": "http://faculty.hust.edu.cn/suzhouxing1/zh_CN/index.htm",
+      "name": "苏宙行",
+      "profileUrl": "http://faculty.hust.edu.cn/suzhouxing1/zh_CN/index.htm",
+      "sourcePageUrl": "http://www.cs.hust.edu.cn/szdw/jsml/axmpyszmlb.htm"
+    },
+    {
+      "officialId": "http://faculty.hust.edu.cn/keshi/zh_CN/index.htm",
+      "name": "石柯",
+      "profileUrl": "http://faculty.hust.edu.cn/keshi/zh_CN/index.htm",
+      "sourcePageUrl": "http://www.cs.hust.edu.cn/szdw/jsml/axmpyszmlb.htm"
+    },
+    {
+      "officialId": "http://faculty.hust.edu.cn/songenmin1/zh_CN/index.htm",
+      "name": "宋恩民",
+      "profileUrl": "http://faculty.hust.edu.cn/songenmin1/zh_CN/index.htm",
+      "sourcePageUrl": "http://www.cs.hust.edu.cn/szdw/jsml/axmpyszmlb.htm"
+    },
+    {
+      "officialId": "http://faculty.hust.edu.cn/zyshao/zh_CN/index.htm",
+      "name": "邵志远",
+      "profileUrl": "http://faculty.hust.edu.cn/zyshao/zh_CN/index.htm",
+      "sourcePageUrl": "http://www.cs.hust.edu.cn/szdw/jsml/axmpyszmlb.htm"
+    },
+    {
+      "officialId": "http://faculty.hust.edu.cn/shixuanhua/zh_CN/index.htm",
+      "name": "石宣化",
+      "profileUrl": "http://faculty.hust.edu.cn/shixuanhua/zh_CN/index.htm",
+      "sourcePageUrl": "http://www.cs.hust.edu.cn/szdw/jsml/axmpyszmlb.htm"
+    },
+    {
+      "officialId": "http://faculty.hust.edu.cn/shizhan/zh_CN/index.htm",
+      "name": "施展",
+      "profileUrl": "http://faculty.hust.edu.cn/shizhan/zh_CN/index.htm",
+      "sourcePageUrl": "http://www.cs.hust.edu.cn/szdw/jsml/axmpyszmlb.htm"
+    },
+    {
+      "officialId": "http://faculty.hust.edu.cn/sunweiping1/zh_CN/index.htm",
+      "name": "孙伟平",
+      "profileUrl": "http://faculty.hust.edu.cn/sunweiping1/zh_CN/index.htm",
+      "sourcePageUrl": "http://www.cs.hust.edu.cn/szdw/jsml/axmpyszmlb.htm"
+    },
+    {
+      "officialId": "http://faculty.hust.edu.cn/tanzhihu/zh_CN/index.htm",
+      "name": "谭志虎",
+      "profileUrl": "http://faculty.hust.edu.cn/tanzhihu/zh_CN/index.htm",
+      "sourcePageUrl": "http://www.cs.hust.edu.cn/szdw/jsml/axmpyszmlb.htm"
+    },
+    {
+      "officialId": "http://faculty.hust.edu.cn/tanzhipeng/zh_CN/index.htm",
+      "name": "谭支鹏",
+      "profileUrl": "http://faculty.hust.edu.cn/tanzhipeng/zh_CN/index.htm",
+      "sourcePageUrl": "http://www.cs.hust.edu.cn/szdw/jsml/axmpyszmlb.htm"
+    },
+    {
+      "officialId": "http://faculty.hust.edu.cn/tongwei/zh_CN/index.htm",
+      "name": "童薇",
+      "profileUrl": "http://faculty.hust.edu.cn/tongwei/zh_CN/index.htm",
+      "sourcePageUrl": "http://www.cs.hust.edu.cn/szdw/jsml/axmpyszmlb.htm"
+    },
+    {
+      "officialId": "http://faculty.hust.edu.cn/tugang/zh_CN/index.htm",
+      "name": "涂刚",
+      "profileUrl": "http://faculty.hust.edu.cn/tugang/zh_CN/index.htm",
+      "sourcePageUrl": "http://www.cs.hust.edu.cn/szdw/jsml/axmpyszmlb.htm"
+    },
+    {
+      "officialId": "http://faculty.hust.edu.cn/%7EQvEFbe/zh_CN/index.htm",
+      "name": "吴兵",
+      "profileUrl": "http://faculty.hust.edu.cn/%7EQvEFbe/zh_CN/index.htm",
+      "sourcePageUrl": "http://www.cs.hust.edu.cn/szdw/jsml/axmpyszmlb.htm"
+    },
+    {
+      "officialId": "http://faculty.hust.edu.cn/QinggangWang/zh_CN/index.htm",
+      "name": "王庆刚",
+      "profileUrl": "http://faculty.hust.edu.cn/QinggangWang/zh_CN/index.htm",
+      "sourcePageUrl": "http://www.cs.hust.edu.cn/szdw/jsml/axmpyszmlb.htm"
+    },
+    {
+      "officialId": "http://faculty.hust.edu.cn/WANGHAOZHAO/zh_CN/index.htm",
+      "name": "王号召",
+      "profileUrl": "http://faculty.hust.edu.cn/WANGHAOZHAO/zh_CN/index.htm",
+      "sourcePageUrl": "http://www.cs.hust.edu.cn/szdw/jsml/axmpyszmlb.htm"
+    },
+    {
+      "officialId": "http://faculty.hust.edu.cn/wanjiguang/zh_CN/index.htm",
+      "name": "万继光",
+      "profileUrl": "http://faculty.hust.edu.cn/wanjiguang/zh_CN/index.htm",
+      "sourcePageUrl": "http://www.cs.hust.edu.cn/szdw/jsml/axmpyszmlb.htm"
+    },
+    {
+      "officialId": "http://faculty.hust.edu.cn/wuhai/zh_CN/index.htm",
+      "name": "吴海",
+      "profileUrl": "http://faculty.hust.edu.cn/wuhai/zh_CN/index.htm",
+      "sourcePageUrl": "http://www.cs.hust.edu.cn/szdw/jsml/axmpyszmlb.htm"
+    },
+    {
+      "officialId": "http://faculty.hust.edu.cn/wanshenggang/zh_CN/index.htm",
+      "name": "万胜刚",
+      "profileUrl": "http://faculty.hust.edu.cn/wanshenggang/zh_CN/index.htm",
+      "sourcePageUrl": "http://www.cs.hust.edu.cn/szdw/jsml/axmpyszmlb.htm"
+    },
+    {
+      "officialId": "http://faculty.hust.edu.cn/wangduoqiang/zh_CN/index.htm",
+      "name": "王多强",
+      "profileUrl": "http://faculty.hust.edu.cn/wangduoqiang/zh_CN/index.htm",
+      "sourcePageUrl": "http://www.cs.hust.edu.cn/szdw/jsml/axmpyszmlb.htm"
+    },
+    {
+      "officialId": "http://faculty.hust.edu.cn/wangfang16/zh_CN/index.htm",
+      "name": "王芳",
+      "profileUrl": "http://faculty.hust.edu.cn/wangfang16/zh_CN/index.htm",
+      "sourcePageUrl": "http://www.cs.hust.edu.cn/szdw/jsml/axmpyszmlb.htm"
+    },
+    {
+      "officialId": "http://faculty.hust.edu.cn/wanghaiwei/zh_CN/index.htm",
+      "name": "王海卫",
+      "profileUrl": "http://faculty.hust.edu.cn/wanghaiwei/zh_CN/index.htm",
+      "sourcePageUrl": "http://www.cs.hust.edu.cn/szdw/jsml/axmpyszmlb.htm"
+    },
+    {
+      "officialId": "http://faculty.hust.edu.cn/hwang/zh_CN/index.htm",
+      "name": "王桦",
+      "profileUrl": "http://faculty.hust.edu.cn/hwang/zh_CN/index.htm",
+      "sourcePageUrl": "http://www.cs.hust.edu.cn/szdw/jsml/axmpyszmlb.htm"
+    },
+    {
+      "officialId": "http://faculty.hust.edu.cn/vivia_wangwei/zh_CN/index.htm",
+      "name": "王蔚",
+      "profileUrl": "http://faculty.hust.edu.cn/vivia_wangwei/zh_CN/index.htm",
+      "sourcePageUrl": "http://www.cs.hust.edu.cn/szdw/jsml/axmpyszmlb.htm"
+    },
+    {
+      "officialId": "http://faculty.hust.edu.cn/weiw/zh_CN/index.htm",
+      "name": "魏巍",
+      "profileUrl": "http://faculty.hust.edu.cn/weiw/zh_CN/index.htm",
+      "sourcePageUrl": "http://www.cs.hust.edu.cn/szdw/jsml/axmpyszmlb.htm"
+    },
+    {
+      "officialId": "http://faculty.hust.edu.cn/wufei1/zh_CN/index.htm",
+      "name": "吴非",
+      "profileUrl": "http://faculty.hust.edu.cn/wufei1/zh_CN/index.htm",
+      "sourcePageUrl": "http://www.cs.hust.edu.cn/szdw/jsml/axmpyszmlb.htm"
+    },
+    {
+      "officialId": "http://faculty.hust.edu.cn/wusong2/zh_CN/index.htm",
+      "name": "吴松",
+      "profileUrl": "http://faculty.hust.edu.cn/wusong2/zh_CN/index.htm",
+      "sourcePageUrl": "http://www.cs.hust.edu.cn/szdw/jsml/axmpyszmlb.htm"
+    },
+    {
+      "officialId": "http://faculty.hust.edu.cn/xiongwang/zh_CN/index.htm",
+      "name": "王雄",
+      "profileUrl": "http://faculty.hust.edu.cn/xiongwang/zh_CN/index.htm",
+      "sourcePageUrl": "http://www.cs.hust.edu.cn/szdw/jsml/axmpyszmlb.htm"
+    },
+    {
+      "officialId": "http://faculty.hust.edu.cn/wanyao/zh_CN/index.htm",
+      "name": "万瑶",
+      "profileUrl": "http://faculty.hust.edu.cn/wanyao/zh_CN/index.htm",
+      "sourcePageUrl": "http://www.cs.hust.edu.cn/szdw/jsml/axmpyszmlb.htm"
+    },
+    {
+      "officialId": "http://faculty.hust.edu.cn/cnwang/zh_CN/index.htm",
+      "name": "汪承宁",
+      "profileUrl": "http://faculty.hust.edu.cn/cnwang/zh_CN/index.htm",
+      "sourcePageUrl": "http://www.cs.hust.edu.cn/szdw/jsml/axmpyszmlb.htm"
+    },
+    {
+      "officialId": "http://faculty.hust.edu.cn/xex",
+      "name": "项翔",
+      "profileUrl": "http://faculty.hust.edu.cn/xex",
+      "sourcePageUrl": "http://www.cs.hust.edu.cn/szdw/jsml/axmpyszmlb.htm"
+    },
+    {
+      "officialId": "http://www.cs.hust.edu.cn/szdw/jsml/axmpyszmlb.htm#%E7%86%8A%E6%AD%A3%E5%A4%A7",
+      "name": "熊正大",
+      "profileUrl": null,
+      "sourcePageUrl": "http://www.cs.hust.edu.cn/szdw/jsml/axmpyszmlb.htm"
+    },
+    {
+      "officialId": "http://faculty.hust.edu.cn/xuhaiyin/zh_CN/index.htm",
+      "name": "徐海银",
+      "profileUrl": "http://faculty.hust.edu.cn/xuhaiyin/zh_CN/index.htm",
+      "sourcePageUrl": "http://www.cs.hust.edu.cn/szdw/jsml/axmpyszmlb.htm"
+    },
+    {
+      "officialId": "http://faculty.hust.edu.cn/xiaoliang/zh_CN/index.htm",
+      "name": "肖亮",
+      "profileUrl": "http://faculty.hust.edu.cn/xiaoliang/zh_CN/index.htm",
+      "sourcePageUrl": "http://www.cs.hust.edu.cn/szdw/jsml/axmpyszmlb.htm"
+    },
+    {
+      "officialId": "http://www.cs.hust.edu.cn/szdw/jsml/axmpyszmlb.htm#%E7%86%8A%E4%BC%A0%E5%85%89",
+      "name": "熊传光",
+      "profileUrl": null,
+      "sourcePageUrl": "http://www.cs.hust.edu.cn/szdw/jsml/axmpyszmlb.htm"
+    },
+    {
+      "officialId": "http://faculty.hust.edu.cn/xuguiping/zh_CN/index.htm",
+      "name": "许贵平",
+      "profileUrl": "http://faculty.hust.edu.cn/xuguiping/zh_CN/index.htm",
+      "sourcePageUrl": "http://www.cs.hust.edu.cn/szdw/jsml/axmpyszmlb.htm"
+    },
+    {
+      "officialId": "http://faculty.hust.edu.cn/xiangwen1/zh_CN/index.htm",
+      "name": "向文",
+      "profileUrl": "http://faculty.hust.edu.cn/xiangwen1/zh_CN/index.htm",
+      "sourcePageUrl": "http://www.cs.hust.edu.cn/szdw/jsml/axmpyszmlb.htm"
+    },
+    {
+      "officialId": "http://faculty.hust.edu.cn/xiatao1/zh_CN/index.htm",
+      "name": "夏涛",
+      "profileUrl": "http://faculty.hust.edu.cn/xiatao1/zh_CN/index.htm",
+      "sourcePageUrl": "http://www.cs.hust.edu.cn/szdw/jsml/axmpyszmlb.htm"
+    },
+    {
+      "officialId": "http://faculty.hust.edu.cn/jxiao/zh_CN/index.htm",
+      "name": "肖江",
+      "profileUrl": "http://faculty.hust.edu.cn/jxiao/zh_CN/index.htm",
+      "sourcePageUrl": "http://www.cs.hust.edu.cn/szdw/jsml/axmpyszmlb.htm"
+    },
+    {
+      "officialId": "http://faculty.hust.edu.cn/xiezhangsheng/zh_CN/index.htm",
+      "name": "谢长生",
+      "profileUrl": "http://faculty.hust.edu.cn/xiezhangsheng/zh_CN/index.htm",
+      "sourcePageUrl": "http://www.cs.hust.edu.cn/szdw/jsml/axmpyszmlb.htm"
+    },
+    {
+      "officialId": "http://faculty.hust.edu.cn/xiemeiyi/zh_CN/index.htm",
+      "name": "谢美意",
+      "profileUrl": "http://faculty.hust.edu.cn/xiemeiyi/zh_CN/index.htm",
+      "sourcePageUrl": "http://www.cs.hust.edu.cn/szdw/jsml/axmpyszmlb.htm"
+    },
+    {
+      "officialId": "http://faculty.hust.edu.cn/yangxin3/zh_CN/index.htm",
+      "name": "杨欣",
+      "profileUrl": "http://faculty.hust.edu.cn/yangxin3/zh_CN/index.htm",
+      "sourcePageUrl": "http://www.cs.hust.edu.cn/szdw/jsml/axmpyszmlb.htm"
+    },
+    {
+      "officialId": "http://faculty.hust.edu.cn/yaopengcheng1/zh_CN/index.htm",
+      "name": "姚鹏程",
+      "profileUrl": "http://faculty.hust.edu.cn/yaopengcheng1/zh_CN/index.htm",
+      "sourcePageUrl": "http://www.cs.hust.edu.cn/szdw/jsml/axmpyszmlb.htm"
+    },
+    {
+      "officialId": "http://faculty.hust.edu.cn/yangfumin/zh_CN/index.htm",
+      "name": "阳富民",
+      "profileUrl": "http://faculty.hust.edu.cn/yangfumin/zh_CN/index.htm",
+      "sourcePageUrl": "http://www.cs.hust.edu.cn/szdw/jsml/axmpyszmlb.htm"
+    },
+    {
+      "officialId": "http://faculty.hust.edu.cn/yujunqing/zh_CN/index.htm",
+      "name": "于俊清",
+      "profileUrl": "http://faculty.hust.edu.cn/yujunqing/zh_CN/index.htm",
+      "sourcePageUrl": "http://www.cs.hust.edu.cn/szdw/jsml/axmpyszmlb.htm"
+    },
+    {
+      "officialId": "http://faculty.hust.edu.cn/weiyangcs/zh_CN/index/2404039/list/index.htm",
+      "name": "杨卫",
+      "profileUrl": "http://faculty.hust.edu.cn/weiyangcs/zh_CN/index/2404039/list/index.htm",
+      "sourcePageUrl": "http://www.cs.hust.edu.cn/szdw/jsml/axmpyszmlb.htm"
+    },
+    {
+      "officialId": "http://faculty.hust.edu.cn/yangmaolin/zh_CN/index.htm",
+      "name": "杨茂林",
+      "profileUrl": "http://faculty.hust.edu.cn/yangmaolin/zh_CN/index.htm",
+      "sourcePageUrl": "http://www.cs.hust.edu.cn/szdw/jsml/axmpyszmlb.htm"
+    },
+    {
+      "officialId": "http://faculty.hust.edu.cn/dezhong/zh_CN/index.htm",
+      "name": "姚德中",
+      "profileUrl": "http://faculty.hust.edu.cn/dezhong/zh_CN/index.htm",
+      "sourcePageUrl": "http://www.cs.hust.edu.cn/szdw/jsml/axmpyszmlb.htm"
+    },
+    {
+      "officialId": "http://faculty.hust.edu.cn/yaojie2/zh_CN/index.htm",
+      "name": "姚杰",
+      "profileUrl": "http://faculty.hust.edu.cn/yaojie2/zh_CN/index.htm",
+      "sourcePageUrl": "http://www.cs.hust.edu.cn/szdw/jsml/axmpyszmlb.htm"
+    },
+    {
+      "officialId": "http://faculty.hust.edu.cn/yuchen1/zh_CN/index.htm",
+      "name": "余辰",
+      "profileUrl": "http://faculty.hust.edu.cn/yuchen1/zh_CN/index.htm",
+      "sourcePageUrl": "http://www.cs.hust.edu.cn/szdw/jsml/axmpyszmlb.htm"
+    },
+    {
+      "officialId": "http://faculty.hust.edu.cn/yuanling1/zh_CN/index.htm",
+      "name": "袁凌",
+      "profileUrl": "http://faculty.hust.edu.cn/yuanling1/zh_CN/index.htm",
+      "sourcePageUrl": "http://www.cs.hust.edu.cn/szdw/jsml/axmpyszmlb.htm"
+    },
+    {
+      "officialId": "http://faculty.hust.edu.cn/ppyuan/zh_CN/index.htm",
+      "name": "袁平鹏",
+      "profileUrl": "http://faculty.hust.edu.cn/ppyuan/zh_CN/index.htm",
+      "sourcePageUrl": "http://www.cs.hust.edu.cn/szdw/jsml/axmpyszmlb.htm"
+    },
+    {
+      "officialId": "http://faculty.hust.edu.cn/YECHENCHENG/zh_CN/index.htm",
+      "name": "叶晨成",
+      "profileUrl": "http://faculty.hust.edu.cn/YECHENCHENG/zh_CN/index.htm",
+      "sourcePageUrl": "http://www.cs.hust.edu.cn/szdw/jsml/axmpyszmlb.htm"
+    },
+    {
+      "officialId": "http://faculty.hust.edu.cn/zhaojin123/zh_CN/index/2612153/list/index.htm",
+      "name": "赵进",
+      "profileUrl": "http://faculty.hust.edu.cn/zhaojin123/zh_CN/index/2612153/list/index.htm",
+      "sourcePageUrl": "http://www.cs.hust.edu.cn/szdw/jsml/axmpyszmlb.htm"
+    },
+    {
+      "officialId": "http://faculty.hust.edu.cn/ZHUYINGYING/zh_CN/jsxx/2625416/jsxx/jsxx.htm",
+      "name": "朱盈盈",
+      "profileUrl": "http://faculty.hust.edu.cn/ZHUYINGYING/zh_CN/jsxx/2625416/jsxx/jsxx.htm",
+      "sourcePageUrl": "http://www.cs.hust.edu.cn/szdw/jsml/axmpyszmlb.htm"
+    },
+    {
+      "officialId": "http://faculty.hust.edu.cn/ZHANG_SHUHAO/zh_CN/index.htm",
+      "name": "张书豪",
+      "profileUrl": "http://faculty.hust.edu.cn/ZHANG_SHUHAO/zh_CN/index.htm",
+      "sourcePageUrl": "http://www.cs.hust.edu.cn/szdw/jsml/axmpyszmlb.htm"
+    },
+    {
+      "officialId": "http://faculty.hust.edu.cn/zr/zh_CN/index.htm",
+      "name": "张瑞",
+      "profileUrl": "http://faculty.hust.edu.cn/zr/zh_CN/index.htm",
+      "sourcePageUrl": "http://www.cs.hust.edu.cn/szdw/jsml/axmpyszmlb.htm"
+    },
+    {
+      "officialId": "http://faculty.hust.edu.cn/ZHANGXiaojin/zh_CN/index.htm",
+      "name": "张晓今",
+      "profileUrl": "http://faculty.hust.edu.cn/ZHANGXiaojin/zh_CN/index.htm",
+      "sourcePageUrl": "http://www.cs.hust.edu.cn/szdw/jsml/axmpyszmlb.htm"
+    },
+    {
+      "officialId": "http://faculty.hust.edu.cn/zhangmeng12345/zh_CN/index.htm",
+      "name": "张猛",
+      "profileUrl": "http://faculty.hust.edu.cn/zhangmeng12345/zh_CN/index.htm",
+      "sourcePageUrl": "http://www.cs.hust.edu.cn/szdw/jsml/axmpyszmlb.htm"
+    },
+    {
+      "officialId": "http://faculty.hust.edu.cn/zffeng/zh_CN/index.htm",
+      "name": "赵峰",
+      "profileUrl": "http://faculty.hust.edu.cn/zffeng/zh_CN/index.htm",
+      "sourcePageUrl": "http://www.cs.hust.edu.cn/szdw/jsml/axmpyszmlb.htm"
+    },
+    {
+      "officialId": "http://faculty.hust.edu.cn/zouyixiong/zh_CN/index.htm",
+      "name": "邹逸雄",
+      "profileUrl": "http://faculty.hust.edu.cn/zouyixiong/zh_CN/index.htm",
+      "sourcePageUrl": "http://www.cs.hust.edu.cn/szdw/jsml/axmpyszmlb.htm"
+    },
+    {
+      "officialId": "http://faculty.hust.edu.cn/zhouyou12/zh_CN/index.htm",
+      "name": "周游",
+      "profileUrl": "http://faculty.hust.edu.cn/zhouyou12/zh_CN/index.htm",
+      "sourcePageUrl": "http://www.cs.hust.edu.cn/szdw/jsml/axmpyszmlb.htm"
+    },
+    {
+      "officialId": "http://faculty.hust.edu.cn/jianzhou/zh_CN/index.htm",
+      "name": "周健",
+      "profileUrl": "http://faculty.hust.edu.cn/jianzhou/zh_CN/index.htm",
+      "sourcePageUrl": "http://www.cs.hust.edu.cn/szdw/jsml/axmpyszmlb.htm"
+    },
+    {
+      "officialId": "http://faculty.hust.edu.cn/ZHANGJINGYU/zh_CN/index.htm",
+      "name": "张静宇",
+      "profileUrl": "http://faculty.hust.edu.cn/ZHANGJINGYU/zh_CN/index.htm",
+      "sourcePageUrl": "http://www.cs.hust.edu.cn/szdw/jsml/axmpyszmlb.htm"
+    },
+    {
+      "officialId": "http://faculty.hust.edu.cn/ZhengLong/zh_CN/index.htm",
+      "name": "郑龙",
+      "profileUrl": "http://faculty.hust.edu.cn/ZhengLong/zh_CN/index.htm",
+      "sourcePageUrl": "http://www.cs.hust.edu.cn/szdw/jsml/axmpyszmlb.htm"
+    },
+    {
+      "officialId": "http://faculty.hust.edu.cn/ZhangYu/zh_CN/index.htm",
+      "name": "张宇",
+      "profileUrl": "http://faculty.hust.edu.cn/ZhangYu/zh_CN/index.htm",
+      "sourcePageUrl": "http://www.cs.hust.edu.cn/szdw/jsml/axmpyszmlb.htm"
+    },
+    {
+      "officialId": "http://www.cs.hust.edu.cn/szdw/jsml/axmpyszmlb.htm#%E5%91%A8%E5%86%9B%E9%BE%99",
+      "name": "周军龙",
+      "profileUrl": null,
+      "sourcePageUrl": "http://www.cs.hust.edu.cn/szdw/jsml/axmpyszmlb.htm"
+    },
+    {
+      "officialId": "http://www.cs.hust.edu.cn/szdw/jsml/axmpyszmlb.htm#%E8%B5%B5%E5%B0%8F%E6%9D%BE",
+      "name": "赵小松",
+      "profileUrl": null,
+      "sourcePageUrl": "http://www.cs.hust.edu.cn/szdw/jsml/axmpyszmlb.htm"
+    },
+    {
+      "officialId": "http://faculty.hust.edu.cn/tozhangjie/zh_CN/index.htm",
+      "name": "张杰",
+      "profileUrl": "http://faculty.hust.edu.cn/tozhangjie/zh_CN/index.htm",
+      "sourcePageUrl": "http://www.cs.hust.edu.cn/szdw/jsml/axmpyszmlb.htm"
+    },
+    {
+      "officialId": "http://faculty.hust.edu.cn/zhangyong8/zh_CN/index.htm",
+      "name": "张勇",
+      "profileUrl": "http://faculty.hust.edu.cn/zhangyong8/zh_CN/index.htm",
+      "sourcePageUrl": "http://www.cs.hust.edu.cn/szdw/jsml/axmpyszmlb.htm"
+    },
+    {
+      "officialId": "http://faculty.hust.edu.cn/BOLONGZHENG/zh_CN/index.htm",
+      "name": "郑渤龙",
+      "profileUrl": "http://faculty.hust.edu.cn/BOLONGZHENG/zh_CN/index.htm",
+      "sourcePageUrl": "http://www.cs.hust.edu.cn/szdw/jsml/axmpyszmlb.htm"
+    },
+    {
+      "officialId": "http://faculty.hust.edu.cn/zhengran/zh_CN/index.htm",
+      "name": "郑然",
+      "profileUrl": "http://faculty.hust.edu.cn/zhengran/zh_CN/index.htm",
+      "sourcePageUrl": "http://www.cs.hust.edu.cn/szdw/jsml/axmpyszmlb.htm"
+    },
+    {
+      "officialId": "http://www.cs.hust.edu.cn/szdw/jsml/axmpyszmlb.htm#%E5%91%A8%E6%B7%B3",
+      "name": "周淳",
+      "profileUrl": null,
+      "sourcePageUrl": "http://www.cs.hust.edu.cn/szdw/jsml/axmpyszmlb.htm"
+    },
+    {
+      "officialId": "http://faculty.hust.edu.cn/zhouke2/zh_CN/index.htm",
+      "name": "周可",
+      "profileUrl": "http://faculty.hust.edu.cn/zhouke2/zh_CN/index.htm",
+      "sourcePageUrl": "http://www.cs.hust.edu.cn/szdw/jsml/axmpyszmlb.htm"
+    },
+    {
+      "officialId": "http://faculty.hust.edu.cn/ZHOUQUAN/zh_CN/index.htm",
+      "name": "周全",
+      "profileUrl": "http://faculty.hust.edu.cn/ZHOUQUAN/zh_CN/index.htm",
+      "sourcePageUrl": "http://www.cs.hust.edu.cn/szdw/jsml/axmpyszmlb.htm"
+    },
+    {
+      "officialId": "http://faculty.hust.edu.cn/zhouyingbiao/zh_CN/index.htm",
+      "name": "周英飚",
+      "profileUrl": "http://faculty.hust.edu.cn/zhouyingbiao/zh_CN/index.htm",
+      "sourcePageUrl": "http://www.cs.hust.edu.cn/szdw/jsml/axmpyszmlb.htm"
+    },
+    {
+      "officialId": "http://www.cs.hust.edu.cn/szdw/jsml/axmpyszmlb.htm#%E6%9C%B1%E6%96%87%E7%8E%84",
+      "name": "朱文玄",
+      "profileUrl": null,
+      "sourcePageUrl": "http://www.cs.hust.edu.cn/szdw/jsml/axmpyszmlb.htm"
+    },
+    {
+      "officialId": "http://faculty.hust.edu.cn/zhouzhengyong/zh_CN/index.htm",
+      "name": "周正勇",
+      "profileUrl": "http://faculty.hust.edu.cn/zhouzhengyong/zh_CN/index.htm",
+      "sourcePageUrl": "http://www.cs.hust.edu.cn/szdw/jsml/axmpyszmlb.htm"
+    },
+    {
+      "officialId": "http://faculty.hust.edu.cn/zhuhong4/zh_CN/index.htm",
+      "name": "朱虹",
+      "profileUrl": "http://faculty.hust.edu.cn/zhuhong4/zh_CN/index.htm",
+      "sourcePageUrl": "http://www.cs.hust.edu.cn/szdw/jsml/axmpyszmlb.htm"
+    },
+    {
+      "officialId": "http://faculty.hust.edu.cn/zuoqiong/zh_CN/index.htm",
+      "name": "左琼",
+      "profileUrl": "http://faculty.hust.edu.cn/zuoqiong/zh_CN/index.htm",
+      "sourcePageUrl": "http://www.cs.hust.edu.cn/szdw/jsml/axmpyszmlb.htm"
+    },
+    {
+      "officialId": "http://faculty.hust.edu.cn/zhangteng/zh_CN/index.htm",
+      "name": "张腾",
+      "profileUrl": "http://faculty.hust.edu.cn/zhangteng/zh_CN/index.htm",
+      "sourcePageUrl": "http://www.cs.hust.edu.cn/szdw/jsml/axmpyszmlb.htm"
+    },
+    {
+      "officialId": "http://www.hust.edu.cn/",
+      "name": "华中科技大学",
+      "profileUrl": "http://www.hust.edu.cn/",
+      "sourcePageUrl": "http://www.cs.hust.edu.cn/szdw/jsml/axmpyszmlb.htm"
+    },
+    {
+      "officialId": "https://www.ccf.org.cn/",
+      "name": "中国计算机学会",
+      "profileUrl": "https://www.ccf.org.cn/",
+      "sourcePageUrl": "http://www.cs.hust.edu.cn/szdw/jsml/axmpyszmlb.htm"
+    },
+    {
+      "officialId": "http://www.cs.hust.edu.cn/kxyj/kyjg.htm",
+      "name": "院内科研机构",
+      "profileUrl": "http://www.cs.hust.edu.cn/kxyj/kyjg.htm",
+      "sourcePageUrl": "http://www.cs.hust.edu.cn/szdw/jsml/axmpyszmlb.htm"
+    }
+  ]
+}

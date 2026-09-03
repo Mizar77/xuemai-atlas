@@ -1,0 +1,40 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-03",
+  "module": "app/candidate-priority-p0-asia-batch-7-2026.ts",
+  "candidateCount": 10,
+  "readyCount": 10,
+  "failedCount": 0,
+  "relationshipCount": 12,
+  "placementCount": 0,
+  "groupMemberCount": 0,
+  "portraitCount": 10,
+  "duplicatePromotionCount": 10,
+  "qualityGate": {
+    "currentIndependentPi": true,
+    "minimumDistinctSources": 2,
+    "minimumSourcedFacts": 3,
+    "educationFactRequired": true,
+    "portraitDimensions": "512x512",
+    "networkEvidenceRequired": true,
+    "relationshipEndpointsRequired": true,
+    "manualPortraitQa": true
+  },
+  "ready": [
+    "Singapore:National University of Singapore:duanjiafei",
+    "Singapore:National University of Singapore:linshao",
+    "Singapore:National University of Singapore:haroldsohsoonhong",
+    "Singapore:National University of Singapore:jonathanscarlett",
+    "Singapore:National University of Singapore:khoosiaucheng",
+    "Singapore:National University of Singapore:wangye",
+    "Hong Kong:香港中文大学:liweiwang",
+    "Hong Kong:香港中文大学:weiyangliu",
+    "Singapore:Nanyang Technological University:asstprofjaehongyoon",
+    "Singapore:Nanyang Technological University:asstprofseandu"
+  ],
+  "notes": [
+    "All ten portraits were downloaded from official university pages or faculty-owned homepages, square-cropped/resized to 512x512, and visually inspected.",
+    "Lineage edges follow adviser/mentor to student/researcher direction. Publication edges use exact paper titles printed on first-party faculty profiles and do not imply broader sustained collaboration.",
+    "The ten duplicate roster promotions are exported separately so integration can resolve frozen roster rows without creating duplicate atlas people."
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-03",
+  "sourceLedger": "data/candidate-priority-p0-master-disposition-2026-09-03.json",
+  "previousCheckpoint": "data/candidate-priority-p0-hk-sg-tail-batch-2-disposition-2026-09-03.json",
+  "startingRemainingCount": 256,
+  "readyCount": 6,
+  "endingRemainingCount": 250,
+  "endingRemainingCounts": {
+    "Hong Kong": { "missing_relationship": 98, "missing_portrait": 16 },
+    "Singapore": { "missing_relationship": 113, "missing_portrait": 23 }
+  },
+  "records": [
+    { "canonicalKey": "Hong Kong:香港大学:cuiheming崔鶴鳴", "name": "Cui, Heming 崔鶴鳴", "priorDisposition": "missing_portrait", "disposition": "ready_for_integration", "atlasPersonId": "heming-cui-hku-p0-tail-b3", "networkEvidence": "first-party homepage names PhD adviser Junfeng Yang and PhD alumni entering Huawei", "portrait": "portraits/candidate-p0-hk-sg-tail-batch-3-2026/heming-cui.png" },
+    { "canonicalKey": "Hong Kong:香港大学:wuchuan吳川", "name": "Wu, Chuan 吳川", "priorDisposition": "missing_portrait", "disposition": "ready_for_integration", "atlasPersonId": "chuan-wu-hku-p0-tail-b3", "networkEvidence": "first-party team roster names current PhD students and alumni first jobs", "portrait": "portraits/candidate-p0-hk-sg-tail-batch-3-2026/chuan-wu.png" },
+    { "canonicalKey": "Hong Kong:香港大学:wuchenshu吳陳沭", "name": "Wu, Chenshu 吳陳沭", "priorDisposition": "missing_portrait", "disposition": "ready_for_integration", "atlasPersonId": "chenshu-wu-hku-p0-tail-b3", "networkEvidence": "first-party AIoT Lab roster names current and former members with destinations", "portrait": "portraits/candidate-p0-hk-sg-tail-batch-3-2026/chenshu-wu.png" },
+    { "canonicalKey": "Hong Kong:香港大学:lamtakwah林德華", "name": "Lam, Tak-Wah 林德華", "priorDisposition": "missing_portrait", "disposition": "ready_for_integration", "atlasPersonId": "tak-wah-lam-hku-p0-tail-b3", "networkEvidence": "first-party homepage records 14 PhD graduates and named alumni destinations", "portrait": "portraits/candidate-p0-hk-sg-tail-batch-3-2026/tak-wah-lam.png" },
+    { "canonicalKey": "Singapore:Singapore University of Technology and Design:leeroy", "name": "LEE Roy", "priorDisposition": "missing_portrait", "disposition": "ready_for_integration", "atlasPersonId": "roy-lee-sutd-p0-tail-b3", "networkEvidence": "SUTD official publication list records sustained collaboration with Ee-Peng Lim", "portrait": "portraits/candidate-p0-hk-sg-tail-batch-3-2026/roy-lee.png" },
+    { "canonicalKey": "Singapore:Singapore University of Technology and Design:songpeng", "name": "SONG Peng", "priorDisposition": "missing_portrait", "disposition": "ready_for_integration", "atlasPersonId": "peng-song-sutd-p0-tail-b3", "networkEvidence": "SUTD official publication list records repeated SIGGRAPH collaboration with Chi-Wing Fu", "portrait": "portraits/candidate-p0-hk-sg-tail-batch-3-2026/peng-song.png" }
+  ]
+}

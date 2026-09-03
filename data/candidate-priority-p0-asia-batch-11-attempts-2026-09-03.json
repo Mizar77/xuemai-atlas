@@ -1,0 +1,40 @@
+{
+  "checkedAt": "2026-09-03",
+  "scope": "Asia P0 batch 11 considered but not promoted",
+  "records": [
+    {
+      "canonicalKey": "Mainland China:清华大学:huapingliu",
+      "name": "Huaping LIU",
+      "status": "missing_relationship",
+      "attemptedUrls": [
+        "https://www.cs.tsinghua.edu.cn/csen/info/1312/4389.htm",
+        "https://www.cs.tsinghua.edu.cn/csen/Faculty/Full_time_Faculty.htm"
+      ],
+      "failureType": "relationship_endpoint_not_resolved",
+      "blocker": "官方主页可确认现任职务、教育、研究和头像，也列出与 F. Sun、D. Ho、K. He 等合著论文，但缩写作者无法在一手页面上唯一消歧到现有图谱节点；本轮不据缩写猜测身份。"
+    },
+    {
+      "canonicalKey": "Mainland China:清华大学:jianminli",
+      "name": "Jianmin LI",
+      "status": "missing_relationship",
+      "attemptedUrls": [
+        "https://www.cs.tsinghua.edu.cn/csen/info/1313/4401.htm",
+        "https://www.cs.tsinghua.edu.cn/csen/Faculty/Full_time_Faculty.htm"
+      ],
+      "failureType": "profile_content_insufficient",
+      "blocker": "官方个人页仅提供副教授任职和邮箱，没有教育、论文、学生或导师信息；无法满足 3–5 条事实、教育训练和关系门槛。"
+    },
+    {
+      "canonicalKey": "Mainland China:北京大学:赵卉菁",
+      "name": "赵卉菁",
+      "status": "missing_relationship",
+      "attemptedUrls": [
+        "https://www.cis.pku.edu.cn/info/1362/2246.htm",
+        "http://www.poss.pku.edu.cn/",
+        "https://www.cis.pku.edu.cn/szdw/zzjs.htm"
+      ],
+      "failureType": "relationship_endpoint_not_resolved",
+      "blocker": "北大官方页足以确认现任教授、教育、研究和头像，但公开论文作者及项目伙伴尚不能一手确认到现有图谱人物端点；个人实验室链接未提供可直接建立的导师或学生关系。"
+    }
+  ]
+}

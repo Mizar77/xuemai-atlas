@@ -1,0 +1,4679 @@
+{
+  "schemaVersion": 1,
+  "unitId": "uw-allen-school",
+  "unitUrl": "https://www.cs.washington.edu/people/faculty-members/",
+  "snapshotAt": "2026-09-03",
+  "rosterArtifact": "data/official-rosters/uw-allen-school-all-faculty-2026-09-02.json",
+  "frozenOfficialRosterCount": 264,
+  "preexistingDecisionCount": 0,
+  "preexistingDecisionNames": [],
+  "newDecisionCount": 264,
+  "counts": {
+    "excluded_industry_only": 47,
+    "include_new_pi": 41,
+    "excluded_non_pi": 124,
+    "excluded_historical": 18,
+    "included_existing": 7,
+    "excluded_non_ai_cs": 27
+  },
+  "decisions": [
+    {
+      "officialId": "aaronhertzmann",
+      "rosterName": "Aaron Hertzmann",
+      "title": "",
+      "profileUrl": "http://www.adobe.com/technology/people/san-francisco/aaron-hertzmann.html",
+      "portraitUrl": null,
+      "officialSections": [
+        "Affiliate Faculty"
+      ],
+      "researchFields": [
+        "Computer Graphics & Computer Vision"
+      ],
+      "unitUrl": "https://www.cs.washington.edu/people/faculty-members/",
+      "decision": "excluded_industry_only",
+      "reason": "UW 官方名录为校外产业 affiliate/adjunct，并非 Allen School 现任独立 PI。",
+      "evidence": "Affiliate Faculty; Computer Graphics & Computer Vision; Adobe Research"
+    },
+    {
+      "officialId": "46742",
+      "rosterName": "Abhishek Gupta",
+      "title": "Assistant Professor",
+      "profileUrl": "https://www.cs.washington.edu/people/faculty/abhishek-gupta/",
+      "portraitUrl": "https://www.cs.washington.edu/wp-content/uploads/2024/08/portrait-abhishek-gupta.jpg",
+      "officialSections": [
+        "Current Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cs.washington.edu/people/faculty-members/",
+      "decision": "include_new_pi",
+      "reason": "官方个人页确认现任独立 PI 与 AI/ML/NLP/CV 研究主线；完成纳入判断，资料深化排入后续批次。",
+      "evidence": "Assistant Professor; Current Faculty",
+      "enrichmentStatus": "queued_after_scope_decision",
+      "profileEvidence": {
+        "fetchedFrom": "https://www.cs.washington.edu/people/faculty/abhishek-gupta/",
+        "checkedAt": "2026-09-03",
+        "excerpt": "Artificial Intelligence , Interaction with the Physical World; Computer Vision; Machine Learning; Robotics"
+      }
+    },
+    {
+      "officialId": "61571",
+      "rosterName": "Abraham Flaxman",
+      "title": "Adjunct",
+      "profileUrl": "https://www.cs.washington.edu/people/faculty/flaxman-abraham/",
+      "portraitUrl": "https://www.cs.washington.edu/wp-content/uploads/2024/12/portrait-abraham-flaxman.jpg",
+      "officialSections": [
+        "Adjunct Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cs.washington.edu/people/faculty-members/",
+      "decision": "excluded_non_pi",
+      "reason": "UW 官方名录为 affiliate/adjunct，不作为 Allen School 当前独立 PI 接入。",
+      "evidence": "Adjunct; Adjunct Faculty; Institute for Health Metrics and Evaluation"
+    },
+    {
+      "officialId": "adamshostack",
+      "rosterName": "Adam Shostack",
+      "title": "",
+      "profileUrl": null,
+      "portraitUrl": null,
+      "officialSections": [
+        "Affiliate Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cs.washington.edu/people/faculty-members/",
+      "decision": "excluded_non_pi",
+      "reason": "UW 官方名录为 affiliate/adjunct，不作为 Allen School 当前独立 PI 接入。",
+      "evidence": "Affiliate Faculty"
+    },
+    {
+      "officialId": "61913",
+      "rosterName": "Adrian Salguero",
+      "title": "Assistant Teaching Professor",
+      "profileUrl": "https://www.cs.washington.edu/people/faculty/salguero-adrian/",
+      "portraitUrl": "https://www.cs.washington.edu/wp-content/uploads/2024/12/portrait-adrian-salguero.jpg",
+      "officialSections": [
+        "Current Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cs.washington.edu/people/faculty-members/",
+      "decision": "excluded_non_pi",
+      "reason": "官方职称属于教学岗位或未显示独立研究教师任职。",
+      "evidence": "Assistant Teaching Professor; Current Faculty"
+    },
+    {
+      "officialId": "adrianaschulz",
+      "rosterName": "Adriana Schulz",
+      "title": "",
+      "profileUrl": "https://homes.cs.washington.edu/~adriana/",
+      "portraitUrl": null,
+      "officialSections": [
+        "Affiliate Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cs.washington.edu/people/faculty-members/",
+      "decision": "excluded_non_pi",
+      "reason": "UW 官方名录为 affiliate/adjunct，不作为 Allen School 当前独立 PI 接入。",
+      "evidence": "Affiliate Faculty"
+    },
+    {
+      "officialId": "49672",
+      "rosterName": "Alan Borning",
+      "title": "Professor Emeritus",
+      "profileUrl": "https://www.cs.washington.edu/people/faculty/alan-borning/",
+      "portraitUrl": "https://www.cs.washington.edu/wp-content/uploads/2024/07/portrait-emeritus-alan-borning.jpg",
+      "officialSections": [
+        "Emeritus Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cs.washington.edu/people/faculty-members/",
+      "decision": "excluded_historical",
+      "reason": "UW 官方名录将其列为荣休教师；本轮现任独立 PI 名录不接入。",
+      "evidence": "Professor Emeritus; Emeritus Faculty"
+    },
+    {
+      "officialId": "61857",
+      "rosterName": "Alan Shaw",
+      "title": "Professor Emeritus",
+      "profileUrl": "https://www.cs.washington.edu/people/faculty/shaw-alan/",
+      "portraitUrl": "https://www.cs.washington.edu/wp-content/uploads/2024/07/fallback-bronze-w-portrait.jpg",
+      "officialSections": [
+        "Emeritus Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cs.washington.edu/people/faculty-members/",
+      "decision": "excluded_historical",
+      "reason": "UW 官方名录将其列为荣休教师；本轮现任独立 PI 名录不接入。",
+      "evidence": "Professor Emeritus; Emeritus Faculty"
+    },
+    {
+      "officialId": "alekhagarwal",
+      "rosterName": "Alekh Agarwal",
+      "title": "",
+      "profileUrl": "http://alekhagarwal.net/",
+      "portraitUrl": null,
+      "officialSections": [
+        "Affiliate Faculty"
+      ],
+      "researchFields": [
+        "Machine Learning",
+        "Statistics and Optimization"
+      ],
+      "unitUrl": "https://www.cs.washington.edu/people/faculty-members/",
+      "decision": "excluded_industry_only",
+      "reason": "UW 官方名录为校外产业 affiliate/adjunct，并非 Allen School 现任独立 PI。",
+      "evidence": "Affiliate Faculty; Machine Learning | Statistics and Optimization; Microsoft Research"
+    },
+    {
+      "officialId": "49688",
+      "rosterName": "Aleksandr Aravkin",
+      "title": "Adjunct",
+      "profileUrl": "https://www.cs.washington.edu/people/faculty/aleksandr-aravkin/",
+      "portraitUrl": "https://www.cs.washington.edu/wp-content/uploads/2024/07/fallback-bronze-w-portrait.jpg",
+      "officialSections": [
+        "Adjunct Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cs.washington.edu/people/faculty-members/",
+      "decision": "excluded_non_pi",
+      "reason": "UW 官方名录为 affiliate/adjunct，不作为 Allen School 当前独立 PI 接入。",
+      "evidence": "Adjunct; Adjunct Faculty; Department of Applied Mathematics"
+    },
+    {
+      "officialId": "alexanderjratner",
+      "rosterName": "Alexander J. Ratner",
+      "title": "",
+      "profileUrl": "https://snorkel.ai/author/alex-ratner/",
+      "portraitUrl": null,
+      "officialSections": [
+        "Affiliate Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cs.washington.edu/people/faculty-members/",
+      "decision": "excluded_non_pi",
+      "reason": "UW 官方名录为 affiliate/adjunct，不作为 Allen School 当前独立 PI 接入。",
+      "evidence": "Affiliate Faculty; Snorkel AI"
+    },
+    {
+      "officialId": "61582",
+      "rosterName": "Alexis Hiniker",
+      "title": "Adjunct",
+      "profileUrl": "https://www.cs.washington.edu/people/faculty/hiniker-alexis/",
+      "portraitUrl": "https://www.cs.washington.edu/wp-content/uploads/2024/11/portrait-adjunct-alexis-hiniker.jpg",
+      "officialSections": [
+        "Adjunct Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cs.washington.edu/people/faculty-members/",
+      "decision": "excluded_non_pi",
+      "reason": "UW 官方名录为 affiliate/adjunct，不作为 Allen School 当前独立 PI 接入。",
+      "evidence": "Adjunct; Adjunct Faculty; Information School"
+    },
+    {
+      "officialId": "43744",
+      "rosterName": "Ali Farhadi",
+      "title": "Professor",
+      "profileUrl": "https://www.cs.washington.edu/people/faculty/ali-farhadi/",
+      "portraitUrl": "https://www.cs.washington.edu/wp-content/uploads/2024/04/portrait-ali-farhadi.jpg",
+      "officialSections": [
+        "Current Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cs.washington.edu/people/faculty-members/",
+      "decision": "included_existing",
+      "reason": "同名、同机构的现任 PI 已在图谱。",
+      "evidence": "Professor; Current Faculty",
+      "atlasPersonId": "ali-farhadi-us"
+    },
+    {
+      "officialId": "alonhalevy",
+      "rosterName": "Alon Halevy",
+      "title": "",
+      "profileUrl": "https://homes.cs.washington.edu/~alon/",
+      "portraitUrl": null,
+      "officialSections": [
+        "Affiliate Faculty"
+      ],
+      "researchFields": [
+        "Data management",
+        "artificial intelligence"
+      ],
+      "unitUrl": "https://www.cs.washington.edu/people/faculty-members/",
+      "decision": "excluded_non_pi",
+      "reason": "UW 官方名录为 affiliate/adjunct，不作为 Allen School 当前独立 PI 接入。",
+      "evidence": "Affiliate Faculty; Data management | artificial intelligence; Facebook"
+    },
+    {
+      "officialId": "alvincheung",
+      "rosterName": "Alvin Cheung",
+      "title": "",
+      "profileUrl": "https://www2.eecs.berkeley.edu/Faculty/Homepages/akcheung.html",
+      "portraitUrl": null,
+      "officialSections": [
+        "Affiliate Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cs.washington.edu/people/faculty-members/",
+      "decision": "excluded_non_pi",
+      "reason": "UW 官方名录为 affiliate/adjunct，不作为 Allen School 当前独立 PI 接入。",
+      "evidence": "Affiliate Faculty; Data management, programming systems"
+    },
+    {
+      "officialId": "61633",
+      "rosterName": "Amy J. Ko",
+      "title": "Adjunct",
+      "profileUrl": "https://www.cs.washington.edu/people/faculty/ko-amy-j/",
+      "portraitUrl": "https://www.cs.washington.edu/wp-content/uploads/2024/11/portrait-adjunct-amy-ko.jpg",
+      "officialSections": [
+        "Adjunct Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cs.washington.edu/people/faculty-members/",
+      "decision": "excluded_non_pi",
+      "reason": "UW 官方名录为 affiliate/adjunct，不作为 Allen School 当前独立 PI 接入。",
+      "evidence": "Adjunct; Adjunct Faculty; Information School"
+    },
+    {
+      "officialId": "44723",
+      "rosterName": "Amy Zhang",
+      "title": "Associate Professor",
+      "profileUrl": "https://www.cs.washington.edu/people/faculty/amy-zhang/",
+      "portraitUrl": "https://www.cs.washington.edu/wp-content/uploads/2024/04/portrait-amy-zhang.jpg",
+      "officialSections": [
+        "Current Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cs.washington.edu/people/faculty-members/",
+      "decision": "include_new_pi",
+      "reason": "官方个人页确认现任独立 PI 与 AI/ML/NLP/CV 研究主线；完成纳入判断，资料深化排入后续批次。",
+      "evidence": "Associate Professor; Current Faculty",
+      "enrichmentStatus": "queued_after_scope_decision",
+      "profileEvidence": {
+        "fetchedFrom": "https://www.cs.washington.edu/people/faculty/amy-zhang/",
+        "checkedAt": "2026-09-03",
+        "excerpt": "Artificial Intelligence , Human-Centered Computing; Human-Centered AI; Human Computer Interaction; Social Computing"
+      }
+    },
+    {
+      "officialId": "43737",
+      "rosterName": "Andrea Coladangelo",
+      "title": "Assistant Professor",
+      "profileUrl": "https://www.cs.washington.edu/people/faculty/andrea-coladangelo/",
+      "portraitUrl": "https://www.cs.washington.edu/wp-content/uploads/2024/04/portrait-andrea-coladangelo-2.png",
+      "officialSections": [
+        "Current Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cs.washington.edu/people/faculty-members/",
+      "decision": "excluded_non_ai_cs",
+      "reason": "官方个人页已核验；研究主线未落入本图谱 AI、NLP、CV、ML、机器人或相关数据智能范围。",
+      "evidence": "Assistant Professor; Current Faculty",
+      "enrichmentStatus": "not_applicable",
+      "profileEvidence": {
+        "fetchedFrom": "https://www.cs.washington.edu/people/faculty/andrea-coladangelo/",
+        "checkedAt": "2026-09-03",
+        "excerpt": "Software & Hardware Systems , Theory & Models of Computation; Quantum Computing; Cryptography"
+      }
+    },
+    {
+      "officialId": "61686",
+      "rosterName": "Andrea Stocco",
+      "title": "Adjunct",
+      "profileUrl": "https://www.cs.washington.edu/people/faculty/stocco-andrea/",
+      "portraitUrl": "https://www.cs.washington.edu/wp-content/uploads/2024/11/portrait-adjunct-andrea-stocco.jpg",
+      "officialSections": [
+        "Adjunct Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cs.washington.edu/people/faculty-members/",
+      "decision": "excluded_non_pi",
+      "reason": "UW 官方名录为 affiliate/adjunct，不作为 Allen School 当前独立 PI 接入。",
+      "evidence": "Adjunct; Adjunct Faculty; Department of Psychology"
+    },
+    {
+      "officialId": "andresmonroyhernandez",
+      "rosterName": "Andres Monroy-Hernandez",
+      "title": "",
+      "profileUrl": "http://andresmh.com",
+      "portraitUrl": null,
+      "officialSections": [
+        "Affiliate Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cs.washington.edu/people/faculty-members/",
+      "decision": "excluded_non_pi",
+      "reason": "UW 官方名录为 affiliate/adjunct，不作为 Allen School 当前独立 PI 接入。",
+      "evidence": "Affiliate Faculty; Snap, Inc."
+    },
+    {
+      "officialId": "61419",
+      "rosterName": "Andrew Connolly",
+      "title": "Adjunct",
+      "profileUrl": "https://www.cs.washington.edu/people/faculty/connolly-andrew/",
+      "portraitUrl": "https://www.cs.washington.edu/wp-content/uploads/2024/11/portrait-adjunct-andrew-connolly.jpg",
+      "officialSections": [
+        "Adjunct Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cs.washington.edu/people/faculty-members/",
+      "decision": "excluded_non_pi",
+      "reason": "UW 官方名录为 affiliate/adjunct，不作为 Allen School 当前独立 PI 接入。",
+      "evidence": "Adjunct; Adjunct Faculty; Department of Astronomy"
+    },
+    {
+      "officialId": "andrewlumsdaine",
+      "rosterName": "Andrew Lumsdaine",
+      "title": "",
+      "profileUrl": "https://homes.cs.washington.edu/~al75/",
+      "portraitUrl": null,
+      "officialSections": [
+        "Affiliate Faculty"
+      ],
+      "researchFields": [
+        "High performance computing"
+      ],
+      "unitUrl": "https://www.cs.washington.edu/people/faculty-members/",
+      "decision": "excluded_non_pi",
+      "reason": "UW 官方名录为 affiliate/adjunct，不作为 Allen School 当前独立 PI 接入。",
+      "evidence": "Affiliate Faculty; High performance computing; PNNL NIAC"
+    },
+    {
+      "officialId": "anikembhavi",
+      "rosterName": "Ani Kembhavi",
+      "title": "",
+      "profileUrl": "https://anikem.github.io/",
+      "portraitUrl": null,
+      "officialSections": [
+        "Affiliate Faculty"
+      ],
+      "researchFields": [
+        "Computer vision"
+      ],
+      "unitUrl": "https://www.cs.washington.edu/people/faculty-members/",
+      "decision": "excluded_non_pi",
+      "reason": "UW 官方名录为 affiliate/adjunct，不作为 Allen School 当前独立 PI 接入。",
+      "evidence": "Affiliate Faculty; Computer vision; Allen Institute for Artificial Intelligence"
+    },
+    {
+      "officialId": "61426",
+      "rosterName": "Anind Dey",
+      "title": "Adjunct",
+      "profileUrl": "https://www.cs.washington.edu/people/faculty/dey-anind/",
+      "portraitUrl": "https://www.cs.washington.edu/wp-content/uploads/2024/11/portrait-adjunct-anind-dey.jpg",
+      "officialSections": [
+        "Adjunct Faculty"
+      ],
+      "researchFields": [
+        "Ethics & Fairness; Human-Computer Interaction; Machine Learning; Ubiquitous Computing",
+        "Sensing & Embedded Systems"
+      ],
+      "unitUrl": "https://www.cs.washington.edu/people/faculty-members/",
+      "decision": "excluded_non_pi",
+      "reason": "UW 官方名录为 affiliate/adjunct，不作为 Allen School 当前独立 PI 接入。",
+      "evidence": "Adjunct; Adjunct Faculty; Ethics & Fairness; Human-Computer Interaction; Machine Learning; Ubiquitous Computing | Sensing & Embedded Systems; Information School"
+    },
+    {
+      "officialId": "44594",
+      "rosterName": "Anna R. Karlin",
+      "title": "Professor",
+      "profileUrl": "https://www.cs.washington.edu/people/faculty/anna-karlin/",
+      "portraitUrl": "https://www.cs.washington.edu/wp-content/uploads/2024/08/portrait-anna-karlin.jpg",
+      "officialSections": [
+        "Current Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cs.washington.edu/people/faculty-members/",
+      "decision": "excluded_non_ai_cs",
+      "reason": "官方个人页已核验；研究主线未落入本图谱 AI、NLP、CV、ML、机器人或相关数据智能范围。",
+      "evidence": "Professor; Current Faculty; Associate Director of Graduate Studies",
+      "enrichmentStatus": "not_applicable",
+      "profileEvidence": {
+        "fetchedFrom": "https://www.cs.washington.edu/people/faculty/anna-karlin/",
+        "checkedAt": "2026-09-03",
+        "excerpt": "Theory & Models of Computation; Algorithms"
+      }
+    },
+    {
+      "officialId": "44661",
+      "rosterName": "Anup Rao",
+      "title": "Professor",
+      "profileUrl": "https://www.cs.washington.edu/people/faculty/anup-rao/",
+      "portraitUrl": "https://www.cs.washington.edu/wp-content/uploads/2024/04/portrait-anup-rao.jpg",
+      "officialSections": [
+        "Current Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cs.washington.edu/people/faculty-members/",
+      "decision": "excluded_non_ai_cs",
+      "reason": "官方个人页已核验；研究主线未落入本图谱 AI、NLP、CV、ML、机器人或相关数据智能范围。",
+      "evidence": "Professor; Current Faculty",
+      "enrichmentStatus": "not_applicable",
+      "profileEvidence": {
+        "fetchedFrom": "https://www.cs.washington.edu/people/faculty/anup-rao/",
+        "checkedAt": "2026-09-03",
+        "excerpt": "Theory & Models of Computation; Algorithms; Complexity"
+      }
+    },
+    {
+      "officialId": "armancohan",
+      "rosterName": "Arman Cohan",
+      "title": "",
+      "profileUrl": "https://armancohan.com/",
+      "portraitUrl": null,
+      "officialSections": [
+        "Affiliate Faculty"
+      ],
+      "researchFields": [
+        "Natural Language Processing",
+        "Machine Learning"
+      ],
+      "unitUrl": "https://www.cs.washington.edu/people/faculty-members/",
+      "decision": "excluded_non_pi",
+      "reason": "UW 官方名录为 affiliate/adjunct，不作为 Allen School 当前独立 PI 接入。",
+      "evidence": "Affiliate Faculty; Natural Language Processing | Machine Learning; Allen Institute for AI"
+    },
+    {
+      "officialId": "arminalaghi",
+      "rosterName": "Armin Alaghi",
+      "title": "",
+      "profileUrl": "http://homes.cs.washington.edu/~armin/",
+      "portraitUrl": null,
+      "officialSections": [
+        "Affiliate Faculty"
+      ],
+      "researchFields": [
+        "Embedded systems",
+        "signal processing",
+        "and virtual/augmented reality"
+      ],
+      "unitUrl": "https://www.cs.washington.edu/people/faculty-members/",
+      "decision": "excluded_non_pi",
+      "reason": "UW 官方名录为 affiliate/adjunct，不作为 Allen School 当前独立 PI 接入。",
+      "evidence": "Affiliate Faculty; Embedded systems | signal processing | and virtual/augmented reality; Oculus Research"
+    },
+    {
+      "officialId": "51653",
+      "rosterName": "Arvind Krishnamurthy",
+      "title": "Professor",
+      "profileUrl": "https://www.cs.washington.edu/people/faculty/arvind-krishnamurthy/",
+      "portraitUrl": "https://www.cs.washington.edu/wp-content/uploads/2024/08/portrait-arvind-krishnamurthy.jpg",
+      "officialSections": [
+        "Current Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cs.washington.edu/people/faculty-members/",
+      "decision": "excluded_non_ai_cs",
+      "reason": "官方个人页已核验；研究主线未落入本图谱 AI、NLP、CV、ML、机器人或相关数据智能范围。",
+      "evidence": "Professor; Current Faculty",
+      "enrichmentStatus": "not_applicable",
+      "profileEvidence": {
+        "fetchedFrom": "https://www.cs.washington.edu/people/faculty/arvind-krishnamurthy/",
+        "checkedAt": "2026-09-03",
+        "excerpt": "Software & Hardware Systems; Cloud Computing; Computer Networking; Operating & Distributed Systems"
+      }
+    },
+    {
+      "officialId": "aseemagarwala",
+      "rosterName": "Aseem Agarwala",
+      "title": "",
+      "profileUrl": "http://www.agarwala.org/",
+      "portraitUrl": null,
+      "officialSections": [
+        "Affiliate Faculty"
+      ],
+      "researchFields": [
+        "Computer graphics",
+        "computer vision",
+        "and computational imaging"
+      ],
+      "unitUrl": "https://www.cs.washington.edu/people/faculty-members/",
+      "decision": "excluded_industry_only",
+      "reason": "UW 官方名录为校外产业 affiliate/adjunct，并非 Allen School 现任独立 PI。",
+      "evidence": "Affiliate Faculty; Computer graphics | computer vision | and computational imaging; Adobe"
+    },
+    {
+      "officialId": "aslicelikyilmaz",
+      "rosterName": "Asli Celikyilmaz",
+      "title": "",
+      "profileUrl": null,
+      "portraitUrl": null,
+      "officialSections": [
+        "Affiliate Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cs.washington.edu/people/faculty-members/",
+      "decision": "excluded_industry_only",
+      "reason": "UW 官方名录为校外产业 affiliate/adjunct，并非 Allen School 现任独立 PI。",
+      "evidence": "Affiliate Faculty; Microsoft Research"
+    },
+    {
+      "officialId": "61410",
+      "rosterName": "Aylin Caliskan",
+      "title": "Adjunct",
+      "profileUrl": "https://www.cs.washington.edu/people/faculty/caliskan-aylin/",
+      "portraitUrl": "https://www.cs.washington.edu/wp-content/uploads/2024/11/portrait-adjunct-aylin-caliskan.jpg",
+      "officialSections": [
+        "Adjunct Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cs.washington.edu/people/faculty-members/",
+      "decision": "excluded_non_pi",
+      "reason": "UW 官方名录为 affiliate/adjunct，不作为 Allen School 当前独立 PI 接入。",
+      "evidence": "Adjunct; Adjunct Faculty; Information School"
+    },
+    {
+      "officialId": "44631",
+      "rosterName": "Barbara Mones",
+      "title": "Teaching Professor",
+      "profileUrl": "https://www.cs.washington.edu/people/faculty/barbara-mones/",
+      "portraitUrl": "https://www.cs.washington.edu/wp-content/uploads/2024/04/portrait-barbara-mones.jpg",
+      "officialSections": [
+        "Current Faculty"
+      ],
+      "researchFields": [
+        "Computing Education; Augmented",
+        "Virtual & Mixed Reality; Computer Graphics & Animation"
+      ],
+      "unitUrl": "https://www.cs.washington.edu/people/faculty-members/",
+      "decision": "excluded_non_pi",
+      "reason": "官方职称属于教学岗位或未显示独立研究教师任职。",
+      "evidence": "Teaching Professor; Current Faculty; Computing Education; Augmented | Virtual & Mixed Reality; Computer Graphics & Animation"
+    },
+    {
+      "officialId": "44596",
+      "rosterName": "Baris Kasikci",
+      "title": "Associate Professor",
+      "profileUrl": "https://www.cs.washington.edu/people/faculty/baris-kasikci/",
+      "portraitUrl": "https://www.cs.washington.edu/wp-content/uploads/2024/04/portrait-baris-kasikci.jpg",
+      "officialSections": [
+        "Current Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cs.washington.edu/people/faculty-members/",
+      "decision": "excluded_non_ai_cs",
+      "reason": "官方个人页已核验；研究主线未落入本图谱 AI、NLP、CV、ML、机器人或相关数据智能范围。",
+      "evidence": "Associate Professor; Current Faculty",
+      "enrichmentStatus": "not_applicable",
+      "profileEvidence": {
+        "fetchedFrom": "https://www.cs.washington.edu/people/faculty/baris-kasikci/",
+        "checkedAt": "2026-09-03",
+        "excerpt": "Software & Hardware Systems; Architecture & Parallel Computing; Computer Networking; Operating & Distributed Systems; Programming Languages"
+      }
+    },
+    {
+      "officialId": "bengreenstein",
+      "rosterName": "Ben Greenstein",
+      "title": "",
+      "profileUrl": "https://plus.google.com/107028056457311329776/posts",
+      "portraitUrl": null,
+      "officialSections": [
+        "Affiliate Faculty"
+      ],
+      "researchFields": [
+        "Networks and embedded systems"
+      ],
+      "unitUrl": "https://www.cs.washington.edu/people/faculty-members/",
+      "decision": "excluded_industry_only",
+      "reason": "UW 官方名录为校外产业 affiliate/adjunct，并非 Allen School 现任独立 PI。",
+      "evidence": "Affiliate Faculty; Networks and embedded systems; Google, Inc."
+    },
+    {
+      "officialId": "61580",
+      "rosterName": "Benjamin Mako Hill",
+      "title": "Adjunct",
+      "profileUrl": "https://www.cs.washington.edu/people/faculty/hill-benjamin-mako/",
+      "portraitUrl": "https://www.cs.washington.edu/wp-content/uploads/2024/11/portrait-adjunct-benjamin-mako-hill.jpg",
+      "officialSections": [
+        "Adjunct Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cs.washington.edu/people/faculty-members/",
+      "decision": "excluded_non_pi",
+      "reason": "UW 官方名录为 affiliate/adjunct，不作为 Allen School 当前独立 PI 接入。",
+      "evidence": "Adjunct; Adjunct Faculty; Department of Communication"
+    },
+    {
+      "officialId": "bichliennguyen",
+      "rosterName": "Bichlien Nguyen",
+      "title": "",
+      "profileUrl": null,
+      "portraitUrl": null,
+      "officialSections": [
+        "Affiliate Faculty"
+      ],
+      "researchFields": [
+        "DNA data storage"
+      ],
+      "unitUrl": "https://www.cs.washington.edu/people/faculty-members/",
+      "decision": "excluded_industry_only",
+      "reason": "UW 官方名录为校外产业 affiliate/adjunct，并非 Allen School 现任独立 PI。",
+      "evidence": "Affiliate Faculty; DNA data storage; Microsoft Research"
+    },
+    {
+      "officialId": "61587",
+      "rosterName": "Bill Howe",
+      "title": "Adjunct",
+      "profileUrl": "https://www.cs.washington.edu/people/faculty/howe-bill/",
+      "portraitUrl": "https://www.cs.washington.edu/wp-content/uploads/2024/11/portrait-adjunct-bill-howe.jpg",
+      "officialSections": [
+        "Adjunct Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cs.washington.edu/people/faculty-members/",
+      "decision": "excluded_non_pi",
+      "reason": "UW 官方名录为 affiliate/adjunct，不作为 Allen School 当前独立 PI 接入。",
+      "evidence": "Adjunct; Adjunct Faculty; Information School"
+    },
+    {
+      "officialId": "61405",
+      "rosterName": "Bingni Brunton",
+      "title": "Adjunct",
+      "profileUrl": "https://www.cs.washington.edu/people/faculty/brunton-bingni/",
+      "portraitUrl": "https://www.cs.washington.edu/wp-content/uploads/2024/11/portrait-adjunct-bingni-brunton.jpg",
+      "officialSections": [
+        "Adjunct Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cs.washington.edu/people/faculty-members/",
+      "decision": "excluded_non_pi",
+      "reason": "UW 官方名录为 affiliate/adjunct，不作为 Allen School 当前独立 PI 接入。",
+      "evidence": "Adjunct; Adjunct Faculty; Department of Biology"
+    },
+    {
+      "officialId": "bradfordchamberlain",
+      "rosterName": "Bradford Chamberlain",
+      "title": "",
+      "profileUrl": "http://www.cs.washington.edu/homes/bradc/",
+      "portraitUrl": null,
+      "officialSections": [
+        "Affiliate Faculty"
+      ],
+      "researchFields": [
+        "Compilers",
+        "language design",
+        "and productivity for scalable parallel computing"
+      ],
+      "unitUrl": "https://www.cs.washington.edu/people/faculty-members/",
+      "decision": "excluded_non_pi",
+      "reason": "UW 官方名录为 affiliate/adjunct，不作为 Allen School 当前独立 PI 接入。",
+      "evidence": "Affiliate Faculty; Compilers | language design | and productivity for scalable parallel computing; Hewlett Packard Enterprise"
+    },
+    {
+      "officialId": "44718",
+      "rosterName": "Brett Wortzman",
+      "title": "Associate Teaching Professor",
+      "profileUrl": "https://www.cs.washington.edu/people/faculty/brett-wortzman/",
+      "portraitUrl": "https://www.cs.washington.edu/wp-content/uploads/2024/04/portrait-brett-wortzman.jpg",
+      "officialSections": [
+        "Current Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cs.washington.edu/people/faculty-members/",
+      "decision": "excluded_non_pi",
+      "reason": "官方职称属于教学岗位或未显示独立研究教师任职。",
+      "evidence": "Associate Teaching Professor; Current Faculty"
+    },
+    {
+      "officialId": "43738",
+      "rosterName": "Brian Curless",
+      "title": "Professor",
+      "profileUrl": "https://www.cs.washington.edu/people/faculty/brian-curless/",
+      "portraitUrl": "https://www.cs.washington.edu/wp-content/uploads/2024/04/portrait-brian-curless.jpg",
+      "officialSections": [
+        "Current Faculty"
+      ],
+      "researchFields": [
+        "Augmented",
+        "Virtual & Mixed Reality; Computer Graphics & Animation; Computer Vision"
+      ],
+      "unitUrl": "https://www.cs.washington.edu/people/faculty-members/",
+      "decision": "include_new_pi",
+      "reason": "官方个人页确认现任独立 PI 与 AI/ML/NLP/CV 研究主线；完成纳入判断，资料深化排入后续批次。",
+      "evidence": "Professor; Current Faculty; Augmented | Virtual & Mixed Reality; Computer Graphics & Animation; Computer Vision",
+      "enrichmentStatus": "queued_after_scope_decision",
+      "profileEvidence": {
+        "fetchedFrom": "https://www.cs.washington.edu/people/faculty/brian-curless/",
+        "checkedAt": "2026-09-03",
+        "excerpt": "Artificial Intelligence , Human-Centered Computing , Interaction with the Physical World; Augmented, Virtual & Mixed Reality; Computer Graphics & Animation; Computer Vision"
+      }
+    },
+    {
+      "officialId": "brianlamacchia",
+      "rosterName": "Brian LaMacchia",
+      "title": "",
+      "profileUrl": "http://www.farcaster.com/",
+      "portraitUrl": null,
+      "officialSections": [
+        "Affiliate Faculty"
+      ],
+      "researchFields": [
+        "Cryptography",
+        "automated resource discovery"
+      ],
+      "unitUrl": "https://www.cs.washington.edu/people/faculty-members/",
+      "decision": "excluded_industry_only",
+      "reason": "UW 官方名录为校外产业 affiliate/adjunct，并非 Allen School 现任独立 PI。",
+      "evidence": "Affiliate Faculty; Cryptography | automated resource discovery; Microsoft Research"
+    },
+    {
+      "officialId": "61829",
+      "rosterName": "Bruce Hemingway",
+      "title": "Teaching Professor Emeritus",
+      "profileUrl": "https://www.cs.washington.edu/people/faculty/hemingway-bruce/",
+      "portraitUrl": "https://www.cs.washington.edu/wp-content/uploads/2024/12/portrait-emeritus-bruce-hemingway.jpg",
+      "officialSections": [
+        "Emeritus Faculty"
+      ],
+      "researchFields": [
+        "Computer Graphics & Animation; Computing Education Research; Ubiquitous Computing",
+        "Sensing & Embedded Systems"
+      ],
+      "unitUrl": "https://www.cs.washington.edu/people/faculty-members/",
+      "decision": "excluded_historical",
+      "reason": "UW 官方名录将其列为荣休教师；本轮现任独立 PI 名录不接入。",
+      "evidence": "Teaching Professor Emeritus; Emeritus Faculty; Computer Graphics & Animation; Computing Education Research; Ubiquitous Computing | Sensing & Embedded Systems"
+    },
+    {
+      "officialId": "43725",
+      "rosterName": "Byron Boots",
+      "title": "Professor",
+      "profileUrl": "https://www.cs.washington.edu/people/faculty/byron-boots/",
+      "portraitUrl": "https://www.cs.washington.edu/wp-content/uploads/2024/08/portrait-byron-boots.jpg",
+      "officialSections": [
+        "Current Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cs.washington.edu/people/faculty-members/",
+      "decision": "include_new_pi",
+      "reason": "本批接入：UW 官方名录确认现任独立教授，且一手个人页、头像与关系证据完整。",
+      "evidence": "Professor; Current Faculty",
+      "enrichmentStatus": "module_complete"
+    },
+    {
+      "officialId": "60373",
+      "rosterName": "Carl Ebeling",
+      "title": "Professor Emeritus",
+      "profileUrl": "https://www.cs.washington.edu/people/faculty/ebeling-carl/",
+      "portraitUrl": "https://www.cs.washington.edu/wp-content/uploads/2024/12/portrait-emeritus-carl-ebeling.jpg",
+      "officialSections": [
+        "Emeritus Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cs.washington.edu/people/faculty-members/",
+      "decision": "excluded_historical",
+      "reason": "UW 官方名录将其列为荣休教师；本轮现任独立 PI 名录不接入。",
+      "evidence": "Professor Emeritus; Emeritus Faculty"
+    },
+    {
+      "officialId": "carlosguestrin",
+      "rosterName": "Carlos Guestrin",
+      "title": "",
+      "profileUrl": "http://homes.cs.washington.edu/~guestrin/",
+      "portraitUrl": null,
+      "officialSections": [
+        "Affiliate Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cs.washington.edu/people/faculty-members/",
+      "decision": "excluded_non_pi",
+      "reason": "UW 官方名录为 affiliate/adjunct，不作为 Allen School 当前独立 PI 接入。",
+      "evidence": "Affiliate Faculty; Machine Learning, Distributed Systems, AI, Optimization"
+    },
+    {
+      "officialId": "carvermead",
+      "rosterName": "Carver Mead",
+      "title": "",
+      "profileUrl": "http://www.carvermead.caltech.edu/",
+      "portraitUrl": null,
+      "officialSections": [
+        "Affiliate Faculty"
+      ],
+      "researchFields": [
+        "Microelectronics",
+        "neural models of computing",
+        "physics"
+      ],
+      "unitUrl": "https://www.cs.washington.edu/people/faculty-members/",
+      "decision": "excluded_non_pi",
+      "reason": "UW 官方名录为 affiliate/adjunct，不作为 Allen School 当前独立 PI 接入。",
+      "evidence": "Affiliate Faculty; Microelectronics | neural models of computing | physics; Caltech (emeritus)"
+    },
+    {
+      "officialId": "chandrakananandi",
+      "rosterName": "Chandrakana Nandi",
+      "title": "",
+      "profileUrl": "http://cnandi.com/",
+      "portraitUrl": null,
+      "officialSections": [
+        "Affiliate Faculty"
+      ],
+      "researchFields": [
+        "Programming Languages",
+        "Program Synthesis",
+        "Formal Verification",
+        "Term Rewriting",
+        "Software Engineering",
+        "Computational Fabrication"
+      ],
+      "unitUrl": "https://www.cs.washington.edu/people/faculty-members/",
+      "decision": "excluded_non_pi",
+      "reason": "UW 官方名录为 affiliate/adjunct，不作为 Allen School 当前独立 PI 接入。",
+      "evidence": "Affiliate Faculty; Programming Languages | Program Synthesis | Formal Verification | Term Rewriting | Software Engineering | Computational Fabrication; Certora, Inc."
+    },
+    {
+      "officialId": "charleslarryzitnickiii",
+      "rosterName": "Charles (Larry) Zitnick III",
+      "title": "",
+      "profileUrl": "http://larryzitnick.org/",
+      "portraitUrl": null,
+      "officialSections": [
+        "Affiliate Faculty"
+      ],
+      "researchFields": [
+        "Object detection",
+        "semantic scene understanding",
+        "and human debugging"
+      ],
+      "unitUrl": "https://www.cs.washington.edu/people/faculty-members/",
+      "decision": "excluded_non_pi",
+      "reason": "UW 官方名录为 affiliate/adjunct，不作为 Allen School 当前独立 PI 接入。",
+      "evidence": "Affiliate Faculty; Object detection | semantic scene understanding | and human debugging; Facebook AI Research"
+    },
+    {
+      "officialId": "44640",
+      "rosterName": "Chinmay Nirkhe",
+      "title": "Assistant Professor",
+      "profileUrl": "https://www.cs.washington.edu/people/faculty/chinmay-nirkhe/",
+      "portraitUrl": "https://www.cs.washington.edu/wp-content/uploads/2024/04/portrait-chinmay-nirkhe.jpg",
+      "officialSections": [
+        "Current Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cs.washington.edu/people/faculty-members/",
+      "decision": "excluded_non_ai_cs",
+      "reason": "官方个人页已核验；研究主线未落入本图谱 AI、NLP、CV、ML、机器人或相关数据智能范围。",
+      "evidence": "Assistant Professor; Current Faculty",
+      "enrichmentStatus": "not_applicable",
+      "profileEvidence": {
+        "fetchedFrom": "https://www.cs.washington.edu/people/faculty/chinmay-nirkhe/",
+        "checkedAt": "2026-09-03",
+        "excerpt": "Software & Hardware Systems , Theory & Models of Computation; Complexity; Quantum Computing"
+      }
+    },
+    {
+      "officialId": "61669",
+      "rosterName": "Chirag Shah",
+      "title": "Adjunct",
+      "profileUrl": "https://www.cs.washington.edu/people/faculty/shah-chirag/",
+      "portraitUrl": "https://www.cs.washington.edu/wp-content/uploads/2024/11/portrait-adjunct-chirag-shah.jpg",
+      "officialSections": [
+        "Adjunct Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cs.washington.edu/people/faculty-members/",
+      "decision": "excluded_non_pi",
+      "reason": "UW 官方名录为 affiliate/adjunct，不作为 Allen School 当前独立 PI 接入。",
+      "evidence": "Adjunct; Adjunct Faculty; Information School"
+    },
+    {
+      "officialId": "chrisdiorio",
+      "rosterName": "Chris Diorio",
+      "title": "",
+      "profileUrl": "https://www.impinj.com/about-us/management-team",
+      "portraitUrl": null,
+      "officialSections": [
+        "Affiliate Faculty"
+      ],
+      "researchFields": [
+        "Neurally-inspired computing; RFID"
+      ],
+      "unitUrl": "https://www.cs.washington.edu/people/faculty-members/",
+      "decision": "excluded_non_pi",
+      "reason": "UW 官方名录为 affiliate/adjunct，不作为 Allen School 当前独立 PI 接入。",
+      "evidence": "Affiliate Faculty; Neurally-inspired computing; RFID; Impinj"
+    },
+    {
+      "officialId": "44702",
+      "rosterName": "Chris Thachuk",
+      "title": "Assistant Professor",
+      "profileUrl": "https://www.cs.washington.edu/people/faculty/chris-thachuk/",
+      "portraitUrl": "https://www.cs.washington.edu/wp-content/uploads/2024/04/portrait-chris-thachuk.jpg",
+      "officialSections": [
+        "Current Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cs.washington.edu/people/faculty-members/",
+      "decision": "excluded_non_ai_cs",
+      "reason": "官方个人页已核验；研究主线未落入本图谱 AI、NLP、CV、ML、机器人或相关数据智能范围。",
+      "evidence": "Assistant Professor; Current Faculty",
+      "enrichmentStatus": "not_applicable",
+      "profileEvidence": {
+        "fetchedFrom": "https://www.cs.washington.edu/people/faculty/chris-thachuk/",
+        "checkedAt": "2026-09-03",
+        "excerpt": "Computing + Biology; Molecular Programming & Synthetic Biology"
+      }
+    },
+    {
+      "officialId": "chunliangli",
+      "rosterName": "Chun-Liang Li",
+      "title": "",
+      "profileUrl": "https://chunliangli.github.io/",
+      "portraitUrl": null,
+      "officialSections": [
+        "Affiliate Faculty"
+      ],
+      "researchFields": [
+        "Machine Learning",
+        "Computer Vision",
+        "Natural Language Processing"
+      ],
+      "unitUrl": "https://www.cs.washington.edu/people/faculty-members/",
+      "decision": "excluded_industry_only",
+      "reason": "UW 官方名录为校外产业 affiliate/adjunct，并非 Allen School 现任独立 PI。",
+      "evidence": "Affiliate Faculty; Machine Learning | Computer Vision | Natural Language Processing; Apple Machine Learning Research"
+    },
+    {
+      "officialId": "61782",
+      "rosterName": "Cole Trapnell",
+      "title": "Adjunct",
+      "profileUrl": "https://www.cs.washington.edu/people/faculty/trapnell-cole/",
+      "portraitUrl": "https://www.cs.washington.edu/wp-content/uploads/2024/12/portrait-adjunct-cole-trapnell.jpg",
+      "officialSections": [
+        "Adjunct Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cs.washington.edu/people/faculty-members/",
+      "decision": "excluded_non_pi",
+      "reason": "UW 官方名录为 affiliate/adjunct，不作为 Allen School 当前独立 PI 接入。",
+      "evidence": "Adjunct; Adjunct Faculty; Department of Genome Sciences"
+    },
+    {
+      "officialId": "craigchambers",
+      "rosterName": "Craig Chambers",
+      "title": "",
+      "profileUrl": "https://homes.cs.washington.edu/~chambers/",
+      "portraitUrl": null,
+      "officialSections": [
+        "Affiliate Faculty"
+      ],
+      "researchFields": [
+        "Programming languages",
+        "compilers"
+      ],
+      "unitUrl": "https://www.cs.washington.edu/people/faculty-members/",
+      "decision": "excluded_industry_only",
+      "reason": "UW 官方名录为校外产业 affiliate/adjunct，并非 Allen School 现任独立 PI。",
+      "evidence": "Affiliate Faculty; Programming languages | compilers; Google, Inc."
+    },
+    {
+      "officialId": "44564",
+      "rosterName": "Dan Grossman",
+      "title": "Professor & Interim Director",
+      "profileUrl": "https://www.cs.washington.edu/people/faculty/dan-grossman/",
+      "portraitUrl": "https://www.cs.washington.edu/wp-content/uploads/2024/08/portrait-dan-grossman.jpg",
+      "officialSections": [
+        "Current Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cs.washington.edu/people/faculty-members/",
+      "decision": "excluded_non_ai_cs",
+      "reason": "官方个人页已核验；研究主线未落入本图谱 AI、NLP、CV、ML、机器人或相关数据智能范围。",
+      "evidence": "Professor & Interim Director; Current Faculty",
+      "enrichmentStatus": "not_applicable",
+      "profileEvidence": {
+        "fetchedFrom": "https://www.cs.washington.edu/people/faculty/dan-grossman/",
+        "checkedAt": "2026-09-03",
+        "excerpt": "Human-Centered Computing , Software & Hardware Systems; Computing Education Research; Programming Languages"
+      }
+    },
+    {
+      "officialId": "44692",
+      "rosterName": "Dan Suciu",
+      "title": "Professor",
+      "profileUrl": "https://www.cs.washington.edu/people/faculty/dan-suciu/",
+      "portraitUrl": "https://www.cs.washington.edu/wp-content/uploads/2024/04/portrait-dan-suciu.jpg",
+      "officialSections": [
+        "Current Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cs.washington.edu/people/faculty-members/",
+      "decision": "include_new_pi",
+      "reason": "官方个人页确认现任独立 PI 与 AI/ML/NLP/CV 研究主线；完成纳入判断，资料深化排入后续批次。",
+      "evidence": "Professor; Current Faculty",
+      "enrichmentStatus": "queued_after_scope_decision",
+      "profileEvidence": {
+        "fetchedFrom": "https://www.cs.washington.edu/people/faculty/dan-suciu/",
+        "checkedAt": "2026-09-03",
+        "excerpt": "Software & Hardware Systems , Theory & Models of Computation; Data Management; Data Science; Formal Methods"
+      }
+    },
+    {
+      "officialId": "danielberger",
+      "rosterName": "Daniel Berger",
+      "title": "",
+      "profileUrl": "https://www.microsoft.com/en-us/research/people/daberg/",
+      "portraitUrl": null,
+      "officialSections": [
+        "Affiliate Faculty"
+      ],
+      "researchFields": [
+        "Computer systems (including distributed",
+        "networking",
+        "and storage systems) and memory architecture (virtualization",
+        "disaggregation",
+        "and DRAM alternatives"
+      ],
+      "unitUrl": "https://www.cs.washington.edu/people/faculty-members/",
+      "decision": "excluded_industry_only",
+      "reason": "UW 官方名录为校外产业 affiliate/adjunct，并非 Allen School 现任独立 PI。",
+      "evidence": "Affiliate Faculty; Computer systems (including distributed | networking | and storage systems) and memory architecture (virtualization | disaggregation | and DRAM alternatives; Microsoft Research"
+    },
+    {
+      "officialId": "danielgoldman",
+      "rosterName": "Daniel Goldman",
+      "title": "",
+      "profileUrl": "http://www.danbgoldman.com/",
+      "portraitUrl": null,
+      "officialSections": [
+        "Affiliate Faculty"
+      ],
+      "researchFields": [
+        "Computer graphics research on techniques for digital viewing and imaging"
+      ],
+      "unitUrl": "https://www.cs.washington.edu/people/faculty-members/",
+      "decision": "excluded_industry_only",
+      "reason": "UW 官方名录为校外产业 affiliate/adjunct，并非 Allen School 现任独立 PI。",
+      "evidence": "Affiliate Faculty; Computer graphics research on techniques for digital viewing and imaging; Google"
+    },
+    {
+      "officialId": "danielmcduff",
+      "rosterName": "Daniel McDuff",
+      "title": "",
+      "profileUrl": null,
+      "portraitUrl": null,
+      "officialSections": [
+        "Affiliate Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cs.washington.edu/people/faculty-members/",
+      "decision": "excluded_non_pi",
+      "reason": "UW 官方名录为 affiliate/adjunct，不作为 Allen School 当前独立 PI 接入。",
+      "evidence": "Affiliate Faculty"
+    },
+    {
+      "officialId": "61880",
+      "rosterName": "Daniel S. Weld",
+      "title": "Professor Emeritus",
+      "profileUrl": "https://www.cs.washington.edu/people/faculty/weld-daniel-s/",
+      "portraitUrl": "https://www.cs.washington.edu/wp-content/uploads/2024/12/portrait-emeritus-dan-weld.jpg",
+      "officialSections": [
+        "Emeritus Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cs.washington.edu/people/faculty-members/",
+      "decision": "excluded_historical",
+      "reason": "UW 官方名录将其列为荣休教师；本轮现任独立 PI 名录不接入。",
+      "evidence": "Professor Emeritus; Emeritus Faculty"
+    },
+    {
+      "officialId": "61663",
+      "rosterName": "Daniela Rosner",
+      "title": "Adjunct",
+      "profileUrl": "https://www.cs.washington.edu/people/faculty/rosner-daniela/",
+      "portraitUrl": "https://www.cs.washington.edu/wp-content/uploads/2024/11/portrait-adjunct-daniela-rosner.jpg",
+      "officialSections": [
+        "Adjunct Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cs.washington.edu/people/faculty-members/",
+      "decision": "excluded_non_pi",
+      "reason": "UW 官方名录为 affiliate/adjunct，不作为 Allen School 当前独立 PI 接入。",
+      "evidence": "Adjunct; Adjunct Faculty; Department of Human-Centered Design & Engineering"
+    },
+    {
+      "officialId": "davebacon",
+      "rosterName": "Dave Bacon",
+      "title": "",
+      "profileUrl": "https://research.google/people/105078/?&type=google",
+      "portraitUrl": null,
+      "officialSections": [
+        "Affiliate Faculty"
+      ],
+      "researchFields": [
+        "Quantum computing",
+        "quantum algorithms",
+        "fault-tolerant computing"
+      ],
+      "unitUrl": "https://www.cs.washington.edu/people/faculty-members/",
+      "decision": "excluded_industry_only",
+      "reason": "UW 官方名录为校外产业 affiliate/adjunct，并非 Allen School 现任独立 PI。",
+      "evidence": "Affiliate Faculty; Quantum computing | quantum algorithms | fault-tolerant computing; Google, Inc."
+    },
+    {
+      "officialId": "61267",
+      "rosterName": "David Baker",
+      "title": "Adjunct",
+      "profileUrl": "https://www.cs.washington.edu/people/faculty/baker-david/",
+      "portraitUrl": "https://www.cs.washington.edu/wp-content/uploads/2024/11/portrait-adjunct-david-baker.jpg",
+      "officialSections": [
+        "Adjunct Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cs.washington.edu/people/faculty-members/",
+      "decision": "excluded_non_pi",
+      "reason": "UW 官方名录为 affiliate/adjunct，不作为 Allen School 当前独立 PI 接入。",
+      "evidence": "Adjunct; Adjunct Faculty; Department of Biochemistry"
+    },
+    {
+      "officialId": "61277",
+      "rosterName": "David Beck",
+      "title": "Adjunct",
+      "profileUrl": "https://www.cs.washington.edu/people/faculty/beck-david/",
+      "portraitUrl": "https://www.cs.washington.edu/wp-content/uploads/2024/12/portrait-david-beck.jpg",
+      "officialSections": [
+        "Adjunct Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cs.washington.edu/people/faculty-members/",
+      "decision": "excluded_non_pi",
+      "reason": "UW 官方名录为 affiliate/adjunct，不作为 Allen School 当前独立 PI 接入。",
+      "evidence": "Adjunct; Adjunct Faculty; Department of Chemical Engineering"
+    },
+    {
+      "officialId": "davidcutler",
+      "rosterName": "David Cutler",
+      "title": "",
+      "profileUrl": null,
+      "portraitUrl": null,
+      "officialSections": [
+        "Affiliate Faculty"
+      ],
+      "researchFields": [
+        "Operating systems design and development"
+      ],
+      "unitUrl": "https://www.cs.washington.edu/people/faculty-members/",
+      "decision": "excluded_industry_only",
+      "reason": "UW 官方名录为校外产业 affiliate/adjunct，并非 Allen School 现任独立 PI。",
+      "evidence": "Affiliate Faculty; Operating systems design and development; Microsoft"
+    },
+    {
+      "officialId": "44602",
+      "rosterName": "David Kohlbrenner",
+      "title": "Assistant Professor",
+      "profileUrl": "https://www.cs.washington.edu/people/faculty/david-kohlbrenner/",
+      "portraitUrl": "https://www.cs.washington.edu/wp-content/uploads/2024/04/portrait-david-kohlbrenner.jpg",
+      "officialSections": [
+        "Current Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cs.washington.edu/people/faculty-members/",
+      "decision": "excluded_non_ai_cs",
+      "reason": "官方个人页已核验；研究主线未落入本图谱 AI、NLP、CV、ML、机器人或相关数据智能范围。",
+      "evidence": "Assistant Professor; Current Faculty",
+      "enrichmentStatus": "not_applicable",
+      "profileEvidence": {
+        "fetchedFrom": "https://www.cs.washington.edu/people/faculty/david-kohlbrenner/",
+        "checkedAt": "2026-09-03",
+        "excerpt": "Software & Hardware Systems; Architecture & Parallel Computing; Operating & Distributed Systems; Security & Privacy"
+      }
+    },
+    {
+      "officialId": "davidsalesin",
+      "rosterName": "David Salesin",
+      "title": "",
+      "profileUrl": "https://salesin.cs.washington.edu/",
+      "portraitUrl": null,
+      "officialSections": [
+        "Affiliate Faculty"
+      ],
+      "researchFields": [
+        "Graphics",
+        "digital photography",
+        "visualization"
+      ],
+      "unitUrl": "https://www.cs.washington.edu/people/faculty-members/",
+      "decision": "excluded_industry_only",
+      "reason": "UW 官方名录为校外产业 affiliate/adjunct，并非 Allen School 现任独立 PI。",
+      "evidence": "Affiliate Faculty; Graphics | digital photography | visualization; Adobe Systems"
+    },
+    {
+      "officialId": "debadeeptadey",
+      "rosterName": "Debadeepta Dey",
+      "title": "",
+      "profileUrl": "https://www.debadeepta.com/",
+      "portraitUrl": null,
+      "officialSections": [
+        "Affiliate Faculty"
+      ],
+      "researchFields": [
+        "Decision-making under uncertainty",
+        "computer vision",
+        "reinforcement learning",
+        "planning",
+        "robotics and machine learning"
+      ],
+      "unitUrl": "https://www.cs.washington.edu/people/faculty-members/",
+      "decision": "excluded_industry_only",
+      "reason": "UW 官方名录为校外产业 affiliate/adjunct，并非 Allen School 现任独立 PI。",
+      "evidence": "Affiliate Faculty; Decision-making under uncertainty | computer vision | reinforcement learning | planning | robotics and machine learning; Microsoft Research"
+    },
+    {
+      "officialId": "desneytan",
+      "rosterName": "Desney Tan",
+      "title": "",
+      "profileUrl": "http://research.microsoft.com/~desney/",
+      "portraitUrl": null,
+      "officialSections": [
+        "Affiliate Faculty"
+      ],
+      "researchFields": [
+        "Human-Computer Interaction and Brain-Computer Interfaces"
+      ],
+      "unitUrl": "https://www.cs.washington.edu/people/faculty-members/",
+      "decision": "excluded_industry_only",
+      "reason": "UW 官方名录为校外产业 affiliate/adjunct，并非 Allen School 现任独立 PI。",
+      "evidence": "Affiliate Faculty; Human-Computer Interaction and Brain-Computer Interfaces; Microsoft Research"
+    },
+    {
+      "officialId": "43746",
+      "rosterName": "Dieter Fox",
+      "title": "Professor",
+      "profileUrl": "https://www.cs.washington.edu/people/faculty/dieter-fox/",
+      "portraitUrl": "https://www.cs.washington.edu/wp-content/uploads/2024/08/portrait-dieter-fox.jpg",
+      "officialSections": [
+        "Current Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cs.washington.edu/people/faculty-members/",
+      "decision": "included_existing",
+      "reason": "同名、同机构的现任 PI 已在图谱。",
+      "evidence": "Professor; Current Faculty",
+      "atlasPersonId": "dieter-fox-us"
+    },
+    {
+      "officialId": "douglasburger",
+      "rosterName": "Douglas Burger",
+      "title": "",
+      "profileUrl": "http://research.microsoft.com/en-us/people/dburger/",
+      "portraitUrl": null,
+      "officialSections": [
+        "Affiliate Faculty"
+      ],
+      "researchFields": [
+        "Computer architecture"
+      ],
+      "unitUrl": "https://www.cs.washington.edu/people/faculty-members/",
+      "decision": "excluded_industry_only",
+      "reason": "UW 官方名录为校外产业 affiliate/adjunct，并非 Allen School 现任独立 PI。",
+      "evidence": "Affiliate Faculty; Computer architecture; Microsoft Research"
+    },
+    {
+      "officialId": "douglascarmean",
+      "rosterName": "Douglas Carmean",
+      "title": "",
+      "profileUrl": "https://www.linkedin.com/in/doug-carmean-078b66",
+      "portraitUrl": null,
+      "officialSections": [
+        "Affiliate Faculty"
+      ],
+      "researchFields": [
+        "Computer architecture"
+      ],
+      "unitUrl": "https://www.cs.washington.edu/people/faculty-members/",
+      "decision": "excluded_industry_only",
+      "reason": "UW 官方名录为校外产业 affiliate/adjunct，并非 Allen School 现任独立 PI。",
+      "evidence": "Affiliate Faculty; Computer architecture; Microsoft Research"
+    },
+    {
+      "officialId": "ecekamar",
+      "rosterName": "Ece Kamar",
+      "title": "",
+      "profileUrl": "https://www.microsoft.com/en-us/research/people/eckamar/",
+      "portraitUrl": null,
+      "officialSections": [
+        "Affiliate Faculty"
+      ],
+      "researchFields": [
+        "Artificial Intelligence",
+        "Responsible AI",
+        "Human-AI Collaboration",
+        "AI Fairness",
+        "AI Robustness"
+      ],
+      "unitUrl": "https://www.cs.washington.edu/people/faculty-members/",
+      "decision": "excluded_industry_only",
+      "reason": "UW 官方名录为校外产业 affiliate/adjunct，并非 Allen School 现任独立 PI。",
+      "evidence": "Affiliate Faculty; Artificial Intelligence | Responsible AI | Human-AI Collaboration | AI Fairness | AI Robustness; Microsoft Research"
+    },
+    {
+      "officialId": "44608",
+      "rosterName": "Ed Lazowska",
+      "title": "Professor Emeritus",
+      "profileUrl": "https://www.cs.washington.edu/people/faculty/ed-lazowska/",
+      "portraitUrl": "https://www.cs.washington.edu/wp-content/uploads/2024/08/portrait-ed-lazowska.jpg",
+      "officialSections": [
+        "Emeritus Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cs.washington.edu/people/faculty-members/",
+      "decision": "excluded_historical",
+      "reason": "UW 官方名录将其列为荣休教师；本轮现任独立 PI 名录不接入。",
+      "evidence": "Professor Emeritus; Emeritus Faculty"
+    },
+    {
+      "officialId": "44512",
+      "rosterName": "Elba Garza",
+      "title": "Assistant Teaching Professor",
+      "profileUrl": "https://www.cs.washington.edu/people/faculty/elba-garza/",
+      "portraitUrl": "https://www.cs.washington.edu/wp-content/uploads/2024/04/portrait-elba-garza.jpg",
+      "officialSections": [
+        "Current Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cs.washington.edu/people/faculty-members/",
+      "decision": "excluded_non_pi",
+      "reason": "官方职称属于教学岗位或未显示独立研究教师任职。",
+      "evidence": "Assistant Teaching Professor; Current Faculty"
+    },
+    {
+      "officialId": "emanueltodorov",
+      "rosterName": "Emanuel Todorov",
+      "title": "",
+      "profileUrl": "https://roboti.us/lab/index.html",
+      "portraitUrl": null,
+      "officialSections": [
+        "Affiliate Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cs.washington.edu/people/faculty-members/",
+      "decision": "excluded_non_pi",
+      "reason": "UW 官方名录为 affiliate/adjunct，不作为 Allen School 当前独立 PI 接入。",
+      "evidence": "Affiliate Faculty; Intelligent control in biology and engineering"
+    },
+    {
+      "officialId": "61281",
+      "rosterName": "Emily Bender",
+      "title": "Adjunct",
+      "profileUrl": "https://www.cs.washington.edu/people/faculty/bender-emily/",
+      "portraitUrl": "https://www.cs.washington.edu/wp-content/uploads/2024/11/portrait-adjunct-emily-bender.jpg",
+      "officialSections": [
+        "Adjunct Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cs.washington.edu/people/faculty-members/",
+      "decision": "excluded_non_pi",
+      "reason": "UW 官方名录为 affiliate/adjunct，不作为 Allen School 当前独立 PI 接入。",
+      "evidence": "Adjunct; Adjunct Faculty; Department of Linguistics"
+    },
+    {
+      "officialId": "eminatorlak",
+      "rosterName": "Emina Torlak",
+      "title": "",
+      "profileUrl": null,
+      "portraitUrl": null,
+      "officialSections": [
+        "Affiliate Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cs.washington.edu/people/faculty-members/",
+      "decision": "excluded_non_pi",
+      "reason": "UW 官方名录为 affiliate/adjunct，不作为 Allen School 当前独立 PI 接入。",
+      "evidence": "Affiliate Faculty"
+    },
+    {
+      "officialId": "emmabrunskill",
+      "rosterName": "Emma Brunskill",
+      "title": "",
+      "profileUrl": "http://www.cs.cmu.edu/~ebrun/",
+      "portraitUrl": null,
+      "officialSections": [
+        "Affiliate Faculty"
+      ],
+      "researchFields": [
+        "Machine learning",
+        "sequential decision making under uncertainty",
+        "and artificial intelligence"
+      ],
+      "unitUrl": "https://www.cs.washington.edu/people/faculty-members/",
+      "decision": "excluded_non_pi",
+      "reason": "UW 官方名录为 affiliate/adjunct，不作为 Allen School 当前独立 PI 接入。",
+      "evidence": "Affiliate Faculty; Machine learning | sequential decision making under uncertainty | and artificial intelligence; Carnegie Mellon University"
+    },
+    {
+      "officialId": "erichorvitz",
+      "rosterName": "Eric Horvitz",
+      "title": "",
+      "profileUrl": "http://research.microsoft.com/~horvitz/",
+      "portraitUrl": null,
+      "officialSections": [
+        "Affiliate Faculty"
+      ],
+      "researchFields": [
+        "Adaptive systems and interaction"
+      ],
+      "unitUrl": "https://www.cs.washington.edu/people/faculty-members/",
+      "decision": "excluded_industry_only",
+      "reason": "UW 官方名录为校外产业 affiliate/adjunct，并非 Allen School 现任独立 PI。",
+      "evidence": "Affiliate Faculty; Adaptive systems and interaction; Microsoft Research"
+    },
+    {
+      "officialId": "61616",
+      "rosterName": "Eric Klavins",
+      "title": "Adjunct",
+      "profileUrl": "https://www.cs.washington.edu/people/faculty/klavins-eric/",
+      "portraitUrl": "https://www.cs.washington.edu/wp-content/uploads/2024/11/portrait-adjunct-eric-klavins.jpg",
+      "officialSections": [
+        "Adjunct Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cs.washington.edu/people/faculty-members/",
+      "decision": "excluded_non_pi",
+      "reason": "UW 官方名录为 affiliate/adjunct，不作为 Allen School 当前独立 PI 接入。",
+      "evidence": "Adjunct; Adjunct Faculty; Department of Electrical & Computer Engineering"
+    },
+    {
+      "officialId": "44667",
+      "rosterName": "Franziska Roesner",
+      "title": "Professor",
+      "profileUrl": "https://www.cs.washington.edu/people/faculty/franziska-roesner/",
+      "portraitUrl": "https://www.cs.washington.edu/wp-content/uploads/2024/08/portrait-franziska-roesner.jpg",
+      "officialSections": [
+        "Current Faculty"
+      ],
+      "researchFields": [
+        "Augmented",
+        "Virtual & Mixed Reality; Human-Computer Interaction; Security & Privacy"
+      ],
+      "unitUrl": "https://www.cs.washington.edu/people/faculty-members/",
+      "decision": "excluded_non_ai_cs",
+      "reason": "官方个人页已核验；研究主线未落入本图谱 AI、NLP、CV、ML、机器人或相关数据智能范围。",
+      "evidence": "Professor; Current Faculty; Augmented | Virtual & Mixed Reality; Human-Computer Interaction; Security & Privacy",
+      "enrichmentStatus": "not_applicable",
+      "profileEvidence": {
+        "fetchedFrom": "https://www.cs.washington.edu/people/faculty/franziska-roesner/",
+        "checkedAt": "2026-09-03",
+        "excerpt": "Human-Centered Computing , Interaction with the Physical World , Software & Hardware Systems; Augmented, Virtual & Mixed Reality; Human-Computer Interaction; Security & Privacy"
+      }
+    },
+    {
+      "officialId": "61671",
+      "rosterName": "Frederick Shic",
+      "title": "Adjunct",
+      "profileUrl": "https://www.cs.washington.edu/people/faculty/shic-frederick/",
+      "portraitUrl": "https://www.cs.washington.edu/wp-content/uploads/2024/11/portrait-adjunct-frederick-shic.jpg",
+      "officialSections": [
+        "Adjunct Faculty"
+      ],
+      "researchFields": [
+        "Computational Neuroscience & Neuroengineering; Ubiquitous Computing",
+        "Sensing & Embedded Systems"
+      ],
+      "unitUrl": "https://www.cs.washington.edu/people/faculty-members/",
+      "decision": "excluded_non_pi",
+      "reason": "UW 官方名录为 affiliate/adjunct，不作为 Allen School 当前独立 PI 接入。",
+      "evidence": "Adjunct; Adjunct Faculty; Computational Neuroscience & Neuroengineering; Ubiquitous Computing | Sensing & Embedded Systems; UW Medicine"
+    },
+    {
+      "officialId": "gailalverson",
+      "rosterName": "Gail Alverson",
+      "title": "",
+      "profileUrl": null,
+      "portraitUrl": null,
+      "officialSections": [
+        "Affiliate Faculty"
+      ],
+      "researchFields": [
+        "Software Engineering",
+        "Parallel Systems and Programming Environments"
+      ],
+      "unitUrl": "https://www.cs.washington.edu/people/faculty-members/",
+      "decision": "excluded_industry_only",
+      "reason": "UW 官方名录为校外产业 affiliate/adjunct，并非 Allen School 现任独立 PI。",
+      "evidence": "Affiliate Faculty; Software Engineering | Parallel Systems and Programming Environments; Microsoft"
+    },
+    {
+      "officialId": "61588",
+      "rosterName": "Gary Hsieh",
+      "title": "Adjunct",
+      "profileUrl": "https://www.cs.washington.edu/people/faculty/hsieh-gary/",
+      "portraitUrl": "https://www.cs.washington.edu/wp-content/uploads/2024/12/portrait-adjunct-gary-hsieh.jpg",
+      "officialSections": [
+        "Adjunct Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cs.washington.edu/people/faculty-members/",
+      "decision": "excluded_non_pi",
+      "reason": "UW 官方名录为 affiliate/adjunct，不作为 Allen School 当前独立 PI 接入。",
+      "evidence": "Adjunct; Adjunct Faculty; Department of Human-Centered Design & Engineering"
+    },
+    {
+      "officialId": "garykimura",
+      "rosterName": "Gary Kimura",
+      "title": "",
+      "profileUrl": "http://homes.cs.washington.edu/~garyki/",
+      "portraitUrl": null,
+      "officialSections": [
+        "Affiliate Faculty"
+      ],
+      "researchFields": [
+        "Software engineering and operating systems"
+      ],
+      "unitUrl": "https://www.cs.washington.edu/people/faculty-members/",
+      "decision": "excluded_non_pi",
+      "reason": "UW 官方名录为 affiliate/adjunct，不作为 Allen School 当前独立 PI 接入。",
+      "evidence": "Affiliate Faculty; Software engineering and operating systems; Paul G. Allen School of Computer Science & Engineering"
+    },
+    {
+      "officialId": "genniegebhart",
+      "rosterName": "Gennie Gebhart",
+      "title": "",
+      "profileUrl": "https://www.eff.org/about/staff/gennie-gebhart",
+      "portraitUrl": null,
+      "officialSections": [
+        "Affiliate Faculty"
+      ],
+      "researchFields": [
+        "Third-party tracking",
+        "secure messaging",
+        "platform censorship",
+        "open access"
+      ],
+      "unitUrl": "https://www.cs.washington.edu/people/faculty-members/",
+      "decision": "excluded_non_pi",
+      "reason": "UW 官方名录为 affiliate/adjunct，不作为 Allen School 当前独立 PI 接入。",
+      "evidence": "Affiliate Faculty; Third-party tracking | secure messaging | platform censorship | open access; Electronic Frontier Foundation"
+    },
+    {
+      "officialId": "44677",
+      "rosterName": "Georg Seelig",
+      "title": "Professor",
+      "profileUrl": "https://www.cs.washington.edu/people/faculty/georg-seelig/",
+      "portraitUrl": "https://www.cs.washington.edu/wp-content/uploads/2024/08/portrait-georg-seelig.jpg",
+      "officialSections": [
+        "Current Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cs.washington.edu/people/faculty-members/",
+      "decision": "include_new_pi",
+      "reason": "官方个人页确认现任独立 PI 与 AI/ML/NLP/CV 研究主线；完成纳入判断，资料深化排入后续批次。",
+      "evidence": "Professor; Current Faculty",
+      "enrichmentStatus": "queued_after_scope_decision",
+      "profileEvidence": {
+        "fetchedFrom": "https://www.cs.washington.edu/people/faculty/georg-seelig/",
+        "checkedAt": "2026-09-03",
+        "excerpt": "Computing + Biology; Computational Biology; Molecular Programming & Synthetic Biology"
+      }
+    },
+    {
+      "officialId": "43723",
+      "rosterName": "Gilbert Bernstein",
+      "title": "Assistant Professor",
+      "profileUrl": "https://www.cs.washington.edu/people/faculty/gilbert-bernstein/",
+      "portraitUrl": "https://www.cs.washington.edu/wp-content/uploads/2024/08/portrait-gilbert-bernstein.jpg",
+      "officialSections": [
+        "Current Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cs.washington.edu/people/faculty-members/",
+      "decision": "excluded_non_ai_cs",
+      "reason": "官方个人页已核验；研究主线未落入本图谱 AI、NLP、CV、ML、机器人或相关数据智能范围。",
+      "evidence": "Assistant Professor; Current Faculty",
+      "enrichmentStatus": "not_applicable",
+      "profileEvidence": {
+        "fetchedFrom": "https://www.cs.washington.edu/people/faculty/gilbert-bernstein/",
+        "checkedAt": "2026-09-03",
+        "excerpt": "Human-Centered Computing , Interaction with the Physical World , Software & Hardware Systems; Computer Graphics & Animation; Programming Languages"
+      }
+    },
+    {
+      "officialId": "44653",
+      "rosterName": "Hal Perkins",
+      "title": "Teaching Professor Emeritus",
+      "profileUrl": "https://www.cs.washington.edu/people/faculty/hal-perkins/",
+      "portraitUrl": "https://www.cs.washington.edu/wp-content/uploads/2024/07/fallback-bronze-w-portrait.jpg",
+      "officialSections": [
+        "Emeritus Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cs.washington.edu/people/faculty-members/",
+      "decision": "excluded_historical",
+      "reason": "UW 官方名录将其列为荣休教师；本轮现任独立 PI 名录不接入。",
+      "evidence": "Teaching Professor Emeritus; Emeritus Faculty"
+    },
+    {
+      "officialId": "44616",
+      "rosterName": "Hank Levy",
+      "title": "Professor Emeritus",
+      "profileUrl": "https://www.cs.washington.edu/people/faculty/hank-levy/",
+      "portraitUrl": "https://www.cs.washington.edu/wp-content/uploads/2024/04/portrait-emeritus-hank-levy.jpg",
+      "officialSections": [
+        "Emeritus Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cs.washington.edu/people/faculty-members/",
+      "decision": "excluded_historical",
+      "reason": "UW 官方名录将其列为荣休教师；本轮现任独立 PI 名录不接入。",
+      "evidence": "Professor Emeritus; Emeritus Faculty"
+    },
+    {
+      "officialId": "44570",
+      "rosterName": "Hannaneh Hajishirzi",
+      "title": "Associate Professor",
+      "profileUrl": "https://www.cs.washington.edu/people/faculty/hannaneh-hajishirzi/",
+      "portraitUrl": "https://www.cs.washington.edu/wp-content/uploads/2024/04/portrait-hannaneh-hajishirzi.jpg",
+      "officialSections": [
+        "Current Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cs.washington.edu/people/faculty-members/",
+      "decision": "include_new_pi",
+      "reason": "官方个人页确认现任独立 PI 与 AI/ML/NLP/CV 研究主线；完成纳入判断，资料深化排入后续批次。",
+      "evidence": "Associate Professor; Current Faculty",
+      "enrichmentStatus": "queued_after_scope_decision",
+      "profileEvidence": {
+        "fetchedFrom": "https://www.cs.washington.edu/people/faculty/hannaneh-hajishirzi/",
+        "checkedAt": "2026-09-03",
+        "excerpt": "Artificial Intelligence; Generative AI; Knowledge Representation & Reasoning; Machine Learning; Natural Language Processing"
+      }
+    },
+    {
+      "officialId": "61793",
+      "rosterName": "Hema Yoganarasimhan",
+      "title": "Adjunct",
+      "profileUrl": "https://www.cs.washington.edu/people/faculty/yoganarasimhan-hema/",
+      "portraitUrl": "https://www.cs.washington.edu/wp-content/uploads/2024/12/portrait-adjunct-hema-yoganarasimhan.jpg",
+      "officialSections": [
+        "Adjunct Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cs.washington.edu/people/faculty-members/",
+      "decision": "excluded_non_pi",
+      "reason": "UW 官方名录为 affiliate/adjunct，不作为 Allen School 当前独立 PI 接入。",
+      "evidence": "Adjunct; Adjunct Faculty; Foster School of Business"
+    },
+    {
+      "officialId": "henrykautz",
+      "rosterName": "Henry Kautz",
+      "title": "",
+      "profileUrl": "http://www.cs.rochester.edu/u/kautz/",
+      "portraitUrl": null,
+      "officialSections": [
+        "Affiliate Faculty"
+      ],
+      "researchFields": [
+        "Knowledge representation and reasoning systems."
+      ],
+      "unitUrl": "https://www.cs.washington.edu/people/faculty-members/",
+      "decision": "excluded_non_pi",
+      "reason": "UW 官方名录为 affiliate/adjunct，不作为 Allen School 当前独立 PI 接入。",
+      "evidence": "Affiliate Faculty; Knowledge representation and reasoning systems.; University of Rochester"
+    },
+    {
+      "officialId": "44618",
+      "rosterName": "Huijia (Rachel) Lin",
+      "title": "Professor",
+      "profileUrl": "https://www.cs.washington.edu/people/faculty/huijia-rachel-lin/",
+      "portraitUrl": "https://www.cs.washington.edu/wp-content/uploads/2024/08/portrait-rachel-lin.jpg",
+      "officialSections": [
+        "Current Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cs.washington.edu/people/faculty-members/",
+      "decision": "excluded_non_ai_cs",
+      "reason": "官方个人页已核验；研究主线未落入本图谱 AI、NLP、CV、ML、机器人或相关数据智能范围。",
+      "evidence": "Professor; Current Faculty",
+      "enrichmentStatus": "not_applicable",
+      "profileEvidence": {
+        "fetchedFrom": "https://www.cs.washington.edu/people/faculty/huijia-rachel-lin/",
+        "checkedAt": "2026-09-03",
+        "excerpt": "Software & Hardware Systems , Theory & Models of Computation; Algorithms; Complexity; Cryptography"
+      }
+    },
+    {
+      "officialId": "hunterschafer",
+      "rosterName": "Hunter Schafer",
+      "title": "",
+      "profileUrl": null,
+      "portraitUrl": null,
+      "officialSections": [
+        "Affiliate Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cs.washington.edu/people/faculty-members/",
+      "decision": "excluded_non_pi",
+      "reason": "UW 官方名录为 affiliate/adjunct，不作为 Allen School 当前独立 PI 接入。",
+      "evidence": "Affiliate Faculty"
+    },
+    {
+      "officialId": "44598",
+      "rosterName": "Ira Kemelmacher-Shlizerman",
+      "title": "Professor",
+      "profileUrl": "https://www.cs.washington.edu/people/faculty/ira-kemelmacher-shlizerman/",
+      "portraitUrl": "https://www.cs.washington.edu/wp-content/uploads/2024/04/portrait-ira-kemelmacher-shlizerman.jpg",
+      "officialSections": [
+        "Current Faculty"
+      ],
+      "researchFields": [
+        "Augmented",
+        "Virtual & Mixed Reality; Computer Graphics & Animation; Computer Vision; Generative AI"
+      ],
+      "unitUrl": "https://www.cs.washington.edu/people/faculty-members/",
+      "decision": "include_new_pi",
+      "reason": "本批接入：UW 官方名录确认现任独立教授，且一手个人页、头像与关系证据完整。",
+      "evidence": "Professor; Current Faculty; Augmented | Virtual & Mixed Reality; Computer Graphics & Animation; Computer Vision; Generative AI",
+      "enrichmentStatus": "module_complete"
+    },
+    {
+      "officialId": "61691",
+      "rosterName": "Jacob Sunshine, M.D.",
+      "title": "Adjunct",
+      "profileUrl": "https://www.cs.washington.edu/people/faculty/sunshine-m-d-jacob/",
+      "portraitUrl": "https://www.cs.washington.edu/wp-content/uploads/2024/12/portrait-adjunct-jacob-sunshine.jpg",
+      "officialSections": [
+        "Adjunct Faculty"
+      ],
+      "researchFields": [
+        "Ubiquitous Computing",
+        "Sensing & Embedded Systems"
+      ],
+      "unitUrl": "https://www.cs.washington.edu/people/faculty-members/",
+      "decision": "excluded_non_pi",
+      "reason": "UW 官方名录为 affiliate/adjunct，不作为 Allen School 当前独立 PI 接入。",
+      "evidence": "Adjunct; Adjunct Faculty; Ubiquitous Computing | Sensing & Embedded Systems; School of Medicine"
+    },
+    {
+      "officialId": "61789",
+      "rosterName": "Jacob Wobbrock",
+      "title": "Adjunct",
+      "profileUrl": "https://www.cs.washington.edu/people/faculty/wobbrock-jacob/",
+      "portraitUrl": "https://www.cs.washington.edu/wp-content/uploads/2024/12/portrait-adjunct-jacob-wobbrock.jpg",
+      "officialSections": [
+        "Adjunct Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cs.washington.edu/people/faculty-members/",
+      "decision": "excluded_non_pi",
+      "reason": "UW 官方名录为 affiliate/adjunct，不作为 Allen School 当前独立 PI 接入。",
+      "evidence": "Adjunct; Adjunct Faculty; Information School"
+    },
+    {
+      "officialId": "43745",
+      "rosterName": "James Fogarty",
+      "title": "Professor",
+      "profileUrl": "https://www.cs.washington.edu/people/faculty/james-fogarty/",
+      "portraitUrl": "https://www.cs.washington.edu/wp-content/uploads/2024/04/portrait-james-fogarty.jpg",
+      "officialSections": [
+        "Current Faculty"
+      ],
+      "researchFields": [
+        "Accessibility; Human-Centered AI; Human-Computer Interaction; Ubiquitous Computing",
+        "Sensing & Embedded Systems"
+      ],
+      "unitUrl": "https://www.cs.washington.edu/people/faculty-members/",
+      "decision": "include_new_pi",
+      "reason": "官方个人页确认现任独立 PI 与 AI/ML/NLP/CV 研究主线；完成纳入判断，资料深化排入后续批次。",
+      "evidence": "Professor; Current Faculty; Accessibility; Human-Centered AI; Human-Computer Interaction; Ubiquitous Computing | Sensing & Embedded Systems; Associate Director for Faculty Affairs",
+      "enrichmentStatus": "queued_after_scope_decision",
+      "profileEvidence": {
+        "fetchedFrom": "https://www.cs.washington.edu/people/faculty/james-fogarty/",
+        "checkedAt": "2026-09-03",
+        "excerpt": "Artificial Intelligence , Computing + Biology , Human-Centered Computing , Interaction with the Physical World; Accessibility; Human-Centered AI; Human-Computer Interaction; Ubiquitous Computing, Sensing & Embedded Systems"
+      }
+    },
+    {
+      "officialId": "jameslarus",
+      "rosterName": "James Larus",
+      "title": "",
+      "profileUrl": "http://research.microsoft.com/~larus/",
+      "portraitUrl": null,
+      "officialSections": [
+        "Affiliate Faculty"
+      ],
+      "researchFields": [
+        "Programming languages and compilers"
+      ],
+      "unitUrl": "https://www.cs.washington.edu/people/faculty-members/",
+      "decision": "excluded_non_pi",
+      "reason": "UW 官方名录为 affiliate/adjunct，不作为 Allen School 当前独立 PI 接入。",
+      "evidence": "Affiliate Faculty; Programming languages and compilers; EPFL"
+    },
+    {
+      "officialId": "44716",
+      "rosterName": "James R. Wilcox",
+      "title": "Assistant Teaching Professor",
+      "profileUrl": "https://www.cs.washington.edu/people/faculty/james-r-wilcox/",
+      "portraitUrl": "https://www.cs.washington.edu/wp-content/uploads/2024/04/portrait-james-wilcox.jpg",
+      "officialSections": [
+        "Current Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cs.washington.edu/people/faculty-members/",
+      "decision": "excluded_non_pi",
+      "reason": "官方职称属于教学岗位或未显示独立研究教师任职。",
+      "evidence": "Assistant Teaching Professor; Current Faculty"
+    },
+    {
+      "officialId": "74475",
+      "rosterName": "James Weichert",
+      "title": "Assistant Teaching Professor",
+      "profileUrl": "https://www.cs.washington.edu/people/faculty/weichert-james/",
+      "portraitUrl": "https://www.cs.washington.edu/wp-content/uploads/2025/08/portrait-james-weichert.jpg",
+      "officialSections": [
+        "Current Faculty"
+      ],
+      "researchFields": [
+        "Computing Education Research",
+        "Ethics & Fairness"
+      ],
+      "unitUrl": "https://www.cs.washington.edu/people/faculty-members/",
+      "decision": "excluded_non_pi",
+      "reason": "官方职称属于教学岗位或未显示独立研究教师任职。",
+      "evidence": "Assistant Teaching Professor; Current Faculty; Computing Education Research | Ethics & Fairness"
+    },
+    {
+      "officialId": "44633",
+      "rosterName": "Jamie Morgenstern",
+      "title": "Associate Professor",
+      "profileUrl": "https://www.cs.washington.edu/people/faculty/jamie-morgenstern/",
+      "portraitUrl": "https://www.cs.washington.edu/wp-content/uploads/2024/04/portrait-jamie-morgenstern.jpg",
+      "officialSections": [
+        "Current Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cs.washington.edu/people/faculty-members/",
+      "decision": "include_new_pi",
+      "reason": "官方个人页确认现任独立 PI 与 AI/ML/NLP/CV 研究主线；完成纳入判断，资料深化排入后续批次。",
+      "evidence": "Associate Professor; Current Faculty",
+      "enrichmentStatus": "queued_after_scope_decision",
+      "profileEvidence": {
+        "fetchedFrom": "https://www.cs.washington.edu/people/faculty/jamie-morgenstern/",
+        "checkedAt": "2026-09-03",
+        "excerpt": "Artificial Intelligence; Ethics & Fairness; Human-Centered AI; Machine Learning"
+      }
+    },
+    {
+      "officialId": "jamieteevan",
+      "rosterName": "Jamie Teevan",
+      "title": "",
+      "profileUrl": null,
+      "portraitUrl": null,
+      "officialSections": [
+        "Affiliate Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cs.washington.edu/people/faculty-members/",
+      "decision": "excluded_non_pi",
+      "reason": "UW 官方名录为 affiliate/adjunct，不作为 Allen School 当前独立 PI 接入。",
+      "evidence": "Affiliate Faculty"
+    },
+    {
+      "officialId": "jancuny",
+      "rosterName": "Jan Cuny",
+      "title": "",
+      "profileUrl": null,
+      "portraitUrl": null,
+      "officialSections": [
+        "Affiliate Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cs.washington.edu/people/faculty-members/",
+      "decision": "excluded_non_pi",
+      "reason": "UW 官方名录为 affiliate/adjunct，不作为 Allen School 当前独立 PI 接入。",
+      "evidence": "Affiliate Faculty"
+    },
+    {
+      "officialId": "jaylorch",
+      "rosterName": "Jay Lorch",
+      "title": "",
+      "profileUrl": "https://jaylorch.net",
+      "portraitUrl": null,
+      "officialSections": [
+        "Affiliate Faculty"
+      ],
+      "researchFields": [
+        "Distributed systems",
+        "software verification",
+        "security & privacy"
+      ],
+      "unitUrl": "https://www.cs.washington.edu/people/faculty-members/",
+      "decision": "excluded_industry_only",
+      "reason": "UW 官方名录为校外产业 affiliate/adjunct，并非 Allen School 现任独立 PI。",
+      "evidence": "Affiliate Faculty; Distributed systems | software verification | security & privacy; Microsoft Research"
+    },
+    {
+      "officialId": "49654",
+      "rosterName": "Jean-Loup Baer",
+      "title": "Professor Emeritus",
+      "profileUrl": "https://www.cs.washington.edu/people/faculty/jean-loup-baer/",
+      "portraitUrl": "https://www.cs.washington.edu/wp-content/uploads/2024/07/portrait-emeritus-jean-loup-baer.jpg",
+      "officialSections": [
+        "Emeritus Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cs.washington.edu/people/faculty-members/",
+      "decision": "excluded_historical",
+      "reason": "UW 官方名录将其列为荣休教师；本轮现任独立 PI 名录不接入。",
+      "evidence": "Professor Emeritus; Emeritus Faculty"
+    },
+    {
+      "officialId": "44642",
+      "rosterName": "Jeff Nivala",
+      "title": "Assistant Professor",
+      "profileUrl": "https://www.cs.washington.edu/people/faculty/jeff-nivala/",
+      "portraitUrl": "https://www.cs.washington.edu/wp-content/uploads/2024/04/portrait-jeff-nivala.jpg",
+      "officialSections": [
+        "Current Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cs.washington.edu/people/faculty-members/",
+      "decision": "include_new_pi",
+      "reason": "官方个人页确认现任独立 PI 与 AI/ML/NLP/CV 研究主线；完成纳入判断，资料深化排入后续批次。",
+      "evidence": "Assistant Professor; Current Faculty",
+      "enrichmentStatus": "queued_after_scope_decision",
+      "profileEvidence": {
+        "fetchedFrom": "https://www.cs.washington.edu/people/faculty/jeff-nivala/",
+        "checkedAt": "2026-09-03",
+        "excerpt": "Computing + Biology; Computational Biology; Molecular Programming & Synthetic Biology"
+      }
+    },
+    {
+      "officialId": "61282",
+      "rosterName": "Jeffrey Bilmes",
+      "title": "Adjunct",
+      "profileUrl": "https://www.cs.washington.edu/people/faculty/bilmes-jeffrey/",
+      "portraitUrl": "https://www.cs.washington.edu/wp-content/uploads/2024/11/portrait-adjunct-jeffrey-bilmes.jpg",
+      "officialSections": [
+        "Adjunct Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cs.washington.edu/people/faculty-members/",
+      "decision": "excluded_non_pi",
+      "reason": "UW 官方名录为 affiliate/adjunct，不作为 Allen School 当前独立 PI 接入。",
+      "evidence": "Adjunct; Adjunct Faculty; Department of Electrical & Computer Engineering"
+    },
+    {
+      "officialId": "44572",
+      "rosterName": "Jeffrey Heer",
+      "title": "Professor",
+      "profileUrl": "https://www.cs.washington.edu/people/faculty/jeffrey-heer/",
+      "portraitUrl": "https://www.cs.washington.edu/wp-content/uploads/2024/08/portrait-jeffrey-heer.jpg",
+      "officialSections": [
+        "Current Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cs.washington.edu/people/faculty-members/",
+      "decision": "include_new_pi",
+      "reason": "官方个人页确认现任独立 PI 与 AI/ML/NLP/CV 研究主线；完成纳入判断，资料深化排入后续批次。",
+      "evidence": "Professor; Current Faculty",
+      "enrichmentStatus": "queued_after_scope_decision",
+      "profileEvidence": {
+        "fetchedFrom": "https://www.cs.washington.edu/people/faculty/jeffrey-heer/",
+        "checkedAt": "2026-09-03",
+        "excerpt": "Human-Centered Computing , Software & Hardware Systems; Data Management; Data Science; Data Visualization; Human-Computer Interaction"
+      }
+    },
+    {
+      "officialId": "61578",
+      "rosterName": "Jeffrey Herron",
+      "title": "Adjunct",
+      "profileUrl": "https://www.cs.washington.edu/people/faculty/herron-jeffrey/",
+      "portraitUrl": "https://www.cs.washington.edu/wp-content/uploads/2024/11/portrait-adjunct-jeffrey-herron.jpg",
+      "officialSections": [
+        "Adjunct Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cs.washington.edu/people/faculty-members/",
+      "decision": "excluded_non_pi",
+      "reason": "UW 官方名录为 affiliate/adjunct，不作为 Allen School 当前独立 PI 接入。",
+      "evidence": "Adjunct; Adjunct Faculty; Department of Neurological Surgery"
+    },
+    {
+      "officialId": "44629",
+      "rosterName": "Jen Mankoff",
+      "title": "Professor",
+      "profileUrl": "https://www.cs.washington.edu/people/faculty/jennifer-mankoff/",
+      "portraitUrl": "https://www.cs.washington.edu/wp-content/uploads/2024/04/portrait-jen-mankoff.jpg",
+      "officialSections": [
+        "Current Faculty"
+      ],
+      "researchFields": [
+        "Accessibility; Ethics & Fairness; Fabrication; Human-Computer Interaction; Ubiquitous Computing",
+        "Sensing & Embedded Systems"
+      ],
+      "unitUrl": "https://www.cs.washington.edu/people/faculty-members/",
+      "decision": "include_new_pi",
+      "reason": "官方个人页确认现任独立 PI 与 AI/ML/NLP/CV 研究主线；完成纳入判断，资料深化排入后续批次。",
+      "evidence": "Professor; Current Faculty; Accessibility; Ethics & Fairness; Fabrication; Human-Computer Interaction; Ubiquitous Computing | Sensing & Embedded Systems",
+      "enrichmentStatus": "queued_after_scope_decision",
+      "profileEvidence": {
+        "fetchedFrom": "https://www.cs.washington.edu/people/faculty/jennifer-mankoff/",
+        "checkedAt": "2026-09-03",
+        "excerpt": "Artificial Intelligence , Human-Centered Computing , Interaction with the Physical World; Accessibility; Ethics & Fairness; Fabrication; Human-Computer Interaction; Ubiquitous Computing, Sensing & Embedded Systems"
+      }
+    },
+    {
+      "officialId": "57794",
+      "rosterName": "Jerry Li",
+      "title": "Associate Professor",
+      "profileUrl": "https://www.cs.washington.edu/people/faculty/li-jerry/",
+      "portraitUrl": "https://www.cs.washington.edu/wp-content/uploads/2024/11/portrait-jerry-li.jpg",
+      "officialSections": [
+        "Current Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cs.washington.edu/people/faculty-members/",
+      "decision": "include_new_pi",
+      "reason": "官方个人页确认现任独立 PI 与 AI/ML/NLP/CV 研究主线；完成纳入判断，资料深化排入后续批次。",
+      "evidence": "Associate Professor; Current Faculty",
+      "enrichmentStatus": "queued_after_scope_decision",
+      "profileEvidence": {
+        "fetchedFrom": "https://www.cs.washington.edu/people/faculty/li-jerry/",
+        "checkedAt": "2026-09-03",
+        "excerpt": "Artificial Intelligence , Theory & Models of Computation;"
+      }
+    },
+    {
+      "officialId": "jessicaschroeder",
+      "rosterName": "Jessica Schroeder",
+      "title": "",
+      "profileUrl": null,
+      "portraitUrl": null,
+      "officialSections": [
+        "Affiliate Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cs.washington.edu/people/faculty-members/",
+      "decision": "excluded_non_pi",
+      "reason": "UW 官方名录为 affiliate/adjunct，不作为 Allen School 当前独立 PI 接入。",
+      "evidence": "Affiliate Faculty"
+    },
+    {
+      "officialId": "61787",
+      "rosterName": "Jevin West",
+      "title": "Adjunct",
+      "profileUrl": "https://www.cs.washington.edu/people/faculty/west-jevin/",
+      "portraitUrl": "https://www.cs.washington.edu/wp-content/uploads/2024/12/portrait-adjunct-jevin-west.jpg",
+      "officialSections": [
+        "Adjunct Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cs.washington.edu/people/faculty-members/",
+      "decision": "excluded_non_pi",
+      "reason": "UW 官方名录为 affiliate/adjunct，不作为 Allen School 当前独立 PI 接入。",
+      "evidence": "Adjunct; Adjunct Faculty; Information School"
+    },
+    {
+      "officialId": "jianfenggao",
+      "rosterName": "Jianfeng Gao",
+      "title": "",
+      "profileUrl": "http://research.microsoft.com/people/jfgao",
+      "portraitUrl": null,
+      "officialSections": [
+        "Affiliate Faculty"
+      ],
+      "researchFields": [
+        "Deep Learning",
+        "Natural Language Processing (NLP)",
+        "Web Search and Information Retrieval (IR)",
+        "Multi-Modal Modeling"
+      ],
+      "unitUrl": "https://www.cs.washington.edu/people/faculty-members/",
+      "decision": "excluded_industry_only",
+      "reason": "UW 官方名录为校外产业 affiliate/adjunct，并非 Allen School 现任独立 PI。",
+      "evidence": "Affiliate Faculty; Deep Learning | Natural Language Processing (NLP) | Web Search and Information Retrieval (IR) | Multi-Modal Modeling; Microsoft Research"
+    },
+    {
+      "officialId": "jinasuh",
+      "rosterName": "Jina Suh",
+      "title": "",
+      "profileUrl": null,
+      "portraitUrl": null,
+      "officialSections": [
+        "Affiliate Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cs.washington.edu/people/faculty-members/",
+      "decision": "excluded_non_pi",
+      "reason": "UW 官方名录为 affiliate/adjunct，不作为 Allen School 当前独立 PI 接入。",
+      "evidence": "Affiliate Faculty"
+    },
+    {
+      "officialId": "johannesgehrke",
+      "rosterName": "Johannes Gehrke",
+      "title": "",
+      "profileUrl": "https://www.microsoft.com/en-us/research/people/johannes/",
+      "portraitUrl": null,
+      "officialSections": [
+        "Affiliate Faculty"
+      ],
+      "researchFields": [
+        "Database systems",
+        "distributed systems",
+        "and machine learning"
+      ],
+      "unitUrl": "https://www.cs.washington.edu/people/faculty-members/",
+      "decision": "excluded_industry_only",
+      "reason": "UW 官方名录为校外产业 affiliate/adjunct，并非 Allen School 现任独立 PI。",
+      "evidence": "Affiliate Faculty; Database systems | distributed systems | and machine learning; Microsoft Research"
+    },
+    {
+      "officialId": "61891",
+      "rosterName": "John Zahorjan",
+      "title": "Professor Emeritus",
+      "profileUrl": "https://www.cs.washington.edu/people/faculty/zahorjan-john/",
+      "portraitUrl": "https://www.cs.washington.edu/wp-content/uploads/2024/12/portrait-emeritus-john-zahorjan.jpg",
+      "officialSections": [
+        "Emeritus Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cs.washington.edu/people/faculty-members/",
+      "decision": "excluded_historical",
+      "reason": "UW 官方名录将其列为荣休教师；本轮现任独立 PI 名录不接入。",
+      "evidence": "Professor Emeritus; Emeritus Faculty"
+    },
+    {
+      "officialId": "43747",
+      "rosterName": "Jon E. Froehlich",
+      "title": "Professor",
+      "profileUrl": "https://www.cs.washington.edu/people/faculty/jon-e-froehlich/",
+      "portraitUrl": "https://www.cs.washington.edu/wp-content/uploads/2024/08/portrait-jon-froehlich.jpg",
+      "officialSections": [
+        "Current Faculty"
+      ],
+      "researchFields": [
+        "Accessibility; Augmented",
+        "Virtual & Mixed Reality; Human-Computer Interaction; Ubiquitous Computing",
+        "Sensing & Embedded Systems"
+      ],
+      "unitUrl": "https://www.cs.washington.edu/people/faculty-members/",
+      "decision": "excluded_non_ai_cs",
+      "reason": "官方个人页已核验；研究主线未落入本图谱 AI、NLP、CV、ML、机器人或相关数据智能范围。",
+      "evidence": "Professor; Current Faculty; Accessibility; Augmented | Virtual & Mixed Reality; Human-Computer Interaction; Ubiquitous Computing | Sensing & Embedded Systems",
+      "enrichmentStatus": "not_applicable",
+      "profileEvidence": {
+        "fetchedFrom": "https://www.cs.washington.edu/people/faculty/jon-e-froehlich/",
+        "checkedAt": "2026-09-03",
+        "excerpt": "Human-Centered Computing , Interaction with the Physical World; Accessibility; Augmented, Virtual & Mixed Reality; Human-Computer Interaction; Ubiquitous Computing, Sensing & Embedded Systems"
+      }
+    },
+    {
+      "officialId": "jonhowell",
+      "rosterName": "Jon Howell",
+      "title": "",
+      "profileUrl": "https://www.jonh.net/~jonh/cv/",
+      "portraitUrl": null,
+      "officialSections": [
+        "Affiliate Faculty"
+      ],
+      "researchFields": [
+        "Systems verification",
+        "Distributed Systems",
+        "Security",
+        "Operating Systems"
+      ],
+      "unitUrl": "https://www.cs.washington.edu/people/faculty-members/",
+      "decision": "excluded_non_pi",
+      "reason": "UW 官方名录为 affiliate/adjunct，不作为 Allen School 当前独立 PI 接入。",
+      "evidence": "Affiliate Faculty; Systems verification | Distributed Systems | Security | Operating Systems; VMware Research"
+    },
+    {
+      "officialId": "josephhellerstein",
+      "rosterName": "Joseph Hellerstein",
+      "title": "",
+      "profileUrl": "https://sites.google.com/site/josephlhellerstein/",
+      "portraitUrl": null,
+      "officialSections": [
+        "Affiliate Faculty"
+      ],
+      "researchFields": [
+        "Performance evaluation",
+        "systems management",
+        "science in the cloud terms"
+      ],
+      "unitUrl": "https://www.cs.washington.edu/people/faculty-members/",
+      "decision": "excluded_non_pi",
+      "reason": "UW 官方名录为 affiliate/adjunct，不作为 Allen School 当前独立 PI 接入。",
+      "evidence": "Affiliate Faculty; Performance evaluation | systems management | science in the cloud terms; UW eScience Institute"
+    },
+    {
+      "officialId": "joshbenaloh",
+      "rosterName": "Josh Benaloh",
+      "title": "",
+      "profileUrl": "http://research.microsoft.com/~benaloh/",
+      "portraitUrl": null,
+      "officialSections": [
+        "Affiliate Faculty"
+      ],
+      "researchFields": [
+        "Cryptography"
+      ],
+      "unitUrl": "https://www.cs.washington.edu/people/faculty-members/",
+      "decision": "excluded_industry_only",
+      "reason": "UW 官方名录为校外产业 affiliate/adjunct，并非 Allen School 现任独立 PI。",
+      "evidence": "Affiliate Faculty; Cryptography; Microsoft Research"
+    },
+    {
+      "officialId": "44686",
+      "rosterName": "Joshua Smith",
+      "title": "Professor",
+      "profileUrl": "https://www.cs.washington.edu/people/faculty/joshua-r-smith/",
+      "portraitUrl": "https://www.cs.washington.edu/wp-content/uploads/2024/04/portrait-joshua-smith.jpg",
+      "officialSections": [
+        "Current Faculty"
+      ],
+      "researchFields": [
+        "Computer Networking; Robotics; Ubiquitous Computing",
+        "Sensing & Embedded Systems; Wireless Sensing"
+      ],
+      "unitUrl": "https://www.cs.washington.edu/people/faculty-members/",
+      "decision": "include_new_pi",
+      "reason": "官方个人页确认现任独立 PI 与 AI/ML/NLP/CV 研究主线；完成纳入判断，资料深化排入后续批次。",
+      "evidence": "Professor; Current Faculty; Computer Networking; Robotics; Ubiquitous Computing | Sensing & Embedded Systems; Wireless Sensing",
+      "enrichmentStatus": "queued_after_scope_decision",
+      "profileEvidence": {
+        "fetchedFrom": "https://www.cs.washington.edu/people/faculty/joshua-r-smith/",
+        "checkedAt": "2026-09-03",
+        "excerpt": "Artificial Intelligence , Computing + Biology , Interaction with the Physical World , Software & Hardware Systems; Computer Networking; Robotics; Ubiquitous Computing, Sensing & Embedded Systems; Wireless Sensing"
+      }
+    },
+    {
+      "officialId": "jovanpopovic",
+      "rosterName": "Jovan Popovic",
+      "title": "",
+      "profileUrl": "http://www.adobe.com/technology/people/seattle/popovic.html",
+      "portraitUrl": null,
+      "officialSections": [
+        "Affiliate Faculty"
+      ],
+      "researchFields": [
+        "Computer animation and geometric modeling"
+      ],
+      "unitUrl": "https://www.cs.washington.edu/people/faculty-members/",
+      "decision": "excluded_industry_only",
+      "reason": "UW 官方名录为校外产业 affiliate/adjunct，并非 Allen School 现任独立 PI。",
+      "evidence": "Affiliate Faculty; Computer animation and geometric modeling; Adobe"
+    },
+    {
+      "officialId": "judyilles",
+      "rosterName": "Judy Illes",
+      "title": "",
+      "profileUrl": "http://neuroethics.med.ubc.ca/people-2/",
+      "portraitUrl": null,
+      "officialSections": [
+        "Affiliate Faculty"
+      ],
+      "researchFields": [
+        "Neurology and neuroethics"
+      ],
+      "unitUrl": "https://www.cs.washington.edu/people/faculty-members/",
+      "decision": "excluded_non_pi",
+      "reason": "UW 官方名录为 affiliate/adjunct，不作为 Allen School 当前独立 PI 接入。",
+      "evidence": "Affiliate Faculty; Neurology and neuroethics; University of British Columbia"
+    },
+    {
+      "officialId": "61603",
+      "rosterName": "Julie Kientz",
+      "title": "Adjunct",
+      "profileUrl": "https://www.cs.washington.edu/people/faculty/kientz-julie/",
+      "portraitUrl": "https://www.cs.washington.edu/wp-content/uploads/2024/11/portrait-adjunct-julie-kientz.jpg",
+      "officialSections": [
+        "Adjunct Faculty"
+      ],
+      "researchFields": [
+        "Accessibility; Human-Computer Interaction; Ubiquitous Computing",
+        "Sensing & Embedded Systems"
+      ],
+      "unitUrl": "https://www.cs.washington.edu/people/faculty-members/",
+      "decision": "excluded_non_pi",
+      "reason": "UW 官方名录为 affiliate/adjunct，不作为 Allen School 当前独立 PI 接入。",
+      "evidence": "Adjunct; Adjunct Faculty; Accessibility; Human-Computer Interaction; Ubiquitous Computing | Sensing & Embedded Systems; Department of Human-Centered Design & Engineering"
+    },
+    {
+      "officialId": "44577",
+      "rosterName": "Justin Hsia",
+      "title": "Associate Teaching Professor",
+      "profileUrl": "https://www.cs.washington.edu/people/faculty/justin-hsia/",
+      "portraitUrl": "https://www.cs.washington.edu/wp-content/uploads/2024/04/portrait-justin-hsia.jpg",
+      "officialSections": [
+        "Current Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cs.washington.edu/people/faculty-members/",
+      "decision": "excluded_non_pi",
+      "reason": "官方职称属于教学岗位或未显示独立研究教师任职。",
+      "evidence": "Associate Teaching Professor; Current Faculty"
+    },
+    {
+      "officialId": "kamaljain",
+      "rosterName": "Kamal Jain",
+      "title": "",
+      "profileUrl": "https://labs.ebay.com/people/kamal-jain/",
+      "portraitUrl": null,
+      "officialSections": [
+        "Affiliate Faculty"
+      ],
+      "researchFields": [
+        "algorithmic game theory",
+        "combinatorial optimization"
+      ],
+      "unitUrl": "https://www.cs.washington.edu/people/faculty-members/",
+      "decision": "excluded_industry_only",
+      "reason": "UW 官方名录为校外产业 affiliate/adjunct，并非 Allen School 现任独立 PI。",
+      "evidence": "Affiliate Faculty; algorithmic game theory | combinatorial optimization; eBay Research Labs"
+    },
+    {
+      "officialId": "karinstrauss",
+      "rosterName": "Karin Strauss",
+      "title": "",
+      "profileUrl": "https://www.microsoft.com/en-us/research/people/kstrauss/",
+      "portraitUrl": null,
+      "officialSections": [
+        "Affiliate Faculty"
+      ],
+      "researchFields": [
+        "Parallel computer architecture"
+      ],
+      "unitUrl": "https://www.cs.washington.edu/people/faculty-members/",
+      "decision": "excluded_industry_only",
+      "reason": "UW 官方名录为校外产业 affiliate/adjunct，并非 Allen School 现任独立 PI。",
+      "evidence": "Affiliate Faculty; Parallel computer architecture; Microsoft Research"
+    },
+    {
+      "officialId": "61372",
+      "rosterName": "Karl Böhringer",
+      "title": "Adjunct",
+      "profileUrl": "https://www.cs.washington.edu/people/faculty/bohringer-karl/",
+      "portraitUrl": "https://www.cs.washington.edu/wp-content/uploads/2024/11/portrait-adjunct-karl-bohringer.jpg",
+      "officialSections": [
+        "Adjunct Faculty"
+      ],
+      "researchFields": [
+        "Architecture & Parallel Computing; Molecular Programming & Synthetic Biology; Ubiquitous Computing",
+        "Sensing & Embedded Systems"
+      ],
+      "unitUrl": "https://www.cs.washington.edu/people/faculty-members/",
+      "decision": "excluded_non_pi",
+      "reason": "UW 官方名录为 affiliate/adjunct，不作为 Allen School 当前独立 PI 接入。",
+      "evidence": "Adjunct; Adjunct Faculty; Architecture & Parallel Computing; Molecular Programming & Synthetic Biology; Ubiquitous Computing | Sensing & Embedded Systems; Department of Electrical & Computer Engineering"
+    },
+    {
+      "officialId": "61675",
+      "rosterName": "Kate Starbird",
+      "title": "Adjunct",
+      "profileUrl": "https://www.cs.washington.edu/people/faculty/starbird-kate/",
+      "portraitUrl": "https://www.cs.washington.edu/wp-content/uploads/2024/11/portrait-adjunct-kate-starbird.jpg",
+      "officialSections": [
+        "Adjunct Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cs.washington.edu/people/faculty-members/",
+      "decision": "excluded_non_pi",
+      "reason": "UW 官方名录为 affiliate/adjunct，不作为 Allen School 当前独立 PI 接入。",
+      "evidence": "Adjunct; Adjunct Faculty; Department of Human-Centered Design & Engineering"
+    },
+    {
+      "officialId": "44665",
+      "rosterName": "Katharina Reinecke",
+      "title": "Professor",
+      "profileUrl": "https://www.cs.washington.edu/people/faculty/katharina-reinecke/",
+      "portraitUrl": "https://www.cs.washington.edu/wp-content/uploads/2024/08/portrait-katharina-reinecke.jpg",
+      "officialSections": [
+        "Current Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cs.washington.edu/people/faculty-members/",
+      "decision": "include_new_pi",
+      "reason": "官方个人页确认现任独立 PI 与 AI/ML/NLP/CV 研究主线；完成纳入判断，资料深化排入后续批次。",
+      "evidence": "Professor; Current Faculty; Associate Director for Research and Communication",
+      "enrichmentStatus": "queued_after_scope_decision",
+      "profileEvidence": {
+        "fetchedFrom": "https://www.cs.washington.edu/people/faculty/katharina-reinecke/",
+        "checkedAt": "2026-09-03",
+        "excerpt": "Artificial Intelligence , Human-Centered Computing; Ethics & Fairness; Human-Centered AI; Human-Computer Interaction"
+      }
+    },
+    {
+      "officialId": "44581",
+      "rosterName": "Kevin Jamieson",
+      "title": "Associate Professor",
+      "profileUrl": "https://www.cs.washington.edu/people/faculty/kevin-jamieson/",
+      "portraitUrl": "https://www.cs.washington.edu/wp-content/uploads/2024/08/portrait-kevin-jamieson.jpg",
+      "officialSections": [
+        "Current Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cs.washington.edu/people/faculty-members/",
+      "decision": "include_new_pi",
+      "reason": "官方个人页确认现任独立 PI 与 AI/ML/NLP/CV 研究主线；完成纳入判断，资料深化排入后续批次。",
+      "evidence": "Associate Professor; Current Faculty",
+      "enrichmentStatus": "queued_after_scope_decision",
+      "profileEvidence": {
+        "fetchedFrom": "https://www.cs.washington.edu/people/faculty/kevin-jamieson/",
+        "checkedAt": "2026-09-03",
+        "excerpt": "Artificial Intelligence; Machine Learning"
+      }
+    },
+    {
+      "officialId": "44620",
+      "rosterName": "Kevin Lin",
+      "title": "Associate Teaching Professor",
+      "profileUrl": "https://www.cs.washington.edu/people/faculty/kevin-lin/",
+      "portraitUrl": "https://www.cs.washington.edu/wp-content/uploads/2024/04/portrait-kevin-lin.jpg",
+      "officialSections": [
+        "Current Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cs.washington.edu/people/faculty-members/",
+      "decision": "excluded_non_pi",
+      "reason": "官方职称属于教学岗位或未显示独立研究教师任职。",
+      "evidence": "Associate Teaching Professor; Current Faculty"
+    },
+    {
+      "officialId": "44575",
+      "rosterName": "Kurtis Heimerl",
+      "title": "Associate Professor",
+      "profileUrl": "https://www.cs.washington.edu/people/faculty/kurtis-heimerl/",
+      "portraitUrl": "https://www.cs.washington.edu/wp-content/uploads/2024/08/portrait-kurtis-heimerl.jpg",
+      "officialSections": [
+        "Current Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cs.washington.edu/people/faculty-members/",
+      "decision": "excluded_non_ai_cs",
+      "reason": "官方个人页已核验；研究主线未落入本图谱 AI、NLP、CV、ML、机器人或相关数据智能范围。",
+      "evidence": "Associate Professor; Current Faculty",
+      "enrichmentStatus": "not_applicable",
+      "profileEvidence": {
+        "fetchedFrom": "https://www.cs.washington.edu/people/faculty/kurtis-heimerl/",
+        "checkedAt": "2026-09-03",
+        "excerpt": "Human-Centered Computing , Software & Hardware Systems; Computer Networking; Computing for Development; Human-Computer Interaction"
+      }
+    },
+    {
+      "officialId": "43726",
+      "rosterName": "Lauren Bricker",
+      "title": "Associate Teaching Professor",
+      "profileUrl": "https://www.cs.washington.edu/people/faculty/lauren-bricker/",
+      "portraitUrl": "https://www.cs.washington.edu/wp-content/uploads/2024/04/portrait-lauren-bricker.jpg",
+      "officialSections": [
+        "Current Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cs.washington.edu/people/faculty-members/",
+      "decision": "excluded_non_pi",
+      "reason": "官方职称属于教学岗位或未显示独立研究教师任职。",
+      "evidence": "Associate Teaching Professor; Current Faculty"
+    },
+    {
+      "officialId": "61870",
+      "rosterName": "Lawrence (Larry) Snyder",
+      "title": "Professor Emeritus",
+      "profileUrl": "https://www.cs.washington.edu/people/faculty/snyder-lawrence-larry/",
+      "portraitUrl": "https://www.cs.washington.edu/wp-content/uploads/2024/12/portrait-emeritus-larry-snyder.jpg",
+      "officialSections": [
+        "Emeritus Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cs.washington.edu/people/faculty-members/",
+      "decision": "excluded_historical",
+      "reason": "UW 官方名录将其列为荣休教师；本轮现任独立 PI 名录不接入。",
+      "evidence": "Professor Emeritus; Emeritus Faculty"
+    },
+    {
+      "officialId": "61570",
+      "rosterName": "Leah Findlater",
+      "title": "Adjunct",
+      "profileUrl": "https://www.cs.washington.edu/people/faculty/findlater-leah/",
+      "portraitUrl": "https://www.cs.washington.edu/wp-content/uploads/2024/07/fallback-bronze-w-portrait.jpg",
+      "officialSections": [
+        "Adjunct Faculty"
+      ],
+      "researchFields": [
+        "Accessibility; Human-Centered AI; Human-Computer Interaction; Ubiquitous Computing",
+        "Sensing & Embedded Systems"
+      ],
+      "unitUrl": "https://www.cs.washington.edu/people/faculty-members/",
+      "decision": "excluded_non_pi",
+      "reason": "UW 官方名录为 affiliate/adjunct，不作为 Allen School 当前独立 PI 接入。",
+      "evidence": "Adjunct; Adjunct Faculty; Accessibility; Human-Centered AI; Human-Computer Interaction; Ubiquitous Computing | Sensing & Embedded Systems; Department of Human-Centered Design & Engineering"
+    },
+    {
+      "officialId": "43721",
+      "rosterName": "Leilani Battle",
+      "title": "Associate Professor",
+      "profileUrl": "https://www.cs.washington.edu/people/faculty/leilani-battle/",
+      "portraitUrl": "https://www.cs.washington.edu/wp-content/uploads/2024/08/portrait-leilani-battle.jpg",
+      "officialSections": [
+        "Current Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cs.washington.edu/people/faculty-members/",
+      "decision": "include_new_pi",
+      "reason": "官方个人页确认现任独立 PI 与 AI/ML/NLP/CV 研究主线；完成纳入判断，资料深化排入后续批次。",
+      "evidence": "Associate Professor; Current Faculty",
+      "enrichmentStatus": "queued_after_scope_decision",
+      "profileEvidence": {
+        "fetchedFrom": "https://www.cs.washington.edu/people/faculty/leilani-battle/",
+        "checkedAt": "2026-09-03",
+        "excerpt": "Artificial Intelligence , Human-Centered Computing , Software & Hardware Systems;"
+      }
+    },
+    {
+      "officialId": "leroyhood",
+      "rosterName": "Leroy Hood",
+      "title": "",
+      "profileUrl": "https://www.systemsbiology.org/leroy-hood",
+      "portraitUrl": null,
+      "officialSections": [
+        "Affiliate Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cs.washington.edu/people/faculty-members/",
+      "decision": "excluded_non_pi",
+      "reason": "UW 官方名录为 affiliate/adjunct，不作为 Allen School 当前独立 PI 接入。",
+      "evidence": "Affiliate Faculty; Institute for Systems Biology"
+    },
+    {
+      "officialId": "61654",
+      "rosterName": "Lillian Ratliff",
+      "title": "Adjunct",
+      "profileUrl": "https://www.cs.washington.edu/people/faculty/ratliff-lillian/",
+      "portraitUrl": "https://www.cs.washington.edu/wp-content/uploads/2024/11/portrait-adjunct-lillian-ratliff.jpg",
+      "officialSections": [
+        "Adjunct Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cs.washington.edu/people/faculty-members/",
+      "decision": "excluded_non_pi",
+      "reason": "UW 官方名录为 affiliate/adjunct，不作为 Allen School 当前独立 PI 接入。",
+      "evidence": "Adjunct; Adjunct Faculty; Department of Electrical & Computer Engineering"
+    },
+    {
+      "officialId": "44683",
+      "rosterName": "Linda Shapiro",
+      "title": "Professor",
+      "profileUrl": "https://www.cs.washington.edu/people/faculty/linda-shapiro/",
+      "portraitUrl": "https://www.cs.washington.edu/wp-content/uploads/2024/11/portrait-linda-shapiro.jpg",
+      "officialSections": [
+        "Current Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cs.washington.edu/people/faculty-members/",
+      "decision": "include_new_pi",
+      "reason": "官方个人页确认现任独立 PI 与 AI/ML/NLP/CV 研究主线；完成纳入判断，资料深化排入后续批次。",
+      "evidence": "Professor; Current Faculty",
+      "enrichmentStatus": "queued_after_scope_decision",
+      "profileEvidence": {
+        "fetchedFrom": "https://www.cs.washington.edu/people/faculty/linda-shapiro/",
+        "checkedAt": "2026-09-03",
+        "excerpt": "Artificial Intelligence , Computing + Biology; Computational Biology; Computer Vision; Machine Learning"
+      }
+    },
+    {
+      "officialId": "61785",
+      "rosterName": "Lucy Wang",
+      "title": "Adjunct",
+      "profileUrl": "https://www.cs.washington.edu/people/faculty/wang-lucy/",
+      "portraitUrl": "https://www.cs.washington.edu/wp-content/uploads/2024/12/portrait-adjunct-lucy-wang.jpg",
+      "officialSections": [
+        "Adjunct Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cs.washington.edu/people/faculty-members/",
+      "decision": "excluded_non_pi",
+      "reason": "UW 官方名录为 affiliate/adjunct，不作为 Allen School 当前独立 PI 接入。",
+      "evidence": "Adjunct; Adjunct Faculty; Information School"
+    },
+    {
+      "officialId": "ludwigschmidt",
+      "rosterName": "Ludwig Schmidt",
+      "title": "",
+      "profileUrl": null,
+      "portraitUrl": null,
+      "officialSections": [
+        "Affiliate Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cs.washington.edu/people/faculty-members/",
+      "decision": "excluded_non_pi",
+      "reason": "UW 官方名录为 affiliate/adjunct，不作为 Allen School 当前独立 PI 接入。",
+      "evidence": "Affiliate Faculty"
+    },
+    {
+      "officialId": "43729",
+      "rosterName": "Luis Ceze",
+      "title": "Professor",
+      "profileUrl": "https://www.cs.washington.edu/people/faculty/luis-ceze/",
+      "portraitUrl": "https://www.cs.washington.edu/wp-content/uploads/2024/08/portrait-luis-ceze.jpg",
+      "officialSections": [
+        "Current Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cs.washington.edu/people/faculty-members/",
+      "decision": "include_new_pi",
+      "reason": "官方个人页确认现任独立 PI 与 AI/ML/NLP/CV 研究主线；完成纳入判断，资料深化排入后续批次。",
+      "evidence": "Professor; Current Faculty",
+      "enrichmentStatus": "queued_after_scope_decision",
+      "profileEvidence": {
+        "fetchedFrom": "https://www.cs.washington.edu/people/faculty/luis-ceze/",
+        "checkedAt": "2026-09-03",
+        "excerpt": "Artificial Intelligence , Computing + Biology , Software & Hardware Systems; Architecture & Parallel Computing; Machine Learning; Molecular Programming & Synthetic Biology"
+      }
+    },
+    {
+      "officialId": "44721",
+      "rosterName": "Luke Zettlemoyer",
+      "title": "Professor",
+      "profileUrl": "https://www.cs.washington.edu/people/faculty/luke-zettlemoyer/",
+      "portraitUrl": "https://www.cs.washington.edu/wp-content/uploads/2024/04/portrait-luke-zettlemoyer.jpg",
+      "officialSections": [
+        "Current Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cs.washington.edu/people/faculty-members/",
+      "decision": "included_existing",
+      "reason": "同名、同机构的现任 PI 已在图谱。",
+      "evidence": "Professor; Current Faculty",
+      "atlasPersonId": "luke-zettlemoyer-us"
+    },
+    {
+      "officialId": "61393",
+      "rosterName": "Léonard Boussioux",
+      "title": "Adjunct",
+      "profileUrl": "https://www.cs.washington.edu/people/faculty/boussioux-leonard/",
+      "portraitUrl": "https://www.cs.washington.edu/wp-content/uploads/2024/12/portrait-adjunct-leonard-boussioux.jpg",
+      "officialSections": [
+        "Adjunct Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cs.washington.edu/people/faculty-members/",
+      "decision": "excluded_non_pi",
+      "reason": "UW 官方名录为 affiliate/adjunct，不作为 Allen School 当前独立 PI 接入。",
+      "evidence": "Adjunct; Adjunct Faculty; Foster School of Business"
+    },
+    {
+      "officialId": "43720",
+      "rosterName": "Magdalena Balazinska",
+      "title": "Professor",
+      "profileUrl": "https://www.cs.washington.edu/people/faculty/magdalena-balazinska/",
+      "portraitUrl": "https://www.cs.washington.edu/wp-content/uploads/2024/08/portrait-magdalena-balazinska.jpg",
+      "officialSections": [
+        "Current Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cs.washington.edu/people/faculty-members/",
+      "decision": "include_new_pi",
+      "reason": "官方个人页确认现任独立 PI 与 AI/ML/NLP/CV 研究主线；完成纳入判断，资料深化排入后续批次。",
+      "evidence": "Professor; Current Faculty",
+      "enrichmentStatus": "queued_after_scope_decision",
+      "profileEvidence": {
+        "fetchedFrom": "https://www.cs.washington.edu/people/faculty/magdalena-balazinska/",
+        "checkedAt": "2026-09-03",
+        "excerpt": "Human-Centered Computing , Software & Hardware Systems; Cloud Computing; Data Management; Data Science"
+      }
+    },
+    {
+      "officialId": "marcotulioribeiro",
+      "rosterName": "Marco Tulio Ribeiro",
+      "title": "",
+      "profileUrl": "https://homes.cs.washington.edu/~marcotcr/",
+      "portraitUrl": null,
+      "officialSections": [
+        "Affiliate Faculty"
+      ],
+      "researchFields": [
+        "Machine Learning"
+      ],
+      "unitUrl": "https://www.cs.washington.edu/people/faculty-members/",
+      "decision": "excluded_industry_only",
+      "reason": "UW 官方名录为校外产业 affiliate/adjunct，并非 Allen School 现任独立 PI。",
+      "evidence": "Affiliate Faculty; Machine Learning; Microsoft Research"
+    },
+    {
+      "officialId": "61652",
+      "rosterName": "Mari Ostendorf",
+      "title": "Adjunct",
+      "profileUrl": "https://www.cs.washington.edu/people/faculty/ostendorf-mari/",
+      "portraitUrl": "https://www.cs.washington.edu/wp-content/uploads/2024/11/portrait-adjunct-mari-ostendorf.jpg",
+      "officialSections": [
+        "Adjunct Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cs.washington.edu/people/faculty-members/",
+      "decision": "excluded_non_pi",
+      "reason": "UW 官方名录为 affiliate/adjunct，不作为 Allen School 当前独立 PI 接入。",
+      "evidence": "Adjunct; Adjunct Faculty; Department of Electrical & Computer Engineering"
+    },
+    {
+      "officialId": "44646",
+      "rosterName": "Mark Oskin",
+      "title": "Professor",
+      "profileUrl": "https://www.cs.washington.edu/people/faculty/mark-oskin/",
+      "portraitUrl": "https://www.cs.washington.edu/wp-content/uploads/2024/04/portrait-mark-oskin.jpg",
+      "officialSections": [
+        "Current Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cs.washington.edu/people/faculty-members/",
+      "decision": "excluded_non_ai_cs",
+      "reason": "官方个人页已核验；研究主线未落入本图谱 AI、NLP、CV、ML、机器人或相关数据智能范围。",
+      "evidence": "Professor; Current Faculty",
+      "enrichmentStatus": "not_applicable",
+      "profileEvidence": {
+        "fetchedFrom": "https://www.cs.washington.edu/people/faculty/mark-oskin/",
+        "checkedAt": "2026-09-03",
+        "excerpt": "Software & Hardware Systems; Architecture & Parallel Computing"
+      }
+    },
+    {
+      "officialId": "61665",
+      "rosterName": "Martin Saveski",
+      "title": "Adjunct",
+      "profileUrl": "https://www.cs.washington.edu/people/faculty/saveski-martin/",
+      "portraitUrl": "https://www.cs.washington.edu/wp-content/uploads/2024/11/portrait-adjunct-martin-saveski.jpg",
+      "officialSections": [
+        "Adjunct Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cs.washington.edu/people/faculty-members/",
+      "decision": "excluded_non_pi",
+      "reason": "UW 官方名录为 affiliate/adjunct，不作为 Allen School 当前独立 PI 接入。",
+      "evidence": "Adjunct; Adjunct Faculty; Information School"
+    },
+    {
+      "officialId": "61843",
+      "rosterName": "Martin Tompa",
+      "title": "Professor Emeritus",
+      "profileUrl": "https://www.cs.washington.edu/people/faculty/tompa-martin/",
+      "portraitUrl": "https://www.cs.washington.edu/wp-content/uploads/2024/12/portrait-emeritus-martin-tompa.jpg",
+      "officialSections": [
+        "Emeritus Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cs.washington.edu/people/faculty-members/",
+      "decision": "excluded_historical",
+      "reason": "UW 官方名录将其列为荣休教师；本轮现任独立 PI 名录不接入。",
+      "evidence": "Professor Emeritus; Emeritus Faculty"
+    },
+    {
+      "officialId": "61428",
+      "rosterName": "Maryam Fazel",
+      "title": "Adjunct",
+      "profileUrl": "https://www.cs.washington.edu/people/faculty/fazel-maryam/",
+      "portraitUrl": "https://www.cs.washington.edu/wp-content/uploads/2024/11/portrait-adjunct-maryam-fazel.jpg",
+      "officialSections": [
+        "Adjunct Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cs.washington.edu/people/faculty-members/",
+      "decision": "excluded_non_pi",
+      "reason": "UW 官方名录为 affiliate/adjunct，不作为 Allen School 当前独立 PI 接入。",
+      "evidence": "Adjunct; Adjunct Faculty; Department of Electrical & Computer Engineering"
+    },
+    {
+      "officialId": "61656",
+      "rosterName": "Matt Reynolds",
+      "title": "Adjunct",
+      "profileUrl": "https://www.cs.washington.edu/people/faculty/reynolds-matt/",
+      "portraitUrl": "https://www.cs.washington.edu/wp-content/uploads/2024/11/portrait-adjunct-matt-reynolds.jpg",
+      "officialSections": [
+        "Adjunct Faculty"
+      ],
+      "researchFields": [
+        "Computer Networking; Ubiquitous Computing",
+        "Sensing & Embedded Systems; Wireless Systems"
+      ],
+      "unitUrl": "https://www.cs.washington.edu/people/faculty-members/",
+      "decision": "excluded_non_pi",
+      "reason": "UW 官方名录为 affiliate/adjunct，不作为 Allen School 当前独立 PI 接入。",
+      "evidence": "Adjunct; Adjunct Faculty; Computer Networking; Ubiquitous Computing | Sensing & Embedded Systems; Wireless Systems; Department of Electrical & Computer Engineering"
+    },
+    {
+      "officialId": "44708",
+      "rosterName": "Matt Wang",
+      "title": "Assistant Teaching Professor",
+      "profileUrl": "https://www.cs.washington.edu/people/faculty/matt-wang/",
+      "portraitUrl": "https://www.cs.washington.edu/wp-content/uploads/2024/04/portrait-matt-wang.jpg",
+      "officialSections": [
+        "Current Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cs.washington.edu/people/faculty-members/",
+      "decision": "excluded_non_pi",
+      "reason": "官方职称属于教学岗位或未显示独立研究教师任职。",
+      "evidence": "Assistant Teaching Professor; Current Faculty"
+    },
+    {
+      "officialId": "matthaiphilipose",
+      "rosterName": "Matthai Philipose",
+      "title": "",
+      "profileUrl": "http://www.cs.washington.edu/homes/matthai/",
+      "portraitUrl": null,
+      "officialSections": [
+        "Affiliate Faculty"
+      ],
+      "researchFields": [
+        "Human activity recognition",
+        "sensor-based reasoning"
+      ],
+      "unitUrl": "https://www.cs.washington.edu/people/faculty-members/",
+      "decision": "excluded_industry_only",
+      "reason": "UW 官方名录为校外产业 affiliate/adjunct，并非 Allen School 现任独立 PI。",
+      "evidence": "Affiliate Faculty; Human activity recognition | sensor-based reasoning; Microsoft Research"
+    },
+    {
+      "officialId": "44562",
+      "rosterName": "Matthew Golub",
+      "title": "Assistant Professor",
+      "profileUrl": "https://www.cs.washington.edu/people/faculty/matthew-golub/",
+      "portraitUrl": "https://www.cs.washington.edu/wp-content/uploads/2024/04/portrait-matthew-golub.jpg",
+      "officialSections": [
+        "Current Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cs.washington.edu/people/faculty-members/",
+      "decision": "include_new_pi",
+      "reason": "官方个人页确认现任独立 PI 与 AI/ML/NLP/CV 研究主线；完成纳入判断，资料深化排入后续批次。",
+      "evidence": "Assistant Professor; Current Faculty",
+      "enrichmentStatus": "queued_after_scope_decision",
+      "profileEvidence": {
+        "fetchedFrom": "https://www.cs.washington.edu/people/faculty/matthew-golub/",
+        "checkedAt": "2026-09-03",
+        "excerpt": "Artificial Intelligence , Computing + Biology; Computational Neuroscience & Neuroengineering; Data Science; Machine Learning"
+      }
+    },
+    {
+      "officialId": "maureenstone",
+      "rosterName": "Maureen Stone",
+      "title": "",
+      "profileUrl": "http://mcstone.github.io/",
+      "portraitUrl": null,
+      "officialSections": [
+        "Affiliate Faculty"
+      ],
+      "researchFields": [
+        "Visual analysis",
+        "digital color",
+        "accessibility"
+      ],
+      "unitUrl": "https://www.cs.washington.edu/people/faculty-members/",
+      "decision": "excluded_non_pi",
+      "reason": "UW 官方名录为 affiliate/adjunct，不作为 Allen School 当前独立 PI 接入。",
+      "evidence": "Affiliate Faculty; Visual analysis | digital color | accessibility; Tableau Research (retired)"
+    },
+    {
+      "officialId": "mausam",
+      "rosterName": "Mausam",
+      "title": "",
+      "profileUrl": "http://www.cs.washington.edu/homes/mausam/",
+      "portraitUrl": null,
+      "officialSections": [
+        "Affiliate Faculty"
+      ],
+      "researchFields": [
+        "Artificial intelligence: natural language processing",
+        "automated planning",
+        "applications to crowdsourcing."
+      ],
+      "unitUrl": "https://www.cs.washington.edu/people/faculty-members/",
+      "decision": "excluded_non_pi",
+      "reason": "UW 官方名录为 affiliate/adjunct，不作为 Allen School 当前独立 PI 接入。",
+      "evidence": "Affiliate Faculty; Artificial intelligence: natural language processing | automated planning | applications to crowdsourcing.; India Institute of Technology Delhi"
+    },
+    {
+      "officialId": "61630",
+      "rosterName": "Max Kleiman-Weiner",
+      "title": "Adjunct",
+      "profileUrl": "https://www.cs.washington.edu/people/faculty/kleiman-weiner-max/",
+      "portraitUrl": "https://www.cs.washington.edu/wp-content/uploads/2024/11/portrait-adjunct-max-kleiman-weiner.jpg",
+      "officialSections": [
+        "Adjunct Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cs.washington.edu/people/faculty-members/",
+      "decision": "excluded_non_pi",
+      "reason": "UW 官方名录为 affiliate/adjunct，不作为 Allen School 当前独立 PI 接入。",
+      "evidence": "Adjunct; Adjunct Faculty; Foster School of Business"
+    },
+    {
+      "officialId": "43728",
+      "rosterName": "Maya Cakmak",
+      "title": "Professor",
+      "profileUrl": "https://www.cs.washington.edu/people/faculty/maya-cakmak/",
+      "portraitUrl": "https://www.cs.washington.edu/wp-content/uploads/2024/04/portrait-maya-cakmak.jpg",
+      "officialSections": [
+        "Current Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cs.washington.edu/people/faculty-members/",
+      "decision": "include_new_pi",
+      "reason": "本批接入：UW 官方名录确认现任独立教授，且一手个人页、头像与关系证据完整。",
+      "evidence": "Professor; Current Faculty",
+      "enrichmentStatus": "module_complete"
+    },
+    {
+      "officialId": "72613",
+      "rosterName": "Megan Hazen",
+      "title": "Associate Teaching Professor",
+      "profileUrl": "https://www.cs.washington.edu/people/faculty/hazen-megan/",
+      "portraitUrl": "https://www.cs.washington.edu/wp-content/uploads/2025/09/portrait-megan-hazen.jpg",
+      "officialSections": [
+        "Current Faculty"
+      ],
+      "researchFields": [
+        "Data Science",
+        "Machine Learning"
+      ],
+      "unitUrl": "https://www.cs.washington.edu/people/faculty-members/",
+      "decision": "excluded_non_pi",
+      "reason": "官方职称属于教学岗位或未显示独立研究教师任职。",
+      "evidence": "Associate Teaching Professor; Current Faculty; Data Science | Machine Learning"
+    },
+    {
+      "officialId": "meredithmorris",
+      "rosterName": "Meredith Morris",
+      "title": "",
+      "profileUrl": "http://merrie.info/",
+      "portraitUrl": null,
+      "officialSections": [
+        "Affiliate Faculty"
+      ],
+      "researchFields": [
+        "HCI",
+        "Accessibility",
+        "and Human-Centered AI"
+      ],
+      "unitUrl": "https://www.cs.washington.edu/people/faculty-members/",
+      "decision": "excluded_industry_only",
+      "reason": "UW 官方名录为校外产业 affiliate/adjunct，并非 Allen School 现任独立 PI。",
+      "evidence": "Affiliate Faculty; HCI | Accessibility | and Human-Centered AI; Google Research"
+    },
+    {
+      "officialId": "44698",
+      "rosterName": "Michael Bedford Taylor",
+      "title": "Professor",
+      "profileUrl": "https://www.cs.washington.edu/people/faculty/michael-taylor/",
+      "portraitUrl": "https://www.cs.washington.edu/wp-content/uploads/2024/04/portrait-michael-taylor.jpg",
+      "officialSections": [
+        "Current Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cs.washington.edu/people/faculty-members/",
+      "decision": "include_new_pi",
+      "reason": "官方个人页确认现任独立 PI 与 AI/ML/NLP/CV 研究主线；完成纳入判断，资料深化排入后续批次。",
+      "evidence": "Professor; Current Faculty",
+      "enrichmentStatus": "queued_after_scope_decision",
+      "profileEvidence": {
+        "fetchedFrom": "https://www.cs.washington.edu/people/faculty/michael-taylor/",
+        "checkedAt": "2026-09-03",
+        "excerpt": "Artificial Intelligence , Software & Hardware Systems; Architecture & Parallel Computing; Generative AI"
+      }
+    },
+    {
+      "officialId": "michaelcohen",
+      "rosterName": "Michael Cohen",
+      "title": "",
+      "profileUrl": null,
+      "portraitUrl": null,
+      "officialSections": [
+        "Affiliate Faculty"
+      ],
+      "researchFields": [
+        "Computer graphics and image synthesis"
+      ],
+      "unitUrl": "https://www.cs.washington.edu/people/faculty-members/",
+      "decision": "excluded_non_pi",
+      "reason": "UW 官方名录为 affiliate/adjunct，不作为 Allen School 当前独立 PI 接入。",
+      "evidence": "Affiliate Faculty; Computer graphics and image synthesis; Facebook"
+    },
+    {
+      "officialId": "43743",
+      "rosterName": "Michael Ernst",
+      "title": "Professor",
+      "profileUrl": "https://www.cs.washington.edu/people/faculty/michael-ernst/",
+      "portraitUrl": "https://www.cs.washington.edu/wp-content/uploads/2024/08/portrait-michael-ernst.jpg",
+      "officialSections": [
+        "Current Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cs.washington.edu/people/faculty-members/",
+      "decision": "excluded_non_ai_cs",
+      "reason": "官方个人页已核验；研究主线未落入本图谱 AI、NLP、CV、ML、机器人或相关数据智能范围。",
+      "evidence": "Professor; Current Faculty",
+      "enrichmentStatus": "not_applicable",
+      "profileEvidence": {
+        "fetchedFrom": "https://www.cs.washington.edu/people/faculty/michael-ernst/",
+        "checkedAt": "2026-09-03",
+        "excerpt": "Software & Hardware Systems; Computing Education Research; Formal Methods; Programming Languages; Security & Privacy; Software Engineering"
+      }
+    },
+    {
+      "officialId": "61679",
+      "rosterName": "Michael Stiber",
+      "title": "Adjunct",
+      "profileUrl": "https://www.cs.washington.edu/people/faculty/stiber-michael/",
+      "portraitUrl": "https://www.cs.washington.edu/wp-content/uploads/2024/11/portrait-adjunct-michael-stiber.jpg",
+      "officialSections": [
+        "Adjunct Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cs.washington.edu/people/faculty-members/",
+      "decision": "excluded_non_pi",
+      "reason": "UW 官方名录为 affiliate/adjunct，不作为 Allen School 当前独立 PI 接入。",
+      "evidence": "Adjunct; Adjunct Faculty; Computing & Software Systems Division, UW Bothell"
+    },
+    {
+      "officialId": "michaelwolf",
+      "rosterName": "Michael Wolf",
+      "title": "",
+      "profileUrl": null,
+      "portraitUrl": null,
+      "officialSections": [
+        "Affiliate Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cs.washington.edu/people/faculty-members/",
+      "decision": "excluded_industry_only",
+      "reason": "UW 官方名录为校外产业 affiliate/adjunct，并非 Allen School 现任独立 PI。",
+      "evidence": "Affiliate Faculty; Amazon"
+    },
+    {
+      "officialId": "mikelewis",
+      "rosterName": "Mike Lewis",
+      "title": "",
+      "profileUrl": null,
+      "portraitUrl": null,
+      "officialSections": [
+        "Affiliate Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cs.washington.edu/people/faculty-members/",
+      "decision": "excluded_non_pi",
+      "reason": "UW 官方名录为 affiliate/adjunct，不作为 Allen School 当前独立 PI 接入。",
+      "evidence": "Affiliate Faculty"
+    },
+    {
+      "officialId": "72612",
+      "rosterName": "Mitali Bafna",
+      "title": "Assistant Professor",
+      "profileUrl": "https://www.cs.washington.edu/people/faculty/bafna-mitali/",
+      "portraitUrl": "https://www.cs.washington.edu/wp-content/uploads/2025/09/portrait-mitali-bafna.jpg",
+      "officialSections": [
+        "Current Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cs.washington.edu/people/faculty-members/",
+      "decision": "excluded_non_ai_cs",
+      "reason": "官方个人页已核验；研究主线未落入本图谱 AI、NLP、CV、ML、机器人或相关数据智能范围。",
+      "evidence": "Assistant Professor; Current Faculty",
+      "enrichmentStatus": "not_applicable",
+      "profileEvidence": {
+        "fetchedFrom": "https://www.cs.washington.edu/people/faculty/bafna-mitali/",
+        "checkedAt": "2026-09-03",
+        "excerpt": "Theory & Models of Computation;"
+      }
+    },
+    {
+      "officialId": "44637",
+      "rosterName": "Miya Natsuhara",
+      "title": "Assistant Teaching Professor",
+      "profileUrl": "https://www.cs.washington.edu/people/faculty/miya-natsuhara/",
+      "portraitUrl": "https://www.cs.washington.edu/wp-content/uploads/2024/08/portrait-miya-natsuhara.jpg",
+      "officialSections": [
+        "Current Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cs.washington.edu/people/faculty-members/",
+      "decision": "excluded_non_pi",
+      "reason": "官方职称属于教学岗位或未显示独立研究教师任职。",
+      "evidence": "Assistant Teaching Professor; Current Faculty"
+    },
+    {
+      "officialId": "mohammadrastegari",
+      "rosterName": "Mohammad Rastegari",
+      "title": "",
+      "profileUrl": "https://mrastegari.github.io/",
+      "portraitUrl": null,
+      "officialSections": [
+        "Affiliate Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cs.washington.edu/people/faculty-members/",
+      "decision": "excluded_non_pi",
+      "reason": "UW 官方名录为 affiliate/adjunct，不作为 Allen School 当前独立 PI 接入。",
+      "evidence": "Affiliate Faculty; Allen Institute for Artificial Intelligence"
+    },
+    {
+      "officialId": "61653",
+      "rosterName": "Nadya Peek",
+      "title": "Adjunct",
+      "profileUrl": "https://www.cs.washington.edu/people/faculty/peek-nadya/",
+      "portraitUrl": "https://www.cs.washington.edu/wp-content/uploads/2024/11/portrait-adjunct-nadya-peek.jpg",
+      "officialSections": [
+        "Adjunct Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cs.washington.edu/people/faculty-members/",
+      "decision": "excluded_non_pi",
+      "reason": "UW 官方名录为 affiliate/adjunct，不作为 Allen School 当前独立 PI 接入。",
+      "evidence": "Adjunct; Adjunct Faculty; Department of Human-Centered Design & Engineering"
+    },
+    {
+      "officialId": "72611",
+      "rosterName": "Naomi Alterman",
+      "title": "Assistant Teaching Professor",
+      "profileUrl": "https://www.cs.washington.edu/people/faculty/alterman-naomi/",
+      "portraitUrl": "https://www.cs.washington.edu/wp-content/uploads/2025/07/portrait-naomi-alterman.jpg",
+      "officialSections": [
+        "Current Faculty"
+      ],
+      "researchFields": [
+        "Computing Education Research",
+        "Data Science",
+        "Ethics & Fairness",
+        "Software Engineering"
+      ],
+      "unitUrl": "https://www.cs.washington.edu/people/faculty-members/",
+      "decision": "excluded_non_pi",
+      "reason": "官方职称属于教学岗位或未显示独立研究教师任职。",
+      "evidence": "Assistant Teaching Professor; Current Faculty; Computing Education Research | Data Science | Ethics & Fairness | Software Engineering"
+    },
+    {
+      "officialId": "44583",
+      "rosterName": "Natasha Jaques",
+      "title": "Assistant Professor",
+      "profileUrl": "https://www.cs.washington.edu/people/faculty/natasha-jaques/",
+      "portraitUrl": "https://www.cs.washington.edu/wp-content/uploads/2024/04/portrait-natasha-jaques.jpg",
+      "officialSections": [
+        "Current Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cs.washington.edu/people/faculty-members/",
+      "decision": "include_new_pi",
+      "reason": "本批接入：UW 官方名录确认现任独立教授，且一手个人页、头像与关系证据完整。",
+      "evidence": "Assistant Professor; Current Faculty",
+      "enrichmentStatus": "module_complete"
+    },
+    {
+      "officialId": "43727",
+      "rosterName": "Nathan Brunelle",
+      "title": "Associate Teaching Professor",
+      "profileUrl": "https://www.cs.washington.edu/people/faculty/nathan-brunelle/",
+      "portraitUrl": "https://www.cs.washington.edu/wp-content/uploads/2024/04/portrait-nathan-brunelle.jpg",
+      "officialSections": [
+        "Current Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cs.washington.edu/people/faculty-members/",
+      "decision": "excluded_non_pi",
+      "reason": "官方职称属于教学岗位或未显示独立研究教师任职。",
+      "evidence": "Associate Teaching Professor; Current Faculty"
+    },
+    {
+      "officialId": "nathanprice",
+      "rosterName": "Nathan Price",
+      "title": "",
+      "profileUrl": "https://www.systemsbiology.org/bio/nathan-price/",
+      "portraitUrl": null,
+      "officialSections": [
+        "Affiliate Faculty"
+      ],
+      "researchFields": [
+        "Systems biology"
+      ],
+      "unitUrl": "https://www.cs.washington.edu/people/faculty-members/",
+      "decision": "excluded_non_pi",
+      "reason": "UW 官方名录为 affiliate/adjunct，不作为 Allen School 当前独立 PI 接入。",
+      "evidence": "Affiliate Faculty; Systems biology; Institute for Systems Biology"
+    },
+    {
+      "officialId": "nikhildevanur",
+      "rosterName": "Nikhil Devanur",
+      "title": "",
+      "profileUrl": "http://research.microsoft.com/en-us/um/people/nikdev/",
+      "portraitUrl": null,
+      "officialSections": [
+        "Affiliate Faculty"
+      ],
+      "researchFields": [
+        "Automated economics and algorithms"
+      ],
+      "unitUrl": "https://www.cs.washington.edu/people/faculty-members/",
+      "decision": "excluded_industry_only",
+      "reason": "UW 官方名录为校外产业 affiliate/adjunct，并非 Allen School 现任独立 PI。",
+      "evidence": "Affiliate Faculty; Automated economics and algorithms; Microsoft Research"
+    },
+    {
+      "officialId": "44706",
+      "rosterName": "Nirvan Tyagi",
+      "title": "Assistant Professor",
+      "profileUrl": "https://www.cs.washington.edu/people/faculty/nirvan-tyagi/",
+      "portraitUrl": "https://www.cs.washington.edu/wp-content/uploads/2024/04/portrait-nirvan-tyagi.jpg",
+      "officialSections": [
+        "Current Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cs.washington.edu/people/faculty-members/",
+      "decision": "excluded_non_ai_cs",
+      "reason": "官方个人页已核验；研究主线未落入本图谱 AI、NLP、CV、ML、机器人或相关数据智能范围。",
+      "evidence": "Assistant Professor; Current Faculty",
+      "enrichmentStatus": "not_applicable",
+      "profileEvidence": {
+        "fetchedFrom": "https://www.cs.washington.edu/people/faculty/nirvan-tyagi/",
+        "checkedAt": "2026-09-03",
+        "excerpt": "Human-Centered Computing , Software & Hardware Systems; Cryptography; Security & Privacy"
+      }
+    },
+    {
+      "officialId": "nithyasambasivan",
+      "rosterName": "Nithya Sambasivan",
+      "title": "",
+      "profileUrl": "https://nithyasambasivan.com/",
+      "portraitUrl": null,
+      "officialSections": [
+        "Affiliate Faculty"
+      ],
+      "researchFields": [
+        "Human-Computer Interaction (HCI)",
+        "Artificial Intelligence (AI)",
+        "Information Communication Technology and Development (ICTD)"
+      ],
+      "unitUrl": "https://www.cs.washington.edu/people/faculty-members/",
+      "decision": "excluded_industry_only",
+      "reason": "UW 官方名录为校外产业 affiliate/adjunct，并非 Allen School 现任独立 PI。",
+      "evidence": "Affiliate Faculty; Human-Computer Interaction (HCI) | Artificial Intelligence (AI) | Information Communication Technology and Development (ICTD); Google Research"
+    },
+    {
+      "officialId": "44688",
+      "rosterName": "Noah A. Smith",
+      "title": "Professor",
+      "profileUrl": "https://www.cs.washington.edu/people/faculty/noah-smith/",
+      "portraitUrl": "https://www.cs.washington.edu/wp-content/uploads/2024/04/portrait-noah-smith.jpg",
+      "officialSections": [
+        "Current Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cs.washington.edu/people/faculty-members/",
+      "decision": "included_existing",
+      "reason": "同名、同机构的现任 PI 已在图谱。",
+      "evidence": "Professor; Current Faculty; UW Vice Provost for Artificial Intelligence",
+      "atlasPersonId": "noah-smith-us"
+    },
+    {
+      "officialId": "oferdekel",
+      "rosterName": "Ofer Dekel",
+      "title": "",
+      "profileUrl": "http://research.microsoft.com/en-us/um/people/oferd/",
+      "portraitUrl": null,
+      "officialSections": [
+        "Affiliate Faculty"
+      ],
+      "researchFields": [
+        "Machine learning",
+        "online prediction",
+        "statistical learning theory and optimization"
+      ],
+      "unitUrl": "https://www.cs.washington.edu/people/faculty-members/",
+      "decision": "excluded_industry_only",
+      "reason": "UW 官方名录为校外产业 affiliate/adjunct，并非 Allen School 现任独立 PI。",
+      "evidence": "Affiliate Faculty; Machine learning | online prediction | statistical learning theory and optimization; Microsoft Research"
+    },
+    {
+      "officialId": "60375",
+      "rosterName": "Oren Etzioni",
+      "title": "Professor Emeritus",
+      "profileUrl": "https://www.cs.washington.edu/people/faculty/etzioni-oren/",
+      "portraitUrl": "https://www.cs.washington.edu/wp-content/uploads/2024/12/portrait-emeritus-oren-etzioni.jpg",
+      "officialSections": [
+        "Emeritus Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cs.washington.edu/people/faculty-members/",
+      "decision": "excluded_historical",
+      "reason": "UW 官方名录将其列为荣休教师；本轮现任独立 PI 名录不接入。",
+      "evidence": "Professor Emeritus; Emeritus Faculty"
+    },
+    {
+      "officialId": "44600",
+      "rosterName": "Pang Wei Koh",
+      "title": "Assistant Professor",
+      "profileUrl": "https://www.cs.washington.edu/people/faculty/pang-wei-koh/",
+      "portraitUrl": "https://www.cs.washington.edu/wp-content/uploads/2024/08/portrait-pang-wei-koh.jpg",
+      "officialSections": [
+        "Current Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cs.washington.edu/people/faculty-members/",
+      "decision": "include_new_pi",
+      "reason": "本批接入：UW 官方名录确认现任独立教授，且一手个人页、头像与关系证据完整。",
+      "evidence": "Assistant Professor; Current Faculty",
+      "enrichmentStatus": "module_complete"
+    },
+    {
+      "officialId": "43722",
+      "rosterName": "Paul Beame",
+      "title": "Professor",
+      "profileUrl": "https://www.cs.washington.edu/people/faculty/paul-beame/",
+      "portraitUrl": "https://www.cs.washington.edu/wp-content/uploads/2024/08/portrait-paul-beame.jpg",
+      "officialSections": [
+        "Current Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cs.washington.edu/people/faculty-members/",
+      "decision": "excluded_non_ai_cs",
+      "reason": "官方个人页已核验；研究主线未落入本图谱 AI、NLP、CV、ML、机器人或相关数据智能范围。",
+      "evidence": "Professor; Current Faculty; Associate Director for Facilities",
+      "enrichmentStatus": "not_applicable",
+      "profileEvidence": {
+        "fetchedFrom": "https://www.cs.washington.edu/people/faculty/paul-beame/",
+        "checkedAt": "2026-09-03",
+        "excerpt": "Theory & Models of Computation; Algorithms; Complexity; Quantum Computing"
+      }
+    },
+    {
+      "officialId": "pauldietz",
+      "rosterName": "Paul Dietz",
+      "title": "",
+      "profileUrl": null,
+      "portraitUrl": null,
+      "officialSections": [
+        "Affiliate Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cs.washington.edu/people/faculty-members/",
+      "decision": "excluded_non_pi",
+      "reason": "UW 官方名录为 affiliate/adjunct，不作为 Allen School 当前独立 PI 接入。",
+      "evidence": "Affiliate Faculty"
+    },
+    {
+      "officialId": "paulleach",
+      "rosterName": "Paul Leach",
+      "title": "",
+      "profileUrl": "http://www.networksorcery.com/enp/authors/LeachPaulJ.htm",
+      "portraitUrl": null,
+      "officialSections": [
+        "Affiliate Faculty"
+      ],
+      "researchFields": [
+        "Distributed and object-oriented systems"
+      ],
+      "unitUrl": "https://www.cs.washington.edu/people/faculty-members/",
+      "decision": "excluded_industry_only",
+      "reason": "UW 官方名录为校外产业 affiliate/adjunct，并非 Allen School 现任独立 PI。",
+      "evidence": "Affiliate Faculty; Distributed and object-oriented systems; Microsoft (retired)"
+    },
+    {
+      "officialId": "49684",
+      "rosterName": "Pedro Domingos",
+      "title": "Professor Emeritus",
+      "profileUrl": "https://www.cs.washington.edu/people/faculty/pedro-domingos/",
+      "portraitUrl": "https://www.cs.washington.edu/wp-content/uploads/2024/07/portrait-pedro-domingos.jpg",
+      "officialSections": [
+        "Emeritus Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cs.washington.edu/people/faculty-members/",
+      "decision": "excluded_historical",
+      "reason": "UW 官方名录将其列为荣休教师；本轮现任独立 PI 名录不接入。",
+      "evidence": "Professor Emeritus; Emeritus Faculty"
+    },
+    {
+      "officialId": "61781",
+      "rosterName": "Peter Tarczy-Hornoch",
+      "title": "Adjunct",
+      "profileUrl": "https://www.cs.washington.edu/people/faculty/tarczy-hornoch-peter/",
+      "portraitUrl": "https://www.cs.washington.edu/wp-content/uploads/2024/12/portrait-peter-tarczy-hornoch.jpg",
+      "officialSections": [
+        "Adjunct Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cs.washington.edu/people/faculty-members/",
+      "decision": "excluded_non_pi",
+      "reason": "UW 官方名录为 affiliate/adjunct，不作为 Allen School 当前独立 PI 接入。",
+      "evidence": "Adjunct; Adjunct Faculty; Department of Biomedical Informatics and Medical Education"
+    },
+    {
+      "officialId": "philipbernstein",
+      "rosterName": "Philip Bernstein",
+      "title": "",
+      "profileUrl": "http://www.research.microsoft.com/~philbe/",
+      "portraitUrl": null,
+      "officialSections": [
+        "Affiliate Faculty"
+      ],
+      "researchFields": [
+        "Databases",
+        "transaction processing",
+        "concurrency control",
+        "data repositories"
+      ],
+      "unitUrl": "https://www.cs.washington.edu/people/faculty-members/",
+      "decision": "excluded_industry_only",
+      "reason": "UW 官方名录为校外产业 affiliate/adjunct，并非 Allen School 现任独立 PI。",
+      "evidence": "Affiliate Faculty; Databases | transaction processing | concurrency control | data repositories; Microsoft Research"
+    },
+    {
+      "officialId": "61575",
+      "rosterName": "Philip Green",
+      "title": "Adjunct",
+      "profileUrl": "https://www.cs.washington.edu/people/faculty/green-philip/",
+      "portraitUrl": "https://www.cs.washington.edu/wp-content/uploads/2024/12/portrait-philip-green.jpg",
+      "officialSections": [
+        "Adjunct Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cs.washington.edu/people/faculty-members/",
+      "decision": "excluded_non_pi",
+      "reason": "UW 官方名录为 affiliate/adjunct，不作为 Allen School 当前独立 PI 接入。",
+      "evidence": "Adjunct; Adjunct Faculty; Department of Genome Sciences"
+    },
+    {
+      "officialId": "ralexcolburn",
+      "rosterName": "R Alex Colburn",
+      "title": "",
+      "profileUrl": "https://www.colburn.org/",
+      "portraitUrl": null,
+      "officialSections": [
+        "Affiliate Faculty"
+      ],
+      "researchFields": [
+        "Machine learning",
+        "computer graphics",
+        "and computer vision"
+      ],
+      "unitUrl": "https://www.cs.washington.edu/people/faculty-members/",
+      "decision": "excluded_industry_only",
+      "reason": "UW 官方名录为校外产业 affiliate/adjunct，并非 Allen School 现任独立 PI。",
+      "evidence": "Affiliate Faculty; Machine learning | computer graphics | and computer vision; Apple, Inc."
+    },
+    {
+      "officialId": "44681",
+      "rosterName": "R. Benjamin Shapiro",
+      "title": "Associate Professor",
+      "profileUrl": "https://www.cs.washington.edu/people/faculty/benjamin-shapiro/",
+      "portraitUrl": "https://www.cs.washington.edu/wp-content/uploads/2024/04/portrait-benjamin-shapiro.jpg",
+      "officialSections": [
+        "Current Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cs.washington.edu/people/faculty-members/",
+      "decision": "include_new_pi",
+      "reason": "官方个人页确认现任独立 PI 与 AI/ML/NLP/CV 研究主线；完成纳入判断，资料深化排入后续批次。",
+      "evidence": "Associate Professor; Current Faculty; Associate Director for Community",
+      "enrichmentStatus": "queued_after_scope_decision",
+      "profileEvidence": {
+        "fetchedFrom": "https://www.cs.washington.edu/people/faculty/benjamin-shapiro/",
+        "checkedAt": "2026-09-03",
+        "excerpt": "Artificial Intelligence , Human-Centered Computing; Computing Education Research; Fabrication; Human-Centered AI; Human-Computer Interaction"
+      }
+    },
+    {
+      "officialId": "radiaperlman",
+      "rosterName": "Radia Perlman",
+      "title": "",
+      "profileUrl": "http://en.wikipedia.org/wiki/Radia_Perlman",
+      "portraitUrl": null,
+      "officialSections": [
+        "Affiliate Faculty"
+      ],
+      "researchFields": [
+        "Networking and security."
+      ],
+      "unitUrl": "https://www.cs.washington.edu/people/faculty-members/",
+      "decision": "excluded_non_pi",
+      "reason": "UW 官方名录为 affiliate/adjunct，不作为 Allen School 当前独立 PI 接入。",
+      "evidence": "Affiliate Faculty; Networking and security.; EMC"
+    },
+    {
+      "officialId": "60178",
+      "rosterName": "Rajesh P.N. Rao",
+      "title": "Professor",
+      "profileUrl": "https://www.cs.washington.edu/people/faculty/rao-rajesh-p-n/",
+      "portraitUrl": "https://www.cs.washington.edu/wp-content/uploads/2024/08/portrait-rajesh-rao.jpg",
+      "officialSections": [
+        "Current Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cs.washington.edu/people/faculty-members/",
+      "decision": "include_new_pi",
+      "reason": "官方个人页确认现任独立 PI 与 AI/ML/NLP/CV 研究主线；完成纳入判断，资料深化排入后续批次。",
+      "evidence": "Professor; Current Faculty",
+      "enrichmentStatus": "queued_after_scope_decision",
+      "profileEvidence": {
+        "fetchedFrom": "https://www.cs.washington.edu/people/faculty/rao-rajesh-p-n/",
+        "checkedAt": "2026-09-03",
+        "excerpt": "Artificial Intelligence , Computing + Biology; Human-Centered AI; Computational Neuroscience & Neuroengineering; Robotics"
+      }
+    },
+    {
+      "officialId": "44606",
+      "rosterName": "Ranjay Krishna",
+      "title": "Assistant Professor",
+      "profileUrl": "https://www.cs.washington.edu/people/faculty/ranjay-krishna/",
+      "portraitUrl": "https://www.cs.washington.edu/wp-content/uploads/2024/04/portrait-ranjay-krishna.jpg",
+      "officialSections": [
+        "Current Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cs.washington.edu/people/faculty-members/",
+      "decision": "included_existing",
+      "reason": "同名、同机构的现任 PI 已在图谱。",
+      "evidence": "Assistant Professor; Current Faculty",
+      "atlasPersonId": "ranjay-krishna-uw-award"
+    },
+    {
+      "officialId": "44627",
+      "rosterName": "Ratul Mahajan",
+      "title": "Associate Professor",
+      "profileUrl": "https://www.cs.washington.edu/people/faculty/ratul-mahajan/",
+      "portraitUrl": "https://www.cs.washington.edu/wp-content/uploads/2024/08/portrait-ratul-mahajan.jpg",
+      "officialSections": [
+        "Current Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cs.washington.edu/people/faculty-members/",
+      "decision": "excluded_non_ai_cs",
+      "reason": "官方个人页已核验；研究主线未落入本图谱 AI、NLP、CV、ML、机器人或相关数据智能范围。",
+      "evidence": "Associate Professor; Current Faculty",
+      "enrichmentStatus": "not_applicable",
+      "profileEvidence": {
+        "fetchedFrom": "https://www.cs.washington.edu/people/faculty/ratul-mahajan/",
+        "checkedAt": "2026-09-03",
+        "excerpt": "Software & Hardware Systems; Cloud Computing; Computer Networking; Formal Methods; Operating & Distributed Systems"
+      }
+    },
+    {
+      "officialId": "44585",
+      "rosterName": "René Just",
+      "title": "Associate Professor",
+      "profileUrl": "https://www.cs.washington.edu/people/faculty/rene-just/",
+      "portraitUrl": "https://www.cs.washington.edu/wp-content/uploads/2024/08/portrait-rene-just.jpg",
+      "officialSections": [
+        "Current Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cs.washington.edu/people/faculty-members/",
+      "decision": "include_new_pi",
+      "reason": "官方个人页确认现任独立 PI 与 AI/ML/NLP/CV 研究主线；完成纳入判断，资料深化排入后续批次。",
+      "evidence": "Associate Professor; Current Faculty",
+      "enrichmentStatus": "queued_after_scope_decision",
+      "profileEvidence": {
+        "fetchedFrom": "https://www.cs.washington.edu/people/faculty/rene-just/",
+        "checkedAt": "2026-09-03",
+        "excerpt": "Software & Hardware Systems; Data Science; Security & Privacy; Software Engineering"
+      }
+    },
+    {
+      "officialId": "43713",
+      "rosterName": "Richard Anderson",
+      "title": "Professor Emeritus",
+      "profileUrl": "https://www.cs.washington.edu/people/faculty/richard-anderson/",
+      "portraitUrl": "https://www.cs.washington.edu/wp-content/uploads/2024/08/portrait-richard-anderson.jpg",
+      "officialSections": [
+        "Emeritus Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cs.washington.edu/people/faculty-members/",
+      "decision": "excluded_historical",
+      "reason": "UW 官方名录将其列为荣休教师；本轮现任独立 PI 名录不接入。",
+      "evidence": "Professor Emeritus; Emeritus Faculty"
+    },
+    {
+      "officialId": "61831",
+      "rosterName": "Richard Ladner",
+      "title": "Professor Emeritus",
+      "profileUrl": "https://www.cs.washington.edu/people/faculty/ladner-richard/",
+      "portraitUrl": "https://www.cs.washington.edu/wp-content/uploads/2024/12/portrait-emeritus-richard-ladner.jpg",
+      "officialSections": [
+        "Emeritus Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cs.washington.edu/people/faculty-members/",
+      "decision": "excluded_historical",
+      "reason": "UW 官方名录将其列为荣休教师；本轮现任独立 PI 名录不接入。",
+      "evidence": "Professor Emeritus; Emeritus Faculty"
+    },
+    {
+      "officialId": "richardnewcombe",
+      "rosterName": "Richard Newcombe",
+      "title": "",
+      "profileUrl": null,
+      "portraitUrl": null,
+      "officialSections": [
+        "Affiliate Faculty"
+      ],
+      "researchFields": [
+        "Computer vision and robotics"
+      ],
+      "unitUrl": "https://www.cs.washington.edu/people/faculty-members/",
+      "decision": "excluded_non_pi",
+      "reason": "UW 官方名录为 affiliate/adjunct，不作为 Allen School 当前独立 PI 接入。",
+      "evidence": "Affiliate Faculty; Computer vision and robotics; Facebook"
+    },
+    {
+      "officialId": "rickszeliski",
+      "rosterName": "Rick Szeliski",
+      "title": "",
+      "profileUrl": null,
+      "portraitUrl": null,
+      "officialSections": [
+        "Affiliate Faculty"
+      ],
+      "researchFields": [
+        "Computer vision and graphics"
+      ],
+      "unitUrl": "https://www.cs.washington.edu/people/faculty-members/",
+      "decision": "excluded_non_pi",
+      "reason": "UW 官方名录为 affiliate/adjunct，不作为 Allen School 当前独立 PI 接入。",
+      "evidence": "Affiliate Faculty; Computer vision and graphics; Facebook"
+    },
+    {
+      "officialId": "44714",
+      "rosterName": "Robbie Weber",
+      "title": "Assistant Teaching Professor",
+      "profileUrl": "https://www.cs.washington.edu/people/faculty/robbie-weber/",
+      "portraitUrl": "https://www.cs.washington.edu/wp-content/uploads/2024/08/portrait-robbie-weber.jpg",
+      "officialSections": [
+        "Current Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cs.washington.edu/people/faculty-members/",
+      "decision": "excluded_non_pi",
+      "reason": "官方职称属于教学岗位或未显示独立研究教师任职。",
+      "evidence": "Assistant Teaching Professor; Current Faculty"
+    },
+    {
+      "officialId": "robertcarlson",
+      "rosterName": "Robert Carlson",
+      "title": "",
+      "profileUrl": "http://www.synthesis.cc/",
+      "portraitUrl": null,
+      "officialSections": [
+        "Affiliate Faculty"
+      ],
+      "researchFields": [
+        "Synthetic Biology"
+      ],
+      "unitUrl": "https://www.cs.washington.edu/people/faculty-members/",
+      "decision": "excluded_non_pi",
+      "reason": "UW 官方名录为 affiliate/adjunct，不作为 Allen School 当前独立 PI 接入。",
+      "evidence": "Affiliate Faculty; Synthetic Biology; Bioeconomy Capital"
+    },
+    {
+      "officialId": "roozbehmottaghi",
+      "rosterName": "Roozbeh Mottaghi",
+      "title": "",
+      "profileUrl": "https://roozbehm.info/",
+      "portraitUrl": null,
+      "officialSections": [
+        "Affiliate Faculty"
+      ],
+      "researchFields": [
+        "Computer Vision",
+        "Machine Learning"
+      ],
+      "unitUrl": "https://www.cs.washington.edu/people/faculty-members/",
+      "decision": "excluded_non_pi",
+      "reason": "UW 官方名录为 affiliate/adjunct，不作为 Allen School 当前独立 PI 接入。",
+      "evidence": "Affiliate Faculty; Computer Vision | Machine Learning; Allen Institute for Artificial Intelligence"
+    },
+    {
+      "officialId": "rossbgirshick",
+      "rosterName": "Ross B Girshick",
+      "title": "",
+      "profileUrl": "http://www.rossgirshick.info/",
+      "portraitUrl": null,
+      "officialSections": [
+        "Affiliate Faculty"
+      ],
+      "researchFields": [
+        "Algorithms for visual perception and visual reasoning"
+      ],
+      "unitUrl": "https://www.cs.washington.edu/people/faculty-members/",
+      "decision": "excluded_non_pi",
+      "reason": "UW 官方名录为 affiliate/adjunct，不作为 Allen School 当前独立 PI 接入。",
+      "evidence": "Affiliate Faculty; Algorithms for visual perception and visual reasoning; Facebook AI Research (FAIR)"
+    },
+    {
+      "officialId": "43718",
+      "rosterName": "Ruth E. Anderson",
+      "title": "Teaching Professor",
+      "profileUrl": "https://www.cs.washington.edu/people/faculty/ruth-e-anderson/",
+      "portraitUrl": "https://www.cs.washington.edu/wp-content/uploads/2024/04/portrait-ruth-e-anderson.jpg",
+      "officialSections": [
+        "Current Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cs.washington.edu/people/faculty-members/",
+      "decision": "excluded_non_pi",
+      "reason": "官方职称属于教学岗位或未显示独立研究教师任职。",
+      "evidence": "Teaching Professor; Current Faculty"
+    },
+    {
+      "officialId": "61411",
+      "rosterName": "Ryan Calo",
+      "title": "Adjunct",
+      "profileUrl": "https://www.cs.washington.edu/people/faculty/calo-ryan/",
+      "portraitUrl": "https://www.cs.washington.edu/wp-content/uploads/2024/12/portrait-adjunct-ryan-calo.jpg",
+      "officialSections": [
+        "Adjunct Faculty"
+      ],
+      "researchFields": [
+        "Augmented",
+        "Virtual & Mixed Reality; Ethics & Fairness; Human-Centered AI; Robotics; Security & Privacy"
+      ],
+      "unitUrl": "https://www.cs.washington.edu/people/faculty-members/",
+      "decision": "excluded_non_pi",
+      "reason": "UW 官方名录为 affiliate/adjunct，不作为 Allen School 当前独立 PI 接入。",
+      "evidence": "Adjunct; Adjunct Faculty; Augmented | Virtual & Mixed Reality; Ethics & Fairness; Human-Centered AI; Robotics; Security & Privacy; School of Law"
+    },
+    {
+      "officialId": "44625",
+      "rosterName": "Ryan Maas",
+      "title": "Associate Teaching Professor",
+      "profileUrl": "https://www.cs.washington.edu/people/faculty/ryan-maas/",
+      "portraitUrl": "https://www.cs.washington.edu/wp-content/uploads/2024/04/portrait-ryan-maas.jpg",
+      "officialSections": [
+        "Current Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cs.washington.edu/people/faculty-members/",
+      "decision": "excluded_non_pi",
+      "reason": "官方职称属于教学岗位或未显示独立研究教师任职。",
+      "evidence": "Associate Teaching Professor; Current Faculty"
+    },
+    {
+      "officialId": "ryenwhite",
+      "rosterName": "Ryen White",
+      "title": "",
+      "profileUrl": "http://www.ryenwhite.com/",
+      "portraitUrl": null,
+      "officialSections": [
+        "Affiliate Faculty"
+      ],
+      "researchFields": [
+        "Information retrieval",
+        "human-computer interaction",
+        "computational health"
+      ],
+      "unitUrl": "https://www.cs.washington.edu/people/faculty-members/",
+      "decision": "excluded_industry_only",
+      "reason": "UW 官方名录为校外产业 affiliate/adjunct，并非 Allen School 现任独立 PI。",
+      "evidence": "Affiliate Faculty; Information retrieval | human-computer interaction | computational health; Microsoft Research"
+    },
+    {
+      "officialId": "sameeragarwal",
+      "rosterName": "Sameer Agarwal",
+      "title": "",
+      "profileUrl": "http://www.cs.washington.edu/homes/sagarwal",
+      "portraitUrl": null,
+      "officialSections": [
+        "Affiliate Faculty"
+      ],
+      "researchFields": [
+        "Computer Vision",
+        "Machine Learning",
+        "Optimization",
+        "Computer Graphics"
+      ],
+      "unitUrl": "https://www.cs.washington.edu/people/faculty-members/",
+      "decision": "excluded_industry_only",
+      "reason": "UW 官方名录为校外产业 affiliate/adjunct，并非 Allen School 现任独立 PI。",
+      "evidence": "Affiliate Faculty; Computer Vision | Machine Learning | Optimization | Computer Graphics; Google, Inc."
+    },
+    {
+      "officialId": "44635",
+      "rosterName": "Sara Mostafavi",
+      "title": "Associate Professor",
+      "profileUrl": "https://www.cs.washington.edu/people/faculty/sara-mostafavi/",
+      "portraitUrl": "https://www.cs.washington.edu/wp-content/uploads/2024/04/portrait-sara-mostafavi.jpg",
+      "officialSections": [
+        "Current Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cs.washington.edu/people/faculty-members/",
+      "decision": "include_new_pi",
+      "reason": "官方个人页确认现任独立 PI 与 AI/ML/NLP/CV 研究主线；完成纳入判断，资料深化排入后续批次。",
+      "evidence": "Associate Professor; Current Faculty",
+      "enrichmentStatus": "queued_after_scope_decision",
+      "profileEvidence": {
+        "fetchedFrom": "https://www.cs.washington.edu/people/faculty/sara-mostafavi/",
+        "checkedAt": "2026-09-03",
+        "excerpt": "Artificial Intelligence , Computing + Biology; Computational Biology; Machine Learning"
+      }
+    },
+    {
+      "officialId": "61574",
+      "rosterName": "Sawyer Fuller",
+      "title": "Adjunct",
+      "profileUrl": "https://www.cs.washington.edu/people/faculty/fuller-sawyer/",
+      "portraitUrl": "https://www.cs.washington.edu/wp-content/uploads/2024/11/portrait-adjunct-sawyer-fuller.jpg",
+      "officialSections": [
+        "Adjunct Faculty"
+      ],
+      "researchFields": [
+        "Robotics; Ubiquitous Computing",
+        "Sensing & Embedded Systems; Wireless Systems"
+      ],
+      "unitUrl": "https://www.cs.washington.edu/people/faculty-members/",
+      "decision": "excluded_non_pi",
+      "reason": "UW 官方名录为 affiliate/adjunct，不作为 Allen School 当前独立 PI 接入。",
+      "evidence": "Adjunct; Adjunct Faculty; Robotics; Ubiquitous Computing | Sensing & Embedded Systems; Wireless Systems; Department of Mechanical Engineering"
+    },
+    {
+      "officialId": "61577",
+      "rosterName": "Scott Hauck",
+      "title": "Adjunct",
+      "profileUrl": "https://www.cs.washington.edu/people/faculty/hauck-scott/",
+      "portraitUrl": "https://www.cs.washington.edu/wp-content/uploads/2024/11/portrait-adjunct-scott-hauck.jpg",
+      "officialSections": [
+        "Adjunct Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cs.washington.edu/people/faculty-members/",
+      "decision": "excluded_non_pi",
+      "reason": "UW 官方名录为 affiliate/adjunct，不作为 Allen School 当前独立 PI 接入。",
+      "evidence": "Adjunct; Adjunct Faculty; Department of Electrical & Computer Engineering"
+    },
+    {
+      "officialId": "scottlundberg",
+      "rosterName": "Scott Lundberg",
+      "title": "",
+      "profileUrl": "http://scottlundberg.com",
+      "portraitUrl": null,
+      "officialSections": [
+        "Affiliate Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cs.washington.edu/people/faculty-members/",
+      "decision": "excluded_industry_only",
+      "reason": "UW 官方名录为校外产业 affiliate/adjunct，并非 Allen School 现任独立 PI。",
+      "evidence": "Affiliate Faculty; Microsoft Research"
+    },
+    {
+      "officialId": "61649",
+      "rosterName": "Sean Munson",
+      "title": "Adjunct",
+      "profileUrl": "https://www.cs.washington.edu/people/faculty/munson-sean/",
+      "portraitUrl": "https://www.cs.washington.edu/wp-content/uploads/2024/11/portrait-adjunct-sean-munson.jpg",
+      "officialSections": [
+        "Adjunct Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cs.washington.edu/people/faculty-members/",
+      "decision": "excluded_non_pi",
+      "reason": "UW 官方名录为 affiliate/adjunct，不作为 Allen School 当前独立 PI 接入。",
+      "evidence": "Adjunct; Adjunct Faculty; Department of Human-Centered Design & Engineering"
+    },
+    {
+      "officialId": "sebastienbubeck",
+      "rosterName": "Sebastien Bubeck",
+      "title": "",
+      "profileUrl": "http://research.microsoft.com/en-us/um/people/sebubeck/",
+      "portraitUrl": null,
+      "officialSections": [
+        "Affiliate Faculty"
+      ],
+      "researchFields": [
+        "Machine learning",
+        "convex optimization"
+      ],
+      "unitUrl": "https://www.cs.washington.edu/people/faculty-members/",
+      "decision": "excluded_industry_only",
+      "reason": "UW 官方名录为校外产业 affiliate/adjunct，并非 Allen School 现任独立 PI。",
+      "evidence": "Affiliate Faculty; Machine learning | convex optimization; Microsoft Research"
+    },
+    {
+      "officialId": "44644",
+      "rosterName": "Sewoong Oh",
+      "title": "Professor",
+      "profileUrl": "https://www.cs.washington.edu/people/faculty/sewoong-oh/",
+      "portraitUrl": "https://www.cs.washington.edu/wp-content/uploads/2024/04/portrait-sewoong-oh.jpg",
+      "officialSections": [
+        "Current Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cs.washington.edu/people/faculty-members/",
+      "decision": "include_new_pi",
+      "reason": "官方个人页确认现任独立 PI 与 AI/ML/NLP/CV 研究主线；完成纳入判断，资料深化排入后续批次。",
+      "evidence": "Professor; Current Faculty",
+      "enrichmentStatus": "queued_after_scope_decision",
+      "profileEvidence": {
+        "fetchedFrom": "https://www.cs.washington.edu/people/faculty/sewoong-oh/",
+        "checkedAt": "2026-09-03",
+        "excerpt": "Artificial Intelligence , Software & Hardware Systems; Machine Learning; Security & Privacy"
+      }
+    },
+    {
+      "officialId": "shamkakade",
+      "rosterName": "Sham Kakade",
+      "title": "",
+      "profileUrl": null,
+      "portraitUrl": null,
+      "officialSections": [
+        "Affiliate Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cs.washington.edu/people/faculty-members/",
+      "decision": "excluded_non_pi",
+      "reason": "UW 官方名录为 affiliate/adjunct，不作为 Allen School 当前独立 PI 接入。",
+      "evidence": "Affiliate Faculty; Data science: large scale computational methods for statistics, machine learning and signal processing"
+    },
+    {
+      "officialId": "44648",
+      "rosterName": "Shayan Oveis Gharan",
+      "title": "Professor",
+      "profileUrl": "https://www.cs.washington.edu/people/faculty/shayan-oveis-gharan/",
+      "portraitUrl": "https://www.cs.washington.edu/wp-content/uploads/2024/04/portrait-shayan-oveis-gharan.jpg",
+      "officialSections": [
+        "Current Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cs.washington.edu/people/faculty-members/",
+      "decision": "excluded_non_ai_cs",
+      "reason": "官方个人页已核验；研究主线未落入本图谱 AI、NLP、CV、ML、机器人或相关数据智能范围。",
+      "evidence": "Professor; Current Faculty",
+      "enrichmentStatus": "not_applicable",
+      "profileEvidence": {
+        "fetchedFrom": "https://www.cs.washington.edu/people/faculty/shayan-oveis-gharan/",
+        "checkedAt": "2026-09-03",
+        "excerpt": "Theory & Models of Computation; Algorithms"
+      }
+    },
+    {
+      "officialId": "44710",
+      "rosterName": "Sheng Wang",
+      "title": "Assistant Professor",
+      "profileUrl": "https://www.cs.washington.edu/people/faculty/sheng-wang/",
+      "portraitUrl": "https://www.cs.washington.edu/wp-content/uploads/2024/04/portrait-sheng-wang.jpg",
+      "officialSections": [
+        "Current Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cs.washington.edu/people/faculty-members/",
+      "decision": "include_new_pi",
+      "reason": "官方个人页确认现任独立 PI 与 AI/ML/NLP/CV 研究主线；完成纳入判断，资料深化排入后续批次。",
+      "evidence": "Assistant Professor; Current Faculty",
+      "enrichmentStatus": "queued_after_scope_decision",
+      "profileEvidence": {
+        "fetchedFrom": "https://www.cs.washington.edu/people/faculty/sheng-wang/",
+        "checkedAt": "2026-09-03",
+        "excerpt": "Artificial Intelligence , Computing + Biology; Computational Biology; Generative AI; Machine Learning; Natural Language Processing"
+      }
+    },
+    {
+      "officialId": "44651",
+      "rosterName": "Shwetak Patel",
+      "title": "Professor",
+      "profileUrl": "https://www.cs.washington.edu/people/faculty/shwetak-patel/",
+      "portraitUrl": "https://www.cs.washington.edu/wp-content/uploads/2024/08/portrait-shwetak-patel.jpg",
+      "officialSections": [
+        "Current Faculty"
+      ],
+      "researchFields": [
+        "Human-Computer Interaction; Machine Learning; Ubiquitous Computing",
+        "Sensing & Embedded Systems"
+      ],
+      "unitUrl": "https://www.cs.washington.edu/people/faculty-members/",
+      "decision": "include_new_pi",
+      "reason": "官方个人页确认现任独立 PI 与 AI/ML/NLP/CV 研究主线；完成纳入判断，资料深化排入后续批次。",
+      "evidence": "Professor; Current Faculty; Human-Computer Interaction; Machine Learning; Ubiquitous Computing | Sensing & Embedded Systems; Associate Director for Development & Entrepreneurship",
+      "enrichmentStatus": "queued_after_scope_decision",
+      "profileEvidence": {
+        "fetchedFrom": "https://www.cs.washington.edu/people/faculty/shwetak-patel/",
+        "checkedAt": "2026-09-03",
+        "excerpt": "Artificial Intelligence , Computing + Biology , Human-Centered Computing , Interaction with the Physical World; Human-Computer Interaction; Machine Learning; Ubiquitous Computing, Sensing & Embedded Systems"
+      }
+    },
+    {
+      "officialId": "44560",
+      "rosterName": "Shyam Gollakota",
+      "title": "Professor",
+      "profileUrl": "https://www.cs.washington.edu/people/faculty/shyam-gollakota/",
+      "portraitUrl": "https://www.cs.washington.edu/wp-content/uploads/2024/08/portrait-shyam-gollakota.jpg",
+      "officialSections": [
+        "Current Faculty"
+      ],
+      "researchFields": [
+        "Computer Networking; Human-Centered AI; Ubiquitous Computing",
+        "Sensing & Embedded Systems; Wireless Systems"
+      ],
+      "unitUrl": "https://www.cs.washington.edu/people/faculty-members/",
+      "decision": "include_new_pi",
+      "reason": "官方个人页确认现任独立 PI 与 AI/ML/NLP/CV 研究主线；完成纳入判断，资料深化排入后续批次。",
+      "evidence": "Professor; Current Faculty; Computer Networking; Human-Centered AI; Ubiquitous Computing | Sensing & Embedded Systems; Wireless Systems",
+      "enrichmentStatus": "queued_after_scope_decision",
+      "profileEvidence": {
+        "fetchedFrom": "https://www.cs.washington.edu/people/faculty/shyam-gollakota/",
+        "checkedAt": "2026-09-03",
+        "excerpt": "Artificial Intelligence , Computing + Biology , Human-Centered Computing , Interaction with the Physical World; Computer Networking; Human-Centered AI; Ubiquitous Computing, Sensing & Embedded Systems; Wireless Systems"
+      }
+    },
+    {
+      "officialId": "44690",
+      "rosterName": "Siddhartha (Sidd) Srinivasa",
+      "title": "Professor",
+      "profileUrl": "https://www.cs.washington.edu/people/faculty/siddhartha-sidd-srinivasa/",
+      "portraitUrl": "https://www.cs.washington.edu/wp-content/uploads/2024/08/portrait-siddhartha-srinivasa.jpg",
+      "officialSections": [
+        "Current Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cs.washington.edu/people/faculty-members/",
+      "decision": "include_new_pi",
+      "reason": "官方个人页确认现任独立 PI 与 AI/ML/NLP/CV 研究主线；完成纳入判断，资料深化排入后续批次。",
+      "evidence": "Professor; Current Faculty",
+      "enrichmentStatus": "queued_after_scope_decision",
+      "profileEvidence": {
+        "fetchedFrom": "https://www.cs.washington.edu/people/faculty/siddhartha-sidd-srinivasa/",
+        "checkedAt": "2026-09-03",
+        "excerpt": "Artificial Intelligence , Human-Centered Computing , Interaction with the Physical World; Accessibility; Human-Centered AI; Machine Learning; Robotics"
+      }
+    },
+    {
+      "officialId": "simonkahan",
+      "rosterName": "Simon Kahan",
+      "title": "",
+      "profileUrl": "https://www.systemsbiology.org/bio/simon-kahan/",
+      "portraitUrl": null,
+      "officialSections": [
+        "Affiliate Faculty"
+      ],
+      "researchFields": [
+        "Parallel computing"
+      ],
+      "unitUrl": "https://www.cs.washington.edu/people/faculty-members/",
+      "decision": "excluded_non_pi",
+      "reason": "UW 官方名录为 affiliate/adjunct，不作为 Allen School 当前独立 PI 接入。",
+      "evidence": "Affiliate Faculty; Parallel computing; Biocellion SPC"
+    },
+    {
+      "officialId": "44655",
+      "rosterName": "Simon Peter",
+      "title": "Associate Professor",
+      "profileUrl": "https://www.cs.washington.edu/people/faculty/simon-peter/",
+      "portraitUrl": "https://www.cs.washington.edu/wp-content/uploads/2024/08/portrait-simon-peter.jpg",
+      "officialSections": [
+        "Current Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cs.washington.edu/people/faculty-members/",
+      "decision": "excluded_non_ai_cs",
+      "reason": "官方个人页已核验；研究主线未落入本图谱 AI、NLP、CV、ML、机器人或相关数据智能范围。",
+      "evidence": "Associate Professor; Current Faculty",
+      "enrichmentStatus": "not_applicable",
+      "profileEvidence": {
+        "fetchedFrom": "https://www.cs.washington.edu/people/faculty/simon-peter/",
+        "checkedAt": "2026-09-03",
+        "excerpt": "Software & Hardware Systems; Cloud Computing; Computer Networking; Operating & Distributed Systems"
+      }
+    },
+    {
+      "officialId": "43739",
+      "rosterName": "Simon Shaolei Du",
+      "title": "Associate Professor",
+      "profileUrl": "https://www.cs.washington.edu/people/faculty/simon-du/",
+      "portraitUrl": "https://www.cs.washington.edu/wp-content/uploads/2024/08/portrait-simon-shaolei-du.jpg",
+      "officialSections": [
+        "Current Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cs.washington.edu/people/faculty-members/",
+      "decision": "include_new_pi",
+      "reason": "本批接入：UW 官方名录确认现任独立教授，且一手个人页、头像与关系证据完整。",
+      "evidence": "Associate Professor; Current Faculty",
+      "enrichmentStatus": "module_complete"
+    },
+    {
+      "officialId": "44700",
+      "rosterName": "Stefano Tessaro",
+      "title": "Professor",
+      "profileUrl": "https://www.cs.washington.edu/people/faculty/stefano-tessaro/",
+      "portraitUrl": "https://www.cs.washington.edu/wp-content/uploads/2024/08/portrait-stefano-tessaro.jpg",
+      "officialSections": [
+        "Current Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cs.washington.edu/people/faculty-members/",
+      "decision": "excluded_non_ai_cs",
+      "reason": "官方个人页已核验；研究主线未落入本图谱 AI、NLP、CV、ML、机器人或相关数据智能范围。",
+      "evidence": "Professor; Current Faculty",
+      "enrichmentStatus": "not_applicable",
+      "profileEvidence": {
+        "fetchedFrom": "https://www.cs.washington.edu/people/faculty/stefano-tessaro/",
+        "checkedAt": "2026-09-03",
+        "excerpt": "Software & Hardware Systems , Theory & Models of Computation; Cryptography; Security & Privacy"
+      }
+    },
+    {
+      "officialId": "44712",
+      "rosterName": "Stephanie Wang",
+      "title": "Assistant Professor",
+      "profileUrl": "https://www.cs.washington.edu/people/faculty/stephanie-wang/",
+      "portraitUrl": "https://www.cs.washington.edu/wp-content/uploads/2024/04/portrait-stephanie-wang.jpg",
+      "officialSections": [
+        "Current Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cs.washington.edu/people/faculty-members/",
+      "decision": "excluded_non_ai_cs",
+      "reason": "官方个人页已核验；研究主线未落入本图谱 AI、NLP、CV、ML、机器人或相关数据智能范围。",
+      "evidence": "Assistant Professor; Current Faculty",
+      "enrichmentStatus": "not_applicable",
+      "profileEvidence": {
+        "fetchedFrom": "https://www.cs.washington.edu/people/faculty/stephanie-wang/",
+        "checkedAt": "2026-09-03",
+        "excerpt": "Software & Hardware Systems; Operating & Distributed Systems; Programming Languages"
+      }
+    },
+    {
+      "officialId": "44694",
+      "rosterName": "Steve Tanimoto",
+      "title": "Professor",
+      "profileUrl": "https://www.cs.washington.edu/people/faculty/steve-tanimoto/",
+      "portraitUrl": "https://www.cs.washington.edu/wp-content/uploads/2024/04/portrait-steve-tanimoto.jpg",
+      "officialSections": [
+        "Current Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cs.washington.edu/people/faculty-members/",
+      "decision": "include_new_pi",
+      "reason": "官方个人页确认现任独立 PI 与 AI/ML/NLP/CV 研究主线；完成纳入判断，资料深化排入后续批次。",
+      "evidence": "Professor; Current Faculty",
+      "enrichmentStatus": "queued_after_scope_decision",
+      "profileEvidence": {
+        "fetchedFrom": "https://www.cs.washington.edu/people/faculty/steve-tanimoto/",
+        "checkedAt": "2026-09-03",
+        "excerpt": "Human-Centered Computing; Computing Education Research; Human-Centered AI; Human-Computer Interaction"
+      }
+    },
+    {
+      "officialId": "61409",
+      "rosterName": "Steven Brunton",
+      "title": "Adjunct",
+      "profileUrl": "https://www.cs.washington.edu/people/faculty/brunton-steven/",
+      "portraitUrl": "https://www.cs.washington.edu/wp-content/uploads/2024/11/portrait-adjunct-steven-brunton.jpg",
+      "officialSections": [
+        "Adjunct Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cs.washington.edu/people/faculty-members/",
+      "decision": "excluded_non_pi",
+      "reason": "UW 官方名录为 affiliate/adjunct，不作为 Allen School 当前独立 PI 接入。",
+      "evidence": "Adjunct; Adjunct Faculty; Department of Mechanical Engineering"
+    },
+    {
+      "officialId": "stevendrucker",
+      "rosterName": "Steven Drucker",
+      "title": "",
+      "profileUrl": "http://research.microsoft.com/~sdrucker/",
+      "portraitUrl": null,
+      "officialSections": [
+        "Affiliate Faculty"
+      ],
+      "researchFields": [
+        "User interface",
+        "info. visualization",
+        "and graphics"
+      ],
+      "unitUrl": "https://www.cs.washington.edu/people/faculty-members/",
+      "decision": "excluded_industry_only",
+      "reason": "UW 官方名录为校外产业 affiliate/adjunct，并非 Allen School 现任独立 PI。",
+      "evidence": "Affiliate Faculty; User interface | info. visualization | and graphics; Microsoft Research"
+    },
+    {
+      "officialId": "44679",
+      "rosterName": "Steven Seitz",
+      "title": "Professor",
+      "profileUrl": "https://www.cs.washington.edu/people/faculty/steven-seitz/",
+      "portraitUrl": "https://www.cs.washington.edu/wp-content/uploads/2024/04/portrait-steve-seitz.jpg",
+      "officialSections": [
+        "Current Faculty"
+      ],
+      "researchFields": [
+        "Augmented",
+        "Virtual & Mixed Reality; Computer Graphics & Animation; Computer Vision; Generative AI"
+      ],
+      "unitUrl": "https://www.cs.washington.edu/people/faculty-members/",
+      "decision": "include_new_pi",
+      "reason": "本批接入：UW 官方名录确认现任独立教授，且一手个人页、头像与关系证据完整。",
+      "evidence": "Professor; Current Faculty; Augmented | Virtual & Mixed Reality; Computer Graphics & Animation; Computer Vision; Generative AI",
+      "enrichmentStatus": "module_complete"
+    },
+    {
+      "officialId": "44663",
+      "rosterName": "Stuart Reges",
+      "title": "Teaching Professor",
+      "profileUrl": "https://www.cs.washington.edu/people/faculty/stuart-reges/",
+      "portraitUrl": "https://www.cs.washington.edu/wp-content/uploads/2024/04/portrait-stuart-reges2.jpg",
+      "officialSections": [
+        "Current Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cs.washington.edu/people/faculty-members/",
+      "decision": "excluded_non_pi",
+      "reason": "官方职称属于教学岗位或未显示独立研究教师任职。",
+      "evidence": "Teaching Professor; Current Faculty"
+    },
+    {
+      "officialId": "44612",
+      "rosterName": "Su-In Lee",
+      "title": "Professor",
+      "profileUrl": "https://www.cs.washington.edu/people/faculty/su-in-lee/",
+      "portraitUrl": "https://www.cs.washington.edu/wp-content/uploads/2024/04/portrait-su-in-lee.jpg",
+      "officialSections": [
+        "Current Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cs.washington.edu/people/faculty-members/",
+      "decision": "include_new_pi",
+      "reason": "本批接入：UW 官方名录确认现任独立教授，且一手个人页、头像与关系证据完整。",
+      "evidence": "Professor; Current Faculty",
+      "enrichmentStatus": "module_complete"
+    },
+    {
+      "officialId": "59986",
+      "rosterName": "Susan Eggers",
+      "title": "Professor Emerita",
+      "profileUrl": "https://www.cs.washington.edu/people/faculty/eggers-susan/",
+      "portraitUrl": "https://www.cs.washington.edu/wp-content/uploads/2024/11/portrait-emeritus-susan-eggers.jpg",
+      "officialSections": [
+        "Emeritus Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cs.washington.edu/people/faculty-members/",
+      "decision": "excluded_historical",
+      "reason": "UW 官方名录将其列为荣休教师；本轮现任独立 PI 名录不接入。",
+      "evidence": "Professor Emerita; Emeritus Faculty"
+    },
+    {
+      "officialId": "tadayoshikohno",
+      "rosterName": "Tadayoshi Kohno",
+      "title": "",
+      "profileUrl": "http://www.cs.washington.edu/homes/yoshi/",
+      "portraitUrl": null,
+      "officialSections": [
+        "Affiliate Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cs.washington.edu/people/faculty-members/",
+      "decision": "excluded_non_pi",
+      "reason": "UW 官方名录为 affiliate/adjunct，不作为 Allen School 当前独立 PI 接入。",
+      "evidence": "Affiliate Faculty; Computer security and privacy"
+    },
+    {
+      "officialId": "61644",
+      "rosterName": "Tanu Mitra",
+      "title": "Adjunct",
+      "profileUrl": "https://www.cs.washington.edu/people/faculty/mitra-tanu/",
+      "portraitUrl": "https://www.cs.washington.edu/wp-content/uploads/2024/11/portrait-adjunct-tanu-mitra.jpg",
+      "officialSections": [
+        "Adjunct Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cs.washington.edu/people/faculty-members/",
+      "decision": "excluded_non_pi",
+      "reason": "UW 官方名录为 affiliate/adjunct，不作为 Allen School 当前独立 PI 接入。",
+      "evidence": "Adjunct; Adjunct Faculty; Information School"
+    },
+    {
+      "officialId": "83533",
+      "rosterName": "Taylor Kessler Faulkner",
+      "title": "Assistant Teaching Professor",
+      "profileUrl": "https://www.cs.washington.edu/people/faculty/faulkner-taylor-kessler/",
+      "portraitUrl": "https://www.cs.washington.edu/wp-content/uploads/2025/04/portrait-taylor-faulkner.jpg",
+      "officialSections": [
+        "Current Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cs.washington.edu/people/faculty-members/",
+      "decision": "excluded_non_pi",
+      "reason": "官方职称属于教学岗位或未显示独立研究教师任职。",
+      "evidence": "Assistant Teaching Professor; Current Faculty"
+    },
+    {
+      "officialId": "thomasball",
+      "rosterName": "Thomas Ball",
+      "title": "",
+      "profileUrl": "https://research.microsoft.com/~tball/",
+      "portraitUrl": null,
+      "officialSections": [
+        "Affiliate Faculty"
+      ],
+      "researchFields": [
+        "Software engineering",
+        "formal methods",
+        "physical computing",
+        "CS education"
+      ],
+      "unitUrl": "https://www.cs.washington.edu/people/faculty-members/",
+      "decision": "excluded_industry_only",
+      "reason": "UW 官方名录为校外产业 affiliate/adjunct，并非 Allen School 现任独立 PI。",
+      "evidence": "Affiliate Faculty; Software engineering | formal methods | physical computing | CS education; Microsoft Research"
+    },
+    {
+      "officialId": "44669",
+      "rosterName": "Thomas Rothvoss",
+      "title": "Professor",
+      "profileUrl": "https://www.cs.washington.edu/people/faculty/thomas-rothvoss/",
+      "portraitUrl": "https://www.cs.washington.edu/wp-content/uploads/2024/04/portrait-thomas-rothvoss.jpg",
+      "officialSections": [
+        "Current Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cs.washington.edu/people/faculty-members/",
+      "decision": "excluded_non_ai_cs",
+      "reason": "官方个人页已核验；研究主线未落入本图谱 AI、NLP、CV、ML、机器人或相关数据智能范围。",
+      "evidence": "Professor; Current Faculty",
+      "enrichmentStatus": "not_applicable",
+      "profileEvidence": {
+        "fetchedFrom": "https://www.cs.washington.edu/people/faculty/thomas-rothvoss/",
+        "checkedAt": "2026-09-03",
+        "excerpt": "Theory & Models of Computation; Algorithms"
+      }
+    },
+    {
+      "officialId": "thomaszimmermann",
+      "rosterName": "Thomas Zimmermann",
+      "title": "",
+      "profileUrl": "http://research.microsoft.com/en-us/people/tzimmer/",
+      "portraitUrl": null,
+      "officialSections": [
+        "Affiliate Faculty"
+      ],
+      "researchFields": [
+        "Software Engineering"
+      ],
+      "unitUrl": "https://www.cs.washington.edu/people/faculty-members/",
+      "decision": "excluded_industry_only",
+      "reason": "UW 官方名录为校外产业 affiliate/adjunct，并非 Allen School 现任独立 PI。",
+      "evidence": "Affiliate Faculty; Software Engineering; Microsoft Research"
+    },
+    {
+      "officialId": "43712",
+      "rosterName": "Tim Althoff",
+      "title": "Associate Professor",
+      "profileUrl": "https://www.cs.washington.edu/people/faculty/tim-althoff/",
+      "portraitUrl": "https://www.cs.washington.edu/wp-content/uploads/2024/08/portrait-tim-althoff.jpg",
+      "officialSections": [
+        "Current Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cs.washington.edu/people/faculty-members/",
+      "decision": "included_existing",
+      "reason": "同名、同机构的现任 PI 已在图谱。",
+      "evidence": "Associate Professor; Current Faculty",
+      "atlasPersonId": "tim-althoff-us"
+    },
+    {
+      "officialId": "43719",
+      "rosterName": "Tom Anderson",
+      "title": "Professor",
+      "profileUrl": "https://www.cs.washington.edu/people/faculty/tom-anderson/",
+      "portraitUrl": "https://www.cs.washington.edu/wp-content/uploads/2024/08/portrait-tom-anderson.jpg",
+      "officialSections": [
+        "Current Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cs.washington.edu/people/faculty-members/",
+      "decision": "excluded_non_ai_cs",
+      "reason": "官方个人页已核验；研究主线未落入本图谱 AI、NLP、CV、ML、机器人或相关数据智能范围。",
+      "evidence": "Professor; Current Faculty",
+      "enrichmentStatus": "not_applicable",
+      "profileEvidence": {
+        "fetchedFrom": "https://www.cs.washington.edu/people/faculty/tom-anderson/",
+        "checkedAt": "2026-09-03",
+        "excerpt": "Software & Hardware Systems; Cloud Computing; Computer Networking; Operating & Distributed Systems"
+      }
+    },
+    {
+      "officialId": "tonyderose",
+      "rosterName": "Tony DeRose",
+      "title": "",
+      "profileUrl": null,
+      "portraitUrl": null,
+      "officialSections": [
+        "Affiliate Faculty"
+      ],
+      "researchFields": [
+        "Computer-aided geometric design and modeling",
+        "graphical user interfaces"
+      ],
+      "unitUrl": "https://www.cs.washington.edu/people/faculty-members/",
+      "decision": "excluded_non_pi",
+      "reason": "UW 官方名录为 affiliate/adjunct，不作为 Allen School 当前独立 PI 接入。",
+      "evidence": "Affiliate Faculty; Computer-aided geometric design and modeling | graphical user interfaces; Pixar"
+    },
+    {
+      "officialId": "uygarsumbul",
+      "rosterName": "Uygar Sümbül",
+      "title": "",
+      "profileUrl": "https://www.alleninstitute.org/what-we-do/brain-science/about/team/staff-profiles/uygar-sumbul/",
+      "portraitUrl": null,
+      "officialSections": [
+        "Affiliate Faculty"
+      ],
+      "researchFields": [
+        "Neuroscience",
+        "Machine Learning",
+        "Computer Vision",
+        "Optimization"
+      ],
+      "unitUrl": "https://www.cs.washington.edu/people/faculty-members/",
+      "decision": "excluded_non_pi",
+      "reason": "UW 官方名录为 affiliate/adjunct，不作为 Allen School 当前独立 PI 接入。",
+      "evidence": "Affiliate Faculty; Neuroscience | Machine Learning | Computer Vision | Optimization; Allen Institute for Brain Science"
+    },
+    {
+      "officialId": "44579",
+      "rosterName": "Vikram Iyer",
+      "title": "Assistant Professor",
+      "profileUrl": "https://www.cs.washington.edu/people/faculty/vikram-iyer/",
+      "portraitUrl": "https://www.cs.washington.edu/wp-content/uploads/2024/04/portrait-vikram-iyer.jpg",
+      "officialSections": [
+        "Current Faculty"
+      ],
+      "researchFields": [
+        "Robotics; Ubiquitous Computing",
+        "Sensing & Embedded Systems; Wireless Systems"
+      ],
+      "unitUrl": "https://www.cs.washington.edu/people/faculty-members/",
+      "decision": "include_new_pi",
+      "reason": "官方个人页确认现任独立 PI 与 AI/ML/NLP/CV 研究主线；完成纳入判断，资料深化排入后续批次。",
+      "evidence": "Assistant Professor; Current Faculty; Robotics; Ubiquitous Computing | Sensing & Embedded Systems; Wireless Systems",
+      "enrichmentStatus": "queued_after_scope_decision",
+      "profileEvidence": {
+        "fetchedFrom": "https://www.cs.washington.edu/people/faculty/vikram-iyer/",
+        "checkedAt": "2026-09-03",
+        "excerpt": "Computing + Biology , Interaction with the Physical World , Software & Hardware Systems; Robotics; Ubiquitous Computing, Sensing & Embedded Systems; Wireless Systems"
+      }
+    },
+    {
+      "officialId": "61833",
+      "rosterName": "Walter L. (Larry) Ruzzo",
+      "title": "Professor Emeritus",
+      "profileUrl": "https://www.cs.washington.edu/people/faculty/ruzzo-walter-l-larry/",
+      "portraitUrl": "https://www.cs.washington.edu/wp-content/uploads/2024/12/portrait-emeritus-larry-ruzzo.jpg",
+      "officialSections": [
+        "Emeritus Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cs.washington.edu/people/faculty-members/",
+      "decision": "excluded_historical",
+      "reason": "UW 官方名录将其列为荣休教师；本轮现任独立 PI 名录不接入。",
+      "evidence": "Professor Emeritus; Emeritus Faculty"
+    },
+    {
+      "officialId": "61650",
+      "rosterName": "William Noble",
+      "title": "Adjunct",
+      "profileUrl": "https://www.cs.washington.edu/people/faculty/noble-william/",
+      "portraitUrl": "https://www.cs.washington.edu/wp-content/uploads/2024/12/portrait-william-noble.jpg",
+      "officialSections": [
+        "Adjunct Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cs.washington.edu/people/faculty-members/",
+      "decision": "excluded_non_pi",
+      "reason": "UW 官方名录为 affiliate/adjunct，不作为 Allen School 当前独立 PI 接入。",
+      "evidence": "Adjunct; Adjunct Faculty; Department of Genome Sciences"
+    },
+    {
+      "officialId": "woutermeuleman",
+      "rosterName": "Wouter Meuleman",
+      "title": "",
+      "profileUrl": "https://www.meuleman.org/",
+      "portraitUrl": null,
+      "officialSections": [
+        "Affiliate Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cs.washington.edu/people/faculty-members/",
+      "decision": "excluded_non_pi",
+      "reason": "UW 官方名录为 affiliate/adjunct，不作为 Allen School 当前独立 PI 接入。",
+      "evidence": "Affiliate Faculty; Computational Biology, Regulatory Genomics, Epigenomics, Machine Learning, Data Visualization, Augmented Genomics"
+    },
+    {
+      "officialId": "yangli",
+      "rosterName": "Yang Li",
+      "title": "",
+      "profileUrl": "http://research.google.com/pubs/author38946.html",
+      "portraitUrl": null,
+      "officialSections": [
+        "Affiliate Faculty"
+      ],
+      "researchFields": [
+        "Human computer interaction and mobile computing"
+      ],
+      "unitUrl": "https://www.cs.washington.edu/people/faculty-members/",
+      "decision": "excluded_industry_only",
+      "reason": "UW 官方名录为校外产业 affiliate/adjunct，并非 Allen School 现任独立 PI。",
+      "evidence": "Affiliate Faculty; Human computer interaction and mobile computing; Google"
+    },
+    {
+      "officialId": "yejinchoi",
+      "rosterName": "Yejin Choi",
+      "title": "",
+      "profileUrl": null,
+      "portraitUrl": null,
+      "officialSections": [
+        "Affiliate Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cs.washington.edu/people/faculty-members/",
+      "decision": "excluded_non_pi",
+      "reason": "UW 官方名录为 affiliate/adjunct，不作为 Allen School 当前独立 PI 接入。",
+      "evidence": "Affiliate Faculty"
+    },
+    {
+      "officialId": "yuanjyuechen",
+      "rosterName": "Yuan-Jyue Chen",
+      "title": "",
+      "profileUrl": "https://www.linkedin.com/in/yuan-jyue-chen-7338a435",
+      "portraitUrl": null,
+      "officialSections": [
+        "Affiliate Faculty"
+      ],
+      "researchFields": [
+        "DNA data storage",
+        "DNA computing"
+      ],
+      "unitUrl": "https://www.cs.washington.edu/people/faculty-members/",
+      "decision": "excluded_industry_only",
+      "reason": "UW 官方名录为校外产业 affiliate/adjunct，并非 Allen School 现任独立 PI。",
+      "evidence": "Affiliate Faculty; DNA data storage | DNA computing; Microsoft Research"
+    },
+    {
+      "officialId": "44704",
+      "rosterName": "Yulia Tsvetkov",
+      "title": "Associate Professor",
+      "profileUrl": "https://www.cs.washington.edu/people/faculty/yulia-tsvetkov/",
+      "portraitUrl": "https://www.cs.washington.edu/wp-content/uploads/2024/08/portrait-yulia-tsvetkov.jpg",
+      "officialSections": [
+        "Current Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cs.washington.edu/people/faculty-members/",
+      "decision": "included_existing",
+      "reason": "同名、同机构的现任 PI 已在图谱。",
+      "evidence": "Associate Professor; Current Faculty",
+      "atlasPersonId": "yulia-tsvetkov-us"
+    },
+    {
+      "officialId": "yunenliu",
+      "rosterName": "Yun-En Liu",
+      "title": "",
+      "profileUrl": null,
+      "portraitUrl": null,
+      "officialSections": [
+        "Affiliate Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cs.washington.edu/people/faculty-members/",
+      "decision": "excluded_non_pi",
+      "reason": "UW 官方名录为 affiliate/adjunct，不作为 Allen School 当前独立 PI 接入。",
+      "evidence": "Affiliate Faculty"
+    },
+    {
+      "officialId": "44696",
+      "rosterName": "Zachary Tatlock",
+      "title": "Professor",
+      "profileUrl": "https://www.cs.washington.edu/people/faculty/zachary-tatlock/",
+      "portraitUrl": "https://www.cs.washington.edu/wp-content/uploads/2024/04/portrait-zachary-tatlock.jpg",
+      "officialSections": [
+        "Current Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cs.washington.edu/people/faculty-members/",
+      "decision": "excluded_non_ai_cs",
+      "reason": "官方个人页已核验；研究主线未落入本图谱 AI、NLP、CV、ML、机器人或相关数据智能范围。",
+      "evidence": "Professor; Current Faculty",
+      "enrichmentStatus": "not_applicable",
+      "profileEvidence": {
+        "fetchedFrom": "https://www.cs.washington.edu/people/faculty/zachary-tatlock/",
+        "checkedAt": "2026-09-03",
+        "excerpt": "Human-Centered Computing , Interaction with the Physical World , Software & Hardware Systems , Theory & Models of Computation; Fabrication; Formal Methods; Programming Languages"
+      }
+    },
+    {
+      "officialId": "61576",
+      "rosterName": "Zaid Harchaoui",
+      "title": "Adjunct",
+      "profileUrl": "https://www.cs.washington.edu/people/faculty/harchaoui-zaid/",
+      "portraitUrl": "https://www.cs.washington.edu/wp-content/uploads/2024/12/portrait-zaid-harchaoui2.jpg",
+      "officialSections": [
+        "Adjunct Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cs.washington.edu/people/faculty-members/",
+      "decision": "excluded_non_pi",
+      "reason": "UW 官方名录为 affiliate/adjunct，不作为 Allen School 当前独立 PI 接入。",
+      "evidence": "Adjunct; Adjunct Faculty; Department of Statistics"
+    },
+    {
+      "officialId": "44659",
+      "rosterName": "Zoran Popović",
+      "title": "Professor",
+      "profileUrl": "https://www.cs.washington.edu/people/faculty/zoran-popovic/",
+      "portraitUrl": "https://www.cs.washington.edu/wp-content/uploads/2024/04/portrait-zoran-popovic.jpg",
+      "officialSections": [
+        "Current Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cs.washington.edu/people/faculty-members/",
+      "decision": "include_new_pi",
+      "reason": "官方个人页确认现任独立 PI 与 AI/ML/NLP/CV 研究主线；完成纳入判断，资料深化排入后续批次。",
+      "evidence": "Professor; Current Faculty",
+      "enrichmentStatus": "queued_after_scope_decision",
+      "profileEvidence": {
+        "fetchedFrom": "https://www.cs.washington.edu/people/faculty/zoran-popovic/",
+        "checkedAt": "2026-09-03",
+        "excerpt": "Artificial Intelligence , Computing + Biology , Human-Centered Computing; Computational Biology; Computer Graphics & Animation; Computer Vision; Robotics"
+      }
+    }
+  ],
+  "profileEvidenceAudit": {
+    "fetched": 60,
+    "unresolvedPending": 0,
+    "method": "Official profile Focus Area / Research Areas / Research Statement plus conservative manual review of profiles lacking structured research fields"
+  }
+}

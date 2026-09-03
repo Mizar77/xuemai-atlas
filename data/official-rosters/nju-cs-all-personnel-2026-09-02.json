@@ -1,0 +1,2454 @@
+{
+  "completeness": "complete",
+  "fetchedAt": "2026-09-02",
+  "institution": "Nanjing University Department of Computer Science and Technology",
+  "officialPageUrl": "https://cs.nju.edu.cn/1651/list.htm",
+  "officialDataUrl": "https://cs.nju.edu.cn/2639/listm.htm",
+  "officialRosterCount": 243,
+  "officialSectionCardCounts": {
+    "教授": 65,
+    "副教授": 20,
+    "准长聘": 29,
+    "跨学科博导": 3,
+    "讲师、专职科研、博士后": 13,
+    "高级工程师": 7,
+    "专业技术人员": 6,
+    "行政管理人员": 14,
+    "离退休人员": 63,
+    "离退休人员（基础教学部）": 23
+  },
+  "overlapAcrossSections": 0,
+  "sourceDescription": "All ten categories in the current official Faculty navigation were retrieved using their unpaginated mobile-list views (999 records per page). Professors, associate professors, pre-tenure faculty, interdisciplinary PhD advisers, research/postdoctoral personnel, engineers, technical/administrative staff, and retirees are all retained before later classification. Repeated normalized names across categories are merged while all official sections remain attached.",
+  "people": [
+    {
+      "officialId": "nju-cs-d9ec47bcdd80",
+      "name": "吕建 (院士、博导)",
+      "officialSections": [
+        "教授"
+      ],
+      "title": "教授",
+      "profileUrl": "https://cs.nju.edu.cn/58/2a/c2639a153642/pagem.htm",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "nju-cs-69f05ba5c56f",
+      "name": "谭铁牛（院士、博导）",
+      "officialSections": [
+        "教授"
+      ],
+      "title": "教授",
+      "profileUrl": "https://cs.nju.edu.cn/99/28/c2639a629032/pagem.htm",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "nju-cs-671adfb51586",
+      "name": "周志华 (院士、博导)",
+      "officialSections": [
+        "教授"
+      ],
+      "title": "教授",
+      "profileUrl": "https://www.nju.edu.cn/info/1040/372961.htm",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "nju-cs-9b9d11bf744c",
+      "name": "李宣东 (博导)",
+      "officialSections": [
+        "教授"
+      ],
+      "title": "教授",
+      "profileUrl": "https://cs.nju.edu.cn/58/28/c2639a153640/pagem.htm",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "nju-cs-32b51c31be9a",
+      "name": "宋方敏 (博导)",
+      "officialSections": [
+        "教授"
+      ],
+      "title": "教授",
+      "profileUrl": "https://cs.nju.edu.cn/58/24/c2639a153636/pagem.htm",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "nju-cs-b00d8ecd7ec6",
+      "name": "陈贵海 (博导)",
+      "officialSections": [
+        "教授"
+      ],
+      "title": "教授",
+      "profileUrl": "https://cs.nju.edu.cn/58/26/c2639a153638/pagem.htm",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "nju-cs-5239de60032b",
+      "name": "陈家骏 (博导)",
+      "officialSections": [
+        "教授"
+      ],
+      "title": "教授",
+      "profileUrl": "https://cs.nju.edu.cn/58/22/c2639a153634/pagem.htm",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "nju-cs-1eda95246593",
+      "name": "谢俊元 (博导)",
+      "officialSections": [
+        "教授"
+      ],
+      "title": "教授",
+      "profileUrl": "https://cs.nju.edu.cn/58/21/c2639a153633/pagem.htm",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "nju-cs-6c6907aac432",
+      "name": "孙正兴 (博导)",
+      "officialSections": [
+        "教授"
+      ],
+      "title": "教授",
+      "profileUrl": "https://cs.nju.edu.cn/58/20/c2639a153632/pagem.htm",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "nju-cs-7ad887240a91",
+      "name": "茅兵 (博导)",
+      "officialSections": [
+        "教授"
+      ],
+      "title": "教授",
+      "profileUrl": "https://cs.nju.edu.cn/58/1f/c2639a153631/pagem.htm",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "nju-cs-b3a1cdf92724",
+      "name": "陆桑璐 (博导)",
+      "officialSections": [
+        "教授"
+      ],
+      "title": "教授",
+      "profileUrl": "https://cs.nju.edu.cn/58/1e/c2639a153630/pagem.htm",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "nju-cs-35b167933c80",
+      "name": "武港山 (博导)",
+      "officialSections": [
+        "教授"
+      ],
+      "title": "教授",
+      "profileUrl": "https://cs.nju.edu.cn/58/1b/c2639a153627/pagem.htm",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "nju-cs-5f36d1a6d9b1",
+      "name": "曾庆凯 (博导)",
+      "officialSections": [
+        "教授"
+      ],
+      "title": "教授",
+      "profileUrl": "https://cs.nju.edu.cn/58/1a/c2639a153626/pagem.htm",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "nju-cs-929e59018a13",
+      "name": "窦万春 (博导)",
+      "officialSections": [
+        "教授"
+      ],
+      "title": "教授",
+      "profileUrl": "https://cs.nju.edu.cn/58/19/c2639a153625/pagem.htm",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "nju-cs-fea6480449b5",
+      "name": "赵建华 (博导)",
+      "officialSections": [
+        "教授"
+      ],
+      "title": "教授",
+      "profileUrl": "https://cs.nju.edu.cn/58/18/c2639a153624/pagem.htm",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "nju-cs-1a7af3cd24ae",
+      "name": "徐宝文 (博导)",
+      "officialSections": [
+        "教授"
+      ],
+      "title": "教授",
+      "profileUrl": "https://cs.nju.edu.cn/58/17/c2639a153623/pagem.htm",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "nju-cs-40fea7ffc10d",
+      "name": "陈力军 (博导)",
+      "officialSections": [
+        "教授"
+      ],
+      "title": "教授",
+      "profileUrl": "https://cs.nju.edu.cn/58/16/c2639a153622/pagem.htm",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "nju-cs-8b5e93893ca4",
+      "name": "陶先平 (博导)",
+      "officialSections": [
+        "教授"
+      ],
+      "title": "教授",
+      "profileUrl": "https://cs.nju.edu.cn/58/15/c2639a153621/pagem.htm",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "nju-cs-89a722b1ed51",
+      "name": "高 阳 (博导)",
+      "officialSections": [
+        "教授"
+      ],
+      "title": "教授",
+      "profileUrl": "https://cs.nju.edu.cn/58/14/c2639a153620/pagem.htm",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "nju-cs-3f418dda79bf",
+      "name": "顾庆 (博导)",
+      "officialSections": [
+        "教授"
+      ],
+      "title": "教授",
+      "profileUrl": "https://cs.nju.edu.cn/58/13/c2639a153619/pagem.htm",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "nju-cs-6473aa3d9b95",
+      "name": "马晓星 (博导)",
+      "officialSections": [
+        "教授"
+      ],
+      "title": "教授",
+      "profileUrl": "https://cs.nju.edu.cn/58/12/c2639a153618/pagem.htm",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "nju-cs-0f4d1197cd8d",
+      "name": "徐 锋 (博导)",
+      "officialSections": [
+        "教授"
+      ],
+      "title": "教授",
+      "profileUrl": "https://cs.nju.edu.cn/58/11/c2639a153617/pagem.htm",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "nju-cs-7282fe840912",
+      "name": "郭延文 (博导)",
+      "officialSections": [
+        "教授"
+      ],
+      "title": "教授",
+      "profileUrl": "https://cs.nju.edu.cn/58/0f/c2639a153615/pagem.htm",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "nju-cs-10e188f6c6e5",
+      "name": "叶保留 (博导)",
+      "officialSections": [
+        "教授"
+      ],
+      "title": "教授",
+      "profileUrl": "https://cs.nju.edu.cn/58/0e/c2639a153614/pagem.htm",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "nju-cs-2764d4e8dfc1",
+      "name": "黄宜华 (博导)",
+      "officialSections": [
+        "教授"
+      ],
+      "title": "教授",
+      "profileUrl": "https://cs.nju.edu.cn/58/0d/c2639a153613/pagem.htm",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "nju-cs-37f18230171b",
+      "name": "袁春风",
+      "officialSections": [
+        "教授"
+      ],
+      "title": "教授",
+      "profileUrl": "https://cs.nju.edu.cn/58/0c/c2639a153612/pagem.htm",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "nju-cs-766990759e41",
+      "name": "周毓明 (博导)",
+      "officialSections": [
+        "教授"
+      ],
+      "title": "教授",
+      "profileUrl": "https://cs.nju.edu.cn/58/0b/c2639a153611/pagem.htm",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "nju-cs-20d29bda416e",
+      "name": "瞿裕忠 (博导)",
+      "officialSections": [
+        "教授"
+      ],
+      "title": "教授",
+      "profileUrl": "https://cs.nju.edu.cn/58/0a/c2639a153610/pagem.htm",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "nju-cs-f0284478a115",
+      "name": "聂长海 (博导)",
+      "officialSections": [
+        "教授"
+      ],
+      "title": "教授",
+      "profileUrl": "https://cs.nju.edu.cn/58/09/c2639a153609/pagem.htm",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "nju-cs-93cde3be089b",
+      "name": "仲盛 (博导)",
+      "officialSections": [
+        "教授"
+      ],
+      "title": "教授",
+      "profileUrl": "https://cs.nju.edu.cn/58/08/c2639a153608/pagem.htm",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "nju-cs-4d16f60b59bf",
+      "name": "王崇骏 (博导)",
+      "officialSections": [
+        "教授"
+      ],
+      "title": "教授",
+      "profileUrl": "https://cs.nju.edu.cn/58/06/c2639a153606/pagem.htm",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "nju-cs-8dc04654174b",
+      "name": "王林章 (博导)",
+      "officialSections": [
+        "教授"
+      ],
+      "title": "教授",
+      "profileUrl": "https://cs.nju.edu.cn/58/03/c2639a153603/pagem.htm",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "nju-cs-dc530db2dda8",
+      "name": "杨育彬 (博导)",
+      "officialSections": [
+        "教授"
+      ],
+      "title": "教授",
+      "profileUrl": "https://cs.nju.edu.cn/58/02/c2639a153602/pagem.htm",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "nju-cs-787949801a6d",
+      "name": "路通 (博导)",
+      "officialSections": [
+        "教授"
+      ],
+      "title": "教授",
+      "profileUrl": "https://cs.nju.edu.cn/58/01/c2639a153601/pagem.htm",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "nju-cs-8149f0f9a0da",
+      "name": "许畅 (博导)",
+      "officialSections": [
+        "教授"
+      ],
+      "title": "教授",
+      "profileUrl": "https://cs.nju.edu.cn/58/00/c2639a153600/pagem.htm",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "nju-cs-85e090f66481",
+      "name": "尹一通 (博导)",
+      "officialSections": [
+        "教授"
+      ],
+      "title": "教授",
+      "profileUrl": "https://cs.nju.edu.cn/57/ff/c2639a153599/pagem.htm",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "nju-cs-7722cc02100a",
+      "name": "卜磊 (博导)",
+      "officialSections": [
+        "教授"
+      ],
+      "title": "教授",
+      "profileUrl": "https://cs.nju.edu.cn/c9/6f/c2639a51567/pagem.htm",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "nju-cs-bad3dae07aaf",
+      "name": "林冰凯（博导）",
+      "officialSections": [
+        "教授"
+      ],
+      "title": "教授",
+      "profileUrl": "https://cs.nju.edu.cn/97/c0/c2639a432064/pagem.htm",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "nju-cs-0cf63098c4d5",
+      "name": "王利民（博导）",
+      "officialSections": [
+        "教授"
+      ],
+      "title": "教授",
+      "profileUrl": "https://cs.nju.edu.cn/2f/cc/c2639a274380/pagem.htm",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "nju-cs-4566ed212504",
+      "name": "冯新宇(博导)",
+      "officialSections": [
+        "教授"
+      ],
+      "title": "教授",
+      "profileUrl": "https://cs.nju.edu.cn/a1/ca/c2639a238026/pagem.htm",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "nju-cs-2baf229c6209",
+      "name": "许封元(博导)",
+      "officialSections": [
+        "教授"
+      ],
+      "title": "教授",
+      "profileUrl": "https://cs.nju.edu.cn/6f/7d/c2639a159613/pagem.htm",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "nju-cs-7a5023640e25",
+      "name": "李文中 (博导)",
+      "officialSections": [
+        "教授"
+      ],
+      "title": "教授",
+      "profileUrl": "https://cs.nju.edu.cn/c9/41/c2639a51521/pagem.htm",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "nju-cs-304c0bfe6351",
+      "name": "黄宇 (博导)",
+      "officialSections": [
+        "教授"
+      ],
+      "title": "教授",
+      "profileUrl": "https://cs.nju.edu.cn/c9/3f/c2639a51519/pagem.htm",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "nju-cs-39bce1a0cadc",
+      "name": "曹春 (博导)",
+      "officialSections": [
+        "教授"
+      ],
+      "title": "教授",
+      "profileUrl": "https://cs.nju.edu.cn/c9/3b/c2639a51515/pagem.htm",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "nju-cs-12df72f705e1",
+      "name": "李武军 (博导)",
+      "officialSections": [
+        "教授"
+      ],
+      "title": "教授",
+      "profileUrl": "https://cs.nju.edu.cn/c9/54/c2639a51540/pagem.htm",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "nju-cs-a7335c744ff4",
+      "name": "谢磊 (博导)",
+      "officialSections": [
+        "教授"
+      ],
+      "title": "教授",
+      "profileUrl": "https://cs.nju.edu.cn/c9/77/c2639a51575/pagem.htm",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "nju-cs-1b3ff23b695d",
+      "name": "钱柱中 (博导)",
+      "officialSections": [
+        "教授"
+      ],
+      "title": "教授",
+      "profileUrl": "https://cs.nju.edu.cn/c9/4b/c2639a51531/pagem.htm",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "nju-cs-07d5db3abee0",
+      "name": "田臣（博导）",
+      "officialSections": [
+        "教授"
+      ],
+      "title": "教授",
+      "profileUrl": "https://cs.nju.edu.cn/51/c1/c2639a86465/pagem.htm",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "nju-cs-654828152f06",
+      "name": "张天 (博导)",
+      "officialSections": [
+        "教授"
+      ],
+      "title": "教授",
+      "profileUrl": "https://cs.nju.edu.cn/c9/43/c2639a51523/pagem.htm",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "nju-cs-af2e6a1bb7ea",
+      "name": "刘奇志 (博士)",
+      "officialSections": [
+        "教授"
+      ],
+      "title": "教授",
+      "profileUrl": "https://cs.nju.edu.cn/c9/6b/c2639a51563/pagem.htm",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "nju-cs-316a653b1492",
+      "name": "王炜 (博导)",
+      "officialSections": [
+        "教授"
+      ],
+      "title": "教授",
+      "profileUrl": "https://cs.nju.edu.cn/c9/52/c2639a51538/pagem.htm",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "nju-cs-d6a8ba36b723",
+      "name": "程龚 (博导)",
+      "officialSections": [
+        "教授"
+      ],
+      "title": "教授",
+      "profileUrl": "https://cs.nju.edu.cn/c9/37/c2639a51511/pagem.htm",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "nju-cs-7366db62ea7a",
+      "name": "栗师（博导）",
+      "officialSections": [
+        "教授"
+      ],
+      "title": "教授",
+      "profileUrl": "https://cs.nju.edu.cn/9f/b9/c2639a630713/pagem.htm",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "nju-cs-ba74c10b5356",
+      "name": "胡伟 (博导)",
+      "officialSections": [
+        "教授"
+      ],
+      "title": "教授",
+      "profileUrl": "https://cs.nju.edu.cn/c9/4f/c2639a51535/pagem.htm",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "nju-cs-33d8dea92dbf",
+      "name": "华景煜 (博导)",
+      "officialSections": [
+        "教授"
+      ],
+      "title": "教授",
+      "profileUrl": "https://cs.nju.edu.cn/c9/cf/c2639a51663/pagem.htm",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "nju-cs-5599759a89e9",
+      "name": "黄书剑 (博导)",
+      "officialSections": [
+        "教授"
+      ],
+      "title": "教授",
+      "profileUrl": "https://cs.nju.edu.cn/c9/d2/c2639a51666/pagem.htm",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "nju-cs-a2006a74160a",
+      "name": "史颖欢 (博导)",
+      "officialSections": [
+        "教授"
+      ],
+      "title": "教授",
+      "profileUrl": "https://cs.nju.edu.cn/7c/5e/c2639a293982/pagem.htm",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "nju-cs-b46f10071942",
+      "name": "姚鹏晖（博导）",
+      "officialSections": [
+        "教授"
+      ],
+      "title": "教授",
+      "profileUrl": "https://cs.nju.edu.cn/2f/cd/c2639a274381/pagem.htm",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "nju-cs-8f2a79dd509b",
+      "name": "张渊 (博导)",
+      "officialSections": [
+        "教授"
+      ],
+      "title": "教授",
+      "profileUrl": "https://cs.nju.edu.cn/c9/cd/c2639a51661/pagem.htm",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "nju-cs-f3d313cc0947",
+      "name": "戴海鹏 (博导)",
+      "officialSections": [
+        "教授"
+      ],
+      "title": "教授",
+      "profileUrl": "https://cs.nju.edu.cn/c9/d4/c2639a51668/pagem.htm",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "nju-cs-5eb77dec55a1",
+      "name": "李樾（博导）",
+      "officialSections": [
+        "教授"
+      ],
+      "title": "教授",
+      "profileUrl": "https://cs.nju.edu.cn/74/a2/c2639a423074/pagem.htm",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "nju-cs-06c3ff25c94d",
+      "name": "梁红瑾（博导）",
+      "officialSections": [
+        "教授"
+      ],
+      "title": "教授",
+      "profileUrl": "https://cs.nju.edu.cn/7f/97/c2639a229271/pagem.htm",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "nju-cs-c7028ede5199",
+      "name": "王晓亮 (博导)",
+      "officialSections": [
+        "教授"
+      ],
+      "title": "教授",
+      "profileUrl": "https://cs.nju.edu.cn/c9/5f/c2639a51551/pagem.htm",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "nju-cs-3cca669f7ee8",
+      "name": "金莹（博士）",
+      "officialSections": [
+        "教授"
+      ],
+      "title": "教授",
+      "profileUrl": "https://cs.nju.edu.cn/5a/a1/c2639a744097/pagem.htm",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "nju-cs-83a5c14e387b",
+      "name": "张莉（博士）",
+      "officialSections": [
+        "教授"
+      ],
+      "title": "教授",
+      "profileUrl": "https://cs.nju.edu.cn/5a/a2/c2639a744098/pagem.htm",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "nju-cs-a3e3ef727562",
+      "name": "柏文阳",
+      "officialSections": [
+        "副教授"
+      ],
+      "title": "副教授",
+      "profileUrl": "https://cs.nju.edu.cn/c9/4d/c2640a51533/pagem.htm",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "nju-cs-668b5be0c227",
+      "name": "唐 杰（博导）",
+      "officialSections": [
+        "副教授"
+      ],
+      "title": "副教授",
+      "profileUrl": "https://cs.nju.edu.cn/c9/59/c2640a51545/pagem.htm",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "nju-cs-7dc0b60cebd9",
+      "name": "李 宁 (博士)",
+      "officialSections": [
+        "副教授"
+      ],
+      "title": "副教授",
+      "profileUrl": "https://cs.nju.edu.cn/c9/69/c2640a51561/pagem.htm",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "nju-cs-3e0fd09d64c6",
+      "name": "杨若瑜 (博士)",
+      "officialSections": [
+        "副教授"
+      ],
+      "title": "副教授",
+      "profileUrl": "https://cs.nju.edu.cn/c9/65/c2640a51557/pagem.htm",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "nju-cs-3b0078572e72",
+      "name": "苏 丰 (博士)",
+      "officialSections": [
+        "副教授"
+      ],
+      "title": "副教授",
+      "profileUrl": "https://cs.nju.edu.cn/c9/55/c2640a51541/pagem.htm",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "nju-cs-d52e36231190",
+      "name": "余萍（博士）",
+      "officialSections": [
+        "副教授"
+      ],
+      "title": "副教授",
+      "profileUrl": "https://cs.nju.edu.cn/57/16/c2640a153366/pagem.htm",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "nju-cs-af360b7cafa4",
+      "name": "吴 楠 (博士)",
+      "officialSections": [
+        "副教授"
+      ],
+      "title": "副教授",
+      "profileUrl": "https://cs.nju.edu.cn/c9/35/c2640a51509/pagem.htm",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "nju-cs-11781626ee41",
+      "name": "商 琳 (博士)",
+      "officialSections": [
+        "副教授"
+      ],
+      "title": "副教授",
+      "profileUrl": "https://cs.nju.edu.cn/c9/47/c2640a51527/pagem.htm",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "nju-cs-413bcdd5a240",
+      "name": "陈鑫（博士）",
+      "officialSections": [
+        "副教授"
+      ],
+      "title": "副教授",
+      "profileUrl": "https://cs.nju.edu.cn/57/15/c2640a153365/pagem.htm",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "nju-cs-3aa04c7628dd",
+      "name": "张 岩 (博士)",
+      "officialSections": [
+        "副教授"
+      ],
+      "title": "副教授",
+      "profileUrl": "https://cs.nju.edu.cn/c9/6d/c2640a51565/pagem.htm",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "nju-cs-3b062622eb51",
+      "name": "张胜 (博导)",
+      "officialSections": [
+        "副教授"
+      ],
+      "title": "副教授",
+      "profileUrl": "https://cs.nju.edu.cn/c9/e4/c2640a51684/pagem.htm",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "nju-cs-25eb5cc62f6f",
+      "name": "许 蕾 (博导)",
+      "officialSections": [
+        "副教授"
+      ],
+      "title": "副教授",
+      "profileUrl": "https://cs.nju.edu.cn/c9/67/c2640a51559/pagem.htm",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "nju-cs-15e9aa938c72",
+      "name": "胡 昊 (博士)",
+      "officialSections": [
+        "副教授"
+      ],
+      "title": "副教授",
+      "profileUrl": "https://cs.nju.edu.cn/c9/61/c2640a51553/pagem.htm",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "nju-cs-ebbe2817909b",
+      "name": "马骏 (博士)",
+      "officialSections": [
+        "副教授"
+      ],
+      "title": "副教授",
+      "profileUrl": "https://cs.nju.edu.cn/_redirect?siteId=66&columnId=2640&articleId=51673",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "nju-cs-700fc78d5a31",
+      "name": "刘佳(博导)",
+      "officialSections": [
+        "副教授"
+      ],
+      "title": "副教授",
+      "profileUrl": "https://cs.nju.edu.cn/58/6a/c2640a153706/pagem.htm",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "nju-cs-e1e94fe2e345",
+      "name": "姚远（博导）",
+      "officialSections": [
+        "副教授"
+      ],
+      "title": "副教授",
+      "profileUrl": "https://cs.nju.edu.cn/22/9c/c2640a139932/pagem.htm",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "nju-cs-b733bdc0a734",
+      "name": "汪亮 (博导)",
+      "officialSections": [
+        "副教授"
+      ],
+      "title": "副教授",
+      "profileUrl": "https://cs.nju.edu.cn/c9/d5/c2640a51669/pagem.htm",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "nju-cs-751f3138ca33",
+      "name": "刘景铖（博导）",
+      "officialSections": [
+        "副教授"
+      ],
+      "title": "副教授",
+      "profileUrl": "https://cs.nju.edu.cn/94/21/c2640a562209/pagem.htm",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "nju-cs-e3b3cce430cd",
+      "name": "张洁（高级讲师）",
+      "officialSections": [
+        "副教授"
+      ],
+      "title": "副教授",
+      "profileUrl": "https://cs.nju.edu.cn/5a/a3/c2640a744099/pagem.htm",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "nju-cs-d30f44e5099c",
+      "name": "陶烨（高级讲师）",
+      "officialSections": [
+        "副教授"
+      ],
+      "title": "副教授",
+      "profileUrl": "https://cs.nju.edu.cn/5a/a5/c2640a744101/pagem.htm",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "nju-cs-9f0e151e085e",
+      "name": "王轲（长聘教授、博导）",
+      "officialSections": [
+        "准长聘"
+      ],
+      "title": "准长聘",
+      "profileUrl": "https://cs.nju.edu.cn/a0/2b/c56396a761899/pagem.htm",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "nju-cs-64354891979d",
+      "name": "左志强（长聘副教授、博导）",
+      "officialSections": [
+        "准长聘"
+      ],
+      "title": "准长聘",
+      "profileUrl": "https://cs.nju.edu.cn/96/42/c56396a235074/pagem.htm",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "nju-cs-59c3063ae9fc",
+      "name": "过洁（长聘副教授、博导）",
+      "officialSections": [
+        "准长聘"
+      ],
+      "title": "准长聘",
+      "profileUrl": "https://cs.nju.edu.cn/51/c2/c56396a86466/pagem.htm",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "nju-cs-ca06833d1d48",
+      "name": "蒋炎岩（准聘副教授、博导）",
+      "officialSections": [
+        "准长聘"
+      ],
+      "title": "准长聘",
+      "profileUrl": "https://cs.nju.edu.cn/96/41/c56396a235073/pagem.htm",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "nju-cs-66d88d7b09a2",
+      "name": "霍静（准聘副教授、博导）",
+      "officialSections": [
+        "准长聘"
+      ],
+      "title": "准长聘",
+      "profileUrl": "https://cs.nju.edu.cn/7f/96/c56396a229270/pagem.htm",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "nju-cs-30a2410c1e91",
+      "name": "黄棱潇（准聘副教授、博导）",
+      "officialSections": [
+        "准长聘"
+      ],
+      "title": "准长聘",
+      "profileUrl": "https://cs.nju.edu.cn/a5/dd/c56396a632285/pagem.htm",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "nju-cs-3372b0794879",
+      "name": "时清凯（准聘副教授、博导）",
+      "officialSections": [
+        "准长聘"
+      ],
+      "title": "准长聘",
+      "profileUrl": "https://cs.nju.edu.cn/b5/36/c56396a636214/pagem.htm",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "nju-cs-5c8df2f04808",
+      "name": "顾荣（准聘副教授、博导)",
+      "officialSections": [
+        "准长聘"
+      ],
+      "title": "准长聘",
+      "profileUrl": "https://cs.nju.edu.cn/a8/61/c56396a174177/pagem.htm",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "nju-cs-9c27e51cc111",
+      "name": "郑嘉琦（准聘副教授、博导）",
+      "officialSections": [
+        "准长聘"
+      ],
+      "title": "准长聘",
+      "profileUrl": "https://cs.nju.edu.cn/96/44/c56396a235076/pagem.htm",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "nju-cs-8ebc2d41b71e",
+      "name": "符天凡（准聘副教授、博导）",
+      "officialSections": [
+        "准长聘"
+      ],
+      "title": "准长聘",
+      "profileUrl": "https://cs.nju.edu.cn/1f/58/c56396a728920/pagem.htm",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "nju-cs-ad8c8a3e7c2c",
+      "name": "冯洋（准聘副教授、博导）",
+      "officialSections": [
+        "准长聘"
+      ],
+      "title": "准长聘",
+      "profileUrl": "https://cs.nju.edu.cn/38/52/c56396a473170/pagem.htm",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "nju-cs-263b93339457",
+      "name": "汪庆（准聘副教授、博导）",
+      "officialSections": [
+        "准长聘"
+      ],
+      "title": "准长聘",
+      "profileUrl": "https://cs.nju.edu.cn/10/3c/c56396a790588/pagem.htm",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "nju-cs-3653895ce248",
+      "name": "张天翼（准聘副教授、博导）",
+      "officialSections": [
+        "准长聘"
+      ],
+      "title": "准长聘",
+      "profileUrl": "https://cs.nju.edu.cn/1a/54/c56396a793172/pagem.htm",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "nju-cs-5d7e92069bc9",
+      "name": "刘智博（准聘副教授、博导）",
+      "officialSections": [
+        "准长聘"
+      ],
+      "title": "准长聘",
+      "profileUrl": "https://cs.nju.edu.cn/60/2e/c56396a811054/pagem.htm",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "nju-cs-f32a20d6555a",
+      "name": "郑朝栋（准聘副教授、博导）",
+      "officialSections": [
+        "准长聘"
+      ],
+      "title": "准长聘",
+      "profileUrl": "https://cs.nju.edu.cn/b1/08/c56396a176392/pagem.htm",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "nju-cs-1b9c791cf99c",
+      "name": "杨已彪（准聘助理教授、博导）",
+      "officialSections": [
+        "准长聘"
+      ],
+      "title": "准长聘",
+      "profileUrl": "https://cs.nju.edu.cn/6f/93/c56396a159635/pagem.htm",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "nju-cs-628c9066c976",
+      "name": "谭添（准聘助理教授、博导）",
+      "officialSections": [
+        "准长聘"
+      ],
+      "title": "准长聘",
+      "profileUrl": "https://cs.nju.edu.cn/b7/c4/c56396a440260/pagem.htm",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "nju-cs-8c01eb241604",
+      "name": "王楚豫（准聘助理教授、博导）",
+      "officialSections": [
+        "准长聘"
+      ],
+      "title": "准长聘",
+      "profileUrl": "https://cs.nju.edu.cn/9d/9f/c56396a302495/pagem.htm",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "nju-cs-937e3e0ca613",
+      "name": "徐经纬（准聘助理教授、博导）",
+      "officialSections": [
+        "准长聘"
+      ],
+      "title": "准长聘",
+      "profileUrl": "https://cs.nju.edu.cn/96/43/c56396a235075/pagem.htm",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "nju-cs-968168b6987c",
+      "name": "吴昊（准聘助理教授、博导）",
+      "officialSections": [
+        "准长聘"
+      ],
+      "title": "准长聘",
+      "profileUrl": "https://cs.nju.edu.cn/91/c0/c56396a561600/pagem.htm",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "nju-cs-1040b15e8dac",
+      "name": "朱光辉（准聘助理教授、博导）",
+      "officialSections": [
+        "准长聘"
+      ],
+      "title": "准长聘",
+      "profileUrl": "https://cs.nju.edu.cn/d1/f0/c56396a512496/pagem.htm",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "nju-cs-59a8eb018b2c",
+      "name": "吴化尧（准聘助理教授、博导）",
+      "officialSections": [
+        "准长聘"
+      ],
+      "title": "准长聘",
+      "profileUrl": "https://cs.nju.edu.cn/49/23/c56396a280867/pagem.htm",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "nju-cs-103bcd009a47",
+      "name": "宦成颖（准聘助理教授、博导）",
+      "officialSections": [
+        "准长聘"
+      ],
+      "title": "准长聘",
+      "profileUrl": "https://cs.nju.edu.cn/38/f8/c56396a735480/pagem.htm",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "nju-cs-855a2e6378b6",
+      "name": "王豫（准聘助理教授、博导）",
+      "officialSections": [
+        "准长聘"
+      ],
+      "title": "准长聘",
+      "profileUrl": "https://cs.nju.edu.cn/01/05/c56396a524549/pagem.htm",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "nju-cs-3036375bb469",
+      "name": "于开强（准聘助理教授、博导）",
+      "officialSections": [
+        "准长聘"
+      ],
+      "title": "准长聘",
+      "profileUrl": "https://cs.nju.edu.cn/b9/dc/c56396a768476/pagem.htm",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "nju-cs-2e2165fb2bf7",
+      "name": "李晓帆（准聘助理教授、博导）",
+      "officialSections": [
+        "准长聘"
+      ],
+      "title": "准长聘",
+      "profileUrl": "https://cs.nju.edu.cn/2b/d3/c56396a797651/pagem.htm",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "nju-cs-29882bfd4e1b",
+      "name": "李猛（准聘助理教授）",
+      "officialSections": [
+        "准长聘"
+      ],
+      "title": "准长聘",
+      "profileUrl": "https://cs.nju.edu.cn/ab/e6/c56396a633830/pagem.htm",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "nju-cs-28f54e6103f2",
+      "name": "孙泽群（准聘助理教授）",
+      "officialSections": [
+        "准长聘"
+      ],
+      "title": "准长聘",
+      "profileUrl": "https://cs.nju.edu.cn/95/2d/c56396a628013/pagem.htm",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "nju-cs-9f7bf9fb6d25",
+      "name": "谢旻晖（准聘助理教授）",
+      "officialSections": [
+        "准长聘"
+      ],
+      "title": "准长聘",
+      "profileUrl": "https://cs.nju.edu.cn/da/7d/c56396a842365/pagem.htm",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "nju-cs-77371fb74663",
+      "name": "虞文魁",
+      "officialSections": [
+        "跨学科博导"
+      ],
+      "title": "跨学科博导",
+      "profileUrl": "https://cs.nju.edu.cn/e6/19/c57761a779801/pagem.htm",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "nju-cs-9df16226ce52",
+      "name": "李心丹",
+      "officialSections": [
+        "跨学科博导"
+      ],
+      "title": "跨学科博导",
+      "profileUrl": "https://sme.nju.edu.cn/lxd/list.htm",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "nju-cs-7daeb33b4b28",
+      "name": "曹汛",
+      "officialSections": [
+        "跨学科博导"
+      ],
+      "title": "跨学科博导",
+      "profileUrl": "https://cs.nju.edu.cn/d2/3f/c57761a643647/pagem.htm",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "nju-cs-9838bdda9b46",
+      "name": "夏耐 (博士)",
+      "officialSections": [
+        "讲师、专职科研、博士后"
+      ],
+      "title": "讲师、专职科研、博士后",
+      "profileUrl": "https://cs.nju.edu.cn/c9/da/c2641a51674/pagem.htm",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "nju-cs-6dc641c22a3d",
+      "name": "秦逸（博士）",
+      "officialSections": [
+        "讲师、专职科研、博士后"
+      ],
+      "title": "讲师、专职科研、博士后",
+      "profileUrl": "https://cs.nju.edu.cn/ea/d8/c2641a322264/pagem.htm",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "nju-cs-af3af304af22",
+      "name": "黄程远（博士）",
+      "officialSections": [
+        "讲师、专职科研、博士后"
+      ],
+      "title": "讲师、专职科研、博士后",
+      "profileUrl": "https://cs.nju.edu.cn/b8/d2/c2641a637138/pagem.htm",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "nju-cs-a09be2c3a1a1",
+      "name": "李元琪（博士）",
+      "officialSections": [
+        "讲师、专职科研、博士后"
+      ],
+      "title": "讲师、专职科研、博士后",
+      "profileUrl": "https://cs.nju.edu.cn/bd/1c/c2641a703772/pagem.htm",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "nju-cs-5f09303d98e2",
+      "name": "曹培睿（博士）",
+      "officialSections": [
+        "讲师、专职科研、博士后"
+      ],
+      "title": "讲师、专职科研、博士后",
+      "profileUrl": "https://caopeirui.github.io/",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "nju-cs-91f6bb939809",
+      "name": "宁静仪（博士）",
+      "officialSections": [
+        "讲师、专职科研、博士后"
+      ],
+      "title": "讲师、专职科研、博士后",
+      "profileUrl": "https://cs.nju.edu.cn/fa/2d/c2641a719405/pagem.htm",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "nju-cs-27ca01892160",
+      "name": "林明凯（博士）",
+      "officialSections": [
+        "讲师、专职科研、博士后"
+      ],
+      "title": "讲师、专职科研、博士后",
+      "profileUrl": "https://cs.nju.edu.cn/ba/94/c2641a768660/pagem.htm",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "nju-cs-9c795cf3cedb",
+      "name": "甘世维（博士）",
+      "officialSections": [
+        "讲师、专职科研、博士后"
+      ],
+      "title": "讲师、专职科研、博士后",
+      "profileUrl": "https://cs.nju.edu.cn/13/d1/c2641a791505/pagem.htm",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "nju-cs-857a63100b82",
+      "name": "王佳宛（博士）",
+      "officialSections": [
+        "讲师、专职科研、博士后"
+      ],
+      "title": "讲师、专职科研、博士后",
+      "profileUrl": "https://cs.nju.edu.cn/13/d2/c2641a791506/pagem.htm",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "nju-cs-b7a513df80f3",
+      "name": "郭金涛（博士）",
+      "officialSections": [
+        "讲师、专职科研、博士后"
+      ],
+      "title": "讲师、专职科研、博士后",
+      "profileUrl": "https://cs.nju.edu.cn/d9/8d/c2641a842125/pagem.htm",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "nju-cs-506bab867310",
+      "name": "王洁（博士）",
+      "officialSections": [
+        "讲师、专职科研、博士后"
+      ],
+      "title": "讲师、专职科研、博士后",
+      "profileUrl": "https://cs.nju.edu.cn/d9/a3/c2641a842147/pagem.htm",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "nju-cs-86dfc1af3c62",
+      "name": "黄达明",
+      "officialSections": [
+        "讲师、专职科研、博士后"
+      ],
+      "title": "讲师、专职科研、博士后",
+      "profileUrl": "https://cs.nju.edu.cn/5a/a4/c2641a744100/pagem.htm",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "nju-cs-a5a2d5462de5",
+      "name": "潘亦",
+      "officialSections": [
+        "讲师、专职科研、博士后"
+      ],
+      "title": "讲师、专职科研、博士后",
+      "profileUrl": "https://cs.nju.edu.cn/5a/a6/c2641a744102/pagem.htm",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "nju-cs-806231747232",
+      "name": "尹存燕 (博士)",
+      "officialSections": [
+        "高级工程师"
+      ],
+      "title": "高级工程师",
+      "profileUrl": "https://cs.nju.edu.cn/c9/df/c2642a51679/pagem.htm",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "nju-cs-ac887d2bf2f3",
+      "name": "卢红敏 (博士)",
+      "officialSections": [
+        "高级工程师"
+      ],
+      "title": "高级工程师",
+      "profileUrl": "https://cs.nju.edu.cn/c9/d8/c2642a51672/pagem.htm",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "nju-cs-f68e674caa75",
+      "name": "吴海军",
+      "officialSections": [
+        "高级工程师"
+      ],
+      "title": "高级工程师",
+      "profileUrl": "https://cs.nju.edu.cn/c9/ec/c2642a51692/pagem.htm",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "nju-cs-0863dcbe6e64",
+      "name": "张 剡",
+      "officialSections": [
+        "高级工程师"
+      ],
+      "title": "高级工程师",
+      "profileUrl": "https://cs.nju.edu.cn/c9/eb/c2642a51691/pagem.htm",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "nju-cs-49ed0c34e483",
+      "name": "陈健",
+      "officialSections": [
+        "高级工程师"
+      ],
+      "title": "高级工程师",
+      "profileUrl": "https://cs.nju.edu.cn/c9/ea/c2642a51690/pagem.htm",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "nju-cs-67c766bf558e",
+      "name": "吴迎红(博士)",
+      "officialSections": [
+        "高级工程师"
+      ],
+      "title": "高级工程师",
+      "profileUrl": "https://cs.nju.edu.cn/c9/e5/c2642a51685/pagem.htm",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "nju-cs-faea7e6e2229",
+      "name": "李 俊",
+      "officialSections": [
+        "高级工程师"
+      ],
+      "title": "高级工程师",
+      "profileUrl": "https://cs.nju.edu.cn/c9/d6/c2642a51670/pagem.htm",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "nju-cs-827e2bc80f88",
+      "name": "周 嵩",
+      "officialSections": [
+        "专业技术人员"
+      ],
+      "title": "专业技术人员",
+      "profileUrl": "https://cs.nju.edu.cn/c9/dd/c2643a51677/pagem.htm",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "nju-cs-6809aaf61c9a",
+      "name": "徐 烜",
+      "officialSections": [
+        "专业技术人员"
+      ],
+      "title": "专业技术人员",
+      "profileUrl": "https://cs.nju.edu.cn/c9/f3/c2643a51699/pagem.htm",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "nju-cs-1f8b2aaeeba3",
+      "name": "吴奕",
+      "officialSections": [
+        "专业技术人员"
+      ],
+      "title": "专业技术人员",
+      "profileUrl": "https://cs.nju.edu.cn/5a/a7/c2643a744103/pagem.htm",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "nju-cs-bd8a079ba62e",
+      "name": "张枢",
+      "officialSections": [
+        "专业技术人员"
+      ],
+      "title": "专业技术人员",
+      "profileUrl": "https://cs.nju.edu.cn/5a/a8/c2643a744104/pagem.htm",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "nju-cs-95a29428161b",
+      "name": "顾坚",
+      "officialSections": [
+        "专业技术人员"
+      ],
+      "title": "专业技术人员",
+      "profileUrl": "https://cs.nju.edu.cn/5a/a9/c2643a744105/pagem.htm",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "nju-cs-46e650abb28c",
+      "name": "李婷",
+      "officialSections": [
+        "专业技术人员"
+      ],
+      "title": "专业技术人员",
+      "profileUrl": "https://cs.nju.edu.cn/a0/2a/c2643a761898/pagem.htm",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "nju-cs-549b7200fd48",
+      "name": "宫玲琳",
+      "officialSections": [
+        "行政管理人员"
+      ],
+      "title": "行政管理人员",
+      "profileUrl": "https://cs.nju.edu.cn/39/b5/c2644a211381/pagem.htm",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "nju-cs-f3d0470bc893",
+      "name": "苏贵珍",
+      "officialSections": [
+        "行政管理人员"
+      ],
+      "title": "行政管理人员",
+      "profileUrl": "https://cs.nju.edu.cn/5d/3b/c2644a89403/pagem.htm",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "nju-cs-6bf8de5ec999",
+      "name": "王可",
+      "officialSections": [
+        "行政管理人员"
+      ],
+      "title": "行政管理人员",
+      "profileUrl": "https://cs.nju.edu.cn/5d/3a/c2644a89402/pagem.htm",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "nju-cs-de3134dca1f7",
+      "name": "曹迎春",
+      "officialSections": [
+        "行政管理人员"
+      ],
+      "title": "行政管理人员",
+      "profileUrl": "https://cs.nju.edu.cn/c9/dc/c2644a51676/pagem.htm",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "nju-cs-acf3d1ca413b",
+      "name": "赵华帼",
+      "officialSections": [
+        "行政管理人员"
+      ],
+      "title": "行政管理人员",
+      "profileUrl": "https://cs.nju.edu.cn/c9/f5/c2644a51701/pagem.htm",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "nju-cs-ccb2b2e7c62b",
+      "name": "傅忠",
+      "officialSections": [
+        "行政管理人员"
+      ],
+      "title": "行政管理人员",
+      "profileUrl": "https://cs.nju.edu.cn/c9/f8/c2644a51704/pagem.htm",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "nju-cs-33913a75ed85",
+      "name": "王雪梅",
+      "officialSections": [
+        "行政管理人员"
+      ],
+      "title": "行政管理人员",
+      "profileUrl": "https://cs.nju.edu.cn/c9/f7/c2644a51703/pagem.htm",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "nju-cs-b90dcb9dc3f2",
+      "name": "乔益华",
+      "officialSections": [
+        "行政管理人员"
+      ],
+      "title": "行政管理人员",
+      "profileUrl": "https://cs.nju.edu.cn/ae/7a/c2644a175738/pagem.htm",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "nju-cs-0a738a9ea73b",
+      "name": "李其芳",
+      "officialSections": [
+        "行政管理人员"
+      ],
+      "title": "行政管理人员",
+      "profileUrl": "https://cs.nju.edu.cn/38/b4/c2644a211124/pagem.htm",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "nju-cs-b654f413ac29",
+      "name": "张定",
+      "officialSections": [
+        "行政管理人员"
+      ],
+      "title": "行政管理人员",
+      "profileUrl": "https://cs.nju.edu.cn/11/18/c2644a528664/pagem.htm",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "nju-cs-b30d460a8dcb",
+      "name": "高英丽",
+      "officialSections": [
+        "行政管理人员"
+      ],
+      "title": "行政管理人员",
+      "profileUrl": "https://cs.nju.edu.cn/d5/fc/c2644a710140/pagem.htm",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "nju-cs-511df0c043ff",
+      "name": "刘光源",
+      "officialSections": [
+        "行政管理人员"
+      ],
+      "title": "行政管理人员",
+      "profileUrl": "https://cs.nju.edu.cn/dd/44/c2644a712004/pagem.htm",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "nju-cs-74cf5204d935",
+      "name": "吕云哲",
+      "officialSections": [
+        "行政管理人员"
+      ],
+      "title": "行政管理人员",
+      "profileUrl": "https://cs.nju.edu.cn/dd/45/c2644a712005/pagem.htm",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "nju-cs-59444b3f04aa",
+      "name": "唐宗红",
+      "officialSections": [
+        "行政管理人员"
+      ],
+      "title": "行政管理人员",
+      "profileUrl": "https://cs.nju.edu.cn/ab/d5/c2644a830421/pagem.htm",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "nju-cs-323d0095fcf4",
+      "name": "杨旭",
+      "officialSections": [
+        "离退休人员"
+      ],
+      "title": "离退休人员",
+      "profileUrl": "https://cs.nju.edu.cn/c9/f0/c2645a51696/pagem.htm",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "nju-cs-db8fbb1d2e30",
+      "name": "胡又林",
+      "officialSections": [
+        "离退休人员"
+      ],
+      "title": "离退休人员",
+      "profileUrl": "https://cs.nju.edu.cn/c9/f1/c2645a51697/pagem.htm",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "nju-cs-419276b42520",
+      "name": "杨献春",
+      "officialSections": [
+        "离退休人员"
+      ],
+      "title": "离退休人员",
+      "profileUrl": "https://cs.nju.edu.cn/c9/ed/c2645a51693/pagem.htm",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "nju-cs-bbdedc2ad6c1",
+      "name": "陈世福 (博导)",
+      "officialSections": [
+        "离退休人员"
+      ],
+      "title": "离退休人员",
+      "profileUrl": "https://cs.nju.edu.cn/ca/32/c2645a51762/pagem.htm",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "nju-cs-87b88c80e76c",
+      "name": "张福炎 (博导)",
+      "officialSections": [
+        "离退休人员"
+      ],
+      "title": "离退休人员",
+      "profileUrl": "https://cs.nju.edu.cn/ca/08/c2645a51720/pagem.htm",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "nju-cs-80bcf34bd23d",
+      "name": "尹晓红",
+      "officialSections": [
+        "离退休人员"
+      ],
+      "title": "离退休人员",
+      "profileUrl": "https://cs.nju.edu.cn/c9/f4/c2645a51700/pagem.htm",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "nju-cs-0169ef2aa5e3",
+      "name": "谢立 (博导)",
+      "officialSections": [
+        "离退休人员"
+      ],
+      "title": "离退休人员",
+      "profileUrl": "https://cs.nju.edu.cn/ca/09/c2645a51721/pagem.htm",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "nju-cs-b7619b3bfd58",
+      "name": "蔡士杰 (博导)",
+      "officialSections": [
+        "离退休人员"
+      ],
+      "title": "离退休人员",
+      "profileUrl": "https://cs.nju.edu.cn/ca/11/c2645a51729/pagem.htm",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "nju-cs-f1143bbfcbb3",
+      "name": "许满武 (博导)",
+      "officialSections": [
+        "离退休人员"
+      ],
+      "title": "离退休人员",
+      "profileUrl": "https://cs.nju.edu.cn/ca/1e/c2645a51742/pagem.htm",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "nju-cs-6a9796132c35",
+      "name": "费翔林",
+      "officialSections": [
+        "离退休人员"
+      ],
+      "title": "离退休人员",
+      "profileUrl": "https://cs.nju.edu.cn/ca/14/c2645a51732/pagem.htm",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "nju-cs-196e04ab697f",
+      "name": "马卫宁",
+      "officialSections": [
+        "离退休人员"
+      ],
+      "title": "离退休人员",
+      "profileUrl": "https://cs.nju.edu.cn/c9/fe/c2645a51710/pagem.htm",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "nju-cs-dbfa8900c25f",
+      "name": "俞建新",
+      "officialSections": [
+        "离退休人员"
+      ],
+      "title": "离退休人员",
+      "profileUrl": "https://cs.nju.edu.cn/c9/fd/c2645a51709/pagem.htm",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "nju-cs-6f4ebead88f4",
+      "name": "汪靖强",
+      "officialSections": [
+        "离退休人员"
+      ],
+      "title": "离退休人员",
+      "profileUrl": "https://cs.nju.edu.cn/ca/20/c2645a51744/pagem.htm",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "nju-cs-62b15beb8a75",
+      "name": "张万华",
+      "officialSections": [
+        "离退休人员"
+      ],
+      "title": "离退休人员",
+      "profileUrl": "https://cs.nju.edu.cn/ca/21/c2645a51745/pagem.htm",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "nju-cs-65ef22c25e56",
+      "name": "谢 琪",
+      "officialSections": [
+        "离退休人员"
+      ],
+      "title": "离退休人员",
+      "profileUrl": "https://cs.nju.edu.cn/ca/1a/c2645a51738/pagem.htm",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "nju-cs-1716744a641a",
+      "name": "高海燕",
+      "officialSections": [
+        "离退休人员"
+      ],
+      "title": "离退休人员",
+      "profileUrl": "https://cs.nju.edu.cn/ca/12/c2645a51730/pagem.htm",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "nju-cs-f05e8f37cdcd",
+      "name": "陈道蓄 (博导)",
+      "officialSections": [
+        "离退休人员"
+      ],
+      "title": "离退休人员",
+      "profileUrl": "https://cs.nju.edu.cn/58/29/c2645a153641/pagem.htm",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "nju-cs-b021cc0a6f29",
+      "name": "高颖慧",
+      "officialSections": [
+        "离退休人员"
+      ],
+      "title": "离退休人员",
+      "profileUrl": "https://cs.nju.edu.cn/ca/13/c2645a51731/pagem.htm",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "nju-cs-181d0fe07a7b",
+      "name": "孙秀花",
+      "officialSections": [
+        "离退休人员"
+      ],
+      "title": "离退休人员",
+      "profileUrl": "https://cs.nju.edu.cn/ca/07/c2645a51719/pagem.htm",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "nju-cs-34e535d21db1",
+      "name": "王亚平",
+      "officialSections": [
+        "离退休人员"
+      ],
+      "title": "离退休人员",
+      "profileUrl": "https://cs.nju.edu.cn/ca/05/c2645a51717/pagem.htm",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "nju-cs-15b20eda461f",
+      "name": "武林红",
+      "officialSections": [
+        "离退休人员"
+      ],
+      "title": "离退休人员",
+      "profileUrl": "https://cs.nju.edu.cn/ca/06/c2645a51718/pagem.htm",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "nju-cs-f762e609b56e",
+      "name": "谢冬生",
+      "officialSections": [
+        "离退休人员"
+      ],
+      "title": "离退休人员",
+      "profileUrl": "https://cs.nju.edu.cn/ca/01/c2645a51713/pagem.htm",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "nju-cs-ab1d9d711dce",
+      "name": "潘金贵 (博导)",
+      "officialSections": [
+        "离退休人员"
+      ],
+      "title": "离退休人员",
+      "profileUrl": "https://cs.nju.edu.cn/58/25/c2645a153637/pagem.htm",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "nju-cs-30c6fd3d15cd",
+      "name": "余梅丽",
+      "officialSections": [
+        "离退休人员"
+      ],
+      "title": "离退休人员",
+      "profileUrl": "https://cs.nju.edu.cn/ca/34/c2645a51764/pagem.htm",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "nju-cs-46a389301359",
+      "name": "周晓雪",
+      "officialSections": [
+        "离退休人员"
+      ],
+      "title": "离退休人员",
+      "profileUrl": "https://cs.nju.edu.cn/ca/1f/c2645a51743/pagem.htm",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "nju-cs-fca4d23b24ce",
+      "name": "黄 皓 (博导)",
+      "officialSections": [
+        "离退休人员"
+      ],
+      "title": "离退休人员",
+      "profileUrl": "https://cs.nju.edu.cn/58/23/c2645a153635/pagem.htm",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "nju-cs-8f1f40a5b9eb",
+      "name": "安凤尊",
+      "officialSections": [
+        "离退休人员"
+      ],
+      "title": "离退休人员",
+      "profileUrl": "https://cs.nju.edu.cn/ca/25/c2645a51749/pagem.htm",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "nju-cs-d8cf611252d8",
+      "name": "陈本林",
+      "officialSections": [
+        "离退休人员"
+      ],
+      "title": "离退休人员",
+      "profileUrl": "https://cs.nju.edu.cn/ca/24/c2645a51748/pagem.htm",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "nju-cs-4e1fcb7f2603",
+      "name": "陈佩佩",
+      "officialSections": [
+        "离退休人员"
+      ],
+      "title": "离退休人员",
+      "profileUrl": "https://cs.nju.edu.cn/ca/23/c2645a51747/pagem.htm",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "nju-cs-12af2e22cebc",
+      "name": "樊莉萍",
+      "officialSections": [
+        "离退休人员"
+      ],
+      "title": "离退休人员",
+      "profileUrl": "https://cs.nju.edu.cn/ca/22/c2645a51746/pagem.htm",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "nju-cs-68e83ea930ef",
+      "name": "戈孝珍",
+      "officialSections": [
+        "离退休人员"
+      ],
+      "title": "离退休人员",
+      "profileUrl": "https://cs.nju.edu.cn/ca/28/c2645a51752/pagem.htm",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "nju-cs-1fa3b36e4491",
+      "name": "贺威顺",
+      "officialSections": [
+        "离退休人员"
+      ],
+      "title": "离退休人员",
+      "profileUrl": "https://cs.nju.edu.cn/ca/27/c2645a51751/pagem.htm",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "nju-cs-533d4cc5865d",
+      "name": "赵金熙 (博导)",
+      "officialSections": [
+        "离退休人员"
+      ],
+      "title": "离退休人员",
+      "profileUrl": "https://cs.nju.edu.cn/58/1d/c2645a153629/pagem.htm",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "nju-cs-6c8923de1be4",
+      "name": "黄炳生",
+      "officialSections": [
+        "离退休人员"
+      ],
+      "title": "离退休人员",
+      "profileUrl": "https://cs.nju.edu.cn/ca/16/c2645a51734/pagem.htm",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "nju-cs-effa1f4d8d6c",
+      "name": "金志权",
+      "officialSections": [
+        "离退休人员"
+      ],
+      "title": "离退休人员",
+      "profileUrl": "https://cs.nju.edu.cn/ca/18/c2645a51736/pagem.htm",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "nju-cs-42c084f4621f",
+      "name": "李存珠",
+      "officialSections": [
+        "离退休人员"
+      ],
+      "title": "离退休人员",
+      "profileUrl": "https://cs.nju.edu.cn/ca/03/c2645a51715/pagem.htm",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "nju-cs-bc09d075a106",
+      "name": "李胜果",
+      "officialSections": [
+        "离退休人员"
+      ],
+      "title": "离退休人员",
+      "profileUrl": "https://cs.nju.edu.cn/ca/00/c2645a51712/pagem.htm",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "nju-cs-00c5667736e9",
+      "name": "谭耀铭",
+      "officialSections": [
+        "离退休人员"
+      ],
+      "title": "离退休人员",
+      "profileUrl": "https://cs.nju.edu.cn/ca/0f/c2645a51727/pagem.htm",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "nju-cs-301d07cae233",
+      "name": "万纯美",
+      "officialSections": [
+        "离退休人员"
+      ],
+      "title": "离退休人员",
+      "profileUrl": "https://cs.nju.edu.cn/ca/0d/c2645a51725/pagem.htm",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "nju-cs-128bdc3a9202",
+      "name": "王和珍",
+      "officialSections": [
+        "离退休人员"
+      ],
+      "title": "离退休人员",
+      "profileUrl": "https://cs.nju.edu.cn/ca/0b/c2645a51723/pagem.htm",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "nju-cs-767234739656",
+      "name": "王静英",
+      "officialSections": [
+        "离退休人员"
+      ],
+      "title": "离退休人员",
+      "profileUrl": "https://cs.nju.edu.cn/ca/2e/c2645a51758/pagem.htm",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "nju-cs-79b59e031dc2",
+      "name": "王啟祥",
+      "officialSections": [
+        "离退休人员"
+      ],
+      "title": "离退休人员",
+      "profileUrl": "https://cs.nju.edu.cn/ca/2f/c2645a51759/pagem.htm",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "nju-cs-15456334a1a8",
+      "name": "王银根",
+      "officialSections": [
+        "离退休人员"
+      ],
+      "title": "离退休人员",
+      "profileUrl": "https://cs.nju.edu.cn/ca/31/c2645a51761/pagem.htm",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "nju-cs-4c32ddf34b0d",
+      "name": "朱怀宏",
+      "officialSections": [
+        "离退休人员"
+      ],
+      "title": "离退休人员",
+      "profileUrl": "https://cs.nju.edu.cn/c9/49/c2645a51529/pagem.htm",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "nju-cs-8e0483517ca3",
+      "name": "徐福培",
+      "officialSections": [
+        "离退休人员"
+      ],
+      "title": "离退休人员",
+      "profileUrl": "https://cs.nju.edu.cn/ca/37/c2645a51767/pagem.htm",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "nju-cs-b90d166bc499",
+      "name": "刘玲",
+      "officialSections": [
+        "离退休人员"
+      ],
+      "title": "离退休人员",
+      "profileUrl": "https://cs.nju.edu.cn/c9/51/c2645a51537/pagem.htm",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "nju-cs-50c8bd934ae1",
+      "name": "徐洁磐",
+      "officialSections": [
+        "离退休人员"
+      ],
+      "title": "离退休人员",
+      "profileUrl": "https://cs.nju.edu.cn/ca/36/c2645a51766/pagem.htm",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "nju-cs-4b404cf24518",
+      "name": "徐娟芬",
+      "officialSections": [
+        "离退休人员"
+      ],
+      "title": "离退休人员",
+      "profileUrl": "https://cs.nju.edu.cn/ca/39/c2645a51769/pagem.htm",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "nju-cs-ea228be9b5a9",
+      "name": "徐玲芝",
+      "officialSections": [
+        "离退休人员"
+      ],
+      "title": "离退休人员",
+      "profileUrl": "https://cs.nju.edu.cn/ca/38/c2645a51768/pagem.htm",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "nju-cs-2e752c9535d1",
+      "name": "陆庆文",
+      "officialSections": [
+        "离退休人员"
+      ],
+      "title": "离退休人员",
+      "profileUrl": "https://cs.nju.edu.cn/c9/ee/c2645a51694/pagem.htm",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "nju-cs-99b8890a684b",
+      "name": "徐永森",
+      "officialSections": [
+        "离退休人员"
+      ],
+      "title": "离退休人员",
+      "profileUrl": "https://cs.nju.edu.cn/ca/3a/c2645a51770/pagem.htm",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "nju-cs-b13ba93c3b12",
+      "name": "沈 平",
+      "officialSections": [
+        "离退休人员"
+      ],
+      "title": "离退休人员",
+      "profileUrl": "https://cs.nju.edu.cn/c9/ef/c2645a51695/pagem.htm",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "nju-cs-a09e495c64b3",
+      "name": "杨培根",
+      "officialSections": [
+        "离退休人员"
+      ],
+      "title": "离退休人员",
+      "profileUrl": "https://cs.nju.edu.cn/ca/1c/c2645a51740/pagem.htm",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "nju-cs-93173d811d88",
+      "name": "雍殿书",
+      "officialSections": [
+        "离退休人员"
+      ],
+      "title": "离退休人员",
+      "profileUrl": "https://cs.nju.edu.cn/ca/1d/c2645a51741/pagem.htm",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "nju-cs-ef952948a68f",
+      "name": "沙 英",
+      "officialSections": [
+        "离退休人员"
+      ],
+      "title": "离退休人员",
+      "profileUrl": "https://cs.nju.edu.cn/c9/e7/c2645a51687/pagem.htm",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "nju-cs-f5208ad38c19",
+      "name": "尤惟清",
+      "officialSections": [
+        "离退休人员"
+      ],
+      "title": "离退休人员",
+      "profileUrl": "https://cs.nju.edu.cn/ca/1b/c2645a51739/pagem.htm",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "nju-cs-4ea95ab6788d",
+      "name": "张春兰",
+      "officialSections": [
+        "离退休人员"
+      ],
+      "title": "离退休人员",
+      "profileUrl": "https://cs.nju.edu.cn/ca/2c/c2645a51756/pagem.htm",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "nju-cs-19091fcf10eb",
+      "name": "张泽生",
+      "officialSections": [
+        "离退休人员"
+      ],
+      "title": "离退休人员",
+      "profileUrl": "https://cs.nju.edu.cn/c9/e9/c2645a51689/pagem.htm",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "nju-cs-a55238937ff1",
+      "name": "张德富 (博导)",
+      "officialSections": [
+        "离退休人员"
+      ],
+      "title": "离退休人员",
+      "profileUrl": "https://cs.nju.edu.cn/ca/2b/c2645a51755/pagem.htm",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "nju-cs-9aea90ca9766",
+      "name": "冯珍竹",
+      "officialSections": [
+        "离退休人员"
+      ],
+      "title": "离退休人员",
+      "profileUrl": "https://cs.nju.edu.cn/c9/fa/c2645a51706/pagem.htm",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "nju-cs-cfc4fb230852",
+      "name": "张幸儿",
+      "officialSections": [
+        "离退休人员"
+      ],
+      "title": "离退休人员",
+      "profileUrl": "https://cs.nju.edu.cn/ca/2a/c2645a51754/pagem.htm",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "nju-cs-28cdfd993cd9",
+      "name": "张建莹",
+      "officialSections": [
+        "离退休人员"
+      ],
+      "title": "离退休人员",
+      "profileUrl": "https://cs.nju.edu.cn/c9/e8/c2645a51688/pagem.htm",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "nju-cs-6147013b6c1b",
+      "name": "杨 军",
+      "officialSections": [
+        "离退休人员"
+      ],
+      "title": "离退休人员",
+      "profileUrl": "https://cs.nju.edu.cn/c9/fb/c2645a51707/pagem.htm",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "nju-cs-31790a93c85c",
+      "name": "王绪宜",
+      "officialSections": [
+        "离退休人员（基础教学部）"
+      ],
+      "title": "离退休人员（基础教学部）",
+      "profileUrl": "https://cs.nju.edu.cn/5a/ab/c62001a744107/pagem.htm",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "nju-cs-55429b13277a",
+      "name": "刘秀芳",
+      "officialSections": [
+        "离退休人员（基础教学部）"
+      ],
+      "title": "离退休人员（基础教学部）",
+      "profileUrl": "https://cs.nju.edu.cn/5a/ac/c62001a744108/pagem.htm",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "nju-cs-2cfa65b8e45a",
+      "name": "屠俊如",
+      "officialSections": [
+        "离退休人员（基础教学部）"
+      ],
+      "title": "离退休人员（基础教学部）",
+      "profileUrl": "https://cs.nju.edu.cn/5a/ae/c62001a744110/pagem.htm",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "nju-cs-4929d9426f27",
+      "name": "陈志明",
+      "officialSections": [
+        "离退休人员（基础教学部）"
+      ],
+      "title": "离退休人员（基础教学部）",
+      "profileUrl": "https://cs.nju.edu.cn/5a/af/c62001a744111/pagem.htm",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "nju-cs-75cdb74ada8e",
+      "name": "梁嗣德",
+      "officialSections": [
+        "离退休人员（基础教学部）"
+      ],
+      "title": "离退休人员（基础教学部）",
+      "profileUrl": "https://cs.nju.edu.cn/5a/b0/c62001a744112/pagem.htm",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "nju-cs-948d09b1f142",
+      "name": "李永祥",
+      "officialSections": [
+        "离退休人员（基础教学部）"
+      ],
+      "title": "离退休人员（基础教学部）",
+      "profileUrl": "https://cs.nju.edu.cn/5a/b1/c62001a744113/pagem.htm",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "nju-cs-759209e4e568",
+      "name": "葛巧珍",
+      "officialSections": [
+        "离退休人员（基础教学部）"
+      ],
+      "title": "离退休人员（基础教学部）",
+      "profileUrl": "https://cs.nju.edu.cn/5a/b2/c62001a744114/pagem.htm",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "nju-cs-d7ba140d61cb",
+      "name": "孙建国",
+      "officialSections": [
+        "离退休人员（基础教学部）"
+      ],
+      "title": "离退休人员（基础教学部）",
+      "profileUrl": "https://cs.nju.edu.cn/5a/b3/c62001a744115/pagem.htm",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "nju-cs-b86fdc0828dc",
+      "name": "姜恒远",
+      "officialSections": [
+        "离退休人员（基础教学部）"
+      ],
+      "title": "离退休人员（基础教学部）",
+      "profileUrl": "https://cs.nju.edu.cn/5a/b4/c62001a744116/pagem.htm",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "nju-cs-c3bdebeb25f8",
+      "name": "黄强",
+      "officialSections": [
+        "离退休人员（基础教学部）"
+      ],
+      "title": "离退休人员（基础教学部）",
+      "profileUrl": "https://cs.nju.edu.cn/5a/b5/c62001a744117/pagem.htm",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "nju-cs-8ae1825dabd2",
+      "name": "王汉民",
+      "officialSections": [
+        "离退休人员（基础教学部）"
+      ],
+      "title": "离退休人员（基础教学部）",
+      "profileUrl": "https://cs.nju.edu.cn/5a/b6/c62001a744118/pagem.htm",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "nju-cs-95a43f466b0b",
+      "name": "焦建",
+      "officialSections": [
+        "离退休人员（基础教学部）"
+      ],
+      "title": "离退休人员（基础教学部）",
+      "profileUrl": "https://cs.nju.edu.cn/5a/b7/c62001a744119/pagem.htm",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "nju-cs-b959778135fb",
+      "name": "赵建平",
+      "officialSections": [
+        "离退休人员（基础教学部）"
+      ],
+      "title": "离退休人员（基础教学部）",
+      "profileUrl": "https://cs.nju.edu.cn/5a/b8/c62001a744120/pagem.htm",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "nju-cs-6ebb0c3d9ec6",
+      "name": "孙小民",
+      "officialSections": [
+        "离退休人员（基础教学部）"
+      ],
+      "title": "离退休人员（基础教学部）",
+      "profileUrl": "https://cs.nju.edu.cn/5a/b9/c62001a744121/pagem.htm",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "nju-cs-454f14fb6b1b",
+      "name": "刘继宏",
+      "officialSections": [
+        "离退休人员（基础教学部）"
+      ],
+      "title": "离退休人员（基础教学部）",
+      "profileUrl": "https://cs.nju.edu.cn/5a/ba/c62001a744122/pagem.htm",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "nju-cs-16a0875ee915",
+      "name": "孙玲玲",
+      "officialSections": [
+        "离退休人员（基础教学部）"
+      ],
+      "title": "离退休人员（基础教学部）",
+      "profileUrl": "https://cs.nju.edu.cn/5a/bb/c62001a744123/pagem.htm",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "nju-cs-5c1c8f576977",
+      "name": "陈贵荣",
+      "officialSections": [
+        "离退休人员（基础教学部）"
+      ],
+      "title": "离退休人员（基础教学部）",
+      "profileUrl": "https://cs.nju.edu.cn/5a/bd/c62001a744125/pagem.htm",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "nju-cs-eb9ff1979c4f",
+      "name": "张萍",
+      "officialSections": [
+        "离退休人员（基础教学部）"
+      ],
+      "title": "离退休人员（基础教学部）",
+      "profileUrl": "https://cs.nju.edu.cn/5a/be/c62001a744126/pagem.htm",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "nju-cs-78ce954228e8",
+      "name": "朱玲",
+      "officialSections": [
+        "离退休人员（基础教学部）"
+      ],
+      "title": "离退休人员（基础教学部）",
+      "profileUrl": "https://cs.nju.edu.cn/5a/bf/c62001a744127/pagem.htm",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "nju-cs-f49793520a7e",
+      "name": "苏扬",
+      "officialSections": [
+        "离退休人员（基础教学部）"
+      ],
+      "title": "离退休人员（基础教学部）",
+      "profileUrl": "https://cs.nju.edu.cn/5a/c0/c62001a744128/pagem.htm",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "nju-cs-28d914f07872",
+      "name": "章春娟",
+      "officialSections": [
+        "离退休人员（基础教学部）"
+      ],
+      "title": "离退休人员（基础教学部）",
+      "profileUrl": "https://cs.nju.edu.cn/5a/c2/c62001a744130/pagem.htm",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "nju-cs-a336093c6908",
+      "name": "李桃红",
+      "officialSections": [
+        "离退休人员（基础教学部）"
+      ],
+      "title": "离退休人员（基础教学部）",
+      "profileUrl": "https://cs.nju.edu.cn/5a/c3/c62001a744131/pagem.htm",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "nju-cs-23bd7efbdc55",
+      "name": "王金玉",
+      "officialSections": [
+        "离退休人员（基础教学部）"
+      ],
+      "title": "离退休人员（基础教学部）",
+      "profileUrl": "https://cs.nju.edu.cn/5a/c4/c62001a744132/pagem.htm",
+      "portraitUrl": ""
+    }
+  ]
+}

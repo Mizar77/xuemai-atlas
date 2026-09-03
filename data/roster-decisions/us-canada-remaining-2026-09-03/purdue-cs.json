@@ -1,0 +1,2672 @@
+{
+  "schemaVersion": 1,
+  "unitId": "purdue-cs",
+  "unitLabel": "Purdue Computer Science",
+  "unitUrl": "https://www.cs.purdue.edu/people/faculty/index.html",
+  "snapshotAt": "2026-09-03",
+  "rosterArtifact": "data/official-rosters/purdue-cs-faculty-2026-09-02.json",
+  "frozenOfficialRosterCount": 150,
+  "rawRosterRowCount": 150,
+  "duplicateRosterCardCount": 0,
+  "deduplicatedRosterPersonCount": 150,
+  "decisionCount": 150,
+  "counts": {
+    "excluded_historical": 14,
+    "excluded_non_pi": 48,
+    "include_new_pi": 86,
+    "included_existing": 2
+  },
+  "decisions": [
+    {
+      "officialId": "64",
+      "rosterName": "Aaditya Kharel",
+      "title": "Lecturer",
+      "profileUrl": "https://www.cs.purdue.edu/people/faculty/kharel.html",
+      "portraitUrl": "https://www.cs.purdue.edu/people/images-landscape/small/nophoto.jpg",
+      "officialSections": [
+        "Faculty Directory"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cs.purdue.edu/people/faculty/index.html",
+      "decision": "excluded_non_pi",
+      "reason": "官方职称或名录分组属于教学、兼职、附属、科研支持或其他非独立 PI 岗位。",
+      "evidence": "Lecturer | Faculty Directory | https://www.cs.purdue.edu/people/faculty/kharel.html"
+    },
+    {
+      "officialId": "55",
+      "rosterName": "Abdullah Imran",
+      "title": "Assistant Teaching Professor",
+      "profileUrl": "https://www.cs.purdue.edu/people/faculty/imran8.html",
+      "portraitUrl": "https://www.cs.purdue.edu/people/images-landscape/small/nophoto.jpg",
+      "officialSections": [
+        "Faculty Directory"
+      ],
+      "researchFields": [
+        "Information Security and Assurance"
+      ],
+      "unitUrl": "https://www.cs.purdue.edu/people/faculty/index.html",
+      "decision": "excluded_non_pi",
+      "reason": "官方职称或名录分组属于教学、兼职、附属、科研支持或其他非独立 PI 岗位。",
+      "evidence": "Assistant Teaching Professor | Faculty Directory | Information Security and Assurance | https://www.cs.purdue.edu/people/faculty/imran8.html"
+    },
+    {
+      "officialId": "109",
+      "rosterName": "Abulhair Saparov",
+      "title": "Assistant Professor",
+      "profileUrl": "https://www.cs.purdue.edu/people/faculty/asaparov.html",
+      "portraitUrl": "https://www.cs.purdue.edu/people/images-landscape/small/faculty/asaparov.jpg",
+      "officialSections": [
+        "Faculty Directory"
+      ],
+      "researchFields": [
+        "Computational Science and Engineering",
+        "Artificial Intelligence, Machine Learning, and Natural Language Processing",
+        "Bioinformatics and Computational Biology",
+        "Distributed Systems"
+      ],
+      "unitUrl": "https://www.cs.purdue.edu/people/faculty/index.html",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Assistant Professor | Faculty Directory | Computational Science and Engineering · Artificial Intelligence, Machine Learning, and Natural Language Processing · Bioinformatics and Computational Biology · Distributed Systems | https://www.cs.purdue.edu/people/faculty/asaparov.html",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "80",
+      "rosterName": "Aditya P. Mathur",
+      "title": "Professor Emeritus",
+      "profileUrl": "https://www.cs.purdue.edu/people/faculty/apm.html",
+      "portraitUrl": "https://www.cs.purdue.edu/people/images-landscape/small/faculty/apm.jpg",
+      "officialSections": [
+        "Faculty Directory"
+      ],
+      "researchFields": [
+        "Software Engineering"
+      ],
+      "unitUrl": "https://www.cs.purdue.edu/people/faculty/index.html",
+      "decision": "excluded_historical",
+      "reason": "官方职称或名录分组明确为荣休、退休或历史人员。",
+      "evidence": "Professor Emeritus | Faculty Directory | Software Engineering | https://www.cs.purdue.edu/people/faculty/apm.html"
+    },
+    {
+      "officialId": "39",
+      "rosterName": "Ahmed K. Elmagarmid",
+      "title": "Professor Emeritus",
+      "profileUrl": "https://www.cs.purdue.edu/people/faculty/ake.html",
+      "portraitUrl": "https://www.cs.purdue.edu/people/images-landscape/small/faculty/ake.jpg",
+      "officialSections": [
+        "Faculty Directory"
+      ],
+      "researchFields": [
+        "Databases and Data Mining"
+      ],
+      "unitUrl": "https://www.cs.purdue.edu/people/faculty/index.html",
+      "decision": "excluded_historical",
+      "reason": "官方职称或名录分组明确为荣休、退休或历史人员。",
+      "evidence": "Professor Emeritus | Faculty Directory | Databases and Data Mining | https://www.cs.purdue.edu/people/faculty/ake.html"
+    },
+    {
+      "officialId": "95",
+      "rosterName": "Ahmed Qureshi",
+      "title": "Assistant Professor",
+      "profileUrl": "https://www.cs.purdue.edu/people/faculty/qureshi7.html",
+      "portraitUrl": "https://www.cs.purdue.edu/people/images-landscape/small/faculty/qureshi7.jpg",
+      "officialSections": [
+        "Faculty Directory"
+      ],
+      "researchFields": [
+        "Robotics and Computer Vision",
+        "Artificial Intelligence, Machine Learning, and Natural Language Processing"
+      ],
+      "unitUrl": "https://www.cs.purdue.edu/people/faculty/index.html",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Assistant Professor | Faculty Directory | Robotics and Computer Vision · Artificial Intelligence, Machine Learning, and Natural Language Processing | https://www.cs.purdue.edu/people/faculty/qureshi7.html",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "106",
+      "rosterName": "Ahmed Sameh",
+      "title": "Samuel D. Conte Professor Emeritus",
+      "profileUrl": "https://www.cs.purdue.edu/people/faculty/sameh.html",
+      "portraitUrl": "https://www.cs.purdue.edu/people/images-landscape/small/faculty/sameh.jpg",
+      "officialSections": [
+        "Faculty Directory"
+      ],
+      "researchFields": [
+        "Computational Science and Engineering"
+      ],
+      "unitUrl": "https://www.cs.purdue.edu/people/faculty/index.html",
+      "decision": "excluded_historical",
+      "reason": "官方职称或名录分组明确为荣休、退休或历史人员。",
+      "evidence": "Samuel D. Conte Professor Emeritus | Faculty Directory | Computational Science and Engineering | https://www.cs.purdue.edu/people/faculty/sameh.html"
+    },
+    {
+      "officialId": "77",
+      "rosterName": "Alejandra J. Magana Deleon",
+      "title": "Professor (Courtesy: Applied and Creative Computing, Engineering Education)",
+      "profileUrl": "https://www.cs.purdue.edu/people/faculty/admagana.html",
+      "portraitUrl": "https://www.cs.purdue.edu/people/images-landscape/small/nophoto.jpg",
+      "officialSections": [
+        "Faculty Directory"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cs.purdue.edu/people/faculty/index.html",
+      "decision": "excluded_non_pi",
+      "reason": "官方职称或名录分组属于教学、兼职、附属、科研支持或其他非独立 PI 岗位。",
+      "evidence": "Professor (Courtesy: Applied and Creative Computing, Engineering Education) | Faculty Directory | https://www.cs.purdue.edu/people/faculty/admagana.html"
+    },
+    {
+      "officialId": "91",
+      "rosterName": "Alex Pothen",
+      "title": "Professor",
+      "profileUrl": "https://www.cs.purdue.edu/people/faculty/apothen.html",
+      "portraitUrl": "https://www.cs.purdue.edu/people/images-landscape/small/faculty/apothen.jpg",
+      "officialSections": [
+        "Faculty Directory"
+      ],
+      "researchFields": [
+        "Computational Science and Engineering",
+        "Bioinformatics and Computational Biology"
+      ],
+      "unitUrl": "https://www.cs.purdue.edu/people/faculty/index.html",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Professor | Faculty Directory | Computational Science and Engineering · Bioinformatics and Computational Biology | https://www.cs.purdue.edu/people/faculty/apothen.html",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "93",
+      "rosterName": "Alexandros Psomas",
+      "title": "Assistant Professor",
+      "profileUrl": "https://www.cs.purdue.edu/people/faculty/apsomas.html",
+      "portraitUrl": "https://www.cs.purdue.edu/people/images-landscape/small/faculty/apsomas.jpg",
+      "officialSections": [
+        "Faculty Directory"
+      ],
+      "researchFields": [
+        "Artificial Intelligence, Machine Learning, and Natural Language Processing",
+        "Theory of Computing, Algorithms, and Quantum Computing"
+      ],
+      "unitUrl": "https://www.cs.purdue.edu/people/faculty/index.html",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Assistant Professor | Faculty Directory | Artificial Intelligence, Machine Learning, and Natural Language Processing · Theory of Computing, Algorithms, and Quantum Computing | https://www.cs.purdue.edu/people/faculty/apsomas.html",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "47",
+      "rosterName": "Ananth Grama",
+      "title": "Samuel D. Conte Distinguished Professor of Computer Science",
+      "profileUrl": "https://www.cs.purdue.edu/people/faculty/ayg.html",
+      "portraitUrl": "https://www.cs.purdue.edu/people/images-landscape/small/faculty/ayg.jpg",
+      "officialSections": [
+        "Faculty Directory"
+      ],
+      "researchFields": [
+        "Computational Science and Engineering",
+        "Bioinformatics and Computational Biology",
+        "Distributed Systems"
+      ],
+      "unitUrl": "https://www.cs.purdue.edu/people/faculty/index.html",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Samuel D. Conte Distinguished Professor of Computer Science | Faculty Directory | Computational Science and Engineering · Bioinformatics and Computational Biology · Distributed Systems | https://www.cs.purdue.edu/people/faculty/ayg.html",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "12",
+      "rosterName": "Andres Bejarano",
+      "title": "Assistant Teaching Professor",
+      "profileUrl": "https://www.cs.purdue.edu/people/faculty/abejara.html",
+      "portraitUrl": "https://www.cs.purdue.edu/people/images-landscape/small/faculty/abejara.jpg",
+      "officialSections": [
+        "Faculty Directory"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cs.purdue.edu/people/faculty/index.html",
+      "decision": "excluded_non_pi",
+      "reason": "官方职称或名录分组属于教学、兼职、附属、科研支持或其他非独立 PI 岗位。",
+      "evidence": "Assistant Teaching Professor | Faculty Directory | https://www.cs.purdue.edu/people/faculty/abejara.html"
+    },
+    {
+      "officialId": "51",
+      "rosterName": "Andrew P. Hoblitzell",
+      "title": "Limited Term Lecturer, Indianapolis",
+      "profileUrl": "https://www.cs.purdue.edu/people/faculty/ahoblitz.html",
+      "portraitUrl": "https://www.cs.purdue.edu/people/images-landscape/small/nophoto.jpg",
+      "officialSections": [
+        "Faculty Directory"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cs.purdue.edu/people/faculty/index.html",
+      "decision": "excluded_non_pi",
+      "reason": "官方职称或名录分组属于教学、兼职、附属、科研支持或其他非独立 PI 岗位。",
+      "evidence": "Limited Term Lecturer, Indianapolis | Faculty Directory | https://www.cs.purdue.edu/people/faculty/ahoblitz.html"
+    },
+    {
+      "officialId": "15",
+      "rosterName": "Aniket Bera",
+      "title": "Associate Professor",
+      "profileUrl": "https://www.cs.purdue.edu/people/faculty/bera89.html",
+      "portraitUrl": "https://www.cs.purdue.edu/people/images-landscape/small/faculty/bera89.jpg",
+      "officialSections": [
+        "Faculty Directory"
+      ],
+      "researchFields": [
+        "Graphics, Visualization, and Geometric Modeling",
+        "Robotics and Computer Vision",
+        "Artificial Intelligence, Machine Learning, and Natural Language Processing",
+        "Human-Computer Interaction"
+      ],
+      "unitUrl": "https://www.cs.purdue.edu/people/faculty/index.html",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Associate Professor | Faculty Directory | Graphics, Visualization, and Geometric Modeling · Robotics and Computer Vision · Artificial Intelligence, Machine Learning, and Natural Language Processing · Human-Computer Interaction | https://www.cs.purdue.edu/people/faculty/bera89.html",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "60",
+      "rosterName": "Aniket Kate",
+      "title": "Professor",
+      "profileUrl": "https://www.cs.purdue.edu/people/faculty/akate.html",
+      "portraitUrl": "https://www.cs.purdue.edu/people/images-landscape/small/faculty/akate.jpg",
+      "officialSections": [
+        "Faculty Directory"
+      ],
+      "researchFields": [
+        "Information Security and Assurance",
+        "Distributed Systems"
+      ],
+      "unitUrl": "https://www.cs.purdue.edu/people/faculty/index.html",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Professor | Faculty Directory | Information Security and Assurance · Distributed Systems | https://www.cs.purdue.edu/people/faculty/akate.html",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "25",
+      "rosterName": "Anne Carpenter",
+      "title": "Irwin Tessman Named Term Professor of Biology and Professor of Computer Science",
+      "profileUrl": "https://www.cs.purdue.edu/people/faculty/annec.html",
+      "portraitUrl": "https://www.cs.purdue.edu/people/images-landscape/small/nophoto.jpg",
+      "officialSections": [
+        "Faculty Directory"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cs.purdue.edu/people/faculty/index.html",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Irwin Tessman Named Term Professor of Biology and Professor of Computer Science | Faculty Directory | https://www.cs.purdue.edu/people/faculty/annec.html",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "19",
+      "rosterName": "Antonio Bianchi",
+      "title": "Associate Professor",
+      "profileUrl": "https://www.cs.purdue.edu/people/faculty/antoniob.html",
+      "portraitUrl": "https://www.cs.purdue.edu/people/images-landscape/small/faculty/antoniob.jpg",
+      "officialSections": [
+        "Faculty Directory"
+      ],
+      "researchFields": [
+        "Information Security and Assurance",
+        "Software Engineering",
+        "Networking and Operating Systems",
+        "Programming Languages and Compilers"
+      ],
+      "unitUrl": "https://www.cs.purdue.edu/people/faculty/index.html",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Associate Professor | Faculty Directory | Information Security and Assurance · Software Engineering · Networking and Operating Systems · Programming Languages and Compilers | https://www.cs.purdue.edu/people/faculty/antoniob.html",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "79",
+      "rosterName": "Anuran Makur",
+      "title": "Assistant Professor of Computer Science and ECE",
+      "profileUrl": "https://www.cs.purdue.edu/people/faculty/amakur.html",
+      "portraitUrl": "https://www.cs.purdue.edu/people/images-landscape/small/faculty/amakur.jpg",
+      "officialSections": [
+        "Faculty Directory"
+      ],
+      "researchFields": [
+        "Artificial Intelligence, Machine Learning, and Natural Language Processing",
+        "Theory of Computing, Algorithms, and Quantum Computing"
+      ],
+      "unitUrl": "https://www.cs.purdue.edu/people/faculty/index.html",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Assistant Professor of Computer Science and ECE | Faculty Directory | Artificial Intelligence, Machine Learning, and Natural Language Processing · Theory of Computing, Algorithms, and Quantum Computing | https://www.cs.purdue.edu/people/faculty/amakur.html",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "13",
+      "rosterName": "Bedrich Benes",
+      "title": "Professor and Associate Department Head",
+      "profileUrl": "https://www.cs.purdue.edu/people/faculty/bbenes.html",
+      "portraitUrl": "https://www.cs.purdue.edu/people/images-landscape/small/faculty/bbenes.jpg",
+      "officialSections": [
+        "Faculty Directory"
+      ],
+      "researchFields": [
+        "Graphics, Visualization, and Geometric Modeling",
+        "Artificial Intelligence, Machine Learning, and Natural Language Processing",
+        "Bioinformatics and Computational Biology"
+      ],
+      "unitUrl": "https://www.cs.purdue.edu/people/faculty/index.html",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Professor and Associate Department Head | Faculty Directory | Graphics, Visualization, and Geometric Modeling · Artificial Intelligence, Machine Learning, and Natural Language Processing · Bioinformatics and Computational Biology | https://www.cs.purdue.edu/people/faculty/bbenes.html",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "33",
+      "rosterName": "Benjamin J. Delaware",
+      "title": "Associate Professor",
+      "profileUrl": "https://www.cs.purdue.edu/people/faculty/bendy.html",
+      "portraitUrl": "https://www.cs.purdue.edu/people/images-landscape/small/faculty/bendy.jpg",
+      "officialSections": [
+        "Faculty Directory"
+      ],
+      "researchFields": [
+        "Software Engineering",
+        "Programming Languages and Compilers"
+      ],
+      "unitUrl": "https://www.cs.purdue.edu/people/faculty/index.html",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Associate Professor | Faculty Directory | Software Engineering · Programming Languages and Compilers | https://www.cs.purdue.edu/people/faculty/bendy.html",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "18",
+      "rosterName": "Bharat Bhargava",
+      "title": "Professor",
+      "profileUrl": "https://www.cs.purdue.edu/people/faculty/bbshail.html",
+      "portraitUrl": "https://www.cs.purdue.edu/people/images-landscape/small/faculty/bbshail.jpg",
+      "officialSections": [
+        "Faculty Directory"
+      ],
+      "researchFields": [
+        "Information Security and Assurance",
+        "Artificial Intelligence, Machine Learning, and Natural Language Processing",
+        "Databases and Data Mining",
+        "Distributed Systems"
+      ],
+      "unitUrl": "https://www.cs.purdue.edu/people/faculty/index.html",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Professor | Faculty Directory | Information Security and Assurance · Artificial Intelligence, Machine Learning, and Natural Language Processing · Databases and Data Mining · Distributed Systems | https://www.cs.purdue.edu/people/faculty/bbshail.html",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "104",
+      "rosterName": "Blaine Rothrock",
+      "title": "Assistant Teaching Professor",
+      "profileUrl": "https://www.cs.purdue.edu/people/faculty/rothrocb.html",
+      "portraitUrl": "https://www.cs.purdue.edu/people/images-landscape/small/nophoto.jpg",
+      "officialSections": [
+        "Faculty Directory"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cs.purdue.edu/people/faculty/index.html",
+      "decision": "excluded_non_pi",
+      "reason": "官方职称或名录分组属于教学、兼职、附属、科研支持或其他非独立 PI 岗位。",
+      "evidence": "Assistant Teaching Professor | Faculty Directory | https://www.cs.purdue.edu/people/faculty/rothrocb.html"
+    },
+    {
+      "officialId": "75",
+      "rosterName": "Bradley J. Lucier",
+      "title": "Professor Emeritus",
+      "profileUrl": "https://www.cs.purdue.edu/people/faculty/lucier.html",
+      "portraitUrl": "https://www.cs.purdue.edu/people/images-landscape/small/faculty/lucier.jpg",
+      "officialSections": [
+        "Faculty Directory"
+      ],
+      "researchFields": [
+        "Computational Science and Engineering"
+      ],
+      "unitUrl": "https://www.cs.purdue.edu/people/faculty/index.html",
+      "decision": "excluded_historical",
+      "reason": "官方职称或名录分组明确为荣休、退休或历史人员。",
+      "evidence": "Professor Emeritus | Faculty Directory | Computational Science and Engineering | https://www.cs.purdue.edu/people/faculty/lucier.html"
+    },
+    {
+      "officialId": "23",
+      "rosterName": "Brian Bullins",
+      "title": "Assistant Professor",
+      "profileUrl": "https://www.cs.purdue.edu/people/faculty/bbullins.html",
+      "portraitUrl": "https://www.cs.purdue.edu/people/images-landscape/small/faculty/bbullins.jpg",
+      "officialSections": [
+        "Faculty Directory"
+      ],
+      "researchFields": [
+        "Artificial Intelligence, Machine Learning, and Natural Language Processing",
+        "Theory of Computing, Algorithms, and Quantum Computing"
+      ],
+      "unitUrl": "https://www.cs.purdue.edu/people/faculty/index.html",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Assistant Professor | Faculty Directory | Artificial Intelligence, Machine Learning, and Natural Language Processing · Theory of Computing, Algorithms, and Quantum Computing | https://www.cs.purdue.edu/people/faculty/bbullins.html",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "100",
+      "rosterName": "Bruno Ribeiro",
+      "title": "Associate Professor",
+      "profileUrl": "https://www.cs.purdue.edu/people/faculty/ribeirob.html",
+      "portraitUrl": "https://www.cs.purdue.edu/people/images-landscape/small/faculty/ribeirob.jpg",
+      "officialSections": [
+        "Faculty Directory"
+      ],
+      "researchFields": [
+        "Networking and Operating Systems",
+        "Artificial Intelligence, Machine Learning, and Natural Language Processing"
+      ],
+      "unitUrl": "https://www.cs.purdue.edu/people/faculty/index.html",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Associate Professor | Faculty Directory | Networking and Operating Systems · Artificial Intelligence, Machine Learning, and Natural Language Processing | https://www.cs.purdue.edu/people/faculty/ribeirob.html",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "98",
+      "rosterName": "Carrie Melinda Rector",
+      "title": "Senior Lecturer",
+      "profileUrl": "https://www.cs.purdue.edu/people/faculty/rectorcm.html",
+      "portraitUrl": "https://www.cs.purdue.edu/people/images-landscape/small/nophoto.jpg",
+      "officialSections": [
+        "Faculty Directory"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cs.purdue.edu/people/faculty/index.html",
+      "decision": "excluded_non_pi",
+      "reason": "官方职称或名录分组属于教学、兼职、附属、科研支持或其他非独立 PI 岗位。",
+      "evidence": "Senior Lecturer | Faculty Directory | https://www.cs.purdue.edu/people/faculty/rectorcm.html"
+    },
+    {
+      "officialId": "59",
+      "rosterName": "Changhee Jung",
+      "title": "Samuel D. Conte Associate Professor of Computer Science",
+      "profileUrl": "https://www.cs.purdue.edu/people/faculty/chjung.html",
+      "portraitUrl": "https://www.cs.purdue.edu/people/images-landscape/small/faculty/chjung.jpg",
+      "officialSections": [
+        "Faculty Directory"
+      ],
+      "researchFields": [
+        "Information Security and Assurance",
+        "Computer Architecture",
+        "Software Engineering",
+        "Programming Languages and Compilers"
+      ],
+      "unitUrl": "https://www.cs.purdue.edu/people/faculty/index.html",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Samuel D. Conte Associate Professor of Computer Science | Faculty Directory | Information Security and Assurance · Computer Architecture · Software Engineering · Programming Languages and Compilers | https://www.cs.purdue.edu/people/faculty/chjung.html",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "68",
+      "rosterName": "Charlotte J. Lambert",
+      "title": "Assistant Teaching Professor",
+      "profileUrl": "https://www.cs.purdue.edu/people/faculty/cjlamber.html",
+      "portraitUrl": "https://www.cs.purdue.edu/people/images-landscape/small/nophoto.jpg",
+      "officialSections": [
+        "Faculty Directory"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cs.purdue.edu/people/faculty/index.html",
+      "decision": "excluded_non_pi",
+      "reason": "官方职称或名录分组属于教学、兼职、附属、科研支持或其他非独立 PI 岗位。",
+      "evidence": "Assistant Teaching Professor | Faculty Directory | https://www.cs.purdue.edu/people/faculty/cjlamber.html"
+    },
+    {
+      "officialId": "43",
+      "rosterName": "Christina Garman",
+      "title": "Associate Professor",
+      "profileUrl": "https://www.cs.purdue.edu/people/faculty/clg.html",
+      "portraitUrl": "https://www.cs.purdue.edu/people/images-landscape/small/faculty/clg.jpg",
+      "officialSections": [
+        "Faculty Directory"
+      ],
+      "researchFields": [
+        "Information Security and Assurance"
+      ],
+      "unitUrl": "https://www.cs.purdue.edu/people/faculty/index.html",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Associate Professor | Faculty Directory | Information Security and Assurance | https://www.cs.purdue.edu/people/faculty/clg.html",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "81",
+      "rosterName": "Christopher K. May",
+      "title": "Assistant Teaching Professor",
+      "profileUrl": "https://www.cs.purdue.edu/people/faculty/may5.html",
+      "portraitUrl": "https://www.cs.purdue.edu/people/images-landscape/small/faculty/may5.jpg",
+      "officialSections": [
+        "Faculty Directory"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cs.purdue.edu/people/faculty/index.html",
+      "decision": "excluded_non_pi",
+      "reason": "官方职称或名录分组属于教学、兼职、附属、科研支持或其他非独立 PI 岗位。",
+      "evidence": "Assistant Teaching Professor | Faculty Directory | https://www.cs.purdue.edu/people/faculty/may5.html"
+    },
+    {
+      "officialId": "29",
+      "rosterName": "Christopher W. Clifton",
+      "title": "Professor Emeritus",
+      "profileUrl": "https://www.cs.purdue.edu/people/faculty/clifton.html",
+      "portraitUrl": "https://www.cs.purdue.edu/people/images-landscape/small/faculty/clifton.jpg",
+      "officialSections": [
+        "Faculty Directory"
+      ],
+      "researchFields": [
+        "Artificial Intelligence, Machine Learning, and Natural Language Processing",
+        "Information Security and Assurance",
+        "Databases and Data Mining"
+      ],
+      "unitUrl": "https://www.cs.purdue.edu/people/faculty/index.html",
+      "decision": "excluded_historical",
+      "reason": "官方职称或名录分组明确为荣休、退休或历史人员。",
+      "evidence": "Professor Emeritus | Faculty Directory | Artificial Intelligence, Machine Learning, and Natural Language Processing · Information Security and Assurance · Databases and Data Mining | https://www.cs.purdue.edu/people/faculty/clifton.html"
+    },
+    {
+      "officialId": "72",
+      "rosterName": "Chunwei Liu",
+      "title": "Assistant Professor",
+      "profileUrl": "https://www.cs.purdue.edu/people/faculty/chunwei.html",
+      "portraitUrl": "https://www.cs.purdue.edu/people/images-landscape/small/faculty/chunwei.jpg",
+      "officialSections": [
+        "Faculty Directory"
+      ],
+      "researchFields": [
+        "Artificial Intelligence, Machine Learning, and Natural Language Processing",
+        "Databases and Data Mining",
+        "Distributed Systems"
+      ],
+      "unitUrl": "https://www.cs.purdue.edu/people/faculty/index.html",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Assistant Professor | Faculty Directory | Artificial Intelligence, Machine Learning, and Natural Language Processing · Databases and Data Mining · Distributed Systems | https://www.cs.purdue.edu/people/faculty/chunwei.html",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "88",
+      "rosterName": "Chunyi Peng",
+      "title": "Professor",
+      "profileUrl": "https://www.cs.purdue.edu/people/faculty/chunyi.html",
+      "portraitUrl": "https://www.cs.purdue.edu/people/images-landscape/small/faculty/chunyi.jpg",
+      "officialSections": [
+        "Faculty Directory"
+      ],
+      "researchFields": [
+        "Information Security and Assurance",
+        "Robotics and Computer Vision",
+        "Networking and Operating Systems"
+      ],
+      "unitUrl": "https://www.cs.purdue.edu/people/faculty/index.html",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Professor | Faculty Directory | Information Security and Assurance · Robotics and Computer Vision · Networking and Operating Systems | https://www.cs.purdue.edu/people/faculty/chunyi.html",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "65",
+      "rosterName": "Daisuke Kihara",
+      "title": "Professor of Biology and Computer Science",
+      "profileUrl": "https://www.cs.purdue.edu/people/faculty/dkihara.html",
+      "portraitUrl": "https://www.cs.purdue.edu/people/images-landscape/small/faculty/dkihara.jpg",
+      "officialSections": [
+        "Faculty Directory"
+      ],
+      "researchFields": [
+        "Bioinformatics and Computational Biology"
+      ],
+      "unitUrl": "https://www.cs.purdue.edu/people/faculty/index.html",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Professor of Biology and Computer Science | Faculty Directory | Bioinformatics and Computational Biology | https://www.cs.purdue.edu/people/faculty/dkihara.html",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "46",
+      "rosterName": "Dan Goldwasser",
+      "title": "Associate Professor",
+      "profileUrl": "https://www.cs.purdue.edu/people/faculty/dgoldwas.html",
+      "portraitUrl": "https://www.cs.purdue.edu/people/images-landscape/small/faculty/dgoldwas.jpg",
+      "officialSections": [
+        "Faculty Directory"
+      ],
+      "researchFields": [
+        "Artificial Intelligence, Machine Learning, and Natural Language Processing"
+      ],
+      "unitUrl": "https://www.cs.purdue.edu/people/faculty/index.html",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Associate Professor | Faculty Directory | Artificial Intelligence, Machine Learning, and Natural Language Processing | https://www.cs.purdue.edu/people/faculty/dgoldwas.html",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "4",
+      "rosterName": "Daniel G. Aliaga",
+      "title": "Professor",
+      "profileUrl": "https://www.cs.purdue.edu/people/faculty/aliaga.html",
+      "portraitUrl": "https://www.cs.purdue.edu/people/images-landscape/small/faculty/aliaga.jpg",
+      "officialSections": [
+        "Faculty Directory"
+      ],
+      "researchFields": [
+        "Graphics, Visualization, and Geometric Modeling",
+        "Robotics and Computer Vision",
+        "Artificial Intelligence, Machine Learning, and Natural Language Processing"
+      ],
+      "unitUrl": "https://www.cs.purdue.edu/people/faculty/index.html",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Professor | Faculty Directory | Graphics, Visualization, and Geometric Modeling · Robotics and Computer Vision · Artificial Intelligence, Machine Learning, and Natural Language Processing | https://www.cs.purdue.edu/people/faculty/aliaga.html",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "120",
+      "rosterName": "Dave (Jing) Tian",
+      "title": "Associate Professor",
+      "profileUrl": "https://www.cs.purdue.edu/people/faculty/daveti.html",
+      "portraitUrl": "https://www.cs.purdue.edu/people/images-landscape/small/faculty/daveti.jpg",
+      "officialSections": [
+        "Faculty Directory"
+      ],
+      "researchFields": [
+        "Information Security and Assurance",
+        "Networking and Operating Systems"
+      ],
+      "unitUrl": "https://www.cs.purdue.edu/people/faculty/index.html",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Associate Professor | Faculty Directory | Information Security and Assurance · Networking and Operating Systems | https://www.cs.purdue.edu/people/faculty/daveti.html",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "45",
+      "rosterName": "David Gleich",
+      "title": "Professor",
+      "profileUrl": "https://www.cs.purdue.edu/people/faculty/dgleich.html",
+      "portraitUrl": "https://www.cs.purdue.edu/people/images-landscape/small/faculty/dgleich.jpg",
+      "officialSections": [
+        "Faculty Directory"
+      ],
+      "researchFields": [
+        "Computational Science and Engineering",
+        "Artificial Intelligence, Machine Learning, and Natural Language Processing"
+      ],
+      "unitUrl": "https://www.cs.purdue.edu/people/faculty/index.html",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Professor | Faculty Directory | Computational Science and Engineering · Artificial Intelligence, Machine Learning, and Natural Language Processing | https://www.cs.purdue.edu/people/faculty/dgleich.html",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "135",
+      "rosterName": "Dongyan Xu",
+      "title": "Samuel D. Conte Professor of Computer Science",
+      "profileUrl": "https://www.cs.purdue.edu/people/faculty/dxu.html",
+      "portraitUrl": "https://www.cs.purdue.edu/people/images-landscape/small/faculty/dxu.jpg",
+      "officialSections": [
+        "Faculty Directory"
+      ],
+      "researchFields": [
+        "Information Security and Assurance",
+        "Networking and Operating Systems"
+      ],
+      "unitUrl": "https://www.cs.purdue.edu/people/faculty/index.html",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Samuel D. Conte Professor of Computer Science | Faculty Directory | Information Security and Assurance · Networking and Operating Systems | https://www.cs.purdue.edu/people/faculty/dxu.html",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "30",
+      "rosterName": "Douglas E. Comer",
+      "title": "Distinguished Professor",
+      "profileUrl": "https://www.cs.purdue.edu/people/faculty/comer.html",
+      "portraitUrl": "https://www.cs.purdue.edu/people/images-landscape/small/faculty/comer.jpg",
+      "officialSections": [
+        "Faculty Directory"
+      ],
+      "researchFields": [
+        "Networking and Operating Systems"
+      ],
+      "unitUrl": "https://www.cs.purdue.edu/people/faculty/index.html",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Distinguished Professor | Faculty Directory | Networking and Operating Systems | https://www.cs.purdue.edu/people/faculty/comer.html",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "34",
+      "rosterName": "Edward J. Delp",
+      "title": "Professor (Courtesy: Electrical and Computer Engineering, Biomedical Engineering)",
+      "profileUrl": "https://www.cs.purdue.edu/people/faculty/ace.html",
+      "portraitUrl": "https://www.cs.purdue.edu/people/images-landscape/small/faculty/ace.jpg",
+      "officialSections": [
+        "Faculty Directory"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cs.purdue.edu/people/faculty/index.html",
+      "decision": "excluded_non_pi",
+      "reason": "官方职称或名录分组属于教学、兼职、附属、科研支持或其他非独立 PI 岗位。",
+      "evidence": "Professor (Courtesy: Electrical and Computer Engineering, Biomedical Engineering) | Faculty Directory | https://www.cs.purdue.edu/people/faculty/ace.html"
+    },
+    {
+      "officialId": "48",
+      "rosterName": "Elena Grigorescu",
+      "title": "Adjunct Associate Professor",
+      "profileUrl": "https://www.cs.purdue.edu/people/faculty/egrigore.html",
+      "portraitUrl": "https://www.cs.purdue.edu/people/images-landscape/small/faculty/egrigore.jpg",
+      "officialSections": [
+        "Faculty Directory"
+      ],
+      "researchFields": [
+        "Theory of Computing, Algorithms, and Quantum Computing"
+      ],
+      "unitUrl": "https://www.cs.purdue.edu/people/faculty/index.html",
+      "decision": "excluded_non_pi",
+      "reason": "官方职称或名录分组属于教学、兼职、附属、科研支持或其他非独立 PI 岗位。",
+      "evidence": "Adjunct Associate Professor | Faculty Directory | Theory of Computing, Algorithms, and Quantum Computing | https://www.cs.purdue.edu/people/faculty/egrigore.html"
+    },
+    {
+      "officialId": "10",
+      "rosterName": "Elias Bareinboim",
+      "title": "Adjunct Assistant Professor",
+      "profileUrl": "https://www.cs.purdue.edu/people/faculty/eb.html",
+      "portraitUrl": "https://www.cs.purdue.edu/people/images-landscape/small/faculty/eb.jpg",
+      "officialSections": [
+        "Faculty Directory"
+      ],
+      "researchFields": [
+        "Artificial Intelligence, Machine Learning, and Natural Language Processing",
+        "Bioinformatics and Computational Biology"
+      ],
+      "unitUrl": "https://www.cs.purdue.edu/people/faculty/index.html",
+      "decision": "excluded_non_pi",
+      "reason": "官方职称或名录分组属于教学、兼职、附属、科研支持或其他非独立 PI 岗位。",
+      "evidence": "Adjunct Assistant Professor | Faculty Directory | Artificial Intelligence, Machine Learning, and Natural Language Processing · Bioinformatics and Computational Biology | https://www.cs.purdue.edu/people/faculty/eb.html"
+    },
+    {
+      "officialId": "53",
+      "rosterName": "Elias N. Houstis",
+      "title": "Professor Emeritus",
+      "profileUrl": "https://www.cs.purdue.edu/people/faculty/enh.html",
+      "portraitUrl": "https://www.cs.purdue.edu/people/images-landscape/small/faculty/enh.jpg",
+      "officialSections": [
+        "Faculty Directory"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cs.purdue.edu/people/faculty/index.html",
+      "decision": "excluded_historical",
+      "reason": "官方职称或名录分组明确为荣休、退休或历史人员。",
+      "evidence": "Professor Emeritus | Faculty Directory | https://www.cs.purdue.edu/people/faculty/enh.html"
+    },
+    {
+      "officialId": "17",
+      "rosterName": "Elisa Bertino",
+      "title": "Samuel D. Conte Distinguished Professor of Computer Science",
+      "profileUrl": "https://www.cs.purdue.edu/people/faculty/bertino.html",
+      "portraitUrl": "https://www.cs.purdue.edu/people/images-landscape/small/faculty/bertino.jpg",
+      "officialSections": [
+        "Faculty Directory"
+      ],
+      "researchFields": [
+        "Information Security and Assurance",
+        "Databases and Data Mining"
+      ],
+      "unitUrl": "https://www.cs.purdue.edu/people/faculty/index.html",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Samuel D. Conte Distinguished Professor of Computer Science | Faculty Directory | Information Security and Assurance · Databases and Data Mining | https://www.cs.purdue.edu/people/faculty/bertino.html",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "105",
+      "rosterName": "Elisha Sacks",
+      "title": "Professor Emeritus",
+      "profileUrl": "https://www.cs.purdue.edu/people/faculty/eps.html",
+      "portraitUrl": "https://www.cs.purdue.edu/people/images-landscape/small/faculty/eps.jpg",
+      "officialSections": [
+        "Faculty Directory"
+      ],
+      "researchFields": [
+        "Graphics, Visualization, and Geometric Modeling",
+        "Computational Science and Engineering"
+      ],
+      "unitUrl": "https://www.cs.purdue.edu/people/faculty/index.html",
+      "decision": "excluded_historical",
+      "reason": "官方职称或名录分组明确为荣休、退休或历史人员。",
+      "evidence": "Professor Emeritus | Faculty Directory | Graphics, Visualization, and Geometric Modeling · Computational Science and Engineering | https://www.cs.purdue.edu/people/faculty/eps.html"
+    },
+    {
+      "officialId": "36",
+      "rosterName": "Eman Samy Diyab",
+      "title": "Lecturer",
+      "profileUrl": "https://www.cs.purdue.edu/people/faculty/ediyab.html",
+      "portraitUrl": "https://www.cs.purdue.edu/people/images-landscape/small/faculty/ediyab.jpg",
+      "officialSections": [
+        "Faculty Directory"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cs.purdue.edu/people/faculty/index.html",
+      "decision": "excluded_non_pi",
+      "reason": "官方职称或名录分组属于教学、兼职、附属、科研支持或其他非独立 PI 岗位。",
+      "evidence": "Lecturer | Faculty Directory | https://www.cs.purdue.edu/people/faculty/ediyab.html"
+    },
+    {
+      "officialId": "107",
+      "rosterName": "Eric Samperton",
+      "title": "Assistant Professor of Quantum Information Science of Department of Math and Computer Science, Assistant Professor of Quantum Information Science of Math and Computer Science",
+      "profileUrl": "https://www.cs.purdue.edu/people/faculty/esampert.html",
+      "portraitUrl": "https://www.cs.purdue.edu/people/images-landscape/small/faculty/esampert.jpg",
+      "officialSections": [
+        "Faculty Directory"
+      ],
+      "researchFields": [
+        "Theory of Computing, Algorithms, and Quantum Computing"
+      ],
+      "unitUrl": "https://www.cs.purdue.edu/people/faculty/index.html",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Assistant Professor of Quantum Information Science of Department of Math and Computer Science, Assistant Professor of Quantum Information Science of Math and Computer Science | Faculty Directory | Theory of Computing, Algorithms, and Quantum Computing | https://www.cs.purdue.edu/people/faculty/esampert.html",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "113",
+      "rosterName": "Eugene H. Spafford",
+      "title": "Distinguished Professor",
+      "profileUrl": "https://www.cs.purdue.edu/people/faculty/spaf.html",
+      "portraitUrl": "https://www.cs.purdue.edu/people/images-landscape/small/faculty/spaf.jpg",
+      "officialSections": [
+        "Faculty Directory"
+      ],
+      "researchFields": [
+        "Information Security and Assurance",
+        "Networking and Operating Systems",
+        "Software Engineering",
+        "Distributed Systems"
+      ],
+      "unitUrl": "https://www.cs.purdue.edu/people/faculty/index.html",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Distinguished Professor | Faculty Directory | Information Security and Assurance · Networking and Operating Systems · Software Engineering · Distributed Systems | https://www.cs.purdue.edu/people/faculty/spaf.html",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "28",
+      "rosterName": "Federico Cifuentes-Urtubey",
+      "title": "Assistant Teaching Professor",
+      "profileUrl": "https://www.cs.purdue.edu/people/faculty/fcifuen.html",
+      "portraitUrl": "https://www.cs.purdue.edu/people/images-landscape/small/faculty/fcifuen.jpg",
+      "officialSections": [
+        "Faculty Directory"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cs.purdue.edu/people/faculty/index.html",
+      "decision": "excluded_non_pi",
+      "reason": "官方职称或名录分组属于教学、兼职、附属、科研支持或其他非独立 PI 岗位。",
+      "evidence": "Assistant Teaching Professor | Faculty Directory | https://www.cs.purdue.edu/people/faculty/fcifuen.html"
+    },
+    {
+      "officialId": "27",
+      "rosterName": "Gaurav Chopra",
+      "title": "Professor (Courtesy: Chemistry)",
+      "profileUrl": "https://www.cs.purdue.edu/people/faculty/gchopra.html",
+      "portraitUrl": "https://www.cs.purdue.edu/people/images-landscape/small/faculty/gchopra.jpg",
+      "officialSections": [
+        "Faculty Directory"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cs.purdue.edu/people/faculty/index.html",
+      "decision": "excluded_non_pi",
+      "reason": "官方职称或名录分组属于教学、兼职、附属、科研支持或其他非独立 PI 岗位。",
+      "evidence": "Professor (Courtesy: Chemistry) | Faculty Directory | https://www.cs.purdue.edu/people/faculty/gchopra.html"
+    },
+    {
+      "officialId": "122",
+      "rosterName": "Gavriil Tsechpenakis",
+      "title": "Associate Professor",
+      "profileUrl": "https://www.cs.purdue.edu/people/faculty/gtsechpe.html",
+      "portraitUrl": "https://www.cs.purdue.edu/people/images-landscape/small/faculty/gtsechpe.jpg",
+      "officialSections": [
+        "Faculty Directory"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cs.purdue.edu/people/faculty/index.html",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Associate Professor | Faculty Directory | https://www.cs.purdue.edu/people/faculty/gtsechpe.html",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "1",
+      "rosterName": "George B. Adams, III",
+      "title": "Teaching Professor",
+      "profileUrl": "https://www.cs.purdue.edu/people/faculty/gba.html",
+      "portraitUrl": "https://www.cs.purdue.edu/people/images-landscape/small/faculty/gba.jpg",
+      "officialSections": [
+        "Faculty Directory"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cs.purdue.edu/people/faculty/index.html",
+      "decision": "excluded_non_pi",
+      "reason": "官方职称或名录分组属于教学、兼职、附属、科研支持或其他非独立 PI 岗位。",
+      "evidence": "Teaching Professor | Faculty Directory | https://www.cs.purdue.edu/people/faculty/gba.html"
+    },
+    {
+      "officialId": "42",
+      "rosterName": "Greg N. Frederickson",
+      "title": "Professor Emeritus",
+      "profileUrl": "https://www.cs.purdue.edu/people/faculty/gnf.html",
+      "portraitUrl": "https://www.cs.purdue.edu/people/images-landscape/small/faculty/gnf.jpg",
+      "officialSections": [
+        "Faculty Directory"
+      ],
+      "researchFields": [
+        "Theory of Computing, Algorithms, and Quantum Computing"
+      ],
+      "unitUrl": "https://www.cs.purdue.edu/people/faculty/index.html",
+      "decision": "excluded_historical",
+      "reason": "官方职称或名录分组明确为荣休、退休或历史人员。",
+      "evidence": "Professor Emeritus | Faculty Directory | Theory of Computing, Algorithms, and Quantum Computing | https://www.cs.purdue.edu/people/faculty/gnf.html"
+    },
+    {
+      "officialId": "71",
+      "rosterName": "Guang Lin",
+      "title": "Moses Cobb Stevens Professor (Courtesy: Mathematics, Mechanical Engineering)",
+      "profileUrl": "https://www.cs.purdue.edu/people/faculty/lin491.html",
+      "portraitUrl": "https://www.cs.purdue.edu/people/images-landscape/small/faculty/lin491.jpg",
+      "officialSections": [
+        "Faculty Directory"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cs.purdue.edu/people/faculty/index.html",
+      "decision": "excluded_non_pi",
+      "reason": "官方职称或名录分组属于教学、兼职、附属、科研支持或其他非独立 PI 岗位。",
+      "evidence": "Moses Cobb Stevens Professor (Courtesy: Mathematics, Mechanical Engineering) | Faculty Directory | https://www.cs.purdue.edu/people/faculty/lin491.html"
+    },
+    {
+      "officialId": "102",
+      "rosterName": "Gustavo Rodriguez-Rivera",
+      "title": "Teaching Professor",
+      "profileUrl": "https://www.cs.purdue.edu/people/faculty/grr.html",
+      "portraitUrl": "https://www.cs.purdue.edu/people/images-landscape/small/faculty/grr.jpg",
+      "officialSections": [
+        "Faculty Directory"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cs.purdue.edu/people/faculty/index.html",
+      "decision": "excluded_non_pi",
+      "reason": "官方职称或名录分组属于教学、兼职、附属、科研支持或其他非独立 PI 岗位。",
+      "evidence": "Teaching Professor | Faculty Directory | https://www.cs.purdue.edu/people/faculty/grr.html"
+    },
+    {
+      "officialId": "38",
+      "rosterName": "H. E. Dunsmore",
+      "title": "Associate Professor",
+      "profileUrl": "https://www.cs.purdue.edu/people/faculty/bxd.html",
+      "portraitUrl": "https://www.cs.purdue.edu/people/images-landscape/small/faculty/bxd.jpg",
+      "officialSections": [
+        "Faculty Directory"
+      ],
+      "researchFields": [
+        "Software Engineering"
+      ],
+      "unitUrl": "https://www.cs.purdue.edu/people/faculty/index.html",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Associate Professor | Faculty Directory | Software Engineering | https://www.cs.purdue.edu/people/faculty/bxd.html",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "134",
+      "rosterName": "Hanshen Xiao",
+      "title": "Assistant Professor",
+      "profileUrl": "https://www.cs.purdue.edu/people/faculty/hsxiao.html",
+      "portraitUrl": "https://www.cs.purdue.edu/people/images-landscape/small/faculty/hsxiao.jpg",
+      "officialSections": [
+        "Faculty Directory"
+      ],
+      "researchFields": [
+        "Information Security and Assurance",
+        "Artificial Intelligence, Machine Learning, and Natural Language Processing",
+        "Theory of Computing, Algorithms, and Quantum Computing"
+      ],
+      "unitUrl": "https://www.cs.purdue.edu/people/faculty/index.html",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Assistant Professor | Faculty Directory | Information Security and Assurance · Artificial Intelligence, Machine Learning, and Natural Language Processing · Theory of Computing, Algorithms, and Quantum Computing | https://www.cs.purdue.edu/people/faculty/hsxiao.html",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "140",
+      "rosterName": "Haoran You",
+      "title": "Assistant Professor",
+      "profileUrl": "https://www.cs.purdue.edu/people/faculty/you139.html",
+      "portraitUrl": "https://www.cs.purdue.edu/people/images-landscape/small/nophoto.jpg",
+      "officialSections": [
+        "Faculty Directory"
+      ],
+      "researchFields": [
+        "Artificial Intelligence, Machine Learning, and Natural Language Processing"
+      ],
+      "unitUrl": "https://www.cs.purdue.edu/people/faculty/index.html",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Assistant Professor | Faculty Directory | Artificial Intelligence, Machine Learning, and Natural Language Processing | https://www.cs.purdue.edu/people/faculty/you139.html",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "78",
+      "rosterName": "Hemanta K. Maji",
+      "title": "Associate Professor",
+      "profileUrl": "https://www.cs.purdue.edu/people/faculty/hmaji.html",
+      "portraitUrl": "https://www.cs.purdue.edu/people/images-landscape/small/faculty/hmaji.jpg",
+      "officialSections": [
+        "Faculty Directory"
+      ],
+      "researchFields": [
+        "Information Security and Assurance",
+        "Theory of Computing, Algorithms, and Quantum Computing"
+      ],
+      "unitUrl": "https://www.cs.purdue.edu/people/faculty/index.html",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Associate Professor | Faculty Directory | Information Security and Assurance · Theory of Computing, Algorithms, and Quantum Computing | https://www.cs.purdue.edu/people/faculty/hmaji.html",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "14",
+      "rosterName": "Hisham R. Benotman",
+      "title": "Associate Teaching Professor",
+      "profileUrl": "https://www.cs.purdue.edu/people/faculty/hbenotma.html",
+      "portraitUrl": "https://www.cs.purdue.edu/people/images-landscape/small/faculty/hbenotma.jpg",
+      "officialSections": [
+        "Faculty Directory"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cs.purdue.edu/people/faculty/index.html",
+      "decision": "excluded_non_pi",
+      "reason": "官方职称或名录分组属于教学、兼职、附属、科研支持或其他非独立 PI 岗位。",
+      "evidence": "Associate Teaching Professor | Faculty Directory | https://www.cs.purdue.edu/people/faculty/hbenotma.html"
+    },
+    {
+      "officialId": "115",
+      "rosterName": "Ilia Sucholutsky",
+      "title": "Assistant Professor",
+      "profileUrl": "https://www.cs.purdue.edu/people/faculty/isucholu.html",
+      "portraitUrl": "https://www.cs.purdue.edu/people/images-landscape/small/nophoto.jpg",
+      "officialSections": [
+        "Faculty Directory"
+      ],
+      "researchFields": [
+        "Human-Computer Interaction"
+      ],
+      "unitUrl": "https://www.cs.purdue.edu/people/faculty/index.html",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Assistant Professor | Faculty Directory | Human-Computer Interaction | https://www.cs.purdue.edu/people/faculty/isucholu.html",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "133",
+      "rosterName": "Jason Wu",
+      "title": "Assistant Professor",
+      "profileUrl": "https://www.cs.purdue.edu/people/faculty/jasonwu.html",
+      "portraitUrl": "https://www.cs.purdue.edu/people/images-landscape/small/faculty/jasonwu.jpg",
+      "officialSections": [
+        "Faculty Directory"
+      ],
+      "researchFields": [
+        "Artificial Intelligence, Machine Learning, and Natural Language Processing",
+        "Human-Computer Interaction"
+      ],
+      "unitUrl": "https://www.cs.purdue.edu/people/faculty/index.html",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Assistant Professor | Faculty Directory | Artificial Intelligence, Machine Learning, and Natural Language Processing · Human-Computer Interaction | https://www.cs.purdue.edu/people/faculty/jasonwu.html",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "52",
+      "rosterName": "Jean Honorio",
+      "title": "Adjunct Assistant Professor",
+      "profileUrl": "https://www.cs.purdue.edu/people/faculty/jhonorio.html",
+      "portraitUrl": "https://www.cs.purdue.edu/people/images-landscape/small/nophoto.jpg",
+      "officialSections": [
+        "Faculty Directory"
+      ],
+      "researchFields": [
+        "Artificial Intelligence, Machine Learning, and Natural Language Processing"
+      ],
+      "unitUrl": "https://www.cs.purdue.edu/people/faculty/index.html",
+      "decision": "excluded_non_pi",
+      "reason": "官方职称或名录分组属于教学、兼职、附属、科研支持或其他非独立 PI 岗位。",
+      "evidence": "Adjunct Assistant Professor | Faculty Directory | Artificial Intelligence, Machine Learning, and Natural Language Processing | https://www.cs.purdue.edu/people/faculty/jhonorio.html"
+    },
+    {
+      "officialId": "124",
+      "rosterName": "Jeffrey A. Turkstra",
+      "title": "Associate Teaching Professor",
+      "profileUrl": "https://www.cs.purdue.edu/people/faculty/turkstra.html",
+      "portraitUrl": "https://www.cs.purdue.edu/people/images-landscape/small/faculty/turkstra.jpg",
+      "officialSections": [
+        "Faculty Directory"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cs.purdue.edu/people/faculty/index.html",
+      "decision": "excluded_non_pi",
+      "reason": "官方职称或名录分组属于教学、兼职、附属、科研支持或其他非独立 PI 岗位。",
+      "evidence": "Associate Teaching Professor | Faculty Directory | https://www.cs.purdue.edu/people/faculty/turkstra.html"
+    },
+    {
+      "officialId": "84",
+      "rosterName": "Jennifer Neville",
+      "title": "Samuel D. Conte Professor of Computer Science",
+      "profileUrl": "https://www.cs.purdue.edu/people/faculty/neville.html",
+      "portraitUrl": "https://www.cs.purdue.edu/people/images-landscape/small/faculty/neville.jpg",
+      "officialSections": [
+        "Faculty Directory"
+      ],
+      "researchFields": [
+        "Artificial Intelligence, Machine Learning, and Natural Language Processing",
+        "Databases and Data Mining"
+      ],
+      "unitUrl": "https://www.cs.purdue.edu/people/faculty/index.html",
+      "decision": "included_existing",
+      "atlasPersonId": "jennifer-neville-award",
+      "reason": "符合范围，且规范化姓名可与当前图谱人物唯一匹配。",
+      "evidence": "Samuel D. Conte Professor of Computer Science | Faculty Directory | Artificial Intelligence, Machine Learning, and Natural Language Processing · Databases and Data Mining | https://www.cs.purdue.edu/people/faculty/neville.html"
+    },
+    {
+      "officialId": "20",
+      "rosterName": "Jeremiah M. Blocki",
+      "title": "Associate Professor",
+      "profileUrl": "https://www.cs.purdue.edu/people/faculty/jblocki.html",
+      "portraitUrl": "https://www.cs.purdue.edu/people/images-landscape/small/faculty/jblocki.jpg",
+      "officialSections": [
+        "Faculty Directory"
+      ],
+      "researchFields": [
+        "Information Security and Assurance",
+        "Theory of Computing, Algorithms, and Quantum Computing"
+      ],
+      "unitUrl": "https://www.cs.purdue.edu/people/faculty/index.html",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Associate Professor | Faculty Directory | Information Security and Assurance · Theory of Computing, Algorithms, and Quantum Computing | https://www.cs.purdue.edu/people/faculty/jblocki.html",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "148",
+      "rosterName": "Jiang Yu Zheng",
+      "title": "Professor",
+      "profileUrl": "https://www.cs.purdue.edu/people/faculty/jyzheng.html",
+      "portraitUrl": "https://www.cs.purdue.edu/people/images-landscape/small/faculty/jyzheng.jpg",
+      "officialSections": [
+        "Faculty Directory"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cs.purdue.edu/people/faculty/index.html",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Professor | Faculty Directory | https://www.cs.purdue.edu/people/faculty/jyzheng.html",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "130",
+      "rosterName": "Jianguo Wang",
+      "title": "Assistant Professor",
+      "profileUrl": "https://www.cs.purdue.edu/people/faculty/csjgwang.html",
+      "portraitUrl": "https://www.cs.purdue.edu/people/images-landscape/small/faculty/csjgwang.jpg",
+      "officialSections": [
+        "Faculty Directory"
+      ],
+      "researchFields": [
+        "Databases and Data Mining"
+      ],
+      "unitUrl": "https://www.cs.purdue.edu/people/faculty/index.html",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Assistant Professor | Faculty Directory | Databases and Data Mining | https://www.cs.purdue.edu/people/faculty/csjgwang.html",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "114",
+      "rosterName": "John M. Steele",
+      "title": "Professor Emeritus",
+      "profileUrl": "https://www.cs.purdue.edu/people/faculty/jsteele.html",
+      "portraitUrl": "https://www.cs.purdue.edu/people/images-landscape/small/faculty/jsteele.jpg",
+      "officialSections": [
+        "Faculty Directory"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cs.purdue.edu/people/faculty/index.html",
+      "decision": "excluded_historical",
+      "reason": "官方职称或名录分组明确为荣休、退休或历史人员。",
+      "evidence": "Professor Emeritus | Faculty Directory | https://www.cs.purdue.edu/people/faculty/jsteele.html"
+    },
+    {
+      "officialId": "101",
+      "rosterName": "John Robinson",
+      "title": "Lecturer",
+      "profileUrl": "https://www.cs.purdue.edu/people/faculty/robin326.html",
+      "portraitUrl": "https://www.cs.purdue.edu/people/images-landscape/small/nophoto.jpg",
+      "officialSections": [
+        "Faculty Directory"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cs.purdue.edu/people/faculty/index.html",
+      "decision": "excluded_non_pi",
+      "reason": "官方职称或名录分组属于教学、兼职、附属、科研支持或其他非独立 PI 岗位。",
+      "evidence": "Lecturer | Faculty Directory | https://www.cs.purdue.edu/people/faculty/robin326.html"
+    },
+    {
+      "officialId": "24",
+      "rosterName": "Joseph Campbell",
+      "title": "Assistant Professor",
+      "profileUrl": "https://www.cs.purdue.edu/people/faculty/joecamp.html",
+      "portraitUrl": "https://www.cs.purdue.edu/people/images-landscape/small/faculty/joecamp.jpg",
+      "officialSections": [
+        "Faculty Directory"
+      ],
+      "researchFields": [
+        "Robotics and Computer Vision",
+        "Artificial Intelligence, Machine Learning, and Natural Language Processing"
+      ],
+      "unitUrl": "https://www.cs.purdue.edu/people/faculty/index.html",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Assistant Professor | Faculty Directory | Robotics and Computer Vision · Artificial Intelligence, Machine Learning, and Natural Language Processing | https://www.cs.purdue.edu/people/faculty/joecamp.html",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "119",
+      "rosterName": "Kazem Taram",
+      "title": "Assistant Professor",
+      "profileUrl": "https://www.cs.purdue.edu/people/faculty/mtaram.html",
+      "portraitUrl": "https://www.cs.purdue.edu/people/images-landscape/small/faculty/mtaram.jpg",
+      "officialSections": [
+        "Faculty Directory"
+      ],
+      "researchFields": [
+        "Information Security and Assurance",
+        "Computer Architecture"
+      ],
+      "unitUrl": "https://www.cs.purdue.edu/people/faculty/index.html",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Assistant Professor | Faculty Directory | Information Security and Assurance · Computer Architecture | https://www.cs.purdue.edu/people/faculty/mtaram.html",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "94",
+      "rosterName": "Kent Quanrud",
+      "title": "Associate Professor",
+      "profileUrl": "https://www.cs.purdue.edu/people/faculty/krq.html",
+      "portraitUrl": "https://www.cs.purdue.edu/people/images-landscape/small/faculty/krq.jpg",
+      "officialSections": [
+        "Faculty Directory"
+      ],
+      "researchFields": [
+        "Theory of Computing, Algorithms, and Quantum Computing"
+      ],
+      "unitUrl": "https://www.cs.purdue.edu/people/faculty/index.html",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Associate Professor | Faculty Directory | Theory of Computing, Algorithms, and Quantum Computing | https://www.cs.purdue.edu/people/faculty/krq.html",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "87",
+      "rosterName": "Kihong Park",
+      "title": "Associate Professor",
+      "profileUrl": "https://www.cs.purdue.edu/people/faculty/park0.html",
+      "portraitUrl": "https://www.cs.purdue.edu/people/images-landscape/small/faculty/park0.jpg",
+      "officialSections": [
+        "Faculty Directory"
+      ],
+      "researchFields": [
+        "Information Security and Assurance",
+        "Networking and Operating Systems",
+        "Distributed Systems"
+      ],
+      "unitUrl": "https://www.cs.purdue.edu/people/faculty/index.html",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Associate Professor | Faculty Directory | Information Security and Assurance · Networking and Operating Systems · Distributed Systems | https://www.cs.purdue.edu/people/faculty/park0.html",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "5",
+      "rosterName": "Konstantinos Ameranis",
+      "title": "Assistant Teaching Professor",
+      "profileUrl": "https://www.cs.purdue.edu/people/faculty/kamerani.html",
+      "portraitUrl": "https://www.cs.purdue.edu/people/images-landscape/small/nophoto.jpg",
+      "officialSections": [
+        "Faculty Directory"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cs.purdue.edu/people/faculty/index.html",
+      "decision": "excluded_non_pi",
+      "reason": "官方职称或名录分组属于教学、兼职、附属、科研支持或其他非独立 PI 岗位。",
+      "evidence": "Assistant Teaching Professor | Faculty Directory | https://www.cs.purdue.edu/people/faculty/kamerani.html"
+    },
+    {
+      "officialId": "118",
+      "rosterName": "Lin Tan",
+      "title": "Mary J. Elmore New Frontiers Professor of Computer Science",
+      "profileUrl": "https://www.cs.purdue.edu/people/faculty/lintan.html",
+      "portraitUrl": "https://www.cs.purdue.edu/people/images-landscape/small/faculty/lintan.jpg",
+      "officialSections": [
+        "Faculty Directory"
+      ],
+      "researchFields": [
+        "Information Security and Assurance",
+        "Robotics and Computer Vision",
+        "Artificial Intelligence, Machine Learning, and Natural Language Processing",
+        "Software Engineering"
+      ],
+      "unitUrl": "https://www.cs.purdue.edu/people/faculty/index.html",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Mary J. Elmore New Frontiers Professor of Computer Science | Faculty Directory | Information Security and Assurance · Robotics and Computer Vision · Artificial Intelligence, Machine Learning, and Natural Language Processing · Software Engineering | https://www.cs.purdue.edu/people/faculty/lintan.html",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "82",
+      "rosterName": "Lucas A. Moser",
+      "title": "Computer Science Senior Lecturer, Indianapolis",
+      "profileUrl": "https://www.cs.purdue.edu/people/faculty/moser35.html",
+      "portraitUrl": "https://www.cs.purdue.edu/people/images-landscape/small/nophoto.jpg",
+      "officialSections": [
+        "Faculty Directory"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cs.purdue.edu/people/faculty/index.html",
+      "decision": "excluded_non_pi",
+      "reason": "官方职称或名录分组属于教学、兼职、附属、科研支持或其他非独立 PI 岗位。",
+      "evidence": "Computer Science Senior Lecturer, Indianapolis | Faculty Directory | https://www.cs.purdue.edu/people/faculty/moser35.html"
+    },
+    {
+      "officialId": "62",
+      "rosterName": "Mahimna Kelkar",
+      "title": "Assistant Professor",
+      "profileUrl": "https://www.cs.purdue.edu/people/faculty/mkelkar.html",
+      "portraitUrl": "https://www.cs.purdue.edu/people/images-landscape/small/nophoto.jpg",
+      "officialSections": [
+        "Faculty Directory"
+      ],
+      "researchFields": [
+        "Information Security and Assurance"
+      ],
+      "unitUrl": "https://www.cs.purdue.edu/people/faculty/index.html",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Assistant Professor | Faculty Directory | Information Security and Assurance | https://www.cs.purdue.edu/people/faculty/mkelkar.html",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "61",
+      "rosterName": "Majid Kazemian",
+      "title": "Professor of Biochemistry and Computer Science",
+      "profileUrl": "https://www.cs.purdue.edu/people/faculty/kazemian.html",
+      "portraitUrl": "https://www.cs.purdue.edu/people/images-landscape/small/faculty/kazemian.jpg",
+      "officialSections": [
+        "Faculty Directory"
+      ],
+      "researchFields": [
+        "Bioinformatics and Computational Biology"
+      ],
+      "unitUrl": "https://www.cs.purdue.edu/people/faculty/index.html",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Professor of Biochemistry and Computer Science | Faculty Directory | Bioinformatics and Computational Biology | https://www.cs.purdue.edu/people/faculty/kazemian.html",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "131",
+      "rosterName": "Mark Ward",
+      "title": "Professor (Courtesy: Statistics)",
+      "profileUrl": "https://www.cs.purdue.edu/people/faculty/mdw.html",
+      "portraitUrl": "https://www.cs.purdue.edu/people/images-landscape/small/faculty/mdw.jpg",
+      "officialSections": [
+        "Faculty Directory"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cs.purdue.edu/people/faculty/index.html",
+      "decision": "excluded_non_pi",
+      "reason": "官方职称或名录分组属于教学、兼职、附属、科研支持或其他非独立 PI 岗位。",
+      "evidence": "Professor (Courtesy: Statistics) | Faculty Directory | https://www.cs.purdue.edu/people/faculty/mdw.html"
+    },
+    {
+      "officialId": "31",
+      "rosterName": "Marta A. Crowe",
+      "title": "Senior Lecturer",
+      "profileUrl": "https://www.cs.purdue.edu/people/faculty/crowe.html",
+      "portraitUrl": "https://www.cs.purdue.edu/people/images-landscape/small/faculty/crowe.jpg",
+      "officialSections": [
+        "Faculty Directory"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cs.purdue.edu/people/faculty/index.html",
+      "decision": "excluded_non_pi",
+      "reason": "官方职称或名录分组属于教学、兼职、附属、科研支持或其他非独立 PI 岗位。",
+      "evidence": "Senior Lecturer | Faculty Directory | https://www.cs.purdue.edu/people/faculty/crowe.html"
+    },
+    {
+      "officialId": "112",
+      "rosterName": "Mary Anne Smart",
+      "title": "Assistant Teaching Professor",
+      "profileUrl": "https://www.cs.purdue.edu/people/faculty/masmart.html",
+      "portraitUrl": "https://www.cs.purdue.edu/people/images-landscape/small/faculty/masmart.jpg",
+      "officialSections": [
+        "Faculty Directory"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cs.purdue.edu/people/faculty/index.html",
+      "decision": "excluded_non_pi",
+      "reason": "官方职称或名录分组属于教学、兼职、附属、科研支持或其他非独立 PI 岗位。",
+      "evidence": "Assistant Teaching Professor | Faculty Directory | https://www.cs.purdue.edu/people/faculty/masmart.html"
+    },
+    {
+      "officialId": "21",
+      "rosterName": "Michael H. Borkowski",
+      "title": "Assistant Teaching Professor",
+      "profileUrl": "https://www.cs.purdue.edu/people/faculty/mhborkow.html",
+      "portraitUrl": "https://www.cs.purdue.edu/people/images-landscape/small/faculty/mhborkow.jpg",
+      "officialSections": [
+        "Faculty Directory"
+      ],
+      "researchFields": [
+        "Programming Languages and Compilers"
+      ],
+      "unitUrl": "https://www.cs.purdue.edu/people/faculty/index.html",
+      "decision": "excluded_non_pi",
+      "reason": "官方职称或名录分组属于教学、兼职、附属、科研支持或其他非独立 PI 岗位。",
+      "evidence": "Assistant Teaching Professor | Faculty Directory | Programming Languages and Compilers | https://www.cs.purdue.edu/people/faculty/mhborkow.html"
+    },
+    {
+      "officialId": "128",
+      "rosterName": "Midhul Vuppalapati",
+      "title": "Assistant Professor",
+      "profileUrl": "https://www.cs.purdue.edu/people/faculty/mvuppala.html",
+      "portraitUrl": "https://www.cs.purdue.edu/people/images-landscape/small/nophoto.jpg",
+      "officialSections": [
+        "Faculty Directory"
+      ],
+      "researchFields": [
+        "Networking and Operating Systems"
+      ],
+      "unitUrl": "https://www.cs.purdue.edu/people/faculty/index.html",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Assistant Professor | Faculty Directory | Networking and Operating Systems | https://www.cs.purdue.edu/people/faculty/mvuppala.html",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "123",
+      "rosterName": "Mihran Tuceryan",
+      "title": "Professor Emeritus",
+      "profileUrl": "https://www.cs.purdue.edu/people/faculty/mtucerya.html",
+      "portraitUrl": "https://www.cs.purdue.edu/people/images-landscape/small/faculty/mtucerya.jpg",
+      "officialSections": [
+        "Faculty Directory"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cs.purdue.edu/people/faculty/index.html",
+      "decision": "excluded_historical",
+      "reason": "官方职称或名录分组明确为荣休、退休或历史人员。",
+      "evidence": "Professor Emeritus | Faculty Directory | https://www.cs.purdue.edu/people/faculty/mtucerya.html"
+    },
+    {
+      "officialId": "8",
+      "rosterName": "Mikhail Atallah",
+      "title": "Distinguished Professor",
+      "profileUrl": "https://www.cs.purdue.edu/people/faculty/matallah.html",
+      "portraitUrl": "https://www.cs.purdue.edu/people/images-landscape/small/faculty/matallah.jpg",
+      "officialSections": [
+        "Faculty Directory"
+      ],
+      "researchFields": [
+        "Information Security and Assurance",
+        "Theory of Computing, Algorithms, and Quantum Computing"
+      ],
+      "unitUrl": "https://www.cs.purdue.edu/people/faculty/index.html",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Distinguished Professor | Faculty Directory | Information Security and Assurance · Theory of Computing, Algorithms, and Quantum Computing | https://www.cs.purdue.edu/people/faculty/matallah.html",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "67",
+      "rosterName": "Milind Kulkarni",
+      "title": "Professor (Courtesy: Electrical and Computer Engineering)",
+      "profileUrl": "https://www.cs.purdue.edu/people/faculty/milind.html",
+      "portraitUrl": "https://www.cs.purdue.edu/people/images-landscape/small/faculty/milind.jpg",
+      "officialSections": [
+        "Faculty Directory"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cs.purdue.edu/people/faculty/index.html",
+      "decision": "excluded_non_pi",
+      "reason": "官方职称或名录分组属于教学、兼职、附属、科研支持或其他非独立 PI 岗位。",
+      "evidence": "Professor (Courtesy: Electrical and Computer Engineering) | Faculty Directory | https://www.cs.purdue.edu/people/faculty/milind.html"
+    },
+    {
+      "officialId": "139",
+      "rosterName": "Ming Yin",
+      "title": "Associate Professor",
+      "profileUrl": "https://www.cs.purdue.edu/people/faculty/mingyin.html",
+      "portraitUrl": "https://www.cs.purdue.edu/people/images-landscape/small/faculty/mingyin.jpg",
+      "officialSections": [
+        "Faculty Directory"
+      ],
+      "researchFields": [
+        "Artificial Intelligence, Machine Learning, and Natural Language Processing",
+        "Human-Computer Interaction"
+      ],
+      "unitUrl": "https://www.cs.purdue.edu/people/faculty/index.html",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Associate Professor | Faculty Directory | Artificial Intelligence, Machine Learning, and Natural Language Processing · Human-Computer Interaction | https://www.cs.purdue.edu/people/faculty/mingyin.html",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "111",
+      "rosterName": "Muhammad Shahbaz",
+      "title": "Adjunct Assistant Professor",
+      "profileUrl": "https://www.cs.purdue.edu/people/faculty/mshahbaz.html",
+      "portraitUrl": "https://www.cs.purdue.edu/people/images-landscape/small/faculty/mshahbaz.jpg",
+      "officialSections": [
+        "Faculty Directory"
+      ],
+      "researchFields": [
+        "Networking and Operating Systems",
+        "Artificial Intelligence, Machine Learning, and Natural Language Processing",
+        "Computer Architecture",
+        "Distributed Systems",
+        "Programming Languages and Compilers"
+      ],
+      "unitUrl": "https://www.cs.purdue.edu/people/faculty/index.html",
+      "decision": "excluded_non_pi",
+      "reason": "官方职称或名录分组属于教学、兼职、附属、科研支持或其他非独立 PI 岗位。",
+      "evidence": "Adjunct Assistant Professor | Faculty Directory | Networking and Operating Systems · Artificial Intelligence, Machine Learning, and Natural Language Processing · Computer Architecture · Distributed Systems · Programming Languages and Compilers | https://www.cs.purdue.edu/people/faculty/mshahbaz.html"
+    },
+    {
+      "officialId": "149",
+      "rosterName": "Ning Zhou",
+      "title": "Lecturer",
+      "profileUrl": "https://www.cs.purdue.edu/people/faculty/zhou1489.html",
+      "portraitUrl": "https://www.cs.purdue.edu/people/images-landscape/small/nophoto.jpg",
+      "officialSections": [
+        "Faculty Directory"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cs.purdue.edu/people/faculty/index.html",
+      "decision": "excluded_non_pi",
+      "reason": "官方职称或名录分组属于教学、兼职、附属、科研支持或其他非独立 PI 岗位。",
+      "evidence": "Lecturer | Faculty Directory | https://www.cs.purdue.edu/people/faculty/zhou1489.html"
+    },
+    {
+      "officialId": "69",
+      "rosterName": "Ninghui Li",
+      "title": "Samuel D. Conte Professor of Computer Science and Associate Department Head",
+      "profileUrl": "https://www.cs.purdue.edu/people/faculty/ninghui.html",
+      "portraitUrl": "https://www.cs.purdue.edu/people/images-landscape/small/faculty/ninghui.jpg",
+      "officialSections": [
+        "Faculty Directory"
+      ],
+      "researchFields": [
+        "Information Security and Assurance",
+        "Artificial Intelligence, Machine Learning, and Natural Language Processing",
+        "Databases and Data Mining"
+      ],
+      "unitUrl": "https://www.cs.purdue.edu/people/faculty/index.html",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Samuel D. Conte Professor of Computer Science and Associate Department Head | Faculty Directory | Information Security and Assurance · Artificial Intelligence, Machine Learning, and Natural Language Processing · Databases and Data Mining | https://www.cs.purdue.edu/people/faculty/ninghui.html",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "132",
+      "rosterName": "Patrick J. Wolfe",
+      "title": "Provost",
+      "profileUrl": "https://www.cs.purdue.edu/people/faculty/patrick.html",
+      "portraitUrl": "https://www.cs.purdue.edu/people/images-landscape/small/faculty/patrick.jpg",
+      "officialSections": [
+        "Faculty Directory"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cs.purdue.edu/people/faculty/index.html",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Provost | Faculty Directory | https://www.cs.purdue.edu/people/faculty/patrick.html",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "126",
+      "rosterName": "Paul Valiant",
+      "title": "Associate Professor",
+      "profileUrl": "https://www.cs.purdue.edu/people/faculty/pvaliant.html",
+      "portraitUrl": "https://www.cs.purdue.edu/people/images-landscape/small/faculty/pvaliant.jpg",
+      "officialSections": [
+        "Faculty Directory"
+      ],
+      "researchFields": [
+        "Artificial Intelligence, Machine Learning, and Natural Language Processing",
+        "Theory of Computing, Algorithms, and Quantum Computing"
+      ],
+      "unitUrl": "https://www.cs.purdue.edu/people/faculty/index.html",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Associate Professor | Faculty Directory | Artificial Intelligence, Machine Learning, and Natural Language Processing · Theory of Computing, Algorithms, and Quantum Computing | https://www.cs.purdue.edu/people/faculty/pvaliant.html",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "41",
+      "rosterName": "Pedro Fonseca",
+      "title": "Associate Professor",
+      "profileUrl": "https://www.cs.purdue.edu/people/faculty/pfonseca.html",
+      "portraitUrl": "https://www.cs.purdue.edu/people/images-landscape/small/faculty/pfonseca.jpg",
+      "officialSections": [
+        "Faculty Directory"
+      ],
+      "researchFields": [
+        "Information Security and Assurance",
+        "Networking and Operating Systems",
+        "Distributed Systems"
+      ],
+      "unitUrl": "https://www.cs.purdue.edu/people/faculty/index.html",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Associate Professor | Faculty Directory | Information Security and Assurance · Networking and Operating Systems · Distributed Systems | https://www.cs.purdue.edu/people/faculty/pfonseca.html",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "37",
+      "rosterName": "Petros S. Drineas",
+      "title": "Professor and Department Head of Computer Science",
+      "profileUrl": "https://www.cs.purdue.edu/people/faculty/pdrineas.html",
+      "portraitUrl": "https://www.cs.purdue.edu/people/images-landscape/small/faculty/pdrineas.jpg",
+      "officialSections": [
+        "Faculty Directory"
+      ],
+      "researchFields": [
+        "Computational Science and Engineering",
+        "Bioinformatics and Computational Biology",
+        "Theory of Computing, Algorithms, and Quantum Computing"
+      ],
+      "unitUrl": "https://www.cs.purdue.edu/people/faculty/index.html",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Professor and Department Head of Computer Science | Faculty Directory | Computational Science and Engineering · Bioinformatics and Computational Biology · Theory of Computing, Algorithms, and Quantum Computing | https://www.cs.purdue.edu/people/faculty/pdrineas.html",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "108",
+      "rosterName": "Philip A. Sands",
+      "title": "Assistant Teaching Professor",
+      "profileUrl": "https://www.cs.purdue.edu/people/faculty/psands.html",
+      "portraitUrl": "https://www.cs.purdue.edu/people/images-landscape/small/faculty/psands.jpg",
+      "officialSections": [
+        "Faculty Directory"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cs.purdue.edu/people/faculty/index.html",
+      "decision": "excluded_non_pi",
+      "reason": "官方职称或名录分组属于教学、兼职、附属、科研支持或其他非独立 PI 岗位。",
+      "evidence": "Assistant Teaching Professor | Faculty Directory | https://www.cs.purdue.edu/people/faculty/psands.html"
+    },
+    {
+      "officialId": "136",
+      "rosterName": "Qiuyue Xue",
+      "title": "Assistant Professor",
+      "profileUrl": "https://www.cs.purdue.edu/people/faculty/qiuyue.html",
+      "portraitUrl": "https://www.cs.purdue.edu/people/images-landscape/small/faculty/qiuyue.jpg",
+      "officialSections": [
+        "Faculty Directory"
+      ],
+      "researchFields": [
+        "Artificial Intelligence, Machine Learning, and Natural Language Processing",
+        "Bioinformatics and Computational Biology",
+        "Human-Computer Interaction"
+      ],
+      "unitUrl": "https://www.cs.purdue.edu/people/faculty/index.html",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Assistant Professor | Faculty Directory | Artificial Intelligence, Machine Learning, and Natural Language Processing · Bioinformatics and Computational Biology · Human-Computer Interaction | https://www.cs.purdue.edu/people/faculty/qiuyue.html",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "63",
+      "rosterName": "Rajiv Khanna",
+      "title": "Assistant Professor",
+      "profileUrl": "https://www.cs.purdue.edu/people/faculty/rajivak.html",
+      "portraitUrl": "https://www.cs.purdue.edu/people/images-landscape/small/faculty/rajivak.jpg",
+      "officialSections": [
+        "Faculty Directory"
+      ],
+      "researchFields": [
+        "Artificial Intelligence, Machine Learning, and Natural Language Processing"
+      ],
+      "unitUrl": "https://www.cs.purdue.edu/people/faculty/index.html",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Assistant Professor | Faculty Directory | Artificial Intelligence, Machine Learning, and Natural Language Processing | https://www.cs.purdue.edu/people/faculty/rajivak.html",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "138",
+      "rosterName": "Raymond A. Yeh",
+      "title": "Assistant Professor",
+      "profileUrl": "https://www.cs.purdue.edu/people/faculty/rayyeh.html",
+      "portraitUrl": "https://www.cs.purdue.edu/people/images-landscape/small/faculty/rayyeh.jpg",
+      "officialSections": [
+        "Faculty Directory"
+      ],
+      "researchFields": [
+        "Graphics, Visualization, and Geometric Modeling",
+        "Robotics and Computer Vision",
+        "Artificial Intelligence, Machine Learning, and Natural Language Processing"
+      ],
+      "unitUrl": "https://www.cs.purdue.edu/people/faculty/index.html",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Assistant Professor | Faculty Directory | Graphics, Visualization, and Geometric Modeling · Robotics and Computer Vision · Artificial Intelligence, Machine Learning, and Natural Language Processing | https://www.cs.purdue.edu/people/faculty/rayyeh.html",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "76",
+      "rosterName": "Robert E. Lynch",
+      "title": "Professor Emeritus",
+      "profileUrl": "https://www.cs.purdue.edu/people/faculty/rel.html",
+      "portraitUrl": "https://www.cs.purdue.edu/people/images-landscape/small/faculty/rel.jpg",
+      "officialSections": [
+        "Faculty Directory"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cs.purdue.edu/people/faculty/index.html",
+      "decision": "excluded_historical",
+      "reason": "官方职称或名录分组明确为荣休、退休或历史人员。",
+      "evidence": "Professor Emeritus | Faculty Directory | https://www.cs.purdue.edu/people/faculty/rel.html"
+    },
+    {
+      "officialId": "86",
+      "rosterName": "Rohan Paleja",
+      "title": "Assistant Professor",
+      "profileUrl": "https://www.cs.purdue.edu/people/faculty/rpaleja.html",
+      "portraitUrl": "https://www.cs.purdue.edu/people/images-landscape/small/faculty/rpaleja.jpg",
+      "officialSections": [
+        "Faculty Directory"
+      ],
+      "researchFields": [
+        "Robotics and Computer Vision",
+        "Artificial Intelligence, Machine Learning, and Natural Language Processing"
+      ],
+      "unitUrl": "https://www.cs.purdue.edu/people/faculty/index.html",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Assistant Professor | Faculty Directory | Robotics and Computer Vision · Artificial Intelligence, Machine Learning, and Natural Language Processing | https://www.cs.purdue.edu/people/faculty/rpaleja.html",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "142",
+      "rosterName": "Ruizhe Zhang",
+      "title": "Assistant Professor",
+      "profileUrl": "https://www.cs.purdue.edu/people/faculty/rzzhang.html",
+      "portraitUrl": "https://www.cs.purdue.edu/people/images-landscape/small/faculty/rzzhang.jpg",
+      "officialSections": [
+        "Faculty Directory"
+      ],
+      "researchFields": [
+        "Artificial Intelligence, Machine Learning, and Natural Language Processing",
+        "Theory of Computing, Algorithms, and Quantum Computing"
+      ],
+      "unitUrl": "https://www.cs.purdue.edu/people/faculty/index.html",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Assistant Professor | Faculty Directory | Artificial Intelligence, Machine Learning, and Natural Language Processing · Theory of Computing, Algorithms, and Quantum Computing | https://www.cs.purdue.edu/people/faculty/rzzhang.html",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "143",
+      "rosterName": "Ruqi Zhang",
+      "title": "Assistant Professor",
+      "profileUrl": "https://www.cs.purdue.edu/people/faculty/ruqiz.html",
+      "portraitUrl": "https://www.cs.purdue.edu/people/images-landscape/small/faculty/ruqiz.jpg",
+      "officialSections": [
+        "Faculty Directory"
+      ],
+      "researchFields": [
+        "Artificial Intelligence, Machine Learning, and Natural Language Processing"
+      ],
+      "unitUrl": "https://www.cs.purdue.edu/people/faculty/index.html",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Assistant Professor | Faculty Directory | Artificial Intelligence, Machine Learning, and Natural Language Processing | https://www.cs.purdue.edu/people/faculty/ruqiz.html",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "129",
+      "rosterName": "Samuel S. Wagstaff, Jr.",
+      "title": "Professor Emeritus",
+      "profileUrl": "https://www.cs.purdue.edu/people/faculty/wagstaff.html",
+      "portraitUrl": "https://www.cs.purdue.edu/people/images-landscape/small/faculty/wagstaff.jpg",
+      "officialSections": [
+        "Faculty Directory"
+      ],
+      "researchFields": [
+        "Information Security and Assurance"
+      ],
+      "unitUrl": "https://www.cs.purdue.edu/people/faculty/index.html",
+      "decision": "excluded_historical",
+      "reason": "官方职称或名录分组明确为荣休、退休或历史人员。",
+      "evidence": "Professor Emeritus | Faculty Directory | Information Security and Assurance | https://www.cs.purdue.edu/people/faculty/wagstaff.html"
+    },
+    {
+      "officialId": "96",
+      "rosterName": "Sanjay G. Rao",
+      "title": "Professor (Courtesy: Electrical and Computer Engineering)",
+      "profileUrl": "https://www.cs.purdue.edu/people/faculty/sanjay.html",
+      "portraitUrl": "https://www.cs.purdue.edu/people/images-landscape/small/faculty/sanjay.jpg",
+      "officialSections": [
+        "Faculty Directory"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cs.purdue.edu/people/faculty/index.html",
+      "decision": "excluded_non_pi",
+      "reason": "官方职称或名录分组属于教学、兼职、附属、科研支持或其他非独立 PI 岗位。",
+      "evidence": "Professor (Courtesy: Electrical and Computer Engineering) | Faculty Directory | https://www.cs.purdue.edu/people/faculty/sanjay.html"
+    },
+    {
+      "officialId": "110",
+      "rosterName": "Sarah H Sellke",
+      "title": "Associate Teaching Professor",
+      "profileUrl": "https://www.cs.purdue.edu/people/faculty/ssellke.html",
+      "portraitUrl": "https://www.cs.purdue.edu/people/images-landscape/small/faculty/ssellke.jpg",
+      "officialSections": [
+        "Faculty Directory"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cs.purdue.edu/people/faculty/index.html",
+      "decision": "excluded_non_pi",
+      "reason": "官方职称或名录分组属于教学、兼职、附属、科研支持或其他非独立 PI 岗位。",
+      "evidence": "Associate Teaching Professor | Faculty Directory | https://www.cs.purdue.edu/people/faculty/ssellke.html"
+    },
+    {
+      "officialId": "125",
+      "rosterName": "Satish V Ukkusuri",
+      "title": "Professor (Courtesy: Civil and Construction Engineering)",
+      "profileUrl": "https://www.cs.purdue.edu/people/faculty/sukkusur.html",
+      "portraitUrl": "https://www.cs.purdue.edu/people/images-landscape/small/nophoto.jpg",
+      "officialSections": [
+        "Faculty Directory"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cs.purdue.edu/people/faculty/index.html",
+      "decision": "excluded_non_pi",
+      "reason": "官方职称或名录分组属于教学、兼职、附属、科研支持或其他非独立 PI 岗位。",
+      "evidence": "Professor (Courtesy: Civil and Construction Engineering) | Faculty Directory | https://www.cs.purdue.edu/people/faculty/sukkusur.html"
+    },
+    {
+      "officialId": "11",
+      "rosterName": "Saugata Basu",
+      "title": "Professor of Mathematics and Computer Science",
+      "profileUrl": "https://www.cs.purdue.edu/people/faculty/sbasu.html",
+      "portraitUrl": "https://www.cs.purdue.edu/people/images-landscape/small/faculty/sbasu.jpg",
+      "officialSections": [
+        "Faculty Directory"
+      ],
+      "researchFields": [
+        "Theory of Computing, Algorithms, and Quantum Computing"
+      ],
+      "unitUrl": "https://www.cs.purdue.edu/people/faculty/index.html",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Professor of Mathematics and Computer Science | Faculty Directory | Theory of Computing, Algorithms, and Quantum Computing | https://www.cs.purdue.edu/people/faculty/sbasu.html",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "9",
+      "rosterName": "Saurabh Bagchi",
+      "title": "Professor (Courtesy: Electrical and Computer Engineering)",
+      "profileUrl": "https://www.cs.purdue.edu/people/faculty/sbagchi.html",
+      "portraitUrl": "https://www.cs.purdue.edu/people/images-landscape/small/faculty/sbagchi.jpg",
+      "officialSections": [
+        "Faculty Directory"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cs.purdue.edu/people/faculty/index.html",
+      "decision": "excluded_non_pi",
+      "reason": "官方职称或名录分组属于教学、兼职、附属、科研支持或其他非独立 PI 岗位。",
+      "evidence": "Professor (Courtesy: Electrical and Computer Engineering) | Faculty Directory | https://www.cs.purdue.edu/people/faculty/sbagchi.html"
+    },
+    {
+      "officialId": "22",
+      "rosterName": "Simina Branzei",
+      "title": "Associate Professor",
+      "profileUrl": "https://www.cs.purdue.edu/people/faculty/simina.html",
+      "portraitUrl": "https://www.cs.purdue.edu/people/images-landscape/small/faculty/simina.jpg",
+      "officialSections": [
+        "Faculty Directory"
+      ],
+      "researchFields": [
+        "Artificial Intelligence, Machine Learning, and Natural Language Processing",
+        "Theory of Computing, Algorithms, and Quantum Computing"
+      ],
+      "unitUrl": "https://www.cs.purdue.edu/people/faculty/index.html",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Associate Professor | Faculty Directory | Artificial Intelligence, Machine Learning, and Natural Language Processing · Theory of Computing, Algorithms, and Quantum Computing | https://www.cs.purdue.edu/people/faculty/simina.html",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "6",
+      "rosterName": "Snehal Antani",
+      "title": "Affiliate Assistant Professor",
+      "profileUrl": "https://www.cs.purdue.edu/people/faculty/santani.html",
+      "portraitUrl": "https://www.cs.purdue.edu/people/images-landscape/small/faculty/santani.jpg",
+      "officialSections": [
+        "Faculty Directory"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cs.purdue.edu/people/faculty/index.html",
+      "decision": "excluded_non_pi",
+      "reason": "官方职称或名录分组属于教学、兼职、附属、科研支持或其他非独立 PI 岗位。",
+      "evidence": "Affiliate Assistant Professor | Faculty Directory | https://www.cs.purdue.edu/people/faculty/santani.html"
+    },
+    {
+      "officialId": "83",
+      "rosterName": "Snehasis Mukhopadhyay",
+      "title": "Professor",
+      "profileUrl": "https://www.cs.purdue.edu/people/faculty/smukhop.html",
+      "portraitUrl": "https://www.cs.purdue.edu/people/images-landscape/small/faculty/smukhop.jpg",
+      "officialSections": [
+        "Faculty Directory"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cs.purdue.edu/people/faculty/index.html",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Professor | Faculty Directory | https://www.cs.purdue.edu/people/faculty/smukhop.html",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "40",
+      "rosterName": "Sonia Fahmy",
+      "title": "Professor and Associate Department Head",
+      "profileUrl": "https://www.cs.purdue.edu/people/faculty/fahmy.html",
+      "portraitUrl": "https://www.cs.purdue.edu/people/images-landscape/small/faculty/fahmy.jpg",
+      "officialSections": [
+        "Faculty Directory"
+      ],
+      "researchFields": [
+        "Information Security and Assurance",
+        "Networking and Operating Systems"
+      ],
+      "unitUrl": "https://www.cs.purdue.edu/people/faculty/index.html",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Professor and Associate Department Head | Faculty Directory | Information Security and Assurance · Networking and Operating Systems | https://www.cs.purdue.edu/people/faculty/fahmy.html",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "58",
+      "rosterName": "Sooyeon Jeong",
+      "title": "Assistant Professor",
+      "profileUrl": "https://www.cs.purdue.edu/people/faculty/sooyeonj.html",
+      "portraitUrl": "https://www.cs.purdue.edu/people/images-landscape/small/faculty/sooyeonj.jpg",
+      "officialSections": [
+        "Faculty Directory"
+      ],
+      "researchFields": [
+        "Robotics and Computer Vision",
+        "Artificial Intelligence, Machine Learning, and Natural Language Processing",
+        "Human-Computer Interaction"
+      ],
+      "unitUrl": "https://www.cs.purdue.edu/people/faculty/index.html",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Assistant Professor | Faculty Directory | Robotics and Computer Vision · Artificial Intelligence, Machine Learning, and Natural Language Processing · Human-Computer Interaction | https://www.cs.purdue.edu/people/faculty/sooyeonj.html",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "85",
+      "rosterName": "Sotirios Nousias",
+      "title": "Kevin C and Suzanne L Kahn New Frontiers Assistant Professor of Computer Science",
+      "profileUrl": "https://www.cs.purdue.edu/people/faculty/snousias.html",
+      "portraitUrl": "https://www.cs.purdue.edu/people/images-landscape/small/faculty/snousias.jpg",
+      "officialSections": [
+        "Faculty Directory"
+      ],
+      "researchFields": [
+        "Graphics, Visualization, and Geometric Modeling",
+        "Robotics and Computer Vision",
+        "Artificial Intelligence, Machine Learning, and Natural Language Processing"
+      ],
+      "unitUrl": "https://www.cs.purdue.edu/people/faculty/index.html",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Kevin C and Suzanne L Kahn New Frontiers Assistant Professor of Computer Science | Faculty Directory | Graphics, Visualization, and Geometric Modeling · Robotics and Computer Vision · Artificial Intelligence, Machine Learning, and Natural Language Processing | https://www.cs.purdue.edu/people/faculty/snousias.html",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "50",
+      "rosterName": "Steve Hanneke",
+      "title": "Assistant Professor",
+      "profileUrl": "https://www.cs.purdue.edu/people/faculty/hanneke.html",
+      "portraitUrl": "https://www.cs.purdue.edu/people/images-landscape/small/faculty/hanneke.jpg",
+      "officialSections": [
+        "Faculty Directory"
+      ],
+      "researchFields": [
+        "Artificial Intelligence, Machine Learning, and Natural Language Processing",
+        "Theory of Computing, Algorithms, and Quantum Computing"
+      ],
+      "unitUrl": "https://www.cs.purdue.edu/people/faculty/index.html",
+      "decision": "included_existing",
+      "atlasPersonId": "steve-hanneke-award",
+      "reason": "符合范围，且规范化姓名可与当前图谱人物唯一匹配。",
+      "evidence": "Assistant Professor | Faculty Directory | Artificial Intelligence, Machine Learning, and Natural Language Processing · Theory of Computing, Algorithms, and Quantum Computing | https://www.cs.purdue.edu/people/faculty/hanneke.html"
+    },
+    {
+      "officialId": "92",
+      "rosterName": "Sunil Prabhakar",
+      "title": "Professor and Vice Provost for Faculty Affairs",
+      "profileUrl": "https://www.cs.purdue.edu/people/faculty/sunil.html",
+      "portraitUrl": "https://www.cs.purdue.edu/people/images-landscape/small/faculty/sunil.jpg",
+      "officialSections": [
+        "Faculty Directory"
+      ],
+      "researchFields": [
+        "Information Security and Assurance",
+        "Databases and Data Mining"
+      ],
+      "unitUrl": "https://www.cs.purdue.edu/people/faculty/index.html",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Professor and Vice Provost for Faculty Affairs | Faculty Directory | Information Security and Assurance · Databases and Data Mining | https://www.cs.purdue.edu/people/faculty/sunil.html",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "57",
+      "rosterName": "Suresh Jagannathan",
+      "title": "Samuel D. Conte Professor of Computer Science",
+      "profileUrl": "https://www.cs.purdue.edu/people/faculty/sjaganna.html",
+      "portraitUrl": "https://www.cs.purdue.edu/people/images-landscape/small/faculty/sjaganna.jpg",
+      "officialSections": [
+        "Faculty Directory"
+      ],
+      "researchFields": [
+        "Distributed Systems",
+        "Programming Languages and Compilers"
+      ],
+      "unitUrl": "https://www.cs.purdue.edu/people/faculty/index.html",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Samuel D. Conte Professor of Computer Science | Faculty Directory | Distributed Systems · Programming Languages and Compilers | https://www.cs.purdue.edu/people/faculty/sjaganna.html",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "49",
+      "rosterName": "Susanne E. Hambrusch",
+      "title": "Professor Emerita",
+      "profileUrl": "https://www.cs.purdue.edu/people/faculty/seh.html",
+      "portraitUrl": "https://www.cs.purdue.edu/people/images-landscape/small/faculty/seh.jpg",
+      "officialSections": [
+        "Faculty Directory"
+      ],
+      "researchFields": [
+        "Databases and Data Mining",
+        "Theory of Computing, Algorithms, and Quantum Computing"
+      ],
+      "unitUrl": "https://www.cs.purdue.edu/people/faculty/index.html",
+      "decision": "excluded_historical",
+      "reason": "官方职称或名录分组明确为荣休、退休或历史人员。",
+      "evidence": "Professor Emerita | Faculty Directory | Databases and Data Mining · Theory of Computing, Algorithms, and Quantum Computing | https://www.cs.purdue.edu/people/faculty/seh.html"
+    },
+    {
+      "officialId": "127",
+      "rosterName": "T. N. Vijaykumar",
+      "title": "Professor (Courtesy: Electrical and Computer Engineering)",
+      "profileUrl": "https://www.cs.purdue.edu/people/faculty/vijay.html",
+      "portraitUrl": "https://www.cs.purdue.edu/people/images-landscape/small/faculty/vijay.jpg",
+      "officialSections": [
+        "Faculty Directory"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cs.purdue.edu/people/faculty/index.html",
+      "decision": "excluded_non_pi",
+      "reason": "官方职称或名录分组属于教学、兼职、附属、科研支持或其他非独立 PI 岗位。",
+      "evidence": "Professor (Courtesy: Electrical and Computer Engineering) | Faculty Directory | https://www.cs.purdue.edu/people/faculty/vijay.html"
+    },
+    {
+      "officialId": "35",
+      "rosterName": "Tamal Krishna Dey",
+      "title": "Professor",
+      "profileUrl": "https://www.cs.purdue.edu/people/faculty/tamaldey.html",
+      "portraitUrl": "https://www.cs.purdue.edu/people/images-landscape/small/faculty/tamaldey.jpg",
+      "officialSections": [
+        "Faculty Directory"
+      ],
+      "researchFields": [
+        "Graphics, Visualization, and Geometric Modeling",
+        "Artificial Intelligence, Machine Learning, and Natural Language Processing",
+        "Theory of Computing, Algorithms, and Quantum Computing"
+      ],
+      "unitUrl": "https://www.cs.purdue.edu/people/faculty/index.html",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Professor | Faculty Directory | Graphics, Visualization, and Geometric Modeling · Artificial Intelligence, Machine Learning, and Natural Language Processing · Theory of Computing, Algorithms, and Quantum Computing | https://www.cs.purdue.edu/people/faculty/tamaldey.html",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "144",
+      "rosterName": "Tianyi Zhang",
+      "title": "Assistant Professor",
+      "profileUrl": "https://www.cs.purdue.edu/people/faculty/tianyi.html",
+      "portraitUrl": "https://www.cs.purdue.edu/people/images-landscape/small/faculty/tianyi.jpg",
+      "officialSections": [
+        "Faculty Directory"
+      ],
+      "researchFields": [
+        "Artificial Intelligence, Machine Learning, and Natural Language Processing",
+        "Software Engineering",
+        "Human-Computer Interaction",
+        "Programming Languages and Compilers"
+      ],
+      "unitUrl": "https://www.cs.purdue.edu/people/faculty/index.html",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Assistant Professor | Faculty Directory | Artificial Intelligence, Machine Learning, and Natural Language Processing · Software Engineering · Human-Computer Interaction · Programming Languages and Compilers | https://www.cs.purdue.edu/people/faculty/tianyi.html",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "103",
+      "rosterName": "Tiark Rompf",
+      "title": "Kevin C. and Susanne L. Kahn New Frontiers Associate Professor",
+      "profileUrl": "https://www.cs.purdue.edu/people/faculty/rompf.html",
+      "portraitUrl": "https://www.cs.purdue.edu/people/images-landscape/small/faculty/rompf.jpg",
+      "officialSections": [
+        "Faculty Directory"
+      ],
+      "researchFields": [
+        "Artificial Intelligence, Machine Learning, and Natural Language Processing",
+        "Databases and Data Mining",
+        "Software Engineering",
+        "Distributed Systems",
+        "Programming Languages and Compilers"
+      ],
+      "unitUrl": "https://www.cs.purdue.edu/people/faculty/index.html",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Kevin C. and Susanne L. Kahn New Frontiers Associate Professor | Faculty Directory | Artificial Intelligence, Machine Learning, and Natural Language Processing · Databases and Data Mining · Software Engineering · Distributed Systems · Programming Languages and Compilers | https://www.cs.purdue.edu/people/faculty/rompf.html",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "16",
+      "rosterName": "Tony Bergstrom",
+      "title": "Associate Teaching Professor",
+      "profileUrl": "https://www.cs.purdue.edu/people/faculty/bgstm.html",
+      "portraitUrl": "https://www.cs.purdue.edu/people/images-landscape/small/faculty/bgstm.jpg",
+      "officialSections": [
+        "Faculty Directory"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cs.purdue.edu/people/faculty/index.html",
+      "decision": "excluded_non_pi",
+      "reason": "官方职称或名录分组属于教学、兼职、附属、科研支持或其他非独立 PI 岗位。",
+      "evidence": "Associate Teaching Professor | Faculty Directory | https://www.cs.purdue.edu/people/faculty/bgstm.html"
+    },
+    {
+      "officialId": "56",
+      "rosterName": "Tunazzina Islam",
+      "title": "Visiting Assistant Professor",
+      "profileUrl": "https://www.cs.purdue.edu/people/faculty/islam32.html",
+      "portraitUrl": "https://www.cs.purdue.edu/people/images-landscape/small/faculty/islam32.png",
+      "officialSections": [
+        "Faculty Directory"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cs.purdue.edu/people/faculty/index.html",
+      "decision": "excluded_non_pi",
+      "reason": "官方职称或名录分组属于教学、兼职、附属、科研支持或其他非独立 PI 岗位。",
+      "evidence": "Visiting Assistant Professor | Faculty Directory | https://www.cs.purdue.edu/people/faculty/islam32.html"
+    },
+    {
+      "officialId": "2",
+      "rosterName": "Vamsi Addanki",
+      "title": "Assistant Professor",
+      "profileUrl": "https://www.cs.purdue.edu/people/faculty/vaddank.html",
+      "portraitUrl": "https://www.cs.purdue.edu/people/images-landscape/small/nophoto.jpg",
+      "officialSections": [
+        "Faculty Directory"
+      ],
+      "researchFields": [
+        "Networking and Operating Systems",
+        "Artificial Intelligence, Machine Learning, and Natural Language Processing",
+        "Theory of Computing, Algorithms, and Quantum Computing"
+      ],
+      "unitUrl": "https://www.cs.purdue.edu/people/faculty/index.html",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Assistant Professor | Faculty Directory | Networking and Operating Systems · Artificial Intelligence, Machine Learning, and Natural Language Processing · Theory of Computing, Algorithms, and Quantum Computing | https://www.cs.purdue.edu/people/faculty/vaddank.html",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "3",
+      "rosterName": "Vaneet Aggarwal",
+      "title": "Professor (Courtesy: Industrial Engineering)",
+      "profileUrl": "https://www.cs.purdue.edu/people/faculty/vaneet.html",
+      "portraitUrl": "https://www.cs.purdue.edu/people/images-landscape/small/faculty/vaneet.jpg",
+      "officialSections": [
+        "Faculty Directory"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cs.purdue.edu/people/faculty/index.html",
+      "decision": "excluded_non_pi",
+      "reason": "官方职称或名录分组属于教学、兼职、附属、科研支持或其他非独立 PI 岗位。",
+      "evidence": "Professor (Courtesy: Industrial Engineering) | Faculty Directory | https://www.cs.purdue.edu/people/faculty/vaneet.html"
+    },
+    {
+      "officialId": "150",
+      "rosterName": "Vassilis Zikas",
+      "title": "Adjunct Assistant Professor",
+      "profileUrl": "https://www.cs.purdue.edu/people/faculty/vzikas.html",
+      "portraitUrl": "https://www.cs.purdue.edu/people/images-landscape/small/faculty/vzikas.jpg",
+      "officialSections": [
+        "Faculty Directory"
+      ],
+      "researchFields": [
+        "Information Security and Assurance",
+        "Distributed Systems",
+        "Theory of Computing, Algorithms, and Quantum Computing"
+      ],
+      "unitUrl": "https://www.cs.purdue.edu/people/faculty/index.html",
+      "decision": "excluded_non_pi",
+      "reason": "官方职称或名录分组属于教学、兼职、附属、科研支持或其他非独立 PI 岗位。",
+      "evidence": "Adjunct Assistant Professor | Faculty Directory | Information Security and Assurance · Distributed Systems · Theory of Computing, Algorithms, and Quantum Computing | https://www.cs.purdue.edu/people/faculty/vzikas.html"
+    },
+    {
+      "officialId": "99",
+      "rosterName": "Vernon J. Rego",
+      "title": "Professor",
+      "profileUrl": "https://www.cs.purdue.edu/people/faculty/rego.html",
+      "portraitUrl": "https://www.cs.purdue.edu/people/images-landscape/small/faculty/rego.jpg",
+      "officialSections": [
+        "Faculty Directory"
+      ],
+      "researchFields": [
+        "Information Security and Assurance",
+        "Software Engineering",
+        "Distributed Systems"
+      ],
+      "unitUrl": "https://www.cs.purdue.edu/people/faculty/index.html",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Professor | Faculty Directory | Information Security and Assurance · Software Engineering · Distributed Systems | https://www.cs.purdue.edu/people/faculty/rego.html",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "97",
+      "rosterName": "Vinayak A P Rao",
+      "title": "Associate Professor (Courtesy: Statistics)",
+      "profileUrl": "https://www.cs.purdue.edu/people/faculty/varao.html",
+      "portraitUrl": "https://www.cs.purdue.edu/people/images-landscape/small/nophoto.jpg",
+      "officialSections": [
+        "Faculty Directory"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cs.purdue.edu/people/faculty/index.html",
+      "decision": "excluded_non_pi",
+      "reason": "官方职称或名录分组属于教学、兼职、附属、科研支持或其他非独立 PI 岗位。",
+      "evidence": "Associate Professor (Courtesy: Statistics) | Faculty Directory | https://www.cs.purdue.edu/people/faculty/varao.html"
+    },
+    {
+      "officialId": "90",
+      "rosterName": "Voicu S. Popescu",
+      "title": "Associate Professor",
+      "profileUrl": "https://www.cs.purdue.edu/people/faculty/popescu.html",
+      "portraitUrl": "https://www.cs.purdue.edu/people/images-landscape/small/faculty/popescu.jpg",
+      "officialSections": [
+        "Faculty Directory"
+      ],
+      "researchFields": [
+        "Graphics, Visualization, and Geometric Modeling"
+      ],
+      "unitUrl": "https://www.cs.purdue.edu/people/faculty/index.html",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Associate Professor | Faculty Directory | Graphics, Visualization, and Geometric Modeling | https://www.cs.purdue.edu/people/faculty/popescu.html",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "7",
+      "rosterName": "Walid G. Aref",
+      "title": "Professor",
+      "profileUrl": "https://www.cs.purdue.edu/people/faculty/aref.html",
+      "portraitUrl": "https://www.cs.purdue.edu/people/images-landscape/small/faculty/aref.jpg",
+      "officialSections": [
+        "Faculty Directory"
+      ],
+      "researchFields": [
+        "Databases and Data Mining"
+      ],
+      "unitUrl": "https://www.cs.purdue.edu/people/faculty/index.html",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Professor | Faculty Directory | Databases and Data Mining | https://www.cs.purdue.edu/people/faculty/aref.html",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "44",
+      "rosterName": "Walter Gautschi",
+      "title": "Professor Emeritus",
+      "profileUrl": "https://www.cs.purdue.edu/people/faculty/wgautsch.html",
+      "portraitUrl": "https://www.cs.purdue.edu/people/images-landscape/small/faculty/wgautsch.jpg",
+      "officialSections": [
+        "Faculty Directory"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cs.purdue.edu/people/faculty/index.html",
+      "decision": "excluded_historical",
+      "reason": "官方职称或名录分组明确为荣休、退休或历史人员。",
+      "evidence": "Professor Emeritus | Faculty Directory | https://www.cs.purdue.edu/people/faculty/wgautsch.html"
+    },
+    {
+      "officialId": "141",
+      "rosterName": "Wei Zhan",
+      "title": "Assistant Professor",
+      "profileUrl": "https://www.cs.purdue.edu/people/faculty/weizhan.html",
+      "portraitUrl": "https://www.cs.purdue.edu/people/images-landscape/small/nophoto.jpg",
+      "officialSections": [
+        "Faculty Directory"
+      ],
+      "researchFields": [
+        "Theory of Computing, Algorithms, and Quantum Computing"
+      ],
+      "unitUrl": "https://www.cs.purdue.edu/people/faculty/index.html",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Assistant Professor | Faculty Directory | Theory of Computing, Algorithms, and Quantum Computing | https://www.cs.purdue.edu/people/faculty/weizhan.html",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "145",
+      "rosterName": "Weiruo Zhang",
+      "title": "Assistant Professor of Biology and Computer Science",
+      "profileUrl": "https://www.cs.purdue.edu/people/faculty/zhan6033.html",
+      "portraitUrl": "https://www.cs.purdue.edu/people/images-landscape/small/faculty/zhan6033.jpg",
+      "officialSections": [
+        "Faculty Directory"
+      ],
+      "researchFields": [
+        "Artificial Intelligence, Machine Learning, and Natural Language Processing",
+        "Bioinformatics and Computational Biology"
+      ],
+      "unitUrl": "https://www.cs.purdue.edu/people/faculty/index.html",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Assistant Professor of Biology and Computer Science | Faculty Directory | Artificial Intelligence, Machine Learning, and Natural Language Processing · Bioinformatics and Computational Biology | https://www.cs.purdue.edu/people/faculty/zhan6033.html",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "116",
+      "rosterName": "Wenhai Sun",
+      "title": "Associate Professor (Courtesy: Applied and Creative Computing)",
+      "profileUrl": "https://www.cs.purdue.edu/people/faculty/sun841.html",
+      "portraitUrl": "https://www.cs.purdue.edu/people/images-landscape/small/nophoto.jpg",
+      "officialSections": [
+        "Faculty Directory"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cs.purdue.edu/people/faculty/index.html",
+      "decision": "excluded_non_pi",
+      "reason": "官方职称或名录分组属于教学、兼职、附属、科研支持或其他非独立 PI 岗位。",
+      "evidence": "Associate Professor (Courtesy: Applied and Creative Computing) | Faculty Directory | https://www.cs.purdue.edu/people/faculty/sun841.html"
+    },
+    {
+      "officialId": "32",
+      "rosterName": "William N Crum",
+      "title": "Senior Lecturer",
+      "profileUrl": "https://www.cs.purdue.edu/people/faculty/wcrum.html",
+      "portraitUrl": "https://www.cs.purdue.edu/people/images-landscape/small/nophoto.jpg",
+      "officialSections": [
+        "Faculty Directory"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cs.purdue.edu/people/faculty/index.html",
+      "decision": "excluded_non_pi",
+      "reason": "官方职称或名录分组属于教学、兼职、附属、科研支持或其他非独立 PI 岗位。",
+      "evidence": "Senior Lecturer | Faculty Directory | https://www.cs.purdue.edu/people/faculty/wcrum.html"
+    },
+    {
+      "officialId": "117",
+      "rosterName": "Wojciech Szpankowski",
+      "title": "Saul Rosen Distinguished Professor of Computer Science",
+      "profileUrl": "https://www.cs.purdue.edu/people/faculty/szpan.html",
+      "portraitUrl": "https://www.cs.purdue.edu/people/images-landscape/small/faculty/szpan.jpg",
+      "officialSections": [
+        "Faculty Directory"
+      ],
+      "researchFields": [
+        "Bioinformatics and Computational Biology",
+        "Theory of Computing, Algorithms, and Quantum Computing"
+      ],
+      "unitUrl": "https://www.cs.purdue.edu/people/faculty/index.html",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Saul Rosen Distinguished Professor of Computer Science | Faculty Directory | Bioinformatics and Computational Biology · Theory of Computing, Algorithms, and Quantum Computing | https://www.cs.purdue.edu/people/faculty/szpan.html",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "121",
+      "rosterName": "Xavier Tricoche",
+      "title": "Associate Professor",
+      "profileUrl": "https://www.cs.purdue.edu/people/faculty/xmt.html",
+      "portraitUrl": "https://www.cs.purdue.edu/people/images-landscape/small/faculty/xmt.jpg",
+      "officialSections": [
+        "Faculty Directory"
+      ],
+      "researchFields": [
+        "Graphics, Visualization, and Geometric Modeling",
+        "Computational Science and Engineering"
+      ],
+      "unitUrl": "https://www.cs.purdue.edu/people/faculty/index.html",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Associate Professor | Faculty Directory | Graphics, Visualization, and Geometric Modeling · Computational Science and Engineering | https://www.cs.purdue.edu/people/faculty/xmt.html",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "146",
+      "rosterName": "Xiangyu Zhang",
+      "title": "Samuel D. Conte Professor of Computer Science",
+      "profileUrl": "https://www.cs.purdue.edu/people/faculty/xyzhang.html",
+      "portraitUrl": "https://www.cs.purdue.edu/people/images-landscape/small/faculty/xyzhang.jpg",
+      "officialSections": [
+        "Faculty Directory"
+      ],
+      "researchFields": [
+        "Software Engineering",
+        "Programming Languages and Compilers"
+      ],
+      "unitUrl": "https://www.cs.purdue.edu/people/faculty/index.html",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Samuel D. Conte Professor of Computer Science | Faculty Directory | Software Engineering · Programming Languages and Compilers | https://www.cs.purdue.edu/people/faculty/xyzhang.html",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "73",
+      "rosterName": "Xiaojin Liu",
+      "title": "Senior Lecturer",
+      "profileUrl": "https://www.cs.purdue.edu/people/faculty/liu218.html",
+      "portraitUrl": "https://www.cs.purdue.edu/people/images-landscape/small/faculty/liu218.jpg",
+      "officialSections": [
+        "Faculty Directory"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cs.purdue.edu/people/faculty/index.html",
+      "decision": "excluded_non_pi",
+      "reason": "官方职称或名录分组属于教学、兼职、附属、科研支持或其他非独立 PI 岗位。",
+      "evidence": "Senior Lecturer | Faculty Directory | https://www.cs.purdue.edu/people/faculty/liu218.html"
+    },
+    {
+      "officialId": "54",
+      "rosterName": "Y. Charlie Hu",
+      "title": "Professor (Courtesy: Electrical and Computer Engineering)",
+      "profileUrl": "https://www.cs.purdue.edu/people/faculty/ychu.html",
+      "portraitUrl": "https://www.cs.purdue.edu/people/images-landscape/small/faculty/ychu.jpg",
+      "officialSections": [
+        "Faculty Directory"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cs.purdue.edu/people/faculty/index.html",
+      "decision": "excluded_non_pi",
+      "reason": "官方职称或名录分组属于教学、兼职、附属、科研支持或其他非独立 PI 岗位。",
+      "evidence": "Professor (Courtesy: Electrical and Computer Engineering) | Faculty Directory | https://www.cs.purdue.edu/people/faculty/ychu.html"
+    },
+    {
+      "officialId": "137",
+      "rosterName": "Yexiang Xue",
+      "title": "Associate Professor",
+      "profileUrl": "https://www.cs.purdue.edu/people/faculty/yexiang.html",
+      "portraitUrl": "https://www.cs.purdue.edu/people/images-landscape/small/faculty/yexiang.jpg",
+      "officialSections": [
+        "Faculty Directory"
+      ],
+      "researchFields": [
+        "Computational Science and Engineering",
+        "Artificial Intelligence, Machine Learning, and Natural Language Processing",
+        "Theory of Computing, Algorithms, and Quantum Computing"
+      ],
+      "unitUrl": "https://www.cs.purdue.edu/people/faculty/index.html",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Associate Professor | Faculty Directory | Computational Science and Engineering · Artificial Intelligence, Machine Learning, and Natural Language Processing · Theory of Computing, Algorithms, and Quantum Computing | https://www.cs.purdue.edu/people/faculty/yexiang.html",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "147",
+      "rosterName": "Yongle Zhang",
+      "title": "Assistant Professor",
+      "profileUrl": "https://www.cs.purdue.edu/people/faculty/yonglezh.html",
+      "portraitUrl": "https://www.cs.purdue.edu/people/images-landscape/small/faculty/yonglezh.jpg",
+      "officialSections": [
+        "Faculty Directory"
+      ],
+      "researchFields": [
+        "Networking and Operating Systems",
+        "Artificial Intelligence, Machine Learning, and Natural Language Processing",
+        "Software Engineering",
+        "Distributed Systems"
+      ],
+      "unitUrl": "https://www.cs.purdue.edu/people/faculty/index.html",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Assistant Professor | Faculty Directory | Networking and Operating Systems · Artificial Intelligence, Machine Learning, and Natural Language Processing · Software Engineering · Distributed Systems | https://www.cs.purdue.edu/people/faculty/yonglezh.html",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "74",
+      "rosterName": "Yung-Hsiang Lu",
+      "title": "Professor (Courtesy: Electrical and Computer Engineering)",
+      "profileUrl": "https://www.cs.purdue.edu/people/faculty/yunglu.html",
+      "portraitUrl": "https://www.cs.purdue.edu/people/images-landscape/small/faculty/yunglu.jpg",
+      "officialSections": [
+        "Faculty Directory"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cs.purdue.edu/people/faculty/index.html",
+      "decision": "excluded_non_pi",
+      "reason": "官方职称或名录分组属于教学、兼职、附属、科研支持或其他非独立 PI 岗位。",
+      "evidence": "Professor (Courtesy: Electrical and Computer Engineering) | Faculty Directory | https://www.cs.purdue.edu/people/faculty/yunglu.html"
+    },
+    {
+      "officialId": "89",
+      "rosterName": "Yuxiang Peng",
+      "title": "Assistant Professor",
+      "profileUrl": "https://www.cs.purdue.edu/people/faculty/yxpeng.html",
+      "portraitUrl": "https://www.cs.purdue.edu/people/images-landscape/small/nophoto.jpg",
+      "officialSections": [
+        "Faculty Directory"
+      ],
+      "researchFields": [
+        "Computer Architecture",
+        "Programming Languages and Compilers",
+        "Theory of Computing, Algorithms, and Quantum Computing"
+      ],
+      "unitUrl": "https://www.cs.purdue.edu/people/faculty/index.html",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Assistant Professor | Faculty Directory | Computer Architecture · Programming Languages and Compilers · Theory of Computing, Algorithms, and Quantum Computing | https://www.cs.purdue.edu/people/faculty/yxpeng.html",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "26",
+      "rosterName": "Z. Berkay Celik",
+      "title": "Associate Professor",
+      "profileUrl": "https://www.cs.purdue.edu/people/faculty/zcelik.html",
+      "portraitUrl": "https://www.cs.purdue.edu/people/images-landscape/small/faculty/zcelik.jpg",
+      "officialSections": [
+        "Faculty Directory"
+      ],
+      "researchFields": [
+        "Information Security and Assurance",
+        "Networking and Operating Systems",
+        "Artificial Intelligence, Machine Learning, and Natural Language Processing"
+      ],
+      "unitUrl": "https://www.cs.purdue.edu/people/faculty/index.html",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Associate Professor | Faculty Directory | Information Security and Assurance · Networking and Operating Systems · Artificial Intelligence, Machine Learning, and Natural Language Processing | https://www.cs.purdue.edu/people/faculty/zcelik.html",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "66",
+      "rosterName": "Zachary Kingston",
+      "title": "Assistant Professor",
+      "profileUrl": "https://www.cs.purdue.edu/people/faculty/zkingsto.html",
+      "portraitUrl": "https://www.cs.purdue.edu/people/images-landscape/small/faculty/zkingsto.jpg",
+      "officialSections": [
+        "Faculty Directory"
+      ],
+      "researchFields": [
+        "Robotics and Computer Vision",
+        "Artificial Intelligence, Machine Learning, and Natural Language Processing"
+      ],
+      "unitUrl": "https://www.cs.purdue.edu/people/faculty/index.html",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Assistant Professor | Faculty Directory | Robotics and Computer Vision · Artificial Intelligence, Machine Learning, and Natural Language Processing | https://www.cs.purdue.edu/people/faculty/zkingsto.html",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "70",
+      "rosterName": "Zhiyuan Li",
+      "title": "Professor",
+      "profileUrl": "https://www.cs.purdue.edu/people/faculty/ci.html",
+      "portraitUrl": "https://www.cs.purdue.edu/people/images-landscape/small/faculty/ci.jpg",
+      "officialSections": [
+        "Faculty Directory"
+      ],
+      "researchFields": [
+        "Programming Languages and Compilers"
+      ],
+      "unitUrl": "https://www.cs.purdue.edu/people/faculty/index.html",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Professor | Faculty Directory | Programming Languages and Compilers | https://www.cs.purdue.edu/people/faculty/ci.html",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    }
+  ]
+}

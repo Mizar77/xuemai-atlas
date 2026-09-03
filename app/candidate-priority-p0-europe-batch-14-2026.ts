@@ -1,0 +1,53 @@
+import type { GroupMember, Person, Relationship, Source, StudentPlacement } from "./data";
+
+const checkedAt = "2026-09-03";
+const source = (label: string, url: string, kind: Source["kind"], supports: string): Source => ({ label, url, kind, supports, checkedAt });
+const sources = {
+  roster: source("ETH Zurich D-INFK · Faculty", "https://inf.ethz.ch/people/faculty.html", "official", "ETH D-INFK 现任教授名录、职称和研究方向"),
+  kommHome: source("Dennis Komm · academic homepage", "https://people.inf.ethz.ch/dkomm/", "profile", "ETH 教授与 ABZ 负责人现职、RWTH/QUT/ETH 教育、职业经历、研究及共同评阅博士论文"),
+  kommWelcome: source("ETH D-INFK · Welcome Dennis Komm", "https://inf.ethz.ch/news-and-events/spotlights/infk-news-channel/2022/06/welcome-dennis-komm.html", "official", "2022 年获聘副教授、Algorithms and Didactics 组负责人及研究范围"),
+  kommTeam: source("ETH ABZ · Team", "https://abz.inf.ethz.ch/das_abz", "official", "Dennis Komm 为 ABZ 负责人并逐名列出中心团队"),
+  lenglerProfile: source("Johannes Lengler · ETH academic homepage", "https://as.inf.ethz.ch/people/members/lenglerj/index.html", "profile", "ETH 教授身份、Saarland 博士导师与跨数学、计算机、神经科学的研究"),
+  lenglerCv: source("Johannes Lengler · curriculum vitae", "https://as.inf.ethz.ch/people/members/lenglerj/CV_Lengler_23.pdf", "profile", "Saarland 博士、ETH 博后与教授任职、七位博士生共同指导及 Ralph Keusch 学生关系"),
+  jacobsAppointment: source("ETH Board · Jules Jacobs appointed", "https://ethz.ch/en/news-and-events/eth-news/news/2025/12/eleven-professors-appointed.html", "official", "Jules Jacobs 获聘 ETH tenure-track assistant professor、Jane Street 经历与研究方向"),
+  jacobsHome: source("Jules Jacobs · academic homepage", "https://julesjacobs.com/", "profile", "Cornell 博后、Jane Street 访问、研究成果、合作与学生指导记录"),
+  jacobsTraining: source("CMU PoP Seminar · Jules Jacobs", "https://www.cs.cmu.edu/~pop/seminar/2023-06-14-Jacobs/", "official", "Leiden 本科、Radboud 博士以及 Robbert Krebbers 与 Stephanie Balzer 指导关系"),
+  jacobsStudent: source("Radboud University · Menzo van Kessel bachelor thesis", "https://cs.ru.nl/bachelors-theses/2023/Menzo_van_Kessel___1050954___Achieving_multiparty_deadlock-free_communication_through_linear_typing.pdf", "official", "论文扉页明确 Jules Jacobs 为 Menzo van Kessel 的 assistant supervisor"),
+  friedmanProfile: source("Michal Friedman · CORES academic profile", "https://cores.inf.ethz.ch/people/michalfriedman/", "profile", "ETH Assistant Professor、Technion 博士与 Erez Petrank 导师、Gustavo Alonso 博后训练及研究"),
+  friedmanWelcome: source("ETH D-INFK · Welcome Michal Friedman", "https://inf.ethz.ch/news-and-events/spotlights/infk-news-channel/2024/11/welcome-michal-friedman.html", "official", "ETH tenure-track 任职、系统/程序语言/并发研究及产业连接目标"),
+  friedmanTeam: source("CORES @ ETHZ · People", "https://cores.inf.ethz.ch/people/", "official", "Michal Friedman 为 Faculty，并逐名列出博士生、研究科学家与学生"),
+  friedmanTheses: source("CORES @ ETHZ · Theses", "https://cores.inf.ethz.ch/theses/", "official", "逐项列出 Michal Friedman 指导的在研与已完成学位论文"),
+} satisfies Record<string, Source>;
+
+const fact = (label: string, value: string, s: Source) => ({ label, value, source: s });
+type Seed = Omit<Person, "category" | "primary" | "status" | "introducedAt" | "lastVerifiedAt" | "portrait"> & { portraitPath: string; portraitSource: Source };
+const person = (s: Seed): Person => ({ ...s, category: "core", primary: true, status: "current independent PI · official profile verified", introducedAt: checkedAt, lastVerifiedAt: checkedAt, portrait: { src: s.portraitPath, alt: `${s.name} 头像`, source: s.portraitSource } });
+
+export const candidatePriorityP0EuropeBatch14People2026: Person[] = [
+  person({ id: "dennis-komm-eth-p0-2026", name: "Dennis Komm", role: "Associate Professor · Algorithms and Didactics Group Head", institution: "ETH Zurich", region: "Europe", area: "Algorithms · Computer Science Education", tags: ["Algorithms", "Online Algorithms", "CS Education", "Generative AI Education"], summary: "ETH Algorithms and Didactics Group 与 ABZ 负责人，把在线算法、复杂性理论和生成式 AI 教育连接到中小学计算机教育。", stage: "senior", x: 150, y: 240, portraitPath: "portraits/candidate-p0-europe-profile-audit-2026/Europe-ETH-Zurich-denniskomm.jpg", portraitSource: sources.roster, facts: [fact("当前任职", "2022 年起任 ETH Zurich Associate Professor of Algorithms and Didactics，并领导 ABZ。", sources.kommWelcome), fact("教育与学术训练", "在 RWTH Aachen 学习计算机科学与心理学辅修，在 QUT Brisbane 学习信息技术，2008 年获硕士、2012 年获 ETH Zurich 博士。", sources.kommHome), fact("研究主线", "研究近似与在线算法、带建议或预测的决策模型，以及 K–12 计算机科学和生成式 AI 教育。", sources.kommHome), fact("任职经历", "曾任 ETH 博后、讲师和高级科学家，并在 PH Graubünden 任教授和部门负责人。", sources.kommHome), fact("团队建设", "官方 ABZ 页面列出 Dennis Komm 为负责人及中心教学研究团队。", sources.kommTeam)], sources: [sources.roster, sources.kommHome, sources.kommWelcome, sources.kommTeam] }),
+  person({ id: "johannes-lengler-eth-p0-2026", name: "Johannes Lengler", role: "Adjunct Professor · Combinatorial Structures and Algorithms", institution: "ETH Zurich", region: "Europe", area: "Random Graphs · Evolutionary Algorithms · Computational Neuroscience", tags: ["Random Graphs", "Evolutionary Algorithms", "Computational Neuroscience", "Optimization"], summary: "ETH 跨学科算法学者，从代数与概率论转向复杂网络、进化计算、机器学习和计算神经科学。", stage: "senior", x: 360, y: 240, portraitPath: "portraits/candidate-p0-europe-profile-audit-2026/Europe-ETH-Zurich-johanneslengler.jpg", portraitSource: sources.roster, facts: [fact("当前任职", "2023 年起任 ETH Zurich Adjunct Professor，此前长期任研究员和高级研究员。", sources.lenglerCv), fact("教育与学术训练", "2009 年在 Saarland University 获数学博士（summa cum laude），导师为 Ernst-Ulrich Gekeler，之后在 Saarland 与 ETH 从事博士后研究。", sources.lenglerCv), fact("研究主线", "研究随机图、进化算法、计算神经科学与机器学习，强调连接数学、计算机科学和神经科学。", sources.lenglerProfile), fact("学生体系", "官方 CV 记录其共同指导过七位博士生，并明确称 Ralph Keusch 为其博士生。", sources.lenglerCv), fact("跨院服务", "2018–2022 年运行 D-INFK Algorithm Consulting Service，将算法组知识支持到 ETH 其他院系。", sources.lenglerCv)], sources: [sources.roster, sources.lenglerProfile, sources.lenglerCv] }),
+  person({ id: "jules-jacobs-eth-p0-2026", name: "Jules Jacobs", role: "Tenure-Track Assistant Professor · Theoretical Computer Systems", institution: "ETH Zurich", region: "Europe", area: "Formal Verification · Programming Languages · Type Theory", tags: ["Formal Verification", "Programming Languages", "Type Theory", "Probabilistic Programming"], summary: "ETH 新任理论计算系统教授，研究形式验证、程序逻辑与类型系统，履历连接 Radboud、Cornell、Jane Street 和 ETH。", stage: "emerging", x: 570, y: 240, portraitPath: "portraits/candidate-p0-europe-profile-audit-2026/Europe-ETH-Zurich-julesjacobs.jpg", portraitSource: sources.roster, facts: [fact("当前任职", "2026 年 9 月起任 ETH Zurich Tenure-Track Assistant Professor of Theoretical Computer Systems。", sources.jacobsAppointment), fact("教育与学术训练", "在 Leiden University 完成本科，在 Radboud University 攻读博士，由 Robbert Krebbers 与 Stephanie Balzer 指导。", sources.jacobsTraining), fact("研究主线", "研究形式验证、程序逻辑、类型理论、概率编程与证明助手，关注把理论落实为可用工具。", sources.jacobsAppointment), fact("任职经历", "曾在 Cornell University 与 Alexandra Silva、Nate Foster 从事博士后研究，随后在 Jane Street 任访问研究员。", sources.jacobsHome), fact("指导记录", "Radboud 本科论文扉页明确记录 Jules Jacobs 为 Menzo van Kessel 的 assistant supervisor。", sources.jacobsStudent)], sources: [sources.roster, sources.jacobsAppointment, sources.jacobsHome, sources.jacobsTraining, sources.jacobsStudent] }),
+  person({ id: "michal-friedman-eth-p0-2026", name: "Michal Friedman", role: "Assistant Professor · CORES Lab Head", institution: "ETH Zurich", region: "Europe", area: "Concurrent Systems · Programming Languages · Sustainable Computing", tags: ["Systems", "Concurrency", "Programming Languages", "Sustainable Computing"], summary: "ETH Concurrent and Resilient Systems Lab 负责人，以软件硬件协同设计构建高效、正确且可持续的新一代并发系统。", stage: "emerging", x: 780, y: 240, portraitPath: "portraits/candidate-p0-europe-profile-audit-2026/Europe-ETH-Zurich-michalfriedman.jpg", portraitSource: sources.roster, facts: [fact("当前任职", "ETH Zurich Systems Group Assistant Professor，并领导 Concurrent and Resilient Systems Lab。", sources.friedmanProfile), fact("教育与学术训练", "在 Technion 获计算机科学学士和博士，博士导师为 Erez Petrank；之后在 ETH Systems Group 随 Gustavo Alonso 从事博士后研究。", sources.friedmanProfile), fact("研究主线", "研究并发计算、程序语言、可持续计算和新兴硬件的软件硬件协同设计。", sources.friedmanProfile), fact("学术荣誉", "博士阶段获 Azrieli Graduate Studies Fellowship、Blavatnik Prize，并以持久化并发数据结构研究获 distinguished paper。", sources.friedmanProfile), fact("学生体系", "CORES 官方页面逐名列出当前博士生、研究科学家和学生，并维护在研与已完成论文指导清单。", sources.friedmanTheses)], sources: [sources.roster, sources.friedmanProfile, sources.friedmanWelcome, sources.friedmanTeam, sources.friedmanTheses] }),
+];
+
+export const candidatePriorityP0EuropeBatch14Relationships2026: Relationship[] = [];
+export const candidatePriorityP0EuropeBatch14Placements2026: StudentPlacement[] = [];
+export const candidatePriorityP0EuropeBatch14GroupMembers2026: GroupMember[] = [
+  { id: "p0-eu14-komm-angelica-herrera", teacherId: "dennis-komm-eth-p0-2026", name: "Angélica Herrera", role: "ABZ Director · current team member", focus: "Computer science education", source: sources.kommTeam },
+  { id: "p0-eu14-lengler-ralph-keusch", teacherId: "johannes-lengler-eth-p0-2026", name: "Ralph Keusch", role: "Former PhD student", focus: "Geometric inhomogeneous random graphs", source: sources.lenglerCv },
+  { id: "p0-eu14-jacobs-menzo-van-kessel", teacherId: "jules-jacobs-eth-p0-2026", name: "Menzo van Kessel", role: "Former bachelor thesis student · assistant supervisor Jules Jacobs", focus: "Deadlock-free communication and linear typing", source: sources.jacobsStudent },
+  { id: "p0-eu14-friedman-moritz-lumme", teacherId: "michal-friedman-eth-p0-2026", name: "Moritz Lumme", role: "Current doctoral student", focus: "Concurrent and resilient systems", source: sources.friedmanTeam },
+];
+
+export const candidatePriorityP0EuropeBatch14RosterPromotions2026 = [
+  { unitUrl: "https://inf.ethz.ch/people/faculty.html", rosterName: "Dennis Komm", atlasPersonId: "dennis-komm-eth-p0-2026" },
+  { unitUrl: "https://inf.ethz.ch/people/faculty.html", rosterName: "Johannes Lengler", atlasPersonId: "johannes-lengler-eth-p0-2026" },
+  { unitUrl: "https://inf.ethz.ch/people/faculty.html", rosterName: "Jules Jacobs", atlasPersonId: "jules-jacobs-eth-p0-2026" },
+  { unitUrl: "https://inf.ethz.ch/people/faculty.html", rosterName: "Michal Friedman", atlasPersonId: "michal-friedman-eth-p0-2026" },
+] as const;
+
+export const people = candidatePriorityP0EuropeBatch14People2026;
+export const relationships = candidatePriorityP0EuropeBatch14Relationships2026;
+export const placements = candidatePriorityP0EuropeBatch14Placements2026;
+export const groupMembers = candidatePriorityP0EuropeBatch14GroupMembers2026;
+export const rosterPromotions = candidatePriorityP0EuropeBatch14RosterPromotions2026;

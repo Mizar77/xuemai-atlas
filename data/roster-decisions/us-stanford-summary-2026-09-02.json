@@ -1,0 +1,61 @@
+{
+  "schemaVersion": 1,
+  "snapshotAt": "2026-09-02",
+  "scope": "Stanford CS, Stanford EE and Stanford AI Lab",
+  "units": {
+    "stanford-cs": {
+      "officialRosterCount": 95,
+      "decisionCount": 95,
+      "counts": {
+        "pending_profile_verification": 42,
+        "include_new_pi": 15,
+        "included_existing": 24,
+        "excluded_non_pi": 8,
+        "excluded_historical": 6
+      },
+      "outputPath": "data/roster-decisions/stanford-cs-2026-09-02.json"
+    },
+    "stanford-ee": {
+      "officialRosterCount": 150,
+      "decisionCount": 150,
+      "counts": {
+        "excluded_duplicate": 20,
+        "include_new_pi": 27,
+        "excluded_non_pi": 46,
+        "excluded_non_ai_cs": 16,
+        "excluded_historical": 39,
+        "pending_profile_verification": 1,
+        "included_existing": 1
+      },
+      "outputPath": "data/roster-decisions/stanford-ee-2026-09-02.json"
+    },
+    "stanford-sail": {
+      "officialRosterCount": 63,
+      "decisionCount": 63,
+      "counts": {
+        "excluded_duplicate": 39,
+        "include_new_pi": 7,
+        "included_existing": 4,
+        "excluded_industry_only": 5,
+        "excluded_non_pi": 2,
+        "excluded_non_ai_cs": 1,
+        "excluded_historical": 5
+      },
+      "outputPath": "data/roster-decisions/stanford-sail-2026-09-02.json"
+    }
+  },
+  "totals": {
+    "officialRosterCount": 308,
+    "decisionCount": 308,
+    "counts": {
+      "pending_profile_verification": 43,
+      "include_new_pi": 49,
+      "included_existing": 29,
+      "excluded_non_pi": 56,
+      "excluded_historical": 50,
+      "excluded_duplicate": 59,
+      "excluded_non_ai_cs": 17,
+      "excluded_industry_only": 5
+    }
+  }
+}

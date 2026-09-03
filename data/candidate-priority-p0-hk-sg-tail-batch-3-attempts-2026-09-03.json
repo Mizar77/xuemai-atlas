@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-03",
+  "attemptedCount": 6,
+  "readyCount": 6,
+  "blockedAttemptedCount": 0,
+  "notAttemptedAfterCheckpoint": 250,
+  "attempts": [
+    { "name": "Heming Cui", "result": "ready", "checked": ["HKU official profile", "HKU academic staff roster", "first-party academic homepage"] },
+    { "name": "Chuan Wu", "result": "ready", "checked": ["HKU official profile", "HKU academic staff roster", "first-party academic homepage", "first-party team and alumni page"] },
+    { "name": "Chenshu Wu", "result": "ready", "checked": ["HKU official profile", "HKU academic staff roster", "first-party AIoT Lab people page"] },
+    { "name": "Tak-Wah Lam", "result": "ready", "checked": ["HKU official profile", "HKU academic staff roster", "first-party academic homepage and PhD tracking list"] },
+    { "name": "Roy Lee", "result": "ready", "checked": ["SUTD official profile", "SUTD ISTD faculty roster", "SUTD official selected-publications list"] },
+    { "name": "Peng Song", "result": "ready", "checked": ["SUTD official profile", "SUTD ISTD faculty roster", "SUTD official selected-publications list"] }
+  ],
+  "remainingBlockers": {
+    "missing_portrait": 39,
+    "missing_relationship": 211,
+    "byRegion": {
+      "Hong Kong": { "missing_portrait": 16, "missing_relationship": 98 },
+      "Singapore": { "missing_portrait": 23, "missing_relationship": 113 }
+    },
+    "note": "Unattempted records preserve their original master-ledger disposition."
+  }
+}

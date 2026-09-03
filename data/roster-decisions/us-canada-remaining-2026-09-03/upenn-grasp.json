@@ -1,0 +1,700 @@
+{
+  "schemaVersion": 1,
+  "unitId": "upenn-grasp",
+  "unitLabel": "University of Pennsylvania GRASP Laboratory",
+  "unitUrl": "https://www.grasp.upenn.edu/role/faculty/",
+  "snapshotAt": "2026-09-03",
+  "rosterArtifact": "data/official-rosters/upenn-grasp-faculty-2026-09-02.json",
+  "frozenOfficialRosterCount": 42,
+  "rawRosterRowCount": 42,
+  "duplicateRosterCardCount": 0,
+  "deduplicatedRosterPersonCount": 42,
+  "decisionCount": 42,
+  "counts": {
+    "excluded_non_pi": 4,
+    "include_new_pi": 34,
+    "included_existing": 4
+  },
+  "decisions": [
+    {
+      "officialId": "30454",
+      "rosterName": "Antonio Loquercio",
+      "title": null,
+      "profileUrl": "https://www.grasp.upenn.edu/people/antonio-loquercio/",
+      "portraitUrl": "https://www.grasp.upenn.edu/wp-content/uploads/2024/08/PennEng_082124-23-scaled.jpg",
+      "officialSections": [
+        "Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.grasp.upenn.edu/role/faculty/",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Faculty | https://www.grasp.upenn.edu/people/antonio-loquercio/",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "12452",
+      "rosterName": "Camillo J. Taylor",
+      "title": null,
+      "profileUrl": "https://www.grasp.upenn.edu/people/camillo-j-taylor/",
+      "portraitUrl": "https://www.grasp.upenn.edu/wp-content/uploads/2020/12/1000012246.jpg",
+      "officialSections": [
+        "Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.grasp.upenn.edu/role/faculty/",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Faculty | https://www.grasp.upenn.edu/people/camillo-j-taylor/",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "11779",
+      "rosterName": "Cynthia Sung",
+      "title": null,
+      "profileUrl": "https://www.grasp.upenn.edu/people/cynthia-sung/",
+      "portraitUrl": "https://www.grasp.upenn.edu/wp-content/uploads/2020/12/Sung_profile-1.jpg",
+      "officialSections": [
+        "Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.grasp.upenn.edu/role/faculty/",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Faculty | https://www.grasp.upenn.edu/people/cynthia-sung/",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "24871",
+      "rosterName": "Daniel Hashimoto",
+      "title": null,
+      "profileUrl": "https://www.grasp.upenn.edu/people/daniel-hashimoto/",
+      "portraitUrl": "https://www.grasp.upenn.edu/wp-content/uploads/2023/01/Hashimoto_Daniel_Business_Web-1.jpg",
+      "officialSections": [
+        "Secondary"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.grasp.upenn.edu/role/faculty/",
+      "decision": "excluded_non_pi",
+      "reason": "冻结官方名录未提供可确认现任独立 PI 的教授或 faculty 职称。",
+      "evidence": "Secondary | https://www.grasp.upenn.edu/people/daniel-hashimoto/"
+    },
+    {
+      "officialId": "11430",
+      "rosterName": "Dinesh Jayaraman",
+      "title": null,
+      "profileUrl": "https://www.grasp.upenn.edu/people/dinesh-jayaraman/",
+      "portraitUrl": "https://www.grasp.upenn.edu/wp-content/uploads/2020/12/avatar-1-scaled.jpg",
+      "officialSections": [
+        "Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.grasp.upenn.edu/role/faculty/",
+      "decision": "included_existing",
+      "atlasPersonId": "dinesh-jayaraman-foundational",
+      "reason": "符合范围，且规范化姓名可与当前图谱人物唯一匹配。",
+      "evidence": "Faculty | https://www.grasp.upenn.edu/people/dinesh-jayaraman/"
+    },
+    {
+      "officialId": "26653",
+      "rosterName": "Douglas Jerolmack",
+      "title": null,
+      "profileUrl": "https://www.grasp.upenn.edu/people/douglas-jerolmack/",
+      "portraitUrl": "https://www.grasp.upenn.edu/wp-content/uploads/2023/07/Jerolmack-Doug-directory.jpeg",
+      "officialSections": [
+        "Faculty",
+        "Secondary"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.grasp.upenn.edu/role/faculty/",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Faculty · Secondary | https://www.grasp.upenn.edu/people/douglas-jerolmack/",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "12424",
+      "rosterName": "Elena Bernardis",
+      "title": null,
+      "profileUrl": "https://www.grasp.upenn.edu/people/elena-bernardis/",
+      "portraitUrl": "https://www.grasp.upenn.edu/wp-content/uploads/2020/12/Elena-Bernardis-1-scaled.jpg",
+      "officialSections": [
+        "Faculty",
+        "Secondary"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.grasp.upenn.edu/role/faculty/",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Faculty · Secondary | https://www.grasp.upenn.edu/people/elena-bernardis/",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "12081",
+      "rosterName": "Eric Eaton",
+      "title": null,
+      "profileUrl": "https://www.grasp.upenn.edu/people/eric-eaton/",
+      "portraitUrl": "https://www.grasp.upenn.edu/wp-content/uploads/2020/12/EricEaton-cropped.jpg",
+      "officialSections": [
+        "Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.grasp.upenn.edu/role/faculty/",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Faculty | https://www.grasp.upenn.edu/people/eric-eaton/",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "12434",
+      "rosterName": "George Pappas",
+      "title": null,
+      "profileUrl": "https://www.grasp.upenn.edu/people/george-pappas/",
+      "portraitUrl": "https://www.grasp.upenn.edu/wp-content/uploads/2020/12/Pappas-2691-1.jpg",
+      "officialSections": [
+        "Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.grasp.upenn.edu/role/faculty/",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Faculty | https://www.grasp.upenn.edu/people/george-pappas/",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "12322",
+      "rosterName": "James Gee",
+      "title": null,
+      "profileUrl": "https://www.grasp.upenn.edu/people/james-gee/",
+      "portraitUrl": "https://www.grasp.upenn.edu/wp-content/uploads/2020/12/James-Gee-1-1.jpg",
+      "officialSections": [
+        "Faculty",
+        "Secondary"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.grasp.upenn.edu/role/faculty/",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Faculty · Secondary | https://www.grasp.upenn.edu/people/james-gee/",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "12446",
+      "rosterName": "Jean Gallier",
+      "title": null,
+      "profileUrl": "https://www.grasp.upenn.edu/people/jean-gallier/",
+      "portraitUrl": "https://www.grasp.upenn.edu/wp-content/uploads/2020/12/Gallier-9871-1.jpg",
+      "officialSections": [
+        "Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.grasp.upenn.edu/role/faculty/",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Faculty | https://www.grasp.upenn.edu/people/jean-gallier/",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "12432",
+      "rosterName": "Jianbo Shi",
+      "title": null,
+      "profileUrl": "https://www.grasp.upenn.edu/people/jianbo-shi/",
+      "portraitUrl": "https://www.grasp.upenn.edu/wp-content/uploads/2020/12/Shi-2631-1.jpg",
+      "officialSections": [
+        "Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.grasp.upenn.edu/role/faculty/",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Faculty | https://www.grasp.upenn.edu/people/jianbo-shi/",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "32152",
+      "rosterName": "Jiatao Gu",
+      "title": null,
+      "profileUrl": "https://www.grasp.upenn.edu/people/jiatao-gu/",
+      "portraitUrl": "https://www.grasp.upenn.edu/wp-content/uploads/2025/06/image-768x767-1.png",
+      "officialSections": [
+        "Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.grasp.upenn.edu/role/faculty/",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Faculty | https://www.grasp.upenn.edu/people/jiatao-gu/",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "35846",
+      "rosterName": "Jiayuan Mao",
+      "title": null,
+      "profileUrl": "https://www.grasp.upenn.edu/people/jiayuan-mao/",
+      "portraitUrl": "https://www.grasp.upenn.edu/wp-content/uploads/2026/07/avatar20.jpg",
+      "officialSections": [
+        "Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.grasp.upenn.edu/role/faculty/",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Faculty | https://www.grasp.upenn.edu/people/jiayuan-mao/",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "29433",
+      "rosterName": "Jordan Raney",
+      "title": null,
+      "profileUrl": "https://www.grasp.upenn.edu/people/jordan-raney/",
+      "portraitUrl": "https://www.grasp.upenn.edu/wp-content/uploads/2024/02/image-1.png",
+      "officialSections": [
+        "Secondary"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.grasp.upenn.edu/role/faculty/",
+      "decision": "excluded_non_pi",
+      "reason": "冻结官方名录未提供可确认现任独立 PI 的教授或 faculty 职称。",
+      "evidence": "Secondary | https://www.grasp.upenn.edu/people/jordan-raney/"
+    },
+    {
+      "officialId": "29671",
+      "rosterName": "Kevin T. Turner",
+      "title": null,
+      "profileUrl": "https://www.grasp.upenn.edu/people/kevin-t-turner/",
+      "portraitUrl": "https://www.grasp.upenn.edu/wp-content/uploads/2024/03/turner-kevin.jpg",
+      "officialSections": [
+        "Secondary"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.grasp.upenn.edu/role/faculty/",
+      "decision": "excluded_non_pi",
+      "reason": "冻结官方名录未提供可确认现任独立 PI 的教授或 faculty 职称。",
+      "evidence": "Secondary | https://www.grasp.upenn.edu/people/kevin-t-turner/"
+    },
+    {
+      "officialId": "12448",
+      "rosterName": "Kostas Daniilidis",
+      "title": null,
+      "profileUrl": "https://www.grasp.upenn.edu/people/kostas-daniilidis/",
+      "portraitUrl": "https://www.grasp.upenn.edu/wp-content/uploads/2020/12/Kostas-Daniilidis-scaled.jpg",
+      "officialSections": [
+        "Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.grasp.upenn.edu/role/faculty/",
+      "decision": "included_existing",
+      "atlasPersonId": "kostas-daniilidis-lineage",
+      "reason": "符合范围，且规范化姓名可与当前图谱人物唯一匹配。",
+      "evidence": "Faculty | https://www.grasp.upenn.edu/people/kostas-daniilidis/"
+    },
+    {
+      "officialId": "25414",
+      "rosterName": "Lingjie Liu",
+      "title": null,
+      "profileUrl": "https://www.grasp.upenn.edu/people/lingjie-liu/",
+      "portraitUrl": "https://www.grasp.upenn.edu/wp-content/uploads/2023/02/IMG_0901_crop.jpg",
+      "officialSections": [
+        "Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.grasp.upenn.edu/role/faculty/",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Faculty | https://www.grasp.upenn.edu/people/lingjie-liu/",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "12416",
+      "rosterName": "M. Ani Hsieh",
+      "title": null,
+      "profileUrl": "https://www.grasp.upenn.edu/people/ani-hsieh/",
+      "portraitUrl": "https://www.grasp.upenn.edu/wp-content/uploads/2020/12/Ani_Hsieh_2017_headshot1-1-scaled.jpg",
+      "officialSections": [
+        "Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.grasp.upenn.edu/role/faculty/",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Faculty | https://www.grasp.upenn.edu/people/ani-hsieh/",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "11532",
+      "rosterName": "Marc Miskin",
+      "title": null,
+      "profileUrl": "https://www.grasp.upenn.edu/people/marc-miskin/",
+      "portraitUrl": "https://www.grasp.upenn.edu/wp-content/uploads/2020/12/headshot-1-2-scaled.jpg",
+      "officialSections": [
+        "Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.grasp.upenn.edu/role/faculty/",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Faculty | https://www.grasp.upenn.edu/people/marc-miskin/",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "28517",
+      "rosterName": "Mark Yatskar",
+      "title": null,
+      "profileUrl": "https://www.grasp.upenn.edu/people/mark-yatskar/",
+      "portraitUrl": "https://www.grasp.upenn.edu/wp-content/uploads/2023/11/Yatskar-Mark-directory.jpg",
+      "officialSections": [
+        "Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.grasp.upenn.edu/role/faculty/",
+      "decision": "included_existing",
+      "atlasPersonId": "mark-yatskar-upenn-award",
+      "reason": "符合范围，且规范化姓名可与当前图谱人物唯一匹配。",
+      "evidence": "Faculty | https://www.grasp.upenn.edu/people/mark-yatskar/"
+    },
+    {
+      "officialId": "12430",
+      "rosterName": "Mark Yim",
+      "title": null,
+      "profileUrl": "https://www.grasp.upenn.edu/people/mark-yim/",
+      "portraitUrl": "https://www.grasp.upenn.edu/wp-content/uploads/2020/12/mypic2018-1.jpg",
+      "officialSections": [
+        "Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.grasp.upenn.edu/role/faculty/",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Faculty | https://www.grasp.upenn.edu/people/mark-yim/",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "17188",
+      "rosterName": "Masoud Akbarzadeh",
+      "title": null,
+      "profileUrl": "https://www.grasp.upenn.edu/people/masoud-akbarzadeh/",
+      "portraitUrl": "https://www.grasp.upenn.edu/wp-content/uploads/2021/06/20201202_MAkbarzadeh_221_penn-scaled.jpeg",
+      "officialSections": [
+        "Faculty",
+        "Secondary"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.grasp.upenn.edu/role/faculty/",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Faculty · Secondary | https://www.grasp.upenn.edu/people/masoud-akbarzadeh/",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "11688",
+      "rosterName": "Michael Posa",
+      "title": null,
+      "profileUrl": "https://www.grasp.upenn.edu/people/michael-posa/",
+      "portraitUrl": "https://www.grasp.upenn.edu/wp-content/uploads/2020/12/Michael-Posa-1-e1684350937162.jpg",
+      "officialSections": [
+        "Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.grasp.upenn.edu/role/faculty/",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Faculty | https://www.grasp.upenn.edu/people/michael-posa/",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "12008",
+      "rosterName": "Michelle Johnson",
+      "title": null,
+      "profileUrl": "https://www.grasp.upenn.edu/people/michelle-johnson/",
+      "portraitUrl": "https://www.grasp.upenn.edu/wp-content/uploads/2020/12/5a83f27b-ae63-4f70-9159-bbb3cc40e9bd-Michelle-Johnson.jpeg",
+      "officialSections": [
+        "Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.grasp.upenn.edu/role/faculty/",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Faculty | https://www.grasp.upenn.edu/people/michelle-johnson/",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "35856",
+      "rosterName": "Mingmin Zhao",
+      "title": null,
+      "profileUrl": "https://www.grasp.upenn.edu/people/mingmin-zhao/",
+      "portraitUrl": "https://www.grasp.upenn.edu/wp-content/uploads/2026/07/mingmin_ruc.png",
+      "officialSections": [
+        "Faculty",
+        "Secondary"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.grasp.upenn.edu/role/faculty/",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Faculty · Secondary | https://www.grasp.upenn.edu/people/mingmin-zhao/",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "21971",
+      "rosterName": "Nadia Figueroa",
+      "title": null,
+      "profileUrl": "https://www.grasp.upenn.edu/people/nadia-figueroa/",
+      "portraitUrl": "https://www.grasp.upenn.edu/wp-content/uploads/2022/02/Figueroa-Headshot-e1644945883879.jpg",
+      "officialSections": [
+        "Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.grasp.upenn.edu/role/faculty/",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Faculty | https://www.grasp.upenn.edu/people/nadia-figueroa/",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "32146",
+      "rosterName": "Nat Trask",
+      "title": null,
+      "profileUrl": "https://www.grasp.upenn.edu/people/nat-trask/",
+      "portraitUrl": "https://www.grasp.upenn.edu/wp-content/uploads/2025/08/Trask_Nat-2023-Directory-scaled-e1695845859127.jpeg",
+      "officialSections": [
+        "Faculty",
+        "Secondary"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.grasp.upenn.edu/role/faculty/",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Faculty · Secondary | https://www.grasp.upenn.edu/people/nat-trask/",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "30590",
+      "rosterName": "Nathaniel Wei",
+      "title": null,
+      "profileUrl": "https://www.grasp.upenn.edu/people/nathaniel-wei/",
+      "portraitUrl": "https://www.grasp.upenn.edu/wp-content/uploads/2024/09/Wei-Nathan-1-scaled.jpg",
+      "officialSections": [
+        "Faculty",
+        "Secondary"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.grasp.upenn.edu/role/faculty/",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Faculty · Secondary | https://www.grasp.upenn.edu/people/nathaniel-wei/",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "11497",
+      "rosterName": "Nikolai Matni",
+      "title": null,
+      "profileUrl": "https://www.grasp.upenn.edu/people/nikolai-matni/",
+      "portraitUrl": "https://www.grasp.upenn.edu/wp-content/uploads/2020/12/unnamed-1.jpg",
+      "officialSections": [
+        "Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.grasp.upenn.edu/role/faculty/",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Faculty | https://www.grasp.upenn.edu/people/nikolai-matni/",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "15734",
+      "rosterName": "Pamela Cacchione",
+      "title": null,
+      "profileUrl": "https://www.grasp.upenn.edu/people/pamela-cacchione/",
+      "portraitUrl": "https://www.grasp.upenn.edu/wp-content/uploads/2021/06/Cacchione-headshot.png",
+      "officialSections": [
+        "Faculty",
+        "Secondary"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.grasp.upenn.edu/role/faculty/",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Faculty · Secondary | https://www.grasp.upenn.edu/people/pamela-cacchione/",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "32148",
+      "rosterName": "Paris Perdikaris",
+      "title": null,
+      "profileUrl": "https://www.grasp.upenn.edu/people/paris-perdikaris/",
+      "portraitUrl": "https://www.grasp.upenn.edu/wp-content/uploads/2025/06/P1148748-1.jpg",
+      "officialSections": [
+        "Faculty",
+        "Secondary"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.grasp.upenn.edu/role/faculty/",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Faculty · Secondary | https://www.grasp.upenn.edu/people/paris-perdikaris/",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "11554",
+      "rosterName": "Pratik Chaudhari",
+      "title": null,
+      "profileUrl": "https://www.grasp.upenn.edu/people/pratik-chaudhari/",
+      "portraitUrl": "https://www.grasp.upenn.edu/wp-content/uploads/2020/12/headshot-1.jpg",
+      "officialSections": [
+        "Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.grasp.upenn.edu/role/faculty/",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Faculty | https://www.grasp.upenn.edu/people/pratik-chaudhari/",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "30419",
+      "rosterName": "Rachel Holladay",
+      "title": null,
+      "profileUrl": "https://www.grasp.upenn.edu/people/rachel-holladay/",
+      "portraitUrl": "https://www.grasp.upenn.edu/wp-content/uploads/2024/08/headshot_square.jpg",
+      "officialSections": [
+        "Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.grasp.upenn.edu/role/faculty/",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Faculty | https://www.grasp.upenn.edu/people/rachel-holladay/",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "19915",
+      "rosterName": "Rahul Mangharam",
+      "title": null,
+      "profileUrl": "https://www.grasp.upenn.edu/people/rahul-mangharam/",
+      "portraitUrl": "https://www.grasp.upenn.edu/wp-content/uploads/2021/08/rahul_mangharam_lowres-1.jpg",
+      "officialSections": [
+        "Faculty",
+        "Secondary"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.grasp.upenn.edu/role/faculty/",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Faculty · Secondary | https://www.grasp.upenn.edu/people/rahul-mangharam/",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "26038",
+      "rosterName": "René Vidal",
+      "title": null,
+      "profileUrl": "https://www.grasp.upenn.edu/people/rene-vidal/",
+      "portraitUrl": "https://www.grasp.upenn.edu/wp-content/uploads/2023/05/Vidal_Rene_Photo-e1666973953718.jpg",
+      "officialSections": [
+        "Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.grasp.upenn.edu/role/faculty/",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Faculty | https://www.grasp.upenn.edu/people/rene-vidal/",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "12444",
+      "rosterName": "Robert Ghrist",
+      "title": null,
+      "profileUrl": "https://www.grasp.upenn.edu/people/robert-ghrist/",
+      "portraitUrl": "https://www.grasp.upenn.edu/wp-content/uploads/2020/12/Ghrist-Robert-67971-1.jpg",
+      "officialSections": [
+        "Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.grasp.upenn.edu/role/faculty/",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Faculty | https://www.grasp.upenn.edu/people/robert-ghrist/",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "19807",
+      "rosterName": "Robert Stuart-Smith",
+      "title": null,
+      "profileUrl": "https://www.grasp.upenn.edu/people/robert-stuart-smith/",
+      "portraitUrl": "https://www.grasp.upenn.edu/wp-content/uploads/2021/06/robertstuart-smith_L-1-scaled.jpg",
+      "officialSections": [
+        "Secondary"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.grasp.upenn.edu/role/faculty/",
+      "decision": "excluded_non_pi",
+      "reason": "冻结官方名录未提供可确认现任独立 PI 的教授或 faculty 职称。",
+      "evidence": "Secondary | https://www.grasp.upenn.edu/people/robert-stuart-smith/"
+    },
+    {
+      "officialId": "17275",
+      "rosterName": "Ruzena Bajcsy",
+      "title": null,
+      "profileUrl": "https://www.grasp.upenn.edu/people/ruzena-bajcsy/",
+      "portraitUrl": "https://www.grasp.upenn.edu/wp-content/uploads/2021/04/bajcsy-scaled.jpeg",
+      "officialSections": [
+        "Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.grasp.upenn.edu/role/faculty/",
+      "decision": "included_existing",
+      "atlasPersonId": "ruzena-bajcsy-historical",
+      "reason": "符合范围，且规范化姓名可与当前图谱人物唯一匹配。",
+      "evidence": "Faculty | https://www.grasp.upenn.edu/people/ruzena-bajcsy/"
+    },
+    {
+      "officialId": "11332",
+      "rosterName": "Shu Yang",
+      "title": null,
+      "profileUrl": "https://www.grasp.upenn.edu/people/shu-yang/",
+      "portraitUrl": "https://www.grasp.upenn.edu/wp-content/uploads/2020/12/yang-shu.jpg",
+      "officialSections": [
+        "Faculty",
+        "Secondary"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.grasp.upenn.edu/role/faculty/",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Faculty · Secondary | https://www.grasp.upenn.edu/people/shu-yang/",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "15701",
+      "rosterName": "Simon Kim",
+      "title": null,
+      "profileUrl": "https://www.grasp.upenn.edu/people/simon-kim/",
+      "portraitUrl": "https://www.grasp.upenn.edu/wp-content/uploads/2021/01/Simon-Kim-1.jpg",
+      "officialSections": [
+        "Faculty",
+        "Secondary"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.grasp.upenn.edu/role/faculty/",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Faculty · Secondary | https://www.grasp.upenn.edu/people/simon-kim/",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "12456",
+      "rosterName": "Vijay Kumar",
+      "title": null,
+      "profileUrl": "https://www.grasp.upenn.edu/people/vijay-kumar/",
+      "portraitUrl": "https://www.grasp.upenn.edu/wp-content/uploads/2020/12/Kumar-1801-1.jpg",
+      "officialSections": [
+        "Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.grasp.upenn.edu/role/faculty/",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Faculty | https://www.grasp.upenn.edu/people/vijay-kumar/",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    }
+  ]
+}

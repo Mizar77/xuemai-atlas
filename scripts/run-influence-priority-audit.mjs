@@ -1,4 +1,8 @@
 import { build } from "esbuild";
+import { mkdtemp, rm, writeFile } from "node:fs/promises";
+import { tmpdir } from "node:os";
+import { join } from "node:path";
+import { pathToFileURL } from "node:url";
 
 const result = await build({
   entryPoints: ["scripts/audit-influence-priorities.ts"],
@@ -9,4 +13,11 @@ const result = await build({
   logLevel: "silent",
 });
 
-await import(`data:text/javascript;base64,${Buffer.from(result.outputFiles[0].text).toString("base64")}`);
+const temporaryDirectory = await mkdtemp(join(tmpdir(), "xuemai-influence-audit-"));
+const bundlePath = join(temporaryDirectory, "audit.mjs");
+try {
+  await writeFile(bundlePath, result.outputFiles[0].text);
+  await import(pathToFileURL(bundlePath).href);
+} finally {
+  await rm(temporaryDirectory, { recursive: true, force: true });
+}

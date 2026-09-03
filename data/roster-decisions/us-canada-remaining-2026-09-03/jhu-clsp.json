@@ -1,0 +1,493 @@
+{
+  "schemaVersion": 1,
+  "unitId": "jhu-clsp",
+  "unitLabel": "Johns Hopkins Center for Language and Speech Processing",
+  "unitUrl": "https://www.clsp.jhu.edu/faculty/",
+  "snapshotAt": "2026-09-03",
+  "rosterArtifact": "data/official-rosters/jhu-clsp-current-faculty-2026-09-02.json",
+  "frozenOfficialRosterCount": 30,
+  "rawRosterRowCount": 30,
+  "duplicateRosterCardCount": 0,
+  "deduplicatedRosterPersonCount": 30,
+  "decisionCount": 30,
+  "counts": {
+    "excluded_historical": 1,
+    "excluded_non_pi": 5,
+    "include_new_pi": 18,
+    "included_existing": 6
+  },
+  "decisions": [
+    {
+      "officialId": "andreas-andreou",
+      "rosterName": "Andreas Andreou",
+      "title": "Professor",
+      "profileUrl": "https://www.clsp.jhu.edu/faculty/",
+      "portraitUrl": null,
+      "officialSections": [
+        "Department of Electrical and Computer Engineering"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.clsp.jhu.edu/faculty/",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Professor | Department of Electrical and Computer Engineering | https://www.clsp.jhu.edu/faculty/",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "raman-arora",
+      "rosterName": "Raman Arora",
+      "title": "Assistant Professor",
+      "profileUrl": "https://www.clsp.jhu.edu/faculty/",
+      "portraitUrl": null,
+      "officialSections": [
+        "Department of Computer Science"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.clsp.jhu.edu/faculty/",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Assistant Professor | Department of Computer Science | https://www.clsp.jhu.edu/faculty/",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "vladimir-braverman",
+      "rosterName": "Vladimir Braverman",
+      "title": "Professor",
+      "profileUrl": "https://www.clsp.jhu.edu/faculty/",
+      "portraitUrl": null,
+      "officialSections": [
+        "Department of Computer Science"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.clsp.jhu.edu/faculty/",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Professor | Department of Computer Science | https://www.clsp.jhu.edu/faculty/",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "rama-chellappa",
+      "rosterName": "Rama Chellappa",
+      "title": "Bloomberg Distinguished Professor",
+      "profileUrl": "https://www.clsp.jhu.edu/faculty/",
+      "portraitUrl": null,
+      "officialSections": [
+        "Department of Electrical and Computer Engineering and Department of Biomedical Engineering"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.clsp.jhu.edu/faculty/",
+      "decision": "included_existing",
+      "atlasPersonId": "rama-chellappa-us",
+      "reason": "符合范围，且规范化姓名可与当前图谱人物唯一匹配。",
+      "evidence": "Bloomberg Distinguished Professor | Department of Electrical and Computer Engineering and Department of Biomedical Engineering | https://www.clsp.jhu.edu/faculty/"
+    },
+    {
+      "officialId": "najim-dehak",
+      "rosterName": "Najim Dehak",
+      "title": "Associate Professor",
+      "profileUrl": "https://www.clsp.jhu.edu/faculty/",
+      "portraitUrl": null,
+      "officialSections": [
+        "Department of Electrical and Computer Engineering"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.clsp.jhu.edu/faculty/",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Associate Professor | Department of Electrical and Computer Engineering | https://www.clsp.jhu.edu/faculty/",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "mark-dredze",
+      "rosterName": "Mark Dredze",
+      "title": "John C. Malone Professor",
+      "profileUrl": "https://www.clsp.jhu.edu/faculty/",
+      "portraitUrl": null,
+      "officialSections": [
+        "Department of Computer Science"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.clsp.jhu.edu/faculty/",
+      "decision": "included_existing",
+      "atlasPersonId": "mark-dredze-us",
+      "reason": "符合范围，且规范化姓名可与当前图谱人物唯一匹配。",
+      "evidence": "John C. Malone Professor | Department of Computer Science | https://www.clsp.jhu.edu/faculty/"
+    },
+    {
+      "officialId": "kevin-duh",
+      "rosterName": "Kevin Duh",
+      "title": "Assistant Research Professor",
+      "profileUrl": "https://www.clsp.jhu.edu/faculty/",
+      "portraitUrl": null,
+      "officialSections": [
+        "Human Language Technology Center of Excellence; secondary appointment in Department of Computer Science"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.clsp.jhu.edu/faculty/",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Assistant Research Professor | Human Language Technology Center of Excellence; secondary appointment in Department of Computer Science | https://www.clsp.jhu.edu/faculty/",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "jason-eisner",
+      "rosterName": "Jason Eisner",
+      "title": "Professor",
+      "profileUrl": "https://www.clsp.jhu.edu/faculty/",
+      "portraitUrl": null,
+      "officialSections": [
+        "Department of Computer Science"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.clsp.jhu.edu/faculty/",
+      "decision": "included_existing",
+      "atlasPersonId": "jason-eisner-us",
+      "reason": "符合范围，且规范化姓名可与当前图谱人物唯一匹配。",
+      "evidence": "Professor | Department of Computer Science | https://www.clsp.jhu.edu/faculty/"
+    },
+    {
+      "officialId": "mounya-elhilali",
+      "rosterName": "Mounya Elhilali",
+      "title": "Charles Renn Faculty Scholar and Professor",
+      "profileUrl": "https://www.clsp.jhu.edu/faculty/",
+      "portraitUrl": null,
+      "officialSections": [
+        "Department of Electrical and Computer Engineering"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.clsp.jhu.edu/faculty/",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Charles Renn Faculty Scholar and Professor | Department of Electrical and Computer Engineering | https://www.clsp.jhu.edu/faculty/",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "anjalie-field",
+      "rosterName": "Anjalie Field",
+      "title": "Assistant Professor",
+      "profileUrl": "https://www.clsp.jhu.edu/faculty/",
+      "portraitUrl": null,
+      "officialSections": [
+        "Department of Computer Science"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.clsp.jhu.edu/faculty/",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Assistant Professor | Department of Computer Science | https://www.clsp.jhu.edu/faculty/",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "leibny-paola-garcia",
+      "rosterName": "Leibny Paola Garcia",
+      "title": "Assistant Research Scientist",
+      "profileUrl": "https://www.clsp.jhu.edu/faculty/",
+      "portraitUrl": null,
+      "officialSections": [
+        "Center for Language and Speech Processing"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.clsp.jhu.edu/faculty/",
+      "decision": "excluded_non_pi",
+      "reason": "官方职称或名录分组属于教学、兼职、附属、科研支持或其他非独立 PI 岗位。",
+      "evidence": "Assistant Research Scientist | Center for Language and Speech Processing | https://www.clsp.jhu.edu/faculty/"
+    },
+    {
+      "officialId": "kristina-gligoric",
+      "rosterName": "Kristina Gligoric",
+      "title": "Assistant Professor",
+      "profileUrl": "https://www.clsp.jhu.edu/faculty/",
+      "portraitUrl": null,
+      "officialSections": [
+        "Department of Computer Science"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.clsp.jhu.edu/faculty/",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Assistant Professor | Department of Computer Science | https://www.clsp.jhu.edu/faculty/",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "hynek-hermansky",
+      "rosterName": "Hynek Hermansky",
+      "title": "Professor Emeritus",
+      "profileUrl": "https://www.clsp.jhu.edu/faculty/",
+      "portraitUrl": null,
+      "officialSections": [],
+      "researchFields": [],
+      "unitUrl": "https://www.clsp.jhu.edu/faculty/",
+      "decision": "excluded_historical",
+      "reason": "官方职称或名录分组明确为荣休、退休或历史人员。",
+      "evidence": "Professor Emeritus | https://www.clsp.jhu.edu/faculty/"
+    },
+    {
+      "officialId": "daniel-khashabi",
+      "rosterName": "Daniel Khashabi",
+      "title": "Assistant Professor",
+      "profileUrl": "https://www.clsp.jhu.edu/faculty/",
+      "portraitUrl": null,
+      "officialSections": [
+        "Department of Computer Science"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.clsp.jhu.edu/faculty/",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Assistant Professor | Department of Computer Science | https://www.clsp.jhu.edu/faculty/",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "sanjeev-khudanpur",
+      "rosterName": "Sanjeev Khudanpur",
+      "title": "Associate Professor",
+      "profileUrl": "https://www.clsp.jhu.edu/faculty/",
+      "portraitUrl": null,
+      "officialSections": [
+        "Department of Electrical and Computer Engineering"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.clsp.jhu.edu/faculty/",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Associate Professor | Department of Electrical and Computer Engineering | https://www.clsp.jhu.edu/faculty/",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "philipp-koehn",
+      "rosterName": "Philipp Koehn",
+      "title": "Professor",
+      "profileUrl": "https://www.clsp.jhu.edu/faculty/",
+      "portraitUrl": null,
+      "officialSections": [
+        "Department of Computer Science"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.clsp.jhu.edu/faculty/",
+      "decision": "included_existing",
+      "atlasPersonId": "philipp-koehn-us",
+      "reason": "符合范围，且规范化姓名可与当前图谱人物唯一匹配。",
+      "evidence": "Professor | Department of Computer Science | https://www.clsp.jhu.edu/faculty/"
+    },
+    {
+      "officialId": "tom-lippincott",
+      "rosterName": "Tom Lippincott",
+      "title": "Director of Digital Humanities and Associate Research Professor",
+      "profileUrl": "https://www.clsp.jhu.edu/faculty/",
+      "portraitUrl": null,
+      "officialSections": [
+        "Alexander Grass Humanities Institute; secondary appointments in Department of Computer Science and HLTCOE"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.clsp.jhu.edu/faculty/",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Director of Digital Humanities and Associate Research Professor | Alexander Grass Humanities Institute; secondary appointments in Department of Computer Science and HLTCOE | https://www.clsp.jhu.edu/faculty/",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "laureano-moro-velazquez",
+      "rosterName": "Laureano Moro-Velazquez",
+      "title": "Assistant Research Professor",
+      "profileUrl": "https://www.clsp.jhu.edu/faculty/",
+      "portraitUrl": null,
+      "officialSections": [
+        "Center for Language and Speech Processing"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.clsp.jhu.edu/faculty/",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Assistant Research Professor | Center for Language and Speech Processing | https://www.clsp.jhu.edu/faculty/",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "kenton-murray",
+      "rosterName": "Kenton Murray",
+      "title": "Research Scientist",
+      "profileUrl": "https://www.clsp.jhu.edu/faculty/",
+      "portraitUrl": null,
+      "officialSections": [
+        "Human Language Technology Center of Excellence; secondary appointment in Department of Computer Science"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.clsp.jhu.edu/faculty/",
+      "decision": "excluded_non_pi",
+      "reason": "官方职称或名录分组属于教学、兼职、附属、科研支持或其他非独立 PI 岗位。",
+      "evidence": "Research Scientist | Human Language Technology Center of Excellence; secondary appointment in Department of Computer Science | https://www.clsp.jhu.edu/faculty/"
+    },
+    {
+      "officialId": "vishal-m-patel",
+      "rosterName": "Vishal M. Patel",
+      "title": "Associate Professor",
+      "profileUrl": "https://www.clsp.jhu.edu/faculty/",
+      "portraitUrl": null,
+      "officialSections": [
+        "Department of Electrical and Computer Engineering"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.clsp.jhu.edu/faculty/",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Associate Professor | Department of Electrical and Computer Engineering | https://www.clsp.jhu.edu/faculty/",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "matt-post",
+      "rosterName": "Matt Post",
+      "title": "Assistant Research Professor",
+      "profileUrl": "https://www.clsp.jhu.edu/faculty/",
+      "portraitUrl": null,
+      "officialSections": [
+        "Human Language Technology Center of Excellence; secondary appointment in Department of Computer Science"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.clsp.jhu.edu/faculty/",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Assistant Research Professor | Human Language Technology Center of Excellence; secondary appointment in Department of Computer Science | https://www.clsp.jhu.edu/faculty/",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "suchi-saria",
+      "rosterName": "Suchi Saria",
+      "title": "Associate Professor",
+      "profileUrl": "https://www.clsp.jhu.edu/faculty/",
+      "portraitUrl": null,
+      "officialSections": [
+        "Department of Computer Science"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.clsp.jhu.edu/faculty/",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Associate Professor | Department of Computer Science | https://www.clsp.jhu.edu/faculty/",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "berrak-sisman",
+      "rosterName": "Berrak Sisman",
+      "title": "Assistant Professor",
+      "profileUrl": "https://www.clsp.jhu.edu/faculty/",
+      "portraitUrl": null,
+      "officialSections": [
+        "Department of Electrical and Computer Engineering"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.clsp.jhu.edu/faculty/",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Assistant Professor | Department of Electrical and Computer Engineering | https://www.clsp.jhu.edu/faculty/",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "thomas-thebaud",
+      "rosterName": "Thomas Thebaud",
+      "title": "Assistant Research Scientist",
+      "profileUrl": "https://www.clsp.jhu.edu/faculty/",
+      "portraitUrl": null,
+      "officialSections": [
+        "Center for Language and Speech Processing"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.clsp.jhu.edu/faculty/",
+      "decision": "excluded_non_pi",
+      "reason": "官方职称或名录分组属于教学、兼职、附属、科研支持或其他非独立 PI 岗位。",
+      "evidence": "Assistant Research Scientist | Center for Language and Speech Processing | https://www.clsp.jhu.edu/faculty/"
+    },
+    {
+      "officialId": "benjamin-van-durme",
+      "rosterName": "Benjamin Van Durme",
+      "title": "Associate Professor",
+      "profileUrl": "https://www.clsp.jhu.edu/faculty/",
+      "portraitUrl": null,
+      "officialSections": [
+        "Department of Computer Science"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.clsp.jhu.edu/faculty/",
+      "decision": "included_existing",
+      "atlasPersonId": "benjamin-van-durme-us",
+      "reason": "符合范围，且规范化姓名可与当前图谱人物唯一匹配。",
+      "evidence": "Associate Professor | Department of Computer Science | https://www.clsp.jhu.edu/faculty/"
+    },
+    {
+      "officialId": "jesus-villalba",
+      "rosterName": "Jesús Villalba",
+      "title": "Assistant Research Professor",
+      "profileUrl": "https://www.clsp.jhu.edu/faculty/",
+      "portraitUrl": null,
+      "officialSections": [
+        "Department of Electrical and Computer Engineering"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.clsp.jhu.edu/faculty/",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Assistant Research Professor | Department of Electrical and Computer Engineering | https://www.clsp.jhu.edu/faculty/",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "mahsa-yarmohammadi",
+      "rosterName": "Mahsa Yarmohammadi",
+      "title": "Assistant Research Scientist",
+      "profileUrl": "https://www.clsp.jhu.edu/faculty/",
+      "portraitUrl": null,
+      "officialSections": [
+        "Center for Language and Speech Processing"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.clsp.jhu.edu/faculty/",
+      "decision": "excluded_non_pi",
+      "reason": "官方职称或名录分组属于教学、兼职、附属、科研支持或其他非独立 PI 岗位。",
+      "evidence": "Assistant Research Scientist | Center for Language and Speech Processing | https://www.clsp.jhu.edu/faculty/"
+    },
+    {
+      "officialId": "david-yarowsky",
+      "rosterName": "David Yarowsky",
+      "title": "Professor",
+      "profileUrl": "https://www.clsp.jhu.edu/faculty/",
+      "portraitUrl": null,
+      "officialSections": [
+        "Department of Computer Science"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.clsp.jhu.edu/faculty/",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Professor | Department of Computer Science | https://www.clsp.jhu.edu/faculty/",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "alan-yuille",
+      "rosterName": "Alan Yuille",
+      "title": "Bloomberg Distinguished Professor",
+      "profileUrl": "https://www.clsp.jhu.edu/faculty/",
+      "portraitUrl": null,
+      "officialSections": [
+        "Department of Computer Science"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.clsp.jhu.edu/faculty/",
+      "decision": "included_existing",
+      "atlasPersonId": "alan-yuille-us",
+      "reason": "符合范围，且规范化姓名可与当前图谱人物唯一匹配。",
+      "evidence": "Bloomberg Distinguished Professor | Department of Computer Science | https://www.clsp.jhu.edu/faculty/"
+    },
+    {
+      "officialId": "ayah-zirikly",
+      "rosterName": "Ayah Zirikly",
+      "title": "Adjunct Assistant Professor",
+      "profileUrl": "https://www.clsp.jhu.edu/faculty/",
+      "portraitUrl": null,
+      "officialSections": [
+        "Center for Language and Speech Processing"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.clsp.jhu.edu/faculty/",
+      "decision": "excluded_non_pi",
+      "reason": "官方职称或名录分组属于教学、兼职、附属、科研支持或其他非独立 PI 岗位。",
+      "evidence": "Adjunct Assistant Professor | Center for Language and Speech Processing | https://www.clsp.jhu.edu/faculty/"
+    }
+  ]
+}

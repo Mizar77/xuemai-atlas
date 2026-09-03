@@ -1,0 +1,2580 @@
+{
+  "schemaVersion": 1,
+  "region": "Mainland China",
+  "rank": 14,
+  "institution": "中山大学",
+  "unitId": "sysu-cse-rank11-18",
+  "unitName": "计算机学院",
+  "snapshotAt": "2026-09-02",
+  "reviewedAt": "2026-09-03",
+  "rosterArtifact": "data/official-rosters/sysu-cse-all-personnel-2026-09-02.json",
+  "officialRosterUrl": "https://cse.sysu.edu.cn/teacher",
+  "officialRosterCount": 150,
+  "decisionCount": 150,
+  "counts": {
+    "included_existing": 4,
+    "include_new_pi": 97,
+    "excluded_non_ai_cs": 10,
+    "excluded_non_pi": 37,
+    "excluded_historical": 0,
+    "excluded_industry_only": 0,
+    "excluded_insufficient_scope_evidence": 2,
+    "pending_profile_verification": 0
+  },
+  "decisions": [
+    {
+      "officialId": "0e42a48e81b65750",
+      "name": "蔡穗华",
+      "title": "副教授",
+      "officialSections": [
+        "专任教师"
+      ],
+      "profileUrl": "https://cse.sysu.edu.cn/teacher/CaiSuihua",
+      "portraitUrl": "https://cse.sysu.edu.cn/sites/default/files/styles/image_style_2/public/%E8%94%A1%E7%A9%97%E5%8D%8E.jpg?itok=aulCjAsP",
+      "sourcePageUrl": "https://cse.sysu.edu.cn/teacher",
+      "officialRosterUrl": "https://cse.sysu.edu.cn/teacher",
+      "profileChecked": true,
+      "decision": "excluded_non_ai_cs",
+      "reason": "已检查官方个人页及名录字段，公开研究主线未显示 AI、NLP、CV、ML、数据智能、机器人或本图谱紧密相邻方向。",
+      "evidenceUrl": "https://cse.sysu.edu.cn/teacher/CaiSuihua",
+      "evidenceExcerpt": "研究方向是信息论、纠错编码技术及其应用。迄今已发表论文20篇，包括IEEE Transactions on Information Theory、IEEE Transactions on Communications、ISIT等信息与编码领域旗舰期刊和会议，已授权发明专利7件，主持一项国家自然科学基金青年基金项目，所参与研究项目“信道编码纠错新机理”获2021年中国电子学会自然科学三等奖。 研究领域: 信息论与纠错编码技术，及其在数字通信系统中的应用 教育背景: 2016-09至2019-12，中山大学，信息与通信工程，博士 2014-09至2016-07，中山大学，基础数学，硕士 2007-09至2011-07，中国地质大学（武汉），信息与计算科学，学士 工作经历: 2023-12至今, 中山大学, 计算机学院，副教授 2022-06至2023-11，中山大学，计算机学院，特聘副研究员 2020-05至2022-05，中山大学，计算机学院，博士后，合作导师：杨宏奇 科研项目: 1. 国家自然科学基金委员会, 青年科学基金项目, 62201626, 面向新一代无线通信的高可靠低时延编码"
+    },
+    {
+      "officialId": "a8d2d237edfd4228",
+      "name": "陈川",
+      "title": "副教授",
+      "officialSections": [
+        "专任教师"
+      ],
+      "profileUrl": "https://cse.sysu.edu.cn/teacher/ChenChuan",
+      "portraitUrl": "https://cse.sysu.edu.cn/sites/default/files/styles/image_style_2/public/%E9%99%88%E5%B7%9D.jpg?itok=VCmRwLQR",
+      "sourcePageUrl": "https://cse.sysu.edu.cn/teacher",
+      "officialRosterUrl": "https://cse.sysu.edu.cn/teacher",
+      "profileChecked": true,
+      "decision": "include_new_pi",
+      "reason": "官方个人页的研究方向命中 AI/NLP/CV/ML、数据智能、机器人或紧密相关方向，并确认教授/研究员或独立招生资格。",
+      "evidenceUrl": "https://cse.sysu.edu.cn/teacher/ChenChuan",
+      "evidenceExcerpt": "副教授 | 专任教师 研究方向： 可信机器学习理论与应用（联邦学习，机器学习鲁棒性, LLM可靠性等），及图机器学习理论与应用 （图神经网络、社交网络分析等） 。近年发表SCI索引国际期刊（包括IEEE TNNLS, TIP, TPDS, TKDE, ACM TOIS, TKDD, NSR等）及国际会议论文（包括ICLR, ICML, NeurIPS, KDD, AAAI, IJCAI, WWW, IN"
+    },
+    {
+      "officialId": "be30cc4fbdf268fe",
+      "name": "陈刚",
+      "title": "教授",
+      "officialSections": [
+        "专任教师"
+      ],
+      "profileUrl": "https://cse.sysu.edu.cn/teacher/ChenGang",
+      "portraitUrl": "https://cse.sysu.edu.cn/sites/default/files/styles/image_style_2/public/default_images/defaultnopic.jpg?itok=WIqiZXr7",
+      "sourcePageUrl": "https://cse.sysu.edu.cn/teacher",
+      "officialRosterUrl": "https://cse.sysu.edu.cn/teacher",
+      "profileChecked": true,
+      "decision": "include_new_pi",
+      "reason": "官方个人页的研究方向命中 AI/NLP/CV/ML、数据智能、机器人或紧密相关方向，并确认教授/研究员或独立招生资格。",
+      "evidenceUrl": "https://cse.sysu.edu.cn/teacher/ChenGang",
+      "evidenceExcerpt": "教授 | 专任教师 研究方向是高性能计算（领域定制加速器）、人工智能、机器人系统，并注重培养学生工程实操能力培养​。如果你对以上方向兴趣，同时 也是务实并且自我驱动能力强的人，出于兴趣且能静下心来从事科研工作， 希望攻读博士/硕士学位，欢迎随时和我联系! 课题组对学生的科研工作态度要求比较高， 如果抱着混学位混日子态度的学生，请勿联系！ 同时也欢迎本科生加入实验室从事科研工作 （标准同上） 。 研究领域: -机器人(智能感知"
+    },
+    {
+      "officialId": "186b2ef992eced8e",
+      "name": "陈亮",
+      "title": "副教授",
+      "officialSections": [
+        "专任教师"
+      ],
+      "profileUrl": "https://cse.sysu.edu.cn/teacher/ChenLiang",
+      "portraitUrl": "https://cse.sysu.edu.cn/sites/default/files/styles/image_style_2/public/%E9%99%88%E4%BA%AE.jpg?itok=0s06OUPJ",
+      "sourcePageUrl": "https://cse.sysu.edu.cn/teacher",
+      "officialRosterUrl": "https://cse.sysu.edu.cn/teacher",
+      "profileChecked": true,
+      "decision": "include_new_pi",
+      "reason": "官方个人页的研究方向命中 AI/NLP/CV/ML、数据智能、机器人或紧密相关方向，并确认教授/研究员或独立招生资格。",
+      "evidenceUrl": "https://cse.sysu.edu.cn/teacher/ChenLiang",
+      "evidenceExcerpt": "副教授 | 专任教师 研究领域: 推荐系统、图计算、机器学习、软件工程 代表性论著: [IJCAI-21] Liang Chen , Jintang Li, Qibiao Peng , Yang Liu, Zibin Zheng, Carl Yang, \"Understanding Structural Vulnerability in Graph Convolutional Networks\","
+    },
+    {
+      "officialId": "f2bcc1ce1bd312b9",
+      "name": "陈鹏飞",
+      "title": "教授",
+      "officialSections": [
+        "专任教师"
+      ],
+      "profileUrl": "https://cse.sysu.edu.cn/teacher/ChenPengfei",
+      "portraitUrl": "https://cse.sysu.edu.cn/sites/default/files/styles/image_style_2/public/%E9%99%88%E9%B9%8F%E9%A3%9E.jpg?itok=AAvW0T2d",
+      "sourcePageUrl": "https://cse.sysu.edu.cn/teacher",
+      "officialRosterUrl": "https://cse.sysu.edu.cn/teacher",
+      "profileChecked": true,
+      "decision": "include_new_pi",
+      "reason": "官方个人页的研究方向命中 AI/NLP/CV/ML、数据智能、机器人或紧密相关方向，并确认教授/研究员或独立招生资格。",
+      "evidenceUrl": "https://cse.sysu.edu.cn/teacher/ChenPengfei",
+      "evidenceExcerpt": "，西安交通大学计算机科学与技术系，本科 工作经历: 2024.04-至今，中山大学，教授，博士生导师 2018.1-2024.04，中山大学数据科学与，“百人计划”副教授，博士生导师 2016.6-2018.1，IBM中国研究院，研究员 海外经历: 2017.2-2017.4，IBM T.J. Watson研究中心，访问研究员 获奖及荣誉: 2020年获得陕西省计算机学会首届优秀博士论文，论文题目： 网络分布式环境中软件性能管理问题研究 ，导师：齐勇教授 科研项目: 纵向项目： “面向云原生系统的非侵入"
+    },
+    {
+      "officialId": "faf76c5cde17a959",
+      "name": "陈旭",
+      "title": "教授",
+      "officialSections": [
+        "专任教师"
+      ],
+      "profileUrl": "https://cse.sysu.edu.cn/teacher/ChenXu",
+      "portraitUrl": "https://cse.sysu.edu.cn/sites/default/files/styles/image_style_2/public/%E9%99%88%E6%97%AD%E7%85%A7%E7%89%87%E6%B8%85%E6%99%B0%E7%89%88.jpeg?itok=6-vu3qRe",
+      "sourcePageUrl": "https://cse.sysu.edu.cn/teacher",
+      "officialRosterUrl": "https://cse.sysu.edu.cn/teacher",
+      "profileChecked": true,
+      "decision": "include_new_pi",
+      "reason": "官方个人页的研究方向命中 AI/NLP/CV/ML、数据智能、机器人或紧密相关方向，并确认教授/研究员或独立招生资格。",
+      "evidenceUrl": "https://cse.sysu.edu.cn/teacher/ChenXu",
+      "evidenceExcerpt": "教授 | 专任教师 研究方向为智能体系统、端侧智能体、多模态大模型、多智能体算法、云边端协同智能、边缘物理AI等，迄今在ToN、TMC、JSAC、 MOBICOM、INFOCOM、WWW、UBICOMP、KDD等国际高水平会议与权威期刊发表论文超过200篇, 谷歌学术引用超过24000次，单篇引用最高超过3000次。 获得IEEE杰出讲师、德国洪堡学者、香港青年科学家奖、IEEE通信学会亚太区杰出青年学者奖、中国计算机学会"
+    },
+    {
+      "officialId": "6475383cee44da4d",
+      "name": "陈志广",
+      "title": "教授",
+      "officialSections": [
+        "专任教师"
+      ],
+      "profileUrl": "https://cse.sysu.edu.cn/teacher/ChenZhiguang",
+      "portraitUrl": "https://cse.sysu.edu.cn/sites/default/files/styles/image_style_2/public/%E9%99%88%E5%BF%97%E5%B9%BF.jpg?itok=TlFHVV5S",
+      "sourcePageUrl": "https://cse.sysu.edu.cn/teacher",
+      "officialRosterUrl": "https://cse.sysu.edu.cn/teacher",
+      "profileChecked": true,
+      "decision": "include_new_pi",
+      "reason": "官方个人页的研究方向命中 AI/NLP/CV/ML、数据智能、机器人或紧密相关方向，并确认教授/研究员或独立招生资格。",
+      "evidenceUrl": "https://cse.sysu.edu.cn/teacher/ChenZhiguang",
+      "evidenceExcerpt": "体系结构、面向新一代国产超算的高性能计算应用； 大数据存储与处理：并行文件系统、面向新型互连协议的内存存储系统、新型I/O栈； MLSys：大模型推理、向量存储与检索、HPC-AI融合支撑系统。 教育背景: 2003-2007：哈尔滨工业大学，计算机科学与技术，学士学位 2007-2009：国防科技大学，计算机科学与技术，硕士学位 2010-2013：国防科技大学，计算机科学与技术，博士学位 工作经历: 2013-2018：国防科技大学， 2018------：中山大学， 获奖及荣誉: （1）广东省教"
+    },
+    {
+      "officialId": "32726b75396725a2",
+      "name": "成慧",
+      "title": "教授",
+      "officialSections": [
+        "专任教师"
+      ],
+      "profileUrl": "https://cse.sysu.edu.cn/teacher/ChengHui",
+      "portraitUrl": "https://cse.sysu.edu.cn/sites/default/files/styles/image_style_2/public/%E6%88%90%E6%85%A7.jpg?itok=T9MT76wm",
+      "sourcePageUrl": "https://cse.sysu.edu.cn/teacher",
+      "officialRosterUrl": "https://cse.sysu.edu.cn/teacher",
+      "profileChecked": true,
+      "decision": "include_new_pi",
+      "reason": "官方个人页的研究方向命中 AI/NLP/CV/ML、数据智能、机器人或紧密相关方向，并确认教授/研究员或独立招生资格。",
+      "evidenceUrl": "https://cse.sysu.edu.cn/teacher/ChengHui",
+      "evidenceExcerpt": "教授 | 专任教师 研究领域: 机器人的单机自主与多机协同、具身智能、群体智能 教育背景: 2001年9月-2005年12月，香港大学，信息处理，博士 1999年9月-2001年7月，香港科技大学，机器人，硕士 1998年9月-1999年8月，燕山大学，电气自动化，硕士学习 1994年9月-1998年7月，燕山大学，电气自动化，学士 工作经历: 2019年1月至今，中山大学，数据科学与，教授，博"
+    },
+    {
+      "officialId": "ab009e3bbae71683",
+      "name": "戴智明",
+      "title": "副教授",
+      "officialSections": [
+        "专任教师"
+      ],
+      "profileUrl": "https://cse.sysu.edu.cn/teacher/DaiZhiming",
+      "portraitUrl": "https://cse.sysu.edu.cn/sites/default/files/styles/image_style_2/public/default_images/defaultnopic.jpg?itok=WIqiZXr7",
+      "sourcePageUrl": "https://cse.sysu.edu.cn/teacher",
+      "officialRosterUrl": "https://cse.sysu.edu.cn/teacher",
+      "profileChecked": true,
+      "decision": "include_new_pi",
+      "reason": "官方个人页的研究方向命中 AI/NLP/CV/ML、数据智能、机器人或紧密相关方向，并确认教授/研究员或独立招生资格。",
+      "evidenceUrl": "https://cse.sysu.edu.cn/teacher/DaiZhiming",
+      "evidenceExcerpt": "副教授 | 专任教师 研究方向为生物信息学、数据挖掘、机器学习。已发表SCI论文三十余篇，主持数项国家、省部级科研项目。获广东省“特支计划科技创新青年拔尖人才”、广州市“珠江科技新星”等人才项目资助。 研究领域: 生物信息学、数据挖掘、机器学习 教务部 统一门户 研究生院 科学研究院 学生工作部 人力资源管理处 大学服务中心 财务与国资管理处 地址：广州市番禺区大学城外环东路132号（510006"
+    },
+    {
+      "officialId": "afc96e5334e92243",
+      "name": "董浩业",
+      "title": "副教授",
+      "officialSections": [
+        "专任教师"
+      ],
+      "profileUrl": "https://cse.sysu.edu.cn/teacher/3568",
+      "portraitUrl": "https://cse.sysu.edu.cn/sites/default/files/styles/image_style_2/public/WechatIMG2781.png?itok=JZqM62oA",
+      "sourcePageUrl": "https://cse.sysu.edu.cn/teacher",
+      "officialRosterUrl": "https://cse.sysu.edu.cn/teacher",
+      "profileChecked": true,
+      "decision": "include_new_pi",
+      "reason": "官方个人页的研究方向命中 AI/NLP/CV/ML、数据智能、机器人或紧密相关方向，并确认教授/研究员或独立招生资格。",
+      "evidenceUrl": "https://cse.sysu.edu.cn/teacher/3568",
+      "evidenceExcerpt": "副教授 | 专任教师 研究领域 人形机器人移动操作（Humanoid Loco-Manipulation）、具身世界模型、多模态人与场景交互建模、三维视觉 海外经历 2022.09-- 2024.08，美国卡内基梅隆大学（CMU） | 机器人研究所 | Postdoctoral Fellow 2024.09-- 2026.06，新加坡国立大学（NUS） | | Senior Research Fe"
+    },
+    {
+      "officialId": "281cf33dd1077539",
+      "name": "杜江溯",
+      "title": "副教授",
+      "officialSections": [
+        "专任教师"
+      ],
+      "profileUrl": "https://cse.sysu.edu.cn/teacher/3325",
+      "portraitUrl": "https://cse.sysu.edu.cn/sites/default/files/styles/image_style_2/public/%E5%AD%A6%E6%9C%AF%E8%82%96%E5%83%8F3.png?itok=KW0zq32S",
+      "sourcePageUrl": "https://cse.sysu.edu.cn/teacher",
+      "officialRosterUrl": "https://cse.sysu.edu.cn/teacher",
+      "profileChecked": true,
+      "decision": "include_new_pi",
+      "reason": "官方个人页的研究方向命中 AI/NLP/CV/ML、数据智能、机器人或紧密相关方向，并确认教授/研究员或独立招生资格。",
+      "evidenceUrl": "https://cse.sysu.edu.cn/teacher/3325",
+      "evidenceExcerpt": ": Automatic Communication Optimization and Scheduling for Large-Scale Deep Learning”. [PPoPP 2024] Jiangsu Du , Jinhui Wei, Jiazhi Jiang, Shenggan Cheng, Dan Huang, Zhiguang Chen, Yulong Lu, “Liger: Interleaving Intra- and Inter-Operator Parallelism for Distribut"
+    },
+    {
+      "officialId": "85e3e88fe4c06cdc",
+      "name": "杜育松",
+      "title": "副教授",
+      "officialSections": [
+        "专任教师"
+      ],
+      "profileUrl": "https://cse.sysu.edu.cn/teacher/DuYusong",
+      "portraitUrl": "https://cse.sysu.edu.cn/sites/default/files/styles/image_style_2/public/%E6%9D%9C%E8%82%B2%E6%9D%BE.jpg?itok=KjY3dcj0",
+      "sourcePageUrl": "https://cse.sysu.edu.cn/teacher",
+      "officialRosterUrl": "https://cse.sysu.edu.cn/teacher",
+      "profileChecked": true,
+      "decision": "include_new_pi",
+      "reason": "官方个人页的研究方向命中 AI/NLP/CV/ML、数据智能、机器人或紧密相关方向，并确认教授/研究员或独立招生资格。",
+      "evidenceUrl": "https://cse.sysu.edu.cn/teacher/DuYusong",
+      "evidenceExcerpt": "06，广州大学，理学院数学系，学士 工作经历: 2021-02至现在, 中山大学, ，副教授 2016-02至2021-01, 中山大学, 数据科学与（），讲师 2012-06至2016-01，中山大学，资讯管理学院（信息管理学院），讲师 2010-07至2012-05，中山大学，信息科学与技术学院，博士后，合作导师：张方国 科研项目: 1. 国家重点研发计划，2022YFB2701504，面向区块链分布式场景的密码技术-安全高效区块链监管和隐私的密码学工具与协议研究，2022-11至2025-10，2"
+    },
+    {
+      "officialId": "14ca1fab954ebb47",
+      "name": "冯剑琳",
+      "title": "教授",
+      "officialSections": [
+        "专任教师"
+      ],
+      "profileUrl": "https://cse.sysu.edu.cn/teacher/FengJianlin",
+      "portraitUrl": "https://cse.sysu.edu.cn/sites/default/files/styles/image_style_2/public/%E5%86%AF%E5%89%91%E7%90%B3.jpg?itok=qQkQ9UFD",
+      "sourcePageUrl": "https://cse.sysu.edu.cn/teacher",
+      "officialRosterUrl": "https://cse.sysu.edu.cn/teacher",
+      "profileChecked": true,
+      "decision": "include_new_pi",
+      "reason": "官方个人页的研究方向命中 AI/NLP/CV/ML、数据智能、机器人或紧密相关方向，并确认教授/研究员或独立招生资格。",
+      "evidenceUrl": "https://cse.sysu.edu.cn/teacher/FengJianlin",
+      "evidenceExcerpt": "n Computation: random projection, winner-take-all, synapse plasticity Database Systems: similarity search, OLAP and data warehousing, NewSQL for new hardware Data Mining and Bioinformatics: word embedding, sequence alignment, rank aggregation, biclustering."
+    },
+    {
+      "officialId": "f249f6a43ea75883",
+      "name": "高成英",
+      "title": "副教授",
+      "officialSections": [
+        "专任教师"
+      ],
+      "profileUrl": "https://cse.sysu.edu.cn/teacher/GaoChengying",
+      "portraitUrl": "https://cse.sysu.edu.cn/sites/default/files/styles/image_style_2/public/%E9%AB%98%E6%88%90%E8%8B%B1.jpg?itok=kwHMvAmZ",
+      "sourcePageUrl": "https://cse.sysu.edu.cn/teacher",
+      "officialRosterUrl": "https://cse.sysu.edu.cn/teacher",
+      "profileChecked": true,
+      "decision": "include_new_pi",
+      "reason": "官方个人页的研究方向命中 AI/NLP/CV/ML、数据智能、机器人或紧密相关方向，并确认教授/研究员或独立招生资格。",
+      "evidenceUrl": "https://cse.sysu.edu.cn/teacher/GaoChengying",
+      "evidenceExcerpt": "副教授 | 专任教师 研究领域: 计算机图形学 计算机视觉与图像处理 基于深度学习的人工智能应用 教育背景: 中山大学，计算机软件与理论专业，博士 中山大学，计算数学与计算机应用专业，硕士 西北大学，计算数学及其应用软件，本科 工作经历: 2007.07 至今，数据科学与，副教授 2001.07--2007.06，中山大学，信息科学与，讲师 1999.07--2001.06，中山大学，数学学院，助教"
+    },
+    {
+      "officialId": "046d4d44733c6784",
+      "name": "龚杰",
+      "title": "副教授",
+      "officialSections": [
+        "专任教师"
+      ],
+      "profileUrl": "https://cse.sysu.edu.cn/teacher/GongJie",
+      "portraitUrl": "https://cse.sysu.edu.cn/sites/default/files/styles/image_style_2/public/%E9%BE%9A%E6%9D%B0.jpg?itok=lcZfwIcl",
+      "sourcePageUrl": "https://cse.sysu.edu.cn/teacher",
+      "officialRosterUrl": "https://cse.sysu.edu.cn/teacher",
+      "profileChecked": true,
+      "decision": "include_new_pi",
+      "reason": "官方个人页的研究方向命中 AI/NLP/CV/ML、数据智能、机器人或紧密相关方向，并确认教授/研究员或独立招生资格。",
+      "evidenceUrl": "https://cse.sysu.edu.cn/teacher/GongJie",
+      "evidenceExcerpt": "副教授 | 专任教师 研究领域: 优化理论及其应用、深度强化学习、智能物联网、边缘计算、绿色通信与网络 教育背景: 2012年7月-2013年1月，英国爱丁堡大学，访问学生 2008年9月-2013年7月，清华大学，博士 2004年9月-2008年7月，清华大学，学士 工作经历: 2018年9月-今，中山大学，副教授，博导 2015年10月-2018年9月，中山大学，特聘副研究员 2013年7月-2015年10月，清华大"
+    },
+    {
+      "officialId": "60819e3345ff778e",
+      "name": "管界超",
+      "title": "副教授",
+      "officialSections": [
+        "专任教师"
+      ],
+      "profileUrl": "https://cse.sysu.edu.cn/teacher/GuanJiechao",
+      "portraitUrl": "https://cse.sysu.edu.cn/sites/default/files/styles/image_style_2/public/2018000007-new.jpg?itok=ywWay9uc",
+      "sourcePageUrl": "https://cse.sysu.edu.cn/teacher",
+      "officialRosterUrl": "https://cse.sysu.edu.cn/teacher",
+      "profileChecked": true,
+      "decision": "include_new_pi",
+      "reason": "官方个人页的研究方向命中 AI/NLP/CV/ML、数据智能、机器人或紧密相关方向，并确认教授/研究员或独立招生资格。",
+      "evidenceUrl": "https://cse.sysu.edu.cn/teacher/GuanJiechao",
+      "evidenceExcerpt": "副教授 | 专任教师 研究方向是机器学习理论与算法，以第一作者身份在机器学习期刊和会议TPAMI、ICML、NeurIPS、ICLR上发表多篇论文，曾获NeurIPS和ICLR的Spotlight奖。 过往研究 关注元学习（多任务学习）的泛化理论和算法设计。 （1） 统计元学习 ：在不利用额外理论假设情形下，通过新提出的分析技巧获得了首个具有快速收敛速率的PAC-Bayes元学习泛化误差界；利用算"
+    },
+    {
+      "officialId": "05d2d4036ca5de90",
+      "name": "郭得科",
+      "title": "教授",
+      "officialSections": [
+        "专任教师"
+      ],
+      "profileUrl": "https://cse.sysu.edu.cn/teacher/GuoDeke",
+      "portraitUrl": "https://cse.sysu.edu.cn/sites/default/files/styles/image_style_2/public/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_2025-07-18_195253_005.png?itok=i9BbsCOB",
+      "sourcePageUrl": "https://cse.sysu.edu.cn/teacher",
+      "officialRosterUrl": "https://cse.sysu.edu.cn/teacher",
+      "profileChecked": true,
+      "decision": "include_new_pi",
+      "reason": "官方个人页的研究方向命中 AI/NLP/CV/ML、数据智能、机器人或紧密相关方向，并确认教授/研究员或独立招生资格。",
+      "evidenceUrl": "https://cse.sysu.edu.cn/teacher/GuoDeke",
+      "evidenceExcerpt": "教授 | 专任教师 研究方向包括计算机网络、分布式计算系统、边缘计算、算力网、大模型系统优化等。牵头获得2019年湖南省自然科学一等奖（排名第1）、2020年CCF-IEEE CS青年科学家奖，2021年中国电子学会自然科学二等奖（排名第1）、2023年中国发明协会“发明创业奖创新奖一等奖（排名第1）、2023年CCF自然科学二等奖（排名第1）、2023年湖南省第四届湖湘智库研究优秀成果奖（排名第1）；发表中英文学术论文300余篇，其中CC"
+    },
+    {
+      "officialId": "6ff4935c183d0c68",
+      "name": "衡益",
+      "title": "教授",
+      "officialSections": [
+        "专任教师"
+      ],
+      "profileUrl": "https://cse.sysu.edu.cn/teacher/HengYi",
+      "portraitUrl": "https://cse.sysu.edu.cn/sites/default/files/styles/image_style_2/public/%E8%A1%A1%E7%9B%8A.jpg?itok=Wq0KfyUP",
+      "sourcePageUrl": "https://cse.sysu.edu.cn/teacher",
+      "officialRosterUrl": "https://cse.sysu.edu.cn/teacher",
+      "profileChecked": true,
+      "decision": "include_new_pi",
+      "reason": "官方个人页的研究方向命中 AI/NLP/CV/ML、数据智能、机器人或紧密相关方向，并确认教授/研究员或独立招生资格。",
+      "evidenceUrl": "https://cse.sysu.edu.cn/teacher/HengYi",
+      "evidenceExcerpt": "| 专任教师 研究方向紧密围绕“HPC+AI for Science and Engineering”，聚焦于数学物理反问题、高性能计算与人工智能等领域的交叉研究，致力于攻克相关共性关键技术难题，推动多学科协同创新，实现从科学发现到工程应用的突破。 已在国际顶尖综合性期刊《The Innovation》（中科院一区TOP期刊；影响因子：39.5）、《Science Bulletin》（中科院一区TOP期刊；影响因子：20.7）、《Environmental Science & Technology》（"
+    },
+    {
+      "officialId": "142daeb1c52676b7",
+      "name": "胡建芳",
+      "title": "副教授",
+      "officialSections": [
+        "专任教师"
+      ],
+      "profileUrl": "https://cse.sysu.edu.cn/teacher/HuJianfang",
+      "portraitUrl": "https://cse.sysu.edu.cn/sites/default/files/styles/image_style_2/public/%E8%83%A1%E5%BB%BA%E8%8A%B3.jpg?itok=HuUe4OJX",
+      "sourcePageUrl": "https://cse.sysu.edu.cn/teacher",
+      "officialRosterUrl": "https://cse.sysu.edu.cn/teacher",
+      "profileChecked": true,
+      "decision": "include_new_pi",
+      "reason": "官方个人页的研究方向命中 AI/NLP/CV/ML、数据智能、机器人或紧密相关方向，并确认教授/研究员或独立招生资格。",
+      "evidenceUrl": "https://cse.sysu.edu.cn/teacher/HuJianfang",
+      "evidenceExcerpt": "副教授 | 专任教师 研究领域: 计算机视觉，视频内容理解，多模态大模型，多智能体，运动视频生成，机器人，行为分析等 教育背景: - 2010年9月～2016年12月：中山大学 数学学院 应用数学 硕博连读 - 2015年9月～2016年9月：新加坡南洋理工大学 访问学生 - 2006年9月～2010年6月：中山大学 数学学院 数学与应用数学 本科 工作经历: - 2019年11月至今：中山大学 副"
+    },
+    {
+      "officialId": "f8145fe73808cb88",
+      "name": "胡淼",
+      "title": "副教授",
+      "officialSections": [
+        "专任教师"
+      ],
+      "profileUrl": "https://cse.sysu.edu.cn/teacher/HuMiao",
+      "portraitUrl": "https://cse.sysu.edu.cn/sites/default/files/styles/image_style_2/public/%E8%83%A1%E6%B7%BC.jpg?itok=YrcyfVjT",
+      "sourcePageUrl": "https://cse.sysu.edu.cn/teacher",
+      "officialRosterUrl": "https://cse.sysu.edu.cn/teacher",
+      "profileChecked": true,
+      "decision": "include_new_pi",
+      "reason": "官方个人页的研究方向命中 AI/NLP/CV/ML、数据智能、机器人或紧密相关方向，并确认教授/研究员或独立招生资格。",
+      "evidenceUrl": "https://cse.sysu.edu.cn/teacher/HuMiao",
+      "evidenceExcerpt": "副教授 | 专任教师 研究方向包括： 新型计算系统（NCSys）、人工智能系统（AISys） 以及 多模态系统（MMSys） 等。 长期招收博士研究生、硕士研究生。欢迎优秀本科生加入实验室，表现优秀者可以推荐深造。 欢迎推免/考研学生联系本人咨询实验室的招生名额和相关事宜！ 研究领域: 1. 新型计算系统（NCSys）： 高性能计算、边端智能计算等； 2. 人工智能系统（AISys）： 大模型推理加速、大模型量化、AI多智能体、大"
+    },
+    {
+      "officialId": "50e89ec71468b2ef",
+      "name": "黄聃",
+      "title": "教授",
+      "officialSections": [
+        "专任教师"
+      ],
+      "profileUrl": "https://cse.sysu.edu.cn/teacher/Huangdan",
+      "portraitUrl": "https://cse.sysu.edu.cn/sites/default/files/styles/image_style_2/public/840%E9%BB%84%E8%81%83mini-%E5%A4%B4%E5%83%8F.jpg?itok=2jzUxlBa",
+      "sourcePageUrl": "https://cse.sysu.edu.cn/teacher",
+      "officialRosterUrl": "https://cse.sysu.edu.cn/teacher",
+      "profileChecked": true,
+      "decision": "include_new_pi",
+      "reason": "官方个人页的研究方向命中 AI/NLP/CV/ML、数据智能、机器人或紧密相关方向，并确认教授/研究员或独立招生资格。",
+      "evidenceUrl": "https://cse.sysu.edu.cn/teacher/Huangdan",
+      "evidenceExcerpt": "教授 | 专任教师 研究领域: 高性能计算/并行计算系统与应用优化、高性能人工智能计算系统、科学数据并行处理与存储IO系统 Three key factors of system research计算机系统研究三个关键要素: Abstractions抽象, Principles原理, Techniques技术. 项目组已研发系统： 1. RTAI系列框架：面向超算平台的高效流式HPC-AI协同开发运行框架 ->国内外相关系统：Ray、Go"
+    },
+    {
+      "officialId": "b90375b2808dcda1",
+      "name": "黄凯",
+      "title": "教授",
+      "officialSections": [
+        "专任教师"
+      ],
+      "profileUrl": "https://cse.sysu.edu.cn/teacher/HuangKai",
+      "portraitUrl": "https://cse.sysu.edu.cn/sites/default/files/styles/image_style_2/public/%E9%BB%84%E5%87%AF.jpg?itok=LAmLYacz",
+      "sourcePageUrl": "https://cse.sysu.edu.cn/teacher",
+      "officialRosterUrl": "https://cse.sysu.edu.cn/teacher",
+      "profileChecked": true,
+      "decision": "include_new_pi",
+      "reason": "官方个人页的研究方向命中 AI/NLP/CV/ML、数据智能、机器人或紧密相关方向，并确认教授/研究员或独立招生资格。",
+      "evidenceUrl": "https://cse.sysu.edu.cn/teacher/HuangKai",
+      "evidenceExcerpt": "专任教师 研究方向为嵌入式/CPS系统的基础理论及其工业应用。基础研究包括实时操作系统、低功耗体系结构、类脑计算、形式化验证。工业领域涉及无人驾驶、医疗器械、仿生机器人。 教育背景 2005/09-2010/10，瑞士苏黎世理工大学，电子工程系，博士 2004/01-2005/08，荷兰莱顿大学，计算机系，硕士 1995/09-1999/06，复旦大学，计算机系，学士 工作经历 2015/09-至今，中山大学，，教授，博导 2012/07-2015/08，德国慕尼黑工业大学，计算机系，高级研究员 20"
+    },
+    {
+      "officialId": "ad9b1acc9b9153a5",
+      "name": "黄倩怡",
+      "title": "副教授",
+      "officialSections": [
+        "专任教师"
+      ],
+      "profileUrl": "https://cse.sysu.edu.cn/teacher/HuangQianyi",
+      "portraitUrl": "https://cse.sysu.edu.cn/sites/default/files/styles/image_style_2/public/%E9%BB%84%E5%80%A9%E6%80%A1.jpg?itok=XXcDokeR",
+      "sourcePageUrl": "https://cse.sysu.edu.cn/teacher",
+      "officialRosterUrl": "https://cse.sysu.edu.cn/teacher",
+      "profileChecked": true,
+      "decision": "include_new_pi",
+      "reason": "官方个人页的研究方向命中 AI/NLP/CV/ML、数据智能、机器人或紧密相关方向，并确认教授/研究员或独立招生资格。",
+      "evidenceUrl": "https://cse.sysu.edu.cn/teacher/HuangQianyi",
+      "evidenceExcerpt": "副教授 | 专任教师 研究方向包括移动端机器学习(Mobile Deep Learing)、人工智能物联网(Artificial Intelligence of Things, AIoT)、智能感知、通信感知一体化、Wireless+AI等课题，迄今为止发表论文30余篇，包括IEEE/ACM Transactions on Networking, IEEE Transactions on Mobile C"
+    },
+    {
+      "officialId": "fe8d8da0715eaf96",
+      "name": "纪庆革",
+      "title": "副教授",
+      "officialSections": [
+        "专任教师"
+      ],
+      "profileUrl": "https://cse.sysu.edu.cn/teacher/JiQingge",
+      "portraitUrl": "https://cse.sysu.edu.cn/sites/default/files/styles/image_style_2/public/%E7%BA%AA%E5%BA%86%E9%9D%A9.jpg?itok=KoR46qMA",
+      "sourcePageUrl": "https://cse.sysu.edu.cn/teacher",
+      "officialRosterUrl": "https://cse.sysu.edu.cn/teacher",
+      "profileChecked": true,
+      "decision": "include_new_pi",
+      "reason": "官方个人页的研究方向命中 AI/NLP/CV/ML、数据智能、机器人或紧密相关方向，并确认教授/研究员或独立招生资格。",
+      "evidenceUrl": "https://cse.sysu.edu.cn/teacher/JiQingge",
+      "evidenceExcerpt": "副教授 | 专任教师 研究领域: 计算机图形学、虚拟现实与可视化、计算机视觉、区块链技术、多媒体、系统仿真、游戏动画、遥感图像分析、人工智能、并行计算应用 (Computer Graphics, VR, AR & Visualization, Computer Vision, Multimedia, System Simulation, Computer Game & Animation, et al"
+    },
+    {
+      "officialId": "e621705efe10b839",
+      "name": "江颖",
+      "title": "教授",
+      "officialSections": [
+        "专任教师"
+      ],
+      "profileUrl": "https://cse.sysu.edu.cn/teacher/JiangYing",
+      "portraitUrl": "https://cse.sysu.edu.cn/sites/default/files/styles/image_style_2/public/%E6%B1%9F%E9%A2%96%E8%80%81%E5%B8%88%E5%A4%B4%E5%83%8F.png?itok=rQ0-Z6FM",
+      "sourcePageUrl": "https://cse.sysu.edu.cn/teacher",
+      "officialRosterUrl": "https://cse.sysu.edu.cn/teacher",
+      "profileChecked": true,
+      "decision": "include_new_pi",
+      "reason": "官方个人页的研究方向命中 AI/NLP/CV/ML、数据智能、机器人或紧密相关方向，并确认教授/研究员或独立招生资格。",
+      "evidenceUrl": "https://cse.sysu.edu.cn/teacher/JiangYing",
+      "evidenceExcerpt": "室 公开信息 本科生教学 研究生教学 设备与网络 实验室管理 内部信息 外事宣传 人事信息 研究领域: 长期从事高性能计算、医学成像与分析、深度学习、积分方程快速算法、高维稀疏逼近、随机偏微分方程等方向的研究。在相关领域顶级期刊 MATHEMATICS OF COMPUTATION、SIAM JOURNAL ON NUMERICAL ANALYSIS、JOURNAL OF COMPUTATIONAL PHYSICS、IEEE TRANSACTIONS ON MEDICAL IMAGING、IEEE IN"
+    },
+    {
+      "officialId": "22a5cf7b76619b8c",
+      "name": "金舒原",
+      "title": "教授",
+      "officialSections": [
+        "专任教师"
+      ],
+      "profileUrl": "https://cse.sysu.edu.cn/teacher/JinShuyuan",
+      "portraitUrl": "https://cse.sysu.edu.cn/sites/default/files/styles/image_style_2/public/%E9%87%91%E8%88%92%E5%8E%9F.jpg?itok=Tx6Ye8rx",
+      "sourcePageUrl": "https://cse.sysu.edu.cn/teacher",
+      "officialRosterUrl": "https://cse.sysu.edu.cn/teacher",
+      "profileChecked": true,
+      "decision": "include_new_pi",
+      "reason": "官方个人页的研究方向命中 AI/NLP/CV/ML、数据智能、机器人或紧密相关方向，并确认教授/研究员或独立招生资格。",
+      "evidenceUrl": "https://cse.sysu.edu.cn/teacher/JinShuyuan",
+      "evidenceExcerpt": "教授 | 专任教师 研究领域: APT检测、人工智能安全、智能网联汽车安全、云安全、网络安全攻防 教育背景: 2017/02-至今：中山大学，教授、博士生导师。 2010/09-2011/10：澳大利亚迪肯大学，研究员。 2008/01-2017/02：中国科学院计算技术研究所，研究员、博士生导师。 2002/12-2006/12：香港理工大学，博士学位（网络与信息安全）。 1996/09-1998/07：哈"
+    },
+    {
+      "officialId": "4e993d76db44c0e2",
+      "name": "康显桂",
+      "title": "教授",
+      "officialSections": [
+        "专任教师"
+      ],
+      "profileUrl": "https://cse.sysu.edu.cn/teacher/KangXiangui",
+      "portraitUrl": "https://cse.sysu.edu.cn/sites/default/files/styles/image_style_2/public/%E5%BA%B7%E6%98%BE%E6%A1%82.jpg?itok=HfuJw_JG",
+      "sourcePageUrl": "https://cse.sysu.edu.cn/teacher",
+      "officialRosterUrl": "https://cse.sysu.edu.cn/teacher",
+      "profileChecked": true,
+      "decision": "include_new_pi",
+      "reason": "官方个人页的研究方向命中 AI/NLP/CV/ML、数据智能、机器人或紧密相关方向，并确认教授/研究员或独立招生资格。",
+      "evidenceUrl": "https://cse.sysu.edu.cn/teacher/KangXiangui",
+      "evidenceExcerpt": "教授 | 专任教师 研究方向： 1. 人工智能驱动的肿瘤精准诊疗方法与理论； 2. 人工智能与安全，定量深度学习方法与理论； 3. 多媒体信息隐藏和信息取证方法与理论，恶意软件检测与分类。 教育背景: 1998/09 – 2004/03，中山大学计算机软件与理论专业博士研究生, 获理学博士 1986/09 – 1990/07，北京大学本科生, 获理学学士 工作经历: 现为中山大学教授和博士生导师，广东省"
+    },
+    {
+      "officialId": "65e52c8f7bbd1fef",
+      "name": "赖韩江",
+      "title": "副教授",
+      "officialSections": [
+        "专任教师"
+      ],
+      "profileUrl": "https://cse.sysu.edu.cn/teacher/LaiHanjiang",
+      "portraitUrl": "https://cse.sysu.edu.cn/sites/default/files/styles/image_style_2/public/%E8%B5%96%E9%9F%A9%E6%B1%9F.jpg?itok=ffxmunxE",
+      "sourcePageUrl": "https://cse.sysu.edu.cn/teacher",
+      "officialRosterUrl": "https://cse.sysu.edu.cn/teacher",
+      "profileChecked": true,
+      "decision": "include_new_pi",
+      "reason": "官方个人页的研究方向命中 AI/NLP/CV/ML、数据智能、机器人或紧密相关方向，并确认教授/研究员或独立招生资格。",
+      "evidenceUrl": "https://cse.sysu.edu.cn/teacher/LaiHanjiang",
+      "evidenceExcerpt": "副教授 | 专任教师 研究领域: 多模态数据分析、数据挖掘、信息检索 教务部 统一门户 研究生院 科学研究院 学生工作部 人力资源管理处 大学服务中心 财务与国资管理处 地址：广州市番禺区大学城外环东路132号（510006） 2015-2025 © 中山大学 版权所有 微信公众号 网站手机版 学院概况 学院简介 历史沿革 学院领导 组织架构 常设机构 行政办公 党建工会 党建工作 党建动态 党建通知 党委分工 工"
+    },
+    {
+      "officialId": "7b23acca6dd7ef44",
+      "name": "赖剑煌",
+      "title": "教授",
+      "officialSections": [
+        "专任教师"
+      ],
+      "profileUrl": "https://cse.sysu.edu.cn/teacher/LaiJianhuang",
+      "portraitUrl": "https://cse.sysu.edu.cn/sites/default/files/styles/image_style_2/public/default_images/defaultnopic.jpg?itok=WIqiZXr7",
+      "sourcePageUrl": "https://cse.sysu.edu.cn/teacher",
+      "officialRosterUrl": "https://cse.sysu.edu.cn/teacher",
+      "profileChecked": true,
+      "decision": "include_new_pi",
+      "reason": "官方个人页的研究方向命中 AI/NLP/CV/ML、数据智能、机器人或紧密相关方向，并确认教授/研究员或独立招生资格。",
+      "evidenceUrl": "https://cse.sysu.edu.cn/teacher/LaiJianhuang",
+      "evidenceExcerpt": "教授 | 专任教师 研究领域: 计算机视觉：工业视觉检测、人脸识别、对象检测、增强与跟踪； 模式识别：脑启发的神经网络计算机模型、可解释的深度学习新方法、非线性模式识别； 视频图像分析与理解：智慧城市计算中的行人重识别、空地一体化图像分析、行为识别、群体状态检测与分析； 人工智能大模型技术应用。 教育背景: 中山大学数学专业：本科、硕士、博士 获奖及荣誉: “视觉鲁棒特征提取与非线性分析” 获广东省"
+    },
+    {
+      "officialId": "deb9f4e8cfe65cff",
+      "name": "李冠彬",
+      "title": "教授",
+      "officialSections": [
+        "专任教师"
+      ],
+      "profileUrl": "https://cse.sysu.edu.cn/teacher/LiGuanbin",
+      "portraitUrl": "https://cse.sysu.edu.cn/sites/default/files/styles/image_style_2/public/%E6%9D%8E%E5%86%A0%E5%BD%AC.jpg?itok=5MYgMKoK",
+      "sourcePageUrl": "https://cse.sysu.edu.cn/teacher",
+      "officialRosterUrl": "https://cse.sysu.edu.cn/teacher",
+      "profileChecked": true,
+      "decision": "include_new_pi",
+      "reason": "官方个人页的研究方向命中 AI/NLP/CV/ML、数据智能、机器人或紧密相关方向，并确认教授/研究员或独立招生资格。",
+      "evidenceUrl": "https://cse.sysu.edu.cn/teacher/LiGuanbin",
+      "evidenceExcerpt": "教授 | 专任教师 研究领域为跨模态视觉感知、理解与生成。 迄今为止累计发表CCF A类/中科院一区论文 120 余篇，Google Scholar 引用超过 16000次。曾获得中国图象图形学学会青年科学家奖、吴文俊人工智能优秀青年奖、ACM 中国新星提名奖、中国图象图形学学会科学技术一等奖、ICCV2019 最佳论文提名奖、ICMR2021 最佳海报论文奖等荣誉。入选人工智能领域全球前2%顶尖"
+    },
+    {
+      "officialId": "9de3d0879924626a",
+      "name": "李绿周",
+      "title": "教授",
+      "officialSections": [
+        "专任教师"
+      ],
+      "profileUrl": "https://cse.sysu.edu.cn/teacher/LiLvzhou",
+      "portraitUrl": "https://cse.sysu.edu.cn/sites/default/files/styles/image_style_2/public/%E6%9D%8E%E7%BB%BF%E5%91%A8.jpg?itok=4D3vE5Ix",
+      "sourcePageUrl": "https://cse.sysu.edu.cn/teacher",
+      "officialRosterUrl": "https://cse.sysu.edu.cn/teacher",
+      "profileChecked": true,
+      "decision": "include_new_pi",
+      "reason": "官方个人页的研究方向命中 AI/NLP/CV/ML、数据智能、机器人或紧密相关方向，并确认教授/研究员或独立招生资格。",
+      "evidenceUrl": "https://cse.sysu.edu.cn/teacher/LiLvzhou",
+      "evidenceExcerpt": "教授 | 专任教师 研究方向学习资料 团队的研究方向主要包括： 1. 量子计算：量子算法、量子计算模型、量子机器学习、量子线路编译与优化等 2. 工程实践：量子计算软件开发 欢迎感兴趣的同学与我们联系，研究团队与国内外知名高校、重点实验室、业界有广泛的学术合作， 鼓励对外交流，提供丰厚研究补贴。 研究生招生专业： 博士生：计算机科学与技术（学术博士）、计算机技术（工程博士） 硕士生：（1）学术硕士：计算机科学与技术；（2）工程硕士：电子信息（含计算机技术、软件工程等） 博"
+    },
+    {
+      "officialId": "373fa7d833cf9d37",
+      "name": "李洽",
+      "title": "副教授",
+      "officialSections": [
+        "专任教师"
+      ],
+      "profileUrl": "https://cse.sysu.edu.cn/teacher/LiQia",
+      "portraitUrl": "https://cse.sysu.edu.cn/sites/default/files/styles/image_style_2/public/default_images/defaultnopic.jpg?itok=WIqiZXr7",
+      "sourcePageUrl": "https://cse.sysu.edu.cn/teacher",
+      "officialRosterUrl": "https://cse.sysu.edu.cn/teacher",
+      "profileChecked": true,
+      "decision": "include_new_pi",
+      "reason": "官方个人页的研究方向命中 AI/NLP/CV/ML、数据智能、机器人或紧密相关方向，并确认教授/研究员或独立招生资格。",
+      "evidenceUrl": "https://cse.sysu.edu.cn/teacher/LiQia",
+      "evidenceExcerpt": "副教授 | 专任教师 研究方向包括最优化理论与算法及在机器学习、大数据分析、图像处理等领域中的应用，研究成果发表于SIAM Journal on Optimization, Applied and Computational Harmonic Analysis, Mathematics of Operations Research, Inverse Problems等期刊。 如果您对我的研究方向感兴趣，欢迎报考我的研究"
+    },
+    {
+      "officialId": "5bd86c75b6c8c6bb",
+      "name": "李全忠",
+      "title": "副教授",
+      "officialSections": [
+        "专任教师"
+      ],
+      "profileUrl": "https://cse.sysu.edu.cn/teacher/LiQuanzhong",
+      "portraitUrl": "https://cse.sysu.edu.cn/sites/default/files/styles/image_style_2/public/%E6%9D%8E%E5%85%A8%E5%BF%A0.jpg?itok=1wHHlkyb",
+      "sourcePageUrl": "https://cse.sysu.edu.cn/teacher",
+      "officialRosterUrl": "https://cse.sysu.edu.cn/teacher",
+      "profileChecked": true,
+      "decision": "include_new_pi",
+      "reason": "官方个人页的研究方向命中 AI/NLP/CV/ML、数据智能、机器人或紧密相关方向，并确认教授/研究员或独立招生资格。",
+      "evidenceUrl": "https://cse.sysu.edu.cn/teacher/LiQuanzhong",
+      "evidenceExcerpt": "息科学与技术学院，通信工程专业，学士 工作经历: 2019.01至今：中山大学，副教授、硕士生导师 2015.07-2018.12：中山大学数据科学与，讲师、硕士生导师 2014.07-2015.06：中山大学超级计算学院，讲师 获奖及荣誉: 全球前2%顶尖科学家“年度影响力”榜单 广东省科学技术奖（自然科学）二等奖（排名第3） 科研项目: 国家自然科学基金-面上项目，在研，主持。 广东省自然科学基金-面上项目，资助期满，主持。 国家自然科学基金-青年科学基金项目，已结题，主持。 广东省自然科学基金-博"
+    },
+    {
+      "officialId": "771ba570251c1397",
+      "name": "黎卫兵",
+      "title": "副教授",
+      "officialSections": [
+        "专任教师"
+      ],
+      "profileUrl": "https://cse.sysu.edu.cn/teacher/LiWeibing",
+      "portraitUrl": "https://cse.sysu.edu.cn/sites/default/files/styles/image_style_2/public/default_images/defaultnopic.jpg?itok=WIqiZXr7",
+      "sourcePageUrl": "https://cse.sysu.edu.cn/teacher",
+      "officialRosterUrl": "https://cse.sysu.edu.cn/teacher",
+      "profileChecked": true,
+      "decision": "include_new_pi",
+      "reason": "官方个人页的研究方向命中 AI/NLP/CV/ML、数据智能、机器人或紧密相关方向，并确认教授/研究员或独立招生资格。",
+      "evidenceUrl": "https://cse.sysu.edu.cn/teacher/LiWeibing",
+      "evidenceExcerpt": "副教授 | 专任教师 研究领域: 医疗机器人、具身智能机器人、神经计算 拟重点研究基于人工智能/大模型的机器人学习方法，长期欢迎对AI + Robotics感兴趣、求学态度端正、能静心投入时间的研究生和本科生加入课题组（如有\"混学位\"想法的，请勿联系，多谢） 长期招收计算机、机械工程、自动化、电子信息、生物医学工程（排名无先后）等相关领域的博士后研究人员与专职科研系列人员 课题组与国内外多个研究机构如"
+    },
+    {
+      "officialId": "15643a2e45afa416",
+      "name": "李文军",
+      "title": "教授",
+      "officialSections": [
+        "专任教师"
+      ],
+      "profileUrl": "https://cse.sysu.edu.cn/teacher/LiWenjun",
+      "portraitUrl": "https://cse.sysu.edu.cn/sites/default/files/styles/image_style_2/public/%E6%9D%8E%E6%96%87%E5%86%9B.jpg?itok=09uTejKK",
+      "sourcePageUrl": "https://cse.sysu.edu.cn/teacher",
+      "officialRosterUrl": "https://cse.sysu.edu.cn/teacher",
+      "profileChecked": true,
+      "decision": "excluded_non_ai_cs",
+      "reason": "已检查官方个人页及名录字段，公开研究主线未显示 AI、NLP、CV、ML、数据智能、机器人或本图谱紧密相邻方向。",
+      "evidenceUrl": "https://cse.sysu.edu.cn/teacher/LiWenjun",
+      "evidenceExcerpt": "教育背景 Sep. 1995 - July 2001 Ph.D. Student, Institute of Software, Chinese Academy of Sciences Sep. 1988 - July 1991 Master Student, Department of Computer Science, Sun Yat-sen University Sep. 1984 - July 1988 Undergraduate Student, Department of Computer Science, Sun Yat-sen University 教务部 统一门户 研究生院 科学研究院 学生工作部 人力资源管理处 大学服务中心 财务与国资管理处 地址：广州市番禺区大学城外环东路132号（510006） 2015-2025 © 中山大学计算机学院 版权所有 微信公众号 网站手机版 学院概况 学院简介 历史沿革 学院领导 组织架构 常设机构 行政办公 党建工会 党建工作 党建动态 党建通知 党委分工 工会工作 工会建设 工会分工 人才培养 本科生培养 教学通知 培养方案 "
+    },
+    {
+      "officialId": "59b13ff718d80033",
+      "name": "林倞",
+      "title": "教授",
+      "officialSections": [
+        "专任教师"
+      ],
+      "profileUrl": "https://cse.sysu.edu.cn/teacher/LinLiang",
+      "portraitUrl": "https://cse.sysu.edu.cn/sites/default/files/styles/image_style_2/public/%E6%9E%97%E5%80%9E.jpg?itok=_RZXSYNF",
+      "sourcePageUrl": "https://cse.sysu.edu.cn/teacher",
+      "officialRosterUrl": "https://cse.sysu.edu.cn/teacher",
+      "profileChecked": true,
+      "decision": "included_existing",
+      "atlasPersonId": "liang-lin-award",
+      "reason": "图谱已有同一人物 liang-lin-award；官方名录/个人页确认其当前属于中山大学计算机学院。",
+      "evidenceUrl": "https://cse.sysu.edu.cn/teacher/LinLiang",
+      "evidenceExcerpt": "教授 | 专任教师 研究领域: 多模态感知与理解 — 场景语义解析；跨模态因果推断；跨领域泛化理解 — 自监督学习及预训练大模型；强化学习；认知及常识推理 多模态物理世界模型 — 精准可控的图像视频生成；3D场景生成及编辑； 具身智能技术及应用 — \"感知-规划-执行\"通用模型架构；类人通用机器人；具身智能仿真训练平台 获奖及荣誉: 1. 获得CCF-ACM Award for Artificial Intelligence (年度唯一)，2025 2. 获得ACL 2025 Out"
+    },
+    {
+      "officialId": "ceae37451589b773",
+      "name": "凌青",
+      "title": "教授",
+      "officialSections": [
+        "专任教师"
+      ],
+      "profileUrl": "https://cse.sysu.edu.cn/teacher/LingQing",
+      "portraitUrl": "https://cse.sysu.edu.cn/sites/default/files/styles/image_style_2/public/%E5%87%8C%E9%9D%92.jpg?itok=1OKyIulJ",
+      "sourcePageUrl": "https://cse.sysu.edu.cn/teacher",
+      "officialRosterUrl": "https://cse.sysu.edu.cn/teacher",
+      "profileChecked": true,
+      "decision": "include_new_pi",
+      "reason": "官方个人页的研究方向命中 AI/NLP/CV/ML、数据智能、机器人或紧密相关方向，并确认教授/研究员或独立招生资格。",
+      "evidenceUrl": "https://cse.sysu.edu.cn/teacher/LingQing",
+      "evidenceExcerpt": "教授 | 专任教师 研究领域: 分布式优化、机器学习、大数据处理 教育背景: 2001.9-2006.7：中国科学技术大学、博士 1997.9-2001.7：中国科学技术大学、本科 工作经历: 2017.12-至今：中山大学、教授 2014.9-2015.2：微软亚洲研究院、铸星计划访问学者 2012.8-2014.2：宾夕法尼亚大学、访问学者 2009.9-2017.11：中国科学技术大学、副教授 2008"
+    },
+    {
+      "officialId": "4b3b131a1186125a",
+      "name": "刘聪",
+      "title": "副教授",
+      "officialSections": [
+        "专任教师"
+      ],
+      "profileUrl": "https://cse.sysu.edu.cn/teacher/LiuCong",
+      "portraitUrl": "https://cse.sysu.edu.cn/sites/default/files/styles/image_style_2/public/%E5%88%98%E8%81%AA.jpg?itok=4o3P9Zjk",
+      "sourcePageUrl": "https://cse.sysu.edu.cn/teacher",
+      "officialRosterUrl": "https://cse.sysu.edu.cn/teacher",
+      "profileChecked": true,
+      "decision": "include_new_pi",
+      "reason": "官方个人页的研究方向命中 AI/NLP/CV/ML、数据智能、机器人或紧密相关方向，并确认教授/研究员或独立招生资格。",
+      "evidenceUrl": "https://cse.sysu.edu.cn/teacher/LiuCong",
+      "evidenceExcerpt": "副教授 | 专任教师 研究领域 人工智能／自然语言处理／大语言模型 计算机无线网络／自组织无线网络／容迟网络／路由协议 计算机无线网络／自组织无线网络／地理信息路由协议 计算机网络／入侵检测与预防／深层包裹检测 并行分布计算／数据库事务处理／乐观事务处理 个人简历: 下载 教务部 统一门户 研究生院 科学研究院 学生工作部 人力资源管理处 大学服务中心 财务与国资管理处 地址：广州市番禺区大学城外"
+    },
+    {
+      "officialId": "ca51afb8b034d185",
+      "name": "刘宁",
+      "title": "教授",
+      "officialSections": [
+        "专任教师"
+      ],
+      "profileUrl": "https://cse.sysu.edu.cn/teacher/LiuNing",
+      "portraitUrl": "https://cse.sysu.edu.cn/sites/default/files/styles/image_style_2/public/%E5%88%98%E5%AE%81.jpg?itok=vCeT0Big",
+      "sourcePageUrl": "https://cse.sysu.edu.cn/teacher",
+      "officialRosterUrl": "https://cse.sysu.edu.cn/teacher",
+      "profileChecked": true,
+      "decision": "include_new_pi",
+      "reason": "官方个人页的研究方向命中 AI/NLP/CV/ML、数据智能、机器人或紧密相关方向，并确认教授/研究员或独立招生资格。",
+      "evidenceUrl": "https://cse.sysu.edu.cn/teacher/LiuNing",
+      "evidenceExcerpt": "教授 | 专任教师 研究领域: 人工智能数据与模型安全： 研究人工智能模型安全风险评估方法与防控策略，提升AI模型的鲁棒性。 多模态大模型的智能感知： 研究基于多模态大模型强大的表征、推理及多任务学习能力并结合移动物联网技术，提升智能感知与定位能力。 多智能体的智能感知： 基于多智能体的自主决策、环境交互及分布式协同感知，研究构建高效的群智感知网络，实现智能感知与定位。 大数据信息分析与溯源： 研"
+    },
+    {
+      "officialId": "8acb8014df288991",
+      "name": "刘阳",
+      "title": "副教授",
+      "officialSections": [
+        "专任教师"
+      ],
+      "profileUrl": "https://cse.sysu.edu.cn/teacher/LiuYang",
+      "portraitUrl": "https://cse.sysu.edu.cn/sites/default/files/styles/image_style_2/public/ChatGPT%20Image%202026%E5%B9%B42%E6%9C%8813%E6%97%A5%2017_07_43.png?itok=QrLzbbft",
+      "sourcePageUrl": "https://cse.sysu.edu.cn/teacher",
+      "officialRosterUrl": "https://cse.sysu.edu.cn/teacher",
+      "profileChecked": true,
+      "decision": "include_new_pi",
+      "reason": "官方个人页的研究方向命中 AI/NLP/CV/ML、数据智能、机器人或紧密相关方向，并确认教授/研究员或独立招生资格。",
+      "evidenceUrl": "https://cse.sysu.edu.cn/teacher/LiuYang",
+      "evidenceExcerpt": "副教授 | 专任教师 研究方向为具身智能与机器人、自进化智能体、多模态感知与推理 。 累计发表论文60余篇，包括TPAMI、TIP、CVPR、ICCV、ICML、NeurIPS等CCF-A/中科院一区期刊和会议，7篇一作/通讯期刊论文入选ESI高被引/热点，5篇会议论文入选Oral/Highlight，1篇论文入选TMech期刊最受欢迎榜单前2。出版中英文专著《多模态大模型：新一代人工智能技术"
+    },
+    {
+      "officialId": "628d351810039286",
+      "name": "刘咏梅",
+      "title": "教授",
+      "officialSections": [
+        "专任教师"
+      ],
+      "profileUrl": "https://cse.sysu.edu.cn/teacher/LiuYongmei",
+      "portraitUrl": "https://cse.sysu.edu.cn/sites/default/files/styles/image_style_2/public/%E5%88%98%E5%92%8F%E6%A2%85.jpg?itok=LLQMlWh-",
+      "sourcePageUrl": "https://cse.sysu.edu.cn/teacher",
+      "officialRosterUrl": "https://cse.sysu.edu.cn/teacher",
+      "profileChecked": true,
+      "decision": "included_existing",
+      "atlasPersonId": "yongmei-liu-sysu",
+      "reason": "图谱已有同一人物 yongmei-liu-sysu；官方名录/个人页确认其当前属于中山大学计算机学院。",
+      "evidenceUrl": "https://cse.sysu.edu.cn/teacher/LiuYongmei",
+      "evidenceExcerpt": "教授 | 专任教师 研究方向为人工智能，知识表示与推理，自然语言处理，多智能体系统，智能规划。于国际人工智能会议IJCAI, AAAI，ECAI，ACL，和EMNLP上发表学术论文40余篇。主持国家自然科学基金面上项目多项。长期担任国际人工智能会议IJCAI，AAAI，ECAI，ICAPS，AAMAS，KR等的程序委员会委员。 招生信息： 本研究组致力于探索神经符号人工智能，将经典的符号逻辑、形"
+    },
+    {
+      "officialId": "2634e14c2780eb0a",
+      "name": "刘玉葆",
+      "title": "教授",
+      "officialSections": [
+        "专任教师"
+      ],
+      "profileUrl": "https://cse.sysu.edu.cn/teacher/LiuYubao",
+      "portraitUrl": "https://cse.sysu.edu.cn/sites/default/files/styles/image_style_2/public/default_images/defaultnopic.jpg?itok=WIqiZXr7",
+      "sourcePageUrl": "https://cse.sysu.edu.cn/teacher",
+      "officialRosterUrl": "https://cse.sysu.edu.cn/teacher",
+      "profileChecked": true,
+      "decision": "include_new_pi",
+      "reason": "官方个人页的研究方向命中 AI/NLP/CV/ML、数据智能、机器人或紧密相关方向，并确认教授/研究员或独立招生资格。",
+      "evidenceUrl": "https://cse.sysu.edu.cn/teacher/LiuYubao",
+      "evidenceExcerpt": "教授 | 专任教师 研究领域: 大数据、数据库与数据挖掘 代表性论著: 1. K.Wu, W.Kong, S.Zhang, Z.Chen, Y.Liu . Efficient Traffic Forecasting on Large-Scale Road Network by Regularized Adaptive Graph Convolution. ICDE 2026 (Full Paper, A"
+    },
+    {
+      "officialId": "437e0abf7aa24f68",
+      "name": "卢伟",
+      "title": "教授",
+      "officialSections": [
+        "专任教师"
+      ],
+      "profileUrl": "https://cse.sysu.edu.cn/teacher/LuWei",
+      "portraitUrl": "https://cse.sysu.edu.cn/sites/default/files/styles/image_style_2/public/default_images/defaultnopic.jpg?itok=WIqiZXr7",
+      "sourcePageUrl": "https://cse.sysu.edu.cn/teacher",
+      "officialRosterUrl": "https://cse.sysu.edu.cn/teacher",
+      "profileChecked": true,
+      "decision": "include_new_pi",
+      "reason": "官方个人页的研究方向命中 AI/NLP/CV/ML、数据智能、机器人或紧密相关方向，并确认教授/研究员或独立招生资格。",
+      "evidenceUrl": "https://cse.sysu.edu.cn/teacher/LuWei",
+      "evidenceExcerpt": "教授 | 专任教师 研究方向包括 ： 人工智能安全与对抗、人工智能生成内容（AIGC）鉴伪与安全、视觉/听觉内容安全与对抗、开源情报分析与对抗； 跨媒体虚假信息检测与溯源、数字取证、deepfake检测； 跨媒体隐蔽通信、信息隐藏、隐写与隐写分析、数字水印； 学术奖励: 上海市科学技术奖（自然科学奖）二等奖； 广东省科技成果推广奖一等奖 中华人民共和国司法行政行业标准： 《数字图像元数据检验技术规范》（"
+    },
+    {
+      "officialId": "288a12012064c665",
+      "name": "陆遥",
+      "title": "教授",
+      "officialSections": [
+        "专任教师"
+      ],
+      "profileUrl": "https://cse.sysu.edu.cn/teacher/LuYao",
+      "portraitUrl": "https://cse.sysu.edu.cn/sites/default/files/styles/image_style_2/public/%E9%99%86%E9%81%A5.jpg?itok=p57v3kYy",
+      "sourcePageUrl": "https://cse.sysu.edu.cn/teacher",
+      "officialRosterUrl": "https://cse.sysu.edu.cn/teacher",
+      "profileChecked": true,
+      "decision": "include_new_pi",
+      "reason": "官方个人页的研究方向命中 AI/NLP/CV/ML、数据智能、机器人或紧密相关方向，并确认教授/研究员或独立招生资格。",
+      "evidenceUrl": "https://cse.sysu.edu.cn/teacher/LuYao",
+      "evidenceExcerpt": "教授 | 专任教师 研究领域: 主要研究领域为：医学人工智能，医学计算机辅助诊断，医学影像分析，机器学习，影像组学，医学大数据分析 教育背景: 8/2005-5/2009 美国雪城大学数学系，博士 Advisor：许跃生，雪城大学，数学系 Co-advisor：Andrzej Krol，纽约州立大学上州医学院，（SUNY Upstate Medical University）放射学系 9/2000-7/2005 中国"
+    },
+    {
+      "officialId": "d234976639a22237",
+      "name": "卢宇彤",
+      "title": "教授",
+      "officialSections": [
+        "专任教师"
+      ],
+      "profileUrl": "https://cse.sysu.edu.cn/teacher/LuYutong",
+      "portraitUrl": "https://cse.sysu.edu.cn/sites/default/files/styles/image_style_2/public/default_images/defaultnopic.jpg?itok=WIqiZXr7",
+      "sourcePageUrl": "https://cse.sysu.edu.cn/teacher",
+      "officialRosterUrl": "https://cse.sysu.edu.cn/teacher",
+      "profileChecked": true,
+      "decision": "include_new_pi",
+      "reason": "官方个人页的研究方向命中 AI/NLP/CV/ML、数据智能、机器人或紧密相关方向，并确认教授/研究员或独立招生资格。",
+      "evidenceUrl": "https://cse.sysu.edu.cn/teacher/LuYutong",
+      "evidenceExcerpt": "计划项目、国家自然科学基金重点项目多项。 研究领域: 高性能并行系统软件，大规模数据分析处理技术，面向领域的超算应用支撑平台，超算和大数据、人工智能融合创新发展的技术、系统和应用的研究与实现。 教务部 统一门户 研究生院 科学研究院 学生工作部 人力资源管理处 大学服务中心 财务与国资管理处 地址：广州市番禺区大学城外环东路132号（510006） 2015-2025 © 中山大学 版权所有 微信公众号 网站手机版 学院概况 学院简介 历史沿革 学院领导 组织架构 常设机构 行政办公 党建工会 党建工作"
+    },
+    {
+      "officialId": "4a048d2d69b8a795",
+      "name": "骆伟祺",
+      "title": "教授",
+      "officialSections": [
+        "专任教师"
+      ],
+      "profileUrl": "https://cse.sysu.edu.cn/teacher/LuoWeiqi",
+      "portraitUrl": "https://cse.sysu.edu.cn/sites/default/files/styles/image_style_2/public/my.jpg?itok=Z09n4f_Q",
+      "sourcePageUrl": "https://cse.sysu.edu.cn/teacher",
+      "officialRosterUrl": "https://cse.sysu.edu.cn/teacher",
+      "profileChecked": true,
+      "decision": "include_new_pi",
+      "reason": "官方个人页的研究方向命中 AI/NLP/CV/ML、数据智能、机器人或紧密相关方向，并确认教授/研究员或独立招生资格。",
+      "evidenceUrl": "https://cse.sysu.edu.cn/teacher/LuoWeiqi",
+      "evidenceExcerpt": "教授 | 专任教师 研究领域: 生成式深度学习（生成对抗网络、扩散模型等）、深度伪造及检测、信息隐藏及分析等 工作经历: 2007.02 -2008.03 美国马里兰大学访问学者 2008.07 - 2010.08 中山大学数学博士后流动站 科研博士后 2010.09- 2011.08 中山大学软件学院 讲师 、硕士生导师 2011.09 - 2016.12 中山大学数据科学与（软件学院） 副教"
+    },
+    {
+      "officialId": "2718e5245295d5d1",
+      "name": "马锦华",
+      "title": "副教授",
+      "officialSections": [
+        "专任教师"
+      ],
+      "profileUrl": "https://cse.sysu.edu.cn/teacher/MaJinhua",
+      "portraitUrl": "https://cse.sysu.edu.cn/sites/default/files/styles/image_style_2/public/%E9%A9%AC%E9%94%A6%E5%8D%8E.jpg?itok=RXGZ1PN0",
+      "sourcePageUrl": "https://cse.sysu.edu.cn/teacher",
+      "officialRosterUrl": "https://cse.sysu.edu.cn/teacher",
+      "profileChecked": true,
+      "decision": "include_new_pi",
+      "reason": "官方个人页的研究方向命中 AI/NLP/CV/ML、数据智能、机器人或紧密相关方向，并确认教授/研究员或独立招生资格。",
+      "evidenceUrl": "https://cse.sysu.edu.cn/teacher/MaJinhua",
+      "evidenceExcerpt": "副教授 | 专任教师 研究领域: 1. 机器学习（自监督/弱监督学习、小样本学习、迁移学习、生成模型、分类器/特征融合、深度学习等） 2. 计算机视觉（智能视频监控、多模态大模型、行为识别、行人重识别、目标检测与分割等） 3. 医学图像处理（疾病分类、病灶分割与定位等） 教育背景: 2009.9-2013.11，香港浸会大学，计算机科学系，博士 2007.9-2009.7，中山大学，数学与计算科学学院应用"
+    },
+    {
+      "officialId": "8b733a350c04eb0b",
+      "name": "马啸",
+      "title": "教授",
+      "officialSections": [
+        "专任教师"
+      ],
+      "profileUrl": "https://cse.sysu.edu.cn/teacher/MaXiao",
+      "portraitUrl": "https://cse.sysu.edu.cn/sites/default/files/styles/image_style_2/public/%E9%A9%AC%E5%95%B8.jpg?itok=kenW_nWJ",
+      "sourcePageUrl": "https://cse.sysu.edu.cn/teacher",
+      "officialRosterUrl": "https://cse.sysu.edu.cn/teacher",
+      "profileChecked": true,
+      "decision": "excluded_non_ai_cs",
+      "reason": "已检查官方个人页及名录字段，公开研究主线未显示 AI、NLP、CV、ML、数据智能、机器人或本图谱紧密相邻方向。",
+      "evidenceUrl": "https://cse.sysu.edu.cn/teacher/MaXiao",
+      "evidenceExcerpt": "研究领域: 信息论与编码、空间通信、B5G/6G通信、光通信、高性能存储、语义通信、隐蔽通信等。 ● 本科生课程：离散数学、概率论与数理统计、信道编码、数学分析 ● 研究生课程：随机过程、信息论 欢迎电子通信、计算机、应用数学等相关专业人士加入团队。 ● 长期招收博士后。 ● 长期招收博士、硕士研究生，也欢迎优秀本科生前来学习实践。 教务部 统一门户 研究生院 科学研究院 学生工作部 人力资源管理处 大学服务中心 财务与国资管理处 地址：广州市番禺区大学城外环东路132号（510006） 2015-2025 © 中山大学计算机学院 版权所有 微信公众号 网站手机版 学院概况 学院简介 历史沿革 学院领导 组织架构 常设机构 行政办公 党建工会 党建工作 党建动态 党建通知 党委分工 工会工作 工会建设 工会分工 人才培养 本科生培养 教学通知 培养方案 教学成果 人才培养体系 研究生培养 研究生通知 管理制度 培养方案 学位工作 非学历教育 通知公告 项目培养 开班计划 成果展示 国家级人才培养计划 师资队伍 专任教师 专职研究人员 专业技术人员 人才工程 科学研究 科研平台 科研团队"
+    },
+    {
+      "officialId": "e72c719e0b14c804",
+      "name": "孟静珂",
+      "title": "副教授",
+      "officialSections": [
+        "专任教师"
+      ],
+      "profileUrl": "https://cse.sysu.edu.cn/teacher/MengJingke",
+      "portraitUrl": "https://cse.sysu.edu.cn/sites/default/files/styles/image_style_2/public/mjk.png?itok=Pi8QZNvc",
+      "sourcePageUrl": "https://cse.sysu.edu.cn/teacher",
+      "officialRosterUrl": "https://cse.sysu.edu.cn/teacher",
+      "profileChecked": true,
+      "decision": "include_new_pi",
+      "reason": "官方个人页的研究方向命中 AI/NLP/CV/ML、数据智能、机器人或紧密相关方向，并确认教授/研究员或独立招生资格。",
+      "evidenceUrl": "https://cse.sysu.edu.cn/teacher/MengJingke",
+      "evidenceExcerpt": "副教授 | 专任教师 研究方向为计算机视觉、多模态学习与具身智能导航，以第一作者 / 通讯作者身份发表 CCF-A/ 中科院一区论文多篇，其中包括 TPAMI 、 CVPR 、 ICCV 、 ECCV 等，并获得 ACM MM 2024 （ CCF-A ）最佳论文提名；作为负责人，主持承担国家自然科学基金青年科学基金、国家重点研发计划课题任务等项目。 研究方向 计算机视觉与具身导航，包括视频理解、多"
+    },
+    {
+      "officialId": "864dd68d6a3fd9d3",
+      "name": "潘嵘",
+      "title": "副教授",
+      "officialSections": [
+        "专任教师"
+      ],
+      "profileUrl": "https://cse.sysu.edu.cn/teacher/PanRong",
+      "portraitUrl": "https://cse.sysu.edu.cn/sites/default/files/styles/image_style_2/public/default_images/defaultnopic.jpg?itok=WIqiZXr7",
+      "sourcePageUrl": "https://cse.sysu.edu.cn/teacher",
+      "officialRosterUrl": "https://cse.sysu.edu.cn/teacher",
+      "profileChecked": true,
+      "decision": "include_new_pi",
+      "reason": "官方个人页的研究方向命中 AI/NLP/CV/ML、数据智能、机器人或紧密相关方向，并确认教授/研究员或独立招生资格。",
+      "evidenceUrl": "https://cse.sysu.edu.cn/teacher/PanRong",
+      "evidenceExcerpt": "副教授 | 专任教师 研究方向是非线性特征提取。2004年底获得中山大学理学博士学位后，先后在香港科技大学与美国惠普实验室进行数据挖掘、人工智能等方面的研究。2009年10月至今任职于中山大学。 已在国际一流学术会议、期刊和杂志上发表超过十篇学术论文，其中包括Artificial Intelligence, IEEE Transactions on Knowledge Discovery and Data Engineering, ACM Transactions on Informati"
+    },
+    {
+      "officialId": "2d54405657e68714",
+      "name": "潘炎",
+      "title": "副教授",
+      "officialSections": [
+        "专任教师"
+      ],
+      "profileUrl": "https://cse.sysu.edu.cn/teacher/PanYan",
+      "portraitUrl": "https://cse.sysu.edu.cn/sites/default/files/styles/image_style_2/public/default_images/defaultnopic.jpg?itok=WIqiZXr7",
+      "sourcePageUrl": "https://cse.sysu.edu.cn/teacher",
+      "officialRosterUrl": "https://cse.sysu.edu.cn/teacher",
+      "profileChecked": true,
+      "decision": "include_new_pi",
+      "reason": "官方个人页的研究方向命中 AI/NLP/CV/ML、数据智能、机器人或紧密相关方向，并确认教授/研究员或独立招生资格。",
+      "evidenceUrl": "https://cse.sysu.edu.cn/teacher/PanYan",
+      "evidenceExcerpt": "副教授 | 专任教师 研究领域: 主要研究兴趣是多模态大模型、信息检索与推荐、因果推断，包括 1、多模态大模型幻觉抑制、多模态问答、因果推断在大模型中的应用 2、基于深度神经网络的哈希方法，图像检索 3、生成式推荐，排序融合、排序学习 主持的科研项目: 国家自然基金面上项目， 因果驱动的多模态大模型幻觉抑制的关键技术研究，2027-2030 国家自然基金面上项目， 基于深度神经网络的相似性保持哈希的关键技术研究，20"
+    },
+    {
+      "officialId": "f97a0e75c2c9d20f",
+      "name": "邱道文",
+      "title": "教授",
+      "officialSections": [
+        "专任教师"
+      ],
+      "profileUrl": "https://cse.sysu.edu.cn/teacher/QiuDaowen",
+      "portraitUrl": "https://cse.sysu.edu.cn/sites/default/files/styles/image_style_2/public/%E9%82%B1%E9%81%93%E6%96%87.jpg?itok=wMm14IKa",
+      "sourcePageUrl": "https://cse.sysu.edu.cn/teacher",
+      "officialRosterUrl": "https://cse.sysu.edu.cn/teacher",
+      "profileChecked": true,
+      "decision": "include_new_pi",
+      "reason": "官方个人页的研究方向命中 AI/NLP/CV/ML、数据智能、机器人或紧密相关方向，并确认教授/研究员或独立招生资格。",
+      "evidenceUrl": "https://cse.sysu.edu.cn/teacher/QiuDaowen",
+      "evidenceExcerpt": "教授 办公电话： 86-18127831531 联系邮箱： issqdw@mail.sysu.edu.cn 联系地址： 广州市大学城中山大学数据科学与 个人主页： http://222.200.185.9/space/020165/ 教师简介: My main research outcomes have been in the following areas. (1) Quantum models of computation, including quantum automata and quant"
+    },
+    {
+      "officialId": "db65b6e3484703cc",
+      "name": "权国聪",
+      "title": "副教授",
+      "officialSections": [
+        "专任教师"
+      ],
+      "profileUrl": "https://cse.sysu.edu.cn/teacher/QuanGuocong",
+      "portraitUrl": "https://cse.sysu.edu.cn/sites/default/files/styles/image_style_2/public/quangc_1.jpeg?itok=hopaD7eh",
+      "sourcePageUrl": "https://cse.sysu.edu.cn/teacher",
+      "officialRosterUrl": "https://cse.sysu.edu.cn/teacher",
+      "profileChecked": true,
+      "decision": "include_new_pi",
+      "reason": "官方个人页的研究方向命中 AI/NLP/CV/ML、数据智能、机器人或紧密相关方向，并确认教授/研究员或独立招生资格。",
+      "evidenceUrl": "https://cse.sysu.edu.cn/teacher/QuanGuocong",
+      "evidenceExcerpt": "的研究方向聚焦于 “高效分布式AI系统与算法” ，我们希望通过融合理论分析、算法设计与系统实现，构建能够在大规模、异构环境下高效、可靠运行的人工智能计算平台与优化方法。我们近期关注的具体研究问题包括： 高效大模型推理 （i）如何设计LLM推理请求调度策略，以最小化平均任务时长？ （ii）如何针对推测解码，设计请求间并行算法，从而提高推理效率？ 大规模分布式资源管理与优化 （i）如何针对异构AI系统，实现存储、算力、网络资源的统筹管理与优化？ （ii）如何针对时效敏感型系统（如基于Transformer的"
+    },
+    {
+      "officialId": "a612bfa40cdbef3b",
+      "name": "饶洋辉",
+      "title": "副教授",
+      "officialSections": [
+        "专任教师"
+      ],
+      "profileUrl": "https://cse.sysu.edu.cn/teacher/RaoYanghui",
+      "portraitUrl": "https://cse.sysu.edu.cn/sites/default/files/styles/image_style_2/public/%E8%AF%81%E4%BB%B6%E7%85%A7.jpg?itok=PJKfno7c",
+      "sourcePageUrl": "https://cse.sysu.edu.cn/teacher",
+      "officialRosterUrl": "https://cse.sysu.edu.cn/teacher",
+      "profileChecked": true,
+      "decision": "include_new_pi",
+      "reason": "官方个人页的研究方向命中 AI/NLP/CV/ML、数据智能、机器人或紧密相关方向，并确认教授/研究员或独立招生资格。",
+      "evidenceUrl": "https://cse.sysu.edu.cn/teacher/RaoYanghui",
+      "evidenceExcerpt": "副教授 | 专任教师 研究领域: 语言模型、知识图谱、主题建模、文本生成、情感分析 工作经历: 2014.9 - 至今，中山大学，移动信息工程学院、数据科学与、 科研项目: 国家自然科学基金面上项目 (61972426, 62372483)，负责人。 国家自然科学基金青年科学基金项目 (61502545)，负责人。 广东省自然科学基金面上项目 (2020A1515010536)，负责人。 中山大学粤"
+    },
+    {
+      "officialId": "ac54f6eea265a7cf",
+      "name": "任江涛",
+      "title": "副教授",
+      "officialSections": [
+        "专任教师"
+      ],
+      "profileUrl": "https://cse.sysu.edu.cn/teacher/RenJiangtao",
+      "portraitUrl": "https://cse.sysu.edu.cn/sites/default/files/styles/image_style_2/public/%E4%BB%BB%E6%B1%9F%E6%B6%9B.jpg?itok=WTZVR33W",
+      "sourcePageUrl": "https://cse.sysu.edu.cn/teacher",
+      "officialRosterUrl": "https://cse.sysu.edu.cn/teacher",
+      "profileChecked": true,
+      "decision": "include_new_pi",
+      "reason": "官方个人页的研究方向命中 AI/NLP/CV/ML、数据智能、机器人或紧密相关方向，并确认教授/研究员或独立招生资格。",
+      "evidenceUrl": "https://cse.sysu.edu.cn/teacher/RenJiangtao",
+      "evidenceExcerpt": "副教授 | 专任教师 研究领域: 数据挖掘与知识发现、机器学习、模式识别、医学人工智能、金融科技、智能交通系统 教育背景: 学士：清华大学 硕士：清华大学 博士：清华大学 美国Drexel University：访问学者 香港大学：访问学者 科研项目: 主持国家自然科学基金项目，“半监督学习思想在机器学习相关问题中的应用研究” 参与国家自然科学基金重点项目，“基于大数据的地方金融安全智能预警与防控系"
+    },
+    {
+      "officialId": "4f673c3ab742e3d9",
+      "name": "桑应朋",
+      "title": "副教授",
+      "officialSections": [
+        "专任教师"
+      ],
+      "profileUrl": "https://cse.sysu.edu.cn/teacher/SangYingpeng",
+      "portraitUrl": "https://cse.sysu.edu.cn/sites/default/files/styles/image_style_2/public/%E6%A1%91%E5%BA%94%E6%9C%8B.jpg?itok=12fRnYmI",
+      "sourcePageUrl": "https://cse.sysu.edu.cn/teacher",
+      "officialRosterUrl": "https://cse.sysu.edu.cn/teacher",
+      "profileChecked": true,
+      "decision": "include_new_pi",
+      "reason": "官方个人页的研究方向命中 AI/NLP/CV/ML、数据智能、机器人或紧密相关方向，并确认教授/研究员或独立招生资格。",
+      "evidenceUrl": "https://cse.sysu.edu.cn/teacher/SangYingpeng",
+      "evidenceExcerpt": "，信息科学与技术学院，硕士 1997/09－2001/07，西南交通大学，信息科学与技术学院，本科 工作经历: 2015/05-，中山大学，数据科学与，副教授 2010/11-2015/04，北京交通大学，计算机与信息技术学院，副教授 海外经历: 2004/03－2007/03，日本北陆先端科学技术大学院，计算机科学系，攻读博士学位 2007/04－2010/10，澳大利亚阿德莱德大学，计算机科学系，博士后研究 科研项目: 1. 教育部留学回国人员基金，面向云计算的海量隐私数据挖掘，2013-7-1至2"
+    },
+    {
+      "officialId": "d6040eead938f4e0",
+      "name": "沈明华",
+      "title": "副教授",
+      "officialSections": [
+        "专任教师"
+      ],
+      "profileUrl": "https://cse.sysu.edu.cn/teacher/ShenMinghua",
+      "portraitUrl": "https://cse.sysu.edu.cn/sites/default/files/styles/image_style_2/public/%E6%B2%88%E6%98%8E%E5%8D%8E.jpg?itok=85qu14Bg",
+      "sourcePageUrl": "https://cse.sysu.edu.cn/teacher",
+      "officialRosterUrl": "https://cse.sysu.edu.cn/teacher",
+      "profileChecked": true,
+      "decision": "include_new_pi",
+      "reason": "官方个人页的研究方向命中 AI/NLP/CV/ML、数据智能、机器人或紧密相关方向，并确认教授/研究员或独立招生资格。",
+      "evidenceUrl": "https://cse.sysu.edu.cn/teacher/ShenMinghua",
+      "evidenceExcerpt": "究方向是计算机体系结构、电子设计自动化。致力于通过访存分析与并行处理等手段，研究领域计算软硬件设计的理论方法与关键技术，并利用其解决大数据、人工智能、集成电路等关键领域的基础计算问题。 以第一和通讯作者在ISCA、HPCA、FPGA等著名国际会议和期刊上发表论文40余篇，获得国家青年拔尖、广东省杰出青年、小米青年学者等荣誉，主持国家重点研发计划课题、鹏城国家实验室科创基金重点项目、国家自然科学基金面上项目等10余项，获得广东省科技进步特等奖（R11）和广东省本科教育教学成果特等奖（R7）。授权国家发明专"
+    },
+    {
+      "officialId": "e084b22494929b25",
+      "name": "沈颖",
+      "title": "副教授",
+      "officialSections": [
+        "专任教师"
+      ],
+      "profileUrl": "https://cse.sysu.edu.cn/teacher/3471",
+      "portraitUrl": "https://cse.sysu.edu.cn/sites/default/files/styles/image_style_2/public/2024%20%E8%AF%81%E4%BB%B6%E7%85%A7_%E5%B0%8F%E4%B8%80%E5%AF%B8_0.jpg?itok=vUnncjH5",
+      "sourcePageUrl": "https://cse.sysu.edu.cn/teacher",
+      "officialRosterUrl": "https://cse.sysu.edu.cn/teacher",
+      "profileChecked": true,
+      "decision": "include_new_pi",
+      "reason": "官方个人页的研究方向命中 AI/NLP/CV/ML、数据智能、机器人或紧密相关方向，并确认教授/研究员或独立招生资格。",
+      "evidenceUrl": "https://cse.sysu.edu.cn/teacher/3471",
+      "evidenceExcerpt": "thub.com/SYSU-NLPLab/AIGC 沈颖，中山大学副教授，博士生导师，广东省消防科学与智能应急技术重点实验室副主任。长期从事人工智能、大语言模型、多模态计算、具身智能等学科探索。在该领域出版教科书1部，连续5学期/学年开设慕课西行协助西北地区高校人工智能学科建设，网上选课人数46000多人，选课学校148所。以第一作者或通讯作者发表CCF A/中科院一区论文180余篇，其中5篇入选ESI前1%高被引论文，2篇入选ESI前1‰热点论文，3篇获国际会议最佳论文奖，多篇工作获IEEE/ACM"
+    },
+    {
+      "officialId": "023902407deda810",
+      "name": "石飞",
+      "title": "副教授",
+      "officialSections": [
+        "专任教师"
+      ],
+      "profileUrl": "https://cse.sysu.edu.cn/teacher/3434",
+      "portraitUrl": "https://cse.sysu.edu.cn/sites/default/files/styles/image_style_2/public/%E7%9F%B3%E9%A3%9E.jpg?itok=aiTSM3np",
+      "sourcePageUrl": "https://cse.sysu.edu.cn/teacher",
+      "officialRosterUrl": "https://cse.sysu.edu.cn/teacher",
+      "profileChecked": true,
+      "decision": "excluded_non_ai_cs",
+      "reason": "已检查官方个人页及名录字段，公开研究主线未显示 AI、NLP、CV、ML、数据智能、机器人或本图谱紧密相邻方向。",
+      "evidenceUrl": "https://cse.sysu.edu.cn/teacher/3434",
+      "evidenceExcerpt": "研究方向为量子计算与量子信息理论，在Physical Review Letters、IEEE Transactions on Information Theory等顶级期刊发表论文多篇。相关成果入选AQIS国际著名学术会议口头报告，并入选第四届CCF量子计算大会优秀成果案例。现担任CCF量子计算专业委员会和CCF理论计算机科学专业委员会委员。 课题组常年招收硕博研究生，欢迎对量子计算与量子信息领域感兴趣的同学加入！ 代表性论文： Dian Wu # , Fei Shi # , Jia-Cheng Sun, Bo-Wen Wang, Xue-Mei Gu, Giulio Chiribella, Qi Zhao, and Jian Wu, Experimental multipartite entanglement detection with minimal-size correlations, Physical Review Letters 137(10), 100201 (2026). （“#”为共同一作） Fei Shi , Kaiyi Guo, Xiande Zhang, and"
+    },
+    {
+      "officialId": "f7f20efb73351b86",
+      "name": "赵帅",
+      "title": "副教授",
+      "officialSections": [
+        "专任教师"
+      ],
+      "profileUrl": "https://cse.sysu.edu.cn/teacher/ZhaoShuai",
+      "portraitUrl": "https://cse.sysu.edu.cn/sites/default/files/styles/image_style_2/public/Weixin%20Image_20250821154155_33.jpg?itok=2_h-vl8o",
+      "sourcePageUrl": "https://cse.sysu.edu.cn/teacher",
+      "officialRosterUrl": "https://cse.sysu.edu.cn/teacher",
+      "profileChecked": true,
+      "decision": "include_new_pi",
+      "reason": "官方个人页的研究方向命中 AI/NLP/CV/ML、数据智能、机器人或紧密相关方向，并确认教授/研究员或独立招生资格。",
+      "evidenceUrl": "https://cse.sysu.edu.cn/teacher/ZhaoShuai",
+      "evidenceExcerpt": "生： 欢迎来到实时小屋（链接： RTS-SYSU ），我们是一支充满活力的青年科研团队，主要从事 智能化嵌入式与实时系统 、 操作系统 、 机器人/无人机/自动驾驶系统设计及优化 、 数字孪生 、 安全关键编程 等方向的研究，旨在为自动化、智能化系统提供高可靠、高性能、强实时保障。我们欢迎 有创新思维、钻研精神与行动力的同学 加入团队，一起探索智能化嵌入式系统的前沿设计理论与验证技术，研发实时操作系统关键技术，或设计能灵活适应不同环境与任务的机器人控制方法，更加智能地与我们的生活和工作相融合 。 同时"
+    },
+    {
+      "officialId": "f4c4913b784329c6",
+      "name": "苏勤亮",
+      "title": "副教授",
+      "officialSections": [
+        "专任教师"
+      ],
+      "profileUrl": "https://cse.sysu.edu.cn/teacher/SuQinliang",
+      "portraitUrl": "https://cse.sysu.edu.cn/sites/default/files/styles/image_style_2/public/%E8%8B%8F%E5%8B%A4%E4%BA%AE.jpg?itok=HPzthEzW",
+      "sourcePageUrl": "https://cse.sysu.edu.cn/teacher",
+      "officialRosterUrl": "https://cse.sysu.edu.cn/teacher",
+      "profileChecked": true,
+      "decision": "included_existing",
+      "atlasPersonId": "qinliang-su-sysu",
+      "reason": "图谱已有同一人物 qinliang-su-sysu；官方名录/个人页确认其当前属于中山大学计算机学院。",
+      "evidenceUrl": "https://cse.sysu.edu.cn/teacher/SuQinliang",
+      "evidenceExcerpt": "副教授 | 专任教师 研究方向感兴趣的优秀学子与我联系，特别欢迎具有较好数学基础或统计背景的学生与我联系： 机器学习研究与应用（ 如：生成模型、表示学习、统计推断）； 大语言模型LLM及多智能体技术； 多模态分析、理解与生成 ； 课题组现有4名博士生及10余名硕士生在读，已毕业1名博士及近20名硕士，毕业学生绝大多少都前往各大厂（字节、腾讯、阿里）工作或国/境外著名高校深造 2026.6.13 课题组还有多名2027年9月入学的 硕士 名额，欢迎对上述研究方向感兴趣的学生"
+    },
+    {
+      "officialId": "e7f0bac61fd35488",
+      "name": "苏卓",
+      "title": "副教授",
+      "officialSections": [
+        "专任教师"
+      ],
+      "profileUrl": "https://cse.sysu.edu.cn/teacher/SuZhuo",
+      "portraitUrl": "https://cse.sysu.edu.cn/sites/default/files/styles/image_style_2/public/%E8%8B%8F%E5%8D%93.jpg?itok=GmTU2X_6",
+      "sourcePageUrl": "https://cse.sysu.edu.cn/teacher",
+      "officialRosterUrl": "https://cse.sysu.edu.cn/teacher",
+      "profileChecked": true,
+      "decision": "include_new_pi",
+      "reason": "官方个人页的研究方向命中 AI/NLP/CV/ML、数据智能、机器人或紧密相关方向，并确认教授/研究员或独立招生资格。",
+      "evidenceUrl": "https://cse.sysu.edu.cn/teacher/SuZhuo",
+      "evidenceExcerpt": "副教授 | 专任教师 研究领域: 智能视觉计算理论与应用，全屋智能计算技术，面向医康养的多模态AI融合计算 教育背景: 2004.09--2014.06，中山大学，工学学士，工程硕士，工学博士 2012.09--2013.08，香港中文大学，计算机科学与工程系，学术RA 工作经历: 2019.01至今，中山大学，，副教授，博导/硕导 2014.06至今，中山大学国家数字家庭工程技术研究中心，研究员"
+    },
+    {
+      "officialId": "971e85f10ccdc118",
+      "name": "谭宁",
+      "title": "教授",
+      "officialSections": [
+        "专任教师"
+      ],
+      "profileUrl": "https://cse.sysu.edu.cn/teacher/TanNing",
+      "portraitUrl": "https://cse.sysu.edu.cn/sites/default/files/styles/image_style_2/public/%E8%B0%AD%E5%AE%81.jpg?itok=5_79rLmk",
+      "sourcePageUrl": "https://cse.sysu.edu.cn/teacher",
+      "officialRosterUrl": "https://cse.sysu.edu.cn/teacher",
+      "profileChecked": true,
+      "decision": "include_new_pi",
+      "reason": "官方个人页的研究方向命中 AI/NLP/CV/ML、数据智能、机器人或紧密相关方向，并确认教授/研究员或独立招生资格。",
+      "evidenceUrl": "https://cse.sysu.edu.cn/teacher/TanNing",
+      "evidenceExcerpt": "教授 | 专任教师 研究领域 - 机器人 （智能机器人、智能控制、医疗机器人、多机器人协同、仿生机器人） - 人工智能（具身智能、机器/深度学习、多模态大模型、世界模型、类脑计算、机器视觉及其与机器人的结合） 现有部分机器人研究平台 工作经历 2026/01至今：中山大学（SYSU），教授 2018/09－2026/01：中山大学（SYSU），副教授 2018/02－2018/09：新加坡科技与设"
+    },
+    {
+      "officialId": "212c937be9391778",
+      "name": "谭志军",
+      "title": "教授",
+      "officialSections": [
+        "专任教师"
+      ],
+      "profileUrl": "https://cse.sysu.edu.cn/teacher/TanZhijun",
+      "portraitUrl": "https://cse.sysu.edu.cn/sites/default/files/styles/image_style_2/public/%E8%B0%AD%E5%BF%97%E5%86%9B.jpg?itok=ryFKqI06",
+      "sourcePageUrl": "https://cse.sysu.edu.cn/teacher",
+      "officialRosterUrl": "https://cse.sysu.edu.cn/teacher",
+      "profileChecked": true,
+      "decision": "include_new_pi",
+      "reason": "官方个人页的研究方向命中 AI/NLP/CV/ML、数据智能、机器人或紧密相关方向，并确认教授/研究员或独立招生资格。",
+      "evidenceUrl": "https://cse.sysu.edu.cn/teacher/TanZhijun",
+      "evidenceExcerpt": "专任教师 研究领域: （1）界面问题、分数阶与PDE数值算法、计算流体力学 (传统计算方法、AI算法); （2）AI科学计算与高性能计算、机器学习/深度学习算法及应用; （3）相场方法、浸入界面/边界法等; 部分在审论文（AI方向）: 【1】OSPIKAN: An operator-splitting physics-informed Kolmogorov-Arnold network for stiff surface and space fractional Allen-Cahn equation"
+    },
+    {
+      "officialId": "6a036858ef73ff58",
+      "name": "陶钧",
+      "title": "副教授",
+      "officialSections": [
+        "专任教师"
+      ],
+      "profileUrl": "https://cse.sysu.edu.cn/teacher/TaoJun",
+      "portraitUrl": "https://cse.sysu.edu.cn/sites/default/files/styles/image_style_2/public/default_images/defaultnopic.jpg?itok=WIqiZXr7",
+      "sourcePageUrl": "https://cse.sysu.edu.cn/teacher",
+      "officialRosterUrl": "https://cse.sysu.edu.cn/teacher",
+      "profileChecked": true,
+      "decision": "include_new_pi",
+      "reason": "官方个人页的研究方向命中 AI/NLP/CV/ML、数据智能、机器人或紧密相关方向，并确认教授/研究员或独立招生资格。",
+      "evidenceUrl": "https://cse.sysu.edu.cn/teacher/TaoJun",
+      "evidenceExcerpt": "副教授 | 专任教师 研究方向包括：科学可视化，尤其是信息论，优化方法，和交互探索方法在流场可视化以及多变量时变数据上的应用；对图像数据集和对时序数据的可视分析和探索；以及软件可视化在加密算法教育上的应用。成果发表于IEEE Transactions on Visualization and Computer Graphics, Computer Graphics Forum, ACM Transact"
+    },
+    {
+      "officialId": "3f2f562b796bee06",
+      "name": "田海博",
+      "title": "副教授",
+      "officialSections": [
+        "专任教师"
+      ],
+      "profileUrl": "https://cse.sysu.edu.cn/teacher/TianHaibo",
+      "portraitUrl": "https://cse.sysu.edu.cn/sites/default/files/styles/image_style_2/public/%E7%94%B0%E6%B5%B7%E5%8D%9A.jpg?itok=drd7y4S4",
+      "sourcePageUrl": "https://cse.sysu.edu.cn/teacher",
+      "officialRosterUrl": "https://cse.sysu.edu.cn/teacher",
+      "profileChecked": true,
+      "decision": "excluded_non_ai_cs",
+      "reason": "已检查官方个人页及名录字段，公开研究主线未显示 AI、NLP、CV、ML、数据智能、机器人或本图谱紧密相邻方向。",
+      "evidenceUrl": "https://cse.sysu.edu.cn/teacher/TianHaibo",
+      "evidenceExcerpt": "研究领域: 密码学应用，密钥交换协议，数字签名 教育背景: 1997-2006，西安电子科技大学，博士 工作经历: 2015年，中山大学，副教授 海外经历: 2010年10月-2011年11月，加州大学洛杉矶分校 科研项目: 1. 国家自然科学基金青年基金项目，2010-2013. 2.广东省自然科学基金面上项目，2015年。 教授课程: 计算机网络（本科） 密码学基础（本科） 电子商务安全（本科） 代表性论著: 1.Haibo Tian, Fangguo Zhang , Kun Ren : Secure Bilinear Pairing Outsourcing Made More Efficient and Flexible. ASIACCS 2015 : 417-426 2.Haibo Tian, Fangguo Zhang , Xiaofeng Chen , Baodian Wei : Selectively unforgeable but existentially forgeable signature schemes and applications. SCIENCE CH"
+    },
+    {
+      "officialId": "99be11b25222d7ce",
+      "name": "万海",
+      "title": "教授",
+      "officialSections": [
+        "专任教师"
+      ],
+      "profileUrl": "https://cse.sysu.edu.cn/teacher/WanHai",
+      "portraitUrl": "https://cse.sysu.edu.cn/sites/default/files/styles/image_style_2/public/default_images/defaultnopic.jpg?itok=WIqiZXr7",
+      "sourcePageUrl": "https://cse.sysu.edu.cn/teacher",
+      "officialRosterUrl": "https://cse.sysu.edu.cn/teacher",
+      "profileChecked": true,
+      "decision": "included_existing",
+      "atlasPersonId": "hai-wan-sysu",
+      "reason": "图谱已有同一人物 hai-wan-sysu；官方名录/个人页确认其当前属于中山大学计算机学院。",
+      "evidenceUrl": "https://cse.sysu.edu.cn/teacher/WanHai",
+      "evidenceExcerpt": "教授 | 专任教师 研究领域: 人工智能基础理论 、 形式化方法. 具体包括： 知识的表示与推理（KR） 、可信大模型、 可满足性问题 (SAT) 、 组合优化问题 (COP) 等. 工作经历: 2022.4-至今 中山大学（软件学院），教授，博导. 2016.2-2022.4 中山大学（软件学院），副教授，博导. 科研项目: 2022年国家自然科学基金；双向可解释的线性时态逻辑和深度神经网络融合"
+    },
+    {
+      "officialId": "3842adba91df23a3",
+      "name": "王昌栋",
+      "title": "教授",
+      "officialSections": [
+        "专任教师"
+      ],
+      "profileUrl": "https://cse.sysu.edu.cn/teacher/WangChangdong",
+      "portraitUrl": "https://cse.sysu.edu.cn/sites/default/files/styles/image_style_2/public/%E7%8E%8B%E6%98%8C%E6%A0%8B.jpg?itok=eO2VrI9J",
+      "sourcePageUrl": "https://cse.sysu.edu.cn/teacher",
+      "officialRosterUrl": "https://cse.sysu.edu.cn/teacher",
+      "profileChecked": true,
+      "decision": "include_new_pi",
+      "reason": "官方个人页的研究方向命中 AI/NLP/CV/ML、数据智能、机器人或紧密相关方向，并确认教授/研究员或独立招生资格。",
+      "evidenceUrl": "https://cse.sysu.edu.cn/teacher/WangChangdong",
+      "evidenceExcerpt": "Neural Networks（CCF B类SCI）的副编辑（AE），《新医学》期刊青年编委会副主任，《数智技术研究与应用》责任编辑，曾担任人工智能权威期刊Journal of Artificial Intelligence Research（JAIR，CCF B类SCI）的副编辑（AE）、大数据权威期刊IEEE Transactions on Big Data（TBD, CCF C类SCI）的客座编辑（Guest Editor），曾担任第16届数据挖掘与应用国际学术会议（16th Internatio"
+    },
+    {
+      "officialId": "b80cc6a16a954945",
+      "name": "王广润",
+      "title": "副教授",
+      "officialSections": [
+        "专任教师"
+      ],
+      "profileUrl": "https://cse.sysu.edu.cn/teacher/WangGuangrun",
+      "portraitUrl": "https://cse.sysu.edu.cn/sites/default/files/styles/image_style_2/public/%E7%8E%8B%E5%B9%BF%E6%B6%A6.jpg?itok=XhFrMlmX",
+      "sourcePageUrl": "https://cse.sysu.edu.cn/teacher",
+      "officialRosterUrl": "https://cse.sysu.edu.cn/teacher",
+      "profileChecked": true,
+      "decision": "include_new_pi",
+      "reason": "官方个人页的研究方向命中 AI/NLP/CV/ML、数据智能、机器人或紧密相关方向，并确认教授/研究员或独立招生资格。",
+      "evidenceUrl": "https://cse.sysu.edu.cn/teacher/WangGuangrun",
+      "evidenceExcerpt": "ttps://thegreatailab.github.io/ 。 中山大学校训“ 博学、审问、慎思、明辨、笃行 ”在某种意义上高度契合通用人工智能的发展内涵。其中，“笃行”所强调的由认知走向实践，正对应于物理智能（Physical Intelligence，π）中的 action 能力，即落实为真实世界中的有效物理行动。 例如，早晨离家时家中凌乱，夜晚归来时已整洁如新，而你无法分辨这是人类还是 AI 完成的清洁工作（引自 The Physical Turing Test: Jim Fan on Nvi"
+    },
+    {
+      "officialId": "1a249160b9d20d5b",
+      "name": "王甲海",
+      "title": "教授",
+      "officialSections": [
+        "专任教师"
+      ],
+      "profileUrl": "https://cse.sysu.edu.cn/teacher/WangJiahai",
+      "portraitUrl": "https://cse.sysu.edu.cn/sites/default/files/styles/image_style_2/public/OL-Lab%E4%BA%8C%E7%BB%B4%E7%A0%81_1.jpg?itok=XBADDw33",
+      "sourcePageUrl": "https://cse.sysu.edu.cn/teacher",
+      "officialRosterUrl": "https://cse.sysu.edu.cn/teacher",
+      "profileChecked": true,
+      "decision": "include_new_pi",
+      "reason": "官方个人页的研究方向命中 AI/NLP/CV/ML、数据智能、机器人或紧密相关方向，并确认教授/研究员或独立招生资格。",
+      "evidenceUrl": "https://cse.sysu.edu.cn/teacher/WangJiahai",
+      "evidenceExcerpt": "教授 | 专任教师 研究领域: Artificial Intelligence: Computational Intelligence (Evolutionary Computation, Neural Networks, Deep Learning), Intelligent Data Mining and Machine Learning (Social Network Mining, Natural Language Proce"
+    },
+    {
+      "officialId": "df96778c8137c899",
+      "name": "王可泽",
+      "title": "教授",
+      "officialSections": [
+        "专任教师"
+      ],
+      "profileUrl": "https://cse.sysu.edu.cn/teacher/WangKeze",
+      "portraitUrl": "https://cse.sysu.edu.cn/sites/default/files/styles/image_style_2/public/%E7%8E%8B%E5%8F%AF%E6%B3%BD.jpg?itok=2acSb3Uh",
+      "sourcePageUrl": "https://cse.sysu.edu.cn/teacher",
+      "officialRosterUrl": "https://cse.sysu.edu.cn/teacher",
+      "profileChecked": true,
+      "decision": "include_new_pi",
+      "reason": "官方个人页的研究方向命中 AI/NLP/CV/ML、数据智能、机器人或紧密相关方向，并确认教授/研究员或独立招生资格。",
+      "evidenceUrl": "https://cse.sysu.edu.cn/teacher/WangKeze",
+      "evidenceExcerpt": "教授 | 专任教师 研究领域: 因果认知驱动的复杂视觉推理、多智能体协同高阶推理、多模态生产式AI、具身智能 研究目标： 近年来，以大模型为核心的人工智能技术蓬勃发展，在语言理解、图像识别、多模态交互等诸多领域取得了令人瞩目的成就。然而，当前的大模型在通用性、可解释性、可靠性等关键方面依然存在明显不足，这不仅制约了其在更广泛场景中的落地应用，也对人工智能的长远发展提出了前所未有的挑战。面对这一时代挑战，我们以理"
+    },
+    {
+      "officialId": "b1522893eafa7582",
+      "name": "王青",
+      "title": "副教授",
+      "officialSections": [
+        "专任教师"
+      ],
+      "profileUrl": "https://cse.sysu.edu.cn/teacher/WangQing",
+      "portraitUrl": "https://cse.sysu.edu.cn/sites/default/files/styles/image_style_2/public/%E7%8E%8B%E9%9D%92.jpg?itok=iiA5Q7yt",
+      "sourcePageUrl": "https://cse.sysu.edu.cn/teacher",
+      "officialRosterUrl": "https://cse.sysu.edu.cn/teacher",
+      "profileChecked": true,
+      "decision": "include_new_pi",
+      "reason": "官方个人页的研究方向命中 AI/NLP/CV/ML、数据智能、机器人或紧密相关方向，并确认教授/研究员或独立招生资格。",
+      "evidenceUrl": "https://cse.sysu.edu.cn/teacher/WangQing",
+      "evidenceExcerpt": "副教授 | 专任教师 研究领域: 区块链、现代Web应用、人机交互、人工智能、应用设计 获奖及荣誉: June 2014, 7th Teaching Achievement Award of Guangdong Province Nov. 2013, First Class Prize of Annual Teaching Achievement Award of Sun Yat-sen University Dec. 2"
+    },
+    {
+      "officialId": "4b9d1cca64e7ecab",
+      "name": "王瑞轩",
+      "title": "教授",
+      "officialSections": [
+        "专任教师"
+      ],
+      "profileUrl": "https://cse.sysu.edu.cn/teacher/WangRuixuan",
+      "portraitUrl": "https://cse.sysu.edu.cn/sites/default/files/styles/image_style_2/public/WangRuixuan_0.png?itok=z8-s2nuX",
+      "sourcePageUrl": "https://cse.sysu.edu.cn/teacher",
+      "officialRosterUrl": "https://cse.sysu.edu.cn/teacher",
+      "profileChecked": true,
+      "decision": "include_new_pi",
+      "reason": "官方个人页的研究方向命中 AI/NLP/CV/ML、数据智能、机器人或紧密相关方向，并确认教授/研究员或独立招生资格。",
+      "evidenceUrl": "https://cse.sysu.edu.cn/teacher/WangRuixuan",
+      "evidenceExcerpt": "教授 | 专任教师 研究领域: 计算机视觉方向 深度学习前沿技术：持续学习、小样本学习、视觉与多模态基础大模型、AI智能体等 可信人工智能：未知类（OOD）检测、大模型幻觉检测、模型可解释性、模型鲁棒性等 医疗智能：基于各种医学图像的疾病智能诊断、疗效评估，医疗场景下的具身智能等 教育背景: 2007.07, 新加坡国立大学，，博士 2002.07, 西安交通大学，电信学院，硕士 1999.07,"
+    },
+    {
+      "officialId": "2461762db4d8a28b",
+      "name": "汪涛",
+      "title": "副教授",
+      "officialSections": [
+        "专任教师"
+      ],
+      "profileUrl": "https://cse.sysu.edu.cn/teacher/WangTao",
+      "portraitUrl": "https://cse.sysu.edu.cn/sites/default/files/styles/image_style_2/public/%E6%B1%AA%E6%B6%9B.jpg?itok=_69caSzA",
+      "sourcePageUrl": "https://cse.sysu.edu.cn/teacher",
+      "officialRosterUrl": "https://cse.sysu.edu.cn/teacher",
+      "profileChecked": true,
+      "decision": "include_new_pi",
+      "reason": "官方个人页的研究方向命中 AI/NLP/CV/ML、数据智能、机器人或紧密相关方向，并确认教授/研究员或独立招生资格。",
+      "evidenceUrl": "https://cse.sysu.edu.cn/teacher/WangTao",
+      "evidenceExcerpt": "副教授 | 专任教师 研究领域: 科学计算、优化控制、电力仿真、灾害控制、机器学习等. 教育背景: 2006.08-2011.08，美国宾夕法尼亚州立大学数学系/PennState-Math，数学/博士; 2002.09-2006.07，中国科学技术大学少年班学院/USTC-SCGY，数学与应用数学/学士; 工作经历: 2018.09 至今，中山大学/SYSU-SDCS，副教授、博士生导师、中山大学“百人计划”引进人才; 海外经历: 20"
+    },
+    {
+      "officialId": "4649f856bf7d637d",
+      "name": "王晓",
+      "title": "教授",
+      "officialSections": [
+        "专任教师"
+      ],
+      "profileUrl": "https://cse.sysu.edu.cn/teacher/wangxiao",
+      "portraitUrl": "https://cse.sysu.edu.cn/sites/default/files/styles/image_style_2/public/wx.jpeg?itok=GBQYyWk7",
+      "sourcePageUrl": "https://cse.sysu.edu.cn/teacher",
+      "officialRosterUrl": "https://cse.sysu.edu.cn/teacher",
+      "profileChecked": true,
+      "decision": "excluded_non_ai_cs",
+      "reason": "已检查官方个人页及名录字段，公开研究主线未显示 AI、NLP、CV、ML、数据智能、机器人或本图谱紧密相邻方向。",
+      "evidenceUrl": "https://cse.sysu.edu.cn/teacher/wangxiao",
+      "evidenceExcerpt": "研究方向包括大规模随机优化算法、稀疏正则化与高维数据分析、复杂约束优化算法、数据和知识驱动的数值优化等。部分成果发表在SIAM 系列多个期刊、Math. Oper. Res.、Math. Comp.、J. Mach. Learn. Res.等权威期刊和 ICML 等权威会议。先后荣获中国运筹学会青年科技奖、中国工业与应用数学学会应用数学青年科技奖。先后主持多项国家自然科学基金项目、国家科技重大专项项目课题等。目前担任中国运筹学会理事、中国工业与应用数学学会优化及其应用专委会秘书长、广东省运筹学会副理事长。 欢迎数学、计算机、统计等相关专业的人才加入团队！长期招聘博士后、科研助理，招收优秀博士生、硕士生。 招生专业： 计算数学 （070102 学术硕士/博士） 计算机技术 （085404 专业硕士/博士） 教务部 统一门户 研究生院 科学研究院 学生工作部 人力资源管理处 大学服务中心 财务与国资管理处 地址：广州市番禺区大学城外环东路132号（510006） 2015-2025 © 中山大学计算机学院 版权所有 微信公众号 网站手机版 学院概况 学院简介 历史沿革 学院领导 组织架构 "
+    },
+    {
+      "officialId": "82f80713764882b5",
+      "name": "王桢",
+      "title": "副教授",
+      "officialSections": [
+        "专任教师"
+      ],
+      "profileUrl": "https://cse.sysu.edu.cn/teacher/WangZhen",
+      "portraitUrl": "https://cse.sysu.edu.cn/sites/default/files/styles/image_style_2/public/%E7%8E%8B%E6%A1%A2.jpg?itok=cMczqC7e",
+      "sourcePageUrl": "https://cse.sysu.edu.cn/teacher",
+      "officialRosterUrl": "https://cse.sysu.edu.cn/teacher",
+      "profileChecked": true,
+      "decision": "include_new_pi",
+      "reason": "官方个人页的研究方向命中 AI/NLP/CV/ML、数据智能、机器人或紧密相关方向，并确认教授/研究员或独立招生资格。",
+      "evidenceUrl": "https://cse.sysu.edu.cn/teacher/WangZhen",
+      "evidenceExcerpt": "副教授 | 专任教师 研究兴趣: 近期主要研究对高维数据的 生成建模 理论与应用，譬如基于扩散模型开展分子生成、进行表征学习以及将生成模型用于判别任务等。同时与大厂合作研究LLM在长文理解、长思维链推理以及多智能体编排等方面的问题。 教育背景: 2008-2012 中山大学 软件学院 （工学学士） 2012-2017 中山大学（ 与MSRA联合培养 ） （工学博士） 工作经历: 2017-2023 阿里巴巴（中国）有限公司 2023-present 中山大学 获奖及荣誉: 电子学会科学技术奖"
+    },
+    {
+      "officialId": "26082ba167935fef",
+      "name": "王州霞",
+      "title": "副教授",
+      "officialSections": [
+        "专任教师"
+      ],
+      "profileUrl": "https://cse.sysu.edu.cn/teacher/3507",
+      "portraitUrl": "https://cse.sysu.edu.cn/sites/default/files/styles/image_style_2/public/mine2.jpg?itok=GRCFU2T8",
+      "sourcePageUrl": "https://cse.sysu.edu.cn/teacher",
+      "officialRosterUrl": "https://cse.sysu.edu.cn/teacher",
+      "profileChecked": true,
+      "decision": "include_new_pi",
+      "reason": "官方个人页的研究方向命中 AI/NLP/CV/ML、数据智能、机器人或紧密相关方向，并确认教授/研究员或独立招生资格。",
+      "evidenceUrl": "https://cse.sysu.edu.cn/teacher/3507",
+      "evidenceExcerpt": "副教授 | 专任教师 研究领域 多模态感知、生成式人工智能，世界模型，具身智能 代表性论著 （全列表参见 https://wzhouxiff.github.io/ ） [1] Z. Wang , Z. Yuan, X. Wang, Y. Li, T. Chen, M. Xia, P. Luo, and Y. Shan, Motionctrl: A unified and flexible motion co"
+    },
+    {
+      "officialId": "4eca602035bfd993",
+      "name": "韦宝典",
+      "title": "副教授",
+      "officialSections": [
+        "专任教师"
+      ],
+      "profileUrl": "https://cse.sysu.edu.cn/teacher/WeiBaodian",
+      "portraitUrl": "https://cse.sysu.edu.cn/sites/default/files/styles/image_style_2/public/20250213%E8%BA%AB%E4%BB%BD%E8%AF%81%E7%85%A7.jpg?itok=HF6apWdd",
+      "sourcePageUrl": "https://cse.sysu.edu.cn/teacher",
+      "officialRosterUrl": "https://cse.sysu.edu.cn/teacher",
+      "profileChecked": true,
+      "decision": "excluded_non_ai_cs",
+      "reason": "已检查官方个人页及名录字段，公开研究主线未显示 AI、NLP、CV、ML、数据智能、机器人或本图谱紧密相邻方向。",
+      "evidenceUrl": "https://cse.sysu.edu.cn/teacher/WeiBaodian",
+      "evidenceExcerpt": "研究领域: 密码学与信息安全、信息论与信道编码、安全保密等 教育背景: 2004年3月，获西安电子科技大学信息与通信工程专业工学博士学位 2000年4月，获西安电子科技大学计算机系统结构专业工学硕士学位 1997年7月，获西安电子科技大学计算机软件专业工学学士学位 工作经历: 2015年6月，中山大学计算机学院副教授 2011年1月~2012年1月，美国University of Louisiana at Lafayette访问学者 2007年7月，中山大学信息科学与技术学院副教授 2004年4月，中山大学信息科学与技术学院讲师 教务部 统一门户 研究生院 科学研究院 学生工作部 人力资源管理处 大学服务中心 财务与国资管理处 地址：广州市番禺区大学城外环东路132号（510006） 2015-2025 © 中山大学计算机学院 版权所有 微信公众号 网站手机版 学院概况 学院简介 历史沿革 学院领导 组织架构 常设机构 行政办公 党建工会 党建工作 党建动态 党建通知 党委分工 工会工作 工会建设 工会分工 人才培养 本科生培养 教学通知 培养方案 教学成果 人才培养体系 研究生培养 "
+    },
+    {
+      "officialId": "3d4e6345b42c61d6",
+      "name": "魏朋旭",
+      "title": "副教授",
+      "officialSections": [
+        "专任教师"
+      ],
+      "profileUrl": "https://cse.sysu.edu.cn/teacher/WeiPengxu",
+      "portraitUrl": "https://cse.sysu.edu.cn/sites/default/files/styles/image_style_2/public/%E9%AD%8F%E6%9C%8B%E6%97%AD.jpg?itok=rN4VeEXg",
+      "sourcePageUrl": "https://cse.sysu.edu.cn/teacher",
+      "officialRosterUrl": "https://cse.sysu.edu.cn/teacher",
+      "profileChecked": true,
+      "decision": "include_new_pi",
+      "reason": "官方个人页的研究方向命中 AI/NLP/CV/ML、数据智能、机器人或紧密相关方向，并确认教授/研究员或独立招生资格。",
+      "evidenceUrl": "https://cse.sysu.edu.cn/teacher/WeiPengxu",
+      "evidenceExcerpt": "副教授 | 专任教师 研究领域 1）世界模型与自进化学习 2）多模态统一视觉编码表征 3）视觉内容生成与安全鉴伪 4）真实世界图像超分辨率 工作经历 副教授, 中山大学, 2024-至今 副研究员，中山大学，2021-2023 博士后，中山大学，2018-2020 研究员，商汤科技，2018 科研项目 1）国家自然科学基金面上项目，主持 2）国家自然科学基金青年项目，主持 3）国家重点研发项目，子课题负责人 4）博士后面上项目，主持"
+    },
+    {
+      "officialId": "a8b161557bec82af",
+      "name": "温武少",
+      "title": "教授",
+      "officialSections": [
+        "专任教师"
+      ],
+      "profileUrl": "https://cse.sysu.edu.cn/teacher/WenWushao",
+      "portraitUrl": "https://cse.sysu.edu.cn/sites/default/files/styles/image_style_2/public/default_images/defaultnopic.jpg?itok=WIqiZXr7",
+      "sourcePageUrl": "https://cse.sysu.edu.cn/teacher",
+      "officialRosterUrl": "https://cse.sysu.edu.cn/teacher",
+      "profileChecked": true,
+      "decision": "include_new_pi",
+      "reason": "官方个人页的研究方向命中 AI/NLP/CV/ML、数据智能、机器人或紧密相关方向，并确认教授/研究员或独立招生资格。",
+      "evidenceUrl": "https://cse.sysu.edu.cn/teacher/WenWushao",
+      "evidenceExcerpt": "-2021.8 ，中山大学方负责人，已结题 2 《城市建筑群抗灾可靠度预测与灾变综合模拟》， 2017年度国家自然科学基金 NSFC-广东大数据科学中心 重点支持项目，总经费510万元， 2018.1-2021.12 ，中山大学方负责人，已结题 3、《基于超多维大数据的钓鱼网站识别与分析系统》，2017年度广东省协同创新与平台环境建设（产学研合作领域），2017.1-2018.12，总经费 100万元，中山大学方负责人已结题 4、《复杂电磁环境高性能应用软件系统研制及应用示范》， 2017年国家重点研发"
+    },
+    {
+      "officialId": "d9b4e2857cd93d57",
+      "name": "吴岸聪",
+      "title": "副教授",
+      "officialSections": [
+        "专任教师"
+      ],
+      "profileUrl": "https://cse.sysu.edu.cn/teacher/WuAncong",
+      "portraitUrl": "https://cse.sysu.edu.cn/sites/default/files/styles/image_style_2/public/%E5%90%B4%E5%B2%B8%E8%81%AA.jpg?itok=tpkBfgOn",
+      "sourcePageUrl": "https://cse.sysu.edu.cn/teacher",
+      "officialRosterUrl": "https://cse.sysu.edu.cn/teacher",
+      "profileChecked": true,
+      "decision": "include_new_pi",
+      "reason": "官方个人页的研究方向命中 AI/NLP/CV/ML、数据智能、机器人或紧密相关方向，并确认教授/研究员或独立招生资格。",
+      "evidenceUrl": "https://cse.sysu.edu.cn/teacher/WuAncong",
+      "evidenceExcerpt": "副教授 | 专任教师 研究方向为目标跟踪与重识别、场景理解与生成、机器人视觉与具身智能。发表学术论文40余篇，一作/通讯论文18篇，包括14篇中科院一区/CCF-A论文。研究成果发表在包括IEEE TPAMI、IJCV、TIP等国际顶级期刊和CVPR、ICCV、AAAI等国际顶级会议上。Google学术引用总次数超过5000次，单篇引用超过900次。入选全球top 2%科学家，曾获2021年中国图"
+    },
+    {
+      "officialId": "2ab79305235fe588",
+      "name": "吴迪",
+      "title": "教授",
+      "officialSections": [
+        "专任教师"
+      ],
+      "profileUrl": "https://cse.sysu.edu.cn/teacher/WuDi",
+      "portraitUrl": "https://cse.sysu.edu.cn/sites/default/files/styles/image_style_2/public/%E5%90%B4%E8%BF%AA.jpg?itok=3P-Z0q_P",
+      "sourcePageUrl": "https://cse.sysu.edu.cn/teacher",
+      "officialRosterUrl": "https://cse.sysu.edu.cn/teacher",
+      "profileChecked": true,
+      "decision": "include_new_pi",
+      "reason": "官方个人页的研究方向命中 AI/NLP/CV/ML、数据智能、机器人或紧密相关方向，并确认教授/研究员或独立招生资格。",
+      "evidenceUrl": "https://cse.sysu.edu.cn/teacher/WuDi",
+      "evidenceExcerpt": "教授 | 专任教师 研究方向包括HPC+AI智能计算系统、可信智能体系统、多模态计算系统等。目前主持国家重点研发计划重点专项、国家自然科学基金联合基金重点支持项目、广东省重大专项等项目。近年来在ToN、TPDS、TMC、INFOCOM、NeurIPS、IJCAI、SIGKDD等CCF A类期刊会议发表论文200余篇。曾担任IEEE多媒体通信技术委员会MSIG主席、中国计算机学会理事、CCF YOCSEF广州分"
+    },
+    {
+      "officialId": "3cba5f28967015e4",
+      "name": "吴贺俊",
+      "title": "教授",
+      "officialSections": [
+        "专任教师"
+      ],
+      "profileUrl": "https://cse.sysu.edu.cn/teacher/WuHejun",
+      "portraitUrl": "https://cse.sysu.edu.cn/sites/default/files/styles/image_style_2/public/%E5%90%B4%E8%B4%BA%E4%BF%8A.jpg?itok=b3stSuf9",
+      "sourcePageUrl": "https://cse.sysu.edu.cn/teacher",
+      "officialRosterUrl": "https://cse.sysu.edu.cn/teacher",
+      "profileChecked": true,
+      "decision": "include_new_pi",
+      "reason": "官方个人页的研究方向命中 AI/NLP/CV/ML、数据智能、机器人或紧密相关方向，并确认教授/研究员或独立招生资格。",
+      "evidenceUrl": "https://cse.sysu.edu.cn/teacher/WuHejun",
+      "evidenceExcerpt": "教授 | 专任教师 研究方向: 人工智能、具身智能：VLA大模型、世界模型、多智能体，智能诊疗、智能交通、智能物联网应用等 获奖及荣誉: 2023-11 获评中国教师发展基金会2022-2023年度“高校计算机专业优秀教师奖励计划” 2023-04 课程《人工智能》获第四届中国计算机教育大会计算机类教学资源建设优秀课程配套资源，特等奖 2022-07 教改论文《人工智能原理与实践MOOC教学的课程"
+    },
+    {
+      "officialId": "554ca7224d682f3a",
+      "name": "吴维刚",
+      "title": "教授",
+      "officialSections": [
+        "专任教师"
+      ],
+      "profileUrl": "https://cse.sysu.edu.cn/teacher/WuWeigang",
+      "portraitUrl": "https://cse.sysu.edu.cn/sites/default/files/styles/image_style_2/public/%E5%90%B4%E7%BB%B4%E5%88%9A_0.jpg?itok=7lAvUbHy",
+      "sourcePageUrl": "https://cse.sysu.edu.cn/teacher",
+      "officialRosterUrl": "https://cse.sysu.edu.cn/teacher",
+      "profileChecked": true,
+      "decision": "include_new_pi",
+      "reason": "官方个人页的研究方向命中 AI/NLP/CV/ML、数据智能、机器人或紧密相关方向，并确认教授/研究员或独立招生资格。",
+      "evidenceUrl": "https://cse.sysu.edu.cn/teacher/WuWeigang",
+      "evidenceExcerpt": "教授 | 专任教师 研究方向： 1. AI集群资源管理：AI任务调度、智能体系统优化、云资源管理； 2. 分布式深度学习：大模型训推优化、联邦学习与隐私计算； 3. 智能体与数据挖掘：智能体推荐系统、去中心化金融数据分析。 教育背景: 2007年 香港理工大学 博士学位 计算机科学 2003年 西安交通大学 硕士学位 计算机体系结构 1998年 西安交通大学 学士学位 材料科学（主修）、计算机技术（辅修） 获奖及荣誉: 2008年 中山大学 “百人计划” 。 2011年 广州"
+    },
+    {
+      "officialId": "6be1d88028ecea8c",
+      "name": "肖侬",
+      "title": "教授",
+      "officialSections": [
+        "专任教师"
+      ],
+      "profileUrl": "https://cse.sysu.edu.cn/teacher/XiaoNong",
+      "portraitUrl": "https://cse.sysu.edu.cn/sites/default/files/styles/image_style_2/public/%E8%82%96%E4%BE%AC.jpg?itok=3xQG4SPP",
+      "sourcePageUrl": "https://cse.sysu.edu.cn/teacher",
+      "officialRosterUrl": "https://cse.sysu.edu.cn/teacher",
+      "profileChecked": true,
+      "decision": "excluded_non_ai_cs",
+      "reason": "已检查官方个人页及名录字段，公开研究主线未显示 AI、NLP、CV、ML、数据智能、机器人或本图谱紧密相邻方向。",
+      "evidenceUrl": "https://cse.sysu.edu.cn/teacher/XiaoNong",
+      "evidenceExcerpt": "研究领域: 1、云计算与网络计算：云计算与云存储系统、内存计算、高性能大数据计算系统 2、大数据存储与分析处理：大数据分析处理并行算法、大规模固态存储、 3、系统结构：新型数据密集型计算系统 教育背景: 国防科技大学计算机专业：本科、博士 获奖及荣誉: 教育部国家级高层次人才 国家自然基金委杰出青年科学基金获得者 中国计算机学会会士 教育部新世纪优秀人才支持计划 科研项目: 国家自然基金委重点项目，大规模固态存储系统结构与技术, 主持 国家自然基金委重点项目，面向大数据的高时效并行计算机系统结构与技术, 主持 国家自然基金委重点项目，基于超算的大数据分析处理基础算法与编程支撑环境, 第二负责人 国家863科技计划 基于内存计算的并行处理系统研究与开发，主持 国家重点研发课题：面向异构存储的高并发低延迟大规模并行文件系统，参与 代表性论著: Cluster and Single-Node Analysis of Long-Term DeduplicatI/On Patterns. ACM Transactions on Storage 14(2), May, 2018 Me-CLOCK:"
+    },
+    {
+      "officialId": "b97ddc76efae8a12",
+      "name": "谢晓华",
+      "title": "教授",
+      "officialSections": [
+        "专任教师"
+      ],
+      "profileUrl": "https://cse.sysu.edu.cn/teacher/XieXiaohua",
+      "portraitUrl": "https://cse.sysu.edu.cn/sites/default/files/styles/image_style_2/public/2324%E8%B0%A2%E6%99%93%E5%8D%8E-ss_1.png?itok=04aN2uDR",
+      "sourcePageUrl": "https://cse.sysu.edu.cn/teacher",
+      "officialRosterUrl": "https://cse.sysu.edu.cn/teacher",
+      "profileChecked": true,
+      "decision": "include_new_pi",
+      "reason": "官方个人页的研究方向命中 AI/NLP/CV/ML、数据智能、机器人或紧密相关方向，并确认教授/研究员或独立招生资格。",
+      "evidenceUrl": "https://cse.sysu.edu.cn/teacher/XieXiaohua",
+      "evidenceExcerpt": "教授 | 专任教师 研究领域: 计算机视觉、图像处理、模式识别、机器学习 目前主要方向 ：视觉为主的多模态大模型单点技术（如多模态模型适配）及应用、视频图像生成与识别、AI模型安全（对抗攻防） 工作经历: 2015.07-至今, 中山大学，历任特聘研究员、副教授、教授 2011.02-2015.07, 中国科学院深圳先进技术研究院，历任助理研究员、副研究员 海外经历: 2009.09-2010.09"
+    },
+    {
+      "officialId": "a485916d0f01e787",
+      "name": "谢逸",
+      "title": "副教授",
+      "officialSections": [
+        "专任教师"
+      ],
+      "profileUrl": "https://cse.sysu.edu.cn/teacher/XieYi",
+      "portraitUrl": "https://cse.sysu.edu.cn/sites/default/files/styles/image_style_2/public/%E8%B0%A2%E9%80%B8.jpg?itok=NQhh2dx9",
+      "sourcePageUrl": "https://cse.sysu.edu.cn/teacher",
+      "officialRosterUrl": "https://cse.sysu.edu.cn/teacher",
+      "profileChecked": true,
+      "decision": "excluded_non_ai_cs",
+      "reason": "已检查官方个人页及名录字段，公开研究主线未显示 AI、NLP、CV、ML、数据智能、机器人或本图谱紧密相邻方向。",
+      "evidenceUrl": "https://cse.sysu.edu.cn/teacher/XieYi",
+      "evidenceExcerpt": "研究领域: 智能通信网络（AI4NET & NET4AI）、智能体互联网（Internet of Agents） 通信网络安全（NETSEC） 欢迎有兴趣从事计算机网络基础理论研究的同学加入！ 教育背景: 中山大学（博士、硕士、本科） 工作经历: 2008 - 现在 中山大学信息科学与技术学院/计算机学院 海外经历: Deakin University, Australia. (访问学者) George Mason University, the USA. (访问学者) 科研项目: 主持科研项目： 1. 华为智库合作项目（2023.8-2026.4） 2. 国家自然科学基金（Grant No. 61972431, 2020.1-2023.12） 3. ...... 教授课程: 1. 本科：计算机网络、通信原理 2. 硕博：高级计算机网络、网络测量与性能分析 代表性论著: Rujia Chen (硕士), Yi Xie (通讯作者), Minglang Liao, Jiankun Hu, and Xingcheng Liu. \"Identifying Fraudulent Users i"
+    },
+    {
+      "officialId": "ff4f5cd1997f585c",
+      "name": "杨宏奇",
+      "title": "教授",
+      "officialSections": [
+        "专任教师"
+      ],
+      "profileUrl": "https://cse.sysu.edu.cn/teacher/YangHongqi",
+      "portraitUrl": "https://cse.sysu.edu.cn/sites/default/files/styles/image_style_2/public/default_images/defaultnopic.jpg?itok=WIqiZXr7",
+      "sourcePageUrl": "https://cse.sysu.edu.cn/teacher",
+      "officialRosterUrl": "https://cse.sysu.edu.cn/teacher",
+      "profileChecked": true,
+      "decision": "include_new_pi",
+      "reason": "官方个人页的研究方向命中 AI/NLP/CV/ML、数据智能、机器人或紧密相关方向，并确认教授/研究员或独立招生资格。",
+      "evidenceUrl": "https://cse.sysu.edu.cn/teacher/YangHongqi",
+      "evidenceExcerpt": "专职研究人员 专业技术人员 人才工程 杨宏奇 教授 联系邮箱： mcsyhq@mail.sysu.edu.cn 教师简介: 杨宏奇，中山大学数据科学与教授、广东省计算数学学会秘书长。承担国家自然科学基金项目1项、参与国家自然科学基金项目多项。参与组织2009年“反问题及其应用国际会议”、2010年“图像处理中的数学方法国际会议”。访问过美国West Virginia University数学系、台湾中山大学数学系、 美国Syracuse大学数学系。 研究领域: 正反问题计算及其应用 教育背景: 1988"
+    },
+    {
+      "officialId": "260e1a22bd021f29",
+      "name": "杨磊",
+      "title": "副教授",
+      "officialSections": [
+        "专任教师"
+      ],
+      "profileUrl": "https://cse.sysu.edu.cn/teacher/YangLei",
+      "portraitUrl": "https://cse.sysu.edu.cn/sites/default/files/styles/image_style_2/public/%E6%9D%A8%E7%A3%8A.jpg?itok=0qkbRAk6",
+      "sourcePageUrl": "https://cse.sysu.edu.cn/teacher",
+      "officialRosterUrl": "https://cse.sysu.edu.cn/teacher",
+      "profileChecked": true,
+      "decision": "include_new_pi",
+      "reason": "官方个人页的研究方向命中 AI/NLP/CV/ML、数据智能、机器人或紧密相关方向，并确认教授/研究员或独立招生资格。",
+      "evidenceUrl": "https://cse.sysu.edu.cn/teacher/YangLei",
+      "evidenceExcerpt": "副教授 | 专任教师 研究兴趣: 大规模优化理论与方法 具体来说：可实现非精确算法的设计与分析，致力于面向当代重要应用领域（人工智能、数据科学、最优传输、图像处理等）中出现的大规模优化问题，构建计算可落地、高效稳健且具有理论保证的优化算法，推动相关优化算法软件包开发。 教育背景: 2014/08 – 2017/09，香港理工大学，应用数学系，博士 2011/09 – 2014/07，天津大学，运筹学与控制论，硕士 2007/09 – 2011/07，天津大学，数学与应用数学系，学士；南开"
+    },
+    {
+      "officialId": "dfb9bdd41be383e0",
+      "name": "杨思蓓",
+      "title": "副教授",
+      "officialSections": [
+        "专任教师"
+      ],
+      "profileUrl": "https://cse.sysu.edu.cn/teacher/Yangsibei",
+      "portraitUrl": "https://cse.sysu.edu.cn/sites/default/files/styles/image_style_2/public/%E7%99%BD%E5%BA%95%E8%AF%81%E4%BB%B6%E7%85%A7_1%E5%AF%B8.jpg?itok=5pOuhc_8",
+      "sourcePageUrl": "https://cse.sysu.edu.cn/teacher",
+      "officialRosterUrl": "https://cse.sysu.edu.cn/teacher",
+      "profileChecked": true,
+      "decision": "include_new_pi",
+      "reason": "官方个人页的研究方向命中 AI/NLP/CV/ML、数据智能、机器人或紧密相关方向，并确认教授/研究员或独立招生资格。",
+      "evidenceUrl": "https://cse.sysu.edu.cn/teacher/Yangsibei",
+      "evidenceExcerpt": "副教授 | 专任教师 研究方向涵盖多模态大模型、具身智能、世界模型。请以[27Fall-姓名]为邮件标题，将个人简历及成绩单发送至：sibeiyang9@gmail.com。 [Recruitment-2025/12]： 招募研究实习生（Research Interns），方向涵盖多模态大模型与具身智能。本科生请以[研究实习生-姓名]为邮件标题，将成绩单与简历发送至 sibeiyang9@gmail.c"
+    },
+    {
+      "officialId": "30833a43eee81c86",
+      "name": "杨跃东",
+      "title": "教授",
+      "officialSections": [
+        "专任教师"
+      ],
+      "profileUrl": "https://cse.sysu.edu.cn/teacher/YangYuedong",
+      "portraitUrl": "https://cse.sysu.edu.cn/sites/default/files/styles/image_style_2/public/portrait25_0.jpg?itok=GHkNpzFV",
+      "sourcePageUrl": "https://cse.sysu.edu.cn/teacher",
+      "officialRosterUrl": "https://cse.sysu.edu.cn/teacher",
+      "profileChecked": true,
+      "decision": "include_new_pi",
+      "reason": "官方个人页的研究方向命中 AI/NLP/CV/ML、数据智能、机器人或紧密相关方向，并确认教授/研究员或独立招生资格。",
+      "evidenceUrl": "https://cse.sysu.edu.cn/teacher/YangYuedong",
+      "evidenceExcerpt": "实验室成员每月发放生活津贴，取得重要研究突破和成果将给予优厚奖励；资助参加学术会议，允许自由安排工作时间。 研究内容包括： 1）多尺度组学大数据挖掘：研发知识图谱和大模型，融合基因/蛋白质序列、生物多组学、以及医疗表型大数据的科学发现 2）全流程药物智能设计：整合蛋白质结构和功能预测、高通量药物虚拟筛选、药物分子智能设计、药物ADMET预测、知识图谱的药物发现全流程 3）生物医药高性能计算平台：基于超算构建统一生物医药大数据存储、管理、挖掘和应用的一站式计算平台 长期招聘博士后、副研究员/研究员 ，及"
+    },
+    {
+      "officialId": "93e0f966ec649bd7",
+      "name": "余超",
+      "title": "教授",
+      "officialSections": [
+        "专任教师"
+      ],
+      "profileUrl": "https://cse.sysu.edu.cn/teacher/YuChao",
+      "portraitUrl": "https://cse.sysu.edu.cn/sites/default/files/styles/image_style_2/public/%E4%BD%99%E8%B6%85.jpg?itok=vRyeT76C",
+      "sourcePageUrl": "https://cse.sysu.edu.cn/teacher",
+      "officialRosterUrl": "https://cse.sysu.edu.cn/teacher",
+      "profileChecked": true,
+      "decision": "include_new_pi",
+      "reason": "官方个人页的研究方向命中 AI/NLP/CV/ML、数据智能、机器人或紧密相关方向，并确认教授/研究员或独立招生资格。",
+      "evidenceUrl": "https://cse.sysu.edu.cn/teacher/YuChao",
+      "evidenceExcerpt": "教授 | 专任教师 研究领域: （1）人工智能理论：强化学习、AI智能体、多智能体系统 （2）智能决策技术：非完全信息决策、大规模群体博弈、人机博弈 （3）大模型技术：大模型训推、AI Infra、决策大模型（能源、金融、医疗、零售、工业） （4）具身智能：运动控制（小脑）、任务规划（大脑）、多具身技术（协同） 工作经历: 2014.3-2016.12， 大连理工大学/，讲师 2016.12-2019."
+    },
+    {
+      "officialId": "b0eb23df81497bcb",
+      "name": "于帅",
+      "title": "副教授",
+      "officialSections": [
+        "专任教师"
+      ],
+      "profileUrl": "https://cse.sysu.edu.cn/teacher/YuShuai",
+      "portraitUrl": "https://cse.sysu.edu.cn/sites/default/files/styles/image_style_2/public/%E4%BA%8E%E5%B8%85.jpg?itok=wulTVYO9",
+      "sourcePageUrl": "https://cse.sysu.edu.cn/teacher",
+      "officialRosterUrl": "https://cse.sysu.edu.cn/teacher",
+      "profileChecked": true,
+      "decision": "include_new_pi",
+      "reason": "官方个人页的研究方向命中 AI/NLP/CV/ML、数据智能、机器人或紧密相关方向，并确认教授/研究员或独立招生资格。",
+      "evidenceUrl": "https://cse.sysu.edu.cn/teacher/YuShuai",
+      "evidenceExcerpt": "副教授 | 专任教师 研究方向为新型网络、移动计算及人工智能，包括边缘计算及智能、天基（卫星）智能、计算卸载、资源分配等。发表高水平学术论文 30 余篇，包括 IEEE TMC, JSAC, INFOCOM, TWC等顶级期刊和会议，论文总引用次数逾2000次。 课题组长期招收博士研究生、硕士研究生。欢迎优秀本科生加入实验室，表现优秀者可以推荐深造。 欢迎推免/考研学生联系本人咨询实验室的招生名额和相关事宜！ 教育背"
+    },
+    {
+      "officialId": "84b7e7f02a685c05",
+      "name": "余伟江",
+      "title": "副教授",
+      "officialSections": [
+        "专任教师"
+      ],
+      "profileUrl": "https://cse.sysu.edu.cn/teacher/YuWeijiang",
+      "portraitUrl": "https://cse.sysu.edu.cn/sites/default/files/styles/image_style_2/public/weijiangyu.jpg?itok=lGZsyipR",
+      "sourcePageUrl": "https://cse.sysu.edu.cn/teacher",
+      "officialRosterUrl": "https://cse.sysu.edu.cn/teacher",
+      "profileChecked": true,
+      "decision": "include_new_pi",
+      "reason": "官方个人页的研究方向命中 AI/NLP/CV/ML、数据智能、机器人或紧密相关方向，并确认教授/研究员或独立招生资格。",
+      "evidenceUrl": "https://cse.sysu.edu.cn/teacher/YuWeijiang",
+      "evidenceExcerpt": "副教授 | 专任教师 研究领域： 长期致力于 HPC+ 多模态人工智能的研究和应用，包括多模态机器学习、生成式模型、 HPC+AI for Science、科学智能体、世界模型、具身智能 获奖及荣誉： 1 、吴文俊人工智能优秀博士学位论文奖（全国仅 10 位）， 2023 2 、 ACM 中国优秀博士学位论文全国奖提名（全国仅 3 位）， 2022 3 、 ACM 广州优秀博士学位论文奖（排名第一）， 2022 4 、华为天才"
+    },
+    {
+      "officialId": "7ea4dabd8cf1c0ae",
+      "name": "曾坤",
+      "title": "副教授",
+      "officialSections": [
+        "专任教师"
+      ],
+      "profileUrl": "https://cse.sysu.edu.cn/teacher/ZengKun",
+      "portraitUrl": "https://cse.sysu.edu.cn/sites/default/files/styles/image_style_2/public/default_images/defaultnopic.jpg?itok=WIqiZXr7",
+      "sourcePageUrl": "https://cse.sysu.edu.cn/teacher",
+      "officialRosterUrl": "https://cse.sysu.edu.cn/teacher",
+      "profileChecked": true,
+      "decision": "include_new_pi",
+      "reason": "官方个人页的研究方向命中 AI/NLP/CV/ML、数据智能、机器人或紧密相关方向，并确认教授/研究员或独立招生资格。",
+      "evidenceUrl": "https://cse.sysu.edu.cn/teacher/ZengKun",
+      "evidenceExcerpt": "副教授 | 专任教师 研究领域: 1. 计算机视觉和机器学习 -- Object Recognition and Segmentation -- Deep Learning and Image Stylization -- 手写体识别, 车牌识别等 2. 医学影像分析 -- Deep Learning and Medical Image Segmentation 3. 金融大数据分析 -- 时序分析, 统计"
+    },
+    {
+      "officialId": "ff4db38ed5fad5c4",
+      "name": "张冬雨",
+      "title": "副教授",
+      "officialSections": [
+        "专任教师"
+      ],
+      "profileUrl": "https://cse.sysu.edu.cn/teacher/ZhangDongyu",
+      "portraitUrl": "https://cse.sysu.edu.cn/sites/default/files/styles/image_style_2/public/%E5%BC%A0%E5%86%AC%E9%9B%A8.jpg?itok=tQZhJpoO",
+      "sourcePageUrl": "https://cse.sysu.edu.cn/teacher",
+      "officialRosterUrl": "https://cse.sysu.edu.cn/teacher",
+      "profileChecked": true,
+      "decision": "include_new_pi",
+      "reason": "官方个人页的研究方向命中 AI/NLP/CV/ML、数据智能、机器人或紧密相关方向，并确认教授/研究员或独立招生资格。",
+      "evidenceUrl": "https://cse.sysu.edu.cn/teacher/ZhangDongyu",
+      "evidenceExcerpt": "副教授 | 专任教师 研究领域: 计算机视觉、图像处理、深度学习、机器学习等。 教育背景: 1999年09月至2003年07月，东北大学，学士，计算机科学与技术 2003年09月至2005年07月，哈尔滨工业大学，硕士，计算机应用技术 2005年09月至2010年10月，哈尔滨工业大学， 博士，计算机应用技术 工作经历: 2018年12月至今， 中山大学，副教授 2015年12月至2018年11月，"
+    },
+    {
+      "officialId": "b2caefbe20f0dac8",
+      "name": "张方国",
+      "title": "教授",
+      "officialSections": [
+        "专任教师"
+      ],
+      "profileUrl": "https://cse.sysu.edu.cn/teacher/ZhangFangguo",
+      "portraitUrl": "https://cse.sysu.edu.cn/sites/default/files/styles/image_style_2/public/%E5%BC%A0%E6%96%B9%E5%9B%BD.jpg?itok=6PquE16U",
+      "sourcePageUrl": "https://cse.sysu.edu.cn/teacher",
+      "officialRosterUrl": "https://cse.sysu.edu.cn/teacher",
+      "profileChecked": true,
+      "decision": "excluded_non_ai_cs",
+      "reason": "已检查官方个人页及名录字段，公开研究主线未显示 AI、NLP、CV、ML、数据智能、机器人或本图谱紧密相邻方向。",
+      "evidenceUrl": "https://cse.sysu.edu.cn/teacher/ZhangFangguo",
+      "evidenceExcerpt": "研究领域: 密码学理论及其应用，特别是： 椭圆曲线和超椭圆曲线密码体制； 基于编码的密码体制； 匿名性与隐私保护技术； 区块链及其应用等。 教育背景: 1999年2月 －2001年12月, 西安电子科技大学通信工程学院，密码学专业，工学博士，导师：王育民教授； 1996年9月 －1999年1月, 上海同济大学应用数学系，理学硕士；导师：查建国教授; 1992年9月 －1996年7月, 山东省烟台师范学院（现改为鲁东大学）数学系，理学学士； 1989年9月 - 1992年7月，山东省淄博第二师范学校（现合并于淄博师专），中专。 工作经历: 2015年12月－ 现在，教授，博导，中山大学计算机学院，网络空间安全系；曾任网络空间安全系系主任和网络空间安全所所长（2015-2020）; 2006年7月－ 2015年12月，教授，博导，中山大学信息科学与技术学院，电子与通信工程系； 2004年3月－ 2006年6月，副教授（中山大学“百人计划”引进），中山大学信息科学与技术学院，电子与通信工程系； 海外经历: 2014年8月—2015年2月，研究学者，美国纽约州立大学布法罗分校； 2004年12"
+    },
+    {
+      "officialId": "59c391be46c60ec5",
+      "name": "张青",
+      "title": "副教授",
+      "officialSections": [
+        "专任教师"
+      ],
+      "profileUrl": "https://cse.sysu.edu.cn/teacher/ZhangQing",
+      "portraitUrl": "https://cse.sysu.edu.cn/sites/default/files/styles/image_style_2/public/zq-portrait_0.jpg?itok=onXMLoQN",
+      "sourcePageUrl": "https://cse.sysu.edu.cn/teacher",
+      "officialRosterUrl": "https://cse.sysu.edu.cn/teacher",
+      "profileChecked": true,
+      "decision": "include_new_pi",
+      "reason": "官方个人页的研究方向命中 AI/NLP/CV/ML、数据智能、机器人或紧密相关方向，并确认教授/研究员或独立招生资格。",
+      "evidenceUrl": "https://cse.sysu.edu.cn/teacher/ZhangQing",
+      "evidenceExcerpt": "://zhangqing-home.net/ 教师简介： 张青, 副教授, 博士生导师。分别于武汉大学获学士, 硕士和博士学位。目前主要从事视觉内容生成与编辑、基于图像的三维建模和绘制、具身智能等方面研究。累计在包括TPAMI, ACM TOG, IJCV, SIGGRAPH, CVPR, ICCV, NeurIPS在内的CCF A类期刊和会议发表论文60余篇，谷歌学术引用5600余次，单篇一作最高引用达1300余次。入选全球前2%顶尖科学家榜单，获2019年湖北省自然科学二等奖, 2022年世界人"
+    },
+    {
+      "officialId": "751323c929a87ad5",
+      "name": "张献伟",
+      "title": "副教授",
+      "officialSections": [
+        "专任教师"
+      ],
+      "profileUrl": "https://cse.sysu.edu.cn/teacher/ZhangXianwei",
+      "portraitUrl": "https://cse.sysu.edu.cn/sites/default/files/styles/image_style_2/public/xwz_1.png?itok=D_b-hYcO",
+      "sourcePageUrl": "https://cse.sysu.edu.cn/teacher",
+      "officialRosterUrl": "https://cse.sysu.edu.cn/teacher",
+      "profileChecked": true,
+      "decision": "include_new_pi",
+      "reason": "官方个人页的研究方向命中 AI/NLP/CV/ML、数据智能、机器人或紧密相关方向，并确认教授/研究员或独立招生资格。",
+      "evidenceUrl": "https://cse.sysu.edu.cn/teacher/ZhangXianwei",
+      "evidenceExcerpt": "步特等奖”、中国科协“科技智库青年人才计划”、AMD Spotlight Award等奖项荣誉。教学方面，获广东省教学成果特等奖、教育部教师人工智能应用推荐案例、全国大学生系统能力大赛一等奖优秀指导教师等。 ARC hitecture and SYS tems U pscaling @ SYSU (HPC/ A I R esearch led by X ianwei), 详见☞ < arcSYSu/ARX-Lab 主页 >。 Mission : Build Next-generation HPC/AI"
+    },
+    {
+      "officialId": "291d493cf9802871",
+      "name": "张晓溪",
+      "title": "副教授",
+      "officialSections": [
+        "专任教师"
+      ],
+      "profileUrl": "https://cse.sysu.edu.cn/teacher/ZhangXiaoxi",
+      "portraitUrl": "https://cse.sysu.edu.cn/sites/default/files/styles/image_style_2/public/%E5%BC%A0%E6%99%93%E6%BA%AA.jpg?itok=IGVDxzRW",
+      "sourcePageUrl": "https://cse.sysu.edu.cn/teacher",
+      "officialRosterUrl": "https://cse.sysu.edu.cn/teacher",
+      "profileChecked": true,
+      "decision": "include_new_pi",
+      "reason": "官方个人页的研究方向命中 AI/NLP/CV/ML、数据智能、机器人或紧密相关方向，并确认教授/研究员或独立招生资格。",
+      "evidenceUrl": "https://cse.sysu.edu.cn/teacher/ZhangXiaoxi",
+      "evidenceExcerpt": "究领域: Networked Systems: Networking for AI (服务AI的网络架构及技术), Distributed Machine Learning (分布式机器学习), Distributed Systems (分布式系统), 云计算 (Cloud Computing), 边缘计算 (Edge Computing), Programmable Networks (可编程网络)。 Applications and Theories of Optimization: Online Optimization"
+    },
+    {
+      "officialId": "54cf80beecaf5438",
+      "name": "张子臻",
+      "title": "副教授",
+      "officialSections": [
+        "专任教师"
+      ],
+      "profileUrl": "https://cse.sysu.edu.cn/teacher/ZhangZizhen",
+      "portraitUrl": "https://cse.sysu.edu.cn/sites/default/files/styles/image_style_2/public/default_images/defaultnopic.jpg?itok=WIqiZXr7",
+      "sourcePageUrl": "https://cse.sysu.edu.cn/teacher",
+      "officialRosterUrl": "https://cse.sysu.edu.cn/teacher",
+      "profileChecked": true,
+      "decision": "include_new_pi",
+      "reason": "官方个人页的研究方向命中 AI/NLP/CV/ML、数据智能、机器人或紧密相关方向，并确认教授/研究员或独立招生资格。",
+      "evidenceUrl": "https://cse.sysu.edu.cn/teacher/ZhangZizhen",
+      "evidenceExcerpt": "副教授 | 专任教师 研究方向包括神经组合优化、深度强化学习、系统决策与组合优化、大模型优化。主持了国家与省部级自然科学基金项目，以及华为、百度等多项企业委托课题。在包括IEEE Transactions，NeurIPS、ICML、AAAI、IJCAI等期刊会议发表论文80余篇，其中SCI期刊检索论文40篇，授权专利5项，编写书籍“信息学竞赛金牌导航”、“国际大学生程序设计竞赛例题解”等。多年来指导大学生算法团队，培"
+    },
+    {
+      "officialId": "e43543cd91ddbe6a",
+      "name": "赵知临",
+      "title": "副教授",
+      "officialSections": [
+        "专任教师"
+      ],
+      "profileUrl": "https://cse.sysu.edu.cn/teacher/ZhaoZhilin",
+      "portraitUrl": "https://cse.sysu.edu.cn/sites/default/files/styles/image_style_2/public/ZZL.jpg?itok=FLeSM97q",
+      "sourcePageUrl": "https://cse.sysu.edu.cn/teacher",
+      "officialRosterUrl": "https://cse.sysu.edu.cn/teacher",
+      "profileChecked": true,
+      "decision": "include_new_pi",
+      "reason": "官方个人页的研究方向命中 AI/NLP/CV/ML、数据智能、机器人或紧密相关方向，并确认教授/研究员或独立招生资格。",
+      "evidenceUrl": "https://cse.sysu.edu.cn/teacher/ZhaoZhilin",
+      "evidenceExcerpt": "副教授 | 专任教师 研究方向包括但不限于： 机器学习基础 ：外分布泛化、鲁棒性优化、不确定性建模、时序分析等 生成模型 ：图像生成、可控生成、图像编辑、生成对比学习等 大语言模型 ：检索增强生成、幻觉检测与校正、跨语言与跨任务迁移 具身智能与多智能体系统 ：虚实迁移与策略适应、语言驱动的具身操作、多智能体协同与决策等 自由探索 ：如果你有自己的研究兴趣，也欢迎提出，我们可以一起学习、共同深入 招生与培养 欢迎"
+    },
+    {
+      "officialId": "6b138c15e6bf6282",
+      "name": "郑慧诚",
+      "title": "教授",
+      "officialSections": [
+        "专任教师"
+      ],
+      "profileUrl": "https://cse.sysu.edu.cn/teacher/ZhengHuicheng",
+      "portraitUrl": "https://cse.sysu.edu.cn/sites/default/files/styles/image_style_2/public/default_images/defaultnopic.jpg?itok=WIqiZXr7",
+      "sourcePageUrl": "https://cse.sysu.edu.cn/teacher",
+      "officialRosterUrl": "https://cse.sysu.edu.cn/teacher",
+      "profileChecked": true,
+      "decision": "include_new_pi",
+      "reason": "官方个人页的研究方向命中 AI/NLP/CV/ML、数据智能、机器人或紧密相关方向，并确认教授/研究员或独立招生资格。",
+      "evidenceUrl": "https://cse.sysu.edu.cn/teacher/ZhengHuicheng",
+      "evidenceExcerpt": "教授 | 专任教师 研究领域: 计算机视觉、多模态学习及其在目标分割与检测、行为理解、视频描述、表情识别等方面的应用。 欢迎对相关研究有热情且不怕挑战的博士生、硕士生、本科生加入！欢迎相关领域博士后开展合作研究！ 获奖及荣誉: 入选“2022-2023年度高校计算机专业优秀教师奖励计划”（教育部与国家自然科学基金委指导设立） 负责校级一流课程“信号与系统” 在CVPR 2020 ActivityNe"
+    },
+    {
+      "officialId": "aae5489fadb2ea02",
+      "name": "郑培嘉",
+      "title": "教授",
+      "officialSections": [
+        "专任教师"
+      ],
+      "profileUrl": "https://cse.sysu.edu.cn/teacher/ZhengPeijia",
+      "portraitUrl": "https://cse.sysu.edu.cn/sites/default/files/styles/image_style_2/public/%E9%83%91%E5%9F%B9%E5%98%89.jpg?itok=R8FxGm6A",
+      "sourcePageUrl": "https://cse.sysu.edu.cn/teacher",
+      "officialRosterUrl": "https://cse.sysu.edu.cn/teacher",
+      "profileChecked": true,
+      "decision": "include_new_pi",
+      "reason": "官方个人页的研究方向命中 AI/NLP/CV/ML、数据智能、机器人或紧密相关方向，并确认教授/研究员或独立招生资格。",
+      "evidenceUrl": "https://cse.sysu.edu.cn/teacher/ZhengPeijia",
+      "evidenceExcerpt": "教授 | 专任教师 研究领域: 人工智能和大模型 加密域信号处理 云计算与联邦学习 密码学应用与隐私计算 教育背景: 2009/09–2014/06，中山大学，计算机系，博士 2005/09–2009/06，中山大学，数学系，学士 工作经历: 2014/07–至今，中山大学 科研项目: 国家自然科学国际合作研究项目，高效的隐私保护学习方法研究，主持 国家自然科学面上项目，加密域视频智能处理技术研究"
+    },
+    {
+      "officialId": "dcefb57bc37739bb",
+      "name": "郑伟诗",
+      "title": "教授",
+      "officialSections": [
+        "专任教师"
+      ],
+      "profileUrl": "https://cse.sysu.edu.cn/teacher/ZhengWeishi",
+      "portraitUrl": "https://cse.sysu.edu.cn/sites/default/files/styles/image_style_2/public/weishi-qixiangju-2025-3.png?itok=isLq3jyu",
+      "sourcePageUrl": "https://cse.sysu.edu.cn/teacher",
+      "officialRosterUrl": "https://cse.sysu.edu.cn/teacher",
+      "profileChecked": true,
+      "decision": "include_new_pi",
+      "reason": "官方个人页的研究方向命中 AI/NLP/CV/ML、数据智能、机器人或紧密相关方向，并确认教授/研究员或独立招生资格。",
+      "evidenceUrl": "https://cse.sysu.edu.cn/teacher/ZhengWeishi",
+      "evidenceExcerpt": "教授 | 专任教师 研究领域: “人-机”视觉智能感知与学习研究：具身智能（AI Robotics Learning）、计算机三维建模与生成式 AI 、视频图像处理 + 具体领域 ： 1）具身智能（AI Robotics Learning，计算机视觉建模学习驱动的机器人行为学研究、人机交互研究，主要发展计算机视觉模型） 2）空间智能与生成式 AI 研究（包括多模态下的图文引导的人行为生成等）； 3）视频"
+    },
+    {
+      "officialId": "4a5a6be6d3a8ccc8",
+      "name": "周凡",
+      "title": "教授",
+      "officialSections": [
+        "专任教师"
+      ],
+      "profileUrl": "https://cse.sysu.edu.cn/teacher/ZhouFan",
+      "portraitUrl": "https://cse.sysu.edu.cn/sites/default/files/styles/image_style_2/public/%E5%91%A8%E5%87%A1.jpg?itok=cNnw0kZy",
+      "sourcePageUrl": "https://cse.sysu.edu.cn/teacher",
+      "officialRosterUrl": "https://cse.sysu.edu.cn/teacher",
+      "profileChecked": true,
+      "decision": "include_new_pi",
+      "reason": "官方个人页的研究方向命中 AI/NLP/CV/ML、数据智能、机器人或紧密相关方向，并确认教授/研究员或独立招生资格。",
+      "evidenceUrl": "https://cse.sysu.edu.cn/teacher/ZhouFan",
+      "evidenceExcerpt": "项目评审组专家，深圳市国家级领军人才，中山大学逸仙学者，曾任中山大学产学研处处长。 周凡教授带领团队长期围绕智慧家庭、智慧社区等智能空间中的人工智能核心技术问题开展关键技术研究及转化应用。牵头承担了多项国家科技支撑计划、国家重点研发计划、“核高基”重大科技专项、广东省重大科技专项等国家、省部级重大项目。 科研成果获得国家科技进步二等奖1项（排名第6）、教育部科技进步二等奖1项（排名第1）、广东省科技进步二等奖1项（排名第4）、中国电子学会科技进步二等奖1项（排名第1）、深圳市科技进步二等奖1项（排名第1"
+    },
+    {
+      "officialId": "3a7be7920d3bacf2",
+      "name": "周杰英",
+      "title": "副教授",
+      "officialSections": [
+        "专任教师"
+      ],
+      "profileUrl": "https://cse.sysu.edu.cn/teacher/ZhouJieying",
+      "portraitUrl": "https://cse.sysu.edu.cn/sites/default/files/styles/image_style_2/public/%E5%91%A8%E6%9D%B0%E8%8B%B1.jpg?itok=75iQlAQW",
+      "sourcePageUrl": "https://cse.sysu.edu.cn/teacher",
+      "officialRosterUrl": "https://cse.sysu.edu.cn/teacher",
+      "profileChecked": true,
+      "decision": "include_new_pi",
+      "reason": "官方个人页的研究方向命中 AI/NLP/CV/ML、数据智能、机器人或紧密相关方向，并确认教授/研究员或独立招生资格。",
+      "evidenceUrl": "https://cse.sysu.edu.cn/teacher/ZhouJieying",
+      "evidenceExcerpt": "副教授 | 专任教师 研究方向：计算机网络。 1988/09-1991/06，兰州大学，电信系，硕士。研究方向：计算机视觉。 1982/09-1986/06，兰州大学，无线电系，学士。 工作经历: 1991年7月-至今，在中山大学工作，2000年6月聘为副教授。 1986/07-1988/07, 在江西冶金学院自动化系工作，教师。 海外经历: 2003年9月至2004年1月，在美国威斯康星大学麦迪逊分校做访问学者， 主要从事计算机体系结构、分布式计算方面的研究工作。 2004年"
+    },
+    {
+      "officialId": "88cfd215ab5022b4",
+      "name": "周晓聪",
+      "title": "副教授",
+      "officialSections": [
+        "专任教师"
+      ],
+      "profileUrl": "https://cse.sysu.edu.cn/teacher/ZhouXiaocong",
+      "portraitUrl": "https://cse.sysu.edu.cn/sites/default/files/styles/image_style_2/public/default_images/defaultnopic.jpg?itok=WIqiZXr7",
+      "sourcePageUrl": "https://cse.sysu.edu.cn/teacher",
+      "officialRosterUrl": "https://cse.sysu.edu.cn/teacher",
+      "profileChecked": true,
+      "decision": "include_new_pi",
+      "reason": "官方个人页的研究方向命中 AI/NLP/CV/ML、数据智能、机器人或紧密相关方向，并确认教授/研究员或独立招生资格。",
+      "evidenceUrl": "https://cse.sysu.edu.cn/teacher/ZhouXiaocong",
+      "evidenceExcerpt": "副教授 | 专任教师 研究领域: 软件工程技术：软件行为理解与分析；软件调试与测试；软件可视化；实验性软件工程；软件工程中的数据挖掘； 软件工程理论：类型系统；范畴理论；计算机科学中的代数与共代数理论； 教育背景: 1995至2001 中国科学院软件研究所博士研究生。 1992至1995 中山大学计算机科学系硕士研究生。 1988至1992 中山大学计算机科学系本科生。 工作经历: 2002至今 中山大学计算机科学系副教授。 □ 2009年12月20"
+    },
+    {
+      "officialId": "428729009131a669",
+      "name": "周知",
+      "title": "教授",
+      "officialSections": [
+        "专任教师"
+      ],
+      "profileUrl": "https://cse.sysu.edu.cn/teacher/ZhouZhi",
+      "portraitUrl": "https://cse.sysu.edu.cn/sites/default/files/styles/image_style_2/public/%E5%91%A8%E7%9F%A5.jpg?itok=JBiD6JCV",
+      "sourcePageUrl": "https://cse.sysu.edu.cn/teacher",
+      "officialRosterUrl": "https://cse.sysu.edu.cn/teacher",
+      "profileChecked": true,
+      "decision": "include_new_pi",
+      "reason": "官方个人页的研究方向命中 AI/NLP/CV/ML、数据智能、机器人或紧密相关方向，并确认教授/研究员或独立招生资格。",
+      "evidenceUrl": "https://cse.sysu.edu.cn/teacher/ZhouZhi",
+      "evidenceExcerpt": "教授 | 专任教师 研究方向包括云计算与边缘计算、机器学习系统等，在PIEEE、ToN、JSAC、TC、TPDS、TMC等国际学术期刊以及ASPLOS、PPoPP、SC、SIGMETRICS、WWW、INFOCOM、ICDE等国际学术会议发表论文100余篇，论文总引用次数逾12000次，单篇最高3200余次。曾获得2019年中国计算机学会优秀博士学位论文奖提名、2018年ACM武汉优秀博士学位论文奖（唯一获奖者）、"
+    },
+    {
+      "officialId": "7844b14f1f2867b3",
+      "name": "邹青松",
+      "title": "教授",
+      "officialSections": [
+        "专任教师"
+      ],
+      "profileUrl": "https://cse.sysu.edu.cn/teacher/ZouQingsong",
+      "portraitUrl": "https://cse.sysu.edu.cn/sites/default/files/styles/image_style_2/public/%E9%82%B9%E9%9D%92%E6%9D%BE.jpg?itok=Fjkb6C6h",
+      "sourcePageUrl": "https://cse.sysu.edu.cn/teacher",
+      "officialRosterUrl": "https://cse.sysu.edu.cn/teacher",
+      "profileChecked": true,
+      "decision": "include_new_pi",
+      "reason": "官方个人页的研究方向命中 AI/NLP/CV/ML、数据智能、机器人或紧密相关方向，并确认教授/研究员或独立招生资格。",
+      "evidenceUrl": "https://cse.sysu.edu.cn/teacher/ZouQingsong",
+      "evidenceExcerpt": "（如双曲守恒方程）、材料、金融、电磁等领域偏微分方程的高性能计算方法。 （1） 有限体积法 构造和分析求解PDE的高阶有限体积格式。 （2）深度学习算法 构建求解PDE的函数类和算子类的神经网络代理模型。 2. 分子、材料性质预测 研究预测分子、材料性质的等变图神经网络。 3. 科学智算评测和生态 对来自流体、材料、分子、金融、气象、海洋等多领域的神经网络模型、框架、系统进行评测。 构建包括开发者、研究者、学习者在内的科学智算生态（ aisccc.cn ） 教育背景: Sep. 1989–Jul. 19"
+    },
+    {
+      "officialId": "4448e9c631d4f5af",
+      "name": "熊宗兴",
+      "title": "特聘副研究员",
+      "officialSections": [
+        "专职科研人员"
+      ],
+      "profileUrl": null,
+      "portraitUrl": null,
+      "sourcePageUrl": "https://cse.sysu.edu.cn/teacher",
+      "officialRosterUrl": "https://cse.sysu.edu.cn/teacher",
+      "profileChecked": false,
+      "decision": "excluded_insufficient_scope_evidence",
+      "reason": "官方名录仅有姓名或职类，缺少个人页、研究方向和独立招生证据；本轮按证据门槛不纳入，而非推断人物身份。",
+      "evidenceUrl": "https://cse.sysu.edu.cn/teacher",
+      "evidenceExcerpt": "特聘副研究员 | 专职科研人员 | {\"row\":[\"熊宗兴\",\"特聘副研究员\",\"李绿周教授团队\",\"xiongzx6@mail.sysu.edu.cn\",\"量子计算与软件所\"]}"
+    },
+    {
+      "officialId": "0db93d28ad332465",
+      "name": "冯世光",
+      "title": "特聘副研究员",
+      "officialSections": [
+        "专职科研人员"
+      ],
+      "profileUrl": null,
+      "portraitUrl": null,
+      "sourcePageUrl": "https://cse.sysu.edu.cn/teacher",
+      "officialRosterUrl": "https://cse.sysu.edu.cn/teacher",
+      "profileChecked": false,
+      "decision": "excluded_insufficient_scope_evidence",
+      "reason": "官方名录仅有姓名或职类，缺少个人页、研究方向和独立招生证据；本轮按证据门槛不纳入，而非推断人物身份。",
+      "evidenceUrl": "https://cse.sysu.edu.cn/teacher",
+      "evidenceExcerpt": "特聘副研究员 | 专职科研人员 | {\"row\":[\"冯世光\",\"特聘副研究员\",\"李绿周教授团队\",\"fengshg3@mail.sysu.edu.cn\",\"量子计算与软件所\"]}"
+    },
+    {
+      "officialId": "236969661f8fedb1",
+      "name": "崔明月",
+      "title": "特聘副研究员",
+      "officialSections": [
+        "专职科研人员"
+      ],
+      "profileUrl": null,
+      "portraitUrl": null,
+      "sourcePageUrl": "https://cse.sysu.edu.cn/teacher",
+      "officialRosterUrl": "https://cse.sysu.edu.cn/teacher",
+      "profileChecked": false,
+      "decision": "include_new_pi",
+      "reason": "官方个人页的研究方向命中 AI/NLP/CV/ML、数据智能、机器人或紧密相关方向，并确认教授/研究员或独立招生资格。",
+      "evidenceUrl": "https://cse.sysu.edu.cn/teacher",
+      "evidenceExcerpt": "职科研人员 | {\"row\":[\"崔明月\",\"特聘副研究员\",\"黄凯教授团队\",\"cuimy@mail2.sysu.edu.cn\",\"智能与机器人所\"]}"
+    },
+    {
+      "officialId": "087cbec9cae5c949",
+      "name": "夏俊",
+      "title": "凌青",
+      "officialSections": [
+        "在站博士后"
+      ],
+      "profileUrl": null,
+      "portraitUrl": null,
+      "sourcePageUrl": "https://cse.sysu.edu.cn/teacher",
+      "officialRosterUrl": "https://cse.sysu.edu.cn/teacher",
+      "profileChecked": false,
+      "decision": "excluded_non_pi",
+      "reason": "官方名录职类为行政、实验技术、工程、科研助理、博士后或学生，且个人页未显示独立招生或研究组负责人资格。",
+      "evidenceUrl": "https://cse.sysu.edu.cn/teacher",
+      "evidenceExcerpt": "凌青 | 在站博士后 | {\"row\":[\"夏俊\",\"凌青\",\"科研博士后\",\"xiaj27@mail.sysu.edu.cn\",\"科学计算所\"]}"
+    },
+    {
+      "officialId": "1d3cffed7dacc629",
+      "name": "杨彧锋",
+      "title": "林倞",
+      "officialSections": [
+        "在站博士后"
+      ],
+      "profileUrl": null,
+      "portraitUrl": null,
+      "sourcePageUrl": "https://cse.sysu.edu.cn/teacher",
+      "officialRosterUrl": "https://cse.sysu.edu.cn/teacher",
+      "profileChecked": false,
+      "decision": "excluded_non_pi",
+      "reason": "官方名录职类为行政、实验技术、工程、科研助理、博士后或学生，且个人页未显示独立招生或研究组负责人资格。",
+      "evidenceUrl": "https://cse.sysu.edu.cn/teacher",
+      "evidenceExcerpt": "林倞 | 在站博士后 | {\"row\":[\"杨彧锋\",\"林倞\",\"科研博士后\",\"yangyf226@mail.sysu.edu.cn\",\"大数据所\"]}"
+    },
+    {
+      "officialId": "14f2a3ef9c0aaff4",
+      "name": "欧阳涛",
+      "title": "吴维刚",
+      "officialSections": [
+        "在站博士后"
+      ],
+      "profileUrl": null,
+      "portraitUrl": null,
+      "sourcePageUrl": "https://cse.sysu.edu.cn/teacher",
+      "officialRosterUrl": "https://cse.sysu.edu.cn/teacher",
+      "profileChecked": false,
+      "decision": "excluded_non_pi",
+      "reason": "官方名录职类为行政、实验技术、工程、科研助理、博士后或学生，且个人页未显示独立招生或研究组负责人资格。",
+      "evidenceUrl": "https://cse.sysu.edu.cn/teacher",
+      "evidenceExcerpt": "吴维刚 | 在站博士后 | {\"row\":[\"欧阳涛\",\"吴维刚\",\"科研博士后\",\"ouyt33@mail.sysu.edu.cn\",\"先进计算所\"]}"
+    },
+    {
+      "officialId": "a64ce7e86c2c72af",
+      "name": "李博洋",
+      "title": "谭宁",
+      "officialSections": [
+        "在站博士后"
+      ],
+      "profileUrl": null,
+      "portraitUrl": null,
+      "sourcePageUrl": "https://cse.sysu.edu.cn/teacher",
+      "officialRosterUrl": "https://cse.sysu.edu.cn/teacher",
+      "profileChecked": false,
+      "decision": "excluded_non_pi",
+      "reason": "官方名录职类为行政、实验技术、工程、科研助理、博士后或学生，且个人页未显示独立招生或研究组负责人资格。",
+      "evidenceUrl": "https://cse.sysu.edu.cn/teacher",
+      "evidenceExcerpt": "谭宁 | 在站博士后 | {\"row\":[\"李博洋\",\"谭宁\",\"科研博士后\",\"liby83@mail.sysu.edu.cn\",\"智能与机器人所\"]}"
+    },
+    {
+      "officialId": "12e0193fceb1cbc5",
+      "name": "康丹青",
+      "title": "赖剑煌",
+      "officialSections": [
+        "在站博士后"
+      ],
+      "profileUrl": null,
+      "portraitUrl": null,
+      "sourcePageUrl": "https://cse.sysu.edu.cn/teacher",
+      "officialRosterUrl": "https://cse.sysu.edu.cn/teacher",
+      "profileChecked": false,
+      "decision": "excluded_non_pi",
+      "reason": "官方名录职类为行政、实验技术、工程、科研助理、博士后或学生，且个人页未显示独立招生或研究组负责人资格。",
+      "evidenceUrl": "https://cse.sysu.edu.cn/teacher",
+      "evidenceExcerpt": "赖剑煌 | 在站博士后 | {\"row\":[\"康丹青\",\"赖剑煌\",\"科研博士后\",\"kangdq@mail2.sysu.edu.cn\",\"智能与机器人所\"]}"
+    },
+    {
+      "officialId": "3de2f155ddb296d0",
+      "name": "李泽峰",
+      "title": "黄凯",
+      "officialSections": [
+        "在站博士后"
+      ],
+      "profileUrl": null,
+      "portraitUrl": null,
+      "sourcePageUrl": "https://cse.sysu.edu.cn/teacher",
+      "officialRosterUrl": "https://cse.sysu.edu.cn/teacher",
+      "profileChecked": false,
+      "decision": "excluded_non_pi",
+      "reason": "官方名录职类为行政、实验技术、工程、科研助理、博士后或学生，且个人页未显示独立招生或研究组负责人资格。",
+      "evidenceUrl": "https://cse.sysu.edu.cn/teacher",
+      "evidenceExcerpt": "黄凯 | 在站博士后 | {\"row\":[\"李泽峰\",\"黄凯\",\"科研博士后\",\"lizf33@mail.sysu.edu.cn\",\"智能与机器人所\"]}"
+    },
+    {
+      "officialId": "b400e3335f308b66",
+      "name": "RIGALL ERIC CHARLES ALARIC",
+      "title": "陆遥",
+      "officialSections": [
+        "在站博士后"
+      ],
+      "profileUrl": null,
+      "portraitUrl": null,
+      "sourcePageUrl": "https://cse.sysu.edu.cn/teacher",
+      "officialRosterUrl": "https://cse.sysu.edu.cn/teacher",
+      "profileChecked": false,
+      "decision": "excluded_non_pi",
+      "reason": "官方名录职类为行政、实验技术、工程、科研助理、博士后或学生，且个人页未显示独立招生或研究组负责人资格。",
+      "evidenceUrl": "https://cse.sysu.edu.cn/teacher",
+      "evidenceExcerpt": "陆遥 | 在站博士后 | {\"row\":[\"RIGALL ERIC CHARLES ALARIC\",\"陆遥\",\"科研博士后\",\"rigall@mail.sysu.edu.cn\",\"科学计算所\"]}"
+    },
+    {
+      "officialId": "503b6fea7e8e057f",
+      "name": "徐风扬",
+      "title": "卢宇彤",
+      "officialSections": [
+        "在站博士后"
+      ],
+      "profileUrl": null,
+      "portraitUrl": null,
+      "sourcePageUrl": "https://cse.sysu.edu.cn/teacher",
+      "officialRosterUrl": "https://cse.sysu.edu.cn/teacher",
+      "profileChecked": false,
+      "decision": "excluded_non_pi",
+      "reason": "官方名录职类为行政、实验技术、工程、科研助理、博士后或学生，且个人页未显示独立招生或研究组负责人资格。",
+      "evidenceUrl": "https://cse.sysu.edu.cn/teacher",
+      "evidenceExcerpt": "卢宇彤 | 在站博士后 | {\"row\":[\"徐风扬\",\"卢宇彤\",\"科研博士后\",\"xufy29@mail.sysu.edu.cn\",\"超算中心\"]}"
+    },
+    {
+      "officialId": "017b01474f91f71a",
+      "name": "王晨",
+      "title": "杨宏奇",
+      "officialSections": [
+        "在站博士后"
+      ],
+      "profileUrl": null,
+      "portraitUrl": null,
+      "sourcePageUrl": "https://cse.sysu.edu.cn/teacher",
+      "officialRosterUrl": "https://cse.sysu.edu.cn/teacher",
+      "profileChecked": false,
+      "decision": "excluded_non_pi",
+      "reason": "官方名录职类为行政、实验技术、工程、科研助理、博士后或学生，且个人页未显示独立招生或研究组负责人资格。",
+      "evidenceUrl": "https://cse.sysu.edu.cn/teacher",
+      "evidenceExcerpt": "杨宏奇 | 在站博士后 | {\"row\":[\"王晨\",\"杨宏奇\",\"科研博士后\",\"wangch565@mail.sysu.edu.cn\",\"科学计算所\"]}"
+    },
+    {
+      "officialId": "5207f78bbd8eca33",
+      "name": "饶家华",
+      "title": "卢宇彤",
+      "officialSections": [
+        "在站博士后"
+      ],
+      "profileUrl": null,
+      "portraitUrl": null,
+      "sourcePageUrl": "https://cse.sysu.edu.cn/teacher",
+      "officialRosterUrl": "https://cse.sysu.edu.cn/teacher",
+      "profileChecked": false,
+      "decision": "excluded_non_pi",
+      "reason": "官方名录职类为行政、实验技术、工程、科研助理、博士后或学生，且个人页未显示独立招生或研究组负责人资格。",
+      "evidenceUrl": "https://cse.sysu.edu.cn/teacher",
+      "evidenceExcerpt": "卢宇彤 | 在站博士后 | {\"row\":[\"饶家华\",\"卢宇彤\",\"科研博士后\",\"raojh7@mail.sysu.edu.cn\",\"超算中心\"]}"
+    },
+    {
+      "officialId": "0ae5b2157a6f2fb0",
+      "name": "翟睿峰",
+      "title": "林倞",
+      "officialSections": [
+        "在站博士后"
+      ],
+      "profileUrl": null,
+      "portraitUrl": null,
+      "sourcePageUrl": "https://cse.sysu.edu.cn/teacher",
+      "officialRosterUrl": "https://cse.sysu.edu.cn/teacher",
+      "profileChecked": false,
+      "decision": "excluded_non_pi",
+      "reason": "官方名录职类为行政、实验技术、工程、科研助理、博士后或学生，且个人页未显示独立招生或研究组负责人资格。",
+      "evidenceUrl": "https://cse.sysu.edu.cn/teacher",
+      "evidenceExcerpt": "林倞 | 在站博士后 | {\"row\":[\"翟睿峰\",\"林倞\",\"科研博士后\",\"zhairf@mail.sysu.edu.cn\",\"大数据所\"]}"
+    },
+    {
+      "officialId": "27792de6c85046d7",
+      "name": "刘铭钊",
+      "title": "衡益",
+      "officialSections": [
+        "在站博士后"
+      ],
+      "profileUrl": null,
+      "portraitUrl": null,
+      "sourcePageUrl": "https://cse.sysu.edu.cn/teacher",
+      "officialRosterUrl": "https://cse.sysu.edu.cn/teacher",
+      "profileChecked": false,
+      "decision": "excluded_non_pi",
+      "reason": "官方名录职类为行政、实验技术、工程、科研助理、博士后或学生，且个人页未显示独立招生或研究组负责人资格。",
+      "evidenceUrl": "https://cse.sysu.edu.cn/teacher",
+      "evidenceExcerpt": "衡益 | 在站博士后 | {\"row\":[\"刘铭钊\",\"衡益\",\"科研博士后\",\"liumzh56@mail.sysu.edu.cn\",\"科学计算所\"]}"
+    },
+    {
+      "officialId": "e2dc8e5037ab1862",
+      "name": "李叶辉",
+      "title": "黄凯",
+      "officialSections": [
+        "在站博士后"
+      ],
+      "profileUrl": null,
+      "portraitUrl": null,
+      "sourcePageUrl": "https://cse.sysu.edu.cn/teacher",
+      "officialRosterUrl": "https://cse.sysu.edu.cn/teacher",
+      "profileChecked": false,
+      "decision": "excluded_non_pi",
+      "reason": "官方名录职类为行政、实验技术、工程、科研助理、博士后或学生，且个人页未显示独立招生或研究组负责人资格。",
+      "evidenceUrl": "https://cse.sysu.edu.cn/teacher",
+      "evidenceExcerpt": "黄凯 | 在站博士后 | {\"row\":[\"李叶辉\",\"黄凯\",\"科研博士后\",\"liyh699@mail.sysu.edu.cn\",\"智能与机器人所\"]}"
+    },
+    {
+      "officialId": "847e36dd251308eb",
+      "name": "丰光南",
+      "title": "肖侬",
+      "officialSections": [
+        "在站博士后"
+      ],
+      "profileUrl": null,
+      "portraitUrl": null,
+      "sourcePageUrl": "https://cse.sysu.edu.cn/teacher",
+      "officialRosterUrl": "https://cse.sysu.edu.cn/teacher",
+      "profileChecked": false,
+      "decision": "excluded_non_pi",
+      "reason": "官方名录职类为行政、实验技术、工程、科研助理、博士后或学生，且个人页未显示独立招生或研究组负责人资格。",
+      "evidenceUrl": "https://cse.sysu.edu.cn/teacher",
+      "evidenceExcerpt": "肖侬 | 在站博士后 | {\"row\":[\"丰光南\",\"肖侬\",\"科研博士后\",\"fenggn7@mail.sysu.edu.cn\",\"超算中心\"]}"
+    },
+    {
+      "officialId": "9b4dab61798f5c4d",
+      "name": "张元海",
+      "title": "吴贺俊",
+      "officialSections": [
+        "在站博士后"
+      ],
+      "profileUrl": null,
+      "portraitUrl": null,
+      "sourcePageUrl": "https://cse.sysu.edu.cn/teacher",
+      "officialRosterUrl": "https://cse.sysu.edu.cn/teacher",
+      "profileChecked": false,
+      "decision": "excluded_non_pi",
+      "reason": "官方名录职类为行政、实验技术、工程、科研助理、博士后或学生，且个人页未显示独立招生或研究组负责人资格。",
+      "evidenceUrl": "https://cse.sysu.edu.cn/teacher",
+      "evidenceExcerpt": "吴贺俊 | 在站博士后 | {\"row\":[\"张元海\",\"吴贺俊\",\"科研博士后\",\"zhangyh578@mail.sysu.edu.cn\",\"先进计算所\"]}"
+    },
+    {
+      "officialId": "9f8b5c0d1d23a612",
+      "name": "宋日辉",
+      "title": "谭宁",
+      "officialSections": [
+        "在站博士后"
+      ],
+      "profileUrl": null,
+      "portraitUrl": null,
+      "sourcePageUrl": "https://cse.sysu.edu.cn/teacher",
+      "officialRosterUrl": "https://cse.sysu.edu.cn/teacher",
+      "profileChecked": false,
+      "decision": "excluded_non_pi",
+      "reason": "官方名录职类为行政、实验技术、工程、科研助理、博士后或学生，且个人页未显示独立招生或研究组负责人资格。",
+      "evidenceUrl": "https://cse.sysu.edu.cn/teacher",
+      "evidenceExcerpt": "谭宁 | 在站博士后 | {\"row\":[\"宋日辉\",\"谭宁\",\"科研博士后\",\"songrh3@mail.sysu.edu.cn\",\"智能与机器人所\"]}"
+    },
+    {
+      "officialId": "fda7f74bddd7831d",
+      "name": "段嘉威",
+      "title": "马啸",
+      "officialSections": [
+        "在站博士后"
+      ],
+      "profileUrl": null,
+      "portraitUrl": null,
+      "sourcePageUrl": "https://cse.sysu.edu.cn/teacher",
+      "officialRosterUrl": "https://cse.sysu.edu.cn/teacher",
+      "profileChecked": false,
+      "decision": "excluded_non_pi",
+      "reason": "官方名录职类为行政、实验技术、工程、科研助理、博士后或学生，且个人页未显示独立招生或研究组负责人资格。",
+      "evidenceUrl": "https://cse.sysu.edu.cn/teacher",
+      "evidenceExcerpt": "马啸 | 在站博士后 | {\"row\":[\"段嘉威\",\"马啸\",\"科研博士后\",\"duanjw6@mail.sysu.edu.cn\",\"安全所\"]}"
+    },
+    {
+      "officialId": "4a1af8fe911f0cce",
+      "name": "鹿腾",
+      "title": "马啸",
+      "officialSections": [
+        "在站博士后"
+      ],
+      "profileUrl": null,
+      "portraitUrl": null,
+      "sourcePageUrl": "https://cse.sysu.edu.cn/teacher",
+      "officialRosterUrl": "https://cse.sysu.edu.cn/teacher",
+      "profileChecked": false,
+      "decision": "excluded_non_pi",
+      "reason": "官方名录职类为行政、实验技术、工程、科研助理、博士后或学生，且个人页未显示独立招生或研究组负责人资格。",
+      "evidenceUrl": "https://cse.sysu.edu.cn/teacher",
+      "evidenceExcerpt": "马啸 | 在站博士后 | {\"row\":[\"鹿腾\",\"马啸\",\"科研博士后\",\"luteng@mail.sysu.edu.cn\",\"安全所\"]}"
+    },
+    {
+      "officialId": "fd7e65497626adfb",
+      "name": "林文蔚",
+      "title": "王瑞轩",
+      "officialSections": [
+        "在站博士后"
+      ],
+      "profileUrl": null,
+      "portraitUrl": null,
+      "sourcePageUrl": "https://cse.sysu.edu.cn/teacher",
+      "officialRosterUrl": "https://cse.sysu.edu.cn/teacher",
+      "profileChecked": false,
+      "decision": "excluded_non_pi",
+      "reason": "官方名录职类为行政、实验技术、工程、科研助理、博士后或学生，且个人页未显示独立招生或研究组负责人资格。",
+      "evidenceUrl": "https://cse.sysu.edu.cn/teacher",
+      "evidenceExcerpt": "王瑞轩 | 在站博士后 | {\"row\":[\"林文蔚\",\"王瑞轩\",\"科研博士后\",\"linww28@mail.sysu.edu.cn\",\"智能与机器人所\"]}"
+    },
+    {
+      "officialId": "3fdd2f7921db96af",
+      "name": "周思齐",
+      "title": "马啸",
+      "officialSections": [
+        "在站博士后"
+      ],
+      "profileUrl": null,
+      "portraitUrl": null,
+      "sourcePageUrl": "https://cse.sysu.edu.cn/teacher",
+      "officialRosterUrl": "https://cse.sysu.edu.cn/teacher",
+      "profileChecked": false,
+      "decision": "excluded_non_pi",
+      "reason": "官方名录职类为行政、实验技术、工程、科研助理、博士后或学生，且个人页未显示独立招生或研究组负责人资格。",
+      "evidenceUrl": "https://cse.sysu.edu.cn/teacher",
+      "evidenceExcerpt": "马啸 | 在站博士后 | {\"row\":[\"周思齐\",\"马啸\",\"科研博士后\",\"zhousq9@mail.sysu.edu.cn\",\"安全所\"]}"
+    },
+    {
+      "officialId": "fade5a368f90f78b",
+      "name": "吴锐帆",
+      "title": "陈志广",
+      "officialSections": [
+        "在站博士后"
+      ],
+      "profileUrl": null,
+      "portraitUrl": null,
+      "sourcePageUrl": "https://cse.sysu.edu.cn/teacher",
+      "officialRosterUrl": "https://cse.sysu.edu.cn/teacher",
+      "profileChecked": false,
+      "decision": "excluded_non_pi",
+      "reason": "官方名录职类为行政、实验技术、工程、科研助理、博士后或学生，且个人页未显示独立招生或研究组负责人资格。",
+      "evidenceUrl": "https://cse.sysu.edu.cn/teacher",
+      "evidenceExcerpt": "陈志广 | 在站博士后 | {\"row\":[\"吴锐帆\",\"陈志广\",\"科研博士后\",\"wurf26@mail.sysu.edu.cn\",\"超算中心\"]}"
+    },
+    {
+      "officialId": "ac0ae6cddca31aec",
+      "name": "王福宇",
+      "title": "卢宇彤",
+      "officialSections": [
+        "在站博士后"
+      ],
+      "profileUrl": null,
+      "portraitUrl": null,
+      "sourcePageUrl": "https://cse.sysu.edu.cn/teacher",
+      "officialRosterUrl": "https://cse.sysu.edu.cn/teacher",
+      "profileChecked": false,
+      "decision": "excluded_non_pi",
+      "reason": "官方名录职类为行政、实验技术、工程、科研助理、博士后或学生，且个人页未显示独立招生或研究组负责人资格。",
+      "evidenceUrl": "https://cse.sysu.edu.cn/teacher",
+      "evidenceExcerpt": "卢宇彤 | 在站博士后 | {\"row\":[\"王福宇\",\"卢宇彤\",\"科研博士后\",\"wangfy59@mail.sysu.edu.cn\",\"超算中心\"]}"
+    },
+    {
+      "officialId": "9ea9103f157ab501",
+      "name": "王海涛",
+      "title": "黄凯",
+      "officialSections": [
+        "在站博士后"
+      ],
+      "profileUrl": null,
+      "portraitUrl": null,
+      "sourcePageUrl": "https://cse.sysu.edu.cn/teacher",
+      "officialRosterUrl": "https://cse.sysu.edu.cn/teacher",
+      "profileChecked": false,
+      "decision": "excluded_non_pi",
+      "reason": "官方名录职类为行政、实验技术、工程、科研助理、博士后或学生，且个人页未显示独立招生或研究组负责人资格。",
+      "evidenceUrl": "https://cse.sysu.edu.cn/teacher",
+      "evidenceExcerpt": "黄凯 | 在站博士后 | {\"row\":[\"王海涛\",\"黄凯\",\"科研博士后\",\"wanght76@mail.sysu.edu.cn\",\"智能与机器人所\"]}"
+    },
+    {
+      "officialId": "a20112c08e86661a",
+      "name": "盛紫琦",
+      "title": "肖侬",
+      "officialSections": [
+        "在站博士后"
+      ],
+      "profileUrl": null,
+      "portraitUrl": null,
+      "sourcePageUrl": "https://cse.sysu.edu.cn/teacher",
+      "officialRosterUrl": "https://cse.sysu.edu.cn/teacher",
+      "profileChecked": false,
+      "decision": "excluded_non_pi",
+      "reason": "官方名录职类为行政、实验技术、工程、科研助理、博士后或学生，且个人页未显示独立招生或研究组负责人资格。",
+      "evidenceUrl": "https://cse.sysu.edu.cn/teacher",
+      "evidenceExcerpt": "肖侬 | 在站博士后 | {\"row\":[\"盛紫琦\",\"肖侬\",\"科研博士后\",\"shengzq3@mail.sysu.edu.cn\",\"超算中心\"]}"
+    },
+    {
+      "officialId": "f06dc29d8343f6c9",
+      "name": "陆勇",
+      "title": "实验中心副主任",
+      "officialSections": [
+        "专业技术人员"
+      ],
+      "profileUrl": null,
+      "portraitUrl": null,
+      "sourcePageUrl": "https://cse.sysu.edu.cn/teacher",
+      "officialRosterUrl": "https://cse.sysu.edu.cn/teacher",
+      "profileChecked": false,
+      "decision": "excluded_non_pi",
+      "reason": "官方名录职类为行政、实验技术、工程、科研助理、博士后或学生，且个人页未显示独立招生或研究组负责人资格。",
+      "evidenceUrl": "https://cse.sysu.edu.cn/teacher",
+      "evidenceExcerpt": "实验中心副主任 | 专业技术人员 | {\"row\":[\"陆勇\",\"实验中心副主任\",\"39330235\",\"stsluy@mail.sysu.edu.cn\"]}"
+    },
+    {
+      "officialId": "d54cef45d0e853d9",
+      "name": "郑贵锋",
+      "title": "实验工程人员",
+      "officialSections": [
+        "专业技术人员"
+      ],
+      "profileUrl": null,
+      "portraitUrl": null,
+      "sourcePageUrl": "https://cse.sysu.edu.cn/teacher",
+      "officialRosterUrl": "https://cse.sysu.edu.cn/teacher",
+      "profileChecked": false,
+      "decision": "excluded_non_pi",
+      "reason": "官方名录职类为行政、实验技术、工程、科研助理、博士后或学生，且个人页未显示独立招生或研究组负责人资格。",
+      "evidenceUrl": "https://cse.sysu.edu.cn/teacher",
+      "evidenceExcerpt": "实验工程人员 | 专业技术人员 | {\"row\":[\"郑贵锋\",\"实验工程人员\",\"\",\"zhenggf@mail.sysu.edu.cn\"]}"
+    },
+    {
+      "officialId": "0db70ce9882aaa23",
+      "name": "陈薇薇",
+      "title": "实验工程人员",
+      "officialSections": [
+        "专业技术人员"
+      ],
+      "profileUrl": null,
+      "portraitUrl": null,
+      "sourcePageUrl": "https://cse.sysu.edu.cn/teacher",
+      "officialRosterUrl": "https://cse.sysu.edu.cn/teacher",
+      "profileChecked": false,
+      "decision": "excluded_non_pi",
+      "reason": "官方名录职类为行政、实验技术、工程、科研助理、博士后或学生，且个人页未显示独立招生或研究组负责人资格。",
+      "evidenceUrl": "https://cse.sysu.edu.cn/teacher",
+      "evidenceExcerpt": "实验工程人员 | 专业技术人员 | {\"row\":[\"陈薇薇\",\"实验工程人员\",\"39332235/84113239\",\"chenww@mail.sysu.edu.cn\"]}"
+    },
+    {
+      "officialId": "e6ec1484110ccdcd",
+      "name": "陈立文",
+      "title": "实验工程人员",
+      "officialSections": [
+        "专业技术人员"
+      ],
+      "profileUrl": null,
+      "portraitUrl": null,
+      "sourcePageUrl": "https://cse.sysu.edu.cn/teacher",
+      "officialRosterUrl": "https://cse.sysu.edu.cn/teacher",
+      "profileChecked": false,
+      "decision": "excluded_non_pi",
+      "reason": "官方名录职类为行政、实验技术、工程、科研助理、博士后或学生，且个人页未显示独立招生或研究组负责人资格。",
+      "evidenceUrl": "https://cse.sysu.edu.cn/teacher",
+      "evidenceExcerpt": "实验工程人员 | 专业技术人员 | {\"row\":[\"陈立文\",\"实验工程人员\",\"\",\"chenlw@mail.sysu.edu.cn\"]}"
+    },
+    {
+      "officialId": "395d8bf381befa49",
+      "name": "刘陂",
+      "title": "实验工程人员",
+      "officialSections": [
+        "专业技术人员"
+      ],
+      "profileUrl": null,
+      "portraitUrl": null,
+      "sourcePageUrl": "https://cse.sysu.edu.cn/teacher",
+      "officialRosterUrl": "https://cse.sysu.edu.cn/teacher",
+      "profileChecked": false,
+      "decision": "excluded_non_pi",
+      "reason": "官方名录职类为行政、实验技术、工程、科研助理、博士后或学生，且个人页未显示独立招生或研究组负责人资格。",
+      "evidenceUrl": "https://cse.sysu.edu.cn/teacher",
+      "evidenceExcerpt": "实验工程人员 | 专业技术人员 | {\"row\":[\"刘陂\",\"实验工程人员\",\"39332235/84113239\",\"liubei2@mail.sysu.edu.cn\"]}"
+    },
+    {
+      "officialId": "b4e6d97cccd44d38",
+      "name": "刘学正",
+      "title": "实验工程人员",
+      "officialSections": [
+        "专业技术人员"
+      ],
+      "profileUrl": null,
+      "portraitUrl": null,
+      "sourcePageUrl": "https://cse.sysu.edu.cn/teacher",
+      "officialRosterUrl": "https://cse.sysu.edu.cn/teacher",
+      "profileChecked": false,
+      "decision": "excluded_non_pi",
+      "reason": "官方名录职类为行政、实验技术、工程、科研助理、博士后或学生，且个人页未显示独立招生或研究组负责人资格。",
+      "evidenceUrl": "https://cse.sysu.edu.cn/teacher",
+      "evidenceExcerpt": "实验工程人员 | 专业技术人员 | {\"row\":[\"刘学正\",\"实验工程人员\",\"\",\"liuxzh36@mail.sysu.edu.cn\"]}"
+    },
+    {
+      "officialId": "3d40f2e44a6e2d1a",
+      "name": "罗炜麟",
+      "title": "实验工程人员",
+      "officialSections": [
+        "专业技术人员"
+      ],
+      "profileUrl": null,
+      "portraitUrl": null,
+      "sourcePageUrl": "https://cse.sysu.edu.cn/teacher",
+      "officialRosterUrl": "https://cse.sysu.edu.cn/teacher",
+      "profileChecked": false,
+      "decision": "excluded_non_pi",
+      "reason": "官方名录职类为行政、实验技术、工程、科研助理、博士后或学生，且个人页未显示独立招生或研究组负责人资格。",
+      "evidenceUrl": "https://cse.sysu.edu.cn/teacher",
+      "evidenceExcerpt": "实验工程人员 | 专业技术人员 | {\"row\":[\"罗炜麟\",\"实验工程人员\",\"\",\"luowlin5@mail.sysu.edu.cn\"]}"
+    },
+    {
+      "officialId": "3e9839bd98e72572",
+      "name": "周玲丽",
+      "title": "实验工程人员",
+      "officialSections": [
+        "专业技术人员"
+      ],
+      "profileUrl": null,
+      "portraitUrl": null,
+      "sourcePageUrl": "https://cse.sysu.edu.cn/teacher",
+      "officialRosterUrl": "https://cse.sysu.edu.cn/teacher",
+      "profileChecked": false,
+      "decision": "excluded_non_pi",
+      "reason": "官方名录职类为行政、实验技术、工程、科研助理、博士后或学生，且个人页未显示独立招生或研究组负责人资格。",
+      "evidenceUrl": "https://cse.sysu.edu.cn/teacher",
+      "evidenceExcerpt": "实验工程人员 | 专业技术人员 | {\"row\":[\"周玲丽\",\"实验工程人员\",\"39332235/84113239\",\"mcszll@mail.sysu.edu.cn\"]}"
+    },
+    {
+      "officialId": "d8d65b84545da85a",
+      "name": "许汉冰",
+      "title": "实验工程人员",
+      "officialSections": [
+        "专业技术人员"
+      ],
+      "profileUrl": null,
+      "portraitUrl": null,
+      "sourcePageUrl": "https://cse.sysu.edu.cn/teacher",
+      "officialRosterUrl": "https://cse.sysu.edu.cn/teacher",
+      "profileChecked": false,
+      "decision": "excluded_non_pi",
+      "reason": "官方名录职类为行政、实验技术、工程、科研助理、博士后或学生，且个人页未显示独立招生或研究组负责人资格。",
+      "evidenceUrl": "https://cse.sysu.edu.cn/teacher",
+      "evidenceExcerpt": "实验工程人员 | 专业技术人员 | {\"row\":[\"许汉冰\",\"实验工程人员\",\"39332235/84113239\",\"xuhb@mail.sysu.edu.cn\"]}"
+    },
+    {
+      "officialId": "3f03b80cfae59efe",
+      "name": "聂琳",
+      "title": "实验工程人员",
+      "officialSections": [
+        "专业技术人员"
+      ],
+      "profileUrl": null,
+      "portraitUrl": null,
+      "sourcePageUrl": "https://cse.sysu.edu.cn/teacher",
+      "officialRosterUrl": "https://cse.sysu.edu.cn/teacher",
+      "profileChecked": false,
+      "decision": "excluded_non_pi",
+      "reason": "官方名录职类为行政、实验技术、工程、科研助理、博士后或学生，且个人页未显示独立招生或研究组负责人资格。",
+      "evidenceUrl": "https://cse.sysu.edu.cn/teacher",
+      "evidenceExcerpt": "实验工程人员 | 专业技术人员 | {\"row\":[\"聂琳\",\"实验工程人员\",\"39332235/84113239\",\"nielin@mail.sysu.edu.cn\"]}"
+    },
+    {
+      "officialId": "5535a291fdc236ff",
+      "name": "林瀚",
+      "title": "实验工程人员",
+      "officialSections": [
+        "专业技术人员"
+      ],
+      "profileUrl": null,
+      "portraitUrl": null,
+      "sourcePageUrl": "https://cse.sysu.edu.cn/teacher",
+      "officialRosterUrl": "https://cse.sysu.edu.cn/teacher",
+      "profileChecked": false,
+      "decision": "excluded_non_pi",
+      "reason": "官方名录职类为行政、实验技术、工程、科研助理、博士后或学生，且个人页未显示独立招生或研究组负责人资格。",
+      "evidenceUrl": "https://cse.sysu.edu.cn/teacher",
+      "evidenceExcerpt": "实验工程人员 | 专业技术人员 | {\"row\":[\"林瀚\",\"实验工程人员\",\"\",\"linhan6@mail.sysu.edu.cn\"]}"
+    },
+    {
+      "officialId": "7f13096a2006a4c3",
+      "name": "罗文村",
+      "title": "实验工程人员",
+      "officialSections": [
+        "专业技术人员"
+      ],
+      "profileUrl": null,
+      "portraitUrl": null,
+      "sourcePageUrl": "https://cse.sysu.edu.cn/teacher",
+      "officialRosterUrl": "https://cse.sysu.edu.cn/teacher",
+      "profileChecked": false,
+      "decision": "excluded_non_pi",
+      "reason": "官方名录职类为行政、实验技术、工程、科研助理、博士后或学生，且个人页未显示独立招生或研究组负责人资格。",
+      "evidenceUrl": "https://cse.sysu.edu.cn/teacher",
+      "evidenceExcerpt": "实验工程人员 | 专业技术人员 | {\"row\":[\"罗文村\",\"实验工程人员\",\"\",\"isslwc@mail.sysu.edu.cn\"]}"
+    },
+    {
+      "officialId": "fc0a38bd144a9cef",
+      "name": "阮琪",
+      "title": "实验工程人员",
+      "officialSections": [
+        "专业技术人员"
+      ],
+      "profileUrl": null,
+      "portraitUrl": null,
+      "sourcePageUrl": "https://cse.sysu.edu.cn/teacher",
+      "officialRosterUrl": "https://cse.sysu.edu.cn/teacher",
+      "profileChecked": false,
+      "decision": "excluded_non_pi",
+      "reason": "官方名录职类为行政、实验技术、工程、科研助理、博士后或学生，且个人页未显示独立招生或研究组负责人资格。",
+      "evidenceUrl": "https://cse.sysu.edu.cn/teacher",
+      "evidenceExcerpt": "实验工程人员 | 专业技术人员 | {\"row\":[\"阮琪\",\"实验工程人员\",\"\",\"ruanqi@mail.sysu.edu.cn\"]}"
+    }
+  ]
+}

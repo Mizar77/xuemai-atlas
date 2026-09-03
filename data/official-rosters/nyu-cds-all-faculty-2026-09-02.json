@@ -1,0 +1,1673 @@
+{
+  "completeness": "complete",
+  "fetchedAt": "2026-09-02",
+  "institution": "New York University — Center for Data Science",
+  "officialPageUrl": "https://cds.nyu.edu/people/faculty/",
+  "officialDataUrl": "https://cds.nyu.edu/joint-faculty/",
+  "officialDataUrls": [
+    "https://cds.nyu.edu/joint-faculty/",
+    "https://cds.nyu.edu/clinical-faculty/",
+    "https://cds.nyu.edu/faculty-fellows/",
+    "https://cds.nyu.edu/associated-faculty/",
+    "https://cds.nyu.edu/affiliated-faculty/",
+    "https://cds.nyu.edu/affiliated-shanghai-faculty/",
+    "https://cds.nyu.edu/visiting/",
+    "https://cds.nyu.edu/adjunct-faculty/"
+  ],
+  "officialRosterCount": 149,
+  "sourceDescription": "The legacy faculty landing URL now redirects to a missing /our-people/ page, but its official Faculty menu exposes eight current first-party roster pages. All eight pages were traversed in full: Joint 28, Clinical 4, Faculty Fellows 14, Associated 9, Affiliated 86, Affiliated Shanghai 3, Visiting 1, Adjunct 5. There are 150 raw cards and 149 unique people because Todd Gureckis appears in both Joint and Affiliated; both categories are retained on the merged person.",
+  "categoryCounts": {
+    "Joint Faculty": 28,
+    "Clinical Faculty": 4,
+    "Faculty Fellows": 14,
+    "Associated Faculty": 9,
+    "Affiliated Faculty": 86,
+    "Affiliated Shanghai Faculty": 3,
+    "Visiting Faculty": 1,
+    "Adjunct Faculty": 5
+  },
+  "rawCardCount": 150,
+  "people": [
+    {
+      "officialId": "Aahlad Puli",
+      "name": "Aahlad Puli",
+      "profileUrl": null,
+      "categories": [
+        "Faculty Fellows"
+      ],
+      "sourceUrls": [
+        "https://cds.nyu.edu/faculty-fellows/"
+      ]
+    },
+    {
+      "officialId": "https://cds.nyu.edu/team/aaron-kaufman/",
+      "name": "Aaron Kaufman",
+      "profileUrl": "https://cds.nyu.edu/team/aaron-kaufman/",
+      "categories": [
+        "Affiliated Faculty"
+      ],
+      "sourceUrls": [
+        "https://cds.nyu.edu/affiliated-faculty/"
+      ]
+    },
+    {
+      "officialId": "https://www.stern.nyu.edu/faculty/bio/aaron-tenenbein",
+      "name": "Aaron Tenenbein",
+      "profileUrl": "https://www.stern.nyu.edu/faculty/bio/aaron-tenenbein",
+      "categories": [
+        "Affiliated Faculty"
+      ],
+      "sourceUrls": [
+        "https://cds.nyu.edu/affiliated-faculty/"
+      ]
+    },
+    {
+      "officialId": "Adam Bouyamourn",
+      "name": "Adam Bouyamourn",
+      "profileUrl": null,
+      "categories": [
+        "Faculty Fellows"
+      ],
+      "sourceUrls": [
+        "https://cds.nyu.edu/faculty-fellows/"
+      ]
+    },
+    {
+      "officialId": "https://cds.nyu.edu/team/alex-williams/",
+      "name": "Alex Williams",
+      "profileUrl": "https://cds.nyu.edu/team/alex-williams/",
+      "categories": [
+        "Affiliated Faculty"
+      ],
+      "sourceUrls": [
+        "https://cds.nyu.edu/affiliated-faculty/"
+      ]
+    },
+    {
+      "officialId": "https://www.stern.nyu.edu/faculty/bio/alexander-tuzhilin",
+      "name": "Alexander Tuzhilin",
+      "profileUrl": "https://www.stern.nyu.edu/faculty/bio/alexander-tuzhilin",
+      "categories": [
+        "Affiliated Faculty"
+      ],
+      "sourceUrls": [
+        "https://cds.nyu.edu/affiliated-faculty/"
+      ]
+    },
+    {
+      "officialId": "https://alfredgalichon.com/",
+      "name": "Alfred Galichon",
+      "profileUrl": "https://alfredgalichon.com/",
+      "categories": [
+        "Affiliated Faculty"
+      ],
+      "sourceUrls": [
+        "https://cds.nyu.edu/affiliated-faculty/"
+      ]
+    },
+    {
+      "officialId": "https://cds.nyu.edu/team/andrew-wilson/",
+      "name": "Andrew Gordon Wilson",
+      "profileUrl": "https://cds.nyu.edu/team/andrew-wilson/",
+      "categories": [
+        "Joint Faculty"
+      ],
+      "sourceUrls": [
+        "https://cds.nyu.edu/joint-faculty/"
+      ]
+    },
+    {
+      "officialId": "https://cds.nyu.edu/team/andrew-stuart/",
+      "name": "Andrew Stuart",
+      "profileUrl": "https://cds.nyu.edu/team/andrew-stuart/",
+      "categories": [
+        "Affiliated Faculty"
+      ],
+      "sourceUrls": [
+        "https://cds.nyu.edu/affiliated-faculty/"
+      ]
+    },
+    {
+      "officialId": "https://engineering.nyu.edu/faculty/anna-choromanska",
+      "name": "Anna Choromanska",
+      "profileUrl": "https://engineering.nyu.edu/faculty/anna-choromanska",
+      "categories": [
+        "Affiliated Faculty"
+      ],
+      "sourceUrls": [
+        "https://cds.nyu.edu/affiliated-faculty/"
+      ]
+    },
+    {
+      "officialId": "https://cds.nyu.edu/team/anna-harvey/",
+      "name": "Anna Harvey",
+      "profileUrl": "https://cds.nyu.edu/team/anna-harvey/",
+      "categories": [
+        "Affiliated Faculty"
+      ],
+      "sourceUrls": [
+        "https://cds.nyu.edu/affiliated-faculty/"
+      ]
+    },
+    {
+      "officialId": "Annamaria​ Prati",
+      "name": "Annamaria​ Prati",
+      "profileUrl": null,
+      "categories": [
+        "Faculty Fellows"
+      ],
+      "sourceUrls": [
+        "https://cds.nyu.edu/faculty-fellows/"
+      ]
+    },
+    {
+      "officialId": "https://seyiqi.github.io/",
+      "name": "Artie (Yiqiu) Shen",
+      "profileUrl": "https://seyiqi.github.io/",
+      "categories": [
+        "Affiliated Faculty"
+      ],
+      "sourceUrls": [
+        "https://cds.nyu.edu/affiliated-faculty/"
+      ]
+    },
+    {
+      "officialId": "https://www.stern.nyu.edu/faculty/bio/arun-sundararajan",
+      "name": "Arun Sundararajan",
+      "profileUrl": "https://www.stern.nyu.edu/faculty/bio/arun-sundararajan",
+      "categories": [
+        "Affiliated Faculty"
+      ],
+      "sourceUrls": [
+        "https://cds.nyu.edu/affiliated-faculty/"
+      ]
+    },
+    {
+      "officialId": "https://cds.nyu.edu/team/bart-bonikowski/",
+      "name": "Bart Bonikowski",
+      "profileUrl": "https://cds.nyu.edu/team/bart-bonikowski/",
+      "categories": [
+        "Affiliated Faculty"
+      ],
+      "sourceUrls": [
+        "https://cds.nyu.edu/affiliated-faculty/"
+      ]
+    },
+    {
+      "officialId": "https://cims.nyu.edu/~pehersto/",
+      "name": "Benjamin Peherstorfer",
+      "profileUrl": "https://cims.nyu.edu/~pehersto/",
+      "categories": [
+        "Affiliated Faculty"
+      ],
+      "sourceUrls": [
+        "https://cds.nyu.edu/affiliated-faculty/"
+      ]
+    },
+    {
+      "officialId": "https://cds.nyu.edu/team/brad-aouizerat/",
+      "name": "Brad Aouizerat",
+      "profileUrl": "https://cds.nyu.edu/team/brad-aouizerat/",
+      "categories": [
+        "Affiliated Faculty"
+      ],
+      "sourceUrls": [
+        "https://cds.nyu.edu/affiliated-faculty/"
+      ]
+    },
+    {
+      "officialId": "https://cds.nyu.edu/team/brian-mcfee/",
+      "name": "Brian McFee",
+      "profileUrl": "https://cds.nyu.edu/team/brian-mcfee/",
+      "categories": [
+        "Joint Faculty"
+      ],
+      "sourceUrls": [
+        "https://cds.nyu.edu/joint-faculty/"
+      ]
+    },
+    {
+      "officialId": "https://cds.nyu.edu/team/bryant-moy/",
+      "name": "Bryant Moy",
+      "profileUrl": "https://cds.nyu.edu/team/bryant-moy/",
+      "categories": [
+        "Affiliated Faculty"
+      ],
+      "sourceUrls": [
+        "https://cds.nyu.edu/affiliated-faculty/"
+      ]
+    },
+    {
+      "officialId": "https://cds.nyu.edu/team/carlos-fernandez-granda-2/",
+      "name": "Carlos Fernandez-Granda",
+      "profileUrl": "https://cds.nyu.edu/team/carlos-fernandez-granda-2/",
+      "categories": [
+        "Joint Faculty"
+      ],
+      "sourceUrls": [
+        "https://cds.nyu.edu/joint-faculty/"
+      ]
+    },
+    {
+      "officialId": "https://huanglab.rbind.io/",
+      "name": "Carol Huang",
+      "profileUrl": "https://huanglab.rbind.io/",
+      "categories": [
+        "Affiliated Faculty"
+      ],
+      "sourceUrls": [
+        "https://cds.nyu.edu/affiliated-faculty/"
+      ]
+    },
+    {
+      "officialId": "https://math.nyu.edu/people/profiles/NEWMAN_Charles.html",
+      "name": "Charles Newman",
+      "profileUrl": "https://math.nyu.edu/people/profiles/NEWMAN_Charles.html",
+      "categories": [
+        "Affiliated Faculty"
+      ],
+      "sourceUrls": [
+        "https://cds.nyu.edu/affiliated-faculty/"
+      ]
+    },
+    {
+      "officialId": "https://cds.nyu.edu/team/chen-wang/",
+      "name": "Chen Wang",
+      "profileUrl": "https://cds.nyu.edu/team/chen-wang/",
+      "categories": [
+        "Adjunct Faculty"
+      ],
+      "sourceUrls": [
+        "https://cds.nyu.edu/adjunct-faculty/"
+      ]
+    },
+    {
+      "officialId": "https://cds.nyu.edu/team/chen-zhao/",
+      "name": "Chen Zhao",
+      "profileUrl": "https://cds.nyu.edu/team/chen-zhao/",
+      "categories": [
+        "Affiliated Shanghai Faculty"
+      ],
+      "sourceUrls": [
+        "https://cds.nyu.edu/affiliated-shanghai-faculty/"
+      ]
+    },
+    {
+      "officialId": "https://cds.nyu.edu/team/claudio-silva/",
+      "name": "Claudio Silva",
+      "profileUrl": "https://cds.nyu.edu/team/claudio-silva/",
+      "categories": [
+        "Joint Faculty"
+      ],
+      "sourceUrls": [
+        "https://cds.nyu.edu/joint-faculty/"
+      ]
+    },
+    {
+      "officialId": "https://cds.nyu.edu/team/cristina-savin/",
+      "name": "Cristina Savin",
+      "profileUrl": "https://cds.nyu.edu/team/cristina-savin/",
+      "categories": [
+        "Joint Faculty"
+      ],
+      "sourceUrls": [
+        "https://cds.nyu.edu/joint-faculty/"
+      ]
+    },
+    {
+      "officialId": "https://cds.nyu.edu/team/daniel-neill/",
+      "name": "Daniel Neill",
+      "profileUrl": "https://cds.nyu.edu/team/daniel-neill/",
+      "categories": [
+        "Affiliated Faculty"
+      ],
+      "sourceUrls": [
+        "https://cds.nyu.edu/affiliated-faculty/"
+      ]
+    },
+    {
+      "officialId": "https://cds.nyu.edu/team/danny-yuxing-huang/",
+      "name": "Danny Yuxing Huang",
+      "profileUrl": "https://cds.nyu.edu/team/danny-yuxing-huang/",
+      "categories": [
+        "Affiliated Faculty"
+      ],
+      "sourceUrls": [
+        "https://cds.nyu.edu/affiliated-faculty/"
+      ]
+    },
+    {
+      "officialId": "https://steinhardt.nyu.edu/faculty/Daphna_Harel",
+      "name": "Daphna Harel",
+      "profileUrl": "https://steinhardt.nyu.edu/faculty/Daphna_Harel",
+      "categories": [
+        "Affiliated Faculty"
+      ],
+      "sourceUrls": [
+        "https://cds.nyu.edu/affiliated-faculty/"
+      ]
+    },
+    {
+      "officialId": "https://fenyolab.org/",
+      "name": "David Fenyo",
+      "profileUrl": "https://fenyolab.org/",
+      "categories": [
+        "Affiliated Faculty"
+      ],
+      "sourceUrls": [
+        "https://cds.nyu.edu/affiliated-faculty/"
+      ]
+    },
+    {
+      "officialId": "https://www.cns.nyu.edu/~david/",
+      "name": "David Heeger",
+      "profileUrl": "https://www.cns.nyu.edu/~david/",
+      "categories": [
+        "Affiliated Faculty"
+      ],
+      "sourceUrls": [
+        "https://cds.nyu.edu/affiliated-faculty/"
+      ]
+    },
+    {
+      "officialId": "https://cds.nyu.edu/team/david-w-hogg/",
+      "name": "David W. Hogg",
+      "profileUrl": "https://cds.nyu.edu/team/david-w-hogg/",
+      "categories": [
+        "Associated Faculty"
+      ],
+      "sourceUrls": [
+        "https://cds.nyu.edu/associated-faculty/"
+      ]
+    },
+    {
+      "officialId": "https://cs.nyu.edu/~shasha/",
+      "name": "Dennis Shasha",
+      "profileUrl": "https://cs.nyu.edu/~shasha/",
+      "categories": [
+        "Affiliated Faculty"
+      ],
+      "sourceUrls": [
+        "https://cds.nyu.edu/affiliated-faculty/"
+      ]
+    },
+    {
+      "officialId": "https://cds.nyu.edu/team/edwin-gerber/",
+      "name": "Edwin Gerber",
+      "profileUrl": "https://cds.nyu.edu/team/edwin-gerber/",
+      "categories": [
+        "Affiliated Faculty"
+      ],
+      "sourceUrls": [
+        "https://cds.nyu.edu/affiliated-faculty/"
+      ]
+    },
+    {
+      "officialId": "https://cds.nyu.edu/team/eero-simoncelli/",
+      "name": "Eero Simoncelli",
+      "profileUrl": "https://cds.nyu.edu/team/eero-simoncelli/",
+      "categories": [
+        "Associated Faculty"
+      ],
+      "sourceUrls": [
+        "https://cds.nyu.edu/associated-faculty/"
+      ]
+    },
+    {
+      "officialId": "Elena​ Sirotkina",
+      "name": "Elena​ Sirotkina",
+      "profileUrl": null,
+      "categories": [
+        "Faculty Fellows"
+      ],
+      "sourceUrls": [
+        "https://cds.nyu.edu/faculty-fellows/"
+      ]
+    },
+    {
+      "officialId": "https://elynncc.github.io/",
+      "name": "Elynn Chenn",
+      "profileUrl": "https://elynncc.github.io/",
+      "categories": [
+        "Affiliated Faculty"
+      ],
+      "sourceUrls": [
+        "https://cds.nyu.edu/affiliated-faculty/"
+      ]
+    },
+    {
+      "officialId": "https://cds.nyu.edu/team/emily-black/",
+      "name": "Emily Black",
+      "profileUrl": "https://cds.nyu.edu/team/emily-black/",
+      "categories": [
+        "Joint Faculty"
+      ],
+      "sourceUrls": [
+        "https://cds.nyu.edu/joint-faculty/"
+      ]
+    },
+    {
+      "officialId": "https://cds.nyu.edu/team/eric-oermann/",
+      "name": "Eric Oermann",
+      "profileUrl": "https://cds.nyu.edu/team/eric-oermann/",
+      "categories": [
+        "Affiliated Faculty"
+      ],
+      "sourceUrls": [
+        "https://cds.nyu.edu/affiliated-faculty/"
+      ]
+    },
+    {
+      "officialId": "https://cims.nyu.edu/~eve2/",
+      "name": "Eric Vanden-Eijnden",
+      "profileUrl": "https://cims.nyu.edu/~eve2/",
+      "categories": [
+        "Affiliated Faculty"
+      ],
+      "sourceUrls": [
+        "https://cds.nyu.edu/affiliated-faculty/"
+      ]
+    },
+    {
+      "officialId": "https://math.nyu.edu/~tabak/",
+      "name": "Esteban Tabak",
+      "profileUrl": "https://math.nyu.edu/~tabak/",
+      "categories": [
+        "Affiliated Faculty"
+      ],
+      "sourceUrls": [
+        "https://cds.nyu.edu/affiliated-faculty/"
+      ]
+    },
+    {
+      "officialId": "https://cds.nyu.edu/team/eugenevinitsky/",
+      "name": "Eugene Vinitsky",
+      "profileUrl": "https://cds.nyu.edu/team/eugenevinitsky/",
+      "categories": [
+        "Affiliated Faculty"
+      ],
+      "sourceUrls": [
+        "https://cds.nyu.edu/affiliated-faculty/"
+      ]
+    },
+    {
+      "officialId": "https://cds.nyu.edu/team/eunsol-choi-2/",
+      "name": "Eunsol Choi",
+      "profileUrl": "https://cds.nyu.edu/team/eunsol-choi-2/",
+      "categories": [
+        "Joint Faculty"
+      ],
+      "sourceUrls": [
+        "https://cds.nyu.edu/joint-faculty/"
+      ]
+    },
+    {
+      "officialId": "https://cds.nyu.edu/team/foster-provost/",
+      "name": "Foster Provost",
+      "profileUrl": "https://cds.nyu.edu/team/foster-provost/",
+      "categories": [
+        "Associated Faculty"
+      ],
+      "sourceUrls": [
+        "https://cds.nyu.edu/associated-faculty/"
+      ]
+    },
+    {
+      "officialId": "https://www.cims.nyu.edu/~benarous/",
+      "name": "Gérard Ben Arous",
+      "profileUrl": "https://www.cims.nyu.edu/~benarous/",
+      "categories": [
+        "Affiliated Faculty"
+      ],
+      "sourceUrls": [
+        "https://cds.nyu.edu/affiliated-faculty/"
+      ]
+    },
+    {
+      "officialId": "https://coruzzilab.bio.nyu.edu/",
+      "name": "Gloria Coruzzi",
+      "profileUrl": "https://coruzzilab.bio.nyu.edu/",
+      "categories": [
+        "Affiliated Faculty"
+      ],
+      "sourceUrls": [
+        "https://cds.nyu.edu/affiliated-faculty/"
+      ]
+    },
+    {
+      "officialId": "https://cds.nyu.edu/team/grace-lindsay/",
+      "name": "Grace Lindsay",
+      "profileUrl": "https://cds.nyu.edu/team/grace-lindsay/",
+      "categories": [
+        "Joint Faculty"
+      ],
+      "sourceUrls": [
+        "https://cds.nyu.edu/joint-faculty/"
+      ]
+    },
+    {
+      "officialId": "https://cds.nyu.edu/team/greg-durrett/",
+      "name": "Greg Durrett",
+      "profileUrl": "https://cds.nyu.edu/team/greg-durrett/",
+      "categories": [
+        "Joint Faculty"
+      ],
+      "sourceUrls": [
+        "https://cds.nyu.edu/joint-faculty/"
+      ]
+    },
+    {
+      "officialId": "Harsha Gurnani",
+      "name": "Harsha Gurnani",
+      "profileUrl": null,
+      "categories": [
+        "Faculty Fellows"
+      ],
+      "sourceUrls": [
+        "https://cds.nyu.edu/faculty-fellows/"
+      ]
+    },
+    {
+      "officialId": "https://cds.nyu.edu/team/he-he/",
+      "name": "He He",
+      "profileUrl": "https://cds.nyu.edu/team/he-he/",
+      "categories": [
+        "Joint Faculty"
+      ],
+      "sourceUrls": [
+        "https://cds.nyu.edu/joint-faculty/"
+      ]
+    },
+    {
+      "officialId": "https://cds.nyu.edu/team/isabel-colman/",
+      "name": "Isabel Colman",
+      "profileUrl": "https://cds.nyu.edu/team/isabel-colman/",
+      "categories": [
+        "Affiliated Faculty"
+      ],
+      "sourceUrls": [
+        "https://cds.nyu.edu/affiliated-faculty/"
+      ]
+    },
+    {
+      "officialId": "https://med.nyu.edu/faculty/itai-yanai",
+      "name": "Itai Yanai",
+      "profileUrl": "https://med.nyu.edu/faculty/itai-yanai",
+      "categories": [
+        "Affiliated Faculty"
+      ],
+      "sourceUrls": [
+        "https://cds.nyu.edu/affiliated-faculty/"
+      ]
+    },
+    {
+      "officialId": "Jaume de Dios Pont",
+      "name": "Jaume de Dios Pont",
+      "profileUrl": null,
+      "categories": [
+        "Faculty Fellows"
+      ],
+      "sourceUrls": [
+        "https://cds.nyu.edu/faculty-fellows/"
+      ]
+    },
+    {
+      "officialId": "https://cds.nyu.edu/team/jaume-vives-i-bastida/",
+      "name": "Jaume Vives-i-Bastida",
+      "profileUrl": "https://cds.nyu.edu/team/jaume-vives-i-bastida/",
+      "categories": [
+        "Joint Faculty"
+      ],
+      "sourceUrls": [
+        "https://cds.nyu.edu/joint-faculty/"
+      ]
+    },
+    {
+      "officialId": "https://www.di.ens.fr/~ponce/",
+      "name": "Jean Ponce",
+      "profileUrl": "https://www.di.ens.fr/~ponce/",
+      "categories": [
+        "Visiting Faculty"
+      ],
+      "sourceUrls": [
+        "https://cds.nyu.edu/visiting/"
+      ]
+    },
+    {
+      "officialId": "https://cds.nyu.edu/team/jennifer-hill/",
+      "name": "Jennifer Hill",
+      "profileUrl": "https://cds.nyu.edu/team/jennifer-hill/",
+      "categories": [
+        "Associated Faculty"
+      ],
+      "sourceUrls": [
+        "https://cds.nyu.edu/associated-faculty/"
+      ]
+    },
+    {
+      "officialId": "https://scholar.google.com/citations?user=PNu8FaUAAAAJ&hl=en",
+      "name": "Jeremy Curuksu",
+      "profileUrl": "https://scholar.google.com/citations?user=PNu8FaUAAAAJ&hl=en",
+      "categories": [
+        "Adjunct Faculty"
+      ],
+      "sourceUrls": [
+        "https://cds.nyu.edu/adjunct-faculty/"
+      ]
+    },
+    {
+      "officialId": "https://cds.nyu.edu/team/joan-bruna-2/",
+      "name": "Joan Bruna",
+      "profileUrl": "https://cds.nyu.edu/team/joan-bruna-2/",
+      "categories": [
+        "Joint Faculty"
+      ],
+      "sourceUrls": [
+        "https://cds.nyu.edu/joint-faculty/"
+      ]
+    },
+    {
+      "officialId": "https://cds.nyu.edu/team/joao-sedoc/",
+      "name": "João Sedoc",
+      "profileUrl": "https://cds.nyu.edu/team/joao-sedoc/",
+      "categories": [
+        "Affiliated Faculty"
+      ],
+      "sourceUrls": [
+        "https://cds.nyu.edu/affiliated-faculty/"
+      ]
+    },
+    {
+      "officialId": "https://cds.nyu.edu/team/john-jost/",
+      "name": "John Jost",
+      "profileUrl": "https://cds.nyu.edu/team/john-jost/",
+      "categories": [
+        "Affiliated Faculty"
+      ],
+      "sourceUrls": [
+        "https://cds.nyu.edu/affiliated-faculty/"
+      ]
+    },
+    {
+      "officialId": "https://as.nyu.edu/content/nyu-as/as/faculty/jonathan-nagler.html",
+      "name": "Jonathan Nagler",
+      "profileUrl": "https://as.nyu.edu/content/nyu-as/as/faculty/jonathan-nagler.html",
+      "categories": [
+        "Affiliated Faculty"
+      ],
+      "sourceUrls": [
+        "https://cds.nyu.edu/affiliated-faculty/"
+      ]
+    },
+    {
+      "officialId": "https://cds.nyu.edu/team/jonathan-niles-weed/",
+      "name": "Jonathan Niles-Weed",
+      "profileUrl": "https://cds.nyu.edu/team/jonathan-niles-weed/",
+      "categories": [
+        "Joint Faculty"
+      ],
+      "sourceUrls": [
+        "https://cds.nyu.edu/joint-faculty/"
+      ]
+    },
+    {
+      "officialId": "https://wp.nyu.edu/fas-joshuatucker/",
+      "name": "Joshua Tucker",
+      "profileUrl": "https://wp.nyu.edu/fas-joshuatucker/",
+      "categories": [
+        "Affiliated Faculty"
+      ],
+      "sourceUrls": [
+        "https://cds.nyu.edu/affiliated-faculty/"
+      ]
+    },
+    {
+      "officialId": "https://steinhardt.nyu.edu/faculty_bios/view/Juan_Pablo_Bello",
+      "name": "Juan Bello",
+      "profileUrl": "https://steinhardt.nyu.edu/faculty_bios/view/Juan_Pablo_Bello",
+      "categories": [
+        "Affiliated Faculty"
+      ],
+      "sourceUrls": [
+        "https://cds.nyu.edu/affiliated-faculty/"
+      ]
+    },
+    {
+      "officialId": "https://cds.nyu.edu/team/juan-c-perdomo/",
+      "name": "Juan C. Perdomo",
+      "profileUrl": "https://cds.nyu.edu/team/juan-c-perdomo/",
+      "categories": [
+        "Joint Faculty"
+      ],
+      "sourceUrls": [
+        "https://cds.nyu.edu/joint-faculty/"
+      ]
+    },
+    {
+      "officialId": "https://med.nyu.edu/faculty/judith-d-goldberg",
+      "name": "Judith D. Goldberg",
+      "profileUrl": "https://med.nyu.edu/faculty/judith-d-goldberg",
+      "categories": [
+        "Affiliated Faculty"
+      ],
+      "sourceUrls": [
+        "https://cds.nyu.edu/affiliated-faculty/"
+      ]
+    },
+    {
+      "officialId": "https://cds.nyu.edu/team/julia-kempe/",
+      "name": "Julia Kempe",
+      "profileUrl": "https://cds.nyu.edu/team/julia-kempe/",
+      "categories": [
+        "Joint Faculty"
+      ],
+      "sourceUrls": [
+        "https://cds.nyu.edu/joint-faculty/"
+      ]
+    },
+    {
+      "officialId": "https://cds.nyu.edu/team/julia-stoyanovich/",
+      "name": "Julia Stoyanovich",
+      "profileUrl": "https://cds.nyu.edu/team/julia-stoyanovich/",
+      "categories": [
+        "Joint Faculty"
+      ],
+      "sourceUrls": [
+        "https://cds.nyu.edu/joint-faculty/"
+      ]
+    },
+    {
+      "officialId": "https://cds.nyu.edu/team/juliana-freire/",
+      "name": "Juliana Freire",
+      "profileUrl": "https://cds.nyu.edu/team/juliana-freire/",
+      "categories": [
+        "Joint Faculty"
+      ],
+      "sourceUrls": [
+        "https://cds.nyu.edu/joint-faculty/"
+      ]
+    },
+    {
+      "officialId": "https://www.psych.nyu.edu/adolph/",
+      "name": "Karen Adolph",
+      "profileUrl": "https://www.psych.nyu.edu/adolph/",
+      "categories": [
+        "Affiliated Faculty"
+      ],
+      "sourceUrls": [
+        "https://cds.nyu.edu/affiliated-faculty/"
+      ]
+    },
+    {
+      "officialId": "https://engineering.nyu.edu/faculty/keith-ross",
+      "name": "Keith Ross",
+      "profileUrl": "https://engineering.nyu.edu/faculty/keith-ross",
+      "categories": [
+        "Affiliated Faculty"
+      ],
+      "sourceUrls": [
+        "https://cds.nyu.edu/affiliated-faculty/"
+      ]
+    },
+    {
+      "officialId": "https://www.ruggleslab.org/",
+      "name": "Kelly Ruggles",
+      "profileUrl": "https://www.ruggleslab.org/",
+      "categories": [
+        "Affiliated Faculty"
+      ],
+      "sourceUrls": [
+        "https://cds.nyu.edu/affiliated-faculty/"
+      ]
+    },
+    {
+      "officialId": "https://cds.nyu.edu/team/kyunghyun-cho-2/",
+      "name": "Kyunghyun Cho",
+      "profileUrl": "https://cds.nyu.edu/team/kyunghyun-cho-2/",
+      "categories": [
+        "Joint Faculty"
+      ],
+      "sourceUrls": [
+        "https://cds.nyu.edu/joint-faculty/"
+      ]
+    },
+    {
+      "officialId": "https://cds.nyu.edu/team/lakshmi-subramanian/",
+      "name": "Lakshmi Subramanian",
+      "profileUrl": "https://cds.nyu.edu/team/lakshmi-subramanian/",
+      "categories": [
+        "Affiliated Faculty"
+      ],
+      "sourceUrls": [
+        "https://cds.nyu.edu/affiliated-faculty/"
+      ]
+    },
+    {
+      "officialId": "https://zanna-researchteam.github.io/author/laure-zanna/",
+      "name": "Laure Zanna",
+      "profileUrl": "https://zanna-researchteam.github.io/author/laure-zanna/",
+      "categories": [
+        "Joint Faculty"
+      ],
+      "sourceUrls": [
+        "https://cds.nyu.edu/joint-faculty/"
+      ]
+    },
+    {
+      "officialId": "https://as.nyu.edu/faculty/leif-allison-reid-weatherby.html",
+      "name": "Leif Weatherby",
+      "profileUrl": "https://as.nyu.edu/faculty/leif-allison-reid-weatherby.html",
+      "categories": [
+        "Affiliated Faculty"
+      ],
+      "sourceUrls": [
+        "https://cds.nyu.edu/affiliated-faculty/"
+      ]
+    },
+    {
+      "officialId": "https://cds.nyu.edu/team/lerrel-pinto/",
+      "name": "Lerrel Pinto",
+      "profileUrl": "https://cds.nyu.edu/team/lerrel-pinto/",
+      "categories": [
+        "Affiliated Faculty"
+      ],
+      "sourceUrls": [
+        "https://cds.nyu.edu/affiliated-faculty/"
+      ]
+    },
+    {
+      "officialId": "https://www.math.nyu.edu/faculty/greengar/",
+      "name": "Leslie Greengard",
+      "profileUrl": "https://www.math.nyu.edu/faculty/greengar/",
+      "categories": [
+        "Affiliated Faculty"
+      ],
+      "sourceUrls": [
+        "https://cds.nyu.edu/affiliated-faculty/"
+      ]
+    },
+    {
+      "officialId": "https://cds.nyu.edu/team/liat-shenhav/",
+      "name": "Liat Shenhav",
+      "profileUrl": "https://cds.nyu.edu/team/liat-shenhav/",
+      "categories": [
+        "Affiliated Faculty"
+      ],
+      "sourceUrls": [
+        "https://cds.nyu.edu/affiliated-faculty/"
+      ]
+    },
+    {
+      "officialId": "Lingjing Kong",
+      "name": "Lingjing Kong",
+      "profileUrl": null,
+      "categories": [
+        "Faculty Fellows"
+      ],
+      "sourceUrls": [
+        "https://cds.nyu.edu/faculty-fellows/"
+      ]
+    },
+    {
+      "officialId": "https://engineering.nyu.edu/faculty/lisa-hellerstein",
+      "name": "Lisa Hellerstein",
+      "profileUrl": "https://engineering.nyu.edu/faculty/lisa-hellerstein",
+      "categories": [
+        "Affiliated Faculty"
+      ],
+      "sourceUrls": [
+        "https://cds.nyu.edu/affiliated-faculty/"
+      ]
+    },
+    {
+      "officialId": "https://cds.nyu.edu/team/louis-mittel/",
+      "name": "Louis Mittel",
+      "profileUrl": "https://cds.nyu.edu/team/louis-mittel/",
+      "categories": [
+        "Clinical Faculty"
+      ],
+      "sourceUrls": [
+        "https://cds.nyu.edu/clinical-faculty/"
+      ]
+    },
+    {
+      "officialId": "Lucius​ Bynum",
+      "name": "Lucius​ Bynum",
+      "profileUrl": null,
+      "categories": [
+        "Faculty Fellows"
+      ],
+      "sourceUrls": [
+        "https://cds.nyu.edu/faculty-fellows/"
+      ]
+    },
+    {
+      "officialId": "https://cds.nyu.edu/team/majid-haghani-rizi/",
+      "name": "Majid Haghani Rizi",
+      "profileUrl": "https://cds.nyu.edu/team/majid-haghani-rizi/",
+      "categories": [
+        "Adjunct Faculty"
+      ],
+      "sourceUrls": [
+        "https://cds.nyu.edu/adjunct-faculty/"
+      ]
+    },
+    {
+      "officialId": "https://steinhardt.nyu.edu/people/marc-scott",
+      "name": "Marc Scott",
+      "profileUrl": "https://steinhardt.nyu.edu/people/marc-scott",
+      "categories": [
+        "Affiliated Faculty"
+      ],
+      "sourceUrls": [
+        "https://cds.nyu.edu/affiliated-faculty/"
+      ]
+    },
+    {
+      "officialId": "https://cds.nyu.edu/team/marcelo-mattar/",
+      "name": "Marcelo Mattar",
+      "profileUrl": "https://cds.nyu.edu/team/marcelo-mattar/",
+      "categories": [
+        "Affiliated Faculty"
+      ],
+      "sourceUrls": [
+        "https://cds.nyu.edu/affiliated-faculty/"
+      ]
+    },
+    {
+      "officialId": "https://cds.nyu.edu/team/mark-ho/",
+      "name": "Mark Ho",
+      "profileUrl": "https://cds.nyu.edu/team/mark-ho/",
+      "categories": [
+        "Affiliated Faculty"
+      ],
+      "sourceUrls": [
+        "https://cds.nyu.edu/affiliated-faculty/"
+      ]
+    },
+    {
+      "officialId": "https://cds.nyu.edu/team/martin-farach-colton/",
+      "name": "Martin Farach-Colton",
+      "profileUrl": "https://cds.nyu.edu/team/martin-farach-colton/",
+      "categories": [
+        "Affiliated Faculty"
+      ],
+      "sourceUrls": [
+        "https://cds.nyu.edu/affiliated-faculty/"
+      ]
+    },
+    {
+      "officialId": "Mateo​ Dulce Rubio",
+      "name": "Mateo​ Dulce Rubio",
+      "profileUrl": null,
+      "categories": [
+        "Faculty Fellows"
+      ],
+      "sourceUrls": [
+        "https://cds.nyu.edu/faculty-fellows/"
+      ]
+    },
+    {
+      "officialId": "https://cds.nyu.edu/team/mathieu-lauriere/",
+      "name": "Mathieu Laurière",
+      "profileUrl": "https://cds.nyu.edu/team/mathieu-lauriere/",
+      "categories": [
+        "Affiliated Shanghai Faculty"
+      ],
+      "sourceUrls": [
+        "https://cds.nyu.edu/affiliated-shanghai-faculty/"
+      ]
+    },
+    {
+      "officialId": "https://cds.nyu.edu/team/matteo-malgaroli/",
+      "name": "Matteo Malgaroli",
+      "profileUrl": "https://cds.nyu.edu/team/matteo-malgaroli/",
+      "categories": [
+        "Affiliated Faculty"
+      ],
+      "sourceUrls": [
+        "https://cds.nyu.edu/affiliated-faculty/"
+      ]
+    },
+    {
+      "officialId": "https://cds.nyu.edu/team/matthew-hayek/",
+      "name": "Matthew Hayek",
+      "profileUrl": "https://cds.nyu.edu/team/matthew-hayek/",
+      "categories": [
+        "Affiliated Faculty"
+      ],
+      "sourceUrls": [
+        "https://cds.nyu.edu/affiliated-faculty/"
+      ]
+    },
+    {
+      "officialId": "https://med.nyu.edu/faculty/mengling-liu",
+      "name": "Mengling Liu",
+      "profileUrl": "https://med.nyu.edu/faculty/mengling-liu",
+      "categories": [
+        "Affiliated Faculty"
+      ],
+      "sourceUrls": [
+        "https://cds.nyu.edu/affiliated-faculty/"
+      ]
+    },
+    {
+      "officialId": "https://cds.nyu.edu/team/mengye-ren/",
+      "name": "Mengye Ren",
+      "profileUrl": "https://cds.nyu.edu/team/mengye-ren/",
+      "categories": [
+        "Joint Faculty"
+      ],
+      "sourceUrls": [
+        "https://cds.nyu.edu/joint-faculty/"
+      ]
+    },
+    {
+      "officialId": "https://cds.nyu.edu/team/michal-mankowski/",
+      "name": "Michal Mankowski",
+      "profileUrl": "https://cds.nyu.edu/team/michal-mankowski/",
+      "categories": [
+        "Affiliated Faculty"
+      ],
+      "sourceUrls": [
+        "https://cds.nyu.edu/affiliated-faculty/"
+      ]
+    },
+    {
+      "officialId": "https://cds.nyu.edu/team/michele-santacatterina/",
+      "name": "Michele Santacatterina",
+      "profileUrl": "https://cds.nyu.edu/team/michele-santacatterina/",
+      "categories": [
+        "Affiliated Faculty"
+      ],
+      "sourceUrls": [
+        "https://cds.nyu.edu/affiliated-faculty/"
+      ]
+    },
+    {
+      "officialId": "https://cds.nyu.edu/team/minsu-park/",
+      "name": "Minsu Park",
+      "profileUrl": "https://cds.nyu.edu/team/minsu-park/",
+      "categories": [
+        "Affiliated Faculty"
+      ],
+      "sourceUrls": [
+        "https://cds.nyu.edu/affiliated-faculty/"
+      ]
+    },
+    {
+      "officialId": "https://brandeslab.org/",
+      "name": "Nadav Brandes",
+      "profileUrl": "https://brandeslab.org/",
+      "categories": [
+        "Affiliated Faculty"
+      ],
+      "sourceUrls": [
+        "https://cds.nyu.edu/affiliated-faculty/"
+      ]
+    },
+    {
+      "officialId": "https://med.nyu.edu/faculty/narges-sharif-razavian",
+      "name": "Narges Razavian",
+      "profileUrl": "https://med.nyu.edu/faculty/narges-sharif-razavian",
+      "categories": [
+        "Affiliated Faculty"
+      ],
+      "sourceUrls": [
+        "https://cds.nyu.edu/affiliated-faculty/"
+      ]
+    },
+    {
+      "officialId": "https://cds.nyu.edu/team/noga-zaslavsky/",
+      "name": "Noga Zaslavsky",
+      "profileUrl": "https://cds.nyu.edu/team/noga-zaslavsky/",
+      "categories": [
+        "Affiliated Faculty"
+      ],
+      "sourceUrls": [
+        "https://cds.nyu.edu/affiliated-faculty/"
+      ]
+    },
+    {
+      "officialId": "https://cds.nyu.edu/team/oded-regev/",
+      "name": "Oded Regev",
+      "profileUrl": "https://cds.nyu.edu/team/oded-regev/",
+      "categories": [
+        "Affiliated Faculty"
+      ],
+      "sourceUrls": [
+        "https://cds.nyu.edu/affiliated-faculty/"
+      ]
+    },
+    {
+      "officialId": "https://cds.nyu.edu/team/panos-ipeirotis/",
+      "name": "Panos Ipeirotis",
+      "profileUrl": "https://cds.nyu.edu/team/panos-ipeirotis/",
+      "categories": [
+        "Associated Faculty"
+      ],
+      "sourceUrls": [
+        "https://cds.nyu.edu/associated-faculty/"
+      ]
+    },
+    {
+      "officialId": "https://cds.nyu.edu/team/parijat-dube/",
+      "name": "Parijat Dube",
+      "profileUrl": "https://cds.nyu.edu/team/parijat-dube/",
+      "categories": [
+        "Adjunct Faculty"
+      ],
+      "sourceUrls": [
+        "https://cds.nyu.edu/adjunct-faculty/"
+      ]
+    },
+    {
+      "officialId": "https://as.nyu.edu/faculty/pascal-wallisch.html",
+      "name": "Pascal Wallisch",
+      "profileUrl": "https://as.nyu.edu/faculty/pascal-wallisch.html",
+      "categories": [
+        "Clinical Faculty"
+      ],
+      "sourceUrls": [
+        "https://cds.nyu.edu/clinical-faculty/"
+      ]
+    },
+    {
+      "officialId": "https://cds.nyu.edu/team/paul-dimaggio/",
+      "name": "Paul DiMaggio",
+      "profileUrl": "https://cds.nyu.edu/team/paul-dimaggio/",
+      "categories": [
+        "Affiliated Faculty"
+      ],
+      "sourceUrls": [
+        "https://cds.nyu.edu/affiliated-faculty/"
+      ]
+    },
+    {
+      "officialId": "https://people.stern.nyu.edu/plakner/",
+      "name": "Peter Lakner",
+      "profileUrl": "https://people.stern.nyu.edu/plakner/",
+      "categories": [
+        "Affiliated Faculty"
+      ],
+      "sourceUrls": [
+        "https://cds.nyu.edu/affiliated-faculty/"
+      ]
+    },
+    {
+      "officialId": "https://www.cims.nyu.edu/~kolm/",
+      "name": "Petter Kolm",
+      "profileUrl": "https://www.cims.nyu.edu/~kolm/",
+      "categories": [
+        "Affiliated Faculty"
+      ],
+      "sourceUrls": [
+        "https://cds.nyu.edu/affiliated-faculty/"
+      ]
+    },
+    {
+      "officialId": "https://cds.nyu.edu/team/4917/",
+      "name": "Pratyusha Sharma",
+      "profileUrl": "https://cds.nyu.edu/team/4917/",
+      "categories": [
+        "Joint Faculty"
+      ],
+      "sourceUrls": [
+        "https://cds.nyu.edu/joint-faculty/"
+      ]
+    },
+    {
+      "officialId": "https://cds.nyu.edu/team/qi-lei/",
+      "name": "Qi Lei",
+      "profileUrl": "https://cds.nyu.edu/team/qi-lei/",
+      "categories": [
+        "Joint Faculty"
+      ],
+      "sourceUrls": [
+        "https://cds.nyu.edu/joint-faculty/"
+      ]
+    },
+    {
+      "officialId": "https://cds.nyu.edu/team/rachel-greenstadt/",
+      "name": "Rachel Greenstadt",
+      "profileUrl": "https://cds.nyu.edu/team/rachel-greenstadt/",
+      "categories": [
+        "Affiliated Faculty"
+      ],
+      "sourceUrls": [
+        "https://cds.nyu.edu/affiliated-faculty/"
+      ]
+    },
+    {
+      "officialId": "https://satijalab.org/",
+      "name": "Rahul Satija",
+      "profileUrl": "https://satijalab.org/",
+      "categories": [
+        "Affiliated Faculty"
+      ],
+      "sourceUrls": [
+        "https://cds.nyu.edu/affiliated-faculty/"
+      ]
+    },
+    {
+      "officialId": "https://users.nber.org/~rdehejia/",
+      "name": "Rajeev Dehejia",
+      "profileUrl": "https://users.nber.org/~rdehejia/",
+      "categories": [
+        "Affiliated Faculty"
+      ],
+      "sourceUrls": [
+        "https://cds.nyu.edu/affiliated-faculty/"
+      ]
+    },
+    {
+      "officialId": "https://cds.nyu.edu/team/rajesh-ranganath/",
+      "name": "Rajesh Ranganath",
+      "profileUrl": "https://cds.nyu.edu/team/rajesh-ranganath/",
+      "categories": [
+        "Joint Faculty"
+      ],
+      "sourceUrls": [
+        "https://cds.nyu.edu/joint-faculty/"
+      ]
+    },
+    {
+      "officialId": "https://cds.nyu.edu/team/rob-fergus-2/",
+      "name": "Rob Fergus",
+      "profileUrl": "https://cds.nyu.edu/team/rob-fergus-2/",
+      "categories": [
+        "Associated Faculty"
+      ],
+      "sourceUrls": [
+        "https://cds.nyu.edu/associated-faculty/"
+      ]
+    },
+    {
+      "officialId": "https://www.rogermstein.com/",
+      "name": "Roger Stein",
+      "profileUrl": "https://www.rogermstein.com/",
+      "categories": [
+        "Adjunct Faculty"
+      ],
+      "sourceUrls": [
+        "https://cds.nyu.edu/adjunct-faculty/"
+      ]
+    },
+    {
+      "officialId": "https://cds.nyu.edu/team/romain-lopez/",
+      "name": "Romain Lopez",
+      "profileUrl": "https://cds.nyu.edu/team/romain-lopez/",
+      "categories": [
+        "Affiliated Faculty"
+      ],
+      "sourceUrls": [
+        "https://cds.nyu.edu/affiliated-faculty/"
+      ]
+    },
+    {
+      "officialId": "https://wp.nyu.edu/chunaralab/",
+      "name": "Rumi Chunara",
+      "profileUrl": "https://wp.nyu.edu/chunaralab/",
+      "categories": [
+        "Affiliated Faculty"
+      ],
+      "sourceUrls": [
+        "https://cds.nyu.edu/affiliated-faculty/"
+      ]
+    },
+    {
+      "officialId": "https://cds.nyu.edu/team/ruopeng-an/",
+      "name": "Ruopeng An",
+      "profileUrl": "https://cds.nyu.edu/team/ruopeng-an/",
+      "categories": [
+        "Affiliated Faculty"
+      ],
+      "sourceUrls": [
+        "https://cds.nyu.edu/affiliated-faculty/"
+      ]
+    },
+    {
+      "officialId": "https://cds.nyu.edu/team/s-r-srinivasa-varadhan/",
+      "name": "S. R. Srinivasa Varadhan",
+      "profileUrl": "https://cds.nyu.edu/team/s-r-srinivasa-varadhan/",
+      "categories": [
+        "Associated Faculty"
+      ],
+      "sourceUrls": [
+        "https://cds.nyu.edu/associated-faculty/"
+      ]
+    },
+    {
+      "officialId": "https://cds.nyu.edu/team/saining-xie/",
+      "name": "Saining Xie",
+      "profileUrl": "https://cds.nyu.edu/team/saining-xie/",
+      "categories": [
+        "Affiliated Faculty"
+      ],
+      "sourceUrls": [
+        "https://cds.nyu.edu/affiliated-faculty/"
+      ]
+    },
+    {
+      "officialId": "https://cds.nyu.edu/team/sam-bowman/",
+      "name": "Sam Bowman",
+      "profileUrl": "https://cds.nyu.edu/team/sam-bowman/",
+      "categories": [
+        "Joint Faculty"
+      ],
+      "sourceUrls": [
+        "https://cds.nyu.edu/joint-faculty/"
+      ]
+    },
+    {
+      "officialId": "https://cds.nyu.edu/team/samuel-deng/",
+      "name": "Samuel Deng",
+      "profileUrl": "https://cds.nyu.edu/team/samuel-deng/",
+      "categories": [
+        "Clinical Faculty"
+      ],
+      "sourceUrls": [
+        "https://cds.nyu.edu/clinical-faculty/"
+      ]
+    },
+    {
+      "officialId": "Shauli Ravfogel",
+      "name": "Shauli Ravfogel",
+      "profileUrl": null,
+      "categories": [
+        "Faculty Fellows"
+      ],
+      "sourceUrls": [
+        "https://cds.nyu.edu/faculty-fellows/"
+      ]
+    },
+    {
+      "officialId": "https://cds.nyu.edu/team/shuyang-ling/",
+      "name": "Shuyang Ling",
+      "profileUrl": "https://cds.nyu.edu/team/shuyang-ling/",
+      "categories": [
+        "Affiliated Shanghai Faculty"
+      ],
+      "sourceUrls": [
+        "https://cds.nyu.edu/affiliated-shanghai-faculty/"
+      ]
+    },
+    {
+      "officialId": "https://cds.nyu.edu/team/sidharth-sah/",
+      "name": "Sidharth Sah",
+      "profileUrl": "https://cds.nyu.edu/team/sidharth-sah/",
+      "categories": [
+        "Clinical Faculty"
+      ],
+      "sourceUrls": [
+        "https://cds.nyu.edu/clinical-faculty/"
+      ]
+    },
+    {
+      "officialId": "Simone Bombari",
+      "name": "Simone Bombari",
+      "profileUrl": null,
+      "categories": [
+        "Faculty Fellows"
+      ],
+      "sourceUrls": [
+        "https://cds.nyu.edu/faculty-fellows/"
+      ]
+    },
+    {
+      "officialId": "https://www.cims.nyu.edu/~gunturk",
+      "name": "Sinan Gunturk",
+      "profileUrl": "https://www.cims.nyu.edu/~gunturk",
+      "categories": [
+        "Affiliated Faculty"
+      ],
+      "sourceUrls": [
+        "https://cds.nyu.edu/affiliated-faculty/"
+      ]
+    },
+    {
+      "officialId": "https://cds.nyu.edu/team/siyu-heng/",
+      "name": "Siyu Heng",
+      "profileUrl": "https://cds.nyu.edu/team/siyu-heng/",
+      "categories": [
+        "Affiliated Faculty"
+      ],
+      "sourceUrls": [
+        "https://cds.nyu.edu/affiliated-faculty/"
+      ]
+    },
+    {
+      "officialId": "https://cds.nyu.edu/team/sommer-gentry/",
+      "name": "Sommer Gentry",
+      "profileUrl": "https://cds.nyu.edu/team/sommer-gentry/",
+      "categories": [
+        "Affiliated Faculty"
+      ],
+      "sourceUrls": [
+        "https://cds.nyu.edu/affiliated-faculty/"
+      ]
+    },
+    {
+      "officialId": "https://www.sonalimcdermid.com/",
+      "name": "Sonali McDermid",
+      "profileUrl": "https://www.sonalimcdermid.com/",
+      "categories": [
+        "Affiliated Faculty"
+      ],
+      "sourceUrls": [
+        "https://cds.nyu.edu/affiliated-faculty/"
+      ]
+    },
+    {
+      "officialId": "https://www.stern.nyu.edu/faculty/bio/srikanth-jagabathula",
+      "name": "Srikanth Jagabathula",
+      "profileUrl": "https://www.stern.nyu.edu/faculty/bio/srikanth-jagabathula",
+      "categories": [
+        "Affiliated Faculty"
+      ],
+      "sourceUrls": [
+        "https://cds.nyu.edu/affiliated-faculty/"
+      ]
+    },
+    {
+      "officialId": "https://cds.nyu.edu/team/stefano-martiniani/",
+      "name": "Stefano Martiniani",
+      "profileUrl": "https://cds.nyu.edu/team/stefano-martiniani/",
+      "categories": [
+        "Affiliated Faculty"
+      ],
+      "sourceUrls": [
+        "https://cds.nyu.edu/affiliated-faculty/"
+      ]
+    },
+    {
+      "officialId": "Stephen Zhang",
+      "name": "Stephen Zhang",
+      "profileUrl": null,
+      "categories": [
+        "Faculty Fellows"
+      ],
+      "sourceUrls": [
+        "https://cds.nyu.edu/faculty-fellows/"
+      ]
+    },
+    {
+      "officialId": "https://cds.nyu.edu/team/sumit-chopra/",
+      "name": "Sumit Chopra",
+      "profileUrl": "https://cds.nyu.edu/team/sumit-chopra/",
+      "categories": [
+        "Affiliated Faculty"
+      ],
+      "sourceUrls": [
+        "https://cds.nyu.edu/affiliated-faculty/"
+      ]
+    },
+    {
+      "officialId": "https://cds.nyu.edu/team/sunoo-park/",
+      "name": "Sunoo Park",
+      "profileUrl": "https://cds.nyu.edu/team/sunoo-park/",
+      "categories": [
+        "Affiliated Faculty"
+      ],
+      "sourceUrls": [
+        "https://cds.nyu.edu/affiliated-faculty/"
+      ]
+    },
+    {
+      "officialId": "https://cds.nyu.edu/team/tal-linzen/",
+      "name": "Tal Linzen",
+      "profileUrl": "https://cds.nyu.edu/team/tal-linzen/",
+      "categories": [
+        "Joint Faculty"
+      ],
+      "sourceUrls": [
+        "https://cds.nyu.edu/joint-faculty/"
+      ]
+    },
+    {
+      "officialId": "Thomas Clark",
+      "name": "Thomas Clark",
+      "profileUrl": null,
+      "categories": [
+        "Faculty Fellows"
+      ],
+      "sourceUrls": [
+        "https://cds.nyu.edu/faculty-fellows/"
+      ]
+    },
+    {
+      "officialId": "https://gureckislab.org",
+      "name": "Todd Gureckis",
+      "profileUrl": "https://gureckislab.org/",
+      "categories": [
+        "Joint Faculty",
+        "Affiliated Faculty"
+      ],
+      "sourceUrls": [
+        "https://cds.nyu.edu/joint-faculty/",
+        "https://cds.nyu.edu/affiliated-faculty/"
+      ]
+    },
+    {
+      "officialId": "Unai Fischer Abaigar",
+      "name": "Unai Fischer Abaigar",
+      "profileUrl": null,
+      "categories": [
+        "Faculty Fellows"
+      ],
+      "sourceUrls": [
+        "https://cds.nyu.edu/faculty-fellows/"
+      ]
+    },
+    {
+      "officialId": "https://cds.nyu.edu/team/vasant-dhar-2/",
+      "name": "Vasant Dhar",
+      "profileUrl": "https://cds.nyu.edu/team/vasant-dhar-2/",
+      "categories": [
+        "Associated Faculty"
+      ],
+      "sourceUrls": [
+        "https://cds.nyu.edu/associated-faculty/"
+      ]
+    },
+    {
+      "officialId": "https://www.cns.nyu.edu/malab/",
+      "name": "Wei Ji Ma",
+      "profileUrl": "https://www.cns.nyu.edu/malab/",
+      "categories": [
+        "Affiliated Faculty"
+      ],
+      "sourceUrls": [
+        "https://cds.nyu.edu/affiliated-faculty/"
+      ]
+    },
+    {
+      "officialId": "https://med.nyu.edu/faculty/wenbo-wu",
+      "name": "Wenbo Wu",
+      "profileUrl": "https://med.nyu.edu/faculty/wenbo-wu",
+      "categories": [
+        "Affiliated Faculty"
+      ],
+      "sourceUrls": [
+        "https://cds.nyu.edu/affiliated-faculty/"
+      ]
+    },
+    {
+      "officialId": "https://www.stern.nyu.edu/faculty/bio/xi-chen",
+      "name": "Xi Chen",
+      "profileUrl": "https://www.stern.nyu.edu/faculty/bio/xi-chen",
+      "categories": [
+        "Affiliated Faculty"
+      ],
+      "sourceUrls": [
+        "https://cds.nyu.edu/affiliated-faculty/"
+      ]
+    },
+    {
+      "officialId": "https://cds.nyu.edu/team/yang-feng/",
+      "name": "Yang Feng",
+      "profileUrl": "https://cds.nyu.edu/team/yang-feng/",
+      "categories": [
+        "Affiliated Faculty"
+      ],
+      "sourceUrls": [
+        "https://cds.nyu.edu/affiliated-faculty/"
+      ]
+    },
+    {
+      "officialId": "https://cds.nyu.edu/team/yanjun-han/",
+      "name": "Yanjun Han",
+      "profileUrl": "https://cds.nyu.edu/team/yanjun-han/",
+      "categories": [
+        "Joint Faculty"
+      ],
+      "sourceUrls": [
+        "https://cds.nyu.edu/joint-faculty/"
+      ]
+    },
+    {
+      "officialId": "https://cds.nyu.edu/team/yann-lecun/",
+      "name": "Yann LeCun",
+      "profileUrl": "https://cds.nyu.edu/team/yann-lecun/",
+      "categories": [
+        "Associated Faculty"
+      ],
+      "sourceUrls": [
+        "https://cds.nyu.edu/associated-faculty/"
+      ]
+    },
+    {
+      "officialId": "https://steinhardt.nyu.edu/people/ying-lu",
+      "name": "Ying Lu",
+      "profileUrl": "https://steinhardt.nyu.edu/people/ying-lu",
+      "categories": [
+        "Affiliated Faculty"
+      ],
+      "sourceUrls": [
+        "https://cds.nyu.edu/affiliated-faculty/"
+      ]
+    },
+    {
+      "officialId": "https://cds.nyu.edu/team/zhengyuan-zhou/",
+      "name": "Zhengyuan Zhou",
+      "profileUrl": "https://cds.nyu.edu/team/zhengyuan-zhou/",
+      "categories": [
+        "Affiliated Faculty"
+      ],
+      "sourceUrls": [
+        "https://cds.nyu.edu/affiliated-faculty/"
+      ]
+    },
+    {
+      "officialId": "https://cds.nyu.edu/team/zongyi-li/",
+      "name": "Zongyi Li",
+      "profileUrl": "https://cds.nyu.edu/team/zongyi-li/",
+      "categories": [
+        "Joint Faculty"
+      ],
+      "sourceUrls": [
+        "https://cds.nyu.edu/joint-faculty/"
+      ]
+    }
+  ]
+}

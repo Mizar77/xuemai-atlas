@@ -1,0 +1,906 @@
+{
+  "completeness": "complete",
+  "fetchedAt": "2026-09-02",
+  "institution": "University of Manchester — Department of Computer Science",
+  "officialPageUrl": "https://www.cs.manchester.ac.uk/about/people/academic-and-research-staff/",
+  "officialDataUrl": "https://www.cs.manchester.ac.uk/about/people/academic-and-research-staff/",
+  "officialDataUrls": [
+    "https://www.cs.manchester.ac.uk/about/people/academic-and-research-staff/"
+  ],
+  "officialRosterCount": 111,
+  "sourceDescription": "All rows on the official single-page A–Z directory were frozen: Academic staff 97 and Emeritus and honorary staff 14. The page has no pagination or load-more control. Unlinked name rows receive a deterministic category-and-name official ID; category/title/area remain unchanged for later classification.",
+  "categoryCounts": {
+    "Academic staff": 97,
+    "Emeritus and honorary staff": 14
+  },
+  "people": [
+    {
+      "area": "Teaching",
+      "category": "Academic staff",
+      "name": "Joshua Alcock",
+      "officialId": "Academic staff:joshua alcock",
+      "profileUrl": null,
+      "title": "Lecturer in Artificial Intelligence"
+    },
+    {
+      "area": "Machine learning and robotics",
+      "category": "Academic staff",
+      "name": "Mauricio Alvarez",
+      "officialId": "Academic staff:mauricio alvarez",
+      "profileUrl": "https://www.research.manchester.ac.uk/portal/en/researchers/mauricio-alvarez(d531fef7-ad55-4038-bee9-28c1afcd6035).html",
+      "title": "Reader"
+    },
+    {
+      "area": "Natural language processing and text mining",
+      "category": "Academic staff",
+      "name": "Sophia Ananiadou",
+      "officialId": "Academic staff:sophia ananiadou",
+      "profileUrl": "https://www.research.manchester.ac.uk/portal/sophia.ananiadou.html",
+      "title": "Professor"
+    },
+    {
+      "area": "Systems and software security",
+      "category": "Academic staff",
+      "name": "Richard Banach",
+      "officialId": "Academic staff:richard banach",
+      "profileUrl": "https://www.research.manchester.ac.uk/portal/richard.banach.html",
+      "title": "Senior Lecturer"
+    },
+    {
+      "area": "Natural language processing and text mining",
+      "category": "Academic staff",
+      "name": "Riza Theresa Batista-Navarro",
+      "officialId": "Academic staff:riza theresa batista-navarro",
+      "profileUrl": "https://www.research.manchester.ac.uk/portal/riza.batista.html",
+      "title": "Senior Lecturer"
+    },
+    {
+      "area": "Teaching",
+      "category": "Academic staff",
+      "name": "Sean Bechhofer",
+      "officialId": "Academic staff:sean bechhofer",
+      "profileUrl": "https://www.research.manchester.ac.uk/portal/sean.bechhofer.html",
+      "title": "Professor of Computer Science"
+    },
+    {
+      "area": "Teaching",
+      "category": "Academic staff",
+      "name": "Ainur Begalinova",
+      "officialId": "Academic staff:ainur begalinova",
+      "profileUrl": null,
+      "title": "Lecturer"
+    },
+    {
+      "area": "Neuromorphic systems",
+      "category": "Academic staff",
+      "name": "Davide Bertozzi",
+      "officialId": "Academic staff:davide bertozzi",
+      "profileUrl": "https://research.manchester.ac.uk/en/persons/davide-bertozzi",
+      "title": "Reader"
+    },
+    {
+      "area": "Teaching",
+      "category": "Academic staff",
+      "name": "Stewart Blakeway",
+      "officialId": "Academic staff:stewart blakeway",
+      "profileUrl": "https://www.research.manchester.ac.uk/portal/stewart.blakeway.html",
+      "title": "Lecturer"
+    },
+    {
+      "area": "Human computer systems",
+      "category": "Academic staff",
+      "name": "Andrew Brass",
+      "officialId": "Academic staff:andrew brass",
+      "profileUrl": "https://www.research.manchester.ac.uk/portal/andy.brass.html",
+      "title": "Professor"
+    },
+    {
+      "area": "Machine learning and robotics",
+      "category": "Academic staff",
+      "name": "Gavin Brown",
+      "officialId": "Academic staff:gavin brown",
+      "profileUrl": "https://www.research.manchester.ac.uk/portal/gavin.brown.html",
+      "title": "Professor, Deputy Head of Department"
+    },
+    {
+      "area": "Machine learning and robotics",
+      "category": "Academic staff",
+      "name": "Angelo Cangelosi",
+      "officialId": "Academic staff:angelo cangelosi",
+      "profileUrl": "https://www.research.manchester.ac.uk/portal/angelo.cangelosi.html",
+      "title": "Professor"
+    },
+    {
+      "area": "Machine learning and robotics",
+      "category": "Academic staff",
+      "name": "Michele Caprio",
+      "officialId": "Academic staff:michele caprio",
+      "profileUrl": "https://research.manchester.ac.uk/en/persons/michele-caprio",
+      "title": "Lecturer"
+    },
+    {
+      "area": "Teaching",
+      "category": "Academic staff",
+      "name": "Tom Carroll",
+      "officialId": "Academic staff:tom carroll",
+      "profileUrl": "https://www.research.manchester.ac.uk/portal/thomas.carroll.html",
+      "title": "Lecturer"
+    },
+    {
+      "area": "Information management",
+      "category": "Academic staff",
+      "name": "Jiaoyan Chen",
+      "officialId": "Academic staff:jiaoyan chen",
+      "profileUrl": "https://research.manchester.ac.uk/en/persons/jiaoyan.chen",
+      "title": "Senior Lecturer in Data Intensive Syst"
+    },
+    {
+      "area": "Machine learning and robotics",
+      "category": "Academic staff",
+      "name": "Ke Chen",
+      "officialId": "Academic staff:ke chen",
+      "profileUrl": "https://www.research.manchester.ac.uk/portal/ke.chen.html",
+      "title": "Senior Lecturer"
+    },
+    {
+      "area": "Human computer systems",
+      "category": "Academic staff",
+      "name": "Sarah Clinch",
+      "officialId": "Academic staff:sarah clinch",
+      "profileUrl": "https://www.research.manchester.ac.uk/portal/sarah.clinch.html",
+      "title": "Senior Lecturer, Director of Postgraduate Taught Programmes"
+    },
+    {
+      "area": "Autonomy and verification",
+      "category": "Academic staff",
+      "name": "Emily Collins",
+      "officialId": "Academic staff:emily collins",
+      "profileUrl": "https://research.manchester.ac.uk/en/persons/e.c.collins",
+      "title": "Dame Kathleen Ollerenshaw Fellow"
+    },
+    {
+      "area": "Systems and software security",
+      "category": "Academic staff",
+      "name": "Lucas Cordeiro",
+      "officialId": "Academic staff:lucas cordeiro",
+      "profileUrl": "https://www.research.manchester.ac.uk/portal/lucas.cordeiro.html",
+      "title": "Professor, Director of Business Engagement and Innovation"
+    },
+    {
+      "area": "Systems and software security",
+      "category": "Academic staff",
+      "name": "Alex Creswell",
+      "officialId": "Academic staff:alex creswell",
+      "profileUrl": null,
+      "title": "Chair in Digital And Artificial Intelligence"
+    },
+    {
+      "area": "Autonomy and verification",
+      "category": "Academic staff",
+      "name": "Louise Dennis",
+      "officialId": "Academic staff:louise dennis",
+      "profileUrl": "https://www.research.manchester.ac.uk/portal/louise.dennis.html",
+      "title": "Reader"
+    },
+    {
+      "area": "Neuromorphic systems",
+      "category": "Academic staff",
+      "name": "Georgios Detorikas",
+      "officialId": "Academic staff:georgios detorikas",
+      "profileUrl": "https://research.manchester.ac.uk/en/persons/georgios-detorakis/",
+      "title": "Lecturer in Neuromorphic Systems"
+    },
+    {
+      "area": "Autonomy and verification",
+      "category": "Academic staff",
+      "name": "Clare Dixon",
+      "officialId": "Academic staff:clare dixon",
+      "profileUrl": "https://www.research.manchester.ac.uk/portal/clare.dixon.html",
+      "title": "Computer Science Research Director and School of Engineering Deputy Head of Research"
+    },
+    {
+      "area": "Systems and software security",
+      "category": "Academic staff",
+      "name": "Daniel Dresner",
+      "officialId": "Academic staff:daniel dresner",
+      "profileUrl": null,
+      "title": "Professor"
+    },
+    {
+      "area": "Information management",
+      "category": "Academic staff",
+      "name": "Suzanne Embury",
+      "officialId": "Academic staff:suzanne embury",
+      "profileUrl": "https://www.research.manchester.ac.uk/portal/suzanne.m.embury.html",
+      "title": "Reader"
+    },
+    {
+      "area": "Autonomy and verification",
+      "category": "Academic staff",
+      "name": "Marie Farrell",
+      "officialId": "Academic staff:marie farrell",
+      "profileUrl": "https://research.manchester.ac.uk/en/persons/marie-farrell",
+      "title": "Senior Lecturer (Research)"
+    },
+    {
+      "area": "Autonomy and verification",
+      "category": "Academic staff",
+      "name": "Michael Fisher",
+      "officialId": "Academic staff:michael fisher",
+      "profileUrl": "https://personalpages.manchester.ac.uk/staff/michael.fisher",
+      "title": "Professor, Royal Academy of Engineering Chair in Emerging Technologies"
+    },
+    {
+      "area": "Systems and software security",
+      "category": "Academic staff",
+      "name": "Tako Boris Fouotsa",
+      "officialId": "Academic staff:tako boris fouotsa",
+      "profileUrl": "https://research.manchester.ac.uk/en/persons/tako-boris-fouotsa/",
+      "title": "Lecturer in Cryptography"
+    },
+    {
+      "area": "Machine learning and robotics",
+      "category": "Academic staff",
+      "name": "Alejandro Frangi",
+      "officialId": "Academic staff:alejandro frangi",
+      "profileUrl": "https://research.manchester.ac.uk/en/persons/alejandro-frangi/",
+      "title": "Professor, Bicentennial Turing Chair in Computational Medicine, Royal Academy of Engineering Chair in Emerging Technologies"
+    },
+    {
+      "area": "Human computer systems",
+      "category": "Academic staff",
+      "name": "Aphrodite Galata",
+      "officialId": "Academic staff:aphrodite galata",
+      "profileUrl": "https://www.research.manchester.ac.uk/portal/a.galata.html",
+      "title": "Lecturer"
+    },
+    {
+      "area": "Advanced processor technologies",
+      "category": "Academic staff",
+      "name": "James Garside",
+      "officialId": "Academic staff:james garside",
+      "profileUrl": "https://www.research.manchester.ac.uk/portal/james.garside.html",
+      "title": "Senior Lecturer"
+    },
+    {
+      "area": "Information management",
+      "category": "Academic staff",
+      "name": "Carole Goble",
+      "officialId": "Academic staff:carole goble",
+      "profileUrl": "https://www.research.manchester.ac.uk/portal/carole.goble.html",
+      "title": "Professor"
+    },
+    {
+      "area": "Advanced processor technologies",
+      "category": "Academic staff",
+      "name": "John Goodacre",
+      "officialId": "Academic staff:john goodacre",
+      "profileUrl": "https://www.research.manchester.ac.uk/portal/john.goodacre.html",
+      "title": "Professor"
+    },
+    {
+      "area": "Nano-engineering and spintronic technologies",
+      "category": "Academic staff",
+      "name": "Will Griggs",
+      "officialId": "Academic staff:will griggs",
+      "profileUrl": "https://research.manchester.ac.uk/en/persons/william-griggs/",
+      "title": "Dame Kathleen Ollerenshaw Fellow"
+    },
+    {
+      "area": "Human computer systems",
+      "category": "Academic staff",
+      "name": "Simon Harper",
+      "officialId": "Academic staff:simon harper",
+      "profileUrl": "https://www.research.manchester.ac.uk/portal/simon.harper.html",
+      "title": "Professor"
+    },
+    {
+      "area": "Machine learning and robotics",
+      "category": "Academic staff",
+      "name": "Jason Hartford",
+      "officialId": "Academic staff:jason hartford",
+      "profileUrl": "https://research.manchester.ac.uk/en/persons/jason-hartford/",
+      "title": "Dame Kathleen Ollerenshaw Fellow"
+    },
+    {
+      "area": "Teaching",
+      "category": "Academic staff",
+      "name": "Gareth Henshall",
+      "officialId": "Academic staff:gareth henshall",
+      "profileUrl": null,
+      "title": "Senior Lecturer in Computer Science"
+    },
+    {
+      "area": "Autonomy and verification",
+      "category": "Academic staff",
+      "name": "Mehran Hosseini",
+      "officialId": "Academic staff:mehran hosseini",
+      "profileUrl": "https://research.manchester.ac.uk/en/persons/mehran-hosseini/",
+      "title": "Lecturer (Symbolic AI Autonomous Systems)"
+    },
+    {
+      "area": "Teaching",
+      "category": "Academic staff",
+      "name": "Duncan Hull",
+      "officialId": "Academic staff:duncan hull",
+      "profileUrl": "https://www.research.manchester.ac.uk/portal/duncan.hull.html",
+      "title": "Senior Lecturer"
+    },
+    {
+      "area": "Human computer systems",
+      "category": "Academic staff",
+      "name": "Caroline Jay",
+      "officialId": "Academic staff:caroline jay",
+      "profileUrl": "https://www.research.manchester.ac.uk/portal/caroline.jay.html",
+      "title": "Professor of Computer Science, Head of Research in the School of Engineering"
+    },
+    {
+      "area": "Machine learning and robotics",
+      "category": "Academic staff",
+      "name": "Sami Kaski",
+      "officialId": "Academic staff:sami kaski",
+      "profileUrl": "https://www.research.manchester.ac.uk/portal/samuel.kaski.html",
+      "title": "Professor of Artificial Intelligence"
+    },
+    {
+      "area": "Machine learning and robotics",
+      "category": "Academic staff",
+      "name": "John Keane",
+      "officialId": "Academic staff:john keane",
+      "profileUrl": "https://research.manchester.ac.uk/en/persons/john-keane",
+      "title": "Professor"
+    },
+    {
+      "area": "Systems and software security",
+      "category": "Academic staff",
+      "name": "Sebastian Koehler",
+      "officialId": "Academic staff:sebastian koehler",
+      "profileUrl": "https://research.manchester.ac.uk/en/persons/sebastian-kohler/",
+      "title": "Lecturer in Cyber Security"
+    },
+    {
+      "area": "Formal methods",
+      "category": "Academic staff",
+      "name": "Konstantin Korovin",
+      "officialId": "Academic staff:konstantin korovin",
+      "profileUrl": "https://research.manchester.ac.uk/en/persons/konstantin-korovin",
+      "title": "Reader"
+    },
+    {
+      "area": "Advanced processor technologies",
+      "category": "Academic staff",
+      "name": "Christos-Efthymios Kotselidis",
+      "officialId": "Academic staff:christos-efthymios kotselidis",
+      "profileUrl": "https://www.research.manchester.ac.uk/portal/christos.kotselidis.html",
+      "title": "Reader"
+    },
+    {
+      "area": "Natural language processing and text mining",
+      "category": "Academic staff",
+      "name": "Chenghua Lin",
+      "officialId": "Academic staff:chenghua lin",
+      "profileUrl": "https://research.manchester.ac.uk/en/persons/chenghua-lin",
+      "title": "Professor"
+    },
+    {
+      "area": "Teaching",
+      "category": "Academic staff",
+      "name": "Francisco Lobo",
+      "officialId": "Academic staff:francisco lobo",
+      "profileUrl": null,
+      "title": "Lecturer"
+    },
+    {
+      "area": "Advanced processor technologies",
+      "category": "Academic staff",
+      "name": "Mikel Lujan",
+      "officialId": "Academic staff:mikel lujan",
+      "profileUrl": null,
+      "title": "Professor (RAEng Chair)"
+    },
+    {
+      "area": "Systems and software security",
+      "category": "Academic staff",
+      "name": "Bernardo Magri",
+      "officialId": "Academic staff:bernardo magri",
+      "profileUrl": "https://www.research.manchester.ac.uk/portal/bernardo.magri.html",
+      "title": "Senior Lecturer"
+    },
+    {
+      "area": "Systems and software security",
+      "category": "Academic staff",
+      "name": "Edoardo Manino",
+      "officialId": "Academic staff:edoardo manino",
+      "profileUrl": "https://research.manchester.ac.uk/en/persons/edoardo-manino",
+      "title": "Lecturer"
+    },
+    {
+      "area": "Neuromorphic systems",
+      "category": "Academic staff",
+      "name": "Alexandre Marcireau",
+      "officialId": "Academic staff:alexandre marcireau",
+      "profileUrl": null,
+      "title": "Lecturer in Neuromorphic Systems"
+    },
+    {
+      "area": "Human computer systems",
+      "category": "Academic staff",
+      "name": "Zahra Montazeri",
+      "officialId": "Academic staff:zahra montazeri",
+      "profileUrl": "https://www.research.manchester.ac.uk/portal/zahra.montazeri.html",
+      "title": "Lecturer"
+    },
+    {
+      "area": "Teaching",
+      "category": "Academic staff",
+      "name": "Terence Morley",
+      "officialId": "Academic staff:terence morley",
+      "profileUrl": "https://research.manchester.ac.uk/en/persons/terence.morley",
+      "title": "Lecturer"
+    },
+    {
+      "area": "Nano-engineering and spintronic technologies",
+      "category": "Academic staff",
+      "name": "Christoforos Moutafis",
+      "officialId": "Academic staff:christoforos moutafis",
+      "profileUrl": "https://www.research.manchester.ac.uk/portal/christoforos.moutafis.html",
+      "title": "Reader in Spintronics"
+    },
+    {
+      "area": "Machine learning and robotics",
+      "category": "Academic staff",
+      "name": "Tingting Mu",
+      "officialId": "Academic staff:tingting mu",
+      "profileUrl": "https://www.research.manchester.ac.uk/portal/tingting.mu.html",
+      "title": "Senior Lecturer"
+    },
+    {
+      "area": "Machine learning and robotics",
+      "category": "Academic staff",
+      "name": "Anirbit Mukherjee",
+      "officialId": "Academic staff:anirbit mukherjee",
+      "profileUrl": "https://www.research.manchester.ac.uk/portal/anirbit.mukherjee.html",
+      "title": "Lecturer in Machine Learning"
+    },
+    {
+      "area": "Systems and software security",
+      "category": "Academic staff",
+      "name": "Mustafa Mustafa",
+      "officialId": "Academic staff:mustafa mustafa",
+      "profileUrl": "https://www.research.manchester.ac.uk/portal/mustafa.mustafa.html",
+      "title": "Senior Lecturer, Lead of Trusted Digital Systems cluster"
+    },
+    {
+      "area": "Natural language processing and text mining",
+      "category": "Academic staff",
+      "name": "Goran Nenadic",
+      "officialId": "Academic staff:goran nenadic",
+      "profileUrl": "https://www.research.manchester.ac.uk/portal/gnenadic.html",
+      "title": "Professor"
+    },
+    {
+      "area": "Nano-engineering and spintronic technologies",
+      "category": "Academic staff",
+      "name": "Paul Nutter",
+      "officialId": "Academic staff:paul nutter",
+      "profileUrl": "https://www.research.manchester.ac.uk/portal/p.nutter.html",
+      "title": "Reader, Director of Undergraduate Studies"
+    },
+    {
+      "area": "Advanced processor technologies",
+      "category": "Academic staff",
+      "name": "Pierre Olivier",
+      "officialId": "Academic staff:pierre olivier",
+      "profileUrl": "https://www.research.manchester.ac.uk/portal/pierre.olivier.html",
+      "title": "Senior Lecturer"
+    },
+    {
+      "area": "Information management",
+      "category": "Academic staff",
+      "name": "Bijan Parsia",
+      "officialId": "Academic staff:bijan parsia",
+      "profileUrl": "https://www.research.manchester.ac.uk/portal/bijan.parsia.html",
+      "title": "Professor"
+    },
+    {
+      "area": "Information management",
+      "category": "Academic staff",
+      "name": "Norman Paton",
+      "officialId": "Academic staff:norman paton",
+      "profileUrl": "https://www.research.manchester.ac.uk/portal/norman.paton.html",
+      "title": "Professor"
+    },
+    {
+      "area": "Advanced processor technologies",
+      "category": "Academic staff",
+      "name": "Vasileios Pavlidis",
+      "officialId": "Academic staff:vasileios pavlidis",
+      "profileUrl": "https://www.research.manchester.ac.uk/portal/vasileios.pavlidis.html",
+      "title": "Senior Lecturer"
+    },
+    {
+      "area": "Neuromorphic systems",
+      "category": "Academic staff",
+      "name": "Luca Peres",
+      "officialId": "Academic staff:luca peres",
+      "profileUrl": "https://research.manchester.ac.uk/en/persons/luca.peres-2",
+      "title": "Lecturer"
+    },
+    {
+      "area": "Advanced processor technologies",
+      "category": "Academic staff",
+      "name": "Pavlos Petoumenos",
+      "officialId": "Academic staff:pavlos petoumenos",
+      "profileUrl": "https://www.research.manchester.ac.uk/portal/pavlos.petoumenos.html",
+      "title": "Lecturer"
+    },
+    {
+      "area": "Teaching",
+      "category": "Academic staff",
+      "name": "David Petrescu",
+      "officialId": "Academic staff:david petrescu",
+      "profileUrl": "https://research.manchester.ac.uk/en/persons/david-petrescu",
+      "title": "Lecturer"
+    },
+    {
+      "area": "Human computer systems",
+      "category": "Academic staff",
+      "name": "Stephen Pettifer",
+      "officialId": "Academic staff:stephen pettifer",
+      "profileUrl": "https://www.research.manchester.ac.uk/portal/steve.pettifer.html",
+      "title": "Professor, Director of Teaching Strategy, Associate Dean for Teaching"
+    },
+    {
+      "area": "Formal methods",
+      "category": "Academic staff",
+      "name": "Ian Pratt-Hartmann",
+      "officialId": "Academic staff:ian pratt-hartmann",
+      "profileUrl": "https://www.research.manchester.ac.uk/portal/ian.pratt.html",
+      "title": "Senior Lecturer"
+    },
+    {
+      "area": "Teaching",
+      "category": "Academic staff",
+      "name": "Joseph Razavi",
+      "officialId": "Academic staff:joseph razavi",
+      "profileUrl": "https://research.manchester.ac.uk/en/persons/joseph.razavi",
+      "title": "Lecturer"
+    },
+    {
+      "area": "Neuromorphic systems",
+      "category": "Academic staff",
+      "name": "Oliver Rhodes",
+      "officialId": "Academic staff:oliver rhodes",
+      "profileUrl": "https://www.research.manchester.ac.uk/portal/oliver.rhodes.html",
+      "title": "Senior Lecturer"
+    },
+    {
+      "area": "Machine learning and robotics",
+      "category": "Academic staff",
+      "name": "Omar Rivasplata",
+      "officialId": "Academic staff:omar rivasplata",
+      "profileUrl": "https://research.manchester.ac.uk/en/persons/omar-rivasplata",
+      "title": "Senior Lecturer"
+    },
+    {
+      "area": "Nano-engineering and spintronic technologies",
+      "category": "Academic staff",
+      "name": "Mara Ruta-Strungaru",
+      "officialId": "Academic staff:mara ruta-strungaru",
+      "profileUrl": "https://research.manchester.ac.uk/en/persons/mara-strungaru/",
+      "title": "Lecturer"
+    },
+    {
+      "area": "Information management",
+      "category": "Academic staff",
+      "name": "Rizos Sakellariou",
+      "officialId": "Academic staff:rizos sakellariou",
+      "profileUrl": "https://www.research.manchester.ac.uk/portal/rizos.html",
+      "title": "Professor"
+    },
+    {
+      "area": "Information management",
+      "category": "Academic staff",
+      "name": "Sandra Sampaio",
+      "officialId": "Academic staff:sandra sampaio",
+      "profileUrl": "https://www.research.manchester.ac.uk/portal/s.sampaio.html",
+      "title": "Lecturer"
+    },
+    {
+      "area": "Information management",
+      "category": "Academic staff",
+      "name": "Uli Sattler",
+      "officialId": "Academic staff:uli sattler",
+      "profileUrl": "https://www.research.manchester.ac.uk/portal/uli.sattler.html",
+      "title": "Professor"
+    },
+    {
+      "area": "Formal methods",
+      "category": "Academic staff",
+      "name": "Andrea Schalk",
+      "officialId": "Academic staff:andrea schalk",
+      "profileUrl": "https://www.research.manchester.ac.uk/portal/andrea.schalk.html",
+      "title": "Senior Lecturer, Discipline Head of Education"
+    },
+    {
+      "area": "Formal methods",
+      "category": "Academic staff",
+      "name": "Renate Schmidt",
+      "officialId": "Academic staff:renate schmidt",
+      "profileUrl": "https://www.research.manchester.ac.uk/portal/renate.schmidt.html",
+      "title": "Reader, Director of PGR"
+    },
+    {
+      "area": "Machine learning and robotics",
+      "category": "Academic staff",
+      "name": "Jonathan Shapiro",
+      "officialId": "Academic staff:jonathan shapiro",
+      "profileUrl": "https://www.research.manchester.ac.uk/portal/jonathan.l.shapiro.html",
+      "title": "Reader"
+    },
+    {
+      "area": "Systems and software security",
+      "category": "Academic staff",
+      "name": "Gaven Smith",
+      "officialId": "Academic staff:gaven smith",
+      "profileUrl": null,
+      "title": "Professor"
+    },
+    {
+      "area": "Information management",
+      "category": "Academic staff",
+      "name": "Stian Soiland-Reyes",
+      "officialId": "Academic staff:stian soiland-reyes",
+      "profileUrl": "https://research.manchester.ac.uk/en/persons/soiland-reyes",
+      "title": "Senior Lecturer"
+    },
+    {
+      "area": "",
+      "category": "Academic staff",
+      "name": "Andrew Stewart",
+      "officialId": "Academic staff:andrew stewart",
+      "profileUrl": "https://www.research.manchester.ac.uk/portal/andrew.j.stewart.html",
+      "title": "Head of Department"
+    },
+    {
+      "area": "Teaching",
+      "category": "Academic staff",
+      "name": "Sara Summerton",
+      "officialId": "Academic staff:sara summerton",
+      "profileUrl": "https://research.manchester.ac.uk/en/persons/sara.summerton/",
+      "title": "Lecturer in Artificial Intelligence"
+    },
+    {
+      "area": "Natural language processing and text mining",
+      "category": "Academic staff",
+      "name": "Jingyuan Sun (J)",
+      "officialId": "Academic staff:jingyuan sun (j)",
+      "profileUrl": "https://research.manchester.ac.uk/en/persons/jingyuan-sun/",
+      "title": "Lecturer"
+    },
+    {
+      "area": "Machine learning and robotics",
+      "category": "Academic staff",
+      "name": "Mingfei Sun",
+      "officialId": "Academic staff:mingfei sun",
+      "profileUrl": "https://research.manchester.ac.uk/en/persons/mingfei-sun",
+      "title": "Lecturer"
+    },
+    {
+      "area": "Machine learning and robotics",
+      "category": "Academic staff",
+      "name": "Chris Taylor",
+      "officialId": "Academic staff:chris taylor",
+      "profileUrl": "https://www.research.manchester.ac.uk/portal/chris.taylor.html",
+      "title": "Professor, Associate VP Digital Strategy and Innovation"
+    },
+    {
+      "area": "Nano-engineering and spintronic technologies",
+      "category": "Academic staff",
+      "name": "Thomas Thomson",
+      "officialId": "Academic staff:thomas thomson",
+      "profileUrl": "https://www.research.manchester.ac.uk/portal/thomas.thomson.html",
+      "title": "Professor"
+    },
+    {
+      "area": "Natural language processing and text mining",
+      "category": "Academic staff",
+      "name": "Junichi Tsujii",
+      "officialId": "Academic staff:junichi tsujii",
+      "profileUrl": "https://www.research.manchester.ac.uk/portal/j.tsujii.html",
+      "title": "Professor, Scientific Advisor of NaCTeM"
+    },
+    {
+      "area": "Neuromorphic systems",
+      "category": "Academic staff",
+      "name": "André van Schaik",
+      "officialId": "Academic staff:andré van schaik",
+      "profileUrl": "https://research.manchester.ac.uk/en/persons/andr%C3%A9-van-schaik/",
+      "title": "Furber Chair in Neuromorphic Systems Engineering"
+    },
+    {
+      "area": "Human computer systems",
+      "category": "Academic staff",
+      "name": "Markel Vigo",
+      "officialId": "Academic staff:markel vigo",
+      "profileUrl": "https://www.research.manchester.ac.uk/portal/markel.vigo.html",
+      "title": "Reader"
+    },
+    {
+      "area": "Formal methods",
+      "category": "Academic staff",
+      "name": "Andrei Voronkov",
+      "officialId": "Academic staff:andrei voronkov",
+      "profileUrl": null,
+      "title": "Professor"
+    },
+    {
+      "area": "Systems and software security",
+      "category": "Academic staff",
+      "name": "Zhipeng Wang",
+      "officialId": "Academic staff:zhipeng wang",
+      "profileUrl": "https://research.manchester.ac.uk/en/persons/zhipeng-wang/",
+      "title": "Lecturer in Cyber Security"
+    },
+    {
+      "area": "Systems and software security",
+      "category": "Academic staff",
+      "name": "Dominik Winterer",
+      "officialId": "Academic staff:dominik winterer",
+      "profileUrl": "https://research.manchester.ac.uk/en/persons/dominik-winterer/",
+      "title": "Lecturer in Cyber Security"
+    },
+    {
+      "area": "Machine learning and robotics",
+      "category": "Academic staff",
+      "name": "Xiao-Jun Zeng",
+      "officialId": "Academic staff:xiao-jun zeng",
+      "profileUrl": "https://www.research.manchester.ac.uk/portal/x.zeng.html",
+      "title": "Professor of Machine Learning"
+    },
+    {
+      "area": "Information management",
+      "category": "Academic staff",
+      "name": "Ning Zhang",
+      "officialId": "Academic staff:ning zhang",
+      "profileUrl": "https://www.research.manchester.ac.uk/portal/ning.zhang-2.html",
+      "title": "Senior Lecturer"
+    },
+    {
+      "area": "Information management",
+      "category": "Academic staff",
+      "name": "Liping Zhao",
+      "officialId": "Academic staff:liping zhao",
+      "profileUrl": "https://www.research.manchester.ac.uk/portal/liping.zhao.html",
+      "title": "Senior Lecturer"
+    },
+    {
+      "area": "Robotics, Control, Communications & AI",
+      "category": "Academic staff",
+      "name": "Philip Zhao",
+      "officialId": "Academic staff:philip zhao",
+      "profileUrl": "mailto:philip.zhao@manchester.ac.uk",
+      "title": "Senior Lecturer"
+    },
+    {
+      "area": "Machine learning and robotics",
+      "category": "Academic staff",
+      "name": "Hongpeng Zhou",
+      "officialId": "Academic staff:hongpeng zhou",
+      "profileUrl": "https://research.manchester.ac.uk/en/persons/hongpeng-zhou",
+      "title": "Dame Kathleen Ollerenshaw Fellow"
+    },
+    {
+      "area": "Formal methods",
+      "category": "Emeritus and honorary staff",
+      "name": "Howard Barringer",
+      "officialId": "Emeritus and honorary staff:howard barringer",
+      "profileUrl": null,
+      "title": "Emeritus Professor"
+    },
+    {
+      "area": "Advanced processor technologies",
+      "category": "Emeritus and honorary staff",
+      "name": "Barry Cheetham",
+      "officialId": "Emeritus and honorary staff:barry cheetham",
+      "profileUrl": null,
+      "title": "Honorary Senior Lecturer"
+    },
+    {
+      "area": "Advanced processor technologies",
+      "category": "Emeritus and honorary staff",
+      "name": "Steve Furber",
+      "officialId": "Emeritus and honorary staff:steve furber",
+      "profileUrl": "https://www.research.manchester.ac.uk/portal/steve.furber.html",
+      "title": "Emeritus Professor"
+    },
+    {
+      "area": "",
+      "category": "Emeritus and honorary staff",
+      "name": "Graham Gough",
+      "officialId": "Emeritus and honorary staff:graham gough",
+      "profileUrl": null,
+      "title": "Honorary Senior Lecturer"
+    },
+    {
+      "area": "Advanced processor technologies",
+      "category": "Emeritus and honorary staff",
+      "name": "John Gurd",
+      "officialId": "Emeritus and honorary staff:john gurd",
+      "profileUrl": null,
+      "title": "Emeritus Professor"
+    },
+    {
+      "area": "",
+      "category": "Emeritus and honorary staff",
+      "name": "Toby Howard",
+      "officialId": "Emeritus and honorary staff:toby howard",
+      "profileUrl": null,
+      "title": "Honorary Reader"
+    },
+    {
+      "area": "",
+      "category": "Emeritus and honorary staff",
+      "name": "Roger Hubbold",
+      "officialId": "Emeritus and honorary staff:roger hubbold",
+      "profileUrl": "https://www.research.manchester.ac.uk/portal/roger.hubbold.html",
+      "title": "Emeritus Professor"
+    },
+    {
+      "area": "Natural language processing and text mining",
+      "category": "Emeritus and honorary staff",
+      "name": "Jock McNaught",
+      "officialId": "Emeritus and honorary staff:jock mcnaught",
+      "profileUrl": null,
+      "title": "Honorary Lecturer"
+    },
+    {
+      "area": "Nano-engineering and spintronic technologies",
+      "category": "Emeritus and honorary staff",
+      "name": "Jim Miles",
+      "officialId": "Emeritus and honorary staff:jim miles",
+      "profileUrl": "https://www.research.manchester.ac.uk/portal/jim.miles.html",
+      "title": "Emeritus Professor"
+    },
+    {
+      "area": "Machine learning and robotics",
+      "category": "Emeritus and honorary staff",
+      "name": "Allan Ramsey",
+      "officialId": "Emeritus and honorary staff:allan ramsey",
+      "profileUrl": null,
+      "title": "Emeritus Professor"
+    },
+    {
+      "area": "Advanced processor technologies",
+      "category": "Emeritus and honorary staff",
+      "name": "Alasdair Rawsthorne",
+      "officialId": "Emeritus and honorary staff:alasdair rawsthorne",
+      "profileUrl": null,
+      "title": "Emeritus Professor"
+    },
+    {
+      "area": "Information management",
+      "category": "Emeritus and honorary staff",
+      "name": "Alan Rector",
+      "officialId": "Emeritus and honorary staff:alan rector",
+      "profileUrl": null,
+      "title": "Emeritus Professor"
+    },
+    {
+      "area": "Advanced processor technologies",
+      "category": "Emeritus and honorary staff",
+      "name": "Ian Watson",
+      "officialId": "Emeritus and honorary staff:ian watson",
+      "profileUrl": null,
+      "title": "Emeritus Professor"
+    },
+    {
+      "area": "Human computer systems",
+      "category": "Emeritus and honorary staff",
+      "name": "Mary McGee Wood",
+      "officialId": "Emeritus and honorary staff:mary mcgee wood",
+      "profileUrl": null,
+      "title": "Honorary Lecturer"
+    }
+  ]
+}

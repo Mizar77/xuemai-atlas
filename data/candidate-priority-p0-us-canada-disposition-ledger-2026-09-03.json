@@ -1,0 +1,3479 @@
+{
+  "schemaVersion": 1,
+  "snapshotAt": "2026-09-03",
+  "scope": "All remaining P0 candidates in United States and Canada from candidate-priority-queue-2026-09-03.json",
+  "frozenCount": 83,
+  "reviewedCount": 83,
+  "counts": {
+    "ready": 12,
+    "duplicate": 2,
+    "exclude_non_pi": 3,
+    "exclude_out_of_scope": 66,
+    "missing_second_source": 0,
+    "missing_portrait": 0,
+    "missing_relationship": 0
+  },
+  "notes": [
+    "A disposition is exclusive; blockers preserves additional unmet gates for non-final candidates.",
+    "missing_second_source means the official current-PI and scope gate is met, but a second first-party source and person-network evidence remain to be packaged.",
+    "No Canada candidate is currently tiered P0 in the source queue; this ledger therefore contains only United States rows.",
+    "Same-name matches across different institutions are not treated as duplicates without identity evidence."
+  ],
+  "decisions": [
+    {
+      "canonicalKey": "United States:Carnegie Mellon University:yangliuofficialidyangl7",
+      "rosterName": "Yang Liu",
+      "originalCandidateName": "Yang Liu · officialId yangl7",
+      "region": "United States",
+      "institution": "Carnegie Mellon University",
+      "institutionRank": 1,
+      "score": 115,
+      "disposition": "exclude_out_of_scope",
+      "reason": "官方个人页的研究主线属于硬件、通信、系统、密码、编程语言、纯理论或其他非 AI 主线；不纳入当前 AI/NLP/CV/ML/机器人图谱。",
+      "atlasPersonId": null,
+      "duplicateOfCandidate": null,
+      "officialEvidenceUrl": "https://www.cs.cmu.edu/directory/api/v1/all.json",
+      "rosterMemberships": [
+        {
+          "unitName": "School of Computer Science",
+          "unitUrl": "https://www.cs.cmu.edu/directory/all",
+          "evidenceUrl": "https://www.cs.cmu.edu/directory/api/v1/all.json"
+        }
+      ],
+      "portraitUrl": null,
+      "blockers": [],
+      "evidenceRows": [
+        {
+          "unitUrl": "https://www.cs.cmu.edu/directory/all",
+          "officialId": "yangl7",
+          "title": "Assistant Professor",
+          "profileUrl": "https://www.cs.cmu.edu/directory/all",
+          "portraitUrl": null,
+          "decision": "included_existing",
+          "evidence": "Assistant Professor | Computer Science Department | https://www.cs.cmu.edu/directory/api/v1/all.json",
+          "profileExcerpt": null
+        },
+        {
+          "unitUrl": "https://www.cs.cmu.edu/directory/all",
+          "officialId": "yangliu7",
+          "title": "Postdoctoral Research Associate",
+          "profileUrl": "https://www.cs.cmu.edu/directory/all",
+          "portraitUrl": null,
+          "decision": "excluded_non_pi",
+          "evidence": "Postdoctoral Research Associate | Ray and Stephanie Lane Computational Biology Department | https://www.cs.cmu.edu/directory/api/v1/all.json",
+          "profileExcerpt": null
+        }
+      ],
+      "attemptedUrls": [
+        "https://www.cs.cmu.edu/directory/api/v1/all.json",
+        "https://www.cs.cmu.edu/directory/all"
+      ],
+      "failureType": null,
+      "reviewedAt": "2026-09-03"
+    },
+    {
+      "canonicalKey": "United States:University of Illinois Urbana-Champaign:davidheath",
+      "rosterName": "David Heath",
+      "originalCandidateName": "David Heath",
+      "region": "United States",
+      "institution": "University of Illinois Urbana-Champaign",
+      "institutionRank": 2,
+      "score": 112,
+      "disposition": "exclude_out_of_scope",
+      "reason": "官方个人页的研究主线属于硬件、通信、系统、密码、编程语言、纯理论或其他非 AI 主线；不纳入当前 AI/NLP/CV/ML/机器人图谱。",
+      "atlasPersonId": null,
+      "duplicateOfCandidate": null,
+      "officialEvidenceUrl": "https://siebelschool.illinois.edu/about/people/all-faculty/daheath",
+      "rosterMemberships": [
+        {
+          "unitName": "Siebel School of Computing and Data Science",
+          "unitUrl": "https://siebelschool.illinois.edu/about/people/all-faculty",
+          "evidenceUrl": "https://siebelschool.illinois.edu/about/people/all-faculty/daheath"
+        }
+      ],
+      "portraitUrl": "https://ws.engr.illinois.edu/directory/viewphoto.aspx?id=125621&s=400&type=portrait",
+      "blockers": [],
+      "evidenceRows": [
+        {
+          "unitUrl": "https://siebelschool.illinois.edu/about/people/all-faculty",
+          "officialId": "id125621",
+          "title": "Assistant Professor",
+          "profileUrl": "https://siebelschool.illinois.edu/about/people/all-faculty/daheath",
+          "portraitUrl": "https://ws.engr.illinois.edu/directory/viewphoto.aspx?id=125621&s=400&type=portrait",
+          "decision": "include_new_pi",
+          "evidence": "Assistant Professor; item | person | cat15 | cs; https://siebelschool.illinois.edu/about/people/all-faculty/daheath",
+          "profileExcerpt": "Home About People All Faculty David Heath David Heath Assistant Professor daheath@illinois.edu For More Information Personal Webpage Resident Instruction CS407/ECE407: Cryptography, Siebel School of Computing and Data Science, University of Illinois Urbana-Champaign, Spring 2025 CS 598 DH Special Topics in Secure Computation, Department of Computer Science, University of Illinois Urbana-Champaign, Spring 2024 ICS407/ECE407: Cryptography, Department of Computer Science, University of Illinois Urbana-Champaign, Fall 2023 CS598 DH: Special Topics in Secure Computation, Department of Computer Science, University of Illinois Urbana-Champaign, Spring 2023 CS598 DH: Special Topics in Secure Computation, Department of Computer Science, University of Illinois Urbana-Champaign, Fall 2022 Articles in Conference Proceedings Ananya Appana , David Heath, and Ling Ren. Oblivious single access machines "
+        }
+      ],
+      "attemptedUrls": [
+        "https://siebelschool.illinois.edu/about/people/all-faculty/daheath"
+      ],
+      "failureType": null,
+      "reviewedAt": "2026-09-03"
+    },
+    {
+      "canonicalKey": "United States:University of Illinois Urbana-Champaign:demingchen",
+      "rosterName": "Deming Chen",
+      "originalCandidateName": "Deming Chen",
+      "region": "United States",
+      "institution": "University of Illinois Urbana-Champaign",
+      "institutionRank": 2,
+      "score": 112,
+      "disposition": "exclude_out_of_scope",
+      "reason": "官方个人页的研究主线属于硬件、通信、系统、密码、编程语言、纯理论或其他非 AI 主线；不纳入当前 AI/NLP/CV/ML/机器人图谱。",
+      "atlasPersonId": null,
+      "duplicateOfCandidate": null,
+      "officialEvidenceUrl": "https://siebelschool.illinois.edu/about/people/all-faculty/dchen",
+      "rosterMemberships": [
+        {
+          "unitName": "Siebel School of Computing and Data Science",
+          "unitUrl": "https://siebelschool.illinois.edu/about/people/all-faculty",
+          "evidenceUrl": "https://siebelschool.illinois.edu/about/people/all-faculty/dchen"
+        }
+      ],
+      "portraitUrl": "https://ws.engr.illinois.edu/directory/viewphoto.aspx?id=11975&s=400&type=portrait",
+      "blockers": [],
+      "evidenceRows": [
+        {
+          "unitUrl": "https://siebelschool.illinois.edu/about/people/all-faculty",
+          "officialId": "id11975",
+          "title": "Professor, Electrical and Computer Engineering",
+          "profileUrl": "https://siebelschool.illinois.edu/about/people/all-faculty/dchen",
+          "portraitUrl": "https://ws.engr.illinois.edu/directory/viewphoto.aspx?id=11975&s=400&type=portrait",
+          "decision": "include_new_pi",
+          "evidence": "Professor, Electrical and Computer Engineering; item | person | cat5 | cs; https://siebelschool.illinois.edu/about/people/all-faculty/dchen",
+          "profileExcerpt": "Compilers, Architecture, and Parallel Computing Patents U.S. Patent No.: &shy;&shy;&shy;12675338. Issue date: July 07, 2026. Co-inventors: Bharat Sukhwani, Martin Ohmacht, Hubertus Franke, Sameh Asaad, Scott Smith , Deming Chen. Title: Dynamic Allocation Scheme For Optimal Distribution of Queues to Virtual Functions to Avoid Queue Congestion. U.S. Patent No.: 11,706,163. Issue date: July 2023. Co-inventors: Jian Huang, Deming Chen, Alexander Gerhard Schwing, Youjie Li. Title: Accelerating Distributed Reinforcement Learning with In-switch Computing. Technology license: a company licensed the \"Low Loss DNN Quantization Software\" out of ADSC/UIUC in 2021. Co-inventors: Yao Chen, Deming Chen, Cong Hao. Technology license: a company licensed the RASP technology out of UCLA, 2017. Co-inventors: Deming Chen, Jason Cong, Eugene Ding, Zhijun Huang, Yeanyow Hwang, Chang Wu, Sarah Xu. Title: RASP: "
+        }
+      ],
+      "attemptedUrls": [
+        "https://siebelschool.illinois.edu/about/people/all-faculty/dchen"
+      ],
+      "failureType": null,
+      "reviewedAt": "2026-09-03"
+    },
+    {
+      "canonicalKey": "United States:University of Illinois Urbana-Champaign:edgarsolomonik",
+      "rosterName": "Edgar Solomonik",
+      "originalCandidateName": "Edgar Solomonik",
+      "region": "United States",
+      "institution": "University of Illinois Urbana-Champaign",
+      "institutionRank": 2,
+      "score": 112,
+      "disposition": "exclude_out_of_scope",
+      "reason": "官方个人页的研究主线属于硬件、通信、系统、密码、编程语言、纯理论或其他非 AI 主线；不纳入当前 AI/NLP/CV/ML/机器人图谱。",
+      "atlasPersonId": null,
+      "duplicateOfCandidate": null,
+      "officialEvidenceUrl": "https://siebelschool.illinois.edu/about/people/all-faculty/solomon2",
+      "rosterMemberships": [
+        {
+          "unitName": "Siebel School of Computing and Data Science",
+          "unitUrl": "https://siebelschool.illinois.edu/about/people/all-faculty",
+          "evidenceUrl": "https://siebelschool.illinois.edu/about/people/all-faculty/solomon2"
+        }
+      ],
+      "portraitUrl": "https://ws.engr.illinois.edu/directory/viewphoto.aspx?id=62899&s=400&type=portrait",
+      "blockers": [],
+      "evidenceRows": [
+        {
+          "unitUrl": "https://siebelschool.illinois.edu/about/people/all-faculty",
+          "officialId": "id62899",
+          "title": "Associate Professor",
+          "profileUrl": "https://siebelschool.illinois.edu/about/people/all-faculty/solomon2",
+          "portraitUrl": "https://ws.engr.illinois.edu/directory/viewphoto.aspx?id=62899&s=400&type=portrait",
+          "decision": "include_new_pi",
+          "evidence": "Associate Professor; item | person | cat15 | cs; https://siebelschool.illinois.edu/about/people/all-faculty/solomon2",
+          "profileExcerpt": "Scientific Computing Chapters in Books Laxmikant Kale and Edgar Solomonik, \"Parallel Sorting,\" in Encyclopedia of Parallel Computing , D. Padua. Ed. Springer, 2011. Selected Articles in Journals Caleb Ju, Yifan Zhang, and Edgar Solomonik, \"Communication lower bounds for nested bilinear algorithms,\" Foundations of Computational Mathematics (FoCM) , eprint: 2107.09834, 2023. Navjot Singh and Edgar Solomonik, \"Alternating Mahalanobis distance minimization for stable and accurate CP decomposition,\" SIAM Journal of Scientific Computing (SISC) , erprint: 2204.07208, 2023. Yang Gao, Phillip Helms, Garnet Kin-Lic Chan, and Edgar Solomonik, \"Automatic transformation of irreducible representations for efficient contraction of tensors with cyclic group symmetry.\" SciPost Physics Codebases, No. 9, eprint: 2007.08056, September 2022. Samah Karim and Edgar Solomonik, \"Efficient preconditioners for int"
+        }
+      ],
+      "attemptedUrls": [
+        "https://siebelschool.illinois.edu/about/people/all-faculty/solomon2"
+      ],
+      "failureType": null,
+      "reviewedAt": "2026-09-03"
+    },
+    {
+      "canonicalKey": "United States:University of Illinois Urbana-Champaign:ilanshomorony",
+      "rosterName": "Ilan Shomorony",
+      "originalCandidateName": "Ilan Shomorony",
+      "region": "United States",
+      "institution": "University of Illinois Urbana-Champaign",
+      "institutionRank": 2,
+      "score": 112,
+      "disposition": "exclude_out_of_scope",
+      "reason": "官方个人页的研究主线属于硬件、通信、系统、密码、编程语言、纯理论或其他非 AI 主线；不纳入当前 AI/NLP/CV/ML/机器人图谱。",
+      "atlasPersonId": null,
+      "duplicateOfCandidate": null,
+      "officialEvidenceUrl": "https://siebelschool.illinois.edu/about/people/all-faculty/ilans",
+      "rosterMemberships": [
+        {
+          "unitName": "Siebel School of Computing and Data Science",
+          "unitUrl": "https://siebelschool.illinois.edu/about/people/all-faculty",
+          "evidenceUrl": "https://siebelschool.illinois.edu/about/people/all-faculty/ilans"
+        }
+      ],
+      "portraitUrl": "https://ws.engr.illinois.edu/directory/viewphoto.aspx?id=158342&s=400&type=portrait",
+      "blockers": [],
+      "evidenceRows": [
+        {
+          "unitUrl": "https://siebelschool.illinois.edu/about/people/all-faculty",
+          "officialId": "id158342",
+          "title": "Assistant Professor, Electrical and Computer Engineering",
+          "profileUrl": "https://siebelschool.illinois.edu/about/people/all-faculty/ilans",
+          "portraitUrl": "https://ws.engr.illinois.edu/directory/viewphoto.aspx?id=158342&s=400&type=portrait",
+          "decision": "include_new_pi",
+          "evidence": "Assistant Professor, Electrical and Computer Engineering; item | person | cat5 | cs; https://siebelschool.illinois.edu/about/people/all-faculty/ilans",
+          "profileExcerpt": "Home About People All Faculty Ilan Shomorony Ilan Shomorony he/him/his Assistant Professor, Electrical and Computer Engineering ilans@illinois.edu 313 Coordinated Science Laboratory For More Information Personal Webpage Journal Editorships Action Editor (AE) for Transactions on Machine Learning Research (2024-) Teaching Honors List of Teachers Ranked as Excellent by Their Students, ECE 598 (SP22) Research Honors NSF CAREER Award (2021) Recent Courses Taught ECE 310 - Digital Signal Processing ECE 311 - Digital Signal Processing Lab ECE 313 (MATH 362) - Probability with Engrg Applic ECE 365 - Data Science and Engineering ECE 534 - Random Processes ECE 563 - Information Theory ECE 590 SIN - Signals, Inferences & Networks ECE 598 IS - Fund. Limits in Data Science ECE 598 IS - Info Theory High-Dimensional Related News Shomorony earns prestigious NSF CAREER Award to better understand genomic "
+        }
+      ],
+      "attemptedUrls": [
+        "https://siebelschool.illinois.edu/about/people/all-faculty/ilans"
+      ],
+      "failureType": null,
+      "reviewedAt": "2026-09-03"
+    },
+    {
+      "canonicalKey": "United States:University of Illinois Urbana-Champaign:johnchart",
+      "rosterName": "John C. Hart",
+      "originalCandidateName": "John C. Hart",
+      "region": "United States",
+      "institution": "University of Illinois Urbana-Champaign",
+      "institutionRank": 2,
+      "score": 112,
+      "disposition": "ready",
+      "reason": "本批正式数据模块已达到双来源、3–5 条带来源事实、512×512 头像和网络证据门槛。",
+      "atlasPersonId": null,
+      "duplicateOfCandidate": null,
+      "officialEvidenceUrl": "https://siebelschool.illinois.edu/about/people/all-faculty/jch",
+      "rosterMemberships": [
+        {
+          "unitName": "Siebel School of Computing and Data Science",
+          "unitUrl": "https://siebelschool.illinois.edu/about/people/all-faculty",
+          "evidenceUrl": "https://siebelschool.illinois.edu/about/people/all-faculty/jch"
+        }
+      ],
+      "portraitUrl": "https://ws.engr.illinois.edu/directory/viewphoto.aspx?id=4952&s=400&type=portrait",
+      "blockers": [],
+      "evidenceRows": [
+        {
+          "unitUrl": "https://siebelschool.illinois.edu/about/people/all-faculty",
+          "officialId": "id4952",
+          "title": "Professor",
+          "profileUrl": "https://siebelschool.illinois.edu/about/people/all-faculty/jch",
+          "portraitUrl": "https://ws.engr.illinois.edu/directory/viewphoto.aspx?id=4952&s=400&type=portrait",
+          "decision": "include_new_pi",
+          "evidence": "Professor; item | person | cat15 | cs; https://siebelschool.illinois.edu/about/people/all-faculty/jch",
+          "profileExcerpt": "Architecture, Compilers and Parallel Computing Artificial Intelligence Bioinformatics and Computational Biology Computers and Education Data and Intelligent Systems Interactive Computing Programming Languages, Formal Methods and Software Engineering Scientific Computing Security and Privacy Systems and Networking Theory and Algorithms Research Centers and Partnerships Illinois-Insper Partnership Collaborative Research Projects Summer Research Participants Speaker Series Corporate Partners Summer Research Undergraduate Research Opportunities CS Area Reading Groups Directed Reading Program Trick or Research Summer Research Program SRP Lunch & Learn Summer Research Program Participants News & Events News & Events In the Media"
+        }
+      ],
+      "attemptedUrls": [
+        "https://siebelschool.illinois.edu/about/people/all-faculty/jch"
+      ],
+      "failureType": null,
+      "reviewedAt": "2026-09-03"
+    },
+    {
+      "canonicalKey": "United States:University of Illinois Urbana-Champaign:jugalgarg",
+      "rosterName": "Jugal Garg",
+      "originalCandidateName": "Jugal Garg",
+      "region": "United States",
+      "institution": "University of Illinois Urbana-Champaign",
+      "institutionRank": 2,
+      "score": 112,
+      "disposition": "exclude_out_of_scope",
+      "reason": "官方个人页的研究主线属于硬件、通信、系统、密码、编程语言、纯理论或其他非 AI 主线；不纳入当前 AI/NLP/CV/ML/机器人图谱。",
+      "atlasPersonId": null,
+      "duplicateOfCandidate": null,
+      "officialEvidenceUrl": "https://siebelschool.illinois.edu/about/people/all-faculty/jugal",
+      "rosterMemberships": [
+        {
+          "unitName": "Siebel School of Computing and Data Science",
+          "unitUrl": "https://siebelschool.illinois.edu/about/people/all-faculty",
+          "evidenceUrl": "https://siebelschool.illinois.edu/about/people/all-faculty/jugal"
+        }
+      ],
+      "portraitUrl": "https://ws.engr.illinois.edu/directory/viewphoto.aspx?id=61852&s=400&type=portrait",
+      "blockers": [],
+      "evidenceRows": [
+        {
+          "unitUrl": "https://siebelschool.illinois.edu/about/people/all-faculty",
+          "officialId": "id61852",
+          "title": "Assistant Professor, Industrial and Enterprise Systems Engineering",
+          "profileUrl": "https://siebelschool.illinois.edu/about/people/all-faculty/jugal",
+          "portraitUrl": "https://ws.engr.illinois.edu/directory/viewphoto.aspx?id=61852&s=400&type=portrait",
+          "decision": "include_new_pi",
+          "evidence": "Assistant Professor, Industrial and Enterprise Systems Engineering; item | person | cat5 | cs; https://siebelschool.illinois.edu/about/people/all-faculty/jugal",
+          "profileExcerpt": "Theory and Algorithms Books Edited or Co-Edited (Original Editions) Jugal Garg, Max Klimm, and Yuqing Kong. Web and Internet Economics - 19th International Conference (WINE) 2023, Shanghai, China, December 4-8, 2023, Proceedings, Lecture Notes in Computer Science, 14413, Springer, 2024, https://doi.org/10.1007/978-3-031-48974-7, isbn = 978-3-031-48973-0 Selected Articles in Journals Jugal Garg, Edin Husi&cacute;, Wenzheng Li, L&aacute;szl&oacute; V&eacute;gh, and Jan Vondr&aacute;k. Approximating Nash Social Welfare by Matching and Local Search. Journal of the ACM (accepted) Jugal Garg, Yixin Tao, and L&#195;&#161;szl&#195;&#179; V&#195;&#169;gh. Approximating Competitive Equilibrium by Nash Welfare. Games and Economic Behavior (accepted) Hannaneh Akrami, Noga Alon, Bhaskar Ray Chaudhury, Jugal Garg, Kurt Mehlhorn, and Ruta Mehta. EFX: A Simpler Approach and an (Almost) Optimal Guarantee"
+        }
+      ],
+      "attemptedUrls": [
+        "https://siebelschool.illinois.edu/about/people/all-faculty/jugal"
+      ],
+      "failureType": null,
+      "reviewedAt": "2026-09-03"
+    },
+    {
+      "canonicalKey": "United States:University of Illinois Urbana-Champaign:lukeolson",
+      "rosterName": "Luke Olson",
+      "originalCandidateName": "Luke Olson",
+      "region": "United States",
+      "institution": "University of Illinois Urbana-Champaign",
+      "institutionRank": 2,
+      "score": 112,
+      "disposition": "exclude_out_of_scope",
+      "reason": "官方个人页的研究主线属于硬件、通信、系统、密码、编程语言、纯理论或其他非 AI 主线；不纳入当前 AI/NLP/CV/ML/机器人图谱。",
+      "atlasPersonId": null,
+      "duplicateOfCandidate": null,
+      "officialEvidenceUrl": "https://siebelschool.illinois.edu/about/people/all-faculty/lukeo",
+      "rosterMemberships": [
+        {
+          "unitName": "Siebel School of Computing and Data Science",
+          "unitUrl": "https://siebelschool.illinois.edu/about/people/all-faculty",
+          "evidenceUrl": "https://siebelschool.illinois.edu/about/people/all-faculty/lukeo"
+        }
+      ],
+      "portraitUrl": "https://ws.engr.illinois.edu/directory/viewphoto.aspx?id=4967&s=400&type=portrait",
+      "blockers": [],
+      "evidenceRows": [
+        {
+          "unitUrl": "https://siebelschool.illinois.edu/about/people/all-faculty",
+          "officialId": "id4967",
+          "title": "Professor and Willett Faculty Scholar",
+          "profileUrl": "https://siebelschool.illinois.edu/about/people/all-faculty/lukeo",
+          "portraitUrl": "https://ws.engr.illinois.edu/directory/viewphoto.aspx?id=4967&s=400&type=portrait",
+          "decision": "include_new_pi",
+          "evidence": "Professor and Willett Faculty Scholar; item | person | cat15 | cs; https://siebelschool.illinois.edu/about/people/all-faculty/lukeo",
+          "profileExcerpt": "Compilers, Architecture, and Parallel Computing Scientific Computing Books Authored or Co-Authored (Original Editions) Numerical Partial Differential Equations , James H. Adler, Hans De Sterck, Scott MacLachlan, and Luke Olson, 2025. Selected Articles in Journals Seung Won Suh, Jonathan F. MacArt, Luke N. Olson, and Jonathan B. Freund, A TVD neural network closure and application to turbulent combustion, Journal of Computational Physics, 523 (2025), 113638. [ url ][ doi: 10.1016/j.jcp.2024.113638 ] Peter Sentz, Kristian Beckwith, Eric C. Cyr, Luke N. Olson, and Ravi Patel, Reduced basis approximations of parameterized dynamical partial differential equations via neural networks, Foundations of Data Science, 2024. [ url ][ doi: 10.3934/fods.2024044 ] Tareq Zaman, Nicolas Nytko, Ali Taghibakhshi, Scott MacLachlan, Luke Olson, and Matthew West, Generalizing Lloyd&#226;&#8364;&#8482;s Algori"
+        }
+      ],
+      "attemptedUrls": [
+        "https://siebelschool.illinois.edu/about/people/all-faculty/lukeo"
+      ],
+      "failureType": null,
+      "reviewedAt": "2026-09-03"
+    },
+    {
+      "canonicalKey": "United States:University of Illinois Urbana-Champaign:masoodanbashir",
+      "rosterName": "Masooda N. Bashir",
+      "originalCandidateName": "Masooda N. Bashir",
+      "region": "United States",
+      "institution": "University of Illinois Urbana-Champaign",
+      "institutionRank": 2,
+      "score": 112,
+      "disposition": "exclude_out_of_scope",
+      "reason": "官方个人页的研究主线属于硬件、通信、系统、密码、编程语言、纯理论或其他非 AI 主线；不纳入当前 AI/NLP/CV/ML/机器人图谱。",
+      "atlasPersonId": null,
+      "duplicateOfCandidate": null,
+      "officialEvidenceUrl": "https://siebelschool.illinois.edu/about/people/all-faculty/mnb",
+      "rosterMemberships": [
+        {
+          "unitName": "Siebel School of Computing and Data Science",
+          "unitUrl": "https://siebelschool.illinois.edu/about/people/all-faculty",
+          "evidenceUrl": "https://siebelschool.illinois.edu/about/people/all-faculty/mnb"
+        }
+      ],
+      "portraitUrl": "https://ws.engr.illinois.edu/directory/viewphoto.aspx?id=157340&s=400&type=portrait",
+      "blockers": [],
+      "evidenceRows": [
+        {
+          "unitUrl": "https://siebelschool.illinois.edu/about/people/all-faculty",
+          "officialId": "id157340",
+          "title": "Associate Professor, School of Information Sciences",
+          "profileUrl": "https://siebelschool.illinois.edu/about/people/all-faculty/mnb",
+          "portraitUrl": "https://ws.engr.illinois.edu/directory/viewphoto.aspx?id=157340&s=400&type=portrait",
+          "decision": "include_new_pi",
+          "evidence": "Associate Professor, School of Information Sciences; item | person | cat5 | cs; https://siebelschool.illinois.edu/about/people/all-faculty/mnb",
+          "profileExcerpt": "Qualifying Exam Data and Information Systems Qualifying Exam Interactive Computing Qualifying Exam Programming Languages, Formal Methods, and Software Engineering Scientific Computing - Numerical Analysis PhD Qualifying Exam Security and Privacy Systems and Networking Theory and Algorithms Preliminary Exam Final Exam (Thesis Defense) Ph.D. / M.S. Thesis Format Review Guidelines MCS Master of Computer Science MCS Chicago MCS Online MCS Urbana-Champaign MCS Application Information MCS Degree Requirements MCS Tuition, Fees & Financial Assistance M.S. Program M.S. in Bioinformatics Program Graduate Tracks Fifth Year Master's Programs 5-year BS/MCS Program 5-year BS/MS Program Illinois Computing Accelerator for Non-Specialists (iCAN) iCAN Curriculum iCAN Application Process iCAN Tuition and Financial Aid Graduate Forms, Thesis & Advising Resources Graduate Advising Contacts Graduate Official "
+        }
+      ],
+      "attemptedUrls": [
+        "https://siebelschool.illinois.edu/about/people/all-faculty/mnb"
+      ],
+      "failureType": null,
+      "reviewedAt": "2026-09-03"
+    },
+    {
+      "canonicalKey": "United States:University of Illinois Urbana-Champaign:mohammedelkebir",
+      "rosterName": "Mohammed El-Kebir",
+      "originalCandidateName": "Mohammed El-Kebir",
+      "region": "United States",
+      "institution": "University of Illinois Urbana-Champaign",
+      "institutionRank": 2,
+      "score": 112,
+      "disposition": "ready",
+      "reason": "本批正式数据模块已达到双来源、3–5 条带来源事实、512×512 头像和网络证据门槛。",
+      "atlasPersonId": null,
+      "duplicateOfCandidate": null,
+      "officialEvidenceUrl": "https://siebelschool.illinois.edu/about/people/all-faculty/melkebir",
+      "rosterMemberships": [
+        {
+          "unitName": "Siebel School of Computing and Data Science",
+          "unitUrl": "https://siebelschool.illinois.edu/about/people/all-faculty",
+          "evidenceUrl": "https://siebelschool.illinois.edu/about/people/all-faculty/melkebir"
+        }
+      ],
+      "portraitUrl": "https://ws.engr.illinois.edu/directory/viewphoto.aspx?id=77844&s=400&type=portrait",
+      "blockers": [],
+      "evidenceRows": [
+        {
+          "unitUrl": "https://siebelschool.illinois.edu/about/people/all-faculty",
+          "officialId": "id77844",
+          "title": "Associate Professor",
+          "profileUrl": "https://siebelschool.illinois.edu/about/people/all-faculty/melkebir",
+          "portraitUrl": "https://ws.engr.illinois.edu/directory/viewphoto.aspx?id=77844&s=400&type=portrait",
+          "decision": "include_new_pi",
+          "evidence": "Associate Professor; item | person | cat15 | cs; https://siebelschool.illinois.edu/about/people/all-faculty/melkebir",
+          "profileExcerpt": "Bioinformatics and Computational Biology Theory and Algorithms Selected Articles in Journals M. El-Kebir, L. Oesper, H. Acheson-Field, B. J. Raphael. Reconstruction of clonal trees and tumor composition from multi-sample sequencing data, Bioinformatics, 31(12):i62--i70, 2015. Special issue for Intelligent Systems for Molecular Biology (ISMB) 2015. M. El-Kebir, G. Satas, L. Oesper, B.J. Raphael. Inferring the Mutational History of a Tumor using Multi-State Perfect Phylogeny Mixtures, Cell Systems, 3(1):43--53, 2016. Extended version of selected papers that appeared in Research in Computational Molecular Biology (RECOMB) 2016. The Computational Pan-Genomics Consortium. Computational pan-genomics: status, promises and challenges, Briefings in Bioinformatics, bbw089, 2016. M. El-Kebir, G. Satas, B.J. Raphael. Inferring parsimonious migration histories for metastatic cancers. Nature Genetics,"
+        }
+      ],
+      "attemptedUrls": [
+        "https://siebelschool.illinois.edu/about/people/all-faculty/melkebir"
+      ],
+      "failureType": null,
+      "reviewedAt": "2026-09-03"
+    },
+    {
+      "canonicalKey": "United States:University of Illinois Urbana-Champaign:ningluo",
+      "rosterName": "Ning Luo",
+      "originalCandidateName": "Ning Luo",
+      "region": "United States",
+      "institution": "University of Illinois Urbana-Champaign",
+      "institutionRank": 2,
+      "score": 112,
+      "disposition": "exclude_out_of_scope",
+      "reason": "官方个人页的研究主线属于硬件、通信、系统、密码、编程语言、纯理论或其他非 AI 主线；不纳入当前 AI/NLP/CV/ML/机器人图谱。",
+      "atlasPersonId": null,
+      "duplicateOfCandidate": null,
+      "officialEvidenceUrl": "https://siebelschool.illinois.edu/about/people/all-faculty/nl27",
+      "rosterMemberships": [
+        {
+          "unitName": "Siebel School of Computing and Data Science",
+          "unitUrl": "https://siebelschool.illinois.edu/about/people/all-faculty",
+          "evidenceUrl": "https://siebelschool.illinois.edu/about/people/all-faculty/nl27"
+        }
+      ],
+      "portraitUrl": "https://ws.engr.illinois.edu/directory/viewphoto.aspx?id=154608&s=400&type=portrait",
+      "blockers": [],
+      "evidenceRows": [
+        {
+          "unitUrl": "https://siebelschool.illinois.edu/about/people/all-faculty",
+          "officialId": "id154608",
+          "title": "Assistant Professor, Electrical and Computer Engineering",
+          "profileUrl": "https://siebelschool.illinois.edu/about/people/all-faculty/nl27",
+          "portraitUrl": "https://ws.engr.illinois.edu/directory/viewphoto.aspx?id=154608&s=400&type=portrait",
+          "decision": "include_new_pi",
+          "evidence": "Assistant Professor, Electrical and Computer Engineering; item | person | cat5 | cs; https://siebelschool.illinois.edu/about/people/all-faculty/nl27",
+          "profileExcerpt": "My research combines formal methods, automated reasoning, programming language, and cryptography to achieve security, verifiability, and confidentiality in practical and challenging scenarios. Graduate Research Opportunities I am looking for motivated and energetic Ph.D. students. Candidates are expected to have a solid background in Computer Science. No prior experience in cryptography or formal methods is required. However, candidates must be brave and eager to learn new things. The highest standard is required for research integrity. Please send me an email if you are interested in working with me. Research Interests Trustworthy Machine Learning Applied Cryptography Formal methods and Automated Reasoning Security and Privacy Selected Articles in Journals Weakly Private Distributed Multi-User Secret Sharing Articles in Conference Proceedings Privacy-Preserving Regular Expression Matchi"
+        }
+      ],
+      "attemptedUrls": [
+        "https://siebelschool.illinois.edu/about/people/all-faculty/nl27"
+      ],
+      "failureType": null,
+      "reviewedAt": "2026-09-03"
+    },
+    {
+      "canonicalKey": "United States:University of Illinois Urbana-Champaign:olgicamilenkovic",
+      "rosterName": "Olgica Milenkovic",
+      "originalCandidateName": "Olgica Milenkovic",
+      "region": "United States",
+      "institution": "University of Illinois Urbana-Champaign",
+      "institutionRank": 2,
+      "score": 112,
+      "disposition": "ready",
+      "reason": "本批正式数据模块已达到双来源、3–5 条带来源事实、512×512 头像和网络证据门槛。",
+      "atlasPersonId": null,
+      "duplicateOfCandidate": null,
+      "officialEvidenceUrl": "https://siebelschool.illinois.edu/about/people/all-faculty/milenkov",
+      "rosterMemberships": [
+        {
+          "unitName": "Siebel School of Computing and Data Science",
+          "unitUrl": "https://siebelschool.illinois.edu/about/people/all-faculty",
+          "evidenceUrl": "https://siebelschool.illinois.edu/about/people/all-faculty/milenkov"
+        }
+      ],
+      "portraitUrl": "https://ws.engr.illinois.edu/directory/viewphoto.aspx?id=59182&s=400&type=portrait",
+      "blockers": [],
+      "evidenceRows": [
+        {
+          "unitUrl": "https://siebelschool.illinois.edu/about/people/all-faculty",
+          "officialId": "id59182",
+          "title": "Professor, Electrical and Computer Engineering",
+          "profileUrl": "https://siebelschool.illinois.edu/about/people/all-faculty/milenkov",
+          "portraitUrl": "https://ws.engr.illinois.edu/directory/viewphoto.aspx?id=59182&s=400&type=portrait",
+          "decision": "include_new_pi",
+          "evidence": "Professor, Electrical and Computer Engineering; item | person | cat5 | cs; https://siebelschool.illinois.edu/about/people/all-faculty/milenkov",
+          "profileExcerpt": "Bioinformatics and Computational Biology Journal Editorships Editor, Transactions on Machine Learning Research, 2024-present Editor, Foundations and Trends in Information Theory and Communications, 2020-2022. Guest-editor-in-chief, Special Issue of the IEEE Transactions on Information Theory dedicated to V. I. Levenshtein, 2019-2020 Associate Editor, IEEE Transactions on Molecular Communication, 2016-2017 Associate Editor, IEEE Transactions on Information Theory, 2011-2013 Associate Editor, IEEE Transactions on Signal Processing, 2009-2011 Guest Editor in Chief, Special Issue on Information Theory in Molecular Biology and Neuroscience, IEEE Transactions on Information Theory, 2008. Associate Editor for Coding Theory, IEEE Transactions on Communication Theory, 2007-2010. Honors (Keynote) Canadian Workshop on Information Theory, Halifax, Canada, 2026. (Keynote) Learning and Signal Processi"
+        }
+      ],
+      "attemptedUrls": [
+        "https://siebelschool.illinois.edu/about/people/all-faculty/milenkov"
+      ],
+      "failureType": null,
+      "reviewedAt": "2026-09-03"
+    },
+    {
+      "canonicalKey": "United States:University of Illinois Urbana-Champaign:rainerengelken",
+      "rosterName": "Rainer Engelken",
+      "originalCandidateName": "Rainer Engelken",
+      "region": "United States",
+      "institution": "University of Illinois Urbana-Champaign",
+      "institutionRank": 2,
+      "score": 112,
+      "disposition": "ready",
+      "reason": "本批正式数据模块已达到双来源、3–5 条带来源事实、512×512 头像和网络证据门槛。",
+      "atlasPersonId": null,
+      "duplicateOfCandidate": null,
+      "officialEvidenceUrl": "https://siebelschool.illinois.edu/about/people/all-faculty/engelken",
+      "rosterMemberships": [
+        {
+          "unitName": "Siebel School of Computing and Data Science",
+          "unitUrl": "https://siebelschool.illinois.edu/about/people/all-faculty",
+          "evidenceUrl": "https://siebelschool.illinois.edu/about/people/all-faculty/engelken"
+        }
+      ],
+      "portraitUrl": "https://ws.engr.illinois.edu/directory/viewphoto.aspx?id=163789&s=400&type=portrait",
+      "blockers": [],
+      "evidenceRows": [
+        {
+          "unitUrl": "https://siebelschool.illinois.edu/about/people/all-faculty",
+          "officialId": "id163789",
+          "title": "Assistant Professor, Electrical and Computer Engineering",
+          "profileUrl": "https://siebelschool.illinois.edu/about/people/all-faculty/engelken",
+          "portraitUrl": "https://ws.engr.illinois.edu/directory/viewphoto.aspx?id=163789&s=400&type=portrait",
+          "decision": "include_new_pi",
+          "evidence": "Assistant Professor, Electrical and Computer Engineering; item | person | cat5 | cs; https://siebelschool.illinois.edu/about/people/all-faculty/engelken",
+          "profileExcerpt": "Artificial Intelligence Bioinformatics and Computational Biology Theory and Algorithms Selected Articles in Journals Engelken R., Wolf F., Abbott L. F. Lyapunov spectra of chaotic recurrent neural networks. Phys. Rev. Research 5:043044, 2023 Palmigiano A., Engelken R., Wolf F. Boosting of neural circuit chaos at the onset of collective oscillations. eLife, 2023 Engelken R., Ingrosso A., Khajeh R., Goedeke S., Abbott L. F. Input correlations impede suppression of chaos and learning in balanced rate networks. PLOS Computational Biology 18(12):e1010590, 2022 Engelken R., Farkhooi F., van Vreeswijk C., Hansel D., Wolf F. A reanalysis of &#226;&#8364;&#339;Two types of asynchronous activity in networks of excitatory and inhibitory spiking neurons&#226;&#8364;&#157;. F1000Research 5:2043, 2016 Wolf F., Engelken R., Touzel M., Florez J., Neef A. Dynamical models of cortical circuits. Current Op"
+        }
+      ],
+      "attemptedUrls": [
+        "https://siebelschool.illinois.edu/about/people/all-faculty/engelken"
+      ],
+      "failureType": null,
+      "reviewedAt": "2026-09-03"
+    },
+    {
+      "canonicalKey": "United States:University of Illinois Urbana-Champaign:rayadurgamsrikant",
+      "rosterName": "Rayadurgam Srikant",
+      "originalCandidateName": "Rayadurgam Srikant",
+      "region": "United States",
+      "institution": "University of Illinois Urbana-Champaign",
+      "institutionRank": 2,
+      "score": 112,
+      "disposition": "ready",
+      "reason": "本批正式数据模块已达到双来源、3–5 条带来源事实、512×512 头像和网络证据门槛。",
+      "atlasPersonId": null,
+      "duplicateOfCandidate": null,
+      "officialEvidenceUrl": "https://siebelschool.illinois.edu/about/people/all-faculty/rsrikant",
+      "rosterMemberships": [
+        {
+          "unitName": "Siebel School of Computing and Data Science",
+          "unitUrl": "https://siebelschool.illinois.edu/about/people/all-faculty",
+          "evidenceUrl": "https://siebelschool.illinois.edu/about/people/all-faculty/rsrikant"
+        }
+      ],
+      "portraitUrl": "https://ws.engr.illinois.edu/directory/viewphoto.aspx?id=78153&s=400&type=portrait",
+      "blockers": [],
+      "evidenceRows": [
+        {
+          "unitUrl": "https://siebelschool.illinois.edu/about/people/all-faculty",
+          "officialId": "id78153",
+          "title": "Professor, Electrical and Computer Engineering",
+          "profileUrl": "https://siebelschool.illinois.edu/about/people/all-faculty/rsrikant",
+          "portraitUrl": "https://ws.engr.illinois.edu/directory/viewphoto.aspx?id=78153&s=400&type=portrait",
+          "decision": "include_new_pi",
+          "evidence": "Professor, Electrical and Computer Engineering; item | person | cat5 | cs; https://siebelschool.illinois.edu/about/people/all-faculty/rsrikant",
+          "profileExcerpt": "Research Interests Machine Learning Communication Networks Cloud Computing Stochastic Networks Game Theory Stochastic Control Books Authored or Co-Authored (Original Editions) R. Srikant and L. Ying, Communication Networks: An Optimization, Control and Stochastic Networks Perspective, Cambridge University Press, 2014 S. Shakkottai and R. Srikant, Network Optimization and Control, NoW Publishers Foundations and Trends in Networking, 2007 R. Srikant, Mathematics of Internet Congestion Control, Birkhauser, 2004 Journal Editorships Area Editor for Stochastic Models, Mathematics of Operations Research, 2023-2025 Editor, Synthesis Series in Communication Networks, Morgan & Claypool Publishers, since January 2016 Editor-in-Chief, IEEE/ACM Transactions on Networking, since June 2013-June 2017 Honors Distinguished Alumnus, Indian Institute of Technology, Madras, 2015 Distinguished Lecturer, IEEE "
+        }
+      ],
+      "attemptedUrls": [
+        "https://siebelschool.illinois.edu/about/people/all-faculty/rsrikant"
+      ],
+      "failureType": null,
+      "reviewedAt": "2026-09-03"
+    },
+    {
+      "canonicalKey": "United States:University of Illinois Urbana-Champaign:reyhanehjabbarvand",
+      "rosterName": "Reyhaneh Jabbarvand",
+      "originalCandidateName": "Reyhaneh Jabbarvand",
+      "region": "United States",
+      "institution": "University of Illinois Urbana-Champaign",
+      "institutionRank": 2,
+      "score": 112,
+      "disposition": "exclude_out_of_scope",
+      "reason": "官方个人页的研究主线属于硬件、通信、系统、密码、编程语言、纯理论或其他非 AI 主线；不纳入当前 AI/NLP/CV/ML/机器人图谱。",
+      "atlasPersonId": null,
+      "duplicateOfCandidate": null,
+      "officialEvidenceUrl": "https://siebelschool.illinois.edu/about/people/all-faculty/reyhaneh",
+      "rosterMemberships": [
+        {
+          "unitName": "Siebel School of Computing and Data Science",
+          "unitUrl": "https://siebelschool.illinois.edu/about/people/all-faculty",
+          "evidenceUrl": "https://siebelschool.illinois.edu/about/people/all-faculty/reyhaneh"
+        }
+      ],
+      "portraitUrl": "https://ws.engr.illinois.edu/directory/viewphoto.aspx?id=106854&s=400&type=portrait",
+      "blockers": [],
+      "evidenceRows": [
+        {
+          "unitUrl": "https://siebelschool.illinois.edu/about/people/all-faculty",
+          "officialId": "id106854",
+          "title": "Assistant Professor",
+          "profileUrl": "https://siebelschool.illinois.edu/about/people/all-faculty/reyhaneh",
+          "portraitUrl": "https://ws.engr.illinois.edu/directory/viewphoto.aspx?id=106854&s=400&type=portrait",
+          "decision": "include_new_pi",
+          "evidence": "Assistant Professor; item | person | cat15 | cs; https://siebelschool.illinois.edu/about/people/all-faculty/reyhaneh",
+          "profileExcerpt": "Artificial Intelligence Programming Languages / Formal Methods / Software Engineering Honors Google PhD Fellowship in Programming Technology and Software Engineering (2018) Rising Star in EECS (2009)"
+        }
+      ],
+      "attemptedUrls": [
+        "https://siebelschool.illinois.edu/about/people/all-faculty/reyhaneh"
+      ],
+      "failureType": null,
+      "reviewedAt": "2026-09-03"
+    },
+    {
+      "canonicalKey": "United States:University of Illinois Urbana-Champaign:rutamehta",
+      "rosterName": "Ruta Mehta",
+      "originalCandidateName": "Ruta Mehta",
+      "region": "United States",
+      "institution": "University of Illinois Urbana-Champaign",
+      "institutionRank": 2,
+      "score": 112,
+      "disposition": "exclude_out_of_scope",
+      "reason": "官方个人页的研究主线属于硬件、通信、系统、密码、编程语言、纯理论或其他非 AI 主线；不纳入当前 AI/NLP/CV/ML/机器人图谱。",
+      "atlasPersonId": null,
+      "duplicateOfCandidate": null,
+      "officialEvidenceUrl": "https://siebelschool.illinois.edu/about/people/all-faculty/rutameht",
+      "rosterMemberships": [
+        {
+          "unitName": "Siebel School of Computing and Data Science",
+          "unitUrl": "https://siebelschool.illinois.edu/about/people/all-faculty",
+          "evidenceUrl": "https://siebelschool.illinois.edu/about/people/all-faculty/rutameht"
+        }
+      ],
+      "portraitUrl": "https://ws.engr.illinois.edu/directory/viewphoto.aspx?id=58210&s=400&type=portrait",
+      "blockers": [],
+      "evidenceRows": [
+        {
+          "unitUrl": "https://siebelschool.illinois.edu/about/people/all-faculty",
+          "officialId": "id58210",
+          "title": "Associate Professor",
+          "profileUrl": "https://siebelschool.illinois.edu/about/people/all-faculty/rutameht",
+          "portraitUrl": "https://ws.engr.illinois.edu/directory/viewphoto.aspx?id=58210&s=400&type=portrait",
+          "decision": "include_new_pi",
+          "evidence": "Associate Professor; item | person | cat15 | cs; https://siebelschool.illinois.edu/about/people/all-faculty/rutameht",
+          "profileExcerpt": "Theory and Algorithms Selected Articles in Journals Adsul, Bharat, Ch Sobhan Babu, Jugal Garg, Ruta Mehta, and Milind Sohoni. \"A simplex-like algorithm for linear Fisher markets.\" Current Science , 103(9):1033-1042, 2012. Jugal Garg, Ruta Mehta, Milind Sohoni, and Vijay V. Vazirani. \"A complementary pivot algorithm for market equilibrium under separable, piecewise-linear concave utilities.\" SIAM Journal on Computing , 44(6):1820-1847, 2015. Jugal Garg, Ruta Mehta, and Vijay V. Vazirani. \"Dichotomies in Equilibrium Computation and Membership of PLC Markets in FIXP.\" Theory of Computing , 12(1):1-25, 2016. Ruta Mehta. \"Constant Rank Two-Player Games are PPAD-hard.\" SIAM Journal on Computing , 47(5):1858-1887, 2018. Jugal Garg, Ruta Mehta, Vijay Vazirani, and Sadra Yazdanbod. \"ETR-Completeness for Decision Versions of Multi-Player (Symmetric) Nash Equilibria.\" ACM Transactions on Economics "
+        }
+      ],
+      "attemptedUrls": [
+        "https://siebelschool.illinois.edu/about/people/all-faculty/rutameht"
+      ],
+      "failureType": null,
+      "reviewedAt": "2026-09-03"
+    },
+    {
+      "canonicalKey": "United States:University of Illinois Urbana-Champaign:sarahlawsky",
+      "rosterName": "Sarah Lawsky",
+      "originalCandidateName": "Sarah Lawsky",
+      "region": "United States",
+      "institution": "University of Illinois Urbana-Champaign",
+      "institutionRank": 2,
+      "score": 112,
+      "disposition": "exclude_out_of_scope",
+      "reason": "官方个人页的研究主线属于硬件、通信、系统、密码、编程语言、纯理论或其他非 AI 主线；不纳入当前 AI/NLP/CV/ML/机器人图谱。",
+      "atlasPersonId": null,
+      "duplicateOfCandidate": null,
+      "officialEvidenceUrl": "https://siebelschool.illinois.edu/about/people/all-faculty/slawsky",
+      "rosterMemberships": [
+        {
+          "unitName": "Siebel School of Computing and Data Science",
+          "unitUrl": "https://siebelschool.illinois.edu/about/people/all-faculty",
+          "evidenceUrl": "https://siebelschool.illinois.edu/about/people/all-faculty/slawsky"
+        }
+      ],
+      "portraitUrl": "https://ws.engr.illinois.edu/directory/viewphoto.aspx?id=165718&s=400&type=portrait",
+      "blockers": [],
+      "evidenceRows": [
+        {
+          "unitUrl": "https://siebelschool.illinois.edu/about/people/all-faculty",
+          "officialId": "id165718",
+          "title": "Professor, College of Law",
+          "profileUrl": "https://siebelschool.illinois.edu/about/people/all-faculty/slawsky",
+          "portraitUrl": "https://ws.engr.illinois.edu/directory/viewphoto.aspx?id=165718&s=400&type=portrait",
+          "decision": "include_new_pi",
+          "evidence": "Professor, College of Law; item | person | cat5 | cs; https://siebelschool.illinois.edu/about/people/all-faculty/slawsky",
+          "profileExcerpt": "Software Engineering Formal Methods Programming Languages Selected Articles in Journals A Logic for Statutes, 21 Fla. Tax Rev. 60 (2017) Formalizing the Code, 70 Tax L. Rev. 377 (2017) Form as Formalization, 16 Ohio St. Tech. L.J. 114 (2020) Teaching Algorithms and Algorithms for Teaching, 25 Fla. Tax Rev. 587 (2021) Coding the Code: Catala and Computationally Accessible Tax Law, 75 SMU L. Rev. 535 (2022) Large Language Models as Tax Attorneys: A Case Study in Legal Capabilities Emergence, 382 Phil. Transactions of the Royal Society A (2024) (with John J. Nay, David Karamardian, Wenting Tao, Meghana Bhat, Raghav Jain, Aaron Travis Lee, Jonathan H. Choi, and Jungo Kasai) Computational Law and Epistemic Trespassing, 2 J. Cross-Disciplinary Research in Computational L. (2024) Reasoning with Formalized Statutes: The Case of Capital Gains and Losses, 43 Va. Tax Rev. 361 (2024)"
+        }
+      ],
+      "attemptedUrls": [
+        "https://siebelschool.illinois.edu/about/people/all-faculty/slawsky"
+      ],
+      "failureType": null,
+      "reviewedAt": "2026-09-03"
+    },
+    {
+      "canonicalKey": "United States:University of Illinois Urbana-Champaign:sayanmitra",
+      "rosterName": "Sayan Mitra",
+      "originalCandidateName": "Sayan Mitra",
+      "region": "United States",
+      "institution": "University of Illinois Urbana-Champaign",
+      "institutionRank": 2,
+      "score": 112,
+      "disposition": "exclude_out_of_scope",
+      "reason": "官方个人页的研究主线属于硬件、通信、系统、密码、编程语言、纯理论或其他非 AI 主线；不纳入当前 AI/NLP/CV/ML/机器人图谱。",
+      "atlasPersonId": null,
+      "duplicateOfCandidate": null,
+      "officialEvidenceUrl": "https://siebelschool.illinois.edu/about/people/all-faculty/mitras",
+      "rosterMemberships": [
+        {
+          "unitName": "Siebel School of Computing and Data Science",
+          "unitUrl": "https://siebelschool.illinois.edu/about/people/all-faculty",
+          "evidenceUrl": "https://siebelschool.illinois.edu/about/people/all-faculty/mitras"
+        }
+      ],
+      "portraitUrl": "https://ws.engr.illinois.edu/directory/viewphoto.aspx?id=22167&s=400&type=portrait",
+      "blockers": [],
+      "evidenceRows": [
+        {
+          "unitUrl": "https://siebelschool.illinois.edu/about/people/all-faculty",
+          "officialId": "id22167",
+          "title": "Professor, Electrical and Computer Engineering",
+          "profileUrl": "https://siebelschool.illinois.edu/about/people/all-faculty/mitras",
+          "portraitUrl": "https://ws.engr.illinois.edu/directory/viewphoto.aspx?id=22167&s=400&type=portrait",
+          "decision": "include_new_pi",
+          "evidence": "Professor, Electrical and Computer Engineering; item | person | cat5 | cs; https://siebelschool.illinois.edu/about/people/all-faculty/mitras",
+          "profileExcerpt": "Cyber-Physical Computing Embedded Systems Programming Languages / Formal Methods / Software Engineering Security and Privacy Books Authored or Co-Authored (Original Editions) Verifying Cyber-Physical Systems: A Path to Safe Autonomy, by Sayan Mitra. MIT Press, February, 2021. Selected Articles in Journals Optimizing rewards while meeting &#207;&#8240;-regular Constraints Chris Zeitler, Kristina Miller, Sayan Mitra, John Schierman, and Mahesh Viswanathan. In Reinforcement Learning Journal, 2024. Symmetry-based Abstractions for Hybrid Automata. Hussein Sibai and Sayan Mitra. Accepted for IEEE Transactions on Automatic Control (TAC), Vol 69(5), 3357-3364, 2024. State estimation of open dynamical systems with slow inputs: Entropy, bit rates, and relation with switched systems. Hussein Sibai and Sayan Mitra. In IEEE Transactions in Automatic Control (TAC), Number 21-0591, Pages 1-16, 2023. Mu"
+        }
+      ],
+      "attemptedUrls": [
+        "https://siebelschool.illinois.edu/about/people/all-faculty/mitras"
+      ],
+      "failureType": null,
+      "reviewedAt": "2026-09-03"
+    },
+    {
+      "canonicalKey": "United States:University of Illinois Urbana-Champaign:shuangzhao",
+      "rosterName": "Shuang Zhao",
+      "originalCandidateName": "Shuang Zhao",
+      "region": "United States",
+      "institution": "University of Illinois Urbana-Champaign",
+      "institutionRank": 2,
+      "score": 112,
+      "disposition": "ready",
+      "reason": "本批正式数据模块已达到双来源、3–5 条带来源事实、512×512 头像和网络证据门槛。",
+      "atlasPersonId": null,
+      "duplicateOfCandidate": null,
+      "officialEvidenceUrl": "https://siebelschool.illinois.edu/about/people/all-faculty/shzhao",
+      "rosterMemberships": [
+        {
+          "unitName": "Siebel School of Computing and Data Science",
+          "unitUrl": "https://siebelschool.illinois.edu/about/people/all-faculty",
+          "evidenceUrl": "https://siebelschool.illinois.edu/about/people/all-faculty/shzhao"
+        }
+      ],
+      "portraitUrl": "https://ws.engr.illinois.edu/directory/viewphoto.aspx?id=159634&s=400&type=portrait",
+      "blockers": [],
+      "evidenceRows": [
+        {
+          "unitUrl": "https://siebelschool.illinois.edu/about/people/all-faculty",
+          "officialId": "id159634",
+          "title": "Associate Professor",
+          "profileUrl": "https://siebelschool.illinois.edu/about/people/all-faculty/shzhao",
+          "portraitUrl": "https://ws.engr.illinois.edu/directory/viewphoto.aspx?id=159634&s=400&type=portrait",
+          "decision": "include_new_pi",
+          "evidence": "Associate Professor; item | person | cat15 | cs; https://siebelschool.illinois.edu/about/people/all-faculty/shzhao",
+          "profileExcerpt": "Artificial Intelligence Graphics Scientific Computing Selected Articles in Journals Peiyu Xu, Lifan Wu, Benedikt Bitterli, Ravi Ramamoorthi, Shuang Zhao. Robust Computation of Boundary Path Integrals Using Kernel-Density Estimation. ACM Transactions on Graphics (SIGGRAPH 2026), 45(4), July 2026. Bowen Xue, Giuseppe Claudio Guarnera, Shuang Zhao, Zahra Montazeri. PBR-Inspired Controllable Diffusion for Image Generation. Computer Graphics Forum (Eurographics 2026), 45(2), May 2026. Yu-Chen Wang, Markus Kettunen, Daqi Lin, Chris Wyman, Lifan Wu, Shuang Zhao. Gradient-Domain ReSTIR Path Tracing. Computer Graphics Forum (Eurographics 2026), 45(2), May 2026. Zihan Yu, Rohan Sawhney, Bailey Miller, Lifan Wu, Shuang Zhao. Robust Derivative Estimation with Walk on Stars. ACM Transactions on Graphics (SIGGRAPH Asia 2025), 44(6), December 2025. Lifan Wu, Nathan Morrical, Sai Bangaru, Rohan Sawhney,"
+        }
+      ],
+      "attemptedUrls": [
+        "https://siebelschool.illinois.edu/about/people/all-faculty/shzhao"
+      ],
+      "failureType": null,
+      "reviewedAt": "2026-09-03"
+    },
+    {
+      "canonicalKey": "United States:University of Illinois Urbana-Champaign:taliaringer",
+      "rosterName": "Talia Ringer",
+      "originalCandidateName": "Talia Ringer",
+      "region": "United States",
+      "institution": "University of Illinois Urbana-Champaign",
+      "institutionRank": 2,
+      "score": 112,
+      "disposition": "exclude_out_of_scope",
+      "reason": "官方个人页的研究主线属于硬件、通信、系统、密码、编程语言、纯理论或其他非 AI 主线；不纳入当前 AI/NLP/CV/ML/机器人图谱。",
+      "atlasPersonId": null,
+      "duplicateOfCandidate": null,
+      "officialEvidenceUrl": "https://siebelschool.illinois.edu/about/people/all-faculty/tringer",
+      "rosterMemberships": [
+        {
+          "unitName": "Siebel School of Computing and Data Science",
+          "unitUrl": "https://siebelschool.illinois.edu/about/people/all-faculty",
+          "evidenceUrl": "https://siebelschool.illinois.edu/about/people/all-faculty/tringer"
+        }
+      ],
+      "portraitUrl": "https://ws.engr.illinois.edu/directory/viewphoto.aspx?id=117239&s=400&type=portrait",
+      "blockers": [],
+      "evidenceRows": [
+        {
+          "unitUrl": "https://siebelschool.illinois.edu/about/people/all-faculty",
+          "officialId": "id117239",
+          "title": "Assistant Professor",
+          "profileUrl": "https://siebelschool.illinois.edu/about/people/all-faculty/tringer",
+          "portraitUrl": "https://ws.engr.illinois.edu/directory/viewphoto.aspx?id=117239&s=400&type=portrait",
+          "decision": "include_new_pi",
+          "evidence": "Assistant Professor; item | person | cat15 | cs; https://siebelschool.illinois.edu/about/people/all-faculty/tringer",
+          "profileExcerpt": "Programming Languages / Formal Methods / Software Engineering Monographs Talia Ringer, Karl Palmskog, Ilya Sergey, Milos Gligoric, and Zachary Tatlock. \"QED at Large: A Survey of Engineering of Formally Verified Software.\" Foundations and Trends&reg; in Programming Languages, Vol. 5: No. 2-3, pp 102-281, 2019. Selected Articles in Journals Cosmo Viola , Max Fan , and Talia Ringer. \"Proof Repair across Quotient Type Equivalences,\" Proceedings of the ACM on Programming Languages (PACMPL), Vol. 9, Issue: OOPSLA, Article No. 386, pp. 3177-3202, 2025. Borhane Blili-Hamelin, Christopher Graziul, Leif Hancox-Li, Hananel Hazan, El-Mahdi El-Mhamdi, Avijit Ghosh, Katherine Heller, Jacob Metcalf, Fabricio Murai, Eryk Salvaggio, Andrew Smart, Todd Snider, Mariame Tighanimine, Talia Ringer, Margaret Mitchell, and Shiri Dori-Hacohen. \"Position: Stop Treating &lsquo;AGI&rsquo; as the North-Star Goal of"
+        }
+      ],
+      "attemptedUrls": [
+        "https://siebelschool.illinois.edu/about/people/all-faculty/tringer"
+      ],
+      "failureType": null,
+      "reviewedAt": "2026-09-03"
+    },
+    {
+      "canonicalKey": "United States:University of Illinois Urbana-Champaign:timothybretl",
+      "rosterName": "Timothy Bretl",
+      "originalCandidateName": "Timothy Bretl",
+      "region": "United States",
+      "institution": "University of Illinois Urbana-Champaign",
+      "institutionRank": 2,
+      "score": 112,
+      "disposition": "ready",
+      "reason": "本批正式数据模块已达到双来源、3–5 条带来源事实、512×512 头像和网络证据门槛。",
+      "atlasPersonId": null,
+      "duplicateOfCandidate": null,
+      "officialEvidenceUrl": "https://siebelschool.illinois.edu/about/people/all-faculty/tbretl",
+      "rosterMemberships": [
+        {
+          "unitName": "Siebel School of Computing and Data Science",
+          "unitUrl": "https://siebelschool.illinois.edu/about/people/all-faculty",
+          "evidenceUrl": "https://siebelschool.illinois.edu/about/people/all-faculty/tbretl"
+        }
+      ],
+      "portraitUrl": "https://ws.engr.illinois.edu/directory/viewphoto.aspx?id=5005&s=400&type=portrait",
+      "blockers": [],
+      "evidenceRows": [
+        {
+          "unitUrl": "https://siebelschool.illinois.edu/about/people/all-faculty",
+          "officialId": "id5005",
+          "title": "Professor, Aerospace Engineering",
+          "profileUrl": "https://siebelschool.illinois.edu/about/people/all-faculty/tbretl",
+          "portraitUrl": "https://ws.engr.illinois.edu/directory/viewphoto.aspx?id=5005&s=400&type=portrait",
+          "decision": "include_new_pi",
+          "evidence": "Professor, Aerospace Engineering; item | person | cat5 | cs; https://siebelschool.illinois.edu/about/people/all-faculty/tbretl",
+          "profileExcerpt": "Artificial Intelligence Chapters in Books T. Bretl. &#8220;Control of Many Agents by Moving Their Targets: Maintaining Separation,&#8221; Recent Progress in Robotics: Viable Robotic Service to Human, Lecture Notes in Control and Information Sciences (LNCIS), vol 370, 2008. K. Hauser, T. Bretl, K. Harada, and J. Latombe, \"Using motion primitives in probabilistic sample-based planning for humanoid robots,\" Algorithmic Foundations of Robotics VII, Springer Tracts in Advanced Robotics (STAR), Springer Berlin / Heidelberg, vol 47, p507-522, 2008. K. Hauser, T. Bretl, J. Latombe, and B. Wilcox, \"Motion planning for a six-legged lunar robot,\" Algorithmic Foundations of Robotics VII, Springer Tracts in Advanced Robotics (STAR), Springer Berlin / Heidelberg, vol 47, p301-316, 2008. T. Bretl, S. Rock, J.C. Latombe, B. Kennedy, and H. Aghazarian. &#8220;Free-Climbing with a Multi-Use Robot,&#8221; "
+        }
+      ],
+      "attemptedUrls": [
+        "https://siebelschool.illinois.edu/about/people/all-faculty/tbretl"
+      ],
+      "failureType": null,
+      "reviewedAt": "2026-09-03"
+    },
+    {
+      "canonicalKey": "United States:University of Illinois Urbana-Champaign:varunchandrasekaran",
+      "rosterName": "Varun Chandrasekaran",
+      "originalCandidateName": "Varun Chandrasekaran",
+      "region": "United States",
+      "institution": "University of Illinois Urbana-Champaign",
+      "institutionRank": 2,
+      "score": 112,
+      "disposition": "ready",
+      "reason": "本批正式数据模块已达到双来源、3–5 条带来源事实、512×512 头像和网络证据门槛。",
+      "atlasPersonId": null,
+      "duplicateOfCandidate": null,
+      "officialEvidenceUrl": "https://siebelschool.illinois.edu/about/people/all-faculty/varunc",
+      "rosterMemberships": [
+        {
+          "unitName": "Siebel School of Computing and Data Science",
+          "unitUrl": "https://siebelschool.illinois.edu/about/people/all-faculty",
+          "evidenceUrl": "https://siebelschool.illinois.edu/about/people/all-faculty/varunc"
+        }
+      ],
+      "portraitUrl": "https://ws.engr.illinois.edu/directory/viewphoto.aspx?id=131540&s=400&type=portrait",
+      "blockers": [],
+      "evidenceRows": [
+        {
+          "unitUrl": "https://siebelschool.illinois.edu/about/people/all-faculty",
+          "officialId": "id131540",
+          "title": "Assistant Professor, Electrical and Computer Engineering",
+          "profileUrl": "https://siebelschool.illinois.edu/about/people/all-faculty/varunc",
+          "portraitUrl": "https://ws.engr.illinois.edu/directory/viewphoto.aspx?id=131540&s=400&type=portrait",
+          "decision": "include_new_pi",
+          "evidence": "Assistant Professor, Electrical and Computer Engineering; item | person | cat5 | cs; https://siebelschool.illinois.edu/about/people/all-faculty/varunc",
+          "profileExcerpt": "Home About People All Faculty Varun Chandrasekaran Varun Chandrasekaran he/him/his Assistant Professor, Electrical and Computer Engineering varunc@illinois.edu 463 Coordinated Science Laboratory Recent Courses Taught CS 461 (ECE 422) - Computer Security I CS 463 (ECE 424) - Computer Security II CS 562 - Adv Topics in Sec, Priv and ML CS 591 SP - Security and Privacy Related News The most shocking part of the Hugging Face breach? OpenAI says Its own AI was behind It AICE forges ahead with a look back Translating Legacy Code for a Safer Future: DARPA Backs Effort to Convert C to Rust Beyond the score: rethinking AI benchmarks for real utility Chandrasekaran comments on dangers of OpenAI's new Strawberry model ECE welcomes seven new faculty News Notes Siebel School of Computing and Data Science Twitter Instagram Facebook LinkedIn YouTube Thomas M. Siebel Center for Computer Science 201 N. G"
+        }
+      ],
+      "attemptedUrls": [
+        "https://siebelschool.illinois.edu/about/people/all-faculty/varunc"
+      ],
+      "failureType": null,
+      "reviewedAt": "2026-09-03"
+    },
+    {
+      "canonicalKey": "United States:University of Illinois Urbana-Champaign:williamsmoses",
+      "rosterName": "William S. Moses",
+      "originalCandidateName": "William S. Moses",
+      "region": "United States",
+      "institution": "University of Illinois Urbana-Champaign",
+      "institutionRank": 2,
+      "score": 112,
+      "disposition": "exclude_out_of_scope",
+      "reason": "官方个人页的研究主线属于硬件、通信、系统、密码、编程语言、纯理论或其他非 AI 主线；不纳入当前 AI/NLP/CV/ML/机器人图谱。",
+      "atlasPersonId": null,
+      "duplicateOfCandidate": null,
+      "officialEvidenceUrl": "https://siebelschool.illinois.edu/about/people/all-faculty/wsmoses",
+      "rosterMemberships": [
+        {
+          "unitName": "Siebel School of Computing and Data Science",
+          "unitUrl": "https://siebelschool.illinois.edu/about/people/all-faculty",
+          "evidenceUrl": "https://siebelschool.illinois.edu/about/people/all-faculty/wsmoses"
+        }
+      ],
+      "portraitUrl": "https://ws.engr.illinois.edu/directory/viewphoto.aspx?id=139248&s=400&type=portrait",
+      "blockers": [],
+      "evidenceRows": [
+        {
+          "unitUrl": "https://siebelschool.illinois.edu/about/people/all-faculty",
+          "officialId": "id139248",
+          "title": "Assistant Professor",
+          "profileUrl": "https://siebelschool.illinois.edu/about/people/all-faculty/wsmoses",
+          "portraitUrl": "https://ws.engr.illinois.edu/directory/viewphoto.aspx?id=139248&s=400&type=portrait",
+          "decision": "include_new_pi",
+          "evidence": "Assistant Professor; item | person | cat15 | cs; https://siebelschool.illinois.edu/about/people/all-faculty/wsmoses",
+          "profileExcerpt": "Compilers Articles in Conference Proceedings Online Adaptive Frequency Hopping Moses, William and Robertson, Andrew and Dell, John. TJHSST &#226;&#8364;&#8482;14. Extreme Multi-Resolution Visualization: A Challenge on Many Levels Balme, Joanna and Brown-Dymkoski, Eric and Guerrero, Victor and Jones, Stephen and Kessler, Andre and Lichtl, Adam and Lung, Kevin and Moses, William and Museth, Ken and Roberson, Nathan and others. SCVis &#226;&#8364;&#8482;15. Computational Complexity of Arranging Music Demaine, Erik D. and Moses, William S.. MOVES &#226;&#8364;&#8482;15. Embedding Fork-Join Parallelism into LLVM IR Moses, William S. and Schardl, Tao B. and Leiserson, Charles E.. CQC &#226;&#8364;&#8482;16. Tapir: Embedding Fork-Join Parallelism into LLVM&#226;&#8364;&#8482;s Intermediate Representation Schardl, Tao B. and Moses, William S. and Leiserson, Charles E.. PPoPP &#226;&#8364;&#8482;"
+        }
+      ],
+      "attemptedUrls": [
+        "https://siebelschool.illinois.edu/about/people/all-faculty/wsmoses"
+      ],
+      "failureType": null,
+      "reviewedAt": "2026-09-03"
+    },
+    {
+      "canonicalKey": "United States:University of Illinois Urbana-Champaign:yongjoopark",
+      "rosterName": "Yongjoo Park",
+      "originalCandidateName": "Yongjoo Park",
+      "region": "United States",
+      "institution": "University of Illinois Urbana-Champaign",
+      "institutionRank": 2,
+      "score": 112,
+      "disposition": "exclude_out_of_scope",
+      "reason": "官方个人页的研究主线属于硬件、通信、系统、密码、编程语言、纯理论或其他非 AI 主线；不纳入当前 AI/NLP/CV/ML/机器人图谱。",
+      "atlasPersonId": null,
+      "duplicateOfCandidate": null,
+      "officialEvidenceUrl": "https://siebelschool.illinois.edu/about/people/all-faculty/yongjoo",
+      "rosterMemberships": [
+        {
+          "unitName": "Siebel School of Computing and Data Science",
+          "unitUrl": "https://siebelschool.illinois.edu/about/people/all-faculty",
+          "evidenceUrl": "https://siebelschool.illinois.edu/about/people/all-faculty/yongjoo"
+        }
+      ],
+      "portraitUrl": "https://ws.engr.illinois.edu/directory/viewphoto.aspx?id=99469&s=400&type=portrait",
+      "blockers": [],
+      "evidenceRows": [
+        {
+          "unitUrl": "https://siebelschool.illinois.edu/about/people/all-faculty",
+          "officialId": "id99469",
+          "title": "Assistant Professor",
+          "profileUrl": "https://siebelschool.illinois.edu/about/people/all-faculty/yongjoo",
+          "portraitUrl": "https://ws.engr.illinois.edu/directory/viewphoto.aspx?id=99469&s=400&type=portrait",
+          "decision": "include_new_pi",
+          "evidence": "Assistant Professor; item | person | cat15 | cs; https://siebelschool.illinois.edu/about/people/all-faculty/yongjoo",
+          "profileExcerpt": "Data and Information Systems Systems and Networking Selected Articles in Journals Ipoom Jeong, Jiaqi Lou, Yongseok Son, Yongjoo Park, Yifan Yuan, and Nam Sung Kim. \"LADIO: Leakage-Aware Direct I/O for I/O-IntensiveWorkloads.\" CAL'23: IEEE Computer Architecture Letters, 2023. (short) (Average Acceptance Rate: 20%) Articles in Conference Proceedings Shengya Huang, Zhaoheng Li, Derek Werner, and Yongjoo Park. &ldquo;MojoFrame: Dataframe Library in Mojo Language.&rdquo; ICDE&rsquo;26: IEEE 40th International Conference on Data Engineering, 2026, accepted for publication . (Acceptance Rate: N/A) Raunak Shah, Zhaoheng Li, and Yongjoo Park. &ldquo;QStore: Quantization-Aware Compressed Model Storage.&rdquo; Proceedings of the VLDB Endowment, vol. 19, no. 3, pp. 388-398, 2025. (Acceptance Rate: Not Available) Mingyuan Wu, Jize Jiang, Haozhen Zheng, Meitang Li, Zhaoheng Li , Beitong Tian, Bo Chen,"
+        }
+      ],
+      "attemptedUrls": [
+        "https://siebelschool.illinois.edu/about/people/all-faculty/yongjoo"
+      ],
+      "failureType": null,
+      "reviewedAt": "2026-09-03"
+    },
+    {
+      "canonicalKey": "United States:University of Illinois Urbana-Champaign:yunzongxu",
+      "rosterName": "Yunzong Xu",
+      "originalCandidateName": "Yunzong Xu",
+      "region": "United States",
+      "institution": "University of Illinois Urbana-Champaign",
+      "institutionRank": 2,
+      "score": 112,
+      "disposition": "ready",
+      "reason": "本批正式数据模块已达到双来源、3–5 条带来源事实、512×512 头像和网络证据门槛。",
+      "atlasPersonId": null,
+      "duplicateOfCandidate": null,
+      "officialEvidenceUrl": "https://siebelschool.illinois.edu/about/people/all-faculty/xyz",
+      "rosterMemberships": [
+        {
+          "unitName": "Siebel School of Computing and Data Science",
+          "unitUrl": "https://siebelschool.illinois.edu/about/people/all-faculty",
+          "evidenceUrl": "https://siebelschool.illinois.edu/about/people/all-faculty/xyz"
+        }
+      ],
+      "portraitUrl": "https://ws.engr.illinois.edu/directory/viewphoto.aspx?id=150904&s=400&type=portrait",
+      "blockers": [],
+      "evidenceRows": [
+        {
+          "unitUrl": "https://siebelschool.illinois.edu/about/people/all-faculty",
+          "officialId": "id150904",
+          "title": "Assistant Professor, Industrial and Enterprise Systems Engineering",
+          "profileUrl": "https://siebelschool.illinois.edu/about/people/all-faculty/xyz",
+          "portraitUrl": "https://ws.engr.illinois.edu/directory/viewphoto.aspx?id=150904&s=400&type=portrait",
+          "decision": "include_new_pi",
+          "evidence": "Assistant Professor, Industrial and Enterprise Systems Engineering; item | person | cat5 | cs; https://siebelschool.illinois.edu/about/people/all-faculty/xyz",
+          "profileExcerpt": "Artificial Intelligence Theory and Algorithms"
+        }
+      ],
+      "attemptedUrls": [
+        "https://siebelschool.illinois.edu/about/people/all-faculty/xyz"
+      ],
+      "failureType": null,
+      "reviewedAt": "2026-09-03"
+    },
+    {
+      "canonicalKey": "United States:University of Illinois Urbana-Champaign:yupengzhang",
+      "rosterName": "Yupeng Zhang",
+      "originalCandidateName": "Yupeng Zhang",
+      "region": "United States",
+      "institution": "University of Illinois Urbana-Champaign",
+      "institutionRank": 2,
+      "score": 112,
+      "disposition": "exclude_out_of_scope",
+      "reason": "官方个人页的研究主线属于硬件、通信、系统、密码、编程语言、纯理论或其他非 AI 主线；不纳入当前 AI/NLP/CV/ML/机器人图谱。",
+      "atlasPersonId": null,
+      "duplicateOfCandidate": null,
+      "officialEvidenceUrl": "https://siebelschool.illinois.edu/about/people/all-faculty/zhangyp",
+      "rosterMemberships": [
+        {
+          "unitName": "Siebel School of Computing and Data Science",
+          "unitUrl": "https://siebelschool.illinois.edu/about/people/all-faculty",
+          "evidenceUrl": "https://siebelschool.illinois.edu/about/people/all-faculty/zhangyp"
+        }
+      ],
+      "portraitUrl": "https://ws.engr.illinois.edu/directory/viewphoto.aspx?id=141889&s=400&type=portrait",
+      "blockers": [],
+      "evidenceRows": [
+        {
+          "unitUrl": "https://siebelschool.illinois.edu/about/people/all-faculty",
+          "officialId": "id141889",
+          "title": "Assistant Professor, Electrical & Computer Engineering",
+          "profileUrl": "https://siebelschool.illinois.edu/about/people/all-faculty/zhangyp",
+          "portraitUrl": "https://ws.engr.illinois.edu/directory/viewphoto.aspx?id=141889&s=400&type=portrait",
+          "decision": "include_new_pi",
+          "evidence": "Assistant Professor, Electrical & Computer Engineering; item | person | cat5 | cs; https://siebelschool.illinois.edu/about/people/all-faculty/zhangyp",
+          "profileExcerpt": "Yupeng Zhang's research is in the area of cybersecurity and applied cryptography. Specifically, he focuses on zero-knowledge proofs, secure multiparty computations and their applications in blockchain and machine learning to enhance privacy, integrity and scalability."
+        }
+      ],
+      "attemptedUrls": [
+        "https://siebelschool.illinois.edu/about/people/all-faculty/zhangyp"
+      ],
+      "failureType": null,
+      "reviewedAt": "2026-09-03"
+    },
+    {
+      "canonicalKey": "United States:University of Illinois Urbana-Champaign:yuriivlasov",
+      "rosterName": "Yurii Vlasov",
+      "originalCandidateName": "Yurii Vlasov",
+      "region": "United States",
+      "institution": "University of Illinois Urbana-Champaign",
+      "institutionRank": 2,
+      "score": 112,
+      "disposition": "exclude_out_of_scope",
+      "reason": "官方个人页的研究主线属于硬件、通信、系统、密码、编程语言、纯理论或其他非 AI 主线；不纳入当前 AI/NLP/CV/ML/机器人图谱。",
+      "atlasPersonId": null,
+      "duplicateOfCandidate": null,
+      "officialEvidenceUrl": "https://siebelschool.illinois.edu/about/people/all-faculty/yvlasov",
+      "rosterMemberships": [
+        {
+          "unitName": "Siebel School of Computing and Data Science",
+          "unitUrl": "https://siebelschool.illinois.edu/about/people/all-faculty",
+          "evidenceUrl": "https://siebelschool.illinois.edu/about/people/all-faculty/yvlasov"
+        }
+      ],
+      "portraitUrl": "https://ws.engr.illinois.edu/directory/viewphoto.aspx?id=146560&s=400&type=portrait",
+      "blockers": [],
+      "evidenceRows": [
+        {
+          "unitUrl": "https://siebelschool.illinois.edu/about/people/all-faculty",
+          "officialId": "id146560",
+          "title": "Professor, Electrical and Computer Engineering",
+          "profileUrl": "https://siebelschool.illinois.edu/about/people/all-faculty/yvlasov",
+          "portraitUrl": "https://ws.engr.illinois.edu/directory/viewphoto.aspx?id=146560&s=400&type=portrait",
+          "decision": "include_new_pi",
+          "evidence": "Professor, Electrical and Computer Engineering; item | person | cat5 | cs; https://siebelschool.illinois.edu/about/people/all-faculty/yvlasov",
+          "profileExcerpt": "Bioinformatics and Computational Biology Selected Articles in Journals Total number of publications &gt;300 including journal papers, refereed proceedings and book chapters Cumulative citation index Scholar: 26000, h-factor:67 Local chemical compartments in a mammalian cortex measured in-vivo with silicon nanodialysis mass spectrometry platform, Weihua Shi, Keyin Li, Yu Ding, Alex G. Armstrong, Jonathan Sweedler, ChemRxiv, 2025 Neuropeptides in the Extracellular Space of the Mouse Cortex Measured In Vivo by Nanodialysis Probe Coupled with LC&#226;&#8364;&#144;MS, K Li, W Shi, Y Tan, Y Ding, AG Armstrong, Y Vlasov, JV Sweedler, Angewandte Chemie International Edition, e202509490, 2025 Neural correlates of perceptual decision making in primary somatosensory cortex, A Armstrong, Y Vlasov, bioRxiv, 2025.03. 29.646003 1 2025 Perceptual decision-making during whisker-guided navigation causally"
+        }
+      ],
+      "attemptedUrls": [
+        "https://siebelschool.illinois.edu/about/people/all-faculty/yvlasov"
+      ],
+      "failureType": null,
+      "reviewedAt": "2026-09-03"
+    },
+    {
+      "canonicalKey": "United States:University of Illinois Urbana-Champaign:zhiyonglu",
+      "rosterName": "Zhiyong Lu",
+      "originalCandidateName": "Zhiyong Lu",
+      "region": "United States",
+      "institution": "University of Illinois Urbana-Champaign",
+      "institutionRank": 2,
+      "score": 112,
+      "disposition": "exclude_non_pi",
+      "reason": "官方名录显示其为外部机构教授/附属条目，而非该冻结单位内可独立招生的现任 PI。",
+      "atlasPersonId": null,
+      "duplicateOfCandidate": null,
+      "officialEvidenceUrl": "https://siebelschool.illinois.edu/about/people/all-faculty/luzh",
+      "rosterMemberships": [
+        {
+          "unitName": "Siebel School of Computing and Data Science",
+          "unitUrl": "https://siebelschool.illinois.edu/about/people/all-faculty",
+          "evidenceUrl": "https://siebelschool.illinois.edu/about/people/all-faculty/luzh"
+        }
+      ],
+      "portraitUrl": "https://ws.engr.illinois.edu/directory/viewphoto.aspx?id=143107&s=400&type=portrait",
+      "blockers": [],
+      "evidenceRows": [
+        {
+          "unitUrl": "https://siebelschool.illinois.edu/about/people/all-faculty",
+          "officialId": "id143107",
+          "title": "Professor, National Institutes of Health",
+          "profileUrl": "https://siebelschool.illinois.edu/about/people/all-faculty/luzh",
+          "portraitUrl": "https://ws.engr.illinois.edu/directory/viewphoto.aspx?id=143107&s=400&type=portrait",
+          "decision": "include_new_pi",
+          "evidence": "Professor, National Institutes of Health; item | person | cat3 | cs; https://siebelschool.illinois.edu/about/people/all-faculty/luzh",
+          "profileExcerpt": "Home About People All Faculty Zhiyong Lu Zhiyong Lu he/him/his Professor, National Institutes of Health luzh@illinois.edu Related News News Notes Siebel School of Computing and Data Science Twitter Instagram Facebook LinkedIn YouTube Thomas M. Siebel Center for Computer Science 201 N. Goodwin Avenue, MC-258 Urbana , IL 61801 Phone: 217-333-3426 Fax: Email: admin@siebelschool.illinois.edu The Grainger College of Engineering Get In Touch Make a Gift Explore Calendars Find People Careers Office Locations Maps & Facilities Strategic Plan Plan a Visit Connect Undergraduate Advising undergrad@siebelschool.illinois.edu 217-333-4428 Graduate Advising grad@siebelschool.illinois.edu 217-333-4428 iCAN ican@siebelschool.illinois.edu MCS Chicago chicago-mcs@siebelschool.illinois.edu MCS Online online-mcs@siebelschool.illinois.edu Urbana Programs grad@siebelschool.illinois.edu Graduate Admissions grad"
+        }
+      ],
+      "attemptedUrls": [
+        "https://siebelschool.illinois.edu/about/people/all-faculty/luzh"
+      ],
+      "failureType": null,
+      "reviewedAt": "2026-09-03"
+    },
+    {
+      "canonicalKey": "United States:Stanford University:abbaselgamal",
+      "rosterName": "Abbas El Gamal",
+      "originalCandidateName": "Abbas El Gamal",
+      "region": "United States",
+      "institution": "Stanford University",
+      "institutionRank": 3,
+      "score": 109,
+      "disposition": "exclude_out_of_scope",
+      "reason": "官方个人页的研究主线属于硬件、通信、系统、密码、编程语言、纯理论或其他非 AI 主线；不纳入当前 AI/NLP/CV/ML/机器人图谱。",
+      "atlasPersonId": null,
+      "duplicateOfCandidate": null,
+      "officialEvidenceUrl": "http://isl.stanford.edu/~abbas/",
+      "rosterMemberships": [
+        {
+          "unitName": "Electrical Engineering",
+          "unitUrl": "https://ee.stanford.edu/people/faculty",
+          "evidenceUrl": "http://isl.stanford.edu/~abbas/"
+        }
+      ],
+      "portraitUrl": "https://profiles.stanford.edu/proxy/api/cap/profiles/9399/resources/profilephoto/350x522.1787872051.jpg",
+      "blockers": [],
+      "evidenceRows": [
+        {
+          "unitUrl": "https://ee.stanford.edu/people/faculty",
+          "officialId": "http://isl.stanford.edu/~abbas/",
+          "title": "Professor",
+          "profileUrl": "http://isl.stanford.edu/~abbas/",
+          "portraitUrl": "https://profiles.stanford.edu/proxy/api/cap/profiles/9399/resources/profilephoto/350x522.1787872051.jpg",
+          "decision": "include_new_pi",
+          "evidence": "Professor; Information and coding theory, communications, signal processing | AI, machine learning, optimization | Energy, environment, and sustainability",
+          "profileExcerpt": null
+        }
+      ],
+      "attemptedUrls": [
+        "http://isl.stanford.edu/~abbas/"
+      ],
+      "failureType": null,
+      "reviewedAt": "2026-09-03"
+    },
+    {
+      "canonicalKey": "United States:Stanford University:adapoon",
+      "rosterName": "Ada Poon",
+      "originalCandidateName": "Ada Poon",
+      "region": "United States",
+      "institution": "Stanford University",
+      "institutionRank": 3,
+      "score": 109,
+      "disposition": "exclude_out_of_scope",
+      "reason": "官方个人页的研究主线属于硬件、通信、系统、密码、编程语言、纯理论或其他非 AI 主线；不纳入当前 AI/NLP/CV/ML/机器人图谱。",
+      "atlasPersonId": null,
+      "duplicateOfCandidate": null,
+      "officialEvidenceUrl": "http://biosystems.stanford.edu/",
+      "rosterMemberships": [
+        {
+          "unitName": "Electrical Engineering",
+          "unitUrl": "https://ee.stanford.edu/people/faculty",
+          "evidenceUrl": "http://biosystems.stanford.edu/"
+        }
+      ],
+      "portraitUrl": "https://profiles.stanford.edu/proxy/api/cap/profiles/43167/resources/profilephoto/350x522.1787872051.jpg",
+      "blockers": [],
+      "evidenceRows": [
+        {
+          "unitUrl": "https://ee.stanford.edu/people/faculty",
+          "officialId": "http://biosystems.stanford.edu/",
+          "title": "Associate Professor",
+          "profileUrl": "http://biosystems.stanford.edu/",
+          "portraitUrl": "https://profiles.stanford.edu/proxy/api/cap/profiles/43167/resources/profilephoto/350x522.1787872051.jpg",
+          "decision": "include_new_pi",
+          "evidence": "Associate Professor; Biomed devices, sensors, and systems | Information and coding theory, communications, signal processing | Integrated Circuits and Systems",
+          "profileExcerpt": null
+        }
+      ],
+      "attemptedUrls": [
+        "http://biosystems.stanford.edu/"
+      ],
+      "failureType": null,
+      "reviewedAt": "2026-09-03"
+    },
+    {
+      "canonicalKey": "United States:Stanford University:adambouland",
+      "rosterName": "Adam Bouland",
+      "originalCandidateName": "Adam Bouland",
+      "region": "United States",
+      "institution": "Stanford University",
+      "institutionRank": 3,
+      "score": 109,
+      "disposition": "exclude_out_of_scope",
+      "reason": "官方个人页的研究主线属于硬件、通信、系统、密码、编程语言、纯理论或其他非 AI 主线；不纳入当前 AI/NLP/CV/ML/机器人图谱。",
+      "atlasPersonId": null,
+      "duplicateOfCandidate": null,
+      "officialEvidenceUrl": "https://www.cs.stanford.edu/people/adam-bouland",
+      "rosterMemberships": [
+        {
+          "unitName": "Computer Science",
+          "unitUrl": "https://www.cs.stanford.edu/people/faculty",
+          "evidenceUrl": "https://www.cs.stanford.edu/people/adam-bouland"
+        }
+      ],
+      "portraitUrl": "https://www.cs.stanford.edu/sites/g/files/sbiybj28076/files/styles/square_1900/public/media/person/adam-bouland1606332229851.jpg?h=6adc02a8&itok=Zsm4tmPj",
+      "blockers": [],
+      "evidenceRows": [
+        {
+          "unitUrl": "https://www.cs.stanford.edu/people/faculty",
+          "officialId": "666",
+          "title": "Assistant Professor of Computer Science",
+          "profileUrl": "https://www.cs.stanford.edu/people/adam-bouland",
+          "portraitUrl": "https://www.cs.stanford.edu/sites/g/files/sbiybj28076/files/styles/square_1900/public/media/person/adam-bouland1606332229851.jpg?h=6adc02a8&itok=Zsm4tmPj",
+          "decision": "pending_profile_verification",
+          "evidence": "Assistant Professor of Computer Science; https://www.cs.stanford.edu/people/adam-bouland",
+          "profileExcerpt": null
+        }
+      ],
+      "attemptedUrls": [
+        "https://www.cs.stanford.edu/people/adam-bouland"
+      ],
+      "failureType": null,
+      "reviewedAt": "2026-09-03"
+    },
+    {
+      "canonicalKey": "United States:Stanford University:aminarbabian",
+      "rosterName": "Amin Arbabian",
+      "originalCandidateName": "Amin Arbabian",
+      "region": "United States",
+      "institution": "Stanford University",
+      "institutionRank": 3,
+      "score": 109,
+      "disposition": "exclude_out_of_scope",
+      "reason": "官方个人页的研究主线属于硬件、通信、系统、密码、编程语言、纯理论或其他非 AI 主线；不纳入当前 AI/NLP/CV/ML/机器人图谱。",
+      "atlasPersonId": null,
+      "duplicateOfCandidate": null,
+      "officialEvidenceUrl": "https://arbabianlab.stanford.edu/",
+      "rosterMemberships": [
+        {
+          "unitName": "Electrical Engineering",
+          "unitUrl": "https://ee.stanford.edu/people/faculty",
+          "evidenceUrl": "https://arbabianlab.stanford.edu/"
+        }
+      ],
+      "portraitUrl": "https://profiles.stanford.edu/proxy/api/cap/profiles/42510/resources/profilephoto/350x522.1787872051.jpg",
+      "blockers": [],
+      "evidenceRows": [
+        {
+          "unitUrl": "https://ee.stanford.edu/people/faculty",
+          "officialId": "https://arbabianlab.stanford.edu/",
+          "title": "Professor",
+          "profileUrl": "https://arbabianlab.stanford.edu/",
+          "portraitUrl": "https://profiles.stanford.edu/proxy/api/cap/profiles/42510/resources/profilephoto/350x522.1787872051.jpg",
+          "decision": "include_new_pi",
+          "evidence": "Professor; Biomed devices, sensors, and systems | Integrated Circuits and Systems | Computational Sensing, Imaging, and Display",
+          "profileExcerpt": null
+        }
+      ],
+      "attemptedUrls": [
+        "https://arbabianlab.stanford.edu/"
+      ],
+      "failureType": null,
+      "reviewedAt": "2026-09-03"
+    },
+    {
+      "canonicalKey": "United States:Stanford University:ayferozgur",
+      "rosterName": "Ayfer Ozgur",
+      "originalCandidateName": "Ayfer Ozgur",
+      "region": "United States",
+      "institution": "Stanford University",
+      "institutionRank": 3,
+      "score": 109,
+      "disposition": "exclude_out_of_scope",
+      "reason": "官方个人页的研究主线属于硬件、通信、系统、密码、编程语言、纯理论或其他非 AI 主线；不纳入当前 AI/NLP/CV/ML/机器人图谱。",
+      "atlasPersonId": null,
+      "duplicateOfCandidate": null,
+      "officialEvidenceUrl": "http://web.stanford.edu/~aozgur/",
+      "rosterMemberships": [
+        {
+          "unitName": "Electrical Engineering",
+          "unitUrl": "https://ee.stanford.edu/people/faculty",
+          "evidenceUrl": "http://web.stanford.edu/~aozgur/"
+        }
+      ],
+      "portraitUrl": "https://profiles.stanford.edu/proxy/api/cap/profiles/46887/resources/profilephoto/350x522.1787872051.jpg",
+      "blockers": [],
+      "evidenceRows": [
+        {
+          "unitUrl": "https://ee.stanford.edu/people/faculty",
+          "officialId": "http://web.stanford.edu/~aozgur/",
+          "title": "Professor",
+          "profileUrl": "http://web.stanford.edu/~aozgur/",
+          "portraitUrl": "https://profiles.stanford.edu/proxy/api/cap/profiles/46887/resources/profilephoto/350x522.1787872051.jpg",
+          "decision": "include_new_pi",
+          "evidence": "Professor; Information and coding theory, communications, signal processing | Signal processing and control | AI, machine learning, optimization",
+          "profileExcerpt": null
+        }
+      ],
+      "attemptedUrls": [
+        "http://web.stanford.edu/~aozgur/"
+      ],
+      "failureType": null,
+      "reviewedAt": "2026-09-03"
+    },
+    {
+      "canonicalKey": "United States:Stanford University:bradosgood",
+      "rosterName": "Brad Osgood",
+      "originalCandidateName": "Brad Osgood",
+      "region": "United States",
+      "institution": "Stanford University",
+      "institutionRank": 3,
+      "score": 109,
+      "disposition": "exclude_out_of_scope",
+      "reason": "官方个人页的研究主线属于硬件、通信、系统、密码、编程语言、纯理论或其他非 AI 主线；不纳入当前 AI/NLP/CV/ML/机器人图谱。",
+      "atlasPersonId": null,
+      "duplicateOfCandidate": null,
+      "officialEvidenceUrl": "http://ee.stanford.edu/~osgood/",
+      "rosterMemberships": [
+        {
+          "unitName": "Electrical Engineering",
+          "unitUrl": "https://ee.stanford.edu/people/faculty",
+          "evidenceUrl": "http://ee.stanford.edu/~osgood/"
+        }
+      ],
+      "portraitUrl": "https://profiles.stanford.edu/proxy/api/cap/profiles/18954/resources/profilephoto/350x522.1787872051.jpg",
+      "blockers": [],
+      "evidenceRows": [
+        {
+          "unitUrl": "https://ee.stanford.edu/people/faculty",
+          "officialId": "http://ee.stanford.edu/~osgood/",
+          "title": "Professor",
+          "profileUrl": "http://ee.stanford.edu/~osgood/",
+          "portraitUrl": "https://profiles.stanford.edu/proxy/api/cap/profiles/18954/resources/profilephoto/350x522.1787872051.jpg",
+          "decision": "include_new_pi",
+          "evidence": "Professor; Information and coding theory, communications, signal processing | Signal processing and control | AI, machine learning, optimization",
+          "profileExcerpt": null
+        }
+      ],
+      "attemptedUrls": [
+        "http://ee.stanford.edu/~osgood/"
+      ],
+      "failureType": null,
+      "reviewedAt": "2026-09-03"
+    },
+    {
+      "canonicalKey": "United States:Stanford University:carolinetrippel",
+      "rosterName": "Caroline Trippel",
+      "originalCandidateName": "Caroline Trippel",
+      "region": "United States",
+      "institution": "Stanford University",
+      "institutionRank": 3,
+      "score": 109,
+      "disposition": "exclude_out_of_scope",
+      "reason": "官方个人页的研究主线属于硬件、通信、系统、密码、编程语言、纯理论或其他非 AI 主线；不纳入当前 AI/NLP/CV/ML/机器人图谱。",
+      "atlasPersonId": null,
+      "duplicateOfCandidate": null,
+      "officialEvidenceUrl": "https://www.cs.stanford.edu/people/caroline-trippel",
+      "rosterMemberships": [
+        {
+          "unitName": "Computer Science",
+          "unitUrl": "https://www.cs.stanford.edu/people/faculty",
+          "evidenceUrl": "https://www.cs.stanford.edu/people/caroline-trippel"
+        }
+      ],
+      "portraitUrl": "https://www.cs.stanford.edu/sites/g/files/sbiybj28076/files/styles/square_1900/public/media/person/caroline-trippel1571797389329.jpg?h=5020866a&itok=wzqAazGx",
+      "blockers": [],
+      "evidenceRows": [
+        {
+          "unitUrl": "https://www.cs.stanford.edu/people/faculty",
+          "officialId": "951",
+          "title": "Assistant Professor of Computer Science and of Electrical Engineering",
+          "profileUrl": "https://www.cs.stanford.edu/people/caroline-trippel",
+          "portraitUrl": "https://www.cs.stanford.edu/sites/g/files/sbiybj28076/files/styles/square_1900/public/media/person/caroline-trippel1571797389329.jpg?h=5020866a&itok=wzqAazGx",
+          "decision": "pending_profile_verification",
+          "evidence": "Assistant Professor of Computer Science and of Electrical Engineering; https://www.cs.stanford.edu/people/caroline-trippel",
+          "profileExcerpt": null
+        },
+        {
+          "unitUrl": "https://ee.stanford.edu/people/faculty",
+          "officialId": "https://cs.stanford.edu/people/trippel/",
+          "title": "Assistant Professor",
+          "profileUrl": "https://cs.stanford.edu/people/trippel/",
+          "portraitUrl": "https://profiles.stanford.edu/proxy/api/cap/profiles/227427/resources/profilephoto/350x522.1787872051.jpg",
+          "decision": "excluded_duplicate",
+          "evidence": "Assistant Professor; Computer architecture, security, hardware/software systems | Software systems, security, distributed systems and networks",
+          "profileExcerpt": null
+        }
+      ],
+      "attemptedUrls": [
+        "https://www.cs.stanford.edu/people/caroline-trippel",
+        "https://cs.stanford.edu/people/trippel/"
+      ],
+      "failureType": null,
+      "reviewedAt": "2026-09-03"
+    },
+    {
+      "canonicalKey": "United States:Stanford University:christoforoskozyrakis",
+      "rosterName": "Christoforos Kozyrakis",
+      "originalCandidateName": "Christoforos Kozyrakis",
+      "region": "United States",
+      "institution": "Stanford University",
+      "institutionRank": 3,
+      "score": 109,
+      "disposition": "duplicate",
+      "reason": "同一人的跨名录姓名变体；保留 Christos Kozyrakis 作为后续资料包的规范姓名。",
+      "atlasPersonId": null,
+      "duplicateOfCandidate": "Christos Kozyrakis",
+      "officialEvidenceUrl": "https://www.cs.stanford.edu/people/christos-kozyrakis",
+      "rosterMemberships": [
+        {
+          "unitName": "Computer Science",
+          "unitUrl": "https://www.cs.stanford.edu/people/faculty",
+          "evidenceUrl": "https://www.cs.stanford.edu/people/christos-kozyrakis"
+        }
+      ],
+      "portraitUrl": "https://www.cs.stanford.edu/sites/g/files/sbiybj28076/files/styles/square_1900/public/media/person/christoforos-kozyrakis1509513806188.jpg?h=3949ef3f&itok=S6f1MWcD",
+      "blockers": [],
+      "evidenceRows": [
+        {
+          "unitUrl": "https://www.cs.stanford.edu/people/faculty",
+          "officialId": "796",
+          "title": "Leonard Bosack and Sandy K. Lerner Professor of Engineering and Professor of Computer Science",
+          "profileUrl": "https://www.cs.stanford.edu/people/christos-kozyrakis",
+          "portraitUrl": "https://www.cs.stanford.edu/sites/g/files/sbiybj28076/files/styles/square_1900/public/media/person/christoforos-kozyrakis1509513806188.jpg?h=3949ef3f&itok=S6f1MWcD",
+          "decision": "pending_profile_verification",
+          "evidence": "Leonard Bosack and Sandy K. Lerner Professor of Engineering and Professor of Computer Science; https://www.cs.stanford.edu/people/christos-kozyrakis",
+          "profileExcerpt": null
+        }
+      ],
+      "attemptedUrls": [
+        "https://www.cs.stanford.edu/people/christos-kozyrakis"
+      ],
+      "failureType": null,
+      "reviewedAt": "2026-09-03"
+    },
+    {
+      "canonicalKey": "United States:Stanford University:christoskozyrakis",
+      "rosterName": "Christos Kozyrakis",
+      "originalCandidateName": "Christos Kozyrakis",
+      "region": "United States",
+      "institution": "Stanford University",
+      "institutionRank": 3,
+      "score": 109,
+      "disposition": "exclude_out_of_scope",
+      "reason": "官方个人页的研究主线属于硬件、通信、系统、密码、编程语言、纯理论或其他非 AI 主线；不纳入当前 AI/NLP/CV/ML/机器人图谱。",
+      "atlasPersonId": null,
+      "duplicateOfCandidate": null,
+      "officialEvidenceUrl": "http://csl.stanford.edu/~christos/",
+      "rosterMemberships": [
+        {
+          "unitName": "Electrical Engineering",
+          "unitUrl": "https://ee.stanford.edu/people/faculty",
+          "evidenceUrl": "http://csl.stanford.edu/~christos/"
+        }
+      ],
+      "portraitUrl": "https://profiles.stanford.edu/proxy/api/cap/profiles/40814/resources/profilephoto/350x522.1787872051.jpg",
+      "blockers": [],
+      "evidenceRows": [
+        {
+          "unitUrl": "https://ee.stanford.edu/people/faculty",
+          "officialId": "http://csl.stanford.edu/~christos/",
+          "title": "Professor",
+          "profileUrl": "http://csl.stanford.edu/~christos/",
+          "portraitUrl": "https://profiles.stanford.edu/proxy/api/cap/profiles/40814/resources/profilephoto/350x522.1787872051.jpg",
+          "decision": "include_new_pi",
+          "evidence": "Professor; Computer architecture, security, hardware/software systems | Software systems, security, distributed systems and networks",
+          "profileExcerpt": null
+        }
+      ],
+      "attemptedUrls": [
+        "http://csl.stanford.edu/~christos/"
+      ],
+      "failureType": null,
+      "reviewedAt": "2026-09-03"
+    },
+    {
+      "canonicalKey": "United States:Stanford University:clarkbarrett",
+      "rosterName": "Clark Barrett",
+      "originalCandidateName": "Clark Barrett",
+      "region": "United States",
+      "institution": "Stanford University",
+      "institutionRank": 3,
+      "score": 109,
+      "disposition": "exclude_out_of_scope",
+      "reason": "官方个人页的研究主线属于硬件、通信、系统、密码、编程语言、纯理论或其他非 AI 主线；不纳入当前 AI/NLP/CV/ML/机器人图谱。",
+      "atlasPersonId": null,
+      "duplicateOfCandidate": null,
+      "officialEvidenceUrl": "https://www.cs.stanford.edu/people/clark-barrett",
+      "rosterMemberships": [
+        {
+          "unitName": "Computer Science",
+          "unitUrl": "https://www.cs.stanford.edu/people/faculty",
+          "evidenceUrl": "https://www.cs.stanford.edu/people/clark-barrett"
+        }
+      ],
+      "portraitUrl": "https://www.cs.stanford.edu/sites/g/files/sbiybj28076/files/styles/square_1900/public/media/person/clark-barrett1627234161383.jpg?h=4d181347&itok=P6TlO9jm",
+      "blockers": [],
+      "evidenceRows": [
+        {
+          "unitUrl": "https://www.cs.stanford.edu/people/faculty",
+          "officialId": "636",
+          "title": "Corbel Professor",
+          "profileUrl": "https://www.cs.stanford.edu/people/clark-barrett",
+          "portraitUrl": "https://www.cs.stanford.edu/sites/g/files/sbiybj28076/files/styles/square_1900/public/media/person/clark-barrett1627234161383.jpg?h=4d181347&itok=P6TlO9jm",
+          "decision": "include_new_pi",
+          "evidence": "Corbel Professor; SAIL current roster",
+          "profileExcerpt": null
+        },
+        {
+          "unitUrl": "https://ai.stanford.edu/faculty/",
+          "officialId": "affiliated-3",
+          "title": null,
+          "profileUrl": "https://theory.stanford.edu/~barrett/",
+          "portraitUrl": "https://ai.stanford.edu/wp-content/uploads/2022/10/Clark_Barrett_Stanford_small-1.jpg",
+          "decision": "excluded_duplicate",
+          "evidence": "Affiliated Faculty; Automated reasoning; satisfiability modulo theories (SMT); formal methods; formal verification; verification of smart contracts; verification of neural networks; AI safety; hardware design productivity and verification.",
+          "profileExcerpt": null
+        }
+      ],
+      "attemptedUrls": [
+        "https://www.cs.stanford.edu/people/clark-barrett",
+        "https://theory.stanford.edu/~barrett/"
+      ],
+      "failureType": null,
+      "reviewedAt": "2026-09-03"
+    },
+    {
+      "canonicalKey": "United States:Stanford University:danboneh",
+      "rosterName": "Dan Boneh",
+      "originalCandidateName": "Dan Boneh",
+      "region": "United States",
+      "institution": "Stanford University",
+      "institutionRank": 3,
+      "score": 109,
+      "disposition": "exclude_out_of_scope",
+      "reason": "官方个人页的研究主线属于硬件、通信、系统、密码、编程语言、纯理论或其他非 AI 主线；不纳入当前 AI/NLP/CV/ML/机器人图谱。",
+      "atlasPersonId": null,
+      "duplicateOfCandidate": null,
+      "officialEvidenceUrl": "https://www.cs.stanford.edu/people/dan-boneh",
+      "rosterMemberships": [
+        {
+          "unitName": "Computer Science",
+          "unitUrl": "https://www.cs.stanford.edu/people/faculty",
+          "evidenceUrl": "https://www.cs.stanford.edu/people/dan-boneh"
+        }
+      ],
+      "portraitUrl": "https://www.cs.stanford.edu/sites/g/files/sbiybj28076/files/styles/square_1900/public/media/person/dan-boneh1509499405882.jpg?h=b722e461&itok=QH5XHaW3",
+      "blockers": [],
+      "evidenceRows": [
+        {
+          "unitUrl": "https://www.cs.stanford.edu/people/faculty",
+          "officialId": "656",
+          "title": "Cryptography Professor and Professor of Electrical Engineering",
+          "profileUrl": "https://www.cs.stanford.edu/people/dan-boneh",
+          "portraitUrl": "https://www.cs.stanford.edu/sites/g/files/sbiybj28076/files/styles/square_1900/public/media/person/dan-boneh1509499405882.jpg?h=b722e461&itok=QH5XHaW3",
+          "decision": "pending_profile_verification",
+          "evidence": "Cryptography Professor and Professor of Electrical Engineering; https://www.cs.stanford.edu/people/dan-boneh",
+          "profileExcerpt": null
+        },
+        {
+          "unitUrl": "https://ee.stanford.edu/people/faculty",
+          "officialId": "http://crypto.stanford.edu/~dabo/",
+          "title": "Professor",
+          "profileUrl": "http://crypto.stanford.edu/~dabo/",
+          "portraitUrl": "https://profiles.stanford.edu/proxy/api/cap/profiles/10304/resources/profilephoto/350x522.1787872051.jpg",
+          "decision": "excluded_duplicate",
+          "evidence": "Professor; Information and coding theory, communications, signal processing | Computer architecture, security, hardware/software systems | Software systems, security, distributed systems and networks",
+          "profileExcerpt": null
+        }
+      ],
+      "attemptedUrls": [
+        "https://www.cs.stanford.edu/people/dan-boneh",
+        "http://crypto.stanford.edu/~dabo/"
+      ],
+      "failureType": null,
+      "reviewedAt": "2026-09-03"
+    },
+    {
+      "canonicalKey": "United States:Stanford University:davidmazieres",
+      "rosterName": "David Mazieres",
+      "originalCandidateName": "David Mazieres",
+      "region": "United States",
+      "institution": "Stanford University",
+      "institutionRank": 3,
+      "score": 109,
+      "disposition": "exclude_out_of_scope",
+      "reason": "官方个人页的研究主线属于硬件、通信、系统、密码、编程语言、纯理论或其他非 AI 主线；不纳入当前 AI/NLP/CV/ML/机器人图谱。",
+      "atlasPersonId": null,
+      "duplicateOfCandidate": null,
+      "officialEvidenceUrl": "https://www.cs.stanford.edu/people/david-mazieres",
+      "rosterMemberships": [
+        {
+          "unitName": "Computer Science",
+          "unitUrl": "https://www.cs.stanford.edu/people/faculty",
+          "evidenceUrl": "https://www.cs.stanford.edu/people/david-mazieres"
+        }
+      ],
+      "portraitUrl": "https://www.cs.stanford.edu/sites/g/files/sbiybj28076/files/styles/square_1900/public/media/person/david-mazieres1530135936875.jpg?h=8a8d5e57&itok=ZsvpqZsm",
+      "blockers": [],
+      "evidenceRows": [
+        {
+          "unitUrl": "https://www.cs.stanford.edu/people/faculty",
+          "officialId": "856",
+          "title": "Professor of Computer Science",
+          "profileUrl": "https://www.cs.stanford.edu/people/david-mazieres",
+          "portraitUrl": "https://www.cs.stanford.edu/sites/g/files/sbiybj28076/files/styles/square_1900/public/media/person/david-mazieres1530135936875.jpg?h=8a8d5e57&itok=ZsvpqZsm",
+          "decision": "pending_profile_verification",
+          "evidence": "Professor of Computer Science; https://www.cs.stanford.edu/people/david-mazieres",
+          "profileExcerpt": null
+        }
+      ],
+      "attemptedUrls": [
+        "https://www.cs.stanford.edu/people/david-mazieres"
+      ],
+      "failureType": null,
+      "reviewedAt": "2026-09-03"
+    },
+    {
+      "canonicalKey": "United States:Stanford University:davidtse",
+      "rosterName": "David Tse",
+      "originalCandidateName": "David Tse",
+      "region": "United States",
+      "institution": "Stanford University",
+      "institutionRank": 3,
+      "score": 109,
+      "disposition": "exclude_out_of_scope",
+      "reason": "官方个人页的研究主线属于硬件、通信、系统、密码、编程语言、纯理论或其他非 AI 主线；不纳入当前 AI/NLP/CV/ML/机器人图谱。",
+      "atlasPersonId": null,
+      "duplicateOfCandidate": null,
+      "officialEvidenceUrl": "https://tselab.stanford.edu/",
+      "rosterMemberships": [
+        {
+          "unitName": "Electrical Engineering",
+          "unitUrl": "https://ee.stanford.edu/people/faculty",
+          "evidenceUrl": "https://tselab.stanford.edu/"
+        }
+      ],
+      "portraitUrl": "https://profiles.stanford.edu/proxy/api/cap/profiles/52667/resources/profilephoto/350x522.1787872051.jpg",
+      "blockers": [],
+      "evidenceRows": [
+        {
+          "unitUrl": "https://ee.stanford.edu/people/faculty",
+          "officialId": "https://tselab.stanford.edu/",
+          "title": "Professor",
+          "profileUrl": "https://tselab.stanford.edu/",
+          "portraitUrl": "https://profiles.stanford.edu/proxy/api/cap/profiles/52667/resources/profilephoto/350x522.1787872051.jpg",
+          "decision": "include_new_pi",
+          "evidence": "Professor; Information and coding theory, communications, signal processing | Computer architecture, security, hardware/software systems | AI, machine learning, optimization | Software systems, security, distributed systems and networks",
+          "profileExcerpt": null
+        }
+      ],
+      "attemptedUrls": [
+        "https://tselab.stanford.edu/"
+      ],
+      "failureType": null,
+      "reviewedAt": "2026-09-03"
+    },
+    {
+      "canonicalKey": "United States:Stanford University:dawsonengler",
+      "rosterName": "Dawson Engler",
+      "originalCandidateName": "Dawson Engler",
+      "region": "United States",
+      "institution": "Stanford University",
+      "institutionRank": 3,
+      "score": 109,
+      "disposition": "exclude_out_of_scope",
+      "reason": "官方个人页的研究主线属于硬件、通信、系统、密码、编程语言、纯理论或其他非 AI 主线；不纳入当前 AI/NLP/CV/ML/机器人图谱。",
+      "atlasPersonId": null,
+      "duplicateOfCandidate": null,
+      "officialEvidenceUrl": "https://www.cs.stanford.edu/people/dawson-engler",
+      "rosterMemberships": [
+        {
+          "unitName": "Computer Science",
+          "unitUrl": "https://www.cs.stanford.edu/people/faculty",
+          "evidenceUrl": "https://www.cs.stanford.edu/people/dawson-engler"
+        }
+      ],
+      "portraitUrl": "https://www.cs.stanford.edu/sites/g/files/sbiybj28076/files/styles/square_1900/public/media/person/dawson-engler1509503157359.jpg?h=68593804&itok=wCbBfDoN",
+      "blockers": [],
+      "evidenceRows": [
+        {
+          "unitUrl": "https://www.cs.stanford.edu/people/faculty",
+          "officialId": "696",
+          "title": "Associate Professor of Computer Science and of Electrical Engineering",
+          "profileUrl": "https://www.cs.stanford.edu/people/dawson-engler",
+          "portraitUrl": "https://www.cs.stanford.edu/sites/g/files/sbiybj28076/files/styles/square_1900/public/media/person/dawson-engler1509503157359.jpg?h=68593804&itok=wCbBfDoN",
+          "decision": "pending_profile_verification",
+          "evidence": "Associate Professor of Computer Science and of Electrical Engineering; https://www.cs.stanford.edu/people/dawson-engler",
+          "profileExcerpt": null
+        },
+        {
+          "unitUrl": "https://ee.stanford.edu/people/faculty",
+          "officialId": "http://web.stanford.edu/~engler/",
+          "title": "Associate Professor",
+          "profileUrl": "http://web.stanford.edu/~engler/",
+          "portraitUrl": "https://profiles.stanford.edu/proxy/api/cap/profiles/41619/resources/profilephoto/350x522.1787872051.jpg",
+          "decision": "excluded_duplicate",
+          "evidence": "Associate Professor; ",
+          "profileExcerpt": null
+        }
+      ],
+      "attemptedUrls": [
+        "https://www.cs.stanford.edu/people/dawson-engler",
+        "http://web.stanford.edu/~engler/"
+      ],
+      "failureType": null,
+      "reviewedAt": "2026-09-03"
+    },
+    {
+      "canonicalKey": "United States:Stanford University:dustinschroeder",
+      "rosterName": "Dustin Schroeder",
+      "originalCandidateName": "Dustin Schroeder",
+      "region": "United States",
+      "institution": "Stanford University",
+      "institutionRank": 3,
+      "score": 109,
+      "disposition": "exclude_out_of_scope",
+      "reason": "官方个人页的研究主线属于硬件、通信、系统、密码、编程语言、纯理论或其他非 AI 主线；不纳入当前 AI/NLP/CV/ML/机器人图谱。",
+      "atlasPersonId": null,
+      "duplicateOfCandidate": null,
+      "officialEvidenceUrl": "https://www.radioglaciology.com/",
+      "rosterMemberships": [
+        {
+          "unitName": "Electrical Engineering",
+          "unitUrl": "https://ee.stanford.edu/people/faculty",
+          "evidenceUrl": "https://www.radioglaciology.com/"
+        }
+      ],
+      "portraitUrl": "https://profiles.stanford.edu/proxy/api/cap/profiles/73263/resources/profilephoto/350x522.1787872051.jpg",
+      "blockers": [],
+      "evidenceRows": [
+        {
+          "unitUrl": "https://ee.stanford.edu/people/faculty",
+          "officialId": "https://www.radioglaciology.com/",
+          "title": "Associate Professor",
+          "profileUrl": "https://www.radioglaciology.com/",
+          "portraitUrl": "https://profiles.stanford.edu/proxy/api/cap/profiles/73263/resources/profilephoto/350x522.1787872051.jpg",
+          "decision": "include_new_pi",
+          "evidence": "Associate Professor; Information and coding theory, communications, signal processing | Energy, environment, and sustainability",
+          "profileExcerpt": null
+        }
+      ],
+      "attemptedUrls": [
+        "https://www.radioglaciology.com/"
+      ],
+      "failureType": null,
+      "reviewedAt": "2026-09-03"
+    },
+    {
+      "canonicalKey": "United States:Stanford University:emmadauterman",
+      "rosterName": "Emma Dauterman",
+      "originalCandidateName": "Emma Dauterman",
+      "region": "United States",
+      "institution": "Stanford University",
+      "institutionRank": 3,
+      "score": 109,
+      "disposition": "exclude_out_of_scope",
+      "reason": "官方个人页的研究主线属于硬件、通信、系统、密码、编程语言、纯理论或其他非 AI 主线；不纳入当前 AI/NLP/CV/ML/机器人图谱。",
+      "atlasPersonId": null,
+      "duplicateOfCandidate": null,
+      "officialEvidenceUrl": "https://www.cs.stanford.edu/people/emma-dauterman",
+      "rosterMemberships": [
+        {
+          "unitName": "Computer Science",
+          "unitUrl": "https://www.cs.stanford.edu/people/faculty",
+          "evidenceUrl": "https://www.cs.stanford.edu/people/emma-dauterman"
+        }
+      ],
+      "portraitUrl": "https://www.cs.stanford.edu/sites/g/files/sbiybj28076/files/styles/square_1900/public/media/person/emma-dauterman1779396167279.jpg?h=1641edec&itok=5Pe2waH2",
+      "blockers": [],
+      "evidenceRows": [
+        {
+          "unitUrl": "https://www.cs.stanford.edu/people/faculty",
+          "officialId": "4181",
+          "title": "Assistant Professor of Computer Science",
+          "profileUrl": "https://www.cs.stanford.edu/people/emma-dauterman",
+          "portraitUrl": "https://www.cs.stanford.edu/sites/g/files/sbiybj28076/files/styles/square_1900/public/media/person/emma-dauterman1779396167279.jpg?h=1641edec&itok=5Pe2waH2",
+          "decision": "pending_profile_verification",
+          "evidence": "Assistant Professor of Computer Science; https://www.cs.stanford.edu/people/emma-dauterman",
+          "profileExcerpt": null
+        }
+      ],
+      "attemptedUrls": [
+        "https://www.cs.stanford.edu/people/emma-dauterman"
+      ],
+      "failureType": null,
+      "reviewedAt": "2026-09-03"
+    },
+    {
+      "canonicalKey": "United States:Stanford University:fouadatobagi",
+      "rosterName": "Fouad A. Tobagi",
+      "originalCandidateName": "Fouad A. Tobagi",
+      "region": "United States",
+      "institution": "Stanford University",
+      "institutionRank": 3,
+      "score": 109,
+      "disposition": "exclude_out_of_scope",
+      "reason": "官方个人页的研究主线属于硬件、通信、系统、密码、编程语言、纯理论或其他非 AI 主线；不纳入当前 AI/NLP/CV/ML/机器人图谱。",
+      "atlasPersonId": null,
+      "duplicateOfCandidate": null,
+      "officialEvidenceUrl": "http://profiles.stanford.edu/fouad-tobagi",
+      "rosterMemberships": [
+        {
+          "unitName": "Electrical Engineering",
+          "unitUrl": "https://ee.stanford.edu/people/faculty",
+          "evidenceUrl": "http://profiles.stanford.edu/fouad-tobagi"
+        }
+      ],
+      "portraitUrl": "https://profiles.stanford.edu/proxy/api/cap/profiles/41494/resources/profilephoto/350x522.1787872051.jpg",
+      "blockers": [],
+      "evidenceRows": [
+        {
+          "unitUrl": "https://ee.stanford.edu/people/faculty",
+          "officialId": "http://profiles.stanford.edu/fouad-tobagi",
+          "title": "Professor",
+          "profileUrl": "http://profiles.stanford.edu/fouad-tobagi",
+          "portraitUrl": "https://profiles.stanford.edu/proxy/api/cap/profiles/41494/resources/profilephoto/350x522.1787872051.jpg",
+          "decision": "include_new_pi",
+          "evidence": "Professor; Computer architecture, security, hardware/software systems | Software systems, security, distributed systems and networks",
+          "profileExcerpt": null
+        }
+      ],
+      "attemptedUrls": [
+        "http://profiles.stanford.edu/fouad-tobagi"
+      ],
+      "failureType": null,
+      "reviewedAt": "2026-09-03"
+    },
+    {
+      "canonicalKey": "United States:Stanford University:fredrikkjolstad",
+      "rosterName": "Fredrik Kjolstad",
+      "originalCandidateName": "Fredrik Kjolstad",
+      "region": "United States",
+      "institution": "Stanford University",
+      "institutionRank": 3,
+      "score": 109,
+      "disposition": "exclude_out_of_scope",
+      "reason": "官方个人页的研究主线属于硬件、通信、系统、密码、编程语言、纯理论或其他非 AI 主线；不纳入当前 AI/NLP/CV/ML/机器人图谱。",
+      "atlasPersonId": null,
+      "duplicateOfCandidate": null,
+      "officialEvidenceUrl": "https://www.cs.stanford.edu/people/fredrik-kjoelstad",
+      "rosterMemberships": [
+        {
+          "unitName": "Computer Science",
+          "unitUrl": "https://www.cs.stanford.edu/people/faculty",
+          "evidenceUrl": "https://www.cs.stanford.edu/people/fredrik-kjoelstad"
+        }
+      ],
+      "portraitUrl": "https://www.cs.stanford.edu/sites/g/files/sbiybj28076/files/styles/square_1900/public/media/person/fredrik-kjoelstad1583972186878.jpg?h=40145768&itok=giA9Xdqu",
+      "blockers": [],
+      "evidenceRows": [
+        {
+          "unitUrl": "https://www.cs.stanford.edu/people/faculty",
+          "officialId": "786",
+          "title": "Assistant Professor of Computer Science",
+          "profileUrl": "https://www.cs.stanford.edu/people/fredrik-kjoelstad",
+          "portraitUrl": "https://www.cs.stanford.edu/sites/g/files/sbiybj28076/files/styles/square_1900/public/media/person/fredrik-kjoelstad1583972186878.jpg?h=40145768&itok=giA9Xdqu",
+          "decision": "pending_profile_verification",
+          "evidence": "Assistant Professor of Computer Science; https://www.cs.stanford.edu/people/fredrik-kjoelstad",
+          "profileExcerpt": null
+        }
+      ],
+      "attemptedUrls": [
+        "https://www.cs.stanford.edu/people/fredrik-kjoelstad"
+      ],
+      "failureType": null,
+      "reviewedAt": "2026-09-03"
+    },
+    {
+      "canonicalKey": "United States:Stanford University:hsphilipwong",
+      "rosterName": "H.-S. Philip Wong",
+      "originalCandidateName": "H.-S. Philip Wong",
+      "region": "United States",
+      "institution": "Stanford University",
+      "institutionRank": 3,
+      "score": 109,
+      "disposition": "exclude_out_of_scope",
+      "reason": "官方个人页的研究主线属于硬件、通信、系统、密码、编程语言、纯理论或其他非 AI 主线；不纳入当前 AI/NLP/CV/ML/机器人图谱。",
+      "atlasPersonId": null,
+      "duplicateOfCandidate": null,
+      "officialEvidenceUrl": "http://web.stanford.edu/~hspwong/",
+      "rosterMemberships": [
+        {
+          "unitName": "Electrical Engineering",
+          "unitUrl": "https://ee.stanford.edu/people/faculty",
+          "evidenceUrl": "http://web.stanford.edu/~hspwong/"
+        }
+      ],
+      "portraitUrl": "https://profiles.stanford.edu/proxy/api/cap/profiles/10012/resources/profilephoto/350x522.1787872051.jpg",
+      "blockers": [],
+      "evidenceRows": [
+        {
+          "unitUrl": "https://ee.stanford.edu/people/faculty",
+          "officialId": "http://web.stanford.edu/~hspwong/",
+          "title": "Professor",
+          "profileUrl": "http://web.stanford.edu/~hspwong/",
+          "portraitUrl": "https://profiles.stanford.edu/proxy/api/cap/profiles/10012/resources/profilephoto/350x522.1787872051.jpg",
+          "decision": "include_new_pi",
+          "evidence": "Professor; New Materials, Nanofabrication, and Devices | Computer architecture, security, hardware/software systems | Integrated Circuits and Systems",
+          "profileExcerpt": null
+        }
+      ],
+      "attemptedUrls": [
+        "http://web.stanford.edu/~hspwong/"
+      ],
+      "failureType": null,
+      "reviewedAt": "2026-09-03"
+    },
+    {
+      "canonicalKey": "United States:Stanford University:howardzebker",
+      "rosterName": "Howard Zebker",
+      "originalCandidateName": "Howard Zebker",
+      "region": "United States",
+      "institution": "Stanford University",
+      "institutionRank": 3,
+      "score": 109,
+      "disposition": "exclude_out_of_scope",
+      "reason": "官方个人页的研究主线属于硬件、通信、系统、密码、编程语言、纯理论或其他非 AI 主线；不纳入当前 AI/NLP/CV/ML/机器人图谱。",
+      "atlasPersonId": null,
+      "duplicateOfCandidate": null,
+      "officialEvidenceUrl": "http://ee.stanford.edu/~zebker/",
+      "rosterMemberships": [
+        {
+          "unitName": "Electrical Engineering",
+          "unitUrl": "https://ee.stanford.edu/people/faculty",
+          "evidenceUrl": "http://ee.stanford.edu/~zebker/"
+        }
+      ],
+      "portraitUrl": "https://profiles.stanford.edu/proxy/api/cap/profiles/41264/resources/profilephoto/350x522.1787872051.jpg",
+      "blockers": [],
+      "evidenceRows": [
+        {
+          "unitUrl": "https://ee.stanford.edu/people/faculty",
+          "officialId": "http://ee.stanford.edu/~zebker/",
+          "title": "Professor",
+          "profileUrl": "http://ee.stanford.edu/~zebker/",
+          "portraitUrl": "https://profiles.stanford.edu/proxy/api/cap/profiles/41264/resources/profilephoto/350x522.1787872051.jpg",
+          "decision": "include_new_pi",
+          "evidence": "Professor; Information and coding theory, communications, signal processing | Energy, environment, and sustainability",
+          "profileExcerpt": null
+        }
+      ],
+      "attemptedUrls": [
+        "http://ee.stanford.edu/~zebker/"
+      ],
+      "failureType": null,
+      "reviewedAt": "2026-09-03"
+    },
+    {
+      "canonicalKey": "United States:Stanford University:jenniferwidom",
+      "rosterName": "Jennifer Widom",
+      "originalCandidateName": "Jennifer Widom",
+      "region": "United States",
+      "institution": "Stanford University",
+      "institutionRank": 3,
+      "score": 109,
+      "disposition": "exclude_out_of_scope",
+      "reason": "官方个人页的研究主线属于硬件、通信、系统、密码、编程语言、纯理论或其他非 AI 主线；不纳入当前 AI/NLP/CV/ML/机器人图谱。",
+      "atlasPersonId": null,
+      "duplicateOfCandidate": null,
+      "officialEvidenceUrl": "https://www.cs.stanford.edu/people/jennifer-widom-0",
+      "rosterMemberships": [
+        {
+          "unitName": "Computer Science",
+          "unitUrl": "https://www.cs.stanford.edu/people/faculty",
+          "evidenceUrl": "https://www.cs.stanford.edu/people/jennifer-widom-0"
+        }
+      ],
+      "portraitUrl": "https://www.cs.stanford.edu/sites/g/files/sbiybj28076/files/styles/square_1900/public/media/image/jennifer-widom_profilephoto_0.jpg?h=2f6f2921&itok=VIO5PocQ",
+      "blockers": [],
+      "evidenceRows": [
+        {
+          "unitUrl": "https://www.cs.stanford.edu/people/faculty",
+          "officialId": "3306",
+          "title": "Frederick Emmons Terman Dean of the School of Engineering Fletcher Jones Professor in Computer Science and Electrical Engineering",
+          "profileUrl": "https://www.cs.stanford.edu/people/jennifer-widom-0",
+          "portraitUrl": "https://www.cs.stanford.edu/sites/g/files/sbiybj28076/files/styles/square_1900/public/media/image/jennifer-widom_profilephoto_0.jpg?h=2f6f2921&itok=VIO5PocQ",
+          "decision": "pending_profile_verification",
+          "evidence": "Frederick Emmons Terman Dean of the School of Engineering Fletcher Jones Professor in Computer Science and Electrical Engineering; https://www.cs.stanford.edu/people/jennifer-widom-0",
+          "profileExcerpt": null
+        },
+        {
+          "unitUrl": "https://ee.stanford.edu/people/faculty",
+          "officialId": "http://infolab.stanford.edu/~widom/",
+          "title": "Professor",
+          "profileUrl": "http://infolab.stanford.edu/~widom/",
+          "portraitUrl": "https://profiles.stanford.edu/proxy/api/cap/profiles/10275/resources/profilephoto/350x522.1787872051.jpg",
+          "decision": "excluded_duplicate",
+          "evidence": "Professor; Computer architecture, security, hardware/software systems | Software systems, security, distributed systems and networks",
+          "profileExcerpt": null
+        }
+      ],
+      "attemptedUrls": [
+        "https://www.cs.stanford.edu/people/jennifer-widom-0",
+        "http://infolab.stanford.edu/~widom/"
+      ],
+      "failureType": null,
+      "reviewedAt": "2026-09-03"
+    },
+    {
+      "canonicalKey": "United States:Stanford University:johnlhennessy",
+      "rosterName": "John L. Hennessy",
+      "originalCandidateName": "John L. Hennessy",
+      "region": "United States",
+      "institution": "Stanford University",
+      "institutionRank": 3,
+      "score": 109,
+      "disposition": "exclude_out_of_scope",
+      "reason": "官方个人页的研究主线属于硬件、通信、系统、密码、编程语言、纯理论或其他非 AI 主线；不纳入当前 AI/NLP/CV/ML/机器人图谱。",
+      "atlasPersonId": null,
+      "duplicateOfCandidate": null,
+      "officialEvidenceUrl": "https://profiles.stanford.edu/john-hennessy",
+      "rosterMemberships": [
+        {
+          "unitName": "Electrical Engineering",
+          "unitUrl": "https://ee.stanford.edu/people/faculty",
+          "evidenceUrl": "https://profiles.stanford.edu/john-hennessy"
+        }
+      ],
+      "portraitUrl": "https://profiles.stanford.edu/proxy/api/cap/profiles/41555/resources/profilephoto/350x522.1787872051.jpg",
+      "blockers": [],
+      "evidenceRows": [
+        {
+          "unitUrl": "https://ee.stanford.edu/people/faculty",
+          "officialId": "https://profiles.stanford.edu/john-hennessy",
+          "title": "Professor",
+          "profileUrl": "https://profiles.stanford.edu/john-hennessy",
+          "portraitUrl": "https://profiles.stanford.edu/proxy/api/cap/profiles/41555/resources/profilephoto/350x522.1787872051.jpg",
+          "decision": "include_new_pi",
+          "evidence": "Professor; Computer architecture, security, hardware/software systems | Software systems, security, distributed systems and networks",
+          "profileExcerpt": null
+        }
+      ],
+      "attemptedUrls": [
+        "https://profiles.stanford.edu/john-hennessy"
+      ],
+      "failureType": null,
+      "reviewedAt": "2026-09-03"
+    },
+    {
+      "canonicalKey": "United States:Stanford University:johnmpauly",
+      "rosterName": "John M. Pauly",
+      "originalCandidateName": "John M. Pauly",
+      "region": "United States",
+      "institution": "Stanford University",
+      "institutionRank": 3,
+      "score": 109,
+      "disposition": "exclude_out_of_scope",
+      "reason": "官方个人页的研究主线属于硬件、通信、系统、密码、编程语言、纯理论或其他非 AI 主线；不纳入当前 AI/NLP/CV/ML/机器人图谱。",
+      "atlasPersonId": null,
+      "duplicateOfCandidate": null,
+      "officialEvidenceUrl": "http://web.stanford.edu/~pauly/",
+      "rosterMemberships": [
+        {
+          "unitName": "Electrical Engineering",
+          "unitUrl": "https://ee.stanford.edu/people/faculty",
+          "evidenceUrl": "http://web.stanford.edu/~pauly/"
+        }
+      ],
+      "portraitUrl": "https://profiles.stanford.edu/proxy/api/cap/profiles/7223/resources/profilephoto/350x522.1787872051.jpg",
+      "blockers": [],
+      "evidenceRows": [
+        {
+          "unitUrl": "https://ee.stanford.edu/people/faculty",
+          "officialId": "http://web.stanford.edu/~pauly/",
+          "title": "Professor",
+          "profileUrl": "http://web.stanford.edu/~pauly/",
+          "portraitUrl": "https://profiles.stanford.edu/proxy/api/cap/profiles/7223/resources/profilephoto/350x522.1787872051.jpg",
+          "decision": "include_new_pi",
+          "evidence": "Professor; Biomed devices, sensors, and systems | Information and coding theory, communications, signal processing",
+          "profileExcerpt": null
+        }
+      ],
+      "attemptedUrls": [
+        "http://web.stanford.edu/~pauly/"
+      ],
+      "failureType": null,
+      "reviewedAt": "2026-09-03"
+    },
+    {
+      "canonicalKey": "United States:Stanford University:josephmkahn",
+      "rosterName": "Joseph M. Kahn",
+      "originalCandidateName": "Joseph M. Kahn",
+      "region": "United States",
+      "institution": "Stanford University",
+      "institutionRank": 3,
+      "score": 109,
+      "disposition": "exclude_out_of_scope",
+      "reason": "官方个人页的研究主线属于硬件、通信、系统、密码、编程语言、纯理论或其他非 AI 主线；不纳入当前 AI/NLP/CV/ML/机器人图谱。",
+      "atlasPersonId": null,
+      "duplicateOfCandidate": null,
+      "officialEvidenceUrl": "http://ee.stanford.edu/~jmk/",
+      "rosterMemberships": [
+        {
+          "unitName": "Electrical Engineering",
+          "unitUrl": "https://ee.stanford.edu/people/faculty",
+          "evidenceUrl": "http://ee.stanford.edu/~jmk/"
+        }
+      ],
+      "portraitUrl": "https://profiles.stanford.edu/proxy/api/cap/profiles/46970/resources/profilephoto/350x522.1787872051.jpg",
+      "blockers": [],
+      "evidenceRows": [
+        {
+          "unitUrl": "https://ee.stanford.edu/people/faculty",
+          "officialId": "http://ee.stanford.edu/~jmk/",
+          "title": "Professor",
+          "profileUrl": "http://ee.stanford.edu/~jmk/",
+          "portraitUrl": "https://profiles.stanford.edu/proxy/api/cap/profiles/46970/resources/profilephoto/350x522.1787872051.jpg",
+          "decision": "include_new_pi",
+          "evidence": "Professor; Information and coding theory, communications, signal processing | Signal processing and control | Quantum science and engineering, Photonics",
+          "profileExcerpt": null
+        }
+      ],
+      "attemptedUrls": [
+        "http://ee.stanford.edu/~jmk/"
+      ],
+      "failureType": null,
+      "reviewedAt": "2026-09-03"
+    },
+    {
+      "canonicalKey": "United States:Stanford University:kayvonfatahalian",
+      "rosterName": "Kayvon Fatahalian",
+      "originalCandidateName": "Kayvon Fatahalian",
+      "region": "United States",
+      "institution": "Stanford University",
+      "institutionRank": 3,
+      "score": 109,
+      "disposition": "exclude_out_of_scope",
+      "reason": "官方个人页的研究主线属于硬件、通信、系统、密码、编程语言、纯理论或其他非 AI 主线；不纳入当前 AI/NLP/CV/ML/机器人图谱。",
+      "atlasPersonId": null,
+      "duplicateOfCandidate": null,
+      "officialEvidenceUrl": "https://www.cs.stanford.edu/people/kayvon-fatahalian",
+      "rosterMemberships": [
+        {
+          "unitName": "Computer Science",
+          "unitUrl": "https://www.cs.stanford.edu/people/faculty",
+          "evidenceUrl": "https://www.cs.stanford.edu/people/kayvon-fatahalian"
+        }
+      ],
+      "portraitUrl": "https://www.cs.stanford.edu/sites/g/files/sbiybj28076/files/styles/square_1900/public/media/person/kayvon-fatahalian1688083483676.jpg?h=62eb6eaa&itok=g_3aM2Rp",
+      "blockers": [],
+      "evidenceRows": [
+        {
+          "unitUrl": "https://www.cs.stanford.edu/people/faculty",
+          "officialId": "706",
+          "title": "Associate Professor of Computer Science",
+          "profileUrl": "https://www.cs.stanford.edu/people/kayvon-fatahalian",
+          "portraitUrl": "https://www.cs.stanford.edu/sites/g/files/sbiybj28076/files/styles/square_1900/public/media/person/kayvon-fatahalian1688083483676.jpg?h=62eb6eaa&itok=g_3aM2Rp",
+          "decision": "pending_profile_verification",
+          "evidence": "Associate Professor of Computer Science; https://www.cs.stanford.edu/people/kayvon-fatahalian",
+          "profileExcerpt": null
+        }
+      ],
+      "attemptedUrls": [
+        "https://www.cs.stanford.edu/people/kayvon-fatahalian"
+      ],
+      "failureType": null,
+      "reviewedAt": "2026-09-03"
+    },
+    {
+      "canonicalKey": "United States:Stanford University:kensalisbury",
+      "rosterName": "Ken Salisbury",
+      "originalCandidateName": "Ken Salisbury",
+      "region": "United States",
+      "institution": "Stanford University",
+      "institutionRank": 3,
+      "score": 109,
+      "disposition": "exclude_non_pi",
+      "reason": "Stanford Profiles 与 Salisbury Robotics Lab 均明确标注 Research Professor, Emeritus；不作为现任独立 PI 接入。",
+      "atlasPersonId": null,
+      "duplicateOfCandidate": null,
+      "officialEvidenceUrl": "https://sr.stanford.edu/",
+      "rosterMemberships": [
+        {
+          "unitName": "Stanford AI Lab",
+          "unitUrl": "https://ai.stanford.edu/faculty/",
+          "evidenceUrl": "https://sr.stanford.edu/"
+        }
+      ],
+      "portraitUrl": "https://ai.stanford.edu/wp-content/uploads/2020/09/ken-salisbury.png",
+      "blockers": [],
+      "evidenceRows": [
+        {
+          "unitUrl": "https://ai.stanford.edu/faculty/",
+          "officialId": "research-28",
+          "title": null,
+          "profileUrl": "https://sr.stanford.edu/",
+          "portraitUrl": "https://ai.stanford.edu/wp-content/uploads/2020/09/ken-salisbury.png",
+          "decision": "include_new_pi",
+          "evidence": "Faculty; Robotics",
+          "profileExcerpt": null
+        }
+      ],
+      "attemptedUrls": [
+        "https://sr.stanford.edu/",
+        "https://profiles.stanford.edu/john-salisbury"
+      ],
+      "failureType": null,
+      "reviewedAt": "2026-09-03"
+    },
+    {
+      "canonicalKey": "United States:Stanford University:kwabenaboahen",
+      "rosterName": "Kwabena Boahen",
+      "originalCandidateName": "Kwabena Boahen",
+      "region": "United States",
+      "institution": "Stanford University",
+      "institutionRank": 3,
+      "score": 109,
+      "disposition": "exclude_out_of_scope",
+      "reason": "官方个人页的研究主线属于硬件、通信、系统、密码、编程语言、纯理论或其他非 AI 主线；不纳入当前 AI/NLP/CV/ML/机器人图谱。",
+      "atlasPersonId": null,
+      "duplicateOfCandidate": null,
+      "officialEvidenceUrl": "http://web.stanford.edu/group/brainsinsilicon/",
+      "rosterMemberships": [
+        {
+          "unitName": "Electrical Engineering",
+          "unitUrl": "https://ee.stanford.edu/people/faculty",
+          "evidenceUrl": "http://web.stanford.edu/group/brainsinsilicon/"
+        }
+      ],
+      "portraitUrl": "https://profiles.stanford.edu/proxy/api/cap/profiles/7204/resources/profilephoto/350x522.1787872051.jpg",
+      "blockers": [],
+      "evidenceRows": [
+        {
+          "unitUrl": "https://ee.stanford.edu/people/faculty",
+          "officialId": "http://web.stanford.edu/group/brainsinsilicon/",
+          "title": "Professor",
+          "profileUrl": "http://web.stanford.edu/group/brainsinsilicon/",
+          "portraitUrl": "https://profiles.stanford.edu/proxy/api/cap/profiles/7204/resources/profilephoto/350x522.1787872051.jpg",
+          "decision": "include_new_pi",
+          "evidence": "Professor; Biomed devices, sensors, and systems | Computer architecture, security, hardware/software systems | Integrated Circuits and Systems",
+          "profileExcerpt": null
+        }
+      ],
+      "attemptedUrls": [
+        "http://web.stanford.edu/group/brainsinsilicon/"
+      ],
+      "failureType": null,
+      "reviewedAt": "2026-09-03"
+    },
+    {
+      "canonicalKey": "United States:Stanford University:liyangtan",
+      "rosterName": "Li-Yang Tan",
+      "originalCandidateName": "Li-Yang Tan",
+      "region": "United States",
+      "institution": "Stanford University",
+      "institutionRank": 3,
+      "score": 109,
+      "disposition": "exclude_out_of_scope",
+      "reason": "官方个人页的研究主线属于硬件、通信、系统、密码、编程语言、纯理论或其他非 AI 主线；不纳入当前 AI/NLP/CV/ML/机器人图谱。",
+      "atlasPersonId": null,
+      "duplicateOfCandidate": null,
+      "officialEvidenceUrl": "https://www.cs.stanford.edu/people/li-yang-tan",
+      "rosterMemberships": [
+        {
+          "unitName": "Computer Science",
+          "unitUrl": "https://www.cs.stanford.edu/people/faculty",
+          "evidenceUrl": "https://www.cs.stanford.edu/people/li-yang-tan"
+        }
+      ],
+      "portraitUrl": "https://www.cs.stanford.edu/sites/g/files/sbiybj28076/files/styles/square_1900/public/media/image/stanford-person-default-profile-image.png?h=55541bb6&itok=AgbbRePk",
+      "blockers": [],
+      "evidenceRows": [
+        {
+          "unitUrl": "https://www.cs.stanford.edu/people/faculty",
+          "officialId": "946",
+          "title": "Associate Professor of Computer Science",
+          "profileUrl": "https://www.cs.stanford.edu/people/li-yang-tan",
+          "portraitUrl": "https://www.cs.stanford.edu/sites/g/files/sbiybj28076/files/styles/square_1900/public/media/image/stanford-person-default-profile-image.png?h=55541bb6&itok=AgbbRePk",
+          "decision": "pending_profile_verification",
+          "evidence": "Associate Professor of Computer Science; https://www.cs.stanford.edu/people/li-yang-tan",
+          "profileExcerpt": null
+        }
+      ],
+      "attemptedUrls": [
+        "https://www.cs.stanford.edu/people/li-yang-tan"
+      ],
+      "failureType": null,
+      "reviewedAt": "2026-09-03"
+    },
+    {
+      "canonicalKey": "United States:Stanford University:markahorowitz",
+      "rosterName": "Mark A. Horowitz",
+      "originalCandidateName": "Mark A. Horowitz",
+      "region": "United States",
+      "institution": "Stanford University",
+      "institutionRank": 3,
+      "score": 109,
+      "disposition": "duplicate",
+      "reason": "同一人的跨名录姓名变体；保留 Mark Horowitz 作为后续资料包的规范姓名。",
+      "atlasPersonId": null,
+      "duplicateOfCandidate": "Mark Horowitz",
+      "officialEvidenceUrl": "https://profiles.stanford.edu/mark-horowitz",
+      "rosterMemberships": [
+        {
+          "unitName": "Electrical Engineering",
+          "unitUrl": "https://ee.stanford.edu/people/faculty",
+          "evidenceUrl": "https://profiles.stanford.edu/mark-horowitz"
+        }
+      ],
+      "portraitUrl": "https://profiles.stanford.edu/proxy/api/cap/profiles/14300/resources/profilephoto/350x522.1787872051.jpg",
+      "blockers": [],
+      "evidenceRows": [
+        {
+          "unitUrl": "https://ee.stanford.edu/people/faculty",
+          "officialId": "https://profiles.stanford.edu/mark-horowitz",
+          "title": "Professor",
+          "profileUrl": "https://profiles.stanford.edu/mark-horowitz",
+          "portraitUrl": "https://profiles.stanford.edu/proxy/api/cap/profiles/14300/resources/profilephoto/350x522.1787872051.jpg",
+          "decision": "include_new_pi",
+          "evidence": "Professor; Computer architecture, security, hardware/software systems | Integrated Circuits and Systems | Environmental sensors, embedded systems, remote sensing | Energy, environment, and sustainability",
+          "profileExcerpt": null
+        }
+      ],
+      "attemptedUrls": [
+        "https://profiles.stanford.edu/mark-horowitz"
+      ],
+      "failureType": null,
+      "reviewedAt": "2026-09-03"
+    },
+    {
+      "canonicalKey": "United States:Stanford University:markhorowitz",
+      "rosterName": "Mark Horowitz",
+      "originalCandidateName": "Mark Horowitz",
+      "region": "United States",
+      "institution": "Stanford University",
+      "institutionRank": 3,
+      "score": 109,
+      "disposition": "exclude_out_of_scope",
+      "reason": "官方个人页的研究主线属于硬件、通信、系统、密码、编程语言、纯理论或其他非 AI 主线；不纳入当前 AI/NLP/CV/ML/机器人图谱。",
+      "atlasPersonId": null,
+      "duplicateOfCandidate": null,
+      "officialEvidenceUrl": "https://www.cs.stanford.edu/people/mark-horowitz",
+      "rosterMemberships": [
+        {
+          "unitName": "Computer Science",
+          "unitUrl": "https://www.cs.stanford.edu/people/faculty",
+          "evidenceUrl": "https://www.cs.stanford.edu/people/mark-horowitz"
+        }
+      ],
+      "portraitUrl": "https://www.cs.stanford.edu/sites/g/files/sbiybj28076/files/styles/square_1900/public/media/person/mark-horowitz1564676348474.jpg?h=d8575a00&itok=qD_GP8Ua",
+      "blockers": [],
+      "evidenceRows": [
+        {
+          "unitUrl": "https://www.cs.stanford.edu/people/faculty",
+          "officialId": "766",
+          "title": "Fortinet Founders Chair of the Department of Electrical Engineering, Yahoo! Founders Professor in the School of Engineering and Professor of Computer Science",
+          "profileUrl": "https://www.cs.stanford.edu/people/mark-horowitz",
+          "portraitUrl": "https://www.cs.stanford.edu/sites/g/files/sbiybj28076/files/styles/square_1900/public/media/person/mark-horowitz1564676348474.jpg?h=d8575a00&itok=qD_GP8Ua",
+          "decision": "pending_profile_verification",
+          "evidence": "Fortinet Founders Chair of the Department of Electrical Engineering, Yahoo! Founders Professor in the School of Engineering and Professor of Computer Science; https://www.cs.stanford.edu/people/mark-horowitz",
+          "profileExcerpt": null
+        }
+      ],
+      "attemptedUrls": [
+        "https://www.cs.stanford.edu/people/mark-horowitz"
+      ],
+      "failureType": null,
+      "reviewedAt": "2026-09-03"
+    },
+    {
+      "canonicalKey": "United States:Stanford University:markzhandry",
+      "rosterName": "Mark Zhandry",
+      "originalCandidateName": "Mark Zhandry",
+      "region": "United States",
+      "institution": "Stanford University",
+      "institutionRank": 3,
+      "score": 109,
+      "disposition": "exclude_out_of_scope",
+      "reason": "官方个人页的研究主线属于硬件、通信、系统、密码、编程语言、纯理论或其他非 AI 主线；不纳入当前 AI/NLP/CV/ML/机器人图谱。",
+      "atlasPersonId": null,
+      "duplicateOfCandidate": null,
+      "officialEvidenceUrl": "https://www.cs.stanford.edu/people/mark-zhandry",
+      "rosterMemberships": [
+        {
+          "unitName": "Computer Science",
+          "unitUrl": "https://www.cs.stanford.edu/people/faculty",
+          "evidenceUrl": "https://www.cs.stanford.edu/people/mark-zhandry"
+        }
+      ],
+      "portraitUrl": "https://www.cs.stanford.edu/sites/g/files/sbiybj28076/files/styles/square_1900/public/media/image/mark_pic_0.jpg?h=7c4e21cf&itok=rNy61O8g",
+      "blockers": [],
+      "evidenceRows": [
+        {
+          "unitUrl": "https://www.cs.stanford.edu/people/faculty",
+          "officialId": "3896",
+          "title": "Associate Professor of Computer Science",
+          "profileUrl": "https://www.cs.stanford.edu/people/mark-zhandry",
+          "portraitUrl": "https://www.cs.stanford.edu/sites/g/files/sbiybj28076/files/styles/square_1900/public/media/image/mark_pic_0.jpg?h=7c4e21cf&itok=rNy61O8g",
+          "decision": "pending_profile_verification",
+          "evidence": "Associate Professor of Computer Science; https://www.cs.stanford.edu/people/mark-zhandry",
+          "profileExcerpt": null
+        }
+      ],
+      "attemptedUrls": [
+        "https://www.cs.stanford.edu/people/mark-zhandry"
+      ],
+      "failureType": null,
+      "reviewedAt": "2026-09-03"
+    },
+    {
+      "canonicalKey": "United States:Stanford University:marywootters",
+      "rosterName": "Mary Wootters",
+      "originalCandidateName": "Mary Wootters",
+      "region": "United States",
+      "institution": "Stanford University",
+      "institutionRank": 3,
+      "score": 109,
+      "disposition": "exclude_out_of_scope",
+      "reason": "官方个人页的研究主线属于硬件、通信、系统、密码、编程语言、纯理论或其他非 AI 主线；不纳入当前 AI/NLP/CV/ML/机器人图谱。",
+      "atlasPersonId": null,
+      "duplicateOfCandidate": null,
+      "officialEvidenceUrl": "https://www.cs.stanford.edu/people/mary-wootters",
+      "rosterMemberships": [
+        {
+          "unitName": "Computer Science",
+          "unitUrl": "https://www.cs.stanford.edu/people/faculty",
+          "evidenceUrl": "https://www.cs.stanford.edu/people/mary-wootters"
+        }
+      ],
+      "portraitUrl": "https://www.cs.stanford.edu/sites/g/files/sbiybj28076/files/styles/square_1900/public/media/person/mary-wootters1680563460169.jpg?h=1641edec&itok=4ozQnxsL",
+      "blockers": [],
+      "evidenceRows": [
+        {
+          "unitUrl": "https://www.cs.stanford.edu/people/faculty",
+          "officialId": "986",
+          "title": "Associate Professor of Computer Science and of Electrical Engineering",
+          "profileUrl": "https://www.cs.stanford.edu/people/mary-wootters",
+          "portraitUrl": "https://www.cs.stanford.edu/sites/g/files/sbiybj28076/files/styles/square_1900/public/media/person/mary-wootters1680563460169.jpg?h=1641edec&itok=4ozQnxsL",
+          "decision": "pending_profile_verification",
+          "evidence": "Associate Professor of Computer Science and of Electrical Engineering; https://www.cs.stanford.edu/people/mary-wootters",
+          "profileExcerpt": null
+        },
+        {
+          "unitUrl": "https://ee.stanford.edu/people/faculty",
+          "officialId": "https://sites.google.com/site/marywootters/",
+          "title": "Associate Professor",
+          "profileUrl": "https://sites.google.com/site/marywootters/",
+          "portraitUrl": "https://profiles.stanford.edu/proxy/api/cap/profiles/84162/resources/profilephoto/350x522.1787872051.jpg",
+          "decision": "excluded_duplicate",
+          "evidence": "Associate Professor; Information and coding theory, communications, signal processing",
+          "profileExcerpt": null
+        }
+      ],
+      "attemptedUrls": [
+        "https://www.cs.stanford.edu/people/mary-wootters",
+        "https://sites.google.com/site/marywootters/"
+      ],
+      "failureType": null,
+      "reviewedAt": "2026-09-03"
+    },
+    {
+      "canonicalKey": "United States:Stanford University:mendelrosenblum",
+      "rosterName": "Mendel Rosenblum",
+      "originalCandidateName": "Mendel Rosenblum",
+      "region": "United States",
+      "institution": "Stanford University",
+      "institutionRank": 3,
+      "score": 109,
+      "disposition": "exclude_out_of_scope",
+      "reason": "官方个人页的研究主线属于硬件、通信、系统、密码、编程语言、纯理论或其他非 AI 主线；不纳入当前 AI/NLP/CV/ML/机器人图谱。",
+      "atlasPersonId": null,
+      "duplicateOfCandidate": null,
+      "officialEvidenceUrl": "https://www.cs.stanford.edu/people/mendel-rosenblum",
+      "rosterMemberships": [
+        {
+          "unitName": "Computer Science",
+          "unitUrl": "https://www.cs.stanford.edu/people/faculty",
+          "evidenceUrl": "https://www.cs.stanford.edu/people/mendel-rosenblum"
+        }
+      ],
+      "portraitUrl": "https://www.cs.stanford.edu/sites/g/files/sbiybj28076/files/styles/square_1900/public/media/person/mendel-rosenblum1509522114120.jpg?h=8d5378fc&itok=b6SBDM3h",
+      "blockers": [],
+      "evidenceRows": [
+        {
+          "unitUrl": "https://www.cs.stanford.edu/people/faculty",
+          "officialId": "911",
+          "title": "Cheriton Family Professor and Professor of Electrical Engineering",
+          "profileUrl": "https://www.cs.stanford.edu/people/mendel-rosenblum",
+          "portraitUrl": "https://www.cs.stanford.edu/sites/g/files/sbiybj28076/files/styles/square_1900/public/media/person/mendel-rosenblum1509522114120.jpg?h=8d5378fc&itok=b6SBDM3h",
+          "decision": "pending_profile_verification",
+          "evidence": "Cheriton Family Professor and Professor of Electrical Engineering; https://www.cs.stanford.edu/people/mendel-rosenblum",
+          "profileExcerpt": null
+        },
+        {
+          "unitUrl": "https://ee.stanford.edu/people/faculty",
+          "officialId": "http://profiles.stanford.edu/mendel-rosenblum",
+          "title": "Professor",
+          "profileUrl": "http://profiles.stanford.edu/mendel-rosenblum",
+          "portraitUrl": "https://profiles.stanford.edu/proxy/api/cap/profiles/41415/resources/profilephoto/350x522.1787872051.jpg",
+          "decision": "excluded_duplicate",
+          "evidence": "Professor; ",
+          "profileExcerpt": null
+        }
+      ],
+      "attemptedUrls": [
+        "https://www.cs.stanford.edu/people/mendel-rosenblum",
+        "http://profiles.stanford.edu/mendel-rosenblum"
+      ],
+      "failureType": null,
+      "reviewedAt": "2026-09-03"
+    },
+    {
+      "canonicalKey": "United States:Stanford University:nicholasbambos",
+      "rosterName": "Nicholas Bambos",
+      "originalCandidateName": "Nicholas Bambos",
+      "region": "United States",
+      "institution": "Stanford University",
+      "institutionRank": 3,
+      "score": 109,
+      "disposition": "exclude_out_of_scope",
+      "reason": "官方个人页的研究主线属于硬件、通信、系统、密码、编程语言、纯理论或其他非 AI 主线；不纳入当前 AI/NLP/CV/ML/机器人图谱。",
+      "atlasPersonId": null,
+      "duplicateOfCandidate": null,
+      "officialEvidenceUrl": "https://profiles.stanford.edu/nicholas-bambos",
+      "rosterMemberships": [
+        {
+          "unitName": "Electrical Engineering",
+          "unitUrl": "https://ee.stanford.edu/people/faculty",
+          "evidenceUrl": "https://profiles.stanford.edu/nicholas-bambos"
+        }
+      ],
+      "portraitUrl": "https://profiles.stanford.edu/proxy/api/cap/profiles/8041/resources/profilephoto/350x522.1787872051.jpg",
+      "blockers": [],
+      "evidenceRows": [
+        {
+          "unitUrl": "https://ee.stanford.edu/people/faculty",
+          "officialId": "https://profiles.stanford.edu/nicholas-bambos",
+          "title": "Professor",
+          "profileUrl": "https://profiles.stanford.edu/nicholas-bambos",
+          "portraitUrl": "https://profiles.stanford.edu/proxy/api/cap/profiles/8041/resources/profilephoto/350x522.1787872051.jpg",
+          "decision": "include_new_pi",
+          "evidence": "Professor; Information and coding theory, communications, signal processing | AI, machine learning, optimization | Energy, environment, and sustainability",
+          "profileExcerpt": null
+        }
+      ],
+      "attemptedUrls": [
+        "https://profiles.stanford.edu/nicholas-bambos"
+      ],
+      "failureType": null,
+      "reviewedAt": "2026-09-03"
+    },
+    {
+      "canonicalKey": "United States:Stanford University:nimaanari",
+      "rosterName": "Nima Anari",
+      "originalCandidateName": "Nima Anari",
+      "region": "United States",
+      "institution": "Stanford University",
+      "institutionRank": 3,
+      "score": 109,
+      "disposition": "exclude_out_of_scope",
+      "reason": "官方个人页的研究主线属于硬件、通信、系统、密码、编程语言、纯理论或其他非 AI 主线；不纳入当前 AI/NLP/CV/ML/机器人图谱。",
+      "atlasPersonId": null,
+      "duplicateOfCandidate": null,
+      "officialEvidenceUrl": "https://www.cs.stanford.edu/people/nima-anari",
+      "rosterMemberships": [
+        {
+          "unitName": "Computer Science",
+          "unitUrl": "https://www.cs.stanford.edu/people/faculty",
+          "evidenceUrl": "https://www.cs.stanford.edu/people/nima-anari"
+        }
+      ],
+      "portraitUrl": "https://www.cs.stanford.edu/sites/g/files/sbiybj28076/files/styles/square_1900/public/media/person/anari1664428972772.jpg?h=4568593e&itok=4rChY6xX",
+      "blockers": [],
+      "evidenceRows": [
+        {
+          "unitUrl": "https://www.cs.stanford.edu/people/faculty",
+          "officialId": "631",
+          "title": "Associate Professor of Computer Science",
+          "profileUrl": "https://www.cs.stanford.edu/people/nima-anari",
+          "portraitUrl": "https://www.cs.stanford.edu/sites/g/files/sbiybj28076/files/styles/square_1900/public/media/person/anari1664428972772.jpg?h=4568593e&itok=4rChY6xX",
+          "decision": "pending_profile_verification",
+          "evidence": "Associate Professor of Computer Science; https://www.cs.stanford.edu/people/nima-anari",
+          "profileExcerpt": null
+        }
+      ],
+      "attemptedUrls": [
+        "https://www.cs.stanford.edu/people/nima-anari"
+      ],
+      "failureType": null,
+      "reviewedAt": "2026-09-03"
+    },
+    {
+      "canonicalKey": "United States:Stanford University:omerreingold",
+      "rosterName": "Omer Reingold",
+      "originalCandidateName": "Omer Reingold",
+      "region": "United States",
+      "institution": "Stanford University",
+      "institutionRank": 3,
+      "score": 109,
+      "disposition": "exclude_out_of_scope",
+      "reason": "官方个人页的研究主线属于硬件、通信、系统、密码、编程语言、纯理论或其他非 AI 主线；不纳入当前 AI/NLP/CV/ML/机器人图谱。",
+      "atlasPersonId": null,
+      "duplicateOfCandidate": null,
+      "officialEvidenceUrl": "https://www.cs.stanford.edu/people/omer-reingold",
+      "rosterMemberships": [
+        {
+          "unitName": "Computer Science",
+          "unitUrl": "https://www.cs.stanford.edu/people/faculty",
+          "evidenceUrl": "https://www.cs.stanford.edu/people/omer-reingold"
+        }
+      ],
+      "portraitUrl": "https://www.cs.stanford.edu/sites/g/files/sbiybj28076/files/styles/square_1900/public/media/person/omer-reingold1691782453735.jpg?h=1641edec&itok=tNCnFJFW",
+      "blockers": [],
+      "evidenceRows": [
+        {
+          "unitUrl": "https://www.cs.stanford.edu/people/faculty",
+          "officialId": "906",
+          "title": "Rajeev Motwani Professor of Computer Science",
+          "profileUrl": "https://www.cs.stanford.edu/people/omer-reingold",
+          "portraitUrl": "https://www.cs.stanford.edu/sites/g/files/sbiybj28076/files/styles/square_1900/public/media/person/omer-reingold1691782453735.jpg?h=1641edec&itok=tNCnFJFW",
+          "decision": "pending_profile_verification",
+          "evidence": "Rajeev Motwani Professor of Computer Science; https://www.cs.stanford.edu/people/omer-reingold",
+          "profileExcerpt": null
+        }
+      ],
+      "attemptedUrls": [
+        "https://www.cs.stanford.edu/people/omer-reingold"
+      ],
+      "failureType": null,
+      "reviewedAt": "2026-09-03"
+    },
+    {
+      "canonicalKey": "United States:Stanford University:philiplevis",
+      "rosterName": "Philip Levis",
+      "originalCandidateName": "Philip Levis",
+      "region": "United States",
+      "institution": "Stanford University",
+      "institutionRank": 3,
+      "score": 109,
+      "disposition": "exclude_out_of_scope",
+      "reason": "官方个人页的研究主线属于硬件、通信、系统、密码、编程语言、纯理论或其他非 AI 主线；不纳入当前 AI/NLP/CV/ML/机器人图谱。",
+      "atlasPersonId": null,
+      "duplicateOfCandidate": null,
+      "officialEvidenceUrl": "https://www.cs.stanford.edu/people/philip-levis",
+      "rosterMemberships": [
+        {
+          "unitName": "Computer Science",
+          "unitUrl": "https://www.cs.stanford.edu/people/faculty",
+          "evidenceUrl": "https://www.cs.stanford.edu/people/philip-levis"
+        }
+      ],
+      "portraitUrl": "https://www.cs.stanford.edu/sites/g/files/sbiybj28076/files/styles/square_1900/public/media/person/philip-levis1509533314154.jpg?h=8e84a26f&itok=tJyYycx-",
+      "blockers": [],
+      "evidenceRows": [
+        {
+          "unitUrl": "https://www.cs.stanford.edu/people/faculty",
+          "officialId": "826",
+          "title": "Professor of Computer Science and of Electrical Engineering",
+          "profileUrl": "https://www.cs.stanford.edu/people/philip-levis",
+          "portraitUrl": "https://www.cs.stanford.edu/sites/g/files/sbiybj28076/files/styles/square_1900/public/media/person/philip-levis1509533314154.jpg?h=8e84a26f&itok=tJyYycx-",
+          "decision": "pending_profile_verification",
+          "evidence": "Professor of Computer Science and of Electrical Engineering; https://www.cs.stanford.edu/people/philip-levis",
+          "profileExcerpt": null
+        },
+        {
+          "unitUrl": "https://ee.stanford.edu/people/faculty",
+          "officialId": "http://csl.stanford.edu/~pal/",
+          "title": "Professor",
+          "profileUrl": "http://csl.stanford.edu/~pal/",
+          "portraitUrl": "https://profiles.stanford.edu/proxy/api/cap/profiles/42754/resources/profilephoto/350x522.1787872051.jpg",
+          "decision": "excluded_duplicate",
+          "evidence": "Professor; Computer architecture, security, hardware/software systems | Environmental sensors, embedded systems, remote sensing | Energy, environment, and sustainability | Software systems, security, distributed systems and networks",
+          "profileExcerpt": null
+        }
+      ],
+      "attemptedUrls": [
+        "https://www.cs.stanford.edu/people/philip-levis",
+        "http://csl.stanford.edu/~pal/"
+      ],
+      "failureType": null,
+      "reviewedAt": "2026-09-03"
+    },
+    {
+      "canonicalKey": "United States:Stanford University:ramrajagopal",
+      "rosterName": "Ram Rajagopal",
+      "originalCandidateName": "Ram Rajagopal",
+      "region": "United States",
+      "institution": "Stanford University",
+      "institutionRank": 3,
+      "score": 109,
+      "disposition": "exclude_out_of_scope",
+      "reason": "官方个人页的研究主线属于硬件、通信、系统、密码、编程语言、纯理论或其他非 AI 主线；不纳入当前 AI/NLP/CV/ML/机器人图谱。",
+      "atlasPersonId": null,
+      "duplicateOfCandidate": null,
+      "officialEvidenceUrl": "https://profiles.stanford.edu/ram-rajagopal",
+      "rosterMemberships": [
+        {
+          "unitName": "Electrical Engineering",
+          "unitUrl": "https://ee.stanford.edu/people/faculty",
+          "evidenceUrl": "https://profiles.stanford.edu/ram-rajagopal"
+        }
+      ],
+      "portraitUrl": "https://profiles.stanford.edu/proxy/api/cap/profiles/23651/resources/profilephoto/350x522.1787872051.jpg",
+      "blockers": [],
+      "evidenceRows": [
+        {
+          "unitUrl": "https://ee.stanford.edu/people/faculty",
+          "officialId": "https://profiles.stanford.edu/ram-rajagopal",
+          "title": "Associate Professor",
+          "profileUrl": "https://profiles.stanford.edu/ram-rajagopal",
+          "portraitUrl": "https://profiles.stanford.edu/proxy/api/cap/profiles/23651/resources/profilephoto/350x522.1787872051.jpg",
+          "decision": "include_new_pi",
+          "evidence": "Associate Professor; Environmental sensors, embedded systems, remote sensing | AI, machine learning, optimization | Energy, environment, and sustainability",
+          "profileExcerpt": null
+        }
+      ],
+      "attemptedUrls": [
+        "https://profiles.stanford.edu/ram-rajagopal"
+      ],
+      "failureType": null,
+      "reviewedAt": "2026-09-03"
+    },
+    {
+      "canonicalKey": "United States:Stanford University:ronfedkiw",
+      "rosterName": "Ron Fedkiw",
+      "originalCandidateName": "Ron Fedkiw",
+      "region": "United States",
+      "institution": "Stanford University",
+      "institutionRank": 3,
+      "score": 109,
+      "disposition": "ready",
+      "reason": "本批正式数据模块已达到双来源、3–5 条带来源事实、512×512 头像和网络证据门槛。",
+      "atlasPersonId": null,
+      "duplicateOfCandidate": null,
+      "officialEvidenceUrl": "https://www.cs.stanford.edu/people/ron-fedkiw",
+      "rosterMemberships": [
+        {
+          "unitName": "Computer Science",
+          "unitUrl": "https://www.cs.stanford.edu/people/faculty",
+          "evidenceUrl": "https://www.cs.stanford.edu/people/ron-fedkiw"
+        }
+      ],
+      "portraitUrl": "https://www.cs.stanford.edu/sites/g/files/sbiybj28076/files/styles/square_1900/public/media/person/ron-fedkiw1509536111047.jpg?h=e83d06f3&itok=Z3MaA89K",
+      "blockers": [],
+      "evidenceRows": [
+        {
+          "unitUrl": "https://www.cs.stanford.edu/people/faculty",
+          "officialId": "711",
+          "title": "Canon Professor in the School of Engineering",
+          "profileUrl": "https://www.cs.stanford.edu/people/ron-fedkiw",
+          "portraitUrl": "https://www.cs.stanford.edu/sites/g/files/sbiybj28076/files/styles/square_1900/public/media/person/ron-fedkiw1509536111047.jpg?h=e83d06f3&itok=Z3MaA89K",
+          "decision": "include_new_pi",
+          "evidence": "Canon Professor in the School of Engineering; SAIL current roster",
+          "profileExcerpt": null
+        },
+        {
+          "unitUrl": "https://ai.stanford.edu/faculty/",
+          "officialId": "research-7",
+          "title": null,
+          "profileUrl": "http://physbam.stanford.edu/~fedkiw/",
+          "portraitUrl": "https://ai.stanford.edu/wp-content/uploads/2020/09/ron-fedkiw.png",
+          "decision": "excluded_duplicate",
+          "evidence": "Faculty; Visual Effects, Physics, Graphics & Vision",
+          "profileExcerpt": null
+        }
+      ],
+      "attemptedUrls": [
+        "https://www.cs.stanford.edu/people/ron-fedkiw",
+        "http://physbam.stanford.edu/~fedkiw/"
+      ],
+      "failureType": null,
+      "reviewedAt": "2026-09-03"
+    },
+    {
+      "canonicalKey": "United States:Stanford University:sanjaylall",
+      "rosterName": "Sanjay Lall",
+      "originalCandidateName": "Sanjay Lall",
+      "region": "United States",
+      "institution": "Stanford University",
+      "institutionRank": 3,
+      "score": 109,
+      "disposition": "exclude_out_of_scope",
+      "reason": "官方个人页的研究主线属于硬件、通信、系统、密码、编程语言、纯理论或其他非 AI 主线；不纳入当前 AI/NLP/CV/ML/机器人图谱。",
+      "atlasPersonId": null,
+      "duplicateOfCandidate": null,
+      "officialEvidenceUrl": "http://lall.stanford.edu/",
+      "rosterMemberships": [
+        {
+          "unitName": "Electrical Engineering",
+          "unitUrl": "https://ee.stanford.edu/people/faculty",
+          "evidenceUrl": "http://lall.stanford.edu/"
+        }
+      ],
+      "portraitUrl": "https://profiles.stanford.edu/proxy/api/cap/profiles/41489/resources/profilephoto/350x522.1787872051.jpg",
+      "blockers": [],
+      "evidenceRows": [
+        {
+          "unitUrl": "https://ee.stanford.edu/people/faculty",
+          "officialId": "http://lall.stanford.edu/",
+          "title": "Professor",
+          "profileUrl": "http://lall.stanford.edu/",
+          "portraitUrl": "https://profiles.stanford.edu/proxy/api/cap/profiles/41489/resources/profilephoto/350x522.1787872051.jpg",
+          "decision": "include_new_pi",
+          "evidence": "Professor; AI, machine learning, optimization",
+          "profileExcerpt": null
+        }
+      ],
+      "attemptedUrls": [
+        "http://lall.stanford.edu/"
+      ],
+      "failureType": null,
+      "reviewedAt": "2026-09-03"
+    },
+    {
+      "canonicalKey": "United States:Stanford University:saraachour",
+      "rosterName": "Sara Achour",
+      "originalCandidateName": "Sara Achour",
+      "region": "United States",
+      "institution": "Stanford University",
+      "institutionRank": 3,
+      "score": 109,
+      "disposition": "exclude_out_of_scope",
+      "reason": "官方个人页的研究主线属于硬件、通信、系统、密码、编程语言、纯理论或其他非 AI 主线；不纳入当前 AI/NLP/CV/ML/机器人图谱。",
+      "atlasPersonId": null,
+      "duplicateOfCandidate": null,
+      "officialEvidenceUrl": "https://www.cs.stanford.edu/people/sara-achour",
+      "rosterMemberships": [
+        {
+          "unitName": "Computer Science",
+          "unitUrl": "https://www.cs.stanford.edu/people/faculty",
+          "evidenceUrl": "https://www.cs.stanford.edu/people/sara-achour"
+        }
+      ],
+      "portraitUrl": "https://www.cs.stanford.edu/sites/g/files/sbiybj28076/files/styles/square_1900/public/media/person/sara-achour1705436816912.jpg?h=1641edec&itok=qdwn6xRB",
+      "blockers": [],
+      "evidenceRows": [
+        {
+          "unitUrl": "https://www.cs.stanford.edu/people/faculty",
+          "officialId": "616",
+          "title": "Assistant Professor of Computer Science and of Electrical Engineering",
+          "profileUrl": "https://www.cs.stanford.edu/people/sara-achour",
+          "portraitUrl": "https://www.cs.stanford.edu/sites/g/files/sbiybj28076/files/styles/square_1900/public/media/person/sara-achour1705436816912.jpg?h=1641edec&itok=qdwn6xRB",
+          "decision": "pending_profile_verification",
+          "evidence": "Assistant Professor of Computer Science and of Electrical Engineering; https://www.cs.stanford.edu/people/sara-achour",
+          "profileExcerpt": null
+        },
+        {
+          "unitUrl": "https://ee.stanford.edu/people/faculty",
+          "officialId": "https://profiles.stanford.edu/sara-achour",
+          "title": "Assistant Professor",
+          "profileUrl": "https://profiles.stanford.edu/sara-achour",
+          "portraitUrl": "https://profiles.stanford.edu/proxy/api/cap/profiles/246459/resources/profilephoto/350x522.1787872051.jpg",
+          "decision": "excluded_duplicate",
+          "evidence": "Assistant Professor; Information and coding theory, communications, signal processing | Computer architecture, security, hardware/software systems | Energy, environment, and sustainability",
+          "profileExcerpt": null
+        }
+      ],
+      "attemptedUrls": [
+        "https://www.cs.stanford.edu/people/sara-achour",
+        "https://profiles.stanford.edu/sara-achour"
+      ],
+      "failureType": null,
+      "reviewedAt": "2026-09-03"
+    },
+    {
+      "canonicalKey": "United States:Stanford University:subhasishmitra",
+      "rosterName": "Subhasish Mitra",
+      "originalCandidateName": "Subhasish Mitra",
+      "region": "United States",
+      "institution": "Stanford University",
+      "institutionRank": 3,
+      "score": 109,
+      "disposition": "exclude_out_of_scope",
+      "reason": "官方个人页的研究主线属于硬件、通信、系统、密码、编程语言、纯理论或其他非 AI 主线；不纳入当前 AI/NLP/CV/ML/机器人图谱。",
+      "atlasPersonId": null,
+      "duplicateOfCandidate": null,
+      "officialEvidenceUrl": "https://www.cs.stanford.edu/people/subhasish-mitra",
+      "rosterMemberships": [
+        {
+          "unitName": "Computer Science",
+          "unitUrl": "https://www.cs.stanford.edu/people/faculty",
+          "evidenceUrl": "https://www.cs.stanford.edu/people/subhasish-mitra"
+        }
+      ],
+      "portraitUrl": "https://www.cs.stanford.edu/sites/g/files/sbiybj28076/files/styles/square_1900/public/media/person/subhasish-mitra1509543726537.jpg?h=2c434fc7&itok=l-Jh24w9",
+      "blockers": [],
+      "evidenceRows": [
+        {
+          "unitUrl": "https://www.cs.stanford.edu/people/faculty",
+          "officialId": "871",
+          "title": "William E. Ayer Professor of Electrical Engineering and Professor of Computer Science",
+          "profileUrl": "https://www.cs.stanford.edu/people/subhasish-mitra",
+          "portraitUrl": "https://www.cs.stanford.edu/sites/g/files/sbiybj28076/files/styles/square_1900/public/media/person/subhasish-mitra1509543726537.jpg?h=2c434fc7&itok=l-Jh24w9",
+          "decision": "pending_profile_verification",
+          "evidence": "William E. Ayer Professor of Electrical Engineering and Professor of Computer Science; https://www.cs.stanford.edu/people/subhasish-mitra",
+          "profileExcerpt": null
+        },
+        {
+          "unitUrl": "https://ee.stanford.edu/people/faculty",
+          "officialId": "http://web.stanford.edu/~subh/",
+          "title": "Professor",
+          "profileUrl": "http://web.stanford.edu/~subh/",
+          "portraitUrl": "https://profiles.stanford.edu/proxy/api/cap/profiles/41697/resources/profilephoto/350x522.1787872051.jpg",
+          "decision": "excluded_duplicate",
+          "evidence": "Professor; New Materials, Nanofabrication, and Devices | Biomed devices, sensors, and systems | Computer architecture, security, hardware/software systems | Integrated Circuits and Systems",
+          "profileExcerpt": null
+        }
+      ],
+      "attemptedUrls": [
+        "https://www.cs.stanford.edu/people/subhasish-mitra",
+        "http://web.stanford.edu/~subh/"
+      ],
+      "failureType": null,
+      "reviewedAt": "2026-09-03"
+    },
+    {
+      "canonicalKey": "United States:Stanford University:thierrytambe",
+      "rosterName": "Thierry Tambe",
+      "originalCandidateName": "Thierry Tambe",
+      "region": "United States",
+      "institution": "Stanford University",
+      "institutionRank": 3,
+      "score": 109,
+      "disposition": "exclude_out_of_scope",
+      "reason": "官方个人页的研究主线属于硬件、通信、系统、密码、编程语言、纯理论或其他非 AI 主线；不纳入当前 AI/NLP/CV/ML/机器人图谱。",
+      "atlasPersonId": null,
+      "duplicateOfCandidate": null,
+      "officialEvidenceUrl": "https://profiles.stanford.edu/thierry-tambe",
+      "rosterMemberships": [
+        {
+          "unitName": "Electrical Engineering",
+          "unitUrl": "https://ee.stanford.edu/people/faculty",
+          "evidenceUrl": "https://profiles.stanford.edu/thierry-tambe"
+        }
+      ],
+      "portraitUrl": "https://profiles.stanford.edu/proxy/api/cap/profiles/327888/resources/profilephoto/350x522.1787872051.jpg",
+      "blockers": [],
+      "evidenceRows": [
+        {
+          "unitUrl": "https://ee.stanford.edu/people/faculty",
+          "officialId": "https://profiles.stanford.edu/thierry-tambe",
+          "title": "Assistant Professor",
+          "profileUrl": "https://profiles.stanford.edu/thierry-tambe",
+          "portraitUrl": "https://profiles.stanford.edu/proxy/api/cap/profiles/327888/resources/profilephoto/350x522.1787872051.jpg",
+          "decision": "include_new_pi",
+          "evidence": "Assistant Professor; Integrated Circuits & Power Electronics | Computer architecture, security, hardware/software systems | Environmental sensors, embedded systems, remote sensing | Energy, environment, and sustainability",
+          "profileExcerpt": null
+        }
+      ],
+      "attemptedUrls": [
+        "https://profiles.stanford.edu/thierry-tambe"
+      ],
+      "failureType": null,
+      "reviewedAt": "2026-09-03"
+    },
+    {
+      "canonicalKey": "United States:Stanford University:thomasicard",
+      "rosterName": "Thomas Icard",
+      "originalCandidateName": "Thomas Icard",
+      "region": "United States",
+      "institution": "Stanford University",
+      "institutionRank": 3,
+      "score": 109,
+      "disposition": "ready",
+      "reason": "本批正式数据模块已达到双来源、3–5 条带来源事实、512×512 头像和网络证据门槛。",
+      "atlasPersonId": null,
+      "duplicateOfCandidate": null,
+      "officialEvidenceUrl": "https://stanford.edu/~icard/",
+      "rosterMemberships": [
+        {
+          "unitName": "Stanford AI Lab",
+          "unitUrl": "https://ai.stanford.edu/faculty/",
+          "evidenceUrl": "https://stanford.edu/~icard/"
+        }
+      ],
+      "portraitUrl": "https://ai.stanford.edu/wp-content/uploads/2020/09/thomas-icard.png",
+      "blockers": [],
+      "evidenceRows": [
+        {
+          "unitUrl": "https://ai.stanford.edu/faculty/",
+          "officialId": "affiliated-6",
+          "title": null,
+          "profileUrl": "https://stanford.edu/~icard/",
+          "portraitUrl": "https://ai.stanford.edu/wp-content/uploads/2020/09/thomas-icard.png",
+          "decision": "include_new_pi",
+          "evidence": "Affiliated Faculty; Logic & Philosophy",
+          "profileExcerpt": null
+        }
+      ],
+      "attemptedUrls": [
+        "https://stanford.edu/~icard/"
+      ],
+      "failureType": null,
+      "reviewedAt": "2026-09-03"
+    },
+    {
+      "canonicalKey": "United States:Stanford University:thomaslee",
+      "rosterName": "Thomas Lee",
+      "originalCandidateName": "Thomas Lee",
+      "region": "United States",
+      "institution": "Stanford University",
+      "institutionRank": 3,
+      "score": 109,
+      "disposition": "exclude_out_of_scope",
+      "reason": "官方个人页的研究主线属于硬件、通信、系统、密码、编程语言、纯理论或其他非 AI 主线；不纳入当前 AI/NLP/CV/ML/机器人图谱。",
+      "atlasPersonId": null,
+      "duplicateOfCandidate": null,
+      "officialEvidenceUrl": "http://smirc.stanford.edu/people.html",
+      "rosterMemberships": [
+        {
+          "unitName": "Electrical Engineering",
+          "unitUrl": "https://ee.stanford.edu/people/faculty",
+          "evidenceUrl": "http://smirc.stanford.edu/people.html"
+        }
+      ],
+      "portraitUrl": "https://profiles.stanford.edu/proxy/api/cap/profiles/42372/resources/profilephoto/350x522.1787872051.jpg",
+      "blockers": [],
+      "evidenceRows": [
+        {
+          "unitUrl": "https://ee.stanford.edu/people/faculty",
+          "officialId": "http://smirc.stanford.edu/people.html",
+          "title": "Professor",
+          "profileUrl": "http://smirc.stanford.edu/people.html",
+          "portraitUrl": "https://profiles.stanford.edu/proxy/api/cap/profiles/42372/resources/profilephoto/350x522.1787872051.jpg",
+          "decision": "include_new_pi",
+          "evidence": "Professor; Computer architecture, security, hardware/software systems | Integrated Circuits and Systems | AI, machine learning, optimization",
+          "profileExcerpt": null
+        }
+      ],
+      "attemptedUrls": [
+        "http://smirc.stanford.edu/people.html"
+      ],
+      "failureType": null,
+      "reviewedAt": "2026-09-03"
+    },
+    {
+      "canonicalKey": "United States:Stanford University:yanjieshao",
+      "rosterName": "Yanjie Shao",
+      "originalCandidateName": "Yanjie Shao",
+      "region": "United States",
+      "institution": "Stanford University",
+      "institutionRank": 3,
+      "score": 109,
+      "disposition": "exclude_out_of_scope",
+      "reason": "官方个人页的研究主线属于硬件、通信、系统、密码、编程语言、纯理论或其他非 AI 主线；不纳入当前 AI/NLP/CV/ML/机器人图谱。",
+      "atlasPersonId": null,
+      "duplicateOfCandidate": null,
+      "officialEvidenceUrl": "https://shaolab.stanford.edu/",
+      "rosterMemberships": [
+        {
+          "unitName": "Electrical Engineering",
+          "unitUrl": "https://ee.stanford.edu/people/faculty",
+          "evidenceUrl": "https://shaolab.stanford.edu/"
+        }
+      ],
+      "portraitUrl": "https://profiles.stanford.edu/proxy/api/cap/profiles/389650/resources/profilephoto/350x522.1780602365972.jpg",
+      "blockers": [],
+      "evidenceRows": [
+        {
+          "unitUrl": "https://ee.stanford.edu/people/faculty",
+          "officialId": "https://shaolab.stanford.edu/",
+          "title": "Assistant Professor",
+          "profileUrl": "https://shaolab.stanford.edu/",
+          "portraitUrl": "https://profiles.stanford.edu/proxy/api/cap/profiles/389650/resources/profilephoto/350x522.1780602365972.jpg",
+          "decision": "pending_profile_verification",
+          "evidence": "Assistant Professor; https://shaolab.stanford.edu/",
+          "profileExcerpt": null
+        }
+      ],
+      "attemptedUrls": [
+        "https://shaolab.stanford.edu/"
+      ],
+      "failureType": null,
+      "reviewedAt": "2026-09-03"
+    },
+    {
+      "canonicalKey": "United States:Stanford University:zakirdurumeric",
+      "rosterName": "Zakir Durumeric",
+      "originalCandidateName": "Zakir Durumeric",
+      "region": "United States",
+      "institution": "Stanford University",
+      "institutionRank": 3,
+      "score": 109,
+      "disposition": "exclude_out_of_scope",
+      "reason": "官方个人页的研究主线属于硬件、通信、系统、密码、编程语言、纯理论或其他非 AI 主线；不纳入当前 AI/NLP/CV/ML/机器人图谱。",
+      "atlasPersonId": null,
+      "duplicateOfCandidate": null,
+      "officialEvidenceUrl": "https://www.cs.stanford.edu/people/zakir-durumeric",
+      "rosterMemberships": [
+        {
+          "unitName": "Computer Science",
+          "unitUrl": "https://www.cs.stanford.edu/people/faculty",
+          "evidenceUrl": "https://www.cs.stanford.edu/people/zakir-durumeric"
+        }
+      ],
+      "portraitUrl": "https://www.cs.stanford.edu/sites/g/files/sbiybj28076/files/styles/square_1900/public/media/person/zakir1625450158219.jpg?h=42e33853&itok=yaADzxVL",
+      "blockers": [],
+      "evidenceRows": [
+        {
+          "unitUrl": "https://www.cs.stanford.edu/people/faculty",
+          "officialId": "691",
+          "title": "Assistant Professor of Computer Science",
+          "profileUrl": "https://www.cs.stanford.edu/people/zakir-durumeric",
+          "portraitUrl": "https://www.cs.stanford.edu/sites/g/files/sbiybj28076/files/styles/square_1900/public/media/person/zakir1625450158219.jpg?h=42e33853&itok=yaADzxVL",
+          "decision": "pending_profile_verification",
+          "evidence": "Assistant Professor of Computer Science; https://www.cs.stanford.edu/people/zakir-durumeric",
+          "profileExcerpt": null
+        }
+      ],
+      "attemptedUrls": [
+        "https://www.cs.stanford.edu/people/zakir-durumeric"
+      ],
+      "failureType": null,
+      "reviewedAt": "2026-09-03"
+    },
+    {
+      "canonicalKey": "United States:Massachusetts Institute of Technology:adamchlipala",
+      "rosterName": "Adam Chlipala",
+      "originalCandidateName": "Adam Chlipala",
+      "region": "United States",
+      "institution": "Massachusetts Institute of Technology",
+      "institutionRank": 4,
+      "score": 106,
+      "disposition": "exclude_out_of_scope",
+      "reason": "官方个人页的研究主线属于硬件、通信、系统、密码、编程语言、纯理论或其他非 AI 主线；不纳入当前 AI/NLP/CV/ML/机器人图谱。",
+      "atlasPersonId": null,
+      "duplicateOfCandidate": null,
+      "officialEvidenceUrl": "https://www.csail.mit.edu/person/adam-chlipala",
+      "rosterMemberships": [
+        {
+          "unitName": "EECS / CSAIL",
+          "unitUrl": "https://www.csail.mit.edu/people?roleFacets=Principal%20Investigators%2CCore%2FDual%2CAssociates%2CEmeritus",
+          "evidenceUrl": "https://www.csail.mit.edu/person/adam-chlipala"
+        }
+      ],
+      "portraitUrl": "https://www.csail.mit.edu/sites/default/files/styles/headshot/public/images/people/card/chlipala-picture-2587.jpg",
+      "blockers": [],
+      "evidenceRows": [
+        {
+          "unitUrl": "https://www.csail.mit.edu/people?f%5B0%5D=role%3A298",
+          "officialId": "/person/adam-chlipala",
+          "title": "Professor",
+          "profileUrl": "https://www.csail.mit.edu/person/adam-chlipala",
+          "portraitUrl": "https://www.csail.mit.edu/sites/default/files/styles/headshot/public/images/people/card/chlipala-picture-2587.jpg",
+          "decision": "eligible_future_batch",
+          "evidence": "Professor; Programming languages, formal methods, security & privacy, systems",
+          "profileExcerpt": null
+        }
+      ],
+      "attemptedUrls": [
+        "https://www.csail.mit.edu/person/adam-chlipala"
+      ],
+      "failureType": null,
+      "reviewedAt": "2026-09-03"
+    },
+    {
+      "canonicalKey": "United States:Massachusetts Institute of Technology:anantagarwal",
+      "rosterName": "Anant Agarwal",
+      "originalCandidateName": "Anant Agarwal",
+      "region": "United States",
+      "institution": "Massachusetts Institute of Technology",
+      "institutionRank": 4,
+      "score": 106,
+      "disposition": "exclude_out_of_scope",
+      "reason": "官方个人页的研究主线属于硬件、通信、系统、密码、编程语言、纯理论或其他非 AI 主线；不纳入当前 AI/NLP/CV/ML/机器人图谱。",
+      "atlasPersonId": null,
+      "duplicateOfCandidate": null,
+      "officialEvidenceUrl": "https://www.csail.mit.edu/person/anant-agarwal",
+      "rosterMemberships": [
+        {
+          "unitName": "EECS / CSAIL",
+          "unitUrl": "https://www.csail.mit.edu/people?roleFacets=Principal%20Investigators%2CCore%2FDual%2CAssociates%2CEmeritus",
+          "evidenceUrl": "https://www.csail.mit.edu/person/anant-agarwal"
+        }
+      ],
+      "portraitUrl": "https://www.csail.mit.edu/sites/default/files/styles/headshot/public/images/migration/agarwal.jpg",
+      "blockers": [],
+      "evidenceRows": [
+        {
+          "unitUrl": "https://www.csail.mit.edu/people?f%5B0%5D=role%3A298",
+          "officialId": "/person/anant-agarwal",
+          "title": "Professor",
+          "profileUrl": "https://www.csail.mit.edu/person/anant-agarwal",
+          "portraitUrl": "https://www.csail.mit.edu/sites/default/files/styles/headshot/public/images/migration/agarwal.jpg",
+          "decision": "eligible_future_batch",
+          "evidence": "Professor; Systems, architecture, online learning, edX",
+          "profileExcerpt": null
+        }
+      ],
+      "attemptedUrls": [
+        "https://www.csail.mit.edu/person/anant-agarwal"
+      ],
+      "failureType": null,
+      "reviewedAt": "2026-09-03"
+    },
+    {
+      "canonicalKey": "United States:Massachusetts Institute of Technology:brucetidor",
+      "rosterName": "Bruce Tidor",
+      "originalCandidateName": "Bruce Tidor",
+      "region": "United States",
+      "institution": "Massachusetts Institute of Technology",
+      "institutionRank": 4,
+      "score": 106,
+      "disposition": "exclude_out_of_scope",
+      "reason": "官方个人页的研究主线属于硬件、通信、系统、密码、编程语言、纯理论或其他非 AI 主线；不纳入当前 AI/NLP/CV/ML/机器人图谱。",
+      "atlasPersonId": null,
+      "duplicateOfCandidate": null,
+      "officialEvidenceUrl": "https://www.csail.mit.edu/person/bruce-tidor",
+      "rosterMemberships": [
+        {
+          "unitName": "EECS / CSAIL",
+          "unitUrl": "https://www.csail.mit.edu/people?roleFacets=Principal%20Investigators%2CCore%2FDual%2CAssociates%2CEmeritus",
+          "evidenceUrl": "https://www.csail.mit.edu/person/bruce-tidor"
+        }
+      ],
+      "portraitUrl": "https://www.csail.mit.edu/sites/default/files/styles/headshot/public/images/migration/tidor.jpg",
+      "blockers": [],
+      "evidenceRows": [
+        {
+          "unitUrl": "https://www.csail.mit.edu/people?f%5B0%5D=role%3A298",
+          "officialId": "/person/bruce-tidor",
+          "title": "Professor",
+          "profileUrl": "https://www.csail.mit.edu/person/bruce-tidor",
+          "portraitUrl": "https://www.csail.mit.edu/sites/default/files/styles/headshot/public/images/migration/tidor.jpg",
+          "decision": "eligible_future_batch",
+          "evidence": "Professor; Computational genomics, computational biology",
+          "profileExcerpt": null
+        }
+      ],
+      "attemptedUrls": [
+        "https://www.csail.mit.edu/person/bruce-tidor"
+      ],
+      "failureType": null,
+      "reviewedAt": "2026-09-03"
+    },
+    {
+      "canonicalKey": "United States:Massachusetts Institute of Technology:geraldsussman",
+      "rosterName": "Gerald Sussman",
+      "originalCandidateName": "Gerald Sussman",
+      "region": "United States",
+      "institution": "Massachusetts Institute of Technology",
+      "institutionRank": 4,
+      "score": 106,
+      "disposition": "ready",
+      "reason": "本批正式数据模块已达到双来源、3–5 条带来源事实、512×512 头像和网络证据门槛。",
+      "atlasPersonId": null,
+      "duplicateOfCandidate": null,
+      "officialEvidenceUrl": "https://www.csail.mit.edu/person/gerald-sussman",
+      "rosterMemberships": [
+        {
+          "unitName": "EECS / CSAIL",
+          "unitUrl": "https://www.csail.mit.edu/people?roleFacets=Principal%20Investigators%2CCore%2FDual%2CAssociates%2CEmeritus",
+          "evidenceUrl": "https://www.csail.mit.edu/person/gerald-sussman"
+        }
+      ],
+      "portraitUrl": "https://www.csail.mit.edu/sites/default/files/styles/headshot/public/images/people/card/Gerald Sussman.jpg",
+      "blockers": [],
+      "evidenceRows": [
+        {
+          "unitUrl": "https://www.csail.mit.edu/people?f%5B0%5D=role%3A298",
+          "officialId": "/person/gerald-sussman",
+          "title": "Professor- Post Tenure",
+          "profileUrl": "https://www.csail.mit.edu/person/gerald-sussman",
+          "portraitUrl": "https://www.csail.mit.edu/sites/default/files/styles/headshot/public/images/people/card/Gerald Sussman.jpg",
+          "decision": "eligible_future_batch",
+          "evidence": "Professor- Post Tenure; Artificial intelligence, supercomputers",
+          "profileExcerpt": null
+        }
+      ],
+      "attemptedUrls": [
+        "https://www.csail.mit.edu/person/gerald-sussman"
+      ],
+      "failureType": null,
+      "reviewedAt": "2026-09-03"
+    },
+    {
+      "canonicalKey": "United States:Massachusetts Institute of Technology:halabelson",
+      "rosterName": "Hal Abelson",
+      "originalCandidateName": "Hal Abelson",
+      "region": "United States",
+      "institution": "Massachusetts Institute of Technology",
+      "institutionRank": 4,
+      "score": 106,
+      "disposition": "exclude_out_of_scope",
+      "reason": "官方个人页的研究主线属于硬件、通信、系统、密码、编程语言、纯理论或其他非 AI 主线；不纳入当前 AI/NLP/CV/ML/机器人图谱。",
+      "atlasPersonId": null,
+      "duplicateOfCandidate": null,
+      "officialEvidenceUrl": "https://www.csail.mit.edu/person/hal-abelson",
+      "rosterMemberships": [
+        {
+          "unitName": "EECS / CSAIL",
+          "unitUrl": "https://www.csail.mit.edu/people?roleFacets=Principal%20Investigators%2CCore%2FDual%2CAssociates%2CEmeritus",
+          "evidenceUrl": "https://www.csail.mit.edu/person/hal-abelson"
+        }
+      ],
+      "portraitUrl": "https://www.csail.mit.edu/sites/default/files/styles/headshot/public/images/migration/abelson.jpg",
+      "blockers": [],
+      "evidenceRows": [
+        {
+          "unitUrl": "https://www.csail.mit.edu/people?f%5B0%5D=role%3A298",
+          "officialId": "/person/hal-abelson",
+          "title": "Professor",
+          "profileUrl": "https://www.csail.mit.edu/person/hal-abelson",
+          "portraitUrl": "https://www.csail.mit.edu/sites/default/files/styles/headshot/public/images/migration/abelson.jpg",
+          "decision": "eligible_future_batch",
+          "evidence": "Professor; Programming, privacy, App Inventor",
+          "profileExcerpt": null
+        }
+      ],
+      "attemptedUrls": [
+        "https://www.csail.mit.edu/person/hal-abelson"
+      ],
+      "failureType": null,
+      "reviewedAt": "2026-09-03"
+    },
+    {
+      "canonicalKey": "United States:Massachusetts Institute of Technology:jonathanragankelley",
+      "rosterName": "Jonathan Ragan-Kelley",
+      "originalCandidateName": "Jonathan Ragan-Kelley",
+      "region": "United States",
+      "institution": "Massachusetts Institute of Technology",
+      "institutionRank": 4,
+      "score": 106,
+      "disposition": "exclude_out_of_scope",
+      "reason": "官方个人页的研究主线属于硬件、通信、系统、密码、编程语言、纯理论或其他非 AI 主线；不纳入当前 AI/NLP/CV/ML/机器人图谱。",
+      "atlasPersonId": null,
+      "duplicateOfCandidate": null,
+      "officialEvidenceUrl": "https://www.csail.mit.edu/person/jonathan-ragan-kelley",
+      "rosterMemberships": [
+        {
+          "unitName": "EECS / CSAIL",
+          "unitUrl": "https://www.csail.mit.edu/people?roleFacets=Principal%20Investigators%2CCore%2FDual%2CAssociates%2CEmeritus",
+          "evidenceUrl": "https://www.csail.mit.edu/person/jonathan-ragan-kelley"
+        }
+      ],
+      "portraitUrl": "https://www.csail.mit.edu/sites/default/files/styles/headshot/public/images/people/card/Jonathan_Ragan-Kelley.jpg",
+      "blockers": [],
+      "evidenceRows": [
+        {
+          "unitUrl": "https://www.csail.mit.edu/people?f%5B0%5D=role%3A298",
+          "officialId": "/person/jonathan-ragan-kelley",
+          "title": "Associate Professor",
+          "profileUrl": "https://www.csail.mit.edu/person/jonathan-ragan-kelley",
+          "portraitUrl": "https://www.csail.mit.edu/sites/default/files/styles/headshot/public/images/people/card/Jonathan_Ragan-Kelley.jpg",
+          "decision": "eligible_future_batch",
+          "evidence": "Associate Professor; Programming languages and systems for graphics and visual computing",
+          "profileExcerpt": null
+        }
+      ],
+      "attemptedUrls": [
+        "https://www.csail.mit.edu/person/jonathan-ragan-kelley"
+      ],
+      "failureType": null,
+      "reviewedAt": "2026-09-03"
+    },
+    {
+      "canonicalKey": "United States:Massachusetts Institute of Technology:michelgoemans",
+      "rosterName": "Michel Goemans",
+      "originalCandidateName": "Michel Goemans",
+      "region": "United States",
+      "institution": "Massachusetts Institute of Technology",
+      "institutionRank": 4,
+      "score": 106,
+      "disposition": "exclude_out_of_scope",
+      "reason": "官方个人页的研究主线属于硬件、通信、系统、密码、编程语言、纯理论或其他非 AI 主线；不纳入当前 AI/NLP/CV/ML/机器人图谱。",
+      "atlasPersonId": null,
+      "duplicateOfCandidate": null,
+      "officialEvidenceUrl": "https://www.csail.mit.edu/person/michel-goemans",
+      "rosterMemberships": [
+        {
+          "unitName": "EECS / CSAIL",
+          "unitUrl": "https://www.csail.mit.edu/people?roleFacets=Principal%20Investigators%2CCore%2FDual%2CAssociates%2CEmeritus",
+          "evidenceUrl": "https://www.csail.mit.edu/person/michel-goemans"
+        }
+      ],
+      "portraitUrl": "https://www.csail.mit.edu/sites/default/files/styles/headshot/public/images/migration/goemans.jpg",
+      "blockers": [],
+      "evidenceRows": [
+        {
+          "unitUrl": "https://www.csail.mit.edu/people?f%5B0%5D=role%3A298",
+          "officialId": "/person/michel-goemans",
+          "title": "Professor",
+          "profileUrl": "https://www.csail.mit.edu/person/michel-goemans",
+          "portraitUrl": "https://www.csail.mit.edu/sites/default/files/styles/headshot/public/images/migration/goemans.jpg",
+          "decision": "eligible_future_batch",
+          "evidence": "Professor; Discrete algorithms, combinatorial optimization",
+          "profileExcerpt": null
+        }
+      ],
+      "attemptedUrls": [
+        "https://www.csail.mit.edu/person/michel-goemans"
+      ],
+      "failureType": null,
+      "reviewedAt": "2026-09-03"
+    },
+    {
+      "canonicalKey": "United States:Massachusetts Institute of Technology:tomasopoggio",
+      "rosterName": "Tomaso Poggio",
+      "originalCandidateName": "Tomaso Poggio",
+      "region": "United States",
+      "institution": "Massachusetts Institute of Technology",
+      "institutionRank": 4,
+      "score": 106,
+      "disposition": "exclude_non_pi",
+      "reason": "MIT McGovern Institute 明确标注 Eugene McDermott Professor Emeritus；保留作既有历史关系节点，不作为现任独立 PI 晋升。",
+      "atlasPersonId": null,
+      "duplicateOfCandidate": null,
+      "officialEvidenceUrl": "https://www.csail.mit.edu/person/tomaso-poggio",
+      "rosterMemberships": [
+        {
+          "unitName": "EECS / CSAIL",
+          "unitUrl": "https://www.csail.mit.edu/people?roleFacets=Principal%20Investigators%2CCore%2FDual%2CAssociates%2CEmeritus",
+          "evidenceUrl": "https://www.csail.mit.edu/person/tomaso-poggio"
+        }
+      ],
+      "portraitUrl": "https://www.csail.mit.edu/sites/default/files/styles/headshot/public/images/migration/poggio.jpg",
+      "blockers": [],
+      "evidenceRows": [
+        {
+          "unitUrl": "https://www.csail.mit.edu/people?f%5B0%5D=role%3A298",
+          "officialId": "/person/tomaso-poggio",
+          "title": "Professor",
+          "profileUrl": "https://www.csail.mit.edu/person/tomaso-poggio",
+          "portraitUrl": "https://www.csail.mit.edu/sites/default/files/styles/headshot/public/images/migration/poggio.jpg",
+          "decision": "eligible_future_batch",
+          "evidence": "Professor; AI, neuroscience, vision, machine learning",
+          "profileExcerpt": null
+        }
+      ],
+      "attemptedUrls": [
+        "https://www.csail.mit.edu/person/tomaso-poggio",
+        "https://mcgovern.mit.edu/profile/tomaso-poggio/",
+        "https://poggio-lab.mit.edu/"
+      ],
+      "failureType": null,
+      "reviewedAt": "2026-09-03"
+    }
+  ]
+}

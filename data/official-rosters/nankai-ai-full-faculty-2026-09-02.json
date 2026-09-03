@@ -1,0 +1,711 @@
+{
+  "completeness": "complete",
+  "fetchedAt": "2026-09-02",
+  "institution": "南开大学人工智能学院",
+  "officialPageUrl": "https://ai.nankai.edu.cn/szdw/list.htm",
+  "officialDataUrl": "https://ai.nankai.edu.cn/szdw/js_yjy_.htm",
+  "officialDataUrls": [
+    "https://ai.nankai.edu.cn/szdw/js_yjy_.htm",
+    "https://ai.nankai.edu.cn/szdw/fjs_fyjy_.htm",
+    "https://ai.nankai.edu.cn/szdw/j_s.htm"
+  ],
+  "officialRosterCount": 69,
+  "sourceDescription": "All current official academic-faculty tables were frozen: professor/researcher, associate professor/associate researcher, and lecturer. Experimental teaching staff, postdoctoral researchers, adjunct and emeritus faculty are separate official categories and are intentionally not included in this faculty-unit snapshot.",
+  "categoryCounts": {
+    "教授(研究员)": 39,
+    "副教授(副研究员)": 23,
+    "讲师": 7
+  },
+  "people": [
+    {
+      "officialId": "https://ai.nankai.edu.cn/info/1232/5761.htm",
+      "name": "陈飞",
+      "title": "教授",
+      "section": "教授(研究员)",
+      "affiliation": "自动化系",
+      "researchDirections": "分布式控制，分布式优化，分布式学习",
+      "profileUrl": "https://ai.nankai.edu.cn/info/1232/5761.htm",
+      "sourcePageUrl": "https://ai.nankai.edu.cn/szdw/js_yjy_.htm"
+    },
+    {
+      "officialId": "https://ai.nankai.edu.cn/info/1033/2799.htm",
+      "name": "陈增强",
+      "title": "教授",
+      "section": "教授(研究员)",
+      "affiliation": "自动化与智能科学系",
+      "researchDirections": "智能预测控制与智能优化计算、复杂系统建模优化与控制、多智能体系统与复杂网络、离散事件逻辑动态系统建模与分析",
+      "profileUrl": "https://ai.nankai.edu.cn/info/1033/2799.htm",
+      "sourcePageUrl": "https://ai.nankai.edu.cn/szdw/js_yjy_.htm"
+    },
+    {
+      "officialId": "https://ai.nankai.edu.cn/info/1033/4187.htm",
+      "name": "代煜",
+      "title": "教授",
+      "section": "教授(研究员)",
+      "affiliation": "机器人与信息自动化研究所",
+      "researchDirections": "面向手术机器人的智能感知技术,智能医学影像处理",
+      "profileUrl": "https://ai.nankai.edu.cn/info/1033/4187.htm",
+      "sourcePageUrl": "https://ai.nankai.edu.cn/szdw/js_yjy_.htm"
+    },
+    {
+      "officialId": "https://ai.nankai.edu.cn/info/1033/2798.htm",
+      "name": "段峰",
+      "title": "教授",
+      "section": "教授(研究员)",
+      "affiliation": "自动化与智能科学系",
+      "researchDirections": "机器人技术，肌电假手，康复机器人，机器人视觉，家庭服务机器人，人体技能分析",
+      "profileUrl": "https://ai.nankai.edu.cn/info/1033/2798.htm",
+      "sourcePageUrl": "https://ai.nankai.edu.cn/szdw/js_yjy_.htm"
+    },
+    {
+      "officialId": "https://ai.nankai.edu.cn/info/1033/2797.htm",
+      "name": "方勇纯",
+      "title": "教授",
+      "section": "教授(研究员)",
+      "affiliation": "机器人与信息自动化研究所",
+      "researchDirections": "机器人视觉控制；无人机；欠驱动吊车系统；微纳米操作",
+      "profileUrl": "https://ai.nankai.edu.cn/info/1033/2797.htm",
+      "sourcePageUrl": "https://ai.nankai.edu.cn/szdw/js_yjy_.htm"
+    },
+    {
+      "officialId": "https://ai.nankai.edu.cn/info/1033/6611.htm",
+      "name": "郭宪",
+      "title": "教授",
+      "section": "教授(研究员)",
+      "affiliation": "机器人与信息自动化研究所",
+      "researchDirections": "机器人运动，强化学习，机器人博弈",
+      "profileUrl": "https://ai.nankai.edu.cn/info/1033/6611.htm",
+      "sourcePageUrl": "https://ai.nankai.edu.cn/szdw/js_yjy_.htm"
+    },
+    {
+      "officialId": "https://ai.nankai.edu.cn/info/1033/2796.htm",
+      "name": "韩建达",
+      "title": "教授",
+      "section": "教授(研究员)",
+      "affiliation": "机器人与信息自动化研究所",
+      "researchDirections": "机器人自主行为共性技术，医疗手术与康复机器人、移动机器人技术与系统",
+      "profileUrl": "https://ai.nankai.edu.cn/info/1033/2796.htm",
+      "sourcePageUrl": "https://ai.nankai.edu.cn/szdw/js_yjy_.htm"
+    },
+    {
+      "officialId": "https://ai.nankai.edu.cn/info/1247/5950.htm",
+      "name": "霍卫光",
+      "title": "教授",
+      "section": "教授(研究员)",
+      "affiliation": "机器人与信息自动化研究所",
+      "researchDirections": "可穿戴式机器人、可穿戴式传感器、智能诊疗",
+      "profileUrl": "https://ai.nankai.edu.cn/info/1247/5950.htm",
+      "sourcePageUrl": "https://ai.nankai.edu.cn/szdw/js_yjy_.htm"
+    },
+    {
+      "officialId": "https://ai.nankai.edu.cn/info/1033/6493.htm",
+      "name": "李鹏",
+      "title": "教授",
+      "section": "教授(研究员)",
+      "affiliation": "机器人与信息自动化研究所",
+      "researchDirections": "可变形无人机的设计与控制；机器人系统创成；医疗手术机器人 ；常年招收对机电一体化设计与控制感兴趣的硕士生、博士生",
+      "profileUrl": "https://ai.nankai.edu.cn/info/1033/6493.htm",
+      "sourcePageUrl": "https://ai.nankai.edu.cn/szdw/js_yjy_.htm"
+    },
+    {
+      "officialId": "https://ai.nankai.edu.cn/info/1286/6617.htm",
+      "name": "梁潇",
+      "title": "教授",
+      "section": "教授(研究员)",
+      "affiliation": "机器人与信息自动化研究所",
+      "researchDirections": "无人机智能控制与感知，足式机器人，运动规划，非线性控制",
+      "profileUrl": "https://ai.nankai.edu.cn/info/1286/6617.htm",
+      "sourcePageUrl": "https://ai.nankai.edu.cn/szdw/js_yjy_.htm"
+    },
+    {
+      "officialId": "https://ai.nankai.edu.cn/info/1033/4210.htm",
+      "name": "刘杰",
+      "title": "教授",
+      "section": "教授(研究员)",
+      "affiliation": "自动化与智能科学系",
+      "researchDirections": "机器学习；数据挖掘；大数据分析",
+      "profileUrl": "https://ai.nankai.edu.cn/info/1033/4210.htm",
+      "sourcePageUrl": "https://ai.nankai.edu.cn/szdw/js_yjy_.htm"
+    },
+    {
+      "officialId": "https://ai.nankai.edu.cn/info/1033/6233.htm",
+      "name": "刘进超",
+      "title": "教授",
+      "section": "教授(研究员)",
+      "affiliation": "机器人与信息自动化研究所",
+      "researchDirections": "机器学习/深度学习、机器视觉、图像处理与分析、交叉学科中的人工智能 (AI for Science)",
+      "profileUrl": "https://ai.nankai.edu.cn/info/1033/6233.htm",
+      "sourcePageUrl": "https://ai.nankai.edu.cn/szdw/js_yjy_.htm"
+    },
+    {
+      "officialId": "https://ai.nankai.edu.cn/info/1033/2794.htm",
+      "name": "刘景泰",
+      "title": "教授",
+      "section": "教授(研究员)",
+      "affiliation": "机器人与信息自动化研究所",
+      "researchDirections": "智能机器人技术，智能科学与技术，人机共融，网络机器人等",
+      "profileUrl": "https://ai.nankai.edu.cn/info/1033/2794.htm",
+      "sourcePageUrl": "https://ai.nankai.edu.cn/szdw/js_yjy_.htm"
+    },
+    {
+      "officialId": "https://ai.nankai.edu.cn/info/1033/4287.htm",
+      "name": "刘忠信",
+      "title": "教授",
+      "section": "教授(研究员)",
+      "affiliation": "自动化系",
+      "researchDirections": "群体智能（多智能体系统，群智能优化算法等）与复杂动态网络，计算机控制与管理",
+      "profileUrl": "https://ai.nankai.edu.cn/info/1033/4287.htm",
+      "sourcePageUrl": "https://ai.nankai.edu.cn/szdw/js_yjy_.htm"
+    },
+    {
+      "officialId": "https://ai.nankai.edu.cn/info/1033/5838.htm",
+      "name": "倪元华",
+      "title": "教授",
+      "section": "教授(研究员)",
+      "affiliation": "自动化与智能科学系",
+      "researchDirections": "强化学习、最优控制、运筹学与最优化",
+      "profileUrl": "https://ai.nankai.edu.cn/info/1033/5838.htm",
+      "sourcePageUrl": "https://ai.nankai.edu.cn/szdw/js_yjy_.htm"
+    },
+    {
+      "officialId": "https://ai.nankai.edu.cn/info/1033/6538.htm",
+      "name": "宁泽鹏",
+      "title": "教授",
+      "section": "教授(研究员)",
+      "affiliation": "机器人与信息自动化研究所",
+      "researchDirections": "多运动模态具身智能，仿生具身智能；基于深度学习、强化学习的控制；鲁棒预测控制，切换系统分析与综合；AI for Science",
+      "profileUrl": "https://ai.nankai.edu.cn/info/1033/6538.htm",
+      "sourcePageUrl": "https://ai.nankai.edu.cn/szdw/js_yjy_.htm"
+    },
+    {
+      "officialId": "https://ai.nankai.edu.cn/info/1033/6357.htm",
+      "name": "齐占峰",
+      "title": "研究员",
+      "section": "教授(研究员)",
+      "affiliation": "机器人与信息自动化研究所",
+      "researchDirections": "海洋智能航行器、仿生机器人、自然能俘获",
+      "profileUrl": "https://ai.nankai.edu.cn/info/1033/6357.htm",
+      "sourcePageUrl": "https://ai.nankai.edu.cn/szdw/js_yjy_.htm"
+    },
+    {
+      "officialId": "https://ai.nankai.edu.cn/info/1033/5385.htm",
+      "name": "秦岩丁",
+      "title": "教授",
+      "section": "教授(研究员)",
+      "affiliation": "机器人与信息自动化研究所",
+      "researchDirections": "医疗与辅助机器人、微纳操作机器人、仿生机器人",
+      "profileUrl": "https://ai.nankai.edu.cn/info/1033/5385.htm",
+      "sourcePageUrl": "https://ai.nankai.edu.cn/szdw/js_yjy_.htm"
+    },
+    {
+      "officialId": "https://ai.nankai.edu.cn/info/1033/3561.htm",
+      "name": "孙雷",
+      "title": "教授",
+      "section": "教授(研究员)",
+      "affiliation": "机器人与信息自动化研究所",
+      "researchDirections": "仿生机器人,非线性系统控制,智能机器人系统, 移动机器人, 轨迹规划",
+      "profileUrl": "https://ai.nankai.edu.cn/info/1033/3561.htm",
+      "sourcePageUrl": "https://ai.nankai.edu.cn/szdw/js_yjy_.htm"
+    },
+    {
+      "officialId": "https://ai.nankai.edu.cn/info/1033/4578.htm",
+      "name": "孙明玮",
+      "title": "教授",
+      "section": "教授(研究员)",
+      "affiliation": "自动化与智能科学系",
+      "researchDirections": "预测控制、自抗扰控制、飞行器制导与控制和非线性优化等",
+      "profileUrl": "https://ai.nankai.edu.cn/info/1033/4578.htm",
+      "sourcePageUrl": "https://ai.nankai.edu.cn/szdw/js_yjy_.htm"
+    },
+    {
+      "officialId": "https://ai.nankai.edu.cn/info/1033/5386.htm",
+      "name": "孙明竹",
+      "title": "教授",
+      "section": "教授(研究员)",
+      "affiliation": "机器人与信息自动化研究所",
+      "researchDirections": "微操作机器人，机器视觉",
+      "profileUrl": "https://ai.nankai.edu.cn/info/1033/5386.htm",
+      "sourcePageUrl": "https://ai.nankai.edu.cn/szdw/js_yjy_.htm"
+    },
+    {
+      "officialId": "https://ai.nankai.edu.cn/info/1033/5214.htm",
+      "name": "孙宁",
+      "title": "教授",
+      "section": "教授(研究员)",
+      "affiliation": "机器人与信息自动化研究所",
+      "researchDirections": "欠驱动机器人（吊车/起重机等）,气动人工肌肉机器人,特种工业机器人,智能控制方法及应用",
+      "profileUrl": "https://ai.nankai.edu.cn/info/1033/5214.htm",
+      "sourcePageUrl": "https://ai.nankai.edu.cn/szdw/js_yjy_.htm"
+    },
+    {
+      "officialId": "https://ai.nankai.edu.cn/info/1033/4589.htm",
+      "name": "孙青林",
+      "title": "教授",
+      "section": "教授(研究员)",
+      "affiliation": "自动化与智能科学系",
+      "researchDirections": "自适应控制、嵌入式控制系统、飞行器建模与智能控制",
+      "profileUrl": "https://ai.nankai.edu.cn/info/1033/4589.htm",
+      "sourcePageUrl": "https://ai.nankai.edu.cn/szdw/js_yjy_.htm"
+    },
+    {
+      "officialId": "https://ai.nankai.edu.cn/info/1177/5598.htm",
+      "name": "王鸿鹏",
+      "title": "教授",
+      "section": "教授(研究员)",
+      "affiliation": "机器人与信息自动化研究所",
+      "researchDirections": "多机器人跨域协同、虚拟现实与数字孪生、智能医疗与虚拟手术",
+      "profileUrl": "https://ai.nankai.edu.cn/info/1177/5598.htm",
+      "sourcePageUrl": "https://ai.nankai.edu.cn/szdw/js_yjy_.htm"
+    },
+    {
+      "officialId": "https://ai.nankai.edu.cn/info/1235/5794.htm",
+      "name": "杨柳",
+      "title": "教授",
+      "section": "教授(研究员)",
+      "affiliation": "机器人与信息自动化研究所",
+      "researchDirections": "微纳机器人及医疗医用，智能微纳机器人",
+      "profileUrl": "https://ai.nankai.edu.cn/info/1235/5794.htm",
+      "sourcePageUrl": "https://ai.nankai.edu.cn/szdw/js_yjy_.htm"
+    },
+    {
+      "officialId": "https://ai.nankai.edu.cn/info/1033/3848.htm",
+      "name": "于宁波",
+      "title": "教授",
+      "section": "教授(研究员)",
+      "affiliation": "机器人与信息自动化研究所",
+      "researchDirections": "医疗康复机器人，医疗人工智能",
+      "profileUrl": "https://ai.nankai.edu.cn/info/1033/3848.htm",
+      "sourcePageUrl": "https://ai.nankai.edu.cn/szdw/js_yjy_.htm"
+    },
+    {
+      "officialId": "https://ai.nankai.edu.cn/info/1033/4199.htm",
+      "name": "苑晶",
+      "title": "教授",
+      "section": "教授(研究员)",
+      "affiliation": "自动化与智能科学系",
+      "researchDirections": "机器人控制、移动机器人导航、SLAM、多机器人系统、目标跟踪",
+      "profileUrl": "https://ai.nankai.edu.cn/info/1033/4199.htm",
+      "sourcePageUrl": "https://ai.nankai.edu.cn/szdw/js_yjy_.htm"
+    },
+    {
+      "officialId": "https://ai.nankai.edu.cn/info/1033/3528.htm",
+      "name": "许静",
+      "title": "教授",
+      "section": "教授(研究员)",
+      "affiliation": "机器智能研究所",
+      "researchDirections": "人工智能、目标检测、医学图像处理",
+      "profileUrl": "https://ai.nankai.edu.cn/info/1033/3528.htm",
+      "sourcePageUrl": "https://ai.nankai.edu.cn/szdw/js_yjy_.htm"
+    },
+    {
+      "officialId": "https://ai.nankai.edu.cn/info/1199/5673.htm",
+      "name": "詹志辉",
+      "title": "教授",
+      "section": "教授(研究员)",
+      "affiliation": "南开大学机器智能天津市顶尖科学家工作室",
+      "researchDirections": "人工智能、进化计算、群体智能与大模型",
+      "profileUrl": "https://ai.nankai.edu.cn/info/1199/5673.htm",
+      "sourcePageUrl": "https://ai.nankai.edu.cn/szdw/js_yjy_.htm"
+    },
+    {
+      "officialId": "https://ai.nankai.edu.cn/info/1265/6246.htm",
+      "name": "张春燕",
+      "title": "教授",
+      "section": "教授(研究员)",
+      "affiliation": "自动化与智能科学系",
+      "researchDirections": "智能算法与强化学习理论、图像处理算法、集群智能与模式识别、集群决策与任务分配，博弈策略/谣言/观点/疾病传播动力学",
+      "profileUrl": "https://ai.nankai.edu.cn/info/1265/6246.htm",
+      "sourcePageUrl": "https://ai.nankai.edu.cn/szdw/js_yjy_.htm"
+    },
+    {
+      "officialId": "https://ai.nankai.edu.cn/info/1185/5628.htm",
+      "name": "张瀚",
+      "title": "教授",
+      "section": "教授(研究员)",
+      "affiliation": "智能工程系",
+      "researchDirections": "机器学习与数据挖掘、深度学习及优化方法、医学影像处理、生物信息大数据",
+      "profileUrl": "https://ai.nankai.edu.cn/info/1185/5628.htm",
+      "sourcePageUrl": "https://ai.nankai.edu.cn/szdw/js_yjy_.htm"
+    },
+    {
+      "officialId": "https://ai.nankai.edu.cn/info/1198/5669.htm",
+      "name": "张军",
+      "title": "杰出教授",
+      "section": "教授(研究员)",
+      "affiliation": "天津市顶尖科学家工作室",
+      "researchDirections": "人工智能算法，计算智能、进化计算、深度学习、模糊逻辑",
+      "profileUrl": "https://ai.nankai.edu.cn/info/1198/5669.htm",
+      "sourcePageUrl": "https://ai.nankai.edu.cn/szdw/js_yjy_.htm"
+    },
+    {
+      "officialId": "https://ai.nankai.edu.cn/info/1269/6245.htm",
+      "name": "张建磊",
+      "title": "教授",
+      "section": "教授(研究员)",
+      "affiliation": "自动化与智能科学系",
+      "researchDirections": "群体智能与演化博弈，模式识别与机器学习，人工智能与群体智能，图像处理与深度学习，强化学习与群体智能，无人机集群协同决策与智能",
+      "profileUrl": "https://ai.nankai.edu.cn/info/1269/6245.htm",
+      "sourcePageUrl": "https://ai.nankai.edu.cn/szdw/js_yjy_.htm"
+    },
+    {
+      "officialId": "https://ai.nankai.edu.cn/info/1033/2787.htm",
+      "name": "张建勋",
+      "title": "教授",
+      "section": "教授(研究员)",
+      "affiliation": "机器人与信息自动化研究所",
+      "researchDirections": "智能机器人控制、计算机网络与信息系统",
+      "profileUrl": "https://ai.nankai.edu.cn/info/1033/2787.htm",
+      "sourcePageUrl": "https://ai.nankai.edu.cn/szdw/js_yjy_.htm"
+    },
+    {
+      "officialId": "https://ai.nankai.edu.cn/info/1270/6254.htm",
+      "name": "张杰",
+      "title": "教授",
+      "section": "教授(研究员)",
+      "affiliation": "机器人与信息自动化研究所",
+      "researchDirections": "智能科学与技术，具身智能创新创业实验室",
+      "profileUrl": "https://ai.nankai.edu.cn/info/1270/6254.htm",
+      "sourcePageUrl": "https://ai.nankai.edu.cn/szdw/js_yjy_.htm"
+    },
+    {
+      "officialId": "https://ai.nankai.edu.cn/info/1033/3849.htm",
+      "name": "张娟娟",
+      "title": "教授",
+      "section": "教授(研究员)",
+      "affiliation": "机器人与信息自动化研究所",
+      "researchDirections": "下肢外骨骼机器人/医疗辅助机器人/人机物理交互控制及优化",
+      "profileUrl": "https://ai.nankai.edu.cn/info/1033/3849.htm",
+      "sourcePageUrl": "https://ai.nankai.edu.cn/szdw/js_yjy_.htm"
+    },
+    {
+      "officialId": "https://ai.nankai.edu.cn/info/1033/3278.htm",
+      "name": "张晓宇",
+      "title": "英才教授",
+      "section": "教授(研究员)",
+      "affiliation": "机器人与信息自动化研究所",
+      "researchDirections": "飞行器制导控制、水下机器人导航与控制、目标识别与跟踪、多源信息处理与滤波等",
+      "profileUrl": "https://ai.nankai.edu.cn/info/1033/3278.htm",
+      "sourcePageUrl": "https://ai.nankai.edu.cn/szdw/js_yjy_.htm"
+    },
+    {
+      "officialId": "https://ai.nankai.edu.cn/info/1033/3984.htm",
+      "name": "张雪波",
+      "title": "教授",
+      "section": "教授(研究员)",
+      "affiliation": "机器人与信息自动化研究所",
+      "researchDirections": "移动机器人学，视觉伺服，运动规划，无人车自主导航，多摄像机网络",
+      "profileUrl": "https://ai.nankai.edu.cn/info/1033/3984.htm",
+      "sourcePageUrl": "https://ai.nankai.edu.cn/szdw/js_yjy_.htm"
+    },
+    {
+      "officialId": "https://ai.nankai.edu.cn/info/1033/3968.htm",
+      "name": "赵新",
+      "title": "教授",
+      "section": "教授(研究员)",
+      "affiliation": "机器人与信息自动化研究所",
+      "researchDirections": "微操作机器人系统，微纳设计与加工，生物模式形成与组织发育建模",
+      "profileUrl": "https://ai.nankai.edu.cn/info/1033/3968.htm",
+      "sourcePageUrl": "https://ai.nankai.edu.cn/szdw/js_yjy_.htm"
+    },
+    {
+      "officialId": "https://ai.nankai.edu.cn/info/1034/6562.htm",
+      "name": "邓勇舰",
+      "title": "副教授",
+      "section": "副教授(副研究员)",
+      "affiliation": "机器人与信息自动化研究所",
+      "researchDirections": "机器人视觉、具身智能、深度学习及其相关应用",
+      "profileUrl": "https://ai.nankai.edu.cn/info/1034/6562.htm",
+      "sourcePageUrl": "https://ai.nankai.edu.cn/szdw/fjs_fyjy_.htm"
+    },
+    {
+      "officialId": "https://ai.nankai.edu.cn/info/1246/5941.htm",
+      "name": "方格",
+      "title": "副教授",
+      "section": "副教授(副研究员)",
+      "affiliation": "机器人与信息自动化研究所",
+      "researchDirections": "核磁兼容医疗机器人、软体机器人",
+      "profileUrl": "https://ai.nankai.edu.cn/info/1246/5941.htm",
+      "sourcePageUrl": "https://ai.nankai.edu.cn/szdw/fjs_fyjy_.htm"
+    },
+    {
+      "officialId": "https://ai.nankai.edu.cn/info/1279/6253.htm",
+      "name": "何昆鹏",
+      "title": "副教授",
+      "section": "副教授(副研究员)",
+      "affiliation": "机器人与信息自动化研究所",
+      "researchDirections": "导航、制导与控制； 智能水下机器人和无人机设计",
+      "profileUrl": "https://ai.nankai.edu.cn/info/1279/6253.htm",
+      "sourcePageUrl": "https://ai.nankai.edu.cn/szdw/fjs_fyjy_.htm"
+    },
+    {
+      "officialId": "https://ai.nankai.edu.cn/info/1197/5929.htm",
+      "name": "甘叠",
+      "title": "副教授",
+      "section": "副教授(副研究员)",
+      "affiliation": "机器人与信息自动化研究所",
+      "researchDirections": "系统辨识，机器学习理论，隐私保护",
+      "profileUrl": "https://ai.nankai.edu.cn/info/1197/5929.htm",
+      "sourcePageUrl": "https://ai.nankai.edu.cn/szdw/fjs_fyjy_.htm"
+    },
+    {
+      "officialId": "https://ai.nankai.edu.cn/info/1034/5379.htm",
+      "name": "李欢",
+      "title": "副教授",
+      "section": "副教授(副研究员)",
+      "affiliation": "机器人与信息自动化研究所",
+      "researchDirections": "机器学习与优化",
+      "profileUrl": "https://ai.nankai.edu.cn/info/1034/5379.htm",
+      "sourcePageUrl": "https://ai.nankai.edu.cn/szdw/fjs_fyjy_.htm"
+    },
+    {
+      "officialId": "https://ai.nankai.edu.cn/info/1034/6231.htm",
+      "name": "李文宇",
+      "title": "副教授",
+      "section": "副教授(副研究员)",
+      "affiliation": "自动化与智能科学系",
+      "researchDirections": "强化学习，具身智能，自动驾驶汽车",
+      "profileUrl": "https://ai.nankai.edu.cn/info/1034/6231.htm",
+      "sourcePageUrl": "https://ai.nankai.edu.cn/szdw/fjs_fyjy_.htm"
+    },
+    {
+      "officialId": "https://ai.nankai.edu.cn/info/1034/5837.htm",
+      "name": "刘晓芳",
+      "title": "副教授",
+      "section": "副教授(副研究员)",
+      "affiliation": "机器人与信息自动化研究所",
+      "researchDirections": "群体智能、机器学习、深度学习",
+      "profileUrl": "https://ai.nankai.edu.cn/info/1034/5837.htm",
+      "sourcePageUrl": "https://ai.nankai.edu.cn/szdw/fjs_fyjy_.htm"
+    },
+    {
+      "officialId": "https://ai.nankai.edu.cn/info/1253/5975.htm",
+      "name": "刘曜玮",
+      "title": "副教授",
+      "section": "副教授(副研究员)",
+      "affiliation": "机器人与信息自动化研究所",
+      "researchDirections": "微纳操作、机器人化动物克隆",
+      "profileUrl": "https://ai.nankai.edu.cn/info/1253/5975.htm",
+      "sourcePageUrl": "https://ai.nankai.edu.cn/szdw/fjs_fyjy_.htm"
+    },
+    {
+      "officialId": "https://ai.nankai.edu.cn/info/1034/5388.htm",
+      "name": "卢彪",
+      "title": "副教授",
+      "section": "副教授(副研究员)",
+      "affiliation": "机器人与信息自动化研究所",
+      "researchDirections": "欠驱动系统非线性控制",
+      "profileUrl": "https://ai.nankai.edu.cn/info/1034/5388.htm",
+      "sourcePageUrl": "https://ai.nankai.edu.cn/szdw/fjs_fyjy_.htm"
+    },
+    {
+      "officialId": "https://ai.nankai.edu.cn/info/1295/6331.htm",
+      "name": "全雄文",
+      "title": "副教授",
+      "section": "副教授(副研究员)",
+      "affiliation": "自动化与智能科学系",
+      "researchDirections": "优化理论与应用，机器学习，医学图像分析",
+      "profileUrl": "https://ai.nankai.edu.cn/info/1295/6331.htm",
+      "sourcePageUrl": "https://ai.nankai.edu.cn/szdw/fjs_fyjy_.htm"
+    },
+    {
+      "officialId": "https://ai.nankai.edu.cn/info/1196/5644.htm",
+      "name": "孙昊",
+      "title": "副教授",
+      "section": "副教授(副研究员)",
+      "affiliation": "自动化与智能科学系",
+      "researchDirections": "翼伞系统控制、自抗扰控制、路径优化算法设计",
+      "profileUrl": "https://ai.nankai.edu.cn/info/1196/5644.htm",
+      "sourcePageUrl": "https://ai.nankai.edu.cn/szdw/fjs_fyjy_.htm"
+    },
+    {
+      "officialId": "https://ai.nankai.edu.cn/info/1034/4951.htm",
+      "name": "王付永",
+      "title": "副教授",
+      "section": "副教授(副研究员)",
+      "affiliation": "自动化与智能科学系",
+      "researchDirections": "多智能体系统分布式学习、控制与优化；多无人机/车协同感知、规划与控制",
+      "profileUrl": "https://ai.nankai.edu.cn/info/1034/4951.htm",
+      "sourcePageUrl": "https://ai.nankai.edu.cn/szdw/fjs_fyjy_.htm"
+    },
+    {
+      "officialId": "https://ai.nankai.edu.cn/info/1256/6068.htm",
+      "name": "王明华",
+      "title": "副教授",
+      "section": "副教授(副研究员)",
+      "affiliation": "机器人与信息自动化研究所",
+      "researchDirections": "人工智能算法、图像处理、机器学习、深度学习",
+      "profileUrl": "https://ai.nankai.edu.cn/info/1256/6068.htm",
+      "sourcePageUrl": "https://ai.nankai.edu.cn/szdw/fjs_fyjy_.htm"
+    },
+    {
+      "officialId": "https://ai.nankai.edu.cn/info/1034/6615.htm",
+      "name": "王润花",
+      "title": "副教授",
+      "section": "副教授(副研究员)",
+      "affiliation": "机器人与信息自动化研究所",
+      "researchDirections": "移动机器人，视觉伺服，运动规划",
+      "profileUrl": "https://ai.nankai.edu.cn/info/1034/6615.htm",
+      "sourcePageUrl": "https://ai.nankai.edu.cn/szdw/fjs_fyjy_.htm"
+    },
+    {
+      "officialId": "https://ai.nankai.edu.cn/info/1255/6065.htm",
+      "name": "王翔宇",
+      "title": "副教授",
+      "section": "副教授(副研究员)",
+      "affiliation": "机器人与信息自动化研究所",
+      "researchDirections": "经自然腔道手术机器人",
+      "profileUrl": "https://ai.nankai.edu.cn/info/1255/6065.htm",
+      "sourcePageUrl": "https://ai.nankai.edu.cn/szdw/fjs_fyjy_.htm"
+    },
+    {
+      "officialId": "https://ai.nankai.edu.cn/info/1034/2808.htm",
+      "name": "吴民",
+      "title": "副教授",
+      "section": "副教授(副研究员)",
+      "affiliation": "自动化与智能科学系",
+      "researchDirections": "通信网络，Linux/Unix软件开发，物流和供应链管理",
+      "profileUrl": "https://ai.nankai.edu.cn/info/1034/2808.htm",
+      "sourcePageUrl": "https://ai.nankai.edu.cn/szdw/fjs_fyjy_.htm"
+    },
+    {
+      "officialId": "https://ai.nankai.edu.cn/info/1034/6561.htm",
+      "name": "谢珂迪",
+      "title": "副教授",
+      "section": "副教授(副研究员)",
+      "affiliation": "机器人与信息自动化研究所",
+      "researchDirections": "数据驱动最优控制、多智能体协同调控、机器人运动规划与调控",
+      "profileUrl": "https://ai.nankai.edu.cn/info/1034/6561.htm",
+      "sourcePageUrl": "https://ai.nankai.edu.cn/szdw/fjs_fyjy_.htm"
+    },
+    {
+      "officialId": "https://ai.nankai.edu.cn/info/1034/4662.htm",
+      "name": "徐晓轩",
+      "title": "副教授",
+      "section": "副教授(副研究员)",
+      "affiliation": "机器智能研究所",
+      "researchDirections": "光电传感、机器视觉、光学光谱测量、北斗5G通讯、智能算法",
+      "profileUrl": "https://ai.nankai.edu.cn/info/1034/4662.htm",
+      "sourcePageUrl": "https://ai.nankai.edu.cn/szdw/fjs_fyjy_.htm"
+    },
+    {
+      "officialId": "https://ai.nankai.edu.cn/info/1281/6423.htm",
+      "name": "武毅男",
+      "title": "副教授",
+      "section": "副教授(副研究员)",
+      "affiliation": "机器人与信息自动化研究所",
+      "researchDirections": "微型仿生机器人、微纳操作机器人、智能驱动器建模与控制",
+      "profileUrl": "https://ai.nankai.edu.cn/info/1281/6423.htm",
+      "sourcePageUrl": "https://ai.nankai.edu.cn/szdw/fjs_fyjy_.htm"
+    },
+    {
+      "officialId": "https://ai.nankai.edu.cn/info/1034/5389.htm",
+      "name": "袁明星",
+      "title": "副教授",
+      "section": "副教授(副研究员)",
+      "affiliation": "机器人与信息自动化研究所",
+      "researchDirections": "人机交互与智能操作、机器人智能感知、机器人运动规划与控制",
+      "profileUrl": "https://ai.nankai.edu.cn/info/1034/5389.htm",
+      "sourcePageUrl": "https://ai.nankai.edu.cn/szdw/fjs_fyjy_.htm"
+    },
+    {
+      "officialId": "https://ai.nankai.edu.cn/info/1251/6248.htm",
+      "name": "吴庆祥",
+      "title": "副教授",
+      "section": "副教授(副研究员)",
+      "affiliation": "机器人与信息自动化研究所",
+      "researchDirections": "微低重力模拟系统、欠驱动机器人、仿生机器人、变结构机器人、软体机器人、基于学习的智能控制及应用",
+      "profileUrl": "https://ai.nankai.edu.cn/info/1251/6248.htm",
+      "sourcePageUrl": "https://ai.nankai.edu.cn/szdw/fjs_fyjy_.htm"
+    },
+    {
+      "officialId": "https://ai.nankai.edu.cn/info/1207/6492.htm",
+      "name": "杨桐",
+      "title": "副教授",
+      "section": "副教授(副研究员)",
+      "affiliation": "机器人与信息自动化研究所",
+      "researchDirections": "欠驱动机器人、气动人工肌肉机器人、基于强化学习的智能算法设计与控制",
+      "profileUrl": "https://ai.nankai.edu.cn/info/1207/6492.htm",
+      "sourcePageUrl": "https://ai.nankai.edu.cn/szdw/fjs_fyjy_.htm"
+    },
+    {
+      "officialId": "https://ai.nankai.edu.cn/info/1280/6321.htm",
+      "name": "赵振杰",
+      "title": "副教授",
+      "section": "副教授(副研究员)",
+      "affiliation": "机器人与信息自动化研究所",
+      "researchDirections": "具身智能、基础模型、博弈智能",
+      "profileUrl": "https://ai.nankai.edu.cn/info/1280/6321.htm",
+      "sourcePageUrl": "https://ai.nankai.edu.cn/szdw/fjs_fyjy_.htm"
+    },
+    {
+      "officialId": "https://ai.nankai.edu.cn/info/1231/5760.htm",
+      "name": "毕聪",
+      "title": "讲师",
+      "section": "讲师",
+      "affiliation": "自动化系",
+      "researchDirections": "多智能体系统协同控制，时滞系统控制，非线性控制等",
+      "profileUrl": "https://ai.nankai.edu.cn/info/1231/5760.htm",
+      "sourcePageUrl": "https://ai.nankai.edu.cn/szdw/j_s.htm"
+    },
+    {
+      "officialId": "https://ai.nankai.edu.cn/info/1035/4579.htm",
+      "name": "党宇",
+      "title": "讲师",
+      "section": "讲师",
+      "affiliation": "机器人与信息自动化研究所",
+      "researchDirections": "软体医疗机器人，折纸机器人，拉曼光谱",
+      "profileUrl": "https://ai.nankai.edu.cn/info/1035/4579.htm",
+      "sourcePageUrl": "https://ai.nankai.edu.cn/szdw/j_s.htm"
+    },
+    {
+      "officialId": "https://ai.nankai.edu.cn/info/1206/5678.htm",
+      "name": "黎建宇",
+      "title": "讲师",
+      "section": "讲师",
+      "affiliation": "南开大学机器智能天津市顶尖科学家工作室",
+      "researchDirections": "人工智能、进化计算、群体智能与大模型",
+      "profileUrl": "https://ai.nankai.edu.cn/info/1206/5678.htm",
+      "sourcePageUrl": "https://ai.nankai.edu.cn/szdw/j_s.htm"
+    },
+    {
+      "officialId": "https://ai.nankai.edu.cn/info/1245/5924.htm",
+      "name": "韩明静",
+      "title": "讲师",
+      "section": "讲师",
+      "affiliation": "自动化与智能科学系",
+      "researchDirections": "图学习、机器学习与数据挖掘",
+      "profileUrl": "https://ai.nankai.edu.cn/info/1245/5924.htm",
+      "sourcePageUrl": "https://ai.nankai.edu.cn/szdw/j_s.htm"
+    },
+    {
+      "officialId": "https://ai.nankai.edu.cn/info/1035/4642.htm",
+      "name": "王斌",
+      "title": "讲师",
+      "section": "讲师",
+      "affiliation": "机器智能研究所",
+      "researchDirections": "光电传感、机器视觉、光学光谱测量、北斗5G通讯、智能算法",
+      "profileUrl": "https://ai.nankai.edu.cn/info/1035/4642.htm",
+      "sourcePageUrl": "https://ai.nankai.edu.cn/szdw/j_s.htm"
+    },
+    {
+      "officialId": "https://ai.nankai.edu.cn/info/1035/4665.htm",
+      "name": "张晶",
+      "title": "讲师",
+      "section": "讲师",
+      "affiliation": "机器智能研究所",
+      "researchDirections": "网络资源优化与智能配置、智能无线网络、机器学习与人工智能",
+      "profileUrl": "https://ai.nankai.edu.cn/info/1035/4665.htm",
+      "sourcePageUrl": "https://ai.nankai.edu.cn/szdw/j_s.htm"
+    },
+    {
+      "officialId": "https://ai.nankai.edu.cn/info/1296/6332.htm",
+      "name": "张艺荻",
+      "title": "讲师",
+      "section": "讲师",
+      "affiliation": "机器人与信息自动化研究所",
+      "researchDirections": "微纳操作、机器人化动物克隆、微流控",
+      "profileUrl": "https://ai.nankai.edu.cn/info/1296/6332.htm",
+      "sourcePageUrl": "https://ai.nankai.edu.cn/szdw/j_s.htm"
+    }
+  ]
+}

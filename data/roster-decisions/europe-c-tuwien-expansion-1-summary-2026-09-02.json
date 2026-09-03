@@ -1,0 +1,42 @@
+{
+  "schemaVersion": 1,
+  "snapshotAt": "2026-09-02",
+  "unitId": "tuwien-informatics",
+  "sourceDecisionFile": "data/roster-decisions/tuwien-informatics-2026-09-02.json",
+  "proposalModule": "app/europe-c-tuwien-roster-pi-expansion-1.ts",
+  "portraitDirectory": "public/portraits/europe-c-roster-2026",
+  "readyCount": 11,
+  "ready": [
+    "sabine-andergassen-tuwien-roster",
+    "thomas-eiter-tuwien-roster",
+    "margrit-gelautz-tuwien-roster",
+    "allan-hanbury-tuwien-roster",
+    "pedro-hermosilla-tuwien-roster",
+    "katja-hose-tuwien-roster",
+    "peter-knees-tuwien-roster",
+    "silvia-miksch-tuwien-roster",
+    "julia-neidhardt-tuwien-roster",
+    "stefan-neumann-tuwien-roster",
+    "magdalena-ortiz-tuwien-roster"
+  ],
+  "deferredCount": 4,
+  "deferred": [
+    {
+      "name": "Shqiponja Ahmetaj",
+      "reason": "TU Wien official page currently exposes title and research unit but no biography or research description; defer until a first-party CV/homepage is verified."
+    },
+    {
+      "name": "Guillaume Bellec",
+      "reason": "TU Wien official page currently exposes title and research unit but no biography or research description; defer until the linked first-party homepage is verified."
+    },
+    {
+      "name": "Tatjana Chavdarova",
+      "reason": "TU Wien official page currently exposes title and research unit but no biography or research description; defer until the linked first-party homepage is verified."
+    },
+    {
+      "name": "Ismail Ilkan Ceylan",
+      "reason": "The portrait URL frozen in the official roster returns HTML instead of an image; defer until another first-party portrait is verified."
+    }
+  ],
+  "evidencePolicy": "Adviser, student and industry flow claims are included only when explicitly stated on a first-party page. Coauthorship, lab membership and project participation are not converted into lineage or placement edges."
+}

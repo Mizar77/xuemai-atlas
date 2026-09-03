@@ -1,0 +1,2317 @@
+{
+  "schemaVersion": 1,
+  "unitId": "stanford-ee",
+  "unitUrl": "https://ee.stanford.edu/people/faculty",
+  "snapshotAt": "2026-09-02",
+  "rosterArtifact": "data/official-rosters/stanford-ee-all-faculty-2026-09-02.json",
+  "officialRosterCount": 150,
+  "decisionCount": 150,
+  "counts": {
+    "excluded_duplicate": 20,
+    "include_new_pi": 27,
+    "excluded_non_pi": 46,
+    "excluded_non_ai_cs": 16,
+    "excluded_historical": 39,
+    "pending_profile_verification": 1,
+    "included_existing": 1
+  },
+  "decisions": [
+    {
+      "officialId": "https://profiles.stanford.edu/sara-achour",
+      "name": "Sara Achour",
+      "profileUrl": "https://profiles.stanford.edu/sara-achour",
+      "portraitUrl": "https://profiles.stanford.edu/proxy/api/cap/profiles/246459/resources/profilephoto/350x522.1787872051.jpg",
+      "title": "Assistant Professor",
+      "areas": [
+        "Information and coding theory, communications, signal processing",
+        "Computer architecture, security, hardware/software systems",
+        "Energy, environment, and sustainability"
+      ],
+      "officialSection": null,
+      "sourcePageUrl": "https://ee.stanford.edu/people/faculty",
+      "decision": "excluded_duplicate",
+      "reason": "同一人物已在本批次 stanford-cs unit 逐人处理；本 EE officialId 保留重复判断。",
+      "evidence": "Assistant Professor; Information and coding theory, communications, signal processing | Computer architecture, security, hardware/software systems | Energy, environment, and sustainability"
+    },
+    {
+      "officialId": "http://graphics.stanford.edu/~maneesh/",
+      "name": "Maneesh Agrawala",
+      "profileUrl": "http://graphics.stanford.edu/~maneesh/",
+      "portraitUrl": "https://profiles.stanford.edu/images/placeholder-350x522.png",
+      "title": "Courtesy Professor Courtesy via : Computer Science",
+      "areas": [],
+      "officialSection": null,
+      "sourcePageUrl": "https://ee.stanford.edu/people/faculty",
+      "decision": "excluded_duplicate",
+      "reason": "同一人物已在本批次 stanford-cs unit 逐人处理；本 EE officialId 保留重复判断。",
+      "evidence": "Courtesy Professor Courtesy via : Computer Science; ",
+      "atlasPersonId": "maneesh-agrawala-lineage"
+    },
+    {
+      "officialId": "https://arbabianlab.stanford.edu/",
+      "name": "Amin Arbabian",
+      "profileUrl": "https://arbabianlab.stanford.edu/",
+      "portraitUrl": "https://profiles.stanford.edu/proxy/api/cap/profiles/42510/resources/profilephoto/350x522.1787872051.jpg",
+      "title": "Professor",
+      "areas": [
+        "Biomed devices, sensors, and systems",
+        "Integrated Circuits and Systems",
+        "Computational Sensing, Imaging, and Display"
+      ],
+      "officialSection": null,
+      "sourcePageUrl": "https://ee.stanford.edu/people/faculty",
+      "decision": "include_new_pi",
+      "reason": "Stanford EE 官方名录确认当前独立教师身份，研究 area 属于 AI/ML/优化、计算成像、信号处理、计算架构或机器人主线。",
+      "evidence": "Professor; Biomed devices, sensors, and systems | Integrated Circuits and Systems | Computational Sensing, Imaging, and Display"
+    },
+    {
+      "officialId": "https://hallehbalch.github.io/",
+      "name": "Halleh Balch",
+      "profileUrl": "https://hallehbalch.github.io/",
+      "portraitUrl": "https://profiles.stanford.edu/proxy/api/cap/profiles/260124/resources/profilephoto/350x522.1787854876.jpg",
+      "title": "Courtesy Assistant Professor Courtesy via : Oceans",
+      "areas": [
+        "New Materials, Nanofabrication, and Devices",
+        "Biomed devices, sensors, and systems",
+        "Energy, environment, and sustainability",
+        "Quantum science and engineering, Photonics"
+      ],
+      "officialSection": null,
+      "sourcePageUrl": "https://ee.stanford.edu/people/faculty",
+      "decision": "excluded_non_pi",
+      "reason": "Stanford EE 官方职称为 courtesy/adjunct/teaching/practice 等非本单位核心独立 PI 类。",
+      "evidence": "Courtesy Assistant Professor Courtesy via : Oceans"
+    },
+    {
+      "officialId": "https://profiles.stanford.edu/nicholas-bambos",
+      "name": "Nicholas Bambos",
+      "profileUrl": "https://profiles.stanford.edu/nicholas-bambos",
+      "portraitUrl": "https://profiles.stanford.edu/proxy/api/cap/profiles/8041/resources/profilephoto/350x522.1787872051.jpg",
+      "title": "Professor",
+      "areas": [
+        "Information and coding theory, communications, signal processing",
+        "AI, machine learning, optimization",
+        "Energy, environment, and sustainability"
+      ],
+      "officialSection": null,
+      "sourcePageUrl": "https://ee.stanford.edu/people/faculty",
+      "decision": "include_new_pi",
+      "reason": "Stanford EE 官方名录确认当前独立教师身份，研究 area 属于 AI/ML/优化、计算成像、信号处理、计算架构或机器人主线。",
+      "evidence": "Professor; Information and coding theory, communications, signal processing | AI, machine learning, optimization | Energy, environment, and sustainability"
+    },
+    {
+      "officialId": "http://www.stanford.edu/~bayati/",
+      "name": "Mohsen Bayati",
+      "profileUrl": "http://www.stanford.edu/~bayati/",
+      "portraitUrl": "https://profiles.stanford.edu/proxy/api/cap/profiles/14077/resources/profilephoto/350x522.1787854876.jpg",
+      "title": "Courtesy Professor Courtesy via : Business",
+      "areas": [],
+      "officialSection": null,
+      "sourcePageUrl": "https://ee.stanford.edu/people/faculty",
+      "decision": "excluded_non_pi",
+      "reason": "Stanford EE 官方职称为 courtesy/adjunct/teaching/practice 等非本单位核心独立 PI 类。",
+      "evidence": "Courtesy Professor Courtesy via : Business"
+    },
+    {
+      "officialId": "http://bentgroup.stanford.edu/",
+      "name": "Stacey Bent",
+      "profileUrl": "http://bentgroup.stanford.edu/",
+      "portraitUrl": "https://profiles.stanford.edu/proxy/api/cap/profiles/8043/resources/profilephoto/350x522.1787854876.jpg",
+      "title": "Courtesy Professor Courtesy via : Chemical Engineering",
+      "areas": [
+        "New Materials, Nanofabrication, and Devices"
+      ],
+      "officialSection": null,
+      "sourcePageUrl": "https://ee.stanford.edu/people/faculty",
+      "decision": "excluded_non_pi",
+      "reason": "Stanford EE 官方职称为 courtesy/adjunct/teaching/practice 等非本单位核心独立 PI 类。",
+      "evidence": "Courtesy Professor Courtesy via : Chemical Engineering"
+    },
+    {
+      "officialId": "http://web.stanford.edu/group/brainsinsilicon/",
+      "name": "Kwabena Boahen",
+      "profileUrl": "http://web.stanford.edu/group/brainsinsilicon/",
+      "portraitUrl": "https://profiles.stanford.edu/proxy/api/cap/profiles/7204/resources/profilephoto/350x522.1787872051.jpg",
+      "title": "Professor",
+      "areas": [
+        "Biomed devices, sensors, and systems",
+        "Computer architecture, security, hardware/software systems",
+        "Integrated Circuits and Systems"
+      ],
+      "officialSection": null,
+      "sourcePageUrl": "https://ee.stanford.edu/people/faculty",
+      "decision": "include_new_pi",
+      "reason": "Stanford EE 官方名录确认当前独立教师身份，研究 area 属于 AI/ML/优化、计算成像、信号处理、计算架构或机器人主线。",
+      "evidence": "Professor; Biomed devices, sensors, and systems | Computer architecture, security, hardware/software systems | Integrated Circuits and Systems"
+    },
+    {
+      "officialId": "http://crypto.stanford.edu/~dabo/",
+      "name": "Dan Boneh",
+      "profileUrl": "http://crypto.stanford.edu/~dabo/",
+      "portraitUrl": "https://profiles.stanford.edu/proxy/api/cap/profiles/10304/resources/profilephoto/350x522.1787872051.jpg",
+      "title": "Professor",
+      "areas": [
+        "Information and coding theory, communications, signal processing",
+        "Computer architecture, security, hardware/software systems",
+        "Software systems, security, distributed systems and networks"
+      ],
+      "officialSection": null,
+      "sourcePageUrl": "https://ee.stanford.edu/people/faculty",
+      "decision": "excluded_duplicate",
+      "reason": "同一人物已在本批次 stanford-cs unit 逐人处理；本 EE officialId 保留重复判断。",
+      "evidence": "Professor; Information and coding theory, communications, signal processing | Computer architecture, security, hardware/software systems | Software systems, security, distributed systems and networks"
+    },
+    {
+      "officialId": "http://web.stanford.edu/~boyd/",
+      "name": "Stephen P. Boyd",
+      "profileUrl": "http://web.stanford.edu/~boyd/",
+      "portraitUrl": "https://profiles.stanford.edu/proxy/api/cap/profiles/18537/resources/profilephoto/350x522.1787872051.jpg",
+      "title": "Professor",
+      "areas": [
+        "AI, machine learning, optimization",
+        "Energy, environment, and sustainability",
+        "Robotics, control"
+      ],
+      "officialSection": null,
+      "sourcePageUrl": "https://ee.stanford.edu/people/faculty",
+      "decision": "include_new_pi",
+      "reason": "Stanford EE 官方名录确认当前独立教师身份，研究 area 属于 AI/ML/优化、计算成像、信号处理、计算架构或机器人主线。",
+      "evidence": "Professor; AI, machine learning, optimization | Energy, environment, and sustainability | Robotics, control"
+    },
+    {
+      "officialId": "http://rsl.stanford.edu/kbpauly",
+      "name": "Kim Butts Pauly",
+      "profileUrl": "http://rsl.stanford.edu/kbpauly",
+      "portraitUrl": "https://profiles.stanford.edu/proxy/api/cap/profiles/4558/resources/profilephoto/350x522.1787854876.jpg",
+      "title": "Courtesy Professor Courtesy via : Radiology",
+      "areas": [],
+      "officialSection": null,
+      "sourcePageUrl": "https://ee.stanford.edu/people/faculty",
+      "decision": "excluded_non_pi",
+      "reason": "Stanford EE 官方职称为 courtesy/adjunct/teaching/practice 等非本单位核心独立 PI 类。",
+      "evidence": "Courtesy Professor Courtesy via : Radiology"
+    },
+    {
+      "officialId": "https://candes.su.domains/",
+      "name": "Emmanuel Candes",
+      "profileUrl": "https://candes.su.domains/",
+      "portraitUrl": "https://profiles.stanford.edu/proxy/api/cap/profiles/14758/resources/profilephoto/350x522.1787854876.jpg",
+      "title": "Courtesy Professor Courtesy via : Math and Statistics",
+      "areas": [
+        "Information and coding theory, communications, signal processing",
+        "Signal processing and control",
+        "AI, machine learning, optimization"
+      ],
+      "officialSection": null,
+      "sourcePageUrl": "https://ee.stanford.edu/people/faculty",
+      "decision": "excluded_non_pi",
+      "reason": "Stanford EE 官方职称为 courtesy/adjunct/teaching/practice 等非本单位核心独立 PI 类。",
+      "evidence": "Courtesy Professor Courtesy via : Math and Statistics"
+    },
+    {
+      "officialId": "http://neurosurgery.stanford.edu/research/chichilnisky/",
+      "name": "E.J. Chichilnisky",
+      "profileUrl": "http://neurosurgery.stanford.edu/research/chichilnisky/",
+      "portraitUrl": "https://profiles.stanford.edu/proxy/api/cap/profiles/50473/resources/profilephoto/350x522.1787854876.jpg",
+      "title": "Courtesy Professor Courtesy via : Neurosurgery; Opthalmalogy",
+      "areas": [
+        "Biomed devices, sensors, and systems",
+        "AI, machine learning, optimization"
+      ],
+      "officialSection": null,
+      "sourcePageUrl": "https://ee.stanford.edu/people/faculty",
+      "decision": "excluded_non_pi",
+      "reason": "Stanford EE 官方职称为 courtesy/adjunct/teaching/practice 等非本单位核心独立 PI 类。",
+      "evidence": "Courtesy Professor Courtesy via : Neurosurgery; Opthalmalogy"
+    },
+    {
+      "officialId": "https://profiles.stanford.edu/joonhee-choi",
+      "name": "Joonhee Choi",
+      "profileUrl": "https://profiles.stanford.edu/joonhee-choi",
+      "portraitUrl": "https://profiles.stanford.edu/proxy/api/cap/profiles/298389/resources/profilephoto/350x522.1787872051.jpg",
+      "title": "Assistant Professor",
+      "areas": [
+        "New Materials, Nanofabrication, and Devices",
+        "Quantum science and engineering, Photonics"
+      ],
+      "officialSection": null,
+      "sourcePageUrl": "https://ee.stanford.edu/people/faculty",
+      "decision": "excluded_non_ai_cs",
+      "reason": "Stanford EE 官方研究 area 未落入本图谱 AI/ML/CV/机器人/计算成像/智能系统范围。",
+      "evidence": "New Materials, Nanofabrication, and Devices | Quantum science and engineering, Photonics"
+    },
+    {
+      "officialId": "http://web.stanford.edu/people/srabanti",
+      "name": "Srabanti Chowdhury",
+      "profileUrl": "http://web.stanford.edu/people/srabanti",
+      "portraitUrl": "https://profiles.stanford.edu/proxy/api/cap/profiles/208327/resources/profilephoto/350x522.1787872051.jpg",
+      "title": "Professor",
+      "areas": [
+        "New Materials, Nanofabrication, and Devices",
+        "Integrated Circuits and Systems",
+        "Energy, environment, and sustainability"
+      ],
+      "officialSection": null,
+      "sourcePageUrl": "https://ee.stanford.edu/people/faculty",
+      "decision": "excluded_non_ai_cs",
+      "reason": "Stanford EE 官方研究 area 未落入本图谱 AI/ML/CV/机器人/计算成像/智能系统范围。",
+      "evidence": "New Materials, Nanofabrication, and Devices | Integrated Circuits and Systems | Energy, environment, and sustainability"
+    },
+    {
+      "officialId": "https://profiles.stanford.edu/john-cioffi",
+      "name": "John M. Cioffi",
+      "profileUrl": "https://profiles.stanford.edu/john-cioffi",
+      "portraitUrl": "https://profiles.stanford.edu/proxy/api/cap/profiles/41250/resources/profilephoto/350x522.1787872051.jpg",
+      "title": "Emeritus",
+      "areas": [
+        "Information and coding theory, communications, signal processing"
+      ],
+      "officialSection": null,
+      "sourcePageUrl": "https://ee.stanford.edu/people/faculty",
+      "decision": "excluded_historical",
+      "reason": "官方职称为 emeritus/retired 类，不是当前 PI。",
+      "evidence": "Emeritus"
+    },
+    {
+      "officialId": "https://profiles.stanford.edu/266863",
+      "name": "Todd Coleman",
+      "profileUrl": "https://profiles.stanford.edu/266863",
+      "portraitUrl": "https://profiles.stanford.edu/proxy/api/cap/profiles/266863/resources/profilephoto/350x522.1787854876.jpg",
+      "title": "Courtesy Associate Professor Courtesy via : Bioengineering",
+      "areas": [],
+      "officialSection": null,
+      "sourcePageUrl": "https://ee.stanford.edu/people/faculty",
+      "decision": "excluded_non_pi",
+      "reason": "Stanford EE 官方职称为 courtesy/adjunct/teaching/practice 等非本单位核心独立 PI 类。",
+      "evidence": "Courtesy Associate Professor Courtesy via : Bioengineering"
+    },
+    {
+      "officialId": "https://profiles.stanford.edu/daniel-congreve",
+      "name": "Daniel Congreve",
+      "profileUrl": "https://profiles.stanford.edu/daniel-congreve",
+      "portraitUrl": "https://profiles.stanford.edu/proxy/api/cap/profiles/230348/resources/profilephoto/350x522.1787872051.jpg",
+      "title": "Assistant Professor",
+      "areas": [
+        "New Materials, Nanofabrication, and Devices",
+        "Energy, environment, and sustainability",
+        "Quantum science and engineering, Photonics"
+      ],
+      "officialSection": null,
+      "sourcePageUrl": "https://ee.stanford.edu/people/faculty",
+      "decision": "excluded_non_ai_cs",
+      "reason": "Stanford EE 官方研究 area 未落入本图谱 AI/ML/CV/机器人/计算成像/智能系统范围。",
+      "evidence": "New Materials, Nanofabrication, and Devices | Energy, environment, and sustainability | Quantum science and engineering, Photonics"
+    },
+    {
+      "officialId": "https://profiles.stanford.edu/donald-cox",
+      "name": "Donald C. Cox",
+      "profileUrl": "https://profiles.stanford.edu/donald-cox",
+      "portraitUrl": "https://profiles.stanford.edu/proxy/api/cap/profiles/50664/resources/profilephoto/350x522.1787872051.jpg",
+      "title": "Emeritus",
+      "areas": [],
+      "officialSection": null,
+      "sourcePageUrl": "https://ee.stanford.edu/people/faculty",
+      "decision": "excluded_historical",
+      "reason": "官方职称为 emeritus/retired 类，不是当前 PI。",
+      "evidence": "Emeritus"
+    },
+    {
+      "officialId": "https://profiles.stanford.edu/amir-dembo",
+      "name": "Amir Dembo",
+      "profileUrl": "https://profiles.stanford.edu/amir-dembo",
+      "portraitUrl": "https://profiles.stanford.edu/proxy/api/cap/profiles/8838/resources/profilephoto/350x522.1787854876.jpg",
+      "title": "Courtesy Professor Courtesy via : Statistics / Mathematics",
+      "areas": [
+        "Information and coding theory, communications, signal processing",
+        "Signal processing and control",
+        "AI, machine learning, optimization"
+      ],
+      "officialSection": null,
+      "sourcePageUrl": "https://ee.stanford.edu/people/faculty",
+      "decision": "excluded_non_pi",
+      "reason": "Stanford EE 官方职称为 courtesy/adjunct/teaching/practice 等非本单位核心独立 PI 类。",
+      "evidence": "Courtesy Professor Courtesy via : Statistics / Mathematics"
+    },
+    {
+      "officialId": "https://bammlab.stanford.edu/home",
+      "name": "Utkan Demirci",
+      "profileUrl": "https://bammlab.stanford.edu/home",
+      "portraitUrl": "https://profiles.stanford.edu/proxy/api/cap/profiles/52741/resources/profilephoto/350x522.1787854876.jpg",
+      "title": "Courtesy Professor Courtesy via : Radiology",
+      "areas": [],
+      "officialSection": null,
+      "sourcePageUrl": "https://ee.stanford.edu/people/faculty",
+      "decision": "excluded_non_pi",
+      "reason": "Stanford EE 官方职称为 courtesy/adjunct/teaching/practice 等非本单位核心独立 PI 类。",
+      "evidence": "Courtesy Professor Courtesy via : Radiology"
+    },
+    {
+      "officialId": "https://profiles.stanford.edu/angelo-dragone",
+      "name": "Angelo Dragone",
+      "profileUrl": "https://profiles.stanford.edu/angelo-dragone",
+      "portraitUrl": "https://profiles.stanford.edu/proxy/api/cap/profiles/136593/resources/profilephoto/350x522.1787854876.jpg",
+      "title": "Courtesy Professor Courtesy via : Energy Sciences, SLAC",
+      "areas": [],
+      "officialSection": null,
+      "sourcePageUrl": "https://ee.stanford.edu/people/faculty",
+      "decision": "excluded_non_pi",
+      "reason": "Stanford EE 官方职称为 courtesy/adjunct/teaching/practice 等非本单位核心独立 PI 类。",
+      "evidence": "Courtesy Professor Courtesy via : Energy Sciences, SLAC"
+    },
+    {
+      "officialId": "https://www.druckmannlab.com/research.html",
+      "name": "Shaul Druckmann",
+      "profileUrl": "https://www.druckmannlab.com/research.html",
+      "portraitUrl": "https://profiles.stanford.edu/images/placeholder-350x522.png",
+      "title": "Courtesy Associate Professor",
+      "areas": [
+        "Biomed devices, sensors, and systems",
+        "Signal processing and control",
+        "AI, machine learning, optimization"
+      ],
+      "officialSection": null,
+      "sourcePageUrl": "https://ee.stanford.edu/people/faculty",
+      "decision": "excluded_non_pi",
+      "reason": "Stanford EE 官方职称为 courtesy/adjunct/teaching/practice 等非本单位核心独立 PI 类。",
+      "evidence": "Courtesy Associate Professor"
+    },
+    {
+      "officialId": "https://web.stanford.edu/~jduchi/",
+      "name": "John Duchi",
+      "profileUrl": "https://web.stanford.edu/~jduchi/",
+      "portraitUrl": "https://profiles.stanford.edu/proxy/api/cap/profiles/61602/resources/profilephoto/350x522.1787872051.jpg",
+      "title": "Associate Professor",
+      "areas": [
+        "Information and coding theory, communications, signal processing",
+        "Signal processing and control",
+        "AI, machine learning, optimization"
+      ],
+      "officialSection": null,
+      "sourcePageUrl": "https://ee.stanford.edu/people/faculty",
+      "decision": "include_new_pi",
+      "reason": "Stanford EE 官方名录确认当前独立教师身份，研究 area 属于 AI/ML/优化、计算成像、信号处理、计算架构或机器人主线。",
+      "evidence": "Associate Professor; Information and coding theory, communications, signal processing | Signal processing and control | AI, machine learning, optimization"
+    },
+    {
+      "officialId": "http://www-tcad.stanford.edu/tcad/bios/dutton.html",
+      "name": "Robert Dutton",
+      "profileUrl": "http://www-tcad.stanford.edu/tcad/bios/dutton.html",
+      "portraitUrl": "https://profiles.stanford.edu/proxy/api/cap/profiles/41770/resources/profilephoto/350x522.1787872051.jpg",
+      "title": "Emeritus",
+      "areas": [
+        "New Materials, Nanofabrication, and Devices"
+      ],
+      "officialSection": null,
+      "sourcePageUrl": "https://ee.stanford.edu/people/faculty",
+      "decision": "excluded_historical",
+      "reason": "官方职称为 emeritus/retired 类，不是当前 PI。",
+      "evidence": "Emeritus"
+    },
+    {
+      "officialId": "http://isl.stanford.edu/~abbas/",
+      "name": "Abbas El Gamal",
+      "profileUrl": "http://isl.stanford.edu/~abbas/",
+      "portraitUrl": "https://profiles.stanford.edu/proxy/api/cap/profiles/9399/resources/profilephoto/350x522.1787872051.jpg",
+      "title": "Professor",
+      "areas": [
+        "Information and coding theory, communications, signal processing",
+        "AI, machine learning, optimization",
+        "Energy, environment, and sustainability"
+      ],
+      "officialSection": null,
+      "sourcePageUrl": "https://ee.stanford.edu/people/faculty",
+      "decision": "include_new_pi",
+      "reason": "Stanford EE 官方名录确认当前独立教师身份，研究 area 属于 AI/ML/优化、计算成像、信号处理、计算架构或机器人主线。",
+      "evidence": "Professor; Information and coding theory, communications, signal processing | AI, machine learning, optimization | Energy, environment, and sustainability"
+    },
+    {
+      "officialId": "http://profiles.stanford.edu/sigrid-close",
+      "name": "Sigrid Elschot",
+      "profileUrl": "http://profiles.stanford.edu/sigrid-close",
+      "portraitUrl": "https://profiles.stanford.edu/proxy/api/cap/profiles/45440/resources/profilephoto/350x522.1787854876.jpg",
+      "title": "Courtesy Professor Courtesy via : Aeronautics and Astronautics",
+      "areas": [
+        "Environmental sensors, embedded systems, remote sensing",
+        "Signal processing and control",
+        "Energy, environment, and sustainability"
+      ],
+      "officialSection": null,
+      "sourcePageUrl": "https://ee.stanford.edu/people/faculty",
+      "decision": "excluded_non_pi",
+      "reason": "Stanford EE 官方职称为 courtesy/adjunct/teaching/practice 等非本单位核心独立 PI 类。",
+      "evidence": "Courtesy Professor Courtesy via : Aeronautics and Astronautics"
+    },
+    {
+      "officialId": "http://web.stanford.edu/~engler/",
+      "name": "Dawson Engler",
+      "profileUrl": "http://web.stanford.edu/~engler/",
+      "portraitUrl": "https://profiles.stanford.edu/proxy/api/cap/profiles/41619/resources/profilephoto/350x522.1787872051.jpg",
+      "title": "Associate Professor",
+      "areas": [],
+      "officialSection": null,
+      "sourcePageUrl": "https://ee.stanford.edu/people/faculty",
+      "decision": "excluded_duplicate",
+      "reason": "同一人物已在本批次 stanford-cs unit 逐人处理；本 EE officialId 保留重复判断。",
+      "evidence": "Associate Professor; "
+    },
+    {
+      "officialId": "http://fanlab.stanford.edu/people",
+      "name": "Jonathan Fan",
+      "profileUrl": "http://fanlab.stanford.edu/people",
+      "portraitUrl": "https://profiles.stanford.edu/proxy/api/cap/profiles/52669/resources/profilephoto/350x522.1787872051.jpg",
+      "title": "Associate Professor",
+      "areas": [
+        "New Materials, Nanofabrication, and Devices",
+        "Energy, environment, and sustainability",
+        "Quantum science and engineering, Photonics"
+      ],
+      "officialSection": null,
+      "sourcePageUrl": "https://ee.stanford.edu/people/faculty",
+      "decision": "excluded_non_ai_cs",
+      "reason": "Stanford EE 官方研究 area 未落入本图谱 AI/ML/CV/机器人/计算成像/智能系统范围。",
+      "evidence": "New Materials, Nanofabrication, and Devices | Energy, environment, and sustainability | Quantum science and engineering, Photonics"
+    },
+    {
+      "officialId": "http://web.stanford.edu/~shanhui/",
+      "name": "Shanhui Fan",
+      "profileUrl": "http://web.stanford.edu/~shanhui/",
+      "portraitUrl": "https://profiles.stanford.edu/proxy/api/cap/profiles/9241/resources/profilephoto/350x522.1787872051.jpg",
+      "title": "Professor",
+      "areas": [
+        "Energy, environment, and sustainability",
+        "Quantum science and engineering, Photonics"
+      ],
+      "officialSection": null,
+      "sourcePageUrl": "https://ee.stanford.edu/people/faculty",
+      "decision": "excluded_non_ai_cs",
+      "reason": "Stanford EE 官方研究 area 未落入本图谱 AI/ML/CV/机器人/计算成像/智能系统范围。",
+      "evidence": "Energy, environment, and sustainability | Quantum science and engineering, Photonics"
+    },
+    {
+      "officialId": "https://ai.stanford.edu/~cbfinn",
+      "name": "Chelsea Finn",
+      "profileUrl": "https://ai.stanford.edu/~cbfinn",
+      "portraitUrl": "https://profiles.stanford.edu/proxy/api/cap/profiles/207671/resources/profilephoto/350x522.1787872051.jpg",
+      "title": "Assistant Professor",
+      "areas": [
+        "AI, machine learning, optimization",
+        "Robotics, control"
+      ],
+      "officialSection": null,
+      "sourcePageUrl": "https://ee.stanford.edu/people/faculty",
+      "decision": "excluded_duplicate",
+      "reason": "同一人物已在本批次 stanford-cs unit 逐人处理；本 EE officialId 保留重复判断。",
+      "evidence": "Assistant Professor; AI, machine learning, optimization | Robotics, control",
+      "atlasPersonId": "chelsea-finn-us"
+    },
+    {
+      "officialId": "https://appliedphysics.stanford.edu/users/surya-ganguli",
+      "name": "Surya Ganguli",
+      "profileUrl": "https://appliedphysics.stanford.edu/users/surya-ganguli",
+      "portraitUrl": "https://profiles.stanford.edu/proxy/api/cap/profiles/30110/resources/profilephoto/350x522.1787854876.jpg",
+      "title": "Courtesy Associate Professor Courtesy via : Applied Physics",
+      "areas": [],
+      "officialSection": null,
+      "sourcePageUrl": "https://ee.stanford.edu/people/faculty",
+      "decision": "excluded_non_pi",
+      "reason": "Stanford EE 官方职称为 courtesy/adjunct/teaching/practice 等非本单位核心独立 PI 类。",
+      "evidence": "Courtesy Associate Professor Courtesy via : Applied Physics"
+    },
+    {
+      "officialId": "http://web.stanford.edu/~gracegao/",
+      "name": "Grace X. Gao",
+      "profileUrl": "http://web.stanford.edu/~gracegao/",
+      "portraitUrl": "https://profiles.stanford.edu/proxy/api/cap/profiles/220235/resources/profilephoto/350x522.1787854876.jpg",
+      "title": "Courtesy Associate Professor Courtesy via : Aeronautics and Astronautics",
+      "areas": [
+        "Signal processing and control",
+        "AI, machine learning, optimization",
+        "Robotics, control"
+      ],
+      "officialSection": null,
+      "sourcePageUrl": "https://ee.stanford.edu/people/faculty",
+      "decision": "excluded_non_pi",
+      "reason": "Stanford EE 官方职称为 courtesy/adjunct/teaching/practice 等非本单位核心独立 PI 类。",
+      "evidence": "Courtesy Associate Professor Courtesy via : Aeronautics and Astronautics"
+    },
+    {
+      "officialId": "https://profiles.stanford.edu/james-gibbons",
+      "name": "James F. Gibbons",
+      "profileUrl": "https://profiles.stanford.edu/james-gibbons",
+      "portraitUrl": "https://profiles.stanford.edu/proxy/api/cap/profiles/41541/resources/profilephoto/350x522.1787872051.jpg",
+      "title": "Emeritus",
+      "areas": [],
+      "officialSection": null,
+      "sourcePageUrl": "https://ee.stanford.edu/people/faculty",
+      "decision": "excluded_historical",
+      "reason": "官方职称为 emeritus/retired 类，不是当前 PI。",
+      "evidence": "Emeritus"
+    },
+    {
+      "officialId": "http://ee.stanford.edu/~gill/",
+      "name": "John T. Gill III",
+      "profileUrl": "http://ee.stanford.edu/~gill/",
+      "portraitUrl": "https://profiles.stanford.edu/proxy/api/cap/profiles/16661/resources/profilephoto/350x522.1787872051.jpg",
+      "title": "Emeritus",
+      "areas": [],
+      "officialSection": null,
+      "sourcePageUrl": "https://ee.stanford.edu/people/faculty",
+      "decision": "excluded_historical",
+      "reason": "官方职称为 emeritus/retired 类，不是当前 PI。",
+      "evidence": "Emeritus"
+    },
+    {
+      "officialId": "http://web.stanford.edu/~bgirod/",
+      "name": "Bernd Girod",
+      "profileUrl": "http://web.stanford.edu/~bgirod/",
+      "portraitUrl": "https://profiles.stanford.edu/proxy/api/cap/profiles/14150/resources/profilephoto/350x522.1787872051.jpg",
+      "title": "Emeritus",
+      "areas": [
+        "Information and coding theory, communications, signal processing",
+        "Signal processing and control",
+        "Computational Sensing, Imaging, and Display"
+      ],
+      "officialSection": null,
+      "sourcePageUrl": "https://ee.stanford.edu/people/faculty",
+      "decision": "excluded_historical",
+      "reason": "官方职称为 emeritus/retired 类，不是当前 PI。",
+      "evidence": "Emeritus"
+    },
+    {
+      "officialId": "http://rsl.stanford.edu/glover",
+      "name": "Gary Glover",
+      "profileUrl": "http://rsl.stanford.edu/glover",
+      "portraitUrl": "https://profiles.stanford.edu/proxy/api/cap/profiles/4178/resources/profilephoto/350x522.1787854876.jpg",
+      "title": "Courtesy Professor Courtesy via : Radiology",
+      "areas": [],
+      "officialSection": null,
+      "sourcePageUrl": "https://ee.stanford.edu/people/faculty",
+      "decision": "excluded_non_pi",
+      "reason": "Stanford EE 官方职称为 courtesy/adjunct/teaching/practice 等非本单位核心独立 PI 类。",
+      "evidence": "Courtesy Professor Courtesy via : Radiology"
+    },
+    {
+      "officialId": "http://www.stanford.edu/~glynn/",
+      "name": "Peter Glynn",
+      "profileUrl": "http://www.stanford.edu/~glynn/",
+      "portraitUrl": "https://profiles.stanford.edu/proxy/api/cap/profiles/41236/resources/profilephoto/350x522.1787854876.jpg",
+      "title": "Courtesy Professor Courtesy via : Management Science and Engineering",
+      "areas": [],
+      "officialSection": null,
+      "sourcePageUrl": "https://ee.stanford.edu/people/faculty",
+      "decision": "excluded_non_pi",
+      "reason": "Stanford EE 官方职称为 courtesy/adjunct/teaching/practice 等非本单位核心独立 PI 类。",
+      "evidence": "Courtesy Professor Courtesy via : Management Science and Engineering"
+    },
+    {
+      "officialId": "https://profiles.stanford.edu/andrea-goldsmith",
+      "name": "Andrea Goldsmith",
+      "profileUrl": "https://profiles.stanford.edu/andrea-goldsmith",
+      "portraitUrl": "https://profiles.stanford.edu/proxy/api/cap/profiles/8912/resources/profilephoto/350x522.1787872051.jpg",
+      "title": "Emeritus",
+      "areas": [
+        "Information and coding theory, communications, signal processing",
+        "AI, machine learning, optimization"
+      ],
+      "officialSection": null,
+      "sourcePageUrl": "https://ee.stanford.edu/people/faculty",
+      "decision": "excluded_historical",
+      "reason": "官方职称为 emeritus/retired 类，不是当前 PI。",
+      "evidence": "Emeritus"
+    },
+    {
+      "officialId": "https://profiles.stanford.edu/joseph-goodman",
+      "name": "Joseph Goodman",
+      "profileUrl": "https://profiles.stanford.edu/joseph-goodman",
+      "portraitUrl": "https://profiles.stanford.edu/proxy/api/cap/profiles/50652/resources/profilephoto/350x522.1787872051.jpg",
+      "title": "Emeritus",
+      "areas": [],
+      "officialSection": null,
+      "sourcePageUrl": "https://ee.stanford.edu/people/faculty",
+      "decision": "excluded_historical",
+      "reason": "官方职称为 emeritus/retired 类，不是当前 PI。",
+      "evidence": "Emeritus"
+    },
+    {
+      "officialId": "https://profiles.stanford.edu/robert-gray",
+      "name": "Robert Gray",
+      "profileUrl": "https://profiles.stanford.edu/robert-gray",
+      "portraitUrl": "https://profiles.stanford.edu/proxy/api/cap/profiles/50689/resources/profilephoto/350x522.1787872051.jpg",
+      "title": "Emeritus",
+      "areas": [],
+      "officialSection": null,
+      "sourcePageUrl": "https://ee.stanford.edu/people/faculty",
+      "decision": "excluded_historical",
+      "reason": "官方职称为 emeritus/retired 类，不是当前 PI。",
+      "evidence": "Emeritus"
+    },
+    {
+      "officialId": "https://profiles.stanford.edu/leonidas-j.-guibas",
+      "name": "Leonidas J. Guibas",
+      "profileUrl": "https://profiles.stanford.edu/leonidas-j.-guibas",
+      "portraitUrl": "https://profiles.stanford.edu/proxy/api/cap/profiles/8099/resources/profilephoto/350x522.1787854876.jpg",
+      "title": "Courtesy Professor Courtesy via : Computer Science",
+      "areas": [],
+      "officialSection": null,
+      "sourcePageUrl": "https://ee.stanford.edu/people/faculty",
+      "decision": "excluded_non_pi",
+      "reason": "Stanford EE 官方职称为 courtesy/adjunct/teaching/practice 等非本单位核心独立 PI 类。",
+      "evidence": "Courtesy Professor Courtesy via : Computer Science"
+    },
+    {
+      "officialId": "https://graphics.stanford.edu/~hanrahan/",
+      "name": "Patrick M. Hanrahan",
+      "profileUrl": "https://graphics.stanford.edu/~hanrahan/",
+      "portraitUrl": "https://profiles.stanford.edu/proxy/api/cap/profiles/9753/resources/profilephoto/350x522.1787872051.jpg",
+      "title": "Emeritus",
+      "areas": [
+        "Computational Sensing, Imaging, and Display",
+        "Software systems, security, distributed systems and networks"
+      ],
+      "officialSection": null,
+      "sourcePageUrl": "https://ee.stanford.edu/people/faculty",
+      "decision": "excluded_historical",
+      "reason": "官方职称为 emeritus/retired 类，不是当前 PI。",
+      "evidence": "Emeritus"
+    },
+    {
+      "officialId": "http://rsl.stanford.edu/hargreaves",
+      "name": "Brian Hargreaves",
+      "profileUrl": "http://rsl.stanford.edu/hargreaves",
+      "portraitUrl": "https://profiles.stanford.edu/proxy/api/cap/profiles/6626/resources/profilephoto/350x522.1787854876.jpg",
+      "title": "Courtesy Professor Courtesy via : Radiology",
+      "areas": [],
+      "officialSection": null,
+      "sourcePageUrl": "https://ee.stanford.edu/people/faculty",
+      "decision": "excluded_non_pi",
+      "reason": "Stanford EE 官方职称为 courtesy/adjunct/teaching/practice 等非本单位核心独立 PI 类。",
+      "evidence": "Courtesy Professor Courtesy via : Radiology"
+    },
+    {
+      "officialId": "https://profiles.stanford.edu/stephen-harris",
+      "name": "Stephen E. Harris",
+      "profileUrl": "https://profiles.stanford.edu/stephen-harris",
+      "portraitUrl": "https://profiles.stanford.edu/proxy/api/cap/profiles/9513/resources/profilephoto/350x522.1787872051.jpg",
+      "title": "Emeritus",
+      "areas": [],
+      "officialSection": null,
+      "sourcePageUrl": "https://ee.stanford.edu/people/faculty",
+      "decision": "excluded_historical",
+      "reason": "官方职称为 emeritus/retired 类，不是当前 PI。",
+      "evidence": "Emeritus"
+    },
+    {
+      "officialId": "http://ee.stanford.edu/~harris/",
+      "name": "James S. Harris",
+      "profileUrl": "http://ee.stanford.edu/~harris/",
+      "portraitUrl": "https://profiles.stanford.edu/proxy/api/cap/profiles/8941/resources/profilephoto/350x522.1787872051.jpg",
+      "title": "Emeritus",
+      "areas": [
+        "New Materials, Nanofabrication, and Devices",
+        "Biomed devices, sensors, and systems"
+      ],
+      "officialSection": null,
+      "sourcePageUrl": "https://ee.stanford.edu/people/faculty",
+      "decision": "excluded_historical",
+      "reason": "官方职称为 emeritus/retired 类，不是当前 PI。",
+      "evidence": "Emeritus"
+    },
+    {
+      "officialId": "https://profiles.stanford.edu/tony-heinz",
+      "name": "Tony Heinz",
+      "profileUrl": "https://profiles.stanford.edu/tony-heinz",
+      "portraitUrl": "https://profiles.stanford.edu/images/placeholder-350x522.png",
+      "title": "Courtesy Professor Courtesy via : Applied Physics",
+      "areas": [
+        "Photonics",
+        "New Materials, Nanofabrication, and Devices",
+        "Quantum science and engineering, Photonics"
+      ],
+      "officialSection": null,
+      "sourcePageUrl": "https://ee.stanford.edu/people/faculty",
+      "decision": "excluded_non_pi",
+      "reason": "Stanford EE 官方职称为 courtesy/adjunct/teaching/practice 等非本单位核心独立 PI 类。",
+      "evidence": "Courtesy Professor Courtesy via : Applied Physics"
+    },
+    {
+      "officialId": "http://ee.stanford.edu/~hellman/",
+      "name": "Martin Hellman",
+      "profileUrl": "http://ee.stanford.edu/~hellman/",
+      "portraitUrl": "https://profiles.stanford.edu/proxy/api/cap/profiles/48162/resources/profilephoto/350x522.1787872051.jpg",
+      "title": "Emeritus",
+      "areas": [
+        "Information and coding theory, communications, signal processing"
+      ],
+      "officialSection": null,
+      "sourcePageUrl": "https://ee.stanford.edu/people/faculty",
+      "decision": "excluded_historical",
+      "reason": "官方职称为 emeritus/retired 类，不是当前 PI。",
+      "evidence": "Emeritus"
+    },
+    {
+      "officialId": "https://profiles.stanford.edu/c-helms",
+      "name": "C. Robert Helms",
+      "profileUrl": "https://profiles.stanford.edu/c-helms",
+      "portraitUrl": "https://profiles.stanford.edu/proxy/api/cap/profiles/50662/resources/profilephoto/350x522.1787872051.jpg",
+      "title": "Emeritus",
+      "areas": [],
+      "officialSection": null,
+      "sourcePageUrl": "https://ee.stanford.edu/people/faculty",
+      "decision": "excluded_historical",
+      "reason": "官方职称为 emeritus/retired 类，不是当前 PI。",
+      "evidence": "Emeritus"
+    },
+    {
+      "officialId": "https://profiles.stanford.edu/john-hennessy",
+      "name": "John L. Hennessy",
+      "profileUrl": "https://profiles.stanford.edu/john-hennessy",
+      "portraitUrl": "https://profiles.stanford.edu/proxy/api/cap/profiles/41555/resources/profilephoto/350x522.1787872051.jpg",
+      "title": "Professor",
+      "areas": [
+        "Computer architecture, security, hardware/software systems",
+        "Software systems, security, distributed systems and networks"
+      ],
+      "officialSection": null,
+      "sourcePageUrl": "https://ee.stanford.edu/people/faculty",
+      "decision": "include_new_pi",
+      "reason": "Stanford EE 官方名录确认当前独立教师身份，研究 area 属于 AI/ML/优化、计算成像、信号处理、计算架构或机器人主线。",
+      "evidence": "Professor; Computer architecture, security, hardware/software systems | Software systems, security, distributed systems and networks"
+    },
+    {
+      "officialId": "https://profiles.stanford.edu/lambertus-hesselink",
+      "name": "Lambertus Hesselink",
+      "profileUrl": "https://profiles.stanford.edu/lambertus-hesselink",
+      "portraitUrl": "https://profiles.stanford.edu/proxy/api/cap/profiles/8101/resources/profilephoto/350x522.1787872051.jpg",
+      "title": "Professor",
+      "areas": [
+        "Energy, environment, and sustainability",
+        "Quantum science and engineering, Photonics"
+      ],
+      "officialSection": null,
+      "sourcePageUrl": "https://ee.stanford.edu/people/faculty",
+      "decision": "excluded_non_ai_cs",
+      "reason": "Stanford EE 官方研究 area 未落入本图谱 AI/ML/CV/机器人/计算成像/智能系统范围。",
+      "evidence": "Energy, environment, and sustainability | Quantum science and engineering, Photonics"
+    },
+    {
+      "officialId": "https://profiles.stanford.edu/mark-horowitz",
+      "name": "Mark A. Horowitz",
+      "profileUrl": "https://profiles.stanford.edu/mark-horowitz",
+      "portraitUrl": "https://profiles.stanford.edu/proxy/api/cap/profiles/14300/resources/profilephoto/350x522.1787872051.jpg",
+      "title": "Professor",
+      "areas": [
+        "Computer architecture, security, hardware/software systems",
+        "Integrated Circuits and Systems",
+        "Environmental sensors, embedded systems, remote sensing",
+        "Energy, environment, and sustainability"
+      ],
+      "officialSection": null,
+      "sourcePageUrl": "https://ee.stanford.edu/people/faculty",
+      "decision": "include_new_pi",
+      "reason": "Stanford EE 官方名录确认当前独立教师身份，研究 area 属于 AI/ML/优化、计算成像、信号处理、计算架构或机器人主线。",
+      "evidence": "Professor; Computer architecture, security, hardware/software systems | Integrated Circuits and Systems | Environmental sensors, embedded systems, remote sensing | Energy, environment, and sustainability"
+    },
+    {
+      "officialId": "http://web.stanford.edu/group/howe/",
+      "name": "Roger T. Howe",
+      "profileUrl": "http://web.stanford.edu/group/howe/",
+      "portraitUrl": "https://profiles.stanford.edu/proxy/api/cap/profiles/10500/resources/profilephoto/350x522.1787872051.jpg",
+      "title": "Emeritus",
+      "areas": [
+        "New Materials, Nanofabrication, and Devices",
+        "Integrated Circuits and Systems"
+      ],
+      "officialSection": null,
+      "sourcePageUrl": "https://ee.stanford.edu/people/faculty",
+      "decision": "excluded_historical",
+      "reason": "官方职称为 emeritus/retired 类，不是当前 PI。",
+      "evidence": "Emeritus"
+    },
+    {
+      "officialId": "http://vlf.stanford.edu",
+      "name": "Umran S. Inan",
+      "profileUrl": "http://vlf.stanford.edu",
+      "portraitUrl": "https://profiles.stanford.edu/proxy/api/cap/profiles/10877/resources/profilephoto/350x522.1787872051.jpg",
+      "title": "Emeritus",
+      "areas": [],
+      "officialSection": null,
+      "sourcePageUrl": "https://ee.stanford.edu/people/faculty",
+      "decision": "excluded_historical",
+      "reason": "官方职称为 emeritus/retired 类，不是当前 PI。",
+      "evidence": "Emeritus"
+    },
+    {
+      "officialId": "https://dna-discovery.stanford.edu/",
+      "name": "Hanlee P. Ji",
+      "profileUrl": "https://dna-discovery.stanford.edu/",
+      "portraitUrl": "https://profiles.stanford.edu/proxy/api/cap/profiles/5887/resources/profilephoto/350x522.1787854876.jpg",
+      "title": "Courtesy Professor Courtesy via : Med/Oncology",
+      "areas": [],
+      "officialSection": null,
+      "sourcePageUrl": "https://ee.stanford.edu/people/faculty",
+      "decision": "excluded_non_pi",
+      "reason": "Stanford EE 官方职称为 courtesy/adjunct/teaching/practice 等非本单位核心独立 PI 类。",
+      "evidence": "Courtesy Professor Courtesy via : Med/Oncology"
+    },
+    {
+      "officialId": "http://web.stanford.edu/~rjohari/",
+      "name": "Ramesh Johari",
+      "profileUrl": "http://web.stanford.edu/~rjohari/",
+      "portraitUrl": "https://profiles.stanford.edu/proxy/api/cap/profiles/16842/resources/profilephoto/350x522.1787854876.jpg",
+      "title": "Courtesy Professor Courtesy via : Management Science and Engineering",
+      "areas": [],
+      "officialSection": null,
+      "sourcePageUrl": "https://ee.stanford.edu/people/faculty",
+      "decision": "excluded_non_pi",
+      "reason": "Stanford EE 官方职称为 courtesy/adjunct/teaching/practice 等非本单位核心独立 PI 类。",
+      "evidence": "Courtesy Professor Courtesy via : Management Science and Engineering"
+    },
+    {
+      "officialId": "http://ee.stanford.edu/~jmk/",
+      "name": "Joseph M. Kahn",
+      "profileUrl": "http://ee.stanford.edu/~jmk/",
+      "portraitUrl": "https://profiles.stanford.edu/proxy/api/cap/profiles/46970/resources/profilephoto/350x522.1787872051.jpg",
+      "title": "Professor",
+      "areas": [
+        "Information and coding theory, communications, signal processing",
+        "Signal processing and control",
+        "Quantum science and engineering, Photonics"
+      ],
+      "officialSection": null,
+      "sourcePageUrl": "https://ee.stanford.edu/people/faculty",
+      "decision": "include_new_pi",
+      "reason": "Stanford EE 官方名录确认当前独立教师身份，研究 area 属于 AI/ML/优化、计算成像、信号处理、计算架构或机器人主线。",
+      "evidence": "Professor; Information and coding theory, communications, signal processing | Signal processing and control | Quantum science and engineering, Photonics"
+    },
+    {
+      "officialId": "https://profiles.stanford.edu/thomas-kailath",
+      "name": "Thomas Kailath",
+      "profileUrl": "https://profiles.stanford.edu/thomas-kailath",
+      "portraitUrl": "https://profiles.stanford.edu/proxy/api/cap/profiles/47203/resources/profilephoto/350x522.1787872051.jpg",
+      "title": "Emeritus",
+      "areas": [],
+      "officialSection": null,
+      "sourcePageUrl": "https://ee.stanford.edu/people/faculty",
+      "decision": "excluded_historical",
+      "reason": "官方职称为 emeritus/retired 类，不是当前 PI。",
+      "evidence": "Emeritus"
+    },
+    {
+      "officialId": "https://profiles.stanford.edu/zerina-kapetanovic",
+      "name": "Zerina Kapetanovic",
+      "profileUrl": "https://profiles.stanford.edu/zerina-kapetanovic",
+      "portraitUrl": "https://profiles.stanford.edu/proxy/api/cap/profiles/305194/resources/profilephoto/350x522.1787872051.jpg",
+      "title": "Assistant Professor",
+      "areas": [
+        "Environmental sensors, embedded systems, remote sensing",
+        "Energy, environment, and sustainability"
+      ],
+      "officialSection": null,
+      "sourcePageUrl": "https://ee.stanford.edu/people/faculty",
+      "decision": "excluded_duplicate",
+      "reason": "同一人物已在本批次 stanford-cs unit 逐人处理；本 EE officialId 保留重复判断。",
+      "evidence": "Assistant Professor; Environmental sensors, embedded systems, remote sensing | Energy, environment, and sustainability"
+    },
+    {
+      "officialId": "http://pnrl.stanford.edu/",
+      "name": "Leonid G. Kazovsky",
+      "profileUrl": "http://pnrl.stanford.edu/",
+      "portraitUrl": "https://profiles.stanford.edu/proxy/api/cap/profiles/29703/resources/profilephoto/350x522.1787872051.jpg",
+      "title": "Emeritus",
+      "areas": [],
+      "officialSection": null,
+      "sourcePageUrl": "https://ee.stanford.edu/people/faculty",
+      "decision": "excluded_historical",
+      "reason": "官方职称为 emeritus/retired 类，不是当前 PI。",
+      "evidence": "Emeritus"
+    },
+    {
+      "officialId": "https://profiles.stanford.edu/oussama-khatib",
+      "name": "Oussama Khatib",
+      "profileUrl": "https://profiles.stanford.edu/oussama-khatib",
+      "portraitUrl": "https://profiles.stanford.edu/proxy/api/cap/profiles/8106/resources/profilephoto/350x522.1787854876.jpg",
+      "title": "Courtesy Professor Courtesy via : Computer Science and Electrical Engineering (by courtesy)",
+      "areas": [],
+      "officialSection": null,
+      "sourcePageUrl": "https://ee.stanford.edu/people/faculty",
+      "decision": "excluded_duplicate",
+      "reason": "同一人物已在本批次 stanford-cs unit 逐人处理；本 EE officialId 保留重复判断。",
+      "evidence": "Courtesy Professor Courtesy via : Computer Science and Electrical Engineering (by courtesy); "
+    },
+    {
+      "officialId": "https://kyg.stanford.edu/",
+      "name": "Butrus Khuri-Yakub",
+      "profileUrl": "https://kyg.stanford.edu/",
+      "portraitUrl": "https://profiles.stanford.edu/proxy/api/cap/profiles/20470/resources/profilephoto/350x522.1787872051.jpg",
+      "title": "Emeritus",
+      "areas": [
+        "New Materials, Nanofabrication, and Devices"
+      ],
+      "officialSection": null,
+      "sourcePageUrl": "https://ee.stanford.edu/people/faculty",
+      "decision": "excluded_historical",
+      "reason": "官方职称为 emeritus/retired 类，不是当前 PI。",
+      "evidence": "Emeritus"
+    },
+    {
+      "officialId": "http://www.stanford.edu/group/kovacslab/cgi-bin/index.php?page=gregory-kovacs",
+      "name": "Gregory Kovacs",
+      "profileUrl": "http://www.stanford.edu/group/kovacslab/cgi-bin/index.php?page=gregory-kovacs",
+      "portraitUrl": "https://profiles.stanford.edu/proxy/api/cap/profiles/5905/resources/profilephoto/350x522.1787872051.jpg",
+      "title": "Emeritus",
+      "areas": [
+        "Biomed devices, sensors, and systems"
+      ],
+      "officialSection": null,
+      "sourcePageUrl": "https://ee.stanford.edu/people/faculty",
+      "decision": "excluded_historical",
+      "reason": "官方职称为 emeritus/retired 类，不是当前 PI。",
+      "evidence": "Emeritus"
+    },
+    {
+      "officialId": "http://csl.stanford.edu/~christos/",
+      "name": "Christos Kozyrakis",
+      "profileUrl": "http://csl.stanford.edu/~christos/",
+      "portraitUrl": "https://profiles.stanford.edu/proxy/api/cap/profiles/40814/resources/profilephoto/350x522.1787872051.jpg",
+      "title": "Professor",
+      "areas": [
+        "Computer architecture, security, hardware/software systems",
+        "Software systems, security, distributed systems and networks"
+      ],
+      "officialSection": null,
+      "sourcePageUrl": "https://ee.stanford.edu/people/faculty",
+      "decision": "include_new_pi",
+      "reason": "Stanford EE 官方名录确认当前独立教师身份，研究 area 属于 AI/ML/优化、计算成像、信号处理、计算架构或机器人主线。",
+      "evidence": "Professor; Computer architecture, security, hardware/software systems | Software systems, security, distributed systems and networks"
+    },
+    {
+      "officialId": "https://krishnan.sites.stanford.edu/",
+      "name": "Siddharth Krishnan",
+      "profileUrl": "https://krishnan.sites.stanford.edu/",
+      "portraitUrl": "https://profiles.stanford.edu/proxy/api/cap/profiles/346908/resources/profilephoto/350x522.1787872051.jpg",
+      "title": "Assistant Professor",
+      "areas": [
+        "New Materials, Nanofabrication, and Devices",
+        "Biomed devices, sensors, and systems",
+        "Integrated Circuits and Systems"
+      ],
+      "officialSection": null,
+      "sourcePageUrl": "https://ee.stanford.edu/people/faculty",
+      "decision": "excluded_non_ai_cs",
+      "reason": "Stanford EE 官方研究 area 未落入本图谱 AI/ML/CV/机器人/计算成像/智能系统范围。",
+      "evidence": "New Materials, Nanofabrication, and Devices | Biomed devices, sensors, and systems | Integrated Circuits and Systems"
+    },
+    {
+      "officialId": "http://lall.stanford.edu/",
+      "name": "Sanjay Lall",
+      "profileUrl": "http://lall.stanford.edu/",
+      "portraitUrl": "https://profiles.stanford.edu/proxy/api/cap/profiles/41489/resources/profilephoto/350x522.1787872051.jpg",
+      "title": "Professor",
+      "areas": [
+        "AI, machine learning, optimization"
+      ],
+      "officialSection": null,
+      "sourcePageUrl": "https://ee.stanford.edu/people/faculty",
+      "decision": "include_new_pi",
+      "reason": "Stanford EE 官方名录确认当前独立教师身份，研究 area 属于 AI/ML/优化、计算成像、信号处理、计算架构或机器人主线。",
+      "evidence": "Professor; AI, machine learning, optimization"
+    },
+    {
+      "officialId": "http://suif.stanford.edu/~lam/",
+      "name": "Monica S. Lam",
+      "profileUrl": "http://suif.stanford.edu/~lam/",
+      "portraitUrl": "https://profiles.stanford.edu/proxy/api/cap/profiles/41623/resources/profilephoto/350x522.1787854876.jpg",
+      "title": "Courtesy Professor Courtesy via : Computer Science",
+      "areas": [],
+      "officialSection": null,
+      "sourcePageUrl": "https://ee.stanford.edu/people/faculty",
+      "decision": "excluded_non_pi",
+      "reason": "Stanford EE 官方职称为 courtesy/adjunct/teaching/practice 等非本单位核心独立 PI 类。",
+      "evidence": "Courtesy Professor Courtesy via : Computer Science"
+    },
+    {
+      "officialId": "http://smirc.stanford.edu/people.html",
+      "name": "Thomas Lee",
+      "profileUrl": "http://smirc.stanford.edu/people.html",
+      "portraitUrl": "https://profiles.stanford.edu/proxy/api/cap/profiles/42372/resources/profilephoto/350x522.1787872051.jpg",
+      "title": "Professor",
+      "areas": [
+        "Computer architecture, security, hardware/software systems",
+        "Integrated Circuits and Systems",
+        "AI, machine learning, optimization"
+      ],
+      "officialSection": null,
+      "sourcePageUrl": "https://ee.stanford.edu/people/faculty",
+      "decision": "include_new_pi",
+      "reason": "Stanford EE 官方名录确认当前独立教师身份，研究 area 属于 AI/ML/优化、计算成像、信号处理、计算架构或机器人主线。",
+      "evidence": "Professor; Computer architecture, security, hardware/software systems | Integrated Circuits and Systems | AI, machine learning, optimization"
+    },
+    {
+      "officialId": "http://llab.stanford.edu/",
+      "name": "Jin Hyung Lee",
+      "profileUrl": "http://llab.stanford.edu/",
+      "portraitUrl": "https://profiles.stanford.edu/proxy/api/cap/profiles/34611/resources/profilephoto/350x522.1787854876.jpg",
+      "title": "Courtesy Associate Professor Courtesy via : Bioengineering",
+      "areas": [],
+      "officialSection": null,
+      "sourcePageUrl": "https://ee.stanford.edu/people/faculty",
+      "decision": "excluded_non_pi",
+      "reason": "Stanford EE 官方职称为 courtesy/adjunct/teaching/practice 等非本单位核心独立 PI 类。",
+      "evidence": "Courtesy Associate Professor Courtesy via : Bioengineering"
+    },
+    {
+      "officialId": "http://miil.stanford.edu/?lab%255fid=2652",
+      "name": "Craig Levin",
+      "profileUrl": "http://miil.stanford.edu/?lab%255fid=2652",
+      "portraitUrl": "https://profiles.stanford.edu/proxy/api/cap/profiles/6367/resources/profilephoto/350x522.1787854876.jpg",
+      "title": "Courtesy Professor Courtesy via : Radiology",
+      "areas": [
+        "Biomed devices, sensors, and systems"
+      ],
+      "officialSection": null,
+      "sourcePageUrl": "https://ee.stanford.edu/people/faculty",
+      "decision": "excluded_non_pi",
+      "reason": "Stanford EE 官方职称为 courtesy/adjunct/teaching/practice 等非本单位核心独立 PI 类。",
+      "evidence": "Courtesy Professor Courtesy via : Radiology"
+    },
+    {
+      "officialId": "http://csl.stanford.edu/~pal/",
+      "name": "Philip Levis",
+      "profileUrl": "http://csl.stanford.edu/~pal/",
+      "portraitUrl": "https://profiles.stanford.edu/proxy/api/cap/profiles/42754/resources/profilephoto/350x522.1787872051.jpg",
+      "title": "Professor",
+      "areas": [
+        "Computer architecture, security, hardware/software systems",
+        "Environmental sensors, embedded systems, remote sensing",
+        "Energy, environment, and sustainability",
+        "Software systems, security, distributed systems and networks"
+      ],
+      "officialSection": null,
+      "sourcePageUrl": "https://ee.stanford.edu/people/faculty",
+      "decision": "excluded_duplicate",
+      "reason": "同一人物已在本批次 stanford-cs unit 逐人处理；本 EE officialId 保留重复判断。",
+      "evidence": "Professor; Computer architecture, security, hardware/software systems | Environmental sensors, embedded systems, remote sensing | Energy, environment, and sustainability | Software systems, security, distributed systems and networks"
+    },
+    {
+      "officialId": "http://graphics.stanford.edu/~levoy/",
+      "name": "Marc S. Levoy",
+      "profileUrl": "http://graphics.stanford.edu/~levoy/",
+      "portraitUrl": "https://profiles.stanford.edu/proxy/api/cap/profiles/41403/resources/profilephoto/350x522.1787872051.jpg",
+      "title": "Emeritus",
+      "areas": [],
+      "officialSection": null,
+      "sourcePageUrl": "https://ee.stanford.edu/people/faculty",
+      "decision": "excluded_historical",
+      "reason": "官方职称为 emeritus/retired 类，不是当前 PI。",
+      "evidence": "Emeritus"
+    },
+    {
+      "officialId": "https://profiles.stanford.edu/ingolf-lindau",
+      "name": "Ingolf Lindau",
+      "profileUrl": "https://profiles.stanford.edu/ingolf-lindau",
+      "portraitUrl": "https://profiles.stanford.edu/proxy/api/cap/profiles/47179/resources/profilephoto/350x522.1787872051.jpg",
+      "title": "Emeritus",
+      "areas": [],
+      "officialSection": null,
+      "sourcePageUrl": "https://ee.stanford.edu/people/faculty",
+      "decision": "excluded_historical",
+      "reason": "官方职称为 emeritus/retired 类，不是当前 PI。",
+      "evidence": "Emeritus"
+    },
+    {
+      "officialId": "https://web.stanford.edu/~swl1/",
+      "name": "Scott W Linderman",
+      "profileUrl": "https://web.stanford.edu/~swl1/",
+      "portraitUrl": "https://profiles.stanford.edu/proxy/api/cap/profiles/208063/resources/profilephoto/350x522.1787854876.jpg",
+      "title": "Courtesy Assistant Professor Courtesy via : Statistics",
+      "areas": [
+        "AI, machine learning, optimization"
+      ],
+      "officialSection": null,
+      "sourcePageUrl": "https://ee.stanford.edu/people/faculty",
+      "decision": "excluded_non_pi",
+      "reason": "Stanford EE 官方职称为 courtesy/adjunct/teaching/practice 等非本单位核心独立 PI 类。",
+      "evidence": "Courtesy Assistant Professor Courtesy via : Statistics"
+    },
+    {
+      "officialId": "https://profiles.stanford.edu/david-luckham",
+      "name": "David C. Luckham",
+      "profileUrl": "https://profiles.stanford.edu/david-luckham",
+      "portraitUrl": "https://profiles.stanford.edu/proxy/api/cap/profiles/50648/resources/profilephoto/350x522.1787872051.jpg",
+      "title": "Emeritus",
+      "areas": [],
+      "officialSection": null,
+      "sourcePageUrl": "https://ee.stanford.edu/people/faculty",
+      "decision": "excluded_historical",
+      "reason": "官方职称为 emeritus/retired 类，不是当前 PI。",
+      "evidence": "Emeritus"
+    },
+    {
+      "officialId": "https://profiles.stanford.edu/bruce-lusignan",
+      "name": "Bruce Lusignan",
+      "profileUrl": "https://profiles.stanford.edu/bruce-lusignan",
+      "portraitUrl": "https://profiles.stanford.edu/images/placeholder-350x522.png",
+      "title": "Emeritus",
+      "areas": [],
+      "officialSection": null,
+      "sourcePageUrl": "https://ee.stanford.edu/people/faculty",
+      "decision": "excluded_historical",
+      "reason": "官方职称为 emeritus/retired 类，不是当前 PI。",
+      "evidence": "Emeritus"
+    },
+    {
+      "officialId": "https://profiles.stanford.edu/albert-macovski",
+      "name": "Albert Macovski",
+      "profileUrl": "https://profiles.stanford.edu/albert-macovski",
+      "portraitUrl": "https://profiles.stanford.edu/proxy/api/cap/profiles/41641/resources/profilephoto/350x522.1787872051.jpg",
+      "title": "Emeritus",
+      "areas": [],
+      "officialSection": null,
+      "sourcePageUrl": "https://ee.stanford.edu/people/faculty",
+      "decision": "excluded_historical",
+      "reason": "官方职称为 emeritus/retired 类，不是当前 PI。",
+      "evidence": "Emeritus"
+    },
+    {
+      "officialId": "https://yuba.stanford.edu/~nickm/",
+      "name": "Nick McKeown",
+      "profileUrl": "https://yuba.stanford.edu/~nickm/",
+      "portraitUrl": "https://profiles.stanford.edu/proxy/api/cap/profiles/24176/resources/profilephoto/350x522.1787872051.jpg",
+      "title": "Emeritus",
+      "areas": [],
+      "officialSection": null,
+      "sourcePageUrl": "https://ee.stanford.edu/people/faculty",
+      "decision": "excluded_historical",
+      "reason": "官方职称为 emeritus/retired 类，不是当前 PI。",
+      "evidence": "Emeritus"
+    },
+    {
+      "officialId": "https://profiles.stanford.edu/teresa-meng",
+      "name": "Teresa H.Y. Meng",
+      "profileUrl": "https://profiles.stanford.edu/teresa-meng",
+      "portraitUrl": "https://profiles.stanford.edu/proxy/api/cap/profiles/41621/resources/profilephoto/350x522.1787872051.jpg",
+      "title": "Emeritus",
+      "areas": [],
+      "officialSection": null,
+      "sourcePageUrl": "https://ee.stanford.edu/people/faculty",
+      "decision": "excluded_historical",
+      "reason": "官方职称为 emeritus/retired 类，不是当前 PI。",
+      "evidence": "Emeritus"
+    },
+    {
+      "officialId": "https://web.stanford.edu/group/dabmgroup/cgi-bin/dabm/",
+      "name": "David A. B. Miller",
+      "profileUrl": "https://web.stanford.edu/group/dabmgroup/cgi-bin/dabm/",
+      "portraitUrl": "https://profiles.stanford.edu/proxy/api/cap/profiles/20870/resources/profilephoto/350x522.1787872051.jpg",
+      "title": "Emeritus",
+      "areas": [
+        "Photonics",
+        "New Materials, Nanofabrication, and Devices",
+        "Quantum science and engineering, Photonics"
+      ],
+      "officialSection": null,
+      "sourcePageUrl": "https://ee.stanford.edu/people/faculty",
+      "decision": "excluded_historical",
+      "reason": "官方职称为 emeritus/retired 类，不是当前 PI。",
+      "evidence": "Emeritus"
+    },
+    {
+      "officialId": "http://theory.stanford.edu/people/jcm/",
+      "name": "John C. Mitchell",
+      "profileUrl": "http://theory.stanford.edu/people/jcm/",
+      "portraitUrl": "https://profiles.stanford.edu/proxy/api/cap/profiles/10751/resources/profilephoto/350x522.1787854876.jpg",
+      "title": "Courtesy Professor Courtesy via : Computer Science",
+      "areas": [],
+      "officialSection": null,
+      "sourcePageUrl": "https://ee.stanford.edu/people/faculty",
+      "decision": "excluded_non_pi",
+      "reason": "Stanford EE 官方职称为 courtesy/adjunct/teaching/practice 等非本单位核心独立 PI 类。",
+      "evidence": "Courtesy Professor Courtesy via : Computer Science"
+    },
+    {
+      "officialId": "http://web.stanford.edu/~subh/",
+      "name": "Subhasish Mitra",
+      "profileUrl": "http://web.stanford.edu/~subh/",
+      "portraitUrl": "https://profiles.stanford.edu/proxy/api/cap/profiles/41697/resources/profilephoto/350x522.1787872051.jpg",
+      "title": "Professor",
+      "areas": [
+        "New Materials, Nanofabrication, and Devices",
+        "Biomed devices, sensors, and systems",
+        "Computer architecture, security, hardware/software systems",
+        "Integrated Circuits and Systems"
+      ],
+      "officialSection": null,
+      "sourcePageUrl": "https://ee.stanford.edu/people/faculty",
+      "decision": "excluded_duplicate",
+      "reason": "同一人物已在本批次 stanford-cs unit 逐人处理；本 EE officialId 保留重复判断。",
+      "evidence": "Professor; New Materials, Nanofabrication, and Devices | Biomed devices, sensors, and systems | Computer architecture, security, hardware/software systems | Integrated Circuits and Systems"
+    },
+    {
+      "officialId": "http://med.stanford.edu/profiles/sandy-napel",
+      "name": "Sandy Napel",
+      "profileUrl": "http://med.stanford.edu/profiles/sandy-napel",
+      "portraitUrl": "https://profiles.stanford.edu/proxy/api/cap/profiles/4647/resources/profilephoto/350x522.1787854876.jpg",
+      "title": "Courtesy Professor Courtesy via : Radiology",
+      "areas": [],
+      "officialSection": null,
+      "sourcePageUrl": "https://ee.stanford.edu/people/faculty",
+      "decision": "excluded_non_pi",
+      "reason": "Stanford EE 官方职称为 courtesy/adjunct/teaching/practice 等非本单位核心独立 PI 类。",
+      "evidence": "Courtesy Professor Courtesy via : Radiology"
+    },
+    {
+      "officialId": "https://profiles.stanford.edu/yoshio-nishi",
+      "name": "Yoshio Nishi",
+      "profileUrl": "https://profiles.stanford.edu/yoshio-nishi",
+      "portraitUrl": "https://profiles.stanford.edu/proxy/api/cap/profiles/9632/resources/profilephoto/350x522.1787872051.jpg",
+      "title": "Emeritus",
+      "areas": [],
+      "officialSection": null,
+      "sourcePageUrl": "https://ee.stanford.edu/people/faculty",
+      "decision": "excluded_historical",
+      "reason": "官方职称为 emeritus/retired 类，不是当前 PI。",
+      "evidence": "Emeritus"
+    },
+    {
+      "officialId": "http://www-ee.stanford.edu/~dwight/",
+      "name": "Dwight G. Nishimura",
+      "profileUrl": "http://www-ee.stanford.edu/~dwight/",
+      "portraitUrl": "https://profiles.stanford.edu/proxy/api/cap/profiles/8071/resources/profilephoto/350x522.1787872051.jpg",
+      "title": "Emeritus",
+      "areas": [
+        "Biomed devices, sensors, and systems"
+      ],
+      "officialSection": null,
+      "sourcePageUrl": "https://ee.stanford.edu/people/faculty",
+      "decision": "excluded_historical",
+      "reason": "官方职称为 emeritus/retired 类，不是当前 PI。",
+      "evidence": "Emeritus"
+    },
+    {
+      "officialId": "http://bil.stanford.edu",
+      "name": "Paul Nuyujukian",
+      "profileUrl": "http://bil.stanford.edu",
+      "portraitUrl": "https://profiles.stanford.edu/images/placeholder-350x522.png",
+      "title": "Courtesy Assistant Professor Courtesy via : Bioengineering",
+      "areas": [
+        "Biomed devices, sensors, and systems"
+      ],
+      "officialSection": null,
+      "sourcePageUrl": "https://ee.stanford.edu/people/faculty",
+      "decision": "excluded_non_pi",
+      "reason": "Stanford EE 官方职称为 courtesy/adjunct/teaching/practice 等非本单位核心独立 PI 类。",
+      "evidence": "Courtesy Assistant Professor Courtesy via : Bioengineering"
+    },
+    {
+      "officialId": "http://arsenalfc.stanford.edu/kunle/",
+      "name": "Kunle A. Olukotun",
+      "profileUrl": "http://arsenalfc.stanford.edu/kunle/",
+      "portraitUrl": "https://profiles.stanford.edu/proxy/api/cap/profiles/20335/resources/profilephoto/350x522.1787872051.jpg",
+      "title": "Professor",
+      "areas": [
+        "Computer architecture, security, hardware/software systems",
+        "Software systems, security, distributed systems and networks"
+      ],
+      "officialSection": null,
+      "sourcePageUrl": "https://ee.stanford.edu/people/faculty",
+      "decision": "include_new_pi",
+      "reason": "Stanford EE 官方名录确认当前独立教师身份，研究 area 属于 AI/ML/优化、计算成像、信号处理、计算架构或机器人主线。",
+      "evidence": "Professor; Computer architecture, security, hardware/software systems | Software systems, security, distributed systems and networks"
+    },
+    {
+      "officialId": "https://profiles.stanford.edu/simona-onori",
+      "name": "Simona Onori",
+      "profileUrl": "https://profiles.stanford.edu/simona-onori",
+      "portraitUrl": "https://profiles.stanford.edu/proxy/api/cap/profiles/185695/resources/profilephoto/350x522.1787854876.jpg",
+      "title": "Courtesy Associate Professor Courtesy via : Energy Resources Engineering and, by courtesy, of Electrical Engineering",
+      "areas": [
+        "Energy, environment, and sustainability"
+      ],
+      "officialSection": null,
+      "sourcePageUrl": "https://ee.stanford.edu/people/faculty",
+      "decision": "excluded_non_pi",
+      "reason": "Stanford EE 官方职称为 courtesy/adjunct/teaching/practice 等非本单位核心独立 PI 类。",
+      "evidence": "Courtesy Associate Professor Courtesy via : Energy Resources Engineering and, by courtesy, of Electrical Engineering"
+    },
+    {
+      "officialId": "http://ee.stanford.edu/~osgood/",
+      "name": "Brad Osgood",
+      "profileUrl": "http://ee.stanford.edu/~osgood/",
+      "portraitUrl": "https://profiles.stanford.edu/proxy/api/cap/profiles/18954/resources/profilephoto/350x522.1787872051.jpg",
+      "title": "Professor",
+      "areas": [
+        "Information and coding theory, communications, signal processing",
+        "Signal processing and control",
+        "AI, machine learning, optimization"
+      ],
+      "officialSection": null,
+      "sourcePageUrl": "https://ee.stanford.edu/people/faculty",
+      "decision": "include_new_pi",
+      "reason": "Stanford EE 官方名录确认当前独立教师身份，研究 area 属于 AI/ML/优化、计算成像、信号处理、计算架构或机器人主线。",
+      "evidence": "Professor; Information and coding theory, communications, signal processing | Signal processing and control | AI, machine learning, optimization"
+    },
+    {
+      "officialId": "http://web.stanford.edu/~aozgur/",
+      "name": "Ayfer Ozgur",
+      "profileUrl": "http://web.stanford.edu/~aozgur/",
+      "portraitUrl": "https://profiles.stanford.edu/proxy/api/cap/profiles/46887/resources/profilephoto/350x522.1787872051.jpg",
+      "title": "Professor",
+      "areas": [
+        "Information and coding theory, communications, signal processing",
+        "Signal processing and control",
+        "AI, machine learning, optimization"
+      ],
+      "officialSection": null,
+      "sourcePageUrl": "https://ee.stanford.edu/people/faculty",
+      "decision": "include_new_pi",
+      "reason": "Stanford EE 官方名录确认当前独立教师身份，研究 area 属于 AI/ML/优化、计算成像、信号处理、计算架构或机器人主线。",
+      "evidence": "Professor; Information and coding theory, communications, signal processing | Signal processing and control | AI, machine learning, optimization"
+    },
+    {
+      "officialId": "http://web.stanford.edu/people/palanker",
+      "name": "Daniel Palanker",
+      "profileUrl": "http://web.stanford.edu/people/palanker",
+      "portraitUrl": "https://profiles.stanford.edu/proxy/api/cap/profiles/4579/resources/profilephoto/350x522.1787854876.jpg",
+      "title": "Courtesy Professor Courtesy via : Ophthalmology",
+      "areas": [
+        "Photonics",
+        "Biomed devices, sensors, and systems",
+        "Quantum science and engineering, Photonics"
+      ],
+      "officialSection": null,
+      "sourcePageUrl": "https://ee.stanford.edu/people/faculty",
+      "decision": "excluded_non_pi",
+      "reason": "Stanford EE 官方职称为 courtesy/adjunct/teaching/practice 等非本单位核心独立 PI 类。",
+      "evidence": "Courtesy Professor Courtesy via : Ophthalmology"
+    },
+    {
+      "officialId": "https://profiles.stanford.edu/arogyaswami-paulraj",
+      "name": "Arogyaswami Paulraj",
+      "profileUrl": "https://profiles.stanford.edu/arogyaswami-paulraj",
+      "portraitUrl": "https://profiles.stanford.edu/proxy/api/cap/profiles/10143/resources/profilephoto/350x522.1787872051.jpg",
+      "title": "Emeritus",
+      "areas": [],
+      "officialSection": null,
+      "sourcePageUrl": "https://ee.stanford.edu/people/faculty",
+      "decision": "excluded_historical",
+      "reason": "官方职称为 emeritus/retired 类，不是当前 PI。",
+      "evidence": "Emeritus"
+    },
+    {
+      "officialId": "http://web.stanford.edu/~pauly/",
+      "name": "John M. Pauly",
+      "profileUrl": "http://web.stanford.edu/~pauly/",
+      "portraitUrl": "https://profiles.stanford.edu/proxy/api/cap/profiles/7223/resources/profilephoto/350x522.1787872051.jpg",
+      "title": "Professor",
+      "areas": [
+        "Biomed devices, sensors, and systems",
+        "Information and coding theory, communications, signal processing"
+      ],
+      "officialSection": null,
+      "sourcePageUrl": "https://ee.stanford.edu/people/faculty",
+      "decision": "include_new_pi",
+      "reason": "Stanford EE 官方名录确认当前独立教师身份，研究 area 属于 AI/ML/优化、计算成像、信号处理、计算架构或机器人主线。",
+      "evidence": "Professor; Biomed devices, sensors, and systems | Information and coding theory, communications, signal processing"
+    },
+    {
+      "officialId": "http://profiles.stanford.edu/marco-pavone",
+      "name": "Marco Pavone",
+      "profileUrl": "http://profiles.stanford.edu/marco-pavone",
+      "portraitUrl": "https://profiles.stanford.edu/proxy/api/cap/profiles/46879/resources/profilephoto/350x522.1787854876.jpg",
+      "title": "Courtesy Associate Professor Courtesy via : Aeronautics and Astronautics",
+      "areas": [
+        "Robotics, control"
+      ],
+      "officialSection": null,
+      "sourcePageUrl": "https://ee.stanford.edu/people/faculty",
+      "decision": "excluded_non_pi",
+      "reason": "Stanford EE 官方职称为 courtesy/adjunct/teaching/practice 等非本单位核心独立 PI 类。",
+      "evidence": "Courtesy Associate Professor Courtesy via : Aeronautics and Astronautics"
+    },
+    {
+      "officialId": "https://profiles.stanford.edu/r-pease",
+      "name": "R. Fabian Pease",
+      "profileUrl": "https://profiles.stanford.edu/r-pease",
+      "portraitUrl": "https://profiles.stanford.edu/proxy/api/cap/profiles/12452/resources/profilephoto/350x522.1787872051.jpg",
+      "title": "Emeritus",
+      "areas": [
+        "New Materials, Nanofabrication, and Devices",
+        "Biomed devices, sensors, and systems"
+      ],
+      "officialSection": null,
+      "sourcePageUrl": "https://ee.stanford.edu/people/faculty",
+      "decision": "excluded_historical",
+      "reason": "官方职称为 emeritus/retired 类，不是当前 PI。",
+      "evidence": "Emeritus"
+    },
+    {
+      "officialId": "https://profiles.stanford.edu/piero-pianetta",
+      "name": "Piero A. Pianetta",
+      "profileUrl": "https://profiles.stanford.edu/piero-pianetta",
+      "portraitUrl": "https://profiles.stanford.edu/proxy/api/cap/profiles/14860/resources/profilephoto/350x522.1787872051.jpg",
+      "title": "Professor (Research)",
+      "areas": [
+        "New Materials, Nanofabrication, and Devices",
+        "Integrated Circuits and Systems",
+        "Energy, environment, and sustainability"
+      ],
+      "officialSection": null,
+      "sourcePageUrl": "https://ee.stanford.edu/people/faculty",
+      "decision": "excluded_non_ai_cs",
+      "reason": "Stanford EE 官方研究 area 未落入本图谱 AI/ML/CV/机器人/计算成像/智能系统范围。",
+      "evidence": "New Materials, Nanofabrication, and Devices | Integrated Circuits and Systems | Energy, environment, and sustainability"
+    },
+    {
+      "officialId": "https://profiles.stanford.edu/mert-pilanci",
+      "name": "Mert Pilanci",
+      "profileUrl": "https://profiles.stanford.edu/mert-pilanci",
+      "portraitUrl": "https://profiles.stanford.edu/proxy/api/cap/profiles/84036/resources/profilephoto/350x522.1787872051.jpg",
+      "title": "Assistant Professor",
+      "areas": [
+        "Information and coding theory, communications, signal processing",
+        "Signal processing and control",
+        "AI, machine learning, optimization"
+      ],
+      "officialSection": null,
+      "sourcePageUrl": "https://ee.stanford.edu/people/faculty",
+      "decision": "include_new_pi",
+      "reason": "Stanford EE 官方名录确认当前独立教师身份，研究 area 属于 AI/ML/优化、计算成像、信号处理、计算架构或机器人主线。",
+      "evidence": "Assistant Professor; Information and coding theory, communications, signal processing | Signal processing and control | AI, machine learning, optimization"
+    },
+    {
+      "officialId": "http://profiles.stanford.edu/jim-plummer",
+      "name": "James D. Plummer",
+      "profileUrl": "http://profiles.stanford.edu/jim-plummer",
+      "portraitUrl": "https://profiles.stanford.edu/proxy/api/cap/profiles/8075/resources/profilephoto/350x522.1787872051.jpg",
+      "title": "Emeritus",
+      "areas": [
+        "New Materials, Nanofabrication, and Devices",
+        "Integrated Circuits and Systems",
+        "Energy, environment, and sustainability"
+      ],
+      "officialSection": null,
+      "sourcePageUrl": "https://ee.stanford.edu/people/faculty",
+      "decision": "excluded_historical",
+      "reason": "官方职称为 emeritus/retired 类，不是当前 PI。",
+      "evidence": "Emeritus"
+    },
+    {
+      "officialId": "https://cnslab.stanford.edu/",
+      "name": "Kilian Pohl",
+      "profileUrl": "https://cnslab.stanford.edu/",
+      "portraitUrl": "https://profiles.stanford.edu/proxy/api/cap/profiles/143847/resources/profilephoto/350x522.1787854876.jpg",
+      "title": "Courtesy Professor Courtesy via : Psychiatry and Behavioral Sciences",
+      "areas": [],
+      "officialSection": null,
+      "sourcePageUrl": "https://ee.stanford.edu/people/faculty",
+      "decision": "excluded_non_pi",
+      "reason": "Stanford EE 官方职称为 courtesy/adjunct/teaching/practice 等非本单位核心独立 PI 类。",
+      "evidence": "Courtesy Professor Courtesy via : Psychiatry and Behavioral Sciences"
+    },
+    {
+      "officialId": "http://biosystems.stanford.edu/",
+      "name": "Ada Poon",
+      "profileUrl": "http://biosystems.stanford.edu/",
+      "portraitUrl": "https://profiles.stanford.edu/proxy/api/cap/profiles/43167/resources/profilephoto/350x522.1787872051.jpg",
+      "title": "Associate Professor",
+      "areas": [
+        "Biomed devices, sensors, and systems",
+        "Information and coding theory, communications, signal processing",
+        "Integrated Circuits and Systems"
+      ],
+      "officialSection": null,
+      "sourcePageUrl": "https://ee.stanford.edu/people/faculty",
+      "decision": "include_new_pi",
+      "reason": "Stanford EE 官方名录确认当前独立教师身份，研究 area 属于 AI/ML/优化、计算成像、信号处理、计算架构或机器人主线。",
+      "evidence": "Associate Professor; Biomed devices, sensors, and systems | Information and coding theory, communications, signal processing | Integrated Circuits and Systems"
+    },
+    {
+      "officialId": "http://poplab.stanford.edu/index.html",
+      "name": "Eric Pop",
+      "profileUrl": "http://poplab.stanford.edu/index.html",
+      "portraitUrl": "https://profiles.stanford.edu/proxy/api/cap/profiles/41710/resources/profilephoto/350x522.1787872051.jpg",
+      "title": "Professor",
+      "areas": [
+        "New Materials, Nanofabrication, and Devices",
+        "Integrated Circuits and Systems",
+        "Energy, environment, and sustainability"
+      ],
+      "officialSection": null,
+      "sourcePageUrl": "https://ee.stanford.edu/people/faculty",
+      "decision": "excluded_non_ai_cs",
+      "reason": "Stanford EE 官方研究 area 未落入本图谱 AI/ML/CV/机器人/计算成像/智能系统范围。",
+      "evidence": "New Materials, Nanofabrication, and Devices | Integrated Circuits and Systems | Energy, environment, and sustainability"
+    },
+    {
+      "officialId": "http://web.stanford.edu/~balaji/",
+      "name": "Balaji Prabhakar",
+      "profileUrl": "http://web.stanford.edu/~balaji/",
+      "portraitUrl": "https://profiles.stanford.edu/proxy/api/cap/profiles/9657/resources/profilephoto/350x522.1787872051.jpg",
+      "title": "Professor",
+      "areas": [
+        "Information and coding theory, communications, signal processing",
+        "Computer architecture, security, hardware/software systems",
+        "Energy, environment, and sustainability"
+      ],
+      "officialSection": null,
+      "sourcePageUrl": "https://ee.stanford.edu/people/faculty",
+      "decision": "excluded_duplicate",
+      "reason": "同一人物已在本批次 stanford-cs unit 逐人处理；本 EE officialId 保留重复判断。",
+      "evidence": "Professor; Information and coding theory, communications, signal processing | Computer architecture, security, hardware/software systems | Energy, environment, and sustainability"
+    },
+    {
+      "officialId": "https://stanfordaccelerate.github.io/",
+      "name": "Priyanka Raina",
+      "profileUrl": "https://stanfordaccelerate.github.io/",
+      "portraitUrl": "https://profiles.stanford.edu/proxy/api/cap/profiles/186911/resources/profilephoto/350x522.1787872051.jpg",
+      "title": "Associate Professor",
+      "areas": [
+        "Computer architecture, security, hardware/software systems",
+        "Integrated Circuits and Systems",
+        "Software systems, security, distributed systems and networks"
+      ],
+      "officialSection": null,
+      "sourcePageUrl": "https://ee.stanford.edu/people/faculty",
+      "decision": "excluded_duplicate",
+      "reason": "同一人物已在本批次 stanford-cs unit 逐人处理；本 EE officialId 保留重复判断。",
+      "evidence": "Associate Professor; Computer architecture, security, hardware/software systems | Integrated Circuits and Systems | Software systems, security, distributed systems and networks"
+    },
+    {
+      "officialId": "https://profiles.stanford.edu/ram-rajagopal",
+      "name": "Ram Rajagopal",
+      "profileUrl": "https://profiles.stanford.edu/ram-rajagopal",
+      "portraitUrl": "https://profiles.stanford.edu/proxy/api/cap/profiles/23651/resources/profilephoto/350x522.1787872051.jpg",
+      "title": "Associate Professor",
+      "areas": [
+        "Environmental sensors, embedded systems, remote sensing",
+        "AI, machine learning, optimization",
+        "Energy, environment, and sustainability"
+      ],
+      "officialSection": null,
+      "sourcePageUrl": "https://ee.stanford.edu/people/faculty",
+      "decision": "include_new_pi",
+      "reason": "Stanford EE 官方名录确认当前独立教师身份，研究 area 属于 AI/ML/优化、计算成像、信号处理、计算架构或机器人主线。",
+      "evidence": "Associate Professor; Environmental sensors, embedded systems, remote sensing | AI, machine learning, optimization | Energy, environment, and sustainability"
+    },
+    {
+      "officialId": "http://superlab.stanford.edu/",
+      "name": "Juan Rivas",
+      "profileUrl": "http://superlab.stanford.edu/",
+      "portraitUrl": "https://profiles.stanford.edu/proxy/api/cap/profiles/51119/resources/profilephoto/350x522.1787872051.jpg",
+      "title": "Associate Professor",
+      "areas": [
+        "New Materials, Nanofabrication, and Devices",
+        "Integrated Circuits and Systems",
+        "Energy, environment, and sustainability"
+      ],
+      "officialSection": null,
+      "sourcePageUrl": "https://ee.stanford.edu/people/faculty",
+      "decision": "excluded_non_ai_cs",
+      "reason": "Stanford EE 官方研究 area 未落入本图谱 AI/ML/CV/机器人/计算成像/智能系统范围。",
+      "evidence": "New Materials, Nanofabrication, and Devices | Integrated Circuits and Systems | Energy, environment, and sustainability"
+    },
+    {
+      "officialId": "http://profiles.stanford.edu/mendel-rosenblum",
+      "name": "Mendel Rosenblum",
+      "profileUrl": "http://profiles.stanford.edu/mendel-rosenblum",
+      "portraitUrl": "https://profiles.stanford.edu/proxy/api/cap/profiles/41415/resources/profilephoto/350x522.1787872051.jpg",
+      "title": "Professor",
+      "areas": [],
+      "officialSection": null,
+      "sourcePageUrl": "https://ee.stanford.edu/people/faculty",
+      "decision": "excluded_duplicate",
+      "reason": "同一人物已在本批次 stanford-cs unit 逐人处理；本 EE officialId 保留重复判断。",
+      "evidence": "Professor; "
+    },
+    {
+      "officialId": "http://web.stanford.edu/~saberi",
+      "name": "Amin Saberi",
+      "profileUrl": "http://web.stanford.edu/~saberi",
+      "portraitUrl": "https://profiles.stanford.edu/proxy/api/cap/profiles/29640/resources/profilephoto/350x522.1787854876.jpg",
+      "title": "Courtesy Professor Courtesy via : Management Science and Engineering",
+      "areas": [],
+      "officialSection": null,
+      "sourcePageUrl": "https://ee.stanford.edu/people/faculty",
+      "decision": "excluded_non_pi",
+      "reason": "Stanford EE 官方职称为 courtesy/adjunct/teaching/practice 等非本单位核心独立 PI 类。",
+      "evidence": "Courtesy Professor Courtesy via : Management Science and Engineering"
+    },
+    {
+      "officialId": "https://profiles.stanford.edu/dorsa-sadigh",
+      "name": "Dorsa Sadigh",
+      "profileUrl": "https://profiles.stanford.edu/dorsa-sadigh",
+      "portraitUrl": "https://profiles.stanford.edu/proxy/api/cap/profiles/177859/resources/profilephoto/350x522.1787872051.jpg",
+      "title": "Associate Professor",
+      "areas": [
+        "AI, machine learning, optimization",
+        "Robotics, control"
+      ],
+      "officialSection": null,
+      "sourcePageUrl": "https://ee.stanford.edu/people/faculty",
+      "decision": "excluded_duplicate",
+      "reason": "同一人物已在本批次 stanford-cs unit 逐人处理；本 EE officialId 保留重复判断。",
+      "evidence": "Associate Professor; AI, machine learning, optimization | Robotics, control",
+      "atlasPersonId": "dorsa-sadigh-stanford"
+    },
+    {
+      "officialId": "https://web.stanford.edu/~safavi/",
+      "name": "Amir Safavi-Naeini",
+      "profileUrl": "https://web.stanford.edu/~safavi/",
+      "portraitUrl": "https://profiles.stanford.edu/proxy/api/cap/profiles/61610/resources/profilephoto/350x522.1787854876.jpg",
+      "title": "Courtesy Associate Professor Courtesy via : Applied Physics",
+      "areas": [],
+      "officialSection": null,
+      "sourcePageUrl": "https://ee.stanford.edu/people/faculty",
+      "decision": "excluded_non_pi",
+      "reason": "Stanford EE 官方职称为 courtesy/adjunct/teaching/practice 等非本单位核心独立 PI 类。",
+      "evidence": "Courtesy Associate Professor Courtesy via : Applied Physics"
+    },
+    {
+      "officialId": "https://profiles.stanford.edu/krishna-saraswat",
+      "name": "Krishna Saraswat",
+      "profileUrl": "https://profiles.stanford.edu/krishna-saraswat",
+      "portraitUrl": "https://profiles.stanford.edu/proxy/api/cap/profiles/41503/resources/profilephoto/350x522.1787872051.jpg",
+      "title": "Emeritus",
+      "areas": [
+        "Photonics",
+        "New Materials, Nanofabrication, and Devices",
+        "Energy, environment, and sustainability",
+        "Quantum science and engineering, Photonics"
+      ],
+      "officialSection": null,
+      "sourcePageUrl": "https://ee.stanford.edu/people/faculty",
+      "decision": "excluded_historical",
+      "reason": "官方职称为 emeritus/retired 类，不是当前 PI。",
+      "evidence": "Emeritus"
+    },
+    {
+      "officialId": "https://www.radioglaciology.com/",
+      "name": "Dustin Schroeder",
+      "profileUrl": "https://www.radioglaciology.com/",
+      "portraitUrl": "https://profiles.stanford.edu/proxy/api/cap/profiles/73263/resources/profilephoto/350x522.1787872051.jpg",
+      "title": "Associate Professor",
+      "areas": [
+        "Information and coding theory, communications, signal processing",
+        "Energy, environment, and sustainability"
+      ],
+      "officialSection": null,
+      "sourcePageUrl": "https://ee.stanford.edu/people/faculty",
+      "decision": "include_new_pi",
+      "reason": "Stanford EE 官方名录确认当前独立教师身份，研究 area 属于 AI/ML/优化、计算成像、信号处理、计算架构或机器人主线。",
+      "evidence": "Associate Professor; Information and coding theory, communications, signal processing | Energy, environment, and sustainability"
+    },
+    {
+      "officialId": "https://profiles.stanford.edu/dschus",
+      "name": "David Schuster",
+      "profileUrl": "https://profiles.stanford.edu/dschus",
+      "portraitUrl": "https://profiles.stanford.edu/proxy/api/cap/profiles/279298/resources/profilephoto/350x522.1787854876.jpg",
+      "title": "Courtesy Professor Courtesy via : Applied Physics",
+      "areas": [
+        "New Materials, Nanofabrication, and Devices",
+        "Quantum science and engineering, Photonics"
+      ],
+      "officialSection": null,
+      "sourcePageUrl": "https://ee.stanford.edu/people/faculty",
+      "decision": "excluded_non_pi",
+      "reason": "Stanford EE 官方职称为 courtesy/adjunct/teaching/practice 等非本单位核心独立 PI 类。",
+      "evidence": "Courtesy Professor Courtesy via : Applied Physics"
+    },
+    {
+      "officialId": "http://xlab.stanford.edu",
+      "name": "Debbie Senesky",
+      "profileUrl": "http://xlab.stanford.edu",
+      "portraitUrl": "https://profiles.stanford.edu/proxy/api/cap/profiles/41567/resources/profilephoto/350x522.1787872051.jpg",
+      "title": "Associate Professor",
+      "areas": [
+        "New Materials, Nanofabrication, and Devices",
+        "Environmental sensors, embedded systems, remote sensing",
+        "Energy, environment, and sustainability"
+      ],
+      "officialSection": null,
+      "sourcePageUrl": "https://ee.stanford.edu/people/faculty",
+      "decision": "excluded_non_ai_cs",
+      "reason": "Stanford EE 官方研究 area 未落入本图谱 AI/ML/CV/机器人/计算成像/智能系统范围。",
+      "evidence": "New Materials, Nanofabrication, and Devices | Environmental sensors, embedded systems, remote sensing | Energy, environment, and sustainability"
+    },
+    {
+      "officialId": "https://med.stanford.edu/setsompoplab.html",
+      "name": "Kawin Setsompop",
+      "profileUrl": "https://med.stanford.edu/setsompoplab.html",
+      "portraitUrl": "https://profiles.stanford.edu/proxy/api/cap/profiles/241862/resources/profilephoto/350x522.1787854876.jpg",
+      "title": "Courtesy Professor Courtesy via : Radiology",
+      "areas": [
+        "AI, machine learning, optimization",
+        "Computational Sensing, Imaging, and Display",
+        "Biomedical Devices, Sensors & Systems"
+      ],
+      "officialSection": null,
+      "sourcePageUrl": "https://ee.stanford.edu/people/faculty",
+      "decision": "excluded_non_pi",
+      "reason": "Stanford EE 官方职称为 courtesy/adjunct/teaching/practice 等非本单位核心独立 PI 类。",
+      "evidence": "Courtesy Professor Courtesy via : Radiology"
+    },
+    {
+      "officialId": "https://shaolab.stanford.edu/",
+      "name": "Yanjie Shao",
+      "profileUrl": "https://shaolab.stanford.edu/",
+      "portraitUrl": "https://profiles.stanford.edu/proxy/api/cap/profiles/389650/resources/profilephoto/350x522.1780602365972.jpg",
+      "title": "Assistant Professor",
+      "areas": [],
+      "officialSection": null,
+      "sourcePageUrl": "https://ee.stanford.edu/people/faculty",
+      "decision": "pending_profile_verification",
+      "reason": "官方 EE 名录未给研究 area，需读取个人页后确认范围。",
+      "evidence": "Assistant Professor; https://shaolab.stanford.edu/"
+    },
+    {
+      "officialId": "https://acme.stanford.edu",
+      "name": "Constantine Sideris",
+      "profileUrl": "https://acme.stanford.edu",
+      "portraitUrl": "https://cap.stanford.edu/profiles/viewImage?profileId=374995&type=big&ts=1759989696324",
+      "title": "Associate Professor",
+      "areas": [
+        "Biomed devices, sensors, and systems",
+        "Integrated Circuits and Systems",
+        "Biomedical",
+        "Quantum science and engineering, Photonics"
+      ],
+      "officialSection": null,
+      "sourcePageUrl": "https://ee.stanford.edu/people/faculty",
+      "decision": "excluded_non_ai_cs",
+      "reason": "Stanford EE 官方研究 area 未落入本图谱 AI/ML/CV/机器人/计算成像/智能系统范围。",
+      "evidence": "Biomed devices, sensors, and systems | Integrated Circuits and Systems | Biomedical | Quantum science and engineering, Photonics"
+    },
+    {
+      "officialId": "http://ccrma.stanford.edu/~jos/",
+      "name": "Julius O. Smith III",
+      "profileUrl": "http://ccrma.stanford.edu/~jos/",
+      "portraitUrl": "https://profiles.stanford.edu/images/placeholder-350x522.png",
+      "title": "Courtesy Professor Courtesy via : Music",
+      "areas": [],
+      "officialSection": null,
+      "sourcePageUrl": "https://ee.stanford.edu/people/faculty",
+      "decision": "excluded_non_pi",
+      "reason": "Stanford EE 官方职称为 courtesy/adjunct/teaching/practice 等非本单位核心独立 PI 类。",
+      "evidence": "Courtesy Professor Courtesy via : Music"
+    },
+    {
+      "officialId": "http://sohlab.stanford.edu/",
+      "name": "H. Tom Soh",
+      "profileUrl": "http://sohlab.stanford.edu/",
+      "portraitUrl": "https://profiles.stanford.edu/proxy/api/cap/profiles/67643/resources/profilephoto/350x522.1787872051.jpg",
+      "title": "Professor",
+      "areas": [
+        "Biomed devices, sensors, and systems",
+        "Integrated Circuits and Systems",
+        "Quantum science and engineering, Photonics"
+      ],
+      "officialSection": null,
+      "sourcePageUrl": "https://ee.stanford.edu/people/faculty",
+      "decision": "excluded_non_ai_cs",
+      "reason": "Stanford EE 官方研究 area 未落入本图谱 AI/ML/CV/机器人/计算成像/智能系统范围。",
+      "evidence": "Biomed devices, sensors, and systems | Integrated Circuits and Systems | Quantum science and engineering, Photonics"
+    },
+    {
+      "officialId": "https://profiles.stanford.edu/olav-solgaard",
+      "name": "Olav Solgaard",
+      "profileUrl": "https://profiles.stanford.edu/olav-solgaard",
+      "portraitUrl": "https://profiles.stanford.edu/proxy/api/cap/profiles/7225/resources/profilephoto/350x522.1787872051.jpg",
+      "title": "Professor",
+      "areas": [
+        "Integrated Circuits and Systems",
+        "Energy, environment, and sustainability",
+        "Quantum science and engineering, Photonics"
+      ],
+      "officialSection": null,
+      "sourcePageUrl": "https://ee.stanford.edu/people/faculty",
+      "decision": "excluded_non_ai_cs",
+      "reason": "Stanford EE 官方研究 area 未落入本图谱 AI/ML/CV/机器人/计算成像/智能系统范围。",
+      "evidence": "Integrated Circuits and Systems | Energy, environment, and sustainability | Quantum science and engineering, Photonics"
+    },
+    {
+      "officialId": "https://shurans.github.io/",
+      "name": "Shuran Song",
+      "profileUrl": "https://shurans.github.io/",
+      "portraitUrl": "https://profiles.stanford.edu/proxy/api/cap/profiles/176134/resources/profilephoto/350x522.1787872051.jpg",
+      "title": "Assistant Professor",
+      "areas": [
+        "AI, machine learning, optimization",
+        "Computational Sensing, Imaging, and Display",
+        "Robotics, control"
+      ],
+      "officialSection": null,
+      "sourcePageUrl": "https://ee.stanford.edu/people/faculty",
+      "decision": "excluded_duplicate",
+      "reason": "同一人物已在本批次 stanford-cs unit 逐人处理；本 EE officialId 保留重复判断。",
+      "evidence": "Assistant Professor; AI, machine learning, optimization | Computational Sensing, Imaging, and Display | Robotics, control",
+      "atlasPersonId": "shuran-song-us"
+    },
+    {
+      "officialId": "http://www.stanford.edu/people/spielman",
+      "name": "Dan Spielman",
+      "profileUrl": "http://www.stanford.edu/people/spielman",
+      "portraitUrl": "https://profiles.stanford.edu/proxy/api/cap/profiles/4711/resources/profilephoto/350x522.1787854876.jpg",
+      "title": "Courtesy Professor Courtesy via : Radiology",
+      "areas": [],
+      "officialSection": null,
+      "sourcePageUrl": "https://ee.stanford.edu/people/faculty",
+      "decision": "excluded_non_pi",
+      "reason": "Stanford EE 官方职称为 courtesy/adjunct/teaching/practice 等非本单位核心独立 PI 类。",
+      "evidence": "Courtesy Professor Courtesy via : Radiology"
+    },
+    {
+      "officialId": "https://vsyrgkanis.com/",
+      "name": "Vasilis Syrgkanis",
+      "profileUrl": "https://vsyrgkanis.com/",
+      "portraitUrl": "https://profiles.stanford.edu/proxy/api/cap/profiles/287327/resources/profilephoto/350x522.1787854876.jpg",
+      "title": "Courtesy Assistant Professor Courtesy via : Management Science and Engineering",
+      "areas": [],
+      "officialSection": null,
+      "sourcePageUrl": "https://ee.stanford.edu/people/faculty",
+      "decision": "excluded_duplicate",
+      "reason": "同一人物已在本批次 stanford-cs unit 逐人处理；本 EE officialId 保留重复判断。",
+      "evidence": "Courtesy Assistant Professor Courtesy via : Management Science and Engineering; "
+    },
+    {
+      "officialId": "https://profiles.stanford.edu/thierry-tambe",
+      "name": "Thierry Tambe",
+      "profileUrl": "https://profiles.stanford.edu/thierry-tambe",
+      "portraitUrl": "https://profiles.stanford.edu/proxy/api/cap/profiles/327888/resources/profilephoto/350x522.1787872051.jpg",
+      "title": "Assistant Professor",
+      "areas": [
+        "Integrated Circuits & Power Electronics",
+        "Computer architecture, security, hardware/software systems",
+        "Environmental sensors, embedded systems, remote sensing",
+        "Energy, environment, and sustainability"
+      ],
+      "officialSection": null,
+      "sourcePageUrl": "https://ee.stanford.edu/people/faculty",
+      "decision": "include_new_pi",
+      "reason": "Stanford EE 官方名录确认当前独立教师身份，研究 area 属于 AI/ML/优化、计算成像、信号处理、计算架构或机器人主线。",
+      "evidence": "Assistant Professor; Integrated Circuits & Power Electronics | Computer architecture, security, hardware/software systems | Environmental sensors, embedded systems, remote sensing | Energy, environment, and sustainability"
+    },
+    {
+      "officialId": "http://profiles.stanford.edu/fouad-tobagi",
+      "name": "Fouad A. Tobagi",
+      "profileUrl": "http://profiles.stanford.edu/fouad-tobagi",
+      "portraitUrl": "https://profiles.stanford.edu/proxy/api/cap/profiles/41494/resources/profilephoto/350x522.1787872051.jpg",
+      "title": "Professor",
+      "areas": [
+        "Computer architecture, security, hardware/software systems",
+        "Software systems, security, distributed systems and networks"
+      ],
+      "officialSection": null,
+      "sourcePageUrl": "https://ee.stanford.edu/people/faculty",
+      "decision": "include_new_pi",
+      "reason": "Stanford EE 官方名录确认当前独立教师身份，研究 area 属于 AI/ML/优化、计算成像、信号处理、计算架构或机器人主线。",
+      "evidence": "Professor; Computer architecture, security, hardware/software systems | Software systems, security, distributed systems and networks"
+    },
+    {
+      "officialId": "https://cs.stanford.edu/people/trippel/",
+      "name": "Caroline Trippel",
+      "profileUrl": "https://cs.stanford.edu/people/trippel/",
+      "portraitUrl": "https://profiles.stanford.edu/proxy/api/cap/profiles/227427/resources/profilephoto/350x522.1787872051.jpg",
+      "title": "Assistant Professor",
+      "areas": [
+        "Computer architecture, security, hardware/software systems",
+        "Software systems, security, distributed systems and networks"
+      ],
+      "officialSection": null,
+      "sourcePageUrl": "https://ee.stanford.edu/people/faculty",
+      "decision": "excluded_duplicate",
+      "reason": "同一人物已在本批次 stanford-cs unit 逐人处理；本 EE officialId 保留重复判断。",
+      "evidence": "Assistant Professor; Computer architecture, security, hardware/software systems | Software systems, security, distributed systems and networks"
+    },
+    {
+      "officialId": "https://tselab.stanford.edu/",
+      "name": "David Tse",
+      "profileUrl": "https://tselab.stanford.edu/",
+      "portraitUrl": "https://profiles.stanford.edu/proxy/api/cap/profiles/52667/resources/profilephoto/350x522.1787872051.jpg",
+      "title": "Professor",
+      "areas": [
+        "Information and coding theory, communications, signal processing",
+        "Computer architecture, security, hardware/software systems",
+        "AI, machine learning, optimization",
+        "Software systems, security, distributed systems and networks"
+      ],
+      "officialSection": null,
+      "sourcePageUrl": "https://ee.stanford.edu/people/faculty",
+      "decision": "include_new_pi",
+      "reason": "Stanford EE 官方名录确认当前独立教师身份，研究 area 属于 AI/ML/优化、计算成像、信号处理、计算架构或机器人主线。",
+      "evidence": "Professor; Information and coding theory, communications, signal processing | Computer architecture, security, hardware/software systems | AI, machine learning, optimization | Software systems, security, distributed systems and networks"
+    },
+    {
+      "officialId": "https://profiles.stanford.edu/g-tyler",
+      "name": "Leonard Tyler",
+      "profileUrl": "https://profiles.stanford.edu/g-tyler",
+      "portraitUrl": "https://profiles.stanford.edu/images/placeholder-350x522.png",
+      "title": "Emeritus",
+      "areas": [],
+      "officialSection": null,
+      "sourcePageUrl": "https://ee.stanford.edu/people/faculty",
+      "decision": "excluded_historical",
+      "reason": "官方职称为 emeritus/retired 类，不是当前 PI。",
+      "evidence": "Emeritus"
+    },
+    {
+      "officialId": "https://web.stanford.edu/~udell/",
+      "name": "Madeleine Udell",
+      "profileUrl": "https://web.stanford.edu/~udell/",
+      "portraitUrl": "https://profiles.stanford.edu/proxy/api/cap/profiles/43353/resources/profilephoto/350x522.1787854876.jpg",
+      "title": "Courtesy Assistant Professor Courtesy via : Management Science and Engineering",
+      "areas": [
+        "Signal processing and control",
+        "AI, machine learning, optimization"
+      ],
+      "officialSection": null,
+      "sourcePageUrl": "https://ee.stanford.edu/people/faculty",
+      "decision": "excluded_non_pi",
+      "reason": "Stanford EE 官方职称为 courtesy/adjunct/teaching/practice 等非本单位核心独立 PI 类。",
+      "evidence": "Courtesy Assistant Professor Courtesy via : Management Science and Engineering"
+    },
+    {
+      "officialId": "http://web.stanford.edu/~bvr/",
+      "name": "Benjamin Van Roy",
+      "profileUrl": "http://web.stanford.edu/~bvr/",
+      "portraitUrl": "https://profiles.stanford.edu/proxy/api/cap/profiles/24760/resources/profilephoto/350x522.1787872051.jpg",
+      "title": "Professor",
+      "areas": [
+        "Information and coding theory, communications, signal processing",
+        "AI, machine learning, optimization"
+      ],
+      "officialSection": null,
+      "sourcePageUrl": "https://ee.stanford.edu/people/faculty",
+      "decision": "include_new_pi",
+      "reason": "Stanford EE 官方名录确认当前独立教师身份，研究 area 属于 AI/ML/优化、计算成像、信号处理、计算架构或机器人主线。",
+      "evidence": "Professor; Information and coding theory, communications, signal processing | AI, machine learning, optimization"
+    },
+    {
+      "officialId": "http://web.stanford.edu/~jela/",
+      "name": "Jelena Vuckovic",
+      "profileUrl": "http://web.stanford.edu/~jela/",
+      "portraitUrl": "https://profiles.stanford.edu/proxy/api/cap/profiles/14639/resources/profilephoto/350x522.1787872051.jpg",
+      "title": "Professor",
+      "areas": [
+        "New Materials, Nanofabrication, and Devices",
+        "Quantum science and engineering, Photonics"
+      ],
+      "officialSection": null,
+      "sourcePageUrl": "https://ee.stanford.edu/people/faculty",
+      "decision": "excluded_non_ai_cs",
+      "reason": "Stanford EE 官方研究 area 未落入本图谱 AI/ML/CV/机器人/计算成像/智能系统范围。",
+      "evidence": "New Materials, Nanofabrication, and Devices | Quantum science and engineering, Photonics"
+    },
+    {
+      "officialId": "http://web.stanford.edu/group/vista/cgi-bin/wandell/",
+      "name": "Brian Wandell",
+      "profileUrl": "http://web.stanford.edu/group/vista/cgi-bin/wandell/",
+      "portraitUrl": "https://profiles.stanford.edu/proxy/api/cap/profiles/7651/resources/profilephoto/350x522.1787854876.jpg",
+      "title": "Courtesy Professor Courtesy via : Psychology",
+      "areas": [
+        "Biomed devices, sensors, and systems",
+        "Computational Sensing, Imaging, and Display"
+      ],
+      "officialSection": null,
+      "sourcePageUrl": "https://ee.stanford.edu/people/faculty",
+      "decision": "excluded_non_pi",
+      "reason": "Stanford EE 官方职称为 courtesy/adjunct/teaching/practice 等非本单位核心独立 PI 类。",
+      "evidence": "Courtesy Professor Courtesy via : Psychology"
+    },
+    {
+      "officialId": "https://profiles.stanford.edu/shan-wang",
+      "name": "Shan X. Wang",
+      "profileUrl": "https://profiles.stanford.edu/shan-wang",
+      "portraitUrl": "https://profiles.stanford.edu/proxy/api/cap/profiles/8087/resources/profilephoto/350x522.1787872051.jpg",
+      "title": "Professor",
+      "areas": [
+        "New Materials, Nanofabrication, and Devices",
+        "Biomed devices, sensors, and systems",
+        "Integrated Circuits and Systems"
+      ],
+      "officialSection": null,
+      "sourcePageUrl": "https://ee.stanford.edu/people/faculty",
+      "decision": "excluded_non_ai_cs",
+      "reason": "Stanford EE 官方研究 area 未落入本图谱 AI/ML/CV/机器人/计算成像/智能系统范围。",
+      "evidence": "New Materials, Nanofabrication, and Devices | Biomed devices, sensors, and systems | Integrated Circuits and Systems"
+    },
+    {
+      "officialId": "http://med.stanford.edu/wanggroup.html",
+      "name": "Adam S. Wang",
+      "profileUrl": "http://med.stanford.edu/wanggroup.html",
+      "portraitUrl": "https://profiles.stanford.edu/proxy/api/cap/profiles/204854/resources/profilephoto/350x522.1787854876.jpg",
+      "title": "Courtesy Assistant Professor Courtesy via : Radiology",
+      "areas": [
+        "Biomed devices, sensors, and systems",
+        "AI, machine learning, optimization",
+        "Computational Sensing, Imaging, and Display"
+      ],
+      "officialSection": null,
+      "sourcePageUrl": "https://ee.stanford.edu/people/faculty",
+      "decision": "excluded_non_pi",
+      "reason": "Stanford EE 官方职称为 courtesy/adjunct/teaching/practice 等非本单位核心独立 PI 类。",
+      "evidence": "Courtesy Assistant Professor Courtesy via : Radiology"
+    },
+    {
+      "officialId": "http://web.stanford.edu/~tsachy/",
+      "name": "Tsachy Weissman",
+      "profileUrl": "http://web.stanford.edu/~tsachy/",
+      "portraitUrl": "https://profiles.stanford.edu/proxy/api/cap/profiles/41890/resources/profilephoto/350x522.1787872051.jpg",
+      "title": "Professor",
+      "areas": [
+        "Biomed devices, sensors, and systems",
+        "Information and coding theory, communications, signal processing",
+        "Signal processing and control"
+      ],
+      "officialSection": null,
+      "sourcePageUrl": "https://ee.stanford.edu/people/faculty",
+      "decision": "include_new_pi",
+      "reason": "Stanford EE 官方名录确认当前独立教师身份，研究 area 属于 AI/ML/优化、计算成像、信号处理、计算架构或机器人主线。",
+      "evidence": "Professor; Biomed devices, sensors, and systems | Information and coding theory, communications, signal processing | Signal processing and control"
+    },
+    {
+      "officialId": "http://www.computationalimaging.org/",
+      "name": "Gordon Wetzstein",
+      "profileUrl": "http://www.computationalimaging.org/",
+      "portraitUrl": "https://profiles.stanford.edu/proxy/api/cap/profiles/61911/resources/profilephoto/350x522.1787872051.jpg",
+      "title": "Associate Professor",
+      "areas": [
+        "Information and coding theory, communications, signal processing",
+        "AI, machine learning, optimization",
+        "Computational Sensing, Imaging, and Display"
+      ],
+      "officialSection": null,
+      "sourcePageUrl": "https://ee.stanford.edu/people/faculty",
+      "decision": "included_existing",
+      "reason": "同名范围内 PI 已在图谱中；本 unit 仍保留一条 officialId 级判断。",
+      "evidence": "http://www.computationalimaging.org/",
+      "atlasPersonId": "gordon-wetzstein-stanford"
+    },
+    {
+      "officialId": "http://infolab.stanford.edu/~widom/",
+      "name": "Jennifer Widom",
+      "profileUrl": "http://infolab.stanford.edu/~widom/",
+      "portraitUrl": "https://profiles.stanford.edu/proxy/api/cap/profiles/10275/resources/profilephoto/350x522.1787872051.jpg",
+      "title": "Professor",
+      "areas": [
+        "Computer architecture, security, hardware/software systems",
+        "Software systems, security, distributed systems and networks"
+      ],
+      "officialSection": null,
+      "sourcePageUrl": "https://ee.stanford.edu/people/faculty",
+      "decision": "excluded_duplicate",
+      "reason": "同一人物已在本批次 stanford-cs unit 逐人处理；本 EE officialId 保留重复判断。",
+      "evidence": "Professor; Computer architecture, security, hardware/software systems | Software systems, security, distributed systems and networks"
+    },
+    {
+      "officialId": "https://profiles.stanford.edu/bernard-widrow",
+      "name": "Bernard Widrow",
+      "profileUrl": "https://profiles.stanford.edu/bernard-widrow",
+      "portraitUrl": "https://profiles.stanford.edu/images/placeholder-350x522.png",
+      "title": "Emeritus",
+      "areas": [
+        "Biomed devices, sensors, and systems",
+        "AI, machine learning, optimization"
+      ],
+      "officialSection": null,
+      "sourcePageUrl": "https://ee.stanford.edu/people/faculty",
+      "decision": "excluded_historical",
+      "reason": "官方职称为 emeritus/retired 类，不是当前 PI。",
+      "evidence": "Emeritus"
+    },
+    {
+      "officialId": "https://profiles.stanford.edu/keith-winstein",
+      "name": "Keith Winstein",
+      "profileUrl": "https://profiles.stanford.edu/keith-winstein",
+      "portraitUrl": "https://profiles.stanford.edu/proxy/api/cap/profiles/62456/resources/profilephoto/350x522.1787854876.jpg",
+      "title": "Courtesy Associate Professor Courtesy via : Computer Science",
+      "areas": [
+        "Information and coding theory, communications, signal processing",
+        "Computer architecture, security, hardware/software systems",
+        "Software systems, security, distributed systems and networks"
+      ],
+      "officialSection": null,
+      "sourcePageUrl": "https://ee.stanford.edu/people/faculty",
+      "decision": "excluded_duplicate",
+      "reason": "同一人物已在本批次 stanford-cs unit 逐人处理；本 EE officialId 保留重复判断。",
+      "evidence": "Courtesy Associate Professor Courtesy via : Computer Science; Information and coding theory, communications, signal processing | Computer architecture, security, hardware/software systems | Software systems, security, distributed systems and networks"
+    },
+    {
+      "officialId": "http://web.stanford.edu/~hspwong/",
+      "name": "H.-S. Philip Wong",
+      "profileUrl": "http://web.stanford.edu/~hspwong/",
+      "portraitUrl": "https://profiles.stanford.edu/proxy/api/cap/profiles/10012/resources/profilephoto/350x522.1787872051.jpg",
+      "title": "Professor",
+      "areas": [
+        "New Materials, Nanofabrication, and Devices",
+        "Computer architecture, security, hardware/software systems",
+        "Integrated Circuits and Systems"
+      ],
+      "officialSection": null,
+      "sourcePageUrl": "https://ee.stanford.edu/people/faculty",
+      "decision": "include_new_pi",
+      "reason": "Stanford EE 官方名录确认当前独立教师身份，研究 area 属于 AI/ML/优化、计算成像、信号处理、计算架构或机器人主线。",
+      "evidence": "Professor; New Materials, Nanofabrication, and Devices | Computer architecture, security, hardware/software systems | Integrated Circuits and Systems"
+    },
+    {
+      "officialId": "https://profiles.stanford.edu/s-simon-wong",
+      "name": "S. Simon Wong",
+      "profileUrl": "https://profiles.stanford.edu/s-simon-wong",
+      "portraitUrl": "https://profiles.stanford.edu/proxy/api/cap/profiles/30013/resources/profilephoto/350x522.1787872051.jpg",
+      "title": "Emeritus",
+      "areas": [
+        "New Materials, Nanofabrication, and Devices"
+      ],
+      "officialSection": null,
+      "sourcePageUrl": "https://ee.stanford.edu/people/faculty",
+      "decision": "excluded_historical",
+      "reason": "官方职称为 emeritus/retired 类，不是当前 PI。",
+      "evidence": "Emeritus"
+    },
+    {
+      "officialId": "https://profiles.stanford.edu/bruce-wooley",
+      "name": "Bruce A. Wooley",
+      "profileUrl": "https://profiles.stanford.edu/bruce-wooley",
+      "portraitUrl": "https://profiles.stanford.edu/proxy/api/cap/profiles/41487/resources/profilephoto/350x522.1787872051.jpg",
+      "title": "Emeritus",
+      "areas": [],
+      "officialSection": null,
+      "sourcePageUrl": "https://ee.stanford.edu/people/faculty",
+      "decision": "excluded_historical",
+      "reason": "官方职称为 emeritus/retired 类，不是当前 PI。",
+      "evidence": "Emeritus"
+    },
+    {
+      "officialId": "https://sites.google.com/site/marywootters/",
+      "name": "Mary Wootters",
+      "profileUrl": "https://sites.google.com/site/marywootters/",
+      "portraitUrl": "https://profiles.stanford.edu/proxy/api/cap/profiles/84162/resources/profilephoto/350x522.1787872051.jpg",
+      "title": "Associate Professor",
+      "areas": [
+        "Information and coding theory, communications, signal processing"
+      ],
+      "officialSection": null,
+      "sourcePageUrl": "https://ee.stanford.edu/people/faculty",
+      "decision": "excluded_duplicate",
+      "reason": "同一人物已在本批次 stanford-cs unit 逐人处理；本 EE officialId 保留重复判断。",
+      "evidence": "Associate Professor; Information and coding theory, communications, signal processing"
+    },
+    {
+      "officialId": "http://xinglab.stanford.edu/",
+      "name": "Lei Xing",
+      "profileUrl": "http://xinglab.stanford.edu/",
+      "portraitUrl": "https://profiles.stanford.edu/proxy/api/cap/profiles/4443/resources/profilephoto/350x522.1787854876.jpg",
+      "title": "Courtesy Professor Courtesy via : Radiation Oncology",
+      "areas": [
+        "Biomed devices, sensors, and systems",
+        "AI, machine learning, optimization",
+        "Computational Sensing, Imaging, and Display"
+      ],
+      "officialSection": null,
+      "sourcePageUrl": "https://ee.stanford.edu/people/faculty",
+      "decision": "excluded_non_pi",
+      "reason": "Stanford EE 官方职称为 courtesy/adjunct/teaching/practice 等非本单位核心独立 PI 类。",
+      "evidence": "Courtesy Professor Courtesy via : Radiation Oncology"
+    },
+    {
+      "officialId": "https://web.stanford.edu/~kuangxu/",
+      "name": "Kuang Xu",
+      "profileUrl": "https://web.stanford.edu/~kuangxu/",
+      "portraitUrl": "https://profiles.stanford.edu/proxy/api/cap/profiles/67645/resources/profilephoto/350x522.1787854876.jpg",
+      "title": "Courtesy Associate Professor Courtesy via : Graduate School of Business",
+      "areas": [],
+      "officialSection": null,
+      "sourcePageUrl": "https://ee.stanford.edu/people/faculty",
+      "decision": "excluded_non_pi",
+      "reason": "Stanford EE 官方职称为 courtesy/adjunct/teaching/practice 等非本单位核心独立 PI 类。",
+      "evidence": "Courtesy Associate Professor Courtesy via : Graduate School of Business"
+    },
+    {
+      "officialId": "https://profiles.stanford.edu/yoshihisa-yamamoto",
+      "name": "Yoshihisa Yamamoto",
+      "profileUrl": "https://profiles.stanford.edu/yoshihisa-yamamoto",
+      "portraitUrl": "https://profiles.stanford.edu/proxy/api/cap/profiles/9615/resources/profilephoto/350x522.1787872051.jpg",
+      "title": "Emeritus",
+      "areas": [],
+      "officialSection": null,
+      "sourcePageUrl": "https://ee.stanford.edu/people/faculty",
+      "decision": "excluded_historical",
+      "reason": "官方职称为 emeritus/retired 类，不是当前 PI。",
+      "evidence": "Emeritus"
+    },
+    {
+      "officialId": "http://web.stanford.edu/~yyye/",
+      "name": "Yinyu Ye",
+      "profileUrl": "http://web.stanford.edu/~yyye/",
+      "portraitUrl": "https://profiles.stanford.edu/proxy/api/cap/profiles/29402/resources/profilephoto/350x522.1787854876.jpg",
+      "title": "Courtesy Professor Courtesy via : Management Science and Engineering",
+      "areas": [],
+      "officialSection": null,
+      "sourcePageUrl": "https://ee.stanford.edu/people/faculty",
+      "decision": "excluded_non_pi",
+      "reason": "Stanford EE 官方职称为 courtesy/adjunct/teaching/practice 等非本单位核心独立 PI 类。",
+      "evidence": "Courtesy Professor Courtesy via : Management Science and Engineering"
+    },
+    {
+      "officialId": "http://ai.stanford.edu/~syyeung/",
+      "name": "Serena Yeung",
+      "profileUrl": "http://ai.stanford.edu/~syyeung/",
+      "portraitUrl": "https://profiles.stanford.edu/proxy/api/cap/profiles/42459/resources/profilephoto/350x522.1787854876.jpg",
+      "title": "Courtesy Assistant Professor Courtesy via : Biomedical Data Science and, by courtesy, of Computer Science and of Electrical Engineering",
+      "areas": [
+        "Biomed devices, sensors, and systems",
+        "AI, machine learning, optimization"
+      ],
+      "officialSection": null,
+      "sourcePageUrl": "https://ee.stanford.edu/people/faculty",
+      "decision": "excluded_non_pi",
+      "reason": "Stanford EE 官方职称为 courtesy/adjunct/teaching/practice 等非本单位核心独立 PI 类。",
+      "evidence": "Courtesy Assistant Professor Courtesy via : Biomedical Data Science and, by courtesy, of Computer Science and of Electrical Engineering"
+    },
+    {
+      "officialId": "http://ee.stanford.edu/~zebker/",
+      "name": "Howard Zebker",
+      "profileUrl": "http://ee.stanford.edu/~zebker/",
+      "portraitUrl": "https://profiles.stanford.edu/proxy/api/cap/profiles/41264/resources/profilephoto/350x522.1787872051.jpg",
+      "title": "Professor",
+      "areas": [
+        "Information and coding theory, communications, signal processing",
+        "Energy, environment, and sustainability"
+      ],
+      "officialSection": null,
+      "sourcePageUrl": "https://ee.stanford.edu/people/faculty",
+      "decision": "include_new_pi",
+      "reason": "Stanford EE 官方名录确认当前独立教师身份，研究 area 属于 AI/ML/优化、计算成像、信号处理、计算架构或机器人主线。",
+      "evidence": "Professor; Information and coding theory, communications, signal processing | Energy, environment, and sustainability"
+    },
+    {
+      "officialId": "https://www.james-zou.com/",
+      "name": "James Zou",
+      "profileUrl": "https://www.james-zou.com/",
+      "portraitUrl": "https://profiles.stanford.edu/proxy/api/cap/profiles/84123/resources/profilephoto/350x522.1787854876.jpg",
+      "title": "Courtesy Associate Professor Courtesy via : Biomedical Data Science",
+      "areas": [
+        "AI, machine learning, optimization",
+        "Biomedical Devices, Sensors & Systems"
+      ],
+      "officialSection": null,
+      "sourcePageUrl": "https://ee.stanford.edu/people/faculty",
+      "decision": "excluded_duplicate",
+      "reason": "同一人物已在本批次 stanford-cs unit 逐人处理；本 EE officialId 保留重复判断。",
+      "evidence": "Courtesy Associate Professor Courtesy via : Biomedical Data Science; AI, machine learning, optimization | Biomedical Devices, Sensors & Systems",
+      "atlasPersonId": "james-zou-award"
+    },
+    {
+      "officialId": "https://med.stanford.edu/delazerda/adam-de-la-zerda.html",
+      "name": "Adam de la Zerda",
+      "profileUrl": "https://med.stanford.edu/delazerda/adam-de-la-zerda.html",
+      "portraitUrl": "https://profiles.stanford.edu/proxy/api/cap/profiles/31795/resources/profilephoto/350x522.1787854876.jpg",
+      "title": "Courtesy Associate Professor Courtesy via : Structural Biology",
+      "areas": [],
+      "officialSection": null,
+      "sourcePageUrl": "https://ee.stanford.edu/people/faculty",
+      "decision": "excluded_non_pi",
+      "reason": "Stanford EE 官方职称为 courtesy/adjunct/teaching/practice 等非本单位核心独立 PI 类。",
+      "evidence": "Courtesy Associate Professor Courtesy via : Structural Biology"
+    }
+  ]
+}

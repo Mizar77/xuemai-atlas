@@ -1,0 +1,1812 @@
+{
+  "schemaVersion": 1,
+  "region": "Mainland China",
+  "rank": 16,
+  "institution": "香港中文大学（深圳）",
+  "unitId": "cuhksz-sds-rank11-18",
+  "unitName": "数据科学学院",
+  "snapshotAt": "2026-09-02",
+  "reviewedAt": "2026-09-03",
+  "rosterArtifact": "data/official-rosters/cuhksz-sds-all-faculty-2026-09-02.json",
+  "officialRosterUrl": "https://sds.cuhk.edu.cn/teacher-search",
+  "officialRosterCount": 105,
+  "decisionCount": 105,
+  "counts": {
+    "included_existing": 1,
+    "include_new_pi": 89,
+    "excluded_non_ai_cs": 14,
+    "excluded_non_pi": 0,
+    "excluded_historical": 1,
+    "excluded_industry_only": 0,
+    "excluded_insufficient_scope_evidence": 0,
+    "pending_profile_verification": 0
+  },
+  "decisions": [
+    {
+      "officialId": "2436",
+      "name": "巴金声",
+      "title": "助理教授",
+      "officialSections": [
+        "师资检索全部"
+      ],
+      "profileUrl": "https://sds.cuhk.edu.cn/teacher/2436",
+      "portraitUrl": "https://sds.cuhk.edu.cn/sites/default/files/styles/w1200/public/2026-07/JinshengBa.png?itok=hKHGrTu5",
+      "sourcePageUrl": "https://sds.cuhk.edu.cn/teacher-search",
+      "officialRosterUrl": "https://sds.cuhk.edu.cn/teacher-search",
+      "profileChecked": true,
+      "decision": "include_new_pi",
+      "reason": "官方数据科学学院名录和个人页确认其为教授、副教授、研究员或可独立招生导师；该单位研究主线属于 AI、数据科学及相关智能计算范围。",
+      "evidenceUrl": "https://sds.cuhk.edu.cn/teacher/2436",
+      "evidenceExcerpt": "助理教授 | 师资检索全部 | 大模型驱动的软件工程、软件安全、自演进软件、大模型智能体 | 新加坡国立大学博士 研究方向是软件工程与数据科学的交叉融合，尤其关注在语义层面观察、操控和塑造软件行为，以提升关键数据驱动和人工智能驱动系统的可靠性。其研究成果全部发表于国际顶级期刊会议，包括 ICSE 、 SIGMOD 和 USENIX Security 等。作为第一作者，他曾两次荣获国际顶级会议 A"
+    },
+    {
+      "officialId": "2238",
+      "name": "BRESAR, Miha",
+      "title": "助理教授",
+      "officialSections": [
+        "师资检索全部"
+      ],
+      "profileUrl": "https://sds.cuhk.edu.cn/teacher/2238",
+      "portraitUrl": "https://sds.cuhk.edu.cn/sites/default/files/styles/w1200/public/2025-09/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20250919174741.jpg?itok=IEOnATQ-",
+      "sourcePageUrl": "https://sds.cuhk.edu.cn/teacher-search",
+      "officialRosterUrl": "https://sds.cuhk.edu.cn/teacher-search",
+      "profileChecked": true,
+      "decision": "include_new_pi",
+      "reason": "官方数据科学学院名录和个人页确认其为教授、副教授、研究员或可独立招生导师；该单位研究主线属于 AI、数据科学及相关智能计算范围。",
+      "evidenceUrl": "https://sds.cuhk.edu.cn/teacher/2238",
+      "evidenceExcerpt": "20-2023） 硕士，数学，华威大学（2019-2020） 学士，金融数学，卢布尔雅那大学（2016-2019） 学术领域 计算机科学, 机器学习与人工智能, 运筹学, 优化, 应用概率与随机系统, 统计学, 统计理论, 统计计算和大数据分析 研究领域 概率论、马尔可夫过程的稳定性、随机分析、随机算法的收敛性、MCMC（马尔可夫链蒙特卡罗）、去噪扩散概率模型 个人网站 https://sites.google.com/view/mihabresar 电子邮箱 mihabresar@cuhk.edu.c"
+    },
+    {
+      "officialId": "262",
+      "name": "蔡小强",
+      "title": "校长讲座教授 / 香港中文大学（深圳）协理副校长",
+      "officialSections": [
+        "师资检索全部"
+      ],
+      "profileUrl": "https://sds.cuhk.edu.cn/teacher/262",
+      "portraitUrl": "https://sds.cuhk.edu.cn/sites/default/files/styles/w1200/public/2020-06/5%E8%94%A1%E5%B0%8F%E5%BC%BA.png?itok=I6ypfscI",
+      "sourcePageUrl": "https://sds.cuhk.edu.cn/teacher-search",
+      "officialRosterUrl": "https://sds.cuhk.edu.cn/teacher-search",
+      "profileChecked": true,
+      "decision": "include_new_pi",
+      "reason": "官方数据科学学院名录和个人页确认其为教授、副教授、研究员或可独立招生导师；该单位研究主线属于 AI、数据科学及相关智能计算范围。",
+      "evidenceUrl": "https://sds.cuhk.edu.cn/teacher/262",
+      "evidenceExcerpt": "编、编委。他于2021年获IEOM学会物流与供应链杰出教授奖。 他是国家杰出青年科学基金（海外类）获得者，香港工程师学会Fellow, 亚太人工智能学会(AAIA) Fellow, 国际系统与控制科学院院士。 学术著作 1. M.H. Lai, X.Q. Cai*, N.G. Hall, Cost allocation for less-than-truckload collaboration via shipper consortium. Transportation Science. Publish"
+    },
+    {
+      "officialId": "2376",
+      "name": "陈弘轩",
+      "title": "助理教授（教学）",
+      "officialSections": [
+        "师资检索全部"
+      ],
+      "profileUrl": "https://sds.cuhk.edu.cn/teacher/2376",
+      "portraitUrl": "https://sds.cuhk.edu.cn/sites/default/files/styles/w1200/public/2026-06/1780481080045.jpg?itok=5DpfsCM6",
+      "sourcePageUrl": "https://sds.cuhk.edu.cn/teacher-search",
+      "officialRosterUrl": "https://sds.cuhk.edu.cn/teacher-search",
+      "profileChecked": true,
+      "decision": "excluded_non_ai_cs",
+      "reason": "已检查官方个人页及名录字段，公开研究主线未显示 AI、NLP、CV、ML、数据智能、机器人或本图谱紧密相邻方向。",
+      "evidenceUrl": "https://sds.cuhk.edu.cn/teacher/2376",
+      "evidenceExcerpt": "研究领域 计算机科学教育、学习认知瓶颈、创新教学设计、协作学习机制、课程内容与体系规划 电子邮箱 hongxuanchen@cuhk.edu.cn 办公室 道远楼 517a 个人简介 陈弘轩博士是香港中文大学（深圳）数据科学学院的助理教授（教学），于伊利诺伊大学厄巴纳 - 香槟分校获得计算机科学博士与学士学位。他专注于计算机科学教育领域，致力于将学术理论与前沿教学实践深度融合。其研究聚焦于探究学生在学习计算机科学高阶概念时面临的学习认知瓶颈，进行创新教学设计，并评估协作学习机制及课程内容与体系规划对学生学业成就的影响。他期望通过这些循证研究，打造包容、高效的学习环境，进一步推动计算机科学教育的普及。 学术著作 1. “Measuring Students’ Perceptions of an Autograded Scaffolding Tool for Students Performing at All Levels in an Algorithms Class”, Proceedings of the 57th ACM Technical Symposium on Compute"
+    },
+    {
+      "officialId": "2145",
+      "name": "陈靖邦",
+      "title": "研究助理教授",
+      "officialSections": [
+        "师资检索全部"
+      ],
+      "profileUrl": "https://sds.cuhk.edu.cn/teacher/2145",
+      "portraitUrl": "https://sds.cuhk.edu.cn/sites/default/files/styles/w1200/public/2026-04/3953558b262a8a949e9e9884507b2be.png?itok=lr5Dx1sP",
+      "sourcePageUrl": "https://sds.cuhk.edu.cn/teacher-search",
+      "officialRosterUrl": "https://sds.cuhk.edu.cn/teacher-search",
+      "profileChecked": true,
+      "decision": "include_new_pi",
+      "reason": "官方数据科学学院名录和个人页确认其为教授、副教授、研究员或可独立招生导师；该单位研究主线属于 AI、数据科学及相关智能计算范围。",
+      "evidenceUrl": "https://sds.cuhk.edu.cn/teacher/2145",
+      "evidenceExcerpt": "研究助理教授 | 师资检索全部 | 图论算法与数据结构设计、大规模数据管理和数据挖掘 | 滑铁卢大学博士 研究方向是设计、分析、实现有理论保证的高效图论算法和数据结构，延伸方向包括大规模数据管理和数据挖掘，机器学习、人工智能。已在数据库、数据挖掘、理论计算机科学及人工智能等方向上发表多篇文章，其中包括发表在国际机器学习、数据库和数据挖掘重要会议（如ICML，KDD，VLDB）上；担任顶级会议审稿人（如KDD，WWW，FOCS，SODA）。"
+    },
+    {
+      "officialId": "2234",
+      "name": "陈名华",
+      "title": "校长讲座教授",
+      "officialSections": [
+        "师资检索全部"
+      ],
+      "profileUrl": "https://sds.cuhk.edu.cn/teacher/2234",
+      "portraitUrl": "https://sds.cuhk.edu.cn/sites/default/files/styles/w1200/public/2025-08/%E9%99%88%E5%90%8D%E5%8D%8E.jpg?itok=UWiK_-7l",
+      "sourcePageUrl": "https://sds.cuhk.edu.cn/teacher-search",
+      "officialRosterUrl": "https://sds.cuhk.edu.cn/teacher-search",
+      "profileChecked": true,
+      "decision": "include_new_pi",
+      "reason": "官方数据科学学院名录和个人页确认其为教授、副教授、研究员或可独立招生导师；该单位研究主线属于 AI、数据科学及相关智能计算范围。",
+      "evidenceUrl": "https://sds.cuhk.edu.cn/teacher/2234",
+      "evidenceExcerpt": "校长讲座教授 | 师资检索全部 | 在线算法和优化、机器学习以及在电力系统运行中的应用、智能交通、分布式优化、延迟关键网络技术 | 加州大学伯克利分校博士 / IEEE会士、AAIA会士 研究领域 在线算法和优化、机器学习以及在电力系统运行中的应用、智能交通、分布式优化、延迟关键网络技术 个人网站 https://www.mhchen.com/ 电子邮箱 minghua@cuhk.edu.cn 办公室 综合楼C706"
+    },
+    {
+      "officialId": "1629",
+      "name": "陈锐",
+      "title": "助理教授",
+      "officialSections": [
+        "师资检索全部"
+      ],
+      "profileUrl": "https://sds.cuhk.edu.cn/teacher/1629",
+      "portraitUrl": "https://sds.cuhk.edu.cn/sites/default/files/styles/w1200/public/2024-03/%E9%99%88%E9%94%90.jpg?itok=PvO0duYS",
+      "sourcePageUrl": "https://sds.cuhk.edu.cn/teacher-search",
+      "officialRosterUrl": "https://sds.cuhk.edu.cn/teacher-search",
+      "profileChecked": true,
+      "decision": "include_new_pi",
+      "reason": "官方数据科学学院名录和个人页确认其为教授、副教授、研究员或可独立招生导师；该单位研究主线属于 AI、数据科学及相关智能计算范围。",
+      "evidenceUrl": "https://sds.cuhk.edu.cn/teacher/1629",
+      "evidenceExcerpt": "助理教授 | 师资检索全部 | 离散优化、不确定性下的优化、优化在数据科学及物流供应链等问题上的应用 | 威斯康星大学麦迪逊分校博士 研究领域 离散优化、不确定性下的优化、优化在数据科学及物流供应链等问题上的应用 个人网站 https://sites.google.com/view/rchen/home 电子邮箱 rchen@cuhk.edu.cn 办公室 道远楼321b 个人简介 陈锐博士现为香港中文大学（深圳）助理教授。他于2"
+    },
+    {
+      "officialId": "2070",
+      "name": "陈锐志",
+      "title": "教授",
+      "officialSections": [
+        "师资检索全部"
+      ],
+      "profileUrl": "https://sds.cuhk.edu.cn/teacher/2070",
+      "portraitUrl": "https://sds.cuhk.edu.cn/sites/default/files/styles/w1200/public/2024-12/93c741f577df6776f23cf65dc26e0c9.png?itok=hfpTEtJE",
+      "sourcePageUrl": "https://sds.cuhk.edu.cn/teacher-search",
+      "officialRosterUrl": "https://sds.cuhk.edu.cn/teacher-search",
+      "profileChecked": true,
+      "decision": "excluded_non_ai_cs",
+      "reason": "已检查官方个人页及名录字段，公开研究主线未显示 AI、NLP、CV、ML、数据智能、机器人或本图谱紧密相邻方向。",
+      "evidenceUrl": "https://sds.cuhk.edu.cn/teacher/2070",
+      "evidenceExcerpt": "研究领域 卫星导航定位、室内定位、位置服务和空间智能 电子邮箱 chenruizhi@cuhk.edu.cn 办公室 综合楼C717 个人简介 陈锐志教授是芬兰科学与人文院院士，全球前2%的科学家。他曾任武汉大学测绘遥感信息工程国家重点实验室主任、美国德州农工大学讲席教授、芬兰大地测量研究所导航定位研究室主任。 他 主要从事高精度室内定位和低轨导航增强研究，特别是在音频定位方面，实现从理论研究-技术开发-产业化全链条创新。 他 曾任全球华人导航定位协会主席，Journal of Global Positioning Systems 主编。 他 曾主持国家十三五重点研发项目和自然科学基金重点项目。他的研究成果2次登上美国“GPS World”杂志的封面报道。他出版英文论著2部，发表SCI论文200余篇、ESI高被引论文2篇，获“中国百篇最具影响国内学术论文”1篇，授权美国发明专利4项和中国发明专利23项，获测绘科技进步特等奖2项，地理信息科技进步特等奖1项。 学术著作 A. Books Chen, R. & Guinness R. (2014). Geospatial Computing"
+    },
+    {
+      "officialId": "265",
+      "name": "陈天石",
+      "title": "教授",
+      "officialSections": [
+        "师资检索全部"
+      ],
+      "profileUrl": "https://sds.cuhk.edu.cn/teacher/265",
+      "portraitUrl": "https://sds.cuhk.edu.cn/sites/default/files/styles/w1200/public/2020-04/21.png?itok=Gu6Vogt1",
+      "sourcePageUrl": "https://sds.cuhk.edu.cn/teacher-search",
+      "officialRosterUrl": "https://sds.cuhk.edu.cn/teacher-search",
+      "profileChecked": true,
+      "decision": "include_new_pi",
+      "reason": "官方数据科学学院名录和个人页确认其为教授、副教授、研究员或可独立招生导师；该单位研究主线属于 AI、数据科学及相关智能计算范围。",
+      "evidenceUrl": "https://sds.cuhk.edu.cn/teacher/265",
+      "evidenceExcerpt": "教授 | 师资检索全部 | 系统辨识和数据驱动控制的人工智能方法、时空大数据的统计建模、高精度控制和系统辨识的渐近理论 | 香港中文大学博士 研究领域 系统辨识和数据驱动控制的人工智能方法、时空大数据的统计建模、高精度控制和系统辨识的渐近理论 电子邮箱 tschen@cuhk.edu.cn 办公室 综合楼C702 个人简介 陈天石于 2008 年 12 月获香港中文大学自动化与计算机辅助工程博士学位。在 2009 年"
+    },
+    {
+      "officialId": "63",
+      "name": "陈昕韫",
+      "title": "副教授",
+      "officialSections": [
+        "师资检索全部"
+      ],
+      "profileUrl": "https://sds.cuhk.edu.cn/teacher/63",
+      "portraitUrl": "https://sds.cuhk.edu.cn/sites/default/files/styles/w1200/public/2022-01/%E9%99%88%E6%98%95%E9%9F%AB%20%282%29.jpg?itok=nHK1rCfN",
+      "sourcePageUrl": "https://sds.cuhk.edu.cn/teacher-search",
+      "officialRosterUrl": "https://sds.cuhk.edu.cn/teacher-search",
+      "profileChecked": true,
+      "decision": "include_new_pi",
+      "reason": "官方数据科学学院名录和个人页确认其为教授、副教授、研究员或可独立招生导师；该单位研究主线属于 AI、数据科学及相关智能计算范围。",
+      "evidenceUrl": "https://sds.cuhk.edu.cn/teacher/63",
+      "evidenceExcerpt": "副教授 | 师资检索全部 | 排队论、随机仿真、强化学习 | 哥伦比亚大学博士 研究领域 排队论、随机仿真、强化学习 个人网站 https://myweb.cuhk.edu.cn/chenxinyun 电子邮箱 chenxinyun@cuhk.edu.cn 办公室 道远楼404 个人简介 陈昕韫教授于2014年取得哥伦比亚大学运筹学博士学位。毕业后先后任教于美国纽约州立大学石溪分校和武汉大学，2018年10月加入"
+    },
+    {
+      "officialId": "447",
+      "name": "陈逸伦",
+      "title": "助理教授",
+      "officialSections": [
+        "师资检索全部"
+      ],
+      "profileUrl": "https://sds.cuhk.edu.cn/teacher/447",
+      "portraitUrl": "https://sds.cuhk.edu.cn/sites/default/files/styles/w1200/public/2021-03/Yilun_Chen_profile_picture.JPG?itok=Is9C5bNQ",
+      "sourcePageUrl": "https://sds.cuhk.edu.cn/teacher-search",
+      "officialRosterUrl": "https://sds.cuhk.edu.cn/teacher-search",
+      "profileChecked": true,
+      "decision": "excluded_non_ai_cs",
+      "reason": "已检查官方个人页及名录字段，公开研究主线未显示 AI、NLP、CV、ML、数据智能、机器人或本图谱紧密相邻方向。",
+      "evidenceUrl": "https://sds.cuhk.edu.cn/teacher/447",
+      "evidenceExcerpt": "研究方向为运筹学，兴趣涵盖经济学、理论计算机科学与统计学的交叉领域。受在线平台、数字市场和服务系统等应用场景的启发，他致力于研究不确定环境下的数据驱动决策问题，重点关注动态环境中的有限资源配置与管理。其研究成果发表于《Management Science》《Operations Research》等国际顶级学术期刊，以及 ACM Conference on Economics and Computation（ACM EC）等国际会议。曾获2019年 INFORMS George Nicholson Student Paper Competition 一等奖、2024年 INFORMS Junior Faculty Interest Group Best Paper Award；与学生合作者的相关研究获2024年 INFORMS Revenue Management & Pricing Section Jeff McGill Student Paper Competition 一等奖。 学术著作 1. Yilun Chen, Yash kanoria, Akshit Kumar, Wen"
+    },
+    {
+      "officialId": "2078",
+      "name": "陈宇昂",
+      "title": "助理教授（教学） / 本科辅导主任-数据科学与大数据技术学科",
+      "officialSections": [
+        "师资检索全部"
+      ],
+      "profileUrl": "https://sds.cuhk.edu.cn/teacher/2078",
+      "portraitUrl": "https://sds.cuhk.edu.cn/sites/default/files/styles/w1200/public/2025-10/%E9%99%88%E5%AE%87%E6%98%82.jpg?itok=pvUII6LE",
+      "sourcePageUrl": "https://sds.cuhk.edu.cn/teacher-search",
+      "officialRosterUrl": "https://sds.cuhk.edu.cn/teacher-search",
+      "profileChecked": true,
+      "decision": "include_new_pi",
+      "reason": "官方数据科学学院名录和个人页确认其为教授、副教授、研究员或可独立招生导师；该单位研究主线属于 AI、数据科学及相关智能计算范围。",
+      "evidenceUrl": "https://sds.cuhk.edu.cn/teacher/2078",
+      "evidenceExcerpt": "助理教授（教学） / 本科辅导主任-数据科学与大数据技术学科 | 师资检索全部 | 随机优化、数据驱动决策制定、基础设施规划与运营、能源与水系统 | 佐治亚理工学院博士 研究方向集中在随机优化和数据驱动的决策制定，应用方向包括能源系统和水资源系统。 学术著作 1. Yuang Chen, Zhiwei Li, Beste Basciftci, Valerie M. Thomas. “Adaptive"
+    },
+    {
+      "officialId": "1663",
+      "name": "陈振庆",
+      "title": "教授（特聘）",
+      "officialSections": [
+        "师资检索全部"
+      ],
+      "profileUrl": "https://sds.cuhk.edu.cn/teacher/1663",
+      "portraitUrl": "https://sds.cuhk.edu.cn/sites/default/files/styles/w1200/public/2024-04/%E9%99%88%E6%8C%AF%E5%BA%861.jpg?itok=uIblPTya",
+      "sourcePageUrl": "https://sds.cuhk.edu.cn/teacher-search",
+      "officialRosterUrl": "https://sds.cuhk.edu.cn/teacher-search",
+      "profileChecked": true,
+      "decision": "excluded_non_ai_cs",
+      "reason": "已检查官方个人页及名录字段，公开研究主线未显示 AI、NLP、CV、ML、数据智能、机器人或本图谱紧密相邻方向。",
+      "evidenceUrl": "https://sds.cuhk.edu.cn/teacher/1663",
+      "evidenceExcerpt": "研究领域 随机分析及其应用、马氏过程、狄氏型理论、位势理论、扩散过程和反常亚扩散过程、随机环境中的随机过程、偏微分方程、随机最优控制 个人网站 https://sites.math.washington.edu/~zchen/ 电子邮箱 zqchen@cuhk.edu.cn 个人简介 陈振庆教授是美国华盛顿大学数学系的终身教授。陈教授1998年加入华盛顿大学，此前他曾就职于加州大学圣地亚哥分校和康奈尔大学。 陈振庆教授是国际知名概率论学者。在包括国际顶尖数学和概率期刊《欧洲数学学会杂志》(Journal of the European Mathematical Society)、《概率年刊》(Annals of Probability)、《概率论及其相关领域》(Probability Theory and Related Fields)等学术期上发表论文200余篇，著有两本专著。被列为全球Top 2%顶尖科学家。陈振庆教授是国际数理统计学会会士和美国数学学会会士。 从2016年起任国际数学综合性期刊《位势理论》的主编, 是《美国数学学会通讯》(Proceedings of the Am"
+    },
+    {
+      "officialId": "2090",
+      "name": "陈子忠",
+      "title": "校长讲座教授 / 计算机科学学科部主任",
+      "officialSections": [
+        "师资检索全部"
+      ],
+      "profileUrl": "https://sds.cuhk.edu.cn/teacher/2090",
+      "portraitUrl": "https://sds.cuhk.edu.cn/sites/default/files/styles/w1200/public/2025-02/chen-jsu.JPG?itok=4ZCAQ6mZ",
+      "sourcePageUrl": "https://sds.cuhk.edu.cn/teacher-search",
+      "officialRosterUrl": "https://sds.cuhk.edu.cn/teacher-search",
+      "profileChecked": true,
+      "decision": "include_new_pi",
+      "reason": "官方数据科学学院名录和个人页确认其为教授、副教授、研究员或可独立招生导师；该单位研究主线属于 AI、数据科学及相关智能计算范围。",
+      "evidenceUrl": "https://sds.cuhk.edu.cn/teacher/2090",
+      "evidenceExcerpt": "校长讲座教授 / 计算机科学学科部主任 | 师资检索全部 | 高性能计算、GPU加速、人工智能软硬件系统 | 美国田纳西大学博士 研究领域 高性能计算、GPU加速、人工智能软硬件系统 电子邮箱 chenzizhong@cuhk.edu.cn 办公室 综合楼C705 个人简介 陈子忠现任香港中文大学（深圳）校长讲座教授、计算机科学学科部主任；兼任深圳河套学院教授、算力委员会主任。 陈子忠曾任加州大学河滨分校正教授。他博士师从图灵奖得主 Jack Don"
+    },
+    {
+      "officialId": "316",
+      "name": "钟叶青",
+      "title": "教授",
+      "officialSections": [
+        "师资检索全部"
+      ],
+      "profileUrl": "https://sds.cuhk.edu.cn/teacher/316",
+      "portraitUrl": "https://sds.cuhk.edu.cn/sites/default/files/styles/w1200/public/2022-01/%E9%92%9F%E5%8F%B6%E9%9D%92%20%282%29_0.jpg?itok=piZw9L3r",
+      "sourcePageUrl": "https://sds.cuhk.edu.cn/teacher-search",
+      "officialRosterUrl": "https://sds.cuhk.edu.cn/teacher-search",
+      "profileChecked": true,
+      "decision": "include_new_pi",
+      "reason": "官方数据科学学院名录和个人页确认其为教授、副教授、研究员或可独立招生导师；该单位研究主线属于 AI、数据科学及相关智能计算范围。",
+      "evidenceUrl": "https://sds.cuhk.edu.cn/teacher/316",
+      "evidenceExcerpt": "与信息科学博士，1989-1992 雪城大学计算机与信息科学硕士，1986-1988 中原大学计算机科学学士，1979-1983 学术领域 人工智能, 计算机科学, 计算机系统与云计算 研究领域 云雾计算与大数据、嵌入式系统、并行与分布式系统 个人网站 https://mypage.cuhk.edu.cn/ychung 电子邮箱 ychung@cuhk.edu.cn 办公室 道远楼515 个人简介 钟叶青教授现为香港中文大学（深圳）教授，他于1983年获得中原大学计算机学士学位，1988及1992年获得"
+    },
+    {
+      "officialId": "473",
+      "name": "COURCOUBETIS, Konstantinos",
+      "title": "校长讲座教授 / 本科辅导主任-国际生",
+      "officialSections": [
+        "师资检索全部"
+      ],
+      "profileUrl": "https://sds.cuhk.edu.cn/teacher/473",
+      "portraitUrl": "https://sds.cuhk.edu.cn/sites/default/files/styles/w1200/public/2025-10/COURCOUBETIS%2C%20Konstantinos.jpg?itok=PntbLErb",
+      "sourcePageUrl": "https://sds.cuhk.edu.cn/teacher-search",
+      "officialRosterUrl": "https://sds.cuhk.edu.cn/teacher-search",
+      "profileChecked": true,
+      "decision": "include_new_pi",
+      "reason": "官方数据科学学院名录和个人页确认其为教授、副教授、研究员或可独立招生导师；该单位研究主线属于 AI、数据科学及相关智能计算范围。",
+      "evidenceUrl": "https://sds.cuhk.edu.cn/teacher/473",
+      "evidenceExcerpt": "stantinos Courcoubetis教授是新加坡科技设计大学工程系统与设计学院的教授，并担任共享经济倡导人，且为新ST-SUTD中心智能系统的共同负责人。1999年至2013年，Konstantinos Courcoubetis教授在雅典经济与商业大学信息科学系担任教授。在此之前，他曾于1990至1999年在克里特大学计算机科学系担任教授，曾是美国贝尔实验室数学研究中心的技术人员。Konstantinos Courcoubetis教授目前的研究领域主要是网络和互联网技术的经济学和性能分析、共享经"
+    },
+    {
+      "officialId": "56",
+      "name": "戴建岗",
+      "title": "康奈尔大学Leon C. Welch讲座教授 / 荣誉院长",
+      "officialSections": [
+        "师资检索全部"
+      ],
+      "profileUrl": "https://sds.cuhk.edu.cn/teacher/56",
+      "portraitUrl": "https://sds.cuhk.edu.cn/sites/default/files/styles/w1200/public/2024-04/1%E6%88%B4%E5%BB%BA%E5%B2%97.jpg?itok=AKdtvH7f",
+      "sourcePageUrl": "https://sds.cuhk.edu.cn/teacher-search",
+      "officialRosterUrl": "https://sds.cuhk.edu.cn/teacher-search",
+      "profileChecked": true,
+      "decision": "include_new_pi",
+      "reason": "官方数据科学学院名录和个人页确认其为教授、副教授、研究员或可独立招生导师；该单位研究主线属于 AI、数据科学及相关智能计算范围。",
+      "evidenceUrl": "https://sds.cuhk.edu.cn/teacher/56",
+      "evidenceExcerpt": "康奈尔大学Leon C. Welch讲座教授 / 荣誉院长 | 师资检索全部 | 应用概率、流体模型、扩散模型、随机过程和强化学习、随机处理网络中的动态资源分配和优化及在半导体晶圆生产线和通信网络的应用 | 斯坦福大学博士 / IMS会士、INFORMS会士 研究领域 应用概率、流体模型、扩散模型、随机过程和强化学习、随机处理网络中的动态资源分配和优化及在半导体晶圆生产线和通信网络的应用 电子邮箱 jimdai@cuhk.edu.cn 个人简介 戴建岗教授现任美国康奈尔大学运筹学与信息"
+    },
+    {
+      "officialId": "1746",
+      "name": "代忠祥",
+      "title": "助理教授",
+      "officialSections": [
+        "师资检索全部"
+      ],
+      "profileUrl": "https://sds.cuhk.edu.cn/teacher/1746",
+      "portraitUrl": "https://sds.cuhk.edu.cn/sites/default/files/styles/w1200/public/2025-10/%E4%BB%A3%E5%BF%A0%E7%A5%A5.jpg?itok=M_Co25rk",
+      "sourcePageUrl": "https://sds.cuhk.edu.cn/teacher-search",
+      "officialRosterUrl": "https://sds.cuhk.edu.cn/teacher-search",
+      "profileChecked": true,
+      "decision": "include_new_pi",
+      "reason": "官方数据科学学院名录和个人页确认其为教授、副教授、研究员或可独立招生导师；该单位研究主线属于 AI、数据科学及相关智能计算范围。",
+      "evidenceUrl": "https://sds.cuhk.edu.cn/teacher/1746",
+      "evidenceExcerpt": "助理教授 | 师资检索全部 | 智能体、大语言模型、机器学习、多臂老虎机 | 新加坡国立大学博士 研究方向包括基于大模型的智能体、大模型个性化、大模型在线路由、基于大模型的社会模拟、大模型提示优化等；在理论层面，他深入研究多臂老虎机算法。他已在顶级 AI 会议和期刊上发表论文 47 余篇，其中 37 余篇发表于 ICML 、 NeurIPS 和 ICLR （人工智能三大会议）。他担任 NeurIPS 、 I"
+    },
+    {
+      "officialId": "197",
+      "name": "丁宏强",
+      "title": "校长讲座教授",
+      "officialSections": [
+        "师资检索全部"
+      ],
+      "profileUrl": "https://sds.cuhk.edu.cn/teacher/197",
+      "portraitUrl": "https://sds.cuhk.edu.cn/sites/default/files/styles/w1200/public/2021-09/08%20%E4%B8%81%E5%AE%8F%E5%BC%BA%20%282%29.jpg?itok=c7B3C3GM",
+      "sourcePageUrl": "https://sds.cuhk.edu.cn/teacher-search",
+      "officialRosterUrl": "https://sds.cuhk.edu.cn/teacher-search",
+      "profileChecked": true,
+      "decision": "include_new_pi",
+      "reason": "官方数据科学学院名录和个人页确认其为教授、副教授、研究员或可独立招生导师；该单位研究主线属于 AI、数据科学及相关智能计算范围。",
+      "evidenceUrl": "https://sds.cuhk.edu.cn/teacher/197",
+      "evidenceExcerpt": "校长讲座教授 | 师资检索全部 | 机器学习、数据挖掘、生物信息学、信息检索、网络链接分析、高性能计算 | 哥伦比亚大学博士 研究领域 机器学习、数据挖掘、生物信息学、信息检索、网络链接分析、高性能计算 个人网站 http://myweb.cuhk.edu.cn/chrisding 电子邮箱 chrisding@cuhk.edu.cn 办公室 道远楼601 个人简介 丁宏强教授现任香港中文大学（深圳）"
+    },
+    {
+      "officialId": "2338",
+      "name": "DUDEJA, Aditi",
+      "title": "助理教授",
+      "officialSections": [
+        "师资检索全部"
+      ],
+      "profileUrl": "https://sds.cuhk.edu.cn/teacher/2338",
+      "portraitUrl": "https://sds.cuhk.edu.cn/sites/default/files/styles/w1200/public/2025-12/Aditi%2C%20DUDEJA_0.jpg?itok=f9qo0g3Z",
+      "sourcePageUrl": "https://sds.cuhk.edu.cn/teacher-search",
+      "officialRosterUrl": "https://sds.cuhk.edu.cn/teacher-search",
+      "profileChecked": true,
+      "decision": "excluded_non_ai_cs",
+      "reason": "已检查官方个人页及名录字段，公开研究主线未显示 AI、NLP、CV、ML、数据智能、机器人或本图谱紧密相邻方向。",
+      "evidenceUrl": "https://sds.cuhk.edu.cn/teacher/2338",
+      "evidenceExcerpt": "研究方向是流式、动态和在线场景下的图问题。 学术著作 Aaron Bernstein, Jiale Chen, Aditi Dudeja , Zachary Langley, Aaron Sidford, Ta-Wei Tu: Matching Composition and Efficient Weight Reduction in Dynamic Matching. SODA 2025: 2991-3028. Aditi Dudeja , Rashmika Goswami, Michael Saks: Randomized Greedy Online Edge Coloring Succeeds for Dense and Randomly-Ordered Graphs. SODA 2025: 4948-4982. Aditi Dudeja : Decremental Matching in General Weighted Graphs. ICALP 2024: 59:1-59:20. A complete list of publications can be found at"
+    },
+    {
+      "officialId": "331",
+      "name": "樊继聪",
+      "title": "助理教授",
+      "officialSections": [
+        "师资检索全部"
+      ],
+      "profileUrl": "https://sds.cuhk.edu.cn/teacher/331",
+      "portraitUrl": "https://sds.cuhk.edu.cn/sites/default/files/styles/w1200/public/2021-09/56%20%E6%A8%8A%E7%BB%A7%E8%81%AA%20%282%29.jpg?itok=92JU5Fwb",
+      "sourcePageUrl": "https://sds.cuhk.edu.cn/teacher-search",
+      "officialRosterUrl": "https://sds.cuhk.edu.cn/teacher-search",
+      "profileChecked": true,
+      "decision": "include_new_pi",
+      "reason": "官方数据科学学院名录和个人页确认其为教授、副教授、研究员或可独立招生导师；该单位研究主线属于 AI、数据科学及相关智能计算范围。",
+      "evidenceUrl": "https://sds.cuhk.edu.cn/teacher/331",
+      "evidenceExcerpt": "助理教授 | 师资检索全部 | 人工智能、机器学习 | 香港城市大学博士 研究方向是人工智能和机器学习，他在矩阵/张量方法、聚类算法、异常检测、图学习、自动机器学习等方面做了大量研究工作，在知名学术期刊与著名国际会议上，如IEEE TSP/TNNLS/TII、NeurIPS、ICLR、ICML、CVPR、AAAI等，发表论文50余篇。 他是IEEE高级会员，目前担任期刊《Pattern Recog"
+    },
+    {
+      "officialId": "1633",
+      "name": "方堃",
+      "title": "助理教授",
+      "officialSections": [
+        "师资检索全部"
+      ],
+      "profileUrl": "https://sds.cuhk.edu.cn/teacher/1633",
+      "portraitUrl": "https://sds.cuhk.edu.cn/sites/default/files/styles/w1200/public/2025-09/1758100255923.jpg?itok=KUUrevz5",
+      "sourcePageUrl": "https://sds.cuhk.edu.cn/teacher-search",
+      "officialRosterUrl": "https://sds.cuhk.edu.cn/teacher-search",
+      "profileChecked": true,
+      "decision": "excluded_non_ai_cs",
+      "reason": "已检查官方个人页及名录字段，公开研究主线未显示 AI、NLP、CV、ML、数据智能、机器人或本图谱紧密相邻方向。",
+      "evidenceUrl": "https://sds.cuhk.edu.cn/teacher/1633",
+      "evidenceExcerpt": "研究领域 量子信息、量子计算、量子网络、量子资源理论、量子体系结构、量子熵、优化理论 个人网站 https://www.kunfang.info/ 电子邮箱 kunfang@cuhk.edu.cn 办公室 综合楼C614 个人简介 方堃教授现任香港中文大学（深圳）数据科学学院助理教授。此前，方教授于2020至2023年担任百度量子计算研究所资深研究员，2018 至2020 年分别在英国剑桥大学和加拿大滑铁卢大学担任博士后研究员。方教授于2018 年获得悉尼科技大学量子信息方向博士学位，于2015年获得武汉大学数学学士学位。 方教授于2022年入选北京市高层次留学人才回国资助项目，2023年受邀成为国际顶级量子信息会议AQIS程序委员会成员。截至目前，方教授在 Physical Review Letters，PRX Quantum，Communications in Mathematical Physics，IEEE Transactions on Information Theory，Mathematical Programming 等物理、数学、计算机以及运筹优化领域的国际顶级学术期"
+    },
+    {
+      "officialId": "431",
+      "name": "方一向",
+      "title": "副教授 / 授课型硕士项目主任-计算机科学理学硕士项目",
+      "officialSections": [
+        "师资检索全部"
+      ],
+      "profileUrl": "https://sds.cuhk.edu.cn/teacher/431",
+      "portraitUrl": "https://sds.cuhk.edu.cn/sites/default/files/styles/w1200/public/2021-09/28%20%E6%96%B9%E4%B8%80%E5%90%91%20%282%29.jpg?itok=3dgqqEIq",
+      "sourcePageUrl": "https://sds.cuhk.edu.cn/teacher-search",
+      "officialRosterUrl": "https://sds.cuhk.edu.cn/teacher-search",
+      "profileChecked": true,
+      "decision": "include_new_pi",
+      "reason": "官方数据科学学院名录和个人页确认其为教授、副教授、研究员或可独立招生导师；该单位研究主线属于 AI、数据科学及相关智能计算范围。",
+      "evidenceUrl": "https://sds.cuhk.edu.cn/teacher/431",
+      "evidenceExcerpt": "副教授 / 授课型硕士项目主任-计算机科学理学硕士项目 | 师资检索全部 | 大数据管理、挖掘、人工智能 | 香港大学博士 研究领域 大数据管理、挖掘、人工智能 个人网站 https://fangyixiang.github.io/ 电子邮箱 fangyixiang@cuhk.edu.cn 办公室 道远楼521a 个人简介 方一向现为香港中文大学（深圳）与的副教授，博士毕业于香港大学。主要研究智能体（包括检索增强生成、记忆系统等）、大数据管理、挖掘、人工智能等"
+    },
+    {
+      "officialId": "2381",
+      "name": "冯似东",
+      "title": "助理教授",
+      "officialSections": [
+        "师资检索全部"
+      ],
+      "profileUrl": "https://sds.cuhk.edu.cn/teacher/2381",
+      "portraitUrl": "https://sds.cuhk.edu.cn/sites/default/files/styles/w1200/public/2026-04/%E5%86%AFsidong.png?itok=cAVrq2Ju",
+      "sourcePageUrl": "https://sds.cuhk.edu.cn/teacher-search",
+      "officialRosterUrl": "https://sds.cuhk.edu.cn/teacher-search",
+      "profileChecked": true,
+      "decision": "include_new_pi",
+      "reason": "官方数据科学学院名录和个人页确认其为教授、副教授、研究员或可独立招生导师；该单位研究主线属于 AI、数据科学及相关智能计算范围。",
+      "evidenceUrl": "https://sds.cuhk.edu.cn/teacher/2381",
+      "evidenceExcerpt": "助理教授 | 师资检索全部 | 软件工程、人机交互、大模型、AI 智能体 | 莫纳什大学博士 研究方向为软件工程（ SE ）与人机交互（ HCI ）的交叉领域，重点关注智能化软件设计、开发、测试与维护。他的研究成果发表于 SE 领域的顶级会议，包括 ICSE 、 FSE 、 ASE 和 ISSTA ，以及 HCI 的期刊和会议，如 TOCHI 、 CHI 、 UIST 、 CSCW 和 IUI 。他的研究工"
+    },
+    {
+      "officialId": "568",
+      "name": "GALLEGO, Guillermo",
+      "title": "校长学勤讲座教授 / 院长",
+      "officialSections": [
+        "师资检索全部"
+      ],
+      "profileUrl": "https://sds.cuhk.edu.cn/teacher/568",
+      "portraitUrl": "https://sds.cuhk.edu.cn/sites/default/files/styles/w1200/public/2025-10/1759978187108.png?itok=-EfRxYLn",
+      "sourcePageUrl": "https://sds.cuhk.edu.cn/teacher-search",
+      "officialRosterUrl": "https://sds.cuhk.edu.cn/teacher-search",
+      "profileChecked": true,
+      "decision": "excluded_non_ai_cs",
+      "reason": "已检查官方个人页及名录字段，公开研究主线未显示 AI、NLP、CV、ML、数据智能、机器人或本图谱紧密相邻方向。",
+      "evidenceUrl": "https://sds.cuhk.edu.cn/teacher/568",
+      "evidenceExcerpt": "研究领域 动态定价、离散选择模型、品类优化、定价分析、动态规划 电子邮箱 gallegoguillermo@cuhk.edu.cn 办公室 道远楼606 个人简介 Guillermo Gallego 现任香港中文大学（深圳）数据科学学院院长。Guillermo Gallego是 哥伦比亚大学刘氏家族冠名教授、香港科技大学嘉柏有限公司冠名工程学教授、国际运筹与管理协会会士（2012年）、制造与服务运营管理协会杰出会士（2013年）、中国香港工程师学会会士（2016年），也是被公认为现代动态定价先驱之一的国际学者。他曾获2011年INFORMS收益管理与定价领域历史奖、2012年INFORMS实践奖、2016年INFORMS影响力奖、2005年和2021年INFORMS收益管理与定价领域奖。此外，他是唯一一位同时获得《管理科学》和《运筹学》这两个领域顶级期刊的最佳论文奖的学者。Gallego教授曾任哥伦比亚大学工业工程与运筹学系主任（2002-2008年）和香港科技大学工业工程与决策分析系主任（2016-2022年）。Gallego教授一直担任博士生导师，将学生们送往全球顶尖的机构，包括中"
+    },
+    {
+      "officialId": "429",
+      "name": "高品",
+      "title": "副教授 / 助理院长（产业合作）",
+      "officialSections": [
+        "师资检索全部"
+      ],
+      "profileUrl": "https://sds.cuhk.edu.cn/teacher/429",
+      "portraitUrl": "https://sds.cuhk.edu.cn/sites/default/files/styles/w1200/public/2026-08/SDS%E9%AB%98%E5%93%81%E6%95%99%E6%8E%88%E4%B8%AA%E4%BA%BA%E4%BB%8B%E7%BB%8D%E6%9B%B4%E6%96%B0%E7%85%A7%E7%89%87.png?itok=kLSuEGBw",
+      "sourcePageUrl": "https://sds.cuhk.edu.cn/teacher-search",
+      "officialRosterUrl": "https://sds.cuhk.edu.cn/teacher-search",
+      "profileChecked": true,
+      "decision": "include_new_pi",
+      "reason": "官方数据科学学院名录和个人页确认其为教授、副教授、研究员或可独立招生导师；该单位研究主线属于 AI、数据科学及相关智能计算范围。",
+      "evidenceUrl": "https://sds.cuhk.edu.cn/teacher/429",
+      "evidenceExcerpt": "Ningyuan Chen, Pin Gao and Yang Li, “Privacy-Preserving Personalized Recommender Systems”, Manufacturing & Service Operations Management, conditionally accepted (2025). 5. Fu, Xingyu, Pin Gao, Haoyu Liu, and Ying-Ju Chen, “Optimal Job Assignment with Spillover Effect"
+    },
+    {
+      "officialId": "1038",
+      "name": "官永涛",
+      "title": "校长讲座教授 / 副院长（拓展）",
+      "officialSections": [
+        "师资检索全部"
+      ],
+      "profileUrl": "https://sds.cuhk.edu.cn/teacher/1038",
+      "portraitUrl": "https://sds.cuhk.edu.cn/sites/default/files/styles/w1200/public/2023-08/%E5%AE%98%E6%B0%B8%E6%B6%9B.png?itok=YVzysmLd",
+      "sourcePageUrl": "https://sds.cuhk.edu.cn/teacher-search",
+      "officialRosterUrl": "https://sds.cuhk.edu.cn/teacher-search",
+      "profileChecked": true,
+      "decision": "excluded_non_ai_cs",
+      "reason": "已检查官方个人页及名录字段，公开研究主线未显示 AI、NLP、CV、ML、数据智能、机器人或本图谱紧密相邻方向。",
+      "evidenceUrl": "https://sds.cuhk.edu.cn/teacher/1038",
+      "evidenceExcerpt": "研究领域 时空数据分析及其在金融 、社交网络、 流行病学等领域中的应用 电子邮箱 guanyongtao@cuhk.edu.cn 办公室 综合楼C709 个人简介 官永涛是校长讲座教授，美国统计协会会士。曾任美国迈阿密大学赫伯特商学院莱斯利·巴恩斯讲席教授，管理科学系系主任，德勤研究与实践分析所主任。 学术著作 1. Fang, G., Xu, G., Xu, H., Zhu, X., and Guan, Y. (2023+), “Group Network Hawkes Process,” Journal of the American Statistical Association, Theory and Methods, to appear. 2. Xu, G., Zhang, J., Li, Y., and Guan, Y. (2023+), “Bias-correction and Test for Mark-point Dependence with Replicated Marked Point Processes,” Journal of the American St"
+    },
+    {
+      "officialId": "643",
+      "name": "郭振兴",
+      "title": "助理教授",
+      "officialSections": [
+        "师资检索全部"
+      ],
+      "profileUrl": "https://sds.cuhk.edu.cn/teacher/643",
+      "portraitUrl": "https://sds.cuhk.edu.cn/sites/default/files/styles/w1200/public/2024-06/%E5%8E%9F%E5%9B%BE%E7%B2%BE%E4%BF%AE2_0.jpg?itok=8XRr7ck9",
+      "sourcePageUrl": "https://sds.cuhk.edu.cn/teacher-search",
+      "officialRosterUrl": "https://sds.cuhk.edu.cn/teacher-search",
+      "profileChecked": true,
+      "decision": "include_new_pi",
+      "reason": "官方数据科学学院名录和个人页确认其为教授、副教授、研究员或可独立招生导师；该单位研究主线属于 AI、数据科学及相关智能计算范围。",
+      "evidenceUrl": "https://sds.cuhk.edu.cn/teacher/643",
+      "evidenceExcerpt": "uo , S Zhang (2020) Sparse deep nonnegative matrix factorization. Big Data Mining and Analytics, 3(1):13-28. https://ieeexplore.ieee.org/document/8935092 B. Book chapters Z. Guo , A. Shafik, P. Jin, Z. Wu, H. Wu (2022) Analyzing mRNA epigenetic sequencing data"
+    },
+    {
+      "officialId": "927",
+      "name": "HAYASHI, Masahito",
+      "title": "校长讲座教授",
+      "officialSections": [
+        "师资检索全部"
+      ],
+      "profileUrl": "https://sds.cuhk.edu.cn/teacher/927",
+      "portraitUrl": "https://sds.cuhk.edu.cn/sites/default/files/styles/w1200/public/2023-04/Hayashi.jpeg?itok=4q5oYIIP",
+      "sourcePageUrl": "https://sds.cuhk.edu.cn/teacher-search",
+      "officialRosterUrl": "https://sds.cuhk.edu.cn/teacher-search",
+      "profileChecked": true,
+      "decision": "include_new_pi",
+      "reason": "官方数据科学学院名录和个人页确认其为教授、副教授、研究员或可独立招生导师；该单位研究主线属于 AI、数据科学及相关智能计算范围。",
+      "evidenceUrl": "https://sds.cuhk.edu.cn/teacher/927",
+      "evidenceExcerpt": "奖； 2026年，他第二次荣获IEEE信息论学会论文奖。 林教授分别于2017年、2022年、2022年当选为IEEE会士、IMS会士和亚太人工智能协会（AAIA）会士。 2006 年，他的著作 “Quantum Information: An Introduction” 由施普林格出版，其修订版以 “Quantum Information Theory: Mathematical Foundation” 的名字于 2016 年在施普林格物理学研究生教材中出版。 2016 年，他在施普林格出版了其他两本"
+    },
+    {
+      "officialId": "464",
+      "name": "贺品嘉",
+      "title": "副教授 / 助理院长（科研）",
+      "officialSections": [
+        "师资检索全部"
+      ],
+      "profileUrl": "https://sds.cuhk.edu.cn/teacher/464",
+      "portraitUrl": "https://sds.cuhk.edu.cn/sites/default/files/styles/w1200/public/2022-01/%E8%B4%BA%E5%93%81%E5%98%89%20%282%29_0.jpg?itok=2VCp52B3",
+      "sourcePageUrl": "https://sds.cuhk.edu.cn/teacher-search",
+      "officialRosterUrl": "https://sds.cuhk.edu.cn/teacher-search",
+      "profileChecked": true,
+      "decision": "included_existing",
+      "atlasPersonId": "pinjia-he-cuhksz",
+      "reason": "图谱已有同一人物 pinjia-he-cuhksz；官方名录/个人页确认其当前属于香港中文大学（深圳）数据科学学院。",
+      "evidenceUrl": "https://sds.cuhk.edu.cn/teacher/464",
+      "evidenceExcerpt": "副教授 / 助理院长（科研） | 师资检索全部 | 软件工程、AI for SE、大模型、可信人工智能 | 香港中文大学博士 研究方向为软件工程、AI for SE、大模型、可信人工智能。 他在ICSE, FSE, ICLR, ACL, OSDI等顶级会议期刊发表论文60余篇。获得IEEE TCSE Rising Star Award (全球博士毕业六年内的软件工程学者中选一人)、IEEE开源软件服务奖、ISSRE最有影响力论文奖等奖项。谷歌学"
+    },
+    {
+      "officialId": "1029",
+      "name": "徐慰中",
+      "title": "教授 / 课程主任-计算机科学与技术专业",
+      "officialSections": [
+        "师资检索全部"
+      ],
+      "profileUrl": "https://sds.cuhk.edu.cn/teacher/1029",
+      "portraitUrl": "https://sds.cuhk.edu.cn/sites/default/files/styles/w1200/public/2024-05/%E5%8E%9F%E5%9B%BE%E7%B2%BE%E4%BF%AE_1.jpg?itok=KBga5fkZ",
+      "sourcePageUrl": "https://sds.cuhk.edu.cn/teacher-search",
+      "officialRosterUrl": "https://sds.cuhk.edu.cn/teacher-search",
+      "profileChecked": true,
+      "decision": "include_new_pi",
+      "reason": "官方数据科学学院名录和个人页确认其为教授、副教授、研究员或可独立招生导师；该单位研究主线属于 AI、数据科学及相关智能计算范围。",
+      "evidenceUrl": "https://sds.cuhk.edu.cn/teacher/1029",
+      "evidenceExcerpt": "on Code Generation and Optimization, ( 教育背景 威斯康辛大学计算机科学博士 学术领域 计算机科学, 机器学习与人工智能, 计算机系统与云计算 研究领域 优化编译器、动态二进制翻译和优化、虚拟化技巧和虚拟机、高性能计算机架构 电子邮箱 hsuweichung@cuhk.edu.cn 办公室 道远楼509a 个人简介 徐慰中于1987年在威斯康星大学麦迪逊分校获得计算机科学博士学位。在加入香港中文大学（深圳）SDS之前，他曾在美国英特尔公司工作。2021年至2022年"
+    },
+    {
+      "officialId": "2109",
+      "name": "胡天阳",
+      "title": "助理教授",
+      "officialSections": [
+        "师资检索全部"
+      ],
+      "profileUrl": "https://sds.cuhk.edu.cn/teacher/2109",
+      "portraitUrl": "https://sds.cuhk.edu.cn/sites/default/files/styles/w1200/public/2025-10/%E8%83%A1%E5%A4%A9%E6%A0%B7.jpg?itok=PV1Xa6sa",
+      "sourcePageUrl": "https://sds.cuhk.edu.cn/teacher-search",
+      "officialRosterUrl": "https://sds.cuhk.edu.cn/teacher-search",
+      "profileChecked": true,
+      "decision": "include_new_pi",
+      "reason": "官方数据科学学院名录和个人页确认其为教授、副教授、研究员或可独立招生导师；该单位研究主线属于 AI、数据科学及相关智能计算范围。",
+      "evidenceUrl": "https://sds.cuhk.edu.cn/teacher/2109",
+      "evidenceExcerpt": "助理教授 | 师资检索全部 | 统计机器学习、可信AI、表示学习、生成模型 | 普渡大学博士 研究方向为数理统计与人工智能 (AI) 的交叉方向，包括统计机器学习、可信 AI、特征表示学习、深度生成模型等，旨在通过揭示 AI 模型的深层机制，为设计更有效的新算法提供理论指导。 学术著作 更多已出版著作，请点击 https://scholar.google.com/citations?user=mlA_"
+    },
+    {
+      "officialId": "470",
+      "name": "黄建华",
+      "title": "校长讲座教授",
+      "officialSections": [
+        "师资检索全部"
+      ],
+      "profileUrl": "https://sds.cuhk.edu.cn/teacher/470",
+      "portraitUrl": "https://sds.cuhk.edu.cn/sites/default/files/styles/w1200/public/2025-10/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20251009103717.jpg?itok=L6T6hX3m",
+      "sourcePageUrl": "https://sds.cuhk.edu.cn/teacher-search",
+      "officialRosterUrl": "https://sds.cuhk.edu.cn/teacher-search",
+      "profileChecked": true,
+      "decision": "include_new_pi",
+      "reason": "官方数据科学学院名录和个人页确认其为教授、副教授、研究员或可独立招生导师；该单位研究主线属于 AI、数据科学及相关智能计算范围。",
+      "evidenceUrl": "https://sds.cuhk.edu.cn/teacher/470",
+      "evidenceExcerpt": "校长讲座教授 | 师资检索全部 | 统计学与其它学科的交叉、数字孪生与不确定性量化、数据空间技术与应用、人工智能与教育、校企合作 | 加州大学伯克利分校博士 / ASA会士、IMS会士 研究领域 统计学与其它学科的交叉、数字孪生与不确定性量化、数据空间技术与应用、人工智能与教育、校企合作 电子邮箱 jhuang@cuhk.edu.cn 办公室 知新楼421 个人简介 曾为美国宾州大学沃顿商学院助理教授，原德州A&M大学副教授"
+    },
+    {
+      "officialId": "2099",
+      "name": "黄铠",
+      "title": "荣休教授",
+      "officialSections": [
+        "师资检索全部"
+      ],
+      "profileUrl": "https://sds.cuhk.edu.cn/teacher/2099",
+      "portraitUrl": "https://sds.cuhk.edu.cn/sites/default/files/styles/w1200/public/2025-02/1740035510171.png?itok=vSE3cKUw",
+      "sourcePageUrl": "https://sds.cuhk.edu.cn/teacher-search",
+      "officialRosterUrl": "https://sds.cuhk.edu.cn/teacher-search",
+      "profileChecked": true,
+      "decision": "excluded_historical",
+      "reason": "官方名录分组、职称或个人页明确标示为退休、荣休、名誉或历史人员，不属于现任独立 PI。",
+      "evidenceUrl": "https://sds.cuhk.edu.cn/teacher/2099",
+      "evidenceExcerpt": "荣休教授 | 师资检索全部 | 黄铠 | 香港中文大学（深圳）数据科学学院 搜索 学院内网 搜索 搜索 返回主站 English 学院概况 概览 学科方向 院长致辞 学院刊物 宣传手册 常见问题 联系我们 项目设置 简介 本科生 数据科学与大数据技术 统计学 计算机科学与技术 金融工程 2+2双主修 跨学科数据分析 + X 双主修课程 航天科学与地球信息学 +"
+    },
+    {
+      "officialId": "1590",
+      "name": "JASRA, Ajay",
+      "title": "校长讲座教授",
+      "officialSections": [
+        "师资检索全部"
+      ],
+      "profileUrl": "https://sds.cuhk.edu.cn/teacher/1590",
+      "portraitUrl": "https://sds.cuhk.edu.cn/sites/default/files/styles/w1200/public/2024-05/%E5%8E%9F%E5%9B%BE%E7%B2%BE%E4%BF%AE_3.jpg?itok=adaKZ0cU",
+      "sourcePageUrl": "https://sds.cuhk.edu.cn/teacher-search",
+      "officialRosterUrl": "https://sds.cuhk.edu.cn/teacher-search",
+      "profileChecked": true,
+      "decision": "include_new_pi",
+      "reason": "官方数据科学学院名录和个人页确认其为教授、副教授、研究员或可独立招生导师；该单位研究主线属于 AI、数据科学及相关智能计算范围。",
+      "evidenceUrl": "https://sds.cuhk.edu.cn/teacher/1590",
+      "evidenceExcerpt": "校长讲座教授 | 师资检索全部 | 贝叶斯统计、蒙特卡洛计算、马尔可夫链、数据科学中的随机算法分析 | 帝国理工学院博士 研究方向在于现代应用数学和统计的接口，包括蒙特卡洛、马尔可夫链及其在生物学和金融领域的应用。 Jasra教授在同行评审期刊和会议上发表了100多篇文章。他的文章被引用逾7000次，H指数达到33。15多位博士生在他的指导下毕业，并且他向10多名博士后提供咨询，其中一些博士后在哈佛大学，爱丁堡大学，华威大学担任教职。Ja"
+    },
+    {
+      "officialId": "452",
+      "name": "JENTZEN, Arnulf",
+      "title": "校长讲座教授",
+      "officialSections": [
+        "师资检索全部"
+      ],
+      "profileUrl": "https://sds.cuhk.edu.cn/teacher/452",
+      "portraitUrl": "https://sds.cuhk.edu.cn/sites/default/files/styles/w1200/public/2022-01/Arnulf%20%282%29.jpg?itok=Ib9WcPUI",
+      "sourcePageUrl": "https://sds.cuhk.edu.cn/teacher-search",
+      "officialRosterUrl": "https://sds.cuhk.edu.cn/teacher-search",
+      "profileChecked": true,
+      "decision": "include_new_pi",
+      "reason": "官方数据科学学院名录和个人页确认其为教授、副教授、研究员或可独立招生导师；该单位研究主线属于 AI、数据科学及相关智能计算范围。",
+      "evidenceUrl": "https://sds.cuhk.edu.cn/teacher/452",
+      "evidenceExcerpt": "校长讲座教授 | 师资检索全部 | 机器学习近似算法、计算随机学、高维偏微分方程的数值分析、随机分析和计算金融 | 法兰克福大学博士 研究领域 机器学习近似算法、计算随机学、高维偏微分方程的数值分析、随机分析和计算金融 个人网站 http://www.ajentzen.de 电子邮箱 ajentzen@cuhk.edu.cn 办公室 道远楼405 个人简介 Arnulf Jentzen现为香港中文大学"
+    },
+    {
+      "officialId": "1159",
+      "name": "贾奎",
+      "title": "教授",
+      "officialSections": [
+        "师资检索全部"
+      ],
+      "profileUrl": "https://sds.cuhk.edu.cn/teacher/1159",
+      "portraitUrl": "https://sds.cuhk.edu.cn/sites/default/files/styles/w1200/public/2025-10/%E8%B4%BE%E5%A5%8E.jpg?itok=lpafzHSk",
+      "sourcePageUrl": "https://sds.cuhk.edu.cn/teacher-search",
+      "officialRosterUrl": "https://sds.cuhk.edu.cn/teacher-search",
+      "profileChecked": true,
+      "decision": "include_new_pi",
+      "reason": "官方数据科学学院名录和个人页确认其为教授、副教授、研究员或可独立招生导师；该单位研究主线属于 AI、数据科学及相关智能计算范围。",
+      "evidenceUrl": "https://sds.cuhk.edu.cn/teacher/1159",
+      "evidenceExcerpt": "教授 | 师资检索全部 | 可泛化深度学习、几何深度学习、深度学习与机器人灵巧操作、生成式三维建模、三维语义感知 | 伦敦大学玛丽女王学院博士 研究领域 可泛化深度学习、几何深度学习、深度学习与机器人灵巧操作、生成式三维建模、三维语义感知 个人网站 http://kuijia.site/ 电子邮箱 kuijia@cuhk.edu.cn 办公室 综合楼C607 个人简介 贾奎教授现就职于香港中文大学（"
+    },
+    {
+      "officialId": "1048",
+      "name": "蒋理",
+      "title": "助理教授",
+      "officialSections": [
+        "师资检索全部"
+      ],
+      "profileUrl": "https://sds.cuhk.edu.cn/teacher/1048",
+      "portraitUrl": "https://sds.cuhk.edu.cn/sites/default/files/styles/w1200/public/2024-05/%E6%AD%A3%E6%96%B9%E5%BD%A2_0.jpg?itok=2Wh96V5t",
+      "sourcePageUrl": "https://sds.cuhk.edu.cn/teacher-search",
+      "officialRosterUrl": "https://sds.cuhk.edu.cn/teacher-search",
+      "profileChecked": true,
+      "decision": "include_new_pi",
+      "reason": "官方数据科学学院名录和个人页确认其为教授、副教授、研究员或可独立招生导师；该单位研究主线属于 AI、数据科学及相关智能计算范围。",
+      "evidenceUrl": "https://sds.cuhk.edu.cn/teacher/1048",
+      "evidenceExcerpt": "助理教授 | 师资检索全部 | 计算机视觉、人工智能、机器学习 | 香港中文大学博士 研究领域 计算机视觉、人工智能、机器学习 个人网站 https://llijiang.github.io/ 电子邮箱 jiangli@cuhk.edu.cn 办公室 综合楼C610 个人简介 蒋理，香港中文大学（深圳）助理教授，校长青年学者，与深圳河套学院双聘。于2021年获得香港中文大学博士学位，其后在马克斯·普"
+    },
+    {
+      "officialId": "1745",
+      "name": "江声",
+      "title": "助理教授",
+      "officialSections": [
+        "师资检索全部"
+      ],
+      "profileUrl": "https://sds.cuhk.edu.cn/teacher/1745",
+      "portraitUrl": "https://sds.cuhk.edu.cn/sites/default/files/styles/w1200/public/2025-09/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20250925105943.jpg?itok=wbBBisxh",
+      "sourcePageUrl": "https://sds.cuhk.edu.cn/teacher-search",
+      "officialRosterUrl": "https://sds.cuhk.edu.cn/teacher-search",
+      "profileChecked": true,
+      "decision": "include_new_pi",
+      "reason": "官方数据科学学院名录和个人页确认其为教授、副教授、研究员或可独立招生导师；该单位研究主线属于 AI、数据科学及相关智能计算范围。",
+      "evidenceUrl": "https://sds.cuhk.edu.cn/teacher/1745",
+      "evidenceExcerpt": "士 2015-2021 杜克大学 统计与经济建模硕士 2013-2015 清华大学 经济学学士 2008-2012 学术领域 计算机科学, 机器学习与人工智能, 统计学, 统计理论, 统计计算和大数据分析 研究领域 高斯过程、变分贝叶斯、交通流网络数据、冷冻电镜数据、不确定性量化、流式细胞术数据、专家混合模型 个人网站 https://sites.google.com/view/shengjiang/ 电子邮箱 jiangsheng@cuhk.edu.cn 办公室 道远楼323a 个人简介 江声目前为香"
+    },
+    {
+      "officialId": "1150",
+      "name": "姜铁锋",
+      "title": "校长讲座教授 / 授课型硕士项目主任-统计学理学硕士项目",
+      "officialSections": [
+        "师资检索全部"
+      ],
+      "profileUrl": "https://sds.cuhk.edu.cn/teacher/1150",
+      "portraitUrl": "https://sds.cuhk.edu.cn/sites/default/files/styles/w1200/public/2024-05/%E6%AD%A3%E6%96%B9%E5%BD%A2.jpg?itok=T6unkdwr",
+      "sourcePageUrl": "https://sds.cuhk.edu.cn/teacher-search",
+      "officialRosterUrl": "https://sds.cuhk.edu.cn/teacher-search",
+      "profileChecked": true,
+      "decision": "include_new_pi",
+      "reason": "官方数据科学学院名录和个人页确认其为教授、副教授、研究员或可独立招生导师；该单位研究主线属于 AI、数据科学及相关智能计算范围。",
+      "evidenceUrl": "https://sds.cuhk.edu.cn/teacher/1150",
+      "evidenceExcerpt": "教授解决的“哈尔酉矩阵被独立随机变量逼近”的结果被用于量子计算的研究中。姜教授目前已发表论文50多篇，其中绝大部分发表在国际顶尖的概率统计与机器学习杂志上，包括《Ann. Probab.》、《Probab. Theor. Rel. Fields》、《Ann. Stat.》、《Ann. Appl. Probab.》、《J. Mach. Learn Res.》等。 学术著作 Journal Articles and Preprints: T. Jiang and T. Pham. Detecting non"
+    },
+    {
+      "officialId": "2199",
+      "name": "金紫光",
+      "title": "助理教授",
+      "officialSections": [
+        "师资检索全部"
+      ],
+      "profileUrl": "https://sds.cuhk.edu.cn/teacher/2199",
+      "portraitUrl": "https://sds.cuhk.edu.cn/sites/default/files/styles/w1200/public/2025-10/%E9%87%91%E7%B4%AB%E5%85%89.jpg?itok=CNNJgJ91",
+      "sourcePageUrl": "https://sds.cuhk.edu.cn/teacher-search",
+      "officialRosterUrl": "https://sds.cuhk.edu.cn/teacher-search",
+      "profileChecked": true,
+      "decision": "include_new_pi",
+      "reason": "官方数据科学学院名录和个人页确认其为教授、副教授、研究员或可独立招生导师；该单位研究主线属于 AI、数据科学及相关智能计算范围。",
+      "evidenceUrl": "https://sds.cuhk.edu.cn/teacher/2199",
+      "evidenceExcerpt": "助理教授 | 师资检索全部 | 最优传输、自旋玻璃、学习理论、深度学习理论、高维离散问题的统计推断 | 威斯康星大学麦迪逊分校博士 研究领域 最优传输、自旋玻璃、学习理论、深度学习理论、高维离散问题的统计推断 个人网站 https://sites.google.com/view/jakwangkim/home?authuser=0 电子邮箱 jakwangkim@cuhk.edu.cn 办公室 知新楼 404c 个人简介 金紫"
+    },
+    {
+      "officialId": "2131",
+      "name": "李丹",
+      "title": "教授 / 副院长（本科）",
+      "officialSections": [
+        "师资检索全部"
+      ],
+      "profileUrl": "https://sds.cuhk.edu.cn/teacher/2131",
+      "portraitUrl": "https://sds.cuhk.edu.cn/sites/default/files/styles/w1200/public/2025-03/TanLeePortraitPhoto.jpg?itok=Z4EotbbZ",
+      "sourcePageUrl": "https://sds.cuhk.edu.cn/teacher-search",
+      "officialRosterUrl": "https://sds.cuhk.edu.cn/teacher-search",
+      "profileChecked": true,
+      "decision": "include_new_pi",
+      "reason": "官方数据科学学院名录和个人页确认其为教授、副教授、研究员或可独立招生导师；该单位研究主线属于 AI、数据科学及相关智能计算范围。",
+      "evidenceUrl": "https://sds.cuhk.edu.cn/teacher/2131",
+      "evidenceExcerpt": "教授 / 副院长（本科） | 师资检索全部 | 语音信号处理、言语技术、语言及副语言分析、沟通障碍辅助技术 | 香港中文大学博士 / HKIE会士 研究领域 语音信号处理、言语技术、语言及副语言分析、沟通障碍辅助技术 电子邮箱 tanlee@cuhk.edu.cn 办公室 道远楼 413 个人简介 李丹，香港中文大学电子工程博士，长期从事语音和语言相关的研究。曾领导开发针对粤语的口语语言技术，在工业界获得广泛"
+    },
+    {
+      "officialId": "472",
+      "name": "李爽",
+      "title": "助理教授",
+      "officialSections": [
+        "师资检索全部"
+      ],
+      "profileUrl": "https://sds.cuhk.edu.cn/teacher/472",
+      "portraitUrl": "https://sds.cuhk.edu.cn/sites/default/files/styles/w1200/public/2022-01/%E6%9D%8E%E7%88%BD%20%282%29.jpg?itok=u3uIL2zQ",
+      "sourcePageUrl": "https://sds.cuhk.edu.cn/teacher-search",
+      "officialRosterUrl": "https://sds.cuhk.edu.cn/teacher-search",
+      "profileChecked": true,
+      "decision": "include_new_pi",
+      "reason": "官方数据科学学院名录和个人页确认其为教授、副教授、研究员或可独立招生导师；该单位研究主线属于 AI、数据科学及相关智能计算范围。",
+      "evidenceUrl": "https://sds.cuhk.edu.cn/teacher/472",
+      "evidenceExcerpt": "助理教授 | 师资检索全部 | 时序数据分析和决策的机器学习方法及其在医疗保健、智慧城市和社交媒体中的应用 | 佐治亚理工学院博士 研究领域 时序数据分析和决策的机器学习方法及其在医疗保健、智慧城市和社交媒体中的应用 个人网站 https://shuangli01.github.io 电子邮箱 lishuang@cuhk.edu.cn 办公室 道远楼508b 个人简介 李爽于2011年获得中国科学技术大学学士学位，并"
+    },
+    {
+      "officialId": "632",
+      "name": "李彤欣",
+      "title": "助理教授",
+      "officialSections": [
+        "师资检索全部"
+      ],
+      "profileUrl": "https://sds.cuhk.edu.cn/teacher/632",
+      "portraitUrl": "https://sds.cuhk.edu.cn/sites/default/files/styles/w1200/public/2024-05/%E5%8E%9F%E5%9B%BE%E7%B2%BE%E4%BF%AE_0.jpg?itok=IhUY_gH5",
+      "sourcePageUrl": "https://sds.cuhk.edu.cn/teacher-search",
+      "officialRosterUrl": "https://sds.cuhk.edu.cn/teacher-search",
+      "profileChecked": true,
+      "decision": "include_new_pi",
+      "reason": "官方数据科学学院名录和个人页确认其为教授、副教授、研究员或可独立招生导师；该单位研究主线属于 AI、数据科学及相关智能计算范围。",
+      "evidenceUrl": "https://sds.cuhk.edu.cn/teacher/632",
+      "evidenceExcerpt": "助理教授 | 师资检索全部 | 可信机器学习、在线学习、智能电网、电力系统与控制 | 加州理工学院博士 研究方向包括机器学习、控制、以及优化等交叉学科以及在电力系统与可持续低碳清洁能源领域的应用。研究兴趣包括探索研发可信人工智能从而改进智能电网的可持续性、鲁棒性、可拓展性、隐私安全以及可适应性。李彤欣教授多次获邀参加国际会议报告，在国际顶尖期刊与会议发表文章。李彤欣教授在产研结合方面拥有丰富经验。他曾"
+    },
+    {
+      "officialId": "378",
+      "name": "李肖",
+      "title": "副教授",
+      "officialSections": [
+        "师资检索全部"
+      ],
+      "profileUrl": "https://sds.cuhk.edu.cn/teacher/378",
+      "portraitUrl": "https://sds.cuhk.edu.cn/sites/default/files/styles/w1200/public/2021-07/39.%E6%9D%8E%E8%82%96%20%20%282%29.jpg?itok=YfcX0Vdb",
+      "sourcePageUrl": "https://sds.cuhk.edu.cn/teacher-search",
+      "officialRosterUrl": "https://sds.cuhk.edu.cn/teacher-search",
+      "profileChecked": true,
+      "decision": "include_new_pi",
+      "reason": "官方数据科学学院名录和个人页确认其为教授、副教授、研究员或可独立招生导师；该单位研究主线属于 AI、数据科学及相关智能计算范围。",
+      "evidenceUrl": "https://sds.cuhk.edu.cn/teacher/378",
+      "evidenceExcerpt": "副教授 | 师资检索全部 | 数学优化与大模型 | 香港中文大学博士 研究方向包括随机、非光滑和非凸优化，并致力于其在大模型训练中的应用。 学术著作 1. Qijun Luo, Mengqi Li, Lei Zhao, Xiao Li (2025). StreamBP: Memory-Efficient Exact Backpropagation for Long Sequence Training o"
+    },
+    {
+      "officialId": "2149",
+      "name": "李永春",
+      "title": "助理教授",
+      "officialSections": [
+        "师资检索全部"
+      ],
+      "profileUrl": "https://sds.cuhk.edu.cn/teacher/2149",
+      "portraitUrl": "https://sds.cuhk.edu.cn/sites/default/files/styles/w1200/public/2025-04/LI%20Yongchun.png?itok=n_RvbWVu",
+      "sourcePageUrl": "https://sds.cuhk.edu.cn/teacher-search",
+      "officialRosterUrl": "https://sds.cuhk.edu.cn/teacher-search",
+      "profileChecked": true,
+      "decision": "include_new_pi",
+      "reason": "官方数据科学学院名录和个人页确认其为教授、副教授、研究员或可独立招生导师；该单位研究主线属于 AI、数据科学及相关智能计算范围。",
+      "evidenceUrl": "https://sds.cuhk.edu.cn/teacher/2149",
+      "evidenceExcerpt": "助理教授 | 师资检索全部 | 离散优化、混合整数规划、组合算法、可解释与公平的机器学习以及试验设计 | 佐治亚理工学院博士 研究领域 离散优化、混合整数规划、组合算法、可解释与公平的机器学习以及试验设计 个人网站 https://sites.google.com/view/yongchun-li/home 电子邮箱 yongchunli@cuhk.edu.cn 办公室 知新楼 403d 个人简介 李永春博士于2024年在佐治亚理工学院获得运筹"
+    },
+    {
+      "officialId": "267",
+      "name": "李兆媛",
+      "title": "助理教授",
+      "officialSections": [
+        "师资检索全部"
+      ],
+      "profileUrl": "https://sds.cuhk.edu.cn/teacher/267",
+      "portraitUrl": "https://sds.cuhk.edu.cn/sites/default/files/styles/w1200/public/2022-01/%E6%9D%8E%E5%85%86%E5%AA%9B%20%282%29_0.jpg?itok=KVVqSSxg",
+      "sourcePageUrl": "https://sds.cuhk.edu.cn/teacher-search",
+      "officialRosterUrl": "https://sds.cuhk.edu.cn/teacher-search",
+      "profileChecked": true,
+      "decision": "include_new_pi",
+      "reason": "官方数据科学学院名录和个人页确认其为教授、副教授、研究员或可独立招生导师；该单位研究主线属于 AI、数据科学及相关智能计算范围。",
+      "evidenceUrl": "https://sds.cuhk.edu.cn/teacher/267",
+      "evidenceExcerpt": "助理教授 | 师资检索全部 | 高维统计、随机矩阵、统计方法应用、机器学习、金融科技 | 香港大学博士 研究领域 高维统计、随机矩阵、统计方法应用、机器学习、金融科技 科目分类 Youth Scholars Colloquium 电子邮箱 lizhaoyuan@cuhk.edu.cn 办公室 道远楼505a 个人简介 李兆媛教授2010年毕业于西安交通大学，后保送中国人民大学攻读硕士学位，2016年获得香港大学统计学博士学位，20"
+    },
+    {
+      "officialId": "2240",
+      "name": "林涛",
+      "title": "助理教授",
+      "officialSections": [
+        "师资检索全部"
+      ],
+      "profileUrl": "https://sds.cuhk.edu.cn/teacher/2240",
+      "portraitUrl": "https://sds.cuhk.edu.cn/sites/default/files/styles/w1200/public/2025-08/Tao%20Lin.png?itok=-EFl1bz5",
+      "sourcePageUrl": "https://sds.cuhk.edu.cn/teacher-search",
+      "officialRosterUrl": "https://sds.cuhk.edu.cn/teacher-search",
+      "profileChecked": true,
+      "decision": "include_new_pi",
+      "reason": "官方数据科学学院名录和个人页确认其为教授、副教授、研究员或可独立招生导师；该单位研究主线属于 AI、数据科学及相关智能计算范围。",
+      "evidenceUrl": "https://sds.cuhk.edu.cn/teacher/2240",
+      "evidenceExcerpt": "助理教授 | 师资检索全部 | 经济与计算、机制设计、信息设计、算法博弈论、机器学习、理论计算机科学 | 哈佛大学博士 研究领域 经济与计算、机制设计、信息设计、算法博弈论、机器学习、理论计算机科学 个人网站 https://tao-l.github.io/ 电子邮箱 lintao@cuhk.edu.cn 办公室 道远楼420c 个人简介 林涛现任香港中文大学（深圳）助理教授。他2025 年获哈佛大学计算机科学博士学位，2020 年获北京大"
+    },
+    {
+      "officialId": "2329",
+      "name": "林学民",
+      "title": "教授",
+      "officialSections": [
+        "师资检索全部"
+      ],
+      "profileUrl": "https://sds.cuhk.edu.cn/teacher/2329",
+      "portraitUrl": "https://sds.cuhk.edu.cn/sites/default/files/styles/w1200/public/2025-12/1766133021746.jpg?itok=DL5ZTuHL",
+      "sourcePageUrl": "https://sds.cuhk.edu.cn/teacher-search",
+      "officialRosterUrl": "https://sds.cuhk.edu.cn/teacher-search",
+      "profileChecked": true,
+      "decision": "include_new_pi",
+      "reason": "官方数据科学学院名录和个人页确认其为教授、副教授、研究员或可独立招生导师；该单位研究主线属于 AI、数据科学及相关智能计算范围。",
+      "evidenceUrl": "https://sds.cuhk.edu.cn/teacher/2329",
+      "evidenceExcerpt": "教授 | 师资检索全部 | 数据库、图形可视化 | 昆士兰大学博士 / 欧洲科学院外籍院士、IEEE会士 研究领域 数据库、图形可视化 个人网站 https://xueminlin.github.io/ 个人简介 林学民教授为欧洲科学院外籍院士和 IEEE 会士。林学民教授曾任为 IEEE Transactions on Knowledge and Data Engineering 的编委、"
+    },
+    {
+      "officialId": "630",
+      "name": "刘桂良",
+      "title": "助理教授",
+      "officialSections": [
+        "师资检索全部"
+      ],
+      "profileUrl": "https://sds.cuhk.edu.cn/teacher/630",
+      "portraitUrl": "https://sds.cuhk.edu.cn/sites/default/files/styles/w1200/public/2022-07/%E5%88%98%E6%A1%82%E8%89%AF%E6%95%99%E6%8E%88.jpg?itok=MxXFAuoK",
+      "sourcePageUrl": "https://sds.cuhk.edu.cn/teacher-search",
+      "officialRosterUrl": "https://sds.cuhk.edu.cn/teacher-search",
+      "profileChecked": true,
+      "decision": "include_new_pi",
+      "reason": "官方数据科学学院名录和个人页确认其为教授、副教授、研究员或可独立招生导师；该单位研究主线属于 AI、数据科学及相关智能计算范围。",
+      "evidenceUrl": "https://sds.cuhk.edu.cn/teacher/630",
+      "evidenceExcerpt": "助理教授 | 师资检索全部 | 具身智能、强化学习 | 西蒙菲莎大学博士 研究领域 具身智能、强化学习 个人网站 http://guiliang.me/ 电子邮箱 liuguiliang@cuhk.edu.cn 办公室 综合楼C611 个人简介 刘桂良博士现任香港中文大学（深圳）助理教授。他 在加拿大西蒙弗雷泽大学（ Simon Fraser University ）计算机科学学院获得博士学位"
+    },
+    {
+      "officialId": "832",
+      "name": "刘瑾",
+      "title": "副教授",
+      "officialSections": [
+        "师资检索全部"
+      ],
+      "profileUrl": "https://sds.cuhk.edu.cn/teacher/832",
+      "portraitUrl": "https://sds.cuhk.edu.cn/sites/default/files/styles/w1200/public/2024-05/1716886286013.jpg?itok=HyBqBVYS",
+      "sourcePageUrl": "https://sds.cuhk.edu.cn/teacher-search",
+      "officialRosterUrl": "https://sds.cuhk.edu.cn/teacher-search",
+      "profileChecked": true,
+      "decision": "include_new_pi",
+      "reason": "官方数据科学学院名录和个人页确认其为教授、副教授、研究员或可独立招生导师；该单位研究主线属于 AI、数据科学及相关智能计算范围。",
+      "evidenceUrl": "https://sds.cuhk.edu.cn/teacher/832",
+      "evidenceExcerpt": "副教授 | 师资检索全部 | 科学智能、大模型/AI智能体、单细胞/空间组学、统计遗传 | 爱荷华大学博士 研究领域 科学智能、大模型/AI智能体、单细胞/空间组学、统计遗传 个人网站 https://sites.google.com/view/liujinlab/home 电子邮箱 liujinlab@cuhk.edu.cn 办公室 综合楼C707 个人简介 刘瑾博士现任香港中文大学（深圳）副教授，校"
+    },
+    {
+      "officialId": "2239",
+      "name": "刘萌萌",
+      "title": "助理教授（教学） / 本科辅导主任-计算机科学与技术专业",
+      "officialSections": [
+        "师资检索全部"
+      ],
+      "profileUrl": "https://sds.cuhk.edu.cn/teacher/2239",
+      "portraitUrl": "https://sds.cuhk.edu.cn/sites/default/files/styles/w1200/public/2025-10/%E5%88%98%E8%90%8C%E8%90%8C.jpg?itok=9WpcAXqE",
+      "sourcePageUrl": "https://sds.cuhk.edu.cn/teacher-search",
+      "officialRosterUrl": "https://sds.cuhk.edu.cn/teacher-search",
+      "profileChecked": true,
+      "decision": "include_new_pi",
+      "reason": "官方数据科学学院名录和个人页确认其为教授、副教授、研究员或可独立招生导师；该单位研究主线属于 AI、数据科学及相关智能计算范围。",
+      "evidenceUrl": "https://sds.cuhk.edu.cn/teacher/2239",
+      "evidenceExcerpt": "助理教授（教学） / 本科辅导主任-计算机科学与技术专业 | 师资检索全部 | 空间可持续性评估、时空数据分析、数据可视化及人工智能应用 | 佐治亚理工学院博士 研究领域 空间可持续性评估、时空数据分析、数据可视化及人工智能应用 电子邮箱 helenliu@cuhk.edu.cn 办公室 知新楼 405a 个人简介 刘萌萌博士现任香港中文大学（深圳）助理教授（教学），同时担任计算机科学与技术本科项目的主任。此前，她曾在佐治亚理工深圳学院（GTSI）担任计算机科学硕士项目的助理教"
+    },
+    {
+      "officialId": "1951",
+      "name": "刘圳",
+      "title": "助理教授",
+      "officialSections": [
+        "师资检索全部"
+      ],
+      "profileUrl": "https://sds.cuhk.edu.cn/teacher/1951",
+      "portraitUrl": "https://sds.cuhk.edu.cn/sites/default/files/styles/w1200/public/2025-10/%E5%88%98%E5%9C%B3.jpg?itok=DdmSx_o6",
+      "sourcePageUrl": "https://sds.cuhk.edu.cn/teacher-search",
+      "officialRosterUrl": "https://sds.cuhk.edu.cn/teacher-search",
+      "profileChecked": true,
+      "decision": "include_new_pi",
+      "reason": "官方数据科学学院名录和个人页确认其为教授、副教授、研究员或可独立招生导师；该单位研究主线属于 AI、数据科学及相关智能计算范围。",
+      "evidenceUrl": "https://sds.cuhk.edu.cn/teacher/1951",
+      "evidenceExcerpt": "助理教授 | 师资检索全部 | 机器学习、生成模型、大模型后训练、三维视觉、具身智能 | 蒙特利尔大学博士 研究领域 机器学习、生成模型、大模型后训练、三维视觉、具身智能 个人网站 https://itszhen.com 电子邮箱 zhenliu@cuhk.edu.cn 办公室 道远楼323b 个人简介 刘圳现于香港中文大学（深圳）担任助理教授。他于2024年获得蒙特利尔大学及Mila研究所的计算"
+    },
+    {
+      "officialId": "947",
+      "name": "LOUART, Cosme",
+      "title": "助理教授",
+      "officialSections": [
+        "师资检索全部"
+      ],
+      "profileUrl": "https://sds.cuhk.edu.cn/teacher/947",
+      "portraitUrl": "https://sds.cuhk.edu.cn/sites/default/files/styles/w1200/public/2023-05/picture_Cosme_LOUART%20%E5%89%AA%E8%A3%81.jpg?itok=46UVQY5p",
+      "sourcePageUrl": "https://sds.cuhk.edu.cn/teacher-search",
+      "officialRosterUrl": "https://sds.cuhk.edu.cn/teacher-search",
+      "profileChecked": true,
+      "decision": "include_new_pi",
+      "reason": "官方数据科学学院名录和个人页确认其为教授、副教授、研究员或可独立招生导师；该单位研究主线属于 AI、数据科学及相关智能计算范围。",
+      "evidenceUrl": "https://sds.cuhk.edu.cn/teacher/947",
+      "evidenceExcerpt": "助理教授 | 师资检索全部 | 高维数据处理应用数学、机器学习 | 格勒诺布尔-阿尔卑斯大学博士 研究领域 高维数据处理应用数学、机器学习 个人网站 https://cosmital.github.io/ 电子邮箱 cosmelouart@cuhk.edu.cn 办公室 道远楼521b 个人简介 Cosme Louart现为香港中文大学（深圳）助理教授。他毕业于巴黎 高等师范学院（ ENS ） ，在ENS Paris"
+    },
+    {
+      "officialId": "432",
+      "name": "鲁家琦",
+      "title": "助理教授",
+      "officialSections": [
+        "师资检索全部"
+      ],
+      "profileUrl": "https://sds.cuhk.edu.cn/teacher/432",
+      "portraitUrl": "https://sds.cuhk.edu.cn/sites/default/files/styles/w1200/public/2021-09/42%20%E9%B2%81%E4%BD%B3%E7%90%A6%20%282%29.jpg?itok=KBV0wRXZ",
+      "sourcePageUrl": "https://sds.cuhk.edu.cn/teacher-search",
+      "officialRosterUrl": "https://sds.cuhk.edu.cn/teacher-search",
+      "profileChecked": true,
+      "decision": "excluded_non_ai_cs",
+      "reason": "已检查官方个人页及名录字段，公开研究主线未显示 AI、NLP、CV、ML、数据智能、机器人或本图谱紧密相邻方向。",
+      "evidenceUrl": "https://sds.cuhk.edu.cn/teacher/432",
+      "evidenceExcerpt": "研究领域 算法分析、机制设计、市场设计 个人网站 https://www.sites.google.com/view/jiaqilu 电子邮箱 lujiaqi@cuhk.edu.cn 办公室 道远楼508a 个人简介 鲁家琦教授现为香港中文大学（深圳）助理教授。鲁教授于2013年获清华大学工业工程及英语双学士学位。之后，她前往哥伦比亚大学深造，并于2015年获得哥伦比亚大学管理科学与工程硕士学位；于2021年获得决策风险及运营博士学位。她的研究使用随机建模，优化理论，统计物理学以及计算机科学中的工具来解决企业和社会中的复杂运营问题。具体方向包括匹配市场的分析、优化和设计，供应链管理以及客户关系管理。 学术著作 1. Nicole Immorlica, Yash Kanoria and Jiaqi Lu, In Which Matching Markets do Costly Compatibility Inspections Lead to a Deadlock?, to be submitted soon (short version accepted by WINE 2021) 2"
+    },
+    {
+      "officialId": "214",
+      "name": "罗智泉",
+      "title": "校长学勤讲座教授 / 香港中文大学（深圳）副校长（学术）",
+      "officialSections": [
+        "师资检索全部"
+      ],
+      "profileUrl": "https://sds.cuhk.edu.cn/teacher/214",
+      "portraitUrl": "https://sds.cuhk.edu.cn/sites/default/files/styles/w1200/public/2023-12/1701741615117.jpg?itok=61d_ZCU1",
+      "sourcePageUrl": "https://sds.cuhk.edu.cn/teacher-search",
+      "officialRosterUrl": "https://sds.cuhk.edu.cn/teacher-search",
+      "profileChecked": true,
+      "decision": "include_new_pi",
+      "reason": "官方数据科学学院名录和个人页确认其为教授、副教授、研究员或可独立招生导师；该单位研究主线属于 AI、数据科学及相关智能计算范围。",
+      "evidenceUrl": "https://sds.cuhk.edu.cn/teacher/214",
+      "evidenceExcerpt": "首届华罗庚奖。 2020 年，挑战网络效能最大化的难题，他开创性地提出了数据驱动的网络优化技术路线和算法框架，成功将数据驱动网络统计模型与人工智能技术深度融合。成果被华为 GTS 认定为\"根技术\"，目前已成功应用于 30 多个国家的无线网络，优化超过 180 万个基站，显著提升了网络性能。该技术不仅惠及全球四分之一人口，还为电信运营商大幅降低了运营成本和碳排放，产生了显著的经济效益和社会效益。 工作经历 2025-现在 河套学院执行院长 2018-现在 香港中文大学（深圳）-腾讯 AI LAB 机器智"
+    },
+    {
+      "officialId": "631",
+      "name": "马晨昊",
+      "title": "助理教授",
+      "officialSections": [
+        "师资检索全部"
+      ],
+      "profileUrl": "https://sds.cuhk.edu.cn/teacher/631",
+      "portraitUrl": "https://sds.cuhk.edu.cn/sites/default/files/styles/w1200/public/2023-01/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20230103122824.jpg?itok=3JZrVU84",
+      "sourcePageUrl": "https://sds.cuhk.edu.cn/teacher-search",
+      "officialRosterUrl": "https://sds.cuhk.edu.cn/teacher-search",
+      "profileChecked": true,
+      "decision": "include_new_pi",
+      "reason": "官方数据科学学院名录和个人页确认其为教授、副教授、研究员或可独立招生导师；该单位研究主线属于 AI、数据科学及相关智能计算范围。",
+      "evidenceUrl": "https://sds.cuhk.edu.cn/teacher/631",
+      "evidenceExcerpt": "助理教授 | 师资检索全部 | 数据管理、数据挖掘与人工智能 | 香港大学博士 研究方向为大规模数据管理、数据挖掘与人工智能。已在国际数据库和数据挖掘领域的重要期刊/会议（如SIGMOD、VLDB、TODS、VLDBJ、ICDE、WWW、KDD、NeurIPS、AAAI等）发表论文60余篇，其中包括以第一/通信作者身份发表的40余篇 CCF-A 长文，其中一篇代表性研究成果的论文被评为SIGMOD 2020"
+    },
+    {
+      "officialId": "268",
+      "name": "茅剑锋",
+      "title": "副教授 / 助理院长 / 授课型硕士项目主任-数据科学理学硕士项目",
+      "officialSections": [
+        "师资检索全部"
+      ],
+      "profileUrl": "https://sds.cuhk.edu.cn/teacher/268",
+      "portraitUrl": "https://sds.cuhk.edu.cn/sites/default/files/styles/w1200/public/2025-07/fdb33a4647bc4945726e312a0ce2810.jpg?itok=Bguod9KQ",
+      "sourcePageUrl": "https://sds.cuhk.edu.cn/teacher-search",
+      "officialRosterUrl": "https://sds.cuhk.edu.cn/teacher-search",
+      "profileChecked": true,
+      "decision": "include_new_pi",
+      "reason": "官方数据科学学院名录和个人页确认其为教授、副教授、研究员或可独立招生导师；该单位研究主线属于 AI、数据科学及相关智能计算范围。",
+      "evidenceUrl": "https://sds.cuhk.edu.cn/teacher/268",
+      "evidenceExcerpt": "副教授 / 助理院长 / 授课型硕士项目主任-数据科学理学硕士项目 | 师资检索全部 | 数据驱动的网络建模与优化、多智能体离散事件动态系统、智能交通与物流系统 | 美国波士顿大学博士 研究领域 数据驱动的网络建模与优化、多智能体离散事件动态系统、智能交通与物流系统 电子邮箱 jfmao@cuhk.edu.cn 办公室 道远楼406 个人简介 茅剑锋教授，现任香港中文大学（深圳）副教授和助理院长，数据科学硕士项"
+    },
+    {
+      "officialId": "64",
+      "name": "MILZAREK, Andre",
+      "title": "副教授 / 本科辅导主任-数据科学与大数据技术学科",
+      "officialSections": [
+        "师资检索全部"
+      ],
+      "profileUrl": "https://sds.cuhk.edu.cn/teacher/64",
+      "portraitUrl": "https://sds.cuhk.edu.cn/sites/default/files/styles/w1200/public/2021-09/47%20Andre%20%282%29.jpg?itok=r78DO2GS",
+      "sourcePageUrl": "https://sds.cuhk.edu.cn/teacher-search",
+      "officialRosterUrl": "https://sds.cuhk.edu.cn/teacher-search",
+      "profileChecked": true,
+      "decision": "include_new_pi",
+      "reason": "官方数据科学学院名录和个人页确认其为教授、副教授、研究员或可独立招生导师；该单位研究主线属于 AI、数据科学及相关智能计算范围。",
+      "evidenceUrl": "https://sds.cuhk.edu.cn/teacher/64",
+      "evidenceExcerpt": "副教授 / 本科辅导主任-数据科学与大数据技术学科 | 师资检索全部 | 非光滑优化、大规模随机优化、二阶方法和理论 | 慕尼黑工业大学博士 研究方向和兴趣包括非光滑优化、大规模随机优化、二阶方法和理论。他曾受邀在工业和应用数学学会（AISM）、数学编程国际研讨会（ISMP）等国际会议上发表报告，并在多份期刊上发表论文。Andre Milzarek教授从2010年至2012年获德国巴伐利亚州"
+    },
+    {
+      "officialId": "1634",
+      "name": "NESTEROV, Yurii",
+      "title": "教授",
+      "officialSections": [
+        "师资检索全部"
+      ],
+      "profileUrl": "https://sds.cuhk.edu.cn/teacher/1634",
+      "portraitUrl": "https://sds.cuhk.edu.cn/sites/default/files/styles/w1200/public/2024-03/Small1.jpg?itok=AUMgSMqp",
+      "sourcePageUrl": "https://sds.cuhk.edu.cn/teacher-search",
+      "officialRosterUrl": "https://sds.cuhk.edu.cn/teacher-search",
+      "profileChecked": true,
+      "decision": "include_new_pi",
+      "reason": "官方数据科学学院名录和个人页确认其为教授、副教授、研究员或可独立招生导师；该单位研究主线属于 AI、数据科学及相关智能计算范围。",
+      "evidenceUrl": "https://sds.cuhk.edu.cn/teacher/1634",
+      "evidenceExcerpt": "教授 | 师资检索全部 | 非线性优化理论与方法、运筹学模型、优化在机器学习与人工智能中的应用 | 俄罗斯科学院控制问题研究所博士（原苏联科学院控制问题研究所） / 美国国家科学院外籍院士 研究领域 非线性优化理论与方法、运筹学模型、优化在机器学习与人工智能中的应用 个人网站 https://en.wikipedia.org/wiki/Yurii_Nesterov 电子邮箱 yurii.nesterov@uclouvain.be 个"
+    },
+    {
+      "officialId": "2396",
+      "name": "NI-HAHN, Stephen",
+      "title": "助理教授",
+      "officialSections": [
+        "师资检索全部"
+      ],
+      "profileUrl": "https://sds.cuhk.edu.cn/teacher/2396",
+      "portraitUrl": "https://sds.cuhk.edu.cn/sites/default/files/styles/w1200/public/2026-06/Fancy_Profile_Pic.jpg?itok=L3Tbmkri",
+      "sourcePageUrl": "https://sds.cuhk.edu.cn/teacher-search",
+      "officialRosterUrl": "https://sds.cuhk.edu.cn/teacher-search",
+      "profileChecked": true,
+      "decision": "include_new_pi",
+      "reason": "官方数据科学学院名录和个人页确认其为教授、副教授、研究员或可独立招生导师；该单位研究主线属于 AI、数据科学及相关智能计算范围。",
+      "evidenceUrl": "https://sds.cuhk.edu.cn/teacher/2396",
+      "evidenceExcerpt": "助理教授 | 师资检索全部 | 人工智能与机器学习在计算创造力、生成式人工智能、深度学习及可解释性领域的应用 | 杜克大学博士 研究领域 人工智能与机器学习在计算创造力、生成式人工智能、深度学习及可解释性领域的应用 个人网站 https://www.ni-hahn.com 电子邮箱 stephennihahn@cuhk.edu.cn 个人简介 Stephen Ni-Hahn 现任香港中文大学（深圳"
+    },
+    {
+      "officialId": "1825",
+      "name": "POLYZOS, George",
+      "title": "教授",
+      "officialSections": [
+        "师资检索全部"
+      ],
+      "profileUrl": "https://sds.cuhk.edu.cn/teacher/1825",
+      "portraitUrl": "https://sds.cuhk.edu.cn/sites/default/files/styles/w1200/public/2024-07/1722417813579.jpg?itok=dEAlbsa5",
+      "sourcePageUrl": "https://sds.cuhk.edu.cn/teacher-search",
+      "officialRosterUrl": "https://sds.cuhk.edu.cn/teacher-search",
+      "profileChecked": true,
+      "decision": "include_new_pi",
+      "reason": "官方数据科学学院名录和个人页确认其为教授、副教授、研究员或可独立招生导师；该单位研究主线属于 AI、数据科学及相关智能计算范围。",
+      "evidenceUrl": "https://sds.cuhk.edu.cn/teacher/1825",
+      "evidenceExcerpt": "指导委员会成员，以及圣地亚哥超级计算中心的高级研究员。之后，他转到雅典经济与商业大学（AUEB）担任计算机科学教授，在那里他创立并领导了移动多媒体实验室，并担任计算机科学研究生项目主任。 Polyzos教授曾指导或共同指导了16名博士生，并监督了许多研究生和本科生的论文及项目。他已发表300多篇经过同行评审的论文，其出版物的引用次数超过12000次（H指数48）。他目前的研究兴趣包括安全与隐私、分布式系统与区块链、互联网架构与协议、物联网、智能电网、智能城市、供应链透明度与可追溯性、数字身份、计算机与"
+    },
+    {
+      "officialId": "67",
+      "name": "濮实",
+      "title": "副教授",
+      "officialSections": [
+        "师资检索全部"
+      ],
+      "profileUrl": "https://sds.cuhk.edu.cn/teacher/67",
+      "portraitUrl": "https://sds.cuhk.edu.cn/sites/default/files/styles/w1200/public/2021-09/48%20%E6%BF%AE%E5%AE%9E%20%282%29.jpg?itok=oXR3Ldjm",
+      "sourcePageUrl": "https://sds.cuhk.edu.cn/teacher-search",
+      "officialRosterUrl": "https://sds.cuhk.edu.cn/teacher-search",
+      "profileChecked": true,
+      "decision": "include_new_pi",
+      "reason": "官方数据科学学院名录和个人页确认其为教授、副教授、研究员或可独立招生导师；该单位研究主线属于 AI、数据科学及相关智能计算范围。",
+      "evidenceUrl": "https://sds.cuhk.edu.cn/teacher/67",
+      "evidenceExcerpt": "副教授 | 师资检索全部 | 分布式机器学习、大规模优化、多智能体网络 | 弗吉尼亚大学博士 研究方向为分布式优化和大规模机器学习。作为第一或通讯作者在运筹优化领域的权威期刊Operations Research、Mathematical Programming，控制和信号处理领域的权威期刊IEEE TAC、IEEE TSP等发表20余篇论文，入选ESI高被引论文1篇，总被引一千余次。主持国家自然科学"
+    },
+    {
+      "officialId": "2451",
+      "name": "曲彦霖",
+      "title": "助理教授",
+      "officialSections": [
+        "师资检索全部"
+      ],
+      "profileUrl": "https://sds.cuhk.edu.cn/teacher/2451",
+      "portraitUrl": "https://sds.cuhk.edu.cn/sites/default/files/styles/w1200/public/2026-08/%E6%9B%B2%E5%BD%A6%E9%9C%96.jpg?itok=1DTz0n6a",
+      "sourcePageUrl": "https://sds.cuhk.edu.cn/teacher-search",
+      "officialRosterUrl": "https://sds.cuhk.edu.cn/teacher-search",
+      "profileChecked": true,
+      "decision": "include_new_pi",
+      "reason": "官方数据科学学院名录和个人页确认其为教授、副教授、研究员或可独立招生导师；该单位研究主线属于 AI、数据科学及相关智能计算范围。",
+      "evidenceUrl": "https://sds.cuhk.edu.cn/teacher/2451",
+      "evidenceExcerpt": "助理教授 | 师资检索全部 | 应用概率、运筹学、机器学习、马尔可夫链与过程、多臂老虎机、随机仿真 | 斯坦福大学博士 研究方向包括马尔可夫链与过程、多臂老虎机以及随机仿真。其研究成果发表于 Annals of Applied Probability 、 Queueing Systems 、 Mathematics 、 NeurIPS 和 ICML 。他曾获 2023 年 INFORMS 应用概率学会最佳学生论文奖"
+    },
+    {
+      "officialId": "2446",
+      "name": "任雨杰",
+      "title": "助理教授",
+      "officialSections": [
+        "师资检索全部"
+      ],
+      "profileUrl": "https://sds.cuhk.edu.cn/teacher/2446",
+      "portraitUrl": "https://sds.cuhk.edu.cn/sites/default/files/styles/w1200/public/2026-07/Yujie%20Ren.JPG?itok=A53DTDud",
+      "sourcePageUrl": "https://sds.cuhk.edu.cn/teacher-search",
+      "officialRosterUrl": "https://sds.cuhk.edu.cn/teacher-search",
+      "profileChecked": true,
+      "decision": "include_new_pi",
+      "reason": "官方数据科学学院名录和个人页确认其为教授、副教授、研究员或可独立招生导师；该单位研究主线属于 AI、数据科学及相关智能计算范围。",
+      "evidenceUrl": "https://sds.cuhk.edu.cn/teacher/2446",
+      "evidenceExcerpt": "研究方向涵盖数据基础设施软件栈，研究主题围绕操作系统在底层硬件异构化和上层应用语义复杂化背景下的重构与设计。他的研究工作发表于计算机系统和人工智能的会议包括 OSDI, SOSP, FAST, ASPLOS, USENIX ATC, ICLR ，以及期刊包括 ACM Transactions on Storage 。他的研究与工业界联系紧密，博士期间曾在 NVIDIA Research 实习参与了 GPU 直接访问存储的相关研究，并与存储业界领先公司三星有多项全球范围内的专利申请与授权。他最近参与的关"
+    },
+    {
+      "officialId": "2357",
+      "name": "RÖCKNER, Michael",
+      "title": "教授（特聘）",
+      "officialSections": [
+        "师资检索全部"
+      ],
+      "profileUrl": "https://sds.cuhk.edu.cn/teacher/2357",
+      "portraitUrl": "https://sds.cuhk.edu.cn/sites/default/files/styles/w1200/public/2026-03/photoAnzug.jpg?itok=opu0bZXz",
+      "sourcePageUrl": "https://sds.cuhk.edu.cn/teacher-search",
+      "officialRosterUrl": "https://sds.cuhk.edu.cn/teacher-search",
+      "profileChecked": true,
+      "decision": "excluded_non_ai_cs",
+      "reason": "已检查官方个人页及名录字段，公开研究主线未显示 AI、NLP、CV、ML、数据智能、机器人或本图谱紧密相邻方向。",
+      "evidenceUrl": "https://sds.cuhk.edu.cn/teacher/2357",
+      "evidenceExcerpt": "研究领域 概率论、位势论、偏微分方程、谱理论、数学物理 个人网站 https://www.math.uni-bielefeld.de/~roeckner/ 个人简介 Michael Röckner 是比勒费尔德大学（Bielefeld University）数学系的资深教授，近期受聘为香港中文大学（深圳）数据科学学院的特聘教授。他此前曾任普渡大学（Purdue University）和波恩大学（University of Bonn）教授，并曾任爱丁堡大学（University of Edinburgh）读者（Reader，准教授）。他在比勒费尔德大学获得了博士学位及特许任教资格。 Röckner 教授曾荣获埃德蒙·惠特克爵士纪念奖（Sir Edmund Whittaker Memorial Prize）、海因茨·迈尔-莱布尼茨奖（Heinz Maier–Leibnitz–Prize）以及马克斯·普朗克研究奖（Max Planck Research Prize）。他是北京中国科学院数学与系统科学研究院的杰出访问教授，并于2023年获得中国科学院国际科技合作奖。他是欧洲科学院（Academ"
+    },
+    {
+      "officialId": "1777",
+      "name": "石川",
+      "title": "助理教授（教学）金融工程专业应用教授 / 本科辅导主任-金融工程专业 / 课程主任-金融工程专业",
+      "officialSections": [
+        "师资检索全部"
+      ],
+      "profileUrl": "https://sds.cuhk.edu.cn/teacher/1777",
+      "portraitUrl": "https://sds.cuhk.edu.cn/sites/default/files/styles/w1200/public/2024-07/1721700452423.jpg?itok=hgScwSaT",
+      "sourcePageUrl": "https://sds.cuhk.edu.cn/teacher-search",
+      "officialRosterUrl": "https://sds.cuhk.edu.cn/teacher-search",
+      "profileChecked": true,
+      "decision": "include_new_pi",
+      "reason": "官方数据科学学院名录和个人页确认其为教授、副教授、研究员或可独立招生导师；该单位研究主线属于 AI、数据科学及相关智能计算范围。",
+      "evidenceUrl": "https://sds.cuhk.edu.cn/teacher/1777",
+      "evidenceExcerpt": "华大学，获得工学学士和硕士学位。在他的学术旅程中，石博士在优化制造系统方面做出了重要贡献，结合了理论进步和实际应用。他在数据分析、统计建模和机器学习方面有着丰富的经验，并将这些技能应用于金融领域的大规模数据分析。他的工作强调理论和实践的结合，这使他在数据科学领域具备独特的见解。 在他的职业生涯中，石博士一直致力于推进数据科学的边界，特别是在制造系统和定量金融研究领域。作为一名充满热情的教育者，他也参与教学和指导学生，旨在激励下一代数据科学家。他的工作在各种学术和工业圈子中得到了认可，促成了将尖端研究应用"
+    },
+    {
+      "officialId": "966",
+      "name": "施家晟",
+      "title": "助理教授",
+      "officialSections": [
+        "师资检索全部"
+      ],
+      "profileUrl": "https://sds.cuhk.edu.cn/teacher/966",
+      "portraitUrl": "https://sds.cuhk.edu.cn/sites/default/files/styles/w1200/public/2023-08/%E6%96%BD_0.png?itok=Wyyn2Sv_",
+      "sourcePageUrl": "https://sds.cuhk.edu.cn/teacher-search",
+      "officialRosterUrl": "https://sds.cuhk.edu.cn/teacher-search",
+      "profileChecked": true,
+      "decision": "include_new_pi",
+      "reason": "官方数据科学学院名录和个人页确认其为教授、副教授、研究员或可独立招生导师；该单位研究主线属于 AI、数据科学及相关智能计算范围。",
+      "evidenceUrl": "https://sds.cuhk.edu.cn/teacher/966",
+      "evidenceExcerpt": "助理教授 | 师资检索全部 | 因果分析、分布式统计理论与迁移学习、高维统计推断、自正则极限理论 | 香港中文大学博士 研究领域 因果分析、分布式统计理论与迁移学习、高维统计推断、自正则极限理论 个人网站 http://Jiasheng-Shi.github.io 电子邮箱 shijiasheng@cuhk.edu.cn 办公室 道远楼417d 个人简介 施家晟现任香港中文大学（深圳）助理教授。在此之前，他于香港中文大学获"
+    },
+    {
+      "officialId": "2233",
+      "name": "SISCO, Zachary David",
+      "title": "助理教授",
+      "officialSections": [
+        "师资检索全部"
+      ],
+      "profileUrl": "https://sds.cuhk.edu.cn/teacher/2233",
+      "portraitUrl": "https://sds.cuhk.edu.cn/sites/default/files/styles/w1200/public/2025-09/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20250919174733_0.jpg?itok=Y5FqOdOB",
+      "sourcePageUrl": "https://sds.cuhk.edu.cn/teacher-search",
+      "officialRosterUrl": "https://sds.cuhk.edu.cn/teacher-search",
+      "profileChecked": true,
+      "decision": "excluded_non_ai_cs",
+      "reason": "已检查官方个人页及名录字段，公开研究主线未显示 AI、NLP、CV、ML、数据智能、机器人或本图谱紧密相邻方向。",
+      "evidenceUrl": "https://sds.cuhk.edu.cn/teacher/2233",
+      "evidenceExcerpt": "研究领域 编程语言、编译器、计算机体系结构、形式化方法 个人网站 https://zsisco.net 电子邮箱 zsisco@cuhk.edu.cn 办公室 知新楼 404a 个人简介 Zachary Sisco 是香港中文大学（深圳）数据科学学院的计算机科学助理教授。他在加州大学圣塔芭芭拉分校获得博士学位，由 Jonathan Balkind 和 Ben Hardekopf 联合指导。 Zachary 的研究领域位于编程语言、计算机体系结构和形式化方法的交叉点。他的研究将形式化方法集成到用于芯片设计的开源编程语言中，以在保证正确性的前提下支持开发者的敏捷性。Zachary 的研究成果已发表在编程语言和计算机体系结构领域的顶级会议（例如 PLDI 和 ASPLOS）上。他于 2025 年荣获加州大学圣塔芭芭拉分校计算机科学系的杰出博士论文奖。 学术著作 Selected Publications Control Logic Synthesis: Drawing the Rest of the OWL . Zachary D. Sisco, Andrew David Alex, Zec"
+    },
+    {
+      "officialId": "469",
+      "name": "宋方达",
+      "title": "助理教授",
+      "officialSections": [
+        "师资检索全部"
+      ],
+      "profileUrl": "https://sds.cuhk.edu.cn/teacher/469",
+      "portraitUrl": "https://sds.cuhk.edu.cn/sites/default/files/styles/w1200/public/2026-07/70b41eceeab18a64f023e13473a2bfe.jpg?itok=HwnAITpL",
+      "sourcePageUrl": "https://sds.cuhk.edu.cn/teacher-search",
+      "officialRosterUrl": "https://sds.cuhk.edu.cn/teacher-search",
+      "profileChecked": true,
+      "decision": "include_new_pi",
+      "reason": "官方数据科学学院名录和个人页确认其为教授、副教授、研究员或可独立招生导师；该单位研究主线属于 AI、数据科学及相关智能计算范围。",
+      "evidenceUrl": "https://sds.cuhk.edu.cn/teacher/469",
+      "evidenceExcerpt": "uhksz-sds sds.cuhk.edu.cn 版权所有 © 香港中文大学（深圳） 教育背景 香港中文大学博士 浙江大学学士 学术领域 人工智能, 统计学, 统计计算和大数据分析, 生物统计与健康数据 研究领域 贝叶斯统计、统计基因组学、统计计算和大数据分析 个人网站 https://sites.google.com/view/fangda-songs-website/home 电子邮箱 songfangda@cuhk.edu.cn 办公室 道远楼420d 个人简介 宋方达博士于2021年8月加入香"
+    },
+    {
+      "officialId": "489",
+      "name": "孙启霖",
+      "title": "助理教授",
+      "officialSections": [
+        "师资检索全部"
+      ],
+      "profileUrl": "https://sds.cuhk.edu.cn/teacher/489",
+      "portraitUrl": "https://sds.cuhk.edu.cn/sites/default/files/styles/w1200/public/2022-01/%E5%AD%99%E5%90%AF%E9%9C%96%E7%B2%BE%E4%BF%AE%20%282%29.jpg?itok=qSrDMIGW",
+      "sourcePageUrl": "https://sds.cuhk.edu.cn/teacher-search",
+      "officialRosterUrl": "https://sds.cuhk.edu.cn/teacher-search",
+      "profileChecked": true,
+      "decision": "include_new_pi",
+      "reason": "官方数据科学学院名录和个人页确认其为教授、副教授、研究员或可独立招生导师；该单位研究主线属于 AI、数据科学及相关智能计算范围。",
+      "evidenceUrl": "https://sds.cuhk.edu.cn/teacher/489",
+      "evidenceExcerpt": "n 办公室 道远楼507a 个人简介 孙启霖，1992年生，九三学社社员，香港中文大学（深圳）助理教授点昀技术创始人。获得2022年度深圳市人工智能奖、春申金字塔杰出人才。研究领域集中于端到端计算成像相机设计、计算成像、光学、SPAD阵列成像、水下成像与散射介质激光雷达，博士期间发表多篇一作ACM TOG,S IGGRAPH，Siggraph Aisa, CVPR（oral）等并长期担任审稿人。担任CAAI青工委委员、3DV专委、智能无人系统建模与仿真专委、GAMES执行委员、FOE青年编委等。所创办的"
+    },
+    {
+      "officialId": "628",
+      "name": "孙若愚",
+      "title": "副教授",
+      "officialSections": [
+        "师资检索全部"
+      ],
+      "profileUrl": "https://sds.cuhk.edu.cn/teacher/628",
+      "portraitUrl": "https://sds.cuhk.edu.cn/sites/default/files/styles/w1200/public/2025-10/%E5%AD%99%E8%8B%A5%E6%84%9A.jpg?itok=nWPDCOFR",
+      "sourcePageUrl": "https://sds.cuhk.edu.cn/teacher-search",
+      "officialRosterUrl": "https://sds.cuhk.edu.cn/teacher-search",
+      "profileChecked": true,
+      "decision": "include_new_pi",
+      "reason": "官方数据科学学院名录和个人页确认其为教授、副教授、研究员或可独立招生导师；该单位研究主线属于 AI、数据科学及相关智能计算范围。",
+      "evidenceUrl": "https://sds.cuhk.edu.cn/teacher/628",
+      "evidenceExcerpt": "副教授 | 师资检索全部 | 深度学习理论和算法、生成模型、大规模优化算法、学习优化、图神经网络、人工智能在通信网络的应用、通信网络容量理论、通信网络优化算法 | 明尼苏达大学博士 研究方向包括神经网络理论和算法、生成模型、大数据优化算法、学习优化、通信网络容量理论与优化算法等。他曾获得INFORMS(国际运筹与管理协会) George Nicolson学生论文竞赛第二名，以及INFORMS优化"
+    },
+    {
+      "officialId": "266",
+      "name": "曾家炜",
+      "title": "副教授（教学） / 本科辅导主任-统计学专业 / 课程主任-统计学专业",
+      "officialSections": [
+        "师资检索全部"
+      ],
+      "profileUrl": "https://sds.cuhk.edu.cn/teacher/266",
+      "portraitUrl": "https://sds.cuhk.edu.cn/sites/default/files/styles/w1200/public/2022-01/%E6%9B%BE%E5%AE%B6%E7%82%9C%20%282%29.jpg?itok=NvkrKQjf",
+      "sourcePageUrl": "https://sds.cuhk.edu.cn/teacher-search",
+      "officialRosterUrl": "https://sds.cuhk.edu.cn/teacher-search",
+      "profileChecked": true,
+      "decision": "include_new_pi",
+      "reason": "官方数据科学学院名录和个人页确认其为教授、副教授、研究员或可独立招生导师；该单位研究主线属于 AI、数据科学及相关智能计算范围。",
+      "evidenceUrl": "https://sds.cuhk.edu.cn/teacher/266",
+      "evidenceExcerpt": "副教授（教学） / 本科辅导主任-统计学专业 / 课程主任-统计学专业 | 师资检索全部 | 计算数学、金融工程与数据分析、机器学习与时间序列分析 | 斯坦福大学博士 研究领域 计算数学、金融工程与数据分析、机器学习与时间序列分析 电子邮箱 kwtsang@cuhk.edu.cn 办公室 道远楼505b 个人简介 曾家炜教授分别于2007和2009年取得香港中文大学数学学士及硕士学位，并于2011和2015年获得斯坦福大学金融数学硕士及计算数学工程（iCME）博士学位。他的研究兴趣包括计"
+    },
+    {
+      "officialId": "330",
+      "name": "王趵翔",
+      "title": "副教授",
+      "officialSections": [
+        "师资检索全部"
+      ],
+      "profileUrl": "https://sds.cuhk.edu.cn/teacher/330",
+      "portraitUrl": "https://sds.cuhk.edu.cn/sites/default/files/styles/w1200/public/2020-10/35%E7%8E%8B%E8%B6%B5%E7%BF%941.jpg?itok=fLws-LUw",
+      "sourcePageUrl": "https://sds.cuhk.edu.cn/teacher-search",
+      "officialRosterUrl": "https://sds.cuhk.edu.cn/teacher-search",
+      "profileChecked": true,
+      "decision": "include_new_pi",
+      "reason": "官方数据科学学院名录和个人页确认其为教授、副教授、研究员或可独立招生导师；该单位研究主线属于 AI、数据科学及相关智能计算范围。",
+      "evidenceUrl": "https://sds.cuhk.edu.cn/teacher/330",
+      "evidenceExcerpt": "副教授 | 师资检索全部 | 强化学习、在线学习、学习理论 | 香港中文大学博士 研究方向包括强化学习，在线学习，和学习理论等。他的研究成果发表在ITCS, NeurIPS, ICML, ICLR等会议。他关于The Gambler's problem的研究解决了强化学习教科书中的开放问题，并证明了强化学习中的混沌现象。 学术著作 1. Baoxiang Wang, Shuai Li, Jiaj"
+    },
+    {
+      "officialId": "571",
+      "name": "王本友",
+      "title": "助理教授",
+      "officialSections": [
+        "师资检索全部"
+      ],
+      "profileUrl": "https://sds.cuhk.edu.cn/teacher/571",
+      "portraitUrl": "https://sds.cuhk.edu.cn/sites/default/files/styles/w1200/public/2025-10/%E7%8E%8B%E6%9C%AC%E5%8F%8B.jpg?itok=MCXjaEr1",
+      "sourcePageUrl": "https://sds.cuhk.edu.cn/teacher-search",
+      "officialRosterUrl": "https://sds.cuhk.edu.cn/teacher-search",
+      "profileChecked": true,
+      "decision": "include_new_pi",
+      "reason": "官方数据科学学院名录和个人页确认其为教授、副教授、研究员或可独立招生导师；该单位研究主线属于 AI、数据科学及相关智能计算范围。",
+      "evidenceUrl": "https://sds.cuhk.edu.cn/teacher/571",
+      "evidenceExcerpt": "助理教授 | 师资检索全部 | 自然语言处理、信息检索、应用机器学习、量子机器学习 | 意大利帕多瓦大学博士 研究方向为自然语言处理方面、应用机器学习、信息检索。他曾获得国际信息检索顶级会议SIGIR 2017（CCF A类会议）最佳论文提名奖，获奖论文（IRGAN）是SIGIR历史上引用最多的论文之一，是最早也是最成功的GAN在信息检索领域的应用；曾获得国际自然语言处理顶级会议NAACL 201"
+    },
+    {
+      "officialId": "2247",
+      "name": "汪德亮",
+      "title": "校长讲座教授",
+      "officialSections": [
+        "师资检索全部"
+      ],
+      "profileUrl": "https://sds.cuhk.edu.cn/teacher/2247",
+      "portraitUrl": "https://sds.cuhk.edu.cn/sites/default/files/styles/w1200/public/2025-09/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20250919172616.jpg?itok=pPVnPOHP",
+      "sourcePageUrl": "https://sds.cuhk.edu.cn/teacher-search",
+      "officialRosterUrl": "https://sds.cuhk.edu.cn/teacher-search",
+      "profileChecked": true,
+      "decision": "include_new_pi",
+      "reason": "官方数据科学学院名录和个人页确认其为教授、副教授、研究员或可独立招生导师；该单位研究主线属于 AI、数据科学及相关智能计算范围。",
+      "evidenceUrl": "https://sds.cuhk.edu.cn/teacher/2247",
+      "evidenceExcerpt": "校长讲座教授 | 师资检索全部 | 计算听觉、语音与音频处理、深度学习及人工智能 | 南加州大学博士 / IEEE会士、ISCA会士、AAIA会士 研究领域 计算听觉、语音与音频处理、深度学习及人工智能 个人网站 https://pnlwang.github.io/ 电子邮箱 dwang@cuhk.edu.cn 办公室 道远楼 402 个人简介 汪德亮现任香港中文大学（深圳）教授。1991年10月至2025"
+    },
+    {
+      "officialId": "2182",
+      "name": "王捷",
+      "title": "助理教授",
+      "officialSections": [
+        "师资检索全部"
+      ],
+      "profileUrl": "https://sds.cuhk.edu.cn/teacher/2182",
+      "portraitUrl": "https://sds.cuhk.edu.cn/sites/default/files/styles/w1200/public/2025-06/JieWang_image.jpeg?itok=ckRsQx94",
+      "sourcePageUrl": "https://sds.cuhk.edu.cn/teacher-search",
+      "officialRosterUrl": "https://sds.cuhk.edu.cn/teacher-search",
+      "profileChecked": true,
+      "decision": "include_new_pi",
+      "reason": "官方数据科学学院名录和个人页确认其为教授、副教授、研究员或可独立招生导师；该单位研究主线属于 AI、数据科学及相关智能计算范围。",
+      "evidenceUrl": "https://sds.cuhk.edu.cn/teacher/2182",
+      "evidenceExcerpt": "助理教授 | 师资检索全部 | 优化与统计以及在机器学习领域里的应用 | 佐治亚理工学院博士 研究领域 优化与统计以及在机器学习领域里的应用 个人网站 https://walterbabyrudin.github.io/ 电子邮箱 jwang@cuhk.edu.cn 办公室 教学楼A409 个人简介 王捷博士于2025年在佐治亚理工学院工业工程系获得博士学位。他的研究结合统计学与优化方法，聚焦于不确定性下的决策问"
+    },
+    {
+      "officialId": "985",
+      "name": "王梓丞",
+      "title": "助理教授",
+      "officialSections": [
+        "师资检索全部"
+      ],
+      "profileUrl": "https://sds.cuhk.edu.cn/teacher/985",
+      "portraitUrl": "https://sds.cuhk.edu.cn/sites/default/files/styles/w1200/public/2023-08/ZichengWang.jpg?itok=aKUxdcMJ",
+      "sourcePageUrl": "https://sds.cuhk.edu.cn/teacher-search",
+      "officialRosterUrl": "https://sds.cuhk.edu.cn/teacher-search",
+      "profileChecked": true,
+      "decision": "include_new_pi",
+      "reason": "官方数据科学学院名录和个人页确认其为教授、副教授、研究员或可独立招生导师；该单位研究主线属于 AI、数据科学及相关智能计算范围。",
+      "evidenceUrl": "https://sds.cuhk.edu.cn/teacher/985",
+      "evidenceExcerpt": "助理教授 | 师资检索全部 | 随机过程、癌症数据科学、运营管理 | 明尼苏达大学双城分校博士 研究领域 随机过程、癌症数据科学、运营管理 电子邮箱 wangzicheng@cuhk.edu.cn 办公室 综合楼C711 个人简介 王梓丞博士现任香港中文大学（深圳）助理教授。他于2015年获明尼苏达大学数学学士学位，于2021年获明尼苏达大学工业工程博士学位。他的研究兴趣包括应用概率论及其在癌症和运营管理中的应"
+    },
+    {
+      "officialId": "59",
+      "name": "王子卓",
+      "title": "教授 / 副院长（教学） / 运筹学学科部主任 / 课程主任-数据科学与大数据技术学科",
+      "officialSections": [
+        "师资检索全部"
+      ],
+      "profileUrl": "https://sds.cuhk.edu.cn/teacher/59",
+      "portraitUrl": "https://sds.cuhk.edu.cn/sites/default/files/styles/w1200/public/2022-01/%E7%8E%8B%E5%AD%90%E5%8D%93%20%282%29.jpg?itok=TlU2gTX8",
+      "sourcePageUrl": "https://sds.cuhk.edu.cn/teacher-search",
+      "officialRosterUrl": "https://sds.cuhk.edu.cn/teacher-search",
+      "profileChecked": true,
+      "decision": "include_new_pi",
+      "reason": "官方数据科学学院名录和个人页确认其为教授、副教授、研究员或可独立招生导师；该单位研究主线属于 AI、数据科学及相关智能计算范围。",
+      "evidenceUrl": "https://sds.cuhk.edu.cn/teacher/59",
+      "evidenceExcerpt": "教授 / 副院长（教学） / 运筹学学科部主任 / 课程主任-数据科学与大数据技术学科 | 师资检索全部 | 随机和鲁棒优化、数据驱动决策问题、定价和收益管理 | 斯坦福大学博士 研究方向为在线机器学习及收益与运营管理。在机器学习方面，王子卓教授在在线学习方面做了开创性的工作，对在线线性规划、在线凸规划问题中获得了开创性的结果。在收益管理方面，王子卓教授对消费者行为，商品定价和市场量化营销有着深入研究。他在运筹学和管理科学国际"
+    },
+    {
+      "officialId": "1744",
+      "name": "魏林川",
+      "title": "助理教授",
+      "officialSections": [
+        "师资检索全部"
+      ],
+      "profileUrl": "https://sds.cuhk.edu.cn/teacher/1744",
+      "portraitUrl": "https://sds.cuhk.edu.cn/sites/default/files/styles/w1200/public/2024-07/%E9%AD%8F%E6%9E%97%E5%B7%9D%EF%BC%88%E6%96%B0%EF%BC%89.jpg?itok=Ws5pHXmt",
+      "sourcePageUrl": "https://sds.cuhk.edu.cn/teacher-search",
+      "officialRosterUrl": "https://sds.cuhk.edu.cn/teacher-search",
+      "profileChecked": true,
+      "decision": "include_new_pi",
+      "reason": "官方数据科学学院名录和个人页确认其为教授、副教授、研究员或可独立招生导师；该单位研究主线属于 AI、数据科学及相关智能计算范围。",
+      "evidenceUrl": "https://sds.cuhk.edu.cn/teacher/1744",
+      "evidenceExcerpt": "人简介 魏林川教授2024年于美国西北大学获工业工程及管理科学博士学位。当前的研究领域为：整数规划，非线性优化，组合优化，及其在供应链管理与数据科学方面的应用。 学术著作 Journal articles 1. L. Wei, A. Gómez, S. Küçükyavuz. (2022) “Ideal formulations for constrained convex optimization problems with indicator variables,” Mathematical Pro"
+    },
+    {
+      "officialId": "2442",
+      "name": "吴昊（将在2027年春季加入）",
+      "title": "助理教授",
+      "officialSections": [
+        "师资检索全部"
+      ],
+      "profileUrl": "https://sds.cuhk.edu.cn/teacher/2442",
+      "portraitUrl": "https://sds.cuhk.edu.cn/sites/default/files/styles/w1200/public/2026-07/Hao%20Wu.png?itok=2k6QL7Xi",
+      "sourcePageUrl": "https://sds.cuhk.edu.cn/teacher-search",
+      "officialRosterUrl": "https://sds.cuhk.edu.cn/teacher-search",
+      "profileChecked": true,
+      "decision": "include_new_pi",
+      "reason": "官方数据科学学院名录和个人页确认其为教授、副教授、研究员或可独立招生导师；该单位研究主线属于 AI、数据科学及相关智能计算范围。",
+      "evidenceUrl": "https://sds.cuhk.edu.cn/teacher/2442",
+      "evidenceExcerpt": "Guo, Rayne Holland, Hao WU (alpha order) International Conference on Database Theory , 2027 [PODS] Optimal Pure Differentially Private Sparse Histograms in Deterministic Linear Time Florian Kerschbaum, Steven Lee, Hao WU (alpha order) ACM Symposium on Princ"
+    },
+    {
+      "officialId": "428",
+      "name": "吴均峰",
+      "title": "副教授",
+      "officialSections": [
+        "师资检索全部"
+      ],
+      "profileUrl": "https://sds.cuhk.edu.cn/teacher/428",
+      "portraitUrl": "https://sds.cuhk.edu.cn/sites/default/files/styles/w1200/public/2021-01/%E5%90%B4%E5%9D%87%E5%B3%B0.jpg?itok=vExCs4GE",
+      "sourcePageUrl": "https://sds.cuhk.edu.cn/teacher-search",
+      "officialRosterUrl": "https://sds.cuhk.edu.cn/teacher-search",
+      "profileChecked": true,
+      "decision": "include_new_pi",
+      "reason": "官方数据科学学院名录和个人页确认其为教授、副教授、研究员或可独立招生导师；该单位研究主线属于 AI、数据科学及相关智能计算范围。",
+      "evidenceUrl": "https://sds.cuhk.edu.cn/teacher/428",
+      "evidenceExcerpt": "副教授 | 师资检索全部 | 网络控制系统、机器人感知与学习、水下机器人、信息物理系统安全与隐私 | 香港科技大学博士 研究领域 网络控制系统、机器人感知与学习、水下机器人、信息物理系统安全与隐私 个人网站 https://lias-cuhksz.github.io/ 电子邮箱 junfengwu@cuhk.edu.cn 办公室 知新楼422 个人简介 吴均峰教授现为香港中文大学（深圳）副教授。吴教授于20"
+    },
+    {
+      "officialId": "1900",
+      "name": "吴建福",
+      "title": "校长学勤讲座教授",
+      "officialSections": [
+        "师资检索全部"
+      ],
+      "profileUrl": "https://sds.cuhk.edu.cn/teacher/1900",
+      "portraitUrl": "https://sds.cuhk.edu.cn/sites/default/files/styles/w1200/public/2024-08/%E5%90%B4%E5%BB%BA%E7%A6%8F.png?itok=PAQx0Gkf",
+      "sourcePageUrl": "https://sds.cuhk.edu.cn/teacher-search",
+      "officialRosterUrl": "https://sds.cuhk.edu.cn/teacher-search",
+      "profileChecked": true,
+      "decision": "include_new_pi",
+      "reason": "官方数据科学学院名录和个人页确认其为教授、副教授、研究员或可独立招生导师；该单位研究主线属于 AI、数据科学及相关智能计算范围。",
+      "evidenceUrl": "https://sds.cuhk.edu.cn/teacher/1900",
+      "evidenceExcerpt": "校长学勤讲座教授 | 师资检索全部 | 未确定性量化、数字孪生、计算机实验及线上实验（设计、建模、优化） | 加州大学伯克利分校博士 / 美国国家工程院院士、台湾“中央研究院”院士、IMS会士、ASA会士、ASQ会士、INFORMS会士 研究领域 未确定性量化、数字孪生、计算机实验及线上实验（设计、建模、优化） 个人网站 https://myweb.cuhk.edu.cn/jeffwu 电子邮箱 jeffwu@cuhk"
+    },
+    {
+      "officialId": "641",
+      "name": "武执政",
+      "title": "副教授 / 授课型硕士项目主任-人工智能与机器人理学硕士项目",
+      "officialSections": [
+        "师资检索全部"
+      ],
+      "profileUrl": "https://sds.cuhk.edu.cn/teacher/641",
+      "portraitUrl": "https://sds.cuhk.edu.cn/sites/default/files/styles/w1200/public/2025-09/1758101360244.png?itok=tTscwTGv",
+      "sourcePageUrl": "https://sds.cuhk.edu.cn/teacher-search",
+      "officialRosterUrl": "https://sds.cuhk.edu.cn/teacher-search",
+      "profileChecked": true,
+      "decision": "include_new_pi",
+      "reason": "官方数据科学学院名录和个人页确认其为教授、副教授、研究员或可独立招生导师；该单位研究主线属于 AI、数据科学及相关智能计算范围。",
+      "evidenceUrl": "https://sds.cuhk.edu.cn/teacher/641",
+      "evidenceExcerpt": "副教授 / 授课型硕士项目主任-人工智能与机器人理学硕士项目 | 师资检索全部 | 语音交互、语音生成、音频鉴伪 | 南洋理工大学博士 研究领域 语音交互、语音生成、音频鉴伪 个人网站 http://www.drwuz.com 电子邮箱 wuzhizheng@cuhk.edu.cn 办公室 综合楼C715 个人简介 武执政博士现任香港中文大学（深圳）副教授，入选国家级青年人才，深圳市跨模态认知计算"
+    },
+    {
+      "officialId": "1679",
+      "name": "肖晨骏",
+      "title": "助理教授",
+      "officialSections": [
+        "师资检索全部"
+      ],
+      "profileUrl": "https://sds.cuhk.edu.cn/teacher/1679",
+      "portraitUrl": "https://sds.cuhk.edu.cn/sites/default/files/styles/w1200/public/2024-04/%E8%82%96%E6%99%A8%E9%AA%8F.jpg?itok=KxwPZ0EU",
+      "sourcePageUrl": "https://sds.cuhk.edu.cn/teacher-search",
+      "officialRosterUrl": "https://sds.cuhk.edu.cn/teacher-search",
+      "profileChecked": true,
+      "decision": "include_new_pi",
+      "reason": "官方数据科学学院名录和个人页确认其为教授、副教授、研究员或可独立招生导师；该单位研究主线属于 AI、数据科学及相关智能计算范围。",
+      "evidenceUrl": "https://sds.cuhk.edu.cn/teacher/1679",
+      "evidenceExcerpt": "助理教授 | 师资检索全部 | 强化学习、机器学习 | 阿尔伯塔大学博士 研究领域 强化学习、机器学习 个人网站 https://chenjun-x.github.io 电子邮箱 chenjunx@cuhk.edu.cn 办公室 道远楼417b 个人简介 肖晨骏博士现为香港中文大学（深圳）助理教授。他在阿尔伯塔大学获得硕士和博士学位，并于东北大学获得学士学位。在加入香港中文大学（深圳）之前，202"
+    },
+    {
+      "officialId": "2108",
+      "name": "肖纳川",
+      "title": "助理教授",
+      "officialSections": [
+        "师资检索全部"
+      ],
+      "profileUrl": "https://sds.cuhk.edu.cn/teacher/2108",
+      "portraitUrl": "https://sds.cuhk.edu.cn/sites/default/files/styles/w1200/public/2025-03/1740972603972.jpg?itok=1hDwB0OE",
+      "sourcePageUrl": "https://sds.cuhk.edu.cn/teacher-search",
+      "officialRosterUrl": "https://sds.cuhk.edu.cn/teacher-search",
+      "profileChecked": true,
+      "decision": "include_new_pi",
+      "reason": "官方数据科学学院名录和个人页确认其为教授、副教授、研究员或可独立招生导师；该单位研究主线属于 AI、数据科学及相关智能计算范围。",
+      "evidenceUrl": "https://sds.cuhk.edu.cn/teacher/2108",
+      "evidenceExcerpt": "光滑优化、随机优化 | 中国科学院博士 研究方向为最优化计算方法，特别专注于开发求解非凸约束优化问题的高效数值方法。他的研究成果发表在优化和机器学习领域的顶级期刊上，包括SIAM Journal on Optimization、Mathematics of Operations Research、Journal of Machine Learning Research、Mathematical Programming Computation以及IMA Journal of Numerical Analy"
+    },
+    {
+      "officialId": "2127",
+      "name": "肖蕴明",
+      "title": "助理教授",
+      "officialSections": [
+        "师资检索全部"
+      ],
+      "profileUrl": "https://sds.cuhk.edu.cn/teacher/2127",
+      "portraitUrl": "https://sds.cuhk.edu.cn/sites/default/files/styles/w1200/public/2025-12/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20251203111529.jpg?itok=yv3ivtcR",
+      "sourcePageUrl": "https://sds.cuhk.edu.cn/teacher-search",
+      "officialRosterUrl": "https://sds.cuhk.edu.cn/teacher-search",
+      "profileChecked": true,
+      "decision": "excluded_non_ai_cs",
+      "reason": "已检查官方个人页及名录字段，公开研究主线未显示 AI、NLP、CV、ML、数据智能、机器人或本图谱紧密相邻方向。",
+      "evidenceUrl": "https://sds.cuhk.edu.cn/teacher/2127",
+      "evidenceExcerpt": "研究方向为计算机系统和网络，研究重点包括在线服务的安全和隐私以及云基础设施的性能和可靠性。他的研究成果发表在 SICOMM, NSDI, SIGMETRICS, EuroSys, USENIX ATC 等顶级会议和期刊，获得 ACM EuroSys 最佳学生论文奖，部分研究成果被应用在实际生产环境中。 学术著作 1. Shihan Lin, Suting Chen, Yunming Xiao# , Yanqi Gu, Aleksandar Kuzmanovic, Xiaowei Yang, “PreAcher: Secure and Practical Password Pre-Authentication by Content Delivery Networks”, USENIX Symposium on Networked Systems Design and Implementation (NSDI), 2025. (CCF-A) 2. Yadong Liu*, Yunming Xiao* , Xuan Zhang, Weizhen Dang, Huihui Liu, Xiang"
+    },
+    {
+      "officialId": "642",
+      "name": "严明",
+      "title": "副教授 / 助理院长（本科生事务） / 本科辅导主任-计算机科学与技术专业",
+      "officialSections": [
+        "师资检索全部"
+      ],
+      "profileUrl": "https://sds.cuhk.edu.cn/teacher/642",
+      "portraitUrl": "https://sds.cuhk.edu.cn/sites/default/files/styles/w1200/public/2024-01/%E4%B8%A5%E6%98%8E%EF%BC%88%E6%96%B0%EF%BC%89.jpg?itok=P4dyxjAU",
+      "sourcePageUrl": "https://sds.cuhk.edu.cn/teacher-search",
+      "officialRosterUrl": "https://sds.cuhk.edu.cn/teacher-search",
+      "profileChecked": true,
+      "decision": "include_new_pi",
+      "reason": "官方数据科学学院名录和个人页确认其为教授、副教授、研究员或可独立招生导师；该单位研究主线属于 AI、数据科学及相关智能计算范围。",
+      "evidenceUrl": "https://sds.cuhk.edu.cn/teacher/642",
+      "evidenceExcerpt": "副教授 / 助理院长（本科生事务） / 本科辅导主任-计算机科学与技术专业 | 师资检索全部 | 分布式优化、稀疏优化、机器学习、大规模优化算法 | 加州大学洛杉矶分校博士 研究方向为大规模优化算法及其在图像处理、机器学习和其他数据科学问题中的应用。他在人工智能与机器学习会议（包括ICML、ICLR、NeurIPS 和 AISTATS）以及 IEEE杂志（TPAMI、TSP） 和 SIAM 杂志（包括SIIMS、SISC、MMS）等发表文章超过50篇。他于2020年获得脸书教授奖（F"
+    },
+    {
+      "officialId": "468",
+      "name": "杨浩翔",
+      "title": "助理教授",
+      "officialSections": [
+        "师资检索全部"
+      ],
+      "profileUrl": "https://sds.cuhk.edu.cn/teacher/468",
+      "portraitUrl": "https://sds.cuhk.edu.cn/sites/default/files/styles/w1200/public/2022-01/%E6%9D%A8%E6%B5%A9%E7%BF%94%20%282%29_0.jpg?itok=S53_Hl_r",
+      "sourcePageUrl": "https://sds.cuhk.edu.cn/teacher-search",
+      "officialRosterUrl": "https://sds.cuhk.edu.cn/teacher-search",
+      "profileChecked": true,
+      "decision": "include_new_pi",
+      "reason": "官方数据科学学院名录和个人页确认其为教授、副教授、研究员或可独立招生导师；该单位研究主线属于 AI、数据科学及相关智能计算范围。",
+      "evidenceUrl": "https://sds.cuhk.edu.cn/teacher/468",
+      "evidenceExcerpt": "esolving age-related differences in wo 教育背景 博士（西北大学） 学士（佐治亚理工学院） 学术领域 人工智能, 运筹学, 优化 研究领域 不确定性下的优化、整数规划、能源系统 个人网站 http://sites.google.com/view/haoxiangyang 电子邮箱 yanghaoxiang@cuhk.edu.cn 办公室 道远楼417a 个人简介 杨浩翔教授于 2014 年获得佐治亚理工学院的学士学位；后在美国西北大学获得工业工程和管理科学博士学位。"
+    },
+    {
+      "officialId": "2056",
+      "name": "杨俊驰",
+      "title": "助理教授",
+      "officialSections": [
+        "师资检索全部"
+      ],
+      "profileUrl": "https://sds.cuhk.edu.cn/teacher/2056",
+      "portraitUrl": "https://sds.cuhk.edu.cn/sites/default/files/styles/w1200/public/2025-10/%E6%9D%A8%E4%BF%8A%E9%A9%B0.jpg?itok=tKesIhkb",
+      "sourcePageUrl": "https://sds.cuhk.edu.cn/teacher-search",
+      "officialRosterUrl": "https://sds.cuhk.edu.cn/teacher-search",
+      "profileChecked": true,
+      "decision": "include_new_pi",
+      "reason": "官方数据科学学院名录和个人页确认其为教授、副教授、研究员或可独立招生导师；该单位研究主线属于 AI、数据科学及相关智能计算范围。",
+      "evidenceUrl": "https://sds.cuhk.edu.cn/teacher/2056",
+      "evidenceExcerpt": "助理教授 | 师资检索全部 | 连续优化及其在机器学习和能源系统中的应用 | 苏黎世联邦理工学院博士 研究领域 连续优化及其在机器学习和能源系统中的应用 个人网站 https://junchi-michael-yang.github.io/ 电子邮箱 yangjunchi@cuhk.edu.cn 办公室 道远楼321a 个人简介 杨俊驰博士现任香港中文大学（深圳）助理教授。他分别于瑞士联邦理工学院（ETH Zu"
+    },
+    {
+      "officialId": "506",
+      "name": "姚建峰",
+      "title": "校长讲座教授 / 统计学学科部主任",
+      "officialSections": [
+        "师资检索全部"
+      ],
+      "profileUrl": "https://sds.cuhk.edu.cn/teacher/506",
+      "portraitUrl": "https://sds.cuhk.edu.cn/sites/default/files/styles/w1200/public/2023-01/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20230103122225.jpg?itok=Sa0Rtoua",
+      "sourcePageUrl": "https://sds.cuhk.edu.cn/teacher-search",
+      "officialRosterUrl": "https://sds.cuhk.edu.cn/teacher-search",
+      "profileChecked": true,
+      "decision": "include_new_pi",
+      "reason": "官方数据科学学院名录和个人页确认其为教授、副教授、研究员或可独立招生导师；该单位研究主线属于 AI、数据科学及相关智能计算范围。",
+      "evidenceUrl": "https://sds.cuhk.edu.cn/teacher/506",
+      "evidenceExcerpt": "计学学科部主任 | 师资检索全部 | 随机矩阵理论和高维统计、高维计量经济学模型、马尔可夫链和马尔可夫过程、时间序列分析、网络数据分析、数字图像分析 | 巴黎萨克雷大学博士（原巴黎第十一大学） / IMS会士 研究领域 随机矩阵理论和高维统计、高维计量经济学模型、马尔可夫链和马尔可夫过程、时间序列分析、网络数据分析、数字图像分析 个人网站 https://jianfengyao.wordpress.com/ 电子邮箱 jeffyao@cuhk.edu.cn 办公室 道远楼403 个人简介 姚建峰教授"
+    },
+    {
+      "officialId": "1750",
+      "name": "叶荫宇",
+      "title": "教授（特聘）",
+      "officialSections": [
+        "师资检索全部"
+      ],
+      "profileUrl": "https://sds.cuhk.edu.cn/teacher/1750",
+      "portraitUrl": "https://sds.cuhk.edu.cn/sites/default/files/styles/w1200/public/2024-06/%E5%8F%B6%E8%8D%AB%E5%AE%87.jpg?itok=2N6978JT",
+      "sourcePageUrl": "https://sds.cuhk.edu.cn/teacher-search",
+      "officialRosterUrl": "https://sds.cuhk.edu.cn/teacher-search",
+      "profileChecked": true,
+      "decision": "include_new_pi",
+      "reason": "官方数据科学学院名录和个人页确认其为教授、副教授、研究员或可独立招生导师；该单位研究主线属于 AI、数据科学及相关智能计算范围。",
+      "evidenceUrl": "https://sds.cuhk.edu.cn/teacher/1750",
+      "evidenceExcerpt": "教授（特聘） | 师资检索全部 | 连续和离散优化、数据科学及应用、数字算法设计及分析、算法博弈及市场均衡、运筹及管理科学 | 斯坦福大学博士 研究方向为连续和离散优化、数据科学及应用、数字算法设计及分析、算法博弈及市场均衡、运筹及管理科学等；他和其他科学家开创了内点优化算法、锥规划模型、分布式鲁棒优化、在线线性规划和学习、强化学习和马可夫过程算法分析等。他多次获得科学奖项：包括2006年因在最优化领域做出的基础性贡"
+    },
+    {
+      "officialId": "826",
+      "name": "于伦",
+      "title": "助理教授",
+      "officialSections": [
+        "师资检索全部"
+      ],
+      "profileUrl": "https://sds.cuhk.edu.cn/teacher/826",
+      "portraitUrl": "https://sds.cuhk.edu.cn/sites/default/files/styles/w1200/public/2022-12/Photo_Lun.jpg?itok=hOJ1vBb4",
+      "sourcePageUrl": "https://sds.cuhk.edu.cn/teacher-search",
+      "officialRosterUrl": "https://sds.cuhk.edu.cn/teacher-search",
+      "profileChecked": true,
+      "decision": "include_new_pi",
+      "reason": "官方数据科学学院名录和个人页确认其为教授、副教授、研究员或可独立招生导师；该单位研究主线属于 AI、数据科学及相关智能计算范围。",
+      "evidenceUrl": "https://sds.cuhk.edu.cn/teacher/826",
+      "evidenceExcerpt": "助理教授 | 师资检索全部 | 服务系统运营、排队论、供应链管理、最优控制、马氏决策过程、应用概率、机器学习 | 西北大学博士 研究领域 服务系统运营、排队论、供应链管理、最优控制、马氏决策过程、应用概率、机器学习 电子邮箱 yulun@cuhk.edu.cn 办公室 道远楼 317b 个人简介 于伦教授现为香港中文大学（深圳）助理教授。2020年，他获得西北大学工业工程与管理科学博士学位。2021年，他获得Nemhausser最佳学生论文奖。于伦教授的研究兴趣包"
+    },
+    {
+      "officialId": "1246",
+      "name": "余旻晨",
+      "title": "助理教授",
+      "officialSections": [
+        "师资检索全部"
+      ],
+      "profileUrl": "https://sds.cuhk.edu.cn/teacher/1246",
+      "portraitUrl": "https://sds.cuhk.edu.cn/sites/default/files/styles/w1200/public/2024-05/%E5%8E%9F%E5%9B%BE%E7%B2%BE%E4%BF%AE_2.jpg?itok=ohpIw3oG",
+      "sourcePageUrl": "https://sds.cuhk.edu.cn/teacher-search",
+      "officialRosterUrl": "https://sds.cuhk.edu.cn/teacher-search",
+      "profileChecked": true,
+      "decision": "include_new_pi",
+      "reason": "官方数据科学学院名录和个人页确认其为教授、副教授、研究员或可独立招生导师；该单位研究主线属于 AI、数据科学及相关智能计算范围。",
+      "evidenceUrl": "https://sds.cuhk.edu.cn/teacher/1246",
+      "evidenceExcerpt": "助理教授 | 师资检索全部 | 云计算和分布式系统、服务器无感知计算、大数据和机器学习系统 | 香港科技大学博士 研究方向是云计算和分布式系统、服务器无感知计算、大数据和机器学习系统。近年来他在系统领域高水平会议上发表多篇论文，包括USENIX NSDI, USENIX ATC, IEEE INFOCOM, IEEE ICDCS等。他的工作获得了IEEE ICDCS 2021最佳论文奖提名。 学术著作 1. Minchen Yu, Tingj"
+    },
+    {
+      "officialId": "448",
+      "name": "于天舒",
+      "title": "助理教授",
+      "officialSections": [
+        "师资检索全部"
+      ],
+      "profileUrl": "https://sds.cuhk.edu.cn/teacher/448",
+      "portraitUrl": "https://sds.cuhk.edu.cn/sites/default/files/styles/w1200/public/2023-01/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20230103123409_0.jpg?itok=RjWyJP-5",
+      "sourcePageUrl": "https://sds.cuhk.edu.cn/teacher-search",
+      "officialRosterUrl": "https://sds.cuhk.edu.cn/teacher-search",
+      "profileChecked": true,
+      "decision": "include_new_pi",
+      "reason": "官方数据科学学院名录和个人页确认其为教授、副教授、研究员或可独立招生导师；该单位研究主线属于 AI、数据科学及相关智能计算范围。",
+      "evidenceUrl": "https://sds.cuhk.edu.cn/teacher/448",
+      "evidenceExcerpt": "2至2014年间任飞利浦医疗算法工程师。于博士将于2021年从亚利桑那州立大学计算机科学专业毕业并取得博士学位。 于博士主要研究兴趣涵盖多个机器学习和组合问题优化相关领域。他对利用机器学习解决传统组合问题，图学习和优化，以及在深度学习框架内寻求结构扩展特别感兴趣。循环神经网络，行列式点过程也是他开展的研究之一。于博士也是多个顶级会议（例如ICLR 2021, NIPS 2020, CVPR 2019-2021, ICCV 2019, ECCV 2020等）以及期刊（例如IEEE Transactions"
+    },
+    {
+      "officialId": "69",
+      "name": "于天维",
+      "title": "教授 / 副院长 / 授课型硕士项目联合主任-生物信息学 / 研究型硕博项目联合主任-计算生物学与健康信息学",
+      "officialSections": [
+        "师资检索全部"
+      ],
+      "profileUrl": "https://sds.cuhk.edu.cn/teacher/69",
+      "portraitUrl": "https://sds.cuhk.edu.cn/sites/default/files/styles/w1200/public/2021-09/15%20%E4%BA%8E%E5%A4%A9%E7%BB%B4%EF%BC%88%E4%BE%A7%E8%BA%AB%EF%BC%89%20%282%29.jpg?itok=3PORMS1m",
+      "sourcePageUrl": "https://sds.cuhk.edu.cn/teacher-search",
+      "officialRosterUrl": "https://sds.cuhk.edu.cn/teacher-search",
+      "profileChecked": true,
+      "decision": "include_new_pi",
+      "reason": "官方数据科学学院名录和个人页确认其为教授、副教授、研究员或可独立招生导师；该单位研究主线属于 AI、数据科学及相关智能计算范围。",
+      "evidenceUrl": "https://sds.cuhk.edu.cn/teacher/69",
+      "evidenceExcerpt": "教授 / 副院长 / 授课型硕士项目联合主任-生物信息学 / 研究型硕博项目联合主任-计算生物学与健康信息学 | 师资检索全部 | 生物信息学、统计学、机器学习 | 加州大学洛杉矶分校博士 研究领域 生物信息学、统计学、机器学习 个人网站 https://mypage.cuhk.edu.cn/yutianwei/ 电子邮箱 yutianwei@cuhk.edu.cn 办公室 综合楼C708 个人简介 于天维教授"
+    },
+    {
+      "officialId": "65",
+      "name": "查宏远",
+      "title": "校长学勤讲座教授 / 副院长（科研）",
+      "officialSections": [
+        "师资检索全部"
+      ],
+      "profileUrl": "https://sds.cuhk.edu.cn/teacher/65",
+      "portraitUrl": "https://sds.cuhk.edu.cn/sites/default/files/styles/w1200/public/2022-01/%E6%9F%A5%E5%AE%8F%E8%BF%9C%20%282%29.jpg?itok=wJCQU_wu",
+      "sourcePageUrl": "https://sds.cuhk.edu.cn/teacher-search",
+      "officialRosterUrl": "https://sds.cuhk.edu.cn/teacher-search",
+      "profileChecked": true,
+      "decision": "include_new_pi",
+      "reason": "官方数据科学学院名录和个人页确认其为教授、副教授、研究员或可独立招生导师；该单位研究主线属于 AI、数据科学及相关智能计算范围。",
+      "evidenceUrl": "https://sds.cuhk.edu.cn/teacher/65",
+      "evidenceExcerpt": "校长学勤讲座教授 / 副院长（科研） | 师资检索全部 | 机器学习及应用 | 斯坦福大学博士 研究方向是机器学习及应用。 查教授在计算机等相关领域的主流科技期刊和顶级学术会议上发表400多篇论文，据谷歌学术统计，截止2024年11月，谷歌H-index 93，总引用率超38349次。曾荣获多项重要学术奖项，如 Institute of Mathematics and Applications（IMA）授予的“莱斯利福克斯奖"
+    },
+    {
+      "officialId": "315",
+      "name": "张大鹏",
+      "title": "校长学勤讲座教授",
+      "officialSections": [
+        "师资检索全部"
+      ],
+      "profileUrl": "https://sds.cuhk.edu.cn/teacher/315",
+      "portraitUrl": "https://sds.cuhk.edu.cn/sites/default/files/styles/w1200/public/2023-06/WeChat%20Image_20230606161156.jpg?itok=jta__r73",
+      "sourcePageUrl": "https://sds.cuhk.edu.cn/teacher-search",
+      "officialRosterUrl": "https://sds.cuhk.edu.cn/teacher-search",
+      "profileChecked": true,
+      "decision": "include_new_pi",
+      "reason": "官方数据科学学院名录和个人页确认其为教授、副教授、研究员或可独立招生导师；该单位研究主线属于 AI、数据科学及相关智能计算范围。",
+      "evidenceUrl": "https://sds.cuhk.edu.cn/teacher/315",
+      "evidenceExcerpt": "校长学勤讲座教授 | 师资检索全部 | 模式识别、图像处理、生物特征识别 | 滑铁卢大学博士 / 哈尔滨工业大学博士 / 加拿大皇家科学院院士、加拿大工程院院士、IEEE终身会士、IAPR会士、AAIA会士 研究领域 模式识别、图像处理、生物特征识别 个人网站 http://www4.comp.polyu.edu.hk/~csdzhang/ 电子邮箱 davidzhang@cuhk.edu.cn 办公室"
+    },
+    {
+      "officialId": "627",
+      "name": "张经纬",
+      "title": "助理教授",
+      "officialSections": [
+        "师资检索全部"
+      ],
+      "profileUrl": "https://sds.cuhk.edu.cn/teacher/627",
+      "portraitUrl": "https://sds.cuhk.edu.cn/sites/default/files/styles/w1200/public/2022-07/%E5%BC%A0%E7%BB%8F%E7%BA%AC.jpg?itok=52VrlgI_",
+      "sourcePageUrl": "https://sds.cuhk.edu.cn/teacher-search",
+      "officialRosterUrl": "https://sds.cuhk.edu.cn/teacher-search",
+      "profileChecked": true,
+      "decision": "excluded_non_ai_cs",
+      "reason": "已检查官方个人页及名录字段，公开研究主线未显示 AI、NLP、CV、ML、数据智能、机器人或本图谱紧密相邻方向。",
+      "evidenceUrl": "https://sds.cuhk.edu.cn/teacher/627",
+      "evidenceExcerpt": "研究领域 近似动态规划、随机模型 电子邮箱 zhangjingwei@cuhk.edu.cn 办公室 道远楼502b 个人简介 张经纬教授现任香港中文大学（深圳）数据科学学院助理教授。张教授于2018年获得新加坡国立大学理学及社会科学学士学位，之后获得杜克大学决策科学博士学位。张教授的研究兴趣包括近似动态规划的理论及应用。 学术著作 Brown, D.B., J. Zhang. 2022. On the strength of relaxations of weakly coupled stochastic dynamic programs. Operations Research , to appear. Brown, D.B., J. Zhang. 2021. Dynamic programs with shared resources and signals: dynamic fluid policies and asymptotic optimality. Operations Research , to appear. 地址： 广东省深圳市龙岗区龙翔大道2001号道远楼3-6"
+    },
+    {
+      "officialId": "2431",
+      "name": "张祎",
+      "title": "助理教授",
+      "officialSections": [
+        "师资检索全部"
+      ],
+      "profileUrl": "https://sds.cuhk.edu.cn/teacher/2431",
+      "portraitUrl": "https://sds.cuhk.edu.cn/sites/default/files/styles/w1200/public/2026-07/Yi_Zhang_SDS_headshot_business_casual_over2MB.jpg?itok=ce6lmSJ5",
+      "sourcePageUrl": "https://sds.cuhk.edu.cn/teacher-search",
+      "officialRosterUrl": "https://sds.cuhk.edu.cn/teacher-search",
+      "profileChecked": true,
+      "decision": "include_new_pi",
+      "reason": "官方数据科学学院名录和个人页确认其为教授、副教授、研究员或可独立招生导师；该单位研究主线属于 AI、数据科学及相关智能计算范围。",
+      "evidenceUrl": "https://sds.cuhk.edu.cn/teacher/2431",
+      "evidenceExcerpt": "助理教授 | 师资检索全部 | 复杂数据的可靠统计推断、时间序列分析、高维统计、函数型与对象值数据分析、变点检测、条件独立检验、生成式神经网络辅助统计推断、非参数推断 | 伊利诺伊大学厄巴纳-香槟分校博士 研究方向为复杂数据的可靠统计推断，重点关注时间序列数据、高维数据、函数型数据、对象值数据和图像数据中的统计推断问题。他的研究发展了免带宽推断、样本分割、自标准化、变点检测、条件独立检验以及生成式神经网络辅助统计推断等方法。其研究成果发表于或录用于 Journal of the Royal"
+    },
+    {
+      "officialId": "57",
+      "name": "张寅",
+      "title": "校长讲座教授",
+      "officialSections": [
+        "师资检索全部"
+      ],
+      "profileUrl": "https://sds.cuhk.edu.cn/teacher/57",
+      "portraitUrl": "https://sds.cuhk.edu.cn/sites/default/files/styles/w1200/public/2025-09/1758101403240.png?itok=3UGQj6ZS",
+      "sourcePageUrl": "https://sds.cuhk.edu.cn/teacher-search",
+      "officialRosterUrl": "https://sds.cuhk.edu.cn/teacher-search",
+      "profileChecked": true,
+      "decision": "include_new_pi",
+      "reason": "官方数据科学学院名录和个人页确认其为教授、副教授、研究员或可独立招生导师；该单位研究主线属于 AI、数据科学及相关智能计算范围。",
+      "evidenceUrl": "https://sds.cuhk.edu.cn/teacher/57",
+      "evidenceExcerpt": "校长讲座教授 | 师资检索全部 | 最优化算法的设计分析以及数值实现、最优化算法在各领域的应用，特别是在数据科学、图像与信号处理、机器学习等领域的应用 | 纽约州立大学石溪分校博士 / SIAM会士 研究领域 最优化算法的设计分析以及数值实现、最优化算法在各领域的应用，特别是在数据科学、图像与信号处理、机器学习等领域的应用 个人网站 https://www.caam.rice.edu/~zhang/ 电子邮箱 yinzhang@cuhk.edu.cn 办公室 道远楼6"
+    },
+    {
+      "officialId": "629",
+      "name": "张云翼",
+      "title": "助理教授",
+      "officialSections": [
+        "师资检索全部"
+      ],
+      "profileUrl": "https://sds.cuhk.edu.cn/teacher/629",
+      "portraitUrl": "https://sds.cuhk.edu.cn/sites/default/files/styles/w1200/public/2024-05/%E8%AF%81%E4%BB%B6%E7%85%A7_0.jpg?itok=N-jETGNo",
+      "sourcePageUrl": "https://sds.cuhk.edu.cn/teacher-search",
+      "officialRosterUrl": "https://sds.cuhk.edu.cn/teacher-search",
+      "profileChecked": true,
+      "decision": "excluded_non_ai_cs",
+      "reason": "已检查官方个人页及名录字段，公开研究主线未显示 AI、NLP、CV、ML、数据智能、机器人或本图谱紧密相邻方向。",
+      "evidenceUrl": "https://sds.cuhk.edu.cn/teacher/629",
+      "evidenceExcerpt": "研究领域 时间序列分析、重抽样方法、高维数据分析及无参数统计 个人网站 https://yunyipersonal.github.io/ 电子邮箱 zhangyunyi@cuhk.edu.cn 办公室 道远楼320b 个人简介 张云翼教授现任香港中文大学（深圳）数据科学学院助理教授，此前他在加利福尼亚大学圣迭戈分校获得数学博士学位。他曾在一些统计学顶级期刊上发表文章，如 Annals of Statistics。他曾任 Journal of Time Series Analysis 杂志审稿人。 学术著作 Journal articles 1. Y.Zhang and D.N. Politis, 'Bootstrap prediction intervals with asymptotic conditional validity and unconditional guarantees', to appear in Information and Inference: A Journal of the IMA in 2022. 2. Y.Zhang and D.N. Politis,"
+    },
+    {
+      "officialId": "2244",
+      "name": "甄耀明",
+      "title": "助理教授",
+      "officialSections": [
+        "师资检索全部"
+      ],
+      "profileUrl": "https://sds.cuhk.edu.cn/teacher/2244",
+      "portraitUrl": "https://sds.cuhk.edu.cn/sites/default/files/styles/w1200/public/2025-09/1758100652832.png?itok=4iwkrd-V",
+      "sourcePageUrl": "https://sds.cuhk.edu.cn/teacher-search",
+      "officialRosterUrl": "https://sds.cuhk.edu.cn/teacher-search",
+      "profileChecked": true,
+      "decision": "include_new_pi",
+      "reason": "官方数据科学学院名录和个人页确认其为教授、副教授、研究员或可独立招生导师；该单位研究主线属于 AI、数据科学及相关智能计算范围。",
+      "evidenceUrl": "https://sds.cuhk.edu.cn/teacher/2244",
+      "evidenceExcerpt": "Qiang Sun。 甄博士是香港博士研究生奖学金计划(HKPFS)的获奖者，并于2023年在Junhui Wang的指导下获得香港城市大学数据科学方向的博士学位。 在2019年，他获得中山大学逸仙学院和数学学院数学专业的理学学士学位。 此外， 在2022年秋天到2023年春天以及2018年春天， 他分别以访问学生研究员和伯克利国际学习计划参与者的身份访问了加州大学伯克利分校。甄博士的研究主要聚焦于基于张量的统计机器学习，进而关联到反事实推断，计数过程， 差分隐私， 图模型，高阶网络建模，和迁移学习。"
+    },
+    {
+      "officialId": "2085",
+      "name": "周觉晓",
+      "title": "助理教授",
+      "officialSections": [
+        "师资检索全部"
+      ],
+      "profileUrl": "https://sds.cuhk.edu.cn/teacher/2085",
+      "portraitUrl": "https://sds.cuhk.edu.cn/sites/default/files/styles/w1200/public/2025-09/1758101417297.png?itok=6OzfTRi0",
+      "sourcePageUrl": "https://sds.cuhk.edu.cn/teacher-search",
+      "officialRosterUrl": "https://sds.cuhk.edu.cn/teacher-search",
+      "profileChecked": true,
+      "decision": "include_new_pi",
+      "reason": "官方数据科学学院名录和个人页确认其为教授、副教授、研究员或可独立招生导师；该单位研究主线属于 AI、数据科学及相关智能计算范围。",
+      "evidenceUrl": "https://sds.cuhk.edu.cn/teacher/2085",
+      "evidenceExcerpt": "助理教授 | 师资检索全部 | 人工智能驱动的智慧医疗、生物信息学、计算生物学、隐私和安全、自然语言处理 | 阿卜杜拉国王科技大学博士 研究领域 人工智能驱动的智慧医疗、生物信息学、计算生物学、隐私和安全、自然语言处理 个人网站 https://www.joshuachou.ink/about/ 电子邮箱 juexiaozhou@cuhk.edu.cn 办公室 知新楼 403b 个人简介 周觉晓教"
+    },
+    {
+      "officialId": "2375",
+      "name": "纵蔚",
+      "title": "助理教授（教学）",
+      "officialSections": [
+        "师资检索全部"
+      ],
+      "profileUrl": "https://sds.cuhk.edu.cn/teacher/2375",
+      "portraitUrl": "https://sds.cuhk.edu.cn/sites/default/files/styles/w1200/public/2026-04/IMG_8728.jpeg?itok=F9QY8t4b",
+      "sourcePageUrl": "https://sds.cuhk.edu.cn/teacher-search",
+      "officialRosterUrl": "https://sds.cuhk.edu.cn/teacher-search",
+      "profileChecked": true,
+      "decision": "include_new_pi",
+      "reason": "官方数据科学学院名录和个人页确认其为教授、副教授、研究员或可独立招生导师；该单位研究主线属于 AI、数据科学及相关智能计算范围。",
+      "evidenceUrl": "https://sds.cuhk.edu.cn/teacher/2375",
+      "evidenceExcerpt": "助理教授（教学） | 师资检索全部 | 生物统计学、生物信息学、统计机器学习、高维数据分析 | 匹兹堡大学博士 研究领域 生物统计学、生物信息学、统计机器学习、高维数据分析 个人网站 https://weiiizong.github.io/ 电子邮箱 weizong@cuhk.edu.cn 个人简介 纵蔚于 2012 年获赫瑞瓦特大学与西南财经大学双学士学位， 2017 年获剑桥大学数学统计学硕士学位， 2023 年"
+    }
+  ]
+}

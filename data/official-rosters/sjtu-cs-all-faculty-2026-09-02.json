@@ -1,0 +1,4158 @@
+{
+  "completeness": "complete",
+  "fetchedAt": "2026-09-02",
+  "institution": "Shanghai Jiao Tong University School of Computer Science (School of Cyber Science and Engineering; School of Cryptography)",
+  "officialPageUrl": "https://www.cs.sjtu.edu.cn/jiaoshiml.html",
+  "officialDataUrl": "https://www.cs.sjtu.edu.cn/active/ajax_teacher_list.html",
+  "officialRosterCount": 412,
+  "officialSectionCardCounts": {
+    "教师名录（跨研究所原始成员关系）": 308,
+    "教师名录（唯一人物）": 289,
+    "兼职和双聘教师": 9,
+    "退休教师": 115
+  },
+  "overlapAcrossSections": 1,
+  "sourceDescription": "The official current faculty directory was retrieved through its public grouped-directory endpoint with type=1, which returns all institute groups without pagination. The official visiting/dual/guest and retired-faculty pages were also captured. The visiting/dual/guest extraction is restricted to each official name-list container so footer QR-code and regulatory links are not counted. Institute memberships, appointment categories, and retirement years are preserved; repeated official profile IDs and exact names across categories are merged for a unique-person total.",
+  "people": [
+    {
+      "officialId": "zangbinyu",
+      "name": "臧斌宇",
+      "officialSections": [
+        "教师名录 — 并行与分布式系统研究所"
+      ],
+      "title": "",
+      "profileUrl": "https://www.cs.sjtu.edu.cn/jiaoshiml/zangbinyu.html",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "chenrong",
+      "name": "陈榕",
+      "officialSections": [
+        "教师名录 — 并行与分布式系统研究所"
+      ],
+      "title": "",
+      "profileUrl": "https://www.cs.sjtu.edu.cn/jiaoshiml/chenrong.html",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "chenhaibo",
+      "name": "陈海波",
+      "officialSections": [
+        "教师名录 — 并行与分布式系统研究所"
+      ],
+      "title": "",
+      "profileUrl": "https://www.cs.sjtu.edu.cn/jiaoshiml/chenhaibo.html",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "dongmingkai",
+      "name": "董明凯",
+      "officialSections": [
+        "教师名录 — 并行与分布式系统研究所"
+      ],
+      "title": "",
+      "profileUrl": "https://www.cs.sjtu.edu.cn/jiaoshiml/dongmingkai.html",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "dudongdong",
+      "name": "杜冬冬",
+      "officialSections": [
+        "教师名录 — 并行与分布式系统研究所"
+      ],
+      "title": "",
+      "profileUrl": "https://www.cs.sjtu.edu.cn/jiaoshiml/dudongdong.html",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "gujinyu",
+      "name": "古金宇",
+      "officialSections": [
+        "教师名录 — 并行与分布式系统研究所"
+      ],
+      "title": "",
+      "profileUrl": "https://www.cs.sjtu.edu.cn/jiaoshiml/gujinyu.html",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "huazhichao",
+      "name": "华志超",
+      "officialSections": [
+        "教师名录 — 并行与分布式系统研究所"
+      ],
+      "title": "",
+      "profileUrl": "https://www.cs.sjtu.edu.cn/jiaoshiml/huazhichao.html",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "mizeyu",
+      "name": "糜泽羽",
+      "officialSections": [
+        "教师名录 — 并行与分布式系统研究所"
+      ],
+      "title": "",
+      "profileUrl": "https://www.cs.sjtu.edu.cn/jiaoshiml/mizeyu.html",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "wangzhaoguo",
+      "name": "王肇国",
+      "officialSections": [
+        "教师名录 — 并行与分布式系统研究所"
+      ],
+      "title": "",
+      "profileUrl": "https://www.cs.sjtu.edu.cn/jiaoshiml/wangzhaoguo.html",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "weixingda",
+      "name": "魏星达",
+      "officialSections": [
+        "教师名录 — 并行与分布式系统研究所"
+      ],
+      "title": "",
+      "profileUrl": "https://www.cs.sjtu.edu.cn/jiaoshiml/weixingda.html",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "wumingyu",
+      "name": "吴明瑜",
+      "officialSections": [
+        "教师名录 — 并行与分布式系统研究所"
+      ],
+      "title": "",
+      "profileUrl": "https://www.cs.sjtu.edu.cn/jiaoshiml/wumingyu.html",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "xiayubin",
+      "name": "夏虞斌",
+      "officialSections": [
+        "教师名录 — 并行与分布式系统研究所"
+      ],
+      "title": "",
+      "profileUrl": "https://www.cs.sjtu.edu.cn/jiaoshiml/xiayubin.html",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "yaoxujia",
+      "name": "姚旭佳",
+      "officialSections": [
+        "教师名录 — 并行与分布式系统研究所"
+      ],
+      "title": "",
+      "profileUrl": "https://www.cs.sjtu.edu.cn/jiaoshiml/yaoxujia.html",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "yuyang",
+      "name": "余炀",
+      "officialSections": [
+        "教师名录 — 并行与分布式系统研究所"
+      ],
+      "title": "",
+      "profileUrl": "https://www.cs.sjtu.edu.cn/jiaoshiml/yuyang.html",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "yukai",
+      "name": "俞凯",
+      "officialSections": [
+        "教师名录 — 机器智能研究所"
+      ],
+      "title": "",
+      "profileUrl": "https://www.cs.sjtu.edu.cn/jiaoshiml/yukai.html",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "yaobin",
+      "name": "姚斌",
+      "officialSections": [
+        "教师名录 — 机器智能研究所"
+      ],
+      "title": "",
+      "profileUrl": "https://www.cs.sjtu.edu.cn/jiaoshiml/yaobin.html",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "chenlu",
+      "name": "陈露",
+      "officialSections": [
+        "教师名录 — 机器智能研究所"
+      ],
+      "title": "",
+      "profileUrl": "https://www.cs.sjtu.edu.cn/jiaoshiml/chenlu.html",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "chenxie",
+      "name": "陈谐",
+      "officialSections": [
+        "教师名录 — 机器智能研究所"
+      ],
+      "title": "",
+      "profileUrl": "https://www.cs.sjtu.edu.cn/jiaoshiml/chenxie.html",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "niuli",
+      "name": "牛力",
+      "officialSections": [
+        "教师名录 — 机器智能研究所"
+      ],
+      "title": "",
+      "profileUrl": "https://www.cs.sjtu.edu.cn/jiaoshiml/niuli.html",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "shenliping",
+      "name": "申丽萍",
+      "officialSections": [
+        "教师名录 — 机器智能研究所"
+      ],
+      "title": "",
+      "profileUrl": "https://www.cs.sjtu.edu.cn/jiaoshiml/shenliping.html",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "wumengyue",
+      "name": "吴梦玥",
+      "officialSections": [
+        "教师名录 — 机器智能研究所"
+      ],
+      "title": "",
+      "profileUrl": "https://www.cs.sjtu.edu.cn/jiaoshiml/wumengyue.html",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "wuxiaobao",
+      "name": "吴小宝",
+      "officialSections": [
+        "教师名录 — 机器智能研究所"
+      ],
+      "title": "",
+      "profileUrl": "https://www.cs.sjtu.edu.cn/jiaoshiml/wuxiaobao.html",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "zhangjianfu",
+      "name": "张健夫",
+      "officialSections": [
+        "教师名录 — 机器智能研究所",
+        "教师名录 — 清源研究院"
+      ],
+      "title": "",
+      "profileUrl": "https://www.cs.sjtu.edu.cn/jiaoshiml/zhangjianfu.html",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "zhangliqing",
+      "name": "张丽清",
+      "officialSections": [
+        "教师名录 — 机器智能研究所"
+      ],
+      "title": "",
+      "profileUrl": "https://www.cs.sjtu.edu.cn/jiaoshiml/zhangliqing.html",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "zhangquanshi",
+      "name": "张拳石",
+      "officialSections": [
+        "教师名录 — 机器智能研究所"
+      ],
+      "title": "",
+      "profileUrl": "https://www.cs.sjtu.edu.cn/jiaoshiml/zhangquanshi.html",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "zhaohaohua",
+      "name": "招浩华",
+      "officialSections": [
+        "教师名录 — 机器智能研究所"
+      ],
+      "title": "",
+      "profileUrl": "https://www.cs.sjtu.edu.cn/jiaoshiml/zhaohaohua.html",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "malizhuang",
+      "name": "马利庄",
+      "officialSections": [
+        "教师名录 — 计算机应用研究所"
+      ],
+      "title": "",
+      "profileUrl": "https://www.cs.sjtu.edu.cn/jiaoshiml/malizhuang.html",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "zhangweinan",
+      "name": "张伟楠",
+      "officialSections": [
+        "教师名录 — 计算机应用研究所"
+      ],
+      "title": "",
+      "profileUrl": "https://www.cs.sjtu.edu.cn/jiaoshiml/zhangweinan.html",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "lichenda",
+      "name": "李晨达",
+      "officialSections": [
+        "教师名录 — 计算机应用研究所"
+      ],
+      "title": "",
+      "profileUrl": "https://www.cs.sjtu.edu.cn/jiaoshiml/lichenda.html",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "liuweiwen",
+      "name": "刘卫文",
+      "officialSections": [
+        "教师名录 — 计算机应用研究所",
+        "教师名录 — 约翰·霍普克罗夫特计算机科学中心"
+      ],
+      "title": "",
+      "profileUrl": "https://www.cs.sjtu.edu.cn/jiaoshiml/liuweiwen.html",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "liwei",
+      "name": "李伟",
+      "officialSections": [
+        "教师名录 — 计算机应用研究所",
+        "教师名录 — 约翰·霍普克罗夫特计算机科学中心"
+      ],
+      "title": "",
+      "profileUrl": "https://www.cs.sjtu.edu.cn/jiaoshiml/liwei.html",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "panye",
+      "name": "潘烨",
+      "officialSections": [
+        "教师名录 — 计算机应用研究所",
+        "教师名录 — 约翰·霍普克罗夫特计算机科学中心"
+      ],
+      "title": "",
+      "profileUrl": "https://www.cs.sjtu.edu.cn/jiaoshiml/panye.html",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "qianyanmin",
+      "name": "钱彦旻",
+      "officialSections": [
+        "教师名录 — 计算机应用研究所"
+      ],
+      "title": "",
+      "profileUrl": "https://www.cs.sjtu.edu.cn/jiaoshiml/qianyanmin.html",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "shengbin",
+      "name": "盛斌",
+      "officialSections": [
+        "教师名录 — 计算机应用研究所"
+      ],
+      "title": "",
+      "profileUrl": "https://www.cs.sjtu.edu.cn/jiaoshiml/shengbin.html",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "yiran",
+      "name": "易冉",
+      "officialSections": [
+        "教师名录 — 计算机应用研究所"
+      ],
+      "title": "",
+      "profileUrl": "https://www.cs.sjtu.edu.cn/jiaoshiml/yiran.html",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "yuyong",
+      "name": "俞勇",
+      "officialSections": [
+        "教师名录 — 计算机应用研究所"
+      ],
+      "title": "",
+      "profileUrl": "https://www.cs.sjtu.edu.cn/jiaoshiml/yuyong.html",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "qizhengwei",
+      "name": "戚正伟",
+      "officialSections": [
+        "教师名录 — 可扩展计算研究所"
+      ],
+      "title": "",
+      "profileUrl": "https://www.cs.sjtu.edu.cn/jiaoshiml/qizhengwei.html",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "jiangli",
+      "name": "蒋力",
+      "officialSections": [
+        "教师名录 — 可扩展计算研究所"
+      ],
+      "title": "",
+      "profileUrl": "https://www.cs.sjtu.edu.cn/jiaoshiml/jiangli.html",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "lijian",
+      "name": "李健",
+      "officialSections": [
+        "教师名录 — 可扩展计算研究所"
+      ],
+      "title": "",
+      "profileUrl": "https://www.cs.sjtu.edu.cn/jiaoshiml/lijian.html",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "guanhaibing",
+      "name": "管海兵",
+      "officialSections": [
+        "教师名录 — 可扩展计算研究所",
+        "教师名录 — 交叉前沿研究所"
+      ],
+      "title": "",
+      "profileUrl": "https://www.cs.sjtu.edu.cn/jiaoshiml/guanhaibing.html",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "guxiaodong",
+      "name": "顾小东",
+      "officialSections": [
+        "教师名录 — 可扩展计算研究所"
+      ],
+      "title": "",
+      "profileUrl": "https://www.cs.sjtu.edu.cn/jiaoshiml/guxiaodong.html",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "liangxiaoyao",
+      "name": "梁晓峣",
+      "officialSections": [
+        "教师名录 — 可扩展计算研究所"
+      ],
+      "title": "",
+      "profileUrl": "https://www.cs.sjtu.edu.cn/jiaoshiml/liangxiaoyao.html",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "liufangxin",
+      "name": "刘方鑫",
+      "officialSections": [
+        "教师名录 — 可扩展计算研究所"
+      ],
+      "title": "",
+      "profileUrl": "https://www.cs.sjtu.edu.cn/jiaoshiml/liufangxin.html",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "lixijun",
+      "name": "李希君",
+      "officialSections": [
+        "教师名录 — 可扩展计算研究所"
+      ],
+      "title": "",
+      "profileUrl": "https://www.cs.sjtu.edu.cn/jiaoshiml/lixijun.html",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "maruhui",
+      "name": "马汝辉",
+      "officialSections": [
+        "教师名录 — 可扩展计算研究所"
+      ],
+      "title": "",
+      "profileUrl": "https://www.cs.sjtu.edu.cn/jiaoshiml/maruhui.html",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "pengbo",
+      "name": "彭博",
+      "officialSections": [
+        "教师名录 — 可扩展计算研究所"
+      ],
+      "title": "",
+      "profileUrl": "https://www.cs.sjtu.edu.cn/jiaoshiml/pengbo.html",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "songtao",
+      "name": "宋涛",
+      "officialSections": [
+        "教师名录 — 可扩展计算研究所"
+      ],
+      "title": "",
+      "profileUrl": "https://www.cs.sjtu.edu.cn/jiaoshiml/songtao.html",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "songzhuoran",
+      "name": "宋卓然",
+      "officialSections": [
+        "教师名录 — 可扩展计算研究所"
+      ],
+      "title": "",
+      "profileUrl": "https://www.cs.sjtu.edu.cn/jiaoshiml/songzhuoran.html",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "yaojianguo",
+      "name": "姚建国",
+      "officialSections": [
+        "教师名录 — 可扩展计算研究所"
+      ],
+      "title": "",
+      "profileUrl": "https://www.cs.sjtu.edu.cn/jiaoshiml/yaojianguo.html",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "caihongming",
+      "name": "蔡鸿明",
+      "officialSections": [
+        "教师名录 — 空间智能软件研究所"
+      ],
+      "title": "",
+      "profileUrl": "https://www.cs.sjtu.edu.cn/jiaoshiml/caihongming.html",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "yangxubo",
+      "name": "杨旭波",
+      "officialSections": [
+        "教师名录 — 空间智能软件研究所"
+      ],
+      "title": "",
+      "profileUrl": "https://www.cs.sjtu.edu.cn/jiaoshiml/yangxubo.html",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "chenhaopeng",
+      "name": "陈昊鹏",
+      "officialSections": [
+        "教师名录 — 空间智能软件研究所"
+      ],
+      "title": "",
+      "profileUrl": "https://www.cs.sjtu.edu.cn/jiaoshiml/chenhaopeng.html",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "guilin",
+      "name": "归琳",
+      "officialSections": [
+        "教师名录 — 空间智能软件研究所"
+      ],
+      "title": "",
+      "profileUrl": "https://www.cs.sjtu.edu.cn/jiaoshiml/guilin.html",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "hupan",
+      "name": "胡畔",
+      "officialSections": [
+        "教师名录 — 空间智能软件研究所"
+      ],
+      "title": "",
+      "profileUrl": "https://www.cs.sjtu.edu.cn/jiaoshiml/hupan.html",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "jianglihong",
+      "name": "姜丽红",
+      "officialSections": [
+        "教师名录 — 空间智能软件研究所"
+      ],
+      "title": "",
+      "profileUrl": "https://www.cs.sjtu.edu.cn/jiaoshiml/jianglihong.html",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "lijingjing",
+      "name": "李晶晶",
+      "officialSections": [
+        "教师名录 — 空间智能软件研究所"
+      ],
+      "title": "",
+      "profileUrl": "https://www.cs.sjtu.edu.cn/jiaoshiml/lijingjing.html",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "renrui",
+      "name": "任锐",
+      "officialSections": [
+        "教师名录 — 空间智能软件研究所"
+      ],
+      "title": "",
+      "profileUrl": "https://www.cs.sjtu.edu.cn/jiaoshiml/renrui.html",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "xiaoshuangjiu",
+      "name": "肖双九",
+      "officialSections": [
+        "教师名录 — 空间智能软件研究所"
+      ],
+      "title": "",
+      "profileUrl": "https://www.cs.sjtu.edu.cn/jiaoshiml/xiaoshuangjiu.html",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "yingkai",
+      "name": "应凯",
+      "officialSections": [
+        "教师名录 — 空间智能软件研究所"
+      ],
+      "title": "",
+      "profileUrl": "https://www.cs.sjtu.edu.cn/jiaoshiml/yingkai.html",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "yuhan",
+      "name": "于晗",
+      "officialSections": [
+        "教师名录 — 空间智能软件研究所"
+      ],
+      "title": "",
+      "profileUrl": "https://www.cs.sjtu.edu.cn/jiaoshiml/yuhan.html",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "chenyijia",
+      "name": "陈翌佳",
+      "officialSections": [
+        "教师名录 — 理论计算机科学研究所"
+      ],
+      "title": "",
+      "profileUrl": "https://www.cs.sjtu.edu.cn/jiaoshiml/chenyijia.html",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "dongxiaoju",
+      "name": "董笑菊",
+      "officialSections": [
+        "教师名录 — 理论计算机科学研究所"
+      ],
+      "title": "",
+      "profileUrl": "https://www.cs.sjtu.edu.cn/jiaoshiml/dongxiaoju.html",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "fuyuxi",
+      "name": "傅育熙",
+      "officialSections": [
+        "教师名录 — 理论计算机科学研究所"
+      ],
+      "title": "",
+      "profileUrl": "https://www.cs.sjtu.edu.cn/jiaoshiml/fuyuxi.html",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "liusixue",
+      "name": "刘思学",
+      "officialSections": [
+        "教师名录 — 理论计算机科学研究所",
+        "教师名录 — 约翰·霍普克罗夫特计算机科学中心"
+      ],
+      "title": "",
+      "profileUrl": "https://www.cs.sjtu.edu.cn/jiaoshiml/liusixue.html",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "longhuan",
+      "name": "龙环",
+      "officialSections": [
+        "教师名录 — 理论计算机科学研究所"
+      ],
+      "title": "",
+      "profileUrl": "https://www.cs.sjtu.edu.cn/jiaoshiml/longhuan.html",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "taobiaoshuai",
+      "name": "陶表帅",
+      "officialSections": [
+        "教师名录 — 理论计算机科学研究所",
+        "教师名录 — 约翰·霍普克罗夫特计算机科学中心"
+      ],
+      "title": "",
+      "profileUrl": "https://www.cs.sjtu.edu.cn/jiaoshiml/taobiaoshuai.html",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "wangqisheng",
+      "name": "王启圣",
+      "officialSections": [
+        "教师名录 — 理论计算机科学研究所"
+      ],
+      "title": "",
+      "profileUrl": "https://www.cs.sjtu.edu.cn/jiaoshiml/wangqisheng.html",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "wangyuting",
+      "name": "汪宇霆",
+      "officialSections": [
+        "教师名录 — 理论计算机科学研究所",
+        "教师名录 — 约翰·霍普克罗夫特计算机科学中心"
+      ],
+      "title": "",
+      "profileUrl": "https://www.cs.sjtu.edu.cn/jiaoshiml/wangyuting.html",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "yangkuan",
+      "name": "杨宽",
+      "officialSections": [
+        "教师名录 — 理论计算机科学研究所",
+        "教师名录 — 约翰·霍普克罗夫特计算机科学中心"
+      ],
+      "title": "",
+      "profileUrl": "https://www.cs.sjtu.edu.cn/jiaoshiml/yangkuan.html",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "yinqiang",
+      "name": "尹强",
+      "officialSections": [
+        "教师名录 — 理论计算机科学研究所"
+      ],
+      "title": "",
+      "profileUrl": "https://www.cs.sjtu.edu.cn/jiaoshiml/yinqiang.html",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "zhangchihao",
+      "name": "张驰豪",
+      "officialSections": [
+        "教师名录 — 理论计算机科学研究所",
+        "教师名录 — 约翰·霍普克罗夫特计算机科学中心"
+      ],
+      "title": "",
+      "profileUrl": "https://www.cs.sjtu.edu.cn/jiaoshiml/zhangchihao.html",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "zhangyuhao",
+      "name": "张宇昊",
+      "officialSections": [
+        "教师名录 — 理论计算机科学研究所",
+        "教师名录 — 约翰·霍普克罗夫特计算机科学中心"
+      ],
+      "title": "",
+      "profileUrl": "https://www.cs.sjtu.edu.cn/jiaoshiml/zhangyuhao.html",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "zhuhaojin",
+      "name": "朱浩瑾",
+      "officialSections": [
+        "教师名录 — 人工智能与认知安全研究所"
+      ],
+      "title": "",
+      "profileUrl": "https://www.cs.sjtu.edu.cn/jiaoshiml/zhuhaojin.html",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "liugongshen",
+      "name": "刘功申",
+      "officialSections": [
+        "教师名录 — 人工智能与认知安全研究所"
+      ],
+      "title": "",
+      "profileUrl": "https://www.cs.sjtu.edu.cn/jiaoshiml/liugongshen.html",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "xuke",
+      "name": "许可",
+      "officialSections": [
+        "教师名录 — 人工智能与认知安全研究所"
+      ],
+      "title": "",
+      "profileUrl": "https://www.cs.sjtu.edu.cn/jiaoshiml/xuke.html",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "chenguoxing",
+      "name": "陈国兴",
+      "officialSections": [
+        "教师名录 — 人工智能与认知安全研究所"
+      ],
+      "title": "",
+      "profileUrl": "https://www.cs.sjtu.edu.cn/jiaoshiml/chenguoxing.html",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "duansufeng",
+      "name": "段苏峰",
+      "officialSections": [
+        "教师名录 — 人工智能与认知安全研究所"
+      ],
+      "title": "",
+      "profileUrl": "https://www.cs.sjtu.edu.cn/jiaoshiml/duansufeng.html",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "hezhezhi",
+      "name": "何哲陟",
+      "officialSections": [
+        "教师名录 — 人工智能与认知安全研究所"
+      ],
+      "title": "",
+      "profileUrl": "https://www.cs.sjtu.edu.cn/jiaoshiml/hezhezhi.html",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "huanglinqing",
+      "name": "黄林庆",
+      "officialSections": [
+        "教师名录 — 人工智能与认知安全研究所"
+      ],
+      "title": "",
+      "profileUrl": "https://www.cs.sjtu.edu.cn/jiaoshiml/huanglinqing.html",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "jiangxinghao",
+      "name": "蒋兴浩",
+      "officialSections": [
+        "教师名录 — 人工智能与认知安全研究所"
+      ],
+      "title": "",
+      "profileUrl": "https://www.cs.sjtu.edu.cn/jiaoshiml/jiangxinghao.html",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "mengyan",
+      "name": "孟岩",
+      "officialSections": [
+        "教师名录 — 人工智能与认知安全研究所"
+      ],
+      "title": "",
+      "profileUrl": "https://www.cs.sjtu.edu.cn/jiaoshiml/mengyan.html",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "suntanfeng",
+      "name": "孙锬锋",
+      "officialSections": [
+        "教师名录 — 人工智能与认知安全研究所"
+      ],
+      "title": "",
+      "profileUrl": "https://www.cs.sjtu.edu.cn/jiaoshiml/suntanfeng.html",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "wangshilin",
+      "name": "王士林",
+      "officialSections": [
+        "教师名录 — 人工智能与认知安全研究所"
+      ],
+      "title": "",
+      "profileUrl": "https://www.cs.sjtu.edu.cn/jiaoshiml/wangshilin.html",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "xuqiang",
+      "name": "许强",
+      "officialSections": [
+        "教师名录 — 人工智能与认知安全研究所"
+      ],
+      "title": "",
+      "profileUrl": "https://www.cs.sjtu.edu.cn/jiaoshiml/xuqiang.html",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "zhangyuanyuan",
+      "name": "张媛媛",
+      "officialSections": [
+        "教师名录 — 人工智能与认知安全研究所"
+      ],
+      "title": "",
+      "profileUrl": "https://www.cs.sjtu.edu.cn/jiaoshiml/zhangyuanyuan.html",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "zhangyueguo",
+      "name": "张月国",
+      "officialSections": [
+        "教师名录 — 人工智能与认知安全研究所"
+      ],
+      "title": "",
+      "profileUrl": "https://www.cs.sjtu.edu.cn/jiaoshiml/zhangyueguo.html",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "zhangzhuosheng",
+      "name": "张倬胜",
+      "officialSections": [
+        "教师名录 — 人工智能与认知安全研究所"
+      ],
+      "title": "",
+      "profileUrl": "https://www.cs.sjtu.edu.cn/jiaoshiml/zhangzhuosheng.html",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "zhaohai",
+      "name": "赵海",
+      "officialSections": [
+        "教师名录 — 通用人工智能研究所"
+      ],
+      "title": "",
+      "profileUrl": "https://www.cs.sjtu.edu.cn/jiaoshiml/zhaohai.html",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "yangyang",
+      "name": "杨旸",
+      "officialSections": [
+        "教师名录 — 通用人工智能研究所"
+      ],
+      "title": "",
+      "profileUrl": "https://www.cs.sjtu.edu.cn/jiaoshiml/yangyang.html",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "chenyuquan",
+      "name": "陈玉泉",
+      "officialSections": [
+        "教师名录 — 通用人工智能研究所"
+      ],
+      "title": "",
+      "profileUrl": "https://www.cs.sjtu.edu.cn/jiaoshiml/chenyuquan.html",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "dingyue",
+      "name": "丁玥",
+      "officialSections": [
+        "教师名录 — 通用人工智能研究所"
+      ],
+      "title": "",
+      "profileUrl": "https://www.cs.sjtu.edu.cn/jiaoshiml/dingyue.html",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "hongyi",
+      "name": "洪义",
+      "officialSections": [
+        "教师名录 — 通用人工智能研究所"
+      ],
+      "title": "",
+      "profileUrl": "https://www.cs.sjtu.edu.cn/jiaoshiml/hongyi.html",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "kejing",
+      "name": "柯晶",
+      "officialSections": [
+        "教师名录 — 通用人工智能研究所"
+      ],
+      "title": "",
+      "profileUrl": "https://www.cs.sjtu.edu.cn/jiaoshiml/kejing.html",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "luhongtao",
+      "name": "卢宏涛",
+      "officialSections": [
+        "教师名录 — 通用人工智能研究所"
+      ],
+      "title": "",
+      "profileUrl": "https://www.cs.sjtu.edu.cn/jiaoshiml/luhongtao.html",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "lyubaoliang",
+      "name": "吕宝粮",
+      "officialSections": [
+        "教师名录 — 通用人工智能研究所"
+      ],
+      "title": "",
+      "profileUrl": "https://www.cs.sjtu.edu.cn/jiaoshiml/lyubaoliang.html",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "suruidan",
+      "name": "苏锐丹",
+      "officialSections": [
+        "教师名录 — 通用人工智能研究所"
+      ],
+      "title": "",
+      "profileUrl": "https://www.cs.sjtu.edu.cn/jiaoshiml/suruidan.html",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "tushikui",
+      "name": "涂仕奎",
+      "officialSections": [
+        "教师名录 — 通用人工智能研究所"
+      ],
+      "title": "",
+      "profileUrl": "https://www.cs.sjtu.edu.cn/jiaoshiml/tushikui.html",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "wangrui",
+      "name": "王瑞",
+      "officialSections": [
+        "教师名录 — 通用人工智能研究所"
+      ],
+      "title": "",
+      "profileUrl": "https://www.cs.sjtu.edu.cn/jiaoshiml/wangrui.html",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "z",
+      "name": "朱开元",
+      "officialSections": [
+        "教师名录 — 通用人工智能研究所"
+      ],
+      "title": "",
+      "profileUrl": "https://www.cs.sjtu.edu.cn/jiaoshiml/z.html",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "zhengweilong",
+      "name": "郑伟龙",
+      "officialSections": [
+        "教师名录 — 通用人工智能研究所"
+      ],
+      "title": "",
+      "profileUrl": "https://www.cs.sjtu.edu.cn/jiaoshiml/zhengweilong.html",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "qiuweidong",
+      "name": "邱卫东",
+      "officialSections": [
+        "教师名录 — 网络空间安全研究所"
+      ],
+      "title": "",
+      "profileUrl": "https://www.cs.sjtu.edu.cn/jiaoshiml/qiuweidong.html",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "ligaolei",
+      "name": "李高磊",
+      "officialSections": [
+        "教师名录 — 网络空间安全研究所"
+      ],
+      "title": "",
+      "profileUrl": "https://www.cs.sjtu.edu.cn/jiaoshiml/ligaolei.html",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "chenlixing",
+      "name": "陈黎兴",
+      "officialSections": [
+        "教师名录 — 网络空间安全研究所"
+      ],
+      "title": "",
+      "profileUrl": "https://www.cs.sjtu.edu.cn/jiaoshiml/chenlixing.html",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "chenxiuzhen",
+      "name": "陈秀真",
+      "officialSections": [
+        "教师名录 — 网络空间安全研究所"
+      ],
+      "title": "",
+      "profileUrl": "https://www.cs.sjtu.edu.cn/jiaoshiml/chenxiuzhen.html",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "duanshengxiong",
+      "name": "段圣雄",
+      "officialSections": [
+        "教师名录 — 网络空间安全研究所"
+      ],
+      "title": "",
+      "profileUrl": "https://www.cs.sjtu.edu.cn/jiaoshiml/duanshengxiong.html",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "huihong",
+      "name": "回红",
+      "officialSections": [
+        "教师名录 — 网络空间安全研究所"
+      ],
+      "title": "",
+      "profileUrl": "https://www.cs.sjtu.edu.cn/jiaoshiml/huihong.html",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "lijianhua",
+      "name": "李建华",
+      "officialSections": [
+        "教师名录 — 网络空间安全研究所"
+      ],
+      "title": "",
+      "profileUrl": "https://www.cs.sjtu.edu.cn/jiaoshiml/lijianhua.html",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "linxi",
+      "name": "林夕",
+      "officialSections": [
+        "教师名录 — 网络空间安全研究所"
+      ],
+      "title": "",
+      "profileUrl": "https://www.cs.sjtu.edu.cn/jiaoshiml/linxi.html",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "linxiang",
+      "name": "林祥",
+      "officialSections": [
+        "教师名录 — 网络空间安全研究所"
+      ],
+      "title": "",
+      "profileUrl": "https://www.cs.sjtu.edu.cn/jiaoshiml/linxiang.html",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "liqiang",
+      "name": "李强",
+      "officialSections": [
+        "教师名录 — 网络空间安全研究所"
+      ],
+      "title": "",
+      "profileUrl": "https://www.cs.sjtu.edu.cn/jiaoshiml/liqiang.html",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "majin",
+      "name": "马进",
+      "officialSections": [
+        "教师名录 — 网络空间安全研究所"
+      ],
+      "title": "",
+      "profileUrl": "https://www.cs.sjtu.edu.cn/jiaoshiml/majin.html",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "mayinghua",
+      "name": "马颖华",
+      "officialSections": [
+        "教师名录 — 网络空间安全研究所"
+      ],
+      "title": "",
+      "profileUrl": "https://www.cs.sjtu.edu.cn/jiaoshiml/mayinghua.html",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "panli",
+      "name": "潘理",
+      "officialSections": [
+        "教师名录 — 网络空间安全研究所"
+      ],
+      "title": "",
+      "profileUrl": "https://www.cs.sjtu.edu.cn/jiaoshiml/panli.html",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "subo",
+      "name": "苏波",
+      "officialSections": [
+        "教师名录 — 网络空间安全研究所"
+      ],
+      "title": "",
+      "profileUrl": "https://www.cs.sjtu.edu.cn/jiaoshiml/subo.html",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "tangjunhua",
+      "name": "唐俊华",
+      "officialSections": [
+        "教师名录 — 网络空间安全研究所"
+      ],
+      "title": "",
+      "profileUrl": "https://www.cs.sjtu.edu.cn/jiaoshiml/tangjunhua.html",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "tangpeng",
+      "name": "唐鹏",
+      "officialSections": [
+        "教师名录 — 网络空间安全研究所"
+      ],
+      "title": "",
+      "profileUrl": "https://www.cs.sjtu.edu.cn/jiaoshiml/tangpeng.html",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "wangguozhong",
+      "name": "王国忠",
+      "officialSections": [
+        "教师名录 — 网络空间安全研究所"
+      ],
+      "title": "",
+      "profileUrl": "https://www.cs.sjtu.edu.cn/jiaoshiml/wangguozhong.html",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "wangzheng",
+      "name": "王铮",
+      "officialSections": [
+        "教师名录 — 网络空间安全研究所"
+      ],
+      "title": "",
+      "profileUrl": "https://www.cs.sjtu.edu.cn/jiaoshiml/wangzheng.html",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "wupeng",
+      "name": "吴鹏",
+      "officialSections": [
+        "教师名录 — 网络空间安全研究所"
+      ],
+      "title": "",
+      "profileUrl": "https://www.cs.sjtu.edu.cn/jiaoshiml/wupeng.html",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "xiazhengmin",
+      "name": "夏正敏",
+      "officialSections": [
+        "教师名录 — 网络空间安全研究所"
+      ],
+      "title": "",
+      "profileUrl": "https://www.cs.sjtu.edu.cn/jiaoshiml/xiazhengmin.html",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "xuhansong",
+      "name": "徐寒松",
+      "officialSections": [
+        "教师名录 — 网络空间安全研究所"
+      ],
+      "title": "",
+      "profileUrl": "https://www.cs.sjtu.edu.cn/jiaoshiml/xuhansong.html",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "xulei",
+      "name": "徐磊",
+      "officialSections": [
+        "教师名录 — 网络空间安全研究所"
+      ],
+      "title": "",
+      "profileUrl": "https://www.cs.sjtu.edu.cn/jiaoshiml/xulei.html",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "yinying",
+      "name": "银鹰",
+      "officialSections": [
+        "教师名录 — 网络空间安全研究所"
+      ],
+      "title": "",
+      "profileUrl": "https://www.cs.sjtu.edu.cn/jiaoshiml/yinying.html",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "yiping",
+      "name": "易平",
+      "officialSections": [
+        "教师名录 — 网络空间安全研究所"
+      ],
+      "title": "",
+      "profileUrl": "https://www.cs.sjtu.edu.cn/jiaoshiml/yiping.html",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "zhangbaowen",
+      "name": "张保稳",
+      "officialSections": [
+        "教师名录 — 网络空间安全研究所"
+      ],
+      "title": "",
+      "profileUrl": "https://www.cs.sjtu.edu.cn/jiaoshiml/zhangbaowen.html",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "zhangquanhai",
+      "name": "张全海",
+      "officialSections": [
+        "教师名录 — 网络空间安全研究所"
+      ],
+      "title": "",
+      "profileUrl": "https://www.cs.sjtu.edu.cn/jiaoshiml/zhangquanhai.html",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "zhangxiaohan",
+      "name": "张晓涵",
+      "officialSections": [
+        "教师名录 — 网络空间安全研究所"
+      ],
+      "title": "",
+      "profileUrl": "https://www.cs.sjtu.edu.cn/jiaoshiml/zhangxiaohan.html",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "zhengconghui",
+      "name": "郑聪惠",
+      "officialSections": [
+        "教师名录 — 网络空间安全研究所"
+      ],
+      "title": "",
+      "profileUrl": "https://www.cs.sjtu.edu.cn/jiaoshiml/zhengconghui.html",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "zhouzhihong",
+      "name": "周志洪",
+      "officialSections": [
+        "教师名录 — 网络空间安全研究所"
+      ],
+      "title": "",
+      "profileUrl": "https://www.cs.sjtu.edu.cn/jiaoshiml/zhouzhihong.html",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "zhuyun",
+      "name": "朱贇",
+      "officialSections": [
+        "教师名录 — 网络空间安全研究所"
+      ],
+      "title": "",
+      "profileUrl": "https://www.cs.sjtu.edu.cn/jiaoshiml/zhuyun.html",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "xuezhi",
+      "name": "薛质",
+      "officialSections": [
+        "教师名录 — 系统安全研究所"
+      ],
+      "title": "",
+      "profileUrl": "https://www.cs.sjtu.edu.cn/jiaoshiml/xuezhi.html",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "lishenghong",
+      "name": "李生红",
+      "officialSections": [
+        "教师名录 — 系统安全研究所"
+      ],
+      "title": "",
+      "profileUrl": "https://www.cs.sjtu.edu.cn/jiaoshiml/lishenghong.html",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "wuyue",
+      "name": "吴越",
+      "officialSections": [
+        "教师名录 — 系统安全研究所"
+      ],
+      "title": "",
+      "profileUrl": "https://www.cs.sjtu.edu.cn/jiaoshiml/wuyue.html",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "chenlibo",
+      "name": "陈力波",
+      "officialSections": [
+        "教师名录 — 系统安全研究所"
+      ],
+      "title": "",
+      "profileUrl": "https://www.cs.sjtu.edu.cn/jiaoshiml/chenlibo.html",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "guijiaping",
+      "name": "桂佳平",
+      "officialSections": [
+        "教师名录 — 系统安全研究所"
+      ],
+      "title": "",
+      "profileUrl": "https://www.cs.sjtu.edu.cn/jiaoshiml/guijiaping.html",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "hongjianan",
+      "name": "洪佳楠",
+      "officialSections": [
+        "教师名录 — 系统安全研究所"
+      ],
+      "title": "",
+      "profileUrl": "https://www.cs.sjtu.edu.cn/jiaoshiml/hongjianan.html",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "houqinsheng",
+      "name": "侯勤胜",
+      "officialSections": [
+        "教师名录 — 系统安全研究所"
+      ],
+      "title": "",
+      "profileUrl": "https://www.cs.sjtu.edu.cn/jiaoshiml/houqinsheng.html",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "huacunqing",
+      "name": "化存卿",
+      "officialSections": [
+        "教师名录 — 系统安全研究所"
+      ],
+      "title": "",
+      "profileUrl": "https://www.cs.sjtu.edu.cn/jiaoshiml/huacunqing.html",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "liuming",
+      "name": "刘铭",
+      "officialSections": [
+        "教师名录 — 系统安全研究所"
+      ],
+      "title": "",
+      "profileUrl": "https://www.cs.sjtu.edu.cn/jiaoshiml/liuming.html",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "shiyong",
+      "name": "施勇",
+      "officialSections": [
+        "教师名录 — 系统安全研究所"
+      ],
+      "title": "",
+      "profileUrl": "https://www.cs.sjtu.edu.cn/jiaoshiml/shiyong.html",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "wangyijun",
+      "name": "王轶骏",
+      "officialSections": [
+        "教师名录 — 系统安全研究所"
+      ],
+      "title": "",
+      "profileUrl": "https://www.cs.sjtu.edu.cn/jiaoshiml/wangyijun.html",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "guominyi",
+      "name": "过敏意",
+      "officialSections": [
+        "教师名录 — 先进计算研究所"
+      ],
+      "title": "",
+      "profileUrl": "https://www.cs.sjtu.edu.cn/jiaoshiml/guominyi.html",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "zhuhongzi",
+      "name": "朱弘恣",
+      "officialSections": [
+        "教师名录 — 先进计算研究所"
+      ],
+      "title": "",
+      "profileUrl": "https://www.cs.sjtu.edu.cn/jiaoshiml/zhuhongzi.html",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "chenchen",
+      "name": "陈晨",
+      "officialSections": [
+        "教师名录 — 先进计算研究所",
+        "教师名录 — 约翰·霍普克罗夫特计算机科学中心"
+      ],
+      "title": "",
+      "profileUrl": "https://www.cs.sjtu.edu.cn/jiaoshiml/chenchen.html",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "chenquan",
+      "name": "陈全",
+      "officialSections": [
+        "教师名录 — 先进计算研究所"
+      ],
+      "title": "",
+      "profileUrl": "https://www.cs.sjtu.edu.cn/jiaoshiml/chenquan.html",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "fengyu",
+      "name": "冯宇",
+      "officialSections": [
+        "教师名录 — 先进计算研究所",
+        "教师名录 — 约翰·霍普克罗夫特计算机科学中心"
+      ],
+      "title": "",
+      "profileUrl": "https://www.cs.sjtu.edu.cn/jiaoshiml/fengyu.html",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "houxiaofeng",
+      "name": "侯小凤",
+      "officialSections": [
+        "教师名录 — 先进计算研究所"
+      ],
+      "title": "",
+      "profileUrl": "https://www.cs.sjtu.edu.cn/jiaoshiml/houxiaofeng.html",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "lengjingwen",
+      "name": "冷静文",
+      "officialSections": [
+        "教师名录 — 先进计算研究所"
+      ],
+      "title": "",
+      "profileUrl": "https://www.cs.sjtu.edu.cn/jiaoshiml/lengjingwen.html",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "lichao",
+      "name": "李超",
+      "officialSections": [
+        "教师名录 — 先进计算研究所"
+      ],
+      "title": "",
+      "profileUrl": "https://www.cs.sjtu.edu.cn/jiaoshiml/lichao.html",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "lili",
+      "name": "李力",
+      "officialSections": [
+        "教师名录 — 先进计算研究所"
+      ],
+      "title": "",
+      "profileUrl": "https://www.cs.sjtu.edu.cn/jiaoshiml/lili.html",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "liujinyang",
+      "name": "刘锦阳",
+      "officialSections": [
+        "教师名录 — 先进计算研究所"
+      ],
+      "title": "",
+      "profileUrl": "https://www.cs.sjtu.edu.cn/jiaoshiml/liujinyang.html",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "pangpu",
+      "name": "庞浦",
+      "officialSections": [
+        "教师名录 — 先进计算研究所"
+      ],
+      "title": "",
+      "profileUrl": "https://www.cs.sjtu.edu.cn/jiaoshiml/pangpu.html",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "ruanna",
+      "name": "阮娜",
+      "officialSections": [
+        "教师名录 — 先进计算研究所"
+      ],
+      "title": "",
+      "profileUrl": "https://www.cs.sjtu.edu.cn/jiaoshiml/ruanna.html",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "shenyao",
+      "name": "沈耀",
+      "officialSections": [
+        "教师名录 — 先进计算研究所"
+      ],
+      "title": "",
+      "profileUrl": "https://www.cs.sjtu.edu.cn/jiaoshiml/shenyao.html",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "sunshixuan",
+      "name": "孙世轩",
+      "officialSections": [
+        "教师名录 — 先进计算研究所"
+      ],
+      "title": "",
+      "profileUrl": "https://www.cs.sjtu.edu.cn/jiaoshiml/sunshixuan.html",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "wuanbang",
+      "name": "吴安邦",
+      "officialSections": [
+        "教师名录 — 先进计算研究所"
+      ],
+      "title": "",
+      "profileUrl": "https://www.cs.sjtu.edu.cn/jiaoshiml/wuanbang.html",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "zhaohan",
+      "name": "赵涵",
+      "officialSections": [
+        "教师名录 — 先进计算研究所"
+      ],
+      "title": "",
+      "profileUrl": "https://www.cs.sjtu.edu.cn/jiaoshiml/zhaohan.html",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "zhaojieru",
+      "name": "赵杰茹",
+      "officialSections": [
+        "教师名录 — 先进计算研究所"
+      ],
+      "title": "",
+      "profileUrl": "https://www.cs.sjtu.edu.cn/jiaoshiml/zhaojieru.html",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "yangxiaokang",
+      "name": "杨小康",
+      "officialSections": [
+        "教师名录 — 先进人工智能研究所"
+      ],
+      "title": "",
+      "profileUrl": "https://www.cs.sjtu.edu.cn/jiaoshiml/yangxiaokang.html",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "dongyihong",
+      "name": "董益宏",
+      "officialSections": [
+        "教师名录 — 先进人工智能研究所"
+      ],
+      "title": "",
+      "profileUrl": "https://www.cs.sjtu.edu.cn/jiaoshiml/dongyihong.html",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "gaoyue",
+      "name": "高岳",
+      "officialSections": [
+        "教师名录 — 先进人工智能研究所"
+      ],
+      "title": "",
+      "profileUrl": "https://www.cs.sjtu.edu.cn/jiaoshiml/gaoyue.html",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "heliming",
+      "name": "何黎明",
+      "officialSections": [
+        "教师名录 — 先进人工智能研究所"
+      ],
+      "title": "",
+      "profileUrl": "https://www.cs.sjtu.edu.cn/jiaoshiml/heliming.html",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "jinyaohui",
+      "name": "金耀辉",
+      "officialSections": [
+        "教师名录 — 先进人工智能研究所",
+        "教师名录 — 交叉前沿研究所"
+      ],
+      "title": "",
+      "profileUrl": "https://www.cs.sjtu.edu.cn/jiaoshiml/jinyaohui.html",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "liumanhua",
+      "name": "刘满华",
+      "officialSections": [
+        "教师名录 — 先进人工智能研究所"
+      ],
+      "title": "",
+      "profileUrl": "https://www.cs.sjtu.edu.cn/jiaoshiml/liumanhua.html",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "machao",
+      "name": "马超",
+      "officialSections": [
+        "教师名录 — 先进人工智能研究所"
+      ],
+      "title": "",
+      "profileUrl": "https://www.cs.sjtu.edu.cn/jiaoshiml/machao.html",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "muyao",
+      "name": "穆尧",
+      "officialSections": [
+        "教师名录 — 先进人工智能研究所"
+      ],
+      "title": "",
+      "profileUrl": "https://www.cs.sjtu.edu.cn/jiaoshiml/muyao.html",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "shenwei",
+      "name": "沈为",
+      "officialSections": [
+        "教师名录 — 先进人工智能研究所"
+      ],
+      "title": "",
+      "profileUrl": "https://www.cs.sjtu.edu.cn/jiaoshiml/shenwei.html",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "wangyunbo",
+      "name": "王韫博",
+      "officialSections": [
+        "教师名录 — 先进人工智能研究所"
+      ],
+      "title": "",
+      "profileUrl": "https://www.cs.sjtu.edu.cn/jiaoshiml/wangyunbo.html",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "xuyanyan",
+      "name": "许岩岩",
+      "officialSections": [
+        "教师名录 — 先进人工智能研究所"
+      ],
+      "title": "",
+      "profileUrl": "https://www.cs.sjtu.edu.cn/jiaoshiml/xuyanyan.html",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "yanyichao",
+      "name": "晏轶超",
+      "officialSections": [
+        "教师名录 — 先进人工智能研究所"
+      ],
+      "title": "",
+      "profileUrl": "https://www.cs.sjtu.edu.cn/jiaoshiml/yanyichao.html",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "yuanxiaoyun",
+      "name": "袁肖赟",
+      "officialSections": [
+        "教师名录 — 先进人工智能研究所"
+      ],
+      "title": "",
+      "profileUrl": "https://www.cs.sjtu.edu.cn/jiaoshiml/yuanxiaoyun.html",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "zhangweixia",
+      "name": "张维夏",
+      "officialSections": [
+        "教师名录 — 先进人工智能研究所"
+      ],
+      "title": "",
+      "profileUrl": "https://www.cs.sjtu.edu.cn/jiaoshiml/zhangweixia.html",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "zhangyulun",
+      "name": "张宇伦",
+      "officialSections": [
+        "教师名录 — 先进人工智能研究所"
+      ],
+      "title": "",
+      "profileUrl": "https://www.cs.sjtu.edu.cn/jiaoshiml/zhangyulun.html",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "zhengshengan",
+      "name": "郑圣安",
+      "officialSections": [
+        "教师名录 — 先进人工智能研究所"
+      ],
+      "title": "",
+      "profileUrl": "https://www.cs.sjtu.edu.cn/jiaoshiml/zhengshengan.html",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "chenguihai",
+      "name": "陈贵海",
+      "officialSections": [
+        "教师名录 — 先进网络研究所"
+      ],
+      "title": "",
+      "profileUrl": "https://www.cs.sjtu.edu.cn/jiaoshiml/chenguihai.html",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "konglinghe",
+      "name": "孔令和",
+      "officialSections": [
+        "教师名录 — 先进网络研究所"
+      ],
+      "title": "",
+      "profileUrl": "https://www.cs.sjtu.edu.cn/jiaoshiml/konglinghe.html",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "chenbo",
+      "name": "陈博",
+      "officialSections": [
+        "教师名录 — 先进网络研究所"
+      ],
+      "title": "",
+      "profileUrl": "https://www.cs.sjtu.edu.cn/jiaoshiml/chenbo.html",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "dengqianni",
+      "name": "邓倩妮",
+      "officialSections": [
+        "教师名录 — 先进网络研究所"
+      ],
+      "title": "",
+      "profileUrl": "https://www.cs.sjtu.edu.cn/jiaoshiml/dengqianni.html",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "fuluoyi",
+      "name": "傅洛伊",
+      "officialSections": [
+        "教师名录 — 先进网络研究所"
+      ],
+      "title": "",
+      "profileUrl": "https://www.cs.sjtu.edu.cn/jiaoshiml/fuluoyi.html",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "gaoxiaofeng",
+      "name": "高晓沨",
+      "officialSections": [
+        "教师名录 — 先进网络研究所"
+      ],
+      "title": "",
+      "profileUrl": "https://www.cs.sjtu.edu.cn/jiaoshiml/gaoxiaofeng.html",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "hekeqiang",
+      "name": "贺可强",
+      "officialSections": [
+        "教师名录 — 先进网络研究所"
+      ],
+      "title": "",
+      "profileUrl": "https://www.cs.sjtu.edu.cn/jiaoshiml/hekeqiang.html",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "huangjunqin",
+      "name": "黄俊钦",
+      "officialSections": [
+        "教师名录 — 先进网络研究所"
+      ],
+      "title": "",
+      "profileUrl": "https://www.cs.sjtu.edu.cn/jiaoshiml/huangjunqin.html",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "huangweiran",
+      "name": "黄维然",
+      "officialSections": [
+        "教师名录 — 先进网络研究所",
+        "教师名录 — 清源研究院"
+      ],
+      "title": "",
+      "profileUrl": "https://www.cs.sjtu.edu.cn/jiaoshiml/huangweiran.html",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "jinhaiming",
+      "name": "金海明",
+      "officialSections": [
+        "教师名录 — 先进网络研究所"
+      ],
+      "title": "",
+      "profileUrl": "https://www.cs.sjtu.edu.cn/jiaoshiml/jinhaiming.html",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "lichengzhang",
+      "name": "李承璋",
+      "officialSections": [
+        "教师名录 — 先进网络研究所"
+      ],
+      "title": "",
+      "profileUrl": "https://www.cs.sjtu.edu.cn/jiaoshiml/lichengzhang.html",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "liqinya",
+      "name": "李沁雅",
+      "officialSections": [
+        "教师名录 — 先进网络研究所"
+      ],
+      "title": "",
+      "profileUrl": "https://www.cs.sjtu.edu.cn/jiaoshiml/liqinya.html",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "liushengzhong",
+      "name": "刘生钟",
+      "officialSections": [
+        "教师名录 — 先进网络研究所"
+      ],
+      "title": "",
+      "profileUrl": "https://www.cs.sjtu.edu.cn/jiaoshiml/liushengzhong.html",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "liuyutong",
+      "name": "刘雨桐",
+      "officialSections": [
+        "教师名录 — 先进网络研究所"
+      ],
+      "title": "",
+      "profileUrl": "https://www.cs.sjtu.edu.cn/jiaoshiml/liuyutong.html",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "luoxinjian",
+      "name": "罗欣剑",
+      "officialSections": [
+        "教师名录 — 先进网络研究所"
+      ],
+      "title": "",
+      "profileUrl": "https://www.cs.sjtu.edu.cn/jiaoshiml/luoxinjian.html",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "niuchaoyue",
+      "name": "牛超越",
+      "officialSections": [
+        "教师名录 — 先进网络研究所"
+      ],
+      "title": "",
+      "profileUrl": "https://www.cs.sjtu.edu.cn/jiaoshiml/niuchaoyue.html",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "tangfeilong",
+      "name": "唐飞龙",
+      "officialSections": [
+        "教师名录 — 先进网络研究所"
+      ],
+      "title": "",
+      "profileUrl": "https://www.cs.sjtu.edu.cn/jiaoshiml/tangfeilong.html",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "wufan",
+      "name": "吴帆",
+      "officialSections": [
+        "教师名录 — 先进网络研究所"
+      ],
+      "title": "",
+      "profileUrl": "https://www.cs.sjtu.edu.cn/jiaoshiml/wufan.html",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "zhengguanjie",
+      "name": "郑冠杰",
+      "officialSections": [
+        "教师名录 — 先进网络研究所",
+        "教师名录 — 约翰·霍普克罗夫特计算机科学中心"
+      ],
+      "title": "",
+      "profileUrl": "https://www.cs.sjtu.edu.cn/jiaoshiml/zhengguanjie.html",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "zhengzhenzhe",
+      "name": "郑臻哲",
+      "officialSections": [
+        "教师名录 — 先进网络研究所"
+      ],
+      "title": "",
+      "profileUrl": "https://www.cs.sjtu.edu.cn/jiaoshiml/zhengzhenzhe.html",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "zhouxuanhe",
+      "name": "周煊赫",
+      "officialSections": [
+        "教师名录 — 先进网络研究所"
+      ],
+      "title": "",
+      "profileUrl": "https://www.cs.sjtu.edu.cn/jiaoshiml/zhouxuanhe.html",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "zhuyanmin",
+      "name": "朱燕民",
+      "officialSections": [
+        "教师名录 — 先进网络研究所"
+      ],
+      "title": "",
+      "profileUrl": "https://www.cs.sjtu.edu.cn/jiaoshiml/zhuyanmin.html",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "gudawu",
+      "name": "谷大武",
+      "officialSections": [
+        "教师名录 — 信息安全与密码学研究所"
+      ],
+      "title": "",
+      "profileUrl": "https://www.cs.sjtu.edu.cn/jiaoshiml/gudawu.html",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "liushengli",
+      "name": "刘胜利",
+      "officialSections": [
+        "教师名录 — 信息安全与密码学研究所"
+      ],
+      "title": "",
+      "profileUrl": "https://www.cs.sjtu.edu.cn/jiaoshiml/liushengli.html",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "luoyuan",
+      "name": "骆源",
+      "officialSections": [
+        "教师名录 — 信息安全与密码学研究所"
+      ],
+      "title": "",
+      "profileUrl": "https://www.cs.sjtu.edu.cn/jiaoshiml/luoyuan.html",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "caopei",
+      "name": "曹培",
+      "officialSections": [
+        "教师名录 — 信息安全与密码学研究所"
+      ],
+      "title": "",
+      "profileUrl": "https://www.cs.sjtu.edu.cn/jiaoshiml/caopei.html",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "dingning",
+      "name": "丁宁",
+      "officialSections": [
+        "教师名录 — 信息安全与密码学研究所"
+      ],
+      "title": "",
+      "profileUrl": "https://www.cs.sjtu.edu.cn/jiaoshiml/dingning.html",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "hanshuai",
+      "name": "韩帅",
+      "officialSections": [
+        "教师名录 — 信息安全与密码学研究所"
+      ],
+      "title": "",
+      "profileUrl": "https://www.cs.sjtu.edu.cn/jiaoshiml/hanshuai.html",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "hechaoxiang",
+      "name": "贺超翔",
+      "officialSections": [
+        "教师名录 — 信息安全与密码学研究所"
+      ],
+      "title": "",
+      "profileUrl": "https://www.cs.sjtu.edu.cn/jiaoshiml/hechaoxiang.html",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "huhongsheng",
+      "name": "胡宏盛",
+      "officialSections": [
+        "教师名录 — 信息安全与密码学研究所"
+      ],
+      "title": "",
+      "profileUrl": "https://www.cs.sjtu.edu.cn/jiaoshiml/huhongsheng.html",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "huyikun",
+      "name": "胡易坤",
+      "officialSections": [
+        "教师名录 — 信息安全与密码学研究所"
+      ],
+      "title": "",
+      "profileUrl": "https://www.cs.sjtu.edu.cn/jiaoshiml/huyikun.html",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "lisongsong",
+      "name": "李宋宋",
+      "officialSections": [
+        "教师名录 — 信息安全与密码学研究所"
+      ],
+      "title": "",
+      "profileUrl": "https://www.cs.sjtu.edu.cn/jiaoshiml/lisongsong.html",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "longyu",
+      "name": "龙宇",
+      "officialSections": [
+        "教师名录 — 信息安全与密码学研究所"
+      ],
+      "title": "",
+      "profileUrl": "https://www.cs.sjtu.edu.cn/jiaoshiml/longyu.html",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "luhaining",
+      "name": "陆海宁",
+      "officialSections": [
+        "教师名录 — 信息安全与密码学研究所"
+      ],
+      "title": "",
+      "profileUrl": "https://www.cs.sjtu.edu.cn/jiaoshiml/luhaining.html",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "sunshifeng",
+      "name": "孙士锋",
+      "officialSections": [
+        "教师名录 — 信息安全与密码学研究所"
+      ],
+      "title": "",
+      "profileUrl": "https://www.cs.sjtu.edu.cn/jiaoshiml/sunshifeng.html",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "tangdeng",
+      "name": "唐灯",
+      "officialSections": [
+        "教师名录 — 信息安全与密码学研究所"
+      ],
+      "title": "",
+      "profileUrl": "https://www.cs.sjtu.edu.cn/jiaoshiml/tangdeng.html",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "wanggeng",
+      "name": "王更",
+      "officialSections": [
+        "教师名录 — 信息安全与密码学研究所"
+      ],
+      "title": "",
+      "profileUrl": "https://www.cs.sjtu.edu.cn/jiaoshiml/wanggeng.html",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "wanghaoyang",
+      "name": "王浩洋",
+      "officialSections": [
+        "教师名录 — 信息安全与密码学研究所"
+      ],
+      "title": "",
+      "profileUrl": "https://www.cs.sjtu.edu.cn/jiaoshiml/wanghaoyang.html",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "wangshuo",
+      "name": "王烁",
+      "officialSections": [
+        "教师名录 — 信息安全与密码学研究所"
+      ],
+      "title": "",
+      "profileUrl": "https://www.cs.sjtu.edu.cn/jiaoshiml/wangshuo.html",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "wangzhedong",
+      "name": "汪哲东",
+      "officialSections": [
+        "教师名录 — 信息安全与密码学研究所"
+      ],
+      "title": "",
+      "profileUrl": "https://www.cs.sjtu.edu.cn/jiaoshiml/wangzhedong.html",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "xingchaoping",
+      "name": "邢朝平",
+      "officialSections": [
+        "教师名录 — 信息安全与密码学研究所"
+      ],
+      "title": "",
+      "profileUrl": "https://www.cs.sjtu.edu.cn/jiaoshiml/xingchaoping.html",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "xuyanhong",
+      "name": "徐燕虹",
+      "officialSections": [
+        "教师名录 — 信息安全与密码学研究所"
+      ],
+      "title": "",
+      "profileUrl": "https://www.cs.sjtu.edu.cn/jiaoshiml/xuyanhong.html",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "yingchenhao",
+      "name": "应臣浩",
+      "officialSections": [
+        "教师名录 — 信息安全与密码学研究所"
+      ],
+      "title": "",
+      "profileUrl": "https://www.cs.sjtu.edu.cn/jiaoshiml/yingchenhao.html",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "yuanchen",
+      "name": "袁晨",
+      "officialSections": [
+        "教师名录 — 信息安全与密码学研究所"
+      ],
+      "title": "",
+      "profileUrl": "https://www.cs.sjtu.edu.cn/jiaoshiml/yuanchen.html",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "zhangchi",
+      "name": "张驰",
+      "officialSections": [
+        "教师名录 — 信息安全与密码学研究所"
+      ],
+      "title": "",
+      "profileUrl": "https://www.cs.sjtu.edu.cn/jiaoshiml/zhangchi.html",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "zoufutai",
+      "name": "邹福泰",
+      "officialSections": [
+        "教师名录 — 信息安全与密码学研究所"
+      ],
+      "title": "",
+      "profileUrl": "https://www.cs.sjtu.edu.cn/jiaoshiml/zoufutai.html",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "xueguangtao",
+      "name": "薛广涛",
+      "officialSections": [
+        "教师名录 — 智能软件与系统研究所"
+      ],
+      "title": "",
+      "profileUrl": "https://www.cs.sjtu.edu.cn/jiaoshiml/xueguangtao.html",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "shenyanyan",
+      "name": "沈艳艳",
+      "officialSections": [
+        "教师名录 — 智能软件与系统研究所"
+      ],
+      "title": "",
+      "profileUrl": "https://www.cs.sjtu.edu.cn/jiaoshiml/shenyanyan.html",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "wuchentao",
+      "name": "吴晨涛",
+      "officialSections": [
+        "教师名录 — 智能软件与系统研究所"
+      ],
+      "title": "",
+      "profileUrl": "https://www.cs.sjtu.edu.cn/jiaoshiml/wuchentao.html",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "caojian",
+      "name": "曹健",
+      "officialSections": [
+        "教师名录 — 智能软件与系统研究所"
+      ],
+      "title": "",
+      "profileUrl": "https://www.cs.sjtu.edu.cn/jiaoshiml/caojian.html",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "chenyichao",
+      "name": "陈奕超",
+      "officialSections": [
+        "教师名录 — 智能软件与系统研究所"
+      ],
+      "title": "",
+      "profileUrl": "https://www.cs.sjtu.edu.cn/jiaoshiml/chenyichao.html",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "chenyoumin",
+      "name": "陈游旻",
+      "officialSections": [
+        "教师名录 — 智能软件与系统研究所"
+      ],
+      "title": "",
+      "profileUrl": "https://www.cs.sjtu.edu.cn/jiaoshiml/chenyoumin.html",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "chenyuting",
+      "name": "陈雨亭",
+      "officialSections": [
+        "教师名录 — 智能软件与系统研究所"
+      ],
+      "title": "",
+      "profileUrl": "https://www.cs.sjtu.edu.cn/jiaoshiml/chenyuting.html",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "huanglinpeng",
+      "name": "黄林鹏",
+      "officialSections": [
+        "教师名录 — 智能软件与系统研究所"
+      ],
+      "title": "",
+      "profileUrl": "https://www.cs.sjtu.edu.cn/jiaoshiml/huanglinpeng.html",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "lijie",
+      "name": "李颉",
+      "officialSections": [
+        "教师名录 — 智能软件与系统研究所"
+      ],
+      "title": "",
+      "profileUrl": "https://www.cs.sjtu.edu.cn/jiaoshiml/lijie.html",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "linyun",
+      "name": "林云",
+      "officialSections": [
+        "教师名录 — 智能软件与系统研究所"
+      ],
+      "title": "",
+      "profileUrl": "https://www.cs.sjtu.edu.cn/jiaoshiml/linyun.html",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "liushengyun",
+      "name": "刘盛云",
+      "officialSections": [
+        "教师名录 — 智能软件与系统研究所"
+      ],
+      "title": "",
+      "profileUrl": "https://www.cs.sjtu.edu.cn/jiaoshiml/liushengyun.html",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "loujiong",
+      "name": "娄炯",
+      "officialSections": [
+        "教师名录 — 智能软件与系统研究所"
+      ],
+      "title": "",
+      "profileUrl": "https://www.cs.sjtu.edu.cn/jiaoshiml/loujiong.html",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "panhao",
+      "name": "潘昊",
+      "officialSections": [
+        "教师名录 — 智能软件与系统研究所"
+      ],
+      "title": "",
+      "profileUrl": "https://www.cs.sjtu.edu.cn/jiaoshiml/panhao.html",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "qianshiyou",
+      "name": "钱诗友",
+      "officialSections": [
+        "教师名录 — 智能软件与系统研究所"
+      ],
+      "title": "",
+      "profileUrl": "https://www.cs.sjtu.edu.cn/jiaoshiml/qianshiyou.html",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "xuedongliang",
+      "name": "薛栋梁",
+      "officialSections": [
+        "教师名录 — 智能软件与系统研究所"
+      ],
+      "title": "",
+      "profileUrl": "https://www.cs.sjtu.edu.cn/jiaoshiml/xuedongliang.html",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "xuerci",
+      "name": "徐尔茨",
+      "officialSections": [
+        "教师名录 — 智能软件与系统研究所"
+      ],
+      "title": "",
+      "profileUrl": "https://www.cs.sjtu.edu.cn/jiaoshiml/xuerci.html",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "yanglanqing",
+      "name": "杨岚青",
+      "officialSections": [
+        "教师名录 — 智能软件与系统研究所"
+      ],
+      "title": "",
+      "profileUrl": "https://www.cs.sjtu.edu.cn/jiaoshiml/yanglanqing.html",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "yujiadi",
+      "name": "俞嘉地",
+      "officialSections": [
+        "教师名录 — 智能软件与系统研究所"
+      ],
+      "title": "",
+      "profileUrl": "https://www.cs.sjtu.edu.cn/jiaoshiml/yujiadi.html",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "zhangyiming",
+      "name": "张一鸣",
+      "officialSections": [
+        "教师名录 — 智能软件与系统研究所"
+      ],
+      "title": "",
+      "profileUrl": "https://www.cs.sjtu.edu.cn/jiaoshiml/zhangyiming.html",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "zhonghao",
+      "name": "钟浩",
+      "officialSections": [
+        "教师名录 — 智能软件与系统研究所"
+      ],
+      "title": "",
+      "profileUrl": "https://www.cs.sjtu.edu.cn/jiaoshiml/zhonghao.html",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "yuyu",
+      "name": "郁昱",
+      "officialSections": [
+        "教师名录 — 量子计算研究所（筹）",
+        "教师名录 — 约翰·霍普克罗夫特计算机科学中心"
+      ],
+      "title": "",
+      "profileUrl": "https://www.cs.sjtu.edu.cn/jiaoshiml/yuyu.html",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "baishi",
+      "name": "白石",
+      "officialSections": [
+        "教师名录 — 量子计算研究所（筹）",
+        "教师名录 — 约翰·霍普克罗夫特计算机科学中心"
+      ],
+      "title": "",
+      "profileUrl": "https://www.cs.sjtu.edu.cn/jiaoshiml/baishi.html",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "huyuncong",
+      "name": "胡云聪",
+      "officialSections": [
+        "教师名录 — 量子计算研究所（筹）"
+      ],
+      "title": "",
+      "profileUrl": "https://www.cs.sjtu.edu.cn/jiaoshiml/huyuncong.html",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "liguoqiang",
+      "name": "李国强",
+      "officialSections": [
+        "教师名录 — 量子计算研究所（筹）"
+      ],
+      "title": "",
+      "profileUrl": "https://www.cs.sjtu.edu.cn/jiaoshiml/liguoqiang.html",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "liuzhen",
+      "name": "刘振",
+      "officialSections": [
+        "教师名录 — 量子计算研究所（筹）"
+      ],
+      "title": "",
+      "profileUrl": "https://www.cs.sjtu.edu.cn/jiaoshiml/liuzhen.html",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "wanglei",
+      "name": "王磊",
+      "officialSections": [
+        "教师名录 — 量子计算研究所（筹）"
+      ],
+      "title": "",
+      "profileUrl": "https://www.cs.sjtu.edu.cn/jiaoshiml/wanglei.html",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "wuyadong",
+      "name": "吴亚东",
+      "officialSections": [
+        "教师名录 — 量子计算研究所（筹）",
+        "教师名录 — 约翰·霍普克罗夫特计算机科学中心"
+      ],
+      "title": "",
+      "profileUrl": "https://www.cs.sjtu.edu.cn/jiaoshiml/wuyadong.html",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "fanlei",
+      "name": "范磊",
+      "officialSections": [
+        "教师名录 — 交叉前沿研究所"
+      ],
+      "title": "",
+      "profileUrl": "https://www.cs.sjtu.edu.cn/jiaoshiml/fanlei.html",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "guojie",
+      "name": "郭捷",
+      "officialSections": [
+        "教师名录 — 交叉前沿研究所"
+      ],
+      "title": "",
+      "profileUrl": "https://www.cs.sjtu.edu.cn/jiaoshiml/guojie.html",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "huangzheng",
+      "name": "黄征",
+      "officialSections": [
+        "教师名录 — 交叉前沿研究所"
+      ],
+      "title": "",
+      "profileUrl": "https://www.cs.sjtu.edu.cn/jiaoshiml/huangzheng.html",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "lilinsen",
+      "name": "李林森",
+      "officialSections": [
+        "教师名录 — 交叉前沿研究所"
+      ],
+      "title": "",
+      "profileUrl": "https://www.cs.sjtu.edu.cn/jiaoshiml/lilinsen.html",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "liuhaitao",
+      "name": "刘海涛",
+      "officialSections": [
+        "教师名录 — 交叉前沿研究所"
+      ],
+      "title": "",
+      "profileUrl": "https://www.cs.sjtu.edu.cn/jiaoshiml/liuhaitao.html",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "lixiaoyong",
+      "name": "李小勇",
+      "officialSections": [
+        "教师名录 — 交叉前沿研究所"
+      ],
+      "title": "",
+      "profileUrl": "https://www.cs.sjtu.edu.cn/jiaoshiml/lixiaoyong.html",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "marong",
+      "name": "马融",
+      "officialSections": [
+        "教师名录 — 交叉前沿研究所"
+      ],
+      "title": "",
+      "profileUrl": "https://www.cs.sjtu.edu.cn/jiaoshiml/marong.html",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "renqingsheng",
+      "name": "任庆生",
+      "officialSections": [
+        "教师名录 — 交叉前沿研究所"
+      ],
+      "title": "",
+      "profileUrl": "https://www.cs.sjtu.edu.cn/jiaoshiml/renqingsheng.html",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "shanrongsheng",
+      "name": "单蓉胜",
+      "officialSections": [
+        "教师名录 — 交叉前沿研究所"
+      ],
+      "title": "",
+      "profileUrl": "https://www.cs.sjtu.edu.cn/jiaoshiml/shanrongsheng.html",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "shenbeijun",
+      "name": "沈备军",
+      "officialSections": [
+        "教师名录 — 交叉前沿研究所"
+      ],
+      "title": "",
+      "profileUrl": "https://www.cs.sjtu.edu.cn/jiaoshiml/shenbeijun.html",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "suguiyang",
+      "name": "苏贵洋",
+      "officialSections": [
+        "教师名录 — 交叉前沿研究所"
+      ],
+      "title": "",
+      "profileUrl": "https://www.cs.sjtu.edu.cn/jiaoshiml/suguiyang.html",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "sunyan",
+      "name": "孙焱",
+      "officialSections": [
+        "教师名录 — 交叉前沿研究所"
+      ],
+      "title": "",
+      "profileUrl": "https://www.cs.sjtu.edu.cn/jiaoshiml/sunyan.html",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "tangxinhuai",
+      "name": "唐新怀",
+      "officialSections": [
+        "教师名录 — 交叉前沿研究所"
+      ],
+      "title": "",
+      "profileUrl": "https://www.cs.sjtu.edu.cn/jiaoshiml/tangxinhuai.html",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "wangdong",
+      "name": "王东",
+      "officialSections": [
+        "教师名录 — 交叉前沿研究所"
+      ],
+      "title": "",
+      "profileUrl": "https://www.cs.sjtu.edu.cn/jiaoshiml/wangdong.html",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "wanggeng1",
+      "name": "王赓",
+      "officialSections": [
+        "教师名录 — 交叉前沿研究所"
+      ],
+      "title": "",
+      "profileUrl": "https://www.cs.sjtu.edu.cn/jiaoshiml/wanggeng1.html",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "wangqiangmin",
+      "name": "王强民",
+      "officialSections": [
+        "教师名录 — 交叉前沿研究所"
+      ],
+      "title": "",
+      "profileUrl": "https://www.cs.sjtu.edu.cn/jiaoshiml/wangqiangmin.html",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "wugang",
+      "name": "吴刚",
+      "officialSections": [
+        "教师名录 — 交叉前沿研究所"
+      ],
+      "title": "",
+      "profileUrl": "https://www.cs.sjtu.edu.cn/jiaoshiml/wugang.html",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "wuqi",
+      "name": "吴奇",
+      "officialSections": [
+        "教师名录 — 交叉前沿研究所"
+      ],
+      "title": "",
+      "profileUrl": "https://www.cs.sjtu.edu.cn/jiaoshiml/wuqi.html",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "zhangaixin",
+      "name": "张爱新",
+      "officialSections": [
+        "教师名录 — 交叉前沿研究所"
+      ],
+      "title": "",
+      "profileUrl": "https://www.cs.sjtu.edu.cn/jiaoshiml/zhangaixin.html",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "zhangqian",
+      "name": "张谦",
+      "officialSections": [
+        "教师名录 — 交叉前沿研究所"
+      ],
+      "title": "",
+      "profileUrl": "https://www.cs.sjtu.edu.cn/jiaoshiml/zhangqian.html",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "1556",
+      "name": "吴旋",
+      "officialSections": [
+        "教师名录 — 约翰·霍普克罗夫特计算机科学中心"
+      ],
+      "title": "",
+      "profileUrl": "https://www.cs.sjtu.edu.cn/jiaoshiml/1556.html",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "dingjiaxin",
+      "name": "丁家昕",
+      "officialSections": [
+        "教师名录 — 约翰·霍普克罗夫特计算机科学中心"
+      ],
+      "title": "",
+      "profileUrl": "https://www.cs.sjtu.edu.cn/jiaoshiml/dingjiaxin.html",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "huangtao",
+      "name": "黄涛",
+      "officialSections": [
+        "教师名录 — 约翰·霍普克罗夫特计算机科学中心"
+      ],
+      "title": "",
+      "profileUrl": "https://www.cs.sjtu.edu.cn/jiaoshiml/huangtao.html",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "jiangbo",
+      "name": "江波",
+      "officialSections": [
+        "教师名录 — 约翰·霍普克罗夫特计算机科学中心"
+      ],
+      "title": "",
+      "profileUrl": "https://www.cs.sjtu.edu.cn/jiaoshiml/jiangbo.html",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "jixingchen",
+      "name": "纪幸辰",
+      "officialSections": [
+        "教师名录 — 约翰·霍普克罗夫特计算机科学中心"
+      ],
+      "title": "",
+      "profileUrl": "https://www.cs.sjtu.edu.cn/jiaoshiml/jixingchen.html",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "l",
+      "name": "李阳",
+      "officialSections": [
+        "教师名录 — 约翰·霍普克罗夫特计算机科学中心"
+      ],
+      "title": "",
+      "profileUrl": "https://www.cs.sjtu.edu.cn/jiaoshiml/l.html",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "laiyifu",
+      "name": "赖奕甫",
+      "officialSections": [
+        "教师名录 — 约翰·霍普克罗夫特计算机科学中心"
+      ],
+      "title": "",
+      "profileUrl": "https://www.cs.sjtu.edu.cn/jiaoshiml/laiyifu.html",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "liangshiyu",
+      "name": "梁诗宇",
+      "officialSections": [
+        "教师名录 — 约翰·霍普克罗夫特计算机科学中心"
+      ],
+      "title": "",
+      "profileUrl": "https://www.cs.sjtu.edu.cn/jiaoshiml/liangshiyu.html",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "liuxiaohong",
+      "name": "刘笑宏",
+      "officialSections": [
+        "教师名录 — 约翰·霍普克罗夫特计算机科学中心"
+      ],
+      "title": "",
+      "profileUrl": "https://www.cs.sjtu.edu.cn/jiaoshiml/liuxiaohong.html",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "mayehan",
+      "name": "马叶涵",
+      "officialSections": [
+        "教师名录 — 约翰·霍普克罗夫特计算机科学中心"
+      ],
+      "title": "",
+      "profileUrl": "https://www.cs.sjtu.edu.cn/jiaoshiml/mayehan.html",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "xiangliyao",
+      "name": "向立瑶",
+      "officialSections": [
+        "教师名录 — 约翰·霍普克罗夫特计算机科学中心"
+      ],
+      "title": "",
+      "profileUrl": "https://www.cs.sjtu.edu.cn/jiaoshiml/xiangliyao.html",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "xiongguojun",
+      "name": "熊国钧",
+      "officialSections": [
+        "教师名录 — 约翰·霍普克罗夫特计算机科学中心"
+      ],
+      "title": "",
+      "profileUrl": "https://www.cs.sjtu.edu.cn/jiaoshiml/xiongguojun.html",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "yenanyang",
+      "name": "叶南阳",
+      "officialSections": [
+        "教师名录 — 约翰·霍普克罗夫特计算机科学中心"
+      ],
+      "title": "",
+      "profileUrl": "https://www.cs.sjtu.edu.cn/jiaoshiml/yenanyang.html",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "zhaoshizhen",
+      "name": "赵世振",
+      "officialSections": [
+        "教师名录 — 约翰·霍普克罗夫特计算机科学中心"
+      ],
+      "title": "",
+      "profileUrl": "https://www.cs.sjtu.edu.cn/jiaoshiml/zhaoshizhen.html",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "zhangshaoting",
+      "name": "张少霆",
+      "officialSections": [
+        "教师名录 — 清源研究院"
+      ],
+      "title": "",
+      "profileUrl": "https://www.cs.sjtu.edu.cn/jiaoshiml/zhangshaoting.html",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "dengzhijie",
+      "name": "邓志杰",
+      "officialSections": [
+        "教师名录 — 清源研究院"
+      ],
+      "title": "",
+      "profileUrl": "https://www.cs.sjtu.edu.cn/jiaoshiml/dengzhijie.html",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "guleilei",
+      "name": "顾磊磊",
+      "officialSections": [
+        "教师名录 — 清源研究院"
+      ],
+      "title": "",
+      "profileUrl": "https://www.cs.sjtu.edu.cn/jiaoshiml/guleilei.html",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "liupengfei",
+      "name": "刘鹏飞",
+      "officialSections": [
+        "教师名录 — 清源研究院"
+      ],
+      "title": "",
+      "profileUrl": "https://www.cs.sjtu.edu.cn/jiaoshiml/liupengfei.html",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "lizhongyu",
+      "name": "李钟毓",
+      "officialSections": [
+        "教师名录 — 清源研究院"
+      ],
+      "title": "",
+      "profileUrl": "https://www.cs.sjtu.edu.cn/jiaoshiml/lizhongyu.html",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "wangdequan",
+      "name": "王德泉",
+      "officialSections": [
+        "教师名录 — 清源研究院"
+      ],
+      "title": "",
+      "profileUrl": "https://www.cs.sjtu.edu.cn/jiaoshiml/wangdequan.html",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "xuningyi",
+      "name": "徐宁仪",
+      "officialSections": [
+        "教师名录 — 清源研究院"
+      ],
+      "title": "",
+      "profileUrl": "https://www.cs.sjtu.edu.cn/jiaoshiml/xuningyi.html",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "zhangxiaofan",
+      "name": "张晓凡",
+      "officialSections": [
+        "教师名录 — 清源研究院"
+      ],
+      "title": "",
+      "profileUrl": "https://www.cs.sjtu.edu.cn/jiaoshiml/zhangxiaofan.html",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "joint-1357",
+      "name": "徐雷",
+      "officialSections": [
+        "访问教授",
+        "退休教师 — 2025年"
+      ],
+      "title": "访问教授",
+      "profileUrl": "https://cs.sjtu.edu.cn/jzhspjs/1357.html",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "joint-1356",
+      "name": "王华雄",
+      "officialSections": [
+        "访问教授"
+      ],
+      "title": "访问教授",
+      "profileUrl": "https://cs.sjtu.edu.cn/jzhspjs/1356.html",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "joint-1360",
+      "name": "翟广涛",
+      "officialSections": [
+        "双聘教授"
+      ],
+      "title": "双聘教授",
+      "profileUrl": "https://cs.sjtu.edu.cn/jzhspjs/1360.html",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "joint-1359",
+      "name": "卢策吾",
+      "officialSections": [
+        "双聘教授"
+      ],
+      "title": "双聘教授",
+      "profileUrl": "https://cs.sjtu.edu.cn/jzhspjs/1359.html",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "joint-1358",
+      "name": "严骏驰",
+      "officialSections": [
+        "双聘教授"
+      ],
+      "title": "双聘教授",
+      "profileUrl": "https://cs.sjtu.edu.cn/jzhspjs/1358.html",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "joint-1702",
+      "name": "熊红凯",
+      "officialSections": [
+        "双聘教授"
+      ],
+      "title": "双聘教授",
+      "profileUrl": "https://cs.sjtu.edu.cn/via/jzhspjs/1702.html",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "joint-1704",
+      "name": "邹君妮",
+      "officialSections": [
+        "双聘教授"
+      ],
+      "title": "双聘教授",
+      "profileUrl": "https://cs.sjtu.edu.cn/via/jzhspjs/1704.html",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "joint-1355",
+      "name": "孔旗",
+      "officialSections": [
+        "客座教授/研究员"
+      ],
+      "title": "客座教授/研究员",
+      "profileUrl": "https://cs.sjtu.edu.cn/jzhspjs/1355.html",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "joint-1389",
+      "name": "徐立",
+      "officialSections": [
+        "客座教授/研究员"
+      ],
+      "title": "客座教授/研究员",
+      "profileUrl": "https://cs.sjtu.edu.cn/jzhspjs/1389.html",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "retired-霍义兴",
+      "name": "霍义兴",
+      "officialSections": [
+        "退休教师 — 1988年"
+      ],
+      "title": "退休教师",
+      "profileUrl": "https://www.cs.sjtu.edu.cn/txjiaoshi.html",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "retired-张玲珍",
+      "name": "张玲珍",
+      "officialSections": [
+        "退休教师 — 1990年"
+      ],
+      "title": "退休教师",
+      "profileUrl": "https://www.cs.sjtu.edu.cn/txjiaoshi.html",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "retired-蔡美琴",
+      "name": "蔡美琴",
+      "officialSections": [
+        "退休教师 — 1992年"
+      ],
+      "title": "退休教师",
+      "profileUrl": "https://www.cs.sjtu.edu.cn/txjiaoshi.html",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "retired-曹还园",
+      "name": "曹还园",
+      "officialSections": [
+        "退休教师 — 1992年"
+      ],
+      "title": "退休教师",
+      "profileUrl": "https://www.cs.sjtu.edu.cn/txjiaoshi.html",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "retired-邓艳芳",
+      "name": "邓艳芳",
+      "officialSections": [
+        "退休教师 — 1992年"
+      ],
+      "title": "退休教师",
+      "profileUrl": "https://www.cs.sjtu.edu.cn/txjiaoshi.html",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "retired-张德宝",
+      "name": "张德宝",
+      "officialSections": [
+        "退休教师 — 1992年"
+      ],
+      "title": "退休教师",
+      "profileUrl": "https://www.cs.sjtu.edu.cn/txjiaoshi.html",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "retired-曹国樑",
+      "name": "曹国樑",
+      "officialSections": [
+        "退休教师 — 1995年"
+      ],
+      "title": "退休教师",
+      "profileUrl": "https://www.cs.sjtu.edu.cn/txjiaoshi.html",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "retired-王葛",
+      "name": "王葛",
+      "officialSections": [
+        "退休教师 — 1995年"
+      ],
+      "title": "退休教师",
+      "profileUrl": "https://www.cs.sjtu.edu.cn/txjiaoshi.html",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "retired-王金尧",
+      "name": "王金尧",
+      "officialSections": [
+        "退休教师 — 1995年"
+      ],
+      "title": "退休教师",
+      "profileUrl": "https://www.cs.sjtu.edu.cn/txjiaoshi.html",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "retired-朱荣晖",
+      "name": "朱荣晖",
+      "officialSections": [
+        "退休教师 — 1995年"
+      ],
+      "title": "退休教师",
+      "profileUrl": "https://www.cs.sjtu.edu.cn/txjiaoshi.html",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "retired-王绍英",
+      "name": "王绍英",
+      "officialSections": [
+        "退休教师 — 1997年"
+      ],
+      "title": "退休教师",
+      "profileUrl": "https://www.cs.sjtu.edu.cn/txjiaoshi.html",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "retired-姚萝姑",
+      "name": "姚萝姑",
+      "officialSections": [
+        "退休教师 — 1997年"
+      ],
+      "title": "退休教师",
+      "profileUrl": "https://www.cs.sjtu.edu.cn/txjiaoshi.html",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "retired-杜象元",
+      "name": "杜象元",
+      "officialSections": [
+        "退休教师 — 1998年"
+      ],
+      "title": "退休教师",
+      "profileUrl": "https://www.cs.sjtu.edu.cn/txjiaoshi.html",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "retired-梁晋清",
+      "name": "梁晋清",
+      "officialSections": [
+        "退休教师 — 1998年"
+      ],
+      "title": "退休教师",
+      "profileUrl": "https://www.cs.sjtu.edu.cn/txjiaoshi.html",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "retired-杨传厚",
+      "name": "杨传厚",
+      "officialSections": [
+        "退休教师 — 1998年"
+      ],
+      "title": "退休教师",
+      "profileUrl": "https://www.cs.sjtu.edu.cn/txjiaoshi.html",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "retired-何焕熹",
+      "name": "何焕熹",
+      "officialSections": [
+        "退休教师 — 1999年"
+      ],
+      "title": "退休教师",
+      "profileUrl": "https://www.cs.sjtu.edu.cn/txjiaoshi.html",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "retired-金树福",
+      "name": "金树福",
+      "officialSections": [
+        "退休教师 — 1999年"
+      ],
+      "title": "退休教师",
+      "profileUrl": "https://www.cs.sjtu.edu.cn/txjiaoshi.html",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "retired-赵惠琴",
+      "name": "赵惠琴",
+      "officialSections": [
+        "退休教师 — 1999年"
+      ],
+      "title": "退休教师",
+      "profileUrl": "https://www.cs.sjtu.edu.cn/txjiaoshi.html",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "retired-朱卓华",
+      "name": "朱卓华",
+      "officialSections": [
+        "退休教师 — 1999年"
+      ],
+      "title": "退休教师",
+      "profileUrl": "https://www.cs.sjtu.edu.cn/txjiaoshi.html",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "retired-方澈",
+      "name": "方澈",
+      "officialSections": [
+        "退休教师 — 2000年"
+      ],
+      "title": "退休教师",
+      "profileUrl": "https://www.cs.sjtu.edu.cn/txjiaoshi.html",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "retired-何厚存",
+      "name": "何厚存",
+      "officialSections": [
+        "退休教师 — 2000年"
+      ],
+      "title": "退休教师",
+      "profileUrl": "https://www.cs.sjtu.edu.cn/txjiaoshi.html",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "retired-荣震华",
+      "name": "荣震华",
+      "officialSections": [
+        "退休教师 — 2000年"
+      ],
+      "title": "退休教师",
+      "profileUrl": "https://www.cs.sjtu.edu.cn/txjiaoshi.html",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "retired-黄春雷",
+      "name": "黄春雷",
+      "officialSections": [
+        "退休教师 — 2001年"
+      ],
+      "title": "退休教师",
+      "profileUrl": "https://www.cs.sjtu.edu.cn/txjiaoshi.html",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "retired-孙德文",
+      "name": "孙德文",
+      "officialSections": [
+        "退休教师 — 2001年"
+      ],
+      "title": "退休教师",
+      "profileUrl": "https://www.cs.sjtu.edu.cn/txjiaoshi.html",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "retired-孙永强",
+      "name": "孙永强",
+      "officialSections": [
+        "退休教师 — 2001年"
+      ],
+      "title": "退休教师",
+      "profileUrl": "https://www.cs.sjtu.edu.cn/txjiaoshi.html",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "retired-符见望",
+      "name": "符见望",
+      "officialSections": [
+        "退休教师 — 2002年"
+      ],
+      "title": "退休教师",
+      "profileUrl": "https://www.cs.sjtu.edu.cn/txjiaoshi.html",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "retired-李治柱",
+      "name": "李治柱",
+      "officialSections": [
+        "退休教师 — 2002年"
+      ],
+      "title": "退休教师",
+      "profileUrl": "https://www.cs.sjtu.edu.cn/txjiaoshi.html",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "retired-施小英",
+      "name": "施小英",
+      "officialSections": [
+        "退休教师 — 2002年"
+      ],
+      "title": "退休教师",
+      "profileUrl": "https://www.cs.sjtu.edu.cn/txjiaoshi.html",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "retired-吴敬倚",
+      "name": "吴敬倚",
+      "officialSections": [
+        "退休教师 — 2002年"
+      ],
+      "title": "退休教师",
+      "profileUrl": "https://www.cs.sjtu.edu.cn/txjiaoshi.html",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "retired-白英彩",
+      "name": "白英彩",
+      "officialSections": [
+        "退休教师 — 2003年"
+      ],
+      "title": "退休教师",
+      "profileUrl": "https://www.cs.sjtu.edu.cn/txjiaoshi.html",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "retired-崔良沂",
+      "name": "崔良沂",
+      "officialSections": [
+        "退休教师 — 2003年"
+      ],
+      "title": "退休教师",
+      "profileUrl": "https://www.cs.sjtu.edu.cn/txjiaoshi.html",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "retired-顾芝祥",
+      "name": "顾芝祥",
+      "officialSections": [
+        "退休教师 — 2003年"
+      ],
+      "title": "退休教师",
+      "profileUrl": "https://www.cs.sjtu.edu.cn/txjiaoshi.html",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "retired-侯文永",
+      "name": "侯文永",
+      "officialSections": [
+        "退休教师 — 2003年"
+      ],
+      "title": "退休教师",
+      "profileUrl": "https://www.cs.sjtu.edu.cn/txjiaoshi.html",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "retired-陆鑫达",
+      "name": "陆鑫达",
+      "officialSections": [
+        "退休教师 — 2003年"
+      ],
+      "title": "退休教师",
+      "profileUrl": "https://www.cs.sjtu.edu.cn/txjiaoshi.html",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "retired-徐良贤",
+      "name": "徐良贤",
+      "officialSections": [
+        "退休教师 — 2003年"
+      ],
+      "title": "退休教师",
+      "profileUrl": "https://www.cs.sjtu.edu.cn/txjiaoshi.html",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "retired-程国英",
+      "name": "程国英",
+      "officialSections": [
+        "退休教师 — 2004年"
+      ],
+      "title": "退休教师",
+      "profileUrl": "https://www.cs.sjtu.edu.cn/txjiaoshi.html",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "retired-侯东平",
+      "name": "侯东平",
+      "officialSections": [
+        "退休教师 — 2004年"
+      ],
+      "title": "退休教师",
+      "profileUrl": "https://www.cs.sjtu.edu.cn/txjiaoshi.html",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "retired-浦虹",
+      "name": "浦虹",
+      "officialSections": [
+        "退休教师 — 2004年"
+      ],
+      "title": "退休教师",
+      "profileUrl": "https://www.cs.sjtu.edu.cn/txjiaoshi.html",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "retired-王永成",
+      "name": "王永成",
+      "officialSections": [
+        "退休教师 — 2004年"
+      ],
+      "title": "退休教师",
+      "profileUrl": "https://www.cs.sjtu.edu.cn/txjiaoshi.html",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "retired-尤晋元",
+      "name": "尤晋元",
+      "officialSections": [
+        "退休教师 — 2004年"
+      ],
+      "title": "退休教师",
+      "profileUrl": "https://www.cs.sjtu.edu.cn/txjiaoshi.html",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "retired-陈梅菊",
+      "name": "陈梅菊",
+      "officialSections": [
+        "退休教师 — 2005年"
+      ],
+      "title": "退休教师",
+      "profileUrl": "https://www.cs.sjtu.edu.cn/txjiaoshi.html",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "retired-黄力建",
+      "name": "黄力建",
+      "officialSections": [
+        "退休教师 — 2005年"
+      ],
+      "title": "退休教师",
+      "profileUrl": "https://www.cs.sjtu.edu.cn/txjiaoshi.html",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "retired-夏雨人",
+      "name": "夏雨人",
+      "officialSections": [
+        "退休教师 — 2005年"
+      ],
+      "title": "退休教师",
+      "profileUrl": "https://www.cs.sjtu.edu.cn/txjiaoshi.html",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "retired-窦延平",
+      "name": "窦延平",
+      "officialSections": [
+        "退休教师 — 2006年"
+      ],
+      "title": "退休教师",
+      "profileUrl": "https://www.cs.sjtu.edu.cn/txjiaoshi.html",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "retired-顾玲瑛",
+      "name": "顾玲瑛",
+      "officialSections": [
+        "退休教师 — 2006年"
+      ],
+      "title": "退休教师",
+      "profileUrl": "https://www.cs.sjtu.edu.cn/txjiaoshi.html",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "retired-黄上腾",
+      "name": "黄上腾",
+      "officialSections": [
+        "退休教师 — 2006年"
+      ],
+      "title": "退休教师",
+      "profileUrl": "https://www.cs.sjtu.edu.cn/txjiaoshi.html",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "retired-何礼义",
+      "name": "何礼义",
+      "officialSections": [
+        "退休教师 — 2006年"
+      ],
+      "title": "退休教师",
+      "profileUrl": "https://www.cs.sjtu.edu.cn/txjiaoshi.html",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "retired-王绍平",
+      "name": "王绍平",
+      "officialSections": [
+        "退休教师 — 2006年"
+      ],
+      "title": "退休教师",
+      "profileUrl": "https://www.cs.sjtu.edu.cn/txjiaoshi.html",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "retired-袁美珍",
+      "name": "袁美珍",
+      "officialSections": [
+        "退休教师 — 2006年"
+      ],
+      "title": "退休教师",
+      "profileUrl": "https://www.cs.sjtu.edu.cn/txjiaoshi.html",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "retired-章国英",
+      "name": "章国英",
+      "officialSections": [
+        "退休教师 — 2006年"
+      ],
+      "title": "退休教师",
+      "profileUrl": "https://www.cs.sjtu.edu.cn/txjiaoshi.html",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "retired-胡芬兰",
+      "name": "胡芬兰",
+      "officialSections": [
+        "退休教师 — 2007年"
+      ],
+      "title": "退休教师",
+      "profileUrl": "https://www.cs.sjtu.edu.cn/txjiaoshi.html",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "retired-马范援",
+      "name": "马范援",
+      "officialSections": [
+        "退休教师 — 2007年"
+      ],
+      "title": "退休教师",
+      "profileUrl": "https://www.cs.sjtu.edu.cn/txjiaoshi.html",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "retired-徐安东",
+      "name": "徐安东",
+      "officialSections": [
+        "退休教师 — 2007年"
+      ],
+      "title": "退休教师",
+      "profileUrl": "https://www.cs.sjtu.edu.cn/txjiaoshi.html",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "retired-杨金生",
+      "name": "杨金生",
+      "officialSections": [
+        "退休教师 — 2007年"
+      ],
+      "title": "退休教师",
+      "profileUrl": "https://www.cs.sjtu.edu.cn/txjiaoshi.html",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "retired-张尧弼",
+      "name": "张尧弼",
+      "officialSections": [
+        "退休教师 — 2007年"
+      ],
+      "title": "退休教师",
+      "profileUrl": "https://www.cs.sjtu.edu.cn/txjiaoshi.html",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "retired-张月珍",
+      "name": "张月珍",
+      "officialSections": [
+        "退休教师 — 2007年"
+      ],
+      "title": "退休教师",
+      "profileUrl": "https://www.cs.sjtu.edu.cn/txjiaoshi.html",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "retired-赵勤燕",
+      "name": "赵勤燕",
+      "officialSections": [
+        "退休教师 — 2007年"
+      ],
+      "title": "退休教师",
+      "profileUrl": "https://www.cs.sjtu.edu.cn/txjiaoshi.html",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "retired-周惠悠",
+      "name": "周惠悠",
+      "officialSections": [
+        "退休教师 — 2007年"
+      ],
+      "title": "退休教师",
+      "profileUrl": "https://www.cs.sjtu.edu.cn/txjiaoshi.html",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "retired-程龙根",
+      "name": "程龙根",
+      "officialSections": [
+        "退休教师 — 2007年"
+      ],
+      "title": "退休教师",
+      "profileUrl": "https://www.cs.sjtu.edu.cn/txjiaoshi.html",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "retired-戚飞虎",
+      "name": "戚飞虎",
+      "officialSections": [
+        "退休教师 — 2008年"
+      ],
+      "title": "退休教师",
+      "profileUrl": "https://www.cs.sjtu.edu.cn/txjiaoshi.html",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "retired-张凤英",
+      "name": "张凤英",
+      "officialSections": [
+        "退休教师 — 2008年"
+      ],
+      "title": "退休教师",
+      "profileUrl": "https://www.cs.sjtu.edu.cn/txjiaoshi.html",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "retired-郭秀青",
+      "name": "郭秀青",
+      "officialSections": [
+        "退休教师 — 2008年"
+      ],
+      "title": "退休教师",
+      "profileUrl": "https://www.cs.sjtu.edu.cn/txjiaoshi.html",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "retired-毛桂琴",
+      "name": "毛桂琴",
+      "officialSections": [
+        "退休教师 — 2008年"
+      ],
+      "title": "退休教师",
+      "profileUrl": "https://www.cs.sjtu.edu.cn/txjiaoshi.html",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "retired-杨俊凤",
+      "name": "杨俊凤",
+      "officialSections": [
+        "退休教师 — 2008年"
+      ],
+      "title": "退休教师",
+      "profileUrl": "https://www.cs.sjtu.edu.cn/txjiaoshi.html",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "retired-王佩筠",
+      "name": "王佩筠",
+      "officialSections": [
+        "退休教师 — 2009年"
+      ],
+      "title": "退休教师",
+      "profileUrl": "https://www.cs.sjtu.edu.cn/txjiaoshi.html",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "retired-何援军",
+      "name": "何援军",
+      "officialSections": [
+        "退休教师 — 2010年"
+      ],
+      "title": "退休教师",
+      "profileUrl": "https://www.cs.sjtu.edu.cn/txjiaoshi.html",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "retired-凌君逸",
+      "name": "凌君逸",
+      "officialSections": [
+        "退休教师 — 2010年"
+      ],
+      "title": "退休教师",
+      "profileUrl": "https://www.cs.sjtu.edu.cn/txjiaoshi.html",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "retired-陆汝占",
+      "name": "陆汝占",
+      "officialSections": [
+        "退休教师 — 2010年"
+      ],
+      "title": "退休教师",
+      "profileUrl": "https://www.cs.sjtu.edu.cn/txjiaoshi.html",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "retired-赵振斌",
+      "name": "赵振斌",
+      "officialSections": [
+        "退休教师 — 2010年"
+      ],
+      "title": "退休教师",
+      "profileUrl": "https://www.cs.sjtu.edu.cn/txjiaoshi.html",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "retired-沈恩绍",
+      "name": "沈恩绍",
+      "officialSections": [
+        "退休教师 — 2011年"
+      ],
+      "title": "退休教师",
+      "profileUrl": "https://www.cs.sjtu.edu.cn/txjiaoshi.html",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "retired-臧申俊",
+      "name": "臧申俊",
+      "officialSections": [
+        "退休教师 — 2011年"
+      ],
+      "title": "退休教师",
+      "profileUrl": "https://www.cs.sjtu.edu.cn/txjiaoshi.html",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "retired-张申生",
+      "name": "张申生",
+      "officialSections": [
+        "退休教师 — 2011年"
+      ],
+      "title": "退休教师",
+      "profileUrl": "https://www.cs.sjtu.edu.cn/txjiaoshi.html",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "retired-王琼",
+      "name": "王琼",
+      "officialSections": [
+        "退休教师 — 2011年"
+      ],
+      "title": "退休教师",
+      "profileUrl": "https://www.cs.sjtu.edu.cn/txjiaoshi.html",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "retired-许新华",
+      "name": "许新华",
+      "officialSections": [
+        "退休教师 — 2011年"
+      ],
+      "title": "退休教师",
+      "profileUrl": "https://www.cs.sjtu.edu.cn/txjiaoshi.html",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "retired-谢素娟",
+      "name": "谢素娟",
+      "officialSections": [
+        "退休教师 — 2012年"
+      ],
+      "title": "退休教师",
+      "profileUrl": "https://www.cs.sjtu.edu.cn/txjiaoshi.html",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "retired-周维",
+      "name": "周维",
+      "officialSections": [
+        "退休教师 — 2012年"
+      ],
+      "title": "退休教师",
+      "profileUrl": "https://www.cs.sjtu.edu.cn/txjiaoshi.html",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "retired-蔡幼玲",
+      "name": "蔡幼玲",
+      "officialSections": [
+        "退休教师 — 2012年"
+      ],
+      "title": "退休教师",
+      "profileUrl": "https://www.cs.sjtu.edu.cn/txjiaoshi.html",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "retired-骆丽珍",
+      "name": "骆丽珍",
+      "officialSections": [
+        "退休教师 — 2012年"
+      ],
+      "title": "退休教师",
+      "profileUrl": "https://www.cs.sjtu.edu.cn/txjiaoshi.html",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "retired-彭希彤",
+      "name": "彭希彤",
+      "officialSections": [
+        "退休教师 — 2012年"
+      ],
+      "title": "退休教师",
+      "profileUrl": "https://www.cs.sjtu.edu.cn/txjiaoshi.html",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "retired-陈文华",
+      "name": "陈文华",
+      "officialSections": [
+        "退休教师 — 2013年"
+      ],
+      "title": "退休教师",
+      "profileUrl": "https://www.cs.sjtu.edu.cn/txjiaoshi.html",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "retired-王群慧",
+      "name": "王群慧",
+      "officialSections": [
+        "退休教师 — 2014年"
+      ],
+      "title": "退休教师",
+      "profileUrl": "https://www.cs.sjtu.edu.cn/txjiaoshi.html",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "retired-王盈",
+      "name": "王盈",
+      "officialSections": [
+        "退休教师 — 2014年"
+      ],
+      "title": "退休教师",
+      "profileUrl": "https://www.cs.sjtu.edu.cn/txjiaoshi.html",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "retired-陈英",
+      "name": "陈英",
+      "officialSections": [
+        "退休教师 — 2015年"
+      ],
+      "title": "退休教师",
+      "profileUrl": "https://www.cs.sjtu.edu.cn/txjiaoshi.html",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "retired-才华",
+      "name": "才华",
+      "officialSections": [
+        "退休教师 — 2015年"
+      ],
+      "title": "退休教师",
+      "profileUrl": "https://www.cs.sjtu.edu.cn/txjiaoshi.html",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "retired-俞雯",
+      "name": "俞雯",
+      "officialSections": [
+        "退休教师 — 2016年"
+      ],
+      "title": "退休教师",
+      "profileUrl": "https://www.cs.sjtu.edu.cn/txjiaoshi.html",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "retired-张杰",
+      "name": "张杰",
+      "officialSections": [
+        "退休教师 — 2016年"
+      ],
+      "title": "退休教师",
+      "profileUrl": "https://www.cs.sjtu.edu.cn/txjiaoshi.html",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "retired-杨安",
+      "name": "杨安",
+      "officialSections": [
+        "退休教师 — 2017年"
+      ],
+      "title": "退休教师",
+      "profileUrl": "https://www.cs.sjtu.edu.cn/txjiaoshi.html",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "retired-姚天昉",
+      "name": "姚天昉",
+      "officialSections": [
+        "退休教师 — 2017年"
+      ],
+      "title": "退休教师",
+      "profileUrl": "https://www.cs.sjtu.edu.cn/txjiaoshi.html",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "retired-陈亚骏",
+      "name": "陈亚骏",
+      "officialSections": [
+        "退休教师 — 2017年"
+      ],
+      "title": "退休教师",
+      "profileUrl": "https://www.cs.sjtu.edu.cn/txjiaoshi.html",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "retired-徐凌",
+      "name": "徐凌",
+      "officialSections": [
+        "退休教师 — 2017年"
+      ],
+      "title": "退休教师",
+      "profileUrl": "https://www.cs.sjtu.edu.cn/txjiaoshi.html",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "retired-卞加宁",
+      "name": "卞加宁",
+      "officialSections": [
+        "退休教师 — 2018年"
+      ],
+      "title": "退休教师",
+      "profileUrl": "https://www.cs.sjtu.edu.cn/txjiaoshi.html",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "retired-邬根保",
+      "name": "邬根保",
+      "officialSections": [
+        "退休教师 — 2018年"
+      ],
+      "title": "退休教师",
+      "profileUrl": "https://www.cs.sjtu.edu.cn/txjiaoshi.html",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "retired-张忠能",
+      "name": "张忠能",
+      "officialSections": [
+        "退休教师 — 2018年"
+      ],
+      "title": "退休教师",
+      "profileUrl": "https://www.cs.sjtu.edu.cn/txjiaoshi.html",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "retired-伍民友",
+      "name": "伍民友",
+      "officialSections": [
+        "退休教师 — 2019年"
+      ],
+      "title": "退休教师",
+      "profileUrl": "https://www.cs.sjtu.edu.cn/txjiaoshi.html",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "retired-于海波",
+      "name": "于海波",
+      "officialSections": [
+        "退休教师 — 2019年"
+      ],
+      "title": "退休教师",
+      "profileUrl": "https://www.cs.sjtu.edu.cn/txjiaoshi.html",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "retired-张允中",
+      "name": "张允中",
+      "officialSections": [
+        "退休教师 — 2020年"
+      ],
+      "title": "退休教师",
+      "profileUrl": "https://www.cs.sjtu.edu.cn/txjiaoshi.html",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "retired-庄天红",
+      "name": "庄天红",
+      "officialSections": [
+        "退休教师 — 2020年"
+      ],
+      "title": "退休教师",
+      "profileUrl": "https://www.cs.sjtu.edu.cn/txjiaoshi.html",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "retired-蒋建伟",
+      "name": "蒋建伟",
+      "officialSections": [
+        "退休教师 — 2020年"
+      ],
+      "title": "退休教师",
+      "profileUrl": "https://www.cs.sjtu.edu.cn/txjiaoshi.html",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "retired-来学嘉",
+      "name": "来学嘉",
+      "officialSections": [
+        "退休教师 — 2020年"
+      ],
+      "title": "退休教师",
+      "profileUrl": "https://www.cs.sjtu.edu.cn/txjiaoshi.html",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "retired-苑波",
+      "name": "苑波",
+      "officialSections": [
+        "退休教师 — 2020年"
+      ],
+      "title": "退休教师",
+      "profileUrl": "https://www.cs.sjtu.edu.cn/txjiaoshi.html",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "retired-翁惠玉",
+      "name": "翁惠玉",
+      "officialSections": [
+        "退休教师 — 2021年"
+      ],
+      "title": "退休教师",
+      "profileUrl": "https://www.cs.sjtu.edu.cn/txjiaoshi.html",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "retired-步丰林",
+      "name": "步丰林",
+      "officialSections": [
+        "退休教师 — 2021年"
+      ],
+      "title": "退休教师",
+      "profileUrl": "https://www.cs.sjtu.edu.cn/txjiaoshi.html",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "retired-苏志华",
+      "name": "苏志华",
+      "officialSections": [
+        "退休教师 — 2022年"
+      ],
+      "title": "退休教师",
+      "profileUrl": "https://www.cs.sjtu.edu.cn/txjiaoshi.html",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "retired-张冬茉",
+      "name": "张冬茉",
+      "officialSections": [
+        "退休教师 — 2022年"
+      ],
+      "title": "退休教师",
+      "profileUrl": "https://www.cs.sjtu.edu.cn/txjiaoshi.html",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "retired-陈恭亮",
+      "name": "陈恭亮",
+      "officialSections": [
+        "退休教师 — 2022年"
+      ],
+      "title": "退休教师",
+      "profileUrl": "https://www.cs.sjtu.edu.cn/txjiaoshi.html",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "retired-宦飞",
+      "name": "宦飞",
+      "officialSections": [
+        "退休教师 — 2022年"
+      ],
+      "title": "退休教师",
+      "profileUrl": "https://www.cs.sjtu.edu.cn/txjiaoshi.html",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "retired-李芳",
+      "name": "李芳",
+      "officialSections": [
+        "退休教师 — 2023年"
+      ],
+      "title": "退休教师",
+      "profileUrl": "https://www.cs.sjtu.edu.cn/txjiaoshi.html",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "retired-黄小平",
+      "name": "黄小平",
+      "officialSections": [
+        "退休教师 — 2024年"
+      ],
+      "title": "退休教师",
+      "profileUrl": "https://www.cs.sjtu.edu.cn/txjiaoshi.html",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "retired-陆朝俊",
+      "name": "陆朝俊",
+      "officialSections": [
+        "退休教师 — 2024年"
+      ],
+      "title": "退休教师",
+      "profileUrl": "https://www.cs.sjtu.edu.cn/txjiaoshi.html",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "retired-陈平",
+      "name": "陈平",
+      "officialSections": [
+        "退休教师 — 2024年"
+      ],
+      "title": "退休教师",
+      "profileUrl": "https://www.cs.sjtu.edu.cn/txjiaoshi.html",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "retired-饶若楠",
+      "name": "饶若楠",
+      "officialSections": [
+        "退休教师 — 2024年"
+      ],
+      "title": "退休教师",
+      "profileUrl": "https://www.cs.sjtu.edu.cn/txjiaoshi.html",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "retired-邬林妹",
+      "name": "邬林妹",
+      "officialSections": [
+        "退休教师 — 2024年"
+      ],
+      "title": "退休教师",
+      "profileUrl": "https://www.cs.sjtu.edu.cn/txjiaoshi.html",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "retired-张同珍",
+      "name": "张同珍",
+      "officialSections": [
+        "退休教师 — 2025年"
+      ],
+      "title": "退休教师",
+      "profileUrl": "https://www.cs.sjtu.edu.cn/txjiaoshi.html",
+      "portraitUrl": ""
+    },
+    {
+      "officialId": "retired-甘明龙",
+      "name": "甘明龙",
+      "officialSections": [
+        "退休教师 — 2025年"
+      ],
+      "title": "退休教师",
+      "profileUrl": "https://www.cs.sjtu.edu.cn/txjiaoshi.html",
+      "portraitUrl": ""
+    }
+  ]
+}

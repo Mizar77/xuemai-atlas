@@ -8,6 +8,9 @@ const root = join(process.cwd(), "public", "portraits");
 function imageFiles(directory) {
   return readdirSync(directory, { withFileTypes: true }).flatMap((entry) => {
     const path = join(directory, entry.name);
+    // Candidate-research caches are retained for provenance review but are not
+    // atlas portrait assets; promoted portraits live in their batch folders.
+    if (entry.isDirectory() && entry.name.includes("profile-audit")) return [];
     return entry.isDirectory() ? imageFiles(path) : [path];
   }).filter((path) => [".jpg", ".jpeg", ".png", ".webp"].includes(extname(path).toLowerCase()));
 }

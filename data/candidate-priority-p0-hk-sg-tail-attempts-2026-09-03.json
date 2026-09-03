@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-03",
+  "sourceLedger": "data/candidate-priority-p0-master-disposition-2026-09-03.json",
+  "attemptedCount": 10,
+  "readyCount": 10,
+  "blockedAttemptedCount": 0,
+  "notAttemptedInCheckpoint": 266,
+  "selectionPolicy": "Impact and source completeness first; checkpoint closed once ten candidates met every publication gate.",
+  "attempts": [
+    { "name": "Chi Wing Fu", "region": "Hong Kong", "result": "ready", "checked": ["CUHK CSE faculty profile", "CUHK CSE faculty roster", "first-party group and alumni page"] },
+    { "name": "Patrick P. C. Lee", "region": "Hong Kong", "result": "ready", "checked": ["CUHK CSE faculty profile", "CUHK CSE faculty roster", "first-party people and alumni page"] },
+    { "name": "Qiang Xu", "region": "Hong Kong", "result": "ready", "checked": ["CUHK CSE faculty profile", "CUHK CSE faculty roster", "first-party research-group page"] },
+    { "name": "Yixuan Yuan", "region": "Hong Kong", "result": "ready", "checked": ["CUHK EE faculty profile", "CUHK EE academic-staff roster", "first-party AIM group page"] },
+    { "name": "Shengchao Liu", "region": "Hong Kong", "result": "ready", "checked": ["CUHK CSE faculty profile", "CUHK CSE faculty roster", "first-party academic homepage"] },
+    { "name": "Yingzhen Li", "region": "Singapore", "result": "ready", "checked": ["NTU research profile", "NTU CCDS faculty roster", "first-party homepage and group page"] },
+    { "name": "Yu Han", "region": "Singapore", "result": "ready", "checked": ["NTU research profile", "NTU CCDS faculty roster", "first-party academic homepage"] },
+    { "name": "Alvin Chan Guo Wei", "region": "Singapore", "result": "ready", "checked": ["NTU research profile", "NTU CCDS faculty roster", "first-party homepage and CV"] },
+    { "name": "Anji Liu", "region": "Singapore", "result": "ready", "checked": ["NUS faculty profile", "NUS faculty roster", "first-party homepage", "UCLA official PhD commencement record"] },
+    { "name": "Tsuhan Chen", "region": "Singapore", "result": "ready", "checked": ["NUS faculty profile", "NUS faculty roster", "NUS research profile", "Cornell-hosted advisee thesis"] }
+  ],
+  "remainingBlockers": {
+    "missing_portrait": 45,
+    "missing_relationship": 221,
+    "note": "These 266 records were not reclassified in this checkpoint; their prior disposition is preserved rather than inferred."
+  }
+}

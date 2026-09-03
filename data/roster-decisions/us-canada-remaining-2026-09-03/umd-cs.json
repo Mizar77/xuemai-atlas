@@ -1,0 +1,3160 @@
+{
+  "schemaVersion": 1,
+  "unitId": "umd-cs",
+  "unitLabel": "University of Maryland Computer Science",
+  "unitUrl": "https://www.cs.umd.edu/people/faculty",
+  "snapshotAt": "2026-09-03",
+  "rosterArtifact": "data/official-rosters/umd-cs-all-faculty-2026-09-02.json",
+  "frozenOfficialRosterCount": 176,
+  "rawRosterRowCount": 176,
+  "duplicateRosterCardCount": 0,
+  "deduplicatedRosterPersonCount": 176,
+  "decisionCount": 176,
+  "counts": {
+    "excluded_historical": 18,
+    "excluded_non_pi": 87,
+    "include_new_pi": 66,
+    "included_existing": 5
+  },
+  "decisions": [
+    {
+      "officialId": "abadi",
+      "rosterName": "Daniel Abadi",
+      "title": "Professor",
+      "profileUrl": "https://www.cs.umd.edu/people/abadi",
+      "portraitUrl": "https://www.cs.umd.edu/sites/default/files/styles/thumbnail/public/images/userpictures/dan_2019.jpg?itok=Ix8KrdVS&c=ca837d531c5e886829e714e1f78340b6",
+      "officialSections": [
+        "CS Faculty"
+      ],
+      "researchFields": [
+        "Databases and Big Data",
+        "Systems, Networking, and Architecture"
+      ],
+      "unitUrl": "https://www.cs.umd.edu/people/faculty",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Professor | CS Faculty | Databases and Big Data · Systems, Networking, and Architecture | https://www.cs.umd.edu/people/abadi",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "agrawala",
+      "rosterName": "Ashok Agrawala",
+      "title": "Professor",
+      "profileUrl": "https://www.cs.umd.edu/people/agrawala",
+      "portraitUrl": "https://www.cs.umd.edu/sites/default/files/styles/thumbnail/public/images/userpictures/agrawala.jpg?itok=I3oFZVuj&c=4c837d87cde282beaf49afc5eccb1d02",
+      "officialSections": [
+        "CS Faculty"
+      ],
+      "researchFields": [
+        "Systems, Networking, and Architecture",
+        "Machine Learning and Data Science",
+        "IoT and Wearables Technology"
+      ],
+      "unitUrl": "https://www.cs.umd.edu/people/faculty",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Professor | CS Faculty | Systems, Networking, and Architecture · Machine Learning and Data Science · IoT and Wearables Technology | https://www.cs.umd.edu/people/agrawala",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "fardina",
+      "rosterName": "Fardina Alam",
+      "title": "Lecturer",
+      "profileUrl": "https://www.cs.umd.edu/people/fardina",
+      "portraitUrl": "https://www.cs.umd.edu/sites/default/files/styles/thumbnail/public/images/userpictures/IMG_9608.JPG?itok=ys6cZaRl&c=fec49da77a4b003f67f65e697089a16c",
+      "officialSections": [
+        "CS Faculty"
+      ],
+      "researchFields": [
+        "Bioinformatics and Computational Biology",
+        "Machine Learning and Data Science"
+      ],
+      "unitUrl": "https://www.cs.umd.edu/people/faculty",
+      "decision": "excluded_non_pi",
+      "reason": "官方职称或名录分组属于教学、兼职、附属、科研支持或其他非独立 PI 岗位。",
+      "evidence": "Lecturer | CS Faculty | Bioinformatics and Computational Biology · Machine Learning and Data Science | https://www.cs.umd.edu/people/fardina"
+    },
+    {
+      "officialId": "jyaloimo",
+      "rosterName": "John Aloimonos",
+      "title": "Professor",
+      "profileUrl": "https://www.cs.umd.edu/people/jyaloimo",
+      "portraitUrl": "https://www.cs.umd.edu/sites/default/files/styles/thumbnail/public/images/userpictures/John%20Aloimonos.jpg?itok=YuhsCK5A&c=ca7af2ca2800a2c42d8a4113f182c35c",
+      "officialSections": [
+        "CS Faculty"
+      ],
+      "researchFields": [
+        "AI and Robotics",
+        "Computer Vision and Machine Perception",
+        "Graphics Visualization and VR AR"
+      ],
+      "unitUrl": "https://www.cs.umd.edu/people/faculty",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Professor | CS Faculty | AI and Robotics · Computer Vision and Machine Perception · Graphics Visualization and VR AR | https://www.cs.umd.edu/people/jyaloimo",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "bahar",
+      "rosterName": "Bahar Asgari",
+      "title": "Assistant Professor",
+      "profileUrl": "https://www.cs.umd.edu/people/bahar",
+      "portraitUrl": "https://www.cs.umd.edu/sites/default/files/styles/thumbnail/public/images/userpictures/Bahar_Asgari.jpeg?itok=NhlG4SXt&c=0fbcd4a6a3653f866e7bb3d3037e1bf5",
+      "officialSections": [
+        "CS Faculty"
+      ],
+      "researchFields": [
+        "Systems, Networking, and Architecture",
+        "High Performance and Scientific Computing"
+      ],
+      "unitUrl": "https://www.cs.umd.edu/people/faculty",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Assistant Professor | CS Faculty | Systems, Networking, and Architecture · High Performance and Scientific Computing | https://www.cs.umd.edu/people/bahar",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "cyb",
+      "rosterName": "Clifford Bakalian",
+      "title": "Lecturer",
+      "profileUrl": "https://www.cs.umd.edu/people/cyb",
+      "portraitUrl": "https://www.cs.umd.edu/sites/default/files/styles/thumbnail/public/images/userpictures/Snapchat-1232086035.jpg?itok=7Tn8d2Km&c=6a988621e4b886d8be3c5cf436ffaa1d",
+      "officialSections": [
+        "CS Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cs.umd.edu/people/faculty",
+      "decision": "excluded_non_pi",
+      "reason": "官方职称或名录分组属于教学、兼职、附属、科研支持或其他非独立 PI 岗位。",
+      "evidence": "Lecturer | CS Faculty | https://www.cs.umd.edu/people/cyb"
+    },
+    {
+      "officialId": "calin",
+      "rosterName": "Calin Belta",
+      "title": "Professor",
+      "profileUrl": "https://www.cs.umd.edu/people/calin",
+      "portraitUrl": "https://www.cs.umd.edu/sites/default/files/styles/thumbnail/public/images/userpictures/Calin%20Belta.jpg?itok=wGBhLWVE&c=a0a0ed22325484f04c9810ceefe055f7",
+      "officialSections": [
+        "CS Faculty"
+      ],
+      "researchFields": [
+        "AI and Robotics",
+        "Bioinformatics and Computational Biology",
+        "Machine Learning and Data Science"
+      ],
+      "unitUrl": "https://www.cs.umd.edu/people/faculty",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Professor | CS Faculty | AI and Robotics · Bioinformatics and Computational Biology · Machine Learning and Data Science | https://www.cs.umd.edu/people/calin",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "bhatele",
+      "rosterName": "Abhinav Bhatele",
+      "title": "Professor",
+      "profileUrl": "https://www.cs.umd.edu/people/bhatele",
+      "portraitUrl": "https://www.cs.umd.edu/sites/default/files/styles/thumbnail/public/images/userpictures/bhatele-4-square.jpg?itok=U3D7elGb",
+      "officialSections": [
+        "CS Faculty"
+      ],
+      "researchFields": [
+        "High Performance and Scientific Computing",
+        "Systems, Networking, and Architecture"
+      ],
+      "unitUrl": "https://www.cs.umd.edu/people/faculty",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Professor | CS Faculty | High Performance and Scientific Computing · Systems, Networking, and Architecture | https://www.cs.umd.edu/people/bhatele",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "bobby",
+      "rosterName": "Bobby Bhattacharjee",
+      "title": "Professor",
+      "profileUrl": "https://www.cs.umd.edu/people/bobby",
+      "portraitUrl": "https://www.cs.umd.edu/sites/default/files/styles/thumbnail/public/default_images/user_icon.png?itok=YGrztVGT",
+      "officialSections": [
+        "CS Faculty"
+      ],
+      "researchFields": [
+        "Cybersecurity and Cryptography",
+        "Systems, Networking, and Architecture"
+      ],
+      "unitUrl": "https://www.cs.umd.edu/people/faculty",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Professor | CS Faculty | Cybersecurity and Cryptography · Systems, Networking, and Architecture | https://www.cs.umd.edu/people/bobby",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "ying",
+      "rosterName": "Jordan Boyd-Graber",
+      "title": "Professor",
+      "profileUrl": "https://www.cs.umd.edu/people/ying",
+      "portraitUrl": "https://www.cs.umd.edu/sites/default/files/styles/thumbnail/public/images/userpictures/boyd-graber.png?itok=WWXwzE0J&c=693e11a0b8e9eacac34c2373cbfca06d",
+      "officialSections": [
+        "CS Faculty"
+      ],
+      "researchFields": [
+        "AI and Robotics",
+        "Information Retrieval and Geographic Information Systems (GIS)",
+        "Machine Learning and Data Science",
+        "Natural Language Processing"
+      ],
+      "unitUrl": "https://www.cs.umd.edu/people/faculty",
+      "decision": "included_existing",
+      "atlasPersonId": "jordan-boyd-graber-lineage",
+      "reason": "符合范围，且规范化姓名可与当前图谱人物唯一匹配。",
+      "evidence": "Professor | CS Faculty | AI and Robotics · Information Retrieval and Geographic Information Systems (GIS) · Machine Learning and Data Science · Natural Language Processing | https://www.cs.umd.edu/people/ying"
+    },
+    {
+      "officialId": "nburkhau",
+      "rosterName": "Nora Burkhauser",
+      "title": "Lecturer",
+      "profileUrl": "https://www.cs.umd.edu/people/nburkhau",
+      "portraitUrl": "https://www.cs.umd.edu/sites/default/files/styles/thumbnail/public/images/userpictures/IMG_2803.jpg?itok=5im1G7St&c=a988509da0c92f81a650be0a8e8cb42c",
+      "officialSections": [
+        "CS Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cs.umd.edu/people/faculty",
+      "decision": "excluded_non_pi",
+      "reason": "官方职称或名录分组属于教学、兼职、附属、科研支持或其他非独立 PI 岗位。",
+      "evidence": "Lecturer | CS Faculty | https://www.cs.umd.edu/people/nburkhau"
+    },
+    {
+      "officialId": "marine",
+      "rosterName": "Marine Carpuat",
+      "title": "Professor",
+      "profileUrl": "https://www.cs.umd.edu/people/marine",
+      "portraitUrl": "https://www.cs.umd.edu/sites/default/files/styles/thumbnail/public/images/userpictures/marine.jpg?itok=JsWU1M_F&c=b07d6b94a64ef5a8e8fdb5a3a2d05efe",
+      "officialSections": [
+        "CS Faculty"
+      ],
+      "researchFields": [
+        "AI and Robotics",
+        "Machine Learning and Data Science",
+        "Natural Language Processing"
+      ],
+      "unitUrl": "https://www.cs.umd.edu/people/faculty",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Professor | CS Faculty | AI and Robotics · Machine Learning and Data Science · Natural Language Processing | https://www.cs.umd.edu/people/marine",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "yzchen",
+      "rosterName": "Yizheng Chen",
+      "title": "Assistant Professor",
+      "profileUrl": "https://www.cs.umd.edu/people/yzchen",
+      "portraitUrl": "https://www.cs.umd.edu/sites/default/files/styles/thumbnail/public/images/userpictures/yizheng-umd-v3.jpeg?itok=gVrpuVDn",
+      "officialSections": [
+        "CS Faculty"
+      ],
+      "researchFields": [
+        "Cybersecurity and Cryptography",
+        "Machine Learning and Data Science"
+      ],
+      "unitUrl": "https://www.cs.umd.edu/people/faculty",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Assistant Professor | CS Faculty | Cybersecurity and Cryptography · Machine Learning and Data Science | https://www.cs.umd.edu/people/yzchen",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "amchilds",
+      "rosterName": "Andrew Childs",
+      "title": "Professor",
+      "profileUrl": "https://www.cs.umd.edu/people/amchilds",
+      "portraitUrl": "https://www.cs.umd.edu/sites/default/files/styles/thumbnail/public/images/userpictures/amchilds.jpg?itok=6ptLsoWj",
+      "officialSections": [
+        "CS Faculty"
+      ],
+      "researchFields": [
+        "Quantum Computing",
+        "Algorithms and Theory"
+      ],
+      "unitUrl": "https://www.cs.umd.edu/people/faculty",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Professor | CS Faculty | Quantum Computing · Algorithms and Theory | https://www.cs.umd.edu/people/amchilds",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "hal3",
+      "rosterName": "Hal Daumé III",
+      "title": "Professor",
+      "profileUrl": "https://www.cs.umd.edu/people/hal3",
+      "portraitUrl": "https://www.cs.umd.edu/sites/default/files/styles/thumbnail/public/images/userpictures/me-photo.jpg?itok=j02wbRmx",
+      "officialSections": [
+        "CS Faculty"
+      ],
+      "researchFields": [
+        "AI and Robotics",
+        "Machine Learning and Data Science",
+        "Natural Language Processing"
+      ],
+      "unitUrl": "https://www.cs.umd.edu/people/faculty",
+      "decision": "included_existing",
+      "atlasPersonId": "hal-daume-lineage",
+      "reason": "符合范围，且规范化姓名可与当前图谱人物唯一匹配。",
+      "evidence": "Professor | CS Faculty | AI and Robotics · Machine Learning and Data Science · Natural Language Processing | https://www.cs.umd.edu/people/hal3"
+    },
+    {
+      "officialId": "amol",
+      "rosterName": "Amol Deshpande",
+      "title": "Professor",
+      "profileUrl": "https://www.cs.umd.edu/people/amol",
+      "portraitUrl": "https://www.cs.umd.edu/sites/default/files/styles/thumbnail/public/images/userpictures/deshpande.jpg?itok=MMNBxywd&c=d0b2b4ebcd3f0b4ed6869e56be8fe000",
+      "officialSections": [
+        "CS Faculty"
+      ],
+      "researchFields": [
+        "Databases and Big Data",
+        "Machine Learning and Data Science"
+      ],
+      "unitUrl": "https://www.cs.umd.edu/people/faculty",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Professor | CS Faculty | Databases and Big Data · Machine Learning and Data Science | https://www.cs.umd.edu/people/amol",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "laxman",
+      "rosterName": "Laxman Dhulipala",
+      "title": "Assistant Professor",
+      "profileUrl": "https://www.cs.umd.edu/people/laxman",
+      "portraitUrl": "https://www.cs.umd.edu/sites/default/files/styles/thumbnail/public/images/userpictures/headshot_3.jpg?itok=sRrvQWzH",
+      "officialSections": [
+        "CS Faculty"
+      ],
+      "researchFields": [
+        "Algorithms and Theory",
+        "High Performance and Scientific Computing",
+        "Databases and Big Data",
+        "Systems, Networking, and Architecture"
+      ],
+      "unitUrl": "https://www.cs.umd.edu/people/faculty",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Assistant Professor | CS Faculty | Algorithms and Theory · High Performance and Scientific Computing · Databases and Big Data · Systems, Networking, and Architecture | https://www.cs.umd.edu/people/laxman",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "ramanid",
+      "rosterName": "Ramani Duraiswami",
+      "title": "Professor",
+      "profileUrl": "https://www.cs.umd.edu/people/ramanid",
+      "portraitUrl": "https://www.cs.umd.edu/sites/default/files/styles/thumbnail/public/images/userpictures/r-duraiswami-web.jpg?itok=xplQrIaT&c=628e6c0c5578512a7bac8304a4780cbf",
+      "officialSections": [
+        "CS Faculty"
+      ],
+      "researchFields": [
+        "Computer Vision and Machine Perception",
+        "High Performance and Scientific Computing",
+        "Information Retrieval and Geographic Information Systems (GIS)"
+      ],
+      "unitUrl": "https://www.cs.umd.edu/people/faculty",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Professor | CS Faculty | Computer Vision and Machine Perception · High Performance and Scientific Computing · Information Retrieval and Geographic Information Systems (GIS) | https://www.cs.umd.edu/people/ramanid",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "reastman",
+      "rosterName": "Roger Eastman",
+      "title": "Professor of the Practice",
+      "profileUrl": "https://www.cs.umd.edu/people/reastman",
+      "portraitUrl": "https://www.cs.umd.edu/sites/default/files/styles/thumbnail/public/images/userpictures/UMIACS_01162019_3619_1.JPG?itok=Uindnaxh&c=819535d9e5cd7177cc84304e13f5d03b",
+      "officialSections": [
+        "CS Faculty"
+      ],
+      "researchFields": [
+        "AI and Robotics",
+        "Computer Vision and Machine Perception",
+        "Graphics Visualization and VR AR"
+      ],
+      "unitUrl": "https://www.cs.umd.edu/people/faculty",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Professor of the Practice | CS Faculty | AI and Robotics · Computer Vision and Machine Perception · Graphics Visualization and VR AR | https://www.cs.umd.edu/people/reastman",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "fpe",
+      "rosterName": "Fawzi Emad",
+      "title": "Principal Lecturer",
+      "profileUrl": "https://www.cs.umd.edu/people/fpe",
+      "portraitUrl": "https://www.cs.umd.edu/sites/default/files/styles/thumbnail/public/images/userpictures/Fawzi%20Emad.jpg?itok=SPvGoS-l&c=162c24414ed4411cfd4e58b57d47ed93",
+      "officialSections": [
+        "CS Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cs.umd.edu/people/faculty",
+      "decision": "excluded_non_pi",
+      "reason": "官方职称或名录分组属于教学、兼职、附属、科研支持或其他非独立 PI 岗位。",
+      "evidence": "Principal Lecturer | CS Faculty | https://www.cs.umd.edu/people/fpe"
+    },
+    {
+      "officialId": "annae",
+      "rosterName": "Anna Evtushenko",
+      "title": "Lecturer",
+      "profileUrl": "https://www.cs.umd.edu/people/annae",
+      "portraitUrl": "https://www.cs.umd.edu/sites/default/files/styles/thumbnail/public/default_images/user_icon.png?itok=YGrztVGT",
+      "officialSections": [
+        "CS Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cs.umd.edu/people/faculty",
+      "decision": "excluded_non_pi",
+      "reason": "官方职称或名录分组属于教学、兼职、附属、科研支持或其他非独立 PI 岗位。",
+      "evidence": "Lecturer | CS Faculty | https://www.cs.umd.edu/people/annae"
+    },
+    {
+      "officialId": "sfeizi",
+      "rosterName": "Soheil Feizi",
+      "title": "Associate Professor",
+      "profileUrl": "https://www.cs.umd.edu/people/sfeizi",
+      "portraitUrl": "https://www.cs.umd.edu/sites/default/files/styles/thumbnail/public/images/userpictures/Soheil%20Feizi-profile%20picture.jpg?itok=q8qEjpl2&c=0ca755fa47ca1414d88b7cb4419da00a",
+      "officialSections": [
+        "CS Faculty"
+      ],
+      "researchFields": [
+        "Machine Learning and Data Science",
+        "Computer Vision and Machine Perception",
+        "AI and Robotics"
+      ],
+      "unitUrl": "https://www.cs.umd.edu/people/faculty",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Associate Professor | CS Faculty | Machine Learning and Data Science · Computer Vision and Machine Perception · AI and Robotics | https://www.cs.umd.edu/people/sfeizi",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "firtina",
+      "rosterName": "Can Firtina",
+      "title": "Assistant Professor",
+      "profileUrl": "https://www.cs.umd.edu/people/firtina",
+      "portraitUrl": "https://www.cs.umd.edu/sites/default/files/styles/thumbnail/public/images/userpictures/Can03_rect.jpg?itok=LO4lrzmX&c=1fd2ab476d19fe2275d6773f2b22ed77",
+      "officialSections": [
+        "CS Faculty"
+      ],
+      "researchFields": [
+        "Bioinformatics and Computational Biology",
+        "Systems, Networking, and Architecture",
+        "Machine Learning and Data Science"
+      ],
+      "unitUrl": "https://www.cs.umd.edu/people/faculty",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Assistant Professor | CS Faculty | Bioinformatics and Computational Biology · Systems, Networking, and Architecture · Machine Learning and Data Science | https://www.cs.umd.edu/people/firtina",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "hfrances",
+      "rosterName": "Hervé Franceschi",
+      "title": "Senior Lecturer",
+      "profileUrl": "https://www.cs.umd.edu/people/hfrances",
+      "portraitUrl": "https://www.cs.umd.edu/sites/default/files/styles/thumbnail/public/images/userpictures/thumb_IMG_0319_1024.jpg?itok=Wa-llvFu",
+      "officialSections": [
+        "CS Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cs.umd.edu/people/faculty",
+      "decision": "excluded_non_pi",
+      "reason": "官方职称或名录分组属于教学、兼职、附属、科研支持或其他非独立 PI 岗位。",
+      "evidence": "Senior Lecturer | CS Faculty | https://www.cs.umd.edu/people/hfrances"
+    },
+    {
+      "officialId": "rhgao",
+      "rosterName": "Ruohan Gao",
+      "title": "Assistant Professor",
+      "profileUrl": "https://www.cs.umd.edu/people/rhgao",
+      "portraitUrl": "https://www.cs.umd.edu/sites/default/files/styles/thumbnail/public/images/userpictures/Ruohan_Gao.jpg?itok=VbXMz6FT&c=f0e95ace56112d94086e33b40c0d714e",
+      "officialSections": [
+        "CS Faculty"
+      ],
+      "researchFields": [
+        "Computer Vision and Machine Perception",
+        "AI and Robotics",
+        "Machine Learning and Data Science",
+        "Graphics Visualization and VR AR"
+      ],
+      "unitUrl": "https://www.cs.umd.edu/people/faculty",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Assistant Professor | CS Faculty | Computer Vision and Machine Perception · AI and Robotics · Machine Learning and Data Science · Graphics Visualization and VR AR | https://www.cs.umd.edu/people/rhgao",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "gasarch",
+      "rosterName": "William Gasarch",
+      "title": "Professor",
+      "profileUrl": "https://www.cs.umd.edu/people/gasarch",
+      "portraitUrl": "https://www.cs.umd.edu/sites/default/files/styles/thumbnail/public/images/userpictures/billvdw.jpg?itok=BLgQ0Jjj&c=ab96e1cb31ca5bf3e6e0c96c466a79f1",
+      "officialSections": [
+        "CS Faculty"
+      ],
+      "researchFields": [
+        "Algorithms and Theory"
+      ],
+      "unitUrl": "https://www.cs.umd.edu/people/faculty",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Professor | CS Faculty | Algorithms and Theory | https://www.cs.umd.edu/people/gasarch",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "tomg",
+      "rosterName": "Tom Goldstein",
+      "title": "Professor",
+      "profileUrl": "https://www.cs.umd.edu/people/tomg",
+      "portraitUrl": "https://www.cs.umd.edu/sites/default/files/styles/thumbnail/public/images/userpictures/good2_wide_edit_crop_1.jpg?itok=WWIQZE7I&c=31bede39b717b3f42b1307d45f57e540",
+      "officialSections": [
+        "CS Faculty"
+      ],
+      "researchFields": [
+        "AI and Robotics",
+        "Computer Vision and Machine Perception",
+        "High Performance and Scientific Computing",
+        "Machine Learning and Data Science"
+      ],
+      "unitUrl": "https://www.cs.umd.edu/people/faculty",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Professor | CS Faculty | AI and Robotics · Computer Vision and Machine Perception · High Performance and Scientific Computing · Machine Learning and Data Science | https://www.cs.umd.edu/people/tomg",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "egolub",
+      "rosterName": "Evan Golub",
+      "title": "Principal Lecturer",
+      "profileUrl": "https://www.cs.umd.edu/people/egolub",
+      "portraitUrl": "https://www.cs.umd.edu/sites/default/files/styles/thumbnail/public/images/userpictures/Golub.jpg?itok=DD7wPoZd&c=93b65b124c66c9bdd29e029175f14cdb",
+      "officialSections": [
+        "CS Faculty"
+      ],
+      "researchFields": [
+        "Human Computer Interaction"
+      ],
+      "unitUrl": "https://www.cs.umd.edu/people/faculty",
+      "decision": "excluded_non_pi",
+      "reason": "官方职称或名录分组属于教学、兼职、附属、科研支持或其他非独立 PI 岗位。",
+      "evidence": "Principal Lecturer | CS Faculty | Human Computer Interaction | https://www.cs.umd.edu/people/egolub"
+    },
+    {
+      "officialId": "egonzal5",
+      "rosterName": "Elias Gonzalez",
+      "title": "Lecturer",
+      "profileUrl": "https://www.cs.umd.edu/people/egonzal5",
+      "portraitUrl": "https://www.cs.umd.edu/sites/default/files/styles/thumbnail/public/images/userpictures/Elias%20Gonzalez-17.jpg?itok=ixavJM82&c=76b01d9134790809962b970821ec8ca9",
+      "officialSections": [
+        "CS Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cs.umd.edu/people/faculty",
+      "decision": "excluded_non_pi",
+      "reason": "官方职称或名录分组属于教学、兼职、附属、科研支持或其他非独立 PI 岗位。",
+      "evidence": "Lecturer | CS Faculty | https://www.cs.umd.edu/people/egonzal5"
+    },
+    {
+      "officialId": "dgottesm",
+      "rosterName": "Daniel Gottesman",
+      "title": "Professor",
+      "profileUrl": "https://www.cs.umd.edu/people/dgottesm",
+      "portraitUrl": "https://www.cs.umd.edu/sites/default/files/styles/thumbnail/public/images/userpictures/daniel_gottesman.jpg?itok=X2yZeeSB&c=661ead4711748a1c0b4a394704b41fbc",
+      "officialSections": [
+        "CS Faculty"
+      ],
+      "researchFields": [
+        "Algorithms and Theory",
+        "Quantum Computing"
+      ],
+      "unitUrl": "https://www.cs.umd.edu/people/faculty",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Professor | CS Faculty | Algorithms and Theory · Quantum Computing | https://www.cs.umd.edu/people/dgottesm",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "ritwikg",
+      "rosterName": "Ritwik Gupta",
+      "title": "Assistant Professor",
+      "profileUrl": "https://www.cs.umd.edu/people/ritwikg",
+      "portraitUrl": "https://www.cs.umd.edu/sites/default/files/styles/thumbnail/public/images/userpictures/RitwikBerkeleyHeadshot.jpg?itok=udzlnPEO",
+      "officialSections": [
+        "CS Faculty"
+      ],
+      "researchFields": [
+        "Computer Vision and Machine Perception",
+        "Machine Learning and Data Science"
+      ],
+      "unitUrl": "https://www.cs.umd.edu/people/faculty",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Assistant Professor | CS Faculty | Computer Vision and Machine Perception · Machine Learning and Data Science | https://www.cs.umd.edu/people/ritwikg",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "hajiagha",
+      "rosterName": "Mohammad Hajiaghayi",
+      "title": "Professor",
+      "profileUrl": "https://www.cs.umd.edu/people/hajiagha",
+      "portraitUrl": "https://www.cs.umd.edu/sites/default/files/styles/thumbnail/public/images/userpictures/mohammad%20%281%20of%201%29.jpg?itok=UN1ThZau&c=9b345bc26c15999e6aab497aa218f8e6",
+      "officialSections": [
+        "CS Faculty"
+      ],
+      "researchFields": [
+        "Algorithms and Theory",
+        "Databases and Big Data",
+        "Machine Learning and Data Science"
+      ],
+      "unitUrl": "https://www.cs.umd.edu/people/faculty",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Professor | CS Faculty | Algorithms and Theory · Databases and Big Data · Machine Learning and Data Science | https://www.cs.umd.edu/people/hajiagha",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "larry",
+      "rosterName": "Larry Herman",
+      "title": "Lecturer",
+      "profileUrl": "https://www.cs.umd.edu/people/larry",
+      "portraitUrl": "https://www.cs.umd.edu/sites/default/files/styles/thumbnail/public/default_images/user_icon.png?itok=YGrztVGT",
+      "officialSections": [
+        "CS Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cs.umd.edu/people/faculty",
+      "decision": "excluded_non_pi",
+      "reason": "官方职称或名录分组属于教学、兼职、附属、科研支持或其他非独立 PI 岗位。",
+      "evidence": "Lecturer | CS Faculty | https://www.cs.umd.edu/people/larry"
+    },
+    {
+      "officialId": "hollings",
+      "rosterName": "Jeffrey K. Hollingsworth",
+      "title": "Professor",
+      "profileUrl": "https://www.cs.umd.edu/people/hollings",
+      "portraitUrl": "https://www.cs.umd.edu/sites/default/files/styles/thumbnail/public/images/userpictures/IMG_2456_1.JPG?itok=S9kDln5x",
+      "officialSections": [
+        "CS Faculty"
+      ],
+      "researchFields": [
+        "High Performance and Scientific Computing",
+        "Systems, Networking, and Architecture"
+      ],
+      "unitUrl": "https://www.cs.umd.edu/people/faculty",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Professor | CS Faculty | High Performance and Scientific Computing · Systems, Networking, and Architecture | https://www.cs.umd.edu/people/hollings",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "jbhuang",
+      "rosterName": "Jia-Bin Huang",
+      "title": "Associate Professor",
+      "profileUrl": "https://www.cs.umd.edu/people/jbhuang",
+      "portraitUrl": "https://www.cs.umd.edu/sites/default/files/styles/thumbnail/public/images/userpictures/jbhuang.jpeg?itok=FWW9EA-E&c=c64e94c0fed9f358401927c150ca401a",
+      "officialSections": [
+        "CS Faculty"
+      ],
+      "researchFields": [
+        "AI and Robotics",
+        "Computer Vision and Machine Perception",
+        "Graphics Visualization and VR AR",
+        "Machine Learning and Data Science"
+      ],
+      "unitUrl": "https://www.cs.umd.edu/people/faculty",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Associate Professor | CS Faculty | AI and Robotics · Computer Vision and Machine Perception · Graphics Visualization and VR AR · Machine Learning and Data Science | https://www.cs.umd.edu/people/jbhuang",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "heng",
+      "rosterName": "Heng Huang",
+      "title": "Professor",
+      "profileUrl": "https://www.cs.umd.edu/people/heng",
+      "portraitUrl": "https://www.cs.umd.edu/sites/default/files/styles/thumbnail/public/images/userpictures/square.jpg?itok=riOEPHto",
+      "officialSections": [
+        "CS Faculty"
+      ],
+      "researchFields": [
+        "Machine Learning and Data Science",
+        "Bioinformatics and Computational Biology",
+        "Computer Vision and Machine Perception",
+        "Natural Language Processing",
+        "AI and Robotics"
+      ],
+      "unitUrl": "https://www.cs.umd.edu/people/faculty",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Professor | CS Faculty | Machine Learning and Data Science · Bioinformatics and Computational Biology · Computer Vision and Machine Perception · Natural Language Processing · AI and Robotics | https://www.cs.umd.edu/people/heng",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "furongh",
+      "rosterName": "Furong Huang",
+      "title": "Associate Professor",
+      "profileUrl": "https://www.cs.umd.edu/people/furongh",
+      "portraitUrl": "https://www.cs.umd.edu/sites/default/files/styles/thumbnail/public/images/userpictures/Professional-Headshot-Furong-Huang-Cropped.jpg?itok=gN0DoLnk",
+      "officialSections": [
+        "CS Faculty"
+      ],
+      "researchFields": [
+        "AI and Robotics",
+        "Machine Learning and Data Science",
+        "Natural Language Processing",
+        "Computer Vision and Machine Perception",
+        "High Performance and Scientific Computing",
+        "Algorithms and Theory"
+      ],
+      "unitUrl": "https://www.cs.umd.edu/people/faculty",
+      "decision": "included_existing",
+      "atlasPersonId": "furong-huang-top",
+      "reason": "符合范围，且规范化姓名可与当前图谱人物唯一匹配。",
+      "evidence": "Associate Professor | CS Faculty | AI and Robotics · Machine Learning and Data Science · Natural Language Processing · Computer Vision and Machine Perception · High Performance and Scientific Computing · Algorithms and Theory | https://www.cs.umd.edu/people/furongh"
+    },
+    {
+      "officialId": "miyyer",
+      "rosterName": "Mohit Iyyer",
+      "title": "Associate Professor",
+      "profileUrl": "https://www.cs.umd.edu/people/miyyer",
+      "portraitUrl": "https://www.cs.umd.edu/sites/default/files/styles/thumbnail/public/images/userpictures/miyyer_headshot.jpg?itok=Ggsom0wo&c=5bde9e7a42e43806f9ecb05efefcc68f",
+      "officialSections": [
+        "CS Faculty"
+      ],
+      "researchFields": [
+        "Machine Learning and Data Science",
+        "Natural Language Processing"
+      ],
+      "unitUrl": "https://www.cs.umd.edu/people/faculty",
+      "decision": "included_existing",
+      "atlasPersonId": "mohit-iyyer-us",
+      "reason": "符合范围，且规范化姓名可与当前图谱人物唯一匹配。",
+      "evidence": "Associate Professor | CS Faculty | Machine Learning and Data Science · Natural Language Processing | https://www.cs.umd.edu/people/miyyer"
+    },
+    {
+      "officialId": "dwj",
+      "rosterName": "David Jacobs",
+      "title": "Professor",
+      "profileUrl": "https://www.cs.umd.edu/people/dwj",
+      "portraitUrl": "https://www.cs.umd.edu/sites/default/files/styles/thumbnail/public/images/userpictures/DavidJacobs.JPG?itok=bqT-Z7Eb&c=2c11b9e28a345563fe5cdc4fcede2066",
+      "officialSections": [
+        "CS Faculty"
+      ],
+      "researchFields": [
+        "AI and Robotics",
+        "Computer Vision and Machine Perception"
+      ],
+      "unitUrl": "https://www.cs.umd.edu/people/faculty",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Professor | CS Faculty | AI and Robotics · Computer Vision and Machine Perception | https://www.cs.umd.edu/people/dwj",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "tjiang1",
+      "rosterName": "Ting Jiang",
+      "title": "Lecturer",
+      "profileUrl": "https://www.cs.umd.edu/people/tjiang1",
+      "portraitUrl": "https://www.cs.umd.edu/sites/default/files/styles/thumbnail/public/default_images/user_icon.png?itok=YGrztVGT",
+      "officialSections": [
+        "CS Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cs.umd.edu/people/faculty",
+      "decision": "excluded_non_pi",
+      "reason": "官方职称或名录分组属于教学、兼职、附属、科研支持或其他非独立 PI 岗位。",
+      "evidence": "Lecturer | CS Faculty | https://www.cs.umd.edu/people/tjiang1"
+    },
+    {
+      "officialId": "kaptchuk",
+      "rosterName": "Gabriel Kaptchuk",
+      "title": "Assistant Professor",
+      "profileUrl": "https://www.cs.umd.edu/people/kaptchuk",
+      "portraitUrl": "https://www.cs.umd.edu/sites/default/files/styles/thumbnail/public/images/userpictures/professional_picture.jpg?itok=EEWwJHPy",
+      "officialSections": [
+        "CS Faculty"
+      ],
+      "researchFields": [
+        "Cybersecurity and Cryptography"
+      ],
+      "unitUrl": "https://www.cs.umd.edu/people/faculty",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Assistant Professor | CS Faculty | Cybersecurity and Cryptography | https://www.cs.umd.edu/people/kaptchuk",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "profk",
+      "rosterName": "Christopher Kauffman",
+      "title": "Senior Lecturer",
+      "profileUrl": "https://www.cs.umd.edu/people/profk",
+      "portraitUrl": "https://www.cs.umd.edu/sites/default/files/styles/thumbnail/public/images/userpictures/Kauffman_Chris_headshot-small-square.jpg?itok=Sd2sBMpv",
+      "officialSections": [
+        "CS Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cs.umd.edu/people/faculty",
+      "decision": "excluded_non_pi",
+      "reason": "官方职称或名录分组属于教学、兼职、附属、科研支持或其他非独立 PI 岗位。",
+      "evidence": "Senior Lecturer | CS Faculty | https://www.cs.umd.edu/people/profk"
+    },
+    {
+      "officialId": "keleher",
+      "rosterName": "Pete Keleher",
+      "title": "Associate Professor",
+      "profileUrl": "https://www.cs.umd.edu/people/keleher",
+      "portraitUrl": "https://www.cs.umd.edu/sites/default/files/styles/thumbnail/public/images/userpictures/Screen%20Shot%202018-12-29%20at%2011.58.47%20AM_2.png?itok=9HY_CI0E",
+      "officialSections": [
+        "CS Faculty"
+      ],
+      "researchFields": [
+        "Systems, Networking, and Architecture",
+        "Cybersecurity and Cryptography"
+      ],
+      "unitUrl": "https://www.cs.umd.edu/people/faculty",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Associate Professor | CS Faculty | Systems, Networking, and Architecture · Cybersecurity and Cryptography | https://www.cs.umd.edu/people/keleher",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "sujeong",
+      "rosterName": "Sujeong Kim",
+      "title": "Lecturer",
+      "profileUrl": "https://www.cs.umd.edu/people/sujeong",
+      "portraitUrl": "https://www.cs.umd.edu/sites/default/files/styles/thumbnail/public/images/userpictures/Shoott_2026_headshot.jpg?itok=5bmjMdpC",
+      "officialSections": [
+        "CS Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cs.umd.edu/people/faculty",
+      "decision": "excluded_non_pi",
+      "reason": "官方职称或名录分组属于教学、兼职、附属、科研支持或其他非独立 PI 岗位。",
+      "evidence": "Lecturer | CS Faculty | https://www.cs.umd.edu/people/sujeong"
+    },
+    {
+      "officialId": "ckruskal",
+      "rosterName": "Clyde Kruskal",
+      "title": "Associate Professor",
+      "profileUrl": "https://www.cs.umd.edu/people/ckruskal",
+      "portraitUrl": "https://www.cs.umd.edu/sites/default/files/styles/thumbnail/public/images/userpictures/kruskal%20clyde.jpg?itok=A87Sk3Qb&c=5b1c9af8fe0d44ce02e596a99900d813",
+      "officialSections": [
+        "CS Faculty"
+      ],
+      "researchFields": [
+        "Algorithms and Theory"
+      ],
+      "unitUrl": "https://www.cs.umd.edu/people/faculty",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Associate Professor | CS Faculty | Algorithms and Theory | https://www.cs.umd.edu/people/ckruskal",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "leonidas",
+      "rosterName": "Leonidas Lampropoulos",
+      "title": "Associate Professor",
+      "profileUrl": "https://www.cs.umd.edu/people/leonidas",
+      "portraitUrl": "https://www.cs.umd.edu/sites/default/files/styles/thumbnail/public/images/userpictures/LemonGrainSide.jpg?itok=MGIP-jKQ",
+      "officialSections": [
+        "CS Faculty"
+      ],
+      "researchFields": [
+        "Programming Languages and Software Engineering"
+      ],
+      "unitUrl": "https://www.cs.umd.edu/people/faculty",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Associate Professor | CS Faculty | Programming Languages and Software Engineering | https://www.cs.umd.edu/people/leonidas",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "myungin",
+      "rosterName": "Myungin Lee",
+      "title": "Lecturer",
+      "profileUrl": "https://www.cs.umd.edu/people/myungin",
+      "portraitUrl": "https://www.cs.umd.edu/sites/default/files/styles/thumbnail/public/images/userpictures/myungin1000x1000.jpg?itok=5yXJXpw1&c=154ddcab33b696afd1be86fcd2190402",
+      "officialSections": [
+        "CS Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cs.umd.edu/people/faculty",
+      "decision": "excluded_non_pi",
+      "reason": "官方职称或名录分组属于教学、兼职、附属、科研支持或其他非独立 PI 岗位。",
+      "evidence": "Lecturer | CS Faculty | https://www.cs.umd.edu/people/myungin"
+    },
+    {
+      "officialId": "dml",
+      "rosterName": "Dave Levin",
+      "title": "Associate Professor",
+      "profileUrl": "https://www.cs.umd.edu/people/dml",
+      "portraitUrl": "https://www.cs.umd.edu/sites/default/files/styles/thumbnail/public/images/userpictures/dml-cropped-tiny.png?itok=Ks7paNBT",
+      "officialSections": [
+        "CS Faculty"
+      ],
+      "researchFields": [
+        "Cybersecurity and Cryptography",
+        "Systems, Networking, and Architecture"
+      ],
+      "unitUrl": "https://www.cs.umd.edu/people/faculty",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Associate Professor | CS Faculty | Cybersecurity and Cryptography · Systems, Networking, and Architecture | https://www.cs.umd.edu/people/dml",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "lin",
+      "rosterName": "Ming Lin",
+      "title": "Professor",
+      "profileUrl": "https://www.cs.umd.edu/people/lin",
+      "portraitUrl": "https://www.cs.umd.edu/sites/default/files/styles/thumbnail/public/images/userpictures/Lin2022.png?itok=0TAMLvra&c=64b112a610ed07ec11268f2b6341bdbc",
+      "officialSections": [
+        "CS Faculty"
+      ],
+      "researchFields": [
+        "AI and Robotics",
+        "Computer Vision and Machine Perception",
+        "Graphics Visualization and VR AR",
+        "High Performance and Scientific Computing",
+        "Human Computer Interaction",
+        "Machine Learning and Data Science"
+      ],
+      "unitUrl": "https://www.cs.umd.edu/people/faculty",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Professor | CS Faculty | AI and Robotics · Computer Vision and Machine Perception · Graphics Visualization and VR AR · High Performance and Scientific Computing · Human Computer Interaction · Machine Learning and Data Science | https://www.cs.umd.edu/people/lin",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "ruoshi",
+      "rosterName": "Ruoshi Liu",
+      "title": "Assistant Professor",
+      "profileUrl": "https://www.cs.umd.edu/people/ruoshi",
+      "portraitUrl": "https://www.cs.umd.edu/sites/default/files/styles/thumbnail/public/images/userpictures/ruoshi-smile-small.jpg?itok=5PkfI2Ki",
+      "officialSections": [
+        "CS Faculty"
+      ],
+      "researchFields": [
+        "AI and Robotics",
+        "Computer Vision and Machine Perception",
+        "Machine Learning and Data Science",
+        "Graphics Visualization and VR AR"
+      ],
+      "unitUrl": "https://www.cs.umd.edu/people/faculty",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Assistant Professor | CS Faculty | AI and Robotics · Computer Vision and Machine Perception · Machine Learning and Data Science · Graphics Visualization and VR AR | https://www.cs.umd.edu/people/ruoshi",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "zaoxing",
+      "rosterName": "Alan Zaoxing Liu",
+      "title": "Assistant Professor",
+      "profileUrl": "https://www.cs.umd.edu/people/zaoxing",
+      "portraitUrl": "https://www.cs.umd.edu/sites/default/files/styles/thumbnail/public/images/userpictures/Liu_Profile_UMD.jpg?itok=Bxx2gnd9&c=6926e0020085a3e5c9064c38c169bc21",
+      "officialSections": [
+        "CS Faculty"
+      ],
+      "researchFields": [
+        "Systems, Networking, and Architecture",
+        "Databases and Big Data",
+        "Machine Learning and Data Science",
+        "Cybersecurity and Cryptography"
+      ],
+      "unitUrl": "https://www.cs.umd.edu/people/faculty",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Assistant Professor | CS Faculty | Systems, Networking, and Architecture · Databases and Big Data · Machine Learning and Data Science · Cybersecurity and Cryptography | https://www.cs.umd.edu/people/zaoxing",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "leozcliu",
+      "rosterName": "Leo Zhicheng Liu",
+      "title": "Associate Professor",
+      "profileUrl": "https://www.cs.umd.edu/people/leozcliu",
+      "portraitUrl": "https://www.cs.umd.edu/sites/default/files/styles/thumbnail/public/images/userpictures/profile%20copy.png?itok=d_pBbSaC&c=9347be3925753c37c3df40267ff8611a",
+      "officialSections": [
+        "CS Faculty"
+      ],
+      "researchFields": [
+        "Human Computer Interaction",
+        "Graphics Visualization and VR AR",
+        "Machine Learning and Data Science"
+      ],
+      "unitUrl": "https://www.cs.umd.edu/people/faculty",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Associate Professor | CS Faculty | Human Computer Interaction · Graphics Visualization and VR AR · Machine Learning and Data Science | https://www.cs.umd.edu/people/leozcliu",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "anwar",
+      "rosterName": "Anwar Mamat",
+      "title": "Senior Lecturer",
+      "profileUrl": "https://www.cs.umd.edu/people/anwar",
+      "portraitUrl": "https://www.cs.umd.edu/sites/default/files/styles/thumbnail/public/images/userpictures/anwar-passport-photo.jpg?itok=4p8yUs6z",
+      "officialSections": [
+        "CS Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cs.umd.edu/people/faculty",
+      "decision": "excluded_non_pi",
+      "reason": "官方职称或名录分组属于教学、兼职、附属、科研支持或其他非独立 PI 岗位。",
+      "evidence": "Senior Lecturer | CS Faculty | https://www.cs.umd.edu/people/anwar"
+    },
+    {
+      "officialId": "dmanocha",
+      "rosterName": "Dinesh Manocha",
+      "title": "Professor",
+      "profileUrl": "https://www.cs.umd.edu/people/dmanocha",
+      "portraitUrl": "https://www.cs.umd.edu/sites/default/files/styles/thumbnail/public/images/userpictures/dm2018-face.jpg?itok=v9mtC2rC&c=378f925a572f506653c71a3fa5582f12",
+      "officialSections": [
+        "CS Faculty"
+      ],
+      "researchFields": [
+        "AI and Robotics",
+        "Graphics Visualization and VR AR",
+        "High Performance and Scientific Computing"
+      ],
+      "unitUrl": "https://www.cs.umd.edu/people/faculty",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Professor | CS Faculty | AI and Robotics · Graphics Visualization and VR AR · High Performance and Scientific Computing | https://www.cs.umd.edu/people/dmanocha",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "mmarsh",
+      "rosterName": "Michael Marsh",
+      "title": "Senior Lecturer",
+      "profileUrl": "https://www.cs.umd.edu/people/mmarsh",
+      "portraitUrl": "https://www.cs.umd.edu/sites/default/files/styles/thumbnail/public/images/userpictures/240405_umd_051.jpg?itok=4ZgfqUcB&c=02f7e1436afaabeaff282fc96fd15b63",
+      "officialSections": [
+        "CS Faculty"
+      ],
+      "researchFields": [
+        "Cybersecurity and Cryptography",
+        "Systems, Networking, and Architecture"
+      ],
+      "unitUrl": "https://www.cs.umd.edu/people/faculty",
+      "decision": "excluded_non_pi",
+      "reason": "官方职称或名录分组属于教学、兼职、附属、科研支持或其他非独立 PI 岗位。",
+      "evidence": "Senior Lecturer | CS Faculty | Cybersecurity and Cryptography · Systems, Networking, and Architecture | https://www.cs.umd.edu/people/mmarsh"
+    },
+    {
+      "officialId": "mmazurek",
+      "rosterName": "Michelle Mazurek",
+      "title": "Professor",
+      "profileUrl": "https://www.cs.umd.edu/people/mmazurek",
+      "portraitUrl": "https://www.cs.umd.edu/sites/default/files/styles/thumbnail/public/images/userpictures/mazurek-9394.jpg?itok=nBURRYY_",
+      "officialSections": [
+        "CS Faculty"
+      ],
+      "researchFields": [
+        "Cybersecurity and Cryptography",
+        "Human Computer Interaction"
+      ],
+      "unitUrl": "https://www.cs.umd.edu/people/faculty",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Professor | CS Faculty | Cybersecurity and Cryptography · Human Computer Interaction | https://www.cs.umd.edu/people/mmazurek",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "metzler",
+      "rosterName": "Christopher Metzler",
+      "title": "Associate Professor",
+      "profileUrl": "https://www.cs.umd.edu/people/metzler",
+      "portraitUrl": "https://www.cs.umd.edu/sites/default/files/styles/thumbnail/public/images/userpictures/chris.jpg?itok=ZkaF8Oi6",
+      "officialSections": [
+        "CS Faculty"
+      ],
+      "researchFields": [
+        "Computer Vision and Machine Perception",
+        "AI and Robotics",
+        "Machine Learning and Data Science"
+      ],
+      "unitUrl": "https://www.cs.umd.edu/people/faculty",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Associate Professor | CS Faculty | Computer Vision and Machine Perception · AI and Robotics · Machine Learning and Data Science | https://www.cs.umd.edu/people/metzler",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "imiers",
+      "rosterName": "Ian Miers",
+      "title": "Assistant Professor",
+      "profileUrl": "https://www.cs.umd.edu/people/imiers",
+      "portraitUrl": "https://www.cs.umd.edu/sites/default/files/styles/thumbnail/public/images/userpictures/swiss.jpeg?itok=c-Jm2PxW&c=381d9edf0c49994cc01e9db2a9de44a9",
+      "officialSections": [
+        "CS Faculty"
+      ],
+      "researchFields": [
+        "Cybersecurity and Cryptography"
+      ],
+      "unitUrl": "https://www.cs.umd.edu/people/faculty",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Assistant Professor | CS Faculty | Cybersecurity and Cryptography | https://www.cs.umd.edu/people/imiers",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "stevensm",
+      "rosterName": "Stevens Miller",
+      "title": "Senior Lecturer",
+      "profileUrl": "https://www.cs.umd.edu/people/stevensm",
+      "portraitUrl": "https://www.cs.umd.edu/sites/default/files/styles/thumbnail/public/images/userpictures/MeCloseUp.png?itok=r3lTgRu1",
+      "officialSections": [
+        "CS Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cs.umd.edu/people/faculty",
+      "decision": "excluded_non_pi",
+      "reason": "官方职称或名录分组属于教学、兼职、附属、科研支持或其他非独立 PI 岗位。",
+      "evidence": "Senior Lecturer | CS Faculty | https://www.cs.umd.edu/people/stevensm"
+    },
+    {
+      "officialId": "ekmolloy",
+      "rosterName": "Erin Molloy",
+      "title": "Assistant Professor",
+      "profileUrl": "https://www.cs.umd.edu/people/ekmolloy",
+      "portraitUrl": "https://www.cs.umd.edu/sites/default/files/styles/thumbnail/public/images/userpictures/erin-molloy.jpg?itok=M5PqF1pg&c=d90dd57bb983076f80bbfe48a7a0ad10",
+      "officialSections": [
+        "CS Faculty"
+      ],
+      "researchFields": [
+        "Bioinformatics and Computational Biology"
+      ],
+      "unitUrl": "https://www.cs.umd.edu/people/faculty",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Assistant Professor | CS Faculty | Bioinformatics and Computational Biology | https://www.cs.umd.edu/people/ekmolloy",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "morawski",
+      "rosterName": "Maksym Morawski",
+      "title": "Lecturer",
+      "profileUrl": "https://www.cs.umd.edu/people/morawski",
+      "portraitUrl": "https://www.cs.umd.edu/sites/default/files/styles/thumbnail/public/default_images/user_icon.png?itok=YGrztVGT",
+      "officialSections": [
+        "CS Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cs.umd.edu/people/faculty",
+      "decision": "excluded_non_pi",
+      "reason": "官方职称或名录分组属于教学、兼职、附属、科研支持或其他非独立 PI 岗位。",
+      "evidence": "Lecturer | CS Faculty | https://www.cs.umd.edu/people/morawski"
+    },
+    {
+      "officialId": "mount",
+      "rosterName": "David Mount",
+      "title": "Professor",
+      "profileUrl": "https://www.cs.umd.edu/people/mount",
+      "portraitUrl": "https://www.cs.umd.edu/sites/default/files/styles/thumbnail/public/images/userpictures/2020-400x400.png?itok=ks105S12",
+      "officialSections": [
+        "CS Faculty"
+      ],
+      "researchFields": [
+        "Algorithms and Theory",
+        "Information Retrieval and Geographic Information Systems (GIS)"
+      ],
+      "unitUrl": "https://www.cs.umd.edu/people/faculty",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Professor | CS Faculty | Algorithms and Theory · Information Retrieval and Geographic Information Systems (GIS) | https://www.cs.umd.edu/people/mount",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "jun",
+      "rosterName": "Jun Nishida",
+      "title": "Assistant Professor",
+      "profileUrl": "https://www.cs.umd.edu/people/jun",
+      "portraitUrl": "https://www.cs.umd.edu/sites/default/files/styles/thumbnail/public/images/userpictures/CH_sq_crp_720.jpeg?itok=_CQQE1qW",
+      "officialSections": [
+        "CS Faculty"
+      ],
+      "researchFields": [
+        "Human Computer Interaction",
+        "IoT and Wearables Technology"
+      ],
+      "unitUrl": "https://www.cs.umd.edu/people/faculty",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Assistant Professor | CS Faculty | Human Computer Interaction · IoT and Wearables Technology | https://www.cs.umd.edu/people/jun",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "mttnln",
+      "rosterName": "Matthew Nolan",
+      "title": "Lecturer",
+      "profileUrl": "https://www.cs.umd.edu/people/mttnln",
+      "portraitUrl": "https://www.cs.umd.edu/sites/default/files/styles/thumbnail/public/default_images/user_icon.png?itok=YGrztVGT",
+      "officialSections": [
+        "CS Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cs.umd.edu/people/faculty",
+      "decision": "excluded_non_pi",
+      "reason": "官方职称或名录分组属于教学、兼职、附属、科研支持或其他非独立 PI 岗位。",
+      "evidence": "Lecturer | CS Faculty | https://www.cs.umd.edu/people/mttnln"
+    },
+    {
+      "officialId": "nelson",
+      "rosterName": "Nelson Padua-Perez",
+      "title": "Principal Lecturer",
+      "profileUrl": "https://www.cs.umd.edu/people/nelson",
+      "portraitUrl": "https://www.cs.umd.edu/sites/default/files/styles/thumbnail/public/images/userpictures/nelson%20paduaperez.png?itok=59PFqZjN",
+      "officialSections": [
+        "CS Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cs.umd.edu/people/faculty",
+      "decision": "excluded_non_pi",
+      "reason": "官方职称或名录分组属于教学、兼职、附属、科研支持或其他非独立 PI 岗位。",
+      "evidence": "Principal Lecturer | CS Faculty | https://www.cs.umd.edu/people/nelson"
+    },
+    {
+      "officialId": "nomad",
+      "rosterName": "Rob Patro",
+      "title": "Professor",
+      "profileUrl": "https://www.cs.umd.edu/people/nomad",
+      "portraitUrl": "https://www.cs.umd.edu/sites/default/files/styles/thumbnail/public/images/userpictures/Screenshot%202024-01-26%20at%203.09.32%20PM.png?itok=dETDTDMp&c=b8133745a8675f6f722079286d026830",
+      "officialSections": [
+        "CS Faculty"
+      ],
+      "researchFields": [
+        "Algorithms and Theory",
+        "Bioinformatics and Computational Biology",
+        "High Performance and Scientific Computing"
+      ],
+      "unitUrl": "https://www.cs.umd.edu/people/faculty",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Professor | CS Faculty | Algorithms and Theory · Bioinformatics and Computational Biology · High Performance and Scientific Computing | https://www.cs.umd.edu/people/nomad",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "huaishu",
+      "rosterName": "Huaishu Peng",
+      "title": "Associate Professor",
+      "profileUrl": "https://www.cs.umd.edu/people/huaishu",
+      "portraitUrl": "https://www.cs.umd.edu/sites/default/files/styles/thumbnail/public/images/userpictures/profile_1.png?itok=ppyBrBdy",
+      "officialSections": [
+        "CS Faculty"
+      ],
+      "researchFields": [
+        "Human Computer Interaction",
+        "IoT and Wearables Technology"
+      ],
+      "unitUrl": "https://www.cs.umd.edu/people/faculty",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Associate Professor | CS Faculty | Human Computer Interaction · IoT and Wearables Technology | https://www.cs.umd.edu/people/huaishu",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "binghuip",
+      "rosterName": "Binghui Peng",
+      "title": "Assistant Professor",
+      "profileUrl": "https://www.cs.umd.edu/people/binghuip",
+      "portraitUrl": "https://www.cs.umd.edu/sites/default/files/styles/thumbnail/public/images/userpictures/image-9.png?itok=QviM4gIf&c=8570bb2a6cf56cb8bd6a456b278e0618",
+      "officialSections": [
+        "CS Faculty"
+      ],
+      "researchFields": [
+        "Algorithms and Theory",
+        "Machine Learning and Data Science"
+      ],
+      "unitUrl": "https://www.cs.umd.edu/people/faculty",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Assistant Professor | CS Faculty | Algorithms and Theory · Machine Learning and Data Science | https://www.cs.umd.edu/people/binghuip",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "mpop",
+      "rosterName": "Mihai Pop",
+      "title": "Professor",
+      "profileUrl": "https://www.cs.umd.edu/people/mpop",
+      "portraitUrl": "https://www.cs.umd.edu/sites/default/files/styles/thumbnail/public/images/userpictures/Mihai_cropped.jpg?itok=RXuUwLJv",
+      "officialSections": [
+        "CS Faculty"
+      ],
+      "researchFields": [
+        "Bioinformatics and Computational Biology"
+      ],
+      "unitUrl": "https://www.cs.umd.edu/people/faculty",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Professor | CS Faculty | Bioinformatics and Computational Biology | https://www.cs.umd.edu/people/mpop",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "aporter",
+      "rosterName": "Adam Porter",
+      "title": "Professor",
+      "profileUrl": "https://www.cs.umd.edu/people/aporter",
+      "portraitUrl": "https://www.cs.umd.edu/sites/default/files/styles/thumbnail/public/images/userpictures/porter%20adam.JPG?itok=RgV9D7pP&c=42d2ea1d9fc8e59c31a606670cf72811",
+      "officialSections": [
+        "CS Faculty"
+      ],
+      "researchFields": [
+        "Programming Languages and Software Engineering"
+      ],
+      "unitUrl": "https://www.cs.umd.edu/people/faculty",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Professor | CS Faculty | Programming Languages and Software Engineering | https://www.cs.umd.edu/people/aporter",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "purtilo",
+      "rosterName": "James Purtilo",
+      "title": "Associate Professor",
+      "profileUrl": "https://www.cs.umd.edu/people/purtilo",
+      "portraitUrl": "https://www.cs.umd.edu/sites/default/files/styles/thumbnail/public/default_images/user_icon.png?itok=YGrztVGT",
+      "officialSections": [
+        "CS Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cs.umd.edu/people/faculty",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Associate Professor | CS Faculty | https://www.cs.umd.edu/people/purtilo",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "regli",
+      "rosterName": "William Regli",
+      "title": "Professor",
+      "profileUrl": "https://www.cs.umd.edu/people/regli",
+      "portraitUrl": "https://www.cs.umd.edu/sites/default/files/styles/thumbnail/public/images/userpictures/regli.jpeg?itok=bWQwMqW6&c=c18d86bb681bff6701e1eeca6836f6c6",
+      "officialSections": [
+        "CS Faculty"
+      ],
+      "researchFields": [
+        "AI and Robotics",
+        "Graphics Visualization and VR AR"
+      ],
+      "unitUrl": "https://www.cs.umd.edu/people/faculty",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Professor | CS Faculty | AI and Robotics · Graphics Visualization and VR AR | https://www.cs.umd.edu/people/regli",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "niruroy",
+      "rosterName": "Nirupam Roy",
+      "title": "Associate Professor",
+      "profileUrl": "https://www.cs.umd.edu/people/niruroy",
+      "portraitUrl": "https://www.cs.umd.edu/sites/default/files/styles/thumbnail/public/images/userpictures/NirupamRoy.jpg?itok=y57LUWZ7",
+      "officialSections": [
+        "CS Faculty"
+      ],
+      "researchFields": [
+        "Systems, Networking, and Architecture",
+        "IoT and Wearables Technology",
+        "Cybersecurity and Cryptography"
+      ],
+      "unitUrl": "https://www.cs.umd.edu/people/faculty",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Associate Professor | CS Faculty | Systems, Networking, and Architecture · IoT and Wearables Technology · Cybersecurity and Cryptography | https://www.cs.umd.edu/people/niruroy",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "rudinger",
+      "rosterName": "Rachel Rudinger",
+      "title": "Associate Professor",
+      "profileUrl": "https://www.cs.umd.edu/people/rudinger",
+      "portraitUrl": "https://www.cs.umd.edu/sites/default/files/styles/thumbnail/public/images/userpictures/rudinger_headshot.jpg?itok=jDMHSngM",
+      "officialSections": [
+        "CS Faculty"
+      ],
+      "researchFields": [
+        "Natural Language Processing",
+        "Machine Learning and Data Science",
+        "AI and Robotics"
+      ],
+      "unitUrl": "https://www.cs.umd.edu/people/faculty",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Associate Professor | CS Faculty | Natural Language Processing · Machine Learning and Data Science · AI and Robotics | https://www.cs.umd.edu/people/rudinger",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "psadeghi",
+      "rosterName": "Pedram Sadeghian",
+      "title": "Senior Lecturer",
+      "profileUrl": "https://www.cs.umd.edu/people/psadeghi",
+      "portraitUrl": "https://www.cs.umd.edu/sites/default/files/styles/thumbnail/public/default_images/user_icon.png?itok=YGrztVGT",
+      "officialSections": [
+        "CS Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cs.umd.edu/people/faculty",
+      "decision": "excluded_non_pi",
+      "reason": "官方职称或名录分组属于教学、兼职、附属、科研支持或其他非独立 PI 岗位。",
+      "evidence": "Senior Lecturer | CS Faculty | https://www.cs.umd.edu/people/psadeghi"
+    },
+    {
+      "officialId": "hjs",
+      "rosterName": "Hanan Samet",
+      "title": "Professor",
+      "profileUrl": "https://www.cs.umd.edu/people/hjs",
+      "portraitUrl": "https://www.cs.umd.edu/sites/default/files/styles/thumbnail/public/images/userpictures/Samet%20%281%29.jpg?itok=k1g0JY_-&c=cd33b8eb4d7189fec1716c13afd67926",
+      "officialSections": [
+        "CS Faculty"
+      ],
+      "researchFields": [
+        "Algorithms and Theory",
+        "AI and Robotics",
+        "Computer Vision and Machine Perception",
+        "Databases and Big Data",
+        "Graphics Visualization and VR AR",
+        "Information Retrieval and Geographic Information Systems (GIS)",
+        "Human Computer Interaction",
+        "Machine Learning and Data Science",
+        "Natural Language Processing",
+        "Programming Languages and Software Engineering"
+      ],
+      "unitUrl": "https://www.cs.umd.edu/people/faculty",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Professor | CS Faculty | Algorithms and Theory · AI and Robotics · Computer Vision and Machine Perception · Databases and Big Data · Graphics Visualization and VR AR · Information Retrieval and Geographic Information Systems (GIS) · Human Computer Interaction · Machine Learning and Data Science · Natural Language Processing · Programming Languages and Software Engineering | https://www.cs.umd.edu/people/hjs",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "hanshao",
+      "rosterName": "Han Shao",
+      "title": "Assistant Professor",
+      "profileUrl": "https://www.cs.umd.edu/people/hanshao",
+      "portraitUrl": "https://www.cs.umd.edu/sites/default/files/styles/thumbnail/public/images/userpictures/photo-Han.jpg?itok=9R84WbT4&c=6d5a26912f50f0749ec50fbc89b8548d",
+      "officialSections": [
+        "CS Faculty"
+      ],
+      "researchFields": [
+        "Machine Learning and Data Science",
+        "Algorithms and Theory",
+        "AI and Robotics"
+      ],
+      "unitUrl": "https://www.cs.umd.edu/people/faculty",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Assistant Professor | CS Faculty | Machine Learning and Data Science · Algorithms and Theory · AI and Robotics | https://www.cs.umd.edu/people/hanshao",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "abhinav2",
+      "rosterName": "Abhinav Shrivastava",
+      "title": "Associate Professor",
+      "profileUrl": "https://www.cs.umd.edu/people/abhinav2",
+      "portraitUrl": "https://www.cs.umd.edu/sites/default/files/styles/thumbnail/public/images/userpictures/IMG_1721.jpeg?itok=zJ8ZWwxt&c=b89965011f3fb191da566021a72bb7ef",
+      "officialSections": [
+        "CS Faculty"
+      ],
+      "researchFields": [
+        "Computer Vision and Machine Perception",
+        "AI and Robotics",
+        "Machine Learning and Data Science",
+        "Graphics Visualization and VR AR"
+      ],
+      "unitUrl": "https://www.cs.umd.edu/people/faculty",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Associate Professor | CS Faculty | Computer Vision and Machine Perception · AI and Robotics · Machine Learning and Data Science · Graphics Visualization and VR AR | https://www.cs.umd.edu/people/abhinav2",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "asriniv1",
+      "rosterName": "Aravind Srinivasan",
+      "title": "Professor",
+      "profileUrl": "https://www.cs.umd.edu/people/asriniv1",
+      "portraitUrl": "https://www.cs.umd.edu/sites/default/files/styles/thumbnail/public/images/userpictures/aravind_srinivasan.jpg?itok=bHd3YQOQ&c=3f0e85f397707b258e373f22d3edab0a",
+      "officialSections": [
+        "CS Faculty"
+      ],
+      "researchFields": [
+        "Algorithms and Theory",
+        "Bioinformatics and Computational Biology"
+      ],
+      "unitUrl": "https://www.cs.umd.edu/people/faculty",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Professor | CS Faculty | Algorithms and Theory · Bioinformatics and Computational Biology | https://www.cs.umd.edu/people/asriniv1",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "milijana",
+      "rosterName": "Milijana Surbatovich",
+      "title": "Assistant Professor",
+      "profileUrl": "https://www.cs.umd.edu/people/milijana",
+      "portraitUrl": "https://www.cs.umd.edu/sites/default/files/styles/thumbnail/public/images/userpictures/myself.jpg?itok=-GsFtH9S&c=51ec306ba18bbe8f2a1e11964c5b2ac8",
+      "officialSections": [
+        "CS Faculty"
+      ],
+      "researchFields": [
+        "Programming Languages and Software Engineering",
+        "Systems, Networking, and Architecture"
+      ],
+      "unitUrl": "https://www.cs.umd.edu/people/faculty",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Assistant Professor | CS Faculty | Programming Languages and Software Engineering · Systems, Networking, and Architecture | https://www.cs.umd.edu/people/milijana",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "asussman",
+      "rosterName": "Alan Sussman",
+      "title": "Professor",
+      "profileUrl": "https://www.cs.umd.edu/people/asussman",
+      "portraitUrl": "https://www.cs.umd.edu/sites/default/files/styles/thumbnail/public/images/userpictures/als-2012.jpg?itok=ZwDII0Oq",
+      "officialSections": [
+        "CS Faculty"
+      ],
+      "researchFields": [
+        "Databases and Big Data",
+        "High Performance and Scientific Computing",
+        "Systems, Networking, and Architecture"
+      ],
+      "unitUrl": "https://www.cs.umd.edu/people/faculty",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Professor | CS Faculty | Databases and Big Data · High Performance and Scientific Computing · Systems, Networking, and Architecture | https://www.cs.umd.edu/people/asussman",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "rztao",
+      "rosterName": "Runzhou Tao",
+      "title": "Assistant Professor",
+      "profileUrl": "https://www.cs.umd.edu/people/rztao",
+      "portraitUrl": "https://www.cs.umd.edu/sites/default/files/styles/thumbnail/public/images/userpictures/photo_runzhou.jpg?itok=TarhPQpi&c=3687882dd248274805e3e1b520fa18bb",
+      "officialSections": [
+        "CS Faculty"
+      ],
+      "researchFields": [
+        "Quantum Computing",
+        "Programming Languages and Software Engineering",
+        "Algorithms and Theory",
+        "Systems, Networking, and Architecture"
+      ],
+      "unitUrl": "https://www.cs.umd.edu/people/faculty",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Assistant Professor | CS Faculty | Quantum Computing · Programming Languages and Software Engineering · Algorithms and Theory · Systems, Networking, and Architecture | https://www.cs.umd.edu/people/rztao",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "nayeem",
+      "rosterName": "Mohammad Nayeem Teli",
+      "title": "Principal Lecturer",
+      "profileUrl": "https://www.cs.umd.edu/people/nayeem",
+      "portraitUrl": "https://www.cs.umd.edu/sites/default/files/styles/thumbnail/public/images/userpictures/linkedInNew.jpeg?itok=VFmaU_v1",
+      "officialSections": [
+        "CS Faculty"
+      ],
+      "researchFields": [
+        "Computer Vision and Machine Perception",
+        "Machine Learning and Data Science"
+      ],
+      "unitUrl": "https://www.cs.umd.edu/people/faculty",
+      "decision": "excluded_non_pi",
+      "reason": "官方职称或名录分组属于教学、兼职、附属、科研支持或其他非独立 PI 岗位。",
+      "evidence": "Principal Lecturer | CS Faculty | Computer Vision and Machine Perception · Machine Learning and Data Science | https://www.cs.umd.edu/people/nayeem"
+    },
+    {
+      "officialId": "tokekar",
+      "rosterName": "Pratap Tokekar",
+      "title": "Associate Professor",
+      "profileUrl": "https://www.cs.umd.edu/people/tokekar",
+      "portraitUrl": "https://www.cs.umd.edu/sites/default/files/styles/thumbnail/public/images/userpictures/PratapTokekar.jpg?itok=nPVGvAdK&c=3d281b5cce7156f0a20a4dec5fd6800b",
+      "officialSections": [
+        "CS Faculty"
+      ],
+      "researchFields": [
+        "AI and Robotics"
+      ],
+      "unitUrl": "https://www.cs.umd.edu/people/faculty",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Associate Professor | CS Faculty | AI and Robotics | https://www.cs.umd.edu/people/tokekar",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "dvanhorn",
+      "rosterName": "David Van Horn",
+      "title": "Associate Professor",
+      "profileUrl": "https://www.cs.umd.edu/people/dvanhorn",
+      "portraitUrl": "https://www.cs.umd.edu/sites/default/files/styles/thumbnail/public/images/userpictures/DSC_0054.jpg?itok=4xPZ2z3b&c=b2f2992411906de904c1e522be9221df",
+      "officialSections": [
+        "CS Faculty"
+      ],
+      "researchFields": [
+        "Programming Languages and Software Engineering",
+        "Cybersecurity and Cryptography"
+      ],
+      "unitUrl": "https://www.cs.umd.edu/people/faculty",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Associate Professor | CS Faculty | Programming Languages and Software Engineering · Cybersecurity and Cryptography | https://www.cs.umd.edu/people/dvanhorn",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "varshney",
+      "rosterName": "Amitabh Varshney",
+      "title": "Professor",
+      "profileUrl": "https://www.cs.umd.edu/people/varshney",
+      "portraitUrl": "https://www.cs.umd.edu/sites/default/files/styles/thumbnail/public/images/userpictures/AVPortrait.png?itok=6O3cLvlo&c=9ac179a8d16ce10ede759587c5071d2a",
+      "officialSections": [
+        "CS Faculty"
+      ],
+      "researchFields": [
+        "Graphics Visualization and VR AR",
+        "High Performance and Scientific Computing"
+      ],
+      "unitUrl": "https://www.cs.umd.edu/people/faculty",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Professor | CS Faculty | Graphics Visualization and VR AR · High Performance and Scientific Computing | https://www.cs.umd.edu/people/varshney",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "sarahwie",
+      "rosterName": "Sarah Wiegreffe",
+      "title": "Assistant Professor",
+      "profileUrl": "https://www.cs.umd.edu/people/sarahwie",
+      "portraitUrl": "https://www.cs.umd.edu/sites/default/files/styles/thumbnail/public/images/userpictures/swiegref.jpeg?itok=aDf2G5IO&c=4e40d6657dd872b1566c9d90658976d4",
+      "officialSections": [
+        "CS Faculty"
+      ],
+      "researchFields": [
+        "Natural Language Processing",
+        "Machine Learning and Data Science"
+      ],
+      "unitUrl": "https://www.cs.umd.edu/people/faculty",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Assistant Professor | CS Faculty | Natural Language Processing · Machine Learning and Data Science | https://www.cs.umd.edu/people/sarahwie",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "xiaodiwu",
+      "rosterName": "Xiaodi Wu",
+      "title": "Associate Professor",
+      "profileUrl": "https://www.cs.umd.edu/people/xiaodiwu",
+      "portraitUrl": "https://www.cs.umd.edu/sites/default/files/styles/thumbnail/public/images/userpictures/head1.jpg?itok=hdNXb2Qz&c=c562bf9b816c13cb48e941d7309f2fb0",
+      "officialSections": [
+        "CS Faculty"
+      ],
+      "researchFields": [
+        "Algorithms and Theory",
+        "Programming Languages and Software Engineering",
+        "Quantum Computing",
+        "Machine Learning and Data Science"
+      ],
+      "unitUrl": "https://www.cs.umd.edu/people/faculty",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Associate Professor | CS Faculty | Algorithms and Theory · Programming Languages and Software Engineering · Quantum Computing · Machine Learning and Data Science | https://www.cs.umd.edu/people/xiaodiwu",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "immortal",
+      "rosterName": "Justin Wyss-Gallifent",
+      "title": "Principal Lecturer",
+      "profileUrl": "https://www.cs.umd.edu/people/immortal",
+      "portraitUrl": "https://www.cs.umd.edu/sites/default/files/styles/thumbnail/public/images/userpictures/justincuba.jpeg?itok=yuYP7f3M",
+      "officialSections": [
+        "CS Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cs.umd.edu/people/faculty",
+      "decision": "excluded_non_pi",
+      "reason": "官方职称或名录分组属于教学、兼职、附属、科研支持或其他非独立 PI 岗位。",
+      "evidence": "Principal Lecturer | CS Faculty | https://www.cs.umd.edu/people/immortal"
+    },
+    {
+      "officialId": "fmy",
+      "rosterName": "Fumeng Yang",
+      "title": "Assistant Professor",
+      "profileUrl": "https://www.cs.umd.edu/people/fmy",
+      "portraitUrl": "https://www.cs.umd.edu/sites/default/files/styles/thumbnail/public/images/userpictures/FumengYang-2024-1.3.jpg?itok=w5XGwRAb",
+      "officialSections": [
+        "CS Faculty"
+      ],
+      "researchFields": [
+        "Human Computer Interaction",
+        "Graphics Visualization and VR AR"
+      ],
+      "unitUrl": "https://www.cs.umd.edu/people/faculty",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Assistant Professor | CS Faculty | Human Computer Interaction · Graphics Visualization and VR AR | https://www.cs.umd.edu/people/fmy",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "icyoon",
+      "rosterName": "Ilchul Yoon",
+      "title": "Lecturer",
+      "profileUrl": "https://www.cs.umd.edu/people/icyoon",
+      "portraitUrl": "https://www.cs.umd.edu/sites/default/files/styles/thumbnail/public/images/userpictures/Ilchul_portrait.jpeg?itok=pAFg2DB_&c=e8308e3eb867cb171cb27d5ff6eab158",
+      "officialSections": [
+        "CS Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cs.umd.edu/people/faculty",
+      "decision": "excluded_non_pi",
+      "reason": "官方职称或名录分组属于教学、兼职、附属、科研支持或其他非独立 PI 岗位。",
+      "evidence": "Lecturer | CS Faculty | https://www.cs.umd.edu/people/icyoon"
+    },
+    {
+      "officialId": "yaodong",
+      "rosterName": "Yaodong Yu",
+      "title": "Assistant Professor",
+      "profileUrl": "https://www.cs.umd.edu/people/yaodong",
+      "portraitUrl": "https://www.cs.umd.edu/sites/default/files/styles/thumbnail/public/default_images/user_icon.png?itok=YGrztVGT",
+      "officialSections": [
+        "CS Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cs.umd.edu/people/faculty",
+      "decision": "included_existing",
+      "atlasPersonId": "yaodong-yu-us",
+      "reason": "符合范围，且规范化姓名可与当前图谱人物唯一匹配。",
+      "evidence": "Assistant Professor | CS Faculty | https://www.cs.umd.edu/people/yaodong"
+    },
+    {
+      "officialId": "zwicker",
+      "rosterName": "Matthias Zwicker",
+      "title": "Professor",
+      "profileUrl": "https://www.cs.umd.edu/people/zwicker",
+      "portraitUrl": "https://www.cs.umd.edu/sites/default/files/styles/thumbnail/public/images/userpictures/Zwicker%202021.jpg?itok=fzdP33uj&c=92f3cdb8644445de42d699eb4055c743",
+      "officialSections": [
+        "CS Faculty"
+      ],
+      "researchFields": [
+        "Graphics Visualization and VR AR",
+        "Computer Vision and Machine Perception"
+      ],
+      "unitUrl": "https://www.cs.umd.edu/people/faculty",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Professor | CS Faculty | Graphics Visualization and VR AR · Computer Vision and Machine Perception | https://www.cs.umd.edu/people/zwicker",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "warbaugh",
+      "rosterName": "William Arbaugh",
+      "title": "Associate Professor Emeritus",
+      "profileUrl": "https://www.cs.umd.edu/people/warbaugh",
+      "portraitUrl": "https://www.cs.umd.edu/sites/default/files/styles/thumbnail/public/images/userpictures/Stading-small.jpg?itok=CkH3AL6u&c=d187ac3b097333d54e811155230f8e49",
+      "officialSections": [
+        "Emeritus Faculty"
+      ],
+      "researchFields": [
+        "Cybersecurity and Cryptography"
+      ],
+      "unitUrl": "https://www.cs.umd.edu/people/faculty",
+      "decision": "excluded_historical",
+      "reason": "官方职称或名录分组明确为荣休、退休或历史人员。",
+      "evidence": "Associate Professor Emeritus | Emeritus Faculty | Cybersecurity and Cryptography | https://www.cs.umd.edu/people/warbaugh"
+    },
+    {
+      "officialId": "basivic",
+      "rosterName": "Victor Basili",
+      "title": "Professor Emeritus",
+      "profileUrl": "https://www.cs.umd.edu/people/basivic",
+      "portraitUrl": "https://www.cs.umd.edu/sites/default/files/styles/thumbnail/public/images/userpictures/Victor%20Basili.JPG?itok=qJg4cGXl&c=6913e9fe2e7512ff8c975403a4a7075b",
+      "officialSections": [
+        "Emeritus Faculty"
+      ],
+      "researchFields": [
+        "Programming Languages and Software Engineering"
+      ],
+      "unitUrl": "https://www.cs.umd.edu/people/faculty",
+      "decision": "excluded_historical",
+      "reason": "官方职称或名录分组明确为荣休、退休或历史人员。",
+      "evidence": "Professor Emeritus | Emeritus Faculty | Programming Languages and Software Engineering | https://www.cs.umd.edu/people/basivic"
+    },
+    {
+      "officialId": "bederson",
+      "rosterName": "Ben Bederson",
+      "title": "Professor Emeritus",
+      "profileUrl": "https://www.cs.umd.edu/people/bederson",
+      "portraitUrl": "https://www.cs.umd.edu/sites/default/files/styles/thumbnail/public/images/userpictures/bederson.jpg?itok=JEsGQ2jn&c=e5d8648c1772facb7da92b1aaa26fd09",
+      "officialSections": [
+        "Emeritus Faculty"
+      ],
+      "researchFields": [
+        "Human Computer Interaction"
+      ],
+      "unitUrl": "https://www.cs.umd.edu/people/faculty",
+      "decision": "excluded_historical",
+      "reason": "官方职称或名录分组明确为荣休、退休或历史人员。",
+      "evidence": "Professor Emeritus | Emeritus Faculty | Human Computer Interaction | https://www.cs.umd.edu/people/bederson"
+    },
+    {
+      "officialId": "lsdavis",
+      "rosterName": "Larry Davis",
+      "title": "Professor Emeritus",
+      "profileUrl": "https://www.cs.umd.edu/people/lsdavis",
+      "portraitUrl": "https://www.cs.umd.edu/sites/default/files/styles/thumbnail/public/images/userpictures/Larry%20Davis.jpg?itok=2wYUl9XA&c=4b85d17523de6774f524f7696576d8dc",
+      "officialSections": [
+        "Emeritus Faculty"
+      ],
+      "researchFields": [
+        "AI and Robotics",
+        "Computer Vision and Machine Perception"
+      ],
+      "unitUrl": "https://www.cs.umd.edu/people/faculty",
+      "decision": "excluded_historical",
+      "reason": "官方职称或名录分组明确为荣休、退休或历史人员。",
+      "evidence": "Professor Emeritus | Emeritus Faculty | AI and Robotics · Computer Vision and Machine Perception | https://www.cs.umd.edu/people/lsdavis"
+    },
+    {
+      "officialId": "bdorr",
+      "rosterName": "Bonnie Dorr",
+      "title": "Professor Emerita",
+      "profileUrl": "https://www.cs.umd.edu/people/bdorr",
+      "portraitUrl": "https://www.cs.umd.edu/sites/default/files/styles/thumbnail/public/images/userpictures/20210226-Dorr-headshot-cropped.jpg?itok=DWyQFBoL&c=99d9c90b941dfee211691ae43fa088f4",
+      "officialSections": [
+        "Emeritus Faculty"
+      ],
+      "researchFields": [
+        "AI and Robotics",
+        "Natural Language Processing"
+      ],
+      "unitUrl": "https://www.cs.umd.edu/people/faculty",
+      "decision": "excluded_historical",
+      "reason": "官方职称或名录分组明确为荣休、退休或历史人员。",
+      "evidence": "Professor Emerita | Emeritus Faculty | AI and Robotics · Natural Language Processing | https://www.cs.umd.edu/people/bdorr"
+    },
+    {
+      "officialId": "mhicks2",
+      "rosterName": "Michael Hicks",
+      "title": "Professor Emeritus",
+      "profileUrl": "https://www.cs.umd.edu/people/mhicks2",
+      "portraitUrl": "https://www.cs.umd.edu/sites/default/files/styles/thumbnail/public/images/userpictures/hicks.jpg?itok=6oyBZYeS&c=aec91935ac7661c379336d8755aa8121",
+      "officialSections": [
+        "Emeritus Faculty"
+      ],
+      "researchFields": [
+        "Cybersecurity and Cryptography",
+        "Programming Languages and Software Engineering",
+        "Systems, Networking, and Architecture"
+      ],
+      "unitUrl": "https://www.cs.umd.edu/people/faculty",
+      "decision": "excluded_historical",
+      "reason": "官方职称或名录分组明确为荣休、退休或历史人员。",
+      "evidence": "Professor Emeritus | Emeritus Faculty | Cybersecurity and Cryptography · Programming Languages and Software Engineering · Systems, Networking, and Architecture | https://www.cs.umd.edu/people/mhicks2"
+    },
+    {
+      "officialId": "jkatz2",
+      "rosterName": "Jonathan Katz",
+      "title": "Professor Emeritus",
+      "profileUrl": "https://www.cs.umd.edu/people/jkatz2",
+      "portraitUrl": "https://www.cs.umd.edu/sites/default/files/styles/thumbnail/public/images/userpictures/katz%20jonathan.jpg?itok=flhpi0vG",
+      "officialSections": [
+        "Emeritus Faculty"
+      ],
+      "researchFields": [
+        "Algorithms and Theory",
+        "Cybersecurity and Cryptography"
+      ],
+      "unitUrl": "https://www.cs.umd.edu/people/faculty",
+      "decision": "excluded_historical",
+      "reason": "官方职称或名录分组明确为荣休、退休或历史人员。",
+      "evidence": "Professor Emeritus | Emeritus Faculty | Algorithms and Theory · Cybersecurity and Cryptography | https://www.cs.umd.edu/people/jkatz2"
+    },
+    {
+      "officialId": "samirk",
+      "rosterName": "Samir Khuller",
+      "title": "Professor Emeritus",
+      "profileUrl": "https://www.cs.umd.edu/people/samirk",
+      "portraitUrl": "https://www.cs.umd.edu/sites/default/files/styles/thumbnail/public/images/userpictures/Leadership%20%283%20of%203%29.jpg?itok=Hj3ZxW3q&c=8c89f8363a9df30eb1d9bb2786dee911",
+      "officialSections": [
+        "Emeritus Faculty"
+      ],
+      "researchFields": [
+        "Algorithms and Theory",
+        "Databases and Big Data"
+      ],
+      "unitUrl": "https://www.cs.umd.edu/people/faculty",
+      "decision": "excluded_historical",
+      "reason": "官方职称或名录分组明确为荣休、退休或历史人员。",
+      "evidence": "Professor Emeritus | Emeritus Faculty | Algorithms and Theory · Databases and Big Data | https://www.cs.umd.edu/people/samirk"
+    },
+    {
+      "officialId": "nau",
+      "rosterName": "Dana Nau",
+      "title": "Professor Emeritus",
+      "profileUrl": "https://www.cs.umd.edu/people/nau",
+      "portraitUrl": "https://www.cs.umd.edu/sites/default/files/styles/thumbnail/public/images/userpictures/nau%20dana.png?itok=o0K87NWn",
+      "officialSections": [
+        "Emeritus Faculty"
+      ],
+      "researchFields": [
+        "AI and Robotics"
+      ],
+      "unitUrl": "https://www.cs.umd.edu/people/faculty",
+      "decision": "excluded_historical",
+      "reason": "官方职称或名录分组明确为荣休、退休或历史人员。",
+      "evidence": "Professor Emeritus | Emeritus Faculty | AI and Robotics | https://www.cs.umd.edu/people/nau"
+    },
+    {
+      "officialId": "oleary",
+      "rosterName": "Dianne O'Leary",
+      "title": "Professor Emerita",
+      "profileUrl": "https://www.cs.umd.edu/people/oleary",
+      "portraitUrl": "https://www.cs.umd.edu/sites/default/files/styles/thumbnail/public/images/userpictures/o%27leary%20diane.jpg?itok=N1hqzIwW&c=6933a757ebdd2b319410fdd66faa618f",
+      "officialSections": [
+        "Emeritus Faculty"
+      ],
+      "researchFields": [
+        "High Performance and Scientific Computing"
+      ],
+      "unitUrl": "https://www.cs.umd.edu/people/faculty",
+      "decision": "excluded_historical",
+      "reason": "官方职称或名录分组明确为荣休、退休或历史人员。",
+      "evidence": "Professor Emerita | Emeritus Faculty | High Performance and Scientific Computing | https://www.cs.umd.edu/people/oleary"
+    },
+    {
+      "officialId": "perlis",
+      "rosterName": "Don Perlis",
+      "title": "Professor Emeritus",
+      "profileUrl": "https://www.cs.umd.edu/people/perlis",
+      "portraitUrl": "https://www.cs.umd.edu/sites/default/files/styles/thumbnail/public/images/userpictures/perlis%20don.jpg?itok=QhvcEk7K",
+      "officialSections": [
+        "Emeritus Faculty"
+      ],
+      "researchFields": [
+        "AI and Robotics"
+      ],
+      "unitUrl": "https://www.cs.umd.edu/people/faculty",
+      "decision": "excluded_historical",
+      "reason": "官方职称或名录分组明确为荣休、退休或历史人员。",
+      "evidence": "Professor Emeritus | Emeritus Faculty | AI and Robotics | https://www.cs.umd.edu/people/perlis"
+    },
+    {
+      "officialId": "jplane",
+      "rosterName": "Jandelyn Plane",
+      "title": "Principal Lecturer Emerita",
+      "profileUrl": "https://www.cs.umd.edu/people/jplane",
+      "portraitUrl": "https://www.cs.umd.edu/sites/default/files/styles/thumbnail/public/images/userpictures/JanPicture880K.jpg?itok=dYVaAKy9&c=c83e07bcbb91a5498b2ae8a6f96cff8e",
+      "officialSections": [
+        "Emeritus Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cs.umd.edu/people/faculty",
+      "decision": "excluded_historical",
+      "reason": "官方职称或名录分组明确为荣休、退休或历史人员。",
+      "evidence": "Principal Lecturer Emerita | Emeritus Faculty | https://www.cs.umd.edu/people/jplane"
+    },
+    {
+      "officialId": "pugh",
+      "rosterName": "William Pugh",
+      "title": "Professor Emeritus",
+      "profileUrl": "https://www.cs.umd.edu/people/pugh",
+      "portraitUrl": "https://www.cs.umd.edu/sites/default/files/styles/thumbnail/public/images/userpictures/pugh%20william.jpg?itok=JZiemGRe",
+      "officialSections": [
+        "Emeritus Faculty"
+      ],
+      "researchFields": [
+        "Programming Languages and Software Engineering"
+      ],
+      "unitUrl": "https://www.cs.umd.edu/people/faculty",
+      "decision": "excluded_historical",
+      "reason": "官方职称或名录分组明确为荣休、退休或历史人员。",
+      "evidence": "Professor Emeritus | Emeritus Faculty | Programming Languages and Software Engineering | https://www.cs.umd.edu/people/pugh"
+    },
+    {
+      "officialId": "reggia",
+      "rosterName": "James Reggia",
+      "title": "Professor Emeritus",
+      "profileUrl": "https://www.cs.umd.edu/people/reggia",
+      "portraitUrl": "https://www.cs.umd.edu/sites/default/files/styles/thumbnail/public/images/userpictures/reggia%20james.jpg?itok=0zNxobnn&c=181637d776a025d0b8fab9cc8cf6903e",
+      "officialSections": [
+        "Emeritus Faculty"
+      ],
+      "researchFields": [
+        "AI and Robotics"
+      ],
+      "unitUrl": "https://www.cs.umd.edu/people/faculty",
+      "decision": "excluded_historical",
+      "reason": "官方职称或名录分组明确为荣休、退休或历史人员。",
+      "evidence": "Professor Emeritus | Emeritus Faculty | AI and Robotics | https://www.cs.umd.edu/people/reggia"
+    },
+    {
+      "officialId": "nickr",
+      "rosterName": "Nicholas Roussopoulos",
+      "title": "Professor Emeritus",
+      "profileUrl": "https://www.cs.umd.edu/people/nickr",
+      "portraitUrl": "https://www.cs.umd.edu/sites/default/files/styles/thumbnail/public/images/userpictures/Roussopolos%20nick.jpg?itok=eqiwkjjB",
+      "officialSections": [
+        "Emeritus Faculty"
+      ],
+      "researchFields": [
+        "Databases and Big Data",
+        "Information Retrieval and Geographic Information Systems (GIS)"
+      ],
+      "unitUrl": "https://www.cs.umd.edu/people/faculty",
+      "decision": "excluded_historical",
+      "reason": "官方职称或名录分组明确为荣休、退休或历史人员。",
+      "evidence": "Professor Emeritus | Emeritus Faculty | Databases and Big Data · Information Retrieval and Geographic Information Systems (GIS) | https://www.cs.umd.edu/people/nickr"
+    },
+    {
+      "officialId": "shankar",
+      "rosterName": "A. Udaya Shankar",
+      "title": "Professor Emeritus",
+      "profileUrl": "https://www.cs.umd.edu/people/shankar",
+      "portraitUrl": "https://www.cs.umd.edu/sites/default/files/styles/thumbnail/public/images/userpictures/Shankar.jpg?itok=hv0pumIe",
+      "officialSections": [
+        "Emeritus Faculty"
+      ],
+      "researchFields": [
+        "Systems, Networking, and Architecture"
+      ],
+      "unitUrl": "https://www.cs.umd.edu/people/faculty",
+      "decision": "excluded_historical",
+      "reason": "官方职称或名录分组明确为荣休、退休或历史人员。",
+      "evidence": "Professor Emeritus | Emeritus Faculty | Systems, Networking, and Architecture | https://www.cs.umd.edu/people/shankar"
+    },
+    {
+      "officialId": "bshneide",
+      "rosterName": "Ben Shneiderman",
+      "title": "Professor Emeritus",
+      "profileUrl": "https://www.cs.umd.edu/people/bshneide",
+      "portraitUrl": "https://www.cs.umd.edu/sites/default/files/styles/thumbnail/public/images/userpictures/shneiderman%20ben.jpg?itok=3V7uZyR8&c=fdfe621dff429f26ed4467f0dac19b82",
+      "officialSections": [
+        "Emeritus Faculty"
+      ],
+      "researchFields": [
+        "Human Computer Interaction",
+        "Machine Learning and Data Science"
+      ],
+      "unitUrl": "https://www.cs.umd.edu/people/faculty",
+      "decision": "excluded_historical",
+      "reason": "官方职称或名录分组明确为荣休、退休或历史人员。",
+      "evidence": "Professor Emeritus | Emeritus Faculty | Human Computer Interaction · Machine Learning and Data Science | https://www.cs.umd.edu/people/bshneide"
+    },
+    {
+      "officialId": "mvz",
+      "rosterName": "Marvin Zelkowitz",
+      "title": "Professor Emeritus",
+      "profileUrl": "https://www.cs.umd.edu/people/mvz",
+      "portraitUrl": "https://www.cs.umd.edu/sites/default/files/styles/thumbnail/public/images/userpictures/zelkowitz.jpg?itok=lhs3JmaU&c=40bdd877075d007e5611d1577e17536c",
+      "officialSections": [
+        "Emeritus Faculty"
+      ],
+      "researchFields": [
+        "Programming Languages and Software Engineering"
+      ],
+      "unitUrl": "https://www.cs.umd.edu/people/faculty",
+      "decision": "excluded_historical",
+      "reason": "官方职称或名录分组明确为荣休、退休或历史人员。",
+      "evidence": "Professor Emeritus | Emeritus Faculty | Programming Languages and Software Engineering | https://www.cs.umd.edu/people/mvz"
+    },
+    {
+      "officialId": "vva",
+      "rosterName": "Victor Albert",
+      "title": "Adjunct Assistant Professor",
+      "profileUrl": "https://www.cs.umd.edu/people/vva",
+      "portraitUrl": "https://www.cs.umd.edu/sites/default/files/styles/thumbnail/public/images/userpictures/profile_2018_large.jpg?itok=GEEO21y5",
+      "officialSections": [
+        "Adjunct Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cs.umd.edu/people/faculty",
+      "decision": "excluded_non_pi",
+      "reason": "官方职称或名录分组属于教学、兼职、附属、科研支持或其他非独立 PI 岗位。",
+      "evidence": "Adjunct Assistant Professor | Adjunct Faculty | https://www.cs.umd.edu/people/vva"
+    },
+    {
+      "officialId": "leilani",
+      "rosterName": "Leilani Battle",
+      "title": "Adjunct Assistant Professor",
+      "profileUrl": "https://www.cs.umd.edu/people/leilani",
+      "portraitUrl": "https://www.cs.umd.edu/sites/default/files/styles/thumbnail/public/images/userpictures/leilani_pp2.png?itok=-LPM_OHe&c=7dbd722d0d85d9198cbf62a16cccc4ad",
+      "officialSections": [
+        "Adjunct Faculty"
+      ],
+      "researchFields": [
+        "Databases and Big Data",
+        "Human Computer Interaction",
+        "Machine Learning and Data Science"
+      ],
+      "unitUrl": "https://www.cs.umd.edu/people/faculty",
+      "decision": "excluded_non_pi",
+      "reason": "官方职称或名录分组属于教学、兼职、附属、科研支持或其他非独立 PI 岗位。",
+      "evidence": "Adjunct Assistant Professor | Adjunct Faculty | Databases and Big Data · Human Computer Interaction · Machine Learning and Data Science | https://www.cs.umd.edu/people/leilani"
+    },
+    {
+      "officialId": "amritbd",
+      "rosterName": "Amrit Singh Bedi",
+      "title": "Adjunct Assistant Professor",
+      "profileUrl": "https://www.cs.umd.edu/people/amritbd",
+      "portraitUrl": "https://www.cs.umd.edu/sites/default/files/styles/thumbnail/public/default_images/user_icon.png?itok=YGrztVGT",
+      "officialSections": [
+        "Adjunct Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cs.umd.edu/people/faculty",
+      "decision": "excluded_non_pi",
+      "reason": "官方职称或名录分组属于教学、兼职、附属、科研支持或其他非独立 PI 岗位。",
+      "evidence": "Adjunct Assistant Professor | Adjunct Faculty | https://www.cs.umd.edu/people/amritbd"
+    },
+    {
+      "officialId": "bera",
+      "rosterName": "Aniket Bera",
+      "title": "Adjunct Associate Professor",
+      "profileUrl": "https://www.cs.umd.edu/people/bera",
+      "portraitUrl": "https://www.cs.umd.edu/sites/default/files/styles/thumbnail/public/images/userpictures/20211108_Aniket_Bera_Research_33_2%20%281%29.JPG?itok=1bVXLM0Z",
+      "officialSections": [
+        "Adjunct Faculty"
+      ],
+      "researchFields": [
+        "Graphics Visualization and VR AR",
+        "AI and Robotics"
+      ],
+      "unitUrl": "https://www.cs.umd.edu/people/faculty",
+      "decision": "excluded_non_pi",
+      "reason": "官方职称或名录分组属于教学、兼职、附属、科研支持或其他非独立 PI 岗位。",
+      "evidence": "Adjunct Associate Professor | Adjunct Faculty | Graphics Visualization and VR AR · AI and Robotics | https://www.cs.umd.edu/people/bera"
+    },
+    {
+      "officialId": "mcoudron",
+      "rosterName": "Matthew Coudron",
+      "title": "Adjunct Assistant Professor",
+      "profileUrl": "https://www.cs.umd.edu/people/mcoudron",
+      "portraitUrl": "https://www.cs.umd.edu/sites/default/files/styles/thumbnail/public/images/userpictures/SuitPicture.jpg?itok=z1NZRkJ-&c=c77dcfc30ac8f5862f32bec7d219d9f9",
+      "officialSections": [
+        "Adjunct Faculty"
+      ],
+      "researchFields": [
+        "Algorithms and Theory",
+        "Quantum Computing"
+      ],
+      "unitUrl": "https://www.cs.umd.edu/people/faculty",
+      "decision": "excluded_non_pi",
+      "reason": "官方职称或名录分组属于教学、兼职、附属、科研支持或其他非独立 PI 岗位。",
+      "evidence": "Adjunct Assistant Professor | Adjunct Faculty | Algorithms and Theory · Quantum Computing | https://www.cs.umd.edu/people/mcoudron"
+    },
+    {
+      "officialId": "johnd",
+      "rosterName": "John Dickerson",
+      "title": "Adjunct Associate Professor",
+      "profileUrl": "https://www.cs.umd.edu/people/johnd",
+      "portraitUrl": "https://www.cs.umd.edu/sites/default/files/styles/thumbnail/public/images/userpictures/cropped_01.jpg?itok=IGdVPk1U",
+      "officialSections": [
+        "Adjunct Faculty"
+      ],
+      "researchFields": [
+        "AI and Robotics",
+        "Databases and Big Data",
+        "Machine Learning and Data Science"
+      ],
+      "unitUrl": "https://www.cs.umd.edu/people/faculty",
+      "decision": "excluded_non_pi",
+      "reason": "官方职称或名录分组属于教学、兼职、附属、科研支持或其他非独立 PI 岗位。",
+      "evidence": "Adjunct Associate Professor | Adjunct Faculty | AI and Robotics · Databases and Big Data · Machine Learning and Data Science | https://www.cs.umd.edu/people/johnd"
+    },
+    {
+      "officialId": "maxehr",
+      "rosterName": "Max Ehrlich",
+      "title": "Adjunct Assistant Professor",
+      "profileUrl": "https://www.cs.umd.edu/people/maxehr",
+      "portraitUrl": "https://www.cs.umd.edu/sites/default/files/styles/thumbnail/public/images/userpictures/profile_12.jpg?itok=2zmYAjaj",
+      "officialSections": [
+        "Adjunct Faculty"
+      ],
+      "researchFields": [
+        "Computer Vision and Machine Perception",
+        "Machine Learning and Data Science"
+      ],
+      "unitUrl": "https://www.cs.umd.edu/people/faculty",
+      "decision": "excluded_non_pi",
+      "reason": "官方职称或名录分组属于教学、兼职、附属、科研支持或其他非独立 PI 岗位。",
+      "evidence": "Adjunct Assistant Professor | Adjunct Faculty | Computer Vision and Machine Perception · Machine Learning and Data Science | https://www.cs.umd.edu/people/maxehr"
+    },
+    {
+      "officialId": "elm",
+      "rosterName": "Niklas Elmqvist",
+      "title": "Adjunct Professor",
+      "profileUrl": "https://www.cs.umd.edu/people/elm",
+      "portraitUrl": "https://www.cs.umd.edu/sites/default/files/styles/thumbnail/public/images/userpictures/elmqvist1.jpg?itok=c3bzuYa-&c=abba7c084d792902a3a4a1ddbb1ecb80",
+      "officialSections": [
+        "Adjunct Faculty"
+      ],
+      "researchFields": [
+        "Human Computer Interaction"
+      ],
+      "unitUrl": "https://www.cs.umd.edu/people/faculty",
+      "decision": "excluded_non_pi",
+      "reason": "官方职称或名录分组属于教学、兼职、附属、科研支持或其他非独立 PI 岗位。",
+      "evidence": "Adjunct Professor | Adjunct Faculty | Human Computer Interaction | https://www.cs.umd.edu/people/elm"
+    },
+    {
+      "officialId": "jfoster4",
+      "rosterName": "Jeffrey Foster",
+      "title": "Adjunct Professor",
+      "profileUrl": "https://www.cs.umd.edu/people/jfoster4",
+      "portraitUrl": "https://www.cs.umd.edu/sites/default/files/styles/thumbnail/public/images/userpictures/IMG_4681%20-%20Version%202.jpg?itok=WrIp7_t0&c=38bdc46b21d706b48c7fdc32cfc9abba",
+      "officialSections": [
+        "Adjunct Faculty"
+      ],
+      "researchFields": [
+        "Cybersecurity and Cryptography",
+        "Programming Languages and Software Engineering"
+      ],
+      "unitUrl": "https://www.cs.umd.edu/people/faculty",
+      "decision": "excluded_non_pi",
+      "reason": "官方职称或名录分组属于教学、兼职、附属、科研支持或其他非独立 PI 岗位。",
+      "evidence": "Adjunct Professor | Adjunct Faculty | Cybersecurity and Cryptography · Programming Languages and Software Engineering | https://www.cs.umd.edu/people/jfoster4"
+    },
+    {
+      "officialId": "lgetoor",
+      "rosterName": "Lise Getoor",
+      "title": "Adjunct Professor",
+      "profileUrl": "https://www.cs.umd.edu/people/lgetoor",
+      "portraitUrl": "https://www.cs.umd.edu/sites/default/files/styles/thumbnail/public/images/userpictures/lcg.jpg?itok=lLbhlo4O&c=abb1756f3b04a6f05fca11a13c1e85e9",
+      "officialSections": [
+        "Adjunct Faculty"
+      ],
+      "researchFields": [
+        "AI and Robotics",
+        "Databases and Big Data"
+      ],
+      "unitUrl": "https://www.cs.umd.edu/people/faculty",
+      "decision": "excluded_non_pi",
+      "reason": "官方职称或名录分组属于教学、兼职、附属、科研支持或其他非独立 PI 岗位。",
+      "evidence": "Adjunct Professor | Adjunct Faculty | AI and Robotics · Databases and Big Data | https://www.cs.umd.edu/people/lgetoor"
+    },
+    {
+      "officialId": "grantj",
+      "rosterName": "John Grant",
+      "title": "Adjunct Professor",
+      "profileUrl": "https://www.cs.umd.edu/people/grantj",
+      "portraitUrl": "https://www.cs.umd.edu/sites/default/files/styles/thumbnail/public/images/userpictures/John%20Grant.jpg?itok=rqNfDJGy&c=7fbc1b6af32ebb1695f634fd8a92bb24",
+      "officialSections": [
+        "Adjunct Faculty"
+      ],
+      "researchFields": [
+        "AI and Robotics"
+      ],
+      "unitUrl": "https://www.cs.umd.edu/people/faculty",
+      "decision": "excluded_non_pi",
+      "reason": "官方职称或名录分组属于教学、兼职、附属、科研支持或其他非独立 PI 岗位。",
+      "evidence": "Adjunct Professor | Adjunct Faculty | AI and Robotics | https://www.cs.umd.edu/people/grantj"
+    },
+    {
+      "officialId": "mgullans",
+      "rosterName": "Michael Gullans",
+      "title": "Adjunct Assistant Professor",
+      "profileUrl": "https://www.cs.umd.edu/people/mgullans",
+      "portraitUrl": "https://www.cs.umd.edu/sites/default/files/styles/thumbnail/public/default_images/user_icon.png?itok=YGrztVGT",
+      "officialSections": [
+        "Adjunct Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cs.umd.edu/people/faculty",
+      "decision": "excluded_non_pi",
+      "reason": "官方职称或名录分组属于教学、兼职、附属、科研支持或其他非独立 PI 岗位。",
+      "evidence": "Adjunct Assistant Professor | Adjunct Faculty | https://www.cs.umd.edu/people/mgullans"
+    },
+    {
+      "officialId": "ileaniz",
+      "rosterName": "Iker Leanizbarrutia Alonso",
+      "title": "Adjunct Assistant Professor",
+      "profileUrl": "https://www.cs.umd.edu/people/ileaniz",
+      "portraitUrl": "https://www.cs.umd.edu/sites/default/files/styles/thumbnail/public/default_images/user_icon.png?itok=YGrztVGT",
+      "officialSections": [
+        "Adjunct Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cs.umd.edu/people/faculty",
+      "decision": "excluded_non_pi",
+      "reason": "官方职称或名录分组属于教学、兼职、附属、科研支持或其他非独立 PI 岗位。",
+      "evidence": "Adjunct Assistant Professor | Adjunct Faculty | https://www.cs.umd.edu/people/ileaniz"
+    },
+    {
+      "officialId": "sdr",
+      "rosterName": "Marc Lichtman",
+      "title": "Adjunct Assistant Professor",
+      "profileUrl": "https://www.cs.umd.edu/people/sdr",
+      "portraitUrl": "https://www.cs.umd.edu/sites/default/files/styles/thumbnail/public/images/userpictures/avatar_2.jpg?itok=bnpVJt3g",
+      "officialSections": [
+        "Adjunct Faculty"
+      ],
+      "researchFields": [
+        "Machine Learning and Data Science",
+        "Systems, Networking, and Architecture"
+      ],
+      "unitUrl": "https://www.cs.umd.edu/people/faculty",
+      "decision": "excluded_non_pi",
+      "reason": "官方职称或名录分组属于教学、兼职、附属、科研支持或其他非独立 PI 岗位。",
+      "evidence": "Adjunct Assistant Professor | Adjunct Faculty | Machine Learning and Data Science · Systems, Networking, and Architecture | https://www.cs.umd.edu/people/sdr"
+    },
+    {
+      "officialId": "mlindval",
+      "rosterName": "Mikael Lindvall",
+      "title": "Adjunct Professor",
+      "profileUrl": "https://www.cs.umd.edu/people/mlindval",
+      "portraitUrl": "https://www.cs.umd.edu/sites/default/files/styles/thumbnail/public/images/userpictures/lindvall%20mikael.gif?itok=-St8fQUK",
+      "officialSections": [
+        "Adjunct Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cs.umd.edu/people/faculty",
+      "decision": "excluded_non_pi",
+      "reason": "官方职称或名录分组属于教学、兼职、附属、科研支持或其他非独立 PI 岗位。",
+      "evidence": "Adjunct Professor | Adjunct Faculty | https://www.cs.umd.edu/people/mlindval"
+    },
+    {
+      "officialId": "yikailiu",
+      "rosterName": "Yi-Kai Liu",
+      "title": "Adjunct Associate Professor",
+      "profileUrl": "https://www.cs.umd.edu/people/yikailiu",
+      "portraitUrl": "https://www.cs.umd.edu/sites/default/files/styles/thumbnail/public/images/userpictures/ykliu.jpg?itok=YDGy-qPq&c=e7c600a3d125e374fdb080322c65d532",
+      "officialSections": [
+        "Adjunct Faculty"
+      ],
+      "researchFields": [
+        "Algorithms and Theory",
+        "Quantum Computing"
+      ],
+      "unitUrl": "https://www.cs.umd.edu/people/faculty",
+      "decision": "excluded_non_pi",
+      "reason": "官方职称或名录分组属于教学、兼职、附属、科研支持或其他非独立 PI 岗位。",
+      "evidence": "Adjunct Associate Professor | Adjunct Faculty | Algorithms and Theory · Quantum Computing | https://www.cs.umd.edu/people/yikailiu"
+    },
+    {
+      "officialId": "jmanly",
+      "rosterName": "Jennifer Manly",
+      "title": "Adjunct Lecturer",
+      "profileUrl": "https://www.cs.umd.edu/people/jmanly",
+      "portraitUrl": "https://www.cs.umd.edu/sites/default/files/styles/thumbnail/public/images/userpictures/Manly_Jennifer_2019-4.jpg?itok=fPP9S3bN&c=673cfa28592b3a0269f2de1016303fb3",
+      "officialSections": [
+        "Adjunct Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cs.umd.edu/people/faculty",
+      "decision": "excluded_non_pi",
+      "reason": "官方职称或名录分组属于教学、兼职、附属、科研支持或其他非独立 PI 岗位。",
+      "evidence": "Adjunct Lecturer | Adjunct Faculty | https://www.cs.umd.edu/people/jmanly"
+    },
+    {
+      "officialId": "camiller",
+      "rosterName": "Carl Miller",
+      "title": "Adjunct Associate Professor",
+      "profileUrl": "https://www.cs.umd.edu/people/camiller",
+      "portraitUrl": "https://www.cs.umd.edu/sites/default/files/styles/thumbnail/public/images/userpictures/HeadshotQuICS_1.JPG?itok=HS8hei-8",
+      "officialSections": [
+        "Adjunct Faculty"
+      ],
+      "researchFields": [
+        "Algorithms and Theory",
+        "Quantum Computing"
+      ],
+      "unitUrl": "https://www.cs.umd.edu/people/faculty",
+      "decision": "excluded_non_pi",
+      "reason": "官方职称或名录分组属于教学、兼职、附属、科研支持或其他非独立 PI 岗位。",
+      "evidence": "Adjunct Associate Professor | Adjunct Faculty | Algorithms and Theory · Quantum Computing | https://www.cs.umd.edu/people/camiller"
+    },
+    {
+      "officialId": "anenkova",
+      "rosterName": "Ani Nenkova",
+      "title": "Adjunct Professor",
+      "profileUrl": "https://www.cs.umd.edu/people/anenkova",
+      "portraitUrl": "https://www.cs.umd.edu/sites/default/files/styles/thumbnail/public/default_images/user_icon.png?itok=YGrztVGT",
+      "officialSections": [
+        "Adjunct Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cs.umd.edu/people/faculty",
+      "decision": "excluded_non_pi",
+      "reason": "官方职称或名录分组属于教学、兼职、附属、科研支持或其他非独立 PI 岗位。",
+      "evidence": "Adjunct Professor | Adjunct Faculty | https://www.cs.umd.edu/people/anenkova"
+    },
+    {
+      "officialId": "myniu",
+      "rosterName": "Murphy Yuezhen Niu",
+      "title": "Adjunct Assistant Professor",
+      "profileUrl": "https://www.cs.umd.edu/people/myniu",
+      "portraitUrl": "https://www.cs.umd.edu/sites/default/files/styles/thumbnail/public/default_images/user_icon.png?itok=YGrztVGT",
+      "officialSections": [
+        "Adjunct Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cs.umd.edu/people/faculty",
+      "decision": "excluded_non_pi",
+      "reason": "官方职称或名录分组属于教学、兼职、附属、科研支持或其他非独立 PI 岗位。",
+      "evidence": "Adjunct Assistant Professor | Adjunct Faculty | https://www.cs.umd.edu/people/myniu"
+    },
+    {
+      "officialId": "makro",
+      "rosterName": "Mak Roberts",
+      "title": "Adjunct Lecturer",
+      "profileUrl": "https://www.cs.umd.edu/people/makro",
+      "portraitUrl": "https://www.cs.umd.edu/sites/default/files/styles/thumbnail/public/default_images/user_icon.png?itok=YGrztVGT",
+      "officialSections": [
+        "Adjunct Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cs.umd.edu/people/faculty",
+      "decision": "excluded_non_pi",
+      "reason": "官方职称或名录分组属于教学、兼职、附属、科研支持或其他非独立 PI 岗位。",
+      "evidence": "Adjunct Lecturer | Adjunct Faculty | https://www.cs.umd.edu/people/makro"
+    },
+    {
+      "officialId": "crytting",
+      "rosterName": "C. Anton Rytting",
+      "title": "Adjunct Lecturer",
+      "profileUrl": "https://www.cs.umd.edu/people/crytting",
+      "portraitUrl": "https://www.cs.umd.edu/sites/default/files/styles/thumbnail/public/images/userpictures/Rytting_pic_2018_4MP.JPG?itok=BbVsk4Go&c=39ce2397253eb58912f2d1299b14ec7b",
+      "officialSections": [
+        "Adjunct Faculty"
+      ],
+      "researchFields": [
+        "Natural Language Processing"
+      ],
+      "unitUrl": "https://www.cs.umd.edu/people/faculty",
+      "decision": "excluded_non_pi",
+      "reason": "官方职称或名录分组属于教学、兼职、附属、科研支持或其他非独立 PI 岗位。",
+      "evidence": "Adjunct Lecturer | Adjunct Faculty | Natural Language Processing | https://www.cs.umd.edu/people/crytting"
+    },
+    {
+      "officialId": "sahinalp",
+      "rosterName": "S. Cenk Sahinalp",
+      "title": "Adjunct Professor",
+      "profileUrl": "https://www.cs.umd.edu/people/sahinalp",
+      "portraitUrl": "https://www.cs.umd.edu/sites/default/files/styles/thumbnail/public/images/userpictures/cenk_sahinalp_-_235px.png?itok=jWN1z0GT&c=b1276d9fc577af4bf2ec9276878c150b",
+      "officialSections": [
+        "Adjunct Faculty"
+      ],
+      "researchFields": [
+        "Bioinformatics and Computational Biology",
+        "Algorithms and Theory"
+      ],
+      "unitUrl": "https://www.cs.umd.edu/people/faculty",
+      "decision": "excluded_non_pi",
+      "reason": "官方职称或名录分组属于教学、兼职、附属、科研支持或其他非独立 PI 岗位。",
+      "evidence": "Adjunct Professor | Adjunct Faculty | Bioinformatics and Computational Biology · Algorithms and Theory | https://www.cs.umd.edu/people/sahinalp"
+    },
+    {
+      "officialId": "runting",
+      "rosterName": "Elaine Shi",
+      "title": "Adjunct Professor",
+      "profileUrl": "https://www.cs.umd.edu/people/runting",
+      "portraitUrl": "https://www.cs.umd.edu/sites/default/files/styles/thumbnail/public/default_images/user_icon.png?itok=YGrztVGT",
+      "officialSections": [
+        "Adjunct Faculty"
+      ],
+      "researchFields": [
+        "Cybersecurity and Cryptography",
+        "Programming Languages and Software Engineering"
+      ],
+      "unitUrl": "https://www.cs.umd.edu/people/faculty",
+      "decision": "excluded_non_pi",
+      "reason": "官方职称或名录分组属于教学、兼职、附属、科研支持或其他非独立 PI 岗位。",
+      "evidence": "Adjunct Professor | Adjunct Faculty | Cybersecurity and Cryptography · Programming Languages and Software Engineering | https://www.cs.umd.edu/people/runting"
+    },
+    {
+      "officialId": "aiwei",
+      "rosterName": "Wei Ai",
+      "title": "Affiliate Assistant Professor",
+      "profileUrl": "https://www.cs.umd.edu/people/aiwei",
+      "portraitUrl": "https://www.cs.umd.edu/sites/default/files/styles/thumbnail/public/default_images/user_icon.png?itok=YGrztVGT",
+      "officialSections": [
+        "Affiliate Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cs.umd.edu/people/faculty",
+      "decision": "excluded_non_pi",
+      "reason": "官方职称或名录分组属于教学、兼职、附属、科研支持或其他非独立 PI 岗位。",
+      "evidence": "Affiliate Assistant Professor | Affiliate Faculty | https://www.cs.umd.edu/people/aiwei"
+    },
+    {
+      "officialId": "galagic",
+      "rosterName": "Gorjan Alagic",
+      "title": "Affiliate Associate Research Scientist",
+      "profileUrl": "https://www.cs.umd.edu/people/galagic",
+      "portraitUrl": "https://www.cs.umd.edu/sites/default/files/styles/thumbnail/public/images/userpictures/GorjanAlagic_headshot.JPG?itok=SsC4mQ2C&c=8533e89e3eceb5067d0b7649ca7ea5a2",
+      "officialSections": [
+        "Affiliate Faculty"
+      ],
+      "researchFields": [
+        "Quantum Computing"
+      ],
+      "unitUrl": "https://www.cs.umd.edu/people/faculty",
+      "decision": "excluded_non_pi",
+      "reason": "官方职称或名录分组属于教学、兼职、附属、科研支持或其他非独立 PI 岗位。",
+      "evidence": "Affiliate Associate Research Scientist | Affiliate Faculty | Quantum Computing | https://www.cs.umd.edu/people/galagic"
+    },
+    {
+      "officialId": "baras",
+      "rosterName": "John Baras",
+      "title": "Affiliate Professor",
+      "profileUrl": "https://www.cs.umd.edu/people/baras",
+      "portraitUrl": "https://www.cs.umd.edu/sites/default/files/styles/thumbnail/public/images/userpictures/2016_JohnBaras_headshot_highres.png?itok=zqWgtWiw&c=f04a4e5055c7c58feb7c91a549fdc24d",
+      "officialSections": [
+        "Affiliate Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cs.umd.edu/people/faculty",
+      "decision": "excluded_non_pi",
+      "reason": "官方职称或名录分组属于教学、兼职、附属、科研支持或其他非独立 PI 岗位。",
+      "evidence": "Affiliate Professor | Affiliate Faculty | https://www.cs.umd.edu/people/baras"
+    },
+    {
+      "officialId": "abarg",
+      "rosterName": "Alexander Barg",
+      "title": "Affiliate Professor",
+      "profileUrl": "https://www.cs.umd.edu/people/abarg",
+      "portraitUrl": "https://www.cs.umd.edu/sites/default/files/styles/thumbnail/public/images/userpictures/barg.jpg?itok=wY0AvygS&c=d80a27052ffdb507fb67cf4c743ac75e",
+      "officialSections": [
+        "Affiliate Faculty"
+      ],
+      "researchFields": [
+        "Algorithms and Theory"
+      ],
+      "unitUrl": "https://www.cs.umd.edu/people/faculty",
+      "decision": "excluded_non_pi",
+      "reason": "官方职称或名录分组属于教学、兼职、附属、科研支持或其他非独立 PI 岗位。",
+      "evidence": "Affiliate Professor | Affiliate Faculty | Algorithms and Theory | https://www.cs.umd.edu/people/abarg"
+    },
+    {
+      "officialId": "ssb",
+      "rosterName": "Shuvra Bhattacharyya",
+      "title": "Affiliate Professor",
+      "profileUrl": "https://www.cs.umd.edu/people/ssb",
+      "portraitUrl": "https://www.cs.umd.edu/sites/default/files/styles/thumbnail/public/default_images/user_icon.png?itok=YGrztVGT",
+      "officialSections": [
+        "Affiliate Faculty"
+      ],
+      "researchFields": [
+        "AI and Robotics",
+        "IoT and Wearables Technology",
+        "Computer Vision and Machine Perception"
+      ],
+      "unitUrl": "https://www.cs.umd.edu/people/faculty",
+      "decision": "excluded_non_pi",
+      "reason": "官方职称或名录分组属于教学、兼职、附属、科研支持或其他非独立 PI 岗位。",
+      "evidence": "Affiliate Professor | Affiliate Faculty | AI and Robotics · IoT and Wearables Technology · Computer Vision and Machine Perception | https://www.cs.umd.edu/people/ssb"
+    },
+    {
+      "officialId": "cbuntain",
+      "rosterName": "Cody Buntain",
+      "title": "Affiliate Assistant Professor",
+      "profileUrl": "https://www.cs.umd.edu/people/cbuntain",
+      "portraitUrl": "https://www.cs.umd.edu/sites/default/files/styles/thumbnail/public/images/userpictures/Me2.jpg?itok=vytfgLtn&c=a421c789bd2daad02dcb165525c60f7c",
+      "officialSections": [
+        "Affiliate Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cs.umd.edu/people/faculty",
+      "decision": "excluded_non_pi",
+      "reason": "官方职称或名录分组属于教学、兼职、附属、科研支持或其他非独立 PI 岗位。",
+      "evidence": "Affiliate Assistant Professor | Affiliate Faculty | https://www.cs.umd.edu/people/cbuntain"
+    },
+    {
+      "officialId": "mariakc",
+      "rosterName": "Maria Cameron",
+      "title": "Affiliate Professor",
+      "profileUrl": "https://www.cs.umd.edu/people/mariakc",
+      "portraitUrl": "https://www.cs.umd.edu/sites/default/files/styles/thumbnail/public/default_images/user_icon.png?itok=YGrztVGT",
+      "officialSections": [
+        "Affiliate Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cs.umd.edu/people/faculty",
+      "decision": "excluded_non_pi",
+      "reason": "官方职称或名录分组属于教学、兼职、附属、科研支持或其他非独立 PI 岗位。",
+      "evidence": "Affiliate Professor | Affiliate Faculty | https://www.cs.umd.edu/people/mariakc"
+    },
+    {
+      "officialId": "joelchan",
+      "rosterName": "Joel Chan",
+      "title": "Affiliate Associate Professor",
+      "profileUrl": "https://www.cs.umd.edu/people/joelchan",
+      "portraitUrl": "https://www.cs.umd.edu/sites/default/files/styles/thumbnail/public/default_images/user_icon.png?itok=YGrztVGT",
+      "officialSections": [
+        "Affiliate Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cs.umd.edu/people/faculty",
+      "decision": "excluded_non_pi",
+      "reason": "官方职称或名录分组属于教学、兼职、附属、科研支持或其他非独立 PI 岗位。",
+      "evidence": "Affiliate Associate Professor | Affiliate Faculty | https://www.cs.umd.edu/people/joelchan"
+    },
+    {
+      "officialId": "choe",
+      "rosterName": "Eun Kyoung Choe",
+      "title": "Affiliate Associate Professor",
+      "profileUrl": "https://www.cs.umd.edu/people/choe",
+      "portraitUrl": "https://www.cs.umd.edu/sites/default/files/styles/thumbnail/public/images/userpictures/ekc-headshot.png?itok=G9yatmyM&c=944700ce38fad108b3a4dd60c04570bd",
+      "officialSections": [
+        "Affiliate Faculty"
+      ],
+      "researchFields": [
+        "Human Computer Interaction"
+      ],
+      "unitUrl": "https://www.cs.umd.edu/people/faculty",
+      "decision": "excluded_non_pi",
+      "reason": "官方职称或名录分组属于教学、兼职、附属、科研支持或其他非独立 PI 岗位。",
+      "evidence": "Affiliate Associate Professor | Affiliate Faculty | Human Computer Interaction | https://www.cs.umd.edu/people/choe"
+    },
+    {
+      "officialId": "gciampag",
+      "rosterName": "Giovanni Luca Ciampaglia",
+      "title": "Affiliate Assistant Professor",
+      "profileUrl": "https://www.cs.umd.edu/people/gciampag",
+      "portraitUrl": "https://www.cs.umd.edu/sites/default/files/styles/thumbnail/public/default_images/user_icon.png?itok=YGrztVGT",
+      "officialSections": [
+        "Affiliate Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cs.umd.edu/people/faculty",
+      "decision": "excluded_non_pi",
+      "reason": "官方职称或名录分组属于教学、兼职、附属、科研支持或其他非独立 PI 岗位。",
+      "evidence": "Affiliate Assistant Professor | Affiliate Faculty | https://www.cs.umd.edu/people/gciampag"
+    },
+    {
+      "officialId": "mcukier",
+      "rosterName": "Michel Cukier",
+      "title": "Affiliate Professor",
+      "profileUrl": "https://www.cs.umd.edu/people/mcukier",
+      "portraitUrl": "https://www.cs.umd.edu/sites/default/files/styles/thumbnail/public/images/userpictures/cukier.jpg?itok=FdqapjpB&c=c3d52dd84edd75ee92de7d70b6834fbb",
+      "officialSections": [
+        "Affiliate Faculty"
+      ],
+      "researchFields": [
+        "Cybersecurity and Cryptography"
+      ],
+      "unitUrl": "https://www.cs.umd.edu/people/faculty",
+      "decision": "excluded_non_pi",
+      "reason": "官方职称或名录分组属于教学、兼职、附属、科研支持或其他非独立 PI 岗位。",
+      "evidence": "Affiliate Professor | Affiliate Faculty | Cybersecurity and Cryptography | https://www.cs.umd.edu/people/mcukier"
+    },
+    {
+      "officialId": "danadach",
+      "rosterName": "Dana Dachman-Soled",
+      "title": "Affiliate Associate Professor",
+      "profileUrl": "https://www.cs.umd.edu/people/danadach",
+      "portraitUrl": "https://www.cs.umd.edu/sites/default/files/styles/thumbnail/public/default_images/user_icon.png?itok=YGrztVGT",
+      "officialSections": [
+        "Affiliate Faculty"
+      ],
+      "researchFields": [
+        "Algorithms and Theory",
+        "Cybersecurity and Cryptography"
+      ],
+      "unitUrl": "https://www.cs.umd.edu/people/faculty",
+      "decision": "excluded_non_pi",
+      "reason": "官方职称或名录分组属于教学、兼职、附属、科研支持或其他非独立 PI 岗位。",
+      "evidence": "Affiliate Associate Professor | Affiliate Faculty | Algorithms and Theory · Cybersecurity and Cryptography | https://www.cs.umd.edu/people/danadach"
+    },
+    {
+      "officialId": "deflo",
+      "rosterName": "Leila De Floriani",
+      "title": "Affiliate Professor",
+      "profileUrl": "https://www.cs.umd.edu/people/deflo",
+      "portraitUrl": "https://www.cs.umd.edu/sites/default/files/styles/thumbnail/public/images/userpictures/%C2%A9RM_Leila_De-Floriani_March2024_webpage.jpg?itok=aejt9TiF",
+      "officialSections": [
+        "Affiliate Faculty"
+      ],
+      "researchFields": [
+        "Graphics Visualization and VR AR",
+        "Information Retrieval and Geographic Information Systems (GIS)",
+        "Machine Learning and Data Science"
+      ],
+      "unitUrl": "https://www.cs.umd.edu/people/faculty",
+      "decision": "excluded_non_pi",
+      "reason": "官方职称或名录分组属于教学、兼职、附属、科研支持或其他非独立 PI 岗位。",
+      "evidence": "Affiliate Professor | Affiliate Faculty | Graphics Visualization and VR AR · Information Retrieval and Geographic Information Systems (GIS) · Machine Learning and Data Science | https://www.cs.umd.edu/people/deflo"
+    },
+    {
+      "officialId": "yancy",
+      "rosterName": "Yancy Diaz-Mercado",
+      "title": "Affiliate Assistant Professor",
+      "profileUrl": "https://www.cs.umd.edu/people/yancy",
+      "portraitUrl": "https://www.cs.umd.edu/sites/default/files/styles/thumbnail/public/images/userpictures/YancyDiaz-Mercado_Headshot_Small_Square_1.jpg?itok=ChKinYTY",
+      "officialSections": [
+        "Affiliate Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cs.umd.edu/people/faculty",
+      "decision": "excluded_non_pi",
+      "reason": "官方职称或名录分组属于教学、兼职、附属、科研支持或其他非独立 PI 岗位。",
+      "evidence": "Affiliate Assistant Professor | Affiliate Faculty | https://www.cs.umd.edu/people/yancy"
+    },
+    {
+      "officialId": "tudor",
+      "rosterName": "Tudor Dumitras",
+      "title": "Affiliate Associate Professor",
+      "profileUrl": "https://www.cs.umd.edu/people/tudor",
+      "portraitUrl": "https://www.cs.umd.edu/sites/default/files/styles/thumbnail/public/default_images/user_icon.png?itok=YGrztVGT",
+      "officialSections": [
+        "Affiliate Faculty"
+      ],
+      "researchFields": [
+        "Cybersecurity and Cryptography"
+      ],
+      "unitUrl": "https://www.cs.umd.edu/people/faculty",
+      "decision": "excluded_non_pi",
+      "reason": "官方职称或名录分组属于教学、兼职、附属、科研支持或其他非独立 PI 岗位。",
+      "evidence": "Affiliate Associate Professor | Affiliate Faculty | Cybersecurity and Cryptography | https://www.cs.umd.edu/people/tudor"
+    },
+    {
+      "officialId": "sanghamd",
+      "rosterName": "Sanghamitra Dutta",
+      "title": "Affiliate Assistant Professor",
+      "profileUrl": "https://www.cs.umd.edu/people/sanghamd",
+      "portraitUrl": "https://www.cs.umd.edu/sites/default/files/styles/thumbnail/public/images/userpictures/mmorgan_240612_18305_1.jpg?itok=8oD5Cdek&c=993fbd4eaee89788bc6269f1235e636e",
+      "officialSections": [
+        "Affiliate Faculty"
+      ],
+      "researchFields": [
+        "Algorithms and Theory",
+        "Machine Learning and Data Science",
+        "Computer Vision and Machine Perception"
+      ],
+      "unitUrl": "https://www.cs.umd.edu/people/faculty",
+      "decision": "excluded_non_pi",
+      "reason": "官方职称或名录分组属于教学、兼职、附属、科研支持或其他非独立 PI 岗位。",
+      "evidence": "Affiliate Assistant Professor | Affiliate Faculty | Algorithms and Theory · Machine Learning and Data Science · Computer Vision and Machine Perception | https://www.cs.umd.edu/people/sanghamd"
+    },
+    {
+      "officialId": "serete",
+      "rosterName": "Sheena Erete",
+      "title": "Affiliate Associate Professor",
+      "profileUrl": "https://www.cs.umd.edu/people/serete",
+      "portraitUrl": "https://www.cs.umd.edu/sites/default/files/styles/thumbnail/public/default_images/user_icon.png?itok=YGrztVGT",
+      "officialSections": [
+        "Affiliate Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cs.umd.edu/people/faculty",
+      "decision": "excluded_non_pi",
+      "reason": "官方职称或名录分组属于教学、兼职、附属、科研支持或其他非独立 PI 岗位。",
+      "evidence": "Affiliate Associate Professor | Affiliate Faculty | https://www.cs.umd.edu/people/serete"
+    },
+    {
+      "officialId": "nhf",
+      "rosterName": "Naomi Feldman",
+      "title": "Affiliate Associate Professor",
+      "profileUrl": "https://www.cs.umd.edu/people/nhf",
+      "portraitUrl": "https://www.cs.umd.edu/sites/default/files/styles/thumbnail/public/images/userpictures/naomiMD4.jpg?itok=xR96k_yn",
+      "officialSections": [
+        "Affiliate Faculty"
+      ],
+      "researchFields": [
+        "Natural Language Processing",
+        "Machine Learning and Data Science"
+      ],
+      "unitUrl": "https://www.cs.umd.edu/people/faculty",
+      "decision": "excluded_non_pi",
+      "reason": "官方职称或名录分组属于教学、兼职、附属、科研支持或其他非独立 PI 岗位。",
+      "evidence": "Affiliate Associate Professor | Affiliate Faculty | Natural Language Processing · Machine Learning and Data Science | https://www.cs.umd.edu/people/nhf"
+    },
+    {
+      "officialId": "vfrias",
+      "rosterName": "Vanessa Frias-Martinez",
+      "title": "Affiliate Associate Professor",
+      "profileUrl": "https://www.cs.umd.edu/people/vfrias",
+      "portraitUrl": "https://www.cs.umd.edu/sites/default/files/styles/thumbnail/public/images/userpictures/Frias-Martinez.png?itok=p7Ic5Pxw&c=f05a46be5cf35b78dc8369e73617067b",
+      "officialSections": [
+        "Affiliate Faculty"
+      ],
+      "researchFields": [
+        "Databases and Big Data",
+        "Information Retrieval and Geographic Information Systems (GIS)",
+        "Machine Learning and Data Science"
+      ],
+      "unitUrl": "https://www.cs.umd.edu/people/faculty",
+      "decision": "excluded_non_pi",
+      "reason": "官方职称或名录分组属于教学、兼职、附属、科研支持或其他非独立 PI 岗位。",
+      "evidence": "Affiliate Associate Professor | Affiliate Faculty | Databases and Big Data · Information Retrieval and Geographic Information Systems (GIS) · Machine Learning and Data Science | https://www.cs.umd.edu/people/vfrias"
+    },
+    {
+      "officialId": "rezag",
+      "rosterName": "Reza Ghanadan",
+      "title": "Affiliate Research Professor",
+      "profileUrl": "https://www.cs.umd.edu/people/rezag",
+      "portraitUrl": "https://www.cs.umd.edu/sites/default/files/styles/thumbnail/public/default_images/user_icon.png?itok=YGrztVGT",
+      "officialSections": [
+        "Affiliate Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cs.umd.edu/people/faculty",
+      "decision": "excluded_non_pi",
+      "reason": "官方职称或名录分组属于教学、兼职、附属、科研支持或其他非独立 PI 岗位。",
+      "evidence": "Affiliate Research Professor | Affiliate Faculty | https://www.cs.umd.edu/people/rezag"
+    },
+    {
+      "officialId": "jgolbeck",
+      "rosterName": "Jennifer Golbeck",
+      "title": "Affiliate Professor",
+      "profileUrl": "https://www.cs.umd.edu/people/jgolbeck",
+      "portraitUrl": "https://www.cs.umd.edu/sites/default/files/styles/thumbnail/public/images/userpictures/golbeck%20jen.jpg?itok=7dE_Nl3t",
+      "officialSections": [
+        "Affiliate Faculty"
+      ],
+      "researchFields": [
+        "Human Computer Interaction",
+        "Machine Learning and Data Science"
+      ],
+      "unitUrl": "https://www.cs.umd.edu/people/faculty",
+      "decision": "excluded_non_pi",
+      "reason": "官方职称或名录分组属于教学、兼职、附属、科研支持或其他非独立 PI 岗位。",
+      "evidence": "Affiliate Professor | Affiliate Faculty | Human Computer Interaction · Machine Learning and Data Science | https://www.cs.umd.edu/people/jgolbeck"
+    },
+    {
+      "officialId": "horty",
+      "rosterName": "John Horty",
+      "title": "Affiliate Professor",
+      "profileUrl": "https://www.cs.umd.edu/people/horty",
+      "portraitUrl": "https://www.cs.umd.edu/sites/default/files/styles/thumbnail/public/default_images/user_icon.png?itok=YGrztVGT",
+      "officialSections": [
+        "Affiliate Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cs.umd.edu/people/faculty",
+      "decision": "excluded_non_pi",
+      "reason": "官方职称或名录分组属于教学、兼职、附属、科研支持或其他非独立 PI 岗位。",
+      "evidence": "Affiliate Professor | Affiliate Faculty | https://www.cs.umd.edu/people/horty"
+    },
+    {
+      "officialId": "hernisa",
+      "rosterName": "Hernisa Kacorri",
+      "title": "Affiliate Assistant Professor",
+      "profileUrl": "https://www.cs.umd.edu/people/hernisa",
+      "portraitUrl": "https://www.cs.umd.edu/sites/default/files/styles/thumbnail/public/images/userpictures/kacorri_hernisa-05.jpg?itok=pJREvWL_&c=4d4876b7d1d37e6a341549f776b284b9",
+      "officialSections": [
+        "Affiliate Faculty"
+      ],
+      "researchFields": [
+        "Natural Language Processing",
+        "Human Computer Interaction",
+        "Machine Learning and Data Science"
+      ],
+      "unitUrl": "https://www.cs.umd.edu/people/faculty",
+      "decision": "excluded_non_pi",
+      "reason": "官方职称或名录分组属于教学、兼职、附属、科研支持或其他非独立 PI 岗位。",
+      "evidence": "Affiliate Assistant Professor | Affiliate Faculty | Natural Language Processing · Human Computer Interaction · Machine Learning and Data Science | https://www.cs.umd.edu/people/hernisa"
+    },
+    {
+      "officialId": "yongkwon",
+      "rosterName": "Yonghwi Kwon",
+      "title": "Affiliate Assistant Professor",
+      "profileUrl": "https://www.cs.umd.edu/people/yongkwon",
+      "portraitUrl": "https://www.cs.umd.edu/sites/default/files/styles/thumbnail/public/images/userpictures/yonghwi_kwon_1.jpg?itok=S9RGfGdg",
+      "officialSections": [
+        "Affiliate Faculty"
+      ],
+      "researchFields": [
+        "Cybersecurity and Cryptography",
+        "Programming Languages and Software Engineering",
+        "Systems, Networking, and Architecture"
+      ],
+      "unitUrl": "https://www.cs.umd.edu/people/faculty",
+      "decision": "excluded_non_pi",
+      "reason": "官方职称或名录分组属于教学、兼职、附属、科研支持或其他非独立 PI 岗位。",
+      "evidence": "Affiliate Assistant Professor | Affiliate Faculty | Cybersecurity and Cryptography · Programming Languages and Software Engineering · Systems, Networking, and Architecture | https://www.cs.umd.edu/people/yongkwon"
+    },
+    {
+      "officialId": "lazar",
+      "rosterName": "Amanda Lazar",
+      "title": "Affiliate Assistant Professor",
+      "profileUrl": "https://www.cs.umd.edu/people/lazar",
+      "portraitUrl": "https://www.cs.umd.edu/sites/default/files/styles/thumbnail/public/images/userpictures/lazar_amanda_0.jpg?itok=hc-ls-Wf&c=ab66837cc39ed6e68885e55367b88470",
+      "officialSections": [
+        "Affiliate Faculty"
+      ],
+      "researchFields": [
+        "Human Computer Interaction"
+      ],
+      "unitUrl": "https://www.cs.umd.edu/people/faculty",
+      "decision": "excluded_non_pi",
+      "reason": "官方职称或名录分组属于教学、兼职、附属、科研支持或其他非独立 PI 岗位。",
+      "evidence": "Affiliate Assistant Professor | Affiliate Faculty | Human Computer Interaction | https://www.cs.umd.edu/people/lazar"
+    },
+    {
+      "officialId": "angliece",
+      "rosterName": "Ang Li",
+      "title": "Affiliate Assistant Professor",
+      "profileUrl": "https://www.cs.umd.edu/people/angliece",
+      "portraitUrl": "https://www.cs.umd.edu/sites/default/files/styles/thumbnail/public/images/userpictures/250221_umd_037.jpg?itok=ziptWZTI&c=5c62e77da41313cea2ee6bc223f5cbe3",
+      "officialSections": [
+        "Affiliate Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cs.umd.edu/people/faculty",
+      "decision": "excluded_non_pi",
+      "reason": "官方职称或名录分组属于教学、兼职、附属、科研支持或其他非独立 PI 岗位。",
+      "evidence": "Affiliate Assistant Professor | Affiliate Faculty | https://www.cs.umd.edu/people/angliece"
+    },
+    {
+      "officialId": "marciano",
+      "rosterName": "Richard Marciano",
+      "title": "Affiliate Professor",
+      "profileUrl": "https://www.cs.umd.edu/people/marciano",
+      "portraitUrl": "https://www.cs.umd.edu/sites/default/files/styles/thumbnail/public/images/userpictures/Richard_Marciano.jpg?itok=7imKud4F&c=394859658442b488a6f07c4a06a097f3",
+      "officialSections": [
+        "Affiliate Faculty"
+      ],
+      "researchFields": [
+        "Databases and Big Data",
+        "Information Retrieval and Geographic Information Systems (GIS)",
+        "Machine Learning and Data Science"
+      ],
+      "unitUrl": "https://www.cs.umd.edu/people/faculty",
+      "decision": "excluded_non_pi",
+      "reason": "官方职称或名录分组属于教学、兼职、附属、科研支持或其他非独立 PI 岗位。",
+      "evidence": "Affiliate Professor | Affiliate Faculty | Databases and Big Data · Information Retrieval and Geographic Information Systems (GIS) · Machine Learning and Data Science | https://www.cs.umd.edu/people/marciano"
+    },
+    {
+      "officialId": "juliame",
+      "rosterName": "Julia Mendelsohn",
+      "title": "Affiliate Assistant Professor",
+      "profileUrl": "https://www.cs.umd.edu/people/juliame",
+      "portraitUrl": "https://www.cs.umd.edu/sites/default/files/styles/thumbnail/public/default_images/user_icon.png?itok=YGrztVGT",
+      "officialSections": [
+        "Affiliate Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cs.umd.edu/people/faculty",
+      "decision": "excluded_non_pi",
+      "reason": "官方职称或名录分组属于教学、兼职、附属、科研支持或其他非独立 PI 岗位。",
+      "evidence": "Affiliate Assistant Professor | Affiliate Faculty | https://www.cs.umd.edu/people/juliame"
+    },
+    {
+      "officialId": "oard",
+      "rosterName": "Doug Oard",
+      "title": "Affiliate Professor",
+      "profileUrl": "https://www.cs.umd.edu/people/oard",
+      "portraitUrl": "https://www.cs.umd.edu/sites/default/files/styles/thumbnail/public/images/userpictures/oard%20douglas.jpg?itok=pZaYPJhF&c=c883ae031fffeab0249d0ec0e23ac05d",
+      "officialSections": [
+        "Affiliate Faculty"
+      ],
+      "researchFields": [
+        "AI and Robotics",
+        "Human Computer Interaction",
+        "Information Retrieval and Geographic Information Systems (GIS)"
+      ],
+      "unitUrl": "https://www.cs.umd.edu/people/faculty",
+      "decision": "excluded_non_pi",
+      "reason": "官方职称或名录分组属于教学、兼职、附属、科研支持或其他非独立 PI 岗位。",
+      "evidence": "Affiliate Professor | Affiliate Faculty | AI and Robotics · Human Computer Interaction · Information Retrieval and Geographic Information Systems (GIS) | https://www.cs.umd.edu/people/oard"
+    },
+    {
+      "officialId": "otte",
+      "rosterName": "Michael Otte",
+      "title": "Affiliate Assistant Professor",
+      "profileUrl": "https://www.cs.umd.edu/people/otte",
+      "portraitUrl": "https://www.cs.umd.edu/sites/default/files/styles/thumbnail/public/images/userpictures/facultyfile_1.jpg?itok=T-rfPkCS&c=3e507ab2ee0b32a17a0594da03d5baa8",
+      "officialSections": [
+        "Affiliate Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cs.umd.edu/people/faculty",
+      "decision": "excluded_non_pi",
+      "reason": "官方职称或名录分组属于教学、兼职、附属、科研支持或其他非独立 PI 岗位。",
+      "evidence": "Affiliate Assistant Professor | Affiliate Faculty | https://www.cs.umd.edu/people/otte"
+    },
+    {
+      "officialId": "lraschid",
+      "rosterName": "Louiqa Raschid",
+      "title": "Affiliate Professor",
+      "profileUrl": "https://www.cs.umd.edu/people/lraschid",
+      "portraitUrl": "https://www.cs.umd.edu/sites/default/files/styles/thumbnail/public/images/userpictures/raschid%20louiqa.jpg?itok=7gEJU32z&c=9dab11dbe37b4e66e2df439752a4169c",
+      "officialSections": [
+        "Affiliate Faculty"
+      ],
+      "researchFields": [
+        "Databases and Big Data",
+        "Machine Learning and Data Science"
+      ],
+      "unitUrl": "https://www.cs.umd.edu/people/faculty",
+      "decision": "excluded_non_pi",
+      "reason": "官方职称或名录分组属于教学、兼职、附属、科研支持或其他非独立 PI 岗位。",
+      "evidence": "Affiliate Professor | Affiliate Faculty | Databases and Big Data · Machine Learning and Data Science | https://www.cs.umd.edu/people/lraschid"
+    },
+    {
+      "officialId": "resnik",
+      "rosterName": "Philip Resnik",
+      "title": "Affiliate Professor",
+      "profileUrl": "https://www.cs.umd.edu/people/resnik",
+      "portraitUrl": "https://www.cs.umd.edu/sites/default/files/styles/thumbnail/public/images/userpictures/resnik_headshot2_spring2023.png?itok=0HwYCheC",
+      "officialSections": [
+        "Affiliate Faculty"
+      ],
+      "researchFields": [
+        "AI and Robotics",
+        "Machine Learning and Data Science",
+        "Natural Language Processing"
+      ],
+      "unitUrl": "https://www.cs.umd.edu/people/faculty",
+      "decision": "excluded_non_pi",
+      "reason": "官方职称或名录分组属于教学、兼职、附属、科研支持或其他非独立 PI 岗位。",
+      "evidence": "Affiliate Professor | Affiliate Faculty | AI and Robotics · Machine Learning and Data Science · Natural Language Processing | https://www.cs.umd.edu/people/resnik"
+    },
+    {
+      "officialId": "vishkin",
+      "rosterName": "Uzi Vishkin",
+      "title": "Affiliate Professor",
+      "profileUrl": "https://www.cs.umd.edu/people/vishkin",
+      "portraitUrl": "https://www.cs.umd.edu/sites/default/files/styles/thumbnail/public/images/userpictures/vishkin%20uzi.jpg?itok=4ZuFP361&c=120a968910f844ae4e17fa21fbb542ea",
+      "officialSections": [
+        "Affiliate Faculty"
+      ],
+      "researchFields": [
+        "Algorithms and Theory"
+      ],
+      "unitUrl": "https://www.cs.umd.edu/people/faculty",
+      "decision": "excluded_non_pi",
+      "reason": "官方职称或名录分组属于教学、兼职、附属、科研支持或其他非独立 PI 岗位。",
+      "evidence": "Affiliate Professor | Affiliate Faculty | Algorithms and Theory | https://www.cs.umd.edu/people/vishkin"
+    },
+    {
+      "officialId": "weintrop",
+      "rosterName": "David Weintrop",
+      "title": "Affiliate Associate Professor",
+      "profileUrl": "https://www.cs.umd.edu/people/weintrop",
+      "portraitUrl": "https://www.cs.umd.edu/sites/default/files/styles/thumbnail/public/images/userpictures/DW-profile-pic4.jpg?itok=ROwPtu4P",
+      "officialSections": [
+        "Affiliate Faculty"
+      ],
+      "researchFields": [
+        "Human Computer Interaction"
+      ],
+      "unitUrl": "https://www.cs.umd.edu/people/faculty",
+      "decision": "excluded_non_pi",
+      "reason": "官方职称或名录分组属于教学、兼职、附属、科研支持或其他非独立 PI 岗位。",
+      "evidence": "Affiliate Associate Professor | Affiliate Faculty | Human Computer Interaction | https://www.cs.umd.edu/people/weintrop"
+    },
+    {
+      "officialId": "mumu",
+      "rosterName": "Mumu Xu",
+      "title": "Affiliate Associate Professor",
+      "profileUrl": "https://www.cs.umd.edu/people/mumu",
+      "portraitUrl": "https://www.cs.umd.edu/sites/default/files/styles/thumbnail/public/images/userpictures/Xu_Pic.jpeg?itok=8xtRgzPv",
+      "officialSections": [
+        "Affiliate Faculty"
+      ],
+      "researchFields": [
+        "AI and Robotics",
+        "Programming Languages and Software Engineering"
+      ],
+      "unitUrl": "https://www.cs.umd.edu/people/faculty",
+      "decision": "excluded_non_pi",
+      "reason": "官方职称或名录分组属于教学、兼职、附属、科研支持或其他非独立 PI 岗位。",
+      "evidence": "Affiliate Associate Professor | Affiliate Faculty | AI and Robotics · Programming Languages and Software Engineering | https://www.cs.umd.edu/people/mumu"
+    },
+    {
+      "officialId": "hzyang",
+      "rosterName": "Haizhao Yang",
+      "title": "Affiliate Professor",
+      "profileUrl": "https://www.cs.umd.edu/people/hzyang",
+      "portraitUrl": "https://www.cs.umd.edu/sites/default/files/styles/thumbnail/public/images/userpictures/2023%20blur.png?itok=x1AGxRPk&c=bd0eefd34f830c642297fa70c5be2282",
+      "officialSections": [
+        "Affiliate Faculty"
+      ],
+      "researchFields": [
+        "Algorithms and Theory",
+        "AI and Robotics",
+        "High Performance and Scientific Computing",
+        "Machine Learning and Data Science"
+      ],
+      "unitUrl": "https://www.cs.umd.edu/people/faculty",
+      "decision": "excluded_non_pi",
+      "reason": "官方职称或名录分组属于教学、兼职、附属、科研支持或其他非独立 PI 岗位。",
+      "evidence": "Affiliate Professor | Affiliate Faculty | Algorithms and Theory · AI and Robotics · High Performance and Scientific Computing · Machine Learning and Data Science | https://www.cs.umd.edu/people/hzyang"
+    },
+    {
+      "officialId": "yeung",
+      "rosterName": "Donald Yeung",
+      "title": "Affiliate Professor",
+      "profileUrl": "https://www.cs.umd.edu/people/yeung",
+      "portraitUrl": "https://www.cs.umd.edu/sites/default/files/styles/thumbnail/public/images/userpictures/yeung-2020.png?itok=rp-eW-Ua&c=f5019c3f33b4bc8858ff7946377df7a3",
+      "officialSections": [
+        "Affiliate Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cs.umd.edu/people/faculty",
+      "decision": "excluded_non_pi",
+      "reason": "官方职称或名录分组属于教学、兼职、附属、科研支持或其他非独立 PI 岗位。",
+      "evidence": "Affiliate Professor | Affiliate Faculty | https://www.cs.umd.edu/people/yeung"
+    },
+    {
+      "officialId": "cunxiyu",
+      "rosterName": "Cunxi Yu",
+      "title": "Affiliate Assistant Professor",
+      "profileUrl": "https://www.cs.umd.edu/people/cunxiyu",
+      "portraitUrl": "https://www.cs.umd.edu/sites/default/files/styles/thumbnail/public/images/userpictures/cunxi2.jpg?itok=L-pXcO6Z&c=549eacddf2b7d819f39323150d73751e",
+      "officialSections": [
+        "Affiliate Faculty"
+      ],
+      "researchFields": [
+        "Systems, Networking, and Architecture",
+        "Machine Learning and Data Science"
+      ],
+      "unitUrl": "https://www.cs.umd.edu/people/faculty",
+      "decision": "excluded_non_pi",
+      "reason": "官方职称或名录分组属于教学、兼职、附属、科研支持或其他非独立 PI 岗位。",
+      "evidence": "Affiliate Assistant Professor | Affiliate Faculty | Systems, Networking, and Architecture · Machine Learning and Data Science | https://www.cs.umd.edu/people/cunxiyu"
+    },
+    {
+      "officialId": "kaiqing",
+      "rosterName": "Kaiqing Zhang",
+      "title": "Affiliate Assistant Professor",
+      "profileUrl": "https://www.cs.umd.edu/people/kaiqing",
+      "portraitUrl": "https://www.cs.umd.edu/sites/default/files/styles/thumbnail/public/images/userpictures/photo_kaiqing_5.JPG?itok=rSdWRH2v",
+      "officialSections": [
+        "Affiliate Faculty"
+      ],
+      "researchFields": [
+        "AI and Robotics",
+        "Algorithms and Theory",
+        "Machine Learning and Data Science"
+      ],
+      "unitUrl": "https://www.cs.umd.edu/people/faculty",
+      "decision": "excluded_non_pi",
+      "reason": "官方职称或名录分组属于教学、兼职、附属、科研支持或其他非独立 PI 岗位。",
+      "evidence": "Affiliate Assistant Professor | Affiliate Faculty | AI and Robotics · Algorithms and Theory · Machine Learning and Data Science | https://www.cs.umd.edu/people/kaiqing"
+    },
+    {
+      "officialId": "zikui",
+      "rosterName": "Zikui Cai",
+      "title": "Post-Doctoral Associate",
+      "profileUrl": "https://www.cs.umd.edu/people/zikui",
+      "portraitUrl": "https://www.cs.umd.edu/sites/default/files/styles/thumbnail/public/default_images/user_icon.png?itok=YGrztVGT",
+      "officialSections": [
+        "Post Doctoral Scientists/Research Assistants"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cs.umd.edu/people/faculty",
+      "decision": "excluded_non_pi",
+      "reason": "官方职称或名录分组属于教学、兼职、附属、科研支持或其他非独立 PI 岗位。",
+      "evidence": "Post-Doctoral Associate | Post Doctoral Scientists/Research Assistants | https://www.cs.umd.edu/people/zikui"
+    },
+    {
+      "officialId": "mcai1",
+      "rosterName": "Mara Cai",
+      "title": "Faculty Specialist",
+      "profileUrl": "https://www.cs.umd.edu/people/mcai1",
+      "portraitUrl": "https://www.cs.umd.edu/sites/default/files/styles/thumbnail/public/default_images/user_icon.png?itok=YGrztVGT",
+      "officialSections": [
+        "Post Doctoral Scientists/Research Assistants"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cs.umd.edu/people/faculty",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Faculty Specialist | Post Doctoral Scientists/Research Assistants | https://www.cs.umd.edu/people/mcai1",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "schemaVersion": 1,
+  "snapshotAt": "2026-09-03",
+  "scope": "US/Canada roster batch 2: UT Austin CS, Michigan Robotics, MIT CSAIL",
+  "units": {
+    "utexas-cs": {
+      "officialRosterCount": 127,
+      "decisionCount": 127,
+      "counts": {
+        "include_new_pi": 15,
+        "excluded_non_ai_cs": 22,
+        "excluded_non_pi": 44,
+        "excluded_historical": 11,
+        "eligible_future_batch": 28,
+        "included_existing": 6,
+        "pending_future_appointment": 1
+      },
+      "outputPath": "data/roster-decisions/us-canada-batch2/utexas-cs-2026-09-03.json"
+    },
+    "umich-robotics": {
+      "officialRosterCount": 37,
+      "decisionCount": 37,
+      "counts": {
+        "pending_future_appointment": 1,
+        "eligible_future_batch": 31,
+        "excluded_non_pi": 5
+      },
+      "outputPath": "data/roster-decisions/us-canada-batch2/umich-robotics-2026-09-03.json"
+    },
+    "mit-csail": {
+      "officialRosterCount": 132,
+      "decisionCount": 132,
+      "counts": {
+        "eligible_future_batch": 35,
+        "excluded_non_ai_cs": 67,
+        "included_existing": 4,
+        "excluded_historical": 11,
+        "excluded_non_pi": 15
+      },
+      "outputPath": "data/roster-decisions/us-canada-batch2/mit-csail-2026-09-03.json"
+    }
+  },
+  "totals": {
+    "officialRosterCount": 296,
+    "decisionCount": 296,
+    "counts": {
+      "include_new_pi": 15,
+      "excluded_non_ai_cs": 89,
+      "excluded_non_pi": 64,
+      "excluded_historical": 22,
+      "eligible_future_batch": 94,
+      "included_existing": 10,
+      "pending_future_appointment": 2
+    }
+  }
+}

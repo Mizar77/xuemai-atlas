@@ -1,0 +1,3285 @@
+{
+  "generatedAt": "2026-09-03",
+  "scope": "Europe P0 unresolved records after ready batches 9–13",
+  "total": 203,
+  "byDisposition": {
+    "missing_relationship": 10,
+    "missing_portrait": 193
+  },
+  "byInstitution": {
+    "EPFL": {
+      "total": 41,
+      "missingRelationship": 0,
+      "missingPortrait": 41
+    },
+    "ETH Zurich": {
+      "total": 7,
+      "missingRelationship": 5,
+      "missingPortrait": 2
+    },
+    "Technical University of Munich": {
+      "total": 5,
+      "missingRelationship": 5,
+      "missingPortrait": 0
+    },
+    "University of Cambridge": {
+      "total": 20,
+      "missingRelationship": 0,
+      "missingPortrait": 20
+    },
+    "University of Edinburgh": {
+      "total": 130,
+      "missingRelationship": 0,
+      "missingPortrait": 130
+    }
+  },
+  "records": [
+    {
+      "canonicalKey": "Europe:Technical University of Munich:florianbruse",
+      "name": "Florian Bruse",
+      "institution": "Technical University of Munich",
+      "disposition": "missing_relationship",
+      "blocker": "官方 roster/profile 与可靠 512×512 头像已取得；仍缺能明确到具名导师、学生、课题组成员或产业去向的第一方关系记录。现有入口不能仅凭合著推断指导或长期合作。",
+      "missingDimensions": [
+        "specific_first_party_network_evidence"
+      ],
+      "attemptedUrls": [
+        "https://www.cit.tum.de/en/cit/school/people/professors/",
+        "https://www.cs.cit.tum.de/cs/personen/professuren/",
+        "https://campus.tum.de/tumonline/ee/ui/ca2/app/desktop/#/pl/ui/$ctx/visitenkarte.show_vcard?$ctx=design=ca2;header=max;lang=de&pPersonenGruppe=3&pPersonenId=8E421E853365202B",
+        "https://www.professoren.tum.de/en/bruse-florian",
+        "https://www.cit.tum.de/_assets/32ebf5255105e66824f82cb2d7e14490/Icons/person.svg"
+      ]
+    },
+    {
+      "canonicalKey": "Europe:Technical University of Munich:franciscojavieresparzaestaun",
+      "name": "Francisco Javier Esparza Estaun",
+      "institution": "Technical University of Munich",
+      "disposition": "missing_relationship",
+      "blocker": "官方 roster/profile 与可靠 512×512 头像已取得；仍缺能明确到具名导师、学生、课题组成员或产业去向的第一方关系记录。现有入口不能仅凭合著推断指导或长期合作。",
+      "missingDimensions": [
+        "specific_first_party_network_evidence"
+      ],
+      "attemptedUrls": [
+        "https://www.cit.tum.de/en/cit/school/people/professors/",
+        "https://www.cs.cit.tum.de/cs/personen/professuren/",
+        "https://campus.tum.de/tumonline/ee/ui/ca2/app/desktop/#/pl/ui/$ctx/visitenkarte.show_vcard?$ctx=design=ca2;header=max;lang=de&pPersonenGruppe=3&pPersonenId=2B2CA7120B2D22C1",
+        "https://portal.fis.tum.de/en/persons/francisco-javier-esparza-estaun/",
+        "https://campus.tum.de/tumonline/visitenkarte.showImage?pPersonenGruppe=3&pPersonenId=2B2CA7120B2D22C1"
+      ]
+    },
+    {
+      "canonicalKey": "Europe:Technical University of Munich:mariechristineduker",
+      "name": "Marie-Christine Düker",
+      "institution": "Technical University of Munich",
+      "disposition": "missing_relationship",
+      "blocker": "官方 roster/profile 与可靠 512×512 头像已取得；仍缺能明确到具名导师、学生、课题组成员或产业去向的第一方关系记录。现有入口不能仅凭合著推断指导或长期合作。",
+      "missingDimensions": [
+        "specific_first_party_network_evidence"
+      ],
+      "attemptedUrls": [
+        "https://www.cit.tum.de/en/cit/school/people/professors/",
+        "https://www.math.cit.tum.de/en/math/statistics/",
+        "https://campus.tum.de/tumonline/ee/ui/ca2/app/desktop/#/pl/ui/$ctx/visitenkarte.show_vcard?$ctx=design=ca2;header=max;lang=de&pPersonenGruppe=3&pPersonenId=58CA68BB208983E0",
+        "https://www.math.cit.tum.de/math/personen/professuren/dueker-marie/",
+        "https://campus.tum.de/tumonline/visitenkarte.showImage?pPersonenGruppe=3&pPersonenId=58CA68BB208983E0"
+      ]
+    },
+    {
+      "canonicalKey": "Europe:Technical University of Munich:seyedjalaletesami",
+      "name": "Seyed Jalal Etesami",
+      "institution": "Technical University of Munich",
+      "disposition": "missing_relationship",
+      "blocker": "官方 roster/profile 与可靠 512×512 头像已取得；仍缺能明确到具名导师、学生、课题组成员或产业去向的第一方关系记录。现有入口不能仅凭合著推断指导或长期合作。",
+      "missingDimensions": [
+        "specific_first_party_network_evidence"
+      ],
+      "attemptedUrls": [
+        "https://www.cit.tum.de/en/cit/school/people/professors/",
+        "https://www.cs.cit.tum.de/cs/personen/professuren/",
+        "https://campus.tum.de/tumonline/ee/ui/ca2/app/desktop/#/pl/ui/$ctx/visitenkarte.show_vcard?$ctx=design=ca2;header=max;lang=de&pPersonenGruppe=3&pPersonenId=11582B8747F1A812",
+        "https://www.professoren.tum.de/en/etesami-seyed-jalal",
+        "https://campus.tum.de/tumonline/visitenkarte.showImage?pPersonenGruppe=3&pPersonenId=11582B8747F1A812"
+      ]
+    },
+    {
+      "canonicalKey": "Europe:Technical University of Munich:vspors",
+      "name": "V. Spors",
+      "institution": "Technical University of Munich",
+      "disposition": "missing_relationship",
+      "blocker": "官方 roster/profile 与可靠 512×512 头像已取得；仍缺能明确到具名导师、学生、课题组成员或产业去向的第一方关系记录。现有入口不能仅凭合著推断指导或长期合作。",
+      "missingDimensions": [
+        "specific_first_party_network_evidence"
+      ],
+      "attemptedUrls": [
+        "https://www.cit.tum.de/en/cit/school/people/professors/",
+        "https://www.cs.cit.tum.de/cs/personen/professuren/",
+        "https://www.cit.tum.de/en/cit/news/article/professor-velvet-spors/",
+        "https://www.cit.tum.de/_assets/32ebf5255105e66824f82cb2d7e14490/Icons/person.svg"
+      ]
+    },
+    {
+      "canonicalKey": "Europe:EPFL:alessandrochiesa",
+      "name": "Alessandro Chiesa",
+      "institution": "EPFL",
+      "disposition": "missing_portrait",
+      "blocker": "官方 roster/profile 已确认候选身份，但尚未取得可发布的可靠官方人物照片并验证为 512×512；人物事实、教育训练和具体网络关系仍需在头像补齐时逐条映射，不能仅把名录卡片直接发布。",
+      "missingDimensions": [
+        "verified_official_512_portrait",
+        "manual_fact_to_source_mapping",
+        "specific_first_party_network_evidence"
+      ],
+      "attemptedUrls": [
+        "https://www.epfl.ch/schools/ic/about/faculty-members/",
+        "https://people.epfl.ch/alessandro.chiesa"
+      ]
+    },
+    {
+      "canonicalKey": "Europe:EPFL:anastasiaailamaki",
+      "name": "Anastasia Ailamaki",
+      "institution": "EPFL",
+      "disposition": "missing_portrait",
+      "blocker": "官方 roster/profile 已确认候选身份，但尚未取得可发布的可靠官方人物照片并验证为 512×512；人物事实、教育训练和具体网络关系仍需在头像补齐时逐条映射，不能仅把名录卡片直接发布。",
+      "missingDimensions": [
+        "verified_official_512_portrait",
+        "manual_fact_to_source_mapping",
+        "specific_first_party_network_evidence"
+      ],
+      "attemptedUrls": [
+        "https://www.epfl.ch/schools/ic/about/faculty-members/",
+        "https://people.epfl.ch/anastasia.ailamaki"
+      ]
+    },
+    {
+      "canonicalKey": "Europe:EPFL:annemariekermarrec",
+      "name": "Anne-Marie Kermarrec",
+      "institution": "EPFL",
+      "disposition": "missing_portrait",
+      "blocker": "官方 roster/profile 已确认候选身份，但尚未取得可发布的可靠官方人物照片并验证为 512×512；人物事实、教育训练和具体网络关系仍需在头像补齐时逐条映射，不能仅把名录卡片直接发布。",
+      "missingDimensions": [
+        "verified_official_512_portrait",
+        "manual_fact_to_source_mapping",
+        "specific_first_party_network_evidence"
+      ],
+      "attemptedUrls": [
+        "https://www.epfl.ch/schools/ic/about/faculty-members/",
+        "https://people.epfl.ch/anne-marie.kermarrec"
+      ]
+    },
+    {
+      "canonicalKey": "Europe:EPFL:babakfalsafi",
+      "name": "Babak Falsafi",
+      "institution": "EPFL",
+      "disposition": "missing_portrait",
+      "blocker": "官方 roster/profile 已确认候选身份，但尚未取得可发布的可靠官方人物照片并验证为 512×512；人物事实、教育训练和具体网络关系仍需在头像补齐时逐条映射，不能仅把名录卡片直接发布。",
+      "missingDimensions": [
+        "verified_official_512_portrait",
+        "manual_fact_to_source_mapping",
+        "specific_first_party_network_evidence"
+      ],
+      "attemptedUrls": [
+        "https://www.epfl.ch/schools/ic/about/faculty-members/",
+        "https://people.epfl.ch/babak.falsafi"
+      ]
+    },
+    {
+      "canonicalKey": "Europe:EPFL:bryanford",
+      "name": "Bryan Ford",
+      "institution": "EPFL",
+      "disposition": "missing_portrait",
+      "blocker": "官方 roster/profile 已确认候选身份，但尚未取得可发布的可靠官方人物照片并验证为 512×512；人物事实、教育训练和具体网络关系仍需在头像补齐时逐条映射，不能仅把名录卡片直接发布。",
+      "missingDimensions": [
+        "verified_official_512_portrait",
+        "manual_fact_to_source_mapping",
+        "specific_first_party_network_evidence"
+      ],
+      "attemptedUrls": [
+        "https://www.epfl.ch/schools/ic/about/faculty-members/",
+        "https://people.epfl.ch/bryan.ford"
+      ]
+    },
+    {
+      "canonicalKey": "Europe:EPFL:carmelatroncoso",
+      "name": "Carmela Troncoso",
+      "institution": "EPFL",
+      "disposition": "missing_portrait",
+      "blocker": "官方 roster/profile 已确认候选身份，但尚未取得可发布的可靠官方人物照片并验证为 512×512；人物事实、教育训练和具体网络关系仍需在头像补齐时逐条映射，不能仅把名录卡片直接发布。",
+      "missingDimensions": [
+        "verified_official_512_portrait",
+        "manual_fact_to_source_mapping",
+        "specific_first_party_network_evidence"
+      ],
+      "attemptedUrls": [
+        "https://www.epfl.ch/schools/ic/about/faculty-members/",
+        "https://people.epfl.ch/carmela.troncoso"
+      ]
+    },
+    {
+      "canonicalKey": "Europe:EPFL:christophkoch",
+      "name": "Christoph Koch",
+      "institution": "EPFL",
+      "disposition": "missing_portrait",
+      "blocker": "官方 roster/profile 已确认候选身份，但尚未取得可发布的可靠官方人物照片并验证为 512×512；人物事实、教育训练和具体网络关系仍需在头像补齐时逐条映射，不能仅把名录卡片直接发布。",
+      "missingDimensions": [
+        "verified_official_512_portrait",
+        "manual_fact_to_source_mapping",
+        "specific_first_party_network_evidence"
+      ],
+      "attemptedUrls": [
+        "https://www.epfl.ch/schools/ic/about/faculty-members/",
+        "https://people.epfl.ch/christoph.koch"
+      ]
+    },
+    {
+      "canonicalKey": "Europe:EPFL:eduardomoraud",
+      "name": "Eduardo Moraud",
+      "institution": "EPFL",
+      "disposition": "missing_portrait",
+      "blocker": "官方 roster/profile 已确认候选身份，但尚未取得可发布的可靠官方人物照片并验证为 512×512；人物事实、教育训练和具体网络关系仍需在头像补齐时逐条映射，不能仅把名录卡片直接发布。",
+      "missingDimensions": [
+        "verified_official_512_portrait",
+        "manual_fact_to_source_mapping",
+        "specific_first_party_network_evidence"
+      ],
+      "attemptedUrls": [
+        "https://www.epfl.ch/schools/ic/about/faculty-members/",
+        "https://people.epfl.ch/eduardo.moraud"
+      ]
+    },
+    {
+      "canonicalKey": "Europe:EPFL:emmanuelabbe",
+      "name": "Emmanuel Abbé",
+      "institution": "EPFL",
+      "disposition": "missing_portrait",
+      "blocker": "官方 roster/profile 已确认候选身份，但尚未取得可发布的可靠官方人物照片并验证为 512×512；人物事实、教育训练和具体网络关系仍需在头像补齐时逐条映射，不能仅把名录卡片直接发布。",
+      "missingDimensions": [
+        "verified_official_512_portrait",
+        "manual_fact_to_source_mapping",
+        "specific_first_party_network_evidence"
+      ],
+      "attemptedUrls": [
+        "https://www.epfl.ch/schools/ic/about/faculty-members/",
+        "https://people.epfl.ch/emmanuel.abbe"
+      ]
+    },
+    {
+      "canonicalKey": "Europe:EPFL:emretelatar",
+      "name": "Emre Telatar",
+      "institution": "EPFL",
+      "disposition": "missing_portrait",
+      "blocker": "官方 roster/profile 已确认候选身份，但尚未取得可发布的可靠官方人物照片并验证为 512×512；人物事实、教育训练和具体网络关系仍需在头像补齐时逐条映射，不能仅把名录卡片直接发布。",
+      "missingDimensions": [
+        "verified_official_512_portrait",
+        "manual_fact_to_source_mapping",
+        "specific_first_party_network_evidence"
+      ],
+      "attemptedUrls": [
+        "https://www.epfl.ch/schools/ic/about/faculty-members/",
+        "https://people.epfl.ch/emre.telatar"
+      ]
+    },
+    {
+      "canonicalKey": "Europe:EPFL:francescomondada",
+      "name": "Francesco Mondada",
+      "institution": "EPFL",
+      "disposition": "missing_portrait",
+      "blocker": "官方 roster/profile 已确认候选身份，但尚未取得可发布的可靠官方人物照片并验证为 512×512；人物事实、教育训练和具体网络关系仍需在头像补齐时逐条映射，不能仅把名录卡片直接发布。",
+      "missingDimensions": [
+        "verified_official_512_portrait",
+        "manual_fact_to_source_mapping",
+        "specific_first_party_network_evidence"
+      ],
+      "attemptedUrls": [
+        "https://www.epfl.ch/schools/ic/about/faculty-members/",
+        "https://people.epfl.ch/francesco.mondada"
+      ]
+    },
+    {
+      "canonicalKey": "Europe:EPFL:frederickaplan",
+      "name": "Frédéric Kaplan",
+      "institution": "EPFL",
+      "disposition": "missing_portrait",
+      "blocker": "官方 roster/profile 已确认候选身份，但尚未取得可发布的可靠官方人物照片并验证为 512×512；人物事实、教育训练和具体网络关系仍需在头像补齐时逐条映射，不能仅把名录卡片直接发布。",
+      "missingDimensions": [
+        "verified_official_512_portrait",
+        "manual_fact_to_source_mapping",
+        "specific_first_party_network_evidence"
+      ],
+      "attemptedUrls": [
+        "https://www.epfl.ch/schools/ic/about/faculty-members/",
+        "https://people.epfl.ch/frederic.kaplan"
+      ]
+    },
+    {
+      "canonicalKey": "Europe:EPFL:georgecandea",
+      "name": "George Candea",
+      "institution": "EPFL",
+      "disposition": "missing_portrait",
+      "blocker": "官方 roster/profile 已确认候选身份，但尚未取得可发布的可靠官方人物照片并验证为 512×512；人物事实、教育训练和具体网络关系仍需在头像补齐时逐条映射，不能仅把名录卡片直接发布。",
+      "missingDimensions": [
+        "verified_official_512_portrait",
+        "manual_fact_to_source_mapping",
+        "specific_first_party_network_evidence"
+      ],
+      "attemptedUrls": [
+        "https://www.epfl.ch/schools/ic/about/faculty-members/",
+        "https://people.epfl.ch/george.candea"
+      ]
+    },
+    {
+      "canonicalKey": "Europe:EPFL:haithamalhassanieh",
+      "name": "Haitham Al Hassanieh",
+      "institution": "EPFL",
+      "disposition": "missing_portrait",
+      "blocker": "官方 roster/profile 已确认候选身份，但尚未取得可发布的可靠官方人物照片并验证为 512×512；人物事实、教育训练和具体网络关系仍需在头像补齐时逐条映射，不能仅把名录卡片直接发布。",
+      "missingDimensions": [
+        "verified_official_512_portrait",
+        "manual_fact_to_source_mapping",
+        "specific_first_party_network_evidence"
+      ],
+      "attemptedUrls": [
+        "https://www.epfl.ch/schools/ic/about/faculty-members/",
+        "https://people.epfl.ch/haitham.alhassanieh"
+      ]
+    },
+    {
+      "canonicalKey": "Europe:EPFL:jeffreyhuang",
+      "name": "Jeffrey Huang",
+      "institution": "EPFL",
+      "disposition": "missing_portrait",
+      "blocker": "官方 roster/profile 已确认候选身份，但尚未取得可发布的可靠官方人物照片并验证为 512×512；人物事实、教育训练和具体网络关系仍需在头像补齐时逐条映射，不能仅把名录卡片直接发布。",
+      "missingDimensions": [
+        "verified_official_512_portrait",
+        "manual_fact_to_source_mapping",
+        "specific_first_party_network_evidence"
+      ],
+      "attemptedUrls": [
+        "https://www.epfl.ch/schools/ic/about/faculty-members/",
+        "https://people.epfl.ch/jeffrey.huang"
+      ]
+    },
+    {
+      "canonicalKey": "Europe:EPFL:katerinaargyraki",
+      "name": "Katerina Argyraki",
+      "institution": "EPFL",
+      "disposition": "missing_portrait",
+      "blocker": "官方 roster/profile 已确认候选身份，但尚未取得可发布的可靠官方人物照片并验证为 512×512；人物事实、教育训练和具体网络关系仍需在头像补齐时逐条映射，不能仅把名录卡片直接发布。",
+      "missingDimensions": [
+        "verified_official_512_portrait",
+        "manual_fact_to_source_mapping",
+        "specific_first_party_network_evidence"
+      ],
+      "attemptedUrls": [
+        "https://www.epfl.ch/schools/ic/about/faculty-members/",
+        "https://people.epfl.ch/katerina.argyraki"
+      ]
+    },
+    {
+      "canonicalKey": "Europe:EPFL:marcelsalathe",
+      "name": "Marcel Salathé",
+      "institution": "EPFL",
+      "disposition": "missing_portrait",
+      "blocker": "官方 roster/profile 已确认候选身份，但尚未取得可发布的可靠官方人物照片并验证为 512×512；人物事实、教育训练和具体网络关系仍需在头像补齐时逐条映射，不能仅把名录卡片直接发布。",
+      "missingDimensions": [
+        "verified_official_512_portrait",
+        "manual_fact_to_source_mapping",
+        "specific_first_party_network_evidence"
+      ],
+      "attemptedUrls": [
+        "https://www.epfl.ch/schools/ic/about/faculty-members/",
+        "https://people.epfl.ch/marcel.salathe"
+      ]
+    },
+    {
+      "canonicalKey": "Europe:EPFL:martinaloisrohrmeier",
+      "name": "Martin Alois Rohrmeier",
+      "institution": "EPFL",
+      "disposition": "missing_portrait",
+      "blocker": "官方 roster/profile 已确认候选身份，但尚未取得可发布的可靠官方人物照片并验证为 512×512；人物事实、教育训练和具体网络关系仍需在头像补齐时逐条映射，不能仅把名录卡片直接发布。",
+      "missingDimensions": [
+        "verified_official_512_portrait",
+        "manual_fact_to_source_mapping",
+        "specific_first_party_network_evidence"
+      ],
+      "attemptedUrls": [
+        "https://www.epfl.ch/schools/ic/about/faculty-members/",
+        "https://people.epfl.ch/martin.rohrmeier"
+      ]
+    },
+    {
+      "canonicalKey": "Europe:EPFL:martinodersky",
+      "name": "Martin Odersky",
+      "institution": "EPFL",
+      "disposition": "missing_portrait",
+      "blocker": "官方 roster/profile 已确认候选身份，但尚未取得可发布的可靠官方人物照片并验证为 512×512；人物事实、教育训练和具体网络关系仍需在头像补齐时逐条映射，不能仅把名录卡片直接发布。",
+      "missingDimensions": [
+        "verified_official_512_portrait",
+        "manual_fact_to_source_mapping",
+        "specific_first_party_network_evidence"
+      ],
+      "attemptedUrls": [
+        "https://www.epfl.ch/schools/ic/about/faculty-members/",
+        "https://people.epfl.ch/martin.odersky"
+      ]
+    },
+    {
+      "canonicalKey": "Europe:EPFL:maryannehartley",
+      "name": "Mary-Anne Hartley",
+      "institution": "EPFL",
+      "disposition": "missing_portrait",
+      "blocker": "官方 roster/profile 已确认候选身份，但尚未取得可发布的可靠官方人物照片并验证为 512×512；人物事实、教育训练和具体网络关系仍需在头像补齐时逐条映射，不能仅把名录卡片直接发布。",
+      "missingDimensions": [
+        "verified_official_512_portrait",
+        "manual_fact_to_source_mapping",
+        "specific_first_party_network_evidence"
+      ],
+      "attemptedUrls": [
+        "https://www.epfl.ch/schools/ic/about/faculty-members/",
+        "https://people.epfl.ch/mary-anne.hartley"
+      ]
+    },
+    {
+      "canonicalKey": "Europe:EPFL:mathiasjosefpayer",
+      "name": "Mathias Josef Payer",
+      "institution": "EPFL",
+      "disposition": "missing_portrait",
+      "blocker": "官方 roster/profile 已确认候选身份，但尚未取得可发布的可靠官方人物照片并验证为 512×512；人物事实、教育训练和具体网络关系仍需在头像补齐时逐条映射，不能仅把名录卡片直接发布。",
+      "missingDimensions": [
+        "verified_official_512_portrait",
+        "manual_fact_to_source_mapping",
+        "specific_first_party_network_evidence"
+      ],
+      "attemptedUrls": [
+        "https://www.epfl.ch/schools/ic/about/faculty-members/",
+        "https://people.epfl.ch/mathias.payer"
+      ]
+    },
+    {
+      "canonicalKey": "Europe:EPFL:matthiasgrossglauser",
+      "name": "Matthias Grossglauser",
+      "institution": "EPFL",
+      "disposition": "missing_portrait",
+      "blocker": "官方 roster/profile 已确认候选身份，但尚未取得可发布的可靠官方人物照片并验证为 512×512；人物事实、教育训练和具体网络关系仍需在头像补齐时逐条映射，不能仅把名录卡片直接发布。",
+      "missingDimensions": [
+        "verified_official_512_portrait",
+        "manual_fact_to_source_mapping",
+        "specific_first_party_network_evidence"
+      ],
+      "attemptedUrls": [
+        "https://www.epfl.ch/schools/ic/about/faculty-members/",
+        "https://people.epfl.ch/matthias.grossglauser"
+      ]
+    },
+    {
+      "canonicalKey": "Europe:EPFL:michaelcgastpar",
+      "name": "Michael C. Gastpar",
+      "institution": "EPFL",
+      "disposition": "missing_portrait",
+      "blocker": "官方 roster/profile 已确认候选身份，但尚未取得可发布的可靠官方人物照片并验证为 512×512；人物事实、教育训练和具体网络关系仍需在头像补齐时逐条映射，不能仅把名录卡片直接发布。",
+      "missingDimensions": [
+        "verified_official_512_portrait",
+        "manual_fact_to_source_mapping",
+        "specific_first_party_network_evidence"
+      ],
+      "attemptedUrls": [
+        "https://www.epfl.ch/schools/ic/about/faculty-members/",
+        "https://people.epfl.ch/michael.gastpar"
+      ]
+    },
+    {
+      "canonicalKey": "Europe:EPFL:michaelkapralov",
+      "name": "Michael Kapralov",
+      "institution": "EPFL",
+      "disposition": "missing_portrait",
+      "blocker": "官方 roster/profile 已确认候选身份，但尚未取得可发布的可靠官方人物照片并验证为 512×512；人物事实、教育训练和具体网络关系仍需在头像补齐时逐条映射，不能仅把名录卡片直接发布。",
+      "missingDimensions": [
+        "verified_official_512_portrait",
+        "manual_fact_to_source_mapping",
+        "specific_first_party_network_evidence"
+      ],
+      "attemptedUrls": [
+        "https://www.epfl.ch/schools/ic/about/faculty-members/",
+        "https://people.epfl.ch/michael.kapralov"
+      ]
+    },
+    {
+      "canonicalKey": "Europe:EPFL:mikagoos",
+      "name": "Mika Göös",
+      "institution": "EPFL",
+      "disposition": "missing_portrait",
+      "blocker": "官方 roster/profile 已确认候选身份，但尚未取得可发布的可靠官方人物照片并验证为 512×512；人物事实、教育训练和具体网络关系仍需在头像补齐时逐条映射，不能仅把名录卡片直接发布。",
+      "missingDimensions": [
+        "verified_official_512_portrait",
+        "manual_fact_to_source_mapping",
+        "specific_first_party_network_evidence"
+      ],
+      "attemptedUrls": [
+        "https://www.epfl.ch/schools/ic/about/faculty-members/",
+        "https://people.epfl.ch/mika.goos"
+      ]
+    },
+    {
+      "canonicalKey": "Europe:EPFL:natefoster",
+      "name": "Nate Foster",
+      "institution": "EPFL",
+      "disposition": "missing_portrait",
+      "blocker": "官方 roster/profile 已确认候选身份，但尚未取得可发布的可靠官方人物照片并验证为 512×512；人物事实、教育训练和具体网络关系仍需在头像补齐时逐条映射，不能仅把名录卡片直接发布。",
+      "missingDimensions": [
+        "verified_official_512_portrait",
+        "manual_fact_to_source_mapping",
+        "specific_first_party_network_evidence"
+      ],
+      "attemptedUrls": [
+        "https://www.epfl.ch/schools/ic/about/faculty-members/",
+        "https://people.epfl.ch/nate.foster?lang=en"
+      ]
+    },
+    {
+      "canonicalKey": "Europe:EPFL:nicolasmacris",
+      "name": "Nicolas Macris",
+      "institution": "EPFL",
+      "disposition": "missing_portrait",
+      "blocker": "官方 roster/profile 已确认候选身份，但尚未取得可发布的可靠官方人物照片并验证为 512×512；人物事实、教育训练和具体网络关系仍需在头像补齐时逐条映射，不能仅把名录卡片直接发布。",
+      "missingDimensions": [
+        "verified_official_512_portrait",
+        "manual_fact_to_source_mapping",
+        "specific_first_party_network_evidence"
+      ],
+      "attemptedUrls": [
+        "https://www.epfl.ch/schools/ic/about/faculty-members/",
+        "https://people.epfl.ch/nicolas.macris"
+      ]
+    },
+    {
+      "canonicalKey": "Europe:EPFL:patrickthiran",
+      "name": "Patrick Thiran",
+      "institution": "EPFL",
+      "disposition": "missing_portrait",
+      "blocker": "官方 roster/profile 已确认候选身份，但尚未取得可发布的可靠官方人物照片并验证为 512×512；人物事实、教育训练和具体网络关系仍需在头像补齐时逐条映射，不能仅把名录卡片直接发布。",
+      "missingDimensions": [
+        "verified_official_512_portrait",
+        "manual_fact_to_source_mapping",
+        "specific_first_party_network_evidence"
+      ],
+      "attemptedUrls": [
+        "https://www.epfl.ch/schools/ic/about/faculty-members/",
+        "https://people.epfl.ch/patrick.thiran"
+      ]
+    },
+    {
+      "canonicalKey": "Europe:EPFL:rachidguerraoui",
+      "name": "Rachid Guerraoui",
+      "institution": "EPFL",
+      "disposition": "missing_portrait",
+      "blocker": "官方 roster/profile 已确认候选身份，但尚未取得可发布的可靠官方人物照片并验证为 512×512；人物事实、教育训练和具体网络关系仍需在头像补齐时逐条映射，不能仅把名录卡片直接发布。",
+      "missingDimensions": [
+        "verified_official_512_portrait",
+        "manual_fact_to_source_mapping",
+        "specific_first_party_network_evidence"
+      ],
+      "attemptedUrls": [
+        "https://www.epfl.ch/schools/ic/about/faculty-members/",
+        "https://people.epfl.ch/rachid.guerraoui"
+      ]
+    },
+    {
+      "canonicalKey": "Europe:EPFL:rudigerurbanke",
+      "name": "Rüdiger Urbanke",
+      "institution": "EPFL",
+      "disposition": "missing_portrait",
+      "blocker": "官方 roster/profile 已确认候选身份，但尚未取得可发布的可靠官方人物照片并验证为 512×512；人物事实、教育训练和具体网络关系仍需在头像补齐时逐条映射，不能仅把名录卡片直接发布。",
+      "missingDimensions": [
+        "verified_official_512_portrait",
+        "manual_fact_to_source_mapping",
+        "specific_first_party_network_evidence"
+      ],
+      "attemptedUrls": [
+        "https://www.epfl.ch/schools/ic/about/faculty-members/",
+        "https://people.epfl.ch/rudiger.urbanke"
+      ]
+    },
+    {
+      "canonicalKey": "Europe:EPFL:sabinesusstrunk",
+      "name": "Sabine Süsstrunk",
+      "institution": "EPFL",
+      "disposition": "missing_portrait",
+      "blocker": "官方 roster/profile 已确认候选身份，但尚未取得可发布的可靠官方人物照片并验证为 512×512；人物事实、教育训练和具体网络关系仍需在头像补齐时逐条映射，不能仅把名录卡片直接发布。",
+      "missingDimensions": [
+        "verified_official_512_portrait",
+        "manual_fact_to_source_mapping",
+        "specific_first_party_network_evidence"
+      ],
+      "attemptedUrls": [
+        "https://www.epfl.ch/schools/ic/about/faculty-members/",
+        "https://people.epfl.ch/sabine.susstrunk"
+      ]
+    },
+    {
+      "canonicalKey": "Europe:EPFL:sanidhyakashyap",
+      "name": "Sanidhya Kashyap",
+      "institution": "EPFL",
+      "disposition": "missing_portrait",
+      "blocker": "官方 roster/profile 已确认候选身份，但尚未取得可发布的可靠官方人物照片并验证为 512×512；人物事实、教育训练和具体网络关系仍需在头像补齐时逐条映射，不能仅把名录卡片直接发布。",
+      "missingDimensions": [
+        "verified_official_512_portrait",
+        "manual_fact_to_source_mapping",
+        "specific_first_party_network_evidence"
+      ],
+      "attemptedUrls": [
+        "https://www.epfl.ch/schools/ic/about/faculty-members/",
+        "https://people.epfl.ch/sanidhya.kashyap"
+      ]
+    },
+    {
+      "canonicalKey": "Europe:EPFL:sarahkenderdine",
+      "name": "Sarah Kenderdine",
+      "institution": "EPFL",
+      "disposition": "missing_portrait",
+      "blocker": "官方 roster/profile 已确认候选身份，但尚未取得可发布的可靠官方人物照片并验证为 512×512；人物事实、教育训练和具体网络关系仍需在头像补齐时逐条映射，不能仅把名录卡片直接发布。",
+      "missingDimensions": [
+        "verified_official_512_portrait",
+        "manual_fact_to_source_mapping",
+        "specific_first_party_network_evidence"
+      ],
+      "attemptedUrls": [
+        "https://www.epfl.ch/schools/ic/about/faculty-members/",
+        "https://people.epfl.ch/sarah.kenderdine"
+      ]
+    },
+    {
+      "canonicalKey": "Europe:EPFL:sergevaudenay",
+      "name": "Serge Vaudenay",
+      "institution": "EPFL",
+      "disposition": "missing_portrait",
+      "blocker": "官方 roster/profile 已确认候选身份，但尚未取得可发布的可靠官方人物照片并验证为 512×512；人物事实、教育训练和具体网络关系仍需在头像补齐时逐条映射，不能仅把名录卡片直接发布。",
+      "missingDimensions": [
+        "verified_official_512_portrait",
+        "manual_fact_to_source_mapping",
+        "specific_first_party_network_evidence"
+      ],
+      "attemptedUrls": [
+        "https://www.epfl.ch/schools/ic/about/faculty-members/",
+        "https://people.epfl.ch/serge.vaudenay"
+      ]
+    },
+    {
+      "canonicalKey": "Europe:EPFL:tanjakaeser",
+      "name": "Tanja Kaeser",
+      "institution": "EPFL",
+      "disposition": "missing_portrait",
+      "blocker": "官方 roster/profile 已确认候选身份，但尚未取得可发布的可靠官方人物照片并验证为 512×512；人物事实、教育训练和具体网络关系仍需在头像补齐时逐条映射，不能仅把名录卡片直接发布。",
+      "missingDimensions": [
+        "verified_official_512_portrait",
+        "manual_fact_to_source_mapping",
+        "specific_first_party_network_evidence"
+      ],
+      "attemptedUrls": [
+        "https://www.epfl.ch/schools/ic/about/faculty-members/",
+        "https://people.epfl.ch/tanja.kaeser"
+      ]
+    },
+    {
+      "canonicalKey": "Europe:EPFL:thomasbourgeat",
+      "name": "Thomas Bourgeat",
+      "institution": "EPFL",
+      "disposition": "missing_portrait",
+      "blocker": "官方 roster/profile 已确认候选身份，但尚未取得可发布的可靠官方人物照片并验证为 512×512；人物事实、教育训练和具体网络关系仍需在头像补齐时逐条映射，不能仅把名录卡片直接发布。",
+      "missingDimensions": [
+        "verified_official_512_portrait",
+        "manual_fact_to_source_mapping",
+        "specific_first_party_network_evidence"
+      ],
+      "attemptedUrls": [
+        "https://www.epfl.ch/schools/ic/about/faculty-members/",
+        "https://people.epfl.ch/thomas.bourgeat"
+      ]
+    },
+    {
+      "canonicalKey": "Europe:EPFL:thomasvidick",
+      "name": "Thomas Vidick",
+      "institution": "EPFL",
+      "disposition": "missing_portrait",
+      "blocker": "官方 roster/profile 已确认候选身份，但尚未取得可发布的可靠官方人物照片并验证为 512×512；人物事实、教育训练和具体网络关系仍需在头像补齐时逐条映射，不能仅把名录卡片直接发布。",
+      "missingDimensions": [
+        "verified_official_512_portrait",
+        "manual_fact_to_source_mapping",
+        "specific_first_party_network_evidence"
+      ],
+      "attemptedUrls": [
+        "https://www.epfl.ch/schools/ic/about/faculty-members/",
+        "https://people.epfl.ch/thomas.vidick"
+      ]
+    },
+    {
+      "canonicalKey": "Europe:EPFL:viktorkuncak",
+      "name": "Viktor Kuncak",
+      "institution": "EPFL",
+      "disposition": "missing_portrait",
+      "blocker": "官方 roster/profile 已确认候选身份，但尚未取得可发布的可靠官方人物照片并验证为 512×512；人物事实、教育训练和具体网络关系仍需在头像补齐时逐条映射，不能仅把名录卡片直接发布。",
+      "missingDimensions": [
+        "verified_official_512_portrait",
+        "manual_fact_to_source_mapping",
+        "specific_first_party_network_evidence"
+      ],
+      "attemptedUrls": [
+        "https://www.epfl.ch/schools/ic/about/faculty-members/",
+        "https://people.epfl.ch/viktor.kuncak"
+      ]
+    },
+    {
+      "canonicalKey": "Europe:EPFL:wulframgerstner",
+      "name": "Wulfram Gerstner",
+      "institution": "EPFL",
+      "disposition": "missing_portrait",
+      "blocker": "官方 roster/profile 已确认候选身份，但尚未取得可发布的可靠官方人物照片并验证为 512×512；人物事实、教育训练和具体网络关系仍需在头像补齐时逐条映射，不能仅把名录卡片直接发布。",
+      "missingDimensions": [
+        "verified_official_512_portrait",
+        "manual_fact_to_source_mapping",
+        "specific_first_party_network_evidence"
+      ],
+      "attemptedUrls": [
+        "https://www.epfl.ch/schools/ic/about/faculty-members/",
+        "https://people.epfl.ch/wulfram.gerstner"
+      ]
+    },
+    {
+      "canonicalKey": "Europe:EPFL:yaninashkel",
+      "name": "Yanina Shkel",
+      "institution": "EPFL",
+      "disposition": "missing_portrait",
+      "blocker": "官方 roster/profile 已确认候选身份，但尚未取得可发布的可靠官方人物照片并验证为 512×512；人物事实、教育训练和具体网络关系仍需在头像补齐时逐条映射，不能仅把名录卡片直接发布。",
+      "missingDimensions": [
+        "verified_official_512_portrait",
+        "manual_fact_to_source_mapping",
+        "specific_first_party_network_evidence"
+      ],
+      "attemptedUrls": [
+        "https://www.epfl.ch/schools/ic/about/faculty-members/",
+        "https://people.epfl.ch/yanina.shkel"
+      ]
+    },
+    {
+      "canonicalKey": "Europe:EPFL:yihuiquek",
+      "name": "Yihui Quek",
+      "institution": "EPFL",
+      "disposition": "missing_portrait",
+      "blocker": "官方 roster/profile 已确认候选身份，但尚未取得可发布的可靠官方人物照片并验证为 512×512；人物事实、教育训练和具体网络关系仍需在头像补齐时逐条映射，不能仅把名录卡片直接发布。",
+      "missingDimensions": [
+        "verified_official_512_portrait",
+        "manual_fact_to_source_mapping",
+        "specific_first_party_network_evidence"
+      ],
+      "attemptedUrls": [
+        "https://www.epfl.ch/schools/ic/about/faculty-members/",
+        "https://people.epfl.ch/yihui.quek?lang=en"
+      ]
+    },
+    {
+      "canonicalKey": "Europe:ETH Zurich:adrianperrig",
+      "name": "Adrian Perrig",
+      "institution": "ETH Zurich",
+      "disposition": "missing_portrait",
+      "blocker": "官方 roster/profile 已确认候选身份，但尚未取得可发布的可靠官方人物照片并验证为 512×512；人物事实、教育训练和具体网络关系仍需在头像补齐时逐条映射，不能仅把名录卡片直接发布。",
+      "missingDimensions": [
+        "verified_official_512_portrait",
+        "manual_fact_to_source_mapping",
+        "specific_first_party_network_evidence"
+      ],
+      "attemptedUrls": [
+        "https://inf.ethz.ch/people/faculty.html",
+        "https://inf.ethz.ch/people/person-detail.perrig.html"
+      ]
+    },
+    {
+      "canonicalKey": "Europe:ETH Zurich:denniskomm",
+      "name": "Dennis Komm",
+      "institution": "ETH Zurich",
+      "disposition": "missing_relationship",
+      "blocker": "官方 roster/profile 与可靠 512×512 头像已取得；仍缺能明确到具名导师、学生、课题组成员或产业去向的第一方关系记录。现有入口不能仅凭合著推断指导或长期合作。",
+      "missingDimensions": [
+        "specific_first_party_network_evidence"
+      ],
+      "attemptedUrls": [
+        "https://inf.ethz.ch/people/faculty.html",
+        "https://inf.ethz.ch/people/person-detail.MTU2MjAz.TGlzdC8zMDQsLTg3NDc3NjI0MQ==.html",
+        "https://inf.ethz.ch/people/faculty/faculty/_jcr_content/par/twocolumn_550620171/par_right/textimage/image.imageformat.textsingle.1451331953.jpg"
+      ]
+    },
+    {
+      "canonicalKey": "Europe:ETH Zurich:johanneslengler",
+      "name": "Johannes Lengler",
+      "institution": "ETH Zurich",
+      "disposition": "missing_relationship",
+      "blocker": "官方 roster/profile 与可靠 512×512 头像已取得；仍缺能明确到具名导师、学生、课题组成员或产业去向的第一方关系记录。现有入口不能仅凭合著推断指导或长期合作。",
+      "missingDimensions": [
+        "specific_first_party_network_evidence"
+      ],
+      "attemptedUrls": [
+        "https://inf.ethz.ch/people/faculty.html",
+        "https://inf.ethz.ch/people/people-atoz/person-detail.MTc0MDI5.TGlzdC8zMDQsLTIxNDE4MTU0NjA=.html",
+        "https://inf.ethz.ch/people/faculty/faculty/_jcr_content/par/twocolumn_701667867/par_left/textimage_220043515/image.imageformat.textsingle.214663071.jpg"
+      ]
+    },
+    {
+      "canonicalKey": "Europe:ETH Zurich:julesjacobs",
+      "name": "Jules Jacobs",
+      "institution": "ETH Zurich",
+      "disposition": "missing_relationship",
+      "blocker": "官方 roster/profile 与可靠 512×512 头像已取得；仍缺能明确到具名导师、学生、课题组成员或产业去向的第一方关系记录。现有入口不能仅凭合著推断指导或长期合作。",
+      "missingDimensions": [
+        "specific_first_party_network_evidence"
+      ],
+      "attemptedUrls": [
+        "https://inf.ethz.ch/people/faculty.html",
+        "https://julesjacobs.com/",
+        "https://inf.ethz.ch/people/faculty/faculty/_jcr_content/par/twocolumn_5/par_right/textimage_copy/image.imageformat.textsingle.2035155105.jpg"
+      ]
+    },
+    {
+      "canonicalKey": "Europe:ETH Zurich:michalfriedman",
+      "name": "Michal Friedman",
+      "institution": "ETH Zurich",
+      "disposition": "missing_relationship",
+      "blocker": "官方 roster/profile 与可靠 512×512 头像已取得；仍缺能明确到具名导师、学生、课题组成员或产业去向的第一方关系记录。现有入口不能仅凭合著推断指导或长期合作。",
+      "missingDimensions": [
+        "specific_first_party_network_evidence"
+      ],
+      "attemptedUrls": [
+        "https://inf.ethz.ch/people/faculty.html",
+        "https://inf.ethz.ch/people/people-atoz/person-detail.MzAwMjM2.TGlzdC8zMDQsLTIxNDE4MTU0NjA=.html",
+        "https://inf.ethz.ch/people/faculty/faculty/_jcr_content/par/twocolumn_2/par_right/textimage_331243019_/image.imageformat.textsingle.1516807761.jpg"
+      ]
+    },
+    {
+      "canonicalKey": "Europe:ETH Zurich:torstenhoefler",
+      "name": "Torsten Hoefler",
+      "institution": "ETH Zurich",
+      "disposition": "missing_portrait",
+      "blocker": "官方 roster/profile 已确认候选身份，但尚未取得可发布的可靠官方人物照片并验证为 512×512；人物事实、教育训练和具体网络关系仍需在头像补齐时逐条映射，不能仅把名录卡片直接发布。",
+      "missingDimensions": [
+        "verified_official_512_portrait",
+        "manual_fact_to_source_mapping",
+        "specific_first_party_network_evidence"
+      ],
+      "attemptedUrls": [
+        "https://inf.ethz.ch/people/faculty.html",
+        "https://www.inf.ethz.ch/people/person-detail.hoefler.html"
+      ]
+    },
+    {
+      "canonicalKey": "Europe:ETH Zurich:yannischronis",
+      "name": "Yannis Chronis",
+      "institution": "ETH Zurich",
+      "disposition": "missing_relationship",
+      "blocker": "官方 roster/profile 与可靠 512×512 头像已取得；仍缺能明确到具名导师、学生、课题组成员或产业去向的第一方关系记录。现有入口不能仅凭合著推断指导或长期合作。",
+      "missingDimensions": [
+        "specific_first_party_network_evidence"
+      ],
+      "attemptedUrls": [
+        "https://inf.ethz.ch/people/faculty.html",
+        "https://inf.ethz.ch/people/people-atoz/person-detail.yannischronis.html",
+        "https://inf.ethz.ch/people/faculty/faculty/_jcr_content/par/twocolumn_1/par_right/textimage_copy/image.imageformat.textsingle.320310597.jpg"
+      ]
+    },
+    {
+      "canonicalKey": "Europe:University of Edinburgh:adrianasejfia",
+      "name": "Adriana Sejfia",
+      "institution": "University of Edinburgh",
+      "disposition": "missing_portrait",
+      "blocker": "官方 roster/profile 已确认候选身份，但尚未取得可发布的可靠官方人物照片并验证为 512×512；人物事实、教育训练和具体网络关系仍需在头像补齐时逐条映射，不能仅把名录卡片直接发布。",
+      "missingDimensions": [
+        "verified_official_512_portrait",
+        "manual_fact_to_source_mapping",
+        "specific_first_party_network_evidence"
+      ],
+      "attemptedUrls": [
+        "https://informatics.ed.ac.uk/people/academic-staff",
+        "https://informatics.ed.ac.uk/Adriana_Sejfia.html"
+      ]
+    },
+    {
+      "canonicalKey": "Europe:University of Edinburgh:aggeloskiayias",
+      "name": "Aggelos Kiayias",
+      "institution": "University of Edinburgh",
+      "disposition": "missing_portrait",
+      "blocker": "官方 roster/profile 已确认候选身份，但尚未取得可发布的可靠官方人物照片并验证为 512×512；人物事实、教育训练和具体网络关系仍需在头像补齐时逐条映射，不能仅把名录卡片直接发布。",
+      "missingDimensions": [
+        "verified_official_512_portrait",
+        "manual_fact_to_source_mapping",
+        "specific_first_party_network_evidence"
+      ],
+      "attemptedUrls": [
+        "https://informatics.ed.ac.uk/people/academic-staff",
+        "https://informatics.ed.ac.uk/Aggelos_Kiayias.html"
+      ]
+    },
+    {
+      "canonicalKey": "Europe:University of Edinburgh:ajitharajan",
+      "name": "Ajitha Rajan",
+      "institution": "University of Edinburgh",
+      "disposition": "missing_portrait",
+      "blocker": "官方 roster/profile 已确认候选身份，但尚未取得可发布的可靠官方人物照片并验证为 512×512；人物事实、教育训练和具体网络关系仍需在头像补齐时逐条映射，不能仅把名录卡片直接发布。",
+      "missingDimensions": [
+        "verified_official_512_portrait",
+        "manual_fact_to_source_mapping",
+        "specific_first_party_network_evidence"
+      ],
+      "attemptedUrls": [
+        "https://informatics.ed.ac.uk/people/academic-staff",
+        "https://informatics.ed.ac.uk/Ajitha_Rajan.html"
+      ]
+    },
+    {
+      "canonicalKey": "Europe:University of Edinburgh:alextaylor",
+      "name": "Alex Taylor",
+      "institution": "University of Edinburgh",
+      "disposition": "missing_portrait",
+      "blocker": "官方 roster/profile 已确认候选身份，但尚未取得可发布的可靠官方人物照片并验证为 512×512；人物事实、教育训练和具体网络关系仍需在头像补齐时逐条映射，不能仅把名录卡片直接发布。",
+      "missingDimensions": [
+        "verified_official_512_portrait",
+        "manual_fact_to_source_mapping",
+        "specific_first_party_network_evidence"
+      ],
+      "attemptedUrls": [
+        "https://informatics.ed.ac.uk/people/academic-staff",
+        "https://informatics.ed.ac.uk/Alex_Taylor.html"
+      ]
+    },
+    {
+      "canonicalKey": "Europe:University of Edinburgh:alexandrabirchmayne",
+      "name": "Alexandra Birch-Mayne",
+      "institution": "University of Edinburgh",
+      "disposition": "missing_portrait",
+      "blocker": "官方 roster/profile 已确认候选身份，但尚未取得可发布的可靠官方人物照片并验证为 512×512；人物事实、教育训练和具体网络关系仍需在头像补齐时逐条映射，不能仅把名录卡片直接发布。",
+      "missingDimensions": [
+        "verified_official_512_portrait",
+        "manual_fact_to_source_mapping",
+        "specific_first_party_network_evidence"
+      ],
+      "attemptedUrls": [
+        "https://informatics.ed.ac.uk/people/academic-staff",
+        "https://informatics.ed.ac.uk/Alexandra_Birch-Mayne.html"
+      ]
+    },
+    {
+      "canonicalKey": "Europe:University of Edinburgh:alexandrucojocaru",
+      "name": "Alexandru Cojocaru",
+      "institution": "University of Edinburgh",
+      "disposition": "missing_portrait",
+      "blocker": "官方 roster/profile 已确认候选身份，但尚未取得可发布的可靠官方人物照片并验证为 512×512；人物事实、教育训练和具体网络关系仍需在头像补齐时逐条映射，不能仅把名录卡片直接发布。",
+      "missingDimensions": [
+        "verified_official_512_portrait",
+        "manual_fact_to_source_mapping",
+        "specific_first_party_network_evidence"
+      ],
+      "attemptedUrls": [
+        "https://informatics.ed.ac.uk/people/academic-staff",
+        "https://informatics.ed.ac.uk/Alexandru_Cojocaru.html"
+      ]
+    },
+    {
+      "canonicalKey": "Europe:University of Edinburgh:amirshaikhha",
+      "name": "Amir Shaikhha",
+      "institution": "University of Edinburgh",
+      "disposition": "missing_portrait",
+      "blocker": "官方 roster/profile 已确认候选身份，但尚未取得可发布的可靠官方人物照片并验证为 512×512；人物事实、教育训练和具体网络关系仍需在头像补齐时逐条映射，不能仅把名录卡片直接发布。",
+      "missingDimensions": [
+        "verified_official_512_portrait",
+        "manual_fact_to_source_mapping",
+        "specific_first_party_network_evidence"
+      ],
+      "attemptedUrls": [
+        "https://informatics.ed.ac.uk/people/academic-staff",
+        "https://informatics.ed.ac.uk/Amir_Shaikhha.html"
+      ]
+    },
+    {
+      "canonicalKey": "Europe:University of Edinburgh:amirvaxman",
+      "name": "Amir Vaxman",
+      "institution": "University of Edinburgh",
+      "disposition": "missing_portrait",
+      "blocker": "官方 roster/profile 已确认候选身份，但尚未取得可发布的可靠官方人物照片并验证为 512×512；人物事实、教育训练和具体网络关系仍需在头像补齐时逐条映射，不能仅把名录卡片直接发布。",
+      "missingDimensions": [
+        "verified_official_512_portrait",
+        "manual_fact_to_source_mapping",
+        "specific_first_party_network_evidence"
+      ],
+      "attemptedUrls": [
+        "https://informatics.ed.ac.uk/people/academic-staff",
+        "https://informatics.ed.ac.uk/Amir_Vaxman.html"
+      ]
+    },
+    {
+      "canonicalKey": "Europe:University of Edinburgh:andreaweisse",
+      "name": "Andrea Weisse",
+      "institution": "University of Edinburgh",
+      "disposition": "missing_portrait",
+      "blocker": "官方 roster/profile 已确认候选身份，但尚未取得可发布的可靠官方人物照片并验证为 512×512；人物事实、教育训练和具体网络关系仍需在头像补齐时逐条映射，不能仅把名录卡片直接发布。",
+      "missingDimensions": [
+        "verified_official_512_portrait",
+        "manual_fact_to_source_mapping",
+        "specific_first_party_network_evidence"
+      ],
+      "attemptedUrls": [
+        "https://informatics.ed.ac.uk/people/academic-staff",
+        "https://informatics.ed.ac.uk/Andrea_Weisse.html"
+      ]
+    },
+    {
+      "canonicalKey": "Europe:University of Edinburgh:andreaspieris",
+      "name": "Andreas Pieris",
+      "institution": "University of Edinburgh",
+      "disposition": "missing_portrait",
+      "blocker": "官方 roster/profile 已确认候选身份，但尚未取得可发布的可靠官方人物照片并验证为 512×512；人物事实、教育训练和具体网络关系仍需在头像补齐时逐条映射，不能仅把名录卡片直接发布。",
+      "missingDimensions": [
+        "verified_official_512_portrait",
+        "manual_fact_to_source_mapping",
+        "specific_first_party_network_evidence"
+      ],
+      "attemptedUrls": [
+        "https://informatics.ed.ac.uk/people/academic-staff",
+        "https://informatics.ed.ac.uk/Andreas_Pieris.html"
+      ]
+    },
+    {
+      "canonicalKey": "Europe:University of Edinburgh:anguschadwick",
+      "name": "Angus Chadwick",
+      "institution": "University of Edinburgh",
+      "disposition": "missing_portrait",
+      "blocker": "官方 roster/profile 已确认候选身份，但尚未取得可发布的可靠官方人物照片并验证为 512×512；人物事实、教育训练和具体网络关系仍需在头像补齐时逐条映射，不能仅把名录卡片直接发布。",
+      "missingDimensions": [
+        "verified_official_512_portrait",
+        "manual_fact_to_source_mapping",
+        "specific_first_party_network_evidence"
+      ],
+      "attemptedUrls": [
+        "https://informatics.ed.ac.uk/people/academic-staff",
+        "https://informatics.ed.ac.uk/Angus_Chadwick.html"
+      ]
+    },
+    {
+      "canonicalKey": "Europe:University of Edinburgh:antoniobarbalace",
+      "name": "Antonio Barbalace",
+      "institution": "University of Edinburgh",
+      "disposition": "missing_portrait",
+      "blocker": "官方 roster/profile 已确认候选身份，但尚未取得可发布的可靠官方人物照片并验证为 512×512；人物事实、教育训练和具体网络关系仍需在头像补齐时逐条映射，不能仅把名录卡片直接发布。",
+      "missingDimensions": [
+        "verified_official_512_portrait",
+        "manual_fact_to_source_mapping",
+        "specific_first_party_network_evidence"
+      ],
+      "attemptedUrls": [
+        "https://informatics.ed.ac.uk/people/academic-staff",
+        "https://informatics.ed.ac.uk/Antonio_Barbalace.html"
+      ]
+    },
+    {
+      "canonicalKey": "Europe:University of Edinburgh:antoniovergari",
+      "name": "Antonio Vergari",
+      "institution": "University of Edinburgh",
+      "disposition": "missing_portrait",
+      "blocker": "官方 roster/profile 已确认候选身份，但尚未取得可发布的可靠官方人物照片并验证为 512×512；人物事实、教育训练和具体网络关系仍需在头像补齐时逐条映射，不能仅把名录卡片直接发布。",
+      "missingDimensions": [
+        "verified_official_512_portrait",
+        "manual_fact_to_source_mapping",
+        "specific_first_party_network_evidence"
+      ],
+      "attemptedUrls": [
+        "https://informatics.ed.ac.uk/people/academic-staff",
+        "https://informatics.ed.ac.uk/Antonio_Vergari.html"
+      ]
+    },
+    {
+      "canonicalKey": "Europe:University of Edinburgh:arnoonken",
+      "name": "Arno Onken",
+      "institution": "University of Edinburgh",
+      "disposition": "missing_portrait",
+      "blocker": "官方 roster/profile 已确认候选身份，但尚未取得可发布的可靠官方人物照片并验证为 512×512；人物事实、教育训练和具体网络关系仍需在头像补齐时逐条映射，不能仅把名录卡片直接发布。",
+      "missingDimensions": [
+        "verified_official_512_portrait",
+        "manual_fact_to_source_mapping",
+        "specific_first_party_network_evidence"
+      ],
+      "attemptedUrls": [
+        "https://informatics.ed.ac.uk/people/academic-staff",
+        "https://informatics.ed.ac.uk/Arno_Onken.html"
+      ]
+    },
+    {
+      "canonicalKey": "Europe:University of Edinburgh:auroraconstantin",
+      "name": "Aurora Constantin",
+      "institution": "University of Edinburgh",
+      "disposition": "missing_portrait",
+      "blocker": "官方 roster/profile 已确认候选身份，但尚未取得可发布的可靠官方人物照片并验证为 512×512；人物事实、教育训练和具体网络关系仍需在头像补齐时逐条映射，不能仅把名录卡片直接发布。",
+      "missingDimensions": [
+        "verified_official_512_portrait",
+        "manual_fact_to_source_mapping",
+        "specific_first_party_network_evidence"
+      ],
+      "attemptedUrls": [
+        "https://informatics.ed.ac.uk/people/academic-staff",
+        "https://informatics.ed.ac.uk/Aurora_Constantin.html"
+      ]
+    },
+    {
+      "canonicalKey": "Europe:University of Edinburgh:avakhamseh",
+      "name": "Ava Khamseh",
+      "institution": "University of Edinburgh",
+      "disposition": "missing_portrait",
+      "blocker": "官方 roster/profile 已确认候选身份，但尚未取得可发布的可靠官方人物照片并验证为 512×512；人物事实、教育训练和具体网络关系仍需在头像补齐时逐条映射，不能仅把名录卡片直接发布。",
+      "missingDimensions": [
+        "verified_official_512_portrait",
+        "manual_fact_to_source_mapping",
+        "specific_first_party_network_evidence"
+      ],
+      "attemptedUrls": [
+        "https://informatics.ed.ac.uk/people/academic-staff",
+        "https://informatics.ed.ac.uk/Ava_Khamseh.html"
+      ]
+    },
+    {
+      "canonicalKey": "Europe:University of Edinburgh:barbarawebb",
+      "name": "Barbara Webb",
+      "institution": "University of Edinburgh",
+      "disposition": "missing_portrait",
+      "blocker": "官方 roster/profile 已确认候选身份，但尚未取得可发布的可靠官方人物照片并验证为 512×512；人物事实、教育训练和具体网络关系仍需在头像补齐时逐条映射，不能仅把名录卡片直接发布。",
+      "missingDimensions": [
+        "verified_official_512_portrait",
+        "manual_fact_to_source_mapping",
+        "specific_first_party_network_evidence"
+      ],
+      "attemptedUrls": [
+        "https://informatics.ed.ac.uk/people/academic-staff",
+        "https://informatics.ed.ac.uk/Barbara_Webb.html"
+      ]
+    },
+    {
+      "canonicalKey": "Europe:University of Edinburgh:benjaminpeters",
+      "name": "Benjamin Peters",
+      "institution": "University of Edinburgh",
+      "disposition": "missing_portrait",
+      "blocker": "官方 roster/profile 已确认候选身份，但尚未取得可发布的可靠官方人物照片并验证为 512×512；人物事实、教育训练和具体网络关系仍需在头像补齐时逐条映射，不能仅把名录卡片直接发布。",
+      "missingDimensions": [
+        "verified_official_512_portrait",
+        "manual_fact_to_source_mapping",
+        "specific_first_party_network_evidence"
+      ],
+      "attemptedUrls": [
+        "https://informatics.ed.ac.uk/people/academic-staff",
+        "https://informatics.ed.ac.uk/Benjamin_Peters.html"
+      ]
+    },
+    {
+      "canonicalKey": "Europe:University of Edinburgh:bjoernfranke",
+      "name": "Bjoern Franke",
+      "institution": "University of Edinburgh",
+      "disposition": "missing_portrait",
+      "blocker": "官方 roster/profile 已确认候选身份，但尚未取得可发布的可靠官方人物照片并验证为 512×512；人物事实、教育训练和具体网络关系仍需在头像补齐时逐条映射，不能仅把名录卡片直接发布。",
+      "missingDimensions": [
+        "verified_official_512_portrait",
+        "manual_fact_to_source_mapping",
+        "specific_first_party_network_evidence"
+      ],
+      "attemptedUrls": [
+        "https://informatics.ed.ac.uk/people/academic-staff",
+        "https://informatics.ed.ac.uk/Bjoern_Franke.html"
+      ]
+    },
+    {
+      "canonicalKey": "Europe:University of Edinburgh:bjornross",
+      "name": "Bjorn Ross",
+      "institution": "University of Edinburgh",
+      "disposition": "missing_portrait",
+      "blocker": "官方 roster/profile 已确认候选身份，但尚未取得可发布的可靠官方人物照片并验证为 512×512；人物事实、教育训练和具体网络关系仍需在头像补齐时逐条映射，不能仅把名录卡片直接发布。",
+      "missingDimensions": [
+        "verified_official_512_portrait",
+        "manual_fact_to_source_mapping",
+        "specific_first_party_network_evidence"
+      ],
+      "attemptedUrls": [
+        "https://informatics.ed.ac.uk/people/academic-staff",
+        "https://informatics.ed.ac.uk/Bjorn_Ross.html"
+      ]
+    },
+    {
+      "canonicalKey": "Europe:University of Edinburgh:bobfisher",
+      "name": "Bob Fisher",
+      "institution": "University of Edinburgh",
+      "disposition": "missing_portrait",
+      "blocker": "官方 roster/profile 已确认候选身份，但尚未取得可发布的可靠官方人物照片并验证为 512×512；人物事实、教育训练和具体网络关系仍需在头像补齐时逐条映射，不能仅把名录卡片直接发布。",
+      "missingDimensions": [
+        "verified_official_512_portrait",
+        "manual_fact_to_source_mapping",
+        "specific_first_party_network_evidence"
+      ],
+      "attemptedUrls": [
+        "https://informatics.ed.ac.uk/people/academic-staff",
+        "https://informatics.ed.ac.uk/Bob_Fisher.html"
+      ]
+    },
+    {
+      "canonicalKey": "Europe:University of Edinburgh:bonanzhao",
+      "name": "Bonan Zhao",
+      "institution": "University of Edinburgh",
+      "disposition": "missing_portrait",
+      "blocker": "官方 roster/profile 已确认候选身份，但尚未取得可发布的可靠官方人物照片并验证为 512×512；人物事实、教育训练和具体网络关系仍需在头像补齐时逐条映射，不能仅把名录卡片直接发布。",
+      "missingDimensions": [
+        "verified_official_512_portrait",
+        "manual_fact_to_source_mapping",
+        "specific_first_party_network_evidence"
+      ],
+      "attemptedUrls": [
+        "https://informatics.ed.ac.uk/people/academic-staff",
+        "https://informatics.ed.ac.uk/Bonan_Zhao.html"
+      ]
+    },
+    {
+      "canonicalKey": "Europe:University of Edinburgh:borisgrot",
+      "name": "Boris Grot",
+      "institution": "University of Edinburgh",
+      "disposition": "missing_portrait",
+      "blocker": "官方 roster/profile 已确认候选身份，但尚未取得可发布的可靠官方人物照片并验证为 512×512；人物事实、教育训练和具体网络关系仍需在头像补齐时逐条映射，不能仅把名录卡片直接发布。",
+      "missingDimensions": [
+        "verified_official_512_portrait",
+        "manual_fact_to_source_mapping",
+        "specific_first_party_network_evidence"
+      ],
+      "attemptedUrls": [
+        "https://informatics.ed.ac.uk/people/academic-staff",
+        "https://informatics.ed.ac.uk/Boris_Grot.html"
+      ]
+    },
+    {
+      "canonicalKey": "Europe:University of Edinburgh:catherinelai",
+      "name": "Catherine Lai",
+      "institution": "University of Edinburgh",
+      "disposition": "missing_portrait",
+      "blocker": "官方 roster/profile 已确认候选身份，但尚未取得可发布的可靠官方人物照片并验证为 512×512；人物事实、教育训练和具体网络关系仍需在头像补齐时逐条映射，不能仅把名录卡片直接发布。",
+      "missingDimensions": [
+        "verified_official_512_portrait",
+        "manual_fact_to_source_mapping",
+        "specific_first_party_network_evidence"
+      ],
+      "attemptedUrls": [
+        "https://informatics.ed.ac.uk/people/academic-staff",
+        "https://informatics.ed.ac.uk/Catherine_Lai.html"
+      ]
+    },
+    {
+      "canonicalKey": "Europe:University of Edinburgh:changjianli",
+      "name": "Changjian Li",
+      "institution": "University of Edinburgh",
+      "disposition": "missing_portrait",
+      "blocker": "官方 roster/profile 已确认候选身份，但尚未取得可发布的可靠官方人物照片并验证为 512×512；人物事实、教育训练和具体网络关系仍需在头像补齐时逐条映射，不能仅把名录卡片直接发布。",
+      "missingDimensions": [
+        "verified_official_512_portrait",
+        "manual_fact_to_source_mapping",
+        "specific_first_party_network_evidence"
+      ],
+      "attemptedUrls": [
+        "https://informatics.ed.ac.uk/people/academic-staff",
+        "https://informatics.ed.ac.uk/Changjian_Li.html"
+      ]
+    },
+    {
+      "canonicalKey": "Europe:University of Edinburgh:chrisheunen",
+      "name": "Chris Heunen",
+      "institution": "University of Edinburgh",
+      "disposition": "missing_portrait",
+      "blocker": "官方 roster/profile 已确认候选身份，但尚未取得可发布的可靠官方人物照片并验证为 512×512；人物事实、教育训练和具体网络关系仍需在头像补齐时逐条映射，不能仅把名录卡片直接发布。",
+      "missingDimensions": [
+        "verified_official_512_portrait",
+        "manual_fact_to_source_mapping",
+        "specific_first_party_network_evidence"
+      ],
+      "attemptedUrls": [
+        "https://informatics.ed.ac.uk/people/academic-staff",
+        "https://informatics.ed.ac.uk/Chris_Heunen.html"
+      ]
+    },
+    {
+      "canonicalKey": "Europe:University of Edinburgh:christopherlucas",
+      "name": "Christopher Lucas",
+      "institution": "University of Edinburgh",
+      "disposition": "missing_portrait",
+      "blocker": "官方 roster/profile 已确认候选身份，但尚未取得可发布的可靠官方人物照片并验证为 512×512；人物事实、教育训练和具体网络关系仍需在头像补齐时逐条映射，不能仅把名录卡片直接发布。",
+      "missingDimensions": [
+        "verified_official_512_portrait",
+        "manual_fact_to_source_mapping",
+        "specific_first_party_network_evidence"
+      ],
+      "attemptedUrls": [
+        "https://informatics.ed.ac.uk/people/academic-staff",
+        "https://informatics.ed.ac.uk/Christopher_Lucas.html"
+      ]
+    },
+    {
+      "canonicalKey": "Europe:University of Edinburgh:craiginnes",
+      "name": "Craig Innes",
+      "institution": "University of Edinburgh",
+      "disposition": "missing_portrait",
+      "blocker": "官方 roster/profile 已确认候选身份，但尚未取得可发布的可靠官方人物照片并验证为 512×512；人物事实、教育训练和具体网络关系仍需在头像补齐时逐条映射，不能仅把名录卡片直接发布。",
+      "missingDimensions": [
+        "verified_official_512_portrait",
+        "manual_fact_to_source_mapping",
+        "specific_first_party_network_evidence"
+      ],
+      "attemptedUrls": [
+        "https://informatics.ed.ac.uk/people/academic-staff",
+        "https://informatics.ed.ac.uk/Craig_Innes.html"
+      ]
+    },
+    {
+      "canonicalKey": "Europe:University of Edinburgh:cristinaalexandru",
+      "name": "Cristina Alexandru",
+      "institution": "University of Edinburgh",
+      "disposition": "missing_portrait",
+      "blocker": "官方 roster/profile 已确认候选身份，但尚未取得可发布的可靠官方人物照片并验证为 512×512；人物事实、教育训练和具体网络关系仍需在头像补齐时逐条映射，不能仅把名录卡片直接发布。",
+      "missingDimensions": [
+        "verified_official_512_portrait",
+        "manual_fact_to_source_mapping",
+        "specific_first_party_network_evidence"
+      ],
+      "attemptedUrls": [
+        "https://informatics.ed.ac.uk/people/academic-staff",
+        "https://informatics.ed.ac.uk/Cristina_Alexandru.html"
+      ]
+    },
+    {
+      "canonicalKey": "Europe:University of Edinburgh:dkarvind",
+      "name": "D K Arvind",
+      "institution": "University of Edinburgh",
+      "disposition": "missing_portrait",
+      "blocker": "官方 roster/profile 已确认候选身份，但尚未取得可发布的可靠官方人物照片并验证为 512×512；人物事实、教育训练和具体网络关系仍需在头像补齐时逐条映射，不能仅把名录卡片直接发布。",
+      "missingDimensions": [
+        "verified_official_512_portrait",
+        "manual_fact_to_source_mapping",
+        "specific_first_party_network_evidence"
+      ],
+      "attemptedUrls": [
+        "https://informatics.ed.ac.uk/people/academic-staff",
+        "https://informatics.ed.ac.uk/D_K_Arvind.html"
+      ]
+    },
+    {
+      "canonicalKey": "Europe:University of Edinburgh:danielwoods",
+      "name": "Daniel Woods",
+      "institution": "University of Edinburgh",
+      "disposition": "missing_portrait",
+      "blocker": "官方 roster/profile 已确认候选身份，但尚未取得可发布的可靠官方人物照片并验证为 512×512；人物事实、教育训练和具体网络关系仍需在头像补齐时逐条映射，不能仅把名录卡片直接发布。",
+      "missingDimensions": [
+        "verified_official_512_portrait",
+        "manual_fact_to_source_mapping",
+        "specific_first_party_network_evidence"
+      ],
+      "attemptedUrls": [
+        "https://informatics.ed.ac.uk/people/academic-staff",
+        "https://informatics.ed.ac.uk/Daniel_Woods.html"
+      ]
+    },
+    {
+      "canonicalKey": "Europe:University of Edinburgh:davidaspinall",
+      "name": "David Aspinall",
+      "institution": "University of Edinburgh",
+      "disposition": "missing_portrait",
+      "blocker": "官方 roster/profile 已确认候选身份，但尚未取得可发布的可靠官方人物照片并验证为 512×512；人物事实、教育训练和具体网络关系仍需在头像补齐时逐条映射，不能仅把名录卡片直接发布。",
+      "missingDimensions": [
+        "verified_official_512_portrait",
+        "manual_fact_to_source_mapping",
+        "specific_first_party_network_evidence"
+      ],
+      "attemptedUrls": [
+        "https://informatics.ed.ac.uk/people/academic-staff",
+        "https://informatics.ed.ac.uk/David_Aspinall.html"
+      ]
+    },
+    {
+      "canonicalKey": "Europe:University of Edinburgh:davidsterratt",
+      "name": "David Sterratt",
+      "institution": "University of Edinburgh",
+      "disposition": "missing_portrait",
+      "blocker": "官方 roster/profile 已确认候选身份，但尚未取得可发布的可靠官方人物照片并验证为 512×512；人物事实、教育训练和具体网络关系仍需在头像补齐时逐条映射，不能仅把名录卡片直接发布。",
+      "missingDimensions": [
+        "verified_official_512_portrait",
+        "manual_fact_to_source_mapping",
+        "specific_first_party_network_evidence"
+      ],
+      "attemptedUrls": [
+        "https://informatics.ed.ac.uk/people/academic-staff",
+        "https://informatics.ed.ac.uk/David_Sterratt.html"
+      ]
+    },
+    {
+      "canonicalKey": "Europe:University of Edinburgh:diegooyarzun",
+      "name": "Diego Oyarzun",
+      "institution": "University of Edinburgh",
+      "disposition": "missing_portrait",
+      "blocker": "官方 roster/profile 已确认候选身份，但尚未取得可发布的可靠官方人物照片并验证为 512×512；人物事实、教育训练和具体网络关系仍需在头像补齐时逐条映射，不能仅把名录卡片直接发布。",
+      "missingDimensions": [
+        "verified_official_512_portrait",
+        "manual_fact_to_source_mapping",
+        "specific_first_party_network_evidence"
+      ],
+      "attemptedUrls": [
+        "https://informatics.ed.ac.uk/people/academic-staff",
+        "https://informatics.ed.ac.uk/Diego_Oyarzun.html"
+      ]
+    },
+    {
+      "canonicalKey": "Europe:University of Edinburgh:douglasarmstrong",
+      "name": "Douglas Armstrong",
+      "institution": "University of Edinburgh",
+      "disposition": "missing_portrait",
+      "blocker": "官方 roster/profile 已确认候选身份，但尚未取得可发布的可靠官方人物照片并验证为 512×512；人物事实、教育训练和具体网络关系仍需在头像补齐时逐条映射，不能仅把名录卡片直接发布。",
+      "missingDimensions": [
+        "verified_official_512_portrait",
+        "manual_fact_to_source_mapping",
+        "specific_first_party_network_evidence"
+      ],
+      "attemptedUrls": [
+        "https://informatics.ed.ac.uk/people/academic-staff",
+        "https://informatics.ed.ac.uk/Douglas_Armstrong.html"
+      ]
+    },
+    {
+      "canonicalKey": "Europe:University of Edinburgh:eleonoradarnese",
+      "name": "Eleonora D'Arnese",
+      "institution": "University of Edinburgh",
+      "disposition": "missing_portrait",
+      "blocker": "官方 roster/profile 已确认候选身份，但尚未取得可发布的可靠官方人物照片并验证为 512×512；人物事实、教育训练和具体网络关系仍需在头像补齐时逐条映射，不能仅把名录卡片直接发布。",
+      "missingDimensions": [
+        "verified_official_512_portrait",
+        "manual_fact_to_source_mapping",
+        "specific_first_party_network_evidence"
+      ],
+      "attemptedUrls": [
+        "https://informatics.ed.ac.uk/people/academic-staff",
+        "https://informatics.ed.ac.uk/Eleonora_D'Arnese.html"
+      ]
+    },
+    {
+      "canonicalKey": "Europe:University of Edinburgh:elhamkashefi",
+      "name": "Elham Kashefi",
+      "institution": "University of Edinburgh",
+      "disposition": "missing_portrait",
+      "blocker": "官方 roster/profile 已确认候选身份，但尚未取得可发布的可靠官方人物照片并验证为 512×512；人物事实、教育训练和具体网络关系仍需在头像补齐时逐条映射，不能仅把名录卡片直接发布。",
+      "missingDimensions": [
+        "verified_official_512_portrait",
+        "manual_fact_to_source_mapping",
+        "specific_first_party_network_evidence"
+      ],
+      "attemptedUrls": [
+        "https://informatics.ed.ac.uk/people/academic-staff",
+        "https://informatics.ed.ac.uk/Elham_Kashefi.html"
+      ]
+    },
+    {
+      "canonicalKey": "Europe:University of Edinburgh:elizabethpolgreen",
+      "name": "Elizabeth Polgreen",
+      "institution": "University of Edinburgh",
+      "disposition": "missing_portrait",
+      "blocker": "官方 roster/profile 已确认候选身份，但尚未取得可发布的可靠官方人物照片并验证为 512×512；人物事实、教育训练和具体网络关系仍需在头像补齐时逐条映射，不能仅把名录卡片直接发布。",
+      "missingDimensions": [
+        "verified_official_512_portrait",
+        "manual_fact_to_source_mapping",
+        "specific_first_party_network_evidence"
+      ],
+      "attemptedUrls": [
+        "https://informatics.ed.ac.uk/people/academic-staff",
+        "https://informatics.ed.ac.uk/Elizabeth_Polgreen.html"
+      ]
+    },
+    {
+      "canonicalKey": "Europe:University of Edinburgh:esmeraldawhitammer",
+      "name": "Esmeralda Whitammer",
+      "institution": "University of Edinburgh",
+      "disposition": "missing_portrait",
+      "blocker": "官方 roster/profile 已确认候选身份，但尚未取得可发布的可靠官方人物照片并验证为 512×512；人物事实、教育训练和具体网络关系仍需在头像补齐时逐条映射，不能仅把名录卡片直接发布。",
+      "missingDimensions": [
+        "verified_official_512_portrait",
+        "manual_fact_to_source_mapping",
+        "specific_first_party_network_evidence"
+      ],
+      "attemptedUrls": [
+        "https://informatics.ed.ac.uk/people/academic-staff",
+        "https://informatics.ed.ac.uk/Esmeralda_Whitammer.html"
+      ]
+    },
+    {
+      "canonicalKey": "Europe:University of Edinburgh:fengxianghe",
+      "name": "Fengxiang He",
+      "institution": "University of Edinburgh",
+      "disposition": "missing_portrait",
+      "blocker": "官方 roster/profile 已确认候选身份，但尚未取得可发布的可靠官方人物照片并验证为 512×512；人物事实、教育训练和具体网络关系仍需在头像补齐时逐条映射，不能仅把名录卡片直接发布。",
+      "missingDimensions": [
+        "verified_official_512_portrait",
+        "manual_fact_to_source_mapping",
+        "specific_first_party_network_evidence"
+      ],
+      "attemptedUrls": [
+        "https://informatics.ed.ac.uk/people/academic-staff",
+        "https://informatics.ed.ac.uk/Fengxiang_He.html"
+      ]
+    },
+    {
+      "canonicalKey": "Europe:University of Edinburgh:fionamcneill",
+      "name": "Fiona McNeill",
+      "institution": "University of Edinburgh",
+      "disposition": "missing_portrait",
+      "blocker": "官方 roster/profile 已确认候选身份，但尚未取得可发布的可靠官方人物照片并验证为 512×512；人物事实、教育训练和具体网络关系仍需在头像补齐时逐条映射，不能仅把名录卡片直接发布。",
+      "missingDimensions": [
+        "verified_official_512_portrait",
+        "manual_fact_to_source_mapping",
+        "specific_first_party_network_evidence"
+      ],
+      "attemptedUrls": [
+        "https://informatics.ed.ac.uk/people/academic-staff",
+        "https://informatics.ed.ac.uk/Fiona_McNeill.html"
+      ]
+    },
+    {
+      "canonicalKey": "Europe:University of Edinburgh:frankkeller",
+      "name": "Frank Keller",
+      "institution": "University of Edinburgh",
+      "disposition": "missing_portrait",
+      "blocker": "官方 roster/profile 已确认候选身份，但尚未取得可发布的可靠官方人物照片并验证为 512×512；人物事实、教育训练和具体网络关系仍需在头像补齐时逐条映射，不能仅把名录卡片直接发布。",
+      "missingDimensions": [
+        "verified_official_512_portrait",
+        "manual_fact_to_source_mapping",
+        "specific_first_party_network_evidence"
+      ],
+      "attemptedUrls": [
+        "https://informatics.ed.ac.uk/people/academic-staff",
+        "https://informatics.ed.ac.uk/Frank_Keller.html"
+      ]
+    },
+    {
+      "canonicalKey": "Europe:University of Edinburgh:haotang",
+      "name": "Hao Tang",
+      "institution": "University of Edinburgh",
+      "disposition": "missing_portrait",
+      "blocker": "官方 roster/profile 已确认候选身份，但尚未取得可发布的可靠官方人物照片并验证为 512×512；人物事实、教育训练和具体网络关系仍需在头像补齐时逐条映射，不能仅把名录卡片直接发布。",
+      "missingDimensions": [
+        "verified_official_512_portrait",
+        "manual_fact_to_source_mapping",
+        "specific_first_party_network_evidence"
+      ],
+      "attemptedUrls": [
+        "https://informatics.ed.ac.uk/people/academic-staff",
+        "https://informatics.ed.ac.uk/Hao_Tang.html"
+      ]
+    },
+    {
+      "canonicalKey": "Europe:University of Edinburgh:hesun",
+      "name": "He Sun",
+      "institution": "University of Edinburgh",
+      "disposition": "missing_portrait",
+      "blocker": "官方 roster/profile 已确认候选身份，但尚未取得可发布的可靠官方人物照片并验证为 512×512；人物事实、教育训练和具体网络关系仍需在头像补齐时逐条映射，不能仅把名录卡片直接发布。",
+      "missingDimensions": [
+        "verified_official_512_portrait",
+        "manual_fact_to_source_mapping",
+        "specific_first_party_network_evidence"
+      ],
+      "attemptedUrls": [
+        "https://informatics.ed.ac.uk/people/academic-staff",
+        "https://informatics.ed.ac.uk/He_Sun.html"
+      ]
+    },
+    {
+      "canonicalKey": "Europe:University of Edinburgh:heatheryorston",
+      "name": "Heather Yorston",
+      "institution": "University of Edinburgh",
+      "disposition": "missing_portrait",
+      "blocker": "官方 roster/profile 已确认候选身份，但尚未取得可发布的可靠官方人物照片并验证为 512×512；人物事实、教育训练和具体网络关系仍需在头像补齐时逐条映射，不能仅把名录卡片直接发布。",
+      "missingDimensions": [
+        "verified_official_512_portrait",
+        "manual_fact_to_source_mapping",
+        "specific_first_party_network_evidence"
+      ],
+      "attemptedUrls": [
+        "https://informatics.ed.ac.uk/people/academic-staff",
+        "https://informatics.ed.ac.uk/Heather_Yorston.html"
+      ]
+    },
+    {
+      "canonicalKey": "Europe:University of Edinburgh:hengguo",
+      "name": "Heng Guo",
+      "institution": "University of Edinburgh",
+      "disposition": "missing_portrait",
+      "blocker": "官方 roster/profile 已确认候选身份，但尚未取得可发布的可靠官方人物照片并验证为 512×512；人物事实、教育训练和具体网络关系仍需在头像补齐时逐条映射，不能仅把名录卡片直接发布。",
+      "missingDimensions": [
+        "verified_official_512_portrait",
+        "manual_fact_to_source_mapping",
+        "specific_first_party_network_evidence"
+      ],
+      "attemptedUrls": [
+        "https://informatics.ed.ac.uk/people/academic-staff",
+        "https://informatics.ed.ac.uk/Heng_Guo.html"
+      ]
+    },
+    {
+      "canonicalKey": "Europe:University of Edinburgh:henrygouk",
+      "name": "Henry Gouk",
+      "institution": "University of Edinburgh",
+      "disposition": "missing_portrait",
+      "blocker": "官方 roster/profile 已确认候选身份，但尚未取得可发布的可靠官方人物照片并验证为 512×512；人物事实、教育训练和具体网络关系仍需在头像补齐时逐条映射，不能仅把名录卡片直接发布。",
+      "missingDimensions": [
+        "verified_official_512_portrait",
+        "manual_fact_to_source_mapping",
+        "specific_first_party_network_evidence"
+      ],
+      "attemptedUrls": [
+        "https://informatics.ed.ac.uk/people/academic-staff",
+        "https://informatics.ed.ac.uk/Henry_Gouk.html"
+      ]
+    },
+    {
+      "canonicalKey": "Europe:University of Edinburgh:henrythompson",
+      "name": "Henry Thompson",
+      "institution": "University of Edinburgh",
+      "disposition": "missing_portrait",
+      "blocker": "官方 roster/profile 已确认候选身份，但尚未取得可发布的可靠官方人物照片并验证为 512×512；人物事实、教育训练和具体网络关系仍需在头像补齐时逐条映射，不能仅把名录卡片直接发布。",
+      "missingDimensions": [
+        "verified_official_512_portrait",
+        "manual_fact_to_source_mapping",
+        "specific_first_party_network_evidence"
+      ],
+      "attemptedUrls": [
+        "https://informatics.ed.ac.uk/people/academic-staff",
+        "https://informatics.ed.ac.uk/Henry_Thompson.html"
+      ]
+    },
+    {
+      "canonicalKey": "Europe:University of Edinburgh:iansimpson",
+      "name": "Ian Simpson",
+      "institution": "University of Edinburgh",
+      "disposition": "missing_portrait",
+      "blocker": "官方 roster/profile 已确认候选身份，但尚未取得可发布的可靠官方人物照片并验证为 512×512；人物事实、教育训练和具体网络关系仍需在头像补齐时逐条映射，不能仅把名录卡片直接发布。",
+      "missingDimensions": [
+        "verified_official_512_portrait",
+        "manual_fact_to_source_mapping",
+        "specific_first_party_network_evidence"
+      ],
+      "attemptedUrls": [
+        "https://informatics.ed.ac.uk/people/academic-staff",
+        "https://informatics.ed.ac.uk/Ian_Simpson.html"
+      ]
+    },
+    {
+      "canonicalKey": "Europe:University of Edinburgh:ianstark",
+      "name": "Ian Stark",
+      "institution": "University of Edinburgh",
+      "disposition": "missing_portrait",
+      "blocker": "官方 roster/profile 已确认候选身份，但尚未取得可发布的可靠官方人物照片并验证为 512×512；人物事实、教育训练和具体网络关系仍需在头像补齐时逐条映射，不能仅把名录卡片直接发布。",
+      "missingDimensions": [
+        "verified_official_512_portrait",
+        "manual_fact_to_source_mapping",
+        "specific_first_party_network_evidence"
+      ],
+      "attemptedUrls": [
+        "https://informatics.ed.ac.uk/people/academic-staff",
+        "https://informatics.ed.ac.uk/Ian_Stark.html"
+      ]
+    },
+    {
+      "canonicalKey": "Europe:University of Edinburgh:igorgoryanin",
+      "name": "Igor Goryanin",
+      "institution": "University of Edinburgh",
+      "disposition": "missing_portrait",
+      "blocker": "官方 roster/profile 已确认候选身份，但尚未取得可发布的可靠官方人物照片并验证为 512×512；人物事实、教育训练和具体网络关系仍需在头像补齐时逐条映射，不能仅把名录卡片直接发布。",
+      "missingDimensions": [
+        "verified_official_512_portrait",
+        "manual_fact_to_source_mapping",
+        "specific_first_party_network_evidence"
+      ],
+      "attemptedUrls": [
+        "https://informatics.ed.ac.uk/people/academic-staff",
+        "https://informatics.ed.ac.uk/Igor_Goryanin.html"
+      ]
+    },
+    {
+      "canonicalKey": "Europe:University of Edinburgh:jacksonwoodruff",
+      "name": "Jackson Woodruff",
+      "institution": "University of Edinburgh",
+      "disposition": "missing_portrait",
+      "blocker": "官方 roster/profile 已确认候选身份，但尚未取得可发布的可靠官方人物照片并验证为 512×512；人物事实、教育训练和具体网络关系仍需在头像补齐时逐条映射，不能仅把名录卡片直接发布。",
+      "missingDimensions": [
+        "verified_official_512_portrait",
+        "manual_fact_to_source_mapping",
+        "specific_first_party_network_evidence"
+      ],
+      "attemptedUrls": [
+        "https://informatics.ed.ac.uk/people/academic-staff",
+        "https://informatics.ed.ac.uk/Jackson_Woodruff.html"
+      ]
+    },
+    {
+      "canonicalKey": "Europe:University of Edinburgh:jacquesfleuriot",
+      "name": "Jacques Fleuriot",
+      "institution": "University of Edinburgh",
+      "disposition": "missing_portrait",
+      "blocker": "官方 roster/profile 已确认候选身份，但尚未取得可发布的可靠官方人物照片并验证为 512×512；人物事实、教育训练和具体网络关系仍需在头像补齐时逐条映射，不能仅把名录卡片直接发布。",
+      "missingDimensions": [
+        "verified_official_512_portrait",
+        "manual_fact_to_source_mapping",
+        "specific_first_party_network_evidence"
+      ],
+      "attemptedUrls": [
+        "https://informatics.ed.ac.uk/people/academic-staff",
+        "https://informatics.ed.ac.uk/Jacques_Fleuriot.html"
+      ]
+    },
+    {
+      "canonicalKey": "Europe:University of Edinburgh:jamescheney",
+      "name": "James Cheney",
+      "institution": "University of Edinburgh",
+      "disposition": "missing_portrait",
+      "blocker": "官方 roster/profile 已确认候选身份，但尚未取得可发布的可靠官方人物照片并验证为 512×512；人物事实、教育训练和具体网络关系仍需在头像补齐时逐条映射，不能仅把名录卡片直接发布。",
+      "missingDimensions": [
+        "verified_official_512_portrait",
+        "manual_fact_to_source_mapping",
+        "specific_first_party_network_evidence"
+      ],
+      "attemptedUrls": [
+        "https://informatics.ed.ac.uk/people/academic-staff",
+        "https://informatics.ed.ac.uk/James_Cheney.html"
+      ]
+    },
+    {
+      "canonicalKey": "Europe:University of Edinburgh:jamesgarforth",
+      "name": "James Garforth",
+      "institution": "University of Edinburgh",
+      "disposition": "missing_portrait",
+      "blocker": "官方 roster/profile 已确认候选身份，但尚未取得可发布的可靠官方人物照片并验证为 512×512；人物事实、教育训练和具体网络关系仍需在头像补齐时逐条映射，不能仅把名录卡片直接发布。",
+      "missingDimensions": [
+        "verified_official_512_portrait",
+        "manual_fact_to_source_mapping",
+        "specific_first_party_network_evidence"
+      ],
+      "attemptedUrls": [
+        "https://informatics.ed.ac.uk/people/academic-staff",
+        "https://informatics.ed.ac.uk/James_Garforth.html"
+      ]
+    },
+    {
+      "canonicalKey": "Europe:University of Edinburgh:jeffdalton",
+      "name": "Jeff Dalton",
+      "institution": "University of Edinburgh",
+      "disposition": "missing_portrait",
+      "blocker": "官方 roster/profile 已确认候选身份，但尚未取得可发布的可靠官方人物照片并验证为 512×512；人物事实、教育训练和具体网络关系仍需在头像补齐时逐条映射，不能仅把名录卡片直接发布。",
+      "missingDimensions": [
+        "verified_official_512_portrait",
+        "manual_fact_to_source_mapping",
+        "specific_first_party_network_evidence"
+      ],
+      "attemptedUrls": [
+        "https://informatics.ed.ac.uk/people/academic-staff",
+        "https://informatics.ed.ac.uk/Jeff_Dalton.html"
+      ]
+    },
+    {
+      "canonicalKey": "Europe:University of Edinburgh:jeffpan",
+      "name": "Jeff Pan",
+      "institution": "University of Edinburgh",
+      "disposition": "missing_portrait",
+      "blocker": "官方 roster/profile 已确认候选身份，但尚未取得可发布的可靠官方人物照片并验证为 512×512；人物事实、教育训练和具体网络关系仍需在头像补齐时逐条映射，不能仅把名录卡片直接发布。",
+      "missingDimensions": [
+        "verified_official_512_portrait",
+        "manual_fact_to_source_mapping",
+        "specific_first_party_network_evidence"
+      ],
+      "attemptedUrls": [
+        "https://informatics.ed.ac.uk/people/academic-staff",
+        "https://informatics.ed.ac.uk/Jeff_Pan.html"
+      ]
+    },
+    {
+      "canonicalKey": "Europe:University of Edinburgh:jianyicheng",
+      "name": "Jianyi Cheng",
+      "institution": "University of Edinburgh",
+      "disposition": "missing_portrait",
+      "blocker": "官方 roster/profile 已确认候选身份，但尚未取得可发布的可靠官方人物照片并验证为 512×512；人物事实、教育训练和具体网络关系仍需在头像补齐时逐条映射，不能仅把名录卡片直接发布。",
+      "missingDimensions": [
+        "verified_official_512_portrait",
+        "manual_fact_to_source_mapping",
+        "specific_first_party_network_evidence"
+      ],
+      "attemptedUrls": [
+        "https://informatics.ed.ac.uk/people/academic-staff",
+        "https://informatics.ed.ac.uk/Jianyi_Cheng.html"
+      ]
+    },
+    {
+      "canonicalKey": "Europe:University of Edinburgh:jingjieli",
+      "name": "Jingjie Li",
+      "institution": "University of Edinburgh",
+      "disposition": "missing_portrait",
+      "blocker": "官方 roster/profile 已确认候选身份，但尚未取得可发布的可靠官方人物照片并验证为 512×512；人物事实、教育训练和具体网络关系仍需在头像补齐时逐条映射，不能仅把名录卡片直接发布。",
+      "missingDimensions": [
+        "verified_official_512_portrait",
+        "manual_fact_to_source_mapping",
+        "specific_first_party_network_evidence"
+      ],
+      "attemptedUrls": [
+        "https://informatics.ed.ac.uk/people/academic-staff",
+        "https://informatics.ed.ac.uk/Jingjie_Li.html"
+      ]
+    },
+    {
+      "canonicalKey": "Europe:University of Edinburgh:johnlongley",
+      "name": "John Longley",
+      "institution": "University of Edinburgh",
+      "disposition": "missing_portrait",
+      "blocker": "官方 roster/profile 已确认候选身份，但尚未取得可发布的可靠官方人物照片并验证为 512×512；人物事实、教育训练和具体网络关系仍需在头像补齐时逐条映射，不能仅把名录卡片直接发布。",
+      "missingDimensions": [
+        "verified_official_512_portrait",
+        "manual_fact_to_source_mapping",
+        "specific_first_party_network_evidence"
+      ],
+      "attemptedUrls": [
+        "https://informatics.ed.ac.uk/people/academic-staff",
+        "https://informatics.ed.ac.uk/John_Longley.html"
+      ]
+    },
+    {
+      "canonicalKey": "Europe:University of Edinburgh:johnvines",
+      "name": "John Vines",
+      "institution": "University of Edinburgh",
+      "disposition": "missing_portrait",
+      "blocker": "官方 roster/profile 已确认候选身份，但尚未取得可发布的可靠官方人物照片并验证为 512×512；人物事实、教育训练和具体网络关系仍需在头像补齐时逐条映射，不能仅把名录卡片直接发布。",
+      "missingDimensions": [
+        "verified_official_512_portrait",
+        "manual_fact_to_source_mapping",
+        "specific_first_party_network_evidence"
+      ],
+      "attemptedUrls": [
+        "https://informatics.ed.ac.uk/people/academic-staff",
+        "https://informatics.ed.ac.uk/John_Vines.html"
+      ]
+    },
+    {
+      "canonicalKey": "Europe:University of Edinburgh:joschkaroffe",
+      "name": "Joschka Roffe",
+      "institution": "University of Edinburgh",
+      "disposition": "missing_portrait",
+      "blocker": "官方 roster/profile 已确认候选身份，但尚未取得可发布的可靠官方人物照片并验证为 512×512；人物事实、教育训练和具体网络关系仍需在头像补齐时逐条映射，不能仅把名录卡片直接发布。",
+      "missingDimensions": [
+        "verified_official_512_portrait",
+        "manual_fact_to_source_mapping",
+        "specific_first_party_network_evidence"
+      ],
+      "attemptedUrls": [
+        "https://informatics.ed.ac.uk/people/academic-staff",
+        "https://informatics.ed.ac.uk/Joschka_Roffe.html"
+      ]
+    },
+    {
+      "canonicalKey": "Europe:University of Edinburgh:judyrobertson",
+      "name": "Judy Robertson",
+      "institution": "University of Edinburgh",
+      "disposition": "missing_portrait",
+      "blocker": "官方 roster/profile 已确认候选身份，但尚未取得可发布的可靠官方人物照片并验证为 512×512；人物事实、教育训练和具体网络关系仍需在头像补齐时逐条映射，不能仅把名录卡片直接发布。",
+      "missingDimensions": [
+        "verified_official_512_portrait",
+        "manual_fact_to_source_mapping",
+        "specific_first_party_network_evidence"
+      ],
+      "attemptedUrls": [
+        "https://informatics.ed.ac.uk/people/academic-staff",
+        "https://informatics.ed.ac.uk/Judy_Robertson.html"
+      ]
+    },
+    {
+      "canonicalKey": "Europe:University of Edinburgh:julianbradfield",
+      "name": "Julian Bradfield",
+      "institution": "University of Edinburgh",
+      "disposition": "missing_portrait",
+      "blocker": "官方 roster/profile 已确认候选身份，但尚未取得可发布的可靠官方人物照片并验证为 512×512；人物事实、教育训练和具体网络关系仍需在头像补齐时逐条映射，不能仅把名录卡片直接发布。",
+      "missingDimensions": [
+        "verified_official_512_portrait",
+        "manual_fact_to_source_mapping",
+        "specific_first_party_network_evidence"
+      ],
+      "attemptedUrls": [
+        "https://informatics.ed.ac.uk/people/academic-staff",
+        "https://informatics.ed.ac.uk/Julian_Bradfield.html"
+      ]
+    },
+    {
+      "canonicalKey": "Europe:University of Edinburgh:karticsubr",
+      "name": "Kartic Subr",
+      "institution": "University of Edinburgh",
+      "disposition": "missing_portrait",
+      "blocker": "官方 roster/profile 已确认候选身份，但尚未取得可发布的可靠官方人物照片并验证为 512×512；人物事实、教育训练和具体网络关系仍需在头像补齐时逐条映射，不能仅把名录卡片直接发布。",
+      "missingDimensions": [
+        "verified_official_512_portrait",
+        "manual_fact_to_source_mapping",
+        "specific_first_party_network_evidence"
+      ],
+      "attemptedUrls": [
+        "https://informatics.ed.ac.uk/people/academic-staff",
+        "https://informatics.ed.ac.uk/Kartic_Subr.html"
+      ]
+    },
+    {
+      "canonicalKey": "Europe:University of Edinburgh:kianazarpour",
+      "name": "Kia Nazarpour",
+      "institution": "University of Edinburgh",
+      "disposition": "missing_portrait",
+      "blocker": "官方 roster/profile 已确认候选身份，但尚未取得可发布的可靠官方人物照片并验证为 512×512；人物事实、教育训练和具体网络关系仍需在头像补齐时逐条映射，不能仅把名录卡片直接发布。",
+      "missingDimensions": [
+        "verified_official_512_portrait",
+        "manual_fact_to_source_mapping",
+        "specific_first_party_network_evidence"
+      ],
+      "attemptedUrls": [
+        "https://informatics.ed.ac.uk/people/academic-staff",
+        "https://informatics.ed.ac.uk/Kia_Nazarpour.html"
+      ]
+    },
+    {
+      "canonicalKey": "Europe:University of Edinburgh:kobigal",
+      "name": "Kobi Gal",
+      "institution": "University of Edinburgh",
+      "disposition": "missing_portrait",
+      "blocker": "官方 roster/profile 已确认候选身份，但尚未取得可发布的可靠官方人物照片并验证为 512×512；人物事实、教育训练和具体网络关系仍需在头像补齐时逐条映射，不能仅把名录卡片直接发布。",
+      "missingDimensions": [
+        "verified_official_512_portrait",
+        "manual_fact_to_source_mapping",
+        "specific_first_party_network_evidence"
+      ],
+      "attemptedUrls": [
+        "https://informatics.ed.ac.uk/people/academic-staff",
+        "https://informatics.ed.ac.uk/Kobi_Gal.html"
+      ]
+    },
+    {
+      "canonicalKey": "Europe:University of Edinburgh:korinrichmond",
+      "name": "Korin Richmond",
+      "institution": "University of Edinburgh",
+      "disposition": "missing_portrait",
+      "blocker": "官方 roster/profile 已确认候选身份，但尚未取得可发布的可靠官方人物照片并验证为 512×512；人物事实、教育训练和具体网络关系仍需在头像补齐时逐条映射，不能仅把名录卡片直接发布。",
+      "missingDimensions": [
+        "verified_official_512_portrait",
+        "manual_fact_to_source_mapping",
+        "specific_first_party_network_evidence"
+      ],
+      "attemptedUrls": [
+        "https://informatics.ed.ac.uk/people/academic-staff",
+        "https://informatics.ed.ac.uk/Korin_Richmond.html"
+      ]
+    },
+    {
+      "canonicalKey": "Europe:University of Edinburgh:koushaetessami",
+      "name": "Kousha Etessami",
+      "institution": "University of Edinburgh",
+      "disposition": "missing_portrait",
+      "blocker": "官方 roster/profile 已确认候选身份，但尚未取得可发布的可靠官方人物照片并验证为 512×512；人物事实、教育训练和具体网络关系仍需在头像补齐时逐条映射，不能仅把名录卡片直接发布。",
+      "missingDimensions": [
+        "verified_official_512_portrait",
+        "manual_fact_to_source_mapping",
+        "specific_first_party_network_evidence"
+      ],
+      "attemptedUrls": [
+        "https://informatics.ed.ac.uk/people/academic-staff",
+        "https://informatics.ed.ac.uk/Kousha_Etessami.html"
+      ]
+    },
+    {
+      "canonicalKey": "Europe:University of Edinburgh:laurasevillalara",
+      "name": "Laura Sevilla-Lara",
+      "institution": "University of Edinburgh",
+      "disposition": "missing_portrait",
+      "blocker": "官方 roster/profile 已确认候选身份，但尚未取得可发布的可靠官方人物照片并验证为 512×512；人物事实、教育训练和具体网络关系仍需在头像补齐时逐条映射，不能仅把名录卡片直接发布。",
+      "missingDimensions": [
+        "verified_official_512_portrait",
+        "manual_fact_to_source_mapping",
+        "specific_first_party_network_evidence"
+      ],
+      "attemptedUrls": [
+        "https://informatics.ed.ac.uk/people/academic-staff",
+        "https://informatics.ed.ac.uk/Laura_Sevilla-Lara.html"
+      ]
+    },
+    {
+      "canonicalKey": "Europe:University of Edinburgh:leonidlibkin",
+      "name": "Leonid Libkin",
+      "institution": "University of Edinburgh",
+      "disposition": "missing_portrait",
+      "blocker": "官方 roster/profile 已确认候选身份，但尚未取得可发布的可靠官方人物照片并验证为 512×512；人物事实、教育训练和具体网络关系仍需在头像补齐时逐条映射，不能仅把名录卡片直接发布。",
+      "missingDimensions": [
+        "verified_official_512_portrait",
+        "manual_fact_to_source_mapping",
+        "specific_first_party_network_evidence"
+      ],
+      "attemptedUrls": [
+        "https://informatics.ed.ac.uk/people/academic-staff",
+        "https://informatics.ed.ac.uk/Leonid_Libkin.html"
+      ]
+    },
+    {
+      "canonicalKey": "Europe:University of Edinburgh:liangzhao",
+      "name": "Liang Zhao",
+      "institution": "University of Edinburgh",
+      "disposition": "missing_portrait",
+      "blocker": "官方 roster/profile 已确认候选身份，但尚未取得可发布的可靠官方人物照片并验证为 512×512；人物事实、教育训练和具体网络关系仍需在头像补齐时逐条映射，不能仅把名录卡片直接发布。",
+      "missingDimensions": [
+        "verified_official_512_portrait",
+        "manual_fact_to_source_mapping",
+        "specific_first_party_network_evidence"
+      ],
+      "attemptedUrls": [
+        "https://informatics.ed.ac.uk/people/academic-staff",
+        "https://informatics.ed.ac.uk/Liang_Zhao.html"
+      ]
+    },
+    {
+      "canonicalKey": "Europe:University of Edinburgh:luomai",
+      "name": "Luo Mai",
+      "institution": "University of Edinburgh",
+      "disposition": "missing_portrait",
+      "blocker": "官方 roster/profile 已确认候选身份，但尚未取得可发布的可靠官方人物照片并验证为 512×512；人物事实、教育训练和具体网络关系仍需在头像补齐时逐条映射，不能仅把名录卡片直接发布。",
+      "missingDimensions": [
+        "verified_official_512_portrait",
+        "manual_fact_to_source_mapping",
+        "specific_first_party_network_evidence"
+      ],
+      "attemptedUrls": [
+        "https://informatics.ed.ac.uk/people/academic-staff",
+        "https://informatics.ed.ac.uk/Luo_Mai.html"
+      ]
+    },
+    {
+      "canonicalKey": "Europe:University of Edinburgh:maheshmarina",
+      "name": "Mahesh Marina",
+      "institution": "University of Edinburgh",
+      "disposition": "missing_portrait",
+      "blocker": "官方 roster/profile 已确认候选身份，但尚未取得可发布的可靠官方人物照片并验证为 512×512；人物事实、教育训练和具体网络关系仍需在头像补齐时逐条映射，不能仅把名录卡片直接发布。",
+      "missingDimensions": [
+        "verified_official_512_portrait",
+        "manual_fact_to_source_mapping",
+        "specific_first_party_network_evidence"
+      ],
+      "attemptedUrls": [
+        "https://informatics.ed.ac.uk/people/academic-staff",
+        "https://informatics.ed.ac.uk/Mahesh_Marina.html"
+      ]
+    },
+    {
+      "canonicalKey": "Europe:University of Edinburgh:maithileekunda",
+      "name": "Maithilee Kunda",
+      "institution": "University of Edinburgh",
+      "disposition": "missing_portrait",
+      "blocker": "官方 roster/profile 已确认候选身份，但尚未取得可发布的可靠官方人物照片并验证为 512×512；人物事实、教育训练和具体网络关系仍需在头像补齐时逐条映射，不能仅把名录卡片直接发布。",
+      "missingDimensions": [
+        "verified_official_512_portrait",
+        "manual_fact_to_source_mapping",
+        "specific_first_party_network_evidence"
+      ],
+      "attemptedUrls": [
+        "https://informatics.ed.ac.uk/people/academic-staff",
+        "https://informatics.ed.ac.uk/Maithilee_Kunda.html"
+      ]
+    },
+    {
+      "canonicalKey": "Europe:University of Edinburgh:marcjuarezmiro",
+      "name": "Marc Juarez Miro",
+      "institution": "University of Edinburgh",
+      "disposition": "missing_portrait",
+      "blocker": "官方 roster/profile 已确认候选身份，但尚未取得可发布的可靠官方人物照片并验证为 512×512；人物事实、教育训练和具体网络关系仍需在头像补齐时逐条映射，不能仅把名录卡片直接发布。",
+      "missingDimensions": [
+        "verified_official_512_portrait",
+        "manual_fact_to_source_mapping",
+        "specific_first_party_network_evidence"
+      ],
+      "attemptedUrls": [
+        "https://informatics.ed.ac.uk/people/academic-staff",
+        "https://informatics.ed.ac.uk/Marc_Juarez_Miro.html"
+      ]
+    },
+    {
+      "canonicalKey": "Europe:University of Edinburgh:markulfkohlweiss",
+      "name": "Markulf Kohlweiss",
+      "institution": "University of Edinburgh",
+      "disposition": "missing_portrait",
+      "blocker": "官方 roster/profile 已确认候选身份，但尚未取得可发布的可靠官方人物照片并验证为 512×512；人物事实、教育训练和具体网络关系仍需在头像补齐时逐条映射，不能仅把名录卡片直接发布。",
+      "missingDimensions": [
+        "verified_official_512_portrait",
+        "manual_fact_to_source_mapping",
+        "specific_first_party_network_evidence"
+      ],
+      "attemptedUrls": [
+        "https://informatics.ed.ac.uk/people/academic-staff",
+        "https://informatics.ed.ac.uk/Markulf_Kohlweiss.html"
+      ]
+    },
+    {
+      "canonicalKey": "Europe:University of Edinburgh:marycryan",
+      "name": "Mary Cryan",
+      "institution": "University of Edinburgh",
+      "disposition": "missing_portrait",
+      "blocker": "官方 roster/profile 已确认候选身份，但尚未取得可发布的可靠官方人物照片并验证为 512×512；人物事实、教育训练和具体网络关系仍需在头像补齐时逐条映射，不能仅把名录卡片直接发布。",
+      "missingDimensions": [
+        "verified_official_512_portrait",
+        "manual_fact_to_source_mapping",
+        "specific_first_party_network_evidence"
+      ],
+      "attemptedUrls": [
+        "https://informatics.ed.ac.uk/people/academic-staff",
+        "https://informatics.ed.ac.uk/Mary_Cryan.html"
+      ]
+    },
+    {
+      "canonicalKey": "Europe:University of Edinburgh:matteodegiacomi",
+      "name": "Matteo Degiacomi",
+      "institution": "University of Edinburgh",
+      "disposition": "missing_portrait",
+      "blocker": "官方 roster/profile 已确认候选身份，但尚未取得可发布的可靠官方人物照片并验证为 512×512；人物事实、教育训练和具体网络关系仍需在头像补齐时逐条映射，不能仅把名录卡片直接发布。",
+      "missingDimensions": [
+        "verified_official_512_portrait",
+        "manual_fact_to_source_mapping",
+        "specific_first_party_network_evidence"
+      ],
+      "attemptedUrls": [
+        "https://informatics.ed.ac.uk/people/academic-staff",
+        "https://informatics.ed.ac.uk/Matteo_Degiacomi.html"
+      ]
+    },
+    {
+      "canonicalKey": "Europe:University of Edinburgh:matthiashennig",
+      "name": "Matthias Hennig",
+      "institution": "University of Edinburgh",
+      "disposition": "missing_portrait",
+      "blocker": "官方 roster/profile 已确认候选身份，但尚未取得可发布的可靠官方人物照片并验证为 512×512；人物事实、教育训练和具体网络关系仍需在头像补齐时逐条映射，不能仅把名录卡片直接发布。",
+      "missingDimensions": [
+        "verified_official_512_portrait",
+        "manual_fact_to_source_mapping",
+        "specific_first_party_network_evidence"
+      ],
+      "attemptedUrls": [
+        "https://informatics.ed.ac.uk/people/academic-staff",
+        "https://informatics.ed.ac.uk/Matthias_Hennig.html"
+      ]
+    },
+    {
+      "canonicalKey": "Europe:University of Edinburgh:michaelgutmann",
+      "name": "Michael Gutmann",
+      "institution": "University of Edinburgh",
+      "disposition": "missing_portrait",
+      "blocker": "官方 roster/profile 已确认候选身份，但尚未取得可发布的可靠官方人物照片并验证为 512×512；人物事实、教育训练和具体网络关系仍需在头像补齐时逐条映射，不能仅把名录卡片直接发布。",
+      "missingDimensions": [
+        "verified_official_512_portrait",
+        "manual_fact_to_source_mapping",
+        "specific_first_party_network_evidence"
+      ],
+      "attemptedUrls": [
+        "https://informatics.ed.ac.uk/people/academic-staff",
+        "https://informatics.ed.ac.uk/Michael_Gutmann.html"
+      ]
+    },
+    {
+      "canonicalKey": "Europe:University of Edinburgh:michaelmistry",
+      "name": "Michael Mistry",
+      "institution": "University of Edinburgh",
+      "disposition": "missing_portrait",
+      "blocker": "官方 roster/profile 已确认候选身份，但尚未取得可发布的可靠官方人物照片并验证为 512×512；人物事实、教育训练和具体网络关系仍需在头像补齐时逐条映射，不能仅把名录卡片直接发布。",
+      "missingDimensions": [
+        "verified_official_512_portrait",
+        "manual_fact_to_source_mapping",
+        "specific_first_party_network_evidence"
+      ],
+      "attemptedUrls": [
+        "https://informatics.ed.ac.uk/people/academic-staff",
+        "https://informatics.ed.ac.uk/Michael_Mistry.html"
+      ]
+    },
+    {
+      "canonicalKey": "Europe:University of Edinburgh:michaeloboyle",
+      "name": "Michael O'Boyle",
+      "institution": "University of Edinburgh",
+      "disposition": "missing_portrait",
+      "blocker": "官方 roster/profile 已确认候选身份，但尚未取得可发布的可靠官方人物照片并验证为 512×512；人物事实、教育训练和具体网络关系仍需在头像补齐时逐条映射，不能仅把名录卡片直接发布。",
+      "missingDimensions": [
+        "verified_official_512_portrait",
+        "manual_fact_to_source_mapping",
+        "specific_first_party_network_evidence"
+      ],
+      "attemptedUrls": [
+        "https://informatics.ed.ac.uk/people/academic-staff",
+        "https://informatics.ed.ac.uk/Michael_O'Boyle.html"
+      ]
+    },
+    {
+      "canonicalKey": "Europe:University of Edinburgh:michaelrovatsos",
+      "name": "Michael Rovatsos",
+      "institution": "University of Edinburgh",
+      "disposition": "missing_portrait",
+      "blocker": "官方 roster/profile 已确认候选身份，但尚未取得可发布的可靠官方人物照片并验证为 512×512；人物事实、教育训练和具体网络关系仍需在头像补齐时逐条映射，不能仅把名录卡片直接发布。",
+      "missingDimensions": [
+        "verified_official_512_portrait",
+        "manual_fact_to_source_mapping",
+        "specific_first_party_network_evidence"
+      ],
+      "attemptedUrls": [
+        "https://informatics.ed.ac.uk/people/academic-staff",
+        "https://informatics.ed.ac.uk/Michael_Rovatsos.html"
+      ]
+    },
+    {
+      "canonicalKey": "Europe:University of Edinburgh:micheleciampi",
+      "name": "Michele Ciampi",
+      "institution": "University of Edinburgh",
+      "disposition": "missing_portrait",
+      "blocker": "官方 roster/profile 已确认候选身份，但尚未取得可发布的可靠官方人物照片并验证为 512×512；人物事实、教育训练和具体网络关系仍需在头像补齐时逐条映射，不能仅把名录卡片直接发布。",
+      "missingDimensions": [
+        "verified_official_512_portrait",
+        "manual_fact_to_source_mapping",
+        "specific_first_party_network_evidence"
+      ],
+      "attemptedUrls": [
+        "https://informatics.ed.ac.uk/people/academic-staff",
+        "https://informatics.ed.ac.uk/Michele_Ciampi.html"
+      ]
+    },
+    {
+      "canonicalKey": "Europe:University of Edinburgh:michiohonda",
+      "name": "Michio Honda",
+      "institution": "University of Edinburgh",
+      "disposition": "missing_portrait",
+      "blocker": "官方 roster/profile 已确认候选身份，但尚未取得可发布的可靠官方人物照片并验证为 512×512；人物事实、教育训练和具体网络关系仍需在头像补齐时逐条映射，不能仅把名录卡片直接发布。",
+      "missingDimensions": [
+        "verified_official_512_portrait",
+        "manual_fact_to_source_mapping",
+        "specific_first_party_network_evidence"
+      ],
+      "attemptedUrls": [
+        "https://informatics.ed.ac.uk/people/academic-staff",
+        "https://informatics.ed.ac.uk/Michio_Honda.html"
+      ]
+    },
+    {
+      "canonicalKey": "Europe:University of Edinburgh:milosnikolic",
+      "name": "Milos Nikolic",
+      "institution": "University of Edinburgh",
+      "disposition": "missing_portrait",
+      "blocker": "官方 roster/profile 已确认候选身份，但尚未取得可发布的可靠官方人物照片并验证为 512×512；人物事实、教育训练和具体网络关系仍需在头像补齐时逐条映射，不能仅把名录卡片直接发布。",
+      "missingDimensions": [
+        "verified_official_512_portrait",
+        "manual_fact_to_source_mapping",
+        "specific_first_party_network_evidence"
+      ],
+      "attemptedUrls": [
+        "https://informatics.ed.ac.uk/people/academic-staff",
+        "https://informatics.ed.ac.uk/Milos_Nikolic.html"
+      ]
+    },
+    {
+      "canonicalKey": "Europe:University of Edinburgh:minadoosti",
+      "name": "Mina Doosti",
+      "institution": "University of Edinburgh",
+      "disposition": "missing_portrait",
+      "blocker": "官方 roster/profile 已确认候选身份，但尚未取得可发布的可靠官方人物照片并验证为 512×512；人物事实、教育训练和具体网络关系仍需在头像补齐时逐条映射，不能仅把名录卡片直接发布。",
+      "missingDimensions": [
+        "verified_official_512_portrait",
+        "manual_fact_to_source_mapping",
+        "specific_first_party_network_evidence"
+      ],
+      "attemptedUrls": [
+        "https://informatics.ed.ac.uk/people/academic-staff",
+        "https://informatics.ed.ac.uk/Mina_Doosti.html"
+      ]
+    },
+    {
+      "canonicalKey": "Europe:University of Edinburgh:mohansridharan",
+      "name": "Mohan Sridharan",
+      "institution": "University of Edinburgh",
+      "disposition": "missing_portrait",
+      "blocker": "官方 roster/profile 已确认候选身份，但尚未取得可发布的可靠官方人物照片并验证为 512×512；人物事实、教育训练和具体网络关系仍需在头像补齐时逐条映射，不能仅把名录卡片直接发布。",
+      "missingDimensions": [
+        "verified_official_512_portrait",
+        "manual_fact_to_source_mapping",
+        "specific_first_party_network_evidence"
+      ],
+      "attemptedUrls": [
+        "https://informatics.ed.ac.uk/people/academic-staff",
+        "https://informatics.ed.ac.uk/Mohan_Sridharan.html"
+      ]
+    },
+    {
+      "canonicalKey": "Europe:University of Edinburgh:mohsenkhadem",
+      "name": "Mohsen Khadem",
+      "institution": "University of Edinburgh",
+      "disposition": "missing_portrait",
+      "blocker": "官方 roster/profile 已确认候选身份，但尚未取得可发布的可靠官方人物照片并验证为 512×512；人物事实、教育训练和具体网络关系仍需在头像补齐时逐条映射，不能仅把名录卡片直接发布。",
+      "missingDimensions": [
+        "verified_official_512_portrait",
+        "manual_fact_to_source_mapping",
+        "specific_first_party_network_evidence"
+      ],
+      "attemptedUrls": [
+        "https://informatics.ed.ac.uk/people/academic-staff",
+        "https://informatics.ed.ac.uk/Mohsen_Khadem.html"
+      ]
+    },
+    {
+      "canonicalKey": "Europe:University of Edinburgh:murraycole",
+      "name": "Murray Cole",
+      "institution": "University of Edinburgh",
+      "disposition": "missing_portrait",
+      "blocker": "官方 roster/profile 已确认候选身份，但尚未取得可发布的可靠官方人物照片并验证为 512×512；人物事实、教育训练和具体网络关系仍需在头像补齐时逐条映射，不能仅把名录卡片直接发布。",
+      "missingDimensions": [
+        "verified_official_512_portrait",
+        "manual_fact_to_source_mapping",
+        "specific_first_party_network_evidence"
+      ],
+      "attemptedUrls": [
+        "https://informatics.ed.ac.uk/people/academic-staff",
+        "https://informatics.ed.ac.uk/Murray_Cole.html"
+      ]
+    },
+    {
+      "canonicalKey": "Europe:University of Edinburgh:myrtoarapinis",
+      "name": "Myrto Arapinis",
+      "institution": "University of Edinburgh",
+      "disposition": "missing_portrait",
+      "blocker": "官方 roster/profile 已确认候选身份，但尚未取得可发布的可靠官方人物照片并验证为 512×512；人物事实、教育训练和具体网络关系仍需在头像补齐时逐条映射，不能仅把名录卡片直接发布。",
+      "missingDimensions": [
+        "verified_official_512_portrait",
+        "manual_fact_to_source_mapping",
+        "specific_first_party_network_evidence"
+      ],
+      "attemptedUrls": [
+        "https://informatics.ed.ac.uk/people/academic-staff",
+        "https://informatics.ed.ac.uk/Myrto_Arapinis.html"
+      ]
+    },
+    {
+      "canonicalKey": "Europe:University of Edinburgh:nadinkokciyan",
+      "name": "Nadin Kokciyan",
+      "institution": "University of Edinburgh",
+      "disposition": "missing_portrait",
+      "blocker": "官方 roster/profile 已确认候选身份，但尚未取得可发布的可靠官方人物照片并验证为 512×512；人物事实、教育训练和具体网络关系仍需在头像补齐时逐条映射，不能仅把名录卡片直接发布。",
+      "missingDimensions": [
+        "verified_official_512_portrait",
+        "manual_fact_to_source_mapping",
+        "specific_first_party_network_evidence"
+      ],
+      "attemptedUrls": [
+        "https://informatics.ed.ac.uk/people/academic-staff",
+        "https://informatics.ed.ac.uk/Nadin_Kokciyan.html"
+      ]
+    },
+    {
+      "canonicalKey": "Europe:University of Edinburgh:nigeltopham",
+      "name": "Nigel Topham",
+      "institution": "University of Edinburgh",
+      "disposition": "missing_portrait",
+      "blocker": "官方 roster/profile 已确认候选身份，但尚未取得可发布的可靠官方人物照片并验证为 512×512；人物事实、教育训练和具体网络关系仍需在头像补齐时逐条映射，不能仅把名录卡片直接发布。",
+      "missingDimensions": [
+        "verified_official_512_portrait",
+        "manual_fact_to_source_mapping",
+        "specific_first_party_network_evidence"
+      ],
+      "attemptedUrls": [
+        "https://informatics.ed.ac.uk/people/academic-staff",
+        "https://informatics.ed.ac.uk/Nigel_Topham.html"
+      ]
+    },
+    {
+      "canonicalKey": "Europe:University of Edinburgh:ninapardal",
+      "name": "Nina Pardal",
+      "institution": "University of Edinburgh",
+      "disposition": "missing_portrait",
+      "blocker": "官方 roster/profile 已确认候选身份，但尚未取得可发布的可靠官方人物照片并验证为 512×512；人物事实、教育训练和具体网络关系仍需在头像补齐时逐条映射，不能仅把名录卡片直接发布。",
+      "missingDimensions": [
+        "verified_official_512_portrait",
+        "manual_fact_to_source_mapping",
+        "specific_first_party_network_evidence"
+      ],
+      "attemptedUrls": [
+        "https://informatics.ed.ac.uk/people/academic-staff",
+        "https://informatics.ed.ac.uk/Nina_Pardal.html"
+      ]
+    },
+    {
+      "canonicalKey": "Europe:University of Edinburgh:ohadkammar",
+      "name": "Ohad Kammar",
+      "institution": "University of Edinburgh",
+      "disposition": "missing_portrait",
+      "blocker": "官方 roster/profile 已确认候选身份，但尚未取得可发布的可靠官方人物照片并验证为 512×512；人物事实、教育训练和具体网络关系仍需在头像补齐时逐条映射，不能仅把名录卡片直接发布。",
+      "missingDimensions": [
+        "verified_official_512_portrait",
+        "manual_fact_to_source_mapping",
+        "specific_first_party_network_evidence"
+      ],
+      "attemptedUrls": [
+        "https://informatics.ed.ac.uk/people/academic-staff",
+        "https://informatics.ed.ac.uk/Ohad_Kammar.html"
+      ]
+    },
+    {
+      "canonicalKey": "Europe:University of Edinburgh:oisinmacaodha",
+      "name": "Oisin Mac Aodha",
+      "institution": "University of Edinburgh",
+      "disposition": "missing_portrait",
+      "blocker": "官方 roster/profile 已确认候选身份，但尚未取得可发布的可靠官方人物照片并验证为 512×512；人物事实、教育训练和具体网络关系仍需在头像补齐时逐条映射，不能仅把名录卡片直接发布。",
+      "missingDimensions": [
+        "verified_official_512_portrait",
+        "manual_fact_to_source_mapping",
+        "specific_first_party_network_evidence"
+      ],
+      "attemptedUrls": [
+        "https://informatics.ed.ac.uk/people/academic-staff",
+        "https://informatics.ed.ac.uk/Oisin_Mac_Aodha.html"
+      ]
+    },
+    {
+      "canonicalKey": "Europe:University of Edinburgh:paologuagliardo",
+      "name": "Paolo Guagliardo",
+      "institution": "University of Edinburgh",
+      "disposition": "missing_portrait",
+      "blocker": "官方 roster/profile 已确认候选身份，但尚未取得可发布的可靠官方人物照片并验证为 512×512；人物事实、教育训练和具体网络关系仍需在头像补齐时逐条映射，不能仅把名录卡片直接发布。",
+      "missingDimensions": [
+        "verified_official_512_portrait",
+        "manual_fact_to_source_mapping",
+        "specific_first_party_network_evidence"
+      ],
+      "attemptedUrls": [
+        "https://informatics.ed.ac.uk/people/academic-staff",
+        "https://informatics.ed.ac.uk/Paolo_Guagliardo.html"
+      ]
+    },
+    {
+      "canonicalKey": "Europe:University of Edinburgh:pasqualeminervini",
+      "name": "Pasquale Minervini",
+      "institution": "University of Edinburgh",
+      "disposition": "missing_portrait",
+      "blocker": "官方 roster/profile 已确认候选身份，但尚未取得可发布的可靠官方人物照片并验证为 512×512；人物事实、教育训练和具体网络关系仍需在头像补齐时逐条映射，不能仅把名录卡片直接发布。",
+      "missingDimensions": [
+        "verified_official_512_portrait",
+        "manual_fact_to_source_mapping",
+        "specific_first_party_network_evidence"
+      ],
+      "attemptedUrls": [
+        "https://informatics.ed.ac.uk/people/academic-staff",
+        "https://informatics.ed.ac.uk/Pasquale_Minervini.html"
+      ]
+    },
+    {
+      "canonicalKey": "Europe:University of Edinburgh:pauljackson",
+      "name": "Paul Jackson",
+      "institution": "University of Edinburgh",
+      "disposition": "missing_portrait",
+      "blocker": "官方 roster/profile 已确认候选身份，但尚未取得可发布的可靠官方人物照片并验证为 512×512；人物事实、教育训练和具体网络关系仍需在头像补齐时逐条映射，不能仅把名录卡片直接发布。",
+      "missingDimensions": [
+        "verified_official_512_portrait",
+        "manual_fact_to_source_mapping",
+        "specific_first_party_network_evidence"
+      ],
+      "attemptedUrls": [
+        "https://informatics.ed.ac.uk/people/academic-staff",
+        "https://informatics.ed.ac.uk/Paul_Jackson.html"
+      ]
+    },
+    {
+      "canonicalKey": "Europe:University of Edinburgh:paulpatras",
+      "name": "Paul Patras",
+      "institution": "University of Edinburgh",
+      "disposition": "missing_portrait",
+      "blocker": "官方 roster/profile 已确认候选身份，但尚未取得可发布的可靠官方人物照片并验证为 512×512；人物事实、教育训练和具体网络关系仍需在头像补齐时逐条映射，不能仅把名录卡片直接发布。",
+      "missingDimensions": [
+        "verified_official_512_portrait",
+        "manual_fact_to_source_mapping",
+        "specific_first_party_network_evidence"
+      ],
+      "attemptedUrls": [
+        "https://informatics.ed.ac.uk/people/academic-staff",
+        "https://informatics.ed.ac.uk/Paul_Patras.html"
+      ]
+    },
+    {
+      "canonicalKey": "Europe:University of Edinburgh:pavlosandreadis",
+      "name": "Pavlos Andreadis",
+      "institution": "University of Edinburgh",
+      "disposition": "missing_portrait",
+      "blocker": "官方 roster/profile 已确认候选身份，但尚未取得可发布的可靠官方人物照片并验证为 512×512；人物事实、教育训练和具体网络关系仍需在头像补齐时逐条映射，不能仅把名录卡片直接发布。",
+      "missingDimensions": [
+        "verified_official_512_portrait",
+        "manual_fact_to_source_mapping",
+        "specific_first_party_network_evidence"
+      ],
+      "attemptedUrls": [
+        "https://informatics.ed.ac.uk/people/academic-staff",
+        "https://informatics.ed.ac.uk/Pavlos_Andreadis.html"
+      ]
+    },
+    {
+      "canonicalKey": "Europe:University of Edinburgh:peggyseries",
+      "name": "Peggy Series",
+      "institution": "University of Edinburgh",
+      "disposition": "missing_portrait",
+      "blocker": "官方 roster/profile 已确认候选身份，但尚未取得可发布的可靠官方人物照片并验证为 512×512；人物事实、教育训练和具体网络关系仍需在头像补齐时逐条映射，不能仅把名录卡片直接发布。",
+      "missingDimensions": [
+        "verified_official_512_portrait",
+        "manual_fact_to_source_mapping",
+        "specific_first_party_network_evidence"
+      ],
+      "attemptedUrls": [
+        "https://informatics.ed.ac.uk/people/academic-staff",
+        "https://informatics.ed.ac.uk/Peggy_Series.html"
+      ]
+    },
+    {
+      "canonicalKey": "Europe:University of Edinburgh:peterbell",
+      "name": "Peter Bell",
+      "institution": "University of Edinburgh",
+      "disposition": "missing_portrait",
+      "blocker": "官方 roster/profile 已确认候选身份，但尚未取得可发布的可靠官方人物照片并验证为 512×512；人物事实、教育训练和具体网络关系仍需在头像补齐时逐条映射，不能仅把名录卡片直接发布。",
+      "missingDimensions": [
+        "verified_official_512_portrait",
+        "manual_fact_to_source_mapping",
+        "specific_first_party_network_evidence"
+      ],
+      "attemptedUrls": [
+        "https://informatics.ed.ac.uk/people/academic-staff",
+        "https://informatics.ed.ac.uk/Peter_Bell.html"
+      ]
+    },
+    {
+      "canonicalKey": "Europe:University of Edinburgh:peterbuneman",
+      "name": "Peter Buneman",
+      "institution": "University of Edinburgh",
+      "disposition": "missing_portrait",
+      "blocker": "官方 roster/profile 已确认候选身份，但尚未取得可发布的可靠官方人物照片并验证为 512×512；人物事实、教育训练和具体网络关系仍需在头像补齐时逐条映射，不能仅把名录卡片直接发布。",
+      "missingDimensions": [
+        "verified_official_512_portrait",
+        "manual_fact_to_source_mapping",
+        "specific_first_party_network_evidence"
+      ],
+      "attemptedUrls": [
+        "https://informatics.ed.ac.uk/people/academic-staff",
+        "https://informatics.ed.ac.uk/Peter_Buneman.html"
+      ]
+    },
+    {
+      "canonicalKey": "Europe:University of Edinburgh:petroswallden",
+      "name": "Petros Wallden",
+      "institution": "University of Edinburgh",
+      "disposition": "missing_portrait",
+      "blocker": "官方 roster/profile 已确认候选身份，但尚未取得可发布的可靠官方人物照片并验证为 512×512；人物事实、教育训练和具体网络关系仍需在头像补齐时逐条映射，不能仅把名录卡片直接发布。",
+      "missingDimensions": [
+        "verified_official_512_portrait",
+        "manual_fact_to_source_mapping",
+        "specific_first_party_network_evidence"
+      ],
+      "attemptedUrls": [
+        "https://informatics.ed.ac.uk/people/academic-staff",
+        "https://informatics.ed.ac.uk/Petros_Wallden.html"
+      ]
+    },
+    {
+      "canonicalKey": "Europe:University of Edinburgh:ramramamoorthy",
+      "name": "Ram Ramamoorthy",
+      "institution": "University of Edinburgh",
+      "disposition": "missing_portrait",
+      "blocker": "官方 roster/profile 已确认候选身份，但尚未取得可发布的可靠官方人物照片并验证为 512×512；人物事实、教育训练和具体网络关系仍需在头像补齐时逐条映射，不能仅把名录卡片直接发布。",
+      "missingDimensions": [
+        "verified_official_512_portrait",
+        "manual_fact_to_source_mapping",
+        "specific_first_party_network_evidence"
+      ],
+      "attemptedUrls": [
+        "https://informatics.ed.ac.uk/people/academic-staff",
+        "https://informatics.ed.ac.uk/Ram_Ramamoorthy.html"
+      ]
+    },
+    {
+      "canonicalKey": "Europe:University of Edinburgh:raulgarciapatronsanchez",
+      "name": "Raul Garcia-Patron Sanchez",
+      "institution": "University of Edinburgh",
+      "disposition": "missing_portrait",
+      "blocker": "官方 roster/profile 已确认候选身份，但尚未取得可发布的可靠官方人物照片并验证为 512×512；人物事实、教育训练和具体网络关系仍需在头像补齐时逐条映射，不能仅把名录卡片直接发布。",
+      "missingDimensions": [
+        "verified_official_512_portrait",
+        "manual_fact_to_source_mapping",
+        "specific_first_party_network_evidence"
+      ],
+      "attemptedUrls": [
+        "https://informatics.ed.ac.uk/people/academic-staff",
+        "https://informatics.ed.ac.uk/Raul_Garcia-Patron_Sanchez.html"
+      ]
+    },
+    {
+      "canonicalKey": "Europe:University of Edinburgh:richardmayr",
+      "name": "Richard Mayr",
+      "institution": "University of Edinburgh",
+      "disposition": "missing_portrait",
+      "blocker": "官方 roster/profile 已确认候选身份，但尚未取得可发布的可靠官方人物照片并验证为 512×512；人物事实、教育训练和具体网络关系仍需在头像补齐时逐条映射，不能仅把名录卡片直接发布。",
+      "missingDimensions": [
+        "verified_official_512_portrait",
+        "manual_fact_to_source_mapping",
+        "specific_first_party_network_evidence"
+      ],
+      "attemptedUrls": [
+        "https://informatics.ed.ac.uk/people/academic-staff",
+        "https://informatics.ed.ac.uk/Richard_Mayr.html"
+      ]
+    },
+    {
+      "canonicalKey": "Europe:University of Edinburgh:riksarkar",
+      "name": "Rik Sarkar",
+      "institution": "University of Edinburgh",
+      "disposition": "missing_portrait",
+      "blocker": "官方 roster/profile 已确认候选身份，但尚未取得可发布的可靠官方人物照片并验证为 512×512；人物事实、教育训练和具体网络关系仍需在头像补齐时逐条映射，不能仅把名录卡片直接发布。",
+      "missingDimensions": [
+        "verified_official_512_portrait",
+        "manual_fact_to_source_mapping",
+        "specific_first_party_network_evidence"
+      ],
+      "attemptedUrls": [
+        "https://informatics.ed.ac.uk/people/academic-staff",
+        "https://informatics.ed.ac.uk/Rik_Sarkar.html"
+      ]
+    },
+    {
+      "canonicalKey": "Europe:University of Edinburgh:robvanglabbeek",
+      "name": "Rob van Glabbeek",
+      "institution": "University of Edinburgh",
+      "disposition": "missing_portrait",
+      "blocker": "官方 roster/profile 已确认候选身份，但尚未取得可发布的可靠官方人物照片并验证为 512×512；人物事实、教育训练和具体网络关系仍需在头像补齐时逐条映射，不能仅把名录卡片直接发布。",
+      "missingDimensions": [
+        "verified_official_512_portrait",
+        "manual_fact_to_source_mapping",
+        "specific_first_party_network_evidence"
+      ],
+      "attemptedUrls": [
+        "https://informatics.ed.ac.uk/people/academic-staff",
+        "https://informatics.ed.ac.uk/Rob_van_Glabbeek.html"
+      ]
+    },
+    {
+      "canonicalKey": "Europe:University of Edinburgh:samlindley",
+      "name": "Sam Lindley",
+      "institution": "University of Edinburgh",
+      "disposition": "missing_portrait",
+      "blocker": "官方 roster/profile 已确认候选身份，但尚未取得可发布的可靠官方人物照片并验证为 512×512；人物事实、教育训练和具体网络关系仍需在头像补齐时逐条映射，不能仅把名录卡片直接发布。",
+      "missingDimensions": [
+        "verified_official_512_portrait",
+        "manual_fact_to_source_mapping",
+        "specific_first_party_network_evidence"
+      ],
+      "attemptedUrls": [
+        "https://informatics.ed.ac.uk/people/academic-staff",
+        "https://informatics.ed.ac.uk/Sam_Lindley.html"
+      ]
+    },
+    {
+      "canonicalKey": "Europe:University of Edinburgh:shaycohen",
+      "name": "Shay Cohen",
+      "institution": "University of Edinburgh",
+      "disposition": "missing_portrait",
+      "blocker": "官方 roster/profile 已确认候选身份，但尚未取得可发布的可靠官方人物照片并验证为 512×512；人物事实、教育训练和具体网络关系仍需在头像补齐时逐条映射，不能仅把名录卡片直接发布。",
+      "missingDimensions": [
+        "verified_official_512_portrait",
+        "manual_fact_to_source_mapping",
+        "specific_first_party_network_evidence"
+      ],
+      "attemptedUrls": [
+        "https://informatics.ed.ac.uk/people/academic-staff",
+        "https://informatics.ed.ac.uk/Shay_Cohen.html"
+      ]
+    },
+    {
+      "canonicalKey": "Europe:University of Edinburgh:siddharthn",
+      "name": "Siddharth N",
+      "institution": "University of Edinburgh",
+      "disposition": "missing_portrait",
+      "blocker": "官方 roster/profile 已确认候选身份，但尚未取得可发布的可靠官方人物照片并验证为 512×512；人物事实、教育训练和具体网络关系仍需在头像补齐时逐条映射，不能仅把名录卡片直接发布。",
+      "missingDimensions": [
+        "verified_official_512_portrait",
+        "manual_fact_to_source_mapping",
+        "specific_first_party_network_evidence"
+      ],
+      "attemptedUrls": [
+        "https://informatics.ed.ac.uk/people/academic-staff",
+        "https://informatics.ed.ac.uk/Siddharth_N.html"
+      ]
+    },
+    {
+      "canonicalKey": "Europe:University of Edinburgh:simonking",
+      "name": "Simon King",
+      "institution": "University of Edinburgh",
+      "disposition": "missing_portrait",
+      "blocker": "官方 roster/profile 已确认候选身份，但尚未取得可发布的可靠官方人物照片并验证为 512×512；人物事实、教育训练和具体网络关系仍需在头像补齐时逐条映射，不能仅把名录卡片直接发布。",
+      "missingDimensions": [
+        "verified_official_512_portrait",
+        "manual_fact_to_source_mapping",
+        "specific_first_party_network_evidence"
+      ],
+      "attemptedUrls": [
+        "https://informatics.ed.ac.uk/people/academic-staff",
+        "https://informatics.ed.ac.uk/Simon_King.html"
+      ]
+    },
+    {
+      "canonicalKey": "Europe:University of Edinburgh:stevetonneau",
+      "name": "Steve Tonneau",
+      "institution": "University of Edinburgh",
+      "disposition": "missing_portrait",
+      "blocker": "官方 roster/profile 已确认候选身份，但尚未取得可发布的可靠官方人物照片并验证为 512×512；人物事实、教育训练和具体网络关系仍需在头像补齐时逐条映射，不能仅把名录卡片直接发布。",
+      "missingDimensions": [
+        "verified_official_512_portrait",
+        "manual_fact_to_source_mapping",
+        "specific_first_party_network_evidence"
+      ],
+      "attemptedUrls": [
+        "https://informatics.ed.ac.uk/people/academic-staff",
+        "https://informatics.ed.ac.uk/Steve_Tonneau.html"
+      ]
+    },
+    {
+      "canonicalKey": "Europe:University of Edinburgh:susanlechelt",
+      "name": "Susan Lechelt",
+      "institution": "University of Edinburgh",
+      "disposition": "missing_portrait",
+      "blocker": "官方 roster/profile 已确认候选身份，但尚未取得可发布的可靠官方人物照片并验证为 512×512；人物事实、教育训练和具体网络关系仍需在头像补齐时逐条映射，不能仅把名录卡片直接发布。",
+      "missingDimensions": [
+        "verified_official_512_portrait",
+        "manual_fact_to_source_mapping",
+        "specific_first_party_network_evidence"
+      ],
+      "attemptedUrls": [
+        "https://informatics.ed.ac.uk/people/academic-staff",
+        "https://informatics.ed.ac.uk/Susan_Lechelt.html"
+      ]
+    },
+    {
+      "canonicalKey": "Europe:University of Edinburgh:taracapel",
+      "name": "Tara Capel",
+      "institution": "University of Edinburgh",
+      "disposition": "missing_portrait",
+      "blocker": "官方 roster/profile 已确认候选身份，但尚未取得可发布的可靠官方人物照片并验证为 512×512；人物事实、教育训练和具体网络关系仍需在头像补齐时逐条映射，不能仅把名录卡片直接发布。",
+      "missingDimensions": [
+        "verified_official_512_portrait",
+        "manual_fact_to_source_mapping",
+        "specific_first_party_network_evidence"
+      ],
+      "attemptedUrls": [
+        "https://informatics.ed.ac.uk/people/academic-staff",
+        "https://informatics.ed.ac.uk/Tara_Capel.html"
+      ]
+    },
+    {
+      "canonicalKey": "Europe:University of Edinburgh:tariqelahi",
+      "name": "Tariq Elahi",
+      "institution": "University of Edinburgh",
+      "disposition": "missing_portrait",
+      "blocker": "官方 roster/profile 已确认候选身份，但尚未取得可发布的可靠官方人物照片并验证为 512×512；人物事实、教育训练和具体网络关系仍需在头像补齐时逐条映射，不能仅把名录卡片直接发布。",
+      "missingDimensions": [
+        "verified_official_512_portrait",
+        "manual_fact_to_source_mapping",
+        "specific_first_party_network_evidence"
+      ],
+      "attemptedUrls": [
+        "https://informatics.ed.ac.uk/people/academic-staff",
+        "https://informatics.ed.ac.uk/Tariq_Elahi.html"
+      ]
+    },
+    {
+      "canonicalKey": "Europe:University of Edinburgh:tiejunma",
+      "name": "Tiejun Ma",
+      "institution": "University of Edinburgh",
+      "disposition": "missing_portrait",
+      "blocker": "官方 roster/profile 已确认候选身份，但尚未取得可发布的可靠官方人物照片并验证为 512×512；人物事实、教育训练和具体网络关系仍需在头像补齐时逐条映射，不能仅把名录卡片直接发布。",
+      "missingDimensions": [
+        "verified_official_512_portrait",
+        "manual_fact_to_source_mapping",
+        "specific_first_party_network_evidence"
+      ],
+      "attemptedUrls": [
+        "https://informatics.ed.ac.uk/people/academic-staff",
+        "https://informatics.ed.ac.uk/Tiejun_Ma.html"
+      ]
+    },
+    {
+      "canonicalKey": "Europe:University of Edinburgh:tjelmas",
+      "name": "Tj Elmas",
+      "institution": "University of Edinburgh",
+      "disposition": "missing_portrait",
+      "blocker": "官方 roster/profile 已确认候选身份，但尚未取得可发布的可靠官方人物照片并验证为 512×512；人物事实、教育训练和具体网络关系仍需在头像补齐时逐条映射，不能仅把名录卡片直接发布。",
+      "missingDimensions": [
+        "verified_official_512_portrait",
+        "manual_fact_to_source_mapping",
+        "specific_first_party_network_evidence"
+      ],
+      "attemptedUrls": [
+        "https://informatics.ed.ac.uk/people/academic-staff",
+        "https://informatics.ed.ac.uk/Tj_Elmas.html"
+      ]
+    },
+    {
+      "canonicalKey": "Europe:University of Edinburgh:utahinrichs",
+      "name": "Uta Hinrichs",
+      "institution": "University of Edinburgh",
+      "disposition": "missing_portrait",
+      "blocker": "官方 roster/profile 已确认候选身份，但尚未取得可发布的可靠官方人物照片并验证为 512×512；人物事实、教育训练和具体网络关系仍需在头像补齐时逐条映射，不能仅把名录卡片直接发布。",
+      "missingDimensions": [
+        "verified_official_512_portrait",
+        "manual_fact_to_source_mapping",
+        "specific_first_party_network_evidence"
+      ],
+      "attemptedUrls": [
+        "https://informatics.ed.ac.uk/people/academic-staff",
+        "https://informatics.ed.ac.uk/Uta_Hinrichs.html"
+      ]
+    },
+    {
+      "canonicalKey": "Europe:University of Edinburgh:vaishakbelle",
+      "name": "Vaishak Belle",
+      "institution": "University of Edinburgh",
+      "disposition": "missing_portrait",
+      "blocker": "官方 roster/profile 已确认候选身份，但尚未取得可发布的可靠官方人物照片并验证为 512×512；人物事实、教育训练和具体网络关系仍需在头像补齐时逐条映射，不能仅把名录卡片直接发布。",
+      "missingDimensions": [
+        "verified_official_512_portrait",
+        "manual_fact_to_source_mapping",
+        "specific_first_party_network_evidence"
+      ],
+      "attemptedUrls": [
+        "https://informatics.ed.ac.uk/people/academic-staff",
+        "https://informatics.ed.ac.uk/Vaishak_Belle.html"
+      ]
+    },
+    {
+      "canonicalKey": "Europe:University of Edinburgh:valeriorestocchi",
+      "name": "Valerio Restocchi",
+      "institution": "University of Edinburgh",
+      "disposition": "missing_portrait",
+      "blocker": "官方 roster/profile 已确认候选身份，但尚未取得可发布的可靠官方人物照片并验证为 512×512；人物事实、教育训练和具体网络关系仍需在头像补齐时逐条映射，不能仅把名录卡片直接发布。",
+      "missingDimensions": [
+        "verified_official_512_portrait",
+        "manual_fact_to_source_mapping",
+        "specific_first_party_network_evidence"
+      ],
+      "attemptedUrls": [
+        "https://informatics.ed.ac.uk/people/academic-staff",
+        "https://informatics.ed.ac.uk/Valerio_Restocchi.html"
+      ]
+    },
+    {
+      "canonicalKey": "Europe:University of Edinburgh:viacheslavborovitskiy",
+      "name": "Viacheslav Borovitskiy",
+      "institution": "University of Edinburgh",
+      "disposition": "missing_portrait",
+      "blocker": "官方 roster/profile 已确认候选身份，但尚未取得可发布的可靠官方人物照片并验证为 512×512；人物事实、教育训练和具体网络关系仍需在头像补齐时逐条映射，不能仅把名录卡片直接发布。",
+      "missingDimensions": [
+        "verified_official_512_portrait",
+        "manual_fact_to_source_mapping",
+        "specific_first_party_network_evidence"
+      ],
+      "attemptedUrls": [
+        "https://informatics.ed.ac.uk/people/academic-staff",
+        "https://informatics.ed.ac.uk/Viacheslav_Borovitskiy.html"
+      ]
+    },
+    {
+      "canonicalKey": "Europe:University of Edinburgh:wendali",
+      "name": "Wenda Li",
+      "institution": "University of Edinburgh",
+      "disposition": "missing_portrait",
+      "blocker": "官方 roster/profile 已确认候选身份，但尚未取得可发布的可靠官方人物照片并验证为 512×512；人物事实、教育训练和具体网络关系仍需在头像补齐时逐条映射，不能仅把名录卡片直接发布。",
+      "missingDimensions": [
+        "verified_official_512_portrait",
+        "manual_fact_to_source_mapping",
+        "specific_first_party_network_evidence"
+      ],
+      "attemptedUrls": [
+        "https://informatics.ed.ac.uk/people/academic-staff",
+        "https://informatics.ed.ac.uk/Wenda_Li.html"
+      ]
+    },
+    {
+      "canonicalKey": "Europe:University of Edinburgh:wenfeifan",
+      "name": "Wenfei Fan",
+      "institution": "University of Edinburgh",
+      "disposition": "missing_portrait",
+      "blocker": "官方 roster/profile 已确认候选身份，但尚未取得可发布的可靠官方人物照片并验证为 512×512；人物事实、教育训练和具体网络关系仍需在头像补齐时逐条映射，不能仅把名录卡片直接发布。",
+      "missingDimensions": [
+        "verified_official_512_portrait",
+        "manual_fact_to_source_mapping",
+        "specific_first_party_network_evidence"
+      ],
+      "attemptedUrls": [
+        "https://informatics.ed.ac.uk/people/academic-staff",
+        "https://informatics.ed.ac.uk/Wenfei_Fan.html"
+      ]
+    },
+    {
+      "canonicalKey": "Europe:University of Edinburgh:yangcao",
+      "name": "Yang Cao",
+      "institution": "University of Edinburgh",
+      "disposition": "missing_portrait",
+      "blocker": "官方 roster/profile 已确认候选身份，但尚未取得可发布的可靠官方人物照片并验证为 512×512；人物事实、教育训练和具体网络关系仍需在头像补齐时逐条映射，不能仅把名录卡片直接发布。",
+      "missingDimensions": [
+        "verified_official_512_portrait",
+        "manual_fact_to_source_mapping",
+        "specific_first_party_network_evidence"
+      ],
+      "attemptedUrls": [
+        "https://informatics.ed.ac.uk/people/academic-staff",
+        "https://informatics.ed.ac.uk/Yang_Cao.html"
+      ]
+    },
+    {
+      "canonicalKey": "Europe:University of Edinburgh:yuvrajpatel",
+      "name": "Yuvraj Patel",
+      "institution": "University of Edinburgh",
+      "disposition": "missing_portrait",
+      "blocker": "官方 roster/profile 已确认候选身份，但尚未取得可发布的可靠官方人物照片并验证为 512×512；人物事实、教育训练和具体网络关系仍需在头像补齐时逐条映射，不能仅把名录卡片直接发布。",
+      "missingDimensions": [
+        "verified_official_512_portrait",
+        "manual_fact_to_source_mapping",
+        "specific_first_party_network_evidence"
+      ],
+      "attemptedUrls": [
+        "https://informatics.ed.ac.uk/people/academic-staff",
+        "https://informatics.ed.ac.uk/Yuvraj_Patel.html"
+      ]
+    },
+    {
+      "canonicalKey": "Europe:University of Edinburgh:zeetalat",
+      "name": "Zee Talat",
+      "institution": "University of Edinburgh",
+      "disposition": "missing_portrait",
+      "blocker": "官方 roster/profile 已确认候选身份，但尚未取得可发布的可靠官方人物照片并验证为 512×512；人物事实、教育训练和具体网络关系仍需在头像补齐时逐条映射，不能仅把名录卡片直接发布。",
+      "missingDimensions": [
+        "verified_official_512_portrait",
+        "manual_fact_to_source_mapping",
+        "specific_first_party_network_evidence"
+      ],
+      "attemptedUrls": [
+        "https://informatics.ed.ac.uk/people/academic-staff",
+        "https://informatics.ed.ac.uk/Zee_Talat.html"
+      ]
+    },
+    {
+      "canonicalKey": "Europe:University of Cambridge:alanblackwell",
+      "name": "Alan Blackwell",
+      "institution": "University of Cambridge",
+      "disposition": "missing_portrait",
+      "blocker": "官方 roster/profile 已确认候选身份，但尚未取得可发布的可靠官方人物照片并验证为 512×512；人物事实、教育训练和具体网络关系仍需在头像补齐时逐条映射，不能仅把名录卡片直接发布。",
+      "missingDimensions": [
+        "verified_official_512_portrait",
+        "manual_fact_to_source_mapping",
+        "specific_first_party_network_evidence"
+      ],
+      "attemptedUrls": [
+        "https://www.cst.cam.ac.uk/people/directory/faculty?lang=en",
+        "https://www.cst.cam.ac.uk/people/afb21"
+      ]
+    },
+    {
+      "canonicalKey": "Europe:University of Cambridge:alicehutchings",
+      "name": "Alice Hutchings",
+      "institution": "University of Cambridge",
+      "disposition": "missing_portrait",
+      "blocker": "官方 roster/profile 已确认候选身份，但尚未取得可发布的可靠官方人物照片并验证为 512×512；人物事实、教育训练和具体网络关系仍需在头像补齐时逐条映射，不能仅把名录卡片直接发布。",
+      "missingDimensions": [
+        "verified_official_512_portrait",
+        "manual_fact_to_source_mapping",
+        "specific_first_party_network_evidence"
+      ],
+      "attemptedUrls": [
+        "https://www.cst.cam.ac.uk/people/directory/faculty?lang=en",
+        "https://www.cst.cam.ac.uk/people/ah793"
+      ]
+    },
+    {
+      "canonicalKey": "Europe:University of Cambridge:andrewmoore",
+      "name": "Andrew Moore",
+      "institution": "University of Cambridge",
+      "disposition": "missing_portrait",
+      "blocker": "官方 roster/profile 已确认候选身份，但尚未取得可发布的可靠官方人物照片并验证为 512×512；人物事实、教育训练和具体网络关系仍需在头像补齐时逐条映射，不能仅把名录卡片直接发布。",
+      "missingDimensions": [
+        "verified_official_512_portrait",
+        "manual_fact_to_source_mapping",
+        "specific_first_party_network_evidence"
+      ],
+      "attemptedUrls": [
+        "https://www.cst.cam.ac.uk/people/directory/faculty?lang=en",
+        "https://www.cst.cam.ac.uk/people/awm22"
+      ]
+    },
+    {
+      "canonicalKey": "Europe:University of Cambridge:anujdawar",
+      "name": "Anuj Dawar",
+      "institution": "University of Cambridge",
+      "disposition": "missing_portrait",
+      "blocker": "官方 roster/profile 已确认候选身份，但尚未取得可发布的可靠官方人物照片并验证为 512×512；人物事实、教育训练和具体网络关系仍需在头像补齐时逐条映射，不能仅把名录卡片直接发布。",
+      "missingDimensions": [
+        "verified_official_512_portrait",
+        "manual_fact_to_source_mapping",
+        "specific_first_party_network_evidence"
+      ],
+      "attemptedUrls": [
+        "https://www.cst.cam.ac.uk/people/directory/faculty?lang=en",
+        "https://www.cst.cam.ac.uk/people/ad260"
+      ]
+    },
+    {
+      "canonicalKey": "Europe:University of Cambridge:davidgreaves",
+      "name": "David Greaves",
+      "institution": "University of Cambridge",
+      "disposition": "missing_portrait",
+      "blocker": "官方 roster/profile 已确认候选身份，但尚未取得可发布的可靠官方人物照片并验证为 512×512；人物事实、教育训练和具体网络关系仍需在头像补齐时逐条映射，不能仅把名录卡片直接发布。",
+      "missingDimensions": [
+        "verified_official_512_portrait",
+        "manual_fact_to_source_mapping",
+        "specific_first_party_network_evidence"
+      ],
+      "attemptedUrls": [
+        "https://www.cst.cam.ac.uk/people/directory/faculty?lang=en",
+        "https://www.cst.cam.ac.uk/people/djg11"
+      ]
+    },
+    {
+      "canonicalKey": "Europe:University of Cambridge:dongma",
+      "name": "Dong Ma",
+      "institution": "University of Cambridge",
+      "disposition": "missing_portrait",
+      "blocker": "官方 roster/profile 已确认候选身份，但尚未取得可发布的可靠官方人物照片并验证为 512×512；人物事实、教育训练和具体网络关系仍需在头像补齐时逐条映射，不能仅把名录卡片直接发布。",
+      "missingDimensions": [
+        "verified_official_512_portrait",
+        "manual_fact_to_source_mapping",
+        "specific_first_party_network_evidence"
+      ],
+      "attemptedUrls": [
+        "https://www.cst.cam.ac.uk/people/directory/faculty?lang=en",
+        "https://www.cst.cam.ac.uk/people/dm878"
+      ]
+    },
+    {
+      "canonicalKey": "Europe:University of Cambridge:ferminmoscosodelpradomartin",
+      "name": "Fermin Moscoso del Prado Martin",
+      "institution": "University of Cambridge",
+      "disposition": "missing_portrait",
+      "blocker": "官方 roster/profile 已确认候选身份，但尚未取得可发布的可靠官方人物照片并验证为 512×512；人物事实、教育训练和具体网络关系仍需在头像补齐时逐条映射，不能仅把名录卡片直接发布。",
+      "missingDimensions": [
+        "verified_official_512_portrait",
+        "manual_fact_to_source_mapping",
+        "specific_first_party_network_evidence"
+      ],
+      "attemptedUrls": [
+        "https://www.cst.cam.ac.uk/people/directory/faculty?lang=en",
+        "https://www.cst.cam.ac.uk/people/fm611"
+      ]
+    },
+    {
+      "canonicalKey": "Europe:University of Cambridge:jamievicary",
+      "name": "Jamie Vicary",
+      "institution": "University of Cambridge",
+      "disposition": "missing_portrait",
+      "blocker": "官方 roster/profile 已确认候选身份，但尚未取得可发布的可靠官方人物照片并验证为 512×512；人物事实、教育训练和具体网络关系仍需在头像补齐时逐条映射，不能仅把名录卡片直接发布。",
+      "missingDimensions": [
+        "verified_official_512_portrait",
+        "manual_fact_to_source_mapping",
+        "specific_first_party_network_evidence"
+      ],
+      "attemptedUrls": [
+        "https://www.cst.cam.ac.uk/people/directory/faculty?lang=en",
+        "https://www.cst.cam.ac.uk/people/jv258"
+      ]
+    },
+    {
+      "canonicalKey": "Europe:University of Cambridge:jeremyyallop",
+      "name": "Jeremy Yallop",
+      "institution": "University of Cambridge",
+      "disposition": "missing_portrait",
+      "blocker": "官方 roster/profile 已确认候选身份，但尚未取得可发布的可靠官方人物照片并验证为 512×512；人物事实、教育训练和具体网络关系仍需在头像补齐时逐条映射，不能仅把名录卡片直接发布。",
+      "missingDimensions": [
+        "verified_official_512_portrait",
+        "manual_fact_to_source_mapping",
+        "specific_first_party_network_evidence"
+      ],
+      "attemptedUrls": [
+        "https://www.cst.cam.ac.uk/people/directory/faculty?lang=en",
+        "https://www.cst.cam.ac.uk/people/jdy22"
+      ]
+    },
+    {
+      "canonicalKey": "Europe:University of Cambridge:jonsterling",
+      "name": "Jon Sterling",
+      "institution": "University of Cambridge",
+      "disposition": "missing_portrait",
+      "blocker": "官方 roster/profile 已确认候选身份，但尚未取得可发布的可靠官方人物照片并验证为 512×512；人物事实、教育训练和具体网络关系仍需在头像补齐时逐条映射，不能仅把名录卡片直接发布。",
+      "missingDimensions": [
+        "verified_official_512_portrait",
+        "manual_fact_to_source_mapping",
+        "specific_first_party_network_evidence"
+      ],
+      "attemptedUrls": [
+        "https://www.cst.cam.ac.uk/people/directory/faculty?lang=en",
+        "https://www.cst.cam.ac.uk/people/js2878"
+      ]
+    },
+    {
+      "canonicalKey": "Europe:University of Cambridge:katieseaborn",
+      "name": "Katie Seaborn",
+      "institution": "University of Cambridge",
+      "disposition": "missing_portrait",
+      "blocker": "官方 roster/profile 已确认候选身份，但尚未取得可发布的可靠官方人物照片并验证为 512×512；人物事实、教育训练和具体网络关系仍需在头像补齐时逐条映射，不能仅把名录卡片直接发布。",
+      "missingDimensions": [
+        "verified_official_512_portrait",
+        "manual_fact_to_source_mapping",
+        "specific_first_party_network_evidence"
+      ],
+      "attemptedUrls": [
+        "https://www.cst.cam.ac.uk/people/directory/faculty?lang=en",
+        "https://www.cst.cam.ac.uk/people/kas214"
+      ]
+    },
+    {
+      "canonicalKey": "Europe:University of Cambridge:marcelofiore",
+      "name": "Marcelo Fiore",
+      "institution": "University of Cambridge",
+      "disposition": "missing_portrait",
+      "blocker": "官方 roster/profile 已确认候选身份，但尚未取得可发布的可靠官方人物照片并验证为 512×512；人物事实、教育训练和具体网络关系仍需在头像补齐时逐条映射，不能仅把名录卡片直接发布。",
+      "missingDimensions": [
+        "verified_official_512_portrait",
+        "manual_fact_to_source_mapping",
+        "specific_first_party_network_evidence"
+      ],
+      "attemptedUrls": [
+        "https://www.cst.cam.ac.uk/people/directory/faculty?lang=en",
+        "https://www.cst.cam.ac.uk/people/mpf23"
+      ]
+    },
+    {
+      "canonicalKey": "Europe:University of Cambridge:markuskuhn",
+      "name": "Markus Kuhn",
+      "institution": "University of Cambridge",
+      "disposition": "missing_portrait",
+      "blocker": "官方 roster/profile 已确认候选身份，但尚未取得可发布的可靠官方人物照片并验证为 512×512；人物事实、教育训练和具体网络关系仍需在头像补齐时逐条映射，不能仅把名录卡片直接发布。",
+      "missingDimensions": [
+        "verified_official_512_portrait",
+        "manual_fact_to_source_mapping",
+        "specific_first_party_network_evidence"
+      ],
+      "attemptedUrls": [
+        "https://www.cst.cam.ac.uk/people/directory/faculty?lang=en",
+        "https://www.cst.cam.ac.uk/people/mgk25"
+      ]
+    },
+    {
+      "canonicalKey": "Europe:University of Cambridge:neelkrishnaswami",
+      "name": "Neel Krishnaswami",
+      "institution": "University of Cambridge",
+      "disposition": "missing_portrait",
+      "blocker": "官方 roster/profile 已确认候选身份，但尚未取得可发布的可靠官方人物照片并验证为 512×512；人物事实、教育训练和具体网络关系仍需在头像补齐时逐条映射，不能仅把名录卡片直接发布。",
+      "missingDimensions": [
+        "verified_official_512_portrait",
+        "manual_fact_to_source_mapping",
+        "specific_first_party_network_evidence"
+      ],
+      "attemptedUrls": [
+        "https://www.cst.cam.ac.uk/people/directory/faculty?lang=en",
+        "https://www.cst.cam.ac.uk/people/nk480"
+      ]
+    },
+    {
+      "canonicalKey": "Europe:University of Cambridge:prakashmurali",
+      "name": "Prakash Murali",
+      "institution": "University of Cambridge",
+      "disposition": "missing_portrait",
+      "blocker": "官方 roster/profile 已确认候选身份，但尚未取得可发布的可靠官方人物照片并验证为 512×512；人物事实、教育训练和具体网络关系仍需在头像补齐时逐条映射，不能仅把名录卡片直接发布。",
+      "missingDimensions": [
+        "verified_official_512_portrait",
+        "manual_fact_to_source_mapping",
+        "specific_first_party_network_evidence"
+      ],
+      "attemptedUrls": [
+        "https://www.cst.cam.ac.uk/people/directory/faculty?lang=en",
+        "https://www.cst.cam.ac.uk/people/pm830"
+      ]
+    },
+    {
+      "canonicalKey": "Europe:University of Cambridge:richardmortier",
+      "name": "Richard Mortier",
+      "institution": "University of Cambridge",
+      "disposition": "missing_portrait",
+      "blocker": "官方 roster/profile 已确认候选身份，但尚未取得可发布的可靠官方人物照片并验证为 512×512；人物事实、教育训练和具体网络关系仍需在头像补齐时逐条映射，不能仅把名录卡片直接发布。",
+      "missingDimensions": [
+        "verified_official_512_portrait",
+        "manual_fact_to_source_mapping",
+        "specific_first_party_network_evidence"
+      ],
+      "attemptedUrls": [
+        "https://www.cst.cam.ac.uk/people/directory/faculty?lang=en",
+        "https://www.cst.cam.ac.uk/people/rmm1002"
+      ]
+    },
+    {
+      "canonicalKey": "Europe:University of Cambridge:robertharle",
+      "name": "Robert Harle",
+      "institution": "University of Cambridge",
+      "disposition": "missing_portrait",
+      "blocker": "官方 roster/profile 已确认候选身份，但尚未取得可发布的可靠官方人物照片并验证为 512×512；人物事实、教育训练和具体网络关系仍需在头像补齐时逐条映射，不能仅把名录卡片直接发布。",
+      "missingDimensions": [
+        "verified_official_512_portrait",
+        "manual_fact_to_source_mapping",
+        "specific_first_party_network_evidence"
+      ],
+      "attemptedUrls": [
+        "https://www.cst.cam.ac.uk/people/directory/faculty?lang=en",
+        "https://www.cst.cam.ac.uk/people/rkh23"
+      ]
+    },
+    {
+      "canonicalKey": "Europe:University of Cambridge:srinivasankeshav",
+      "name": "Srinivasan Keshav",
+      "institution": "University of Cambridge",
+      "disposition": "missing_portrait",
+      "blocker": "官方 roster/profile 已确认候选身份，但尚未取得可发布的可靠官方人物照片并验证为 512×512；人物事实、教育训练和具体网络关系仍需在头像补齐时逐条映射，不能仅把名录卡片直接发布。",
+      "missingDimensions": [
+        "verified_official_512_portrait",
+        "manual_fact_to_source_mapping",
+        "specific_first_party_network_evidence"
+      ],
+      "attemptedUrls": [
+        "https://www.cst.cam.ac.uk/people/directory/faculty?lang=en",
+        "https://www.cst.cam.ac.uk/people/sk818"
+      ]
+    },
+    {
+      "canonicalKey": "Europe:University of Cambridge:thomassauerwald",
+      "name": "Thomas Sauerwald",
+      "institution": "University of Cambridge",
+      "disposition": "missing_portrait",
+      "blocker": "官方 roster/profile 已确认候选身份，但尚未取得可发布的可靠官方人物照片并验证为 512×512；人物事实、教育训练和具体网络关系仍需在头像补齐时逐条映射，不能仅把名录卡片直接发布。",
+      "missingDimensions": [
+        "verified_official_512_portrait",
+        "manual_fact_to_source_mapping",
+        "specific_first_party_network_evidence"
+      ],
+      "attemptedUrls": [
+        "https://www.cst.cam.ac.uk/people/directory/faculty?lang=en",
+        "https://www.cst.cam.ac.uk/people/tms41"
+      ]
+    },
+    {
+      "canonicalKey": "Europe:University of Cambridge:tobiasgrosser",
+      "name": "Tobias Grosser",
+      "institution": "University of Cambridge",
+      "disposition": "missing_portrait",
+      "blocker": "官方 roster/profile 已确认候选身份，但尚未取得可发布的可靠官方人物照片并验证为 512×512；人物事实、教育训练和具体网络关系仍需在头像补齐时逐条映射，不能仅把名录卡片直接发布。",
+      "missingDimensions": [
+        "verified_official_512_portrait",
+        "manual_fact_to_source_mapping",
+        "specific_first_party_network_evidence"
+      ],
+      "attemptedUrls": [
+        "https://www.cst.cam.ac.uk/people/directory/faculty?lang=en",
+        "https://www.cst.cam.ac.uk/people/tcg40"
+      ]
+    }
+  ]
+}

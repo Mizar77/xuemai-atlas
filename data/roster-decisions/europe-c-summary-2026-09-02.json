@@ -1,0 +1,170 @@
+{
+  "schemaVersion": 1,
+  "snapshotAt": "2026-09-02",
+  "scope": "Europe remaining complete-roster units",
+  "unitCount": 10,
+  "rosterCount": 1507,
+  "decisionCount": 1507,
+  "counts": {
+    "included_existing": 31,
+    "include_new_pi": 656,
+    "excluded_non_ai_cs": 0,
+    "excluded_non_pi": 478,
+    "excluded_historical": 144,
+    "excluded_industry_only": 0,
+    "excluded_duplicate": 0,
+    "pending_profile_verification": 198
+  },
+  "units": {
+    "tum-cit": {
+      "rosterArtifact": "data/official-rosters/tum-cit-all-professors-2026-09-02.json",
+      "rosterCount": 270,
+      "decisionCount": 270,
+      "counts": {
+        "included_existing": 1,
+        "include_new_pi": 0,
+        "excluded_non_ai_cs": 0,
+        "excluded_non_pi": 53,
+        "excluded_historical": 56,
+        "excluded_industry_only": 0,
+        "excluded_duplicate": 0,
+        "pending_profile_verification": 160
+      }
+    },
+    "epfl-ic": {
+      "rosterArtifact": "data/official-rosters/epfl-ic-all-faculty-2026-09-02.json",
+      "rosterCount": 103,
+      "decisionCount": 103,
+      "counts": {
+        "included_existing": 4,
+        "include_new_pi": 56,
+        "excluded_non_ai_cs": 0,
+        "excluded_non_pi": 15,
+        "excluded_historical": 28,
+        "excluded_industry_only": 0,
+        "excluded_duplicate": 0,
+        "pending_profile_verification": 0
+      }
+    },
+    "eth-inf": {
+      "rosterArtifact": "data/official-rosters/eth-inf-all-faculty-2026-09-02.json",
+      "rosterCount": 89,
+      "decisionCount": 89,
+      "counts": {
+        "included_existing": 6,
+        "include_new_pi": 43,
+        "excluded_non_ai_cs": 0,
+        "excluded_non_pi": 17,
+        "excluded_historical": 23,
+        "excluded_industry_only": 0,
+        "excluded_duplicate": 0,
+        "pending_profile_verification": 0
+      }
+    },
+    "edinburgh-informatics": {
+      "rosterArtifact": "data/official-rosters/edinburgh-informatics-academic-staff-2026-09-02.json",
+      "rosterCount": 147,
+      "decisionCount": 147,
+      "counts": {
+        "included_existing": 5,
+        "include_new_pi": 136,
+        "excluded_non_ai_cs": 0,
+        "excluded_non_pi": 2,
+        "excluded_historical": 0,
+        "excluded_industry_only": 0,
+        "excluded_duplicate": 0,
+        "pending_profile_verification": 4
+      }
+    },
+    "cambridge-cst": {
+      "rosterArtifact": "data/official-rosters/cambridge-cst-faculty-2026-09-02.json",
+      "rosterCount": 61,
+      "decisionCount": 61,
+      "counts": {
+        "included_existing": 3,
+        "include_new_pi": 50,
+        "excluded_non_ai_cs": 0,
+        "excluded_non_pi": 0,
+        "excluded_historical": 8,
+        "excluded_industry_only": 0,
+        "excluded_duplicate": 0,
+        "pending_profile_verification": 0
+      }
+    },
+    "oxford-cs": {
+      "rosterArtifact": "data/official-rosters/oxford-cs-faculty-2026-09-02.json",
+      "rosterCount": 76,
+      "decisionCount": 76,
+      "counts": {
+        "included_existing": 4,
+        "include_new_pi": 66,
+        "excluded_non_ai_cs": 0,
+        "excluded_non_pi": 6,
+        "excluded_historical": 0,
+        "excluded_industry_only": 0,
+        "excluded_duplicate": 0,
+        "pending_profile_verification": 0
+      }
+    },
+    "ucl-cs": {
+      "rosterArtifact": "data/official-rosters/ucl-computer-science-all-profiles-2026-09-02.json",
+      "rosterCount": 554,
+      "decisionCount": 554,
+      "counts": {
+        "included_existing": 5,
+        "include_new_pi": 128,
+        "excluded_non_ai_cs": 0,
+        "excluded_non_pi": 381,
+        "excluded_historical": 6,
+        "excluded_industry_only": 0,
+        "excluded_duplicate": 0,
+        "pending_profile_verification": 34
+      }
+    },
+    "lmu-informatics": {
+      "rosterArtifact": "data/official-rosters/lmu-informatics-professors-2026-09-02.json",
+      "rosterCount": 30,
+      "decisionCount": 30,
+      "counts": {
+        "included_existing": 1,
+        "include_new_pi": 25,
+        "excluded_non_ai_cs": 0,
+        "excluded_non_pi": 4,
+        "excluded_historical": 0,
+        "excluded_industry_only": 0,
+        "excluded_duplicate": 0,
+        "pending_profile_verification": 0
+      }
+    },
+    "tuwien-informatics": {
+      "rosterArtifact": "data/official-rosters/tuwien-informatics-professors-2026-09-02.json",
+      "rosterCount": 109,
+      "decisionCount": 109,
+      "counts": {
+        "included_existing": 2,
+        "include_new_pi": 84,
+        "excluded_non_ai_cs": 0,
+        "excluded_non_pi": 0,
+        "excluded_historical": 23,
+        "excluded_industry_only": 0,
+        "excluded_duplicate": 0,
+        "pending_profile_verification": 0
+      }
+    },
+    "imperial-computing": {
+      "rosterArtifact": "data/official-rosters/imperial-computing-academic-staff-2026-09-02.json",
+      "rosterCount": 68,
+      "decisionCount": 68,
+      "counts": {
+        "included_existing": 0,
+        "include_new_pi": 68,
+        "excluded_non_ai_cs": 0,
+        "excluded_non_pi": 0,
+        "excluded_historical": 0,
+        "excluded_industry_only": 0,
+        "excluded_duplicate": 0,
+        "pending_profile_verification": 0
+      }
+    }
+  }
+}

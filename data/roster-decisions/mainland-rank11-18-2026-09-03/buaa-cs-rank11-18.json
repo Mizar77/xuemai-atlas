@@ -1,0 +1,1389 @@
+{
+  "schemaVersion": 1,
+  "region": "Mainland China",
+  "rank": 15,
+  "institution": "北京航空航天大学",
+  "unitId": "buaa-cs-rank11-18",
+  "unitName": "计算机学院",
+  "snapshotAt": "2026-09-02",
+  "reviewedAt": "2026-09-03",
+  "rosterArtifact": "data/official-rosters/buaa-cs-all-faculty-2026-09-02.json",
+  "officialRosterUrl": "https://scse.buaa.edu.cn/szdw/qtjs.htm",
+  "officialRosterCount": 80,
+  "decisionCount": 80,
+  "counts": {
+    "included_existing": 3,
+    "include_new_pi": 33,
+    "excluded_non_ai_cs": 44,
+    "excluded_non_pi": 0,
+    "excluded_historical": 0,
+    "excluded_industry_only": 0,
+    "excluded_insufficient_scope_evidence": 0,
+    "pending_profile_verification": 0
+  },
+  "decisions": [
+    {
+      "officialId": "01151ec9f9ff822c",
+      "name": "李未",
+      "title": "教授",
+      "officialSections": [
+        "全体教师"
+      ],
+      "profileUrl": "https://scse.buaa.edu.cn/info/1078/2627.htm",
+      "portraitUrl": "https://scse.buaa.edu.cn/__local/8/AA/43/11D0F8708E97246E3FE7952BC9E_C2B6066A_1F1CE.jpg",
+      "sourcePageUrl": "https://scse.buaa.edu.cn/szdw/qtjs.htm",
+      "officialRosterUrl": "https://scse.buaa.edu.cn/szdw/qtjs.htm",
+      "profileChecked": true,
+      "decision": "excluded_non_ai_cs",
+      "reason": "已检查官方个人页及名录字段，公开研究主线未显示 AI、NLP、CV、ML、数据智能、机器人或本图谱紧密相邻方向。",
+      "evidenceUrl": "https://scse.buaa.edu.cn/info/1078/2627.htm",
+      "evidenceExcerpt": "教授 | 全体教师"
+    },
+    {
+      "officialId": "e069304d0bd7b8fb",
+      "name": "郑志明",
+      "title": "教授",
+      "officialSections": [
+        "全体教师"
+      ],
+      "profileUrl": "https://scse.buaa.edu.cn/info/1078/8422.htm",
+      "portraitUrl": "https://scse.buaa.edu.cn/__local/F/EC/B9/59EF038265B39A15F15B64CABD4_8570A79A_3010E.jpg",
+      "sourcePageUrl": "https://scse.buaa.edu.cn/szdw/qtjs.htm",
+      "officialRosterUrl": "https://scse.buaa.edu.cn/szdw/qtjs.htm",
+      "profileChecked": true,
+      "decision": "excluded_non_ai_cs",
+      "reason": "已检查官方个人页及名录字段，公开研究主线未显示 AI、NLP、CV、ML、数据智能、机器人或本图谱紧密相邻方向。",
+      "evidenceUrl": "https://scse.buaa.edu.cn/info/1078/8422.htm",
+      "evidenceExcerpt": "教授 | 全体教师"
+    },
+    {
+      "officialId": "74973422e554a9a2",
+      "name": "钱德沛",
+      "title": "教授",
+      "officialSections": [
+        "全体教师"
+      ],
+      "profileUrl": "https://scse.buaa.edu.cn/info/1078/8362.htm",
+      "portraitUrl": "https://scse.buaa.edu.cn/__local/2/8B/3C/C2C4C4208CC96233238DD2A5402_CD8A9BF0_1E76.jpg",
+      "sourcePageUrl": "https://scse.buaa.edu.cn/szdw/qtjs.htm",
+      "officialRosterUrl": "https://scse.buaa.edu.cn/szdw/qtjs.htm",
+      "profileChecked": true,
+      "decision": "excluded_non_ai_cs",
+      "reason": "已检查官方个人页及名录字段，公开研究主线未显示 AI、NLP、CV、ML、数据智能、机器人或本图谱紧密相邻方向。",
+      "evidenceUrl": "https://scse.buaa.edu.cn/info/1078/8362.htm",
+      "evidenceExcerpt": "研究方向包括高性能计算机体系结构、分布式系统、众核处理器并行编程等。 上一篇： 郑志明 下一篇： 熊璋 友情链接 中国计算机学会 北京航空航天大学 北京市教育委员会 计算机学报 软件学报 北航学报 学院简介 学院介绍 组织机构 历任领导 委员会 师资队伍 全体教师 杰出人才 科学研究 学术活动 新闻公告 学院动态 公告公示 其他通知 招生就业 本科生招生 研究生招生 就业信息 国际交流 新闻公告 党风廉政 党群动态 工会 采购管理 采购管理办法 采购公告 比价/竞价公示 通讯地址：北京市海淀区学院路37号 邮政编码：100191 电子邮箱：scse@buaa.edu.cn 版权所有：北京航空航天大学计算机学院"
+    },
+    {
+      "officialId": "775a6583cff8a8a3",
+      "name": "熊璋",
+      "title": "教授",
+      "officialSections": [
+        "全体教师"
+      ],
+      "profileUrl": "https://scse.buaa.edu.cn/info/1078/2637.htm",
+      "portraitUrl": "https://scse.buaa.edu.cn/__local/6/D5/90/3983AD2B6F2C731725B97DA7B92_51CFB2FF_23F04.jpg",
+      "sourcePageUrl": "https://scse.buaa.edu.cn/szdw/qtjs.htm",
+      "officialRosterUrl": "https://scse.buaa.edu.cn/szdw/qtjs.htm",
+      "profileChecked": true,
+      "decision": "excluded_non_ai_cs",
+      "reason": "已检查官方个人页及名录字段，公开研究主线未显示 AI、NLP、CV、ML、数据智能、机器人或本图谱紧密相邻方向。",
+      "evidenceUrl": "https://scse.buaa.edu.cn/info/1078/2637.htm",
+      "evidenceExcerpt": "教授 | 全体教师"
+    },
+    {
+      "officialId": "0019104fd2129a1e",
+      "name": "李波",
+      "title": "教授",
+      "officialSections": [
+        "全体教师"
+      ],
+      "profileUrl": "https://scse.buaa.edu.cn/info/1078/5211.htm",
+      "portraitUrl": "https://scse.buaa.edu.cn/__local/2/7F/5A/F049FA3F0D707051A95B9F1BCB2_B3072DDE_21FD5.jpg",
+      "sourcePageUrl": "https://scse.buaa.edu.cn/szdw/qtjs.htm",
+      "officialRosterUrl": "https://scse.buaa.edu.cn/szdw/qtjs.htm",
+      "profileChecked": true,
+      "decision": "include_new_pi",
+      "reason": "官方个人页的研究方向命中 AI/NLP/CV/ML、数据智能、机器人或紧密相关方向，并确认教授/研究员或独立招生资格。",
+      "evidenceUrl": "https://scse.buaa.edu.cn/info/1078/5211.htm",
+      "evidenceExcerpt": "教授 | 全体教师 研究方向为：计算机视觉，机器学习，知识推理，嵌入式智能系统，人工智能应用；与海康威视等行业龙头企业、公安应用部门建立了联合实验室。作为负责人已完成型号、预研、863计划、973计划、国家自然科学基金等课题40余项；在本领域TPAMI、TIP、TMM、TGRS以及CVPR、AAAI、ACL等重要期刊和国际学术会议发表学术论文140余篇，有授权国内外发明专利100余件。 多项研究成果"
+    },
+    {
+      "officialId": "1aa0712b20f1511b",
+      "name": "马殿富",
+      "title": "教授",
+      "officialSections": [
+        "全体教师"
+      ],
+      "profileUrl": "https://scse.buaa.edu.cn/info/1078/2638.htm",
+      "portraitUrl": "https://scse.buaa.edu.cn/__local/7/71/B6/96B44B0085FD362F5CE68E56270_D6798061_F829.jpg",
+      "sourcePageUrl": "https://scse.buaa.edu.cn/szdw/qtjs.htm",
+      "officialRosterUrl": "https://scse.buaa.edu.cn/szdw/qtjs.htm",
+      "profileChecked": true,
+      "decision": "excluded_non_ai_cs",
+      "reason": "已检查官方个人页及名录字段，公开研究主线未显示 AI、NLP、CV、ML、数据智能、机器人或本图谱紧密相邻方向。",
+      "evidenceUrl": "https://scse.buaa.edu.cn/info/1078/2638.htm",
+      "evidenceExcerpt": "教授 | 全体教师"
+    },
+    {
+      "officialId": "b0f9bafd4f34dfe1",
+      "name": "李昂生",
+      "title": "教授",
+      "officialSections": [
+        "全体教师"
+      ],
+      "profileUrl": "https://scse.buaa.edu.cn/info/1078/5403.htm",
+      "portraitUrl": "https://scse.buaa.edu.cn/__local/6/87/62/30405AC3B7089E7C58368A14247_FB70F906_C685.jpg",
+      "sourcePageUrl": "https://scse.buaa.edu.cn/szdw/qtjs.htm",
+      "officialRosterUrl": "https://scse.buaa.edu.cn/szdw/qtjs.htm",
+      "profileChecked": true,
+      "decision": "excluded_non_ai_cs",
+      "reason": "已检查官方个人页及名录字段，公开研究主线未显示 AI、NLP、CV、ML、数据智能、机器人或本图谱紧密相邻方向。",
+      "evidenceUrl": "https://scse.buaa.edu.cn/info/1078/5403.htm",
+      "evidenceExcerpt": "教授 | 全体教师"
+    },
+    {
+      "officialId": "299ef46307fd44ca",
+      "name": "刘旭东",
+      "title": "教授",
+      "officialSections": [
+        "全体教师"
+      ],
+      "profileUrl": "https://scse.buaa.edu.cn/info/1078/2646.htm",
+      "portraitUrl": "https://scse.buaa.edu.cn/__local/C/5D/91/C943941C272AF4E4E645B1B675E_89783215_1E77B.jpg",
+      "sourcePageUrl": "https://scse.buaa.edu.cn/szdw/qtjs.htm",
+      "officialRosterUrl": "https://scse.buaa.edu.cn/szdw/qtjs.htm",
+      "profileChecked": true,
+      "decision": "excluded_non_ai_cs",
+      "reason": "已检查官方个人页及名录字段，公开研究主线未显示 AI、NLP、CV、ML、数据智能、机器人或本图谱紧密相邻方向。",
+      "evidenceUrl": "https://scse.buaa.edu.cn/info/1078/2646.htm",
+      "evidenceExcerpt": "教授 | 全体教师"
+    },
+    {
+      "officialId": "93fcd33611674010",
+      "name": "吕卫锋",
+      "title": "教授",
+      "officialSections": [
+        "全体教师"
+      ],
+      "profileUrl": "https://scse.buaa.edu.cn/info/1078/2658.htm",
+      "portraitUrl": "https://scse.buaa.edu.cn/__local/7/28/DB/AEA21D63005548EA2569E202868_FDAC2AB8_1BDA4.jpg",
+      "sourcePageUrl": "https://scse.buaa.edu.cn/szdw/qtjs.htm",
+      "officialRosterUrl": "https://scse.buaa.edu.cn/szdw/qtjs.htm",
+      "profileChecked": true,
+      "decision": "excluded_non_ai_cs",
+      "reason": "已检查官方个人页及名录字段，公开研究主线未显示 AI、NLP、CV、ML、数据智能、机器人或本图谱紧密相邻方向。",
+      "evidenceUrl": "https://scse.buaa.edu.cn/info/1078/2658.htm",
+      "evidenceExcerpt": "研究方向：海量信息处理、大数据分析、城市计算、数据活化。 上一篇： 刘旭东 下一篇： 王蕴红 友情链接 中国计算机学会 北京航空航天大学 北京市教育委员会 计算机学报 软件学报 北航学报 学院简介 学院介绍 组织机构 历任领导 委员会 师资队伍 全体教师 杰出人才 科学研究 学术活动 新闻公告 学院动态 公告公示 其他通知 招生就业 本科生招生 研究生招生 就业信息 国际交流 新闻公告 党风廉政 党群动态 工会 采购管理 采购管理办法 采购公告 比价/竞价公示 通讯地址：北京市海淀区学院路37号 邮政编码：100191 电子邮箱：scse@buaa.edu.cn 版权所有：北京航空航天大学计算机学院"
+    },
+    {
+      "officialId": "1b6154724424be04",
+      "name": "王蕴红",
+      "title": "教授",
+      "officialSections": [
+        "全体教师"
+      ],
+      "profileUrl": "https://scse.buaa.edu.cn/info/1078/2652.htm",
+      "portraitUrl": "https://scse.buaa.edu.cn/__local/D/3B/BC/DCBAF0BAC1156A823C60202DD38_90ED2B34_21ECF.jpg",
+      "sourcePageUrl": "https://scse.buaa.edu.cn/szdw/qtjs.htm",
+      "officialRosterUrl": "https://scse.buaa.edu.cn/szdw/qtjs.htm",
+      "profileChecked": true,
+      "decision": "excluded_non_ai_cs",
+      "reason": "已检查官方个人页及名录字段，公开研究主线未显示 AI、NLP、CV、ML、数据智能、机器人或本图谱紧密相邻方向。",
+      "evidenceUrl": "https://scse.buaa.edu.cn/info/1078/2652.htm",
+      "evidenceExcerpt": "教授 | 全体教师"
+    },
+    {
+      "officialId": "ed03f41cf98d53a3",
+      "name": "李舟军",
+      "title": "教授",
+      "officialSections": [
+        "全体教师"
+      ],
+      "profileUrl": "https://scse.buaa.edu.cn/info/1078/2643.htm",
+      "portraitUrl": "https://scse.buaa.edu.cn/__local/0/40/47/75D818F1A8ED61CE07E8DC9A5CC_74FE8282_199AC.jpg",
+      "sourcePageUrl": "https://scse.buaa.edu.cn/szdw/qtjs.htm",
+      "officialRosterUrl": "https://scse.buaa.edu.cn/szdw/qtjs.htm",
+      "profileChecked": true,
+      "decision": "include_new_pi",
+      "reason": "官方个人页的研究方向命中 AI/NLP/CV/ML、数据智能、机器人或紧密相关方向，并确认教授/研究员或独立招生资格。",
+      "evidenceUrl": "https://scse.buaa.edu.cn/info/1078/2643.htm",
+      "evidenceExcerpt": "教授 | 全体教师 研究方向为：数据挖掘与社交网络分析，人工智能与深度学习，自然语言处理、知识图谱构建及其应用（自动问答、社区问答、聊天机器人、自动客服等），网络与信息安全技术（软件安全漏洞挖掘与分析，安全协议分析，移动应用安全，工控系统安全等）。 上一篇： 王蕴红 下一篇： 张莉 友情链接 中国计算机学会 北京航空航天大学 北京市教育委员会 计算机学报 软件学报 北航学报 学院简介 学院介绍 组"
+    },
+    {
+      "officialId": "936b943ff7da0c0b",
+      "name": "张莉",
+      "title": "教授",
+      "officialSections": [
+        "全体教师"
+      ],
+      "profileUrl": "https://scse.buaa.edu.cn/info/1078/2647.htm",
+      "portraitUrl": "https://scse.buaa.edu.cn/__local/B/90/F9/B2C5FDB6C0D8A4E20AD02BE6C2E_78943244_11983.jpg",
+      "sourcePageUrl": "https://scse.buaa.edu.cn/szdw/qtjs.htm",
+      "officialRosterUrl": "https://scse.buaa.edu.cn/szdw/qtjs.htm",
+      "profileChecked": true,
+      "decision": "excluded_non_ai_cs",
+      "reason": "已检查官方个人页及名录字段，公开研究主线未显示 AI、NLP、CV、ML、数据智能、机器人或本图谱紧密相邻方向。",
+      "evidenceUrl": "https://scse.buaa.edu.cn/info/1078/2647.htm",
+      "evidenceExcerpt": "研究领域：智能软件工程、需求工程、模型驱动的方法和低代码、软件体系结构和产品线、经验软件工程、智能制造过程建模和协同运行等。先后主持和参加了国家自然科学基金、国家973项目、国家科技计划项目、国际合作项目和企业应用项目。在国际会议、国内外刊物上发表学术论文近200篇，多次担任国际学术会议程序委员会主席和程序委员会委员。 欢迎有志于从事智能化软件工程学术研究、肯吃苦、有上进心的同学报考。 欢迎更多的青年教师、博士后加入软件工程研究所团队。 联系电话：82317649，邮箱：lily@buaa.edu.cn 个人网页： http://shi.buaa.edu.cn/06453/zh_CN/index.htm 上一篇： 李舟军 下一篇： 吴威 友情链接 中国计算机学会 北京航空航天大学 北京市教育委员会 计算机学报 软件学报 北航学报 学院简介 学院介绍 组织机构 历任领导 委员会 师资队伍 全体教师 杰出人才 科学研究 学术活动 新闻公告 学院动态 公告公示 其他通知 招生就业 本科生招生 研究生招生 就业信息 国际交流 新闻公告 党风廉政 党群动态 工会 采购管理 采购管理办法 采购公告"
+    },
+    {
+      "officialId": "5578c21a131d72db",
+      "name": "吴威",
+      "title": "教授",
+      "officialSections": [
+        "全体教师"
+      ],
+      "profileUrl": "https://scse.buaa.edu.cn/info/1078/2642.htm",
+      "portraitUrl": "https://scse.buaa.edu.cn/__local/3/E2/D6/0F1EED1B3BF0FE071B3F252228B_213DFA79_174AC.jpg",
+      "sourcePageUrl": "https://scse.buaa.edu.cn/szdw/qtjs.htm",
+      "officialRosterUrl": "https://scse.buaa.edu.cn/szdw/qtjs.htm",
+      "profileChecked": true,
+      "decision": "excluded_non_ai_cs",
+      "reason": "已检查官方个人页及名录字段，公开研究主线未显示 AI、NLP、CV、ML、数据智能、机器人或本图谱紧密相邻方向。",
+      "evidenceUrl": "https://scse.buaa.edu.cn/info/1078/2642.htm",
+      "evidenceExcerpt": "教授 | 全体教师"
+    },
+    {
+      "officialId": "785948ad8c21cd3a",
+      "name": "沈旭昆",
+      "title": "教授",
+      "officialSections": [
+        "全体教师"
+      ],
+      "profileUrl": "https://scse.buaa.edu.cn/info/1078/2650.htm",
+      "portraitUrl": "https://scse.buaa.edu.cn/__local/7/18/AC/EC919DC3B6093243FEDCBEB80F8_6FD3E04A_977C4.jpg",
+      "sourcePageUrl": "https://scse.buaa.edu.cn/szdw/qtjs.htm",
+      "officialRosterUrl": "https://scse.buaa.edu.cn/szdw/qtjs.htm",
+      "profileChecked": true,
+      "decision": "excluded_non_ai_cs",
+      "reason": "已检查官方个人页及名录字段，公开研究主线未显示 AI、NLP、CV、ML、数据智能、机器人或本图谱紧密相邻方向。",
+      "evidenceUrl": "https://scse.buaa.edu.cn/info/1078/2650.htm",
+      "evidenceExcerpt": "教授 | 全体教师"
+    },
+    {
+      "officialId": "fca1af1908866e2e",
+      "name": "夏春和",
+      "title": "教授",
+      "officialSections": [
+        "全体教师"
+      ],
+      "profileUrl": "https://scse.buaa.edu.cn/info/1078/2651.htm",
+      "portraitUrl": "https://scse.buaa.edu.cn/__local/B/2F/A0/1541CD390F4FC7F42EA8C078B45_0AC6F74F_A686D.jpg",
+      "sourcePageUrl": "https://scse.buaa.edu.cn/szdw/qtjs.htm",
+      "officialRosterUrl": "https://scse.buaa.edu.cn/szdw/qtjs.htm",
+      "profileChecked": true,
+      "decision": "excluded_non_ai_cs",
+      "reason": "已检查官方个人页及名录字段，公开研究主线未显示 AI、NLP、CV、ML、数据智能、机器人或本图谱紧密相邻方向。",
+      "evidenceUrl": "https://scse.buaa.edu.cn/info/1078/2651.htm",
+      "evidenceExcerpt": "研究方向为网络与信息安全、计算机网络对抗、云计算等。承担国家自然科学基金、NSFC-通用技术基础研究联合基金重点项目以及北京市教委等多项课题的研究任务。 上一篇： 沈旭昆 下一篇： 肖利民 友情链接 中国计算机学会 北京航空航天大学 北京市教育委员会 计算机学报 软件学报 北航学报 学院简介 学院介绍 组织机构 历任领导 委员会 师资队伍 全体教师 杰出人才 科学研究 学术活动 新闻公告 学院动态 公告公示 其他通知 招生就业 本科生招生 研究生招生 就业信息 国际交流 新闻公告 党风廉政 党群动态 工会 采购管理 采购管理办法 采购公告 比价/竞价公示 通讯地址：北京市海淀区学院路37号 邮政编码：100191 电子邮箱：scse@buaa.edu.cn 版权所有：北京航空航天大学计算机学院"
+    },
+    {
+      "officialId": "6e2a69999a007ce7",
+      "name": "肖利民",
+      "title": "教授",
+      "officialSections": [
+        "全体教师"
+      ],
+      "profileUrl": "https://scse.buaa.edu.cn/info/1078/2653.htm",
+      "portraitUrl": "https://scse.buaa.edu.cn/__local/6/C2/45/6A1580FAF5CC6E3EB91123CB506_5B79BA78_1B7EF.jpg",
+      "sourcePageUrl": "https://scse.buaa.edu.cn/szdw/qtjs.htm",
+      "officialRosterUrl": "https://scse.buaa.edu.cn/szdw/qtjs.htm",
+      "profileChecked": true,
+      "decision": "excluded_non_ai_cs",
+      "reason": "已检查官方个人页及名录字段，公开研究主线未显示 AI、NLP、CV、ML、数据智能、机器人或本图谱紧密相邻方向。",
+      "evidenceUrl": "https://scse.buaa.edu.cn/info/1078/2653.htm",
+      "evidenceExcerpt": "教授 | 全体教师"
+    },
+    {
+      "officialId": "4c1526e98ca9d549",
+      "name": "许可",
+      "title": "教授",
+      "officialSections": [
+        "全体教师"
+      ],
+      "profileUrl": "https://scse.buaa.edu.cn/info/1078/2655.htm",
+      "portraitUrl": "https://scse.buaa.edu.cn/__local/2/83/A4/BA6D80CD090829CD877C17A3757_C1D84177_7BC4E.jpg",
+      "sourcePageUrl": "https://scse.buaa.edu.cn/szdw/qtjs.htm",
+      "officialRosterUrl": "https://scse.buaa.edu.cn/szdw/qtjs.htm",
+      "profileChecked": true,
+      "decision": "excluded_non_ai_cs",
+      "reason": "已检查官方个人页及名录字段，公开研究主线未显示 AI、NLP、CV、ML、数据智能、机器人或本图谱紧密相邻方向。",
+      "evidenceUrl": "https://scse.buaa.edu.cn/info/1078/2655.htm",
+      "evidenceExcerpt": "教授 | 全体教师"
+    },
+    {
+      "officialId": "4406a51106b11025",
+      "name": "郝爱民",
+      "title": "教授",
+      "officialSections": [
+        "全体教师"
+      ],
+      "profileUrl": "https://scse.buaa.edu.cn/info/1078/2654.htm",
+      "portraitUrl": "https://scse.buaa.edu.cn/__local/A/EE/4F/AC3041235D5FD895D56766FA143_A2BDAC7E_17731.jpg",
+      "sourcePageUrl": "https://scse.buaa.edu.cn/szdw/qtjs.htm",
+      "officialRosterUrl": "https://scse.buaa.edu.cn/szdw/qtjs.htm",
+      "profileChecked": true,
+      "decision": "excluded_non_ai_cs",
+      "reason": "已检查官方个人页及名录字段，公开研究主线未显示 AI、NLP、CV、ML、数据智能、机器人或本图谱紧密相邻方向。",
+      "evidenceUrl": "https://scse.buaa.edu.cn/info/1078/2654.htm",
+      "evidenceExcerpt": "教授 | 全体教师"
+    },
+    {
+      "officialId": "aa5ac9fd32b4e085",
+      "name": "张玉平",
+      "title": "教授",
+      "officialSections": [
+        "全体教师"
+      ],
+      "profileUrl": "https://scse.buaa.edu.cn/info/1078/8729.htm",
+      "portraitUrl": "https://scse.buaa.edu.cn/__local/C/69/96/DD58AD1CE703CCD89CB409BD370_CBE0A4ED_1803C.jpg",
+      "sourcePageUrl": "https://scse.buaa.edu.cn/szdw/qtjs.htm",
+      "officialRosterUrl": "https://scse.buaa.edu.cn/szdw/qtjs.htm",
+      "profileChecked": true,
+      "decision": "excluded_non_ai_cs",
+      "reason": "已检查官方个人页及名录字段，公开研究主线未显示 AI、NLP、CV、ML、数据智能、机器人或本图谱紧密相邻方向。",
+      "evidenceUrl": "https://scse.buaa.edu.cn/info/1078/8729.htm",
+      "evidenceExcerpt": "教授 | 全体教师"
+    },
+    {
+      "officialId": "6a490c82a67bcc95",
+      "name": "唐文忠",
+      "title": "教授",
+      "officialSections": [
+        "全体教师"
+      ],
+      "profileUrl": "https://scse.buaa.edu.cn/info/1078/5220.htm",
+      "portraitUrl": "https://scse.buaa.edu.cn/__local/C/70/ED/F44E1F8DAA55FEF9E7DD6EB8EC3_F8F82E55_E77E.jpg",
+      "sourcePageUrl": "https://scse.buaa.edu.cn/szdw/qtjs.htm",
+      "officialRosterUrl": "https://scse.buaa.edu.cn/szdw/qtjs.htm",
+      "profileChecked": true,
+      "decision": "excluded_non_ai_cs",
+      "reason": "已检查官方个人页及名录字段，公开研究主线未显示 AI、NLP、CV、ML、数据智能、机器人或本图谱紧密相邻方向。",
+      "evidenceUrl": "https://scse.buaa.edu.cn/info/1078/5220.htm",
+      "evidenceExcerpt": "教授 | 全体教师"
+    },
+    {
+      "officialId": "3f87a6864f644d05",
+      "name": "杨钦",
+      "title": "教授",
+      "officialSections": [
+        "全体教师"
+      ],
+      "profileUrl": "https://scse.buaa.edu.cn/info/1078/2659.htm",
+      "portraitUrl": "https://scse.buaa.edu.cn/__local/4/5C/1F/F2E888A5F9D7B38B760B3FE7B12_C6D50A25_62598.jpg",
+      "sourcePageUrl": "https://scse.buaa.edu.cn/szdw/qtjs.htm",
+      "officialRosterUrl": "https://scse.buaa.edu.cn/szdw/qtjs.htm",
+      "profileChecked": true,
+      "decision": "include_new_pi",
+      "reason": "官方个人页的研究方向命中 AI/NLP/CV/ML、数据智能、机器人或紧密相关方向，并确认教授/研究员或独立招生资格。",
+      "evidenceUrl": "https://scse.buaa.edu.cn/info/1078/2659.htm",
+      "evidenceExcerpt": "教授 | 全体教师 研究方向为计算机图形学、计算几何、计算力学、人工智能等方向。长期从事复杂地质结构三维建模、地质过程数值模拟、地质数字孪生和大规模地质模型三维可视化、生成式人工智能地质建模等领域的理论和算法研究。主持、参与了国家重点研发计划、国家重大专项等三十余项科研项目。 软件产品开发 从90年代开始从事地质行业信息化工作，依托北航在计算机科学和工程力学领域的深厚基础，深入学习地球科学理论，开"
+    },
+    {
+      "officialId": "29df993122ea9801",
+      "name": "刘轶",
+      "title": "教授",
+      "officialSections": [
+        "全体教师"
+      ],
+      "profileUrl": "https://scse.buaa.edu.cn/info/1078/2656.htm",
+      "portraitUrl": "https://scse.buaa.edu.cn/__local/B/67/15/EB48E6007C34FF1D97E7B28159F_D499AFFB_18BF6.jpg",
+      "sourcePageUrl": "https://scse.buaa.edu.cn/szdw/qtjs.htm",
+      "officialRosterUrl": "https://scse.buaa.edu.cn/szdw/qtjs.htm",
+      "profileChecked": true,
+      "decision": "include_new_pi",
+      "reason": "官方个人页的研究方向命中 AI/NLP/CV/ML、数据智能、机器人或紧密相关方向，并确认教授/研究员或独立招生资格。",
+      "evidenceUrl": "https://scse.buaa.edu.cn/info/1078/2656.htm",
+      "evidenceExcerpt": "及关键技术研究”、“云计算关键技术及系统”、“新一代互联网技术综合实验环境”、及企业合作项目“高端容错服务器关键技术”、“面向电力应用的实时数据库系统软件”等。在对外学术交流方面，作为中方研究小组负责人与德国Fraunhofer协会下属研究所进行合作研究，双方进行了多次学术交流和人员互访。在国内外期刊及国际会议发表论文多篇，获得授权发明专利十余项，获北京市科技进步一等奖1项。 上一篇： 杨钦 下一篇： 白跃彬 友情链接 中国计算机学会 北京航空航天大学 北京市教育委员会 计算机学报 软件学报 北航学报"
+    },
+    {
+      "officialId": "3163993dbf36d5b6",
+      "name": "白跃彬",
+      "title": "教授",
+      "officialSections": [
+        "全体教师"
+      ],
+      "profileUrl": "https://scse.buaa.edu.cn/info/1078/2662.htm",
+      "portraitUrl": "https://scse.buaa.edu.cn/__local/E/A4/36/9119DE26F5CDA58247DE98544C1_F3DD39E7_32627.jpg",
+      "sourcePageUrl": "https://scse.buaa.edu.cn/szdw/qtjs.htm",
+      "officialRosterUrl": "https://scse.buaa.edu.cn/szdw/qtjs.htm",
+      "profileChecked": true,
+      "decision": "excluded_non_ai_cs",
+      "reason": "已检查官方个人页及名录字段，公开研究主线未显示 AI、NLP、CV、ML、数据智能、机器人或本图谱紧密相邻方向。",
+      "evidenceUrl": "https://scse.buaa.edu.cn/info/1078/2662.htm",
+      "evidenceExcerpt": "教授 | 全体教师"
+    },
+    {
+      "officialId": "53ea2d3b91c0bb31",
+      "name": "郎波",
+      "title": "教授",
+      "officialSections": [
+        "全体教师"
+      ],
+      "profileUrl": "https://scse.buaa.edu.cn/info/1078/2660.htm",
+      "portraitUrl": "https://scse.buaa.edu.cn/__local/C/99/6F/CA07108CF7612D184B2DEE989A1_F5C0DBE4_296BB.jpg",
+      "sourcePageUrl": "https://scse.buaa.edu.cn/szdw/qtjs.htm",
+      "officialRosterUrl": "https://scse.buaa.edu.cn/szdw/qtjs.htm",
+      "profileChecked": true,
+      "decision": "excluded_non_ai_cs",
+      "reason": "已检查官方个人页及名录字段，公开研究主线未显示 AI、NLP、CV、ML、数据智能、机器人或本图谱紧密相邻方向。",
+      "evidenceUrl": "https://scse.buaa.edu.cn/info/1078/2660.htm",
+      "evidenceExcerpt": "教授 | 全体教师"
+    },
+    {
+      "officialId": "4015c89cd8a5b748",
+      "name": "齐越",
+      "title": "教授",
+      "officialSections": [
+        "全体教师"
+      ],
+      "profileUrl": "https://scse.buaa.edu.cn/info/1078/2661.htm",
+      "portraitUrl": "https://scse.buaa.edu.cn/__local/D/DE/65/7363A4A9ACE8EBB8232BC23EC6E_E8D45D14_FCD9.jpg",
+      "sourcePageUrl": "https://scse.buaa.edu.cn/szdw/qtjs.htm",
+      "officialRosterUrl": "https://scse.buaa.edu.cn/szdw/qtjs.htm",
+      "profileChecked": true,
+      "decision": "excluded_non_ai_cs",
+      "reason": "已检查官方个人页及名录字段，公开研究主线未显示 AI、NLP、CV、ML、数据智能、机器人或本图谱紧密相邻方向。",
+      "evidenceUrl": "https://scse.buaa.edu.cn/info/1078/2661.htm",
+      "evidenceExcerpt": "教授 | 全体教师"
+    },
+    {
+      "officialId": "576a28e277be3d98",
+      "name": "牛建伟",
+      "title": "教授",
+      "officialSections": [
+        "全体教师"
+      ],
+      "profileUrl": "https://scse.buaa.edu.cn/info/1078/2664.htm",
+      "portraitUrl": "https://scse.buaa.edu.cn/__local/8/0E/2D/8C775EA65421F0ED339593280DC_E77B6BD4_2B509.jpg",
+      "sourcePageUrl": "https://scse.buaa.edu.cn/szdw/qtjs.htm",
+      "officialRosterUrl": "https://scse.buaa.edu.cn/szdw/qtjs.htm",
+      "profileChecked": true,
+      "decision": "include_new_pi",
+      "reason": "官方个人页的研究方向命中 AI/NLP/CV/ML、数据智能、机器人或紧密相关方向，并确认教授/研究员或独立招生资格。",
+      "evidenceUrl": "https://scse.buaa.edu.cn/info/1078/2664.htm",
+      "evidenceExcerpt": "教授 | 全体教师 研究方向是：具身智能；机器人操作系统；机器学习。 联系电话：010-82317613 邮件地址：niujianwei@buaa.edu.cn； 主页：https://shi.buaa.edu.cn/jwniu 办公地点：新主楼F324 上一篇： 齐越 下一篇： 曹庆华 友情链接 中国计算机学会 北京航空航天大学 北京市教育委员会 计算机学报 软件学报 北航学报 学院简介 学"
+    },
+    {
+      "officialId": "e62df26d5006d373",
+      "name": "曹庆华",
+      "title": "教授",
+      "officialSections": [
+        "全体教师"
+      ],
+      "profileUrl": "https://scse.buaa.edu.cn/info/1078/2665.htm",
+      "portraitUrl": "https://scse.buaa.edu.cn/__local/4/D0/F2/63312BDAD0063C729ECA2FCC776_97E0391F_67EA6.jpg",
+      "sourcePageUrl": "https://scse.buaa.edu.cn/szdw/qtjs.htm",
+      "officialRosterUrl": "https://scse.buaa.edu.cn/szdw/qtjs.htm",
+      "profileChecked": true,
+      "decision": "excluded_non_ai_cs",
+      "reason": "已检查官方个人页及名录字段，公开研究主线未显示 AI、NLP、CV、ML、数据智能、机器人或本图谱紧密相邻方向。",
+      "evidenceUrl": "https://scse.buaa.edu.cn/info/1078/2665.htm",
+      "evidenceExcerpt": "研究方向：高可靠高安全软件的设计、嵌入式计算机系统技术、教育数字化技术。 上一篇： 牛建伟 下一篇： 马帅 友情链接 中国计算机学会 北京航空航天大学 北京市教育委员会 计算机学报 软件学报 北航学报 学院简介 学院介绍 组织机构 历任领导 委员会 师资队伍 全体教师 杰出人才 科学研究 学术活动 新闻公告 学院动态 公告公示 其他通知 招生就业 本科生招生 研究生招生 就业信息 国际交流 新闻公告 党风廉政 党群动态 工会 采购管理 采购管理办法 采购公告 比价/竞价公示 通讯地址：北京市海淀区学院路37号 邮政编码：100191 电子邮箱：scse@buaa.edu.cn 版权所有：北京航空航天大学计算机学院"
+    },
+    {
+      "officialId": "cc85de906951d76e",
+      "name": "马帅",
+      "title": "教授",
+      "officialSections": [
+        "全体教师"
+      ],
+      "profileUrl": "https://scse.buaa.edu.cn/info/1078/2667.htm",
+      "portraitUrl": "https://scse.buaa.edu.cn/__local/B/3F/C1/C3D7C9FD298B503351D91E84467_C45D95B4_18CEC.jpg",
+      "sourcePageUrl": "https://scse.buaa.edu.cn/szdw/qtjs.htm",
+      "officialRosterUrl": "https://scse.buaa.edu.cn/szdw/qtjs.htm",
+      "profileChecked": true,
+      "decision": "excluded_non_ai_cs",
+      "reason": "已检查官方个人页及名录字段，公开研究主线未显示 AI、NLP、CV、ML、数据智能、机器人或本图谱紧密相邻方向。",
+      "evidenceUrl": "https://scse.buaa.edu.cn/info/1078/2667.htm",
+      "evidenceExcerpt": "教授 | 全体教师"
+    },
+    {
+      "officialId": "4327ed4d4ecaddca",
+      "name": "罗洪斌",
+      "title": "教授",
+      "officialSections": [
+        "全体教师"
+      ],
+      "profileUrl": "https://scse.buaa.edu.cn/info/1078/2668.htm",
+      "portraitUrl": "https://scse.buaa.edu.cn/__local/D/C0/E3/7D363459B02D1351B91FCC197AC_13E328F3_1FC79.jpg",
+      "sourcePageUrl": "https://scse.buaa.edu.cn/szdw/qtjs.htm",
+      "officialRosterUrl": "https://scse.buaa.edu.cn/szdw/qtjs.htm",
+      "profileChecked": true,
+      "decision": "include_new_pi",
+      "reason": "官方个人页的研究方向命中 AI/NLP/CV/ML、数据智能、机器人或紧密相关方向，并确认教授/研究员或独立招生资格。",
+      "evidenceUrl": "https://scse.buaa.edu.cn/info/1078/2668.htm",
+      "evidenceExcerpt": "教授 | 全体教师 研究方向： 未来互联网体系结构与关键技术、空天地海网络一体化、无人机集群组网。 科研项目： 近年主持的主要项目如下： 国家重点研发计划课题：端网协同的高效可靠传输机制，2020.01-2022.12，主持，532万。 学术论文： 在互联网领域国际权威刊物和会议发表论文60余篇，近年发表的5篇代表性论文如下： [1]Hongbin Luo, Zhoubiao Liu, Shan Zhang, “Preventing DDoS"
+    },
+    {
+      "officialId": "57f2d19e6fd126c3",
+      "name": "岳涛",
+      "title": "教授",
+      "officialSections": [
+        "全体教师"
+      ],
+      "profileUrl": "https://scse.buaa.edu.cn/info/1078/10993.htm",
+      "portraitUrl": "https://scse.buaa.edu.cn/__local/4/73/B9/B504068C8D4D2E15E85D8CD073E_990D8A05_35F49.jpg",
+      "sourcePageUrl": "https://scse.buaa.edu.cn/szdw/qtjs.htm",
+      "officialRosterUrl": "https://scse.buaa.edu.cn/szdw/qtjs.htm",
+      "profileChecked": true,
+      "decision": "excluded_non_ai_cs",
+      "reason": "已检查官方个人页及名录字段，公开研究主线未显示 AI、NLP、CV、ML、数据智能、机器人或本图谱紧密相邻方向。",
+      "evidenceUrl": "https://scse.buaa.edu.cn/info/1078/10993.htm",
+      "evidenceExcerpt": "研究方向包括软件测试、不确定性软件工程、模型驱动工程、量子软件工程；在软件工程领域共发表高质量学术论文170余篇。现担任国际期刊《ACM Transactions on Software Engineering and Methodology》（TOSEM）量子软件工程专栏主编，国际期刊《IEEE Transactions on Software Engineering》（TSE）、《Empirical Software Engineering》（EMSE）和《Software and System Engineering》（SoSyM）编委；曾担任多个国际会议（如MODELS）的程序委员会联合主席和国际会议（如ICSE、FSE、ASE）的审稿人。 办公室G917 办公电话 （010）82317496 个人网站 https://yue-tao.github.io/ 上一篇： 罗洪斌 下一篇： 梁晓辉 友情链接 中国计算机学会 北京航空航天大学 北京市教育委员会 计算机学报 软件学报 北航学报 学院简介 学院介绍 组织机构 历任领导 委员会 师资队伍 全体教师 杰出人才 科学研究 学术活"
+    },
+    {
+      "officialId": "fa42a67485960d96",
+      "name": "梁晓辉",
+      "title": "教授",
+      "officialSections": [
+        "全体教师"
+      ],
+      "profileUrl": "https://scse.buaa.edu.cn/info/1078/2678.htm",
+      "portraitUrl": "https://scse.buaa.edu.cn/__local/1/BE/D3/36B015DF3EB350DA077B6B0149E_6B82403C_229E7.jpg",
+      "sourcePageUrl": "https://scse.buaa.edu.cn/szdw/qtjs.htm",
+      "officialRosterUrl": "https://scse.buaa.edu.cn/szdw/qtjs.htm",
+      "profileChecked": true,
+      "decision": "excluded_non_ai_cs",
+      "reason": "已检查官方个人页及名录字段，公开研究主线未显示 AI、NLP、CV、ML、数据智能、机器人或本图谱紧密相邻方向。",
+      "evidenceUrl": "https://scse.buaa.edu.cn/info/1078/2678.htm",
+      "evidenceExcerpt": "研究方向为移动终端三维图形处理、基于气象数据的天气现象建模方法等。主持国家自然科学基金、国家863计划和北京市自然科学基金项目20余项，荣获国家科技进步一等奖1项，国家科技进步二等奖1项，省部级技术发明一等奖1项、科学技术进步一等奖2项，入选教育部2007年度“新世纪优秀人才支持计划”。 上一篇： 岳涛 下一篇： 韩军 友情链接 中国计算机学会 北京航空航天大学 北京市教育委员会 计算机学报 软件学报 北航学报 学院简介 学院介绍 组织机构 历任领导 委员会 师资队伍 全体教师 杰出人才 科学研究 学术活动 新闻公告 学院动态 公告公示 其他通知 招生就业 本科生招生 研究生招生 就业信息 国际交流 新闻公告 党风廉政 党群动态 工会 采购管理 采购管理办法 采购公告 比价/竞价公示 通讯地址：北京市海淀区学院路37号 邮政编码：100191 电子邮箱：scse@buaa.edu.cn 版权所有：北京航空航天大学计算机学院"
+    },
+    {
+      "officialId": "b4b3c3c4461306c7",
+      "name": "韩军",
+      "title": "教授",
+      "officialSections": [
+        "全体教师"
+      ],
+      "profileUrl": "https://scse.buaa.edu.cn/info/1078/2675.htm",
+      "portraitUrl": "https://scse.buaa.edu.cn/__local/B/97/B4/444E3FAAA2665378D03F237B266_A37F7128_22B65.jpg",
+      "sourcePageUrl": "https://scse.buaa.edu.cn/szdw/qtjs.htm",
+      "officialRosterUrl": "https://scse.buaa.edu.cn/szdw/qtjs.htm",
+      "profileChecked": true,
+      "decision": "include_new_pi",
+      "reason": "官方个人页的研究方向命中 AI/NLP/CV/ML、数据智能、机器人或紧密相关方向，并确认教授/研究员或独立招生资格。",
+      "evidenceUrl": "https://scse.buaa.edu.cn/info/1078/2675.htm",
+      "evidenceExcerpt": "教授 | 全体教师 研究方向：人工智能、网络综合优化、现代计算方法、服务计算等。 上一篇： 梁晓辉 下一篇： 张辉 友情链接 中国计算机学会 北京航空航天大学 北京市教育委员会 计算机学报 软件学报 北航学报 学院简介 学院介绍 组织机构 历任领导 委员会 师资队伍 全体教师 杰出人才 科学研究 学术活动 新闻公告 学院动态 公告公示 其他通知 招生就业 本科生招生 研究生招生 就业信息 国际交"
+    },
+    {
+      "officialId": "16f26887729181ed",
+      "name": "张辉",
+      "title": "教授",
+      "officialSections": [
+        "全体教师"
+      ],
+      "profileUrl": "https://scse.buaa.edu.cn/info/1078/2677.htm",
+      "portraitUrl": "https://scse.buaa.edu.cn/__local/9/90/87/F99A6379FED6B6B68890E31D38D_71CFA65A_1A4A1.jpg",
+      "sourcePageUrl": "https://scse.buaa.edu.cn/szdw/qtjs.htm",
+      "officialRosterUrl": "https://scse.buaa.edu.cn/szdw/qtjs.htm",
+      "profileChecked": true,
+      "decision": "excluded_non_ai_cs",
+      "reason": "已检查官方个人页及名录字段，公开研究主线未显示 AI、NLP、CV、ML、数据智能、机器人或本图谱紧密相邻方向。",
+      "evidenceUrl": "https://scse.buaa.edu.cn/info/1078/2677.htm",
+      "evidenceExcerpt": "研究领域：计算机网络、数据安全、基于AI的网络安全 招生要求：热爱编程，动手能力强，有协作精神。 联系方式： 电话：82338088电子邮件：hzhang@buaa.edu.cn 上一篇： 韩军 下一篇： 王莉莉 友情链接 中国计算机学会 北京航空航天大学 北京市教育委员会 计算机学报 软件学报 北航学报 学院简介 学院介绍 组织机构 历任领导 委员会 师资队伍 全体教师 杰出人才 科学研究 学术活动 新闻公告 学院动态 公告公示 其他通知 招生就业 本科生招生 研究生招生 就业信息 国际交流 新闻公告 党风廉政 党群动态 工会 采购管理 采购管理办法 采购公告 比价/竞价公示 通讯地址：北京市海淀区学院路37号 邮政编码：100191 电子邮箱：scse@buaa.edu.cn 版权所有：北京航空航天大学计算机学院"
+    },
+    {
+      "officialId": "afe37a4ebb2b32e6",
+      "name": "王莉莉",
+      "title": "教授",
+      "officialSections": [
+        "全体教师"
+      ],
+      "profileUrl": "https://scse.buaa.edu.cn/info/1078/2672.htm",
+      "portraitUrl": "https://scse.buaa.edu.cn/__local/2/0F/92/B8B02F7DE1B6926F082A4D47843_588F635A_134D3.jpg",
+      "sourcePageUrl": "https://scse.buaa.edu.cn/szdw/qtjs.htm",
+      "officialRosterUrl": "https://scse.buaa.edu.cn/szdw/qtjs.htm",
+      "profileChecked": true,
+      "decision": "excluded_non_ai_cs",
+      "reason": "已检查官方个人页及名录字段，公开研究主线未显示 AI、NLP、CV、ML、数据智能、机器人或本图谱紧密相邻方向。",
+      "evidenceUrl": "https://scse.buaa.edu.cn/info/1078/2672.htm",
+      "evidenceExcerpt": "教授 | 全体教师"
+    },
+    {
+      "officialId": "b82a81858eaa9f35",
+      "name": "李云春",
+      "title": "教授",
+      "officialSections": [
+        "全体教师"
+      ],
+      "profileUrl": "https://scse.buaa.edu.cn/info/1078/2681.htm",
+      "portraitUrl": "https://scse.buaa.edu.cn/__local/B/69/90/7FE0986821AB8BF49BA99C192B5_67069972_1B0CF.jpg",
+      "sourcePageUrl": "https://scse.buaa.edu.cn/szdw/qtjs.htm",
+      "officialRosterUrl": "https://scse.buaa.edu.cn/szdw/qtjs.htm",
+      "profileChecked": true,
+      "decision": "include_new_pi",
+      "reason": "官方个人页的研究方向命中 AI/NLP/CV/ML、数据智能、机器人或紧密相关方向，并确认教授/研究员或独立招生资格。",
+      "evidenceUrl": "https://scse.buaa.edu.cn/info/1078/2681.htm",
+      "evidenceExcerpt": "和信息化系统的集成和建设项目，推进高校智慧校园建设。在国内外学术刊物或会议上发表60余篇教学、科研论文，获批10余项专利，从事的《大型分布式多媒体会议系统》项目于2008年获北京市科学技术进步二等奖，《下一代智能安全网络产品研究》项目于2009年获得北京市科学技术进步三等奖，主讲《并行程序设计》、《高等计算机网络》和《计算机网络安全》等课程，2017年获“校级工程硕士实习实践优秀成果获得者”指导教师，2011年获“优秀主讲教师”，已指导毕业研究生50余人。 上一篇： 王莉莉 下一篇： 朱皞罡 友情链接"
+    },
+    {
+      "officialId": "7a237eca1b5f3ce2",
+      "name": "朱皞罡",
+      "title": "教授",
+      "officialSections": [
+        "全体教师"
+      ],
+      "profileUrl": "https://scse.buaa.edu.cn/info/1078/2680.htm",
+      "portraitUrl": "https://scse.buaa.edu.cn/__local/7/EE/22/166EF395049F8FBCC07ACA9D6E7_FEEC0D22_A8D8E.jpg",
+      "sourcePageUrl": "https://scse.buaa.edu.cn/szdw/qtjs.htm",
+      "officialRosterUrl": "https://scse.buaa.edu.cn/szdw/qtjs.htm",
+      "profileChecked": true,
+      "decision": "include_new_pi",
+      "reason": "官方个人页的研究方向命中 AI/NLP/CV/ML、数据智能、机器人或紧密相关方向，并确认教授/研究员或独立招生资格。",
+      "evidenceUrl": "https://scse.buaa.edu.cn/info/1078/2680.htm",
+      "evidenceExcerpt": "教授 | 全体教师 研究方向包括分布式安全可信计算、WEB3.0、医疗人工智能等。 在分布式安全可信计算方向，主持“雄安数字身份体系”与“雄安链”核心技术研发，设计了基于区块链的法定数字身份与数据体系融合的新型数字身份体系，实现以个人为中心的数据治理，使“个人数据账户”落地雄安。担任科技部区块链专项国家重点研发计划《“网-信-安”一体化区块链性能模型及多层级持续协同优化关键技术研究》项目负责人，从区块链系统的“可度量性、规模可扩展性、"
+    },
+    {
+      "officialId": "deb7177d282653da",
+      "name": "周忠",
+      "title": "教授",
+      "officialSections": [
+        "全体教师"
+      ],
+      "profileUrl": "https://scse.buaa.edu.cn/info/1078/7381.htm",
+      "portraitUrl": "https://scse.buaa.edu.cn/__local/8/32/C0/AD5C74CB547FA2F40AC3F83246D_A3314449_18E60.jpg",
+      "sourcePageUrl": "https://scse.buaa.edu.cn/szdw/qtjs.htm",
+      "officialRosterUrl": "https://scse.buaa.edu.cn/szdw/qtjs.htm",
+      "profileChecked": true,
+      "decision": "excluded_non_ai_cs",
+      "reason": "已检查官方个人页及名录字段，公开研究主线未显示 AI、NLP、CV、ML、数据智能、机器人或本图谱紧密相邻方向。",
+      "evidenceUrl": "https://scse.buaa.edu.cn/info/1078/7381.htm",
+      "evidenceExcerpt": "教授 | 全体教师"
+    },
+    {
+      "officialId": "9c7a8b52eb95a001",
+      "name": "百晓",
+      "title": "教授",
+      "officialSections": [
+        "全体教师"
+      ],
+      "profileUrl": "https://scse.buaa.edu.cn/info/1078/2669.htm",
+      "portraitUrl": "https://scse.buaa.edu.cn/__local/E/0C/45/1E06C1BF6D05BFAFF9451E6A74C_39A6A359_27D1D.jpg",
+      "sourcePageUrl": "https://scse.buaa.edu.cn/szdw/qtjs.htm",
+      "officialRosterUrl": "https://scse.buaa.edu.cn/szdw/qtjs.htm",
+      "profileChecked": true,
+      "decision": "include_new_pi",
+      "reason": "官方个人页的研究方向命中 AI/NLP/CV/ML、数据智能、机器人或紧密相关方向，并确认教授/研究员或独立招生资格。",
+      "evidenceUrl": "https://scse.buaa.edu.cn/info/1078/2669.htm",
+      "evidenceExcerpt": "教授 | 全体教师 研究方向为模式识别、计算机视觉、图像处理等。2001 年毕业于北京航空航天大学计算机系，获学士学位。于2006年在英国约克大学获得博士学位。2006年9月-2009 年1 月在英国巴斯大学多媒体研究中心（Multimedia Technology Research Center）工作，任研究科学家（Research Scientist/Fellow），2009年2月起任北京航"
+    },
+    {
+      "officialId": "c53869e03ae22ce3",
+      "name": "胡凯",
+      "title": "教授",
+      "officialSections": [
+        "全体教师"
+      ],
+      "profileUrl": "https://scse.buaa.edu.cn/info/1078/2676.htm",
+      "portraitUrl": "https://scse.buaa.edu.cn/__local/0/84/03/B7BB3504FED0ACECD43F6C3A188_B609C5D2_1CD62.jpg",
+      "sourcePageUrl": "https://scse.buaa.edu.cn/szdw/qtjs.htm",
+      "officialRosterUrl": "https://scse.buaa.edu.cn/szdw/qtjs.htm",
+      "profileChecked": true,
+      "decision": "excluded_non_ai_cs",
+      "reason": "已检查官方个人页及名录字段，公开研究主线未显示 AI、NLP、CV、ML、数据智能、机器人或本图谱紧密相邻方向。",
+      "evidenceUrl": "https://scse.buaa.edu.cn/info/1078/2676.htm",
+      "evidenceExcerpt": "研究方向。2001年在北航计算机系获博士学位，2001~2003年在新加坡南洋理工大学任研究员（Research Fellow），参与多国合作的新加坡国家重点项目，合著英文专著《Anatomy of HCTS》（2006年,NUS Publishing）。2004年回国加入北航计算机学院。2011年受邀在法国雷恩一大短期客座访问，2014年在美国亚利桑那州立大学做访问学者。之前曾在航空院所工作多年，任主任设计师，主持和参与了多项航空系统大型项目研发。 目前主要研究内容包括： 区块链技术与数字经济：是国内较早从事区块链技术的研究学者之一，提出并发展了智能合约工程（SCE）、验证即服务（VaaS）等理论方法，在数字经济与区块链结合、数字经济园区规划和咨询、区块链数字治理、区块链可扩展性、多链互联和区块链形式化验证技术等方面具有深入研究和专利性成果。研发了北航区块链相关系统、浏览器、监控器、部署工具和区块链大数据管理系统（OpenData）等自主知识产权系列产品，已经应用在多个重要领域。 分布式并行计算和网络：长期从事复杂计算环境下的分布式计算系统、高性能计算、航空航天电子总线，以及天地一体"
+    },
+    {
+      "officialId": "b0e994c48e17e545",
+      "name": "陆峰",
+      "title": "教授",
+      "officialSections": [
+        "全体教师"
+      ],
+      "profileUrl": "https://scse.buaa.edu.cn/info/1078/2673.htm",
+      "portraitUrl": "https://scse.buaa.edu.cn/__local/1/B7/B7/645AF7FC7EE593D52DF721A263C_F9254AD6_1AA17.jpg",
+      "sourcePageUrl": "https://scse.buaa.edu.cn/szdw/qtjs.htm",
+      "officialRosterUrl": "https://scse.buaa.edu.cn/szdw/qtjs.htm",
+      "profileChecked": true,
+      "decision": "include_new_pi",
+      "reason": "官方个人页的研究方向命中 AI/NLP/CV/ML、数据智能、机器人或紧密相关方向，并确认教授/研究员或独立招生资格。",
+      "evidenceUrl": "https://scse.buaa.edu.cn/info/1078/2673.htm",
+      "evidenceExcerpt": "教授 | 全体教师 研究方向 ： 具身智能 、 共身智能 ；涵盖视觉与多模态感知、人机交互、虚拟/增强现实、智能硬件、认知与心理计算等方面。 长期研究目标： 让AI能够“精准快速”理解场景，并与人类“自然高效”协作，构建通用具身智能和共身智能硬软件平台，在重要行业以及日常生活中应用。 在TPAMI、IJCV、TIP、TVCG、NeurIPS、Siggraph、CVPR、ICCV、ECCV、AAA"
+    },
+    {
+      "officialId": "465fa0d95fa00895",
+      "name": "高小鹏",
+      "title": "教授",
+      "officialSections": [
+        "全体教师"
+      ],
+      "profileUrl": "https://scse.buaa.edu.cn/info/1078/2671.htm",
+      "portraitUrl": "https://scse.buaa.edu.cn/__local/A/BB/46/4ECADF03754ABD962A6047ABE94_0CE2BA9B_167A9.jpg",
+      "sourcePageUrl": "https://scse.buaa.edu.cn/szdw/qtjs.htm",
+      "officialRosterUrl": "https://scse.buaa.edu.cn/szdw/qtjs.htm",
+      "profileChecked": true,
+      "decision": "excluded_non_ai_cs",
+      "reason": "已检查官方个人页及名录字段，公开研究主线未显示 AI、NLP、CV、ML、数据智能、机器人或本图谱紧密相邻方向。",
+      "evidenceUrl": "https://scse.buaa.edu.cn/info/1078/2671.htm",
+      "evidenceExcerpt": "研究领域为计算机系统结构、嵌入式系统，当前主要研究内容包括复杂软件仿真测试验证、GPU并行、软件模拟器、FPGA及微处理器开发等。发表论文30余篇，申请国家专利10项；获国防科学技术进步2等奖1项、北京市科学技术进步2等奖1项、北京市教学成果奖1项。目前主讲研究生学位课《高等计算机体系结构》和本科生专业基础课《计算机组成原理》。 上一篇： 陆峰 下一篇： 李建欣 友情链接 中国计算机学会 北京航空航天大学 北京市教育委员会 计算机学报 软件学报 北航学报 学院简介 学院介绍 组织机构 历任领导 委员会 师资队伍 全体教师 杰出人才 科学研究 学术活动 新闻公告 学院动态 公告公示 其他通知 招生就业 本科生招生 研究生招生 就业信息 国际交流 新闻公告 党风廉政 党群动态 工会 采购管理 采购管理办法 采购公告 比价/竞价公示 通讯地址：北京市海淀区学院路37号 邮政编码：100191 电子邮箱：scse@buaa.edu.cn 版权所有：北京航空航天大学计算机学院"
+    },
+    {
+      "officialId": "b2d6c4dbe3de8a1f",
+      "name": "李建欣",
+      "title": "教授",
+      "officialSections": [
+        "全体教师"
+      ],
+      "profileUrl": "https://scse.buaa.edu.cn/info/1078/2674.htm",
+      "portraitUrl": "https://scse.buaa.edu.cn/__local/8/1A/33/F4DB2C141775D9D1005D7B0E00C_832E8BA2_12ABF.jpg",
+      "sourcePageUrl": "https://scse.buaa.edu.cn/szdw/qtjs.htm",
+      "officialRosterUrl": "https://scse.buaa.edu.cn/szdw/qtjs.htm",
+      "profileChecked": true,
+      "decision": "include_new_pi",
+      "reason": "官方个人页的研究方向命中 AI/NLP/CV/ML、数据智能、机器人或紧密相关方向，并确认教授/研究员或独立招生资格。",
+      "evidenceUrl": "https://scse.buaa.edu.cn/info/1078/2674.htm",
+      "evidenceExcerpt": "教授 | 全体教师 研究方向：大数据分析与处理、机器学习和可信计算等。 主持和参与了国家973、核高基重大专项、科技支撑、国家863计划、国家自然科学基金、香港RGC联合项目等，包括“网络空间大数据计算理论与技术”、“社交网络异常事件检测与图处理技术”、 “虚拟计算环境聚合与协同机理研究”、“国产中间件参考实现平台”、“服务网格系统CROWN”、“分布式系统的信任管理技术”等。参与编著学术专著2部，在IEEE T"
+    },
+    {
+      "officialId": "bef15ab8e0aa97dc",
+      "name": "张力军",
+      "title": "教授",
+      "officialSections": [
+        "全体教师"
+      ],
+      "profileUrl": "https://scse.buaa.edu.cn/info/1078/7379.htm",
+      "portraitUrl": "https://scse.buaa.edu.cn/__local/E/11/8C/345BAF28B0A2DC5885C975223A7_4120BF8D_24868.jpg",
+      "sourcePageUrl": "https://scse.buaa.edu.cn/szdw/qtjs.htm",
+      "officialRosterUrl": "https://scse.buaa.edu.cn/szdw/qtjs.htm",
+      "profileChecked": true,
+      "decision": "excluded_non_ai_cs",
+      "reason": "已检查官方个人页及名录字段，公开研究主线未显示 AI、NLP、CV、ML、数据智能、机器人或本图谱紧密相邻方向。",
+      "evidenceUrl": "https://scse.buaa.edu.cn/info/1078/7379.htm",
+      "evidenceExcerpt": "研究方向：计算机网络技术，计算机应用系统开发。指导过三十余名硕士研究生。 作为项目负责人主持完成了一项航空科学基金，并参加过多项国家自然科学基金和航空科学基金的研究工作。在国内外刊物和会议上发表学术论文二十余篇。负责本科生和研究生的“计算机网络实验”课程。先后获得过国家级教学成果二等奖、北京市教学成果一等奖、宝钢优秀教师奖等奖项。 邮箱：ljzhang@buaa.edu.cn，电话：010-82317611，办公室：新主楼G807 上一篇： 李建欣 下一篇： 姜宏旭 友情链接 中国计算机学会 北京航空航天大学 北京市教育委员会 计算机学报 软件学报 北航学报 学院简介 学院介绍 组织机构 历任领导 委员会 师资队伍 全体教师 杰出人才 科学研究 学术活动 新闻公告 学院动态 公告公示 其他通知 招生就业 本科生招生 研究生招生 就业信息 国际交流 新闻公告 党风廉政 党群动态 工会 采购管理 采购管理办法 采购公告 比价/竞价公示 通讯地址：北京市海淀区学院路37号 邮政编码：100191 电子邮箱：scse@buaa.edu.cn 版权所有：北京航空航天大学计算机学院"
+    },
+    {
+      "officialId": "459dba3b59bcb9c1",
+      "name": "姜宏旭",
+      "title": "教授",
+      "officialSections": [
+        "全体教师"
+      ],
+      "profileUrl": "https://scse.buaa.edu.cn/info/1078/6393.htm",
+      "portraitUrl": "https://scse.buaa.edu.cn/__local/9/3D/12/0E62C2AC2B112E7862AEF2D598C_4F29F0A3_1D379.jpg",
+      "sourcePageUrl": "https://scse.buaa.edu.cn/szdw/qtjs.htm",
+      "officialRosterUrl": "https://scse.buaa.edu.cn/szdw/qtjs.htm",
+      "profileChecked": true,
+      "decision": "include_new_pi",
+      "reason": "官方个人页的研究方向命中 AI/NLP/CV/ML、数据智能、机器人或紧密相关方向，并确认教授/研究员或独立招生资格。",
+      "evidenceUrl": "https://scse.buaa.edu.cn/info/1078/6393.htm",
+      "evidenceExcerpt": "教授 | 全体教师 研究方向包括人工智能、遥感及计算机视觉、智能计算和嵌入式实时系统等，涉及人工智能算子重构、图算融合、智能模型压缩、模型编译优化与部署加速等多方面技术。 近年承担了国家重点研发计划、装备预研、基金和企业合作等科技研发项目10余项，其中代表性研究课题包括：“多层次感知的算子协同编译优化技术”（国家科技创新2030-“新一代人工智能”项目中课题），“面向领域应用的智能算法软硬件协同计"
+    },
+    {
+      "officialId": "c240ebab4cb5715c",
+      "name": "冷彪",
+      "title": "教授",
+      "officialSections": [
+        "全体教师"
+      ],
+      "profileUrl": "https://scse.buaa.edu.cn/info/1078/7291.htm",
+      "portraitUrl": "https://scse.buaa.edu.cn/__local/1/E2/0A/DB31C200764B49CC54F7CD491C2_8D18F8E5_D94D6.jpg",
+      "sourcePageUrl": "https://scse.buaa.edu.cn/szdw/qtjs.htm",
+      "officialRosterUrl": "https://scse.buaa.edu.cn/szdw/qtjs.htm",
+      "profileChecked": true,
+      "decision": "include_new_pi",
+      "reason": "官方个人页的研究方向命中 AI/NLP/CV/ML、数据智能、机器人或紧密相关方向，并确认教授/研究员或独立招生资格。",
+      "evidenceUrl": "https://scse.buaa.edu.cn/info/1078/7291.htm",
+      "evidenceExcerpt": "教授 | 全体教师 研究方向主要包括智能体应用、多模态大模型、人工智能安全与强化学习。以第一作者或通讯作者发表学术论文60余篇，其中ESI高被引论文1篇，CCF A类论文10余篇，单篇最高引用次数过百。多篇论文收录在IEEE Trans. on Image Processing, IEEE Trans. on Visualization and Computer Graphics, IEEE Trans. on Mu"
+    },
+    {
+      "officialId": "5c19bccc10e2a434",
+      "name": "童咏昕",
+      "title": "教授",
+      "officialSections": [
+        "全体教师"
+      ],
+      "profileUrl": "https://scse.buaa.edu.cn/info/1078/8726.htm",
+      "portraitUrl": "https://scse.buaa.edu.cn/__local/0/46/0F/73EF550FBCC42C039A3CDD76B69_05A929A3_3EB27.jpg",
+      "sourcePageUrl": "https://scse.buaa.edu.cn/szdw/qtjs.htm",
+      "officialRosterUrl": "https://scse.buaa.edu.cn/szdw/qtjs.htm",
+      "profileChecked": true,
+      "decision": "include_new_pi",
+      "reason": "官方个人页的研究方向命中 AI/NLP/CV/ML、数据智能、机器人或紧密相关方向，并确认教授/研究员或独立招生资格。",
+      "evidenceUrl": "https://scse.buaa.edu.cn/info/1078/8726.htm",
+      "evidenceExcerpt": "教授 | 全体教师 研究方向包括：联邦学习、时空大数据挖掘分析、数据库系统、大模型向量数据处理与群体智能等。近年来，先后主持国家自然基金杰青项目、优青项目、重点项目、国家重点研发计划课题等科研项目。共发表学术论文百余篇，其中以第一/通讯作者在TODS、VLDBJ、TKDE、TOIS、SIGMOD、SIGKDD、VLDB等CCF-A类期刊/会议上持续发表（含接受）论文80余篇，Google Schol"
+    },
+    {
+      "officialId": "b4667b07ae759f13",
+      "name": "盛浩",
+      "title": "教授",
+      "officialSections": [
+        "全体教师"
+      ],
+      "profileUrl": "https://scse.buaa.edu.cn/info/1078/8611.htm",
+      "portraitUrl": "https://scse.buaa.edu.cn/__local/A/45/9C/019DBC14F301857EFA73456FBC1_5FE89641_188DB.jpg",
+      "sourcePageUrl": "https://scse.buaa.edu.cn/szdw/qtjs.htm",
+      "officialRosterUrl": "https://scse.buaa.edu.cn/szdw/qtjs.htm",
+      "profileChecked": true,
+      "decision": "excluded_non_ai_cs",
+      "reason": "已检查官方个人页及名录字段，公开研究主线未显示 AI、NLP、CV、ML、数据智能、机器人或本图谱紧密相邻方向。",
+      "evidenceUrl": "https://scse.buaa.edu.cn/info/1078/8611.htm",
+      "evidenceExcerpt": "教授 | 全体教师"
+    },
+    {
+      "officialId": "efc74e62ab71af1e",
+      "name": "杜博文",
+      "title": "教授",
+      "officialSections": [
+        "全体教师"
+      ],
+      "profileUrl": "https://scse.buaa.edu.cn/info/1078/7285.htm",
+      "portraitUrl": "https://scse.buaa.edu.cn/__local/4/79/41/C7E8D67ABE9448D65E35C15DDB8_41165F63_B8367.jpg",
+      "sourcePageUrl": "https://scse.buaa.edu.cn/szdw/qtjs.htm",
+      "officialRosterUrl": "https://scse.buaa.edu.cn/szdw/qtjs.htm",
+      "profileChecked": true,
+      "decision": "include_new_pi",
+      "reason": "官方个人页的研究方向命中 AI/NLP/CV/ML、数据智能、机器人或紧密相关方向，并确认教授/研究员或独立招生资格。",
+      "evidenceUrl": "https://scse.buaa.edu.cn/info/1078/7285.htm",
+      "evidenceExcerpt": "教授 | 全体教师 研究方向为时空大数据挖掘、人工智能与工程大数据。现是IEEE computational Intelligence Society TC Member，SIGKDD、AAAI等多个CCF A类会议SPC/PC，TKDE、TITS等Q1期刊审稿人，是中国土木工程学会轨道交通分会青年专家委员、中国铁道学会高速铁路委员会青年专家委员。 围绕所研究方向，主持了包括国家自然科学基金（含重大项"
+    },
+    {
+      "officialId": "1feb362541924a2d",
+      "name": "李甲",
+      "title": "教授",
+      "officialSections": [
+        "全体教师"
+      ],
+      "profileUrl": "https://scse.buaa.edu.cn/info/1078/7295.htm",
+      "portraitUrl": "https://scse.buaa.edu.cn/__local/7/F2/47/0E7FCBF705A8A8D0001327E6857_2897973F_D0FBE.jpg",
+      "sourcePageUrl": "https://scse.buaa.edu.cn/szdw/qtjs.htm",
+      "officialRosterUrl": "https://scse.buaa.edu.cn/szdw/qtjs.htm",
+      "profileChecked": true,
+      "decision": "include_new_pi",
+      "reason": "官方个人页的研究方向命中 AI/NLP/CV/ML、数据智能、机器人或紧密相关方向，并确认教授/研究员或独立招生资格。",
+      "evidenceUrl": "https://scse.buaa.edu.cn/info/1078/7295.htm",
+      "evidenceExcerpt": "教授 | 全体教师 研究领域包括计算机视觉与人工智能技术，主要研究兴趣为视觉内容感知理解与生成。先后承担国家自然科学基金重点项目、面上项目、国家863计划课题等纵向与横向项目20余项。在IEEE TPAMI、IJCV等著名国际期刊以及ICCV、CVPR等著名国际会议发表论文90余篇，包括中国计算机学会推荐的A类论文40余篇；中国美国专利申请受理70余项（美国10项），授权40余项（美国9项）；出版S"
+    },
+    {
+      "officialId": "62e602279eab2dc6",
+      "name": "欧阳元新",
+      "title": "教授",
+      "officialSections": [
+        "全体教师"
+      ],
+      "profileUrl": "https://scse.buaa.edu.cn/info/1078/7375.htm",
+      "portraitUrl": "https://scse.buaa.edu.cn/__local/1/D0/44/4FD71325A09B7669C55D0F845C3_13FA09FD_188A1.jpg",
+      "sourcePageUrl": "https://scse.buaa.edu.cn/szdw/qtjs.htm",
+      "officialRosterUrl": "https://scse.buaa.edu.cn/szdw/qtjs.htm",
+      "profileChecked": true,
+      "decision": "excluded_non_ai_cs",
+      "reason": "已检查官方个人页及名录字段，公开研究主线未显示 AI、NLP、CV、ML、数据智能、机器人或本图谱紧密相邻方向。",
+      "evidenceUrl": "https://scse.buaa.edu.cn/info/1078/7375.htm",
+      "evidenceExcerpt": "教授 | 全体教师"
+    },
+    {
+      "officialId": "ba4348fd321432fb",
+      "name": "刘祥龙",
+      "title": "教授",
+      "officialSections": [
+        "全体教师"
+      ],
+      "profileUrl": "https://scse.buaa.edu.cn/info/1078/7418.htm",
+      "portraitUrl": "https://scse.buaa.edu.cn/__local/5/77/A3/B9157286DFCED7E1FF0B9EFE7D4_1885250A_215D5.jpg",
+      "sourcePageUrl": "https://scse.buaa.edu.cn/szdw/qtjs.htm",
+      "officialRosterUrl": "https://scse.buaa.edu.cn/szdw/qtjs.htm",
+      "profileChecked": true,
+      "decision": "excluded_non_ai_cs",
+      "reason": "已检查官方个人页及名录字段，公开研究主线未显示 AI、NLP、CV、ML、数据智能、机器人或本图谱紧密相邻方向。",
+      "evidenceUrl": "https://scse.buaa.edu.cn/info/1078/7418.htm",
+      "evidenceExcerpt": "教授 | 全体教师"
+    },
+    {
+      "officialId": "2d731807cb1fc3f8",
+      "name": "荣文戈",
+      "title": "教授",
+      "officialSections": [
+        "全体教师"
+      ],
+      "profileUrl": "https://scse.buaa.edu.cn/info/1078/8622.htm",
+      "portraitUrl": "https://scse.buaa.edu.cn/__local/A/FA/0B/5FB9F9B68D1A171C4769907A850_2585946D_A9089.jpg",
+      "sourcePageUrl": "https://scse.buaa.edu.cn/szdw/qtjs.htm",
+      "officialRosterUrl": "https://scse.buaa.edu.cn/szdw/qtjs.htm",
+      "profileChecked": true,
+      "decision": "include_new_pi",
+      "reason": "官方个人页的研究方向命中 AI/NLP/CV/ML、数据智能、机器人或紧密相关方向，并确认教授/研究员或独立招生资格。",
+      "evidenceUrl": "https://scse.buaa.edu.cn/info/1078/8622.htm",
+      "evidenceExcerpt": "教授 | 全体教师 研究方向为自然语言处理、机器学习、数据挖据和信息系统等，担任Frontier of Computer Science期刊Manager Editor（2010-2012），Computer Speech & Language期刊客座编辑（2020），INLG'2019 Workshop Chair，WoWMoM'2017 Demo Chair，是ACL、EMNLP、COLIN"
+    },
+    {
+      "officialId": "5fca8706a34186ec",
+      "name": "李帅",
+      "title": "教授",
+      "officialSections": [
+        "全体教师"
+      ],
+      "profileUrl": "https://scse.buaa.edu.cn/info/1078/7416.htm",
+      "portraitUrl": "https://scse.buaa.edu.cn/__local/1/6C/E6/C9805020F8C991DB25DB6B6CF21_2AEC3CDA_27371.jpg",
+      "sourcePageUrl": "https://scse.buaa.edu.cn/szdw/qtjs.htm",
+      "officialRosterUrl": "https://scse.buaa.edu.cn/szdw/qtjs.htm",
+      "profileChecked": true,
+      "decision": "excluded_non_ai_cs",
+      "reason": "已检查官方个人页及名录字段，公开研究主线未显示 AI、NLP、CV、ML、数据智能、机器人或本图谱紧密相邻方向。",
+      "evidenceUrl": "https://scse.buaa.edu.cn/info/1078/7416.htm",
+      "evidenceExcerpt": "教授 | 全体教师"
+    },
+    {
+      "officialId": "c311398e028daafd",
+      "name": "黄迪",
+      "title": "教授",
+      "officialSections": [
+        "全体教师"
+      ],
+      "profileUrl": "https://scse.buaa.edu.cn/info/1078/7417.htm",
+      "portraitUrl": "https://scse.buaa.edu.cn/__local/4/6D/1A/D55B60B68912265DAA8F2ED29BD_BE6AF187_15F59.jpg",
+      "sourcePageUrl": "https://scse.buaa.edu.cn/szdw/qtjs.htm",
+      "officialRosterUrl": "https://scse.buaa.edu.cn/szdw/qtjs.htm",
+      "profileChecked": true,
+      "decision": "excluded_non_ai_cs",
+      "reason": "已检查官方个人页及名录字段，公开研究主线未显示 AI、NLP、CV、ML、数据智能、机器人或本图谱紧密相邻方向。",
+      "evidenceUrl": "https://scse.buaa.edu.cn/info/1078/7417.htm",
+      "evidenceExcerpt": "教授 | 全体教师"
+    },
+    {
+      "officialId": "16affeca262ec983",
+      "name": "时磊",
+      "title": "教授",
+      "officialSections": [
+        "全体教师"
+      ],
+      "profileUrl": "https://scse.buaa.edu.cn/info/1078/11535.htm",
+      "portraitUrl": "https://scse.buaa.edu.cn/__local/7/89/BE/3072C67CE76354B305679D241FA_B7D1D215_7F2C0.jpg",
+      "sourcePageUrl": "https://scse.buaa.edu.cn/szdw/qtjs.htm",
+      "officialRosterUrl": "https://scse.buaa.edu.cn/szdw/qtjs.htm",
+      "profileChecked": true,
+      "decision": "include_new_pi",
+      "reason": "官方个人页的研究方向命中 AI/NLP/CV/ML、数据智能、机器人或紧密相关方向，并确认教授/研究员或独立招生资格。",
+      "evidenceUrl": "https://scse.buaa.edu.cn/info/1078/11535.htm",
+      "evidenceExcerpt": "教授 | 全体教师 研究方向为数据挖掘、数据可视化、人工智能。曾在TVCG, VIS, CHI, TKDE, KDD, VLDB, ICML, ICLR, NeurIPS, SIGCOMM, Infocom, TC, PIEEE等国际顶尖会议及期刊上发表百余篇研究论文，出版/参编图书3部。Google Scholar论文总引用4500余次，50 篇主要论文 SCI 引用上千次，包括美国科学院/工"
+    },
+    {
+      "officialId": "e5ff05335a25c8e8",
+      "name": "翁敬农",
+      "title": "教授",
+      "officialSections": [
+        "全体教师"
+      ],
+      "profileUrl": "https://scse.buaa.edu.cn/info/1078/8827.htm",
+      "portraitUrl": "https://scse.buaa.edu.cn/__local/8/AA/63/781D46ABEC0F37083205BB461D9_15AA3456_488E.jpg",
+      "sourcePageUrl": "https://scse.buaa.edu.cn/szdw/qtjs.htm",
+      "officialRosterUrl": "https://scse.buaa.edu.cn/szdw/qtjs.htm",
+      "profileChecked": true,
+      "decision": "include_new_pi",
+      "reason": "官方个人页的研究方向命中 AI/NLP/CV/ML、数据智能、机器人或紧密相关方向，并确认教授/研究员或独立招生资格。",
+      "evidenceUrl": "https://scse.buaa.edu.cn/info/1078/8827.htm",
+      "evidenceExcerpt": "教授 | 全体教师 研究方向：数字地球、地理信息系统、数据挖掘、来华留学教育等。 上一篇： 时磊 下一篇： 潘俊君 友情链接 中国计算机学会 北京航空航天大学 北京市教育委员会 计算机学报 软件学报 北航学报 学院简介 学院介绍 组织机构 历任领导 委员会 师资队伍 全体教师 杰出人才 科学研究 学术活动 新闻公告 学院动态 公告公示 其他通知 招生就业 本科生招生 研究生招生 就业信息 国际交流 新闻公告 党风廉政"
+    },
+    {
+      "officialId": "8a3e13629cac68d2",
+      "name": "潘俊君",
+      "title": "教授",
+      "officialSections": [
+        "全体教师"
+      ],
+      "profileUrl": "https://scse.buaa.edu.cn/info/1078/8380.htm",
+      "portraitUrl": "https://scse.buaa.edu.cn/__local/2/9A/86/069906D2D38FEE6724A5140433F_683C9476_22079.jpg",
+      "sourcePageUrl": "https://scse.buaa.edu.cn/szdw/qtjs.htm",
+      "officialRosterUrl": "https://scse.buaa.edu.cn/szdw/qtjs.htm",
+      "profileChecked": true,
+      "decision": "include_new_pi",
+      "reason": "官方个人页的研究方向命中 AI/NLP/CV/ML、数据智能、机器人或紧密相关方向，并确认教授/研究员或独立招生资格。",
+      "evidenceUrl": "https://scse.buaa.edu.cn/info/1078/8380.htm",
+      "evidenceExcerpt": "教授 | 全体教师 研究方向包括：虚拟手术，计算机动画，医学可视化等。在IEEE Transactions on Medical Imaging， IEEE VR等国内外顶级及知名期刊、学术会议上发表60余篇学术论文，并担任多部国际期刊的评审人。授权专利12项（含美国专利2项），软件著作权7项，成果技术转化3项，是北航“青年拔尖人才”、“英国皇家学会牛顿基金”获得者。目前已承担包括3项国家自然科学基金，1项人社部优秀归国人"
+    },
+    {
+      "officialId": "959dc90191417d63",
+      "name": "张日崇",
+      "title": "教授",
+      "officialSections": [
+        "全体教师"
+      ],
+      "profileUrl": "https://scse.buaa.edu.cn/info/1078/8381.htm",
+      "portraitUrl": "https://scse.buaa.edu.cn/__local/7/26/B8/371308E4A9DA694449108F794DC_AAFD4545_22721.jpg",
+      "sourcePageUrl": "https://scse.buaa.edu.cn/szdw/qtjs.htm",
+      "officialRosterUrl": "https://scse.buaa.edu.cn/szdw/qtjs.htm",
+      "profileChecked": true,
+      "decision": "excluded_non_ai_cs",
+      "reason": "已检查官方个人页及名录字段，公开研究主线未显示 AI、NLP、CV、ML、数据智能、机器人或本图谱紧密相邻方向。",
+      "evidenceUrl": "https://scse.buaa.edu.cn/info/1078/8381.htm",
+      "evidenceExcerpt": "教授 | 全体教师"
+    },
+    {
+      "officialId": "e130c8f7eb094335",
+      "name": "王静远",
+      "title": "教授",
+      "officialSections": [
+        "全体教师"
+      ],
+      "profileUrl": "https://scse.buaa.edu.cn/info/1078/8382.htm",
+      "portraitUrl": "https://scse.buaa.edu.cn/__local/9/4C/5E/E4B0B4471273311D2732E0CF07E_84E07F8E_18957.jpg",
+      "sourcePageUrl": "https://scse.buaa.edu.cn/szdw/qtjs.htm",
+      "officialRosterUrl": "https://scse.buaa.edu.cn/szdw/qtjs.htm",
+      "profileChecked": true,
+      "decision": "include_new_pi",
+      "reason": "官方个人页的研究方向命中 AI/NLP/CV/ML、数据智能、机器人或紧密相关方向，并确认教授/研究员或独立招生资格。",
+      "evidenceUrl": "https://scse.buaa.edu.cn/info/1078/8382.htm",
+      "evidenceExcerpt": "教授 | 全体教师 研究兴趣包括时空数据挖掘、可解释人工智能、城市计算与智慧城市等。在信息科学、管理科学、城市科学的交叉领域形成了一系列理论与实践应用并重、跨学科特色鲜明的科研成果。 主持国家重点研发计划课题1项、国家自然科学基金国际(地区)合作与交流项目1项、重大研究计划项目培育项目1项、面上项目2项、青年基金项目1项，参与国家重点研发计划、国家自然基金重点项目、863“智慧城市”主题项目等国家和省"
+    },
+    {
+      "officialId": "c7a2d7b9d0a8b918",
+      "name": "刘瑞",
+      "title": "教授",
+      "officialSections": [
+        "全体教师"
+      ],
+      "profileUrl": "https://scse.buaa.edu.cn/info/1078/8383.htm",
+      "portraitUrl": "https://scse.buaa.edu.cn/__local/5/0F/71/5BF591A8F6D49CAE7BB9A400355_522C9F0A_18B14.jpg",
+      "sourcePageUrl": "https://scse.buaa.edu.cn/szdw/qtjs.htm",
+      "officialRosterUrl": "https://scse.buaa.edu.cn/szdw/qtjs.htm",
+      "profileChecked": true,
+      "decision": "excluded_non_ai_cs",
+      "reason": "已检查官方个人页及名录字段，公开研究主线未显示 AI、NLP、CV、ML、数据智能、机器人或本图谱紧密相邻方向。",
+      "evidenceUrl": "https://scse.buaa.edu.cn/info/1078/8383.htm",
+      "evidenceExcerpt": "教授 | 全体教师"
+    },
+    {
+      "officialId": "961fee4c5029008f",
+      "name": "王雷",
+      "title": "教授",
+      "officialSections": [
+        "全体教师"
+      ],
+      "profileUrl": "https://scse.buaa.edu.cn/info/1078/8384.htm",
+      "portraitUrl": "https://scse.buaa.edu.cn/__local/9/FA/EF/2C46E61492EE88AA10E6B1F05C3_4BE6CD4D_B84E8.jpg",
+      "sourcePageUrl": "https://scse.buaa.edu.cn/szdw/qtjs.htm",
+      "officialRosterUrl": "https://scse.buaa.edu.cn/szdw/qtjs.htm",
+      "profileChecked": true,
+      "decision": "include_new_pi",
+      "reason": "官方个人页的研究方向命中 AI/NLP/CV/ML、数据智能、机器人或紧密相关方向，并确认教授/研究员或独立招生资格。",
+      "evidenceUrl": "https://scse.buaa.edu.cn/info/1078/8384.htm",
+      "evidenceExcerpt": "教授 | 全体教师 研究方向为： 1． 面向自动驾驶等混合安全领域的高安全、强实时虚拟化技术 2． 面向大规模并行应用的性能分析与优化技术 3． 操作系统结构演化研究、面向GPU、DSP等异构资源管理的操作系统设计 上一篇： 刘瑞 下一篇： 胡海苗 友情链接 中国计算机学会 北京航空航天大学 北京市教育委员会 计算机学报 软件学报 北航学报 学院简介 学院介绍 组织机构 历任领导 委员会 师资队伍 全体教师"
+    },
+    {
+      "officialId": "a0f50213162b9b71",
+      "name": "胡海苗",
+      "title": "教授",
+      "officialSections": [
+        "全体教师"
+      ],
+      "profileUrl": "https://scse.buaa.edu.cn/info/1078/8385.htm",
+      "portraitUrl": "https://scse.buaa.edu.cn/__local/6/CB/24/1DFE64B3EACE7A7E36242D2BB8C_A872AEC5_224EF.jpg",
+      "sourcePageUrl": "https://scse.buaa.edu.cn/szdw/qtjs.htm",
+      "officialRosterUrl": "https://scse.buaa.edu.cn/szdw/qtjs.htm",
+      "profileChecked": true,
+      "decision": "excluded_non_ai_cs",
+      "reason": "已检查官方个人页及名录字段，公开研究主线未显示 AI、NLP、CV、ML、数据智能、机器人或本图谱紧密相邻方向。",
+      "evidenceUrl": "https://scse.buaa.edu.cn/info/1078/8385.htm",
+      "evidenceExcerpt": "教授 | 全体教师"
+    },
+    {
+      "officialId": "52f49b7581a08ea3",
+      "name": "袁源",
+      "title": "教授",
+      "officialSections": [
+        "全体教师"
+      ],
+      "profileUrl": "https://scse.buaa.edu.cn/info/1078/8386.htm",
+      "portraitUrl": "https://scse.buaa.edu.cn/__local/1/45/C5/7BBF10AFCB78B9C5ADEAAE4C2DD_92F1F968_13C08.jpg",
+      "sourcePageUrl": "https://scse.buaa.edu.cn/szdw/qtjs.htm",
+      "officialRosterUrl": "https://scse.buaa.edu.cn/szdw/qtjs.htm",
+      "profileChecked": true,
+      "decision": "include_new_pi",
+      "reason": "官方个人页的研究方向命中 AI/NLP/CV/ML、数据智能、机器人或紧密相关方向，并确认教授/研究员或独立招生资格。",
+      "evidenceUrl": "https://scse.buaa.edu.cn/info/1078/8386.htm",
+      "evidenceExcerpt": "教授 | 全体教师 研究领域包括计算智能、机器学习、智能软件工程、多目标优化等。迄今为止，以第一作者在IEEE TSE、IEEE TEVC、AIJ、IEEE TASE、ACM TOSEM、ACM GECCO等国际顶级学术期刊和会议发表论文十余篇，谷歌学术总引用3200余次，4篇论文为ESI高被引论文，1篇论文入选中国百篇最具影响国际学术论文。作为项目骨干曾主持或参与02科技重大专项子项目、国家自然"
+    },
+    {
+      "officialId": "696368fbc62bae1a",
+      "name": "刘磊",
+      "title": "教授",
+      "officialSections": [
+        "全体教师"
+      ],
+      "profileUrl": "https://scse.buaa.edu.cn/info/1078/8843.htm",
+      "portraitUrl": "https://scse.buaa.edu.cn/__local/7/F8/CC/0D892BFADDAC3F05526052C33F1_6C417AFD_711D.jpg",
+      "sourcePageUrl": "https://scse.buaa.edu.cn/szdw/qtjs.htm",
+      "officialRosterUrl": "https://scse.buaa.edu.cn/szdw/qtjs.htm",
+      "profileChecked": true,
+      "decision": "excluded_non_ai_cs",
+      "reason": "已检查官方个人页及名录字段，公开研究主线未显示 AI、NLP、CV、ML、数据智能、机器人或本图谱紧密相邻方向。",
+      "evidenceUrl": "https://scse.buaa.edu.cn/info/1078/8843.htm",
+      "evidenceExcerpt": "教授 | 全体教师"
+    },
+    {
+      "officialId": "d64cbe7405fa5d5f",
+      "name": "张永飞",
+      "title": "教授",
+      "officialSections": [
+        "全体教师"
+      ],
+      "profileUrl": "https://scse.buaa.edu.cn/info/1078/9215.htm",
+      "portraitUrl": "https://scse.buaa.edu.cn/__local/9/EA/D8/0BA985079FE44D6E451505C8BA6_59B709C1_20312.jpg",
+      "sourcePageUrl": "https://scse.buaa.edu.cn/szdw/qtjs.htm",
+      "officialRosterUrl": "https://scse.buaa.edu.cn/szdw/qtjs.htm",
+      "profileChecked": true,
+      "decision": "include_new_pi",
+      "reason": "官方个人页的研究方向命中 AI/NLP/CV/ML、数据智能、机器人或紧密相关方向，并确认教授/研究员或独立招生资格。",
+      "evidenceUrl": "https://scse.buaa.edu.cn/info/1078/9215.htm",
+      "evidenceExcerpt": "教授 | 全体教师 研究方向包括视觉智能分析理解、跨时空目标关联、视觉生成与质量评价、多模态视觉感知与知识图谱推理及其应用等。主持新一代人工智能重大项目课题、国家自然科学基金面上项目（2012/2017/2020/2024）、航天基金等基础研究项目，中国科协战略咨询项目和海康威视、中国电科、中船重工、中石油等合作研究/应用项目；参与国家重点研发计划（子课题负责人）、国家自然科学基金重点项目（子"
+    },
+    {
+      "officialId": "41787cc3b7c6c1b2",
+      "name": "艾明晶",
+      "title": "教授",
+      "officialSections": [
+        "全体教师"
+      ],
+      "profileUrl": "https://scse.buaa.edu.cn/info/1078/9216.htm",
+      "portraitUrl": "https://scse.buaa.edu.cn/__local/B/9B/59/9D7CBB2E537C37EF31403E1791E_826AA2B4_9C0F9.jpg",
+      "sourcePageUrl": "https://scse.buaa.edu.cn/szdw/qtjs.htm",
+      "officialRosterUrl": "https://scse.buaa.edu.cn/szdw/qtjs.htm",
+      "profileChecked": true,
+      "decision": "include_new_pi",
+      "reason": "官方个人页的研究方向命中 AI/NLP/CV/ML、数据智能、机器人或紧密相关方向，并确认教授/研究员或独立招生资格。",
+      "evidenceUrl": "https://scse.buaa.edu.cn/info/1078/9216.htm",
+      "evidenceExcerpt": "教授 | 全体教师 研究方向为虚拟现实、图像处理、视频编码和嵌入式系统等。近年来主持并完成国家重要科研项目多项，包括国家863计划课题、总装预研项目、VR国家重点实验室自主课题等；参与完成国家863计划项目课题和国家自然科学基金项目多项。作为项目骨干，目前正在参与国家重点研发计划“ 城市空间采集、建模与虚实融合动态仿真系统 ”项目和国家自然基金项目“ 基于虚实场景融合的跨相机目标重识别与轨迹关联技术"
+    },
+    {
+      "officialId": "459f78031b9eb206",
+      "name": "姜博",
+      "title": "教授",
+      "officialSections": [
+        "全体教师"
+      ],
+      "profileUrl": "https://scse.buaa.edu.cn/info/1078/9989.htm",
+      "portraitUrl": "https://scse.buaa.edu.cn/__local/D/4D/FD/2DAE3E0311E43D2F2FA71CED56A_F1A04BD8_E43F1.jpg",
+      "sourcePageUrl": "https://scse.buaa.edu.cn/szdw/qtjs.htm",
+      "officialRosterUrl": "https://scse.buaa.edu.cn/szdw/qtjs.htm",
+      "profileChecked": true,
+      "decision": "excluded_non_ai_cs",
+      "reason": "已检查官方个人页及名录字段，公开研究主线未显示 AI、NLP、CV、ML、数据智能、机器人或本图谱紧密相邻方向。",
+      "evidenceUrl": "https://scse.buaa.edu.cn/info/1078/9989.htm",
+      "evidenceExcerpt": "研究方向为软件测试、系统安全和操作系统。他目前主持和参与的项目包括国家重点研发计划，国家自然科学基金面上项目和重点项目，以及多项企业（华为，腾讯，滴滴，中海油等）合作课题。近年来在国际知名期刊和会议共发表学术论文60余篇，包括多篇软件工程和系统软件领域的文章（ASE FSE VLDB IEEE TC JSA JSS IST IEEE T-Reliability IEEE TSC TOSEM），并4次获得国际会议最佳论文。他还担任COMPSAC, ICWS15, APSEC12, QSIC，QRS等国际会议的程序委员会委员，并作为TOSEM，TSE，JSS，IST，TSE，ASEJ，Science China Information Sciences, ASE, COMPSAC, QRS等多个期刊和会议的审稿人。他曾担任软件工程领域著名期刊的Journal of Systems and Software的Guest Editor。目前承担《操作系统》《操作系统课程设计》本科专业核心课程的教学。个人主页：http://jiangbo.buaa.edu.cn/ 联系方式： 电邮：gongbe"
+    },
+    {
+      "officialId": "c11cce03e2061d27",
+      "name": "杨海龙",
+      "title": "教授",
+      "officialSections": [
+        "全体教师"
+      ],
+      "profileUrl": "https://scse.buaa.edu.cn/info/1078/10856.htm",
+      "portraitUrl": "https://scse.buaa.edu.cn/__local/8/34/27/D4BD48F51F7A05668C54128CA38_41A19E46_1D6ED.jpg",
+      "sourcePageUrl": "https://scse.buaa.edu.cn/szdw/qtjs.htm",
+      "officialRosterUrl": "https://scse.buaa.edu.cn/szdw/qtjs.htm",
+      "profileChecked": true,
+      "decision": "include_new_pi",
+      "reason": "官方个人页的研究方向命中 AI/NLP/CV/ML、数据智能、机器人或紧密相关方向，并确认教授/研究员或独立招生资格。",
+      "evidenceUrl": "https://scse.buaa.edu.cn/info/1078/10856.htm",
+      "evidenceExcerpt": "教授 | 全体教师 研究方向为深度学习编译优化技术、大模型训推系统、高性能计算、性能分析与优化、稀疏数值算法。主持国家重点研发计划项目、国家自然科学基金项目等多项国家级科研项目。目前已在SC、ISCA、ASPLOS、PLDI、ICSE、PPoPP、TPDS、TC、TOCS、TACO等国际顶级/知名会议和期刊上发表学术论文60余篇，授权发明专利22项。获校级教学优秀三等奖一项，校级优秀教材二等奖一"
+    },
+    {
+      "officialId": "f29f744f77b8c70d",
+      "name": "许润华",
+      "title": "教授",
+      "officialSections": [
+        "全体教师"
+      ],
+      "profileUrl": "https://scse.buaa.edu.cn/info/1078/11031.htm",
+      "portraitUrl": "https://scse.buaa.edu.cn/__local/4/72/32/E54721E392CE513BE70A13FCAB7_F1CA2634_1C99A.jpg",
+      "sourcePageUrl": "https://scse.buaa.edu.cn/szdw/qtjs.htm",
+      "officialRosterUrl": "https://scse.buaa.edu.cn/szdw/qtjs.htm",
+      "profileChecked": true,
+      "decision": "include_new_pi",
+      "reason": "官方个人页的研究方向命中 AI/NLP/CV/ML、数据智能、机器人或紧密相关方向，并确认教授/研究员或独立招生资格。",
+      "evidenceUrl": "https://scse.buaa.edu.cn/info/1078/11031.htm",
+      "evidenceExcerpt": "教授 | 全体教师 研究领域包括数据隐私安全增强技术、密态计算、人工智能隐私安全，在ACM CCS、TDSC、TOIT、SRDS、ICDCS、CLOUD、AISec等国内外会议期刊上累计发表学术论文25篇，撰写英文专著2章节，申请授权美国专利6项，获得ACM CCS 2023杰出论文奖、2023年度中国区块链优秀论文奖励、IEEE CLOUD 2022最佳论文奖。主持国家自然科学基金青年项目1项，承担北航青年人才发展“双一流”"
+    },
+    {
+      "officialId": "e46eab0716ae4500",
+      "name": "王德庆",
+      "title": "教授",
+      "officialSections": [
+        "全体教师"
+      ],
+      "profileUrl": "https://scse.buaa.edu.cn/info/1078/11323.htm",
+      "portraitUrl": "https://scse.buaa.edu.cn/__local/3/94/61/0A4007B7E569BFD8F22DB9C772D_9AABFC3D_5CDFD.jpg",
+      "sourcePageUrl": "https://scse.buaa.edu.cn/szdw/qtjs.htm",
+      "officialRosterUrl": "https://scse.buaa.edu.cn/szdw/qtjs.htm",
+      "profileChecked": true,
+      "decision": "included_existing",
+      "atlasPersonId": "deqing-wang-buaa",
+      "reason": "图谱已有同一人物 deqing-wang-buaa；官方名录/个人页确认其当前属于北京航空航天大学计算机学院。",
+      "evidenceUrl": "https://scse.buaa.edu.cn/info/1078/11323.htm",
+      "evidenceExcerpt": "教授 | 全体教师 研究方向为大模型、自然语言处理、图神经网络、科技大数据分析与挖掘。作为负责人承担重点项目1项，重点研发计划课题2项，自然基金2项，省部级课题5项，企业课题10项。作为负责人研发颠覆新技术感知响应平台、产业人才大数据平台、科技搜索2.0、科技情报监测预警平台、标准大数据平台。 “国家科技资源大数据理解与融合分析”获省部级技术发明一等奖1项。在大数据分析、数据挖掘等顶级期刊TK"
+    },
+    {
+      "officialId": "147bde221cfec02a",
+      "name": "蒲菊华",
+      "title": "教授",
+      "officialSections": [
+        "全体教师"
+      ],
+      "profileUrl": "https://scse.buaa.edu.cn/info/1078/11340.htm",
+      "portraitUrl": "https://scse.buaa.edu.cn/__local/2/5A/83/5E9C1BE5F4C4BEFFD10BF9C5A85_862223FE_27E65.jpg",
+      "sourcePageUrl": "https://scse.buaa.edu.cn/szdw/qtjs.htm",
+      "officialRosterUrl": "https://scse.buaa.edu.cn/szdw/qtjs.htm",
+      "profileChecked": true,
+      "decision": "excluded_non_ai_cs",
+      "reason": "已检查官方个人页及名录字段，公开研究主线未显示 AI、NLP、CV、ML、数据智能、机器人或本图谱紧密相邻方向。",
+      "evidenceUrl": "https://scse.buaa.edu.cn/info/1078/11340.htm",
+      "evidenceExcerpt": "研究领域为智慧城市、城市计算和大数据分析。与佐治亚理工大学、南加州大学、苏黎世联邦理工学院、阿卜杜拉国王科技大学、香港科技大学、香港城市大学等境外知名大学都有良好的合作关系。 近年来，作为项目负责人和执行负责人，蒲菊华博士先后主持实施了国家自然科学基金项目2项、国家重点研发计划课题1项/子课题3项、863计划重点课题1项、“十一五”国家科技支撑计划重大项目1项，以及博士点创新基金、北京市市政科技项目、深圳市创新基金等省部级项目8项。并承担过包括南水北调中线干线工程建设管理系统、香港地下铁弱电系统、香港边境围网安防系统、人民大会堂电子会议系统等重大横向科研项目的研究。参与制定智慧城市国家标准5项，发表学术论文60余篇，授权国家发明专利近40项，并有多项获得转化。 在教学与人才培养方面，蒲菊华博士讲授本科生核心课《数据结构与程序设计》和《计算机导论与伦理学》、研究生素养课《计算机职业素养践》、以及留学生课程《Data Structure》，是士谔书院学业导师。毕业生去向包括微软、360、百度、字节跳动、滴滴大数据实验室、网易等国内外知名企业、以及中信/农行/建行等银行系统工作，并有多名毕业"
+    },
+    {
+      "officialId": "c6b666d4974aeeb3",
+      "name": "杨建磊",
+      "title": "教授",
+      "officialSections": [
+        "全体教师"
+      ],
+      "profileUrl": "https://scse.buaa.edu.cn/info/1078/11662.htm",
+      "portraitUrl": "https://scse.buaa.edu.cn/__local/8/E0/3E/90D990CFF5B7F497A1AAF046B6C_1E026221_48D79.jpg",
+      "sourcePageUrl": "https://scse.buaa.edu.cn/szdw/qtjs.htm",
+      "officialRosterUrl": "https://scse.buaa.edu.cn/szdw/qtjs.htm",
+      "profileChecked": true,
+      "decision": "include_new_pi",
+      "reason": "官方个人页的研究方向命中 AI/NLP/CV/ML、数据智能、机器人或紧密相关方向，并确认教授/研究员或独立招生资格。",
+      "evidenceUrl": "https://scse.buaa.edu.cn/info/1078/11662.htm",
+      "evidenceExcerpt": "教授 | 全体教师 研究领域包括：智能计算系统、机器学习系统、大模型计算加速、高能效智能芯片、存内计算架构等。目前在 DAC 、 ICCAD 、 KDD 、 ICCV 、 ECCV 、 CIKM 、 TCAD 、 TC 、 TVLSI 、 TNNLS 等高水平国际学术会议或期刊上发表论文 100 余篇。主持国家自然科学基金项目 2 项、国家重点研发计划 2 项、北京市自然科学基金 - 小米联合基金项"
+    },
+    {
+      "officialId": "312a3a80b4df823b",
+      "name": "刘庆杰",
+      "title": "教授",
+      "officialSections": [
+        "全体教师"
+      ],
+      "profileUrl": "https://scse.buaa.edu.cn/info/1078/11957.htm",
+      "portraitUrl": "https://scse.buaa.edu.cn/__local/F/0F/F9/AFF964349D4C3A4F470A49A8141_4217FC9A_90F8A.jpg",
+      "sourcePageUrl": "https://scse.buaa.edu.cn/szdw/qtjs.htm",
+      "officialRosterUrl": "https://scse.buaa.edu.cn/szdw/qtjs.htm",
+      "profileChecked": true,
+      "decision": "include_new_pi",
+      "reason": "官方个人页的研究方向命中 AI/NLP/CV/ML、数据智能、机器人或紧密相关方向，并确认教授/研究员或独立招生资格。",
+      "evidenceUrl": "https://scse.buaa.edu.cn/info/1078/11957.htm",
+      "evidenceExcerpt": "教授 | 全体教师 研究方向为计算机视觉，具体包括目标检测、视频跟踪、多模态大模型等，已在NeurIPS、CVPR、ICML、ICCV、ECCV、AAAI、IJCAI、ACM MM、IJCV、IEEE TIP、IEEE TMM、IEEE TGRS等国际重要期刊与会议中累计发表论文70余篇（其中ESI高被引论文3篇），论文累计被引用7700+次，授权专利20项，入选2023、2024年度“全球前2%"
+    },
+    {
+      "officialId": "1d27d7a04b0226f7",
+      "name": "李博",
+      "title": "教授",
+      "officialSections": [
+        "全体教师"
+      ],
+      "profileUrl": "https://scse.buaa.edu.cn/info/1078/11964.htm",
+      "portraitUrl": "https://scse.buaa.edu.cn/__local/6/11/41/9F8301EF4961B87D12E295DCFE2_FC63EDDC_24AFA.jpg",
+      "sourcePageUrl": "https://scse.buaa.edu.cn/szdw/qtjs.htm",
+      "officialRosterUrl": "https://scse.buaa.edu.cn/szdw/qtjs.htm",
+      "profileChecked": true,
+      "decision": "excluded_non_ai_cs",
+      "reason": "已检查官方个人页及名录字段，公开研究主线未显示 AI、NLP、CV、ML、数据智能、机器人或本图谱紧密相邻方向。",
+      "evidenceUrl": "https://scse.buaa.edu.cn/info/1078/11964.htm",
+      "evidenceExcerpt": "教授 | 全体教师"
+    },
+    {
+      "officialId": "370115e24238d8be",
+      "name": "汪淼",
+      "title": "教授",
+      "officialSections": [
+        "全体教师"
+      ],
+      "profileUrl": "https://scse.buaa.edu.cn/info/1078/11962.htm",
+      "portraitUrl": "https://scse.buaa.edu.cn/__local/D/3F/DE/93D6C443B915471F881969C6DC2_2CCF9CD0_28F9C.jpg",
+      "sourcePageUrl": "https://scse.buaa.edu.cn/szdw/qtjs.htm",
+      "officialRosterUrl": "https://scse.buaa.edu.cn/szdw/qtjs.htm",
+      "profileChecked": true,
+      "decision": "excluded_non_ai_cs",
+      "reason": "已检查官方个人页及名录字段，公开研究主线未显示 AI、NLP、CV、ML、数据智能、机器人或本图谱紧密相邻方向。",
+      "evidenceUrl": "https://scse.buaa.edu.cn/info/1078/11962.htm",
+      "evidenceExcerpt": "教授 | 全体教师"
+    },
+    {
+      "officialId": "ac9b7f4ad2948c1c",
+      "name": "王睿杰",
+      "title": "教授",
+      "officialSections": [
+        "全体教师"
+      ],
+      "profileUrl": "https://scse.buaa.edu.cn/info/1078/12025.htm",
+      "portraitUrl": "https://scse.buaa.edu.cn/__local/9/6D/46/7A1F46ADAD16626320246E7C5DC_6147B834_854C3.jpg",
+      "sourcePageUrl": "https://scse.buaa.edu.cn/szdw/qtjs.htm",
+      "officialRosterUrl": "https://scse.buaa.edu.cn/szdw/qtjs.htm",
+      "profileChecked": true,
+      "decision": "included_existing",
+      "atlasPersonId": "ruijie-wang-buaa",
+      "reason": "图谱已有同一人物 ruijie-wang-buaa；官方名录/个人页确认其当前属于北京航空航天大学计算机学院。",
+      "evidenceUrl": "https://scse.buaa.edu.cn/info/1078/12025.htm",
+      "evidenceExcerpt": "教授 | 全体教师 研究方向为开放动态环境下的可信高效人工智能，涵盖自然语言、图与时间序列等数据的理论技术研究。旨在开发多模态可泛化基础模型及系统，利用结构化知识实现可靠的感知、推理与决策，其应用涵盖推荐系统、智能体及科学计算等领域。在NeurIPS、ACL、KDD、WWW、SIGIR、INFOCOM等国际知名会议与期刊上发表论文40余篇，其中CCF-A类论文20余篇，包括NeurIPS、ACL、WWW、KDD等一作/"
+    },
+    {
+      "officialId": "d55d10d73d10c518",
+      "name": "高阳",
+      "title": "教授",
+      "officialSections": [
+        "全体教师"
+      ],
+      "profileUrl": "https://scse.buaa.edu.cn/info/1078/12180.htm",
+      "portraitUrl": "https://scse.buaa.edu.cn/__local/F/CD/E1/C5CCB976FEAF5BEAAF7221D88D4_A23ABB8C_1EA07.jpg",
+      "sourcePageUrl": "https://scse.buaa.edu.cn/szdw/qtjs.htm",
+      "officialRosterUrl": "https://scse.buaa.edu.cn/szdw/qtjs.htm",
+      "profileChecked": true,
+      "decision": "include_new_pi",
+      "reason": "官方个人页的研究方向命中 AI/NLP/CV/ML、数据智能、机器人或紧密相关方向，并确认教授/研究员或独立招生资格。",
+      "evidenceUrl": "https://scse.buaa.edu.cn/info/1078/12180.htm",
+      "evidenceExcerpt": "教授 | 全体教师 研究方向为虚实融合场景建模仿真与交互、VR+医疗康复应用技术研究，包括可视化物理仿真、真实感绘制、虚拟人仿真及虚实融合脑机康复技术研究等。长期研究目标是围绕虚拟医疗及虚拟人体关键技术，探索从真实感图形仿真到物理、生理仿真及智能场景生成关键技术，实现沉浸感强、物理真实、智能可交互的VR/AR应用。 目前担任信息大类本科生《数据结构与程序设计》和虚拟现实专业课《 虚拟现实应用基础技术》主讲教师。长期接收本科生加入课题组进行科研实习。 上"
+    },
+    {
+      "officialId": "d81a63b747da37ce",
+      "name": "班义琨",
+      "title": "教授",
+      "officialSections": [
+        "全体教师"
+      ],
+      "profileUrl": "https://scse.buaa.edu.cn/info/1078/12265.htm",
+      "portraitUrl": "https://scse.buaa.edu.cn/__local/F/D8/08/D09DA5DF5BA8BEC83CD3475FA90_7758DC77_1C712.jpg",
+      "sourcePageUrl": "https://scse.buaa.edu.cn/szdw/qtjs.htm",
+      "officialRosterUrl": "https://scse.buaa.edu.cn/szdw/qtjs.htm",
+      "profileChecked": true,
+      "decision": "include_new_pi",
+      "reason": "官方个人页的研究方向命中 AI/NLP/CV/ML、数据智能、机器人或紧密相关方向，并确认教授/研究员或独立招生资格。",
+      "evidenceUrl": "https://scse.buaa.edu.cn/info/1078/12265.htm",
+      "evidenceExcerpt": "教授 | 全体教师 研究方向涵盖强化学习、大语言模型与具身智能等前沿领域，在NeurIPS、ICLR、JMLR、KDD、WWW等顶级会议及期刊发表论文40余篇，其中以一作或通讯作者身份发表20余篇，一作/通讯身份获得oral、spotlight等，多篇工作被机器之心、新浪等多家媒体报道。曾在美国多家知名企业担任科研实习生，其研究成果集成于亚马逊云平台、美国Instacart、美国梅森诊所等，曾参与"
+    },
+    {
+      "officialId": "442f9719f83f2a95",
+      "name": "马新柱",
+      "title": "教授",
+      "officialSections": [
+        "全体教师"
+      ],
+      "profileUrl": "https://scse.buaa.edu.cn/info/1078/12274.htm",
+      "portraitUrl": "https://scse.buaa.edu.cn/__local/9/F4/AC/A571CCB6998DC9201C98713ACC0_2C02BD9C_48EE.jpg",
+      "sourcePageUrl": "https://scse.buaa.edu.cn/szdw/qtjs.htm",
+      "officialRosterUrl": "https://scse.buaa.edu.cn/szdw/qtjs.htm",
+      "profileChecked": true,
+      "decision": "include_new_pi",
+      "reason": "官方个人页的研究方向命中 AI/NLP/CV/ML、数据智能、机器人或紧密相关方向，并确认教授/研究员或独立招生资格。",
+      "evidenceUrl": "https://scse.buaa.edu.cn/info/1078/12274.htm",
+      "evidenceExcerpt": "教授 | 全体教师 研究方向为三维视觉、具身智能、AI4Science等，在CVPR、ICCV、ECCV、NeurIPS、ICLR、TPAMI、TIP等计算机视觉及人工智能领域顶级会议、期刊发表论文30余篇，相关成果应用在自动驾驶、机器人、科学发现等领域。 上一篇： 班义琨 下一篇： 黄斐然 友情链接 中国计算机学会 北京航空航天大学 北京市教育委员会 计算机学报 软件学报 北航学报 学院简介"
+    },
+    {
+      "officialId": "0c7f7a30c64ce812",
+      "name": "黄斐然",
+      "title": "教授",
+      "officialSections": [
+        "全体教师"
+      ],
+      "profileUrl": "https://scse.buaa.edu.cn/info/1078/12338.htm",
+      "portraitUrl": "https://scse.buaa.edu.cn/__local/2/92/D6/92436313AF6A76137BB1D08F2A5_79021566_29DDB.jpg",
+      "sourcePageUrl": "https://scse.buaa.edu.cn/szdw/qtjs.htm",
+      "officialRosterUrl": "https://scse.buaa.edu.cn/szdw/qtjs.htm",
+      "profileChecked": true,
+      "decision": "included_existing",
+      "atlasPersonId": "feiran-huang-buaa",
+      "reason": "图谱已有同一人物 feiran-huang-buaa；官方名录/个人页确认其当前属于北京航空航天大学计算机学院。",
+      "evidenceUrl": "https://scse.buaa.edu.cn/info/1078/12338.htm",
+      "evidenceExcerpt": "教授 | 全体教师"
+    }
+  ]
+}

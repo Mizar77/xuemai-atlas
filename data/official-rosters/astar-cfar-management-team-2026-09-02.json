@@ -1,0 +1,684 @@
+{
+  "completeness": "complete",
+  "fetchedAt": "2026-09-02",
+  "institution": "A*STAR Centre for Frontier AI Research",
+  "officialPageUrl": "https://www.a-star.edu.sg/cfar/about-cfar/our-team",
+  "officialDataUrl": "https://www.a-star.edu.sg/cfar/about-cfar/management",
+  "officialDataUrls": [
+    "https://www.a-star.edu.sg/cfar/about-cfar/management",
+    "https://www.a-star.edu.sg/cfar/about-cfar/our-team"
+  ],
+  "officialRosterCount": 66,
+  "sourceDescription": "The official CFAR About navigation separates Management and Our Team. The frozen roster includes 2 management, 4 advisory fellows, and 60 unique people on Our Team. Four people appear in multiple team sections and were merged while retaining all section memberships; operational, engineer and adjunct records are kept for later classification.",
+  "categoryCounts": {
+    "Management": 2,
+    "Advisory": 4,
+    "Our Team unique people": 60
+  },
+  "people": [
+    {
+      "officialId": "cfar-001",
+      "name": "Dr Atsushi Nitanda",
+      "title": "Group Leads",
+      "sections": [
+        "Group Leads"
+      ],
+      "profileUrl": "https://www.a-star.edu.sg/cfar/about-cfar/our-team",
+      "photoUrl": "https://www.a-star.edu.sg/_next/image?url=%2Fapi%2Fmedia%2Fdada2e67-8ba0-4e5f-bfe9-69082e1772ad%2FAtsushi%20Nitanda.png&w=3840&q=75"
+    },
+    {
+      "officialId": "cfar-002",
+      "name": "Dr Basura Fernando",
+      "title": "Group Leads",
+      "sections": [
+        "Group Leads"
+      ],
+      "profileUrl": "https://www.a-star.edu.sg/cfar/about-cfar/our-team",
+      "photoUrl": "https://www.a-star.edu.sg/_next/image?url=%2Fapi%2Fmedia%2F54f26456-34bc-4ddf-8ac9-307a665c4563%2FBasura%20Fernando.png&w=3840&q=75"
+    },
+    {
+      "officialId": "cfar-003",
+      "name": "Dr He Tiantian",
+      "title": "Group Leads",
+      "sections": [
+        "Group Leads"
+      ],
+      "profileUrl": "https://www.a-star.edu.sg/cfar/about-cfar/our-team",
+      "photoUrl": "https://www.a-star.edu.sg/_next/image?url=%2Fapi%2Fmedia%2F585d9c4b-7c8b-4e73-bb4b-4b17107d3438%2FHe%20Tiantian.png&w=3840&q=75"
+    },
+    {
+      "officialId": "cfar-004",
+      "name": "Dr Nancy F. Chen",
+      "title": "Group Leads",
+      "sections": [
+        "Group Leads"
+      ],
+      "profileUrl": "https://www.a-star.edu.sg/cfar/about-cfar/our-team",
+      "photoUrl": "https://www.a-star.edu.sg/_next/image?url=%2Fapi%2Fmedia%2F2c8a8170-f07f-4bd6-b867-46eee2915acc%2FNancy%20Chen.png&w=3840&q=75"
+    },
+    {
+      "officialId": "cfar-005",
+      "name": "Dr Li Chen",
+      "title": "Team Leads · SCIENTISTS",
+      "sections": [
+        "Team Leads",
+        "SCIENTISTS"
+      ],
+      "profileUrl": "https://www.a-star.edu.sg/cfar/about-cfar/our-team",
+      "photoUrl": "https://www.a-star.edu.sg/_next/image?url=%2Fapi%2Fmedia%2F64c5ec1f-df3b-4585-91b7-32012d6dfe5f%2FOur%20Team%20-%20Li%20Chen.png&w=3840&q=75"
+    },
+    {
+      "officialId": "cfar-006",
+      "name": "Dr Lim Joo Hwee",
+      "title": "Team Leads",
+      "sections": [
+        "Team Leads"
+      ],
+      "profileUrl": "https://www.a-star.edu.sg/cfar/about-cfar/our-team",
+      "photoUrl": "https://www.a-star.edu.sg/_next/image?url=%2Fapi%2Fmedia%2Fc7793a9f-b05a-43ce-8a56-943d64886b44%2FOur%20Team%20-%20Lim%20Joo%20Hwee.png&w=3840&q=75"
+    },
+    {
+      "officialId": "cfar-007",
+      "name": "Dr Yin Haiyan",
+      "title": "Team Leads",
+      "sections": [
+        "Team Leads"
+      ],
+      "profileUrl": "https://www.a-star.edu.sg/cfar/about-cfar/our-team",
+      "photoUrl": "https://www.a-star.edu.sg/_next/image?url=%2Fapi%2Fmedia%2Fab690ff5-f485-4eb9-afad-5872c3867624%2FYin%20Haiyan.png&w=3840&q=75"
+    },
+    {
+      "officialId": "cfar-008",
+      "name": "Mr Liu Zhengyuan",
+      "title": "Team Leads",
+      "sections": [
+        "Team Leads"
+      ],
+      "profileUrl": "https://www.a-star.edu.sg/cfar/about-cfar/our-team",
+      "photoUrl": "https://www.a-star.edu.sg/_next/image?url=%2Fapi%2Fmedia%2Ff8641500-5172-474f-a69e-342256ef0f4f%2FLiu%20Zhengyuan%20(1).png&w=3840&q=75"
+    },
+    {
+      "officialId": "cfar-009",
+      "name": "Dr Zhen Liangli",
+      "title": "Team Leads",
+      "sections": [
+        "Team Leads"
+      ],
+      "profileUrl": "https://www.a-star.edu.sg/cfar/about-cfar/our-team",
+      "photoUrl": "https://www.a-star.edu.sg/_next/image?url=%2Fapi%2Fmedia%2F925a3da4-319f-4bcf-9090-059982064379%2FOur%20Team%20-%20Zhen%20Liangli.png&w=3840&q=75"
+    },
+    {
+      "officialId": "cfar-010",
+      "name": "Dr Tanya Veeravalli",
+      "title": "Reusable Asset Leads · SCIENTISTS",
+      "sections": [
+        "Reusable Asset Leads",
+        "SCIENTISTS"
+      ],
+      "profileUrl": "https://www.a-star.edu.sg/cfar/about-cfar/our-team",
+      "photoUrl": "https://www.a-star.edu.sg/_next/image?url=%2Fapi%2Fmedia%2Ffdc95926-33d1-4f77-9603-65019b548786%2FOur%20Team%20-%20Tanya%20Veeravalli.png&w=3840&q=75"
+    },
+    {
+      "officialId": "cfar-011",
+      "name": "Dr Li Jing",
+      "title": "Reusable Asset Leads · SCIENTISTS",
+      "sections": [
+        "Reusable Asset Leads",
+        "SCIENTISTS"
+      ],
+      "profileUrl": "https://www.a-star.edu.sg/cfar/about-cfar/our-team",
+      "photoUrl": "https://www.a-star.edu.sg/_next/image?url=%2Fapi%2Fmedia%2F5ba46555-e9fa-47e9-9564-725b7792dc66%2FOur%20Team%20-%20Li%20Jing.png&w=3840&q=75"
+    },
+    {
+      "officialId": "cfar-012",
+      "name": "Mr Colin Yap",
+      "title": "Operations & Administration",
+      "sections": [
+        "Operations & Administration"
+      ],
+      "profileUrl": "https://www.a-star.edu.sg/cfar/about-cfar/our-team",
+      "photoUrl": "https://www.a-star.edu.sg/_next/image?url=%2Fapi%2Fmedia%2F2756a1cd-2805-4d20-8418-76dece3e121e%2FOur%20Team%20-%20Colin%20Yap.png&w=3840&q=75"
+    },
+    {
+      "officialId": "cfar-013",
+      "name": "Cai Lile",
+      "title": "SCIENTISTS",
+      "sections": [
+        "SCIENTISTS"
+      ],
+      "profileUrl": "https://www.a-star.edu.sg/cfar/about-cfar/our-team",
+      "photoUrl": null
+    },
+    {
+      "officialId": "cfar-014",
+      "name": "Chen Ziyi",
+      "title": "SCIENTISTS",
+      "sections": [
+        "SCIENTISTS"
+      ],
+      "profileUrl": "https://www.a-star.edu.sg/cfar/about-cfar/our-team",
+      "photoUrl": null
+    },
+    {
+      "officialId": "cfar-015",
+      "name": "Chinthani Sugandhika",
+      "title": "SCIENTISTS",
+      "sections": [
+        "SCIENTISTS"
+      ],
+      "profileUrl": "https://www.a-star.edu.sg/cfar/about-cfar/our-team",
+      "photoUrl": null
+    },
+    {
+      "officialId": "cfar-016",
+      "name": "David Bossens",
+      "title": "SCIENTISTS",
+      "sections": [
+        "SCIENTISTS"
+      ],
+      "profileUrl": "https://www.a-star.edu.sg/cfar/about-cfar/our-team",
+      "photoUrl": null
+    },
+    {
+      "officialId": "cfar-017",
+      "name": "Feng Zeyu",
+      "title": "SCIENTISTS",
+      "sections": [
+        "SCIENTISTS"
+      ],
+      "profileUrl": "https://www.a-star.edu.sg/cfar/about-cfar/our-team",
+      "photoUrl": null
+    },
+    {
+      "officialId": "cfar-018",
+      "name": "Flint Fan",
+      "title": "SCIENTISTS",
+      "sections": [
+        "SCIENTISTS"
+      ],
+      "profileUrl": "https://www.a-star.edu.sg/cfar/about-cfar/our-team",
+      "photoUrl": null
+    },
+    {
+      "officialId": "cfar-019",
+      "name": "He Yang",
+      "title": "SCIENTISTS",
+      "sections": [
+        "SCIENTISTS"
+      ],
+      "profileUrl": "https://www.a-star.edu.sg/cfar/about-cfar/our-team",
+      "photoUrl": null
+    },
+    {
+      "officialId": "cfar-020",
+      "name": "Kim Jaeyeon",
+      "title": "SCIENTISTS",
+      "sections": [
+        "SCIENTISTS"
+      ],
+      "profileUrl": "https://www.a-star.edu.sg/cfar/about-cfar/our-team",
+      "photoUrl": null
+    },
+    {
+      "officialId": "cfar-021",
+      "name": "Lin Jiaqi",
+      "title": "SCIENTISTS",
+      "sections": [
+        "SCIENTISTS"
+      ],
+      "profileUrl": "https://www.a-star.edu.sg/cfar/about-cfar/our-team",
+      "photoUrl": null
+    },
+    {
+      "officialId": "cfar-022",
+      "name": "Ling Han",
+      "title": "SCIENTISTS",
+      "sections": [
+        "SCIENTISTS"
+      ],
+      "profileUrl": "https://www.a-star.edu.sg/cfar/about-cfar/our-team",
+      "photoUrl": null
+    },
+    {
+      "officialId": "cfar-023",
+      "name": "Lyu Yueming",
+      "title": "SCIENTISTS",
+      "sections": [
+        "SCIENTISTS"
+      ],
+      "profileUrl": "https://www.a-star.edu.sg/cfar/about-cfar/our-team",
+      "photoUrl": null
+    },
+    {
+      "officialId": "cfar-024",
+      "name": "Martin Chen",
+      "title": "SCIENTISTS",
+      "sections": [
+        "SCIENTISTS"
+      ],
+      "profileUrl": "https://www.a-star.edu.sg/cfar/about-cfar/our-team",
+      "photoUrl": null
+    },
+    {
+      "officialId": "cfar-025",
+      "name": "Ng Yan Bin",
+      "title": "SCIENTISTS",
+      "sections": [
+        "SCIENTISTS"
+      ],
+      "profileUrl": "https://www.a-star.edu.sg/cfar/about-cfar/our-team",
+      "photoUrl": null
+    },
+    {
+      "officialId": "cfar-026",
+      "name": "Ooi Chin Chun",
+      "title": "SCIENTISTS",
+      "sections": [
+        "SCIENTISTS"
+      ],
+      "profileUrl": "https://www.a-star.edu.sg/cfar/about-cfar/our-team",
+      "photoUrl": null
+    },
+    {
+      "officialId": "cfar-027",
+      "name": "Qian Hangwei",
+      "title": "SCIENTISTS",
+      "sections": [
+        "SCIENTISTS"
+      ],
+      "profileUrl": "https://www.a-star.edu.sg/cfar/about-cfar/our-team",
+      "photoUrl": null
+    },
+    {
+      "officialId": "cfar-028",
+      "name": "Qu Bohao",
+      "title": "SCIENTISTS",
+      "sections": [
+        "SCIENTISTS"
+      ],
+      "profileUrl": "https://www.a-star.edu.sg/cfar/about-cfar/our-team",
+      "photoUrl": null
+    },
+    {
+      "officialId": "cfar-029",
+      "name": "Sailor Hardik Bhupendra",
+      "title": "SCIENTISTS",
+      "sections": [
+        "SCIENTISTS"
+      ],
+      "profileUrl": "https://www.a-star.edu.sg/cfar/about-cfar/our-team",
+      "photoUrl": null
+    },
+    {
+      "officialId": "cfar-030",
+      "name": "Shubhankar Mohapatra",
+      "title": "SCIENTISTS",
+      "sections": [
+        "SCIENTISTS"
+      ],
+      "profileUrl": "https://www.a-star.edu.sg/cfar/about-cfar/our-team",
+      "photoUrl": null
+    },
+    {
+      "officialId": "cfar-031",
+      "name": "Tan Zhi Xuan",
+      "title": "SCIENTISTS",
+      "sections": [
+        "SCIENTISTS"
+      ],
+      "profileUrl": "https://www.a-star.edu.sg/cfar/about-cfar/our-team",
+      "photoUrl": null
+    },
+    {
+      "officialId": "cfar-032",
+      "name": "Tang Tianyi",
+      "title": "SCIENTISTS · ENGINEERS",
+      "sections": [
+        "SCIENTISTS",
+        "ENGINEERS"
+      ],
+      "profileUrl": "https://www.a-star.edu.sg/cfar/about-cfar/our-team",
+      "photoUrl": null
+    },
+    {
+      "officialId": "cfar-033",
+      "name": "Wang Chong Xiao",
+      "title": "SCIENTISTS",
+      "sections": [
+        "SCIENTISTS"
+      ],
+      "profileUrl": "https://www.a-star.edu.sg/cfar/about-cfar/our-team",
+      "photoUrl": null
+    },
+    {
+      "officialId": "cfar-034",
+      "name": "Wang Qiongqiong",
+      "title": "SCIENTISTS",
+      "sections": [
+        "SCIENTISTS"
+      ],
+      "profileUrl": "https://www.a-star.edu.sg/cfar/about-cfar/our-team",
+      "photoUrl": null
+    },
+    {
+      "officialId": "cfar-035",
+      "name": "Wang Zizhou",
+      "title": "SCIENTISTS",
+      "sections": [
+        "SCIENTISTS"
+      ],
+      "profileUrl": "https://www.a-star.edu.sg/cfar/about-cfar/our-team",
+      "photoUrl": null
+    },
+    {
+      "officialId": "cfar-036",
+      "name": "Wei Chengwei",
+      "title": "SCIENTISTS",
+      "sections": [
+        "SCIENTISTS"
+      ],
+      "profileUrl": "https://www.a-star.edu.sg/cfar/about-cfar/our-team",
+      "photoUrl": null
+    },
+    {
+      "officialId": "cfar-037",
+      "name": "Wei Zhao",
+      "title": "SCIENTISTS",
+      "sections": [
+        "SCIENTISTS"
+      ],
+      "profileUrl": "https://www.a-star.edu.sg/cfar/about-cfar/our-team",
+      "photoUrl": null
+    },
+    {
+      "officialId": "cfar-038",
+      "name": "Wong Jian Cheng",
+      "title": "SCIENTISTS",
+      "sections": [
+        "SCIENTISTS"
+      ],
+      "profileUrl": "https://www.a-star.edu.sg/cfar/about-cfar/our-team",
+      "photoUrl": null
+    },
+    {
+      "officialId": "cfar-039",
+      "name": "Wu Rongliang",
+      "title": "SCIENTISTS",
+      "sections": [
+        "SCIENTISTS"
+      ],
+      "profileUrl": "https://www.a-star.edu.sg/cfar/about-cfar/our-team",
+      "photoUrl": null
+    },
+    {
+      "officialId": "cfar-040",
+      "name": "Wu Yu-huan",
+      "title": "SCIENTISTS",
+      "sections": [
+        "SCIENTISTS"
+      ],
+      "profileUrl": "https://www.a-star.edu.sg/cfar/about-cfar/our-team",
+      "photoUrl": null
+    },
+    {
+      "officialId": "cfar-041",
+      "name": "Xu Xun",
+      "title": "SCIENTISTS",
+      "sections": [
+        "SCIENTISTS"
+      ],
+      "profileUrl": "https://www.a-star.edu.sg/cfar/about-cfar/our-team",
+      "photoUrl": null
+    },
+    {
+      "officialId": "cfar-042",
+      "name": "Yang Muli",
+      "title": "SCIENTISTS",
+      "sections": [
+        "SCIENTISTS"
+      ],
+      "profileUrl": "https://www.a-star.edu.sg/cfar/about-cfar/our-team",
+      "photoUrl": null
+    },
+    {
+      "officialId": "cfar-043",
+      "name": "Yao Yinghua",
+      "title": "SCIENTISTS",
+      "sections": [
+        "SCIENTISTS"
+      ],
+      "profileUrl": "https://www.a-star.edu.sg/cfar/about-cfar/our-team",
+      "photoUrl": null
+    },
+    {
+      "officialId": "cfar-044",
+      "name": "Yu Xingrui",
+      "title": "SCIENTISTS",
+      "sections": [
+        "SCIENTISTS"
+      ],
+      "profileUrl": "https://www.a-star.edu.sg/cfar/about-cfar/our-team",
+      "photoUrl": null
+    },
+    {
+      "officialId": "cfar-045",
+      "name": "Zheng Weihua",
+      "title": "SCIENTISTS",
+      "sections": [
+        "SCIENTISTS"
+      ],
+      "profileUrl": "https://www.a-star.edu.sg/cfar/about-cfar/our-team",
+      "photoUrl": null
+    },
+    {
+      "officialId": "cfar-046",
+      "name": "Chen Cai Shun",
+      "title": "ENGINEERS",
+      "sections": [
+        "ENGINEERS"
+      ],
+      "profileUrl": "https://www.a-star.edu.sg/cfar/about-cfar/our-team",
+      "photoUrl": null
+    },
+    {
+      "officialId": "cfar-047",
+      "name": "Eric Peh",
+      "title": "ENGINEERS",
+      "sections": [
+        "ENGINEERS"
+      ],
+      "profileUrl": "https://www.a-star.edu.sg/cfar/about-cfar/our-team",
+      "photoUrl": null
+    },
+    {
+      "officialId": "cfar-048",
+      "name": "Siti Umirah",
+      "title": "ENGINEERS",
+      "sections": [
+        "ENGINEERS"
+      ],
+      "profileUrl": "https://www.a-star.edu.sg/cfar/about-cfar/our-team",
+      "photoUrl": null
+    },
+    {
+      "officialId": "cfar-049",
+      "name": "Yang Hong",
+      "title": "ENGINEERS",
+      "sections": [
+        "ENGINEERS"
+      ],
+      "profileUrl": "https://www.a-star.edu.sg/cfar/about-cfar/our-team",
+      "photoUrl": null
+    },
+    {
+      "officialId": "cfar-050",
+      "name": "Zhou Menghan",
+      "title": "ENGINEERS",
+      "sections": [
+        "ENGINEERS"
+      ],
+      "profileUrl": "https://www.a-star.edu.sg/cfar/about-cfar/our-team",
+      "photoUrl": null
+    },
+    {
+      "officialId": "cfar-051",
+      "name": "Dr Abhishek Gupta",
+      "title": "Adjunct Members",
+      "sections": [
+        "Adjunct Members"
+      ],
+      "profileUrl": "https://www.a-star.edu.sg/cfar/about-cfar/our-team",
+      "photoUrl": "https://www.a-star.edu.sg/_next/image?url=%2Fapi%2Fmedia%2F21d0ca94-4bf4-43a7-bcf6-49706c4cf2d4%2FOur%20Team%20-%20Abhishek%20Gupta.png&w=3840&q=75"
+    },
+    {
+      "officialId": "cfar-052",
+      "name": "Dr Rick Goh",
+      "title": "Adjunct Members",
+      "sections": [
+        "Adjunct Members"
+      ],
+      "profileUrl": "https://www.a-star.edu.sg/cfar/about-cfar/our-team",
+      "photoUrl": "https://www.a-star.edu.sg/_next/image?url=%2Fapi%2Fmedia%2F161807ec-df93-43ce-9d2f-4425c9fe71a1%2FOur%20Team%20-%20Rick%20Goh.png&w=3840&q=75"
+    },
+    {
+      "officialId": "cfar-053",
+      "name": "Dr Liang Kai Cheng",
+      "title": "Adjunct Members",
+      "sections": [
+        "Adjunct Members"
+      ],
+      "profileUrl": "https://www.a-star.edu.sg/cfar/about-cfar/our-team",
+      "photoUrl": "https://www.a-star.edu.sg/_next/image?url=%2Fapi%2Fmedia%2F68139105-7e5a-4f24-87ac-f66bdd17e06b%2FOur%20Team%20-%20Liang%20Kai%20Cheng.png&w=3840&q=75"
+    },
+    {
+      "officialId": "cfar-054",
+      "name": "Prof Lam Ping Koy",
+      "title": "Adjunct Members",
+      "sections": [
+        "Adjunct Members"
+      ],
+      "profileUrl": "https://www.a-star.edu.sg/cfar/about-cfar/our-team",
+      "photoUrl": "https://www.a-star.edu.sg/_next/image?url=%2Fapi%2Fmedia%2Fcef5dfd7-68e4-4059-ac2c-8ba2e7116434%2FOur%20Team%20-%20Lam%20Ping%20Koy.png&w=3840&q=75"
+    },
+    {
+      "officialId": "cfar-055",
+      "name": "Dr Lee Hwee Kuan",
+      "title": "Adjunct Members",
+      "sections": [
+        "Adjunct Members"
+      ],
+      "profileUrl": "https://www.a-star.edu.sg/cfar/about-cfar/our-team",
+      "photoUrl": "https://www.a-star.edu.sg/_next/image?url=%2Fapi%2Fmedia%2F24e7b018-9f58-47b3-9d2b-2eb24ae9cb46%2FOur%20Team%20-%20Lee%20Hwee%20Kwan.png&w=3840&q=75"
+    },
+    {
+      "officialId": "cfar-056",
+      "name": "Dr Kenneth Kwok",
+      "title": "Adjunct Members",
+      "sections": [
+        "Adjunct Members"
+      ],
+      "profileUrl": "https://www.a-star.edu.sg/cfar/about-cfar/our-team",
+      "photoUrl": "https://www.a-star.edu.sg/_next/image?url=%2Fapi%2Fmedia%2Fc9c2f33e-f71e-4629-9cda-9bd2fb4c9ce6%2FOur%20Team%20-%20Kenneth%20Kwok.png&w=3840&q=75"
+    },
+    {
+      "officialId": "cfar-057",
+      "name": "Dr Sebastian Maurer-Stroh",
+      "title": "Adjunct Members",
+      "sections": [
+        "Adjunct Members"
+      ],
+      "profileUrl": "https://www.a-star.edu.sg/cfar/about-cfar/our-team",
+      "photoUrl": "https://www.a-star.edu.sg/_next/image?url=%2Fapi%2Fmedia%2F8dd7361b-0fe3-40fc-aa57-e8b61cfaca8a%2FOur%20Team%20-%20Sebastian%20Maurer%20Stroh.png&w=3840&q=75"
+    },
+    {
+      "officialId": "cfar-058",
+      "name": "Dr Liu Yong",
+      "title": "Adjunct Members",
+      "sections": [
+        "Adjunct Members"
+      ],
+      "profileUrl": "https://www.a-star.edu.sg/cfar/about-cfar/our-team",
+      "photoUrl": "https://www.a-star.edu.sg/_next/image?url=%2Fapi%2Fmedia%2Ff007dde7-5ff8-4bd3-89f2-1b5c27abb543%2FOur%20Team%20-%20Liu%20Yong.png&w=3840&q=75"
+    },
+    {
+      "officialId": "cfar-059",
+      "name": "Dr Yau Wei Yun",
+      "title": "Adjunct Members",
+      "sections": [
+        "Adjunct Members"
+      ],
+      "profileUrl": "https://www.a-star.edu.sg/cfar/about-cfar/our-team",
+      "photoUrl": "https://www.a-star.edu.sg/_next/image?url=%2Fapi%2Fmedia%2F66f04f56-eac0-4b0c-b1b0-ac91ee61fef7%2FOur%20Team%20-%20Yau%20Wei%20Yun.png&w=3840&q=75"
+    },
+    {
+      "officialId": "cfar-060",
+      "name": "Prof Simon See",
+      "title": "Adjunct Members",
+      "sections": [
+        "Adjunct Members"
+      ],
+      "profileUrl": "https://www.a-star.edu.sg/cfar/about-cfar/our-team",
+      "photoUrl": "https://www.a-star.edu.sg/_next/image?url=%2Fapi%2Fmedia%2F994bd836-eb4b-4ef5-96c1-3e79950af234%2FOur%20Team%20-%20Simon%20See.png&w=3840&q=75"
+    },
+    {
+      "officialId": "https://www.a-star.edu.sg/cfar/about-cfar/management/prof-ivor-tsang",
+      "name": "Prof Ivor Tsang",
+      "title": "Management — Director",
+      "sections": [
+        "Management — Director"
+      ],
+      "profileUrl": "https://www.a-star.edu.sg/cfar/about-cfar/management/prof-ivor-tsang",
+      "photoUrl": null
+    },
+    {
+      "officialId": "https://www.a-star.edu.sg/cfar/about-cfar/management/prof-ong-yew-soon",
+      "name": "Prof Ong Yew Soon",
+      "title": "Management — Advisor",
+      "sections": [
+        "Management — Advisor"
+      ],
+      "profileUrl": "https://www.a-star.edu.sg/cfar/about-cfar/management/prof-ong-yew-soon",
+      "photoUrl": null
+    },
+    {
+      "officialId": "cfar-063",
+      "name": "Prof Masashi Sugiyama",
+      "title": "Advisory — Honorary AI Fellow",
+      "sections": [
+        "Advisory — Honorary AI Fellow"
+      ],
+      "profileUrl": "https://www.a-star.edu.sg/cfar/about-cfar/our-team",
+      "photoUrl": null
+    },
+    {
+      "officialId": "cfar-064",
+      "name": "Prof Sven Dickinson",
+      "title": "Advisory — Honorary AI Fellow",
+      "sections": [
+        "Advisory — Honorary AI Fellow"
+      ],
+      "profileUrl": "https://www.a-star.edu.sg/cfar/about-cfar/our-team",
+      "photoUrl": null
+    },
+    {
+      "officialId": "cfar-065",
+      "name": "Dr Francesca Rossi",
+      "title": "Advisory — Honorary AI Fellow",
+      "sections": [
+        "Advisory — Honorary AI Fellow"
+      ],
+      "profileUrl": "https://www.a-star.edu.sg/cfar/about-cfar/our-team",
+      "photoUrl": null
+    },
+    {
+      "officialId": "cfar-066",
+      "name": "Prof Michael Wooldridge",
+      "title": "Advisory — Honorary AI Fellow",
+      "sections": [
+        "Advisory — Honorary AI Fellow"
+      ],
+      "profileUrl": "https://www.a-star.edu.sg/cfar/about-cfar/our-team",
+      "photoUrl": null
+    }
+  ]
+}

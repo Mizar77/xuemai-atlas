@@ -1,0 +1,3783 @@
+{
+  "completeness": "complete",
+  "fetchedAt": "2026-09-02",
+  "institution": "武汉大学计算机学院",
+  "officialPageUrl": "https://cs.whu.edu.cn/szdw/zrjs.htm",
+  "officialDataUrl": "https://cs.whu.edu.cn/szdw/zrjs.htm",
+  "officialRosterCount": 322,
+  "officialSectionCardCounts": {
+    "专任教师 / 计算机科学系": 32,
+    "专任教师 / 软件工程系": 48,
+    "专任教师 / 智能科学系": 39,
+    "专任教师 / 公共课教学中心": 16,
+    "实验技术人员": 19,
+    "荣休教师 / 荣休教师": 32,
+    "荣休教师 / 一校区 （退休时间先后为序）": 66,
+    "荣休教师 / 二校区 （退休时间先后为序）": 41,
+    "荣休教师 / 三校区 （退休时间先后为序）": 29
+  },
+  "overlapAcrossSections": 0,
+  "sourceDescription": "遍历学院当前官方师资队伍：专任教师单页、实验技术人员全部 2 页、荣休教师单页。高层次人才是荣誉标签视图，与专任教师重复，未额外计数。",
+  "people": [
+    {
+      "officialId": "9bf36f1c09662498",
+      "name": "龚奕利",
+      "officialSections": [
+        "专任教师 / 计算机科学系"
+      ],
+      "title": "副教授",
+      "profileUrl": "https://jszy.whu.edu.cn/gongyili/zh_CN/index.htm",
+      "portraitUrl": null,
+      "officialFields": {
+        "sex": "女",
+        "research": "并行分布计算,高性能计算,云存储技术,云计算与大数据处理"
+      }
+    },
+    {
+      "officialId": "a86510a2ce957173",
+      "name": "刘华俊",
+      "officialSections": [
+        "专任教师 / 计算机科学系"
+      ],
+      "title": "副教授",
+      "profileUrl": "http://jszy.whu.edu.cn/liuhuajun/zh_CN/index.htm",
+      "portraitUrl": null,
+      "officialFields": {
+        "sex": "男",
+        "research": "多媒体技术与大数据分析,机器学习与智能交互,计算机动画,计算机视觉,人工智能,虚拟现实与人机交互"
+      }
+    },
+    {
+      "officialId": "fbdc27839b5f6de4",
+      "name": "罗飞",
+      "officialSections": [
+        "专任教师 / 计算机科学系"
+      ],
+      "title": "副教授",
+      "profileUrl": "http://jszy.whu.edu.cn/luofei/zh_CN/index.htm",
+      "portraitUrl": null,
+      "officialFields": {
+        "sex": "男",
+        "research": "大数据挖掘管理与分析,计算机视觉"
+      }
+    },
+    {
+      "officialId": "cae54d2366ee21e8",
+      "name": "王晓晨",
+      "officialSections": [
+        "专任教师 / 计算机科学系"
+      ],
+      "title": "副教授",
+      "profileUrl": "https://cs.whu.edu.cn/info/1019/2483.htm",
+      "portraitUrl": null,
+      "officialFields": {
+        "sex": "男",
+        "research": "计算机科学与技术"
+      }
+    },
+    {
+      "officialId": "e50c36f263eaf349",
+      "name": "郑鹏",
+      "officialSections": [
+        "专任教师 / 计算机科学系"
+      ],
+      "title": "副教授",
+      "profileUrl": "https://cs.whu.edu.cn/info/1019/2446.htm",
+      "portraitUrl": null,
+      "officialFields": {
+        "sex": "男",
+        "research": "计算机视觉，操作系统"
+      }
+    },
+    {
+      "officialId": "999b8517718441e9",
+      "name": "安杨",
+      "officialSections": [
+        "专任教师 / 计算机科学系"
+      ],
+      "title": "副教授",
+      "profileUrl": "https://cs.whu.edu.cn/info/1019/2449.htm",
+      "portraitUrl": null,
+      "officialFields": {
+        "sex": "女",
+        "research": "计算机应用,数据库"
+      }
+    },
+    {
+      "officialId": "0ea098c88dd850e4",
+      "name": "蔡贤涛",
+      "officialSections": [
+        "专任教师 / 计算机科学系"
+      ],
+      "title": "副教授",
+      "profileUrl": "https://cs.whu.edu.cn/info/1019/2468.htm",
+      "portraitUrl": null,
+      "officialFields": {
+        "sex": "男",
+        "research": "计算机图形学,人工智能,虚拟现实与人机交互"
+      }
+    },
+    {
+      "officialId": "244ab9fbaa4a981e",
+      "name": "杜卓敏",
+      "officialSections": [
+        "专任教师 / 计算机科学系"
+      ],
+      "title": "副教授",
+      "profileUrl": "https://cs.whu.edu.cn/info/1019/2455.htm",
+      "portraitUrl": null,
+      "officialFields": {
+        "sex": "女",
+        "research": "分布并行处理"
+      }
+    },
+    {
+      "officialId": "db3c82b5f0a5198d",
+      "name": "韩镇",
+      "officialSections": [
+        "专任教师 / 计算机科学系"
+      ],
+      "title": "副教授",
+      "profileUrl": "https://cs.whu.edu.cn/info/1019/2460.htm",
+      "portraitUrl": null,
+      "officialFields": {
+        "sex": "男",
+        "research": "安防应急,多媒体技术与大数据分析,多媒体网络通信,多媒体信号处理,计算机视觉,模式识别,人工智能,音视频处理"
+      }
+    },
+    {
+      "officialId": "42d8c359c49646cd",
+      "name": "贺莲",
+      "officialSections": [
+        "专任教师 / 计算机科学系"
+      ],
+      "title": "副教授",
+      "profileUrl": "https://cs.whu.edu.cn/info/1019/2474.htm",
+      "portraitUrl": null,
+      "officialFields": {
+        "sex": "女",
+        "research": "并行分布计算"
+      }
+    },
+    {
+      "officialId": "b0a1cf4a449d1bb3",
+      "name": "怀念",
+      "officialSections": [
+        "专任教师 / 计算机科学系"
+      ],
+      "title": "副研究员",
+      "profileUrl": "https://cs.whu.edu.cn/info/1019/2478.htm",
+      "portraitUrl": null,
+      "officialFields": {
+        "sex": "男",
+        "research": "信号处理算法，多媒体通信技术、机器学习方法"
+      }
+    },
+    {
+      "officialId": "3f9f6eb49ed1fba5",
+      "name": "蒋晶珏",
+      "officialSections": [
+        "专任教师 / 计算机科学系"
+      ],
+      "title": "副教授",
+      "profileUrl": "https://cs.whu.edu.cn/info/1019/2452.htm",
+      "portraitUrl": null,
+      "officialFields": {
+        "sex": "女",
+        "research": "激光雷达数据处理、点云数据的三维重建以及计算机视觉与智能视觉监控等"
+      }
+    },
+    {
+      "officialId": "9fd8990d61a2169a",
+      "name": "孔若杉",
+      "officialSections": [
+        "专任教师 / 计算机科学系"
+      ],
+      "title": "副教授",
+      "profileUrl": "https://cs.whu.edu.cn/info/1019/2477.htm",
+      "portraitUrl": null,
+      "officialFields": {
+        "sex": "男",
+        "research": "Web搜索与挖掘,计算机网络,软件工程"
+      }
+    },
+    {
+      "officialId": "54fb48ad409bb6ad",
+      "name": "李飞",
+      "officialSections": [
+        "专任教师 / 计算机科学系"
+      ],
+      "title": "副教授",
+      "profileUrl": "https://cs.whu.edu.cn/info/1019/2462.htm",
+      "portraitUrl": null,
+      "officialFields": {
+        "sex": "男",
+        "research": "移动网络；自然语言理解"
+      }
+    },
+    {
+      "officialId": "31402bbec2d94479",
+      "name": "林馥",
+      "officialSections": [
+        "专任教师 / 计算机科学系"
+      ],
+      "title": "副教授",
+      "profileUrl": "https://cs.whu.edu.cn/info/1019/2466.htm",
+      "portraitUrl": null,
+      "officialFields": {
+        "sex": "男",
+        "research": "计算机网络,计算机应用,人工智能,无线网络,物联网,"
+      }
+    },
+    {
+      "officialId": "5e3740e030d43b79",
+      "name": "彭煜玮",
+      "officialSections": [
+        "专任教师 / 计算机科学系"
+      ],
+      "title": "副教授",
+      "profileUrl": "https://cs.whu.edu.cn/info/1019/2457.htm",
+      "portraitUrl": null,
+      "officialFields": {
+        "sex": "男",
+        "research": "大数据挖掘管理与分析,空间信息处理,数据管理,数据库"
+      }
+    },
+    {
+      "officialId": "725428f0c785f704",
+      "name": "田纲",
+      "officialSections": [
+        "专任教师 / 计算机科学系"
+      ],
+      "title": "副教授",
+      "profileUrl": "https://cs.whu.edu.cn/info/1019/2464.htm",
+      "portraitUrl": null,
+      "officialFields": {
+        "sex": "男",
+        "research": "多媒体技术与大数据分析,计算机视觉,知识工程,自然语言处理"
+      }
+    },
+    {
+      "officialId": "e9d3f1556ec7b9d5",
+      "name": "伍春香",
+      "officialSections": [
+        "专任教师 / 计算机科学系"
+      ],
+      "title": "副教授",
+      "profileUrl": "https://cs.whu.edu.cn/info/1019/2451.htm",
+      "portraitUrl": null,
+      "officialFields": {
+        "sex": "女",
+        "research": "软件工程,知识工程"
+      }
+    },
+    {
+      "officialId": "bbae8016e1fd387d",
+      "name": "武小平",
+      "officialSections": [
+        "专任教师 / 计算机科学系"
+      ],
+      "title": "副教授",
+      "profileUrl": "https://cs.whu.edu.cn/info/1019/2476.htm",
+      "portraitUrl": null,
+      "officialFields": {
+        "sex": "男",
+        "research": "安防应急,大数据挖掘管理与分析,机器学习与智能交互,计算机应用,数据库,物联网"
+      }
+    },
+    {
+      "officialId": "f8b483fb80f5c525",
+      "name": "徐武平",
+      "officialSections": [
+        "专任教师 / 计算机科学系"
+      ],
+      "title": "副教授",
+      "profileUrl": "https://cs.whu.edu.cn/info/1019/2453.htm",
+      "portraitUrl": null,
+      "officialFields": {
+        "sex": "男",
+        "research": "计算机网络,计算机应用,数据管理,数据库,无线网络,信息安全,云存储技术"
+      }
+    },
+    {
+      "officialId": "05782ecc33e0a071",
+      "name": "徐佑军",
+      "officialSections": [
+        "专任教师 / 计算机科学系"
+      ],
+      "title": "副教授",
+      "profileUrl": "https://cs.whu.edu.cn/info/1019/2454.htm",
+      "portraitUrl": null,
+      "officialFields": {
+        "sex": "男",
+        "research": "大数据挖掘管理与分析,计算机应用,物联网"
+      }
+    },
+    {
+      "officialId": "bfbcc7a1fc35511c",
+      "name": "姚昱",
+      "officialSections": [
+        "专任教师 / 计算机科学系"
+      ],
+      "title": "副教授",
+      "profileUrl": "https://cs.whu.edu.cn/info/1019/2458.htm",
+      "portraitUrl": null,
+      "officialFields": {
+        "sex": "女",
+        "research": "大数据挖掘管理与分析,知识工程"
+      }
+    },
+    {
+      "officialId": "9fc2f06cf68c3ef8",
+      "name": "喻丹丹",
+      "officialSections": [
+        "专任教师 / 计算机科学系"
+      ],
+      "title": "副教授",
+      "profileUrl": "https://cs.whu.edu.cn/info/1019/2448.htm",
+      "portraitUrl": null,
+      "officialFields": {
+        "sex": "女",
+        "research": "分布并行处理、智能分布计算、云计算、网格计算等"
+      }
+    },
+    {
+      "officialId": "b6fab4d70f9372a7",
+      "name": "张锡宁",
+      "officialSections": [
+        "专任教师 / 计算机科学系"
+      ],
+      "title": "副教授",
+      "profileUrl": "https://cs.whu.edu.cn/info/1019/2461.htm",
+      "portraitUrl": null,
+      "officialFields": {
+        "sex": "男",
+        "research": "计算机应用,空间信息处理,数据挖掘与分析,智能计算"
+      }
+    },
+    {
+      "officialId": "b64d7a544dc2c34a",
+      "name": "赵俭辉",
+      "officialSections": [
+        "专任教师 / 计算机科学系"
+      ],
+      "title": "副教授",
+      "profileUrl": "https://cs.whu.edu.cn/info/1019/2465.htm",
+      "portraitUrl": null,
+      "officialFields": {
+        "sex": "男",
+        "research": "多媒体技术与大数据分析,机器学习与智能交互,计算机动画,计算机仿真,计算机视觉,计算机图形学,计算机应用,模式识别,人工智能,虚拟现实与人机交互"
+      }
+    },
+    {
+      "officialId": "9bba37997c425730",
+      "name": "吕慧",
+      "officialSections": [
+        "专任教师 / 计算机科学系"
+      ],
+      "title": "讲师",
+      "profileUrl": "https://cs.whu.edu.cn/info/1019/2491.htm",
+      "portraitUrl": null,
+      "officialFields": {
+        "sex": "女",
+        "research": "计算机科学与技术"
+      }
+    },
+    {
+      "officialId": "610d2120035fed07",
+      "name": "熊小兵",
+      "officialSections": [
+        "专任教师 / 计算机科学系"
+      ],
+      "title": "讲师",
+      "profileUrl": "https://cs.whu.edu.cn/info/1019/2482.htm",
+      "portraitUrl": null,
+      "officialFields": {
+        "sex": "男",
+        "research": "计算机科学与技术"
+      }
+    },
+    {
+      "officialId": "195bdf5a660bad32",
+      "name": "郑志高",
+      "officialSections": [
+        "专任教师 / 计算机科学系"
+      ],
+      "title": "博士后",
+      "profileUrl": "https://cs.whu.edu.cn/info/1019/3354.htm",
+      "portraitUrl": null,
+      "officialFields": {
+        "sex": "男",
+        "research": "并行与分布式计算、智能计算"
+      }
+    },
+    {
+      "officialId": "8ec9ea9dc524f364",
+      "name": "傅佑铭",
+      "officialSections": [
+        "专任教师 / 计算机科学系"
+      ],
+      "title": "讲师",
+      "profileUrl": "https://cs.whu.edu.cn/info/1019/2486.htm",
+      "portraitUrl": null,
+      "officialFields": {
+        "sex": "男",
+        "research": "多媒体技术与大数据分析,多媒体网络通信,多媒体信号处理,计算机网络"
+      }
+    },
+    {
+      "officialId": "6a3eaa7af4260963",
+      "name": "刘敏忠",
+      "officialSections": [
+        "专任教师 / 计算机科学系"
+      ],
+      "title": "讲师",
+      "profileUrl": "https://cs.whu.edu.cn/info/1019/2488.htm",
+      "portraitUrl": null,
+      "officialFields": {
+        "sex": "男",
+        "research": "演化计算（多目标优化），并行计算。"
+      }
+    },
+    {
+      "officialId": "740d3ef473660771",
+      "name": "谭小琼",
+      "officialSections": [
+        "专任教师 / 计算机科学系"
+      ],
+      "title": "助理研究员",
+      "profileUrl": "https://cs.whu.edu.cn/info/1019/2512.htm",
+      "portraitUrl": null,
+      "officialFields": {
+        "sex": "女",
+        "research": "通信与信息系统"
+      }
+    },
+    {
+      "officialId": "3b2404acea2c2780",
+      "name": "周浩",
+      "officialSections": [
+        "专任教师 / 计算机科学系"
+      ],
+      "title": "讲师",
+      "profileUrl": "https://cs.whu.edu.cn/info/1019/2490.htm",
+      "portraitUrl": null,
+      "officialFields": {
+        "sex": "男",
+        "research": "计算机网络、无线网络"
+      }
+    },
+    {
+      "officialId": "d356b9038a43a6f8",
+      "name": "陈珉",
+      "officialSections": [
+        "专任教师 / 软件工程系"
+      ],
+      "title": "教授",
+      "profileUrl": "https://cs.whu.edu.cn/info/1019/2938.htm",
+      "portraitUrl": null,
+      "officialFields": {
+        "sex": "男",
+        "research": "空间信息数据处理，图形图像处理"
+      }
+    },
+    {
+      "officialId": "44a0b7835f1c549f",
+      "name": "陈曦",
+      "officialSections": [
+        "专任教师 / 软件工程系"
+      ],
+      "title": "教授",
+      "profileUrl": "http://jszy.whu.edu.cn/chenxi/zh_CN/index/242289/list/index.htm",
+      "portraitUrl": null,
+      "officialFields": {
+        "sex": "男",
+        "research": "机器学习与智能交互,人工智能"
+      }
+    },
+    {
+      "officialId": "ce48ecb85ac7dcbc",
+      "name": "邓娟",
+      "officialSections": [
+        "专任教师 / 软件工程系"
+      ],
+      "title": "教授",
+      "profileUrl": "https://cs.whu.edu.cn/info/1019/2761.htm",
+      "portraitUrl": null,
+      "officialFields": {
+        "sex": "女",
+        "research": "人工智能，软件工程"
+      }
+    },
+    {
+      "officialId": "77d5ea48c3220f1d",
+      "name": "董性平",
+      "officialSections": [
+        "专任教师 / 软件工程系"
+      ],
+      "title": "教授",
+      "profileUrl": "http://jszy.whu.edu.cn/dongxingping/zh_CN/index/1531352/list/index.htm",
+      "portraitUrl": null,
+      "officialFields": {
+        "sex": "男",
+        "research": "人工智能、计算机视觉、机器学习"
+      }
+    },
+    {
+      "officialId": "69dc0e356b81dcae",
+      "name": "韩波",
+      "officialSections": [
+        "专任教师 / 软件工程系"
+      ],
+      "title": "教授",
+      "profileUrl": "https://cs.whu.edu.cn/info/1019/2945.htm",
+      "portraitUrl": null,
+      "officialFields": {
+        "sex": "男",
+        "research": "大数据挖掘管理与分析,人工智能,数据挖掘与分析,自然语言处理"
+      }
+    },
+    {
+      "officialId": "630d6503c639a574",
+      "name": "金芝",
+      "officialSections": [
+        "专任教师 / 软件工程系"
+      ],
+      "title": "教授",
+      "profileUrl": "http://jszy.whu.edu.cn/jinzhi/zh_CN/index.htm",
+      "portraitUrl": null,
+      "officialFields": {
+        "sex": "女",
+        "research": "软件工程"
+      }
+    },
+    {
+      "officialId": "d7e93ff496b7cca7",
+      "name": "李兵",
+      "officialSections": [
+        "专任教师 / 软件工程系"
+      ],
+      "title": "教授",
+      "profileUrl": "https://cs.whu.edu.cn/info/1019/2946.htm",
+      "portraitUrl": null,
+      "officialFields": {
+        "sex": "男",
+        "research": "大数据安全,复杂系统建模,面向服务的软件工程,人工智能,软件工程,云计算与大数据处理"
+      }
+    },
+    {
+      "officialId": "3030e2230bceef4a",
+      "name": "李清安",
+      "officialSections": [
+        "专任教师 / 软件工程系"
+      ],
+      "title": "教授",
+      "profileUrl": "http://liqingan.cn/",
+      "portraitUrl": null,
+      "officialFields": {
+        "sex": "男",
+        "research": "编译优化、内存优化和系统层软件优化"
+      }
+    },
+    {
+      "officialId": "6e26373ae579cfca",
+      "name": "李昱科",
+      "officialSections": [
+        "专任教师 / 软件工程系"
+      ],
+      "title": "教授",
+      "profileUrl": "http://jszy.whu.edu.cn/liyuke/zh_CN/index.htm",
+      "portraitUrl": null,
+      "officialFields": {
+        "sex": "男",
+        "research": "计算机视觉、机器学习理论"
+      }
+    },
+    {
+      "officialId": "66d435011f50428f",
+      "name": "梁鹏",
+      "officialSections": [
+        "专任教师 / 软件工程系"
+      ],
+      "title": "教授",
+      "profileUrl": "http://jszy.whu.edu.cn/liangpeng/zh_CN/index.htm",
+      "portraitUrl": null,
+      "officialFields": {
+        "sex": "男",
+        "research": "软件工程"
+      }
+    },
+    {
+      "officialId": "88f6abd43fbe82c1",
+      "name": "刘峰",
+      "officialSections": [
+        "专任教师 / 软件工程系"
+      ],
+      "title": "教授",
+      "profileUrl": "http://jszy.whu.edu.cn/liufeng/zh_CN/index/247083/list/index.htm",
+      "portraitUrl": null,
+      "officialFields": {
+        "sex": "男",
+        "research": "软件工程,生物信息,数据挖掘与分析"
+      }
+    },
+    {
+      "officialId": "f57c85089a0c3029",
+      "name": "刘进",
+      "officialSections": [
+        "专任教师 / 软件工程系"
+      ],
+      "title": "教授",
+      "profileUrl": "https://cs.whu.edu.cn/info/1019/2952.htm",
+      "portraitUrl": null,
+      "officialFields": {
+        "sex": "男",
+        "research": "基于大模型的智能软件开发方法，多模态智能软件应用，工业软件"
+      }
+    },
+    {
+      "officialId": "fa46b972879fa566",
+      "name": "彭蓉",
+      "officialSections": [
+        "专任教师 / 软件工程系"
+      ],
+      "title": "教授",
+      "profileUrl": "https://cs.whu.edu.cn/info/1019/2951.htm",
+      "portraitUrl": null,
+      "officialFields": {
+        "sex": "女",
+        "research": "可信计算,面向服务的软件工程,软件工程,需求工程,知识工程"
+      }
+    },
+    {
+      "officialId": "4a91c3a30d6bda6c",
+      "name": "钱铁云",
+      "officialSections": [
+        "专任教师 / 软件工程系"
+      ],
+      "title": "教授",
+      "profileUrl": "http://jszy.whu.edu.cn/qiantieyun/zh_CN/index.htm",
+      "portraitUrl": null,
+      "officialFields": {
+        "sex": "女",
+        "research": "Web搜索与挖掘,大数据挖掘管理与分析,自然语言处理"
+      }
+    },
+    {
+      "officialId": "3f5d262a33422338",
+      "name": "孙世磊",
+      "officialSections": [
+        "专任教师 / 软件工程系"
+      ],
+      "title": "研究员",
+      "profileUrl": "https://cs.whu.edu.cn/info/1019/2914.htm",
+      "portraitUrl": null,
+      "officialFields": {
+        "sex": "男",
+        "research": "计算机视觉,人工智能,物联网"
+      }
+    },
+    {
+      "officialId": "8e84e8ce957a5d9e",
+      "name": "汪鼎文",
+      "officialSections": [
+        "专任教师 / 软件工程系"
+      ],
+      "title": "教授",
+      "profileUrl": "https://cs.whu.edu.cn/info/1019/2939.htm",
+      "portraitUrl": null,
+      "officialFields": {
+        "sex": "男",
+        "research": "机器学习与智能交互,计算机视觉,人工智能"
+      }
+    },
+    {
+      "officialId": "80bb3ef80d5c4d3c",
+      "name": "王峰",
+      "officialSections": [
+        "专任教师 / 软件工程系"
+      ],
+      "title": "教授",
+      "profileUrl": "https://cs.whu.edu.cn/info/1019/2940.htm",
+      "portraitUrl": null,
+      "officialFields": {
+        "sex": "女",
+        "research": "大数据挖掘管理与分析,机器学习与智能交互,模式识别,人工智能,智能计算"
+      }
+    },
+    {
+      "officialId": "1af830748dea6fc7",
+      "name": "王健",
+      "officialSections": [
+        "专任教师 / 软件工程系"
+      ],
+      "title": "教授",
+      "profileUrl": "http://jszy.whu.edu.cn/wangjian4/zh_CN/index.htm",
+      "portraitUrl": null,
+      "officialFields": {
+        "sex": "男",
+        "research": "面向服务的软件工程,人工智能,软件工程,云计算与大数据处理"
+      }
+    },
+    {
+      "officialId": "0f1fec820a220d49",
+      "name": "王玉林",
+      "officialSections": [
+        "专任教师 / 软件工程系"
+      ],
+      "title": "教授",
+      "profileUrl": "https://cs.whu.edu.cn/info/1019/2943.htm",
+      "portraitUrl": null,
+      "officialFields": {
+        "sex": "男",
+        "research": "多媒体信号处理,计算机视觉,计算机应用,模式识别,数据管理,物联网,信息安全,音视频处理"
+      }
+    },
+    {
+      "officialId": "98e0e1db7ad1ad11",
+      "name": "吴志健",
+      "officialSections": [
+        "专任教师 / 软件工程系"
+      ],
+      "title": "教授",
+      "profileUrl": "https://cs.whu.edu.cn/info/1019/2949.htm",
+      "portraitUrl": null,
+      "officialFields": {
+        "sex": "男",
+        "research": "智能计算"
+      }
+    },
+    {
+      "officialId": "2fdd45f2496bfc82",
+      "name": "谢晓园",
+      "officialSections": [
+        "专任教师 / 软件工程系"
+      ],
+      "title": "教授",
+      "profileUrl": "https://xiaoyuanxie.github.io/",
+      "portraitUrl": null,
+      "officialFields": {
+        "sex": "女",
+        "research": "软件工程"
+      }
+    },
+    {
+      "officialId": "0a5ab536213c63cd",
+      "name": "玄跻峰",
+      "officialSections": [
+        "专任教师 / 软件工程系"
+      ],
+      "title": "教授",
+      "profileUrl": "https://cs.whu.edu.cn/info/1019/2947.htm",
+      "portraitUrl": null,
+      "officialFields": {
+        "sex": "男",
+        "research": "软件分析与测试,软件工程"
+      }
+    },
+    {
+      "officialId": "071f7a906303feb3",
+      "name": "甘庭",
+      "officialSections": [
+        "专任教师 / 软件工程系"
+      ],
+      "title": "特聘副研究员",
+      "profileUrl": "https://cs.whu.edu.cn/info/1019/2934.htm",
+      "portraitUrl": null,
+      "officialFields": {
+        "sex": "男",
+        "research": "形式化方法，约束求解，统计推理"
+      }
+    },
+    {
+      "officialId": "3c047e33db53993f",
+      "name": "桂浩",
+      "officialSections": [
+        "专任教师 / 软件工程系"
+      ],
+      "title": "副教授",
+      "profileUrl": "https://cs.whu.edu.cn/info/1019/2762.htm",
+      "portraitUrl": null,
+      "officialFields": {
+        "sex": "男",
+        "research": "云计算，软件工程，人工智能"
+      }
+    },
+    {
+      "officialId": "74195d9f3cc68f79",
+      "name": "瞿涛",
+      "officialSections": [
+        "专任教师 / 软件工程系"
+      ],
+      "title": "副教授",
+      "profileUrl": "http://jszy.whu.edu.cn/qutao_cs/zh_CN/index.htm",
+      "portraitUrl": null,
+      "officialFields": {
+        "sex": "男",
+        "research": "嵌入式实时图像处理，目标检测，目标跟踪"
+      }
+    },
+    {
+      "officialId": "cad3ad2d37d25c11",
+      "name": "刘浩文",
+      "officialSections": [
+        "专任教师 / 软件工程系"
+      ],
+      "title": "副教授",
+      "profileUrl": "https://jszy.whu.edu.cn/liuhaowen/zh_CN/index.htm",
+      "portraitUrl": null,
+      "officialFields": {
+        "sex": "男",
+        "research": "云计算、大数据分析与处理、人工智能与大模型应用"
+      }
+    },
+    {
+      "officialId": "c9dda0b16fb780e7",
+      "name": "王翀",
+      "officialSections": [
+        "专任教师 / 软件工程系"
+      ],
+      "title": "副教授",
+      "profileUrl": "https://cs.whu.edu.cn/info/1019/2935.htm",
+      "portraitUrl": null,
+      "officialFields": {
+        "sex": "女",
+        "research": "面向服务的软件工程,软件工程,需求工程"
+      }
+    },
+    {
+      "officialId": "97c97ed59c5472f6",
+      "name": "辛奇",
+      "officialSections": [
+        "专任教师 / 软件工程系"
+      ],
+      "title": "副教授",
+      "profileUrl": "https://jszy.whu.edu.cn/xinqi/zh_CN/index.htm",
+      "portraitUrl": null,
+      "officialFields": {
+        "sex": "男",
+        "research": "软件分析与测试,软件工程"
+      }
+    },
+    {
+      "officialId": "dd121b36f1e69ecd",
+      "name": "詹忆冰",
+      "officialSections": [
+        "专任教师 / 软件工程系"
+      ],
+      "title": "副研究员",
+      "profileUrl": "https://jszy.whu.edu.cn/zhanyibing/zh_CN/index.htm",
+      "portraitUrl": null,
+      "officialFields": {
+        "sex": "男",
+        "research": "医疗人工智能与多模态学习"
+      }
+    },
+    {
+      "officialId": "4d780719b138c279",
+      "name": "张昀",
+      "officialSections": [
+        "专任教师 / 软件工程系"
+      ],
+      "title": "副教授",
+      "profileUrl": "https://cs.whu.edu.cn/info/1019/2919.htm",
+      "portraitUrl": null,
+      "officialFields": {
+        "sex": "女",
+        "research": "软件工程，智能网联汽车，网络与通信"
+      }
+    },
+    {
+      "officialId": "748ed46ba3588a84",
+      "name": "陈金富",
+      "officialSections": [
+        "专任教师 / 软件工程系"
+      ],
+      "title": "副教授",
+      "profileUrl": "https://cs.whu.edu.cn/info/1019/3521.htm",
+      "portraitUrl": null,
+      "officialFields": {
+        "sex": "男",
+        "research": "软件工程，软件性能，软件仓库挖掘，代码克隆检测"
+      }
+    },
+    {
+      "officialId": "939cb7008a656dcc",
+      "name": "李小红",
+      "officialSections": [
+        "专任教师 / 软件工程系"
+      ],
+      "title": "副教授",
+      "profileUrl": "https://cs.whu.edu.cn/info/1019/2916.htm",
+      "portraitUrl": null,
+      "officialFields": {
+        "sex": "女",
+        "research": "数据挖掘与分析,信息安全"
+      }
+    },
+    {
+      "officialId": "bdfe94407336839f",
+      "name": "李晓剑",
+      "officialSections": [
+        "专任教师 / 软件工程系"
+      ],
+      "title": "副教授",
+      "profileUrl": "https://cs.whu.edu.cn/info/1019/2927.htm",
+      "portraitUrl": null,
+      "officialFields": {
+        "sex": "男",
+        "research": "计算机应用,软件工程"
+      }
+    },
+    {
+      "officialId": "3d65648cc5df017a",
+      "name": "刘婧",
+      "officialSections": [
+        "专任教师 / 软件工程系"
+      ],
+      "title": "副教授",
+      "profileUrl": "https://cs.whu.edu.cn/info/1019/2922.htm",
+      "portraitUrl": null,
+      "officialFields": {
+        "sex": "女",
+        "research": "软件工程,数据挖掘与分析"
+      }
+    },
+    {
+      "officialId": "dd80a6e474a1354c",
+      "name": "王黎维",
+      "officialSections": [
+        "专任教师 / 软件工程系"
+      ],
+      "title": "副教授",
+      "profileUrl": "https://cs.whu.edu.cn/info/1019/2763.htm",
+      "portraitUrl": null,
+      "officialFields": {
+        "sex": "女",
+        "research": "Web搜索与挖掘,大数据挖掘管理与分析,复杂系统建模,数据管理,数据库,数据挖掘与分析,信息存储,信息检索"
+      }
+    },
+    {
+      "officialId": "ee380a2a2e7b3bd8",
+      "name": "吴小莹",
+      "officialSections": [
+        "专任教师 / 软件工程系"
+      ],
+      "title": "副教授",
+      "profileUrl": "https://cs.whu.edu.cn/info/1019/2915.htm",
+      "portraitUrl": null,
+      "officialFields": {
+        "sex": "女",
+        "research": "Web搜索与挖掘,大数据挖掘管理与分析,数据管理,数据库,数据挖掘与分析,云计算与大数据处理,"
+      }
+    },
+    {
+      "officialId": "7b21cd3d13ae9c0a",
+      "name": "赵小刚",
+      "officialSections": [
+        "专任教师 / 软件工程系"
+      ],
+      "title": "副教授",
+      "profileUrl": "https://cs.whu.edu.cn/info/1019/2932.htm",
+      "portraitUrl": null,
+      "officialFields": {
+        "sex": "男",
+        "research": "并行分布计算,复杂系统建模,信息存储,云存储技术,云计算与大数据处理"
+      }
+    },
+    {
+      "officialId": "c2d2f4510d6154fc",
+      "name": "钟鸣",
+      "officialSections": [
+        "专任教师 / 软件工程系"
+      ],
+      "title": "副教授",
+      "profileUrl": "https://cs.whu.edu.cn/info/1019/2764.htm",
+      "portraitUrl": null,
+      "officialFields": {
+        "sex": "男",
+        "research": "大数据挖掘管理与分析,分布式计算,计算机应用,面向服务的软件工程,人工智能,数据管理,数据库,数据挖掘与分析,信息检索,云计算与大数据处理,知识工程"
+      }
+    },
+    {
+      "officialId": "edb537dcf848c794",
+      "name": "周国富",
+      "officialSections": [
+        "专任教师 / 软件工程系"
+      ],
+      "title": "副教授",
+      "profileUrl": "https://cs.whu.edu.cn/info/1019/2923.htm",
+      "portraitUrl": null,
+      "officialFields": {
+        "sex": "男",
+        "research": "Petri网，软件测试，程序建模，并行计算，程序语义"
+      }
+    },
+    {
+      "officialId": "cc6133f1f564173f",
+      "name": "朱卫平",
+      "officialSections": [
+        "专任教师 / 软件工程系"
+      ],
+      "title": "副教授",
+      "profileUrl": "https://cs.whu.edu.cn/info/1019/2920.htm",
+      "portraitUrl": null,
+      "officialFields": {
+        "sex": "男",
+        "research": "并行分布计算,计算机网络,人工智能,物联网"
+      }
+    },
+    {
+      "officialId": "bb7da5d322e5d829",
+      "name": "常军",
+      "officialSections": [
+        "专任教师 / 软件工程系"
+      ],
+      "title": "讲师",
+      "profileUrl": "https://cs.whu.edu.cn/info/1019/2933.htm",
+      "portraitUrl": null,
+      "officialFields": {
+        "sex": "男",
+        "research": "智能驾驶，多模态智能感知，计算机视觉"
+      }
+    },
+    {
+      "officialId": "3b421b75d64b7714",
+      "name": "胡志雄",
+      "officialSections": [
+        "专任教师 / 软件工程系"
+      ],
+      "title": "讲师",
+      "profileUrl": "https://cs.whu.edu.cn/info/1019/2928.htm",
+      "portraitUrl": null,
+      "officialFields": {
+        "sex": "男",
+        "research": "软件工程"
+      }
+    },
+    {
+      "officialId": "d8406cce80cab67a",
+      "name": "贾向阳",
+      "officialSections": [
+        "专任教师 / 软件工程系"
+      ],
+      "title": "讲师",
+      "profileUrl": "https://jszy.whu.edu.cn/jiaxiangyang/zh_CN/index.htm",
+      "portraitUrl": null,
+      "officialFields": {
+        "sex": "男",
+        "research": "人工智能,软件分析与测试,软件工程,云计算与大数据处理,"
+      }
+    },
+    {
+      "officialId": "ce0d91a6f797f9e3",
+      "name": "李瑞引",
+      "officialSections": [
+        "专任教师 / 软件工程系"
+      ],
+      "title": "博士后",
+      "profileUrl": "https://cs.whu.edu.cn/info/1019/43661.htm",
+      "portraitUrl": null,
+      "officialFields": {
+        "sex": "男",
+        "research": "软件工程"
+      }
+    },
+    {
+      "officialId": "1a919d82af7d019c",
+      "name": "宋壹",
+      "officialSections": [
+        "专任教师 / 软件工程系"
+      ],
+      "title": "博士后",
+      "profileUrl": "https://cs.whu.edu.cn/info/1019/45631.htm",
+      "portraitUrl": null,
+      "officialFields": {
+        "sex": "男",
+        "research": "软件工程"
+      }
+    },
+    {
+      "officialId": "d7ae80bc07d39a29",
+      "name": "童旅杨",
+      "officialSections": [
+        "专任教师 / 软件工程系"
+      ],
+      "title": "博士后",
+      "profileUrl": "https://cs.whu.edu.cn/info/1019/43621.htm",
+      "portraitUrl": null,
+      "officialFields": {
+        "sex": "男",
+        "research": "软件工程"
+      }
+    },
+    {
+      "officialId": "242bd164b8a5ed3f",
+      "name": "王玲玲",
+      "officialSections": [
+        "专任教师 / 软件工程系"
+      ],
+      "title": "讲师",
+      "profileUrl": "https://cs.whu.edu.cn/info/1019/2849.htm",
+      "portraitUrl": null,
+      "officialFields": {
+        "sex": "女",
+        "research": "模式识别,人工智能,智能计算"
+      }
+    },
+    {
+      "officialId": "4dcfb943025aebd4",
+      "name": "何璐璐",
+      "officialSections": [
+        "专任教师 / 软件工程系"
+      ],
+      "title": "讲师",
+      "profileUrl": "https://cs.whu.edu.cn/info/1019/2936.htm",
+      "portraitUrl": null,
+      "officialFields": {
+        "sex": "女",
+        "research": "实证软件工程，软件度量，软件演化与维护"
+      }
+    },
+    {
+      "officialId": "1976c469b791a8b4",
+      "name": "陈丹",
+      "officialSections": [
+        "专任教师 / 智能科学系"
+      ],
+      "title": "教授",
+      "profileUrl": "https://cs.whu.edu.cn/info/1019/2891.htm",
+      "portraitUrl": null,
+      "officialFields": {
+        "sex": "男",
+        "research": "大数据挖掘管理与分析,人工智能,智能计算"
+      }
+    },
+    {
+      "officialId": "c330bedc668c9240",
+      "name": "陈旭",
+      "officialSections": [
+        "专任教师 / 智能科学系"
+      ],
+      "title": "教授",
+      "profileUrl": "https://cs.whu.edu.cn/info/1019/2843.htm",
+      "portraitUrl": null,
+      "officialFields": {
+        "sex": "男",
+        "research": "Web搜索与挖掘,空间信息处理,面向服务的软件工程,人工智能,软件工程,信息检索,云计算与大数据处理,自然语言处理"
+      }
+    },
+    {
+      "officialId": "bca90a5e7b2b9b89",
+      "name": "戴行",
+      "officialSections": [
+        "专任教师 / 智能科学系"
+      ],
+      "title": "教授",
+      "profileUrl": "http://jszy.whu.edu.cn/daihang/zh_CN/index/1640354/list/",
+      "portraitUrl": null,
+      "officialFields": {
+        "sex": "男",
+        "research": "人工智能"
+      }
+    },
+    {
+      "officialId": "850e3ae192721704",
+      "name": "丁立新",
+      "officialSections": [
+        "专任教师 / 智能科学系"
+      ],
+      "title": "教授",
+      "profileUrl": "https://cs.whu.edu.cn/info/1019/2885.htm",
+      "portraitUrl": null,
+      "officialFields": {
+        "sex": "男",
+        "research": "机器学习与智能交互,人工智能,智能计算"
+      }
+    },
+    {
+      "officialId": "15c70e46a1d3cdb6",
+      "name": "董文永",
+      "officialSections": [
+        "专任教师 / 智能科学系"
+      ],
+      "title": "教授",
+      "profileUrl": "https://cs.whu.edu.cn/info/1019/2881.htm",
+      "portraitUrl": null,
+      "officialFields": {
+        "sex": "男",
+        "research": "并行分布计算,大数据挖掘管理与分析,分布式计算,复杂系统建模,高性能计算,机器学习与智能交互,人工智能,物联网,智能计算"
+      }
+    },
+    {
+      "officialId": "74eb925406c8d995",
+      "name": "杜博",
+      "officialSections": [
+        "专任教师 / 智能科学系"
+      ],
+      "title": "教授",
+      "profileUrl": "https://cs.whu.edu.cn/info/1019/2892.htm",
+      "portraitUrl": null,
+      "officialFields": {
+        "sex": "男",
+        "research": "大数据挖掘管理与分析,多媒体技术与大数据分析,多媒体信号处理,机器学习与智能交互,计算机视觉,计算机应用,模式识别,人工智能,数据挖掘与分析,音视频处理,智能计算"
+      }
+    },
+    {
+      "officialId": "1a67ec1e04c18a56",
+      "name": "宫秀文",
+      "officialSections": [
+        "专任教师 / 智能科学系"
+      ],
+      "title": "教授",
+      "profileUrl": "https://jszy.whu.edu.cn/gongxiuwen/zh_CN/index.htm",
+      "portraitUrl": null,
+      "officialFields": {
+        "sex": "女",
+        "research": "机器学习、可信推荐系统、多模态大模型、具身智能"
+      }
+    },
+    {
+      "officialId": "9fbe417dd3e184e8",
+      "name": "胡文斌",
+      "officialSections": [
+        "专任教师 / 智能科学系"
+      ],
+      "title": "教授",
+      "profileUrl": "https://cs.whu.edu.cn/info/1019/2886.htm",
+      "portraitUrl": null,
+      "officialFields": {
+        "sex": "男",
+        "research": "安防应急,大数据挖掘管理与分析,复杂系统建模,计算机仿真,计算机应用,人工智能,数据挖掘与分析,云计算与大数据处理,智能计算"
+      }
+    },
+    {
+      "officialId": "176596449a605c17",
+      "name": "静永程",
+      "officialSections": [
+        "专任教师 / 智能科学系"
+      ],
+      "title": "教授",
+      "profileUrl": "http://jszy.whu.edu.cn/jingyongcheng/zh_CN/index.htm",
+      "portraitUrl": null,
+      "officialFields": {
+        "sex": "男",
+        "research": "多媒体技术与大数据分析，多模态大模型，智能体，医学人工智能，计算机视觉，模式识别，计算机应用"
+      }
+    },
+    {
+      "officialId": "511ac4cf140e5e88",
+      "name": "李晶",
+      "officialSections": [
+        "专任教师 / 智能科学系"
+      ],
+      "title": "教授",
+      "profileUrl": "http://jszy.whu.edu.cn/~3maiuq/zh_CN/index.htm",
+      "portraitUrl": null,
+      "officialFields": {
+        "sex": "男",
+        "research": "多媒体技术与大数据分析,多媒体信号处理,计算机仿真,人工智能"
+      }
+    },
+    {
+      "officialId": "d230f9b2517c533d",
+      "name": "李雪飞",
+      "officialSections": [
+        "专任教师 / 智能科学系"
+      ],
+      "title": "教授",
+      "profileUrl": "http://jszy.whu.edu.cn/lixuefei/zh_CN/index/252557/list/index.htm",
+      "portraitUrl": null,
+      "officialFields": {
+        "sex": "男",
+        "research": "大数据挖掘管理与分析,机器学习与智能交互,计算机视觉,物联网,虚拟现实与人机交互"
+      }
+    },
+    {
+      "officialId": "72d5b13021642839",
+      "name": "梁超",
+      "officialSections": [
+        "专任教师 / 智能科学系"
+      ],
+      "title": "教授",
+      "profileUrl": "https://cs.whu.edu.cn/info/1019/2832.htm",
+      "portraitUrl": null,
+      "officialFields": {
+        "sex": "男",
+        "research": "多媒体技术与大数据分析,机器学习与智能交互,计算机视觉,模式识别,人工智能"
+      }
+    },
+    {
+      "officialId": "6695b1b6c4fc9bf4",
+      "name": "刘菊华",
+      "officialSections": [
+        "专任教师 / 智能科学系"
+      ],
+      "title": "教授",
+      "profileUrl": "http://jszy.whu.edu.cn/liujuhua1/zh_CN/index/435297/list/index.htm",
+      "portraitUrl": null,
+      "officialFields": {
+        "sex": "男",
+        "research": "计算机视觉，自然语言处理，大模型"
+      }
+    },
+    {
+      "officialId": "bd7598aca17fd8b3",
+      "name": "罗勇",
+      "officialSections": [
+        "专任教师 / 智能科学系"
+      ],
+      "title": "教授",
+      "profileUrl": "http://jszy.whu.edu.cn/luoyong6/zh_CN/index.htm",
+      "portraitUrl": null,
+      "officialFields": {
+        "sex": "男",
+        "research": "模式识别,人工智能,数据挖掘与分析"
+      }
+    },
+    {
+      "officialId": "73e57b6a7b663626",
+      "name": "亓鲁",
+      "officialSections": [
+        "专任教师 / 智能科学系"
+      ],
+      "title": "教授",
+      "profileUrl": "https://jszy.whu.edu.cn/qilu",
+      "portraitUrl": null,
+      "officialFields": {
+        "sex": "男",
+        "research": "计算机视觉与机器人学"
+      }
+    },
+    {
+      "officialId": "b67be49a0e0248de",
+      "name": "苏科华",
+      "officialSections": [
+        "专任教师 / 智能科学系"
+      ],
+      "title": "教授",
+      "profileUrl": "http://jszy.whu.edu.cn/sukehua/zh_CN/index.htm",
+      "portraitUrl": null,
+      "officialFields": {
+        "sex": "男",
+        "research": "计算机视觉,计算机图形学,人工智能,虚拟现实"
+      }
+    },
+    {
+      "officialId": "e48b93566518e822",
+      "name": "涂卫平",
+      "officialSections": [
+        "专任教师 / 智能科学系"
+      ],
+      "title": "教授",
+      "profileUrl": "http://jszy.whu.edu.cn/tuweiping/zh_CN/index.htm",
+      "portraitUrl": null,
+      "officialFields": {
+        "sex": "女",
+        "research": "多媒体信号处理,机器学习与智能交互,人工智能,音视频处理"
+      }
+    },
+    {
+      "officialId": "08f6f0fc0d5a1d9c",
+      "name": "王泽宇",
+      "officialSections": [
+        "专任教师 / 智能科学系"
+      ],
+      "title": "教授",
+      "profileUrl": "https://jszy.whu.edu.cn/wangzeyu/zh_CN/index.htm",
+      "portraitUrl": null,
+      "officialFields": {
+        "sex": "男",
+        "research": "人工智能，计算机视觉，多模态，空间理解，具身智能，AI for Science"
+      }
+    },
+    {
+      "officialId": "5e970c8851ee680c",
+      "name": "王正",
+      "officialSections": [
+        "专任教师 / 智能科学系"
+      ],
+      "title": "教授",
+      "profileUrl": "https://cs.whu.edu.cn/info/1019/2854.htm",
+      "portraitUrl": null,
+      "officialFields": {
+        "sex": "男",
+        "research": "多媒体技术与大数据分析,计算机视觉"
+      }
+    },
+    {
+      "officialId": "00bff4926bba880e",
+      "name": "叶茫",
+      "officialSections": [
+        "专任教师 / 智能科学系"
+      ],
+      "title": "教授",
+      "profileUrl": "http://jszy.whu.edu.cn/yemang/zh_CN/index.htm",
+      "portraitUrl": null,
+      "officialFields": {
+        "sex": "男",
+        "research": "多媒体技术与大数据分析,计算机视觉,模式识别,人工智能"
+      }
+    },
+    {
+      "officialId": "62c6fbc9e05abefa",
+      "name": "张敬",
+      "officialSections": [
+        "专任教师 / 智能科学系"
+      ],
+      "title": "教授",
+      "profileUrl": "https://jszy.whu.edu.cn/zhangjing123456/zh_CN/index.htm",
+      "portraitUrl": null,
+      "officialFields": {
+        "sex": "男",
+        "research": "计算机视觉、图像处理、机器人、人工智能"
+      }
+    },
+    {
+      "officialId": "53a71bcf735724de",
+      "name": "张乐飞",
+      "officialSections": [
+        "专任教师 / 智能科学系"
+      ],
+      "title": "教授",
+      "profileUrl": "https://jszy.whu.edu.cn/zhanglefei/zh_CN/index.htm",
+      "portraitUrl": null,
+      "officialFields": {
+        "sex": "男",
+        "research": "计算机视觉,模式识别,人工智能"
+      }
+    },
+    {
+      "officialId": "f40e7920ab9d3123",
+      "name": "祝园园",
+      "officialSections": [
+        "专任教师 / 智能科学系"
+      ],
+      "title": "教授",
+      "profileUrl": "http://jszy.whu.edu.cn/zhuyuanyuan/zh_CN/",
+      "portraitUrl": null,
+      "officialFields": {
+        "sex": "女",
+        "research": "Web搜索与挖掘,大数据挖掘管理与分析,数据管理,数据库,数据挖掘与分析,云计算与大数据处理"
+      }
+    },
+    {
+      "officialId": "ec9c68fe2bd86358",
+      "name": "邹华",
+      "officialSections": [
+        "专任教师 / 智能科学系"
+      ],
+      "title": "教授",
+      "profileUrl": "http://jszy.whu.edu.cn/zouhua/zh_CN/index.htm",
+      "portraitUrl": null,
+      "officialFields": {
+        "sex": "男",
+        "research": "多媒体技术与大数据分析,计算机仿真,计算机视觉"
+      }
+    },
+    {
+      "officialId": "8e7091a7f5b6cd87",
+      "name": "邹勤",
+      "officialSections": [
+        "专任教师 / 智能科学系"
+      ],
+      "title": "教授",
+      "profileUrl": "http://jszy.whu.edu.cn/zouqin/zh_CN/more/419895/jsjjgd/index.htm",
+      "portraitUrl": null,
+      "officialFields": {
+        "sex": "男",
+        "research": "机器视觉，机器人，具身智能"
+      }
+    },
+    {
+      "officialId": "d25c8057b4098c53",
+      "name": "何政",
+      "officialSections": [
+        "专任教师 / 智能科学系"
+      ],
+      "title": "副教授",
+      "profileUrl": "http://jszy.whu.edu.cn/hezheng/zh_CN/index.htm",
+      "portraitUrl": null,
+      "officialFields": {
+        "sex": "男",
+        "research": "安防应急,多媒体技术与大数据分析,多媒体网络通信,计算机视觉,软件分析与测试"
+      }
+    },
+    {
+      "officialId": "dad561785ab56e23",
+      "name": "林雨恬",
+      "officialSections": [
+        "专任教师 / 智能科学系"
+      ],
+      "title": "副教授",
+      "profileUrl": "http://jszy.whu.edu.cn/linyutian/zh_CN/index.htm",
+      "portraitUrl": null,
+      "officialFields": {
+        "sex": "女",
+        "research": "计算机视觉,人工智能"
+      }
+    },
+    {
+      "officialId": "e362c10781bbcd30",
+      "name": "刘斌",
+      "officialSections": [
+        "专任教师 / 智能科学系"
+      ],
+      "title": "副教授",
+      "profileUrl": "https://cs.whu.edu.cn/info/1019/2850.htm",
+      "portraitUrl": null,
+      "officialFields": {
+        "sex": "男",
+        "research": "大数据挖掘管理与分析,数据库,数据挖掘与分析,网络安全"
+      }
+    },
+    {
+      "officialId": "04bb6ef49ad18448",
+      "name": "刘友发",
+      "officialSections": [
+        "专任教师 / 智能科学系"
+      ],
+      "title": "特聘副研究员",
+      "profileUrl": "http://jszy.whu.edu.cn/liuyoufa/zh_CN/index.htm",
+      "portraitUrl": null,
+      "officialFields": {
+        "sex": "男",
+        "research": "迁移学习、图神经网络"
+      }
+    },
+    {
+      "officialId": "45835b5d5124a526",
+      "name": "王增茂",
+      "officialSections": [
+        "专任教师 / 智能科学系"
+      ],
+      "title": "副教授",
+      "profileUrl": "http://jszy.whu.edu.cn/wangzengmao",
+      "portraitUrl": null,
+      "officialFields": {
+        "sex": "男",
+        "research": "计算机视觉，机器学习，多模态学习，医学图像处理"
+      }
+    },
+    {
+      "officialId": "90d5d79613bb1688",
+      "name": "赵煌旋",
+      "officialSections": [
+        "专任教师 / 智能科学系"
+      ],
+      "title": "副教授",
+      "profileUrl": "http://jszy.whu.edu.cn/zhaohuangxuan/zh_CN/index.htm",
+      "portraitUrl": null,
+      "officialFields": {
+        "sex": "男",
+        "research": "医学人工智能、多模态大模型、智能体"
+      }
+    },
+    {
+      "officialId": "5f1a454c7dbb75c6",
+      "name": "杨玉红",
+      "officialSections": [
+        "专任教师 / 智能科学系"
+      ],
+      "title": "副教授",
+      "profileUrl": "https://cs.whu.edu.cn/info/1019/2830.htm",
+      "portraitUrl": null,
+      "officialFields": {
+        "sex": "女",
+        "research": "多媒体技术与大数据分析,多媒体信号处理,音视频处理"
+      }
+    },
+    {
+      "officialId": "f891635319d200bd",
+      "name": "余纯武",
+      "officialSections": [
+        "专任教师 / 智能科学系"
+      ],
+      "title": "副教授",
+      "profileUrl": "https://cs.whu.edu.cn/info/1019/2839.htm",
+      "portraitUrl": null,
+      "officialFields": {
+        "sex": "男",
+        "research": "主要专业方向：图象处理、信息隐藏、算法设计与分析和生物计算机模拟。"
+      }
+    },
+    {
+      "officialId": "2614630042666695",
+      "name": "车越之",
+      "officialSections": [
+        "专任教师 / 智能科学系"
+      ],
+      "title": "博士后",
+      "profileUrl": "https://cs.whu.edu.cn/info/1019/44631.htm",
+      "portraitUrl": null,
+      "officialFields": {
+        "sex": "男",
+        "research": "人工智能"
+      }
+    },
+    {
+      "officialId": "05b9e61d7247b673",
+      "name": "韩梦雅",
+      "officialSections": [
+        "专任教师 / 智能科学系"
+      ],
+      "title": "博士后",
+      "profileUrl": "https://cs.whu.edu.cn/info/1019/43651.htm",
+      "portraitUrl": null,
+      "officialFields": {
+        "sex": "女",
+        "research": "人工智能"
+      }
+    },
+    {
+      "officialId": "9f621bd7e272d0cb",
+      "name": "胡则超",
+      "officialSections": [
+        "专任教师 / 智能科学系"
+      ],
+      "title": "博士后",
+      "profileUrl": "https://cs.whu.edu.cn/info/1019/43631.htm",
+      "portraitUrl": null,
+      "officialFields": {
+        "sex": "男",
+        "research": "人工智能"
+      }
+    },
+    {
+      "officialId": "57e70a4385ad5b40",
+      "name": "孙超",
+      "officialSections": [
+        "专任教师 / 智能科学系"
+      ],
+      "title": "博士后",
+      "profileUrl": "https://cs.whu.edu.cn/info/1019/43671.htm",
+      "portraitUrl": null,
+      "officialFields": {
+        "sex": "男",
+        "research": "人工智能"
+      }
+    },
+    {
+      "officialId": "697d108832f26e68",
+      "name": "万国佳",
+      "officialSections": [
+        "专任教师 / 智能科学系"
+      ],
+      "title": "博士后",
+      "profileUrl": "https://cs.whu.edu.cn/info/1019/2824.htm",
+      "portraitUrl": null,
+      "officialFields": {
+        "sex": "男",
+        "research": "人工智能"
+      }
+    },
+    {
+      "officialId": "409689b686761d82",
+      "name": "叶刚",
+      "officialSections": [
+        "专任教师 / 智能科学系"
+      ],
+      "title": "助理研究员",
+      "profileUrl": "https://cs.whu.edu.cn/info/1019/2897.htm",
+      "portraitUrl": null,
+      "officialFields": {
+        "sex": "男",
+        "research": "分布式计算，多模态数据处理，具身智能"
+      }
+    },
+    {
+      "officialId": "d345af122f6182a1",
+      "name": "康卓",
+      "officialSections": [
+        "专任教师 / 公共课教学中心"
+      ],
+      "title": "教授",
+      "profileUrl": "https://cs.whu.edu.cn/info/1019/2877.htm",
+      "portraitUrl": null,
+      "officialFields": {
+        "sex": "男",
+        "research": "智能计算 • 计算机密码学"
+      }
+    },
+    {
+      "officialId": "38a330fc703410ee",
+      "name": "何扬帆",
+      "officialSections": [
+        "专任教师 / 公共课教学中心"
+      ],
+      "title": "副教授",
+      "profileUrl": "https://cs.whu.edu.cn/info/1019/2866.htm",
+      "portraitUrl": null,
+      "officialFields": {
+        "sex": "女",
+        "research": "面向服务的软件工程,软件工程,知识工程"
+      }
+    },
+    {
+      "officialId": "84336052bbfa5f04",
+      "name": "高建华",
+      "officialSections": [
+        "专任教师 / 公共课教学中心"
+      ],
+      "title": "副教授",
+      "profileUrl": "https://cs.whu.edu.cn/info/1019/2865.htm",
+      "portraitUrl": null,
+      "officialFields": {
+        "sex": "男",
+        "research": "计算机应用,人工智能,智能计算"
+      }
+    },
+    {
+      "officialId": "374768ebd1bec175",
+      "name": "关焕梅",
+      "officialSections": [
+        "专任教师 / 公共课教学中心"
+      ],
+      "title": "副教授",
+      "profileUrl": "http://jszy.whu.edu.cn/guanhuanmei/zh_CN/index.htm",
+      "portraitUrl": null,
+      "officialFields": {
+        "sex": "女",
+        "research": "计算机应用,数据挖掘与分析"
+      }
+    },
+    {
+      "officialId": "3e72e2d605edf5df",
+      "name": "杨先娣",
+      "officialSections": [
+        "专任教师 / 公共课教学中心"
+      ],
+      "title": "副教授",
+      "profileUrl": "https://cs.whu.edu.cn/info/1019/2863.htm",
+      "portraitUrl": null,
+      "officialFields": {
+        "sex": "女",
+        "research": "大数据挖掘管理与分析,数据管理,数据库,数据挖掘与分析"
+      }
+    },
+    {
+      "officialId": "b88a378cfb7272b8",
+      "name": "李艳",
+      "officialSections": [
+        "专任教师 / 公共课教学中心"
+      ],
+      "title": "副教授",
+      "profileUrl": "https://cs.whu.edu.cn/info/1019/2858.htm",
+      "portraitUrl": null,
+      "officialFields": {
+        "sex": "女",
+        "research": "计算机"
+      }
+    },
+    {
+      "officialId": "5a5364b4a8f7cdc2",
+      "name": "李晖",
+      "officialSections": [
+        "专任教师 / 公共课教学中心"
+      ],
+      "title": "副教授",
+      "profileUrl": "https://cs.whu.edu.cn/info/1019/2857.htm",
+      "portraitUrl": null,
+      "officialFields": {
+        "sex": "男",
+        "research": "计算机"
+      }
+    },
+    {
+      "officialId": "0b35e56a8004a2aa",
+      "name": "陈萍",
+      "officialSections": [
+        "专任教师 / 公共课教学中心"
+      ],
+      "title": "讲师",
+      "profileUrl": "https://cs.whu.edu.cn/info/1019/2868.htm",
+      "portraitUrl": null,
+      "officialFields": {
+        "sex": "女",
+        "research": "计算机"
+      }
+    },
+    {
+      "officialId": "97fe1bf5f3538546",
+      "name": "郭玮",
+      "officialSections": [
+        "专任教师 / 公共课教学中心"
+      ],
+      "title": "讲师",
+      "profileUrl": "https://cs.whu.edu.cn/info/1019/2874.htm",
+      "portraitUrl": null,
+      "officialFields": {
+        "sex": "男",
+        "research": "计算机应用"
+      }
+    },
+    {
+      "officialId": "2cfd57c576b696a5",
+      "name": "蒋华",
+      "officialSections": [
+        "专任教师 / 公共课教学中心"
+      ],
+      "title": "讲师",
+      "profileUrl": "https://cs.whu.edu.cn/info/1019/2872.htm",
+      "portraitUrl": null,
+      "officialFields": {
+        "sex": "男",
+        "research": "人工智能,智能计算"
+      }
+    },
+    {
+      "officialId": "81979a56078a6279",
+      "name": "李蓉蓉",
+      "officialSections": [
+        "专任教师 / 公共课教学中心"
+      ],
+      "title": "讲师",
+      "profileUrl": "http://jszy.whu.edu.cn/lirongrong/zh_CN/index.htm",
+      "portraitUrl": null,
+      "officialFields": {
+        "sex": "女",
+        "research": "数据库技术研究、分布式数据管理、数据抽取与知识图谱构建"
+      }
+    },
+    {
+      "officialId": "605f01c3dd282d6c",
+      "name": "刘珺",
+      "officialSections": [
+        "专任教师 / 公共课教学中心"
+      ],
+      "title": "讲师",
+      "profileUrl": "https://cs.whu.edu.cn/info/1019/2871.htm",
+      "portraitUrl": null,
+      "officialFields": {
+        "sex": "女",
+        "research": "计算机"
+      }
+    },
+    {
+      "officialId": "090c9e0d64755bad",
+      "name": "宋麟",
+      "officialSections": [
+        "专任教师 / 公共课教学中心"
+      ],
+      "title": "讲师",
+      "profileUrl": "https://cs.whu.edu.cn/info/1019/2869.htm",
+      "portraitUrl": null,
+      "officialFields": {
+        "sex": "女",
+        "research": "计算机"
+      }
+    },
+    {
+      "officialId": "4ea3ac5c6fecc2b9",
+      "name": "熊素萍",
+      "officialSections": [
+        "专任教师 / 公共课教学中心"
+      ],
+      "title": "讲师",
+      "profileUrl": "https://cs.whu.edu.cn/info/1019/2870.htm",
+      "portraitUrl": null,
+      "officialFields": {
+        "sex": "女",
+        "research": "计算机"
+      }
+    },
+    {
+      "officialId": "974b087e766cb9fe",
+      "name": "张华",
+      "officialSections": [
+        "专任教师 / 公共课教学中心"
+      ],
+      "title": "讲师",
+      "profileUrl": "https://cs.whu.edu.cn/info/1019/2876.htm",
+      "portraitUrl": null,
+      "officialFields": {
+        "sex": "男",
+        "research": "大数据挖掘管理与分析,机器学习与智能交互,计算机应用"
+      }
+    },
+    {
+      "officialId": "96d16e458e78790f",
+      "name": "周雅洁",
+      "officialSections": [
+        "专任教师 / 公共课教学中心"
+      ],
+      "title": "讲师",
+      "profileUrl": "https://cs.whu.edu.cn/info/1019/2873.htm",
+      "portraitUrl": null,
+      "officialFields": {
+        "sex": "女",
+        "research": "计算机"
+      }
+    },
+    {
+      "officialId": "643aa1af877c6868",
+      "name": "方颖",
+      "officialSections": [
+        "实验技术人员"
+      ],
+      "title": "高级实验师",
+      "profileUrl": null,
+      "portraitUrl": "https://cs.whu.edu.cn/images/logo.png"
+    },
+    {
+      "officialId": "ee73227977281a28",
+      "name": "李华玮",
+      "officialSections": [
+        "实验技术人员"
+      ],
+      "title": "副主任/高级实验师",
+      "profileUrl": null,
+      "portraitUrl": "https://cs.whu.edu.cn/__local/8/32/19/8F3639AAF18DF162113D9B729F0_EACD509D_DCE0.jpg"
+    },
+    {
+      "officialId": "d2a410803d1cd299",
+      "name": "卜浩",
+      "officialSections": [
+        "实验技术人员"
+      ],
+      "title": "工程师",
+      "profileUrl": null,
+      "portraitUrl": "https://cs.whu.edu.cn/__local/B/0A/31/70607B7EC7191F07F0FA3E44B08_7229B265_10087.jpg"
+    },
+    {
+      "officialId": "8f99d281fcc02341",
+      "name": "陈辉",
+      "officialSections": [
+        "实验技术人员"
+      ],
+      "title": "高级实验师",
+      "profileUrl": null,
+      "portraitUrl": "https://cs.whu.edu.cn/__local/F/0C/7D/13FFC5A5FC842E6526F761E0DA1_B1C624C3_3617.jpg"
+    },
+    {
+      "officialId": "72a30e89b2893a60",
+      "name": "陈磊",
+      "officialSections": [
+        "实验技术人员"
+      ],
+      "title": "讲师",
+      "profileUrl": null,
+      "portraitUrl": "https://cs.whu.edu.cn/__local/6/47/66/4209CC9D9F316E08291AAC7D0FE_D28DDBC7_F464.jpg"
+    },
+    {
+      "officialId": "694ca13fbfaa5967",
+      "name": "陈强国",
+      "officialSections": [
+        "实验技术人员"
+      ],
+      "title": "工程师",
+      "profileUrl": null,
+      "portraitUrl": "https://cs.whu.edu.cn/__local/0/B0/BA/06FA27BB700205314F835D04656_7E80ED35_ED18.jpg"
+    },
+    {
+      "officialId": "ec4f335313ac4854",
+      "name": "陈伟清",
+      "officialSections": [
+        "实验技术人员"
+      ],
+      "title": "高级实验师",
+      "profileUrl": null,
+      "portraitUrl": "https://cs.whu.edu.cn/__local/F/12/8C/A3D6ECCDF6021AC788E44669D53_63AB5623_12268.jpg"
+    },
+    {
+      "officialId": "d90c7fb597b83a1f",
+      "name": "关钢",
+      "officialSections": [
+        "实验技术人员"
+      ],
+      "title": "工程师",
+      "profileUrl": null,
+      "portraitUrl": "https://cs.whu.edu.cn/__local/F/0C/7D/13FFC5A5FC842E6526F761E0DA1_B1C624C3_3617.jpg"
+    },
+    {
+      "officialId": "ce94ade392ddb197",
+      "name": "何承达",
+      "officialSections": [
+        "实验技术人员"
+      ],
+      "title": "副主任/实验师",
+      "profileUrl": null,
+      "portraitUrl": "https://cs.whu.edu.cn/__local/F/0C/7D/13FFC5A5FC842E6526F761E0DA1_B1C624C3_3617.jpg"
+    },
+    {
+      "officialId": "64d4f36b454f0542",
+      "name": "黄建忠",
+      "officialSections": [
+        "实验技术人员"
+      ],
+      "title": "副主任/高级实验师",
+      "profileUrl": null,
+      "portraitUrl": "https://cs.whu.edu.cn/__local/D/26/94/8F11D1112D95458A16D55E6E3D7_B9D7A663_FA90.jpg"
+    },
+    {
+      "officialId": "1612c3a6ba0f375c",
+      "name": "李达勇",
+      "officialSections": [
+        "实验技术人员"
+      ],
+      "title": "助理工程师",
+      "profileUrl": null,
+      "portraitUrl": "https://cs.whu.edu.cn/__local/F/0C/7D/13FFC5A5FC842E6526F761E0DA1_B1C624C3_3617.jpg"
+    },
+    {
+      "officialId": "152393be1cb02802",
+      "name": "李涛",
+      "officialSections": [
+        "实验技术人员"
+      ],
+      "title": "高工",
+      "profileUrl": null,
+      "portraitUrl": "https://cs.whu.edu.cn/__local/3/58/96/06DA91E7A0817F748B94A4842DD_EA582173_D97D.jpg"
+    },
+    {
+      "officialId": "0fa6a7637164fe8a",
+      "name": "马风格",
+      "officialSections": [
+        "实验技术人员"
+      ],
+      "title": "高级实验师",
+      "profileUrl": null,
+      "portraitUrl": "https://cs.whu.edu.cn/images/logo.png"
+    },
+    {
+      "officialId": "ab6ee87b52434c9a",
+      "name": "彭红梅",
+      "officialSections": [
+        "实验技术人员"
+      ],
+      "title": "讲师",
+      "profileUrl": null,
+      "portraitUrl": "https://cs.whu.edu.cn/__local/4/40/33/5506A47AFFB4F8E0BDE4C92C18E_7655CCE4_F323.jpg"
+    },
+    {
+      "officialId": "6b59d73679aa1d25",
+      "name": "王毅",
+      "officialSections": [
+        "实验技术人员"
+      ],
+      "title": "实验师",
+      "profileUrl": null,
+      "portraitUrl": "https://cs.whu.edu.cn/__local/3/FE/03/04FCF829E7E48CA540FA0069795_A0C1DE93_DCB9.jpg"
+    },
+    {
+      "officialId": "dc71954205f7250e",
+      "name": "姚俊峰",
+      "officialSections": [
+        "实验技术人员"
+      ],
+      "title": "高级实验师",
+      "profileUrl": null,
+      "portraitUrl": "https://cs.whu.edu.cn/__local/C/DF/F0/A33E219F41DB752A2C1CEEEF184_2E287222_E226.jpg"
+    },
+    {
+      "officialId": "5371b3fccb0aa503",
+      "name": "张玉萍",
+      "officialSections": [
+        "实验技术人员"
+      ],
+      "title": "讲师",
+      "profileUrl": null,
+      "portraitUrl": "https://cs.whu.edu.cn/__local/E/AC/77/EF8B2D2B9A32315216935E695C0_523E715E_3631.jpg"
+    },
+    {
+      "officialId": "5eb6e573e0f1977f",
+      "name": "赵文利",
+      "officialSections": [
+        "实验技术人员"
+      ],
+      "title": "助理工程师",
+      "profileUrl": null,
+      "portraitUrl": "https://cs.whu.edu.cn/__local/5/87/DB/BFBA42746A951B1A1667054377E_CDFDFE59_DD3B.jpg"
+    },
+    {
+      "officialId": "981d3ecdd9087dd9",
+      "name": "周虹",
+      "officialSections": [
+        "实验技术人员"
+      ],
+      "title": "工程师",
+      "profileUrl": null,
+      "portraitUrl": "https://cs.whu.edu.cn/__local/0/FF/98/8C016EDB887CE28754064E44A73_0EF1FE2B_F1AE.jpg"
+    },
+    {
+      "officialId": "8a06161c4821ad8b",
+      "name": "学院简介",
+      "officialSections": [
+        "荣休教师 / 荣休教师"
+      ],
+      "title": "荣休教师",
+      "profileUrl": "https://cs.whu.edu.cn/xygk/xyjj.htm",
+      "portraitUrl": null
+    },
+    {
+      "officialId": "bd0b5d17d2501e9a",
+      "name": "历史沿革",
+      "officialSections": [
+        "荣休教师 / 荣休教师"
+      ],
+      "title": "荣休教师",
+      "profileUrl": "https://cs.whu.edu.cn/xygk/lsyg.htm",
+      "portraitUrl": null
+    },
+    {
+      "officialId": "c1711830dd59649d",
+      "name": "现任领导",
+      "officialSections": [
+        "荣休教师 / 荣休教师"
+      ],
+      "title": "荣休教师",
+      "profileUrl": "https://cs.whu.edu.cn/xygk/xrld.htm",
+      "portraitUrl": null
+    },
+    {
+      "officialId": "83c38ed9aa966bdb",
+      "name": "组织机构",
+      "officialSections": [
+        "荣休教师 / 荣休教师"
+      ],
+      "title": "荣休教师",
+      "profileUrl": "https://cs.whu.edu.cn/xygk/zzjg.htm",
+      "portraitUrl": null
+    },
+    {
+      "officialId": "1b56e07b002a693f",
+      "name": "联系我们",
+      "officialSections": [
+        "荣休教师 / 荣休教师"
+      ],
+      "title": "荣休教师",
+      "profileUrl": "https://cs.whu.edu.cn/xygk/lxwm.htm",
+      "portraitUrl": null
+    },
+    {
+      "officialId": "2f5e26b7de1bb296",
+      "name": "计科映像",
+      "officialSections": [
+        "荣休教师 / 荣休教师"
+      ],
+      "title": "荣休教师",
+      "profileUrl": "https://cs.whu.edu.cn/xygk/jkyx.htm",
+      "portraitUrl": null
+    },
+    {
+      "officialId": "0e6eb7ee2517eeda",
+      "name": "高层次人才",
+      "officialSections": [
+        "荣休教师 / 荣休教师"
+      ],
+      "title": "荣休教师",
+      "profileUrl": "https://cs.whu.edu.cn/szdw/gccrc.htm",
+      "portraitUrl": null
+    },
+    {
+      "officialId": "5198dbab10791239",
+      "name": "专任教师",
+      "officialSections": [
+        "荣休教师 / 荣休教师"
+      ],
+      "title": "荣休教师",
+      "profileUrl": "https://cs.whu.edu.cn/szdw/zrjs.htm",
+      "portraitUrl": null
+    },
+    {
+      "officialId": "24002b6086b5cc5e",
+      "name": "实验技术人员",
+      "officialSections": [
+        "荣休教师 / 荣休教师"
+      ],
+      "title": "荣休教师",
+      "profileUrl": "https://cs.whu.edu.cn/szdw/syjsry.htm",
+      "portraitUrl": null
+    },
+    {
+      "officialId": "551b35704addcb76",
+      "name": "荣休教师",
+      "officialSections": [
+        "荣休教师 / 荣休教师"
+      ],
+      "title": "荣休教师",
+      "profileUrl": "https://cs.whu.edu.cn/szdw/rxjs.htm",
+      "portraitUrl": null
+    },
+    {
+      "officialId": "b7a4c653e87763d0",
+      "name": "本科生教育",
+      "officialSections": [
+        "荣休教师 / 荣休教师"
+      ],
+      "title": "荣休教师",
+      "profileUrl": "https://cs.whu.edu.cn/rcpy/bksjy.htm",
+      "portraitUrl": null
+    },
+    {
+      "officialId": "7f78a6a704bde47a",
+      "name": "研究生教育",
+      "officialSections": [
+        "荣休教师 / 荣休教师"
+      ],
+      "title": "荣休教师",
+      "profileUrl": "https://cs.whu.edu.cn/rcpy/yjsjy.htm",
+      "portraitUrl": null
+    },
+    {
+      "officialId": "296460a2a1eaf925",
+      "name": "留学生教育",
+      "officialSections": [
+        "荣休教师 / 荣休教师"
+      ],
+      "title": "荣休教师",
+      "profileUrl": "https://cs.whu.edu.cn/rcpy/lxsjy.htm",
+      "portraitUrl": null
+    },
+    {
+      "officialId": "f0d5be30c714741d",
+      "name": "国际交流",
+      "officialSections": [
+        "荣休教师 / 荣休教师"
+      ],
+      "title": "荣休教师",
+      "profileUrl": "https://cs.whu.edu.cn/rcpy/gjjl.htm",
+      "portraitUrl": null
+    },
+    {
+      "officialId": "a7697388b92b5745",
+      "name": "科研进展",
+      "officialSections": [
+        "荣休教师 / 荣休教师"
+      ],
+      "title": "荣休教师",
+      "profileUrl": "https://cs.whu.edu.cn/kxyj/kyjz.htm",
+      "portraitUrl": null
+    },
+    {
+      "officialId": "fd590e57d3bd17dc",
+      "name": "学术交流",
+      "officialSections": [
+        "荣休教师 / 荣休教师"
+      ],
+      "title": "荣休教师",
+      "profileUrl": "https://cs.whu.edu.cn/kxyj/xsjl.htm",
+      "portraitUrl": null
+    },
+    {
+      "officialId": "f6f199b7e484a508",
+      "name": "项目申报",
+      "officialSections": [
+        "荣休教师 / 荣休教师"
+      ],
+      "title": "荣休教师",
+      "profileUrl": "https://cs.whu.edu.cn/kxyj/xmsb.htm",
+      "portraitUrl": null
+    },
+    {
+      "officialId": "2ff546cf1bf9d486",
+      "name": "研究平台",
+      "officialSections": [
+        "荣休教师 / 荣休教师"
+      ],
+      "title": "荣休教师",
+      "profileUrl": "https://cs.whu.edu.cn/kxyj/yjpt.htm",
+      "portraitUrl": null
+    },
+    {
+      "officialId": "f272e11fc5fe48a5",
+      "name": "党建工作",
+      "officialSections": [
+        "荣休教师 / 荣休教师"
+      ],
+      "title": "荣休教师",
+      "profileUrl": "https://cs.whu.edu.cn/dqgz/djgz.htm",
+      "portraitUrl": null
+    },
+    {
+      "officialId": "3ec940f1367eff02",
+      "name": "纪检工作",
+      "officialSections": [
+        "荣休教师 / 荣休教师"
+      ],
+      "title": "荣休教师",
+      "profileUrl": "https://cs.whu.edu.cn/dqgz/jjgz/jwjj.htm",
+      "portraitUrl": null
+    },
+    {
+      "officialId": "68c0dfca925cdac9",
+      "name": "工会工作",
+      "officialSections": [
+        "荣休教师 / 荣休教师"
+      ],
+      "title": "荣休教师",
+      "profileUrl": "https://cs.whu.edu.cn/dqgz/ghgz.htm",
+      "portraitUrl": null
+    },
+    {
+      "officialId": "3b72f9ebf3fc45f2",
+      "name": "共青团工作",
+      "officialSections": [
+        "荣休教师 / 荣休教师"
+      ],
+      "title": "荣休教师",
+      "profileUrl": "https://cs.whu.edu.cn/dqgz/gqtgz.htm",
+      "portraitUrl": null
+    },
+    {
+      "officialId": "3df0a17d150de7b5",
+      "name": "学习资料",
+      "officialSections": [
+        "荣休教师 / 荣休教师"
+      ],
+      "title": "荣休教师",
+      "profileUrl": "https://cs.whu.edu.cn/dqgz/xxzl.htm",
+      "portraitUrl": null
+    },
+    {
+      "officialId": "d448c5d6f102af8a",
+      "name": "师资岗位招聘",
+      "officialSections": [
+        "荣休教师 / 荣休教师"
+      ],
+      "title": "荣休教师",
+      "profileUrl": "https://cs.whu.edu.cn/rczp/szgwzp.htm",
+      "portraitUrl": null
+    },
+    {
+      "officialId": "babe1362f2d64462",
+      "name": "博士后招聘",
+      "officialSections": [
+        "荣休教师 / 荣休教师"
+      ],
+      "title": "荣休教师",
+      "profileUrl": "https://cs.whu.edu.cn/rczp/bshzp.htm",
+      "portraitUrl": null
+    },
+    {
+      "officialId": "bfdee7013abbdc12",
+      "name": "非编人员招聘",
+      "officialSections": [
+        "荣休教师 / 荣休教师"
+      ],
+      "title": "荣休教师",
+      "profileUrl": "https://cs.whu.edu.cn/rczp/fbryzp.htm",
+      "portraitUrl": null
+    },
+    {
+      "officialId": "fcbe1ed1ff992d18",
+      "name": "杰出校友",
+      "officialSections": [
+        "荣休教师 / 荣休教师"
+      ],
+      "title": "荣休教师",
+      "profileUrl": "https://cs.whu.edu.cn/xyfc/jcxy.htm",
+      "portraitUrl": null
+    },
+    {
+      "officialId": "f5801218035a9928",
+      "name": "校友动态",
+      "officialSections": [
+        "荣休教师 / 荣休教师"
+      ],
+      "title": "荣休教师",
+      "profileUrl": "https://cs.whu.edu.cn/xyfc/xydt.htm",
+      "portraitUrl": null
+    },
+    {
+      "officialId": "7d51e18b488d886a",
+      "name": "校友库",
+      "officialSections": [
+        "荣休教师 / 荣休教师"
+      ],
+      "title": "荣休教师",
+      "profileUrl": "https://cs.whu.edu.cn/xyfc/xyk.htm",
+      "portraitUrl": null
+    },
+    {
+      "officialId": "4708239b9022728e",
+      "name": "规章制度",
+      "officialSections": [
+        "荣休教师 / 荣休教师"
+      ],
+      "title": "荣休教师",
+      "profileUrl": "https://cs.whu.edu.cn/postgraduate.jsp?urltype=tree.TreeTempUrl&wbtreeid=1961",
+      "portraitUrl": null
+    },
+    {
+      "officialId": "5d2d67b6c1590d80",
+      "name": "办事流程",
+      "officialSections": [
+        "荣休教师 / 荣休教师"
+      ],
+      "title": "荣休教师",
+      "profileUrl": "https://cs.whu.edu.cn/xxgk/bslc.htm",
+      "portraitUrl": null
+    },
+    {
+      "officialId": "1a1a66fda9825eb2",
+      "name": "常用下载",
+      "officialSections": [
+        "荣休教师 / 荣休教师"
+      ],
+      "title": "荣休教师",
+      "profileUrl": "https://cs.whu.edu.cn/xxgk/cyxz.htm",
+      "portraitUrl": null
+    },
+    {
+      "officialId": "d7c7b6749a9c284c",
+      "name": "董寄明",
+      "officialSections": [
+        "荣休教师 / 一校区 （退休时间先后为序）"
+      ],
+      "title": "荣休教师",
+      "profileUrl": "https://cs.whu.edu.cn/info/1022/4294.htm",
+      "portraitUrl": null
+    },
+    {
+      "officialId": "896362ccb280ea6d",
+      "name": "李琼章",
+      "officialSections": [
+        "荣休教师 / 一校区 （退休时间先后为序）"
+      ],
+      "title": "荣休教师",
+      "profileUrl": null,
+      "portraitUrl": null
+    },
+    {
+      "officialId": "d9d50da4ac536c7e",
+      "name": "任振恒",
+      "officialSections": [
+        "荣休教师 / 一校区 （退休时间先后为序）"
+      ],
+      "title": "荣休教师",
+      "profileUrl": null,
+      "portraitUrl": null
+    },
+    {
+      "officialId": "22acf1f80eec4b14",
+      "name": "刘良观",
+      "officialSections": [
+        "荣休教师 / 一校区 （退休时间先后为序）"
+      ],
+      "title": "荣休教师",
+      "profileUrl": null,
+      "portraitUrl": null
+    },
+    {
+      "officialId": "31fecb6d48d7b107",
+      "name": "石树刚",
+      "officialSections": [
+        "荣休教师 / 一校区 （退休时间先后为序）"
+      ],
+      "title": "荣休教师",
+      "profileUrl": null,
+      "portraitUrl": null
+    },
+    {
+      "officialId": "acafdaf0697dc8b8",
+      "name": "陈毓屏",
+      "officialSections": [
+        "荣休教师 / 一校区 （退休时间先后为序）"
+      ],
+      "title": "荣休教师",
+      "profileUrl": null,
+      "portraitUrl": null
+    },
+    {
+      "officialId": "027ea78ea439943d",
+      "name": "王振兴",
+      "officialSections": [
+        "荣休教师 / 一校区 （退休时间先后为序）"
+      ],
+      "title": "荣休教师",
+      "profileUrl": null,
+      "portraitUrl": null
+    },
+    {
+      "officialId": "8c8b439d4bc2dc0e",
+      "name": "董振君",
+      "officialSections": [
+        "荣休教师 / 一校区 （退休时间先后为序）"
+      ],
+      "title": "荣休教师",
+      "profileUrl": null,
+      "portraitUrl": null
+    },
+    {
+      "officialId": "eb26e4f48403f82d",
+      "name": "黄俊杰",
+      "officialSections": [
+        "荣休教师 / 一校区 （退休时间先后为序）"
+      ],
+      "title": "荣休教师",
+      "profileUrl": null,
+      "portraitUrl": null
+    },
+    {
+      "officialId": "60e2edee2118d95f",
+      "name": "汪雪梅",
+      "officialSections": [
+        "荣休教师 / 一校区 （退休时间先后为序）"
+      ],
+      "title": "荣休教师",
+      "profileUrl": null,
+      "portraitUrl": null
+    },
+    {
+      "officialId": "b73f4f8f78ed8fcf",
+      "name": "姚金梅",
+      "officialSections": [
+        "荣休教师 / 一校区 （退休时间先后为序）"
+      ],
+      "title": "荣休教师",
+      "profileUrl": null,
+      "portraitUrl": null
+    },
+    {
+      "officialId": "77ef8ac41a198298",
+      "name": "邱毓兰",
+      "officialSections": [
+        "荣休教师 / 一校区 （退休时间先后为序）"
+      ],
+      "title": "荣休教师",
+      "profileUrl": null,
+      "portraitUrl": null
+    },
+    {
+      "officialId": "8e41ac5252bc0bc4",
+      "name": "江秋梅",
+      "officialSections": [
+        "荣休教师 / 一校区 （退休时间先后为序）"
+      ],
+      "title": "荣休教师",
+      "profileUrl": null,
+      "portraitUrl": null
+    },
+    {
+      "officialId": "2db6c874159dc01f",
+      "name": "胡国亮",
+      "officialSections": [
+        "荣休教师 / 一校区 （退休时间先后为序）"
+      ],
+      "title": "荣休教师",
+      "profileUrl": null,
+      "portraitUrl": null
+    },
+    {
+      "officialId": "a92f424b229c82e5",
+      "name": "周玉珍",
+      "officialSections": [
+        "荣休教师 / 一校区 （退休时间先后为序）"
+      ],
+      "title": "荣休教师",
+      "profileUrl": null,
+      "portraitUrl": null
+    },
+    {
+      "officialId": "f59b32ac42a464b7",
+      "name": "张元英",
+      "officialSections": [
+        "荣休教师 / 一校区 （退休时间先后为序）"
+      ],
+      "title": "荣休教师",
+      "profileUrl": null,
+      "portraitUrl": null
+    },
+    {
+      "officialId": "96163f607c8a6aef",
+      "name": "黄美绮",
+      "officialSections": [
+        "荣休教师 / 一校区 （退休时间先后为序）"
+      ],
+      "title": "荣休教师",
+      "profileUrl": null,
+      "portraitUrl": null
+    },
+    {
+      "officialId": "256ac8f7eb3efbcf",
+      "name": "戴大为",
+      "officialSections": [
+        "荣休教师 / 一校区 （退休时间先后为序）"
+      ],
+      "title": "荣休教师",
+      "profileUrl": null,
+      "portraitUrl": null
+    },
+    {
+      "officialId": "7a16d3dffa3c49a3",
+      "name": "陈莘萌",
+      "officialSections": [
+        "荣休教师 / 一校区 （退休时间先后为序）"
+      ],
+      "title": "荣休教师",
+      "profileUrl": null,
+      "portraitUrl": null
+    },
+    {
+      "officialId": "cf9eb93ff56aa7df",
+      "name": "张士海",
+      "officialSections": [
+        "荣休教师 / 一校区 （退休时间先后为序）"
+      ],
+      "title": "荣休教师",
+      "profileUrl": null,
+      "portraitUrl": null
+    },
+    {
+      "officialId": "e9831a207119ba82",
+      "name": "林子禹",
+      "officialSections": [
+        "荣休教师 / 一校区 （退休时间先后为序）"
+      ],
+      "title": "荣休教师",
+      "profileUrl": null,
+      "portraitUrl": null
+    },
+    {
+      "officialId": "2437b249ac70abec",
+      "name": "黄干平",
+      "officialSections": [
+        "荣休教师 / 一校区 （退休时间先后为序）"
+      ],
+      "title": "荣休教师",
+      "profileUrl": null,
+      "portraitUrl": null
+    },
+    {
+      "officialId": "fcf51b3d09fc17f1",
+      "name": "黄水松",
+      "officialSections": [
+        "荣休教师 / 一校区 （退休时间先后为序）"
+      ],
+      "title": "荣休教师",
+      "profileUrl": null,
+      "portraitUrl": null
+    },
+    {
+      "officialId": "0fe8f77dda8447e4",
+      "name": "王化文",
+      "officialSections": [
+        "荣休教师 / 一校区 （退休时间先后为序）"
+      ],
+      "title": "荣休教师",
+      "profileUrl": null,
+      "portraitUrl": null
+    },
+    {
+      "officialId": "cf9a099f3a8a31f1",
+      "name": "汪文华",
+      "officialSections": [
+        "荣休教师 / 一校区 （退休时间先后为序）"
+      ],
+      "title": "荣休教师",
+      "profileUrl": null,
+      "portraitUrl": null
+    },
+    {
+      "officialId": "688cd2b6576464f7",
+      "name": "姚永翘",
+      "officialSections": [
+        "荣休教师 / 一校区 （退休时间先后为序）"
+      ],
+      "title": "荣休教师",
+      "profileUrl": null,
+      "portraitUrl": null
+    },
+    {
+      "officialId": "b5374dfd4606e8db",
+      "name": "刘春燕",
+      "officialSections": [
+        "荣休教师 / 一校区 （退休时间先后为序）"
+      ],
+      "title": "荣休教师",
+      "profileUrl": null,
+      "portraitUrl": null
+    },
+    {
+      "officialId": "23afc76d07b75e84",
+      "name": "唐胜群",
+      "officialSections": [
+        "荣休教师 / 一校区 （退休时间先后为序）"
+      ],
+      "title": "荣休教师",
+      "profileUrl": null,
+      "portraitUrl": null
+    },
+    {
+      "officialId": "5c7d55361cc93616",
+      "name": "徐仁佐",
+      "officialSections": [
+        "荣休教师 / 一校区 （退休时间先后为序）"
+      ],
+      "title": "荣休教师",
+      "profileUrl": null,
+      "portraitUrl": null
+    },
+    {
+      "officialId": "4e952033da790a41",
+      "name": "曹加恒",
+      "officialSections": [
+        "荣休教师 / 一校区 （退休时间先后为序）"
+      ],
+      "title": "荣休教师",
+      "profileUrl": null,
+      "portraitUrl": null
+    },
+    {
+      "officialId": "d5fb8926b9748a2b",
+      "name": "张德向",
+      "officialSections": [
+        "荣休教师 / 一校区 （退休时间先后为序）"
+      ],
+      "title": "荣休教师",
+      "profileUrl": null,
+      "portraitUrl": null
+    },
+    {
+      "officialId": "25ac55d133048f9f",
+      "name": "张治萍",
+      "officialSections": [
+        "荣休教师 / 一校区 （退休时间先后为序）"
+      ],
+      "title": "荣休教师",
+      "profileUrl": null,
+      "portraitUrl": null
+    },
+    {
+      "officialId": "04d104928d581a74",
+      "name": "朱战生",
+      "officialSections": [
+        "荣休教师 / 一校区 （退休时间先后为序）"
+      ],
+      "title": "荣休教师",
+      "profileUrl": null,
+      "portraitUrl": null
+    },
+    {
+      "officialId": "bbfec50c8710d981",
+      "name": "周春荣",
+      "officialSections": [
+        "荣休教师 / 一校区 （退休时间先后为序）"
+      ],
+      "title": "荣休教师",
+      "profileUrl": null,
+      "portraitUrl": null
+    },
+    {
+      "officialId": "72bbf11cf15e6fce",
+      "name": "许卫平",
+      "officialSections": [
+        "荣休教师 / 一校区 （退休时间先后为序）"
+      ],
+      "title": "荣休教师",
+      "profileUrl": null,
+      "portraitUrl": null
+    },
+    {
+      "officialId": "91cbf3bf51dfc598",
+      "name": "韩光朋",
+      "officialSections": [
+        "荣休教师 / 一校区 （退休时间先后为序）"
+      ],
+      "title": "荣休教师",
+      "profileUrl": null,
+      "portraitUrl": null
+    },
+    {
+      "officialId": "d19899fe0986142c",
+      "name": "杨健霑",
+      "officialSections": [
+        "荣休教师 / 一校区 （退休时间先后为序）"
+      ],
+      "title": "荣休教师",
+      "profileUrl": null,
+      "portraitUrl": null
+    },
+    {
+      "officialId": "a864119daefd6ce3",
+      "name": "吴产乐",
+      "officialSections": [
+        "荣休教师 / 一校区 （退休时间先后为序）"
+      ],
+      "title": "荣休教师",
+      "profileUrl": null,
+      "portraitUrl": null
+    },
+    {
+      "officialId": "87b026dcb263b8b4",
+      "name": "徐贵钢",
+      "officialSections": [
+        "荣休教师 / 一校区 （退休时间先后为序）"
+      ],
+      "title": "荣休教师",
+      "profileUrl": null,
+      "portraitUrl": null
+    },
+    {
+      "officialId": "ff789f0eb610aef1",
+      "name": "刘方早",
+      "officialSections": [
+        "荣休教师 / 一校区 （退休时间先后为序）"
+      ],
+      "title": "荣休教师",
+      "profileUrl": null,
+      "portraitUrl": null
+    },
+    {
+      "officialId": "403efcbdd42b5279",
+      "name": "张焕国",
+      "officialSections": [
+        "荣休教师 / 一校区 （退休时间先后为序）"
+      ],
+      "title": "荣休教师",
+      "profileUrl": null,
+      "portraitUrl": null
+    },
+    {
+      "officialId": "5364c7a3a2a116b9",
+      "name": "傅福元",
+      "officialSections": [
+        "荣休教师 / 一校区 （退休时间先后为序）"
+      ],
+      "title": "荣休教师",
+      "profileUrl": null,
+      "portraitUrl": null
+    },
+    {
+      "officialId": "895ff1081fe36857",
+      "name": "李爱平",
+      "officialSections": [
+        "荣休教师 / 一校区 （退休时间先后为序）"
+      ],
+      "title": "荣休教师",
+      "profileUrl": null,
+      "portraitUrl": null
+    },
+    {
+      "officialId": "0924796e3d5cd4dd",
+      "name": "陈世鸿",
+      "officialSections": [
+        "荣休教师 / 一校区 （退休时间先后为序）"
+      ],
+      "title": "荣休教师",
+      "profileUrl": null,
+      "portraitUrl": null
+    },
+    {
+      "officialId": "9f188550bbebc389",
+      "name": "许先斌",
+      "officialSections": [
+        "荣休教师 / 一校区 （退休时间先后为序）"
+      ],
+      "title": "荣休教师",
+      "profileUrl": null,
+      "portraitUrl": null
+    },
+    {
+      "officialId": "d50e0a9883032595",
+      "name": "何克清",
+      "officialSections": [
+        "荣休教师 / 一校区 （退休时间先后为序）"
+      ],
+      "title": "荣休教师",
+      "profileUrl": null,
+      "portraitUrl": null
+    },
+    {
+      "officialId": "2f02364973d7bba2",
+      "name": "毋国庆",
+      "officialSections": [
+        "荣休教师 / 一校区 （退休时间先后为序）"
+      ],
+      "title": "荣休教师",
+      "profileUrl": null,
+      "portraitUrl": null
+    },
+    {
+      "officialId": "f952fb28548f8322",
+      "name": "张建辉",
+      "officialSections": [
+        "荣休教师 / 一校区 （退休时间先后为序）"
+      ],
+      "title": "荣休教师",
+      "profileUrl": null,
+      "portraitUrl": null
+    },
+    {
+      "officialId": "ce8e21dfd71050c2",
+      "name": "张锦春",
+      "officialSections": [
+        "荣休教师 / 一校区 （退休时间先后为序）"
+      ],
+      "title": "荣休教师",
+      "profileUrl": null,
+      "portraitUrl": null
+    },
+    {
+      "officialId": "41a8f5e7a56c6bd2",
+      "name": "朱建宏",
+      "officialSections": [
+        "荣休教师 / 一校区 （退休时间先后为序）"
+      ],
+      "title": "荣休教师",
+      "profileUrl": null,
+      "portraitUrl": null
+    },
+    {
+      "officialId": "6765187e02e525e1",
+      "name": "朱福喜",
+      "officialSections": [
+        "荣休教师 / 一校区 （退休时间先后为序）"
+      ],
+      "title": "荣休教师",
+      "profileUrl": null,
+      "portraitUrl": null
+    },
+    {
+      "officialId": "2d4a8980e3bcaba8",
+      "name": "宁四红",
+      "officialSections": [
+        "荣休教师 / 一校区 （退休时间先后为序）"
+      ],
+      "title": "荣休教师",
+      "profileUrl": null,
+      "portraitUrl": null
+    },
+    {
+      "officialId": "a3f94518e43c17fa",
+      "name": "唐存琛",
+      "officialSections": [
+        "荣休教师 / 一校区 （退休时间先后为序）"
+      ],
+      "title": "荣休教师",
+      "profileUrl": "https://cs.whu.edu.cn/info/1019/3013.htm",
+      "portraitUrl": null
+    },
+    {
+      "officialId": "da751f4c465faada",
+      "name": "何宁",
+      "officialSections": [
+        "荣休教师 / 一校区 （退休时间先后为序）"
+      ],
+      "title": "荣休教师",
+      "profileUrl": null,
+      "portraitUrl": null
+    },
+    {
+      "officialId": "bd99410fffe38724",
+      "name": "杨弘",
+      "officialSections": [
+        "荣休教师 / 一校区 （退休时间先后为序）"
+      ],
+      "title": "荣休教师",
+      "profileUrl": null,
+      "portraitUrl": null
+    },
+    {
+      "officialId": "3911a1165629055d",
+      "name": "熊忠伟",
+      "officialSections": [
+        "荣休教师 / 一校区 （退休时间先后为序）"
+      ],
+      "title": "荣休教师",
+      "profileUrl": null,
+      "portraitUrl": null
+    },
+    {
+      "officialId": "74787ada535c8f59",
+      "name": "傅杰",
+      "officialSections": [
+        "荣休教师 / 一校区 （退休时间先后为序）"
+      ],
+      "title": "荣休教师",
+      "profileUrl": null,
+      "portraitUrl": null
+    },
+    {
+      "officialId": "1b1def6acad556bc",
+      "name": "肖敬",
+      "officialSections": [
+        "荣休教师 / 一校区 （退休时间先后为序）"
+      ],
+      "title": "荣休教师",
+      "profileUrl": null,
+      "portraitUrl": null
+    },
+    {
+      "officialId": "28e14dc5929ef622",
+      "name": "曹建文",
+      "officialSections": [
+        "荣休教师 / 一校区 （退休时间先后为序）"
+      ],
+      "title": "荣休教师",
+      "profileUrl": "https://cs.whu.edu.cn/info/1022/4285.htm",
+      "portraitUrl": null
+    },
+    {
+      "officialId": "d0b4e74b0c7f4aa4",
+      "name": "梁意文",
+      "officialSections": [
+        "荣休教师 / 一校区 （退休时间先后为序）"
+      ],
+      "title": "荣休教师",
+      "profileUrl": "https://cs.whu.edu.cn/info/1022/4286.htm",
+      "portraitUrl": null
+    },
+    {
+      "officialId": "9cccf122f12fc8d6",
+      "name": "李元香",
+      "officialSections": [
+        "荣休教师 / 一校区 （退休时间先后为序）"
+      ],
+      "title": "荣休教师",
+      "profileUrl": "https://cs.whu.edu.cn/info/1022/4287.htm",
+      "portraitUrl": null
+    },
+    {
+      "officialId": "e73ac83671a3c77c",
+      "name": "陈小萍",
+      "officialSections": [
+        "荣休教师 / 一校区 （退休时间先后为序）"
+      ],
+      "title": "荣休教师",
+      "profileUrl": "https://cs.whu.edu.cn/info/1022/4289.htm",
+      "portraitUrl": null
+    },
+    {
+      "officialId": "9a8376d074d3d2a6",
+      "name": "杜建伟",
+      "officialSections": [
+        "荣休教师 / 一校区 （退休时间先后为序）"
+      ],
+      "title": "荣休教师",
+      "profileUrl": "https://cs.whu.edu.cn/info/1022/4291.htm",
+      "portraitUrl": null
+    },
+    {
+      "officialId": "511edeefe88850dc",
+      "name": "吴志健",
+      "officialSections": [
+        "荣休教师 / 一校区 （退休时间先后为序）"
+      ],
+      "title": "荣休教师",
+      "profileUrl": "https://cs.whu.edu.cn/info/1022/4292.htm",
+      "portraitUrl": null
+    },
+    {
+      "officialId": "43bb053b2050d74a",
+      "name": "杨运伟",
+      "officialSections": [
+        "荣休教师 / 一校区 （退休时间先后为序）"
+      ],
+      "title": "荣休教师",
+      "profileUrl": "https://cs.whu.edu.cn/info/1022/4293.htm",
+      "portraitUrl": null
+    },
+    {
+      "officialId": "48e2bdd1546a1ff8",
+      "name": "黄传河",
+      "officialSections": [
+        "荣休教师 / 一校区 （退休时间先后为序）"
+      ],
+      "title": "荣休教师",
+      "profileUrl": null,
+      "portraitUrl": null
+    },
+    {
+      "officialId": "2b10499a83641e9c",
+      "name": "林天成",
+      "officialSections": [
+        "荣休教师 / 二校区 （退休时间先后为序）"
+      ],
+      "title": "荣休教师",
+      "profileUrl": null,
+      "portraitUrl": null
+    },
+    {
+      "officialId": "5cb371d31961899f",
+      "name": "肖和瑟",
+      "officialSections": [
+        "荣休教师 / 二校区 （退休时间先后为序）"
+      ],
+      "title": "荣休教师",
+      "profileUrl": null,
+      "portraitUrl": null
+    },
+    {
+      "officialId": "6052e87b2bce68d8",
+      "name": "李贞荣",
+      "officialSections": [
+        "荣休教师 / 二校区 （退休时间先后为序）"
+      ],
+      "title": "荣休教师",
+      "profileUrl": null,
+      "portraitUrl": null
+    },
+    {
+      "officialId": "f996a6f3f01cf9a1",
+      "name": "唐旭章",
+      "officialSections": [
+        "荣休教师 / 二校区 （退休时间先后为序）"
+      ],
+      "title": "荣休教师",
+      "profileUrl": null,
+      "portraitUrl": null
+    },
+    {
+      "officialId": "8c238acd2d23a5dd",
+      "name": "杨国涛",
+      "officialSections": [
+        "荣休教师 / 二校区 （退休时间先后为序）"
+      ],
+      "title": "荣休教师",
+      "profileUrl": null,
+      "portraitUrl": null
+    },
+    {
+      "officialId": "b50775541984ebf2",
+      "name": "宗晴云",
+      "officialSections": [
+        "荣休教师 / 二校区 （退休时间先后为序）"
+      ],
+      "title": "荣休教师",
+      "profileUrl": null,
+      "portraitUrl": null
+    },
+    {
+      "officialId": "93634017c7dd1bd7",
+      "name": "游华杰",
+      "officialSections": [
+        "荣休教师 / 二校区 （退休时间先后为序）"
+      ],
+      "title": "荣休教师",
+      "profileUrl": null,
+      "portraitUrl": null
+    },
+    {
+      "officialId": "f9f73122332ee788",
+      "name": "刘晨晖",
+      "officialSections": [
+        "荣休教师 / 二校区 （退休时间先后为序）"
+      ],
+      "title": "荣休教师",
+      "profileUrl": null,
+      "portraitUrl": null
+    },
+    {
+      "officialId": "3599e747e5bfb028",
+      "name": "马国厚",
+      "officialSections": [
+        "荣休教师 / 二校区 （退休时间先后为序）"
+      ],
+      "title": "荣休教师",
+      "profileUrl": null,
+      "portraitUrl": null
+    },
+    {
+      "officialId": "9ce1925a34f88b63",
+      "name": "陈一周",
+      "officialSections": [
+        "荣休教师 / 二校区 （退休时间先后为序）"
+      ],
+      "title": "荣休教师",
+      "profileUrl": null,
+      "portraitUrl": null
+    },
+    {
+      "officialId": "5c786acad56f1215",
+      "name": "李传湘",
+      "officialSections": [
+        "荣休教师 / 二校区 （退休时间先后为序）"
+      ],
+      "title": "荣休教师",
+      "profileUrl": null,
+      "portraitUrl": null
+    },
+    {
+      "officialId": "834cd1b700c49271",
+      "name": "蔡晓云",
+      "officialSections": [
+        "荣休教师 / 二校区 （退休时间先后为序）"
+      ],
+      "title": "荣休教师",
+      "profileUrl": null,
+      "portraitUrl": null
+    },
+    {
+      "officialId": "9374ffcfa5c6eff1",
+      "name": "李耀霞",
+      "officialSections": [
+        "荣休教师 / 二校区 （退休时间先后为序）"
+      ],
+      "title": "荣休教师",
+      "profileUrl": null,
+      "portraitUrl": null
+    },
+    {
+      "officialId": "dc75fbe66423f54b",
+      "name": "周洞汝",
+      "officialSections": [
+        "荣休教师 / 二校区 （退休时间先后为序）"
+      ],
+      "title": "荣休教师",
+      "profileUrl": null,
+      "portraitUrl": null
+    },
+    {
+      "officialId": "e26c16864ab7c8dc",
+      "name": "洪国辉",
+      "officialSections": [
+        "荣休教师 / 二校区 （退休时间先后为序）"
+      ],
+      "title": "荣休教师",
+      "profileUrl": null,
+      "portraitUrl": null
+    },
+    {
+      "officialId": "6438f0e365fa259f",
+      "name": "李世林",
+      "officialSections": [
+        "荣休教师 / 二校区 （退休时间先后为序）"
+      ],
+      "title": "荣休教师",
+      "profileUrl": null,
+      "portraitUrl": null
+    },
+    {
+      "officialId": "ae0010475d9c8c7d",
+      "name": "韦庆如",
+      "officialSections": [
+        "荣休教师 / 二校区 （退休时间先后为序）"
+      ],
+      "title": "荣休教师",
+      "profileUrl": null,
+      "portraitUrl": null
+    },
+    {
+      "officialId": "0e346b887a0c6620",
+      "name": "吕清林",
+      "officialSections": [
+        "荣休教师 / 二校区 （退休时间先后为序）"
+      ],
+      "title": "荣休教师",
+      "profileUrl": null,
+      "portraitUrl": null
+    },
+    {
+      "officialId": "e8451cffc48b1a98",
+      "name": "俞宁",
+      "officialSections": [
+        "荣休教师 / 二校区 （退休时间先后为序）"
+      ],
+      "title": "荣休教师",
+      "profileUrl": null,
+      "portraitUrl": null
+    },
+    {
+      "officialId": "bed62be3e97cfd2b",
+      "name": "郝汉生",
+      "officialSections": [
+        "荣休教师 / 二校区 （退休时间先后为序）"
+      ],
+      "title": "荣休教师",
+      "profileUrl": null,
+      "portraitUrl": null
+    },
+    {
+      "officialId": "89cf235d349d4c4e",
+      "name": "童素琼",
+      "officialSections": [
+        "荣休教师 / 二校区 （退休时间先后为序）"
+      ],
+      "title": "荣休教师",
+      "profileUrl": null,
+      "portraitUrl": null
+    },
+    {
+      "officialId": "02c8049415141fbc",
+      "name": "周文君",
+      "officialSections": [
+        "荣休教师 / 二校区 （退休时间先后为序）"
+      ],
+      "title": "荣休教师",
+      "profileUrl": null,
+      "portraitUrl": null
+    },
+    {
+      "officialId": "27685e6289e66a7a",
+      "name": "周平安",
+      "officialSections": [
+        "荣休教师 / 二校区 （退休时间先后为序）"
+      ],
+      "title": "荣休教师",
+      "profileUrl": null,
+      "portraitUrl": null
+    },
+    {
+      "officialId": "872bbddc034d8a59",
+      "name": "付宁亚",
+      "officialSections": [
+        "荣休教师 / 二校区 （退休时间先后为序）"
+      ],
+      "title": "荣休教师",
+      "profileUrl": null,
+      "portraitUrl": null
+    },
+    {
+      "officialId": "b6f8d973106e3153",
+      "name": "姚爱国",
+      "officialSections": [
+        "荣休教师 / 二校区 （退休时间先后为序）"
+      ],
+      "title": "荣休教师",
+      "profileUrl": null,
+      "portraitUrl": null
+    },
+    {
+      "officialId": "7fb8eb20054d617b",
+      "name": "汪同庆",
+      "officialSections": [
+        "荣休教师 / 二校区 （退休时间先后为序）"
+      ],
+      "title": "荣休教师",
+      "profileUrl": null,
+      "portraitUrl": null
+    },
+    {
+      "officialId": "3a464946e5156a57",
+      "name": "黄竞伟",
+      "officialSections": [
+        "荣休教师 / 二校区 （退休时间先后为序）"
+      ],
+      "title": "荣休教师",
+      "profileUrl": null,
+      "portraitUrl": null
+    },
+    {
+      "officialId": "16cede4ca9aa66f1",
+      "name": "杨希斌",
+      "officialSections": [
+        "荣休教师 / 二校区 （退休时间先后为序）"
+      ],
+      "title": "荣休教师",
+      "profileUrl": null,
+      "portraitUrl": null
+    },
+    {
+      "officialId": "4d394ff5af56c101",
+      "name": "游维涛",
+      "officialSections": [
+        "荣休教师 / 二校区 （退休时间先后为序）"
+      ],
+      "title": "荣休教师",
+      "profileUrl": null,
+      "portraitUrl": null
+    },
+    {
+      "officialId": "b3928d7708bed18d",
+      "name": "张胜持",
+      "officialSections": [
+        "荣休教师 / 二校区 （退休时间先后为序）"
+      ],
+      "title": "荣休教师",
+      "profileUrl": null,
+      "portraitUrl": null
+    },
+    {
+      "officialId": "a5448c23607b847e",
+      "name": "孟波",
+      "officialSections": [
+        "荣休教师 / 二校区 （退休时间先后为序）"
+      ],
+      "title": "荣休教师",
+      "profileUrl": null,
+      "portraitUrl": null
+    },
+    {
+      "officialId": "5b2f9a5231c2b7e4",
+      "name": "寇宁",
+      "officialSections": [
+        "荣休教师 / 二校区 （退休时间先后为序）"
+      ],
+      "title": "荣休教师",
+      "profileUrl": null,
+      "portraitUrl": null
+    },
+    {
+      "officialId": "c419d3893640be7c",
+      "name": "林晓明",
+      "officialSections": [
+        "荣休教师 / 二校区 （退休时间先后为序）"
+      ],
+      "title": "荣休教师",
+      "profileUrl": null,
+      "portraitUrl": null
+    },
+    {
+      "officialId": "6b276cbb5055105c",
+      "name": "张曙光",
+      "officialSections": [
+        "荣休教师 / 二校区 （退休时间先后为序）"
+      ],
+      "title": "荣休教师",
+      "profileUrl": null,
+      "portraitUrl": null
+    },
+    {
+      "officialId": "7c769afd194eb23f",
+      "name": "朱垠彦",
+      "officialSections": [
+        "荣休教师 / 二校区 （退休时间先后为序）"
+      ],
+      "title": "荣休教师",
+      "profileUrl": null,
+      "portraitUrl": null
+    },
+    {
+      "officialId": "fea7a73c2e94986a",
+      "name": "陈江汉",
+      "officialSections": [
+        "荣休教师 / 二校区 （退休时间先后为序）"
+      ],
+      "title": "荣休教师",
+      "profileUrl": null,
+      "portraitUrl": null
+    },
+    {
+      "officialId": "25d0d3277442f257",
+      "name": "殷朴",
+      "officialSections": [
+        "荣休教师 / 二校区 （退休时间先后为序）"
+      ],
+      "title": "荣休教师",
+      "profileUrl": "https://cs.whu.edu.cn/info/1019/2861.htm",
+      "portraitUrl": null
+    },
+    {
+      "officialId": "0776ee8148426e14",
+      "name": "郑军",
+      "officialSections": [
+        "荣休教师 / 二校区 （退休时间先后为序）"
+      ],
+      "title": "荣休教师",
+      "profileUrl": null,
+      "portraitUrl": null
+    },
+    {
+      "officialId": "cfc44e129467a00d",
+      "name": "刘英",
+      "officialSections": [
+        "荣休教师 / 二校区 （退休时间先后为序）"
+      ],
+      "title": "荣休教师",
+      "profileUrl": "https://cs.whu.edu.cn/info/1022/4288.htm",
+      "portraitUrl": null
+    },
+    {
+      "officialId": "4c0ac4d5b1a70a3a",
+      "name": "李石君",
+      "officialSections": [
+        "荣休教师 / 二校区 （退休时间先后为序）"
+      ],
+      "title": "荣休教师",
+      "profileUrl": "https://jszy-whu-edu-cn-s.vpn.whu.edu.cn/lsj/",
+      "portraitUrl": null
+    },
+    {
+      "officialId": "3c8100d3002161d3",
+      "name": "余一清",
+      "officialSections": [
+        "荣休教师 / 二校区 （退休时间先后为序）"
+      ],
+      "title": "荣休教师",
+      "profileUrl": null,
+      "portraitUrl": null
+    },
+    {
+      "officialId": "ab1750d7ca49517b",
+      "name": "汪济华",
+      "officialSections": [
+        "荣休教师 / 三校区 （退休时间先后为序）"
+      ],
+      "title": "荣休教师",
+      "profileUrl": null,
+      "portraitUrl": null
+    },
+    {
+      "officialId": "44b7972eb871008e",
+      "name": "陈曼玲",
+      "officialSections": [
+        "荣休教师 / 三校区 （退休时间先后为序）"
+      ],
+      "title": "荣休教师",
+      "profileUrl": null,
+      "portraitUrl": null
+    },
+    {
+      "officialId": "ffe1ccc94675adc1",
+      "name": "毛玉先",
+      "officialSections": [
+        "荣休教师 / 三校区 （退休时间先后为序）"
+      ],
+      "title": "荣休教师",
+      "profileUrl": null,
+      "portraitUrl": null
+    },
+    {
+      "officialId": "d91549254a60f754",
+      "name": "李锦祥",
+      "officialSections": [
+        "荣休教师 / 三校区 （退休时间先后为序）"
+      ],
+      "title": "荣休教师",
+      "profileUrl": null,
+      "portraitUrl": null
+    },
+    {
+      "officialId": "b64987742a3ac0ae",
+      "name": "夏正均",
+      "officialSections": [
+        "荣休教师 / 三校区 （退休时间先后为序）"
+      ],
+      "title": "荣休教师",
+      "profileUrl": null,
+      "portraitUrl": null
+    },
+    {
+      "officialId": "936946008a519d16",
+      "name": "李鸣山",
+      "officialSections": [
+        "荣休教师 / 三校区 （退休时间先后为序）"
+      ],
+      "title": "荣休教师",
+      "profileUrl": null,
+      "portraitUrl": null
+    },
+    {
+      "officialId": "cc213bd795d80156",
+      "name": "刘镜年",
+      "officialSections": [
+        "荣休教师 / 三校区 （退休时间先后为序）"
+      ],
+      "title": "荣休教师",
+      "profileUrl": null,
+      "portraitUrl": null
+    },
+    {
+      "officialId": "338d4025378ae086",
+      "name": "王葆元",
+      "officialSections": [
+        "荣休教师 / 三校区 （退休时间先后为序）"
+      ],
+      "title": "荣休教师",
+      "profileUrl": null,
+      "portraitUrl": null
+    },
+    {
+      "officialId": "b867311123c1425b",
+      "name": "王馥熏",
+      "officialSections": [
+        "荣休教师 / 三校区 （退休时间先后为序）"
+      ],
+      "title": "荣休教师",
+      "profileUrl": null,
+      "portraitUrl": null
+    },
+    {
+      "officialId": "7203646fbad1836a",
+      "name": "曹杰",
+      "officialSections": [
+        "荣休教师 / 三校区 （退休时间先后为序）"
+      ],
+      "title": "荣休教师",
+      "profileUrl": null,
+      "portraitUrl": null
+    },
+    {
+      "officialId": "b0e3926c5dc1ad24",
+      "name": "许云涛",
+      "officialSections": [
+        "荣休教师 / 三校区 （退休时间先后为序）"
+      ],
+      "title": "荣休教师",
+      "profileUrl": null,
+      "portraitUrl": null
+    },
+    {
+      "officialId": "246f4244bdfb343b",
+      "name": "陈星兰",
+      "officialSections": [
+        "荣休教师 / 三校区 （退休时间先后为序）"
+      ],
+      "title": "荣休教师",
+      "profileUrl": null,
+      "portraitUrl": null
+    },
+    {
+      "officialId": "f1749b6cd95e822d",
+      "name": "夏仁凤",
+      "officialSections": [
+        "荣休教师 / 三校区 （退休时间先后为序）"
+      ],
+      "title": "荣休教师",
+      "profileUrl": null,
+      "portraitUrl": null
+    },
+    {
+      "officialId": "6ee37463bc108897",
+      "name": "谢宝康",
+      "officialSections": [
+        "荣休教师 / 三校区 （退休时间先后为序）"
+      ],
+      "title": "荣休教师",
+      "profileUrl": null,
+      "portraitUrl": null
+    },
+    {
+      "officialId": "18a2798ce3f08cb8",
+      "name": "邹维琳",
+      "officialSections": [
+        "荣休教师 / 三校区 （退休时间先后为序）"
+      ],
+      "title": "荣休教师",
+      "profileUrl": null,
+      "portraitUrl": null
+    },
+    {
+      "officialId": "bce5a2335eeb0c8a",
+      "name": "吴松梅",
+      "officialSections": [
+        "荣休教师 / 三校区 （退休时间先后为序）"
+      ],
+      "title": "荣休教师",
+      "profileUrl": null,
+      "portraitUrl": null
+    },
+    {
+      "officialId": "98a2fa6042557f44",
+      "name": "刘建英",
+      "officialSections": [
+        "荣休教师 / 三校区 （退休时间先后为序）"
+      ],
+      "title": "荣休教师",
+      "profileUrl": null,
+      "portraitUrl": null
+    },
+    {
+      "officialId": "b5a13f36276e90f0",
+      "name": "熊建强",
+      "officialSections": [
+        "荣休教师 / 三校区 （退休时间先后为序）"
+      ],
+      "title": "荣休教师",
+      "profileUrl": null,
+      "portraitUrl": null
+    },
+    {
+      "officialId": "4bbf1fac856f906b",
+      "name": "苏光奎",
+      "officialSections": [
+        "荣休教师 / 三校区 （退休时间先后为序）"
+      ],
+      "title": "荣休教师",
+      "profileUrl": null,
+      "portraitUrl": null
+    },
+    {
+      "officialId": "420e7c5e7eeddf44",
+      "name": "王文岱",
+      "officialSections": [
+        "荣休教师 / 三校区 （退休时间先后为序）"
+      ],
+      "title": "荣休教师",
+      "profileUrl": null,
+      "portraitUrl": null
+    },
+    {
+      "officialId": "069bb0089f805f60",
+      "name": "虢秋意",
+      "officialSections": [
+        "荣休教师 / 三校区 （退休时间先后为序）"
+      ],
+      "title": "荣休教师",
+      "profileUrl": null,
+      "portraitUrl": null
+    },
+    {
+      "officialId": "7c05ad814edf2fbf",
+      "name": "宁闽南",
+      "officialSections": [
+        "荣休教师 / 三校区 （退休时间先后为序）"
+      ],
+      "title": "荣休教师",
+      "profileUrl": null,
+      "portraitUrl": null
+    },
+    {
+      "officialId": "93c932c801ffa749",
+      "name": "高辉",
+      "officialSections": [
+        "荣休教师 / 三校区 （退休时间先后为序）"
+      ],
+      "title": "荣休教师",
+      "profileUrl": null,
+      "portraitUrl": null
+    },
+    {
+      "officialId": "53e8506372724ace",
+      "name": "尹为民",
+      "officialSections": [
+        "荣休教师 / 三校区 （退休时间先后为序）"
+      ],
+      "title": "荣休教师",
+      "profileUrl": "https://cs.whu.edu.cn/info/1019/3011.htm",
+      "portraitUrl": null
+    },
+    {
+      "officialId": "1942e50a5ab05084",
+      "name": "薛超英",
+      "officialSections": [
+        "荣休教师 / 三校区 （退休时间先后为序）"
+      ],
+      "title": "荣休教师",
+      "profileUrl": "https://cs.whu.edu.cn/info/1019/3012.htm",
+      "portraitUrl": null
+    },
+    {
+      "officialId": "150d1503c1b26e58",
+      "name": "张晋东",
+      "officialSections": [
+        "荣休教师 / 三校区 （退休时间先后为序）"
+      ],
+      "title": "荣休教师",
+      "profileUrl": null,
+      "portraitUrl": null
+    },
+    {
+      "officialId": "1ae27d58c6be64fa",
+      "name": "徐爱萍",
+      "officialSections": [
+        "荣休教师 / 三校区 （退休时间先后为序）"
+      ],
+      "title": "荣休教师",
+      "profileUrl": "https://cs.whu.edu.cn/info/1019/2493.htm",
+      "portraitUrl": null
+    },
+    {
+      "officialId": "1de08be1475fc659",
+      "name": "袁志勇",
+      "officialSections": [
+        "荣休教师 / 三校区 （退休时间先后为序）"
+      ],
+      "title": "荣休教师",
+      "profileUrl": "https://cs.whu.edu.cn/info/1022/4290.htm",
+      "portraitUrl": null
+    },
+    {
+      "officialId": "1299bb1586f25efc",
+      "name": "杭小庆",
+      "officialSections": [
+        "荣休教师 / 三校区 （退休时间先后为序）"
+      ],
+      "title": "荣休教师",
+      "profileUrl": null,
+      "portraitUrl": null
+    }
+  ]
+}

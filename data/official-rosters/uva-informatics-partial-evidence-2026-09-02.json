@@ -1,0 +1,37 @@
+{
+  "completeness": "partial",
+  "fetchedAt": "2026-09-02",
+  "institution": "University of Amsterdam Informatics Institute",
+  "officialPageUrl": "https://ivi.uva.nl/people/academic-staff/academic-staff.html",
+  "officialDataUrl": "https://ivi.uva.nl/research/research-groups-landing.html",
+  "officialRosterCount": null,
+  "visibleOfficialSubsetCounts": {
+    "researchGroups": 15,
+    "namedCurrentGroupLeaders": 16,
+    "facultyOfScienceFullProfessorsFilteredToInformaticsInstitute": 15
+  },
+  "sourceDescription": "The legacy Informatics Institute academic-staff URL no longer provides a usable roster. The current official research-groups page explicitly states that the institute has fifteen groups and names sixteen current group leaders. A separate Faculty of Science page exposes a filter count of fifteen full professors for the institute, but neither source is a complete institute academic/research staff directory. No total has therefore been frozen.",
+  "blockingEvidence": [
+    "The legacy scope URL is no longer a current academic-staff directory.",
+    "The research-groups page enumerates group leaders rather than all faculty and research staff.",
+    "The central professors page is limited to full professors and cannot stand in for the complete institute roster."
+  ],
+  "people": [
+    { "name": "Jan-Willem van de Meent", "officialId": "jan-willem-van-de-meent", "officialSection": "AMLab group leader", "profileUrl": "https://ivi.uva.nl/research/research-groups-landing.html", "source": "https://ivi.uva.nl/research/research-groups-landing.html" },
+    { "name": "Max Welling", "officialId": "max-welling", "officialSection": "AMLab group leader", "profileUrl": "https://ivi.uva.nl/research/research-groups-landing.html", "source": "https://ivi.uva.nl/research/research-groups-landing.html" },
+    { "name": "Sander Klous", "officialId": "sander-klous", "officialSection": "CCI group leader", "profileUrl": "https://ivi.uva.nl/research/research-groups-landing.html", "source": "https://ivi.uva.nl/research/research-groups-landing.html" },
+    { "name": "Mike Lees", "officialId": "mike-lees", "officialSection": "CSL group leader", "profileUrl": "https://ivi.uva.nl/research/research-groups-landing.html", "source": "https://ivi.uva.nl/research/research-groups-landing.html" },
+    { "name": "Theo Gevers", "officialId": "theo-gevers", "officialSection": "CV group leader", "profileUrl": "https://ivi.uva.nl/research/research-groups-landing.html", "source": "https://ivi.uva.nl/research/research-groups-landing.html" },
+    { "name": "Judith Good", "officialId": "judith-good", "officialSection": "DIL group leader", "profileUrl": "https://ivi.uva.nl/research/research-groups-landing.html", "source": "https://ivi.uva.nl/research/research-groups-landing.html" },
+    { "name": "Evangelos Kanoulas", "officialId": "evangelos-kanoulas", "officialSection": "IRLab group leader", "profileUrl": "https://ivi.uva.nl/research/research-groups-landing.html", "source": "https://ivi.uva.nl/research/research-groups-landing.html" },
+    { "name": "Paul Groth", "officialId": "paul-groth", "officialSection": "INDElab group leader", "profileUrl": "https://ivi.uva.nl/research/research-groups-landing.html", "source": "https://ivi.uva.nl/research/research-groups-landing.html" },
+    { "name": "Christof Monz", "officialId": "christof-monz", "officialSection": "LTL group leader", "profileUrl": "https://ivi.uva.nl/research/research-groups-landing.html", "source": "https://ivi.uva.nl/research/research-groups-landing.html" },
+    { "name": "Marcel Worring", "officialId": "marcel-worring", "officialSection": "MultiX group leader", "profileUrl": "https://ivi.uva.nl/research/research-groups-landing.html", "source": "https://ivi.uva.nl/research/research-groups-landing.html" },
+    { "name": "Zhiming Zhao", "officialId": "zhiming-zhao", "officialSection": "MNS group leader", "profileUrl": "https://ivi.uva.nl/research/research-groups-landing.html", "source": "https://ivi.uva.nl/research/research-groups-landing.html" },
+    { "name": "Andy Pimentel", "officialId": "andy-pimentel", "officialSection": "PCS group leader", "profileUrl": "https://ivi.uva.nl/research/research-groups-landing.html", "source": "https://ivi.uva.nl/research/research-groups-landing.html" },
+    { "name": "Clarisa Sánchez Gutiérrez", "officialId": "clarisa-sanchez-gutierrez", "officialSection": "qurAI group leader", "profileUrl": "https://ivi.uva.nl/research/research-groups-landing.html", "source": "https://ivi.uva.nl/research/research-groups-landing.html" },
+    { "name": "Sennay Ghebreab", "officialId": "sennay-ghebreab", "officialSection": "SIAS group leader", "profileUrl": "https://ivi.uva.nl/research/research-groups-landing.html", "source": "https://ivi.uva.nl/research/research-groups-landing.html" },
+    { "name": "Christian Schaffner", "officialId": "christian-schaffner", "officialSection": "TCS group leader", "profileUrl": "https://ivi.uva.nl/research/research-groups-landing.html", "source": "https://ivi.uva.nl/research/research-groups-landing.html" },
+    { "name": "Cees Snoek", "officialId": "cees-snoek", "officialSection": "VIS group leader", "profileUrl": "https://ivi.uva.nl/research/research-groups-landing.html", "source": "https://ivi.uva.nl/research/research-groups-landing.html" }
+  ]
+}

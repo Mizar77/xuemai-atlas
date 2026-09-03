@@ -1,0 +1,72 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-03",
+  "scope": "Mainland China records marked missing_portrait or missing_relationship in the frozen P0 master disposition ledger",
+  "sourceLedger": "data/candidate-priority-p0-master-disposition-2026-09-03.json",
+  "startingRemainingTargetCount": 881,
+  "startingBlockerCounts": {
+    "missing_portrait": 657,
+    "missing_relationship": 224
+  },
+  "batch": "candidate-priority-p0-mainland-tail-batch-2-2026",
+  "reviewedThisBatch": 5,
+  "readyThisBatch": 5,
+  "remainingTargetCount": 876,
+  "remainingBlockerCounts": {
+    "missing_portrait": 657,
+    "missing_relationship": 219
+  },
+  "qualityGate": {
+    "currentIndependentPi": true,
+    "minimumDistinctSources": 2,
+    "sourcedFactsPerPerson": "3-5",
+    "educationFactRequired": true,
+    "portrait": "reliable 512x512 local asset",
+    "explicitGraphRelationshipRequired": true
+  },
+  "records": [
+    {
+      "canonicalKey": "Mainland China:清华大学:jiajia",
+      "name": "Jia JIA",
+      "displayName": "贾珈",
+      "sourceDisposition": "missing_relationship",
+      "disposition": "ready",
+      "atlasPersonId": "jia-jia-thu-p0-tail-b2",
+      "resolvedBy": ["official portrait", "verified publication relationship with 唐杰", "five sourced facts"]
+    },
+    {
+      "canonicalKey": "Mainland China:北京大学:王奕森",
+      "name": "王奕森",
+      "sourceDisposition": "missing_relationship",
+      "disposition": "ready",
+      "atlasPersonId": "yisen-wang-pku-p0-tail-b2",
+      "resolvedBy": ["official portrait", "王逸飞 co-adviser statement", "four sourced facts"]
+    },
+    {
+      "canonicalKey": "Mainland China:北京大学:卢宗青",
+      "name": "卢宗青",
+      "sourceDisposition": "missing_relationship",
+      "disposition": "ready",
+      "atlasPersonId": "zongqing-lu-pku-p0-tail-b2",
+      "resolvedBy": ["official portrait", "public PhD student roster", "five sourced facts and alumni destinations"]
+    },
+    {
+      "canonicalKey": "Mainland China:清华大学:fuchunsun",
+      "name": "Fuchun SUN",
+      "displayName": "孙富春",
+      "sourceDisposition": "missing_relationship",
+      "disposition": "ready",
+      "atlasPersonId": "fuchun-sun-thu-p0-tail-b2",
+      "resolvedBy": ["official portrait", "verified sustained collaboration and monograph edges", "five sourced facts"]
+    },
+    {
+      "canonicalKey": "Mainland China:清华大学:huapingliu",
+      "name": "Huaping LIU",
+      "displayName": "刘华平",
+      "sourceDisposition": "missing_relationship",
+      "disposition": "ready",
+      "atlasPersonId": "huaping-liu-thu-p0-tail-b2",
+      "resolvedBy": ["official portrait", "verified sustained collaboration with 孙富春", "four sourced facts"]
+    }
+  ]
+}

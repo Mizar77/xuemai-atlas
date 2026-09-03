@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-03",
+  "ok": true,
+  "module": "app/candidate-priority-p0-hk-sg-tail-batch-2026.ts",
+  "auditScript": "scripts/audit-candidate-priority-p0-hk-sg-tail-2026.mjs",
+  "scope": {
+    "regions": ["Hong Kong", "Singapore"],
+    "startingDispositions": ["missing_portrait", "missing_relationship"]
+  },
+  "primaryPeople": 10,
+  "supportingEndpointPeople": 2,
+  "relationships": 4,
+  "groupMembers": 6,
+  "placements": 3,
+  "rosterPromotions": 10,
+  "portraits": {
+    "required": 10,
+    "present": 10,
+    "dimensions": "512x512",
+    "directory": "public/portraits/candidate-p0-hk-sg-tail-2026"
+  },
+  "qualityGate": {
+    "currentIndependentPiVerified": 10,
+    "twoOrMoreSources": 10,
+    "threeToFiveSourcedFacts": 10,
+    "educationAndTrainingFact": 10,
+    "localReliablePortrait": 10,
+    "verifiableNetworkEvidence": 10
+  },
+  "errors": [],
+  "warnings": []
+}

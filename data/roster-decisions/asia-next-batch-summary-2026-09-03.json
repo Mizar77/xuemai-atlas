@@ -1,0 +1,1036 @@
+{
+  "schemaVersion": 1,
+  "reviewedAt": "2026-09-03",
+  "scope": "NUS Computing + SMU SCIS next Asia batch",
+  "officialRosterTotal": 312,
+  "decisionTotal": 312,
+  "totalsByDecision": {
+    "excluded_historical": 3,
+    "excluded_non_ai_cs": 39,
+    "excluded_non_pi": 131,
+    "include_new_pi": 110,
+    "included_existing": 19,
+    "pending_profile_verification": 10
+  },
+  "units": [
+    {
+      "unitId": "nus-computing-next-batch",
+      "rosterArtifact": "data/official-rosters/nus-computing-faculty-2026-09-02.json",
+      "officialRosterCount": 216,
+      "decisionCount": 216,
+      "counts": {
+        "excluded_historical": 3,
+        "excluded_non_ai_cs": 39,
+        "excluded_non_pi": 93,
+        "include_new_pi": 60,
+        "included_existing": 11,
+        "pending_profile_verification": 10
+      },
+      "outputPath": "data/roster-decisions/nus-computing-next-batch-2026-09-03.json"
+    },
+    {
+      "unitId": "smu-scis-next-batch",
+      "rosterArtifact": "data/official-rosters/smu-scis-full-time-faculty-2026-09-02.json",
+      "officialRosterCount": 96,
+      "decisionCount": 96,
+      "counts": {
+        "excluded_non_pi": 38,
+        "include_new_pi": 50,
+        "included_existing": 8
+      },
+      "outputPath": "data/roster-decisions/smu-scis-next-batch-2026-09-03.json"
+    }
+  ],
+  "includeNewPi": [
+    {
+      "unitId": "nus-computing-next-batch",
+      "officialId": "https://www.comp.nus.edu.sg/cs/people/adams",
+      "name": "Michael D. ADAMS",
+      "title": "Assistant Professor",
+      "profileUrl": "https://www.comp.nus.edu.sg/cs/people/adams",
+      "portraitUrl": "https://www.comp.nus.edu.sg/~sochr/photo/adams.jpg",
+      "researchAreas": "Programming Languages & Software Engineering"
+    },
+    {
+      "unitId": "nus-computing-next-batch",
+      "officialId": "https://www.comp.nus.edu.sg/cs/people/e-ans",
+      "name": "Eric ANSCHUETZ",
+      "title": "NUS Presidential Young Professor",
+      "profileUrl": "https://www.comp.nus.edu.sg/cs/people/e-ans",
+      "portraitUrl": "https://www.comp.nus.edu.sg/~sochr/photo/e-ans.jpg",
+      "researchAreas": "Algorithms & Theory,; Artificial Intelligence"
+    },
+    {
+      "unitId": "nus-computing-next-batch",
+      "officialId": "https://www.comp.nus.edu.sg/cs/people/bianyt",
+      "name": "BIAN Yatao",
+      "title": "Assistant Professor",
+      "profileUrl": "https://www.comp.nus.edu.sg/cs/people/bianyt",
+      "portraitUrl": "https://www.comp.nus.edu.sg/~sochr/photo/bianyt.jpg",
+      "researchAreas": "Artificial Intelligence"
+    },
+    {
+      "unitId": "nus-computing-next-batch",
+      "officialId": "https://www.comp.nus.edu.sg/cs/people/xaviercs",
+      "name": "BRESSON Xavier",
+      "title": "Associate Professor",
+      "profileUrl": "https://www.comp.nus.edu.sg/cs/people/xaviercs",
+      "portraitUrl": "https://www.comp.nus.edu.sg/~sochr/photo/xaviercs.jpg",
+      "researchAreas": "Artificial Intelligence"
+    },
+    {
+      "unitId": "nus-computing-next-batch",
+      "officialId": "https://www.comp.nus.edu.sg/cs/people/tsuhan",
+      "name": "CHEN Tsuhan",
+      "title": "Distinguished Professor",
+      "profileUrl": "https://www.comp.nus.edu.sg/cs/people/tsuhan",
+      "portraitUrl": "https://www.comp.nus.edu.sg/~sochr/photo/tsuhan.jpg",
+      "researchAreas": "Media,; Artificial Intelligence"
+    },
+    {
+      "unitId": "nus-computing-next-batch",
+      "officialId": "https://www.comp.nus.edu.sg/cs/people/chinwn",
+      "name": "CHIN Wei Ngan",
+      "title": "Associate Professor",
+      "profileUrl": "https://www.comp.nus.edu.sg/cs/people/chinwn",
+      "portraitUrl": "https://www.comp.nus.edu.sg/~sochr/photo/chinwn.jpg",
+      "researchAreas": "Programming Languages & Software Engineering"
+    },
+    {
+      "unitId": "nus-computing-next-batch",
+      "officialId": "https://www.comp.nus.edu.sg/disa/people/dvikas",
+      "name": "Vikas DEEP",
+      "title": "Assistant Professor",
+      "profileUrl": "https://www.comp.nus.edu.sg/disa/people/dvikas",
+      "portraitUrl": "https://www.comp.nus.edu.sg/~sochr/photo/dvikas.jpg",
+      "researchAreas": "Data Science & Business Analytics"
+    },
+    {
+      "unitId": "nus-computing-next-batch",
+      "officialId": "https://www.comp.nus.edu.sg/cs/people/dongjs",
+      "name": "DONG Jin Song",
+      "title": "Professor",
+      "profileUrl": "https://www.comp.nus.edu.sg/cs/people/dongjs",
+      "portraitUrl": "https://www.comp.nus.edu.sg/~sochr/photo/dongjs.jpg",
+      "researchAreas": "Programming Languages & Software Engineering"
+    },
+    {
+      "unitId": "nus-computing-next-batch",
+      "officialId": "https://www.comp.nus.edu.sg/cs/people/duanjf",
+      "name": "DUAN Jiafei",
+      "title": "NUS Presidential Young Professor",
+      "profileUrl": "https://www.comp.nus.edu.sg/cs/people/duanjf",
+      "portraitUrl": "https://www.comp.nus.edu.sg/~sochr/photo/duanjf.jpg",
+      "researchAreas": "Artificial Intelligence"
+    },
+    {
+      "unitId": "nus-computing-next-batch",
+      "officialId": "https://www.comp.nus.edu.sg/cs/people/ejane",
+      "name": "Jane E",
+      "title": "Assistant Professor",
+      "profileUrl": "https://www.comp.nus.edu.sg/cs/people/ejane",
+      "portraitUrl": "https://www.comp.nus.edu.sg/~sochr/photo/ejane.jpg",
+      "researchAreas": "Media,; Artificial Intelligence"
+    },
+    {
+      "unitId": "nus-computing-next-batch",
+      "officialId": "https://www.comp.nus.edu.sg/disa/people/gohky",
+      "name": "GOH Khim Yong",
+      "title": "Professor",
+      "profileUrl": "https://www.comp.nus.edu.sg/disa/people/gohky",
+      "portraitUrl": "https://www.comp.nus.edu.sg/~sochr/photo/gohky.jpg",
+      "researchAreas": "Data Science & Business Analytics,; Digital Transformation, Platforms & Innovation,; FinTech,; Computational Social Science"
+    },
+    {
+      "unitId": "nus-computing-next-batch",
+      "officialId": "https://www.comp.nus.edu.sg/disa/people/jungpil",
+      "name": "Jungpil HAHN",
+      "title": "Provost's Chair Professor",
+      "profileUrl": "https://www.comp.nus.edu.sg/disa/people/jungpil",
+      "portraitUrl": "https://www.comp.nus.edu.sg/~sochr/photo/jungpil.jpg",
+      "researchAreas": "Digital Transformation, Platforms & Innovation,; Computational Social Science,; Data Science & Business Analytics,; FinTech"
+    },
+    {
+      "unitId": "nus-computing-next-batch",
+      "officialId": "https://www.comp.nus.edu.sg/cs/people/henz",
+      "name": "HENZ, Martin J",
+      "title": "Associate Professor",
+      "profileUrl": "https://www.comp.nus.edu.sg/cs/people/henz",
+      "portraitUrl": "https://www.comp.nus.edu.sg/~sochr/photo/henz.jpg",
+      "researchAreas": "Programming Languages & Software Engineering,; Artificial Intelligence"
+    },
+    {
+      "unitId": "nus-computing-next-batch",
+      "officialId": "https://www.comp.nus.edu.sg/cs/people/bhooi",
+      "name": "Bryan HOOI Kuen-Yew",
+      "title": "Assistant Professor",
+      "profileUrl": "https://www.comp.nus.edu.sg/cs/people/bhooi",
+      "portraitUrl": "https://www.comp.nus.edu.sg/~sochr/photo/bhooi.jpg",
+      "researchAreas": "Artificial Intelligence,; Database"
+    },
+    {
+      "unitId": "nus-computing-next-batch",
+      "officialId": "https://www.comp.nus.edu.sg/cs/people/whsu",
+      "name": "HSU Wynne",
+      "title": "Provost's Chair Professor",
+      "profileUrl": "https://www.comp.nus.edu.sg/cs/people/whsu",
+      "portraitUrl": "https://www.comp.nus.edu.sg/~sochr/photo/whsu.jpg",
+      "researchAreas": "Artificial Intelligence,; Database"
+    },
+    {
+      "unitId": "nus-computing-next-batch",
+      "officialId": "https://www.comp.nus.edu.sg/disa/people/huangkw",
+      "name": "HUANG Ke Wei",
+      "title": "Associate Professor",
+      "profileUrl": "https://www.comp.nus.edu.sg/disa/people/huangkw",
+      "portraitUrl": "https://www.comp.nus.edu.sg/~sochr/photo/huangkw.jpg",
+      "researchAreas": "Data Science & Business Analytics,; FinTech,; Computational Social Science"
+    },
+    {
+      "unitId": "nus-computing-next-batch",
+      "officialId": "https://www.comp.nus.edu.sg/cs/people/jiangwq",
+      "name": "JIANG Wenqi",
+      "title": "Assistant Professor",
+      "profileUrl": "https://www.comp.nus.edu.sg/cs/people/jiangwq",
+      "portraitUrl": "https://www.comp.nus.edu.sg/~sochr/photo/jiangwq.jpg",
+      "researchAreas": "Database,; Systems & Networking,; Artificial Intelligence"
+    },
+    {
+      "unitId": "nus-computing-next-batch",
+      "officialId": "https://www.comp.nus.edu.sg/disa/people/varunk",
+      "name": "Varun KARAMSHETTY",
+      "title": "Assistant Professor",
+      "profileUrl": "https://www.comp.nus.edu.sg/disa/people/varunk",
+      "portraitUrl": "https://www.comp.nus.edu.sg/~sochr/photo/varunk.jpg",
+      "researchAreas": "Data Science & Business Analytics,; Digital Transformation, Platforms & Innovation"
+    },
+    {
+      "unitId": "nus-computing-next-batch",
+      "officialId": "https://www.comp.nus.edu.sg/cs/people/khoosc",
+      "name": "KHOO Siau Cheng",
+      "title": "Associate Professor",
+      "profileUrl": "https://www.comp.nus.edu.sg/cs/people/khoosc",
+      "portraitUrl": "https://www.comp.nus.edu.sg/~sochr/photo/khoosc.jpg",
+      "researchAreas": "Programming Languages & Software Engineering"
+    },
+    {
+      "unitId": "nus-computing-next-batch",
+      "officialId": "https://www.comp.nus.edu.sg/cs/people/leews",
+      "name": "LEE Wee Sun",
+      "title": "Professor",
+      "profileUrl": "https://www.comp.nus.edu.sg/cs/people/leews",
+      "portraitUrl": "https://www.comp.nus.edu.sg/~sochr/photo/leews.jpg",
+      "researchAreas": "Artificial Intelligence"
+    },
+    {
+      "unitId": "nus-computing-next-batch",
+      "officialId": "https://www.comp.nus.edu.sg/cs/people/yclee",
+      "name": "LEE Yi-Chieh",
+      "title": "Assistant Professor",
+      "profileUrl": "https://www.comp.nus.edu.sg/cs/people/yclee",
+      "portraitUrl": "https://www.comp.nus.edu.sg/~sochr/photo/yclee.jpg",
+      "researchAreas": "Media,; Artificial Intelligence"
+    },
+    {
+      "unitId": "nus-computing-next-batch",
+      "officialId": "https://www.comp.nus.edu.sg/cs/people/leowwk",
+      "name": "LEOW Wee Kheng",
+      "title": "Associate Professor",
+      "profileUrl": "https://www.comp.nus.edu.sg/cs/people/leowwk",
+      "portraitUrl": "https://www.comp.nus.edu.sg/~sochr/photo/leowwk.jpg",
+      "researchAreas": "Media,; Algorithms & Theory"
+    },
+    {
+      "unitId": "nus-computing-next-batch",
+      "officialId": "https://www.comp.nus.edu.sg/cs/people/brianlim",
+      "name": "Brian LIM Youliang",
+      "title": "Associate Professor",
+      "profileUrl": "https://www.comp.nus.edu.sg/cs/people/brianlim",
+      "portraitUrl": "https://www.comp.nus.edu.sg/~sochr/photo/brianlim.jpg",
+      "researchAreas": "Media"
+    },
+    {
+      "unitId": "nus-computing-next-batch",
+      "officialId": "https://www.comp.nus.edu.sg/disa/people/flim",
+      "name": "LIM Jie, Freddy",
+      "title": "Assistant Professor",
+      "profileUrl": "https://www.comp.nus.edu.sg/disa/people/flim",
+      "portraitUrl": "https://www.comp.nus.edu.sg/~sochr/photo/flim.jpg",
+      "researchAreas": "Data Science & Business Analytics,; Digital Transformation, Platforms & Innovation"
+    },
+    {
+      "unitId": "nus-computing-next-batch",
+      "officialId": "https://www.comp.nus.edu.sg/cs/people/lingck",
+      "name": "LING Chun Kai",
+      "title": "Sung Kah Kay Assistant Professor",
+      "profileUrl": "https://www.comp.nus.edu.sg/cs/people/lingck",
+      "portraitUrl": "https://www.comp.nus.edu.sg/~sochr/photo/lingck.jpg",
+      "researchAreas": "Artificial Intelligence,; Algorithms & Theory"
+    },
+    {
+      "unitId": "nus-computing-next-batch",
+      "officialId": "https://www.comp.nus.edu.sg/cs/people/liuaj",
+      "name": "Anji LIU",
+      "title": "NUS Presidential Young Professor",
+      "profileUrl": "https://www.comp.nus.edu.sg/cs/people/liuaj",
+      "portraitUrl": "https://www.comp.nus.edu.sg/~sochr/photo/liuaj.jpg",
+      "researchAreas": "Artificial Intelligence"
+    },
+    {
+      "unitId": "nus-computing-next-batch",
+      "officialId": "https://www.comp.nus.edu.sg/cs/people/liuyj",
+      "name": "LIU Yuejiang",
+      "title": "NUS Presidential Young Professor",
+      "profileUrl": "https://www.comp.nus.edu.sg/cs/people/liuyj",
+      "portraitUrl": "https://www.comp.nus.edu.sg/~sochr/photo/liuyj.jpg",
+      "researchAreas": "Artificial Intelligence"
+    },
+    {
+      "unitId": "nus-computing-next-batch",
+      "officialId": "https://www.comp.nus.edu.sg/cs/people/lowkh",
+      "name": "LOW Kian Hsiang",
+      "title": "Associate Professor",
+      "profileUrl": "https://www.comp.nus.edu.sg/cs/people/lowkh",
+      "portraitUrl": "https://www.comp.nus.edu.sg/~sochr/photo/lowkh.jpg",
+      "researchAreas": "Artificial Intelligence"
+    },
+    {
+      "unitId": "nus-computing-next-batch",
+      "officialId": "https://www.comp.nus.edu.sg/cs/people/luyao",
+      "name": "LU Yao",
+      "title": "Assistant Professor",
+      "profileUrl": "https://www.comp.nus.edu.sg/cs/people/luyao",
+      "portraitUrl": "https://www.comp.nus.edu.sg/~sochr/photo/luyao.jpg",
+      "researchAreas": "Database,; Systems & Networking,; Artificial Intelligence"
+    },
+    {
+      "unitId": "nus-computing-next-batch",
+      "officialId": "https://www.comp.nus.edu.sg/cs/people/umathur",
+      "name": "Umang MATHUR",
+      "title": "NUS Presidential Young Professor",
+      "profileUrl": "https://www.comp.nus.edu.sg/cs/people/umathur",
+      "portraitUrl": "https://www.comp.nus.edu.sg/~sochr/photo/umathur.jpg",
+      "researchAreas": "Programming Languages & Software Engineering,; Algorithms & Theory"
+    },
+    {
+      "unitId": "nus-computing-next-batch",
+      "officialId": "https://www.comp.nus.edu.sg/cs/people/suranga",
+      "name": "Suranga NANAYAKKARA",
+      "title": "Associate Professor",
+      "profileUrl": "https://www.comp.nus.edu.sg/cs/people/suranga",
+      "portraitUrl": "https://www.comp.nus.edu.sg/~sochr/photo/suranga.jpg",
+      "researchAreas": "Media"
+    },
+    {
+      "unitId": "nus-computing-next-batch",
+      "officialId": "https://www.comp.nus.edu.sg/cs/people/ooiwt",
+      "name": "OOI Wei Tsang",
+      "title": "Associate Professor",
+      "profileUrl": "https://www.comp.nus.edu.sg/cs/people/ooiwt",
+      "portraitUrl": "https://www.comp.nus.edu.sg/~sochr/photo/ooiwt.jpg",
+      "researchAreas": "Media,; Artificial Intelligence"
+    },
+    {
+      "unitId": "nus-computing-next-batch",
+      "officialId": "https://www.comp.nus.edu.sg/disa/people/dpoo",
+      "name": "POO Chiang Choon, Danny",
+      "title": "Associate Professor",
+      "profileUrl": "https://www.comp.nus.edu.sg/disa/people/dpoo",
+      "portraitUrl": "https://www.comp.nus.edu.sg/~sochr/photo/dpoo.jpg",
+      "researchAreas": "Data Science & Business Analytics,; Healthcare Informatics,; Intelligent Systems"
+    },
+    {
+      "unitId": "nus-computing-next-batch",
+      "officialId": "https://www.comp.nus.edu.sg/disa/people/qiaodd",
+      "name": "QIAO Dandan",
+      "title": "Associate Professor",
+      "profileUrl": "https://www.comp.nus.edu.sg/disa/people/qiaodd",
+      "portraitUrl": "https://www.comp.nus.edu.sg/~sochr/photo/qiaodd.jpg",
+      "researchAreas": "Digital Transformation, Platforms & Innovation,; Data Science & Business Analytics"
+    },
+    {
+      "unitId": "nus-computing-next-batch",
+      "officialId": "https://www.comp.nus.edu.sg/cs/people/rigger",
+      "name": "Manuel RIGGER",
+      "title": "Assistant Professor",
+      "profileUrl": "https://www.comp.nus.edu.sg/cs/people/rigger",
+      "portraitUrl": "https://www.comp.nus.edu.sg/~sochr/photo/rigger.jpg",
+      "researchAreas": "Programming Languages & Software Engineering,; Database,; Systems & Networking"
+    },
+    {
+      "unitId": "nus-computing-next-batch",
+      "officialId": "https://www.comp.nus.edu.sg/cs/people/abhik",
+      "name": "Abhik ROYCHOUDHURY",
+      "title": "Provost's Chair Professor",
+      "profileUrl": "https://www.comp.nus.edu.sg/cs/people/abhik",
+      "portraitUrl": "https://www.comp.nus.edu.sg/~sochr/photo/abhik.jpg",
+      "researchAreas": "Programming Languages & Software Engineering,; Security"
+    },
+    {
+      "unitId": "nus-computing-next-batch",
+      "officialId": "https://www.comp.nus.edu.sg/cs/people/scarlett",
+      "name": "Jonathan SCARLETT",
+      "title": "Associate Professor",
+      "profileUrl": "https://www.comp.nus.edu.sg/cs/people/scarlett",
+      "portraitUrl": "https://www.comp.nus.edu.sg/~sochr/photo/scarlett.jpg",
+      "researchAreas": "Artificial Intelligence,; Algorithms & Theory"
+    },
+    {
+      "unitId": "nus-computing-next-batch",
+      "officialId": "https://www.comp.nus.edu.sg/cs/people/ilya",
+      "name": "Ilya SERGEY",
+      "title": "Associate Professor",
+      "profileUrl": "https://www.comp.nus.edu.sg/cs/people/ilya",
+      "portraitUrl": "https://www.comp.nus.edu.sg/~sochr/photo/ilya.jpg",
+      "researchAreas": "Programming Languages & Software Engineering,; Systems & Networking,; Algorithms & Theory"
+    },
+    {
+      "unitId": "nus-computing-next-batch",
+      "officialId": "https://www.comp.nus.edu.sg/disa/people/rudys",
+      "name": "SETIONO, Rudy",
+      "title": "Associate Professor",
+      "profileUrl": "https://www.comp.nus.edu.sg/disa/people/rudys",
+      "portraitUrl": "https://www.comp.nus.edu.sg/~sochr/photo/rudys.jpg",
+      "researchAreas": "Data Science & Business Analytics,; Intelligent Systems"
+    },
+    {
+      "unitId": "nus-computing-next-batch",
+      "officialId": "https://www.comp.nus.edu.sg/cs/people/shaol",
+      "name": "Lin SHAO",
+      "title": "Assistant Professor",
+      "profileUrl": "https://www.comp.nus.edu.sg/cs/people/shaol",
+      "portraitUrl": "https://www.comp.nus.edu.sg/~sochr/photo/shaol.jpg",
+      "researchAreas": "Artificial Intelligence"
+    },
+    {
+      "unitId": "nus-computing-next-batch",
+      "officialId": "https://www.comp.nus.edu.sg/cs/people/mshieh",
+      "name": "Qizhe XIE",
+      "title": "Assistant Professor",
+      "profileUrl": "https://www.comp.nus.edu.sg/cs/people/mshieh",
+      "portraitUrl": "https://www.comp.nus.edu.sg/~sochr/photo/mshieh.jpg",
+      "researchAreas": "Artificial Intelligence"
+    },
+    {
+      "unitId": "nus-computing-next-batch",
+      "officialId": "https://www.comp.nus.edu.sg/cs/people/reza",
+      "name": "Reza SHOKRI",
+      "title": "Dean's Chair Associate Professor",
+      "profileUrl": "https://www.comp.nus.edu.sg/cs/people/reza",
+      "portraitUrl": "https://www.comp.nus.edu.sg/~sochr/photo/reza.jpg",
+      "researchAreas": "Security,; Artificial Intelligence,; Algorithms & Theory"
+    },
+    {
+      "unitId": "nus-computing-next-batch",
+      "officialId": "https://www.comp.nus.edu.sg/cs/people/mikeshou",
+      "name": "Mike SHOU",
+      "title": "Assistant Professor",
+      "profileUrl": "https://www.comp.nus.edu.sg/cs/people/mikeshou",
+      "portraitUrl": "https://www.comp.nus.edu.sg/~sochr/photo/mikeshou.jpg",
+      "researchAreas": "Media,; Artificial Intelligence"
+    },
+    {
+      "unitId": "nus-computing-next-batch",
+      "officialId": "https://www.comp.nus.edu.sg/cs/people/tsim",
+      "name": "SIM Mong Cheng Terence",
+      "title": "Associate Professor",
+      "profileUrl": "https://www.comp.nus.edu.sg/cs/people/tsim",
+      "portraitUrl": "https://www.comp.nus.edu.sg/~sochr/photo/tsim.jpg",
+      "researchAreas": "Security,; Artificial Intelligence,; Media"
+    },
+    {
+      "unitId": "nus-computing-next-batch",
+      "officialId": "https://www.comp.nus.edu.sg/cs/people/hsoh",
+      "name": "Harold SOH Soon Hong",
+      "title": "Associate Professor",
+      "profileUrl": "https://www.comp.nus.edu.sg/cs/people/hsoh",
+      "portraitUrl": "https://www.comp.nus.edu.sg/~sochr/photo/hsoh.jpg",
+      "researchAreas": "Artificial Intelligence"
+    },
+    {
+      "unitId": "nus-computing-next-batch",
+      "officialId": "https://www.comp.nus.edu.sg/cs/people/warut",
+      "name": "Warut SUKSOMPONG",
+      "title": "Assistant Professor",
+      "profileUrl": "https://www.comp.nus.edu.sg/cs/people/warut",
+      "portraitUrl": "https://www.comp.nus.edu.sg/~sochr/photo/warut.jpg",
+      "researchAreas": "Algorithms & Theory,; Artificial Intelligence"
+    },
+    {
+      "unitId": "nus-computing-next-batch",
+      "officialId": "https://www.comp.nus.edu.sg/disa/people/btan",
+      "name": "TAN Cheng Yian Bernard",
+      "title": "Tan Sri Runme Shaw Senior Professor",
+      "profileUrl": "https://www.comp.nus.edu.sg/disa/people/btan",
+      "portraitUrl": "https://www.comp.nus.edu.sg/~sochr/photo/btan.jpg",
+      "researchAreas": "Data Science & Business Analytics,; Healthcare Informatics,; Digital Transformation, Platforms & Innovation,; Computational Social Science,; Intelligent Systems"
+    },
+    {
+      "unitId": "nus-computing-next-batch",
+      "officialId": "https://www.comp.nus.edu.sg/cs/people/tankl",
+      "name": "TAN Kian Lee",
+      "title": "Tan Sri Runme Shaw Senior Professor",
+      "profileUrl": "https://www.comp.nus.edu.sg/cs/people/tankl",
+      "portraitUrl": "https://www.comp.nus.edu.sg/~sochr/photo/tankl.jpg",
+      "researchAreas": "Media,; Computational Biology,; Database"
+    },
+    {
+      "unitId": "nus-computing-next-batch",
+      "officialId": "https://www.comp.nus.edu.sg/cs/people/tants",
+      "name": "TAN Tiow Seng",
+      "title": "Associate Professor",
+      "profileUrl": "https://www.comp.nus.edu.sg/cs/people/tants",
+      "portraitUrl": "https://www.comp.nus.edu.sg/~sochr/photo/tants.jpg",
+      "researchAreas": "Media"
+    },
+    {
+      "unitId": "nus-computing-next-batch",
+      "officialId": "https://www.comp.nus.edu.sg/cs/people/tanzx",
+      "name": "TAN Zhi Xuan",
+      "title": "NUS Presidential Young Professor",
+      "profileUrl": "https://www.comp.nus.edu.sg/cs/people/tanzx",
+      "portraitUrl": "https://www.comp.nus.edu.sg/~sochr/photo/tanzx.jpg",
+      "researchAreas": "Artificial Intelligence,; Programming Languages & Software Engineering"
+    },
+    {
+      "unitId": "nus-computing-next-batch",
+      "officialId": "https://www.comp.nus.edu.sg/cs/people/wangbh",
+      "name": "WANG Bohan",
+      "title": "Assistant Professor",
+      "profileUrl": "https://www.comp.nus.edu.sg/cs/people/wangbh",
+      "portraitUrl": "https://www.comp.nus.edu.sg/~sochr/photo/wangbh.jpg",
+      "researchAreas": "Media"
+    },
+    {
+      "unitId": "nus-computing-next-batch",
+      "officialId": "https://www.comp.nus.edu.sg/cs/people/wangcp",
+      "name": "WANG Chengpeng",
+      "title": "Assistant Professor",
+      "profileUrl": "https://www.comp.nus.edu.sg/cs/people/wangcp",
+      "portraitUrl": "https://www.comp.nus.edu.sg/~sochr/photo/wangcp.jpg",
+      "researchAreas": "Programming Languages & Software Engineering,; Security,; Artificial Intelligence"
+    },
+    {
+      "unitId": "nus-computing-next-batch",
+      "officialId": "https://www.comp.nus.edu.sg/cs/people/wangjx",
+      "name": "Jingxian WANG",
+      "title": "NUS Presidential Young Professor",
+      "profileUrl": "https://www.comp.nus.edu.sg/cs/people/wangjx",
+      "portraitUrl": "https://www.comp.nus.edu.sg/~sochr/photo/wangjx.jpg",
+      "researchAreas": "Systems & Networking,; Media,; Artificial Intelligence"
+    },
+    {
+      "unitId": "nus-computing-next-batch",
+      "officialId": "https://www.comp.nus.edu.sg/cs/people/wangye",
+      "name": "WANG Ye",
+      "title": "Associate Professor",
+      "profileUrl": "https://www.comp.nus.edu.sg/cs/people/wangye",
+      "portraitUrl": "https://www.comp.nus.edu.sg/~sochr/photo/wangye.jpg",
+      "researchAreas": "Media"
+    },
+    {
+      "unitId": "nus-computing-next-batch",
+      "officialId": "https://www.comp.nus.edu.sg/cs/people/ayao",
+      "name": "Angela YAO",
+      "title": "Dean's Chair Associate Professor",
+      "profileUrl": "https://www.comp.nus.edu.sg/cs/people/ayao",
+      "portraitUrl": "https://www.comp.nus.edu.sg/~sochr/photo/ayao.jpg",
+      "researchAreas": "Artificial Intelligence,; Media"
+    },
+    {
+      "unitId": "nus-computing-next-batch",
+      "officialId": "https://www.comp.nus.edu.sg/cs/people/ryap",
+      "name": "YAP Hock Chuan, Roland",
+      "title": "Associate Professor",
+      "profileUrl": "https://www.comp.nus.edu.sg/cs/people/ryap",
+      "portraitUrl": "https://www.comp.nus.edu.sg/~sochr/photo/ryap.jpg",
+      "researchAreas": "Artificial Intelligence,; Security,; Programming Languages & Software Engineering,; Algorithms & Theory"
+    },
+    {
+      "unitId": "nus-computing-next-batch",
+      "officialId": "https://www.comp.nus.edu.sg/cs/people/zhangjh",
+      "name": "ZHANG Jiaheng",
+      "title": "NUS Presidential Young Professor",
+      "profileUrl": "https://www.comp.nus.edu.sg/cs/people/zhangjh",
+      "portraitUrl": "https://www.comp.nus.edu.sg/~sochr/photo/zhangjh.jpg",
+      "researchAreas": "Security,; Artificial Intelligence,; Algorithms & Theory"
+    },
+    {
+      "unitId": "nus-computing-next-batch",
+      "officialId": "https://www.comp.nus.edu.sg/cs/people/zhangy",
+      "name": "Yang ZHANG",
+      "title": "Professor",
+      "profileUrl": "https://www.comp.nus.edu.sg/cs/people/zhangy",
+      "portraitUrl": "https://www.comp.nus.edu.sg/~sochr/photo/zhangy.jpg",
+      "researchAreas": "Computational Biology,; Artificial Intelligence"
+    },
+    {
+      "unitId": "nus-computing-next-batch",
+      "officialId": "https://www.comp.nus.edu.sg/cs/people/zhangyx",
+      "name": "ZHANG Yuxuan",
+      "title": "Assistant Professor",
+      "profileUrl": "https://www.comp.nus.edu.sg/cs/people/zhangyx",
+      "portraitUrl": "https://www.comp.nus.edu.sg/~sochr/photo/zhangyx.jpg",
+      "researchAreas": "Algorithms & Theory,; Artificial Intelligence"
+    },
+    {
+      "unitId": "nus-computing-next-batch",
+      "officialId": "https://www.comp.nus.edu.sg/cs/people/rogerz",
+      "name": "Roger ZIMMERMANN",
+      "title": "Professor",
+      "profileUrl": "https://www.comp.nus.edu.sg/cs/people/rogerz",
+      "portraitUrl": "https://www.comp.nus.edu.sg/~sochr/photo/rogerz.jpg",
+      "researchAreas": "Media"
+    },
+    {
+      "unitId": "smu-scis-next-batch",
+      "officialId": "rajesh",
+      "name": "Rajesh Krishna BALAN",
+      "title": "Professor of Computer Science; Urban Fellow (Urban Systems); LSEI Fellow",
+      "profileUrl": "https://computing.smu.edu.sg/faculty/profile/591/rajesh-krishna-balan-591",
+      "portraitUrl": "https://staffphoto.smu.edu.sg/s/rajesh/500x600",
+      "researchAreas": "School of Computing and Information Systems|||Human-Machine Collaborative Systems|||Embodied & Pervasive Systems; School of Computing and Information Systems|||Learning & Work|||Technology-Enhanced Learning & Pedagogy; School of Computing and Information Systems|||Urban & Sustainability|||Homeland Security; School of Computing and Information Systems|||Health & Wellbeing|||Ageing & Mental Health; School of Computing and Information Systems|||Health & Wellbeing|||Biomedical Informatics; School of Computing and Information Systems|||Health & Wellbeing|||Lifestyle & Wellness"
+    },
+    {
+      "unitId": "smu-scis-next-batch",
+      "officialId": "dychen",
+      "name": "CHEN, Dongyao",
+      "title": "Assistant Professor of Computer Science",
+      "profileUrl": "https://computing.smu.edu.sg/faculty/profile/8616/chen-dongyao-8616",
+      "portraitUrl": "https://staffphoto.smu.edu.sg/s/dychen/500x600",
+      "researchAreas": "School of Computing and Information Systems|||Human-Machine Collaborative Systems|||Embodied & Pervasive Systems; School of Computing and Information Systems|||Human-Machine Collaborative Systems|||Human-Computer Interaction; School of Computing and Information Systems|||Information Systems & Technology|||Cybersecurity"
+    },
+    {
+      "unitId": "smu-scis-next-batch",
+      "officialId": "sfcheng",
+      "name": "CHENG Shih-Fen",
+      "title": "Associate Professor of Computer Science; Urban Fellow (Urban Systems); LSEI Fellow",
+      "profileUrl": "https://computing.smu.edu.sg/faculty/profile/366/cheng-shih-fen-366",
+      "portraitUrl": "https://staffphoto.smu.edu.sg/s/sfcheng/500x600",
+      "researchAreas": "School of Computing and Information Systems|||Artificial Intelligence and Data Science|||Decision Making & Optimization; School of Computing and Information Systems|||Artificial Intelligence and Data Science|||Machine Learning & Intelligence; School of Computing and Information Systems|||Learning & Work|||Analytics & Decision Support; School of Computing and Information Systems|||Urban & Sustainability|||Urban Mobility & Smart Environment; School of Computing and Information Systems|||Urban & Sustainability|||Urban Logistics & Sustainability"
+    },
+    {
+      "unitId": "smu-scis-next-batch",
+      "officialId": "robertdeng",
+      "name": "Robert H DENG",
+      "title": "Deputy Dean; Lee Kong Chian Chair Professor of Computer Science",
+      "profileUrl": "https://computing.smu.edu.sg/faculty/profile/891/robert-h-deng-891",
+      "portraitUrl": "https://staffphoto.smu.edu.sg/s/robertdeng/500x600",
+      "researchAreas": "School of Computing and Information Systems|||Information Systems & Technology|||Cybersecurity; School of Computing and Information Systems|||Safety, Security & Fairness|||Trustworthiness of Digital Platforms & Devices; School of Computing and Information Systems|||Safety, Security & Fairness|||Privacy-Preserving Data Sharing & Analytics; School of Computing and Information Systems|||Safety, Security & Fairness|||Security & Governance of Software/AI Systems"
+    },
+    {
+      "unitId": "smu-scis-next-batch",
+      "officialId": "xhding",
+      "name": "DING Xuhua",
+      "title": "Professor of Computer Science; Co-Director, Centre on Security, Mobile Applications and Cryptography (S",
+      "profileUrl": "https://computing.smu.edu.sg/faculty/profile/356/ding-xuhua-356",
+      "portraitUrl": "https://staffphoto.smu.edu.sg/s/xhding/500x600",
+      "researchAreas": "School of Computing and Information Systems|||Information Systems & Technology|||Cybersecurity; School of Computing and Information Systems|||Safety, Security & Fairness|||Trustworthiness of Digital Platforms & Devices"
+    },
+    {
+      "unitId": "smu-scis-next-batch",
+      "officialId": "yueduan",
+      "name": "DUAN Yue",
+      "title": "Assistant Professor of Computer Science",
+      "profileUrl": "https://computing.smu.edu.sg/faculty/profile/7421/duan-yue-7421",
+      "portraitUrl": "https://staffphoto.smu.edu.sg/s/yueduan/500x600",
+      "researchAreas": "School of Computing and Information Systems|||Information Systems & Technology|||Software Engineering; School of Computing and Information Systems|||Information Systems & Technology|||Cybersecurity; School of Computing and Information Systems|||Safety, Security & Fairness|||Security & Governance of Software/AI Systems"
+    },
+    {
+      "unitId": "smu-scis-next-batch",
+      "officialId": "yfang",
+      "name": "FANG Yuan",
+      "title": "Associate Professor of Computer Science; Lee Kong Chian Fellow",
+      "profileUrl": "https://computing.smu.edu.sg/faculty/profile/351/fang-yuan-351",
+      "portraitUrl": "https://staffphoto.smu.edu.sg/s/yfang/500x600",
+      "researchAreas": "School of Computing and Information Systems|||Artificial Intelligence and Data Science|||Data Management & Mining; School of Computing and Information Systems|||Artificial Intelligence and Data Science|||Machine Learning & Intelligence; School of Computing and Information Systems|||Health & Wellbeing|||Biomedical Informatics; School of Computing and Information Systems|||Health & Wellbeing|||Social Analytics"
+    },
+    {
+      "unitId": "smu-scis-next-batch",
+      "officialId": "weigao",
+      "name": "Wei GAO",
+      "title": "Associate Professor of Computer Science",
+      "profileUrl": "https://computing.smu.edu.sg/faculty/profile/526/wei-gao-526",
+      "portraitUrl": "https://staffphoto.smu.edu.sg/s/weigao/500x600",
+      "researchAreas": "School of Computing and Information Systems|||Artificial Intelligence and Data Science|||Data Management & Mining; School of Computing and Information Systems|||Artificial Intelligence and Data Science|||Decision Making & Optimization; School of Computing and Information Systems|||Artificial Intelligence and Data Science|||Machine Learning & Intelligence; School of Computing and Information Systems|||Health & Wellbeing|||Social Analytics; School of Computing and Information Systems|||Safety, Security & Fairness|||Misinformation & Disinformation"
+    },
+    {
+      "unitId": "smu-scis-next-batch",
+      "officialId": "kotarohara",
+      "name": "HARA, Kotaro",
+      "title": "Associate Professor of Computer Science; LSEI Fellow",
+      "profileUrl": "https://computing.smu.edu.sg/faculty/profile/321/hara-kotaro-321",
+      "portraitUrl": "https://staffphoto.smu.edu.sg/s/kotarohara/500x600",
+      "researchAreas": "School of Computing and Information Systems|||Human-Machine Collaborative Systems|||Human-Computer Interaction; School of Computing and Information Systems|||Learning & Work|||Future of Work; School of Computing and Information Systems|||Urban & Sustainability|||Urban Mobility & Smart Environment; School of Computing and Information Systems|||Health & Wellbeing|||Ageing & Mental Health"
+    },
+    {
+      "unitId": "smu-scis-next-batch",
+      "officialId": "shengfenghe",
+      "name": "HE Shengfeng",
+      "title": "Associate Professor of Computer Science; College of Graduate Research Studies (CGRS) Faculty Fellow; Lee Kong Chian Fellow",
+      "profileUrl": "https://computing.smu.edu.sg/faculty/profile/7261/he-shengfeng-7261",
+      "portraitUrl": "https://staffphoto.smu.edu.sg/s/shengfenghe/500x600",
+      "researchAreas": "School of Computing and Information Systems|||Artificial Intelligence and Data Science|||Machine Learning & Intelligence; School of Computing and Information Systems|||Human-Machine Collaborative Systems|||Embodied & Pervasive Systems; School of Computing and Information Systems|||Human-Machine Collaborative Systems|||Multimedia Systems; School of Computing and Information Systems|||Safety, Security & Fairness|||Trustworthiness of Digital Platforms & Devices; School of Computing and Information Systems|||Safety, Security & Fairness|||Misinformation & Disinformation; School of Computing and Information Systems|||Safety, Security & Fairness|||Security & Governance of Software/AI Systems"
+    },
+    {
+      "unitId": "smu-scis-next-batch",
+      "officialId": "ythuo",
+      "name": "HUO Yintong",
+      "title": "Assistant Professor of Computer Science",
+      "profileUrl": "https://computing.smu.edu.sg/faculty/profile/7951/huo-yintong-7951",
+      "portraitUrl": "https://staffphoto.smu.edu.sg/s/ythuo/500x600",
+      "researchAreas": "School of Computing and Information Systems|||Artificial Intelligence and Data Science|||Machine Learning & Intelligence; School of Computing and Information Systems|||Human-Machine Collaborative Systems|||Human-Computer Interaction; School of Computing and Information Systems|||Information Systems & Technology|||Software Engineering; School of Computing and Information Systems|||Safety, Security & Fairness|||Security & Governance of Software/AI Systems"
+    },
+    {
+      "unitId": "smu-scis-next-batch",
+      "officialId": "lxjiang",
+      "name": "JIANG Lingxiao",
+      "title": "Professor of Computer Science; Director, Centre for Research for Intelligent Software Engineering",
+      "profileUrl": "https://computing.smu.edu.sg/faculty/profile/896/jiang-lingxiao-896",
+      "portraitUrl": "https://staffphoto.smu.edu.sg/s/lxjiang/500x600",
+      "researchAreas": "School of Computing and Information Systems|||Artificial Intelligence and Data Science|||Data Management & Mining; School of Computing and Information Systems|||Information Systems & Technology|||Software Engineering; School of Computing and Information Systems|||Information Systems & Technology|||Cybersecurity; School of Computing and Information Systems|||Learning & Work|||Technology-Enhanced Learning & Pedagogy; School of Computing and Information Systems|||Safety, Security & Fairness|||Trustworthiness of Digital Platforms & Devices; School of Computing and Information Systems|||Safety, Security & Fairness|||Security & Governance of Software/AI Systems"
+    },
+    {
+      "unitId": "smu-scis-next-batch",
+      "officialId": "linhkastner",
+      "name": "KAESTNER Doan Hoang Linh",
+      "title": "Assistant Professor of Computer Science",
+      "profileUrl": "https://computing.smu.edu.sg/faculty/profile/8386/kaestner-doan-hoang-linh-8386",
+      "portraitUrl": "https://staffphoto.smu.edu.sg/s/linhkastner/500x600",
+      "researchAreas": "School of Computing and Information Systems|||Artificial Intelligence and Data Science|||Machine Learning & Intelligence; School of Computing and Information Systems|||Human-Machine Collaborative Systems|||Human-Computer Interaction"
+    },
+    {
+      "unitId": "smu-scis-next-batch",
+      "officialId": "thivyak",
+      "name": "Thivya KANDAPPU",
+      "title": "Assistant Professor of Computer Science; ResWORK Fellow; LSEI Fellow",
+      "profileUrl": "https://computing.smu.edu.sg/faculty/profile/541/thivya-kandappu-541",
+      "portraitUrl": "https://staffphoto.smu.edu.sg/s/thivyak/500x600",
+      "researchAreas": "School of Computing and Information Systems|||Human-Machine Collaborative Systems|||Embodied & Pervasive Systems; School of Computing and Information Systems|||Human-Machine Collaborative Systems|||Human-Computer Interaction; School of Computing and Information Systems|||Learning & Work|||Technology-Enhanced Learning & Pedagogy; School of Computing and Information Systems|||Learning & Work|||Future of Work; School of Computing and Information Systems|||Health & Wellbeing|||Biomedical Informatics"
+    },
+    {
+      "unitId": "smu-scis-next-batch",
+      "officialId": "pfke",
+      "name": "KE Ping Fan",
+      "title": "Assistant Professor of Information Systems",
+      "profileUrl": "https://computing.smu.edu.sg/faculty/profile/481/ke-ping-fan-481",
+      "portraitUrl": "https://staffphoto.smu.edu.sg/s/pfke/500x600",
+      "researchAreas": "School of Computing and Information Systems|||Information Systems & Technology|||Cybersecurity; School of Computing and Information Systems|||Information Systems & Technology|||Information Systems Management; School of Computing and Information Systems|||Safety, Security & Fairness|||Trustworthiness of Digital Platforms & Devices; School of Computing and Information Systems|||Safety, Security & Fairness|||Misinformation & Disinformation; School of Computing and Information Systems|||Safety, Security & Fairness|||Security & Governance of Software/AI Systems"
+    },
+    {
+      "unitId": "smu-scis-next-batch",
+      "officialId": "akshatkumar",
+      "name": "Akshat KUMAR",
+      "title": "Associate Professor of Computer Science",
+      "profileUrl": "https://computing.smu.edu.sg/faculty/profile/381/akshat-kumar-381",
+      "portraitUrl": "https://staffphoto.smu.edu.sg/s/akshatkumar/500x600",
+      "researchAreas": "School of Computing and Information Systems|||Artificial Intelligence and Data Science|||Decision Making & Optimization; School of Computing and Information Systems|||Artificial Intelligence and Data Science|||Machine Learning & Intelligence; School of Computing and Information Systems|||Urban & Sustainability|||Urban Mobility & Smart Environment"
+    },
+    {
+      "unitId": "smu-scis-next-batch",
+      "officialId": "hclau",
+      "name": "LAU Hoong Chuin",
+      "title": "Professor of Computer Science; LSEI Fellow",
+      "profileUrl": "https://computing.smu.edu.sg/faculty/profile/631/lau-hoong-chuin-631",
+      "portraitUrl": "https://staffphoto.smu.edu.sg/s/hclau/500x600",
+      "researchAreas": "School of Computing and Information Systems|||Artificial Intelligence and Data Science|||Decision Making & Optimization; School of Computing and Information Systems|||Artificial Intelligence and Data Science|||Machine Learning & Intelligence; School of Computing and Information Systems|||Urban & Sustainability|||Urban Mobility & Smart Environment; School of Computing and Information Systems|||Urban & Sustainability|||Urban Logistics & Sustainability; School of Computing and Information Systems|||Urban & Sustainability|||Homeland Security; School of Computing and Information Systems|||Health & Wellbeing|||Ageing & Mental Health"
+    },
+    {
+      "unitId": "smu-scis-next-batch",
+      "officialId": "hadywlauw",
+      "name": "Hady W. LAUW",
+      "title": "Associate Professor of Computer Science; Director, BSc (Computer Science) Programme; Lee Kong Chian Fellow",
+      "profileUrl": "https://computing.smu.edu.sg/faculty/profile/341/hady-w-lauw-341",
+      "portraitUrl": "https://staffphoto.smu.edu.sg/s/hadywlauw/500x600",
+      "researchAreas": "School of Computing and Information Systems|||Artificial Intelligence and Data Science|||Data Management & Mining; School of Computing and Information Systems|||Artificial Intelligence and Data Science|||Machine Learning & Intelligence"
+    },
+    {
+      "unitId": "smu-scis-next-batch",
+      "officialId": "aledent",
+      "name": "Antoine LEDENT",
+      "title": "Assistant Professor of Computer Science",
+      "profileUrl": "https://computing.smu.edu.sg/faculty/profile/6456/antoine-ledent-6456",
+      "portraitUrl": "https://staffphoto.smu.edu.sg/s/aledent/500x600",
+      "researchAreas": "School of Computing and Information Systems|||Artificial Intelligence and Data Science|||Data Management & Mining; School of Computing and Information Systems|||Artificial Intelligence and Data Science|||Machine Learning & Intelligence"
+    },
+    {
+      "unitId": "smu-scis-next-batch",
+      "officialId": "mhlee",
+      "name": "LEE, Min",
+      "title": "Assistant Professor of Computer Science; LSEI Fellow",
+      "profileUrl": "https://computing.smu.edu.sg/faculty/profile/6256/lee-min-6256",
+      "portraitUrl": "https://staffphoto.smu.edu.sg/s/mhlee/500x600",
+      "researchAreas": "School of Computing and Information Systems|||Artificial Intelligence and Data Science|||Decision Making & Optimization; School of Computing and Information Systems|||Artificial Intelligence and Data Science|||Machine Learning & Intelligence; School of Computing and Information Systems|||Human-Machine Collaborative Systems|||Embodied & Pervasive Systems; School of Computing and Information Systems|||Human-Machine Collaborative Systems|||Human-Computer Interaction; School of Computing and Information Systems|||Health & Wellbeing|||Biomedical Informatics; School of Computing and Information Systems|||Safety, Security & Fairness|||Trustworthiness of Digital Platforms & Devices"
+    },
+    {
+      "unitId": "smu-scis-next-batch",
+      "officialId": "jiannanli",
+      "name": "LI Jiannan",
+      "title": "Assistant Professor of Computer Science; LSEI Fellow",
+      "profileUrl": "https://computing.smu.edu.sg/faculty/profile/7441/li-jiannan-7441",
+      "portraitUrl": "https://staffphoto.smu.edu.sg/s/jiannanli/500x600",
+      "researchAreas": "School of Computing and Information Systems|||Human-Machine Collaborative Systems|||Embodied & Pervasive Systems; School of Computing and Information Systems|||Human-Machine Collaborative Systems|||Human-Computer Interaction; School of Computing and Information Systems|||Learning & Work|||Future of Work; School of Computing and Information Systems|||Health & Wellbeing|||Ageing & Mental Health"
+    },
+    {
+      "unitId": "smu-scis-next-batch",
+      "officialId": "yuchenli",
+      "name": "LI Yuchen",
+      "title": "Associate Professor of Computer Science",
+      "profileUrl": "https://computing.smu.edu.sg/faculty/profile/621/li-yuchen-621",
+      "portraitUrl": "https://staffphoto.smu.edu.sg/s/yuchenli/500x600",
+      "researchAreas": "School of Computing and Information Systems|||Artificial Intelligence and Data Science|||Data Management & Mining; School of Computing and Information Systems|||Health & Wellbeing|||Social Analytics; School of Computing and Information Systems|||Safety, Security & Fairness|||Misinformation & Disinformation"
+    },
+    {
+      "unitId": "smu-scis-next-batch",
+      "officialId": "zhizeli",
+      "name": "Zhize LI",
+      "title": "Assistant Professor of Computer Science",
+      "profileUrl": "https://computing.smu.edu.sg/faculty/profile/7661/zhize-li-7661",
+      "portraitUrl": "https://staffphoto.smu.edu.sg/s/zhizeli/500x600",
+      "researchAreas": "School of Computing and Information Systems|||Artificial Intelligence and Data Science|||Decision Making & Optimization; School of Computing and Information Systems|||Artificial Intelligence and Data Science|||Machine Learning & Intelligence; School of Computing and Information Systems|||Safety, Security & Fairness|||Privacy-Preserving Data Sharing & Analytics"
+    },
+    {
+      "unitId": "smu-scis-next-batch",
+      "officialId": "eplim",
+      "name": "LIM Ee Peng",
+      "title": "Professor of Computer Science; Director, Artificial Intelligence & Data Science Cluster; LSEI Fellow",
+      "profileUrl": "https://computing.smu.edu.sg/faculty/profile/616/lim-ee-peng-616",
+      "portraitUrl": "https://staffphoto.smu.edu.sg/s/eplim/500x600",
+      "researchAreas": "School of Computing and Information Systems|||Artificial Intelligence and Data Science|||Data Management & Mining; School of Computing and Information Systems|||Learning & Work|||Future of Work; School of Computing and Information Systems|||Health & Wellbeing|||Ageing & Mental Health"
+    },
+    {
+      "unitId": "smu-scis-next-batch",
+      "officialId": "davidlo",
+      "name": "David LO",
+      "title": "Vice Provost (Research); OUB Chair Professor of Computer Science; Co-Director, Centre for Research for Intelligent Software Engineering; Institutional Official for Research (IO for Research)",
+      "profileUrl": "https://computing.smu.edu.sg/faculty/profile/901/david-lo-901",
+      "portraitUrl": "https://staffphoto.smu.edu.sg/s/davidlo/500x600",
+      "researchAreas": "School of Computing and Information Systems|||Artificial Intelligence and Data Science|||Data Management & Mining; School of Computing and Information Systems|||Artificial Intelligence and Data Science|||Machine Learning & Intelligence; School of Computing and Information Systems|||Information Systems & Technology|||Software Engineering; School of Computing and Information Systems|||Information Systems & Technology|||Cybersecurity; School of Computing and Information Systems|||Learning & Work|||Future of Work; School of Computing and Information Systems|||Safety, Security & Fairness|||Security & Governance of Software/AI Systems"
+    },
+    {
+      "unitId": "smu-scis-next-batch",
+      "officialId": "dsluo",
+      "name": "Luo, Dongsheng",
+      "title": "SMU Presidential Assistant Professor of Computer Science",
+      "profileUrl": "https://computing.smu.edu.sg/faculty/profile/8626/luo-dongsheng-8626",
+      "portraitUrl": "https://staffphoto.smu.edu.sg/s/dsluo/500x600",
+      "researchAreas": "School of Computing and Information Systems|||Artificial Intelligence and Data Science|||Data Management & Mining; School of Computing and Information Systems|||Artificial Intelligence and Data Science|||Machine Learning & Intelligence; School of Computing and Information Systems|||Human-Machine Collaborative Systems|||Human-Computer Interaction; School of Computing and Information Systems|||Urban & Sustainability|||Urban Mobility & Smart Environment; School of Computing and Information Systems|||Health & Wellbeing|||Biomedical Informatics"
+    },
+    {
+      "unitId": "smu-scis-next-batch",
+      "officialId": "hjlyu",
+      "name": "Hanjia Lyu",
+      "title": "Assistant Professor of Computer Science",
+      "profileUrl": "https://computing.smu.edu.sg/faculty/profile/8621/hanjia-lyu-8621",
+      "portraitUrl": "https://staffphoto.smu.edu.sg/s/hjlyu/500x600",
+      "researchAreas": "School of Computing and Information Systems|||Artificial Intelligence and Data Science|||Machine Learning & Intelligence; School of Computing and Information Systems|||Human-Machine Collaborative Systems|||Multimedia Systems; School of Computing and Information Systems|||Learning & Work|||Analytics & Decision Support; School of Computing and Information Systems|||Health & Wellbeing|||Social Analytics; School of Computing and Information Systems|||Safety, Security & Fairness|||Trustworthiness of Digital Platforms & Devices"
+    },
+    {
+      "unitId": "smu-scis-next-batch",
+      "officialId": "madan",
+      "name": "Dan MA",
+      "title": "Associate Professor of Information Systems",
+      "profileUrl": "https://computing.smu.edu.sg/faculty/profile/501/dan-ma-501",
+      "portraitUrl": "https://staffphoto.smu.edu.sg/s/madan/500x600",
+      "researchAreas": "School of Computing and Information Systems|||Artificial Intelligence and Data Science|||Decision Making & Optimization; School of Computing and Information Systems|||Information Systems & Technology|||Cybersecurity; School of Computing and Information Systems|||Information Systems & Technology|||Information Systems Management; School of Computing and Information Systems|||Health & Wellbeing|||Social Analytics"
+    },
+    {
+      "unitId": "smu-scis-next-batch",
+      "officialId": "atmai",
+      "name": "MAI Anh Tien",
+      "title": "Assistant Professor of Information Systems",
+      "profileUrl": "https://computing.smu.edu.sg/faculty/profile/461/mai-anh-tien-461",
+      "portraitUrl": "https://staffphoto.smu.edu.sg/s/atmai/500x600",
+      "researchAreas": "School of Computing and Information Systems|||Artificial Intelligence and Data Science|||Decision Making & Optimization; School of Computing and Information Systems|||Learning & Work|||Analytics & Decision Support; School of Computing and Information Systems|||Urban & Sustainability|||Urban Mobility & Smart Environment; School of Computing and Information Systems|||Urban & Sustainability|||Urban Logistics & Sustainability"
+    },
+    {
+      "unitId": "smu-scis-next-batch",
+      "officialId": "archanm",
+      "name": "Archan MISRA",
+      "title": "Lee Kong Chian Professor of Computer Science; Interim Director, SMU Resilient Workforces Institute",
+      "profileUrl": "https://computing.smu.edu.sg/faculty/profile/376/archan-misra-376",
+      "portraitUrl": "https://staffphoto.smu.edu.sg/s/archanm/500x600",
+      "researchAreas": "School of Computing and Information Systems|||Human-Machine Collaborative Systems|||Embodied & Pervasive Systems; School of Computing and Information Systems|||Human-Machine Collaborative Systems|||Human-Computer Interaction; School of Computing and Information Systems|||Learning & Work|||Future of Work"
+    },
+    {
+      "unitId": "smu-scis-next-batch",
+      "officialId": "kyriakos",
+      "name": "Kyriakos MOURATIDIS",
+      "title": "Professor of Computer Science; Senate Exco Member",
+      "profileUrl": "https://computing.smu.edu.sg/faculty/profile/606/kyriakos-mouratidis-606",
+      "portraitUrl": "https://staffphoto.smu.edu.sg/s/kyriakos/500x600",
+      "researchAreas": "School of Computing and Information Systems|||Artificial Intelligence and Data Science|||Data Management & Mining; School of Computing and Information Systems|||Artificial Intelligence and Data Science|||Decision Making & Optimization; School of Computing and Information Systems|||Learning & Work|||Analytics & Decision Support"
+    },
+    {
+      "unitId": "smu-scis-next-batch",
+      "officialId": "fionanah",
+      "name": "NAH, Fiona Fui-Hoon",
+      "title": "Professor of Information Systems; ResWORK Fellow; LSEI Fellow",
+      "profileUrl": "https://computing.smu.edu.sg/faculty/profile/7861/nah-fiona-fui-hoon-7861",
+      "portraitUrl": "https://staffphoto.smu.edu.sg/s/fionanah/500x600",
+      "researchAreas": "School of Computing and Information Systems|||Human-Machine Collaborative Systems|||Human-Computer Interaction; School of Computing and Information Systems|||Information Systems & Technology|||Information Systems Management"
+    },
+    {
+      "unitId": "smu-scis-next-batch",
+      "officialId": "cwngo",
+      "name": "NGO Chong Wah",
+      "title": "Lee Kong Chian Professor of Computer Science; Pillar Lead (Optimising Human-Machine Collaboration), SMU Resilient Workforces (ResWORK) Institute; Director, Human-Machine Collaborative Systems Cluster; LSEI Fellow",
+      "profileUrl": "https://computing.smu.edu.sg/faculty/profile/601/ngo-chong-wah-601",
+      "portraitUrl": "https://staffphoto.smu.edu.sg/s/cwngo/500x600",
+      "researchAreas": "School of Computing and Information Systems|||Human-Machine Collaborative Systems|||Multimedia Systems; School of Computing and Information Systems|||Learning & Work|||Technology-Enhanced Learning & Pedagogy; School of Computing and Information Systems|||Learning & Work|||Future of Work; School of Computing and Information Systems|||Health & Wellbeing|||Ageing & Mental Health; School of Computing and Information Systems|||Health & Wellbeing|||Lifestyle & Wellness"
+    },
+    {
+      "unitId": "smu-scis-next-batch",
+      "officialId": "klsiau",
+      "name": "SIAU, Keng Leng",
+      "title": "Lee Kong Chian Professor of Information Systems; LSEI Fellow",
+      "profileUrl": "https://computing.smu.edu.sg/faculty/profile/7866/siau-keng-leng-7866",
+      "portraitUrl": "https://staffphoto.smu.edu.sg/s/klsiau/500x600",
+      "researchAreas": "School of Computing and Information Systems|||Human-Machine Collaborative Systems|||Human-Computer Interaction; School of Computing and Information Systems|||Information Systems & Technology|||Information Systems Management; School of Computing and Information Systems|||Learning & Work|||Technology-Enhanced Learning & Pedagogy; School of Computing and Information Systems|||Learning & Work|||Future of Work; School of Computing and Information Systems|||Health & Wellbeing|||Lifestyle & Wellness"
+    },
+    {
+      "unitId": "smu-scis-next-batch",
+      "officialId": "junsun",
+      "name": "SUN Jun",
+      "title": "Professor of Computer Science; Co-Director, Centre for Research for Intelligent Software Engineering; Lee Kuan Yew Fellow; Director, Information Systems & Technology Cluster",
+      "profileUrl": "https://computing.smu.edu.sg/faculty/profile/6816/sun-jun-6816",
+      "portraitUrl": "https://staffphoto.smu.edu.sg/s/junsun/500x600",
+      "researchAreas": "School of Computing and Information Systems|||Artificial Intelligence and Data Science|||Machine Learning & Intelligence; School of Computing and Information Systems|||Information Systems & Technology|||Software Engineering; School of Computing and Information Systems|||Information Systems & Technology|||Cybersecurity; School of Computing and Information Systems|||Safety, Security & Fairness|||Security & Governance of Software/AI Systems"
+    },
+    {
+      "unitId": "smu-scis-next-batch",
+      "officialId": "qianrusun",
+      "name": "SUN Qianru",
+      "title": "Associate Professor of Computer Science; Lee Kong Chian Fellow",
+      "profileUrl": "https://computing.smu.edu.sg/faculty/profile/551/sun-qianru-551",
+      "portraitUrl": "https://staffphoto.smu.edu.sg/s/qianrusun/500x600",
+      "researchAreas": "School of Computing and Information Systems|||Artificial Intelligence and Data Science|||Machine Learning & Intelligence"
+    },
+    {
+      "unitId": "smu-scis-next-batch",
+      "officialId": "ahtan",
+      "name": "TAN Ah Hwee",
+      "title": "Dean, School of Computing and Information Systems; Lee Kong Chian Professor of Computer Science; LSEI Fellow",
+      "profileUrl": "https://computing.smu.edu.sg/faculty/profile/546/tan-ah-hwee-546",
+      "portraitUrl": "https://staffphoto.smu.edu.sg/s/ahtan/500x600",
+      "researchAreas": "School of Computing and Information Systems|||Artificial Intelligence and Data Science|||Machine Learning & Intelligence; School of Computing and Information Systems|||Learning & Work|||Technology-Enhanced Learning & Pedagogy; School of Computing and Information Systems|||Learning & Work|||Analytics & Decision Support; School of Computing and Information Systems|||Health & Wellbeing|||Ageing & Mental Health; School of Computing and Information Systems|||Health & Wellbeing|||Biomedical Informatics"
+    },
+    {
+      "unitId": "smu-scis-next-batch",
+      "officialId": "qiantang",
+      "name": "Qian TANG",
+      "title": "Associate Professor of Information Systems; LSEI Fellow",
+      "profileUrl": "https://computing.smu.edu.sg/faculty/profile/446/qian-tang-446",
+      "portraitUrl": "https://staffphoto.smu.edu.sg/s/qiantang/500x600",
+      "researchAreas": "School of Computing and Information Systems|||Information Systems & Technology|||Information Systems Management; School of Computing and Information Systems|||Learning & Work|||Analytics & Decision Support; School of Computing and Information Systems|||Health & Wellbeing|||Ageing & Mental Health; School of Computing and Information Systems|||Health & Wellbeing|||Social Analytics; School of Computing and Information Systems|||Safety, Security & Fairness|||Trustworthiness of Digital Platforms & Devices; School of Computing and Information Systems|||Safety, Security & Fairness|||Security & Governance of Software/AI Systems"
+    },
+    {
+      "unitId": "smu-scis-next-batch",
+      "officialId": "tonyt",
+      "name": "TANG, Tony",
+      "title": "Associate Professor of Computer Science; Deputy Chair, SMU Institutional Review Board; ResWORK Fellow",
+      "profileUrl": "https://computing.smu.edu.sg/faculty/profile/7146/tang-tony-7146",
+      "portraitUrl": "https://staffphoto.smu.edu.sg/s/tonyt/500x600",
+      "researchAreas": "School of Computing and Information Systems|||Human-Machine Collaborative Systems|||Human-Computer Interaction"
+    },
+    {
+      "unitId": "smu-scis-next-batch",
+      "officialId": "ctreude",
+      "name": "Christoph TREUDE",
+      "title": "Associate Professor of Computer Science",
+      "profileUrl": "https://computing.smu.edu.sg/faculty/profile/7711/christoph-treude-7711",
+      "portraitUrl": "https://staffphoto.smu.edu.sg/s/ctreude/500x600",
+      "researchAreas": "School of Computing and Information Systems|||Artificial Intelligence and Data Science|||Data Management & Mining; School of Computing and Information Systems|||Artificial Intelligence and Data Science|||Decision Making & Optimization; School of Computing and Information Systems|||Artificial Intelligence and Data Science|||Machine Learning & Intelligence; School of Computing and Information Systems|||Human-Machine Collaborative Systems|||Human-Computer Interaction; School of Computing and Information Systems|||Information Systems & Technology|||Software Engineering"
+    },
+    {
+      "unitId": "smu-scis-next-batch",
+      "officialId": "pradeepv",
+      "name": "Pradeep Reddy VARAKANTHAM",
+      "title": "Professor of Computer Science; Coordinator, BSc (CS) Artificial Intelligence Track; LSEI Fellow",
+      "profileUrl": "https://computing.smu.edu.sg/faculty/profile/6836/pradeep-reddy-varakantham-6836",
+      "portraitUrl": "https://staffphoto.smu.edu.sg/s/pradeepv/500x600",
+      "researchAreas": "School of Computing and Information Systems|||Artificial Intelligence and Data Science|||Decision Making & Optimization; School of Computing and Information Systems|||Artificial Intelligence and Data Science|||Machine Learning & Intelligence; School of Computing and Information Systems|||Human-Machine Collaborative Systems|||Human-Computer Interaction; School of Computing and Information Systems|||Urban & Sustainability|||Urban Mobility & Smart Environment; School of Computing and Information Systems|||Safety, Security & Fairness|||Trustworthiness of Digital Platforms & Devices"
+    },
+    {
+      "unitId": "smu-scis-next-batch",
+      "officialId": "haiwang",
+      "name": "WANG Hai",
+      "title": "Associate Professor of Information Systems; LSEI Fellow",
+      "profileUrl": "https://computing.smu.edu.sg/faculty/profile/411/wang-hai-411",
+      "portraitUrl": "https://staffphoto.smu.edu.sg/s/haiwang/500x600",
+      "researchAreas": "School of Computing and Information Systems|||Artificial Intelligence and Data Science|||Data Management & Mining; School of Computing and Information Systems|||Artificial Intelligence and Data Science|||Decision Making & Optimization; School of Computing and Information Systems|||Artificial Intelligence and Data Science|||Machine Learning & Intelligence; School of Computing and Information Systems|||Learning & Work|||Analytics & Decision Support; School of Computing and Information Systems|||Urban & Sustainability|||Urban Mobility & Smart Environment; School of Computing and Information Systems|||Urban & Sustainability|||Urban Logistics & Sustainability"
+    },
+    {
+      "unitId": "smu-scis-next-batch",
+      "officialId": "xrwang",
+      "name": "WANG Xinrun",
+      "title": "Assistant Professor of Computer Science; Lee Kong Chian Fellow",
+      "profileUrl": "https://computing.smu.edu.sg/faculty/profile/7841/wang-xinrun-7841",
+      "portraitUrl": "https://staffphoto.smu.edu.sg/s/xrwang/500x600",
+      "researchAreas": "School of Computing and Information Systems|||Artificial Intelligence and Data Science|||Decision Making & Optimization; School of Computing and Information Systems|||Artificial Intelligence and Data Science|||Machine Learning & Intelligence"
+    },
+    {
+      "unitId": "smu-scis-next-batch",
+      "officialId": "xfxie",
+      "name": "XIE Xiaofei",
+      "title": "Assistant Professor of Computer Science; Lee Kong Chian Fellow",
+      "profileUrl": "https://computing.smu.edu.sg/faculty/profile/6291/xie-xiaofei-6291",
+      "portraitUrl": "https://staffphoto.smu.edu.sg/s/xfxie/500x600",
+      "researchAreas": "School of Computing and Information Systems|||Artificial Intelligence and Data Science|||Machine Learning & Intelligence; School of Computing and Information Systems|||Information Systems & Technology|||Software Engineering; School of Computing and Information Systems|||Information Systems & Technology|||Cybersecurity; School of Computing and Information Systems|||Safety, Security & Fairness|||Security & Governance of Software/AI Systems"
+    },
+    {
+      "unitId": "smu-scis-next-batch",
+      "officialId": "haiyangxue",
+      "name": "XUE, Haiyang",
+      "title": "Assistant Professor of Computer Science",
+      "profileUrl": "https://computing.smu.edu.sg/faculty/profile/7846/xue-haiyang-7846",
+      "portraitUrl": "https://staffphoto.smu.edu.sg/s/haiyangxue/500x600",
+      "researchAreas": "School of Computing and Information Systems|||Information Systems & Technology|||Cybersecurity; School of Computing and Information Systems|||Safety, Security & Fairness|||Privacy-Preserving Data Sharing & Analytics"
+    },
+    {
+      "unitId": "smu-scis-next-batch",
+      "officialId": "gmyang",
+      "name": "YANG Guomin",
+      "title": "Associate Professor of Computer Science; Coordinator, BSc (CS) Cybersecurity Track; Faculty Manager, SMU BSc (IS)-CMU Fast-Track Programme; Lee Kong Chian Fellow",
+      "profileUrl": "https://computing.smu.edu.sg/faculty/profile/6571/yang-guomin-6571",
+      "portraitUrl": "https://staffphoto.smu.edu.sg/s/gmyang/500x600",
+      "researchAreas": "School of Computing and Information Systems|||Information Systems & Technology|||Cybersecurity; School of Computing and Information Systems|||Safety, Security & Fairness|||Trustworthiness of Digital Platforms & Devices; School of Computing and Information Systems|||Safety, Security & Fairness|||Misinformation & Disinformation; School of Computing and Information Systems|||Safety, Security & Fairness|||Privacy-Preserving Data Sharing & Analytics"
+    },
+    {
+      "unitId": "smu-scis-next-batch",
+      "officialId": "bhzheng",
+      "name": "ZHENG Baihua",
+      "title": "Professor of Computer Science; Associate Dean (Postgraduate Research Programmes); Director, Master of Science in Computing",
+      "profileUrl": "https://computing.smu.edu.sg/faculty/profile/521/zheng-baihua-521",
+      "portraitUrl": "https://staffphoto.smu.edu.sg/s/bhzheng/500x600",
+      "researchAreas": "School of Computing and Information Systems|||Artificial Intelligence and Data Science|||Data Management & Mining; School of Computing and Information Systems|||Artificial Intelligence and Data Science|||Machine Learning & Intelligence; School of Computing and Information Systems|||Learning & Work|||Analytics & Decision Support; School of Computing and Information Systems|||Urban & Sustainability|||Urban Mobility & Smart Environment"
+    },
+    {
+      "unitId": "smu-scis-next-batch",
+      "officialId": "tyzhou",
+      "name": "Joey Tianyi ZHOU",
+      "title": "Associate Professor of Computer Science",
+      "profileUrl": "https://computing.smu.edu.sg/faculty/profile/8686/joey-tianyi-zhou-8686",
+      "portraitUrl": "https://staffphoto.smu.edu.sg/s/tyzhou/500x600",
+      "researchAreas": "School of Computing and Information Systems|||Artificial Intelligence and Data Science|||Data Management & Mining; School of Computing and Information Systems|||Artificial Intelligence and Data Science|||Machine Learning & Intelligence; School of Computing and Information Systems|||Human-Machine Collaborative Systems|||Multimedia Systems; School of Computing and Information Systems|||Safety, Security & Fairness|||Trustworthiness of Digital Platforms & Devices; School of Computing and Information Systems|||Safety, Security & Fairness|||Privacy-Preserving Data Sharing & Analytics"
+    },
+    {
+      "unitId": "smu-scis-next-batch",
+      "officialId": "binzhu",
+      "name": "Bin ZHU",
+      "title": "Assistant Professor of Computer Science; Lee Kong Chian Fellow",
+      "profileUrl": "https://computing.smu.edu.sg/faculty/profile/7716/bin-zhu-7716",
+      "portraitUrl": "https://staffphoto.smu.edu.sg/s/binzhu/500x600",
+      "researchAreas": "School of Computing and Information Systems|||Artificial Intelligence and Data Science|||Machine Learning & Intelligence; School of Computing and Information Systems|||Human-Machine Collaborative Systems|||Embodied & Pervasive Systems; School of Computing and Information Systems|||Human-Machine Collaborative Systems|||Multimedia Systems; School of Computing and Information Systems|||Health & Wellbeing|||Lifestyle & Wellness; School of Computing and Information Systems|||Safety, Security & Fairness|||Trustworthiness of Digital Platforms & Devices"
+    },
+    {
+      "unitId": "smu-scis-next-batch",
+      "officialId": "fdzhu",
+      "name": "ZHU Feida",
+      "title": "Associate Professor of Computer Science; Associate Dean (Partnerships and Engagement); Programme Director, SMU–Fudan Strategic Partnership; Director, DBA (Tech) Programme; LSEI Fellow",
+      "profileUrl": "https://computing.smu.edu.sg/faculty/profile/516/zhu-feida-516",
+      "portraitUrl": "https://staffphoto.smu.edu.sg/s/fdzhu/500x600",
+      "researchAreas": "School of Computing and Information Systems|||Artificial Intelligence and Data Science|||Data Management & Mining; School of Computing and Information Systems|||Artificial Intelligence and Data Science|||Machine Learning & Intelligence; School of Computing and Information Systems|||Learning & Work|||Future of Work; School of Computing and Information Systems|||Safety, Security & Fairness|||Trustworthiness of Digital Platforms & Devices; School of Computing and Information Systems|||Safety, Security & Fairness|||Privacy-Preserving Data Sharing & Analytics; School of Computing and Information Systems|||Safety, Security & Fairness|||Security & Governance of Software/AI Systems"
+    }
+  ]
+}

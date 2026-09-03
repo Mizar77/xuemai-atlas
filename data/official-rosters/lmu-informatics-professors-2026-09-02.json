@@ -1,0 +1,203 @@
+{
+  "completeness": "complete",
+  "fetchedAt": "2026-09-02",
+  "institution": "LMU Munich Institute for Informatics",
+  "officialPageUrl": "https://www.ifi.lmu.de/institut/index.html",
+  "officialDataUrl": "https://www.ifi.lmu.de/institut/index.html",
+  "officialRosterCount": 30,
+  "officialUnitCount": 15,
+  "sourceDescription": "The combined scope has two official LMU directories: the Institute Lehr- und Forschungseinheiten page and the CIS Professoren directory. This snapshot preserves all 25 institute / associated-group professor names plus all 5 CIS professors, for 30 unique people. apl. and associated statuses are retained for later classification.",
+  "people": [
+    {
+      "officialId": "de74c189793b241f",
+      "name": "Dieter Kranzlmüller",
+      "officialUnit": "Communications Systems and System Programming",
+      "officialStatus": "professor"
+    },
+    {
+      "officialId": "885eebf4382ab5c6",
+      "name": "Thomas Seidl",
+      "officialUnit": "Database Systems and Data Mining",
+      "officialStatus": "professor"
+    },
+    {
+      "officialId": "7f7125b76643f0be",
+      "name": "Marcus Paradies",
+      "officialUnit": "Database Systems and Data Mining",
+      "officialStatus": "professor"
+    },
+    {
+      "officialId": "a17e54974e92443f",
+      "name": "Volker Tresp",
+      "officialUnit": "Database Systems and Data Mining",
+      "officialStatus": "professor"
+    },
+    {
+      "officialId": "4e2b10bd94ecf530",
+      "name": "Matthias Schubert",
+      "officialUnit": "Database Systems and Data Mining",
+      "officialStatus": "apl. professor"
+    },
+    {
+      "officialId": "6249ec1532b6df19",
+      "name": "Dirk Beyer",
+      "officialUnit": "Software and Systems Engineering",
+      "officialStatus": "professor"
+    },
+    {
+      "officialId": "e10ce2c0ea16d0ff",
+      "name": "Marie-Christine Jakobs",
+      "officialUnit": "Software and Systems Engineering",
+      "officialStatus": "professor"
+    },
+    {
+      "officialId": "4fa64cb0a4a38146",
+      "name": "Gidon Ernst",
+      "officialUnit": "Software and Systems Engineering",
+      "officialStatus": "professor"
+    },
+    {
+      "officialId": "e1468cf253307ae8",
+      "name": "Majid Zamani",
+      "officialUnit": "Software and Systems Engineering",
+      "officialStatus": "professor"
+    },
+    {
+      "officialId": "0fe94473f30be671",
+      "name": "Martin Wirsing",
+      "officialUnit": "Software and Systems Engineering",
+      "officialStatus": "professor"
+    },
+    {
+      "officialId": "2af4fc3b6a51e120",
+      "name": "Rolf Hennicker",
+      "officialUnit": "Software and Systems Engineering",
+      "officialStatus": "apl. professor"
+    },
+    {
+      "officialId": "d2a93ae8a8210f28",
+      "name": "Johannes Kinder",
+      "officialUnit": "Programming Languages and Artificial Intelligence",
+      "officialStatus": "professor"
+    },
+    {
+      "officialId": "e047d9a9abb2df62",
+      "name": "Sven Strickroth",
+      "officialUnit": "Technology Enhanced Learning",
+      "officialStatus": "professor"
+    },
+    {
+      "officialId": "ed1adfe149b77114",
+      "name": "Jasmin Blanchette",
+      "officialUnit": "Theoretical Computer Science and Theorem Proving",
+      "officialStatus": "professor"
+    },
+    {
+      "officialId": "1c15626abc2fa549",
+      "name": "Claudia Linnhoff-Popien",
+      "officialUnit": "Mobile and Distributed Systems",
+      "officialStatus": "professor"
+    },
+    {
+      "officialId": "2f150d732a42cf1f",
+      "name": "Ralf Zimmer",
+      "officialUnit": "Bioinformatics",
+      "officialStatus": "professor"
+    },
+    {
+      "officialId": "8796a8d8066a98c4",
+      "name": "Caroline Friedel",
+      "officialUnit": "Bioinformatics",
+      "officialStatus": "professor"
+    },
+    {
+      "officialId": "0643bb941d6ffd7b",
+      "name": "Volker Heun",
+      "officialUnit": "Bioinformatics",
+      "officialStatus": "professor"
+    },
+    {
+      "officialId": "deb72daf454e74f5",
+      "name": "Florian Alt",
+      "officialUnit": "Media Informatics",
+      "officialStatus": "professor"
+    },
+    {
+      "officialId": "0c9697191868eba0",
+      "name": "Andreas Butz",
+      "officialUnit": "Human-Computer Interaction",
+      "officialStatus": "professor"
+    },
+    {
+      "officialId": "7f2200f8d3633336",
+      "name": "Alexander Wiethoff",
+      "officialUnit": "Human-Computer Interaction",
+      "officialStatus": "apl. professor"
+    },
+    {
+      "officialId": "2d841c0fffbebbe1",
+      "name": "Albrecht Schmidt",
+      "officialUnit": "Human-Centered Ubiquitous Media",
+      "officialStatus": "professor"
+    },
+    {
+      "officialId": "aa6707fc7629fd2f",
+      "name": "Eyke Hüllermeier",
+      "officialUnit": "Artificial Intelligence and Machine Learning",
+      "officialStatus": "professor"
+    },
+    {
+      "officialId": "662c39130ab7c062",
+      "name": "Björn Ommer",
+      "officialUnit": "Computer Vision and Learning",
+      "officialStatus": "professor"
+    },
+    {
+      "officialId": "8b428d3f94c5a16f",
+      "name": "Stefan Feuerriegel",
+      "officialUnit": "Associated group: Artificial Intelligence in Management",
+      "officialStatus": "associated professor"
+    },
+    {
+      "officialId": "9b0b60c63c54eec8",
+      "name": "Alexander Fraser",
+      "officialUnit": "Center for Information and Language Processing",
+      "officialStatus": "professor",
+      "profileUrl": "https://www.cis.lmu.de/personen/professoren/fraser/index.html"
+    },
+    {
+      "officialId": "1ab1a8ebe912888a",
+      "name": "Valentin Hofmann",
+      "officialUnit": "Center for Information and Language Processing",
+      "officialStatus": "professor",
+      "profileUrl": "https://www.cis.lmu.de/personen/professoren/vhofmann/index.html"
+    },
+    {
+      "officialId": "8ffbfbd374cbb6e7",
+      "name": "Barbara Plank",
+      "officialUnit": "Center for Information and Language Processing",
+      "officialStatus": "professor",
+      "profileUrl": "https://www.cis.lmu.de/personen/professoren/bplank/index.html"
+    },
+    {
+      "officialId": "5ef5aee2d3f5ac66",
+      "name": "Klaus Schulz",
+      "officialUnit": "Center for Information and Language Processing",
+      "officialStatus": "professor",
+      "profileUrl": "https://www.cis.lmu.de/personen/professoren/schulz/index.html"
+    },
+    {
+      "officialId": "49d301e887d94dd4",
+      "name": "Hinrich Schütze",
+      "officialUnit": "Center for Information and Language Processing",
+      "officialStatus": "professor",
+      "profileUrl": "https://www.cis.lmu.de/personen/professoren/schuetze/index.html"
+    }
+  ],
+  "officialSupplementalSourcePages": [
+    {
+      "unit": "Center for Information and Language Processing",
+      "url": "https://www.cis.lmu.de/personen/professoren/"
+    }
+  ]
+}

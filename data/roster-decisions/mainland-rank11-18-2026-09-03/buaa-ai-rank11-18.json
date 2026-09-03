@@ -1,0 +1,1013 @@
+{
+  "schemaVersion": 1,
+  "region": "Mainland China",
+  "rank": 15,
+  "institution": "北京航空航天大学",
+  "unitId": "buaa-ai-rank11-18",
+  "unitName": "人工智能学院",
+  "snapshotAt": "2026-09-02",
+  "reviewedAt": "2026-09-03",
+  "rosterArtifact": "data/official-rosters/buaa-ai-all-personnel-2026-09-02.json",
+  "officialRosterUrl": "https://iai.buaa.edu.cn/szdw.htm",
+  "officialRosterCount": 58,
+  "decisionCount": 58,
+  "counts": {
+    "included_existing": 1,
+    "include_new_pi": 44,
+    "excluded_non_ai_cs": 8,
+    "excluded_non_pi": 1,
+    "excluded_historical": 0,
+    "excluded_industry_only": 0,
+    "excluded_insufficient_scope_evidence": 4,
+    "pending_profile_verification": 0
+  },
+  "decisions": [
+    {
+      "officialId": "6076482a37d67998",
+      "name": "郑志明",
+      "title": null,
+      "officialSections": [
+        "师资队伍"
+      ],
+      "profileUrl": "https://iai.buaa.edu.cn/info/1013/1088.htm",
+      "portraitUrl": "https://iai.buaa.edu.cn/__local/2/C7/48/CACC8C6A96D44C239ACACD47BF5_2E4258DC_1BDDF.jpg",
+      "sourcePageUrl": "https://iai.buaa.edu.cn/szdw.htm",
+      "officialRosterUrl": "https://iai.buaa.edu.cn/szdw.htm",
+      "profileChecked": true,
+      "decision": "excluded_non_ai_cs",
+      "reason": "已检查官方个人页及名录字段，公开研究主线未显示 AI、NLP、CV、ML、数据智能、机器人或本图谱紧密相邻方向。",
+      "evidenceUrl": "https://iai.buaa.edu.cn/info/1013/1088.htm",
+      "evidenceExcerpt": "师资队伍"
+    },
+    {
+      "officialId": "d51d1c02aaeb8b6b",
+      "name": "李波",
+      "title": null,
+      "officialSections": [
+        "师资队伍"
+      ],
+      "profileUrl": "https://iai.buaa.edu.cn/info/1013/1089.htm",
+      "portraitUrl": "https://iai.buaa.edu.cn/__local/1/B4/6F/CBDE442748E2F27C4394E4372FD_7D329A78_2468E.jpg",
+      "sourcePageUrl": "https://iai.buaa.edu.cn/szdw.htm",
+      "officialRosterUrl": "https://iai.buaa.edu.cn/szdw.htm",
+      "profileChecked": true,
+      "decision": "include_new_pi",
+      "reason": "官方人工智能学院名录和个人页确认其为教授、副教授、研究员或可独立招生导师；该单位研究主线属于 AI、数据科学及相关智能计算范围。",
+      "evidenceUrl": "https://iai.buaa.edu.cn/info/1013/1089.htm",
+      "evidenceExcerpt": "师资队伍 研究方向： 计算机视觉，机器学习，知识推理，嵌入式智能系统，人工智能应用。 2.科研成果： （1）论文著作情况：在本领域TPAMI、TIP、TMM、TGRS以及CVPR、AAAI、ACL等重要期刊和国际学术会议发表学术论文140余篇，有授权国内外发明专利100余件。 （2）主持项目情况： 曾兼任国家重点研发计划“云计算和大数据”重点专项实施方案编制组专家，国家民口863计划“虚拟"
+    },
+    {
+      "officialId": "7797eafb573ffad4",
+      "name": "吕卫锋",
+      "title": null,
+      "officialSections": [
+        "师资队伍"
+      ],
+      "profileUrl": "https://iai.buaa.edu.cn/info/1013/1091.htm",
+      "portraitUrl": "https://iai.buaa.edu.cn/__local/D/63/B7/D199B64F4ABEBC07B50DC276CF6_A7307E4E_90AF.png",
+      "sourcePageUrl": "https://iai.buaa.edu.cn/szdw.htm",
+      "officialRosterUrl": "https://iai.buaa.edu.cn/szdw.htm",
+      "profileChecked": true,
+      "decision": "include_new_pi",
+      "reason": "官方人工智能学院名录和个人页确认其为教授、副教授、研究员或可独立招生导师；该单位研究主线属于 AI、数据科学及相关智能计算范围。",
+      "evidenceUrl": "https://iai.buaa.edu.cn/info/1013/1091.htm",
+      "evidenceExcerpt": "师资队伍 研究方向： 海量数据处理、算法及大型信息系统开发方法。 主要从事大数据挖掘理论与智慧城市应用研究工作。 2.科研成果： （1）论文著作情况： 已发表SCI/EI学术论文100余篇，国家发明专利十余项 。 （2）主持项目情况： 近年来先后主持完成国家973计划、863计划和航空基金等国家级研究与工程项目十余项，包括科技部863计划智慧城市“城市多模式数据系统互联技术与支撑环境”课题等。 开展面向城市海量多源数据挖掘与应用、多领域大型"
+    },
+    {
+      "officialId": "2caeb8561a02f07e",
+      "name": "吕金虎",
+      "title": null,
+      "officialSections": [
+        "师资队伍"
+      ],
+      "profileUrl": "https://iai.buaa.edu.cn/info/1013/1090.htm",
+      "portraitUrl": "https://iai.buaa.edu.cn/__local/E/28/E4/AE04D8820904802AD10482FE81A_B35C6F25_BBFF.png",
+      "sourcePageUrl": "https://iai.buaa.edu.cn/szdw.htm",
+      "officialRosterUrl": "https://iai.buaa.edu.cn/szdw.htm",
+      "profileChecked": true,
+      "decision": "include_new_pi",
+      "reason": "官方人工智能学院名录和个人页确认其为教授、副教授、研究员或可独立招生导师；该单位研究主线属于 AI、数据科学及相关智能计算范围。",
+      "evidenceUrl": "https://iai.buaa.edu.cn/info/1013/1090.htm",
+      "evidenceExcerpt": "师资队伍 研究方向： 长期从事无人集群系统、协同控制、智能控制、工业互联网等研究。 2.研究成果： （1）论文著作情况：根据Web of Science，论著总他引超2万6千余次，h指数81，8篇论文单篇引用超500次，65篇论文单篇引用超100次，单篇论文最高引用1798次。入选全球前2%顶尖科学家榜单（斯坦福大学发布）、全球高被引科学家（11次，Web of Science数据库）、中国高被引学者榜单（Elsevi"
+    },
+    {
+      "officialId": "6a6826ac4c756869",
+      "name": "王东明",
+      "title": null,
+      "officialSections": [
+        "师资队伍"
+      ],
+      "profileUrl": "https://iai.buaa.edu.cn/info/1013/1642.htm",
+      "portraitUrl": "https://iai.buaa.edu.cn/__local/8/DE/69/BA543F359E83F6230897FBFF805_EE0C2D87_26BFA.jpg",
+      "sourcePageUrl": "https://iai.buaa.edu.cn/szdw.htm",
+      "officialRosterUrl": "https://iai.buaa.edu.cn/szdw.htm",
+      "profileChecked": true,
+      "decision": "excluded_non_ai_cs",
+      "reason": "已检查官方个人页及名录字段，公开研究主线未显示 AI、NLP、CV、ML、数据智能、机器人或本图谱紧密相邻方向。",
+      "evidenceUrl": "https://iai.buaa.edu.cn/info/1013/1642.htm",
+      "evidenceExcerpt": "研究方向：在符号计算、自动推理、知识管理与发现、微分方程和生物网络等领域从事基础与应用研究。 2.科研成果： 已出版专著 3部、教材3本、编译著20余部，发表专业学术论文100余篇。其代表性研究成果在国内外科技文献中被称为“王方法”、“王简单系统”等。是多项式系统消元与分解、几何学自动推理和微分方程符号分析方面的国际著名学者，多个欧共体项目、国际合作项目和国家973项目的学术骨干，参与发起和组织了100多项国际学术活动。先后担任《中国科学：信息科学》中英文版常务副主编、《Mathematics in Computer Science》创刊主编和AISC 2006 & 2018、ISSAC 2007 & 2019等国际学术会议的大会主席。 ★联系方式 电子邮箱：dongming.wang@buaa.edu.cn 【 关闭 】 友情链接 教育部 科学技术部 工业和信息化部 国家自然科学基金委员会 北京航空航天大学 联系我们 地址：北京市海淀区学院路37号 邮编：100083 邮箱：IAI@buaa.edu.cn 版权所有 © 北京航空航天大学人工智能学院 京ICP备05004617-3 微"
+    },
+    {
+      "officialId": "50417cb59c19c160",
+      "name": "邓岳",
+      "title": null,
+      "officialSections": [
+        "师资队伍"
+      ],
+      "profileUrl": "https://iai.buaa.edu.cn/info/1013/3252.htm",
+      "portraitUrl": "https://iai.buaa.edu.cn/__local/1/11/02/CBF08D2200F290DD05B0C7C87AE_66D68115_2D321.jpg",
+      "sourcePageUrl": "https://iai.buaa.edu.cn/szdw.htm",
+      "officialRosterUrl": "https://iai.buaa.edu.cn/szdw.htm",
+      "profileChecked": true,
+      "decision": "include_new_pi",
+      "reason": "官方人工智能学院名录和个人页确认其为教授、副教授、研究员或可独立招生导师；该单位研究主线属于 AI、数据科学及相关智能计算范围。",
+      "evidenceUrl": "https://iai.buaa.edu.cn/info/1013/3252.htm",
+      "evidenceExcerpt": "师资队伍 研究方向：主要从事脑启发人工智能和AI for Science领域的研究。 2.科研成果： （1）论文著作情况：近年来，以第一/通讯作者身份在Nature Machine Intelligence，Nature Biotechnology, Nature Methods, Nature Communications及IEEE Transactions等刊物发表论文50余篇，在Springe"
+    },
+    {
+      "officialId": "b89780c5868cd825",
+      "name": "赵慧洁",
+      "title": null,
+      "officialSections": [
+        "师资队伍"
+      ],
+      "profileUrl": "https://iai.buaa.edu.cn/info/1013/1032.htm",
+      "portraitUrl": "https://iai.buaa.edu.cn/__local/E/BC/9D/B454B593745D19F14153A472555_B1526A48_422A0.png",
+      "sourcePageUrl": "https://iai.buaa.edu.cn/szdw.htm",
+      "officialRosterUrl": "https://iai.buaa.edu.cn/szdw.htm",
+      "profileChecked": true,
+      "decision": "include_new_pi",
+      "reason": "官方人工智能学院名录和个人页确认其为教授、副教授、研究员或可独立招生导师；该单位研究主线属于 AI、数据科学及相关智能计算范围。",
+      "evidenceUrl": "https://iai.buaa.edu.cn/info/1013/1032.htm",
+      "evidenceExcerpt": "师资队伍 研究方向： 多/高光谱智能感知技术、多模智能感知与数据融合技术、三维视觉感知与数据处理技术、星载高光谱全链路建模技术、高光谱遥感信息智能处理与应用等。 2.科研成果： （1）论文著作情况： 专著3部，发表学术论文250余篇，授权国家发明专利90余项。 （2）主持项目情况： 主持科技部重点研发计划项目；国家自然科学基金重点项目、重大仪器项目，主持民用航天、高分重大专项预研项目、自然资源部高"
+    },
+    {
+      "officialId": "d58cb0215e576c37",
+      "name": "吴文峻",
+      "title": null,
+      "officialSections": [
+        "师资队伍"
+      ],
+      "profileUrl": "https://iai.buaa.edu.cn/info/1013/1093.htm",
+      "portraitUrl": "https://iai.buaa.edu.cn/__local/0/FA/5B/341639E4B6C7553E113435CADC5_979F19DD_13725.jpg",
+      "sourcePageUrl": "https://iai.buaa.edu.cn/szdw.htm",
+      "officialRosterUrl": "https://iai.buaa.edu.cn/szdw.htm",
+      "profileChecked": true,
+      "decision": "include_new_pi",
+      "reason": "官方人工智能学院名录和个人页确认其为教授、副教授、研究员或可独立招生导师；该单位研究主线属于 AI、数据科学及相关智能计算范围。",
+      "evidenceUrl": "https://iai.buaa.edu.cn/info/1013/1093.htm",
+      "evidenceExcerpt": "师资队伍 研究方向： 专注于“先进科学计算和协同网络平台”领域的研究。 目前主要研究方向包括群体智能与多智能体系统、认知建模与智能导学、智能云服务、智能软件工程等领域。 2.科研成果： （1）论文著作情况： 在国际期刊和会议上发表120余篇学术论文，出版群体软件工程英文专著一部。 （2）项目主持情况： 在美国留学和工作期间，吴文峻一直主持和参与的科研项目包括：计算社会和行为科学网格、开放生命科学网格、下一代高通量基因测序网格、果蝇基因调控网络计算环境和多媒"
+    },
+    {
+      "officialId": "11fcf71c2ce83a88",
+      "name": "陈巍",
+      "title": null,
+      "officialSections": [
+        "师资队伍"
+      ],
+      "profileUrl": "https://iai.buaa.edu.cn/info/1013/1673.htm",
+      "portraitUrl": "https://iai.buaa.edu.cn/__local/A/BC/A9/3DA6BE2283D514751F1039FC181_4B0AF8F0_1E3E9.jpg",
+      "sourcePageUrl": "https://iai.buaa.edu.cn/szdw.htm",
+      "officialRosterUrl": "https://iai.buaa.edu.cn/szdw.htm",
+      "profileChecked": false,
+      "decision": "excluded_insufficient_scope_evidence",
+      "reason": "官方名录提供个人页，但页面无法解析出足够的研究方向与独立 PI 证据；本轮按证据门槛不纳入，而非推断为非 AI/CS 或非 PI。",
+      "evidenceUrl": "https://iai.buaa.edu.cn/szdw.htm",
+      "evidenceExcerpt": "师资队伍"
+    },
+    {
+      "officialId": "f62132707989bbe0",
+      "name": "唐绍婷",
+      "title": null,
+      "officialSections": [
+        "师资队伍"
+      ],
+      "profileUrl": "https://iai.buaa.edu.cn/info/1013/1674.htm",
+      "portraitUrl": "https://iai.buaa.edu.cn/__local/4/EA/E5/7C320BF2B90F88213347EEBD875_F2342E18_16D13.jpg",
+      "sourcePageUrl": "https://iai.buaa.edu.cn/szdw.htm",
+      "officialRosterUrl": "https://iai.buaa.edu.cn/szdw.htm",
+      "profileChecked": true,
+      "decision": "include_new_pi",
+      "reason": "官方人工智能学院名录和个人页确认其为教授、副教授、研究员或可独立招生导师；该单位研究主线属于 AI、数据科学及相关智能计算范围。",
+      "evidenceUrl": "https://iai.buaa.edu.cn/info/1013/1674.htm",
+      "evidenceExcerpt": "师资队伍 研究方向：主要从事复杂网络、社交大数据、群体智能、脑认知驱动的人工智能等方向研究。 2. 科研成果： （1）论文论著情况：在Nat. Commun., Commun. Biol.等国际期刊发表学术论文60余篇。 （2）主持项目情况：主持科技部科技创新2030-“新一代人工智能”重大项目青年科学家项目，国家自然科学基金杰青、优青基金等项目10余项，参与科技部、工信部等国家级重大项目7项。 （3）科研获奖情况"
+    },
+    {
+      "officialId": "a7aaa1bfec1cf609",
+      "name": "董希旺",
+      "title": null,
+      "officialSections": [
+        "师资队伍"
+      ],
+      "profileUrl": "https://iai.buaa.edu.cn/info/1013/1303.htm",
+      "portraitUrl": "https://iai.buaa.edu.cn/__local/1/DD/FC/2442FE4F4859A3729AA7E5EA925_8993A5C2_20855.jpg",
+      "sourcePageUrl": "https://iai.buaa.edu.cn/szdw.htm",
+      "officialRosterUrl": "https://iai.buaa.edu.cn/szdw.htm",
+      "profileChecked": true,
+      "decision": "include_new_pi",
+      "reason": "官方人工智能学院名录和个人页确认其为教授、副教授、研究员或可独立招生导师；该单位研究主线属于 AI、数据科学及相关智能计算范围。",
+      "evidenceUrl": "https://iai.buaa.edu.cn/info/1013/1303.htm",
+      "evidenceExcerpt": "师资队伍 研究方向 [1] 集群智能 [2] 协同控制 [3] 协同制导 [4] 协同决策规划 [5] 飞行器集群 [6] 无人机飞控系统开发 ★联系方式 电子邮箱：xwdong@buaa.edu.cn 【 关闭 】 友情链接 教育部 科学技术部 工业和信息化部 国家自然科学基金委员会 北京航空航天大学 联系我们 地址：北京市海淀区学院路37号 邮编：100083 邮箱：IAI@buaa.edu.cn 版权所有 © 北京航空航天大学 京ICP备05004617-3 微信公众号"
+    },
+    {
+      "officialId": "3dd4d9631293c06c",
+      "name": "张宝昌",
+      "title": null,
+      "officialSections": [
+        "师资队伍"
+      ],
+      "profileUrl": "https://iai.buaa.edu.cn/info/1013/1094.htm",
+      "portraitUrl": "https://iai.buaa.edu.cn/__local/4/9D/83/E6318781898AEE59B901D46A1ED_8EF3B56A_140D4.jpg",
+      "sourcePageUrl": "https://iai.buaa.edu.cn/szdw.htm",
+      "officialRosterUrl": "https://iai.buaa.edu.cn/szdw.htm",
+      "profileChecked": true,
+      "decision": "included_existing",
+      "atlasPersonId": "zhang-baochang-buaa",
+      "reason": "图谱已有同一人物 zhang-baochang-buaa；官方名录/个人页确认其当前属于北京航空航天大学人工智能学院。",
+      "evidenceUrl": "https://iai.buaa.edu.cn/info/1013/1094.htm",
+      "evidenceExcerpt": "师资队伍 研究方向： 长期从事复杂背景下快速小目标检测与识别研究，目前尤其关注控制理论和深度学习的结合。 2.科研成果： （1）论文著作情况： 证明了混合高斯波函数的不确定性上界，发表在顶刊IJCV(领域第一11.54)；提出局部模式构建的一系列的原创模型。获得两项视觉顶会ECCV20目标检测比赛第一名，一项权威会议ICPR20比赛的第一名。 （2）理论成果： 成果1：提出多高斯不确定性理论。国际上首次证明混合"
+    },
+    {
+      "officialId": "6e8040687821dcc7",
+      "name": "庄福振",
+      "title": null,
+      "officialSections": [
+        "师资队伍"
+      ],
+      "profileUrl": "https://iai.buaa.edu.cn/info/1013/1161.htm",
+      "portraitUrl": "https://iai.buaa.edu.cn/__local/F/75/64/6A50E7D2C61032280660A1B318C_25E62B84_16486.jpg",
+      "sourcePageUrl": "https://iai.buaa.edu.cn/szdw.htm",
+      "officialRosterUrl": "https://iai.buaa.edu.cn/szdw.htm",
+      "profileChecked": true,
+      "decision": "include_new_pi",
+      "reason": "官方人工智能学院名录和个人页确认其为教授、副教授、研究员或可独立招生导师；该单位研究主线属于 AI、数据科学及相关智能计算范围。",
+      "evidenceUrl": "https://iai.buaa.edu.cn/info/1013/1161.htm",
+      "evidenceExcerpt": "师资队伍 研究方向： 主要从事迁移学习、多任务学习、推荐系统、知识图谱等方面的研究工作。 2.科研成果： （1）论文著作情况： 已经在本领域顶级、重要国际期刊和会议，如Nature Communications、IEEE TKDE、TEEE TNNLS、Scientific Reports、KDD、IJCAI、AAAI、WWW等发表论文150多篇，其中CCF A类80多篇，Google Scho"
+    },
+    {
+      "officialId": "f7ca25f2dbd2991d",
+      "name": "刘偲",
+      "title": null,
+      "officialSections": [
+        "师资队伍"
+      ],
+      "profileUrl": "https://iai.buaa.edu.cn/info/1013/1096.htm",
+      "portraitUrl": "https://iai.buaa.edu.cn/__local/8/B3/D8/4ECB804DFB2D885A57A1586F536_32659FCA_15A1A.jpg",
+      "sourcePageUrl": "https://iai.buaa.edu.cn/szdw.htm",
+      "officialRosterUrl": "https://iai.buaa.edu.cn/szdw.htm",
+      "profileChecked": true,
+      "decision": "include_new_pi",
+      "reason": "官方人工智能学院名录和个人页确认其为教授、副教授、研究员或可独立招生导师；该单位研究主线属于 AI、数据科学及相关智能计算范围。",
+      "evidenceUrl": "https://iai.buaa.edu.cn/info/1013/1096.htm",
+      "evidenceExcerpt": "师资队伍 研究方向： 具身智能和多模态内容理解。 2.科研成果： （1）论文著作情况： 发表多篇CCF-A类论文，含IEEE T-PAMI 18篇，Google Scholar引用20000余次。 获多媒体领域顶会ACM MM 2012最佳技术演示奖，ACM MM 2013、ACM MM 2021最佳论文奖，以及人工智能领域顶会IJCAI 2021最佳视频奖。获得10余项CVPR、I"
+    },
+    {
+      "officialId": "cf824ccc83b63e44",
+      "name": "沙磊",
+      "title": null,
+      "officialSections": [
+        "师资队伍"
+      ],
+      "profileUrl": "https://iai.buaa.edu.cn/info/1013/1853.htm",
+      "portraitUrl": "https://iai.buaa.edu.cn/__local/C/20/BA/1E1131A7D9324A9EA760AB80FCF_D5F3AE0E_869EC.jpeg",
+      "sourcePageUrl": "https://iai.buaa.edu.cn/szdw.htm",
+      "officialRosterUrl": "https://iai.buaa.edu.cn/szdw.htm",
+      "profileChecked": true,
+      "decision": "include_new_pi",
+      "reason": "官方人工智能学院名录和个人页确认其为教授、副教授、研究员或可独立招生导师；该单位研究主线属于 AI、数据科学及相关智能计算范围。",
+      "evidenceUrl": "https://iai.buaa.edu.cn/info/1013/1853.htm",
+      "evidenceExcerpt": "师资队伍 研究方向： 主要研究方向是可信大语言模型构建与维护以及面向科学人工智能。 2.研究成果： 主持国自然青年基金、国自然优秀青年基金（海外）项目、北航概念验证项目、小米揭榜挂帅项目、北航敢为面上项目、郑州市揭榜挂帅重点研发专项项目、ZGC国家科技重大专项课题等。曾于2018年从北京大学信息科学技术学院计算语言学研究所获得理学博士学位。之后在苹果公司Siri NLP组担任资深研究科学家。2020~202"
+    },
+    {
+      "officialId": "26c2e0376d66c307",
+      "name": "刘昊",
+      "title": null,
+      "officialSections": [
+        "师资队伍"
+      ],
+      "profileUrl": "https://iai.buaa.edu.cn/info/1013/1037.htm",
+      "portraitUrl": "https://iai.buaa.edu.cn/__local/B/1A/E0/0A226A56821DE971E68CAE9BE9E_7A106E72_19C52.jpg",
+      "sourcePageUrl": "https://iai.buaa.edu.cn/szdw.htm",
+      "officialRosterUrl": "https://iai.buaa.edu.cn/szdw.htm",
+      "profileChecked": true,
+      "decision": "include_new_pi",
+      "reason": "官方人工智能学院名录和个人页确认其为教授、副教授、研究员或可独立招生导师；该单位研究主线属于 AI、数据科学及相关智能计算范围。",
+      "evidenceUrl": "https://iai.buaa.edu.cn/info/1013/1037.htm",
+      "evidenceExcerpt": "师资队伍 研究方向： 无人飞行器分布式态势感知、群体自主决策规划、分布式智能协同控制、视觉伺服控制、数据智能处理。 2.科研成果： （1）论文著作情况：以第一/通讯作者在Automatica和IEEE汇刊发表SCI论文100余篇，多篇保持为ESI高被引。任SCI国际期刊IJRNC领域编辑、JIRS和TIMC编委，机械工程与航空航天工程国际会议程序委员会主席。任 IEEE Senior Member、中国人工智能学会、中国航空学会、中国自动化学会、"
+    },
+    {
+      "officialId": "66ab1fd1b39faf0f",
+      "name": "刘柳",
+      "title": null,
+      "officialSections": [
+        "师资队伍"
+      ],
+      "profileUrl": "https://iai.buaa.edu.cn/info/1013/3112.htm",
+      "portraitUrl": "https://iai.buaa.edu.cn/__local/5/A5/9E/76FFFF85931CE190A1229AF777A_5A3B28FA_84D0.jpg",
+      "sourcePageUrl": "https://iai.buaa.edu.cn/szdw.htm",
+      "officialRosterUrl": "https://iai.buaa.edu.cn/szdw.htm",
+      "profileChecked": true,
+      "decision": "include_new_pi",
+      "reason": "官方人工智能学院名录和个人页确认其为教授、副教授、研究员或可独立招生导师；该单位研究主线属于 AI、数据科学及相关智能计算范围。",
+      "evidenceUrl": "https://iai.buaa.edu.cn/info/1013/3112.htm",
+      "evidenceExcerpt": "师资队伍 研究方向： 主要研究机器学习和深度学习的算法设计理论分析及其应用，包括算法分析、泛化分析和模型设计。具体包括： 1 ）组合优化、两阶优化、零阶优化的算法设计收敛证明及复杂度分析，对应的应用包括强化学习，金融管理的风险规避，黑盒，量子机器学习等问题； 2) 泛化误差的分析及证明，对应的应用包括流标签学习、小样本学习、元学习等问题； 3 ）模型分析，对应的应用包括连续学习、对抗网络、迁移学"
+    },
+    {
+      "officialId": "6bc0fea0d8d07f64",
+      "name": "李卫华",
+      "title": null,
+      "officialSections": [
+        "师资队伍"
+      ],
+      "profileUrl": "https://iai.buaa.edu.cn/info/1013/1663.htm",
+      "portraitUrl": "https://iai.buaa.edu.cn/__local/1/2A/65/6B325A478C378CE2295DA1CD910_BA5E62DF_1430F.jpg",
+      "sourcePageUrl": "https://iai.buaa.edu.cn/szdw.htm",
+      "officialRosterUrl": "https://iai.buaa.edu.cn/szdw.htm",
+      "profileChecked": true,
+      "decision": "include_new_pi",
+      "reason": "官方人工智能学院名录和个人页确认其为教授、副教授、研究员或可独立招生导师；该单位研究主线属于 AI、数据科学及相关智能计算范围。",
+      "evidenceUrl": "https://iai.buaa.edu.cn/info/1013/1663.htm",
+      "evidenceExcerpt": "师资队伍 研究方向：复杂系统、群体智能、数据科学、计算社会学等方向。 2. 科研成果：一作在 Nature Computational Science 、 Science Advances 、 Nature Communications 等期刊发表论文，研究成果得到 Science 、 Nature Human Behaviour 等专题报道，并被西班牙 El Pa í s （西班牙国家报）、英"
+    },
+    {
+      "officialId": "c9e2e46c774c2b59",
+      "name": "丁嵘",
+      "title": null,
+      "officialSections": [
+        "师资队伍"
+      ],
+      "profileUrl": "https://iai.buaa.edu.cn/info/1013/1036.htm",
+      "portraitUrl": "https://iai.buaa.edu.cn/__local/F/EE/79/AAED79506402DA792E66AB156A6_0D9A3F17_16DA0.jpg",
+      "sourcePageUrl": "https://iai.buaa.edu.cn/szdw.htm",
+      "officialRosterUrl": "https://iai.buaa.edu.cn/szdw.htm",
+      "profileChecked": true,
+      "decision": "include_new_pi",
+      "reason": "官方人工智能学院名录和个人页确认其为教授、副教授、研究员或可独立招生导师；该单位研究主线属于 AI、数据科学及相关智能计算范围。",
+      "evidenceUrl": "https://iai.buaa.edu.cn/info/1013/1036.htm",
+      "evidenceExcerpt": "师资队伍 研究方向：基于智能体和大模型的软件工程（面向自主生态软硬件的代码迁移、代码自动测试、代码智能重构）；基于智能体和大模型的视觉感知与认知（图像和视频的恢复、识别与跟踪等，SLAM，大场景3dgs建图，语义gs)；借鉴人脑知识存储机制的非Transformer模型探索。 2.科研成果： （1）论文著作情况：在国内外重要学术期刊和国际会议上发表论文60余篇，拥有国家发明专利12项，软件著作权"
+    },
+    {
+      "officialId": "65ee2f4533f284c7",
+      "name": "姜鑫",
+      "title": null,
+      "officialSections": [
+        "师资队伍"
+      ],
+      "profileUrl": "https://iai.buaa.edu.cn/info/1013/1672.htm",
+      "portraitUrl": "https://iai.buaa.edu.cn/__local/9/0E/7E/9B6C1873E9AAE9E7D6406285640_626C5ADF_3C5B2.jpg",
+      "sourcePageUrl": "https://iai.buaa.edu.cn/szdw.htm",
+      "officialRosterUrl": "https://iai.buaa.edu.cn/szdw.htm",
+      "profileChecked": true,
+      "decision": "include_new_pi",
+      "reason": "官方人工智能学院名录和个人页确认其为教授、副教授、研究员或可独立招生导师；该单位研究主线属于 AI、数据科学及相关智能计算范围。",
+      "evidenceUrl": "https://iai.buaa.edu.cn/info/1013/1672.htm",
+      "evidenceExcerpt": "师资队伍 研究方向： 计算几何与人工智能、计算机辅助制造、工业大数据等。 2.科研成果： （1）论文著作情况：发表高水平论文40余篇，包括 ACM TOG、IEEE TKDE、Rapid Prototyping Journal、IJAMT、Physical Review Letters等行业权威期刊及Siggraph、EuroGraphics等高水平会议，授权发明专利8项，软件著作权5项。 （2）"
+    },
+    {
+      "officialId": "a822a2f98e20bd8b",
+      "name": "单宝松",
+      "title": null,
+      "officialSections": [
+        "师资队伍"
+      ],
+      "profileUrl": "https://iai.buaa.edu.cn/info/1013/1721.htm",
+      "portraitUrl": "https://iai.buaa.edu.cn/__local/2/98/2B/61E7FB1B9FE5DF59113CDD41E5B_9B2501D5_76EF3.jpg",
+      "sourcePageUrl": "https://iai.buaa.edu.cn/szdw.htm",
+      "officialRosterUrl": "https://iai.buaa.edu.cn/szdw.htm",
+      "profileChecked": true,
+      "decision": "include_new_pi",
+      "reason": "官方人工智能学院名录和个人页确认其为教授、副教授、研究员或可独立招生导师；该单位研究主线属于 AI、数据科学及相关智能计算范围。",
+      "evidenceUrl": "https://iai.buaa.edu.cn/info/1013/1721.htm",
+      "evidenceExcerpt": "师资队伍 教育背景：毕业于北京航空航天大学，获计算机软件与理论专业博士学位。 2.教学活动：2009年起留校任教，讲授《数据库系统》、《高级程序设计语言》、《数学软件》、《高能数学》等课程。 ★联系方式 邮箱：shanbs@buaa.edu.cn 【 关闭 】 友情链接 教育部 科学技术部 工业和信息化部 国家自然科学基金委员会 北京航空航天大学 联系我们 地址：北京市海淀区学院路37号 邮编：100083 邮箱：IAI@buaa.edu.cn 版权所有 © 北京航空航天大学 京I"
+    },
+    {
+      "officialId": "c30d5d9dc491573f",
+      "name": "李娜",
+      "title": null,
+      "officialSections": [
+        "师资队伍"
+      ],
+      "profileUrl": "https://iai.buaa.edu.cn/info/1013/1035.htm",
+      "portraitUrl": "https://iai.buaa.edu.cn/__local/C/7C/E8/A96A04A6088F610BB4375A38FE5_FB73E288_1927D.jpg",
+      "sourcePageUrl": "https://iai.buaa.edu.cn/szdw.htm",
+      "officialRosterUrl": "https://iai.buaa.edu.cn/szdw.htm",
+      "profileChecked": true,
+      "decision": "include_new_pi",
+      "reason": "官方人工智能学院名录和个人页确认其为教授、副教授、研究员或可独立招生导师；该单位研究主线属于 AI、数据科学及相关智能计算范围。",
+      "evidenceUrl": "https://iai.buaa.edu.cn/info/1013/1035.htm",
+      "evidenceExcerpt": "师资队伍 研究方向： 智能感知、新型光电光谱探测、深度学习、信息智能处理与融合应用等。 2.科研成果： （1）论文著作情况： 参与编写专著2部，发表论文50余篇，国家发明专利授权18项。担任 Remote Sensing等遥感领域多个顶级期刊审稿人。 （2）主持项目情况： 近年来，主持国家自然科学基金面上项目、国家重大仪器专项子课题、863项目、高分专项、总装预研等项目20余项，在国家自"
+    },
+    {
+      "officialId": "d18e16fe6a772718",
+      "name": "文晓",
+      "title": null,
+      "officialSections": [
+        "师资队伍"
+      ],
+      "profileUrl": "https://iai.buaa.edu.cn/info/1013/1092.htm",
+      "portraitUrl": "https://iai.buaa.edu.cn/__local/6/52/FB/34ABB296229251317710C337013_8008D3CE_175B3.jpg",
+      "sourcePageUrl": "https://iai.buaa.edu.cn/szdw.htm",
+      "officialRosterUrl": "https://iai.buaa.edu.cn/szdw.htm",
+      "profileChecked": true,
+      "decision": "excluded_non_ai_cs",
+      "reason": "已检查官方个人页及名录字段，公开研究主线未显示 AI、NLP、CV、ML、数据智能、机器人或本图谱紧密相邻方向。",
+      "evidenceUrl": "https://iai.buaa.edu.cn/info/1013/1092.htm",
+      "evidenceExcerpt": "教育背景： l 2009.8- 北京航空航天大学 教师 l 2008.8-2009.7 忠南国立大学数学系 博士后 l 1998.9-2008.7 北京大学数学科学学院本科生、博士研究生 l 1995.9-1998.7 长沙市第一中学高中生 2.教学活动： l 2020秋 数学分析 (1) 习题课 l 2020春至今 泛函分析 l 2019秋至今 数学分析 3 l 2017秋至 2019 春 理科数学分析 I,II l 2011秋至 2017 春 工科数学分析 I,II l 2010秋至 2011 春 工科高等数学 I,II ★联系方式 办公地点：B1030 办公电话：82338033 电子邮箱：wenxiao@buaa.edu.cn 【 关闭 】 友情链接 教育部 科学技术部 工业和信息化部 国家自然科学基金委员会 北京航空航天大学 联系我们 地址：北京市海淀区学院路37号 邮编：100083 邮箱：IAI@buaa.edu.cn 版权所有 © 北京航空航天大学人工智能学院 京ICP备05004617-3 微信公众号"
+    },
+    {
+      "officialId": "31affc6d2f975143",
+      "name": "王田",
+      "title": null,
+      "officialSections": [
+        "师资队伍"
+      ],
+      "profileUrl": "https://iai.buaa.edu.cn/info/1013/1034.htm",
+      "portraitUrl": "https://iai.buaa.edu.cn/__local/E/07/50/D1120949F4D09E9FF5D7F2447C7_ACCE6414_14C91.jpg",
+      "sourcePageUrl": "https://iai.buaa.edu.cn/szdw.htm",
+      "officialRosterUrl": "https://iai.buaa.edu.cn/szdw.htm",
+      "profileChecked": true,
+      "decision": "include_new_pi",
+      "reason": "官方人工智能学院名录和个人页确认其为教授、副教授、研究员或可独立招生导师；该单位研究主线属于 AI、数据科学及相关智能计算范围。",
+      "evidenceUrl": "https://iai.buaa.edu.cn/info/1013/1034.htm",
+      "evidenceExcerpt": "师资队伍 研究方向：人工智能，模式识别，计算机视觉等理论与技术。研究数据表示与挖掘，视频图像中运动信息提取，人机协同等。利用人工智能的相关方法，分析智慧城市视频监控安防系统中的人群或者个人行为，识别与跟踪目标，检测遥感图像目标，提高人机协同效率等。并探索技术与搭载高速处理芯片的平台等硬件设备相结合的实际应用前景。 2.科研成果： （1）论文著作情况：发表论文包括Internationa"
+    },
+    {
+      "officialId": "f243706852f13e58",
+      "name": "郭炳晖",
+      "title": null,
+      "officialSections": [
+        "师资队伍"
+      ],
+      "profileUrl": "https://iai.buaa.edu.cn/info/1013/1664.htm",
+      "portraitUrl": "https://iai.buaa.edu.cn/__local/1/D0/15/042113A58BBFB63002340973F3F_00634AE3_E5E14.jpg",
+      "sourcePageUrl": "https://iai.buaa.edu.cn/szdw.htm",
+      "officialRosterUrl": "https://iai.buaa.edu.cn/szdw.htm",
+      "profileChecked": true,
+      "decision": "include_new_pi",
+      "reason": "官方人工智能学院名录和个人页确认其为教授、副教授、研究员或可独立招生导师；该单位研究主线属于 AI、数据科学及相关智能计算范围。",
+      "evidenceUrl": "https://iai.buaa.edu.cn/info/1013/1664.htm",
+      "evidenceExcerpt": "师资队伍 研究方向： 长期从事数学与信息交叉科学中人工智能基础问题、群体智能及进化智能理论与技术、人工智能在生命科学及金融学中的应用等前沿问题研究。 2.科研成果： （1）论文著作情况： 在 Briefings in Bioinformatics 、 Chaos 、 Nonlinear Dynamics 、 Bioinformatics 、 BMC bioinformatics 、 Physical Review"
+    },
+    {
+      "officialId": "65f44b6f4f08fbf8",
+      "name": "韦星星",
+      "title": null,
+      "officialSections": [
+        "师资队伍"
+      ],
+      "profileUrl": "https://iai.buaa.edu.cn/info/1013/1099.htm",
+      "portraitUrl": "https://iai.buaa.edu.cn/__local/9/D8/CB/A1247184F17F5E14C8E209C68B3_D6C91092_219EE.jpg",
+      "sourcePageUrl": "https://iai.buaa.edu.cn/szdw.htm",
+      "officialRosterUrl": "https://iai.buaa.edu.cn/szdw.htm",
+      "profileChecked": true,
+      "decision": "include_new_pi",
+      "reason": "官方人工智能学院名录和个人页确认其为教授、副教授、研究员或可独立招生导师；该单位研究主线属于 AI、数据科学及相关智能计算范围。",
+      "evidenceUrl": "https://iai.buaa.edu.cn/info/1013/1099.htm",
+      "evidenceExcerpt": "师资队伍 研究方向：计算机视觉、安全可信人工智能 2. 科研成果： （1）论文著作情况：累计发表CCF A类期刊和会议论文80余篇，包含人工智能领域顶刊IEEE TPAMI和IJCV论文12篇（第一作者9篇），多篇论文入选ESI高被引论文，入选全球前2%顶尖科学家榜单。授权中国发明专利二十余项。 （2）主持项目情况：作为负责人承担科技创新2030新一代人工智能重大项目课题、国自然面上项目"
+    },
+    {
+      "officialId": "518163164dded089",
+      "name": "黄雷",
+      "title": null,
+      "officialSections": [
+        "师资队伍"
+      ],
+      "profileUrl": "https://iai.buaa.edu.cn/info/1013/1122.htm",
+      "portraitUrl": "https://iai.buaa.edu.cn/__local/4/C8/B0/E38C649886454FF9E0F6C64E0D3_A8D9CB5D_369AE.jpg",
+      "sourcePageUrl": "https://iai.buaa.edu.cn/szdw.htm",
+      "officialRosterUrl": "https://iai.buaa.edu.cn/szdw.htm",
+      "profileChecked": true,
+      "decision": "include_new_pi",
+      "reason": "官方人工智能学院名录和个人页确认其为教授、副教授、研究员或可独立招生导师；该单位研究主线属于 AI、数据科学及相关智能计算范围。",
+      "evidenceUrl": "https://iai.buaa.edu.cn/info/1013/1122.htm",
+      "evidenceExcerpt": "师资队伍 研究方向：深度神经网络基础模块与架构、训练技术以及理论分析方面，以及多模态大模型。 2.科研成果： （1）论文发表：发表CVPR、ICML、NeurIPS等CCF A类会议和TPAMI、IJCV等 CCF A类期刊 30余篇，包括CVPR/ECCV Oral、NeurIPS Spotlight论文5篇，Google 学术引用总计3700余次。 （2）科研项目：主持国家科技创新20"
+    },
+    {
+      "officialId": "9aaaa8c09b7a4eab",
+      "name": "化永朝",
+      "title": null,
+      "officialSections": [
+        "师资队伍"
+      ],
+      "profileUrl": "https://iai.buaa.edu.cn/info/1013/1121.htm",
+      "portraitUrl": "https://iai.buaa.edu.cn/__local/2/AA/B5/8BF37EFA9F68D57E8A9965E1A88_C2EFA62F_7D0C3.jpg",
+      "sourcePageUrl": "https://iai.buaa.edu.cn/szdw.htm",
+      "officialRosterUrl": "https://iai.buaa.edu.cn/szdw.htm",
+      "profileChecked": true,
+      "decision": "include_new_pi",
+      "reason": "官方人工智能学院名录和个人页确认其为教授、副教授、研究员或可独立招生导师；该单位研究主线属于 AI、数据科学及相关智能计算范围。",
+      "evidenceUrl": "https://iai.buaa.edu.cn/info/1013/1121.htm",
+      "evidenceExcerpt": "师资队伍 研究方向：无人集群智能协同控制、智能决策规划、分布式优化与博弈等。 2.科研成果： （1）论文著作情况：在IEEE TAC、Automatica、IEEE TCYB等知名SCI期刊发表学术论文40余篇，出版Taylor & Francis英文专著1本，博士论文入选中国指挥与控制学会优秀博士学位论文、北航校级优秀博士学位论文，获3项IEEE和IFAC国际会议最佳论文奖及提名奖。 （2）主持项目情况："
+    },
+    {
+      "officialId": "09f5958fe32c16a4",
+      "name": "潘成伟",
+      "title": null,
+      "officialSections": [
+        "师资队伍"
+      ],
+      "profileUrl": "https://iai.buaa.edu.cn/info/1013/1123.htm",
+      "portraitUrl": "https://iai.buaa.edu.cn/__local/5/92/3F/B28146BC78D103C167CFD52040B_3DAC613E_13C73.jpg",
+      "sourcePageUrl": "https://iai.buaa.edu.cn/szdw.htm",
+      "officialRosterUrl": "https://iai.buaa.edu.cn/szdw.htm",
+      "profileChecked": true,
+      "decision": "include_new_pi",
+      "reason": "官方人工智能学院名录和个人页确认其为教授、副教授、研究员或可独立招生导师；该单位研究主线属于 AI、数据科学及相关智能计算范围。",
+      "evidenceUrl": "https://iai.buaa.edu.cn/info/1013/1123.htm",
+      "evidenceExcerpt": "师资队伍 研究方向：智能感知、计算机视觉、三维重建、医学图像分析与处理、大模型应用与安全 2.科研成果： （1）论文发表：在Science Robotics、Nature Communications、the Lancet Digital Health、npj Digital Medicine等国际顶级期刊以及CVPR、ICCV、AAAI、ACM MM、ICML等CCF A类会议上发表"
+    },
+    {
+      "officialId": "ab2ec8c9b4eb3e01",
+      "name": "邹孝付",
+      "title": null,
+      "officialSections": [
+        "师资队伍"
+      ],
+      "profileUrl": "https://iai.buaa.edu.cn/info/1013/1603.htm",
+      "portraitUrl": "https://iai.buaa.edu.cn/__local/C/D9/92/ABE53C5381FAE1DB0538715988C_7AB65393_973B.jpg",
+      "sourcePageUrl": "https://iai.buaa.edu.cn/szdw.htm",
+      "officialRosterUrl": "https://iai.buaa.edu.cn/szdw.htm",
+      "profileChecked": true,
+      "decision": "include_new_pi",
+      "reason": "官方人工智能学院名录和个人页确认其为教授、副教授、研究员或可独立招生导师；该单位研究主线属于 AI、数据科学及相关智能计算范围。",
+      "evidenceUrl": "https://iai.buaa.edu.cn/info/1013/1603.htm",
+      "evidenceExcerpt": "师资队伍 研究方向：数据驱动的智能制造、数字孪生。 2.科研成果： （1）论文著作情况： 发表学术论文11篇。 （2）主持项目情况：围绕数据的采集-传输-处理-使用，开展基于FPGA/SoC的硬件并行、动态重构、异构多核研究，进行算法软硬一体化设计、程控器/决策处理器研发以及地面测试装置研制，承担多项航空航天课题，成果应用于航天一院/五院、中国兵器等航天院所；开展数字孪生管控运维系统研发与落地应用，成果已"
+    },
+    {
+      "officialId": "a3e0b4eb4f85231e",
+      "name": "杨鸿宇",
+      "title": null,
+      "officialSections": [
+        "师资队伍"
+      ],
+      "profileUrl": "https://iai.buaa.edu.cn/info/1013/1513.htm",
+      "portraitUrl": "https://iai.buaa.edu.cn/__local/7/DC/B0/E92A2932B2E9C333A415340E4B4_CB88E83C_8A5E.jpg",
+      "sourcePageUrl": "https://iai.buaa.edu.cn/szdw.htm",
+      "officialRosterUrl": "https://iai.buaa.edu.cn/szdw.htm",
+      "profileChecked": true,
+      "decision": "excluded_non_ai_cs",
+      "reason": "已检查官方个人页及名录字段，公开研究主线未显示 AI、NLP、CV、ML、数据智能、机器人或本图谱紧密相邻方向。",
+      "evidenceUrl": "https://iai.buaa.edu.cn/info/1013/1513.htm",
+      "evidenceExcerpt": "师资队伍"
+    },
+    {
+      "officialId": "e690e47757efbf0e",
+      "name": "杨一帆",
+      "title": null,
+      "officialSections": [
+        "师资队伍"
+      ],
+      "profileUrl": "https://iai.buaa.edu.cn/info/1013/1170.htm",
+      "portraitUrl": "https://iai.buaa.edu.cn/__local/4/31/43/7CADD9C30744CFFD577C48C0DDD_41B52B99_BD74D.jpg",
+      "sourcePageUrl": "https://iai.buaa.edu.cn/szdw.htm",
+      "officialRosterUrl": "https://iai.buaa.edu.cn/szdw.htm",
+      "profileChecked": false,
+      "decision": "excluded_insufficient_scope_evidence",
+      "reason": "官方名录提供个人页，但页面无法解析出足够的研究方向与独立 PI 证据；本轮按证据门槛不纳入，而非推断为非 AI/CS 或非 PI。",
+      "evidenceUrl": "https://iai.buaa.edu.cn/szdw.htm",
+      "evidenceExcerpt": "师资队伍"
+    },
+    {
+      "officialId": "cb15dddf72fb8f3e",
+      "name": "季梦奇",
+      "title": null,
+      "officialSections": [
+        "师资队伍"
+      ],
+      "profileUrl": "https://iai.buaa.edu.cn/info/1013/1581.htm",
+      "portraitUrl": "https://iai.buaa.edu.cn/__local/6/18/42/3B6419587CDE5D447553BF6AFE5_CC36DD41_34FAC.png",
+      "sourcePageUrl": "https://iai.buaa.edu.cn/szdw.htm",
+      "officialRosterUrl": "https://iai.buaa.edu.cn/szdw.htm",
+      "profileChecked": true,
+      "decision": "include_new_pi",
+      "reason": "官方人工智能学院名录和个人页确认其为教授、副教授、研究员或可独立招生导师；该单位研究主线属于 AI、数据科学及相关智能计算范围。",
+      "evidenceUrl": "https://iai.buaa.edu.cn/info/1013/1581.htm",
+      "evidenceExcerpt": "师资队伍 研究领域：智能感知、立体视觉 2.科研成果： （1）论文著作情况： 围绕光场计算重建领域的前沿基础问题开展多年研究，针对大基线角及非均匀动态散射等对光场重建带来的难题，提出了多维光场隐式编码技术、物理表面跨模态融合感知等原创方法，突破了对稠密观测与强标注的双重依赖，领域专家IEEE/ACM Fellow Ravi Ramamoorthi、马尔奖得主Luc Van Gool等文"
+    },
+    {
+      "officialId": "26b7de385536d9a4",
+      "name": "郭凯",
+      "title": null,
+      "officialSections": [
+        "师资队伍"
+      ],
+      "profileUrl": "https://iai.buaa.edu.cn/info/1013/1671.htm",
+      "portraitUrl": "https://iai.buaa.edu.cn/__local/D/26/18/4F0B2C3A7D8C9F5FA2AF2E1B24D_C6535BA3_117CE.jpg",
+      "sourcePageUrl": "https://iai.buaa.edu.cn/szdw.htm",
+      "officialRosterUrl": "https://iai.buaa.edu.cn/szdw.htm",
+      "profileChecked": false,
+      "decision": "excluded_insufficient_scope_evidence",
+      "reason": "官方名录提供个人页，但页面无法解析出足够的研究方向与独立 PI 证据；本轮按证据门槛不纳入，而非推断为非 AI/CS 或非 PI。",
+      "evidenceUrl": "https://iai.buaa.edu.cn/szdw.htm",
+      "evidenceExcerpt": "师资队伍"
+    },
+    {
+      "officialId": "7f7093596e585a29",
+      "name": "胡堃",
+      "title": null,
+      "officialSections": [
+        "师资队伍"
+      ],
+      "profileUrl": "https://iai.buaa.edu.cn/info/1013/1794.htm",
+      "portraitUrl": "https://iai.buaa.edu.cn/__local/3/0F/4D/CB860BD9EE2CD9817EA0F3F0E11_8D364B2D_237CB.jpg",
+      "sourcePageUrl": "https://iai.buaa.edu.cn/szdw.htm",
+      "officialRosterUrl": "https://iai.buaa.edu.cn/szdw.htm",
+      "profileChecked": true,
+      "decision": "include_new_pi",
+      "reason": "官方人工智能学院名录和个人页确认其为教授、副教授、研究员或可独立招生导师；该单位研究主线属于 AI、数据科学及相关智能计算范围。",
+      "evidenceUrl": "https://iai.buaa.edu.cn/info/1013/1794.htm",
+      "evidenceExcerpt": "师资队伍 研究方向为：多源遥感数据精准智能处理、计算机视觉与人工智能应用。具体包括：多平台（卫星/无人机/车载/地面设备等）多载荷（可见光/红外/合成孔径雷达/激光雷达等）系统定标、数据预处理、高级产品生产、质量评价、多源信息融合、目标检测识别、影像分类分割、智慧城市三维重建、环境监测与态势感知等。 2.科研成果： （1）主持项目情况：曾主持国家自然科学基金、北京市自然科学基金、自然资源部国土卫星遥感应用重点实验室"
+    },
+    {
+      "officialId": "ce4482198f0b5448",
+      "name": "姚望",
+      "title": null,
+      "officialSections": [
+        "师资队伍"
+      ],
+      "profileUrl": "https://iai.buaa.edu.cn/info/1013/1223.htm",
+      "portraitUrl": "https://iai.buaa.edu.cn/__local/F/2C/B5/06B368F0B5B10CCDDF1E9EF1B32_C8ADEB4B_12835.jpg",
+      "sourcePageUrl": "https://iai.buaa.edu.cn/szdw.htm",
+      "officialRosterUrl": "https://iai.buaa.edu.cn/szdw.htm",
+      "profileChecked": true,
+      "decision": "include_new_pi",
+      "reason": "官方人工智能学院名录和个人页确认其为教授、副教授、研究员或可独立招生导师；该单位研究主线属于 AI、数据科学及相关智能计算范围。",
+      "evidenceUrl": "https://iai.buaa.edu.cn/info/1013/1223.htm",
+      "evidenceExcerpt": "师资队伍 研究方向：主要从事博弈智能与智能安全方向的研究工作。 2.科研成果：主持国家级项目或重点项目课题等四项，参研科技创新2030、国家重点研发计划等多项国家级重大重点项目，在IEEE Transactions on Automation Science and Engineering、IEEE Transactions on Network Science and Engineering"
+    },
+    {
+      "officialId": "a318bfcd40b47e08",
+      "name": "邱望洁",
+      "title": null,
+      "officialSections": [
+        "师资队伍"
+      ],
+      "profileUrl": "https://iai.buaa.edu.cn/info/1013/2685.htm",
+      "portraitUrl": "https://iai.buaa.edu.cn/__local/0/73/BD/6FA548338F9013BBC57F58504FB_661F9915_A6B6.jpg",
+      "sourcePageUrl": "https://iai.buaa.edu.cn/szdw.htm",
+      "officialRosterUrl": "https://iai.buaa.edu.cn/szdw.htm",
+      "profileChecked": true,
+      "decision": "excluded_non_ai_cs",
+      "reason": "已检查官方个人页及名录字段，公开研究主线未显示 AI、NLP、CV、ML、数据智能、机器人或本图谱紧密相邻方向。",
+      "evidenceUrl": "https://iai.buaa.edu.cn/info/1013/2685.htm",
+      "evidenceExcerpt": "研究方向：主要从事信息安全、区块链、隐私计算等新一代信息技术及交叉领域的研究。 2.科研成果： （1）论文著作：在国际期刊和会议上共发表数十篇高水平学术论文，申请发明专利30余项，撰写区块链团体标准4项，曾获2014年度国家技术发明一等奖，2012年度国防技术发明一等奖。主持或参与国家重点研发计划等重大科研项目十余项。 （2）项目情况：作为核心成员创立了动力学密码—基于代数和动力学融合的密码分析原理和方法及相关的网络安全系统，突破空天信息安全高速、低耗、异构多模式等关键技术瓶颈；以动力系统时空演化基础理论为指导思想，首次构建了动态自适应的区块链框架，实现了多元约束耦合下区块链系统的动态自适应寻优机制，作为创始团队研发成功全球首创、自主可控区块链软硬一体技术体系——长安链（全球最大的开源联盟链），国内首个城市级区块链底层操作系统——雄安链，并应用于财税领域数字函证、卫星互联网、分布式能源互联网、金融场外交易平台、农牧智慧供应链、大型建筑类央企供应链金融等重点领域规模应用。 ★教育教学 2013年于北航数学学院获得理学博士学位，2008年于北航理学院获得学士学位，曾任职于教育部某直属事业单"
+    },
+    {
+      "officialId": "6412ac331efd306e",
+      "name": "张慧铭",
+      "title": null,
+      "officialSections": [
+        "师资队伍"
+      ],
+      "profileUrl": "https://iai.buaa.edu.cn/info/1013/2429.htm",
+      "portraitUrl": "https://iai.buaa.edu.cn/__local/B/E6/27/AD2FFF5D366A80E2B2AC6170B69_66A94079_DDB42.jpg",
+      "sourcePageUrl": "https://iai.buaa.edu.cn/szdw.htm",
+      "officialRosterUrl": "https://iai.buaa.edu.cn/szdw.htm",
+      "profileChecked": true,
+      "decision": "include_new_pi",
+      "reason": "官方人工智能学院名录和个人页确认其为教授、副教授、研究员或可独立招生导师；该单位研究主线属于 AI、数据科学及相关智能计算范围。",
+      "evidenceUrl": "https://iai.buaa.edu.cn/info/1013/2429.htm",
+      "evidenceExcerpt": "师资队伍 研究方向：高维概率统计、稳健估计、机器学习与深度学习理论、函数型数据、无穷可分分布等。 2.科研成果： （1）论文著作情况：发表SCI论文20篇(包括机器学习与人工智能顶刊JMLR；统计顶刊JASA,Biometrika；精算数学顶刊IME、统计与数学主流刊Statistica Sinica, Journal of Complexity, Stat等；谷歌学术引用超400次，见scholar.goo"
+    },
+    {
+      "officialId": "e4c0b9967786de8d",
+      "name": "​石荣晔",
+      "title": null,
+      "officialSections": [
+        "师资队伍"
+      ],
+      "profileUrl": "https://iai.buaa.edu.cn/info/1013/2261.htm",
+      "portraitUrl": "https://iai.buaa.edu.cn/__local/A/17/14/104B3FFB614B3D07ABF1D15B3A5_4CB17DAC_1B709.jpg",
+      "sourcePageUrl": "https://iai.buaa.edu.cn/szdw.htm",
+      "officialRosterUrl": "https://iai.buaa.edu.cn/szdw.htm",
+      "profileChecked": true,
+      "decision": "include_new_pi",
+      "reason": "官方人工智能学院名录和个人页确认其为教授、副教授、研究员或可独立招生导师；该单位研究主线属于 AI、数据科学及相关智能计算范围。",
+      "evidenceUrl": "https://iai.buaa.edu.cn/info/1013/2261.htm",
+      "evidenceExcerpt": "师资队伍 研究方向： 长期从事领域知识内嵌人工智能算法方面的研究，在物理信息神经网络、多智能体系统、强化学习及其在智慧城市领域的应用等方面开展了许多工作，以“领域知识+人工智能”为创新导向，从数据效率、可解释性、可拓展性等维度解决人工智能在智慧城市场景中融合深度不足、应用广度受限的问题。 2. 科研成果： （1）论文著作情况：发表SCI/EI学术论文50余篇，多篇以第一作者或通讯作者身份发表在AAAI、IC"
+    },
+    {
+      "officialId": "d27bcc73cb948616",
+      "name": "孙超",
+      "title": null,
+      "officialSections": [
+        "师资队伍"
+      ],
+      "profileUrl": "https://iai.buaa.edu.cn/info/1013/2254.htm",
+      "portraitUrl": "https://iai.buaa.edu.cn/__local/8/DE/43/01CA6EB3C35FD54C2D8000FCE91_A66D7C02_15E66.jpg",
+      "sourcePageUrl": "https://iai.buaa.edu.cn/szdw.htm",
+      "officialRosterUrl": "https://iai.buaa.edu.cn/szdw.htm",
+      "profileChecked": false,
+      "decision": "excluded_insufficient_scope_evidence",
+      "reason": "官方名录提供个人页，但页面无法解析出足够的研究方向与独立 PI 证据；本轮按证据门槛不纳入，而非推断为非 AI/CS 或非 PI。",
+      "evidenceUrl": "https://iai.buaa.edu.cn/szdw.htm",
+      "evidenceExcerpt": "师资队伍"
+    },
+    {
+      "officialId": "db5d81100095885b",
+      "name": "张海楠",
+      "title": null,
+      "officialSections": [
+        "师资队伍"
+      ],
+      "profileUrl": "https://iai.buaa.edu.cn/info/1013/2687.htm",
+      "portraitUrl": "https://iai.buaa.edu.cn/__local/0/F0/F5/EA413B743E38AE692D933B19C03_8CDBC9A5_4109A.jpg",
+      "sourcePageUrl": "https://iai.buaa.edu.cn/szdw.htm",
+      "officialRosterUrl": "https://iai.buaa.edu.cn/szdw.htm",
+      "profileChecked": true,
+      "decision": "include_new_pi",
+      "reason": "官方人工智能学院名录和个人页确认其为教授、副教授、研究员或可独立招生导师；该单位研究主线属于 AI、数据科学及相关智能计算范围。",
+      "evidenceUrl": "https://iai.buaa.edu.cn/info/1013/2687.htm",
+      "evidenceExcerpt": "师资队伍 研究方向：大语言模型、持续学习、幻觉抑制、隐私计算、RAG等。 2.科研成果： （1）项目情况：承担科技部国家重点研发计划、国家自然科学基金等项目；主持多项互联网企业科技创新合作项目，如百度、京东、小红书和美团等。 （2）论文著作：在包括ACL、WWW、SIGIR、AAAI等国际学术会议和期刊上，发表论文30余篇(CCF A类论文20余篇)，申请国家发明专利10余项，获AAAI"
+    },
+    {
+      "officialId": "bff264ec46d9cfb7",
+      "name": "马宇晴",
+      "title": null,
+      "officialSections": [
+        "师资队伍"
+      ],
+      "profileUrl": "https://iai.buaa.edu.cn/info/1013/2689.htm",
+      "portraitUrl": "https://iai.buaa.edu.cn/__local/E/C9/35/3256C5D3B4DE5F921ABB7211ECF_8EB80319_E6A3E.jpg",
+      "sourcePageUrl": "https://iai.buaa.edu.cn/szdw.htm",
+      "officialRosterUrl": "https://iai.buaa.edu.cn/szdw.htm",
+      "profileChecked": true,
+      "decision": "include_new_pi",
+      "reason": "官方人工智能学院名录和个人页确认其为教授、副教授、研究员或可独立招生导师；该单位研究主线属于 AI、数据科学及相关智能计算范围。",
+      "evidenceUrl": "https://iai.buaa.edu.cn/info/1013/2689.htm",
+      "evidenceExcerpt": "师资队伍 研究方向：多模态大模型安全对齐、智能体推理、智能医疗 2. 科研成果： （1）论文著作情况：在人工智能领域国际顶级期刊/会议（如NeurIPS、ICML、ICLR、CVPR、ACL、WWW、AAAI、EMNLP、《中国科学：信息科学》、IEEE TNNLS、IEEE TCYB、IEEE TIP等）发表论文50余篇，申请专利20余项、授权9项。 （2）主持项目情况：作为负责人承担国"
+    },
+    {
+      "officialId": "cad3d0f84c9b2f24",
+      "name": "王子玮",
+      "title": null,
+      "officialSections": [
+        "师资队伍"
+      ],
+      "profileUrl": "https://iai.buaa.edu.cn/info/1013/2993.htm",
+      "portraitUrl": "https://iai.buaa.edu.cn/__local/E/92/6C/F54AAE17899D4410DB6ADB20ADD_AB298BBB_FA24.jpg",
+      "sourcePageUrl": "https://iai.buaa.edu.cn/szdw.htm",
+      "officialRosterUrl": "https://iai.buaa.edu.cn/szdw.htm",
+      "profileChecked": true,
+      "decision": "include_new_pi",
+      "reason": "官方人工智能学院名录和个人页确认其为教授、副教授、研究员或可独立招生导师；该单位研究主线属于 AI、数据科学及相关智能计算范围。",
+      "evidenceUrl": "https://iai.buaa.edu.cn/info/1013/2993.htm",
+      "evidenceExcerpt": "师资队伍 研究方向：从事分布式信号处理、辅助决策等方面研究，并在无人系统反制（碰撞+电子对抗）、作战模拟（兵棋、仿真等）、信息与情报处理等取得成果及落地应用。 2.主持项目：主持多项国家级重大科研与工程项目，研制的无人系统反制软硬件、作战模拟相关系统、情报采集与处理平台及国产硬件智能计算处理器等成果已在多家单位部署应用。 3.成果发表及奖励 成果在CVPR、TWC、TAES等多个顶级期刊发表，获得IEEE国际会议最佳论文奖励，带"
+    },
+    {
+      "officialId": "f303762b9bbdd773",
+      "name": "闫芮",
+      "title": null,
+      "officialSections": [
+        "师资队伍"
+      ],
+      "profileUrl": "https://iai.buaa.edu.cn/info/1013/3595.htm",
+      "portraitUrl": "https://iai.buaa.edu.cn/__local/6/7D/40/7E3EBA6E9CE2AE3F7FAABA4AA4F_A81DBDAB_24DDD.png",
+      "sourcePageUrl": "https://iai.buaa.edu.cn/szdw.htm",
+      "officialRosterUrl": "https://iai.buaa.edu.cn/szdw.htm",
+      "profileChecked": true,
+      "decision": "include_new_pi",
+      "reason": "官方人工智能学院名录和个人页确认其为教授、副教授、研究员或可独立招生导师；该单位研究主线属于 AI、数据科学及相关智能计算范围。",
+      "evidenceUrl": "https://iai.buaa.edu.cn/info/1013/3595.htm",
+      "evidenceExcerpt": "师资队伍 研究方向： 长期从事无人集群智能博弈与强化学习的基础理论与应用研究，包括无人集群攻防微分博弈、大模型决策规划、多智能体强化学习、神经符号混合博弈等。 2 . 研究成果 在 IEEE TAC 、 Automatica 、 IEEE TRO 等发表学术论文 40 余篇。主持国自然优秀青年（海外）项目、国自然面上项目、国家级某专项青年项目、国家级某领域基金项目、全国重点实验室基金、教育部重点实验室基金等项目。"
+    },
+    {
+      "officialId": "9823fe18ab4c1506",
+      "name": "霍冠英",
+      "title": null,
+      "officialSections": [
+        "师资队伍"
+      ],
+      "profileUrl": "https://iai.buaa.edu.cn/info/1013/1639.htm",
+      "portraitUrl": "https://iai.buaa.edu.cn/__local/4/BD/70/63D402B2BA04B7E6A753D6C3CFA_08413841_F58F.jpg",
+      "sourcePageUrl": "https://iai.buaa.edu.cn/szdw.htm",
+      "officialRosterUrl": "https://iai.buaa.edu.cn/szdw.htm",
+      "profileChecked": true,
+      "decision": "excluded_non_ai_cs",
+      "reason": "已检查官方个人页及名录字段，公开研究主线未显示 AI、NLP、CV、ML、数据智能、机器人或本图谱紧密相邻方向。",
+      "evidenceUrl": "https://iai.buaa.edu.cn/info/1013/1639.htm",
+      "evidenceExcerpt": "研究方向：CAM-CNC深度融合的自由曲面智能加工方法以及数据驱动的加工过程建模与分析技术 2. 科研成果： （1）论文著作情况：在RCIM、JMP、CAD等智能制造领域顶级期刊发表论文30余篇，受到德国MTU Aero Engines公司Merchel教授、美国精密工程学会董事Leach教授、CIRP主席房丰洲院士、上交丁汉院士团队、大工郭东明院士团队等广泛引用，流线型轨迹规划工作被评价为“现代加工最重要方法之一”，加工稳定性判别工作被评价为“为工厂实现加工工艺优化提供重要指导”。 （2）主持项目情况：主持/参与国自然重大/面上/青年、国家重点研发、工程院咨询等项目10余项。 3. 其他荣誉：曾获全国大学生数学竞赛数学类一等奖（全国共15位），教育部博士研究生国家奖学金，北京市优秀毕业生等。 ★教育教学 1. 授课情况：《微分几何》、《几何建模与处理》、《智能几何计算的工程应用与实践》 ★联系方式 电子邮箱：gyhuo@buaa.edu.cn 【 关闭 】 友情链接 教育部 科学技术部 工业和信息化部 国家自然科学基金委员会 北京航空航天大学 联系我们 地址：北京市海淀区学院路37号"
+    },
+    {
+      "officialId": "ec1c1c607b5d9a52",
+      "name": "王健男",
+      "title": null,
+      "officialSections": [
+        "师资队伍"
+      ],
+      "profileUrl": "https://iai.buaa.edu.cn/info/1013/1640.htm",
+      "portraitUrl": "https://iai.buaa.edu.cn/__local/2/C9/1D/EE40652C7B0EC24A72CCF49E522_D26C5427_1E7B9.jpg",
+      "sourcePageUrl": "https://iai.buaa.edu.cn/szdw.htm",
+      "officialRosterUrl": "https://iai.buaa.edu.cn/szdw.htm",
+      "profileChecked": true,
+      "decision": "excluded_non_ai_cs",
+      "reason": "已检查官方个人页及名录字段，公开研究主线未显示 AI、NLP、CV、ML、数据智能、机器人或本图谱紧密相邻方向。",
+      "evidenceUrl": "https://iai.buaa.edu.cn/info/1013/1640.htm",
+      "evidenceExcerpt": "研究方向： 复杂网络渗流与传播动力学相关理论研究 2.科研成果： （1）论文著作情况： 相关成果在Physical Review E, Chaos, New Journal of Physics等期刊上发表 （2）主持项目情况： 主持国家自然科学基金青年基金项目，先后参与国家自然科学基金原创探索项目和科技部重点研发计划等课题 。 ★ 教育教学 教育背景： 2014年毕业于北京航空航天大学华罗庚理科实验班，获理学学士学位，2019年毕业于北京航空航天大学数学与系统科学学院，获理学博士学位。 ★联系方式 电子邮箱：wangjiannan@buaa.edu.cn 【 关闭 】 友情链接 教育部 科学技术部 工业和信息化部 国家自然科学基金委员会 北京航空航天大学 联系我们 地址：北京市海淀区学院路37号 邮编：100083 邮箱：IAI@buaa.edu.cn 版权所有 © 北京航空航天大学人工智能学院 京ICP备05004617-3 微信公众号 教育背景： 2014年毕业于北京航空航天大学华罗庚理科实验班，获理学学士学位，2019年毕业于北京航空航天大学数学与系统科学学院，获理学博士学位。"
+    },
+    {
+      "officialId": "ce7613b5d02e3ce7",
+      "name": "吴发国",
+      "title": null,
+      "officialSections": [
+        "师资队伍"
+      ],
+      "profileUrl": "https://iai.buaa.edu.cn/info/1013/1641.htm",
+      "portraitUrl": "https://iai.buaa.edu.cn/__local/1/94/00/A65E08209D3DEEC57C05B8B68A7_85107D9B_1224D.jpg",
+      "sourcePageUrl": "https://iai.buaa.edu.cn/szdw.htm",
+      "officialRosterUrl": "https://iai.buaa.edu.cn/szdw.htm",
+      "profileChecked": true,
+      "decision": "include_new_pi",
+      "reason": "官方人工智能学院名录和个人页确认其为教授、副教授、研究员或可独立招生导师；该单位研究主线属于 AI、数据科学及相关智能计算范围。",
+      "evidenceUrl": "https://iai.buaa.edu.cn/info/1013/1641.htm",
+      "evidenceExcerpt": "师资队伍 研究方向：主要从事博弈智能、可信智能方向的研究工作 2.科研成果： （1）论文著作情况：在国际知名期刊及会议发表论文20余篇，授权国家发明专利7项 （2）主持项目情况：主持/参与某智能重大专项数学主题项目、科技部科技创新2030重大项目旗舰项目等国家级重大重点项目 3.其他荣誉：国际会议杰出论文奖，担任多个国际学术会议的程序委员会委员，多个国际学术期刊的客座编辑 ★ 教育教学 1.主"
+    },
+    {
+      "officialId": "9d7ddf7a71ba7dc3",
+      "name": "张娟",
+      "title": null,
+      "officialSections": [
+        "师资队伍"
+      ],
+      "profileUrl": "https://iai.buaa.edu.cn/info/1013/1101.htm",
+      "portraitUrl": "https://iai.buaa.edu.cn/__local/4/D9/CE/89F05897C07FA73B3985A4B79C8_800E289B_12A9C.jpg",
+      "sourcePageUrl": "https://iai.buaa.edu.cn/szdw.htm",
+      "officialRosterUrl": "https://iai.buaa.edu.cn/szdw.htm",
+      "profileChecked": true,
+      "decision": "include_new_pi",
+      "reason": "官方人工智能学院名录和个人页确认其为教授、副教授、研究员或可独立招生导师；该单位研究主线属于 AI、数据科学及相关智能计算范围。",
+      "evidenceUrl": "https://iai.buaa.edu.cn/info/1013/1101.htm",
+      "evidenceExcerpt": "师资队伍 研究方向： 人工智能与复杂系统建模、AI4Science、Science4AI。面向聚变能源、智能感知等国家重大需求，从事内嵌数理理论的人工智能方法研究，提出了数据与机理融合驱动的方程反演、物理场生成等模型与方法，相关成果发表于Nature子刊、Energy、IJCV、ECCV、CHAOS SOLITON FRACT、Neurocomputing、NIPS等领域代表性期刊。 2"
+    },
+    {
+      "officialId": "c3d9ae38e1c4a775",
+      "name": "殷子樵",
+      "title": null,
+      "officialSections": [
+        "师资队伍"
+      ],
+      "profileUrl": "https://iai.buaa.edu.cn/info/1013/1381.htm",
+      "portraitUrl": "https://iai.buaa.edu.cn/__local/E/D7/E8/2782AC63B90F86410EFBF12822B_8009C24E_2D0DD.jpg",
+      "sourcePageUrl": "https://iai.buaa.edu.cn/szdw.htm",
+      "officialRosterUrl": "https://iai.buaa.edu.cn/szdw.htm",
+      "profileChecked": true,
+      "decision": "include_new_pi",
+      "reason": "官方人工智能学院名录和个人页确认其为教授、副教授、研究员或可独立招生导师；该单位研究主线属于 AI、数据科学及相关智能计算范围。",
+      "evidenceUrl": "https://iai.buaa.edu.cn/info/1013/1381.htm",
+      "evidenceExcerpt": "。提出基因饱和度、DReSS等多项表征度量，对复杂生物系统的建模及拓扑分析具有指导意义。尝试将复杂生物系统的演化规律归纳为内嵌数理规律，实现群体智能体系的自适应结构调节。 2.科研成果： 论文著作情况：已发表国内外期刊、会议论文11篇。 3.其他荣誉：连续5年担任北航数学建模竞赛校内领队，现任北航数学建模竞赛指导教师。曾获北航“五四奖章”，北航榜样。 ★ 教育教学 教育背景：2016年本科毕业于北京航空航天大学数学与系统科学学院华罗庚班。2021年博士毕业于北京航空航天大学数学科学学院。2019年至20"
+    },
+    {
+      "officialId": "d86984fc3faf13be",
+      "name": "刘龙招",
+      "title": null,
+      "officialSections": [
+        "师资队伍"
+      ],
+      "profileUrl": "https://iai.buaa.edu.cn/info/1013/1514.htm",
+      "portraitUrl": "https://iai.buaa.edu.cn/__local/C/7A/EE/2E1754130CA2DCF07E1DD83CBD3_C73CF54F_14AB4.jpg",
+      "sourcePageUrl": "https://iai.buaa.edu.cn/szdw.htm",
+      "officialRosterUrl": "https://iai.buaa.edu.cn/szdw.htm",
+      "profileChecked": true,
+      "decision": "include_new_pi",
+      "reason": "官方人工智能学院名录和个人页确认其为教授、副教授、研究员或可独立招生导师；该单位研究主线属于 AI、数据科学及相关智能计算范围。",
+      "evidenceUrl": "https://iai.buaa.edu.cn/info/1013/1514.htm",
+      "evidenceExcerpt": "师资队伍 研究方向： 复杂系统、网络科学、群体行为与观念演化、群体智能、传播动力学等，主要探索系统内嵌的微观动力学原理，并据此解释和干预复杂系统中宏观现象的涌现，比如，研究群体行为（智能）涌现与个体交互机理间的动力学关联。 2.科研成果： 论文著作情况： 在New J. Phys., J. Stat. Mech.-Theory Exp.等期刊上发表6篇SCI论文。 ★ 教育教学 教育背景：本科和博士均毕业于北京航空航天大学数学"
+    },
+    {
+      "officialId": "368a3833ae972ee7",
+      "name": "王鑫",
+      "title": null,
+      "officialSections": [
+        "师资队伍"
+      ],
+      "profileUrl": "https://iai.buaa.edu.cn/info/1013/1531.htm",
+      "portraitUrl": "https://iai.buaa.edu.cn/__local/E/E4/48/6DD059420B3476D19D47C123FD4_6403A0C6_9E9A.jpg",
+      "sourcePageUrl": "https://iai.buaa.edu.cn/szdw.htm",
+      "officialRosterUrl": "https://iai.buaa.edu.cn/szdw.htm",
+      "profileChecked": true,
+      "decision": "include_new_pi",
+      "reason": "官方人工智能学院名录和个人页确认其为教授、副教授、研究员或可独立招生导师；该单位研究主线属于 AI、数据科学及相关智能计算范围。",
+      "evidenceUrl": "https://iai.buaa.edu.cn/info/1013/1531.htm",
+      "evidenceExcerpt": "师资队伍 研究方向： 大数据与复杂社会系统、群体智能、脑科学与人工智能等。 2.科研成果： （1）论文著作情况： 在Physical Review X、Nature Communications等知名期刊发表SCI论文20余篇。成果获PRX Highlights Paper、EPL 2019 Highlights Paper、Chaos Editor's Pick，被美国科学院院刊亮点工作推荐栏目PNAS J"
+    },
+    {
+      "officialId": "049be5a939ea3cf9",
+      "name": "牛广林",
+      "title": null,
+      "officialSections": [
+        "师资队伍"
+      ],
+      "profileUrl": "https://iai.buaa.edu.cn/info/1013/2171.htm",
+      "portraitUrl": "https://iai.buaa.edu.cn/__local/F/C6/71/EA5564B14EAC1D75114F60E62A2_E353BADA_9615.jpg",
+      "sourcePageUrl": "https://iai.buaa.edu.cn/szdw.htm",
+      "officialRosterUrl": "https://iai.buaa.edu.cn/szdw.htm",
+      "profileChecked": true,
+      "decision": "include_new_pi",
+      "reason": "官方人工智能学院名录和个人页确认其为教授、副教授、研究员或可独立招生导师；该单位研究主线属于 AI、数据科学及相关智能计算范围。",
+      "evidenceUrl": "https://iai.buaa.edu.cn/info/1013/2171.htm",
+      "evidenceExcerpt": "师资队伍 研究方向：规则和常识指导的知识图谱推理、时序知识图谱表示学习、多模态知识图谱构建与应用等，致力于探索数据和知识双轮驱动的人工智能方法。 2.科研成果： （1）论文著作情况：以第一作者在知识图谱领域顶级会议和期刊，包括AAAI、ACL、EMNLP、COLING、SIGIR和Neurocomputing发表多篇论文，其中，针对当前基于知识图谱嵌入的知识图谱推理方法缺乏可解释性的问题，提出了规则引"
+    },
+    {
+      "officialId": "14935dd8da2ee98d",
+      "name": "郭晋阳",
+      "title": null,
+      "officialSections": [
+        "师资队伍"
+      ],
+      "profileUrl": "https://iai.buaa.edu.cn/info/1013/2172.htm",
+      "portraitUrl": "https://iai.buaa.edu.cn/__local/0/8A/3A/7428D79BC0F8EC48DECFCC18984_F2C8EBFA_8A0D9.jpg",
+      "sourcePageUrl": "https://iai.buaa.edu.cn/szdw.htm",
+      "officialRosterUrl": "https://iai.buaa.edu.cn/szdw.htm",
+      "profileChecked": true,
+      "decision": "include_new_pi",
+      "reason": "官方人工智能学院名录和个人页确认其为教授、副教授、研究员或可独立招生导师；该单位研究主线属于 AI、数据科学及相关智能计算范围。",
+      "evidenceUrl": "https://iai.buaa.edu.cn/info/1013/2172.htm",
+      "evidenceExcerpt": "师资队伍 研究方向：高效人工智能、模型轻量化、类脑计算 2.科研成果： （1）论文著作情况：在TPAMI、ICML等国际顶级期刊会议论文60余篇，成果获ICML2025 MAS杰出论文奖、ACM MM2025 RichMediaGAI最佳论文奖。申请专利20余项 （2）主持项目情况：主持或参与国家高层次青年人才项目、科技部2030新一代人工智能重大项目、国自然青年基金等重点课题项目，以及华"
+    },
+    {
+      "officialId": "02aaccdcf3a62aa1",
+      "name": "苏澄",
+      "title": null,
+      "officialSections": [
+        "师资队伍"
+      ],
+      "profileUrl": "https://iai.buaa.edu.cn/info/1013/2733.htm",
+      "portraitUrl": "https://iai.buaa.edu.cn/__local/7/68/0C/BD6B3C03BB82006D95B233371E5_F97762F2_7EE2.jpg",
+      "sourcePageUrl": "https://iai.buaa.edu.cn/szdw.htm",
+      "officialRosterUrl": "https://iai.buaa.edu.cn/szdw.htm",
+      "profileChecked": true,
+      "decision": "include_new_pi",
+      "reason": "官方人工智能学院名录和个人页确认其为教授、副教授、研究员或可独立招生导师；该单位研究主线属于 AI、数据科学及相关智能计算范围。",
+      "evidenceUrl": "https://iai.buaa.edu.cn/info/1013/2733.htm",
+      "evidenceExcerpt": "师资队伍 研究方向：计算几何与人工智能、计算机辅助设计与制造、智能工业软件等领域，目前主要从事以及感兴趣的方向包括：工业软件中的数学方法、智能制造中的数理基础等数学、人工智能与计算机交叉问题。 2.科研成果： （1）论文著作情况：在应用数学、智能制造领域权威期刊CAD、IJAMT、IJPEM等发表SCI期刊/会议论文10余篇，授权国家发明专利10余项，注册软件著作权5项。 （2）主持项目情况：作"
+    },
+    {
+      "officialId": "420be9852d8d547c",
+      "name": "温思嘉",
+      "title": null,
+      "officialSections": [
+        "师资队伍"
+      ],
+      "profileUrl": "https://iai.buaa.edu.cn/info/1013/2688.htm",
+      "portraitUrl": "https://iai.buaa.edu.cn/__local/9/CF/D4/0853C10FBC19A79FC304D378BD6_B3BE9335_280617.jpg",
+      "sourcePageUrl": "https://iai.buaa.edu.cn/szdw.htm",
+      "officialRosterUrl": "https://iai.buaa.edu.cn/szdw.htm",
+      "profileChecked": true,
+      "decision": "include_new_pi",
+      "reason": "官方人工智能学院名录和个人页确认其为教授、副教授、研究员或可独立招生导师；该单位研究主线属于 AI、数据科学及相关智能计算范围。",
+      "evidenceUrl": "https://iai.buaa.edu.cn/info/1013/2688.htm",
+      "evidenceExcerpt": "师资队伍 研究方向：计算机视觉、多模态计算成像、三维视觉、区块链及隐私计算。 2.科研成果： （1）论文著作情况：在IEEE TIP、IEEE TMM、ACM TOG、NeurIPS、AAAI、ACM MM等国际顶级期刊和会议上发表论文19篇。担任CVPR、ICCV、TPAMI、TIP等国际学术期刊会议审稿人。 （2）主持项目情况：主持国家自然科学基金青年基金、北京市自然科学基金联合基金"
+    },
+    {
+      "officialId": "9d0a3fb1abb25e4a",
+      "name": "米志龙",
+      "title": null,
+      "officialSections": [
+        "师资队伍"
+      ],
+      "profileUrl": "https://iai.buaa.edu.cn/info/1013/2686.htm",
+      "portraitUrl": "https://iai.buaa.edu.cn/__local/8/63/F5/4E882F0295CEC727608EB58BDBC_D2D6F03D_18E0DE.jpg",
+      "sourcePageUrl": "https://iai.buaa.edu.cn/szdw.htm",
+      "officialRosterUrl": "https://iai.buaa.edu.cn/szdw.htm",
+      "profileChecked": true,
+      "decision": "include_new_pi",
+      "reason": "官方人工智能学院名录和个人页确认其为教授、副教授、研究员或可独立招生导师；该单位研究主线属于 AI、数据科学及相关智能计算范围。",
+      "evidenceUrl": "https://iai.buaa.edu.cn/info/1013/2686.htm",
+      "evidenceExcerpt": "师资队伍 研究方向：复杂网络、群体智能、隐私计算等数学、信息与生命科学交叉领域研究。研究内容包括疾病溯源分类机制、系统行为稳态模式、系统结构扰动量化、协同效应识别应用等。 2.研究成果： （1）论文著作情况：在 Briefings in Bioinformatics、Royal Society Open Science、BMC Bioinformatics等期刊发表学术论文10余篇。 （2）主持"
+    },
+    {
+      "officialId": "f986a65fdb473cc6",
+      "name": "张沁楠",
+      "title": "博士后",
+      "officialSections": [
+        "博士后"
+      ],
+      "profileUrl": "https://iai.buaa.edu.cn/info/1051/3113.htm",
+      "portraitUrl": "https://iai.buaa.edu.cn/__local/8/88/11/83A97624D58538790849FBCEBFC_62308DFE_164D5B.jpg",
+      "sourcePageUrl": "https://iai.buaa.edu.cn/szdw.htm",
+      "officialRosterUrl": "https://iai.buaa.edu.cn/szdw.htm",
+      "profileChecked": true,
+      "decision": "excluded_non_ai_cs",
+      "reason": "已检查官方个人页及名录字段，公开研究主线未显示 AI、NLP、CV、ML、数据智能、机器人或本图谱紧密相邻方向。",
+      "evidenceUrl": "https://iai.buaa.edu.cn/info/1051/3113.htm",
+      "evidenceExcerpt": "博士后 | 博士后"
+    },
+    {
+      "officialId": "06e9baf2f4be19e8",
+      "name": "杨雅倩",
+      "title": "博士后",
+      "officialSections": [
+        "博士后"
+      ],
+      "profileUrl": "https://iai.buaa.edu.cn/info/1051/3895.htm",
+      "portraitUrl": "https://iai.buaa.edu.cn/__local/E/04/A4/32C3BAF7196417074B9601EA23B_EE5AFA3B_1BA7.jpg",
+      "sourcePageUrl": "https://iai.buaa.edu.cn/szdw.htm",
+      "officialRosterUrl": "https://iai.buaa.edu.cn/szdw.htm",
+      "profileChecked": true,
+      "decision": "excluded_non_pi",
+      "reason": "官方名录职类为行政、实验技术、工程、科研助理、博士后或学生，且个人页未显示独立招生或研究组负责人资格。",
+      "evidenceUrl": "https://iai.buaa.edu.cn/info/1051/3895.htm",
+      "evidenceExcerpt": "博士后 | 博士后 --> 杨雅倩-北京航空航天大学人工智能学院 首页 新闻中心 学院概况 学院介绍 现任领导 行政机构 党群建设 师资队伍 人才培养 学科与科研 合作交流 人才引进 办事指南 采购管理 首页 新闻中心 学院概况 学院介绍 现任领导 行政机构 党群建设 师资队伍 杰出人才 按中心检索 按职称检索 按研究生导师检索 博士后 人才培养 学科与科研 合作"
+    }
+  ]
+}

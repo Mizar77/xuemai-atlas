@@ -1,0 +1,856 @@
+{
+  "completeness": "complete",
+  "fetchedAt": "2026-09-02",
+  "institution": "中山大学人工智能学院",
+  "officialPageUrl": "https://sai.sysu.edu.cn/teachers",
+  "officialDataUrl": "https://sai.sysu.edu.cn/teachers",
+  "officialRosterCount": 62,
+  "officialSectionCardCounts": {
+    "教师名录": 30,
+    "院外研究生导师": 3,
+    "校外行业导师": 29
+  },
+  "overlapAcrossSections": 0,
+  "sourceDescription": "遍历学院师资力量导航中的教师名录、院外研究生导师和校外导师三个官方栏目；均为单页且无分页。校外导师原样保留，后续按仅工业界/非独立PI等规则分类。",
+  "people": [
+    {
+      "officialId": "c4329345e4ceabcc",
+      "name": "郑跃",
+      "officialSections": [
+        "教师名录"
+      ],
+      "title": "教授",
+      "profileUrl": "https://sai.sysu.edu.cn/teacher/597",
+      "portraitUrl": "https://sai.sysu.edu.cn/sites/default/files/styles/image_style_2/public/zheng_yue__0.jpg?itok=nX-De8n1",
+      "officialFields": {
+        "research": "",
+        "alpha": "z"
+      }
+    },
+    {
+      "officialId": "7b50621a08671aff",
+      "name": "李整林",
+      "officialSections": [
+        "教师名录"
+      ],
+      "title": "教授",
+      "profileUrl": "https://sai.sysu.edu.cn/teacher/658",
+      "portraitUrl": "https://sai.sysu.edu.cn/sites/default/files/styles/image_style_2/public/%E6%9D%8E%E6%95%B4%E6%9E%97.png?itok=8dDIL29C",
+      "officialFields": {
+        "research": "人工智能与科学和工程交叉",
+        "alpha": "l"
+      }
+    },
+    {
+      "officialId": "dc3ac420ab94d176",
+      "name": "陈洪波",
+      "officialSections": [
+        "教师名录"
+      ],
+      "title": "教授",
+      "profileUrl": "https://sai.sysu.edu.cn/teacher/659",
+      "portraitUrl": "https://sai.sysu.edu.cn/sites/default/files/styles/image_style_2/public/%E9%99%88%E6%B4%AA%E6%B3%A2.png?itok=UPDDkyIx",
+      "officialFields": {
+        "research": "人工智能与科学和工程交叉",
+        "alpha": "c"
+      }
+    },
+    {
+      "officialId": "0d3aebf55520572d",
+      "name": "蔡铭",
+      "officialSections": [
+        "教师名录"
+      ],
+      "title": "教授",
+      "profileUrl": "https://sai.sysu.edu.cn/teacher/660",
+      "portraitUrl": "https://sai.sysu.edu.cn/sites/default/files/styles/image_style_2/public/%E8%94%A1%E9%93%AD.png?itok=yV0M2-tL",
+      "officialFields": {
+        "research": "机器人与具身智能",
+        "alpha": "c"
+      }
+    },
+    {
+      "officialId": "2e92d5d2e6fead77",
+      "name": "印鉴",
+      "officialSections": [
+        "教师名录"
+      ],
+      "title": "教授",
+      "profileUrl": "https://sai.sysu.edu.cn/teacher/225",
+      "portraitUrl": "https://sai.sysu.edu.cn/sites/default/files/styles/image_style_2/public/%E5%8D%B0%E9%89%B4.jpg?itok=T4tVLg3Z",
+      "officialFields": {
+        "research": "智能基础理论与方法",
+        "alpha": "y"
+      }
+    },
+    {
+      "officialId": "94975332197ca772",
+      "name": "朱炬波",
+      "officialSections": [
+        "教师名录"
+      ],
+      "title": "教授",
+      "profileUrl": "https://sai.sysu.edu.cn/teacher/226",
+      "portraitUrl": "https://sai.sysu.edu.cn/sites/default/files/styles/image_style_2/public/%E6%9C%B1%E7%82%AC%E6%B3%A2.jpg?itok=YIQ9WJzd",
+      "officialFields": {
+        "research": "人工智能与科学和工程交叉",
+        "alpha": "z"
+      }
+    },
+    {
+      "officialId": "d3166c46504cf5b1",
+      "name": "陈梓潼",
+      "officialSections": [
+        "教师名录"
+      ],
+      "title": "助理教授",
+      "profileUrl": "https://sai.sysu.edu.cn/teacher/243",
+      "portraitUrl": "https://sai.sysu.edu.cn/sites/default/files/styles/image_style_2/public/%E9%99%88%E6%A2%93%E6%BD%BC.jpg?itok=nyxfPjoE",
+      "officialFields": {
+        "research": "机器人与具身智能",
+        "alpha": "c"
+      }
+    },
+    {
+      "officialId": "b005c7a9386957bd",
+      "name": "常晓斌",
+      "officialSections": [
+        "教师名录"
+      ],
+      "title": "副教授",
+      "profileUrl": "https://sai.sysu.edu.cn/teacher/227",
+      "portraitUrl": "https://sai.sysu.edu.cn/sites/default/files/styles/image_style_2/public/%E5%B8%B8%E6%99%93%E6%96%8C.jpg?itok=CfZT8FYo",
+      "officialFields": {
+        "research": "智能基础理论与方法",
+        "alpha": "c"
+      }
+    },
+    {
+      "officialId": "d091936109dcf4b2",
+      "name": "陈泽丰",
+      "officialSections": [
+        "教师名录"
+      ],
+      "title": "副教授",
+      "profileUrl": "https://sai.sysu.edu.cn/teacher/228",
+      "portraitUrl": "https://sai.sysu.edu.cn/sites/default/files/styles/image_style_2/public/%E9%99%88%E6%B3%BD%E4%B8%B0.jpg?itok=27RtX-ta",
+      "officialFields": {
+        "research": "智能基础理论与方法",
+        "alpha": "c"
+      }
+    },
+    {
+      "officialId": "afb7c85045312681",
+      "name": "程龙",
+      "officialSections": [
+        "教师名录"
+      ],
+      "title": "副教授",
+      "profileUrl": "https://sai.sysu.edu.cn/teacher/533",
+      "portraitUrl": "https://sai.sysu.edu.cn/sites/default/files/styles/image_style_2/public/%E7%A8%8B%E9%BE%99.png?itok=o5kOhqHZ",
+      "officialFields": {
+        "research": "机器人与具身智能",
+        "alpha": "c"
+      }
+    },
+    {
+      "officialId": "e2f7e5bd40434f66",
+      "name": "程文灿",
+      "officialSections": [
+        "教师名录"
+      ],
+      "title": "副教授",
+      "profileUrl": "https://sai.sysu.edu.cn/teacher/721",
+      "portraitUrl": "https://sai.sysu.edu.cn/sites/default/files/styles/image_style_2/public/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20260519113253_4228_121.jpg?itok=l3fOsUBN",
+      "officialFields": {
+        "research": "机器人与具身智能",
+        "alpha": "c"
+      }
+    },
+    {
+      "officialId": "b6cf7a55bb228068",
+      "name": "董润敏",
+      "officialSections": [
+        "教师名录"
+      ],
+      "title": "副教授",
+      "profileUrl": "https://sai.sysu.edu.cn/teacher/546",
+      "portraitUrl": "https://sai.sysu.edu.cn/sites/default/files/styles/image_style_2/public/%E8%91%A3%E6%B6%A6%E6%95%8F.jpeg?itok=pBPRs-EA",
+      "officialFields": {
+        "research": "人工智能与科学和工程交叉",
+        "alpha": "d"
+      }
+    },
+    {
+      "officialId": "23946df5ebe73241",
+      "name": "谷德峰",
+      "officialSections": [
+        "教师名录"
+      ],
+      "title": "教授",
+      "profileUrl": "https://sai.sysu.edu.cn/teacher/216",
+      "portraitUrl": "https://sai.sysu.edu.cn/sites/default/files/styles/image_style_2/public/%E8%B0%B7%E5%BE%B7%E5%B3%B0.jpg?itok=GzgQH2W1",
+      "officialFields": {
+        "research": "人工智能与科学和工程交叉",
+        "alpha": "g"
+      }
+    },
+    {
+      "officialId": "bde4d6999ed4ca2d",
+      "name": "古博",
+      "officialSections": [
+        "教师名录"
+      ],
+      "title": "教授",
+      "profileUrl": "https://sai.sysu.edu.cn/teacher/609",
+      "portraitUrl": "https://sai.sysu.edu.cn/sites/default/files/styles/image_style_2/public/%E5%8F%A4%E5%8D%9A.jpg?itok=Ssibj3qA",
+      "officialFields": {
+        "research": "机器人与具身智能",
+        "alpha": "g"
+      }
+    },
+    {
+      "officialId": "83c185ce6348cdbb",
+      "name": "刘威",
+      "officialSections": [
+        "教师名录"
+      ],
+      "title": "副教授",
+      "profileUrl": "https://sai.sysu.edu.cn/teacher/230",
+      "portraitUrl": "https://sai.sysu.edu.cn/sites/default/files/styles/image_style_2/public/%E5%88%98%E5%A8%81.jpg?itok=NPykz0B7",
+      "officialFields": {
+        "research": "人工智能与科学和工程交叉",
+        "alpha": "l"
+      }
+    },
+    {
+      "officialId": "308e94ee757f8c33",
+      "name": "路永和",
+      "officialSections": [
+        "教师名录"
+      ],
+      "title": "教授",
+      "profileUrl": "https://sai.sysu.edu.cn/teacher/220",
+      "portraitUrl": "https://sai.sysu.edu.cn/sites/default/files/styles/image_style_2/public/%E8%B7%AF%E6%B0%B8%E5%92%8C.jpg?itok=0rrcZ_H7",
+      "officialFields": {
+        "research": "人工智能与科学和工程交叉",
+        "alpha": "l"
+      }
+    },
+    {
+      "officialId": "ab6b213e124d7b8e",
+      "name": "毛旭东",
+      "officialSections": [
+        "教师名录"
+      ],
+      "title": "副教授",
+      "profileUrl": "https://sai.sysu.edu.cn/teacher/231",
+      "portraitUrl": "https://sai.sysu.edu.cn/sites/default/files/styles/image_style_2/public/%E8%94%A1%E9%93%AD.jpg?itok=0QSDNbCX",
+      "officialFields": {
+        "research": "智能基础理论与方法",
+        "alpha": "m"
+      }
+    },
+    {
+      "officialId": "2533e811b1d0cfb0",
+      "name": "孟云鹤",
+      "officialSections": [
+        "教师名录"
+      ],
+      "title": "教授",
+      "profileUrl": "https://sai.sysu.edu.cn/teacher/221",
+      "portraitUrl": "https://sai.sysu.edu.cn/sites/default/files/styles/image_style_2/public/%E5%AD%9F%E4%BA%91%E9%B9%A4.jpg?itok=ADxVzrUk",
+      "officialFields": {
+        "research": "机器人与具身智能",
+        "alpha": "m"
+      }
+    },
+    {
+      "officialId": "35e29218da11de30",
+      "name": "牛群",
+      "officialSections": [
+        "教师名录"
+      ],
+      "title": "副教授",
+      "profileUrl": "https://sai.sysu.edu.cn/teacher/232",
+      "portraitUrl": "https://sai.sysu.edu.cn/sites/default/files/styles/image_style_2/public/%E7%89%9B%E7%BE%A4.jpg?itok=mdsS39Is",
+      "officialFields": {
+        "research": "人工智能与科学和工程交叉",
+        "alpha": "n"
+      }
+    },
+    {
+      "officialId": "0ac53984937cce1f",
+      "name": "彭振辉",
+      "officialSections": [
+        "教师名录"
+      ],
+      "title": "副教授",
+      "profileUrl": "https://sai.sysu.edu.cn/teacher/244",
+      "portraitUrl": "https://sai.sysu.edu.cn/sites/default/files/styles/image_style_2/public/%E5%BD%AD%E6%8C%AF%E8%BE%89.jpg?itok=Th5u7vEJ",
+      "officialFields": {
+        "research": "人工智能与科学和工程交叉",
+        "alpha": "p"
+      }
+    },
+    {
+      "officialId": "9854c5d69d36c79d",
+      "name": "单云霄",
+      "officialSections": [
+        "教师名录"
+      ],
+      "title": "副教授",
+      "profileUrl": "https://sai.sysu.edu.cn/teacher/233",
+      "portraitUrl": "https://sai.sysu.edu.cn/sites/default/files/styles/image_style_2/public/%E5%8D%95%E4%BA%91%E9%9C%84.jpg?itok=RuyS3mMq",
+      "officialFields": {
+        "research": "机器人与具身智能",
+        "alpha": "s"
+      }
+    },
+    {
+      "officialId": "2b9b3b62737fcfea",
+      "name": "王雪鹤",
+      "officialSections": [
+        "教师名录"
+      ],
+      "title": "副教授",
+      "profileUrl": "https://sai.sysu.edu.cn/teacher/234",
+      "portraitUrl": "https://sai.sysu.edu.cn/sites/default/files/styles/image_style_2/public/%E7%8E%8B%E9%9B%AA%E9%B9%A4.jpg?itok=Nu9XmcAq",
+      "officialFields": {
+        "research": "智能基础理论与方法",
+        "alpha": "w"
+      }
+    },
+    {
+      "officialId": "448e5d00d9f03a77",
+      "name": "王久珂",
+      "officialSections": [
+        "教师名录"
+      ],
+      "title": "教授",
+      "profileUrl": "https://sai.sysu.edu.cn/teacher/222",
+      "portraitUrl": "https://sai.sysu.edu.cn/sites/default/files/styles/image_style_2/public/%E7%8E%8B%E4%B9%85%E7%8F%82.jpg?itok=ekPHmBOG",
+      "officialFields": {
+        "research": "人工智能与科学和工程交叉",
+        "alpha": "w"
+      }
+    },
+    {
+      "officialId": "2964e94ea38183a3",
+      "name": "魏天骐",
+      "officialSections": [
+        "教师名录"
+      ],
+      "title": "副教授",
+      "profileUrl": "https://sai.sysu.edu.cn/teacher/235",
+      "portraitUrl": "https://sai.sysu.edu.cn/sites/default/files/styles/image_style_2/public/%E9%AD%8F%E5%A4%A9%E9%AA%90.jpg?itok=KaQXgEVl",
+      "officialFields": {
+        "research": "机器人与具身智能",
+        "alpha": "w"
+      }
+    },
+    {
+      "officialId": "697aa164b74c7e79",
+      "name": "余建兴",
+      "officialSections": [
+        "教师名录"
+      ],
+      "title": "副教授",
+      "profileUrl": "https://sai.sysu.edu.cn/teacher/238",
+      "portraitUrl": "https://sai.sysu.edu.cn/sites/default/files/styles/image_style_2/public/%E4%BD%99%E5%BB%BA%E5%85%B4.jpg?itok=8_jKX7Rc",
+      "officialFields": {
+        "research": "智能基础理论与方法",
+        "alpha": "y"
+      }
+    },
+    {
+      "officialId": "38b5e3f7cefcf66f",
+      "name": "赵宝全",
+      "officialSections": [
+        "教师名录"
+      ],
+      "title": "副教授",
+      "profileUrl": "https://sai.sysu.edu.cn/teacher/239",
+      "portraitUrl": "https://sai.sysu.edu.cn/sites/default/files/styles/image_style_2/public/baoquan_0.jpg?itok=CfgjmJwm",
+      "officialFields": {
+        "research": "智能基础理论与方法",
+        "alpha": "z"
+      }
+    },
+    {
+      "officialId": "5ea6d5cdf407ae1b",
+      "name": "郑立彬",
+      "officialSections": [
+        "教师名录"
+      ],
+      "title": "副教授",
+      "profileUrl": "https://sai.sysu.edu.cn/teacher/240",
+      "portraitUrl": "https://sai.sysu.edu.cn/sites/default/files/styles/image_style_2/public/%E9%83%91%E7%AB%8B%E5%BD%AC.jpg?itok=ArjDtRzz",
+      "officialFields": {
+        "research": "智能基础理论与方法",
+        "alpha": "z"
+      }
+    },
+    {
+      "officialId": "ef4e79b22aa619b5",
+      "name": "朱怀杰",
+      "officialSections": [
+        "教师名录"
+      ],
+      "title": "副教授",
+      "profileUrl": "https://sai.sysu.edu.cn/teacher/241",
+      "portraitUrl": "https://sai.sysu.edu.cn/sites/default/files/styles/image_style_2/public/%E6%9C%B1%E6%80%80%E6%9D%B0%E8%AF%81%E4%BB%B6%E7%85%A7_0.jpeg?itok=35ePEEmU",
+      "officialFields": {
+        "research": "智能基础理论与方法",
+        "alpha": "z"
+      }
+    },
+    {
+      "officialId": "adc1c4c92d057298",
+      "name": "郑珏鹏",
+      "officialSections": [
+        "教师名录"
+      ],
+      "title": "副教授",
+      "profileUrl": "https://sai.sysu.edu.cn/teacher/246",
+      "portraitUrl": "https://sai.sysu.edu.cn/sites/default/files/styles/image_style_2/public/%E9%83%91%E7%8F%8F%E9%B9%8F.jpg?itok=1DFhOmAj",
+      "officialFields": {
+        "research": "人工智能与科学和工程交叉",
+        "alpha": "z"
+      }
+    },
+    {
+      "officialId": "cb6326da2cc63119",
+      "name": "曾丹",
+      "officialSections": [
+        "教师名录"
+      ],
+      "title": "副教授",
+      "profileUrl": "https://sai.sysu.edu.cn/teacher/534",
+      "portraitUrl": "https://sai.sysu.edu.cn/sites/default/files/styles/image_style_2/public/%E6%9B%BE%E4%B8%B9.png?itok=WBb9bqe3",
+      "officialFields": {
+        "research": "智能基础理论与方法",
+        "alpha": "z"
+      }
+    },
+    {
+      "officialId": "d1f2db9a039f031d",
+      "name": "梁湘三",
+      "officialSections": [
+        "院外研究生导师"
+      ],
+      "title": "院外研究生导师",
+      "profileUrl": "https://sai.sysu.edu.cn/teacher/521",
+      "portraitUrl": "https://sai.sysu.edu.cn/sites/default/files/styles/image_style_2/public/A79D82A3%40309A0C76.B2215867_recompress.jpg?itok=lqra_yJ4",
+      "officialFields": {
+        "research": "",
+        "alpha": "l"
+      }
+    },
+    {
+      "officialId": "bc026852e00044c8",
+      "name": "肖传乐",
+      "officialSections": [
+        "院外研究生导师"
+      ],
+      "title": "院外研究生导师",
+      "profileUrl": "https://sai.sysu.edu.cn/teacher/570",
+      "portraitUrl": "https://sai.sysu.edu.cn/sites/default/files/styles/image_style_2/public/xiaochuanle.png?itok=dAlFT5Qr",
+      "officialFields": {
+        "research": "",
+        "alpha": "x"
+      }
+    },
+    {
+      "officialId": "4932e410adc231c9",
+      "name": "赵国英",
+      "officialSections": [
+        "院外研究生导师"
+      ],
+      "title": "院外研究生导师",
+      "profileUrl": "https://sai.sysu.edu.cn/teacher/522",
+      "portraitUrl": "https://sai.sysu.edu.cn/sites/default/files/styles/image_style_2/public/%E8%B5%B5%E5%9B%BD%E8%8B%B1.jpg?itok=PswwfXQ0",
+      "officialFields": {
+        "research": "",
+        "alpha": "z"
+      }
+    },
+    {
+      "officialId": "e439b4c44a0bc639",
+      "name": "万纬韬",
+      "officialSections": [
+        "校外行业导师"
+      ],
+      "title": "校外行业导师",
+      "profileUrl": null,
+      "portraitUrl": null,
+      "officialFields": {
+        "organization": "广州云智达创科技有限公司"
+      }
+    },
+    {
+      "officialId": "e5b8d1979c72db55",
+      "name": "王文熹",
+      "officialSections": [
+        "校外行业导师"
+      ],
+      "title": "校外行业导师",
+      "profileUrl": null,
+      "portraitUrl": null,
+      "officialFields": {
+        "organization": "珠海视熙科技有限公司"
+      }
+    },
+    {
+      "officialId": "442ddc79dfebea16",
+      "name": "王晓明",
+      "officialSections": [
+        "校外行业导师"
+      ],
+      "title": "校外行业导师",
+      "profileUrl": null,
+      "portraitUrl": null,
+      "officialFields": {
+        "organization": "珠海正方集团有限公司"
+      }
+    },
+    {
+      "officialId": "e80fe70d767a331a",
+      "name": "王智圣",
+      "officialSections": [
+        "校外行业导师"
+      ],
+      "title": "校外行业导师",
+      "profileUrl": null,
+      "portraitUrl": null,
+      "officialFields": {
+        "organization": "腾讯控股有限公司"
+      }
+    },
+    {
+      "officialId": "eb306729c236b38d",
+      "name": "王蒙湘",
+      "officialSections": [
+        "校外行业导师"
+      ],
+      "title": "校外行业导师",
+      "profileUrl": null,
+      "portraitUrl": null,
+      "officialFields": {
+        "organization": "中国标准化研究院"
+      }
+    },
+    {
+      "officialId": "9a424773e7008efc",
+      "name": "邓剑文",
+      "officialSections": [
+        "校外行业导师"
+      ],
+      "title": "校外行业导师",
+      "profileUrl": null,
+      "portraitUrl": null,
+      "officialFields": {
+        "organization": "珠海航宇微科技股份有限公司"
+      }
+    },
+    {
+      "officialId": "441cddfb2c24ff1a",
+      "name": "刘金朝",
+      "officialSections": [
+        "校外行业导师"
+      ],
+      "title": "校外行业导师",
+      "profileUrl": null,
+      "portraitUrl": null,
+      "officialFields": {
+        "organization": "珠海金智维信息科技有限公司"
+      }
+    },
+    {
+      "officialId": "62fdc9efb1ce3d55",
+      "name": "李先怀",
+      "officialSections": [
+        "校外行业导师"
+      ],
+      "title": "校外行业导师",
+      "profileUrl": null,
+      "portraitUrl": null,
+      "officialFields": {
+        "organization": "威胜信息技术股份有限公司"
+      }
+    },
+    {
+      "officialId": "4250b709dc4e602a",
+      "name": "李果",
+      "officialSections": [
+        "校外行业导师"
+      ],
+      "title": "校外行业导师",
+      "profileUrl": null,
+      "portraitUrl": null,
+      "officialFields": {
+        "organization": "珠海华发人居生活研究院有限公司"
+      }
+    },
+    {
+      "officialId": "478e38bd0b8c40b7",
+      "name": "李涛",
+      "officialSections": [
+        "校外行业导师"
+      ],
+      "title": "校外行业导师",
+      "profileUrl": null,
+      "portraitUrl": null,
+      "officialFields": {
+        "organization": "珠海视熙科技有限公司"
+      }
+    },
+    {
+      "officialId": "27d397f82359828e",
+      "name": "李翔",
+      "officialSections": [
+        "校外行业导师"
+      ],
+      "title": "校外行业导师",
+      "profileUrl": null,
+      "portraitUrl": null,
+      "officialFields": {
+        "organization": "深圳市惟客数据科技有限公司"
+      }
+    },
+    {
+      "officialId": "3270e137e616f051",
+      "name": "杨杰",
+      "officialSections": [
+        "校外行业导师"
+      ],
+      "title": "校外行业导师",
+      "profileUrl": null,
+      "portraitUrl": null,
+      "officialFields": {
+        "organization": "广东广悦律师事务所"
+      }
+    },
+    {
+      "officialId": "f8061dbc66e31310",
+      "name": "杨剑锋",
+      "officialSections": [
+        "校外行业导师"
+      ],
+      "title": "校外行业导师",
+      "profileUrl": null,
+      "portraitUrl": null,
+      "officialFields": {
+        "organization": "工业和信息化部电子第五研究所"
+      }
+    },
+    {
+      "officialId": "cb55633cf45a3655",
+      "name": "肖林松",
+      "officialSections": [
+        "校外行业导师"
+      ],
+      "title": "校外行业导师",
+      "profileUrl": null,
+      "portraitUrl": null,
+      "officialFields": {
+        "organization": "威胜信息技术股份有限公司"
+      }
+    },
+    {
+      "officialId": "dc26d66a7b39d50c",
+      "name": "吴学阳",
+      "officialSections": [
+        "校外行业导师"
+      ],
+      "title": "校外行业导师",
+      "profileUrl": null,
+      "portraitUrl": null,
+      "officialFields": {
+        "organization": "深圳晞星智能科技有限公司"
+      }
+    },
+    {
+      "officialId": "4992315aaeaeb4e1",
+      "name": "吴梓明",
+      "officialSections": [
+        "校外行业导师"
+      ],
+      "title": "校外行业导师",
+      "profileUrl": null,
+      "portraitUrl": null,
+      "officialFields": {
+        "organization": "腾讯控股有限公司"
+      }
+    },
+    {
+      "officialId": "ece84811a0304055",
+      "name": "吴蕃",
+      "officialSections": [
+        "校外行业导师"
+      ],
+      "title": "校外行业导师",
+      "profileUrl": null,
+      "portraitUrl": null,
+      "officialFields": {
+        "organization": "工商银行软件开发中心"
+      }
+    },
+    {
+      "officialId": "efb6b59d1eaaf760",
+      "name": "赵海波",
+      "officialSections": [
+        "校外行业导师"
+      ],
+      "title": "校外行业导师",
+      "profileUrl": null,
+      "portraitUrl": null,
+      "officialFields": {
+        "organization": "湖南威铭能源科技有限公司"
+      }
+    },
+    {
+      "officialId": "5c240abd15080f38",
+      "name": "钟宛君",
+      "officialSections": [
+        "校外行业导师"
+      ],
+      "title": "校外行业导师",
+      "profileUrl": null,
+      "portraitUrl": null,
+      "officialFields": {
+        "organization": "北京字节跳动科技有限公司"
+      }
+    },
+    {
+      "officialId": "e45abe40507d54a3",
+      "name": "姚冕",
+      "officialSections": [
+        "校外行业导师"
+      ],
+      "title": "校外行业导师",
+      "profileUrl": null,
+      "portraitUrl": null,
+      "officialFields": {
+        "organization": "工商银行股份有限公司软件开发中心"
+      }
+    },
+    {
+      "officialId": "a898f154bc073aa9",
+      "name": "聂镭",
+      "officialSections": [
+        "校外行业导师"
+      ],
+      "title": "校外行业导师",
+      "profileUrl": null,
+      "portraitUrl": null,
+      "officialFields": {
+        "organization": "龙马智芯（珠海横琴）科技有限公司"
+      }
+    },
+    {
+      "officialId": "01fb9cf249db5354",
+      "name": "徐永凯",
+      "officialSections": [
+        "校外行业导师"
+      ],
+      "title": "校外行业导师",
+      "profileUrl": null,
+      "portraitUrl": null,
+      "officialFields": {
+        "organization": "珠海派诺科技股份有限公司"
+      }
+    },
+    {
+      "officialId": "02f4673f61483fbd",
+      "name": "徐华伟",
+      "officialSections": [
+        "校外行业导师"
+      ],
+      "title": "校外行业导师",
+      "profileUrl": null,
+      "portraitUrl": null,
+      "officialFields": {
+        "organization": "工业和信息化部电子第五研究所"
+      }
+    },
+    {
+      "officialId": "f898c367ebe8df48",
+      "name": "高静",
+      "officialSections": [
+        "校外行业导师"
+      ],
+      "title": "校外行业导师",
+      "profileUrl": null,
+      "portraitUrl": null,
+      "officialFields": {
+        "organization": "广东恒电信息科技股份有限公司"
+      }
+    },
+    {
+      "officialId": "0619548a3306a3f6",
+      "name": "黄林轶",
+      "officialSections": [
+        "校外行业导师"
+      ],
+      "title": "校外行业导师",
+      "profileUrl": null,
+      "portraitUrl": null,
+      "officialFields": {
+        "organization": "工业和信息化部电子第五研究所"
+      }
+    },
+    {
+      "officialId": "c90563bf6acc19cd",
+      "name": "曾宇",
+      "officialSections": [
+        "校外行业导师"
+      ],
+      "title": "校外行业导师",
+      "profileUrl": null,
+      "portraitUrl": null,
+      "officialFields": {
+        "organization": "广州紫川电子科技有限公司"
+      }
+    },
+    {
+      "officialId": "5cba5ba0d5786790",
+      "name": "谢映海",
+      "officialSections": [
+        "校外行业导师"
+      ],
+      "title": "校外行业导师",
+      "profileUrl": null,
+      "portraitUrl": null,
+      "officialFields": {
+        "organization": "珠海中慧微电子有限公司"
+      }
+    },
+    {
+      "officialId": "95142c4032c82e47",
+      "name": "蒙圣光",
+      "officialSections": [
+        "校外行业导师"
+      ],
+      "title": "校外行业导师",
+      "profileUrl": null,
+      "portraitUrl": null,
+      "officialFields": {
+        "organization": "广东东华发思特软件有限公司"
+      }
+    },
+    {
+      "officialId": "31a25d2dad2ba90f",
+      "name": "谭炳光",
+      "officialSections": [
+        "校外行业导师"
+      ],
+      "title": "校外行业导师",
+      "profileUrl": null,
+      "portraitUrl": null,
+      "officialFields": {
+        "organization": "中国电信股份有限公司珠海前山分公司"
+      }
+    }
+  ]
+}

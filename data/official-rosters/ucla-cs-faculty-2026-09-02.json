@@ -1,0 +1,804 @@
+{
+  "completeness": "complete",
+  "fetchedAt": "2026-09-02",
+  "institution": "UCLA Computer Science",
+  "officialPageUrl": "https://samueli.ucla.edu/search-faculty/#cs",
+  "officialDataUrl": "https://samueli.ucla.edu/wp-admin/admin-ajax.php",
+  "officialRosterCount": 78,
+  "officialSectionCardCounts": {
+    "Chair": 1,
+    "Vice Chairs": 3,
+    "Core Faculty": 47,
+    "Joint Faculty": 12,
+    "Adjunct Faculty": 3,
+    "Emeriti Faculty": 16
+  },
+  "overlapAcrossSections": 4,
+  "sourceDescription": "The official UCLA Samueli faculty search endpoint was queried with department=cs across every faculty category advertised by the page. Category memberships are retained and duplicate people appearing in leadership and core sections are merged by official profile URL.",
+  "people": [
+    {
+      "officialId": "achuta-kadambi",
+      "name": "Achuta Kadambi",
+      "officialSections": [
+        "Joint Faculty"
+      ],
+      "title": "Associate Professor",
+      "profileUrl": "https://samueli.ucla.edu/people/achuta-kadambi/",
+      "portraitUrl": "https://samueli.ucla.edu/wp-content/uploads/samueli/Achuta-Kadambi-1.png"
+    },
+    {
+      "officialId": "aditya-grover",
+      "name": "Aditya Grover",
+      "officialSections": [
+        "Core Faculty"
+      ],
+      "title": "Assistant Professor",
+      "profileUrl": "https://samueli.ucla.edu/people/aditya-grover/",
+      "portraitUrl": "https://samueli.ucla.edu/wp-content/uploads/samueli/AdityaGrover-300x200.png"
+    },
+    {
+      "officialId": "adnan-darwiche",
+      "name": "Adnan Darwiche",
+      "officialSections": [
+        "Core Faculty"
+      ],
+      "title": "Professor",
+      "profileUrl": "https://samueli.ucla.edu/people/adnan-darwiche/",
+      "portraitUrl": "https://samueli.ucla.edu/wp-content/uploads/samueli/profile-photo-featured-adnan-darwiche-300x200.jpg"
+    },
+    {
+      "officialId": "alan-kay",
+      "name": "Alan Kay",
+      "officialSections": [
+        "Adjunct Faculty"
+      ],
+      "title": "Adjunct Professor",
+      "profileUrl": "https://samueli.ucla.edu/people/alan-kay/",
+      "portraitUrl": "https://samueli.ucla.edu/wp-content/uploads/samueli/Untitled-design-10-300x200.png"
+    },
+    {
+      "officialId": "alexander-sherstov",
+      "name": "Alexander Sherstov",
+      "officialSections": [
+        "Core Faculty"
+      ],
+      "title": "Professor",
+      "profileUrl": "https://samueli.ucla.edu/people/alexander-sherstov/",
+      "portraitUrl": "https://samueli.ucla.edu/wp-content/uploads/samueli/sherstove-edited111-300x200.png"
+    },
+    {
+      "officialId": "alfonso-cardenas",
+      "name": "Alfonso Cardenas",
+      "officialSections": [
+        "Emeriti Faculty"
+      ],
+      "title": "Professor Emeritus",
+      "profileUrl": "https://samueli.ucla.edu/people/alfonso-cardenas/",
+      "portraitUrl": "https://samueli.ucla.edu/wp-content/uploads/samueli/Untitled-design-24-300x200.png"
+    },
+    {
+      "officialId": "algirdas-avizienis",
+      "name": "Algirdas Avizienis",
+      "officialSections": [
+        "Emeriti Faculty"
+      ],
+      "title": "Distinguished Professor Emeritus",
+      "profileUrl": "https://samueli.ucla.edu/people/algirdas-avizienis/",
+      "portraitUrl": "https://samueli.ucla.edu/wp-content/uploads/samueli/photo-option-4-scaled-300x200.jpg"
+    },
+    {
+      "officialId": "allen-klinger",
+      "name": "Allen Klinger",
+      "officialSections": [
+        "Emeriti Faculty"
+      ],
+      "title": "Professor Emeritus",
+      "profileUrl": "https://samueli.ucla.edu/people/allen-klinger/",
+      "portraitUrl": "https://samueli.ucla.edu/wp-content/uploads/samueli/Untitled-design-26-300x200.png"
+    },
+    {
+      "officialId": "amit-sahai",
+      "name": "Amit Sahai",
+      "officialSections": [
+        "Vice Chairs",
+        "Core Faculty"
+      ],
+      "title": "Professor/Vice Chair of Academic Advancement",
+      "profileUrl": "https://samueli.ucla.edu/people/amit-sahai/",
+      "portraitUrl": "https://samueli.ucla.edu/wp-content/uploads/samueli/amit-sahai-featured-300x200.jpg"
+    },
+    {
+      "officialId": "baharan-mirzasoleiman",
+      "name": "Baharan Mirzasoleiman",
+      "officialSections": [
+        "Core Faculty"
+      ],
+      "title": "Associate Professor",
+      "profileUrl": "https://samueli.ucla.edu/people/baharan-mirzasoleiman/",
+      "portraitUrl": "https://samueli.ucla.edu/wp-content/uploads/samueli/baharan-1.jpg"
+    },
+    {
+      "officialId": "blaise-pascal-tine",
+      "name": "Blaise-Pascal Tine",
+      "officialSections": [
+        "Core Faculty"
+      ],
+      "title": "Assistant Professor",
+      "profileUrl": "https://samueli.ucla.edu/people/blaise-pascal-tine/",
+      "portraitUrl": "https://samueli.ucla.edu/wp-content/uploads/samueli/Blaise-Pascal-Tine-1-300x200.png"
+    },
+    {
+      "officialId": "bolei-zhou",
+      "name": "Bolei Zhou",
+      "officialSections": [
+        "Core Faculty"
+      ],
+      "title": "Associate Professor",
+      "profileUrl": "https://samueli.ucla.edu/people/bolei-zhou/",
+      "portraitUrl": "https://samueli.ucla.edu/wp-content/uploads/samueli/Untitled-design-19-1-300x200.png"
+    },
+    {
+      "officialId": "carey-nachenberg",
+      "name": "Carey Nachenberg",
+      "officialSections": [
+        "Adjunct Faculty"
+      ],
+      "title": "Adjunct Associate Professor",
+      "profileUrl": "https://samueli.ucla.edu/people/carey-nachenberg/",
+      "portraitUrl": "https://samueli.ucla.edu/wp-content/uploads/samueli/Nachenberg_Photo_sm-scaled-300x200.jpg"
+    },
+    {
+      "officialId": "carlo-zaniolo",
+      "name": "Carlo Zaniolo",
+      "officialSections": [
+        "Emeriti Faculty"
+      ],
+      "title": "Distinguished Professor Emeritus",
+      "profileUrl": "https://samueli.ucla.edu/people/carlo-zaniolo/",
+      "portraitUrl": "https://samueli.ucla.edu/wp-content/uploads/samueli/Untitled-design-22-300x200.png"
+    },
+    {
+      "officialId": "cho-jui-hsieh",
+      "name": "Cho-Jui Hsieh",
+      "officialSections": [
+        "Core Faculty"
+      ],
+      "title": "Associate Professor",
+      "profileUrl": "https://samueli.ucla.edu/people/cho-jui-hsieh/",
+      "portraitUrl": "https://samueli.ucla.edu/wp-content/uploads/samueli/chohsieh111-2-300x200.png"
+    },
+    {
+      "officialId": "david-smallberg",
+      "name": "David Smallberg",
+      "officialSections": [
+        "Core Faculty"
+      ],
+      "title": "Teaching Professor",
+      "profileUrl": "https://samueli.ucla.edu/people/david-smallberg/",
+      "portraitUrl": "https://samueli.ucla.edu/wp-content/uploads/samueli/smallberg111-1-300x200.png"
+    },
+    {
+      "officialId": "demetri-terzopoulos",
+      "name": "Demetri Terzopoulos",
+      "officialSections": [
+        "Core Faculty"
+      ],
+      "title": "Distinguished Professor",
+      "profileUrl": "https://samueli.ucla.edu/people/demetri-terzopoulos/",
+      "portraitUrl": "https://samueli.ucla.edu/wp-content/uploads/samueli/Demetri_Terzopoulos1-300x200.png"
+    },
+    {
+      "officialId": "eleazar-eskin",
+      "name": "Eleazar Eskin",
+      "officialSections": [
+        "Core Faculty"
+      ],
+      "title": "Professor",
+      "profileUrl": "https://samueli.ucla.edu/people/eleazar-eskin/",
+      "portraitUrl": "https://samueli.ucla.edu/wp-content/uploads/samueli/Eleazar-Eskin-300x200-1.png"
+    },
+    {
+      "officialId": "eliezer-gafni",
+      "name": "Eliezer Gafni",
+      "officialSections": [
+        "Emeriti Faculty"
+      ],
+      "title": "Professor Emeritus",
+      "profileUrl": "https://samueli.ucla.edu/people/eliezer-gafni/",
+      "portraitUrl": "https://samueli.ucla.edu/wp-content/uploads/samueli/gafni-eli-featured-300x200.jpg"
+    },
+    {
+      "officialId": "elisa-kreiss",
+      "name": "Elisa Kreiss",
+      "officialSections": [
+        "Joint Faculty"
+      ],
+      "title": "Assistant Professor",
+      "profileUrl": "https://samueli.ucla.edu/people/elisa-kreiss/",
+      "portraitUrl": "https://samueli.ucla.edu/wp-content/uploads/samueli/Screenshot-2026-03-05-at-3.10.55-PM.png"
+    },
+    {
+      "officialId": "eunice-jun",
+      "name": "Eunice Jun",
+      "officialSections": [
+        "Core Faculty"
+      ],
+      "title": "Assistant Professor",
+      "profileUrl": "https://samueli.ucla.edu/people/eunice-jun/",
+      "portraitUrl": "https://samueli.ucla.edu/wp-content/uploads/samueli/Untitled-design-18-1-300x200.png"
+    },
+    {
+      "officialId": "george-varghese",
+      "name": "George Varghese",
+      "officialSections": [
+        "Core Faculty"
+      ],
+      "title": "Distinguished Professor",
+      "profileUrl": "https://samueli.ucla.edu/people/george-varghese/",
+      "portraitUrl": "https://samueli.ucla.edu/wp-content/uploads/samueli/Varghese-DSC_0696-300x200.png"
+    },
+    {
+      "officialId": "giovanni-pau",
+      "name": "Giovanni Pau",
+      "officialSections": [
+        "Adjunct Faculty"
+      ],
+      "title": "Adjunct Associate Professor",
+      "profileUrl": "https://samueli.ucla.edu/people/giovanni-pau/",
+      "portraitUrl": "https://samueli.ucla.edu/wp-content/uploads/samueli/Untitled-design-12-300x200.png"
+    },
+    {
+      "officialId": "glenn-reinman",
+      "name": "Glenn Reinman",
+      "officialSections": [
+        "Vice Chairs",
+        "Core Faculty"
+      ],
+      "title": "Professor/Vice Chair of Undergraduate Programs",
+      "profileUrl": "https://samueli.ucla.edu/people/glenn-reinman/",
+      "portraitUrl": "https://samueli.ucla.edu/wp-content/uploads/samueli/reinman-glenn-thumbnail-300x200.jpg"
+    },
+    {
+      "officialId": "guang-cheng",
+      "name": "Guang Cheng",
+      "officialSections": [
+        "Joint Faculty"
+      ],
+      "title": "Professor",
+      "profileUrl": "https://samueli.ucla.edu/people/guang-cheng/",
+      "portraitUrl": "https://samueli.ucla.edu/wp-content/uploads/samueli/Screenshot-2026-02-23-at-3.48.27-PM.png"
+    },
+    {
+      "officialId": "guy-van-den-broeck",
+      "name": "Guy Van den Broeck",
+      "officialSections": [
+        "Core Faculty"
+      ],
+      "title": "Professor",
+      "profileUrl": "https://samueli.ucla.edu/people/guy-van-den-broeck/",
+      "portraitUrl": "https://samueli.ucla.edu/wp-content/uploads/samueli/GUY-VAN-DEN-BROECK-300x188.jpg"
+    },
+    {
+      "officialId": "hanrui-wang",
+      "name": "Hanrui Wang",
+      "officialSections": [
+        "Core Faculty"
+      ],
+      "title": "Assistant Professor (Starting November 1, 2027)",
+      "profileUrl": "https://samueli.ucla.edu/people/hanrui-wang/",
+      "portraitUrl": "https://samueli.ucla.edu/wp-content/uploads/samueli/wang-2024-ratio3x2-scaled-300x200.jpeg"
+    },
+    {
+      "officialId": "harold-pimentel",
+      "name": "Harold Pimentel",
+      "officialSections": [
+        "Joint Faculty"
+      ],
+      "title": "Assistant Professor",
+      "profileUrl": "https://samueli.ucla.edu/people/harold-pimentel/",
+      "portraitUrl": "https://samueli.ucla.edu/wp-content/uploads/samueli/Harold-Pimentel-400x400-2-300x200.jpg"
+    },
+    {
+      "officialId": "harry-xu",
+      "name": "Harry Xu",
+      "officialSections": [
+        "Core Faculty"
+      ],
+      "title": "Professor",
+      "profileUrl": "https://samueli.ucla.edu/people/harry-xu/",
+      "portraitUrl": "https://samueli.ucla.edu/wp-content/uploads/samueli/7L5A2788-1-scaled-300x200.jpg"
+    },
+    {
+      "officialId": "j-d-zamfirescu-pereira",
+      "name": "J.D. Zamfirescu-Pereira",
+      "officialSections": [
+        "Core Faculty"
+      ],
+      "title": "Assistant Professor",
+      "profileUrl": "https://samueli.ucla.edu/people/j-d-zamfirescu-pereira/",
+      "portraitUrl": "https://samueli.ucla.edu/wp-content/uploads/samueli/jdzp-wide.jpg"
+    },
+    {
+      "officialId": "jason-jingsheng-cong",
+      "name": "Jason (Jingsheng) Cong",
+      "officialSections": [
+        "Core Faculty"
+      ],
+      "title": "Distinguished Professor",
+      "profileUrl": "https://samueli.ucla.edu/people/jason-jingsheng-cong/",
+      "portraitUrl": "https://samueli.ucla.edu/wp-content/uploads/samueli/cong_jason_thumbnail-300x200.jpg"
+    },
+    {
+      "officialId": "jason-ernst",
+      "name": "Jason Ernst",
+      "officialSections": [
+        "Joint Faculty"
+      ],
+      "title": "Professor",
+      "profileUrl": "https://samueli.ucla.edu/people/jason-ernst/",
+      "portraitUrl": "https://samueli.ucla.edu/wp-content/uploads/samueli/ernst_jason_thumbnail-300x200.jpg"
+    },
+    {
+      "officialId": "jens-palsberg",
+      "name": "Jens Palsberg",
+      "officialSections": [
+        "Core Faculty"
+      ],
+      "title": "Professor",
+      "profileUrl": "https://samueli.ucla.edu/people/jens-palsberg/",
+      "portraitUrl": "https://samueli.ucla.edu/wp-content/uploads/samueli/jens-palsberg-featured-300x200.jpg"
+    },
+    {
+      "officialId": "jiaqi-ma",
+      "name": "Jiaqi Ma",
+      "officialSections": [
+        "Joint Faculty"
+      ],
+      "title": "Professor",
+      "profileUrl": "https://samueli.ucla.edu/people/jiaqi-ma/",
+      "portraitUrl": "https://samueli.ucla.edu/wp-content/uploads/samueli/Jiaqi-Ma-thumbnail.png"
+    },
+    {
+      "officialId": "jonathan-kao",
+      "name": "Jonathan Kao",
+      "officialSections": [
+        "Joint Faculty"
+      ],
+      "title": "Associate Professor",
+      "profileUrl": "https://samueli.ucla.edu/people/jonathan-kao/",
+      "portraitUrl": "https://samueli.ucla.edu/wp-content/uploads/samueli/Jonathan_Kao-300x200.jpg"
+    },
+    {
+      "officialId": "joseph-distefano",
+      "name": "Joseph DiStefano",
+      "officialSections": [
+        "Emeriti Faculty"
+      ],
+      "title": "Distinguished Professor Emeritus",
+      "profileUrl": "https://samueli.ucla.edu/people/joseph-distefano/",
+      "portraitUrl": "https://samueli.ucla.edu/wp-content/uploads/samueli/photo-option-10-300x200.jpg"
+    },
+    {
+      "officialId": "judea-pearl",
+      "name": "Judea Pearl",
+      "officialSections": [
+        "Emeriti Faculty"
+      ],
+      "title": "Chancellor’s Professor Emeritus",
+      "profileUrl": "https://samueli.ucla.edu/people/judea-pearl/",
+      "portraitUrl": "https://samueli.ucla.edu/wp-content/uploads/samueli/news-featured-judea-pearl-300x200.jpg"
+    },
+    {
+      "officialId": "kai-wei-chang",
+      "name": "Kai-Wei Chang",
+      "officialSections": [
+        "Core Faculty"
+      ],
+      "title": "Professor",
+      "profileUrl": "https://samueli.ucla.edu/people/kai-wei-chang/",
+      "portraitUrl": "https://samueli.ucla.edu/wp-content/uploads/samueli/Kai_Wei_Chang-300x200.jpg"
+    },
+    {
+      "officialId": "konstantinos-kallas",
+      "name": "Konstantinos Kallas",
+      "officialSections": [
+        "Core Faculty"
+      ],
+      "title": "Assistant Professor",
+      "profileUrl": "https://samueli.ucla.edu/people/konstantinos-kallas/",
+      "portraitUrl": "https://samueli.ucla.edu/wp-content/uploads/samueli/konstantinos_smallest-300x200.jpg"
+    },
+    {
+      "officialId": "leonard-kleinrock",
+      "name": "Leonard Kleinrock",
+      "officialSections": [
+        "Emeriti Faculty"
+      ],
+      "title": "Distinguished Professor Emeritus",
+      "profileUrl": "https://samueli.ucla.edu/people/leonard-kleinrock/",
+      "portraitUrl": "https://samueli.ucla.edu/wp-content/uploads/samueli/Untitled-design-1-300x200.png"
+    },
+    {
+      "officialId": "lin-yang",
+      "name": "Lin Yang",
+      "officialSections": [
+        "Joint Faculty"
+      ],
+      "title": "Associate Professor",
+      "profileUrl": "https://samueli.ucla.edu/people/lin-yang/",
+      "portraitUrl": "https://samueli.ucla.edu/wp-content/uploads/samueli/lin-yang-featured-300x200.jpg"
+    },
+    {
+      "officialId": "lixia-zhang",
+      "name": "Lixia Zhang",
+      "officialSections": [
+        "Core Faculty"
+      ],
+      "title": "Distinguished Professor",
+      "profileUrl": "https://samueli.ucla.edu/people/lixia-zhang/",
+      "portraitUrl": "https://samueli.ucla.edu/wp-content/uploads/samueli/Lixia-Zhang-thumbnail.png"
+    },
+    {
+      "officialId": "majid-sarrafzadeh",
+      "name": "Majid Sarrafzadeh",
+      "officialSections": [
+        "Vice Chairs",
+        "Core Faculty"
+      ],
+      "title": "Distinguished Professor/Vice Chair for Graduate Programs",
+      "profileUrl": "https://samueli.ucla.edu/people/majid-sarrafzadeh/",
+      "portraitUrl": "https://samueli.ucla.edu/wp-content/uploads/samueli/Majid-300x200.png"
+    },
+    {
+      "officialId": "mani-srivastava",
+      "name": "Mani Srivastava",
+      "officialSections": [
+        "Joint Faculty"
+      ],
+      "title": "Professor",
+      "profileUrl": "https://samueli.ucla.edu/people/mani-srivastava/",
+      "portraitUrl": "https://samueli.ucla.edu/wp-content/uploads/samueli/srivastava111-300x200.png"
+    },
+    {
+      "officialId": "michael-dyer",
+      "name": "Michael Dyer",
+      "officialSections": [
+        "Emeriti Faculty"
+      ],
+      "title": "Professor Emeritus",
+      "profileUrl": "https://samueli.ucla.edu/people/michael-dyer/",
+      "portraitUrl": "https://samueli.ucla.edu/wp-content/uploads/samueli/Untitled-design-25-300x200.png"
+    },
+    {
+      "officialId": "mihaela-van-der-schaar",
+      "name": "Mihaela van der Schaar",
+      "officialSections": [
+        "Emeriti Faculty"
+      ],
+      "title": "Professor Emeritus",
+      "profileUrl": "https://samueli.ucla.edu/people/mihaela-van-der-schaar/",
+      "portraitUrl": "https://samueli.ucla.edu/wp-content/uploads/samueli/VAN-DER-SCHAAR-NEW-PROF-1-300x200.jpg"
+    },
+    {
+      "officialId": "milos-ercegovac",
+      "name": "Milos Ercegovac",
+      "officialSections": [
+        "Emeriti Faculty"
+      ],
+      "title": "Distinguished Professor Emeritus",
+      "profileUrl": "https://samueli.ucla.edu/people/milos-ercegovac/",
+      "portraitUrl": "https://samueli.ucla.edu/wp-content/uploads/samueli/Milos_Ercegovac-300x200.jpg"
+    },
+    {
+      "officialId": "miodrag-potkonjak",
+      "name": "Miodrag Potkonjak",
+      "officialSections": [
+        "Core Faculty"
+      ],
+      "title": "Professor",
+      "profileUrl": "https://samueli.ucla.edu/people/miodrag-potkonjak/",
+      "portraitUrl": "https://samueli.ucla.edu/wp-content/uploads/samueli/potkonjak-300x200.png"
+    },
+    {
+      "officialId": "miryung-kim",
+      "name": "Miryung Kim",
+      "officialSections": [
+        "Core Faculty"
+      ],
+      "title": "Professor",
+      "profileUrl": "https://samueli.ucla.edu/people/miryung-kim/",
+      "portraitUrl": "https://samueli.ucla.edu/wp-content/uploads/samueli/kim_miryung_thumbnail-300x200.jpg"
+    },
+    {
+      "officialId": "nanyun-peng",
+      "name": "Nanyun (Violet) Peng",
+      "officialSections": [
+        "Core Faculty"
+      ],
+      "title": "Associate Professor",
+      "profileUrl": "https://samueli.ucla.edu/people/nanyun-peng/",
+      "portraitUrl": "https://samueli.ucla.edu/wp-content/uploads/samueli/Peng_3x2-300x200.png"
+    },
+    {
+      "officialId": "omid-abari",
+      "name": "Omid Abari",
+      "officialSections": [
+        "Core Faculty"
+      ],
+      "title": "Associate Professor",
+      "profileUrl": "https://samueli.ucla.edu/people/omid-abari/",
+      "portraitUrl": "https://samueli.ucla.edu/wp-content/uploads/samueli/omid-ABARI.jpg"
+    },
+    {
+      "officialId": "paul-eggert",
+      "name": "Paul Eggert",
+      "officialSections": [
+        "Core Faculty"
+      ],
+      "title": "Teaching Professor",
+      "profileUrl": "https://samueli.ucla.edu/people/paul-eggert/",
+      "portraitUrl": "https://samueli.ucla.edu/wp-content/uploads/samueli/Paul_Eggert-300x200.jpg"
+    },
+    {
+      "officialId": "quanquan-gu",
+      "name": "Quanquan Gu",
+      "officialSections": [
+        "Core Faculty"
+      ],
+      "title": "Associate Professor",
+      "profileUrl": "https://samueli.ucla.edu/people/quanquan-gu/",
+      "portraitUrl": "https://samueli.ucla.edu/wp-content/uploads/samueli/gu111-300x200.png"
+    },
+    {
+      "officialId": "rafail-ostrovsky",
+      "name": "Rafail Ostrovsky",
+      "officialSections": [
+        "Core Faculty"
+      ],
+      "title": "Distinguished Professor",
+      "profileUrl": "https://samueli.ucla.edu/people/rafail-ostrovsky/",
+      "portraitUrl": "https://samueli.ucla.edu/wp-content/uploads/samueli/RAFAIL-OSTROVSKY-300x188.jpg"
+    },
+    {
+      "officialId": "raghu-meka",
+      "name": "Raghu Meka",
+      "officialSections": [
+        "Core Faculty"
+      ],
+      "title": "Professor",
+      "profileUrl": "https://samueli.ucla.edu/people/raghu-meka/",
+      "portraitUrl": "https://samueli.ucla.edu/wp-content/uploads/samueli/Untitled-design-16-300x200.png"
+    },
+    {
+      "officialId": "rajive-bagrodia",
+      "name": "Rajive Bagrodia",
+      "officialSections": [
+        "Emeriti Faculty"
+      ],
+      "title": "Professor Emeritus",
+      "profileUrl": "https://samueli.ucla.edu/people/rajive-bagrodia/",
+      "portraitUrl": "https://samueli.ucla.edu/wp-content/uploads/samueli/Untitled-design-23-300x200.png"
+    },
+    {
+      "officialId": "remy-wang",
+      "name": "Remy Wang",
+      "officialSections": [
+        "Core Faculty"
+      ],
+      "title": "Assistant Professor",
+      "profileUrl": "https://samueli.ucla.edu/people/remy-wang/",
+      "portraitUrl": "https://samueli.ucla.edu/wp-content/uploads/samueli/IMG_6501-300x200.jpg"
+    },
+    {
+      "officialId": "richard-korf",
+      "name": "Richard Korf",
+      "officialSections": [
+        "Emeriti Faculty"
+      ],
+      "title": "Professor Emeritus",
+      "profileUrl": "https://samueli.ucla.edu/people/richard-korf/",
+      "portraitUrl": "https://samueli.ucla.edu/wp-content/uploads/samueli/richard-korf-featured-300x200.jpg"
+    },
+    {
+      "officialId": "richard-muntz",
+      "name": "Richard Muntz",
+      "officialSections": [
+        "Emeriti Faculty"
+      ],
+      "title": "Distinguished Professor Emeritus",
+      "profileUrl": "https://samueli.ucla.edu/people/richard-muntz/",
+      "portraitUrl": "https://samueli.ucla.edu/wp-content/uploads/samueli/MUNTZ-PIC-1-300x200.jpg"
+    },
+    {
+      "officialId": "67993",
+      "name": "Saadia Gabriel",
+      "officialSections": [
+        "Core Faculty"
+      ],
+      "title": "Assistant Professor",
+      "profileUrl": "https://samueli.ucla.edu/people/67993/",
+      "portraitUrl": "https://samueli.ucla.edu/wp-content/uploads/samueli/Untitled-design-16-1-300x200.png"
+    },
+    {
+      "officialId": "sam-kumar",
+      "name": "Sam Kumar",
+      "officialSections": [
+        "Core Faculty"
+      ],
+      "title": "Assistant Professor",
+      "profileUrl": "https://samueli.ucla.edu/people/sam-kumar/",
+      "portraitUrl": "https://samueli.ucla.edu/wp-content/uploads/samueli/Untitled-design-13-1-300x200.png"
+    },
+    {
+      "officialId": "sandra-batista",
+      "name": "Sandra Batista",
+      "officialSections": [
+        "Core Faculty"
+      ],
+      "title": "Assistant Teaching Professor",
+      "profileUrl": "https://samueli.ucla.edu/people/sandra-batista/",
+      "portraitUrl": "https://samueli.ucla.edu/wp-content/uploads/samueli/Screenshot-2024-07-17-at-12.03.14 PM-300x201.png"
+    },
+    {
+      "officialId": "sheila-greibach",
+      "name": "Sheila Greibach",
+      "officialSections": [
+        "Emeriti Faculty"
+      ],
+      "title": "Professor Emeritus",
+      "profileUrl": "https://samueli.ucla.edu/people/sheila-greibach/",
+      "portraitUrl": "https://samueli.ucla.edu/wp-content/uploads/samueli/Untitled-design-300x200.png"
+    },
+    {
+      "officialId": "songwu-lu",
+      "name": "Songwu Lu",
+      "officialSections": [
+        "Core Faculty"
+      ],
+      "title": "Professor",
+      "profileUrl": "https://samueli.ucla.edu/people/songwu-lu/",
+      "portraitUrl": "https://samueli.ucla.edu/wp-content/uploads/samueli/songwulu-300x200.png"
+    },
+    {
+      "officialId": "sriram-sankararaman",
+      "name": "Sriram Sankararaman",
+      "officialSections": [
+        "Core Faculty"
+      ],
+      "title": "Professor",
+      "profileUrl": "https://samueli.ucla.edu/people/sriram-sankararaman/",
+      "portraitUrl": "https://samueli.ucla.edu/wp-content/uploads/samueli/Sriram_Sankararaman-300x200.png"
+    },
+    {
+      "officialId": "stefano-soatto",
+      "name": "Stefano Soatto",
+      "officialSections": [
+        "Core Faculty"
+      ],
+      "title": "Professor",
+      "profileUrl": "https://samueli.ucla.edu/people/stefano-soatto/",
+      "portraitUrl": "https://samueli.ucla.edu/wp-content/uploads/samueli/Stefano-Soatto-300x200.jpg"
+    },
+    {
+      "officialId": "tobias-d%c3%bcrschmid",
+      "name": "Tobias Dürschmid",
+      "officialSections": [
+        "Core Faculty"
+      ],
+      "title": "Assistant Teaching Professor",
+      "profileUrl": "https://samueli.ucla.edu/people/tobias-d%c3%bcrschmid/",
+      "portraitUrl": "https://samueli.ucla.edu/wp-content/uploads/samueli/tobias-scaled-e1751907537164-300x200.jpg"
+    },
+    {
+      "officialId": "todd-millstein",
+      "name": "Todd Millstein",
+      "officialSections": [
+        "Core Faculty"
+      ],
+      "title": "Professor",
+      "profileUrl": "https://samueli.ucla.edu/people/todd-millstein/",
+      "portraitUrl": "https://samueli.ucla.edu/wp-content/uploads/samueli/millstein_3x2-300x200.png"
+    },
+    {
+      "officialId": "tony-nowatzki",
+      "name": "Tony Nowatzki",
+      "officialSections": [
+        "Core Faculty"
+      ],
+      "title": "Associate Professor",
+      "profileUrl": "https://samueli.ucla.edu/people/tony-nowatzki/",
+      "portraitUrl": "https://samueli.ucla.edu/wp-content/uploads/samueli/Tony_Nowatzky-300x200.jpg"
+    },
+    {
+      "officialId": "wei-wang",
+      "name": "Wei Wang",
+      "officialSections": [
+        "Chair",
+        "Core Faculty"
+      ],
+      "title": "Professor",
+      "profileUrl": "https://samueli.ucla.edu/people/wei-wang/",
+      "portraitUrl": "https://samueli.ucla.edu/wp-content/uploads/samueli/wei-wang_300x200-300x200.png"
+    },
+    {
+      "officialId": "wesley-chu",
+      "name": "Wesley Chu",
+      "officialSections": [
+        "Emeriti Faculty"
+      ],
+      "title": "Distinguished Professor Emeritus",
+      "profileUrl": "https://samueli.ucla.edu/people/wesley-chu/",
+      "portraitUrl": "https://samueli.ucla.edu/wp-content/uploads/samueli/chu-300x200.png"
+    },
+    {
+      "officialId": "xiang-anthony-chen",
+      "name": "Xiang Anthony Chen",
+      "officialSections": [
+        "Joint Faculty"
+      ],
+      "title": "Associate Professor",
+      "profileUrl": "https://samueli.ucla.edu/people/xiang-anthony-chen/",
+      "portraitUrl": "https://samueli.ucla.edu/wp-content/uploads/samueli/anthony-chen-profile-featured-300x200.jpg"
+    },
+    {
+      "officialId": "yangruibo-robin-ding",
+      "name": "Yangruibo (Robin) Ding",
+      "officialSections": [
+        "Core Faculty"
+      ],
+      "title": "Assistant Professor",
+      "profileUrl": "https://samueli.ucla.edu/people/yangruibo-robin-ding/",
+      "portraitUrl": "https://samueli.ucla.edu/wp-content/uploads/samueli/profile_high_res-copy.jpg"
+    },
+    {
+      "officialId": "yizhou-sun",
+      "name": "Yizhou Sun",
+      "officialSections": [
+        "Core Faculty"
+      ],
+      "title": "Professor",
+      "profileUrl": "https://samueli.ucla.edu/people/yizhou-sun/",
+      "portraitUrl": "https://samueli.ucla.edu/wp-content/uploads/samueli/sun_yizhou_thumbnail-300x200.jpg"
+    },
+    {
+      "officialId": "yuan-tian",
+      "name": "Yuan Tian",
+      "officialSections": [
+        "Joint Faculty"
+      ],
+      "title": "Associate Professor",
+      "profileUrl": "https://samueli.ucla.edu/people/yuan-tian/",
+      "portraitUrl": "https://samueli.ucla.edu/wp-content/uploads/samueli/Yuan-Tian-f.png"
+    },
+    {
+      "officialId": "yuchen-cui",
+      "name": "Yuchen Cui",
+      "officialSections": [
+        "Core Faculty"
+      ],
+      "title": "Assistant Professor",
+      "profileUrl": "https://samueli.ucla.edu/people/yuchen-cui/",
+      "portraitUrl": "https://samueli.ucla.edu/wp-content/uploads/samueli/profile_yuchen2-300x200.jpg"
+    },
+    {
+      "officialId": "yuval-tamir",
+      "name": "Yuval Tamir",
+      "officialSections": [
+        "Core Faculty"
+      ],
+      "title": "Associate Professor",
+      "profileUrl": "https://samueli.ucla.edu/people/yuval-tamir/",
+      "portraitUrl": "https://samueli.ucla.edu/wp-content/uploads/samueli/Untitled-design-21-300x200.png"
+    },
+    {
+      "officialId": "yuzhe-yang",
+      "name": "Yuzhe Yang",
+      "officialSections": [
+        "Joint Faculty"
+      ],
+      "title": "Assistant Professor",
+      "profileUrl": "https://samueli.ucla.edu/people/yuzhe-yang/",
+      "portraitUrl": "https://samueli.ucla.edu/wp-content/uploads/samueli/Yuzhe-Profile-1-300x200.png"
+    }
+  ]
+}

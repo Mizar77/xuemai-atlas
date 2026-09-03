@@ -1,0 +1,923 @@
+{
+  "completeness": "complete",
+  "fetchedAt": "2026-09-02",
+  "institution": "HKUST Department of Computer Science and Engineering",
+  "officialPageUrl": "https://cse.hkust.edu.hk/admin/people/faculty",
+  "officialDataUrl": "https://cse.hkust.edu.hk/admin/people/faculty",
+  "officialRosterCount": 97,
+  "officialSectionCounts": {
+    "Regular": 53,
+    "Joint Appointments": 12,
+    "Visiting": 1,
+    "Teaching Track": 10,
+    "Research Track": 5,
+    "Adjunct": 2,
+    "Emeritus": 14
+  },
+  "officialSourcePages": [
+    {
+      "section": "Regular",
+      "url": "https://cse.hkust.edu.hk/admin/people/faculty/"
+    },
+    {
+      "section": "Joint Appointments",
+      "url": "https://cse.hkust.edu.hk/admin/people/faculty/?c=joint_appointments"
+    },
+    {
+      "section": "Visiting",
+      "url": "https://cse.hkust.edu.hk/admin/people/faculty/?c=visiting"
+    },
+    {
+      "section": "Teaching Track",
+      "url": "https://cse.hkust.edu.hk/admin/people/faculty/?c=teaching_track"
+    },
+    {
+      "section": "Research Track",
+      "url": "https://cse.hkust.edu.hk/admin/people/faculty/?c=research_track"
+    },
+    {
+      "section": "Adjunct",
+      "url": "https://cse.hkust.edu.hk/admin/people/faculty/?c=adjunct"
+    },
+    {
+      "section": "Emeritus",
+      "url": "https://cse.hkust.edu.hk/admin/people/faculty/?c=emeritus"
+    }
+  ],
+  "sourceDescription": "The official Faculty directory is divided into seven category tabs. This snapshot preserves all 97 unique cards across Regular, Joint Appointments, Visiting, Teaching Track, Research Track, Adjunct and Emeritus categories. No status or research-area filtering was applied.",
+  "people": [
+    {
+      "officialId": "b41f087e5339f359",
+      "name": "Xiaofang ZHOU",
+      "officialSection": "Regular",
+      "title": "Otto Poon Professor of Engineering and Chair Professor and Head",
+      "researchArea": "Data, Knowledge and Information Management",
+      "profileUrl": "https://cse.hkust.edu.hk/admin/people/faculty/profile/zxf",
+      "portraitUrl": "https://cse.hkust.edu.hk/admin/people/faculty/photos/zxf.jpg"
+    },
+    {
+      "officialId": "5004f1ccf700ad94",
+      "name": "Song GUO",
+      "officialSection": "Regular",
+      "title": "Chair Professor and Associate Head",
+      "researchArea": "Artificial Intelligence; Networking and Computer Systems",
+      "profileUrl": "https://cse.hkust.edu.hk/admin/people/faculty/profile/songguo",
+      "portraitUrl": "https://cse.hkust.edu.hk/admin/people/faculty/photos/songguo.jpg"
+    },
+    {
+      "officialId": "76a280b3774051ac",
+      "name": "Raymond Chi-Wing WONG",
+      "officialSection": "Regular",
+      "title": "Professor and Associate Head",
+      "researchArea": "Data, Knowledge and Information Management",
+      "profileUrl": "https://cse.hkust.edu.hk/admin/people/faculty/profile/raywong",
+      "portraitUrl": "https://cse.hkust.edu.hk/admin/people/faculty/photos/raywong.jpg"
+    },
+    {
+      "officialId": "9c4d1717e1d42b5d",
+      "name": "Lei CHEN",
+      "officialSection": "Regular",
+      "title": "Chair Professor",
+      "researchArea": "Data, Knowledge and Information Management",
+      "profileUrl": "https://cse.hkust.edu.hk/admin/people/faculty/profile/leichen",
+      "portraitUrl": "https://cse.hkust.edu.hk/admin/people/faculty/photos/leichen.jpg"
+    },
+    {
+      "officialId": "55da74ed6f302e7a",
+      "name": "Shing-Chi CHEUNG",
+      "officialSection": "Regular",
+      "title": "Chair Professor",
+      "researchArea": "Software Engineering and Programming Languages",
+      "profileUrl": "https://cse.hkust.edu.hk/admin/people/faculty/profile/scc",
+      "portraitUrl": "https://cse.hkust.edu.hk/admin/people/faculty/photos/scc.jpg"
+    },
+    {
+      "officialId": "de41612e7bb48529",
+      "name": "Yike GUO",
+      "officialSection": "Regular",
+      "title": "Chair Professor",
+      "researchArea": "Data, Knowledge and Information Management",
+      "profileUrl": "https://cse.hkust.edu.hk/admin/people/faculty/profile/yikeguo",
+      "portraitUrl": "https://cse.hkust.edu.hk/admin/people/faculty/photos/yikeguo.jpg"
+    },
+    {
+      "officialId": "976cc76e383d5c00",
+      "name": "Jiaya JIA",
+      "officialSection": "Regular",
+      "title": "Chair Professor",
+      "researchArea": "Vision and Graphics; Artificial Intelligence",
+      "profileUrl": "https://cse.hkust.edu.hk/admin/people/faculty/profile/jia",
+      "portraitUrl": "https://cse.hkust.edu.hk/admin/people/faculty/photos/jia.jpg"
+    },
+    {
+      "officialId": "b20c2d9ac6a76507",
+      "name": "Bo LI",
+      "officialSection": "Regular",
+      "title": "Chair Professor",
+      "researchArea": "Networking and Computer Systems",
+      "profileUrl": "https://cse.hkust.edu.hk/admin/people/faculty/profile/bli",
+      "portraitUrl": "https://cse.hkust.edu.hk/admin/people/faculty/photos/bli.jpg"
+    },
+    {
+      "officialId": "fbef5672f01df3a5",
+      "name": "Huamin QU",
+      "officialSection": "Regular",
+      "title": "Chair Professor",
+      "researchArea": "Human-Computer Interaction; Vision and Graphics",
+      "profileUrl": "https://cse.hkust.edu.hk/admin/people/faculty/profile/huamin",
+      "portraitUrl": "https://cse.hkust.edu.hk/admin/people/faculty/photos/huamin.jpg"
+    },
+    {
+      "officialId": "83f64b5f7db0d1e8",
+      "name": "Qian ZHANG",
+      "officialSection": "Regular",
+      "title": "Tencent Professor of Engineering and Chair Professor",
+      "researchArea": "Networking and Computer Systems",
+      "profileUrl": "https://cse.hkust.edu.hk/admin/people/faculty/profile/qianzh",
+      "portraitUrl": "https://cse.hkust.edu.hk/admin/people/faculty/photos/qianzh.jpg"
+    },
+    {
+      "officialId": "ea7e913c692f7430",
+      "name": "Gary Shueng-Han CHAN",
+      "officialSection": "Regular",
+      "title": "Professor",
+      "researchArea": "Networking and Computer Systems",
+      "profileUrl": "https://cse.hkust.edu.hk/admin/people/faculty/profile/gchan",
+      "portraitUrl": "https://cse.hkust.edu.hk/admin/people/faculty/photos/gchan.jpg"
+    },
+    {
+      "officialId": "0dfe5a3322c5e01a",
+      "name": "Kai CHEN",
+      "officialSection": "Regular",
+      "title": "Professor",
+      "researchArea": "Networking and Computer Systems",
+      "profileUrl": "https://cse.hkust.edu.hk/admin/people/faculty/profile/kaichen",
+      "portraitUrl": "https://cse.hkust.edu.hk/admin/people/faculty/photos/kaichen.jpg"
+    },
+    {
+      "officialId": "a16b211c0fe43e77",
+      "name": "Siu-Wing CHENG",
+      "officialSection": "Regular",
+      "title": "Professor",
+      "researchArea": "Theoretical Computer Science",
+      "profileUrl": "https://cse.hkust.edu.hk/admin/people/faculty/profile/scheng",
+      "portraitUrl": "https://cse.hkust.edu.hk/admin/people/faculty/photos/scheng.jpg"
+    },
+    {
+      "officialId": "6d0debded94bf780",
+      "name": "Albert Chi-Shing CHUNG",
+      "officialSection": "Regular",
+      "title": "Professor",
+      "researchArea": "Vision and Graphics; Artificial Intelligence",
+      "profileUrl": "https://cse.hkust.edu.hk/admin/people/faculty/profile/achung",
+      "portraitUrl": "https://cse.hkust.edu.hk/admin/people/faculty/photos/achung.jpg"
+    },
+    {
+      "officialId": "d38ac5050ec35fd2",
+      "name": "Cunsheng DING",
+      "officialSection": "Regular",
+      "title": "Professor",
+      "researchArea": "Theoretical Computer Science; Cybersecurity",
+      "profileUrl": "https://cse.hkust.edu.hk/admin/people/faculty/profile/cding",
+      "portraitUrl": "https://cse.hkust.edu.hk/admin/people/faculty/photos/cding.jpg"
+    },
+    {
+      "officialId": "87d9677d66a44f3c",
+      "name": "Andrew B. HORNER",
+      "officialSection": "Regular",
+      "title": "Professor",
+      "researchArea": "Human-Computer Interaction",
+      "profileUrl": "https://cse.hkust.edu.hk/admin/people/faculty/profile/horner",
+      "portraitUrl": "https://cse.hkust.edu.hk/admin/people/faculty/photos/horner.jpg"
+    },
+    {
+      "officialId": "a25753583e06810d",
+      "name": "James Tin-Yau KWOK",
+      "officialSection": "Regular",
+      "title": "Professor",
+      "researchArea": "Artificial Intelligence",
+      "profileUrl": "https://cse.hkust.edu.hk/admin/people/faculty/profile/jamesk",
+      "portraitUrl": "https://cse.hkust.edu.hk/admin/people/faculty/photos/jamesk.jpg"
+    },
+    {
+      "officialId": "dc172fb86d1cadea",
+      "name": "Mo LI",
+      "officialSection": "Regular",
+      "title": "Professor",
+      "researchArea": "Networking and Computer Systems",
+      "profileUrl": "https://cse.hkust.edu.hk/admin/people/faculty/profile/lim",
+      "portraitUrl": "https://cse.hkust.edu.hk/admin/people/faculty/photos/lim.jpg"
+    },
+    {
+      "officialId": "7b2545ea45a2ad1f",
+      "name": "Fangzhen LIN",
+      "officialSection": "Regular",
+      "title": "Professor",
+      "researchArea": "Artificial Intelligence; Software Engineering and Programming Languages",
+      "profileUrl": "https://cse.hkust.edu.hk/admin/people/faculty/profile/flin",
+      "portraitUrl": "https://cse.hkust.edu.hk/admin/people/faculty/photos/flin.jpg"
+    },
+    {
+      "officialId": "e20748777159d903",
+      "name": "Qiong LUO",
+      "officialSection": "Regular",
+      "title": "Professor",
+      "researchArea": "Data, Knowledge and Information Management; Software Engineering and Programming Languages",
+      "profileUrl": "https://cse.hkust.edu.hk/admin/people/faculty/profile/luo",
+      "portraitUrl": "https://cse.hkust.edu.hk/admin/people/faculty/photos/luo.jpg"
+    },
+    {
+      "officialId": "253f7337971a7c5d",
+      "name": "Dimitris PAPADIAS",
+      "officialSection": "Regular",
+      "title": "Professor",
+      "researchArea": "Data, Knowledge and Information Management",
+      "profileUrl": "https://cse.hkust.edu.hk/admin/people/faculty/profile/dimitris",
+      "portraitUrl": "https://cse.hkust.edu.hk/admin/people/faculty/photos/dimitris.jpg"
+    },
+    {
+      "officialId": "a251b47edaa322e3",
+      "name": "Long QUAN",
+      "officialSection": "Regular",
+      "title": "Professor",
+      "researchArea": "Vision and Graphics",
+      "profileUrl": "https://cse.hkust.edu.hk/admin/people/faculty/profile/quan",
+      "portraitUrl": "https://cse.hkust.edu.hk/admin/people/faculty/photos/quan.jpg"
+    },
+    {
+      "officialId": "eb84fb30ec053a34",
+      "name": "Pedro SANDER",
+      "officialSection": "Regular",
+      "title": "Professor",
+      "researchArea": "Vision and Graphics",
+      "profileUrl": "https://cse.hkust.edu.hk/admin/people/faculty/profile/psander",
+      "portraitUrl": "https://cse.hkust.edu.hk/admin/people/faculty/photos/psander.jpg"
+    },
+    {
+      "officialId": "0986e0cb0f1f45b0",
+      "name": "Chi-Keung TANG",
+      "officialSection": "Regular",
+      "title": "Professor",
+      "researchArea": "Vision and Graphics",
+      "profileUrl": "https://cse.hkust.edu.hk/admin/people/faculty/profile/cktang",
+      "portraitUrl": "https://cse.hkust.edu.hk/admin/people/faculty/photos/cktang.jpg"
+    },
+    {
+      "officialId": "d44e08730fac38cf",
+      "name": "Ke YI",
+      "officialSection": "Regular",
+      "title": "Professor",
+      "researchArea": "Theoretical Computer Science; Data, Knowledge and Information Management",
+      "profileUrl": "https://cse.hkust.edu.hk/admin/people/faculty/profile/yike",
+      "portraitUrl": "https://cse.hkust.edu.hk/admin/people/faculty/photos/yike.jpg"
+    },
+    {
+      "officialId": "3fab5f775500c3ac",
+      "name": "Charles ZHANG",
+      "officialSection": "Regular",
+      "title": "Professor",
+      "researchArea": "Software Engineering and Programming Languages; Cybersecurity",
+      "profileUrl": "https://cse.hkust.edu.hk/admin/people/faculty/profile/charlesz",
+      "portraitUrl": "https://cse.hkust.edu.hk/admin/people/faculty/photos/charlesz.jpg"
+    },
+    {
+      "officialId": "4f40a7b87b04ad57",
+      "name": "Nevin Lianwen ZHANG",
+      "officialSection": "Regular",
+      "title": "Professor",
+      "researchArea": "Artificial Intelligence",
+      "profileUrl": "https://cse.hkust.edu.hk/admin/people/faculty/profile/lzhang",
+      "portraitUrl": "https://cse.hkust.edu.hk/admin/people/faculty/photos/lzhang.jpg"
+    },
+    {
+      "officialId": "f3e7d15c3ad8f84a",
+      "name": "Sunil ARYA",
+      "officialSection": "Regular",
+      "title": "Associate Professor",
+      "researchArea": "Theoretical Computer Science",
+      "profileUrl": "https://cse.hkust.edu.hk/admin/people/faculty/profile/arya",
+      "portraitUrl": "https://cse.hkust.edu.hk/admin/people/faculty/photos/arya.jpg"
+    },
+    {
+      "officialId": "b1f226c7a7bf66b9",
+      "name": "Brahim BENSAOU",
+      "officialSection": "Regular",
+      "title": "Associate Professor",
+      "researchArea": "Networking and Computer Systems",
+      "profileUrl": "https://cse.hkust.edu.hk/admin/people/faculty/profile/csbb",
+      "portraitUrl": "https://cse.hkust.edu.hk/admin/people/faculty/photos/csbb.jpg"
+    },
+    {
+      "officialId": "6f3748e47c1351ed",
+      "name": "Qifeng CHEN",
+      "officialSection": "Regular",
+      "title": "Associate Professor",
+      "researchArea": "Vision and Graphics; Artificial Intelligence",
+      "profileUrl": "https://cse.hkust.edu.hk/admin/people/faculty/profile/cqf",
+      "portraitUrl": "https://cse.hkust.edu.hk/admin/people/faculty/photos/cqf.jpg"
+    },
+    {
+      "officialId": "b7354aaff17b5c85",
+      "name": "Xiaojuan MA",
+      "officialSection": "Regular",
+      "title": "Associate Professor",
+      "researchArea": "Human-Computer Interaction",
+      "profileUrl": "https://cse.hkust.edu.hk/admin/people/faculty/profile/mxj",
+      "portraitUrl": "https://cse.hkust.edu.hk/admin/people/faculty/photos/mxj.jpg"
+    },
+    {
+      "officialId": "b8d31b1913b9a17d",
+      "name": "Wilfred Siu-Hung NG",
+      "officialSection": "Regular",
+      "title": "Associate Professor",
+      "researchArea": "Data, Knowledge and Information Management",
+      "profileUrl": "https://cse.hkust.edu.hk/admin/people/faculty/profile/wilfred",
+      "portraitUrl": "https://cse.hkust.edu.hk/admin/people/faculty/photos/wilfred.jpg"
+    },
+    {
+      "officialId": "fbd17b3b58960759",
+      "name": "Dimitris PAPADOPOULOS",
+      "officialSection": "Regular",
+      "title": "Associate Professor",
+      "researchArea": "Cybersecurity",
+      "profileUrl": "https://cse.hkust.edu.hk/admin/people/faculty/profile/dipapado",
+      "portraitUrl": "https://cse.hkust.edu.hk/admin/people/faculty/photos/dipapado.jpg"
+    },
+    {
+      "officialId": "2a9b6b8bee98b99b",
+      "name": "Yangqiu SONG",
+      "officialSection": "Regular",
+      "title": "Associate Professor",
+      "researchArea": "Artificial Intelligence",
+      "profileUrl": "https://cse.hkust.edu.hk/admin/people/faculty/profile/yqsong",
+      "portraitUrl": "https://cse.hkust.edu.hk/admin/people/faculty/photos/yqsong.jpg"
+    },
+    {
+      "officialId": "d7d816c86702b895",
+      "name": "Shuai WANG",
+      "officialSection": "Regular",
+      "title": "Associate Professor",
+      "researchArea": "Cybersecurity; Software Engineering and Programming Languages",
+      "profileUrl": "https://cse.hkust.edu.hk/admin/people/faculty/profile/shuaiw",
+      "portraitUrl": "https://cse.hkust.edu.hk/admin/people/faculty/photos/shuaiw.jpg"
+    },
+    {
+      "officialId": "086c67f64fb0c5e4",
+      "name": "Wei WANG",
+      "officialSection": "Regular",
+      "title": "Associate Professor",
+      "researchArea": "Networking and Computer Systems",
+      "profileUrl": "https://cse.hkust.edu.hk/admin/people/faculty/profile/weiwa",
+      "portraitUrl": "https://cse.hkust.edu.hk/admin/people/faculty/photos/weiwa.jpg"
+    },
+    {
+      "officialId": "864e2ecfde2820d3",
+      "name": "Dan XU",
+      "officialSection": "Regular",
+      "title": "Associate Professor",
+      "researchArea": "Vision and Graphics",
+      "profileUrl": "https://cse.hkust.edu.hk/admin/people/faculty/profile/danxu",
+      "portraitUrl": "https://cse.hkust.edu.hk/admin/people/faculty/photos/danxu.jpg"
+    },
+    {
+      "officialId": "cded9a5ea5675fd1",
+      "name": "Hao CHEN",
+      "officialSection": "Regular",
+      "title": "Assistant Professor",
+      "researchArea": "Vision and Graphics; Artificial Intelligence",
+      "profileUrl": "https://cse.hkust.edu.hk/admin/people/faculty/profile/jhc",
+      "portraitUrl": "https://cse.hkust.edu.hk/admin/people/faculty/photos/jhc.jpg"
+    },
+    {
+      "officialId": "7fe4d5c5e8aee69f",
+      "name": "Long CHEN",
+      "officialSection": "Regular",
+      "title": "Assistant Professor",
+      "researchArea": "Vision and Graphics; Artificial Intelligence",
+      "profileUrl": "https://cse.hkust.edu.hk/admin/people/faculty/profile/longchen",
+      "portraitUrl": "https://cse.hkust.edu.hk/admin/people/faculty/photos/longchen.jpg"
+    },
+    {
+      "officialId": "fb6238ebbfc38f60",
+      "name": "Yi R. FUNG",
+      "officialSection": "Regular",
+      "title": "Assistant Professor",
+      "researchArea": "Artificial Intelligence",
+      "profileUrl": "https://cse.hkust.edu.hk/admin/people/faculty/profile/yrfung",
+      "portraitUrl": "https://cse.hkust.edu.hk/admin/people/faculty/photos/yrfung.jpg"
+    },
+    {
+      "officialId": "eb432e7a279b1ce4",
+      "name": "Junxian HE",
+      "officialSection": "Regular",
+      "title": "Assistant Professor",
+      "researchArea": "Artificial Intelligence; Software Engineering and Programming Languages",
+      "profileUrl": "https://cse.hkust.edu.hk/admin/people/faculty/profile/junxianh",
+      "portraitUrl": "https://cse.hkust.edu.hk/admin/people/faculty/photos/junxianh.jpg"
+    },
+    {
+      "officialId": "ec66b99e7c4f428e",
+      "name": "Yaonan JIN",
+      "officialSection": "Regular",
+      "title": "Assistant Professor",
+      "researchArea": "Theoretical Computer Science",
+      "profileUrl": "https://cse.hkust.edu.hk/admin/people/faculty/profile/jinyaonan",
+      "portraitUrl": "https://cse.hkust.edu.hk/admin/people/faculty/photos/jinyaonan.jpg"
+    },
+    {
+      "officialId": "9099ad209dc2c24a",
+      "name": "Chaojian LI",
+      "officialSection": "Regular",
+      "title": "Assistant Professor",
+      "researchArea": "Networking and Computer Systems; Data, Knowledge and Information Management",
+      "profileUrl": "https://cse.hkust.edu.hk/admin/people/faculty/profile/chaojian",
+      "portraitUrl": "https://cse.hkust.edu.hk/admin/people/faculty/photos/chaojian.jpg"
+    },
+    {
+      "officialId": "d4dbd48ba8cbcff9",
+      "name": "Sehi L'YI",
+      "officialSection": "Regular",
+      "title": "Assistant Professor",
+      "researchArea": "Human-Computer Interaction; Artificial Intelligence",
+      "profileUrl": "https://cse.hkust.edu.hk/admin/people/faculty/profile/sehi",
+      "portraitUrl": "https://cse.hkust.edu.hk/admin/people/faculty/photos/sehi.jpg"
+    },
+    {
+      "officialId": "a41d2b010a8eedd2",
+      "name": "Arpit NARECHANIA",
+      "officialSection": "Regular",
+      "title": "Assistant Professor",
+      "researchArea": "Human-Computer Interaction",
+      "profileUrl": "https://cse.hkust.edu.hk/admin/people/faculty/profile/arpit",
+      "portraitUrl": "https://cse.hkust.edu.hk/admin/people/faculty/photos/arpit.jpg"
+    },
+    {
+      "officialId": "bfc9e4841d055952",
+      "name": "Xiaomin OUYANG",
+      "officialSection": "Regular",
+      "title": "Assistant Professor",
+      "researchArea": "Networking and Computer Systems",
+      "profileUrl": "https://cse.hkust.edu.hk/admin/people/faculty/profile/xmouyang",
+      "portraitUrl": "https://cse.hkust.edu.hk/admin/people/faculty/photos/xmouyang.jpg"
+    },
+    {
+      "officialId": "302e8b0d6a52b2f2",
+      "name": "Lionel PARREAUX",
+      "officialSection": "Regular",
+      "title": "Assistant Professor",
+      "researchArea": "Software Engineering and Programming Languages",
+      "profileUrl": "https://cse.hkust.edu.hk/admin/people/faculty/profile/parreaux",
+      "portraitUrl": "https://cse.hkust.edu.hk/admin/people/faculty/photos/parreaux.jpg"
+    },
+    {
+      "officialId": "931f6002a9dc75a1",
+      "name": "Dongdong SHE",
+      "officialSection": "Regular",
+      "title": "Assistant Professor",
+      "researchArea": "Cybersecurity; Software Engineering and Programming Languages",
+      "profileUrl": "https://cse.hkust.edu.hk/admin/people/faculty/profile/dongdong",
+      "portraitUrl": "https://cse.hkust.edu.hk/admin/people/faculty/photos/dongdong.jpg"
+    },
+    {
+      "officialId": "c0e745b7361e2a3c",
+      "name": "Jiasi SHEN",
+      "officialSection": "Regular",
+      "title": "Assistant Professor",
+      "researchArea": "Software Engineering and Programming Languages",
+      "profileUrl": "https://cse.hkust.edu.hk/admin/people/faculty/profile/sjs",
+      "portraitUrl": "https://cse.hkust.edu.hk/admin/people/faculty/photos/sjs.jpg"
+    },
+    {
+      "officialId": "9da7cabefc40c8f2",
+      "name": "Yinghao XU",
+      "officialSection": "Regular",
+      "title": "Assistant Professor",
+      "researchArea": "Artificial Intelligence; Vision and Graphics",
+      "profileUrl": "https://cse.hkust.edu.hk/admin/people/faculty/profile/justimyhxu",
+      "portraitUrl": "https://cse.hkust.edu.hk/admin/people/faculty/photos/justimyhxu.jpg"
+    },
+    {
+      "officialId": "676927881f4ca0ae",
+      "name": "Binhang YUAN",
+      "officialSection": "Regular",
+      "title": "Assistant Professor",
+      "researchArea": "Data, Knowledge and Information Management",
+      "profileUrl": "https://cse.hkust.edu.hk/admin/people/faculty/profile/biyuan",
+      "portraitUrl": "https://cse.hkust.edu.hk/admin/people/faculty/photos/biyuan.jpg"
+    },
+    {
+      "officialId": "fe463eb171f63a33",
+      "name": "Zihan ZHANG",
+      "officialSection": "Regular",
+      "title": "Assistant Professor",
+      "researchArea": "Artificial Intelligence; Theoretical Computer Science",
+      "profileUrl": "https://cse.hkust.edu.hk/admin/people/faculty/profile/zihanz",
+      "portraitUrl": "https://cse.hkust.edu.hk/admin/people/faculty/photos/zihanz.jpg"
+    },
+    {
+      "officialId": "d02930a43700182d",
+      "name": "Mingxun ZHOU",
+      "officialSection": "Regular",
+      "title": "Assistant Professor",
+      "researchArea": "Cybersecurity; Theoretical Computer Science",
+      "profileUrl": "https://cse.hkust.edu.hk/admin/people/faculty/profile/mingxunz",
+      "portraitUrl": "https://cse.hkust.edu.hk/admin/people/faculty/photos/mingxunz.jpg"
+    },
+    {
+      "officialId": "89a8633dac614a80",
+      "name": "Tim Kwang-Ting CHENG",
+      "officialSection": "Joint Appointments",
+      "title": "",
+      "researchArea": "Vision and Graphics",
+      "profileUrl": "https://cse.hkust.edu.hk/admin/people/faculty/profile/timcheng",
+      "portraitUrl": "https://cse.hkust.edu.hk/admin/people/faculty/photos/timcheng.jpg"
+    },
+    {
+      "officialId": "af84de2173a719cb",
+      "name": "Lionel M. NI",
+      "officialSection": "Joint Appointments",
+      "title": "",
+      "researchArea": "Networking and Computer Systems",
+      "profileUrl": "https://cse.hkust.edu.hk/admin/people/faculty/profile/ni",
+      "portraitUrl": "https://cse.hkust.edu.hk/admin/people/faculty/photos/ni.jpg"
+    },
+    {
+      "officialId": "25d4e5ea2e87bd23",
+      "name": "Yuan XIE",
+      "officialSection": "Joint Appointments",
+      "title": "",
+      "researchArea": "Artificial Intelligence",
+      "profileUrl": "https://cse.hkust.edu.hk/admin/people/faculty/profile/yuanxie",
+      "portraitUrl": "https://cse.hkust.edu.hk/admin/people/faculty/photos/yuanxie.jpg"
+    },
+    {
+      "officialId": "829bbce5666d899a",
+      "name": "Hongbo FU",
+      "officialSection": "Joint Appointments",
+      "title": "",
+      "researchArea": "Vision and Graphics",
+      "profileUrl": "https://cse.hkust.edu.hk/admin/people/faculty/profile/hongbofu",
+      "portraitUrl": "https://cse.hkust.edu.hk/admin/people/faculty/photos/hongbofu.jpg"
+    },
+    {
+      "officialId": "b655408fcaebc05f",
+      "name": "Janet Hui-wen HSIAO",
+      "officialSection": "Joint Appointments",
+      "title": "",
+      "researchArea": "Artificial Intelligence",
+      "profileUrl": "https://cse.hkust.edu.hk/admin/people/faculty/profile/jhhsiao",
+      "portraitUrl": "https://cse.hkust.edu.hk/admin/people/faculty/photos/jhhsiao.jpg"
+    },
+    {
+      "officialId": "6230fe357825f129",
+      "name": "Sai-Kit YEUNG",
+      "officialSection": "Joint Appointments",
+      "title": "",
+      "researchArea": "Vision and Graphics; Human-Computer Interaction",
+      "profileUrl": "https://cse.hkust.edu.hk/admin/people/faculty/profile/saikit",
+      "portraitUrl": "https://cse.hkust.edu.hk/admin/people/faculty/photos/saikit.jpg"
+    },
+    {
+      "officialId": "390a57b26407b4a2",
+      "name": "Tristan C. BRAUD",
+      "officialSection": "Joint Appointments",
+      "title": "",
+      "researchArea": "Networking and Computer Systems; Human-Computer Interaction",
+      "profileUrl": "https://cse.hkust.edu.hk/admin/people/faculty/profile/braudt",
+      "portraitUrl": "https://cse.hkust.edu.hk/admin/people/faculty/photos/braudt.jpg"
+    },
+    {
+      "officialId": "4a1d4439c384813b",
+      "name": "Xiaomeng LI",
+      "officialSection": "Joint Appointments",
+      "title": "",
+      "researchArea": "Artificial Intelligence; Vision and Graphics",
+      "profileUrl": "https://cse.hkust.edu.hk/admin/people/faculty/profile/eexmli",
+      "portraitUrl": "https://cse.hkust.edu.hk/admin/people/faculty/photos/eexmli.jpg"
+    },
+    {
+      "officialId": "9e25adc8588d3a4d",
+      "name": "Zili MENG",
+      "officialSection": "Joint Appointments",
+      "title": "",
+      "researchArea": "Networking and Computer Systems",
+      "profileUrl": "https://cse.hkust.edu.hk/admin/people/faculty/profile/zilim",
+      "portraitUrl": "https://cse.hkust.edu.hk/admin/people/faculty/photos/zilim.jpg"
+    },
+    {
+      "officialId": "97a9613a0ffe0fbf",
+      "name": "Ling PAN",
+      "officialSection": "Joint Appointments",
+      "title": "",
+      "researchArea": "Artificial Intelligence",
+      "profileUrl": "https://cse.hkust.edu.hk/admin/people/faculty/profile/lingpan",
+      "portraitUrl": "https://cse.hkust.edu.hk/admin/people/faculty/photos/lingpan.jpg"
+    },
+    {
+      "officialId": "7deca8993d08f4b6",
+      "name": "Anyi RAO",
+      "officialSection": "Joint Appointments",
+      "title": "",
+      "researchArea": "Vision and Graphics",
+      "profileUrl": "https://cse.hkust.edu.hk/admin/people/faculty/profile/anyirao",
+      "portraitUrl": "https://cse.hkust.edu.hk/admin/people/faculty/photos/anyirao.jpg"
+    },
+    {
+      "officialId": "6cf82d30ae847275",
+      "name": "Qijia SHAO",
+      "officialSection": "Joint Appointments",
+      "title": "",
+      "researchArea": "Human-Computer Interaction",
+      "profileUrl": "https://cse.hkust.edu.hk/admin/people/faculty/profile/qijiashao",
+      "portraitUrl": "https://cse.hkust.edu.hk/admin/people/faculty/photos/qijiashao.jpg"
+    },
+    {
+      "officialId": "a54979d9481105fb",
+      "name": "Baochun LI",
+      "officialSection": "Visiting",
+      "title": "Visiting Professor",
+      "researchArea": "",
+      "profileUrl": "https://cse.hkust.edu.hk/admin/people/faculty/profile/baochunli",
+      "portraitUrl": "https://cse.hkust.edu.hk/admin/people/faculty/photos/baochunli.jpg"
+    },
+    {
+      "officialId": "dc80854ded7bbff2",
+      "name": "De Kai",
+      "officialSection": "Teaching Track",
+      "title": "Professor of Engineering Education",
+      "researchArea": "Artificial Intelligence; Human-Computer Interaction",
+      "profileUrl": "https://cse.hkust.edu.hk/admin/people/faculty/profile/dekai",
+      "portraitUrl": "https://cse.hkust.edu.hk/admin/people/faculty/photos/dekai.jpg"
+    },
+    {
+      "officialId": "fcf2f7e14b7add16",
+      "name": "Wai Ting LEUNG",
+      "officialSection": "Teaching Track",
+      "title": "Associate Professor of Engineering Education",
+      "researchArea": "Data, Knowledge and Information Management",
+      "profileUrl": "https://cse.hkust.edu.hk/admin/people/faculty/profile/kwtleung",
+      "portraitUrl": "https://cse.hkust.edu.hk/admin/people/faculty/photos/kwtleung.jpg"
+    },
+    {
+      "officialId": "8cd91fbd250629fe",
+      "name": "Desmond Yau Chat TSOI",
+      "officialSection": "Teaching Track",
+      "title": "Associate Professor of Engineering Education",
+      "researchArea": "Vision and Graphics",
+      "profileUrl": "https://cse.hkust.edu.hk/admin/people/faculty/profile/desmond",
+      "portraitUrl": "https://cse.hkust.edu.hk/admin/people/faculty/photos/desmond.jpg"
+    },
+    {
+      "officialId": "792388786f578024",
+      "name": "Gibson LAM",
+      "officialSection": "Teaching Track",
+      "title": "Assistant Professor of Engineering Education",
+      "researchArea": "Software Engineering and Programming Languages",
+      "profileUrl": "https://cse.hkust.edu.hk/admin/people/faculty/profile/gibson",
+      "portraitUrl": "https://cse.hkust.edu.hk/admin/people/faculty/photos/gibson.jpg"
+    },
+    {
+      "officialId": "af5e77a59f98449b",
+      "name": "Cindy Xin LI",
+      "officialSection": "Teaching Track",
+      "title": "Assistant Professor of Engineering Education",
+      "researchArea": "Networking and Computer Systems",
+      "profileUrl": "https://cse.hkust.edu.hk/admin/people/faculty/profile/lixin",
+      "portraitUrl": "https://cse.hkust.edu.hk/admin/people/faculty/photos/lixin.jpg"
+    },
+    {
+      "officialId": "ddacc9ec84172e9a",
+      "name": "Alex Ngok LAM",
+      "officialSection": "Teaching Track",
+      "title": "Assistant Professor of Engineering Education",
+      "researchArea": "Networking and Computer Systems",
+      "profileUrl": "https://cse.hkust.edu.hk/admin/people/faculty/profile/lamngok",
+      "portraitUrl": "https://cse.hkust.edu.hk/admin/people/faculty/photos/lamngok.jpg"
+    },
+    {
+      "officialId": "2f7394429589e703",
+      "name": "Cecia Ki CHAN",
+      "officialSection": "Teaching Track",
+      "title": "Lecturer",
+      "researchArea": "Data, Knowledge and Information Management",
+      "profileUrl": "https://cse.hkust.edu.hk/admin/people/faculty/profile/kccecia",
+      "portraitUrl": "https://cse.hkust.edu.hk/admin/people/faculty/photos/kccecia.jpg"
+    },
+    {
+      "officialId": "aaf613d55b6b70a3",
+      "name": "Tsz Him CHEUNG",
+      "officialSection": "Teaching Track",
+      "title": "Lecturer",
+      "researchArea": "Artificial Intelligence",
+      "profileUrl": "https://cse.hkust.edu.hk/admin/people/faculty/profile/thjcheung",
+      "portraitUrl": "https://cse.hkust.edu.hk/admin/people/faculty/photos/thjcheung.jpg"
+    },
+    {
+      "officialId": "db92fbe3107f65bf",
+      "name": "Maocheng LI",
+      "officialSection": "Teaching Track",
+      "title": "Lecturer",
+      "researchArea": "Data, Knowledge and Information Management",
+      "profileUrl": "https://cse.hkust.edu.hk/admin/people/faculty/profile/maocheng",
+      "portraitUrl": "https://cse.hkust.edu.hk/admin/people/faculty/photos/maocheng.jpg"
+    },
+    {
+      "officialId": "dd93caf154281ead",
+      "name": "Huiru XIAO",
+      "officialSection": "Teaching Track",
+      "title": "Lecturer",
+      "researchArea": "Artificial Intelligence",
+      "profileUrl": "https://cse.hkust.edu.hk/admin/people/faculty/profile/huiruxiao",
+      "portraitUrl": "https://cse.hkust.edu.hk/admin/people/faculty/photos/huiruxiao.jpg"
+    },
+    {
+      "officialId": "ff17b2e615b6fcde",
+      "name": "Jialun CAO",
+      "officialSection": "Research Track",
+      "title": "Research Assistant Professor",
+      "researchArea": "Software Engineering and Programming Languages",
+      "profileUrl": "https://cse.hkust.edu.hk/admin/people/faculty/profile/jialuncao",
+      "portraitUrl": "https://cse.hkust.edu.hk/admin/people/faculty/photos/jialuncao.jpg"
+    },
+    {
+      "officialId": "16b34cdf22dce483",
+      "name": "Songfan LI",
+      "officialSection": "Research Track",
+      "title": "Research Assistant Professor",
+      "researchArea": "Networking and Computer Systems",
+      "profileUrl": "https://cse.hkust.edu.hk/admin/people/faculty/profile/lisongfan",
+      "portraitUrl": "https://cse.hkust.edu.hk/admin/people/faculty/photos/lisongfan.jpg"
+    },
+    {
+      "officialId": "3216d484384f608c",
+      "name": "Wentao XIE",
+      "officialSection": "Research Track",
+      "title": "Research Assistant Professor",
+      "researchArea": "Networking and Computer Systems",
+      "profileUrl": "https://cse.hkust.edu.hk/admin/people/faculty/profile/wentaox",
+      "portraitUrl": "https://cse.hkust.edu.hk/admin/people/faculty/photos/wentaox.jpg"
+    },
+    {
+      "officialId": "b4011d018b1b8eb6",
+      "name": "Linping YUAN",
+      "officialSection": "Research Track",
+      "title": "Research Assistant Professor",
+      "researchArea": "Human-Computer Interaction; Vision and Graphics",
+      "profileUrl": "https://cse.hkust.edu.hk/admin/people/faculty/profile/yuanlp",
+      "portraitUrl": "https://cse.hkust.edu.hk/admin/people/faculty/photos/yuanlp.jpg"
+    },
+    {
+      "officialId": "1bca8c24c3de96f0",
+      "name": "Jie ZHANG",
+      "officialSection": "Research Track",
+      "title": "Research Assistant Professor",
+      "researchArea": "Networking and Computer Systems",
+      "profileUrl": "https://cse.hkust.edu.hk/admin/people/faculty/profile/csejzhang",
+      "portraitUrl": "https://cse.hkust.edu.hk/admin/people/faculty/photos/csejzhang.jpg"
+    },
+    {
+      "officialId": "c197466a75b757a3",
+      "name": "Zhenguo LI",
+      "officialSection": "Adjunct",
+      "title": "Adjunct Professor",
+      "researchArea": "Artificial Intelligence",
+      "profileUrl": "https://cse.hkust.edu.hk/admin/people/faculty/profile/zhengl",
+      "portraitUrl": "https://cse.hkust.edu.hk/admin/people/faculty/photos/zhengl.jpg"
+    },
+    {
+      "officialId": "350256a62435140a",
+      "name": "Yu-Wing TAI",
+      "officialSection": "Adjunct",
+      "title": "Adjunct Professor",
+      "researchArea": "Vision and Graphics",
+      "profileUrl": "https://cse.hkust.edu.hk/admin/people/faculty/profile/yuwing",
+      "portraitUrl": "https://cse.hkust.edu.hk/admin/people/faculty/photos/yuwing.jpg"
+    },
+    {
+      "officialId": "3eab846d66623514",
+      "name": "Tony F. CHAN",
+      "officialSection": "Emeritus",
+      "title": "Professor Emeritus",
+      "researchArea": "",
+      "profileUrl": "https://cse.hkust.edu.hk/admin/people/faculty/profile/tfchan",
+      "portraitUrl": "https://cse.hkust.edu.hk/admin/people/faculty/photos/tfchan.jpg"
+    },
+    {
+      "officialId": "5be0d80745951f14",
+      "name": "Roland T. CHIN",
+      "officialSection": "Emeritus",
+      "title": "Professor Emeritus",
+      "researchArea": "",
+      "profileUrl": "https://cse.hkust.edu.hk/admin/people/faculty/profile/roland",
+      "portraitUrl": "https://cse.hkust.edu.hk/admin/people/faculty/photos/roland.jpg"
+    },
+    {
+      "officialId": "92d5e1688958f526",
+      "name": "Mordecai J. GOLIN",
+      "officialSection": "Emeritus",
+      "title": "Professor Emeritus",
+      "researchArea": "",
+      "profileUrl": "https://cse.hkust.edu.hk/admin/people/faculty/profile/golin",
+      "portraitUrl": "https://cse.hkust.edu.hk/admin/people/faculty/photos/golin.jpg"
+    },
+    {
+      "officialId": "1ce6d0fc008194f8",
+      "name": "Mounir HAMDI",
+      "officialSection": "Emeritus",
+      "title": "Professor Emeritus",
+      "researchArea": "",
+      "profileUrl": "https://cse.hkust.edu.hk/admin/people/faculty/profile/hamdi",
+      "portraitUrl": "https://cse.hkust.edu.hk/admin/people/faculty/photos/hamdi.jpg"
+    },
+    {
+      "officialId": "635f7917b669ecae",
+      "name": "Dik-Lun LEE",
+      "officialSection": "Emeritus",
+      "title": "Professor Emeritus",
+      "researchArea": "",
+      "profileUrl": "https://cse.hkust.edu.hk/admin/people/faculty/profile/dlee",
+      "portraitUrl": "https://cse.hkust.edu.hk/admin/people/faculty/photos/dlee.jpg"
+    },
+    {
+      "officialId": "9d3081ef140e52f9",
+      "name": "Frederick H. LOCHOVSKY",
+      "officialSection": "Emeritus",
+      "title": "Professor Emeritus",
+      "researchArea": "",
+      "profileUrl": "https://cse.hkust.edu.hk/admin/people/faculty/profile/fred",
+      "portraitUrl": "https://cse.hkust.edu.hk/admin/people/faculty/photos/fred.jpg"
+    },
+    {
+      "officialId": "25116b1de643efbd",
+      "name": "Ting-Chuen PONG",
+      "officialSection": "Emeritus",
+      "title": "Professor Emeritus",
+      "researchArea": "",
+      "profileUrl": "https://cse.hkust.edu.hk/admin/people/faculty/profile/tcpong",
+      "portraitUrl": "https://cse.hkust.edu.hk/admin/people/faculty/photos/tcpong.jpg"
+    },
+    {
+      "officialId": "7de072f3484a75f8",
+      "name": "Vincent Y. S. SHEN",
+      "officialSection": "Emeritus",
+      "title": "Professor Emeritus",
+      "researchArea": "",
+      "profileUrl": "https://cse.hkust.edu.hk/admin/people/faculty/profile/shen",
+      "portraitUrl": "https://cse.hkust.edu.hk/admin/people/faculty/photos/shen.jpg"
+    },
+    {
+      "officialId": "5edbd4187ec25faf",
+      "name": "Chiew-Lan TAI",
+      "officialSection": "Emeritus",
+      "title": "Professor Emeritus",
+      "researchArea": "",
+      "profileUrl": "https://cse.hkust.edu.hk/admin/people/faculty/profile/taicl",
+      "portraitUrl": "https://cse.hkust.edu.hk/admin/people/faculty/photos/taicl.jpg"
+    },
+    {
+      "officialId": "4dee712740c44437",
+      "name": "Derick WOOD",
+      "officialSection": "Emeritus",
+      "title": "Professor Emeritus",
+      "researchArea": "",
+      "profileUrl": "https://cse.hkust.edu.hk/admin/people/faculty/profile/dwood",
+      "portraitUrl": "https://cse.hkust.edu.hk/admin/people/faculty/photos/dwood.jpg"
+    },
+    {
+      "officialId": "063d53b3d9b77e29",
+      "name": "Qiang YANG",
+      "officialSection": "Emeritus",
+      "title": "Professor Emeritus",
+      "researchArea": "",
+      "profileUrl": "https://cse.hkust.edu.hk/admin/people/faculty/profile/qyang",
+      "portraitUrl": "https://cse.hkust.edu.hk/admin/people/faculty/photos/qyang.jpg"
+    },
+    {
+      "officialId": "bfce638f0e03db85",
+      "name": "Dit-Yan YEUNG",
+      "officialSection": "Emeritus",
+      "title": "Professor Emeritus",
+      "researchArea": "",
+      "profileUrl": "https://cse.hkust.edu.hk/admin/people/faculty/profile/dyyeung",
+      "portraitUrl": "https://cse.hkust.edu.hk/admin/people/faculty/photos/dyyeung.jpg"
+    },
+    {
+      "officialId": "41d18b5c67c19e16",
+      "name": "Brian Kan-Wing MAK",
+      "officialSection": "Emeritus",
+      "title": "Associate Professor Emeritus",
+      "researchArea": "",
+      "profileUrl": "https://cse.hkust.edu.hk/admin/people/faculty/profile/mak",
+      "portraitUrl": "https://cse.hkust.edu.hk/admin/people/faculty/photos/mak.jpg"
+    },
+    {
+      "officialId": "78dd9591e781d3e4",
+      "name": "Helen C. SHEN",
+      "officialSection": "Emeritus",
+      "title": "Associate Professor Emeritus",
+      "researchArea": "",
+      "profileUrl": "https://cse.hkust.edu.hk/admin/people/faculty/profile/helens",
+      "portraitUrl": "https://cse.hkust.edu.hk/admin/people/faculty/photos/helens.jpg"
+    }
+  ]
+}

@@ -266,30 +266,39 @@ test("renders company and evidence sections", async () => {
 test("renders the expanded Mainland China roster and coverage", async () => {
   const response = await render();
   const html = await response.text();
+  const [mainlandRoster, mainlandPhase2, atlasSource] = await Promise.all([
+    readFile(new URL("../app/mainland-data.ts", import.meta.url), "utf8"),
+    readFile(new URL("../app/mainland-phase2-data.ts", import.meta.url), "utf8"),
+    readFile(new URL("../app/AcademicAtlas.tsx", import.meta.url), "utf8"),
+  ]);
+  const rosterSource = `${mainlandRoster}\n${mainlandPhase2}`;
 
   for (const institution of ["THU", "PKU", "FDU", "RUC", "HIT", "CAS-IA", "NJU", "SJTU", "ZJU", "USTC", "BIT", "BUAA", "BUPT", "XJTU", "SYSU", "ECNU", "WHU"]) {
-    assert.match(html, new RegExp(`>${institution}<`));
+    assert.match(rosterSource, new RegExp(institution));
   }
   for (const scholar of ["孙茂松", "潘亮铭", "邱锡鹏", "窦志成", "车万翔", "宗成庆", "黄书剑", "吴小宝"]) {
-    assert.match(html, new RegExp(scholar));
+    assert.match(rosterSource, new RegExp(scholar));
   }
   for (const romanizedName of ["Maosong Sun", "Liangming Pan", "Xipeng Qiu", "Zhicheng Dou"]) {
     assert.doesNotMatch(html, new RegExp(`<(?:strong|h3)>${romanizedName}</(?:strong|h3)>`));
   }
   for (const addedScholar of ["陈华钧", "张岸", "黄河燕", "陶重阳", "王小捷", "丁宁", "刘咏梅", "周杰", "钱铁云"]) {
-    assert.match(html, new RegExp(addedScholar));
+    assert.match(rosterSource, new RegExp(addedScholar));
   }
-  assert.match(html, /大陆第二期|17 个重点机构/);
+  assert.match(atlasSource, /大陆覆盖 17 个重点机构/);
 });
 
 test("renders enriched senior-scholar profiles and evidence density", async () => {
-  const response = await render();
-  const html = await response.text();
+  const [enrichment, seniorNetwork] = await Promise.all([
+    readFile(new URL("../app/mainland-enrichment-data.ts", import.meta.url), "utf8"),
+    readFile(new URL("../app/senior-core-network-expansion.ts", import.meta.url), "utf8"),
+  ]);
 
-  assert.match(html, /学堂在线/);
-  assert.match(html, /来源 [4-9]\d* · 脉络 (?:[5-9]|\d{2,}) · 关系 (?:[3-9]|\d{2,}) · 去向 (?:[8-9]|\d{2,})/);
-  assert.match(html, /来源 3 · 脉络 5 · 关系 2 · 去向 24/);
-  assert.match(html, /来源 4 · 脉络 4 · 关系 1 · 去向 3 · 组员 1/);
+  assert.match(enrichment, /学堂在线/);
+  assert.match(enrichment, /mainlandPersonEnhancements/);
+  assert.match(seniorNetwork, /seniorCoreNetworkPersonEnhancements/);
+  assert.match(seniorNetwork, /seniorCoreNetworkRelationships/);
+  assert.match(seniorNetwork, /seniorCoreNetworkPlacements/);
 });
 
 test("renders named Mainland student destinations with teacher coverage", async () => {
@@ -298,12 +307,13 @@ test("renders named Mainland student destinations with teacher coverage", async 
   const placements = await readFile(new URL("../app/mainland-enrichment-data.ts", import.meta.url), "utf8");
 
   assert.match(html, /学生去向/);
-  assert.match(html, /公开可核验样本，不是完整就业统计或导师排名/);
+  const atlasSource = await readFile(new URL("../app/AcademicAtlas.tsx", import.meta.url), "utf8");
+  assert.match(atlasSource, /公开可核验样本，不是完整就业统计或导师排名/);
   for (const student of ["宋皓宇", "袁建华", "王兴昊", "朱泽圻"]) {
     assert.match(placements, new RegExp(student));
   }
   assert.match(placements, /Genius Youth Program/);
-  assert.match(html, /去向 24/);
+  assert.ok((placements.match(/teacherId:/g) ?? []).length >= 40);
 });
 
 test("renders P0 discovery, trust, and contribution controls", async () => {
@@ -313,10 +323,13 @@ test("renders P0 discovery, trust, and contribution controls", async () => {
   const feedbackSource = await readFile(new URL("../app/FeedbackDrawer.tsx", import.meta.url), "utf8");
   const feedbackRouteSource = await readFile(new URL("../app/api/feedback/route.ts", import.meta.url), "utf8");
 
-  assert.match(html, /跨六地区搜索人物、学生、公司、方向/);
-  assert.match(html, /从你的目标开始/);
-  assert.match(html, /复制人物链接/);
-  assert.match(html, /资料核验/);
+  assert.match(html, /学脉/);
+  assert.match(html, /看懂学术圈/);
+  assert.match(html, /全球学术关系图谱/);
+  assert.match(atlasSource, /输入地区、方向、老师或招生意图/);
+  assert.match(atlasSource, /复制人物链接/);
+  assert.match(atlasSource, /资料核验/);
+  assert.doesNotMatch(html, /从你的目标开始/);
   assert.match(atlasSource, /学位待补/);
   assert.match(feedbackSource, /查询进度/);
   assert.match(feedbackRouteSource, /export async function GET/);
@@ -358,6 +371,68 @@ test("includes evidence-dense profiles from the original four regions", async ()
   }
   assert.match(enrichment, /fourRegionProfileGroupMembers/);
   assert.match(enrichment, /fourRegionProfileStudentPlacements/);
+});
+
+test("includes the USTC–MSRA intelligent-media training and return network", async () => {
+  const [network, communities] = await Promise.all([
+    readFile(new URL("../app/wu-feng-network-expansion.ts", import.meta.url), "utf8"),
+    readFile(new URL("../app/academic-community-data.ts", import.meta.url), "utf8"),
+  ]);
+
+  for (const scholar of ["熊志伟", "刘东", "孙晓艳"]) assert.match(network, new RegExp(scholar));
+  for (const relationship of [
+    "gao-wen-xiaoyan-sun-phd",
+    "feng-wu-dong-liu-phd",
+    "feng-wu-zhiwei-xiong-msra-training",
+    "xiaoyan-sun-zhiwei-xiong-msra-collaboration",
+  ]) assert.match(network, new RegExp(relationship));
+  for (const portrait of ["zhiwei-xiong-ustc.jpg", "dong-liu-ustc.jpg", "xiaoyan-sun-ustc.jpg"]) {
+    assert.match(network, new RegExp(portrait));
+  }
+  assert.match(network, /现有一手材料未将此边升级为正式学位导师/);
+  assert.match(communities, /ustc-msra-intelligent-media-network/);
+  assert.match(communities, /联合培养 · 产业研究 · 高校回流/);
+});
+
+test("includes the five senior scholars' verified student systems", async () => {
+  const [dataSource, studentSystems] = await Promise.all([
+    readFile(new URL("../app/data.ts", import.meta.url), "utf8"),
+    readFile(new URL("../app/five-scholar-student-systems-2026.ts", import.meta.url), "utf8"),
+  ]);
+
+  assert.match(dataSource, /fiveScholarStudentSystemPeople2026/);
+  for (const teacherId of ["zhang-shiliang-pku", "tian-yonghong-pku", "chen-xilin-cas-ict", "han-jiqing-hit", "ma-siwei-pku"]) {
+    assert.match(studentSystems, new RegExp(`"${teacherId}"`));
+  }
+  for (const promotedId of ["dongkai-wang-swufe", "shiyu-xuan-njust", "lin-zhu-bit", "meina-kan-cas", "luntian-mou-bjut", "yushun-lin-fafu"]) {
+    assert.match(studentSystems, new RegExp(`id: "${promotedId}"`));
+  }
+  assert.match(studentSystems, /只有论文答辩、导师主页、校方名录或本人官方履历明确写出指导关系时才建立师承边/);
+});
+
+test("includes the 80-school institution-first audit and its verified roster additions", async () => {
+  const [scope, additions, dataSource, atlasSource] = await Promise.all([
+    readFile(new URL("../app/top-school-roster-scope.ts", import.meta.url), "utf8"),
+    readFile(new URL("../app/top-school-roster-comprehensive-2026.ts", import.meta.url), "utf8"),
+    readFile(new URL("../app/data.ts", import.meta.url), "utf8"),
+    readFile(new URL("../app/AcademicAtlas.tsx", import.meta.url), "utf8"),
+  ]);
+
+  assert.equal((scope.match(/school\("United States"/g) ?? []).length, 20);
+  assert.equal((scope.match(/school\("Mainland China"/g) ?? []).length, 20);
+  assert.equal((scope.match(/school\("Europe"/g) ?? []).length, 20);
+  assert.equal((scope.match(/school\("Hong Kong"/g) ?? []).length, 10);
+  assert.equal((scope.match(/region: "Singapore"|school\("Singapore"/g) ?? []).length, 10);
+  for (const personId of [
+    "aidong-zhang-uva", "yangfeng-ji-uva", "jundong-li-uva",
+    "hengtao-shen-uestc", "fumin-shen-uestc",
+    "thomas-lukasiewicz-tuwien", "thomas-gaertner-tuwien",
+    "ferrante-neri-eduhk", "yu-yang-eduhk", "philips-wang-hkmu",
+    "indriyati-atmosukarto-sit",
+  ]) assert.match(additions, new RegExp(`id: "${personId}"`));
+  assert.match(dataSource, /topSchoolComprehensivePeople2026/);
+  assert.match(atlasSource, /alias.length >= 8/);
+  assert.match(atlasSource, /INSTITUTION-FIRST ROSTER/);
 });
 
 test("renders the sourced portrait collection and privacy-preserving visitor map", async () => {

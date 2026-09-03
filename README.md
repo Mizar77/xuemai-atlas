@@ -66,7 +66,9 @@ Xuemai Atlas is an evidence-linked academic network for AI researchers across NL
 ### 数据与审核原则
 
 - 优先使用学校、研究机构、个人主页、CV、论文和公司官方资料
+- 把导师/实验室主页与个人 CV 作为双向核验源：既查本人的导师，也提取当前学生、校友和主页明确列出的去向
 - 师承、合作与职业去向均需有可访问的公开证据
+- 导师名录中的年份先与个人 CV 或论文时间线核对；未独立核验的校友去向只表述为“主页公开去向”，不冒充当前任职
 - 区分当前任职、历史节点和跨地区流动
 - 对争议信息保持中性描述，并保留来源与时间语境
 - 社区提交默认先审核，再进入公开图谱
@@ -145,7 +147,9 @@ Planned work on search, comparison, data trust, mobile usability, and community 
 ### Data and moderation principles
 
 - Prefer first-party university, institute, researcher, publication, and company sources
+- Treat adviser/lab rosters and personal CVs as two-way evidence: verify a researcher's own advisers and extract named students, alumni, and explicitly listed destinations
 - Require accessible public evidence for lineage, collaboration, and career outcomes
+- Cross-check roster years against CV or dissertation timelines; an alumni destination that has not been independently reverified remains a published roster destination, not a claimed current role
 - Distinguish current appointments from historical and cross-region nodes
 - Describe disputed information neutrally and preserve its source and time context
 - Review community submissions before publishing them in the atlas

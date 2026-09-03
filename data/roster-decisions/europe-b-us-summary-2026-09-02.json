@@ -1,0 +1,2062 @@
+{
+  "schemaVersion": 1,
+  "snapshotAt": "2026-09-02",
+  "scope": "NYU CDS; Aalto CS and ML/DS/AI; Sapienza DIAG; Manchester CS; KIT Informatics and cv:hci; TU Delft EEMCS",
+  "decisionPolicy": "Current independent PI or independently recruiting faculty in AI/NLP/CV/ML/robotics/data science and closely related HCI/graphics/intelligent perception and decision fields. Affiliated, adjunct, visitor, student, postdoc, administrative, emeritus and alumni entries are not treated as core PI without explicit evidence.",
+  "officialRosterTotal": 721,
+  "decisionTotal": 721,
+  "totalsByDecision": {
+    "included_existing": 12,
+    "include_new_pi": 217,
+    "excluded_non_ai_cs": 253,
+    "excluded_non_pi": 45,
+    "excluded_historical": 100,
+    "excluded_duplicate": 20,
+    "pending_profile_verification": 74
+  },
+  "units": {
+    "nyu-cds": {
+      "officialRosterCount": 149,
+      "decisionCount": 149,
+      "counts": {
+        "included_existing": 5,
+        "include_new_pi": 45,
+        "excluded_non_ai_cs": 29,
+        "excluded_non_pi": 24,
+        "pending_profile_verification": 46
+      },
+      "outputPath": "data/roster-decisions/nyu-cds-2026-09-02.json"
+    },
+    "aalto-cs": {
+      "officialRosterCount": 96,
+      "decisionCount": 96,
+      "counts": {
+        "included_existing": 3,
+        "include_new_pi": 20,
+        "excluded_non_ai_cs": 24,
+        "excluded_non_pi": 3,
+        "excluded_historical": 18,
+        "pending_profile_verification": 28
+      },
+      "outputPath": "data/roster-decisions/aalto-cs-2026-09-02.json"
+    },
+    "aalto-ml-ds-ai": {
+      "officialRosterCount": 19,
+      "decisionCount": 19,
+      "counts": {
+        "excluded_duplicate": 19
+      },
+      "outputPath": "data/roster-decisions/aalto-ml-ds-ai-2026-09-02.json"
+    },
+    "sapienza-diag": {
+      "officialRosterCount": 134,
+      "decisionCount": 134,
+      "counts": {
+        "included_existing": 1,
+        "include_new_pi": 71,
+        "excluded_non_ai_cs": 55,
+        "excluded_historical": 7
+      },
+      "outputPath": "data/roster-decisions/sapienza-diag-2026-09-02.json"
+    },
+    "manchester-cs": {
+      "officialRosterCount": 111,
+      "decisionCount": 111,
+      "counts": {
+        "included_existing": 1,
+        "include_new_pi": 46,
+        "excluded_non_ai_cs": 50,
+        "excluded_historical": 14
+      },
+      "outputPath": "data/roster-decisions/manchester-cs-2026-09-02.json"
+    },
+    "kit-informatics": {
+      "officialRosterCount": 69,
+      "decisionCount": 69,
+      "counts": {
+        "included_existing": 1,
+        "include_new_pi": 15,
+        "excluded_non_ai_cs": 33,
+        "excluded_non_pi": 3,
+        "excluded_historical": 17
+      },
+      "outputPath": "data/roster-decisions/kit-informatics-2026-09-02.json"
+    },
+    "kit-cvhci": {
+      "officialRosterCount": 60,
+      "decisionCount": 60,
+      "counts": {
+        "excluded_non_pi": 15,
+        "excluded_historical": 44,
+        "excluded_duplicate": 1
+      },
+      "outputPath": "data/roster-decisions/kit-cvhci-2026-09-02.json"
+    },
+    "tudelft-eemcs": {
+      "officialRosterCount": 83,
+      "decisionCount": 83,
+      "counts": {
+        "included_existing": 1,
+        "include_new_pi": 20,
+        "excluded_non_ai_cs": 62
+      },
+      "outputPath": "data/roster-decisions/tudelft-eemcs-2026-09-02.json"
+    }
+  },
+  "includeNewPiCount": 217,
+  "includeNewPi": [
+    {
+      "unitId": "nyu-cds",
+      "officialId": "https://www.stern.nyu.edu/faculty/bio/alexander-tuzhilin",
+      "name": "Alexander Tuzhilin",
+      "profileUrl": "https://www.stern.nyu.edu/faculty/bio/alexander-tuzhilin",
+      "title": null,
+      "section": "Affiliated Faculty",
+      "evidence": "urces Learning Science Lab Center for Research Compu research interests include data mining, personalization, recommender systems and CRM. He has produced more than 100 research publications and patents on these and other topics in various outlets, including such journals as Infor"
+    },
+    {
+      "unitId": "nyu-cds",
+      "officialId": "https://cds.nyu.edu/team/andrew-wilson/",
+      "name": "Andrew Gordon Wilson",
+      "profileUrl": "https://cds.nyu.edu/team/andrew-wilson/",
+      "title": null,
+      "section": "Joint Faculty",
+      "evidence": "Joint Faculty"
+    },
+    {
+      "unitId": "nyu-cds",
+      "officialId": "https://www.stern.nyu.edu/faculty/bio/arun-sundararajan",
+      "name": "Arun Sundararajan",
+      "profileUrl": "https://www.stern.nyu.edu/faculty/bio/arun-sundararajan",
+      "title": null,
+      "section": "Affiliated Faculty",
+      "evidence": "r for Research Computing Cen Research Interests Generative AI Platform Strategy Artificial Intelligence The Future of Work Antitrust in Tech Industries Platform Regulation and Governance Network Effects Computational Social Science The Sharing Economy Copyright and Intellectual Property Areas"
+    },
+    {
+      "unitId": "nyu-cds",
+      "officialId": "https://cds.nyu.edu/team/brian-mcfee/",
+      "name": "Brian McFee",
+      "profileUrl": "https://cds.nyu.edu/team/brian-mcfee/",
+      "title": null,
+      "section": "Joint Faculty",
+      "evidence": "Joint Faculty"
+    },
+    {
+      "unitId": "nyu-cds",
+      "officialId": "https://cds.nyu.edu/team/carlos-fernandez-granda-2/",
+      "name": "Carlos Fernandez-Granda",
+      "profileUrl": "https://cds.nyu.edu/team/carlos-fernandez-granda-2/",
+      "title": null,
+      "section": "Joint Faculty",
+      "evidence": "Joint Faculty"
+    },
+    {
+      "unitId": "nyu-cds",
+      "officialId": "https://huanglab.rbind.io/",
+      "name": "Carol Huang",
+      "profileUrl": "https://huanglab.rbind.io/",
+      "title": null,
+      "section": "Affiliated Faculty",
+      "evidence": "e systems level. Specifically, we are interested in understandi Research areas: Computational biology Genomics Transcriptional regulation Natural variation Meet the Team Principal Investigator Shao-shan Carol Huang Associate Professor Researchers Sonal Sachdev Postdoc Associate Will Hinckle"
+    },
+    {
+      "unitId": "nyu-cds",
+      "officialId": "https://cds.nyu.edu/team/claudio-silva/",
+      "name": "Claudio Silva",
+      "profileUrl": "https://cds.nyu.edu/team/claudio-silva/",
+      "title": null,
+      "section": "Joint Faculty",
+      "evidence": "Joint Faculty"
+    },
+    {
+      "unitId": "nyu-cds",
+      "officialId": "https://cds.nyu.edu/team/cristina-savin/",
+      "name": "Cristina Savin",
+      "profileUrl": "https://cds.nyu.edu/team/cristina-savin/",
+      "title": null,
+      "section": "Joint Faculty",
+      "evidence": "Joint Faculty"
+    },
+    {
+      "unitId": "nyu-cds",
+      "officialId": "https://cds.nyu.edu/team/david-w-hogg/",
+      "name": "David W. Hogg",
+      "profileUrl": "https://cds.nyu.edu/team/david-w-hogg/",
+      "title": null,
+      "section": "Associated Faculty",
+      "evidence": "Associated Faculty"
+    },
+    {
+      "unitId": "nyu-cds",
+      "officialId": "https://cds.nyu.edu/team/eero-simoncelli/",
+      "name": "Eero Simoncelli",
+      "profileUrl": "https://cds.nyu.edu/team/eero-simoncelli/",
+      "title": null,
+      "section": "Associated Faculty",
+      "evidence": "Associated Faculty"
+    },
+    {
+      "unitId": "nyu-cds",
+      "officialId": "https://cds.nyu.edu/team/emily-black/",
+      "name": "Emily Black",
+      "profileUrl": "https://cds.nyu.edu/team/emily-black/",
+      "title": null,
+      "section": "Joint Faculty",
+      "evidence": "Joint Faculty"
+    },
+    {
+      "unitId": "nyu-cds",
+      "officialId": "https://cds.nyu.edu/team/eunsol-choi-2/",
+      "name": "Eunsol Choi",
+      "profileUrl": "https://cds.nyu.edu/team/eunsol-choi-2/",
+      "title": null,
+      "section": "Joint Faculty",
+      "evidence": "Joint Faculty"
+    },
+    {
+      "unitId": "nyu-cds",
+      "officialId": "https://cds.nyu.edu/team/foster-provost/",
+      "name": "Foster Provost",
+      "profileUrl": "https://cds.nyu.edu/team/foster-provost/",
+      "title": null,
+      "section": "Associated Faculty",
+      "evidence": "Associated Faculty"
+    },
+    {
+      "unitId": "nyu-cds",
+      "officialId": "https://cds.nyu.edu/team/grace-lindsay/",
+      "name": "Grace Lindsay",
+      "profileUrl": "https://cds.nyu.edu/team/grace-lindsay/",
+      "title": null,
+      "section": "Joint Faculty",
+      "evidence": "Joint Faculty"
+    },
+    {
+      "unitId": "nyu-cds",
+      "officialId": "https://cds.nyu.edu/team/greg-durrett/",
+      "name": "Greg Durrett",
+      "profileUrl": "https://cds.nyu.edu/team/greg-durrett/",
+      "title": null,
+      "section": "Joint Faculty",
+      "evidence": "Joint Faculty"
+    },
+    {
+      "unitId": "nyu-cds",
+      "officialId": "https://cds.nyu.edu/team/he-he/",
+      "name": "He He",
+      "profileUrl": "https://cds.nyu.edu/team/he-he/",
+      "title": null,
+      "section": "Joint Faculty",
+      "evidence": "Joint Faculty"
+    },
+    {
+      "unitId": "nyu-cds",
+      "officialId": "https://med.nyu.edu/faculty/itai-yanai",
+      "name": "Itai Yanai",
+      "profileUrl": "https://med.nyu.edu/faculty/itai-yanai",
+      "title": null,
+      "section": "Affiliated Faculty",
+      "evidence": "e NYU Langone Health Patient Care NYU Grossman School of Medic Keywords cancer, computational biology, developmental genetics, genomics, microbiome, systems biology, single-cell transcriptomics, gene expression atlas construction, genome evolution Read more Summary Our research revolves aro"
+    },
+    {
+      "unitId": "nyu-cds",
+      "officialId": "https://cds.nyu.edu/team/jaume-vives-i-bastida/",
+      "name": "Jaume Vives-i-Bastida",
+      "profileUrl": "https://cds.nyu.edu/team/jaume-vives-i-bastida/",
+      "title": null,
+      "section": "Joint Faculty",
+      "evidence": "Joint Faculty"
+    },
+    {
+      "unitId": "nyu-cds",
+      "officialId": "https://cds.nyu.edu/team/jennifer-hill/",
+      "name": "Jennifer Hill",
+      "profileUrl": "https://cds.nyu.edu/team/jennifer-hill/",
+      "title": null,
+      "section": "Associated Faculty",
+      "evidence": "Associated Faculty"
+    },
+    {
+      "unitId": "nyu-cds",
+      "officialId": "https://cds.nyu.edu/team/joan-bruna-2/",
+      "name": "Joan Bruna",
+      "profileUrl": "https://cds.nyu.edu/team/joan-bruna-2/",
+      "title": null,
+      "section": "Joint Faculty",
+      "evidence": "Joint Faculty"
+    },
+    {
+      "unitId": "nyu-cds",
+      "officialId": "https://cds.nyu.edu/team/jonathan-niles-weed/",
+      "name": "Jonathan Niles-Weed",
+      "profileUrl": "https://cds.nyu.edu/team/jonathan-niles-weed/",
+      "title": null,
+      "section": "Joint Faculty",
+      "evidence": "Joint Faculty"
+    },
+    {
+      "unitId": "nyu-cds",
+      "officialId": "https://cds.nyu.edu/team/juan-c-perdomo/",
+      "name": "Juan C. Perdomo",
+      "profileUrl": "https://cds.nyu.edu/team/juan-c-perdomo/",
+      "title": null,
+      "section": "Joint Faculty",
+      "evidence": "Joint Faculty"
+    },
+    {
+      "unitId": "nyu-cds",
+      "officialId": "https://cds.nyu.edu/team/julia-kempe/",
+      "name": "Julia Kempe",
+      "profileUrl": "https://cds.nyu.edu/team/julia-kempe/",
+      "title": null,
+      "section": "Joint Faculty",
+      "evidence": "Joint Faculty"
+    },
+    {
+      "unitId": "nyu-cds",
+      "officialId": "https://cds.nyu.edu/team/julia-stoyanovich/",
+      "name": "Julia Stoyanovich",
+      "profileUrl": "https://cds.nyu.edu/team/julia-stoyanovich/",
+      "title": null,
+      "section": "Joint Faculty",
+      "evidence": "Joint Faculty"
+    },
+    {
+      "unitId": "nyu-cds",
+      "officialId": "https://cds.nyu.edu/team/juliana-freire/",
+      "name": "Juliana Freire",
+      "profileUrl": "https://cds.nyu.edu/team/juliana-freire/",
+      "title": null,
+      "section": "Joint Faculty",
+      "evidence": "Joint Faculty"
+    },
+    {
+      "unitId": "nyu-cds",
+      "officialId": "https://engineering.nyu.edu/faculty/keith-ross",
+      "name": "Keith Ross",
+      "profileUrl": "https://engineering.nyu.edu/faculty/keith-ross",
+      "title": null,
+      "section": "Affiliated Faculty",
+      "evidence": "Engineering Technology, Culture and Society Technology  Research Interests Deep Reinforcement Learning, Privacy, Networking, Markov Decision Processes "
+    },
+    {
+      "unitId": "nyu-cds",
+      "officialId": "https://cds.nyu.edu/team/kyunghyun-cho-2/",
+      "name": "Kyunghyun Cho",
+      "profileUrl": "https://cds.nyu.edu/team/kyunghyun-cho-2/",
+      "title": null,
+      "section": "Joint Faculty",
+      "evidence": "Joint Faculty"
+    },
+    {
+      "unitId": "nyu-cds",
+      "officialId": "https://zanna-researchteam.github.io/author/laure-zanna/",
+      "name": "Laure Zanna",
+      "profileUrl": "https://zanna-researchteam.github.io/author/laure-zanna/",
+      "title": null,
+      "section": "Joint Faculty",
+      "evidence": "erbert B. Keller Professor in Applied Mathematics; Professor of Mathematics and Data Science New York University Zanna is the Joseph B. Keller and Herbert B. Keller Professor of Applied Mathematics at NYU, Courant Institute School of Ma"
+    },
+    {
+      "unitId": "nyu-cds",
+      "officialId": "https://www.math.nyu.edu/faculty/greengar/",
+      "name": "Leslie Greengard",
+      "profileUrl": "https://www.math.nyu.edu/faculty/greengar/",
+      "title": null,
+      "section": "Affiliated Faculty",
+      "evidence": "ntegral equations, potential theory, electromagnetics, computational chemistry, computational biology. Selected Publications A Fast Algorithm for Particle Simulations (with V. Rokhlin). J. Comput. Phys. 73, 325 (1987). A Fast Adaptive Multipole Algorithm for Particle Simulations [pdf: 1,922"
+    },
+    {
+      "unitId": "nyu-cds",
+      "officialId": "https://engineering.nyu.edu/faculty/lisa-hellerstein",
+      "name": "Lisa Hellerstein",
+      "profileUrl": "https://engineering.nyu.edu/faculty/lisa-hellerstein",
+      "title": null,
+      "section": "Affiliated Faculty",
+      "evidence": "arch Interests Approximation Algorithms, Stochastic Combinatorial Optimization, Machine Learning Theory, Boolean Functions, Complexity Theory "
+    },
+    {
+      "unitId": "nyu-cds",
+      "officialId": "https://cds.nyu.edu/team/mengye-ren/",
+      "name": "Mengye Ren",
+      "profileUrl": "https://cds.nyu.edu/team/mengye-ren/",
+      "title": null,
+      "section": "Joint Faculty",
+      "evidence": "Joint Faculty"
+    },
+    {
+      "unitId": "nyu-cds",
+      "officialId": "https://med.nyu.edu/faculty/narges-sharif-razavian",
+      "name": "Narges Razavian",
+      "profileUrl": "https://med.nyu.edu/faculty/narges-sharif-razavian",
+      "title": null,
+      "section": "Affiliated Faculty",
+      "evidence": "l of Medicine Explore NYU Langone Health Patient Care NYU Grossman Sch Keywords Machine Learning, Artificial Intelligence, Predictive Analytics, Biomarker Discovery Read more Summary I am an assistant professor in the Departments of Population Health and Radiology conducting research i"
+    },
+    {
+      "unitId": "nyu-cds",
+      "officialId": "https://cds.nyu.edu/team/panos-ipeirotis/",
+      "name": "Panos Ipeirotis",
+      "profileUrl": "https://cds.nyu.edu/team/panos-ipeirotis/",
+      "title": null,
+      "section": "Associated Faculty",
+      "evidence": "Associated Faculty"
+    },
+    {
+      "unitId": "nyu-cds",
+      "officialId": "https://cds.nyu.edu/team/4917/",
+      "name": "Pratyusha Sharma",
+      "profileUrl": "https://cds.nyu.edu/team/4917/",
+      "title": null,
+      "section": "Joint Faculty",
+      "evidence": "Joint Faculty"
+    },
+    {
+      "unitId": "nyu-cds",
+      "officialId": "https://cds.nyu.edu/team/qi-lei/",
+      "name": "Qi Lei",
+      "profileUrl": "https://cds.nyu.edu/team/qi-lei/",
+      "title": null,
+      "section": "Joint Faculty",
+      "evidence": "Joint Faculty"
+    },
+    {
+      "unitId": "nyu-cds",
+      "officialId": "https://cds.nyu.edu/team/rajesh-ranganath/",
+      "name": "Rajesh Ranganath",
+      "profileUrl": "https://cds.nyu.edu/team/rajesh-ranganath/",
+      "title": null,
+      "section": "Joint Faculty",
+      "evidence": "Joint Faculty"
+    },
+    {
+      "unitId": "nyu-cds",
+      "officialId": "https://cds.nyu.edu/team/s-r-srinivasa-varadhan/",
+      "name": "S. R. Srinivasa Varadhan",
+      "profileUrl": "https://cds.nyu.edu/team/s-r-srinivasa-varadhan/",
+      "title": null,
+      "section": "Associated Faculty",
+      "evidence": "Associated Faculty"
+    },
+    {
+      "unitId": "nyu-cds",
+      "officialId": "https://cds.nyu.edu/team/sam-bowman/",
+      "name": "Sam Bowman",
+      "profileUrl": "https://cds.nyu.edu/team/sam-bowman/",
+      "title": null,
+      "section": "Joint Faculty",
+      "evidence": "Joint Faculty"
+    },
+    {
+      "unitId": "nyu-cds",
+      "officialId": "https://www.stern.nyu.edu/faculty/bio/srikanth-jagabathula",
+      "name": "Srikanth Jagabathula",
+      "profileUrl": "https://www.stern.nyu.edu/faculty/bio/srikanth-jagabathula",
+      "title": null,
+      "section": "Affiliated Faculty",
+      "evidence": "earning Science Lab Center for Research Computi Research Interests Optimization Machine Learning Business Analytics Assortment and Pricing Decisions Consumer Choice Modeling Areas of Expertise Technology, Operations & Statistics Data Mining Data Science E-commerce Machine Learning Oper"
+    },
+    {
+      "unitId": "nyu-cds",
+      "officialId": "https://gureckislab.org",
+      "name": "Todd Gureckis",
+      "profileUrl": "https://gureckislab.org/",
+      "title": null,
+      "section": "Joint Faculty | Affiliated Faculty",
+      "evidence": "Joint Faculty | Affiliated Faculty"
+    },
+    {
+      "unitId": "nyu-cds",
+      "officialId": "https://cds.nyu.edu/team/vasant-dhar-2/",
+      "name": "Vasant Dhar",
+      "profileUrl": "https://cds.nyu.edu/team/vasant-dhar-2/",
+      "title": null,
+      "section": "Associated Faculty",
+      "evidence": "Associated Faculty"
+    },
+    {
+      "unitId": "nyu-cds",
+      "officialId": "https://med.nyu.edu/faculty/wenbo-wu",
+      "name": "Wenbo Wu",
+      "profileUrl": "https://med.nyu.edu/faculty/wenbo-wu",
+      "title": null,
+      "section": "Affiliated Faculty",
+      "evidence": " Health Patient Care NYU Grossman School of Medicin Keywords Survival analysis, Machine learning, Statistical computing, Provider profiling, Kidney disease, Aging, Health AI, Causal inference Read more Summary My research synthesizes state-of-the-art methods from statistics, machine le"
+    },
+    {
+      "unitId": "nyu-cds",
+      "officialId": "https://www.stern.nyu.edu/faculty/bio/xi-chen",
+      "name": "Xi Chen",
+      "profileUrl": "https://www.stern.nyu.edu/faculty/bio/xi-chen",
+      "title": null,
+      "section": "Affiliated Faculty",
+      "evidence": "ce Lab Center for Research Computing Center for Behavioral R Research Interests Machine Learning and Generative & Agentic AI High-dimensional Statistics, Statistical Inference, and Data-Driven Decision Making Dynamic Pricing and Revenue Management Digital Platforms, Online Advertising,"
+    },
+    {
+      "unitId": "nyu-cds",
+      "officialId": "https://cds.nyu.edu/team/yanjun-han/",
+      "name": "Yanjun Han",
+      "profileUrl": "https://cds.nyu.edu/team/yanjun-han/",
+      "title": null,
+      "section": "Joint Faculty",
+      "evidence": "Joint Faculty"
+    },
+    {
+      "unitId": "nyu-cds",
+      "officialId": "https://cds.nyu.edu/team/zongyi-li/",
+      "name": "Zongyi Li",
+      "profileUrl": "https://cds.nyu.edu/team/zongyi-li/",
+      "title": null,
+      "section": "Joint Faculty",
+      "evidence": "Joint Faculty"
+    },
+    {
+      "unitId": "aalto-cs",
+      "officialId": "https://www.aalto.fi/en/people/qi-chen",
+      "name": "Qi Chen",
+      "profileUrl": "https://www.aalto.fi/en/people/qi-chen",
+      "title": null,
+      "section": "Professors",
+      "evidence": "Professors"
+    },
+    {
+      "unitId": "aalto-cs",
+      "officialId": "https://www.aalto.fi/en/people/francesco-croce",
+      "name": "Francesco Croce",
+      "profileUrl": "https://www.aalto.fi/en/people/francesco-croce",
+      "title": null,
+      "section": "Professors",
+      "evidence": "Professors"
+    },
+    {
+      "unitId": "aalto-cs",
+      "officialId": "https://www.aalto.fi/en/people/stephane-deny",
+      "name": "Stephane Deny",
+      "profileUrl": "https://www.aalto.fi/en/people/stephane-deny",
+      "title": null,
+      "section": "Professors",
+      "evidence": "Professors"
+    },
+    {
+      "unitId": "aalto-cs",
+      "officialId": "https://www.aalto.fi/en/people/azade-farshad",
+      "name": "Azade Farshad",
+      "profileUrl": "https://www.aalto.fi/en/people/azade-farshad",
+      "title": null,
+      "section": "Professors",
+      "evidence": "Professors"
+    },
+    {
+      "unitId": "aalto-cs",
+      "officialId": "https://www.aalto.fi/en/people/vikas-kumar-garg",
+      "name": "Vikas Kumar Garg",
+      "profileUrl": "https://www.aalto.fi/en/people/vikas-kumar-garg",
+      "title": null,
+      "section": "Professors",
+      "evidence": "Professors"
+    },
+    {
+      "unitId": "aalto-cs",
+      "officialId": "https://www.aalto.fi/en/people/christian-guckelsberger",
+      "name": "Christian Guckelsberger",
+      "profileUrl": "https://www.aalto.fi/en/people/christian-guckelsberger",
+      "title": null,
+      "section": "Professors",
+      "evidence": "Professors"
+    },
+    {
+      "unitId": "aalto-cs",
+      "officialId": "https://www.aalto.fi/en/people/perttu-hamalainen",
+      "name": "Perttu Hämäläinen",
+      "profileUrl": "https://www.aalto.fi/en/people/perttu-hamalainen",
+      "title": null,
+      "section": "Professors",
+      "evidence": "Professors"
+    },
+    {
+      "unitId": "aalto-cs",
+      "officialId": "https://www.aalto.fi/en/people/alex-jung",
+      "name": "Alex Jung",
+      "profileUrl": "https://www.aalto.fi/en/people/alex-jung",
+      "title": null,
+      "section": "Professors",
+      "evidence": "Professors"
+    },
+    {
+      "unitId": "aalto-cs",
+      "officialId": "https://www.aalto.fi/en/people/juho-kannala",
+      "name": "Juho Kannala",
+      "profileUrl": "https://www.aalto.fi/en/people/juho-kannala",
+      "title": null,
+      "section": "Professors",
+      "evidence": "Professors"
+    },
+    {
+      "unitId": "aalto-cs",
+      "officialId": "https://www.aalto.fi/en/people/juhi-kulshrestha",
+      "name": "Juhi Kulshrestha",
+      "profileUrl": "https://www.aalto.fi/en/people/juhi-kulshrestha",
+      "title": null,
+      "section": "Professors",
+      "evidence": "Professors"
+    },
+    {
+      "unitId": "aalto-cs",
+      "officialId": "https://www.aalto.fi/en/people/jouko-lampinen",
+      "name": "Jouko Lampinen",
+      "profileUrl": "https://www.aalto.fi/en/people/jouko-lampinen",
+      "title": null,
+      "section": "Professors",
+      "evidence": "Professors"
+    },
+    {
+      "unitId": "aalto-cs",
+      "officialId": "https://www.aalto.fi/en/people/harri-lahdesmaki",
+      "name": "Harri Lähdesmäki",
+      "profileUrl": "https://www.aalto.fi/en/people/harri-lahdesmaki",
+      "title": null,
+      "section": "Professors",
+      "evidence": "Professors"
+    },
+    {
+      "unitId": "aalto-cs",
+      "officialId": "https://www.aalto.fi/en/people/jussi-rintanen",
+      "name": "Jussi Rintanen",
+      "profileUrl": "https://www.aalto.fi/en/people/jussi-rintanen",
+      "title": null,
+      "section": "Professors",
+      "evidence": "Professors"
+    },
+    {
+      "unitId": "aalto-cs",
+      "officialId": "https://www.aalto.fi/en/people/juho-rousu",
+      "name": "Juho Rousu",
+      "profileUrl": "https://www.aalto.fi/en/people/juho-rousu",
+      "title": null,
+      "section": "Professors",
+      "evidence": "Professors"
+    },
+    {
+      "unitId": "aalto-cs",
+      "officialId": "https://www.aalto.fi/en/people/arno-solin",
+      "name": "Arno Solin",
+      "profileUrl": "https://www.aalto.fi/en/people/arno-solin",
+      "title": null,
+      "section": "Professors",
+      "evidence": "Professors"
+    },
+    {
+      "unitId": "aalto-cs",
+      "officialId": "https://www.aalto.fi/en/people/aki-vehtari",
+      "name": "Aki Vehtari",
+      "profileUrl": "https://www.aalto.fi/en/people/aki-vehtari",
+      "title": null,
+      "section": "Professors",
+      "evidence": "Professors"
+    },
+    {
+      "unitId": "aalto-cs",
+      "officialId": "https://www.aalto.fi/en/people/johanna-viitanen",
+      "name": "Johanna Viitanen",
+      "profileUrl": "https://www.aalto.fi/en/people/johanna-viitanen",
+      "title": null,
+      "section": "Professors",
+      "evidence": "Professors"
+    },
+    {
+      "unitId": "aalto-cs",
+      "officialId": "https://www.aalto.fi/en/people/robin-welsch",
+      "name": "Robin Welsch",
+      "profileUrl": "https://www.aalto.fi/en/people/robin-welsch",
+      "title": null,
+      "section": "Professors",
+      "evidence": "Professors"
+    },
+    {
+      "unitId": "aalto-cs",
+      "officialId": "https://www.aalto.fi/en/people/deepika-yadav",
+      "name": "Deepika Yadav",
+      "profileUrl": "https://www.aalto.fi/en/people/deepika-yadav",
+      "title": null,
+      "section": "Professors",
+      "evidence": "Professors"
+    },
+    {
+      "unitId": "aalto-cs",
+      "officialId": "https://www.aalto.fi/en/people/bo-zhao",
+      "name": "Bo Zhao",
+      "profileUrl": "https://www.aalto.fi/en/people/bo-zhao",
+      "title": null,
+      "section": "Professors",
+      "evidence": "Professors"
+    },
+    {
+      "unitId": "sapienza-diag",
+      "officialId": "https://www.diag.uniroma1.it/users/simone_agostinelli",
+      "name": "Agostinelli Simone",
+      "profileUrl": "https://www.diag.uniroma1.it/users/simone_agostinelli",
+      "title": "ricercatore",
+      "section": null,
+      "evidence": "cerca Eventi e  Interessi di ricerca Business Process Management Process Mining Robotic Process Automation Artificial Intelligence Large Language Models Blockchain Technologies keywords Blockchain Technologies Process and Workﬂow Management Service Modeling User Interfaces Mem"
+    },
+    {
+      "unitId": "sapienza-diag",
+      "officialId": "https://www.diag.uniroma1.it/users/irene_amerini",
+      "name": "Amerini Irene",
+      "profileUrl": "https://www.diag.uniroma1.it/users/irene_amerini",
+      "title": "professore associato",
+      "section": null,
+      "evidence": " Eventi e semin Interessi di ricerca Multimedia forensics and deepfake analysis Machine learning and deep learning for image and video analysis Digital image and video processing Adversarial machine learning/deep learning Computer vision and monocular depth estimation Membro di Compute"
+    },
+    {
+      "unitId": "sapienza-diag",
+      "officialId": "https://www.diag.uniroma1.it/users/aris_anagnostopoulos",
+      "name": "Anagnostopoulos Aris",
+      "profileUrl": "https://www.diag.uniroma1.it/users/aris_anagnostopoulos",
+      "title": "professore ordinario",
+      "section": null,
+      "evidence": "sis of Dynamic Processes<br /> - Modeling and Mining in Social Networks<br /> - Data Mining and Algorithms for the WWW<br /> - Randomized and Approximation Algorithms<br /> - Information Retrieval<br /> - Information Security</p> Membro di Algorithm Design and Engineering Algorith"
+    },
+    {
+      "unitId": "sapienza-diag",
+      "officialId": "https://www.diag.uniroma1.it/users/pietro_arico",
+      "name": "Arico' Pietro",
+      "profileUrl": "https://www.diag.uniroma1.it/users/pietro_arico",
+      "title": "professore associato",
+      "section": null,
+      "evidence": "words Algorithmic Data Analysis Algorithms Data Acquisition and Sensor Networks Data Science Pattern Recognition Processing and analysis of bioelectrical signals Membro di Bioengineering and Bioinformatics  Membro di Bioengineering and Bioinformatics "
+    },
+    {
+      "unitId": "sapienza-diag",
+      "officialId": "https://www.diag.uniroma1.it/users/laura_astolfi",
+      "name": "Astolfi Laura",
+      "profileUrl": "https://www.diag.uniroma1.it/users/laura_astolfi",
+      "title": "professore ordinario",
+      "section": null,
+      "evidence": "s Fellow of the European Alliance for Medical and  Membro di Bioengineering and Bioinformatics  member of the Administrative Committee of the IEEE Society of Engineering in Medicine and Biology (EMBS) and Member of the Scientific Board of the International Society for Brain Electroma"
+    },
+    {
+      "unitId": "sapienza-diag",
+      "officialId": "https://www.diag.uniroma1.it/users/federica_baccini",
+      "name": "Baccini Federica",
+      "profileUrl": "https://www.diag.uniroma1.it/users/federica_baccini",
+      "title": "ricercatore",
+      "section": null,
+      "evidence": " include the analysis of multilayer and higher-order networks, and the study of machine learning models for graphs. In particular, most of her work has been concentrated on how to integrate data using multiplex similarity networks and on how to model higher-order relations using weight"
+    },
+    {
+      "unitId": "sapienza-diag",
+      "officialId": "https://www.diag.uniroma1.it/users/edoardo_barba",
+      "name": "Barba Edoardo",
+      "profileUrl": "https://www.diag.uniroma1.it/users/edoardo_barba",
+      "title": "ricercatore",
+      "section": null,
+      "evidence": " modeling to Language Modeling, Semantic Role Labeling, and Machine T Membro di Natural Language Processing "
+    },
+    {
+      "unitId": "sapienza-diag",
+      "officialId": "https://www.diag.uniroma1.it/users/luca_becchetti",
+      "name": "Becchetti Luca",
+      "profileUrl": "https://www.diag.uniroma1.it/users/luca_becchetti",
+      "title": "professore associato",
+      "section": null,
+      "evidence": "niversity of Rome.  Membro di Computer Networks and Pervasive Systems Theory of Deep Learning Algorithms and Data Science "
+    },
+    {
+      "unitId": "sapienza-diag",
+      "officialId": "https://www.diag.uniroma1.it/users/roberto_beraldi",
+      "name": "Beraldi Roberto",
+      "profileUrl": "https://www.diag.uniroma1.it/users/roberto_beraldi",
+      "title": "professore associato",
+      "section": null,
+      "evidence": " and mobile wireless networks Membro di Computer Networks and Pervasive Systems Computer Vision, Computer Graphics, Deep Learning Distributed Systems Cybersecurity  Interessi di ricerca His main research interests are in the field of dynamic distributed system and mobile wireless netw"
+    },
+    {
+      "unitId": "sapienza-diag",
+      "officialId": "https://www.diag.uniroma1.it/users/sara_bernardini",
+      "name": "Bernardini Sara",
+      "profileUrl": "https://www.diag.uniroma1.it/users/sara_bernardini",
+      "title": "professore ordinario",
+      "section": null,
+      "evidence": " Panoramica Aree di ricerca Gruppi di ricerca Eventi e sem Interessi di ricerca Artificial Intelligence, robotics, automated planning, combinatorial optimization. keywords Artificial Intelligence and Robotics Membro di Artificial Intelligence and Robotics  Keyword search Visiting professors R"
+    },
+    {
+      "unitId": "sapienza-diag",
+      "officialId": "https://www.diag.uniroma1.it/users/graziano_blasilli",
+      "name": "Blasilli Graziano",
+      "profileUrl": "https://www.diag.uniroma1.it/users/graziano_blasilli",
+      "title": "ricercatore",
+      "section": null,
+      "evidence": "erca Eventi e s Interessi di ricerca Visual Analytics Cybersecurity eXplainable Artificial Intelligence Membro di Human-Computer Interaction  Keyword search Visiting professors Research Reports DIAG Reports Technical Reports Centri interdipartimentali Spin-off Frequentatori esterni Terza miss"
+    },
+    {
+      "unitId": "sapienza-diag",
+      "officialId": "https://www.diag.uniroma1.it/users/renato_bruni",
+      "name": "Bruni Renato",
+      "profileUrl": "https://www.diag.uniroma1.it/users/renato_bruni",
+      "title": "professore associato",
+      "section": null,
+      "evidence": " Research Topics The scientific activity belongs to the fields of Optimization, Machine Learning and Bioinformatics, focusing on the development of mathematical models and algorithms for real-world problems. In particular, the following research topics can be identified: Combinatorial "
+    },
+    {
+      "unitId": "sapienza-diag",
+      "officialId": "https://www.diag.uniroma1.it/users/johannes_brustle",
+      "name": "Brustle Johannes",
+      "profileUrl": "https://www.diag.uniroma1.it/users/johannes_brustle",
+      "title": "ricercatore",
+      "section": null,
+      "evidence": " Users » Johannes Brustle Johannes Brustle Ricercatore Membro di Algorithms and Data Science  Membro di Algorithms and Data Science "
+    },
+    {
+      "unitId": "sapienza-diag",
+      "officialId": "https://www.diag.uniroma1.it/users/tiziana_catarci",
+      "name": "Catarci Tiziana",
+      "profileUrl": "https://www.diag.uniroma1.it/users/tiziana_catarci",
+      "title": "professore ordinario",
+      "section": null,
+      "evidence": "iazione Levi Montalcini). Nel corso di questa attività ha sia pubblic Membro di Human-Computer Interaction Data Management and Semantic Technologies Cybersecurity "
+    },
+    {
+      "unitId": "sapienza-diag",
+      "officialId": "https://www.diag.uniroma1.it/users/ioannis_chatzigiannakis",
+      "name": "Chatzigiannakis Ioannis",
+      "profileUrl": "https://www.diag.uniroma1.it/users/ioannis_chatzigiannakis",
+      "title": "professore ordinario",
+      "section": null,
+      "evidence": "et of Things, Distributed Computing and the Future Internet and Applications of Data Science in Intelligence Environments. The courses I am involved in Membro di Computer Networks and Pervasive Systems "
+    },
+    {
+      "unitId": "sapienza-diag",
+      "officialId": "https://www.diag.uniroma1.it/users/thomas-alessandro_ciarfuglia",
+      "name": "Ciarfuglia Thomas Alessandro",
+      "profileUrl": "https://www.diag.uniroma1.it/users/thomas-alessandro_ciarfuglia",
+      "title": "ricercatore",
+      "section": null,
+      "evidence": "fic and professional CV can be found at this link. Link alla biografia keywords Artificial Intelligence and Robotics Mobile Robot Navigation Pattern Recognition Robot Perception Simultaneous Localization and Mapping Membro di Artificial Intelligence and Robotics  keywords Artificial Intellige"
+    },
+    {
+      "unitId": "sapienza-diag",
+      "officialId": "https://www.diag.uniroma1.it/users/gianluca_cima",
+      "name": "Cima Gianluca",
+      "profileUrl": "https://www.diag.uniroma1.it/users/gianluca_cima",
+      "title": "ricercatore",
+      "section": null,
+      "evidence": "c Technologies Semantic Web Membro di Data Management and Semantic Technologies Artificial Intelligence and Knowledge Representation  Interessi di ricerca My research interests include (but are not limited to): Knowledge Representation and Reasoning Description Logics and Ontologies Database "
+    },
+    {
+      "unitId": "sapienza-diag",
+      "officialId": "https://www.diag.uniroma1.it/users/febo_cincotti",
+      "name": "Cincotti Febo",
+      "profileUrl": "https://www.diag.uniroma1.it/users/febo_cincotti",
+      "title": "professore ordinario",
+      "section": null,
+      "evidence": "g Processing and analysis of bioelectrical signals Membro di Bioengineering and Bioinformatics  Membro di Bioengineering and Bioinformatics "
+    },
+    {
+      "unitId": "sapienza-diag",
+      "officialId": "https://www.diag.uniroma1.it/users/emma_colamarino",
+      "name": "Colamarino Emma",
+      "profileUrl": "https://www.diag.uniroma1.it/users/emma_colamarino",
+      "title": "ricercatore",
+      "section": null,
+      "evidence": "G) and Electromyographic (EMG) signal processing Brain-Computer Interface (BCI) Machine learning Neurorehabilitation keywords Methods and Techniques for Neuroengineering Processing and analysis of bioelectrical signals Membro di Bioengineering and Bioinformatics  Keyword search Visitin"
+    },
+    {
+      "unitId": "sapienza-diag",
+      "officialId": "https://www.diag.uniroma1.it/users/marco_console",
+      "name": "Console Marco",
+      "profileUrl": "https://www.diag.uniroma1.it/users/marco_console",
+      "title": "professore associato",
+      "section": null,
+      "evidence": " he was tenure-track Assist Membro di Data Management and Semantic Technologies Artificial Intelligence and Knowledge Representation "
+    },
+    {
+      "unitId": "sapienza-diag",
+      "officialId": "https://www.diag.uniroma1.it/users/andrea_cristofaro",
+      "name": "Cristofaro Andrea",
+      "profileUrl": "https://www.diag.uniroma1.it/users/andrea_cristofaro",
+      "title": "professore associato",
+      "section": null,
+      "evidence": "ca Panoramica Aree di ricerca Gruppi di ricerca Eventi e s Interessi di ricerca Robotic Systems Fault-tolerant control of mobile robots Control allocation for input redundant systems Control of flexible robotic systems Multi-agent systems Distributed parameter systems Stabilit"
+    },
+    {
+      "unitId": "sapienza-diag",
+      "officialId": "https://www.diag.uniroma1.it/users/cinzia_daraio",
+      "name": "Daraio Cinzia",
+      "profileUrl": "https://www.diag.uniroma1.it/users/cinzia_daraio",
+      "title": "professore ordinario",
+      "section": null,
+      "evidence": "ng), Quantitative Models for Economic Analysis and Management (Master Degree in Data Science), Economics and Business Organization (Undergra keywords Data quality Economics and Management of  Membro di Industrial Organization and Management  member of the Laboratory of Economics an"
+    },
+    {
+      "unitId": "sapienza-diag",
+      "officialId": "https://www.diag.uniroma1.it/users/giuseppe_de-giacomo",
+      "name": "De Giacomo Giuseppe",
+      "profileUrl": "https://www.diag.uniroma1.it/users/giuseppe_de-giacomo",
+      "title": "professore ordinario",
+      "section": null,
+      "evidence": "a Management and Integratio Membro di Data Management and Semantic Technologies Artificial Intelligence and Knowledge Representation "
+    },
+    {
+      "unitId": "sapienza-diag",
+      "officialId": "https://www.diag.uniroma1.it/users/alessandro_de-luca",
+      "name": "De Luca Alessandro",
+      "profileUrl": "https://www.diag.uniroma1.it/users/alessandro_de-luca",
+      "title": "professore ordinario",
+      "section": null,
+      "evidence": "i ricerca Modellistica dinamica, pianificazione del moto e controllo di sistemi robotici: manipolatori con giunti o bracci flessibili, robot cinematicamente ridondanti, robot sottoattuati, robot mobili su ruote. Controllo ibrido forza-velocità. Controllo non lineare di sistemi"
+    },
+    {
+      "unitId": "sapienza-diag",
+      "officialId": "https://www.diag.uniroma1.it/users/emanuele_de-santis",
+      "name": "De Santis Emanuele",
+      "profileUrl": "https://www.diag.uniroma1.it/users/emanuele_de-santis",
+      "title": "ricercatore",
+      "section": null,
+      "evidence": "ntrollo per reti elettriche di potenza e smartgrids Membro di Networked Systems Robotics  interessi di ricerca si concentrano sullo studio e simulazione di tessuti deformabili per il training e planning chirurgico in ambienti di realtà virtuale/aumentata, su sistemi di controll"
+    },
+    {
+      "unitId": "sapienza-diag",
+      "officialId": "https://www.diag.uniroma1.it/users/lorenzo_farina",
+      "name": "Farina Lorenzo",
+      "profileUrl": "https://www.diag.uniroma1.it/users/lorenzo_farina",
+      "title": "professore ordinario",
+      "section": null,
+      "evidence": "ulle IEEE Transactions on Circuits and Systems, de Membro di Bioengineering and Bioinformatics "
+    },
+    {
+      "unitId": "sapienza-diag",
+      "officialId": "https://www.diag.uniroma1.it/users/giulia_fiscon",
+      "name": "Fiscon Giulia",
+      "profileUrl": "https://www.diag.uniroma1.it/users/giulia_fiscon",
+      "title": "ricercatore",
+      "section": null,
+      "evidence": "ea of biological complex system study. In particular, she works in the field of bioinformatics, computational biology, and network medicine. She is author of 60 international publications, cited more than 1400 times and her h-index is 21, according to Scopus database. She achieved th"
+    },
+    {
+      "unitId": "sapienza-diag",
+      "officialId": "https://www.diag.uniroma1.it/users/antonio_franchi",
+      "name": "Franchi Antonio",
+      "profileUrl": "https://www.diag.uniroma1.it/users/antonio_franchi",
+      "title": "professore ordinario",
+      "section": null,
+      "evidence": "ca Aree di ricerca Gruppi di ricerca Eventi e sem research interests lie in the robotics area, with a special regard to control and estimation problems and applications ranging across motion and physical interaction control, decentralized control/estimation/coordination, haptic"
+    },
+    {
+      "unitId": "sapienza-diag",
+      "officialId": "https://www.diag.uniroma1.it/users/federico_fusco",
+      "name": "Fusco Federico",
+      "profileUrl": "https://www.diag.uniroma1.it/users/federico_fusco",
+      "title": "ricercatore",
+      "section": null,
+      "evidence": "ization; Algorithmic Game Theory; Multi-Armed Bandits. Membro di Algorithms and Data Science  Keyword search Visiting professors Research Reports DIAG Reports Technical Reports Centri interdipartimentali Spin-off Frequentatori esterni Terza missione Notizie DIAG sui media Seminars "
+    },
+    {
+      "unitId": "sapienza-diag",
+      "officialId": "https://www.diag.uniroma1.it/users/giorgio_grisetti",
+      "name": "Grisetti Giorgio",
+      "profileUrl": "https://www.diag.uniroma1.it/users/giorgio_grisetti",
+      "title": "professore ordinario",
+      "section": null,
+      "evidence": "rca Gruppi di ricerca Eventi e se research interests lie in the areas of mobile robotics. His previous and current works aimes to provide effective solutions to mobile robot navigation in all its aspects: SLAM, localization and path planning. He was a PhD student at University "
+    },
+    {
+      "unitId": "sapienza-diag",
+      "officialId": "https://www.diag.uniroma1.it/users/daniela_iacoviello",
+      "name": "Iacoviello Daniela",
+      "profileUrl": "https://www.diag.uniroma1.it/users/daniela_iacoviello",
+      "title": "professore associato",
+      "section": null,
+      "evidence": "o, progetto e realizzazione di algoritmi efficienti di classificazione mediante reti neurali artificiali di immagini di provini metallografici di ghisa sferoidale; modelli dinamici basati su reti neur member of the Centro Ricerche Aerospaziali Sapienza. She is member of the Editori"
+    },
+    {
+      "unitId": "sapienza-diag",
+      "officialId": "https://www.diag.uniroma1.it/users/luca_iocchi",
+      "name": "Iocchi Luca",
+      "profileUrl": "https://www.diag.uniroma1.it/users/luca_iocchi",
+      "title": "professore ordinario",
+      "section": null,
+      "evidence": "oramica Aree di ricerca Gruppi di ricerca Eventi e seminar Interessi di ricerca Robotica cognitiva Pianificazione delle azioni Sistemi multi-robot, coordinamento multi-robot e multi-agente Interazione persona-robot e robot sociali Percezione robotica Apprendimento per robot mo"
+    },
+    {
+      "unitId": "sapienza-diag",
+      "officialId": "https://www.diag.uniroma1.it/users/leonardo_lanari",
+      "name": "Lanari Leonardo",
+      "profileUrl": "https://www.diag.uniroma1.it/users/leonardo_lanari",
+      "title": "professore associato",
+      "section": null,
+      "evidence": "icerca Gruppi di ricerca Eventi e sem interessi di ricerca sono nell’area della robotica con particolare enfasi nel controllo di robot umanoidi e robot con elementi elastici. PROCV Interessi di ricerca Umanoidi. Modellistica e controllo di manipolatori con giunti o bracci fles"
+    },
+    {
+      "unitId": "sapienza-diag",
+      "officialId": "https://www.diag.uniroma1.it/users/domenico_lembo",
+      "name": "Lembo Domenico",
+      "profileUrl": "https://www.diag.uniroma1.it/users/domenico_lembo",
+      "title": "professore ordinario",
+      "section": null,
+      "evidence": "enze e workshop internazionali e nazionali nel settore delle basi di dati, dell'intelligenza artificiale e della rappresentazione della conoscenza (inclusi AIJ, ACM TODS, SWJ, ACM PODS, VLDB, IJCAI, AAAI, KR, ISWC). E' autore di tutorial presentati in congressi internazionali (ISWC, ESWC, AAAI"
+    },
+    {
+      "unitId": "sapienza-diag",
+      "officialId": "https://www.diag.uniroma1.it/users/simone_lenti",
+      "name": "Lenti Simone",
+      "profileUrl": "https://www.diag.uniroma1.it/users/simone_lenti",
+      "title": "ricercatore",
+      "section": null,
+      "evidence": "ree di ricerca Gruppi di ricerca Eventi e semina Interessi di ricerca Membro di Human-Computer Interaction  Keyword search Visiting professors Research Reports DIAG Reports Technical Reports Centri interdipartimentali Spin-off Frequentatori esterni Terza missione Notizie DIAG sui media Seminars "
+    },
+    {
+      "unitId": "sapienza-diag",
+      "officialId": "https://www.diag.uniroma1.it/users/maurizio_lenzerini",
+      "name": "Lenzerini Maurizio",
+      "profileUrl": "https://www.diag.uniroma1.it/users/maurizio_lenzerini",
+      "title": "professore ordinario",
+      "section": null,
+      "evidence": "rca Panoramica Aree di ricerca Gruppi di ricerca Eventi e  Interessi di ricerca Artificial Intelligence Description Logics Knowledge Representation and Reasoning Nonmonotonic Logics Ontology Languages Data Management Conceptual Data Modeling Database Theory Data Integration Ontology-based dat"
+    },
+    {
+      "unitId": "sapienza-diag",
+      "officialId": "https://www.diag.uniroma1.it/users/stefano_leonardi",
+      "name": "Leonardi Stefano",
+      "profileUrl": "https://www.diag.uniroma1.it/users/stefano_leonardi",
+      "title": "professore ordinario",
+      "section": null,
+      "evidence": "ic Game Theory and Mechanism Design, Network Design, Scheduling, Web Search and Data Mining, Large-scale Complex Network Analysis, Online Social Networks. Membro di Algorithm Design and Engineering Algorithms and Data Science  Keyword search Visiting professors Research Reports DI"
+    },
+    {
+      "unitId": "sapienza-diag",
+      "officialId": "https://www.diag.uniroma1.it/users/francesco_leotta",
+      "name": "Leotta Francesco",
+      "profileUrl": "https://www.diag.uniroma1.it/users/francesco_leotta",
+      "title": "ricercatore",
+      "section": null,
+      "evidence": "aspects in different areas of Computer Science, including ubiquitous computing, human-computer interaction and digital humanities . Such topics are challenged in the application domains of smart spaces, smart manufacturing and cultural heritage . Since 2010, Francesco Leotta has defined a resear"
+    },
+    {
+      "unitId": "sapienza-diag",
+      "officialId": "https://www.diag.uniroma1.it/users/francesco_liberati",
+      "name": "Liberati Francesco",
+      "profileUrl": "https://www.diag.uniroma1.it/users/francesco_liberati",
+      "title": "professore associato",
+      "section": null,
+      "evidence": "tic control, currently working mainly on cyber-physical systems, and hybrid MPC-deep learning control algorithms, with applications to practical problems in power systems, traffic control, and task scheduling. I obtained my PhD in Systems Engineering from Sapienza University, with a"
+    },
+    {
+      "unitId": "sapienza-diag",
+      "officialId": "https://www.diag.uniroma1.it/users/paolo_liberatore",
+      "name": "Liberatore Paolo",
+      "profileUrl": "https://www.diag.uniroma1.it/users/paolo_liberatore",
+      "title": "professore associato",
+      "section": null,
+      "evidence": "è concentrata sui formalismi logici per la rappresentazione della conoscenza in intelligenza artificiale, e su argomenti di complessità computazionale. In particolare ha lavorato sui seguenti temi. Belief Revision (revisione della conoscenza). Questo è stato anche l'argomento principale della "
+    },
+    {
+      "unitId": "sapienza-diag",
+      "officialId": "https://www.diag.uniroma1.it/users/giampaolo_liuzzi",
+      "name": "Liuzzi Giampaolo",
+      "profileUrl": "https://www.diag.uniroma1.it/users/giampaolo_liuzzi",
+      "title": "professore associato",
+      "section": null,
+      "evidence": " ottimizzazione vincolata e non vincolata, applicazioni della ricerca operativa machine learning keywords Big Data Optimization Data Mining Derivative Free Methods Engineering Design Optimization Global Optimization Mixed Integer Nonlinear Programming Neural Networks and Support Vector"
+    },
+    {
+      "unitId": "sapienza-diag",
+      "officialId": "https://www.diag.uniroma1.it/users/andrea_marrella",
+      "name": "Marrella Andrea",
+      "profileUrl": "https://www.diag.uniroma1.it/users/andrea_marrella",
+      "title": "professore associato",
+      "section": null,
+      "evidence": "ethodological, and practical aspects in different areas of Computer Science and Artificial Intelligence , including Business Process Management, Modelling, Adaptation, Mining and Resilience, Knowledge Representation, Reasoning about Action, Automated Planning, Human-Computer Interaction and U"
+    },
+    {
+      "unitId": "sapienza-diag",
+      "officialId": "https://www.diag.uniroma1.it/users/massimo_mecella",
+      "name": "Mecella Massimo",
+      "profileUrl": "https://www.diag.uniroma1.it/users/massimo_mecella",
+      "title": "professore ordinario",
+      "section": null,
+      "evidence": "gement. Interessi di ricerca Service Oriented Computing Orchestrazion Membro di Human-Computer Interaction Data Management and Semantic Technologies Processes, Services and Software Engineering "
+    },
+    {
+      "unitId": "sapienza-diag",
+      "officialId": "https://www.diag.uniroma1.it/users/umberto_nanni",
+      "name": "Nanni Umberto",
+      "profileUrl": "https://www.diag.uniroma1.it/users/umberto_nanni",
+      "title": "professore ordinario",
+      "section": null,
+      "evidence": " ● 2023--2025: Scientific Lead (for Univ. “La Sapienza” - DIAG) of the project “Artificial Intelligence algorithms to track and detect Covid-19 vaccine-related infodemic on social media” (Prot. 2022REWNTE) - on the call “PRIN 2022 - RESEARCH PROJECTS OF RELEVANT NATIONAL INTEREST” - PI: Prof."
+    },
+    {
+      "unitId": "sapienza-diag",
+      "officialId": "https://www.diag.uniroma1.it/users/christian_napoli",
+      "name": "Napoli Christian",
+      "profileUrl": "https://www.diag.uniroma1.it/users/christian_napoli",
+      "title": "professore associato",
+      "section": null,
+      "evidence": "ramica Aree di ricerca Gruppi di ricerca Eventi e se research interests include neural networks, artificial intelligence, computational models, and high performance computing. Here several thesis proposals: https://cnapoli.diag.uniroma1.it/ interessi di ricerca riguardanti le reti ne"
+    },
+    {
+      "unitId": "sapienza-diag",
+      "officialId": "https://www.diag.uniroma1.it/users/daniele_nardi",
+      "name": "Nardi Daniele",
+      "profileUrl": "https://www.diag.uniroma1.it/users/daniele_nardi",
+      "title": "professore ordinario",
+      "section": null,
+      "evidence": "anoramica Aree di ricerca Gruppi di ricerca Eventi e semin Interessi di ricerca Robotica cognitiva Calcio Robotico Robotica per scenari di emergenza Robotica per la casa e per gli anziani Membro di Artificial Intelligence and Knowledge Representation Artificial Intelligence an"
+    },
+    {
+      "unitId": "sapienza-diag",
+      "officialId": "https://www.diag.uniroma1.it/users/giuseppe_oriolo",
+      "name": "Oriolo Giuseppe",
+      "profileUrl": "https://www.diag.uniroma1.it/users/giuseppe_oriolo",
+      "title": "professore ordinario",
+      "section": null,
+      "evidence": "e di ricerca Gruppi di ricerca Eventi e sem Interessi di ricerca In the area of robotics and control, in particular: robot control, motion planning, trajectory planning, redundant robotic systems, control of underactuated and nonholonomic systems, sensor-based localization, nav"
+    },
+    {
+      "unitId": "sapienza-diag",
+      "officialId": "https://www.diag.uniroma1.it/users/paola_paci",
+      "name": "Paci Paola",
+      "profileUrl": "https://www.diag.uniroma1.it/users/paola_paci",
+      "title": "professore associato",
+      "section": null,
+      "evidence": "ppi di ricerca Eventi e seminari Interessi di ricerca Computaitonal Biology and Bioinformatics My research focuses on developing algorithms to identify potential biomarkers and therapeutic interventions, including drug repurposing, within the framework of Network Medicine. This emerg"
+    },
+    {
+      "unitId": "sapienza-diag",
+      "officialId": "https://www.diag.uniroma1.it/users/laura_palagi",
+      "name": "Palagi Laura",
+      "profileUrl": "https://www.diag.uniroma1.it/users/laura_palagi",
+      "title": "professore ordinario",
+      "section": null,
+      "evidence": "a, Programmazione Semidefinita Positiva, Support Vector Machines, Deep Networks Machine Learning for Health Explainable AI SOFTWARE SpeeDP for millions-node Max-Cut instances (with L. Grippo, M. Piacentini , V. Piccialli, and G. Rinaldi) MARGOT \"Margin Optimal Classification Trees\" (wi"
+    },
+    {
+      "unitId": "sapienza-diag",
+      "officialId": "https://www.diag.uniroma1.it/users/fabio_patrizi",
+      "name": "Patrizi Fabio",
+      "profileUrl": "https://www.diag.uniroma1.it/users/fabio_patrizi",
+      "title": "professore associato",
+      "section": null,
+      "evidence": "inite-plan synthesis Data abstraction techniques for verification and synthesis Reinforcement Learning with non-Markovian Rewards Membro di Data Management and Semantic Technologies Artificial Intelligence and Knowledge Representation  Keyword search Visiting professors Research Reports DIAG"
+    },
+    {
+      "unitId": "sapienza-diag",
+      "officialId": "https://www.diag.uniroma1.it/users/manuela_petti",
+      "name": "Petti Manuela",
+      "profileUrl": "https://www.diag.uniroma1.it/users/manuela_petti",
+      "title": "ricercatore",
+      "section": null,
+      "evidence": "the University of Indiana at  keywords Bioengineering for Molecular Biology and Bioinformatics Processing and analysis of bioelectrical signals Membro di Bioengineering and Bioinformatics  Membro di Bioengineering and Bioinformatics  member of the Bioengineering and Bioinformatics La"
+    },
+    {
+      "unitId": "sapienza-diag",
+      "officialId": "https://www.diag.uniroma1.it/users/veronica_piccialli",
+      "name": "Piccialli Veronica",
+      "profileUrl": "https://www.diag.uniroma1.it/users/veronica_piccialli",
+      "title": "professore ordinario",
+      "section": null,
+      "evidence": "ca Aree di ricerca Gruppi di ricerca Eventi e  interessi di ricerca includono l'apprendimento automatico con applicazioni in Brain Computer Interfaces e disaggregazione dei consumi elettrici, teoria dei giochi, programmazione semidefinita, programmazione non lineare mista-intera, ottimizzazion"
+    },
+    {
+      "unitId": "sapienza-diag",
+      "officialId": "https://www.diag.uniroma1.it/users/antonio_pietrabissa",
+      "name": "Pietrabissa Antonio",
+      "profileUrl": "https://www.diag.uniroma1.it/users/antonio_pietrabissa",
+      "title": "professore associato",
+      "section": null,
+      "evidence": "-delay systems Non-cooperative control Robust control Markov Decision Processes Reinforcement Learning Deep Reinforcement Learning Membro di Networked Systems Cybersecurity  Keyword search Visiting professors Research Reports DIAG Reports Technical Reports Centri interdipartimentali Spin-off"
+    },
+    {
+      "unitId": "sapienza-diag",
+      "officialId": "https://www.diag.uniroma1.it/users/antonella_poggi",
+      "name": "Poggi Antonella",
+      "profileUrl": "https://www.diag.uniroma1.it/users/antonella_poggi",
+      "title": "professore associato",
+      "section": null,
+      "evidence": "ning, personal information management, inconsistency management, ontologies and knowledge graphs, Description Logics, data governance, metamodeling, and semi-structured data. She has taught and teaches courses on the development of software applications, databases, mark-up languages, "
+    },
+    {
+      "unitId": "sapienza-diag",
+      "officialId": "https://www.diag.uniroma1.it/users/gabriele_proietti-mattia",
+      "name": "Proietti Mattia Gabriele",
+      "profileUrl": "https://www.diag.uniroma1.it/users/gabriele_proietti-mattia",
+      "title": "ricercatore",
+      "section": null,
+      "evidence": "loud e Fog/Edge Computing, esplorando sistemi distribuiti, containerizzazione e machine learning applicato al continuum Edge-to-Cloud. Ho pubblicato oltre 20 articoli scientifici su riviste e conferenze internazionali (IEEE, ACM). Con Synapsi, le tue telecamere diventano sensori intell"
+    },
+    {
+      "unitId": "sapienza-diag",
+      "officialId": "https://www.diag.uniroma1.it/users/riccardo_rosati",
+      "name": "Rosati Riccardo",
+      "profileUrl": "https://www.diag.uniroma1.it/users/riccardo_rosati",
+      "title": "professore ordinario",
+      "section": null,
+      "evidence": " revisione della conoscenza all'integrazione dei dati; ragionamento su azioni e robotica cognitiva. RICONOSCIMENTO INTERNAZIONALE: E' stato tra i primi a studiare (a partire dalla tesi di dottorato del 1996) l'integraz Keyword search Visiting professors Research Reports DIAG R"
+    },
+    {
+      "unitId": "sapienza-diag",
+      "officialId": "https://www.diag.uniroma1.it/users/paolo_russo",
+      "name": "Russo Paolo",
+      "profileUrl": "https://www.diag.uniroma1.it/users/paolo_russo",
+      "title": "ricercatore",
+      "section": null,
+      "evidence": "oramica Aree di ricerca Gruppi di ricerca Eventi e seminar Interessi di ricerca Computer Vision Deep Learning Pattern recognition Membro di Computer Vision, Computer Graphics, Deep Learning  Keyword search Visiting professors Research Reports DIAG Reports Technical Reports Centri inte"
+    },
+    {
+      "unitId": "sapienza-diag",
+      "officialId": "https://www.diag.uniroma1.it/users/saverio_salzo",
+      "name": "Salzo Saverio",
+      "profileUrl": "https://www.diag.uniroma1.it/users/saverio_salzo",
+      "title": "professore associato",
+      "section": null,
+      "evidence": "itting prossimale, algoritmi stocastici, ottimizzazione di iperparametri per il machine learning, ottimizzazione bilievello, ottimizzazione in spazi di probabilità, support vector machines in spazi di Banach e metodi kernel tensoriali. Ha insegnato introduzione all'ottimizzazione conve"
+    },
+    {
+      "unitId": "sapienza-diag",
+      "officialId": "https://www.diag.uniroma1.it/users/giuseppe_santucci",
+      "name": "Santucci Giuseppe",
+      "profileUrl": "https://www.diag.uniroma1.it/users/giuseppe_santucci",
+      "title": "professore ordinario",
+      "section": null,
+      "evidence": "interesse la ricerca si è concentrata su aspetti relativi a Visual Analytics, a data mining visuale, alla valutazione di tecniche di visualizzazione dell'informazione ed allo studio formale delle caratteristiche di degrado di una visualizzazione. Membro di Human-Computer Interacti"
+    },
+    {
+      "unitId": "sapienza-diag",
+      "officialId": "https://www.diag.uniroma1.it/users/federico-maria_scafoglieri",
+      "name": "Scafoglieri Federico Maria",
+      "profileUrl": "https://www.diag.uniroma1.it/users/federico-maria_scafoglieri",
+      "title": "ricercatore",
+      "section": null,
+      "evidence": "cerca Panoramica Aree di ricerca Gruppi di ricerca E research interests include Artificial Intelligence, Knowledge Representation, Ontology Based Data Access (OBDA) and Ontology Based Information Extraction (OBIE). Link alla biografia Interessi di ricerca Artificial Intelligence, Knowledge Re"
+    },
+    {
+      "unitId": "sapienza-diag",
+      "officialId": "https://www.diag.uniroma1.it/users/marco_schaerf",
+      "name": "Schaerf Marco",
+      "profileUrl": "https://www.diag.uniroma1.it/users/marco_schaerf",
+      "title": "professore ordinario",
+      "section": null,
+      "evidence": "mica Aree di ricerca Gruppi di ricerca Eventi e semin research interests are in artificial intelligence (AI) and its relationship with databases, theoretical computer science and computer graphics. His main contributions are in the analysis of the computational and semantic properties of the "
+    },
+    {
+      "unitId": "sapienza-diag",
+      "officialId": "https://www.diag.uniroma1.it/users/nicola_scianca",
+      "name": "Scianca Nicola",
+      "profileUrl": "https://www.diag.uniroma1.it/users/nicola_scianca",
+      "title": "ricercatore",
+      "section": null,
+      "evidence": "a1.it keywords Humanoid Locomotion Model Predictive Control of Robots Membro di Robotics  keywords Humanoid Locomotion Model Predictive Control of Robots Membro di Robotics  Membro di Robotics "
+    },
+    {
+      "unitId": "sapienza-diag",
+      "officialId": "https://www.diag.uniroma1.it/users/marco_sciandrone",
+      "name": "Sciandrone Marco",
+      "profileUrl": "https://www.diag.uniroma1.it/users/marco_sciandrone",
+      "title": "professore ordinario",
+      "section": null,
+      "evidence": "nti e se Interessi di ricerca Ottimizzazione continua Programmazione matematica Machine learning Membro di Continuous Optimization  Keyword search Visiting professors Research Reports DIAG Reports Technical Reports Centri interdipartimentali Spin-off Frequentatori esterni Terza mission"
+    },
+    {
+      "unitId": "sapienza-diag",
+      "officialId": "https://www.diag.uniroma1.it/users/federico_siciliano",
+      "name": "Siciliano Federico",
+      "profileUrl": "https://www.diag.uniroma1.it/users/federico_siciliano",
+      "title": "ricercatore",
+      "section": null,
+      "evidence": "rca Panoramica Aree di ricerca Gruppi di ricerca Eventi e  Interessi di ricerca Neural Networks, Recommender Systems, Information Retrieval Membro di Theory of Deep Learning Algorithms and Data Science  Keyword search Visiting professors Research Reports DIAG Reports Technical Report"
+    },
+    {
+      "unitId": "sapienza-diag",
+      "officialId": "https://www.diag.uniroma1.it/users/fabrizio_silvestri",
+      "name": "Silvestri Fabrizio",
+      "profileUrl": "https://www.diag.uniroma1.it/users/fabrizio_silvestri",
+      "title": "professore ordinario",
+      "section": null,
+      "evidence": "anoramica Aree di ricerca Gruppi di ricerca Eventi e  research interests lie in Artificial Intelligence, and in particular, Fabrizio Silvestri deals with machine learning applied to web search problems and natural language processing. He is the author of more than 150 papers in international "
+    },
+    {
+      "unitId": "sapienza-diag",
+      "officialId": "https://www.diag.uniroma1.it/users/antonio-maria_sudoso",
+      "name": "Sudoso Antonio Maria",
+      "profileUrl": "https://www.diag.uniroma1.it/users/antonio-maria_sudoso",
+      "title": "ricercatore",
+      "section": null,
+      "evidence": "l'ottimizzazione globale, modelli e algoritmi di ottimizzazione per problemi di machine learning, metodi per l'analisi e la previsione di grandi collezioni di serie temporali, e l'applicazione della ricerca operativa alla gestione ambientale sostenibile. Membro di Continuous Optimizati"
+    },
+    {
+      "unitId": "sapienza-diag",
+      "officialId": "https://www.diag.uniroma1.it/users/marco_temperini",
+      "name": "Temperini Marco",
+      "profileUrl": "https://www.diag.uniroma1.it/users/marco_temperini",
+      "title": "professore associato",
+      "section": null,
+      "evidence": " tecnologia della didattica a distanza); Student Modeling; Adaptive e-learning; Data Mining and Artificial Intelligence Techniques to Select and Personalize Learning Content Social and Collaborative Learning; Teacher Modeling (Modellazione del docente, in un ambiente didattico soc"
+    },
+    {
+      "unitId": "sapienza-diag",
+      "officialId": "https://www.diag.uniroma1.it/users/jlenia_toppi",
+      "name": "Toppi Jlenia",
+      "profileUrl": "https://www.diag.uniroma1.it/users/jlenia_toppi",
+      "title": "professore associato",
+      "section": null,
+      "evidence": ", Control and Management Engineering, Sapienza Uni Membro di Bioengineering and Bioinformatics "
+    },
+    {
+      "unitId": "sapienza-diag",
+      "officialId": "https://www.diag.uniroma1.it/users/giovanni_trappolini",
+      "name": "Trappolini Giovanni",
+      "profileUrl": "https://www.diag.uniroma1.it/users/giovanni_trappolini",
+      "title": "ricercatore",
+      "section": null,
+      "evidence": " Fabrizio Silvestri. Previously, I got my PhD (2022) with a thesis on Geometric Deep Learning with Prof. Emanuele Rodolà. My current research project lies at the intersection of multimodal deep learning and information retrieval. In particular, lately I have been experimenting with "
+    },
+    {
+      "unitId": "sapienza-diag",
+      "officialId": "https://www.diag.uniroma1.it/users/elena_umili",
+      "name": "Umili Elena",
+      "profileUrl": "https://www.diag.uniroma1.it/users/elena_umili",
+      "title": "ricercatore",
+      "section": null,
+      "evidence": "icerca Gruppi di ricerca Eventi e seminar Interessi di ricerca Neurosymbolic AI Deep Learning Deep Reinforcement Learning Membro di Artificial Intelligence and Knowledge Representation Artificial Intelligence and Robotics  Keyword search Visiting professors Research Reports DIAG Rep"
+    },
+    {
+      "unitId": "sapienza-diag",
+      "officialId": "https://www.diag.uniroma1.it/users/marilena_vendittelli",
+      "name": "Vendittelli Marilena",
+      "profileUrl": "https://www.diag.uniroma1.it/users/marilena_vendittelli",
+      "title": "professore ordinario",
+      "section": null,
+      "evidence": "fono: +39 0677274049 email uniroma1: marilena.vendittelli@uniroma1.it Membro di Robotics  Membro di Robotics "
+    },
+    {
+      "unitId": "manchester-cs",
+      "officialId": "Academic staff:joshua alcock",
+      "name": "Joshua Alcock",
+      "profileUrl": null,
+      "title": "Lecturer in Artificial Intelligence",
+      "section": "Academic staff",
+      "evidence": "Lecturer in Artificial Intelligence；Academic staff"
+    },
+    {
+      "unitId": "manchester-cs",
+      "officialId": "Academic staff:mauricio alvarez",
+      "name": "Mauricio Alvarez",
+      "profileUrl": "https://www.research.manchester.ac.uk/portal/en/researchers/mauricio-alvarez(d531fef7-ad55-4038-bee9-28c1afcd6035).html",
+      "title": "Reader",
+      "section": "Academic staff",
+      "evidence": "vities Press/Media Prizes Equipment Student theses Mauricio Alvarez Dr Reader , Machine Learning and Robotics https://orcid.org/0000-0002-8980-4472 Accepting PhD Students Overview Fingerprint research areas from the last five years Recent external collaboration on country/territory lev"
+    },
+    {
+      "unitId": "manchester-cs",
+      "officialId": "Academic staff:riza theresa batista-navarro",
+      "name": "Riza Theresa Batista-Navarro",
+      "profileUrl": "https://www.research.manchester.ac.uk/portal/riza.batista.html",
+      "title": "Senior Lecturer",
+      "section": "Academic staff",
+      "evidence": "Student theses Riza Theresa Batista-Navarro Dr Senior Lecturer in Text Mining , Natural Language Processing and Text Mining https://orcid.org/0 research areas from the last five years Recent external collaboration on country/territory level. Dive into details by clicking on the dots or"
+    },
+    {
+      "unitId": "manchester-cs",
+      "officialId": "Academic staff:davide bertozzi",
+      "name": "Davide Bertozzi",
+      "profileUrl": "https://research.manchester.ac.uk/en/persons/davide-bertozzi",
+      "title": "Reader",
+      "section": "Academic staff",
+      "evidence": "rks of this person. Together they form a unique fingerprint. 1 Similar Profiles Neural Network Computer Science 100% Artificial Intelligence Computer Science 60% Permanent Fault Computer Science 36% Networks on Chips Computer Science 28% Wireless Communication Computer Science 27% En"
+    },
+    {
+      "unitId": "manchester-cs",
+      "officialId": "Academic staff:andrew brass",
+      "name": "Andrew Brass",
+      "profileUrl": "https://www.research.manchester.ac.uk/portal/andy.brass.html",
+      "title": "Professor",
+      "section": "Academic staff",
+      "evidence": " (Health Sciences) , School of Health Sciences Administration (L5) Professor of Bioinformatics , Human research areas from the last five years Recent external collaboration on country/territory level. Dive into details by clicking on the dots or Select a country/territory from the li"
+    },
+    {
+      "unitId": "manchester-cs",
+      "officialId": "Academic staff:gavin brown",
+      "name": "Gavin Brown",
+      "profileUrl": "https://www.research.manchester.ac.uk/portal/gavin.brown.html",
+      "title": "Professor, Deputy Head of Department",
+      "section": "Academic staff",
+      "evidence": "rizes Equipment Student theses Gavin Brown Prof Professor of Computer Science , Machine Learning and Robotics https://orcid.org/0000-0003-2261-9018 Overview Fingerprint Network Research interests Machine Learning.  research areas from the last five years Recent external collaboration o"
+    },
+    {
+      "unitId": "manchester-cs",
+      "officialId": "Academic staff:angelo cangelosi",
+      "name": "Angelo Cangelosi",
+      "profileUrl": "https://www.research.manchester.ac.uk/portal/angelo.cangelosi.html",
+      "title": "Professor",
+      "section": "Academic staff",
+      "evidence": " Press/Media Prizes Equipment Student theses Angelo Cangelosi Prof Professor of Machine Learning & Robotics , Machine Learning and Robotics https://orcid.org/0000-0002-4709-2243 Accepti research interests are in cognitive and developmental robotics, neural networks, language grounding,"
+    },
+    {
+      "unitId": "manchester-cs",
+      "officialId": "Academic staff:michele caprio",
+      "name": "Michele Caprio",
+      "profileUrl": "https://research.manchester.ac.uk/en/persons/michele-caprio",
+      "title": "Lecturer",
+      "section": "Academic staff",
+      "evidence": "h Caprio, M. , Li, S., Stutz, D. & Doucet, A., 3 Feb 2025 , In: Transactions on Machine Learning Research . Research output : Contribution to journal › Article › peer-review Open Access Conformal Prediction 100% Conformal Prediction Regi research topics where Michele Caprio is active. "
+    },
+    {
+      "unitId": "manchester-cs",
+      "officialId": "Academic staff:ke chen",
+      "name": "Ke Chen",
+      "profileUrl": "https://www.research.manchester.ac.uk/portal/ke.chen.html",
+      "title": "Senior Lecturer",
+      "section": "Academic staff",
+      "evidence": "ities Press/Media Prizes Equipment Student theses Ke Chen Dr Senior Lecturer in Machine Learning & Perception , Machine Learning and Robotics https://orcid.org/0000-0001-9457-9364 Accepting PhD Stude research interests include machine learning, machine perception, computational cogniti"
+    },
+    {
+      "unitId": "manchester-cs",
+      "officialId": "Academic staff:sarah clinch",
+      "name": "Sarah Clinch",
+      "profileUrl": "https://www.research.manchester.ac.uk/portal/sarah.clinch.html",
+      "title": "Senior Lecturer, Director of Postgraduate Taught Programmes",
+      "section": "Academic staff",
+      "evidence": "Senior Lecturer, Director of Postgraduate Taught Programmes；Academic staff"
+    },
+    {
+      "unitId": "manchester-cs",
+      "officialId": "Academic staff:emily collins",
+      "name": "Emily Collins",
+      "profileUrl": "https://research.manchester.ac.uk/en/persons/e.c.collins",
+      "title": "Dame Kathleen Ollerenshaw Fellow",
+      "section": "Academic staff",
+      "evidence": " they form a unique fingerprint. 1 Similar Profiles Robot Computer Science 100% Artificial Intelligence Computer Science 50% Robotic System Engineering 31% Transdisciplinary Approach Computer Science 25% Autonomous System Computer Science 25% Explainable Artificial Intelligence Computer Scien"
+    },
+    {
+      "unitId": "manchester-cs",
+      "officialId": "Academic staff:alex creswell",
+      "name": "Alex Creswell",
+      "profileUrl": null,
+      "title": "Chair in Digital And Artificial Intelligence",
+      "section": "Academic staff",
+      "evidence": "Chair in Digital And Artificial Intelligence；Academic staff"
+    },
+    {
+      "unitId": "manchester-cs",
+      "officialId": "Academic staff:louise dennis",
+      "name": "Louise Dennis",
+      "profileUrl": "https://www.research.manchester.ac.uk/portal/louise.dennis.html",
+      "title": "Reader",
+      "section": "Academic staff",
+      "evidence": "ities Press/Media Prizes Equipment Student theses Louise Dennis Dr Professor of Autonomous Systems , Autonomy and Verification https://orcid.org/0000-0003-1426-1896 Accepting PhD Students Overv research areas from the last five years Recent external collaboration on country/territory lev"
+    },
+    {
+      "unitId": "manchester-cs",
+      "officialId": "Academic staff:georgios detorikas",
+      "name": "Georgios Detorikas",
+      "profileUrl": "https://research.manchester.ac.uk/en/persons/georgios-detorakis/",
+      "title": "Lecturer in Neuromorphic Systems",
+      "section": "Academic staff",
+      "evidence": "ing-Dependent Plasticity Neuroscience 100% Self-Organizing Map Engineering 100% Neural Network Neuroscience 58% Somatosensory Cortex Neuroscience 56% Spike Sorting Neuroscience 50% Sensory Cortex Neuroscience 50% Receptive Field Neuroscience 50% Neuronal Activity Neuroscience 50% Vie"
+    },
+    {
+      "unitId": "manchester-cs",
+      "officialId": "Academic staff:clare dixon",
+      "name": "Clare Dixon",
+      "profileUrl": "https://www.research.manchester.ac.uk/portal/clare.dixon.html",
+      "title": "Computer Science Research Director and School of Engineering Deputy Head of Research",
+      "section": "Academic staff",
+      "evidence": "t Network Res Research interests My research interests include verification for robotics and autonomous systems, specification and verification of systems and theorem-proving for temporal and modal logics. In particular, I am interested in developing and applying tools and tech"
+    },
+    {
+      "unitId": "manchester-cs",
+      "officialId": "Academic staff:marie farrell",
+      "name": "Marie Farrell",
+      "profileUrl": "https://research.manchester.ac.uk/en/persons/marie-farrell",
+      "title": "Senior Lecturer (Research)",
+      "section": "Academic staff",
+      "evidence": "ement Elicitation Computer Science 98% Formal Verification Computer Science 87% Autonomous System Computer Science 81% Case Study Computer Science 67% Robot Computer Science 49% Robotic System Engineering 44% Formal Specification Computer Science 42% View full fingerprint Collaborations"
+    },
+    {
+      "unitId": "manchester-cs",
+      "officialId": "Academic staff:michael fisher",
+      "name": "Michael Fisher",
+      "profileUrl": "https://personalpages.manchester.ac.uk/staff/michael.fisher",
+      "title": "Professor, Royal Academy of Engineering Chair in Emerging Technologies",
+      "section": "Academic staff",
+      "evidence": "UK's Department for Science, Innovation and Technology , advising on aspects of Robotics and AI. I am academic lead for CRADLE , am involved in both BSI and IEEE standards on Sustainable Robotics and --> Fail-Safe Design of Autonomous Syst"
+    },
+    {
+      "unitId": "manchester-cs",
+      "officialId": "Academic staff:alejandro frangi",
+      "name": "Alejandro Frangi",
+      "profileUrl": "https://research.manchester.ac.uk/en/persons/alejandro-frangi/",
+      "title": "Professor, Bicentennial Turing Chair in Computational Medicine, Royal Academy of Engineering Chair in Emerging Technologies",
+      "section": "Academic staff",
+      "evidence": "e at the crossroads of medical image analysis and modelling with an emphasis on machine learning (phenomenological models) and computational physiology (mechanistic models). He is particularly interested in statistical methods applied to population imaging and in silico clinical trials"
+    },
+    {
+      "unitId": "manchester-cs",
+      "officialId": "Academic staff:aphrodite galata",
+      "name": "Aphrodite Galata",
+      "profileUrl": "https://www.research.manchester.ac.uk/portal/a.galata.html",
+      "title": "Lecturer",
+      "section": "Academic staff",
+      "evidence": " Cangelosi, A. , 25 Mar 2025 , 16th International Conference on Social Keywords Computer Vision Machine Learning Fingerprint Dive into the research topics where Aphrodite Galata is active. These topic labels come from the works of this person. Together they form a unique fingerprint. "
+    },
+    {
+      "unitId": "manchester-cs",
+      "officialId": "Academic staff:simon harper",
+      "name": "Simon Harper",
+      "profileUrl": "https://www.research.manchester.ac.uk/portal/simon.harper.html",
+      "title": "Professor",
+      "section": "Academic staff",
+      "evidence": "linism Insulin Dependant Type 2 Diabetes Profound Blindness Parkinson's Disease Human Computer Interaction (HCI / CHI) Human Computer Systems Web Accessibility World Wide Web Overview I'm a researcher professor working at the University of Manchester in the Department of Computer Science. I've b"
+    },
+    {
+      "unitId": "manchester-cs",
+      "officialId": "Academic staff:jason hartford",
+      "name": "Jason Hartford",
+      "profileUrl": "https://research.manchester.ac.uk/en/persons/jason-hartford/",
+      "title": "Dame Kathleen Ollerenshaw Fellow",
+      "section": "Academic staff",
+      "evidence": "s Equipment Student theses Jason Hartford Dr Dame Kathleen Ollerenshaw Fellow , Machine Learning and Robotics https://orcid.org/0000-0002-4229-2588 Accepting PhD Student research topics where Jason Hartford is active. These topic labels come from the works of this person. Together they"
+    },
+    {
+      "unitId": "manchester-cs",
+      "officialId": "Academic staff:mehran hosseini",
+      "name": "Mehran Hosseini",
+      "profileUrl": "https://research.manchester.ac.uk/en/persons/mehran-hosseini/",
+      "title": "Lecturer (Symbolic AI Autonomous Systems)",
+      "section": "Academic staff",
+      "evidence": "ial Attacks Jeary, L., Kuipers, T., Hosseini, M. & Paoletti, N., Feb 2026 , In: Pattern recognition. 170 , 112051. Research output : Contribution to journal › Article › peer-review Open Access Tight Verification of Probabilistic Robustness in Bayesian Neural Networks Batten, research topi"
+    },
+    {
+      "unitId": "manchester-cs",
+      "officialId": "Academic staff:caroline jay",
+      "name": "Caroline Jay",
+      "profileUrl": "https://www.research.manchester.ac.uk/portal/caroline.jay.html",
+      "title": "Professor of Computer Science, Head of Research in the School of Engineering",
+      "section": "Academic staff",
+      "evidence": "Rese Research interests Caroline's research focuses on software engineering and human-computer interaction, combining her expertise in computer science and psychology. She uses empirical methods to study and innovate in: Health Science and Medicine Creative Media and Television Knowledge Represe"
+    },
+    {
+      "unitId": "manchester-cs",
+      "officialId": "Academic staff:sami kaski",
+      "name": "Sami Kaski",
+      "profileUrl": "https://www.research.manchester.ac.uk/portal/samuel.kaski.html",
+      "title": "Professor of Artificial Intelligence",
+      "section": "Academic staff",
+      "evidence": "ties Press/Media Prizes Equipment Student theses Samuel Kaski Prof Professor of Artificial Intelligence , Machine Learning and Robotics https://orcid.org/0000-0003-1925-9154 Overview Fingerprin research areas from the last five years Recent external collaboration on country/territory level. D"
+    },
+    {
+      "unitId": "manchester-cs",
+      "officialId": "Academic staff:john keane",
+      "name": "John Keane",
+      "profileUrl": "https://research.manchester.ac.uk/en/persons/john-keane",
+      "title": "Professor",
+      "section": "Academic staff",
+      "evidence": "rizes Equipment Student theses John Keane Prof Professor of Computing Science , Machine Learning and Robotics https://orcid.org/0000-0001-9022-4339 Overview Fingerprint Network  research areas from the last five years Recent external collaboration on country/territory level. Dive into "
+    },
+    {
+      "unitId": "manchester-cs",
+      "officialId": "Academic staff:chenghua lin",
+      "name": "Chenghua Lin",
+      "profileUrl": "https://research.manchester.ac.uk/en/persons/chenghua-lin",
+      "title": "Professor",
+      "section": "Academic staff",
+      "evidence": "ties Press/Media Prizes Equipment Student theses Chenghua Lin Prof Professor of Natural Language Processing , Natural Language Processing and Text Mining https://orcid.org/0000-0003-3454-2468 A Research interests My research is centred around natural language processing and generation,"
+    },
+    {
+      "unitId": "manchester-cs",
+      "officialId": "Academic staff:alexandre marcireau",
+      "name": "Alexandre Marcireau",
+      "profileUrl": null,
+      "title": "Lecturer in Neuromorphic Systems",
+      "section": "Academic staff",
+      "evidence": "Lecturer in Neuromorphic Systems；Academic staff"
+    },
+    {
+      "unitId": "manchester-cs",
+      "officialId": "Academic staff:zahra montazeri",
+      "name": "Zahra Montazeri",
+      "profileUrl": "https://www.research.manchester.ac.uk/portal/zahra.montazeri.html",
+      "title": "Lecturer",
+      "section": "Academic staff",
+      "evidence": "ems https://orcid.org/0000-0003-0398-3105 Phone +44 161 275  Research interests Computer Graphics, Physics-based Rendering, Material Modeling, Artificial Intelligence (AI). Personal page Biography Zahra is a lecturer (Assistant Professor) at the University of Manchester in the departmen"
+    },
+    {
+      "unitId": "manchester-cs",
+      "officialId": "Academic staff:tingting mu",
+      "name": "Tingting Mu",
+      "profileUrl": "https://www.research.manchester.ac.uk/portal/tingting.mu.html",
+      "title": "Senior Lecturer",
+      "section": "Academic staff",
+      "evidence": "uipment Student theses Tingting Mu Dr Senior Lecturer in Natural Lang Process , Machine Learning and Robotics https://orcid.org/0000-0001-6315-3432 Overview Fingerprint research areas such as scientific data analytics.  research areas from the last five years Recent external collaborat"
+    },
+    {
+      "unitId": "manchester-cs",
+      "officialId": "Academic staff:anirbit mukherjee",
+      "name": "Anirbit Mukherjee",
+      "profileUrl": "https://www.research.manchester.ac.uk/portal/anirbit.mukherjee.html",
+      "title": "Lecturer in Machine Learning",
+      "section": "Academic staff",
+      "evidence": "es Press/Media Prizes Equipment Student theses Anirbit Mukherjee Dr Lecturer in Machine Learning , Machine Learning and Robotics https://orcid.org/0000-0001-5189-8939 Accepting PhD Stude research areas from the last five years Recent external collaboration on country/territory level. D"
+    },
+    {
+      "unitId": "manchester-cs",
+      "officialId": "Academic staff:goran nenadic",
+      "name": "Goran Nenadic",
+      "profileUrl": "https://www.research.manchester.ac.uk/portal/gnenadic.html",
+      "title": "Professor",
+      "section": "Academic staff",
+      "evidence": "zes Equipment Student theses Goran Nenadic Prof Professor of Computer Science , Natural Language Processing and Text Mining https://orcid.org/0000-0003-0795-5363 Overview F research interests are focused on natural language processing, text mining and semi-automated curation of knowled"
+    },
+    {
+      "unitId": "manchester-cs",
+      "officialId": "Academic staff:luca peres",
+      "name": "Luca Peres",
+      "profileUrl": "https://research.manchester.ac.uk/en/persons/luca.peres-2",
+      "title": "Lecturer",
+      "section": "Academic staff",
+      "evidence": "year Research output per year Constructive community race: full-density spiking neural network model drives neuromorphic computing Senk, J., Kurth, A., Furber, S. , Gemmeke, T., Golosio, B., Heittmann, A., Knight, J., Müller, E., Noll, T., Nowotny, T., Peraza Coppola, G., Peres, L. ,"
+    },
+    {
+      "unitId": "manchester-cs",
+      "officialId": "Academic staff:stephen pettifer",
+      "name": "Stephen Pettifer",
+      "profileUrl": "https://www.research.manchester.ac.uk/portal/steve.pettifer.html",
+      "title": "Professor, Director of Teaching Strategy, Associate Dean for Teaching",
+      "section": "Academic staff",
+      "evidence": "hattar, A. , Zhu, J., Pettifer, S. , Yan, L. & Montazeri, Z. , 8 Oct 2025 , In: Computer Graphics Forum. Research output : Contribution to journal › Article › peer-review Open Access Light Condition 10 research topics where Stephen Pettifer is active. These topic labels come from the wo"
+    },
+    {
+      "unitId": "manchester-cs",
+      "officialId": "Academic staff:oliver rhodes",
+      "name": "Oliver Rhodes",
+      "profileUrl": "https://www.research.manchester.ac.uk/portal/oliver.rhodes.html",
+      "title": "Senior Lecturer",
+      "section": "Academic staff",
+      "evidence": "year Research output per year Constructive community race: full-density spiking neural network model drives neuromorphic computing Senk, J., Kurth, A., Furber, S. , Gemmeke, T., Golosio, B., Heittmann, A., Knight, J., Müller, E., Noll, T., Nowotny, T., Peraza Coppola, G., Peres, L. ,"
+    },
+    {
+      "unitId": "manchester-cs",
+      "officialId": "Academic staff:omar rivasplata",
+      "name": "Omar Rivasplata",
+      "profileUrl": "https://research.manchester.ac.uk/en/persons/omar-rivasplata",
+      "title": "Senior Lecturer",
+      "section": "Academic staff",
+      "evidence": "ess/Media Prizes Equipment Student theses Omar Rivasplata Dr Senior Lecturer in Machine Learning , Machine Learning and Robotics https://orcid.org/0000-0002-2467-251X Accepting PhD St research areas from the last five years Recent external collaboration on country/territory level. Dive"
+    },
+    {
+      "unitId": "manchester-cs",
+      "officialId": "Academic staff:jonathan shapiro",
+      "name": "Jonathan Shapiro",
+      "profileUrl": "https://www.research.manchester.ac.uk/portal/jonathan.l.shapiro.html",
+      "title": "Reader",
+      "section": "Academic staff",
+      "evidence": "vities Press/Media Prizes Equipment Student theses Jonathan Shapiro Dr Reader , Machine Learning and Robotics https://orcid.org/0000-0002-9572-9544 Overview Fingerprint Network Research outpu research topics where Jonathan Shapiro is active. These topic labels come from the works of th"
+    },
+    {
+      "unitId": "manchester-cs",
+      "officialId": "Academic staff:sara summerton",
+      "name": "Sara Summerton",
+      "profileUrl": "https://research.manchester.ac.uk/en/persons/sara.summerton/",
+      "title": "Lecturer in Artificial Intelligence",
+      "section": "Academic staff",
+      "evidence": "ities Press/Media Prizes Equipment Student theses Sara Summerton Ms Lecturer in Artificial Intelligence , Computer Science Teaching Doctor of Philosophy , Department of Computer Science https: research areas from the last five years Recent external collaboration on country/territory level. Di"
+    },
+    {
+      "unitId": "manchester-cs",
+      "officialId": "Academic staff:jingyuan sun (j)",
+      "name": "Jingyuan Sun (J)",
+      "profileUrl": "https://research.manchester.ac.uk/en/persons/jingyuan-sun/",
+      "title": "Lecturer",
+      "section": "Academic staff",
+      "evidence": "ivities Press/Media Prizes Equipment Student theses Jingyuan Sun Dr Lecturer in Natural Language Processing , Natural Language Processing and Text Mining https://orcid.org/0000-0002-1089-5472 Acce research areas from the last five years Recent external collaboration on country/territor"
+    },
+    {
+      "unitId": "manchester-cs",
+      "officialId": "Academic staff:mingfei sun",
+      "name": "Mingfei Sun",
+      "profileUrl": "https://research.manchester.ac.uk/en/persons/mingfei-sun",
+      "title": "Lecturer",
+      "section": "Academic staff",
+      "evidence": "es Press/Media Prizes Equipment Student theses Mingfei Sun Dr Senior Lecturer , Machine Learning and Robotics https://orcid.org/0000-0002-5925-5425 Accepting PhD Students PhD projects * Policy Research interests My research concerns artificial intelligence, with a particular focus on m"
+    },
+    {
+      "unitId": "manchester-cs",
+      "officialId": "Academic staff:chris taylor",
+      "name": "Chris Taylor",
+      "profileUrl": "https://www.research.manchester.ac.uk/portal/chris.taylor.html",
+      "title": "Professor, Associate VP Digital Strategy and Innovation",
+      "section": "Academic staff",
+      "evidence": "nt Student theses Chris Taylor, FREng, OBE Prof Professor of Computer Science , Machine Learning and Robotics Professor of Medical Biophysics , Division of Inform Research interests Computer Vision Medical Image Analysis Mammography Bone and Joint imaging (OA, RA) Nailfold Capillarosco"
+    },
+    {
+      "unitId": "manchester-cs",
+      "officialId": "Academic staff:junichi tsujii",
+      "name": "Junichi Tsujii",
+      "profileUrl": "https://www.research.manchester.ac.uk/portal/j.tsujii.html",
+      "title": "Professor, Scientific Advisor of NaCTeM",
+      "section": "Academic staff",
+      "evidence": "es Equipment Student theses Junichi Tsujii Prof Professor of Computer Science , Natural Language Processing and Text Mining Overview Fingerprint Network Research output ( research topics where Junichi Tsujii is active. These topic labels come from the works of this person. Together the"
+    },
+    {
+      "unitId": "manchester-cs",
+      "officialId": "Academic staff:andré van schaik",
+      "name": "André van Schaik",
+      "profileUrl": "https://research.manchester.ac.uk/en/persons/andr%C3%A9-van-schaik/",
+      "title": "Furber Chair in Neuromorphic Systems Engineering",
+      "section": "Academic staff",
+      "evidence": "gnal Processing Computer Science 100% Reverse Engineering Computer Science 100% Neural Network Computer Science 100% Field Programmable Gate Array Computer Science 100% Digital Signal Processing System Computer Science 100% External World Computer Science 100% View full fingerprint C"
+    },
+    {
+      "unitId": "manchester-cs",
+      "officialId": "Academic staff:markel vigo",
+      "name": "Markel Vigo",
+      "profileUrl": "https://www.research.manchester.ac.uk/portal/markel.vigo.html",
+      "title": "Reader",
+      "section": "Academic staff",
+      "evidence": "Reader；Academic staff"
+    },
+    {
+      "unitId": "manchester-cs",
+      "officialId": "Academic staff:xiao-jun zeng",
+      "name": "Xiao-Jun Zeng",
+      "profileUrl": "https://www.research.manchester.ac.uk/portal/x.zeng.html",
+      "title": "Professor of Machine Learning",
+      "section": "Academic staff",
+      "evidence": "ties Press/Media Prizes Equipment Student theses Xiaojun Zeng Prof Professor of Machine Learning , Machine Learning and Robotics https://orcid.org/0000-0002-2320-2495 Overview Fingerprint Netwo research interests include computational intelligence, machine learning, decision support sy"
+    },
+    {
+      "unitId": "manchester-cs",
+      "officialId": "Academic staff:philip zhao",
+      "name": "Philip Zhao",
+      "profileUrl": "mailto:philip.zhao@manchester.ac.uk",
+      "title": "Senior Lecturer",
+      "section": "Academic staff",
+      "evidence": "Senior Lecturer；Academic staff"
+    },
+    {
+      "unitId": "manchester-cs",
+      "officialId": "Academic staff:hongpeng zhou",
+      "name": "Hongpeng Zhou",
+      "profileUrl": "https://research.manchester.ac.uk/en/persons/hongpeng-zhou",
+      "title": "Dame Kathleen Ollerenshaw Fellow",
+      "section": "Academic staff",
+      "evidence": "s://orcid.org/0000-0002-3894-0116 Accepting PhD Students research interests are machine learning, deep learning, Bayesian learning, interpretable learning and bioinformatics. I was a postdoc research associate at Prof.Magnus Rattray's group - Division of Informatics, Imaging and Data S"
+    },
+    {
+      "unitId": "kit-informatics",
+      "officialId": "prof. dr. tamim asfour",
+      "name": "Prof. Dr. Tamim Asfour",
+      "profileUrl": "https://h2t.iar.kit.edu/tamim-asfour.php",
+      "title": null,
+      "section": "Institute for Anthropomatics and Robotics (IAR)",
+      "evidence": "ing Learning from Human Obs research interest is high performance 24/7 humanoid robotics. Specifically, his research focuses on engineering humanoid robot systems integrating the mechano-informatics of such systems with the capabilities of predicting, acting and learning from h"
+    },
+    {
+      "unitId": "kit-informatics",
+      "officialId": "prof. dr. jürgen beyerer",
+      "name": "Prof. Dr. Jürgen Beyerer",
+      "profileUrl": "https://ies.iar.kit.edu/english/1473_1497.php",
+      "title": null,
+      "section": "Institute for Anthropomatics and Robotics (IAR)",
+      "evidence": "tiview Deflectometry Dataset Automatic Visual Inspection Image Exploitation and Machine Learning Semantic Environmental Modelling Security and Privacy Publications in KITopen Lectures Students' Theses Job Openings Contact / Directions Startpage Home Legals Data Protection Sitemap Visio"
+    },
+    {
+      "unitId": "kit-informatics",
+      "officialId": "prof. dr. pascal friederich",
+      "name": "Prof. Dr. Pascal Friederich",
+      "profileUrl": "https://aimat.iar.kit.edu/people_71.php",
+      "title": null,
+      "section": "Institute for Anthropomatics and Robotics (IAR)",
+      "evidence": "--> KIT - AiMat group People Institute for Anthropomatics and Robotics (IAR) - AiMat group skip navigation Home Legals Privacy Policy Accessibility Sitemap KIT de search search Start People AiMat Experience Start AiMat Experience AiMat Experience Lukas Bär - I"
+    },
+    {
+      "unitId": "kit-informatics",
+      "officialId": "prof. dr. kathrin gerling",
+      "name": "Prof. Dr. Kathrin Gerling",
+      "profileUrl": "https://hci.iar.kit.edu/21_59.php",
+      "title": null,
+      "section": "Institute for Anthropomatics and Robotics (IAR)",
+      "evidence": "--> KIT - Human-Computer Interaction and Accessibility (HCI) - Team Human-Computer Interaction and Accessibility (HCI) skip navigation Home Legals Privacy Policy Accessibility Sitemap KIT de search search News Team Research St"
+    },
+    {
+      "unitId": "kit-informatics",
+      "officialId": "prof. dr. uwe hanebeck",
+      "name": "Prof. Dr. Uwe Hanebeck",
+      "profileUrl": "https://isas.iar.kit.edu/Staff_Hanebeck.php",
+      "title": null,
+      "section": "Institute for Anthropomatics and Robotics (IAR)",
+      "evidence": "l Chair of the '2006 IEEE Intl. Conf. on Multisensor Fusion and Integration for Intelligent Systems (MFI 2006)', Program Co-Chair of the '11th Intl. Conf. on Information Fusion (F Member of the Board of Directors of the 'Intl. Society of Information Fusion (ISIF)', was Editor-in-chief of "
+    },
+    {
+      "unitId": "kit-informatics",
+      "officialId": "prof. dr. katja mombaur",
+      "name": "Prof. Dr. Katja Mombaur",
+      "profileUrl": "https://hcr.iar.kit.edu/team_KMombaur.php",
+      "title": null,
+      "section": "Institute for Anthropomatics and Robotics (IAR)",
+      "evidence": "--> KIT - BioRobotics Lab Team Optimization and Biomechanics for Human-Centred Robotics (HCR) skip navigation Home Legals Privacy Policy Accessibility Sitemap KIT search search News Team Lectures Research Start "
+    },
+    {
+      "unitId": "kit-informatics",
+      "officialId": "prof. dr. gerhard neumann",
+      "name": "Prof. Dr. Gerhard Neumann",
+      "profileUrl": "https://alr-kit.de/team/geri/",
+      "title": null,
+      "section": "Institute for Anthropomatics and Robotics (IAR)",
+      "evidence": "Institute for Anthropomatics and Robotics (IAR)"
+    },
+    {
+      "unitId": "kit-informatics",
+      "officialId": "prof. dr. jan niehues",
+      "name": "Prof. Dr. Jan Niehues",
+      "profileUrl": "https://ai4lt.iar.kit.edu/english/team_jan_niehues.php",
+      "title": null,
+      "section": "Institute for Anthropomatics and Robotics (IAR)",
+      "evidence": "--> KIT - AI4LT Team Artificial Intelligence for Language Technologies (AI4LT) skip navigation Home Legals Data Protection Accessibility Sitemap KIT de search search Team Research Start Research Research Projects Publications Presenta"
+    },
+    {
+      "unitId": "kit-informatics",
+      "officialId": "prof. dr. rudolph triebel",
+      "name": "Prof. Dr. Rudolph Triebel",
+      "profileUrl": "https://www.dlr.de/de/rm/ueber-uns/abteilungen/perzeption-und-kognition",
+      "title": null,
+      "section": "Institute for Anthropomatics and Robotics (IAR)",
+      "evidence": "Institute for Anthropomatics and Robotics (IAR)"
+    },
+    {
+      "unitId": "kit-informatics",
+      "officialId": "t.-t.-prof. dr. barbara bruno",
+      "name": "T.-T.-Prof. Dr. Barbara Bruno",
+      "profileUrl": "https://sarai.iar.kit.edu/21_58.php",
+      "title": null,
+      "section": "Institute for Anthropomatics and Robotics (IAR)",
+      "evidence": "--> KIT - IAR - SARAI: Team Socially Assistive Robotics with Artificial Intelligence (SARAI) skip navigation Home Legals Privacy Policy Accessibility Sitemap KIT search search Lectures Team Research Start Research Research Biosignal Adaptive sys"
+    },
+    {
+      "unitId": "kit-informatics",
+      "officialId": "t.-t.-prof. dr. rudolf lioutikov",
+      "name": "T.-T.-Prof. Dr. Rudolf Lioutikov",
+      "profileUrl": "https://www.irl.iar.kit.edu/team_58.php",
+      "title": null,
+      "section": "Institute for Anthropomatics and Robotics (IAR)",
+      "evidence": " KIT search search Team Research Lectures Thesis Events Start Events Events RIG Foundation Model Bootcamp Jobs Contact Startpage Home Legals Privacy Policy Accessibility Sitemap search search Campus Map Intuitive Robots Lab (IRL) Startpage Team Home Team Research Lectures Thesis Events"
+    },
+    {
+      "unitId": "kit-informatics",
+      "officialId": "jun.-prof. dr. jan stühmer",
+      "name": "Jun.-Prof. Dr. Jan Stühmer",
+      "profileUrl": "https://www.h-its.org/de/people/dr-jan-stuhmer/",
+      "title": null,
+      "section": "Institute for Anthropomatics and Robotics (IAR)",
+      "evidence": "cs (AIN) Computational Molecular Evolution (CME) Computational Statistics (CST) Data Mining and Uncertainty Quantification (DMQ) Machine Learning and Artificial Intelligence (MLI) Molecular and Cellular Modeling (MCM) Natural Language Processing (NLP) Physics of Stellar Objects (P"
+    },
+    {
+      "unitId": "kit-informatics",
+      "officialId": "prof. dr. christian wressnegger",
+      "name": "Prof. Dr. Christian Wressnegger",
+      "profileUrl": "https://intellisec.de/chris/",
+      "title": null,
+      "section": "Institute of Information Security and Dependability (KASTEL) | Institute of Theoretical Informatics (ITI)",
+      "evidence": "Artificial Intelligence and Security Home Research Overview Publications Projects Teaching Courses Theses Team Open Positions Contact Prof. Dr. Christian Wressnegger Email Bluesky @chwress.bsky.social Telephone +4"
+    },
+    {
+      "unitId": "kit-informatics",
+      "officialId": "t.t.-prof. dr. benjamin schäfer",
+      "name": "T.T.-Prof. Dr. Benjamin Schäfer",
+      "profileUrl": "https://www.iai.kit.edu/english/2154_4101.php",
+      "title": null,
+      "section": "Institute of Telematics (TM)",
+      "evidence": "Institute of Telematics (TM)"
+    },
+    {
+      "unitId": "kit-informatics",
+      "officialId": "prof. dr. carsten dachsbacher",
+      "name": "Prof. Dr. Carsten Dachsbacher",
+      "profileUrl": "https://cg.ivd.kit.edu/english/staff/prof/dachsbacher/index_dachsbacher.php",
+      "title": null,
+      "section": "Institute for Visualization and Data Analysis (IVD)",
+      "evidence": "--> KIT - Computer Graphics - Our Group - Staff Computer Graphics Group skip navigation Home Legals Privacy Policy Accessibility Sitemap KIT de search search Our Group Start Our Group Our Group Profile Staff HiWi Posi"
+    },
+    {
+      "unitId": "tudelft-eemcs",
+      "officialId": "electrical engineering||prof.dr.ir. j.a. la poutré",
+      "name": "Prof.dr.ir. J.A. La Poutré",
+      "profileUrl": null,
+      "title": null,
+      "section": "Electrical Engineering",
+      "evidence": "Electrical Engineering"
+    },
+    {
+      "unitId": "tudelft-eemcs",
+      "officialId": "electrical engineering|microelectronics|prof.dr. a. webb",
+      "name": "Prof.dr. A. Webb",
+      "profileUrl": null,
+      "title": null,
+      "section": "Microelectronics",
+      "evidence": "Microelectronics"
+    },
+    {
+      "unitId": "tudelft-eemcs",
+      "officialId": "computer science|intelligent systems|prof.dr.ir. willem-paul brinkman",
+      "name": "Prof.dr.ir. Willem-Paul Brinkman",
+      "profileUrl": null,
+      "title": null,
+      "section": "Intelligent Systems",
+      "evidence": "Intelligent Systems"
+    },
+    {
+      "unitId": "tudelft-eemcs",
+      "officialId": "computer science|intelligent systems|prof.dr. p.s. cesar garcia",
+      "name": "Prof.dr. P.S. Cesar Garcia",
+      "profileUrl": null,
+      "title": null,
+      "section": "Intelligent Systems",
+      "evidence": "Intelligent Systems"
+    },
+    {
+      "unitId": "tudelft-eemcs",
+      "officialId": "computer science|intelligent systems|prof.dr. e. eisemann",
+      "name": "Prof.dr. E. Eisemann",
+      "profileUrl": null,
+      "title": null,
+      "section": "Intelligent Systems",
+      "evidence": "Intelligent Systems"
+    },
+    {
+      "unitId": "tudelft-eemcs",
+      "officialId": "computer science|intelligent systems|prof.dr. a. hanjalic",
+      "name": "Prof.dr. A. Hanjalic",
+      "profileUrl": null,
+      "title": null,
+      "section": "Intelligent Systems",
+      "evidence": "Intelligent Systems"
+    },
+    {
+      "unitId": "tudelft-eemcs",
+      "officialId": "computer science|intelligent systems|prof.dr. c.m. jonker",
+      "name": "Prof.dr. C.M. Jonker",
+      "profileUrl": null,
+      "title": null,
+      "section": "Intelligent Systems",
+      "evidence": "Intelligent Systems"
+    },
+    {
+      "unitId": "tudelft-eemcs",
+      "officialId": "computer science|intelligent systems|prof.dr.ir. r.l. lagendijk",
+      "name": "Prof.dr.ir. R.L. Lagendijk",
+      "profileUrl": null,
+      "title": null,
+      "section": "Intelligent Systems",
+      "evidence": "Intelligent Systems"
+    },
+    {
+      "unitId": "tudelft-eemcs",
+      "officialId": "computer science|intelligent systems|prof.dr.ir. b.p.f. lelieveldt",
+      "name": "Prof.dr.ir. B.P.F. Lelieveldt",
+      "profileUrl": null,
+      "title": null,
+      "section": "Intelligent Systems",
+      "evidence": "Intelligent Systems"
+    },
+    {
+      "unitId": "tudelft-eemcs",
+      "officialId": "computer science|intelligent systems|prof.dr. m.a. neerincx",
+      "name": "Prof.dr. M.A. Neerincx",
+      "profileUrl": null,
+      "title": null,
+      "section": "Intelligent Systems",
+      "evidence": "Intelligent Systems"
+    },
+    {
+      "unitId": "tudelft-eemcs",
+      "officialId": "computer science|intelligent systems|prof.dr.ir. m.j.t. reinders",
+      "name": "Prof.dr.ir. M.J.T. Reinders",
+      "profileUrl": null,
+      "title": null,
+      "section": "Intelligent Systems",
+      "evidence": "Intelligent Systems"
+    },
+    {
+      "unitId": "tudelft-eemcs",
+      "officialId": "computer science|intelligent systems|prof.dr. o.e.scharenborg",
+      "name": "Prof.dr. O.E.Scharenborg",
+      "profileUrl": null,
+      "title": null,
+      "section": "Intelligent Systems",
+      "evidence": "Intelligent Systems"
+    },
+    {
+      "unitId": "tudelft-eemcs",
+      "officialId": "computer science|intelligent systems|prof.dr. g. smaragdakis",
+      "name": "Prof.dr. G. Smaragdakis",
+      "profileUrl": null,
+      "title": null,
+      "section": "Intelligent Systems",
+      "evidence": "Intelligent Systems"
+    },
+    {
+      "unitId": "tudelft-eemcs",
+      "officialId": "computer science|intelligent systems|prof.dr. m.t.j. spaan",
+      "name": "Prof.dr. M.T.J. Spaan",
+      "profileUrl": null,
+      "title": null,
+      "section": "Intelligent Systems",
+      "evidence": "Intelligent Systems"
+    },
+    {
+      "unitId": "tudelft-eemcs",
+      "officialId": "computer science|intelligent systems|prof.dr. l.f.a. wessels",
+      "name": "Prof.dr. L.F.A. Wessels",
+      "profileUrl": null,
+      "title": null,
+      "section": "Intelligent Systems",
+      "evidence": "Intelligent Systems"
+    },
+    {
+      "unitId": "tudelft-eemcs",
+      "officialId": "computer science|software technology|prof.dr. p.a.n. bosman",
+      "name": "Prof.dr. P.A.N. Bosman",
+      "profileUrl": null,
+      "title": null,
+      "section": "Software Technology",
+      "evidence": "Software Technology"
+    },
+    {
+      "unitId": "tudelft-eemcs",
+      "officialId": "computer science|software technology|prof.dr.ir. a.bozzon",
+      "name": "Prof.dr.ir. A.Bozzon",
+      "profileUrl": null,
+      "title": null,
+      "section": "Software Technology",
+      "evidence": "Software Technology"
+    },
+    {
+      "unitId": "tudelft-eemcs",
+      "officialId": "computer science|software technology|prof.dr.ir. g.j.p.m. houben",
+      "name": "Prof.dr.ir. G.J.P.M. Houben",
+      "profileUrl": null,
+      "title": null,
+      "section": "Software Technology",
+      "evidence": "Software Technology"
+    },
+    {
+      "unitId": "tudelft-eemcs",
+      "officialId": "computer science|software technology|peter stuckey",
+      "name": "Peter Stuckey",
+      "profileUrl": null,
+      "title": null,
+      "section": "Software Technology",
+      "evidence": "Software Technology"
+    },
+    {
+      "unitId": "tudelft-eemcs",
+      "officialId": "computer science|software technology|prof.dr. m.m. de weerdt",
+      "name": "Prof.dr. M.M. de Weerdt",
+      "profileUrl": null,
+      "title": null,
+      "section": "Software Technology",
+      "evidence": "Software Technology"
+    }
+  ]
+}

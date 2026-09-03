@@ -1,0 +1,1104 @@
+{
+  "batchId": "mainland-top10-final-resolutions-2026-09-03",
+  "checkedAt": "2026-09-03",
+  "policy": "Every former pending row receives a final evidence-backed decision; same-name official records retain officialId in the roster key.",
+  "sourceDecisionFile": "data/roster-decisions/mainland-top10-tail-2026-09-03.json",
+  "classification": {
+    "excluded_historical": 1,
+    "excluded_insufficient_scope_evidence": 83,
+    "excluded_non_ai_cs": 6,
+    "excluded_non_pi": 6,
+    "include_new_pi": 19,
+    "included_existing": 2
+  },
+  "decisions": [
+    {
+      "officialId": "ff3c357e6935a02e",
+      "name": "薄格",
+      "unitUrl": "https://cs.fudan.edu.cn/50021/list.htm",
+      "decision": "excluded_insufficient_scope_evidence",
+      "evidenceUrl": "http://ai.fudan.edu.cn/bg/list.htm",
+      "reason": "复旦计算与智能创新学院官方冻结名录仅给出姓名和站内跳转，未给出薄格的职称、导师资格、研究方向或在职状态；对应复旦个人链接于 2026-09-03 公开访问时重定向至统一身份认证登录页，无法据一手公开证据确认其为现任独立 AI/CS PI。该条终结为“范围证据不足”，不再保留为 pending。",
+      "resolutionKind": "official_profile_access_controlled_and_card_has_no_scope_fields"
+    },
+    {
+      "officialId": "ccf6e31db7e38341",
+      "name": "崔新义",
+      "unitUrl": "https://cs.fudan.edu.cn/50021/list.htm",
+      "decision": "excluded_insufficient_scope_evidence",
+      "evidenceUrl": "http://ai.fudan.edu.cn/cxy/list.htm",
+      "reason": "复旦计算与智能创新学院官方冻结名录仅给出姓名和站内跳转，未给出崔新义的职称、导师资格、研究方向或在职状态；对应复旦个人链接于 2026-09-03 公开访问时重定向至统一身份认证登录页，无法据一手公开证据确认其为现任独立 AI/CS PI。该条终结为“范围证据不足”，不再保留为 pending。",
+      "resolutionKind": "official_profile_access_controlled_and_card_has_no_scope_fields"
+    },
+    {
+      "officialId": "8927ee03f66b3d06",
+      "name": "方博越",
+      "unitUrl": "https://cs.fudan.edu.cn/50021/list.htm",
+      "decision": "excluded_insufficient_scope_evidence",
+      "evidenceUrl": "http://ai.fudan.edu.cn/fby/list.htm",
+      "reason": "复旦计算与智能创新学院官方冻结名录仅给出姓名和站内跳转，未给出方博越的职称、导师资格、研究方向或在职状态；对应复旦个人链接于 2026-09-03 公开访问时重定向至统一身份认证登录页，无法据一手公开证据确认其为现任独立 AI/CS PI。该条终结为“范围证据不足”，不再保留为 pending。",
+      "resolutionKind": "official_profile_access_controlled_and_card_has_no_scope_fields"
+    },
+    {
+      "officialId": "e389f2e79d2f5957",
+      "name": "郭放",
+      "unitUrl": "https://cs.fudan.edu.cn/50021/list.htm",
+      "decision": "excluded_insufficient_scope_evidence",
+      "evidenceUrl": "http://ai.fudan.edu.cn/gf/list.htm",
+      "reason": "复旦计算与智能创新学院官方冻结名录仅给出姓名和站内跳转，未给出郭放的职称、导师资格、研究方向或在职状态；对应复旦个人链接于 2026-09-03 公开访问时重定向至统一身份认证登录页，无法据一手公开证据确认其为现任独立 AI/CS PI。该条终结为“范围证据不足”，不再保留为 pending。",
+      "resolutionKind": "official_profile_access_controlled_and_card_has_no_scope_fields"
+    },
+    {
+      "officialId": "30096669b673de93",
+      "name": "蒋金虎",
+      "unitUrl": "https://cs.fudan.edu.cn/50021/list.htm",
+      "decision": "excluded_insufficient_scope_evidence",
+      "evidenceUrl": "http://ai.fudan.edu.cn/jjh/list.htm",
+      "reason": "复旦计算与智能创新学院官方冻结名录仅给出姓名和站内跳转，未给出蒋金虎的职称、导师资格、研究方向或在职状态；对应复旦个人链接于 2026-09-03 公开访问时重定向至统一身份认证登录页，无法据一手公开证据确认其为现任独立 AI/CS PI。该条终结为“范围证据不足”，不再保留为 pending。",
+      "resolutionKind": "official_profile_access_controlled_and_card_has_no_scope_fields"
+    },
+    {
+      "officialId": "e31504bab555bb7c",
+      "name": "李红",
+      "unitUrl": "https://cs.fudan.edu.cn/50021/list.htm",
+      "decision": "excluded_insufficient_scope_evidence",
+      "evidenceUrl": "http://ai.fudan.edu.cn/lh/list.htm",
+      "reason": "复旦计算与智能创新学院官方冻结名录仅给出姓名和站内跳转，未给出李红的职称、导师资格、研究方向或在职状态；对应复旦个人链接于 2026-09-03 公开访问时重定向至统一身份认证登录页，无法据一手公开证据确认其为现任独立 AI/CS PI。该条终结为“范围证据不足”，不再保留为 pending。",
+      "resolutionKind": "official_profile_access_controlled_and_card_has_no_scope_fields"
+    },
+    {
+      "officialId": "d61de8644db5b750",
+      "name": "王卓晴",
+      "unitUrl": "https://cs.fudan.edu.cn/50021/list.htm",
+      "decision": "excluded_insufficient_scope_evidence",
+      "evidenceUrl": "http://ai.fudan.edu.cn/wzq/list.htm",
+      "reason": "复旦计算与智能创新学院官方冻结名录仅给出姓名和站内跳转，未给出王卓晴的职称、导师资格、研究方向或在职状态；对应复旦个人链接于 2026-09-03 公开访问时重定向至统一身份认证登录页，无法据一手公开证据确认其为现任独立 AI/CS PI。该条终结为“范围证据不足”，不再保留为 pending。",
+      "resolutionKind": "official_profile_access_controlled_and_card_has_no_scope_fields"
+    },
+    {
+      "officialId": "97b37b724606fc5a",
+      "name": "姚文遐",
+      "unitUrl": "https://cs.fudan.edu.cn/50021/list.htm",
+      "decision": "excluded_insufficient_scope_evidence",
+      "evidenceUrl": "http://ai.fudan.edu.cn/ywx/list.htm",
+      "reason": "复旦计算与智能创新学院官方冻结名录仅给出姓名和站内跳转，未给出姚文遐的职称、导师资格、研究方向或在职状态；对应复旦个人链接于 2026-09-03 公开访问时重定向至统一身份认证登录页，无法据一手公开证据确认其为现任独立 AI/CS PI。该条终结为“范围证据不足”，不再保留为 pending。",
+      "resolutionKind": "official_profile_access_controlled_and_card_has_no_scope_fields"
+    },
+    {
+      "officialId": "b1f5c8e94dcf4a9c",
+      "name": "李寅凡",
+      "unitUrl": "https://cs.fudan.edu.cn/50021/list.htm",
+      "decision": "excluded_insufficient_scope_evidence",
+      "evidenceUrl": "http://ai.fudan.edu.cn/lyf/list.htm",
+      "reason": "复旦计算与智能创新学院官方冻结名录仅给出姓名和站内跳转，未给出李寅凡的职称、导师资格、研究方向或在职状态；对应复旦个人链接于 2026-09-03 公开访问时重定向至统一身份认证登录页，无法据一手公开证据确认其为现任独立 AI/CS PI。该条终结为“范围证据不足”，不再保留为 pending。",
+      "resolutionKind": "official_profile_access_controlled_and_card_has_no_scope_fields"
+    },
+    {
+      "officialId": "706fcdf76c352f2a",
+      "name": "廖娜",
+      "unitUrl": "https://cs.fudan.edu.cn/50021/list.htm",
+      "decision": "excluded_insufficient_scope_evidence",
+      "evidenceUrl": "http://ai.fudan.edu.cn/ln_37389/list.htm",
+      "reason": "复旦计算与智能创新学院官方冻结名录仅给出姓名和站内跳转，未给出廖娜的职称、导师资格、研究方向或在职状态；对应复旦个人链接于 2026-09-03 公开访问时重定向至统一身份认证登录页，无法据一手公开证据确认其为现任独立 AI/CS PI。该条终结为“范围证据不足”，不再保留为 pending。",
+      "resolutionKind": "official_profile_access_controlled_and_card_has_no_scope_fields"
+    },
+    {
+      "officialId": "0b6977afd27459ff",
+      "name": "鲁云萍",
+      "unitUrl": "https://cs.fudan.edu.cn/50021/list.htm",
+      "decision": "excluded_insufficient_scope_evidence",
+      "evidenceUrl": "http://ai.fudan.edu.cn/lyp/list.htm",
+      "reason": "复旦计算与智能创新学院官方冻结名录仅给出姓名和站内跳转，未给出鲁云萍的职称、导师资格、研究方向或在职状态；对应复旦个人链接于 2026-09-03 公开访问时重定向至统一身份认证登录页，无法据一手公开证据确认其为现任独立 AI/CS PI。该条终结为“范围证据不足”，不再保留为 pending。",
+      "resolutionKind": "official_profile_access_controlled_and_card_has_no_scope_fields"
+    },
+    {
+      "officialId": "1115a215fb208b36",
+      "name": "周捷",
+      "unitUrl": "https://cs.fudan.edu.cn/50021/list.htm",
+      "decision": "excluded_insufficient_scope_evidence",
+      "evidenceUrl": "http://ai.fudan.edu.cn/zj_37587/list.htm",
+      "reason": "复旦计算与智能创新学院官方冻结名录仅给出姓名和站内跳转，未给出周捷的职称、导师资格、研究方向或在职状态；对应复旦个人链接于 2026-09-03 公开访问时重定向至统一身份认证登录页，无法据一手公开证据确认其为现任独立 AI/CS PI。该条终结为“范围证据不足”，不再保留为 pending。",
+      "resolutionKind": "official_profile_access_controlled_and_card_has_no_scope_fields"
+    },
+    {
+      "officialId": "0811c200f838ef95",
+      "name": "张琬琪",
+      "unitUrl": "https://cs.fudan.edu.cn/50021/list.htm",
+      "decision": "excluded_insufficient_scope_evidence",
+      "evidenceUrl": "http://ai.fudan.edu.cn/zwq_37647/list.htm",
+      "reason": "复旦计算与智能创新学院官方冻结名录仅给出姓名和站内跳转，未给出张琬琪的职称、导师资格、研究方向或在职状态；对应复旦个人链接于 2026-09-03 公开访问时重定向至统一身份认证登录页，无法据一手公开证据确认其为现任独立 AI/CS PI。该条终结为“范围证据不足”，不再保留为 pending。",
+      "resolutionKind": "official_profile_access_controlled_and_card_has_no_scope_fields"
+    },
+    {
+      "officialId": "03b073127fa6c2be",
+      "name": "敖海荣",
+      "unitUrl": "https://cs.fudan.edu.cn/50021/list.htm",
+      "decision": "excluded_insufficient_scope_evidence",
+      "evidenceUrl": "http://ai.fudan.edu.cn/ahr/list.htm",
+      "reason": "复旦计算与智能创新学院官方冻结名录仅给出姓名和站内跳转，未给出敖海荣的职称、导师资格、研究方向或在职状态；对应复旦个人链接于 2026-09-03 公开访问时重定向至统一身份认证登录页，无法据一手公开证据确认其为现任独立 AI/CS PI。该条终结为“范围证据不足”，不再保留为 pending。",
+      "resolutionKind": "official_profile_access_controlled_and_card_has_no_scope_fields"
+    },
+    {
+      "officialId": "7baf65e3592b7a59",
+      "name": "曹健林",
+      "unitUrl": "https://cs.fudan.edu.cn/50021/list.htm",
+      "decision": "excluded_insufficient_scope_evidence",
+      "evidenceUrl": "http://ai.fudan.edu.cn/cjl/list.htm",
+      "reason": "复旦计算与智能创新学院官方冻结名录仅给出姓名和站内跳转，未给出曹健林的职称、导师资格、研究方向或在职状态；对应复旦个人链接于 2026-09-03 公开访问时重定向至统一身份认证登录页，无法据一手公开证据确认其为现任独立 AI/CS PI。该条终结为“范围证据不足”，不再保留为 pending。",
+      "resolutionKind": "official_profile_access_controlled_and_card_has_no_scope_fields"
+    },
+    {
+      "officialId": "89ae053708bbcbb0",
+      "name": "曹青霞",
+      "unitUrl": "https://cs.fudan.edu.cn/50021/list.htm",
+      "decision": "excluded_insufficient_scope_evidence",
+      "evidenceUrl": "http://ai.fudan.edu.cn/cqx/list.htm",
+      "reason": "复旦计算与智能创新学院官方冻结名录仅给出姓名和站内跳转，未给出曹青霞的职称、导师资格、研究方向或在职状态；对应复旦个人链接于 2026-09-03 公开访问时重定向至统一身份认证登录页，无法据一手公开证据确认其为现任独立 AI/CS PI。该条终结为“范围证据不足”，不再保留为 pending。",
+      "resolutionKind": "official_profile_access_controlled_and_card_has_no_scope_fields"
+    },
+    {
+      "officialId": "dcfe3a07c21b3b4f",
+      "name": "曹伟",
+      "unitUrl": "https://cs.fudan.edu.cn/50021/list.htm",
+      "decision": "excluded_insufficient_scope_evidence",
+      "evidenceUrl": "http://ai.fudan.edu.cn/cw/list.htm",
+      "reason": "复旦计算与智能创新学院官方冻结名录仅给出姓名和站内跳转，未给出曹伟的职称、导师资格、研究方向或在职状态；对应复旦个人链接于 2026-09-03 公开访问时重定向至统一身份认证登录页，无法据一手公开证据确认其为现任独立 AI/CS PI。该条终结为“范围证据不足”，不再保留为 pending。",
+      "resolutionKind": "official_profile_access_controlled_and_card_has_no_scope_fields"
+    },
+    {
+      "officialId": "9ef27743f9d5f78a",
+      "name": "常城",
+      "unitUrl": "https://cs.fudan.edu.cn/50021/list.htm",
+      "decision": "excluded_insufficient_scope_evidence",
+      "evidenceUrl": "http://ai.fudan.edu.cn/cc1/list.htm",
+      "reason": "复旦计算与智能创新学院官方冻结名录仅给出姓名和站内跳转，未给出常城的职称、导师资格、研究方向或在职状态；对应复旦个人链接于 2026-09-03 公开访问时重定向至统一身份认证登录页，无法据一手公开证据确认其为现任独立 AI/CS PI。该条终结为“范围证据不足”，不再保留为 pending。",
+      "resolutionKind": "official_profile_access_controlled_and_card_has_no_scope_fields"
+    },
+    {
+      "officialId": "56e907aa0eec0451",
+      "name": "陈佳临",
+      "unitUrl": "https://cs.fudan.edu.cn/50021/list.htm",
+      "decision": "excluded_insufficient_scope_evidence",
+      "evidenceUrl": "http://ai.fudan.edu.cn/cjl1/list.htm",
+      "reason": "复旦计算与智能创新学院官方冻结名录仅给出姓名和站内跳转，未给出陈佳临的职称、导师资格、研究方向或在职状态；对应复旦个人链接于 2026-09-03 公开访问时重定向至统一身份认证登录页，无法据一手公开证据确认其为现任独立 AI/CS PI。该条终结为“范围证据不足”，不再保留为 pending。",
+      "resolutionKind": "official_profile_access_controlled_and_card_has_no_scope_fields"
+    },
+    {
+      "officialId": "cec9b647fd432132",
+      "name": "陈平",
+      "unitUrl": "https://cs.fudan.edu.cn/50021/list.htm",
+      "decision": "excluded_insufficient_scope_evidence",
+      "evidenceUrl": "http://ai.fudan.edu.cn/cp/list.htm",
+      "reason": "复旦计算与智能创新学院官方冻结名录仅给出姓名和站内跳转，未给出陈平的职称、导师资格、研究方向或在职状态；对应复旦个人链接于 2026-09-03 公开访问时重定向至统一身份认证登录页，无法据一手公开证据确认其为现任独立 AI/CS PI。该条终结为“范围证据不足”，不再保留为 pending。",
+      "resolutionKind": "official_profile_access_controlled_and_card_has_no_scope_fields"
+    },
+    {
+      "officialId": "9e9845649a5a73d1",
+      "name": "陈曦",
+      "unitUrl": "https://cs.fudan.edu.cn/50021/list.htm",
+      "decision": "include_new_pi",
+      "evidenceUrl": "https://ai3.fudan.edu.cn/info/1075/1664.htm",
+      "reason": "复旦人工智能创新与产业研究院官方个人页明确将陈曦列为教授、博士生导师；该一手个人页补足计算与智能创新学院冻结卡片未标注的职称和导师资格。",
+      "resolutionKind": "alternate_official_fudan_profile",
+      "alternateOfficialId": "dfa8486683496929"
+    },
+    {
+      "officialId": "958c2907b190b1eb",
+      "name": "陈宇亮",
+      "unitUrl": "https://cs.fudan.edu.cn/50021/list.htm",
+      "decision": "excluded_insufficient_scope_evidence",
+      "evidenceUrl": "http://ai.fudan.edu.cn/cyl/list.htm",
+      "reason": "复旦计算与智能创新学院官方冻结名录仅给出姓名和站内跳转，未给出陈宇亮的职称、导师资格、研究方向或在职状态；对应复旦个人链接于 2026-09-03 公开访问时重定向至统一身份认证登录页，无法据一手公开证据确认其为现任独立 AI/CS PI。该条终结为“范围证据不足”，不再保留为 pending。",
+      "resolutionKind": "official_profile_access_controlled_and_card_has_no_scope_fields"
+    },
+    {
+      "officialId": "c946529ce4455a25",
+      "name": "陈园园",
+      "unitUrl": "https://cs.fudan.edu.cn/50021/list.htm",
+      "decision": "excluded_insufficient_scope_evidence",
+      "evidenceUrl": "http://ai.fudan.edu.cn/cyy/list.htm",
+      "reason": "复旦计算与智能创新学院官方冻结名录仅给出姓名和站内跳转，未给出陈园园的职称、导师资格、研究方向或在职状态；对应复旦个人链接于 2026-09-03 公开访问时重定向至统一身份认证登录页，无法据一手公开证据确认其为现任独立 AI/CS PI。该条终结为“范围证据不足”，不再保留为 pending。",
+      "resolutionKind": "official_profile_access_controlled_and_card_has_no_scope_fields"
+    },
+    {
+      "officialId": "ffc799b18e6a1d75",
+      "name": "唐鹏",
+      "unitUrl": "https://cs.fudan.edu.cn/50021/list.htm",
+      "decision": "excluded_insufficient_scope_evidence",
+      "evidenceUrl": "http://ai.fudan.edu.cn/tp/list.htm",
+      "reason": "复旦计算与智能创新学院官方冻结名录仅给出姓名和站内跳转，未给出唐鹏的职称、导师资格、研究方向或在职状态；对应复旦个人链接于 2026-09-03 公开访问时重定向至统一身份认证登录页，无法据一手公开证据确认其为现任独立 AI/CS PI。该条终结为“范围证据不足”，不再保留为 pending。",
+      "resolutionKind": "official_profile_access_controlled_and_card_has_no_scope_fields"
+    },
+    {
+      "officialId": "0f89ea7979330b75",
+      "name": "汪蕾",
+      "unitUrl": "https://cs.fudan.edu.cn/50021/list.htm",
+      "decision": "excluded_insufficient_scope_evidence",
+      "evidenceUrl": "http://ai.fudan.edu.cn/wl/list.htm",
+      "reason": "复旦计算与智能创新学院官方冻结名录仅给出姓名和站内跳转，未给出汪蕾的职称、导师资格、研究方向或在职状态；对应复旦个人链接于 2026-09-03 公开访问时重定向至统一身份认证登录页，无法据一手公开证据确认其为现任独立 AI/CS PI。该条终结为“范围证据不足”，不再保留为 pending。",
+      "resolutionKind": "official_profile_access_controlled_and_card_has_no_scope_fields"
+    },
+    {
+      "officialId": "e78f803d0ca302bf",
+      "name": "王嘉勋",
+      "unitUrl": "https://cs.fudan.edu.cn/50021/list.htm",
+      "decision": "excluded_insufficient_scope_evidence",
+      "evidenceUrl": "http://ai.fudan.edu.cn/wjx1/list.htm",
+      "reason": "复旦计算与智能创新学院官方冻结名录仅给出姓名和站内跳转，未给出王嘉勋的职称、导师资格、研究方向或在职状态；对应复旦个人链接于 2026-09-03 公开访问时重定向至统一身份认证登录页，无法据一手公开证据确认其为现任独立 AI/CS PI。该条终结为“范围证据不足”，不再保留为 pending。",
+      "resolutionKind": "official_profile_access_controlled_and_card_has_no_scope_fields"
+    },
+    {
+      "officialId": "50cd259059120575",
+      "name": "王莉清",
+      "unitUrl": "https://cs.fudan.edu.cn/50021/list.htm",
+      "decision": "excluded_insufficient_scope_evidence",
+      "evidenceUrl": "http://ai.fudan.edu.cn/wlq/list.htm",
+      "reason": "复旦计算与智能创新学院官方冻结名录仅给出姓名和站内跳转，未给出王莉清的职称、导师资格、研究方向或在职状态；对应复旦个人链接于 2026-09-03 公开访问时重定向至统一身份认证登录页，无法据一手公开证据确认其为现任独立 AI/CS PI。该条终结为“范围证据不足”，不再保留为 pending。",
+      "resolutionKind": "official_profile_access_controlled_and_card_has_no_scope_fields"
+    },
+    {
+      "officialId": "961366b905efa0ec",
+      "name": "王亭又",
+      "unitUrl": "https://cs.fudan.edu.cn/50021/list.htm",
+      "decision": "excluded_insufficient_scope_evidence",
+      "evidenceUrl": "http://ai.fudan.edu.cn/wty/list.htm",
+      "reason": "复旦计算与智能创新学院官方冻结名录仅给出姓名和站内跳转，未给出王亭又的职称、导师资格、研究方向或在职状态；对应复旦个人链接于 2026-09-03 公开访问时重定向至统一身份认证登录页，无法据一手公开证据确认其为现任独立 AI/CS PI。该条终结为“范围证据不足”，不再保留为 pending。",
+      "resolutionKind": "official_profile_access_controlled_and_card_has_no_scope_fields"
+    },
+    {
+      "officialId": "17bf189ed4dec10a",
+      "name": "王逸",
+      "unitUrl": "https://cs.fudan.edu.cn/50021/list.htm",
+      "decision": "excluded_insufficient_scope_evidence",
+      "evidenceUrl": "http://ai.fudan.edu.cn/wy1/list.htm",
+      "reason": "复旦计算与智能创新学院官方冻结名录仅给出姓名和站内跳转，未给出王逸的职称、导师资格、研究方向或在职状态；对应复旦个人链接于 2026-09-03 公开访问时重定向至统一身份认证登录页，无法据一手公开证据确认其为现任独立 AI/CS PI。该条终结为“范围证据不足”，不再保留为 pending。",
+      "resolutionKind": "official_profile_access_controlled_and_card_has_no_scope_fields"
+    },
+    {
+      "officialId": "b8ba5335680a5330",
+      "name": "吴悠",
+      "unitUrl": "https://cs.fudan.edu.cn/50021/list.htm",
+      "decision": "excluded_non_pi",
+      "evidenceUrl": "https://ai3.fudan.edu.cn/info/1084/1674.htm",
+      "reason": "复旦人工智能创新与产业研究院官方个人页将吴悠列为“工程技术人员”，未显示独立招生或研究组负责人身份；该一手身份信息用于消解计算与智能创新学院冻结卡片的缺项，最终判为非独立 PI。",
+      "resolutionKind": "alternate_official_fudan_profile",
+      "alternateOfficialId": "5a02c119a3b74e57"
+    },
+    {
+      "officialId": "449b8e08f0394f2a",
+      "name": "夏丽莎",
+      "unitUrl": "https://cs.fudan.edu.cn/50021/list.htm",
+      "decision": "excluded_insufficient_scope_evidence",
+      "evidenceUrl": "http://ai.fudan.edu.cn/xls/list.htm",
+      "reason": "复旦计算与智能创新学院官方冻结名录仅给出姓名和站内跳转，未给出夏丽莎的职称、导师资格、研究方向或在职状态；对应复旦个人链接于 2026-09-03 公开访问时重定向至统一身份认证登录页，无法据一手公开证据确认其为现任独立 AI/CS PI。该条终结为“范围证据不足”，不再保留为 pending。",
+      "resolutionKind": "official_profile_access_controlled_and_card_has_no_scope_fields"
+    },
+    {
+      "officialId": "180029deed04658d",
+      "name": "徐伊茜",
+      "unitUrl": "https://cs.fudan.edu.cn/50021/list.htm",
+      "decision": "excluded_insufficient_scope_evidence",
+      "evidenceUrl": "http://ai.fudan.edu.cn/xyq/list.htm",
+      "reason": "复旦计算与智能创新学院官方冻结名录仅给出姓名和站内跳转，未给出徐伊茜的职称、导师资格、研究方向或在职状态；对应复旦个人链接于 2026-09-03 公开访问时重定向至统一身份认证登录页，无法据一手公开证据确认其为现任独立 AI/CS PI。该条终结为“范围证据不足”，不再保留为 pending。",
+      "resolutionKind": "official_profile_access_controlled_and_card_has_no_scope_fields"
+    },
+    {
+      "officialId": "59964732733974aa",
+      "name": "徐盈辉",
+      "unitUrl": "https://cs.fudan.edu.cn/50021/list.htm",
+      "decision": "include_new_pi",
+      "evidenceUrl": "https://ai3.fudan.edu.cn/info/1075/1404.htm",
+      "reason": "复旦人工智能创新与产业研究院官方个人页明确将徐盈辉列为研究员、博士生导师；该一手个人页补足计算与智能创新学院冻结卡片未标注的职称和导师资格。",
+      "resolutionKind": "alternate_official_fudan_profile",
+      "alternateOfficialId": "e7594f7500a221de"
+    },
+    {
+      "officialId": "7834c103039a41d7",
+      "name": "徐增林",
+      "unitUrl": "https://cs.fudan.edu.cn/50021/list.htm",
+      "decision": "included_existing",
+      "atlasPersonId": "zenglin-xu-fdu",
+      "evidenceUrl": "https://ai3.fudan.edu.cn/info/1075/1744.htm",
+      "reason": "复旦人工智能创新与产业研究院官方个人页明确将徐增林列为教授、博士生导师；该一手个人页补足计算与智能创新学院冻结卡片未标注的职称和导师资格。",
+      "resolutionKind": "alternate_official_fudan_profile",
+      "alternateOfficialId": "e2e36aec2495e872"
+    },
+    {
+      "officialId": "099f786ceee971ce",
+      "name": "姚云",
+      "unitUrl": "https://cs.fudan.edu.cn/50021/list.htm",
+      "decision": "excluded_insufficient_scope_evidence",
+      "evidenceUrl": "http://ai.fudan.edu.cn/yy/list.htm",
+      "reason": "复旦计算与智能创新学院官方冻结名录仅给出姓名和站内跳转，未给出姚云的职称、导师资格、研究方向或在职状态；对应复旦个人链接于 2026-09-03 公开访问时重定向至统一身份认证登录页，无法据一手公开证据确认其为现任独立 AI/CS PI。该条终结为“范围证据不足”，不再保留为 pending。",
+      "resolutionKind": "official_profile_access_controlled_and_card_has_no_scope_fields"
+    },
+    {
+      "officialId": "b9b9c0a5f6988d1f",
+      "name": "叶敬贤",
+      "unitUrl": "https://cs.fudan.edu.cn/50021/list.htm",
+      "decision": "excluded_insufficient_scope_evidence",
+      "evidenceUrl": "http://ai.fudan.edu.cn/yjx/list.htm",
+      "reason": "复旦计算与智能创新学院官方冻结名录仅给出姓名和站内跳转，未给出叶敬贤的职称、导师资格、研究方向或在职状态；对应复旦个人链接于 2026-09-03 公开访问时重定向至统一身份认证登录页，无法据一手公开证据确认其为现任独立 AI/CS PI。该条终结为“范围证据不足”，不再保留为 pending。",
+      "resolutionKind": "official_profile_access_controlled_and_card_has_no_scope_fields"
+    },
+    {
+      "officialId": "fbfcc4d5324fde01",
+      "name": "叶玲",
+      "unitUrl": "https://cs.fudan.edu.cn/50021/list.htm",
+      "decision": "excluded_insufficient_scope_evidence",
+      "evidenceUrl": "http://ai.fudan.edu.cn/yl1/list.htm",
+      "reason": "复旦计算与智能创新学院官方冻结名录仅给出姓名和站内跳转，未给出叶玲的职称、导师资格、研究方向或在职状态；对应复旦个人链接于 2026-09-03 公开访问时重定向至统一身份认证登录页，无法据一手公开证据确认其为现任独立 AI/CS PI。该条终结为“范围证据不足”，不再保留为 pending。",
+      "resolutionKind": "official_profile_access_controlled_and_card_has_no_scope_fields"
+    },
+    {
+      "officialId": "c9e0cadc86129cc5",
+      "name": "袁辕",
+      "unitUrl": "https://cs.fudan.edu.cn/50021/list.htm",
+      "decision": "excluded_insufficient_scope_evidence",
+      "evidenceUrl": "http://ai.fudan.edu.cn/yy1_50128/list.htm",
+      "reason": "复旦计算与智能创新学院官方冻结名录仅给出姓名和站内跳转，未给出袁辕的职称、导师资格、研究方向或在职状态；对应复旦个人链接于 2026-09-03 公开访问时重定向至统一身份认证登录页，无法据一手公开证据确认其为现任独立 AI/CS PI。该条终结为“范围证据不足”，不再保留为 pending。",
+      "resolutionKind": "official_profile_access_controlled_and_card_has_no_scope_fields"
+    },
+    {
+      "officialId": "37d7e2f16ef09a65",
+      "name": "张爱胤",
+      "unitUrl": "https://cs.fudan.edu.cn/50021/list.htm",
+      "decision": "excluded_insufficient_scope_evidence",
+      "evidenceUrl": "http://ai.fudan.edu.cn/zay/list.htm",
+      "reason": "复旦计算与智能创新学院官方冻结名录仅给出姓名和站内跳转，未给出张爱胤的职称、导师资格、研究方向或在职状态；对应复旦个人链接于 2026-09-03 公开访问时重定向至统一身份认证登录页，无法据一手公开证据确认其为现任独立 AI/CS PI。该条终结为“范围证据不足”，不再保留为 pending。",
+      "resolutionKind": "official_profile_access_controlled_and_card_has_no_scope_fields"
+    },
+    {
+      "officialId": "fa90c226044b7262",
+      "name": "张帆",
+      "unitUrl": "https://cs.fudan.edu.cn/50021/list.htm",
+      "decision": "excluded_insufficient_scope_evidence",
+      "evidenceUrl": "http://ai.fudan.edu.cn/zf/list.htm",
+      "reason": "复旦计算与智能创新学院官方冻结名录仅给出姓名和站内跳转，未给出张帆的职称、导师资格、研究方向或在职状态；对应复旦个人链接于 2026-09-03 公开访问时重定向至统一身份认证登录页，无法据一手公开证据确认其为现任独立 AI/CS PI。该条终结为“范围证据不足”，不再保留为 pending。",
+      "resolutionKind": "official_profile_access_controlled_and_card_has_no_scope_fields"
+    },
+    {
+      "officialId": "3b300afde8d6b77e",
+      "name": "张逢喆",
+      "unitUrl": "https://cs.fudan.edu.cn/50021/list.htm",
+      "decision": "excluded_insufficient_scope_evidence",
+      "evidenceUrl": "http://ai.fudan.edu.cn/zfz/list.htm",
+      "reason": "复旦计算与智能创新学院官方冻结名录仅给出姓名和站内跳转，未给出张逢喆的职称、导师资格、研究方向或在职状态；对应复旦个人链接于 2026-09-03 公开访问时重定向至统一身份认证登录页，无法据一手公开证据确认其为现任独立 AI/CS PI。该条终结为“范围证据不足”，不再保留为 pending。",
+      "resolutionKind": "official_profile_access_controlled_and_card_has_no_scope_fields"
+    },
+    {
+      "officialId": "18c8b59cbfcb1bc1",
+      "name": "张磊",
+      "unitUrl": "https://cs.fudan.edu.cn/50021/list.htm",
+      "decision": "excluded_insufficient_scope_evidence",
+      "evidenceUrl": "http://ai.fudan.edu.cn/zl1/list.htm",
+      "reason": "复旦计算与智能创新学院官方冻结名录仅给出姓名和站内跳转，未给出张磊的职称、导师资格、研究方向或在职状态；对应复旦个人链接于 2026-09-03 公开访问时重定向至统一身份认证登录页，无法据一手公开证据确认其为现任独立 AI/CS PI。该条终结为“范围证据不足”，不再保留为 pending。",
+      "resolutionKind": "official_profile_access_controlled_and_card_has_no_scope_fields"
+    },
+    {
+      "officialId": "aba61e939f956255",
+      "name": "张蕾",
+      "unitUrl": "https://cs.fudan.edu.cn/50021/list.htm",
+      "decision": "excluded_insufficient_scope_evidence",
+      "evidenceUrl": "http://ai.fudan.edu.cn/zl2/list.htm",
+      "reason": "复旦计算与智能创新学院官方冻结名录仅给出姓名和站内跳转，未给出张蕾的职称、导师资格、研究方向或在职状态；对应复旦个人链接于 2026-09-03 公开访问时重定向至统一身份认证登录页，无法据一手公开证据确认其为现任独立 AI/CS PI。该条终结为“范围证据不足”，不再保留为 pending。",
+      "resolutionKind": "official_profile_access_controlled_and_card_has_no_scope_fields"
+    },
+    {
+      "officialId": "03a9e393161bb12b",
+      "name": "张猛",
+      "unitUrl": "https://cs.fudan.edu.cn/50021/list.htm",
+      "decision": "excluded_insufficient_scope_evidence",
+      "evidenceUrl": "http://ai.fudan.edu.cn/zm1/list.htm",
+      "reason": "复旦计算与智能创新学院官方冻结名录仅给出姓名和站内跳转，未给出张猛的职称、导师资格、研究方向或在职状态；对应复旦个人链接于 2026-09-03 公开访问时重定向至统一身份认证登录页，无法据一手公开证据确认其为现任独立 AI/CS PI。该条终结为“范围证据不足”，不再保留为 pending。",
+      "resolutionKind": "official_profile_access_controlled_and_card_has_no_scope_fields"
+    },
+    {
+      "officialId": "e343c6923ad756dc",
+      "name": "赵锴旋",
+      "unitUrl": "https://cs.fudan.edu.cn/50021/list.htm",
+      "decision": "excluded_insufficient_scope_evidence",
+      "evidenceUrl": "http://ai.fudan.edu.cn/zkx/list.htm",
+      "reason": "复旦计算与智能创新学院官方冻结名录仅给出姓名和站内跳转，未给出赵锴旋的职称、导师资格、研究方向或在职状态；对应复旦个人链接于 2026-09-03 公开访问时重定向至统一身份认证登录页，无法据一手公开证据确认其为现任独立 AI/CS PI。该条终结为“范围证据不足”，不再保留为 pending。",
+      "resolutionKind": "official_profile_access_controlled_and_card_has_no_scope_fields"
+    },
+    {
+      "officialId": "6e656d9527a9759f",
+      "name": "赵星",
+      "unitUrl": "https://cs.fudan.edu.cn/50021/list.htm",
+      "decision": "excluded_insufficient_scope_evidence",
+      "evidenceUrl": "http://ai.fudan.edu.cn/zx/list.htm",
+      "reason": "复旦计算与智能创新学院官方冻结名录仅给出姓名和站内跳转，未给出赵星的职称、导师资格、研究方向或在职状态；对应复旦个人链接于 2026-09-03 公开访问时重定向至统一身份认证登录页，无法据一手公开证据确认其为现任独立 AI/CS PI。该条终结为“范围证据不足”，不再保留为 pending。",
+      "resolutionKind": "official_profile_access_controlled_and_card_has_no_scope_fields"
+    },
+    {
+      "officialId": "6d88ebd381afe3e7",
+      "name": "郑映芬",
+      "unitUrl": "https://cs.fudan.edu.cn/50021/list.htm",
+      "decision": "excluded_insufficient_scope_evidence",
+      "evidenceUrl": "http://ai.fudan.edu.cn/zyf1/list.htm",
+      "reason": "复旦计算与智能创新学院官方冻结名录仅给出姓名和站内跳转，未给出郑映芬的职称、导师资格、研究方向或在职状态；对应复旦个人链接于 2026-09-03 公开访问时重定向至统一身份认证登录页，无法据一手公开证据确认其为现任独立 AI/CS PI。该条终结为“范围证据不足”，不再保留为 pending。",
+      "resolutionKind": "official_profile_access_controlled_and_card_has_no_scope_fields"
+    },
+    {
+      "officialId": "2cfd461cd7f6123c",
+      "name": "周学功",
+      "unitUrl": "https://cs.fudan.edu.cn/50021/list.htm",
+      "decision": "excluded_insufficient_scope_evidence",
+      "evidenceUrl": "http://ai.fudan.edu.cn/zxg/list.htm",
+      "reason": "复旦计算与智能创新学院官方冻结名录仅给出姓名和站内跳转，未给出周学功的职称、导师资格、研究方向或在职状态；对应复旦个人链接于 2026-09-03 公开访问时重定向至统一身份认证登录页，无法据一手公开证据确认其为现任独立 AI/CS PI。该条终结为“范围证据不足”，不再保留为 pending。",
+      "resolutionKind": "official_profile_access_controlled_and_card_has_no_scope_fields"
+    },
+    {
+      "officialId": "28535cd78e42fd08",
+      "name": "周阳",
+      "unitUrl": "https://cs.fudan.edu.cn/50021/list.htm",
+      "decision": "excluded_insufficient_scope_evidence",
+      "evidenceUrl": "http://ai.fudan.edu.cn/zy1/list.htm",
+      "reason": "复旦计算与智能创新学院官方冻结名录仅给出姓名和站内跳转，未给出周阳的职称、导师资格、研究方向或在职状态；对应复旦个人链接于 2026-09-03 公开访问时重定向至统一身份认证登录页，无法据一手公开证据确认其为现任独立 AI/CS PI。该条终结为“范围证据不足”，不再保留为 pending。",
+      "resolutionKind": "official_profile_access_controlled_and_card_has_no_scope_fields"
+    },
+    {
+      "officialId": "7a9a29425928a6dc",
+      "name": "朱鸿斌",
+      "unitUrl": "https://cs.fudan.edu.cn/50021/list.htm",
+      "decision": "excluded_insufficient_scope_evidence",
+      "evidenceUrl": "http://ai.fudan.edu.cn/zhb/list.htm",
+      "reason": "复旦计算与智能创新学院官方冻结名录仅给出姓名和站内跳转，未给出朱鸿斌的职称、导师资格、研究方向或在职状态；对应复旦个人链接于 2026-09-03 公开访问时重定向至统一身份认证登录页，无法据一手公开证据确认其为现任独立 AI/CS PI。该条终结为“范围证据不足”，不再保留为 pending。",
+      "resolutionKind": "official_profile_access_controlled_and_card_has_no_scope_fields"
+    },
+    {
+      "officialId": "d7d51c3c95677ab4",
+      "name": "朱思语",
+      "unitUrl": "https://cs.fudan.edu.cn/50021/list.htm",
+      "decision": "include_new_pi",
+      "evidenceUrl": "https://ai3.fudan.edu.cn/info/1075/1524.htm",
+      "reason": "复旦人工智能创新与产业研究院官方个人页明确将朱思语列为研究员、博士生导师；该一手个人页补足计算与智能创新学院冻结卡片未标注的职称和导师资格。",
+      "resolutionKind": "alternate_official_fudan_profile",
+      "alternateOfficialId": "55741661ff52e573"
+    },
+    {
+      "officialId": "b44958f7641a35a1",
+      "name": "朱雯雯",
+      "unitUrl": "https://cs.fudan.edu.cn/50021/list.htm",
+      "decision": "excluded_insufficient_scope_evidence",
+      "evidenceUrl": "http://ai.fudan.edu.cn/zww/list.htm",
+      "reason": "复旦计算与智能创新学院官方冻结名录仅给出姓名和站内跳转，未给出朱雯雯的职称、导师资格、研究方向或在职状态；对应复旦个人链接于 2026-09-03 公开访问时重定向至统一身份认证登录页，无法据一手公开证据确认其为现任独立 AI/CS PI。该条终结为“范围证据不足”，不再保留为 pending。",
+      "resolutionKind": "official_profile_access_controlled_and_card_has_no_scope_fields"
+    },
+    {
+      "officialId": "20f25bf693306705",
+      "name": "陈真真",
+      "unitUrl": "https://cs.fudan.edu.cn/50021/list.htm",
+      "decision": "excluded_insufficient_scope_evidence",
+      "evidenceUrl": "http://ai.fudan.edu.cn/czz/list.htm",
+      "reason": "复旦计算与智能创新学院官方冻结名录仅给出姓名和站内跳转，未给出陈真真的职称、导师资格、研究方向或在职状态；对应复旦个人链接于 2026-09-03 公开访问时重定向至统一身份认证登录页，无法据一手公开证据确认其为现任独立 AI/CS PI。该条终结为“范围证据不足”，不再保留为 pending。",
+      "resolutionKind": "official_profile_access_controlled_and_card_has_no_scope_fields"
+    },
+    {
+      "officialId": "a515b1af957df518",
+      "name": "程远",
+      "unitUrl": "https://cs.fudan.edu.cn/50021/list.htm",
+      "decision": "include_new_pi",
+      "evidenceUrl": "https://ai3.fudan.edu.cn/info/1075/1394.htm",
+      "reason": "复旦人工智能创新与产业研究院官方个人页明确将程远列为研究员、博士生导师；该一手个人页补足计算与智能创新学院冻结卡片未标注的职称和导师资格。",
+      "resolutionKind": "alternate_official_fudan_profile",
+      "alternateOfficialId": "b24e1de91b6f1ff3"
+    },
+    {
+      "officialId": "e44b1bb298413d46",
+      "name": "丁恒辉",
+      "unitUrl": "https://cs.fudan.edu.cn/50021/list.htm",
+      "decision": "excluded_insufficient_scope_evidence",
+      "evidenceUrl": "http://ai.fudan.edu.cn/dhh/list.htm",
+      "reason": "复旦计算与智能创新学院官方冻结名录仅给出姓名和站内跳转，未给出丁恒辉的职称、导师资格、研究方向或在职状态；对应复旦个人链接于 2026-09-03 公开访问时重定向至统一身份认证登录页，无法据一手公开证据确认其为现任独立 AI/CS PI。该条终结为“范围证据不足”，不再保留为 pending。",
+      "resolutionKind": "official_profile_access_controlled_and_card_has_no_scope_fields"
+    },
+    {
+      "officialId": "99055d05d4e2fd60",
+      "name": "高娜",
+      "unitUrl": "https://cs.fudan.edu.cn/50021/list.htm",
+      "decision": "excluded_insufficient_scope_evidence",
+      "evidenceUrl": "http://ai.fudan.edu.cn/gn1/list.htm",
+      "reason": "复旦计算与智能创新学院官方冻结名录仅给出姓名和站内跳转，未给出高娜的职称、导师资格、研究方向或在职状态；对应复旦个人链接于 2026-09-03 公开访问时重定向至统一身份认证登录页，无法据一手公开证据确认其为现任独立 AI/CS PI。该条终结为“范围证据不足”，不再保留为 pending。",
+      "resolutionKind": "official_profile_access_controlled_and_card_has_no_scope_fields"
+    },
+    {
+      "officialId": "eea2b8cfbfc88a21",
+      "name": "葛治文",
+      "unitUrl": "https://cs.fudan.edu.cn/50021/list.htm",
+      "decision": "excluded_non_pi",
+      "evidenceUrl": "https://ai3.fudan.edu.cn/info/1084/1644.htm",
+      "reason": "复旦人工智能创新与产业研究院官方个人页将葛治文列为“工程技术人员”，未显示独立招生或研究组负责人身份；该一手身份信息用于消解计算与智能创新学院冻结卡片的缺项，最终判为非独立 PI。",
+      "resolutionKind": "alternate_official_fudan_profile",
+      "alternateOfficialId": "e4017b7095312faf"
+    },
+    {
+      "officialId": "6f751f40ef14e2da",
+      "name": "关惠宇",
+      "unitUrl": "https://cs.fudan.edu.cn/50021/list.htm",
+      "decision": "excluded_insufficient_scope_evidence",
+      "evidenceUrl": "http://ai.fudan.edu.cn/ghy/list.htm",
+      "reason": "复旦计算与智能创新学院官方冻结名录仅给出姓名和站内跳转，未给出关惠宇的职称、导师资格、研究方向或在职状态；对应复旦个人链接于 2026-09-03 公开访问时重定向至统一身份认证登录页，无法据一手公开证据确认其为现任独立 AI/CS PI。该条终结为“范围证据不足”，不再保留为 pending。",
+      "resolutionKind": "official_profile_access_controlled_and_card_has_no_scope_fields"
+    },
+    {
+      "officialId": "1bcf7633d4e3eefb",
+      "name": "郭栋",
+      "unitUrl": "https://cs.fudan.edu.cn/50021/list.htm",
+      "decision": "excluded_insufficient_scope_evidence",
+      "evidenceUrl": "http://ai.fudan.edu.cn/gd/list.htm",
+      "reason": "复旦计算与智能创新学院官方冻结名录仅给出姓名和站内跳转，未给出郭栋的职称、导师资格、研究方向或在职状态；对应复旦个人链接于 2026-09-03 公开访问时重定向至统一身份认证登录页，无法据一手公开证据确认其为现任独立 AI/CS PI。该条终结为“范围证据不足”，不再保留为 pending。",
+      "resolutionKind": "official_profile_access_controlled_and_card_has_no_scope_fields"
+    },
+    {
+      "officialId": "3b675b36af530e48",
+      "name": "侯慧",
+      "unitUrl": "https://cs.fudan.edu.cn/50021/list.htm",
+      "decision": "excluded_insufficient_scope_evidence",
+      "evidenceUrl": "http://ai.fudan.edu.cn/hh1/list.htm",
+      "reason": "复旦计算与智能创新学院官方冻结名录仅给出姓名和站内跳转，未给出侯慧的职称、导师资格、研究方向或在职状态；对应复旦个人链接于 2026-09-03 公开访问时重定向至统一身份认证登录页，无法据一手公开证据确认其为现任独立 AI/CS PI。该条终结为“范围证据不足”，不再保留为 pending。",
+      "resolutionKind": "official_profile_access_controlled_and_card_has_no_scope_fields"
+    },
+    {
+      "officialId": "05d08adbe13f2723",
+      "name": "胡薛梅",
+      "unitUrl": "https://cs.fudan.edu.cn/50021/list.htm",
+      "decision": "excluded_insufficient_scope_evidence",
+      "evidenceUrl": "http://ai.fudan.edu.cn/hxm/list.htm",
+      "reason": "复旦计算与智能创新学院官方冻结名录仅给出姓名和站内跳转，未给出胡薛梅的职称、导师资格、研究方向或在职状态；对应复旦个人链接于 2026-09-03 公开访问时重定向至统一身份认证登录页，无法据一手公开证据确认其为现任独立 AI/CS PI。该条终结为“范围证据不足”，不再保留为 pending。",
+      "resolutionKind": "official_profile_access_controlled_and_card_has_no_scope_fields"
+    },
+    {
+      "officialId": "a6d017aad976cea7",
+      "name": "黄岳",
+      "unitUrl": "https://cs.fudan.edu.cn/50021/list.htm",
+      "decision": "excluded_non_pi",
+      "evidenceUrl": "https://ai3.fudan.edu.cn/info/1084/1854.htm",
+      "reason": "复旦人工智能创新与产业研究院官方个人页将黄岳列为“工程技术人员”，未显示独立招生或研究组负责人身份；该一手身份信息用于消解计算与智能创新学院冻结卡片的缺项，最终判为非独立 PI。",
+      "resolutionKind": "alternate_official_fudan_profile",
+      "alternateOfficialId": "96fe3d8bea737548"
+    },
+    {
+      "officialId": "71ed3d84b0afeb75",
+      "name": "黄志远",
+      "unitUrl": "https://cs.fudan.edu.cn/50021/list.htm",
+      "decision": "excluded_non_pi",
+      "evidenceUrl": "https://ai3.fudan.edu.cn/info/1084/1964.htm",
+      "reason": "复旦人工智能创新与产业研究院官方个人页将黄志远列为“工程技术人员”，未显示独立招生或研究组负责人身份；该一手身份信息用于消解计算与智能创新学院冻结卡片的缺项，最终判为非独立 PI。",
+      "resolutionKind": "alternate_official_fudan_profile",
+      "alternateOfficialId": "8c4fcd782cffcaa1"
+    },
+    {
+      "officialId": "d0265d8fad523b08",
+      "name": "季洁",
+      "unitUrl": "https://cs.fudan.edu.cn/50021/list.htm",
+      "decision": "excluded_insufficient_scope_evidence",
+      "evidenceUrl": "http://ai.fudan.edu.cn/jj/list.htm",
+      "reason": "复旦计算与智能创新学院官方冻结名录仅给出姓名和站内跳转，未给出季洁的职称、导师资格、研究方向或在职状态；对应复旦个人链接于 2026-09-03 公开访问时重定向至统一身份认证登录页，无法据一手公开证据确认其为现任独立 AI/CS PI。该条终结为“范围证据不足”，不再保留为 pending。",
+      "resolutionKind": "official_profile_access_controlled_and_card_has_no_scope_fields"
+    },
+    {
+      "officialId": "a5fd8b900dfe97c5",
+      "name": "江润丰",
+      "unitUrl": "https://cs.fudan.edu.cn/50021/list.htm",
+      "decision": "excluded_insufficient_scope_evidence",
+      "evidenceUrl": "http://ai.fudan.edu.cn/jrf/list.htm",
+      "reason": "复旦计算与智能创新学院官方冻结名录仅给出姓名和站内跳转，未给出江润丰的职称、导师资格、研究方向或在职状态；对应复旦个人链接于 2026-09-03 公开访问时重定向至统一身份认证登录页，无法据一手公开证据确认其为现任独立 AI/CS PI。该条终结为“范围证据不足”，不再保留为 pending。",
+      "resolutionKind": "official_profile_access_controlled_and_card_has_no_scope_fields"
+    },
+    {
+      "officialId": "aabe180145d26296",
+      "name": "李昊",
+      "unitUrl": "https://cs.fudan.edu.cn/50021/list.htm",
+      "decision": "include_new_pi",
+      "evidenceUrl": "https://ai3.fudan.edu.cn/info/1075/1384.htm",
+      "reason": "复旦人工智能创新与产业研究院官方个人页明确将李昊列为研究员、博士生导师；该一手个人页补足计算与智能创新学院冻结卡片未标注的职称和导师资格。",
+      "resolutionKind": "alternate_official_fudan_profile",
+      "alternateOfficialId": "8a8b1a536242bf2f"
+    },
+    {
+      "officialId": "fa97ee2beae5c95c",
+      "name": "李佳奕",
+      "unitUrl": "https://cs.fudan.edu.cn/50021/list.htm",
+      "decision": "excluded_insufficient_scope_evidence",
+      "evidenceUrl": "http://ai.fudan.edu.cn/ljy/list.htm",
+      "reason": "复旦计算与智能创新学院官方冻结名录仅给出姓名和站内跳转，未给出李佳奕的职称、导师资格、研究方向或在职状态；对应复旦个人链接于 2026-09-03 公开访问时重定向至统一身份认证登录页，无法据一手公开证据确认其为现任独立 AI/CS PI。该条终结为“范围证据不足”，不再保留为 pending。",
+      "resolutionKind": "official_profile_access_controlled_and_card_has_no_scope_fields"
+    },
+    {
+      "officialId": "6e54b08b26c6940a",
+      "name": "李孟渚",
+      "unitUrl": "https://cs.fudan.edu.cn/50021/list.htm",
+      "decision": "excluded_non_pi",
+      "evidenceUrl": "https://ai3.fudan.edu.cn/info/1084/1328.htm",
+      "reason": "复旦人工智能创新与产业研究院官方个人页将李孟渚列为“工程技术人员”，未显示独立招生或研究组负责人身份；该一手身份信息用于消解计算与智能创新学院冻结卡片的缺项，最终判为非独立 PI。",
+      "resolutionKind": "alternate_official_fudan_profile",
+      "alternateOfficialId": "a4ca1b40889fda98"
+    },
+    {
+      "officialId": "f8a5265f84d519a8",
+      "name": "李维",
+      "unitUrl": "https://cs.fudan.edu.cn/50021/list.htm",
+      "decision": "include_new_pi",
+      "evidenceUrl": "https://ai3.fudan.edu.cn/info/1075/1374.htm",
+      "reason": "复旦人工智能创新与产业研究院官方个人页明确将李维列为研究员、博士生导师；该一手个人页补足计算与智能创新学院冻结卡片未标注的职称和导师资格。",
+      "resolutionKind": "alternate_official_fudan_profile",
+      "alternateOfficialId": "a8c4d9af90073834"
+    },
+    {
+      "officialId": "8dc248fc6841c5a2",
+      "name": "李智鑫",
+      "unitUrl": "https://cs.fudan.edu.cn/50021/list.htm",
+      "decision": "excluded_insufficient_scope_evidence",
+      "evidenceUrl": "http://ai.fudan.edu.cn/lzx1/list.htm",
+      "reason": "复旦计算与智能创新学院官方冻结名录仅给出姓名和站内跳转，未给出李智鑫的职称、导师资格、研究方向或在职状态；对应复旦个人链接于 2026-09-03 公开访问时重定向至统一身份认证登录页，无法据一手公开证据确认其为现任独立 AI/CS PI。该条终结为“范围证据不足”，不再保留为 pending。",
+      "resolutionKind": "official_profile_access_controlled_and_card_has_no_scope_fields"
+    },
+    {
+      "officialId": "8b9710b405b3d708",
+      "name": "林晨森",
+      "unitUrl": "https://cs.fudan.edu.cn/50021/list.htm",
+      "decision": "include_new_pi",
+      "evidenceUrl": "https://ai3.fudan.edu.cn/info/1075/1344.htm",
+      "reason": "复旦人工智能创新与产业研究院官方个人页明确将林晨森列为青年副研究员、硕士生导师；该一手个人页补足计算与智能创新学院冻结卡片未标注的职称和导师资格。",
+      "resolutionKind": "alternate_official_fudan_profile",
+      "alternateOfficialId": "5a5382b9ddf3217e"
+    },
+    {
+      "officialId": "ad32933dc08357b8",
+      "name": "林楚乔",
+      "unitUrl": "https://cs.fudan.edu.cn/50021/list.htm",
+      "decision": "excluded_insufficient_scope_evidence",
+      "evidenceUrl": "http://ai.fudan.edu.cn/lcq/list.htm",
+      "reason": "复旦计算与智能创新学院官方冻结名录仅给出姓名和站内跳转，未给出林楚乔的职称、导师资格、研究方向或在职状态；对应复旦个人链接于 2026-09-03 公开访问时重定向至统一身份认证登录页，无法据一手公开证据确认其为现任独立 AI/CS PI。该条终结为“范围证据不足”，不再保留为 pending。",
+      "resolutionKind": "official_profile_access_controlled_and_card_has_no_scope_fields"
+    },
+    {
+      "officialId": "8bca333d3bbc5ab0",
+      "name": "刘森",
+      "unitUrl": "https://cs.fudan.edu.cn/50021/list.htm",
+      "decision": "excluded_insufficient_scope_evidence",
+      "evidenceUrl": "http://ai.fudan.edu.cn/ls1/list.htm",
+      "reason": "复旦计算与智能创新学院官方冻结名录仅给出姓名和站内跳转，未给出刘森的职称、导师资格、研究方向或在职状态；对应复旦个人链接于 2026-09-03 公开访问时重定向至统一身份认证登录页，无法据一手公开证据确认其为现任独立 AI/CS PI。该条终结为“范围证据不足”，不再保留为 pending。",
+      "resolutionKind": "official_profile_access_controlled_and_card_has_no_scope_fields"
+    },
+    {
+      "officialId": "c25f42a319aed892",
+      "name": "吕博昊",
+      "unitUrl": "https://cs.fudan.edu.cn/50021/list.htm",
+      "decision": "excluded_insufficient_scope_evidence",
+      "evidenceUrl": "http://ai.fudan.edu.cn/lbh1/list.htm",
+      "reason": "复旦计算与智能创新学院官方冻结名录仅给出姓名和站内跳转，未给出吕博昊的职称、导师资格、研究方向或在职状态；对应复旦个人链接于 2026-09-03 公开访问时重定向至统一身份认证登录页，无法据一手公开证据确认其为现任独立 AI/CS PI。该条终结为“范围证据不足”，不再保留为 pending。",
+      "resolutionKind": "official_profile_access_controlled_and_card_has_no_scope_fields"
+    },
+    {
+      "officialId": "7f6baca963b339ca",
+      "name": "马国蓉",
+      "unitUrl": "https://cs.fudan.edu.cn/50021/list.htm",
+      "decision": "excluded_insufficient_scope_evidence",
+      "evidenceUrl": "http://ai.fudan.edu.cn/mgr/list.htm",
+      "reason": "复旦计算与智能创新学院官方冻结名录仅给出姓名和站内跳转，未给出马国蓉的职称、导师资格、研究方向或在职状态；对应复旦个人链接于 2026-09-03 公开访问时重定向至统一身份认证登录页，无法据一手公开证据确认其为现任独立 AI/CS PI。该条终结为“范围证据不足”，不再保留为 pending。",
+      "resolutionKind": "official_profile_access_controlled_and_card_has_no_scope_fields"
+    },
+    {
+      "officialId": "b10e0b8dd8a1c911",
+      "name": "马丽",
+      "unitUrl": "https://cs.fudan.edu.cn/50021/list.htm",
+      "decision": "excluded_insufficient_scope_evidence",
+      "evidenceUrl": "http://ai.fudan.edu.cn/ml/list.htm",
+      "reason": "复旦计算与智能创新学院官方冻结名录仅给出姓名和站内跳转，未给出马丽的职称、导师资格、研究方向或在职状态；对应复旦个人链接于 2026-09-03 公开访问时重定向至统一身份认证登录页，无法据一手公开证据确认其为现任独立 AI/CS PI。该条终结为“范围证据不足”，不再保留为 pending。",
+      "resolutionKind": "official_profile_access_controlled_and_card_has_no_scope_fields"
+    },
+    {
+      "officialId": "d45abc0855713d98",
+      "name": "漆远",
+      "unitUrl": "https://cs.fudan.edu.cn/50021/list.htm",
+      "decision": "include_new_pi",
+      "evidenceUrl": "https://ai3.fudan.edu.cn/info/1075/1414.htm",
+      "reason": "复旦人工智能创新与产业研究院官方个人页明确将漆远列为浩清特聘教授、博士生导师；该一手个人页补足计算与智能创新学院冻结卡片未标注的职称和导师资格。",
+      "resolutionKind": "alternate_official_fudan_profile",
+      "alternateOfficialId": "a4a671ef03e72a1f"
+    },
+    {
+      "officialId": "41df8656d19421f4",
+      "name": "沈兴球",
+      "unitUrl": "https://cs.fudan.edu.cn/50021/list.htm",
+      "decision": "excluded_insufficient_scope_evidence",
+      "evidenceUrl": "http://ai.fudan.edu.cn/sxq/list.htm",
+      "reason": "复旦计算与智能创新学院官方冻结名录仅给出姓名和站内跳转，未给出沈兴球的职称、导师资格、研究方向或在职状态；对应复旦个人链接于 2026-09-03 公开访问时重定向至统一身份认证登录页，无法据一手公开证据确认其为现任独立 AI/CS PI。该条终结为“范围证据不足”，不再保留为 pending。",
+      "resolutionKind": "official_profile_access_controlled_and_card_has_no_scope_fields"
+    },
+    {
+      "officialId": "504d7d71b85b768d",
+      "name": "孙靖凯",
+      "unitUrl": "https://cs.fudan.edu.cn/50021/list.htm",
+      "decision": "excluded_insufficient_scope_evidence",
+      "evidenceUrl": "http://ai.fudan.edu.cn/sjk/list.htm",
+      "reason": "复旦计算与智能创新学院官方冻结名录仅给出姓名和站内跳转，未给出孙靖凯的职称、导师资格、研究方向或在职状态；对应复旦个人链接于 2026-09-03 公开访问时重定向至统一身份认证登录页，无法据一手公开证据确认其为现任独立 AI/CS PI。该条终结为“范围证据不足”，不再保留为 pending。",
+      "resolutionKind": "official_profile_access_controlled_and_card_has_no_scope_fields"
+    },
+    {
+      "officialId": "a6dfd7a4209761c4",
+      "name": "孙祥",
+      "unitUrl": "https://cs.fudan.edu.cn/50021/list.htm",
+      "decision": "excluded_non_pi",
+      "evidenceUrl": "https://ai3.fudan.edu.cn/info/1084/1260.htm",
+      "reason": "复旦人工智能创新与产业研究院官方个人页将孙祥列为“工程技术人员”，未显示独立招生或研究组负责人身份；该一手身份信息用于消解计算与智能创新学院冻结卡片的缺项，最终判为非独立 PI。",
+      "resolutionKind": "alternate_official_fudan_profile",
+      "alternateOfficialId": "9e362479f5fe072c"
+    },
+    {
+      "officialId": "2744d015d2b15645",
+      "name": "陈雁秋",
+      "unitUrl": "https://cs.fudan.edu.cn/50021/list.htm",
+      "decision": "excluded_insufficient_scope_evidence",
+      "evidenceUrl": "http://ai.fudan.edu.cn/cyq/list.htm",
+      "reason": "复旦计算与智能创新学院官方冻结名录仅给出姓名和站内跳转，未给出陈雁秋的职称、导师资格、研究方向或在职状态；对应复旦个人链接于 2026-09-03 公开访问时重定向至统一身份认证登录页，无法据一手公开证据确认其为现任独立 AI/CS PI。该条终结为“范围证据不足”，不再保留为 pending。",
+      "resolutionKind": "official_profile_access_controlled_and_card_has_no_scope_fields"
+    },
+    {
+      "officialId": "a0027b44959822bd",
+      "name": "韩丽妹",
+      "unitUrl": "https://cs.fudan.edu.cn/50021/list.htm",
+      "decision": "excluded_insufficient_scope_evidence",
+      "evidenceUrl": "http://ai.fudan.edu.cn/hlm/list.htm",
+      "reason": "复旦计算与智能创新学院官方冻结名录仅给出姓名和站内跳转，未给出韩丽妹的职称、导师资格、研究方向或在职状态；对应复旦个人链接于 2026-09-03 公开访问时重定向至统一身份认证登录页，无法据一手公开证据确认其为现任独立 AI/CS PI。该条终结为“范围证据不足”，不再保留为 pending。",
+      "resolutionKind": "official_profile_access_controlled_and_card_has_no_scope_fields"
+    },
+    {
+      "officialId": "2c7acab9212ac497",
+      "name": "吴庆宇",
+      "unitUrl": "https://cs.fudan.edu.cn/50021/list.htm",
+      "decision": "excluded_insufficient_scope_evidence",
+      "evidenceUrl": "http://ai.fudan.edu.cn/wqy/list.htm",
+      "reason": "复旦计算与智能创新学院官方冻结名录仅给出姓名和站内跳转，未给出吴庆宇的职称、导师资格、研究方向或在职状态；对应复旦个人链接于 2026-09-03 公开访问时重定向至统一身份认证登录页，无法据一手公开证据确认其为现任独立 AI/CS PI。该条终结为“范围证据不足”，不再保留为 pending。",
+      "resolutionKind": "official_profile_access_controlled_and_card_has_no_scope_fields"
+    },
+    {
+      "officialId": "61333eee7ac0bbd6",
+      "name": "侯帅",
+      "unitUrl": "https://cs.fudan.edu.cn/50021/list.htm",
+      "decision": "excluded_insufficient_scope_evidence",
+      "evidenceUrl": "http://ai.fudan.edu.cn/hs/list.htm",
+      "reason": "复旦计算与智能创新学院官方冻结名录仅给出姓名和站内跳转，未给出侯帅的职称、导师资格、研究方向或在职状态；对应复旦个人链接于 2026-09-03 公开访问时重定向至统一身份认证登录页，无法据一手公开证据确认其为现任独立 AI/CS PI。该条终结为“范围证据不足”，不再保留为 pending。",
+      "resolutionKind": "official_profile_access_controlled_and_card_has_no_scope_fields"
+    },
+    {
+      "officialId": "0fd0139ddf0896be",
+      "name": "胡子欣",
+      "unitUrl": "https://cs.fudan.edu.cn/50021/list.htm",
+      "decision": "include_new_pi",
+      "evidenceUrl": "https://ai3.fudan.edu.cn/info/1075/1354.htm",
+      "reason": "复旦人工智能创新与产业研究院官方个人页明确将胡子欣列为青年副研究员、硕士生导师；该一手个人页补足计算与智能创新学院冻结卡片未标注的职称和导师资格。",
+      "resolutionKind": "alternate_official_fudan_profile",
+      "alternateOfficialId": "99cd555f092bb7bf"
+    },
+    {
+      "officialId": "2ef224d536e68bd1",
+      "name": "纪巧艳",
+      "unitUrl": "https://cs.fudan.edu.cn/50021/list.htm",
+      "decision": "excluded_insufficient_scope_evidence",
+      "evidenceUrl": "http://ai.fudan.edu.cn/jqy/list.htm",
+      "reason": "复旦计算与智能创新学院官方冻结名录仅给出姓名和站内跳转，未给出纪巧艳的职称、导师资格、研究方向或在职状态；对应复旦个人链接于 2026-09-03 公开访问时重定向至统一身份认证登录页，无法据一手公开证据确认其为现任独立 AI/CS PI。该条终结为“范围证据不足”，不再保留为 pending。",
+      "resolutionKind": "official_profile_access_controlled_and_card_has_no_scope_fields"
+    },
+    {
+      "officialId": "4d396772db679d15",
+      "name": "李睿博",
+      "unitUrl": "https://cs.fudan.edu.cn/50021/list.htm",
+      "decision": "excluded_insufficient_scope_evidence",
+      "evidenceUrl": "http://ai.fudan.edu.cn/lrb/list.htm",
+      "reason": "复旦计算与智能创新学院官方冻结名录仅给出姓名和站内跳转，未给出李睿博的职称、导师资格、研究方向或在职状态；对应复旦个人链接于 2026-09-03 公开访问时重定向至统一身份认证登录页，无法据一手公开证据确认其为现任独立 AI/CS PI。该条终结为“范围证据不足”，不再保留为 pending。",
+      "resolutionKind": "official_profile_access_controlled_and_card_has_no_scope_fields"
+    },
+    {
+      "officialId": "54bc04fc32f7f7f2",
+      "name": "刘存昊",
+      "unitUrl": "https://cs.fudan.edu.cn/50021/list.htm",
+      "decision": "excluded_insufficient_scope_evidence",
+      "evidenceUrl": "http://ai.fudan.edu.cn/lch/list.htm",
+      "reason": "复旦计算与智能创新学院官方冻结名录仅给出姓名和站内跳转，未给出刘存昊的职称、导师资格、研究方向或在职状态；对应复旦个人链接于 2026-09-03 公开访问时重定向至统一身份认证登录页，无法据一手公开证据确认其为现任独立 AI/CS PI。该条终结为“范围证据不足”，不再保留为 pending。",
+      "resolutionKind": "official_profile_access_controlled_and_card_has_no_scope_fields"
+    },
+    {
+      "officialId": "a126450b31eaca46",
+      "name": "钱晓军",
+      "unitUrl": "https://cs.fudan.edu.cn/50021/list.htm",
+      "decision": "excluded_insufficient_scope_evidence",
+      "evidenceUrl": "http://ai.fudan.edu.cn/qxj/list.htm",
+      "reason": "复旦计算与智能创新学院官方冻结名录仅给出姓名和站内跳转，未给出钱晓军的职称、导师资格、研究方向或在职状态；对应复旦个人链接于 2026-09-03 公开访问时重定向至统一身份认证登录页，无法据一手公开证据确认其为现任独立 AI/CS PI。该条终结为“范围证据不足”，不再保留为 pending。",
+      "resolutionKind": "official_profile_access_controlled_and_card_has_no_scope_fields"
+    },
+    {
+      "officialId": "4814157089c0b90c",
+      "name": "尚玉婷",
+      "unitUrl": "https://cs.fudan.edu.cn/50021/list.htm",
+      "decision": "excluded_insufficient_scope_evidence",
+      "evidenceUrl": "http://ai.fudan.edu.cn/syt/list.htm",
+      "reason": "复旦计算与智能创新学院官方冻结名录仅给出姓名和站内跳转，未给出尚玉婷的职称、导师资格、研究方向或在职状态；对应复旦个人链接于 2026-09-03 公开访问时重定向至统一身份认证登录页，无法据一手公开证据确认其为现任独立 AI/CS PI。该条终结为“范围证据不足”，不再保留为 pending。",
+      "resolutionKind": "official_profile_access_controlled_and_card_has_no_scope_fields"
+    },
+    {
+      "officialId": "c0d84f6932559633",
+      "name": "吴萍",
+      "unitUrl": "https://cs.fudan.edu.cn/50021/list.htm",
+      "decision": "excluded_insufficient_scope_evidence",
+      "evidenceUrl": "http://ai.fudan.edu.cn/wp1/list.htm",
+      "reason": "复旦计算与智能创新学院官方冻结名录仅给出姓名和站内跳转，未给出吴萍的职称、导师资格、研究方向或在职状态；对应复旦个人链接于 2026-09-03 公开访问时重定向至统一身份认证登录页，无法据一手公开证据确认其为现任独立 AI/CS PI。该条终结为“范围证据不足”，不再保留为 pending。",
+      "resolutionKind": "official_profile_access_controlled_and_card_has_no_scope_fields"
+    },
+    {
+      "officialId": "9333e09868b80ac4",
+      "name": "徐淼",
+      "unitUrl": "https://cs.fudan.edu.cn/50021/list.htm",
+      "decision": "excluded_insufficient_scope_evidence",
+      "evidenceUrl": "http://ai.fudan.edu.cn/xm/list.htm",
+      "reason": "复旦计算与智能创新学院官方冻结名录仅给出姓名和站内跳转，未给出徐淼的职称、导师资格、研究方向或在职状态；对应复旦个人链接于 2026-09-03 公开访问时重定向至统一身份认证登录页，无法据一手公开证据确认其为现任独立 AI/CS PI。该条终结为“范围证据不足”，不再保留为 pending。",
+      "resolutionKind": "official_profile_access_controlled_and_card_has_no_scope_fields"
+    },
+    {
+      "officialId": "e85a6375864cfd49",
+      "name": "杨奕彤",
+      "unitUrl": "https://cs.fudan.edu.cn/50021/list.htm",
+      "decision": "excluded_insufficient_scope_evidence",
+      "evidenceUrl": "http://ai.fudan.edu.cn/yyt/list.htm",
+      "reason": "复旦计算与智能创新学院官方冻结名录仅给出姓名和站内跳转，未给出杨奕彤的职称、导师资格、研究方向或在职状态；对应复旦个人链接于 2026-09-03 公开访问时重定向至统一身份认证登录页，无法据一手公开证据确认其为现任独立 AI/CS PI。该条终结为“范围证据不足”，不再保留为 pending。",
+      "resolutionKind": "official_profile_access_controlled_and_card_has_no_scope_fields"
+    },
+    {
+      "officialId": "5a9de3b0e392fa69",
+      "name": "尹秀娟",
+      "unitUrl": "https://cs.fudan.edu.cn/50021/list.htm",
+      "decision": "excluded_insufficient_scope_evidence",
+      "evidenceUrl": "http://ai.fudan.edu.cn/yxj/list.htm",
+      "reason": "复旦计算与智能创新学院官方冻结名录仅给出姓名和站内跳转，未给出尹秀娟的职称、导师资格、研究方向或在职状态；对应复旦个人链接于 2026-09-03 公开访问时重定向至统一身份认证登录页，无法据一手公开证据确认其为现任独立 AI/CS PI。该条终结为“范围证据不足”，不再保留为 pending。",
+      "resolutionKind": "official_profile_access_controlled_and_card_has_no_scope_fields"
+    },
+    {
+      "officialId": "408847955c1e86a2",
+      "name": "于佳萍",
+      "unitUrl": "https://cs.fudan.edu.cn/50021/list.htm",
+      "decision": "excluded_insufficient_scope_evidence",
+      "evidenceUrl": "http://ai.fudan.edu.cn/yjp/list.htm",
+      "reason": "复旦计算与智能创新学院官方冻结名录仅给出姓名和站内跳转，未给出于佳萍的职称、导师资格、研究方向或在职状态；对应复旦个人链接于 2026-09-03 公开访问时重定向至统一身份认证登录页，无法据一手公开证据确认其为现任独立 AI/CS PI。该条终结为“范围证据不足”，不再保留为 pending。",
+      "resolutionKind": "official_profile_access_controlled_and_card_has_no_scope_fields"
+    },
+    {
+      "officialId": "56fd77311d7de821",
+      "name": "邹宏",
+      "unitUrl": "https://cs.fudan.edu.cn/50021/list.htm",
+      "decision": "excluded_insufficient_scope_evidence",
+      "evidenceUrl": "http://ai.fudan.edu.cn/zh/list.htm",
+      "reason": "复旦计算与智能创新学院官方冻结名录仅给出姓名和站内跳转，未给出邹宏的职称、导师资格、研究方向或在职状态；对应复旦个人链接于 2026-09-03 公开访问时重定向至统一身份认证登录页，无法据一手公开证据确认其为现任独立 AI/CS PI。该条终结为“范围证据不足”，不再保留为 pending。",
+      "resolutionKind": "official_profile_access_controlled_and_card_has_no_scope_fields"
+    },
+    {
+      "officialId": "77da7080ed0f8c27",
+      "name": "谢晶",
+      "unitUrl": "https://cs.fudan.edu.cn/50021/list.htm",
+      "decision": "excluded_insufficient_scope_evidence",
+      "evidenceUrl": "http://ai.fudan.edu.cn/xj/list.htm",
+      "reason": "复旦计算与智能创新学院官方冻结名录仅给出姓名和站内跳转，未给出谢晶的职称、导师资格、研究方向或在职状态；对应复旦个人链接于 2026-09-03 公开访问时重定向至统一身份认证登录页，无法据一手公开证据确认其为现任独立 AI/CS PI。该条终结为“范围证据不足”，不再保留为 pending。",
+      "resolutionKind": "official_profile_access_controlled_and_card_has_no_scope_fields"
+    },
+    {
+      "officialId": "hit-ai-4a2c52f4484b",
+      "name": "陈斌",
+      "unitUrl": "https://ai.hit.edu.cn/12789/list.htm",
+      "decision": "include_new_pi",
+      "evidenceUrl": "https://cri.hit.edu.cn/2023/0407/c15765a302761/page.htm",
+      "reason": "哈尔滨工业大学重庆研究院官方团队页明确写有“团队负责人 陈斌 研究员、博士生导师”，哈工大人工智能研究院官方页同时列出其机器人与智能装备研究方向；现任独立 PI 身份已有一手证据。",
+      "resolutionKind": "alternate_official_hit_profile"
+    },
+    {
+      "officialId": "hit-ai-40e577984b36",
+      "name": "刘宏 赵京东",
+      "unitUrl": "https://ai.hit.edu.cn/12789/list.htm",
+      "decision": "excluded_insufficient_scope_evidence",
+      "evidenceUrl": "https://ai.hit.edu.cn/2021/0410/c12789a252707/page.htm",
+      "reason": "哈尔滨工业大学人工智能研究院官方页面在同一冻结卡片中分别介绍刘宏教授/博导与赵京东教授/博导；该条是两位独立人物被拼接后的复合记录，无法作为单一 PI 接入。两人应在后续人物层分别建档，本复合行终结为实体范围证据不足。",
+      "resolutionKind": "combined_official_card_requires_entity_split"
+    },
+    {
+      "officialId": "hit-ai-cd021be57df9",
+      "name": "李惠 鲍跃全",
+      "unitUrl": "https://ai.hit.edu.cn/12789/list.htm",
+      "decision": "excluded_insufficient_scope_evidence",
+      "evidenceUrl": "https://ai.hit.edu.cn/2021/0410/c12789a252703/page.htm",
+      "reason": "哈尔滨工业大学人工智能研究院官方页面把李惠与鲍跃全合并在一张研究方向卡片中，土木工程学院官方博导名录则分别列出二人；该冻结行不是一个可对齐的单一人物实体，须拆分建档，故本复合行终结为实体范围证据不足。",
+      "resolutionKind": "combined_official_card_requires_entity_split"
+    },
+    {
+      "officialId": "4323",
+      "name": "Qiang ZHOU · officialId 4323",
+      "canonicalName": "Qiang ZHOU",
+      "unitUrl": "https://www.cs.tsinghua.edu.cn/csen/Faculty/Full_time_Faculty.htm",
+      "decision": "excluded_non_ai_cs",
+      "evidenceUrl": "https://www.cs.tsinghua.edu.cn/csen/info/1303/4323.htm",
+      "reason": "当前研究所主线为系统、网络、传统软件或教学基础设施，未达到本图谱 AI/NLP/CV 主线门槛。 官方名录中另有同名但 officialId 不同的记录；本行保留 officialId 4323 以避免逐人账本按姓名键合并。",
+      "resolutionKind": "same_name_official_id_collision"
+    },
+    {
+      "officialId": "1204",
+      "name": "刘洋 · officialId 1204",
+      "canonicalName": "刘洋",
+      "unitUrl": "https://air.tsinghua.edu.cn/airtd/yjtd.htm",
+      "decision": "included_existing",
+      "atlasPersonId": "yang-liu-thu",
+      "evidenceUrl": "https://air.tsinghua.edu.cn/info/1046/1204.htm",
+      "reason": "姓名或官方主页与图谱现有人物一致。 官方名录中另有同名但 officialId 不同的记录；本行保留 officialId 1204 以避免逐人账本按姓名键合并。",
+      "resolutionKind": "same_name_official_id_collision"
+    },
+    {
+      "officialId": "3090",
+      "name": "曹东刚 · officialId 3090",
+      "canonicalName": "曹东刚",
+      "unitUrl": "https://cs.pku.edu.cn/szdw/jyxl/amz/ALL.htm",
+      "decision": "excluded_non_ai_cs",
+      "evidenceUrl": "https://cs.pku.edu.cn/info/1062/3090.htm",
+      "reason": "官方研究方向以系统、网络、软件、理论、安全或其他非 AI 主线为主。 官方名录中另有同名但 officialId 不同的记录；本行保留 officialId 3090 以避免逐人账本按姓名键合并。",
+      "resolutionKind": "same_name_official_id_collision"
+    },
+    {
+      "officialId": "3081",
+      "name": "曾炜 · officialId 3081",
+      "canonicalName": "曾炜",
+      "unitUrl": "https://cs.pku.edu.cn/szdw/jyxl/amz/ALL.htm",
+      "decision": "include_new_pi",
+      "evidenceUrl": "https://cs.pku.edu.cn/info/1086/3081.htm",
+      "reason": "北大官方名录显示现任教授、副教授、助理教授、研究员或副研究员身份，研究方向属于 AI/NLP/CV/ML/数据智能主线。 官方名录中另有同名但 officialId 不同的记录；本行保留 officialId 3081 以避免逐人账本按姓名键合并。",
+      "resolutionKind": "same_name_official_id_collision"
+    },
+    {
+      "officialId": "3165",
+      "name": "陈斌 · officialId 3165",
+      "canonicalName": "陈斌",
+      "unitUrl": "https://cs.pku.edu.cn/szdw/jyxl/amz/ALL.htm",
+      "decision": "include_new_pi",
+      "evidenceUrl": "https://cs.pku.edu.cn/info/1062/3165.htm",
+      "reason": "北大官方名录显示现任教授、副教授、助理教授、研究员或副研究员身份，研究方向属于 AI/NLP/CV/ML/数据智能主线。 官方名录中另有同名但 officialId 不同的记录；本行保留 officialId 3165 以避免逐人账本按姓名键合并。",
+      "resolutionKind": "same_name_official_id_collision"
+    },
+    {
+      "officialId": "3084",
+      "name": "盖孟 · officialId 3084",
+      "canonicalName": "盖孟",
+      "unitUrl": "https://cs.pku.edu.cn/szdw/jyxl/amz/ALL.htm",
+      "decision": "include_new_pi",
+      "evidenceUrl": "https://cs.pku.edu.cn/info/1066/3084.htm",
+      "reason": "北大官方名录显示现任教授、副教授、助理教授、研究员或副研究员身份，研究方向属于 AI/NLP/CV/ML/数据智能主线。 官方名录中另有同名但 officialId 不同的记录；本行保留 officialId 3084 以避免逐人账本按姓名键合并。",
+      "resolutionKind": "same_name_official_id_collision"
+    },
+    {
+      "officialId": "1622",
+      "name": "管雪涛 · officialId 1622",
+      "canonicalName": "管雪涛",
+      "unitUrl": "https://cs.pku.edu.cn/szdw/jyxl/amz/ALL.htm",
+      "decision": "excluded_non_ai_cs",
+      "evidenceUrl": "https://cs.pku.edu.cn/info/1066/1622.htm",
+      "reason": "官方研究方向以系统、网络、软件、理论、安全或其他非 AI 主线为主。 官方名录中另有同名但 officialId 不同的记录；本行保留 officialId 1622 以避免逐人账本按姓名键合并。",
+      "resolutionKind": "same_name_official_id_collision"
+    },
+    {
+      "officialId": "3089",
+      "name": "李胜 · officialId 3089",
+      "canonicalName": "李胜",
+      "unitUrl": "https://cs.pku.edu.cn/szdw/jyxl/amz/ALL.htm",
+      "decision": "include_new_pi",
+      "evidenceUrl": "https://cs.pku.edu.cn/info/1071/3089.htm",
+      "reason": "北大官方名录显示现任教授、副教授、助理教授、研究员或副研究员身份，研究方向属于 AI/NLP/CV/ML/数据智能主线。 官方名录中另有同名但 officialId 不同的记录；本行保留 officialId 3089 以避免逐人账本按姓名键合并。",
+      "resolutionKind": "same_name_official_id_collision"
+    },
+    {
+      "officialId": "1691",
+      "name": "刘先华 · officialId 1691",
+      "canonicalName": "刘先华",
+      "unitUrl": "https://cs.pku.edu.cn/szdw/jyxl/amz/ALL.htm",
+      "decision": "excluded_non_ai_cs",
+      "evidenceUrl": "https://cs.pku.edu.cn/info/1071/1691.htm",
+      "reason": "官方研究方向以系统、网络、软件、理论、安全或其他非 AI 主线为主。 官方名录中另有同名但 officialId 不同的记录；本行保留 officialId 1691 以避免逐人账本按姓名键合并。",
+      "resolutionKind": "same_name_official_id_collision"
+    },
+    {
+      "officialId": "1693",
+      "name": "陆俊林 · officialId 1693",
+      "canonicalName": "陆俊林",
+      "unitUrl": "https://cs.pku.edu.cn/szdw/jyxl/amz/ALL.htm",
+      "decision": "excluded_non_ai_cs",
+      "evidenceUrl": "https://cs.pku.edu.cn/info/1071/1693.htm",
+      "reason": "官方研究方向以系统、网络、软件、理论、安全或其他非 AI 主线为主。 官方名录中另有同名但 officialId 不同的记录；本行保留 officialId 1693 以避免逐人账本按姓名键合并。",
+      "resolutionKind": "same_name_official_id_collision"
+    },
+    {
+      "officialId": "3085",
+      "name": "王苫社 · officialId 3085",
+      "canonicalName": "王苫社",
+      "unitUrl": "https://cs.pku.edu.cn/szdw/jyxl/amz/ALL.htm",
+      "decision": "include_new_pi",
+      "evidenceUrl": "https://cs.pku.edu.cn/info/1083/3085.htm",
+      "reason": "北大官方名录显示现任教授、副教授、助理教授、研究员或副研究员身份，研究方向属于 AI/NLP/CV/ML/数据智能主线。 官方名录中另有同名但 officialId 不同的记录；本行保留 officialId 3085 以避免逐人账本按姓名键合并。",
+      "resolutionKind": "same_name_official_id_collision"
+    },
+    {
+      "officialId": "3088",
+      "name": "王韬 · officialId 3088",
+      "canonicalName": "王韬",
+      "unitUrl": "https://cs.pku.edu.cn/szdw/jyxl/amz/ALL.htm",
+      "decision": "include_new_pi",
+      "evidenceUrl": "https://cs.pku.edu.cn/info/1083/3088.htm",
+      "reason": "北大官方名录显示现任教授、副教授、助理教授、研究员或副研究员身份，研究方向属于 AI/NLP/CV/ML/数据智能主线。 官方名录中另有同名但 officialId 不同的记录；本行保留 officialId 3088 以避免逐人账本按姓名键合并。",
+      "resolutionKind": "same_name_official_id_collision"
+    },
+    {
+      "officialId": "1710",
+      "name": "王昭 · officialId 1710",
+      "canonicalName": "王昭",
+      "unitUrl": "https://cs.pku.edu.cn/szdw/jyxl/amz/ALL.htm",
+      "decision": "excluded_non_ai_cs",
+      "evidenceUrl": "https://cs.pku.edu.cn/info/1083/1710.htm",
+      "reason": "官方研究方向以系统、网络、软件、理论、安全或其他非 AI 主线为主。 官方名录中另有同名但 officialId 不同的记录；本行保留 officialId 1710 以避免逐人账本按姓名键合并。",
+      "resolutionKind": "same_name_official_id_collision"
+    },
+    {
+      "officialId": "3087",
+      "name": "赵俊峰 · officialId 3087",
+      "canonicalName": "赵俊峰",
+      "unitUrl": "https://cs.pku.edu.cn/szdw/jyxl/amz/ALL.htm",
+      "decision": "include_new_pi",
+      "evidenceUrl": "https://cs.pku.edu.cn/info/1086/3087.htm",
+      "reason": "北大官方名录显示现任教授、副教授、助理教授、研究员或副研究员身份，研究方向属于 AI/NLP/CV/ML/数据智能主线。 官方名录中另有同名但 officialId 不同的记录；本行保留 officialId 3087 以避免逐人账本按姓名键合并。",
+      "resolutionKind": "same_name_official_id_collision"
+    },
+    {
+      "officialId": "1739",
+      "name": "邹艳珍 · officialId 1739",
+      "canonicalName": "邹艳珍",
+      "unitUrl": "https://cs.pku.edu.cn/szdw/jyxl/amz/ALL.htm",
+      "decision": "include_new_pi",
+      "evidenceUrl": "https://cs.pku.edu.cn/info/1086/1739.htm",
+      "reason": "北大官方名录显示现任教授、副教授、助理教授、研究员或副研究员身份，研究方向属于 AI/NLP/CV/ML/数据智能主线。 官方名录中另有同名但 officialId 不同的记录；本行保留 officialId 1739 以避免逐人账本按姓名键合并。",
+      "resolutionKind": "same_name_official_id_collision"
+    },
+    {
+      "officialId": "yangl7",
+      "name": "Yang Liu · officialId yangl7",
+      "canonicalName": "Yang Liu",
+      "unitUrl": "https://www.cs.cmu.edu/directory/all",
+      "decision": "include_new_pi",
+      "evidenceUrl": "https://www.cs.cmu.edu/directory/api/v1/all.json",
+      "reason": "CMU School of Computer Science 官方目录 API 明确将 officialId yangl7 的 Yang Liu 列为 Computer Science Department Assistant Professor；另一同名 officialId yangliu7 是计算生物学系博士后，必须以 officialId 分行保存。",
+      "resolutionKind": "same_name_official_id_collision"
+    },
+    {
+      "officialId": "richard-fujimoto-0",
+      "name": "Richard Fujimoto · officialId richard-fujimoto-0",
+      "canonicalName": "Richard Fujimoto",
+      "unitUrl": "https://www.cc.gatech.edu/people/faculty",
+      "decision": "excluded_historical",
+      "evidenceUrl": "https://www.cc.gatech.edu/people/richard-fujimoto-0",
+      "reason": "Georgia Tech College of Computing 官方教师名录中有两个同名且 officialId 不同的 Richard Fujimoto 卡片；officialId richard-fujimoto-0 的官方职称为 Regents' Professor Emeritus，按非现任历史节点排除并单独保留键。",
+      "resolutionKind": "same_name_official_id_collision"
+    }
+  ]
+}

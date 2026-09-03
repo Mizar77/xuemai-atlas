@@ -1,0 +1,85 @@
+{
+  "generatedAt": "2026-09-03",
+  "scope": "Europe P0 batch 16 checkpoint",
+  "qualityGate": "current independent PI + two sources + 3-5 sourced facts including education + reliable 512 portrait + verified relationship or named group member",
+  "resolved": {
+    "count": 5,
+    "people": [
+      {
+        "name": "Marie-Christine Düker",
+        "canonicalKey": "Europe:Technical University of Munich:mariechristineduker",
+        "atlasPersonId": "marie-christine-dueker-tum-p0-2026",
+        "networkEvidence": "personal CV names doctoral student James Lavis and postdoctoral researcher Yuhan Tian",
+        "portrait": "academic homepage portrait"
+      },
+      {
+        "name": "Anastasia Ailamaki",
+        "canonicalKey": "Europe:EPFL:anastasiaailamaki",
+        "atlasPersonId": "anastasia-ailamaki-epfl-p0-2026",
+        "networkEvidence": "EPFL People and DIAS pages name current and former doctoral students",
+        "portrait": "EPFL People portrait"
+      },
+      {
+        "name": "Babak Falsafi",
+        "canonicalKey": "Europe:EPFL:babakfalsafi",
+        "atlasPersonId": "babak-falsafi-epfl-p0-2026",
+        "networkEvidence": "EPFL People page names current and former doctoral students",
+        "portrait": "EPFL People portrait"
+      },
+      {
+        "name": "Carmela Troncoso",
+        "canonicalKey": "Europe:EPFL:carmelatroncoso",
+        "atlasPersonId": "carmela-troncoso-epfl-p0-2026",
+        "networkEvidence": "EPFL People page names current and former doctoral students",
+        "portrait": "EPFL People portrait"
+      },
+      {
+        "name": "Sabine Süsstrunk",
+        "canonicalKey": "Europe:EPFL:sabinesusstrunk",
+        "atlasPersonId": "sabine-susstrunk-epfl-p0-2026",
+        "networkEvidence": "EPFL People page names current and former doctoral students",
+        "portrait": "EPFL People portrait"
+      }
+    ]
+  },
+  "relationshipBlockersResolvedButPortraitBlocked": {
+    "count": 2,
+    "people": [
+      {
+        "name": "Florian Bruse",
+        "identity": "TUM professor; former University of Kassel TIFM researcher (2012-2024)",
+        "networkEvidence": "University of Kassel TIFM first-party team, seminar and publications pages verify Martin Lange team membership and joint work",
+        "portraitAttempts": [
+          "TUM CIT roster: generic person.svg only",
+          "TUMOnline image endpoint: no usable image",
+          "TUM Professorial Faculty path: 404",
+          "University of Kassel TIFM team/publications pages: no reliable individual portrait"
+        ],
+        "disposition": "missing_portrait"
+      },
+      {
+        "name": "Velvet Spors",
+        "frozenRosterName": "V. Spors",
+        "identity": "TUM Assistant Professor of Human-Centered Digital Design",
+        "networkEvidence": "University of Nottingham doctoral thesis records Martin Flintham, Pat Brundell and David Murphy as supervisors; University of Tartu thesis records a named supervised student",
+        "portraitAttempts": [
+          "TUM CIT roster: generic person.svg only",
+          "TUM welcome profile: official thematic illustration, not a likeness portrait",
+          "Tampere Gamification Group page: no directly attributable portrait asset",
+          "University of Nottingham/Tartu pages: no reliable individual portrait"
+        ],
+        "disposition": "missing_portrait"
+      }
+    ]
+  },
+  "remainingPortraitAndProfileBlockers": {
+    "count": 187,
+    "note": "The queue label follows blocker precedence. Many records already have a downloaded candidate image, but publication still requires manual source-to-person verification, education facts, and a named network record; no gate was relaxed."
+  },
+  "artifacts": {
+    "module": "app/candidate-priority-p0-europe-batch-16-2026.ts",
+    "audit": "scripts/audit-candidate-priority-p0-europe-batch-16-2026.mjs",
+    "portraits": "public/portraits/candidate-p0-europe-batch-16-2026/",
+    "disposition": "data/candidate-priority-p0-europe-remaining-disposition-2026-09-03.json"
+  }
+}

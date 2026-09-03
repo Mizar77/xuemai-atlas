@@ -1,0 +1,2102 @@
+{
+  "schemaVersion": 1,
+  "region": "Mainland China",
+  "rank": 11,
+  "institution": "武汉大学",
+  "unitId": "whu-ai-rank11-18",
+  "unitName": "人工智能学院",
+  "snapshotAt": "2026-09-02",
+  "reviewedAt": "2026-09-03",
+  "rosterArtifact": "data/official-rosters/whu-ai-all-faculty-2026-09-02.json",
+  "officialRosterUrl": "https://sai.whu.edu.cn/teacher/zzjs/jxx.htm",
+  "officialRosterCount": 122,
+  "decisionCount": 122,
+  "counts": {
+    "included_existing": 1,
+    "include_new_pi": 100,
+    "excluded_non_ai_cs": 1,
+    "excluded_non_pi": 3,
+    "excluded_historical": 0,
+    "excluded_industry_only": 0,
+    "excluded_insufficient_scope_evidence": 17,
+    "pending_profile_verification": 0
+  },
+  "decisions": [
+    {
+      "officialId": "c02e0dd94476505c",
+      "name": "张平文",
+      "title": "院士",
+      "officialSections": [
+        "在职教师 / 人工智能基础理论系"
+      ],
+      "profileUrl": "https://www.whu.edu.cn/info/5871/201274.htm",
+      "portraitUrl": null,
+      "sourcePageUrl": "https://sai.whu.edu.cn/teacher/zzjs/jxx.htm",
+      "officialRosterUrl": "https://sai.whu.edu.cn/teacher/zzjs/jxx.htm",
+      "profileChecked": true,
+      "decision": "include_new_pi",
+      "reason": "官方人工智能学院名录和个人页确认其为教授、副教授、研究员或可独立招生导师；该单位研究主线属于 AI、数据科学及相关智能计算范围。",
+      "evidenceUrl": "https://www.whu.edu.cn/info/5871/201274.htm",
+      "evidenceExcerpt": "院士 | 在职教师 / 人工智能基础理论系"
+    },
+    {
+      "officialId": "0b118d6150a49a91",
+      "name": "刘娟",
+      "title": "教授",
+      "officialSections": [
+        "在职教师 / 人工智能基础理论系"
+      ],
+      "profileUrl": "https://jszy.whu.edu.cn/liujuan/zh_CN/index.htm",
+      "portraitUrl": null,
+      "sourcePageUrl": "https://sai.whu.edu.cn/teacher/zzjs/jxx.htm",
+      "officialRosterUrl": "https://sai.whu.edu.cn/teacher/zzjs/jxx.htm",
+      "profileChecked": false,
+      "decision": "include_new_pi",
+      "reason": "官方人工智能学院名录和个人页确认其为教授、副教授、研究员或可独立招生导师；该单位研究主线属于 AI、数据科学及相关智能计算范围。",
+      "evidenceUrl": "https://sai.whu.edu.cn/teacher/zzjs/jxx.htm",
+      "evidenceExcerpt": "教授 | 在职教师 / 人工智能基础理论系"
+    },
+    {
+      "officialId": "3af1cb962a6cab1a",
+      "name": "余磊",
+      "title": "教授",
+      "officialSections": [
+        "在职教师 / 人工智能基础理论系"
+      ],
+      "profileUrl": "http://jszy.whu.edu.cn/ly/",
+      "portraitUrl": null,
+      "sourcePageUrl": "https://sai.whu.edu.cn/teacher/zzjs/jxx.htm",
+      "officialRosterUrl": "https://sai.whu.edu.cn/teacher/zzjs/jxx.htm",
+      "profileChecked": true,
+      "decision": "include_new_pi",
+      "reason": "官方人工智能学院名录和个人页确认其为教授、副教授、研究员或可独立招生导师；该单位研究主线属于 AI、数据科学及相关智能计算范围。",
+      "evidenceUrl": "http://jszy.whu.edu.cn/ly/",
+      "evidenceExcerpt": "教授 | 在职教师 / 人工智能基础理论系 研究方向 更多>> 类脑视觉感知 计算机视觉 人工智能 图像处理 曾获荣誉 2021 人工智能顶级会议CVPR最佳论文候选 2021 国际摄影测量与遥感ISPRS最佳论文 2016 武汉大学珞珈青年学者 2013 湖北省楚天学者计划（楚天学子） 团队成员 更多>> Event Camera Group 主要研究事件相机相关的视觉感知和处理问题。"
+    },
+    {
+      "officialId": "5584d25da8254c8b",
+      "name": "夏桂松",
+      "title": "教授",
+      "officialSections": [
+        "在职教师 / 人工智能基础理论系"
+      ],
+      "profileUrl": "https://jszy.whu.edu.cn/xiaguisong/zh_CN/index.htm",
+      "portraitUrl": null,
+      "sourcePageUrl": "https://sai.whu.edu.cn/teacher/zzjs/jxx.htm",
+      "officialRosterUrl": "https://sai.whu.edu.cn/teacher/zzjs/jxx.htm",
+      "profileChecked": true,
+      "decision": "include_new_pi",
+      "reason": "官方人工智能学院名录和个人页确认其为教授、副教授、研究员或可独立招生导师；该单位研究主线属于 AI、数据科学及相关智能计算范围。",
+      "evidenceUrl": "https://jszy.whu.edu.cn/xiaguisong/zh_CN/index.htm",
+      "evidenceExcerpt": "教授 | 在职教师 / 人工智能基础理论系 研究方向 计算机视觉、机器学习、智能无人系统、遥感智能信息处理 学术荣誉 2019 国家优秀青年基金获得者 2023 国家杰出青年科学基金获得者 曾获荣誉 湖北省自然科学奖一等奖，2024 中国测绘科技进步奖一等奖，2021，2023， 2023 中国图象图形学会优秀博士论文指导教师， 2022 IEEE GRSS High Impact Pap"
+    },
+    {
+      "officialId": "c5fe808a18be0dfb",
+      "name": "黄明强",
+      "title": "教授",
+      "officialSections": [
+        "在职教师 / 人工智能基础理论系"
+      ],
+      "profileUrl": "https://jszy.whu.edu.cn/huangmingqiang/zh_CN/index.htm",
+      "portraitUrl": null,
+      "sourcePageUrl": "https://sai.whu.edu.cn/teacher/zzjs/jxx.htm",
+      "officialRosterUrl": "https://sai.whu.edu.cn/teacher/zzjs/jxx.htm",
+      "profileChecked": true,
+      "decision": "include_new_pi",
+      "reason": "官方人工智能学院名录和个人页确认其为教授、副教授、研究员或可独立招生导师；该单位研究主线属于 AI、数据科学及相关智能计算范围。",
+      "evidenceUrl": "https://jszy.whu.edu.cn/huangmingqiang/zh_CN/index.htm",
+      "evidenceExcerpt": "教授 | 在职教师 / 人工智能基础理论系 研究方向为高效能人工智能算法-芯片、端侧智能AI系统。近5年的主要研究成果包括：高性能低功耗端侧大模型AI芯片系统（TCASI-2025，被IEEE遴选为Highligh of 2025 July）、混合精度神经网络AI算法与芯片（JSSC-2025, TCASI-2022, TCASI-2023),混合进制AI计算系统（TETC-2023, T"
+    },
+    {
+      "officialId": "b64fd33f67b5eede",
+      "name": "焦雨领",
+      "title": "教授",
+      "officialSections": [
+        "在职教师 / 人工智能基础理论系"
+      ],
+      "profileUrl": "http://jszy.whu.edu.cn/jiaoyuling/en/index.htm",
+      "portraitUrl": null,
+      "sourcePageUrl": "https://sai.whu.edu.cn/teacher/zzjs/jxx.htm",
+      "officialRosterUrl": "https://sai.whu.edu.cn/teacher/zzjs/jxx.htm",
+      "profileChecked": true,
+      "decision": "include_new_pi",
+      "reason": "官方人工智能学院名录和个人页确认其为教授、副教授、研究员或可独立招生导师；该单位研究主线属于 AI、数据科学及相关智能计算范围。",
+      "evidenceUrl": "http://jszy.whu.edu.cn/jiaoyuling/en/index.htm",
+      "evidenceExcerpt": "教授 | 在职教师 / 人工智能基础理论系"
+    },
+    {
+      "officialId": "6ce72b6ee20cfce5",
+      "name": "冯晶",
+      "title": "副教授",
+      "officialSections": [
+        "在职教师 / 人工智能基础理论系"
+      ],
+      "profileUrl": "https://jszy.whu.edu.cn/fengjing/zh_CN/index.htm",
+      "portraitUrl": null,
+      "sourcePageUrl": "https://sai.whu.edu.cn/teacher/zzjs/jxx.htm",
+      "officialRosterUrl": "https://sai.whu.edu.cn/teacher/zzjs/jxx.htm",
+      "profileChecked": true,
+      "decision": "include_new_pi",
+      "reason": "官方人工智能学院名录和个人页确认其为教授、副教授、研究员或可独立招生导师；该单位研究主线属于 AI、数据科学及相关智能计算范围。",
+      "evidenceUrl": "https://jszy.whu.edu.cn/fengjing/zh_CN/index.htm",
+      "evidenceExcerpt": "副教授 | 在职教师 / 人工智能基础理论系 研究方向 人工智能 生物信息 团队成员 暂无内容 Copyright武汉大学2017 地址：湖北省武汉市武昌区八一路299号 邮编：430072 鄂ICP备05003330鄂公网安备42010602000219 新闻网 中文官网 手机版 个人简介 更多>> 冯晶，博士，副教授。2007年获武汉大学计算机应用专业工学博士学位，2017年美国UTHe"
+    },
+    {
+      "officialId": "d390af5f52398310",
+      "name": "高戈",
+      "title": "副研究员",
+      "officialSections": [
+        "在职教师 / 人工智能基础理论系"
+      ],
+      "profileUrl": null,
+      "portraitUrl": null,
+      "sourcePageUrl": "https://sai.whu.edu.cn/teacher/zzjs/jxx.htm",
+      "officialRosterUrl": "https://sai.whu.edu.cn/teacher/zzjs/jxx.htm",
+      "profileChecked": false,
+      "decision": "include_new_pi",
+      "reason": "官方人工智能学院名录和个人页确认其为教授、副教授、研究员或可独立招生导师；该单位研究主线属于 AI、数据科学及相关智能计算范围。",
+      "evidenceUrl": "https://sai.whu.edu.cn/teacher/zzjs/jxx.htm",
+      "evidenceExcerpt": "副研究员 | 在职教师 / 人工智能基础理论系"
+    },
+    {
+      "officialId": "a35becec71b402ff",
+      "name": "李绎楠",
+      "title": "特聘副研究员",
+      "officialSections": [
+        "在职教师 / 人工智能基础理论系"
+      ],
+      "profileUrl": "http://jszy.whu.edu.cn/liyinan/zh_CN/index.htm",
+      "portraitUrl": null,
+      "sourcePageUrl": "https://sai.whu.edu.cn/teacher/zzjs/jxx.htm",
+      "officialRosterUrl": "https://sai.whu.edu.cn/teacher/zzjs/jxx.htm",
+      "profileChecked": true,
+      "decision": "include_new_pi",
+      "reason": "官方人工智能学院名录和个人页确认其为教授、副教授、研究员或可独立招生导师；该单位研究主线属于 AI、数据科学及相关智能计算范围。",
+      "evidenceUrl": "http://jszy.whu.edu.cn/liyinan/zh_CN/index.htm",
+      "evidenceExcerpt": "特聘副研究员 | 在职教师 / 人工智能基础理论系 研究方向 量子计算的数学理论 团队成员 暂无内容 Copyright武汉大学2017 地址：湖北省武汉市武昌区八一路299号 邮编：430072 鄂ICP备05003330鄂公网安备42010602000219 新闻网 中文官网 手机版 研究领域 论文成果 专利 著作成果 科研项目 科研团队 教学研究 教学资源 授课信息 教学成果 获奖信息 招生"
+    },
+    {
+      "officialId": "a2cfd66028af150a",
+      "name": "袁成",
+      "title": "特聘副研究员",
+      "officialSections": [
+        "在职教师 / 人工智能基础理论系"
+      ],
+      "profileUrl": "https://jszy.whu.edu.cn/yuancheng2/zh_CN/index.htm",
+      "portraitUrl": null,
+      "sourcePageUrl": "https://sai.whu.edu.cn/teacher/zzjs/jxx.htm",
+      "officialRosterUrl": "https://sai.whu.edu.cn/teacher/zzjs/jxx.htm",
+      "profileChecked": true,
+      "decision": "include_new_pi",
+      "reason": "官方人工智能学院名录和个人页确认其为教授、副教授、研究员或可独立招生导师；该单位研究主线属于 AI、数据科学及相关智能计算范围。",
+      "evidenceUrl": "https://jszy.whu.edu.cn/yuancheng2/zh_CN/index.htm",
+      "evidenceExcerpt": "特聘副研究员 | 在职教师 / 人工智能基础理论系 研究方向为 人工智能在科学计算中的应用 。研究成果已发表在 JCP、IP、TIT、 JSC 等期刊，详见 https://www.researchgate.net/profile/Cheng-Yuan-5 。 教育经历 [1] 2014.9-2019.6 武汉大学 > 计算数学 > 理学博士学位 > 研究生毕业 [2] 2010.9-2014.6"
+    },
+    {
+      "officialId": "bf50bfbfdde4e3a5",
+      "name": "游俊韬",
+      "title": "特聘副研究员",
+      "officialSections": [
+        "在职教师 / 人工智能基础理论系"
+      ],
+      "profileUrl": "http://jszy.whu.edu.cn/~2eMNny/zh_CN/index.htm",
+      "portraitUrl": null,
+      "sourcePageUrl": "https://sai.whu.edu.cn/teacher/zzjs/jxx.htm",
+      "officialRosterUrl": "https://sai.whu.edu.cn/teacher/zzjs/jxx.htm",
+      "profileChecked": true,
+      "decision": "include_new_pi",
+      "reason": "官方人工智能学院名录和个人页确认其为教授、副教授、研究员或可独立招生导师；该单位研究主线属于 AI、数据科学及相关智能计算范围。",
+      "evidenceUrl": "http://jszy.whu.edu.cn/~2eMNny/zh_CN/index.htm",
+      "evidenceExcerpt": "特聘副研究员 | 在职教师 / 人工智能基础理论系 研究方向 数据科学中的算法与数学理论基础 团队成员 暂无内容 Copyright武汉大学2017 地址：湖北省武汉市武昌区八一路299号 邮编：430072 鄂ICP备05003330鄂公网安备42010602000219 新闻网 中文官网 手机版 研究领域 论文成果 专利 著作成果 科研项目 科研团队 教学研究 教学资源 授课信息 教学成果 获"
+    },
+    {
+      "officialId": "9df4461e54b4acce",
+      "name": "丁建利",
+      "title": "讲师",
+      "officialSections": [
+        "在职教师 / 人工智能基础理论系"
+      ],
+      "profileUrl": "https://jszy.whu.edu.cn/dingjianli/zh_CN/index.htm",
+      "portraitUrl": null,
+      "sourcePageUrl": "https://sai.whu.edu.cn/teacher/zzjs/jxx.htm",
+      "officialRosterUrl": "https://sai.whu.edu.cn/teacher/zzjs/jxx.htm",
+      "profileChecked": true,
+      "decision": "include_new_pi",
+      "reason": "官方人工智能学院名录和个人页确认其为教授、副教授、研究员或可独立招生导师；该单位研究主线属于 AI、数据科学及相关智能计算范围。",
+      "evidenceUrl": "https://jszy.whu.edu.cn/dingjianli/zh_CN/index.htm",
+      "evidenceExcerpt": "讲师 | 在职教师 / 人工智能基础理论系 研究方向图像识别、智能计算和自然语言处理。参与完成 “ 基于本体演化和事件结构的语义网模型研究 ” 和 “ 汉语句法结构和事件结构的联合分析研究 ” 等国家自然科学基金项目；完成 “ 掌静脉识别系统 ” 、 “ 基于 x 射线的爆炸物识别系统 ” 和 “ 深度学习超分辨降尺度产品软件 ” 等多项应用系统开发。发表 SCI 和 EI 论文 5 篇，"
+    },
+    {
+      "officialId": "81b2888fa1f3455d",
+      "name": "刘纪平",
+      "title": "工程师",
+      "officialSections": [
+        "在职教师 / 人工智能基础理论系"
+      ],
+      "profileUrl": null,
+      "portraitUrl": null,
+      "sourcePageUrl": "https://sai.whu.edu.cn/teacher/zzjs/jxx.htm",
+      "officialRosterUrl": "https://sai.whu.edu.cn/teacher/zzjs/jxx.htm",
+      "profileChecked": false,
+      "decision": "excluded_non_pi",
+      "reason": "官方名录职类为行政、实验技术、工程、科研助理、博士后或学生，且个人页未显示独立招生或研究组负责人资格。",
+      "evidenceUrl": "https://sai.whu.edu.cn/teacher/zzjs/jxx.htm",
+      "evidenceExcerpt": "工程师 | 在职教师 / 人工智能基础理论系"
+    },
+    {
+      "officialId": "60fc8c5fdfe52aef",
+      "name": "邓双",
+      "title": "博士后",
+      "officialSections": [
+        "在职教师 / 人工智能基础理论系"
+      ],
+      "profileUrl": "http://jszy.whu.edu.cn/dengshuang12/zh_CN/index.htm",
+      "portraitUrl": null,
+      "sourcePageUrl": "https://sai.whu.edu.cn/teacher/zzjs/jxx.htm",
+      "officialRosterUrl": "https://sai.whu.edu.cn/teacher/zzjs/jxx.htm",
+      "profileChecked": true,
+      "decision": "include_new_pi",
+      "reason": "官方人工智能学院名录和个人页确认其为教授、副教授、研究员或可独立招生导师；该单位研究主线属于 AI、数据科学及相关智能计算范围。",
+      "evidenceUrl": "http://jszy.whu.edu.cn/dengshuang12/zh_CN/index.htm",
+      "evidenceExcerpt": "博士后 | 在职教师 / 人工智能基础理论系 研究方向 暂无内容 获奖信息 学术荣誉 曾获荣誉 暂无内容 暂无内容 暂无内容 最后更新时间： - - 访问量： Copyright武汉大学2017 地址：湖北省武汉市武昌区八一路299号 邮编：430072 鄂ICP备05003330鄂公网安备42010602000219 研究领域 论文成果 专利 著作成果 科研项目 科研团队 教学研究 教学资"
+    },
+    {
+      "officialId": "f2dbb5ba6ab2b2cd",
+      "name": "康利灿",
+      "title": "助理教授/研究员",
+      "officialSections": [
+        "在职教师 / 人工智能基础理论系"
+      ],
+      "profileUrl": "https://jszy.whu.edu.cn/~ZfAnAf/zh_CN/index.htm",
+      "portraitUrl": null,
+      "sourcePageUrl": "https://sai.whu.edu.cn/teacher/zzjs/jxx.htm",
+      "officialRosterUrl": "https://sai.whu.edu.cn/teacher/zzjs/jxx.htm",
+      "profileChecked": true,
+      "decision": "include_new_pi",
+      "reason": "官方人工智能学院名录和个人页确认其为教授、副教授、研究员或可独立招生导师；该单位研究主线属于 AI、数据科学及相关智能计算范围。",
+      "evidenceUrl": "https://jszy.whu.edu.cn/~ZfAnAf/zh_CN/index.htm",
+      "evidenceExcerpt": "助理教授/研究员 | 在职教师 / 人工智能基础理论系 研究方向包括深度学习、生成式学习、强化学习、大语言模型、统计计算、非参数统计。相关工作发表在包括Ann. Stat、Nat. Commun、J. Mach. Learn. Res、IEEE Trans. Inf. Theory、SIAM J.Control Optim、ICML等期刊和会议上 。 教育经历 武汉大学 博士 2018.9~2021."
+    },
+    {
+      "officialId": "da31cac0deaf1a76",
+      "name": "文卫东",
+      "title": "教授",
+      "officialSections": [
+        "在职教师 / 人工智能核心技术系"
+      ],
+      "profileUrl": "http://jszy.whu.edu.cn/wenweidong/zh_CN/index.htm",
+      "portraitUrl": null,
+      "sourcePageUrl": "https://sai.whu.edu.cn/teacher/zzjs/jxx.htm",
+      "officialRosterUrl": "https://sai.whu.edu.cn/teacher/zzjs/jxx.htm",
+      "profileChecked": true,
+      "decision": "include_new_pi",
+      "reason": "官方人工智能学院名录和个人页确认其为教授、副教授、研究员或可独立招生导师；该单位研究主线属于 AI、数据科学及相关智能计算范围。",
+      "evidenceUrl": "http://jszy.whu.edu.cn/wenweidong/zh_CN/index.htm",
+      "evidenceExcerpt": "教授 | 在职教师 / 人工智能核心技术系 研究方向 人工智能、数据挖掘、自然语言处理 团队成员 暂无内容 Copyright武汉大学2017 地址：湖北省武汉市武昌区八一路299号 邮编：430072 鄂ICP备05003330鄂公网安备42010602000219 新闻网 中文官网 手机版 研究领域 论文成果 专利 著作成果 科研项目 科研团队 教学研究 教学资源 授课信息 教学成果"
+    },
+    {
+      "officialId": "3830f276cd4b8ae6",
+      "name": "严睿",
+      "title": "教授",
+      "officialSections": [
+        "在职教师 / 人工智能核心技术系"
+      ],
+      "profileUrl": null,
+      "portraitUrl": null,
+      "sourcePageUrl": "https://sai.whu.edu.cn/teacher/zzjs/jxx.htm",
+      "officialRosterUrl": "https://sai.whu.edu.cn/teacher/zzjs/jxx.htm",
+      "profileChecked": false,
+      "decision": "include_new_pi",
+      "reason": "官方人工智能学院名录和个人页确认其为教授、副教授、研究员或可独立招生导师；该单位研究主线属于 AI、数据科学及相关智能计算范围。",
+      "evidenceUrl": "https://sai.whu.edu.cn/teacher/zzjs/jxx.htm",
+      "evidenceExcerpt": "教授 | 在职教师 / 人工智能核心技术系"
+    },
+    {
+      "officialId": "3d2be9a4dac1ed81",
+      "name": "武宇",
+      "title": "教授",
+      "officialSections": [
+        "在职教师 / 人工智能核心技术系",
+        "双聘教师 / 核心技术（以姓名拼音排序）"
+      ],
+      "profileUrl": "https://jszy.whu.edu.cn/wuyu7/zh_CN/index.htm",
+      "portraitUrl": null,
+      "sourcePageUrl": "https://sai.whu.edu.cn/teacher/zzjs/jxx.htm",
+      "officialRosterUrl": "https://sai.whu.edu.cn/teacher/zzjs/jxx.htm",
+      "profileChecked": true,
+      "decision": "include_new_pi",
+      "reason": "官方人工智能学院名录和个人页确认其为教授、副教授、研究员或可独立招生导师；该单位研究主线属于 AI、数据科学及相关智能计算范围。",
+      "evidenceUrl": "https://jszy.whu.edu.cn/wuyu7/zh_CN/index.htm",
+      "evidenceExcerpt": "教授 | 在职教师 / 人工智能核心技术系 | 双聘教师 / 核心技术（以姓名拼音排序） 研究方向有生成式AI、多模态学习、AI4Science等，也开放更多更新的人工智能相关研究课题（方向open，只要能说服我新方向的意义）。 团队成员 暂无内容 工作经历 暂无内容 教育经历 暂无内容 社会兼职 暂无内容 研究方向 [1].AI4Science：计算机与化学、生物、物理、医学的交叉研究"
+    },
+    {
+      "officialId": "af6eb358696df04b",
+      "name": "彭敏",
+      "title": "教授",
+      "officialSections": [
+        "在职教师 / 人工智能核心技术系"
+      ],
+      "profileUrl": "http://jszy.whu.edu.cn/pengmin/zh_CN/index/166809/list/index.htm",
+      "portraitUrl": null,
+      "sourcePageUrl": "https://sai.whu.edu.cn/teacher/zzjs/jxx.htm",
+      "officialRosterUrl": "https://sai.whu.edu.cn/teacher/zzjs/jxx.htm",
+      "profileChecked": true,
+      "decision": "included_existing",
+      "atlasPersonId": "min-peng-whu",
+      "reason": "图谱已有同一人物 min-peng-whu；官方名录/个人页确认其当前属于武汉大学人工智能学院。",
+      "evidenceUrl": "http://jszy.whu.edu.cn/pengmin/zh_CN/index/166809/list/index.htm",
+      "evidenceExcerpt": "教授 | 在职教师 / 人工智能核心技术系 研究领域 论文成果 专利 著作成果 科研项目 科研团队 教学研究 教学资源 授课信息 教学成果 获奖信息 招生信息 学生信息 我的相册 教师博客 更多 ` 中文 English 彭敏 (人工智能系主任) 职称：教授 所在单位： 教师拼音名称： Peng Min 所在单位： 职务： 人工智能系主任 学历： 研究生毕业 性别： 女 联系方式： pe"
+    },
+    {
+      "officialId": "4d6b63c46445ca8e",
+      "name": "谢榕",
+      "title": "教授",
+      "officialSections": [
+        "在职教师 / 人工智能核心技术系"
+      ],
+      "profileUrl": "http://jszy.whu.edu.cn/xierong/zh_CN/index.htm",
+      "portraitUrl": null,
+      "sourcePageUrl": "https://sai.whu.edu.cn/teacher/zzjs/jxx.htm",
+      "officialRosterUrl": "https://sai.whu.edu.cn/teacher/zzjs/jxx.htm",
+      "profileChecked": true,
+      "decision": "include_new_pi",
+      "reason": "官方人工智能学院名录和个人页确认其为教授、副教授、研究员或可独立招生导师；该单位研究主线属于 AI、数据科学及相关智能计算范围。",
+      "evidenceUrl": "http://jszy.whu.edu.cn/xierong/zh_CN/index.htm",
+      "evidenceExcerpt": "教授 | 在职教师 / 人工智能核心技术系 研究方向 暂无内容 团队成员 暂无内容 Copyright武汉大学2017 地址：湖北省武汉市武昌区八一路299号 邮编：430072 鄂ICP备05003330鄂公网安备42010602000219 新闻网 中文官网 手机版 研究领域 科研项目 论文成果 专利 教学研究 授课信息 教学成果 获奖信息 我的相册 English 谢榕 个人信息 教"
+    },
+    {
+      "officialId": "c254126bf88f42c6",
+      "name": "谢倩倩",
+      "title": "教授",
+      "officialSections": [
+        "在职教师 / 人工智能核心技术系"
+      ],
+      "profileUrl": "https://jszy.whu.edu.cn/xieqianqian/zh_CN/index.htm",
+      "portraitUrl": null,
+      "sourcePageUrl": "https://sai.whu.edu.cn/teacher/zzjs/jxx.htm",
+      "officialRosterUrl": "https://sai.whu.edu.cn/teacher/zzjs/jxx.htm",
+      "profileChecked": true,
+      "decision": "include_new_pi",
+      "reason": "官方人工智能学院名录和个人页确认其为教授、副教授、研究员或可独立招生导师；该单位研究主线属于 AI、数据科学及相关智能计算范围。",
+      "evidenceUrl": "https://jszy.whu.edu.cn/xieqianqian/zh_CN/index.htm",
+      "evidenceExcerpt": "教授 | 在职教师 / 人工智能核心技术系 研究方向 ： 推理与可解释性 ：研究提升大语言模型的推理能力、可解释性和可控性。 医学与金融自然语言处理 ：研究如何结合领域知识提高生成式 AI 在高风险场景下的稳健性、事实准确性、决策推理能力与可解释性。从从基准数据集、模型架构、应用落地到隐私保护等各个维度推动大语言模型在垂直领域场景下的发展。 AI+心理健康 ：利用大语言模型与多模态数据（文"
+    },
+    {
+      "officialId": "ef899b263abe95d7",
+      "name": "黄青虬",
+      "title": "特聘研究员",
+      "officialSections": [
+        "在职教师 / 人工智能核心技术系"
+      ],
+      "profileUrl": "https://jszy.whu.edu.cn/huangqingqiu/zh_CN/index.htm",
+      "portraitUrl": null,
+      "sourcePageUrl": "https://sai.whu.edu.cn/teacher/zzjs/jxx.htm",
+      "officialRosterUrl": "https://sai.whu.edu.cn/teacher/zzjs/jxx.htm",
+      "profileChecked": true,
+      "decision": "include_new_pi",
+      "reason": "官方人工智能学院名录和个人页确认其为教授、副教授、研究员或可独立招生导师；该单位研究主线属于 AI、数据科学及相关智能计算范围。",
+      "evidenceUrl": "https://jszy.whu.edu.cn/huangqingqiu/zh_CN/index.htm",
+      "evidenceExcerpt": "特聘研究员 | 在职教师 / 人工智能核心技术系 研究方向 人工智能、具身智能、多模态大模型、机器人操作、运动控制、自主导航、人形机器人 Copyright武汉大学2017 地址：湖北省武汉市武昌区八一路299号 邮编：430072 鄂ICP备05003330鄂公网安备42010602000219 手机版 新闻网 | 中文官网 个人简介 黄青虬，武汉大学特聘研究员，墨奇智能联合创始人兼CTO。博"
+    },
+    {
+      "officialId": "d249714837760b8e",
+      "name": "余伟",
+      "title": "副教授",
+      "officialSections": [
+        "在职教师 / 人工智能核心技术系"
+      ],
+      "profileUrl": "http://jszy.whu.edu.cn/ai",
+      "portraitUrl": null,
+      "sourcePageUrl": "https://sai.whu.edu.cn/teacher/zzjs/jxx.htm",
+      "officialRosterUrl": "https://sai.whu.edu.cn/teacher/zzjs/jxx.htm",
+      "profileChecked": true,
+      "decision": "include_new_pi",
+      "reason": "官方人工智能学院名录和个人页确认其为教授、副教授、研究员或可独立招生导师；该单位研究主线属于 AI、数据科学及相关智能计算范围。",
+      "evidenceUrl": "http://jszy.whu.edu.cn/ai",
+      "evidenceExcerpt": "副教授 | 在职教师 / 人工智能核心技术系 研究方向 （1）多模态智能系统 （2）智能软件系统 （3）医学人工智能 团队成员 暂无内容 新闻网 中文官网 Copyright武汉大学2017 地址：湖北省武汉市武昌区八一路299号 邮编：430072 鄂ICP备05003330鄂公网安备42010602000219 研究领域 论文成果 专利 著作成果 科研项目 科研团队 教学研究 教学资源"
+    },
+    {
+      "officialId": "baed9fa190aa06e3",
+      "name": "李祖超",
+      "title": "副教授",
+      "officialSections": [
+        "在职教师 / 人工智能核心技术系"
+      ],
+      "profileUrl": "https://jszy.whu.edu.cn/lizuchao/zh_CN/",
+      "portraitUrl": null,
+      "sourcePageUrl": "https://sai.whu.edu.cn/teacher/zzjs/jxx.htm",
+      "officialRosterUrl": "https://sai.whu.edu.cn/teacher/zzjs/jxx.htm",
+      "profileChecked": true,
+      "decision": "include_new_pi",
+      "reason": "官方人工智能学院名录和个人页确认其为教授、副教授、研究员或可独立招生导师；该单位研究主线属于 AI、数据科学及相关智能计算范围。",
+      "evidenceUrl": "https://jszy.whu.edu.cn/lizuchao/zh_CN/",
+      "evidenceExcerpt": "副教授 | 在职教师 / 人工智能核心技术系 研究方向 自然语言处理，序列建模学习，多模态信息处理，机器学习，人工智能 Copyright武汉大学2017 地址：湖北省武汉市武昌区八一路299号 邮编：430072 鄂ICP备05003330鄂公网安备42010602000219 手机版 新闻网 | 中文官网 研究领域 论文成果 专利 著作成果 科研项目 科研团队 教学研究 教学资源 授课信"
+    },
+    {
+      "officialId": "b122341cefd7c72b",
+      "name": "苏鑫",
+      "title": "副教授",
+      "officialSections": [
+        "在职教师 / 人工智能核心技术系"
+      ],
+      "profileUrl": "http://jszy.whu.edu.cn/xinsu_rs/zh_CN/index.htm",
+      "portraitUrl": null,
+      "sourcePageUrl": "https://sai.whu.edu.cn/teacher/zzjs/jxx.htm",
+      "officialRosterUrl": "https://sai.whu.edu.cn/teacher/zzjs/jxx.htm",
+      "profileChecked": true,
+      "decision": "include_new_pi",
+      "reason": "官方人工智能学院名录和个人页确认其为教授、副教授、研究员或可独立招生导师；该单位研究主线属于 AI、数据科学及相关智能计算范围。",
+      "evidenceUrl": "http://jszy.whu.edu.cn/xinsu_rs/zh_CN/index.htm",
+      "evidenceExcerpt": "副教授 | 在职教师 / 人工智能核心技术系 研究方向 暂无内容 其他联系方式 邮编： 3b79d0ce495cb45ed06328d9bc63f5f320506d6a67c0f96915b7b5238f36891ef80568e4146fcdb06a785f5bbc64ceb37b0c253a8f6ab509c2bc0bf5feb83d04cc610de7e8aa460aadfdf1a7c"
+    },
+    {
+      "officialId": "27b6d4b27f2c9406",
+      "name": "高源",
+      "title": "副教授",
+      "officialSections": [
+        "在职教师 / 人工智能核心技术系"
+      ],
+      "profileUrl": "https://jszy.whu.edu.cn/gaoyuan4/zh_CN/index/1498637/list/index.htm",
+      "portraitUrl": null,
+      "sourcePageUrl": "https://sai.whu.edu.cn/teacher/zzjs/jxx.htm",
+      "officialRosterUrl": "https://sai.whu.edu.cn/teacher/zzjs/jxx.htm",
+      "profileChecked": true,
+      "decision": "include_new_pi",
+      "reason": "官方人工智能学院名录和个人页确认其为教授、副教授、研究员或可独立招生导师；该单位研究主线属于 AI、数据科学及相关智能计算范围。",
+      "evidenceUrl": "https://jszy.whu.edu.cn/gaoyuan4/zh_CN/index/1498637/list/index.htm",
+      "evidenceExcerpt": "副教授 | 在职教师 / 人工智能核心技术系 研究方向 计算机视觉：三维计算机视觉 机器学习：多模态多任务学习，高效深度学习 团队成员 团队名称： 计算机视觉与摄影测量研究组（Captain） 团队介绍：http://www.captain-whu.com/zh/ Copyright武汉大学2017 地址：湖北省武汉市武昌区八一路299号 邮编：430072 鄂ICP备05003330鄂公网"
+    },
+    {
+      "officialId": "29f13f0c22c8b919",
+      "name": "李明",
+      "title": "副研究员",
+      "officialSections": [
+        "在职教师 / 人工智能核心技术系"
+      ],
+      "profileUrl": "https://jszy.whu.edu.cn/liming3/zh_CN/index.htm",
+      "portraitUrl": null,
+      "sourcePageUrl": "https://sai.whu.edu.cn/teacher/zzjs/jxx.htm",
+      "officialRosterUrl": "https://sai.whu.edu.cn/teacher/zzjs/jxx.htm",
+      "profileChecked": true,
+      "decision": "include_new_pi",
+      "reason": "官方人工智能学院名录和个人页确认其为教授、副教授、研究员或可独立招生导师；该单位研究主线属于 AI、数据科学及相关智能计算范围。",
+      "evidenceUrl": "https://jszy.whu.edu.cn/liming3/zh_CN/index.htm",
+      "evidenceExcerpt": "副研究员 | 在职教师 / 人工智能核心技术系 研究方向 研究基于视觉-语言-动作大模型的端到端自动驾驶技术架构 构建国际评测数据集，解决动态目标检测、跟踪与深度生成中的可靠性难题 获奖信息 学术荣誉 曾获荣誉 查看更多 + 教职工创新创业大赛金奖 科学技术进步奖 科学技术进步壹等奖 四足机器人比赛特等奖-优秀指导老师 政府特贴,2017 查看更多 + 教职工创新创业大赛,2020 科学技术进"
+    },
+    {
+      "officialId": "2eb64611926208b4",
+      "name": "庞超",
+      "title": "博士后",
+      "officialSections": [
+        "在职教师 / 人工智能核心技术系"
+      ],
+      "profileUrl": null,
+      "portraitUrl": null,
+      "sourcePageUrl": "https://sai.whu.edu.cn/teacher/zzjs/jxx.htm",
+      "officialRosterUrl": "https://sai.whu.edu.cn/teacher/zzjs/jxx.htm",
+      "profileChecked": false,
+      "decision": "excluded_non_pi",
+      "reason": "官方名录职类为行政、实验技术、工程、科研助理、博士后或学生，且个人页未显示独立招生或研究组负责人资格。",
+      "evidenceUrl": "https://sai.whu.edu.cn/teacher/zzjs/jxx.htm",
+      "evidenceExcerpt": "博士后 | 在职教师 / 人工智能核心技术系"
+    },
+    {
+      "officialId": "47b95d0ec3f09da9",
+      "name": "田天",
+      "title": "教授",
+      "officialSections": [
+        "在职教师 / 人工智能交叉应用系"
+      ],
+      "profileUrl": "https://jszy.whu.edu.cn/tiantian123/en/index.htm",
+      "portraitUrl": null,
+      "sourcePageUrl": "https://sai.whu.edu.cn/teacher/zzjs/jxx.htm",
+      "officialRosterUrl": "https://sai.whu.edu.cn/teacher/zzjs/jxx.htm",
+      "profileChecked": true,
+      "decision": "include_new_pi",
+      "reason": "官方人工智能学院名录和个人页确认其为教授、副教授、研究员或可独立招生导师；该单位研究主线属于 AI、数据科学及相关智能计算范围。",
+      "evidenceUrl": "https://jszy.whu.edu.cn/tiantian123/en/index.htm",
+      "evidenceExcerpt": "教授 | 在职教师 / 人工智能交叉应用系"
+    },
+    {
+      "officialId": "f0009787920beeb9",
+      "name": "肖晶",
+      "title": "教授",
+      "officialSections": [
+        "在职教师 / 人工智能交叉应用系"
+      ],
+      "profileUrl": "http://jszy.whu.edu.cn/xiaojing2/zh_CN/index.htm",
+      "portraitUrl": null,
+      "sourcePageUrl": "https://sai.whu.edu.cn/teacher/zzjs/jxx.htm",
+      "officialRosterUrl": "https://sai.whu.edu.cn/teacher/zzjs/jxx.htm",
+      "profileChecked": true,
+      "decision": "include_new_pi",
+      "reason": "官方人工智能学院名录和个人页确认其为教授、副教授、研究员或可独立招生导师；该单位研究主线属于 AI、数据科学及相关智能计算范围。",
+      "evidenceUrl": "http://jszy.whu.edu.cn/xiaojing2/zh_CN/index.htm",
+      "evidenceExcerpt": "教授 | 在职教师 / 人工智能交叉应用系 研究方向 [1].时空智能：面向复杂地理场景与动态地表过程的连续感知、关联认知和智能决策，重点研究多源多模态遥感数据融合、时空表征学习、跨尺度目标检测与跟踪、变化分析、异常诊断、时空知识推理及地理过程预测等技术 [2].卫星具身感知与世界模型：面向具备“感知—认知—决策—执行”闭环能力的遥感卫星智能体，重点研究星载多模态感知、地球场景世界模型、任"
+    },
+    {
+      "officialId": "f215882dbd0fbbda",
+      "name": "张丽华",
+      "title": "教授",
+      "officialSections": [
+        "在职教师 / 人工智能交叉应用系"
+      ],
+      "profileUrl": "http://jszy.whu.edu.cn/zhanglihua5/zh_CN/index.htm",
+      "portraitUrl": null,
+      "sourcePageUrl": "https://sai.whu.edu.cn/teacher/zzjs/jxx.htm",
+      "officialRosterUrl": "https://sai.whu.edu.cn/teacher/zzjs/jxx.htm",
+      "profileChecked": true,
+      "decision": "include_new_pi",
+      "reason": "官方人工智能学院名录和个人页确认其为教授、副教授、研究员或可独立招生导师；该单位研究主线属于 AI、数据科学及相关智能计算范围。",
+      "evidenceUrl": "http://jszy.whu.edu.cn/zhanglihua5/zh_CN/index.htm",
+      "evidenceExcerpt": "教授 | 在职教师 / 人工智能交叉应用系 研究方向包括生物信息学、数据挖掘与智能优化算法等。研究成果发表于Science Advances, Genome Biology, Nucleic Acid s Research等知名学 术期刊上， 相关研究成果获得国际学术权威机构 F1000 Prime 推荐。 Copyright武汉大学2017 地址：湖北省武汉市武昌区八一路299号 邮编："
+    },
+    {
+      "officialId": "0be359b38ad395ad",
+      "name": "何发智",
+      "title": "教授",
+      "officialSections": [
+        "在职教师 / 人工智能交叉应用系"
+      ],
+      "profileUrl": "https://jszy.whu.edu.cn/hefazhi/zh_CN/more/210193/jsjjgd/index.htm",
+      "portraitUrl": null,
+      "sourcePageUrl": "https://sai.whu.edu.cn/teacher/zzjs/jxx.htm",
+      "officialRosterUrl": "https://sai.whu.edu.cn/teacher/zzjs/jxx.htm",
+      "profileChecked": true,
+      "decision": "include_new_pi",
+      "reason": "官方人工智能学院名录和个人页确认其为教授、副教授、研究员或可独立招生导师；该单位研究主线属于 AI、数据科学及相关智能计算范围。",
+      "evidenceUrl": "https://jszy.whu.edu.cn/hefazhi/zh_CN/more/210193/jsjjgd/index.htm",
+      "evidenceExcerpt": "教授 | 在职教师 / 人工智能交叉应用系 研究领域 论文成果 专利 著作成果 科研项目 科研团队 教学研究 教学资源 授课信息 教学成果 获奖信息 招生信息 学生信息 我的相册 教师博客 当前位置: 中文主页 >教师简介 何发智 Personal profile 个人简介 何发智教授、博士生导师。中国计算机学会协同计算专委会首批创始委员、中国图象图形学学会智能图形专委会首批创始委员、中国"
+    },
+    {
+      "officialId": "ecbe2c49d3b9dc57",
+      "name": "洪亮",
+      "title": "教授",
+      "officialSections": [
+        "在职教师 / 人工智能交叉应用系"
+      ],
+      "profileUrl": "https://jszy.whu.edu.cn/hongliang/zh_CN/index/262757/list/index.htm",
+      "portraitUrl": null,
+      "sourcePageUrl": "https://sai.whu.edu.cn/teacher/zzjs/jxx.htm",
+      "officialRosterUrl": "https://sai.whu.edu.cn/teacher/zzjs/jxx.htm",
+      "profileChecked": true,
+      "decision": "include_new_pi",
+      "reason": "官方人工智能学院名录和个人页确认其为教授、副教授、研究员或可独立招生导师；该单位研究主线属于 AI、数据科学及相关智能计算范围。",
+      "evidenceUrl": "https://jszy.whu.edu.cn/hongliang/zh_CN/index/262757/list/index.htm",
+      "evidenceExcerpt": "教授 | 在职教师 / 人工智能交叉应用系 研究方向 数据为中心的社会智能（Data-Centric AI for Social Science） 曾获荣誉 2025 教育部科学研究优秀成果奖（技术发明）一等奖 2016 湖北省自然科学优秀学术论文二等奖 2020 中国科技情报学会情报科学创新团队奖 2020 ACM JCDL 最佳实践论文奖 2021 武汉大学人文社科优秀青年学者 202"
+    },
+    {
+      "officialId": "da46c9a6ad414e21",
+      "name": "胡黔楠",
+      "title": "教授",
+      "officialSections": [
+        "在职教师 / 人工智能交叉应用系"
+      ],
+      "profileUrl": "https://jszy.whu.edu.cn/huqiannan/zh_CN/index.htm",
+      "portraitUrl": null,
+      "sourcePageUrl": "https://sai.whu.edu.cn/teacher/zzjs/jxx.htm",
+      "officialRosterUrl": "https://sai.whu.edu.cn/teacher/zzjs/jxx.htm",
+      "profileChecked": true,
+      "decision": "include_new_pi",
+      "reason": "官方人工智能学院名录和个人页确认其为教授、副教授、研究员或可独立招生导师；该单位研究主线属于 AI、数据科学及相关智能计算范围。",
+      "evidenceUrl": "https://jszy.whu.edu.cn/huqiannan/zh_CN/index.htm",
+      "evidenceExcerpt": "教授 | 在职教师 / 人工智能交叉应用系 研究方向 人工智能、大数据、知识图谱、多智能体、NLP、数智生物学、合成生物制造、具身智能 Contact information 其他联系方式 邮箱： 0ac6136ff0174b5c34ce555eea6c9326e401080976a9c1078bb470ea1ddf8072da2f066e83ae4fb864a2f142e6deb6bf0"
+    },
+    {
+      "officialId": "5246e3ed41334b94",
+      "name": "秦谦",
+      "title": "教授",
+      "officialSections": [
+        "在职教师 / 人工智能交叉应用系"
+      ],
+      "profileUrl": "https://jszy.whu.edu.cn/qinqian1/zh_CN/index.htm",
+      "portraitUrl": null,
+      "sourcePageUrl": "https://sai.whu.edu.cn/teacher/zzjs/jxx.htm",
+      "officialRosterUrl": "https://sai.whu.edu.cn/teacher/zzjs/jxx.htm",
+      "profileChecked": true,
+      "decision": "include_new_pi",
+      "reason": "官方人工智能学院名录和个人页确认其为教授、副教授、研究员或可独立招生导师；该单位研究主线属于 AI、数据科学及相关智能计算范围。",
+      "evidenceUrl": "https://jszy.whu.edu.cn/qinqian1/zh_CN/index.htm",
+      "evidenceExcerpt": "教授 | 在职教师 / 人工智能交叉应用系 研究方向 更多>> AI驱动的精准医学 单细胞与空间组学 长读长测序与多组学分析 团队成员 暂无内容 Copyright武汉大学2017 地址：湖北省武汉市武昌区八一路299号 邮编：430072 鄂ICP备05003330鄂公网安备42010602000219 新闻网 中文官网 手机版 研究领域 论文成果 专利 著作成果 科研项目 科研团队 教"
+    },
+    {
+      "officialId": "46ef99c71f5e2c28",
+      "name": "刘欣怡",
+      "title": "特聘研究员",
+      "officialSections": [
+        "在职教师 / 人工智能交叉应用系"
+      ],
+      "profileUrl": "http://jszy.whu.edu.cn/xinyiliu/en/index.htm",
+      "portraitUrl": null,
+      "sourcePageUrl": "https://sai.whu.edu.cn/teacher/zzjs/jxx.htm",
+      "officialRosterUrl": "https://sai.whu.edu.cn/teacher/zzjs/jxx.htm",
+      "profileChecked": true,
+      "decision": "include_new_pi",
+      "reason": "官方人工智能学院名录和个人页确认其为教授、副教授、研究员或可独立招生导师；该单位研究主线属于 AI、数据科学及相关智能计算范围。",
+      "evidenceUrl": "http://jszy.whu.edu.cn/xinyiliu/en/index.htm",
+      "evidenceExcerpt": "特聘研究员 | 在职教师 / 人工智能交叉应用系 研究方向 [1].广域时空世界模型构建与推演：面向城市与广域自然环境，研究多源感知与广域场景的结构化解构、地理实体“状态-事件-过程”演化建模、结构化时空世界模型与因果推演。 [2].无人集群协同感知与群体智能：面向低空复杂动态环境，研究弱基准下的集群协同结构化建图、高动态场景解耦与多视主动感知、分布式共享认知与态势自主响应。 [3].深空环境认"
+    },
+    {
+      "officialId": "a3074958202aea45",
+      "name": "张效康",
+      "title": "副教授",
+      "officialSections": [
+        "在职教师 / 人工智能交叉应用系"
+      ],
+      "profileUrl": "https://jszy.whu.edu.cn/zhangxiaokang/zh_CN/index.htm",
+      "portraitUrl": null,
+      "sourcePageUrl": "https://sai.whu.edu.cn/teacher/zzjs/jxx.htm",
+      "officialRosterUrl": "https://sai.whu.edu.cn/teacher/zzjs/jxx.htm",
+      "profileChecked": false,
+      "decision": "include_new_pi",
+      "reason": "官方人工智能学院名录和个人页确认其为教授、副教授、研究员或可独立招生导师；该单位研究主线属于 AI、数据科学及相关智能计算范围。",
+      "evidenceUrl": "https://sai.whu.edu.cn/teacher/zzjs/jxx.htm",
+      "evidenceExcerpt": "副教授 | 在职教师 / 人工智能交叉应用系"
+    },
+    {
+      "officialId": "851f14e0ec5c111e",
+      "name": "曾承",
+      "title": "副教授",
+      "officialSections": [
+        "在职教师 / 人工智能交叉应用系"
+      ],
+      "profileUrl": null,
+      "portraitUrl": null,
+      "sourcePageUrl": "https://sai.whu.edu.cn/teacher/zzjs/jxx.htm",
+      "officialRosterUrl": "https://sai.whu.edu.cn/teacher/zzjs/jxx.htm",
+      "profileChecked": false,
+      "decision": "include_new_pi",
+      "reason": "官方人工智能学院名录和个人页确认其为教授、副教授、研究员或可独立招生导师；该单位研究主线属于 AI、数据科学及相关智能计算范围。",
+      "evidenceUrl": "https://sai.whu.edu.cn/teacher/zzjs/jxx.htm",
+      "evidenceExcerpt": "副教授 | 在职教师 / 人工智能交叉应用系"
+    },
+    {
+      "officialId": "a581a0c9ab3f3523",
+      "name": "李子龙",
+      "title": "博士后",
+      "officialSections": [
+        "在职教师 / 人工智能交叉应用系"
+      ],
+      "profileUrl": "http://jszy.whu.edu.cn/lizilong/zh_CN/index.htm",
+      "portraitUrl": null,
+      "sourcePageUrl": "https://sai.whu.edu.cn/teacher/zzjs/jxx.htm",
+      "officialRosterUrl": "https://sai.whu.edu.cn/teacher/zzjs/jxx.htm",
+      "profileChecked": true,
+      "decision": "include_new_pi",
+      "reason": "官方人工智能学院名录和个人页确认其为教授、副教授、研究员或可独立招生导师；该单位研究主线属于 AI、数据科学及相关智能计算范围。",
+      "evidenceUrl": "http://jszy.whu.edu.cn/lizilong/zh_CN/index.htm",
+      "evidenceExcerpt": "博士后 | 在职教师 / 人工智能交叉应用系 研究方向 暂无内容 获奖信息 学术荣誉 曾获荣誉 暂无内容 暂无内容 暂无内容 最后更新时间： - - 访问量： Copyright武汉大学2017 地址：湖北省武汉市武昌区八一路299号 邮编：430072 鄂ICP备05003330鄂公网安备42010602000219 研究领域 论文成果 专利 著作成果 科研项目 科研团队 教学研究 教学资"
+    },
+    {
+      "officialId": "b73751f889e54ad8",
+      "name": "徐芳",
+      "title": "博士后",
+      "officialSections": [
+        "在职教师 / 人工智能交叉应用系"
+      ],
+      "profileUrl": "http://jszy.whu.edu.cn/xufang12/zh_CN/index.htm",
+      "portraitUrl": null,
+      "sourcePageUrl": "https://sai.whu.edu.cn/teacher/zzjs/jxx.htm",
+      "officialRosterUrl": "https://sai.whu.edu.cn/teacher/zzjs/jxx.htm",
+      "profileChecked": true,
+      "decision": "include_new_pi",
+      "reason": "官方人工智能学院名录和个人页确认其为教授、副教授、研究员或可独立招生导师；该单位研究主线属于 AI、数据科学及相关智能计算范围。",
+      "evidenceUrl": "http://jszy.whu.edu.cn/xufang12/zh_CN/index.htm",
+      "evidenceExcerpt": "博士后 | 在职教师 / 人工智能交叉应用系 研究方向 暂无内容 团队成员 暂无内容 Copyright武汉大学2017 地址：湖北省武汉市武昌区八一路299号 邮编：430072 鄂ICP备05003330鄂公网安备42010602000219 新闻网 中文官网 手机版 研究领域 论文成果 专利 著作成果 科研项目 科研团队 教学研究 教学资源 授课信息 教学成果 获奖信息 招生信息 学生"
+    },
+    {
+      "officialId": "31d32be22ce9a0f1",
+      "name": "Tamer Saleh",
+      "title": "博士后",
+      "officialSections": [
+        "在职教师 / 人工智能交叉应用系"
+      ],
+      "profileUrl": "https://jszy.whu.edu.cn/TAMERSALEH/zh_CN/index.htm",
+      "portraitUrl": null,
+      "sourcePageUrl": "https://sai.whu.edu.cn/teacher/zzjs/jxx.htm",
+      "officialRosterUrl": "https://sai.whu.edu.cn/teacher/zzjs/jxx.htm",
+      "profileChecked": true,
+      "decision": "include_new_pi",
+      "reason": "官方人工智能学院名录和个人页确认其为教授、副教授、研究员或可独立招生导师；该单位研究主线属于 AI、数据科学及相关智能计算范围。",
+      "evidenceUrl": "https://jszy.whu.edu.cn/TAMERSALEH/zh_CN/index.htm",
+      "evidenceExcerpt": "博士后 | 在职教师 / 人工智能交叉应用系 研究方向 主要研究方向为理解遥感图像、解释地球观测图像、航空摄影和卫星图像的数学建模、摄影测量、计算机视觉以及深度学习算法在遥感成像中的应用。 曾获荣誉 2023 ISPRS Geospatial Week最佳论文奖 2023 ISPRS 基金会 TIF 资助 2021 意大利航天局ASI资助COSMO-SkyMed项目 2020 西安电子科技大"
+    },
+    {
+      "officialId": "321c0fb68e1e0ea7",
+      "name": "樊儒彬",
+      "title": "博士后",
+      "officialSections": [
+        "在职教师 / 人工智能交叉应用系"
+      ],
+      "profileUrl": null,
+      "portraitUrl": null,
+      "sourcePageUrl": "https://sai.whu.edu.cn/teacher/zzjs/jxx.htm",
+      "officialRosterUrl": "https://sai.whu.edu.cn/teacher/zzjs/jxx.htm",
+      "profileChecked": false,
+      "decision": "excluded_non_pi",
+      "reason": "官方名录职类为行政、实验技术、工程、科研助理、博士后或学生，且个人页未显示独立招生或研究组负责人资格。",
+      "evidenceUrl": "https://sai.whu.edu.cn/teacher/zzjs/jxx.htm",
+      "evidenceExcerpt": "博士后 | 在职教师 / 人工智能交叉应用系"
+    },
+    {
+      "officialId": "d71568715cc8c17c",
+      "name": "陈超锋",
+      "title": "助理教授/研究员",
+      "officialSections": [
+        "在职教师 / 人工智能交叉应用系"
+      ],
+      "profileUrl": "http://jszy.whu.edu.cn/chenchaofeng/zh_CN/index.htm",
+      "portraitUrl": null,
+      "sourcePageUrl": "https://sai.whu.edu.cn/teacher/zzjs/jxx.htm",
+      "officialRosterUrl": "https://sai.whu.edu.cn/teacher/zzjs/jxx.htm",
+      "profileChecked": true,
+      "decision": "include_new_pi",
+      "reason": "官方人工智能学院名录和个人页确认其为教授、副教授、研究员或可独立招生导师；该单位研究主线属于 AI、数据科学及相关智能计算范围。",
+      "evidenceUrl": "http://jszy.whu.edu.cn/chenchaofeng/zh_CN/index.htm",
+      "evidenceExcerpt": "助理教授/研究员 | 在职教师 / 人工智能交叉应用系 研究方向 暂无内容 获奖信息 学术荣誉 曾获荣誉 暂无内容 暂无内容 暂无内容 最后更新时间： - - 访问量： Copyright武汉大学2017 地址：湖北省武汉市武昌区八一路299号 邮编：430072 鄂ICP备05003330鄂公网安备42010602000219 研究领域 论文成果 专利 著作成果 科研项目 科研团队 教学研究 教学资"
+    },
+    {
+      "officialId": "4b221eb2c6efd1e3",
+      "name": "李华玮",
+      "title": "高级实验师",
+      "officialSections": [
+        "在职教师 / 实验教学中心"
+      ],
+      "profileUrl": "http://jszy.whu.edu.cn/lihuawei/zh_CN/index.htm",
+      "portraitUrl": null,
+      "sourcePageUrl": "https://sai.whu.edu.cn/teacher/zzjs/jxx.htm",
+      "officialRosterUrl": "https://sai.whu.edu.cn/teacher/zzjs/jxx.htm",
+      "profileChecked": true,
+      "decision": "include_new_pi",
+      "reason": "官方人工智能学院名录和个人页确认其为教授、副教授、研究员或可独立招生导师；该单位研究主线属于 AI、数据科学及相关智能计算范围。",
+      "evidenceUrl": "http://jszy.whu.edu.cn/lihuawei/zh_CN/index.htm",
+      "evidenceExcerpt": "021 第十四届中国大学生计算机设计大赛一等奖 2021 第十六届“花旗杯”金融创新应用大赛一等奖 2020 2020年中国高校计算机大赛-人工智能创意赛全国总决赛一等奖 团队成员 暂无内容 Copyright武汉大学2017 地址：湖北省武汉市武昌区八一路299号 邮编：430072 鄂ICP备05003330鄂公网安备42010602000219 新闻网 中文官网 手机版 研究领域 论文成果 专利 著作成果 教学研究 教学资源 授课信息 教学成果 获奖信息 招生信息 学生信息 我的相册 教师博客 E"
+    },
+    {
+      "officialId": "e277055dc69d3763",
+      "name": "秦红",
+      "title": "实验师",
+      "officialSections": [
+        "在职教师 / 实验教学中心"
+      ],
+      "profileUrl": "https://jszy.whu.edu.cn/qinhong12/zh_CN/index.htm",
+      "portraitUrl": null,
+      "sourcePageUrl": "https://sai.whu.edu.cn/teacher/zzjs/jxx.htm",
+      "officialRosterUrl": "https://sai.whu.edu.cn/teacher/zzjs/jxx.htm",
+      "profileChecked": true,
+      "decision": "include_new_pi",
+      "reason": "官方人工智能学院名录和个人页确认其为教授、副教授、研究员或可独立招生导师；该单位研究主线属于 AI、数据科学及相关智能计算范围。",
+      "evidenceUrl": "https://jszy.whu.edu.cn/qinhong12/zh_CN/index.htm",
+      "evidenceExcerpt": "实验师 | 在职教师 / 实验教学中心 研究方向 隐私保护；人工智能安全；应用密码学 团队成员 暂无内容 Copyright武汉大学2017 地址：湖北省武汉市武昌区八一路299号 邮编：430072 鄂ICP备05003330鄂公网安备42010602000219 新闻网 中文官网 手机版 研究领域 论文成果 专利 著作成果 科研项目 科研团队 教学研究 教学资源 授课信息 教学成果 获奖信息 招生信息 学生信息 我的相册"
+    },
+    {
+      "officialId": "32c52d6ee6d8bcbb",
+      "name": "康利灿",
+      "title": "双聘教师",
+      "officialSections": [
+        "双聘教师 / 数理基础（以姓名拼音排序）"
+      ],
+      "profileUrl": "https://imai.whu.edu.cn/info/2101/5951.htm",
+      "portraitUrl": null,
+      "sourcePageUrl": "https://sai.whu.edu.cn/teacher/zzjs/jxx.htm",
+      "officialRosterUrl": "https://sai.whu.edu.cn/teacher/zzjs/jxx.htm",
+      "profileChecked": false,
+      "decision": "excluded_insufficient_scope_evidence",
+      "reason": "官方名录提供个人页，但页面无法解析出足够的研究方向与独立 PI 证据；本轮按证据门槛不纳入，而非推断为非 AI/CS 或非 PI。",
+      "evidenceUrl": "https://sai.whu.edu.cn/teacher/zzjs/jxx.htm",
+      "evidenceExcerpt": "双聘教师 | 双聘教师 / 数理基础（以姓名拼音排序）"
+    },
+    {
+      "officialId": "940df781e3b59633",
+      "name": "林华珍",
+      "title": "双聘教师",
+      "officialSections": [
+        "双聘教师 / 数理基础（以姓名拼音排序）"
+      ],
+      "profileUrl": "https://imai.whu.edu.cn/info/1251/6091.htm",
+      "portraitUrl": null,
+      "sourcePageUrl": "https://sai.whu.edu.cn/teacher/zzjs/jxx.htm",
+      "officialRosterUrl": "https://sai.whu.edu.cn/teacher/zzjs/jxx.htm",
+      "profileChecked": true,
+      "decision": "include_new_pi",
+      "reason": "官方人工智能学院名录和个人页确认其为教授、副教授、研究员或可独立招生导师；该单位研究主线属于 AI、数据科学及相关智能计算范围。",
+      "evidenceUrl": "https://imai.whu.edu.cn/info/1251/6091.htm",
+      "evidenceExcerpt": "双聘教师 | 双聘教师 / 数理基础（以姓名拼音排序） 研究方向：深度学习理论、非参数方法、生存数据分析、函数型数据分析等 --> 雷军科技楼A906 个人简介 武汉大学弘毅客座讲席教授，西南财经大学首席教授，首届新基石研究员，国际数理统计学会IMS-Fellow，国家杰出青年科学基金获得者，入选国家重要人才计划，享受“国务院政府特殊津贴”专家，教育部“新世纪优秀人才支持计划”，首批四川省教书育人名师等。 主要研究领域为深度学习理"
+    },
+    {
+      "officialId": "1d261a852122839e",
+      "name": "吕锡亮",
+      "title": "双聘教师",
+      "officialSections": [
+        "双聘教师 / 数理基础（以姓名拼音排序）"
+      ],
+      "profileUrl": "https://jszy.whu.edu.cn/lvxiliang/zh_CN/index/275065/list/index.htm",
+      "portraitUrl": null,
+      "sourcePageUrl": "https://sai.whu.edu.cn/teacher/zzjs/jxx.htm",
+      "officialRosterUrl": "https://sai.whu.edu.cn/teacher/zzjs/jxx.htm",
+      "profileChecked": true,
+      "decision": "excluded_non_ai_cs",
+      "reason": "已检查官方个人页及名录字段，公开研究主线未显示 AI、NLP、CV、ML、数据智能、机器人或本图谱紧密相邻方向。",
+      "evidenceUrl": "https://jszy.whu.edu.cn/lvxiliang/zh_CN/index/275065/list/index.htm",
+      "evidenceExcerpt": "研究方向 [1].稀疏重构的算法与应用 [2].数值偏微分方程有限元方法 [3].最优控制和反问题的最优算法 其他联系方式 邮箱： 7267fc0d9f04fb7db203904ad3a684128473d83d45c8426bcc245bc0517c425ed394c26bcd7d6adb5940d8df221079f147eeb46089d99cf89dbffeef148727b87a5e13e2482dc737edd39e82eefd9a36bd25d432301acbe26f65b3775e350e1b04d24a9772538693fbf9bc5f4502a01f0392b2e2369200a3705071e8ba39e9f2 访问量： 次 最后更新时间： - - Copyright武汉大学2017 地址：湖北省武汉市武昌区八一路299号 邮编：430072 鄂ICP备05003330鄂公网安备42010602000219 研究领域 论文成果 专利 著作成果 科研项目 科研团队 教学研究 教学资源 授课信息 教学成果 获奖信息 招生信息 学生信息 我的相册 教师博客 微信扫描"
+    },
+    {
+      "officialId": "fc5201fc37adfd2f",
+      "name": "杨志坚",
+      "title": "双聘教师",
+      "officialSections": [
+        "双聘教师 / 数理基础（以姓名拼音排序）"
+      ],
+      "profileUrl": "https://imai.whu.edu.cn/info/1031/2141.htm",
+      "portraitUrl": null,
+      "sourcePageUrl": "https://sai.whu.edu.cn/teacher/zzjs/jxx.htm",
+      "officialRosterUrl": "https://sai.whu.edu.cn/teacher/zzjs/jxx.htm",
+      "profileChecked": true,
+      "decision": "include_new_pi",
+      "reason": "官方人工智能学院名录和个人页确认其为教授、副教授、研究员或可独立招生导师；该单位研究主线属于 AI、数据科学及相关智能计算范围。",
+      "evidenceUrl": "https://imai.whu.edu.cn/info/1031/2141.htm",
+      "evidenceExcerpt": "及面上项目，湖北省卓越研究群体及创新研究群体等科研项目。现为EAJAM、CSIAM-AM等杂志编委。 主持项目 湖北省科技厅，卓越研究群体，人工智能的数理基础，2025 国家自然科学基金委员会，区域创新发展联合基金，基于人工智能求解微分方程正反问题的理论基础，2024 国家自然科学基金委员会，国家杰出青年科学基金，多尺度建模与计算， 2022 科学技术部，重点研发计划，基于机器学习与确定性机理融合的高精度地图制作和评估体系， 2020 国家自然科学基金委员会，重大研究计划集成项目，复杂结构及其相变的多尺"
+    },
+    {
+      "officialId": "b4fd10118e888320",
+      "name": "赵晓飞",
+      "title": "双聘教师",
+      "officialSections": [
+        "双聘教师 / 数理基础（以姓名拼音排序）"
+      ],
+      "profileUrl": "https://jszy.whu.edu.cn/zhaoxiaofei/zh_CN/index/1220200/list/index.htm",
+      "portraitUrl": null,
+      "sourcePageUrl": "https://sai.whu.edu.cn/teacher/zzjs/jxx.htm",
+      "officialRosterUrl": "https://sai.whu.edu.cn/teacher/zzjs/jxx.htm",
+      "profileChecked": true,
+      "decision": "include_new_pi",
+      "reason": "官方人工智能学院名录和个人页确认其为教授、副教授、研究员或可独立招生导师；该单位研究主线属于 AI、数据科学及相关智能计算范围。",
+      "evidenceUrl": "https://jszy.whu.edu.cn/zhaoxiaofei/zh_CN/index/1220200/list/index.htm",
+      "evidenceExcerpt": "双聘教师 | 双聘教师 / 数理基础（以姓名拼音排序） 研究方向 [1].计算数学与人工智能 其他联系方式 邮箱： 8f1ece2f551797fe0087828f235eec101e5dcf853205970a51f4f7bce3a8e2a43af19f877375d76fa69616ee9ae3bc47e65220f64d98f6e7ce03f880d1f39ce2d3b6becfe1201c15895279762f0b3436d177d68d"
+    },
+    {
+      "officialId": "697f159420d0cc7d",
+      "name": "陈超锋",
+      "title": "双聘教师",
+      "officialSections": [
+        "双聘教师 / 核心技术（以姓名拼音排序）"
+      ],
+      "profileUrl": null,
+      "portraitUrl": null,
+      "sourcePageUrl": "https://sai.whu.edu.cn/teacher/zzjs/jxx.htm",
+      "officialRosterUrl": "https://sai.whu.edu.cn/teacher/zzjs/jxx.htm",
+      "profileChecked": false,
+      "decision": "excluded_insufficient_scope_evidence",
+      "reason": "官方名录能确认相关院系或研究方向，但缺少个人页及独立招生证据；本轮按证据门槛不纳入，而非推断为非 PI。",
+      "evidenceUrl": "https://sai.whu.edu.cn/teacher/zzjs/jxx.htm",
+      "evidenceExcerpt": "双聘教师 | 双聘教师 / 核心技术（以姓名拼音排序）"
+    },
+    {
+      "officialId": "bd7d018f5fec4920",
+      "name": "戴行",
+      "title": "双聘教师",
+      "officialSections": [
+        "双聘教师 / 核心技术（以姓名拼音排序）"
+      ],
+      "profileUrl": null,
+      "portraitUrl": null,
+      "sourcePageUrl": "https://sai.whu.edu.cn/teacher/zzjs/jxx.htm",
+      "officialRosterUrl": "https://sai.whu.edu.cn/teacher/zzjs/jxx.htm",
+      "profileChecked": false,
+      "decision": "excluded_insufficient_scope_evidence",
+      "reason": "官方名录能确认相关院系或研究方向，但缺少个人页及独立招生证据；本轮按证据门槛不纳入，而非推断为非 PI。",
+      "evidenceUrl": "https://sai.whu.edu.cn/teacher/zzjs/jxx.htm",
+      "evidenceExcerpt": "双聘教师 | 双聘教师 / 核心技术（以姓名拼音排序）"
+    },
+    {
+      "officialId": "cec4f19ed14acf63",
+      "name": "董性平",
+      "title": "双聘教师",
+      "officialSections": [
+        "双聘教师 / 核心技术（以姓名拼音排序）"
+      ],
+      "profileUrl": "https://jszy.whu.edu.cn/dongxingping/en/more/1531369/jsjjgd/index.htm",
+      "portraitUrl": null,
+      "sourcePageUrl": "https://sai.whu.edu.cn/teacher/zzjs/jxx.htm",
+      "officialRosterUrl": "https://sai.whu.edu.cn/teacher/zzjs/jxx.htm",
+      "profileChecked": true,
+      "decision": "include_new_pi",
+      "reason": "官方人工智能学院名录和个人页确认其为教授、副教授、研究员或可独立招生导师；该单位研究主线属于 AI、数据科学及相关智能计算范围。",
+      "evidenceUrl": "https://jszy.whu.edu.cn/dongxingping/en/more/1531369/jsjjgd/index.htm",
+      "evidenceExcerpt": "onal Profile Current position: Home / Personal Profile 董性平博士、武汉大学计算机学院教授、博士生导师、国家级青年人才。曾任 阿联酋起源人工智能研究院研究员。 2019 年在北京理工大学，计算机学院智能信息技术北京市重点实验室，获得博士学位，师从沈建冰教授。曾在澳洲国立大学，工程与计算机科学学院进行联合博士培养计划，师从国际著名视觉学者 Fatih Porikli 教授。已发表论文 20余 篇，其中包括国际权威期刊 IEEETrans. 汇刊 ("
+    },
+    {
+      "officialId": "74eb925406c8d995",
+      "name": "杜博",
+      "title": "双聘教师",
+      "officialSections": [
+        "双聘教师 / 核心技术（以姓名拼音排序）"
+      ],
+      "profileUrl": "https://cs.whu.edu.cn/info/1019/2892.htm",
+      "portraitUrl": null,
+      "sourcePageUrl": "https://sai.whu.edu.cn/teacher/zzjs/jxx.htm",
+      "officialRosterUrl": "https://sai.whu.edu.cn/teacher/zzjs/jxx.htm",
+      "profileChecked": true,
+      "decision": "include_new_pi",
+      "reason": "官方人工智能学院名录和个人页确认其为教授、副教授、研究员或可独立招生导师；该单位研究主线属于 AI、数据科学及相关智能计算范围。",
+      "evidenceUrl": "https://cs.whu.edu.cn/info/1019/2892.htm",
+      "evidenceExcerpt": "博，武汉大学珞珈特聘教授，国家自然科学基金杰出青年科学基金（2022）、优秀青年科学基金获得者（2018），湖北省杰青（2017）。现任国家多媒体软件工程技术研究中心主任，武汉大学院长，武汉大学人工智能研究院常务副院长，多媒体网络通信工程湖北省重点实验室主任。人工智能领域SCI期刊Neural Networks\\Pattern Recognition\\ Neural Processing Letters的Associate Editor，《中国图象图形学报》编委。主要从事计算机视觉和人工智能等方面的研"
+    },
+    {
+      "officialId": "a6319f437d2ceb04",
+      "name": "何德彪",
+      "title": "双聘教师",
+      "officialSections": [
+        "双聘教师 / 核心技术（以姓名拼音排序）"
+      ],
+      "profileUrl": "https://jszy.whu.edu.cn/hedebiao/zh_CN/index.htm",
+      "portraitUrl": null,
+      "sourcePageUrl": "https://sai.whu.edu.cn/teacher/zzjs/jxx.htm",
+      "officialRosterUrl": "https://sai.whu.edu.cn/teacher/zzjs/jxx.htm",
+      "profileChecked": true,
+      "decision": "include_new_pi",
+      "reason": "官方人工智能学院名录和个人页确认其为教授、副教授、研究员或可独立招生导师；该单位研究主线属于 AI、数据科学及相关智能计算范围。",
+      "evidenceUrl": "https://jszy.whu.edu.cn/hedebiao/zh_CN/index.htm",
+      "evidenceExcerpt": "双聘教师 | 双聘教师 / 核心技术（以姓名拼音排序） 研究方向 密码学；人工智能安全；区块链技术；隐私计算； Copyright武汉大学2017 地址：湖北省武汉市武昌区八一路299号 邮编：430072 鄂ICP备05003330鄂公网安备42010602000219 手机版 新闻网 | 中文官网 研究领域 论文成果 专利 著作成果 科研项目 科研团队 教学研究 教学资源 授课信息 教学成果 获奖信息 招生信息 学生信息 我的相册 教"
+    },
+    {
+      "officialId": "c4c6ce8d7b33ec53",
+      "name": "姬东鸿",
+      "title": "双聘教师",
+      "officialSections": [
+        "双聘教师 / 核心技术（以姓名拼音排序）"
+      ],
+      "profileUrl": "https://cse.whu.edu.cn/info/3421/37581.htm",
+      "portraitUrl": null,
+      "sourcePageUrl": "https://sai.whu.edu.cn/teacher/zzjs/jxx.htm",
+      "officialRosterUrl": "https://sai.whu.edu.cn/teacher/zzjs/jxx.htm",
+      "profileChecked": true,
+      "decision": "include_new_pi",
+      "reason": "官方人工智能学院名录和个人页确认其为教授、副教授、研究员或可独立招生导师；该单位研究主线属于 AI、数据科学及相关智能计算范围。",
+      "evidenceUrl": "https://cse.whu.edu.cn/info/3421/37581.htm",
+      "evidenceExcerpt": "教育背景 工作经验 教授课程 发表论文 课题科研 研究团队 获奖信息 个人简介 先后在武汉大学和牛津大学获计算机和语言学博士学位。主要从事自然语言处理、深度学习、大数据平台（智慧医疗、智慧建筑、智慧教育等）和对话机器人等方面的研究。近年来主持省部级以上项目近20项，在本领域顶级期刊和会议上发表论文40多篇。 研究方向 自然语言处理、社会计算、深度学习、大数据平台和对话机器人。实验室既强调前沿研究，也强调应用研究。要求硕士生至少发表1篇CCF或SCI论文。 教育背景 武汉大学和清华大学计算机专业，牛津大"
+    },
+    {
+      "officialId": "910807a5c20bef21",
+      "name": "江佳伟",
+      "title": "双聘教师",
+      "officialSections": [
+        "双聘教师 / 核心技术（以姓名拼音排序）"
+      ],
+      "profileUrl": "https://cs.whu.edu.cn/info/1019/2501.htm",
+      "portraitUrl": null,
+      "sourcePageUrl": "https://sai.whu.edu.cn/teacher/zzjs/jxx.htm",
+      "officialRosterUrl": "https://sai.whu.edu.cn/teacher/zzjs/jxx.htm",
+      "profileChecked": false,
+      "decision": "excluded_insufficient_scope_evidence",
+      "reason": "官方资料能确认相关研究方向，但可访问页面不足以证明其现任独立 PI 或招生资格；本轮按证据门槛不纳入，而非推断为非 PI。",
+      "evidenceUrl": "https://sai.whu.edu.cn/teacher/zzjs/jxx.htm",
+      "evidenceExcerpt": "双聘教师 | 双聘教师 / 核心技术（以姓名拼音排序）"
+    },
+    {
+      "officialId": "630d6503c639a574",
+      "name": "金芝",
+      "title": "双聘教师",
+      "officialSections": [
+        "双聘教师 / 核心技术（以姓名拼音排序）"
+      ],
+      "profileUrl": "http://jszy.whu.edu.cn/jinzhi/zh_CN/index.htm",
+      "portraitUrl": null,
+      "sourcePageUrl": "https://sai.whu.edu.cn/teacher/zzjs/jxx.htm",
+      "officialRosterUrl": "https://sai.whu.edu.cn/teacher/zzjs/jxx.htm",
+      "profileChecked": true,
+      "decision": "include_new_pi",
+      "reason": "官方人工智能学院名录和个人页确认其为教授、副教授、研究员或可独立招生导师；该单位研究主线属于 AI、数据科学及相关智能计算范围。",
+      "evidenceUrl": "http://jszy.whu.edu.cn/jinzhi/zh_CN/index.htm",
+      "evidenceExcerpt": "： 大楼A501 个人简介 查看更多 金芝，武汉大学教授，IEEE/CCF/CAAI/AAIA Fellow。兼任中国计算机学会监事长，中国人工智能学会知识工程与分布智能专委会副主任。先后担任973项目首席科学家，国家自然科学基金委青年基金项目（A类），国家重点研发计划专项，以及国家自然科学基金委重点项目等的项目负责人。主要研究领域智能化软件工程，包含知识工程、智能化软件需求工程、和需求驱动的代码生成和演化等。研究成果发表在中国计算机学会（CCF）A类推荐期刊和会议上，6次获 ACM SogSoft D"
+    },
+    {
+      "officialId": "fd45b9541143bb3b",
+      "name": "罗斌",
+      "title": "双聘教师",
+      "officialSections": [
+        "双聘教师 / 核心技术（以姓名拼音排序）"
+      ],
+      "profileUrl": "http://www.lmars.whu.edu.cn/prof_web/luobin/%E7%BD%97%E6%96%8C.htm",
+      "portraitUrl": null,
+      "sourcePageUrl": "https://sai.whu.edu.cn/teacher/zzjs/jxx.htm",
+      "officialRosterUrl": "https://sai.whu.edu.cn/teacher/zzjs/jxx.htm",
+      "profileChecked": true,
+      "decision": "include_new_pi",
+      "reason": "官方人工智能学院名录和个人页确认其为教授、副教授、研究员或可独立招生导师；该单位研究主线属于 AI、数据科学及相关智能计算范围。",
+      "evidenceUrl": "http://www.lmars.whu.edu.cn/prof_web/luobin/%E7%BD%97%E6%96%8C.htm",
+      "evidenceExcerpt": "Learning Shape Anchors for Holistic Indoor Scene Understanding》连续发表于国际人工智能顶刊IEEE Transactions on Pattern Analysis and Machine Intelligence（IEEE TPAMI，IF: 20.4）。论文第一作者分别为博士生钱铭和博士生董明玥，... 2026-07-10 阅读全文 科研成果 贺威教授课题组黄土高原土地覆盖与土壤侵蚀研究成果发表于ESSD 近日，武汉大学测绘遥感信息工程"
+    },
+    {
+      "officialId": "f0b353d2de5cb1fa",
+      "name": "罗勇",
+      "title": "双聘教师",
+      "officialSections": [
+        "双聘教师 / 核心技术（以姓名拼音排序）"
+      ],
+      "profileUrl": "https://jszy.whu.edu.cn/luoyong6/zh_CN/index.htm",
+      "portraitUrl": null,
+      "sourcePageUrl": "https://sai.whu.edu.cn/teacher/zzjs/jxx.htm",
+      "officialRosterUrl": "https://sai.whu.edu.cn/teacher/zzjs/jxx.htm",
+      "profileChecked": true,
+      "decision": "include_new_pi",
+      "reason": "官方人工智能学院名录和个人页确认其为教授、副教授、研究员或可独立招生导师；该单位研究主线属于 AI、数据科学及相关智能计算范围。",
+      "evidenceUrl": "https://jszy.whu.edu.cn/luoyong6/zh_CN/index.htm",
+      "evidenceExcerpt": "双聘教师 | 双聘教师 / 核心技术（以姓名拼音排序） 研究方向 更多>> 人工智能 机器学习 模式识别 多媒体信息处理 曾获荣誉 2022 国际多媒体信号处理研讨会最佳学生论文 2017 国际人工智能联合会议（IJCAI）最佳论文入围（3/2540） 2016 中国计算机学会优秀博士论文 团队成员 暂无内容 Copyright武汉大学2017 地址：湖北省武汉市武昌区八一路299号 邮编：430072 鄂ICP备05003330鄂公网安备"
+    },
+    {
+      "officialId": "b58f6b74c68616f7",
+      "name": "孟小亮",
+      "title": "双聘教师",
+      "officialSections": [
+        "双聘教师 / 核心技术（以姓名拼音排序）"
+      ],
+      "profileUrl": "https://jszy.whu.edu.cn/mengxiaoliang/zh_CN/index.htm",
+      "portraitUrl": null,
+      "sourcePageUrl": "https://sai.whu.edu.cn/teacher/zzjs/jxx.htm",
+      "officialRosterUrl": "https://sai.whu.edu.cn/teacher/zzjs/jxx.htm",
+      "profileChecked": true,
+      "decision": "include_new_pi",
+      "reason": "官方人工智能学院名录和个人页确认其为教授、副教授、研究员或可独立招生导师；该单位研究主线属于 AI、数据科学及相关智能计算范围。",
+      "evidenceUrl": "https://jszy.whu.edu.cn/mengxiaoliang/zh_CN/index.htm",
+      "evidenceExcerpt": "间信息与数字技术系主任 学历：研究生毕业 性别：男 联系方式：1920525866@qq.com; xmeng@whu.edu.cn 职称：教授 主要任职：武汉大学大学生工程训练与创新实践中心主任、空间信息与数字技术系主任、遥感信息工程大学生创新创业中心主任 其他任职：中国地理信息产业协会教育与科普工作委员会副主任 毕业院校：武汉大学 博士生导师 硕士生导师 访问量： 开通时间： - - 最后更新时间： - - 个人简介 更多>> 孟小亮，武汉大学遥感信息工程学院，教授，博士生导师，珞珈特聘教授，空"
+    },
+    {
+      "officialId": "a099d5d16620eeee",
+      "name": "涂志刚",
+      "title": "双聘教师",
+      "officialSections": [
+        "双聘教师 / 核心技术（以姓名拼音排序）"
+      ],
+      "profileUrl": "https://3s.whu.edu.cn/info/1025/1451.htm",
+      "portraitUrl": null,
+      "sourcePageUrl": "https://sai.whu.edu.cn/teacher/zzjs/jxx.htm",
+      "officialRosterUrl": "https://sai.whu.edu.cn/teacher/zzjs/jxx.htm",
+      "profileChecked": true,
+      "decision": "include_new_pi",
+      "reason": "官方人工智能学院名录和个人页确认其为教授、副教授、研究员或可独立招生导师；该单位研究主线属于 AI、数据科学及相关智能计算范围。",
+      "evidenceUrl": "https://3s.whu.edu.cn/info/1025/1451.htm",
+      "evidenceExcerpt": "双聘教师 | 双聘教师 / 核心技术（以姓名拼音排序） 涂志刚-时空数据智能获取技术与应用教育部工程中心 English 主页 研究团队 教授 & 副教授 博士后 博士 硕士 本科生 毕业生 项目成果 科研项目 专利发明 论文展示 学术活动 学术来访 讲座交流 科研之外 关于我们 当前位置： 首页 > 研究团队 > 教授 & 副教授 > 正文 涂志刚 涂志刚 研究员 新加坡南洋理工大学研究员 荷兰Utrecht University博士 邮箱：tuzhigang@whu.edu.cn 研究成果 主"
+    },
+    {
+      "officialId": "319784a7ea3ac199",
+      "name": "王皓",
+      "title": "双聘教师",
+      "officialSections": [
+        "双聘教师 / 核心技术（以姓名拼音排序）"
+      ],
+      "profileUrl": "https://jszy.whu.edu.cn/wanghao6/zh_CN/index.htm",
+      "portraitUrl": null,
+      "sourcePageUrl": "https://sai.whu.edu.cn/teacher/zzjs/jxx.htm",
+      "officialRosterUrl": "https://sai.whu.edu.cn/teacher/zzjs/jxx.htm",
+      "profileChecked": true,
+      "decision": "include_new_pi",
+      "reason": "官方人工智能学院名录和个人页确认其为教授、副教授、研究员或可独立招生导师；该单位研究主线属于 AI、数据科学及相关智能计算范围。",
+      "evidenceUrl": "https://jszy.whu.edu.cn/wanghao6/zh_CN/index.htm",
+      "evidenceExcerpt": "AI、AAAI等域内重要的国际会议或学术期刊上发表论文50余篇。主持、参与多项国家级和省部级自然科学基金研究项目以及校企合作项目，获得吴文俊人工智能科学技术二等奖和江苏省科学技术奖二等奖。 团队成员 暂无内容 工作经历 2022-8····至今 | 武汉大学 | 教授 2021-1····2022-3 计算机与软件学院 | 南京信息工程大学 | 教授 2018-12····2020-12 Data Mining Group | Inception Institute of Artificial Int"
+    },
+    {
+      "officialId": "794261afebbdcb8a",
+      "name": "王骞",
+      "title": "双聘教师",
+      "officialSections": [
+        "双聘教师 / 核心技术（以姓名拼音排序）"
+      ],
+      "profileUrl": "https://imai.whu.edu.cn/info/1911/3711.htm",
+      "portraitUrl": null,
+      "sourcePageUrl": "https://sai.whu.edu.cn/teacher/zzjs/jxx.htm",
+      "officialRosterUrl": "https://sai.whu.edu.cn/teacher/zzjs/jxx.htm",
+      "profileChecked": true,
+      "decision": "include_new_pi",
+      "reason": "官方人工智能学院名录和个人页确认其为教授、副教授、研究员或可独立招生导师；该单位研究主线属于 AI、数据科学及相关智能计算范围。",
+      "evidenceUrl": "https://imai.whu.edu.cn/info/1911/3711.htm",
+      "evidenceExcerpt": "双聘教师 | 双聘教师 / 核心技术（以姓名拼音排序） 研究方向：人工智能安全、云计算安全与隐私、无线系统安全、应用密码学 qianwang@whu.edu.cn --> 个人简介 王骞， IEEE Fellow ，武汉大学二级教授、国家网络安全学院执行院长， ACM SIGSAC China 主席，国家重大人才工程特聘教授，基础加强计划重点基础研究项目“技术首席专家”，国家海外高层次青年引进人才，获国家优秀青年科学基金资助。 长"
+    },
+    {
+      "officialId": "84fdaf140663f73c",
+      "name": "王胜",
+      "title": "双聘教师",
+      "officialSections": [
+        "双聘教师 / 核心技术（以姓名拼音排序）"
+      ],
+      "profileUrl": "https://jszy.whu.edu.cn/swang/",
+      "portraitUrl": null,
+      "sourcePageUrl": "https://sai.whu.edu.cn/teacher/zzjs/jxx.htm",
+      "officialRosterUrl": "https://sai.whu.edu.cn/teacher/zzjs/jxx.htm",
+      "profileChecked": true,
+      "decision": "include_new_pi",
+      "reason": "官方人工智能学院名录和个人页确认其为教授、副教授、研究员或可独立招生导师；该单位研究主线属于 AI、数据科学及相关智能计算范围。",
+      "evidenceUrl": "https://jszy.whu.edu.cn/swang/",
+      "evidenceExcerpt": "双聘教师 | 双聘教师 / 核心技术（以姓名拼音排序） 研究方向 社会兼职 多模数据库 高效、公平、联邦聚类 空间数据库 社会兼职内容：中国计算机学会(CCF)数据库专委会执行委员 社会兼职内容：中国计算机学会(CCF)信息系统专委会执行委员 2025.1-----至今 社会兼职内容：CCF武汉秘书长 社会兼职内容：2024年和2022年国际气候变化与人工智能创新基金智能交通领域高级评审专家 教育经历 工作经历 2016.4-----2019"
+    },
+    {
+      "officialId": "45c0b1ec4680df24",
+      "name": "王正",
+      "title": "双聘教师",
+      "officialSections": [
+        "双聘教师 / 核心技术（以姓名拼音排序）"
+      ],
+      "profileUrl": "https://jszy.whu.edu.cn/zhengwang/zh_CN/index.htm",
+      "portraitUrl": null,
+      "sourcePageUrl": "https://sai.whu.edu.cn/teacher/zzjs/jxx.htm",
+      "officialRosterUrl": "https://sai.whu.edu.cn/teacher/zzjs/jxx.htm",
+      "profileChecked": true,
+      "decision": "include_new_pi",
+      "reason": "官方人工智能学院名录和个人页确认其为教授、副教授、研究员或可独立招生导师；该单位研究主线属于 AI、数据科学及相关智能计算范围。",
+      "evidenceUrl": "https://jszy.whu.edu.cn/zhengwang/zh_CN/index.htm",
+      "evidenceExcerpt": "双聘教师 | 双聘教师 / 核心技术（以姓名拼音排序） 个人简介 王正，武汉大学/国家多媒体软件工程技术研究中心教授、博士生导师，国家级高层次青年人才，武汉英才产业领军人才，现任武汉大学计算机实验教学中心主任。曾在日本东京大学任助理教授，入选 日本卓越研究员 （ 日本最高层次青年人才计划 ）；在日本国立情报学研究所任特任研究员，入选日本学术振兴会外国人特别研究员，获中国留日同学会最优秀青年学者奖。 个人主页： https://wangzwhu.gi"
+    },
+    {
+      "officialId": "aba14203df54ab8c",
+      "name": "魏子恒",
+      "title": "双聘教师",
+      "officialSections": [
+        "双聘教师 / 核心技术（以姓名拼音排序）"
+      ],
+      "profileUrl": null,
+      "portraitUrl": null,
+      "sourcePageUrl": "https://sai.whu.edu.cn/teacher/zzjs/jxx.htm",
+      "officialRosterUrl": "https://sai.whu.edu.cn/teacher/zzjs/jxx.htm",
+      "profileChecked": false,
+      "decision": "excluded_insufficient_scope_evidence",
+      "reason": "官方名录能确认相关院系或研究方向，但缺少个人页及独立招生证据；本轮按证据门槛不纳入，而非推断为非 PI。",
+      "evidenceUrl": "https://sai.whu.edu.cn/teacher/zzjs/jxx.htm",
+      "evidenceExcerpt": "双聘教师 | 双聘教师 / 核心技术（以姓名拼音排序）"
+    },
+    {
+      "officialId": "829b86f7d6179665",
+      "name": "许永超",
+      "title": "双聘教师",
+      "officialSections": [
+        "双聘教师 / 核心技术（以姓名拼音排序）"
+      ],
+      "profileUrl": "https://cs.whu.edu.cn/info/1019/2496.htm",
+      "portraitUrl": null,
+      "sourcePageUrl": "https://sai.whu.edu.cn/teacher/zzjs/jxx.htm",
+      "officialRosterUrl": "https://sai.whu.edu.cn/teacher/zzjs/jxx.htm",
+      "profileChecked": true,
+      "decision": "include_new_pi",
+      "reason": "官方人工智能学院名录和个人页确认其为教授、副教授、研究员或可独立招生导师；该单位研究主线属于 AI、数据科学及相关智能计算范围。",
+      "evidenceUrl": "https://cs.whu.edu.cn/info/1019/2496.htm",
+      "evidenceExcerpt": "双聘教师 | 双聘教师 / 核心技术（以姓名拼音排序） 研究方向 许永超，武汉大学，教授，博导，2018年依托中国图象图形学学会入选中国科协青年托举人才计划，2008年本科毕业于华中科技大学，2010年硕士毕业于法国巴黎11大，2013年获得东巴黎大学博士学位，回国前任职于巴黎高等信息工程师学院Tenured Assistant Professor，研究领域涉医学图像分析、多方向目标检测识别、计算机视觉。主持国家自然科学基金青年项目、重点项目课题（第二参与人）、科技部“新一代人工"
+    },
+    {
+      "officialId": "5389255c5d6936ec",
+      "name": "杨必胜",
+      "title": "双聘教师",
+      "officialSections": [
+        "双聘教师 / 核心技术（以姓名拼音排序）"
+      ],
+      "profileUrl": "https://3s.whu.edu.cn/ybs/index.htm",
+      "portraitUrl": null,
+      "sourcePageUrl": "https://sai.whu.edu.cn/teacher/zzjs/jxx.htm",
+      "officialRosterUrl": "https://sai.whu.edu.cn/teacher/zzjs/jxx.htm",
+      "profileChecked": true,
+      "decision": "include_new_pi",
+      "reason": "官方人工智能学院名录和个人页确认其为教授、副教授、研究员或可独立招生导师；该单位研究主线属于 AI、数据科学及相关智能计算范围。",
+      "evidenceUrl": "https://3s.whu.edu.cn/ybs/index.htm",
+      "evidenceExcerpt": "双聘教师 | 双聘教师 / 核心技术（以姓名拼音排序） 技术与应用教育部工程中心 English 主页 研究团队 教授 & 副教授 博士后 博士 硕士 本科生 毕业生 项目成果 科研项目 专利发明 论文展示 学术活动 学术来访 讲座交流 科研之外 关于我们 第六届激光雷达大会 第五届激光雷达大会 课题组摄影小将：樱花盛放 课题组MMT2019会议之行 课题组第六届激光雷达大会之行 新闻动态 更多 《机载激光雷达数据处理分析及基于地表模型的路径规划》项目终期验收顺利通过！ 中"
+    },
+    {
+      "officialId": "9a9a12818f5a7e63",
+      "name": "杨文",
+      "title": "双聘教师",
+      "officialSections": [
+        "双聘教师 / 核心技术（以姓名拼音排序）"
+      ],
+      "profileUrl": "http://eis.whu.edu.cn/index/szdwDetail?rsh=00200590&newskind_id=20160320222131522vp3NTtfdn1oWM",
+      "portraitUrl": null,
+      "sourcePageUrl": "https://sai.whu.edu.cn/teacher/zzjs/jxx.htm",
+      "officialRosterUrl": "https://sai.whu.edu.cn/teacher/zzjs/jxx.htm",
+      "profileChecked": false,
+      "decision": "excluded_insufficient_scope_evidence",
+      "reason": "官方资料能确认相关研究方向，但可访问页面不足以证明其现任独立 PI 或招生资格；本轮按证据门槛不纳入，而非推断为非 PI。",
+      "evidenceUrl": "https://sai.whu.edu.cn/teacher/zzjs/jxx.htm",
+      "evidenceExcerpt": "双聘教师 | 双聘教师 / 核心技术（以姓名拼音排序）"
+    },
+    {
+      "officialId": "b7472d838cf85409",
+      "name": "姚剑",
+      "title": "双聘教师",
+      "officialSections": [
+        "双聘教师 / 核心技术（以姓名拼音排序）"
+      ],
+      "profileUrl": "https://cvrs.whu.edu.cn/jianyao/",
+      "portraitUrl": null,
+      "sourcePageUrl": "https://sai.whu.edu.cn/teacher/zzjs/jxx.htm",
+      "officialRosterUrl": "https://sai.whu.edu.cn/teacher/zzjs/jxx.htm",
+      "profileChecked": false,
+      "decision": "excluded_insufficient_scope_evidence",
+      "reason": "官方资料能确认相关研究方向，但可访问页面不足以证明其现任独立 PI 或招生资格；本轮按证据门槛不纳入，而非推断为非 PI。",
+      "evidenceUrl": "https://sai.whu.edu.cn/teacher/zzjs/jxx.htm",
+      "evidenceExcerpt": "双聘教师 | 双聘教师 / 核心技术（以姓名拼音排序）"
+    },
+    {
+      "officialId": "9a7a6257153c0998",
+      "name": "张海剑",
+      "title": "双聘教师",
+      "officialSections": [
+        "双聘教师 / 核心技术（以姓名拼音排序）"
+      ],
+      "profileUrl": "http://eis.whu.edu.cn/index/szdwDetail?rsh=00031113&newskind_id=3a72c9c81a46439fa293b6a9403cc751",
+      "portraitUrl": null,
+      "sourcePageUrl": "https://sai.whu.edu.cn/teacher/zzjs/jxx.htm",
+      "officialRosterUrl": "https://sai.whu.edu.cn/teacher/zzjs/jxx.htm",
+      "profileChecked": false,
+      "decision": "excluded_insufficient_scope_evidence",
+      "reason": "官方资料能确认相关研究方向，但可访问页面不足以证明其现任独立 PI 或招生资格；本轮按证据门槛不纳入，而非推断为非 PI。",
+      "evidenceUrl": "https://sai.whu.edu.cn/teacher/zzjs/jxx.htm",
+      "evidenceExcerpt": "双聘教师 | 双聘教师 / 核心技术（以姓名拼音排序）"
+    },
+    {
+      "officialId": "62c6fbc9e05abefa",
+      "name": "张敬",
+      "title": "双聘教师",
+      "officialSections": [
+        "双聘教师 / 核心技术（以姓名拼音排序）"
+      ],
+      "profileUrl": "https://jszy.whu.edu.cn/zhangjing123456/zh_CN/index.htm",
+      "portraitUrl": null,
+      "sourcePageUrl": "https://sai.whu.edu.cn/teacher/zzjs/jxx.htm",
+      "officialRosterUrl": "https://sai.whu.edu.cn/teacher/zzjs/jxx.htm",
+      "profileChecked": true,
+      "decision": "include_new_pi",
+      "reason": "官方人工智能学院名录和个人页确认其为教授、副教授、研究员或可独立招生导师；该单位研究主线属于 AI、数据科学及相关智能计算范围。",
+      "evidenceUrl": "https://jszy.whu.edu.cn/zhangjing123456/zh_CN/index.htm",
+      "evidenceExcerpt": "毕业院校：中国科学技术大学 所属院系： 学科： 计算机应用技术 个人简介 张敬，博士，武汉大学教授、博士生导师，智慧校园部副部长（挂职），智能科学系副主任；武汉大学、机器人学院双聘导师；北京中关村学院共建导师及 学院导师 ；入选 国家高层次青年人才 、 湖北省高层次人才 ；领导医学大模型与具身智能实验室( MiliLab )。 主要从事计算机视觉领域的研究工作，聚焦视觉大模型、多模态大模型等方向的前沿研究及其在医疗具身智能、遥感智能解译等领域的应用。近年来，主持新一代人工智能国家科技重大专项课题等项目"
+    },
+    {
+      "officialId": "c7a94f01d0295e36",
+      "name": "张乐飞",
+      "title": "双聘教师",
+      "officialSections": [
+        "双聘教师 / 核心技术（以姓名拼音排序）"
+      ],
+      "profileUrl": "https://cs.whu.edu.cn/info/1019/2889.htm",
+      "portraitUrl": null,
+      "sourcePageUrl": "https://sai.whu.edu.cn/teacher/zzjs/jxx.htm",
+      "officialRosterUrl": "https://sai.whu.edu.cn/teacher/zzjs/jxx.htm",
+      "profileChecked": false,
+      "decision": "excluded_insufficient_scope_evidence",
+      "reason": "官方资料能确认相关研究方向，但可访问页面不足以证明其现任独立 PI 或招生资格；本轮按证据门槛不纳入，而非推断为非 PI。",
+      "evidenceUrl": "https://sai.whu.edu.cn/teacher/zzjs/jxx.htm",
+      "evidenceExcerpt": "双聘教师 | 双聘教师 / 核心技术（以姓名拼音排序）"
+    },
+    {
+      "officialId": "6d6f42c7b06adc93",
+      "name": "张永军",
+      "title": "双聘教师",
+      "officialSections": [
+        "双聘教师 / 核心技术（以姓名拼音排序）"
+      ],
+      "profileUrl": "https://rsgis.whu.edu.cn/info/1004/7259.htm",
+      "portraitUrl": null,
+      "sourcePageUrl": "https://sai.whu.edu.cn/teacher/zzjs/jxx.htm",
+      "officialRosterUrl": "https://sai.whu.edu.cn/teacher/zzjs/jxx.htm",
+      "profileChecked": true,
+      "decision": "include_new_pi",
+      "reason": "官方人工智能学院名录和个人页确认其为教授、副教授、研究员或可独立招生导师；该单位研究主线属于 AI、数据科学及相关智能计算范围。",
+      "evidenceUrl": "https://rsgis.whu.edu.cn/info/1004/7259.htm",
+      "evidenceExcerpt": "-武汉大学遥感信息工程学院 ENGLISH 登录 首页 学院概况 学院简介 历史沿革 现任领导 机构设置 学院标识 学院精神 师资队伍 两院院士 高层次人才 专任教师 管理服务团队 实验技术人员 荣休教师 招聘信息 学术岗位招聘 博士后岗位招聘 支撑岗位招聘 人才培养 本科生教育 研究生教育 高端培训 合作交流 招生就业 本科招生 硕士招生 留学生招生 就业信息 科学研究 学术报告 学术交流 科研成果 申报信息 党群工作 规章制度 党的建设 工会活动 学生组织 学习资料 党纪学习教育 遥感校友 杰出"
+    },
+    {
+      "officialId": "8f08024cb0b1207a",
+      "name": "陈璞",
+      "title": "双聘教师",
+      "officialSections": [
+        "双聘教师 / 科学智能（以姓名拼音排序）"
+      ],
+      "profileUrl": "https://wbm.whu.edu.cn/info/1350/5924.htm",
+      "portraitUrl": null,
+      "sourcePageUrl": "https://sai.whu.edu.cn/teacher/zzjs/jxx.htm",
+      "officialRosterUrl": "https://sai.whu.edu.cn/teacher/zzjs/jxx.htm",
+      "profileChecked": true,
+      "decision": "include_new_pi",
+      "reason": "官方人工智能学院名录和个人页确认其为教授、副教授、研究员或可独立招生导师；该单位研究主线属于 AI、数据科学及相关智能计算范围。",
+      "evidenceUrl": "https://wbm.whu.edu.cn/info/1350/5924.htm",
+      "evidenceExcerpt": "双聘教师 | 双聘教师 / 科学智能（以姓名拼音排序） 研究方向： 组织工程与器官制造、声学生物制造、工程化类器官、诱导多能干细胞、类脑机接口 Email：puchen@whu.edu.cn 学习经历 2001-2005 华中科技大学光电子工程系 光信息科学与技术专业 理学学士 2006-2011 华中科技大学生物医学工程系 生物医学工程专业 工学博士 主要工作经历与任职 2011-2014 哈佛大学医学院；布莱根妇女医院 生物医学工程系 博士后研"
+    },
+    {
+      "officialId": "84f629f6a22ae1f6",
+      "name": "龚健雅",
+      "title": "双聘教师",
+      "officialSections": [
+        "双聘教师 / 科学智能（以姓名拼音排序）"
+      ],
+      "profileUrl": "https://www.whu.edu.cn/info/7231/202004.htm",
+      "portraitUrl": null,
+      "sourcePageUrl": "https://sai.whu.edu.cn/teacher/zzjs/jxx.htm",
+      "officialRosterUrl": "https://sai.whu.edu.cn/teacher/zzjs/jxx.htm",
+      "profileChecked": true,
+      "decision": "include_new_pi",
+      "reason": "官方人工智能学院名录和个人页确认其为教授、副教授、研究员或可独立招生导师；该单位研究主线属于 AI、数据科学及相关智能计算范围。",
+      "evidenceUrl": "https://www.whu.edu.cn/info/7231/202004.htm",
+      "evidenceExcerpt": "导 现任领导 杰出校友 珞珈映像 统计概览 机构设置 院系设置 职能部门 群团组织 直属单位 研究机构 附属医院 经营性单位 师资队伍 两院院士 人文社科资深教授 国家教学名师 国家杰青 人才培养 本科生教育 研究生教育 国际教育 学生资助 继续教育 科学研究 研究机构 学术期刊 管理部门 社会服务 驻外研究机构 科技成果转化平台 重点产学研发中心 重点科技企业 大型仪器共享平台 交流合作 国际交流 孔子学院 昆山杜克大学 汉推基地 文化生活 早期建筑群 文体场馆 工会活动 学生活动 学生工作 教务"
+    },
+    {
+      "officialId": "e8c74425ff181f04",
+      "name": "关伟",
+      "title": "双聘教师",
+      "officialSections": [
+        "双聘教师 / 科学智能（以姓名拼音排序）"
+      ],
+      "profileUrl": null,
+      "portraitUrl": null,
+      "sourcePageUrl": "https://sai.whu.edu.cn/teacher/zzjs/jxx.htm",
+      "officialRosterUrl": "https://sai.whu.edu.cn/teacher/zzjs/jxx.htm",
+      "profileChecked": false,
+      "decision": "excluded_insufficient_scope_evidence",
+      "reason": "官方名录能确认相关院系或研究方向，但缺少个人页及独立招生证据；本轮按证据门槛不纳入，而非推断为非 PI。",
+      "evidenceUrl": "https://sai.whu.edu.cn/teacher/zzjs/jxx.htm",
+      "evidenceExcerpt": "双聘教师 | 双聘教师 / 科学智能（以姓名拼音排序）"
+    },
+    {
+      "officialId": "43796c320089a291",
+      "name": "郭江",
+      "title": "双聘教师",
+      "officialSections": [
+        "双聘教师 / 科学智能（以姓名拼音排序）"
+      ],
+      "profileUrl": "https://jszy.whu.edu.cn/guojiang/en/index.htm",
+      "portraitUrl": null,
+      "sourcePageUrl": "https://sai.whu.edu.cn/teacher/zzjs/jxx.htm",
+      "officialRosterUrl": "https://sai.whu.edu.cn/teacher/zzjs/jxx.htm",
+      "profileChecked": true,
+      "decision": "include_new_pi",
+      "reason": "官方人工智能学院名录和个人页确认其为教授、副教授、研究员或可独立招生导师；该单位研究主线属于 AI、数据科学及相关智能计算范围。",
+      "evidenceUrl": "https://jszy.whu.edu.cn/guojiang/en/index.htm",
+      "evidenceExcerpt": "Student Information My Album Blog Profile 郭江，武汉大学动力与机械学院党委委员、副院长，工学博士，博士生导师，教授。国网湖南省电力有限公司科学研究院学术委员会委员，武汉智能电网产业技术创新战略联盟专家委员，中国自动化协会、中国电机工程协会高级会员。主持完成智能诊断技术、物联网、知识网格、人因工程、智能电网、智能电厂、智慧核电等60多项国家级、省部级和企业重大研究项目。致力于能源领域状态监测、故障诊断、状态评价和全寿期管理等方面的基础理论研究及工程实践，采用“大、云"
+    },
+    {
+      "officialId": "0a0abba5427c7865",
+      "name": "郭宇铮",
+      "title": "双聘教师",
+      "officialSections": [
+        "双聘教师 / 科学智能（以姓名拼音排序）"
+      ],
+      "profileUrl": "https://jszy.whu.edu.cn/guoyuzheng/en/index.htm",
+      "portraitUrl": null,
+      "sourcePageUrl": "https://sai.whu.edu.cn/teacher/zzjs/jxx.htm",
+      "officialRosterUrl": "https://sai.whu.edu.cn/teacher/zzjs/jxx.htm",
+      "profileChecked": true,
+      "decision": "include_new_pi",
+      "reason": "官方人工智能学院名录和个人页确认其为教授、副教授、研究员或可独立招生导师；该单位研究主线属于 AI、数据科学及相关智能计算范围。",
+      "evidenceUrl": "https://jszy.whu.edu.cn/guoyuzheng/en/index.htm",
+      "evidenceExcerpt": "院长。本科毕业于北京大学物理学院，硕士毕业于美国佐治亚理工学院材料科学与技术系，博士毕业于英国剑桥大学工程系（导师英国皇家科学院与工程院双院院士John Robertson教授），曾先后在剑桥大学、哈佛大学担任研究员。致力于微纳制造、半导体器件与器件协同设计、储能材料与器件等方面的研究，发表SCI检索300论文余篇，通讯作者发表包括Nature、Nature Materials、Nature Communications、Science Advances等国际一流刊物，被引用万余次。主持中组部、科技"
+    },
+    {
+      "officialId": "ede8fa2a8616447d",
+      "name": "何光存",
+      "title": "双聘教师",
+      "officialSections": [
+        "双聘教师 / 科学智能（以姓名拼音排序）"
+      ],
+      "profileUrl": "https://bio.whu.edu.cn/info/1500/9353.htm",
+      "portraitUrl": null,
+      "sourcePageUrl": "https://sai.whu.edu.cn/teacher/zzjs/jxx.htm",
+      "officialRosterUrl": "https://sai.whu.edu.cn/teacher/zzjs/jxx.htm",
+      "profileChecked": true,
+      "decision": "include_new_pi",
+      "reason": "官方人工智能学院名录和个人页确认其为教授、副教授、研究员或可独立招生导师；该单位研究主线属于 AI、数据科学及相关智能计算范围。",
+      "evidenceUrl": "https://bio.whu.edu.cn/info/1500/9353.htm",
+      "evidenceExcerpt": "汉大学生命科学学院 English 书记院长邮箱 学院概况 学院简介 现任领导 组织机构 历史沿革 学科建设 生物学 生态学 师资队伍 两院院士 杰出人才 专任教师 专业技术人员 博士后 外聘教师 荣休教师 人才培养 本科生教育 研究生教育 招生就业 本科生招生 研究生招生 就业信息 科学研究 研究平台 科研公示公告 科研论文 合作交流 国际交流 国内合作 出境公示公告 党群工作 校友之家 校友撷英 校友活动 校友捐赠 信息公开 联系我们 办事流程 下载中心 网站首页 - 师资队伍 - 专任教师 -"
+    },
+    {
+      "officialId": "0548b9f03c33462e",
+      "name": "侯佑民",
+      "title": "双聘教师",
+      "officialSections": [
+        "双聘教师 / 科学智能（以姓名拼音排序）"
+      ],
+      "profileUrl": "https://pmc.whu.edu.cn/info/1025/14561.htm",
+      "portraitUrl": null,
+      "sourcePageUrl": "https://sai.whu.edu.cn/teacher/zzjs/jxx.htm",
+      "officialRosterUrl": "https://sai.whu.edu.cn/teacher/zzjs/jxx.htm",
+      "profileChecked": true,
+      "decision": "include_new_pi",
+      "reason": "官方人工智能学院名录和个人页确认其为教授、副教授、研究员或可独立招生导师；该单位研究主线属于 AI、数据科学及相关智能计算范围。",
+      "evidenceUrl": "https://pmc.whu.edu.cn/info/1025/14561.htm",
+      "evidenceExcerpt": "侯佑民 分类：院内新闻 作者： 来源： 时间：2021-03-06 访问量： 一、个人基本情况 姓名：侯佑民 学历：博士 性别：男 职称：教授 课题组网站（先进能源转化研究实验室 Advanced Energy Conversion Research Lab ）： http://aec.whu.edu.cn 二、学习与工作经历 教育经历 2015 年，香港科技大学，机械及航空航天系，博士 2011 年，武汉大学，热能工程，硕士 2007 年，武汉大学，热能与动力工程，学士 研究工作经历 2022-"
+    },
+    {
+      "officialId": "fc1194f914bee01f",
+      "name": "黄先锋",
+      "title": "双聘教师",
+      "officialSections": [
+        "双聘教师 / 科学智能（以姓名拼音排序）"
+      ],
+      "profileUrl": "https://jszy.whu.edu.cn/huangxf/zh_CN/index.htm",
+      "portraitUrl": null,
+      "sourcePageUrl": "https://sai.whu.edu.cn/teacher/zzjs/jxx.htm",
+      "officialRosterUrl": "https://sai.whu.edu.cn/teacher/zzjs/jxx.htm",
+      "profileChecked": true,
+      "decision": "include_new_pi",
+      "reason": "官方人工智能学院名录和个人页确认其为教授、副教授、研究员或可独立招生导师；该单位研究主线属于 AI、数据科学及相关智能计算范围。",
+      "evidenceUrl": "https://jszy.whu.edu.cn/huangxf/zh_CN/index.htm",
+      "evidenceExcerpt": "双聘教师 | 双聘教师 / 科学智能（以姓名拼音排序） 研究方向 社会兼职 计算机视觉/摄影测量(无人机建模 & 近景摄影测量，包括：深度学习、摄影测量、机器人视觉、元宇宙三维重建) 文化遗产数字化（摄影测量+激光扫描文物数字化，包括：考古数字化、大遗址/文物数字化、数字化技术与文物保护）。 自主测绘机器人（空间智能感知、自主行为协同规划、SLAM） 社会兼职内容：香港科技大学(广州） 兼职教授 社会兼职内容：武汉大学教育部文科实验室文化遗产"
+    },
+    {
+      "officialId": "59a5fafda412228d",
+      "name": "贾鹏",
+      "title": "双聘教师",
+      "officialSections": [
+        "双聘教师 / 科学智能（以姓名拼音排序）"
+      ],
+      "profileUrl": "https://jszy.whu.edu.cn/jp/zh_CN/index.htm",
+      "portraitUrl": null,
+      "sourcePageUrl": "https://sai.whu.edu.cn/teacher/zzjs/jxx.htm",
+      "officialRosterUrl": "https://sai.whu.edu.cn/teacher/zzjs/jxx.htm",
+      "profileChecked": false,
+      "decision": "excluded_insufficient_scope_evidence",
+      "reason": "官方资料能确认相关研究方向，但可访问页面不足以证明其现任独立 PI 或招生资格；本轮按证据门槛不纳入，而非推断为非 PI。",
+      "evidenceUrl": "https://sai.whu.edu.cn/teacher/zzjs/jxx.htm",
+      "evidenceExcerpt": "双聘教师 | 双聘教师 / 科学智能（以姓名拼音排序）"
+    },
+    {
+      "officialId": "e1a86dcfc46df14c",
+      "name": "姜卫平",
+      "title": "双聘教师",
+      "officialSections": [
+        "双聘教师 / 科学智能（以姓名拼音排序）"
+      ],
+      "profileUrl": "https://www.whu.edu.cn/info/7241/260894.htm",
+      "portraitUrl": null,
+      "sourcePageUrl": "https://sai.whu.edu.cn/teacher/zzjs/jxx.htm",
+      "officialRosterUrl": "https://sai.whu.edu.cn/teacher/zzjs/jxx.htm",
+      "profileChecked": true,
+      "decision": "include_new_pi",
+      "reason": "官方人工智能学院名录和个人页确认其为教授、副教授、研究员或可独立招生导师；该单位研究主线属于 AI、数据科学及相关智能计算范围。",
+      "evidenceUrl": "https://www.whu.edu.cn/info/7241/260894.htm",
+      "evidenceExcerpt": "导 现任领导 杰出校友 珞珈映像 统计概览 机构设置 院系设置 职能部门 群团组织 直属单位 研究机构 附属医院 经营性单位 师资队伍 两院院士 人文社科资深教授 国家教学名师 国家杰青 人才培养 本科生教育 研究生教育 国际教育 学生资助 继续教育 科学研究 研究机构 学术期刊 管理部门 社会服务 驻外研究机构 科技成果转化平台 重点产学研发中心 重点科技企业 大型仪器共享平台 交流合作 国际交流 孔子学院 昆山杜克大学 汉推基地 文化生活 早期建筑群 文体场馆 工会活动 学生活动 学生工作 教务"
+    },
+    {
+      "officialId": "949f51284f99803f",
+      "name": "李德仁",
+      "title": "双聘教师",
+      "officialSections": [
+        "双聘教师 / 科学智能（以姓名拼音排序）"
+      ],
+      "profileUrl": "https://www.whu.edu.cn/info/1184/3176.htm",
+      "portraitUrl": null,
+      "sourcePageUrl": "https://sai.whu.edu.cn/teacher/zzjs/jxx.htm",
+      "officialRosterUrl": "https://sai.whu.edu.cn/teacher/zzjs/jxx.htm",
+      "profileChecked": false,
+      "decision": "excluded_insufficient_scope_evidence",
+      "reason": "官方资料能确认相关研究方向，但可访问页面不足以证明其现任独立 PI 或招生资格；本轮按证据门槛不纳入，而非推断为非 PI。",
+      "evidenceUrl": "https://sai.whu.edu.cn/teacher/zzjs/jxx.htm",
+      "evidenceExcerpt": "双聘教师 | 双聘教师 / 科学智能（以姓名拼音排序）"
+    },
+    {
+      "officialId": "7ee7f9fc91dbabb8",
+      "name": "李倩倩",
+      "title": "双聘教师",
+      "officialSections": [
+        "双聘教师 / 科学智能（以姓名拼音排序）"
+      ],
+      "profileUrl": "https://jszy.whu.edu.cn/qianqianli/zh_CN/more/410987/jsjjgd/index.htm",
+      "portraitUrl": null,
+      "sourcePageUrl": "https://sai.whu.edu.cn/teacher/zzjs/jxx.htm",
+      "officialRosterUrl": "https://sai.whu.edu.cn/teacher/zzjs/jxx.htm",
+      "profileChecked": true,
+      "decision": "include_new_pi",
+      "reason": "官方人工智能学院名录和个人页确认其为教授、副教授、研究员或可独立招生导师；该单位研究主线属于 AI、数据科学及相关智能计算范围。",
+      "evidenceUrl": "https://jszy.whu.edu.cn/qianqianli/zh_CN/more/410987/jsjjgd/index.htm",
+      "evidenceExcerpt": "月： 湖北大学化学与材料科学学院本科生 2004 年 9 月 -2009 年 6 月： 武汉大学化学与分子科学学院硕博连读研究生 导师：李振教授 工作经历： 2009 年 9 月 -2011 年 10 月： 武汉大学物理学院， 博士后，合作导师：汪国平 教授 2011 年 11 月 -2012 年 11 月： 武汉大学化学学院与分子科学学院，讲师 2012 年 12 月 -2018 年 11 月： 武汉大学化学学院与分子科学学院，副教授 2016 年 9 月 -2017 年 9 月： 加州大学洛杉矶"
+    },
+    {
+      "officialId": "70f72adb3c707d8a",
+      "name": "李星星",
+      "title": "双聘教师",
+      "officialSections": [
+        "双聘教师 / 科学智能（以姓名拼音排序）"
+      ],
+      "profileUrl": "https://jszy.whu.edu.cn/lixingxing/zh_CN/index.htm",
+      "portraitUrl": null,
+      "sourcePageUrl": "https://sai.whu.edu.cn/teacher/zzjs/jxx.htm",
+      "officialRosterUrl": "https://sai.whu.edu.cn/teacher/zzjs/jxx.htm",
+      "profileChecked": true,
+      "decision": "include_new_pi",
+      "reason": "官方人工智能学院名录和个人页确认其为教授、副教授、研究员或可独立招生导师；该单位研究主线属于 AI、数据科学及相关智能计算范围。",
+      "evidenceUrl": "https://jszy.whu.edu.cn/lixingxing/zh_CN/index.htm",
+      "evidenceExcerpt": "提供多频多系统实时精密轨道、实时钟差、实时UPD以及实时精密大气产品，支持星地一体化增强的快速精密定位 [2].基于因子图和滤波的GNSS、视觉、激光、惯性以及高精地图等多源信息紧融合算法，以及相应的软硬件一体化终端设备 [3].低轨导航增强以及在观测值层面的多种空间大地测量技术（GNSS/SLR/VLBI）联合解算 访问量： 次 最后更新时间： - - Copyright武汉大学2017 地址：湖北省武汉市武昌区八一路299号 邮编：430072 鄂ICP备05003330鄂公网安备4201060"
+    },
+    {
+      "officialId": "377e16134a8bf0b7",
+      "name": "刘经南",
+      "title": "双聘教师",
+      "officialSections": [
+        "双聘教师 / 科学智能（以姓名拼音排序）"
+      ],
+      "profileUrl": "https://www.whu.edu.cn/info/1184/3178.htm",
+      "portraitUrl": null,
+      "sourcePageUrl": "https://sai.whu.edu.cn/teacher/zzjs/jxx.htm",
+      "officialRosterUrl": "https://sai.whu.edu.cn/teacher/zzjs/jxx.htm",
+      "profileChecked": false,
+      "decision": "excluded_insufficient_scope_evidence",
+      "reason": "官方资料能确认相关研究方向，但可访问页面不足以证明其现任独立 PI 或招生资格；本轮按证据门槛不纳入，而非推断为非 PI。",
+      "evidenceUrl": "https://sai.whu.edu.cn/teacher/zzjs/jxx.htm",
+      "evidenceExcerpt": "双聘教师 | 双聘教师 / 科学智能（以姓名拼音排序）"
+    },
+    {
+      "officialId": "d5d96bef6d4437f7",
+      "name": "楼益栋",
+      "title": "双聘教师",
+      "officialSections": [
+        "双聘教师 / 科学智能（以姓名拼音排序）"
+      ],
+      "profileUrl": "https://jszy.whu.edu.cn/ydlou_whu/zh_CN/more/250993/jsjjgd/index.htm",
+      "portraitUrl": null,
+      "sourcePageUrl": "https://sai.whu.edu.cn/teacher/zzjs/jxx.htm",
+      "officialRosterUrl": "https://sai.whu.edu.cn/teacher/zzjs/jxx.htm",
+      "profileChecked": true,
+      "decision": "include_new_pi",
+      "reason": "官方人工智能学院名录和个人页确认其为教授、副教授、研究员或可独立招生导师；该单位研究主线属于 AI、数据科学及相关智能计算范围。",
+      "evidenceUrl": "https://jszy.whu.edu.cn/ydlou_whu/zh_CN/more/250993/jsjjgd/index.htm",
+      "evidenceExcerpt": "科研团队 教学研究 学生培养 授课信息 教学成果 曾获荣誉 学生信息 招生信息 我的相册 当前位置: 中文主页 >教师简介 楼益栋 同专业博导 同专业硕导 Personal profile 个人简介 楼益栋，1980年生，武汉大学弘毅特聘教授，卫星导航定位技术研究中心副主任。先后入选国家级青年人才、国家级人才计划、自然资源部科技领军人才，获湖北省有突出贡献中青年专家、湖北省青年科技创新奖（首届）等；担任十四五国家重点... more+ 个人简介 楼益栋，1980年生，武汉大学弘毅特聘教授，卫星导航"
+    },
+    {
+      "officialId": "6b0088af9184d676",
+      "name": "倪彬彬",
+      "title": "双聘教师",
+      "officialSections": [
+        "双聘教师 / 科学智能（以姓名拼音排序）"
+      ],
+      "profileUrl": "https://esst.whu.edu.cn/info/1531/1321.htm",
+      "portraitUrl": null,
+      "sourcePageUrl": "https://sai.whu.edu.cn/teacher/zzjs/jxx.htm",
+      "officialRosterUrl": "https://sai.whu.edu.cn/teacher/zzjs/jxx.htm",
+      "profileChecked": true,
+      "decision": "include_new_pi",
+      "reason": "官方人工智能学院名录和个人页确认其为教授、副教授、研究员或可独立招生导师；该单位研究主线属于 AI、数据科学及相关智能计算范围。",
+      "evidenceUrl": "https://esst.whu.edu.cn/info/1531/1321.htm",
+      "evidenceExcerpt": "学院 武汉大学 智慧珞珈 内部信息 实验教学中心 站内搜索 首页 学院概况 学院简介 机构设置 学科专业 现任领导 学院标识 师资队伍 两院院士 高层次人才 在职教师 系部检索 荣休教师 人才招聘 人才培养 院友之家 招生信息 本科生培养 研究生培养 实验教学中心 科学研究 申报信息 学术交流 科研进展 平台基地 交流合作 国际交流 国内合作 产学研 学生工作 学工动态 通知公告 团委工作 就业信息 下载中心 联系我们 党群工作 工作动态 理论学习 作风建设 规章制度 信息公开 公示公告 规章制度"
+    },
+    {
+      "officialId": "299a5765db548620",
+      "name": "沈焕锋",
+      "title": "双聘教师",
+      "officialSections": [
+        "双聘教师 / 科学智能（以姓名拼音排序）"
+      ],
+      "profileUrl": "https://jszy.whu.edu.cn/shenhuanfeng/zh_CN/index.htm",
+      "portraitUrl": null,
+      "sourcePageUrl": "https://sai.whu.edu.cn/teacher/zzjs/jxx.htm",
+      "officialRosterUrl": "https://sai.whu.edu.cn/teacher/zzjs/jxx.htm",
+      "profileChecked": true,
+      "decision": "include_new_pi",
+      "reason": "官方人工智能学院名录和个人页确认其为教授、副教授、研究员或可独立招生导师；该单位研究主线属于 AI、数据科学及相关智能计算范围。",
+      "evidenceUrl": "https://jszy.whu.edu.cn/shenhuanfeng/zh_CN/index.htm",
+      "evidenceExcerpt": "授课信息 教学成果 获奖信息 招生信息 学生信息 我的相册 教师博客 沈焕锋 Personal profile 个人简介 沈焕锋，武汉大学教授、博士生导师，资源与环境科学学院副院长。入选国家级人才计划。担任 J.App.Remote Sens.、IEEE-JSTARS、Remote Sensing、Geo-spa. Inform. Sci.、地理与地理信息科学等期刊编委/客座编委。中国遥感应用协会理事... more+ Personal information 个人信息 教师英文名称： Huanf"
+    },
+    {
+      "officialId": "a62bd7b0afbfa58d",
+      "name": "史良胜",
+      "title": "双聘教师",
+      "officialSections": [
+        "双聘教师 / 科学智能（以姓名拼音排序）"
+      ],
+      "profileUrl": "https://swrh.whu.edu.cn/info/1623/10138.htm",
+      "portraitUrl": null,
+      "sourcePageUrl": "https://sai.whu.edu.cn/teacher/zzjs/jxx.htm",
+      "officialRosterUrl": "https://sai.whu.edu.cn/teacher/zzjs/jxx.htm",
+      "profileChecked": true,
+      "decision": "include_new_pi",
+      "reason": "官方人工智能学院名录和个人页确认其为教授、副教授、研究员或可独立招生导师；该单位研究主线属于 AI、数据科学及相关智能计算范围。",
+      "evidenceUrl": "https://swrh.whu.edu.cn/info/1623/10138.htm",
+      "evidenceExcerpt": "双聘教师 | 双聘教师 / 科学智能（以姓名拼音排序） 研究方向和代表性研究成果： 主要从事水利工程与人工智能交叉学科研究，重点研究水利感知、认知和决策智能的基础理论，水利机器视觉和“地空天”立体感知技术，大数据-物理机制混合建模，深度过程学习；研发了自主知识产权的智慧水利系统“珈禾”，包括现实感知、大脑中枢、行为决策和数字孪生四部分，广泛应用于灌区水资源管理和工程调度、湖泊生态环境智能运维、农业水肥精准管理和污染防控等多个领域。 主持30余项国家自然科学基金项目等"
+    },
+    {
+      "officialId": "6456396d4b40e34f",
+      "name": "舒红兵",
+      "title": "双聘教师",
+      "officialSections": [
+        "双聘教师 / 科学智能（以姓名拼音排序）"
+      ],
+      "profileUrl": "https://www.whu.edu.cn/info/7231/202014.htm",
+      "portraitUrl": null,
+      "sourcePageUrl": "https://sai.whu.edu.cn/teacher/zzjs/jxx.htm",
+      "officialRosterUrl": "https://sai.whu.edu.cn/teacher/zzjs/jxx.htm",
+      "profileChecked": true,
+      "decision": "include_new_pi",
+      "reason": "官方人工智能学院名录和个人页确认其为教授、副教授、研究员或可独立招生导师；该单位研究主线属于 AI、数据科学及相关智能计算范围。",
+      "evidenceUrl": "https://www.whu.edu.cn/info/7231/202014.htm",
+      "evidenceExcerpt": "导 现任领导 杰出校友 珞珈映像 统计概览 机构设置 院系设置 职能部门 群团组织 直属单位 研究机构 附属医院 经营性单位 师资队伍 两院院士 人文社科资深教授 国家教学名师 国家杰青 人才培养 本科生教育 研究生教育 国际教育 学生资助 继续教育 科学研究 研究机构 学术期刊 管理部门 社会服务 驻外研究机构 科技成果转化平台 重点产学研发中心 重点科技企业 大型仪器共享平台 交流合作 国际交流 孔子学院 昆山杜克大学 汉推基地 文化生活 早期建筑群 文体场馆 工会活动 学生活动 学生工作 教务"
+    },
+    {
+      "officialId": "9ae24efec02979b6",
+      "name": "王密",
+      "title": "双聘教师",
+      "officialSections": [
+        "双聘教师 / 科学智能（以姓名拼音排序）"
+      ],
+      "profileUrl": "http://www.lmars.whu.edu.cn/prof_web/wangmi/keyan.htm",
+      "portraitUrl": null,
+      "sourcePageUrl": "https://sai.whu.edu.cn/teacher/zzjs/jxx.htm",
+      "officialRosterUrl": "https://sai.whu.edu.cn/teacher/zzjs/jxx.htm",
+      "profileChecked": true,
+      "decision": "include_new_pi",
+      "reason": "官方人工智能学院名录和个人页确认其为教授、副教授、研究员或可独立招生导师；该单位研究主线属于 AI、数据科学及相关智能计算范围。",
+      "evidenceUrl": "http://www.lmars.whu.edu.cn/prof_web/wangmi/keyan.htm",
+      "evidenceExcerpt": "Learning Shape Anchors for Holistic Indoor Scene Understanding》连续发表于国际人工智能顶刊IEEE Transactions on Pattern Analysis and Machine Intelligence（IEEE TPAMI，IF: 20.4）。论文第一作者分别为博士生钱铭和博士生董明玥，... 2026-07-10 阅读全文 科研成果 贺威教授课题组黄土高原土地覆盖与土壤侵蚀研究成果发表于ESSD 近日，武汉大学测绘遥感信息工程"
+    },
+    {
+      "officialId": "4cde349f232d8f58",
+      "name": "夏军",
+      "title": "双聘教师",
+      "officialSections": [
+        "双聘教师 / 科学智能（以姓名拼音排序）"
+      ],
+      "profileUrl": "https://www.whu.edu.cn/info/1183/4854.htm",
+      "portraitUrl": null,
+      "sourcePageUrl": "https://sai.whu.edu.cn/teacher/zzjs/jxx.htm",
+      "officialRosterUrl": "https://sai.whu.edu.cn/teacher/zzjs/jxx.htm",
+      "profileChecked": false,
+      "decision": "excluded_insufficient_scope_evidence",
+      "reason": "官方资料能确认相关研究方向，但可访问页面不足以证明其现任独立 PI 或招生资格；本轮按证据门槛不纳入，而非推断为非 PI。",
+      "evidenceUrl": "https://sai.whu.edu.cn/teacher/zzjs/jxx.htm",
+      "evidenceExcerpt": "双聘教师 | 双聘教师 / 科学智能（以姓名拼音排序）"
+    },
+    {
+      "officialId": "1cdc31e032fd58ec",
+      "name": "殷昊",
+      "title": "双聘教师",
+      "officialSections": [
+        "双聘教师 / 科学智能（以姓名拼音排序）"
+      ],
+      "profileUrl": "https://tkclms.whu.edu.cn/info/1178/1269.htm",
+      "portraitUrl": null,
+      "sourcePageUrl": "https://sai.whu.edu.cn/teacher/zzjs/jxx.htm",
+      "officialRosterUrl": "https://sai.whu.edu.cn/teacher/zzjs/jxx.htm",
+      "profileChecked": true,
+      "decision": "include_new_pi",
+      "reason": "官方人工智能学院名录和个人页确认其为教授、副教授、研究员或可独立招生导师；该单位研究主线属于 AI、数据科学及相关智能计算范围。",
+      "evidenceUrl": "https://tkclms.whu.edu.cn/info/1178/1269.htm",
+      "evidenceExcerpt": "殷昊-武汉大学泰康生命医学中心 首页 中心概况 中心简介 科学咨询委员会 中心管理委员会 现任领导 行政支撑团队 中心动态 科研队伍 两院院士 PI队伍 专业技术人员 科学研究 研究方向 科研动态 学术交流 生命医学前沿论坛 学术会议 代谢全重&泰康中心PI联合学术午餐会 共享平台 仪器中心 动物中心 会议室 人才招聘 服务指南 办事流程 下载专区 首页 中心概况 中心简介 科学咨询委员会 中心管理委员会 现任领导 行政支撑团队 中心动态 科研队伍 两院院士 PI队伍 专业技术人员 科学研究 研究"
+    },
+    {
+      "officialId": "167186e08f79cdf0",
+      "name": "袁声军",
+      "title": "双聘教师",
+      "officialSections": [
+        "双聘教师 / 科学智能（以姓名拼音排序）"
+      ],
+      "profileUrl": "https://jszy.whu.edu.cn/yuanshengjun/zh_CN/index/459845/list/index.htm",
+      "portraitUrl": null,
+      "sourcePageUrl": "https://sai.whu.edu.cn/teacher/zzjs/jxx.htm",
+      "officialRosterUrl": "https://sai.whu.edu.cn/teacher/zzjs/jxx.htm",
+      "profileChecked": true,
+      "decision": "include_new_pi",
+      "reason": "官方人工智能学院名录和个人页确认其为教授、副教授、研究员或可独立招生导师；该单位研究主线属于 AI、数据科学及相关智能计算范围。",
+      "evidenceUrl": "https://jszy.whu.edu.cn/yuanshengjun/zh_CN/index/459845/list/index.htm",
+      "evidenceExcerpt": "音排序） 研究方向包括： 1. 大尺度第一性原理计算方法 2. 低维量子材料与人工微结构 3. 量子计算与量子动力学模拟 4. 计算物理中的机器学习方法 5. 高性能计算物理软件开发 课题组与荷兰奈梅亨大学、荷兰格罗宁根大学、德国于利希研究中心、德国不来梅大学和西班牙IMDEA研究中心的凝聚态理论或计算物理组有着非常紧密的学术交流，同时与很多国内外的理论与实验课题组有着密切的学术合作，研究生和博士后均有机会出国进行联合培养。 课题组提供 充足的科研资源和优厚的个人待遇 ， 有非常好的学习、工作和生活氛围"
+    },
+    {
+      "officialId": "af28fb1967eae98b",
+      "name": "张良培",
+      "title": "双聘教师",
+      "officialSections": [
+        "双聘教师 / 科学智能（以姓名拼音排序）"
+      ],
+      "profileUrl": "http://www.lmars.whu.edu.cn/prof_web/zhangliangpei/rs/xiangmu.htm",
+      "portraitUrl": null,
+      "sourcePageUrl": "https://sai.whu.edu.cn/teacher/zzjs/jxx.htm",
+      "officialRosterUrl": "https://sai.whu.edu.cn/teacher/zzjs/jxx.htm",
+      "profileChecked": true,
+      "decision": "include_new_pi",
+      "reason": "官方人工智能学院名录和个人页确认其为教授、副教授、研究员或可独立招生导师；该单位研究主线属于 AI、数据科学及相关智能计算范围。",
+      "evidenceUrl": "http://www.lmars.whu.edu.cn/prof_web/zhangliangpei/rs/xiangmu.htm",
+      "evidenceExcerpt": "Learning Shape Anchors for Holistic Indoor Scene Understanding》连续发表于国际人工智能顶刊IEEE Transactions on Pattern Analysis and Machine Intelligence（IEEE TPAMI，IF: 20.4）。论文第一作者分别为博士生钱铭和博士生董明玥，... 2026-07-10 阅读全文 科研成果 贺威教授课题组黄土高原土地覆盖与土壤侵蚀研究成果发表于ESSD 近日，武汉大学测绘遥感信息工程"
+    },
+    {
+      "officialId": "6f71234e1bf9de30",
+      "name": "张小红",
+      "title": "双聘教师",
+      "officialSections": [
+        "双聘教师 / 科学智能（以姓名拼音排序）"
+      ],
+      "profileUrl": "https://www.sgg.whu.edu.cn/info/1430/4325.htm",
+      "portraitUrl": null,
+      "sourcePageUrl": "https://sai.whu.edu.cn/teacher/zzjs/jxx.htm",
+      "officialRosterUrl": "https://sai.whu.edu.cn/teacher/zzjs/jxx.htm",
+      "profileChecked": true,
+      "decision": "include_new_pi",
+      "reason": "官方人工智能学院名录和个人页确认其为教授、副教授、研究员或可独立招生导师；该单位研究主线属于 AI、数据科学及相关智能计算范围。",
+      "evidenceUrl": "https://www.sgg.whu.edu.cn/info/1430/4325.htm",
+      "evidenceExcerpt": "能（以姓名拼音排序） 张小红-武汉大学测绘学院 首页 学院概况 学院简介 历史沿革 院训释义 现任领导 机构设置 专业委员会 师资队伍 两院院士 高层次人才 专业教师 导师名册 实验技术人员 荣休教师 教师风采 人才培养 本科生培养 研究生培养 科学研究 科研平台 科研成果 科研通知 党群工作 组织机构 规章制度 理论学习 工作动态 学生工作 学工在线 研究生在线 对外交流 办事指南 通知公告 校友之窗 杰出校友 校友动态 校友名录 作风建设 文件通知 组织机构 实施细则 办事流程 服务岗位 投诉建"
+    },
+    {
+      "officialId": "5cce156348d2a6d3",
+      "name": "张楹",
+      "title": "双聘教师",
+      "officialSections": [
+        "双聘教师 / 科学智能（以姓名拼音排序）"
+      ],
+      "profileUrl": "https://tkclms.whu.edu.cn/info/1179/5676.htm",
+      "portraitUrl": null,
+      "sourcePageUrl": "https://sai.whu.edu.cn/teacher/zzjs/jxx.htm",
+      "officialRosterUrl": "https://sai.whu.edu.cn/teacher/zzjs/jxx.htm",
+      "profileChecked": true,
+      "decision": "include_new_pi",
+      "reason": "官方人工智能学院名录和个人页确认其为教授、副教授、研究员或可独立招生导师；该单位研究主线属于 AI、数据科学及相关智能计算范围。",
+      "evidenceUrl": "https://tkclms.whu.edu.cn/info/1179/5676.htm",
+      "evidenceExcerpt": "张楹-武汉大学泰康生命医学中心 首页 中心概况 中心简介 科学咨询委员会 中心管理委员会 现任领导 行政支撑团队 中心动态 科研队伍 两院院士 PI队伍 专业技术人员 科学研究 研究方向 科研动态 学术交流 生命医学前沿论坛 学术会议 代谢全重&泰康中心PI联合学术午餐会 共享平台 仪器中心 动物中心 会议室 人才招聘 服务指南 办事流程 下载专区 首页 中心概况 中心简介 科学咨询委员会 中心管理委员会 现任领导 行政支撑团队 中心动态 科研队伍 两院院士 PI队伍 专业技术人员 科学研究 研究"
+    },
+    {
+      "officialId": "2b7dc2d1ebb944a0",
+      "name": "张祖勋",
+      "title": "双聘教师",
+      "officialSections": [
+        "双聘教师 / 科学智能（以姓名拼音排序）"
+      ],
+      "profileUrl": "https://www.whu.edu.cn/info/7241/202124.htm",
+      "portraitUrl": null,
+      "sourcePageUrl": "https://sai.whu.edu.cn/teacher/zzjs/jxx.htm",
+      "officialRosterUrl": "https://sai.whu.edu.cn/teacher/zzjs/jxx.htm",
+      "profileChecked": true,
+      "decision": "include_new_pi",
+      "reason": "官方人工智能学院名录和个人页确认其为教授、副教授、研究员或可独立招生导师；该单位研究主线属于 AI、数据科学及相关智能计算范围。",
+      "evidenceUrl": "https://www.whu.edu.cn/info/7241/202124.htm",
+      "evidenceExcerpt": "导 现任领导 杰出校友 珞珈映像 统计概览 机构设置 院系设置 职能部门 群团组织 直属单位 研究机构 附属医院 经营性单位 师资队伍 两院院士 人文社科资深教授 国家教学名师 国家杰青 人才培养 本科生教育 研究生教育 国际教育 学生资助 继续教育 科学研究 研究机构 学术期刊 管理部门 社会服务 驻外研究机构 科技成果转化平台 重点产学研发中心 重点科技企业 大型仪器共享平台 交流合作 国际交流 孔子学院 昆山杜克大学 汉推基地 文化生活 早期建筑群 文体场馆 工会活动 学生活动 学生工作 教务"
+    },
+    {
+      "officialId": "ea0df2835a3937cc",
+      "name": "郑国兴",
+      "title": "双聘教师",
+      "officialSections": [
+        "双聘教师 / 科学智能（以姓名拼音排序）"
+      ],
+      "profileUrl": "https://jszy.whu.edu.cn/zhengguoxing/zh_CN/",
+      "portraitUrl": null,
+      "sourcePageUrl": "https://sai.whu.edu.cn/teacher/zzjs/jxx.htm",
+      "officialRosterUrl": "https://sai.whu.edu.cn/teacher/zzjs/jxx.htm",
+      "profileChecked": true,
+      "decision": "include_new_pi",
+      "reason": "官方人工智能学院名录和个人页确认其为教授、副教授、研究员或可独立招生导师；该单位研究主线属于 AI、数据科学及相关智能计算范围。",
+      "evidenceUrl": "https://jszy.whu.edu.cn/zhengguoxing/zh_CN/",
+      "evidenceExcerpt": "* , Yongquan Zeng, Shaohua Yu, Guoxing Zheng* , Mutual empowerment of artificial intelligence and metasurfaces: intelligent nanophotonics and optical intelligence, Opto-Electronic Science , 5, 260021 (2026).☛ Link （cover） 4. Qingsong Yao, Yiming Ma, Chenfei Ma, Haonan Zhan"
+    },
+    {
+      "officialId": "02a8431c87f06d57",
+      "name": "周强辉",
+      "title": "双聘教师",
+      "officialSections": [
+        "双聘教师 / 科学智能（以姓名拼音排序）"
+      ],
+      "profileUrl": "https://jszy.whu.edu.cn/zhouqianghui/zh_CN/",
+      "portraitUrl": null,
+      "sourcePageUrl": "https://sai.whu.edu.cn/teacher/zzjs/jxx.htm",
+      "officialRosterUrl": "https://sai.whu.edu.cn/teacher/zzjs/jxx.htm",
+      "profileChecked": true,
+      "decision": "include_new_pi",
+      "reason": "官方人工智能学院名录和个人页确认其为教授、副教授、研究员或可独立招生导师；该单位研究主线属于 AI、数据科学及相关智能计算范围。",
+      "evidenceUrl": "https://jszy.whu.edu.cn/zhouqianghui/zh_CN/",
+      "evidenceExcerpt": "果 专利 著作成果 科研项目 科研团队 教学研究 教学资源 授课信息 教学成果 获奖信息 招生信息 其他栏目 语种 English 周强辉 教授 博士生导师 硕士生导师 性别：男 学历：研究生毕业 在职信息：在职 所在单位：化学与分子科学学院 入职时间： 2015-06-01 学科： 有机化学 办公地点：武汉大学化学与分子科学学院化北110-116 联系方式：实验室地址：武汉大学化学与分子科学学院化北110-116 电话：027-67810585;027-67810578 电子邮箱： 3ae88cd"
+    },
+    {
+      "officialId": "803b7f8913a7f26e",
+      "name": "周翔",
+      "title": "双聘教师",
+      "officialSections": [
+        "双聘教师 / 科学智能（以姓名拼音排序）"
+      ],
+      "profileUrl": "https://chem.whu.edu.cn/info/1817/13794.htm",
+      "portraitUrl": null,
+      "sourcePageUrl": "https://sai.whu.edu.cn/teacher/zzjs/jxx.htm",
+      "officialRosterUrl": "https://sai.whu.edu.cn/teacher/zzjs/jxx.htm",
+      "profileChecked": true,
+      "decision": "include_new_pi",
+      "reason": "官方人工智能学院名录和个人页确认其为教授、副教授、研究员或可独立招生导师；该单位研究主线属于 AI、数据科学及相关智能计算范围。",
+      "evidenceUrl": "https://chem.whu.edu.cn/info/1817/13794.htm",
+      "evidenceExcerpt": "拼音排序） 周翔-武汉大学化学与分子科学学院 旧版链接 English 首页 学院概况 学院简介 大事记 现任领导 组织机构 师资队伍 两院院士 高层次人才 在职教师 荣休教师 人才培养 本科生培养 研究生培养 影像资料 科学研究 学术交流 研究进展 成果转化 科研平台 招生就业 本科招生 硕士招生 博士招生 就业信息 交流合作 党群工作 党建工作 工会工作 离退休工作 共青团工作 作风建设 安全建设 安全宣传 安全制度 办事流程 安全考试 校友之家 校友风采 校友快讯 校友捐赠 信息公开 公示公告"
+    },
+    {
+      "officialId": "1e0dd2240ca65841",
+      "name": "朱玉贤",
+      "title": "双聘教师",
+      "officialSections": [
+        "双聘教师 / 科学智能（以姓名拼音排序）"
+      ],
+      "profileUrl": "https://www.whu.edu.cn/info/7231/201994.htm",
+      "portraitUrl": null,
+      "sourcePageUrl": "https://sai.whu.edu.cn/teacher/zzjs/jxx.htm",
+      "officialRosterUrl": "https://sai.whu.edu.cn/teacher/zzjs/jxx.htm",
+      "profileChecked": true,
+      "decision": "include_new_pi",
+      "reason": "官方人工智能学院名录和个人页确认其为教授、副教授、研究员或可独立招生导师；该单位研究主线属于 AI、数据科学及相关智能计算范围。",
+      "evidenceUrl": "https://www.whu.edu.cn/info/7231/201994.htm",
+      "evidenceExcerpt": "导 现任领导 杰出校友 珞珈映像 统计概览 机构设置 院系设置 职能部门 群团组织 直属单位 研究机构 附属医院 经营性单位 师资队伍 两院院士 人文社科资深教授 国家教学名师 国家杰青 人才培养 本科生教育 研究生教育 国际教育 学生资助 继续教育 科学研究 研究机构 学术期刊 管理部门 社会服务 驻外研究机构 科技成果转化平台 重点产学研发中心 重点科技企业 大型仪器共享平台 交流合作 国际交流 孔子学院 昆山杜克大学 汉推基地 文化生活 早期建筑群 文体场馆 工会活动 学生活动 学生工作 教务"
+    },
+    {
+      "officialId": "660ad69d6a516a9a",
+      "name": "陈伟",
+      "title": "双聘教师",
+      "officialSections": [
+        "双聘教师 / 社会智能（以姓名拼音排序）"
+      ],
+      "profileUrl": "https://www.whu.edu.cn/info/7331/202914.htm",
+      "portraitUrl": null,
+      "sourcePageUrl": "https://sai.whu.edu.cn/teacher/zzjs/jxx.htm",
+      "officialRosterUrl": "https://sai.whu.edu.cn/teacher/zzjs/jxx.htm",
+      "profileChecked": true,
+      "decision": "include_new_pi",
+      "reason": "官方人工智能学院名录和个人页确认其为教授、副教授、研究员或可独立招生导师；该单位研究主线属于 AI、数据科学及相关智能计算范围。",
+      "evidenceUrl": "https://www.whu.edu.cn/info/7331/202914.htm",
+      "evidenceExcerpt": "导 现任领导 杰出校友 珞珈映像 统计概览 机构设置 院系设置 职能部门 群团组织 直属单位 研究机构 附属医院 经营性单位 师资队伍 两院院士 人文社科资深教授 国家教学名师 国家杰青 人才培养 本科生教育 研究生教育 国际教育 学生资助 继续教育 科学研究 研究机构 学术期刊 管理部门 社会服务 驻外研究机构 科技成果转化平台 重点产学研发中心 重点科技企业 大型仪器共享平台 交流合作 国际交流 孔子学院 昆山杜克大学 汉推基地 文化生活 早期建筑群 文体场馆 工会活动 学生活动 学生工作 教务"
+    },
+    {
+      "officialId": "937873d29f120d47",
+      "name": "龚为纲",
+      "title": "双聘教师",
+      "officialSections": [
+        "双聘教师 / 社会智能（以姓名拼音排序）"
+      ],
+      "profileUrl": "https://shxx.whu.edu.cn/info/1054/70322.htm",
+      "portraitUrl": null,
+      "sourcePageUrl": "https://sai.whu.edu.cn/teacher/zzjs/jxx.htm",
+      "officialRosterUrl": "https://sai.whu.edu.cn/teacher/zzjs/jxx.htm",
+      "profileChecked": false,
+      "decision": "excluded_insufficient_scope_evidence",
+      "reason": "官方资料能确认相关研究方向，但可访问页面不足以证明其现任独立 PI 或招生资格；本轮按证据门槛不纳入，而非推断为非 PI。",
+      "evidenceUrl": "https://sai.whu.edu.cn/teacher/zzjs/jxx.htm",
+      "evidenceExcerpt": "双聘教师 | 双聘教师 / 社会智能（以姓名拼音排序）"
+    },
+    {
+      "officialId": "9d3e94d7e8fcf2d6",
+      "name": "黄敏学",
+      "title": "双聘教师",
+      "officialSections": [
+        "双聘教师 / 社会智能（以姓名拼音排序）"
+      ],
+      "profileUrl": "https://ems.whu.edu.cn/info/1734/23395.htm",
+      "portraitUrl": null,
+      "sourcePageUrl": "https://sai.whu.edu.cn/teacher/zzjs/jxx.htm",
+      "officialRosterUrl": "https://sai.whu.edu.cn/teacher/zzjs/jxx.htm",
+      "profileChecked": true,
+      "decision": "include_new_pi",
+      "reason": "官方人工智能学院名录和个人页确认其为教授、副教授、研究员或可独立招生导师；该单位研究主线属于 AI、数据科学及相关智能计算范围。",
+      "evidenceUrl": "https://ems.whu.edu.cn/info/1734/23395.htm",
+      "evidenceExcerpt": "与管理学院 English 旧版入口 首页 学院概况 学院简介 历史沿革 机构设置 现任领导 院长寄语 咨询委员会 师资队伍 全职教师 访问教授 荣休教师 学科学术 学科工作 学科采风 科研工作 科研项目 博士后科研流动站 人才培养 本科教学 博士 硕士 MBA EMBA 交流合作 国际交流 合作项目 国际认证 办事指南 学生天地 本科生学工网 研究生学工网 职业发展中心 党群工作 党建工作 工会工作 离退休工作 共青团工作 作风建设 高端培训 校友之家 校友名录 杰出校友 历史名人 校友活动 校友"
+    },
+    {
+      "officialId": "07491ab53e504195",
+      "name": "李纲",
+      "title": "双聘教师",
+      "officialSections": [
+        "双聘教师 / 社会智能（以姓名拼音排序）"
+      ],
+      "profileUrl": "https://sim.whu.edu.cn/info/1631/13989.htm",
+      "portraitUrl": null,
+      "sourcePageUrl": "https://sai.whu.edu.cn/teacher/zzjs/jxx.htm",
+      "officialRosterUrl": "https://sai.whu.edu.cn/teacher/zzjs/jxx.htm",
+      "profileChecked": true,
+      "decision": "include_new_pi",
+      "reason": "官方人工智能学院名录和个人页确认其为教授、副教授、研究员或可独立招生导师；该单位研究主线属于 AI、数据科学及相关智能计算范围。",
+      "evidenceUrl": "https://sim.whu.edu.cn/info/1631/13989.htm",
+      "evidenceExcerpt": "及其演化分析——基于会话分析视角,情报学报, 2018, 37(10): 1009~1021 (期刊论文) 巴志超; 李纲 ;周利琴;毛进,数据科学及其对情报学变革的影响,情报学报, 2018, 37(07): 653~667 (期刊论文) 安璐;杜廷尧; 李纲 ;余传明,突发公共卫生事件利益相关者在社交媒体中的关注点及演化模式,情报学报, 2018, 37(4): 394~405 (期刊论 研究方向 信息管理与信息系统，信息资源管理，竞争情报与竞争战略。 学术成果 学术论著： 李纲 ,实施国家大数据战"
+    },
+    {
+      "officialId": "76957364ee84a4ac",
+      "name": "李喆",
+      "title": "双聘教师",
+      "officialSections": [
+        "双聘教师 / 社会智能（以姓名拼音排序）"
+      ],
+      "profileUrl": null,
+      "portraitUrl": null,
+      "sourcePageUrl": "https://sai.whu.edu.cn/teacher/zzjs/jxx.htm",
+      "officialRosterUrl": "https://sai.whu.edu.cn/teacher/zzjs/jxx.htm",
+      "profileChecked": false,
+      "decision": "excluded_insufficient_scope_evidence",
+      "reason": "官方名录能确认相关院系或研究方向，但缺少个人页及独立招生证据；本轮按证据门槛不纳入，而非推断为非 PI。",
+      "evidenceUrl": "https://sai.whu.edu.cn/teacher/zzjs/jxx.htm",
+      "evidenceExcerpt": "双聘教师 | 双聘教师 / 社会智能（以姓名拼音排序）"
+    },
+    {
+      "officialId": "afc56aabc54b4308",
+      "name": "陆伟",
+      "title": "双聘教师",
+      "officialSections": [
+        "双聘教师 / 社会智能（以姓名拼音排序）"
+      ],
+      "profileUrl": "https://sim.whu.edu.cn/info/1560/13482.htm",
+      "portraitUrl": null,
+      "sourcePageUrl": "https://sai.whu.edu.cn/teacher/zzjs/jxx.htm",
+      "officialRosterUrl": "https://sai.whu.edu.cn/teacher/zzjs/jxx.htm",
+      "profileChecked": true,
+      "decision": "include_new_pi",
+      "reason": "官方人工智能学院名录和个人页确认其为教授、副教授、研究员或可独立招生导师；该单位研究主线属于 AI、数据科学及相关智能计算范围。",
+      "evidenceUrl": "https://sim.whu.edu.cn/info/1560/13482.htm",
+      "evidenceExcerpt": "A如AAAI、CCS、SIGIR和领域顶级期刊JASIST、IP&M、JOI等SSCI/SCI/EI论文百余篇。 主持国家2030“新一代人工智能”重大项目、社科基金重大项目、自科基金重点项目、重点研发计划课题及其它重大重点项目十余项，其它国家社科、自科、省部级等各类纵横向项目50余项。申请国家标准、发明专利和软件著作权20余项，研发科技情报大模型、问答机器人RobertAI、学术信息智能处理平台ScienceAI、网络舆情大数据系统WHU-POMS系统等，为国家自科基金委、教育部评估中心、国家网安中"
+    },
+    {
+      "officialId": "1ec222572c2f33fe",
+      "name": "罗知",
+      "title": "双聘教师",
+      "officialSections": [
+        "双聘教师 / 社会智能（以姓名拼音排序）"
+      ],
+      "profileUrl": "https://ems.whu.edu.cn/info/1680/10590.htm",
+      "portraitUrl": null,
+      "sourcePageUrl": "https://sai.whu.edu.cn/teacher/zzjs/jxx.htm",
+      "officialRosterUrl": "https://sai.whu.edu.cn/teacher/zzjs/jxx.htm",
+      "profileChecked": true,
+      "decision": "include_new_pi",
+      "reason": "官方人工智能学院名录和个人页确认其为教授、副教授、研究员或可独立招生导师；该单位研究主线属于 AI、数据科学及相关智能计算范围。",
+      "evidenceUrl": "https://ems.whu.edu.cn/info/1680/10590.htm",
+      "evidenceExcerpt": "与管理学院 English 旧版入口 首页 学院概况 学院简介 历史沿革 机构设置 现任领导 院长寄语 咨询委员会 师资队伍 全职教师 访问教授 荣休教师 学科学术 学科工作 学科采风 科研工作 科研项目 博士后科研流动站 人才培养 本科教学 博士 硕士 MBA EMBA 交流合作 国际交流 合作项目 国际认证 办事指南 学生天地 本科生学工网 研究生学工网 职业发展中心 党群工作 党建工作 工会工作 离退休工作 共青团工作 作风建设 高端培训 校友之家 校友名录 杰出校友 历史名人 校友活动 校友"
+    },
+    {
+      "officialId": "2c1480d034dca713",
+      "name": "马费成",
+      "title": "双聘教师",
+      "officialSections": [
+        "双聘教师 / 社会智能（以姓名拼音排序）"
+      ],
+      "profileUrl": "https://www.whu.edu.cn/info/7301/202834.htm",
+      "portraitUrl": null,
+      "sourcePageUrl": "https://sai.whu.edu.cn/teacher/zzjs/jxx.htm",
+      "officialRosterUrl": "https://sai.whu.edu.cn/teacher/zzjs/jxx.htm",
+      "profileChecked": true,
+      "decision": "include_new_pi",
+      "reason": "官方人工智能学院名录和个人页确认其为教授、副教授、研究员或可独立招生导师；该单位研究主线属于 AI、数据科学及相关智能计算范围。",
+      "evidenceUrl": "https://www.whu.edu.cn/info/7301/202834.htm",
+      "evidenceExcerpt": "导 现任领导 杰出校友 珞珈映像 统计概览 机构设置 院系设置 职能部门 群团组织 直属单位 研究机构 附属医院 经营性单位 师资队伍 两院院士 人文社科资深教授 国家教学名师 国家杰青 人才培养 本科生教育 研究生教育 国际教育 学生资助 继续教育 科学研究 研究机构 学术期刊 管理部门 社会服务 驻外研究机构 科技成果转化平台 重点产学研发中心 重点科技企业 大型仪器共享平台 交流合作 国际交流 孔子学院 昆山杜克大学 汉推基地 文化生活 早期建筑群 文体场馆 工会活动 学生活动 学生工作 教务"
+    },
+    {
+      "officialId": "145ef2b53a9127bd",
+      "name": "冉从敬",
+      "title": "双聘教师",
+      "officialSections": [
+        "双聘教师 / 社会智能（以姓名拼音排序）"
+      ],
+      "profileUrl": "https://jszy.whu.edu.cn/rancongjing/zh_CN/jsxx/248171/jsxx/jsxx.htm",
+      "portraitUrl": null,
+      "sourcePageUrl": "https://sai.whu.edu.cn/teacher/zzjs/jxx.htm",
+      "officialRosterUrl": "https://sai.whu.edu.cn/teacher/zzjs/jxx.htm",
+      "profileChecked": true,
+      "decision": "include_new_pi",
+      "reason": "官方人工智能学院名录和个人页确认其为教授、副教授、研究员或可独立招生导师；该单位研究主线属于 AI、数据科学及相关智能计算范围。",
+      "evidenceUrl": "https://jszy.whu.edu.cn/rancongjing/zh_CN/jsxx/248171/jsxx/jsxx.htm",
+      "evidenceExcerpt": "著作成果 科研项目 科研团队 教学研究 教学资源 授课信息 教学成果 获奖信息 招生信息 学生信息 我的相册 教师博客 冉从敬 + 同专业博导 同专业硕导 研究方向 数据主权、数据治理、知识产权、数字经济 其他联系方式 通讯/办公地址： c0cbeaded877834a5b2c19efcc2e2f182d29f935faf8cc160027269b0a25b68395945baa0e1c03f3341576cbb6f68032a3b4a9b13cc9c84051a22f92ea324366971b"
+    },
+    {
+      "officialId": "1b341e2fc15add9a",
+      "name": "苏德超",
+      "title": "双聘教师",
+      "officialSections": [
+        "双聘教师 / 社会智能（以姓名拼音排序）"
+      ],
+      "profileUrl": "https://philosophy.whu.edu.cn/info/1330/15149.htm",
+      "portraitUrl": null,
+      "sourcePageUrl": "https://sai.whu.edu.cn/teacher/zzjs/jxx.htm",
+      "officialRosterUrl": "https://sai.whu.edu.cn/teacher/zzjs/jxx.htm",
+      "profileChecked": false,
+      "decision": "excluded_insufficient_scope_evidence",
+      "reason": "官方资料能确认相关研究方向，但可访问页面不足以证明其现任独立 PI 或招生资格；本轮按证据门槛不纳入，而非推断为非 PI。",
+      "evidenceUrl": "https://sai.whu.edu.cn/teacher/zzjs/jxx.htm",
+      "evidenceExcerpt": "双聘教师 | 双聘教师 / 社会智能（以姓名拼音排序）"
+    },
+    {
+      "officialId": "eb9c9a8577b173a5",
+      "name": "王晓光",
+      "title": "双聘教师",
+      "officialSections": [
+        "双聘教师 / 社会智能（以姓名拼音排序）"
+      ],
+      "profileUrl": "https://sim.whu.edu.cn/info/1645/14039.htm",
+      "portraitUrl": null,
+      "sourcePageUrl": "https://sai.whu.edu.cn/teacher/zzjs/jxx.htm",
+      "officialRosterUrl": "https://sai.whu.edu.cn/teacher/zzjs/jxx.htm",
+      "profileChecked": true,
+      "decision": "include_new_pi",
+      "reason": "官方人工智能学院名录和个人页确认其为教授、副教授、研究员或可独立招生导师；该单位研究主线属于 AI、数据科学及相关智能计算范围。",
+      "evidenceUrl": "https://sim.whu.edu.cn/info/1645/14039.htm",
+      "evidenceExcerpt": "| 双聘教师 / 社会智能（以姓名拼音排序） 研究方向 学术成果 个人简介 王晓光，二级教授，博士生导师，武汉大学信息管理学院院长，文化遗产智能计算教育部哲学社会科学实验室主任，武汉大学数字人文研究中心主任。入选教育部高层次特聘人才计划，武汉大学文科杰青，国家自科基金创新群体和教育部创新团队骨干成员，湖北省自科基金创新群体负责人。先后主持和承担国家自科、国家社科、中宣部、教育部、科技部、国家新闻出版广电总局等各类基金项目30余项。在JASIST, IPM, JOD, JIS, JKM,《中国图书馆学报》"
+    },
+    {
+      "officialId": "6c031a08aa45f0cf",
+      "name": "吴丹",
+      "title": "双聘教师",
+      "officialSections": [
+        "双聘教师 / 社会智能（以姓名拼音排序）"
+      ],
+      "profileUrl": "https://sim.whu.edu.cn/info/1624/14047.htm",
+      "portraitUrl": null,
+      "sourcePageUrl": "https://sai.whu.edu.cn/teacher/zzjs/jxx.htm",
+      "officialRosterUrl": "https://sai.whu.edu.cn/teacher/zzjs/jxx.htm",
+      "profileChecked": true,
+      "decision": "include_new_pi",
+      "reason": "官方人工智能学院名录和个人页确认其为教授、副教授、研究员或可独立招生导师；该单位研究主线属于 AI、数据科学及相关智能计算范围。",
+      "evidenceUrl": "https://sim.whu.edu.cn/info/1624/14047.htm",
+      "evidenceExcerpt": "主任，中国索引学会理事、青年委员会副主任等。 开设课程： 本科生：信息描述（理论）、信息描述（实验） 硕士生：信息描述研究、元数据 博士生：人机交互研究 研究方向 知识组织与检索、人智交互行为与协同决策、智慧图书馆、信息行为、人机交互等。 学术成果 代表性专著： [1] Xiaojun Yuan, Dan Wu, DeeDee Bennett. Social Vulnerability to COVID-19: Impacts of Technology Adoption and Information"
+    },
+    {
+      "officialId": "825f80dd9ed3b642",
+      "name": "吴世文",
+      "title": "双聘教师",
+      "officialSections": [
+        "双聘教师 / 社会智能（以姓名拼音排序）"
+      ],
+      "profileUrl": "http://journal.whu.edu.cn/intro/faculty/wusw",
+      "portraitUrl": null,
+      "sourcePageUrl": "https://sai.whu.edu.cn/teacher/zzjs/jxx.htm",
+      "officialRosterUrl": "https://sai.whu.edu.cn/teacher/zzjs/jxx.htm",
+      "profileChecked": true,
+      "decision": "include_new_pi",
+      "reason": "官方人工智能学院名录和个人页确认其为教授、副教授、研究员或可独立招生导师；该单位研究主线属于 AI、数据科学及相关智能计算范围。",
+      "evidenceUrl": "http://journal.whu.edu.cn/intro/faculty/wusw",
+      "evidenceExcerpt": "学院概况 > 师资 学院概况 院长致辞 学院简介 学院领导 组织机构 管理机构 教学机构 科研机构 支撑机构 历史沿革 师资力量 吴世文，教授，主要从事互联网历史、媒介记忆、健康传播、网络传播研究。宾夕法尼亚大学安纳伯格传播学院访问学者，武汉大学媒体发展研究中心下属（内设）健康传播研究所主任。 1 ．主要论文及著述 1) 《互联网历史学的理路及其中国进路》，《新闻记者》，2020 2) 《中国互联网历史的媒介记忆与多元想象——基于媒介十年“节点记忆”的考察》，《新闻与传播研究》，2019 3) 《"
+    },
+    {
+      "officialId": "15486c22dc5b4abe",
+      "name": "肖永平",
+      "title": "双聘教师",
+      "officialSections": [
+        "双聘教师 / 社会智能（以姓名拼音排序）"
+      ],
+      "profileUrl": "https://www.whu.edu.cn/info/7341/202944.htm",
+      "portraitUrl": null,
+      "sourcePageUrl": "https://sai.whu.edu.cn/teacher/zzjs/jxx.htm",
+      "officialRosterUrl": "https://sai.whu.edu.cn/teacher/zzjs/jxx.htm",
+      "profileChecked": true,
+      "decision": "include_new_pi",
+      "reason": "官方人工智能学院名录和个人页确认其为教授、副教授、研究员或可独立招生导师；该单位研究主线属于 AI、数据科学及相关智能计算范围。",
+      "evidenceUrl": "https://www.whu.edu.cn/info/7341/202944.htm",
+      "evidenceExcerpt": "导 现任领导 杰出校友 珞珈映像 统计概览 机构设置 院系设置 职能部门 群团组织 直属单位 研究机构 附属医院 经营性单位 师资队伍 两院院士 人文社科资深教授 国家教学名师 国家杰青 人才培养 本科生教育 研究生教育 国际教育 学生资助 继续教育 科学研究 研究机构 学术期刊 管理部门 社会服务 驻外研究机构 科技成果转化平台 重点产学研发中心 重点科技企业 大型仪器共享平台 交流合作 国际交流 孔子学院 昆山杜克大学 汉推基地 文化生活 早期建筑群 文体场馆 工会活动 学生活动 学生工作 教务"
+    },
+    {
+      "officialId": "43787ea58da357ca",
+      "name": "杨冕",
+      "title": "双聘教师",
+      "officialSections": [
+        "双聘教师 / 社会智能（以姓名拼音排序）"
+      ],
+      "profileUrl": "https://ems.whu.edu.cn/info/1750/17256.htm",
+      "portraitUrl": null,
+      "sourcePageUrl": "https://sai.whu.edu.cn/teacher/zzjs/jxx.htm",
+      "officialRosterUrl": "https://sai.whu.edu.cn/teacher/zzjs/jxx.htm",
+      "profileChecked": true,
+      "decision": "include_new_pi",
+      "reason": "官方人工智能学院名录和个人页确认其为教授、副教授、研究员或可独立招生导师；该单位研究主线属于 AI、数据科学及相关智能计算范围。",
+      "evidenceUrl": "https://ems.whu.edu.cn/info/1750/17256.htm",
+      "evidenceExcerpt": "与管理学院 English 旧版入口 首页 学院概况 学院简介 历史沿革 机构设置 现任领导 院长寄语 咨询委员会 师资队伍 全职教师 访问教授 荣休教师 学科学术 学科工作 学科采风 科研工作 科研项目 博士后科研流动站 人才培养 本科教学 博士 硕士 MBA EMBA 交流合作 国际交流 合作项目 国际认证 办事指南 学生天地 本科生学工网 研究生学工网 职业发展中心 党群工作 党建工作 工会工作 离退休工作 共青团工作 作风建设 高端培训 校友之家 校友名录 杰出校友 历史名人 校友活动 校友"
+    },
+    {
+      "officialId": "984bab1e7e2adf04",
+      "name": "喻丰",
+      "title": "双聘教师",
+      "officialSections": [
+        "双聘教师 / 社会智能（以姓名拼音排序）"
+      ],
+      "profileUrl": "https://aais.whu.edu.cn/info/2041/3671.htm",
+      "portraitUrl": null,
+      "sourcePageUrl": "https://sai.whu.edu.cn/teacher/zzjs/jxx.htm",
+      "officialRosterUrl": "https://sai.whu.edu.cn/teacher/zzjs/jxx.htm",
+      "profileChecked": true,
+      "decision": "include_new_pi",
+      "reason": "官方人工智能学院名录和个人页确认其为教授、副教授、研究员或可独立招生导师；该单位研究主线属于 AI、数据科学及相关智能计算范围。",
+      "evidenceUrl": "https://aais.whu.edu.cn/info/2041/3671.htm",
+      "evidenceExcerpt": "双聘教师 | 双聘教师 / 社会智能（以姓名拼音排序） 研究方向： 人工智能的道德心理学；积极心理学的生活实践 姓名：喻丰 性别：男 职称：教授 办公室： 振华楼B512 简介 喻丰，清华大学心理学系与加州大学伯克利分校联合培养社会心理学博士，现任武汉大学心理学系教授、博士生导师，武汉大学前沿交叉学科研究院心理学系系主任兼武汉大学校工会副主席，湖北省楚天学者特聘教授、武汉市武汉英才、武汉大学文科优青。2017年于中共中央党校参加中组"
+    }
+  ]
+}

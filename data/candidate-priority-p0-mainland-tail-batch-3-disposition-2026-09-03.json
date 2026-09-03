@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-03",
+  "scope": "Mainland China records marked missing_portrait or missing_relationship in the frozen P0 master disposition ledger",
+  "sourceLedger": "data/candidate-priority-p0-master-disposition-2026-09-03.json",
+  "startingRemainingTargetCount": 876,
+  "startingBlockerCounts": { "missing_portrait": 657, "missing_relationship": 219 },
+  "batch": "candidate-priority-p0-mainland-tail-batch-3-2026",
+  "reviewedThisBatch": 5,
+  "readyThisBatch": 5,
+  "remainingTargetCount": 871,
+  "remainingBlockerCounts": { "missing_portrait": 657, "missing_relationship": 214 },
+  "qualityGate": {
+    "currentIndependentPi": true,
+    "minimumDistinctSources": 2,
+    "sourcedFactsPerPerson": "3-5",
+    "educationFactRequired": true,
+    "portrait": "reliable 512x512 local asset",
+    "explicitGraphRelationshipRequired": true
+  },
+  "records": [
+    { "canonicalKey": "Mainland China:清华大学:huaxu", "name": "Hua XU", "displayName": "徐华", "sourceDisposition": "missing_relationship", "disposition": "ready", "atlasPersonId": "hua-xu-thu-p0-tail-b3", "resolvedBy": ["official portrait", "verified publication collaboration with 张钹", "five sourced facts"] },
+    { "canonicalKey": "Mainland China:清华大学:jisun", "name": "Ji Sun", "displayName": "孙季", "sourceDisposition": "missing_relationship", "disposition": "ready", "atlasPersonId": "ji-sun-thu-p0-tail-b3", "resolvedBy": ["official portrait", "李国良 PhD-student roster", "four sourced facts"] },
+    { "canonicalKey": "Mainland China:北京大学:董豪", "name": "董豪", "sourceDisposition": "missing_relationship", "disposition": "ready", "atlasPersonId": "hao-dong-pku-p0-tail-b3", "resolvedBy": ["official portrait", "Yike Guo PhD-adviser statement", "five sourced facts"] },
+    { "canonicalKey": "Mainland China:北京大学:李彤阳", "name": "李彤阳", "sourceDisposition": "missing_relationship", "disposition": "ready", "atlasPersonId": "tongyang-li-pku-p0-tail-b3", "resolvedBy": ["official portrait", "UMD dissertation adviser metadata", "five sourced facts and student roster"] },
+    { "canonicalKey": "Mainland China:北京大学:周迪宇", "name": "周迪宇", "sourceDisposition": "missing_relationship", "disposition": "ready", "atlasPersonId": "diyu-zhou-pku-p0-tail-b3", "resolvedBy": ["official portrait", "Yuval Tamir PhD-adviser statement", "five sourced facts"] }
+  ]
+}

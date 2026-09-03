@@ -1,0 +1,69 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-03",
+  "scope": "Mainland China records marked missing_portrait or missing_relationship in the frozen P0 master disposition ledger",
+  "sourceLedger": "data/candidate-priority-p0-master-disposition-2026-09-03.json",
+  "frozenTargetCount": 886,
+  "sourceDispositionCounts": {
+    "missing_portrait": 658,
+    "missing_relationship": 228
+  },
+  "batch": "candidate-priority-p0-mainland-tail-batch-1-2026",
+  "reviewedThisBatch": 5,
+  "readyThisBatch": 5,
+  "remainingTargetCount": 881,
+  "remainingBlockerCounts": {
+    "missing_portrait": 657,
+    "missing_relationship": 224
+  },
+  "qualityGate": {
+    "currentIndependentPi": true,
+    "minimumDistinctSources": 2,
+    "sourcedFactsPerPerson": "3-5",
+    "educationFactRequired": true,
+    "portrait": "reliable 512x512 local asset",
+    "explicitGraphRelationshipRequired": true
+  },
+  "records": [
+    {
+      "canonicalKey": "Mainland China:上海交通大学:张伟楠",
+      "name": "张伟楠",
+      "sourceDisposition": "missing_portrait",
+      "disposition": "ready",
+      "atlasPersonId": "weinan-zhang-sjtu-p0-tail-b1",
+      "resolvedBy": ["official/personal portrait", "UCL co-adviser evidence", "five sourced facts"]
+    },
+    {
+      "canonicalKey": "Mainland China:上海交通大学:刘松桦",
+      "name": "刘松桦",
+      "sourceDisposition": "missing_relationship",
+      "disposition": "ready",
+      "atlasPersonId": "songhua-liu-sjtu-p0-tail-b1",
+      "resolvedBy": ["Xinchao Wang PhD-adviser statement", "official portrait", "five sourced facts"]
+    },
+    {
+      "canonicalKey": "Mainland China:上海交通大学:张林峰",
+      "name": "张林峰",
+      "sourceDisposition": "missing_relationship",
+      "disposition": "ready",
+      "atlasPersonId": "linfeng-zhang-sjtu-p0-tail-b1",
+      "resolvedBy": ["Kaisheng Ma PhD-adviser statement in CV", "personal portrait", "five sourced facts"]
+    },
+    {
+      "canonicalKey": "Mainland China:北京大学:崔斌",
+      "name": "崔斌",
+      "sourceDisposition": "missing_relationship",
+      "disposition": "ready",
+      "atlasPersonId": "bin-cui-pku-p0-tail-b1",
+      "resolvedBy": ["public current-student roster", "official portrait", "five sourced facts"]
+    },
+    {
+      "canonicalKey": "Mainland China:清华大学:戴琼海",
+      "name": "戴琼海",
+      "sourceDisposition": "missing_relationship",
+      "disposition": "ready",
+      "atlasPersonId": "qionghai-dai-thu-p0-tail-b1",
+      "resolvedBy": ["Tsinghua dissertation/adviser record for 曹汛", "official portrait", "five sourced facts"]
+    }
+  ]
+}

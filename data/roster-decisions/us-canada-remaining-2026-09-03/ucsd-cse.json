@@ -1,0 +1,2769 @@
+{
+  "schemaVersion": 1,
+  "unitId": "ucsd-cse",
+  "unitLabel": "UC San Diego Computer Science and Engineering",
+  "unitUrl": "https://cse.ucsd.edu/people/faculty-profiles",
+  "snapshotAt": "2026-09-03",
+  "rosterArtifact": "data/official-rosters/ucsd-cse-faculty-profiles-2026-09-02.json",
+  "frozenOfficialRosterCount": 178,
+  "rawRosterRowCount": 178,
+  "duplicateRosterCardCount": 0,
+  "deduplicatedRosterPersonCount": 178,
+  "decisionCount": 178,
+  "counts": {
+    "excluded_historical": 19,
+    "excluded_non_pi": 81,
+    "include_new_pi": 75,
+    "included_existing": 3
+  },
+  "decisions": [
+    {
+      "officialId": "steven-swanson",
+      "rosterName": "Steven Swanson",
+      "title": "Department Chair",
+      "profileUrl": "https://cse.ucsd.edu/people/faculty-profiles/steven-swanson",
+      "portraitUrl": "https://cse.ucsd.edu/sites/default/files/styles/faculty_profile/public/faculty/UCSD-JacobsSchool-Swanson_Steve-3586-resized-zoomed_0.png?itok=zmkenxxb",
+      "officialSections": [
+        "Department Leadership"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://cse.ucsd.edu/people/faculty-profiles",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Department Chair | Department Leadership | https://cse.ucsd.edu/people/faculty-profiles/steven-swanson",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "nadia-polikarpova",
+      "rosterName": "Nadia Polikarpova",
+      "title": "Vice Chair for Graduate Education",
+      "profileUrl": "https://cse.ucsd.edu/people/faculty-profiles/nadia-polikarpova",
+      "portraitUrl": "https://cse.ucsd.edu/sites/default/files/styles/faculty_profile/public/faculty/polikarpova17-115x150.jpg?itok=NWv6Hhiz",
+      "officialSections": [
+        "Department Leadership"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://cse.ucsd.edu/people/faculty-profiles",
+      "decision": "excluded_non_pi",
+      "reason": "冻结官方名录未提供可确认现任独立 PI 的教授或 faculty 职称。",
+      "evidence": "Vice Chair for Graduate Education | Department Leadership | https://cse.ucsd.edu/people/faculty-profiles/nadia-polikarpova"
+    },
+    {
+      "officialId": "mia-minnes",
+      "rosterName": "Mia Minnes",
+      "title": "Vice Chair for Undergraduate Education",
+      "profileUrl": "https://cse.ucsd.edu/people/faculty-profiles/mia-minnes",
+      "portraitUrl": "https://cse.ucsd.edu/sites/default/files/styles/faculty_profile/public/faculty/prof-minnes-headshot.jpg?itok=VcFhARkg",
+      "officialSections": [
+        "Department Leadership"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://cse.ucsd.edu/people/faculty-profiles",
+      "decision": "excluded_non_pi",
+      "reason": "冻结官方名录未提供可确认现任独立 PI 的教授或 faculty 职称。",
+      "evidence": "Vice Chair for Undergraduate Education | Department Leadership | https://cse.ucsd.edu/people/faculty-profiles/mia-minnes"
+    },
+    {
+      "officialId": "vineet-bafna",
+      "rosterName": "Vineet Bafna",
+      "title": "Co-Vice Chair for Academic Personnel",
+      "profileUrl": "https://cse.ucsd.edu/people/faculty-profiles/vineet-bafna",
+      "portraitUrl": "https://cse.ucsd.edu/sites/default/files/styles/faculty_profile/public/faculty/bafna17-115x150.jpg?itok=5IM7o45Y",
+      "officialSections": [
+        "Department Leadership"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://cse.ucsd.edu/people/faculty-profiles",
+      "decision": "excluded_non_pi",
+      "reason": "冻结官方名录未提供可确认现任独立 PI 的教授或 faculty 职称。",
+      "evidence": "Co-Vice Chair for Academic Personnel | Department Leadership | https://cse.ucsd.edu/people/faculty-profiles/vineet-bafna"
+    },
+    {
+      "officialId": "leo-porter",
+      "rosterName": "Leo Porter",
+      "title": "Director of Masters Programs",
+      "profileUrl": "https://cse.ucsd.edu/people/faculty-profiles/leo-porter",
+      "portraitUrl": "https://cse.ucsd.edu/sites/default/files/styles/faculty_profile/public/faculty/porterl17-115x150.jpg?itok=5HDRlX3M",
+      "officialSections": [
+        "Department Leadership"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://cse.ucsd.edu/people/faculty-profiles",
+      "decision": "excluded_non_pi",
+      "reason": "官方卡片仅显示行政/项目领导职务，未显示独立教授或 PI 职称。",
+      "evidence": "Director of Masters Programs | Department Leadership | https://cse.ucsd.edu/people/faculty-profiles/leo-porter"
+    },
+    {
+      "officialId": "christine-alvarado",
+      "rosterName": "Christine Alvarado",
+      "title": null,
+      "profileUrl": "https://cse.ucsd.edu/people/faculty-profiles/christine-alvarado",
+      "portraitUrl": "https://cse.ucsd.edu/sites/default/files/styles/faculty_profile/public/faculty/alvarado17-115x150.jpg?itok=MSu_Ofh1",
+      "officialSections": [
+        "Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://cse.ucsd.edu/people/faculty-profiles",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Faculty | https://cse.ucsd.edu/people/faculty-profiles/christine-alvarado",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "prithviraj-ammanabrolu",
+      "rosterName": "Prithviraj Ammanabrolu",
+      "title": null,
+      "profileUrl": "https://cse.ucsd.edu/people/faculty-profiles/prithviraj-ammanabrolu",
+      "portraitUrl": "https://cse.ucsd.edu/sites/default/files/styles/faculty_profile/public/faculty/prithviraj-ammanabrolu.jpg?itok=VAUf00lV",
+      "officialSections": [
+        "Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://cse.ucsd.edu/people/faculty-profiles",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Faculty | https://cse.ucsd.edu/people/faculty-profiles/prithviraj-ammanabrolu",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "nuno-bandeira",
+      "rosterName": "Nuno Bandeira",
+      "title": null,
+      "profileUrl": "https://cse.ucsd.edu/people/faculty-profiles/nuno-bandeira",
+      "portraitUrl": "https://cse.ucsd.edu/sites/default/files/styles/faculty_profile/public/faculty/bandeira17-115x150.jpg?itok=1ShsCJ7Z",
+      "officialSections": [
+        "Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://cse.ucsd.edu/people/faculty-profiles",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Faculty | https://cse.ucsd.edu/people/faculty-profiles/nuno-bandeira",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "mihir-bellare",
+      "rosterName": "Mihir Bellare",
+      "title": null,
+      "profileUrl": "https://cse.ucsd.edu/people/faculty-profiles/mihir-bellare",
+      "portraitUrl": "https://cse.ucsd.edu/sites/default/files/styles/faculty_profile/public/faculty/bellare17-115x150.jpg?itok=WifZLRox",
+      "officialSections": [
+        "Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://cse.ucsd.edu/people/faculty-profiles",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Faculty | https://cse.ucsd.edu/people/faculty-profiles/mihir-bellare",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "taylor-berg-kirkpatrick",
+      "rosterName": "Taylor Berg-Kirkpatrick",
+      "title": null,
+      "profileUrl": "https://cse.ucsd.edu/people/faculty-profiles/taylor-berg-kirkpatrick",
+      "portraitUrl": "https://cse.ucsd.edu/sites/default/files/styles/faculty_profile/public/faculty/berg17-115x150_2.png?itok=YYimA_NK",
+      "officialSections": [
+        "Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://cse.ucsd.edu/people/faculty-profiles",
+      "decision": "included_existing",
+      "atlasPersonId": "taylor-berg-kirkpatrick",
+      "reason": "符合范围，且规范化姓名可与当前图谱人物唯一匹配。",
+      "evidence": "Faculty | https://cse.ucsd.edu/people/faculty-profiles/taylor-berg-kirkpatrick"
+    },
+    {
+      "officialId": "trevor-bonjour",
+      "rosterName": "Trevor Bonjour",
+      "title": null,
+      "profileUrl": "https://cse.ucsd.edu/people/faculty-profiles/trevor-bonjour",
+      "portraitUrl": "https://cse.ucsd.edu/sites/default/files/styles/faculty_profile/public/faculty/bonjour.jpg?itok=vWWuAFpI",
+      "officialSections": [
+        "Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://cse.ucsd.edu/people/faculty-profiles",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Faculty | https://cse.ucsd.edu/people/faculty-profiles/trevor-bonjour",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "manmohan-chandraker",
+      "rosterName": "Manmohan Chandraker",
+      "title": null,
+      "profileUrl": "https://cse.ucsd.edu/people/faculty-profiles/manmohan-chandraker",
+      "portraitUrl": "https://cse.ucsd.edu/sites/default/files/styles/faculty_profile/public/faculty/chandraker17-115x150.jpg?itok=VVG5EBJK",
+      "officialSections": [
+        "Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://cse.ucsd.edu/people/faculty-profiles",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Faculty | https://cse.ucsd.edu/people/faculty-profiles/manmohan-chandraker",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "kamalika-chaudhuri",
+      "rosterName": "Kamalika Chaudhuri",
+      "title": null,
+      "profileUrl": "https://cse.ucsd.edu/people/faculty-profiles/kamalika-chaudhuri",
+      "portraitUrl": "https://cse.ucsd.edu/sites/default/files/styles/faculty_profile/public/faculty/chaudhuri17-115x150.jpg?itok=V4iBtAMl",
+      "officialSections": [
+        "Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://cse.ucsd.edu/people/faculty-profiles",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Faculty | https://cse.ucsd.edu/people/faculty-profiles/kamalika-chaudhuri",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "c-k-cheng",
+      "rosterName": "C. K. Cheng",
+      "title": null,
+      "profileUrl": "https://cse.ucsd.edu/people/faculty-profiles/c-k-cheng",
+      "portraitUrl": "https://cse.ucsd.edu/sites/default/files/styles/faculty_profile/public/faculty/cheng17-115x150.jpg?itok=FcJkNSfL",
+      "officialSections": [
+        "Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://cse.ucsd.edu/people/faculty-profiles",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Faculty | https://cse.ucsd.edu/people/faculty-profiles/c-k-cheng",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "albert-chern",
+      "rosterName": "Albert Chern",
+      "title": null,
+      "profileUrl": "https://cse.ucsd.edu/people/faculty-profiles/albert-chern",
+      "portraitUrl": "https://cse.ucsd.edu/sites/default/files/styles/faculty_profile/public/faculty/chern17-115x150_1.png?itok=e8i3u92S",
+      "officialSections": [
+        "Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://cse.ucsd.edu/people/faculty-profiles",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Faculty | https://cse.ucsd.edu/people/faculty-profiles/albert-chern",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "henrik-i-christensen",
+      "rosterName": "Henrik I. Christensen",
+      "title": null,
+      "profileUrl": "https://cse.ucsd.edu/people/faculty-profiles/henrik-i-christensen",
+      "portraitUrl": "https://cse.ucsd.edu/sites/default/files/styles/faculty_profile/public/faculty/christensen17-115x150.jpg?itok=3A3jK19-",
+      "officialSections": [
+        "Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://cse.ucsd.edu/people/faculty-profiles",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Faculty | https://cse.ucsd.edu/people/faculty-profiles/henrik-i-christensen",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "michael-coblenz",
+      "rosterName": "Michael Coblenz",
+      "title": null,
+      "profileUrl": "https://cse.ucsd.edu/people/faculty-profiles/michael-coblenz",
+      "portraitUrl": "https://cse.ucsd.edu/sites/default/files/styles/faculty_profile/public/faculty/coblenz17-115x150.png?itok=K2FHOOBj",
+      "officialSections": [
+        "Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://cse.ucsd.edu/people/faculty-profiles",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Faculty | https://cse.ucsd.edu/people/faculty-profiles/michael-coblenz",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "loris-dantoni",
+      "rosterName": "Loris D'Antoni",
+      "title": null,
+      "profileUrl": "https://cse.ucsd.edu/people/faculty-profiles/loris-dantoni",
+      "portraitUrl": "https://cse.ucsd.edu/sites/default/files/styles/faculty_profile/public/faculty/dantoni.jpg?itok=U6RLDXIM",
+      "officialSections": [
+        "Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://cse.ucsd.edu/people/faculty-profiles",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Faculty | https://cse.ucsd.edu/people/faculty-profiles/loris-dantoni",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "sanjoy-dasgupta",
+      "rosterName": "Sanjoy Dasgupta",
+      "title": null,
+      "profileUrl": "https://cse.ucsd.edu/people/faculty-profiles/sanjoy-dasgupta",
+      "portraitUrl": "https://cse.ucsd.edu/sites/default/files/styles/faculty_profile/public/faculty/dasgupta17-115x150.jpg?itok=vmivRR4k",
+      "officialSections": [
+        "Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://cse.ucsd.edu/people/faculty-profiles",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Faculty | https://cse.ucsd.edu/people/faculty-profiles/sanjoy-dasgupta",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "alin-deutsch",
+      "rosterName": "Alin Deutsch",
+      "title": null,
+      "profileUrl": "https://cse.ucsd.edu/people/faculty-profiles/alin-deutsch",
+      "portraitUrl": "https://cse.ucsd.edu/sites/default/files/styles/faculty_profile/public/faculty/deutsch17-115x150_0_0.jpg?itok=xGsWBAr-",
+      "officialSections": [
+        "Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://cse.ucsd.edu/people/faculty-profiles",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Faculty | https://cse.ucsd.edu/people/faculty-profiles/alin-deutsch",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "yufei-ding",
+      "rosterName": "Yufei Ding",
+      "title": null,
+      "profileUrl": "https://cse.ucsd.edu/people/faculty-profiles/yufei-ding",
+      "portraitUrl": "https://cse.ucsd.edu/sites/default/files/styles/faculty_profile/public/faculty/yufei-ding_0.jpg?itok=xpNuf9I0",
+      "officialSections": [
+        "Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://cse.ucsd.edu/people/faculty-profiles",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Faculty | https://cse.ucsd.edu/people/faculty-profiles/yufei-ding",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "hadi-esmaeilzadeh",
+      "rosterName": "Hadi Esmaeilzadeh",
+      "title": null,
+      "profileUrl": "https://cse.ucsd.edu/people/faculty-profiles/hadi-esmaeilzadeh",
+      "portraitUrl": "https://cse.ucsd.edu/sites/default/files/styles/faculty_profile/public/faculty/esmaeilzadeh17-115x150.png?itok=o6T8-KfC",
+      "officialSections": [
+        "Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://cse.ucsd.edu/people/faculty-profiles",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Faculty | https://cse.ucsd.edu/people/faculty-profiles/hadi-esmaeilzadeh",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "earlence-fernandes",
+      "rosterName": "Earlence Fernandes",
+      "title": null,
+      "profileUrl": "https://cse.ucsd.edu/people/faculty-profiles/earlence-fernandes",
+      "portraitUrl": "https://cse.ucsd.edu/sites/default/files/styles/faculty_profile/public/faculty/fernandez17-115x150.png?itok=0u1qx-Ge",
+      "officialSections": [
+        "Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://cse.ucsd.edu/people/faculty-profiles",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Faculty | https://cse.ucsd.edu/people/faculty-profiles/earlence-fernandes",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "yoav-freund",
+      "rosterName": "Yoav Freund",
+      "title": null,
+      "profileUrl": "https://cse.ucsd.edu/people/faculty-profiles/yoav-freund",
+      "portraitUrl": "https://cse.ucsd.edu/sites/default/files/styles/faculty_profile/public/faculty/freund17-115x150.jpg?itok=EmZL8b5B",
+      "officialSections": [
+        "Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://cse.ucsd.edu/people/faculty-profiles",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Faculty | https://cse.ucsd.edu/people/faculty-profiles/yoav-freund",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "alex-gantman",
+      "rosterName": "Alex Gantman",
+      "title": null,
+      "profileUrl": "https://cse.ucsd.edu/people/faculty-profiles/alex-gantman",
+      "portraitUrl": "https://cse.ucsd.edu/sites/default/files/styles/faculty_profile/public/faculty/gantman17-115x150_0.png?itok=I7GoDcfe",
+      "officialSections": [
+        "Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://cse.ucsd.edu/people/faculty-profiles",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Faculty | https://cse.ucsd.edu/people/faculty-profiles/alex-gantman",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "sicun-gao",
+      "rosterName": "Sicun Gao",
+      "title": null,
+      "profileUrl": "https://cse.ucsd.edu/people/faculty-profiles/sicun-gao",
+      "portraitUrl": "https://cse.ucsd.edu/sites/default/files/styles/faculty_profile/public/faculty/gao17-115x150.jpg?itok=Z8cAG622",
+      "officialSections": [
+        "Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://cse.ucsd.edu/people/faculty-profiles",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Faculty | https://cse.ucsd.edu/people/faculty-profiles/sicun-gao",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "daniel-grier",
+      "rosterName": "Daniel Grier",
+      "title": null,
+      "profileUrl": "https://cse.ucsd.edu/people/faculty-profiles/daniel-grier",
+      "portraitUrl": "https://cse.ucsd.edu/sites/default/files/styles/faculty_profile/public/faculty/grier17-115x150.png?itok=F2zSeukI",
+      "officialSections": [
+        "Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://cse.ucsd.edu/people/faculty-profiles",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Faculty | https://cse.ucsd.edu/people/faculty-profiles/daniel-grier",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "william-g-griswold",
+      "rosterName": "William G. Griswold",
+      "title": null,
+      "profileUrl": "https://cse.ucsd.edu/people/faculty-profiles/william-g-griswold",
+      "portraitUrl": "https://cse.ucsd.edu/sites/default/files/styles/faculty_profile/public/faculty/griswold17-115x150.jpg?itok=oAjTwexC",
+      "officialSections": [
+        "Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://cse.ucsd.edu/people/faculty-profiles",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Faculty | https://cse.ucsd.edu/people/faculty-profiles/william-g-griswold",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "rajesh-k-gupta",
+      "rosterName": "Rajesh K. Gupta",
+      "title": null,
+      "profileUrl": "https://cse.ucsd.edu/people/faculty-profiles/rajesh-k-gupta",
+      "portraitUrl": "https://cse.ucsd.edu/sites/default/files/styles/faculty_profile/public/faculty/gupta17-115x150.jpg?itok=Zb1-D1VD",
+      "officialSections": [
+        "Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://cse.ucsd.edu/people/faculty-profiles",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Faculty | https://cse.ucsd.edu/people/faculty-profiles/rajesh-k-gupta",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "melissa-gymrek",
+      "rosterName": "Melissa Gymrek",
+      "title": null,
+      "profileUrl": "https://cse.ucsd.edu/people/faculty-profiles/melissa-gymrek",
+      "portraitUrl": "https://cse.ucsd.edu/sites/default/files/styles/faculty_profile/public/faculty/gymrek17-115x150.jpg?itok=BRGniKLm",
+      "officialSections": [
+        "Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://cse.ucsd.edu/people/faculty-profiles",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Faculty | https://cse.ucsd.edu/people/faculty-profiles/melissa-gymrek",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "nadia-heninger",
+      "rosterName": "Nadia Heninger",
+      "title": null,
+      "profileUrl": "https://cse.ucsd.edu/people/faculty-profiles/nadia-heninger",
+      "portraitUrl": "https://cse.ucsd.edu/sites/default/files/styles/faculty_profile/public/faculty/heninger17-115x150_0.png?itok=3w_qepJi",
+      "officialSections": [
+        "Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://cse.ucsd.edu/people/faculty-profiles",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Faculty | https://cse.ucsd.edu/people/faculty-profiles/nadia-heninger",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "russell-impagliazzo",
+      "rosterName": "Russell Impagliazzo",
+      "title": null,
+      "profileUrl": "https://cse.ucsd.edu/people/faculty-profiles/russell-impagliazzo",
+      "portraitUrl": "https://cse.ucsd.edu/sites/default/files/styles/faculty_profile/public/faculty/impagliazzo17-115x150.jpg?itok=1turFHvY",
+      "officialSections": [
+        "Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://cse.ucsd.edu/people/faculty-profiles",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Faculty | https://cse.ucsd.edu/people/faculty-profiles/russell-impagliazzo",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "ranjit-jhala",
+      "rosterName": "Ranjit Jhala",
+      "title": null,
+      "profileUrl": "https://cse.ucsd.edu/people/faculty-profiles/ranjit-jhala",
+      "portraitUrl": "https://cse.ucsd.edu/sites/default/files/styles/faculty_profile/public/faculty/jhala17-115x150.jpg?itok=XRo2gHu3",
+      "officialSections": [
+        "Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://cse.ucsd.edu/people/faculty-profiles",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Faculty | https://cse.ucsd.edu/people/faculty-profiles/ranjit-jhala",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "andrew-b-kahng",
+      "rosterName": "Andrew B. Kahng",
+      "title": null,
+      "profileUrl": "https://cse.ucsd.edu/people/faculty-profiles/andrew-b-kahng",
+      "portraitUrl": "https://cse.ucsd.edu/sites/default/files/styles/faculty_profile/public/faculty/kahng17-115x150.jpg?itok=ifhdDQX2",
+      "officialSections": [
+        "Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://cse.ucsd.edu/people/faculty-profiles",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Faculty | https://cse.ucsd.edu/people/faculty-profiles/andrew-b-kahng",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "daniel-m-kane",
+      "rosterName": "Daniel M. Kane",
+      "title": null,
+      "profileUrl": "https://cse.ucsd.edu/people/faculty-profiles/daniel-m-kane",
+      "portraitUrl": "https://cse.ucsd.edu/sites/default/files/styles/faculty_profile/public/faculty/kane17-115x150.jpg?itok=9Sy_cv70",
+      "officialSections": [
+        "Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://cse.ucsd.edu/people/faculty-profiles",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Faculty | https://cse.ucsd.edu/people/faculty-profiles/daniel-m-kane",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "ryan-kastner",
+      "rosterName": "Ryan Kastner",
+      "title": null,
+      "profileUrl": "https://cse.ucsd.edu/people/faculty-profiles/ryan-kastner",
+      "portraitUrl": "https://cse.ucsd.edu/sites/default/files/styles/faculty_profile/public/faculty/kastner17-115x150.jpg?itok=2yzajjEk",
+      "officialSections": [
+        "Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://cse.ucsd.edu/people/faculty-profiles",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Faculty | https://cse.ucsd.edu/people/faculty-profiles/ryan-kastner",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "pradeep-k-khosla",
+      "rosterName": "Pradeep K. Khosla",
+      "title": null,
+      "profileUrl": "https://cse.ucsd.edu/people/faculty-profiles/pradeep-k-khosla",
+      "portraitUrl": "https://cse.ucsd.edu/sites/default/files/styles/faculty_profile/public/faculty/khosla17-115x150.jpg?itok=CqybUK6i",
+      "officialSections": [
+        "Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://cse.ucsd.edu/people/faculty-profiles",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Faculty | https://cse.ucsd.edu/people/faculty-profiles/pradeep-k-khosla",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "scott-klemmer",
+      "rosterName": "Scott Klemmer",
+      "title": null,
+      "profileUrl": "https://cse.ucsd.edu/people/faculty-profiles/scott-klemmer",
+      "portraitUrl": "https://cse.ucsd.edu/sites/default/files/styles/faculty_profile/public/faculty/klemmer17-115x150.jpg?itok=kcqz4FV_",
+      "officialSections": [
+        "Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://cse.ucsd.edu/people/faculty-profiles",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Faculty | https://cse.ucsd.edu/people/faculty-profiles/scott-klemmer",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "rob-knight",
+      "rosterName": "Rob Knight",
+      "title": null,
+      "profileUrl": "https://cse.ucsd.edu/people/faculty-profiles/rob-knight",
+      "portraitUrl": "https://cse.ucsd.edu/sites/default/files/styles/faculty_profile/public/faculty/knight17-115x150.jpg?itok=5DeAIEF7",
+      "officialSections": [
+        "Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://cse.ucsd.edu/people/faculty-profiles",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Faculty | https://cse.ucsd.edu/people/faculty-profiles/rob-knight",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "arun-kumar",
+      "rosterName": "Arun Kumar",
+      "title": null,
+      "profileUrl": "https://cse.ucsd.edu/people/faculty-profiles/arun-kumar",
+      "portraitUrl": "https://cse.ucsd.edu/sites/default/files/styles/faculty_profile/public/faculty/kumar17-115x150.jpg?itok=NuaHWl42",
+      "officialSections": [
+        "Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://cse.ucsd.edu/people/faculty-profiles",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Faculty | https://cse.ucsd.edu/people/faculty-profiles/arun-kumar",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "deepak-kumar",
+      "rosterName": "Deepak Kumar",
+      "title": null,
+      "profileUrl": "https://cse.ucsd.edu/people/faculty-profiles/deepak-kumar",
+      "portraitUrl": "https://cse.ucsd.edu/sites/default/files/styles/faculty_profile/public/faculty/deepak-kumar_0.png?itok=JT8azqgY",
+      "officialSections": [
+        "Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://cse.ucsd.edu/people/faculty-profiles",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Faculty | https://cse.ucsd.edu/people/faculty-profiles/deepak-kumar",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "tzu-mao-li",
+      "rosterName": "Tzu-Mao Li",
+      "title": null,
+      "profileUrl": "https://cse.ucsd.edu/people/faculty-profiles/tzu-mao-li",
+      "portraitUrl": "https://cse.ucsd.edu/sites/default/files/styles/faculty_profile/public/faculty/li-115x150.png?itok=Okry1YaE",
+      "officialSections": [
+        "Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://cse.ucsd.edu/people/faculty-profiles",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Faculty | https://cse.ucsd.edu/people/faculty-profiles/tzu-mao-li",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "qipeng-liu",
+      "rosterName": "Qipeng Liu",
+      "title": null,
+      "profileUrl": "https://cse.ucsd.edu/people/faculty-profiles/qipeng-liu",
+      "portraitUrl": "https://cse.ucsd.edu/sites/default/files/styles/faculty_profile/public/faculty/qipeng17-115x150.png?itok=CnXOr2s6",
+      "officialSections": [
+        "Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://cse.ucsd.edu/people/faculty-profiles",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Faculty | https://cse.ucsd.edu/people/faculty-profiles/qipeng-liu",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "shachar-lovett",
+      "rosterName": "Shachar Lovett",
+      "title": null,
+      "profileUrl": "https://cse.ucsd.edu/people/faculty-profiles/shachar-lovett",
+      "portraitUrl": "https://cse.ucsd.edu/sites/default/files/styles/faculty_profile/public/faculty/lovett17-115x150.jpg?itok=S_l5Tdut",
+      "officialSections": [
+        "Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://cse.ucsd.edu/people/faculty-profiles",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Faculty | https://cse.ucsd.edu/people/faculty-profiles/shachar-lovett",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "julian-mcauley",
+      "rosterName": "Julian McAuley",
+      "title": null,
+      "profileUrl": "https://cse.ucsd.edu/people/faculty-profiles/julian-mcauley",
+      "portraitUrl": "https://cse.ucsd.edu/sites/default/files/styles/faculty_profile/public/faculty/mcauley17-115x150.jpg?itok=lqWFql-Y",
+      "officialSections": [
+        "Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://cse.ucsd.edu/people/faculty-profiles",
+      "decision": "included_existing",
+      "atlasPersonId": "julian-mcauley-us",
+      "reason": "符合范围，且规范化姓名可与当前图谱人物唯一匹配。",
+      "evidence": "Faculty | https://cse.ucsd.edu/people/faculty-profiles/julian-mcauley"
+    },
+    {
+      "officialId": "daniele-micciancio",
+      "rosterName": "Daniele Micciancio",
+      "title": null,
+      "profileUrl": "https://cse.ucsd.edu/people/faculty-profiles/daniele-micciancio",
+      "portraitUrl": "https://cse.ucsd.edu/sites/default/files/styles/faculty_profile/public/faculty/micciancio17-115x150.png?itok=U5q0xq4e",
+      "officialSections": [
+        "Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://cse.ucsd.edu/people/faculty-profiles",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Faculty | https://cse.ucsd.edu/people/faculty-profiles/daniele-micciancio",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "niema-moshiri",
+      "rosterName": "Niema Moshiri",
+      "title": null,
+      "profileUrl": "https://cse.ucsd.edu/people/faculty-profiles/niema-moshiri",
+      "portraitUrl": "https://cse.ucsd.edu/sites/default/files/styles/faculty_profile/public/faculty/moshiri17-115x150_2.png?itok=EBmiAH-W",
+      "officialSections": [
+        "Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://cse.ucsd.edu/people/faculty-profiles",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Faculty | https://cse.ucsd.edu/people/faculty-profiles/niema-moshiri",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "imani-munyaka",
+      "rosterName": "Imani Munyaka",
+      "title": null,
+      "profileUrl": "https://cse.ucsd.edu/people/faculty-profiles/imani-munyaka",
+      "portraitUrl": "https://cse.ucsd.edu/sites/default/files/styles/faculty_profile/public/faculty/munyaka17-115x150.png?itok=dvOyg7ZW",
+      "officialSections": [
+        "Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://cse.ucsd.edu/people/faculty-profiles",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Faculty | https://cse.ucsd.edu/people/faculty-profiles/imani-munyaka",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "ndapa-nakashole",
+      "rosterName": "Ndapa Nakashole",
+      "title": null,
+      "profileUrl": "https://cse.ucsd.edu/people/faculty-profiles/ndapa-nakashole",
+      "portraitUrl": "https://cse.ucsd.edu/sites/default/files/styles/faculty_profile/public/faculty/nakashole17-115x150.jpg?itok=CnRBTQ58",
+      "officialSections": [
+        "Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://cse.ucsd.edu/people/faculty-profiles",
+      "decision": "included_existing",
+      "atlasPersonId": "ndapa-nakashole-award",
+      "reason": "符合范围，且规范化姓名可与当前图谱人物唯一匹配。",
+      "evidence": "Faculty | https://cse.ucsd.edu/people/faculty-profiles/ndapa-nakashole"
+    },
+    {
+      "officialId": "marc-niethammer",
+      "rosterName": "Marc Niethammer",
+      "title": null,
+      "profileUrl": "https://cse.ucsd.edu/people/faculty-profiles/marc-niethammer",
+      "portraitUrl": "https://cse.ucsd.edu/sites/default/files/styles/faculty_profile/public/faculty/niethammer.png?itok=zJyAEYQO",
+      "officialSections": [
+        "Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://cse.ucsd.edu/people/faculty-profiles",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Faculty | https://cse.ucsd.edu/people/faculty-profiles/marc-niethammer",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "alex-orailoglu",
+      "rosterName": "Alex Orailoglu",
+      "title": null,
+      "profileUrl": "https://cse.ucsd.edu/people/faculty-profiles/alex-orailoglu",
+      "portraitUrl": "https://cse.ucsd.edu/sites/default/files/styles/faculty_profile/public/faculty/orailoglu17-115x150.png?itok=uJIhbqVS",
+      "officialSections": [
+        "Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://cse.ucsd.edu/people/faculty-profiles",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Faculty | https://cse.ucsd.edu/people/faculty-profiles/alex-orailoglu",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "alon-orlitsky",
+      "rosterName": "Alon Orlitsky",
+      "title": null,
+      "profileUrl": "https://cse.ucsd.edu/people/faculty-profiles/alon-orlitsky",
+      "portraitUrl": "https://cse.ucsd.edu/sites/default/files/styles/faculty_profile/public/faculty/orlitsky17-115x150.jpg?itok=z5bb9E74",
+      "officialSections": [
+        "Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://cse.ucsd.edu/people/faculty-profiles",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Faculty | https://cse.ucsd.edu/people/faculty-profiles/alon-orlitsky",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "amy-ousterhout",
+      "rosterName": "Amy Ousterhout",
+      "title": null,
+      "profileUrl": "https://cse.ucsd.edu/people/faculty-profiles/amy-ousterhout",
+      "portraitUrl": "https://cse.ucsd.edu/sites/default/files/styles/faculty_profile/public/faculty/AmyOusterhout115x150.png?itok=r268lQ4F",
+      "officialSections": [
+        "Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://cse.ucsd.edu/people/faculty-profiles",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Faculty | https://cse.ucsd.edu/people/faculty-profiles/amy-ousterhout",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "pat-pannuto",
+      "rosterName": "Pat Pannuto",
+      "title": null,
+      "profileUrl": "https://cse.ucsd.edu/people/faculty-profiles/pat-pannuto",
+      "portraitUrl": "https://cse.ucsd.edu/sites/default/files/styles/faculty_profile/public/faculty/pannuto17-115x150_0.png?itok=iztCuYaH",
+      "officialSections": [
+        "Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://cse.ucsd.edu/people/faculty-profiles",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Faculty | https://cse.ucsd.edu/people/faculty-profiles/pat-pannuto",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "ramamohan-paturi",
+      "rosterName": "Ramamohan Paturi",
+      "title": null,
+      "profileUrl": "https://cse.ucsd.edu/people/faculty-profiles/ramamohan-paturi",
+      "portraitUrl": "https://cse.ucsd.edu/sites/default/files/styles/faculty_profile/public/faculty/paturi17-115x150.png?itok=BU9dMaAb",
+      "officialSections": [
+        "Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://cse.ucsd.edu/people/faculty-profiles",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Faculty | https://cse.ucsd.edu/people/faculty-profiles/ramamohan-paturi",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "pavel-pevzner",
+      "rosterName": "Pavel A. Pevzner",
+      "title": null,
+      "profileUrl": "https://cse.ucsd.edu/people/faculty-profiles/pavel-pevzner",
+      "portraitUrl": "https://cse.ucsd.edu/sites/default/files/styles/faculty_profile/public/faculty/pevzner17-115x150.jpg?itok=s0AHqqzP",
+      "officialSections": [
+        "Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://cse.ucsd.edu/people/faculty-profiles",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Faculty | https://cse.ucsd.edu/people/faculty-profiles/pavel-pevzner",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "joe-gibbs-politz",
+      "rosterName": "Joe Gibbs Politz",
+      "title": null,
+      "profileUrl": "https://cse.ucsd.edu/people/faculty-profiles/joe-gibbs-politz",
+      "portraitUrl": "https://cse.ucsd.edu/sites/default/files/styles/faculty_profile/public/faculty/politz17-115x150.jpg?itok=LjeVokXN",
+      "officialSections": [
+        "Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://cse.ucsd.edu/people/faculty-profiles",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Faculty | https://cse.ucsd.edu/people/faculty-profiles/joe-gibbs-politz",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "george-porter",
+      "rosterName": "George Porter",
+      "title": null,
+      "profileUrl": "https://cse.ucsd.edu/people/faculty-profiles/george-porter",
+      "portraitUrl": "https://cse.ucsd.edu/sites/default/files/styles/faculty_profile/public/faculty/porterg17-115x150.jpg?itok=P20DkBsP",
+      "officialSections": [
+        "Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://cse.ucsd.edu/people/faculty-profiles",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Faculty | https://cse.ucsd.edu/people/faculty-profiles/george-porter",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "lianhui-qin",
+      "rosterName": "Lianhui Qin",
+      "title": null,
+      "profileUrl": "https://cse.ucsd.edu/people/faculty-profiles/lianhui-qin",
+      "portraitUrl": "https://cse.ucsd.edu/sites/default/files/styles/faculty_profile/public/faculty/lainhui-qin.png?itok=zyps3Unp",
+      "officialSections": [
+        "Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://cse.ucsd.edu/people/faculty-profiles",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Faculty | https://cse.ucsd.edu/people/faculty-profiles/lianhui-qin",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "adalbert-gerald-soosai-raj",
+      "rosterName": "Adalbert Gerald Soosai Raj",
+      "title": null,
+      "profileUrl": "https://cse.ucsd.edu/people/faculty-profiles/adalbert-gerald-soosai-raj",
+      "portraitUrl": "https://cse.ucsd.edu/sites/default/files/styles/faculty_profile/public/faculty/raj17-115x150_0_0.png?itok=_eg276EB",
+      "officialSections": [
+        "Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://cse.ucsd.edu/people/faculty-profiles",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Faculty | https://cse.ucsd.edu/people/faculty-profiles/adalbert-gerald-soosai-raj",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "ravi-ramamoorthi",
+      "rosterName": "Ravi Ramamoorthi",
+      "title": null,
+      "profileUrl": "https://cse.ucsd.edu/people/faculty-profiles/ravi-ramamoorthi",
+      "portraitUrl": "https://cse.ucsd.edu/sites/default/files/styles/faculty_profile/public/faculty/ramamoorthi17-115x150.png?itok=CEQzlvYv",
+      "officialSections": [
+        "Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://cse.ucsd.edu/people/faculty-profiles",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Faculty | https://cse.ucsd.edu/people/faculty-profiles/ravi-ramamoorthi",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "laurel-riek",
+      "rosterName": "Laurel Riek",
+      "title": null,
+      "profileUrl": "https://cse.ucsd.edu/people/faculty-profiles/laurel-riek",
+      "portraitUrl": "https://cse.ucsd.edu/sites/default/files/styles/faculty_profile/public/faculty/riek17-115x150.jpg?itok=GpI22Eil",
+      "officialSections": [
+        "Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://cse.ucsd.edu/people/faculty-profiles",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Faculty | https://cse.ucsd.edu/people/faculty-profiles/laurel-riek",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "tajana-simunic-rosing",
+      "rosterName": "Tajana Šimunić Rosing",
+      "title": null,
+      "profileUrl": "https://cse.ucsd.edu/people/faculty-profiles/tajana-simunic-rosing",
+      "portraitUrl": "https://cse.ucsd.edu/sites/default/files/styles/faculty_profile/public/faculty/rosing17-115x150_0.png?itok=iB_Cx_KU",
+      "officialSections": [
+        "Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://cse.ucsd.edu/people/faculty-profiles",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Faculty | https://cse.ucsd.edu/people/faculty-profiles/tajana-simunic-rosing",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "barna-saha",
+      "rosterName": "Barna Saha",
+      "title": null,
+      "profileUrl": "https://cse.ucsd.edu/people/faculty-profiles/barna-saha",
+      "portraitUrl": "https://cse.ucsd.edu/sites/default/files/styles/faculty_profile/public/faculty/saha17-115x150.png?itok=qS2aNb88",
+      "officialSections": [
+        "Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://cse.ucsd.edu/people/faculty-profiles",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Faculty | https://cse.ucsd.edu/people/faculty-profiles/barna-saha",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "debashis-sahoo",
+      "rosterName": "Debashis Sahoo",
+      "title": null,
+      "profileUrl": "https://cse.ucsd.edu/people/faculty-profiles/debashis-sahoo",
+      "portraitUrl": "https://cse.ucsd.edu/sites/default/files/styles/faculty_profile/public/faculty/sahoo17-115x150.jpg?itok=8LYciOaV",
+      "officialSections": [
+        "Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://cse.ucsd.edu/people/faculty-profiles",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Faculty | https://cse.ucsd.edu/people/faculty-profiles/debashis-sahoo",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "stefan-savage",
+      "rosterName": "Stefan Savage",
+      "title": null,
+      "profileUrl": "https://cse.ucsd.edu/people/faculty-profiles/stefan-savage",
+      "portraitUrl": "https://cse.ucsd.edu/sites/default/files/styles/faculty_profile/public/faculty/savage17-115x150.jpg?itok=ubCAhHnV",
+      "officialSections": [
+        "Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://cse.ucsd.edu/people/faculty-profiles",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Faculty | https://cse.ucsd.edu/people/faculty-profiles/stefan-savage",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "aaron-schulman",
+      "rosterName": "Aaron Schulman",
+      "title": null,
+      "profileUrl": "https://cse.ucsd.edu/people/faculty-profiles/aaron-schulman",
+      "portraitUrl": "https://cse.ucsd.edu/sites/default/files/styles/faculty_profile/public/faculty/schulman17-115x150_1.jpg?itok=2O3VPvFM",
+      "officialSections": [
+        "Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://cse.ucsd.edu/people/faculty-profiles",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Faculty | https://cse.ucsd.edu/people/faculty-profiles/aaron-schulman",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "hovav-shacham",
+      "rosterName": "Hovav Shacham",
+      "title": null,
+      "profileUrl": "https://cse.ucsd.edu/people/faculty-profiles/hovav-shacham",
+      "portraitUrl": "https://cse.ucsd.edu/sites/default/files/styles/faculty_profile/public/faculty/shacham17-115x150.jpg?itok=zkJak-Tb",
+      "officialSections": [
+        "Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://cse.ucsd.edu/people/faculty-profiles",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Faculty | https://cse.ucsd.edu/people/faculty-profiles/hovav-shacham",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "jingbo-shang",
+      "rosterName": "Jingbo Shang",
+      "title": null,
+      "profileUrl": "https://cse.ucsd.edu/people/faculty-profiles/jingbo-shang",
+      "portraitUrl": "https://cse.ucsd.edu/sites/default/files/styles/faculty_profile/public/faculty/shang17-115x150.png?itok=dozHSRj1",
+      "officialSections": [
+        "Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://cse.ucsd.edu/people/faculty-profiles",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Faculty | https://cse.ucsd.edu/people/faculty-profiles/jingbo-shang",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "alex-c-snoeren",
+      "rosterName": "Alex C. Snoeren",
+      "title": null,
+      "profileUrl": "https://cse.ucsd.edu/people/faculty-profiles/alex-c-snoeren",
+      "portraitUrl": "https://cse.ucsd.edu/sites/default/files/styles/faculty_profile/public/faculty/snoeren17-115x150.jpg?itok=VNMjBIgo",
+      "officialSections": [
+        "Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://cse.ucsd.edu/people/faculty-profiles",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Faculty | https://cse.ucsd.edu/people/faculty-profiles/alex-c-snoeren",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "deian-stefan",
+      "rosterName": "Deian Stefan",
+      "title": null,
+      "profileUrl": "https://cse.ucsd.edu/people/faculty-profiles/deian-stefan",
+      "portraitUrl": "https://cse.ucsd.edu/sites/default/files/styles/faculty_profile/public/faculty/stefan217-115x150.jpg?itok=sxU1S-Oe",
+      "officialSections": [
+        "Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://cse.ucsd.edu/people/faculty-profiles",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Faculty | https://cse.ucsd.edu/people/faculty-profiles/deian-stefan",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "shankar-subramaniam",
+      "rosterName": "Shankar Subramaniam",
+      "title": null,
+      "profileUrl": "https://cse.ucsd.edu/people/faculty-profiles/shankar-subramaniam",
+      "portraitUrl": "https://cse.ucsd.edu/sites/default/files/styles/faculty_profile/public/faculty/subramaniam17-115x150.jpg?itok=6V7oo5vU",
+      "officialSections": [
+        "Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://cse.ucsd.edu/people/faculty-profiles",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Faculty | https://cse.ucsd.edu/people/faculty-profiles/shankar-subramaniam",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "dean-m-tullsen",
+      "rosterName": "Dean M. Tullsen",
+      "title": null,
+      "profileUrl": "https://cse.ucsd.edu/people/faculty-profiles/dean-m-tullsen",
+      "portraitUrl": "https://cse.ucsd.edu/sites/default/files/styles/faculty_profile/public/faculty/tullsen17-115x150.jpg?itok=TBPyv0AZ",
+      "officialSections": [
+        "Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://cse.ucsd.edu/people/faculty-profiles",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Faculty | https://cse.ucsd.edu/people/faculty-profiles/dean-m-tullsen",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "kristen-vaccaro",
+      "rosterName": "Kristen Vaccaro",
+      "title": null,
+      "profileUrl": "https://cse.ucsd.edu/people/faculty-profiles/kristen-vaccaro",
+      "portraitUrl": "https://cse.ucsd.edu/sites/default/files/styles/faculty_profile/public/faculty/vaccaro-115x150.png?itok=SCR_9cj1",
+      "officialSections": [
+        "Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://cse.ucsd.edu/people/faculty-profiles",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Faculty | https://cse.ucsd.edu/people/faculty-profiles/kristen-vaccaro",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "victor-vianu",
+      "rosterName": "Victor Vianu",
+      "title": null,
+      "profileUrl": "https://cse.ucsd.edu/people/faculty-profiles/victor-vianu",
+      "portraitUrl": "https://cse.ucsd.edu/sites/default/files/styles/faculty_profile/public/faculty/vianu17-115x150.jpg?itok=DArATw-n",
+      "officialSections": [
+        "Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://cse.ucsd.edu/people/faculty-profiles",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Faculty | https://cse.ucsd.edu/people/faculty-profiles/victor-vianu",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "geoffrey-m-voelker",
+      "rosterName": "Geoffrey M. Voelker",
+      "title": null,
+      "profileUrl": "https://cse.ucsd.edu/people/faculty-profiles/geoffrey-m-voelker",
+      "portraitUrl": "https://cse.ucsd.edu/sites/default/files/styles/faculty_profile/public/faculty/voelker24-thm.jpg?itok=OpHN44nK",
+      "officialSections": [
+        "Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://cse.ucsd.edu/people/faculty-profiles",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Faculty | https://cse.ucsd.edu/people/faculty-profiles/geoffrey-m-voelker",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "thuy-duong-june-vuong",
+      "rosterName": "Thuy-Duong June Vuong",
+      "title": null,
+      "profileUrl": "https://cse.ucsd.edu/people/faculty-profiles/thuy-duong-june-vuong",
+      "portraitUrl": "https://cse.ucsd.edu/sites/default/files/styles/faculty_profile/public/faculty/vuong115x150.png?itok=7JYCelK4",
+      "officialSections": [
+        "Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://cse.ucsd.edu/people/faculty-profiles",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Faculty | https://cse.ucsd.edu/people/faculty-profiles/thuy-duong-june-vuong",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "nadir-weibel",
+      "rosterName": "Nadir Weibel",
+      "title": null,
+      "profileUrl": "https://cse.ucsd.edu/people/faculty-profiles/nadir-weibel",
+      "portraitUrl": "https://cse.ucsd.edu/sites/default/files/styles/faculty_profile/public/faculty/NadirWeibel_Headshot.jpeg?itok=adH_fptq",
+      "officialSections": [
+        "Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://cse.ucsd.edu/people/faculty-profiles",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Faculty | https://cse.ucsd.edu/people/faculty-profiles/nadir-weibel",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "qi-rose-yu",
+      "rosterName": "Qi (Rose) Yu",
+      "title": null,
+      "profileUrl": "https://cse.ucsd.edu/people/faculty-profiles/qi-rose-yu",
+      "portraitUrl": "https://cse.ucsd.edu/sites/default/files/styles/faculty_profile/public/faculty/yur-115x150.png?itok=VmqwVvIl",
+      "officialSections": [
+        "Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://cse.ucsd.edu/people/faculty-profiles",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Faculty | https://cse.ucsd.edu/people/faculty-profiles/qi-rose-yu",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "yiying-zhang",
+      "rosterName": "Yiying Zhang",
+      "title": null,
+      "profileUrl": "https://cse.ucsd.edu/people/faculty-profiles/yiying-zhang",
+      "portraitUrl": "https://cse.ucsd.edu/sites/default/files/styles/faculty_profile/public/faculty/zhang17-115x150_0.png?itok=rOz9Xs9G",
+      "officialSections": [
+        "Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://cse.ucsd.edu/people/faculty-profiles",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Faculty | https://cse.ucsd.edu/people/faculty-profiles/yiying-zhang",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "jishen-zhao",
+      "rosterName": "Jishen Zhao",
+      "title": null,
+      "profileUrl": "https://cse.ucsd.edu/people/faculty-profiles/jishen-zhao",
+      "portraitUrl": "https://cse.ucsd.edu/sites/default/files/styles/faculty_profile/public/faculty/zhao17-115x150.jpg?itok=tNg6Msgz",
+      "officialSections": [
+        "Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://cse.ucsd.edu/people/faculty-profiles",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Faculty | https://cse.ucsd.edu/people/faculty-profiles/jishen-zhao",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "yuanyuan-zhou",
+      "rosterName": "Yuanyuan Zhou",
+      "title": null,
+      "profileUrl": "https://cse.ucsd.edu/people/faculty-profiles/yuanyuan-zhou",
+      "portraitUrl": "https://cse.ucsd.edu/sites/default/files/styles/faculty_profile/public/faculty/zhou17-115x150.jpg?itok=-M63A4o-",
+      "officialSections": [
+        "Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://cse.ucsd.edu/people/faculty-profiles",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Faculty | https://cse.ucsd.edu/people/faculty-profiles/yuanyuan-zhou",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "ilkay-altintas",
+      "rosterName": "İlkay Altıntaş",
+      "title": null,
+      "profileUrl": "https://cse.ucsd.edu/people/faculty-profiles/ilkay-altintas",
+      "portraitUrl": "https://cse.ucsd.edu/sites/default/files/styles/faculty_profile/public/faculty/altinas17-115x150.jpg?itok=PvLdMuGz",
+      "officialSections": [
+        "Continuing Lecturers"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://cse.ucsd.edu/people/faculty-profiles",
+      "decision": "excluded_non_pi",
+      "reason": "官方职称或名录分组属于教学、兼职、附属、科研支持或其他非独立 PI 岗位。",
+      "evidence": "Continuing Lecturers | https://cse.ucsd.edu/people/faculty-profiles/ilkay-altintas"
+    },
+    {
+      "officialId": "paul-cao",
+      "rosterName": "Paul Cao",
+      "title": null,
+      "profileUrl": "https://cse.ucsd.edu/people/faculty-profiles/paul-cao",
+      "portraitUrl": "https://cse.ucsd.edu/sites/default/files/styles/faculty_profile/public/faculty/caoF17-115x150.jpg?itok=ifCxcSHq",
+      "officialSections": [
+        "Continuing Lecturers"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://cse.ucsd.edu/people/faculty-profiles",
+      "decision": "excluded_non_pi",
+      "reason": "官方职称或名录分组属于教学、兼职、附属、科研支持或其他非独立 PI 岗位。",
+      "evidence": "Continuing Lecturers | https://cse.ucsd.edu/people/faculty-profiles/paul-cao"
+    },
+    {
+      "officialId": "bryan-chin",
+      "rosterName": "Bryan Chin",
+      "title": null,
+      "profileUrl": "https://cse.ucsd.edu/people/faculty-profiles/bryan-chin",
+      "portraitUrl": "https://cse.ucsd.edu/sites/default/files/styles/faculty_profile/public/faculty/chinB17-115x150.jpg?itok=RQGOU8wC",
+      "officialSections": [
+        "Continuing Lecturers"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://cse.ucsd.edu/people/faculty-profiles",
+      "decision": "excluded_non_pi",
+      "reason": "官方职称或名录分组属于教学、兼职、附属、科研支持或其他非独立 PI 岗位。",
+      "evidence": "Continuing Lecturers | https://cse.ucsd.edu/people/faculty-profiles/bryan-chin"
+    },
+    {
+      "officialId": "john-eldon",
+      "rosterName": "John A. Eldon",
+      "title": null,
+      "profileUrl": "https://cse.ucsd.edu/people/faculty-profiles/john-eldon",
+      "portraitUrl": "https://cse.ucsd.edu/sites/default/files/styles/faculty_profile/public/faculty/eldon17-115x150.jpg?itok=u0x4G0EI",
+      "officialSections": [
+        "Continuing Lecturers"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://cse.ucsd.edu/people/faculty-profiles",
+      "decision": "excluded_non_pi",
+      "reason": "官方职称或名录分组属于教学、兼职、附属、科研支持或其他非独立 PI 岗位。",
+      "evidence": "Continuing Lecturers | https://cse.ucsd.edu/people/faculty-profiles/john-eldon"
+    },
+    {
+      "officialId": "taner-halicioglu",
+      "rosterName": "Taner Halicioglu",
+      "title": null,
+      "profileUrl": "https://cse.ucsd.edu/people/faculty-profiles/taner-halicioglu",
+      "portraitUrl": "https://cse.ucsd.edu/sites/default/files/styles/faculty_profile/public/faculty/halicioglu17-115x150.png?itok=npB7742e",
+      "officialSections": [
+        "Continuing Lecturers"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://cse.ucsd.edu/people/faculty-profiles",
+      "decision": "excluded_non_pi",
+      "reason": "官方职称或名录分组属于教学、兼职、附属、科研支持或其他非独立 PI 岗位。",
+      "evidence": "Continuing Lecturers | https://cse.ucsd.edu/people/faculty-profiles/taner-halicioglu"
+    },
+    {
+      "officialId": "miles-e-jones",
+      "rosterName": "Miles E. Jones",
+      "title": null,
+      "profileUrl": "https://cse.ucsd.edu/people/faculty-profiles/miles-e-jones",
+      "portraitUrl": "https://cse.ucsd.edu/sites/default/files/styles/faculty_profile/public/faculty/jones17-115x150.jpg?itok=58pp38ur",
+      "officialSections": [
+        "Continuing Lecturers"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://cse.ucsd.edu/people/faculty-profiles",
+      "decision": "excluded_non_pi",
+      "reason": "官方职称或名录分组属于教学、兼职、附属、科研支持或其他非独立 PI 岗位。",
+      "evidence": "Continuing Lecturers | https://cse.ucsd.edu/people/faculty-profiles/miles-e-jones"
+    },
+    {
+      "officialId": "rakesh-kumar",
+      "rosterName": "Rakesh Kumar",
+      "title": null,
+      "profileUrl": "https://cse.ucsd.edu/people/faculty-profiles/rakesh-kumar",
+      "portraitUrl": "https://cse.ucsd.edu/sites/default/files/styles/faculty_profile/public/faculty/kumarr17-115x150_0.jpg?itok=mSaZK3cv",
+      "officialSections": [
+        "Continuing Lecturers"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://cse.ucsd.edu/people/faculty-profiles",
+      "decision": "excluded_non_pi",
+      "reason": "官方职称或名录分组属于教学、兼职、附属、科研支持或其他非独立 PI 岗位。",
+      "evidence": "Continuing Lecturers | https://cse.ucsd.edu/people/faculty-profiles/rakesh-kumar"
+    },
+    {
+      "officialId": "benjamin-l-ochoa",
+      "rosterName": "Benjamin L. Ochoa",
+      "title": null,
+      "profileUrl": "https://cse.ucsd.edu/people/faculty-profiles/benjamin-l-ochoa",
+      "portraitUrl": "https://cse.ucsd.edu/sites/default/files/styles/faculty_profile/public/faculty/ochoa17-115x150.jpg?itok=LmmXDJk7",
+      "officialSections": [
+        "Continuing Lecturers"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://cse.ucsd.edu/people/faculty-profiles",
+      "decision": "excluded_non_pi",
+      "reason": "官方职称或名录分组属于教学、兼职、附属、科研支持或其他非独立 PI 岗位。",
+      "evidence": "Continuing Lecturers | https://cse.ucsd.edu/people/faculty-profiles/benjamin-l-ochoa"
+    },
+    {
+      "officialId": "thomas-powell",
+      "rosterName": "Thomas A. Powell",
+      "title": null,
+      "profileUrl": "https://cse.ucsd.edu/people/faculty-profiles/thomas-powell",
+      "portraitUrl": "https://cse.ucsd.edu/sites/default/files/styles/faculty_profile/public/faculty/powellF17-115x150.jpg?itok=T-QXI2-r",
+      "officialSections": [
+        "Continuing Lecturers"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://cse.ucsd.edu/people/faculty-profiles",
+      "decision": "excluded_non_pi",
+      "reason": "官方职称或名录分组属于教学、兼职、附属、科研支持或其他非独立 PI 岗位。",
+      "evidence": "Continuing Lecturers | https://cse.ucsd.edu/people/faculty-profiles/thomas-powell"
+    },
+    {
+      "officialId": "steve-rotenberg",
+      "rosterName": "Steve Rotenberg",
+      "title": null,
+      "profileUrl": "https://cse.ucsd.edu/people/faculty-profiles/steve-rotenberg",
+      "portraitUrl": "https://cse.ucsd.edu/sites/default/files/styles/faculty_profile/public/faculty/blank115x150-2.jpg?itok=DtUO_TTl",
+      "officialSections": [
+        "Continuing Lecturers"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://cse.ucsd.edu/people/faculty-profiles",
+      "decision": "excluded_non_pi",
+      "reason": "官方职称或名录分组属于教学、兼职、附属、科研支持或其他非独立 PI 岗位。",
+      "evidence": "Continuing Lecturers | https://cse.ucsd.edu/people/faculty-profiles/steve-rotenberg"
+    },
+    {
+      "officialId": "beth-friedman",
+      "rosterName": "Beth Friedman",
+      "title": null,
+      "profileUrl": "https://cse.ucsd.edu/people/faculty-profiles/beth-friedman",
+      "portraitUrl": "https://cse.ucsd.edu/sites/default/files/styles/faculty_profile/public/faculty/friedman17-115x150.jpg?itok=3ccn-98E",
+      "officialSections": [
+        "Researchers"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://cse.ucsd.edu/people/faculty-profiles",
+      "decision": "excluded_non_pi",
+      "reason": "冻结官方名录未提供可确认现任独立 PI 的教授或 faculty 职称。",
+      "evidence": "Researchers | https://cse.ucsd.edu/people/faculty-profiles/beth-friedman"
+    },
+    {
+      "officialId": "samuel-r-buss",
+      "rosterName": "Samuel R. Buss",
+      "title": null,
+      "profileUrl": "https://cse.ucsd.edu/people/faculty-profiles/samuel-r-buss",
+      "portraitUrl": "https://cse.ucsd.edu/sites/default/files/styles/faculty_profile/public/faculty/buss17-115x150.jpg?itok=bYkwoyrk",
+      "officialSections": [
+        "Adjunct"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://cse.ucsd.edu/people/faculty-profiles",
+      "decision": "excluded_non_pi",
+      "reason": "官方职称或名录分组属于教学、兼职、附属、科研支持或其他非独立 PI 岗位。",
+      "evidence": "Adjunct | https://cse.ucsd.edu/people/faculty-profiles/samuel-r-buss"
+    },
+    {
+      "officialId": "kimberly-c-claffy",
+      "rosterName": "Kimberly C. Claffy",
+      "title": null,
+      "profileUrl": "https://cse.ucsd.edu/people/faculty-profiles/kimberly-c-claffy",
+      "portraitUrl": "https://cse.ucsd.edu/sites/default/files/styles/faculty_profile/public/faculty/claffy17-115x150_0.jpg?itok=1AZ_g6sS",
+      "officialSections": [
+        "Adjunct"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://cse.ucsd.edu/people/faculty-profiles",
+      "decision": "excluded_non_pi",
+      "reason": "官方职称或名录分组属于教学、兼职、附属、科研支持或其他非独立 PI 岗位。",
+      "evidence": "Adjunct | https://cse.ucsd.edu/people/faculty-profiles/kimberly-c-claffy"
+    },
+    {
+      "officialId": "charles-elkan",
+      "rosterName": "Charles Elkan",
+      "title": null,
+      "profileUrl": "https://cse.ucsd.edu/people/faculty-profiles/charles-elkan",
+      "portraitUrl": "https://cse.ucsd.edu/sites/default/files/styles/faculty_profile/public/faculty/elkan17-115x150.jpg?itok=P0xP0r3c",
+      "officialSections": [
+        "Adjunct"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://cse.ucsd.edu/people/faculty-profiles",
+      "decision": "excluded_non_pi",
+      "reason": "官方职称或名录分组属于教学、兼职、附属、科研支持或其他非独立 PI 岗位。",
+      "evidence": "Adjunct | https://cse.ucsd.edu/people/faculty-profiles/charles-elkan"
+    },
+    {
+      "officialId": "mai-elsherief",
+      "rosterName": "Mai ElSherief",
+      "title": null,
+      "profileUrl": "https://cse.ucsd.edu/people/faculty-profiles/mai-elsherief",
+      "portraitUrl": "https://cse.ucsd.edu/sites/default/files/styles/faculty_profile/public/faculty/elsherief17-115x150.png?itok=nXeU_XfJ",
+      "officialSections": [
+        "Adjunct"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://cse.ucsd.edu/people/faculty-profiles",
+      "decision": "excluded_non_pi",
+      "reason": "官方职称或名录分组属于教学、兼职、附属、科研支持或其他非独立 PI 岗位。",
+      "evidence": "Adjunct | https://cse.ucsd.edu/people/faculty-profiles/mai-elsherief"
+    },
+    {
+      "officialId": "james-d-hollan",
+      "rosterName": "James D. Hollan",
+      "title": null,
+      "profileUrl": "https://cse.ucsd.edu/people/faculty-profiles/james-d-hollan",
+      "portraitUrl": "https://cse.ucsd.edu/sites/default/files/styles/faculty_profile/public/faculty/hollan17-115x150.jpg?itok=PVxP7qsx",
+      "officialSections": [
+        "Adjunct"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://cse.ucsd.edu/people/faculty-profiles",
+      "decision": "excluded_non_pi",
+      "reason": "官方职称或名录分组属于教学、兼职、附属、科研支持或其他非独立 PI 岗位。",
+      "evidence": "Adjunct | https://cse.ucsd.edu/people/faculty-profiles/james-d-hollan"
+    },
+    {
+      "officialId": "sorin-lerner",
+      "rosterName": "Sorin Lerner",
+      "title": null,
+      "profileUrl": "https://cse.ucsd.edu/people/faculty-profiles/sorin-lerner",
+      "portraitUrl": "https://cse.ucsd.edu/sites/default/files/styles/faculty_profile/public/faculty/lerner17-115x150.jpg?itok=vlAmeDYB",
+      "officialSections": [
+        "Adjunct"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://cse.ucsd.edu/people/faculty-profiles",
+      "decision": "excluded_non_pi",
+      "reason": "官方职称或名录分组属于教学、兼职、附属、科研支持或其他非独立 PI 岗位。",
+      "evidence": "Adjunct | https://cse.ucsd.edu/people/faculty-profiles/sorin-lerner"
+    },
+    {
+      "officialId": "yannis-papakonstantinou",
+      "rosterName": "Yannis Papakonstantinou",
+      "title": null,
+      "profileUrl": "https://cse.ucsd.edu/people/faculty-profiles/yannis-papakonstantinou",
+      "portraitUrl": "https://cse.ucsd.edu/sites/default/files/styles/faculty_profile/public/faculty/yannis17-115x150.jpg?itok=W7OJTCs2",
+      "officialSections": [
+        "Adjunct"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://cse.ucsd.edu/people/faculty-profiles",
+      "decision": "excluded_non_pi",
+      "reason": "官方职称或名录分组属于教学、兼职、附属、科研支持或其他非独立 PI 岗位。",
+      "evidence": "Adjunct | https://cse.ucsd.edu/people/faculty-profiles/yannis-papakonstantinou"
+    },
+    {
+      "officialId": "terrence-j-sejnowski",
+      "rosterName": "Terrence J. Sejnowski",
+      "title": null,
+      "profileUrl": "https://cse.ucsd.edu/people/faculty-profiles/terrence-j-sejnowski",
+      "portraitUrl": "https://cse.ucsd.edu/sites/default/files/styles/faculty_profile/public/faculty/sejnowski17-115x150.jpg?itok=uiwG8Mhh",
+      "officialSections": [
+        "Adjunct"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://cse.ucsd.edu/people/faculty-profiles",
+      "decision": "excluded_non_pi",
+      "reason": "官方职称或名录分组属于教学、兼职、附属、科研支持或其他非独立 PI 岗位。",
+      "evidence": "Adjunct | https://cse.ucsd.edu/people/faculty-profiles/terrence-j-sejnowski"
+    },
+    {
+      "officialId": "mikio-aoi",
+      "rosterName": "Mikio Aoi",
+      "title": null,
+      "profileUrl": "https://cse.ucsd.edu/people/faculty-profiles/mikio-aoi",
+      "portraitUrl": "https://cse.ucsd.edu/sites/default/files/styles/faculty_profile/public/faculty/aoi17-115x150.png?itok=YTjJA-E9",
+      "officialSections": [
+        "Affiliated"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://cse.ucsd.edu/people/faculty-profiles",
+      "decision": "excluded_non_pi",
+      "reason": "官方职称或名录分组属于教学、兼职、附属、科研支持或其他非独立 PI 岗位。",
+      "evidence": "Affiliated | https://cse.ucsd.edu/people/faculty-profiles/mikio-aoi"
+    },
+    {
+      "officialId": "vikas-bansal",
+      "rosterName": "Vikas Bansal",
+      "title": null,
+      "profileUrl": "https://cse.ucsd.edu/people/faculty-profiles/vikas-bansal",
+      "portraitUrl": "https://cse.ucsd.edu/sites/default/files/styles/faculty_profile/public/faculty/bansal17-115x150.jpg?itok=uylEEW7q",
+      "officialSections": [
+        "Affiliated"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://cse.ucsd.edu/people/faculty-profiles",
+      "decision": "excluded_non_pi",
+      "reason": "官方职称或名录分组属于教学、兼职、附属、科研支持或其他非独立 PI 岗位。",
+      "evidence": "Affiliated | https://cse.ucsd.edu/people/faculty-profiles/vikas-bansal"
+    },
+    {
+      "officialId": "mikhail-belkin",
+      "rosterName": "Mikhail Belkin",
+      "title": null,
+      "profileUrl": "https://cse.ucsd.edu/people/faculty-profiles/mikhail-belkin",
+      "portraitUrl": "https://cse.ucsd.edu/sites/default/files/styles/faculty_profile/public/faculty/belkin17-115x150.png?itok=iEJ5fCM7",
+      "officialSections": [
+        "Affiliated"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://cse.ucsd.edu/people/faculty-profiles",
+      "decision": "excluded_non_pi",
+      "reason": "官方职称或名录分组属于教学、兼职、附属、科研支持或其他非独立 PI 岗位。",
+      "evidence": "Affiliated | https://cse.ucsd.edu/people/faculty-profiles/mikhail-belkin"
+    },
+    {
+      "officialId": "leon-bergen",
+      "rosterName": "Leon Bergen",
+      "title": null,
+      "profileUrl": "https://cse.ucsd.edu/people/faculty-profiles/leon-bergen",
+      "portraitUrl": "https://cse.ucsd.edu/sites/default/files/styles/faculty_profile/public/faculty/bergen17-115x150.png?itok=HtWYousA",
+      "officialSections": [
+        "Affiliated"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://cse.ucsd.edu/people/faculty-profiles",
+      "decision": "excluded_non_pi",
+      "reason": "官方职称或名录分组属于教学、兼职、附属、科研支持或其他非独立 PI 岗位。",
+      "evidence": "Affiliated | https://cse.ucsd.edu/people/faculty-profiles/leon-bergen"
+    },
+    {
+      "officialId": "thomas-bewley",
+      "rosterName": "Thomas Bewley",
+      "title": null,
+      "profileUrl": "https://cse.ucsd.edu/people/faculty-profiles/thomas-bewley",
+      "portraitUrl": "https://cse.ucsd.edu/sites/default/files/styles/faculty_profile/public/faculty/bewley17-115x150.jpg?itok=loflEMH4",
+      "officialSections": [
+        "Affiliated"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://cse.ucsd.edu/people/faculty-profiles",
+      "decision": "excluded_non_pi",
+      "reason": "官方职称或名录分组属于教学、兼职、附属、科研支持或其他非独立 PI 岗位。",
+      "evidence": "Affiliated | https://cse.ucsd.edu/people/faculty-profiles/thomas-bewley"
+    },
+    {
+      "officialId": "dinesh-bharadia",
+      "rosterName": "Dinesh Bharadia",
+      "title": null,
+      "profileUrl": "https://cse.ucsd.edu/people/faculty-profiles/dinesh-bharadia",
+      "portraitUrl": "https://cse.ucsd.edu/sites/default/files/styles/faculty_profile/public/faculty/bharadia17-115x150.jpg?itok=w49bbfJ8",
+      "officialSections": [
+        "Affiliated"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://cse.ucsd.edu/people/faculty-profiles",
+      "decision": "excluded_non_pi",
+      "reason": "官方职称或名录分组属于教学、兼职、附属、科研支持或其他非独立 PI 岗位。",
+      "evidence": "Affiliated | https://cse.ucsd.edu/people/faculty-profiles/dinesh-bharadia"
+    },
+    {
+      "officialId": "christian-dameff",
+      "rosterName": "Christian Dameff",
+      "title": null,
+      "profileUrl": "https://cse.ucsd.edu/people/faculty-profiles/christian-dameff",
+      "portraitUrl": "https://cse.ucsd.edu/sites/default/files/styles/faculty_profile/public/faculty/dameff17-115x150.png?itok=rA_IUkTe",
+      "officialSections": [
+        "Affiliated"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://cse.ucsd.edu/people/faculty-profiles",
+      "decision": "excluded_non_pi",
+      "reason": "官方职称或名录分组属于教学、兼职、附属、科研支持或其他非独立 PI 岗位。",
+      "evidence": "Affiliated | https://cse.ucsd.edu/people/faculty-profiles/christian-dameff"
+    },
+    {
+      "officialId": "david-danks",
+      "rosterName": "David Danks",
+      "title": null,
+      "profileUrl": "https://cse.ucsd.edu/people/faculty-profiles/david-danks",
+      "portraitUrl": "https://cse.ucsd.edu/sites/default/files/styles/faculty_profile/public/faculty/danks17-115x150.png?itok=hgMjWRvy",
+      "officialSections": [
+        "Affiliated"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://cse.ucsd.edu/people/faculty-profiles",
+      "decision": "excluded_non_pi",
+      "reason": "官方职称或名录分组属于教学、兼职、附属、科研支持或其他非独立 PI 岗位。",
+      "evidence": "Affiliated | https://cse.ucsd.edu/people/faculty-profiles/david-danks"
+    },
+    {
+      "officialId": "virginia-de-sa",
+      "rosterName": "Virginia de Sa",
+      "title": null,
+      "profileUrl": "https://cse.ucsd.edu/people/faculty-profiles/virginia-de-sa",
+      "portraitUrl": "https://cse.ucsd.edu/sites/default/files/styles/faculty_profile/public/faculty/desa17-115x150.png?itok=L3NgEvE8",
+      "officialSections": [
+        "Affiliated"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://cse.ucsd.edu/people/faculty-profiles",
+      "decision": "excluded_non_pi",
+      "reason": "官方职称或名录分组属于教学、兼职、附属、科研支持或其他非独立 PI 岗位。",
+      "evidence": "Affiliated | https://cse.ucsd.edu/people/faculty-profiles/virginia-de-sa"
+    },
+    {
+      "officialId": "steven-dow",
+      "rosterName": "Steven Dow",
+      "title": null,
+      "profileUrl": "https://cse.ucsd.edu/people/faculty-profiles/steven-dow",
+      "portraitUrl": "https://cse.ucsd.edu/sites/default/files/styles/faculty_profile/public/faculty/dow17-115x150.jpg?itok=ICoz9AsJ",
+      "officialSections": [
+        "Affiliated"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://cse.ucsd.edu/people/faculty-profiles",
+      "decision": "excluded_non_pi",
+      "reason": "官方职称或名录分组属于教学、兼职、附属、科研支持或其他非独立 PI 岗位。",
+      "evidence": "Affiliated | https://cse.ucsd.edu/people/faculty-profiles/steven-dow"
+    },
+    {
+      "officialId": "shlomo-dubnov",
+      "rosterName": "Shlomo Dubnov",
+      "title": null,
+      "profileUrl": "https://cse.ucsd.edu/people/faculty-profiles/shlomo-dubnov",
+      "portraitUrl": "https://cse.ucsd.edu/sites/default/files/styles/faculty_profile/public/faculty/dubnov17-115x150.jpg?itok=kKVHDlGe",
+      "officialSections": [
+        "Affiliated"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://cse.ucsd.edu/people/faculty-profiles",
+      "decision": "excluded_non_pi",
+      "reason": "官方职称或名录分组属于教学、兼职、附属、科研支持或其他非独立 PI 岗位。",
+      "evidence": "Affiliated | https://cse.ucsd.edu/people/faculty-profiles/shlomo-dubnov"
+    },
+    {
+      "officialId": "stuart-geiger",
+      "rosterName": "Stuart Geiger",
+      "title": null,
+      "profileUrl": "https://cse.ucsd.edu/people/faculty-profiles/stuart-geiger",
+      "portraitUrl": "https://cse.ucsd.edu/sites/default/files/styles/faculty_profile/public/faculty/geiger17-115x150.png?itok=nvQyg_5i",
+      "officialSections": [
+        "Affiliated"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://cse.ucsd.edu/people/faculty-profiles",
+      "decision": "excluded_non_pi",
+      "reason": "官方职称或名录分组属于教学、兼职、附属、科研支持或其他非独立 PI 岗位。",
+      "evidence": "Affiliated | https://cse.ucsd.edu/people/faculty-profiles/stuart-geiger"
+    },
+    {
+      "officialId": "philip-j-guo",
+      "rosterName": "Philip J. Guo",
+      "title": null,
+      "profileUrl": "https://cse.ucsd.edu/people/faculty-profiles/philip-j-guo",
+      "portraitUrl": "https://cse.ucsd.edu/sites/default/files/styles/faculty_profile/public/faculty/guo17-115x150.jpg?itok=rz1S4lk0",
+      "officialSections": [
+        "Affiliated"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://cse.ucsd.edu/people/faculty-profiles",
+      "decision": "excluded_non_pi",
+      "reason": "官方职称或名录分组属于教学、兼职、附属、科研支持或其他非独立 PI 岗位。",
+      "evidence": "Affiliated | https://cse.ucsd.edu/people/faculty-profiles/philip-j-guo"
+    },
+    {
+      "officialId": "amarnath-gupta",
+      "rosterName": "Amarnath Gupta",
+      "title": null,
+      "profileUrl": "https://cse.ucsd.edu/people/faculty-profiles/amarnath-gupta",
+      "portraitUrl": "https://cse.ucsd.edu/sites/default/files/styles/faculty_profile/public/faculty/guptaa17-115x150.jpg?itok=g59otpS0",
+      "officialSections": [
+        "Affiliated"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://cse.ucsd.edu/people/faculty-profiles",
+      "decision": "excluded_non_pi",
+      "reason": "官方职称或名录分组属于教学、兼职、附属、科研支持或其他非独立 PI 岗位。",
+      "evidence": "Affiliated | https://cse.ucsd.edu/people/faculty-profiles/amarnath-gupta"
+    },
+    {
+      "officialId": "sylvia-herbert",
+      "rosterName": "Sylvia Herbert",
+      "title": null,
+      "profileUrl": "https://cse.ucsd.edu/people/faculty-profiles/sylvia-herbert",
+      "portraitUrl": "https://cse.ucsd.edu/sites/default/files/styles/faculty_profile/public/faculty/herbert17-115x150.png?itok=_OwyCIZE",
+      "officialSections": [
+        "Affiliated"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://cse.ucsd.edu/people/faculty-profiles",
+      "decision": "excluded_non_pi",
+      "reason": "官方职称或名录分组属于教学、兼职、附属、科研支持或其他非独立 PI 岗位。",
+      "evidence": "Affiliated | https://cse.ucsd.edu/people/faculty-profiles/sylvia-herbert"
+    },
+    {
+      "officialId": "zhiting-hu",
+      "rosterName": "Zhiting Hu",
+      "title": null,
+      "profileUrl": "https://cse.ucsd.edu/people/faculty-profiles/zhiting-hu",
+      "portraitUrl": "https://cse.ucsd.edu/sites/default/files/styles/faculty_profile/public/faculty/hu-z17-115x150.png?itok=icVIlmWK",
+      "officialSections": [
+        "Affiliated"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://cse.ucsd.edu/people/faculty-profiles",
+      "decision": "excluded_non_pi",
+      "reason": "官方职称或名录分组属于教学、兼职、附属、科研支持或其他非独立 PI 岗位。",
+      "evidence": "Affiliated | https://cse.ucsd.edu/people/faculty-profiles/zhiting-hu"
+    },
+    {
+      "officialId": "trey-ideker",
+      "rosterName": "Trey Ideker",
+      "title": null,
+      "profileUrl": "https://cse.ucsd.edu/people/faculty-profiles/trey-ideker",
+      "portraitUrl": "https://cse.ucsd.edu/sites/default/files/styles/faculty_profile/public/faculty/i.png?itok=DajkZjHO",
+      "officialSections": [
+        "Affiliated"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://cse.ucsd.edu/people/faculty-profiles",
+      "decision": "excluded_non_pi",
+      "reason": "官方职称或名录分组属于教学、兼职、附属、科研支持或其他非独立 PI 岗位。",
+      "evidence": "Affiliated | https://cse.ucsd.edu/people/faculty-profiles/trey-ideker"
+    },
+    {
+      "officialId": "lilly-irani",
+      "rosterName": "Lilly Irani",
+      "title": null,
+      "profileUrl": "https://cse.ucsd.edu/people/faculty-profiles/lilly-irani",
+      "portraitUrl": "https://cse.ucsd.edu/sites/default/files/styles/faculty_profile/public/faculty/irani17-115x150.png?itok=QBXtbcmx",
+      "officialSections": [
+        "Affiliated"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://cse.ucsd.edu/people/faculty-profiles",
+      "decision": "excluded_non_pi",
+      "reason": "官方职称或名录分组属于教学、兼职、附属、科研支持或其他非独立 PI 岗位。",
+      "evidence": "Affiliated | https://cse.ucsd.edu/people/faculty-profiles/lilly-irani"
+    },
+    {
+      "officialId": "tara-javidi",
+      "rosterName": "Tara Javidi",
+      "title": null,
+      "profileUrl": "https://cse.ucsd.edu/people/faculty-profiles/tara-javidi",
+      "portraitUrl": "https://cse.ucsd.edu/sites/default/files/styles/faculty_profile/public/faculty/javidi17-115x150.jpg?itok=a1aXTntN",
+      "officialSections": [
+        "Affiliated"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://cse.ucsd.edu/people/faculty-profiles",
+      "decision": "excluded_non_pi",
+      "reason": "官方职称或名录分组属于教学、兼职、附属、科研支持或其他非独立 PI 岗位。",
+      "evidence": "Affiliated | https://cse.ucsd.edu/people/faculty-profiles/tara-javidi"
+    },
+    {
+      "officialId": "haojian-jin",
+      "rosterName": "Haojian Jin",
+      "title": null,
+      "profileUrl": "https://cse.ucsd.edu/people/faculty-profiles/haojian-jin",
+      "portraitUrl": "https://cse.ucsd.edu/sites/default/files/styles/faculty_profile/public/faculty/haojian-img.png?itok=GUC773dJ",
+      "officialSections": [
+        "Affiliated"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://cse.ucsd.edu/people/faculty-profiles",
+      "decision": "excluded_non_pi",
+      "reason": "官方职称或名录分组属于教学、兼职、附属、科研支持或其他非独立 PI 岗位。",
+      "evidence": "Affiliated | https://cse.ucsd.edu/people/faculty-profiles/haojian-jin"
+    },
+    {
+      "officialId": "david-kirsh",
+      "rosterName": "David Kirsh",
+      "title": null,
+      "profileUrl": "https://cse.ucsd.edu/people/faculty-profiles/david-kirsh",
+      "portraitUrl": "https://cse.ucsd.edu/sites/default/files/styles/faculty_profile/public/faculty/kirsh17-115x150.jpg?itok=hyojqPu9",
+      "officialSections": [
+        "Affiliated"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://cse.ucsd.edu/people/faculty-profiles",
+      "decision": "excluded_non_pi",
+      "reason": "官方职称或名录分组属于教学、兼职、附属、科研支持或其他非独立 PI 岗位。",
+      "evidence": "Affiliated | https://cse.ucsd.edu/people/faculty-profiles/david-kirsh"
+    },
+    {
+      "officialId": "falko-kuester",
+      "rosterName": "Falko Kuester",
+      "title": null,
+      "profileUrl": "https://cse.ucsd.edu/people/faculty-profiles/falko-kuester",
+      "portraitUrl": "https://cse.ucsd.edu/sites/default/files/styles/faculty_profile/public/faculty/kuester17-115x150.jpg?itok=qYO7IZgE",
+      "officialSections": [
+        "Affiliated"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://cse.ucsd.edu/people/faculty-profiles",
+      "decision": "excluded_non_pi",
+      "reason": "官方职称或名录分组属于教学、兼职、附属、科研支持或其他非独立 PI 岗位。",
+      "evidence": "Affiliated | https://cse.ucsd.edu/people/faculty-profiles/falko-kuester"
+    },
+    {
+      "officialId": "yian-ma",
+      "rosterName": "Yian Ma",
+      "title": null,
+      "profileUrl": "https://cse.ucsd.edu/people/faculty-profiles/yian-ma",
+      "portraitUrl": "https://cse.ucsd.edu/sites/default/files/styles/faculty_profile/public/faculty/yianma17-115x150.png?itok=ztLlX5TP",
+      "officialSections": [
+        "Affiliated"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://cse.ucsd.edu/people/faculty-profiles",
+      "decision": "excluded_non_pi",
+      "reason": "官方职称或名录分组属于教学、兼职、附属、科研支持或其他非独立 PI 岗位。",
+      "evidence": "Affiliated | https://cse.ucsd.edu/people/faculty-profiles/yian-ma"
+    },
+    {
+      "officialId": "marcelo-mattar",
+      "rosterName": "Marcelo Mattar",
+      "title": null,
+      "profileUrl": "https://cse.ucsd.edu/people/faculty-profiles/marcelo-mattar",
+      "portraitUrl": "https://cse.ucsd.edu/sites/default/files/styles/faculty_profile/public/faculty/MarceloMattar_800x800_1.png?itok=wyfmDoyW",
+      "officialSections": [
+        "Affiliated"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://cse.ucsd.edu/people/faculty-profiles",
+      "decision": "excluded_non_pi",
+      "reason": "官方职称或名录分组属于教学、兼职、附属、科研支持或其他非独立 PI 岗位。",
+      "evidence": "Affiliated | https://cse.ucsd.edu/people/faculty-profiles/marcelo-mattar"
+    },
+    {
+      "officialId": "arya-mazumdar",
+      "rosterName": "Arya Mazumdar",
+      "title": null,
+      "profileUrl": "https://cse.ucsd.edu/people/faculty-profiles/arya-mazumdar",
+      "portraitUrl": "https://cse.ucsd.edu/sites/default/files/styles/faculty_profile/public/faculty/mazumdar17-115x150.png?itok=LnlbrFxo",
+      "officialSections": [
+        "Affiliated"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://cse.ucsd.edu/people/faculty-profiles",
+      "decision": "excluded_non_pi",
+      "reason": "官方职称或名录分组属于教学、兼职、附属、科研支持或其他非独立 PI 岗位。",
+      "evidence": "Affiliated | https://cse.ucsd.edu/people/faculty-profiles/arya-mazumdar"
+    },
+    {
+      "officialId": "jill-p-mesirov",
+      "rosterName": "Jill P. Mesirov",
+      "title": null,
+      "profileUrl": "https://cse.ucsd.edu/people/faculty-profiles/jill-p-mesirov",
+      "portraitUrl": "https://cse.ucsd.edu/sites/default/files/styles/faculty_profile/public/faculty/mesirov17-115x150.jpg?itok=yA_Ny3vq",
+      "officialSections": [
+        "Affiliated"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://cse.ucsd.edu/people/faculty-profiles",
+      "decision": "excluded_non_pi",
+      "reason": "官方职称或名录分组属于教学、兼职、附属、科研支持或其他非独立 PI 岗位。",
+      "evidence": "Affiliated | https://cse.ucsd.edu/people/faculty-profiles/jill-p-mesirov"
+    },
+    {
+      "officialId": "siavash-mirarab",
+      "rosterName": "Siavash Mirarab",
+      "title": null,
+      "profileUrl": "https://cse.ucsd.edu/people/faculty-profiles/siavash-mirarab",
+      "portraitUrl": "https://cse.ucsd.edu/sites/default/files/styles/faculty_profile/public/faculty/mirarab17-115x150_1.png?itok=J6SgAybs",
+      "officialSections": [
+        "Affiliated"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://cse.ucsd.edu/people/faculty-profiles",
+      "decision": "excluded_non_pi",
+      "reason": "官方职称或名录分组属于教学、兼职、附属、科研支持或其他非独立 PI 岗位。",
+      "evidence": "Affiliated | https://cse.ucsd.edu/people/faculty-profiles/siavash-mirarab"
+    },
+    {
+      "officialId": "gal-mishne",
+      "rosterName": "Gal Mishne",
+      "title": null,
+      "profileUrl": "https://cse.ucsd.edu/people/faculty-profiles/gal-mishne",
+      "portraitUrl": "https://cse.ucsd.edu/sites/default/files/styles/faculty_profile/public/faculty/mishne17-115x150.png?itok=pFxMr7XT",
+      "officialSections": [
+        "Affiliated"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://cse.ucsd.edu/people/faculty-profiles",
+      "decision": "excluded_non_pi",
+      "reason": "官方职称或名录分组属于教学、兼职、附属、科研支持或其他非独立 PI 岗位。",
+      "evidence": "Affiliated | https://cse.ucsd.edu/people/faculty-profiles/gal-mishne"
+    },
+    {
+      "officialId": "michael-norman",
+      "rosterName": "Michael Norman",
+      "title": null,
+      "profileUrl": "https://cse.ucsd.edu/people/faculty-profiles/michael-norman",
+      "portraitUrl": "https://cse.ucsd.edu/sites/default/files/styles/faculty_profile/public/faculty/norman17-115x150.jpg?itok=xTLCBqGc",
+      "officialSections": [
+        "Affiliated"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://cse.ucsd.edu/people/faculty-profiles",
+      "decision": "excluded_non_pi",
+      "reason": "官方职称或名录分组属于教学、兼职、附属、科研支持或其他非独立 PI 岗位。",
+      "evidence": "Affiliated | https://cse.ucsd.edu/people/faculty-profiles/michael-norman"
+    },
+    {
+      "officialId": "tauhidur-rahman",
+      "rosterName": "Tauhidur Rahman",
+      "title": null,
+      "profileUrl": "https://cse.ucsd.edu/people/faculty-profiles/tauhidur-rahman",
+      "portraitUrl": "https://cse.ucsd.edu/sites/default/files/styles/faculty_profile/public/faculty/tauhidur-rahman.jpeg?itok=LYqxhv-x",
+      "officialSections": [
+        "Affiliated"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://cse.ucsd.edu/people/faculty-profiles",
+      "decision": "excluded_non_pi",
+      "reason": "官方职称或名录分组属于教学、兼职、附属、科研支持或其他非独立 PI 岗位。",
+      "evidence": "Affiliated | https://cse.ucsd.edu/people/faculty-profiles/tauhidur-rahman"
+    },
+    {
+      "officialId": "babak-salimi",
+      "rosterName": "Babak Salimi",
+      "title": null,
+      "profileUrl": "https://cse.ucsd.edu/people/faculty-profiles/babak-salimi",
+      "portraitUrl": "https://cse.ucsd.edu/sites/default/files/styles/faculty_profile/public/faculty/salimi17-115x150.png?itok=CGKxlZ8m",
+      "officialSections": [
+        "Affiliated"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://cse.ucsd.edu/people/faculty-profiles",
+      "decision": "excluded_non_pi",
+      "reason": "官方职称或名录分组属于教学、兼职、附属、科研支持或其他非独立 PI 岗位。",
+      "evidence": "Affiliated | https://cse.ucsd.edu/people/faculty-profiles/babak-salimi"
+    },
+    {
+      "officialId": "glenn-tesler",
+      "rosterName": "Glenn Tesler",
+      "title": null,
+      "profileUrl": "https://cse.ucsd.edu/people/faculty-profiles/glenn-tesler",
+      "portraitUrl": "https://cse.ucsd.edu/sites/default/files/styles/faculty_profile/public/faculty/tesler17-115x150.jpg?itok=0DnweXky",
+      "officialSections": [
+        "Affiliated"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://cse.ucsd.edu/people/faculty-profiles",
+      "decision": "excluded_non_pi",
+      "reason": "官方职称或名录分组属于教学、兼职、附属、科研支持或其他非独立 PI 岗位。",
+      "evidence": "Affiliated | https://cse.ucsd.edu/people/faculty-profiles/glenn-tesler"
+    },
+    {
+      "officialId": "zhuowen-tu",
+      "rosterName": "Zhuowen Tu",
+      "title": null,
+      "profileUrl": "https://cse.ucsd.edu/people/faculty-profiles/zhuowen-tu",
+      "portraitUrl": "https://cse.ucsd.edu/sites/default/files/styles/faculty_profile/public/faculty/tu17-115x150.jpg?itok=QONviKYa",
+      "officialSections": [
+        "Affiliated"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://cse.ucsd.edu/people/faculty-profiles",
+      "decision": "excluded_non_pi",
+      "reason": "官方职称或名录分组属于教学、兼职、附属、科研支持或其他非独立 PI 岗位。",
+      "evidence": "Affiliated | https://cse.ucsd.edu/people/faculty-profiles/zhuowen-tu"
+    },
+    {
+      "officialId": "yatish-turakhia",
+      "rosterName": "Yatish Turakhia",
+      "title": null,
+      "profileUrl": "https://cse.ucsd.edu/people/faculty-profiles/yatish-turakhia",
+      "portraitUrl": "https://cse.ucsd.edu/sites/default/files/styles/faculty_profile/public/faculty/turakhia17-115x150.png?itok=dK40xItY",
+      "officialSections": [
+        "Affiliated"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://cse.ucsd.edu/people/faculty-profiles",
+      "decision": "excluded_non_pi",
+      "reason": "官方职称或名录分组属于教学、兼职、附属、科研支持或其他非独立 PI 岗位。",
+      "evidence": "Affiliated | https://cse.ucsd.edu/people/faculty-profiles/yatish-turakhia"
+    },
+    {
+      "officialId": "berk-ustun",
+      "rosterName": "Berk Ustun",
+      "title": null,
+      "profileUrl": "https://cse.ucsd.edu/people/faculty-profiles/berk-ustun",
+      "portraitUrl": "https://cse.ucsd.edu/sites/default/files/styles/faculty_profile/public/faculty/ustun17-115x150.png?itok=Ro295vBU",
+      "officialSections": [
+        "Affiliated"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://cse.ucsd.edu/people/faculty-profiles",
+      "decision": "excluded_non_pi",
+      "reason": "官方职称或名录分组属于教学、兼职、附属、科研支持或其他非独立 PI 岗位。",
+      "evidence": "Affiliated | https://cse.ucsd.edu/people/faculty-profiles/berk-ustun"
+    },
+    {
+      "officialId": "edward-wang",
+      "rosterName": "Edward Wang",
+      "title": null,
+      "profileUrl": "https://cse.ucsd.edu/people/faculty-profiles/edward-wang",
+      "portraitUrl": "https://cse.ucsd.edu/sites/default/files/styles/faculty_profile/public/faculty/ewang17-115x150.png?itok=HudTec_g",
+      "officialSections": [
+        "Affiliated"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://cse.ucsd.edu/people/faculty-profiles",
+      "decision": "excluded_non_pi",
+      "reason": "官方职称或名录分组属于教学、兼职、附属、科研支持或其他非独立 PI 岗位。",
+      "evidence": "Affiliated | https://cse.ucsd.edu/people/faculty-profiles/edward-wang"
+    },
+    {
+      "officialId": "xiaolong-wang",
+      "rosterName": "Xiaolong Wang",
+      "title": null,
+      "profileUrl": "https://cse.ucsd.edu/people/faculty-profiles/xiaolong-wang",
+      "portraitUrl": "https://cse.ucsd.edu/sites/default/files/styles/faculty_profile/public/faculty/wangx17-115x150.png?itok=nx5oUiKx",
+      "officialSections": [
+        "Affiliated"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://cse.ucsd.edu/people/faculty-profiles",
+      "decision": "excluded_non_pi",
+      "reason": "官方职称或名录分组属于教学、兼职、附属、科研支持或其他非独立 PI 岗位。",
+      "evidence": "Affiliated | https://cse.ucsd.edu/people/faculty-profiles/xiaolong-wang"
+    },
+    {
+      "officialId": "yusu-wang",
+      "rosterName": "Yusu Wang",
+      "title": null,
+      "profileUrl": "https://cse.ucsd.edu/people/faculty-profiles/yusu-wang",
+      "portraitUrl": "https://cse.ucsd.edu/sites/default/files/styles/faculty_profile/public/faculty/wang17-115x150.png?itok=hQwIN6NS",
+      "officialSections": [
+        "Affiliated"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://cse.ucsd.edu/people/faculty-profiles",
+      "decision": "excluded_non_pi",
+      "reason": "官方职称或名录分组属于教学、兼职、附属、科研支持或其他非独立 PI 岗位。",
+      "evidence": "Affiliated | https://cse.ucsd.edu/people/faculty-profiles/yusu-wang"
+    },
+    {
+      "officialId": "lily-weng",
+      "rosterName": "Lily Weng",
+      "title": null,
+      "profileUrl": "https://cse.ucsd.edu/people/faculty-profiles/lily-weng",
+      "portraitUrl": "https://cse.ucsd.edu/sites/default/files/styles/faculty_profile/public/faculty/Lily-2_2.jpeg?itok=BhkHnq_u",
+      "officialSections": [
+        "Affiliated"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://cse.ucsd.edu/people/faculty-profiles",
+      "decision": "excluded_non_pi",
+      "reason": "官方职称或名录分组属于教学、兼职、附属、科研支持或其他非独立 PI 岗位。",
+      "evidence": "Affiliated | https://cse.ucsd.edu/people/faculty-profiles/lily-weng"
+    },
+    {
+      "officialId": "haijun-xia",
+      "rosterName": "Haijun Xia",
+      "title": null,
+      "profileUrl": "https://cse.ucsd.edu/people/faculty-profiles/haijun-xia",
+      "portraitUrl": "https://cse.ucsd.edu/sites/default/files/styles/faculty_profile/public/faculty/xia17-115x150.png?itok=VXLScgoP",
+      "officialSections": [
+        "Affiliated"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://cse.ucsd.edu/people/faculty-profiles",
+      "decision": "excluded_non_pi",
+      "reason": "官方职称或名录分组属于教学、兼职、附属、科研支持或其他非独立 PI 岗位。",
+      "evidence": "Affiliated | https://cse.ucsd.edu/people/faculty-profiles/haijun-xia"
+    },
+    {
+      "officialId": "michael-yip",
+      "rosterName": "Michael Yip",
+      "title": null,
+      "profileUrl": "https://cse.ucsd.edu/people/faculty-profiles/michael-yip",
+      "portraitUrl": "https://cse.ucsd.edu/sites/default/files/styles/faculty_profile/public/faculty/y2.jpg?itok=Kw_V6XVE",
+      "officialSections": [
+        "Affiliated"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://cse.ucsd.edu/people/faculty-profiles",
+      "decision": "excluded_non_pi",
+      "reason": "官方职称或名录分组属于教学、兼职、附属、科研支持或其他非独立 PI 岗位。",
+      "evidence": "Affiliated | https://cse.ucsd.edu/people/faculty-profiles/michael-yip"
+    },
+    {
+      "officialId": "angela-j-yu",
+      "rosterName": "Angela J. Yu",
+      "title": null,
+      "profileUrl": "https://cse.ucsd.edu/people/faculty-profiles/angela-j-yu",
+      "portraitUrl": "https://cse.ucsd.edu/sites/default/files/styles/faculty_profile/public/faculty/yu17-115x150.jpg?itok=cN2JSzpP",
+      "officialSections": [
+        "Affiliated"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://cse.ucsd.edu/people/faculty-profiles",
+      "decision": "excluded_non_pi",
+      "reason": "官方职称或名录分组属于教学、兼职、附属、科研支持或其他非独立 PI 岗位。",
+      "evidence": "Affiliated | https://cse.ucsd.edu/people/faculty-profiles/angela-j-yu"
+    },
+    {
+      "officialId": "hao-zhang",
+      "rosterName": "Hao Zhang",
+      "title": null,
+      "profileUrl": "https://cse.ucsd.edu/people/faculty-profiles/hao-zhang",
+      "portraitUrl": "https://cse.ucsd.edu/sites/default/files/styles/faculty_profile/public/faculty/hao2.png?itok=GUwdXNmX",
+      "officialSections": [
+        "Affiliated"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://cse.ucsd.edu/people/faculty-profiles",
+      "decision": "excluded_non_pi",
+      "reason": "官方职称或名录分组属于教学、兼职、附属、科研支持或其他非独立 PI 岗位。",
+      "evidence": "Affiliated | https://cse.ucsd.edu/people/faculty-profiles/hao-zhang"
+    },
+    {
+      "officialId": "xinyu-zhang",
+      "rosterName": "Xinyu Zhang",
+      "title": null,
+      "profileUrl": "https://cse.ucsd.edu/people/faculty-profiles/xinyu-zhang",
+      "portraitUrl": "https://cse.ucsd.edu/sites/default/files/styles/faculty_profile/public/faculty/xyzhang17-115x150.png?itok=VLdEOGIj",
+      "officialSections": [
+        "Affiliated"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://cse.ucsd.edu/people/faculty-profiles",
+      "decision": "excluded_non_pi",
+      "reason": "官方职称或名录分组属于教学、兼职、附属、科研支持或其他非独立 PI 岗位。",
+      "evidence": "Affiliated | https://cse.ucsd.edu/people/faculty-profiles/xinyu-zhang"
+    },
+    {
+      "officialId": "yang-zheng",
+      "rosterName": "Yang Zheng",
+      "title": null,
+      "profileUrl": "https://cse.ucsd.edu/people/faculty-profiles/yang-zheng",
+      "portraitUrl": "https://cse.ucsd.edu/sites/default/files/styles/faculty_profile/public/faculty/Yang_Zheng.jpg?itok=ckgX3ShI",
+      "officialSections": [
+        "Affiliated"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://cse.ucsd.edu/people/faculty-profiles",
+      "decision": "excluded_non_pi",
+      "reason": "官方职称或名录分组属于教学、兼职、附属、科研支持或其他非独立 PI 岗位。",
+      "evidence": "Affiliated | https://cse.ucsd.edu/people/faculty-profiles/yang-zheng"
+    },
+    {
+      "officialId": "scott-b-baden",
+      "rosterName": "Scott B. Baden",
+      "title": null,
+      "profileUrl": "https://cse.ucsd.edu/people/faculty-profiles/scott-b-baden",
+      "portraitUrl": "https://cse.ucsd.edu/sites/default/files/styles/faculty_profile/public/faculty/baden17-115x150.jpg?itok=dBst7-Nd",
+      "officialSections": [
+        "Emeritus"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://cse.ucsd.edu/people/faculty-profiles",
+      "decision": "excluded_historical",
+      "reason": "官方职称或名录分组明确为荣休、退休或历史人员。",
+      "evidence": "Emeritus | https://cse.ucsd.edu/people/faculty-profiles/scott-b-baden"
+    },
+    {
+      "officialId": "francine-berman",
+      "rosterName": "Francine Berman",
+      "title": null,
+      "profileUrl": "https://cse.ucsd.edu/people/faculty-profiles/francine-berman",
+      "portraitUrl": "https://cse.ucsd.edu/sites/default/files/styles/faculty_profile/public/faculty/berman17-115x150.png?itok=7AdOW73j",
+      "officialSections": [
+        "Emeritus"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://cse.ucsd.edu/people/faculty-profiles",
+      "decision": "excluded_historical",
+      "reason": "官方职称或名录分组明确为荣休、退休或历史人员。",
+      "evidence": "Emeritus | https://cse.ucsd.edu/people/faculty-profiles/francine-berman"
+    },
+    {
+      "officialId": "kenneth-l-bowles",
+      "rosterName": "Kenneth L. Bowles",
+      "title": null,
+      "profileUrl": "https://cse.ucsd.edu/people/faculty-profiles/kenneth-l-bowles",
+      "portraitUrl": "https://cse.ucsd.edu/sites/default/files/styles/faculty_profile/public/faculty/bowles17-115x150.jpg?itok=guzqNrNA",
+      "officialSections": [
+        "Emeritus"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://cse.ucsd.edu/people/faculty-profiles",
+      "decision": "excluded_historical",
+      "reason": "官方职称或名录分组明确为荣休、退休或历史人员。",
+      "evidence": "Emeritus | https://cse.ucsd.edu/people/faculty-profiles/kenneth-l-bowles"
+    },
+    {
+      "officialId": "walter-burkhard",
+      "rosterName": "Walter A. Burkhard",
+      "title": null,
+      "profileUrl": "https://cse.ucsd.edu/people/faculty-profiles/walter-burkhard",
+      "portraitUrl": "https://cse.ucsd.edu/sites/default/files/styles/faculty_profile/public/faculty/burkhard17-115x150.jpg?itok=sqbXmDy-",
+      "officialSections": [
+        "Emeritus"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://cse.ucsd.edu/people/faculty-profiles",
+      "decision": "excluded_historical",
+      "reason": "官方职称或名录分组明确为荣休、退休或历史人员。",
+      "evidence": "Emeritus | https://cse.ucsd.edu/people/faculty-profiles/walter-burkhard"
+    },
+    {
+      "officialId": "larry-carter",
+      "rosterName": "Larry Carter",
+      "title": null,
+      "profileUrl": "https://cse.ucsd.edu/people/faculty-profiles/larry-carter",
+      "portraitUrl": "https://cse.ucsd.edu/sites/default/files/styles/faculty_profile/public/faculty/carter17-115x150.jpg?itok=wrd1sqqF",
+      "officialSections": [
+        "Emeritus"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://cse.ucsd.edu/people/faculty-profiles",
+      "decision": "excluded_historical",
+      "reason": "官方职称或名录分组明确为荣休、退休或历史人员。",
+      "evidence": "Emeritus | https://cse.ucsd.edu/people/faculty-profiles/larry-carter"
+    },
+    {
+      "officialId": "gary-cottrell",
+      "rosterName": "Gary Cottrell",
+      "title": null,
+      "profileUrl": "https://cse.ucsd.edu/people/faculty-profiles/gary-cottrell",
+      "portraitUrl": "https://cse.ucsd.edu/sites/default/files/styles/faculty_profile/public/faculty/cottrell17-115x150.jpg?itok=KdlJ0ocg",
+      "officialSections": [
+        "Emeritus"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://cse.ucsd.edu/people/faculty-profiles",
+      "decision": "excluded_historical",
+      "reason": "官方职称或名录分组明确为荣休、退休或历史人员。",
+      "evidence": "Emeritus | https://cse.ucsd.edu/people/faculty-profiles/gary-cottrell"
+    },
+    {
+      "officialId": "jeanne-ferrante",
+      "rosterName": "Jeanne Ferrante",
+      "title": null,
+      "profileUrl": "https://cse.ucsd.edu/people/faculty-profiles/jeanne-ferrante",
+      "portraitUrl": "https://cse.ucsd.edu/sites/default/files/styles/faculty_profile/public/faculty/ferrante17-115x150.jpg?itok=HEYcKJSX",
+      "officialSections": [
+        "Emeritus"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://cse.ucsd.edu/people/faculty-profiles",
+      "decision": "excluded_historical",
+      "reason": "官方职称或名录分组明确为荣休、退休或历史人员。",
+      "evidence": "Emeritus | https://cse.ucsd.edu/people/faculty-profiles/jeanne-ferrante"
+    },
+    {
+      "officialId": "ronald-graham",
+      "rosterName": "Ronald Graham",
+      "title": null,
+      "profileUrl": "https://cse.ucsd.edu/people/faculty-profiles/ronald-graham",
+      "portraitUrl": "https://cse.ucsd.edu/sites/default/files/styles/faculty_profile/public/faculty/grahamr17-115x150.jpg?itok=5jgs7G82",
+      "officialSections": [
+        "Emeritus"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://cse.ucsd.edu/people/faculty-profiles",
+      "decision": "excluded_historical",
+      "reason": "官方职称或名录分组明确为荣休、退休或历史人员。",
+      "evidence": "Emeritus | https://cse.ucsd.edu/people/faculty-profiles/ronald-graham"
+    },
+    {
+      "officialId": "fan-chung-graham",
+      "rosterName": "Fan Chung Graham",
+      "title": null,
+      "profileUrl": "https://cse.ucsd.edu/people/faculty-profiles/fan-chung-graham",
+      "portraitUrl": "https://cse.ucsd.edu/sites/default/files/styles/faculty_profile/public/faculty/grahamf17-115x150.jpg?itok=QbbJSyNF",
+      "officialSections": [
+        "Emeritus"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://cse.ucsd.edu/people/faculty-profiles",
+      "decision": "excluded_historical",
+      "reason": "官方职称或名录分组明确为荣休、退休或历史人员。",
+      "evidence": "Emeritus | https://cse.ucsd.edu/people/faculty-profiles/fan-chung-graham"
+    },
+    {
+      "officialId": "william-e-howden",
+      "rosterName": "William E. Howden",
+      "title": null,
+      "profileUrl": "https://cse.ucsd.edu/people/faculty-profiles/william-e-howden",
+      "portraitUrl": "https://cse.ucsd.edu/sites/default/files/styles/faculty_profile/public/faculty/howden17-115x150.png?itok=anOW3S4J",
+      "officialSections": [
+        "Emeritus"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://cse.ucsd.edu/people/faculty-profiles",
+      "decision": "excluded_historical",
+      "reason": "官方职称或名录分组明确为荣休、退休或历史人员。",
+      "evidence": "Emeritus | https://cse.ucsd.edu/people/faculty-profiles/william-e-howden"
+    },
+    {
+      "officialId": "t-c-hu",
+      "rosterName": "T. C. Hu",
+      "title": null,
+      "profileUrl": "https://cse.ucsd.edu/people/faculty-profiles/t-c-hu",
+      "portraitUrl": "https://cse.ucsd.edu/sites/default/files/styles/faculty_profile/public/faculty/hu17-115x150.jpg?itok=9ujjRgci",
+      "officialSections": [
+        "Emeritus"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://cse.ucsd.edu/people/faculty-profiles",
+      "decision": "excluded_historical",
+      "reason": "官方职称或名录分组明确为荣休、退休或历史人员。",
+      "evidence": "Emeritus | https://cse.ucsd.edu/people/faculty-profiles/t-c-hu"
+    },
+    {
+      "officialId": "henrik-wann-jensen",
+      "rosterName": "Henrik Wann Jensen",
+      "title": null,
+      "profileUrl": "https://cse.ucsd.edu/people/faculty-profiles/henrik-wann-jensen",
+      "portraitUrl": "https://cse.ucsd.edu/sites/default/files/styles/faculty_profile/public/faculty/jensen17-115x150.jpg?itok=CtZiVo1N",
+      "officialSections": [
+        "Emeritus"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://cse.ucsd.edu/people/faculty-profiles",
+      "decision": "excluded_historical",
+      "reason": "官方职称或名录分组明确为荣休、退休或历史人员。",
+      "evidence": "Emeritus | https://cse.ucsd.edu/people/faculty-profiles/henrik-wann-jensen"
+    },
+    {
+      "officialId": "sidney-karin",
+      "rosterName": "Sidney Karin",
+      "title": null,
+      "profileUrl": "https://cse.ucsd.edu/people/faculty-profiles/sidney-karin",
+      "portraitUrl": "https://cse.ucsd.edu/sites/default/files/styles/faculty_profile/public/faculty/karin17-115x150.jpg?itok=QFrO78C3",
+      "officialSections": [
+        "Emeritus"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://cse.ucsd.edu/people/faculty-profiles",
+      "decision": "excluded_historical",
+      "reason": "官方职称或名录分组明确为荣休、退休或历史人员。",
+      "evidence": "Emeritus | https://cse.ucsd.edu/people/faculty-profiles/sidney-karin"
+    },
+    {
+      "officialId": "david-kriegman",
+      "rosterName": "David Kriegman",
+      "title": null,
+      "profileUrl": "https://cse.ucsd.edu/people/faculty-profiles/david-kriegman",
+      "portraitUrl": "https://cse.ucsd.edu/sites/default/files/styles/faculty_profile/public/faculty/kriegman17-115x150.png?itok=HO08JRSN",
+      "officialSections": [
+        "Emeritus"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://cse.ucsd.edu/people/faculty-profiles",
+      "decision": "excluded_historical",
+      "reason": "官方职称或名录分组明确为荣休、退休或历史人员。",
+      "evidence": "Emeritus | https://cse.ucsd.edu/people/faculty-profiles/david-kriegman"
+    },
+    {
+      "officialId": "paul-r-kube",
+      "rosterName": "Paul R. Kube",
+      "title": null,
+      "profileUrl": "https://cse.ucsd.edu/people/faculty-profiles/paul-r-kube",
+      "portraitUrl": "https://cse.ucsd.edu/sites/default/files/styles/faculty_profile/public/faculty/kube17-115x150.jpg?itok=ZHCR8cVs",
+      "officialSections": [
+        "Emeritus"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://cse.ucsd.edu/people/faculty-profiles",
+      "decision": "excluded_historical",
+      "reason": "官方职称或名录分组明确为荣休、退休或历史人员。",
+      "evidence": "Emeritus | https://cse.ucsd.edu/people/faculty-profiles/paul-r-kube"
+    },
+    {
+      "officialId": "joseph-pasquale",
+      "rosterName": "Joseph Pasquale",
+      "title": null,
+      "profileUrl": "https://cse.ucsd.edu/people/faculty-profiles/joseph-pasquale",
+      "portraitUrl": "https://cse.ucsd.edu/sites/default/files/styles/faculty_profile/public/faculty/pasquale17-115x150.png?itok=tKqhaMfk",
+      "officialSections": [
+        "Emeritus"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://cse.ucsd.edu/people/faculty-profiles",
+      "decision": "excluded_historical",
+      "reason": "官方职称或名录分组明确为荣休、退休或历史人员。",
+      "evidence": "Emeritus | https://cse.ucsd.edu/people/faculty-profiles/joseph-pasquale"
+    },
+    {
+      "officialId": "walter-savitch",
+      "rosterName": "Walter Savitch",
+      "title": null,
+      "profileUrl": "https://cse.ucsd.edu/people/faculty-profiles/walter-savitch",
+      "portraitUrl": "https://cse.ucsd.edu/sites/default/files/styles/faculty_profile/public/faculty/savitch17-115x150.jpg?itok=9OJlv2PV",
+      "officialSections": [
+        "Emeritus"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://cse.ucsd.edu/people/faculty-profiles",
+      "decision": "excluded_historical",
+      "reason": "官方职称或名录分组明确为荣休、退休或历史人员。",
+      "evidence": "Emeritus | https://cse.ucsd.edu/people/faculty-profiles/walter-savitch"
+    },
+    {
+      "officialId": "larry-smarr",
+      "rosterName": "Larry Smarr",
+      "title": null,
+      "profileUrl": "https://cse.ucsd.edu/people/faculty-profiles/larry-smarr",
+      "portraitUrl": "https://cse.ucsd.edu/sites/default/files/styles/faculty_profile/public/faculty/smarr17-115x150.png?itok=SLHuriQe",
+      "officialSections": [
+        "Emeritus"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://cse.ucsd.edu/people/faculty-profiles",
+      "decision": "excluded_historical",
+      "reason": "官方职称或名录分组明确为荣休、退休或历史人员。",
+      "evidence": "Emeritus | https://cse.ucsd.edu/people/faculty-profiles/larry-smarr"
+    },
+    {
+      "officialId": "s-gill-williamson",
+      "rosterName": "S. Gill Williamson",
+      "title": null,
+      "profileUrl": "https://cse.ucsd.edu/people/faculty-profiles/s-gill-williamson",
+      "portraitUrl": "https://cse.ucsd.edu/sites/default/files/styles/faculty_profile/public/faculty/williamson17-115x150.jpg?itok=6pCQCjKQ",
+      "officialSections": [
+        "Emeritus"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://cse.ucsd.edu/people/faculty-profiles",
+      "decision": "excluded_historical",
+      "reason": "官方职称或名录分组明确为荣休、退休或历史人员。",
+      "evidence": "Emeritus | https://cse.ucsd.edu/people/faculty-profiles/s-gill-williamson"
+    },
+    {
+      "officialId": "richard-k-belew",
+      "rosterName": "Richard K. Belew",
+      "title": null,
+      "profileUrl": "https://cse.ucsd.edu/people/faculty-profiles/richard-k-belew",
+      "portraitUrl": "https://cse.ucsd.edu/sites/default/files/styles/faculty_profile/public/faculty/belew17-115x150_0.png?itok=VscJjw5j",
+      "officialSections": [
+        "Alumni"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://cse.ucsd.edu/people/faculty-profiles",
+      "decision": "excluded_non_pi",
+      "reason": "冻结官方名录未提供可确认现任独立 PI 的教授或 faculty 职称。",
+      "evidence": "Alumni | https://cse.ucsd.edu/people/faculty-profiles/richard-k-belew"
+    },
+    {
+      "officialId": "serge-belongie",
+      "rosterName": "Serge Belongie",
+      "title": null,
+      "profileUrl": "https://cse.ucsd.edu/people/faculty-profiles/serge-belongie",
+      "portraitUrl": "https://cse.ucsd.edu/sites/default/files/styles/faculty_profile/public/faculty/belongie17-115x150.jpg?itok=j6cliq6w",
+      "officialSections": [
+        "Alumni"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://cse.ucsd.edu/people/faculty-profiles",
+      "decision": "excluded_non_pi",
+      "reason": "冻结官方名录未提供可确认现任独立 PI 的教授或 faculty 职称。",
+      "evidence": "Alumni | https://cse.ucsd.edu/people/faculty-profiles/serge-belongie"
+    },
+    {
+      "officialId": "brad-calder",
+      "rosterName": "Brad Calder",
+      "title": null,
+      "profileUrl": "https://cse.ucsd.edu/people/faculty-profiles/brad-calder",
+      "portraitUrl": "https://cse.ucsd.edu/sites/default/files/styles/faculty_profile/public/faculty/calder17-115x150_1.png?itok=NarKX7vf",
+      "officialSections": [
+        "Alumni"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://cse.ucsd.edu/people/faculty-profiles",
+      "decision": "excluded_non_pi",
+      "reason": "冻结官方名录未提供可确认现任独立 PI 的教授或 faculty 职称。",
+      "evidence": "Alumni | https://cse.ucsd.edu/people/faculty-profiles/brad-calder"
+    },
+    {
+      "officialId": "eleazar-eskin",
+      "rosterName": "Eleazar Eskin",
+      "title": null,
+      "profileUrl": "https://cse.ucsd.edu/people/faculty-profiles/eleazar-eskin",
+      "portraitUrl": "https://cse.ucsd.edu/sites/default/files/styles/faculty_profile/public/faculty/eskin17-115x150_0.png?itok=3hTEKsT4",
+      "officialSections": [
+        "Alumni"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://cse.ucsd.edu/people/faculty-profiles",
+      "decision": "excluded_non_pi",
+      "reason": "冻结官方名录未提供可确认现任独立 PI 的教授或 faculty 职称。",
+      "evidence": "Alumni | https://cse.ucsd.edu/people/faculty-profiles/eleazar-eskin"
+    },
+    {
+      "officialId": "gary-gillespie",
+      "rosterName": "Gary Gillespie",
+      "title": null,
+      "profileUrl": "https://cse.ucsd.edu/people/faculty-profiles/gary-gillespie",
+      "portraitUrl": "https://cse.ucsd.edu/sites/default/files/styles/faculty_profile/public/faculty/gillespie17M-115x150.jpg?itok=fi7UONOk",
+      "officialSections": [
+        "Alumni"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://cse.ucsd.edu/people/faculty-profiles",
+      "decision": "excluded_non_pi",
+      "reason": "冻结官方名录未提供可确认现任独立 PI 的教授或 faculty 职称。",
+      "evidence": "Alumni | https://cse.ucsd.edu/people/faculty-profiles/gary-gillespie"
+    },
+    {
+      "officialId": "joseph-goguen",
+      "rosterName": "Joseph Goguen",
+      "title": null,
+      "profileUrl": "https://cse.ucsd.edu/people/faculty-profiles/joseph-goguen",
+      "portraitUrl": "https://cse.ucsd.edu/sites/default/files/styles/faculty_profile/public/faculty/goguen17-115x150_0.png?itok=f9DJVgba",
+      "officialSections": [
+        "Alumni"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://cse.ucsd.edu/people/faculty-profiles",
+      "decision": "excluded_non_pi",
+      "reason": "冻结官方名录未提供可确认现任独立 PI 的教授或 faculty 职称。",
+      "evidence": "Alumni | https://cse.ucsd.edu/people/faculty-profiles/joseph-goguen"
+    },
+    {
+      "officialId": "keith-marzullo",
+      "rosterName": "Keith Marzullo",
+      "title": null,
+      "profileUrl": "https://cse.ucsd.edu/people/faculty-profiles/keith-marzullo",
+      "portraitUrl": "https://cse.ucsd.edu/sites/default/files/styles/faculty_profile/public/faculty/marzullo17-115x150_0_0.png?itok=niSNmAeI",
+      "officialSections": [
+        "Alumni"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://cse.ucsd.edu/people/faculty-profiles",
+      "decision": "excluded_non_pi",
+      "reason": "冻结官方名录未提供可确认现任独立 PI 的教授或 faculty 职称。",
+      "evidence": "Alumni | https://cse.ucsd.edu/people/faculty-profiles/keith-marzullo"
+    },
+    {
+      "officialId": "richard-c-ord",
+      "rosterName": "Richard C. Ord",
+      "title": null,
+      "profileUrl": "https://cse.ucsd.edu/people/faculty-profiles/richard-c-ord",
+      "portraitUrl": "https://cse.ucsd.edu/sites/default/files/styles/faculty_profile/public/faculty/ord17-115x150.jpg?itok=BpAJUZmX",
+      "officialSections": [
+        "Alumni"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://cse.ucsd.edu/people/faculty-profiles",
+      "decision": "excluded_non_pi",
+      "reason": "冻结官方名录未提供可确认现任独立 PI 的教授或 faculty 职称。",
+      "evidence": "Alumni | https://cse.ucsd.edu/people/faculty-profiles/richard-c-ord"
+    },
+    {
+      "officialId": "george-c-polyzos-0",
+      "rosterName": "George C. Polyzos",
+      "title": null,
+      "profileUrl": "https://cse.ucsd.edu/people/faculty-profiles/george-c-polyzos-0",
+      "portraitUrl": "https://cse.ucsd.edu/sites/default/files/styles/faculty_profile/public/faculty/polyzos230x300.png?itok=CN1KIPAy",
+      "officialSections": [
+        "Alumni"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://cse.ucsd.edu/people/faculty-profiles",
+      "decision": "excluded_non_pi",
+      "reason": "冻结官方名录未提供可确认现任独立 PI 的教授或 faculty 职称。",
+      "evidence": "Alumni | https://cse.ucsd.edu/people/faculty-profiles/george-c-polyzos-0"
+    },
+    {
+      "officialId": "michael-b-taylor",
+      "rosterName": "Michael B. Taylor",
+      "title": null,
+      "profileUrl": "https://cse.ucsd.edu/people/faculty-profiles/michael-b-taylor",
+      "portraitUrl": "https://cse.ucsd.edu/sites/default/files/styles/faculty_profile/public/faculty/taylor17-115x150.jpg?itok=kFf9UpWY",
+      "officialSections": [
+        "Alumni"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://cse.ucsd.edu/people/faculty-profiles",
+      "decision": "excluded_non_pi",
+      "reason": "冻结官方名录未提供可确认现任独立 PI 的教授或 faculty 职称。",
+      "evidence": "Alumni | https://cse.ucsd.edu/people/faculty-profiles/michael-b-taylor"
+    },
+    {
+      "officialId": "amin-vahdat",
+      "rosterName": "Amin Vahdat",
+      "title": null,
+      "profileUrl": "https://cse.ucsd.edu/people/faculty-profiles/amin-vahdat",
+      "portraitUrl": "https://cse.ucsd.edu/sites/default/files/styles/faculty_profile/public/faculty/vahdat-115x150_0.png?itok=3R4nVMwR",
+      "officialSections": [
+        "Alumni"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://cse.ucsd.edu/people/faculty-profiles",
+      "decision": "excluded_non_pi",
+      "reason": "冻结官方名录未提供可确认现任独立 PI 的教授或 faculty 职称。",
+      "evidence": "Alumni | https://cse.ucsd.edu/people/faculty-profiles/amin-vahdat"
+    },
+    {
+      "officialId": "george-varghese",
+      "rosterName": "George Varghese",
+      "title": null,
+      "profileUrl": "https://cse.ucsd.edu/people/faculty-profiles/george-varghese",
+      "portraitUrl": "https://cse.ucsd.edu/sites/default/files/styles/faculty_profile/public/faculty/varghese17-115x150_0.png?itok=34U-_E9Y",
+      "officialSections": [
+        "Alumni"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://cse.ucsd.edu/people/faculty-profiles",
+      "decision": "excluded_non_pi",
+      "reason": "冻结官方名录未提供可确认现任独立 PI 的教授或 faculty 职称。",
+      "evidence": "Alumni | https://cse.ucsd.edu/people/faculty-profiles/george-varghese"
+    },
+    {
+      "officialId": "matthias-zwicker",
+      "rosterName": "Matthias Zwicker",
+      "title": "Emergency Action Plan",
+      "profileUrl": "https://cse.ucsd.edu/people/faculty-profiles/matthias-zwicker",
+      "portraitUrl": "https://cse.ucsd.edu/sites/default/files/styles/faculty_profile/public/faculty/zwicker17-115x150_0.png?itok=svZapPCJ",
+      "officialSections": [
+        "Alumni"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://cse.ucsd.edu/people/faculty-profiles",
+      "decision": "excluded_non_pi",
+      "reason": "冻结官方名录未提供可确认现任独立 PI 的教授或 faculty 职称。",
+      "evidence": "Emergency Action Plan | Alumni | https://cse.ucsd.edu/people/faculty-profiles/matthias-zwicker"
+    }
+  ]
+}

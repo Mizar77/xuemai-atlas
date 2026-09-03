@@ -1,0 +1,43 @@
+{
+  "schemaVersion": 1,
+  "snapshotAt": "2026-09-02",
+  "scope": "Cornell CS and Cornell Tech",
+  "units": {
+    "cornell-cs": {
+      "officialRosterCount": 143,
+      "decisionCount": 143,
+      "counts": {
+        "excluded_non_ai_cs": 58,
+        "included_existing": 20,
+        "excluded_non_pi": 13,
+        "include_new_pi": 44,
+        "excluded_historical": 8
+      },
+      "outputPath": "data/roster-decisions/cornell-cs-2026-09-02.json"
+    },
+    "cornell-tech": {
+      "officialRosterCount": 53,
+      "decisionCount": 53,
+      "counts": {
+        "include_new_pi": 10,
+        "included_existing": 6,
+        "excluded_non_ai_cs": 15,
+        "excluded_non_pi": 3,
+        "pending_profile_verification": 19
+      },
+      "outputPath": "data/roster-decisions/cornell-tech-2026-09-02.json"
+    }
+  },
+  "totals": {
+    "officialRosterCount": 196,
+    "decisionCount": 196,
+    "counts": {
+      "excluded_non_ai_cs": 73,
+      "included_existing": 26,
+      "excluded_non_pi": 16,
+      "include_new_pi": 54,
+      "excluded_historical": 8,
+      "pending_profile_verification": 19
+    }
+  }
+}

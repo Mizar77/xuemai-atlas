@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-03",
+  "module": "app/candidate-priority-p0-asia-batch-6-2026.ts",
+  "candidateCount": 9,
+  "readyCount": 9,
+  "failedCount": 0,
+  "relationshipCount": 1,
+  "placementCount": 8,
+  "groupMemberCount": 11,
+  "portraitCount": 9,
+  "qualityGate": {
+    "currentIndependentPi": true,
+    "minimumDistinctSources": 2,
+    "minimumSourcedFacts": 3,
+    "educationFactRequired": true,
+    "portraitDimensions": "512x512",
+    "networkEvidenceRequired": true,
+    "manualPortraitQa": true
+  },
+  "ready": [
+    "Mainland China:上海交通大学:王德泉",
+    "Mainland China:上海交通大学:谷大武",
+    "Mainland China:清华大学:陆文凯",
+    "Mainland China:清华大学:杨帆",
+    "Mainland China:清华大学:胡坚明",
+    "Mainland China:北京大学:许超",
+    "Singapore:National University of Singapore:brianlimyouliang",
+    "Singapore:National University of Singapore:huangkewei",
+    "Singapore:National University of Singapore:tanchengyianbernard"
+  ],
+  "notes": [
+    "Nine portraits were downloaded from official university profile pages, center-cropped and resized to 512x512, then visually inspected.",
+    "The Trevor Darrell to 王德泉 lineage edge follows the atlas adviser-to-student direction and uses subtype phd_adviser.",
+    "Student and group records are included only where the named person and relationship wording appear on a first-party university page."
+  ]
+}

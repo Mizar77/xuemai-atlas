@@ -182,7 +182,6 @@ export const sgHkFullProfileRelationships: Relationship[] = [
 export const sgHkFullProfileGroupMembers: GroupMember[] = [
   { id: "sg-hk-hongxia-zhen", teacherId: "hongxia-yang", name: "Zhen Li", role: "PhD Student · joined 2024", focus: "Low-bit training / foundation models", source: profile("Hongxia Yang team", "https://www4.comp.polyu.edu.hk/~hongxyang/people/", "current team roles and start years", "2026") },
   { id: "sg-hk-xiao-chuang", teacherId: "xiao-huang-polyu", name: "Chuang Zhou", role: "PhD Student · Fall 2022–", focus: "Graph RAG and agentic AI", source: s.huangLab },
-  { id: "sg-hk-wailam-shuaiyi", teacherId: "wai-lam", name: "Shuaiyi Li", role: "PhD Student · 2022–", focus: "Text mining / NLP", source: s.lam },
 ];
 
 export const sgHkFullProfileStudentPlacements: StudentPlacement[] = [

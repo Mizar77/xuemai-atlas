@@ -1,0 +1,45 @@
+{
+  "schemaVersion": 1,
+  "auditedAt": "2026-09-03",
+  "module": "app/candidate-priority-p0-asia-batch-4-2026.ts",
+  "portraitDirectory": "public/portraits/candidate-p0-asia-batch-4-2026",
+  "summary": {
+    "people": 11,
+    "relationships": 5,
+    "placements": 11,
+    "groupMembers": 7,
+    "rosterPromotions": 11,
+    "ready": 11,
+    "failed": 0
+  },
+  "requiredGates": [
+    "currentIndependentPi",
+    "twoDistinctFirstPartySources",
+    "threeToFiveSourcedFacts",
+    "educationAndAcademicTrainingFact",
+    "verified512Portrait",
+    "networkEvidence"
+  ],
+  "people": [
+    { "id": "dimitris-papadias-hkust-p0-2026", "sourceCount": 2, "factCount": 5, "portrait": "dimitris-papadias.jpg", "networkEvidence": "mentorship+placement", "ready": true },
+    { "id": "ke-yi-hkust-p0-2026", "sourceCount": 4, "factCount": 5, "portrait": "ke-yi.jpg", "networkEvidence": "groupMember+placement", "ready": true },
+    { "id": "qiong-luo-hkust-p0-2026", "sourceCount": 3, "factCount": 5, "portrait": "qiong-luo.jpg", "networkEvidence": "groupMember+placement", "ready": true },
+    { "id": "raymond-wong-hkust-p0-2026", "sourceCount": 2, "factCount": 5, "portrait": "raymond-wong.jpg", "networkEvidence": "groupMember+placement", "ready": true },
+    { "id": "wilfred-ng-hkust-p0-2026", "sourceCount": 3, "factCount": 5, "portrait": "wilfred-ng.jpg", "networkEvidence": "mentorship+placement", "ready": true },
+    { "id": "xiaofang-zhou-hkust-p0-2026", "sourceCount": 3, "factCount": 5, "portrait": "xiaofang-zhou.jpg", "networkEvidence": "groupMember+placement", "ready": true },
+    { "id": "james-cheng-cuhk-p0-2026", "sourceCount": 4, "factCount": 5, "portrait": "james-cheng.jpg", "networkEvidence": "mentorship+placement", "ready": true },
+    { "id": "yufei-tao-cuhk-p0-2026", "sourceCount": 4, "factCount": 5, "portrait": "yufei-tao.jpg", "networkEvidence": "mentorship+placement", "ready": true },
+    { "id": "david-lo-smu-p0-2026", "sourceCount": 3, "factCount": 5, "portrait": "david-lo.jpg", "networkEvidence": "collaboration+groupMember+placement", "ready": true },
+    { "id": "lingxiao-jiang-smu-p0-2026", "sourceCount": 2, "factCount": 5, "portrait": "lingxiao-jiang.jpg", "networkEvidence": "collaboration+groupMember+placement", "ready": true },
+    { "id": "jun-sun-smu-p0-2026", "sourceCount": 3, "factCount": 5, "portrait": "jun-sun.jpg", "networkEvidence": "collaboration+groupMember+placement", "ready": true }
+  ],
+  "checks": {
+    "uniquePersonIds": true,
+    "completeRelationshipEndpoints": true,
+    "validRelationshipSubtypes": true,
+    "knownTeacherIdsForPlacementsAndGroupMembers": true,
+    "promotionCountMatchesPeople": true,
+    "allPortraits512By512": true,
+    "allPeopleNonIsolated": true
+  }
+}

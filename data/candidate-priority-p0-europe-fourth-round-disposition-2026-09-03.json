@@ -1,0 +1,977 @@
+{
+  "generatedAt": "2026-09-03",
+  "scope": "The 26 Europe P0 candidates prioritized for round four: 23 missing profile facts/relationship and 3 missing portrait after round three",
+  "method": "Candidate-by-candidate review of official faculty and PhD registries, university-hosted profiles/CVs/theses, lab people pages, official news, and portrait provenance. The strict publication gate remained unchanged.",
+  "counts": {
+    "total": 26,
+    "ready": 17,
+    "missingProfileFactsAndRelationship": 7,
+    "missingPortrait": 2,
+    "unresolvedWithoutDisposition": 0
+  },
+  "byInstitution": [
+    {
+      "institution": "University of Cambridge",
+      "total": 16,
+      "ready": 14,
+      "missingProfileFactsAndRelationship": 2,
+      "missingPortrait": 0
+    },
+    {
+      "institution": "EPFL",
+      "total": 8,
+      "ready": 3,
+      "missingProfileFactsAndRelationship": 5,
+      "missingPortrait": 0
+    },
+    {
+      "institution": "Technical University of Munich",
+      "total": 2,
+      "ready": 0,
+      "missingProfileFactsAndRelationship": 0,
+      "missingPortrait": 2
+    }
+  ],
+  "records": [
+    {
+      "canonicalKey": "Europe:EPFL:christophkoch",
+      "name": "Christoph Koch",
+      "region": "Europe",
+      "institution": "EPFL",
+      "score": 112,
+      "disposition": "missing_profile_facts_and_relationship",
+      "atlasPersonId": null,
+      "officialId": "767aabba181d89ce",
+      "officialTitle": "Full Professor",
+      "officialSection": "Professors",
+      "profileUrl": "https://people.epfl.ch/christoph.koch",
+      "portraitUrl": null,
+      "rosterUrl": "https://www.epfl.ch/schools/ic/about/faculty-members/",
+      "evidenceUrls": [
+        "https://www.epfl.ch/schools/ic/about/faculty-members/",
+        "https://people.epfl.ch/christoph.koch"
+      ],
+      "reason": "官方名录和个人页已形成两项来源，但现有缓存没有可发布的可靠头像；人物事实、教育训练与关系仍须在头像补齐时一并复核。",
+      "sourceDecision": "include_new_pi",
+      "sourceLedger": "data/candidate-priority-p0-europe-remaining-disposition-2026-09-03.json",
+      "cachedPortrait": {
+        "status": "verified_512",
+        "sourceUrl": "https://people.epfl.ch/rails/active_storage/blobs/proxy/eyJfcmFpbHMiOnsiZGF0YSI6MTA2OTMsImV4cCI6IjIwMjYtMDktMDRUMDM6NTg6MTYuNTM3WiIsInB1ciI6ImJsb2JfaWQifX0=--7323784100dc523cb8123085783aae471b641e69/205917.jpg?lang=fr",
+        "localPath": "public/portraits/candidate-p0-europe-profile-audit-2026/Europe-EPFL-christophkoch.jpg",
+        "rejection": null
+      },
+      "blocker": "第四轮已保留现任独立 PI 与经检查的头像，但可访问的一手页面仍不能同时形成含教育训练的 3–5 条人物事实和至少一条具名可建边关系；没有用共同论文或二手聚合结果推断。",
+      "reviewedAt": "2026-09-03",
+      "thirdRoundRequiredEvidence": [
+        "3–5 条带来源人物事实（含教育/学术训练）",
+        "一手页面明确记载的具名关系"
+      ],
+      "fourthRoundRequiredEvidence": [
+        "教育/博士训练的一手履历",
+        "一手页面明确列出的具名导师、学生或长期合作关系"
+      ]
+    },
+    {
+      "canonicalKey": "Europe:EPFL:eduardomoraud",
+      "name": "Eduardo Moraud",
+      "region": "Europe",
+      "institution": "EPFL",
+      "score": 112,
+      "disposition": "missing_profile_facts_and_relationship",
+      "atlasPersonId": null,
+      "officialId": "e8d449a015d2f3ef",
+      "officialTitle": "Tenure Track Assistant Professor",
+      "officialSection": "Professors",
+      "profileUrl": "https://people.epfl.ch/eduardo.moraud",
+      "portraitUrl": null,
+      "rosterUrl": "https://www.epfl.ch/schools/ic/about/faculty-members/",
+      "evidenceUrls": [
+        "https://www.epfl.ch/schools/ic/about/faculty-members/",
+        "https://people.epfl.ch/eduardo.moraud"
+      ],
+      "reason": "官方名录和个人页已形成两项来源，但现有缓存没有可发布的可靠头像；人物事实、教育训练与关系仍须在头像补齐时一并复核。",
+      "sourceDecision": "include_new_pi",
+      "sourceLedger": "data/candidate-priority-p0-europe-remaining-disposition-2026-09-03.json",
+      "cachedPortrait": {
+        "status": "verified_512",
+        "sourceUrl": "https://people.epfl.ch/rails/active_storage/blobs/proxy/eyJfcmFpbHMiOnsiZGF0YSI6NzU5ODAsImV4cCI6IjIwMjYtMDktMDRUMDM6NTg6MTcuMjA3WiIsInB1ciI6ImJsb2JfaWQifX0=--d4bb3c4442f29b20de4632f92c473ae8b0d90245/20231109_115740%20copy.jpg?lang=fr",
+        "localPath": "public/portraits/candidate-p0-europe-profile-audit-2026/Europe-EPFL-eduardomoraud.jpg",
+        "rejection": null
+      },
+      "blocker": "第四轮已保留现任独立 PI 与经检查的头像，但可访问的一手页面仍不能同时形成含教育训练的 3–5 条人物事实和至少一条具名可建边关系；没有用共同论文或二手聚合结果推断。",
+      "reviewedAt": "2026-09-03",
+      "thirdRoundRequiredEvidence": [
+        "3–5 条带来源人物事实（含教育/学术训练）",
+        "一手页面明确记载的具名关系"
+      ],
+      "fourthRoundRequiredEvidence": [
+        "教育与任职时间轴的一手履历",
+        "实验室当前/毕业学生或本人导师的一手清单"
+      ]
+    },
+    {
+      "canonicalKey": "Europe:EPFL:emretelatar",
+      "name": "Emre Telatar",
+      "region": "Europe",
+      "institution": "EPFL",
+      "score": 112,
+      "disposition": "ready",
+      "atlasPersonId": "emre-telatar-epfl-p0-r4",
+      "officialId": "c06e8aa29af0ac7a",
+      "officialTitle": "Full Professor",
+      "officialSection": "Professors",
+      "profileUrl": "https://people.epfl.ch/emre.telatar",
+      "portraitUrl": null,
+      "rosterUrl": "https://www.epfl.ch/schools/ic/about/faculty-members/",
+      "evidenceUrls": [
+        "https://www.epfl.ch/schools/ic/about/faculty-members/",
+        "https://people.epfl.ch/emre.telatar"
+      ],
+      "reason": "官方名录和个人页已形成两项来源，但现有缓存没有可发布的可靠头像；人物事实、教育训练与关系仍须在头像补齐时一并复核。",
+      "sourceDecision": "include_new_pi",
+      "sourceLedger": "data/candidate-priority-p0-europe-remaining-disposition-2026-09-03.json",
+      "cachedPortrait": {
+        "status": "verified_512",
+        "sourceUrl": "https://people.epfl.ch/rails/active_storage/blobs/proxy/eyJfcmFpbHMiOnsiZGF0YSI6MTYxNjUsImV4cCI6IjIwMjYtMDktMDRUMDM6NTg6MTYuMzkyWiIsInB1ciI6ImJsb2JfaWQifX0=--34d26d6c38911de60d22c52b307fb812f64543ee/131639.jpg?lang=fr",
+        "localPath": "public/portraits/candidate-p0-europe-profile-audit-2026/Europe-EPFL-emretelatar.jpg",
+        "rejection": null
+      },
+      "blocker": null,
+      "reviewedAt": "2026-09-03",
+      "thirdRoundRequiredEvidence": [
+        "3–5 条带来源人物事实（含教育/学术训练）",
+        "一手页面明确记载的具名关系"
+      ],
+      "fourthRoundEvidence": "Fourth-round first-party verification closed current independent PI status, at least two reliable sources, 3–5 sourced facts including education, a manually checked local portrait, and a named adviser/student relationship."
+    },
+    {
+      "canonicalKey": "Europe:EPFL:frederickaplan",
+      "name": "Frédéric Kaplan",
+      "region": "Europe",
+      "institution": "EPFL",
+      "score": 112,
+      "disposition": "missing_profile_facts_and_relationship",
+      "atlasPersonId": null,
+      "officialId": "9cf23895843a7334",
+      "officialTitle": "Associate Professor",
+      "officialSection": "Professors",
+      "profileUrl": "https://people.epfl.ch/frederic.kaplan",
+      "portraitUrl": null,
+      "rosterUrl": "https://www.epfl.ch/schools/ic/about/faculty-members/",
+      "evidenceUrls": [
+        "https://www.epfl.ch/schools/ic/about/faculty-members/",
+        "https://people.epfl.ch/frederic.kaplan"
+      ],
+      "reason": "官方名录和个人页已形成两项来源，但现有缓存没有可发布的可靠头像；人物事实、教育训练与关系仍须在头像补齐时一并复核。",
+      "sourceDecision": "include_new_pi",
+      "sourceLedger": "data/candidate-priority-p0-europe-remaining-disposition-2026-09-03.json",
+      "cachedPortrait": {
+        "status": "verified_512",
+        "sourceUrl": "https://people.epfl.ch/rails/active_storage/blobs/proxy/eyJfcmFpbHMiOnsiZGF0YSI6MTA1NTEsImV4cCI6IjIwMjYtMDktMDRUMDM6NTg6MTguMDc0WiIsInB1ciI6ImJsb2JfaWQifX0=--48eb23e62577d6cedcc530d7245b4cc981ab3c08/174121.jpg?lang=fr",
+        "localPath": "public/portraits/candidate-p0-europe-profile-audit-2026/Europe-EPFL-frederickaplan.jpg",
+        "rejection": null
+      },
+      "blocker": "第四轮已保留现任独立 PI 与经检查的头像，但可访问的一手页面仍不能同时形成含教育训练的 3–5 条人物事实和至少一条具名可建边关系；没有用共同论文或二手聚合结果推断。",
+      "reviewedAt": "2026-09-03",
+      "thirdRoundRequiredEvidence": [
+        "3–5 条带来源人物事实（含教育/学术训练）",
+        "一手页面明确记载的具名关系"
+      ],
+      "fourthRoundRequiredEvidence": [
+        "可核验的完整教育/博士训练事实",
+        "一手页面明确的具名学生、导师或长期产业关系"
+      ]
+    },
+    {
+      "canonicalKey": "Europe:EPFL:jeffreyhuang",
+      "name": "Jeffrey Huang",
+      "region": "Europe",
+      "institution": "EPFL",
+      "score": 112,
+      "disposition": "missing_profile_facts_and_relationship",
+      "atlasPersonId": null,
+      "officialId": "656efb35c6f3ca8a",
+      "officialTitle": "Full Professor",
+      "officialSection": "Professors",
+      "profileUrl": "https://people.epfl.ch/jeffrey.huang",
+      "portraitUrl": null,
+      "rosterUrl": "https://www.epfl.ch/schools/ic/about/faculty-members/",
+      "evidenceUrls": [
+        "https://www.epfl.ch/schools/ic/about/faculty-members/",
+        "https://people.epfl.ch/jeffrey.huang"
+      ],
+      "reason": "官方名录和个人页已形成两项来源，但现有缓存没有可发布的可靠头像；人物事实、教育训练与关系仍须在头像补齐时一并复核。",
+      "sourceDecision": "include_new_pi",
+      "sourceLedger": "data/candidate-priority-p0-europe-remaining-disposition-2026-09-03.json",
+      "cachedPortrait": {
+        "status": "verified_512",
+        "sourceUrl": "https://people.epfl.ch/rails/active_storage/blobs/proxy/eyJfcmFpbHMiOnsiZGF0YSI6MTAzODYsImV4cCI6IjIwMjYtMDktMDRUMDM6NTg6MTguOTQzWiIsInB1ciI6ImJsb2JfaWQifX0=--51ac8adf72b28dd9604ad232a0c288878af49fe4/166540.jpg?lang=fr",
+        "localPath": "public/portraits/candidate-p0-europe-profile-audit-2026/Europe-EPFL-jeffreyhuang.jpg",
+        "rejection": null
+      },
+      "blocker": "第四轮已保留现任独立 PI 与经检查的头像，但可访问的一手页面仍不能同时形成含教育训练的 3–5 条人物事实和至少一条具名可建边关系；没有用共同论文或二手聚合结果推断。",
+      "reviewedAt": "2026-09-03",
+      "thirdRoundRequiredEvidence": [
+        "3–5 条带来源人物事实（含教育/学术训练）",
+        "一手页面明确记载的具名关系"
+      ],
+      "fourthRoundRequiredEvidence": [
+        "含教育训练的 3–5 条一手人物事实",
+        "研究组学生或本人导师的可建边记录"
+      ]
+    },
+    {
+      "canonicalKey": "Europe:EPFL:martinaloisrohrmeier",
+      "name": "Martin Alois Rohrmeier",
+      "region": "Europe",
+      "institution": "EPFL",
+      "score": 112,
+      "disposition": "ready",
+      "atlasPersonId": "martin-rohrmeier-epfl-p0-r4",
+      "officialId": "826be77c69e8a5a0",
+      "officialTitle": "Associate Professor",
+      "officialSection": "Professors",
+      "profileUrl": "https://people.epfl.ch/martin.rohrmeier",
+      "portraitUrl": null,
+      "rosterUrl": "https://www.epfl.ch/schools/ic/about/faculty-members/",
+      "evidenceUrls": [
+        "https://www.epfl.ch/schools/ic/about/faculty-members/",
+        "https://people.epfl.ch/martin.rohrmeier"
+      ],
+      "reason": "官方名录和个人页已形成两项来源，但现有缓存没有可发布的可靠头像；人物事实、教育训练与关系仍须在头像补齐时一并复核。",
+      "sourceDecision": "include_new_pi",
+      "sourceLedger": "data/candidate-priority-p0-europe-remaining-disposition-2026-09-03.json",
+      "cachedPortrait": {
+        "status": "verified_512",
+        "sourceUrl": "https://people.epfl.ch/rails/active_storage/blobs/proxy/eyJfcmFpbHMiOnsiZGF0YSI6MTMyNjksImV4cCI6IjIwMjYtMDktMDRUMDM6NTg6MTguODI0WiIsInB1ciI6ImJsb2JfaWQifX0=--0c76e783aea97483c6abf0e53d99d796e148fec1/278359.jpg?lang=fr",
+        "localPath": "public/portraits/candidate-p0-europe-profile-audit-2026/Europe-EPFL-martinaloisrohrmeier.jpg",
+        "rejection": null
+      },
+      "blocker": null,
+      "reviewedAt": "2026-09-03",
+      "thirdRoundRequiredEvidence": [
+        "3–5 条带来源人物事实（含教育/学术训练）",
+        "一手页面明确记载的具名关系"
+      ],
+      "fourthRoundEvidence": "Fourth-round first-party verification closed current independent PI status, at least two reliable sources, 3–5 sourced facts including education, a manually checked local portrait, and a named adviser/student relationship."
+    },
+    {
+      "canonicalKey": "Europe:EPFL:maryannehartley",
+      "name": "Mary-Anne Hartley",
+      "region": "Europe",
+      "institution": "EPFL",
+      "score": 112,
+      "disposition": "missing_profile_facts_and_relationship",
+      "atlasPersonId": null,
+      "officialId": "8002d04813c54079",
+      "officialTitle": "Adjunct Professor",
+      "officialSection": "Professors",
+      "profileUrl": "https://people.epfl.ch/mary-anne.hartley",
+      "portraitUrl": null,
+      "rosterUrl": "https://www.epfl.ch/schools/ic/about/faculty-members/",
+      "evidenceUrls": [
+        "https://www.epfl.ch/schools/ic/about/faculty-members/",
+        "https://people.epfl.ch/mary-anne.hartley"
+      ],
+      "reason": "官方名录和个人页已形成两项来源，但现有缓存没有可发布的可靠头像；人物事实、教育训练与关系仍须在头像补齐时一并复核。",
+      "sourceDecision": "include_new_pi",
+      "sourceLedger": "data/candidate-priority-p0-europe-remaining-disposition-2026-09-03.json",
+      "cachedPortrait": {
+        "status": "verified_512",
+        "sourceUrl": "https://people.epfl.ch/rails/active_storage/blobs/proxy/eyJfcmFpbHMiOnsiZGF0YSI6NDQ1MDYsImV4cCI6IjIwMjYtMDktMDRUMDM6NTg6MTkuNDQwWiIsInB1ciI6ImJsb2JfaWQifX0=--0bc30da2dec240702b4cc0d236d595df78e53386/Photo-AnnieHartley.jpg?lang=fr",
+        "localPath": "public/portraits/candidate-p0-europe-profile-audit-2026/Europe-EPFL-maryannehartley.jpg",
+        "rejection": null
+      },
+      "blocker": "第四轮已保留现任独立 PI 与经检查的头像，但可访问的一手页面仍不能同时形成含教育训练的 3–5 条人物事实和至少一条具名可建边关系；没有用共同论文或二手聚合结果推断。",
+      "reviewedAt": "2026-09-03",
+      "thirdRoundRequiredEvidence": [
+        "3–5 条带来源人物事实（含教育/学术训练）",
+        "一手页面明确记载的具名关系"
+      ],
+      "fourthRoundRequiredEvidence": [
+        "含教育/医学与计算训练的完整一手履历",
+        "一手页面明确的具名学生、导师或长期合作关系"
+      ]
+    },
+    {
+      "canonicalKey": "Europe:EPFL:sarahkenderdine",
+      "name": "Sarah Kenderdine",
+      "region": "Europe",
+      "institution": "EPFL",
+      "score": 112,
+      "disposition": "ready",
+      "atlasPersonId": "sarah-kenderdine-epfl-p0-r4",
+      "officialId": "79f66ff24c25e16d",
+      "officialTitle": "Full Professor",
+      "officialSection": "Professors",
+      "profileUrl": "https://people.epfl.ch/sarah.kenderdine",
+      "portraitUrl": null,
+      "rosterUrl": "https://www.epfl.ch/schools/ic/about/faculty-members/",
+      "evidenceUrls": [
+        "https://www.epfl.ch/schools/ic/about/faculty-members/",
+        "https://people.epfl.ch/sarah.kenderdine"
+      ],
+      "reason": "官方名录和个人页已形成两项来源，但现有缓存没有可发布的可靠头像；人物事实、教育训练与关系仍须在头像补齐时一并复核。",
+      "sourceDecision": "include_new_pi",
+      "sourceLedger": "data/candidate-priority-p0-europe-remaining-disposition-2026-09-03.json",
+      "cachedPortrait": {
+        "status": "verified_512",
+        "sourceUrl": "https://people.epfl.ch/rails/active_storage/blobs/proxy/eyJfcmFpbHMiOnsiZGF0YSI6MTI1NDcsImV4cCI6IjIwMjYtMDktMDRUMDM6NTg6MjEuNzU2WiIsInB1ciI6ImJsb2JfaWQifX0=--4a2b2879680cbe7436975075985d17144370ee26/280038.jpg?lang=fr",
+        "localPath": "public/portraits/candidate-p0-europe-profile-audit-2026/Europe-EPFL-sarahkenderdine.jpg",
+        "rejection": null
+      },
+      "blocker": null,
+      "reviewedAt": "2026-09-03",
+      "thirdRoundRequiredEvidence": [
+        "3–5 条带来源人物事实（含教育/学术训练）",
+        "一手页面明确记载的具名关系"
+      ],
+      "fourthRoundEvidence": "Fourth-round first-party verification closed current independent PI status, at least two reliable sources, 3–5 sourced facts including education, a manually checked local portrait, and a named adviser/student relationship."
+    },
+    {
+      "canonicalKey": "Europe:Technical University of Munich:florianbruse",
+      "name": "Florian Bruse",
+      "region": "Europe",
+      "institution": "Technical University of Munich",
+      "score": 115,
+      "disposition": "missing_portrait",
+      "atlasPersonId": null,
+      "officialId": "60cba590cc371a52",
+      "officialTitle": "Prof. Dr. rer. nat.",
+      "officialSection": "Professors",
+      "profileUrl": "https://campus.tum.de/tumonline/ee/ui/ca2/app/desktop/#/pl/ui/$ctx/visitenkarte.show_vcard?$ctx=design=ca2;header=max;lang=de&pPersonenGruppe=3&pPersonenId=8E421E853365202B",
+      "portraitUrl": "https://www.cit.tum.de/_assets/32ebf5255105e66824f82cb2d7e14490/Icons/person.svg",
+      "rosterUrl": "https://www.cit.tum.de/en/cit/school/people/professors/",
+      "evidenceUrls": [
+        "https://www.cit.tum.de/en/cit/school/people/professors/",
+        "https://www.cs.cit.tum.de/cs/personen/professuren/",
+        "https://campus.tum.de/tumonline/ee/ui/ca2/app/desktop/#/pl/ui/$ctx/visitenkarte.show_vcard?$ctx=design=ca2;header=max;lang=de&pPersonenGruppe=3&pPersonenId=8E421E853365202B",
+        "https://www.professoren.tum.de/en/bruse-florian"
+      ],
+      "reason": "已由 University of Kassel 一手团队页和联合研究/出版物页面核实 Martin Lange 团队经历及合作关系；但 TUM 官方名录仅提供通用 person.svg，未找到可发布的可靠真人头像。",
+      "sourceDecision": "pending_profile_verification",
+      "sourceLedger": "data/candidate-priority-p0-europe-remaining-disposition-2026-09-03.json",
+      "cachedPortrait": {
+        "status": "rejected_generic_placeholder",
+        "sourceUrl": "https://www.cit.tum.de/_assets/32ebf5255105e66824f82cb2d7e14490/Icons/person.svg",
+        "localPath": "public/portraits/candidate-p0-europe-profile-audit-2026/Europe-Technical-University-of-Munich-florianbruse.jpg",
+        "rejection": "The cached TUM asset resolves to the generic person.svg silhouette rather than a photograph of the named scholar."
+      },
+      "blocker": "第四轮继续检查大学新闻、研究组、本人主页与学术活动来源，但仍未找到能够确认本人身份且非通用图标的可靠真人头像；不得以 TUM person.svg 或主题插画替代。",
+      "reviewedAt": "2026-09-03",
+      "thirdRoundRequiredEvidence": [
+        "大学、本人主页或可信学术活动页提供的本人真人头像",
+        "头像来源页与姓名、现职身份一致"
+      ],
+      "fourthRoundRequiredEvidence": [
+        "大学、本人主页或可信学术活动页提供的本人真人头像",
+        "头像来源页与姓名、现职身份一致"
+      ]
+    },
+    {
+      "canonicalKey": "Europe:Technical University of Munich:vspors",
+      "name": "V. Spors",
+      "region": "Europe",
+      "institution": "Technical University of Munich",
+      "score": 115,
+      "disposition": "missing_portrait",
+      "atlasPersonId": null,
+      "officialId": "e5a89bdc635a0f41",
+      "officialTitle": null,
+      "officialSection": "Professors",
+      "profileUrl": "https://www.cit.tum.de/en/cit/news/article/professor-velvet-spors/",
+      "portraitUrl": "https://www.cit.tum.de/_assets/32ebf5255105e66824f82cb2d7e14490/Icons/person.svg",
+      "rosterUrl": "https://www.cit.tum.de/en/cit/school/people/professors/",
+      "evidenceUrls": [
+        "https://www.cit.tum.de/en/cit/school/people/professors/",
+        "https://www.cs.cit.tum.de/cs/personen/professuren/",
+        "https://www.cit.tum.de/en/cit/news/article/professor-velvet-spors/"
+      ],
+      "reason": "已核实本名 Velvet Spors、TUM 独立 PI 现职、Nottingham 博士训练与具名学生指导关系；但 TUM 仅提供通用 SVG/主题插画，尚无可发布的可靠真人头像。",
+      "sourceDecision": "pending_profile_verification",
+      "sourceLedger": "data/candidate-priority-p0-europe-remaining-disposition-2026-09-03.json",
+      "cachedPortrait": {
+        "status": "rejected_generic_placeholder",
+        "sourceUrl": "https://www.cit.tum.de/_assets/32ebf5255105e66824f82cb2d7e14490/Icons/person.svg",
+        "localPath": "public/portraits/candidate-p0-europe-profile-audit-2026/Europe-Technical-University-of-Munich-vspors.jpg",
+        "rejection": "The cached TUM asset resolves to the generic person.svg silhouette rather than a photograph of the named scholar."
+      },
+      "blocker": "第四轮继续检查大学新闻、研究组、本人主页与学术活动来源，但仍未找到能够确认本人身份且非通用图标的可靠真人头像；不得以 TUM person.svg 或主题插画替代。",
+      "reviewedAt": "2026-09-03",
+      "thirdRoundRequiredEvidence": [
+        "大学、本人主页或可信学术活动页提供的本人真人头像",
+        "头像来源页与姓名、现职身份一致"
+      ],
+      "fourthRoundRequiredEvidence": [
+        "大学、本人主页或可信学术活动页提供的本人真人头像",
+        "头像来源页与姓名、现职身份一致"
+      ]
+    },
+    {
+      "canonicalKey": "Europe:University of Cambridge:alanblackwell",
+      "name": "Alan Blackwell",
+      "region": "Europe",
+      "institution": "University of Cambridge",
+      "score": 103,
+      "disposition": "ready",
+      "atlasPersonId": "alan-blackwell-cambridge-p0-r4",
+      "officialId": "5f925bbb98d8cfb0",
+      "officialTitle": null,
+      "officialSection": null,
+      "profileUrl": "https://www.cst.cam.ac.uk/people/afb21",
+      "portraitUrl": null,
+      "rosterUrl": "https://www.cst.cam.ac.uk/people/directory/faculty?lang=en",
+      "evidenceUrls": [
+        "https://www.cst.cam.ac.uk/people/directory/faculty?lang=en",
+        "https://www.cst.cam.ac.uk/people/afb21"
+      ],
+      "reason": "官方名录和个人页已形成两项来源，但现有缓存没有可发布的可靠头像；人物事实、教育训练与关系仍须在头像补齐时一并复核。",
+      "sourceDecision": "include_new_pi",
+      "sourceLedger": "data/candidate-priority-p0-europe-remaining-disposition-2026-09-03.json",
+      "cachedPortrait": {
+        "status": "verified_512",
+        "sourceUrl": "https://www.cst.cam.ac.uk/sites/default/files/images/profile/alan-office-small.jpg",
+        "localPath": "public/portraits/candidate-p0-europe-profile-audit-2026/Europe-University-of-Cambridge-alanblackwell.jpg",
+        "rejection": null
+      },
+      "blocker": null,
+      "reviewedAt": "2026-09-03",
+      "thirdRoundRequiredEvidence": [
+        "3–5 条带来源人物事实（含教育/学术训练）",
+        "一手页面明确记载的具名关系"
+      ],
+      "fourthRoundEvidence": "Fourth-round first-party verification closed current independent PI status, at least two reliable sources, 3–5 sourced facts including education, a manually checked local portrait, and a named adviser/student relationship."
+    },
+    {
+      "canonicalKey": "Europe:University of Cambridge:alicehutchings",
+      "name": "Alice Hutchings",
+      "region": "Europe",
+      "institution": "University of Cambridge",
+      "score": 103,
+      "disposition": "ready",
+      "atlasPersonId": "alice-hutchings-cambridge-p0-r4",
+      "officialId": "8dd60c0f05d6caec",
+      "officialTitle": null,
+      "officialSection": null,
+      "profileUrl": "https://www.cst.cam.ac.uk/people/ah793",
+      "portraitUrl": null,
+      "rosterUrl": "https://www.cst.cam.ac.uk/people/directory/faculty?lang=en",
+      "evidenceUrls": [
+        "https://www.cst.cam.ac.uk/people/directory/faculty?lang=en",
+        "https://www.cst.cam.ac.uk/people/ah793"
+      ],
+      "reason": "官方名录和个人页已形成两项来源，但现有缓存没有可发布的可靠头像；人物事实、教育训练与关系仍须在头像补齐时一并复核。",
+      "sourceDecision": "include_new_pi",
+      "sourceLedger": "data/candidate-priority-p0-europe-remaining-disposition-2026-09-03.json",
+      "cachedPortrait": {
+        "status": "verified_512",
+        "sourceUrl": "https://www.cst.cam.ac.uk/sites/default/files/images/profile/alice-hutchings-contrast.jpg",
+        "localPath": "public/portraits/candidate-p0-europe-profile-audit-2026/Europe-University-of-Cambridge-alicehutchings.jpg",
+        "rejection": null
+      },
+      "blocker": null,
+      "reviewedAt": "2026-09-03",
+      "thirdRoundRequiredEvidence": [
+        "3–5 条带来源人物事实（含教育/学术训练）",
+        "一手页面明确记载的具名关系"
+      ],
+      "fourthRoundEvidence": "Fourth-round first-party verification closed current independent PI status, at least two reliable sources, 3–5 sourced facts including education, a manually checked local portrait, and a named adviser/student relationship."
+    },
+    {
+      "canonicalKey": "Europe:University of Cambridge:andrewmoore",
+      "name": "Andrew Moore",
+      "region": "Europe",
+      "institution": "University of Cambridge",
+      "score": 103,
+      "disposition": "ready",
+      "atlasPersonId": "andrew-moore-cambridge-p0-r4",
+      "officialId": "6fbc2f51af002e44",
+      "officialTitle": null,
+      "officialSection": null,
+      "profileUrl": "https://www.cst.cam.ac.uk/people/awm22",
+      "portraitUrl": null,
+      "rosterUrl": "https://www.cst.cam.ac.uk/people/directory/faculty?lang=en",
+      "evidenceUrls": [
+        "https://www.cst.cam.ac.uk/people/directory/faculty?lang=en",
+        "https://www.cst.cam.ac.uk/people/awm22"
+      ],
+      "reason": "官方名录和个人页已形成两项来源，但现有缓存没有可发布的可靠头像；人物事实、教育训练与关系仍须在头像补齐时一并复核。",
+      "sourceDecision": "include_new_pi",
+      "sourceLedger": "data/candidate-priority-p0-europe-remaining-disposition-2026-09-03.json",
+      "cachedPortrait": {
+        "status": "verified_512",
+        "sourceUrl": "https://www.cst.cam.ac.uk/sites/default/files/images/profile/awm22.jpg",
+        "localPath": "public/portraits/candidate-p0-europe-profile-audit-2026/Europe-University-of-Cambridge-andrewmoore.jpg",
+        "rejection": null
+      },
+      "blocker": null,
+      "reviewedAt": "2026-09-03",
+      "thirdRoundRequiredEvidence": [
+        "3–5 条带来源人物事实（含教育/学术训练）",
+        "一手页面明确记载的具名关系"
+      ],
+      "fourthRoundEvidence": "Fourth-round first-party verification closed current independent PI status, at least two reliable sources, 3–5 sourced facts including education, a manually checked local portrait, and a named adviser/student relationship."
+    },
+    {
+      "canonicalKey": "Europe:University of Cambridge:davidgreaves",
+      "name": "David Greaves",
+      "region": "Europe",
+      "institution": "University of Cambridge",
+      "score": 103,
+      "disposition": "missing_profile_facts_and_relationship",
+      "atlasPersonId": null,
+      "officialId": "7149af0318365442",
+      "officialTitle": null,
+      "officialSection": null,
+      "profileUrl": "https://www.cst.cam.ac.uk/people/djg11",
+      "portraitUrl": null,
+      "rosterUrl": "https://www.cst.cam.ac.uk/people/directory/faculty?lang=en",
+      "evidenceUrls": [
+        "https://www.cst.cam.ac.uk/people/directory/faculty?lang=en",
+        "https://www.cst.cam.ac.uk/people/djg11"
+      ],
+      "reason": "官方名录和个人页已形成两项来源，但现有缓存没有可发布的可靠头像；人物事实、教育训练与关系仍须在头像补齐时一并复核。",
+      "sourceDecision": "include_new_pi",
+      "sourceLedger": "data/candidate-priority-p0-europe-remaining-disposition-2026-09-03.json",
+      "cachedPortrait": {
+        "status": "verified_512",
+        "sourceUrl": "https://www.cst.cam.ac.uk/sites/default/files/images/profile/djg11.jpg",
+        "localPath": "public/portraits/candidate-p0-europe-profile-audit-2026/Europe-University-of-Cambridge-davidgreaves.jpg",
+        "rejection": null
+      },
+      "blocker": "第四轮已保留现任独立 PI 与经检查的头像，但可访问的一手页面仍不能同时形成含教育训练的 3–5 条人物事实和至少一条具名可建边关系；没有用共同论文或二手聚合结果推断。",
+      "reviewedAt": "2026-09-03",
+      "thirdRoundRequiredEvidence": [
+        "3–5 条带来源人物事实（含教育/学术训练）",
+        "一手页面明确记载的具名关系"
+      ],
+      "fourthRoundRequiredEvidence": [
+        "教育/博士训练的一手履历",
+        "当前或毕业博士生、本人导师或产业共同创办关系的一手记录"
+      ]
+    },
+    {
+      "canonicalKey": "Europe:University of Cambridge:dongma",
+      "name": "Dong Ma",
+      "region": "Europe",
+      "institution": "University of Cambridge",
+      "score": 103,
+      "disposition": "ready",
+      "atlasPersonId": "dong-ma-cambridge-p0-r4",
+      "officialId": "b6ee3d02988b9588",
+      "officialTitle": null,
+      "officialSection": null,
+      "profileUrl": "https://www.cst.cam.ac.uk/people/dm878",
+      "portraitUrl": null,
+      "rosterUrl": "https://www.cst.cam.ac.uk/people/directory/faculty?lang=en",
+      "evidenceUrls": [
+        "https://www.cst.cam.ac.uk/people/directory/faculty?lang=en",
+        "https://www.cst.cam.ac.uk/people/dm878"
+      ],
+      "reason": "官方名录和个人页已形成两项来源，但现有缓存没有可发布的可靠头像；人物事实、教育训练与关系仍须在头像补齐时一并复核。",
+      "sourceDecision": "include_new_pi",
+      "sourceLedger": "data/candidate-priority-p0-europe-remaining-disposition-2026-09-03.json",
+      "cachedPortrait": {
+        "status": "verified_512",
+        "sourceUrl": "https://www.cst.cam.ac.uk/sites/default/files/images/profile/pr_dong_hd.jpg",
+        "localPath": "public/portraits/candidate-p0-europe-profile-audit-2026/Europe-University-of-Cambridge-dongma.jpg",
+        "rejection": null
+      },
+      "blocker": null,
+      "reviewedAt": "2026-09-03",
+      "thirdRoundRequiredEvidence": [
+        "3–5 条带来源人物事实（含教育/学术训练）",
+        "一手页面明确记载的具名关系"
+      ],
+      "fourthRoundEvidence": "Fourth-round first-party verification closed current independent PI status, at least two reliable sources, 3–5 sourced facts including education, a manually checked local portrait, and a named adviser/student relationship."
+    },
+    {
+      "canonicalKey": "Europe:University of Cambridge:ferminmoscosodelpradomartin",
+      "name": "Fermin Moscoso del Prado Martin",
+      "region": "Europe",
+      "institution": "University of Cambridge",
+      "score": 103,
+      "disposition": "ready",
+      "atlasPersonId": "fermin-moscoso-cambridge-p0-r4",
+      "officialId": "b66c08d7eb9bb07d",
+      "officialTitle": null,
+      "officialSection": null,
+      "profileUrl": "https://www.cst.cam.ac.uk/people/fm611",
+      "portraitUrl": null,
+      "rosterUrl": "https://www.cst.cam.ac.uk/people/directory/faculty?lang=en",
+      "evidenceUrls": [
+        "https://www.cst.cam.ac.uk/people/directory/faculty?lang=en",
+        "https://www.cst.cam.ac.uk/people/fm611"
+      ],
+      "reason": "官方名录和个人页已形成两项来源，但现有缓存没有可发布的可靠头像；人物事实、教育训练与关系仍须在头像补齐时一并复核。",
+      "sourceDecision": "include_new_pi",
+      "sourceLedger": "data/candidate-priority-p0-europe-remaining-disposition-2026-09-03.json",
+      "cachedPortrait": {
+        "status": "unresolved",
+        "sourceUrl": "https://www.cst.cam.ac.uk/system/temporary/filefield_paths/photo_0.jpg",
+        "localPath": null,
+        "rejection": "official profile did not yield a valid image"
+      },
+      "blocker": null,
+      "reviewedAt": "2026-09-03",
+      "thirdRoundRequiredEvidence": [
+        "可靠本人头像（本地 512×512）",
+        "头像来源页与本人身份一致"
+      ],
+      "fourthRoundEvidence": "Fourth-round first-party verification closed current independent PI status, at least two reliable sources, 3–5 sourced facts including education, a manually checked local portrait, and a named adviser/student relationship."
+    },
+    {
+      "canonicalKey": "Europe:University of Cambridge:jamievicary",
+      "name": "Jamie Vicary",
+      "region": "Europe",
+      "institution": "University of Cambridge",
+      "score": 103,
+      "disposition": "ready",
+      "atlasPersonId": "jamie-vicary-cambridge-p0-r4",
+      "officialId": "bd38b071132b6de3",
+      "officialTitle": null,
+      "officialSection": null,
+      "profileUrl": "https://www.cst.cam.ac.uk/people/jv258",
+      "portraitUrl": null,
+      "rosterUrl": "https://www.cst.cam.ac.uk/people/directory/faculty?lang=en",
+      "evidenceUrls": [
+        "https://www.cst.cam.ac.uk/people/directory/faculty?lang=en",
+        "https://www.cst.cam.ac.uk/people/jv258"
+      ],
+      "reason": "官方名录和个人页已形成两项来源，但现有缓存没有可发布的可靠头像；人物事实、教育训练与关系仍须在头像补齐时一并复核。",
+      "sourceDecision": "include_new_pi",
+      "sourceLedger": "data/candidate-priority-p0-europe-remaining-disposition-2026-09-03.json",
+      "cachedPortrait": {
+        "status": "verified_512",
+        "sourceUrl": "https://www.cst.cam.ac.uk/sites/default/files/images/profile/jamie-cropped-small.jpg",
+        "localPath": "public/portraits/candidate-p0-europe-profile-audit-2026/Europe-University-of-Cambridge-jamievicary.jpg",
+        "rejection": null
+      },
+      "blocker": null,
+      "reviewedAt": "2026-09-03",
+      "thirdRoundRequiredEvidence": [
+        "3–5 条带来源人物事实（含教育/学术训练）",
+        "一手页面明确记载的具名关系"
+      ],
+      "fourthRoundEvidence": "Fourth-round first-party verification closed current independent PI status, at least two reliable sources, 3–5 sourced facts including education, a manually checked local portrait, and a named adviser/student relationship."
+    },
+    {
+      "canonicalKey": "Europe:University of Cambridge:jeremyyallop",
+      "name": "Jeremy Yallop",
+      "region": "Europe",
+      "institution": "University of Cambridge",
+      "score": 103,
+      "disposition": "ready",
+      "atlasPersonId": "jeremy-yallop-cambridge-p0-r4",
+      "officialId": "4920b4f019e4b8a1",
+      "officialTitle": null,
+      "officialSection": null,
+      "profileUrl": "https://www.cst.cam.ac.uk/people/jdy22",
+      "portraitUrl": null,
+      "rosterUrl": "https://www.cst.cam.ac.uk/people/directory/faculty?lang=en",
+      "evidenceUrls": [
+        "https://www.cst.cam.ac.uk/people/directory/faculty?lang=en",
+        "https://www.cst.cam.ac.uk/people/jdy22"
+      ],
+      "reason": "官方名录和个人页已形成两项来源，但现有缓存没有可发布的可靠头像；人物事实、教育训练与关系仍须在头像补齐时一并复核。",
+      "sourceDecision": "include_new_pi",
+      "sourceLedger": "data/candidate-priority-p0-europe-remaining-disposition-2026-09-03.json",
+      "cachedPortrait": {
+        "status": "verified_512",
+        "sourceUrl": "https://www.cst.cam.ac.uk/sites/default/files/images/profile/yallop-414x552.png",
+        "localPath": "public/portraits/candidate-p0-europe-profile-audit-2026/Europe-University-of-Cambridge-jeremyyallop.jpg",
+        "rejection": null
+      },
+      "blocker": null,
+      "reviewedAt": "2026-09-03",
+      "thirdRoundRequiredEvidence": [
+        "3–5 条带来源人物事实（含教育/学术训练）",
+        "一手页面明确记载的具名关系"
+      ],
+      "fourthRoundEvidence": "Fourth-round first-party verification closed current independent PI status, at least two reliable sources, 3–5 sourced facts including education, a manually checked local portrait, and a named adviser/student relationship."
+    },
+    {
+      "canonicalKey": "Europe:University of Cambridge:jonsterling",
+      "name": "Jon Sterling",
+      "region": "Europe",
+      "institution": "University of Cambridge",
+      "score": 103,
+      "disposition": "ready",
+      "atlasPersonId": "jon-sterling-cambridge-p0-r4",
+      "officialId": "1976499e22561675",
+      "officialTitle": null,
+      "officialSection": null,
+      "profileUrl": "https://www.cst.cam.ac.uk/people/js2878",
+      "portraitUrl": null,
+      "rosterUrl": "https://www.cst.cam.ac.uk/people/directory/faculty?lang=en",
+      "evidenceUrls": [
+        "https://www.cst.cam.ac.uk/people/directory/faculty?lang=en",
+        "https://www.cst.cam.ac.uk/people/js2878"
+      ],
+      "reason": "官方名录和个人页已形成两项来源，但现有缓存没有可发布的可靠头像；人物事实、教育训练与关系仍须在头像补齐时一并复核。",
+      "sourceDecision": "include_new_pi",
+      "sourceLedger": "data/candidate-priority-p0-europe-remaining-disposition-2026-09-03.json",
+      "cachedPortrait": {
+        "status": "verified_512",
+        "sourceUrl": "https://www.cst.cam.ac.uk/sites/default/files/images/profile/jonathan_sterling2_cropped.jpg",
+        "localPath": "public/portraits/candidate-p0-europe-profile-audit-2026/Europe-University-of-Cambridge-jonsterling.jpg",
+        "rejection": null
+      },
+      "blocker": null,
+      "reviewedAt": "2026-09-03",
+      "thirdRoundRequiredEvidence": [
+        "3–5 条带来源人物事实（含教育/学术训练）",
+        "一手页面明确记载的具名关系"
+      ],
+      "fourthRoundEvidence": "Fourth-round first-party verification closed current independent PI status, at least two reliable sources, 3–5 sourced facts including education, a manually checked local portrait, and a named adviser/student relationship."
+    },
+    {
+      "canonicalKey": "Europe:University of Cambridge:katieseaborn",
+      "name": "Katie Seaborn",
+      "region": "Europe",
+      "institution": "University of Cambridge",
+      "score": 103,
+      "disposition": "ready",
+      "atlasPersonId": "katie-seaborn-cambridge-p0-r4",
+      "officialId": "1bc12830afc6aabf",
+      "officialTitle": null,
+      "officialSection": null,
+      "profileUrl": "https://www.cst.cam.ac.uk/people/kas214",
+      "portraitUrl": null,
+      "rosterUrl": "https://www.cst.cam.ac.uk/people/directory/faculty?lang=en",
+      "evidenceUrls": [
+        "https://www.cst.cam.ac.uk/people/directory/faculty?lang=en",
+        "https://www.cst.cam.ac.uk/people/kas214"
+      ],
+      "reason": "官方名录和个人页已形成两项来源，但现有缓存没有可发布的可靠头像；人物事实、教育训练与关系仍须在头像补齐时一并复核。",
+      "sourceDecision": "include_new_pi",
+      "sourceLedger": "data/candidate-priority-p0-europe-remaining-disposition-2026-09-03.json",
+      "cachedPortrait": {
+        "status": "verified_512",
+        "sourceUrl": "https://www.cst.cam.ac.uk/sites/default/files/images/profile/cam-apr26-outside.png",
+        "localPath": "public/portraits/candidate-p0-europe-profile-audit-2026/Europe-University-of-Cambridge-katieseaborn.jpg",
+        "rejection": null
+      },
+      "blocker": null,
+      "reviewedAt": "2026-09-03",
+      "thirdRoundRequiredEvidence": [
+        "3–5 条带来源人物事实（含教育/学术训练）",
+        "一手页面明确记载的具名关系"
+      ],
+      "fourthRoundEvidence": "Fourth-round first-party verification closed current independent PI status, at least two reliable sources, 3–5 sourced facts including education, a manually checked local portrait, and a named adviser/student relationship."
+    },
+    {
+      "canonicalKey": "Europe:University of Cambridge:marcelofiore",
+      "name": "Marcelo Fiore",
+      "region": "Europe",
+      "institution": "University of Cambridge",
+      "score": 103,
+      "disposition": "missing_profile_facts_and_relationship",
+      "atlasPersonId": null,
+      "officialId": "d8ab12c94627eca2",
+      "officialTitle": null,
+      "officialSection": null,
+      "profileUrl": "https://www.cst.cam.ac.uk/people/mpf23",
+      "portraitUrl": null,
+      "rosterUrl": "https://www.cst.cam.ac.uk/people/directory/faculty?lang=en",
+      "evidenceUrls": [
+        "https://www.cst.cam.ac.uk/people/directory/faculty?lang=en",
+        "https://www.cst.cam.ac.uk/people/mpf23"
+      ],
+      "reason": "官方名录和个人页已形成两项来源，但现有缓存没有可发布的可靠头像；人物事实、教育训练与关系仍须在头像补齐时一并复核。",
+      "sourceDecision": "include_new_pi",
+      "sourceLedger": "data/candidate-priority-p0-europe-remaining-disposition-2026-09-03.json",
+      "cachedPortrait": {
+        "status": "verified_512",
+        "sourceUrl": "https://www.cst.cam.ac.uk/sites/default/files/images/profile/mpf23.jpg",
+        "localPath": "public/portraits/candidate-p0-europe-profile-audit-2026/Europe-University-of-Cambridge-marcelofiore.jpg",
+        "rejection": null
+      },
+      "blocker": "第四轮已保留现任独立 PI 与经检查的头像，但可访问的一手页面仍不能同时形成含教育训练的 3–5 条人物事实和至少一条具名可建边关系；没有用共同论文或二手聚合结果推断。",
+      "reviewedAt": "2026-09-03",
+      "thirdRoundRequiredEvidence": [
+        "3–5 条带来源人物事实（含教育/学术训练）",
+        "一手页面明确记载的具名关系"
+      ],
+      "fourthRoundRequiredEvidence": [
+        "完整教育与任职时间轴的一手资料",
+        "当前或毕业博士生、本人导师的一手记录"
+      ]
+    },
+    {
+      "canonicalKey": "Europe:University of Cambridge:markuskuhn",
+      "name": "Markus Kuhn",
+      "region": "Europe",
+      "institution": "University of Cambridge",
+      "score": 103,
+      "disposition": "ready",
+      "atlasPersonId": "markus-kuhn-cambridge-p0-r4",
+      "officialId": "0af4be2735a4defe",
+      "officialTitle": null,
+      "officialSection": null,
+      "profileUrl": "https://www.cst.cam.ac.uk/people/mgk25",
+      "portraitUrl": null,
+      "rosterUrl": "https://www.cst.cam.ac.uk/people/directory/faculty?lang=en",
+      "evidenceUrls": [
+        "https://www.cst.cam.ac.uk/people/directory/faculty?lang=en",
+        "https://www.cst.cam.ac.uk/people/mgk25"
+      ],
+      "reason": "官方名录和个人页已形成两项来源，但现有缓存没有可发布的可靠头像；人物事实、教育训练与关系仍须在头像补齐时一并复核。",
+      "sourceDecision": "include_new_pi",
+      "sourceLedger": "data/candidate-priority-p0-europe-remaining-disposition-2026-09-03.json",
+      "cachedPortrait": {
+        "status": "verified_512",
+        "sourceUrl": "https://www.cst.cam.ac.uk/sites/default/files/images/profile/mgk25.jpg",
+        "localPath": "public/portraits/candidate-p0-europe-profile-audit-2026/Europe-University-of-Cambridge-markuskuhn.jpg",
+        "rejection": null
+      },
+      "blocker": null,
+      "reviewedAt": "2026-09-03",
+      "thirdRoundRequiredEvidence": [
+        "3–5 条带来源人物事实（含教育/学术训练）",
+        "一手页面明确记载的具名关系"
+      ],
+      "fourthRoundEvidence": "Fourth-round first-party verification closed current independent PI status, at least two reliable sources, 3–5 sourced facts including education, a manually checked local portrait, and a named adviser/student relationship."
+    },
+    {
+      "canonicalKey": "Europe:University of Cambridge:richardmortier",
+      "name": "Richard Mortier",
+      "region": "Europe",
+      "institution": "University of Cambridge",
+      "score": 103,
+      "disposition": "ready",
+      "atlasPersonId": "richard-mortier-cambridge-p0-r4",
+      "officialId": "3905f62ee25f3063",
+      "officialTitle": null,
+      "officialSection": null,
+      "profileUrl": "https://www.cst.cam.ac.uk/people/rmm1002",
+      "portraitUrl": null,
+      "rosterUrl": "https://www.cst.cam.ac.uk/people/directory/faculty?lang=en",
+      "evidenceUrls": [
+        "https://www.cst.cam.ac.uk/people/directory/faculty?lang=en",
+        "https://www.cst.cam.ac.uk/people/rmm1002"
+      ],
+      "reason": "官方名录和个人页已形成两项来源，但现有缓存没有可发布的可靠头像；人物事实、教育训练与关系仍须在头像补齐时一并复核。",
+      "sourceDecision": "include_new_pi",
+      "sourceLedger": "data/candidate-priority-p0-europe-remaining-disposition-2026-09-03.json",
+      "cachedPortrait": {
+        "status": "verified_512",
+        "sourceUrl": "https://www.cst.cam.ac.uk/sites/default/files/images/profile/richard-mortier.jpg",
+        "localPath": "public/portraits/candidate-p0-europe-profile-audit-2026/Europe-University-of-Cambridge-richardmortier.jpg",
+        "rejection": null
+      },
+      "blocker": null,
+      "reviewedAt": "2026-09-03",
+      "thirdRoundRequiredEvidence": [
+        "3–5 条带来源人物事实（含教育/学术训练）",
+        "一手页面明确记载的具名关系"
+      ],
+      "fourthRoundEvidence": "Fourth-round first-party verification closed current independent PI status, at least two reliable sources, 3–5 sourced facts including education, a manually checked local portrait, and a named adviser/student relationship."
+    },
+    {
+      "canonicalKey": "Europe:University of Cambridge:robertharle",
+      "name": "Robert Harle",
+      "region": "Europe",
+      "institution": "University of Cambridge",
+      "score": 103,
+      "disposition": "ready",
+      "atlasPersonId": "robert-harle-cambridge-p0-r4",
+      "officialId": "6bd3684dfce3b32d",
+      "officialTitle": null,
+      "officialSection": null,
+      "profileUrl": "https://www.cst.cam.ac.uk/people/rkh23",
+      "portraitUrl": null,
+      "rosterUrl": "https://www.cst.cam.ac.uk/people/directory/faculty?lang=en",
+      "evidenceUrls": [
+        "https://www.cst.cam.ac.uk/people/directory/faculty?lang=en",
+        "https://www.cst.cam.ac.uk/people/rkh23"
+      ],
+      "reason": "官方名录和个人页已形成两项来源，但现有缓存没有可发布的可靠头像；人物事实、教育训练与关系仍须在头像补齐时一并复核。",
+      "sourceDecision": "include_new_pi",
+      "sourceLedger": "data/candidate-priority-p0-europe-remaining-disposition-2026-09-03.json",
+      "cachedPortrait": {
+        "status": "verified_512",
+        "sourceUrl": "https://www.cst.cam.ac.uk/sites/default/files/images/profile/rkh23.jpg",
+        "localPath": "public/portraits/candidate-p0-europe-profile-audit-2026/Europe-University-of-Cambridge-robertharle.jpg",
+        "rejection": null
+      },
+      "blocker": null,
+      "reviewedAt": "2026-09-03",
+      "thirdRoundRequiredEvidence": [
+        "3–5 条带来源人物事实（含教育/学术训练）",
+        "一手页面明确记载的具名关系"
+      ],
+      "fourthRoundEvidence": "Fourth-round first-party verification closed current independent PI status, at least two reliable sources, 3–5 sourced facts including education, a manually checked local portrait, and a named adviser/student relationship."
+    },
+    {
+      "canonicalKey": "Europe:University of Cambridge:srinivasankeshav",
+      "name": "Srinivasan Keshav",
+      "region": "Europe",
+      "institution": "University of Cambridge",
+      "score": 103,
+      "disposition": "ready",
+      "atlasPersonId": "srinivasan-keshav-cambridge-p0-r4",
+      "officialId": "3c45437b0e11e6d0",
+      "officialTitle": null,
+      "officialSection": null,
+      "profileUrl": "https://www.cst.cam.ac.uk/people/sk818",
+      "portraitUrl": null,
+      "rosterUrl": "https://www.cst.cam.ac.uk/people/directory/faculty?lang=en",
+      "evidenceUrls": [
+        "https://www.cst.cam.ac.uk/people/directory/faculty?lang=en",
+        "https://www.cst.cam.ac.uk/people/sk818"
+      ],
+      "reason": "官方名录和个人页已形成两项来源，但现有缓存没有可发布的可靠头像；人物事实、教育训练与关系仍须在头像补齐时一并复核。",
+      "sourceDecision": "include_new_pi",
+      "sourceLedger": "data/candidate-priority-p0-europe-remaining-disposition-2026-09-03.json",
+      "cachedPortrait": {
+        "status": "verified_512",
+        "sourceUrl": "https://www.cst.cam.ac.uk/sites/default/files/images/profile/s-keshav-portrait-square.jpg",
+        "localPath": "public/portraits/candidate-p0-europe-profile-audit-2026/Europe-University-of-Cambridge-srinivasankeshav.jpg",
+        "rejection": null
+      },
+      "blocker": null,
+      "reviewedAt": "2026-09-03",
+      "thirdRoundRequiredEvidence": [
+        "3–5 条带来源人物事实（含教育/学术训练）",
+        "一手页面明确记载的具名关系"
+      ],
+      "fourthRoundEvidence": "Fourth-round first-party verification closed current independent PI status, at least two reliable sources, 3–5 sourced facts including education, a manually checked local portrait, and a named adviser/student relationship."
+    },
+    {
+      "canonicalKey": "Europe:University of Cambridge:tobiasgrosser",
+      "name": "Tobias Grosser",
+      "region": "Europe",
+      "institution": "University of Cambridge",
+      "score": 103,
+      "disposition": "ready",
+      "atlasPersonId": "tobias-grosser-cambridge-p0-r4",
+      "officialId": "f10852706dceba7b",
+      "officialTitle": null,
+      "officialSection": null,
+      "profileUrl": "https://www.cst.cam.ac.uk/people/tcg40",
+      "portraitUrl": null,
+      "rosterUrl": "https://www.cst.cam.ac.uk/people/directory/faculty?lang=en",
+      "evidenceUrls": [
+        "https://www.cst.cam.ac.uk/people/directory/faculty?lang=en",
+        "https://www.cst.cam.ac.uk/people/tcg40"
+      ],
+      "reason": "官方名录和个人页已形成两项来源，但现有缓存没有可发布的可靠头像；人物事实、教育训练与关系仍须在头像补齐时一并复核。",
+      "sourceDecision": "include_new_pi",
+      "sourceLedger": "data/candidate-priority-p0-europe-remaining-disposition-2026-09-03.json",
+      "cachedPortrait": {
+        "status": "verified_512",
+        "sourceUrl": "https://www.cst.cam.ac.uk/sites/default/files/images/profile/grosser_0.jpg",
+        "localPath": "public/portraits/candidate-p0-europe-profile-audit-2026/Europe-University-of-Cambridge-tobiasgrosser.jpg",
+        "rejection": null
+      },
+      "blocker": null,
+      "reviewedAt": "2026-09-03",
+      "thirdRoundRequiredEvidence": [
+        "3–5 条带来源人物事实（含教育/学术训练）",
+        "一手页面明确记载的具名关系"
+      ],
+      "fourthRoundEvidence": "Fourth-round first-party verification closed current independent PI status, at least two reliable sources, 3–5 sourced facts including education, a manually checked local portrait, and a named adviser/student relationship."
+    }
+  ]
+}

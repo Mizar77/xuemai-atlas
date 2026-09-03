@@ -1,0 +1,985 @@
+{
+  "completeness": "complete",
+  "fetchedAt": "2026-09-02",
+  "institution": "University of Pennsylvania Computer and Information Science",
+  "officialPageUrl": "https://www.cis.upenn.edu/faculty/",
+  "officialDataUrl": "https://www.cis.upenn.edu/faculty/",
+  "officialRosterCount": 121,
+  "officialSectionCounts": {
+    "Primary Faculty": 68,
+    "Secondary Faculty": 46,
+    "Emeritus and Adjunct Faculty": 7
+  },
+  "sourcePageSha256": "8079c121cb34a20c5ca4b682becbbcbd3ec720dd74131830c8572b0fae689a2a",
+  "sourceDescription": "Every named faculty card in the three official sections. Cards on this page do not link to individual profiles, so sourcePage is retained for every record.",
+  "people": [
+    {
+      "officialId": "shivani-agarwal",
+      "name": "Shivani Agarwal",
+      "officialSection": "Primary Faculty",
+      "title": "Associate Professor",
+      "portraitUrl": "https://www.cis.upenn.edu/wp-content/uploads/2026/04/agarwal-shivani.png",
+      "sourcePage": "https://www.cis.upenn.edu/faculty/"
+    },
+    {
+      "officialId": "rajeev-alur",
+      "name": "Rajeev Alur",
+      "officialSection": "Primary Faculty",
+      "title": "Zisman Family Professor",
+      "portraitUrl": "https://www.cis.upenn.edu/wp-content/uploads/2026/04/alur-rajeev.png",
+      "sourcePage": "https://www.cis.upenn.edu/faculty/"
+    },
+    {
+      "officialId": "sebastian-angel",
+      "name": "Sebastian Angel",
+      "officialSection": "Primary Faculty",
+      "title": "Associate Professor",
+      "portraitUrl": "https://www.cis.upenn.edu/wp-content/uploads/2026/04/angel-sebastian-e1787837148877.png",
+      "sourcePage": "https://www.cis.upenn.edu/faculty/"
+    },
+    {
+      "officialId": "osbert-bastani",
+      "name": "Osbert Bastani",
+      "officialSection": "Primary Faculty",
+      "title": "Associate Professor",
+      "portraitUrl": "https://www.cis.upenn.edu/wp-content/uploads/2026/04/bastani-osbert.png",
+      "sourcePage": "https://www.cis.upenn.edu/faculty/"
+    },
+    {
+      "officialId": "arvind-bhusnurmath",
+      "name": "Arvind Bhusnurmath",
+      "officialSection": "Primary Faculty",
+      "title": "Senior Lecturer",
+      "portraitUrl": "https://www.cis.upenn.edu/wp-content/uploads/2026/04/bhusnurmath-arvind.png",
+      "sourcePage": "https://www.cis.upenn.edu/faculty/"
+    },
+    {
+      "officialId": "chris-callison-burch",
+      "name": "Chris Callison-Burch",
+      "officialSection": "Primary Faculty",
+      "title": "Raj and Neera Singh Professor",
+      "portraitUrl": "https://www.cis.upenn.edu/wp-content/uploads/2026/04/ccb.png",
+      "sourcePage": "https://www.cis.upenn.edu/faculty/"
+    },
+    {
+      "officialId": "pranam-chatterjee",
+      "name": "Pranam Chatterjee",
+      "officialSection": "Primary Faculty",
+      "title": "Assistant Professor",
+      "portraitUrl": "https://www.cis.upenn.edu/wp-content/uploads/2026/04/chatterjee-pranam.png",
+      "sourcePage": "https://www.cis.upenn.edu/faculty/"
+    },
+    {
+      "officialId": "konstantinos-daniilidis",
+      "name": "Konstantinos Daniilidis",
+      "officialSection": "Primary Faculty",
+      "title": "Ruth Yalom Stone Professor",
+      "portraitUrl": "https://www.cis.upenn.edu/wp-content/uploads/2026/04/daniilidis_kostas1-scaled.jpg",
+      "sourcePage": "https://www.cis.upenn.edu/faculty/"
+    },
+    {
+      "officialId": "susan-davidson",
+      "name": "Susan Davidson",
+      "officialSection": "Primary Faculty",
+      "title": "Weiss Professor",
+      "portraitUrl": "https://www.cis.upenn.edu/wp-content/uploads/2026/04/davidson-susan.png",
+      "sourcePage": "https://www.cis.upenn.edu/faculty/"
+    },
+    {
+      "officialId": "anindya-de",
+      "name": "Anindya De",
+      "officialSection": "Primary Faculty",
+      "title": "Associate Professor",
+      "portraitUrl": "https://www.cis.upenn.edu/wp-content/uploads/2026/04/de-anindya.png",
+      "sourcePage": "https://www.cis.upenn.edu/faculty/"
+    },
+    {
+      "officialId": "joseph-devietti",
+      "name": "Joseph Devietti",
+      "officialSection": "Primary Faculty",
+      "title": "Associate Professor",
+      "portraitUrl": "https://www.cis.upenn.edu/wp-content/uploads/2026/04/devietti-joe.png",
+      "sourcePage": "https://www.cis.upenn.edu/faculty/"
+    },
+    {
+      "officialId": "kaihua-ding",
+      "name": "Kaihua Ding",
+      "officialSection": "Primary Faculty",
+      "title": "Part-Time Lecturer",
+      "portraitUrl": "https://www.cis.upenn.edu/wp-content/uploads/2026/09/ding-kaihua.png",
+      "sourcePage": "https://www.cis.upenn.edu/faculty/"
+    },
+    {
+      "officialId": "kyrie-dowling",
+      "name": "Kyrie Dowling",
+      "officialSection": "Primary Faculty",
+      "title": "Lecturer",
+      "portraitUrl": "https://www.cis.upenn.edu/wp-content/uploads/2026/04/Dowling-Kyrie.jpg",
+      "sourcePage": "https://www.cis.upenn.edu/faculty/"
+    },
+    {
+      "officialId": "eva-dyer",
+      "name": "Eva Dyer",
+      "officialSection": "Primary Faculty",
+      "title": "Rachleff Associate Professor",
+      "portraitUrl": "https://www.cis.upenn.edu/wp-content/uploads/2026/04/Dyer-Eva.jpg",
+      "sourcePage": "https://www.cis.upenn.edu/faculty/"
+    },
+    {
+      "officialId": "eric-eaton",
+      "name": "Eric Eaton",
+      "officialSection": "Primary Faculty",
+      "title": "Research Associate Professor",
+      "portraitUrl": "https://www.cis.upenn.edu/wp-content/uploads/2026/04/eaton-eric.png",
+      "sourcePage": "https://www.cis.upenn.edu/faculty/"
+    },
+    {
+      "officialId": "thomas-farmer",
+      "name": "Thomas Farmer",
+      "officialSection": "Primary Faculty",
+      "title": "Practice Associate Professor",
+      "portraitUrl": "https://www.cis.upenn.edu/wp-content/uploads/2026/04/farmer-thomas.png",
+      "sourcePage": "https://www.cis.upenn.edu/faculty/"
+    },
+    {
+      "officialId": "josh-fried",
+      "name": "Josh Fried",
+      "officialSection": "Primary Faculty",
+      "title": "Assistant Professor",
+      "portraitUrl": "https://www.cis.upenn.edu/wp-content/uploads/2026/09/Fried-Josh-1200x800-1.png",
+      "sourcePage": "https://www.cis.upenn.edu/faculty/"
+    },
+    {
+      "officialId": "jean-gallier",
+      "name": "Jean Gallier",
+      "officialSection": "Primary Faculty",
+      "title": "Professor",
+      "portraitUrl": "https://www.cis.upenn.edu/wp-content/uploads/2026/04/Gallier-Jean.png",
+      "sourcePage": "https://www.cis.upenn.edu/faculty/"
+    },
+    {
+      "officialId": "rajiv-gandhi",
+      "name": "Rajiv Gandhi",
+      "officialSection": "Primary Faculty",
+      "title": "Lecturer",
+      "portraitUrl": "https://www.cis.upenn.edu/wp-content/uploads/2026/04/gandhi-rajiv.png",
+      "sourcePage": "https://www.cis.upenn.edu/faculty/"
+    },
+    {
+      "officialId": "jacob-gardner",
+      "name": "Jacob Gardner",
+      "officialSection": "Primary Faculty",
+      "title": "Assistant Professor",
+      "portraitUrl": "https://www.cis.upenn.edu/wp-content/uploads/2026/04/gardner-jacob.png",
+      "sourcePage": "https://www.cis.upenn.edu/faculty/"
+    },
+    {
+      "officialId": "surbhi-goel",
+      "name": "Surbhi Goel",
+      "officialSection": "Primary Faculty",
+      "title": "Magerman Term Assistant Professor",
+      "portraitUrl": "https://www.cis.upenn.edu/wp-content/uploads/2026/04/goel-surbhi.png",
+      "sourcePage": "https://www.cis.upenn.edu/faculty/"
+    },
+    {
+      "officialId": "jiatao-gu",
+      "name": "Jiatao Gu",
+      "officialSection": "Primary Faculty",
+      "title": "Assistant Professor",
+      "portraitUrl": "https://www.cis.upenn.edu/wp-content/uploads/2026/04/Gu-Jiatao.png",
+      "sourcePage": "https://www.cis.upenn.edu/faculty/"
+    },
+    {
+      "officialId": "sharath-guntuku",
+      "name": "Sharath Guntuku",
+      "officialSection": "Primary Faculty",
+      "title": "Research Associate Professor",
+      "portraitUrl": "https://www.cis.upenn.edu/wp-content/uploads/2026/04/Guntuku-Sharath.png",
+      "sourcePage": "https://www.cis.upenn.edu/faculty/"
+    },
+    {
+      "officialId": "andreas-haeberlen",
+      "name": "Andreas Haeberlen",
+      "officialSection": "Primary Faculty",
+      "title": "Professor",
+      "portraitUrl": "https://www.cis.upenn.edu/wp-content/uploads/2026/04/haeberlen-andreas.png",
+      "sourcePage": "https://www.cis.upenn.edu/faculty/"
+    },
+    {
+      "officialId": "andrew-head",
+      "name": "Andrew Head",
+      "officialSection": "Primary Faculty",
+      "title": "Assistant Professor",
+      "portraitUrl": "https://www.cis.upenn.edu/wp-content/uploads/2026/04/Head-Andrew.png",
+      "sourcePage": "https://www.cis.upenn.edu/faculty/"
+    },
+    {
+      "officialId": "michael-hicks",
+      "name": "Michael Hicks",
+      "officialSection": "Primary Faculty",
+      "title": "Cecilia Fitler Moore Professor",
+      "portraitUrl": "https://www.cis.upenn.edu/wp-content/uploads/2026/04/Hicks-Michael.jpg",
+      "sourcePage": "https://www.cis.upenn.edu/faculty/"
+    },
+    {
+      "officialId": "zachary-ives",
+      "name": "Zachary Ives",
+      "officialSection": "Primary Faculty",
+      "title": "Adani President’s Distinguished Professor",
+      "portraitUrl": "https://www.cis.upenn.edu/wp-content/uploads/2026/04/Ives-Zachary.jpg",
+      "sourcePage": "https://www.cis.upenn.edu/faculty/"
+    },
+    {
+      "officialId": "meena-jagadeesan",
+      "name": "Meena Jagadeesan",
+      "officialSection": "Primary Faculty",
+      "title": "Assistant Professor",
+      "portraitUrl": "https://www.cis.upenn.edu/wp-content/uploads/2026/04/jagadeesan-meena.png",
+      "sourcePage": "https://www.cis.upenn.edu/faculty/"
+    },
+    {
+      "officialId": "dinesh-jayaraman",
+      "name": "Dinesh Jayaraman",
+      "officialSection": "Primary Faculty",
+      "title": "Associate Professor",
+      "portraitUrl": "https://www.cis.upenn.edu/wp-content/uploads/2026/04/Jayaraman-Dinesh.jpg",
+      "sourcePage": "https://www.cis.upenn.edu/faculty/"
+    },
+    {
+      "officialId": "kevin-b-johnson",
+      "name": "Kevin B. Johnson",
+      "officialSection": "Primary Faculty",
+      "title": "David L. Cohen University Professor",
+      "portraitUrl": "https://www.cis.upenn.edu/wp-content/uploads/2026/04/Johnson-Kevin.jpg",
+      "sourcePage": "https://www.cis.upenn.edu/faculty/"
+    },
+    {
+      "officialId": "sampath-kannan",
+      "name": "Sampath Kannan",
+      "officialSection": "Primary Faculty",
+      "title": "Henry Salvatori Professor",
+      "portraitUrl": "https://www.cis.upenn.edu/wp-content/uploads/2026/09/Kannan-Sampath-1200x800-1.png",
+      "sourcePage": "https://www.cis.upenn.edu/faculty/"
+    },
+    {
+      "officialId": "michael-kearns",
+      "name": "Michael Kearns",
+      "officialSection": "Primary Faculty",
+      "title": "National Center Professor of Management & Technology",
+      "portraitUrl": "https://www.cis.upenn.edu/wp-content/uploads/2026/04/kearns-michael.png",
+      "sourcePage": "https://www.cis.upenn.edu/faculty/"
+    },
+    {
+      "officialId": "bongho-kim",
+      "name": "Bongho Kim",
+      "officialSection": "Primary Faculty",
+      "title": "Lecturer",
+      "portraitUrl": "https://www.cis.upenn.edu/wp-content/uploads/2026/04/kim-bongho.png",
+      "sourcePage": "https://www.cis.upenn.edu/faculty/"
+    },
+    {
+      "officialId": "brandon-krakowsky",
+      "name": "Brandon Krakowsky",
+      "officialSection": "Primary Faculty",
+      "title": "Lecturer",
+      "portraitUrl": "https://www.cis.upenn.edu/wp-content/uploads/2026/09/Krakowsky-Brandon-1200x800-1.jpg",
+      "sourcePage": "https://www.cis.upenn.edu/faculty/"
+    },
+    {
+      "officialId": "stephen-lane",
+      "name": "Stephen Lane",
+      "officialSection": "Primary Faculty",
+      "title": "Practice Professor",
+      "portraitUrl": "https://www.cis.upenn.edu/wp-content/uploads/2026/04/Lane.jpg",
+      "sourcePage": "https://www.cis.upenn.edu/faculty/"
+    },
+    {
+      "officialId": "benjamin-lee",
+      "name": "Benjamin Lee",
+      "officialSection": "Primary Faculty",
+      "title": "Professor",
+      "portraitUrl": "https://www.cis.upenn.edu/wp-content/uploads/2026/04/lee-benjamin.png",
+      "sourcePage": "https://www.cis.upenn.edu/faculty/"
+    },
+    {
+      "officialId": "insup-lee",
+      "name": "Insup Lee",
+      "officialSection": "Primary Faculty",
+      "title": "Cecilia Fitler Moore Professor",
+      "portraitUrl": "https://www.cis.upenn.edu/wp-content/uploads/2026/04/lee-insup.png",
+      "sourcePage": "https://www.cis.upenn.edu/faculty/"
+    },
+    {
+      "officialId": "gushu-li",
+      "name": "Gushu Li",
+      "officialSection": "Primary Faculty",
+      "title": "Assistant Professor",
+      "portraitUrl": "https://www.cis.upenn.edu/wp-content/uploads/2026/04/li-gushu.png",
+      "sourcePage": "https://www.cis.upenn.edu/faculty/"
+    },
+    {
+      "officialId": "lingjie-liu",
+      "name": "Lingjie Liu",
+      "officialSection": "Primary Faculty",
+      "title": "Aravind K. Joshi Assistant Professor",
+      "portraitUrl": "https://www.cis.upenn.edu/wp-content/uploads/2026/04/liu-lingjie.png",
+      "sourcePage": "https://www.cis.upenn.edu/faculty/"
+    },
+    {
+      "officialId": "vincent-liu",
+      "name": "Vincent Liu",
+      "officialSection": "Primary Faculty",
+      "title": "Associate Professor",
+      "portraitUrl": "https://www.cis.upenn.edu/wp-content/uploads/2026/04/liu-vincent.png",
+      "sourcePage": "https://www.cis.upenn.edu/faculty/"
+    },
+    {
+      "officialId": "boon-thau-loo",
+      "name": "Boon Thau Loo",
+      "officialSection": "Primary Faculty",
+      "title": "RCA Professor",
+      "portraitUrl": "https://www.cis.upenn.edu/wp-content/uploads/2026/04/loo-boonthau.png",
+      "sourcePage": "https://www.cis.upenn.edu/faculty/"
+    },
+    {
+      "officialId": "jeremie-lumbroso",
+      "name": "Jérémie Lumbroso",
+      "officialSection": "Primary Faculty",
+      "title": "Practice Assistant Professor",
+      "portraitUrl": "https://www.cis.upenn.edu/wp-content/uploads/2026/04/lumbroso-jeremie.png",
+      "sourcePage": "https://www.cis.upenn.edu/faculty/"
+    },
+    {
+      "officialId": "adam-david-mally",
+      "name": "Adam David Mally",
+      "officialSection": "Primary Faculty",
+      "title": "Senior Lecturer",
+      "portraitUrl": "https://www.cis.upenn.edu/wp-content/uploads/2026/04/Mally-Adam.jpg",
+      "sourcePage": "https://www.cis.upenn.edu/faculty/"
+    },
+    {
+      "officialId": "jiayuan-mao",
+      "name": "Jiayuan Mao",
+      "officialSection": "Primary Faculty",
+      "title": "Assistant Professor",
+      "portraitUrl": "https://www.cis.upenn.edu/wp-content/uploads/2026/04/mao-jiayuan.png",
+      "sourcePage": "https://www.cis.upenn.edu/faculty/"
+    },
+    {
+      "officialId": "ryan-marcus",
+      "name": "Ryan Marcus",
+      "officialSection": "Primary Faculty",
+      "title": "Assistant Professor",
+      "portraitUrl": "https://www.cis.upenn.edu/wp-content/uploads/2026/04/marcus-ryan.png",
+      "sourcePage": "https://www.cis.upenn.edu/faculty/"
+    },
+    {
+      "officialId": "talie-massachi",
+      "name": "Talie Massachi",
+      "officialSection": "Primary Faculty",
+      "title": "Lecturer",
+      "portraitUrl": "https://www.cis.upenn.edu/wp-content/uploads/2026/04/Massachi-Talie.jpg",
+      "sourcePage": "https://www.cis.upenn.edu/faculty/"
+    },
+    {
+      "officialId": "travis-mcgaha",
+      "name": "Travis McGaha",
+      "officialSection": "Primary Faculty",
+      "title": "Senior Lecturer",
+      "portraitUrl": "https://www.cis.upenn.edu/wp-content/uploads/2026/04/McGaha-Travis.jpg",
+      "sourcePage": "https://www.cis.upenn.edu/faculty/"
+    },
+    {
+      "officialId": "danae-metaxa",
+      "name": "Danaé Metaxa",
+      "officialSection": "Primary Faculty",
+      "title": "Raj and Neera Singh Term Assistant Professor",
+      "portraitUrl": "https://www.cis.upenn.edu/wp-content/uploads/2026/04/Metaxa-Danae.jpg",
+      "sourcePage": "https://www.cis.upenn.edu/faculty/"
+    },
+    {
+      "officialId": "pratyush-mishra",
+      "name": "Pratyush Mishra",
+      "officialSection": "Primary Faculty",
+      "title": "Assistant Professor",
+      "portraitUrl": "https://www.cis.upenn.edu/wp-content/uploads/2026/04/mishra-pratyush.png",
+      "sourcePage": "https://www.cis.upenn.edu/faculty/"
+    },
+    {
+      "officialId": "mayur-naik",
+      "name": "Mayur Naik",
+      "officialSection": "Primary Faculty",
+      "title": "Misra Family Professor",
+      "portraitUrl": "https://www.cis.upenn.edu/wp-content/uploads/2026/04/naik-mayur.png",
+      "sourcePage": "https://www.cis.upenn.edu/faculty/"
+    },
+    {
+      "officialId": "linh-thi-xuan-phan",
+      "name": "Linh Thi Xuan Phan",
+      "officialSection": "Primary Faculty",
+      "title": "Professor",
+      "portraitUrl": "https://www.cis.upenn.edu/wp-content/uploads/2026/04/phan-linh.png",
+      "sourcePage": "https://www.cis.upenn.edu/faculty/"
+    },
+    {
+      "officialId": "benjamin-c-pierce",
+      "name": "Benjamin C. Pierce",
+      "officialSection": "Primary Faculty",
+      "title": "Henry Salvatori Professor",
+      "portraitUrl": "https://www.cis.upenn.edu/wp-content/uploads/2026/09/Pierce-Benjamin-1200x800-1.png",
+      "sourcePage": "https://www.cis.upenn.edu/faculty/"
+    },
+    {
+      "officialId": "aaron-roth",
+      "name": "Aaron Roth",
+      "officialSection": "Primary Faculty",
+      "title": "Henry Salvatori Professor of Computer & Cognitive Science",
+      "portraitUrl": "https://www.cis.upenn.edu/wp-content/uploads/2026/04/roth-aaron.png",
+      "sourcePage": "https://www.cis.upenn.edu/faculty/"
+    },
+    {
+      "officialId": "swapneel-sheth",
+      "name": "Swapneel Sheth",
+      "officialSection": "Primary Faculty",
+      "title": "Practice Associate Professor",
+      "portraitUrl": "https://www.cis.upenn.edu/wp-content/uploads/2026/04/sheth-swapneel.png",
+      "sourcePage": "https://www.cis.upenn.edu/faculty/"
+    },
+    {
+      "officialId": "jianbo-shi",
+      "name": "Jianbo Shi",
+      "officialSection": "Primary Faculty",
+      "title": "Professor",
+      "portraitUrl": "https://www.cis.upenn.edu/wp-content/uploads/2026/04/shi-jianbo.png",
+      "sourcePage": "https://www.cis.upenn.edu/faculty/"
+    },
+    {
+      "officialId": "harry-smith",
+      "name": "Harry Smith",
+      "officialSection": "Primary Faculty",
+      "title": "Senior Lecturer",
+      "portraitUrl": "https://www.cis.upenn.edu/wp-content/uploads/2026/04/smith-harry.png",
+      "sourcePage": "https://www.cis.upenn.edu/faculty/"
+    },
+    {
+      "officialId": "jonathan-m-smith",
+      "name": "Jonathan M. Smith",
+      "officialSection": "Primary Faculty",
+      "title": "Olga and Alberico Pompa Professor",
+      "portraitUrl": "https://www.cis.upenn.edu/wp-content/uploads/2026/09/Smith-Jon-103-scaled-e1788274979994.jpg",
+      "sourcePage": "https://www.cis.upenn.edu/faculty/"
+    },
+    {
+      "officialId": "oleg-sokolsky",
+      "name": "Oleg Sokolsky",
+      "officialSection": "Primary Faculty",
+      "title": "Research Professor",
+      "portraitUrl": "https://www.cis.upenn.edu/wp-content/uploads/2026/04/sokolosky-oleg.png",
+      "sourcePage": "https://www.cis.upenn.edu/faculty/"
+    },
+    {
+      "officialId": "val-tannen",
+      "name": "Val Tannen",
+      "officialSection": "Primary Faculty",
+      "title": "Professor",
+      "portraitUrl": "https://www.cis.upenn.edu/wp-content/uploads/2026/09/tannen-val.png",
+      "sourcePage": "https://www.cis.upenn.edu/faculty/"
+    },
+    {
+      "officialId": "camillo-jose-taylor",
+      "name": "Camillo Jose Taylor",
+      "officialSection": "Primary Faculty",
+      "title": "Raymond S. Markowitz President’s Distinguished Professor",
+      "portraitUrl": "https://www.cis.upenn.edu/wp-content/uploads/2026/04/taylor-camilloj.png",
+      "sourcePage": "https://www.cis.upenn.edu/faculty/"
+    },
+    {
+      "officialId": "lyle-ungar",
+      "name": "Lyle Ungar",
+      "officialSection": "Primary Faculty",
+      "title": "Professor",
+      "portraitUrl": "https://www.cis.upenn.edu/wp-content/uploads/2026/04/Ungar-Lyle.jpg",
+      "sourcePage": "https://www.cis.upenn.edu/faculty/"
+    },
+    {
+      "officialId": "erik-waingarten",
+      "name": "Erik Waingarten",
+      "officialSection": "Primary Faculty",
+      "title": "Assistant Professor",
+      "portraitUrl": "https://www.cis.upenn.edu/wp-content/uploads/2026/04/waingarten-erik.png",
+      "sourcePage": "https://www.cis.upenn.edu/faculty/"
+    },
+    {
+      "officialId": "duncan-watts",
+      "name": "Duncan Watts",
+      "officialSection": "Primary Faculty",
+      "title": "Stevens University Professor",
+      "portraitUrl": "https://www.cis.upenn.edu/wp-content/uploads/2026/04/watts-duncan.png",
+      "sourcePage": "https://www.cis.upenn.edu/faculty/"
+    },
+    {
+      "officialId": "stephanie-weirich",
+      "name": "Stephanie Weirich",
+      "officialSection": "Primary Faculty",
+      "title": "ENIAC President’s Distinguished Professor",
+      "portraitUrl": "https://www.cis.upenn.edu/wp-content/uploads/2026/04/weirich-stephanie.png",
+      "sourcePage": "https://www.cis.upenn.edu/faculty/"
+    },
+    {
+      "officialId": "eric-wong",
+      "name": "Eric Wong",
+      "officialSection": "Primary Faculty",
+      "title": "Assistant Professor",
+      "portraitUrl": "https://www.cis.upenn.edu/wp-content/uploads/2026/04/wong-eric.png",
+      "sourcePage": "https://www.cis.upenn.edu/faculty/"
+    },
+    {
+      "officialId": "mark-yatskar",
+      "name": "Mark Yatskar",
+      "officialSection": "Primary Faculty",
+      "title": "Assistant Professor",
+      "portraitUrl": "https://www.cis.upenn.edu/wp-content/uploads/2026/04/Yatskar-Mark-scaled.jpg",
+      "sourcePage": "https://www.cis.upenn.edu/faculty/"
+    },
+    {
+      "officialId": "stephan-zdancewic",
+      "name": "Stephan Zdancewic",
+      "officialSection": "Primary Faculty",
+      "title": "Schlein Family President’s Distinguished Professor",
+      "portraitUrl": "https://www.cis.upenn.edu/wp-content/uploads/2026/04/zdancewic-steve.png",
+      "sourcePage": "https://www.cis.upenn.edu/faculty/"
+    },
+    {
+      "officialId": "mingmin-zhao",
+      "name": "Mingmin Zhao",
+      "officialSection": "Primary Faculty",
+      "title": "Assistant Professor",
+      "portraitUrl": "https://www.cis.upenn.edu/wp-content/uploads/2026/04/zhao-mingmin.png",
+      "sourcePage": "https://www.cis.upenn.edu/faculty/"
+    },
+    {
+      "officialId": "lama-a-al-aswad-md-mph",
+      "name": "Lama A. Al-Aswad, MD, MPH",
+      "officialSection": "Secondary Faculty",
+      "title": "Professor of Ophthalmology, Irene Heinz Given, John La Porte Given Research Professor of Ophthalmology II, and Professor of Engineering",
+      "portraitUrl": "https://www.cis.upenn.edu/wp-content/uploads/2026/09/al-aswad-lama-copy.png",
+      "sourcePage": "https://www.cis.upenn.edu/faculty/"
+    },
+    {
+      "officialId": "ryan-baker",
+      "name": "Ryan Baker",
+      "officialSection": "Secondary Faculty",
+      "title": "Associate Professor",
+      "portraitUrl": "https://www.cis.upenn.edu/wp-content/uploads/2026/09/baker-ryan.png",
+      "sourcePage": "https://www.cis.upenn.edu/faculty/"
+    },
+    {
+      "officialId": "yoseph-barash",
+      "name": "Yoseph Barash",
+      "officialSection": "Secondary Faculty",
+      "title": "Associate Professor",
+      "portraitUrl": "https://www.cis.upenn.edu/wp-content/uploads/2026/09/barash-yoseph-copy.png",
+      "sourcePage": "https://www.cis.upenn.edu/faculty/"
+    },
+    {
+      "officialId": "damon-centola",
+      "name": "Damon Centola",
+      "officialSection": "Secondary Faculty",
+      "title": "Elihu Katz Professor of Communication, Sociology, and Engineering",
+      "portraitUrl": "https://www.cis.upenn.edu/wp-content/uploads/2026/09/centola-damon.jpg",
+      "sourcePage": "https://www.cis.upenn.edu/faculty/"
+    },
+    {
+      "officialId": "pratik-chaudhari",
+      "name": "Pratik Chaudhari",
+      "officialSection": "Secondary Faculty",
+      "title": "Associate Professor",
+      "portraitUrl": "https://www.cis.upenn.edu/wp-content/uploads/2026/09/chaudhari-pratik.png",
+      "sourcePage": "https://www.cis.upenn.edu/faculty/"
+    },
+    {
+      "officialId": "christos-davatzikos",
+      "name": "Christos Davatzikos",
+      "officialSection": "Secondary Faculty",
+      "title": "Wallace T. Miller, Sr, Professor",
+      "portraitUrl": "https://www.cis.upenn.edu/wp-content/uploads/2026/09/davatzikos-christos.png",
+      "sourcePage": "https://www.cis.upenn.edu/faculty/"
+    },
+    {
+      "officialId": "andre-dehon",
+      "name": "Andre DeHon",
+      "officialSection": "Secondary Faculty",
+      "title": "Boileau Professor of Electrical Engineering",
+      "portraitUrl": "https://www.cis.upenn.edu/wp-content/uploads/2026/09/DeHon-andre.jpg",
+      "sourcePage": "https://www.cis.upenn.edu/faculty/"
+    },
+    {
+      "officialId": "nadia-figueroa",
+      "name": "Nadia Figueroa",
+      "officialSection": "Secondary Faculty",
+      "title": "Shalini and Rajeev Misra Presidential Assistant Professor",
+      "portraitUrl": "https://www.cis.upenn.edu/wp-content/uploads/2026/09/figueroa-nadia-scaled.jpg",
+      "sourcePage": "https://www.cis.upenn.edu/faculty/"
+    },
+    {
+      "officialId": "james-gee",
+      "name": "James Gee",
+      "officialSection": "Secondary Faculty",
+      "title": "Associate Professor",
+      "portraitUrl": "https://www.cis.upenn.edu/wp-content/uploads/2026/09/gee-james.jpg",
+      "sourcePage": "https://www.cis.upenn.edu/faculty/"
+    },
+    {
+      "officialId": "daniel-a-hashimoto",
+      "name": "Daniel A. Hashimoto",
+      "officialSection": "Secondary Faculty",
+      "title": "Assistant Professor",
+      "portraitUrl": "https://www.cis.upenn.edu/wp-content/uploads/2026/09/hashimoto.png",
+      "sourcePage": "https://www.cis.upenn.edu/faculty/"
+    },
+    {
+      "officialId": "hamed-hassani",
+      "name": "Hamed Hassani",
+      "officialSection": "Secondary Faculty",
+      "title": "Associate Professor",
+      "portraitUrl": "https://www.cis.upenn.edu/wp-content/uploads/2026/09/hassani.png",
+      "sourcePage": "https://www.cis.upenn.edu/faculty/"
+    },
+    {
+      "officialId": "rachel-holladay",
+      "name": "Rachel Holladay",
+      "officialSection": "Secondary Faculty",
+      "title": "Asness Family Foundation Assistant Professor of Mechanical Engineering",
+      "portraitUrl": "https://www.cis.upenn.edu/wp-content/uploads/2026/09/Holladay-Rachel.jpg",
+      "sourcePage": "https://www.cis.upenn.edu/faculty/"
+    },
+    {
+      "officialId": "daniel-j-hopkins",
+      "name": "Daniel J. Hopkins",
+      "officialSection": "Secondary Faculty",
+      "title": "Julie and Martin Franklin Presidential Professor of Political Science",
+      "portraitUrl": "https://www.cis.upenn.edu/wp-content/uploads/2026/09/hopkins.png",
+      "sourcePage": "https://www.cis.upenn.edu/faculty/"
+    },
+    {
+      "officialId": "m-ani-hsieh",
+      "name": "M. Ani Hsieh",
+      "officialSection": "Secondary Faculty",
+      "title": "Associate Professor",
+      "portraitUrl": "https://www.cis.upenn.edu/wp-content/uploads/2026/09/hsieh.png",
+      "sourcePage": "https://www.cis.upenn.edu/faculty/"
+    },
+    {
+      "officialId": "yasmin-kafai",
+      "name": "Yasmin Kafai",
+      "officialSection": "Secondary Faculty",
+      "title": "Professor",
+      "portraitUrl": "https://www.cis.upenn.edu/wp-content/uploads/2026/09/Kafai-Yasmin-scaled.jpg",
+      "sourcePage": "https://www.cis.upenn.edu/faculty/"
+    },
+    {
+      "officialId": "junhyong-kim",
+      "name": "Junhyong Kim",
+      "officialSection": "Secondary Faculty",
+      "title": "Professor",
+      "portraitUrl": "https://www.cis.upenn.edu/wp-content/uploads/2026/09/junhyong.png",
+      "sourcePage": "https://www.cis.upenn.edu/faculty/"
+    },
+    {
+      "officialId": "konrad-paul-kording",
+      "name": "Konrad Paul Kording",
+      "officialSection": "Secondary Faculty",
+      "title": "Nathan Francis Mossell University Professor",
+      "portraitUrl": "https://www.cis.upenn.edu/wp-content/uploads/2026/09/Kording-Konrad.png",
+      "sourcePage": "https://www.cis.upenn.edu/faculty/"
+    },
+    {
+      "officialId": "vijay-kumar",
+      "name": "Vijay Kumar",
+      "officialSection": "Secondary Faculty",
+      "title": "Nemirovsky Family Dean",
+      "portraitUrl": "https://www.cis.upenn.edu/wp-content/uploads/2026/09/Kumar-Vijay.jpg",
+      "sourcePage": "https://www.cis.upenn.edu/faculty/"
+    },
+    {
+      "officialId": "jing-jane-li",
+      "name": "Jing (Jane) Li",
+      "officialSection": "Secondary Faculty",
+      "title": "Associate Professor",
+      "portraitUrl": "https://www.cis.upenn.edu/wp-content/uploads/2026/09/Li-Jing-Jane.jpg",
+      "sourcePage": "https://www.cis.upenn.edu/faculty/"
+    },
+    {
+      "officialId": "mark-y-liberman",
+      "name": "Mark Y. Liberman",
+      "officialSection": "Secondary Faculty",
+      "title": "Trustee Professor",
+      "portraitUrl": "https://www.cis.upenn.edu/wp-content/uploads/2026/09/liberman.png",
+      "sourcePage": "https://www.cis.upenn.edu/faculty/"
+    },
+    {
+      "officialId": "qi-long",
+      "name": "Qi Long",
+      "officialSection": "Secondary Faculty",
+      "title": "Professor",
+      "portraitUrl": "https://www.cis.upenn.edu/wp-content/uploads/2026/09/long-qi.jpg",
+      "sourcePage": "https://www.cis.upenn.edu/faculty/"
+    },
+    {
+      "officialId": "antonio-loquercio",
+      "name": "Antonio Loquercio",
+      "officialSection": "Secondary Faculty",
+      "title": "Assistant Professor",
+      "portraitUrl": "https://www.cis.upenn.edu/wp-content/uploads/2026/09/loquercio-antonio.png",
+      "sourcePage": "https://www.cis.upenn.edu/faculty/"
+    },
+    {
+      "officialId": "nikolai-matni",
+      "name": "Nikolai Matni",
+      "officialSection": "Secondary Faculty",
+      "title": "Associate Professor",
+      "portraitUrl": "https://www.cis.upenn.edu/wp-content/uploads/2026/09/matni.png",
+      "sourcePage": "https://www.cis.upenn.edu/faculty/"
+    },
+    {
+      "officialId": "george-j-pappas",
+      "name": "George J. Pappas",
+      "officialSection": "Secondary Faculty",
+      "title": "UPS Foundation Professor of Transportation",
+      "portraitUrl": "https://www.cis.upenn.edu/wp-content/uploads/2026/09/Pappas-George.jpg",
+      "sourcePage": "https://www.cis.upenn.edu/faculty/"
+    },
+    {
+      "officialId": "bogdan-pasaniuc",
+      "name": "Bogdan Pasaniuc",
+      "officialSection": "Secondary Faculty",
+      "title": "Professor",
+      "portraitUrl": "https://www.cis.upenn.edu/wp-content/uploads/2026/09/pasanuic.png",
+      "sourcePage": "https://www.cis.upenn.edu/faculty/"
+    },
+    {
+      "officialId": "robin-pemantle",
+      "name": "Robin Pemantle",
+      "officialSection": "Secondary Faculty",
+      "title": "Professor",
+      "portraitUrl": "https://www.cis.upenn.edu/wp-content/uploads/2026/09/pemantle-robin.jpg",
+      "sourcePage": "https://www.cis.upenn.edu/faculty/"
+    },
+    {
+      "officialId": "paris-perdikaris",
+      "name": "Paris Perdikaris",
+      "officialSection": "Secondary Faculty",
+      "title": "Associate Professor",
+      "portraitUrl": "https://www.cis.upenn.edu/wp-content/uploads/2026/09/Perdikaris-Paris.jpg",
+      "sourcePage": "https://www.cis.upenn.edu/faculty/"
+    },
+    {
+      "officialId": "joshua-b-plotkin",
+      "name": "Joshua B. Plotkin",
+      "officialSection": "Secondary Faculty",
+      "title": "Professor",
+      "portraitUrl": "https://www.cis.upenn.edu/wp-content/uploads/2026/09/plotkin-joshua.jpg",
+      "sourcePage": "https://www.cis.upenn.edu/faculty/"
+    },
+    {
+      "officialId": "michael-posa",
+      "name": "Michael Posa",
+      "officialSection": "Secondary Faculty",
+      "title": "Associate Professor",
+      "portraitUrl": "https://www.cis.upenn.edu/wp-content/uploads/2026/09/Posa-michael.jpg",
+      "sourcePage": "https://www.cis.upenn.edu/faculty/"
+    },
+    {
+      "officialId": "victor-m-preciado",
+      "name": "Victor M. Preciado",
+      "officialSection": "Secondary Faculty",
+      "title": "Associate Professor",
+      "portraitUrl": "https://www.cis.upenn.edu/wp-content/uploads/2026/09/Preciado-victor.jpg",
+      "sourcePage": "https://www.cis.upenn.edu/faculty/"
+    },
+    {
+      "officialId": "alejandro-ribeiro",
+      "name": "Alejandro Ribeiro",
+      "officialSection": "Secondary Faculty",
+      "title": "Solomon and Sylvia G. Charp Professor of Electrical and Systems Engineering",
+      "portraitUrl": "https://www.cis.upenn.edu/wp-content/uploads/2026/09/Ribeiro-alejandro.jpg",
+      "sourcePage": "https://www.cis.upenn.edu/faculty/"
+    },
+    {
+      "officialId": "harvey-rubin",
+      "name": "Harvey Rubin",
+      "officialSection": "Secondary Faculty",
+      "title": "Professor",
+      "portraitUrl": "https://www.cis.upenn.edu/wp-content/uploads/2026/09/rubin.png",
+      "sourcePage": "https://www.cis.upenn.edu/faculty/"
+    },
+    {
+      "officialId": "shirin-saeedi-bidokhti",
+      "name": "Shirin Saeedi Bidokhti",
+      "officialSection": "Secondary Faculty",
+      "title": "Associate Professor",
+      "portraitUrl": "https://www.cis.upenn.edu/wp-content/uploads/2026/09/saeedi.png",
+      "sourcePage": "https://www.cis.upenn.edu/faculty/"
+    },
+    {
+      "officialId": "andre-scedrov",
+      "name": "Andre Scedrov",
+      "officialSection": "Secondary Faculty",
+      "title": "Professor",
+      "portraitUrl": "https://www.cis.upenn.edu/wp-content/uploads/2026/09/scedrov-andre-scaled.jpeg",
+      "sourcePage": "https://www.cis.upenn.edu/faculty/"
+    },
+    {
+      "officialId": "li-shen",
+      "name": "Li Shen",
+      "officialSection": "Secondary Faculty",
+      "title": "Professor",
+      "portraitUrl": "https://www.cis.upenn.edu/wp-content/uploads/2026/09/shen.png",
+      "sourcePage": "https://www.cis.upenn.edu/faculty/"
+    },
+    {
+      "officialId": "anthony-sigillito",
+      "name": "Anthony Sigillito",
+      "officialSection": "Secondary Faculty",
+      "title": "Assistant Professor",
+      "portraitUrl": "https://www.cis.upenn.edu/wp-content/uploads/2026/09/Sigillito-Anthony.jpg",
+      "sourcePage": "https://www.cis.upenn.edu/faculty/"
+    },
+    {
+      "officialId": "weijie-su",
+      "name": "Weijie Su",
+      "officialSection": "Secondary Faculty",
+      "title": "Professor",
+      "portraitUrl": "https://www.cis.upenn.edu/wp-content/uploads/2026/09/su.png",
+      "sourcePage": "https://www.cis.upenn.edu/faculty/"
+    },
+    {
+      "officialId": "cynthia-sung",
+      "name": "Cynthia Sung",
+      "officialSection": "Secondary Faculty",
+      "title": "Associate Professor",
+      "portraitUrl": "https://www.cis.upenn.edu/wp-content/uploads/2026/09/sung-cynthia.jpg",
+      "sourcePage": "https://www.cis.upenn.edu/faculty/"
+    },
+    {
+      "officialId": "henry-p-towsner",
+      "name": "Henry P. Towsner",
+      "officialSection": "Secondary Faculty",
+      "title": "Professor",
+      "portraitUrl": "https://www.cis.upenn.edu/wp-content/uploads/2026/09/towsner.png",
+      "sourcePage": "https://www.cis.upenn.edu/faculty/"
+    },
+    {
+      "officialId": "rene-vidal",
+      "name": "René Vidal",
+      "officialSection": "Secondary Faculty",
+      "title": "Rachleff University Professor",
+      "portraitUrl": "https://www.cis.upenn.edu/wp-content/uploads/2026/09/Vidal-Rene.png",
+      "sourcePage": "https://www.cis.upenn.edu/faculty/"
+    },
+    {
+      "officialId": "rakesh-v-vohra",
+      "name": "Rakesh V. Vohra",
+      "officialSection": "Secondary Faculty",
+      "title": "George A. Weiss and Lydia Bravo Weiss University Professor",
+      "portraitUrl": "https://www.cis.upenn.edu/wp-content/uploads/2026/09/Vohra-rakesh.jpg",
+      "sourcePage": "https://www.cis.upenn.edu/faculty/"
+    },
+    {
+      "officialId": "li-san-wang",
+      "name": "Li-San Wang",
+      "officialSection": "Secondary Faculty",
+      "title": "Professor",
+      "portraitUrl": "https://www.cis.upenn.edu/wp-content/uploads/2026/09/wang.png",
+      "sourcePage": "https://www.cis.upenn.edu/faculty/"
+    },
+    {
+      "officialId": "scott-weinstein",
+      "name": "Scott Weinstein",
+      "officialSection": "Secondary Faculty",
+      "title": "Professor",
+      "portraitUrl": "https://www.cis.upenn.edu/wp-content/uploads/2026/09/weinstein.png",
+      "sourcePage": "https://www.cis.upenn.edu/faculty/"
+    },
+    {
+      "officialId": "charles-yang",
+      "name": "Charles Yang",
+      "officialSection": "Secondary Faculty",
+      "title": "Professor",
+      "portraitUrl": "https://www.cis.upenn.edu/wp-content/uploads/2026/09/yang.png",
+      "sourcePage": "https://www.cis.upenn.edu/faculty/"
+    },
+    {
+      "officialId": "mark-yim",
+      "name": "Mark Yim",
+      "officialSection": "Secondary Faculty",
+      "title": "Asa Whitney Professor of Mechanical Engineering",
+      "portraitUrl": "https://www.cis.upenn.edu/wp-content/uploads/2026/09/Yim-Mark.png",
+      "sourcePage": "https://www.cis.upenn.edu/faculty/"
+    },
+    {
+      "officialId": "christopher-s-yoo",
+      "name": "Christopher S. Yoo",
+      "officialSection": "Secondary Faculty",
+      "title": "John H. Chestnut Professor",
+      "portraitUrl": "https://www.cis.upenn.edu/wp-content/uploads/2026/09/yoo.png",
+      "sourcePage": "https://www.cis.upenn.edu/faculty/"
+    },
+    {
+      "officialId": "ruzena-bajcsy",
+      "name": "Ruzena Bajcsy",
+      "officialSection": "Emeritus and Adjunct Faculty",
+      "title": "Professor Emeritus",
+      "portraitUrl": "https://www.cis.upenn.edu/wp-content/uploads/2026/09/bajcsy-ruzena-scaled.jpg",
+      "sourcePage": "https://www.cis.upenn.edu/faculty/"
+    },
+    {
+      "officialId": "peter-buneman",
+      "name": "Peter Buneman",
+      "officialSection": "Emeritus and Adjunct Faculty",
+      "title": "Adjunct Professor",
+      "portraitUrl": "https://www.cis.upenn.edu/wp-content/uploads/2026/09/buneman-peter.jpg",
+      "sourcePage": "https://www.cis.upenn.edu/faculty/"
+    },
+    {
+      "officialId": "tim-haugh",
+      "name": "Tim Haugh",
+      "officialSection": "Emeritus and Adjunct Faculty",
+      "title": "Adjunct Professor",
+      "portraitUrl": "https://www.cis.upenn.edu/wp-content/uploads/2026/09/3.png",
+      "sourcePage": "https://www.cis.upenn.edu/faculty/"
+    },
+    {
+      "officialId": "brett-hemenway",
+      "name": "Brett Hemenway",
+      "officialSection": "Emeritus and Adjunct Faculty",
+      "title": "Adjunct Assistant Professor",
+      "portraitUrl": "https://www.cis.upenn.edu/wp-content/uploads/2026/09/falk-brett1.png",
+      "sourcePage": "https://www.cis.upenn.edu/faculty/"
+    },
+    {
+      "officialId": "sanjeev-khanna",
+      "name": "Sanjeev Khanna",
+      "officialSection": "Emeritus and Adjunct Faculty",
+      "title": "Professor Emeritus",
+      "portraitUrl": "https://www.cis.upenn.edu/wp-content/uploads/2026/09/Khanna-Sanjeev.jpg",
+      "sourcePage": "https://www.cis.upenn.edu/faculty/"
+    },
+    {
+      "officialId": "mitch-marcus",
+      "name": "Mitch Marcus",
+      "officialSection": "Emeritus and Adjunct Faculty",
+      "title": "Professor Emeritus",
+      "portraitUrl": "https://www.cis.upenn.edu/wp-content/uploads/2026/09/2.png",
+      "sourcePage": "https://www.cis.upenn.edu/faculty/"
+    },
+    {
+      "officialId": "dan-roth",
+      "name": "Dan Roth",
+      "officialSection": "Emeritus and Adjunct Faculty",
+      "title": "Adjunct Professor",
+      "portraitUrl": "https://www.cis.upenn.edu/wp-content/uploads/2026/04/roth-dan.png",
+      "sourcePage": "https://www.cis.upenn.edu/faculty/"
+    }
+  ]
+}

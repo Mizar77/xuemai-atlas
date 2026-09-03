@@ -1,0 +1,960 @@
+{
+  "completeness": "complete",
+  "fetchedAt": "2026-09-02",
+  "institution": "Sapienza University of Rome — DIAG",
+  "officialPageUrl": "https://www.diag.uniroma1.it/en/people/faculty",
+  "officialDataUrl": "https://www.diag.uniroma1.it/persone/docenti",
+  "officialDataUrls": [
+    "https://www.diag.uniroma1.it/persone/docenti"
+  ],
+  "officialRosterCount": 134,
+  "sourceDescription": "The scoped English faculty URL returns 404. The current official DIAG Docenti table was traversed as a single complete table with 134 rows. Every academic title is retained, including ricercatore, associate/full, emeritus and honorary categories, for later person-level classification.",
+  "categoryCounts": {
+    "ricercatore": 41,
+    "professore associato": 41,
+    "professore ordinario": 45,
+    "professore emerito": 5,
+    "professore onorario": 1,
+    "Ambassador Sapienza": 1
+  },
+  "people": [
+    {
+      "email": "agostinelli@diag.uniroma1.it",
+      "name": "Agostinelli Simone",
+      "officialId": "https://www.diag.uniroma1.it/users/simone_agostinelli",
+      "profileUrl": "https://www.diag.uniroma1.it/users/simone_agostinelli",
+      "title": "ricercatore"
+    },
+    {
+      "email": "altamura@diag.uniroma1.it",
+      "name": "Altamura Nicola",
+      "officialId": "https://www.diag.uniroma1.it/users/nicola_altamura",
+      "profileUrl": "https://www.diag.uniroma1.it/users/nicola_altamura",
+      "title": "ricercatore"
+    },
+    {
+      "email": "amerini@diag.uniroma1.it",
+      "name": "Amerini Irene",
+      "officialId": "https://www.diag.uniroma1.it/users/irene_amerini",
+      "profileUrl": "https://www.diag.uniroma1.it/users/irene_amerini",
+      "title": "professore associato"
+    },
+    {
+      "email": "aris@diag.uniroma1.it",
+      "name": "Anagnostopoulos Aris",
+      "officialId": "https://www.diag.uniroma1.it/users/aris_anagnostopoulos",
+      "profileUrl": "https://www.diag.uniroma1.it/users/aris_anagnostopoulos",
+      "title": "professore ordinario"
+    },
+    {
+      "email": "annarelli@diag.uniroma1.it",
+      "name": "Annarelli Alessandro",
+      "officialId": "https://www.diag.uniroma1.it/users/alessandro_annarelli",
+      "profileUrl": "https://www.diag.uniroma1.it/users/alessandro_annarelli",
+      "title": "ricercatore"
+    },
+    {
+      "email": "arico@diag.uniroma1.it",
+      "name": "Arico' Pietro",
+      "officialId": "https://www.diag.uniroma1.it/users/pietro_arico",
+      "profileUrl": "https://www.diag.uniroma1.it/users/pietro_arico",
+      "title": "professore associato"
+    },
+    {
+      "email": "arman@diag.uniroma1.it",
+      "name": "Arman Ala",
+      "officialId": "https://www.diag.uniroma1.it/users/ala_arman",
+      "profileUrl": "https://www.diag.uniroma1.it/users/ala_arman",
+      "title": "ricercatore"
+    },
+    {
+      "email": "astolfi@diag.uniroma1.it",
+      "name": "Astolfi Laura",
+      "officialId": "https://www.diag.uniroma1.it/users/laura_astolfi",
+      "profileUrl": "https://www.diag.uniroma1.it/users/laura_astolfi",
+      "title": "professore ordinario"
+    },
+    {
+      "email": "ausiello@dis.uniroma1.it",
+      "name": "Ausiello Giorgio",
+      "officialId": "https://www.diag.uniroma1.it/users/giorgio_ausiello",
+      "profileUrl": "https://www.diag.uniroma1.it/users/giorgio_ausiello",
+      "title": "professore emerito"
+    },
+    {
+      "email": "avenali@diag.uniroma1.it",
+      "name": "Avenali Alessandro",
+      "officialId": "https://www.diag.uniroma1.it/users/alessandro_avenali",
+      "profileUrl": "https://www.diag.uniroma1.it/users/alessandro_avenali",
+      "title": "professore ordinario"
+    },
+    {
+      "email": "baccini@diag.uniroma1.it",
+      "name": "Baccini Federica",
+      "officialId": "https://www.diag.uniroma1.it/users/federica_baccini",
+      "profileUrl": "https://www.diag.uniroma1.it/users/federica_baccini",
+      "title": "ricercatore"
+    },
+    {
+      "email": "baldoni@diag.uniroma1.it",
+      "name": "Baldoni Roberto",
+      "officialId": "https://www.diag.uniroma1.it/users/roberto_baldoni",
+      "profileUrl": "https://www.diag.uniroma1.it/users/roberto_baldoni",
+      "title": "professore onorario"
+    },
+    {
+      "email": "barba@diag.uniroma1.it",
+      "name": "Barba Edoardo",
+      "officialId": "https://www.diag.uniroma1.it/users/edoardo_barba",
+      "profileUrl": "https://www.diag.uniroma1.it/users/edoardo_barba",
+      "title": "ricercatore"
+    },
+    {
+      "email": "battilotti@diag.uniroma1.it",
+      "name": "Battilotti Stefano",
+      "officialId": "https://www.diag.uniroma1.it/users/stefano_battilotti",
+      "profileUrl": "https://www.diag.uniroma1.it/users/stefano_battilotti",
+      "title": "professore ordinario"
+    },
+    {
+      "email": "becchetti@diag.uniroma1.it",
+      "name": "Becchetti Luca",
+      "officialId": "https://www.diag.uniroma1.it/users/luca_becchetti",
+      "profileUrl": "https://www.diag.uniroma1.it/users/luca_becchetti",
+      "title": "professore associato"
+    },
+    {
+      "email": "benvenuti@diag.uniroma1.it",
+      "name": "Benvenuti Luca",
+      "officialId": "https://www.diag.uniroma1.it/users/luca_benvenuti",
+      "profileUrl": "https://www.diag.uniroma1.it/users/luca_benvenuti",
+      "title": "professore ordinario"
+    },
+    {
+      "email": "beraldi@diag.uniroma1.it",
+      "name": "Beraldi Roberto",
+      "officialId": "https://www.diag.uniroma1.it/users/roberto_beraldi",
+      "profileUrl": "https://www.diag.uniroma1.it/users/roberto_beraldi",
+      "title": "professore associato"
+    },
+    {
+      "email": "bernardini@diag.uniroma1.it",
+      "name": "Bernardini Sara",
+      "officialId": "https://www.diag.uniroma1.it/users/sara_bernardini",
+      "profileUrl": "https://www.diag.uniroma1.it/users/sara_bernardini",
+      "title": "professore ordinario"
+    },
+    {
+      "email": "bisconti@diag.uniroma1.it",
+      "name": "Bisconti Piercosma",
+      "officialId": "https://www.diag.uniroma1.it/users/piercosma_bisconti",
+      "profileUrl": "https://www.diag.uniroma1.it/users/piercosma_bisconti",
+      "title": "ricercatore"
+    },
+    {
+      "email": "blasilli@diag.uniroma1.it",
+      "name": "Blasilli Graziano",
+      "officialId": "https://www.diag.uniroma1.it/users/graziano_blasilli",
+      "profileUrl": "https://www.diag.uniroma1.it/users/graziano_blasilli",
+      "title": "ricercatore"
+    },
+    {
+      "email": "bonomi@diag.uniroma1.it",
+      "name": "Bonomi Silvia",
+      "officialId": "https://www.diag.uniroma1.it/users/silvia_bonomi",
+      "profileUrl": "https://www.diag.uniroma1.it/users/silvia_bonomi",
+      "title": "professore associato"
+    },
+    {
+      "email": "bruni@diag.uniroma1.it",
+      "name": "Bruni Renato",
+      "officialId": "https://www.diag.uniroma1.it/users/renato_bruni",
+      "profileUrl": "https://www.diag.uniroma1.it/users/renato_bruni",
+      "title": "professore associato"
+    },
+    {
+      "email": "brustle@diag.uniroma1.it",
+      "name": "Brustle Johannes",
+      "officialId": "https://www.diag.uniroma1.it/users/johannes_brustle",
+      "profileUrl": "https://www.diag.uniroma1.it/users/johannes_brustle",
+      "title": "ricercatore"
+    },
+    {
+      "email": "califano@diag.uniroma1.it",
+      "name": "Califano Claudia",
+      "officialId": "https://www.diag.uniroma1.it/users/claudia_califano",
+      "profileUrl": "https://www.diag.uniroma1.it/users/claudia_califano",
+      "title": "professore associato"
+    },
+    {
+      "email": "aiello@diag.uniroma1.it",
+      "name": "Carlucci Aiello Luigia",
+      "officialId": "https://www.diag.uniroma1.it/users/luigia_carlucci-aiello",
+      "profileUrl": "https://www.diag.uniroma1.it/users/luigia_carlucci-aiello",
+      "title": "Ambassador Sapienza"
+    },
+    {
+      "email": "catalano@diag.uniroma1.it",
+      "name": "Catalano Giuseppe",
+      "officialId": "https://www.diag.uniroma1.it/users/giuseppe_catalano",
+      "profileUrl": "https://www.diag.uniroma1.it/users/giuseppe_catalano",
+      "title": "professore ordinario"
+    },
+    {
+      "email": "catarci@diag.uniroma1.it",
+      "name": "Catarci Tiziana",
+      "officialId": "https://www.diag.uniroma1.it/users/tiziana_catarci",
+      "profileUrl": "https://www.diag.uniroma1.it/users/tiziana_catarci",
+      "title": "professore ordinario"
+    },
+    {
+      "email": "ichatz@diag.uniroma1.it",
+      "name": "Chatzigiannakis Ioannis",
+      "officialId": "https://www.diag.uniroma1.it/users/ioannis_chatzigiannakis",
+      "profileUrl": "https://www.diag.uniroma1.it/users/ioannis_chatzigiannakis",
+      "title": "professore ordinario"
+    },
+    {
+      "email": "ciarfuglia@diag.uniroma1.it",
+      "name": "Ciarfuglia Thomas Alessandro",
+      "officialId": "https://www.diag.uniroma1.it/users/thomas-alessandro_ciarfuglia",
+      "profileUrl": "https://www.diag.uniroma1.it/users/thomas-alessandro_ciarfuglia",
+      "title": "ricercatore"
+    },
+    {
+      "email": "cima@diag.uniroma1.it",
+      "name": "Cima Gianluca",
+      "officialId": "https://www.diag.uniroma1.it/users/gianluca_cima",
+      "profileUrl": "https://www.diag.uniroma1.it/users/gianluca_cima",
+      "title": "ricercatore"
+    },
+    {
+      "email": "cincotti@diag.uniroma1.it",
+      "name": "Cincotti Febo",
+      "officialId": "https://www.diag.uniroma1.it/users/febo_cincotti",
+      "profileUrl": "https://www.diag.uniroma1.it/users/febo_cincotti",
+      "title": "professore ordinario"
+    },
+    {
+      "email": "colabianchi@diag.uniroma1.it",
+      "name": "Colabianchi Silvia",
+      "officialId": "https://www.diag.uniroma1.it/users/silvia_colabianchi",
+      "profileUrl": "https://www.diag.uniroma1.it/users/silvia_colabianchi",
+      "title": "ricercatore"
+    },
+    {
+      "email": "colamarino@diag.uniroma1.it",
+      "name": "Colamarino Emma",
+      "officialId": "https://www.diag.uniroma1.it/users/emma_colamarino",
+      "profileUrl": "https://www.diag.uniroma1.it/users/emma_colamarino",
+      "title": "ricercatore"
+    },
+    {
+      "email": "conia@diag.uniroma1.it",
+      "name": "Conia Simone",
+      "officialId": "https://www.diag.uniroma1.it/users/simone_conia",
+      "profileUrl": "https://www.diag.uniroma1.it/users/simone_conia",
+      "title": "ricercatore"
+    },
+    {
+      "email": "console@diag.uniroma1.it",
+      "name": "Console Marco",
+      "officialId": "https://www.diag.uniroma1.it/users/marco_console",
+      "profileUrl": "https://www.diag.uniroma1.it/users/marco_console",
+      "title": "professore associato"
+    },
+    {
+      "email": "conti@diag.uniroma1.it",
+      "name": "Conti Chiara",
+      "officialId": "https://www.diag.uniroma1.it/users/chiara_conti",
+      "profileUrl": "https://www.diag.uniroma1.it/users/chiara_conti",
+      "title": "ricercatore"
+    },
+    {
+      "email": "costantino@diag.uniroma1.it",
+      "name": "Costantino Francesco",
+      "officialId": "https://www.diag.uniroma1.it/users/francesco_costantino",
+      "profileUrl": "https://www.diag.uniroma1.it/users/francesco_costantino",
+      "title": "professore ordinario"
+    },
+    {
+      "email": "cristofaro@diag.uniroma1.it",
+      "name": "Cristofaro Andrea",
+      "officialId": "https://www.diag.uniroma1.it/users/andrea_cristofaro",
+      "profileUrl": "https://www.diag.uniroma1.it/users/andrea_cristofaro",
+      "title": "professore associato"
+    },
+    {
+      "email": "croella@diag.uniroma1.it",
+      "name": "Croella Anna Livia",
+      "officialId": "https://www.diag.uniroma1.it/users/anna-livia_croella",
+      "profileUrl": "https://www.diag.uniroma1.it/users/anna-livia_croella",
+      "title": "ricercatore"
+    },
+    {
+      "email": "dadamo@diag.uniroma1.it",
+      "name": "D'Adamo Idiano",
+      "officialId": "https://www.diag.uniroma1.it/users/idiano_dadamo",
+      "profileUrl": "https://www.diag.uniroma1.it/users/idiano_dadamo",
+      "title": "professore ordinario"
+    },
+    {
+      "email": "dalfonso@diag.uniroma1.it",
+      "name": "D'Alfonso Tiziana",
+      "officialId": "https://www.diag.uniroma1.it/users/tiziana_dalfonso",
+      "profileUrl": "https://www.diag.uniroma1.it/users/tiziana_dalfonso",
+      "title": "professore associato"
+    },
+    {
+      "email": "damore@diag.uniroma1.it",
+      "name": "d'Amore Fabrizio",
+      "officialId": "https://www.diag.uniroma1.it/users/fabrizio_damore",
+      "profileUrl": "https://www.diag.uniroma1.it/users/fabrizio_damore",
+      "title": "professore associato"
+    },
+    {
+      "email": "delia@diag.uniroma1.it",
+      "name": "D'Elia Daniele Cono",
+      "officialId": "https://www.diag.uniroma1.it/users/daniele-cono_delia",
+      "profileUrl": "https://www.diag.uniroma1.it/users/daniele-cono_delia",
+      "title": "ricercatore"
+    },
+    {
+      "email": "daraio@diag.uniroma1.it",
+      "name": "Daraio Cinzia",
+      "officialId": "https://www.diag.uniroma1.it/users/cinzia_daraio",
+      "profileUrl": "https://www.diag.uniroma1.it/users/cinzia_daraio",
+      "title": "professore ordinario"
+    },
+    {
+      "email": "degiacomo@diag.uniroma1.it",
+      "name": "De Giacomo Giuseppe",
+      "officialId": "https://www.diag.uniroma1.it/users/giuseppe_de-giacomo",
+      "profileUrl": "https://www.diag.uniroma1.it/users/giuseppe_de-giacomo",
+      "title": "professore ordinario"
+    },
+    {
+      "email": "deluca@diag.uniroma1.it",
+      "name": "De Luca Alessandro",
+      "officialId": "https://www.diag.uniroma1.it/users/alessandro_de-luca",
+      "profileUrl": "https://www.diag.uniroma1.it/users/alessandro_de-luca",
+      "title": "professore ordinario"
+    },
+    {
+      "email": "desantis@diag.uniroma1.it",
+      "name": "De Santis Alberto",
+      "officialId": "https://www.diag.uniroma1.it/users/alberto_de-santis",
+      "profileUrl": "https://www.diag.uniroma1.it/users/alberto_de-santis",
+      "title": "professore associato"
+    },
+    {
+      "email": "edesantis@diag.uniroma1.it",
+      "name": "De Santis Emanuele",
+      "officialId": "https://www.diag.uniroma1.it/users/emanuele_de-santis",
+      "profileUrl": "https://www.diag.uniroma1.it/users/emanuele_de-santis",
+      "title": "ricercatore"
+    },
+    {
+      "email": "dellipriscoli@diag.uniroma1.it",
+      "name": "Delli Priscoli Francesco",
+      "officialId": "https://www.diag.uniroma1.it/users/francesco_delli-priscoli",
+      "profileUrl": "https://www.diag.uniroma1.it/users/francesco_delli-priscoli",
+      "title": "professore ordinario"
+    },
+    {
+      "email": "digiamberardino@diag.uniroma1.it",
+      "name": "Di Giamberardino Paolo",
+      "officialId": "https://www.diag.uniroma1.it/users/paolo_di-giamberardino",
+      "profileUrl": "https://www.diag.uniroma1.it/users/paolo_di-giamberardino",
+      "title": "professore associato"
+    },
+    {
+      "email": "digiorgio@diag.uniroma1.it",
+      "name": "Di Giorgio Alessandro",
+      "officialId": "https://www.diag.uniroma1.it/users/alessandro_di-giorgio",
+      "profileUrl": "https://www.diag.uniroma1.it/users/alessandro_di-giorgio",
+      "title": "professore associato"
+    },
+    {
+      "email": "dileo@diag.uniroma1.it",
+      "name": "Di Leo Simone",
+      "officialId": "https://www.diag.uniroma1.it/users/simone_di-leo",
+      "profileUrl": "https://www.diag.uniroma1.it/users/simone_di-leo",
+      "title": "ricercatore"
+    },
+    {
+      "email": "diluna@diag.uniroma1.it",
+      "name": "Di Luna Giuseppe Antonio",
+      "officialId": "https://www.diag.uniroma1.it/users/giuseppe-antonio_di-luna",
+      "profileUrl": "https://www.diag.uniroma1.it/users/giuseppe-antonio_di-luna",
+      "title": "professore associato"
+    },
+    {
+      "email": "dipillo@diag.uniroma1.it",
+      "name": "Di Pillo Gianni",
+      "officialId": "https://www.diag.uniroma1.it/users/gianni_di-pillo",
+      "profileUrl": "https://www.diag.uniroma1.it/users/gianni_di-pillo",
+      "title": "professore emerito"
+    },
+    {
+      "email": "fdipillo@diag.uniroma1.it",
+      "name": "Di Pillo Francesca",
+      "officialId": "https://www.diag.uniroma1.it/users/francesca_di-pillo",
+      "profileUrl": "https://www.diag.uniroma1.it/users/francesca_di-pillo",
+      "title": "professore associato"
+    },
+    {
+      "email": "v.divirgilio@diag.uniroma1.it",
+      "name": "Di Virgilio Valerio",
+      "officialId": "https://www.diag.uniroma1.it/users/valerio_di-virgilio",
+      "profileUrl": "https://www.diag.uniroma1.it/users/valerio_di-virgilio",
+      "title": "ricercatore"
+    },
+    {
+      "email": "dose@diag.uniroma1.it",
+      "name": "Dose Valerio",
+      "officialId": "https://www.diag.uniroma1.it/users/valerio_dose",
+      "profileUrl": "https://www.diag.uniroma1.it/users/valerio_dose",
+      "title": "ricercatore"
+    },
+    {
+      "email": "facchinei@diag.uniroma1.it",
+      "name": "Facchinei Francisco",
+      "officialId": "https://www.diag.uniroma1.it/users/francisco_facchinei",
+      "profileUrl": "https://www.diag.uniroma1.it/users/francisco_facchinei",
+      "title": "professore ordinario"
+    },
+    {
+      "email": "farina@diag.uniroma1.it",
+      "name": "Farina Lorenzo",
+      "officialId": "https://www.diag.uniroma1.it/users/lorenzo_farina",
+      "profileUrl": "https://www.diag.uniroma1.it/users/lorenzo_farina",
+      "title": "professore ordinario"
+    },
+    {
+      "email": "fiscon@dis.uniroma1.it",
+      "name": "Fiscon Giulia",
+      "officialId": "https://www.diag.uniroma1.it/users/giulia_fiscon",
+      "profileUrl": "https://www.diag.uniroma1.it/users/giulia_fiscon",
+      "title": "ricercatore"
+    },
+    {
+      "email": "fraccascia@diag.uniroma1.it",
+      "name": "Fraccascia Luca",
+      "officialId": "https://www.diag.uniroma1.it/users/luca_fraccascia",
+      "profileUrl": "https://www.diag.uniroma1.it/users/luca_fraccascia",
+      "title": "professore associato"
+    },
+    {
+      "email": "franchi@diag.uniroma1.it",
+      "name": "Franchi Antonio",
+      "officialId": "https://www.diag.uniroma1.it/users/antonio_franchi",
+      "profileUrl": "https://www.diag.uniroma1.it/users/antonio_franchi",
+      "title": "professore ordinario"
+    },
+    {
+      "email": "furini@diag.uniroma1.it",
+      "name": "Furini Fabio",
+      "officialId": "https://www.diag.uniroma1.it/users/fabio_furini",
+      "profileUrl": "https://www.diag.uniroma1.it/users/fabio_furini",
+      "title": "professore associato"
+    },
+    {
+      "email": "fuscof@diag.uniroma1.it",
+      "name": "Fusco Federico",
+      "officialId": "https://www.diag.uniroma1.it/users/federico_fusco",
+      "profileUrl": "https://www.diag.uniroma1.it/users/federico_fusco",
+      "title": "ricercatore"
+    },
+    {
+      "email": "galesi@diag.uniroma1.it",
+      "name": "Galesi Nicola",
+      "officialId": "https://www.diag.uniroma1.it/users/nicola_galesi",
+      "profileUrl": "https://www.diag.uniroma1.it/users/nicola_galesi",
+      "title": "professore associato"
+    },
+    {
+      "email": "giagnorio@diag.uniroma1.it",
+      "name": "Giagnorio Mirko",
+      "officialId": "https://www.diag.uniroma1.it/users/mirko_giagnorio",
+      "profileUrl": "https://www.diag.uniroma1.it/users/mirko_giagnorio",
+      "title": "ricercatore"
+    },
+    {
+      "email": "giuseppi@diag.uniroma1.it",
+      "name": "Giuseppi Alessandro",
+      "officialId": "https://www.diag.uniroma1.it/users/alessandro_giuseppi",
+      "profileUrl": "https://www.diag.uniroma1.it/users/alessandro_giuseppi",
+      "title": "ricercatore"
+    },
+    {
+      "email": "mgregori@diag.uniroma1.it",
+      "name": "Gregori Martina",
+      "officialId": "https://www.diag.uniroma1.it/users/martina_gregori",
+      "profileUrl": "https://www.diag.uniroma1.it/users/martina_gregori",
+      "title": "ricercatore"
+    },
+    {
+      "email": "grisetti@diag.uniroma1.it",
+      "name": "Grisetti Giorgio",
+      "officialId": "https://www.diag.uniroma1.it/users/giorgio_grisetti",
+      "profileUrl": "https://www.diag.uniroma1.it/users/giorgio_grisetti",
+      "title": "professore ordinario"
+    },
+    {
+      "email": "grosso@diag.uniroma1.it",
+      "name": "Grosso Chiara",
+      "officialId": "https://www.diag.uniroma1.it/users/chiara_grosso",
+      "profileUrl": "https://www.diag.uniroma1.it/users/chiara_grosso",
+      "title": "ricercatore"
+    },
+    {
+      "email": "iacoviello@diag.uniroma1.it",
+      "name": "Iacoviello Daniela",
+      "officialId": "https://www.diag.uniroma1.it/users/daniela_iacoviello",
+      "profileUrl": "https://www.diag.uniroma1.it/users/daniela_iacoviello",
+      "title": "professore associato"
+    },
+    {
+      "email": "iocchi@diag.uniroma1.it",
+      "name": "Iocchi Luca",
+      "officialId": "https://www.diag.uniroma1.it/users/luca_iocchi",
+      "profileUrl": "https://www.diag.uniroma1.it/users/luca_iocchi",
+      "title": "professore ordinario"
+    },
+    {
+      "email": "isidori@diag.uniroma1.it",
+      "name": "Isidori Alberto",
+      "officialId": "https://www.diag.uniroma1.it/users/alberto_isidori",
+      "profileUrl": "https://www.diag.uniroma1.it/users/alberto_isidori",
+      "title": "professore emerito"
+    },
+    {
+      "email": "lanari@diag.uniroma1.it",
+      "name": "Lanari Leonardo",
+      "officialId": "https://www.diag.uniroma1.it/users/leonardo_lanari",
+      "profileUrl": "https://www.diag.uniroma1.it/users/leonardo_lanari",
+      "title": "professore associato"
+    },
+    {
+      "email": "lavoratori@diag.uniroma1.it",
+      "name": "Lavoratori Katiuscia",
+      "officialId": "https://www.diag.uniroma1.it/users/katiuscia_lavoratori",
+      "profileUrl": "https://www.diag.uniroma1.it/users/katiuscia_lavoratori",
+      "title": "professore associato"
+    },
+    {
+      "email": "lazzeretti@diag.uniroma1.it",
+      "name": "Lazzeretti Riccardo",
+      "officialId": "https://www.diag.uniroma1.it/users/riccardo_lazzeretti",
+      "profileUrl": "https://www.diag.uniroma1.it/users/riccardo_lazzeretti",
+      "title": "professore associato"
+    },
+    {
+      "email": "lembo@diag.uniroma1.it",
+      "name": "Lembo Domenico",
+      "officialId": "https://www.diag.uniroma1.it/users/domenico_lembo",
+      "profileUrl": "https://www.diag.uniroma1.it/users/domenico_lembo",
+      "title": "professore ordinario"
+    },
+    {
+      "email": "lenti@diag.uniroma1.it",
+      "name": "Lenti Simone",
+      "officialId": "https://www.diag.uniroma1.it/users/simone_lenti",
+      "profileUrl": "https://www.diag.uniroma1.it/users/simone_lenti",
+      "title": "ricercatore"
+    },
+    {
+      "email": "lenzerini@diag.uniroma1.it",
+      "name": "Lenzerini Maurizio",
+      "officialId": "https://www.diag.uniroma1.it/users/maurizio_lenzerini",
+      "profileUrl": "https://www.diag.uniroma1.it/users/maurizio_lenzerini",
+      "title": "professore ordinario"
+    },
+    {
+      "email": "leonardi@diag.uniroma1.it",
+      "name": "Leonardi Stefano",
+      "officialId": "https://www.diag.uniroma1.it/users/stefano_leonardi",
+      "profileUrl": "https://www.diag.uniroma1.it/users/stefano_leonardi",
+      "title": "professore ordinario"
+    },
+    {
+      "email": "leotta@diag.uniroma1.it",
+      "name": "Leotta Francesco",
+      "officialId": "https://www.diag.uniroma1.it/users/francesco_leotta",
+      "profileUrl": "https://www.diag.uniroma1.it/users/francesco_leotta",
+      "title": "ricercatore"
+    },
+    {
+      "email": "liberati@diag.uniroma1.it",
+      "name": "Liberati Francesco",
+      "officialId": "https://www.diag.uniroma1.it/users/francesco_liberati",
+      "profileUrl": "https://www.diag.uniroma1.it/users/francesco_liberati",
+      "title": "professore associato"
+    },
+    {
+      "email": "liberato@diag.uniroma1.it",
+      "name": "Liberatore Paolo",
+      "officialId": "https://www.diag.uniroma1.it/users/paolo_liberatore",
+      "profileUrl": "https://www.diag.uniroma1.it/users/paolo_liberatore",
+      "title": "professore associato"
+    },
+    {
+      "email": "lio@diag.uniroma1.it",
+      "name": "Liò Pietro",
+      "officialId": "https://www.diag.uniroma1.it/users/pietro_li",
+      "profileUrl": "https://www.diag.uniroma1.it/users/pietro_li",
+      "title": "professore ordinario"
+    },
+    {
+      "email": "liuzzi@diag.uniroma1.it",
+      "name": "Liuzzi Giampaolo",
+      "officialId": "https://www.diag.uniroma1.it/users/giampaolo_liuzzi",
+      "profileUrl": "https://www.diag.uniroma1.it/users/giampaolo_liuzzi",
+      "title": "professore associato"
+    },
+    {
+      "email": "lucidi@diag.uniroma1.it",
+      "name": "Lucidi Stefano",
+      "officialId": "https://www.diag.uniroma1.it/users/stefano_lucidi",
+      "profileUrl": "https://www.diag.uniroma1.it/users/stefano_lucidi",
+      "title": "professore ordinario"
+    },
+    {
+      "email": "alberto@diag.uniroma1.it",
+      "name": "Marchetti-Spaccamela Alberto",
+      "officialId": "https://www.diag.uniroma1.it/users/alberto_marchetti-spaccamela",
+      "profileUrl": "https://www.diag.uniroma1.it/users/alberto_marchetti-spaccamela",
+      "title": "professore emerito"
+    },
+    {
+      "email": "marrella@diag.uniroma1.it",
+      "name": "Marrella Andrea",
+      "officialId": "https://www.diag.uniroma1.it/users/andrea_marrella",
+      "profileUrl": "https://www.diag.uniroma1.it/users/andrea_marrella",
+      "title": "professore associato"
+    },
+    {
+      "email": "marzano@diag.uniroma1.it",
+      "name": "Marzano Riccardo",
+      "officialId": "https://www.diag.uniroma1.it/users/riccardo_marzano",
+      "profileUrl": "https://www.diag.uniroma1.it/users/riccardo_marzano",
+      "title": "professore associato"
+    },
+    {
+      "email": "matteucci@diag.uniroma1.it",
+      "name": "Matteucci Giorgio",
+      "officialId": "https://www.diag.uniroma1.it/users/giorgio_matteucci",
+      "profileUrl": "https://www.diag.uniroma1.it/users/giorgio_matteucci",
+      "title": "professore associato"
+    },
+    {
+      "email": "mattioni@diag.uniroma1.it",
+      "name": "Mattioni Mattia",
+      "officialId": "https://www.diag.uniroma1.it/users/mattia_mattioni",
+      "profileUrl": "https://www.diag.uniroma1.it/users/mattia_mattioni",
+      "title": "professore associato"
+    },
+    {
+      "email": "mecella@diag.uniroma1.it",
+      "name": "Mecella Massimo",
+      "officialId": "https://www.diag.uniroma1.it/users/massimo_mecella",
+      "profileUrl": "https://www.diag.uniroma1.it/users/massimo_mecella",
+      "title": "professore ordinario"
+    },
+    {
+      "email": "monaco@diag.uniroma1.it",
+      "name": "Monaco Salvatore",
+      "officialId": "https://www.diag.uniroma1.it/users/salvatore_monaco",
+      "profileUrl": "https://www.diag.uniroma1.it/users/salvatore_monaco",
+      "title": "professore emerito"
+    },
+    {
+      "email": "nanni@diag.uniroma1.it",
+      "name": "Nanni Umberto",
+      "officialId": "https://www.diag.uniroma1.it/users/umberto_nanni",
+      "profileUrl": "https://www.diag.uniroma1.it/users/umberto_nanni",
+      "title": "professore ordinario"
+    },
+    {
+      "email": "cnapoli@diag.uniroma1.it",
+      "name": "Napoli Christian",
+      "officialId": "https://www.diag.uniroma1.it/users/christian_napoli",
+      "profileUrl": "https://www.diag.uniroma1.it/users/christian_napoli",
+      "title": "professore associato"
+    },
+    {
+      "email": "nardi@diag.uniroma1.it",
+      "name": "Nardi Daniele",
+      "officialId": "https://www.diag.uniroma1.it/users/daniele_nardi",
+      "profileUrl": "https://www.diag.uniroma1.it/users/daniele_nardi",
+      "title": "professore ordinario"
+    },
+    {
+      "email": "nastasi@diag.uniroma1.it",
+      "name": "Nastasi Alberto",
+      "officialId": "https://www.diag.uniroma1.it/users/alberto_nastasi",
+      "profileUrl": "https://www.diag.uniroma1.it/users/alberto_nastasi",
+      "title": "professore ordinario"
+    },
+    {
+      "email": "navigli@diag.uniroma1.it",
+      "name": "Navigli Roberto",
+      "officialId": "https://www.diag.uniroma1.it/users/roberto_navigli",
+      "profileUrl": "https://www.diag.uniroma1.it/users/roberto_navigli",
+      "title": "professore ordinario"
+    },
+    {
+      "email": "nonino@diag.uniroma1.it",
+      "name": "Nonino Fabio",
+      "officialId": "https://www.diag.uniroma1.it/users/fabio_nonino",
+      "profileUrl": "https://www.diag.uniroma1.it/users/fabio_nonino",
+      "title": "professore ordinario"
+    },
+    {
+      "email": "oriolo@diag.uniroma1.it",
+      "name": "Oriolo Giuseppe",
+      "officialId": "https://www.diag.uniroma1.it/users/giuseppe_oriolo",
+      "profileUrl": "https://www.diag.uniroma1.it/users/giuseppe_oriolo",
+      "title": "professore ordinario"
+    },
+    {
+      "email": "oropallo@diag.uniroma1.it",
+      "name": "Oropallo Eugenio",
+      "officialId": "https://www.diag.uniroma1.it/users/eugenio_oropallo",
+      "profileUrl": "https://www.diag.uniroma1.it/users/eugenio_oropallo",
+      "title": "ricercatore"
+    },
+    {
+      "email": "paci@diag.uniroma1.it",
+      "name": "Paci Paola",
+      "officialId": "https://www.diag.uniroma1.it/users/paola_paci",
+      "profileUrl": "https://www.diag.uniroma1.it/users/paola_paci",
+      "title": "professore associato"
+    },
+    {
+      "email": "palagi@diag.uniroma1.it",
+      "name": "Palagi Laura",
+      "officialId": "https://www.diag.uniroma1.it/users/laura_palagi",
+      "profileUrl": "https://www.diag.uniroma1.it/users/laura_palagi",
+      "title": "professore ordinario"
+    },
+    {
+      "email": "patrizi@diag.uniroma1.it",
+      "name": "Patrizi Fabio",
+      "officialId": "https://www.diag.uniroma1.it/users/fabio_patrizi",
+      "profileUrl": "https://www.diag.uniroma1.it/users/fabio_patrizi",
+      "title": "professore associato"
+    },
+    {
+      "email": "petrioli@diag.uniroma1.it",
+      "name": "Petrioli Chiara",
+      "officialId": "https://www.diag.uniroma1.it/users/chiara_petrioli",
+      "profileUrl": "https://www.diag.uniroma1.it/users/chiara_petrioli",
+      "title": "professore ordinario"
+    },
+    {
+      "email": "petti@diag.uniroma1.it",
+      "name": "Petti Manuela",
+      "officialId": "https://www.diag.uniroma1.it/users/manuela_petti",
+      "profileUrl": "https://www.diag.uniroma1.it/users/manuela_petti",
+      "title": "ricercatore"
+    },
+    {
+      "email": "piccialli@diag.uniroma1.it",
+      "name": "Piccialli Veronica",
+      "officialId": "https://www.diag.uniroma1.it/users/veronica_piccialli",
+      "profileUrl": "https://www.diag.uniroma1.it/users/veronica_piccialli",
+      "title": "professore ordinario"
+    },
+    {
+      "email": "pietrabissa@diag.uniroma1.it",
+      "name": "Pietrabissa Antonio",
+      "officialId": "https://www.diag.uniroma1.it/users/antonio_pietrabissa",
+      "profileUrl": "https://www.diag.uniroma1.it/users/antonio_pietrabissa",
+      "title": "professore associato"
+    },
+    {
+      "email": "poggi@diag.uniroma1.it",
+      "name": "Poggi Antonella",
+      "officialId": "https://www.diag.uniroma1.it/users/antonella_poggi",
+      "profileUrl": "https://www.diag.uniroma1.it/users/antonella_poggi",
+      "title": "professore associato"
+    },
+    {
+      "email": "proiettimattia@diag.uniroma1.it",
+      "name": "Proietti Mattia Gabriele",
+      "officialId": "https://www.diag.uniroma1.it/users/gabriele_proietti-mattia",
+      "profileUrl": "https://www.diag.uniroma1.it/users/gabriele_proietti-mattia",
+      "title": "ricercatore"
+    },
+    {
+      "email": "querzoni@diag.uniroma1.it",
+      "name": "Querzoni Leonardo",
+      "officialId": "https://www.diag.uniroma1.it/users/leonardo_querzoni",
+      "profileUrl": "https://www.diag.uniroma1.it/users/leonardo_querzoni",
+      "title": "professore ordinario"
+    },
+    {
+      "email": "reverberi@diag.uniroma1.it",
+      "name": "Reverberi Pierfrancesco",
+      "officialId": "https://www.diag.uniroma1.it/users/pierfrancesco_reverberi",
+      "profileUrl": "https://www.diag.uniroma1.it/users/pierfrancesco_reverberi",
+      "title": "professore ordinario"
+    },
+    {
+      "email": "rigoni@diag.uniroma1.it",
+      "name": "Rigoni Giulio",
+      "officialId": "https://www.diag.uniroma1.it/users/giulio_rigoni",
+      "profileUrl": "https://www.diag.uniroma1.it/users/giulio_rigoni",
+      "title": "ricercatore"
+    },
+    {
+      "email": "roma@diag.uniroma1.it",
+      "name": "Roma Massimo",
+      "officialId": "https://www.diag.uniroma1.it/users/massimo_roma",
+      "profileUrl": "https://www.diag.uniroma1.it/users/massimo_roma",
+      "title": "professore associato"
+    },
+    {
+      "email": "rosati@diag.uniroma1.it",
+      "name": "Rosati Riccardo",
+      "officialId": "https://www.diag.uniroma1.it/users/riccardo_rosati",
+      "profileUrl": "https://www.diag.uniroma1.it/users/riccardo_rosati",
+      "title": "professore ordinario"
+    },
+    {
+      "email": "prusso@diag.uniroma1.it",
+      "name": "Russo Paolo",
+      "officialId": "https://www.diag.uniroma1.it/users/paolo_russo",
+      "profileUrl": "https://www.diag.uniroma1.it/users/paolo_russo",
+      "title": "ricercatore"
+    },
+    {
+      "email": "sagratella@diag.uniroma1.it",
+      "name": "Sagratella Simone",
+      "officialId": "https://www.diag.uniroma1.it/users/simone_sagratella",
+      "profileUrl": "https://www.diag.uniroma1.it/users/simone_sagratella",
+      "title": "professore associato"
+    },
+    {
+      "email": "salzo@diag.uniroma1.it",
+      "name": "Salzo Saverio",
+      "officialId": "https://www.diag.uniroma1.it/users/saverio_salzo",
+      "profileUrl": "https://www.diag.uniroma1.it/users/saverio_salzo",
+      "title": "professore associato"
+    },
+    {
+      "email": "santucci@diag.uniroma1.it",
+      "name": "Santucci Giuseppe",
+      "officialId": "https://www.diag.uniroma1.it/users/giuseppe_santucci",
+      "profileUrl": "https://www.diag.uniroma1.it/users/giuseppe_santucci",
+      "title": "professore ordinario"
+    },
+    {
+      "email": "scafoglieri@diag.uniroma1.it",
+      "name": "Scafoglieri Federico Maria",
+      "officialId": "https://www.diag.uniroma1.it/users/federico-maria_scafoglieri",
+      "profileUrl": "https://www.diag.uniroma1.it/users/federico-maria_scafoglieri",
+      "title": "ricercatore"
+    },
+    {
+      "email": "schaerf@diag.uniroma1.it",
+      "name": "Schaerf Marco",
+      "officialId": "https://www.diag.uniroma1.it/users/marco_schaerf",
+      "profileUrl": "https://www.diag.uniroma1.it/users/marco_schaerf",
+      "title": "professore ordinario"
+    },
+    {
+      "email": "scianca@diag.uniroma1.it",
+      "name": "Scianca Nicola",
+      "officialId": "https://www.diag.uniroma1.it/users/nicola_scianca",
+      "profileUrl": "https://www.diag.uniroma1.it/users/nicola_scianca",
+      "title": "ricercatore"
+    },
+    {
+      "email": "sciandrone@diag.uniroma1.it",
+      "name": "Sciandrone Marco",
+      "officialId": "https://www.diag.uniroma1.it/users/marco_sciandrone",
+      "profileUrl": "https://www.diag.uniroma1.it/users/marco_sciandrone",
+      "title": "professore ordinario"
+    },
+    {
+      "email": "siciliano@diag.uniroma1.it",
+      "name": "Siciliano Federico",
+      "officialId": "https://www.diag.uniroma1.it/users/federico_siciliano",
+      "profileUrl": "https://www.diag.uniroma1.it/users/federico_siciliano",
+      "title": "ricercatore"
+    },
+    {
+      "email": "fsilvestri@diag.uniroma1.it",
+      "name": "Silvestri Fabrizio",
+      "officialId": "https://www.diag.uniroma1.it/users/fabrizio_silvestri",
+      "profileUrl": "https://www.diag.uniroma1.it/users/fabrizio_silvestri",
+      "title": "professore ordinario"
+    },
+    {
+      "email": "sudoso@diag.uniroma1.it",
+      "name": "Sudoso Antonio Maria",
+      "officialId": "https://www.diag.uniroma1.it/users/antonio-maria_sudoso",
+      "profileUrl": "https://www.diag.uniroma1.it/users/antonio-maria_sudoso",
+      "title": "ricercatore"
+    },
+    {
+      "email": "marte@diag.uniroma1.it",
+      "name": "Temperini Marco",
+      "officialId": "https://www.diag.uniroma1.it/users/marco_temperini",
+      "profileUrl": "https://www.diag.uniroma1.it/users/marco_temperini",
+      "title": "professore associato"
+    },
+    {
+      "email": "toppi@diag.uniroma1.it",
+      "name": "Toppi Jlenia",
+      "officialId": "https://www.diag.uniroma1.it/users/jlenia_toppi",
+      "profileUrl": "https://www.diag.uniroma1.it/users/jlenia_toppi",
+      "title": "professore associato"
+    },
+    {
+      "email": "trappolini@diag.uniroma1.it",
+      "name": "Trappolini Giovanni",
+      "officialId": "https://www.diag.uniroma1.it/users/giovanni_trappolini",
+      "profileUrl": "https://www.diag.uniroma1.it/users/giovanni_trappolini",
+      "title": "ricercatore"
+    },
+    {
+      "email": "umili@diag.uniroma1.it",
+      "name": "Umili Elena",
+      "officialId": "https://www.diag.uniroma1.it/users/elena_umili",
+      "profileUrl": "https://www.diag.uniroma1.it/users/elena_umili",
+      "title": "ricercatore"
+    },
+    {
+      "email": "vendittelli@diag.uniroma1.it",
+      "name": "Vendittelli Marilena",
+      "officialId": "https://www.diag.uniroma1.it/users/marilena_vendittelli",
+      "profileUrl": "https://www.diag.uniroma1.it/users/marilena_vendittelli",
+      "title": "professore ordinario"
+    },
+    {
+      "email": "visconti@diag.uniroma1.it",
+      "name": "Visconti Ivan",
+      "officialId": "https://www.diag.uniroma1.it/users/ivan_visconti",
+      "profileUrl": "https://www.diag.uniroma1.it/users/ivan_visconti",
+      "title": "professore ordinario"
+    },
+    {
+      "email": "vitaletti@diag.uniroma1.it",
+      "name": "Vitaletti Andrea",
+      "officialId": "https://www.diag.uniroma1.it/users/andrea_vitaletti",
+      "profileUrl": "https://www.diag.uniroma1.it/users/andrea_vitaletti",
+      "title": "professore associato"
+    },
+    {
+      "email": "zecchini@diag.uniroma1.it",
+      "name": "Zecchini Marco",
+      "officialId": "https://www.diag.uniroma1.it/users/marco_zecchini",
+      "profileUrl": "https://www.diag.uniroma1.it/users/marco_zecchini",
+      "title": "ricercatore"
+    }
+  ]
+}

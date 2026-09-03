@@ -1,0 +1,1940 @@
+{
+  "schemaVersion": 1,
+  "unitId": "upenn-cis",
+  "unitLabel": "University of Pennsylvania Computer and Information Science",
+  "unitUrl": "https://www.cis.upenn.edu/faculty/",
+  "snapshotAt": "2026-09-03",
+  "rosterArtifact": "data/official-rosters/upenn-cis-faculty-2026-09-02.json",
+  "frozenOfficialRosterCount": 121,
+  "rawRosterRowCount": 121,
+  "duplicateRosterCardCount": 0,
+  "deduplicatedRosterPersonCount": 121,
+  "decisionCount": 121,
+  "counts": {
+    "excluded_historical": 7,
+    "excluded_non_pi": 10,
+    "include_new_pi": 100,
+    "included_existing": 4
+  },
+  "decisions": [
+    {
+      "officialId": "shivani-agarwal",
+      "rosterName": "Shivani Agarwal",
+      "title": "Associate Professor",
+      "profileUrl": "https://www.cis.upenn.edu/faculty/",
+      "portraitUrl": "https://www.cis.upenn.edu/wp-content/uploads/2026/04/agarwal-shivani.png",
+      "officialSections": [
+        "Primary Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cis.upenn.edu/faculty/",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Associate Professor | Primary Faculty | https://www.cis.upenn.edu/faculty/",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "rajeev-alur",
+      "rosterName": "Rajeev Alur",
+      "title": "Zisman Family Professor",
+      "profileUrl": "https://www.cis.upenn.edu/faculty/",
+      "portraitUrl": "https://www.cis.upenn.edu/wp-content/uploads/2026/04/alur-rajeev.png",
+      "officialSections": [
+        "Primary Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cis.upenn.edu/faculty/",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Zisman Family Professor | Primary Faculty | https://www.cis.upenn.edu/faculty/",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "sebastian-angel",
+      "rosterName": "Sebastian Angel",
+      "title": "Associate Professor",
+      "profileUrl": "https://www.cis.upenn.edu/faculty/",
+      "portraitUrl": "https://www.cis.upenn.edu/wp-content/uploads/2026/04/angel-sebastian-e1787837148877.png",
+      "officialSections": [
+        "Primary Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cis.upenn.edu/faculty/",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Associate Professor | Primary Faculty | https://www.cis.upenn.edu/faculty/",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "osbert-bastani",
+      "rosterName": "Osbert Bastani",
+      "title": "Associate Professor",
+      "profileUrl": "https://www.cis.upenn.edu/faculty/",
+      "portraitUrl": "https://www.cis.upenn.edu/wp-content/uploads/2026/04/bastani-osbert.png",
+      "officialSections": [
+        "Primary Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cis.upenn.edu/faculty/",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Associate Professor | Primary Faculty | https://www.cis.upenn.edu/faculty/",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "arvind-bhusnurmath",
+      "rosterName": "Arvind Bhusnurmath",
+      "title": "Senior Lecturer",
+      "profileUrl": "https://www.cis.upenn.edu/faculty/",
+      "portraitUrl": "https://www.cis.upenn.edu/wp-content/uploads/2026/04/bhusnurmath-arvind.png",
+      "officialSections": [
+        "Primary Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cis.upenn.edu/faculty/",
+      "decision": "excluded_non_pi",
+      "reason": "官方职称或名录分组属于教学、兼职、附属、科研支持或其他非独立 PI 岗位。",
+      "evidence": "Senior Lecturer | Primary Faculty | https://www.cis.upenn.edu/faculty/"
+    },
+    {
+      "officialId": "chris-callison-burch",
+      "rosterName": "Chris Callison-Burch",
+      "title": "Raj and Neera Singh Professor",
+      "profileUrl": "https://www.cis.upenn.edu/faculty/",
+      "portraitUrl": "https://www.cis.upenn.edu/wp-content/uploads/2026/04/ccb.png",
+      "officialSections": [
+        "Primary Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cis.upenn.edu/faculty/",
+      "decision": "included_existing",
+      "atlasPersonId": "chris-callison-burch-upenn-award",
+      "reason": "符合范围，且规范化姓名可与当前图谱人物唯一匹配。",
+      "evidence": "Raj and Neera Singh Professor | Primary Faculty | https://www.cis.upenn.edu/faculty/"
+    },
+    {
+      "officialId": "pranam-chatterjee",
+      "rosterName": "Pranam Chatterjee",
+      "title": "Assistant Professor",
+      "profileUrl": "https://www.cis.upenn.edu/faculty/",
+      "portraitUrl": "https://www.cis.upenn.edu/wp-content/uploads/2026/04/chatterjee-pranam.png",
+      "officialSections": [
+        "Primary Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cis.upenn.edu/faculty/",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Assistant Professor | Primary Faculty | https://www.cis.upenn.edu/faculty/",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "konstantinos-daniilidis",
+      "rosterName": "Konstantinos Daniilidis",
+      "title": "Ruth Yalom Stone Professor",
+      "profileUrl": "https://www.cis.upenn.edu/faculty/",
+      "portraitUrl": "https://www.cis.upenn.edu/wp-content/uploads/2026/04/daniilidis_kostas1-scaled.jpg",
+      "officialSections": [
+        "Primary Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cis.upenn.edu/faculty/",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Ruth Yalom Stone Professor | Primary Faculty | https://www.cis.upenn.edu/faculty/",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "susan-davidson",
+      "rosterName": "Susan Davidson",
+      "title": "Weiss Professor",
+      "profileUrl": "https://www.cis.upenn.edu/faculty/",
+      "portraitUrl": "https://www.cis.upenn.edu/wp-content/uploads/2026/04/davidson-susan.png",
+      "officialSections": [
+        "Primary Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cis.upenn.edu/faculty/",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Weiss Professor | Primary Faculty | https://www.cis.upenn.edu/faculty/",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "anindya-de",
+      "rosterName": "Anindya De",
+      "title": "Associate Professor",
+      "profileUrl": "https://www.cis.upenn.edu/faculty/",
+      "portraitUrl": "https://www.cis.upenn.edu/wp-content/uploads/2026/04/de-anindya.png",
+      "officialSections": [
+        "Primary Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cis.upenn.edu/faculty/",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Associate Professor | Primary Faculty | https://www.cis.upenn.edu/faculty/",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "joseph-devietti",
+      "rosterName": "Joseph Devietti",
+      "title": "Associate Professor",
+      "profileUrl": "https://www.cis.upenn.edu/faculty/",
+      "portraitUrl": "https://www.cis.upenn.edu/wp-content/uploads/2026/04/devietti-joe.png",
+      "officialSections": [
+        "Primary Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cis.upenn.edu/faculty/",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Associate Professor | Primary Faculty | https://www.cis.upenn.edu/faculty/",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "kaihua-ding",
+      "rosterName": "Kaihua Ding",
+      "title": "Part-Time Lecturer",
+      "profileUrl": "https://www.cis.upenn.edu/faculty/",
+      "portraitUrl": "https://www.cis.upenn.edu/wp-content/uploads/2026/09/ding-kaihua.png",
+      "officialSections": [
+        "Primary Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cis.upenn.edu/faculty/",
+      "decision": "excluded_non_pi",
+      "reason": "官方职称或名录分组属于教学、兼职、附属、科研支持或其他非独立 PI 岗位。",
+      "evidence": "Part-Time Lecturer | Primary Faculty | https://www.cis.upenn.edu/faculty/"
+    },
+    {
+      "officialId": "kyrie-dowling",
+      "rosterName": "Kyrie Dowling",
+      "title": "Lecturer",
+      "profileUrl": "https://www.cis.upenn.edu/faculty/",
+      "portraitUrl": "https://www.cis.upenn.edu/wp-content/uploads/2026/04/Dowling-Kyrie.jpg",
+      "officialSections": [
+        "Primary Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cis.upenn.edu/faculty/",
+      "decision": "excluded_non_pi",
+      "reason": "官方职称或名录分组属于教学、兼职、附属、科研支持或其他非独立 PI 岗位。",
+      "evidence": "Lecturer | Primary Faculty | https://www.cis.upenn.edu/faculty/"
+    },
+    {
+      "officialId": "eva-dyer",
+      "rosterName": "Eva Dyer",
+      "title": "Rachleff Associate Professor",
+      "profileUrl": "https://www.cis.upenn.edu/faculty/",
+      "portraitUrl": "https://www.cis.upenn.edu/wp-content/uploads/2026/04/Dyer-Eva.jpg",
+      "officialSections": [
+        "Primary Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cis.upenn.edu/faculty/",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Rachleff Associate Professor | Primary Faculty | https://www.cis.upenn.edu/faculty/",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "eric-eaton",
+      "rosterName": "Eric Eaton",
+      "title": "Research Associate Professor",
+      "profileUrl": "https://www.cis.upenn.edu/faculty/",
+      "portraitUrl": "https://www.cis.upenn.edu/wp-content/uploads/2026/04/eaton-eric.png",
+      "officialSections": [
+        "Primary Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cis.upenn.edu/faculty/",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Research Associate Professor | Primary Faculty | https://www.cis.upenn.edu/faculty/",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "thomas-farmer",
+      "rosterName": "Thomas Farmer",
+      "title": "Practice Associate Professor",
+      "profileUrl": "https://www.cis.upenn.edu/faculty/",
+      "portraitUrl": "https://www.cis.upenn.edu/wp-content/uploads/2026/04/farmer-thomas.png",
+      "officialSections": [
+        "Primary Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cis.upenn.edu/faculty/",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Practice Associate Professor | Primary Faculty | https://www.cis.upenn.edu/faculty/",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "josh-fried",
+      "rosterName": "Josh Fried",
+      "title": "Assistant Professor",
+      "profileUrl": "https://www.cis.upenn.edu/faculty/",
+      "portraitUrl": "https://www.cis.upenn.edu/wp-content/uploads/2026/09/Fried-Josh-1200x800-1.png",
+      "officialSections": [
+        "Primary Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cis.upenn.edu/faculty/",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Assistant Professor | Primary Faculty | https://www.cis.upenn.edu/faculty/",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "jean-gallier",
+      "rosterName": "Jean Gallier",
+      "title": "Professor",
+      "profileUrl": "https://www.cis.upenn.edu/faculty/",
+      "portraitUrl": "https://www.cis.upenn.edu/wp-content/uploads/2026/04/Gallier-Jean.png",
+      "officialSections": [
+        "Primary Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cis.upenn.edu/faculty/",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Professor | Primary Faculty | https://www.cis.upenn.edu/faculty/",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "rajiv-gandhi",
+      "rosterName": "Rajiv Gandhi",
+      "title": "Lecturer",
+      "profileUrl": "https://www.cis.upenn.edu/faculty/",
+      "portraitUrl": "https://www.cis.upenn.edu/wp-content/uploads/2026/04/gandhi-rajiv.png",
+      "officialSections": [
+        "Primary Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cis.upenn.edu/faculty/",
+      "decision": "excluded_non_pi",
+      "reason": "官方职称或名录分组属于教学、兼职、附属、科研支持或其他非独立 PI 岗位。",
+      "evidence": "Lecturer | Primary Faculty | https://www.cis.upenn.edu/faculty/"
+    },
+    {
+      "officialId": "jacob-gardner",
+      "rosterName": "Jacob Gardner",
+      "title": "Assistant Professor",
+      "profileUrl": "https://www.cis.upenn.edu/faculty/",
+      "portraitUrl": "https://www.cis.upenn.edu/wp-content/uploads/2026/04/gardner-jacob.png",
+      "officialSections": [
+        "Primary Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cis.upenn.edu/faculty/",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Assistant Professor | Primary Faculty | https://www.cis.upenn.edu/faculty/",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "surbhi-goel",
+      "rosterName": "Surbhi Goel",
+      "title": "Magerman Term Assistant Professor",
+      "profileUrl": "https://www.cis.upenn.edu/faculty/",
+      "portraitUrl": "https://www.cis.upenn.edu/wp-content/uploads/2026/04/goel-surbhi.png",
+      "officialSections": [
+        "Primary Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cis.upenn.edu/faculty/",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Magerman Term Assistant Professor | Primary Faculty | https://www.cis.upenn.edu/faculty/",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "jiatao-gu",
+      "rosterName": "Jiatao Gu",
+      "title": "Assistant Professor",
+      "profileUrl": "https://www.cis.upenn.edu/faculty/",
+      "portraitUrl": "https://www.cis.upenn.edu/wp-content/uploads/2026/04/Gu-Jiatao.png",
+      "officialSections": [
+        "Primary Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cis.upenn.edu/faculty/",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Assistant Professor | Primary Faculty | https://www.cis.upenn.edu/faculty/",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "sharath-guntuku",
+      "rosterName": "Sharath Guntuku",
+      "title": "Research Associate Professor",
+      "profileUrl": "https://www.cis.upenn.edu/faculty/",
+      "portraitUrl": "https://www.cis.upenn.edu/wp-content/uploads/2026/04/Guntuku-Sharath.png",
+      "officialSections": [
+        "Primary Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cis.upenn.edu/faculty/",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Research Associate Professor | Primary Faculty | https://www.cis.upenn.edu/faculty/",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "andreas-haeberlen",
+      "rosterName": "Andreas Haeberlen",
+      "title": "Professor",
+      "profileUrl": "https://www.cis.upenn.edu/faculty/",
+      "portraitUrl": "https://www.cis.upenn.edu/wp-content/uploads/2026/04/haeberlen-andreas.png",
+      "officialSections": [
+        "Primary Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cis.upenn.edu/faculty/",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Professor | Primary Faculty | https://www.cis.upenn.edu/faculty/",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "andrew-head",
+      "rosterName": "Andrew Head",
+      "title": "Assistant Professor",
+      "profileUrl": "https://www.cis.upenn.edu/faculty/",
+      "portraitUrl": "https://www.cis.upenn.edu/wp-content/uploads/2026/04/Head-Andrew.png",
+      "officialSections": [
+        "Primary Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cis.upenn.edu/faculty/",
+      "decision": "included_existing",
+      "atlasPersonId": "andrew-head-upenn-award",
+      "reason": "符合范围，且规范化姓名可与当前图谱人物唯一匹配。",
+      "evidence": "Assistant Professor | Primary Faculty | https://www.cis.upenn.edu/faculty/"
+    },
+    {
+      "officialId": "michael-hicks",
+      "rosterName": "Michael Hicks",
+      "title": "Cecilia Fitler Moore Professor",
+      "profileUrl": "https://www.cis.upenn.edu/faculty/",
+      "portraitUrl": "https://www.cis.upenn.edu/wp-content/uploads/2026/04/Hicks-Michael.jpg",
+      "officialSections": [
+        "Primary Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cis.upenn.edu/faculty/",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Cecilia Fitler Moore Professor | Primary Faculty | https://www.cis.upenn.edu/faculty/",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "zachary-ives",
+      "rosterName": "Zachary Ives",
+      "title": "Adani President’s Distinguished Professor",
+      "profileUrl": "https://www.cis.upenn.edu/faculty/",
+      "portraitUrl": "https://www.cis.upenn.edu/wp-content/uploads/2026/04/Ives-Zachary.jpg",
+      "officialSections": [
+        "Primary Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cis.upenn.edu/faculty/",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Adani President’s Distinguished Professor | Primary Faculty | https://www.cis.upenn.edu/faculty/",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "meena-jagadeesan",
+      "rosterName": "Meena Jagadeesan",
+      "title": "Assistant Professor",
+      "profileUrl": "https://www.cis.upenn.edu/faculty/",
+      "portraitUrl": "https://www.cis.upenn.edu/wp-content/uploads/2026/04/jagadeesan-meena.png",
+      "officialSections": [
+        "Primary Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cis.upenn.edu/faculty/",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Assistant Professor | Primary Faculty | https://www.cis.upenn.edu/faculty/",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "dinesh-jayaraman",
+      "rosterName": "Dinesh Jayaraman",
+      "title": "Associate Professor",
+      "profileUrl": "https://www.cis.upenn.edu/faculty/",
+      "portraitUrl": "https://www.cis.upenn.edu/wp-content/uploads/2026/04/Jayaraman-Dinesh.jpg",
+      "officialSections": [
+        "Primary Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cis.upenn.edu/faculty/",
+      "decision": "included_existing",
+      "atlasPersonId": "dinesh-jayaraman-foundational",
+      "reason": "符合范围，且规范化姓名可与当前图谱人物唯一匹配。",
+      "evidence": "Associate Professor | Primary Faculty | https://www.cis.upenn.edu/faculty/"
+    },
+    {
+      "officialId": "kevin-b-johnson",
+      "rosterName": "Kevin B. Johnson",
+      "title": "David L. Cohen University Professor",
+      "profileUrl": "https://www.cis.upenn.edu/faculty/",
+      "portraitUrl": "https://www.cis.upenn.edu/wp-content/uploads/2026/04/Johnson-Kevin.jpg",
+      "officialSections": [
+        "Primary Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cis.upenn.edu/faculty/",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "David L. Cohen University Professor | Primary Faculty | https://www.cis.upenn.edu/faculty/",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "sampath-kannan",
+      "rosterName": "Sampath Kannan",
+      "title": "Henry Salvatori Professor",
+      "profileUrl": "https://www.cis.upenn.edu/faculty/",
+      "portraitUrl": "https://www.cis.upenn.edu/wp-content/uploads/2026/09/Kannan-Sampath-1200x800-1.png",
+      "officialSections": [
+        "Primary Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cis.upenn.edu/faculty/",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Henry Salvatori Professor | Primary Faculty | https://www.cis.upenn.edu/faculty/",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "michael-kearns",
+      "rosterName": "Michael Kearns",
+      "title": "National Center Professor of Management & Technology",
+      "profileUrl": "https://www.cis.upenn.edu/faculty/",
+      "portraitUrl": "https://www.cis.upenn.edu/wp-content/uploads/2026/04/kearns-michael.png",
+      "officialSections": [
+        "Primary Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cis.upenn.edu/faculty/",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "National Center Professor of Management & Technology | Primary Faculty | https://www.cis.upenn.edu/faculty/",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "bongho-kim",
+      "rosterName": "Bongho Kim",
+      "title": "Lecturer",
+      "profileUrl": "https://www.cis.upenn.edu/faculty/",
+      "portraitUrl": "https://www.cis.upenn.edu/wp-content/uploads/2026/04/kim-bongho.png",
+      "officialSections": [
+        "Primary Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cis.upenn.edu/faculty/",
+      "decision": "excluded_non_pi",
+      "reason": "官方职称或名录分组属于教学、兼职、附属、科研支持或其他非独立 PI 岗位。",
+      "evidence": "Lecturer | Primary Faculty | https://www.cis.upenn.edu/faculty/"
+    },
+    {
+      "officialId": "brandon-krakowsky",
+      "rosterName": "Brandon Krakowsky",
+      "title": "Lecturer",
+      "profileUrl": "https://www.cis.upenn.edu/faculty/",
+      "portraitUrl": "https://www.cis.upenn.edu/wp-content/uploads/2026/09/Krakowsky-Brandon-1200x800-1.jpg",
+      "officialSections": [
+        "Primary Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cis.upenn.edu/faculty/",
+      "decision": "excluded_non_pi",
+      "reason": "官方职称或名录分组属于教学、兼职、附属、科研支持或其他非独立 PI 岗位。",
+      "evidence": "Lecturer | Primary Faculty | https://www.cis.upenn.edu/faculty/"
+    },
+    {
+      "officialId": "stephen-lane",
+      "rosterName": "Stephen Lane",
+      "title": "Practice Professor",
+      "profileUrl": "https://www.cis.upenn.edu/faculty/",
+      "portraitUrl": "https://www.cis.upenn.edu/wp-content/uploads/2026/04/Lane.jpg",
+      "officialSections": [
+        "Primary Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cis.upenn.edu/faculty/",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Practice Professor | Primary Faculty | https://www.cis.upenn.edu/faculty/",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "benjamin-lee",
+      "rosterName": "Benjamin Lee",
+      "title": "Professor",
+      "profileUrl": "https://www.cis.upenn.edu/faculty/",
+      "portraitUrl": "https://www.cis.upenn.edu/wp-content/uploads/2026/04/lee-benjamin.png",
+      "officialSections": [
+        "Primary Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cis.upenn.edu/faculty/",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Professor | Primary Faculty | https://www.cis.upenn.edu/faculty/",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "insup-lee",
+      "rosterName": "Insup Lee",
+      "title": "Cecilia Fitler Moore Professor",
+      "profileUrl": "https://www.cis.upenn.edu/faculty/",
+      "portraitUrl": "https://www.cis.upenn.edu/wp-content/uploads/2026/04/lee-insup.png",
+      "officialSections": [
+        "Primary Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cis.upenn.edu/faculty/",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Cecilia Fitler Moore Professor | Primary Faculty | https://www.cis.upenn.edu/faculty/",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "gushu-li",
+      "rosterName": "Gushu Li",
+      "title": "Assistant Professor",
+      "profileUrl": "https://www.cis.upenn.edu/faculty/",
+      "portraitUrl": "https://www.cis.upenn.edu/wp-content/uploads/2026/04/li-gushu.png",
+      "officialSections": [
+        "Primary Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cis.upenn.edu/faculty/",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Assistant Professor | Primary Faculty | https://www.cis.upenn.edu/faculty/",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "lingjie-liu",
+      "rosterName": "Lingjie Liu",
+      "title": "Aravind K. Joshi Assistant Professor",
+      "profileUrl": "https://www.cis.upenn.edu/faculty/",
+      "portraitUrl": "https://www.cis.upenn.edu/wp-content/uploads/2026/04/liu-lingjie.png",
+      "officialSections": [
+        "Primary Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cis.upenn.edu/faculty/",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Aravind K. Joshi Assistant Professor | Primary Faculty | https://www.cis.upenn.edu/faculty/",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "vincent-liu",
+      "rosterName": "Vincent Liu",
+      "title": "Associate Professor",
+      "profileUrl": "https://www.cis.upenn.edu/faculty/",
+      "portraitUrl": "https://www.cis.upenn.edu/wp-content/uploads/2026/04/liu-vincent.png",
+      "officialSections": [
+        "Primary Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cis.upenn.edu/faculty/",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Associate Professor | Primary Faculty | https://www.cis.upenn.edu/faculty/",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "boon-thau-loo",
+      "rosterName": "Boon Thau Loo",
+      "title": "RCA Professor",
+      "profileUrl": "https://www.cis.upenn.edu/faculty/",
+      "portraitUrl": "https://www.cis.upenn.edu/wp-content/uploads/2026/04/loo-boonthau.png",
+      "officialSections": [
+        "Primary Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cis.upenn.edu/faculty/",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "RCA Professor | Primary Faculty | https://www.cis.upenn.edu/faculty/",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "jeremie-lumbroso",
+      "rosterName": "Jérémie Lumbroso",
+      "title": "Practice Assistant Professor",
+      "profileUrl": "https://www.cis.upenn.edu/faculty/",
+      "portraitUrl": "https://www.cis.upenn.edu/wp-content/uploads/2026/04/lumbroso-jeremie.png",
+      "officialSections": [
+        "Primary Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cis.upenn.edu/faculty/",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Practice Assistant Professor | Primary Faculty | https://www.cis.upenn.edu/faculty/",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "adam-david-mally",
+      "rosterName": "Adam David Mally",
+      "title": "Senior Lecturer",
+      "profileUrl": "https://www.cis.upenn.edu/faculty/",
+      "portraitUrl": "https://www.cis.upenn.edu/wp-content/uploads/2026/04/Mally-Adam.jpg",
+      "officialSections": [
+        "Primary Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cis.upenn.edu/faculty/",
+      "decision": "excluded_non_pi",
+      "reason": "官方职称或名录分组属于教学、兼职、附属、科研支持或其他非独立 PI 岗位。",
+      "evidence": "Senior Lecturer | Primary Faculty | https://www.cis.upenn.edu/faculty/"
+    },
+    {
+      "officialId": "jiayuan-mao",
+      "rosterName": "Jiayuan Mao",
+      "title": "Assistant Professor",
+      "profileUrl": "https://www.cis.upenn.edu/faculty/",
+      "portraitUrl": "https://www.cis.upenn.edu/wp-content/uploads/2026/04/mao-jiayuan.png",
+      "officialSections": [
+        "Primary Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cis.upenn.edu/faculty/",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Assistant Professor | Primary Faculty | https://www.cis.upenn.edu/faculty/",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "ryan-marcus",
+      "rosterName": "Ryan Marcus",
+      "title": "Assistant Professor",
+      "profileUrl": "https://www.cis.upenn.edu/faculty/",
+      "portraitUrl": "https://www.cis.upenn.edu/wp-content/uploads/2026/04/marcus-ryan.png",
+      "officialSections": [
+        "Primary Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cis.upenn.edu/faculty/",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Assistant Professor | Primary Faculty | https://www.cis.upenn.edu/faculty/",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "talie-massachi",
+      "rosterName": "Talie Massachi",
+      "title": "Lecturer",
+      "profileUrl": "https://www.cis.upenn.edu/faculty/",
+      "portraitUrl": "https://www.cis.upenn.edu/wp-content/uploads/2026/04/Massachi-Talie.jpg",
+      "officialSections": [
+        "Primary Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cis.upenn.edu/faculty/",
+      "decision": "excluded_non_pi",
+      "reason": "官方职称或名录分组属于教学、兼职、附属、科研支持或其他非独立 PI 岗位。",
+      "evidence": "Lecturer | Primary Faculty | https://www.cis.upenn.edu/faculty/"
+    },
+    {
+      "officialId": "travis-mcgaha",
+      "rosterName": "Travis McGaha",
+      "title": "Senior Lecturer",
+      "profileUrl": "https://www.cis.upenn.edu/faculty/",
+      "portraitUrl": "https://www.cis.upenn.edu/wp-content/uploads/2026/04/McGaha-Travis.jpg",
+      "officialSections": [
+        "Primary Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cis.upenn.edu/faculty/",
+      "decision": "excluded_non_pi",
+      "reason": "官方职称或名录分组属于教学、兼职、附属、科研支持或其他非独立 PI 岗位。",
+      "evidence": "Senior Lecturer | Primary Faculty | https://www.cis.upenn.edu/faculty/"
+    },
+    {
+      "officialId": "danae-metaxa",
+      "rosterName": "Danaé Metaxa",
+      "title": "Raj and Neera Singh Term Assistant Professor",
+      "profileUrl": "https://www.cis.upenn.edu/faculty/",
+      "portraitUrl": "https://www.cis.upenn.edu/wp-content/uploads/2026/04/Metaxa-Danae.jpg",
+      "officialSections": [
+        "Primary Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cis.upenn.edu/faculty/",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Raj and Neera Singh Term Assistant Professor | Primary Faculty | https://www.cis.upenn.edu/faculty/",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "pratyush-mishra",
+      "rosterName": "Pratyush Mishra",
+      "title": "Assistant Professor",
+      "profileUrl": "https://www.cis.upenn.edu/faculty/",
+      "portraitUrl": "https://www.cis.upenn.edu/wp-content/uploads/2026/04/mishra-pratyush.png",
+      "officialSections": [
+        "Primary Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cis.upenn.edu/faculty/",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Assistant Professor | Primary Faculty | https://www.cis.upenn.edu/faculty/",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "mayur-naik",
+      "rosterName": "Mayur Naik",
+      "title": "Misra Family Professor",
+      "profileUrl": "https://www.cis.upenn.edu/faculty/",
+      "portraitUrl": "https://www.cis.upenn.edu/wp-content/uploads/2026/04/naik-mayur.png",
+      "officialSections": [
+        "Primary Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cis.upenn.edu/faculty/",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Misra Family Professor | Primary Faculty | https://www.cis.upenn.edu/faculty/",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "linh-thi-xuan-phan",
+      "rosterName": "Linh Thi Xuan Phan",
+      "title": "Professor",
+      "profileUrl": "https://www.cis.upenn.edu/faculty/",
+      "portraitUrl": "https://www.cis.upenn.edu/wp-content/uploads/2026/04/phan-linh.png",
+      "officialSections": [
+        "Primary Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cis.upenn.edu/faculty/",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Professor | Primary Faculty | https://www.cis.upenn.edu/faculty/",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "benjamin-c-pierce",
+      "rosterName": "Benjamin C. Pierce",
+      "title": "Henry Salvatori Professor",
+      "profileUrl": "https://www.cis.upenn.edu/faculty/",
+      "portraitUrl": "https://www.cis.upenn.edu/wp-content/uploads/2026/09/Pierce-Benjamin-1200x800-1.png",
+      "officialSections": [
+        "Primary Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cis.upenn.edu/faculty/",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Henry Salvatori Professor | Primary Faculty | https://www.cis.upenn.edu/faculty/",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "aaron-roth",
+      "rosterName": "Aaron Roth",
+      "title": "Henry Salvatori Professor of Computer & Cognitive Science",
+      "profileUrl": "https://www.cis.upenn.edu/faculty/",
+      "portraitUrl": "https://www.cis.upenn.edu/wp-content/uploads/2026/04/roth-aaron.png",
+      "officialSections": [
+        "Primary Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cis.upenn.edu/faculty/",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Henry Salvatori Professor of Computer & Cognitive Science | Primary Faculty | https://www.cis.upenn.edu/faculty/",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "swapneel-sheth",
+      "rosterName": "Swapneel Sheth",
+      "title": "Practice Associate Professor",
+      "profileUrl": "https://www.cis.upenn.edu/faculty/",
+      "portraitUrl": "https://www.cis.upenn.edu/wp-content/uploads/2026/04/sheth-swapneel.png",
+      "officialSections": [
+        "Primary Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cis.upenn.edu/faculty/",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Practice Associate Professor | Primary Faculty | https://www.cis.upenn.edu/faculty/",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "jianbo-shi",
+      "rosterName": "Jianbo Shi",
+      "title": "Professor",
+      "profileUrl": "https://www.cis.upenn.edu/faculty/",
+      "portraitUrl": "https://www.cis.upenn.edu/wp-content/uploads/2026/04/shi-jianbo.png",
+      "officialSections": [
+        "Primary Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cis.upenn.edu/faculty/",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Professor | Primary Faculty | https://www.cis.upenn.edu/faculty/",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "harry-smith",
+      "rosterName": "Harry Smith",
+      "title": "Senior Lecturer",
+      "profileUrl": "https://www.cis.upenn.edu/faculty/",
+      "portraitUrl": "https://www.cis.upenn.edu/wp-content/uploads/2026/04/smith-harry.png",
+      "officialSections": [
+        "Primary Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cis.upenn.edu/faculty/",
+      "decision": "excluded_non_pi",
+      "reason": "官方职称或名录分组属于教学、兼职、附属、科研支持或其他非独立 PI 岗位。",
+      "evidence": "Senior Lecturer | Primary Faculty | https://www.cis.upenn.edu/faculty/"
+    },
+    {
+      "officialId": "jonathan-m-smith",
+      "rosterName": "Jonathan M. Smith",
+      "title": "Olga and Alberico Pompa Professor",
+      "profileUrl": "https://www.cis.upenn.edu/faculty/",
+      "portraitUrl": "https://www.cis.upenn.edu/wp-content/uploads/2026/09/Smith-Jon-103-scaled-e1788274979994.jpg",
+      "officialSections": [
+        "Primary Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cis.upenn.edu/faculty/",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Olga and Alberico Pompa Professor | Primary Faculty | https://www.cis.upenn.edu/faculty/",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "oleg-sokolsky",
+      "rosterName": "Oleg Sokolsky",
+      "title": "Research Professor",
+      "profileUrl": "https://www.cis.upenn.edu/faculty/",
+      "portraitUrl": "https://www.cis.upenn.edu/wp-content/uploads/2026/04/sokolosky-oleg.png",
+      "officialSections": [
+        "Primary Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cis.upenn.edu/faculty/",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Research Professor | Primary Faculty | https://www.cis.upenn.edu/faculty/",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "val-tannen",
+      "rosterName": "Val Tannen",
+      "title": "Professor",
+      "profileUrl": "https://www.cis.upenn.edu/faculty/",
+      "portraitUrl": "https://www.cis.upenn.edu/wp-content/uploads/2026/09/tannen-val.png",
+      "officialSections": [
+        "Primary Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cis.upenn.edu/faculty/",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Professor | Primary Faculty | https://www.cis.upenn.edu/faculty/",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "camillo-jose-taylor",
+      "rosterName": "Camillo Jose Taylor",
+      "title": "Raymond S. Markowitz President’s Distinguished Professor",
+      "profileUrl": "https://www.cis.upenn.edu/faculty/",
+      "portraitUrl": "https://www.cis.upenn.edu/wp-content/uploads/2026/04/taylor-camilloj.png",
+      "officialSections": [
+        "Primary Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cis.upenn.edu/faculty/",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Raymond S. Markowitz President’s Distinguished Professor | Primary Faculty | https://www.cis.upenn.edu/faculty/",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "lyle-ungar",
+      "rosterName": "Lyle Ungar",
+      "title": "Professor",
+      "profileUrl": "https://www.cis.upenn.edu/faculty/",
+      "portraitUrl": "https://www.cis.upenn.edu/wp-content/uploads/2026/04/Ungar-Lyle.jpg",
+      "officialSections": [
+        "Primary Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cis.upenn.edu/faculty/",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Professor | Primary Faculty | https://www.cis.upenn.edu/faculty/",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "erik-waingarten",
+      "rosterName": "Erik Waingarten",
+      "title": "Assistant Professor",
+      "profileUrl": "https://www.cis.upenn.edu/faculty/",
+      "portraitUrl": "https://www.cis.upenn.edu/wp-content/uploads/2026/04/waingarten-erik.png",
+      "officialSections": [
+        "Primary Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cis.upenn.edu/faculty/",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Assistant Professor | Primary Faculty | https://www.cis.upenn.edu/faculty/",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "duncan-watts",
+      "rosterName": "Duncan Watts",
+      "title": "Stevens University Professor",
+      "profileUrl": "https://www.cis.upenn.edu/faculty/",
+      "portraitUrl": "https://www.cis.upenn.edu/wp-content/uploads/2026/04/watts-duncan.png",
+      "officialSections": [
+        "Primary Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cis.upenn.edu/faculty/",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Stevens University Professor | Primary Faculty | https://www.cis.upenn.edu/faculty/",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "stephanie-weirich",
+      "rosterName": "Stephanie Weirich",
+      "title": "ENIAC President’s Distinguished Professor",
+      "profileUrl": "https://www.cis.upenn.edu/faculty/",
+      "portraitUrl": "https://www.cis.upenn.edu/wp-content/uploads/2026/04/weirich-stephanie.png",
+      "officialSections": [
+        "Primary Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cis.upenn.edu/faculty/",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "ENIAC President’s Distinguished Professor | Primary Faculty | https://www.cis.upenn.edu/faculty/",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "eric-wong",
+      "rosterName": "Eric Wong",
+      "title": "Assistant Professor",
+      "profileUrl": "https://www.cis.upenn.edu/faculty/",
+      "portraitUrl": "https://www.cis.upenn.edu/wp-content/uploads/2026/04/wong-eric.png",
+      "officialSections": [
+        "Primary Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cis.upenn.edu/faculty/",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Assistant Professor | Primary Faculty | https://www.cis.upenn.edu/faculty/",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "mark-yatskar",
+      "rosterName": "Mark Yatskar",
+      "title": "Assistant Professor",
+      "profileUrl": "https://www.cis.upenn.edu/faculty/",
+      "portraitUrl": "https://www.cis.upenn.edu/wp-content/uploads/2026/04/Yatskar-Mark-scaled.jpg",
+      "officialSections": [
+        "Primary Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cis.upenn.edu/faculty/",
+      "decision": "included_existing",
+      "atlasPersonId": "mark-yatskar-upenn-award",
+      "reason": "符合范围，且规范化姓名可与当前图谱人物唯一匹配。",
+      "evidence": "Assistant Professor | Primary Faculty | https://www.cis.upenn.edu/faculty/"
+    },
+    {
+      "officialId": "stephan-zdancewic",
+      "rosterName": "Stephan Zdancewic",
+      "title": "Schlein Family President’s Distinguished Professor",
+      "profileUrl": "https://www.cis.upenn.edu/faculty/",
+      "portraitUrl": "https://www.cis.upenn.edu/wp-content/uploads/2026/04/zdancewic-steve.png",
+      "officialSections": [
+        "Primary Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cis.upenn.edu/faculty/",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Schlein Family President’s Distinguished Professor | Primary Faculty | https://www.cis.upenn.edu/faculty/",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "mingmin-zhao",
+      "rosterName": "Mingmin Zhao",
+      "title": "Assistant Professor",
+      "profileUrl": "https://www.cis.upenn.edu/faculty/",
+      "portraitUrl": "https://www.cis.upenn.edu/wp-content/uploads/2026/04/zhao-mingmin.png",
+      "officialSections": [
+        "Primary Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cis.upenn.edu/faculty/",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Assistant Professor | Primary Faculty | https://www.cis.upenn.edu/faculty/",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "lama-a-al-aswad-md-mph",
+      "rosterName": "Lama A. Al-Aswad, MD, MPH",
+      "title": "Professor of Ophthalmology, Irene Heinz Given, John La Porte Given Research Professor of Ophthalmology II, and Professor of Engineering",
+      "profileUrl": "https://www.cis.upenn.edu/faculty/",
+      "portraitUrl": "https://www.cis.upenn.edu/wp-content/uploads/2026/09/al-aswad-lama-copy.png",
+      "officialSections": [
+        "Secondary Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cis.upenn.edu/faculty/",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Professor of Ophthalmology, Irene Heinz Given, John La Porte Given Research Professor of Ophthalmology II, and Professor of Engineering | Secondary Faculty | https://www.cis.upenn.edu/faculty/",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "ryan-baker",
+      "rosterName": "Ryan Baker",
+      "title": "Associate Professor",
+      "profileUrl": "https://www.cis.upenn.edu/faculty/",
+      "portraitUrl": "https://www.cis.upenn.edu/wp-content/uploads/2026/09/baker-ryan.png",
+      "officialSections": [
+        "Secondary Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cis.upenn.edu/faculty/",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Associate Professor | Secondary Faculty | https://www.cis.upenn.edu/faculty/",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "yoseph-barash",
+      "rosterName": "Yoseph Barash",
+      "title": "Associate Professor",
+      "profileUrl": "https://www.cis.upenn.edu/faculty/",
+      "portraitUrl": "https://www.cis.upenn.edu/wp-content/uploads/2026/09/barash-yoseph-copy.png",
+      "officialSections": [
+        "Secondary Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cis.upenn.edu/faculty/",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Associate Professor | Secondary Faculty | https://www.cis.upenn.edu/faculty/",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "damon-centola",
+      "rosterName": "Damon Centola",
+      "title": "Elihu Katz Professor of Communication, Sociology, and Engineering",
+      "profileUrl": "https://www.cis.upenn.edu/faculty/",
+      "portraitUrl": "https://www.cis.upenn.edu/wp-content/uploads/2026/09/centola-damon.jpg",
+      "officialSections": [
+        "Secondary Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cis.upenn.edu/faculty/",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Elihu Katz Professor of Communication, Sociology, and Engineering | Secondary Faculty | https://www.cis.upenn.edu/faculty/",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "pratik-chaudhari",
+      "rosterName": "Pratik Chaudhari",
+      "title": "Associate Professor",
+      "profileUrl": "https://www.cis.upenn.edu/faculty/",
+      "portraitUrl": "https://www.cis.upenn.edu/wp-content/uploads/2026/09/chaudhari-pratik.png",
+      "officialSections": [
+        "Secondary Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cis.upenn.edu/faculty/",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Associate Professor | Secondary Faculty | https://www.cis.upenn.edu/faculty/",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "christos-davatzikos",
+      "rosterName": "Christos Davatzikos",
+      "title": "Wallace T. Miller, Sr, Professor",
+      "profileUrl": "https://www.cis.upenn.edu/faculty/",
+      "portraitUrl": "https://www.cis.upenn.edu/wp-content/uploads/2026/09/davatzikos-christos.png",
+      "officialSections": [
+        "Secondary Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cis.upenn.edu/faculty/",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Wallace T. Miller, Sr, Professor | Secondary Faculty | https://www.cis.upenn.edu/faculty/",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "andre-dehon",
+      "rosterName": "Andre DeHon",
+      "title": "Boileau Professor of Electrical Engineering",
+      "profileUrl": "https://www.cis.upenn.edu/faculty/",
+      "portraitUrl": "https://www.cis.upenn.edu/wp-content/uploads/2026/09/DeHon-andre.jpg",
+      "officialSections": [
+        "Secondary Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cis.upenn.edu/faculty/",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Boileau Professor of Electrical Engineering | Secondary Faculty | https://www.cis.upenn.edu/faculty/",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "nadia-figueroa",
+      "rosterName": "Nadia Figueroa",
+      "title": "Shalini and Rajeev Misra Presidential Assistant Professor",
+      "profileUrl": "https://www.cis.upenn.edu/faculty/",
+      "portraitUrl": "https://www.cis.upenn.edu/wp-content/uploads/2026/09/figueroa-nadia-scaled.jpg",
+      "officialSections": [
+        "Secondary Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cis.upenn.edu/faculty/",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Shalini and Rajeev Misra Presidential Assistant Professor | Secondary Faculty | https://www.cis.upenn.edu/faculty/",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "james-gee",
+      "rosterName": "James Gee",
+      "title": "Associate Professor",
+      "profileUrl": "https://www.cis.upenn.edu/faculty/",
+      "portraitUrl": "https://www.cis.upenn.edu/wp-content/uploads/2026/09/gee-james.jpg",
+      "officialSections": [
+        "Secondary Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cis.upenn.edu/faculty/",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Associate Professor | Secondary Faculty | https://www.cis.upenn.edu/faculty/",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "daniel-a-hashimoto",
+      "rosterName": "Daniel A. Hashimoto",
+      "title": "Assistant Professor",
+      "profileUrl": "https://www.cis.upenn.edu/faculty/",
+      "portraitUrl": "https://www.cis.upenn.edu/wp-content/uploads/2026/09/hashimoto.png",
+      "officialSections": [
+        "Secondary Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cis.upenn.edu/faculty/",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Assistant Professor | Secondary Faculty | https://www.cis.upenn.edu/faculty/",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "hamed-hassani",
+      "rosterName": "Hamed Hassani",
+      "title": "Associate Professor",
+      "profileUrl": "https://www.cis.upenn.edu/faculty/",
+      "portraitUrl": "https://www.cis.upenn.edu/wp-content/uploads/2026/09/hassani.png",
+      "officialSections": [
+        "Secondary Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cis.upenn.edu/faculty/",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Associate Professor | Secondary Faculty | https://www.cis.upenn.edu/faculty/",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "rachel-holladay",
+      "rosterName": "Rachel Holladay",
+      "title": "Asness Family Foundation Assistant Professor of Mechanical Engineering",
+      "profileUrl": "https://www.cis.upenn.edu/faculty/",
+      "portraitUrl": "https://www.cis.upenn.edu/wp-content/uploads/2026/09/Holladay-Rachel.jpg",
+      "officialSections": [
+        "Secondary Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cis.upenn.edu/faculty/",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Asness Family Foundation Assistant Professor of Mechanical Engineering | Secondary Faculty | https://www.cis.upenn.edu/faculty/",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "daniel-j-hopkins",
+      "rosterName": "Daniel J. Hopkins",
+      "title": "Julie and Martin Franklin Presidential Professor of Political Science",
+      "profileUrl": "https://www.cis.upenn.edu/faculty/",
+      "portraitUrl": "https://www.cis.upenn.edu/wp-content/uploads/2026/09/hopkins.png",
+      "officialSections": [
+        "Secondary Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cis.upenn.edu/faculty/",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Julie and Martin Franklin Presidential Professor of Political Science | Secondary Faculty | https://www.cis.upenn.edu/faculty/",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "m-ani-hsieh",
+      "rosterName": "M. Ani Hsieh",
+      "title": "Associate Professor",
+      "profileUrl": "https://www.cis.upenn.edu/faculty/",
+      "portraitUrl": "https://www.cis.upenn.edu/wp-content/uploads/2026/09/hsieh.png",
+      "officialSections": [
+        "Secondary Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cis.upenn.edu/faculty/",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Associate Professor | Secondary Faculty | https://www.cis.upenn.edu/faculty/",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "yasmin-kafai",
+      "rosterName": "Yasmin Kafai",
+      "title": "Professor",
+      "profileUrl": "https://www.cis.upenn.edu/faculty/",
+      "portraitUrl": "https://www.cis.upenn.edu/wp-content/uploads/2026/09/Kafai-Yasmin-scaled.jpg",
+      "officialSections": [
+        "Secondary Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cis.upenn.edu/faculty/",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Professor | Secondary Faculty | https://www.cis.upenn.edu/faculty/",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "junhyong-kim",
+      "rosterName": "Junhyong Kim",
+      "title": "Professor",
+      "profileUrl": "https://www.cis.upenn.edu/faculty/",
+      "portraitUrl": "https://www.cis.upenn.edu/wp-content/uploads/2026/09/junhyong.png",
+      "officialSections": [
+        "Secondary Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cis.upenn.edu/faculty/",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Professor | Secondary Faculty | https://www.cis.upenn.edu/faculty/",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "konrad-paul-kording",
+      "rosterName": "Konrad Paul Kording",
+      "title": "Nathan Francis Mossell University Professor",
+      "profileUrl": "https://www.cis.upenn.edu/faculty/",
+      "portraitUrl": "https://www.cis.upenn.edu/wp-content/uploads/2026/09/Kording-Konrad.png",
+      "officialSections": [
+        "Secondary Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cis.upenn.edu/faculty/",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Nathan Francis Mossell University Professor | Secondary Faculty | https://www.cis.upenn.edu/faculty/",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "vijay-kumar",
+      "rosterName": "Vijay Kumar",
+      "title": "Nemirovsky Family Dean",
+      "profileUrl": "https://www.cis.upenn.edu/faculty/",
+      "portraitUrl": "https://www.cis.upenn.edu/wp-content/uploads/2026/09/Kumar-Vijay.jpg",
+      "officialSections": [
+        "Secondary Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cis.upenn.edu/faculty/",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Nemirovsky Family Dean | Secondary Faculty | https://www.cis.upenn.edu/faculty/",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "jing-jane-li",
+      "rosterName": "Jing (Jane) Li",
+      "title": "Associate Professor",
+      "profileUrl": "https://www.cis.upenn.edu/faculty/",
+      "portraitUrl": "https://www.cis.upenn.edu/wp-content/uploads/2026/09/Li-Jing-Jane.jpg",
+      "officialSections": [
+        "Secondary Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cis.upenn.edu/faculty/",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Associate Professor | Secondary Faculty | https://www.cis.upenn.edu/faculty/",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "mark-y-liberman",
+      "rosterName": "Mark Y. Liberman",
+      "title": "Trustee Professor",
+      "profileUrl": "https://www.cis.upenn.edu/faculty/",
+      "portraitUrl": "https://www.cis.upenn.edu/wp-content/uploads/2026/09/liberman.png",
+      "officialSections": [
+        "Secondary Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cis.upenn.edu/faculty/",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Trustee Professor | Secondary Faculty | https://www.cis.upenn.edu/faculty/",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "qi-long",
+      "rosterName": "Qi Long",
+      "title": "Professor",
+      "profileUrl": "https://www.cis.upenn.edu/faculty/",
+      "portraitUrl": "https://www.cis.upenn.edu/wp-content/uploads/2026/09/long-qi.jpg",
+      "officialSections": [
+        "Secondary Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cis.upenn.edu/faculty/",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Professor | Secondary Faculty | https://www.cis.upenn.edu/faculty/",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "antonio-loquercio",
+      "rosterName": "Antonio Loquercio",
+      "title": "Assistant Professor",
+      "profileUrl": "https://www.cis.upenn.edu/faculty/",
+      "portraitUrl": "https://www.cis.upenn.edu/wp-content/uploads/2026/09/loquercio-antonio.png",
+      "officialSections": [
+        "Secondary Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cis.upenn.edu/faculty/",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Assistant Professor | Secondary Faculty | https://www.cis.upenn.edu/faculty/",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "nikolai-matni",
+      "rosterName": "Nikolai Matni",
+      "title": "Associate Professor",
+      "profileUrl": "https://www.cis.upenn.edu/faculty/",
+      "portraitUrl": "https://www.cis.upenn.edu/wp-content/uploads/2026/09/matni.png",
+      "officialSections": [
+        "Secondary Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cis.upenn.edu/faculty/",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Associate Professor | Secondary Faculty | https://www.cis.upenn.edu/faculty/",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "george-j-pappas",
+      "rosterName": "George J. Pappas",
+      "title": "UPS Foundation Professor of Transportation",
+      "profileUrl": "https://www.cis.upenn.edu/faculty/",
+      "portraitUrl": "https://www.cis.upenn.edu/wp-content/uploads/2026/09/Pappas-George.jpg",
+      "officialSections": [
+        "Secondary Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cis.upenn.edu/faculty/",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "UPS Foundation Professor of Transportation | Secondary Faculty | https://www.cis.upenn.edu/faculty/",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "bogdan-pasaniuc",
+      "rosterName": "Bogdan Pasaniuc",
+      "title": "Professor",
+      "profileUrl": "https://www.cis.upenn.edu/faculty/",
+      "portraitUrl": "https://www.cis.upenn.edu/wp-content/uploads/2026/09/pasanuic.png",
+      "officialSections": [
+        "Secondary Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cis.upenn.edu/faculty/",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Professor | Secondary Faculty | https://www.cis.upenn.edu/faculty/",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "robin-pemantle",
+      "rosterName": "Robin Pemantle",
+      "title": "Professor",
+      "profileUrl": "https://www.cis.upenn.edu/faculty/",
+      "portraitUrl": "https://www.cis.upenn.edu/wp-content/uploads/2026/09/pemantle-robin.jpg",
+      "officialSections": [
+        "Secondary Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cis.upenn.edu/faculty/",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Professor | Secondary Faculty | https://www.cis.upenn.edu/faculty/",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "paris-perdikaris",
+      "rosterName": "Paris Perdikaris",
+      "title": "Associate Professor",
+      "profileUrl": "https://www.cis.upenn.edu/faculty/",
+      "portraitUrl": "https://www.cis.upenn.edu/wp-content/uploads/2026/09/Perdikaris-Paris.jpg",
+      "officialSections": [
+        "Secondary Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cis.upenn.edu/faculty/",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Associate Professor | Secondary Faculty | https://www.cis.upenn.edu/faculty/",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "joshua-b-plotkin",
+      "rosterName": "Joshua B. Plotkin",
+      "title": "Professor",
+      "profileUrl": "https://www.cis.upenn.edu/faculty/",
+      "portraitUrl": "https://www.cis.upenn.edu/wp-content/uploads/2026/09/plotkin-joshua.jpg",
+      "officialSections": [
+        "Secondary Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cis.upenn.edu/faculty/",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Professor | Secondary Faculty | https://www.cis.upenn.edu/faculty/",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "michael-posa",
+      "rosterName": "Michael Posa",
+      "title": "Associate Professor",
+      "profileUrl": "https://www.cis.upenn.edu/faculty/",
+      "portraitUrl": "https://www.cis.upenn.edu/wp-content/uploads/2026/09/Posa-michael.jpg",
+      "officialSections": [
+        "Secondary Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cis.upenn.edu/faculty/",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Associate Professor | Secondary Faculty | https://www.cis.upenn.edu/faculty/",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "victor-m-preciado",
+      "rosterName": "Victor M. Preciado",
+      "title": "Associate Professor",
+      "profileUrl": "https://www.cis.upenn.edu/faculty/",
+      "portraitUrl": "https://www.cis.upenn.edu/wp-content/uploads/2026/09/Preciado-victor.jpg",
+      "officialSections": [
+        "Secondary Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cis.upenn.edu/faculty/",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Associate Professor | Secondary Faculty | https://www.cis.upenn.edu/faculty/",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "alejandro-ribeiro",
+      "rosterName": "Alejandro Ribeiro",
+      "title": "Solomon and Sylvia G. Charp Professor of Electrical and Systems Engineering",
+      "profileUrl": "https://www.cis.upenn.edu/faculty/",
+      "portraitUrl": "https://www.cis.upenn.edu/wp-content/uploads/2026/09/Ribeiro-alejandro.jpg",
+      "officialSections": [
+        "Secondary Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cis.upenn.edu/faculty/",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Solomon and Sylvia G. Charp Professor of Electrical and Systems Engineering | Secondary Faculty | https://www.cis.upenn.edu/faculty/",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "harvey-rubin",
+      "rosterName": "Harvey Rubin",
+      "title": "Professor",
+      "profileUrl": "https://www.cis.upenn.edu/faculty/",
+      "portraitUrl": "https://www.cis.upenn.edu/wp-content/uploads/2026/09/rubin.png",
+      "officialSections": [
+        "Secondary Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cis.upenn.edu/faculty/",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Professor | Secondary Faculty | https://www.cis.upenn.edu/faculty/",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "shirin-saeedi-bidokhti",
+      "rosterName": "Shirin Saeedi Bidokhti",
+      "title": "Associate Professor",
+      "profileUrl": "https://www.cis.upenn.edu/faculty/",
+      "portraitUrl": "https://www.cis.upenn.edu/wp-content/uploads/2026/09/saeedi.png",
+      "officialSections": [
+        "Secondary Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cis.upenn.edu/faculty/",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Associate Professor | Secondary Faculty | https://www.cis.upenn.edu/faculty/",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "andre-scedrov",
+      "rosterName": "Andre Scedrov",
+      "title": "Professor",
+      "profileUrl": "https://www.cis.upenn.edu/faculty/",
+      "portraitUrl": "https://www.cis.upenn.edu/wp-content/uploads/2026/09/scedrov-andre-scaled.jpeg",
+      "officialSections": [
+        "Secondary Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cis.upenn.edu/faculty/",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Professor | Secondary Faculty | https://www.cis.upenn.edu/faculty/",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "li-shen",
+      "rosterName": "Li Shen",
+      "title": "Professor",
+      "profileUrl": "https://www.cis.upenn.edu/faculty/",
+      "portraitUrl": "https://www.cis.upenn.edu/wp-content/uploads/2026/09/shen.png",
+      "officialSections": [
+        "Secondary Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cis.upenn.edu/faculty/",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Professor | Secondary Faculty | https://www.cis.upenn.edu/faculty/",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "anthony-sigillito",
+      "rosterName": "Anthony Sigillito",
+      "title": "Assistant Professor",
+      "profileUrl": "https://www.cis.upenn.edu/faculty/",
+      "portraitUrl": "https://www.cis.upenn.edu/wp-content/uploads/2026/09/Sigillito-Anthony.jpg",
+      "officialSections": [
+        "Secondary Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cis.upenn.edu/faculty/",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Assistant Professor | Secondary Faculty | https://www.cis.upenn.edu/faculty/",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "weijie-su",
+      "rosterName": "Weijie Su",
+      "title": "Professor",
+      "profileUrl": "https://www.cis.upenn.edu/faculty/",
+      "portraitUrl": "https://www.cis.upenn.edu/wp-content/uploads/2026/09/su.png",
+      "officialSections": [
+        "Secondary Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cis.upenn.edu/faculty/",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Professor | Secondary Faculty | https://www.cis.upenn.edu/faculty/",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "cynthia-sung",
+      "rosterName": "Cynthia Sung",
+      "title": "Associate Professor",
+      "profileUrl": "https://www.cis.upenn.edu/faculty/",
+      "portraitUrl": "https://www.cis.upenn.edu/wp-content/uploads/2026/09/sung-cynthia.jpg",
+      "officialSections": [
+        "Secondary Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cis.upenn.edu/faculty/",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Associate Professor | Secondary Faculty | https://www.cis.upenn.edu/faculty/",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "henry-p-towsner",
+      "rosterName": "Henry P. Towsner",
+      "title": "Professor",
+      "profileUrl": "https://www.cis.upenn.edu/faculty/",
+      "portraitUrl": "https://www.cis.upenn.edu/wp-content/uploads/2026/09/towsner.png",
+      "officialSections": [
+        "Secondary Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cis.upenn.edu/faculty/",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Professor | Secondary Faculty | https://www.cis.upenn.edu/faculty/",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "rene-vidal",
+      "rosterName": "René Vidal",
+      "title": "Rachleff University Professor",
+      "profileUrl": "https://www.cis.upenn.edu/faculty/",
+      "portraitUrl": "https://www.cis.upenn.edu/wp-content/uploads/2026/09/Vidal-Rene.png",
+      "officialSections": [
+        "Secondary Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cis.upenn.edu/faculty/",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Rachleff University Professor | Secondary Faculty | https://www.cis.upenn.edu/faculty/",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "rakesh-v-vohra",
+      "rosterName": "Rakesh V. Vohra",
+      "title": "George A. Weiss and Lydia Bravo Weiss University Professor",
+      "profileUrl": "https://www.cis.upenn.edu/faculty/",
+      "portraitUrl": "https://www.cis.upenn.edu/wp-content/uploads/2026/09/Vohra-rakesh.jpg",
+      "officialSections": [
+        "Secondary Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cis.upenn.edu/faculty/",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "George A. Weiss and Lydia Bravo Weiss University Professor | Secondary Faculty | https://www.cis.upenn.edu/faculty/",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "li-san-wang",
+      "rosterName": "Li-San Wang",
+      "title": "Professor",
+      "profileUrl": "https://www.cis.upenn.edu/faculty/",
+      "portraitUrl": "https://www.cis.upenn.edu/wp-content/uploads/2026/09/wang.png",
+      "officialSections": [
+        "Secondary Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cis.upenn.edu/faculty/",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Professor | Secondary Faculty | https://www.cis.upenn.edu/faculty/",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "scott-weinstein",
+      "rosterName": "Scott Weinstein",
+      "title": "Professor",
+      "profileUrl": "https://www.cis.upenn.edu/faculty/",
+      "portraitUrl": "https://www.cis.upenn.edu/wp-content/uploads/2026/09/weinstein.png",
+      "officialSections": [
+        "Secondary Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cis.upenn.edu/faculty/",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Professor | Secondary Faculty | https://www.cis.upenn.edu/faculty/",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "charles-yang",
+      "rosterName": "Charles Yang",
+      "title": "Professor",
+      "profileUrl": "https://www.cis.upenn.edu/faculty/",
+      "portraitUrl": "https://www.cis.upenn.edu/wp-content/uploads/2026/09/yang.png",
+      "officialSections": [
+        "Secondary Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cis.upenn.edu/faculty/",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Professor | Secondary Faculty | https://www.cis.upenn.edu/faculty/",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "mark-yim",
+      "rosterName": "Mark Yim",
+      "title": "Asa Whitney Professor of Mechanical Engineering",
+      "profileUrl": "https://www.cis.upenn.edu/faculty/",
+      "portraitUrl": "https://www.cis.upenn.edu/wp-content/uploads/2026/09/Yim-Mark.png",
+      "officialSections": [
+        "Secondary Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cis.upenn.edu/faculty/",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Asa Whitney Professor of Mechanical Engineering | Secondary Faculty | https://www.cis.upenn.edu/faculty/",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "christopher-s-yoo",
+      "rosterName": "Christopher S. Yoo",
+      "title": "John H. Chestnut Professor",
+      "profileUrl": "https://www.cis.upenn.edu/faculty/",
+      "portraitUrl": "https://www.cis.upenn.edu/wp-content/uploads/2026/09/yoo.png",
+      "officialSections": [
+        "Secondary Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cis.upenn.edu/faculty/",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "John H. Chestnut Professor | Secondary Faculty | https://www.cis.upenn.edu/faculty/",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "ruzena-bajcsy",
+      "rosterName": "Ruzena Bajcsy",
+      "title": "Professor Emeritus",
+      "profileUrl": "https://www.cis.upenn.edu/faculty/",
+      "portraitUrl": "https://www.cis.upenn.edu/wp-content/uploads/2026/09/bajcsy-ruzena-scaled.jpg",
+      "officialSections": [
+        "Emeritus and Adjunct Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cis.upenn.edu/faculty/",
+      "decision": "excluded_historical",
+      "reason": "官方职称或名录分组明确为荣休、退休或历史人员。",
+      "evidence": "Professor Emeritus | Emeritus and Adjunct Faculty | https://www.cis.upenn.edu/faculty/"
+    },
+    {
+      "officialId": "peter-buneman",
+      "rosterName": "Peter Buneman",
+      "title": "Adjunct Professor",
+      "profileUrl": "https://www.cis.upenn.edu/faculty/",
+      "portraitUrl": "https://www.cis.upenn.edu/wp-content/uploads/2026/09/buneman-peter.jpg",
+      "officialSections": [
+        "Emeritus and Adjunct Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cis.upenn.edu/faculty/",
+      "decision": "excluded_historical",
+      "reason": "官方职称或名录分组明确为荣休、退休或历史人员。",
+      "evidence": "Adjunct Professor | Emeritus and Adjunct Faculty | https://www.cis.upenn.edu/faculty/"
+    },
+    {
+      "officialId": "tim-haugh",
+      "rosterName": "Tim Haugh",
+      "title": "Adjunct Professor",
+      "profileUrl": "https://www.cis.upenn.edu/faculty/",
+      "portraitUrl": "https://www.cis.upenn.edu/wp-content/uploads/2026/09/3.png",
+      "officialSections": [
+        "Emeritus and Adjunct Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cis.upenn.edu/faculty/",
+      "decision": "excluded_historical",
+      "reason": "官方职称或名录分组明确为荣休、退休或历史人员。",
+      "evidence": "Adjunct Professor | Emeritus and Adjunct Faculty | https://www.cis.upenn.edu/faculty/"
+    },
+    {
+      "officialId": "brett-hemenway",
+      "rosterName": "Brett Hemenway",
+      "title": "Adjunct Assistant Professor",
+      "profileUrl": "https://www.cis.upenn.edu/faculty/",
+      "portraitUrl": "https://www.cis.upenn.edu/wp-content/uploads/2026/09/falk-brett1.png",
+      "officialSections": [
+        "Emeritus and Adjunct Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cis.upenn.edu/faculty/",
+      "decision": "excluded_historical",
+      "reason": "官方职称或名录分组明确为荣休、退休或历史人员。",
+      "evidence": "Adjunct Assistant Professor | Emeritus and Adjunct Faculty | https://www.cis.upenn.edu/faculty/"
+    },
+    {
+      "officialId": "sanjeev-khanna",
+      "rosterName": "Sanjeev Khanna",
+      "title": "Professor Emeritus",
+      "profileUrl": "https://www.cis.upenn.edu/faculty/",
+      "portraitUrl": "https://www.cis.upenn.edu/wp-content/uploads/2026/09/Khanna-Sanjeev.jpg",
+      "officialSections": [
+        "Emeritus and Adjunct Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cis.upenn.edu/faculty/",
+      "decision": "excluded_historical",
+      "reason": "官方职称或名录分组明确为荣休、退休或历史人员。",
+      "evidence": "Professor Emeritus | Emeritus and Adjunct Faculty | https://www.cis.upenn.edu/faculty/"
+    },
+    {
+      "officialId": "mitch-marcus",
+      "rosterName": "Mitch Marcus",
+      "title": "Professor Emeritus",
+      "profileUrl": "https://www.cis.upenn.edu/faculty/",
+      "portraitUrl": "https://www.cis.upenn.edu/wp-content/uploads/2026/09/2.png",
+      "officialSections": [
+        "Emeritus and Adjunct Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cis.upenn.edu/faculty/",
+      "decision": "excluded_historical",
+      "reason": "官方职称或名录分组明确为荣休、退休或历史人员。",
+      "evidence": "Professor Emeritus | Emeritus and Adjunct Faculty | https://www.cis.upenn.edu/faculty/"
+    },
+    {
+      "officialId": "dan-roth",
+      "rosterName": "Dan Roth",
+      "title": "Adjunct Professor",
+      "profileUrl": "https://www.cis.upenn.edu/faculty/",
+      "portraitUrl": "https://www.cis.upenn.edu/wp-content/uploads/2026/04/roth-dan.png",
+      "officialSections": [
+        "Emeritus and Adjunct Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cis.upenn.edu/faculty/",
+      "decision": "excluded_historical",
+      "reason": "官方职称或名录分组明确为荣休、退休或历史人员。",
+      "evidence": "Adjunct Professor | Emeritus and Adjunct Faculty | https://www.cis.upenn.edu/faculty/"
+    }
+  ]
+}

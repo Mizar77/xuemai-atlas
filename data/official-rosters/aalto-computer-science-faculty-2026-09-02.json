@@ -1,0 +1,597 @@
+{
+  "completeness": "complete",
+  "fetchedAt": "2026-09-02",
+  "institution": "Aalto University — Department of Computer Science",
+  "officialPageUrl": "https://www.aalto.fi/en/department-of-computer-science/people",
+  "officialDataUrl": "https://www.aalto.fi/en/department-of-computer-science/faculty-0",
+  "officialDataUrls": [
+    "https://www.aalto.fi/en/department-of-computer-science/faculty-0"
+  ],
+  "officialRosterCount": 96,
+  "sourceDescription": "The scoped /people URL currently serves an unrelated Complex Systems page. The current first-party Department Faculty page was therefore frozen in full: 53 Professors, 22 Lecturers, 3 Affiliated professors, 14 Emeriti and 4 Alumni. Historical and non-independent categories remain present for later person-level classification.",
+  "categoryCounts": {
+    "Professors": 53,
+    "Lecturers": 22,
+    "Affiliated professors": 3,
+    "Emeriti": 14,
+    "Alumni": 4
+  },
+  "people": [
+    {
+      "officialId": "https://www.aalto.fi/en/people/tuomas-aura",
+      "name": "Tuomas Aura",
+      "profileUrl": "https://www.aalto.fi/en/people/tuomas-aura",
+      "category": "Professors"
+    },
+    {
+      "officialId": "https://www.aalto.fi/en/people/chris-brzuska",
+      "name": "Chris Brzuska",
+      "profileUrl": "https://www.aalto.fi/en/people/chris-brzuska",
+      "category": "Professors"
+    },
+    {
+      "officialId": "https://www.aalto.fi/en/people/qi-chen",
+      "name": "Qi Chen",
+      "profileUrl": "https://www.aalto.fi/en/people/qi-chen",
+      "category": "Professors"
+    },
+    {
+      "officialId": "https://www.aalto.fi/en/people/corinna-coupette",
+      "name": "Corinna Coupette",
+      "profileUrl": "https://www.aalto.fi/en/people/corinna-coupette",
+      "category": "Professors"
+    },
+    {
+      "officialId": "https://www.aalto.fi/en/people/francesco-croce",
+      "name": "Francesco Croce",
+      "profileUrl": "https://www.aalto.fi/en/people/francesco-croce",
+      "category": "Professors"
+    },
+    {
+      "officialId": "https://www.aalto.fi/en/people/stephane-deny",
+      "name": "Stephane Deny",
+      "profileUrl": "https://www.aalto.fi/en/people/stephane-deny",
+      "category": "Professors"
+    },
+    {
+      "officialId": "https://www.aalto.fi/en/people/mario-di-francesco",
+      "name": "Mario Di Francesco",
+      "profileUrl": "https://www.aalto.fi/en/people/mario-di-francesco",
+      "category": "Professors"
+    },
+    {
+      "officialId": "https://www.aalto.fi/en/people/verena-distler",
+      "name": "Verena Distler",
+      "profileUrl": "https://www.aalto.fi/en/people/verena-distler",
+      "category": "Professors"
+    },
+    {
+      "officialId": "https://www.aalto.fi/en/people/fabian-fagerholm",
+      "name": "Fabian Fagerholm",
+      "profileUrl": "https://www.aalto.fi/en/people/fabian-fagerholm",
+      "category": "Professors"
+    },
+    {
+      "officialId": "https://www.aalto.fi/en/people/azade-farshad",
+      "name": "Azade Farshad",
+      "profileUrl": "https://www.aalto.fi/en/people/azade-farshad",
+      "category": "Professors"
+    },
+    {
+      "officialId": "https://www.aalto.fi/en/people/vikas-kumar-garg",
+      "name": "Vikas Kumar Garg",
+      "profileUrl": "https://www.aalto.fi/en/people/vikas-kumar-garg",
+      "category": "Professors"
+    },
+    {
+      "officialId": "https://www.aalto.fi/en/people/christian-guckelsberger",
+      "name": "Christian Guckelsberger",
+      "profileUrl": "https://www.aalto.fi/en/people/christian-guckelsberger",
+      "category": "Professors"
+    },
+    {
+      "officialId": "https://www.aalto.fi/en/people/petter-holme",
+      "name": "Petter Holme",
+      "profileUrl": "https://www.aalto.fi/en/people/petter-holme",
+      "category": "Professors"
+    },
+    {
+      "officialId": "https://www.aalto.fi/en/people/perttu-hamalainen",
+      "name": "Perttu Hämäläinen",
+      "profileUrl": "https://www.aalto.fi/en/people/perttu-hamalainen",
+      "category": "Professors"
+    },
+    {
+      "officialId": "https://www.aalto.fi/en/people/alex-jung",
+      "name": "Alex Jung",
+      "profileUrl": "https://www.aalto.fi/en/people/alex-jung",
+      "category": "Professors"
+    },
+    {
+      "officialId": "https://www.aalto.fi/en/people/juho-kannala",
+      "name": "Juho Kannala",
+      "profileUrl": "https://www.aalto.fi/en/people/juho-kannala",
+      "category": "Professors"
+    },
+    {
+      "officialId": "https://www.aalto.fi/en/people/petteri-kaski",
+      "name": "Petteri Kaski",
+      "profileUrl": "https://www.aalto.fi/en/people/petteri-kaski",
+      "category": "Professors"
+    },
+    {
+      "officialId": "https://www.aalto.fi/en/people/samuel-kaski",
+      "name": "Samuel Kaski",
+      "profileUrl": "https://www.aalto.fi/en/people/samuel-kaski",
+      "category": "Professors"
+    },
+    {
+      "officialId": "https://www.aalto.fi/en/people/sandor-kisfaludi-bak",
+      "name": "Sándor Kisfaludi-Bak",
+      "profileUrl": "https://www.aalto.fi/en/people/sandor-kisfaludi-bak",
+      "category": "Professors"
+    },
+    {
+      "officialId": "https://www.aalto.fi/en/people/mikko-kivela",
+      "name": "Mikko Kivelä",
+      "profileUrl": "https://www.aalto.fi/en/people/mikko-kivela",
+      "category": "Professors"
+    },
+    {
+      "officialId": "https://www.aalto.fi/en/people/maarit-korpi-lagg",
+      "name": "Maarit Korpi-Lagg",
+      "profileUrl": "https://www.aalto.fi/en/people/maarit-korpi-lagg",
+      "category": "Professors"
+    },
+    {
+      "officialId": "https://www.aalto.fi/en/people/juhi-kulshrestha",
+      "name": "Juhi Kulshrestha",
+      "profileUrl": "https://www.aalto.fi/en/people/juhi-kulshrestha",
+      "category": "Professors"
+    },
+    {
+      "officialId": "https://www.aalto.fi/en/people/russell-w-f-lai",
+      "name": "Russell W. F. Lai",
+      "profileUrl": "https://www.aalto.fi/en/people/russell-w-f-lai",
+      "category": "Professors"
+    },
+    {
+      "officialId": "https://www.aalto.fi/en/people/jouko-lampinen",
+      "name": "Jouko Lampinen",
+      "profileUrl": "https://www.aalto.fi/en/people/jouko-lampinen",
+      "category": "Professors"
+    },
+    {
+      "officialId": "https://www.aalto.fi/en/people/casper-lassenius",
+      "name": "Casper Lassenius",
+      "profileUrl": "https://www.aalto.fi/en/people/casper-lassenius",
+      "category": "Professors"
+    },
+    {
+      "officialId": "https://www.aalto.fi/en/people/vili-lehdonvirta",
+      "name": "Vili Lehdonvirta",
+      "profileUrl": "https://www.aalto.fi/en/people/vili-lehdonvirta",
+      "category": "Professors"
+    },
+    {
+      "officialId": "https://www.aalto.fi/en/people/jaakko-lehtinen",
+      "name": "Jaakko Lehtinen",
+      "profileUrl": "https://www.aalto.fi/en/people/jaakko-lehtinen",
+      "category": "Professors"
+    },
+    {
+      "officialId": "https://www.aalto.fi/en/people/juho-leinonen",
+      "name": "Juho Leinonen",
+      "profileUrl": "https://www.aalto.fi/en/people/juho-leinonen",
+      "category": "Professors"
+    },
+    {
+      "officialId": "https://www.aalto.fi/en/people/janne-lindqvist",
+      "name": "Janne Lindqvist",
+      "profileUrl": "https://www.aalto.fi/en/people/janne-lindqvist",
+      "category": "Professors"
+    },
+    {
+      "officialId": "https://www.aalto.fi/en/people/harri-lahdesmaki",
+      "name": "Harri Lähdesmäki",
+      "profileUrl": "https://www.aalto.fi/en/people/harri-lahdesmaki",
+      "category": "Professors"
+    },
+    {
+      "officialId": "https://www.aalto.fi/en/people/lauri-malmi",
+      "name": "Lauri Malmi",
+      "profileUrl": "https://www.aalto.fi/en/people/lauri-malmi",
+      "category": "Professors"
+    },
+    {
+      "officialId": "https://www.aalto.fi/en/people/heikki-mannila",
+      "name": "Heikki Mannila",
+      "profileUrl": "https://www.aalto.fi/en/people/heikki-mannila",
+      "category": "Professors"
+    },
+    {
+      "officialId": "https://www.aalto.fi/en/people/pekka-marttinen",
+      "name": "Pekka Marttinen",
+      "profileUrl": "https://www.aalto.fi/en/people/pekka-marttinen",
+      "category": "Professors"
+    },
+    {
+      "officialId": "https://www.aalto.fi/en/people/ilkka-niemela",
+      "name": "Ilkka Niemelä",
+      "profileUrl": "https://www.aalto.fi/en/people/ilkka-niemela",
+      "category": "Professors"
+    },
+    {
+      "officialId": "https://www.aalto.fi/en/people/marko-nieminen",
+      "name": "Marko Nieminen",
+      "profileUrl": "https://www.aalto.fi/en/people/marko-nieminen",
+      "category": "Professors"
+    },
+    {
+      "officialId": "https://www.aalto.fi/en/people/pekka-orponen",
+      "name": "Pekka Orponen",
+      "profileUrl": "https://www.aalto.fi/en/people/pekka-orponen",
+      "category": "Professors"
+    },
+    {
+      "officialId": "https://www.aalto.fi/en/people/alexandru-paler",
+      "name": "Alexandru Paler",
+      "profileUrl": "https://www.aalto.fi/en/people/alexandru-paler",
+      "category": "Professors"
+    },
+    {
+      "officialId": "https://www.aalto.fi/en/people/jussi-rintanen",
+      "name": "Jussi Rintanen",
+      "profileUrl": "https://www.aalto.fi/en/people/jussi-rintanen",
+      "category": "Professors"
+    },
+    {
+      "officialId": "https://www.aalto.fi/en/people/juho-rousu",
+      "name": "Juho Rousu",
+      "profileUrl": "https://www.aalto.fi/en/people/juho-rousu",
+      "category": "Professors"
+    },
+    {
+      "officialId": "https://www.aalto.fi/en/people/jari-saramaki",
+      "name": "Jari Saramäki",
+      "profileUrl": "https://www.aalto.fi/en/people/jari-saramaki",
+      "category": "Professors"
+    },
+    {
+      "officialId": "https://www.aalto.fi/en/people/lauri-savioja",
+      "name": "Lauri Savioja",
+      "profileUrl": "https://www.aalto.fi/en/people/lauri-savioja",
+      "category": "Professors"
+    },
+    {
+      "officialId": "https://www.aalto.fi/en/people/arno-solin",
+      "name": "Arno Solin",
+      "profileUrl": "https://www.aalto.fi/en/people/arno-solin",
+      "category": "Professors"
+    },
+    {
+      "officialId": "https://www.aalto.fi/en/people/jukka-suomela",
+      "name": "Jukka Suomela",
+      "profileUrl": "https://www.aalto.fi/en/people/jukka-suomela",
+      "category": "Professors"
+    },
+    {
+      "officialId": "https://www.aalto.fi/en/people/sebastian-szyller",
+      "name": "Sebastian Szyller",
+      "profileUrl": "https://www.aalto.fi/en/people/sebastian-szyller",
+      "category": "Professors"
+    },
+    {
+      "officialId": "https://www.aalto.fi/en/people/haoye-tian",
+      "name": "Haoye Tian",
+      "profileUrl": "https://www.aalto.fi/en/people/haoye-tian",
+      "category": "Professors"
+    },
+    {
+      "officialId": "https://www.aalto.fi/en/people/linh-truong",
+      "name": "Linh Truong",
+      "profileUrl": "https://www.aalto.fi/en/people/linh-truong",
+      "category": "Professors"
+    },
+    {
+      "officialId": "https://www.aalto.fi/en/people/jara-joel-olavi-uitto",
+      "name": "Jara Joel Olavi Uitto",
+      "profileUrl": "https://www.aalto.fi/en/people/jara-joel-olavi-uitto",
+      "category": "Professors"
+    },
+    {
+      "officialId": "https://www.aalto.fi/en/people/aki-vehtari",
+      "name": "Aki Vehtari",
+      "profileUrl": "https://www.aalto.fi/en/people/aki-vehtari",
+      "category": "Professors"
+    },
+    {
+      "officialId": "https://www.aalto.fi/en/people/johanna-viitanen",
+      "name": "Johanna Viitanen",
+      "profileUrl": "https://www.aalto.fi/en/people/johanna-viitanen",
+      "category": "Professors"
+    },
+    {
+      "officialId": "https://www.aalto.fi/en/people/petri-vuorimaa",
+      "name": "Petri Vuorimaa",
+      "profileUrl": "https://www.aalto.fi/en/people/petri-vuorimaa",
+      "category": "Professors"
+    },
+    {
+      "officialId": "https://www.aalto.fi/en/people/robin-welsch",
+      "name": "Robin Welsch",
+      "profileUrl": "https://www.aalto.fi/en/people/robin-welsch",
+      "category": "Professors"
+    },
+    {
+      "officialId": "https://www.aalto.fi/en/people/deepika-yadav",
+      "name": "Deepika Yadav",
+      "profileUrl": "https://www.aalto.fi/en/people/deepika-yadav",
+      "category": "Professors"
+    },
+    {
+      "officialId": "https://www.aalto.fi/en/people/bo-zhao",
+      "name": "Bo Zhao",
+      "profileUrl": "https://www.aalto.fi/en/people/bo-zhao",
+      "category": "Professors"
+    },
+    {
+      "officialId": "https://www.aalto.fi/en/people/lukas-ahrenberg",
+      "name": "Lukas Ahrenberg",
+      "profileUrl": "https://www.aalto.fi/en/people/lukas-ahrenberg",
+      "category": "Lecturers"
+    },
+    {
+      "officialId": "https://www.aalto.fi/en/people/talayeh-aledavood",
+      "name": "Talayeh Aledavood",
+      "profileUrl": "https://www.aalto.fi/en/people/talayeh-aledavood",
+      "category": "Lecturers"
+    },
+    {
+      "officialId": "https://www.aalto.fi/en/people/lachlan-gunn",
+      "name": "Lachlan Gunn",
+      "profileUrl": "https://www.aalto.fi/en/people/lachlan-gunn",
+      "category": "Lecturers"
+    },
+    {
+      "officialId": "https://www.aalto.fi/en/people/lassi-haaranen",
+      "name": "Lassi Haaranen",
+      "profileUrl": "https://www.aalto.fi/en/people/lassi-haaranen",
+      "category": "Lecturers"
+    },
+    {
+      "officialId": "https://www.aalto.fi/en/people/arto-hellas",
+      "name": "Arto Hellas",
+      "profileUrl": "https://www.aalto.fi/en/people/arto-hellas",
+      "category": "Lecturers"
+    },
+    {
+      "officialId": "https://www.aalto.fi/en/people/vesa-hirvisalo",
+      "name": "Vesa Hirvisalo",
+      "profileUrl": "https://www.aalto.fi/en/people/vesa-hirvisalo",
+      "category": "Lecturers"
+    },
+    {
+      "officialId": "https://www.aalto.fi/en/people/jaakko-hollmen",
+      "name": "Jaakko Hollmen",
+      "profileUrl": "https://www.aalto.fi/en/people/jaakko-hollmen",
+      "category": "Lecturers"
+    },
+    {
+      "officialId": "https://www.aalto.fi/en/people/wilhelmiina-hamalainen",
+      "name": "Wilhelmiina Hämäläinen",
+      "profileUrl": "https://www.aalto.fi/en/people/wilhelmiina-hamalainen",
+      "category": "Lecturers"
+    },
+    {
+      "officialId": "https://www.aalto.fi/en/people/tommi-junttila",
+      "name": "Tommi Junttila",
+      "profileUrl": "https://www.aalto.fi/en/people/tommi-junttila",
+      "category": "Lecturers"
+    },
+    {
+      "officialId": "https://www.aalto.fi/en/people/barbara-esther-keller",
+      "name": "Barbara Esther Keller",
+      "profileUrl": "https://www.aalto.fi/en/people/barbara-esther-keller",
+      "category": "Lecturers"
+    },
+    {
+      "officialId": "https://www.aalto.fi/en/people/ari-korhonen",
+      "name": "Ari Korhonen",
+      "profileUrl": "https://www.aalto.fi/en/people/ari-korhonen",
+      "category": "Lecturers"
+    },
+    {
+      "officialId": "https://www.aalto.fi/en/people/sari-kujala",
+      "name": "Sari Kujala",
+      "profileUrl": "https://www.aalto.fi/en/people/sari-kujala",
+      "category": "Lecturers"
+    },
+    {
+      "officialId": "https://www.aalto.fi/en/people/jorma-laaksonen",
+      "name": "Jorma Laaksonen",
+      "profileUrl": "https://www.aalto.fi/en/people/jorma-laaksonen",
+      "category": "Lecturers"
+    },
+    {
+      "officialId": "https://www.aalto.fi/en/people/riku-linna",
+      "name": "Riku Linna",
+      "profileUrl": "https://www.aalto.fi/en/people/riku-linna",
+      "category": "Lecturers"
+    },
+    {
+      "officialId": "https://www.aalto.fi/en/people/mika-p-nieminen",
+      "name": "Mika P. Nieminen",
+      "profileUrl": "https://www.aalto.fi/en/people/mika-p-nieminen",
+      "category": "Lecturers"
+    },
+    {
+      "officialId": "https://www.aalto.fi/en/people/kerttu-pollari-malmi",
+      "name": "Kerttu Pollari-Malmi",
+      "profileUrl": "https://www.aalto.fi/en/people/kerttu-pollari-malmi",
+      "category": "Lecturers"
+    },
+    {
+      "officialId": "https://www.aalto.fi/en/people/risto-sarvas",
+      "name": "Risto Sarvas",
+      "profileUrl": "https://www.aalto.fi/en/people/risto-sarvas",
+      "category": "Lecturers"
+    },
+    {
+      "officialId": "https://www.aalto.fi/en/people/otto-seppala",
+      "name": "Otto Seppälä",
+      "profileUrl": "https://www.aalto.fi/en/people/otto-seppala",
+      "category": "Lecturers"
+    },
+    {
+      "officialId": "https://www.aalto.fi/en/people/matti-siekkinen",
+      "name": "Matti Siekkinen",
+      "profileUrl": "https://www.aalto.fi/en/people/matti-siekkinen",
+      "category": "Lecturers"
+    },
+    {
+      "officialId": "https://www.aalto.fi/en/people/juha-sorva",
+      "name": "Juha Sorva",
+      "profileUrl": "https://www.aalto.fi/en/people/juha-sorva",
+      "category": "Lecturers"
+    },
+    {
+      "officialId": "https://www.aalto.fi/en/people/sanna-suoranta",
+      "name": "Sanna Suoranta",
+      "profileUrl": "https://www.aalto.fi/en/people/sanna-suoranta",
+      "category": "Lecturers"
+    },
+    {
+      "officialId": "https://www.aalto.fi/en/people/jari-pekka-vanhanen",
+      "name": "Jari-Pekka Vanhanen",
+      "profileUrl": "https://www.aalto.fi/en/people/jari-pekka-vanhanen",
+      "category": "Lecturers"
+    },
+    {
+      "officialId": "https://www.aalto.fi/en/people/tapio-lokki",
+      "name": "Tapio Lokki",
+      "profileUrl": "https://www.aalto.fi/en/people/tapio-lokki",
+      "category": "Affiliated professors"
+    },
+    {
+      "officialId": "https://www.aalto.fi/en/people/mikko-sams",
+      "name": "Mikko Sams",
+      "profileUrl": "https://www.aalto.fi/en/people/mikko-sams",
+      "category": "Affiliated professors"
+    },
+    {
+      "officialId": "https://www.aalto.fi/en/people/simo-sarkka",
+      "name": "Simo Särkkä",
+      "profileUrl": "https://www.aalto.fi/en/people/simo-sarkka",
+      "category": "Affiliated professors"
+    },
+    {
+      "officialId": "emeriti:juha karhunen",
+      "name": "Juha Karhunen",
+      "profileUrl": null,
+      "category": "Emeriti"
+    },
+    {
+      "officialId": "emeriti:kimmo kaski",
+      "name": "Kimmo Kaski",
+      "profileUrl": null,
+      "category": "Emeriti"
+    },
+    {
+      "officialId": "emeriti:teuvo kohonen",
+      "name": "Teuvo Kohonen",
+      "profileUrl": null,
+      "category": "Emeriti"
+    },
+    {
+      "officialId": "emeriti:martti mäntylä",
+      "name": "Martti Mäntylä",
+      "profileUrl": null,
+      "category": "Emeriti"
+    },
+    {
+      "officialId": "emeriti:kaisa nyberg",
+      "name": "Kaisa Nyberg",
+      "profileUrl": null,
+      "category": "Emeriti"
+    },
+    {
+      "officialId": "emeriti:pirkko oittinen",
+      "name": "Pirkko Oittinen",
+      "profileUrl": null,
+      "category": "Emeriti"
+    },
+    {
+      "officialId": "emeriti:erkki oja",
+      "name": "Erkki Oja",
+      "profileUrl": null,
+      "category": "Emeriti"
+    },
+    {
+      "officialId": "emeriti:hannu saarelma",
+      "name": "Hannu Saarelma",
+      "profileUrl": null,
+      "category": "Emeriti"
+    },
+    {
+      "officialId": "emeriti:heikki saikkonen",
+      "name": "Heikki Saikkonen",
+      "profileUrl": null,
+      "category": "Emeriti"
+    },
+    {
+      "officialId": "emeriti:olli simula",
+      "name": "Olli Simula",
+      "profileUrl": null,
+      "category": "Emeriti"
+    },
+    {
+      "officialId": "emeriti:eljas soisalon-soininen",
+      "name": "Eljas Soisalon-Soininen",
+      "profileUrl": null,
+      "category": "Emeriti"
+    },
+    {
+      "officialId": "emeriti:reijo sulonen",
+      "name": "Reijo Sulonen",
+      "profileUrl": null,
+      "category": "Emeriti"
+    },
+    {
+      "officialId": "emeriti:markku syrjänen",
+      "name": "Markku Syrjänen",
+      "profileUrl": null,
+      "category": "Emeriti"
+    },
+    {
+      "officialId": "emeriti:jorma tarhio",
+      "name": "Jorma Tarhio",
+      "profileUrl": null,
+      "category": "Emeriti"
+    },
+    {
+      "officialId": "alumni:santo fortunato",
+      "name": "Santo Fortunato",
+      "profileUrl": null,
+      "category": "Alumni"
+    },
+    {
+      "officialId": "alumni:keijo heljanko",
+      "name": "Keijo Heljanko",
+      "profileUrl": null,
+      "category": "Alumni"
+    },
+    {
+      "officialId": "alumni:tapani raiko",
+      "name": "Tapani Raiko",
+      "profileUrl": null,
+      "category": "Alumni"
+    },
+    {
+      "officialId": "alumni:stavros tripakis",
+      "name": "Stavros Tripakis",
+      "profileUrl": null,
+      "category": "Alumni"
+    }
+  ]
+}

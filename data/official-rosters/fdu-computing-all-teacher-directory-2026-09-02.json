@@ -1,0 +1,5233 @@
+{
+  "completeness": "complete",
+  "fetchedAt": "2026-09-02",
+  "institution": "复旦大学计算与智能创新学院（原计算机科学技术学院官方目录）",
+  "officialPageUrl": "https://cs.fudan.edu.cn/50021/list.htm",
+  "officialDataUrl": "https://cs.fudan.edu.cn/_wp3services/generalQuery?queryObj=teacherHome",
+  "officialRosterCount": 289,
+  "officialSectionCardCounts": {
+    "官网未标注/无": 97,
+    "高级工程师": 9,
+    "助理研究员": 17,
+    " 院士": 3,
+    "副教授": 38,
+    "工程师": 15,
+    "讲师": 21,
+    "教授": 57,
+    "研究实习员": 12,
+    "馆员": 1,
+    "研究员": 7,
+    "管理员": 1,
+    "青年副研究员": 4,
+    "高级实验师": 1,
+    "青年研究员": 2,
+    "助理工程师": 3,
+    "助教": 1
+  },
+  "overlapAcrossSections": 0,
+  "sourceDescription": "当前官方“教师名录”页面通过同站 teacherHome 接口动态加载；按页面脚本参数 rows=999 冻结接口 total=289 的全部记录。保留官网职称字段和“无/未标注”，不在快照阶段判断是否现任、PI 或 AI/CS 主线。",
+  "people": [
+    {
+      "officialId": "ff3c357e6935a02e",
+      "name": "薄格",
+      "officialSections": [
+        "官网未标注/无"
+      ],
+      "title": "官网未标注",
+      "profileUrl": "http://ai.fudan.edu.cn/bg/list.htm",
+      "portraitUrl": "https://cs.fudan.edu.cn/_res/articleType/teacher_CN.jpg",
+      "officialFields": {
+        "career": null,
+        "firstLetter": null,
+        "exField1": null,
+        "exField2": "无",
+        "exField6": "无",
+        "exField7": null
+      }
+    },
+    {
+      "officialId": "30ea1a88c6030229",
+      "name": "曹袖",
+      "officialSections": [
+        "高级工程师"
+      ],
+      "title": "高级工程师",
+      "profileUrl": "http://ai.fudan.edu.cn/cx/list.htm",
+      "portraitUrl": "https://cs.fudan.edu.cn/_upload/article/images/e3/e9/11ee30b34090ae6b544f670bff07/2baa9120-df03-42b0-9567-9800496fbc5f.jpg",
+      "officialFields": {
+        "career": null,
+        "firstLetter": null,
+        "exField1": "高级工程师",
+        "exField2": "无",
+        "exField6": "高级工程师",
+        "exField7": null
+      }
+    },
+    {
+      "officialId": "3814e243ddc83b52",
+      "name": "曹瑜",
+      "officialSections": [
+        "助理研究员"
+      ],
+      "title": "助理研究员",
+      "profileUrl": "http://ai.fudan.edu.cn/cy_37042/list.htm",
+      "portraitUrl": "https://cs.fudan.edu.cn/_upload/article/images/da/74/99ab234d4cd0a61247a8219b8f18/3f378ce4-0969-4713-8b18-419786db42de.jpg",
+      "officialFields": {
+        "career": null,
+        "firstLetter": null,
+        "exField1": "助理研究员",
+        "exField2": "无",
+        "exField6": "助理研究员",
+        "exField7": null
+      }
+    },
+    {
+      "officialId": "a51bdea6d2e19cd1",
+      "name": "柴洪峰",
+      "officialSections": [
+        " 院士"
+      ],
+      "title": " 院士",
+      "profileUrl": "http://ai.fudan.edu.cn/chf/list.htm",
+      "portraitUrl": "https://cs.fudan.edu.cn/_upload/article/images/9f/75/4804f7a547a09d27375de63d6145/3f5ea2b8-c4d7-410b-8a79-28677267a684.jpg",
+      "officialFields": {
+        "career": null,
+        "firstLetter": null,
+        "exField1": null,
+        "exField2": "兼职教授",
+        "exField6": " 院士",
+        "exField7": null
+      }
+    },
+    {
+      "officialId": "90973ddc7cc23bce",
+      "name": "陈碧欢",
+      "officialSections": [
+        "副教授"
+      ],
+      "title": "副教授",
+      "profileUrl": "http://ai.fudan.edu.cn/cbh/list.htm",
+      "portraitUrl": "https://cs.fudan.edu.cn/_upload/article/images/ce/3d/63e051234270800cb276fba9c966/2aa4ed34-d87d-48c9-a2a3-765908c13b0e.jpg",
+      "officialFields": {
+        "career": null,
+        "firstLetter": null,
+        "exField1": "副教授",
+        "exField2": "无",
+        "exField6": "副教授",
+        "exField7": null
+      }
+    },
+    {
+      "officialId": "466d99a30bfb3174",
+      "name": "陈海洪",
+      "officialSections": [
+        "工程师"
+      ],
+      "title": "工程师",
+      "profileUrl": "http://ai.fudan.edu.cn/chh/list.htm",
+      "portraitUrl": "https://cs.fudan.edu.cn/_res/articleType/teacher_CN.jpg",
+      "officialFields": {
+        "career": null,
+        "firstLetter": null,
+        "exField1": null,
+        "exField2": "无",
+        "exField6": "工程师",
+        "exField7": null
+      }
+    },
+    {
+      "officialId": "8a27353da8f9ebc4",
+      "name": "陈彤兵",
+      "officialSections": [
+        "讲师"
+      ],
+      "title": "讲师",
+      "profileUrl": "http://ai.fudan.edu.cn/ctb/list.htm",
+      "portraitUrl": "https://cs.fudan.edu.cn/_upload/article/images/f1/45/b4ad9f3b48799fdb44547be65def/0eb25280-bf09-4842-ab0b-16acb53d425f.jpg",
+      "officialFields": {
+        "career": null,
+        "firstLetter": null,
+        "exField1": "讲师",
+        "exField2": "无",
+        "exField6": "讲师",
+        "exField7": null
+      }
+    },
+    {
+      "officialId": "ea940345fdd3d0c0",
+      "name": "陈伟男",
+      "officialSections": [
+        "工程师"
+      ],
+      "title": "工程师",
+      "profileUrl": "http://ai.fudan.edu.cn/cwn/list.htm",
+      "portraitUrl": "https://cs.fudan.edu.cn/_upload/article/images/42/6a/83bdef0e4e5a86d523ed4059e5d8/87225899-7cb9-4f8d-b85a-7452384d7218.jpg",
+      "officialFields": {
+        "career": null,
+        "firstLetter": null,
+        "exField1": "工程师、专业学位硕导",
+        "exField2": "无",
+        "exField6": "工程师",
+        "exField7": null
+      }
+    },
+    {
+      "officialId": "fb10fb10ddbd2201",
+      "name": "陈学青",
+      "officialSections": [
+        "副教授"
+      ],
+      "title": "副教授",
+      "profileUrl": "http://ai.fudan.edu.cn/cxq/list.htm",
+      "portraitUrl": "https://cs.fudan.edu.cn/_upload/article/images/5e/09/b5c33d774037a90ca1e43867a592/73ba4272-fc4e-4e8f-8db2-1bec928563d8.jpg",
+      "officialFields": {
+        "career": null,
+        "firstLetter": null,
+        "exField1": "副教授、硕导",
+        "exField2": "无",
+        "exField6": "副教授",
+        "exField7": null
+      }
+    },
+    {
+      "officialId": "12f5d050ced157b1",
+      "name": "陈阳",
+      "officialSections": [
+        "教授"
+      ],
+      "title": "教授",
+      "profileUrl": "http://ai.fudan.edu.cn/cy_37066/list.htm",
+      "portraitUrl": "https://cs.fudan.edu.cn/_upload/article/images/8d/b0/b97f33b14757b425fa392acc0dfc/56e7fe7f-5f07-41e0-a043-64f9269edfb6.jpg",
+      "officialFields": {
+        "career": null,
+        "firstLetter": null,
+        "exField1": "教授，博导",
+        "exField2": "无",
+        "exField6": "教授",
+        "exField7": null
+      }
+    },
+    {
+      "officialId": "613f1b056f15bcb0",
+      "name": "池明旻",
+      "officialSections": [
+        "副教授"
+      ],
+      "title": "副教授",
+      "profileUrl": "http://ai.fudan.edu.cn/cmm/list.htm",
+      "portraitUrl": "https://cs.fudan.edu.cn/_upload/article/images/12/2b/2878da604750967e63e0a709e8c6/a049afb0-8ba5-4106-a801-50e280d662e1.jpg",
+      "officialFields": {
+        "career": null,
+        "firstLetter": null,
+        "exField1": "副教授、博导",
+        "exField2": "无",
+        "exField6": "副教授",
+        "exField7": null
+      }
+    },
+    {
+      "officialId": "ccf6e31db7e38341",
+      "name": "崔新义",
+      "officialSections": [
+        "官网未标注/无"
+      ],
+      "title": "官网未标注",
+      "profileUrl": "http://ai.fudan.edu.cn/cxy/list.htm",
+      "portraitUrl": "https://cs.fudan.edu.cn/_res/articleType/teacher_CN.jpg",
+      "officialFields": {
+        "career": null,
+        "firstLetter": null,
+        "exField1": null,
+        "exField2": null,
+        "exField6": null,
+        "exField7": null
+      }
+    },
+    {
+      "officialId": "03dc69638931db4b",
+      "name": "戴开宇",
+      "officialSections": [
+        "教授"
+      ],
+      "title": "教授",
+      "profileUrl": "http://ai.fudan.edu.cn/dky/list.htm",
+      "portraitUrl": "https://cs.fudan.edu.cn/_upload/article/images/ae/ae/b06aa5a9494b861e8edd5cd1f9b4/28b1eb1d-ac7d-44f9-9269-e7a8173e0e0e.jpg",
+      "officialFields": {
+        "career": null,
+        "firstLetter": null,
+        "exField1": "教授",
+        "exField2": "无",
+        "exField6": "教授",
+        "exField7": null
+      }
+    },
+    {
+      "officialId": "aa12b009693b97e0",
+      "name": "丁玲",
+      "officialSections": [
+        "研究实习员"
+      ],
+      "title": "研究实习员",
+      "profileUrl": "http://ai.fudan.edu.cn/dl/list.htm",
+      "portraitUrl": "https://cs.fudan.edu.cn/_res/articleType/teacher_CN.jpg",
+      "officialFields": {
+        "career": null,
+        "firstLetter": null,
+        "exField1": null,
+        "exField2": "无",
+        "exField6": "研究实习员",
+        "exField7": null
+      }
+    },
+    {
+      "officialId": "5865bcd14bef3bcf",
+      "name": "董羡",
+      "officialSections": [
+        "馆员"
+      ],
+      "title": "馆员",
+      "profileUrl": "http://ai.fudan.edu.cn/dx/list.htm",
+      "portraitUrl": "https://cs.fudan.edu.cn/_res/articleType/teacher_CN.jpg",
+      "officialFields": {
+        "career": null,
+        "firstLetter": null,
+        "exField1": null,
+        "exField2": "无",
+        "exField6": "馆员",
+        "exField7": null
+      }
+    },
+    {
+      "officialId": "8927ee03f66b3d06",
+      "name": "方博越",
+      "officialSections": [
+        "官网未标注/无"
+      ],
+      "title": "官网未标注",
+      "profileUrl": "http://ai.fudan.edu.cn/fby/list.htm",
+      "portraitUrl": "https://cs.fudan.edu.cn/_res/articleType/teacher_CN.jpg",
+      "officialFields": {
+        "career": null,
+        "firstLetter": null,
+        "exField1": null,
+        "exField2": null,
+        "exField6": null,
+        "exField7": null
+      }
+    },
+    {
+      "officialId": "f50966f1120af732",
+      "name": "冯瑞",
+      "officialSections": [
+        "研究员"
+      ],
+      "title": "研究员",
+      "profileUrl": "http://ai.fudan.edu.cn/fr/list.htm",
+      "portraitUrl": "https://cs.fudan.edu.cn/_upload/article/images/f8/38/ece543734559bfb5f4bb374fe1de/f1389c95-85b1-45a9-b273-a2748523adb3.jpg",
+      "officialFields": {
+        "career": null,
+        "firstLetter": null,
+        "exField1": "研究员、博导",
+        "exField2": "无",
+        "exField6": "研究员",
+        "exField7": null
+      }
+    },
+    {
+      "officialId": "740eaa8088b13923",
+      "name": "付雁",
+      "officialSections": [
+        "讲师"
+      ],
+      "title": "讲师",
+      "profileUrl": "http://ai.fudan.edu.cn/fy/list.htm",
+      "portraitUrl": "https://cs.fudan.edu.cn/_upload/article/images/80/53/7160ee8749559e4935a2071522ac/8a9c8df9-0116-4fcb-bb04-4330f147aaf4.jpg",
+      "officialFields": {
+        "career": null,
+        "firstLetter": null,
+        "exField1": "讲师，计算机学院学生党总支组织委员",
+        "exField2": "无",
+        "exField6": "讲师",
+        "exField7": null
+      }
+    },
+    {
+      "officialId": "00da29d68138f132",
+      "name": "戈维峰",
+      "officialSections": [
+        "副教授"
+      ],
+      "title": "副教授",
+      "profileUrl": "http://ai.fudan.edu.cn/gwf/list.htm",
+      "portraitUrl": "https://cs.fudan.edu.cn/_upload/article/images/3b/3b/91b48f2245568fdb0f02d3c591aa/6ac4f575-661f-493b-892f-3208caf1d8b1.png",
+      "officialFields": {
+        "career": null,
+        "firstLetter": null,
+        "exField1": null,
+        "exField2": "无",
+        "exField6": "副教授",
+        "exField7": null
+      }
+    },
+    {
+      "officialId": "a6d80936c66ce516",
+      "name": "龚洁",
+      "officialSections": [
+        "助理研究员"
+      ],
+      "title": "助理研究员",
+      "profileUrl": "http://ai.fudan.edu.cn/gj/list.htm",
+      "portraitUrl": "https://cs.fudan.edu.cn/_res/articleType/teacher_CN.jpg",
+      "officialFields": {
+        "career": null,
+        "firstLetter": null,
+        "exField1": null,
+        "exField2": "无",
+        "exField6": "助理研究员",
+        "exField7": null
+      }
+    },
+    {
+      "officialId": "7f5eb10d12fb86e8",
+      "name": "顾鑫",
+      "officialSections": [
+        "工程师"
+      ],
+      "title": "工程师",
+      "profileUrl": "http://ai.fudan.edu.cn/gx/list.htm",
+      "portraitUrl": "https://cs.fudan.edu.cn/_res/articleType/teacher_CN.jpg",
+      "officialFields": {
+        "career": null,
+        "firstLetter": null,
+        "exField1": null,
+        "exField2": "无",
+        "exField6": "工程师",
+        "exField7": null
+      }
+    },
+    {
+      "officialId": "e389f2e79d2f5957",
+      "name": "郭放",
+      "officialSections": [
+        "官网未标注/无"
+      ],
+      "title": "官网未标注",
+      "profileUrl": "http://ai.fudan.edu.cn/gf/list.htm",
+      "portraitUrl": "https://cs.fudan.edu.cn/_res/articleType/teacher_CN.jpg",
+      "officialFields": {
+        "career": null,
+        "firstLetter": null,
+        "exField1": null,
+        "exField2": null,
+        "exField6": null,
+        "exField7": null
+      }
+    },
+    {
+      "officialId": "c3358373e68a1ce3",
+      "name": "韩伟力",
+      "officialSections": [
+        "教授"
+      ],
+      "title": "教授",
+      "profileUrl": "http://ai.fudan.edu.cn/hwl/list.htm",
+      "portraitUrl": "https://cs.fudan.edu.cn/_upload/article/images/45/3d/c7ef187d47e0b3a04d62504b3688/22b3232a-e8e7-42cf-a6e1-fe5f101a3cf3.jpg",
+      "officialFields": {
+        "career": null,
+        "firstLetter": null,
+        "exField1": "教授、博导",
+        "exField2": "无",
+        "exField6": "教授",
+        "exField7": null
+      }
+    },
+    {
+      "officialId": "621255bb2e267811",
+      "name": "何浩",
+      "officialSections": [
+        "工程师"
+      ],
+      "title": "工程师",
+      "profileUrl": "http://ai.fudan.edu.cn/hh/list.htm",
+      "portraitUrl": "https://cs.fudan.edu.cn/_res/articleType/teacher_CN.jpg",
+      "officialFields": {
+        "career": null,
+        "firstLetter": null,
+        "exField1": null,
+        "exField2": "无",
+        "exField6": "工程师",
+        "exField7": null
+      }
+    },
+    {
+      "officialId": "63dc3aa6d4d133aa",
+      "name": "何晓清",
+      "officialSections": [
+        "工程师"
+      ],
+      "title": "工程师",
+      "profileUrl": "http://ai.fudan.edu.cn/hxq/list.htm",
+      "portraitUrl": "https://cs.fudan.edu.cn/_res/articleType/teacher_CN.jpg",
+      "officialFields": {
+        "career": null,
+        "firstLetter": null,
+        "exField1": null,
+        "exField2": "无",
+        "exField6": "工程师",
+        "exField7": null
+      }
+    },
+    {
+      "officialId": "a1d6b1b67c5a5506",
+      "name": "黄萱菁",
+      "officialSections": [
+        "教授"
+      ],
+      "title": "教授",
+      "profileUrl": "http://ai.fudan.edu.cn/hxj/list.htm",
+      "portraitUrl": "https://cs.fudan.edu.cn/_upload/article/images/df/a8/986c401841678676fb70a2a4f206/30a4c38e-d753-41b7-bc5d-6230e34d9e56.jpg",
+      "officialFields": {
+        "career": null,
+        "firstLetter": null,
+        "exField1": "教授、博导",
+        "exField2": "无",
+        "exField6": "教授",
+        "exField7": null
+      }
+    },
+    {
+      "officialId": "94ca1801785f7a42",
+      "name": "姜秀艳",
+      "officialSections": [
+        "讲师"
+      ],
+      "title": "讲师",
+      "profileUrl": "http://ai.fudan.edu.cn/jxy/list.htm",
+      "portraitUrl": "https://cs.fudan.edu.cn/_res/articleType/teacher_CN.jpg",
+      "officialFields": {
+        "career": null,
+        "firstLetter": null,
+        "exField1": null,
+        "exField2": "无",
+        "exField6": "讲师",
+        "exField7": null
+      }
+    },
+    {
+      "officialId": "81223544de66a793",
+      "name": "姜忠鼎",
+      "officialSections": [
+        "副教授"
+      ],
+      "title": "副教授",
+      "profileUrl": "http://ai.fudan.edu.cn/jzd/list.htm",
+      "portraitUrl": "https://cs.fudan.edu.cn/_res/articleType/teacher_CN.jpg",
+      "officialFields": {
+        "career": null,
+        "firstLetter": null,
+        "exField1": "副教授、硕导",
+        "exField2": "无",
+        "exField6": "副教授",
+        "exField7": null
+      }
+    },
+    {
+      "officialId": "30096669b673de93",
+      "name": "蒋金虎",
+      "officialSections": [
+        "官网未标注/无"
+      ],
+      "title": "官网未标注",
+      "profileUrl": "http://ai.fudan.edu.cn/jjh/list.htm",
+      "portraitUrl": "https://cs.fudan.edu.cn/_res/articleType/teacher_CN.jpg",
+      "officialFields": {
+        "career": null,
+        "firstLetter": null,
+        "exField1": null,
+        "exField2": null,
+        "exField6": null,
+        "exField7": null
+      }
+    },
+    {
+      "officialId": "c1fac614577a3ff2",
+      "name": "金城",
+      "officialSections": [
+        "教授"
+      ],
+      "title": "教授",
+      "profileUrl": "http://ai.fudan.edu.cn/jc/list.htm",
+      "portraitUrl": "https://cs.fudan.edu.cn/_upload/article/images/e0/09/98a922c54b3489bf6af6e5ed5920/7301df66-565a-4d16-8809-ee0c4718a39e.jpg",
+      "officialFields": {
+        "career": null,
+        "firstLetter": null,
+        "exField1": "教授、博导",
+        "exField2": "无",
+        "exField6": "教授",
+        "exField7": null
+      }
+    },
+    {
+      "officialId": "1efea45d016de0a7",
+      "name": "金玲飞",
+      "officialSections": [
+        "教授"
+      ],
+      "title": "教授",
+      "profileUrl": "http://ai.fudan.edu.cn/jlf/list.htm",
+      "portraitUrl": "https://cs.fudan.edu.cn/_upload/article/images/bf/0f/69258a3b4d8fa8f4a81ee8e7d836/4333f18d-7ded-4f81-a096-6cc9995fc028.jpg",
+      "officialFields": {
+        "career": null,
+        "firstLetter": null,
+        "exField1": "教授，博导",
+        "exField2": "无",
+        "exField6": "教授",
+        "exField7": null
+      }
+    },
+    {
+      "officialId": "378cbf6fcd826631",
+      "name": "靳煜",
+      "officialSections": [
+        "讲师"
+      ],
+      "title": "讲师",
+      "profileUrl": "http://ai.fudan.edu.cn/jy/list.htm",
+      "portraitUrl": "https://cs.fudan.edu.cn/_res/articleType/teacher_CN.jpg",
+      "officialFields": {
+        "career": null,
+        "firstLetter": null,
+        "exField1": null,
+        "exField2": "无",
+        "exField6": "讲师",
+        "exField7": null
+      }
+    },
+    {
+      "officialId": "7eafa722dd76d506",
+      "name": "荆一楠",
+      "officialSections": [
+        "教授"
+      ],
+      "title": "教授",
+      "profileUrl": "http://ai.fudan.edu.cn/jyn/list.htm",
+      "portraitUrl": "https://cs.fudan.edu.cn/_upload/article/images/e8/86/c7ae10784c919c36716c967c8dda/deec9140-4f5c-4ab5-be70-1b054ea6ffb5.jpg",
+      "officialFields": {
+        "career": null,
+        "firstLetter": null,
+        "exField1": "教授、博导",
+        "exField2": "无",
+        "exField6": "教授",
+        "exField7": null
+      }
+    },
+    {
+      "officialId": "b0b93b18489a303e",
+      "name": "阚海斌",
+      "officialSections": [
+        "教授"
+      ],
+      "title": "教授",
+      "profileUrl": "http://ai.fudan.edu.cn/khb/list.htm",
+      "portraitUrl": "https://cs.fudan.edu.cn/_upload/article/images/fa/cf/1542efb94e4f98cdc30545daeb2e/e2fffe0e-d166-43fd-b78b-5b5194e5e60c.jpg",
+      "officialFields": {
+        "career": null,
+        "firstLetter": null,
+        "exField1": "教授、博导",
+        "exField2": "无",
+        "exField6": "教授",
+        "exField7": "K"
+      }
+    },
+    {
+      "officialId": "540fc30adaf814d4",
+      "name": "李斌",
+      "officialSections": [
+        "教授"
+      ],
+      "title": "教授",
+      "profileUrl": "http://ai.fudan.edu.cn/lb/list.htm",
+      "portraitUrl": "https://cs.fudan.edu.cn/_upload/article/images/ba/08/67d37e8c4cff82c863924287868d/181fa2b0-a793-4185-9f3a-f5f930659308.jpg",
+      "officialFields": {
+        "career": null,
+        "firstLetter": null,
+        "exField1": "教授、博导",
+        "exField2": "无",
+        "exField6": "教授",
+        "exField7": null
+      }
+    },
+    {
+      "officialId": "e31504bab555bb7c",
+      "name": "李红",
+      "officialSections": [
+        "官网未标注/无"
+      ],
+      "title": "官网未标注",
+      "profileUrl": "http://ai.fudan.edu.cn/lh/list.htm",
+      "portraitUrl": "https://cs.fudan.edu.cn/_res/articleType/teacher_CN.jpg",
+      "officialFields": {
+        "career": null,
+        "firstLetter": null,
+        "exField1": null,
+        "exField2": null,
+        "exField6": null,
+        "exField7": null
+      }
+    },
+    {
+      "officialId": "15e94fa4024a89b4",
+      "name": "李吉萍",
+      "officialSections": [
+        "助理研究员"
+      ],
+      "title": "助理研究员",
+      "profileUrl": "http://ai.fudan.edu.cn/ljp/list.htm",
+      "portraitUrl": "https://cs.fudan.edu.cn/_res/articleType/teacher_CN.jpg",
+      "officialFields": {
+        "career": null,
+        "firstLetter": null,
+        "exField1": null,
+        "exField2": "无",
+        "exField6": "助理研究员",
+        "exField7": null
+      }
+    },
+    {
+      "officialId": "17ca1b4f9cffdfd6",
+      "name": "王慧敏",
+      "officialSections": [
+        "研究员"
+      ],
+      "title": "研究员",
+      "profileUrl": "http://ai.fudan.edu.cn/whm/list.htm",
+      "portraitUrl": "https://cs.fudan.edu.cn/_res/articleType/teacher_CN.jpg",
+      "officialFields": {
+        "career": null,
+        "firstLetter": null,
+        "exField1": "助理研究员",
+        "exField2": "无",
+        "exField6": "研究员",
+        "exField7": null
+      }
+    },
+    {
+      "officialId": "ecdadf5870ac702a",
+      "name": "王莉莉",
+      "officialSections": [
+        "研究实习员"
+      ],
+      "title": "研究实习员",
+      "profileUrl": "http://ai.fudan.edu.cn/wll/list.htm",
+      "portraitUrl": "https://cs.fudan.edu.cn/_res/articleType/teacher_CN.jpg",
+      "officialFields": {
+        "career": null,
+        "firstLetter": null,
+        "exField1": null,
+        "exField2": "无",
+        "exField6": "研究实习员",
+        "exField7": null
+      }
+    },
+    {
+      "officialId": "87b814f95bb1aa87",
+      "name": "王鹏",
+      "officialSections": [
+        "教授"
+      ],
+      "title": "教授",
+      "profileUrl": "http://ai.fudan.edu.cn/wp/list.htm",
+      "portraitUrl": "https://cs.fudan.edu.cn/_upload/article/images/c5/1c/b2d5c8ad420e91bdcc0245d7955f/911a2e91-9c2d-4bb4-b347-a590fe5ff8c8.jpg",
+      "officialFields": {
+        "career": null,
+        "firstLetter": null,
+        "exField1": "教授、博导",
+        "exField2": "无",
+        "exField6": "教授",
+        "exField7": null
+      }
+    },
+    {
+      "officialId": "bc7df4b8b8f10a37",
+      "name": "王晓阳",
+      "officialSections": [
+        "教授"
+      ],
+      "title": "教授",
+      "profileUrl": "http://ai.fudan.edu.cn/wxy/list.htm",
+      "portraitUrl": "https://cs.fudan.edu.cn/_upload/article/images/a2/64/8619805844c9845224be768e7748/451a5575-fa7b-4292-b4d7-a9850ea5e473.jpg",
+      "officialFields": {
+        "career": null,
+        "firstLetter": null,
+        "exField1": "教授、博导",
+        "exField2": "无",
+        "exField6": "教授",
+        "exField7": null
+      }
+    },
+    {
+      "officialId": "765905ef9523b2be",
+      "name": "王新",
+      "officialSections": [
+        "教授"
+      ],
+      "title": "教授",
+      "profileUrl": "http://ai.fudan.edu.cn/wx/list.htm",
+      "portraitUrl": "https://cs.fudan.edu.cn/_upload/article/images/83/03/42dd3d40446d97f80b073cdd1685/0769704d-7ca1-40f2-9a35-1c9a253df44d.jpg",
+      "officialFields": {
+        "career": null,
+        "firstLetter": null,
+        "exField1": "教授、博导",
+        "exField2": "无",
+        "exField6": "教授",
+        "exField7": null
+      }
+    },
+    {
+      "officialId": "0bafd4fe703ac413",
+      "name": "王雪平",
+      "officialSections": [
+        "讲师"
+      ],
+      "title": "讲师",
+      "profileUrl": "http://ai.fudan.edu.cn/wxp/list.htm",
+      "portraitUrl": "https://cs.fudan.edu.cn/_res/articleType/teacher_CN.jpg",
+      "officialFields": {
+        "career": null,
+        "firstLetter": null,
+        "exField1": "讲师、专业学位硕导",
+        "exField2": "无",
+        "exField6": "讲师",
+        "exField7": null
+      }
+    },
+    {
+      "officialId": "4cdee17d692c9281",
+      "name": "王轶彤",
+      "officialSections": [
+        "副教授"
+      ],
+      "title": "副教授",
+      "profileUrl": "http://ai.fudan.edu.cn/wyt/list.htm",
+      "portraitUrl": "https://cs.fudan.edu.cn/_upload/article/images/1c/ea/b916d1e94e82bbf703e5dfef380a/d7b2d45a-46ff-4aa5-822d-fd672baa8c4f.png",
+      "officialFields": {
+        "career": null,
+        "firstLetter": null,
+        "exField1": "副教授",
+        "exField2": "无",
+        "exField6": "副教授",
+        "exField7": null
+      }
+    },
+    {
+      "officialId": "4f5e346b3ccdc170",
+      "name": "王勇",
+      "officialSections": [
+        "讲师"
+      ],
+      "title": "讲师",
+      "profileUrl": "http://ai.fudan.edu.cn/wy/list.htm",
+      "portraitUrl": "https://cs.fudan.edu.cn/_res/articleType/teacher_CN.jpg",
+      "officialFields": {
+        "career": null,
+        "firstLetter": null,
+        "exField1": null,
+        "exField2": "无",
+        "exField6": "讲师",
+        "exField7": null
+      }
+    },
+    {
+      "officialId": "8a149fa56b0123be",
+      "name": "王智慧",
+      "officialSections": [
+        "讲师"
+      ],
+      "title": "讲师",
+      "profileUrl": "http://ai.fudan.edu.cn/wzh/list.htm",
+      "portraitUrl": "https://cs.fudan.edu.cn/_upload/article/images/79/8b/628823734749828b7667834db053/7d3e5231-7e4d-4cd3-88a5-af51b59421ec.jpg",
+      "officialFields": {
+        "career": null,
+        "firstLetter": null,
+        "exField1": "讲师、专业学位硕导",
+        "exField2": "无",
+        "exField6": "讲师",
+        "exField7": null
+      }
+    },
+    {
+      "officialId": "d61de8644db5b750",
+      "name": "王卓晴",
+      "officialSections": [
+        "官网未标注/无"
+      ],
+      "title": "官网未标注",
+      "profileUrl": "http://ai.fudan.edu.cn/wzq/list.htm",
+      "portraitUrl": "https://cs.fudan.edu.cn/_res/articleType/teacher_CN.jpg",
+      "officialFields": {
+        "career": null,
+        "firstLetter": null,
+        "exField1": null,
+        "exField2": null,
+        "exField6": null,
+        "exField7": null
+      }
+    },
+    {
+      "officialId": "75c06e5d0a7aa68c",
+      "name": "危辉",
+      "officialSections": [
+        "教授"
+      ],
+      "title": "教授",
+      "profileUrl": "http://ai.fudan.edu.cn/wh_37219/list.htm",
+      "portraitUrl": "https://cs.fudan.edu.cn/_upload/article/images/96/f6/061c128c404da3fce0ec7cbcfb22/a5e09ba4-2593-40d3-81cb-fa5142864993.jpg",
+      "officialFields": {
+        "career": null,
+        "firstLetter": null,
+        "exField1": "教授、博导",
+        "exField2": "无",
+        "exField6": "教授",
+        "exField7": null
+      }
+    },
+    {
+      "officialId": "732e852b1a87a669",
+      "name": "邬江兴",
+      "officialSections": [
+        " 院士"
+      ],
+      "title": " 院士",
+      "profileUrl": "http://ai.fudan.edu.cn/wjx/list.htm",
+      "portraitUrl": "https://cs.fudan.edu.cn/_upload/article/images/2b/e1/3e557f6c49b9a0ea0431adac331b/b0d8101a-4fdf-4127-a97a-87bec5746d93.png",
+      "officialFields": {
+        "career": null,
+        "firstLetter": null,
+        "exField1": "教授",
+        "exField2": "兼职教授",
+        "exField6": " 院士",
+        "exField7": null
+      }
+    },
+    {
+      "officialId": "3be5faea9734f0b5",
+      "name": "吴承荣",
+      "officialSections": [
+        "副教授"
+      ],
+      "title": "副教授",
+      "profileUrl": "http://ai.fudan.edu.cn/wcr/list.htm",
+      "portraitUrl": "https://cs.fudan.edu.cn/_upload/article/images/45/4f/74b14adc44c399489fd255a57ee2/494bfa99-8f9c-40e7-a1ed-8c308a4c2ec7.jpg",
+      "officialFields": {
+        "career": null,
+        "firstLetter": null,
+        "exField1": "副教授、硕导",
+        "exField2": "无",
+        "exField6": "副教授",
+        "exField7": null
+      }
+    },
+    {
+      "officialId": "6eb35468f3c17dfa",
+      "name": "吴俊",
+      "officialSections": [
+        "教授"
+      ],
+      "title": "教授",
+      "profileUrl": "http://ai.fudan.edu.cn/wj/list.htm",
+      "portraitUrl": "https://cs.fudan.edu.cn/_upload/article/images/77/bf/22466f0e4ac2a61da13c85a9b526/2cdf1d13-1d12-48e7-87eb-81962a6fb8eb.png",
+      "officialFields": {
+        "career": null,
+        "firstLetter": null,
+        "exField1": "教授、博导",
+        "exField2": "无",
+        "exField6": "教授",
+        "exField7": null
+      }
+    },
+    {
+      "officialId": "2915fceed3b3d351",
+      "name": "吴杰",
+      "officialSections": [
+        "研究员"
+      ],
+      "title": "研究员",
+      "profileUrl": "http://ai.fudan.edu.cn/wj_37237/list.htm",
+      "portraitUrl": "https://cs.fudan.edu.cn/_upload/article/images/a3/ba/50e1986e4e42ac98e2af54afa6fc/eb8a7cbd-bc23-4cde-a47c-ad659aac5a92.jpg",
+      "officialFields": {
+        "career": null,
+        "firstLetter": null,
+        "exField1": "研究员、博导",
+        "exField2": "无",
+        "exField6": "研究员",
+        "exField7": null
+      }
+    },
+    {
+      "officialId": "eff28a31c4092fd4",
+      "name": "吴毅坚",
+      "officialSections": [
+        "副教授"
+      ],
+      "title": "副教授",
+      "profileUrl": "http://ai.fudan.edu.cn/wyj/list.htm",
+      "portraitUrl": "https://cs.fudan.edu.cn/_res/articleType/teacher_CN.jpg",
+      "officialFields": {
+        "career": null,
+        "firstLetter": null,
+        "exField1": null,
+        "exField2": "无",
+        "exField6": "副教授",
+        "exField7": null
+      }
+    },
+    {
+      "officialId": "d38fc1ce43aabc2d",
+      "name": "吴永辉",
+      "officialSections": [
+        "副教授"
+      ],
+      "title": "副教授",
+      "profileUrl": "http://ai.fudan.edu.cn/wyh/list.htm",
+      "portraitUrl": "https://cs.fudan.edu.cn/_upload/article/images/f2/4c/dcc1f36c4f7b9b9446508a4a0c46/59102418-9cab-4453-869f-327e153b34ea.jpg",
+      "officialFields": {
+        "career": null,
+        "firstLetter": null,
+        "exField1": "副教授、硕导",
+        "exField2": "无",
+        "exField6": "副教授",
+        "exField7": null
+      }
+    },
+    {
+      "officialId": "1dcdb244d194442b",
+      "name": "肖川",
+      "officialSections": [
+        "工程师"
+      ],
+      "title": "工程师",
+      "profileUrl": "http://ai.fudan.edu.cn/xc/list.htm",
+      "portraitUrl": "https://cs.fudan.edu.cn/_upload/article/images/44/d5/47b2567249cab4f89bff11837a33/dd1dcb92-4de8-4b20-b56f-33e539bc0935.jpg",
+      "officialFields": {
+        "career": null,
+        "firstLetter": null,
+        "exField1": "工程师",
+        "exField2": "无",
+        "exField6": "工程师",
+        "exField7": null
+      }
+    },
+    {
+      "officialId": "691d1f1082a557cb",
+      "name": "肖晓春",
+      "officialSections": [
+        "副教授"
+      ],
+      "title": "副教授",
+      "profileUrl": "http://ai.fudan.edu.cn/xxc/list.htm",
+      "portraitUrl": "https://cs.fudan.edu.cn/_upload/article/images/e0/60/b9199ef748ee9b2ff785c078d5c1/61c66ebd-4709-46af-bc2f-ad7443edbc6b.jpg",
+      "officialFields": {
+        "career": null,
+        "firstLetter": null,
+        "exField1": null,
+        "exField2": "无",
+        "exField6": "副教授",
+        "exField7": null
+      }
+    },
+    {
+      "officialId": "61964044c3a4b22a",
+      "name": "肖仰华",
+      "officialSections": [
+        "教授"
+      ],
+      "title": "教授",
+      "profileUrl": "http://ai.fudan.edu.cn/xyh/list.htm",
+      "portraitUrl": "https://cs.fudan.edu.cn/_upload/article/images/7d/83/e78dce344e23ba0dc27c583edfd5/fbaa7fc6-d7ec-4c44-808a-e231253f516f.jpg",
+      "officialFields": {
+        "career": null,
+        "firstLetter": null,
+        "exField1": "教授、博导",
+        "exField2": "无",
+        "exField6": "教授",
+        "exField7": null
+      }
+    },
+    {
+      "officialId": "7a09cc306e8efbbe",
+      "name": "谢志鹏",
+      "officialSections": [
+        "副教授"
+      ],
+      "title": "副教授",
+      "profileUrl": "http://ai.fudan.edu.cn/xzp/list.htm",
+      "portraitUrl": "https://cs.fudan.edu.cn/_upload/article/images/97/96/24852b584200a76133c869c79a13/9caf14f9-a3e2-4c5a-8411-31dbc7cabba5.jpg",
+      "officialFields": {
+        "career": null,
+        "firstLetter": null,
+        "exField1": null,
+        "exField2": "无",
+        "exField6": "副教授",
+        "exField7": null
+      }
+    },
+    {
+      "officialId": "640c13d1861fe934",
+      "name": "徐辉",
+      "officialSections": [
+        "副教授"
+      ],
+      "title": "副教授",
+      "profileUrl": "http://ai.fudan.edu.cn/xh/list.htm",
+      "portraitUrl": "https://cs.fudan.edu.cn/_upload/article/images/3b/31/22d83733417fa650180f34689cdc/b61795e2-710a-47f5-aa2e-3cc15c3c91cd.png",
+      "officialFields": {
+        "career": null,
+        "firstLetter": null,
+        "exField1": null,
+        "exField2": null,
+        "exField6": "副教授",
+        "exField7": null
+      }
+    },
+    {
+      "officialId": "044c57e71e597f3f",
+      "name": "徐睿",
+      "officialSections": [
+        "管理员"
+      ],
+      "title": "管理员",
+      "profileUrl": "http://ai.fudan.edu.cn/xr/list.htm",
+      "portraitUrl": "https://cs.fudan.edu.cn/_res/articleType/teacher_CN.jpg",
+      "officialFields": {
+        "career": null,
+        "firstLetter": null,
+        "exField1": null,
+        "exField2": "无",
+        "exField6": "管理员",
+        "exField7": null
+      }
+    },
+    {
+      "officialId": "a506135d2a818248",
+      "name": "徐晓栋",
+      "officialSections": [
+        "工程师"
+      ],
+      "title": "工程师",
+      "profileUrl": "http://ai.fudan.edu.cn/xxd/list.htm",
+      "portraitUrl": "https://cs.fudan.edu.cn/_upload/article/images/ad/e3/2ba039a5413eaebdae0d41d10da4/1ee16f78-2828-4cd3-bca7-c029115d8c21.jpg",
+      "officialFields": {
+        "career": null,
+        "firstLetter": null,
+        "exField1": "工程师",
+        "exField2": "无",
+        "exField6": "工程师",
+        "exField7": null
+      }
+    },
+    {
+      "officialId": "f8d5c0a5eb6a4d36",
+      "name": "徐迎晓",
+      "officialSections": [
+        "高级工程师"
+      ],
+      "title": "高级工程师",
+      "profileUrl": "http://ai.fudan.edu.cn/xyx/list.htm",
+      "portraitUrl": "https://cs.fudan.edu.cn/_upload/article/images/49/5f/ccd3682346aaa865ca417725f3db/b092f989-97e5-4473-9236-6fd8d84e014c.jpg",
+      "officialFields": {
+        "career": null,
+        "firstLetter": null,
+        "exField1": "高级工程师、专业学位硕导",
+        "exField2": "无",
+        "exField6": "高级工程师",
+        "exField7": null
+      }
+    },
+    {
+      "officialId": "8663dd9334e9dc63",
+      "name": "徐扬",
+      "officialSections": [
+        "教授"
+      ],
+      "title": "教授",
+      "profileUrl": "http://ai.fudan.edu.cn/xy/list.htm",
+      "portraitUrl": "https://cs.fudan.edu.cn/_upload/article/images/4a/ca/5f88cc9d48ea8f77acaf495393ca/ffb1acc1-07e8-41cd-b358-1266884d8e95.jpg",
+      "officialFields": {
+        "career": null,
+        "firstLetter": null,
+        "exField1": "教授，博导",
+        "exField2": "无",
+        "exField6": "教授",
+        "exField7": null
+      }
+    },
+    {
+      "officialId": "66ebfeb8edf10069",
+      "name": "徐志平",
+      "officialSections": [
+        "讲师"
+      ],
+      "title": "讲师",
+      "profileUrl": "http://ai.fudan.edu.cn/xzp_37273/list.htm",
+      "portraitUrl": "https://cs.fudan.edu.cn/_upload/article/images/e1/5c/a5070bdd42e0ba222a75d61362f9/df021ef5-1dcb-4651-933a-6288ef044c6e.jpg",
+      "officialFields": {
+        "career": null,
+        "firstLetter": null,
+        "exField1": "讲师",
+        "exField2": "无",
+        "exField6": "讲师",
+        "exField7": null
+      }
+    },
+    {
+      "officialId": "6a0652a6a147e57b",
+      "name": "严明",
+      "officialSections": [
+        "高级工程师"
+      ],
+      "title": "高级工程师",
+      "profileUrl": "http://ai.fudan.edu.cn/ym/list.htm",
+      "portraitUrl": "https://cs.fudan.edu.cn/_upload/article/images/f0/ea/4b93e8be4f6ebc53655542c50d5e/0ac5330b-58c3-4490-92f9-cb87469fc197.jpg",
+      "officialFields": {
+        "career": null,
+        "firstLetter": null,
+        "exField1": "工程师",
+        "exField2": "无",
+        "exField6": "高级工程师",
+        "exField7": null
+      }
+    },
+    {
+      "officialId": "4abfd74cf780e5c1",
+      "name": "颜波",
+      "officialSections": [
+        "教授"
+      ],
+      "title": "教授",
+      "profileUrl": "http://ai.fudan.edu.cn/yb/list.htm",
+      "portraitUrl": "https://cs.fudan.edu.cn/_upload/article/images/60/09/463dd54c4b92b96af7a03700de4d/522a9af1-f6d8-4b3c-9556-7925998f5f21.jpg",
+      "officialFields": {
+        "career": null,
+        "firstLetter": null,
+        "exField1": "教授、博导",
+        "exField2": "无",
+        "exField6": "教授",
+        "exField7": null
+      }
+    },
+    {
+      "officialId": "2cf35ebe823d76d0",
+      "name": "杨广亮",
+      "officialSections": [
+        "青年副研究员"
+      ],
+      "title": "青年副研究员",
+      "profileUrl": "http://ai.fudan.edu.cn/ygl/list.htm",
+      "portraitUrl": "https://cs.fudan.edu.cn/_upload/article/images/47/f9/477456d943a8be318ddcb5074665/b457705d-a1a0-4669-80fe-3387054d887b.jpg",
+      "officialFields": {
+        "career": null,
+        "firstLetter": null,
+        "exField1": null,
+        "exField2": null,
+        "exField6": "青年副研究员",
+        "exField7": null
+      }
+    },
+    {
+      "officialId": "11215060302f8cd4",
+      "name": "杨珉",
+      "officialSections": [
+        "教授"
+      ],
+      "title": "教授",
+      "profileUrl": "http://ai.fudan.edu.cn/ym_37286/list.htm",
+      "portraitUrl": "https://cs.fudan.edu.cn/_upload/article/images/a6/fd/2b0969604c8d9d119c9c4ba26443/7c698398-221e-4d5d-8c5e-835a2f892415.jpg",
+      "officialFields": {
+        "career": null,
+        "firstLetter": null,
+        "exField1": "教授、博导",
+        "exField2": "无",
+        "exField6": "教授",
+        "exField7": null
+      }
+    },
+    {
+      "officialId": "843f47e1d79b65a0",
+      "name": "杨夙",
+      "officialSections": [
+        "教授"
+      ],
+      "title": "教授",
+      "profileUrl": "http://ai.fudan.edu.cn/ys/list.htm",
+      "portraitUrl": "https://cs.fudan.edu.cn/_res/articleType/teacher_CN.jpg",
+      "officialFields": {
+        "career": null,
+        "firstLetter": null,
+        "exField1": "教授、博导",
+        "exField2": "无",
+        "exField6": "教授",
+        "exField7": null
+      }
+    },
+    {
+      "officialId": "17ff9381b4bed370",
+      "name": "杨卫东",
+      "officialSections": [
+        "研究员"
+      ],
+      "title": "研究员",
+      "profileUrl": "http://ai.fudan.edu.cn/ywd/list.htm",
+      "portraitUrl": "https://cs.fudan.edu.cn/_upload/article/images/7e/cb/fff4d7434c0fa4eb777f2dc5a5b1/f25f9f3b-5e11-4dcc-8ced-087d03a80a0a.jpg",
+      "officialFields": {
+        "career": null,
+        "firstLetter": null,
+        "exField1": "研究员/教授，博士生导师",
+        "exField2": "无",
+        "exField6": "研究员",
+        "exField7": null
+      }
+    },
+    {
+      "officialId": "a34667c6ead26ed9",
+      "name": "杨哲慜",
+      "officialSections": [
+        "副教授"
+      ],
+      "title": "副教授",
+      "profileUrl": "http://ai.fudan.edu.cn/yzm/list.htm",
+      "portraitUrl": "https://cs.fudan.edu.cn/_upload/article/images/49/1b/cb8084be48a281696bc2bf29715b/1838446a-a12a-4496-a19e-9ab735a79194.png",
+      "officialFields": {
+        "career": null,
+        "firstLetter": null,
+        "exField1": "副教授、博导",
+        "exField2": "无",
+        "exField6": "副教授",
+        "exField7": null
+      }
+    },
+    {
+      "officialId": "97b37b724606fc5a",
+      "name": "姚文遐",
+      "officialSections": [
+        "官网未标注/无"
+      ],
+      "title": "官网未标注",
+      "profileUrl": "http://ai.fudan.edu.cn/ywx/list.htm",
+      "portraitUrl": "https://cs.fudan.edu.cn/_res/articleType/teacher_CN.jpg",
+      "officialFields": {
+        "career": null,
+        "firstLetter": null,
+        "exField1": null,
+        "exField2": null,
+        "exField6": null,
+        "exField7": null
+      }
+    },
+    {
+      "officialId": "f2530630e17872d3",
+      "name": "姚晓枝",
+      "officialSections": [
+        "助理研究员"
+      ],
+      "title": "助理研究员",
+      "profileUrl": "http://ai.fudan.edu.cn/yxz/list.htm",
+      "portraitUrl": "https://cs.fudan.edu.cn/_res/articleType/teacher_CN.jpg",
+      "officialFields": {
+        "career": null,
+        "firstLetter": null,
+        "exField1": "助理研究员",
+        "exField2": "无",
+        "exField6": "助理研究员",
+        "exField7": null
+      }
+    },
+    {
+      "officialId": "6b5b89cb3476fd1b",
+      "name": "杨柳",
+      "officialSections": [
+        "研究实习员"
+      ],
+      "title": "研究实习员",
+      "profileUrl": "http://ai.fudan.edu.cn/yl/list.htm",
+      "portraitUrl": "https://cs.fudan.edu.cn/_res/articleType/teacher_CN.jpg",
+      "officialFields": {
+        "career": null,
+        "firstLetter": null,
+        "exField1": null,
+        "exField2": "无",
+        "exField6": "研究实习员",
+        "exField7": null
+      }
+    },
+    {
+      "officialId": "131cbfdcf70cb7d4",
+      "name": "叶德建",
+      "officialSections": [
+        "副教授"
+      ],
+      "title": "副教授",
+      "profileUrl": "http://ai.fudan.edu.cn/ydj/list.htm",
+      "portraitUrl": "https://cs.fudan.edu.cn/_res/articleType/teacher_CN.jpg",
+      "officialFields": {
+        "career": null,
+        "firstLetter": null,
+        "exField1": null,
+        "exField2": "无",
+        "exField6": "副教授",
+        "exField7": null
+      }
+    },
+    {
+      "officialId": "e4027fbaab2b1790",
+      "name": "叶家炜",
+      "officialSections": [
+        "工程师"
+      ],
+      "title": "工程师",
+      "profileUrl": "http://ai.fudan.edu.cn/yjw/list.htm",
+      "portraitUrl": "https://cs.fudan.edu.cn/_upload/article/images/86/00/f3625bec42bfbe58f6c54c28b682/3bae25a1-6b79-4aa6-8b72-14435557feaa.jpg",
+      "officialFields": {
+        "career": null,
+        "firstLetter": null,
+        "exField1": "工程师",
+        "exField2": "无",
+        "exField6": "工程师",
+        "exField7": null
+      }
+    },
+    {
+      "officialId": "0ec40e1fd041c08b",
+      "name": "于泽平",
+      "officialSections": [
+        "助理研究员"
+      ],
+      "title": "助理研究员",
+      "profileUrl": "http://ai.fudan.edu.cn/yzp/list.htm",
+      "portraitUrl": "https://cs.fudan.edu.cn/_res/articleType/teacher_CN.jpg",
+      "officialFields": {
+        "career": null,
+        "firstLetter": null,
+        "exField1": null,
+        "exField2": "无",
+        "exField6": "助理研究员",
+        "exField7": null
+      }
+    },
+    {
+      "officialId": "a2ee2585fc68d2db",
+      "name": "曾剑平",
+      "officialSections": [
+        "副教授"
+      ],
+      "title": "副教授",
+      "profileUrl": "http://ai.fudan.edu.cn/cjp/list.htm",
+      "portraitUrl": "https://cs.fudan.edu.cn/_res/articleType/teacher_CN.jpg",
+      "officialFields": {
+        "career": null,
+        "firstLetter": null,
+        "exField1": "副教授、硕导",
+        "exField2": "无",
+        "exField6": "副教授",
+        "exField7": "Z"
+      }
+    },
+    {
+      "officialId": "73636bfed0eb603f",
+      "name": "张军平",
+      "officialSections": [
+        "教授"
+      ],
+      "title": "教授",
+      "profileUrl": "http://ai.fudan.edu.cn/zjp/list.htm",
+      "portraitUrl": "https://cs.fudan.edu.cn/_upload/article/images/40/44/dcbaca78479ca0783c12a26d2c0d/b71c577c-02d2-454f-ad98-f27b9569dc23.jpg",
+      "officialFields": {
+        "career": null,
+        "firstLetter": null,
+        "exField1": "教授、博导",
+        "exField2": "无",
+        "exField6": "教授",
+        "exField7": null
+      }
+    },
+    {
+      "officialId": "eef88204d40a3c47",
+      "name": "卢盛祺",
+      "officialSections": [
+        "助理研究员"
+      ],
+      "title": "助理研究员",
+      "profileUrl": "http://ai.fudan.edu.cn/lsq/list.htm",
+      "portraitUrl": "https://cs.fudan.edu.cn/_res/articleType/teacher_CN.jpg",
+      "officialFields": {
+        "career": null,
+        "firstLetter": null,
+        "exField1": null,
+        "exField2": "无",
+        "exField6": "助理研究员",
+        "exField7": null
+      }
+    },
+    {
+      "officialId": "211d4808fb9cba18",
+      "name": "廖炳华",
+      "officialSections": [
+        "工程师"
+      ],
+      "title": "工程师",
+      "profileUrl": "http://ai.fudan.edu.cn/lbh/list.htm",
+      "portraitUrl": "https://cs.fudan.edu.cn/_res/articleType/teacher_CN.jpg",
+      "officialFields": {
+        "career": null,
+        "firstLetter": null,
+        "exField1": null,
+        "exField2": "无",
+        "exField6": "工程师",
+        "exField7": null
+      }
+    },
+    {
+      "officialId": "89d81ef2a5d83ba8",
+      "name": "李景涛",
+      "officialSections": [
+        "副教授"
+      ],
+      "title": "副教授",
+      "profileUrl": "http://ai.fudan.edu.cn/ljt/list.htm",
+      "portraitUrl": "https://cs.fudan.edu.cn/_upload/article/images/f3/7d/b1c9555547319cad4af2ac234ce7/587e6dce-033e-47e9-bf48-b7a0651c4871.jpg",
+      "officialFields": {
+        "career": null,
+        "firstLetter": null,
+        "exField1": null,
+        "exField2": "无",
+        "exField6": "副教授",
+        "exField7": null
+      }
+    },
+    {
+      "officialId": "04d087356d86f171",
+      "name": "李旻",
+      "officialSections": [
+        "讲师"
+      ],
+      "title": "讲师",
+      "profileUrl": "http://ai.fudan.edu.cn/lm/list.htm",
+      "portraitUrl": "https://cs.fudan.edu.cn/_res/articleType/teacher_CN.jpg",
+      "officialFields": {
+        "career": null,
+        "firstLetter": null,
+        "exField1": null,
+        "exField2": "无",
+        "exField6": "讲师",
+        "exField7": null
+      }
+    },
+    {
+      "officialId": "4e0e722ee25b7943",
+      "name": "李敏波",
+      "officialSections": [
+        "副教授"
+      ],
+      "title": "副教授",
+      "profileUrl": "http://ai.fudan.edu.cn/lmb/list.htm",
+      "portraitUrl": "https://cs.fudan.edu.cn/_upload/article/images/2b/47/022a99324177a148862528820a07/405b9603-6dc0-462c-8e85-01b8ff736a3a.jpg",
+      "officialFields": {
+        "career": null,
+        "firstLetter": null,
+        "exField1": "副教授、硕导",
+        "exField2": "无",
+        "exField6": "副教授",
+        "exField7": null
+      }
+    },
+    {
+      "officialId": "6b5032244eb0cedd",
+      "name": "李晟",
+      "officialSections": [
+        "教授"
+      ],
+      "title": "教授",
+      "profileUrl": "http://ai.fudan.edu.cn/ls/list.htm",
+      "portraitUrl": "https://cs.fudan.edu.cn/_upload/article/images/4f/a7/9d35efad493e841a8ff4833e9541/4758f5e3-3f92-4192-a91a-4782f8aa22a1.jpg",
+      "officialFields": {
+        "career": null,
+        "firstLetter": null,
+        "exField1": null,
+        "exField2": null,
+        "exField6": "教授",
+        "exField7": null
+      }
+    },
+    {
+      "officialId": "5dc10af55249791f",
+      "name": "李伟",
+      "officialSections": [
+        "教授"
+      ],
+      "title": "教授",
+      "profileUrl": "http://ai.fudan.edu.cn/lw/list.htm",
+      "portraitUrl": "https://cs.fudan.edu.cn/_upload/article/images/b6/3f/6148c04241da97b43c68e932878c/9114230d-b016-409d-b680-f3ffa1502b9f.png",
+      "officialFields": {
+        "career": null,
+        "firstLetter": null,
+        "exField1": "教授、博导",
+        "exField2": "无",
+        "exField6": "教授",
+        "exField7": null
+      }
+    },
+    {
+      "officialId": "b1f5c8e94dcf4a9c",
+      "name": "李寅凡",
+      "officialSections": [
+        "官网未标注/无"
+      ],
+      "title": "官网未标注",
+      "profileUrl": "http://ai.fudan.edu.cn/lyf/list.htm",
+      "portraitUrl": "https://cs.fudan.edu.cn/_res/articleType/teacher_CN.jpg",
+      "officialFields": {
+        "career": null,
+        "firstLetter": null,
+        "exField1": null,
+        "exField2": null,
+        "exField6": null,
+        "exField7": null
+      }
+    },
+    {
+      "officialId": "24d859d20ad0f81e",
+      "name": "李银胜",
+      "officialSections": [
+        "副教授"
+      ],
+      "title": "副教授",
+      "profileUrl": "http://ai.fudan.edu.cn/lys/list.htm",
+      "portraitUrl": "https://cs.fudan.edu.cn/_upload/article/images/f5/11/f1b77e154578b2be9cccaae60f8f/23ca4990-eee9-43b7-86c0-58d8bcc90f2b.jpg",
+      "officialFields": {
+        "career": null,
+        "firstLetter": null,
+        "exField1": "副教授、博导",
+        "exField2": "无",
+        "exField6": "副教授",
+        "exField7": null
+      }
+    },
+    {
+      "officialId": "22aadc78b727cd09",
+      "name": "梁瑾",
+      "officialSections": [
+        "高级工程师"
+      ],
+      "title": "高级工程师",
+      "profileUrl": "http://ai.fudan.edu.cn/lj/list.htm",
+      "portraitUrl": "https://cs.fudan.edu.cn/_res/articleType/teacher_CN.jpg",
+      "officialFields": {
+        "career": null,
+        "firstLetter": null,
+        "exField1": "高级工程师",
+        "exField2": "无",
+        "exField6": "高级工程师",
+        "exField7": null
+      }
+    },
+    {
+      "officialId": "539bbe72dbcc2062",
+      "name": "廖健",
+      "officialSections": [
+        "讲师"
+      ],
+      "title": "讲师",
+      "profileUrl": "http://ai.fudan.edu.cn/lj_37386/list.htm",
+      "portraitUrl": "https://cs.fudan.edu.cn/_res/articleType/teacher_CN.jpg",
+      "officialFields": {
+        "career": null,
+        "firstLetter": null,
+        "exField1": null,
+        "exField2": "无",
+        "exField6": "讲师",
+        "exField7": null
+      }
+    },
+    {
+      "officialId": "706fcdf76c352f2a",
+      "name": "廖娜",
+      "officialSections": [
+        "官网未标注/无"
+      ],
+      "title": "官网未标注",
+      "profileUrl": "http://ai.fudan.edu.cn/ln_37389/list.htm",
+      "portraitUrl": "https://cs.fudan.edu.cn/_res/articleType/teacher_CN.jpg",
+      "officialFields": {
+        "career": null,
+        "firstLetter": null,
+        "exField1": null,
+        "exField2": null,
+        "exField6": null,
+        "exField7": null
+      }
+    },
+    {
+      "officialId": "e9e58fc31e217c88",
+      "name": "廖志成",
+      "officialSections": [
+        "高级工程师"
+      ],
+      "title": "高级工程师",
+      "profileUrl": "http://ai.fudan.edu.cn/lzc/list.htm",
+      "portraitUrl": "https://cs.fudan.edu.cn/_upload/article/images/be/7b/0aee235c41568a4c69d5841068ab/49540d2e-a9ed-44ba-a4c1-7528ea905613.jpg",
+      "officialFields": {
+        "career": null,
+        "firstLetter": null,
+        "exField1": "高级工程师",
+        "exField2": "无",
+        "exField6": "高级工程师",
+        "exField7": null
+      }
+    },
+    {
+      "officialId": "c883c5ad5eadcc64",
+      "name": "刘卉",
+      "officialSections": [
+        "讲师"
+      ],
+      "title": "讲师",
+      "profileUrl": "http://ai.fudan.edu.cn/lh_37398/list.htm",
+      "portraitUrl": "https://cs.fudan.edu.cn/_upload/article/images/9c/39/aebb44a74113baf399f9877e68d9/0ed1610c-bd38-44ba-8df7-7a3a49128c99.jpg",
+      "officialFields": {
+        "career": null,
+        "firstLetter": null,
+        "exField1": "讲师、硕导",
+        "exField2": "无",
+        "exField6": "讲师",
+        "exField7": null
+      }
+    },
+    {
+      "officialId": "e07a7671cb0c8b2b",
+      "name": "刘木强",
+      "officialSections": [
+        "工程师"
+      ],
+      "title": "工程师",
+      "profileUrl": "http://ai.fudan.edu.cn/lmq/list.htm",
+      "portraitUrl": "https://cs.fudan.edu.cn/_res/articleType/teacher_CN.jpg",
+      "officialFields": {
+        "career": null,
+        "firstLetter": null,
+        "exField1": null,
+        "exField2": "无",
+        "exField6": "工程师",
+        "exField7": null
+      }
+    },
+    {
+      "officialId": "50089c18dc246f17",
+      "name": "刘新",
+      "officialSections": [
+        "讲师"
+      ],
+      "title": "讲师",
+      "profileUrl": "http://ai.fudan.edu.cn/lx/list.htm",
+      "portraitUrl": "https://cs.fudan.edu.cn/_upload/article/images/c5/a6/91eeda2242fb97720113d2cd6546/7d52f573-72de-4615-b70f-b7483914691a.jpg",
+      "officialFields": {
+        "career": null,
+        "firstLetter": null,
+        "exField1": "讲师、专业学位硕导",
+        "exField2": "无",
+        "exField6": "讲师",
+        "exField7": null
+      }
+    },
+    {
+      "officialId": "0754987a3ed255a1",
+      "name": "卢暾",
+      "officialSections": [
+        "教授"
+      ],
+      "title": "教授",
+      "profileUrl": "http://ai.fudan.edu.cn/lt/list.htm",
+      "portraitUrl": "https://cs.fudan.edu.cn/_upload/article/images/8f/4e/945ab2434710a8530b1ff224c8b4/dc229f59-c7a4-41e4-8b40-c97a68d5f5d2.jpg",
+      "officialFields": {
+        "career": null,
+        "firstLetter": null,
+        "exField1": "教授、博导",
+        "exField2": "无",
+        "exField6": "教授",
+        "exField7": null
+      }
+    },
+    {
+      "officialId": "0b6977afd27459ff",
+      "name": "鲁云萍",
+      "officialSections": [
+        "官网未标注/无"
+      ],
+      "title": "官网未标注",
+      "profileUrl": "http://ai.fudan.edu.cn/lyp/list.htm",
+      "portraitUrl": "https://cs.fudan.edu.cn/_res/articleType/teacher_CN.jpg",
+      "officialFields": {
+        "career": null,
+        "firstLetter": null,
+        "exField1": null,
+        "exField2": null,
+        "exField6": null,
+        "exField7": null
+      }
+    },
+    {
+      "officialId": "6fc78dd556029776",
+      "name": "路红",
+      "officialSections": [
+        "教授"
+      ],
+      "title": "教授",
+      "profileUrl": "http://ai.fudan.edu.cn/lh_37422/list.htm",
+      "portraitUrl": "https://cs.fudan.edu.cn/_upload/article/images/b1/95/3b5141a6479292765215a80b3461/7af674e4-8c4e-46ea-b15e-7c914e2c8940.jpg",
+      "officialFields": {
+        "career": null,
+        "firstLetter": null,
+        "exField1": "教授、博导",
+        "exField2": "无",
+        "exField6": "教授",
+        "exField7": null
+      }
+    },
+    {
+      "officialId": "7424872b41e3b017",
+      "name": "吕智慧",
+      "officialSections": [
+        "教授"
+      ],
+      "title": "教授",
+      "profileUrl": "http://ai.fudan.edu.cn/lzh/list.htm",
+      "portraitUrl": "https://cs.fudan.edu.cn/_upload/article/images/e3/23/424e48724085bd29140656bbe142/25f1a6f6-d320-4467-9b70-646ed38aab4c.jpg",
+      "officialFields": {
+        "career": null,
+        "firstLetter": null,
+        "exField1": "教授、博导",
+        "exField2": "无",
+        "exField6": "教授",
+        "exField7": null
+      }
+    },
+    {
+      "officialId": "ace361cb2a2f05be",
+      "name": "毛迪林",
+      "officialSections": [
+        "讲师"
+      ],
+      "title": "讲师",
+      "profileUrl": "http://ai.fudan.edu.cn/mdl/list.htm",
+      "portraitUrl": "https://cs.fudan.edu.cn/_upload/article/images/97/1a/24bea3ab44aca9458100c0b497e9/9911e5a8-37ec-40d8-86b0-7b5c3ac919e0.jpg",
+      "officialFields": {
+        "career": null,
+        "firstLetter": null,
+        "exField1": "讲师",
+        "exField2": "无",
+        "exField6": "讲师",
+        "exField7": null
+      }
+    },
+    {
+      "officialId": "772f98e9f78215d0",
+      "name": "牛军钰",
+      "officialSections": [
+        "教授"
+      ],
+      "title": "教授",
+      "profileUrl": "http://ai.fudan.edu.cn/njy/list.htm",
+      "portraitUrl": "https://cs.fudan.edu.cn/_upload/article/images/8d/6a/546094484809b15d36143816ca37/a8ad80f7-3b45-4b77-b28a-f710b2a18e15.jpg",
+      "officialFields": {
+        "career": null,
+        "firstLetter": null,
+        "exField1": "研究员、博导",
+        "exField2": "无",
+        "exField6": "教授",
+        "exField7": null
+      }
+    },
+    {
+      "officialId": "49922c959de4f705",
+      "name": "彭鑫",
+      "officialSections": [
+        "教授"
+      ],
+      "title": "教授",
+      "profileUrl": "http://ai.fudan.edu.cn/px/list.htm",
+      "portraitUrl": "https://cs.fudan.edu.cn/_upload/article/images/d5/65/7968a1ce4c47a22d39dc874c1d82/141a899e-b85f-4547-a03e-a737d083a734.png",
+      "officialFields": {
+        "career": null,
+        "firstLetter": null,
+        "exField1": "教授、博导",
+        "exField2": "无",
+        "exField6": "教授",
+        "exField7": null
+      }
+    },
+    {
+      "officialId": "0b5f3d295f2116cb",
+      "name": "钱振兴",
+      "officialSections": [
+        "教授"
+      ],
+      "title": "教授",
+      "profileUrl": "http://ai.fudan.edu.cn/qzx/list.htm",
+      "portraitUrl": "https://cs.fudan.edu.cn/_upload/article/images/8b/8e/759d872645b897df22d044f675f9/4424d007-b601-4d17-bc31-d62c28d1c42f.jpg",
+      "officialFields": {
+        "career": null,
+        "firstLetter": null,
+        "exField1": "教授, 博导",
+        "exField2": "无",
+        "exField6": "教授",
+        "exField7": null
+      }
+    },
+    {
+      "officialId": "7b2da9ccaf2887c6",
+      "name": "邱锡鹏",
+      "officialSections": [
+        "教授"
+      ],
+      "title": "教授",
+      "profileUrl": "http://ai.fudan.edu.cn/qxp/list.htm",
+      "portraitUrl": "https://cs.fudan.edu.cn/_upload/article/images/8e/98/c58822cd4ed68b020130d46df875/e27e9b51-efd4-4e05-814b-79fdd1c05e99.jpg",
+      "officialFields": {
+        "career": null,
+        "firstLetter": null,
+        "exField1": "教师、博导",
+        "exField2": "无",
+        "exField6": "教授",
+        "exField7": null
+      }
+    },
+    {
+      "officialId": "105f2f199765090d",
+      "name": "沙朝锋",
+      "officialSections": [
+        "副教授"
+      ],
+      "title": "副教授",
+      "profileUrl": "http://ai.fudan.edu.cn/scf/list.htm",
+      "portraitUrl": "https://cs.fudan.edu.cn/_upload/article/images/18/bb/f22e191c462db9b0a7161137c6ab/e1b1011c-c577-4f9d-914a-eade2c19c8cf.jpg",
+      "officialFields": {
+        "career": null,
+        "firstLetter": null,
+        "exField1": "副教授、硕导",
+        "exField2": "无",
+        "exField6": "副教授",
+        "exField7": null
+      }
+    },
+    {
+      "officialId": "486cb7b10510ffc1",
+      "name": "尚笠",
+      "officialSections": [
+        "教授"
+      ],
+      "title": "教授",
+      "profileUrl": "http://ai.fudan.edu.cn/sl/list.htm",
+      "portraitUrl": "https://cs.fudan.edu.cn/_upload/article/images/f9/53/d1f8d8cb4acebbc52cb56e383333/658708f8-d316-4e68-bb7d-4560c2d14350.png",
+      "officialFields": {
+        "career": null,
+        "firstLetter": null,
+        "exField1": "教授、博导",
+        "exField2": "无",
+        "exField6": "教授",
+        "exField7": null
+      }
+    },
+    {
+      "officialId": "dbdbb726f902263f",
+      "name": "沈洁",
+      "officialSections": [
+        "助理研究员"
+      ],
+      "title": "助理研究员",
+      "profileUrl": "http://ai.fudan.edu.cn/sj/list.htm",
+      "portraitUrl": "https://cs.fudan.edu.cn/_res/articleType/teacher_CN.jpg",
+      "officialFields": {
+        "career": null,
+        "firstLetter": null,
+        "exField1": null,
+        "exField2": "无",
+        "exField6": "助理研究员",
+        "exField7": null
+      }
+    },
+    {
+      "officialId": "3127e91f6668580c",
+      "name": "沈立炜",
+      "officialSections": [
+        "副教授"
+      ],
+      "title": "副教授",
+      "profileUrl": "http://ai.fudan.edu.cn/slw/list.htm",
+      "portraitUrl": "https://cs.fudan.edu.cn/_res/articleType/teacher_CN.jpg",
+      "officialFields": {
+        "career": null,
+        "firstLetter": null,
+        "exField1": null,
+        "exField2": "无",
+        "exField6": "副教授",
+        "exField7": null
+      }
+    },
+    {
+      "officialId": "62b3db62f9ecd5ad",
+      "name": "沈一帆",
+      "officialSections": [
+        "教授"
+      ],
+      "title": "教授",
+      "profileUrl": "http://ai.fudan.edu.cn/syf/list.htm",
+      "portraitUrl": "https://cs.fudan.edu.cn/_upload/article/images/4f/4b/0e993dfe46cca943444846c1de53/baab29d6-33ae-4a61-a728-006d46cbd261.jpg",
+      "officialFields": {
+        "career": null,
+        "firstLetter": null,
+        "exField1": "教授、博导",
+        "exField2": "无",
+        "exField6": "教授",
+        "exField7": null
+      }
+    },
+    {
+      "officialId": "e2e7c8baa1799522",
+      "name": "孙未未",
+      "officialSections": [
+        "教授"
+      ],
+      "title": "教授",
+      "profileUrl": "http://ai.fudan.edu.cn/sww/list.htm",
+      "portraitUrl": "https://cs.fudan.edu.cn/_upload/article/images/d6/15/ef4015f24f4db335f4efe445525d/7672a9fc-6a42-493e-a86a-395644e3be9e.jpg",
+      "officialFields": {
+        "career": null,
+        "firstLetter": null,
+        "exField1": null,
+        "exField2": null,
+        "exField6": "教授",
+        "exField7": null
+      }
+    },
+    {
+      "officialId": "eee924b06a045e33",
+      "name": "孙晓光",
+      "officialSections": [
+        "副教授"
+      ],
+      "title": "副教授",
+      "profileUrl": "http://ai.fudan.edu.cn/sxg/list.htm",
+      "portraitUrl": "https://cs.fudan.edu.cn/_upload/article/images/ab/8d/dd42956344ff848c7da2d11fb562/789f9627-af37-40c7-925d-c29fa53511d2.jpg",
+      "officialFields": {
+        "career": null,
+        "firstLetter": null,
+        "exField1": "副教授、硕导",
+        "exField2": "无",
+        "exField6": "副教授",
+        "exField7": null
+      }
+    },
+    {
+      "officialId": "c9beeb242e769b11",
+      "name": "谭伟敏",
+      "officialSections": [
+        "教授"
+      ],
+      "title": "教授",
+      "profileUrl": "http://ai.fudan.edu.cn/twm/list.htm",
+      "portraitUrl": "https://cs.fudan.edu.cn/_upload/article/images/3c/7e/5ba9171643a0bc3ab74535aa53c1/1f1a99f8-f84e-491f-a210-7646efdbe318.jpg",
+      "officialFields": {
+        "career": null,
+        "firstLetter": null,
+        "exField1": null,
+        "exField2": null,
+        "exField6": "教授",
+        "exField7": null
+      }
+    },
+    {
+      "officialId": "8ae165fc97173232",
+      "name": "谈子敬",
+      "officialSections": [
+        "副教授"
+      ],
+      "title": "副教授",
+      "profileUrl": "http://ai.fudan.edu.cn/tzj/list.htm",
+      "portraitUrl": "https://cs.fudan.edu.cn/_upload/article/images/94/5d/2defc9bb4f268bac8e05afcec250/27db3025-fd43-44d6-aba7-653c360aa6fb.jpg",
+      "officialFields": {
+        "career": null,
+        "firstLetter": null,
+        "exField1": "副教授、硕导",
+        "exField2": "无",
+        "exField6": "副教授",
+        "exField7": null
+      }
+    },
+    {
+      "officialId": "d211d0228160bdf9",
+      "name": "唐渊",
+      "officialSections": [
+        "副教授"
+      ],
+      "title": "副教授",
+      "profileUrl": "http://ai.fudan.edu.cn/ty/list.htm",
+      "portraitUrl": "https://cs.fudan.edu.cn/_res/articleType/teacher_CN.jpg",
+      "officialFields": {
+        "career": null,
+        "firstLetter": null,
+        "exField1": null,
+        "exField2": "无",
+        "exField6": "副教授",
+        "exField7": null
+      }
+    },
+    {
+      "officialId": "3c5356339ab1fa9d",
+      "name": "唐志强",
+      "officialSections": [
+        "高级实验师"
+      ],
+      "title": "高级实验师",
+      "profileUrl": "http://ai.fudan.edu.cn/tzq/list.htm",
+      "portraitUrl": "https://cs.fudan.edu.cn/_res/articleType/teacher_CN.jpg",
+      "officialFields": {
+        "career": null,
+        "firstLetter": null,
+        "exField1": null,
+        "exField2": "无",
+        "exField6": "高级实验师",
+        "exField7": null
+      }
+    },
+    {
+      "officialId": "6582b74fe2110f2c",
+      "name": "汪卫",
+      "officialSections": [
+        "教授"
+      ],
+      "title": "教授",
+      "profileUrl": "http://ai.fudan.edu.cn/ww/list.htm",
+      "portraitUrl": "https://cs.fudan.edu.cn/_upload/article/images/ac/d9/c89365e4466e84767178a3413806/bc5910dd-5b0d-4f49-a697-0225ba973626.jpg",
+      "officialFields": {
+        "career": null,
+        "firstLetter": null,
+        "exField1": "教授、博导",
+        "exField2": "无",
+        "exField6": "教授",
+        "exField7": null
+      }
+    },
+    {
+      "officialId": "d1ebbb5d2cd959ce",
+      "name": "王飞",
+      "officialSections": [
+        "副教授"
+      ],
+      "title": "副教授",
+      "profileUrl": "http://ai.fudan.edu.cn/wf/list.htm",
+      "portraitUrl": "https://cs.fudan.edu.cn/_upload/article/images/3c/24/cdde247c419f9271aa44f1c448f9/5310053a-7da7-49c7-acfe-abc580d1ddd3.jpg",
+      "officialFields": {
+        "career": null,
+        "firstLetter": null,
+        "exField1": null,
+        "exField2": "无",
+        "exField6": "副教授",
+        "exField7": null
+      }
+    },
+    {
+      "officialId": "ac218b8b51f3b172",
+      "name": "王国平",
+      "officialSections": [
+        "工程师"
+      ],
+      "title": "工程师",
+      "profileUrl": "http://ai.fudan.edu.cn/wgp/list.htm",
+      "portraitUrl": "https://cs.fudan.edu.cn/_res/articleType/teacher_CN.jpg",
+      "officialFields": {
+        "career": null,
+        "firstLetter": null,
+        "exField1": null,
+        "exField2": "无",
+        "exField6": "工程师",
+        "exField7": null
+      }
+    },
+    {
+      "officialId": "b673282861ac1837",
+      "name": "张凯",
+      "officialSections": [
+        "副教授"
+      ],
+      "title": "副教授",
+      "profileUrl": "http://ai.fudan.edu.cn/zk/list.htm",
+      "portraitUrl": "https://cs.fudan.edu.cn/_upload/article/images/bb/3d/f16a27824a519e364209819c492e/9b5220d0-8901-4dae-9f15-4a1f7cb7df09.png",
+      "officialFields": {
+        "career": null,
+        "firstLetter": null,
+        "exField1": null,
+        "exField2": "无",
+        "exField6": "副教授",
+        "exField7": null
+      }
+    },
+    {
+      "officialId": "1888757a4280d1ef",
+      "name": "张莉",
+      "officialSections": [
+        "研究实习员"
+      ],
+      "title": "研究实习员",
+      "profileUrl": "http://ai.fudan.edu.cn/zl/list.htm",
+      "portraitUrl": "https://cs.fudan.edu.cn/_res/articleType/teacher_CN.jpg",
+      "officialFields": {
+        "career": null,
+        "firstLetter": null,
+        "exField1": null,
+        "exField2": "无",
+        "exField6": "研究实习员",
+        "exField7": null
+      }
+    },
+    {
+      "officialId": "bc5438805faaf892",
+      "name": "张亮",
+      "officialSections": [
+        "教授"
+      ],
+      "title": "教授",
+      "profileUrl": "http://ai.fudan.edu.cn/zl_37515/list.htm",
+      "portraitUrl": "https://cs.fudan.edu.cn/_upload/article/images/1c/20/6da1d322448194fc045a3e3dde18/3411b203-efaf-45b5-8bf8-be3fba21f21d.jpg",
+      "officialFields": {
+        "career": null,
+        "firstLetter": null,
+        "exField1": "教授、博导",
+        "exField2": "无",
+        "exField6": "教授",
+        "exField7": null
+      }
+    },
+    {
+      "officialId": "1e1272f01053b3c3",
+      "name": "张谧",
+      "officialSections": [
+        "教授"
+      ],
+      "title": "教授",
+      "profileUrl": "http://ai.fudan.edu.cn/zm/list.htm",
+      "portraitUrl": "https://cs.fudan.edu.cn/_res/articleType/teacher_CN.jpg",
+      "officialFields": {
+        "career": null,
+        "firstLetter": null,
+        "exField1": "教授、博导",
+        "exField2": "无",
+        "exField6": "教授",
+        "exField7": null
+      }
+    },
+    {
+      "officialId": "6abc6a969ca3a562",
+      "name": "张守志",
+      "officialSections": [
+        "副教授"
+      ],
+      "title": "副教授",
+      "profileUrl": "http://ai.fudan.edu.cn/zsz/list.htm",
+      "portraitUrl": "https://cs.fudan.edu.cn/_upload/article/images/13/2a/4b9293f849e2b8b69149a763421d/2c4f186e-6537-43e9-a87b-3fc0dbd03cc6.jpg",
+      "officialFields": {
+        "career": null,
+        "firstLetter": null,
+        "exField1": "副教授、硕导",
+        "exField2": "无",
+        "exField6": "副教授",
+        "exField7": null
+      }
+    },
+    {
+      "officialId": "7f0173702e89dbfa",
+      "name": "张天戈",
+      "officialSections": [
+        "工程师"
+      ],
+      "title": "工程师",
+      "profileUrl": "http://ai.fudan.edu.cn/ztg/list.htm",
+      "portraitUrl": "https://cs.fudan.edu.cn/_res/articleType/teacher_CN.jpg",
+      "officialFields": {
+        "career": null,
+        "firstLetter": null,
+        "exField1": "工程师",
+        "exField2": "无",
+        "exField6": "工程师",
+        "exField7": null
+      }
+    },
+    {
+      "officialId": "842598107e1f4128",
+      "name": "张巍",
+      "officialSections": [
+        "副教授"
+      ],
+      "title": "副教授",
+      "profileUrl": "http://ai.fudan.edu.cn/zw/list.htm",
+      "portraitUrl": "https://cs.fudan.edu.cn/_upload/article/images/c3/65/8487a51e465088d01f8b10ccdb89/8dcbb0a6-8a65-4f03-b1c9-02ee03b49d1e.png",
+      "officialFields": {
+        "career": null,
+        "firstLetter": null,
+        "exField1": "副教授、博导",
+        "exField2": "无",
+        "exField6": "副教授",
+        "exField7": null
+      }
+    },
+    {
+      "officialId": "4e8493872a8b2389",
+      "name": "张为华",
+      "officialSections": [
+        "教授"
+      ],
+      "title": "教授",
+      "profileUrl": "http://ai.fudan.edu.cn/zwh/list.htm",
+      "portraitUrl": "https://cs.fudan.edu.cn/_upload/article/images/4f/94/9ff03de947aab66c7085613bed83/d8232a59-06a9-46b9-8142-5af827b38d6a.jpg",
+      "officialFields": {
+        "career": null,
+        "firstLetter": null,
+        "exField1": "教授、博导",
+        "exField2": "无",
+        "exField6": "教授",
+        "exField7": null
+      }
+    },
+    {
+      "officialId": "80569da683ffe6da",
+      "name": "张文强",
+      "officialSections": [
+        "研究员"
+      ],
+      "title": "研究员",
+      "profileUrl": "http://ai.fudan.edu.cn/zwq/list.htm",
+      "portraitUrl": "https://cs.fudan.edu.cn/_upload/article/images/70/93/e929fb594445ab7d4c0b32091a79/c68f2e20-6a28-4071-ab2c-5d29594eb950.jpg",
+      "officialFields": {
+        "career": null,
+        "firstLetter": null,
+        "exField1": "研究员、博导",
+        "exField2": "无",
+        "exField6": "研究员",
+        "exField7": null
+      }
+    },
+    {
+      "officialId": "35742ab8abcc8826",
+      "name": "张新鹏",
+      "officialSections": [
+        "教授"
+      ],
+      "title": "教授",
+      "profileUrl": "http://ai.fudan.edu.cn/zxp/list.htm",
+      "portraitUrl": "https://cs.fudan.edu.cn/_upload/article/images/da/5d/425366c948dca866bd2d5dd0517b/ed96b489-667e-4670-85ca-95168b9b6bc4.jpg",
+      "officialFields": {
+        "career": null,
+        "firstLetter": null,
+        "exField1": "教授、博导、国家杰出青年科学基金获得者",
+        "exField2": "无",
+        "exField6": "教授",
+        "exField7": null
+      }
+    },
+    {
+      "officialId": "c8667e7e420f1129",
+      "name": "张源",
+      "officialSections": [
+        "教授"
+      ],
+      "title": "教授",
+      "profileUrl": "http://ai.fudan.edu.cn/zy_37542/list.htm",
+      "portraitUrl": "https://cs.fudan.edu.cn/_upload/article/images/0d/9e/b98ddced43738d5bfd637c0132c6/e07fd322-1ad0-41d3-a2e3-62f82ba3cfe1.png",
+      "officialFields": {
+        "career": null,
+        "firstLetter": null,
+        "exField1": "教授、博导",
+        "exField2": "无",
+        "exField6": "教授",
+        "exField7": null
+      }
+    },
+    {
+      "officialId": "e0760ddb02bc8e25",
+      "name": "张致元",
+      "officialSections": [
+        "研究实习员"
+      ],
+      "title": "研究实习员",
+      "profileUrl": "http://ai.fudan.edu.cn/zzy/list.htm",
+      "portraitUrl": "https://cs.fudan.edu.cn/_res/articleType/teacher_CN.jpg",
+      "officialFields": {
+        "career": null,
+        "firstLetter": null,
+        "exField1": null,
+        "exField2": "无",
+        "exField6": "研究实习员",
+        "exField7": null
+      }
+    },
+    {
+      "officialId": "3730e9f6c3e45a46",
+      "name": "章忠志",
+      "officialSections": [
+        "教授"
+      ],
+      "title": "教授",
+      "profileUrl": "http://ai.fudan.edu.cn/zzz/list.htm",
+      "portraitUrl": "https://cs.fudan.edu.cn/_upload/article/images/4b/a4/83f43de24d15b1e4b4f09828471c/f2a88c54-1f0b-4377-9311-8740612b303e.png",
+      "officialFields": {
+        "career": null,
+        "firstLetter": null,
+        "exField1": null,
+        "exField2": null,
+        "exField6": "教授",
+        "exField7": null
+      }
+    },
+    {
+      "officialId": "6599a8ab7396ec3b",
+      "name": "赵进",
+      "officialSections": [
+        "教授"
+      ],
+      "title": "教授",
+      "profileUrl": "http://ai.fudan.edu.cn/zj/list.htm",
+      "portraitUrl": "https://cs.fudan.edu.cn/_upload/article/images/6d/d0/9ab9ab7641c29fdcde56259291cb/3f196ca1-6c10-45ea-a9b5-c10c1e43a58a.jpg",
+      "officialFields": {
+        "career": null,
+        "firstLetter": null,
+        "exField1": null,
+        "exField2": "无",
+        "exField6": "教授",
+        "exField7": null
+      }
+    },
+    {
+      "officialId": "e4e44d14a9fdcda3",
+      "name": "赵琼",
+      "officialSections": [
+        "讲师"
+      ],
+      "title": "讲师",
+      "profileUrl": "http://ai.fudan.edu.cn/zq/list.htm",
+      "portraitUrl": "https://cs.fudan.edu.cn/_res/articleType/teacher_CN.jpg",
+      "officialFields": {
+        "career": null,
+        "firstLetter": null,
+        "exField1": null,
+        "exField2": "无",
+        "exField6": "讲师",
+        "exField7": null
+      }
+    },
+    {
+      "officialId": "bee15993d1b73393",
+      "name": "赵卫东",
+      "officialSections": [
+        "副教授"
+      ],
+      "title": "副教授",
+      "profileUrl": "http://ai.fudan.edu.cn/zwd/list.htm",
+      "portraitUrl": "https://cs.fudan.edu.cn/_upload/article/images/9f/f1/dfba92a34491be18795845fe6649/77a3f63d-e78e-446c-8e15-15a8a57476e4.png",
+      "officialFields": {
+        "career": null,
+        "firstLetter": null,
+        "exField1": "副教授、硕导",
+        "exField2": "无",
+        "exField6": "副教授",
+        "exField7": null
+      }
+    },
+    {
+      "officialId": "759a798962613a57",
+      "name": "赵文耘",
+      "officialSections": [
+        "教授"
+      ],
+      "title": "教授",
+      "profileUrl": "http://ai.fudan.edu.cn/zwy/list.htm",
+      "portraitUrl": "https://cs.fudan.edu.cn/_upload/article/images/c8/01/a09c73cf4ec9b71bfe3ccc9ac2f3/967d0487-1299-4e69-9661-b3139c31de70.jpg",
+      "officialFields": {
+        "career": null,
+        "firstLetter": null,
+        "exField1": "教授、博导",
+        "exField2": "无",
+        "exField6": "教授",
+        "exField7": null
+      }
+    },
+    {
+      "officialId": "eba341c75c4e3935",
+      "name": "赵运磊",
+      "officialSections": [
+        "教授"
+      ],
+      "title": "教授",
+      "profileUrl": "http://ai.fudan.edu.cn/zyl/list.htm",
+      "portraitUrl": "https://cs.fudan.edu.cn/_upload/article/images/4b/a4/3abe11dc4c10a2347ce25a287a14/cc71b4fe-0802-43f3-acc0-4a219e4d23d4.jpg",
+      "officialFields": {
+        "career": null,
+        "firstLetter": null,
+        "exField1": "教授、博导",
+        "exField2": "无",
+        "exField6": "教授",
+        "exField7": null
+      }
+    },
+    {
+      "officialId": "ea47f5f21d801bb7",
+      "name": "郑巧菲",
+      "officialSections": [
+        "研究实习员"
+      ],
+      "title": "研究实习员",
+      "profileUrl": "http://ai.fudan.edu.cn/zqf/list.htm",
+      "portraitUrl": "https://cs.fudan.edu.cn/_res/articleType/teacher_CN.jpg",
+      "officialFields": {
+        "career": null,
+        "firstLetter": null,
+        "exField1": null,
+        "exField2": "无",
+        "exField6": "研究实习员",
+        "exField7": null
+      }
+    },
+    {
+      "officialId": "f78cfcb72e75f499",
+      "name": "郑骁庆",
+      "officialSections": [
+        "副教授"
+      ],
+      "title": "副教授",
+      "profileUrl": "http://ai.fudan.edu.cn/zxq/list.htm",
+      "portraitUrl": "https://cs.fudan.edu.cn/_upload/article/images/f4/40/fb2dcc404ead98039347339314be/d6d48c62-0d80-443b-a216-6d757e6ec177.png",
+      "officialFields": {
+        "career": null,
+        "firstLetter": null,
+        "exField1": "副教授、博导",
+        "exField2": "无",
+        "exField6": "副教授",
+        "exField7": null
+      }
+    },
+    {
+      "officialId": "1115a215fb208b36",
+      "name": "周捷",
+      "officialSections": [
+        "官网未标注/无"
+      ],
+      "title": "官网未标注",
+      "profileUrl": "http://ai.fudan.edu.cn/zj_37587/list.htm",
+      "portraitUrl": "https://cs.fudan.edu.cn/_res/articleType/teacher_CN.jpg",
+      "officialFields": {
+        "career": null,
+        "firstLetter": null,
+        "exField1": null,
+        "exField2": null,
+        "exField6": null,
+        "exField7": null
+      }
+    },
+    {
+      "officialId": "c1781c050f7d100c",
+      "name": "周雅倩",
+      "officialSections": [
+        "副教授"
+      ],
+      "title": "副教授",
+      "profileUrl": "http://ai.fudan.edu.cn/zyq/list.htm",
+      "portraitUrl": "https://cs.fudan.edu.cn/_res/articleType/teacher_CN.jpg",
+      "officialFields": {
+        "career": null,
+        "firstLetter": null,
+        "exField1": "副教授，硕导",
+        "exField2": "无",
+        "exField6": "副教授",
+        "exField7": null
+      }
+    },
+    {
+      "officialId": "4b88fe2e5a284a10",
+      "name": "周扬帆",
+      "officialSections": [
+        "教授"
+      ],
+      "title": "教授",
+      "profileUrl": "http://ai.fudan.edu.cn/zyf/list.htm",
+      "portraitUrl": "https://cs.fudan.edu.cn/_upload/article/images/51/b8/1c0f547f4bea95a3ee687def3ac4/2110d8a9-33e0-4d8d-9992-fef0e3296ea8.jpg",
+      "officialFields": {
+        "career": null,
+        "firstLetter": null,
+        "exField1": "教授，博导",
+        "exField2": "无",
+        "exField6": "教授",
+        "exField7": null
+      }
+    },
+    {
+      "officialId": "a2b3bab3706264bc",
+      "name": "周喆",
+      "officialSections": [
+        "副教授"
+      ],
+      "title": "副教授",
+      "profileUrl": "http://ai.fudan.edu.cn/zz_37596/list.htm",
+      "portraitUrl": "https://cs.fudan.edu.cn/_res/articleType/teacher_CN.jpg",
+      "officialFields": {
+        "career": null,
+        "firstLetter": null,
+        "exField1": "副教授",
+        "exField2": "无",
+        "exField6": "副教授",
+        "exField7": null
+      }
+    },
+    {
+      "officialId": "3356886d26c5d205",
+      "name": "朱崇湘",
+      "officialSections": [
+        "高级工程师"
+      ],
+      "title": "高级工程师",
+      "profileUrl": "http://ai.fudan.edu.cn/zcx/list.htm",
+      "portraitUrl": "https://cs.fudan.edu.cn/_res/articleType/teacher_CN.jpg",
+      "officialFields": {
+        "career": null,
+        "firstLetter": null,
+        "exField1": null,
+        "exField2": "无",
+        "exField6": "高级工程师",
+        "exField7": null
+      }
+    },
+    {
+      "officialId": "44b684baea980f41",
+      "name": "朱莉",
+      "officialSections": [
+        "研究实习员"
+      ],
+      "title": "研究实习员",
+      "profileUrl": "http://ai.fudan.edu.cn/zl_37602/list.htm",
+      "portraitUrl": "https://cs.fudan.edu.cn/_res/articleType/teacher_CN.jpg",
+      "officialFields": {
+        "career": null,
+        "firstLetter": null,
+        "exField1": null,
+        "exField2": "无",
+        "exField6": "研究实习员",
+        "exField7": null
+      }
+    },
+    {
+      "officialId": "083248af37529fbc",
+      "name": "朱元婷",
+      "officialSections": [
+        "助理研究员"
+      ],
+      "title": "助理研究员",
+      "profileUrl": "http://ai.fudan.edu.cn/zyt/list.htm",
+      "portraitUrl": "https://cs.fudan.edu.cn/_upload/article/images/77/66/2cde3e744c879800505cebb725ea/f8529575-7b18-40e5-9fe5-9164b403bb9c.jpg",
+      "officialFields": {
+        "career": null,
+        "firstLetter": null,
+        "exField1": "助理研究员",
+        "exField2": "无",
+        "exField6": "助理研究员",
+        "exField7": null
+      }
+    },
+    {
+      "officialId": "3dae284bf99135d7",
+      "name": "张玥杰",
+      "officialSections": [
+        "教授"
+      ],
+      "title": "教授",
+      "profileUrl": "http://ai.fudan.edu.cn/zyj/list.htm",
+      "portraitUrl": "https://cs.fudan.edu.cn/_upload/article/images/32/94/a918a31e41ecb29840fc577d08e0/fdab0cee-740c-4522-8cfe-e8cd6b82f12a.jpg",
+      "officialFields": {
+        "career": null,
+        "firstLetter": null,
+        "exField1": "教授、博导",
+        "exField2": "无",
+        "exField6": "教授",
+        "exField7": null
+      }
+    },
+    {
+      "officialId": "eedec04fefd90d18",
+      "name": "陈辰",
+      "officialSections": [
+        "高级工程师"
+      ],
+      "title": "高级工程师",
+      "profileUrl": "http://ai.fudan.edu.cn/cc/list.htm",
+      "portraitUrl": "https://cs.fudan.edu.cn/_upload/article/images/67/89/8016a19b4080bcd150a4825a2e2d/e11682b0-4f49-41ce-ae33-f31725fb049f.jpg",
+      "officialFields": {
+        "career": null,
+        "firstLetter": null,
+        "exField1": "高级工程师",
+        "exField2": "无",
+        "exField6": "高级工程师",
+        "exField7": null
+      }
+    },
+    {
+      "officialId": "389cb84b8f5af7b2",
+      "name": "冯颖欣",
+      "officialSections": [
+        "研究实习员"
+      ],
+      "title": "研究实习员",
+      "profileUrl": "http://ai.fudan.edu.cn/fyx/list.htm",
+      "portraitUrl": "https://cs.fudan.edu.cn/_res/articleType/teacher_CN.jpg",
+      "officialFields": {
+        "career": null,
+        "firstLetter": null,
+        "exField1": null,
+        "exField2": "无",
+        "exField6": "研究实习员",
+        "exField7": null
+      }
+    },
+    {
+      "officialId": "75da1cfc8a1da5dd",
+      "name": "冯红伟",
+      "officialSections": [
+        "讲师"
+      ],
+      "title": "讲师",
+      "profileUrl": "http://ai.fudan.edu.cn/fhw/list.htm",
+      "portraitUrl": "https://cs.fudan.edu.cn/_upload/article/images/cd/1d/3a714c2343bf9a690a6cef4fa628/7e6c32f6-eb85-46c5-9deb-d947bd1b3f27.jpg",
+      "officialFields": {
+        "career": null,
+        "firstLetter": null,
+        "exField1": "讲师、专业学位硕导",
+        "exField2": "无",
+        "exField6": "讲师",
+        "exField7": null
+      }
+    },
+    {
+      "officialId": "bedb0c7f1e54aa7e",
+      "name": "熊贇",
+      "officialSections": [
+        "教授"
+      ],
+      "title": "教授",
+      "profileUrl": "http://ai.fudan.edu.cn/xy_37635/list.htm",
+      "portraitUrl": "https://cs.fudan.edu.cn/_upload/article/images/9e/b1/8181ef854f0595ec632b1aa6e38b/b59c5a22-75f9-488b-bf93-2fd64e4a2475.png",
+      "officialFields": {
+        "career": null,
+        "firstLetter": null,
+        "exField1": "教授、博导",
+        "exField2": "无",
+        "exField6": "教授",
+        "exField7": null
+      }
+    },
+    {
+      "officialId": "da847c875dccf192",
+      "name": "王李霞",
+      "officialSections": [
+        "助理研究员"
+      ],
+      "title": "助理研究员",
+      "profileUrl": "http://ai.fudan.edu.cn/wlx/list.htm",
+      "portraitUrl": "https://cs.fudan.edu.cn/_res/articleType/teacher_CN.jpg",
+      "officialFields": {
+        "career": null,
+        "firstLetter": null,
+        "exField1": null,
+        "exField2": "无",
+        "exField6": "助理研究员",
+        "exField7": null
+      }
+    },
+    {
+      "officialId": "e4187dc8fb1c3e29",
+      "name": "朱东来",
+      "officialSections": [
+        "副教授"
+      ],
+      "title": "副教授",
+      "profileUrl": "http://ai.fudan.edu.cn/zdl/list.htm",
+      "portraitUrl": "https://cs.fudan.edu.cn/_upload/article/images/b9/12/edcbd8294412a2ff2860a3565c8c/03e4acd8-5068-453d-8f16-97742d2ed164.jpg",
+      "officialFields": {
+        "career": null,
+        "firstLetter": null,
+        "exField1": null,
+        "exField2": "无",
+        "exField6": "副教授",
+        "exField7": null
+      }
+    },
+    {
+      "officialId": "0811c200f838ef95",
+      "name": "张琬琪",
+      "officialSections": [
+        "官网未标注/无"
+      ],
+      "title": "官网未标注",
+      "profileUrl": "http://ai.fudan.edu.cn/zwq_37647/list.htm",
+      "portraitUrl": "https://cs.fudan.edu.cn/_res/articleType/teacher_CN.jpg",
+      "officialFields": {
+        "career": null,
+        "firstLetter": null,
+        "exField1": null,
+        "exField2": null,
+        "exField6": null,
+        "exField7": null
+      }
+    },
+    {
+      "officialId": "e75e8c1114c0bc43",
+      "name": "陈荣华",
+      "officialSections": [
+        "讲师"
+      ],
+      "title": "讲师",
+      "profileUrl": "http://ai.fudan.edu.cn/crh/list.htm",
+      "portraitUrl": "https://cs.fudan.edu.cn/_upload/article/images/81/02/85309f7c42e5973eb6bfd6549b87/1fc25294-484a-416c-b6c1-da916b21f1c6.png",
+      "officialFields": {
+        "career": null,
+        "firstLetter": null,
+        "exField1": "讲师、专业学位硕导",
+        "exField2": "无",
+        "exField6": "讲师",
+        "exField7": null
+      }
+    },
+    {
+      "officialId": "35aa25c5f2085296",
+      "name": "薛莘",
+      "officialSections": [
+        "助理研究员"
+      ],
+      "title": "助理研究员",
+      "profileUrl": "http://ai.fudan.edu.cn/xx/list.htm",
+      "portraitUrl": "https://cs.fudan.edu.cn/_upload/article/images/90/c3/2e2d9e424862931b55c6f5b93d27/0f4937b0-9661-47e7-b849-6deaab050b8c.jpg",
+      "officialFields": {
+        "career": null,
+        "firstLetter": null,
+        "exField1": null,
+        "exField2": "无",
+        "exField6": "助理研究员",
+        "exField7": null
+      }
+    },
+    {
+      "officialId": "90161b5c343198ab",
+      "name": "叶广楠",
+      "officialSections": [
+        "研究员"
+      ],
+      "title": "研究员",
+      "profileUrl": "http://ai.fudan.edu.cn/ygn/list.htm",
+      "portraitUrl": "https://cs.fudan.edu.cn/_upload/article/images/b5/b3/491fcdf04dcb84ca6c471ada5494/f26e7c79-ee48-4e33-924e-65cb0034b2ad.jpg",
+      "officialFields": {
+        "career": null,
+        "firstLetter": null,
+        "exField1": "研究员、博导",
+        "exField2": "无",
+        "exField6": "研究员",
+        "exField7": null
+      }
+    },
+    {
+      "officialId": "36a028f64578609d",
+      "name": "张奇",
+      "officialSections": [
+        "教授"
+      ],
+      "title": "教授",
+      "profileUrl": "http://ai.fudan.edu.cn/zq_40317/list.htm",
+      "portraitUrl": "https://cs.fudan.edu.cn/_upload/article/images/09/ba/e5059b2d4cd3a66afe857adee200/88d233d9-2341-45ba-a3b3-5fd2b3c96818.jpg",
+      "officialFields": {
+        "career": null,
+        "firstLetter": null,
+        "exField1": "教授，博导",
+        "exField2": "无",
+        "exField6": "教授",
+        "exField7": null
+      }
+    },
+    {
+      "officialId": "25463ef5f03e1838",
+      "name": "张鹏",
+      "officialSections": [
+        "副教授"
+      ],
+      "title": "副教授",
+      "profileUrl": "http://ai.fudan.edu.cn/zp1/list.htm",
+      "portraitUrl": "https://cs.fudan.edu.cn/_upload/article/images/7a/35/2594dadd449a9e0798d12e628386/c3c605fe-1245-4419-ad24-9d10ff477356.jpg",
+      "officialFields": {
+        "career": null,
+        "firstLetter": null,
+        "exField1": "副教授、博导",
+        "exField2": "无",
+        "exField6": "副教授",
+        "exField7": null
+      }
+    },
+    {
+      "officialId": "03b073127fa6c2be",
+      "name": "敖海荣",
+      "officialSections": [
+        "官网未标注/无"
+      ],
+      "title": "官网未标注",
+      "profileUrl": "http://ai.fudan.edu.cn/ahr/list.htm",
+      "portraitUrl": "https://cs.fudan.edu.cn/_res/articleType/teacher_CN.jpg",
+      "officialFields": {
+        "career": null,
+        "firstLetter": null,
+        "exField1": null,
+        "exField2": "无",
+        "exField6": "无",
+        "exField7": null
+      }
+    },
+    {
+      "officialId": "7baf65e3592b7a59",
+      "name": "曹健林",
+      "officialSections": [
+        "官网未标注/无"
+      ],
+      "title": "官网未标注",
+      "profileUrl": "http://ai.fudan.edu.cn/cjl/list.htm",
+      "portraitUrl": "https://cs.fudan.edu.cn/_res/articleType/teacher_CN.jpg",
+      "officialFields": {
+        "career": null,
+        "firstLetter": null,
+        "exField1": null,
+        "exField2": null,
+        "exField6": null,
+        "exField7": null
+      }
+    },
+    {
+      "officialId": "89ae053708bbcbb0",
+      "name": "曹青霞",
+      "officialSections": [
+        "官网未标注/无"
+      ],
+      "title": "官网未标注",
+      "profileUrl": "http://ai.fudan.edu.cn/cqx/list.htm",
+      "portraitUrl": "https://cs.fudan.edu.cn/_res/articleType/teacher_CN.jpg",
+      "officialFields": {
+        "career": null,
+        "firstLetter": null,
+        "exField1": null,
+        "exField2": null,
+        "exField6": null,
+        "exField7": null
+      }
+    },
+    {
+      "officialId": "dcfe3a07c21b3b4f",
+      "name": "曹伟",
+      "officialSections": [
+        "官网未标注/无"
+      ],
+      "title": "官网未标注",
+      "profileUrl": "http://ai.fudan.edu.cn/cw/list.htm",
+      "portraitUrl": "https://cs.fudan.edu.cn/_res/articleType/teacher_CN.jpg",
+      "officialFields": {
+        "career": null,
+        "firstLetter": null,
+        "exField1": null,
+        "exField2": null,
+        "exField6": null,
+        "exField7": null
+      }
+    },
+    {
+      "officialId": "9ef27743f9d5f78a",
+      "name": "常城",
+      "officialSections": [
+        "官网未标注/无"
+      ],
+      "title": "官网未标注",
+      "profileUrl": "http://ai.fudan.edu.cn/cc1/list.htm",
+      "portraitUrl": "https://cs.fudan.edu.cn/_res/articleType/teacher_CN.jpg",
+      "officialFields": {
+        "career": null,
+        "firstLetter": null,
+        "exField1": null,
+        "exField2": null,
+        "exField6": null,
+        "exField7": null
+      }
+    },
+    {
+      "officialId": "56e907aa0eec0451",
+      "name": "陈佳临",
+      "officialSections": [
+        "官网未标注/无"
+      ],
+      "title": "官网未标注",
+      "profileUrl": "http://ai.fudan.edu.cn/cjl1/list.htm",
+      "portraitUrl": "https://cs.fudan.edu.cn/_res/articleType/teacher_CN.jpg",
+      "officialFields": {
+        "career": null,
+        "firstLetter": null,
+        "exField1": null,
+        "exField2": null,
+        "exField6": null,
+        "exField7": null
+      }
+    },
+    {
+      "officialId": "cec9b647fd432132",
+      "name": "陈平",
+      "officialSections": [
+        "官网未标注/无"
+      ],
+      "title": "官网未标注",
+      "profileUrl": "http://ai.fudan.edu.cn/cp/list.htm",
+      "portraitUrl": "https://cs.fudan.edu.cn/_res/articleType/teacher_CN.jpg",
+      "officialFields": {
+        "career": null,
+        "firstLetter": null,
+        "exField1": null,
+        "exField2": null,
+        "exField6": null,
+        "exField7": null
+      }
+    },
+    {
+      "officialId": "9e9845649a5a73d1",
+      "name": "陈曦",
+      "officialSections": [
+        "官网未标注/无"
+      ],
+      "title": "官网未标注",
+      "profileUrl": "http://ai.fudan.edu.cn/cx1/list.htm",
+      "portraitUrl": "https://cs.fudan.edu.cn/_res/articleType/teacher_CN.jpg",
+      "officialFields": {
+        "career": null,
+        "firstLetter": null,
+        "exField1": null,
+        "exField2": null,
+        "exField6": null,
+        "exField7": null
+      }
+    },
+    {
+      "officialId": "958c2907b190b1eb",
+      "name": "陈宇亮",
+      "officialSections": [
+        "官网未标注/无"
+      ],
+      "title": "官网未标注",
+      "profileUrl": "http://ai.fudan.edu.cn/cyl/list.htm",
+      "portraitUrl": "https://cs.fudan.edu.cn/_res/articleType/teacher_CN.jpg",
+      "officialFields": {
+        "career": null,
+        "firstLetter": null,
+        "exField1": null,
+        "exField2": null,
+        "exField6": null,
+        "exField7": null
+      }
+    },
+    {
+      "officialId": "c946529ce4455a25",
+      "name": "陈园园",
+      "officialSections": [
+        "官网未标注/无"
+      ],
+      "title": "官网未标注",
+      "profileUrl": "http://ai.fudan.edu.cn/cyy/list.htm",
+      "portraitUrl": "https://cs.fudan.edu.cn/_res/articleType/teacher_CN.jpg",
+      "officialFields": {
+        "career": null,
+        "firstLetter": null,
+        "exField1": null,
+        "exField2": null,
+        "exField6": null,
+        "exField7": null
+      }
+    },
+    {
+      "officialId": "ffc799b18e6a1d75",
+      "name": "唐鹏",
+      "officialSections": [
+        "官网未标注/无"
+      ],
+      "title": "官网未标注",
+      "profileUrl": "http://ai.fudan.edu.cn/tp/list.htm",
+      "portraitUrl": "https://cs.fudan.edu.cn/_res/articleType/teacher_CN.jpg",
+      "officialFields": {
+        "career": null,
+        "firstLetter": null,
+        "exField1": null,
+        "exField2": null,
+        "exField6": null,
+        "exField7": null
+      }
+    },
+    {
+      "officialId": "0f89ea7979330b75",
+      "name": "汪蕾",
+      "officialSections": [
+        "官网未标注/无"
+      ],
+      "title": "官网未标注",
+      "profileUrl": "http://ai.fudan.edu.cn/wl/list.htm",
+      "portraitUrl": "https://cs.fudan.edu.cn/_res/articleType/teacher_CN.jpg",
+      "officialFields": {
+        "career": null,
+        "firstLetter": null,
+        "exField1": null,
+        "exField2": null,
+        "exField6": null,
+        "exField7": null
+      }
+    },
+    {
+      "officialId": "e78f803d0ca302bf",
+      "name": "王嘉勋",
+      "officialSections": [
+        "官网未标注/无"
+      ],
+      "title": "官网未标注",
+      "profileUrl": "http://ai.fudan.edu.cn/wjx1/list.htm",
+      "portraitUrl": "https://cs.fudan.edu.cn/_res/articleType/teacher_CN.jpg",
+      "officialFields": {
+        "career": null,
+        "firstLetter": null,
+        "exField1": null,
+        "exField2": null,
+        "exField6": null,
+        "exField7": null
+      }
+    },
+    {
+      "officialId": "50cd259059120575",
+      "name": "王莉清",
+      "officialSections": [
+        "官网未标注/无"
+      ],
+      "title": "官网未标注",
+      "profileUrl": "http://ai.fudan.edu.cn/wlq/list.htm",
+      "portraitUrl": "https://cs.fudan.edu.cn/_res/articleType/teacher_CN.jpg",
+      "officialFields": {
+        "career": null,
+        "firstLetter": null,
+        "exField1": null,
+        "exField2": null,
+        "exField6": null,
+        "exField7": null
+      }
+    },
+    {
+      "officialId": "961366b905efa0ec",
+      "name": "王亭又",
+      "officialSections": [
+        "官网未标注/无"
+      ],
+      "title": "官网未标注",
+      "profileUrl": "http://ai.fudan.edu.cn/wty/list.htm",
+      "portraitUrl": "https://cs.fudan.edu.cn/_res/articleType/teacher_CN.jpg",
+      "officialFields": {
+        "career": null,
+        "firstLetter": null,
+        "exField1": null,
+        "exField2": null,
+        "exField6": null,
+        "exField7": null
+      }
+    },
+    {
+      "officialId": "17bf189ed4dec10a",
+      "name": "王逸",
+      "officialSections": [
+        "官网未标注/无"
+      ],
+      "title": "官网未标注",
+      "profileUrl": "http://ai.fudan.edu.cn/wy1/list.htm",
+      "portraitUrl": "https://cs.fudan.edu.cn/_res/articleType/teacher_CN.jpg",
+      "officialFields": {
+        "career": null,
+        "firstLetter": null,
+        "exField1": null,
+        "exField2": null,
+        "exField6": null,
+        "exField7": null
+      }
+    },
+    {
+      "officialId": "b8ba5335680a5330",
+      "name": "吴悠",
+      "officialSections": [
+        "官网未标注/无"
+      ],
+      "title": "官网未标注",
+      "profileUrl": "http://ai.fudan.edu.cn/wy2/list.htm",
+      "portraitUrl": "https://cs.fudan.edu.cn/_res/articleType/teacher_CN.jpg",
+      "officialFields": {
+        "career": null,
+        "firstLetter": null,
+        "exField1": null,
+        "exField2": null,
+        "exField6": null,
+        "exField7": null
+      }
+    },
+    {
+      "officialId": "449b8e08f0394f2a",
+      "name": "夏丽莎",
+      "officialSections": [
+        "官网未标注/无"
+      ],
+      "title": "官网未标注",
+      "profileUrl": "http://ai.fudan.edu.cn/xls/list.htm",
+      "portraitUrl": "https://cs.fudan.edu.cn/_res/articleType/teacher_CN.jpg",
+      "officialFields": {
+        "career": null,
+        "firstLetter": null,
+        "exField1": null,
+        "exField2": null,
+        "exField6": null,
+        "exField7": null
+      }
+    },
+    {
+      "officialId": "59f1b7af5ec32504",
+      "name": "谢涛",
+      "officialSections": [
+        "教授"
+      ],
+      "title": "教授",
+      "profileUrl": "http://ai.fudan.edu.cn/xt/list.htm",
+      "portraitUrl": "https://cs.fudan.edu.cn/_res/articleType/teacher_CN.jpg",
+      "officialFields": {
+        "career": null,
+        "firstLetter": null,
+        "exField1": null,
+        "exField2": "无",
+        "exField6": "教授",
+        "exField7": null
+      }
+    },
+    {
+      "officialId": "3fea0f619f8e8c14",
+      "name": "徐畅",
+      "officialSections": [
+        "研究实习员"
+      ],
+      "title": "研究实习员",
+      "profileUrl": "http://ai.fudan.edu.cn/xc1/list.htm",
+      "portraitUrl": "https://cs.fudan.edu.cn/_res/articleType/teacher_CN.jpg",
+      "officialFields": {
+        "career": null,
+        "firstLetter": null,
+        "exField1": null,
+        "exField2": "无",
+        "exField6": "研究实习员",
+        "exField7": null
+      }
+    },
+    {
+      "officialId": "180029deed04658d",
+      "name": "徐伊茜",
+      "officialSections": [
+        "官网未标注/无"
+      ],
+      "title": "官网未标注",
+      "profileUrl": "http://ai.fudan.edu.cn/xyq/list.htm",
+      "portraitUrl": "https://cs.fudan.edu.cn/_res/articleType/teacher_CN.jpg",
+      "officialFields": {
+        "career": null,
+        "firstLetter": null,
+        "exField1": null,
+        "exField2": null,
+        "exField6": null,
+        "exField7": null
+      }
+    },
+    {
+      "officialId": "59964732733974aa",
+      "name": "徐盈辉",
+      "officialSections": [
+        "官网未标注/无"
+      ],
+      "title": "官网未标注",
+      "profileUrl": "http://ai.fudan.edu.cn/xyh1/list.htm",
+      "portraitUrl": "https://cs.fudan.edu.cn/_res/articleType/teacher_CN.jpg",
+      "officialFields": {
+        "career": null,
+        "firstLetter": null,
+        "exField1": null,
+        "exField2": null,
+        "exField6": null,
+        "exField7": null
+      }
+    },
+    {
+      "officialId": "18f8330f4d791676",
+      "name": "徐跃东",
+      "officialSections": [
+        "教授"
+      ],
+      "title": "教授",
+      "profileUrl": "http://ai.fudan.edu.cn/xyd/list.htm",
+      "portraitUrl": "https://cs.fudan.edu.cn/_upload/article/images/f2/e9/66e76efe4906a373934933be3de6/1736d9c1-55cf-42b9-b405-e27f36084e5e.jpg",
+      "officialFields": {
+        "career": null,
+        "firstLetter": null,
+        "exField1": null,
+        "exField2": null,
+        "exField6": "教授",
+        "exField7": null
+      }
+    },
+    {
+      "officialId": "7834c103039a41d7",
+      "name": "徐增林",
+      "officialSections": [
+        "官网未标注/无"
+      ],
+      "title": "官网未标注",
+      "profileUrl": "http://ai.fudan.edu.cn/xzl/list.htm",
+      "portraitUrl": "https://cs.fudan.edu.cn/_res/articleType/teacher_CN.jpg",
+      "officialFields": {
+        "career": null,
+        "firstLetter": null,
+        "exField1": null,
+        "exField2": null,
+        "exField6": null,
+        "exField7": null
+      }
+    },
+    {
+      "officialId": "0d8b055fd1f18474",
+      "name": "许扬",
+      "officialSections": [
+        "青年研究员"
+      ],
+      "title": "青年研究员",
+      "profileUrl": "http://ai.fudan.edu.cn/xy1/list.htm",
+      "portraitUrl": "https://cs.fudan.edu.cn/_res/articleType/teacher_CN.jpg",
+      "officialFields": {
+        "career": null,
+        "firstLetter": null,
+        "exField1": null,
+        "exField2": "无",
+        "exField6": "青年研究员",
+        "exField7": null
+      }
+    },
+    {
+      "officialId": "099f786ceee971ce",
+      "name": "姚云",
+      "officialSections": [
+        "官网未标注/无"
+      ],
+      "title": "官网未标注",
+      "profileUrl": "http://ai.fudan.edu.cn/yy/list.htm",
+      "portraitUrl": "https://cs.fudan.edu.cn/_res/articleType/teacher_CN.jpg",
+      "officialFields": {
+        "career": null,
+        "firstLetter": null,
+        "exField1": null,
+        "exField2": null,
+        "exField6": null,
+        "exField7": null
+      }
+    },
+    {
+      "officialId": "b9b9c0a5f6988d1f",
+      "name": "叶敬贤",
+      "officialSections": [
+        "官网未标注/无"
+      ],
+      "title": "官网未标注",
+      "profileUrl": "http://ai.fudan.edu.cn/yjx/list.htm",
+      "portraitUrl": "https://cs.fudan.edu.cn/_res/articleType/teacher_CN.jpg",
+      "officialFields": {
+        "career": null,
+        "firstLetter": null,
+        "exField1": null,
+        "exField2": null,
+        "exField6": null,
+        "exField7": null
+      }
+    },
+    {
+      "officialId": "fbfcc4d5324fde01",
+      "name": "叶玲",
+      "officialSections": [
+        "官网未标注/无"
+      ],
+      "title": "官网未标注",
+      "profileUrl": "http://ai.fudan.edu.cn/yl1/list.htm",
+      "portraitUrl": "https://cs.fudan.edu.cn/_res/articleType/teacher_CN.jpg",
+      "officialFields": {
+        "career": null,
+        "firstLetter": null,
+        "exField1": null,
+        "exField2": null,
+        "exField6": null,
+        "exField7": null
+      }
+    },
+    {
+      "officialId": "c9e0cadc86129cc5",
+      "name": "袁辕",
+      "officialSections": [
+        "官网未标注/无"
+      ],
+      "title": "官网未标注",
+      "profileUrl": "http://ai.fudan.edu.cn/yy1_50128/list.htm",
+      "portraitUrl": "https://cs.fudan.edu.cn/_res/articleType/teacher_CN.jpg",
+      "officialFields": {
+        "career": null,
+        "firstLetter": null,
+        "exField1": null,
+        "exField2": null,
+        "exField6": null,
+        "exField7": null
+      }
+    },
+    {
+      "officialId": "37d7e2f16ef09a65",
+      "name": "张爱胤",
+      "officialSections": [
+        "官网未标注/无"
+      ],
+      "title": "官网未标注",
+      "profileUrl": "http://ai.fudan.edu.cn/zay/list.htm",
+      "portraitUrl": "https://cs.fudan.edu.cn/_res/articleType/teacher_CN.jpg",
+      "officialFields": {
+        "career": null,
+        "firstLetter": null,
+        "exField1": null,
+        "exField2": null,
+        "exField6": null,
+        "exField7": null
+      }
+    },
+    {
+      "officialId": "fa90c226044b7262",
+      "name": "张帆",
+      "officialSections": [
+        "官网未标注/无"
+      ],
+      "title": "官网未标注",
+      "profileUrl": "http://ai.fudan.edu.cn/zf/list.htm",
+      "portraitUrl": "https://cs.fudan.edu.cn/_res/articleType/teacher_CN.jpg",
+      "officialFields": {
+        "career": null,
+        "firstLetter": null,
+        "exField1": null,
+        "exField2": null,
+        "exField6": null,
+        "exField7": null
+      }
+    },
+    {
+      "officialId": "3b300afde8d6b77e",
+      "name": "张逢喆",
+      "officialSections": [
+        "官网未标注/无"
+      ],
+      "title": "官网未标注",
+      "profileUrl": "http://ai.fudan.edu.cn/zfz/list.htm",
+      "portraitUrl": "https://cs.fudan.edu.cn/_res/articleType/teacher_CN.jpg",
+      "officialFields": {
+        "career": null,
+        "firstLetter": null,
+        "exField1": null,
+        "exField2": null,
+        "exField6": null,
+        "exField7": null
+      }
+    },
+    {
+      "officialId": "de2090c0888ffc8a",
+      "name": "张凯",
+      "officialSections": [
+        "副教授"
+      ],
+      "title": "副教授",
+      "profileUrl": "http://ai.fudan.edu.cn/zk1/list.htm",
+      "portraitUrl": "https://cs.fudan.edu.cn/_res/articleType/teacher_CN.jpg",
+      "officialFields": {
+        "career": null,
+        "firstLetter": null,
+        "exField1": null,
+        "exField2": "无",
+        "exField6": "副教授",
+        "exField7": null
+      }
+    },
+    {
+      "officialId": "18c8b59cbfcb1bc1",
+      "name": "张磊",
+      "officialSections": [
+        "官网未标注/无"
+      ],
+      "title": "官网未标注",
+      "profileUrl": "http://ai.fudan.edu.cn/zl1/list.htm",
+      "portraitUrl": "https://cs.fudan.edu.cn/_res/articleType/teacher_CN.jpg",
+      "officialFields": {
+        "career": null,
+        "firstLetter": null,
+        "exField1": null,
+        "exField2": null,
+        "exField6": null,
+        "exField7": null
+      }
+    },
+    {
+      "officialId": "aba61e939f956255",
+      "name": "张蕾",
+      "officialSections": [
+        "官网未标注/无"
+      ],
+      "title": "官网未标注",
+      "profileUrl": "http://ai.fudan.edu.cn/zl2/list.htm",
+      "portraitUrl": "https://cs.fudan.edu.cn/_res/articleType/teacher_CN.jpg",
+      "officialFields": {
+        "career": null,
+        "firstLetter": null,
+        "exField1": null,
+        "exField2": null,
+        "exField6": null,
+        "exField7": null
+      }
+    },
+    {
+      "officialId": "03a9e393161bb12b",
+      "name": "张猛",
+      "officialSections": [
+        "官网未标注/无"
+      ],
+      "title": "官网未标注",
+      "profileUrl": "http://ai.fudan.edu.cn/zm1/list.htm",
+      "portraitUrl": "https://cs.fudan.edu.cn/_res/articleType/teacher_CN.jpg",
+      "officialFields": {
+        "career": null,
+        "firstLetter": null,
+        "exField1": null,
+        "exField2": null,
+        "exField6": null,
+        "exField7": null
+      }
+    },
+    {
+      "officialId": "fc7bd4cc46f083e9",
+      "name": "张梦露",
+      "officialSections": [
+        "助理工程师"
+      ],
+      "title": "助理工程师",
+      "profileUrl": "http://ai.fudan.edu.cn/zml/list.htm",
+      "portraitUrl": "https://cs.fudan.edu.cn/_res/articleType/teacher_CN.jpg",
+      "officialFields": {
+        "career": null,
+        "firstLetter": null,
+        "exField1": null,
+        "exField2": "无",
+        "exField6": "助理工程师",
+        "exField7": null
+      }
+    },
+    {
+      "officialId": "9a560f2d4144867e",
+      "name": "张晓寒",
+      "officialSections": [
+        "青年副研究员"
+      ],
+      "title": "青年副研究员",
+      "profileUrl": "http://ai.fudan.edu.cn/zxh/list.htm",
+      "portraitUrl": "https://cs.fudan.edu.cn/_upload/article/images/31/35/7592135f4f7ebb4cbff67f556c8d/99727761-5827-4eba-a2bb-c1ad47dd20f7.jpg",
+      "officialFields": {
+        "career": null,
+        "firstLetter": null,
+        "exField1": null,
+        "exField2": null,
+        "exField6": "青年副研究员",
+        "exField7": null
+      }
+    },
+    {
+      "officialId": "e343c6923ad756dc",
+      "name": "赵锴旋",
+      "officialSections": [
+        "官网未标注/无"
+      ],
+      "title": "官网未标注",
+      "profileUrl": "http://ai.fudan.edu.cn/zkx/list.htm",
+      "portraitUrl": "https://cs.fudan.edu.cn/_res/articleType/teacher_CN.jpg",
+      "officialFields": {
+        "career": null,
+        "firstLetter": null,
+        "exField1": null,
+        "exField2": null,
+        "exField6": null,
+        "exField7": null
+      }
+    },
+    {
+      "officialId": "6e656d9527a9759f",
+      "name": "赵星",
+      "officialSections": [
+        "官网未标注/无"
+      ],
+      "title": "官网未标注",
+      "profileUrl": "http://ai.fudan.edu.cn/zx/list.htm",
+      "portraitUrl": "https://cs.fudan.edu.cn/_res/articleType/teacher_CN.jpg",
+      "officialFields": {
+        "career": null,
+        "firstLetter": null,
+        "exField1": null,
+        "exField2": null,
+        "exField6": null,
+        "exField7": null
+      }
+    },
+    {
+      "officialId": "6d88ebd381afe3e7",
+      "name": "郑映芬",
+      "officialSections": [
+        "官网未标注/无"
+      ],
+      "title": "官网未标注",
+      "profileUrl": "http://ai.fudan.edu.cn/zyf1/list.htm",
+      "portraitUrl": "https://cs.fudan.edu.cn/_res/articleType/teacher_CN.jpg",
+      "officialFields": {
+        "career": null,
+        "firstLetter": null,
+        "exField1": null,
+        "exField2": null,
+        "exField6": null,
+        "exField7": null
+      }
+    },
+    {
+      "officialId": "2cfd461cd7f6123c",
+      "name": "周学功",
+      "officialSections": [
+        "官网未标注/无"
+      ],
+      "title": "官网未标注",
+      "profileUrl": "http://ai.fudan.edu.cn/zxg/list.htm",
+      "portraitUrl": "https://cs.fudan.edu.cn/_res/articleType/teacher_CN.jpg",
+      "officialFields": {
+        "career": null,
+        "firstLetter": null,
+        "exField1": null,
+        "exField2": null,
+        "exField6": null,
+        "exField7": null
+      }
+    },
+    {
+      "officialId": "28535cd78e42fd08",
+      "name": "周阳",
+      "officialSections": [
+        "官网未标注/无"
+      ],
+      "title": "官网未标注",
+      "profileUrl": "http://ai.fudan.edu.cn/zy1/list.htm",
+      "portraitUrl": "https://cs.fudan.edu.cn/_res/articleType/teacher_CN.jpg",
+      "officialFields": {
+        "career": null,
+        "firstLetter": null,
+        "exField1": null,
+        "exField2": null,
+        "exField6": null,
+        "exField7": null
+      }
+    },
+    {
+      "officialId": "7a9a29425928a6dc",
+      "name": "朱鸿斌",
+      "officialSections": [
+        "官网未标注/无"
+      ],
+      "title": "官网未标注",
+      "profileUrl": "http://ai.fudan.edu.cn/zhb/list.htm",
+      "portraitUrl": "https://cs.fudan.edu.cn/_res/articleType/teacher_CN.jpg",
+      "officialFields": {
+        "career": null,
+        "firstLetter": null,
+        "exField1": null,
+        "exField2": null,
+        "exField6": null,
+        "exField7": null
+      }
+    },
+    {
+      "officialId": "d7d51c3c95677ab4",
+      "name": "朱思语",
+      "officialSections": [
+        "官网未标注/无"
+      ],
+      "title": "官网未标注",
+      "profileUrl": "http://ai.fudan.edu.cn/zsy/list.htm",
+      "portraitUrl": "https://cs.fudan.edu.cn/_res/articleType/teacher_CN.jpg",
+      "officialFields": {
+        "career": null,
+        "firstLetter": null,
+        "exField1": null,
+        "exField2": null,
+        "exField6": null,
+        "exField7": null
+      }
+    },
+    {
+      "officialId": "b44958f7641a35a1",
+      "name": "朱雯雯",
+      "officialSections": [
+        "官网未标注/无"
+      ],
+      "title": "官网未标注",
+      "profileUrl": "http://ai.fudan.edu.cn/zww/list.htm",
+      "portraitUrl": "https://cs.fudan.edu.cn/_res/articleType/teacher_CN.jpg",
+      "officialFields": {
+        "career": null,
+        "firstLetter": null,
+        "exField1": null,
+        "exField2": null,
+        "exField6": null,
+        "exField7": null
+      }
+    },
+    {
+      "officialId": "667478d02b44e58a",
+      "name": "安海龙",
+      "officialSections": [
+        "助理工程师"
+      ],
+      "title": "助理工程师",
+      "profileUrl": "http://ai.fudan.edu.cn/ahl/list.htm",
+      "portraitUrl": "https://cs.fudan.edu.cn/_res/articleType/teacher_CN.jpg",
+      "officialFields": {
+        "career": null,
+        "firstLetter": null,
+        "exField1": null,
+        "exField2": "无",
+        "exField6": "助理工程师",
+        "exField7": null
+      }
+    },
+    {
+      "officialId": "20f25bf693306705",
+      "name": "陈真真",
+      "officialSections": [
+        "官网未标注/无"
+      ],
+      "title": "官网未标注",
+      "profileUrl": "http://ai.fudan.edu.cn/czz/list.htm",
+      "portraitUrl": "https://cs.fudan.edu.cn/_res/articleType/teacher_CN.jpg",
+      "officialFields": {
+        "career": null,
+        "firstLetter": null,
+        "exField1": null,
+        "exField2": null,
+        "exField6": null,
+        "exField7": null
+      }
+    },
+    {
+      "officialId": "a515b1af957df518",
+      "name": "程远",
+      "officialSections": [
+        "官网未标注/无"
+      ],
+      "title": "官网未标注",
+      "profileUrl": "http://ai.fudan.edu.cn/cy_50187/list.htm",
+      "portraitUrl": "https://cs.fudan.edu.cn/_res/articleType/teacher_CN.jpg",
+      "officialFields": {
+        "career": null,
+        "firstLetter": null,
+        "exField1": null,
+        "exField2": null,
+        "exField6": null,
+        "exField7": null
+      }
+    },
+    {
+      "officialId": "ae9fbe8f9b7cbc40",
+      "name": "戴嘉润",
+      "officialSections": [
+        "助理研究员"
+      ],
+      "title": "助理研究员",
+      "profileUrl": "http://ai.fudan.edu.cn/djr/list.htm",
+      "portraitUrl": "https://cs.fudan.edu.cn/_upload/article/images/f1/87/bc8295f24e2598999a6392416129/8f680a22-f08e-461c-b193-842470887de1.jpg",
+      "officialFields": {
+        "career": null,
+        "firstLetter": null,
+        "exField1": null,
+        "exField2": "无",
+        "exField6": "助理研究员",
+        "exField7": null
+      }
+    },
+    {
+      "officialId": "83ebee055d7660d8",
+      "name": "单晓玥",
+      "officialSections": [
+        "研究实习员"
+      ],
+      "title": "研究实习员",
+      "profileUrl": "http://ai.fudan.edu.cn/sxy/list.htm",
+      "portraitUrl": "https://cs.fudan.edu.cn/_res/articleType/teacher_CN.jpg",
+      "officialFields": {
+        "career": null,
+        "firstLetter": null,
+        "exField1": null,
+        "exField2": "无",
+        "exField6": "研究实习员",
+        "exField7": "S"
+      }
+    },
+    {
+      "officialId": "9f95dc6e03430595",
+      "name": "邓智友",
+      "officialSections": [
+        "助教"
+      ],
+      "title": "助教",
+      "profileUrl": "http://ai.fudan.edu.cn/dzy/list.htm",
+      "portraitUrl": "https://cs.fudan.edu.cn/_res/articleType/teacher_CN.jpg",
+      "officialFields": {
+        "career": null,
+        "firstLetter": null,
+        "exField1": null,
+        "exField2": "无",
+        "exField6": "助教",
+        "exField7": null
+      }
+    },
+    {
+      "officialId": "e44b1bb298413d46",
+      "name": "丁恒辉",
+      "officialSections": [
+        "官网未标注/无"
+      ],
+      "title": "官网未标注",
+      "profileUrl": "http://ai.fudan.edu.cn/dhh/list.htm",
+      "portraitUrl": "https://cs.fudan.edu.cn/_res/articleType/teacher_CN.jpg",
+      "officialFields": {
+        "career": null,
+        "firstLetter": null,
+        "exField1": null,
+        "exField2": null,
+        "exField6": null,
+        "exField7": null
+      }
+    },
+    {
+      "officialId": "99055d05d4e2fd60",
+      "name": "高娜",
+      "officialSections": [
+        "官网未标注/无"
+      ],
+      "title": "官网未标注",
+      "profileUrl": "http://ai.fudan.edu.cn/gn1/list.htm",
+      "portraitUrl": "https://cs.fudan.edu.cn/_res/articleType/teacher_CN.jpg",
+      "officialFields": {
+        "career": null,
+        "firstLetter": null,
+        "exField1": null,
+        "exField2": null,
+        "exField6": null,
+        "exField7": null
+      }
+    },
+    {
+      "officialId": "eea2b8cfbfc88a21",
+      "name": "葛治文",
+      "officialSections": [
+        "官网未标注/无"
+      ],
+      "title": "官网未标注",
+      "profileUrl": "http://ai.fudan.edu.cn/gzw/list.htm",
+      "portraitUrl": "https://cs.fudan.edu.cn/_res/articleType/teacher_CN.jpg",
+      "officialFields": {
+        "career": null,
+        "firstLetter": null,
+        "exField1": null,
+        "exField2": null,
+        "exField6": null,
+        "exField7": null
+      }
+    },
+    {
+      "officialId": "6f751f40ef14e2da",
+      "name": "关惠宇",
+      "officialSections": [
+        "官网未标注/无"
+      ],
+      "title": "官网未标注",
+      "profileUrl": "http://ai.fudan.edu.cn/ghy/list.htm",
+      "portraitUrl": "https://cs.fudan.edu.cn/_res/articleType/teacher_CN.jpg",
+      "officialFields": {
+        "career": null,
+        "firstLetter": null,
+        "exField1": null,
+        "exField2": null,
+        "exField6": null,
+        "exField7": null
+      }
+    },
+    {
+      "officialId": "1bcf7633d4e3eefb",
+      "name": "郭栋",
+      "officialSections": [
+        "官网未标注/无"
+      ],
+      "title": "官网未标注",
+      "profileUrl": "http://ai.fudan.edu.cn/gd/list.htm",
+      "portraitUrl": "https://cs.fudan.edu.cn/_res/articleType/teacher_CN.jpg",
+      "officialFields": {
+        "career": null,
+        "firstLetter": null,
+        "exField1": null,
+        "exField2": null,
+        "exField6": null,
+        "exField7": null
+      }
+    },
+    {
+      "officialId": "a544ded1f9ddbd10",
+      "name": "洪赓",
+      "officialSections": [
+        "助理研究员"
+      ],
+      "title": "助理研究员",
+      "profileUrl": "http://ai.fudan.edu.cn/hg/list.htm",
+      "portraitUrl": "https://cs.fudan.edu.cn/_upload/article/images/79/5f/082958b54f399f2a2c3c0b4695cd/df744998-47d0-4cce-8aa2-9483af83434c.jpg",
+      "officialFields": {
+        "career": null,
+        "firstLetter": null,
+        "exField1": null,
+        "exField2": "无",
+        "exField6": "助理研究员",
+        "exField7": null
+      }
+    },
+    {
+      "officialId": "3b675b36af530e48",
+      "name": "侯慧",
+      "officialSections": [
+        "官网未标注/无"
+      ],
+      "title": "官网未标注",
+      "profileUrl": "http://ai.fudan.edu.cn/hh1/list.htm",
+      "portraitUrl": "https://cs.fudan.edu.cn/_res/articleType/teacher_CN.jpg",
+      "officialFields": {
+        "career": null,
+        "firstLetter": null,
+        "exField1": null,
+        "exField2": null,
+        "exField6": null,
+        "exField7": null
+      }
+    },
+    {
+      "officialId": "30405ef3e61c9253",
+      "name": "胡锐",
+      "officialSections": [
+        "研究实习员"
+      ],
+      "title": "研究实习员",
+      "profileUrl": "http://ai.fudan.edu.cn/hr/list.htm",
+      "portraitUrl": "https://cs.fudan.edu.cn/_res/articleType/teacher_CN.jpg",
+      "officialFields": {
+        "career": null,
+        "firstLetter": null,
+        "exField1": null,
+        "exField2": "无",
+        "exField6": "研究实习员",
+        "exField7": null
+      }
+    },
+    {
+      "officialId": "05d08adbe13f2723",
+      "name": "胡薛梅",
+      "officialSections": [
+        "官网未标注/无"
+      ],
+      "title": "官网未标注",
+      "profileUrl": "http://ai.fudan.edu.cn/hxm/list.htm",
+      "portraitUrl": "https://cs.fudan.edu.cn/_res/articleType/teacher_CN.jpg",
+      "officialFields": {
+        "career": null,
+        "firstLetter": null,
+        "exField1": null,
+        "exField2": null,
+        "exField6": null,
+        "exField7": null
+      }
+    },
+    {
+      "officialId": "26699a26142d8d75",
+      "name": "黄橙",
+      "officialSections": [
+        "青年研究员"
+      ],
+      "title": "青年研究员",
+      "profileUrl": "http://ai.fudan.edu.cn/hc/list.htm",
+      "portraitUrl": "https://cs.fudan.edu.cn/_upload/article/images/a5/87/19facf18419292f895e18dd4a083/53fbbed2-e8e7-4a12-9142-63c94fa6f12c.jpg",
+      "officialFields": {
+        "career": null,
+        "firstLetter": null,
+        "exField1": null,
+        "exField2": "无",
+        "exField6": "青年研究员",
+        "exField7": null
+      }
+    },
+    {
+      "officialId": "a6d017aad976cea7",
+      "name": "黄岳",
+      "officialSections": [
+        "官网未标注/无"
+      ],
+      "title": "官网未标注",
+      "profileUrl": "http://ai.fudan.edu.cn/hy/list.htm",
+      "portraitUrl": "https://cs.fudan.edu.cn/_res/articleType/teacher_CN.jpg",
+      "officialFields": {
+        "career": null,
+        "firstLetter": null,
+        "exField1": null,
+        "exField2": null,
+        "exField6": null,
+        "exField7": null
+      }
+    },
+    {
+      "officialId": "71ed3d84b0afeb75",
+      "name": "黄志远",
+      "officialSections": [
+        "官网未标注/无"
+      ],
+      "title": "官网未标注",
+      "profileUrl": "http://ai.fudan.edu.cn/hzy1/list.htm",
+      "portraitUrl": "https://cs.fudan.edu.cn/_res/articleType/teacher_CN.jpg",
+      "officialFields": {
+        "career": null,
+        "firstLetter": null,
+        "exField1": null,
+        "exField2": null,
+        "exField6": null,
+        "exField7": null
+      }
+    },
+    {
+      "officialId": "d0265d8fad523b08",
+      "name": "季洁",
+      "officialSections": [
+        "官网未标注/无"
+      ],
+      "title": "官网未标注",
+      "profileUrl": "http://ai.fudan.edu.cn/jj/list.htm",
+      "portraitUrl": "https://cs.fudan.edu.cn/_res/articleType/teacher_CN.jpg",
+      "officialFields": {
+        "career": null,
+        "firstLetter": null,
+        "exField1": null,
+        "exField2": null,
+        "exField6": null,
+        "exField7": null
+      }
+    },
+    {
+      "officialId": "a5fd8b900dfe97c5",
+      "name": "江润丰",
+      "officialSections": [
+        "官网未标注/无"
+      ],
+      "title": "官网未标注",
+      "profileUrl": "http://ai.fudan.edu.cn/jrf/list.htm",
+      "portraitUrl": "https://cs.fudan.edu.cn/_res/articleType/teacher_CN.jpg",
+      "officialFields": {
+        "career": null,
+        "firstLetter": null,
+        "exField1": null,
+        "exField2": null,
+        "exField6": null,
+        "exField7": null
+      }
+    },
+    {
+      "officialId": "aabe180145d26296",
+      "name": "李昊",
+      "officialSections": [
+        "官网未标注/无"
+      ],
+      "title": "官网未标注",
+      "profileUrl": "http://ai.fudan.edu.cn/lh1/list.htm",
+      "portraitUrl": "https://cs.fudan.edu.cn/_res/articleType/teacher_CN.jpg",
+      "officialFields": {
+        "career": null,
+        "firstLetter": null,
+        "exField1": null,
+        "exField2": null,
+        "exField6": null,
+        "exField7": null
+      }
+    },
+    {
+      "officialId": "fa97ee2beae5c95c",
+      "name": "李佳奕",
+      "officialSections": [
+        "官网未标注/无"
+      ],
+      "title": "官网未标注",
+      "profileUrl": "http://ai.fudan.edu.cn/ljy/list.htm",
+      "portraitUrl": "https://cs.fudan.edu.cn/_res/articleType/teacher_CN.jpg",
+      "officialFields": {
+        "career": null,
+        "firstLetter": null,
+        "exField1": null,
+        "exField2": null,
+        "exField6": null,
+        "exField7": null
+      }
+    },
+    {
+      "officialId": "6e54b08b26c6940a",
+      "name": "李孟渚",
+      "officialSections": [
+        "官网未标注/无"
+      ],
+      "title": "官网未标注",
+      "profileUrl": "http://ai.fudan.edu.cn/lmz/list.htm",
+      "portraitUrl": "https://cs.fudan.edu.cn/_res/articleType/teacher_CN.jpg",
+      "officialFields": {
+        "career": null,
+        "firstLetter": null,
+        "exField1": null,
+        "exField2": null,
+        "exField6": null,
+        "exField7": null
+      }
+    },
+    {
+      "officialId": "f8a5265f84d519a8",
+      "name": "李维",
+      "officialSections": [
+        "官网未标注/无"
+      ],
+      "title": "官网未标注",
+      "profileUrl": "http://ai.fudan.edu.cn/lw1/list.htm",
+      "portraitUrl": "https://cs.fudan.edu.cn/_res/articleType/teacher_CN.jpg",
+      "officialFields": {
+        "career": null,
+        "firstLetter": null,
+        "exField1": null,
+        "exField2": null,
+        "exField6": null,
+        "exField7": null
+      }
+    },
+    {
+      "officialId": "94c9c78922c24076",
+      "name": "李元",
+      "officialSections": [
+        "青年副研究员"
+      ],
+      "title": "青年副研究员",
+      "profileUrl": "http://ai.fudan.edu.cn/ly/list.htm",
+      "portraitUrl": "https://cs.fudan.edu.cn/_upload/article/images/c4/ba/ecbdf6d54807ba4638aaf33323d6/9e8644ac-817f-4852-a792-cdf71c40f729.jpg",
+      "officialFields": {
+        "career": null,
+        "firstLetter": null,
+        "exField1": null,
+        "exField2": "无",
+        "exField6": "青年副研究员",
+        "exField7": null
+      }
+    },
+    {
+      "officialId": "8dc248fc6841c5a2",
+      "name": "李智鑫",
+      "officialSections": [
+        "官网未标注/无"
+      ],
+      "title": "官网未标注",
+      "profileUrl": "http://ai.fudan.edu.cn/lzx1/list.htm",
+      "portraitUrl": "https://cs.fudan.edu.cn/_res/articleType/teacher_CN.jpg",
+      "officialFields": {
+        "career": null,
+        "firstLetter": null,
+        "exField1": null,
+        "exField2": null,
+        "exField6": null,
+        "exField7": null
+      }
+    },
+    {
+      "officialId": "8b9710b405b3d708",
+      "name": "林晨森",
+      "officialSections": [
+        "官网未标注/无"
+      ],
+      "title": "官网未标注",
+      "profileUrl": "http://ai.fudan.edu.cn/lcs/list.htm",
+      "portraitUrl": "https://cs.fudan.edu.cn/_res/articleType/teacher_CN.jpg",
+      "officialFields": {
+        "career": null,
+        "firstLetter": null,
+        "exField1": null,
+        "exField2": null,
+        "exField6": null,
+        "exField7": null
+      }
+    },
+    {
+      "officialId": "ad32933dc08357b8",
+      "name": "林楚乔",
+      "officialSections": [
+        "官网未标注/无"
+      ],
+      "title": "官网未标注",
+      "profileUrl": "http://ai.fudan.edu.cn/lcq/list.htm",
+      "portraitUrl": "https://cs.fudan.edu.cn/_res/articleType/teacher_CN.jpg",
+      "officialFields": {
+        "career": null,
+        "firstLetter": null,
+        "exField1": null,
+        "exField2": null,
+        "exField6": null,
+        "exField7": null
+      }
+    },
+    {
+      "officialId": "8bca333d3bbc5ab0",
+      "name": "刘森",
+      "officialSections": [
+        "官网未标注/无"
+      ],
+      "title": "官网未标注",
+      "profileUrl": "http://ai.fudan.edu.cn/ls1/list.htm",
+      "portraitUrl": "https://cs.fudan.edu.cn/_res/articleType/teacher_CN.jpg",
+      "officialFields": {
+        "career": null,
+        "firstLetter": null,
+        "exField1": null,
+        "exField2": null,
+        "exField6": null,
+        "exField7": null
+      }
+    },
+    {
+      "officialId": "7e0bb9c5f50bee39",
+      "name": "刘天弼",
+      "officialSections": [
+        "工程师"
+      ],
+      "title": "工程师",
+      "profileUrl": "http://ai.fudan.edu.cn/ltb/list.htm",
+      "portraitUrl": "https://cs.fudan.edu.cn/_res/articleType/teacher_CN.jpg",
+      "officialFields": {
+        "career": null,
+        "firstLetter": null,
+        "exField1": null,
+        "exField2": "无",
+        "exField6": "工程师",
+        "exField7": null
+      }
+    },
+    {
+      "officialId": "6d803e9626cfa9f1",
+      "name": "娄一翎",
+      "officialSections": [
+        "青年副研究员"
+      ],
+      "title": "青年副研究员",
+      "profileUrl": "http://ai.fudan.edu.cn/lyl/list.htm",
+      "portraitUrl": "https://cs.fudan.edu.cn/_res/articleType/teacher_CN.jpg",
+      "officialFields": {
+        "career": null,
+        "firstLetter": null,
+        "exField1": null,
+        "exField2": "无",
+        "exField6": "青年副研究员",
+        "exField7": null
+      }
+    },
+    {
+      "officialId": "c25f42a319aed892",
+      "name": "吕博昊",
+      "officialSections": [
+        "官网未标注/无"
+      ],
+      "title": "官网未标注",
+      "profileUrl": "http://ai.fudan.edu.cn/lbh1/list.htm",
+      "portraitUrl": "https://cs.fudan.edu.cn/_res/articleType/teacher_CN.jpg",
+      "officialFields": {
+        "career": null,
+        "firstLetter": null,
+        "exField1": null,
+        "exField2": null,
+        "exField6": null,
+        "exField7": null
+      }
+    },
+    {
+      "officialId": "951934778651e805",
+      "name": "马晨曦",
+      "officialSections": [
+        "助理研究员"
+      ],
+      "title": "助理研究员",
+      "profileUrl": "http://ai.fudan.edu.cn/mcx/list.htm",
+      "portraitUrl": "https://cs.fudan.edu.cn/_res/articleType/teacher_CN.jpg",
+      "officialFields": {
+        "career": null,
+        "firstLetter": null,
+        "exField1": null,
+        "exField2": "无",
+        "exField6": "助理研究员",
+        "exField7": null
+      }
+    },
+    {
+      "officialId": "7f6baca963b339ca",
+      "name": "马国蓉",
+      "officialSections": [
+        "官网未标注/无"
+      ],
+      "title": "官网未标注",
+      "profileUrl": "http://ai.fudan.edu.cn/mgr/list.htm",
+      "portraitUrl": "https://cs.fudan.edu.cn/_res/articleType/teacher_CN.jpg",
+      "officialFields": {
+        "career": null,
+        "firstLetter": null,
+        "exField1": null,
+        "exField2": null,
+        "exField6": null,
+        "exField7": null
+      }
+    },
+    {
+      "officialId": "b10e0b8dd8a1c911",
+      "name": "马丽",
+      "officialSections": [
+        "官网未标注/无"
+      ],
+      "title": "官网未标注",
+      "profileUrl": "http://ai.fudan.edu.cn/ml/list.htm",
+      "portraitUrl": "https://cs.fudan.edu.cn/_res/articleType/teacher_CN.jpg",
+      "officialFields": {
+        "career": null,
+        "firstLetter": null,
+        "exField1": null,
+        "exField2": null,
+        "exField6": null,
+        "exField7": null
+      }
+    },
+    {
+      "officialId": "c2ea38bc0c0d4621",
+      "name": "马志远",
+      "officialSections": [
+        "助理工程师"
+      ],
+      "title": "助理工程师",
+      "profileUrl": "http://ai.fudan.edu.cn/mzy/list.htm",
+      "portraitUrl": "https://cs.fudan.edu.cn/_res/articleType/teacher_CN.jpg",
+      "officialFields": {
+        "career": null,
+        "firstLetter": null,
+        "exField1": null,
+        "exField2": "无",
+        "exField6": "助理工程师",
+        "exField7": null
+      }
+    },
+    {
+      "officialId": "d45abc0855713d98",
+      "name": "漆远",
+      "officialSections": [
+        "官网未标注/无"
+      ],
+      "title": "官网未标注",
+      "profileUrl": "http://ai.fudan.edu.cn/qy/list.htm",
+      "portraitUrl": "https://cs.fudan.edu.cn/_res/articleType/teacher_CN.jpg",
+      "officialFields": {
+        "career": null,
+        "firstLetter": null,
+        "exField1": null,
+        "exField2": null,
+        "exField6": null,
+        "exField7": null
+      }
+    },
+    {
+      "officialId": "41df8656d19421f4",
+      "name": "沈兴球",
+      "officialSections": [
+        "官网未标注/无"
+      ],
+      "title": "官网未标注",
+      "profileUrl": "http://ai.fudan.edu.cn/sxq/list.htm",
+      "portraitUrl": "https://cs.fudan.edu.cn/_res/articleType/teacher_CN.jpg",
+      "officialFields": {
+        "career": null,
+        "firstLetter": null,
+        "exField1": null,
+        "exField2": null,
+        "exField6": null,
+        "exField7": null
+      }
+    },
+    {
+      "officialId": "1fb328f5e238eda9",
+      "name": "沈学民",
+      "officialSections": [
+        " 院士"
+      ],
+      "title": " 院士",
+      "profileUrl": "http://ai.fudan.edu.cn/sxm/list.htm",
+      "portraitUrl": "https://cs.fudan.edu.cn/_upload/article/images/bc/c5/8879a425484b8c5c684c8654cfdb/138b12a9-fa47-4eb2-9345-2b4f59140958.png",
+      "officialFields": {
+        "career": null,
+        "firstLetter": null,
+        "exField1": null,
+        "exField2": "无",
+        "exField6": " 院士",
+        "exField7": null
+      }
+    },
+    {
+      "officialId": "504d7d71b85b768d",
+      "name": "孙靖凯",
+      "officialSections": [
+        "官网未标注/无"
+      ],
+      "title": "官网未标注",
+      "profileUrl": "http://ai.fudan.edu.cn/sjk/list.htm",
+      "portraitUrl": "https://cs.fudan.edu.cn/_res/articleType/teacher_CN.jpg",
+      "officialFields": {
+        "career": null,
+        "firstLetter": null,
+        "exField1": null,
+        "exField2": null,
+        "exField6": null,
+        "exField7": null
+      }
+    },
+    {
+      "officialId": "a6dfd7a4209761c4",
+      "name": "孙祥",
+      "officialSections": [
+        "官网未标注/无"
+      ],
+      "title": "官网未标注",
+      "profileUrl": "http://ai.fudan.edu.cn/sx1/list.htm",
+      "portraitUrl": "https://cs.fudan.edu.cn/_res/articleType/teacher_CN.jpg",
+      "officialFields": {
+        "career": null,
+        "firstLetter": null,
+        "exField1": null,
+        "exField2": null,
+        "exField6": null,
+        "exField7": null
+      }
+    },
+    {
+      "officialId": "af466027a6cf5fbf",
+      "name": "傅晓明",
+      "officialSections": [
+        "教授"
+      ],
+      "title": "教授",
+      "profileUrl": "http://ai.fudan.edu.cn/fxm/list.htm",
+      "portraitUrl": "https://cs.fudan.edu.cn/_res/articleType/teacher_CN.jpg",
+      "officialFields": {
+        "career": null,
+        "firstLetter": null,
+        "exField1": null,
+        "exField2": "无",
+        "exField6": "教授",
+        "exField7": null
+      }
+    },
+    {
+      "officialId": "14028d003fb5fdd6",
+      "name": "董震",
+      "officialSections": [
+        "副教授"
+      ],
+      "title": "副教授",
+      "profileUrl": "http://ai.fudan.edu.cn/dz/list.htm",
+      "portraitUrl": "https://cs.fudan.edu.cn/_upload/article/images/b4/2b/81a13e0543a4b23bd830f1708a9c/eb507175-73fc-42cf-ae96-047fd0784ac5.jpg",
+      "officialFields": {
+        "career": null,
+        "firstLetter": null,
+        "exField1": "副教授",
+        "exField2": "无",
+        "exField6": "副教授",
+        "exField7": null
+      }
+    },
+    {
+      "officialId": "3ff41380ee5e8070",
+      "name": "顾宁",
+      "officialSections": [
+        "讲师"
+      ],
+      "title": "讲师",
+      "profileUrl": "http://ai.fudan.edu.cn/gn11/list.htm",
+      "portraitUrl": "https://cs.fudan.edu.cn/_res/articleType/teacher_CN.jpg",
+      "officialFields": {
+        "career": null,
+        "firstLetter": null,
+        "exField1": null,
+        "exField2": null,
+        "exField6": "讲师",
+        "exField7": null
+      }
+    },
+    {
+      "officialId": "1a12090b4eca8b2b",
+      "name": "曾艺",
+      "officialSections": [
+        "助理研究员"
+      ],
+      "title": "助理研究员",
+      "profileUrl": "http://ai.fudan.edu.cn/cy_50313/list.htm",
+      "portraitUrl": "https://cs.fudan.edu.cn/_res/articleType/teacher_CN.jpg",
+      "officialFields": {
+        "career": null,
+        "firstLetter": null,
+        "exField1": null,
+        "exField2": "无",
+        "exField6": "助理研究员",
+        "exField7": "Z"
+      }
+    },
+    {
+      "officialId": "9e2e0a3b46eb345c",
+      "name": "陈利锋",
+      "officialSections": [
+        "讲师"
+      ],
+      "title": "讲师",
+      "profileUrl": "http://ai.fudan.edu.cn/clf/list.htm",
+      "portraitUrl": "https://cs.fudan.edu.cn/_res/articleType/teacher_CN.jpg",
+      "officialFields": {
+        "career": null,
+        "firstLetter": null,
+        "exField1": null,
+        "exField2": "无",
+        "exField6": "讲师",
+        "exField7": null
+      }
+    },
+    {
+      "officialId": "2744d015d2b15645",
+      "name": "陈雁秋",
+      "officialSections": [
+        "官网未标注/无"
+      ],
+      "title": "官网未标注",
+      "profileUrl": "http://ai.fudan.edu.cn/cyq/list.htm",
+      "portraitUrl": "https://cs.fudan.edu.cn/_res/articleType/teacher_CN.jpg",
+      "officialFields": {
+        "career": null,
+        "firstLetter": null,
+        "exField1": null,
+        "exField2": null,
+        "exField6": null,
+        "exField7": null
+      }
+    },
+    {
+      "officialId": "432f660cdadd6d3f",
+      "name": "丁素芬",
+      "officialSections": [
+        "助理研究员"
+      ],
+      "title": "助理研究员",
+      "profileUrl": "http://ai.fudan.edu.cn/dsf/list.htm",
+      "portraitUrl": "https://cs.fudan.edu.cn/_res/articleType/teacher_CN.jpg",
+      "officialFields": {
+        "career": null,
+        "firstLetter": null,
+        "exField1": null,
+        "exField2": "无",
+        "exField6": "助理研究员",
+        "exField7": null
+      }
+    },
+    {
+      "officialId": "72e171ac90348397",
+      "name": "窦德景",
+      "officialSections": [
+        "教授"
+      ],
+      "title": "教授",
+      "profileUrl": "http://ai.fudan.edu.cn/ddj/list.htm",
+      "portraitUrl": "https://cs.fudan.edu.cn/_res/articleType/teacher_CN.jpg",
+      "officialFields": {
+        "career": null,
+        "firstLetter": null,
+        "exField1": null,
+        "exField2": "无",
+        "exField6": "教授",
+        "exField7": null
+      }
+    },
+    {
+      "officialId": "e6fa8c7666bcefb5",
+      "name": "方旭峰",
+      "officialSections": [
+        "工程师"
+      ],
+      "title": "工程师",
+      "profileUrl": "http://ai.fudan.edu.cn/fxf/list.htm",
+      "portraitUrl": "https://cs.fudan.edu.cn/_res/articleType/teacher_CN.jpg",
+      "officialFields": {
+        "career": null,
+        "firstLetter": null,
+        "exField1": null,
+        "exField2": "无",
+        "exField6": "工程师",
+        "exField7": null
+      }
+    },
+    {
+      "officialId": "a0027b44959822bd",
+      "name": "韩丽妹",
+      "officialSections": [
+        "官网未标注/无"
+      ],
+      "title": "官网未标注",
+      "profileUrl": "http://ai.fudan.edu.cn/hlm/list.htm",
+      "portraitUrl": "https://cs.fudan.edu.cn/_res/articleType/teacher_CN.jpg",
+      "officialFields": {
+        "career": null,
+        "firstLetter": null,
+        "exField1": null,
+        "exField2": null,
+        "exField6": null,
+        "exField7": null
+      }
+    },
+    {
+      "officialId": "e330900c5e1073d8",
+      "name": "何震瀛",
+      "officialSections": [
+        "教授"
+      ],
+      "title": "教授",
+      "profileUrl": "http://ai.fudan.edu.cn/hzy2/list.htm",
+      "portraitUrl": "https://cs.fudan.edu.cn/_upload/article/images/be/8b/90ef5d6b4e79b588e55a2919c670/36602958-5200-4517-8446-4797c38b9e3f.png",
+      "officialFields": {
+        "career": null,
+        "firstLetter": null,
+        "exField1": "教授、博导",
+        "exField2": "无",
+        "exField6": "教授",
+        "exField7": null
+      }
+    },
+    {
+      "officialId": "2c7acab9212ac497",
+      "name": "吴庆宇",
+      "officialSections": [
+        "官网未标注/无"
+      ],
+      "title": "官网未标注",
+      "profileUrl": "http://ai.fudan.edu.cn/wqy/list.htm",
+      "portraitUrl": "https://cs.fudan.edu.cn/_res/articleType/teacher_CN.jpg",
+      "officialFields": {
+        "career": null,
+        "firstLetter": null,
+        "exField1": null,
+        "exField2": null,
+        "exField6": null,
+        "exField7": null
+      }
+    },
+    {
+      "officialId": "e0448739e9091218",
+      "name": "王静然",
+      "officialSections": [
+        "研究实习员"
+      ],
+      "title": "研究实习员",
+      "profileUrl": "http://ai.fudan.edu.cn/wjr/list.htm",
+      "portraitUrl": "https://cs.fudan.edu.cn/_upload/article/images/0a/f3/0204b3d143449034811ff5abaed8/c905df24-531c-4455-9597-97f1c81f5571.jpg",
+      "officialFields": {
+        "career": null,
+        "firstLetter": null,
+        "exField1": null,
+        "exField2": "无",
+        "exField6": "研究实习员",
+        "exField7": null
+      }
+    },
+    {
+      "officialId": "61333eee7ac0bbd6",
+      "name": "侯帅",
+      "officialSections": [
+        "官网未标注/无"
+      ],
+      "title": "官网未标注",
+      "profileUrl": "http://ai.fudan.edu.cn/hs/list.htm",
+      "portraitUrl": "https://cs.fudan.edu.cn/_res/articleType/teacher_CN.jpg",
+      "officialFields": {
+        "career": null,
+        "firstLetter": null,
+        "exField1": null,
+        "exField2": null,
+        "exField6": null,
+        "exField7": null
+      }
+    },
+    {
+      "officialId": "0fd0139ddf0896be",
+      "name": "胡子欣",
+      "officialSections": [
+        "官网未标注/无"
+      ],
+      "title": "官网未标注",
+      "profileUrl": "http://ai.fudan.edu.cn/hzx/list.htm",
+      "portraitUrl": "https://cs.fudan.edu.cn/_res/articleType/teacher_CN.jpg",
+      "officialFields": {
+        "career": null,
+        "firstLetter": null,
+        "exField1": null,
+        "exField2": null,
+        "exField6": null,
+        "exField7": null
+      }
+    },
+    {
+      "officialId": "2ef224d536e68bd1",
+      "name": "纪巧艳",
+      "officialSections": [
+        "官网未标注/无"
+      ],
+      "title": "官网未标注",
+      "profileUrl": "http://ai.fudan.edu.cn/jqy/list.htm",
+      "portraitUrl": "https://cs.fudan.edu.cn/_res/articleType/teacher_CN.jpg",
+      "officialFields": {
+        "career": null,
+        "firstLetter": null,
+        "exField1": null,
+        "exField2": null,
+        "exField6": null,
+        "exField7": null
+      }
+    },
+    {
+      "officialId": "4d396772db679d15",
+      "name": "李睿博",
+      "officialSections": [
+        "官网未标注/无"
+      ],
+      "title": "官网未标注",
+      "profileUrl": "http://ai.fudan.edu.cn/lrb/list.htm",
+      "portraitUrl": "https://cs.fudan.edu.cn/_res/articleType/teacher_CN.jpg",
+      "officialFields": {
+        "career": null,
+        "firstLetter": null,
+        "exField1": null,
+        "exField2": null,
+        "exField6": null,
+        "exField7": null
+      }
+    },
+    {
+      "officialId": "b6bfb06471e7b53e",
+      "name": "李弋",
+      "officialSections": [
+        "讲师"
+      ],
+      "title": "讲师",
+      "profileUrl": "http://ai.fudan.edu.cn/ly1/list.htm",
+      "portraitUrl": "https://cs.fudan.edu.cn/_res/articleType/teacher_CN.jpg",
+      "officialFields": {
+        "career": null,
+        "firstLetter": null,
+        "exField1": null,
+        "exField2": "无",
+        "exField6": "讲师",
+        "exField7": null
+      }
+    },
+    {
+      "officialId": "38faed26b5e8f125",
+      "name": "刘百祥",
+      "officialSections": [
+        "高级工程师"
+      ],
+      "title": "高级工程师",
+      "profileUrl": "http://ai.fudan.edu.cn/lbx/list.htm",
+      "portraitUrl": "https://cs.fudan.edu.cn/_res/articleType/teacher_CN.jpg",
+      "officialFields": {
+        "career": null,
+        "firstLetter": null,
+        "exField1": null,
+        "exField2": "无",
+        "exField6": "高级工程师",
+        "exField7": null
+      }
+    },
+    {
+      "officialId": "54bc04fc32f7f7f2",
+      "name": "刘存昊",
+      "officialSections": [
+        "官网未标注/无"
+      ],
+      "title": "官网未标注",
+      "profileUrl": "http://ai.fudan.edu.cn/lch/list.htm",
+      "portraitUrl": "https://cs.fudan.edu.cn/_res/articleType/teacher_CN.jpg",
+      "officialFields": {
+        "career": null,
+        "firstLetter": null,
+        "exField1": null,
+        "exField2": null,
+        "exField6": null,
+        "exField7": null
+      }
+    },
+    {
+      "officialId": "ade3afcaca4ffdbd",
+      "name": "刘钢",
+      "officialSections": [
+        "讲师"
+      ],
+      "title": "讲师",
+      "profileUrl": "http://ai.fudan.edu.cn/lg/list.htm",
+      "portraitUrl": "https://cs.fudan.edu.cn/_res/articleType/teacher_CN.jpg",
+      "officialFields": {
+        "career": null,
+        "firstLetter": null,
+        "exField1": null,
+        "exField2": "无",
+        "exField6": "讲师",
+        "exField7": null
+      }
+    },
+    {
+      "officialId": "e3afcd24cc03e9bc",
+      "name": "潘旭东",
+      "officialSections": [
+        "助理研究员"
+      ],
+      "title": "助理研究员",
+      "profileUrl": "http://ai.fudan.edu.cn/pxd/list.htm",
+      "portraitUrl": "https://cs.fudan.edu.cn/_upload/article/images/3a/a5/592ba44a491a9409eca2d1fe4c5d/be9cce93-4223-4f9f-a599-314495765065.jpg",
+      "officialFields": {
+        "career": null,
+        "firstLetter": null,
+        "exField1": null,
+        "exField2": "无",
+        "exField6": "助理研究员",
+        "exField7": null
+      }
+    },
+    {
+      "officialId": "a126450b31eaca46",
+      "name": "钱晓军",
+      "officialSections": [
+        "官网未标注/无"
+      ],
+      "title": "官网未标注",
+      "profileUrl": "http://ai.fudan.edu.cn/qxj/list.htm",
+      "portraitUrl": "https://cs.fudan.edu.cn/_res/articleType/teacher_CN.jpg",
+      "officialFields": {
+        "career": null,
+        "firstLetter": null,
+        "exField1": null,
+        "exField2": null,
+        "exField6": null,
+        "exField7": null
+      }
+    },
+    {
+      "officialId": "4814157089c0b90c",
+      "name": "尚玉婷",
+      "officialSections": [
+        "官网未标注/无"
+      ],
+      "title": "官网未标注",
+      "profileUrl": "http://ai.fudan.edu.cn/syt/list.htm",
+      "portraitUrl": "https://cs.fudan.edu.cn/_res/articleType/teacher_CN.jpg",
+      "officialFields": {
+        "career": null,
+        "firstLetter": null,
+        "exField1": null,
+        "exField2": null,
+        "exField6": null,
+        "exField7": null
+      }
+    },
+    {
+      "officialId": "c0d84f6932559633",
+      "name": "吴萍",
+      "officialSections": [
+        "官网未标注/无"
+      ],
+      "title": "官网未标注",
+      "profileUrl": "http://ai.fudan.edu.cn/wp1/list.htm",
+      "portraitUrl": "https://cs.fudan.edu.cn/_res/articleType/teacher_CN.jpg",
+      "officialFields": {
+        "career": null,
+        "firstLetter": null,
+        "exField1": null,
+        "exField2": null,
+        "exField6": null,
+        "exField7": null
+      }
+    },
+    {
+      "officialId": "9333e09868b80ac4",
+      "name": "徐淼",
+      "officialSections": [
+        "官网未标注/无"
+      ],
+      "title": "官网未标注",
+      "profileUrl": "http://ai.fudan.edu.cn/xm/list.htm",
+      "portraitUrl": "https://cs.fudan.edu.cn/_res/articleType/teacher_CN.jpg",
+      "officialFields": {
+        "career": null,
+        "firstLetter": null,
+        "exField1": null,
+        "exField2": null,
+        "exField6": null,
+        "exField7": null
+      }
+    },
+    {
+      "officialId": "776df23cee2ca2b7",
+      "name": "薛向阳",
+      "officialSections": [
+        "教授"
+      ],
+      "title": "教授",
+      "profileUrl": "http://ai.fudan.edu.cn/xxy/list.htm",
+      "portraitUrl": "https://cs.fudan.edu.cn/_upload/article/images/2f/f4/628bc075471b978b854b7720e7e3/23593d30-0e3f-4a18-afc0-b705f7fa0615.jpg",
+      "officialFields": {
+        "career": null,
+        "firstLetter": null,
+        "exField1": null,
+        "exField2": "无",
+        "exField6": "教授",
+        "exField7": null
+      }
+    },
+    {
+      "officialId": "e85a6375864cfd49",
+      "name": "杨奕彤",
+      "officialSections": [
+        "官网未标注/无"
+      ],
+      "title": "官网未标注",
+      "profileUrl": "http://ai.fudan.edu.cn/yyt/list.htm",
+      "portraitUrl": "https://cs.fudan.edu.cn/_res/articleType/teacher_CN.jpg",
+      "officialFields": {
+        "career": null,
+        "firstLetter": null,
+        "exField1": null,
+        "exField2": null,
+        "exField6": null,
+        "exField7": null
+      }
+    },
+    {
+      "officialId": "3f92dcdd8c6eb0fc",
+      "name": "叶雅珍",
+      "officialSections": [
+        "助理研究员"
+      ],
+      "title": "助理研究员",
+      "profileUrl": "http://ai.fudan.edu.cn/yyz/list.htm",
+      "portraitUrl": "https://cs.fudan.edu.cn/_res/articleType/teacher_CN.jpg",
+      "officialFields": {
+        "career": null,
+        "firstLetter": null,
+        "exField1": null,
+        "exField2": "无",
+        "exField6": "助理研究员",
+        "exField7": null
+      }
+    },
+    {
+      "officialId": "5a9de3b0e392fa69",
+      "name": "尹秀娟",
+      "officialSections": [
+        "官网未标注/无"
+      ],
+      "title": "官网未标注",
+      "profileUrl": "http://ai.fudan.edu.cn/yxj/list.htm",
+      "portraitUrl": "https://cs.fudan.edu.cn/_res/articleType/teacher_CN.jpg",
+      "officialFields": {
+        "career": null,
+        "firstLetter": null,
+        "exField1": null,
+        "exField2": null,
+        "exField6": null,
+        "exField7": null
+      }
+    },
+    {
+      "officialId": "408847955c1e86a2",
+      "name": "于佳萍",
+      "officialSections": [
+        "官网未标注/无"
+      ],
+      "title": "官网未标注",
+      "profileUrl": "http://ai.fudan.edu.cn/yjp/list.htm",
+      "portraitUrl": "https://cs.fudan.edu.cn/_res/articleType/teacher_CN.jpg",
+      "officialFields": {
+        "career": null,
+        "firstLetter": null,
+        "exField1": null,
+        "exField2": null,
+        "exField6": null,
+        "exField7": null
+      }
+    },
+    {
+      "officialId": "6705e7ff424d9109",
+      "name": "张瑞彬",
+      "officialSections": [
+        "工程师"
+      ],
+      "title": "工程师",
+      "profileUrl": "http://ai.fudan.edu.cn/zrb/list.htm",
+      "portraitUrl": "https://cs.fudan.edu.cn/_res/articleType/teacher_CN.jpg",
+      "officialFields": {
+        "career": null,
+        "firstLetter": null,
+        "exField1": null,
+        "exField2": "无",
+        "exField6": "工程师",
+        "exField7": null
+      }
+    },
+    {
+      "officialId": "410721246d024856",
+      "name": "张睿",
+      "officialSections": [
+        "高级工程师"
+      ],
+      "title": "高级工程师",
+      "profileUrl": "http://ai.fudan.edu.cn/zr_50405/list.htm",
+      "portraitUrl": "https://cs.fudan.edu.cn/_upload/article/images/0a/5b/78a915ec4bd5ab2b8a71cb6ff182/892e2d44-355b-4b79-92df-246ff8f16bd1.jpg",
+      "officialFields": {
+        "career": null,
+        "firstLetter": null,
+        "exField1": null,
+        "exField2": "无",
+        "exField6": "高级工程师",
+        "exField7": null
+      }
+    },
+    {
+      "officialId": "298dce6d4d54a276",
+      "name": "张向东",
+      "officialSections": [
+        "副教授"
+      ],
+      "title": "副教授",
+      "profileUrl": "http://ai.fudan.edu.cn/zxd/list.htm",
+      "portraitUrl": "https://cs.fudan.edu.cn/_upload/article/images/62/ce/c4140eff4b03ad26a914035bd0c4/f1824319-13f8-468e-8928-6004902885ac.jpg",
+      "officialFields": {
+        "career": null,
+        "firstLetter": null,
+        "exField1": null,
+        "exField2": "无",
+        "exField6": "副教授",
+        "exField7": null
+      }
+    },
+    {
+      "officialId": "c2407b650a242c3d",
+      "name": "周水庚",
+      "officialSections": [
+        "教授"
+      ],
+      "title": "教授",
+      "profileUrl": "http://ai.fudan.edu.cn/zsg/list.htm",
+      "portraitUrl": "https://cs.fudan.edu.cn/_upload/article/images/70/fc/91c7afb741c1b6f69c570ed50b94/490588c9-2870-43ba-b61d-c4a0d8cb2731.jpg",
+      "officialFields": {
+        "career": null,
+        "firstLetter": null,
+        "exField1": null,
+        "exField2": null,
+        "exField6": "教授",
+        "exField7": null
+      }
+    },
+    {
+      "officialId": "b086a454a442df39",
+      "name": "周向东",
+      "officialSections": [
+        "教授"
+      ],
+      "title": "教授",
+      "profileUrl": "http://ai.fudan.edu.cn/zxd1/list.htm",
+      "portraitUrl": "https://cs.fudan.edu.cn/_res/articleType/teacher_CN.jpg",
+      "officialFields": {
+        "career": null,
+        "firstLetter": null,
+        "exField1": null,
+        "exField2": "无",
+        "exField6": "教授",
+        "exField7": null
+      }
+    },
+    {
+      "officialId": "56fd77311d7de821",
+      "name": "邹宏",
+      "officialSections": [
+        "官网未标注/无"
+      ],
+      "title": "官网未标注",
+      "profileUrl": "http://ai.fudan.edu.cn/zh/list.htm",
+      "portraitUrl": "https://cs.fudan.edu.cn/_res/articleType/teacher_CN.jpg",
+      "officialFields": {
+        "career": null,
+        "firstLetter": null,
+        "exField1": null,
+        "exField2": null,
+        "exField6": null,
+        "exField7": null
+      }
+    },
+    {
+      "officialId": "77da7080ed0f8c27",
+      "name": "谢晶",
+      "officialSections": [
+        "官网未标注/无"
+      ],
+      "title": "官网未标注",
+      "profileUrl": "http://ai.fudan.edu.cn/xj/list.htm",
+      "portraitUrl": "https://cs.fudan.edu.cn/_res/articleType/teacher_CN.jpg",
+      "officialFields": {
+        "career": null,
+        "firstLetter": null,
+        "exField1": null,
+        "exField2": "无",
+        "exField6": "无",
+        "exField7": null
+      }
+    },
+    {
+      "officialId": "f1e788b0ca066332",
+      "name": "潘依伊",
+      "officialSections": [
+        "讲师"
+      ],
+      "title": "讲师",
+      "profileUrl": "http://ai.fudan.edu.cn/pyy/list.htm",
+      "portraitUrl": "https://cs.fudan.edu.cn/_res/articleType/teacher_CN.jpg",
+      "officialFields": {
+        "career": null,
+        "firstLetter": null,
+        "exField1": null,
+        "exField2": "无",
+        "exField6": "讲师",
+        "exField7": null
+      }
+    },
+    {
+      "officialId": "6681c72857542406",
+      "name": "汪源源",
+      "officialSections": [
+        "教授"
+      ],
+      "title": "教授",
+      "profileUrl": "http://ai.fudan.edu.cn/wyy/list.htm",
+      "portraitUrl": "https://cs.fudan.edu.cn/_res/articleType/teacher_CN.jpg",
+      "officialFields": {
+        "career": null,
+        "firstLetter": null,
+        "exField1": null,
+        "exField2": "无",
+        "exField6": "教授",
+        "exField7": null
+      }
+    },
+    {
+      "officialId": "55e6de0b4bc963b7",
+      "name": "蒋晶",
+      "officialSections": [
+        "副教授"
+      ],
+      "title": "副教授",
+      "profileUrl": "http://ai.fudan.edu.cn/jj1/list.htm",
+      "portraitUrl": "https://cs.fudan.edu.cn/_res/articleType/teacher_CN.jpg",
+      "officialFields": {
+        "career": null,
+        "firstLetter": null,
+        "exField1": null,
+        "exField2": "无",
+        "exField6": "副教授",
+        "exField7": null
+      }
+    },
+    {
+      "officialId": "feec6a59c96aaa03",
+      "name": "刘乐茂",
+      "officialSections": [
+        "副教授"
+      ],
+      "title": "副教授",
+      "profileUrl": "http://ai.fudan.edu.cn/llm/list.htm",
+      "portraitUrl": "https://cs.fudan.edu.cn/_upload/article/images/85/40/e65880f142ed8514895534f1dcef/5e0500f0-a5c0-4870-aa17-50e4bbfbd79f.jpg",
+      "officialFields": {
+        "career": null,
+        "firstLetter": null,
+        "exField1": null,
+        "exField2": "无",
+        "exField6": "副教授",
+        "exField7": null
+      }
+    },
+    {
+      "officialId": "45e4eb7f460e6aad",
+      "name": "杨威",
+      "officialSections": [
+        "教授"
+      ],
+      "title": "教授",
+      "profileUrl": "http://ai.fudan.edu.cn/yw/list.htm",
+      "portraitUrl": "https://cs.fudan.edu.cn/_upload/article/images/36/8c/a683c6f444ffbf682ffc9d3625ed/eff3f5cd-eaf2-4d66-b2ab-40bfc13a9728.jpg",
+      "officialFields": {
+        "career": null,
+        "firstLetter": null,
+        "exField1": null,
+        "exField2": null,
+        "exField6": "教授",
+        "exField7": null
+      }
+    },
+    {
+      "officialId": "6f3bc0ba13b2cdb2",
+      "name": "傅金兰",
+      "officialSections": [
+        "研究员"
+      ],
+      "title": "研究员",
+      "profileUrl": "http://ai.fudan.edu.cn/fjl/list.htm",
+      "portraitUrl": "https://cs.fudan.edu.cn/_upload/article/images/a1/db/3466d00b4a8b8834ab4ece1bbd78/48c5c335-252b-4a6c-86ca-44a641fdbe0f.jpg",
+      "officialFields": {
+        "career": null,
+        "firstLetter": null,
+        "exField1": null,
+        "exField2": null,
+        "exField6": "研究员",
+        "exField7": null
+      }
+    }
+  ]
+}

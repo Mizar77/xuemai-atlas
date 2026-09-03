@@ -1,0 +1,44 @@
+{
+  "schemaVersion": 1,
+  "auditedAt": "2026-09-03",
+  "module": "app/candidate-priority-p0-asia-batch-5-2026.ts",
+  "portraitDirectory": "public/portraits/candidate-p0-asia-batch-5-2026",
+  "summary": {
+    "people": 10,
+    "relationships": 0,
+    "placements": 14,
+    "groupMembers": 5,
+    "rosterPromotions": 10,
+    "ready": 10,
+    "failed": 0
+  },
+  "requiredGates": [
+    "currentIndependentPi",
+    "twoDistinctFirstPartySources",
+    "threeToFiveSourcedFacts",
+    "educationAndAcademicTrainingFact",
+    "verified512Portrait",
+    "personRelationshipOrPublicStudentTeamEvidence"
+  ],
+  "people": [
+    { "id": "andrew-horner-hkust-p0-2026", "sourceCount": 2, "factCount": 5, "placementCount": 2, "groupMemberCount": 0, "portrait": "andrew-horner.jpg", "ready": true },
+    { "id": "arpit-narechania-hkust-p0-2026", "sourceCount": 2, "factCount": 5, "placementCount": 0, "groupMemberCount": 2, "portrait": "arpit-narechania.jpg", "ready": true },
+    { "id": "binhang-yuan-hkust-p0-2026", "sourceCount": 2, "factCount": 5, "placementCount": 1, "groupMemberCount": 0, "portrait": "binhang-yuan.jpg", "ready": true },
+    { "id": "nevin-zhang-hkust-p0-2026", "sourceCount": 2, "factCount": 5, "placementCount": 2, "groupMemberCount": 0, "portrait": "nevin-zhang.jpg", "ready": true },
+    { "id": "pedro-sander-hkust-p0-2026", "sourceCount": 2, "factCount": 5, "placementCount": 2, "groupMemberCount": 0, "portrait": "pedro-sander.jpg", "ready": true },
+    { "id": "abhik-roychoudhury-nus-p0-2026", "sourceCount": 2, "factCount": 5, "placementCount": 2, "groupMemberCount": 0, "portrait": "abhik-roychoudhury.jpg", "ready": true },
+    { "id": "reza-shokri-nus-p0-2026", "sourceCount": 2, "factCount": 5, "placementCount": 0, "groupMemberCount": 2, "portrait": "reza-shokri.jpg", "ready": true },
+    { "id": "bryan-low-nus-p0-2026", "sourceCount": 2, "factCount": 5, "placementCount": 0, "groupMemberCount": 1, "portrait": "bryan-low.jpg", "ready": true },
+    { "id": "wynne-hsu-nus-p0-2026", "sourceCount": 2, "factCount": 5, "placementCount": 2, "groupMemberCount": 0, "portrait": "wynne-hsu.jpg", "ready": true },
+    { "id": "wee-sun-lee-nus-p0-2026", "sourceCount": 2, "factCount": 5, "placementCount": 3, "groupMemberCount": 0, "portrait": "wee-sun-lee.jpg", "ready": true }
+  ],
+  "checks": {
+    "uniquePersonIds": true,
+    "allFactsCarrySources": true,
+    "allPeopleHaveEducationFact": true,
+    "allPortraits512By512": true,
+    "allPeopleHaveNetworkEvidence": true,
+    "allPlacementAndGroupMemberTeacherIdsResolve": true,
+    "promotionCountMatchesPeople": true
+  }
+}

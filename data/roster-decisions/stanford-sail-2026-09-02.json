@@ -1,0 +1,990 @@
+{
+  "schemaVersion": 1,
+  "unitId": "stanford-sail",
+  "unitUrl": "https://ai.stanford.edu/faculty/",
+  "snapshotAt": "2026-09-02",
+  "rosterArtifact": "data/official-rosters/stanford-sail-faculty-2026-09-02.json",
+  "officialRosterCount": 63,
+  "decisionCount": 63,
+  "counts": {
+    "excluded_duplicate": 39,
+    "include_new_pi": 7,
+    "included_existing": 4,
+    "excluded_industry_only": 5,
+    "excluded_non_pi": 2,
+    "excluded_non_ai_cs": 1,
+    "excluded_historical": 5
+  },
+  "decisions": [
+    {
+      "officialId": "research-1",
+      "name": "Gill Bejerano",
+      "profileUrl": "http://bejerano.stanford.edu/",
+      "portraitUrl": "https://ai.stanford.edu/wp-content/uploads/2020/09/gill-bejerano.png",
+      "title": null,
+      "areas": [
+        "Computational & Experimental Genomics"
+      ],
+      "officialSection": "Faculty",
+      "sourcePageUrl": "https://ai.stanford.edu/faculty/",
+      "decision": "excluded_duplicate",
+      "reason": "同一人物已在本批次 stanford-cs unit 逐人处理；本 SAIL officialId 保留重复判断。",
+      "evidence": "Faculty; Computational & Experimental Genomics"
+    },
+    {
+      "officialId": "research-2",
+      "name": "Jeannette Bohg",
+      "profileUrl": "https://web.stanford.edu/~bohg/",
+      "portraitUrl": "https://ai.stanford.edu/wp-content/uploads/2020/09/faculty_jeanette-bohg.png",
+      "title": null,
+      "areas": [
+        "Robotics"
+      ],
+      "officialSection": "Faculty",
+      "sourcePageUrl": "https://ai.stanford.edu/faculty/",
+      "decision": "excluded_duplicate",
+      "reason": "同一人物已在本批次 stanford-cs unit 逐人处理；本 SAIL officialId 保留重复判断。",
+      "evidence": "Faculty; Robotics",
+      "atlasPersonId": "jeannette-bohg-stanford"
+    },
+    {
+      "officialId": "research-3",
+      "name": "Emma Brunskill",
+      "profileUrl": "https://www.cs.cmu.edu/~ebrun/",
+      "portraitUrl": "https://ai.stanford.edu/wp-content/uploads/2020/09/emma-brunskill.png",
+      "title": null,
+      "areas": [
+        "Reinforcement Learning & Interactive Learning"
+      ],
+      "officialSection": "Faculty",
+      "sourcePageUrl": "https://ai.stanford.edu/faculty/",
+      "decision": "excluded_duplicate",
+      "reason": "同一人物已在本批次 stanford-cs unit 逐人处理；本 SAIL officialId 保留重复判断。",
+      "evidence": "Faculty; Reinforcement Learning & Interactive Learning",
+      "atlasPersonId": "emma-brunskill-foundational"
+    },
+    {
+      "officialId": "research-4",
+      "name": "Yejin Choi",
+      "profileUrl": "https://profiles.stanford.edu/yejin-choi",
+      "portraitUrl": "https://ai.stanford.edu/wp-content/uploads/2025/09/Yejin_Choi_SAIL.jpg",
+      "title": null,
+      "areas": [],
+      "officialSection": "Faculty",
+      "sourcePageUrl": "https://ai.stanford.edu/faculty/",
+      "decision": "excluded_duplicate",
+      "reason": "同一人物已在本批次 stanford-cs unit 逐人处理；本 SAIL officialId 保留重复判断。",
+      "evidence": "Faculty; ",
+      "atlasPersonId": "yejin-choi-us"
+    },
+    {
+      "officialId": "research-5",
+      "name": "Ron Dror",
+      "profileUrl": "https://cs.stanford.edu/people/rondror/",
+      "portraitUrl": "https://ai.stanford.edu/wp-content/uploads/2020/09/ron-dror.png",
+      "title": null,
+      "areas": [
+        "Computational Biology"
+      ],
+      "officialSection": "Faculty",
+      "sourcePageUrl": "https://ai.stanford.edu/faculty/",
+      "decision": "excluded_duplicate",
+      "reason": "同一人物已在本批次 stanford-cs unit 逐人处理；本 SAIL officialId 保留重复判断。",
+      "evidence": "Faculty; Computational Biology"
+    },
+    {
+      "officialId": "research-6",
+      "name": "Stefano Ermon",
+      "profileUrl": "https://cs.stanford.edu/~ermon/",
+      "portraitUrl": "https://ai.stanford.edu/wp-content/uploads/2020/09/stefano-ermon.png",
+      "title": null,
+      "areas": [
+        "Probabilistic Reasoning, Machine Learning & Sustainability"
+      ],
+      "officialSection": "Faculty",
+      "sourcePageUrl": "https://ai.stanford.edu/faculty/",
+      "decision": "excluded_duplicate",
+      "reason": "同一人物已在本批次 stanford-cs unit 逐人处理；本 SAIL officialId 保留重复判断。",
+      "evidence": "Faculty; Probabilistic Reasoning, Machine Learning & Sustainability",
+      "atlasPersonId": "stefano-ermon-us"
+    },
+    {
+      "officialId": "research-7",
+      "name": "Ron Fedkiw",
+      "profileUrl": "http://physbam.stanford.edu/~fedkiw/",
+      "portraitUrl": "https://ai.stanford.edu/wp-content/uploads/2020/09/ron-fedkiw.png",
+      "title": null,
+      "areas": [
+        "Visual Effects, Physics, Graphics & Vision"
+      ],
+      "officialSection": "Faculty",
+      "sourcePageUrl": "https://ai.stanford.edu/faculty/",
+      "decision": "excluded_duplicate",
+      "reason": "同一人物已在本批次 stanford-cs unit 逐人处理；本 SAIL officialId 保留重复判断。",
+      "evidence": "Faculty; Visual Effects, Physics, Graphics & Vision"
+    },
+    {
+      "officialId": "research-8",
+      "name": "Chelsea Finn",
+      "profileUrl": "https://cs.stanford.edu/~cbfinn",
+      "portraitUrl": "https://ai.stanford.edu/wp-content/uploads/2020/09/chelsea-finn-2022_sm.jpg",
+      "title": null,
+      "areas": [
+        "Machine Learning, Deep Learning & Robotics"
+      ],
+      "officialSection": "Faculty",
+      "sourcePageUrl": "https://ai.stanford.edu/faculty/",
+      "decision": "excluded_duplicate",
+      "reason": "同一人物已在本批次 stanford-cs unit 逐人处理；本 SAIL officialId 保留重复判断。",
+      "evidence": "Faculty; Machine Learning, Deep Learning & Robotics",
+      "atlasPersonId": "chelsea-finn-us"
+    },
+    {
+      "officialId": "research-9",
+      "name": "Emily Fox",
+      "profileUrl": "https://emilybfox.su.domains/",
+      "portraitUrl": "https://ai.stanford.edu/wp-content/uploads/2021/10/emily-fox-2022_sm.jpg",
+      "title": null,
+      "areas": [
+        "Large-scale Bayesian dynamic modeling, machine learning for health, computational neuroscience"
+      ],
+      "officialSection": "Faculty",
+      "sourcePageUrl": "https://ai.stanford.edu/faculty/",
+      "decision": "excluded_duplicate",
+      "reason": "同一人物已在本批次 stanford-cs unit 逐人处理；本 SAIL officialId 保留重复判断。",
+      "evidence": "Faculty; Large-scale Bayesian dynamic modeling, machine learning for health, computational neuroscience"
+    },
+    {
+      "officialId": "research-10",
+      "name": "Michael Genesereth",
+      "profileUrl": "https://ai.stanford.edu/",
+      "portraitUrl": "https://ai.stanford.edu/wp-content/uploads/2020/09/michael-genesereth.png",
+      "title": null,
+      "areas": [
+        "Computational Logic"
+      ],
+      "officialSection": "Faculty",
+      "sourcePageUrl": "https://ai.stanford.edu/faculty/",
+      "decision": "excluded_duplicate",
+      "reason": "同一人物已在本批次 stanford-cs unit 逐人处理；本 SAIL officialId 保留重复判断。",
+      "evidence": "Faculty; Computational Logic"
+    },
+    {
+      "officialId": "research-11",
+      "name": "Noah Goodman",
+      "profileUrl": "https://www.stanford.edu/~ngoodman/",
+      "portraitUrl": "https://ai.stanford.edu/wp-content/uploads/2020/09/noah-goodman-2022_sm.jpg",
+      "title": null,
+      "areas": [
+        "Cognitive Science & Probabilistic Programming"
+      ],
+      "officialSection": "Faculty",
+      "sourcePageUrl": "https://ai.stanford.edu/faculty/",
+      "decision": "excluded_duplicate",
+      "reason": "同一人物已在本批次 stanford-cs unit 逐人处理；本 SAIL officialId 保留重复判断。",
+      "evidence": "Faculty; Cognitive Science & Probabilistic Programming"
+    },
+    {
+      "officialId": "research-12",
+      "name": "Carlos Guestrin",
+      "profileUrl": "http://guestrin.stanford.edu",
+      "portraitUrl": "https://ai.stanford.edu/wp-content/uploads/2021/03/carlos-guestrin.jpg",
+      "title": null,
+      "areas": [
+        "Machine Learning, Explainability, Fairness and ML Systems"
+      ],
+      "officialSection": "Faculty",
+      "sourcePageUrl": "https://ai.stanford.edu/faculty/",
+      "decision": "include_new_pi",
+      "reason": "现有 lineage 节点资料与头像未达到当前人物基线；先作为待升级 PI 接入，避免误报 included_existing。",
+      "evidence": "Faculty; Machine Learning, Explainability, Fairness and ML Systems"
+    },
+    {
+      "officialId": "research-13",
+      "name": "Leonidas Guibas",
+      "profileUrl": "https://geometry.stanford.edu/member/guibas/",
+      "portraitUrl": "https://ai.stanford.edu/wp-content/uploads/2020/09/leonidas-guibas-2022_sm.jpg",
+      "title": null,
+      "areas": [
+        "Geometric Computing & Sensors and Networks"
+      ],
+      "officialSection": "Faculty",
+      "sourcePageUrl": "https://ai.stanford.edu/faculty/",
+      "decision": "excluded_duplicate",
+      "reason": "同一人物已在本批次 stanford-cs unit 逐人处理；本 SAIL officialId 保留重复判断。",
+      "evidence": "Faculty; Geometric Computing & Sensors and Networks",
+      "atlasPersonId": "leonidas-guibas-lineage"
+    },
+    {
+      "officialId": "research-14",
+      "name": "Tatsunori Hashimoto",
+      "profileUrl": "https://thashim.github.io/",
+      "portraitUrl": "https://ai.stanford.edu/wp-content/uploads/2020/09/tatsu-ashimoto_sm.jpg",
+      "title": null,
+      "areas": [
+        "Machine Learning & Natural Language Processing"
+      ],
+      "officialSection": "Faculty",
+      "sourcePageUrl": "https://ai.stanford.edu/faculty/",
+      "decision": "excluded_duplicate",
+      "reason": "同一人物已在本批次 stanford-cs unit 逐人处理；本 SAIL officialId 保留重复判断。",
+      "evidence": "Faculty; Machine Learning & Natural Language Processing",
+      "atlasPersonId": "tatsunori-hashimoto-us"
+    },
+    {
+      "officialId": "research-15",
+      "name": "Dan Jurafsky",
+      "profileUrl": "https://web.stanford.edu/~jurafsky/",
+      "portraitUrl": "https://ai.stanford.edu/wp-content/uploads/2020/09/dan-jurafsky.png",
+      "title": null,
+      "areas": [
+        "Natural Language Processing & Speech"
+      ],
+      "officialSection": "Faculty",
+      "sourcePageUrl": "https://ai.stanford.edu/faculty/",
+      "decision": "excluded_duplicate",
+      "reason": "同一人物已在本批次 stanford-cs unit 逐人处理；本 SAIL officialId 保留重复判断。",
+      "evidence": "Faculty; Natural Language Processing & Speech",
+      "atlasPersonId": "dan-jurafsky-us"
+    },
+    {
+      "officialId": "research-16",
+      "name": "Oussama Khatib",
+      "profileUrl": "https://cs.stanford.edu/groups/manips/",
+      "portraitUrl": "https://ai.stanford.edu/wp-content/uploads/2020/09/oussama-khatib.png",
+      "title": null,
+      "areas": [
+        "Robotics"
+      ],
+      "officialSection": "Faculty",
+      "sourcePageUrl": "https://ai.stanford.edu/faculty/",
+      "decision": "excluded_duplicate",
+      "reason": "同一人物已在本批次 stanford-cs unit 逐人处理；本 SAIL officialId 保留重复判断。",
+      "evidence": "Faculty; Robotics"
+    },
+    {
+      "officialId": "research-17",
+      "name": "Sanmi Koyejo",
+      "profileUrl": "https://profiles.stanford.edu/oluwasanmi-koyejo",
+      "portraitUrl": "https://ai.stanford.edu/wp-content/uploads/2022/01/Koyejo-Profile.jpg",
+      "title": null,
+      "areas": [
+        "Trustworthy machine learning for healthcare and neuroscience"
+      ],
+      "officialSection": "Faculty",
+      "sourcePageUrl": "https://ai.stanford.edu/faculty/",
+      "decision": "excluded_duplicate",
+      "reason": "同一人物已在本批次 stanford-cs unit 逐人处理；本 SAIL officialId 保留重复判断。",
+      "evidence": "Faculty; Trustworthy machine learning for healthcare and neuroscience",
+      "atlasPersonId": "sanmi-koyejo-award"
+    },
+    {
+      "officialId": "research-18",
+      "name": "Anshul Kundaje",
+      "profileUrl": "https://sites.google.com/site/anshulkundaje/",
+      "portraitUrl": "https://ai.stanford.edu/wp-content/uploads/2020/09/Anshul-Kundaje.jpg",
+      "title": null,
+      "areas": [
+        "Computational Genomics"
+      ],
+      "officialSection": "Faculty",
+      "sourcePageUrl": "https://ai.stanford.edu/faculty/",
+      "decision": "excluded_duplicate",
+      "reason": "同一人物已在本批次 stanford-cs unit 逐人处理；本 SAIL officialId 保留重复判断。",
+      "evidence": "Faculty; Computational Genomics"
+    },
+    {
+      "officialId": "research-19",
+      "name": "Monica Lam",
+      "profileUrl": "http://cs.stanford.edu/~lam",
+      "portraitUrl": "https://ai.stanford.edu/wp-content/uploads/2021/03/monica-lam-1.jpg",
+      "title": null,
+      "areas": [
+        "Natural Language Processing/Virtual Assistants"
+      ],
+      "officialSection": "Faculty",
+      "sourcePageUrl": "https://ai.stanford.edu/faculty/",
+      "decision": "excluded_duplicate",
+      "reason": "同一人物已在本批次 stanford-cs unit 逐人处理；本 SAIL officialId 保留重复判断。",
+      "evidence": "Faculty; Natural Language Processing/Virtual Assistants",
+      "atlasPersonId": "monica-lam-stanford"
+    },
+    {
+      "officialId": "research-20",
+      "name": "Jure Leskovec",
+      "profileUrl": "https://cs.stanford.edu/people/jure/",
+      "portraitUrl": "https://ai.stanford.edu/wp-content/uploads/2020/09/jure-leskovec.png",
+      "title": null,
+      "areas": [
+        "Social Networks & Data Mining"
+      ],
+      "officialSection": "Faculty",
+      "sourcePageUrl": "https://ai.stanford.edu/faculty/",
+      "decision": "excluded_duplicate",
+      "reason": "同一人物已在本批次 stanford-cs unit 逐人处理；本 SAIL officialId 保留重复判断。",
+      "evidence": "Faculty; Social Networks & Data Mining",
+      "atlasPersonId": "jure-leskovec-lineage"
+    },
+    {
+      "officialId": "research-21",
+      "name": "Fei Fei Li",
+      "profileUrl": "https://profiles.stanford.edu/fei-fei-li/",
+      "portraitUrl": "https://ai.stanford.edu/wp-content/uploads/2020/09/Fei-Fei-Li.jpg",
+      "title": null,
+      "areas": [
+        "Computer Vision, Machine Learning & Neuroscience"
+      ],
+      "officialSection": "Faculty",
+      "sourcePageUrl": "https://ai.stanford.edu/faculty/",
+      "decision": "excluded_duplicate",
+      "reason": "同一人物已在本批次 stanford-cs unit 逐人处理；本 SAIL officialId 保留重复判断。",
+      "evidence": "Faculty; Computer Vision, Machine Learning & Neuroscience",
+      "atlasPersonId": "fei-fei-li-us"
+    },
+    {
+      "officialId": "research-22",
+      "name": "Percy Liang",
+      "profileUrl": "https://cs.stanford.edu/~pliang/",
+      "portraitUrl": "https://ai.stanford.edu/wp-content/uploads/2020/09/Percy-Liang-medium.jpeg",
+      "title": null,
+      "areas": [
+        "Machine Learning & Natural Language Processing"
+      ],
+      "officialSection": "Faculty",
+      "sourcePageUrl": "https://ai.stanford.edu/faculty/",
+      "decision": "excluded_duplicate",
+      "reason": "同一人物已在本批次 stanford-cs unit 逐人处理；本 SAIL officialId 保留重复判断。",
+      "evidence": "Faculty; Machine Learning & Natural Language Processing",
+      "atlasPersonId": "percy-liang-us"
+    },
+    {
+      "officialId": "research-23",
+      "name": "Karen Liu",
+      "profileUrl": "https://ckllab.stanford.edu/c-karen-liu",
+      "portraitUrl": "https://ai.stanford.edu/wp-content/uploads/2021/01/karen_liu.png",
+      "title": null,
+      "areas": [
+        "Computer Animation, Robotics, Reinforcement Learning, Physics Simulation, Optimal Control, and Computational Biomechanics"
+      ],
+      "officialSection": "Faculty",
+      "sourcePageUrl": "https://ai.stanford.edu/faculty/",
+      "decision": "include_new_pi",
+      "reason": "SAIL 官方当前 Faculty/Affiliated Faculty 名录直接确认其为范围内 AI PI。",
+      "evidence": "Faculty; Computer Animation, Robotics, Reinforcement Learning, Physics Simulation, Optimal Control, and Computational Biomechanics"
+    },
+    {
+      "officialId": "research-24",
+      "name": "Tengyu Ma",
+      "profileUrl": "https://ai.stanford.edu/~tengyuma/",
+      "portraitUrl": "https://ai.stanford.edu/wp-content/uploads/2020/09/tengyu-ma.png",
+      "title": null,
+      "areas": [
+        "Machine Learning, Deep Learning & Reinforcement Learning"
+      ],
+      "officialSection": "Faculty",
+      "sourcePageUrl": "https://ai.stanford.edu/faculty/",
+      "decision": "excluded_duplicate",
+      "reason": "同一人物已在本批次 stanford-cs unit 逐人处理；本 SAIL officialId 保留重复判断。",
+      "evidence": "Faculty; Machine Learning, Deep Learning & Reinforcement Learning",
+      "atlasPersonId": "tengyu-ma-award"
+    },
+    {
+      "officialId": "research-25",
+      "name": "Chris Manning",
+      "profileUrl": "https://nlp.stanford.edu/manning/",
+      "portraitUrl": "https://ai.stanford.edu/wp-content/uploads/2020/09/faculty_chris-manning.png",
+      "title": null,
+      "areas": [
+        "Natural Language Processing & Deep Learning"
+      ],
+      "officialSection": "Faculty",
+      "sourcePageUrl": "https://ai.stanford.edu/faculty/",
+      "decision": "included_existing",
+      "reason": "同名范围内 PI 已在图谱中；本 unit 仍保留一条 officialId 级判断。",
+      "evidence": "https://nlp.stanford.edu/manning/",
+      "atlasPersonId": "christopher-manning-us"
+    },
+    {
+      "officialId": "research-26",
+      "name": "Chris Re",
+      "profileUrl": "https://cs.stanford.edu/people/chrismre/",
+      "portraitUrl": "https://ai.stanford.edu/wp-content/uploads/2020/09/faculty_chris-re.png",
+      "title": null,
+      "areas": [
+        "Statistical Machine Learning & ML systems"
+      ],
+      "officialSection": "Faculty",
+      "sourcePageUrl": "https://ai.stanford.edu/faculty/",
+      "decision": "include_new_pi",
+      "reason": "SAIL 官方当前 Faculty/Affiliated Faculty 名录直接确认其为范围内 AI PI。",
+      "evidence": "Faculty; Statistical Machine Learning & ML systems"
+    },
+    {
+      "officialId": "research-27",
+      "name": "Dorsa Sadigh",
+      "profileUrl": "https://dorsa.fyi/",
+      "portraitUrl": "https://ai.stanford.edu/wp-content/uploads/2020/09/Dorsa-Sadigh-scaled.jpeg",
+      "title": null,
+      "areas": [
+        "Robotics & Control"
+      ],
+      "officialSection": "Faculty",
+      "sourcePageUrl": "https://ai.stanford.edu/faculty/",
+      "decision": "excluded_duplicate",
+      "reason": "同一人物已在本批次 stanford-cs unit 逐人处理；本 SAIL officialId 保留重复判断。",
+      "evidence": "Faculty; Robotics & Control",
+      "atlasPersonId": "dorsa-sadigh-stanford"
+    },
+    {
+      "officialId": "research-28",
+      "name": "Ken Salisbury",
+      "profileUrl": "https://sr.stanford.edu/",
+      "portraitUrl": "https://ai.stanford.edu/wp-content/uploads/2020/09/ken-salisbury.png",
+      "title": null,
+      "areas": [
+        "Robotics"
+      ],
+      "officialSection": "Faculty",
+      "sourcePageUrl": "https://ai.stanford.edu/faculty/",
+      "decision": "include_new_pi",
+      "reason": "SAIL 官方当前 Faculty/Affiliated Faculty 名录直接确认其为范围内 AI PI。",
+      "evidence": "Faculty; Robotics"
+    },
+    {
+      "officialId": "research-29",
+      "name": "Ludwig Schmidt",
+      "profileUrl": "https://profiles.stanford.edu/ludwig-schmidt",
+      "portraitUrl": "https://ai.stanford.edu/wp-content/uploads/2025/09/Ludwig_Schmidt_SAIL.jpg",
+      "title": null,
+      "areas": [],
+      "officialSection": "Faculty",
+      "sourcePageUrl": "https://ai.stanford.edu/faculty/",
+      "decision": "included_existing",
+      "reason": "同名范围内 PI 已在图谱中；本 unit 仍保留一条 officialId 级判断。",
+      "evidence": "https://profiles.stanford.edu/ludwig-schmidt",
+      "atlasPersonId": "ludwig-schmidt-uw-award"
+    },
+    {
+      "officialId": "research-30",
+      "name": "Jiajun Wu",
+      "profileUrl": "https://jiajunwu.com/",
+      "portraitUrl": "https://ai.stanford.edu/wp-content/uploads/2020/09/jiajun-wu.png",
+      "title": null,
+      "areas": [
+        "Computer Vision, Machine Learning & Cognitive Science"
+      ],
+      "officialSection": "Faculty",
+      "sourcePageUrl": "https://ai.stanford.edu/faculty/",
+      "decision": "excluded_duplicate",
+      "reason": "同一人物已在本批次 stanford-cs unit 逐人处理；本 SAIL officialId 保留重复判断。",
+      "evidence": "Faculty; Computer Vision, Machine Learning & Cognitive Science",
+      "atlasPersonId": "jiajun-wu-stanford-us"
+    },
+    {
+      "officialId": "research-31",
+      "name": "Dan Yamins",
+      "profileUrl": "https://web.stanford.edu/~yamins/",
+      "portraitUrl": "https://ai.stanford.edu/wp-content/uploads/2020/09/dan-yamins.png",
+      "title": null,
+      "areas": [
+        "Neuroscience, Computational Cognitive & Neuro-science"
+      ],
+      "officialSection": "Faculty",
+      "sourcePageUrl": "https://ai.stanford.edu/faculty/",
+      "decision": "included_existing",
+      "reason": "同名范围内 PI 已在图谱中；本 unit 仍保留一条 officialId 级判断。",
+      "evidence": "https://web.stanford.edu/~yamins/",
+      "atlasPersonId": "dan-yamins-stanford"
+    },
+    {
+      "officialId": "research-32",
+      "name": "Diyi Yang",
+      "profileUrl": "https://nlp.stanford.edu/seminar/details/diyiyang.shtml",
+      "portraitUrl": "https://ai.stanford.edu/wp-content/uploads/2022/08/Diyi_Yang_2021-scaled.jpg",
+      "title": null,
+      "areas": [
+        "Computational Social Science, Natural Language Processing"
+      ],
+      "officialSection": "Faculty",
+      "sourcePageUrl": "https://ai.stanford.edu/faculty/",
+      "decision": "excluded_duplicate",
+      "reason": "同一人物已在本批次 stanford-cs unit 逐人处理；本 SAIL officialId 保留重复判断。",
+      "evidence": "Faculty; Computational Social Science, Natural Language Processing",
+      "atlasPersonId": "diyi-yang-us"
+    },
+    {
+      "officialId": "affiliated-1",
+      "name": "Ehsan Adeli",
+      "profileUrl": "https://stanford.edu/~eadeli/",
+      "portraitUrl": "https://ai.stanford.edu/wp-content/uploads/2026/03/myphoto0011_0.jpg",
+      "title": null,
+      "areas": [
+        "Computer Vision, Computational Neuroscience, Precision Healthcare"
+      ],
+      "officialSection": "Affiliated Faculty",
+      "sourcePageUrl": "https://ai.stanford.edu/faculty/",
+      "decision": "excluded_duplicate",
+      "reason": "同一人物已在本批次 stanford-cs unit 逐人处理；本 SAIL officialId 保留重复判断。",
+      "evidence": "Affiliated Faculty; Computer Vision, Computational Neuroscience, Precision Healthcare"
+    },
+    {
+      "officialId": "affiliated-2",
+      "name": "Maneesh Agrawala",
+      "profileUrl": "https://graphics.stanford.edu/~maneesh/",
+      "portraitUrl": "https://ai.stanford.edu/wp-content/uploads/2020/09/Maneesh-Agrawala.jpg",
+      "title": null,
+      "areas": [
+        "Image and Video Processing, Visualization, Graphics & HCI"
+      ],
+      "officialSection": "Affiliated Faculty",
+      "sourcePageUrl": "https://ai.stanford.edu/faculty/",
+      "decision": "excluded_duplicate",
+      "reason": "同一人物已在本批次 stanford-cs unit 逐人处理；本 SAIL officialId 保留重复判断。",
+      "evidence": "Affiliated Faculty; Image and Video Processing, Visualization, Graphics & HCI",
+      "atlasPersonId": "maneesh-agrawala-lineage"
+    },
+    {
+      "officialId": "affiliated-3",
+      "name": "Clark Barrett",
+      "profileUrl": "https://theory.stanford.edu/~barrett/",
+      "portraitUrl": "https://ai.stanford.edu/wp-content/uploads/2022/10/Clark_Barrett_Stanford_small-1.jpg",
+      "title": null,
+      "areas": [
+        "Automated reasoning; satisfiability modulo theories (SMT); formal methods; formal verification; verification of smart contracts; verification of neural networks; AI safety; hardware design productivity and verification."
+      ],
+      "officialSection": "Affiliated Faculty",
+      "sourcePageUrl": "https://ai.stanford.edu/faculty/",
+      "decision": "excluded_duplicate",
+      "reason": "同一人物已在本批次 stanford-cs unit 逐人处理；本 SAIL officialId 保留重复判断。",
+      "evidence": "Affiliated Faculty; Automated reasoning; satisfiability modulo theories (SMT); formal methods; formal verification; verification of smart contracts; verification of neural networks; AI safety; hardware design productivity and verification."
+    },
+    {
+      "officialId": "affiliated-4",
+      "name": "John Duchi",
+      "profileUrl": "https://stanford.edu/~jduchi/",
+      "portraitUrl": "https://ai.stanford.edu/wp-content/uploads/2020/09/john-duchi.png",
+      "title": null,
+      "areas": [
+        "Machine Learning & Optimization"
+      ],
+      "officialSection": "Affiliated Faculty",
+      "sourcePageUrl": "https://ai.stanford.edu/faculty/",
+      "decision": "excluded_duplicate",
+      "reason": "同一人物已在本批次 stanford-ee unit 逐人处理；本 SAIL officialId 保留重复判断。",
+      "evidence": "Affiliated Faculty; Machine Learning & Optimization"
+    },
+    {
+      "officialId": "affiliated-5",
+      "name": "Surya Ganguli",
+      "profileUrl": "https://ganguli-gang.stanford.edu/",
+      "portraitUrl": "https://ai.stanford.edu/wp-content/uploads/2021/02/Surya-Ganguli.jpg",
+      "title": null,
+      "areas": [
+        "Theoretical Neuroscience, Machine Learning, Satistical Physics, Computational Cognitive & Neuro-science"
+      ],
+      "officialSection": "Affiliated Faculty",
+      "sourcePageUrl": "https://ai.stanford.edu/faculty/",
+      "decision": "excluded_duplicate",
+      "reason": "同一人物已在本批次 stanford-ee unit 逐人处理；本 SAIL officialId 保留重复判断。",
+      "evidence": "Affiliated Faculty; Theoretical Neuroscience, Machine Learning, Satistical Physics, Computational Cognitive & Neuro-science"
+    },
+    {
+      "officialId": "affiliated-6",
+      "name": "Thomas Icard",
+      "profileUrl": "https://stanford.edu/~icard/",
+      "portraitUrl": "https://ai.stanford.edu/wp-content/uploads/2020/09/thomas-icard.png",
+      "title": null,
+      "areas": [
+        "Logic & Philosophy"
+      ],
+      "officialSection": "Affiliated Faculty",
+      "sourcePageUrl": "https://ai.stanford.edu/faculty/",
+      "decision": "include_new_pi",
+      "reason": "SAIL 官方当前 Faculty/Affiliated Faculty 名录直接确认其为范围内 AI PI。",
+      "evidence": "Affiliated Faculty; Logic & Philosophy"
+    },
+    {
+      "officialId": "affiliated-7",
+      "name": "Mykel Kochenderfer",
+      "profileUrl": "https://mykel.kochenderfer.com/",
+      "portraitUrl": "https://ai.stanford.edu/wp-content/uploads/2020/09/mykel-kochenderfer-2022_sm.jpg",
+      "title": null,
+      "areas": [
+        "Learning & Planning"
+      ],
+      "officialSection": "Affiliated Faculty",
+      "sourcePageUrl": "https://ai.stanford.edu/faculty/",
+      "decision": "include_new_pi",
+      "reason": "SAIL 官方当前 Faculty/Affiliated Faculty 名录直接确认其为范围内 AI PI。",
+      "evidence": "Affiliated Faculty; Learning & Planning"
+    },
+    {
+      "officialId": "affiliated-8",
+      "name": "Daphne Koller",
+      "profileUrl": "https://ai.stanford.edu/~koller/index.html",
+      "portraitUrl": "https://ai.stanford.edu/wp-content/uploads/2020/09/Daphne-Koller-scaled.jpg",
+      "title": null,
+      "areas": [
+        "Bioinformatics, Probabilistic Inference & Machine Learning"
+      ],
+      "officialSection": "Affiliated Faculty",
+      "sourcePageUrl": "https://ai.stanford.edu/faculty/",
+      "decision": "excluded_industry_only",
+      "reason": "insitro 官方履历确认其为 Founder & CEO，并仅保留 Stanford adjunct faculty 身份。",
+      "evidence": "https://www.insitro.com/leadership/daphne-koller/"
+    },
+    {
+      "officialId": "affiliated-9",
+      "name": "James Landay",
+      "profileUrl": "https://profiles.stanford.edu/james-landay",
+      "portraitUrl": "https://ai.stanford.edu/wp-content/uploads/2020/09/James-Landay-medium.jpg",
+      "title": null,
+      "areas": [
+        "Human-Computer Interaction (HCI)"
+      ],
+      "officialSection": "Affiliated Faculty",
+      "sourcePageUrl": "https://ai.stanford.edu/faculty/",
+      "decision": "excluded_duplicate",
+      "reason": "同一人物已在本批次 stanford-cs unit 逐人处理；本 SAIL officialId 保留重复判断。",
+      "evidence": "Affiliated Faculty; Human-Computer Interaction (HCI)"
+    },
+    {
+      "officialId": "affiliated-10",
+      "name": "Scott Linderman",
+      "profileUrl": "https://web.stanford.edu/~swl1/",
+      "portraitUrl": "https://ai.stanford.edu/wp-content/uploads/2020/09/scott-linderman.png",
+      "title": null,
+      "areas": [
+        "Machine Learning & Computational Neuroscience"
+      ],
+      "officialSection": "Affiliated Faculty",
+      "sourcePageUrl": "https://ai.stanford.edu/faculty/",
+      "decision": "include_new_pi",
+      "reason": "SAIL 官方当前 Faculty/Affiliated Faculty 名录直接确认其为范围内 AI PI。",
+      "evidence": "Affiliated Faculty; Machine Learning & Computational Neuroscience"
+    },
+    {
+      "officialId": "affiliated-11",
+      "name": "Azalia Mirhoseini",
+      "profileUrl": "http://azaliamirhoseini.com/",
+      "portraitUrl": "https://ai.stanford.edu/wp-content/uploads/2023/11/AzaliaMirhoseini-1.jpg",
+      "title": null,
+      "areas": [
+        "Self-improving AI, AI for Computing Systems, Efficient AI"
+      ],
+      "officialSection": "Affiliated Faculty",
+      "sourcePageUrl": "https://ai.stanford.edu/faculty/",
+      "decision": "excluded_duplicate",
+      "reason": "同一人物已在本批次 stanford-cs unit 逐人处理；本 SAIL officialId 保留重复判断。",
+      "evidence": "Affiliated Faculty; Self-improving AI, AI for Computing Systems, Efficient AI",
+      "atlasPersonId": "azalia-mirhoseini-stanford"
+    },
+    {
+      "officialId": "affiliated-12",
+      "name": "Andrew Ng",
+      "profileUrl": "https://www.andrewng.org/",
+      "portraitUrl": "https://ai.stanford.edu/wp-content/uploads/2020/09/Andrew-Ng.jpg",
+      "title": null,
+      "areas": [
+        "Machine Learning & Robotics"
+      ],
+      "officialSection": "Affiliated Faculty",
+      "sourcePageUrl": "https://ai.stanford.edu/faculty/",
+      "decision": "excluded_non_pi",
+      "reason": "Stanford Profiles 将其列为 Adjunct Professor；保留在关系图作为学术—产业节点，但不计当前独立 PI。",
+      "evidence": "https://www.andrewng.org/"
+    },
+    {
+      "officialId": "affiliated-13",
+      "name": "Juan Carlos Niebles",
+      "profileUrl": "https://www.niebles.net/",
+      "portraitUrl": "https://ai.stanford.edu/wp-content/uploads/2020/09/faculty_juan-carlos-niebles.png",
+      "title": null,
+      "areas": [
+        "Computer Vision & Autonomous Driving"
+      ],
+      "officialSection": "Affiliated Faculty",
+      "sourcePageUrl": "https://ai.stanford.edu/faculty/",
+      "decision": "excluded_industry_only",
+      "reason": "本人主页确认其现任 Samsung Research America VP Research / North America AI Center 负责人，Stanford 为 adjunct 身份。",
+      "evidence": "https://www.niebles.net/"
+    },
+    {
+      "officialId": "affiliated-14",
+      "name": "Vijay Pande",
+      "profileUrl": "https://www.pandelab.org/about#bio",
+      "portraitUrl": "https://ai.stanford.edu/wp-content/uploads/2020/09/vijay-pande.png",
+      "title": null,
+      "areas": [
+        "Bioinformatics & Drug Design"
+      ],
+      "officialSection": "Affiliated Faculty",
+      "sourcePageUrl": "https://ai.stanford.edu/faculty/",
+      "decision": "excluded_industry_only",
+      "reason": "a16z 官方履历确认其现任 Bio + Health 投资负责人，Stanford 为离开全职教职后的 affiliated 身份。",
+      "evidence": "https://a16z.com/when-software-eats-bio/"
+    },
+    {
+      "officialId": "affiliated-15",
+      "name": "Marco Pavone",
+      "profileUrl": "https://web.stanford.edu/~pavone/",
+      "portraitUrl": "https://ai.stanford.edu/wp-content/uploads/2020/09/marco-pavone.png",
+      "title": null,
+      "areas": [
+        "Robotics, Decision Theory & Autonomous Vehicles"
+      ],
+      "officialSection": "Affiliated Faculty",
+      "sourcePageUrl": "https://ai.stanford.edu/faculty/",
+      "decision": "excluded_duplicate",
+      "reason": "同一人物已在本批次 stanford-ee unit 逐人处理；本 SAIL officialId 保留重复判断。",
+      "evidence": "Affiliated Faculty; Robotics, Decision Theory & Autonomous Vehicles"
+    },
+    {
+      "officialId": "affiliated-16",
+      "name": "Chris Piech",
+      "profileUrl": "https://stanford.edu/~cpiech/bio/index.html",
+      "portraitUrl": "https://ai.stanford.edu/wp-content/uploads/2020/09/faculty_chris-piech.png",
+      "title": null,
+      "areas": [
+        "Machine Learning & Education"
+      ],
+      "officialSection": "Affiliated Faculty",
+      "sourcePageUrl": "https://ai.stanford.edu/faculty/",
+      "decision": "excluded_non_pi",
+      "reason": "Stanford 公开履历为 Associate Professor of Computer Science Education / Teaching；不按研究型独立 PI 纳入。",
+      "evidence": "https://stanford.edu/~cpiech/bio/index.html"
+    },
+    {
+      "officialId": "affiliated-17",
+      "name": "Chris Potts",
+      "profileUrl": "https://web.stanford.edu/~cgpotts/",
+      "portraitUrl": "https://ai.stanford.edu/wp-content/uploads/2022/03/chris-potts-1.jpg",
+      "title": null,
+      "areas": [
+        "Computational Linguistics"
+      ],
+      "officialSection": "Affiliated Faculty",
+      "sourcePageUrl": "https://ai.stanford.edu/faculty/",
+      "decision": "included_existing",
+      "reason": "同名范围内 PI 已在图谱中；本 unit 仍保留一条 officialId 级判断。",
+      "evidence": "https://web.stanford.edu/~cgpotts/",
+      "atlasPersonId": "christopher-potts-us"
+    },
+    {
+      "officialId": "affiliated-18",
+      "name": "Rob Reich",
+      "profileUrl": "https://robreich.stanford.edu",
+      "portraitUrl": "https://ai.stanford.edu/wp-content/uploads/2021/10/Rob_Reich.jpg",
+      "title": null,
+      "areas": [
+        "Political Theory, Philanthropy, Ethics and Technology"
+      ],
+      "officialSection": "Affiliated Faculty",
+      "sourcePageUrl": "https://ai.stanford.edu/faculty/",
+      "decision": "excluded_non_ai_cs",
+      "reason": "Stanford 公共政策与政治学教授；SAIL affiliated 记录不等同于 AI/CS 独立 PI 主线。",
+      "evidence": "https://robreich.stanford.edu"
+    },
+    {
+      "officialId": "affiliated-19",
+      "name": "Silvio Savarese",
+      "profileUrl": "https://cvgl.stanford.edu/silvio/",
+      "portraitUrl": "https://ai.stanford.edu/wp-content/uploads/2020/09/Silvio-Savarese-Medium.jpg",
+      "title": null,
+      "areas": [
+        "Computer Vision & Robotics"
+      ],
+      "officialSection": "Affiliated Faculty",
+      "sourcePageUrl": "https://ai.stanford.edu/faculty/",
+      "decision": "excluded_industry_only",
+      "reason": "Salesforce 官方履历确认其现任 EVP & Chief Scientist，Stanford 为 adjunct faculty。",
+      "evidence": "https://www.salesforce.com/ai-research/leadership/"
+    },
+    {
+      "officialId": "affiliated-20",
+      "name": "Shuran Song",
+      "profileUrl": "https://shurans.github.io/",
+      "portraitUrl": "https://ai.stanford.edu/wp-content/uploads/2023/10/shuran_song.jpg",
+      "title": null,
+      "areas": [
+        "Robotics, Computer Vision"
+      ],
+      "officialSection": "Affiliated Faculty",
+      "sourcePageUrl": "https://ai.stanford.edu/faculty/",
+      "decision": "excluded_duplicate",
+      "reason": "同一人物已在本批次 stanford-cs unit 逐人处理；本 SAIL officialId 保留重复判断。",
+      "evidence": "Affiliated Faculty; Robotics, Computer Vision",
+      "atlasPersonId": "shuran-song-us"
+    },
+    {
+      "officialId": "affiliated-21",
+      "name": "Vasilis Syrgkanis",
+      "profileUrl": "https://vsyrgkanis.com/",
+      "portraitUrl": "https://ai.stanford.edu/wp-content/uploads/2023/01/vasilis_syrgkanis_sm.jpg",
+      "title": null,
+      "areas": [
+        "Causal Inference, Machine Learning, Game Theory"
+      ],
+      "officialSection": "Affiliated Faculty",
+      "sourcePageUrl": "https://ai.stanford.edu/faculty/",
+      "decision": "excluded_duplicate",
+      "reason": "同一人物已在本批次 stanford-cs unit 逐人处理；本 SAIL officialId 保留重复判断。",
+      "evidence": "Affiliated Faculty; Causal Inference, Machine Learning, Game Theory"
+    },
+    {
+      "officialId": "affiliated-22",
+      "name": "Sebastian Thrun",
+      "profileUrl": "http://robots.stanford.edu/",
+      "portraitUrl": "https://ai.stanford.edu/wp-content/uploads/2020/09/sebastian-thrun.png",
+      "title": null,
+      "areas": [
+        "Robotics & Machine Learning"
+      ],
+      "officialSection": "Affiliated Faculty",
+      "sourcePageUrl": "https://ai.stanford.edu/faculty/",
+      "decision": "excluded_industry_only",
+      "reason": "Stanford 机器人主页与当前公开履历将其定位为前 Stanford 教授及创业者；SAIL affiliated 记录不等同于当前独立 PI。",
+      "evidence": "http://robots.stanford.edu/"
+    },
+    {
+      "officialId": "affiliated-23",
+      "name": "Ellen Vitercik",
+      "profileUrl": "https://vitercik.github.io/",
+      "portraitUrl": "https://ai.stanford.edu/wp-content/uploads/2022/10/vitercik_headshot-scaled-e1665693209223.jpg",
+      "title": null,
+      "areas": [
+        "Discrete Optimization, Machine Learning, Economics"
+      ],
+      "officialSection": "Affiliated Faculty",
+      "sourcePageUrl": "https://ai.stanford.edu/faculty/",
+      "decision": "excluded_duplicate",
+      "reason": "同一人物已在本批次 stanford-cs unit 逐人处理；本 SAIL officialId 保留重复判断。",
+      "evidence": "Affiliated Faculty; Discrete Optimization, Machine Learning, Economics"
+    },
+    {
+      "officialId": "affiliated-24",
+      "name": "Gordon Wetzstein",
+      "profileUrl": "https://stanford.edu/~gordonwz/",
+      "portraitUrl": "https://ai.stanford.edu/wp-content/uploads/2026/03/gordon-wetz-2.jpg",
+      "title": null,
+      "areas": [
+        "Spatial AI, Physical AI, Video World Models"
+      ],
+      "officialSection": "Affiliated Faculty",
+      "sourcePageUrl": "https://ai.stanford.edu/faculty/",
+      "decision": "excluded_duplicate",
+      "reason": "同一人物已在本批次 stanford-ee unit 逐人处理；本 SAIL officialId 保留重复判断。",
+      "evidence": "Affiliated Faculty; Spatial AI, Physical AI, Video World Models",
+      "atlasPersonId": "gordon-wetzstein-stanford"
+    },
+    {
+      "officialId": "affiliated-25",
+      "name": "Serena Yeung",
+      "profileUrl": "https://ai.stanford.edu/~syyeung/",
+      "portraitUrl": "https://ai.stanford.edu/wp-content/uploads/2020/09/serenayeung_oval-scaled.jpg",
+      "title": null,
+      "areas": [
+        "Healthcare, Computer Vision & Deep Learning"
+      ],
+      "officialSection": "Affiliated Faculty",
+      "sourcePageUrl": "https://ai.stanford.edu/faculty/",
+      "decision": "excluded_duplicate",
+      "reason": "同一人物已在本批次 stanford-ee unit 逐人处理；本 SAIL officialId 保留重复判断。",
+      "evidence": "Affiliated Faculty; Healthcare, Computer Vision & Deep Learning"
+    },
+    {
+      "officialId": "affiliated-26",
+      "name": "James Zou",
+      "profileUrl": "https://sites.google.com/site/jamesyzou/",
+      "portraitUrl": "https://ai.stanford.edu/wp-content/uploads/2020/09/James-Zou.jpg",
+      "title": null,
+      "areas": [
+        "Machine Learning, Genomics & Health"
+      ],
+      "officialSection": "Affiliated Faculty",
+      "sourcePageUrl": "https://ai.stanford.edu/faculty/",
+      "decision": "excluded_duplicate",
+      "reason": "同一人物已在本批次 stanford-cs unit 逐人处理；本 SAIL officialId 保留重复判断。",
+      "evidence": "Affiliated Faculty; Machine Learning, Genomics & Health",
+      "atlasPersonId": "james-zou-award"
+    },
+    {
+      "officialId": "former-1",
+      "name": "Serafim Batzoglou",
+      "profileUrl": "https://www.serafimb.org/people.html/",
+      "portraitUrl": "https://ai.stanford.edu/wp-content/uploads/2020/09/Serafim-Batzoglou.png",
+      "title": null,
+      "areas": [
+        "Bioinformatics"
+      ],
+      "officialSection": "Former & Emeritus Faculty",
+      "sourcePageUrl": "https://ai.stanford.edu/faculty/",
+      "decision": "excluded_historical",
+      "reason": "SAIL 官方栏目为 Former & Emeritus Faculty。",
+      "evidence": "Former & Emeritus Faculty",
+      "atlasPersonId": "serafim-batzoglou-lineage"
+    },
+    {
+      "officialId": "former-2",
+      "name": "Edward Feigenbaum",
+      "profileUrl": "http://ksl-web.stanford.edu/people/eaf/",
+      "portraitUrl": "https://ai.stanford.edu/wp-content/uploads/2020/09/faculty_edward-feigenbaum.png",
+      "title": null,
+      "areas": [
+        "Knowledge-Based Systems"
+      ],
+      "officialSection": "Former & Emeritus Faculty",
+      "sourcePageUrl": "https://ai.stanford.edu/faculty/",
+      "decision": "excluded_historical",
+      "reason": "SAIL 官方栏目为 Former & Emeritus Faculty。",
+      "evidence": "Former & Emeritus Faculty",
+      "atlasPersonId": "edward-feigenbaum-historical"
+    },
+    {
+      "officialId": "former-3",
+      "name": "Richard Fikes",
+      "profileUrl": "https://fikes.sites.stanford.edu",
+      "portraitUrl": "https://ai.stanford.edu/wp-content/uploads/2020/09/richard-fikes.png",
+      "title": null,
+      "areas": [
+        "Knowledge Representation & Reasoning"
+      ],
+      "officialSection": "Former & Emeritus Faculty",
+      "sourcePageUrl": "https://ai.stanford.edu/faculty/",
+      "decision": "excluded_historical",
+      "reason": "SAIL 官方栏目为 Former & Emeritus Faculty。",
+      "evidence": "Former & Emeritus Faculty"
+    },
+    {
+      "officialId": "former-4",
+      "name": "Jean-Claude Latombe",
+      "profileUrl": "https://ai.stanford.edu/~latombe/",
+      "portraitUrl": "https://ai.stanford.edu/wp-content/uploads/2020/09/Jean-Claude-Latombe-Medium.jpg",
+      "title": null,
+      "areas": [
+        "Robotics & Bioinformatics"
+      ],
+      "officialSection": "Former & Emeritus Faculty",
+      "sourcePageUrl": "https://ai.stanford.edu/faculty/",
+      "decision": "excluded_historical",
+      "reason": "SAIL 官方栏目为 Former & Emeritus Faculty。",
+      "evidence": "Former & Emeritus Faculty",
+      "atlasPersonId": "jean-claude-latombe-lineage"
+    },
+    {
+      "officialId": "former-5",
+      "name": "Yoav Shoham",
+      "profileUrl": "https://robotics.stanford.edu/~shoham/",
+      "portraitUrl": "https://ai.stanford.edu/wp-content/uploads/2020/09/yoav-shoham.png",
+      "title": null,
+      "areas": [
+        "Logic, Game Theory & Multi-Agent Systems"
+      ],
+      "officialSection": "Former & Emeritus Faculty",
+      "sourcePageUrl": "https://ai.stanford.edu/faculty/",
+      "decision": "excluded_historical",
+      "reason": "SAIL 官方栏目为 Former & Emeritus Faculty。",
+      "evidence": "Former & Emeritus Faculty"
+    }
+  ]
+}

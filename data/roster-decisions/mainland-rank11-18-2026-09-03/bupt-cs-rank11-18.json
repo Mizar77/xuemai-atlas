@@ -1,0 +1,3836 @@
+{
+  "schemaVersion": 1,
+  "region": "Mainland China",
+  "rank": 17,
+  "institution": "北京邮电大学",
+  "unitId": "bupt-cs-rank11-18",
+  "unitName": "计算机学院",
+  "snapshotAt": "2026-09-02",
+  "reviewedAt": "2026-09-03",
+  "rosterArtifact": "data/official-rosters/bupt-cs-complete-faculty-2026-09-02.json",
+  "officialRosterUrl": "https://scs.bupt.edu.cn/szdw/jsml.htm",
+  "officialRosterCount": 224,
+  "decisionCount": 224,
+  "counts": {
+    "included_existing": 1,
+    "include_new_pi": 0,
+    "excluded_non_ai_cs": 0,
+    "excluded_non_pi": 0,
+    "excluded_historical": 0,
+    "excluded_industry_only": 0,
+    "excluded_insufficient_scope_evidence": 223,
+    "pending_profile_verification": 0
+  },
+  "decisions": [
+    {
+      "officialId": "https://teacher.bupt.edu.cn/zhoufeng/zh_CN/index.htm",
+      "name": "周锋",
+      "title": null,
+      "officialSections": [
+        "计算机体系结构中心"
+      ],
+      "profileUrl": "https://teacher.bupt.edu.cn/zhoufeng/zh_CN/index.htm",
+      "portraitUrl": null,
+      "sourcePageUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm",
+      "officialRosterUrl": "https://scs.bupt.edu.cn/szdw/jsml.htm",
+      "profileChecked": false,
+      "decision": "excluded_insufficient_scope_evidence",
+      "reason": "官方名录提供个人页，但页面无法解析出足够的研究方向与独立 PI 证据；本轮按证据门槛不纳入，而非推断为非 AI/CS 或非 PI。",
+      "evidenceUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm",
+      "evidenceExcerpt": "计算机体系结构中心"
+    },
+    {
+      "officialId": "https://teacher.bupt.edu.cn/daizhitao",
+      "name": "戴志涛",
+      "title": null,
+      "officialSections": [
+        "计算机体系结构中心",
+        "实验中心"
+      ],
+      "profileUrl": "https://teacher.bupt.edu.cn/daizhitao",
+      "portraitUrl": null,
+      "sourcePageUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm",
+      "officialRosterUrl": "https://scs.bupt.edu.cn/szdw/jsml.htm",
+      "profileChecked": false,
+      "decision": "excluded_insufficient_scope_evidence",
+      "reason": "官方名录提供个人页，但页面无法解析出足够的研究方向与独立 PI 证据；本轮按证据门槛不纳入，而非推断为非 AI/CS 或非 PI。",
+      "evidenceUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm",
+      "evidenceExcerpt": "计算机体系结构中心 | 实验中心"
+    },
+    {
+      "officialId": "https://teacher.bupt.edu.cn/yaowenbin",
+      "name": "姚文斌",
+      "title": null,
+      "officialSections": [
+        "计算机体系结构中心"
+      ],
+      "profileUrl": "https://teacher.bupt.edu.cn/yaowenbin",
+      "portraitUrl": null,
+      "sourcePageUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm",
+      "officialRosterUrl": "https://scs.bupt.edu.cn/szdw/jsml.htm",
+      "profileChecked": false,
+      "decision": "excluded_insufficient_scope_evidence",
+      "reason": "官方名录提供个人页，但页面无法解析出足够的研究方向与独立 PI 证据；本轮按证据门槛不纳入，而非推断为非 AI/CS 或非 PI。",
+      "evidenceUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm",
+      "evidenceExcerpt": "计算机体系结构中心"
+    },
+    {
+      "officialId": "https://teacher.bupt.edu.cn/fangpeiyu",
+      "name": "方沛宇",
+      "title": null,
+      "officialSections": [
+        "计算机体系结构中心"
+      ],
+      "profileUrl": "https://teacher.bupt.edu.cn/fangpeiyu",
+      "portraitUrl": null,
+      "sourcePageUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm",
+      "officialRosterUrl": "https://scs.bupt.edu.cn/szdw/jsml.htm",
+      "profileChecked": false,
+      "decision": "excluded_insufficient_scope_evidence",
+      "reason": "官方名录提供个人页，但页面无法解析出足够的研究方向与独立 PI 证据；本轮按证据门槛不纳入，而非推断为非 AI/CS 或非 PI。",
+      "evidenceUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm",
+      "evidenceExcerpt": "计算机体系结构中心"
+    },
+    {
+      "officialId": "https://teacher.bupt.edu.cn/jianghai/zh_CN/index.htm",
+      "name": "姜海",
+      "title": null,
+      "officialSections": [
+        "计算机体系结构中心"
+      ],
+      "profileUrl": "https://teacher.bupt.edu.cn/jianghai/zh_CN/index.htm",
+      "portraitUrl": null,
+      "sourcePageUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm",
+      "officialRosterUrl": "https://scs.bupt.edu.cn/szdw/jsml.htm",
+      "profileChecked": false,
+      "decision": "excluded_insufficient_scope_evidence",
+      "reason": "官方名录提供个人页，但页面无法解析出足够的研究方向与独立 PI 证据；本轮按证据门槛不纳入，而非推断为非 AI/CS 或非 PI。",
+      "evidenceUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm",
+      "evidenceExcerpt": "计算机体系结构中心"
+    },
+    {
+      "officialId": "http://teacher.bupt.edu.cn/lishigang/zh_CN/index.htm",
+      "name": "李士刚",
+      "title": null,
+      "officialSections": [
+        "计算机体系结构中心"
+      ],
+      "profileUrl": "http://teacher.bupt.edu.cn/lishigang/zh_CN/index.htm",
+      "portraitUrl": null,
+      "sourcePageUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm",
+      "officialRosterUrl": "https://scs.bupt.edu.cn/szdw/jsml.htm",
+      "profileChecked": false,
+      "decision": "excluded_insufficient_scope_evidence",
+      "reason": "官方名录提供个人页，但页面无法解析出足够的研究方向与独立 PI 证据；本轮按证据门槛不纳入，而非推断为非 AI/CS 或非 PI。",
+      "evidenceUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm",
+      "evidenceExcerpt": "计算机体系结构中心"
+    },
+    {
+      "officialId": "https://teacher.bupt.edu.cn/fangwei",
+      "name": "方维",
+      "title": null,
+      "officialSections": [
+        "计算机体系结构中心"
+      ],
+      "profileUrl": "https://teacher.bupt.edu.cn/fangwei",
+      "portraitUrl": null,
+      "sourcePageUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm",
+      "officialRosterUrl": "https://scs.bupt.edu.cn/szdw/jsml.htm",
+      "profileChecked": false,
+      "decision": "excluded_insufficient_scope_evidence",
+      "reason": "官方名录提供个人页，但页面无法解析出足够的研究方向与独立 PI 证据；本轮按证据门槛不纳入，而非推断为非 AI/CS 或非 PI。",
+      "evidenceUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm",
+      "evidenceExcerpt": "计算机体系结构中心"
+    },
+    {
+      "officialId": "https://teacher.bupt.edu.cn/peisongwei",
+      "name": "裴颂伟",
+      "title": null,
+      "officialSections": [
+        "计算机体系结构中心"
+      ],
+      "profileUrl": "https://teacher.bupt.edu.cn/peisongwei",
+      "portraitUrl": null,
+      "sourcePageUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm",
+      "officialRosterUrl": "https://scs.bupt.edu.cn/szdw/jsml.htm",
+      "profileChecked": false,
+      "decision": "excluded_insufficient_scope_evidence",
+      "reason": "官方名录提供个人页，但页面无法解析出足够的研究方向与独立 PI 证据；本轮按证据门槛不纳入，而非推断为非 AI/CS 或非 PI。",
+      "evidenceUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm",
+      "evidenceExcerpt": "计算机体系结构中心"
+    },
+    {
+      "officialId": "https://teacher.bupt.edu.cn/lianghongliang/zh_CN/index.htm",
+      "name": "梁洪亮",
+      "title": null,
+      "officialSections": [
+        "计算机体系结构中心"
+      ],
+      "profileUrl": "https://teacher.bupt.edu.cn/lianghongliang/zh_CN/index.htm",
+      "portraitUrl": null,
+      "sourcePageUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm",
+      "officialRosterUrl": "https://scs.bupt.edu.cn/szdw/jsml.htm",
+      "profileChecked": false,
+      "decision": "excluded_insufficient_scope_evidence",
+      "reason": "官方名录提供个人页，但页面无法解析出足够的研究方向与独立 PI 证据；本轮按证据门槛不纳入，而非推断为非 AI/CS 或非 PI。",
+      "evidenceUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm",
+      "evidenceExcerpt": "计算机体系结构中心"
+    },
+    {
+      "officialId": "https://teacher.bupt.edu.cn/yiqiuping",
+      "name": "易秋萍",
+      "title": null,
+      "officialSections": [
+        "计算机体系结构中心"
+      ],
+      "profileUrl": "https://teacher.bupt.edu.cn/yiqiuping",
+      "portraitUrl": null,
+      "sourcePageUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm",
+      "officialRosterUrl": "https://scs.bupt.edu.cn/szdw/jsml.htm",
+      "profileChecked": false,
+      "decision": "excluded_insufficient_scope_evidence",
+      "reason": "官方名录提供个人页，但页面无法解析出足够的研究方向与独立 PI 证据；本轮按证据门槛不纳入，而非推断为非 AI/CS 或非 PI。",
+      "evidenceUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm",
+      "evidenceExcerpt": "计算机体系结构中心"
+    },
+    {
+      "officialId": "https://teacher.bupt.edu.cn/huangzhibin",
+      "name": "黄智濒",
+      "title": null,
+      "officialSections": [
+        "计算机体系结构中心"
+      ],
+      "profileUrl": "https://teacher.bupt.edu.cn/huangzhibin",
+      "portraitUrl": null,
+      "sourcePageUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm",
+      "officialRosterUrl": "https://scs.bupt.edu.cn/szdw/jsml.htm",
+      "profileChecked": false,
+      "decision": "excluded_insufficient_scope_evidence",
+      "reason": "官方名录提供个人页，但页面无法解析出足够的研究方向与独立 PI 证据；本轮按证据门槛不纳入，而非推断为非 AI/CS 或非 PI。",
+      "evidenceUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm",
+      "evidenceExcerpt": "计算机体系结构中心"
+    },
+    {
+      "officialId": "https://teacher.bupt.edu.cn/luojuanjuan1",
+      "name": "罗娟娟",
+      "title": null,
+      "officialSections": [
+        "计算机体系结构中心"
+      ],
+      "profileUrl": "https://teacher.bupt.edu.cn/luojuanjuan1",
+      "portraitUrl": null,
+      "sourcePageUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm",
+      "officialRosterUrl": "https://scs.bupt.edu.cn/szdw/jsml.htm",
+      "profileChecked": false,
+      "decision": "excluded_insufficient_scope_evidence",
+      "reason": "官方名录提供个人页，但页面无法解析出足够的研究方向与独立 PI 证据；本轮按证据门槛不纳入，而非推断为非 AI/CS 或非 PI。",
+      "evidenceUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm",
+      "evidenceExcerpt": "计算机体系结构中心"
+    },
+    {
+      "officialId": "https://teacher.bupt.edu.cn/wangxueying1/zh_CN/index.htm",
+      "name": "王雪莹",
+      "title": null,
+      "officialSections": [
+        "计算机体系结构中心"
+      ],
+      "profileUrl": "https://teacher.bupt.edu.cn/wangxueying1/zh_CN/index.htm",
+      "portraitUrl": null,
+      "sourcePageUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm",
+      "officialRosterUrl": "https://scs.bupt.edu.cn/szdw/jsml.htm",
+      "profileChecked": false,
+      "decision": "excluded_insufficient_scope_evidence",
+      "reason": "官方名录提供个人页，但页面无法解析出足够的研究方向与独立 PI 证据；本轮按证据门槛不纳入，而非推断为非 AI/CS 或非 PI。",
+      "evidenceUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm",
+      "evidenceExcerpt": "计算机体系结构中心"
+    },
+    {
+      "officialId": "https://teacher.bupt.edu.cn/dujunping",
+      "name": "杜军平",
+      "title": null,
+      "officialSections": [
+        "计算机应用技术中心"
+      ],
+      "profileUrl": "https://teacher.bupt.edu.cn/dujunping",
+      "portraitUrl": null,
+      "sourcePageUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm",
+      "officialRosterUrl": "https://scs.bupt.edu.cn/szdw/jsml.htm",
+      "profileChecked": false,
+      "decision": "excluded_insufficient_scope_evidence",
+      "reason": "官方名录提供个人页，但页面无法解析出足够的研究方向与独立 PI 证据；本轮按证据门槛不纳入，而非推断为非 AI/CS 或非 PI。",
+      "evidenceUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm",
+      "evidenceExcerpt": "计算机应用技术中心"
+    },
+    {
+      "officialId": "https://teacher.bupt.edu.cn/mengxiangwu",
+      "name": "孟祥武",
+      "title": null,
+      "officialSections": [
+        "计算机应用技术中心"
+      ],
+      "profileUrl": "https://teacher.bupt.edu.cn/mengxiangwu",
+      "portraitUrl": null,
+      "sourcePageUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm",
+      "officialRosterUrl": "https://scs.bupt.edu.cn/szdw/jsml.htm",
+      "profileChecked": false,
+      "decision": "excluded_insufficient_scope_evidence",
+      "reason": "官方名录提供个人页，但页面无法解析出足够的研究方向与独立 PI 证据；本轮按证据门槛不纳入，而非推断为非 AI/CS 或非 PI。",
+      "evidenceUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm",
+      "evidenceExcerpt": "计算机应用技术中心"
+    },
+    {
+      "officialId": "https://teacher.bupt.edu.cn/dengfang",
+      "name": "邓芳",
+      "title": null,
+      "officialSections": [
+        "计算机应用技术中心"
+      ],
+      "profileUrl": "https://teacher.bupt.edu.cn/dengfang",
+      "portraitUrl": null,
+      "sourcePageUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm",
+      "officialRosterUrl": "https://scs.bupt.edu.cn/szdw/jsml.htm",
+      "profileChecked": false,
+      "decision": "excluded_insufficient_scope_evidence",
+      "reason": "官方名录提供个人页，但页面无法解析出足够的研究方向与独立 PI 证据；本轮按证据门槛不纳入，而非推断为非 AI/CS 或非 PI。",
+      "evidenceUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm",
+      "evidenceExcerpt": "计算机应用技术中心"
+    },
+    {
+      "officialId": "https://scs.bupt.edu.cn/info/1093/1340.htm",
+      "name": "叶文",
+      "title": null,
+      "officialSections": [
+        "计算机应用技术中心"
+      ],
+      "profileUrl": "https://scs.bupt.edu.cn/info/1093/1340.htm",
+      "portraitUrl": null,
+      "sourcePageUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm",
+      "officialRosterUrl": "https://scs.bupt.edu.cn/szdw/jsml.htm",
+      "profileChecked": false,
+      "decision": "excluded_insufficient_scope_evidence",
+      "reason": "官方名录提供个人页，但页面无法解析出足够的研究方向与独立 PI 证据；本轮按证据门槛不纳入，而非推断为非 AI/CS 或非 PI。",
+      "evidenceUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm",
+      "evidenceExcerpt": "计算机应用技术中心"
+    },
+    {
+      "officialId": "https://scs.bupt.edu.cn/info/1093/1337.htm",
+      "name": "刘晓鸿",
+      "title": null,
+      "officialSections": [
+        "计算机应用技术中心"
+      ],
+      "profileUrl": "https://scs.bupt.edu.cn/info/1093/1337.htm",
+      "portraitUrl": null,
+      "sourcePageUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm",
+      "officialRosterUrl": "https://scs.bupt.edu.cn/szdw/jsml.htm",
+      "profileChecked": false,
+      "decision": "excluded_insufficient_scope_evidence",
+      "reason": "官方名录提供个人页，但页面无法解析出足够的研究方向与独立 PI 证据；本轮按证据门槛不纳入，而非推断为非 AI/CS 或非 PI。",
+      "evidenceUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm",
+      "evidenceExcerpt": "计算机应用技术中心"
+    },
+    {
+      "officialId": "https://teacher.bupt.edu.cn/wangxiaoru",
+      "name": "王晓茹",
+      "title": null,
+      "officialSections": [
+        "计算机应用技术中心"
+      ],
+      "profileUrl": "https://teacher.bupt.edu.cn/wangxiaoru",
+      "portraitUrl": null,
+      "sourcePageUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm",
+      "officialRosterUrl": "https://scs.bupt.edu.cn/szdw/jsml.htm",
+      "profileChecked": false,
+      "decision": "excluded_insufficient_scope_evidence",
+      "reason": "官方名录提供个人页，但页面无法解析出足够的研究方向与独立 PI 证据；本轮按证据门槛不纳入，而非推断为非 AI/CS 或非 PI。",
+      "evidenceUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm",
+      "evidenceExcerpt": "计算机应用技术中心"
+    },
+    {
+      "officialId": "https://teacher.bupt.edu.cn/panweimin/zh_CN/index.htm",
+      "name": "潘维民",
+      "title": null,
+      "officialSections": [
+        "计算机应用技术中心"
+      ],
+      "profileUrl": "https://teacher.bupt.edu.cn/panweimin/zh_CN/index.htm",
+      "portraitUrl": null,
+      "sourcePageUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm",
+      "officialRosterUrl": "https://scs.bupt.edu.cn/szdw/jsml.htm",
+      "profileChecked": false,
+      "decision": "excluded_insufficient_scope_evidence",
+      "reason": "官方名录提供个人页，但页面无法解析出足够的研究方向与独立 PI 证据；本轮按证据门槛不纳入，而非推断为非 AI/CS 或非 PI。",
+      "evidenceUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm",
+      "evidenceExcerpt": "计算机应用技术中心"
+    },
+    {
+      "officialId": "https://teacher.bupt.edu.cn/liangmeiyu",
+      "name": "梁美玉",
+      "title": null,
+      "officialSections": [
+        "计算机应用技术中心"
+      ],
+      "profileUrl": "https://teacher.bupt.edu.cn/liangmeiyu",
+      "portraitUrl": null,
+      "sourcePageUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm",
+      "officialRosterUrl": "https://scs.bupt.edu.cn/szdw/jsml.htm",
+      "profileChecked": false,
+      "decision": "excluded_insufficient_scope_evidence",
+      "reason": "官方名录提供个人页，但页面无法解析出足够的研究方向与独立 PI 证据；本轮按证据门槛不纳入，而非推断为非 AI/CS 或非 PI。",
+      "evidenceUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm",
+      "evidenceExcerpt": "计算机应用技术中心"
+    },
+    {
+      "officialId": "https://teacher.bupt.edu.cn/xuezhe",
+      "name": "薛哲",
+      "title": null,
+      "officialSections": [
+        "计算机应用技术中心"
+      ],
+      "profileUrl": "https://teacher.bupt.edu.cn/xuezhe",
+      "portraitUrl": null,
+      "sourcePageUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm",
+      "officialRosterUrl": "https://scs.bupt.edu.cn/szdw/jsml.htm",
+      "profileChecked": false,
+      "decision": "excluded_insufficient_scope_evidence",
+      "reason": "官方名录提供个人页，但页面无法解析出足够的研究方向与独立 PI 证据；本轮按证据门槛不纳入，而非推断为非 AI/CS 或非 PI。",
+      "evidenceUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm",
+      "evidenceExcerpt": "计算机应用技术中心"
+    },
+    {
+      "officialId": "https://teacher.bupt.edu.cn/shaoyingxia",
+      "name": "邵蓥侠",
+      "title": null,
+      "officialSections": [
+        "计算机应用技术中心"
+      ],
+      "profileUrl": "https://teacher.bupt.edu.cn/shaoyingxia",
+      "portraitUrl": null,
+      "sourcePageUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm",
+      "officialRosterUrl": "https://scs.bupt.edu.cn/szdw/jsml.htm",
+      "profileChecked": false,
+      "decision": "excluded_insufficient_scope_evidence",
+      "reason": "官方名录提供个人页，但页面无法解析出足够的研究方向与独立 PI 证据；本轮按证据门槛不纳入，而非推断为非 AI/CS 或非 PI。",
+      "evidenceUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm",
+      "evidenceExcerpt": "计算机应用技术中心"
+    },
+    {
+      "officialId": "https://teacher.bupt.edu.cn/xiaochen",
+      "name": "肖晨",
+      "title": null,
+      "officialSections": [
+        "计算机应用技术中心"
+      ],
+      "profileUrl": "https://teacher.bupt.edu.cn/xiaochen",
+      "portraitUrl": null,
+      "sourcePageUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm",
+      "officialRosterUrl": "https://scs.bupt.edu.cn/szdw/jsml.htm",
+      "profileChecked": false,
+      "decision": "excluded_insufficient_scope_evidence",
+      "reason": "官方名录提供个人页，但页面无法解析出足够的研究方向与独立 PI 证据；本轮按证据门槛不纳入，而非推断为非 AI/CS 或非 PI。",
+      "evidenceUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm",
+      "evidenceExcerpt": "计算机应用技术中心"
+    },
+    {
+      "officialId": "https://teacher.bupt.edu.cn/liubingyan/zh_CN/index.htm",
+      "name": "刘炳言",
+      "title": null,
+      "officialSections": [
+        "计算机应用技术中心"
+      ],
+      "profileUrl": "https://teacher.bupt.edu.cn/liubingyan/zh_CN/index.htm",
+      "portraitUrl": null,
+      "sourcePageUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm",
+      "officialRosterUrl": "https://scs.bupt.edu.cn/szdw/jsml.htm",
+      "profileChecked": false,
+      "decision": "excluded_insufficient_scope_evidence",
+      "reason": "官方名录提供个人页，但页面无法解析出足够的研究方向与独立 PI 证据；本轮按证据门槛不纳入，而非推断为非 AI/CS 或非 PI。",
+      "evidenceUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm",
+      "evidenceExcerpt": "计算机应用技术中心"
+    },
+    {
+      "officialId": "https://teacher.bupt.edu.cn/yeguanhua/zh_CN/index.htm",
+      "name": "叶冠华",
+      "title": null,
+      "officialSections": [
+        "计算机应用技术中心"
+      ],
+      "profileUrl": "https://teacher.bupt.edu.cn/yeguanhua/zh_CN/index.htm",
+      "portraitUrl": null,
+      "sourcePageUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm",
+      "officialRosterUrl": "https://scs.bupt.edu.cn/szdw/jsml.htm",
+      "profileChecked": false,
+      "decision": "excluded_insufficient_scope_evidence",
+      "reason": "官方名录提供个人页，但页面无法解析出足够的研究方向与独立 PI 证据；本轮按证据门槛不纳入，而非推断为非 AI/CS 或非 PI。",
+      "evidenceUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm",
+      "evidenceExcerpt": "计算机应用技术中心"
+    },
+    {
+      "officialId": "https://teacher.bupt.edu.cn/niushaozhang",
+      "name": "牛少彰",
+      "title": null,
+      "officialSections": [
+        "计算机软件与理论中心"
+      ],
+      "profileUrl": "https://teacher.bupt.edu.cn/niushaozhang",
+      "portraitUrl": null,
+      "sourcePageUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm",
+      "officialRosterUrl": "https://scs.bupt.edu.cn/szdw/jsml.htm",
+      "profileChecked": false,
+      "decision": "excluded_insufficient_scope_evidence",
+      "reason": "官方名录提供个人页，但页面无法解析出足够的研究方向与独立 PI 证据；本轮按证据门槛不纳入，而非推断为非 AI/CS 或非 PI。",
+      "evidenceUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm",
+      "evidenceExcerpt": "计算机软件与理论中心"
+    },
+    {
+      "officialId": "https://teacher.bupt.edu.cn/zuoxingquan",
+      "name": "左兴权",
+      "title": null,
+      "officialSections": [
+        "计算机软件与理论中心"
+      ],
+      "profileUrl": "https://teacher.bupt.edu.cn/zuoxingquan",
+      "portraitUrl": null,
+      "sourcePageUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm",
+      "officialRosterUrl": "https://scs.bupt.edu.cn/szdw/jsml.htm",
+      "profileChecked": false,
+      "decision": "excluded_insufficient_scope_evidence",
+      "reason": "官方名录提供个人页，但页面无法解析出足够的研究方向与独立 PI 证据；本轮按证据门槛不纳入，而非推断为非 AI/CS 或非 PI。",
+      "evidenceUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm",
+      "evidenceExcerpt": "计算机软件与理论中心"
+    },
+    {
+      "officialId": "https://teacher.bupt.edu.cn/yangjuan",
+      "name": "杨娟",
+      "title": null,
+      "officialSections": [
+        "计算机软件与理论中心"
+      ],
+      "profileUrl": "https://teacher.bupt.edu.cn/yangjuan",
+      "portraitUrl": null,
+      "sourcePageUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm",
+      "officialRosterUrl": "https://scs.bupt.edu.cn/szdw/jsml.htm",
+      "profileChecked": false,
+      "decision": "excluded_insufficient_scope_evidence",
+      "reason": "官方名录提供个人页，但页面无法解析出足够的研究方向与独立 PI 证据；本轮按证据门槛不纳入，而非推断为非 AI/CS 或非 PI。",
+      "evidenceUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm",
+      "evidenceExcerpt": "计算机软件与理论中心"
+    },
+    {
+      "officialId": "https://teacher.bupt.edu.cn/wangpengfei",
+      "name": "王鹏飞",
+      "title": null,
+      "officialSections": [
+        "计算机软件与理论中心"
+      ],
+      "profileUrl": "https://teacher.bupt.edu.cn/wangpengfei",
+      "portraitUrl": null,
+      "sourcePageUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm",
+      "officialRosterUrl": "https://scs.bupt.edu.cn/szdw/jsml.htm",
+      "profileChecked": false,
+      "decision": "excluded_insufficient_scope_evidence",
+      "reason": "官方名录提供个人页，但页面无法解析出足够的研究方向与独立 PI 证据；本轮按证据门槛不纳入，而非推断为非 AI/CS 或非 PI。",
+      "evidenceUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm",
+      "evidenceExcerpt": "计算机软件与理论中心"
+    },
+    {
+      "officialId": "https://teacher.bupt.edu.cn/yangya",
+      "name": "杨亚",
+      "title": null,
+      "officialSections": [
+        "计算机软件与理论中心"
+      ],
+      "profileUrl": "https://teacher.bupt.edu.cn/yangya",
+      "portraitUrl": null,
+      "sourcePageUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm",
+      "officialRosterUrl": "https://scs.bupt.edu.cn/szdw/jsml.htm",
+      "profileChecked": false,
+      "decision": "excluded_insufficient_scope_evidence",
+      "reason": "官方名录提供个人页，但页面无法解析出足够的研究方向与独立 PI 证据；本轮按证据门槛不纳入，而非推断为非 AI/CS 或非 PI。",
+      "evidenceUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm",
+      "evidenceExcerpt": "计算机软件与理论中心"
+    },
+    {
+      "officialId": "https://teacher.bupt.edu.cn/chenhong1/zh_CN/index.htm",
+      "name": "陈洪",
+      "title": null,
+      "officialSections": [
+        "计算机软件与理论中心"
+      ],
+      "profileUrl": "https://teacher.bupt.edu.cn/chenhong1/zh_CN/index.htm",
+      "portraitUrl": null,
+      "sourcePageUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm",
+      "officialRosterUrl": "https://scs.bupt.edu.cn/szdw/jsml.htm",
+      "profileChecked": false,
+      "decision": "excluded_insufficient_scope_evidence",
+      "reason": "官方名录提供个人页，但页面无法解析出足够的研究方向与独立 PI 证据；本轮按证据门槛不纳入，而非推断为非 AI/CS 或非 PI。",
+      "evidenceUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm",
+      "evidenceExcerpt": "计算机软件与理论中心"
+    },
+    {
+      "officialId": "https://teacher.bupt.edu.cn/guyonghao",
+      "name": "谷勇浩",
+      "title": null,
+      "officialSections": [
+        "计算机软件与理论中心"
+      ],
+      "profileUrl": "https://teacher.bupt.edu.cn/guyonghao",
+      "portraitUrl": null,
+      "sourcePageUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm",
+      "officialRosterUrl": "https://scs.bupt.edu.cn/szdw/jsml.htm",
+      "profileChecked": false,
+      "decision": "excluded_insufficient_scope_evidence",
+      "reason": "官方名录提供个人页，但页面无法解析出足够的研究方向与独立 PI 证据；本轮按证据门槛不纳入，而非推断为非 AI/CS 或非 PI。",
+      "evidenceUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm",
+      "evidenceExcerpt": "计算机软件与理论中心"
+    },
+    {
+      "officialId": "https://teacher.bupt.edu.cn/hhuang",
+      "name": "黄海",
+      "title": null,
+      "officialSections": [
+        "计算机软件与理论中心"
+      ],
+      "profileUrl": "https://teacher.bupt.edu.cn/hhuang",
+      "portraitUrl": null,
+      "sourcePageUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm",
+      "officialRosterUrl": "https://scs.bupt.edu.cn/szdw/jsml.htm",
+      "profileChecked": false,
+      "decision": "excluded_insufficient_scope_evidence",
+      "reason": "官方名录提供个人页，但页面无法解析出足够的研究方向与独立 PI 证据；本轮按证据门槛不纳入，而非推断为非 AI/CS 或非 PI。",
+      "evidenceUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm",
+      "evidenceExcerpt": "计算机软件与理论中心"
+    },
+    {
+      "officialId": "https://teacher.bupt.edu.cn/duxiaofeng",
+      "name": "杜晓峰",
+      "title": null,
+      "officialSections": [
+        "计算机软件与理论中心"
+      ],
+      "profileUrl": "https://teacher.bupt.edu.cn/duxiaofeng",
+      "portraitUrl": null,
+      "sourcePageUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm",
+      "officialRosterUrl": "https://scs.bupt.edu.cn/szdw/jsml.htm",
+      "profileChecked": false,
+      "decision": "excluded_insufficient_scope_evidence",
+      "reason": "官方名录提供个人页，但页面无法解析出足够的研究方向与独立 PI 证据；本轮按证据门槛不纳入，而非推断为非 AI/CS 或非 PI。",
+      "evidenceUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm",
+      "evidenceExcerpt": "计算机软件与理论中心"
+    },
+    {
+      "officialId": "https://teacher.bupt.edu.cn/xuke",
+      "name": "许可",
+      "title": null,
+      "officialSections": [
+        "计算机软件与理论中心"
+      ],
+      "profileUrl": "https://teacher.bupt.edu.cn/xuke",
+      "portraitUrl": null,
+      "sourcePageUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm",
+      "officialRosterUrl": "https://scs.bupt.edu.cn/szdw/jsml.htm",
+      "profileChecked": false,
+      "decision": "excluded_insufficient_scope_evidence",
+      "reason": "官方名录提供个人页，但页面无法解析出足够的研究方向与独立 PI 证据；本轮按证据门槛不纳入，而非推断为非 AI/CS 或非 PI。",
+      "evidenceUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm",
+      "evidenceExcerpt": "计算机软件与理论中心"
+    },
+    {
+      "officialId": "https://teacher.bupt.edu.cn/zhangyanmei",
+      "name": "张艳梅",
+      "title": null,
+      "officialSections": [
+        "计算机软件与理论中心"
+      ],
+      "profileUrl": "https://teacher.bupt.edu.cn/zhangyanmei",
+      "portraitUrl": null,
+      "sourcePageUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm",
+      "officialRosterUrl": "https://scs.bupt.edu.cn/szdw/jsml.htm",
+      "profileChecked": false,
+      "decision": "excluded_insufficient_scope_evidence",
+      "reason": "官方名录提供个人页，但页面无法解析出足够的研究方向与独立 PI 证据；本轮按证据门槛不纳入，而非推断为非 AI/CS 或非 PI。",
+      "evidenceUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm",
+      "evidenceExcerpt": "计算机软件与理论中心"
+    },
+    {
+      "officialId": "https://teacher.bupt.edu.cn/yuanbaoku",
+      "name": "袁宝库",
+      "title": null,
+      "officialSections": [
+        "计算机软件与理论中心"
+      ],
+      "profileUrl": "https://teacher.bupt.edu.cn/yuanbaoku",
+      "portraitUrl": null,
+      "sourcePageUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm",
+      "officialRosterUrl": "https://scs.bupt.edu.cn/szdw/jsml.htm",
+      "profileChecked": false,
+      "decision": "excluded_insufficient_scope_evidence",
+      "reason": "官方名录提供个人页，但页面无法解析出足够的研究方向与独立 PI 证据；本轮按证据门槛不纳入，而非推断为非 AI/CS 或非 PI。",
+      "evidenceUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm",
+      "evidenceExcerpt": "计算机软件与理论中心"
+    },
+    {
+      "officialId": "https://teacher.bupt.edu.cn/zhouchunyan",
+      "name": "周春燕",
+      "title": null,
+      "officialSections": [
+        "计算机软件与理论中心"
+      ],
+      "profileUrl": "https://teacher.bupt.edu.cn/zhouchunyan",
+      "portraitUrl": null,
+      "sourcePageUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm",
+      "officialRosterUrl": "https://scs.bupt.edu.cn/szdw/jsml.htm",
+      "profileChecked": false,
+      "decision": "excluded_insufficient_scope_evidence",
+      "reason": "官方名录提供个人页，但页面无法解析出足够的研究方向与独立 PI 证据；本轮按证据门槛不纳入，而非推断为非 AI/CS 或非 PI。",
+      "evidenceUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm",
+      "evidenceExcerpt": "计算机软件与理论中心"
+    },
+    {
+      "officialId": "https://teacher.bupt.edu.cn/zhangjiwei2",
+      "name": "张继威",
+      "title": null,
+      "officialSections": [
+        "计算机软件与理论中心"
+      ],
+      "profileUrl": "https://teacher.bupt.edu.cn/zhangjiwei2",
+      "portraitUrl": null,
+      "sourcePageUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm",
+      "officialRosterUrl": "https://scs.bupt.edu.cn/szdw/jsml.htm",
+      "profileChecked": false,
+      "decision": "excluded_insufficient_scope_evidence",
+      "reason": "官方名录提供个人页，但页面无法解析出足够的研究方向与独立 PI 证据；本轮按证据门槛不纳入，而非推断为非 AI/CS 或非 PI。",
+      "evidenceUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm",
+      "evidenceExcerpt": "计算机软件与理论中心"
+    },
+    {
+      "officialId": "https://teacher.bupt.edu.cn/kuangjian",
+      "name": "邝坚",
+      "title": null,
+      "officialSections": [
+        "大数据与云服务中心"
+      ],
+      "profileUrl": "https://teacher.bupt.edu.cn/kuangjian",
+      "portraitUrl": null,
+      "sourcePageUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm",
+      "officialRosterUrl": "https://scs.bupt.edu.cn/szdw/jsml.htm",
+      "profileChecked": false,
+      "decision": "excluded_insufficient_scope_evidence",
+      "reason": "官方名录提供个人页，但页面无法解析出足够的研究方向与独立 PI 证据；本轮按证据门槛不纳入，而非推断为非 AI/CS 或非 PI。",
+      "evidenceUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm",
+      "evidenceExcerpt": "大数据与云服务中心"
+    },
+    {
+      "officialId": "https://teacher.bupt.edu.cn/zhangxiaoyan/en/index.htm",
+      "name": "张笑燕",
+      "title": null,
+      "officialSections": [
+        "大数据与云服务中心"
+      ],
+      "profileUrl": "https://teacher.bupt.edu.cn/zhangxiaoyan/en/index.htm",
+      "portraitUrl": null,
+      "sourcePageUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm",
+      "officialRosterUrl": "https://scs.bupt.edu.cn/szdw/jsml.htm",
+      "profileChecked": false,
+      "decision": "excluded_insufficient_scope_evidence",
+      "reason": "官方名录提供个人页，但页面无法解析出足够的研究方向与独立 PI 证据；本轮按证据门槛不纳入，而非推断为非 AI/CS 或非 PI。",
+      "evidenceUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm",
+      "evidenceExcerpt": "大数据与云服务中心"
+    },
+    {
+      "officialId": "https://teacher.bupt.edu.cn/niukun",
+      "name": "牛琨",
+      "title": null,
+      "officialSections": [
+        "大数据与云服务中心"
+      ],
+      "profileUrl": "https://teacher.bupt.edu.cn/niukun",
+      "portraitUrl": null,
+      "sourcePageUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm",
+      "officialRosterUrl": "https://scs.bupt.edu.cn/szdw/jsml.htm",
+      "profileChecked": false,
+      "decision": "excluded_insufficient_scope_evidence",
+      "reason": "官方名录提供个人页，但页面无法解析出足够的研究方向与独立 PI 证据；本轮按证据门槛不纳入，而非推断为非 AI/CS 或非 PI。",
+      "evidenceUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm",
+      "evidenceExcerpt": "大数据与云服务中心"
+    },
+    {
+      "officialId": "https://teacher.bupt.edu.cn/guowenming",
+      "name": "郭文明",
+      "title": null,
+      "officialSections": [
+        "大数据与云服务中心"
+      ],
+      "profileUrl": "https://teacher.bupt.edu.cn/guowenming",
+      "portraitUrl": null,
+      "sourcePageUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm",
+      "officialRosterUrl": "https://scs.bupt.edu.cn/szdw/jsml.htm",
+      "profileChecked": false,
+      "decision": "excluded_insufficient_scope_evidence",
+      "reason": "官方名录提供个人页，但页面无法解析出足够的研究方向与独立 PI 证据；本轮按证据门槛不纳入，而非推断为非 AI/CS 或非 PI。",
+      "evidenceUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm",
+      "evidenceExcerpt": "大数据与云服务中心"
+    },
+    {
+      "officialId": "https://teacher.bupt.edu.cn/guoying1/zh_CN/index.htm",
+      "name": "郭迎",
+      "title": null,
+      "officialSections": [
+        "大数据与云服务中心"
+      ],
+      "profileUrl": "https://teacher.bupt.edu.cn/guoying1/zh_CN/index.htm",
+      "portraitUrl": null,
+      "sourcePageUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm",
+      "officialRosterUrl": "https://scs.bupt.edu.cn/szdw/jsml.htm",
+      "profileChecked": false,
+      "decision": "excluded_insufficient_scope_evidence",
+      "reason": "官方名录提供个人页，但页面无法解析出足够的研究方向与独立 PI 证据；本轮按证据门槛不纳入，而非推断为非 AI/CS 或非 PI。",
+      "evidenceUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm",
+      "evidenceExcerpt": "大数据与云服务中心"
+    },
+    {
+      "officialId": "https://teacher.bupt.edu.cn/lichaohui",
+      "name": "李朝晖",
+      "title": null,
+      "officialSections": [
+        "大数据与云服务中心"
+      ],
+      "profileUrl": "https://teacher.bupt.edu.cn/lichaohui",
+      "portraitUrl": null,
+      "sourcePageUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm",
+      "officialRosterUrl": "https://scs.bupt.edu.cn/szdw/jsml.htm",
+      "profileChecked": false,
+      "decision": "excluded_insufficient_scope_evidence",
+      "reason": "官方名录提供个人页，但页面无法解析出足够的研究方向与独立 PI 证据；本轮按证据门槛不纳入，而非推断为非 AI/CS 或非 PI。",
+      "evidenceUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm",
+      "evidenceExcerpt": "大数据与云服务中心"
+    },
+    {
+      "officialId": "https://teacher.bupt.edu.cn/wangyi2/",
+      "name": "王祎",
+      "title": null,
+      "officialSections": [
+        "大数据与云服务中心"
+      ],
+      "profileUrl": "https://teacher.bupt.edu.cn/wangyi2/",
+      "portraitUrl": null,
+      "sourcePageUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm",
+      "officialRosterUrl": "https://scs.bupt.edu.cn/szdw/jsml.htm",
+      "profileChecked": false,
+      "decision": "excluded_insufficient_scope_evidence",
+      "reason": "官方名录提供个人页，但页面无法解析出足够的研究方向与独立 PI 证据；本轮按证据门槛不纳入，而非推断为非 AI/CS 或非 PI。",
+      "evidenceUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm",
+      "evidenceExcerpt": "大数据与云服务中心"
+    },
+    {
+      "officialId": "https://teacher.bupt.edu.cn/yangtan/zh_CN/index.htm",
+      "name": "杨谈",
+      "title": null,
+      "officialSections": [
+        "大数据与云服务中心"
+      ],
+      "profileUrl": "https://teacher.bupt.edu.cn/yangtan/zh_CN/index.htm",
+      "portraitUrl": null,
+      "sourcePageUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm",
+      "officialRosterUrl": "https://scs.bupt.edu.cn/szdw/jsml.htm",
+      "profileChecked": false,
+      "decision": "excluded_insufficient_scope_evidence",
+      "reason": "官方名录提供个人页，但页面无法解析出足够的研究方向与独立 PI 证据；本轮按证据门槛不纳入，而非推断为非 AI/CS 或非 PI。",
+      "evidenceUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm",
+      "evidenceExcerpt": "大数据与云服务中心"
+    },
+    {
+      "officialId": "https://teacher.bupt.edu.cn/lubenjie",
+      "name": "卢本捷",
+      "title": null,
+      "officialSections": [
+        "大数据与云服务中心"
+      ],
+      "profileUrl": "https://teacher.bupt.edu.cn/lubenjie",
+      "portraitUrl": null,
+      "sourcePageUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm",
+      "officialRosterUrl": "https://scs.bupt.edu.cn/szdw/jsml.htm",
+      "profileChecked": false,
+      "decision": "excluded_insufficient_scope_evidence",
+      "reason": "官方名录提供个人页，但页面无法解析出足够的研究方向与独立 PI 证据；本轮按证据门槛不纳入，而非推断为非 AI/CS 或非 PI。",
+      "evidenceUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm",
+      "evidenceExcerpt": "大数据与云服务中心"
+    },
+    {
+      "officialId": "https://teacher.bupt.edu.cn/gaohui2",
+      "name": "高慧",
+      "title": null,
+      "officialSections": [
+        "大数据与云服务中心"
+      ],
+      "profileUrl": "https://teacher.bupt.edu.cn/gaohui2",
+      "portraitUrl": null,
+      "sourcePageUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm",
+      "officialRosterUrl": "https://scs.bupt.edu.cn/szdw/jsml.htm",
+      "profileChecked": false,
+      "decision": "excluded_insufficient_scope_evidence",
+      "reason": "官方名录提供个人页，但页面无法解析出足够的研究方向与独立 PI 证据；本轮按证据门槛不纳入，而非推断为非 AI/CS 或非 PI。",
+      "evidenceUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm",
+      "evidenceExcerpt": "大数据与云服务中心"
+    },
+    {
+      "officialId": "https://teacher.bupt.edu.cn/duxiaoting/zh_CN/index.htm",
+      "name": "杜晓婷",
+      "title": null,
+      "officialSections": [
+        "大数据与云服务中心"
+      ],
+      "profileUrl": "https://teacher.bupt.edu.cn/duxiaoting/zh_CN/index.htm",
+      "portraitUrl": null,
+      "sourcePageUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm",
+      "officialRosterUrl": "https://scs.bupt.edu.cn/szdw/jsml.htm",
+      "profileChecked": false,
+      "decision": "excluded_insufficient_scope_evidence",
+      "reason": "官方名录提供个人页，但页面无法解析出足够的研究方向与独立 PI 证据；本轮按证据门槛不纳入，而非推断为非 AI/CS 或非 PI。",
+      "evidenceUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm",
+      "evidenceExcerpt": "大数据与云服务中心"
+    },
+    {
+      "officialId": "https://teacher.bupt.edu.cn/zhaofang",
+      "name": "赵方",
+      "title": null,
+      "officialSections": [
+        "软件系统与工程中心"
+      ],
+      "profileUrl": "https://teacher.bupt.edu.cn/zhaofang",
+      "portraitUrl": null,
+      "sourcePageUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm",
+      "officialRosterUrl": "https://scs.bupt.edu.cn/szdw/jsml.htm",
+      "profileChecked": false,
+      "decision": "excluded_insufficient_scope_evidence",
+      "reason": "官方名录提供个人页，但页面无法解析出足够的研究方向与独立 PI 证据；本轮按证据门槛不纳入，而非推断为非 AI/CS 或非 PI。",
+      "evidenceUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm",
+      "evidenceExcerpt": "软件系统与工程中心"
+    },
+    {
+      "officialId": "https://scs.bupt.edu.cn/info/1277/2498.htm",
+      "name": "杨正球",
+      "title": null,
+      "officialSections": [
+        "软件系统与工程中心"
+      ],
+      "profileUrl": "https://scs.bupt.edu.cn/info/1277/2498.htm",
+      "portraitUrl": null,
+      "sourcePageUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm",
+      "officialRosterUrl": "https://scs.bupt.edu.cn/szdw/jsml.htm",
+      "profileChecked": false,
+      "decision": "excluded_insufficient_scope_evidence",
+      "reason": "官方名录提供个人页，但页面无法解析出足够的研究方向与独立 PI 证据；本轮按证据门槛不纳入，而非推断为非 AI/CS 或非 PI。",
+      "evidenceUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm",
+      "evidenceExcerpt": "软件系统与工程中心"
+    },
+    {
+      "officialId": "https://teacher.bupt.edu.cn/qiulirong1/zh_CN/index.htm",
+      "name": "邱莉榕",
+      "title": null,
+      "officialSections": [
+        "软件系统与工程中心"
+      ],
+      "profileUrl": "https://teacher.bupt.edu.cn/qiulirong1/zh_CN/index.htm",
+      "portraitUrl": null,
+      "sourcePageUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm",
+      "officialRosterUrl": "https://scs.bupt.edu.cn/szdw/jsml.htm",
+      "profileChecked": false,
+      "decision": "excluded_insufficient_scope_evidence",
+      "reason": "官方名录提供个人页，但页面无法解析出足够的研究方向与独立 PI 证据；本轮按证据门槛不纳入，而非推断为非 AI/CS 或非 PI。",
+      "evidenceUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm",
+      "evidenceExcerpt": "软件系统与工程中心"
+    },
+    {
+      "officialId": "https://teacher.bupt.edu.cn/yuanyuyu",
+      "name": "袁玉宇",
+      "title": null,
+      "officialSections": [
+        "软件系统与工程中心"
+      ],
+      "profileUrl": "https://teacher.bupt.edu.cn/yuanyuyu",
+      "portraitUrl": null,
+      "sourcePageUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm",
+      "officialRosterUrl": "https://scs.bupt.edu.cn/szdw/jsml.htm",
+      "profileChecked": false,
+      "decision": "excluded_insufficient_scope_evidence",
+      "reason": "官方名录提供个人页，但页面无法解析出足够的研究方向与独立 PI 证据；本轮按证据门槛不纳入，而非推断为非 AI/CS 或非 PI。",
+      "evidenceUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm",
+      "evidenceExcerpt": "软件系统与工程中心"
+    },
+    {
+      "officialId": "https://teacher.bupt.edu.cn/xiujiapeng",
+      "name": "修佳鹏",
+      "title": null,
+      "officialSections": [
+        "软件系统与工程中心"
+      ],
+      "profileUrl": "https://teacher.bupt.edu.cn/xiujiapeng",
+      "portraitUrl": null,
+      "sourcePageUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm",
+      "officialRosterUrl": "https://scs.bupt.edu.cn/szdw/jsml.htm",
+      "profileChecked": false,
+      "decision": "excluded_insufficient_scope_evidence",
+      "reason": "官方名录提供个人页，但页面无法解析出足够的研究方向与独立 PI 证据；本轮按证据门槛不纳入，而非推断为非 AI/CS 或非 PI。",
+      "evidenceUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm",
+      "evidenceExcerpt": "软件系统与工程中心"
+    },
+    {
+      "officialId": "https://teacher.bupt.edu.cn/xiayamei/zh_CN/index.htm",
+      "name": "夏亚梅",
+      "title": null,
+      "officialSections": [
+        "软件系统与工程中心"
+      ],
+      "profileUrl": "https://teacher.bupt.edu.cn/xiayamei/zh_CN/index.htm",
+      "portraitUrl": null,
+      "sourcePageUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm",
+      "officialRosterUrl": "https://scs.bupt.edu.cn/szdw/jsml.htm",
+      "profileChecked": false,
+      "decision": "excluded_insufficient_scope_evidence",
+      "reason": "官方名录提供个人页，但页面无法解析出足够的研究方向与独立 PI 证据；本轮按证据门槛不纳入，而非推断为非 AI/CS 或非 PI。",
+      "evidenceUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm",
+      "evidenceExcerpt": "软件系统与工程中心"
+    },
+    {
+      "officialId": "https://teacher.bupt.edu.cn/chenjinpeng",
+      "name": "陈晋鹏",
+      "title": null,
+      "officialSections": [
+        "软件系统与工程中心"
+      ],
+      "profileUrl": "https://teacher.bupt.edu.cn/chenjinpeng",
+      "portraitUrl": null,
+      "sourcePageUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm",
+      "officialRosterUrl": "https://scs.bupt.edu.cn/szdw/jsml.htm",
+      "profileChecked": false,
+      "decision": "excluded_insufficient_scope_evidence",
+      "reason": "官方名录提供个人页，但页面无法解析出足够的研究方向与独立 PI 证据；本轮按证据门槛不纳入，而非推断为非 AI/CS 或非 PI。",
+      "evidenceUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm",
+      "evidenceExcerpt": "软件系统与工程中心"
+    },
+    {
+      "officialId": "https://teacher.bupt.edu.cn/hanwanjiang",
+      "name": "韩万江",
+      "title": null,
+      "officialSections": [
+        "软件系统与工程中心"
+      ],
+      "profileUrl": "https://teacher.bupt.edu.cn/hanwanjiang",
+      "portraitUrl": null,
+      "sourcePageUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm",
+      "officialRosterUrl": "https://scs.bupt.edu.cn/szdw/jsml.htm",
+      "profileChecked": false,
+      "decision": "excluded_insufficient_scope_evidence",
+      "reason": "官方名录提供个人页，但页面无法解析出足够的研究方向与独立 PI 证据；本轮按证据门槛不纳入，而非推断为非 AI/CS 或非 PI。",
+      "evidenceUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm",
+      "evidenceExcerpt": "软件系统与工程中心"
+    },
+    {
+      "officialId": "https://teacher.bupt.edu.cn/yangjincui",
+      "name": "杨金翠",
+      "title": null,
+      "officialSections": [
+        "软件系统与工程中心"
+      ],
+      "profileUrl": "https://teacher.bupt.edu.cn/yangjincui",
+      "portraitUrl": null,
+      "sourcePageUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm",
+      "officialRosterUrl": "https://scs.bupt.edu.cn/szdw/jsml.htm",
+      "profileChecked": false,
+      "decision": "excluded_insufficient_scope_evidence",
+      "reason": "官方名录提供个人页，但页面无法解析出足够的研究方向与独立 PI 证据；本轮按证据门槛不纳入，而非推断为非 AI/CS 或非 PI。",
+      "evidenceUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm",
+      "evidenceExcerpt": "软件系统与工程中心"
+    },
+    {
+      "officialId": "https://teacher.bupt.edu.cn/shaowenhua1",
+      "name": "邵文华",
+      "title": null,
+      "officialSections": [
+        "软件系统与工程中心"
+      ],
+      "profileUrl": "https://teacher.bupt.edu.cn/shaowenhua1",
+      "portraitUrl": null,
+      "sourcePageUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm",
+      "officialRosterUrl": "https://scs.bupt.edu.cn/szdw/jsml.htm",
+      "profileChecked": false,
+      "decision": "excluded_insufficient_scope_evidence",
+      "reason": "官方名录提供个人页，但页面无法解析出足够的研究方向与独立 PI 证据；本轮按证据门槛不纳入，而非推断为非 AI/CS 或非 PI。",
+      "evidenceUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm",
+      "evidenceExcerpt": "软件系统与工程中心"
+    },
+    {
+      "officialId": "https://teacher.bupt.edu.cn/Koufeifei",
+      "name": "寇菲菲",
+      "title": null,
+      "officialSections": [
+        "软件系统与工程中心"
+      ],
+      "profileUrl": "https://teacher.bupt.edu.cn/Koufeifei",
+      "portraitUrl": null,
+      "sourcePageUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm",
+      "officialRosterUrl": "https://scs.bupt.edu.cn/szdw/jsml.htm",
+      "profileChecked": false,
+      "decision": "excluded_insufficient_scope_evidence",
+      "reason": "官方名录提供个人页，但页面无法解析出足够的研究方向与独立 PI 证据；本轮按证据门槛不纳入，而非推断为非 AI/CS 或非 PI。",
+      "evidenceUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm",
+      "evidenceExcerpt": "软件系统与工程中心"
+    },
+    {
+      "officialId": "https://teacher.bupt.edu.cn/wangwendong/",
+      "name": "王文东",
+      "title": null,
+      "officialSections": [
+        "网络与通信软件中心"
+      ],
+      "profileUrl": "https://teacher.bupt.edu.cn/wangwendong/",
+      "portraitUrl": null,
+      "sourcePageUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm",
+      "officialRosterUrl": "https://scs.bupt.edu.cn/szdw/jsml.htm",
+      "profileChecked": false,
+      "decision": "excluded_insufficient_scope_evidence",
+      "reason": "官方名录提供个人页，但页面无法解析出足够的研究方向与独立 PI 证据；本轮按证据门槛不纳入，而非推断为非 AI/CS 或非 PI。",
+      "evidenceUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm",
+      "evidenceExcerpt": "网络与通信软件中心"
+    },
+    {
+      "officialId": "https://teacher.bupt.edu.cn/lutianbo",
+      "name": "陆天波",
+      "title": null,
+      "officialSections": [
+        "网络与通信软件中心"
+      ],
+      "profileUrl": "https://teacher.bupt.edu.cn/lutianbo",
+      "portraitUrl": null,
+      "sourcePageUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm",
+      "officialRosterUrl": "https://scs.bupt.edu.cn/szdw/jsml.htm",
+      "profileChecked": false,
+      "decision": "excluded_insufficient_scope_evidence",
+      "reason": "官方名录提供个人页，但页面无法解析出足够的研究方向与独立 PI 证据；本轮按证据门槛不纳入，而非推断为非 AI/CS 或非 PI。",
+      "evidenceUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm",
+      "evidenceExcerpt": "网络与通信软件中心"
+    },
+    {
+      "officialId": "https://teacher.bupt.edu.cn/fuxiangling",
+      "name": "傅湘玲",
+      "title": null,
+      "officialSections": [
+        "网络与通信软件中心"
+      ],
+      "profileUrl": "https://teacher.bupt.edu.cn/fuxiangling",
+      "portraitUrl": null,
+      "sourcePageUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm",
+      "officialRosterUrl": "https://scs.bupt.edu.cn/szdw/jsml.htm",
+      "profileChecked": false,
+      "decision": "excluded_insufficient_scope_evidence",
+      "reason": "官方名录提供个人页，但页面无法解析出足够的研究方向与独立 PI 证据；本轮按证据门槛不纳入，而非推断为非 AI/CS 或非 PI。",
+      "evidenceUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm",
+      "evidenceExcerpt": "网络与通信软件中心"
+    },
+    {
+      "officialId": "https://teacher.bupt.edu.cn/cyd",
+      "name": "崔毅东",
+      "title": null,
+      "officialSections": [
+        "网络与通信软件中心"
+      ],
+      "profileUrl": "https://teacher.bupt.edu.cn/cyd",
+      "portraitUrl": null,
+      "sourcePageUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm",
+      "officialRosterUrl": "https://scs.bupt.edu.cn/szdw/jsml.htm",
+      "profileChecked": false,
+      "decision": "excluded_insufficient_scope_evidence",
+      "reason": "官方名录提供个人页，但页面无法解析出足够的研究方向与独立 PI 证据；本轮按证据门槛不纳入，而非推断为非 AI/CS 或非 PI。",
+      "evidenceUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm",
+      "evidenceExcerpt": "网络与通信软件中心"
+    },
+    {
+      "officialId": "https://teacher.bupt.edu.cn/leiyouxun",
+      "name": "雷友珣",
+      "title": null,
+      "officialSections": [
+        "网络与通信软件中心"
+      ],
+      "profileUrl": "https://teacher.bupt.edu.cn/leiyouxun",
+      "portraitUrl": null,
+      "sourcePageUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm",
+      "officialRosterUrl": "https://scs.bupt.edu.cn/szdw/jsml.htm",
+      "profileChecked": false,
+      "decision": "excluded_insufficient_scope_evidence",
+      "reason": "官方名录提供个人页，但页面无法解析出足够的研究方向与独立 PI 证据；本轮按证据门槛不纳入，而非推断为非 AI/CS 或非 PI。",
+      "evidenceUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm",
+      "evidenceExcerpt": "网络与通信软件中心"
+    },
+    {
+      "officialId": "https://teacher.bupt.edu.cn/yczhang",
+      "name": "张宇超",
+      "title": null,
+      "officialSections": [
+        "网络与通信软件中心"
+      ],
+      "profileUrl": "https://teacher.bupt.edu.cn/yczhang",
+      "portraitUrl": null,
+      "sourcePageUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm",
+      "officialRosterUrl": "https://scs.bupt.edu.cn/szdw/jsml.htm",
+      "profileChecked": false,
+      "decision": "excluded_insufficient_scope_evidence",
+      "reason": "官方名录提供个人页，但页面无法解析出足够的研究方向与独立 PI 证据；本轮按证据门槛不纳入，而非推断为非 AI/CS 或非 PI。",
+      "evidenceUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm",
+      "evidenceExcerpt": "网络与通信软件中心"
+    },
+    {
+      "officialId": "https://teacher.bupt.edu.cn/xiekun",
+      "name": "谢坤",
+      "title": null,
+      "officialSections": [
+        "网络与通信软件中心"
+      ],
+      "profileUrl": "https://teacher.bupt.edu.cn/xiekun",
+      "portraitUrl": null,
+      "sourcePageUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm",
+      "officialRosterUrl": "https://scs.bupt.edu.cn/szdw/jsml.htm",
+      "profileChecked": false,
+      "decision": "excluded_insufficient_scope_evidence",
+      "reason": "官方名录提供个人页，但页面无法解析出足够的研究方向与独立 PI 证据；本轮按证据门槛不纳入，而非推断为非 AI/CS 或非 PI。",
+      "evidenceUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm",
+      "evidenceExcerpt": "网络与通信软件中心"
+    },
+    {
+      "officialId": "https://teacher.bupt.edu.cn/liuwei1/",
+      "name": "刘巍",
+      "title": null,
+      "officialSections": [
+        "网络与通信软件中心"
+      ],
+      "profileUrl": "https://teacher.bupt.edu.cn/liuwei1/",
+      "portraitUrl": null,
+      "sourcePageUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm",
+      "officialRosterUrl": "https://scs.bupt.edu.cn/szdw/jsml.htm",
+      "profileChecked": false,
+      "decision": "excluded_insufficient_scope_evidence",
+      "reason": "官方名录提供个人页，但页面无法解析出足够的研究方向与独立 PI 证据；本轮按证据门槛不纳入，而非推断为非 AI/CS 或非 PI。",
+      "evidenceUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm",
+      "evidenceExcerpt": "网络与通信软件中心"
+    },
+    {
+      "officialId": "https://teacher.bupt.edu.cn/wangquan",
+      "name": "王泉",
+      "title": null,
+      "officialSections": [
+        "网络与通信软件中心"
+      ],
+      "profileUrl": "https://teacher.bupt.edu.cn/wangquan",
+      "portraitUrl": null,
+      "sourcePageUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm",
+      "officialRosterUrl": "https://scs.bupt.edu.cn/szdw/jsml.htm",
+      "profileChecked": false,
+      "decision": "excluded_insufficient_scope_evidence",
+      "reason": "官方名录提供个人页，但页面无法解析出足够的研究方向与独立 PI 证据；本轮按证据门槛不纳入，而非推断为非 AI/CS 或非 PI。",
+      "evidenceUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm",
+      "evidenceExcerpt": "网络与通信软件中心"
+    },
+    {
+      "officialId": "https://teacher.bupt.edu.cn/bianjiali",
+      "name": "卞佳丽",
+      "title": null,
+      "officialSections": [
+        "网络技术中心"
+      ],
+      "profileUrl": "https://teacher.bupt.edu.cn/bianjiali",
+      "portraitUrl": null,
+      "sourcePageUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm",
+      "officialRosterUrl": "https://scs.bupt.edu.cn/szdw/jsml.htm",
+      "profileChecked": false,
+      "decision": "excluded_insufficient_scope_evidence",
+      "reason": "官方名录提供个人页，但页面无法解析出足够的研究方向与独立 PI 证据；本轮按证据门槛不纳入，而非推断为非 AI/CS 或非 PI。",
+      "evidenceUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm",
+      "evidenceExcerpt": "网络技术中心"
+    },
+    {
+      "officialId": "https://teacher.bupt.edu.cn/zhouanfu/zh_CN/index.htm",
+      "name": "周安福",
+      "title": null,
+      "officialSections": [
+        "网络技术中心"
+      ],
+      "profileUrl": "https://teacher.bupt.edu.cn/zhouanfu/zh_CN/index.htm",
+      "portraitUrl": null,
+      "sourcePageUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm",
+      "officialRosterUrl": "https://scs.bupt.edu.cn/szdw/jsml.htm",
+      "profileChecked": false,
+      "decision": "excluded_insufficient_scope_evidence",
+      "reason": "官方名录提供个人页，但页面无法解析出足够的研究方向与独立 PI 证据；本轮按证据门槛不纳入，而非推断为非 AI/CS 或非 PI。",
+      "evidenceUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm",
+      "evidenceExcerpt": "网络技术中心"
+    },
+    {
+      "officialId": "https://teacher.bupt.edu.cn/mal",
+      "name": "明安龙",
+      "title": null,
+      "officialSections": [
+        "网络技术中心"
+      ],
+      "profileUrl": "https://teacher.bupt.edu.cn/mal",
+      "portraitUrl": null,
+      "sourcePageUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm",
+      "officialRosterUrl": "https://scs.bupt.edu.cn/szdw/jsml.htm",
+      "profileChecked": false,
+      "decision": "excluded_insufficient_scope_evidence",
+      "reason": "官方名录提供个人页，但页面无法解析出足够的研究方向与独立 PI 证据；本轮按证据门槛不纳入，而非推断为非 AI/CS 或非 PI。",
+      "evidenceUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm",
+      "evidenceExcerpt": "网络技术中心"
+    },
+    {
+      "officialId": "https://teacher.bupt.edu.cn/wangli",
+      "name": "王莉",
+      "title": null,
+      "officialSections": [
+        "网络技术中心"
+      ],
+      "profileUrl": "https://teacher.bupt.edu.cn/wangli",
+      "portraitUrl": null,
+      "sourcePageUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm",
+      "officialRosterUrl": "https://scs.bupt.edu.cn/szdw/jsml.htm",
+      "profileChecked": false,
+      "decision": "excluded_insufficient_scope_evidence",
+      "reason": "官方名录提供个人页，但页面无法解析出足够的研究方向与独立 PI 证据；本轮按证据门槛不纳入，而非推断为非 AI/CS 或非 PI。",
+      "evidenceUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm",
+      "evidenceExcerpt": "网络技术中心"
+    },
+    {
+      "officialId": "https://teacher.bupt.edu.cn/gaozhanchun",
+      "name": "高占春",
+      "title": null,
+      "officialSections": [
+        "网络技术中心"
+      ],
+      "profileUrl": "https://teacher.bupt.edu.cn/gaozhanchun",
+      "portraitUrl": null,
+      "sourcePageUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm",
+      "officialRosterUrl": "https://scs.bupt.edu.cn/szdw/jsml.htm",
+      "profileChecked": false,
+      "decision": "excluded_insufficient_scope_evidence",
+      "reason": "官方名录提供个人页，但页面无法解析出足够的研究方向与独立 PI 证据；本轮按证据门槛不纳入，而非推断为非 AI/CS 或非 PI。",
+      "evidenceUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm",
+      "evidenceExcerpt": "网络技术中心"
+    },
+    {
+      "officialId": "https://teacher.bupt.edu.cn/jiangyanjun",
+      "name": "蒋砚军",
+      "title": null,
+      "officialSections": [
+        "网络技术中心"
+      ],
+      "profileUrl": "https://teacher.bupt.edu.cn/jiangyanjun",
+      "portraitUrl": null,
+      "sourcePageUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm",
+      "officialRosterUrl": "https://scs.bupt.edu.cn/szdw/jsml.htm",
+      "profileChecked": false,
+      "decision": "excluded_insufficient_scope_evidence",
+      "reason": "官方名录提供个人页，但页面无法解析出足够的研究方向与独立 PI 证据；本轮按证据门槛不纳入，而非推断为非 AI/CS 或非 PI。",
+      "evidenceUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm",
+      "evidenceExcerpt": "网络技术中心"
+    },
+    {
+      "officialId": "https://teacher.bupt.edu.cn/zhangdongmei",
+      "name": "张冬梅",
+      "title": null,
+      "officialSections": [
+        "网络技术中心"
+      ],
+      "profileUrl": "https://teacher.bupt.edu.cn/zhangdongmei",
+      "portraitUrl": null,
+      "sourcePageUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm",
+      "officialRosterUrl": "https://scs.bupt.edu.cn/szdw/jsml.htm",
+      "profileChecked": false,
+      "decision": "excluded_insufficient_scope_evidence",
+      "reason": "官方名录提供个人页，但页面无法解析出足够的研究方向与独立 PI 证据；本轮按证据门槛不纳入，而非推断为非 AI/CS 或非 PI。",
+      "evidenceUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm",
+      "evidenceExcerpt": "网络技术中心"
+    },
+    {
+      "officialId": "https://teacher.bupt.edu.cn/zhanghaiyang",
+      "name": "张海旸",
+      "title": null,
+      "officialSections": [
+        "网络技术中心"
+      ],
+      "profileUrl": "https://teacher.bupt.edu.cn/zhanghaiyang",
+      "portraitUrl": null,
+      "sourcePageUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm",
+      "officialRosterUrl": "https://scs.bupt.edu.cn/szdw/jsml.htm",
+      "profileChecked": false,
+      "decision": "excluded_insufficient_scope_evidence",
+      "reason": "官方名录提供个人页，但页面无法解析出足够的研究方向与独立 PI 证据；本轮按证据门槛不纳入，而非推断为非 AI/CS 或非 PI。",
+      "evidenceUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm",
+      "evidenceExcerpt": "网络技术中心"
+    },
+    {
+      "officialId": "https://teacher.bupt.edu.cn/yangzhen",
+      "name": "杨震",
+      "title": null,
+      "officialSections": [
+        "网络技术中心"
+      ],
+      "profileUrl": "https://teacher.bupt.edu.cn/yangzhen",
+      "portraitUrl": null,
+      "sourcePageUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm",
+      "officialRosterUrl": "https://scs.bupt.edu.cn/szdw/jsml.htm",
+      "profileChecked": false,
+      "decision": "excluded_insufficient_scope_evidence",
+      "reason": "官方名录提供个人页，但页面无法解析出足够的研究方向与独立 PI 证据；本轮按证据门槛不纳入，而非推断为非 AI/CS 或非 PI。",
+      "evidenceUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm",
+      "evidenceExcerpt": "网络技术中心"
+    },
+    {
+      "officialId": "https://teacher.bupt.edu.cn/zhangchengwen",
+      "name": "张成文",
+      "title": null,
+      "officialSections": [
+        "网络技术中心"
+      ],
+      "profileUrl": "https://teacher.bupt.edu.cn/zhangchengwen",
+      "portraitUrl": null,
+      "sourcePageUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm",
+      "officialRosterUrl": "https://scs.bupt.edu.cn/szdw/jsml.htm",
+      "profileChecked": false,
+      "decision": "excluded_insufficient_scope_evidence",
+      "reason": "官方名录提供个人页，但页面无法解析出足够的研究方向与独立 PI 证据；本轮按证据门槛不纳入，而非推断为非 AI/CS 或非 PI。",
+      "evidenceUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm",
+      "evidenceExcerpt": "网络技术中心"
+    },
+    {
+      "officialId": "https://teacher.bupt.edu.cn/kangxuejing",
+      "name": "康学净",
+      "title": null,
+      "officialSections": [
+        "网络技术中心"
+      ],
+      "profileUrl": "https://teacher.bupt.edu.cn/kangxuejing",
+      "portraitUrl": null,
+      "sourcePageUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm",
+      "officialRosterUrl": "https://scs.bupt.edu.cn/szdw/jsml.htm",
+      "profileChecked": false,
+      "decision": "excluded_insufficient_scope_evidence",
+      "reason": "官方名录提供个人页，但页面无法解析出足够的研究方向与独立 PI 证据；本轮按证据门槛不纳入，而非推断为非 AI/CS 或非 PI。",
+      "evidenceUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm",
+      "evidenceExcerpt": "网络技术中心"
+    },
+    {
+      "officialId": "https://teacher.bupt.edu.cn/zhangxuesong",
+      "name": "张雪松",
+      "title": null,
+      "officialSections": [
+        "网络技术中心"
+      ],
+      "profileUrl": "https://teacher.bupt.edu.cn/zhangxuesong",
+      "portraitUrl": null,
+      "sourcePageUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm",
+      "officialRosterUrl": "https://scs.bupt.edu.cn/szdw/jsml.htm",
+      "profileChecked": false,
+      "decision": "excluded_insufficient_scope_evidence",
+      "reason": "官方名录提供个人页，但页面无法解析出足够的研究方向与独立 PI 证据；本轮按证据门槛不纳入，而非推断为非 AI/CS 或非 PI。",
+      "evidenceUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm",
+      "evidenceExcerpt": "网络技术中心"
+    },
+    {
+      "officialId": "https://teacher.bupt.edu.cn/guogang",
+      "name": "郭岗",
+      "title": null,
+      "officialSections": [
+        "网络技术中心"
+      ],
+      "profileUrl": "https://teacher.bupt.edu.cn/guogang",
+      "portraitUrl": null,
+      "sourcePageUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm",
+      "officialRosterUrl": "https://scs.bupt.edu.cn/szdw/jsml.htm",
+      "profileChecked": false,
+      "decision": "excluded_insufficient_scope_evidence",
+      "reason": "官方名录提供个人页，但页面无法解析出足够的研究方向与独立 PI 证据；本轮按证据门槛不纳入，而非推断为非 AI/CS 或非 PI。",
+      "evidenceUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm",
+      "evidenceExcerpt": "网络技术中心"
+    },
+    {
+      "officialId": "https://teacher.bupt.edu.cn/chengli",
+      "name": "程莉",
+      "title": null,
+      "officialSections": [
+        "网络技术中心"
+      ],
+      "profileUrl": "https://teacher.bupt.edu.cn/chengli",
+      "portraitUrl": null,
+      "sourcePageUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm",
+      "officialRosterUrl": "https://scs.bupt.edu.cn/szdw/jsml.htm",
+      "profileChecked": false,
+      "decision": "excluded_insufficient_scope_evidence",
+      "reason": "官方名录提供个人页，但页面无法解析出足够的研究方向与独立 PI 证据；本轮按证据门槛不纳入，而非推断为非 AI/CS 或非 PI。",
+      "evidenceUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm",
+      "evidenceExcerpt": "网络技术中心"
+    },
+    {
+      "officialId": "https://teacher.bupt.edu.cn/chenliping",
+      "name": "陈莉萍",
+      "title": null,
+      "officialSections": [
+        "网络技术中心"
+      ],
+      "profileUrl": "https://teacher.bupt.edu.cn/chenliping",
+      "portraitUrl": null,
+      "sourcePageUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm",
+      "officialRosterUrl": "https://scs.bupt.edu.cn/szdw/jsml.htm",
+      "profileChecked": false,
+      "decision": "excluded_insufficient_scope_evidence",
+      "reason": "官方名录提供个人页，但页面无法解析出足够的研究方向与独立 PI 证据；本轮按证据门槛不纳入，而非推断为非 AI/CS 或非 PI。",
+      "evidenceUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm",
+      "evidenceExcerpt": "网络技术中心"
+    },
+    {
+      "officialId": "https://teacher.bupt.edu.cn/wangzunliang",
+      "name": "王尊亮",
+      "title": null,
+      "officialSections": [
+        "网络技术中心"
+      ],
+      "profileUrl": "https://teacher.bupt.edu.cn/wangzunliang",
+      "portraitUrl": null,
+      "sourcePageUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm",
+      "officialRosterUrl": "https://scs.bupt.edu.cn/szdw/jsml.htm",
+      "profileChecked": false,
+      "decision": "excluded_insufficient_scope_evidence",
+      "reason": "官方名录提供个人页，但页面无法解析出足够的研究方向与独立 PI 证据；本轮按证据门槛不纳入，而非推断为非 AI/CS 或非 PI。",
+      "evidenceUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm",
+      "evidenceExcerpt": "网络技术中心"
+    },
+    {
+      "officialId": "https://teacher.bupt.edu.cn/liuwei3",
+      "name": "刘伟",
+      "title": null,
+      "officialSections": [
+        "网络技术中心"
+      ],
+      "profileUrl": "https://teacher.bupt.edu.cn/liuwei3",
+      "portraitUrl": null,
+      "sourcePageUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm",
+      "officialRosterUrl": "https://scs.bupt.edu.cn/szdw/jsml.htm",
+      "profileChecked": false,
+      "decision": "excluded_insufficient_scope_evidence",
+      "reason": "官方名录提供个人页，但页面无法解析出足够的研究方向与独立 PI 证据；本轮按证据门槛不纳入，而非推断为非 AI/CS 或非 PI。",
+      "evidenceUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm",
+      "evidenceExcerpt": "网络技术中心"
+    },
+    {
+      "officialId": "https://teacher.bupt.edu.cn/wuxin",
+      "name": "吴鑫",
+      "title": null,
+      "officialSections": [
+        "网络技术中心"
+      ],
+      "profileUrl": "https://teacher.bupt.edu.cn/wuxin",
+      "portraitUrl": null,
+      "sourcePageUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm",
+      "officialRosterUrl": "https://scs.bupt.edu.cn/szdw/jsml.htm",
+      "profileChecked": false,
+      "decision": "excluded_insufficient_scope_evidence",
+      "reason": "官方名录提供个人页，但页面无法解析出足够的研究方向与独立 PI 证据；本轮按证据门槛不纳入，而非推断为非 AI/CS 或非 PI。",
+      "evidenceUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm",
+      "evidenceExcerpt": "网络技术中心"
+    },
+    {
+      "officialId": "https://teacher.bupt.edu.cn/liuna1/zh_CN/index.htm",
+      "name": "刘娜",
+      "title": null,
+      "officialSections": [
+        "网络技术中心"
+      ],
+      "profileUrl": "https://teacher.bupt.edu.cn/liuna1/zh_CN/index.htm",
+      "portraitUrl": null,
+      "sourcePageUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm",
+      "officialRosterUrl": "https://scs.bupt.edu.cn/szdw/jsml.htm",
+      "profileChecked": false,
+      "decision": "excluded_insufficient_scope_evidence",
+      "reason": "官方名录提供个人页，但页面无法解析出足够的研究方向与独立 PI 证据；本轮按证据门槛不纳入，而非推断为非 AI/CS 或非 PI。",
+      "evidenceUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm",
+      "evidenceExcerpt": "网络技术中心"
+    },
+    {
+      "officialId": "http://scs.bupt.edu.cn/szjs1/jsyl.htm#%E5%BC%A0%E9%87%91%E9%91%AB",
+      "name": "张金鑫",
+      "title": null,
+      "officialSections": [
+        "网络技术中心"
+      ],
+      "profileUrl": null,
+      "portraitUrl": null,
+      "sourcePageUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm",
+      "officialRosterUrl": "https://scs.bupt.edu.cn/szdw/jsml.htm",
+      "profileChecked": false,
+      "decision": "excluded_insufficient_scope_evidence",
+      "reason": "官方名录仅有姓名或职类，缺少个人页、研究方向和独立招生证据；本轮按证据门槛不纳入，而非推断人物身份。",
+      "evidenceUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm",
+      "evidenceExcerpt": "网络技术中心"
+    },
+    {
+      "officialId": "https://teacher.bupt.edu.cn/mahuadong",
+      "name": "马华东",
+      "title": null,
+      "officialSections": [
+        "物联网技术中心"
+      ],
+      "profileUrl": "https://teacher.bupt.edu.cn/mahuadong",
+      "portraitUrl": null,
+      "sourcePageUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm",
+      "officialRosterUrl": "https://scs.bupt.edu.cn/szdw/jsml.htm",
+      "profileChecked": false,
+      "decision": "excluded_insufficient_scope_evidence",
+      "reason": "官方名录提供个人页，但页面无法解析出足够的研究方向与独立 PI 证据；本轮按证据门槛不纳入，而非推断为非 AI/CS 或非 PI。",
+      "evidenceUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm",
+      "evidenceExcerpt": "物联网技术中心"
+    },
+    {
+      "officialId": "https://teacher.bupt.edu.cn/liuliang",
+      "name": "刘亮",
+      "title": null,
+      "officialSections": [
+        "物联网技术中心"
+      ],
+      "profileUrl": "https://teacher.bupt.edu.cn/liuliang",
+      "portraitUrl": null,
+      "sourcePageUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm",
+      "officialRosterUrl": "https://scs.bupt.edu.cn/szdw/jsml.htm",
+      "profileChecked": false,
+      "decision": "excluded_insufficient_scope_evidence",
+      "reason": "官方名录提供个人页，但页面无法解析出足够的研究方向与独立 PI 证据；本轮按证据门槛不纳入，而非推断为非 AI/CS 或非 PI。",
+      "evidenceUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm",
+      "evidenceExcerpt": "物联网技术中心"
+    },
+    {
+      "officialId": "https://teacher.bupt.edu.cn/luohong1",
+      "name": "罗红",
+      "title": null,
+      "officialSections": [
+        "物联网技术中心"
+      ],
+      "profileUrl": "https://teacher.bupt.edu.cn/luohong1",
+      "portraitUrl": null,
+      "sourcePageUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm",
+      "officialRosterUrl": "https://scs.bupt.edu.cn/szdw/jsml.htm",
+      "profileChecked": false,
+      "decision": "excluded_insufficient_scope_evidence",
+      "reason": "官方名录提供个人页，但页面无法解析出足够的研究方向与独立 PI 证据；本轮按证据门槛不纳入，而非推断为非 AI/CS 或非 PI。",
+      "evidenceUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm",
+      "evidenceExcerpt": "物联网技术中心"
+    },
+    {
+      "officialId": "https://teacher.bupt.edu.cn/sunyan/zh_CN/index.htm",
+      "name": "孙岩",
+      "title": null,
+      "officialSections": [
+        "物联网技术中心"
+      ],
+      "profileUrl": "https://teacher.bupt.edu.cn/sunyan/zh_CN/index.htm",
+      "portraitUrl": null,
+      "sourcePageUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm",
+      "officialRosterUrl": "https://scs.bupt.edu.cn/szdw/jsml.htm",
+      "profileChecked": false,
+      "decision": "excluded_insufficient_scope_evidence",
+      "reason": "官方名录提供个人页，但页面无法解析出足够的研究方向与独立 PI 证据；本轮按证据门槛不纳入，而非推断为非 AI/CS 或非 PI。",
+      "evidenceUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm",
+      "evidenceExcerpt": "物联网技术中心"
+    },
+    {
+      "officialId": "https://teacher.bupt.edu.cn/liwensheng",
+      "name": "李文生",
+      "title": null,
+      "officialSections": [
+        "物联网技术中心"
+      ],
+      "profileUrl": "https://teacher.bupt.edu.cn/liwensheng",
+      "portraitUrl": null,
+      "sourcePageUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm",
+      "officialRosterUrl": "https://scs.bupt.edu.cn/szdw/jsml.htm",
+      "profileChecked": false,
+      "decision": "excluded_insufficient_scope_evidence",
+      "reason": "官方名录提供个人页，但页面无法解析出足够的研究方向与独立 PI 证据；本轮按证据门槛不纳入，而非推断为非 AI/CS 或非 PI。",
+      "evidenceUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm",
+      "evidenceExcerpt": "物联网技术中心"
+    },
+    {
+      "officialId": "https://teacher.bupt.edu.cn/duanpengrui",
+      "name": "段鹏瑞",
+      "title": null,
+      "officialSections": [
+        "物联网技术中心"
+      ],
+      "profileUrl": "https://teacher.bupt.edu.cn/duanpengrui",
+      "portraitUrl": null,
+      "sourcePageUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm",
+      "officialRosterUrl": "https://scs.bupt.edu.cn/szdw/jsml.htm",
+      "profileChecked": false,
+      "decision": "excluded_insufficient_scope_evidence",
+      "reason": "官方名录提供个人页，但页面无法解析出足够的研究方向与独立 PI 证据；本轮按证据门槛不纳入，而非推断为非 AI/CS 或非 PI。",
+      "evidenceUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm",
+      "evidenceExcerpt": "物联网技术中心"
+    },
+    {
+      "officialId": "https://teacher.bupt.edu.cn/zhanghaitao",
+      "name": "张海涛",
+      "title": null,
+      "officialSections": [
+        "物联网技术中心"
+      ],
+      "profileUrl": "https://teacher.bupt.edu.cn/zhanghaitao",
+      "portraitUrl": null,
+      "sourcePageUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm",
+      "officialRosterUrl": "https://scs.bupt.edu.cn/szdw/jsml.htm",
+      "profileChecked": false,
+      "decision": "excluded_insufficient_scope_evidence",
+      "reason": "官方名录提供个人页，但页面无法解析出足够的研究方向与独立 PI 证据；本轮按证据门槛不纳入，而非推断为非 AI/CS 或非 PI。",
+      "evidenceUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm",
+      "evidenceExcerpt": "物联网技术中心"
+    },
+    {
+      "officialId": "https://teacher.bupt.edu.cn/fuhuiyuan",
+      "name": "傅慧源",
+      "title": null,
+      "officialSections": [
+        "物联网技术中心"
+      ],
+      "profileUrl": "https://teacher.bupt.edu.cn/fuhuiyuan",
+      "portraitUrl": null,
+      "sourcePageUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm",
+      "officialRosterUrl": "https://scs.bupt.edu.cn/szdw/jsml.htm",
+      "profileChecked": false,
+      "decision": "excluded_insufficient_scope_evidence",
+      "reason": "官方名录提供个人页，但页面无法解析出足够的研究方向与独立 PI 证据；本轮按证据门槛不纳入，而非推断为非 AI/CS 或非 PI。",
+      "evidenceUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm",
+      "evidenceExcerpt": "物联网技术中心"
+    },
+    {
+      "officialId": "https://teacher.bupt.edu.cn/zhaodong",
+      "name": "赵东",
+      "title": null,
+      "officialSections": [
+        "物联网技术中心"
+      ],
+      "profileUrl": "https://teacher.bupt.edu.cn/zhaodong",
+      "portraitUrl": null,
+      "sourcePageUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm",
+      "officialRosterUrl": "https://scs.bupt.edu.cn/szdw/jsml.htm",
+      "profileChecked": false,
+      "decision": "excluded_insufficient_scope_evidence",
+      "reason": "官方名录提供个人页，但页面无法解析出足够的研究方向与独立 PI 证据；本轮按证据门槛不纳入，而非推断为非 AI/CS 或非 PI。",
+      "evidenceUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm",
+      "evidenceExcerpt": "物联网技术中心"
+    },
+    {
+      "officialId": "https://teacher.bupt.edu.cn/zhengxiaolong",
+      "name": "郑霄龙",
+      "title": null,
+      "officialSections": [
+        "物联网技术中心"
+      ],
+      "profileUrl": "https://teacher.bupt.edu.cn/zhengxiaolong",
+      "portraitUrl": null,
+      "sourcePageUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm",
+      "officialRosterUrl": "https://scs.bupt.edu.cn/szdw/jsml.htm",
+      "profileChecked": false,
+      "decision": "excluded_insufficient_scope_evidence",
+      "reason": "官方名录提供个人页，但页面无法解析出足够的研究方向与独立 PI 证据；本轮按证据门槛不纳入，而非推断为非 AI/CS 或非 PI。",
+      "evidenceUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm",
+      "evidenceExcerpt": "物联网技术中心"
+    },
+    {
+      "officialId": "https://teacher.bupt.edu.cn/qimengshi/zh_CN/index.htm",
+      "name": "齐梦实",
+      "title": null,
+      "officialSections": [
+        "物联网技术中心"
+      ],
+      "profileUrl": "https://teacher.bupt.edu.cn/qimengshi/zh_CN/index.htm",
+      "portraitUrl": null,
+      "sourcePageUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm",
+      "officialRosterUrl": "https://scs.bupt.edu.cn/szdw/jsml.htm",
+      "profileChecked": false,
+      "decision": "excluded_insufficient_scope_evidence",
+      "reason": "官方名录提供个人页，但页面无法解析出足够的研究方向与独立 PI 证据；本轮按证据门槛不纳入，而非推断为非 AI/CS 或非 PI。",
+      "evidenceUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm",
+      "evidenceExcerpt": "物联网技术中心"
+    },
+    {
+      "officialId": "https://teacher.bupt.edu.cn/zhanghuanhuan1/zh_CN/index.htm",
+      "name": "张欢欢",
+      "title": null,
+      "officialSections": [
+        "物联网技术中心"
+      ],
+      "profileUrl": "https://teacher.bupt.edu.cn/zhanghuanhuan1/zh_CN/index.htm",
+      "portraitUrl": null,
+      "sourcePageUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm",
+      "officialRosterUrl": "https://scs.bupt.edu.cn/szdw/jsml.htm",
+      "profileChecked": false,
+      "decision": "excluded_insufficient_scope_evidence",
+      "reason": "官方名录提供个人页，但页面无法解析出足够的研究方向与独立 PI 证据；本轮按证据门槛不纳入，而非推断为非 AI/CS 或非 PI。",
+      "evidenceUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm",
+      "evidenceExcerpt": "物联网技术中心"
+    },
+    {
+      "officialId": "https://teacher.bupt.edu.cn/xudongzhu1/zh_CN/index.htm",
+      "name": "徐冬竹",
+      "title": null,
+      "officialSections": [
+        "物联网技术中心"
+      ],
+      "profileUrl": "https://teacher.bupt.edu.cn/xudongzhu1/zh_CN/index.htm",
+      "portraitUrl": null,
+      "sourcePageUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm",
+      "officialRosterUrl": "https://scs.bupt.edu.cn/szdw/jsml.htm",
+      "profileChecked": false,
+      "decision": "excluded_insufficient_scope_evidence",
+      "reason": "官方名录提供个人页，但页面无法解析出足够的研究方向与独立 PI 证据；本轮按证据门槛不纳入，而非推断为非 AI/CS 或非 PI。",
+      "evidenceUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm",
+      "evidenceExcerpt": "物联网技术中心"
+    },
+    {
+      "officialId": "https://teacher.bupt.edu.cn/xiadan12340/zh_CN/index.htm",
+      "name": "夏丹",
+      "title": null,
+      "officialSections": [
+        "物联网技术中心"
+      ],
+      "profileUrl": "https://teacher.bupt.edu.cn/xiadan12340/zh_CN/index.htm",
+      "portraitUrl": null,
+      "sourcePageUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm",
+      "officialRosterUrl": "https://scs.bupt.edu.cn/szdw/jsml.htm",
+      "profileChecked": false,
+      "decision": "excluded_insufficient_scope_evidence",
+      "reason": "官方名录提供个人页，但页面无法解析出足够的研究方向与独立 PI 证据；本轮按证据门槛不纳入，而非推断为非 AI/CS 或非 PI。",
+      "evidenceUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm",
+      "evidenceExcerpt": "物联网技术中心"
+    },
+    {
+      "officialId": "https://teacher.bupt.edu.cn/huangxiaohong/",
+      "name": "黄小红",
+      "title": null,
+      "officialSections": [
+        "信息网络中心"
+      ],
+      "profileUrl": "https://teacher.bupt.edu.cn/huangxiaohong/",
+      "portraitUrl": null,
+      "sourcePageUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm",
+      "officialRosterUrl": "https://scs.bupt.edu.cn/szdw/jsml.htm",
+      "profileChecked": false,
+      "decision": "excluded_insufficient_scope_evidence",
+      "reason": "官方名录提供个人页，但页面无法解析出足够的研究方向与独立 PI 证据；本轮按证据门槛不纳入，而非推断为非 AI/CS 或非 PI。",
+      "evidenceUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm",
+      "evidenceExcerpt": "信息网络中心"
+    },
+    {
+      "officialId": "https://teacher.bupt.edu.cn/lidandan",
+      "name": "李丹丹",
+      "title": null,
+      "officialSections": [
+        "信息网络中心"
+      ],
+      "profileUrl": "https://teacher.bupt.edu.cn/lidandan",
+      "portraitUrl": null,
+      "sourcePageUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm",
+      "officialRosterUrl": "https://scs.bupt.edu.cn/szdw/jsml.htm",
+      "profileChecked": false,
+      "decision": "excluded_insufficient_scope_evidence",
+      "reason": "官方名录提供个人页，但页面无法解析出足够的研究方向与独立 PI 证据；本轮按证据门槛不纳入，而非推断为非 AI/CS 或非 PI。",
+      "evidenceUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm",
+      "evidenceExcerpt": "信息网络中心"
+    },
+    {
+      "officialId": "https://teacher.bupt.edu.cn/linzhaowen/zh_CN/index.htm",
+      "name": "林昭文",
+      "title": null,
+      "officialSections": [
+        "信息网络中心"
+      ],
+      "profileUrl": "https://teacher.bupt.edu.cn/linzhaowen/zh_CN/index.htm",
+      "portraitUrl": null,
+      "sourcePageUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm",
+      "officialRosterUrl": "https://scs.bupt.edu.cn/szdw/jsml.htm",
+      "profileChecked": false,
+      "decision": "excluded_insufficient_scope_evidence",
+      "reason": "官方名录提供个人页，但页面无法解析出足够的研究方向与独立 PI 证据；本轮按证据门槛不纳入，而非推断为非 AI/CS 或非 PI。",
+      "evidenceUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm",
+      "evidenceExcerpt": "信息网络中心"
+    },
+    {
+      "officialId": "https://teacher.bupt.edu.cn/zhangshuzhuang",
+      "name": "张树壮",
+      "title": null,
+      "officialSections": [
+        "信息网络中心"
+      ],
+      "profileUrl": "https://teacher.bupt.edu.cn/zhangshuzhuang",
+      "portraitUrl": null,
+      "sourcePageUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm",
+      "officialRosterUrl": "https://scs.bupt.edu.cn/szdw/jsml.htm",
+      "profileChecked": false,
+      "decision": "excluded_insufficient_scope_evidence",
+      "reason": "官方名录提供个人页，但页面无法解析出足够的研究方向与独立 PI 证据；本轮按证据门槛不纳入，而非推断为非 AI/CS 或非 PI。",
+      "evidenceUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm",
+      "evidenceExcerpt": "信息网络中心"
+    },
+    {
+      "officialId": "https://teacher.bupt.edu.cn/zhangpei",
+      "name": "张沛",
+      "title": null,
+      "officialSections": [
+        "信息网络中心"
+      ],
+      "profileUrl": "https://teacher.bupt.edu.cn/zhangpei",
+      "portraitUrl": null,
+      "sourcePageUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm",
+      "officialRosterUrl": "https://scs.bupt.edu.cn/szdw/jsml.htm",
+      "profileChecked": false,
+      "decision": "excluded_insufficient_scope_evidence",
+      "reason": "官方名录提供个人页，但页面无法解析出足够的研究方向与独立 PI 证据；本轮按证据门槛不纳入，而非推断为非 AI/CS 或非 PI。",
+      "evidenceUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm",
+      "evidenceExcerpt": "信息网络中心"
+    },
+    {
+      "officialId": "https://teacher.bupt.edu.cn/sunyi",
+      "name": "孙溢",
+      "title": null,
+      "officialSections": [
+        "信息网络中心"
+      ],
+      "profileUrl": "https://teacher.bupt.edu.cn/sunyi",
+      "portraitUrl": null,
+      "sourcePageUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm",
+      "officialRosterUrl": "https://scs.bupt.edu.cn/szdw/jsml.htm",
+      "profileChecked": false,
+      "decision": "excluded_insufficient_scope_evidence",
+      "reason": "官方名录提供个人页，但页面无法解析出足够的研究方向与独立 PI 证据；本轮按证据门槛不纳入，而非推断为非 AI/CS 或非 PI。",
+      "evidenceUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm",
+      "evidenceExcerpt": "信息网络中心"
+    },
+    {
+      "officialId": "https://teacher.bupt.edu.cn/wujun",
+      "name": "吴军",
+      "title": null,
+      "officialSections": [
+        "信息网络中心"
+      ],
+      "profileUrl": "https://teacher.bupt.edu.cn/wujun",
+      "portraitUrl": null,
+      "sourcePageUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm",
+      "officialRosterUrl": "https://scs.bupt.edu.cn/szdw/jsml.htm",
+      "profileChecked": false,
+      "decision": "excluded_insufficient_scope_evidence",
+      "reason": "官方名录提供个人页，但页面无法解析出足够的研究方向与独立 PI 证据；本轮按证据门槛不纳入，而非推断为非 AI/CS 或非 PI。",
+      "evidenceUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm",
+      "evidenceExcerpt": "信息网络中心"
+    },
+    {
+      "officialId": "https://teacher.bupt.edu.cn/huangjunfei",
+      "name": "黄俊飞",
+      "title": null,
+      "officialSections": [
+        "信息网络中心"
+      ],
+      "profileUrl": "https://teacher.bupt.edu.cn/huangjunfei",
+      "portraitUrl": null,
+      "sourcePageUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm",
+      "officialRosterUrl": "https://scs.bupt.edu.cn/szdw/jsml.htm",
+      "profileChecked": false,
+      "decision": "excluded_insufficient_scope_evidence",
+      "reason": "官方名录提供个人页，但页面无法解析出足够的研究方向与独立 PI 证据；本轮按证据门槛不纳入，而非推断为非 AI/CS 或非 PI。",
+      "evidenceUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm",
+      "evidenceExcerpt": "信息网络中心"
+    },
+    {
+      "officialId": "https://teacher.bupt.edu.cn/wubin",
+      "name": "吴斌",
+      "title": null,
+      "officialSections": [
+        "数据科学与服务中心"
+      ],
+      "profileUrl": "https://teacher.bupt.edu.cn/wubin",
+      "portraitUrl": null,
+      "sourcePageUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm",
+      "officialRosterUrl": "https://scs.bupt.edu.cn/szdw/jsml.htm",
+      "profileChecked": false,
+      "decision": "excluded_insufficient_scope_evidence",
+      "reason": "官方资料能确认相关研究方向，但可访问页面不足以证明其现任独立 PI 或招生资格；本轮按证据门槛不纳入，而非推断为非 PI。",
+      "evidenceUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm",
+      "evidenceExcerpt": "数据科学与服务中心"
+    },
+    {
+      "officialId": "https://teacher.bupt.edu.cn/songmeina/zh_CN/index.htm",
+      "name": "宋美娜",
+      "title": null,
+      "officialSections": [
+        "数据科学与服务中心"
+      ],
+      "profileUrl": "https://teacher.bupt.edu.cn/songmeina/zh_CN/index.htm",
+      "portraitUrl": null,
+      "sourcePageUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm",
+      "officialRosterUrl": "https://scs.bupt.edu.cn/szdw/jsml.htm",
+      "profileChecked": false,
+      "decision": "excluded_insufficient_scope_evidence",
+      "reason": "官方资料能确认相关研究方向，但可访问页面不足以证明其现任独立 PI 或招生资格；本轮按证据门槛不纳入，而非推断为非 PI。",
+      "evidenceUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm",
+      "evidenceExcerpt": "数据科学与服务中心"
+    },
+    {
+      "officialId": "https://teacher.bupt.edu.cn/shichuan",
+      "name": "石川",
+      "title": null,
+      "officialSections": [
+        "数据科学与服务中心"
+      ],
+      "profileUrl": "https://teacher.bupt.edu.cn/shichuan",
+      "portraitUrl": null,
+      "sourcePageUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm",
+      "officialRosterUrl": "https://scs.bupt.edu.cn/szdw/jsml.htm",
+      "profileChecked": false,
+      "decision": "excluded_insufficient_scope_evidence",
+      "reason": "官方资料能确认相关研究方向，但可访问页面不足以证明其现任独立 PI 或招生资格；本轮按证据门槛不纳入，而非推断为非 PI。",
+      "evidenceUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm",
+      "evidenceExcerpt": "数据科学与服务中心"
+    },
+    {
+      "officialId": "https://teacher.bupt.edu.cn/zhouwenan",
+      "name": "周文安",
+      "title": null,
+      "officialSections": [
+        "数据科学与服务中心"
+      ],
+      "profileUrl": "https://teacher.bupt.edu.cn/zhouwenan",
+      "portraitUrl": null,
+      "sourcePageUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm",
+      "officialRosterUrl": "https://scs.bupt.edu.cn/szdw/jsml.htm",
+      "profileChecked": false,
+      "decision": "excluded_insufficient_scope_evidence",
+      "reason": "官方资料能确认相关研究方向，但可访问页面不足以证明其现任独立 PI 或招生资格；本轮按证据门槛不纳入，而非推断为非 PI。",
+      "evidenceUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm",
+      "evidenceExcerpt": "数据科学与服务中心"
+    },
+    {
+      "officialId": "https://teacher.bupt.edu.cn/yuyanhua",
+      "name": "于艳华",
+      "title": null,
+      "officialSections": [
+        "数据科学与服务中心"
+      ],
+      "profileUrl": "https://teacher.bupt.edu.cn/yuyanhua",
+      "portraitUrl": null,
+      "sourcePageUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm",
+      "officialRosterUrl": "https://scs.bupt.edu.cn/szdw/jsml.htm",
+      "profileChecked": false,
+      "decision": "excluded_insufficient_scope_evidence",
+      "reason": "官方资料能确认相关研究方向，但可访问页面不足以证明其现任独立 PI 或招生资格；本轮按证据门槛不纳入，而非推断为非 PI。",
+      "evidenceUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm",
+      "evidenceExcerpt": "数据科学与服务中心"
+    },
+    {
+      "officialId": "https://teacher.bupt.edu.cn/ouzhonghong/zh_CN/index.htm",
+      "name": "欧中洪",
+      "title": null,
+      "officialSections": [
+        "数据科学与服务中心"
+      ],
+      "profileUrl": "https://teacher.bupt.edu.cn/ouzhonghong/zh_CN/index.htm",
+      "portraitUrl": null,
+      "sourcePageUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm",
+      "officialRosterUrl": "https://scs.bupt.edu.cn/szdw/jsml.htm",
+      "profileChecked": false,
+      "decision": "excluded_insufficient_scope_evidence",
+      "reason": "官方资料能确认相关研究方向，但可访问页面不足以证明其现任独立 PI 或招生资格；本轮按证据门槛不纳入，而非推断为非 PI。",
+      "evidenceUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm",
+      "evidenceExcerpt": "数据科学与服务中心"
+    },
+    {
+      "officialId": "https://teacher.bupt.edu.cn/ehaihong",
+      "name": "鄂海红",
+      "title": null,
+      "officialSections": [
+        "数据科学与服务中心"
+      ],
+      "profileUrl": "https://teacher.bupt.edu.cn/ehaihong",
+      "portraitUrl": null,
+      "sourcePageUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm",
+      "officialRosterUrl": "https://scs.bupt.edu.cn/szdw/jsml.htm",
+      "profileChecked": false,
+      "decision": "excluded_insufficient_scope_evidence",
+      "reason": "官方资料能确认相关研究方向，但可访问页面不足以证明其现任独立 PI 或招生资格；本轮按证据门槛不纳入，而非推断为非 PI。",
+      "evidenceUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm",
+      "evidenceExcerpt": "数据科学与服务中心"
+    },
+    {
+      "officialId": "https://teacher.bupt.edu.cn/lijie1/zh_CN/index.htm",
+      "name": "李劼",
+      "title": null,
+      "officialSections": [
+        "数据科学与服务中心"
+      ],
+      "profileUrl": "https://teacher.bupt.edu.cn/lijie1/zh_CN/index.htm",
+      "portraitUrl": null,
+      "sourcePageUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm",
+      "officialRosterUrl": "https://scs.bupt.edu.cn/szdw/jsml.htm",
+      "profileChecked": false,
+      "decision": "excluded_insufficient_scope_evidence",
+      "reason": "官方资料能确认相关研究方向，但可访问页面不足以证明其现任独立 PI 或招生资格；本轮按证据门槛不纳入，而非推断为非 PI。",
+      "evidenceUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm",
+      "evidenceExcerpt": "数据科学与服务中心"
+    },
+    {
+      "officialId": "https://teacher.bupt.edu.cn/xiaoding",
+      "name": "肖丁",
+      "title": null,
+      "officialSections": [
+        "数据科学与服务中心"
+      ],
+      "profileUrl": "https://teacher.bupt.edu.cn/xiaoding",
+      "portraitUrl": null,
+      "sourcePageUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm",
+      "officialRosterUrl": "https://scs.bupt.edu.cn/szdw/jsml.htm",
+      "profileChecked": false,
+      "decision": "excluded_insufficient_scope_evidence",
+      "reason": "官方资料能确认相关研究方向，但可访问页面不足以证明其现任独立 PI 或招生资格；本轮按证据门槛不纳入，而非推断为非 PI。",
+      "evidenceUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm",
+      "evidenceExcerpt": "数据科学与服务中心"
+    },
+    {
+      "officialId": "https://teacher.bupt.edu.cn/wangxiaohui",
+      "name": "王晓晖",
+      "title": null,
+      "officialSections": [
+        "数据科学与服务中心"
+      ],
+      "profileUrl": "https://teacher.bupt.edu.cn/wangxiaohui",
+      "portraitUrl": null,
+      "sourcePageUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm",
+      "officialRosterUrl": "https://scs.bupt.edu.cn/szdw/jsml.htm",
+      "profileChecked": false,
+      "decision": "excluded_insufficient_scope_evidence",
+      "reason": "官方资料能确认相关研究方向，但可访问页面不足以证明其现任独立 PI 或招生资格；本轮按证据门槛不纳入，而非推断为非 PI。",
+      "evidenceUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm",
+      "evidenceExcerpt": "数据科学与服务中心"
+    },
+    {
+      "officialId": "https://teacher.bupt.edu.cn/yuanyanni",
+      "name": "袁燕妮",
+      "title": null,
+      "officialSections": [
+        "数据科学与服务中心"
+      ],
+      "profileUrl": "https://teacher.bupt.edu.cn/yuanyanni",
+      "portraitUrl": null,
+      "sourcePageUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm",
+      "officialRosterUrl": "https://scs.bupt.edu.cn/szdw/jsml.htm",
+      "profileChecked": false,
+      "decision": "excluded_insufficient_scope_evidence",
+      "reason": "官方资料能确认相关研究方向，但可访问页面不足以证明其现任独立 PI 或招生资格；本轮按证据门槛不纳入，而非推断为非 PI。",
+      "evidenceUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm",
+      "evidenceExcerpt": "数据科学与服务中心"
+    },
+    {
+      "officialId": "https://teacher.bupt.edu.cn/pirenjie",
+      "name": "皮人杰",
+      "title": null,
+      "officialSections": [
+        "数据科学与服务中心"
+      ],
+      "profileUrl": "https://teacher.bupt.edu.cn/pirenjie",
+      "portraitUrl": null,
+      "sourcePageUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm",
+      "officialRosterUrl": "https://scs.bupt.edu.cn/szdw/jsml.htm",
+      "profileChecked": false,
+      "decision": "excluded_insufficient_scope_evidence",
+      "reason": "官方资料能确认相关研究方向，但可访问页面不足以证明其现任独立 PI 或招生资格；本轮按证据门槛不纳入，而非推断为非 PI。",
+      "evidenceUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm",
+      "evidenceExcerpt": "数据科学与服务中心"
+    },
+    {
+      "officialId": "https://teacher.bupt.edu.cn/zhangguangwei",
+      "name": "张光卫",
+      "title": null,
+      "officialSections": [
+        "数据科学与服务中心"
+      ],
+      "profileUrl": "https://teacher.bupt.edu.cn/zhangguangwei",
+      "portraitUrl": null,
+      "sourcePageUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm",
+      "officialRosterUrl": "https://scs.bupt.edu.cn/szdw/jsml.htm",
+      "profileChecked": false,
+      "decision": "excluded_insufficient_scope_evidence",
+      "reason": "官方资料能确认相关研究方向，但可访问页面不足以证明其现任独立 PI 或招生资格；本轮按证据门槛不纳入，而非推断为非 PI。",
+      "evidenceUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm",
+      "evidenceExcerpt": "数据科学与服务中心"
+    },
+    {
+      "officialId": "https://teacher.bupt.edu.cn/yangcheng",
+      "name": "杨成",
+      "title": null,
+      "officialSections": [
+        "数据科学与服务中心"
+      ],
+      "profileUrl": "https://teacher.bupt.edu.cn/yangcheng",
+      "portraitUrl": null,
+      "sourcePageUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm",
+      "officialRosterUrl": "https://scs.bupt.edu.cn/szdw/jsml.htm",
+      "profileChecked": false,
+      "decision": "excluded_insufficient_scope_evidence",
+      "reason": "官方资料能确认相关研究方向，但可访问页面不足以证明其现任独立 PI 或招生资格；本轮按证据门槛不纳入，而非推断为非 PI。",
+      "evidenceUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm",
+      "evidenceExcerpt": "数据科学与服务中心"
+    },
+    {
+      "officialId": "https://scs.bupt.edu.cn/info/1090/1953.htm",
+      "name": "白婷",
+      "title": null,
+      "officialSections": [
+        "数据科学与服务中心"
+      ],
+      "profileUrl": "https://scs.bupt.edu.cn/info/1090/1953.htm",
+      "portraitUrl": null,
+      "sourcePageUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm",
+      "officialRosterUrl": "https://scs.bupt.edu.cn/szdw/jsml.htm",
+      "profileChecked": false,
+      "decision": "excluded_insufficient_scope_evidence",
+      "reason": "官方资料能确认相关研究方向，但可访问页面不足以证明其现任独立 PI 或招生资格；本轮按证据门槛不纳入，而非推断为非 PI。",
+      "evidenceUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm",
+      "evidenceExcerpt": "数据科学与服务中心"
+    },
+    {
+      "officialId": "https://teacher.bupt.edu.cn/zhuyifan/zh_CN/index.htm",
+      "name": "朱一凡",
+      "title": null,
+      "officialSections": [
+        "数据科学与服务中心"
+      ],
+      "profileUrl": "https://teacher.bupt.edu.cn/zhuyifan/zh_CN/index.htm",
+      "portraitUrl": null,
+      "sourcePageUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm",
+      "officialRosterUrl": "https://scs.bupt.edu.cn/szdw/jsml.htm",
+      "profileChecked": false,
+      "decision": "excluded_insufficient_scope_evidence",
+      "reason": "官方资料能确认相关研究方向，但可访问页面不足以证明其现任独立 PI 或招生资格；本轮按证据门槛不纳入，而非推断为非 PI。",
+      "evidenceUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm",
+      "evidenceExcerpt": "数据科学与服务中心"
+    },
+    {
+      "officialId": "https://teacher.bupt.edu.cn/susen",
+      "name": "苏森",
+      "title": null,
+      "officialSections": [
+        "交换与智能控制研究中心"
+      ],
+      "profileUrl": "https://teacher.bupt.edu.cn/susen",
+      "portraitUrl": null,
+      "sourcePageUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm",
+      "officialRosterUrl": "https://scs.bupt.edu.cn/szdw/jsml.htm",
+      "profileChecked": false,
+      "decision": "excluded_insufficient_scope_evidence",
+      "reason": "官方资料能确认相关研究方向，但可访问页面不足以证明其现任独立 PI 或招生资格；本轮按证据门槛不纳入，而非推断为非 PI。",
+      "evidenceUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm",
+      "evidenceExcerpt": "交换与智能控制研究中心"
+    },
+    {
+      "officialId": "https://teacher.bupt.edu.cn/yandanfeng",
+      "name": "闫丹凤",
+      "title": null,
+      "officialSections": [
+        "交换与智能控制研究中心"
+      ],
+      "profileUrl": "https://teacher.bupt.edu.cn/yandanfeng",
+      "portraitUrl": null,
+      "sourcePageUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm",
+      "officialRosterUrl": "https://scs.bupt.edu.cn/szdw/jsml.htm",
+      "profileChecked": false,
+      "decision": "excluded_insufficient_scope_evidence",
+      "reason": "官方资料能确认相关研究方向，但可访问页面不足以证明其现任独立 PI 或招生资格；本轮按证据门槛不纳入，而非推断为非 PI。",
+      "evidenceUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm",
+      "evidenceExcerpt": "交换与智能控制研究中心"
+    },
+    {
+      "officialId": "https://teacher.bupt.edu.cn/lijinglin",
+      "name": "李静林",
+      "title": null,
+      "officialSections": [
+        "交换与智能控制研究中心"
+      ],
+      "profileUrl": "https://teacher.bupt.edu.cn/lijinglin",
+      "portraitUrl": null,
+      "sourcePageUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm",
+      "officialRosterUrl": "https://scs.bupt.edu.cn/szdw/jsml.htm",
+      "profileChecked": false,
+      "decision": "excluded_insufficient_scope_evidence",
+      "reason": "官方资料能确认相关研究方向，但可访问页面不足以证明其现任独立 PI 或招生资格；本轮按证据门槛不纳入，而非推断为非 PI。",
+      "evidenceUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm",
+      "evidenceExcerpt": "交换与智能控制研究中心"
+    },
+    {
+      "officialId": "https://teacher.bupt.edu.cn/shuangkai",
+      "name": "双锴",
+      "title": null,
+      "officialSections": [
+        "交换与智能控制研究中心"
+      ],
+      "profileUrl": "https://teacher.bupt.edu.cn/shuangkai",
+      "portraitUrl": null,
+      "sourcePageUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm",
+      "officialRosterUrl": "https://scs.bupt.edu.cn/szdw/jsml.htm",
+      "profileChecked": false,
+      "decision": "excluded_insufficient_scope_evidence",
+      "reason": "官方资料能确认相关研究方向，但可访问页面不足以证明其现任独立 PI 或招生资格；本轮按证据门槛不纳入，而非推断为非 PI。",
+      "evidenceUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm",
+      "evidenceExcerpt": "交换与智能控制研究中心"
+    },
+    {
+      "officialId": "https://teacher.bupt.edu.cn/wangshangguang",
+      "name": "王尚广",
+      "title": null,
+      "officialSections": [
+        "交换与智能控制研究中心"
+      ],
+      "profileUrl": "https://teacher.bupt.edu.cn/wangshangguang",
+      "portraitUrl": null,
+      "sourcePageUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm",
+      "officialRosterUrl": "https://scs.bupt.edu.cn/szdw/jsml.htm",
+      "profileChecked": false,
+      "decision": "excluded_insufficient_scope_evidence",
+      "reason": "官方资料能确认相关研究方向，但可访问页面不足以证明其现任独立 PI 或招生资格；本轮按证据门槛不纳入，而非推断为非 PI。",
+      "evidenceUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm",
+      "evidenceExcerpt": "交换与智能控制研究中心"
+    },
+    {
+      "officialId": "https://teacher.bupt.edu.cn/sunqibo/",
+      "name": "孙其博",
+      "title": null,
+      "officialSections": [
+        "交换与智能控制研究中心"
+      ],
+      "profileUrl": "https://teacher.bupt.edu.cn/sunqibo/",
+      "portraitUrl": null,
+      "sourcePageUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm",
+      "officialRosterUrl": "https://scs.bupt.edu.cn/szdw/jsml.htm",
+      "profileChecked": false,
+      "decision": "excluded_insufficient_scope_evidence",
+      "reason": "官方资料能确认相关研究方向，但可访问页面不足以证明其现任独立 PI 或招生资格；本轮按证据门槛不纳入，而非推断为非 PI。",
+      "evidenceUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm",
+      "evidenceExcerpt": "交换与智能控制研究中心"
+    },
+    {
+      "officialId": "https://teacher.bupt.edu.cn/xupeng",
+      "name": "徐鹏",
+      "title": null,
+      "officialSections": [
+        "交换与智能控制研究中心"
+      ],
+      "profileUrl": "https://teacher.bupt.edu.cn/xupeng",
+      "portraitUrl": null,
+      "sourcePageUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm",
+      "officialRosterUrl": "https://scs.bupt.edu.cn/szdw/jsml.htm",
+      "profileChecked": false,
+      "decision": "excluded_insufficient_scope_evidence",
+      "reason": "官方资料能确认相关研究方向，但可访问页面不足以证明其现任独立 PI 或招生资格；本轮按证据门槛不纳入，而非推断为非 PI。",
+      "evidenceUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm",
+      "evidenceExcerpt": "交换与智能控制研究中心"
+    },
+    {
+      "officialId": "https://teacher.bupt.edu.cn/zhaoyao",
+      "name": "赵耀",
+      "title": null,
+      "officialSections": [
+        "交换与智能控制研究中心"
+      ],
+      "profileUrl": "https://teacher.bupt.edu.cn/zhaoyao",
+      "portraitUrl": null,
+      "sourcePageUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm",
+      "officialRosterUrl": "https://scs.bupt.edu.cn/szdw/jsml.htm",
+      "profileChecked": false,
+      "decision": "excluded_insufficient_scope_evidence",
+      "reason": "官方资料能确认相关研究方向，但可访问页面不足以证明其现任独立 PI 或招生资格；本轮按证据门槛不纳入，而非推断为非 PI。",
+      "evidenceUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm",
+      "evidenceExcerpt": "交换与智能控制研究中心"
+    },
+    {
+      "officialId": "https://teacher.bupt.edu.cn/wangyulong1/zh_CN/index.htm",
+      "name": "王玉龙",
+      "title": null,
+      "officialSections": [
+        "交换与智能控制研究中心"
+      ],
+      "profileUrl": "https://teacher.bupt.edu.cn/wangyulong1/zh_CN/index.htm",
+      "portraitUrl": null,
+      "sourcePageUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm",
+      "officialRosterUrl": "https://scs.bupt.edu.cn/szdw/jsml.htm",
+      "profileChecked": false,
+      "decision": "excluded_insufficient_scope_evidence",
+      "reason": "官方资料能确认相关研究方向，但可访问页面不足以证明其现任独立 PI 或招生资格；本轮按证据门槛不纳入，而非推断为非 PI。",
+      "evidenceUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm",
+      "evidenceExcerpt": "交换与智能控制研究中心"
+    },
+    {
+      "officialId": "https://teacher.bupt.edu.cn/linrongheng",
+      "name": "林荣恒",
+      "title": null,
+      "officialSections": [
+        "交换与智能控制研究中心"
+      ],
+      "profileUrl": "https://teacher.bupt.edu.cn/linrongheng",
+      "portraitUrl": null,
+      "sourcePageUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm",
+      "officialRosterUrl": "https://scs.bupt.edu.cn/szdw/jsml.htm",
+      "profileChecked": false,
+      "decision": "excluded_insufficient_scope_evidence",
+      "reason": "官方资料能确认相关研究方向，但可访问页面不足以证明其现任独立 PI 或招生资格；本轮按证据门槛不纳入，而非推断为非 PI。",
+      "evidenceUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm",
+      "evidenceExcerpt": "交换与智能控制研究中心"
+    },
+    {
+      "officialId": "https://teacher.bupt.edu.cn/chengxiang",
+      "name": "程祥",
+      "title": null,
+      "officialSections": [
+        "交换与智能控制研究中心"
+      ],
+      "profileUrl": "https://teacher.bupt.edu.cn/chengxiang",
+      "portraitUrl": null,
+      "sourcePageUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm",
+      "officialRosterUrl": "https://scs.bupt.edu.cn/szdw/jsml.htm",
+      "profileChecked": false,
+      "decision": "excluded_insufficient_scope_evidence",
+      "reason": "官方资料能确认相关研究方向，但可访问页面不足以证明其现任独立 PI 或招生资格；本轮按证据门槛不纳入，而非推断为非 PI。",
+      "evidenceUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm",
+      "evidenceExcerpt": "交换与智能控制研究中心"
+    },
+    {
+      "officialId": "https://teacher.bupt.edu.cn/zhangzhongbao/zh_CN/index.htm",
+      "name": "张忠宝",
+      "title": null,
+      "officialSections": [
+        "交换与智能控制研究中心"
+      ],
+      "profileUrl": "https://teacher.bupt.edu.cn/zhangzhongbao/zh_CN/index.htm",
+      "portraitUrl": null,
+      "sourcePageUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm",
+      "officialRosterUrl": "https://scs.bupt.edu.cn/szdw/jsml.htm",
+      "profileChecked": false,
+      "decision": "excluded_insufficient_scope_evidence",
+      "reason": "官方资料能确认相关研究方向，但可访问页面不足以证明其现任独立 PI 或招生资格；本轮按证据门槛不纳入，而非推断为非 PI。",
+      "evidenceUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm",
+      "evidenceExcerpt": "交换与智能控制研究中心"
+    },
+    {
+      "officialId": "https://teacher.bupt.edu.cn/zhouao",
+      "name": "周傲",
+      "title": null,
+      "officialSections": [
+        "交换与智能控制研究中心"
+      ],
+      "profileUrl": "https://teacher.bupt.edu.cn/zhouao",
+      "portraitUrl": null,
+      "sourcePageUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm",
+      "officialRosterUrl": "https://scs.bupt.edu.cn/szdw/jsml.htm",
+      "profileChecked": false,
+      "decision": "excluded_insufficient_scope_evidence",
+      "reason": "官方资料能确认相关研究方向，但可访问页面不足以证明其现任独立 PI 或招生资格；本轮按证据门槛不纳入，而非推断为非 PI。",
+      "evidenceUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm",
+      "evidenceExcerpt": "交换与智能控制研究中心"
+    },
+    {
+      "officialId": "https://teacher.bupt.edu.cn/xumengwei",
+      "name": "徐梦炜",
+      "title": null,
+      "officialSections": [
+        "交换与智能控制研究中心"
+      ],
+      "profileUrl": "https://teacher.bupt.edu.cn/xumengwei",
+      "portraitUrl": null,
+      "sourcePageUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm",
+      "officialRosterUrl": "https://scs.bupt.edu.cn/szdw/jsml.htm",
+      "profileChecked": false,
+      "decision": "excluded_insufficient_scope_evidence",
+      "reason": "官方资料能确认相关研究方向，但可访问页面不足以证明其现任独立 PI 或招生资格；本轮按证据门槛不纳入，而非推断为非 PI。",
+      "evidenceUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm",
+      "evidenceExcerpt": "交换与智能控制研究中心"
+    },
+    {
+      "officialId": "https://teacher.bupt.edu.cn/zhanghaibin",
+      "name": "张海滨",
+      "title": null,
+      "officialSections": [
+        "交换与智能控制研究中心"
+      ],
+      "profileUrl": "https://teacher.bupt.edu.cn/zhanghaibin",
+      "portraitUrl": null,
+      "sourcePageUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm",
+      "officialRosterUrl": "https://scs.bupt.edu.cn/szdw/jsml.htm",
+      "profileChecked": false,
+      "decision": "excluded_insufficient_scope_evidence",
+      "reason": "官方资料能确认相关研究方向，但可访问页面不足以证明其现任独立 PI 或招生资格；本轮按证据门槛不纳入，而非推断为非 PI。",
+      "evidenceUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm",
+      "evidenceExcerpt": "交换与智能控制研究中心"
+    },
+    {
+      "officialId": "https://teacher.bupt.edu.cn/yuanquan",
+      "name": "袁泉",
+      "title": null,
+      "officialSections": [
+        "交换与智能控制研究中心"
+      ],
+      "profileUrl": "https://teacher.bupt.edu.cn/yuanquan",
+      "portraitUrl": null,
+      "sourcePageUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm",
+      "officialRosterUrl": "https://scs.bupt.edu.cn/szdw/jsml.htm",
+      "profileChecked": false,
+      "decision": "excluded_insufficient_scope_evidence",
+      "reason": "官方资料能确认相关研究方向，但可访问页面不足以证明其现任独立 PI 或招生资格；本轮按证据门槛不纳入，而非推断为非 PI。",
+      "evidenceUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm",
+      "evidenceExcerpt": "交换与智能控制研究中心"
+    },
+    {
+      "officialId": "https://teacher.bupt.edu.cn/maxiao1",
+      "name": "马骁",
+      "title": null,
+      "officialSections": [
+        "交换与智能控制研究中心"
+      ],
+      "profileUrl": "https://teacher.bupt.edu.cn/maxiao1",
+      "portraitUrl": null,
+      "sourcePageUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm",
+      "officialRosterUrl": "https://scs.bupt.edu.cn/szdw/jsml.htm",
+      "profileChecked": false,
+      "decision": "excluded_insufficient_scope_evidence",
+      "reason": "官方资料能确认相关研究方向，但可访问页面不足以证明其现任独立 PI 或招生资格；本轮按证据门槛不纳入，而非推断为非 PI。",
+      "evidenceUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm",
+      "evidenceExcerpt": "交换与智能控制研究中心"
+    },
+    {
+      "officialId": "https://teacher.bupt.edu.cn/caiyuanqiang",
+      "name": "蔡院强",
+      "title": null,
+      "officialSections": [
+        "交换与智能控制研究中心"
+      ],
+      "profileUrl": "https://teacher.bupt.edu.cn/caiyuanqiang",
+      "portraitUrl": null,
+      "sourcePageUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm",
+      "officialRosterUrl": "https://scs.bupt.edu.cn/szdw/jsml.htm",
+      "profileChecked": false,
+      "decision": "excluded_insufficient_scope_evidence",
+      "reason": "官方资料能确认相关研究方向，但可访问页面不足以证明其现任独立 PI 或招生资格；本轮按证据门槛不纳入，而非推断为非 PI。",
+      "evidenceUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm",
+      "evidenceExcerpt": "交换与智能控制研究中心"
+    },
+    {
+      "officialId": "https://teacher.bupt.edu.cn/luoguiyang1/zh_CN/index.htm",
+      "name": "罗贵阳",
+      "title": null,
+      "officialSections": [
+        "交换与智能控制研究中心"
+      ],
+      "profileUrl": "https://teacher.bupt.edu.cn/luoguiyang1/zh_CN/index.htm",
+      "portraitUrl": null,
+      "sourcePageUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm",
+      "officialRosterUrl": "https://scs.bupt.edu.cn/szdw/jsml.htm",
+      "profileChecked": false,
+      "decision": "excluded_insufficient_scope_evidence",
+      "reason": "官方资料能确认相关研究方向，但可访问页面不足以证明其现任独立 PI 或招生资格；本轮按证据门槛不纳入，而非推断为非 PI。",
+      "evidenceUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm",
+      "evidenceExcerpt": "交换与智能控制研究中心"
+    },
+    {
+      "officialId": "https://teacher.bupt.edu.cn/zhangyiran/zh_CN/index.htm",
+      "name": "张乙然",
+      "title": null,
+      "officialSections": [
+        "交换与智能控制研究中心"
+      ],
+      "profileUrl": "https://teacher.bupt.edu.cn/zhangyiran/zh_CN/index.htm",
+      "portraitUrl": null,
+      "sourcePageUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm",
+      "officialRosterUrl": "https://scs.bupt.edu.cn/szdw/jsml.htm",
+      "profileChecked": false,
+      "decision": "excluded_insufficient_scope_evidence",
+      "reason": "官方资料能确认相关研究方向，但可访问页面不足以证明其现任独立 PI 或招生资格；本轮按证据门槛不纳入，而非推断为非 PI。",
+      "evidenceUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm",
+      "evidenceExcerpt": "交换与智能控制研究中心"
+    },
+    {
+      "officialId": "https://teacher.bupt.edu.cn/qitao2/zh_CN/index.htm",
+      "name": "齐涛",
+      "title": null,
+      "officialSections": [
+        "交换与智能控制研究中心"
+      ],
+      "profileUrl": "https://teacher.bupt.edu.cn/qitao2/zh_CN/index.htm",
+      "portraitUrl": null,
+      "sourcePageUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm",
+      "officialRosterUrl": "https://scs.bupt.edu.cn/szdw/jsml.htm",
+      "profileChecked": false,
+      "decision": "excluded_insufficient_scope_evidence",
+      "reason": "官方资料能确认相关研究方向，但可访问页面不足以证明其现任独立 PI 或招生资格；本轮按证据门槛不纳入，而非推断为非 PI。",
+      "evidenceUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm",
+      "evidenceExcerpt": "交换与智能控制研究中心"
+    },
+    {
+      "officialId": "https://teacher.bupt.edu.cn/liqing4/zh_CN/index.htm",
+      "name": "李晴",
+      "title": null,
+      "officialSections": [
+        "交换与智能控制研究中心"
+      ],
+      "profileUrl": "https://teacher.bupt.edu.cn/liqing4/zh_CN/index.htm",
+      "portraitUrl": null,
+      "sourcePageUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm",
+      "officialRosterUrl": "https://scs.bupt.edu.cn/szdw/jsml.htm",
+      "profileChecked": false,
+      "decision": "excluded_insufficient_scope_evidence",
+      "reason": "官方资料能确认相关研究方向，但可访问页面不足以证明其现任独立 PI 或招生资格；本轮按证据门槛不纳入，而非推断为非 PI。",
+      "evidenceUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm",
+      "evidenceExcerpt": "交换与智能控制研究中心"
+    },
+    {
+      "officialId": "https://teacher.bupt.edu.cn/liaoxia/zh_CN/index.htm",
+      "name": "廖霞",
+      "title": null,
+      "officialSections": [
+        "交换与智能控制研究中心"
+      ],
+      "profileUrl": "https://teacher.bupt.edu.cn/liaoxia/zh_CN/index.htm",
+      "portraitUrl": null,
+      "sourcePageUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm",
+      "officialRosterUrl": "https://scs.bupt.edu.cn/szdw/jsml.htm",
+      "profileChecked": false,
+      "decision": "excluded_insufficient_scope_evidence",
+      "reason": "官方资料能确认相关研究方向，但可访问页面不足以证明其现任独立 PI 或招生资格；本轮按证据门槛不纳入，而非推断为非 PI。",
+      "evidenceUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm",
+      "evidenceExcerpt": "交换与智能控制研究中心"
+    },
+    {
+      "officialId": "https://teacher.bupt.edu.cn/liyuanzhe/zh_CN/index.htm",
+      "name": "李元哲",
+      "title": null,
+      "officialSections": [
+        "交换与智能控制研究中心"
+      ],
+      "profileUrl": "https://teacher.bupt.edu.cn/liyuanzhe/zh_CN/index.htm",
+      "portraitUrl": null,
+      "sourcePageUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm",
+      "officialRosterUrl": "https://scs.bupt.edu.cn/szdw/jsml.htm",
+      "profileChecked": false,
+      "decision": "excluded_insufficient_scope_evidence",
+      "reason": "官方资料能确认相关研究方向，但可访问页面不足以证明其现任独立 PI 或招生资格；本轮按证据门槛不纳入，而非推断为非 PI。",
+      "evidenceUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm",
+      "evidenceExcerpt": "交换与智能控制研究中心"
+    },
+    {
+      "officialId": "https://teacher.bupt.edu.cn/xudaliang/zh_CN/index.htm",
+      "name": "徐大亮",
+      "title": null,
+      "officialSections": [
+        "交换与智能控制研究中心"
+      ],
+      "profileUrl": "https://teacher.bupt.edu.cn/xudaliang/zh_CN/index.htm",
+      "portraitUrl": null,
+      "sourcePageUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm",
+      "officialRosterUrl": "https://scs.bupt.edu.cn/szdw/jsml.htm",
+      "profileChecked": false,
+      "decision": "excluded_insufficient_scope_evidence",
+      "reason": "官方资料能确认相关研究方向，但可访问页面不足以证明其现任独立 PI 或招生资格；本轮按证据门槛不纳入，而非推断为非 PI。",
+      "evidenceUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm",
+      "evidenceExcerpt": "交换与智能控制研究中心"
+    },
+    {
+      "officialId": "https://teacher.bupt.edu.cn/sunli1/zh_CN/index.htm",
+      "name": "孙笠",
+      "title": null,
+      "officialSections": [
+        "交换与智能控制研究中心"
+      ],
+      "profileUrl": "https://teacher.bupt.edu.cn/sunli1/zh_CN/index.htm",
+      "portraitUrl": null,
+      "sourcePageUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm",
+      "officialRosterUrl": "https://scs.bupt.edu.cn/szdw/jsml.htm",
+      "profileChecked": false,
+      "decision": "excluded_insufficient_scope_evidence",
+      "reason": "官方资料能确认相关研究方向，但可访问页面不足以证明其现任独立 PI 或招生资格；本轮按证据门槛不纳入，而非推断为非 PI。",
+      "evidenceUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm",
+      "evidenceExcerpt": "交换与智能控制研究中心"
+    },
+    {
+      "officialId": "https://teacher.bupt.edu.cn/huxiameng/zh_CN/index.htm",
+      "name": "胡夏蒙",
+      "title": null,
+      "officialSections": [
+        "交换与智能控制研究中心"
+      ],
+      "profileUrl": "https://teacher.bupt.edu.cn/huxiameng/zh_CN/index.htm",
+      "portraitUrl": null,
+      "sourcePageUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm",
+      "officialRosterUrl": "https://scs.bupt.edu.cn/szdw/jsml.htm",
+      "profileChecked": false,
+      "decision": "excluded_insufficient_scope_evidence",
+      "reason": "官方资料能确认相关研究方向，但可访问页面不足以证明其现任独立 PI 或招生资格；本轮按证据门槛不纳入，而非推断为非 PI。",
+      "evidenceUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm",
+      "evidenceExcerpt": "交换与智能控制研究中心"
+    },
+    {
+      "officialId": "https://teacher.bupt.edu.cn/cqxu/zh_CN/index.htm",
+      "name": "许长桥",
+      "title": null,
+      "officialSections": [
+        "网络体系结构研究中心"
+      ],
+      "profileUrl": "https://teacher.bupt.edu.cn/cqxu/zh_CN/index.htm",
+      "portraitUrl": null,
+      "sourcePageUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm",
+      "officialRosterUrl": "https://scs.bupt.edu.cn/szdw/jsml.htm",
+      "profileChecked": false,
+      "decision": "excluded_insufficient_scope_evidence",
+      "reason": "官方名录提供个人页，但页面无法解析出足够的研究方向与独立 PI 证据；本轮按证据门槛不纳入，而非推断为非 AI/CS 或非 PI。",
+      "evidenceUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm",
+      "evidenceExcerpt": "网络体系结构研究中心"
+    },
+    {
+      "officialId": "https://teacher.bupt.edu.cn/xiedongliang",
+      "name": "谢东亮",
+      "title": null,
+      "officialSections": [
+        "网络体系结构研究中心"
+      ],
+      "profileUrl": "https://teacher.bupt.edu.cn/xiedongliang",
+      "portraitUrl": null,
+      "sourcePageUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm",
+      "officialRosterUrl": "https://scs.bupt.edu.cn/szdw/jsml.htm",
+      "profileChecked": false,
+      "decision": "included_existing",
+      "atlasPersonId": "dongliang-xie-bupt",
+      "reason": "图谱已有同一人物 dongliang-xie-bupt；官方名录/个人页确认其当前属于北京邮电大学计算机学院。",
+      "evidenceUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm",
+      "evidenceExcerpt": "网络体系结构研究中心"
+    },
+    {
+      "officialId": "https://teacher.bupt.edu.cn/gongxiangyang",
+      "name": "龚向阳",
+      "title": null,
+      "officialSections": [
+        "网络体系结构研究中心"
+      ],
+      "profileUrl": "https://teacher.bupt.edu.cn/gongxiangyang",
+      "portraitUrl": null,
+      "sourcePageUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm",
+      "officialRosterUrl": "https://scs.bupt.edu.cn/szdw/jsml.htm",
+      "profileChecked": false,
+      "decision": "excluded_insufficient_scope_evidence",
+      "reason": "官方名录提供个人页，但页面无法解析出足够的研究方向与独立 PI 证据；本轮按证据门槛不纳入，而非推断为非 AI/CS 或非 PI。",
+      "evidenceUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm",
+      "evidenceExcerpt": "网络体系结构研究中心"
+    },
+    {
+      "officialId": "https://teacher.bupt.edu.cn/hubo",
+      "name": "胡博",
+      "title": null,
+      "officialSections": [
+        "网络体系结构研究中心"
+      ],
+      "profileUrl": "https://teacher.bupt.edu.cn/hubo",
+      "portraitUrl": null,
+      "sourcePageUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm",
+      "officialRosterUrl": "https://scs.bupt.edu.cn/szdw/jsml.htm",
+      "profileChecked": false,
+      "decision": "excluded_insufficient_scope_evidence",
+      "reason": "官方名录提供个人页，但页面无法解析出足够的研究方向与独立 PI 证据；本轮按证据门槛不纳入，而非推断为非 AI/CS 或非 PI。",
+      "evidenceUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm",
+      "evidenceExcerpt": "网络体系结构研究中心"
+    },
+    {
+      "officialId": "https://teacher.bupt.edu.cn/lumeilian",
+      "name": "卢美莲",
+      "title": null,
+      "officialSections": [
+        "网络体系结构研究中心"
+      ],
+      "profileUrl": "https://teacher.bupt.edu.cn/lumeilian",
+      "portraitUrl": null,
+      "sourcePageUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm",
+      "officialRosterUrl": "https://scs.bupt.edu.cn/szdw/jsml.htm",
+      "profileChecked": false,
+      "decision": "excluded_insufficient_scope_evidence",
+      "reason": "官方名录提供个人页，但页面无法解析出足够的研究方向与独立 PI 证据；本轮按证据门槛不纳入，而非推断为非 AI/CS 或非 PI。",
+      "evidenceUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm",
+      "evidenceExcerpt": "网络体系结构研究中心"
+    },
+    {
+      "officialId": "https://teacher.bupt.edu.cn/guanjianfeng",
+      "name": "关建峰",
+      "title": null,
+      "officialSections": [
+        "网络体系结构研究中心"
+      ],
+      "profileUrl": "https://teacher.bupt.edu.cn/guanjianfeng",
+      "portraitUrl": null,
+      "sourcePageUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm",
+      "officialRosterUrl": "https://scs.bupt.edu.cn/szdw/jsml.htm",
+      "profileChecked": false,
+      "decision": "excluded_insufficient_scope_evidence",
+      "reason": "官方名录提供个人页，但页面无法解析出足够的研究方向与独立 PI 证据；本轮按证据门槛不纳入，而非推断为非 AI/CS 或非 PI。",
+      "evidenceUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm",
+      "evidenceExcerpt": "网络体系结构研究中心"
+    },
+    {
+      "officialId": "https://teacher.bupt.edu.cn/xiongyongping",
+      "name": "熊永平",
+      "title": null,
+      "officialSections": [
+        "网络体系结构研究中心"
+      ],
+      "profileUrl": "https://teacher.bupt.edu.cn/xiongyongping",
+      "portraitUrl": null,
+      "sourcePageUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm",
+      "officialRosterUrl": "https://scs.bupt.edu.cn/szdw/jsml.htm",
+      "profileChecked": false,
+      "decision": "excluded_insufficient_scope_evidence",
+      "reason": "官方名录提供个人页，但页面无法解析出足够的研究方向与独立 PI 证据；本轮按证据门槛不纳入，而非推断为非 AI/CS 或非 PI。",
+      "evidenceUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm",
+      "evidenceExcerpt": "网络体系结构研究中心"
+    },
+    {
+      "officialId": "https://teacher.bupt.edu.cn/tianye",
+      "name": "田野",
+      "title": null,
+      "officialSections": [
+        "网络体系结构研究中心"
+      ],
+      "profileUrl": "https://teacher.bupt.edu.cn/tianye",
+      "portraitUrl": null,
+      "sourcePageUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm",
+      "officialRosterUrl": "https://scs.bupt.edu.cn/szdw/jsml.htm",
+      "profileChecked": false,
+      "decision": "excluded_insufficient_scope_evidence",
+      "reason": "官方名录提供个人页，但页面无法解析出足够的研究方向与独立 PI 证据；本轮按证据门槛不纳入，而非推断为非 AI/CS 或非 PI。",
+      "evidenceUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm",
+      "evidenceExcerpt": "网络体系结构研究中心"
+    },
+    {
+      "officialId": "https://teacher.bupt.edu.cn/lixin",
+      "name": "李昕",
+      "title": null,
+      "officialSections": [
+        "网络体系结构研究中心"
+      ],
+      "profileUrl": "https://teacher.bupt.edu.cn/lixin",
+      "portraitUrl": null,
+      "sourcePageUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm",
+      "officialRosterUrl": "https://scs.bupt.edu.cn/szdw/jsml.htm",
+      "profileChecked": false,
+      "decision": "excluded_insufficient_scope_evidence",
+      "reason": "官方名录提供个人页，但页面无法解析出足够的研究方向与独立 PI 证据；本轮按证据门槛不纳入，而非推断为非 AI/CS 或非 PI。",
+      "evidenceUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm",
+      "evidenceExcerpt": "网络体系结构研究中心"
+    },
+    {
+      "officialId": "https://teacher.bupt.edu.cn/quexirong",
+      "name": "阙喜戎",
+      "title": null,
+      "officialSections": [
+        "网络体系结构研究中心"
+      ],
+      "profileUrl": "https://teacher.bupt.edu.cn/quexirong",
+      "portraitUrl": null,
+      "sourcePageUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm",
+      "officialRosterUrl": "https://scs.bupt.edu.cn/szdw/jsml.htm",
+      "profileChecked": false,
+      "decision": "excluded_insufficient_scope_evidence",
+      "reason": "官方名录提供个人页，但页面无法解析出足够的研究方向与独立 PI 证据；本轮按证据门槛不纳入，而非推断为非 AI/CS 或非 PI。",
+      "evidenceUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm",
+      "evidenceExcerpt": "网络体系结构研究中心"
+    },
+    {
+      "officialId": "https://teacher.bupt.edu.cn/wanghongbo",
+      "name": "王洪波",
+      "title": null,
+      "officialSections": [
+        "网络体系结构研究中心"
+      ],
+      "profileUrl": "https://teacher.bupt.edu.cn/wanghongbo",
+      "portraitUrl": null,
+      "sourcePageUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm",
+      "officialRosterUrl": "https://scs.bupt.edu.cn/szdw/jsml.htm",
+      "profileChecked": false,
+      "decision": "excluded_insufficient_scope_evidence",
+      "reason": "官方名录提供个人页，但页面无法解析出足够的研究方向与独立 PI 证据；本轮按证据门槛不纳入，而非推断为非 AI/CS 或非 PI。",
+      "evidenceUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm",
+      "evidenceExcerpt": "网络体系结构研究中心"
+    },
+    {
+      "officialId": "https://teacher.bupt.edu.cn/zhanglei1",
+      "name": "张雷",
+      "title": null,
+      "officialSections": [
+        "网络体系结构研究中心"
+      ],
+      "profileUrl": "https://teacher.bupt.edu.cn/zhanglei1",
+      "portraitUrl": null,
+      "sourcePageUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm",
+      "officialRosterUrl": "https://scs.bupt.edu.cn/szdw/jsml.htm",
+      "profileChecked": false,
+      "decision": "excluded_insufficient_scope_evidence",
+      "reason": "官方名录提供个人页，但页面无法解析出足够的研究方向与独立 PI 证据；本轮按证据门槛不纳入，而非推断为非 AI/CS 或非 PI。",
+      "evidenceUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm",
+      "evidenceExcerpt": "网络体系结构研究中心"
+    },
+    {
+      "officialId": "https://teacher.bupt.edu.cn/shiyan",
+      "name": "时岩",
+      "title": null,
+      "officialSections": [
+        "网络体系结构研究中心"
+      ],
+      "profileUrl": "https://teacher.bupt.edu.cn/shiyan",
+      "portraitUrl": null,
+      "sourcePageUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm",
+      "officialRosterUrl": "https://scs.bupt.edu.cn/szdw/jsml.htm",
+      "profileChecked": false,
+      "decision": "excluded_insufficient_scope_evidence",
+      "reason": "官方名录提供个人页，但页面无法解析出足够的研究方向与独立 PI 证据；本轮按证据门槛不纳入，而非推断为非 AI/CS 或非 PI。",
+      "evidenceUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm",
+      "evidenceExcerpt": "网络体系结构研究中心"
+    },
+    {
+      "officialId": "https://teacher.bupt.edu.cn/yangshujie1",
+      "name": "杨树杰",
+      "title": null,
+      "officialSections": [
+        "网络体系结构研究中心"
+      ],
+      "profileUrl": "https://teacher.bupt.edu.cn/yangshujie1",
+      "portraitUrl": null,
+      "sourcePageUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm",
+      "officialRosterUrl": "https://scs.bupt.edu.cn/szdw/jsml.htm",
+      "profileChecked": false,
+      "decision": "excluded_insufficient_scope_evidence",
+      "reason": "官方名录提供个人页，但页面无法解析出足够的研究方向与独立 PI 证据；本轮按证据门槛不纳入，而非推断为非 AI/CS 或非 PI。",
+      "evidenceUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm",
+      "evidenceExcerpt": "网络体系结构研究中心"
+    },
+    {
+      "officialId": "https://teacher.bupt.edu.cn/zbo/zh_CN/index.htm",
+      "name": "张波",
+      "title": null,
+      "officialSections": [
+        "网络体系结构研究中心"
+      ],
+      "profileUrl": "https://teacher.bupt.edu.cn/zbo/zh_CN/index.htm",
+      "portraitUrl": null,
+      "sourcePageUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm",
+      "officialRosterUrl": "https://scs.bupt.edu.cn/szdw/jsml.htm",
+      "profileChecked": false,
+      "decision": "excluded_insufficient_scope_evidence",
+      "reason": "官方名录提供个人页，但页面无法解析出足够的研究方向与独立 PI 证据；本轮按证据门槛不纳入，而非推断为非 AI/CS 或非 PI。",
+      "evidenceUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm",
+      "evidenceExcerpt": "网络体系结构研究中心"
+    },
+    {
+      "officialId": "https://teacher.bupt.edu.cn/wangmu/zh_CN/index.htm",
+      "name": "王目",
+      "title": null,
+      "officialSections": [
+        "网络体系结构研究中心"
+      ],
+      "profileUrl": "https://teacher.bupt.edu.cn/wangmu/zh_CN/index.htm",
+      "portraitUrl": null,
+      "sourcePageUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm",
+      "officialRosterUrl": "https://scs.bupt.edu.cn/szdw/jsml.htm",
+      "profileChecked": false,
+      "decision": "excluded_insufficient_scope_evidence",
+      "reason": "官方名录提供个人页，但页面无法解析出足够的研究方向与独立 PI 证据；本轮按证据门槛不纳入，而非推断为非 AI/CS 或非 PI。",
+      "evidenceUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm",
+      "evidenceExcerpt": "网络体系结构研究中心"
+    },
+    {
+      "officialId": "https://teacher.bupt.edu.cn/wangwufan/zh_CN/index.htm",
+      "name": "王吴凡",
+      "title": null,
+      "officialSections": [
+        "网络体系结构研究中心"
+      ],
+      "profileUrl": "https://teacher.bupt.edu.cn/wangwufan/zh_CN/index.htm",
+      "portraitUrl": null,
+      "sourcePageUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm",
+      "officialRosterUrl": "https://scs.bupt.edu.cn/szdw/jsml.htm",
+      "profileChecked": false,
+      "decision": "excluded_insufficient_scope_evidence",
+      "reason": "官方名录提供个人页，但页面无法解析出足够的研究方向与独立 PI 证据；本轮按证据门槛不纳入，而非推断为非 AI/CS 或非 PI。",
+      "evidenceUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm",
+      "evidenceExcerpt": "网络体系结构研究中心"
+    },
+    {
+      "officialId": "https://teacher.bupt.edu.cn/wangziyi/zh_CN/index.htm",
+      "name": "王子逸",
+      "title": null,
+      "officialSections": [
+        "网络体系结构研究中心"
+      ],
+      "profileUrl": "https://teacher.bupt.edu.cn/wangziyi/zh_CN/index.htm",
+      "portraitUrl": null,
+      "sourcePageUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm",
+      "officialRosterUrl": "https://scs.bupt.edu.cn/szdw/jsml.htm",
+      "profileChecked": false,
+      "decision": "excluded_insufficient_scope_evidence",
+      "reason": "官方名录提供个人页，但页面无法解析出足够的研究方向与独立 PI 证据；本轮按证据门槛不纳入，而非推断为非 AI/CS 或非 PI。",
+      "evidenceUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm",
+      "evidenceExcerpt": "网络体系结构研究中心"
+    },
+    {
+      "officialId": "https://teacher.bupt.edu.cn/xiaohan1/zh_CN/index.htm",
+      "name": "肖寒",
+      "title": null,
+      "officialSections": [
+        "网络体系结构研究中心"
+      ],
+      "profileUrl": "https://teacher.bupt.edu.cn/xiaohan1/zh_CN/index.htm",
+      "portraitUrl": null,
+      "sourcePageUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm",
+      "officialRosterUrl": "https://scs.bupt.edu.cn/szdw/jsml.htm",
+      "profileChecked": false,
+      "decision": "excluded_insufficient_scope_evidence",
+      "reason": "官方名录提供个人页，但页面无法解析出足够的研究方向与独立 PI 证据；本轮按证据门槛不纳入，而非推断为非 AI/CS 或非 PI。",
+      "evidenceUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm",
+      "evidenceExcerpt": "网络体系结构研究中心"
+    },
+    {
+      "officialId": "https://teacher.bupt.edu.cn/zhouzan1/zh_CN/index.htm",
+      "name": "周赞",
+      "title": null,
+      "officialSections": [
+        "网络体系结构研究中心"
+      ],
+      "profileUrl": "https://teacher.bupt.edu.cn/zhouzan1/zh_CN/index.htm",
+      "portraitUrl": null,
+      "sourcePageUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm",
+      "officialRosterUrl": "https://scs.bupt.edu.cn/szdw/jsml.htm",
+      "profileChecked": false,
+      "decision": "excluded_insufficient_scope_evidence",
+      "reason": "官方名录提供个人页，但页面无法解析出足够的研究方向与独立 PI 证据；本轮按证据门槛不纳入，而非推断为非 AI/CS 或非 PI。",
+      "evidenceUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm",
+      "evidenceExcerpt": "网络体系结构研究中心"
+    },
+    {
+      "officialId": "https://teacher.bupt.edu.cn/chengbo",
+      "name": "程渤",
+      "title": null,
+      "officialSections": [
+        "网络服务基础研究中心"
+      ],
+      "profileUrl": "https://teacher.bupt.edu.cn/chengbo",
+      "portraitUrl": null,
+      "sourcePageUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm",
+      "officialRosterUrl": "https://scs.bupt.edu.cn/szdw/jsml.htm",
+      "profileChecked": false,
+      "decision": "excluded_insufficient_scope_evidence",
+      "reason": "官方名录提供个人页，但页面无法解析出足够的研究方向与独立 PI 证据；本轮按证据门槛不纳入，而非推断为非 AI/CS 或非 PI。",
+      "evidenceUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm",
+      "evidenceExcerpt": "网络服务基础研究中心"
+    },
+    {
+      "officialId": "https://teacher.bupt.edu.cn/qiaoxiuquan",
+      "name": "乔秀全",
+      "title": null,
+      "officialSections": [
+        "网络服务基础研究中心"
+      ],
+      "profileUrl": "https://teacher.bupt.edu.cn/qiaoxiuquan",
+      "portraitUrl": null,
+      "sourcePageUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm",
+      "officialRosterUrl": "https://scs.bupt.edu.cn/szdw/jsml.htm",
+      "profileChecked": false,
+      "decision": "excluded_insufficient_scope_evidence",
+      "reason": "官方名录提供个人页，但页面无法解析出足够的研究方向与独立 PI 证据；本轮按证据门槛不纳入，而非推断为非 AI/CS 或非 PI。",
+      "evidenceUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm",
+      "evidenceExcerpt": "网络服务基础研究中心"
+    },
+    {
+      "officialId": "https://scs.bupt.edu.cn/info/1293/2711.htm",
+      "name": "商彦磊",
+      "title": null,
+      "officialSections": [
+        "网络服务基础研究中心"
+      ],
+      "profileUrl": "https://scs.bupt.edu.cn/info/1293/2711.htm",
+      "portraitUrl": null,
+      "sourcePageUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm",
+      "officialRosterUrl": "https://scs.bupt.edu.cn/szdw/jsml.htm",
+      "profileChecked": false,
+      "decision": "excluded_insufficient_scope_evidence",
+      "reason": "官方名录提供个人页，但页面无法解析出足够的研究方向与独立 PI 证据；本轮按证据门槛不纳入，而非推断为非 AI/CS 或非 PI。",
+      "evidenceUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm",
+      "evidenceExcerpt": "网络服务基础研究中心"
+    },
+    {
+      "officialId": "https://teacher.bupt.edu.cn/zhangyang",
+      "name": "章洋",
+      "title": null,
+      "officialSections": [
+        "网络服务基础研究中心"
+      ],
+      "profileUrl": "https://teacher.bupt.edu.cn/zhangyang",
+      "portraitUrl": null,
+      "sourcePageUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm",
+      "officialRosterUrl": "https://scs.bupt.edu.cn/szdw/jsml.htm",
+      "profileChecked": false,
+      "decision": "excluded_insufficient_scope_evidence",
+      "reason": "官方名录提供个人页，但页面无法解析出足够的研究方向与独立 PI 证据；本轮按证据门槛不纳入，而非推断为非 AI/CS 或非 PI。",
+      "evidenceUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm",
+      "evidenceExcerpt": "网络服务基础研究中心"
+    },
+    {
+      "officialId": "https://teacher.bupt.edu.cn/jindahai",
+      "name": "金大海",
+      "title": null,
+      "officialSections": [
+        "网络服务基础研究中心"
+      ],
+      "profileUrl": "https://teacher.bupt.edu.cn/jindahai",
+      "portraitUrl": null,
+      "sourcePageUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm",
+      "officialRosterUrl": "https://scs.bupt.edu.cn/szdw/jsml.htm",
+      "profileChecked": false,
+      "decision": "excluded_insufficient_scope_evidence",
+      "reason": "官方名录提供个人页，但页面无法解析出足够的研究方向与独立 PI 证据；本轮按证据门槛不纳入，而非推断为非 AI/CS 或非 PI。",
+      "evidenceUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm",
+      "evidenceExcerpt": "网络服务基础研究中心"
+    },
+    {
+      "officialId": "https://teacher.bupt.edu.cn/wubudan",
+      "name": "吴步丹",
+      "title": null,
+      "officialSections": [
+        "网络服务基础研究中心"
+      ],
+      "profileUrl": "https://teacher.bupt.edu.cn/wubudan",
+      "portraitUrl": null,
+      "sourcePageUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm",
+      "officialRosterUrl": "https://scs.bupt.edu.cn/szdw/jsml.htm",
+      "profileChecked": false,
+      "decision": "excluded_insufficient_scope_evidence",
+      "reason": "官方名录提供个人页，但页面无法解析出足够的研究方向与独立 PI 证据；本轮按证据门槛不纳入，而非推断为非 AI/CS 或非 PI。",
+      "evidenceUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm",
+      "evidenceExcerpt": "网络服务基础研究中心"
+    },
+    {
+      "officialId": "https://teacher.bupt.edu.cn/liuchuanchang",
+      "name": "刘传昌",
+      "title": null,
+      "officialSections": [
+        "网络服务基础研究中心"
+      ],
+      "profileUrl": "https://teacher.bupt.edu.cn/liuchuanchang",
+      "portraitUrl": null,
+      "sourcePageUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm",
+      "officialRosterUrl": "https://scs.bupt.edu.cn/szdw/jsml.htm",
+      "profileChecked": false,
+      "decision": "excluded_insufficient_scope_evidence",
+      "reason": "官方名录提供个人页，但页面无法解析出足够的研究方向与独立 PI 证据；本轮按证据门槛不纳入，而非推断为非 AI/CS 或非 PI。",
+      "evidenceUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm",
+      "evidenceExcerpt": "网络服务基础研究中心"
+    },
+    {
+      "officialId": "https://teacher.bupt.edu.cn/wangyawen",
+      "name": "王雅文",
+      "title": null,
+      "officialSections": [
+        "网络服务基础研究中心"
+      ],
+      "profileUrl": "https://teacher.bupt.edu.cn/wangyawen",
+      "portraitUrl": null,
+      "sourcePageUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm",
+      "officialRosterUrl": "https://scs.bupt.edu.cn/szdw/jsml.htm",
+      "profileChecked": false,
+      "decision": "excluded_insufficient_scope_evidence",
+      "reason": "官方名录提供个人页，但页面无法解析出足够的研究方向与独立 PI 证据；本轮按证据门槛不纳入，而非推断为非 AI/CS 或非 PI。",
+      "evidenceUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm",
+      "evidenceExcerpt": "网络服务基础研究中心"
+    },
+    {
+      "officialId": "https://teacher.bupt.edu.cn/zhaoshuai",
+      "name": "赵帅",
+      "title": null,
+      "officialSections": [
+        "网络服务基础研究中心"
+      ],
+      "profileUrl": "https://teacher.bupt.edu.cn/zhaoshuai",
+      "portraitUrl": null,
+      "sourcePageUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm",
+      "officialRosterUrl": "https://scs.bupt.edu.cn/szdw/jsml.htm",
+      "profileChecked": false,
+      "decision": "excluded_insufficient_scope_evidence",
+      "reason": "官方名录提供个人页，但页面无法解析出足够的研究方向与独立 PI 证据；本轮按证据门槛不纳入，而非推断为非 AI/CS 或非 PI。",
+      "evidenceUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm",
+      "evidenceExcerpt": "网络服务基础研究中心"
+    },
+    {
+      "officialId": "https://teacher.bupt.edu.cn/chenyong",
+      "name": "陈勇",
+      "title": null,
+      "officialSections": [
+        "网络服务基础研究中心"
+      ],
+      "profileUrl": "https://teacher.bupt.edu.cn/chenyong",
+      "portraitUrl": null,
+      "sourcePageUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm",
+      "officialRosterUrl": "https://scs.bupt.edu.cn/szdw/jsml.htm",
+      "profileChecked": false,
+      "decision": "excluded_insufficient_scope_evidence",
+      "reason": "官方名录提供个人页，但页面无法解析出足够的研究方向与独立 PI 证据；本轮按证据门槛不纳入，而非推断为非 AI/CS 或非 PI。",
+      "evidenceUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm",
+      "evidenceExcerpt": "网络服务基础研究中心"
+    },
+    {
+      "officialId": "https://teacher.bupt.edu.cn/lishengjie/zh_CN/index.htm",
+      "name": "李胜杰",
+      "title": null,
+      "officialSections": [
+        "网络服务基础研究中心"
+      ],
+      "profileUrl": "https://teacher.bupt.edu.cn/lishengjie/zh_CN/index.htm",
+      "portraitUrl": null,
+      "sourcePageUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm",
+      "officialRosterUrl": "https://scs.bupt.edu.cn/szdw/jsml.htm",
+      "profileChecked": false,
+      "decision": "excluded_insufficient_scope_evidence",
+      "reason": "官方名录提供个人页，但页面无法解析出足够的研究方向与独立 PI 证据；本轮按证据门槛不纳入，而非推断为非 AI/CS 或非 PI。",
+      "evidenceUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm",
+      "evidenceExcerpt": "网络服务基础研究中心"
+    },
+    {
+      "officialId": "https://teacher.bupt.edu.cn/huangyakun1/zh_CN/index.htm",
+      "name": "黄亚坤",
+      "title": null,
+      "officialSections": [
+        "网络服务基础研究中心"
+      ],
+      "profileUrl": "https://teacher.bupt.edu.cn/huangyakun1/zh_CN/index.htm",
+      "portraitUrl": null,
+      "sourcePageUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm",
+      "officialRosterUrl": "https://scs.bupt.edu.cn/szdw/jsml.htm",
+      "profileChecked": false,
+      "decision": "excluded_insufficient_scope_evidence",
+      "reason": "官方名录提供个人页，但页面无法解析出足够的研究方向与独立 PI 证据；本轮按证据门槛不纳入，而非推断为非 AI/CS 或非 PI。",
+      "evidenceUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm",
+      "evidenceExcerpt": "网络服务基础研究中心"
+    },
+    {
+      "officialId": "https://teacher.bupt.edu.cn/mengluoming",
+      "name": "孟洛明",
+      "title": null,
+      "officialSections": [
+        "网络管理研究中心"
+      ],
+      "profileUrl": "https://teacher.bupt.edu.cn/mengluoming",
+      "portraitUrl": null,
+      "sourcePageUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm",
+      "officialRosterUrl": "https://scs.bupt.edu.cn/szdw/jsml.htm",
+      "profileChecked": false,
+      "decision": "excluded_insufficient_scope_evidence",
+      "reason": "官方名录提供个人页，但页面无法解析出足够的研究方向与独立 PI 证据；本轮按证据门槛不纳入，而非推断为非 AI/CS 或非 PI。",
+      "evidenceUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm",
+      "evidenceExcerpt": "网络管理研究中心"
+    },
+    {
+      "officialId": "https://teacher.bupt.edu.cn/qifeng",
+      "name": "亓峰",
+      "title": null,
+      "officialSections": [
+        "网络管理研究中心"
+      ],
+      "profileUrl": "https://teacher.bupt.edu.cn/qifeng",
+      "portraitUrl": null,
+      "sourcePageUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm",
+      "officialRosterUrl": "https://scs.bupt.edu.cn/szdw/jsml.htm",
+      "profileChecked": false,
+      "decision": "excluded_insufficient_scope_evidence",
+      "reason": "官方名录提供个人页，但页面无法解析出足够的研究方向与独立 PI 证据；本轮按证据门槛不纳入，而非推断为非 AI/CS 或非 PI。",
+      "evidenceUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm",
+      "evidenceExcerpt": "网络管理研究中心"
+    },
+    {
+      "officialId": "https://teacher.bupt.edu.cn/qiuxuesong",
+      "name": "邱雪松",
+      "title": null,
+      "officialSections": [
+        "网络管理研究中心"
+      ],
+      "profileUrl": "https://teacher.bupt.edu.cn/qiuxuesong",
+      "portraitUrl": null,
+      "sourcePageUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm",
+      "officialRosterUrl": "https://scs.bupt.edu.cn/szdw/jsml.htm",
+      "profileChecked": false,
+      "decision": "excluded_insufficient_scope_evidence",
+      "reason": "官方名录提供个人页，但页面无法解析出足够的研究方向与独立 PI 证据；本轮按证据门槛不纳入，而非推断为非 AI/CS 或非 PI。",
+      "evidenceUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm",
+      "evidenceExcerpt": "网络管理研究中心"
+    },
+    {
+      "officialId": "https://teacher.bupt.edu.cn/liwenjing",
+      "name": "李文璟",
+      "title": null,
+      "officialSections": [
+        "网络管理研究中心"
+      ],
+      "profileUrl": "https://teacher.bupt.edu.cn/liwenjing",
+      "portraitUrl": null,
+      "sourcePageUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm",
+      "officialRosterUrl": "https://scs.bupt.edu.cn/szdw/jsml.htm",
+      "profileChecked": false,
+      "decision": "excluded_insufficient_scope_evidence",
+      "reason": "官方名录提供个人页，但页面无法解析出足够的研究方向与独立 PI 证据；本轮按证据门槛不纳入，而非推断为非 AI/CS 或非 PI。",
+      "evidenceUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm",
+      "evidenceExcerpt": "网络管理研究中心"
+    },
+    {
+      "officialId": "https://teacher.bupt.edu.cn/quzhaowei/zh_CN/index.htm",
+      "name": "曲昭伟",
+      "title": null,
+      "officialSections": [
+        "网络管理研究中心"
+      ],
+      "profileUrl": "https://teacher.bupt.edu.cn/quzhaowei/zh_CN/index.htm",
+      "portraitUrl": null,
+      "sourcePageUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm",
+      "officialRosterUrl": "https://scs.bupt.edu.cn/szdw/jsml.htm",
+      "profileChecked": false,
+      "decision": "excluded_insufficient_scope_evidence",
+      "reason": "官方名录提供个人页，但页面无法解析出足够的研究方向与独立 PI 证据；本轮按证据门槛不纳入，而非推断为非 AI/CS 或非 PI。",
+      "evidenceUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm",
+      "evidenceExcerpt": "网络管理研究中心"
+    },
+    {
+      "officialId": "https://teacher.bupt.edu.cn/gaozhipeng",
+      "name": "高志鹏",
+      "title": null,
+      "officialSections": [
+        "网络管理研究中心"
+      ],
+      "profileUrl": "https://teacher.bupt.edu.cn/gaozhipeng",
+      "portraitUrl": null,
+      "sourcePageUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm",
+      "officialRosterUrl": "https://scs.bupt.edu.cn/szdw/jsml.htm",
+      "profileChecked": false,
+      "decision": "excluded_insufficient_scope_evidence",
+      "reason": "官方名录提供个人页，但页面无法解析出足够的研究方向与独立 PI 证据；本轮按证据门槛不纳入，而非推断为非 AI/CS 或非 PI。",
+      "evidenceUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm",
+      "evidenceExcerpt": "网络管理研究中心"
+    },
+    {
+      "officialId": "https://teacher.bupt.edu.cn/chenxingyu/zh_CN/index.htm",
+      "name": "陈兴渝",
+      "title": null,
+      "officialSections": [
+        "网络管理研究中心"
+      ],
+      "profileUrl": "https://teacher.bupt.edu.cn/chenxingyu/zh_CN/index.htm",
+      "portraitUrl": null,
+      "sourcePageUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm",
+      "officialRosterUrl": "https://scs.bupt.edu.cn/szdw/jsml.htm",
+      "profileChecked": false,
+      "decision": "excluded_insufficient_scope_evidence",
+      "reason": "官方名录提供个人页，但页面无法解析出足够的研究方向与独立 PI 证据；本轮按证据门槛不纳入，而非推断为非 AI/CS 或非 PI。",
+      "evidenceUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm",
+      "evidenceExcerpt": "网络管理研究中心"
+    },
+    {
+      "officialId": "https://teacher.bupt.edu.cn/xiongao",
+      "name": "熊翱",
+      "title": null,
+      "officialSections": [
+        "网络管理研究中心"
+      ],
+      "profileUrl": "https://teacher.bupt.edu.cn/xiongao",
+      "portraitUrl": null,
+      "sourcePageUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm",
+      "officialRosterUrl": "https://scs.bupt.edu.cn/szdw/jsml.htm",
+      "profileChecked": false,
+      "decision": "excluded_insufficient_scope_evidence",
+      "reason": "官方名录提供个人页，但页面无法解析出足够的研究方向与独立 PI 证据；本轮按证据门槛不纳入，而非推断为非 AI/CS 或非 PI。",
+      "evidenceUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm",
+      "evidenceExcerpt": "网络管理研究中心"
+    },
+    {
+      "officialId": "https://teacher.bupt.edu.cn/ruilanlan",
+      "name": "芮兰兰",
+      "title": null,
+      "officialSections": [
+        "网络管理研究中心"
+      ],
+      "profileUrl": "https://teacher.bupt.edu.cn/ruilanlan",
+      "portraitUrl": null,
+      "sourcePageUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm",
+      "officialRosterUrl": "https://scs.bupt.edu.cn/szdw/jsml.htm",
+      "profileChecked": false,
+      "decision": "excluded_insufficient_scope_evidence",
+      "reason": "官方名录提供个人页，但页面无法解析出足够的研究方向与独立 PI 证据；本轮按证据门槛不纳入，而非推断为非 AI/CS 或非 PI。",
+      "evidenceUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm",
+      "evidenceExcerpt": "网络管理研究中心"
+    },
+    {
+      "officialId": "https://teacher.bupt.edu.cn/wangying3",
+      "name": "王颖",
+      "title": null,
+      "officialSections": [
+        "网络管理研究中心"
+      ],
+      "profileUrl": "https://teacher.bupt.edu.cn/wangying3",
+      "portraitUrl": null,
+      "sourcePageUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm",
+      "officialRosterUrl": "https://scs.bupt.edu.cn/szdw/jsml.htm",
+      "profileChecked": false,
+      "decision": "excluded_insufficient_scope_evidence",
+      "reason": "官方名录提供个人页，但页面无法解析出足够的研究方向与独立 PI 证据；本轮按证据门槛不纳入，而非推断为非 AI/CS 或非 PI。",
+      "evidenceUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm",
+      "evidenceExcerpt": "网络管理研究中心"
+    },
+    {
+      "officialId": "https://teacher.bupt.edu.cn/yangyang/zh_CN/index.htm",
+      "name": "杨杨",
+      "title": null,
+      "officialSections": [
+        "网络管理研究中心"
+      ],
+      "profileUrl": "https://teacher.bupt.edu.cn/yangyang/zh_CN/index.htm",
+      "portraitUrl": null,
+      "sourcePageUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm",
+      "officialRosterUrl": "https://scs.bupt.edu.cn/szdw/jsml.htm",
+      "profileChecked": false,
+      "decision": "excluded_insufficient_scope_evidence",
+      "reason": "官方名录提供个人页，但页面无法解析出足够的研究方向与独立 PI 证据；本轮按证据门槛不纳入，而非推断为非 AI/CS 或非 PI。",
+      "evidenceUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm",
+      "evidenceExcerpt": "网络管理研究中心"
+    },
+    {
+      "officialId": "https://teacher.bupt.edu.cn/wangzhili/zh_CN/index.htm",
+      "name": "王智立",
+      "title": null,
+      "officialSections": [
+        "网络管理研究中心"
+      ],
+      "profileUrl": "https://teacher.bupt.edu.cn/wangzhili/zh_CN/index.htm",
+      "portraitUrl": null,
+      "sourcePageUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm",
+      "officialRosterUrl": "https://scs.bupt.edu.cn/szdw/jsml.htm",
+      "profileChecked": false,
+      "decision": "excluded_insufficient_scope_evidence",
+      "reason": "官方名录提供个人页，但页面无法解析出足够的研究方向与独立 PI 证据；本轮按证据门槛不纳入，而非推断为非 AI/CS 或非 PI。",
+      "evidenceUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm",
+      "evidenceExcerpt": "网络管理研究中心"
+    },
+    {
+      "officialId": "https://teacher.bupt.edu.cn/liuhuiyong/zh_CN/index.htm",
+      "name": "刘会永",
+      "title": null,
+      "officialSections": [
+        "网络管理研究中心"
+      ],
+      "profileUrl": "https://teacher.bupt.edu.cn/liuhuiyong/zh_CN/index.htm",
+      "portraitUrl": null,
+      "sourcePageUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm",
+      "officialRosterUrl": "https://scs.bupt.edu.cn/szdw/jsml.htm",
+      "profileChecked": false,
+      "decision": "excluded_insufficient_scope_evidence",
+      "reason": "官方名录提供个人页，但页面无法解析出足够的研究方向与独立 PI 证据；本轮按证据门槛不纳入，而非推断为非 AI/CS 或非 PI。",
+      "evidenceUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm",
+      "evidenceExcerpt": "网络管理研究中心"
+    },
+    {
+      "officialId": "https://teacher.bupt.edu.cn/yupeng",
+      "name": "喻鹏",
+      "title": null,
+      "officialSections": [
+        "网络管理研究中心"
+      ],
+      "profileUrl": "https://teacher.bupt.edu.cn/yupeng",
+      "portraitUrl": null,
+      "sourcePageUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm",
+      "officialRosterUrl": "https://scs.bupt.edu.cn/szdw/jsml.htm",
+      "profileChecked": false,
+      "decision": "excluded_insufficient_scope_evidence",
+      "reason": "官方名录提供个人页，但页面无法解析出足够的研究方向与独立 PI 证据；本轮按证据门槛不纳入，而非推断为非 AI/CS 或非 PI。",
+      "evidenceUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm",
+      "evidenceExcerpt": "网络管理研究中心"
+    },
+    {
+      "officialId": "https://teacher.bupt.edu.cn/guoshaoyong",
+      "name": "郭少勇",
+      "title": null,
+      "officialSections": [
+        "网络管理研究中心"
+      ],
+      "profileUrl": "https://teacher.bupt.edu.cn/guoshaoyong",
+      "portraitUrl": null,
+      "sourcePageUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm",
+      "officialRosterUrl": "https://scs.bupt.edu.cn/szdw/jsml.htm",
+      "profileChecked": false,
+      "decision": "excluded_insufficient_scope_evidence",
+      "reason": "官方名录提供个人页，但页面无法解析出足够的研究方向与独立 PI 证据；本轮按证据门槛不纳入，而非推断为非 AI/CS 或非 PI。",
+      "evidenceUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm",
+      "evidenceExcerpt": "网络管理研究中心"
+    },
+    {
+      "officialId": "https://teacher.bupt.edu.cn/fenglei",
+      "name": "丰雷",
+      "title": null,
+      "officialSections": [
+        "网络管理研究中心"
+      ],
+      "profileUrl": "https://teacher.bupt.edu.cn/fenglei",
+      "portraitUrl": null,
+      "sourcePageUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm",
+      "officialRosterUrl": "https://scs.bupt.edu.cn/szdw/jsml.htm",
+      "profileChecked": false,
+      "decision": "excluded_insufficient_scope_evidence",
+      "reason": "官方名录提供个人页，但页面无法解析出足够的研究方向与独立 PI 证据；本轮按证据门槛不纳入，而非推断为非 AI/CS 或非 PI。",
+      "evidenceUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm",
+      "evidenceExcerpt": "网络管理研究中心"
+    },
+    {
+      "officialId": "https://teacher.bupt.edu.cn/shaosujie",
+      "name": "邵苏杰",
+      "title": null,
+      "officialSections": [
+        "网络管理研究中心"
+      ],
+      "profileUrl": "https://teacher.bupt.edu.cn/shaosujie",
+      "portraitUrl": null,
+      "sourcePageUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm",
+      "officialRosterUrl": "https://scs.bupt.edu.cn/szdw/jsml.htm",
+      "profileChecked": false,
+      "decision": "excluded_insufficient_scope_evidence",
+      "reason": "官方名录提供个人页，但页面无法解析出足够的研究方向与独立 PI 证据；本轮按证据门槛不纳入，而非推断为非 AI/CS 或非 PI。",
+      "evidenceUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm",
+      "evidenceExcerpt": "网络管理研究中心"
+    },
+    {
+      "officialId": "https://teacher.bupt.edu.cn/xusiya1",
+      "name": "徐思雅",
+      "title": null,
+      "officialSections": [
+        "网络管理研究中心"
+      ],
+      "profileUrl": "https://teacher.bupt.edu.cn/xusiya1",
+      "portraitUrl": null,
+      "sourcePageUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm",
+      "officialRosterUrl": "https://scs.bupt.edu.cn/szdw/jsml.htm",
+      "profileChecked": false,
+      "decision": "excluded_insufficient_scope_evidence",
+      "reason": "官方名录提供个人页，但页面无法解析出足够的研究方向与独立 PI 证据；本轮按证据门槛不纳入，而非推断为非 AI/CS 或非 PI。",
+      "evidenceUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm",
+      "evidenceExcerpt": "网络管理研究中心"
+    },
+    {
+      "officialId": "https://teacher.bupt.edu.cn/fqzhou",
+      "name": "周凡钦",
+      "title": null,
+      "officialSections": [
+        "网络管理研究中心"
+      ],
+      "profileUrl": "https://teacher.bupt.edu.cn/fqzhou",
+      "portraitUrl": null,
+      "sourcePageUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm",
+      "officialRosterUrl": "https://scs.bupt.edu.cn/szdw/jsml.htm",
+      "profileChecked": false,
+      "decision": "excluded_insufficient_scope_evidence",
+      "reason": "官方名录提供个人页，但页面无法解析出足够的研究方向与独立 PI 证据；本轮按证据门槛不纳入，而非推断为非 AI/CS 或非 PI。",
+      "evidenceUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm",
+      "evidenceExcerpt": "网络管理研究中心"
+    },
+    {
+      "officialId": "https://teacher.bupt.edu.cn/liaojianxin",
+      "name": "廖建新",
+      "title": null,
+      "officialSections": [
+        "网络智能研究中心"
+      ],
+      "profileUrl": "https://teacher.bupt.edu.cn/liaojianxin",
+      "portraitUrl": null,
+      "sourcePageUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm",
+      "officialRosterUrl": "https://scs.bupt.edu.cn/szdw/jsml.htm",
+      "profileChecked": false,
+      "decision": "excluded_insufficient_scope_evidence",
+      "reason": "官方名录提供个人页，但页面无法解析出足够的研究方向与独立 PI 证据；本轮按证据门槛不纳入，而非推断为非 AI/CS 或非 PI。",
+      "evidenceUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm",
+      "evidenceExcerpt": "网络智能研究中心"
+    },
+    {
+      "officialId": "https://teacher.bupt.edu.cn/wangjing",
+      "name": "王晶",
+      "title": null,
+      "officialSections": [
+        "网络智能研究中心"
+      ],
+      "profileUrl": "https://teacher.bupt.edu.cn/wangjing",
+      "portraitUrl": null,
+      "sourcePageUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm",
+      "officialRosterUrl": "https://scs.bupt.edu.cn/szdw/jsml.htm",
+      "profileChecked": false,
+      "decision": "excluded_insufficient_scope_evidence",
+      "reason": "官方名录提供个人页，但页面无法解析出足够的研究方向与独立 PI 证据；本轮按证据门槛不纳入，而非推断为非 AI/CS 或非 PI。",
+      "evidenceUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm",
+      "evidenceExcerpt": "网络智能研究中心"
+    },
+    {
+      "officialId": "https://teacher.bupt.edu.cn/wangchun/zh_CN/index.htm",
+      "name": "王纯",
+      "title": null,
+      "officialSections": [
+        "网络智能研究中心"
+      ],
+      "profileUrl": "https://teacher.bupt.edu.cn/wangchun/zh_CN/index.htm",
+      "portraitUrl": null,
+      "sourcePageUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm",
+      "officialRosterUrl": "https://scs.bupt.edu.cn/szdw/jsml.htm",
+      "profileChecked": false,
+      "decision": "excluded_insufficient_scope_evidence",
+      "reason": "官方名录提供个人页，但页面无法解析出足够的研究方向与独立 PI 证据；本轮按证据门槛不纳入，而非推断为非 AI/CS 或非 PI。",
+      "evidenceUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm",
+      "evidenceExcerpt": "网络智能研究中心"
+    },
+    {
+      "officialId": "https://teacher.bupt.edu.cn/liwei/zh_CN/index.htm",
+      "name": "李炜",
+      "title": null,
+      "officialSections": [
+        "网络智能研究中心"
+      ],
+      "profileUrl": "https://teacher.bupt.edu.cn/liwei/zh_CN/index.htm",
+      "portraitUrl": null,
+      "sourcePageUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm",
+      "officialRosterUrl": "https://scs.bupt.edu.cn/szdw/jsml.htm",
+      "profileChecked": false,
+      "decision": "excluded_insufficient_scope_evidence",
+      "reason": "官方名录提供个人页，但页面无法解析出足够的研究方向与独立 PI 证据；本轮按证据门槛不纳入，而非推断为非 AI/CS 或非 PI。",
+      "evidenceUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm",
+      "evidenceExcerpt": "网络智能研究中心"
+    },
+    {
+      "officialId": "https://teacher.bupt.edu.cn/wangjingyu",
+      "name": "王敬宇",
+      "title": null,
+      "officialSections": [
+        "网络智能研究中心"
+      ],
+      "profileUrl": "https://teacher.bupt.edu.cn/wangjingyu",
+      "portraitUrl": null,
+      "sourcePageUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm",
+      "officialRosterUrl": "https://scs.bupt.edu.cn/szdw/jsml.htm",
+      "profileChecked": false,
+      "decision": "excluded_insufficient_scope_evidence",
+      "reason": "官方名录提供个人页，但页面无法解析出足够的研究方向与独立 PI 证据；本轮按证据门槛不纳入，而非推断为非 AI/CS 或非 PI。",
+      "evidenceUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm",
+      "evidenceExcerpt": "网络智能研究中心"
+    },
+    {
+      "officialId": "https://teacher.bupt.edu.cn/wangyulong/zh_CN/index.htm",
+      "name": "王玉龙",
+      "title": null,
+      "officialSections": [
+        "网络智能研究中心"
+      ],
+      "profileUrl": "https://teacher.bupt.edu.cn/wangyulong/zh_CN/index.htm",
+      "portraitUrl": null,
+      "sourcePageUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm",
+      "officialRosterUrl": "https://scs.bupt.edu.cn/szdw/jsml.htm",
+      "profileChecked": false,
+      "decision": "excluded_insufficient_scope_evidence",
+      "reason": "官方名录提供个人页，但页面无法解析出足够的研究方向与独立 PI 证据；本轮按证据门槛不纳入，而非推断为非 AI/CS 或非 PI。",
+      "evidenceUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm",
+      "evidenceExcerpt": "网络智能研究中心"
+    },
+    {
+      "officialId": "https://teacher.bupt.edu.cn/qiqi",
+      "name": "戚琦",
+      "title": null,
+      "officialSections": [
+        "网络智能研究中心"
+      ],
+      "profileUrl": "https://teacher.bupt.edu.cn/qiqi",
+      "portraitUrl": null,
+      "sourcePageUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm",
+      "officialRosterUrl": "https://scs.bupt.edu.cn/szdw/jsml.htm",
+      "profileChecked": false,
+      "decision": "excluded_insufficient_scope_evidence",
+      "reason": "官方名录提供个人页，但页面无法解析出足够的研究方向与独立 PI 证据；本轮按证据门槛不纳入，而非推断为非 AI/CS 或非 PI。",
+      "evidenceUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm",
+      "evidenceExcerpt": "网络智能研究中心"
+    },
+    {
+      "officialId": "https://teacher.bupt.edu.cn/zhanglei2/zh_CN/index.htm",
+      "name": "张磊",
+      "title": null,
+      "officialSections": [
+        "网络智能研究中心"
+      ],
+      "profileUrl": "https://teacher.bupt.edu.cn/zhanglei2/zh_CN/index.htm",
+      "portraitUrl": null,
+      "sourcePageUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm",
+      "officialRosterUrl": "https://scs.bupt.edu.cn/szdw/jsml.htm",
+      "profileChecked": false,
+      "decision": "excluded_insufficient_scope_evidence",
+      "reason": "官方名录提供个人页，但页面无法解析出足够的研究方向与独立 PI 证据；本轮按证据门槛不纳入，而非推断为非 AI/CS 或非 PI。",
+      "evidenceUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm",
+      "evidenceExcerpt": "网络智能研究中心"
+    },
+    {
+      "officialId": "https://teacher.bupt.edu.cn/zhanglejian",
+      "name": "张乐剑",
+      "title": null,
+      "officialSections": [
+        "网络智能研究中心"
+      ],
+      "profileUrl": "https://teacher.bupt.edu.cn/zhanglejian",
+      "portraitUrl": null,
+      "sourcePageUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm",
+      "officialRosterUrl": "https://scs.bupt.edu.cn/szdw/jsml.htm",
+      "profileChecked": false,
+      "decision": "excluded_insufficient_scope_evidence",
+      "reason": "官方名录提供个人页，但页面无法解析出足够的研究方向与独立 PI 证据；本轮按证据门槛不纳入，而非推断为非 AI/CS 或非 PI。",
+      "evidenceUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm",
+      "evidenceExcerpt": "网络智能研究中心"
+    },
+    {
+      "officialId": "https://teacher.bupt.edu.cn/xutong",
+      "name": "徐童",
+      "title": null,
+      "officialSections": [
+        "网络智能研究中心"
+      ],
+      "profileUrl": "https://teacher.bupt.edu.cn/xutong",
+      "portraitUrl": null,
+      "sourcePageUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm",
+      "officialRosterUrl": "https://scs.bupt.edu.cn/szdw/jsml.htm",
+      "profileChecked": false,
+      "decision": "excluded_insufficient_scope_evidence",
+      "reason": "官方名录提供个人页，但页面无法解析出足够的研究方向与独立 PI 证据；本轮按证据门槛不纳入，而非推断为非 AI/CS 或非 PI。",
+      "evidenceUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm",
+      "evidenceExcerpt": "网络智能研究中心"
+    },
+    {
+      "officialId": "https://teacher.bupt.edu.cn/shenqiwei/zh_CN/index.htm",
+      "name": "沈奇威",
+      "title": null,
+      "officialSections": [
+        "网络智能研究中心"
+      ],
+      "profileUrl": "https://teacher.bupt.edu.cn/shenqiwei/zh_CN/index.htm",
+      "portraitUrl": null,
+      "sourcePageUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm",
+      "officialRosterUrl": "https://scs.bupt.edu.cn/szdw/jsml.htm",
+      "profileChecked": false,
+      "decision": "excluded_insufficient_scope_evidence",
+      "reason": "官方名录提供个人页，但页面无法解析出足够的研究方向与独立 PI 证据；本轮按证据门槛不纳入，而非推断为非 AI/CS 或非 PI。",
+      "evidenceUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm",
+      "evidenceExcerpt": "网络智能研究中心"
+    },
+    {
+      "officialId": "https://teacher.bupt.edu.cn/sunhaifeng",
+      "name": "孙海峰",
+      "title": null,
+      "officialSections": [
+        "网络智能研究中心"
+      ],
+      "profileUrl": "https://teacher.bupt.edu.cn/sunhaifeng",
+      "portraitUrl": null,
+      "sourcePageUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm",
+      "officialRosterUrl": "https://scs.bupt.edu.cn/szdw/jsml.htm",
+      "profileChecked": false,
+      "decision": "excluded_insufficient_scope_evidence",
+      "reason": "官方名录提供个人页，但页面无法解析出足够的研究方向与独立 PI 证据；本轮按证据门槛不纳入，而非推断为非 AI/CS 或非 PI。",
+      "evidenceUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm",
+      "evidenceExcerpt": "网络智能研究中心"
+    },
+    {
+      "officialId": "https://teacher.bupt.edu.cn/zhangcheng/zh_CN/index.htm",
+      "name": "张成",
+      "title": null,
+      "officialSections": [
+        "网络智能研究中心"
+      ],
+      "profileUrl": "https://teacher.bupt.edu.cn/zhangcheng/zh_CN/index.htm",
+      "portraitUrl": null,
+      "sourcePageUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm",
+      "officialRosterUrl": "https://scs.bupt.edu.cn/szdw/jsml.htm",
+      "profileChecked": false,
+      "decision": "excluded_insufficient_scope_evidence",
+      "reason": "官方名录提供个人页，但页面无法解析出足够的研究方向与独立 PI 证据；本轮按证据门槛不纳入，而非推断为非 AI/CS 或非 PI。",
+      "evidenceUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm",
+      "evidenceExcerpt": "网络智能研究中心"
+    },
+    {
+      "officialId": "https://teacher.bupt.edu.cn/fuxiaoyuan1",
+      "name": "付霄元",
+      "title": null,
+      "officialSections": [
+        "网络智能研究中心"
+      ],
+      "profileUrl": "https://teacher.bupt.edu.cn/fuxiaoyuan1",
+      "portraitUrl": null,
+      "sourcePageUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm",
+      "officialRosterUrl": "https://scs.bupt.edu.cn/szdw/jsml.htm",
+      "profileChecked": false,
+      "decision": "excluded_insufficient_scope_evidence",
+      "reason": "官方名录提供个人页，但页面无法解析出足够的研究方向与独立 PI 证据；本轮按证据门槛不纳入，而非推断为非 AI/CS 或非 PI。",
+      "evidenceUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm",
+      "evidenceExcerpt": "网络智能研究中心"
+    },
+    {
+      "officialId": "https://teacher.bupt.edu.cn/zhuangzirui/zh_CN/index.htm",
+      "name": "庄子睿",
+      "title": null,
+      "officialSections": [
+        "网络智能研究中心"
+      ],
+      "profileUrl": "https://teacher.bupt.edu.cn/zhuangzirui/zh_CN/index.htm",
+      "portraitUrl": null,
+      "sourcePageUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm",
+      "officialRosterUrl": "https://scs.bupt.edu.cn/szdw/jsml.htm",
+      "profileChecked": false,
+      "decision": "excluded_insufficient_scope_evidence",
+      "reason": "官方名录提供个人页，但页面无法解析出足够的研究方向与独立 PI 证据；本轮按证据门槛不纳入，而非推断为非 AI/CS 或非 PI。",
+      "evidenceUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm",
+      "evidenceExcerpt": "网络智能研究中心"
+    },
+    {
+      "officialId": "https://teacher.bupt.edu.cn/hebo1/zh_CN/index.htm",
+      "name": "何波",
+      "title": null,
+      "officialSections": [
+        "网络智能研究中心"
+      ],
+      "profileUrl": "https://teacher.bupt.edu.cn/hebo1/zh_CN/index.htm",
+      "portraitUrl": null,
+      "sourcePageUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm",
+      "officialRosterUrl": "https://scs.bupt.edu.cn/szdw/jsml.htm",
+      "profileChecked": false,
+      "decision": "excluded_insufficient_scope_evidence",
+      "reason": "官方名录提供个人页，但页面无法解析出足够的研究方向与独立 PI 证据；本轮按证据门槛不纳入，而非推断为非 AI/CS 或非 PI。",
+      "evidenceUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm",
+      "evidenceExcerpt": "网络智能研究中心"
+    },
+    {
+      "officialId": "https://teacher.bupt.edu.cn/renpengfei1/zh_CN/index.htm",
+      "name": "任鹏飞",
+      "title": null,
+      "officialSections": [
+        "网络智能研究中心"
+      ],
+      "profileUrl": "https://teacher.bupt.edu.cn/renpengfei1/zh_CN/index.htm",
+      "portraitUrl": null,
+      "sourcePageUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm",
+      "officialRosterUrl": "https://scs.bupt.edu.cn/szdw/jsml.htm",
+      "profileChecked": false,
+      "decision": "excluded_insufficient_scope_evidence",
+      "reason": "官方名录提供个人页，但页面无法解析出足够的研究方向与独立 PI 证据；本轮按证据门槛不纳入，而非推断为非 AI/CS 或非 PI。",
+      "evidenceUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm",
+      "evidenceExcerpt": "网络智能研究中心"
+    }
+  ]
+}

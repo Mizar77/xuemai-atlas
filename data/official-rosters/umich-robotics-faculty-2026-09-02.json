@@ -1,0 +1,622 @@
+{
+  "completeness": "complete",
+  "fetchedAt": "2026-09-02",
+  "institution": "University of Michigan Robotics Department",
+  "officialPageUrl": "https://robotics.umich.edu/people/faculty/",
+  "officialDataUrl": "https://robotics.umich.edu/people/faculty/",
+  "officialRosterCount": 37,
+  "officialSectionCardCounts": {
+    "Faculty Directory": 37
+  },
+  "overlapAcrossSections": 0,
+  "sourceDescription": "The official Michigan Robotics Faculty Directory renders all 37 faculty cards in a single searchable page with no pagination. Every card is retained for later person-level classification.",
+  "people": [
+    {
+      "officialId": "ankit-goyal",
+      "name": "Ankit Goyal",
+      "officialSections": [
+        "Faculty Directory"
+      ],
+      "title": "Assistant Professor",
+      "department": "Robotics",
+      "researchInterests": "Generalist robot learning, dexterous and contact-rich manipulation, visuo-tactile manipulation policies, robot foundation models, learning from human data, 3D & spatial perception.",
+      "focusAreas": [
+        "Robot Learning & Foundational Models",
+        "Robotic Manipulation & Grasping",
+        "Robot Perception & Computer Vision"
+      ],
+      "profileUrl": "https://robotics.umich.edu/people/faculty/ankit-goyal/",
+      "portraitUrl": "https://robotics.umich.edu/_astro/ankgoyal.BTwtcn4G_ZIH5d6.webp"
+    },
+    {
+      "officialId": "bernadette-bucher",
+      "name": "Bernadette Bucher",
+      "officialSections": [
+        "Faculty Directory"
+      ],
+      "title": "Assistant Professor",
+      "department": "Robotics",
+      "researchInterests": "Embodied AI, vision-language grounding, mobile manipulation, navigation and mapping, uncertainty in deep learning, and active perception.",
+      "focusAreas": [
+        "Robot Learning & Foundational Models",
+        "Motion Planning & Control",
+        "Robot Perception & Computer Vision",
+        "Robotic Manipulation & Grasping"
+      ],
+      "profileUrl": "https://robotics.umich.edu/people/faculty/bernadette-bucher/",
+      "portraitUrl": "https://robotics.umich.edu/_astro/bucherb.C2-lC7pP_Z2mU892.webp"
+    },
+    {
+      "officialId": "brent-gillespie",
+      "name": "Brent Gillespie",
+      "officialSections": [
+        "Faculty Directory"
+      ],
+      "title": "Professor",
+      "department": "Robotics",
+      "researchInterests": "Physical human-robot interaction, haptic interface, wearable robots.",
+      "focusAreas": [
+        "Human-Robot Interaction & Teaming"
+      ],
+      "profileUrl": "https://robotics.umich.edu/people/faculty/brent-gillespie/",
+      "portraitUrl": "https://robotics.umich.edu/_astro/brentg.iX_4sSP4_1rpHYw.webp"
+    },
+    {
+      "officialId": "cameron-aubin",
+      "name": "Cameron Aubin",
+      "officialSections": [
+        "Faculty Directory"
+      ],
+      "title": "Assistant Professor",
+      "department": "Robotics",
+      "researchInterests": "Design and fabrication of biologically-inspired robots powered by novel, embodied energy systems; Soft robots and actuators; Microrobots; Development and characterization of autonomous materials; additive manufacturing; batteries and energy materials.",
+      "focusAreas": [
+        "Design & Soft Robotics"
+      ],
+      "profileUrl": "https://robotics.umich.edu/people/faculty/cameron-aubin/",
+      "portraitUrl": "https://robotics.umich.edu/_astro/caubin.DbwO1AlX_1elCJh.webp"
+    },
+    {
+      "officialId": "chad-jenkins",
+      "name": "Chad Jenkins",
+      "officialSections": [
+        "Faculty Directory"
+      ],
+      "title": "Professor",
+      "department": "Robotics",
+      "researchInterests": "Mobile manipulation, computer vision, interactive robot systems, human-robot interaction.",
+      "focusAreas": [
+        "Robot Learning & Foundational Models"
+      ],
+      "profileUrl": "https://robotics.umich.edu/people/faculty/chad-jenkins/",
+      "portraitUrl": "https://robotics.umich.edu/_astro/ocj.wRihzQD4_Z11yMPX.webp"
+    },
+    {
+      "officialId": "christoforos-mavrogiannis",
+      "name": "Christoforos Mavrogiannis",
+      "officialSections": [
+        "Faculty Directory"
+      ],
+      "title": "Assistant Professor",
+      "department": "Robotics",
+      "researchInterests": "Human-robot interaction, shared autonomy, multiagent and multirobot systems, navigation in dynamic environments, decentralized control, behavior prediction, robotic manipulation",
+      "focusAreas": [
+        "Human-Robot Interaction & Teaming",
+        "Multi-Robot Systems & Swarms",
+        "Motion Planning & Control",
+        "Robot Learning & Foundational Models",
+        "Autonomous Vehicles & Intelligent Transportation"
+      ],
+      "profileUrl": "https://robotics.umich.edu/people/faculty/christoforos-mavrogiannis/",
+      "portraitUrl": "https://robotics.umich.edu/_astro/cmavro.Cg1ZFXzZ_wpY3l.webp"
+    },
+    {
+      "officialId": "cynthia-chestek",
+      "name": "Cynthia Chestek",
+      "officialSections": [
+        "Faculty Directory"
+      ],
+      "title": "Professor",
+      "department": "Robotics and Biomedical Engineering",
+      "researchInterests": "Implantable brain machine interfaces, neural control of prosthetic limbs and other assistive technology.",
+      "focusAreas": [
+        "Rehabilitation Robotics & Wearables",
+        "Medical Robotics"
+      ],
+      "profileUrl": "https://robotics.umich.edu/people/faculty/cynthia-chestek/",
+      "portraitUrl": "https://robotics.umich.edu/_astro/cchestek.BQ_buEUY_1EQJDn.webp"
+    },
+    {
+      "officialId": "dawn-tilbury",
+      "name": "Dawn Tilbury",
+      "officialSections": [
+        "Faculty Directory"
+      ],
+      "title": "Professor",
+      "department": "Robotics",
+      "researchInterests": "Control of manufacturing systems, teleoperation of small ground robots, shared control of robots between humans and autonomy, human-robot interaction.",
+      "focusAreas": [
+        "Manufacturing Robotics"
+      ],
+      "profileUrl": "https://robotics.umich.edu/people/faculty/dawn-tilbury/",
+      "portraitUrl": "https://robotics.umich.edu/_astro/tilbury.Q140lGRn_NJvqr.webp"
+    },
+    {
+      "officialId": "deanna-gates",
+      "name": "Deanna Gates",
+      "officialSections": [
+        "Faculty Directory"
+      ],
+      "title": "Associate Professor",
+      "department": "Robotics and Movement Science & Biomedical Engineering",
+      "researchInterests": "Powered prostheses; human-robot interaction; outcomes assessment; 3-d movement analysis.",
+      "focusAreas": [
+        "Rehabilitation Robotics & Wearables"
+      ],
+      "profileUrl": "https://robotics.umich.edu/people/faculty/deanna-gates/",
+      "portraitUrl": "https://robotics.umich.edu/_astro/gatesd.DgW4wFJQ_Z1eIG31.webp"
+    },
+    {
+      "officialId": "derrick-yeo",
+      "name": "Derrick Yeo",
+      "officialSections": [
+        "Faculty Directory"
+      ],
+      "title": "Lecturer",
+      "department": "Robotics",
+      "researchInterests": "",
+      "focusAreas": [
+        "Autonomous Vehicles & Intelligent Transportation"
+      ],
+      "profileUrl": "https://robotics.umich.edu/people/faculty/derrick-yeo/",
+      "portraitUrl": "https://robotics.umich.edu/_astro/dyeo.BokCXjxS_fD65I.webp"
+    },
+    {
+      "officialId": "dimitra-panagou",
+      "name": "Dimitra Panagou",
+      "officialSections": [
+        "Faculty Directory"
+      ],
+      "title": "Professor",
+      "department": "Robotics",
+      "researchInterests": "Motion planning, coordination and control; robotic networks; autonomous multi-vehicle systems; nonlinear systems and control; navigation and guidance; distributed/decentralized control; dynamic coverage.",
+      "focusAreas": [
+        "Multi-Robot Systems & Swarms",
+        "Safe Autonomy & Robot Safety"
+      ],
+      "profileUrl": "https://robotics.umich.edu/people/faculty/dimitra-panagou/",
+      "portraitUrl": "https://robotics.umich.edu/_astro/dpanagou.CJiSAman_Z1kn38Q.webp"
+    },
+    {
+      "officialId": "dmitry-berenson",
+      "name": "Dmitry Berenson",
+      "officialSections": [
+        "Faculty Directory"
+      ],
+      "title": "Professor",
+      "department": "Robotics",
+      "researchInterests": "Robot learning, motion planning, and manipulation.",
+      "focusAreas": [
+        "Robotic Manipulation & Grasping",
+        "Motion Planning & Control",
+        "Robot Learning & Foundational Models"
+      ],
+      "profileUrl": "https://robotics.umich.edu/people/faculty/dmitry-berenson/",
+      "portraitUrl": "https://robotics.umich.edu/_astro/dmitryb.Bvm-_2mQ_ZcoLKT.webp"
+    },
+    {
+      "officialId": "elliott-rouse",
+      "name": "Elliott Rouse",
+      "officialSections": [
+        "Faculty Directory"
+      ],
+      "title": "Associate Professor",
+      "department": "Robotics",
+      "researchInterests": "Precision machine design, development of robotic prostheses / exoskeletons, estimation of limb and joint mechanical impedance, neural control of locomotion, biomechanics.",
+      "focusAreas": [
+        "Rehabilitation Robotics & Wearables"
+      ],
+      "profileUrl": "https://robotics.umich.edu/people/faculty/elliott-rouse/",
+      "portraitUrl": "https://robotics.umich.edu/_astro/ejrouse.CjQm6ig-_Z2dMa0A.webp"
+    },
+    {
+      "officialId": "greg-formosa",
+      "name": "Greg Formosa",
+      "officialSections": [
+        "Faculty Directory"
+      ],
+      "title": "Lecturer",
+      "department": "Robotics",
+      "researchInterests": "Mechanical design engineering, especially for the design, fabrication, and control of robotic medical devices; wheeled robot dynamics, modeling, and estimation; STEM education and design engineering pedagogy.",
+      "focusAreas": [
+        "Medical Robotics",
+        "Design & Soft Robotics"
+      ],
+      "profileUrl": "https://robotics.umich.edu/people/faculty/greg-formosa/",
+      "portraitUrl": "https://robotics.umich.edu/_astro/gformosa.BFwdAuAo_uCqij.webp"
+    },
+    {
+      "officialId": "james-weiland",
+      "name": "James Weiland",
+      "officialSections": [
+        "Faculty Directory"
+      ],
+      "title": "Professor",
+      "department": "Biomedical Engineering and Ophthalmology and Visual Sciences",
+      "researchInterests": "Retinal Prosthesis for the Blind, Computer Vision for Low-Vision Assistance, Human-Computer Interaction, Visual Electrophysiology, Multi-Sensory Integration.",
+      "focusAreas": [
+        "Medical Robotics",
+        "Human-Robot Interaction & Teaming"
+      ],
+      "profileUrl": "https://robotics.umich.edu/people/faculty/james-weiland/",
+      "portraitUrl": "https://robotics.umich.edu/_astro/weiland.DNb-uI9Q_1SsuHw.webp"
+    },
+    {
+      "officialId": "jason-corso",
+      "name": "Jason Corso",
+      "officialSections": [
+        "Faculty Directory"
+      ],
+      "title": "Professor",
+      "department": "Robotics and Electrical Engineering and Computer Science",
+      "researchInterests": "Computer vision, cognitive system learning, robot interaction, mapping, tabletop robotics.",
+      "focusAreas": [
+        "Robot Perception & Computer Vision",
+        "Robot Learning & Foundational Models"
+      ],
+      "profileUrl": "https://robotics.umich.edu/people/faculty/jason-corso/",
+      "portraitUrl": "https://robotics.umich.edu/_astro/jjcorso.BFLeoGdD_2hdUfr.webp"
+    },
+    {
+      "officialId": "xi-jessie-yang",
+      "name": "Jessie Yang",
+      "officialSections": [
+        "Faculty Directory"
+      ],
+      "title": "Associate Professor",
+      "department": "Industrial and Operations Engineering and Robotics",
+      "researchInterests": "Human-autonomy/robot interaction, Human factors in high-risk industries, User experience design",
+      "focusAreas": [
+        "Human-Robot Interaction & Teaming",
+        "Autonomous Vehicles & Intelligent Transportation"
+      ],
+      "profileUrl": "https://robotics.umich.edu/people/faculty/xi-jessie-yang/",
+      "portraitUrl": "https://robotics.umich.edu/_astro/xijyang.DFxq58uJ_ZjCYF3.webp"
+    },
+    {
+      "officialId": "jessy-grizzle",
+      "name": "Jessy Grizzle",
+      "officialSections": [
+        "Faculty Directory"
+      ],
+      "title": "Professor",
+      "department": "Robotics",
+      "researchInterests": "Bipedal locomotion, feedback control, nonlinear systems, CPS for robots and automotive systems.",
+      "focusAreas": [
+        "Legged Robotics"
+      ],
+      "profileUrl": "https://robotics.umich.edu/people/faculty/jessy-grizzle/",
+      "portraitUrl": "https://robotics.umich.edu/_astro/grizzle.Bo8sl75n_2d0voj.webp"
+    },
+    {
+      "officialId": "kira-barton",
+      "name": "Kira Barton",
+      "officialSections": [
+        "Faculty Directory"
+      ],
+      "title": "Professor",
+      "department": "Robotics",
+      "researchInterests": "Learning, precision coordination and motion control for multi agent systems with applications for manufacturing and autonomous robots, cooperative and vision-based control for autonomous robotic systems.",
+      "focusAreas": [
+        "Manufacturing Robotics",
+        "Multi-Robot Systems & Swarms",
+        "Robot Learning & Foundational Models",
+        "Medical Robotics",
+        "Human-Robot Interaction & Teaming",
+        "Motion Planning & Control"
+      ],
+      "profileUrl": "https://robotics.umich.edu/people/faculty/kira-barton/",
+      "portraitUrl": "https://robotics.umich.edu/_astro/bartonkl.DbQfln-w_kkulO.webp"
+    },
+    {
+      "officialId": "leia-stirling",
+      "name": "Leia Stirling",
+      "officialSections": [
+        "Faculty Directory"
+      ],
+      "title": "Professor",
+      "department": "Robotics and Industrial Operations and Engineering",
+      "researchInterests": "Biomechanics, decision support systems, human factors, human-autonomy/robot interaction, human motion, multimodal displays, work measurement, wearable technology.",
+      "focusAreas": [
+        "Human-Robot Interaction & Teaming",
+        "Rehabilitation Robotics & Wearables"
+      ],
+      "profileUrl": "https://robotics.umich.edu/people/faculty/leia-stirling/",
+      "portraitUrl": "https://robotics.umich.edu/_astro/leias.Cm2LnY99_1QR6Ic.webp"
+    },
+    {
+      "officialId": "lionel-robert",
+      "name": "Lionel Robert",
+      "officialSections": [
+        "Faculty Directory"
+      ],
+      "title": "Professor",
+      "department": "Robotics and School of Information",
+      "researchInterests": "Autonomous and semi-autonomous vehicles, human-robot interaction, teamwork with robots, collaborative autonomous robots, teleoperation, human-autonomy/robot interaction.",
+      "focusAreas": [
+        "Human-Robot Interaction & Teaming",
+        "Autonomous Vehicles & Intelligent Transportation"
+      ],
+      "profileUrl": "https://robotics.umich.edu/people/faculty/lionel-robert/",
+      "portraitUrl": "https://robotics.umich.edu/_astro/lprobert.Dj60Vvpv_Z2iyWNE.webp"
+    },
+    {
+      "officialId": "maani-ghaffari",
+      "name": "Maani Ghaffari",
+      "officialSections": [
+        "Faculty Directory"
+      ],
+      "title": "Associate Professor",
+      "department": "Naval Architecture and Marine Engineering and Robotics",
+      "researchInterests": "Applied mathematics, robotic perception, machine learning, and planning under uncertainty with applications in robotics and autonomous systems.",
+      "focusAreas": [
+        "Robot Learning & Foundational Models",
+        "Motion Planning & Control"
+      ],
+      "profileUrl": "https://robotics.umich.edu/people/faculty/maani-ghaffari/",
+      "portraitUrl": "https://robotics.umich.edu/_astro/maanigj.CzrqOTPS_ZolVTC.webp"
+    },
+    {
+      "officialId": "mark-draelos",
+      "name": "Mark Draelos",
+      "officialSections": [
+        "Faculty Directory"
+      ],
+      "title": "Assistant Professor",
+      "department": "Robotics and Ophthalmology",
+      "researchInterests": "Medical robotics, intrasurgical navigation, biomedical imaging, data visualization, medical device development, and real-time algorithms.",
+      "focusAreas": [
+        "Medical Robotics",
+        "Robot Perception & Computer Vision",
+        "Human-Robot Interaction & Teaming"
+      ],
+      "profileUrl": "https://robotics.umich.edu/people/faculty/mark-draelos/",
+      "portraitUrl": "https://robotics.umich.edu/_astro/mdraelos.BfO8gKre_23JR7v.webp"
+    },
+    {
+      "officialId": "necmiye-ozay",
+      "name": "Necmiye Ozay",
+      "officialSections": [
+        "Faculty Directory"
+      ],
+      "title": "Professor",
+      "department": "Robotics and Electrical and Computer Engineering",
+      "researchInterests": "Control, optimization and formal methods with applications in cyber-physical system design, system identification, verification and validation, autonomy and vision.",
+      "focusAreas": [
+        "Robot Learning & Foundational Models",
+        "Human-Robot Interaction & Teaming",
+        "Motion Planning & Control",
+        "Safe Autonomy & Robot Safety",
+        "Autonomous Vehicles & Intelligent Transportation",
+        "Multi-Robot Systems & Swarms"
+      ],
+      "profileUrl": "https://robotics.umich.edu/people/faculty/necmiye-ozay/",
+      "portraitUrl": "https://robotics.umich.edu/_astro/necmiye.U_MbMtgQ_Z1OQIRr.webp"
+    },
+    {
+      "officialId": "nima-fazeli",
+      "name": "Nima Fazeli",
+      "officialSections": [
+        "Faculty Directory"
+      ],
+      "title": "Associate Professor",
+      "department": "Robotics",
+      "researchInterests": "Manipulation, Robot Learning, Artificial Intelligence",
+      "focusAreas": [
+        "Robot Learning & Foundational Models",
+        "Robotic Manipulation & Grasping",
+        "Motion Planning & Control",
+        "Robot Perception & Computer Vision"
+      ],
+      "profileUrl": "https://robotics.umich.edu/people/faculty/nima-fazeli/",
+      "portraitUrl": "https://robotics.umich.edu/_astro/nfz.BPEjh43q_ZLPnoY.webp"
+    },
+    {
+      "officialId": "patricia-alves-oliveira",
+      "name": "Patrícia Alves-Oliveira",
+      "officialSections": [
+        "Faculty Directory"
+      ],
+      "title": "Assistant Professor",
+      "department": "Robotics",
+      "researchInterests": "Human-Robot Interaction, Embodied Social Artificial Intelligence, Human-Centered Systems, Design, Real Deployment Environments and Real Users",
+      "focusAreas": [
+        "Human-Robot Interaction & Teaming",
+        "Design & Soft Robotics",
+        "Robot Learning & Foundational Models",
+        "Safe Autonomy & Robot Safety"
+      ],
+      "profileUrl": "https://robotics.umich.edu/people/faculty/patricia-alves-oliveira/",
+      "portraitUrl": "https://robotics.umich.edu/_astro/robopati.mB1BzDOB_Iw0aD.webp"
+    },
+    {
+      "officialId": "peter-gaskell",
+      "name": "Peter Gaskell",
+      "officialSections": [
+        "Faculty Directory"
+      ],
+      "title": "Lecturer",
+      "department": "Robotics",
+      "researchInterests": "Robotics platforms for engineering education, mapping, localization and navigation, safe autonomous systems.",
+      "focusAreas": [
+        "Motion Planning & Control"
+      ],
+      "profileUrl": "https://robotics.umich.edu/people/faculty/peter-gaskell/",
+      "portraitUrl": "https://robotics.umich.edu/_astro/pgaskell.CeW7T_ds_Z1E2PK5.webp"
+    },
+    {
+      "officialId": "ram-vasudevan",
+      "name": "Ram Vasudevan",
+      "officialSections": [
+        "Faculty Directory"
+      ],
+      "title": "Professor",
+      "department": "Robotics",
+      "researchInterests": "Optimization and control of nonlinear and hybrid dynamical systems, locomotion of legged robots, shared control active safety systems, techniques to automate diagnostic and rehabilitative tasks.",
+      "focusAreas": [
+        "Motion Planning & Control",
+        "Autonomous Vehicles & Intelligent Transportation"
+      ],
+      "profileUrl": "https://robotics.umich.edu/people/faculty/ram-vasudevan/",
+      "portraitUrl": "https://robotics.umich.edu/_astro/ramv.jHYui7gz_yd4jf.webp"
+    },
+    {
+      "officialId": "robert-gregg",
+      "name": "Robert Gregg",
+      "officialSections": [
+        "Faculty Directory"
+      ],
+      "title": "Professor",
+      "department": "Robotics",
+      "researchInterests": "Legged robots; powered prostheses and orthoses; actuator design and control; nonlinear control theory; rehabilitation engineering; biomechanics of human locomotion.",
+      "focusAreas": [
+        "Rehabilitation Robotics & Wearables",
+        "Motion Planning & Control",
+        "Legged Robotics"
+      ],
+      "profileUrl": "https://robotics.umich.edu/people/faculty/robert-gregg/",
+      "portraitUrl": "https://robotics.umich.edu/_astro/rdgregg.Cq1Jnx0q_Z1ntxyG.webp"
+    },
+    {
+      "officialId": "xiaonan-sean-huang",
+      "name": "Sean Huang",
+      "officialSections": [
+        "Faculty Directory"
+      ],
+      "title": "Assistant Professor",
+      "department": "Robotics",
+      "researchInterests": "Design, control, and modeling of autonomous multi-terrain soft robots and tensegrity robots, integration of novel soft multifunctional materials into soft machines, and development of novel soft actuators, sensors, and wearable devices.",
+      "focusAreas": [
+        "Design & Soft Robotics"
+      ],
+      "profileUrl": "https://robotics.umich.edu/people/faculty/xiaonan-sean-huang/",
+      "portraitUrl": "https://robotics.umich.edu/_astro/xiaonanh.BZGxrWjQ_hBxRD.webp"
+    },
+    {
+      "officialId": "steven-ceron",
+      "name": "Steven Ceron",
+      "officialSections": [
+        "Faculty Directory"
+      ],
+      "title": "Assistant Professor",
+      "department": "Robotics",
+      "researchInterests": "Swarm robotics, multi-agent systems, swarm intelligence, microrobotics; design, fabrication, and control of microrobot swarms for biomedical applications; self-reconfigurable modular robot swarms; programmable self-organization of micro-scale and macro-scale robot swarms.",
+      "focusAreas": [
+        "Multi-Robot Systems & Swarms"
+      ],
+      "profileUrl": "https://robotics.umich.edu/people/faculty/steven-ceron/",
+      "portraitUrl": "https://robotics.umich.edu/_astro/sceron.R4lp6Q7-_1JiinY.webp"
+    },
+    {
+      "officialId": "talia-moore",
+      "name": "Talia Moore",
+      "officialSections": [
+        "Faculty Directory"
+      ],
+      "title": "Assistant Professor",
+      "department": "Robotics",
+      "researchInterests": "Robot-animal interactions and the ecology, evolution, and control of arrhythmic motion in animals and robots.",
+      "focusAreas": [
+        "Design & Soft Robotics"
+      ],
+      "profileUrl": "https://robotics.umich.edu/people/faculty/talia-moore/",
+      "portraitUrl": "https://robotics.umich.edu/_astro/taliaym.CBSpV-lH_ib2BW.webp"
+    },
+    {
+      "officialId": "tribhi-kathuria",
+      "name": "Tribhi Kathuria",
+      "officialSections": [
+        "Faculty Directory"
+      ],
+      "title": "Lecturer",
+      "department": "Robotics",
+      "researchInterests": "Socially aware robot motion planning; reasoning and task planning with vision and language models; learning from human demonstrations; human–robot interaction; imitation and inverse reinforcement learning; embodied AI and sim-to-real transfer",
+      "focusAreas": [
+        "Human-Robot Interaction & Teaming"
+      ],
+      "profileUrl": "https://robotics.umich.edu/people/faculty/tribhi-kathuria/",
+      "portraitUrl": "https://robotics.umich.edu/_astro/tribhi.W8LQlY7v_24BJt7.webp"
+    },
+    {
+      "officialId": "xiaoxiao-du",
+      "name": "Xiaoxiao Du",
+      "officialSections": [
+        "Faculty Directory"
+      ],
+      "title": "Lecturer",
+      "department": "Robotics",
+      "researchInterests": "Machine learning, sensor fusion, computer vision, pedestrian perception and scene understanding for autonomous vehicles.",
+      "focusAreas": [
+        "Autonomous Vehicles & Intelligent Transportation",
+        "Robot Perception & Computer Vision",
+        "Robot Learning & Foundational Models",
+        "Human-Robot Interaction & Teaming"
+      ],
+      "profileUrl": "https://robotics.umich.edu/people/faculty/xiaoxiao-du/",
+      "portraitUrl": "https://robotics.umich.edu/_astro/xiaodu.Glqsw8VK_F2q9x.webp"
+    },
+    {
+      "officialId": "y-z",
+      "name": "Y Z",
+      "officialSections": [
+        "Faculty Directory"
+      ],
+      "title": "Professor",
+      "department": "Nuclear Engineering & Radiological Sciences and Robotics",
+      "researchInterests": "Robots in extreme environments; Swarm robots and collective intelligence; Wheel-legged robots; Soft robots and human-compatible machines; Far-from-equilibrium physics, long timescale phenomena, and rare events; Physics and chemistry of liquids and complex fluids, especially under interfacial/non-equilibrium/extreme conditions",
+      "focusAreas": [
+        "Design & Soft Robotics",
+        "Motion Planning & Control",
+        "Robot Learning & Foundational Models",
+        "Robot Perception & Computer Vision",
+        "Legged Robotics",
+        "Multi-Robot Systems & Swarms"
+      ],
+      "profileUrl": "https://robotics.umich.edu/people/faculty/y-z/",
+      "portraitUrl": "https://robotics.umich.edu/_astro/yzyz.BJ-oyVfJ_ZEeWNg.webp"
+    },
+    {
+      "officialId": "yanran-ding",
+      "name": "Yanran Ding",
+      "officialSections": [
+        "Faculty Directory"
+      ],
+      "title": "Assistant Professor",
+      "department": "Robotics",
+      "researchInterests": "Optimization-based control for legged robots; actuator design; trajectory planning.",
+      "focusAreas": [
+        "Legged Robotics",
+        "Motion Planning & Control"
+      ],
+      "profileUrl": "https://robotics.umich.edu/people/faculty/yanran-ding/",
+      "portraitUrl": "https://robotics.umich.edu/_astro/yanrand.CgA0lFUf_2l34nG.webp"
+    },
+    {
+      "officialId": "yulun-tian",
+      "name": "Yulun Tian",
+      "officialSections": [
+        "Faculty Directory"
+      ],
+      "title": "Assistant Professor",
+      "department": "Robotics",
+      "researchInterests": "Robotic perception and state estimation, mapping and navigation for single and multi-agent systems, numerical and distributed optimization, robot learning.",
+      "focusAreas": [
+        "Multi-Robot Systems & Swarms",
+        "Robot Perception & Computer Vision",
+        "Robot Learning & Foundational Models"
+      ],
+      "profileUrl": "https://robotics.umich.edu/people/faculty/yulun-tian/",
+      "portraitUrl": "https://robotics.umich.edu/_astro/yulunt.DIGbM66C_Z2nneJ8.webp"
+    }
+  ]
+}

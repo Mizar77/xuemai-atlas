@@ -1,0 +1,2424 @@
+{
+  "schemaVersion": 1,
+  "region": "Mainland China",
+  "rank": 17,
+  "institution": "北京邮电大学",
+  "unitId": "bupt-ai-rank11-18",
+  "unitName": "人工智能学院",
+  "snapshotAt": "2026-09-02",
+  "reviewedAt": "2026-09-03",
+  "rosterArtifact": "data/official-rosters/bupt-ai-complete-faculty-2026-09-02.json",
+  "officialRosterUrl": "https://ai.bupt.edu.cn/szdw.htm",
+  "officialRosterCount": 141,
+  "decisionCount": 141,
+  "counts": {
+    "included_existing": 1,
+    "include_new_pi": 112,
+    "excluded_non_ai_cs": 0,
+    "excluded_non_pi": 15,
+    "excluded_historical": 0,
+    "excluded_industry_only": 0,
+    "excluded_insufficient_scope_evidence": 13,
+    "pending_profile_verification": 0
+  },
+  "decisions": [
+    {
+      "officialId": "zhisongbie@bupt.edu.cn",
+      "name": "别志松 BIE Zhisong",
+      "title": null,
+      "officialSections": [
+        "智能信息工程系"
+      ],
+      "profileUrl": null,
+      "portraitUrl": "http://ai.bupt.edu.cn/__local/5/B1/C2/138D72CE71477D87DC5411B7C1A_E3A8D323_17D6F.jpg",
+      "sourcePageUrl": "http://ai.bupt.edu.cn/szdw/szyl/znxxgcx.htm",
+      "officialRosterUrl": "https://ai.bupt.edu.cn/szdw.htm",
+      "profileChecked": false,
+      "decision": "include_new_pi",
+      "reason": "官方人工智能学院名录和个人页确认其为教授、副教授、研究员或可独立招生导师；该单位研究主线属于 AI、数据科学及相关智能计算范围。",
+      "evidenceUrl": "http://ai.bupt.edu.cn/szdw/szyl/znxxgcx.htm",
+      "evidenceExcerpt": "智能信息工程系 | 工学博士 · 副教授，硕士生导师 · 访问学者 · 智能信息工程系 · zhisongbie@bupt.edu.cn"
+    },
+    {
+      "officialId": "https://teacher.bupt.edu.cn/chenguang/zh_CN/index.htm",
+      "name": "陈 光 CHEN Guang",
+      "title": null,
+      "officialSections": [
+        "智能信息工程系"
+      ],
+      "profileUrl": "https://teacher.bupt.edu.cn/chenguang/zh_CN/index.htm",
+      "portraitUrl": "http://ai.bupt.edu.cn/__local/2/12/F5/EE4602BEB157C8A105383C411FC_B350D35D_9E19.jpg",
+      "sourcePageUrl": "http://ai.bupt.edu.cn/szdw/szyl/znxxgcx.htm",
+      "officialRosterUrl": "https://ai.bupt.edu.cn/szdw.htm",
+      "profileChecked": false,
+      "decision": "include_new_pi",
+      "reason": "官方人工智能学院名录和个人页确认其为教授、副教授、研究员或可独立招生导师；该单位研究主线属于 AI、数据科学及相关智能计算范围。",
+      "evidenceUrl": "http://ai.bupt.edu.cn/szdw/szyl/znxxgcx.htm",
+      "evidenceExcerpt": "智能信息工程系 | 北京邮电大学博士 · 副教授，硕士生导师 · 智能信息工程系 · chenguang@bupt.edu.cn"
+    },
+    {
+      "officialId": "https://teacher.bupt.edu.cn/chenkeliang1/zh_CN/index.htm",
+      "name": "陈科良 CHEN Keliang",
+      "title": null,
+      "officialSections": [
+        "智能信息工程系"
+      ],
+      "profileUrl": "https://teacher.bupt.edu.cn/chenkeliang1/zh_CN/index.htm",
+      "portraitUrl": "http://ai.bupt.edu.cn/__local/F/9F/BE/B8E535F7F45C235A05C3D15B366_42603B23_4D10.jpg",
+      "sourcePageUrl": "http://ai.bupt.edu.cn/szdw/szyl/znxxgcx.htm",
+      "officialRosterUrl": "https://ai.bupt.edu.cn/szdw.htm",
+      "profileChecked": false,
+      "decision": "include_new_pi",
+      "reason": "官方人工智能学院名录和个人页确认其为教授、副教授、研究员或可独立招生导师；该单位研究主线属于 AI、数据科学及相关智能计算范围。",
+      "evidenceUrl": "http://ai.bupt.edu.cn/szdw/szyl/znxxgcx.htm",
+      "evidenceExcerpt": "智能信息工程系 | 北京邮电大学博士 · 副教授，硕士生导师 · 智能信息工程系 · chenkl@bupt.edu.cn"
+    },
+    {
+      "officialId": "changdongliang@bupt.edu.cn",
+      "name": "常东良 CHANG Dongliang",
+      "title": null,
+      "officialSections": [
+        "智能信息工程系"
+      ],
+      "profileUrl": null,
+      "portraitUrl": "http://ai.bupt.edu.cn/__local/E/3D/D7/6ED918C088FD899A43A8B73EFE8_6283B3C6_232A00.jpg",
+      "sourcePageUrl": "http://ai.bupt.edu.cn/szdw/szyl/znxxgcx.htm",
+      "officialRosterUrl": "https://ai.bupt.edu.cn/szdw.htm",
+      "profileChecked": false,
+      "decision": "include_new_pi",
+      "reason": "官方人工智能学院名录和个人页确认其为教授、副教授、研究员或可独立招生导师；该单位研究主线属于 AI、数据科学及相关智能计算范围。",
+      "evidenceUrl": "http://ai.bupt.edu.cn/szdw/szyl/znxxgcx.htm",
+      "evidenceExcerpt": "智能信息工程系 | 北京邮电大学博士 · 副研究员，硕士生导师 · 智能信息工程系 · changdongliang@bupt.edu.cn"
+    },
+    {
+      "officialId": "https://teacher.bupt.edu.cn/chiguoxuan",
+      "name": "迟国轩 CHI Guoxuan",
+      "title": null,
+      "officialSections": [
+        "智能信息工程系"
+      ],
+      "profileUrl": "https://teacher.bupt.edu.cn/chiguoxuan",
+      "portraitUrl": "http://ai.bupt.edu.cn/__local/0/14/78/32A334673B069E7E89EEF295185_5DBBD6B6_C3DC.png",
+      "sourcePageUrl": "http://ai.bupt.edu.cn/szdw/szyl/znxxgcx.htm",
+      "officialRosterUrl": "https://ai.bupt.edu.cn/szdw.htm",
+      "profileChecked": false,
+      "decision": "include_new_pi",
+      "reason": "官方人工智能学院名录和个人页确认其为教授、副教授、研究员或可独立招生导师；该单位研究主线属于 AI、数据科学及相关智能计算范围。",
+      "evidenceUrl": "http://ai.bupt.edu.cn/szdw/szyl/znxxgcx.htm",
+      "evidenceExcerpt": "智能信息工程系 | 清华大学博士 · 助理教授，硕士生导师 · 智能信息工程系 · chiguoxuan@bupt.edu.cn"
+    },
+    {
+      "officialId": "daijincheng@bupt.edu.cn",
+      "name": "戴金晟 DAI Jincheng",
+      "title": null,
+      "officialSections": [
+        "智能信息工程系"
+      ],
+      "profileUrl": null,
+      "portraitUrl": "http://ai.bupt.edu.cn/__local/D/F6/49/4E29FC736872D44862E5A80129E_7E720843_5844.jpg",
+      "sourcePageUrl": "http://ai.bupt.edu.cn/szdw/szyl/znxxgcx.htm",
+      "officialRosterUrl": "https://ai.bupt.edu.cn/szdw.htm",
+      "profileChecked": false,
+      "decision": "include_new_pi",
+      "reason": "官方人工智能学院名录和个人页确认其为教授、副教授、研究员或可独立招生导师；该单位研究主线属于 AI、数据科学及相关智能计算范围。",
+      "evidenceUrl": "http://ai.bupt.edu.cn/szdw/szyl/znxxgcx.htm",
+      "evidenceExcerpt": "智能信息工程系 | 北京邮电大学博士 · 副教授，博士生导师 · 智能信息工程系 · daijincheng@bupt.edu.cn"
+    },
+    {
+      "officialId": "dongchao@bupt.edu.cn",
+      "name": "董 超 DONG Chao",
+      "title": null,
+      "officialSections": [
+        "智能信息工程系"
+      ],
+      "profileUrl": null,
+      "portraitUrl": "http://ai.bupt.edu.cn/__local/1/59/FC/63A3493BEF60E6CA1B782E4E471_65329B8B_15068.jpg",
+      "sourcePageUrl": "http://ai.bupt.edu.cn/szdw/szyl/znxxgcx.htm",
+      "officialRosterUrl": "https://ai.bupt.edu.cn/szdw.htm",
+      "profileChecked": false,
+      "decision": "include_new_pi",
+      "reason": "官方人工智能学院名录和个人页确认其为教授、副教授、研究员或可独立招生导师；该单位研究主线属于 AI、数据科学及相关智能计算范围。",
+      "evidenceUrl": "http://ai.bupt.edu.cn/szdw/szyl/znxxgcx.htm",
+      "evidenceExcerpt": "智能信息工程系 | 北京邮电大学博士 · 教授，博士生导师 · 智能信息工程系 · dongchao@bupt.edu.cn"
+    },
+    {
+      "officialId": "https://teacher.bupt.edu.cn/dongyuan/zh_CN/index.htm",
+      "name": "董 远 DONG Yuan",
+      "title": null,
+      "officialSections": [
+        "智能信息工程系"
+      ],
+      "profileUrl": "https://teacher.bupt.edu.cn/dongyuan/zh_CN/index.htm",
+      "portraitUrl": "http://ai.bupt.edu.cn/__local/1/62/DA/397975216BDEAC2F1A0222A054B_7A64944F_1ECF.jpg",
+      "sourcePageUrl": "http://ai.bupt.edu.cn/szdw/szyl/znxxgcx.htm",
+      "officialRosterUrl": "https://ai.bupt.edu.cn/szdw.htm",
+      "profileChecked": false,
+      "decision": "include_new_pi",
+      "reason": "官方人工智能学院名录和个人页确认其为教授、副教授、研究员或可独立招生导师；该单位研究主线属于 AI、数据科学及相关智能计算范围。",
+      "evidenceUrl": "http://ai.bupt.edu.cn/szdw/szyl/znxxgcx.htm",
+      "evidenceExcerpt": "智能信息工程系 | 工学博士 · 教授，博士生导师 · 智能信息工程系 · yuandong@bupt.edu.cn"
+    },
+    {
+      "officialId": "pgong@bupt.edu.cn",
+      "name": "龚 萍 GONG Ping",
+      "title": null,
+      "officialSections": [
+        "智能信息工程系"
+      ],
+      "profileUrl": null,
+      "portraitUrl": "http://ai.bupt.edu.cn/__local/6/75/62/6D6E5ABB0D0DB09EE8181F936E0_4D005493_8980.jpg",
+      "sourcePageUrl": "http://ai.bupt.edu.cn/szdw/szyl/znxxgcx.htm",
+      "officialRosterUrl": "https://ai.bupt.edu.cn/szdw.htm",
+      "profileChecked": false,
+      "decision": "include_new_pi",
+      "reason": "官方人工智能学院名录和个人页确认其为教授、副教授、研究员或可独立招生导师；该单位研究主线属于 AI、数据科学及相关智能计算范围。",
+      "evidenceUrl": "http://ai.bupt.edu.cn/szdw/szyl/znxxgcx.htm",
+      "evidenceExcerpt": "智能信息工程系 | 北京邮电大学博士 · 副教授，硕士生导师 · 智能信息工程系 · pgong@bupt.edu.cn"
+    },
+    {
+      "officialId": "buptgaosheng@bupt.edu.cn",
+      "name": "高 升 GAO Sheng",
+      "title": null,
+      "officialSections": [
+        "智能信息工程系"
+      ],
+      "profileUrl": null,
+      "portraitUrl": "http://ai.bupt.edu.cn/__local/5/C7/F4/75857DCAA0650416A53B84D1743_765D0099_45E3.jpg",
+      "sourcePageUrl": "http://ai.bupt.edu.cn/szdw/szyl/znxxgcx.htm",
+      "officialRosterUrl": "https://ai.bupt.edu.cn/szdw.htm",
+      "profileChecked": false,
+      "decision": "include_new_pi",
+      "reason": "官方人工智能学院名录和个人页确认其为教授、副教授、研究员或可独立招生导师；该单位研究主线属于 AI、数据科学及相关智能计算范围。",
+      "evidenceUrl": "http://ai.bupt.edu.cn/szdw/szyl/znxxgcx.htm",
+      "evidenceExcerpt": "智能信息工程系 | 法国巴黎第六大学博士 · 副教授，博士生导师 · 智能信息工程系 · buptgaosheng@bupt.edu.cn"
+    },
+    {
+      "officialId": "https://teacher.bupt.edu.cn/guxinyu/zh_CN/index.htm",
+      "name": "顾昕钰 GU Xiyu",
+      "title": null,
+      "officialSections": [
+        "智能信息工程系"
+      ],
+      "profileUrl": "https://teacher.bupt.edu.cn/guxinyu/zh_CN/index.htm",
+      "portraitUrl": "http://ai.bupt.edu.cn/__local/8/7E/AE/9DE172F90B4760FF184EB682AE1_B64DBFAE_7E26.jpg",
+      "sourcePageUrl": "http://ai.bupt.edu.cn/szdw/szyl/znxxgcx/7.htm",
+      "officialRosterUrl": "https://ai.bupt.edu.cn/szdw.htm",
+      "profileChecked": false,
+      "decision": "include_new_pi",
+      "reason": "官方人工智能学院名录和个人页确认其为教授、副教授、研究员或可独立招生导师；该单位研究主线属于 AI、数据科学及相关智能计算范围。",
+      "evidenceUrl": "http://ai.bupt.edu.cn/szdw/szyl/znxxgcx/7.htm",
+      "evidenceExcerpt": "智能信息工程系 | 北京邮电大学博士 · 副教授，博士生导师 · 智能信息工程系 · guxinyu@bupt.edu.cn"
+    },
+    {
+      "officialId": "https://teacher.bupt.edu.cn/guojun/zh_CN/index.htm",
+      "name": "郭 军 GUO Jun",
+      "title": null,
+      "officialSections": [
+        "智能信息工程系"
+      ],
+      "profileUrl": "https://teacher.bupt.edu.cn/guojun/zh_CN/index.htm",
+      "portraitUrl": "http://ai.bupt.edu.cn/__local/1/43/E7/B36D7D4540FB86921E2FD864BC5_11077048_1D81F.jpg",
+      "sourcePageUrl": "http://ai.bupt.edu.cn/szdw/szyl/znxxgcx/7.htm",
+      "officialRosterUrl": "https://ai.bupt.edu.cn/szdw.htm",
+      "profileChecked": false,
+      "decision": "include_new_pi",
+      "reason": "官方人工智能学院名录和个人页确认其为教授、副教授、研究员或可独立招生导师；该单位研究主线属于 AI、数据科学及相关智能计算范围。",
+      "evidenceUrl": "http://ai.bupt.edu.cn/szdw/szyl/znxxgcx/7.htm",
+      "evidenceExcerpt": "智能信息工程系 | 日本东北学院大学博士 · 教授，博士生导师 · 智能信息工程系 · guojun@bupt.edu.cn"
+    },
+    {
+      "officialId": "guoli@bupt.edu.cn",
+      "name": "郭 莉 GUO Li",
+      "title": null,
+      "officialSections": [
+        "智能信息工程系"
+      ],
+      "profileUrl": null,
+      "portraitUrl": "http://ai.bupt.edu.cn/__local/A/4E/91/916E1B238F42BF7C3923A63863A_34123AD7_10C940.jpg",
+      "sourcePageUrl": "http://ai.bupt.edu.cn/szdw/szyl/znxxgcx/7.htm",
+      "officialRosterUrl": "https://ai.bupt.edu.cn/szdw.htm",
+      "profileChecked": false,
+      "decision": "include_new_pi",
+      "reason": "官方人工智能学院名录和个人页确认其为教授、副教授、研究员或可独立招生导师；该单位研究主线属于 AI、数据科学及相关智能计算范围。",
+      "evidenceUrl": "http://ai.bupt.edu.cn/szdw/szyl/znxxgcx/7.htm",
+      "evidenceExcerpt": "智能信息工程系 | 博士 · 教授，博士生导师 · 智能信息工程系 · guoli@bupt.edu.cn"
+    },
+    {
+      "officialId": "guoheng@bupt.edu.cn",
+      "name": "郭 亨 GUO Heng",
+      "title": null,
+      "officialSections": [
+        "智能信息工程系"
+      ],
+      "profileUrl": null,
+      "portraitUrl": "http://ai.bupt.edu.cn/__local/5/32/94/C753EF4D0E2ABAB6B7B13135C48_1FDCCE3C_1306A.png",
+      "sourcePageUrl": "http://ai.bupt.edu.cn/szdw/szyl/znxxgcx/7.htm",
+      "officialRosterUrl": "https://ai.bupt.edu.cn/szdw.htm",
+      "profileChecked": false,
+      "decision": "include_new_pi",
+      "reason": "官方人工智能学院名录和个人页确认其为教授、副教授、研究员或可独立招生导师；该单位研究主线属于 AI、数据科学及相关智能计算范围。",
+      "evidenceUrl": "http://ai.bupt.edu.cn/szdw/szyl/znxxgcx/7.htm",
+      "evidenceExcerpt": "智能信息工程系 | 日本大阪大学博士 · 特聘研究员，博士生导师 · 智能信息工程系 · guoheng@bupt.edu.cn"
+    },
+    {
+      "officialId": "hdz@bupt.edu.cn",
+      "name": "何大中 HE Dazhong",
+      "title": null,
+      "officialSections": [
+        "智能信息工程系"
+      ],
+      "profileUrl": null,
+      "portraitUrl": "http://ai.bupt.edu.cn/__local/B/3D/EA/41018106EA0281B609A3F956D34_FAC35466_4D85.jpg",
+      "sourcePageUrl": "http://ai.bupt.edu.cn/szdw/szyl/znxxgcx/7.htm",
+      "officialRosterUrl": "https://ai.bupt.edu.cn/szdw.htm",
+      "profileChecked": false,
+      "decision": "excluded_non_pi",
+      "reason": "官方职称为讲师、助理研究员、工程师或同等级非独立岗位，个人页未显示博士/硕士导师或独立招生资格。",
+      "evidenceUrl": "http://ai.bupt.edu.cn/szdw/szyl/znxxgcx/7.htm",
+      "evidenceExcerpt": "智能信息工程系 | 工学博士，讲师 · 智能信息工程系 · hdz@bupt.edu.cn"
+    },
+    {
+      "officialId": "https://teacher.bupt.edu.cn/hegang/zh_CN/index.htm",
+      "name": "何 刚 HE Gang",
+      "title": null,
+      "officialSections": [
+        "智能信息工程系"
+      ],
+      "profileUrl": "https://teacher.bupt.edu.cn/hegang/zh_CN/index.htm",
+      "portraitUrl": "http://ai.bupt.edu.cn/__local/9/78/79/F41E8ABA9F1D7D302F43269F2F8_EB2ECBAA_51903.jpg",
+      "sourcePageUrl": "http://ai.bupt.edu.cn/szdw/szyl/znxxgcx/7.htm",
+      "officialRosterUrl": "https://ai.bupt.edu.cn/szdw.htm",
+      "profileChecked": false,
+      "decision": "include_new_pi",
+      "reason": "官方人工智能学院名录和个人页确认其为教授、副教授、研究员或可独立招生导师；该单位研究主线属于 AI、数据科学及相关智能计算范围。",
+      "evidenceUrl": "http://ai.bupt.edu.cn/szdw/szyl/znxxgcx/7.htm",
+      "evidenceExcerpt": "智能信息工程系 | 北京邮电大学博士 · 副教授，硕士生导师 · 智能信息工程系 · brianhe@bupt.edu.cn"
+    },
+    {
+      "officialId": "hezq@bupt.edu.cn",
+      "name": "贺志强 HE Zhiqiang",
+      "title": null,
+      "officialSections": [
+        "智能信息工程系"
+      ],
+      "profileUrl": null,
+      "portraitUrl": "http://ai.bupt.edu.cn/__local/4/F8/F6/46A611155849BEEF87B0F9481D1_F56ED370_5EE1C.jpg",
+      "sourcePageUrl": "http://ai.bupt.edu.cn/szdw/szyl/znxxgcx/7.htm",
+      "officialRosterUrl": "https://ai.bupt.edu.cn/szdw.htm",
+      "profileChecked": false,
+      "decision": "include_new_pi",
+      "reason": "官方人工智能学院名录和个人页确认其为教授、副教授、研究员或可独立招生导师；该单位研究主线属于 AI、数据科学及相关智能计算范围。",
+      "evidenceUrl": "http://ai.bupt.edu.cn/szdw/szyl/znxxgcx/7.htm",
+      "evidenceExcerpt": "智能信息工程系 | 北京邮电大学博士 · 教授，博士生导师 · 智能信息工程系 · hezq@bupt.edu.cn"
+    },
+    {
+      "officialId": "jnhu@bupt.edu.cn",
+      "name": "胡佳妮 HU Jiani",
+      "title": null,
+      "officialSections": [
+        "智能信息工程系"
+      ],
+      "profileUrl": null,
+      "portraitUrl": "http://ai.bupt.edu.cn/__local/3/57/C4/C870B977D6014ED772B750D4B3A_A1F2CCDC_4BD8.jpg",
+      "sourcePageUrl": "http://ai.bupt.edu.cn/szdw/szyl/znxxgcx/7.htm",
+      "officialRosterUrl": "https://ai.bupt.edu.cn/szdw.htm",
+      "profileChecked": false,
+      "decision": "include_new_pi",
+      "reason": "官方人工智能学院名录和个人页确认其为教授、副教授、研究员或可独立招生导师；该单位研究主线属于 AI、数据科学及相关智能计算范围。",
+      "evidenceUrl": "http://ai.bupt.edu.cn/szdw/szyl/znxxgcx/7.htm",
+      "evidenceExcerpt": "智能信息工程系 | 北京邮电大学工学博士 · 副教授，硕士生导师 · 智能信息工程系 · jnhu@bupt.edu.cn"
+    },
+    {
+      "officialId": "https://teacher.bupt.edu.cn/huangpingmu/zh_CN/index.htm",
+      "name": "黄平牧 HUANG Pingmu",
+      "title": null,
+      "officialSections": [
+        "智能信息工程系"
+      ],
+      "profileUrl": "https://teacher.bupt.edu.cn/huangpingmu/zh_CN/index.htm",
+      "portraitUrl": "http://ai.bupt.edu.cn/__local/6/38/81/04F168663B81A761BCC8E45CFB5_E5D3D886_3BFB.jpg",
+      "sourcePageUrl": "http://ai.bupt.edu.cn/szdw/szyl/znxxgcx/7.htm",
+      "officialRosterUrl": "https://ai.bupt.edu.cn/szdw.htm",
+      "profileChecked": false,
+      "decision": "excluded_non_pi",
+      "reason": "官方职称为讲师、助理研究员、工程师或同等级非独立岗位，个人页未显示博士/硕士导师或独立招生资格。",
+      "evidenceUrl": "http://ai.bupt.edu.cn/szdw/szyl/znxxgcx/7.htm",
+      "evidenceExcerpt": "智能信息工程系 | 工学博士 · 讲师 · 智能信息工程系 · pmhuang@bupt.edu.cn"
+    },
+    {
+      "officialId": "https://teacher.bupt.edu.cn/jiazhuqing/zh_CN/index.htm",
+      "name": "贾诸青 JIA Zhuqing",
+      "title": null,
+      "officialSections": [
+        "智能信息工程系"
+      ],
+      "profileUrl": "https://teacher.bupt.edu.cn/jiazhuqing/zh_CN/index.htm",
+      "portraitUrl": "http://ai.bupt.edu.cn/__local/6/08/51/E69EE5E597DDFFBB4A915D26988_D684AD86_C4D1.jpg",
+      "sourcePageUrl": "http://ai.bupt.edu.cn/szdw/szyl/znxxgcx/7.htm",
+      "officialRosterUrl": "https://ai.bupt.edu.cn/szdw.htm",
+      "profileChecked": false,
+      "decision": "include_new_pi",
+      "reason": "官方人工智能学院名录和个人页确认其为教授、副教授、研究员或可独立招生导师；该单位研究主线属于 AI、数据科学及相关智能计算范围。",
+      "evidenceUrl": "http://ai.bupt.edu.cn/szdw/szyl/znxxgcx/7.htm",
+      "evidenceExcerpt": "智能信息工程系 | 美国加利福尼亚大学尔湾分校博士 · 副教授，博士生导师 · 智能信息工程系 · zhuqingj@bupt.edu.cn"
+    },
+    {
+      "officialId": "https://teacher.bupt.edu.cn/linjiaru/zh_CN/index.htm",
+      "name": "林家儒 LIN Jiaru",
+      "title": null,
+      "officialSections": [
+        "智能信息工程系"
+      ],
+      "profileUrl": "https://teacher.bupt.edu.cn/linjiaru/zh_CN/index.htm",
+      "portraitUrl": "http://ai.bupt.edu.cn/__local/B/A9/E6/895609059F5051ABF93E02BC51A_712FF996_27BBF1.jpg",
+      "sourcePageUrl": "http://ai.bupt.edu.cn/szdw/szyl/znxxgcx/6.htm",
+      "officialRosterUrl": "https://ai.bupt.edu.cn/szdw.htm",
+      "profileChecked": false,
+      "decision": "include_new_pi",
+      "reason": "官方人工智能学院名录和个人页确认其为教授、副教授、研究员或可独立招生导师；该单位研究主线属于 AI、数据科学及相关智能计算范围。",
+      "evidenceUrl": "http://ai.bupt.edu.cn/szdw/szyl/znxxgcx/6.htm",
+      "evidenceExcerpt": "智能信息工程系 | 工学博士 · 教授，博士生导师 · 瑞士苏黎世联邦工业大学访问学者 · 智能信息工程系 · jrlin@bupt.edu.cn"
+    },
+    {
+      "officialId": "https://teacher.bupt.edu.cn/~Y7BJfm/zh_CN/index.htm",
+      "name": "李春光 LI Chunguang",
+      "title": null,
+      "officialSections": [
+        "智能信息工程系"
+      ],
+      "profileUrl": "https://teacher.bupt.edu.cn/~Y7BJfm/zh_CN/index.htm",
+      "portraitUrl": "http://ai.bupt.edu.cn/__local/6/63/B6/B99724F6264085F3B170C8C7AAD_7802392D_33FB1.png",
+      "sourcePageUrl": "http://ai.bupt.edu.cn/szdw/szyl/znxxgcx/6.htm",
+      "officialRosterUrl": "https://ai.bupt.edu.cn/szdw.htm",
+      "profileChecked": false,
+      "decision": "include_new_pi",
+      "reason": "官方人工智能学院名录和个人页确认其为教授、副教授、研究员或可独立招生导师；该单位研究主线属于 AI、数据科学及相关智能计算范围。",
+      "evidenceUrl": "http://ai.bupt.edu.cn/szdw/szyl/znxxgcx/6.htm",
+      "evidenceExcerpt": "智能信息工程系 | 工学博士 · 副教授，博士生导师 · 美国约翰霍普金斯大学访问学者 · 微软亚洲研究院“铸星计划”访问教师 · 智能信息工程系 · lichunguang@bupt.edu.cn"
+    },
+    {
+      "officialId": "https://teacher.bupt.edu.cn/liufang/zh_CN/index.htm",
+      "name": "刘 芳 LIU Fang",
+      "title": null,
+      "officialSections": [
+        "智能信息工程系"
+      ],
+      "profileUrl": "https://teacher.bupt.edu.cn/liufang/zh_CN/index.htm",
+      "portraitUrl": "http://ai.bupt.edu.cn/__local/1/1D/D9/35EC0A5BE937E9655DC3036FF74_F4694566_2FF9.jpg",
+      "sourcePageUrl": "http://ai.bupt.edu.cn/szdw/szyl/znxxgcx/6.htm",
+      "officialRosterUrl": "https://ai.bupt.edu.cn/szdw.htm",
+      "profileChecked": false,
+      "decision": "include_new_pi",
+      "reason": "官方人工智能学院名录和个人页确认其为教授、副教授、研究员或可独立招生导师；该单位研究主线属于 AI、数据科学及相关智能计算范围。",
+      "evidenceUrl": "http://ai.bupt.edu.cn/szdw/szyl/znxxgcx/6.htm",
+      "evidenceExcerpt": "智能信息工程系 | 南开大学博士 · 副教授，硕士生导师 · 智能信息工程系 · linda@bupt.edu.cn"
+    },
+    {
+      "officialId": "http://ai.bupt.edu.cn/szdw/szyl/znxxgcx/6.htm#row-4",
+      "name": "刘瑞芳 LIU Ruifang",
+      "title": null,
+      "officialSections": [
+        "智能信息工程系"
+      ],
+      "profileUrl": null,
+      "portraitUrl": "http://ai.bupt.edu.cn/__local/3/92/2B/040B90A0C96288C9E32D8489BF2_4D7A1569_2442.jpg",
+      "sourcePageUrl": "http://ai.bupt.edu.cn/szdw/szyl/znxxgcx/6.htm",
+      "officialRosterUrl": "https://ai.bupt.edu.cn/szdw.htm",
+      "profileChecked": false,
+      "decision": "include_new_pi",
+      "reason": "官方人工智能学院名录和个人页确认其为教授、副教授、研究员或可独立招生导师；该单位研究主线属于 AI、数据科学及相关智能计算范围。",
+      "evidenceUrl": "http://ai.bupt.edu.cn/szdw/szyl/znxxgcx/6.htm",
+      "evidenceExcerpt": "智能信息工程系 | 工学博士 · 副教授，硕士生导师 · 美国TAMU访问学者 · 智能信息工程系 · lrf @bupt.edu.cn"
+    },
+    {
+      "officialId": "liugang@bupt.edu.cn",
+      "name": "刘 刚 LIU Gang",
+      "title": null,
+      "officialSections": [
+        "智能信息工程系"
+      ],
+      "profileUrl": null,
+      "portraitUrl": "http://ai.bupt.edu.cn/__local/4/89/2A/DB41F66BD6137EE74206399B7EC_85EF8345_27D9.jpg",
+      "sourcePageUrl": "http://ai.bupt.edu.cn/szdw/szyl/znxxgcx/6.htm",
+      "officialRosterUrl": "https://ai.bupt.edu.cn/szdw.htm",
+      "profileChecked": false,
+      "decision": "include_new_pi",
+      "reason": "官方人工智能学院名录和个人页确认其为教授、副教授、研究员或可独立招生导师；该单位研究主线属于 AI、数据科学及相关智能计算范围。",
+      "evidenceUrl": "http://ai.bupt.edu.cn/szdw/szyl/znxxgcx/6.htm",
+      "evidenceExcerpt": "智能信息工程系 | 北京邮电大学博士 · 副教授，硕士生导师 · 智能信息工程系 · liugang@bupt.edu.cn"
+    },
+    {
+      "officialId": "https://teacher.bupt.edu.cn/liujun/zh_CN/index.htm",
+      "name": "刘 军 LIU Jun",
+      "title": null,
+      "officialSections": [
+        "智能信息工程系"
+      ],
+      "profileUrl": "https://teacher.bupt.edu.cn/liujun/zh_CN/index.htm",
+      "portraitUrl": "http://ai.bupt.edu.cn/__local/A/8D/E6/9E97927C918F961474DD322DB76_4B85C1FD_2D53.jpg",
+      "sourcePageUrl": "http://ai.bupt.edu.cn/szdw/szyl/znxxgcx/6.htm",
+      "officialRosterUrl": "https://ai.bupt.edu.cn/szdw.htm",
+      "profileChecked": false,
+      "decision": "include_new_pi",
+      "reason": "官方人工智能学院名录和个人页确认其为教授、副教授、研究员或可独立招生导师；该单位研究主线属于 AI、数据科学及相关智能计算范围。",
+      "evidenceUrl": "http://ai.bupt.edu.cn/szdw/szyl/znxxgcx/6.htm",
+      "evidenceExcerpt": "智能信息工程系 | 北京邮电大学博士 · 副教授，博士生导师 · 智能信息工程系 · liujun@bupt.edu.cn"
+    },
+    {
+      "officialId": "https://teacher.bupt.edu.cn/lisi/zh_CN/index.htm",
+      "name": "李 思 LI Si",
+      "title": null,
+      "officialSections": [
+        "智能信息工程系"
+      ],
+      "profileUrl": "https://teacher.bupt.edu.cn/lisi/zh_CN/index.htm",
+      "portraitUrl": "http://ai.bupt.edu.cn/__local/B/9A/6C/408DE7891D1BEA249899EF3F083_88D2A9F2_11E5F.jpg",
+      "sourcePageUrl": "http://ai.bupt.edu.cn/szdw/szyl/znxxgcx/6.htm",
+      "officialRosterUrl": "https://ai.bupt.edu.cn/szdw.htm",
+      "profileChecked": false,
+      "decision": "include_new_pi",
+      "reason": "官方人工智能学院名录和个人页确认其为教授、副教授、研究员或可独立招生导师；该单位研究主线属于 AI、数据科学及相关智能计算范围。",
+      "evidenceUrl": "http://ai.bupt.edu.cn/szdw/szyl/znxxgcx/6.htm",
+      "evidenceExcerpt": "智能信息工程系 | 北京邮电大学博士 · 副教授，博士生导师 · 智能信息工程系 · lisi@bupt.edu.cn"
+    },
+    {
+      "officialId": "liuy@bupt.edu.cn",
+      "name": "刘 雨 LIU Yu",
+      "title": null,
+      "officialSections": [
+        "智能信息工程系"
+      ],
+      "profileUrl": null,
+      "portraitUrl": "http://ai.bupt.edu.cn/__local/5/F0/E9/119A8E9E4D8A9261EE3D36667E9_208F6624_16552.jpg",
+      "sourcePageUrl": "http://ai.bupt.edu.cn/szdw/szyl/znxxgcx/6.htm",
+      "officialRosterUrl": "https://ai.bupt.edu.cn/szdw.htm",
+      "profileChecked": false,
+      "decision": "include_new_pi",
+      "reason": "官方人工智能学院名录和个人页确认其为教授、副教授、研究员或可独立招生导师；该单位研究主线属于 AI、数据科学及相关智能计算范围。",
+      "evidenceUrl": "http://ai.bupt.edu.cn/szdw/szyl/znxxgcx/6.htm",
+      "evidenceExcerpt": "智能信息工程系 | 北京邮电大学工学博士 · 副教授，博士生导师 · 智能信息工程系 · liuy@bupt.edu.cn"
+    },
+    {
+      "officialId": "xhlin@bupt.edu.cn",
+      "name": "林雪红 LIN Xuehong",
+      "title": null,
+      "officialSections": [
+        "智能信息工程系"
+      ],
+      "profileUrl": null,
+      "portraitUrl": "http://ai.bupt.edu.cn/__local/B/F4/61/8D1EAE278985CAE202F0774AA63_7D7C6603_9607.jpg",
+      "sourcePageUrl": "http://ai.bupt.edu.cn/szdw/szyl/znxxgcx/6.htm",
+      "officialRosterUrl": "https://ai.bupt.edu.cn/szdw.htm",
+      "profileChecked": false,
+      "decision": "include_new_pi",
+      "reason": "官方人工智能学院名录和个人页确认其为教授、副教授、研究员或可独立招生导师；该单位研究主线属于 AI、数据科学及相关智能计算范围。",
+      "evidenceUrl": "http://ai.bupt.edu.cn/szdw/szyl/znxxgcx/6.htm",
+      "evidenceExcerpt": "智能信息工程系 | 北京邮电大学工学博士 · 副教授，硕士生导师 · 智能信息工程系 · xhlin@bupt.edu.cn"
+    },
+    {
+      "officialId": "https://teacher.bupt.edu.cn/liangkongming/zh_CN/index.htm",
+      "name": "梁孔明 LIANG Kongming",
+      "title": null,
+      "officialSections": [
+        "智能信息工程系"
+      ],
+      "profileUrl": "https://teacher.bupt.edu.cn/liangkongming/zh_CN/index.htm",
+      "portraitUrl": "http://ai.bupt.edu.cn/__local/2/B5/B3/FFD1B0D13D541622E9D25785E82_5E7F4E8E_2E6C.jpg",
+      "sourcePageUrl": "http://ai.bupt.edu.cn/szdw/szyl/znxxgcx/6.htm",
+      "officialRosterUrl": "https://ai.bupt.edu.cn/szdw.htm",
+      "profileChecked": false,
+      "decision": "include_new_pi",
+      "reason": "官方人工智能学院名录和个人页确认其为教授、副教授、研究员或可独立招生导师；该单位研究主线属于 AI、数据科学及相关智能计算范围。",
+      "evidenceUrl": "http://ai.bupt.edu.cn/szdw/szyl/znxxgcx/6.htm",
+      "evidenceExcerpt": "智能信息工程系 | 中科院计算所博士 · 副教授，博士生导师 · 智能信息工程系 · liangkongming@bupt.edu.cn"
+    },
+    {
+      "officialId": "https://teacher.bupt.edu.cn/like/zh_CN/index.htm",
+      "name": "李 珂 Li Ke",
+      "title": null,
+      "officialSections": [
+        "智能信息工程系"
+      ],
+      "profileUrl": "https://teacher.bupt.edu.cn/like/zh_CN/index.htm",
+      "portraitUrl": "http://ai.bupt.edu.cn/__local/B/9A/DC/B091E42FAB9E00A67E1C0B7676F_ECC40860_3BC5E.jpg",
+      "sourcePageUrl": "http://ai.bupt.edu.cn/szdw/szyl/znxxgcx/5.htm",
+      "officialRosterUrl": "https://ai.bupt.edu.cn/szdw.htm",
+      "profileChecked": false,
+      "decision": "include_new_pi",
+      "reason": "官方人工智能学院名录和个人页确认其为教授、副教授、研究员或可独立招生导师；该单位研究主线属于 AI、数据科学及相关智能计算范围。",
+      "evidenceUrl": "http://ai.bupt.edu.cn/szdw/szyl/znxxgcx/5.htm",
+      "evidenceExcerpt": "智能信息工程系 | 北京邮电大学博士 · 特聘副研究员，博士生导师 · 智能信息工程系 · like1990@bupt.edu.cn"
+    },
+    {
+      "officialId": "https://teacher.bupt.edu.cn/lilantian/zh_CN/index.htm",
+      "name": "李蓝天 LI Lantian",
+      "title": null,
+      "officialSections": [
+        "智能信息工程系"
+      ],
+      "profileUrl": "https://teacher.bupt.edu.cn/lilantian/zh_CN/index.htm",
+      "portraitUrl": "http://ai.bupt.edu.cn/__local/1/1B/3C/49AC864979C40795E4512768BA8_7ECB82A1_A596.jpg",
+      "sourcePageUrl": "http://ai.bupt.edu.cn/szdw/szyl/znxxgcx/5.htm",
+      "officialRosterUrl": "https://ai.bupt.edu.cn/szdw.htm",
+      "profileChecked": false,
+      "decision": "include_new_pi",
+      "reason": "官方人工智能学院名录和个人页确认其为教授、副教授、研究员或可独立招生导师；该单位研究主线属于 AI、数据科学及相关智能计算范围。",
+      "evidenceUrl": "http://ai.bupt.edu.cn/szdw/szyl/znxxgcx/5.htm",
+      "evidenceExcerpt": "智能信息工程系 | 清华大学计算机系博士 · 副教授，博士生导师 · 智能信息工程系 · lilt@bupt.edu.cn"
+    },
+    {
+      "officialId": "https://teacher.bupt.edu.cn/luoxinlong/zh_CN/index.htm",
+      "name": "罗新龙 LUO Xinlong",
+      "title": null,
+      "officialSections": [
+        "智能信息工程系"
+      ],
+      "profileUrl": "https://teacher.bupt.edu.cn/luoxinlong/zh_CN/index.htm",
+      "portraitUrl": "http://ai.bupt.edu.cn/__local/8/0E/FB/4B9CCF3EEABBCED94323566B8E7_DCE80F69_783D.jpg",
+      "sourcePageUrl": "http://ai.bupt.edu.cn/szdw/szyl/znxxgcx/5.htm",
+      "officialRosterUrl": "https://ai.bupt.edu.cn/szdw.htm",
+      "profileChecked": false,
+      "decision": "include_new_pi",
+      "reason": "官方人工智能学院名录和个人页确认其为教授、副教授、研究员或可独立招生导师；该单位研究主线属于 AI、数据科学及相关智能计算范围。",
+      "evidenceUrl": "http://ai.bupt.edu.cn/szdw/szyl/znxxgcx/5.htm",
+      "evidenceExcerpt": "智能信息工程系 | 中国科学院数学与系统科学研究院博士 · 副教授，硕士生导师 · 美国爱荷华州立大学访问学者 · 香港浸会大学访问学者 · 智能信息工程系 · luoxinlong@bupt.edu.cn"
+    },
+    {
+      "officialId": "https://bupt.teacher.360eol.com/teacherBasic/preview?teacherType=&teacherId=34602",
+      "name": "卢立洋 LU Liyang",
+      "title": null,
+      "officialSections": [
+        "智能信息工程系"
+      ],
+      "profileUrl": "https://bupt.teacher.360eol.com/teacherBasic/preview?teacherType=&teacherId=34602",
+      "portraitUrl": "http://ai.bupt.edu.cn/__local/8/9C/EC/E27279459804B991745D83FCBDF_4EB3389C_6476CD.png",
+      "sourcePageUrl": "http://ai.bupt.edu.cn/szdw/szyl/znxxgcx/5.htm",
+      "officialRosterUrl": "https://ai.bupt.edu.cn/szdw.htm",
+      "profileChecked": true,
+      "decision": "include_new_pi",
+      "reason": "官方人工智能学院名录和个人页确认其为教授、副教授、研究员或可独立招生导师；该单位研究主线属于 AI、数据科学及相关智能计算范围。",
+      "evidenceUrl": "https://bupt.teacher.360eol.com/teacherBasic/preview?teacherType=&teacherId=34602",
+      "evidenceExcerpt": "工程系 | 北京邮电大学博士 · 预聘助理教授，硕士生导师 · 智能信息工程系 · luliyang25@bupt.edu.cn 研究方向为人工智能和稀疏重构赋能无线通信系统，已在IEEE TIT、TSP、TCOM等发表学术论文20余篇。近年来共主持或结题科研项目5项，涵盖国家自然青年科学基金、国家资助博士后研究人员计划、中国博士后科学基金、2024年度博士后科研业绩评估考核资助、北京邮电大学优秀博士基金，获评清华大学电子工程系2024年度“基金工作先进个人”、电子学会信号处理学术年会“‘信号处理’科技"
+    },
+    {
+      "officialId": "https://teacher.bupt.edu.cn/mazhanyu/zh_CN/index.htm",
+      "name": "马占宇 MA Zhanyu",
+      "title": null,
+      "officialSections": [
+        "智能信息工程系"
+      ],
+      "profileUrl": "https://teacher.bupt.edu.cn/mazhanyu/zh_CN/index.htm",
+      "portraitUrl": "http://ai.bupt.edu.cn/__local/5/2F/EB/A8FC223A6506BE8D3D36E98F0D5_6C47E6F7_1F778.jpg",
+      "sourcePageUrl": "http://ai.bupt.edu.cn/szdw/szyl/znxxgcx/5.htm",
+      "officialRosterUrl": "https://ai.bupt.edu.cn/szdw.htm",
+      "profileChecked": false,
+      "decision": "include_new_pi",
+      "reason": "官方人工智能学院名录和个人页确认其为教授、副教授、研究员或可独立招生导师；该单位研究主线属于 AI、数据科学及相关智能计算范围。",
+      "evidenceUrl": "http://ai.bupt.edu.cn/szdw/szyl/znxxgcx/5.htm",
+      "evidenceExcerpt": "智能信息工程系 | 瑞典皇家理工学院博士 · 教授，博士生导师 · 智能信息工程系 · mazhanyu@bupt.edu.cn"
+    },
+    {
+      "officialId": "https://teacher.bupt.edu.cn/majinming/zh_CN/index.htm",
+      "name": "马金明 MA Jinming",
+      "title": null,
+      "officialSections": [
+        "智能信息工程系"
+      ],
+      "profileUrl": "https://teacher.bupt.edu.cn/majinming/zh_CN/index.htm",
+      "portraitUrl": "http://ai.bupt.edu.cn/__local/9/42/77/24077CED96B5BE735F6F607D7DA_B2B0B93F_9C0E.jpg",
+      "sourcePageUrl": "http://ai.bupt.edu.cn/szdw/szyl/znxxgcx/5.htm",
+      "officialRosterUrl": "https://ai.bupt.edu.cn/szdw.htm",
+      "profileChecked": false,
+      "decision": "include_new_pi",
+      "reason": "官方人工智能学院名录和个人页确认其为教授、副教授、研究员或可独立招生导师；该单位研究主线属于 AI、数据科学及相关智能计算范围。",
+      "evidenceUrl": "http://ai.bupt.edu.cn/szdw/szyl/znxxgcx/5.htm",
+      "evidenceExcerpt": "智能信息工程系 | 工学博士 · 讲师 · 硕士生导师 · 智能信息工程系 · jmma@bupt.edu.cn"
+    },
+    {
+      "officialId": "https://teacher.bupt.edu.cn/niukai/zh_CN/index.htm",
+      "name": "牛 凯 NIU Kai",
+      "title": null,
+      "officialSections": [
+        "智能信息工程系"
+      ],
+      "profileUrl": "https://teacher.bupt.edu.cn/niukai/zh_CN/index.htm",
+      "portraitUrl": "http://ai.bupt.edu.cn/__local/D/D5/90/EDCE2916753AA1DFBC88E84043D_E7C00F54_8AE7.jpg",
+      "sourcePageUrl": "http://ai.bupt.edu.cn/szdw/szyl/znxxgcx/5.htm",
+      "officialRosterUrl": "https://ai.bupt.edu.cn/szdw.htm",
+      "profileChecked": false,
+      "decision": "include_new_pi",
+      "reason": "官方人工智能学院名录和个人页确认其为教授、副教授、研究员或可独立招生导师；该单位研究主线属于 AI、数据科学及相关智能计算范围。",
+      "evidenceUrl": "http://ai.bupt.edu.cn/szdw/szyl/znxxgcx/5.htm",
+      "evidenceExcerpt": "智能信息工程系 | 工学博士 · 教授，博士生导师 · 香港城市大学访问学者 · 智能信息工程系 · niukai@bupt.edu.cn"
+    },
+    {
+      "officialId": "https://teacher.bupt.edu.cn/qiaoyuanyuan/zh_CN/index.htm",
+      "name": "乔媛媛 QIAO Yuanyuan",
+      "title": null,
+      "officialSections": [
+        "智能信息工程系"
+      ],
+      "profileUrl": "https://teacher.bupt.edu.cn/qiaoyuanyuan/zh_CN/index.htm",
+      "portraitUrl": "http://ai.bupt.edu.cn/__local/B/AF/61/A6B6D730A0441FE28BFAE6AC39B_0AA730D8_3AEC.jpg",
+      "sourcePageUrl": "http://ai.bupt.edu.cn/szdw/szyl/znxxgcx/5.htm",
+      "officialRosterUrl": "https://ai.bupt.edu.cn/szdw.htm",
+      "profileChecked": false,
+      "decision": "include_new_pi",
+      "reason": "官方人工智能学院名录和个人页确认其为教授、副教授、研究员或可独立招生导师；该单位研究主线属于 AI、数据科学及相关智能计算范围。",
+      "evidenceUrl": "http://ai.bupt.edu.cn/szdw/szyl/znxxgcx/5.htm",
+      "evidenceExcerpt": "智能信息工程系 | 博士 · 教授，博士生导师 · 美国麻省理工学院访问学者 · 智能信息工程系 · yyqiao@bupt.edu.cn"
+    },
+    {
+      "officialId": "https://teacher.bupt.edu.cn/qiyonggang/zh_CN/index.htm",
+      "name": "齐勇刚 QI Yonggang",
+      "title": null,
+      "officialSections": [
+        "智能信息工程系"
+      ],
+      "profileUrl": "https://teacher.bupt.edu.cn/qiyonggang/zh_CN/index.htm",
+      "portraitUrl": "http://ai.bupt.edu.cn/__local/4/B8/70/86446E3B45FF02D5EC4021046CE_C411A1E2_DD90.png",
+      "sourcePageUrl": "http://ai.bupt.edu.cn/szdw/szyl/znxxgcx/5.htm",
+      "officialRosterUrl": "https://ai.bupt.edu.cn/szdw.htm",
+      "profileChecked": false,
+      "decision": "include_new_pi",
+      "reason": "官方人工智能学院名录和个人页确认其为教授、副教授、研究员或可独立招生导师；该单位研究主线属于 AI、数据科学及相关智能计算范围。",
+      "evidenceUrl": "http://ai.bupt.edu.cn/szdw/szyl/znxxgcx/5.htm",
+      "evidenceExcerpt": "智能信息工程系 | 博士 · 副教授，博士生导师 · 英国萨里大学CVSSP访问学者 · 智能信息工程系 · qiyg@bupt.edu.cn"
+    },
+    {
+      "officialId": "sizhongwei@bupt.edu.cn",
+      "name": "司中威 SI Zhongwei",
+      "title": null,
+      "officialSections": [
+        "智能信息工程系"
+      ],
+      "profileUrl": null,
+      "portraitUrl": "http://ai.bupt.edu.cn/__local/B/82/FD/7FE62A5510035ABBDD24161A49A_8DD5C42F_1A54C9.jpg",
+      "sourcePageUrl": "http://ai.bupt.edu.cn/szdw/szyl/znxxgcx/5.htm",
+      "officialRosterUrl": "https://ai.bupt.edu.cn/szdw.htm",
+      "profileChecked": false,
+      "decision": "include_new_pi",
+      "reason": "官方人工智能学院名录和个人页确认其为教授、副教授、研究员或可独立招生导师；该单位研究主线属于 AI、数据科学及相关智能计算范围。",
+      "evidenceUrl": "http://ai.bupt.edu.cn/szdw/szyl/znxxgcx/5.htm",
+      "evidenceExcerpt": "智能信息工程系 | 瑞典皇家理工学院博士 · 副教授，博士生导师 · 智能信息工程系 · sizhongwei@bupt.edu.cn"
+    },
+    {
+      "officialId": "sxsu@bupt.edu.cn",
+      "name": "苏驷希 SU Sixi",
+      "title": null,
+      "officialSections": [
+        "智能信息工程系"
+      ],
+      "profileUrl": null,
+      "portraitUrl": "http://ai.bupt.edu.cn/__local/F/A9/E9/7E6259310F8E87EC657A12102BF_063FF790_50F7.jpg",
+      "sourcePageUrl": "http://ai.bupt.edu.cn/szdw/szyl/znxxgcx/4.htm",
+      "officialRosterUrl": "https://ai.bupt.edu.cn/szdw.htm",
+      "profileChecked": false,
+      "decision": "include_new_pi",
+      "reason": "官方人工智能学院名录和个人页确认其为教授、副教授、研究员或可独立招生导师；该单位研究主线属于 AI、数据科学及相关智能计算范围。",
+      "evidenceUrl": "http://ai.bupt.edu.cn/szdw/szyl/znxxgcx/4.htm",
+      "evidenceExcerpt": "智能信息工程系 | 北京邮电大学博士 · 副教授，硕士生导师 · 智能信息工程系 · sxsu@bupt.edu.cn"
+    },
+    {
+      "officialId": "tengxiaoqiang@bupt.edu.cn",
+      "name": "滕晓强 TENG Xiaoqiang",
+      "title": null,
+      "officialSections": [
+        "智能信息工程系"
+      ],
+      "profileUrl": null,
+      "portraitUrl": "http://ai.bupt.edu.cn/__local/E/05/98/869DD0CEDA1050D0F743F79E026_AFE2AF6D_166F.jpg",
+      "sourcePageUrl": "http://ai.bupt.edu.cn/szdw/szyl/znxxgcx/4.htm",
+      "officialRosterUrl": "https://ai.bupt.edu.cn/szdw.htm",
+      "profileChecked": false,
+      "decision": "excluded_non_pi",
+      "reason": "官方名录职类为行政、实验技术、工程、科研助理、博士后或学生，且个人页未显示独立招生或研究组负责人资格。",
+      "evidenceUrl": "http://ai.bupt.edu.cn/szdw/szyl/znxxgcx/4.htm",
+      "evidenceExcerpt": "智能信息工程系 | 工学博士 · 博士后 · 智能信息工程系 · tengxiaoqiang@bupt.edu.cn"
+    },
+    {
+      "officialId": "https://teacher.bupt.edu.cn/wangdongyu/zh_CN/index.htm",
+      "name": "王冬宇 WANG Dongyu",
+      "title": null,
+      "officialSections": [
+        "智能信息工程系"
+      ],
+      "profileUrl": "https://teacher.bupt.edu.cn/wangdongyu/zh_CN/index.htm",
+      "portraitUrl": "http://ai.bupt.edu.cn/__local/F/B4/E0/F8691B48FA0792ACE90D0A851B0_A466DB2B_959BF.jpg",
+      "sourcePageUrl": "http://ai.bupt.edu.cn/szdw/szyl/znxxgcx/4.htm",
+      "officialRosterUrl": "https://ai.bupt.edu.cn/szdw.htm",
+      "profileChecked": false,
+      "decision": "include_new_pi",
+      "reason": "官方人工智能学院名录和个人页确认其为教授、副教授、研究员或可独立招生导师；该单位研究主线属于 AI、数据科学及相关智能计算范围。",
+      "evidenceUrl": "http://ai.bupt.edu.cn/szdw/szyl/znxxgcx/4.htm",
+      "evidenceExcerpt": "智能信息工程系 | 北京邮电大学博士 · 副教授，博士生导师 · 智能信息工程系 · dy_wang@bupt.edu.cn"
+    },
+    {
+      "officialId": "https://teacher.bupt.edu.cn/wangfengyu/zh_CN/index.htm",
+      "name": "王凤玉 WANG Fengyu",
+      "title": null,
+      "officialSections": [
+        "智能信息工程系"
+      ],
+      "profileUrl": "https://teacher.bupt.edu.cn/wangfengyu/zh_CN/index.htm",
+      "portraitUrl": "http://ai.bupt.edu.cn/__local/8/0F/6B/7DD9E8279E2D945F16319882DE9_8D120DCE_7186.png",
+      "sourcePageUrl": "http://ai.bupt.edu.cn/szdw/szyl/znxxgcx/4.htm",
+      "officialRosterUrl": "https://ai.bupt.edu.cn/szdw.htm",
+      "profileChecked": false,
+      "decision": "include_new_pi",
+      "reason": "官方人工智能学院名录和个人页确认其为教授、副教授、研究员或可独立招生导师；该单位研究主线属于 AI、数据科学及相关智能计算范围。",
+      "evidenceUrl": "http://ai.bupt.edu.cn/szdw/szyl/znxxgcx/4.htm",
+      "evidenceExcerpt": "智能信息工程系 | 工学博士 · 副教授 · 智能信息工程系 · fengyu.wang@bupt.edu.cn"
+    },
+    {
+      "officialId": "https://teacher.bupt.edu.cn/wangshengchu/zh_CN/index.htm",
+      "name": "王生楚 WANG Shengchu",
+      "title": null,
+      "officialSections": [
+        "智能信息工程系"
+      ],
+      "profileUrl": "https://teacher.bupt.edu.cn/wangshengchu/zh_CN/index.htm",
+      "portraitUrl": "http://ai.bupt.edu.cn/__local/2/C1/E7/EA5B38535598E06286E083FA9B8_392F8031_44A54.png",
+      "sourcePageUrl": "http://ai.bupt.edu.cn/szdw/szyl/znxxgcx/4.htm",
+      "officialRosterUrl": "https://ai.bupt.edu.cn/szdw.htm",
+      "profileChecked": false,
+      "decision": "include_new_pi",
+      "reason": "官方人工智能学院名录和个人页确认其为教授、副教授、研究员或可独立招生导师；该单位研究主线属于 AI、数据科学及相关智能计算范围。",
+      "evidenceUrl": "http://ai.bupt.edu.cn/szdw/szyl/znxxgcx/4.htm",
+      "evidenceExcerpt": "智能信息工程系 | 清华大学博士 · 副教授，博士生导师 · 智能信息工程系 · wsc15@bupt.edu.cn"
+    },
+    {
+      "officialId": "https://teacher.bupt.edu.cn/wangsiye/zh_CN/index.htm",
+      "name": "王思野 WANG Siye",
+      "title": null,
+      "officialSections": [
+        "智能信息工程系"
+      ],
+      "profileUrl": "https://teacher.bupt.edu.cn/wangsiye/zh_CN/index.htm",
+      "portraitUrl": "http://ai.bupt.edu.cn/__local/4/4B/55/A645372F054A2CA3FBEE9985777_14B8E2CA_3B084.jpg",
+      "sourcePageUrl": "http://ai.bupt.edu.cn/szdw/szyl/znxxgcx/4.htm",
+      "officialRosterUrl": "https://ai.bupt.edu.cn/szdw.htm",
+      "profileChecked": false,
+      "decision": "include_new_pi",
+      "reason": "官方人工智能学院名录和个人页确认其为教授、副教授、研究员或可独立招生导师；该单位研究主线属于 AI、数据科学及相关智能计算范围。",
+      "evidenceUrl": "http://ai.bupt.edu.cn/szdw/szyl/znxxgcx/4.htm",
+      "evidenceExcerpt": "智能信息工程系 | 工学博士 · 教授，博士生导师 · 智能信息工程系 · wsy@bupt.edu.cn"
+    },
+    {
+      "officialId": "https://teacher.bupt.edu.cn/wangyumei1/en/index.htm",
+      "name": "望育梅 WANG Yumei",
+      "title": null,
+      "officialSections": [
+        "智能信息工程系"
+      ],
+      "profileUrl": "https://teacher.bupt.edu.cn/wangyumei1/en/index.htm",
+      "portraitUrl": "http://ai.bupt.edu.cn/__local/4/F5/DA/923078DA90327F5795C8B4B95D7_9E1D7B99_12AFF.jpg",
+      "sourcePageUrl": "http://ai.bupt.edu.cn/szdw/szyl/znxxgcx/4.htm",
+      "officialRosterUrl": "https://ai.bupt.edu.cn/szdw.htm",
+      "profileChecked": false,
+      "decision": "include_new_pi",
+      "reason": "官方人工智能学院名录和个人页确认其为教授、副教授、研究员或可独立招生导师；该单位研究主线属于 AI、数据科学及相关智能计算范围。",
+      "evidenceUrl": "http://ai.bupt.edu.cn/szdw/szyl/znxxgcx/4.htm",
+      "evidenceExcerpt": "智能信息工程系 | 北京邮电大学工学博士 · 副教授，硕士生导师 · 智能信息工程系 · ymwang@bupt.edu.cn"
+    },
+    {
+      "officialId": "https://teacher.bupt.edu.cn/wuming/zh_CN/index.htm",
+      "name": "吴 铭 WU Ming",
+      "title": null,
+      "officialSections": [
+        "智能信息工程系"
+      ],
+      "profileUrl": "https://teacher.bupt.edu.cn/wuming/zh_CN/index.htm",
+      "portraitUrl": "http://ai.bupt.edu.cn/__local/F/AF/3B/25A0219FAC2D33A2088346954FD_FF3EB1EE_29F6.jpg",
+      "sourcePageUrl": "http://ai.bupt.edu.cn/szdw/szyl/znxxgcx/4.htm",
+      "officialRosterUrl": "https://ai.bupt.edu.cn/szdw.htm",
+      "profileChecked": false,
+      "decision": "include_new_pi",
+      "reason": "官方人工智能学院名录和个人页确认其为教授、副教授、研究员或可独立招生导师；该单位研究主线属于 AI、数据科学及相关智能计算范围。",
+      "evidenceUrl": "http://ai.bupt.edu.cn/szdw/szyl/znxxgcx/4.htm",
+      "evidenceExcerpt": "智能信息工程系 | 工学博士 · 副教授，硕士生导师 · 美国亚利桑那州立大学访问学者 · 智能信息工程系 · wuming@bupt.edu.cn"
+    },
+    {
+      "officialId": "https://teacher.bupt.edu.cn/wuxiaofei/zh_CN/index.htm",
+      "name": "吴晓非 WU Xiaofei",
+      "title": null,
+      "officialSections": [
+        "智能信息工程系"
+      ],
+      "profileUrl": "https://teacher.bupt.edu.cn/wuxiaofei/zh_CN/index.htm",
+      "portraitUrl": "http://ai.bupt.edu.cn/__local/3/4B/5C/9AEDD2B3AB6C94BEC4DF95BB34B_4EEA4773_17B1C8.jpg",
+      "sourcePageUrl": "http://ai.bupt.edu.cn/szdw/szyl/znxxgcx/4.htm",
+      "officialRosterUrl": "https://ai.bupt.edu.cn/szdw.htm",
+      "profileChecked": false,
+      "decision": "include_new_pi",
+      "reason": "官方人工智能学院名录和个人页确认其为教授、副教授、研究员或可独立招生导师；该单位研究主线属于 AI、数据科学及相关智能计算范围。",
+      "evidenceUrl": "http://ai.bupt.edu.cn/szdw/szyl/znxxgcx/4.htm",
+      "evidenceExcerpt": "智能信息工程系 | 北京邮电大学博士 · 副教授，硕士生导师 · 智能信息工程系 · wuxf@bupt.edu.cn"
+    },
+    {
+      "officialId": "https://teacher.bupt.edu.cn/xiaobo/zh_CN/index.htm",
+      "name": "肖 波 XIAO Bo",
+      "title": null,
+      "officialSections": [
+        "智能信息工程系"
+      ],
+      "profileUrl": "https://teacher.bupt.edu.cn/xiaobo/zh_CN/index.htm",
+      "portraitUrl": "http://ai.bupt.edu.cn/__local/4/0B/C0/2A6EC7A9FC720556DB40DEAB776_99397BC3_3679.jpg",
+      "sourcePageUrl": "http://ai.bupt.edu.cn/szdw/szyl/znxxgcx/4.htm",
+      "officialRosterUrl": "https://ai.bupt.edu.cn/szdw.htm",
+      "profileChecked": false,
+      "decision": "include_new_pi",
+      "reason": "官方人工智能学院名录和个人页确认其为教授、副教授、研究员或可独立招生导师；该单位研究主线属于 AI、数据科学及相关智能计算范围。",
+      "evidenceUrl": "http://ai.bupt.edu.cn/szdw/szyl/znxxgcx/4.htm",
+      "evidenceExcerpt": "智能信息工程系 | 工学博士 · 副教授，博士生导师 · 加拿大温莎大学访问学者 · 智能信息工程系 · xiaobo@bupt.edu.cn"
+    },
+    {
+      "officialId": "xuqianfang@bupt.edu.cn",
+      "name": "徐前方 XU Qianfang",
+      "title": null,
+      "officialSections": [
+        "智能信息工程系"
+      ],
+      "profileUrl": null,
+      "portraitUrl": "http://ai.bupt.edu.cn/__local/9/A0/73/1B1F71CFDA34ACE1590B1BA062E_873FC003_18C83.png",
+      "sourcePageUrl": "http://ai.bupt.edu.cn/szdw/szyl/znxxgcx/3.htm",
+      "officialRosterUrl": "https://ai.bupt.edu.cn/szdw.htm",
+      "profileChecked": false,
+      "decision": "include_new_pi",
+      "reason": "官方人工智能学院名录和个人页确认其为教授、副教授、研究员或可独立招生导师；该单位研究主线属于 AI、数据科学及相关智能计算范围。",
+      "evidenceUrl": "http://ai.bupt.edu.cn/szdw/szyl/znxxgcx/3.htm",
+      "evidenceExcerpt": "智能信息工程系 | 北京邮电大学博士 · 副教授，硕士生导师 · 智能信息工程系 · xuqianfang@bupt.edu.cn"
+    },
+    {
+      "officialId": "https://teacher.bupt.edu.cn/xushibiao/zh_CN/index.htm",
+      "name": "徐士彪 XU Shibiao",
+      "title": null,
+      "officialSections": [
+        "智能信息工程系"
+      ],
+      "profileUrl": "https://teacher.bupt.edu.cn/xushibiao/zh_CN/index.htm",
+      "portraitUrl": "http://ai.bupt.edu.cn/__local/C/D9/C2/E4FE0320C244839E4DE8F71A3F9_B7A848A7_2E24.jpg",
+      "sourcePageUrl": "http://ai.bupt.edu.cn/szdw/szyl/znxxgcx/3.htm",
+      "officialRosterUrl": "https://ai.bupt.edu.cn/szdw.htm",
+      "profileChecked": false,
+      "decision": "include_new_pi",
+      "reason": "官方人工智能学院名录和个人页确认其为教授、副教授、研究员或可独立招生导师；该单位研究主线属于 AI、数据科学及相关智能计算范围。",
+      "evidenceUrl": "http://ai.bupt.edu.cn/szdw/szyl/znxxgcx/3.htm",
+      "evidenceExcerpt": "智能信息工程系 | 中国科学院大学博士 · 教授，博士生导师 · 智能信息工程系 · shibiaoxu@bupt.edu.cn"
+    },
+    {
+      "officialId": "https://teacher.bupt.edu.cn/xuyuran/zh_CN/index.htm",
+      "name": "徐蔚然 XU Weiran",
+      "title": null,
+      "officialSections": [
+        "智能信息工程系"
+      ],
+      "profileUrl": "https://teacher.bupt.edu.cn/xuyuran/zh_CN/index.htm",
+      "portraitUrl": "http://ai.bupt.edu.cn/__local/D/50/5D/998AA079A7A9B21D6B66CD2427E_A5F4DFB0_C707.png",
+      "sourcePageUrl": "http://ai.bupt.edu.cn/szdw/szyl/znxxgcx/3.htm",
+      "officialRosterUrl": "https://ai.bupt.edu.cn/szdw.htm",
+      "profileChecked": false,
+      "decision": "include_new_pi",
+      "reason": "官方人工智能学院名录和个人页确认其为教授、副教授、研究员或可独立招生导师；该单位研究主线属于 AI、数据科学及相关智能计算范围。",
+      "evidenceUrl": "http://ai.bupt.edu.cn/szdw/szyl/znxxgcx/3.htm",
+      "evidenceExcerpt": "智能信息工程系 | 工学博士 · 副教授，博士生导师 · 美国卡内基梅隆大学访问学者 · 智能信息工程系 · xuweiran@bupt.edu.cn"
+    },
+    {
+      "officialId": "https://teacher.bupt.edu.cn/xuwenbo/zh_CN/index.htm",
+      "name": "徐文波 XU Wenbo",
+      "title": null,
+      "officialSections": [
+        "智能信息工程系"
+      ],
+      "profileUrl": "https://teacher.bupt.edu.cn/xuwenbo/zh_CN/index.htm",
+      "portraitUrl": "http://ai.bupt.edu.cn/__local/5/C3/A3/936CB7E338C4CC770B1CFB81D0C_80A1FA64_181C74.jpg",
+      "sourcePageUrl": "http://ai.bupt.edu.cn/szdw/szyl/znxxgcx/3.htm",
+      "officialRosterUrl": "https://ai.bupt.edu.cn/szdw.htm",
+      "profileChecked": false,
+      "decision": "include_new_pi",
+      "reason": "官方人工智能学院名录和个人页确认其为教授、副教授、研究员或可独立招生导师；该单位研究主线属于 AI、数据科学及相关智能计算范围。",
+      "evidenceUrl": "http://ai.bupt.edu.cn/szdw/szyl/znxxgcx/3.htm",
+      "evidenceExcerpt": "智能信息工程系 | 北京邮电大学博士 · 教授，博士生导师 · 智能信息工程系 · xuwb@bupt.edu.cn"
+    },
+    {
+      "officialId": "https://teacher.bupt.edu.cn/xuyajing/zh_CN/index.htm",
+      "name": "徐雅静 XU Yajing",
+      "title": null,
+      "officialSections": [
+        "智能信息工程系"
+      ],
+      "profileUrl": "https://teacher.bupt.edu.cn/xuyajing/zh_CN/index.htm",
+      "portraitUrl": "http://ai.bupt.edu.cn/__local/1/70/CB/831EF2EB7AED1B2DB9E79FF9FA3_E5F8D990_6CEAA.png",
+      "sourcePageUrl": "http://ai.bupt.edu.cn/szdw/szyl/znxxgcx/3.htm",
+      "officialRosterUrl": "https://ai.bupt.edu.cn/szdw.htm",
+      "profileChecked": false,
+      "decision": "include_new_pi",
+      "reason": "官方人工智能学院名录和个人页确认其为教授、副教授、研究员或可独立招生导师；该单位研究主线属于 AI、数据科学及相关智能计算范围。",
+      "evidenceUrl": "http://ai.bupt.edu.cn/szdw/szyl/znxxgcx/3.htm",
+      "evidenceExcerpt": "智能信息工程系 | 北京邮电大学博士 · 副教授，博士生导师 · 智能信息工程系 · xyj@bupt.edu.cn"
+    },
+    {
+      "officialId": "https://teacher.bupt.edu.cn/xuchen/zh_CN/index.htm",
+      "name": "许 晨 XU Chen",
+      "title": null,
+      "officialSections": [
+        "智能信息工程系"
+      ],
+      "profileUrl": "https://teacher.bupt.edu.cn/xuchen/zh_CN/index.htm",
+      "portraitUrl": "http://ai.bupt.edu.cn/__local/8/5A/58/C607CFFE6F822642A33207EFF67_1097CCB1_D9B2.png",
+      "sourcePageUrl": "http://ai.bupt.edu.cn/szdw/szyl/znxxgcx/3.htm",
+      "officialRosterUrl": "https://ai.bupt.edu.cn/szdw.htm",
+      "profileChecked": false,
+      "decision": "include_new_pi",
+      "reason": "官方人工智能学院名录和个人页确认其为教授、副教授、研究员或可独立招生导师；该单位研究主线属于 AI、数据科学及相关智能计算范围。",
+      "evidenceUrl": "http://ai.bupt.edu.cn/szdw/szyl/znxxgcx/3.htm",
+      "evidenceExcerpt": "智能信息工程系 | 北京大学博士 · 副教授，博士生导师 · 智能信息工程系 · chen.xu@bupt.edu.cn"
+    },
+    {
+      "officialId": "xuguiping@bupt.edu.cn",
+      "name": "许桂平 Xu Guiping",
+      "title": null,
+      "officialSections": [
+        "智能信息工程系"
+      ],
+      "profileUrl": null,
+      "portraitUrl": "http://ai.bupt.edu.cn/__local/B/3F/55/1A966718CC10A76F722693E4570_1F8DA6BD_16D1.jpg",
+      "sourcePageUrl": "http://ai.bupt.edu.cn/szdw/szyl/znxxgcx/3.htm",
+      "officialRosterUrl": "https://ai.bupt.edu.cn/szdw.htm",
+      "profileChecked": false,
+      "decision": "excluded_non_pi",
+      "reason": "官方职称为讲师、助理研究员、工程师或同等级非独立岗位，个人页未显示博士/硕士导师或独立招生资格。",
+      "evidenceUrl": "http://ai.bupt.edu.cn/szdw/szyl/znxxgcx/3.htm",
+      "evidenceExcerpt": "智能信息工程系 | 工学硕士 · 讲师 · 智能信息工程系 · xuguiping@bupt.edu.cn"
+    },
+    {
+      "officialId": "https://teacher.bupt.edu.cn/xuwenjun1/zh_CN/index.htm",
+      "name": "许文俊 XU Wenjun",
+      "title": null,
+      "officialSections": [
+        "智能信息工程系"
+      ],
+      "profileUrl": "https://teacher.bupt.edu.cn/xuwenjun1/zh_CN/index.htm",
+      "portraitUrl": "http://ai.bupt.edu.cn/__local/8/54/79/9002DA41CFF465B82EFEFEAD849_41D30996_4D8F9.jpg",
+      "sourcePageUrl": "http://ai.bupt.edu.cn/szdw/szyl/znxxgcx/3.htm",
+      "officialRosterUrl": "https://ai.bupt.edu.cn/szdw.htm",
+      "profileChecked": false,
+      "decision": "include_new_pi",
+      "reason": "官方人工智能学院名录和个人页确认其为教授、副教授、研究员或可独立招生导师；该单位研究主线属于 AI、数据科学及相关智能计算范围。",
+      "evidenceUrl": "http://ai.bupt.edu.cn/szdw/szyl/znxxgcx/3.htm",
+      "evidenceExcerpt": "智能信息工程系 | 北京邮电大学博士 · 教授，博士生导师 · 智能信息工程系 · wjxu@bupt.edu.cn"
+    },
+    {
+      "officialId": "https://teacher.bupt.edu.cn/yanqing/zh_CN/index.htm",
+      "name": "阎 庆 YAN Qing",
+      "title": null,
+      "officialSections": [
+        "智能信息工程系"
+      ],
+      "profileUrl": "https://teacher.bupt.edu.cn/yanqing/zh_CN/index.htm",
+      "portraitUrl": "http://ai.bupt.edu.cn/__local/F/4E/E8/DDB9623C001EA7C2E628827ABB4_781B748B_D839.jpg",
+      "sourcePageUrl": "http://ai.bupt.edu.cn/szdw/szyl/znxxgcx/3.htm",
+      "officialRosterUrl": "https://ai.bupt.edu.cn/szdw.htm",
+      "profileChecked": false,
+      "decision": "excluded_non_pi",
+      "reason": "官方职称为讲师、助理研究员、工程师或同等级非独立岗位，个人页未显示博士/硕士导师或独立招生资格。",
+      "evidenceUrl": "http://ai.bupt.edu.cn/szdw/szyl/znxxgcx/3.htm",
+      "evidenceExcerpt": "智能信息工程系 | 北京邮电大学学士 · 讲师 · 智能信息工程系 · qingyan@bupt.edu.cn"
+    },
+    {
+      "officialId": "https://teacher.bupt.edu.cn/yangjie/zh_CN/index.htm",
+      "name": "杨 洁 YANG Jie",
+      "title": null,
+      "officialSections": [
+        "智能信息工程系"
+      ],
+      "profileUrl": "https://teacher.bupt.edu.cn/yangjie/zh_CN/index.htm",
+      "portraitUrl": "http://ai.bupt.edu.cn/__local/9/44/04/13E14650A6D637982C43DB8EF4D_233D8F2C_691C.jpg",
+      "sourcePageUrl": "http://ai.bupt.edu.cn/szdw/szyl/znxxgcx/3.htm",
+      "officialRosterUrl": "https://ai.bupt.edu.cn/szdw.htm",
+      "profileChecked": false,
+      "decision": "include_new_pi",
+      "reason": "官方人工智能学院名录和个人页确认其为教授、副教授、研究员或可独立招生导师；该单位研究主线属于 AI、数据科学及相关智能计算范围。",
+      "evidenceUrl": "http://ai.bupt.edu.cn/szdw/szyl/znxxgcx/3.htm",
+      "evidenceExcerpt": "智能信息工程系 | 北京邮电大学工学博士 · 教授，博士生导师 · 智能信息工程系 · janeyang@bupt.edu.cn"
+    },
+    {
+      "officialId": "https://teacher.bupt.edu.cn/yangyang1/zh_CN/index.htm",
+      "name": "杨 阳 YANG Yang",
+      "title": null,
+      "officialSections": [
+        "智能信息工程系"
+      ],
+      "profileUrl": "https://teacher.bupt.edu.cn/yangyang1/zh_CN/index.htm",
+      "portraitUrl": "http://ai.bupt.edu.cn/__local/F/3F/2A/9A268643094302A1439E2F38722_FFB3391E_171B6.jpg",
+      "sourcePageUrl": "http://ai.bupt.edu.cn/szdw/szyl/znxxgcx/2.htm",
+      "officialRosterUrl": "https://ai.bupt.edu.cn/szdw.htm",
+      "profileChecked": false,
+      "decision": "include_new_pi",
+      "reason": "官方人工智能学院名录和个人页确认其为教授、副教授、研究员或可独立招生导师；该单位研究主线属于 AI、数据科学及相关智能计算范围。",
+      "evidenceUrl": "http://ai.bupt.edu.cn/szdw/szyl/znxxgcx/2.htm",
+      "evidenceExcerpt": "智能信息工程系 | 工学博士 · 副教授，博士生导师 · 智能信息工程系 · buptyy1015@gmail.com"
+    },
+    {
+      "officialId": "https://teacher.bupt.edu.cn/youyanan/zh_CN/index.htm",
+      "name": "尤亚楠 YOU Yanan",
+      "title": null,
+      "officialSections": [
+        "智能信息工程系"
+      ],
+      "profileUrl": "https://teacher.bupt.edu.cn/youyanan/zh_CN/index.htm",
+      "portraitUrl": "http://ai.bupt.edu.cn/__local/7/B2/E2/88725477C120688C8F325F2D5B4_645483D6_29261C.jpg",
+      "sourcePageUrl": "http://ai.bupt.edu.cn/szdw/szyl/znxxgcx/2.htm",
+      "officialRosterUrl": "https://ai.bupt.edu.cn/szdw.htm",
+      "profileChecked": false,
+      "decision": "include_new_pi",
+      "reason": "官方人工智能学院名录和个人页确认其为教授、副教授、研究员或可独立招生导师；该单位研究主线属于 AI、数据科学及相关智能计算范围。",
+      "evidenceUrl": "http://ai.bupt.edu.cn/szdw/szyl/znxxgcx/2.htm",
+      "evidenceExcerpt": "智能信息工程系 | 北京航空航天大学工学博士 · 副教授，硕士生导师 · 智能信息工程系 · youyanan@bupt.edu.cn"
+    },
+    {
+      "officialId": "yuke@bupt.edu.cn",
+      "name": "禹 可 YU Ke",
+      "title": null,
+      "officialSections": [
+        "智能信息工程系"
+      ],
+      "profileUrl": null,
+      "portraitUrl": "http://ai.bupt.edu.cn/__local/B/52/D2/3CF90AF5F4A6C1D6A0617C9ADFE_64CFD78B_BEC1.jpg",
+      "sourcePageUrl": "http://ai.bupt.edu.cn/szdw/szyl/znxxgcx/2.htm",
+      "officialRosterUrl": "https://ai.bupt.edu.cn/szdw.htm",
+      "profileChecked": false,
+      "decision": "include_new_pi",
+      "reason": "官方人工智能学院名录和个人页确认其为教授、副教授、研究员或可独立招生导师；该单位研究主线属于 AI、数据科学及相关智能计算范围。",
+      "evidenceUrl": "http://ai.bupt.edu.cn/szdw/szyl/znxxgcx/2.htm",
+      "evidenceExcerpt": "智能信息工程系 | 工学博士 · 教授，博士生导师 · 美国伊利诺伊大学芝加哥分校访问学者 · 智能信息工程系 · yuke@bupt.edu.cn"
+    },
+    {
+      "officialId": "bluezb@bupt.edu.cn",
+      "name": "张 彬 ZHANG Bin",
+      "title": null,
+      "officialSections": [
+        "智能信息工程系"
+      ],
+      "profileUrl": null,
+      "portraitUrl": "http://ai.bupt.edu.cn/__local/B/47/F4/331A7720EC5E1B21AB29DC57F3A_93B8A1CA_28409.jpg",
+      "sourcePageUrl": "http://ai.bupt.edu.cn/szdw/szyl/znxxgcx/2.htm",
+      "officialRosterUrl": "https://ai.bupt.edu.cn/szdw.htm",
+      "profileChecked": false,
+      "decision": "include_new_pi",
+      "reason": "官方人工智能学院名录和个人页确认其为教授、副教授、研究员或可独立招生导师；该单位研究主线属于 AI、数据科学及相关智能计算范围。",
+      "evidenceUrl": "http://ai.bupt.edu.cn/szdw/szyl/znxxgcx/2.htm",
+      "evidenceExcerpt": "智能信息工程系 | 北京邮电大学博士 · 副教授，硕士生导师 · 智能信息工程系 · bluezb@bupt.edu.cn"
+    },
+    {
+      "officialId": "https://teacher.bupt.edu.cn/zhangchuang/zh_CN/index.htm",
+      "name": "张 闯 ZHANG Chuang",
+      "title": null,
+      "officialSections": [
+        "智能信息工程系"
+      ],
+      "profileUrl": "https://teacher.bupt.edu.cn/zhangchuang/zh_CN/index.htm",
+      "portraitUrl": "http://ai.bupt.edu.cn/__local/A/67/71/B12589BF3B6128F7A924BB1A963_E0C8F682_17343C.jpg",
+      "sourcePageUrl": "http://ai.bupt.edu.cn/szdw/szyl/znxxgcx/2.htm",
+      "officialRosterUrl": "https://ai.bupt.edu.cn/szdw.htm",
+      "profileChecked": false,
+      "decision": "include_new_pi",
+      "reason": "官方人工智能学院名录和个人页确认其为教授、副教授、研究员或可独立招生导师；该单位研究主线属于 AI、数据科学及相关智能计算范围。",
+      "evidenceUrl": "http://ai.bupt.edu.cn/szdw/szyl/znxxgcx/2.htm",
+      "evidenceExcerpt": "智能信息工程系 | 工学博士 · 教授，博士生导师 · 美国西北大学访问学者 · 智能信息工程系 · zhangchuang@bupt.edu.cn"
+    },
+    {
+      "officialId": "https://teacher.bupt.edu.cn/zhanghonggang/zh_CN/index.htm",
+      "name": "张洪刚 ZHANG Honggang",
+      "title": null,
+      "officialSections": [
+        "智能信息工程系"
+      ],
+      "profileUrl": "https://teacher.bupt.edu.cn/zhanghonggang/zh_CN/index.htm",
+      "portraitUrl": "http://ai.bupt.edu.cn/__local/4/F1/F3/CA01A34F62D1E70008BB19E1B6C_109F0DE5_A268.png",
+      "sourcePageUrl": "http://ai.bupt.edu.cn/szdw/szyl/znxxgcx/2.htm",
+      "officialRosterUrl": "https://ai.bupt.edu.cn/szdw.htm",
+      "profileChecked": false,
+      "decision": "include_new_pi",
+      "reason": "官方人工智能学院名录和个人页确认其为教授、副教授、研究员或可独立招生导师；该单位研究主线属于 AI、数据科学及相关智能计算范围。",
+      "evidenceUrl": "http://ai.bupt.edu.cn/szdw/szyl/znxxgcx/2.htm",
+      "evidenceExcerpt": "智能信息工程系 | 工学博士 · 副教授，博士生导师 · 美国卡内基梅隆大学访问学者 · 智能信息工程系 · zhhg@bupt.edu.cn"
+    },
+    {
+      "officialId": "htzhang@bupt.edu.cn",
+      "name": "张鸿涛 ZHANG Hongtao",
+      "title": null,
+      "officialSections": [
+        "智能信息工程系"
+      ],
+      "profileUrl": null,
+      "portraitUrl": "http://ai.bupt.edu.cn/__local/6/B4/DF/52A982B6D482B97ABD2609F6B03_E7F94FE0_910CB.jpg",
+      "sourcePageUrl": "http://ai.bupt.edu.cn/szdw/szyl/znxxgcx/2.htm",
+      "officialRosterUrl": "https://ai.bupt.edu.cn/szdw.htm",
+      "profileChecked": false,
+      "decision": "include_new_pi",
+      "reason": "官方人工智能学院名录和个人页确认其为教授、副教授、研究员或可独立招生导师；该单位研究主线属于 AI、数据科学及相关智能计算范围。",
+      "evidenceUrl": "http://ai.bupt.edu.cn/szdw/szyl/znxxgcx/2.htm",
+      "evidenceExcerpt": "智能信息工程系 | 北京邮电大学博士 · 教授，博士生导师 · 智能信息工程系 · htzhang@bupt.edu.cn"
+    },
+    {
+      "officialId": "https://teacher.bupt.edu.cn/zhanglin",
+      "name": "张 琳 ZHANG Lin",
+      "title": null,
+      "officialSections": [
+        "智能信息工程系"
+      ],
+      "profileUrl": "https://teacher.bupt.edu.cn/zhanglin",
+      "portraitUrl": "http://ai.bupt.edu.cn/__local/7/76/BD/E17A687A809FC2C5606BDAAEDB3_2A919BB1_4346B.jpg",
+      "sourcePageUrl": "http://ai.bupt.edu.cn/szdw/szyl/znxxgcx/2.htm",
+      "officialRosterUrl": "https://ai.bupt.edu.cn/szdw.htm",
+      "profileChecked": false,
+      "decision": "include_new_pi",
+      "reason": "官方人工智能学院名录和个人页确认其为教授、副教授、研究员或可独立招生导师；该单位研究主线属于 AI、数据科学及相关智能计算范围。",
+      "evidenceUrl": "http://ai.bupt.edu.cn/szdw/szyl/znxxgcx/2.htm",
+      "evidenceExcerpt": "智能信息工程系 | 北京邮电大学工学博士 · 教授，博士生导师 · 智能信息工程系 · Zhanglin@bupt.edu.cn"
+    },
+    {
+      "officialId": "zwl@bupt.edu.cn",
+      "name": "周文莉 ZHOU Wenli",
+      "title": null,
+      "officialSections": [
+        "智能信息工程系"
+      ],
+      "profileUrl": null,
+      "portraitUrl": "http://ai.bupt.edu.cn/__local/7/44/35/A21CC18F662E4AF0F0B7B6A5003_41145A59_3045.jpg",
+      "sourcePageUrl": "http://ai.bupt.edu.cn/szdw/szyl/znxxgcx/2.htm",
+      "officialRosterUrl": "https://ai.bupt.edu.cn/szdw.htm",
+      "profileChecked": false,
+      "decision": "include_new_pi",
+      "reason": "官方人工智能学院名录和个人页确认其为教授、副教授、研究员或可独立招生导师；该单位研究主线属于 AI、数据科学及相关智能计算范围。",
+      "evidenceUrl": "http://ai.bupt.edu.cn/szdw/szyl/znxxgcx/2.htm",
+      "evidenceExcerpt": "智能信息工程系 | 北京邮电大学博士 · 副研究员，硕士生导师 · 智能信息工程系 · zwl@bupt.edu.cn"
+    },
+    {
+      "officialId": "ruixizhou@bupt.edu.cn",
+      "name": "周芮西 ZHOU Ruixi",
+      "title": null,
+      "officialSections": [
+        "智能信息工程系"
+      ],
+      "profileUrl": null,
+      "portraitUrl": "http://ai.bupt.edu.cn/__local/3/C4/1E/35A9ECD783CEBC579837432F50C_4D8246B3_8814.jpg",
+      "sourcePageUrl": "http://ai.bupt.edu.cn/szdw/szyl/znxxgcx/2.htm",
+      "officialRosterUrl": "https://ai.bupt.edu.cn/szdw.htm",
+      "profileChecked": false,
+      "decision": "include_new_pi",
+      "reason": "官方人工智能学院名录和个人页确认其为教授、副教授、研究员或可独立招生导师；该单位研究主线属于 AI、数据科学及相关智能计算范围。",
+      "evidenceUrl": "http://ai.bupt.edu.cn/szdw/szyl/znxxgcx/2.htm",
+      "evidenceExcerpt": "智能信息工程系 | 美国弗吉尼亚大学博士 · 副教授,硕士生导师 · 智能信息工程系 · ruixizhou@bupt.edu.cn"
+    },
+    {
+      "officialId": "https://teacher.bupt.edu.cn/zhukonglin/zh_CN/index.htm",
+      "name": "朱孔林 ZHU Konglin",
+      "title": null,
+      "officialSections": [
+        "智能信息工程系"
+      ],
+      "profileUrl": "https://teacher.bupt.edu.cn/zhukonglin/zh_CN/index.htm",
+      "portraitUrl": "http://ai.bupt.edu.cn/__local/8/E1/A6/7E1417C8E5B2BD56E11F4A97190_5A8F7E90_2A336.jpg",
+      "sourcePageUrl": "http://ai.bupt.edu.cn/szdw/szyl/znxxgcx/1.htm",
+      "officialRosterUrl": "https://ai.bupt.edu.cn/szdw.htm",
+      "profileChecked": false,
+      "decision": "include_new_pi",
+      "reason": "官方人工智能学院名录和个人页确认其为教授、副教授、研究员或可独立招生导师；该单位研究主线属于 AI、数据科学及相关智能计算范围。",
+      "evidenceUrl": "http://ai.bupt.edu.cn/szdw/szyl/znxxgcx/1.htm",
+      "evidenceExcerpt": "智能信息工程系 | 德国哥廷根大学工学博士 · 教授，博士生导师 · 智能信息工程系 · klzhu@bupt.edu.cn"
+    },
+    {
+      "officialId": "https://teacher.bupt.edu.cn/zhuchuang/zh_CN/index.htm",
+      "name": "祝 闯 ZHU Chuang",
+      "title": null,
+      "officialSections": [
+        "智能信息工程系"
+      ],
+      "profileUrl": "https://teacher.bupt.edu.cn/zhuchuang/zh_CN/index.htm",
+      "portraitUrl": "http://ai.bupt.edu.cn/__local/E/D9/DE/7EF71DDCDADA302801B8FBDF1A5_6E220E45_2E64.jpg",
+      "sourcePageUrl": "http://ai.bupt.edu.cn/szdw/szyl/znxxgcx/1.htm",
+      "officialRosterUrl": "https://ai.bupt.edu.cn/szdw.htm",
+      "profileChecked": false,
+      "decision": "include_new_pi",
+      "reason": "官方人工智能学院名录和个人页确认其为教授、副教授、研究员或可独立招生导师；该单位研究主线属于 AI、数据科学及相关智能计算范围。",
+      "evidenceUrl": "http://ai.bupt.edu.cn/szdw/szyl/znxxgcx/1.htm",
+      "evidenceExcerpt": "智能信息工程系 | 北京大学博士 · 副教授，博士生导师 · 智能信息工程系 · czhu@bupt.edu.cn"
+    },
+    {
+      "officialId": "fany@bupt.edu.cn",
+      "name": "范钰 FAN Yu",
+      "title": null,
+      "officialSections": [
+        "智能信息工程系"
+      ],
+      "profileUrl": null,
+      "portraitUrl": "http://ai.bupt.edu.cn/__local/C/24/CF/29026E9AF9C45E9528FFD9E318C_E64AF139_27CCF.png",
+      "sourcePageUrl": "http://ai.bupt.edu.cn/szdw/szyl/znxxgcx/1.htm",
+      "officialRosterUrl": "https://ai.bupt.edu.cn/szdw.htm",
+      "profileChecked": false,
+      "decision": "excluded_non_pi",
+      "reason": "官方名录职类为行政、实验技术、工程、科研助理、博士后或学生，且个人页未显示独立招生或研究组负责人资格。",
+      "evidenceUrl": "http://ai.bupt.edu.cn/szdw/szyl/znxxgcx/1.htm",
+      "evidenceExcerpt": "智能信息工程系 | 北京邮电大学博士 · 博士后 · 智能信息工程系 · fany@bupt.edu.cn"
+    },
+    {
+      "officialId": "biehx@bupt.edu.cn",
+      "name": "别红霞 BIE Hongxia",
+      "title": null,
+      "officialSections": [
+        "智能科学与技术系"
+      ],
+      "profileUrl": null,
+      "portraitUrl": "http://ai.bupt.edu.cn/__local/F/DF/7C/7BD65BF1775A070E0AB411B4896_1AACBAF8_131F3.png",
+      "sourcePageUrl": "http://ai.bupt.edu.cn/szdw/szyl/znkxyjsx.htm",
+      "officialRosterUrl": "https://ai.bupt.edu.cn/szdw.htm",
+      "profileChecked": false,
+      "decision": "include_new_pi",
+      "reason": "官方人工智能学院名录和个人页确认其为教授、副教授、研究员或可独立招生导师；该单位研究主线属于 AI、数据科学及相关智能计算范围。",
+      "evidenceUrl": "http://ai.bupt.edu.cn/szdw/szyl/znkxyjsx.htm",
+      "evidenceExcerpt": "智能科学与技术系 | 工学博士 · 教授，博士生导师 · 智能科学与技术系 · biehx@bupt.edu.cn"
+    },
+    {
+      "officialId": "https://teacher.bupt.edu.cn/cuizhe/zh_CN/index.htm",
+      "name": "崔 哲 CUI Zhe",
+      "title": null,
+      "officialSections": [
+        "智能科学与技术系"
+      ],
+      "profileUrl": "https://teacher.bupt.edu.cn/cuizhe/zh_CN/index.htm",
+      "portraitUrl": "http://ai.bupt.edu.cn/__local/A/11/F0/5B72F97C09E9ECE3F0C34BEDB1F_9CBBBB69_41B4.jpg",
+      "sourcePageUrl": "http://ai.bupt.edu.cn/szdw/szyl/znkxyjsx.htm",
+      "officialRosterUrl": "https://ai.bupt.edu.cn/szdw.htm",
+      "profileChecked": false,
+      "decision": "include_new_pi",
+      "reason": "官方人工智能学院名录和个人页确认其为教授、副教授、研究员或可独立招生导师；该单位研究主线属于 AI、数据科学及相关智能计算范围。",
+      "evidenceUrl": "http://ai.bupt.edu.cn/szdw/szyl/znkxyjsx.htm",
+      "evidenceExcerpt": "智能科学与技术系 | 清华大学博士 · 副教授，博士生导师 · 智能科学与技术系 · cuizhe@bupt.edu.cn"
+    },
+    {
+      "officialId": "dongxuan8811@bupt.edu.cn",
+      "name": "董 譞 DONG Xuan",
+      "title": null,
+      "officialSections": [
+        "智能科学与技术系"
+      ],
+      "profileUrl": null,
+      "portraitUrl": "http://ai.bupt.edu.cn/__local/9/B8/30/52DFEC432C36510257C0F38C361_1D0F6482_12844.png",
+      "sourcePageUrl": "http://ai.bupt.edu.cn/szdw/szyl/znkxyjsx.htm",
+      "officialRosterUrl": "https://ai.bupt.edu.cn/szdw.htm",
+      "profileChecked": false,
+      "decision": "include_new_pi",
+      "reason": "官方人工智能学院名录和个人页确认其为教授、副教授、研究员或可独立招生导师；该单位研究主线属于 AI、数据科学及相关智能计算范围。",
+      "evidenceUrl": "http://ai.bupt.edu.cn/szdw/szyl/znkxyjsx.htm",
+      "evidenceExcerpt": "智能科学与技术系 | 清华大学博士 · 副教授，博士生导师 · 智能科学与技术系 · dongxuan8811@bupt.edu.cn"
+    },
+    {
+      "officialId": "https://teacher.bupt.edu.cn/ffx/zh_CN/index.htm",
+      "name": "冯方向 FENG Fangxiang",
+      "title": null,
+      "officialSections": [
+        "智能科学与技术系"
+      ],
+      "profileUrl": "https://teacher.bupt.edu.cn/ffx/zh_CN/index.htm",
+      "portraitUrl": "http://ai.bupt.edu.cn/__local/3/1F/C1/26B08C902726F8B145E6E8BCD63_FD443194_1F5D.jpg",
+      "sourcePageUrl": "http://ai.bupt.edu.cn/szdw/szyl/znkxyjsx.htm",
+      "officialRosterUrl": "https://ai.bupt.edu.cn/szdw.htm",
+      "profileChecked": false,
+      "decision": "include_new_pi",
+      "reason": "官方人工智能学院名录和个人页确认其为教授、副教授、研究员或可独立招生导师；该单位研究主线属于 AI、数据科学及相关智能计算范围。",
+      "evidenceUrl": "http://ai.bupt.edu.cn/szdw/szyl/znkxyjsx.htm",
+      "evidenceExcerpt": "智能科学与技术系 | 北京邮电大学博士 · 副教授，硕士生导师 · 智能科学与技术系 · fxfeng@bupt.edu.cn"
+    },
+    {
+      "officialId": "qfang@bupt.edu.cn",
+      "name": "方 全 FANG Quan",
+      "title": null,
+      "officialSections": [
+        "智能科学与技术系"
+      ],
+      "profileUrl": null,
+      "portraitUrl": "http://ai.bupt.edu.cn/__local/B/E7/44/781D67B4CB6057487E96F47A60C_9BBAFF14_1C9B6.png",
+      "sourcePageUrl": "http://ai.bupt.edu.cn/szdw/szyl/znkxyjsx.htm",
+      "officialRosterUrl": "https://ai.bupt.edu.cn/szdw.htm",
+      "profileChecked": false,
+      "decision": "include_new_pi",
+      "reason": "官方人工智能学院名录和个人页确认其为教授、副教授、研究员或可独立招生导师；该单位研究主线属于 AI、数据科学及相关智能计算范围。",
+      "evidenceUrl": "http://ai.bupt.edu.cn/szdw/szyl/znkxyjsx.htm",
+      "evidenceExcerpt": "智能科学与技术系 | 中国科学院大学博士 · 特聘研究员，博士生导师 · 智能科学与技术系 · qfang@bupt.edu.cn"
+    },
+    {
+      "officialId": "fangbin1120@bupt.edu.cn",
+      "name": "方 斌 FANG Bin",
+      "title": null,
+      "officialSections": [
+        "智能科学与技术系"
+      ],
+      "profileUrl": null,
+      "portraitUrl": "http://ai.bupt.edu.cn/__local/5/D3/9E/A53455F2A3244733F391DF1527C_71FC865D_3DA2.jpg",
+      "sourcePageUrl": "http://ai.bupt.edu.cn/szdw/szyl/znkxyjsx.htm",
+      "officialRosterUrl": "https://ai.bupt.edu.cn/szdw.htm",
+      "profileChecked": false,
+      "decision": "include_new_pi",
+      "reason": "官方人工智能学院名录和个人页确认其为教授、副教授、研究员或可独立招生导师；该单位研究主线属于 AI、数据科学及相关智能计算范围。",
+      "evidenceUrl": "http://ai.bupt.edu.cn/szdw/szyl/znkxyjsx.htm",
+      "evidenceExcerpt": "智能科学与技术系 | 北京航空航天大学博士 · 教授，博士生导师 · 智能科学与技术 · fangbin1120@bupt.edu.cn"
+    },
+    {
+      "officialId": "yingming.gao@bupt.edu.cn",
+      "name": "高迎明 GAO Yingming",
+      "title": null,
+      "officialSections": [
+        "智能科学与技术系"
+      ],
+      "profileUrl": null,
+      "portraitUrl": "http://ai.bupt.edu.cn/__local/A/B3/CC/E74D70364633D0D669611EE8453_F62E4575_113FA.jpg",
+      "sourcePageUrl": "http://ai.bupt.edu.cn/szdw/szyl/znkxyjsx.htm",
+      "officialRosterUrl": "https://ai.bupt.edu.cn/szdw.htm",
+      "profileChecked": false,
+      "decision": "excluded_non_pi",
+      "reason": "官方职称为讲师、助理研究员、工程师或同等级非独立岗位，个人页未显示博士/硕士导师或独立招生资格。",
+      "evidenceUrl": "http://ai.bupt.edu.cn/szdw/szyl/znkxyjsx.htm",
+      "evidenceExcerpt": "智能科学与技术系 | 德累斯顿工业大学博士 · 讲师 · 智能科学与技术系 · yingming.gao@bupt.edu.cn"
+    },
+    {
+      "officialId": "di.guo@bupt.edu.cn",
+      "name": "郭 迪 GUO Di",
+      "title": null,
+      "officialSections": [
+        "智能科学与技术系"
+      ],
+      "profileUrl": null,
+      "portraitUrl": "http://ai.bupt.edu.cn/__local/7/26/26/402EEF24CB3B9F3B03BEC58C12D_46A2517A_2C0AC.jpg",
+      "sourcePageUrl": "http://ai.bupt.edu.cn/szdw/szyl/znkxyjsx.htm",
+      "officialRosterUrl": "https://ai.bupt.edu.cn/szdw.htm",
+      "profileChecked": false,
+      "decision": "include_new_pi",
+      "reason": "官方人工智能学院名录和个人页确认其为教授、副教授、研究员或可独立招生导师；该单位研究主线属于 AI、数据科学及相关智能计算范围。",
+      "evidenceUrl": "http://ai.bupt.edu.cn/szdw/szyl/znkxyjsx.htm",
+      "evidenceExcerpt": "智能科学与技术系 | 清华大学博士 · 教授，博士生导师 · 智能科学与技术系 · di.guo@bupt.edu.cn"
+    },
+    {
+      "officialId": "https://teacher.bupt.edu.cn/zhaofenghe/zh_CN/index.htm",
+      "name": "何召锋 HE Zhaofeng",
+      "title": null,
+      "officialSections": [
+        "智能科学与技术系"
+      ],
+      "profileUrl": "https://teacher.bupt.edu.cn/zhaofenghe/zh_CN/index.htm",
+      "portraitUrl": "http://ai.bupt.edu.cn/__local/B/73/82/E050CC64CE4ED86B9D867D7FB55_3E380C41_2B16.jpg",
+      "sourcePageUrl": "http://ai.bupt.edu.cn/szdw/szyl/znkxyjsx.htm",
+      "officialRosterUrl": "https://ai.bupt.edu.cn/szdw.htm",
+      "profileChecked": false,
+      "decision": "include_new_pi",
+      "reason": "官方人工智能学院名录和个人页确认其为教授、副教授、研究员或可独立招生导师；该单位研究主线属于 AI、数据科学及相关智能计算范围。",
+      "evidenceUrl": "http://ai.bupt.edu.cn/szdw/szyl/znkxyjsx.htm",
+      "evidenceExcerpt": "智能科学与技术系 | 工学博士 · 教授，博士生导师 · 智能科学与技术系 · zhaofenghe@bupt.edu.cn"
+    },
+    {
+      "officialId": "ying.huang@bupt.edu.cn",
+      "name": "黄 樱 HUANG Ying",
+      "title": null,
+      "officialSections": [
+        "智能科学与技术系"
+      ],
+      "profileUrl": null,
+      "portraitUrl": "http://ai.bupt.edu.cn/__local/A/E2/51/277A592EF6CE67D3FE1247DAD39_52E012A4_600B.jpg",
+      "sourcePageUrl": "http://ai.bupt.edu.cn/szdw/szyl/znkxyjsx.htm",
+      "officialRosterUrl": "https://ai.bupt.edu.cn/szdw.htm",
+      "profileChecked": false,
+      "decision": "excluded_non_pi",
+      "reason": "官方职称为讲师、助理研究员、工程师或同等级非独立岗位，个人页未显示博士/硕士导师或独立招生资格。",
+      "evidenceUrl": "http://ai.bupt.edu.cn/szdw/szyl/znkxyjsx.htm",
+      "evidenceExcerpt": "智能科学与技术系 | 工学博士 · 讲师 · 智能科学与技术系 · ying.huang@bupt.edu.cn"
+    },
+    {
+      "officialId": "hanj@bupt.edu.cn",
+      "name": "韩 晶 HAN Jing",
+      "title": null,
+      "officialSections": [
+        "智能科学与技术系"
+      ],
+      "profileUrl": null,
+      "portraitUrl": "http://ai.bupt.edu.cn/__local/3/57/C2/1D00ED1404879DC54039127ECC0_1A0BC096_1531F7.jpg",
+      "sourcePageUrl": "http://ai.bupt.edu.cn/szdw/szyl/znkxyjsx/5.htm",
+      "officialRosterUrl": "https://ai.bupt.edu.cn/szdw.htm",
+      "profileChecked": false,
+      "decision": "include_new_pi",
+      "reason": "官方人工智能学院名录和个人页确认其为教授、副教授、研究员或可独立招生导师；该单位研究主线属于 AI、数据科学及相关智能计算范围。",
+      "evidenceUrl": "http://ai.bupt.edu.cn/szdw/szyl/znkxyjsx/5.htm",
+      "evidenceExcerpt": "智能科学与技术系 | 北京大学博士 · 预聘助理教授，硕士生导师 · 智能科学与技术系 · hanj@bupt.edu.cn"
+    },
+    {
+      "officialId": "jiangzhuqing@bupt.edu.cn",
+      "name": "姜竹青 JIANG Zhuqing",
+      "title": null,
+      "officialSections": [
+        "智能科学与技术系"
+      ],
+      "profileUrl": null,
+      "portraitUrl": "http://ai.bupt.edu.cn/__local/4/29/EC/63E2F8CC5B00125A4E1F7E7EB64_3180F1EA_2EC9.jpg",
+      "sourcePageUrl": "http://ai.bupt.edu.cn/szdw/szyl/znkxyjsx/5.htm",
+      "officialRosterUrl": "https://ai.bupt.edu.cn/szdw.htm",
+      "profileChecked": false,
+      "decision": "include_new_pi",
+      "reason": "官方人工智能学院名录和个人页确认其为教授、副教授、研究员或可独立招生导师；该单位研究主线属于 AI、数据科学及相关智能计算范围。",
+      "evidenceUrl": "http://ai.bupt.edu.cn/szdw/szyl/znkxyjsx/5.htm",
+      "evidenceExcerpt": "智能科学与技术系 | 北京邮电大学博士 · 副教授，博士生导师 · 麦吉尔大学访问学者 · 智能科学与技术系 · jiangzhuqing@bupt.edu.cn"
+    },
+    {
+      "officialId": "qicheng.lao@bupt.edu.cn",
+      "name": "劳琪成 Lao Qicheng",
+      "title": null,
+      "officialSections": [
+        "智能科学与技术系"
+      ],
+      "profileUrl": null,
+      "portraitUrl": "http://ai.bupt.edu.cn/__local/9/75/67/68AF8B6B3A3786A84213A2C6B35_8721947E_2BC8E.jpg",
+      "sourcePageUrl": "http://ai.bupt.edu.cn/szdw/szyl/znkxyjsx/5.htm",
+      "officialRosterUrl": "https://ai.bupt.edu.cn/szdw.htm",
+      "profileChecked": false,
+      "decision": "include_new_pi",
+      "reason": "官方人工智能学院名录和个人页确认其为教授、副教授、研究员或可独立招生导师；该单位研究主线属于 AI、数据科学及相关智能计算范围。",
+      "evidenceUrl": "http://ai.bupt.edu.cn/szdw/szyl/znkxyjsx/5.htm",
+      "evidenceExcerpt": "智能科学与技术系 | 工学博士 · 特聘研究员，博士生导师 · 智能科学与技术系 · qicheng.lao@bupt.edu.cn"
+    },
+    {
+      "officialId": "https://teacher.bupt.edu.cn/lilei/zh_CN/index.htm",
+      "name": "李 蕾 LI Lei",
+      "title": null,
+      "officialSections": [
+        "智能科学与技术系"
+      ],
+      "profileUrl": "https://teacher.bupt.edu.cn/lilei/zh_CN/index.htm",
+      "portraitUrl": "http://ai.bupt.edu.cn/__local/A/4E/72/6B75699337684BB402FE9A14002_5B93BBDF_25AB4.jpg",
+      "sourcePageUrl": "http://ai.bupt.edu.cn/szdw/szyl/znkxyjsx/5.htm",
+      "officialRosterUrl": "https://ai.bupt.edu.cn/szdw.htm",
+      "profileChecked": false,
+      "decision": "include_new_pi",
+      "reason": "官方人工智能学院名录和个人页确认其为教授、副教授、研究员或可独立招生导师；该单位研究主线属于 AI、数据科学及相关智能计算范围。",
+      "evidenceUrl": "http://ai.bupt.edu.cn/szdw/szyl/znkxyjsx/5.htm",
+      "evidenceExcerpt": "智能科学与技术系 | 工学博士 · 教授，博士生导师 · 智能科学与技术系 · leili@bupt.edu.cn"
+    },
+    {
+      "officialId": "http://ai.bupt.edu.cn/szdw/szyl/znkxyjsx/5.htm#row-5",
+      "name": "刘 杰 LIU Jie",
+      "title": null,
+      "officialSections": [
+        "智能科学与技术系"
+      ],
+      "profileUrl": null,
+      "portraitUrl": "http://ai.bupt.edu.cn/__local/7/D0/CB/701FED07503E64529443C698153_9818CBE3_20D43.png",
+      "sourcePageUrl": "http://ai.bupt.edu.cn/szdw/szyl/znkxyjsx/5.htm",
+      "officialRosterUrl": "https://ai.bupt.edu.cn/szdw.htm",
+      "profileChecked": false,
+      "decision": "include_new_pi",
+      "reason": "官方人工智能学院名录和个人页确认其为教授、副教授、研究员或可独立招生导师；该单位研究主线属于 AI、数据科学及相关智能计算范围。",
+      "evidenceUrl": "http://ai.bupt.edu.cn/szdw/szyl/znkxyjsx/5.htm",
+      "evidenceExcerpt": "智能科学与技术系 | 工学博士 · 研究员，博士生导师 · 智能科学与技术系 · AILJ @bupt.edu.cn"
+    },
+    {
+      "officialId": "https://teacher.bupt.edu.cn/lipeipei/zh_CN/index.htm",
+      "name": "李佩佩 LI Peipei",
+      "title": null,
+      "officialSections": [
+        "智能科学与技术系"
+      ],
+      "profileUrl": "https://teacher.bupt.edu.cn/lipeipei/zh_CN/index.htm",
+      "portraitUrl": "http://ai.bupt.edu.cn/__local/2/B6/EC/832B6D72FBC628AA88FD84C9A4C_1E118EE1_147EB.png",
+      "sourcePageUrl": "http://ai.bupt.edu.cn/szdw/szyl/znkxyjsx/5.htm",
+      "officialRosterUrl": "https://ai.bupt.edu.cn/szdw.htm",
+      "profileChecked": false,
+      "decision": "include_new_pi",
+      "reason": "官方人工智能学院名录和个人页确认其为教授、副教授、研究员或可独立招生导师；该单位研究主线属于 AI、数据科学及相关智能计算范围。",
+      "evidenceUrl": "http://ai.bupt.edu.cn/szdw/szyl/znkxyjsx/5.htm",
+      "evidenceExcerpt": "智能科学与技术系 | 中国科学院大学自动化研究所博士 · 副教授，博士生导师 · 智能科学与技术系 · lipeipei@bupt.edu.cn"
+    },
+    {
+      "officialId": "https://teacher.bupt.edu.cn/liruifan/zh_CN/index.htm",
+      "name": "李睿凡 LI Ruifan",
+      "title": null,
+      "officialSections": [
+        "智能科学与技术系"
+      ],
+      "profileUrl": "https://teacher.bupt.edu.cn/liruifan/zh_CN/index.htm",
+      "portraitUrl": "http://ai.bupt.edu.cn/__local/A/B1/D8/D06159B9FA2F012FB14EDB40ECC_6BE6630A_E362.png",
+      "sourcePageUrl": "http://ai.bupt.edu.cn/szdw/szyl/znkxyjsx/5.htm",
+      "officialRosterUrl": "https://ai.bupt.edu.cn/szdw.htm",
+      "profileChecked": false,
+      "decision": "include_new_pi",
+      "reason": "官方人工智能学院名录和个人页确认其为教授、副教授、研究员或可独立招生导师；该单位研究主线属于 AI、数据科学及相关智能计算范围。",
+      "evidenceUrl": "http://ai.bupt.edu.cn/szdw/szyl/znkxyjsx/5.htm",
+      "evidenceExcerpt": "智能科学与技术系 | 博士 · 副教授，博士生导师 · 南加州大学访问学者 · 智能科学与技术系 · rfli@bupt.edu.cn"
+    },
+    {
+      "officialId": "https://teacher.bupt.edu.cn/lishaosheng/zh_CN/index.htm",
+      "name": "李绍胜 LI Shaosheng",
+      "title": null,
+      "officialSections": [
+        "智能科学与技术系"
+      ],
+      "profileUrl": "https://teacher.bupt.edu.cn/lishaosheng/zh_CN/index.htm",
+      "portraitUrl": "http://ai.bupt.edu.cn/__local/8/2A/94/3D2CCF61B59D1F7B2B75BF16144_465D6EA0_20DD.jpg",
+      "sourcePageUrl": "http://ai.bupt.edu.cn/szdw/szyl/znkxyjsx/5.htm",
+      "officialRosterUrl": "https://ai.bupt.edu.cn/szdw.htm",
+      "profileChecked": false,
+      "decision": "include_new_pi",
+      "reason": "官方人工智能学院名录和个人页确认其为教授、副教授、研究员或可独立招生导师；该单位研究主线属于 AI、数据科学及相关智能计算范围。",
+      "evidenceUrl": "http://ai.bupt.edu.cn/szdw/szyl/znkxyjsx/5.htm",
+      "evidenceExcerpt": "智能科学与技术系 | 工学博士 · 教授，博士生导师 · 智能科学与技术系 · lss@bupt.edu.cn"
+    },
+    {
+      "officialId": "https://teacher.bupt.edu.cn/liya/zh_CN/index.htm",
+      "name": "李雅",
+      "title": null,
+      "officialSections": [
+        "智能科学与技术系"
+      ],
+      "profileUrl": "https://teacher.bupt.edu.cn/liya/zh_CN/index.htm",
+      "portraitUrl": "http://ai.bupt.edu.cn/__local/7/E5/62/87E00F1A08F654F96291F44BB03_BC311829_515D.jpg",
+      "sourcePageUrl": "http://ai.bupt.edu.cn/szdw/szyl/znkxyjsx/5.htm",
+      "officialRosterUrl": "https://ai.bupt.edu.cn/szdw.htm",
+      "profileChecked": false,
+      "decision": "included_existing",
+      "atlasPersonId": "ya-li-bupt",
+      "reason": "图谱已有同一人物 ya-li-bupt；官方名录/个人页确认其当前属于北京邮电大学人工智能学院。",
+      "evidenceUrl": "http://ai.bupt.edu.cn/szdw/szyl/znkxyjsx/5.htm",
+      "evidenceExcerpt": "智能科学与技术系 | 工学博士 · 教授，博士生导师 · 日本东京大学访问学者 · 智能科学与技术系 · yli01@bupt.edu.cn"
+    },
+    {
+      "officialId": "liuyb@bupt.edu.cn",
+      "name": "刘咏彬 LIU Yongbin",
+      "title": null,
+      "officialSections": [
+        "智能科学与技术系"
+      ],
+      "profileUrl": null,
+      "portraitUrl": "http://ai.bupt.edu.cn/__local/C/D2/ED/AEE695EA614483431D8EED1BFDE_5ADAEEE6_10AA40.jpg",
+      "sourcePageUrl": "http://ai.bupt.edu.cn/szdw/szyl/znkxyjsx/5.htm",
+      "officialRosterUrl": "https://ai.bupt.edu.cn/szdw.htm",
+      "profileChecked": false,
+      "decision": "excluded_non_pi",
+      "reason": "官方职称为讲师、助理研究员、工程师或同等级非独立岗位，个人页未显示博士/硕士导师或独立招生资格。",
+      "evidenceUrl": "http://ai.bupt.edu.cn/szdw/szyl/znkxyjsx/5.htm",
+      "evidenceExcerpt": "智能科学与技术系 | 北京邮电大学硕士 · 讲师 · 智能科学与技术系 · liuyb@bupt.edu.cn"
+    },
+    {
+      "officialId": "https://teacher.bupt.edu.cn/lupeng/zh_CN/index.htm",
+      "name": "鲁 鹏 LU Peng",
+      "title": null,
+      "officialSections": [
+        "智能科学与技术系"
+      ],
+      "profileUrl": "https://teacher.bupt.edu.cn/lupeng/zh_CN/index.htm",
+      "portraitUrl": "http://ai.bupt.edu.cn/__local/D/03/8A/F7389A85E7C15D6ED968DE78071_7C697A62_CA03.jpg",
+      "sourcePageUrl": "http://ai.bupt.edu.cn/szdw/szyl/znkxyjsx/4.htm",
+      "officialRosterUrl": "https://ai.bupt.edu.cn/szdw.htm",
+      "profileChecked": false,
+      "decision": "include_new_pi",
+      "reason": "官方人工智能学院名录和个人页确认其为教授、副教授、研究员或可独立招生导师；该单位研究主线属于 AI、数据科学及相关智能计算范围。",
+      "evidenceUrl": "http://ai.bupt.edu.cn/szdw/szyl/znkxyjsx/4.htm",
+      "evidenceExcerpt": "智能科学与技术系 | 中科院自动化所博士 · 副教授，博士生导师 · 智能科学与技术系 · lupeng@bupt.edu.cn"
+    },
+    {
+      "officialId": "https://teacher.bupt.edu.cn/menaidong/zh_CN/index.htm",
+      "name": "门爱东 MEN Aidong",
+      "title": null,
+      "officialSections": [
+        "智能科学与技术系"
+      ],
+      "profileUrl": "https://teacher.bupt.edu.cn/menaidong/zh_CN/index.htm",
+      "portraitUrl": "http://ai.bupt.edu.cn/__local/E/2A/87/0468ACEC57E843D637615F23B5C_FE650881_6CA8.jpg",
+      "sourcePageUrl": "http://ai.bupt.edu.cn/szdw/szyl/znkxyjsx/4.htm",
+      "officialRosterUrl": "https://ai.bupt.edu.cn/szdw.htm",
+      "profileChecked": false,
+      "decision": "include_new_pi",
+      "reason": "官方人工智能学院名录和个人页确认其为教授、副教授、研究员或可独立招生导师；该单位研究主线属于 AI、数据科学及相关智能计算范围。",
+      "evidenceUrl": "http://ai.bupt.edu.cn/szdw/szyl/znkxyjsx/4.htm",
+      "evidenceExcerpt": "智能科学与技术系 | 北京邮电大学博士 · 教授，博士生导师 · 智能科学与技术系 · menad@bupt.edu.cn"
+    },
+    {
+      "officialId": "bamboo@bupt.edu.cn",
+      "name": "孟 竹 MENG Zhu",
+      "title": null,
+      "officialSections": [
+        "智能科学与技术系"
+      ],
+      "profileUrl": null,
+      "portraitUrl": "http://ai.bupt.edu.cn/__local/A/7D/E6/456AF3AEA2D359D0ECA3348FF3B_49462BF2_23A59.png",
+      "sourcePageUrl": "http://ai.bupt.edu.cn/szdw/szyl/znkxyjsx/4.htm",
+      "officialRosterUrl": "https://ai.bupt.edu.cn/szdw.htm",
+      "profileChecked": false,
+      "decision": "include_new_pi",
+      "reason": "官方人工智能学院名录和个人页确认其为教授、副教授、研究员或可独立招生导师；该单位研究主线属于 AI、数据科学及相关智能计算范围。",
+      "evidenceUrl": "http://ai.bupt.edu.cn/szdw/szyl/znkxyjsx/4.htm",
+      "evidenceExcerpt": "智能科学与技术系 | 北京邮电大学博士 · 副教授，硕士生导师 · 智能科学与技术系 · bamboo@bupt.edu.cn"
+    },
+    {
+      "officialId": "minren@bupt.edu.cn",
+      "name": "任 民 REN Min",
+      "title": null,
+      "officialSections": [
+        "智能科学与技术系"
+      ],
+      "profileUrl": null,
+      "portraitUrl": "http://ai.bupt.edu.cn/__local/4/39/0B/8148B6FD54C2FA3AE9CE4D2FF51_7F429F9C_38E4.jpg",
+      "sourcePageUrl": "http://ai.bupt.edu.cn/szdw/szyl/znkxyjsx/4.htm",
+      "officialRosterUrl": "https://ai.bupt.edu.cn/szdw.htm",
+      "profileChecked": false,
+      "decision": "include_new_pi",
+      "reason": "官方人工智能学院名录和个人页确认其为教授、副教授、研究员或可独立招生导师；该单位研究主线属于 AI、数据科学及相关智能计算范围。",
+      "evidenceUrl": "http://ai.bupt.edu.cn/szdw/szyl/znkxyjsx/4.htm",
+      "evidenceExcerpt": "智能科学与技术系 | 中国科学院大学博士 · 预聘副教授，博士生导师 · 智能科学与技术系 · minren@bupt.edu.cn"
+    },
+    {
+      "officialId": "sufang@bupt.edu.cn",
+      "name": "苏 放 SU Fang",
+      "title": null,
+      "officialSections": [
+        "智能科学与技术系"
+      ],
+      "profileUrl": null,
+      "portraitUrl": "http://ai.bupt.edu.cn/__local/B/A1/50/1972BED8626E955C0135F17CBDD_7D277A4D_615F.jpg",
+      "sourcePageUrl": "http://ai.bupt.edu.cn/szdw/szyl/znkxyjsx/4.htm",
+      "officialRosterUrl": "https://ai.bupt.edu.cn/szdw.htm",
+      "profileChecked": false,
+      "decision": "include_new_pi",
+      "reason": "官方人工智能学院名录和个人页确认其为教授、副教授、研究员或可独立招生导师；该单位研究主线属于 AI、数据科学及相关智能计算范围。",
+      "evidenceUrl": "http://ai.bupt.edu.cn/szdw/szyl/znkxyjsx/4.htm",
+      "evidenceExcerpt": "智能科学与技术系 | 北京邮电大学博士 · 副教授，硕士生导师 · 智能科学与技术系 · sufang@bupt.edu.cn"
+    },
+    {
+      "officialId": "https://teacher.bupt.edu.cn/sufei/zh_CN/index.htm",
+      "name": "苏 菲 SU Fei",
+      "title": null,
+      "officialSections": [
+        "智能科学与技术系"
+      ],
+      "profileUrl": "https://teacher.bupt.edu.cn/sufei/zh_CN/index.htm",
+      "portraitUrl": "http://ai.bupt.edu.cn/__local/5/B1/55/F85B83C1AB6558EF4D73BD094BE_226C307B_46AC.jpg",
+      "sourcePageUrl": "http://ai.bupt.edu.cn/szdw/szyl/znkxyjsx/4.htm",
+      "officialRosterUrl": "https://ai.bupt.edu.cn/szdw.htm",
+      "profileChecked": false,
+      "decision": "include_new_pi",
+      "reason": "官方人工智能学院名录和个人页确认其为教授、副教授、研究员或可独立招生导师；该单位研究主线属于 AI、数据科学及相关智能计算范围。",
+      "evidenceUrl": "http://ai.bupt.edu.cn/szdw/szyl/znkxyjsx/4.htm",
+      "evidenceExcerpt": "智能科学与技术系 | 工学博士 · 教授，博士生导师 · 美国卡内基梅隆大学访问学者 · 智能科学与技术系 · sufei@bupt.edu.cn"
+    },
+    {
+      "officialId": "https://teacher.bupt.edu.cn/susen/zh_CN/index.htm",
+      "name": "苏 森 SU Sen",
+      "title": null,
+      "officialSections": [
+        "智能科学与技术系"
+      ],
+      "profileUrl": "https://teacher.bupt.edu.cn/susen/zh_CN/index.htm",
+      "portraitUrl": "http://ai.bupt.edu.cn/__local/3/FA/8E/A3AD8F2EAFBA16F1FD70EA63FA6_E62E83FF_5FEE.jpg",
+      "sourcePageUrl": "http://ai.bupt.edu.cn/szdw/szyl/znkxyjsx/4.htm",
+      "officialRosterUrl": "https://ai.bupt.edu.cn/szdw.htm",
+      "profileChecked": false,
+      "decision": "include_new_pi",
+      "reason": "官方人工智能学院名录和个人页确认其为教授、副教授、研究员或可独立招生导师；该单位研究主线属于 AI、数据科学及相关智能计算范围。",
+      "evidenceUrl": "http://ai.bupt.edu.cn/szdw/szyl/znkxyjsx/4.htm",
+      "evidenceExcerpt": "智能科学与技术系 | 工学博士 · 教授，博士生导师 · 智能科学与技术系 · susen@bupt.edu.cn"
+    },
+    {
+      "officialId": "muyi.sun@bupt.edu.cn",
+      "name": "孙沐毅 SUN Muyi",
+      "title": null,
+      "officialSections": [
+        "智能科学与技术系"
+      ],
+      "profileUrl": null,
+      "portraitUrl": "http://ai.bupt.edu.cn/__local/F/9E/23/5CF74BAC0A6B16FC06D29E016EE_3EC4C6BE_10983A.png",
+      "sourcePageUrl": "http://ai.bupt.edu.cn/szdw/szyl/znkxyjsx/4.htm",
+      "officialRosterUrl": "https://ai.bupt.edu.cn/szdw.htm",
+      "profileChecked": false,
+      "decision": "include_new_pi",
+      "reason": "官方人工智能学院名录和个人页确认其为教授、副教授、研究员或可独立招生导师；该单位研究主线属于 AI、数据科学及相关智能计算范围。",
+      "evidenceUrl": "http://ai.bupt.edu.cn/szdw/szyl/znkxyjsx/4.htm",
+      "evidenceExcerpt": "智能科学与技术系 | 工学博士 · 副教授，硕士生导师 · 智能科学与技术系 · muyi.sun@bupt.edu.cn"
+    },
+    {
+      "officialId": "qsong@bupt.edu.cn",
+      "name": "宋琦Song Qi",
+      "title": null,
+      "officialSections": [
+        "智能科学与技术系"
+      ],
+      "profileUrl": null,
+      "portraitUrl": "http://ai.bupt.edu.cn/__local/9/D6/89/F6ADDCB2F7E31EA13402C80284A_E50DEB73_3F13.jpg",
+      "sourcePageUrl": "http://ai.bupt.edu.cn/szdw/szyl/znkxyjsx/4.htm",
+      "officialRosterUrl": "https://ai.bupt.edu.cn/szdw.htm",
+      "profileChecked": false,
+      "decision": "include_new_pi",
+      "reason": "官方人工智能学院名录和个人页确认其为教授、副教授、研究员或可独立招生导师；该单位研究主线属于 AI、数据科学及相关智能计算范围。",
+      "evidenceUrl": "http://ai.bupt.edu.cn/szdw/szyl/znkxyjsx/4.htm",
+      "evidenceExcerpt": "智能科学与技术系 | 北京交通大学博士 · 加州理工学院 联合培养博士 · 副教授，博士生导师 · 智能控制系 · qsong@bupt.edu.cn"
+    },
+    {
+      "officialId": "https://teacher.bupt.edu.cn/tanyongmei/zh_CN/index.htm",
+      "name": "谭咏梅 TAN Yongmei",
+      "title": null,
+      "officialSections": [
+        "智能科学与技术系"
+      ],
+      "profileUrl": "https://teacher.bupt.edu.cn/tanyongmei/zh_CN/index.htm",
+      "portraitUrl": "http://ai.bupt.edu.cn/__local/2/A1/99/21844E0079A0DA96CDD2340F202_FABF73DD_8E2.jpg",
+      "sourcePageUrl": "http://ai.bupt.edu.cn/szdw/szyl/znkxyjsx/4.htm",
+      "officialRosterUrl": "https://ai.bupt.edu.cn/szdw.htm",
+      "profileChecked": false,
+      "decision": "include_new_pi",
+      "reason": "官方人工智能学院名录和个人页确认其为教授、副教授、研究员或可独立招生导师；该单位研究主线属于 AI、数据科学及相关智能计算范围。",
+      "evidenceUrl": "http://ai.bupt.edu.cn/szdw/szyl/znkxyjsx/4.htm",
+      "evidenceExcerpt": "智能科学与技术系 | 工学博士 · 副教授，硕士生导师 · 美国南加州大学访问学者 · 智能科学与技术系 · ymtan@bupt.edu.cn"
+    },
+    {
+      "officialId": "https://teacher.bupt.edu.cn/wangxiaojie/zh_CN/index.htm",
+      "name": "王小捷 WANG Xiaojie",
+      "title": null,
+      "officialSections": [
+        "智能科学与技术系"
+      ],
+      "profileUrl": "https://teacher.bupt.edu.cn/wangxiaojie/zh_CN/index.htm",
+      "portraitUrl": "http://ai.bupt.edu.cn/__local/0/D1/33/13F67697A35BA984835A22ED5DC_C53F3318_4B8E.jpg",
+      "sourcePageUrl": "http://ai.bupt.edu.cn/szdw/szyl/znkxyjsx/3.htm",
+      "officialRosterUrl": "https://ai.bupt.edu.cn/szdw.htm",
+      "profileChecked": false,
+      "decision": "include_new_pi",
+      "reason": "官方人工智能学院名录和个人页确认其为教授、副教授、研究员或可独立招生导师；该单位研究主线属于 AI、数据科学及相关智能计算范围。",
+      "evidenceUrl": "http://ai.bupt.edu.cn/szdw/szyl/znkxyjsx/3.htm",
+      "evidenceExcerpt": "智能科学与技术系 | 工学博士 · 教授，博士生导师 · 日本奈良先端科学技术大学院访问学者 · 智能科学与技术系 · xjwang@bupt.edu.cn"
+    },
+    {
+      "officialId": "https://teacher.bupt.edu.cn/wanghaiying/zh_CN/index.htm",
+      "name": "王海婴 WANG Haiying",
+      "title": null,
+      "officialSections": [
+        "智能科学与技术系"
+      ],
+      "profileUrl": "https://teacher.bupt.edu.cn/wanghaiying/zh_CN/index.htm",
+      "portraitUrl": "http://ai.bupt.edu.cn/__local/D/0A/DA/D5A3AF2A29D4C27A25D856AF915_664D3241_39635.jpg",
+      "sourcePageUrl": "http://ai.bupt.edu.cn/szdw/szyl/znkxyjsx/3.htm",
+      "officialRosterUrl": "https://ai.bupt.edu.cn/szdw.htm",
+      "profileChecked": false,
+      "decision": "include_new_pi",
+      "reason": "官方人工智能学院名录和个人页确认其为教授、副教授、研究员或可独立招生导师；该单位研究主线属于 AI、数据科学及相关智能计算范围。",
+      "evidenceUrl": "http://ai.bupt.edu.cn/szdw/szyl/znkxyjsx/3.htm",
+      "evidenceExcerpt": "智能科学与技术系 | 北京邮电大学博士 · 副教授，硕士生导师 · 智能科学与技术系 · why@bupt.edu.cn"
+    },
+    {
+      "officialId": "https://teacher.bupt.edu.cn/wangwei3/zh_CN/index.htm",
+      "name": "王 微 WANG Wei",
+      "title": null,
+      "officialSections": [
+        "智能科学与技术系"
+      ],
+      "profileUrl": "https://teacher.bupt.edu.cn/wangwei3/zh_CN/index.htm",
+      "portraitUrl": "http://ai.bupt.edu.cn/__local/9/5A/DA/2D88F298F098A853E18AF879B0E_8DF1F949_17D0D.png",
+      "sourcePageUrl": "http://ai.bupt.edu.cn/szdw/szyl/znkxyjsx/3.htm",
+      "officialRosterUrl": "https://ai.bupt.edu.cn/szdw.htm",
+      "profileChecked": false,
+      "decision": "include_new_pi",
+      "reason": "官方人工智能学院名录和个人页确认其为教授、副教授、研究员或可独立招生导师；该单位研究主线属于 AI、数据科学及相关智能计算范围。",
+      "evidenceUrl": "http://ai.bupt.edu.cn/szdw/szyl/znkxyjsx/3.htm",
+      "evidenceExcerpt": "智能科学与技术系 | 工学博士 · 副教授，博士生导师 · 美国加州大学洛杉矶分校访问学者 · 智能科学与技术系 · weiwang@bupt.edu.cn"
+    },
+    {
+      "officialId": "wcm@bupt.edu.cn",
+      "name": "王川铭 WANG Chuanming",
+      "title": null,
+      "officialSections": [
+        "智能科学与技术系"
+      ],
+      "profileUrl": null,
+      "portraitUrl": "http://ai.bupt.edu.cn/__local/4/AF/7B/43A2F43B473848DDD99A98B27DE_67BDB85F_2F6B.jpg",
+      "sourcePageUrl": "http://ai.bupt.edu.cn/szdw/szyl/znkxyjsx/3.htm",
+      "officialRosterUrl": "https://ai.bupt.edu.cn/szdw.htm",
+      "profileChecked": false,
+      "decision": "include_new_pi",
+      "reason": "官方人工智能学院名录和个人页确认其为教授、副教授、研究员或可独立招生导师；该单位研究主线属于 AI、数据科学及相关智能计算范围。",
+      "evidenceUrl": "http://ai.bupt.edu.cn/szdw/szyl/znkxyjsx/3.htm",
+      "evidenceExcerpt": "智能科学与技术系 | 北京邮电大学工学博士 · 预聘助理教授，硕士生导师 · 智能科学与技术系 · wcm@bupt.edu.cn"
+    },
+    {
+      "officialId": "huijiawu@bupt.edu.cn",
+      "name": "吴惠甲 WU Huijia",
+      "title": null,
+      "officialSections": [
+        "智能科学与技术系"
+      ],
+      "profileUrl": null,
+      "portraitUrl": "http://ai.bupt.edu.cn/__local/0/D6/DF/E3EDC2817AFCD75C88B4F4A9C4E_4C6DDCC6_69476.png",
+      "sourcePageUrl": "http://ai.bupt.edu.cn/szdw/szyl/znkxyjsx/3.htm",
+      "officialRosterUrl": "https://ai.bupt.edu.cn/szdw.htm",
+      "profileChecked": false,
+      "decision": "excluded_non_pi",
+      "reason": "官方名录职类为行政、实验技术、工程、科研助理、博士后或学生，且个人页未显示独立招生或研究组负责人资格。",
+      "evidenceUrl": "http://ai.bupt.edu.cn/szdw/szyl/znkxyjsx/3.htm",
+      "evidenceExcerpt": "智能科学与技术系 | 工学博士 · 博士后 · 智能科学与技术系 · huijiawu@bupt.edu.cn"
+    },
+    {
+      "officialId": "xiangly@bupt.edu.cn",
+      "name": "项刘宇 XIANG Liuyu",
+      "title": null,
+      "officialSections": [
+        "智能科学与技术系"
+      ],
+      "profileUrl": null,
+      "portraitUrl": "http://ai.bupt.edu.cn/__local/8/64/07/F48008C4131E93E6BC184FFA2D3_79CBFADB_2313.jpg",
+      "sourcePageUrl": "http://ai.bupt.edu.cn/szdw/szyl/znkxyjsx/3.htm",
+      "officialRosterUrl": "https://ai.bupt.edu.cn/szdw.htm",
+      "profileChecked": false,
+      "decision": "include_new_pi",
+      "reason": "官方人工智能学院名录和个人页确认其为教授、副教授、研究员或可独立招生导师；该单位研究主线属于 AI、数据科学及相关智能计算范围。",
+      "evidenceUrl": "http://ai.bupt.edu.cn/szdw/szyl/znkxyjsx/3.htm",
+      "evidenceExcerpt": "智能科学与技术系 | 清华大学博士 · 副教授，博士生导师 · 智能科学与技术系 · xiangly@bupt.edu.cn"
+    },
+    {
+      "officialId": "andrew.lxiao@gmail.com",
+      "name": "肖立 Xiao Li",
+      "title": null,
+      "officialSections": [
+        "智能科学与技术系"
+      ],
+      "profileUrl": null,
+      "portraitUrl": "http://ai.bupt.edu.cn/__local/C/7E/9A/2D4DD1E42B87722E6917459C8B5_3E459582_42BD.jpg",
+      "sourcePageUrl": "http://ai.bupt.edu.cn/szdw/szyl/znkxyjsx/3.htm",
+      "officialRosterUrl": "https://ai.bupt.edu.cn/szdw.htm",
+      "profileChecked": false,
+      "decision": "include_new_pi",
+      "reason": "官方人工智能学院名录和个人页确认其为教授、副教授、研究员或可独立招生导师；该单位研究主线属于 AI、数据科学及相关智能计算范围。",
+      "evidenceUrl": "http://ai.bupt.edu.cn/szdw/szyl/znkxyjsx/3.htm",
+      "evidenceExcerpt": "智能科学与技术系 | 工学博士 · 教授，博士生导师 · 智能科学与技术系 · andrew.lxiao@gmail.com"
+    },
+    {
+      "officialId": "xiepengjin@bupt.edu.cn",
+      "name": "谢鹏瑾 XIE Pengjin",
+      "title": null,
+      "officialSections": [
+        "智能科学与技术系"
+      ],
+      "profileUrl": null,
+      "portraitUrl": "http://ai.bupt.edu.cn/__local/7/F5/94/1A7FA5FD5D7B2E93243234B200A_34DED012_5D056.jpg",
+      "sourcePageUrl": "http://ai.bupt.edu.cn/szdw/szyl/znkxyjsx/3.htm",
+      "officialRosterUrl": "https://ai.bupt.edu.cn/szdw.htm",
+      "profileChecked": false,
+      "decision": "include_new_pi",
+      "reason": "官方人工智能学院名录和个人页确认其为教授、副教授、研究员或可独立招生导师；该单位研究主线属于 AI、数据科学及相关智能计算范围。",
+      "evidenceUrl": "http://ai.bupt.edu.cn/szdw/szyl/znkxyjsx/3.htm",
+      "evidenceExcerpt": "智能科学与技术系 | 清华大学博士 · 副教授，博士生导师 · 智能科学与技术系 · xiepengjin@bupt.edu.cn"
+    },
+    {
+      "officialId": "xuzhenbo@bupt.edu.cn",
+      "name": "徐振博 XU Zhenbo",
+      "title": null,
+      "officialSections": [
+        "智能科学与技术系"
+      ],
+      "profileUrl": null,
+      "portraitUrl": "http://ai.bupt.edu.cn/__local/2/C0/DE/14E3B760154209A78071513EE52_1D75DCFC_50F7.jpg",
+      "sourcePageUrl": "http://ai.bupt.edu.cn/szdw/szyl/znkxyjsx/3.htm",
+      "officialRosterUrl": "https://ai.bupt.edu.cn/szdw.htm",
+      "profileChecked": false,
+      "decision": "include_new_pi",
+      "reason": "官方人工智能学院名录和个人页确认其为教授、副教授、研究员或可独立招生导师；该单位研究主线属于 AI、数据科学及相关智能计算范围。",
+      "evidenceUrl": "http://ai.bupt.edu.cn/szdw/szyl/znkxyjsx/3.htm",
+      "evidenceExcerpt": "智能科学与技术系 | 工学博士 · 副研究员，硕士生导师 · 智能科学与技术系 · xuzhenbo@bupt.edu.cn"
+    },
+    {
+      "officialId": "https://teacher.bupt.edu.cn/yuancaixia/zh_CN/index.htm",
+      "name": "袁彩霞 YUAN Caixia",
+      "title": null,
+      "officialSections": [
+        "智能科学与技术系"
+      ],
+      "profileUrl": "https://teacher.bupt.edu.cn/yuancaixia/zh_CN/index.htm",
+      "portraitUrl": "http://ai.bupt.edu.cn/__local/9/BA/58/81A7A54FC51F9A20B99DF7BAF52_C01129CB_373E4.jpg",
+      "sourcePageUrl": "http://ai.bupt.edu.cn/szdw/szyl/znkxyjsx/3.htm",
+      "officialRosterUrl": "https://ai.bupt.edu.cn/szdw.htm",
+      "profileChecked": false,
+      "decision": "include_new_pi",
+      "reason": "官方人工智能学院名录和个人页确认其为教授、副教授、研究员或可独立招生导师；该单位研究主线属于 AI、数据科学及相关智能计算范围。",
+      "evidenceUrl": "http://ai.bupt.edu.cn/szdw/szyl/znkxyjsx/3.htm",
+      "evidenceExcerpt": "智能科学与技术系 | 北京邮电大学博士，日本德岛大学博士 · 副教授，博士生导师 · 智能科学与技术系 · yuancx@bupt.edu.cn"
+    },
+    {
+      "officialId": "https://teacher.bupt.edu.cn/zhanggaowei/zh_CN/index.htm",
+      "name": "张高唯 ZHANG Gaowei",
+      "title": null,
+      "officialSections": [
+        "智能科学与技术系"
+      ],
+      "profileUrl": "https://teacher.bupt.edu.cn/zhanggaowei/zh_CN/index.htm",
+      "portraitUrl": "http://ai.bupt.edu.cn/__local/7/99/4E/65A7DDBCD6FAD449408750DB971_799E65B0_8130.jpg",
+      "sourcePageUrl": "http://ai.bupt.edu.cn/szdw/szyl/znkxyjsx/2.htm",
+      "officialRosterUrl": "https://ai.bupt.edu.cn/szdw.htm",
+      "profileChecked": false,
+      "decision": "excluded_non_pi",
+      "reason": "官方职称为讲师、助理研究员、工程师或同等级非独立岗位，个人页未显示博士/硕士导师或独立招生资格。",
+      "evidenceUrl": "http://ai.bupt.edu.cn/szdw/szyl/znkxyjsx/2.htm",
+      "evidenceExcerpt": "智能科学与技术系 | 工学博士 · 讲师 · 智能科学与技术系 · zhanggaowei@bupt.edu.cn"
+    },
+    {
+      "officialId": "https://teacher.bupt.edu.cn/zhangman/zh_CN/index.htm",
+      "name": "张曼 ZHANG Man",
+      "title": null,
+      "officialSections": [
+        "智能科学与技术系"
+      ],
+      "profileUrl": "https://teacher.bupt.edu.cn/zhangman/zh_CN/index.htm",
+      "portraitUrl": "http://ai.bupt.edu.cn/__local/C/03/0C/8110CF6A451FD7D56C9CE2FF06F_580D6E70_2C3D.jpg",
+      "sourcePageUrl": "http://ai.bupt.edu.cn/szdw/szyl/znkxyjsx/2.htm",
+      "officialRosterUrl": "https://ai.bupt.edu.cn/szdw.htm",
+      "profileChecked": false,
+      "decision": "include_new_pi",
+      "reason": "官方人工智能学院名录和个人页确认其为教授、副教授、研究员或可独立招生导师；该单位研究主线属于 AI、数据科学及相关智能计算范围。",
+      "evidenceUrl": "http://ai.bupt.edu.cn/szdw/szyl/znkxyjsx/2.htm",
+      "evidenceExcerpt": "智能科学与技术系 | 工学博士 · 教授，博士生导师 · 智能科学与技术系 · zhangman@bupt.edu.cn"
+    },
+    {
+      "officialId": "shuwu.zhang@bupt.edu.cn",
+      "name": "张树武 ZHANG Shuwu",
+      "title": null,
+      "officialSections": [
+        "智能科学与技术系"
+      ],
+      "profileUrl": null,
+      "portraitUrl": "http://ai.bupt.edu.cn/__local/C/B8/B8/92F4C2494FA33A6CD0A158A04BD_54A2752F_749E.jpg",
+      "sourcePageUrl": "http://ai.bupt.edu.cn/szdw/szyl/znkxyjsx/2.htm",
+      "officialRosterUrl": "https://ai.bupt.edu.cn/szdw.htm",
+      "profileChecked": false,
+      "decision": "include_new_pi",
+      "reason": "官方人工智能学院名录和个人页确认其为教授、副教授、研究员或可独立招生导师；该单位研究主线属于 AI、数据科学及相关智能计算范围。",
+      "evidenceUrl": "http://ai.bupt.edu.cn/szdw/szyl/znkxyjsx/2.htm",
+      "evidenceExcerpt": "智能科学与技术系 | 工学博士 · 特聘研究员，博士生导师 · 智能科学与技术系 · shuwu.zhang@bupt.edu.cn"
+    },
+    {
+      "officialId": "guixuan.zhang@bupt.edu.cn",
+      "name": "张桂煊 ZHANG Guixuan",
+      "title": null,
+      "officialSections": [
+        "智能科学与技术系"
+      ],
+      "profileUrl": null,
+      "portraitUrl": "http://ai.bupt.edu.cn/__local/C/76/53/619527309B83EF107DDB2F397E9_E08265EC_23ED.jpg",
+      "sourcePageUrl": "http://ai.bupt.edu.cn/szdw/szyl/znkxyjsx/2.htm",
+      "officialRosterUrl": "https://ai.bupt.edu.cn/szdw.htm",
+      "profileChecked": false,
+      "decision": "include_new_pi",
+      "reason": "官方人工智能学院名录和个人页确认其为教授、副教授、研究员或可独立招生导师；该单位研究主线属于 AI、数据科学及相关智能计算范围。",
+      "evidenceUrl": "http://ai.bupt.edu.cn/szdw/szyl/znkxyjsx/2.htm",
+      "evidenceExcerpt": "智能科学与技术系 | 工学博士 · 副研究员，硕士生导师 · 智能科学与技术系 · guixuan.zhang@bupt.edu.cn"
+    },
+    {
+      "officialId": "zhaohaiying@bupt.edu.cn",
+      "name": "赵海英 ZHAO Haiying",
+      "title": null,
+      "officialSections": [
+        "智能科学与技术系"
+      ],
+      "profileUrl": null,
+      "portraitUrl": "http://ai.bupt.edu.cn/__local/2/8D/4D/4D3DDBB866F79DC0E11A2B7BC4D_4226F799_112D7.jpg",
+      "sourcePageUrl": "http://ai.bupt.edu.cn/szdw/szyl/znkxyjsx/2.htm",
+      "officialRosterUrl": "https://ai.bupt.edu.cn/szdw.htm",
+      "profileChecked": false,
+      "decision": "include_new_pi",
+      "reason": "官方人工智能学院名录和个人页确认其为教授、副教授、研究员或可独立招生导师；该单位研究主线属于 AI、数据科学及相关智能计算范围。",
+      "evidenceUrl": "http://ai.bupt.edu.cn/szdw/szyl/znkxyjsx/2.htm",
+      "evidenceExcerpt": "智能科学与技术系 | 工学博士 · 教授，博士生导师 · 中国国家博物馆访问学者 · 智能科学与技术系 · zhaohaiying@bupt.edu.cn"
+    },
+    {
+      "officialId": "zyy@bupt.edu.cn",
+      "name": "赵衍运 ZHAO Yanyun",
+      "title": null,
+      "officialSections": [
+        "智能科学与技术系"
+      ],
+      "profileUrl": null,
+      "portraitUrl": "http://ai.bupt.edu.cn/__local/7/6F/58/62049097164B67B705641BAB514_F09BA41B_425E.jpg",
+      "sourcePageUrl": "http://ai.bupt.edu.cn/szdw/szyl/znkxyjsx/2.htm",
+      "officialRosterUrl": "https://ai.bupt.edu.cn/szdw.htm",
+      "profileChecked": false,
+      "decision": "include_new_pi",
+      "reason": "官方人工智能学院名录和个人页确认其为教授、副教授、研究员或可独立招生导师；该单位研究主线属于 AI、数据科学及相关智能计算范围。",
+      "evidenceUrl": "http://ai.bupt.edu.cn/szdw/szyl/znkxyjsx/2.htm",
+      "evidenceExcerpt": "智能科学与技术系 | 工学博士 · 副教授，硕士生导师 · 智能科学与技术系 · zyy@bupt.edu.cn"
+    },
+    {
+      "officialId": "https://teacher.bupt.edu.cn/zhaozhicheng/zh_CN/index.htm",
+      "name": "赵志诚 ZHAO Zhicheng",
+      "title": null,
+      "officialSections": [
+        "智能科学与技术系"
+      ],
+      "profileUrl": "https://teacher.bupt.edu.cn/zhaozhicheng/zh_CN/index.htm",
+      "portraitUrl": "http://ai.bupt.edu.cn/__local/3/5B/25/C19A36147AFE27AD27A44185D97_5037B6E8_2D4A.jpg",
+      "sourcePageUrl": "http://ai.bupt.edu.cn/szdw/szyl/znkxyjsx/2.htm",
+      "officialRosterUrl": "https://ai.bupt.edu.cn/szdw.htm",
+      "profileChecked": false,
+      "decision": "include_new_pi",
+      "reason": "官方人工智能学院名录和个人页确认其为教授、副教授、研究员或可独立招生导师；该单位研究主线属于 AI、数据科学及相关智能计算范围。",
+      "evidenceUrl": "http://ai.bupt.edu.cn/szdw/szyl/znkxyjsx/2.htm",
+      "evidenceExcerpt": "智能科学与技术系 | 工学博士 · 教授，博士生导师 · 美国卡内基梅隆大学访问学者 · 智能科学与技术系 · zhaozc@bupt.edu.cn"
+    },
+    {
+      "officialId": "yanzheng@bupt.edu.cn",
+      "name": "郑 岩 ZHENG Yan",
+      "title": null,
+      "officialSections": [
+        "智能科学与技术系"
+      ],
+      "profileUrl": null,
+      "portraitUrl": "http://ai.bupt.edu.cn/__local/7/E6/01/6345523E789F8209FDF9A119C79_311C941B_183B6.bmp",
+      "sourcePageUrl": "http://ai.bupt.edu.cn/szdw/szyl/znkxyjsx/2.htm",
+      "officialRosterUrl": "https://ai.bupt.edu.cn/szdw.htm",
+      "profileChecked": false,
+      "decision": "include_new_pi",
+      "reason": "官方人工智能学院名录和个人页确认其为教授、副教授、研究员或可独立招生导师；该单位研究主线属于 AI、数据科学及相关智能计算范围。",
+      "evidenceUrl": "http://ai.bupt.edu.cn/szdw/szyl/znkxyjsx/2.htm",
+      "evidenceExcerpt": "智能科学与技术系 | 工学博士 · 副教授，硕士生导师 · 澳大利亚悉尼大学访问学者 · 智能科学与技术系 · yanzheng@bupt.edu.cn"
+    },
+    {
+      "officialId": "zhouyanquan@bupt.edu.cn",
+      "name": "周延泉 ZHOU Yanquan",
+      "title": null,
+      "officialSections": [
+        "智能科学与技术系"
+      ],
+      "profileUrl": null,
+      "portraitUrl": "http://ai.bupt.edu.cn/__local/B/DF/E0/ED14151A78016FFCFC6D895999A_DE8BBB65_4561.jpg",
+      "sourcePageUrl": "http://ai.bupt.edu.cn/szdw/szyl/znkxyjsx/2.htm",
+      "officialRosterUrl": "https://ai.bupt.edu.cn/szdw.htm",
+      "profileChecked": false,
+      "decision": "include_new_pi",
+      "reason": "官方人工智能学院名录和个人页确认其为教授、副教授、研究员或可独立招生导师；该单位研究主线属于 AI、数据科学及相关智能计算范围。",
+      "evidenceUrl": "http://ai.bupt.edu.cn/szdw/szyl/znkxyjsx/2.htm",
+      "evidenceExcerpt": "智能科学与技术系 | 工学博士 · 副教授，博士生导师 · 英国拉夫堡大学院访问学者 · 智能科学与技术系 · zhouyanquan@bupt.edu.cn"
+    },
+    {
+      "officialId": "https://teacher.bupt.edu.cn/zhouwanting/zh_CN/index.htm",
+      "name": "周琬婷 ZHOU Wanting",
+      "title": null,
+      "officialSections": [
+        "智能科学与技术系"
+      ],
+      "profileUrl": "https://teacher.bupt.edu.cn/zhouwanting/zh_CN/index.htm",
+      "portraitUrl": "http://ai.bupt.edu.cn/__local/F/80/5D/5F606587C656BA54FD64ECFD081_60AC6299_1B3A4A.jpg",
+      "sourcePageUrl": "http://ai.bupt.edu.cn/szdw/szyl/znkxyjsx/2.htm",
+      "officialRosterUrl": "https://ai.bupt.edu.cn/szdw.htm",
+      "profileChecked": false,
+      "decision": "include_new_pi",
+      "reason": "官方人工智能学院名录和个人页确认其为教授、副教授、研究员或可独立招生导师；该单位研究主线属于 AI、数据科学及相关智能计算范围。",
+      "evidenceUrl": "http://ai.bupt.edu.cn/szdw/szyl/znkxyjsx/2.htm",
+      "evidenceExcerpt": "智能科学与技术系 | 工学博士 · 副教授，博士生导师 · 智能科学与技术系 · wanting.zhou@bupt.edu.cn"
+    },
+    {
+      "officialId": "zhi.zeng@bupt.edu.cn",
+      "name": "曾 智 ZENG Zhi",
+      "title": null,
+      "officialSections": [
+        "智能科学与技术系"
+      ],
+      "profileUrl": null,
+      "portraitUrl": "http://ai.bupt.edu.cn/__local/8/23/85/B2A8085B1C4370D47E247EF5563_E9903170_578B.jpg",
+      "sourcePageUrl": "http://ai.bupt.edu.cn/szdw/szyl/znkxyjsx/1.htm",
+      "officialRosterUrl": "https://ai.bupt.edu.cn/szdw.htm",
+      "profileChecked": false,
+      "decision": "include_new_pi",
+      "reason": "官方人工智能学院名录和个人页确认其为教授、副教授、研究员或可独立招生导师；该单位研究主线属于 AI、数据科学及相关智能计算范围。",
+      "evidenceUrl": "http://ai.bupt.edu.cn/szdw/szyl/znkxyjsx/1.htm",
+      "evidenceExcerpt": "智能科学与技术系 | 中国科学院自动化研究所博士 · 特聘副研究员 · 智能科学与技术系 · zhi.zeng@bupt.edu.cn"
+    },
+    {
+      "officialId": "https://teacher.bupt.edu.cn/heye/zh_CN/index.htm",
+      "name": "何 叶 HE Ye",
+      "title": null,
+      "officialSections": [
+        "脑认知与智能医学系"
+      ],
+      "profileUrl": "https://teacher.bupt.edu.cn/heye/zh_CN/index.htm",
+      "portraitUrl": "http://ai.bupt.edu.cn/__local/A/1B/88/8C06818367086520521D4CCCEBC_E337C264_2F3666.jpg",
+      "sourcePageUrl": "http://ai.bupt.edu.cn/szdw/szyl/nrzyznyxx.htm",
+      "officialRosterUrl": "https://ai.bupt.edu.cn/szdw.htm",
+      "profileChecked": false,
+      "decision": "excluded_insufficient_scope_evidence",
+      "reason": "官方名录提供个人页，但页面无法解析出足够的研究方向与独立 PI 证据；本轮按证据门槛不纳入，而非推断为非 AI/CS 或非 PI。",
+      "evidenceUrl": "http://ai.bupt.edu.cn/szdw/szyl/nrzyznyxx.htm",
+      "evidenceExcerpt": "脑认知与智能医学系 | 中国科学院心理研究所博士 · 副教授，博士生导师 · 脑认知与智能医学系 · yehe@bupt.edu.cn"
+    },
+    {
+      "officialId": "https://teacher.bupt.edu.cn/hourui12/zh_CN/index.htm",
+      "name": "侯 瑞 HOU Rui",
+      "title": null,
+      "officialSections": [
+        "脑认知与智能医学系"
+      ],
+      "profileUrl": "https://teacher.bupt.edu.cn/hourui12/zh_CN/index.htm",
+      "portraitUrl": "http://ai.bupt.edu.cn/__local/D/4E/C6/8071287F28F33F9470E565BCF98_B664D139_6B269.jpg",
+      "sourcePageUrl": "http://ai.bupt.edu.cn/szdw/szyl/nrzyznyxx.htm",
+      "officialRosterUrl": "https://ai.bupt.edu.cn/szdw.htm",
+      "profileChecked": false,
+      "decision": "excluded_insufficient_scope_evidence",
+      "reason": "官方名录提供个人页，但页面无法解析出足够的研究方向与独立 PI 证据；本轮按证据门槛不纳入，而非推断为非 AI/CS 或非 PI。",
+      "evidenceUrl": "http://ai.bupt.edu.cn/szdw/szyl/nrzyznyxx.htm",
+      "evidenceExcerpt": "脑认知与智能医学系 | 美国杜克大学工学博士 · 研究员/预聘副教授，博士生导师 · 脑认知与智能医学系 · rui.hou@bupt.edu.cn"
+    },
+    {
+      "officialId": "https://teacher.bupt.edu.cn/yongliu/zh_CN/index.htm",
+      "name": "刘 勇 LIU Yong",
+      "title": null,
+      "officialSections": [
+        "脑认知与智能医学系"
+      ],
+      "profileUrl": "https://teacher.bupt.edu.cn/yongliu/zh_CN/index.htm",
+      "portraitUrl": "http://ai.bupt.edu.cn/__local/7/8B/BF/2CB17A54675CDC3E6D094485128_1535676F_712F.jpg",
+      "sourcePageUrl": "http://ai.bupt.edu.cn/szdw/szyl/nrzyznyxx.htm",
+      "officialRosterUrl": "https://ai.bupt.edu.cn/szdw.htm",
+      "profileChecked": false,
+      "decision": "excluded_insufficient_scope_evidence",
+      "reason": "官方名录提供个人页，但页面无法解析出足够的研究方向与独立 PI 证据；本轮按证据门槛不纳入，而非推断为非 AI/CS 或非 PI。",
+      "evidenceUrl": "http://ai.bupt.edu.cn/szdw/szyl/nrzyznyxx.htm",
+      "evidenceExcerpt": "脑认知与智能医学系 | 中国科学院自动化研究所博士 · 教授，博士生导师 · 脑认知与智能医学系 · yongliu@bupt.edu.cn"
+    },
+    {
+      "officialId": "https://teacher.bupt.edu.cn/qiting/zh_CN/index/267092/list/index.htm",
+      "name": "祁 婷 QI Ting",
+      "title": null,
+      "officialSections": [
+        "脑认知与智能医学系"
+      ],
+      "profileUrl": "https://teacher.bupt.edu.cn/qiting/zh_CN/index/267092/list/index.htm",
+      "portraitUrl": "http://ai.bupt.edu.cn/__local/2/E6/F0/FAD64F797DF108569D50B9CB07C_E117869A_12A41.png",
+      "sourcePageUrl": "http://ai.bupt.edu.cn/szdw/szyl/nrzyznyxx.htm",
+      "officialRosterUrl": "https://ai.bupt.edu.cn/szdw.htm",
+      "profileChecked": false,
+      "decision": "excluded_insufficient_scope_evidence",
+      "reason": "官方名录提供个人页，但页面无法解析出足够的研究方向与独立 PI 证据；本轮按证据门槛不纳入，而非推断为非 AI/CS 或非 PI。",
+      "evidenceUrl": "http://ai.bupt.edu.cn/szdw/szyl/nrzyznyxx.htm",
+      "evidenceExcerpt": "脑认知与智能医学系 | 德国马克斯普朗科研究所博士 · 特聘副研究员，硕士生导师 · 脑认知与智能医学系 · ting.qi@bupt.edu.cn"
+    },
+    {
+      "officialId": "https://teacher.bupt.edu.cn/tuliyun/zh_CN/index.htm",
+      "name": "涂丽云 TU Liyun",
+      "title": null,
+      "officialSections": [
+        "脑认知与智能医学系"
+      ],
+      "profileUrl": "https://teacher.bupt.edu.cn/tuliyun/zh_CN/index.htm",
+      "portraitUrl": "http://ai.bupt.edu.cn/__local/4/09/86/0BA7C69052AE15926636F4FBFB8_651242F8_5595.jpg",
+      "sourcePageUrl": "http://ai.bupt.edu.cn/szdw/szyl/nrzyznyxx.htm",
+      "officialRosterUrl": "https://ai.bupt.edu.cn/szdw.htm",
+      "profileChecked": false,
+      "decision": "excluded_insufficient_scope_evidence",
+      "reason": "官方名录提供个人页，但页面无法解析出足够的研究方向与独立 PI 证据；本轮按证据门槛不纳入，而非推断为非 AI/CS 或非 PI。",
+      "evidenceUrl": "http://ai.bupt.edu.cn/szdw/szyl/nrzyznyxx.htm",
+      "evidenceExcerpt": "脑认知与智能医学系 | 重庆大学博士 · 副教授，博士生导师 · 脑认知与智能医学系 · tuliyun@bupt.edu.cn"
+    },
+    {
+      "officialId": "https://teacher.bupt.edu.cn/weiyongbin/zh_CN/index.htm",
+      "name": "魏永斌 WEI Yongbin",
+      "title": null,
+      "officialSections": [
+        "脑认知与智能医学系"
+      ],
+      "profileUrl": "https://teacher.bupt.edu.cn/weiyongbin/zh_CN/index.htm",
+      "portraitUrl": "http://ai.bupt.edu.cn/__local/4/91/50/281983E71CB1CB918CEC92DC875_196ACC3E_BD0C.jpg",
+      "sourcePageUrl": "http://ai.bupt.edu.cn/szdw/szyl/nrzyznyxx.htm",
+      "officialRosterUrl": "https://ai.bupt.edu.cn/szdw.htm",
+      "profileChecked": false,
+      "decision": "excluded_insufficient_scope_evidence",
+      "reason": "官方名录提供个人页，但页面无法解析出足够的研究方向与独立 PI 证据；本轮按证据门槛不纳入，而非推断为非 AI/CS 或非 PI。",
+      "evidenceUrl": "http://ai.bupt.edu.cn/szdw/szyl/nrzyznyxx.htm",
+      "evidenceExcerpt": "脑认知与智能医学系 | 荷兰阿姆斯特丹自由大学博士 · 拔尖人才教授，博士生导师 · 脑认知与智能医学系 · yongbin.wei@bupt.edu.cn"
+    },
+    {
+      "officialId": "xuguangyuan@bupt.edu.cn",
+      "name": "徐光远 XU Guangyuan",
+      "title": null,
+      "officialSections": [
+        "脑认知与智能医学系"
+      ],
+      "profileUrl": null,
+      "portraitUrl": "http://ai.bupt.edu.cn/__local/D/0F/A1/2A8409C12ADF4C5AB8B2B838A82_78C768A5_3BB04.jpg",
+      "sourcePageUrl": "http://ai.bupt.edu.cn/szdw/szyl/nrzyznyxx.htm",
+      "officialRosterUrl": "https://ai.bupt.edu.cn/szdw.htm",
+      "profileChecked": false,
+      "decision": "excluded_insufficient_scope_evidence",
+      "reason": "官方名录仅有姓名或职类，缺少个人页、研究方向和独立招生证据；本轮按证据门槛不纳入，而非推断人物身份。",
+      "evidenceUrl": "http://ai.bupt.edu.cn/szdw/szyl/nrzyznyxx.htm",
+      "evidenceExcerpt": "脑认知与智能医学系 | 新西兰奥克兰大学博士(Dean’s Honor List) · 研究员，博士生导师 · 脑认知与智能医学系 · xuguangyuan@bupt.edu.cn"
+    },
+    {
+      "officialId": "https://teacher.bupt.edu.cn/zhangjiaying/zh_CN/index.htm",
+      "name": "张嘉颖 Jiaying Zhang",
+      "title": null,
+      "officialSections": [
+        "脑认知与智能医学系"
+      ],
+      "profileUrl": "https://teacher.bupt.edu.cn/zhangjiaying/zh_CN/index.htm",
+      "portraitUrl": "http://ai.bupt.edu.cn/__local/A/A7/21/8922934CEC2505EDF5725061196_BC7FBE71_5123.jpg",
+      "sourcePageUrl": "http://ai.bupt.edu.cn/szdw/szyl/nrzyznyxx.htm",
+      "officialRosterUrl": "https://ai.bupt.edu.cn/szdw.htm",
+      "profileChecked": false,
+      "decision": "excluded_non_pi",
+      "reason": "官方职称为讲师、助理研究员、工程师或同等级非独立岗位，个人页未显示博士/硕士导师或独立招生资格。",
+      "evidenceUrl": "http://ai.bupt.edu.cn/szdw/szyl/nrzyznyxx.htm",
+      "evidenceExcerpt": "脑认知与智能医学系 | 英国伦敦大学学院博士 · 讲师 · 脑认知与智能医学系 · jiaying.zhang@bupt.edu.cn"
+    },
+    {
+      "officialId": "yihe.zhang@bupt.edu.cn",
+      "name": "张逸鹤 Zhang Yihe",
+      "title": null,
+      "officialSections": [
+        "脑认知与智能医学系"
+      ],
+      "profileUrl": null,
+      "portraitUrl": "http://ai.bupt.edu.cn/__local/C/CA/E6/8AE360C99C631E791AB85AAC13C_DFF30D1B_12F71.png",
+      "sourcePageUrl": "http://ai.bupt.edu.cn/szdw/szyl/nrzyznyxx.htm",
+      "officialRosterUrl": "https://ai.bupt.edu.cn/szdw.htm",
+      "profileChecked": false,
+      "decision": "excluded_non_pi",
+      "reason": "官方职称为讲师、助理研究员、工程师或同等级非独立岗位，个人页未显示博士/硕士导师或独立招生资格。",
+      "evidenceUrl": "http://ai.bupt.edu.cn/szdw/szyl/nrzyznyxx.htm",
+      "evidenceExcerpt": "脑认知与智能医学系 | 北京理工大学博士 · 讲师 · 脑认知与智能医学系 · yihe.zhang@bupt.edu.cn"
+    },
+    {
+      "officialId": "https://teacher.bupt.edu.cn/zhaokun1/zh_CN/index.htm",
+      "name": "赵 坤 ZHAO Kun",
+      "title": null,
+      "officialSections": [
+        "脑认知与智能医学系"
+      ],
+      "profileUrl": "https://teacher.bupt.edu.cn/zhaokun1/zh_CN/index.htm",
+      "portraitUrl": "http://ai.bupt.edu.cn/__local/3/96/35/0E8CE3CB3E7F5EA3A6F7E16F3B3_C0B6D4EF_5402D.jpg",
+      "sourcePageUrl": "http://ai.bupt.edu.cn/szdw/szyl/nrzyznyxx.htm",
+      "officialRosterUrl": "https://ai.bupt.edu.cn/szdw.htm",
+      "profileChecked": false,
+      "decision": "excluded_insufficient_scope_evidence",
+      "reason": "官方名录提供个人页，但页面无法解析出足够的研究方向与独立 PI 证据；本轮按证据门槛不纳入，而非推断为非 AI/CS 或非 PI。",
+      "evidenceUrl": "http://ai.bupt.edu.cn/szdw/szyl/nrzyznyxx.htm",
+      "evidenceExcerpt": "脑认知与智能医学系 | 北京航空航天大学博士 · 预聘副教授/研究员，博士生导师 · 脑认知与智能医学系 · kunzhao@bupt.edu.cn"
+    },
+    {
+      "officialId": "https://teacher.bupt.edu.cn/zhongsuyu/zh_CN/index.htm",
+      "name": "仲苏玉 ZHONG Suyu",
+      "title": null,
+      "officialSections": [
+        "脑认知与智能医学系"
+      ],
+      "profileUrl": "https://teacher.bupt.edu.cn/zhongsuyu/zh_CN/index.htm",
+      "portraitUrl": "http://ai.bupt.edu.cn/__local/6/1D/39/13621FAE44B3E6A380DD54995C0_F45F7B0C_2D44.jpg",
+      "sourcePageUrl": "http://ai.bupt.edu.cn/szdw/szyl/nrzyznyxx/1.htm",
+      "officialRosterUrl": "https://ai.bupt.edu.cn/szdw.htm",
+      "profileChecked": false,
+      "decision": "excluded_insufficient_scope_evidence",
+      "reason": "官方名录提供个人页，但页面无法解析出足够的研究方向与独立 PI 证据；本轮按证据门槛不纳入，而非推断为非 AI/CS 或非 PI。",
+      "evidenceUrl": "http://ai.bupt.edu.cn/szdw/szyl/nrzyznyxx/1.htm",
+      "evidenceExcerpt": "脑认知与智能医学系 | 北京师范大学博士 · 副教授，博士生导师 · 脑认知与智能医学系 · zhongsuyu@bupt.edu.cn"
+    },
+    {
+      "officialId": "https://teacher.bupt.edu.cn/fangrongzong/zh_CN/index.htm",
+      "name": "宗芳荣 ZONG Fangrong",
+      "title": null,
+      "officialSections": [
+        "脑认知与智能医学系"
+      ],
+      "profileUrl": "https://teacher.bupt.edu.cn/fangrongzong/zh_CN/index.htm",
+      "portraitUrl": "http://ai.bupt.edu.cn/__local/3/DC/E6/52B9E2902793263711C94C81BC3_5046E9DF_1846D.png",
+      "sourcePageUrl": "http://ai.bupt.edu.cn/szdw/szyl/nrzyznyxx/1.htm",
+      "officialRosterUrl": "https://ai.bupt.edu.cn/szdw.htm",
+      "profileChecked": false,
+      "decision": "excluded_insufficient_scope_evidence",
+      "reason": "官方名录提供个人页，但页面无法解析出足够的研究方向与独立 PI 证据；本轮按证据门槛不纳入，而非推断为非 AI/CS 或非 PI。",
+      "evidenceUrl": "http://ai.bupt.edu.cn/szdw/szyl/nrzyznyxx/1.htm",
+      "evidenceExcerpt": "脑认知与智能医学系 | 新西兰惠灵顿维多利亚博士 · 副教授，博士生导师 · 德国国家癌症研究中心访问学者 · 脑认知与智能医学系 · Fangrong.zong@bupt.edu.cn"
+    },
+    {
+      "officialId": "dyh2018@bupt.edu.cn",
+      "name": "党永浩 DANG Yonghao",
+      "title": null,
+      "officialSections": [
+        "脑认知与智能医学系"
+      ],
+      "profileUrl": null,
+      "portraitUrl": "http://ai.bupt.edu.cn/__local/C/38/90/1301862074F0DC7ADDE79EB00F2_69384618_2CB1.jpg",
+      "sourcePageUrl": "http://ai.bupt.edu.cn/szdw/szyl/nrzyznyxx/1.htm",
+      "officialRosterUrl": "https://ai.bupt.edu.cn/szdw.htm",
+      "profileChecked": false,
+      "decision": "excluded_non_pi",
+      "reason": "官方名录职类为行政、实验技术、工程、科研助理、博士后或学生，且个人页未显示独立招生或研究组负责人资格。",
+      "evidenceUrl": "http://ai.bupt.edu.cn/szdw/szyl/nrzyznyxx/1.htm",
+      "evidenceExcerpt": "脑认知与智能医学系 | 北京邮电大学博士 · 博士后 · 脑认知与智能医学系 · dyh2018@bupt.edu.cn"
+    },
+    {
+      "officialId": "https://teacher.bupt.edu.cn/jihui/zh_CN/index.htm",
+      "name": "纪 晖 JI Hui",
+      "title": null,
+      "officialSections": [
+        "实验中心"
+      ],
+      "profileUrl": "https://teacher.bupt.edu.cn/jihui/zh_CN/index.htm",
+      "portraitUrl": "http://ai.bupt.edu.cn/__local/B/59/5A/E8ED7FF1AA85AA2587A4749B7D4_7F96F43B_BE80.jpg",
+      "sourcePageUrl": "http://ai.bupt.edu.cn/szdw/szyl/syzx.htm",
+      "officialRosterUrl": "https://ai.bupt.edu.cn/szdw.htm",
+      "profileChecked": false,
+      "decision": "excluded_insufficient_scope_evidence",
+      "reason": "官方名录提供个人页，但页面无法解析出足够的研究方向与独立 PI 证据；本轮按证据门槛不纳入，而非推断为非 AI/CS 或非 PI。",
+      "evidenceUrl": "http://ai.bupt.edu.cn/szdw/szyl/syzx.htm",
+      "evidenceExcerpt": "实验中心 | 北京交通大学 本科 · 实验员 · 实验中心信息网络工程实验室 · jihui@bupt.edu.cn"
+    },
+    {
+      "officialId": "qgh@bupt.edu.cn",
+      "name": "丘广晖 QIU Guanghui",
+      "title": null,
+      "officialSections": [
+        "实验中心"
+      ],
+      "profileUrl": null,
+      "portraitUrl": "http://ai.bupt.edu.cn/__local/F/9B/91/2386870C73A44000DFE4421D212_5B5CC5BB_CC41.jpg",
+      "sourcePageUrl": "http://ai.bupt.edu.cn/szdw/szyl/syzx.htm",
+      "officialRosterUrl": "https://ai.bupt.edu.cn/szdw.htm",
+      "profileChecked": false,
+      "decision": "excluded_insufficient_scope_evidence",
+      "reason": "官方名录仅有姓名或职类，缺少个人页、研究方向和独立招生证据；本轮按证据门槛不纳入，而非推断人物身份。",
+      "evidenceUrl": "http://ai.bupt.edu.cn/szdw/szyl/syzx.htm",
+      "evidenceExcerpt": "实验中心 | 北京邮电大学硕士 · 实验中心 · qgh@bupt.edu.cn"
+    },
+    {
+      "officialId": "https://teacher.bupt.edu.cn/sunjie/zh_CN/index.htm",
+      "name": "孙 颉 SUN Jie",
+      "title": null,
+      "officialSections": [
+        "实验中心"
+      ],
+      "profileUrl": "https://teacher.bupt.edu.cn/sunjie/zh_CN/index.htm",
+      "portraitUrl": "http://ai.bupt.edu.cn/__local/5/41/D9/654E9BFF7C61F3F7CB04D3DD718_E3163F62_F625.jpg",
+      "sourcePageUrl": "http://ai.bupt.edu.cn/szdw/szyl/syzx.htm",
+      "officialRosterUrl": "https://ai.bupt.edu.cn/szdw.htm",
+      "profileChecked": false,
+      "decision": "excluded_insufficient_scope_evidence",
+      "reason": "官方名录提供个人页，但页面无法解析出足够的研究方向与独立 PI 证据；本轮按证据门槛不纳入，而非推断为非 AI/CS 或非 PI。",
+      "evidenceUrl": "http://ai.bupt.edu.cn/szdw/szyl/syzx.htm",
+      "evidenceExcerpt": "实验中心 | 硕士 · 实验中心 · sunjie@bupt.edu.cn"
+    },
+    {
+      "officialId": "ygyc@bupt.edu.cn",
+      "name": "杨钢 YANG Gang",
+      "title": null,
+      "officialSections": [
+        "实验中心"
+      ],
+      "profileUrl": null,
+      "portraitUrl": "http://ai.bupt.edu.cn/__local/E/AF/0C/C612059C560AEDD99A3CDFFEA11_F01A2B1E_3F118.jpg",
+      "sourcePageUrl": "http://ai.bupt.edu.cn/szdw/szyl/syzx.htm",
+      "officialRosterUrl": "https://ai.bupt.edu.cn/szdw.htm",
+      "profileChecked": false,
+      "decision": "excluded_non_pi",
+      "reason": "官方名录职类为行政、实验技术、工程、科研助理、博士后或学生，且个人页未显示独立招生或研究组负责人资格。",
+      "evidenceUrl": "http://ai.bupt.edu.cn/szdw/szyl/syzx.htm",
+      "evidenceExcerpt": "实验中心 | 高级工程师 · 实验中心 · ygyc@bupt.edu.cn"
+    }
+  ]
+}

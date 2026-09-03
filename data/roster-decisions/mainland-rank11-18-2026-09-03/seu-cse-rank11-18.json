@@ -1,0 +1,3341 @@
+{
+  "schemaVersion": 1,
+  "region": "Mainland China",
+  "rank": 13,
+  "institution": "东南大学",
+  "unitId": "seu-cse-rank11-18",
+  "unitName": "计算机科学与工程学院 / 软件学院 / 人工智能学院",
+  "snapshotAt": "2026-09-02",
+  "reviewedAt": "2026-09-03",
+  "rosterArtifact": "data/official-rosters/seu-cse-all-faculty-2026-09-02.json",
+  "officialRosterUrl": "https://cse.seu.edu.cn/szdw_48203/list.htm",
+  "officialRosterCount": 195,
+  "decisionCount": 195,
+  "counts": {
+    "included_existing": 0,
+    "include_new_pi": 113,
+    "excluded_non_ai_cs": 0,
+    "excluded_non_pi": 4,
+    "excluded_historical": 0,
+    "excluded_industry_only": 0,
+    "excluded_insufficient_scope_evidence": 78,
+    "pending_profile_verification": 0
+  },
+  "decisions": [
+    {
+      "officialId": "64aab178daad3ce7",
+      "name": "Adam Mohammed",
+      "title": "官网列表未标注",
+      "officialSections": [
+        "师资队伍"
+      ],
+      "profileUrl": "https://cse.seu.edu.cn/2024/0216/c48203a480723/page.htm",
+      "portraitUrl": null,
+      "sourcePageUrl": "https://cse.seu.edu.cn/szdw_48203/list.htm",
+      "officialRosterUrl": "https://cse.seu.edu.cn/szdw_48203/list.htm",
+      "profileChecked": true,
+      "decision": "excluded_insufficient_scope_evidence",
+      "reason": "官方资料能确认相关研究方向，但可访问页面不足以证明其现任独立 PI 或招生资格；本轮按证据门槛不纳入，而非推断为非 PI。",
+      "evidenceUrl": "https://cse.seu.edu.cn/2024/0216/c48203a480723/page.htm",
+      "evidenceExcerpt": "149 第一页 <<上一页 下一页>> 尾页 页码 1 / 5 相关链接 东南大学 计算机网络和信息集成教育部重点实验室（东南大学） 新一代人工智能技术与交叉应用教育部重点实验室（东南大学） 江苏省网络与信息安全重点实验室 计算机国家级实验教学示范中心（东南大学） 东南大学计算机科学拔尖学生培养基地 联系方式 通信地址：南京市江宁区东南大学路2号东南大学九龙湖校区 邮政编码：211189 ​办公地点：东南大学九龙湖校区计算机楼 学院微信公众号 Copyright © 东南大学计算机科学与工程学院、软件学"
+    },
+    {
+      "officialId": "d4348cd1186f6a03",
+      "name": "Beilun Wang",
+      "title": "官网列表未标注",
+      "officialSections": [
+        "师资队伍"
+      ],
+      "profileUrl": "https://cse.seu.edu.cn/2024/0116/c48203a479028/page.htm",
+      "portraitUrl": null,
+      "sourcePageUrl": "https://cse.seu.edu.cn/szdw_48203/list.htm",
+      "officialRosterUrl": "https://cse.seu.edu.cn/szdw_48203/list.htm",
+      "profileChecked": true,
+      "decision": "excluded_insufficient_scope_evidence",
+      "reason": "官方资料能确认相关研究方向，但可访问页面不足以证明其现任独立 PI 或招生资格；本轮按证据门槛不纳入，而非推断为非 PI。",
+      "evidenceUrl": "https://cse.seu.edu.cn/2024/0116/c48203a479028/page.htm",
+      "evidenceExcerpt": "554 第一页 <<上一页 下一页>> 尾页 页码 1 / 9 相关链接 东南大学 计算机网络和信息集成教育部重点实验室（东南大学） 新一代人工智能技术与交叉应用教育部重点实验室（东南大学） 江苏省网络与信息安全重点实验室 计算机国家级实验教学示范中心（东南大学） 东南大学计算机科学拔尖学生培养基地 联系方式 通信地址：南京市江宁区东南大学路2号东南大学九龙湖校区 邮政编码：211189 ​办公地点：东南大学九龙湖校区计算机楼 学院微信公众号 Copyright © 东南大学计算机科学与工程学院、软件学"
+    },
+    {
+      "officialId": "4bb23809f6f18840",
+      "name": "包贤强",
+      "title": "官网列表未标注",
+      "officialSections": [
+        "师资队伍"
+      ],
+      "profileUrl": "https://cse.seu.edu.cn/2025/1216/c48203a548653/page.htm",
+      "portraitUrl": null,
+      "sourcePageUrl": "https://cse.seu.edu.cn/szdw_48203/list.htm",
+      "officialRosterUrl": "https://cse.seu.edu.cn/szdw_48203/list.htm",
+      "profileChecked": true,
+      "decision": "include_new_pi",
+      "reason": "官方个人页的研究方向命中 AI/NLP/CV/ML、数据智能、机器人或紧密相关方向，并确认教授/研究员或独立招生资格。",
+      "evidenceUrl": "https://cse.seu.edu.cn/2025/1216/c48203a548653/page.htm",
+      "evidenceExcerpt": "时间：2026-07-18 浏览次数： 1815 包贤强，东南大学教授，博士生导师，国家高层次青年人才，德国洪堡学者。 主要研究方向包括医疗机器人、 磁控机器人、 具身智能、人工智能交叉、多模态感知等。 围绕上述方向进行了相关研究与探索，论文发表和成果转化情况如下： （1） 论文发表： 以第一 / 共一在 Nature 、 Science Advances (2篇) 、以及 IEEE Transactions 系列(包括 TRO 、 TMECH 、 TIE 等)期刊或会议上发表研究论文20 余 篇，其"
+    },
+    {
+      "officialId": "00ea2976b9b9a263",
+      "name": "白如帆",
+      "title": "官网列表未标注",
+      "officialSections": [
+        "师资队伍"
+      ],
+      "profileUrl": "https://cse.seu.edu.cn/2024/0117/c48203a479350/page.htm",
+      "portraitUrl": null,
+      "sourcePageUrl": "https://cse.seu.edu.cn/szdw_48203/list.htm",
+      "officialRosterUrl": "https://cse.seu.edu.cn/szdw_48203/list.htm",
+      "profileChecked": true,
+      "decision": "include_new_pi",
+      "reason": "官方个人页的研究方向命中 AI/NLP/CV/ML、数据智能、机器人或紧密相关方向，并确认教授/研究员或独立招生资格。",
+      "evidenceUrl": "https://cse.seu.edu.cn/2024/0117/c48203a479350/page.htm",
+      "evidenceExcerpt": "教授和 吴晓伟 教授。自2023年9月加入东南大学计算机科学与工程系。研究领域包括但不限于算法博弈论，（资源及任务）公平分配，智能交通(时空数据挖掘)等。目前关注： 多智能体系统，强化学习，博弈论 。在相关的国际顶级会议和期刊上发表论文多篇，并担任多个著名国际会议和期刊的审稿人（WWW、TNNLS、AISTATS等） 2026年有多个硕士生指标，欢迎对以上方向感兴趣的学生联系，发送简历和成绩单到我的邮箱：rfbai@seu.edu.cn。 同时欢迎对科研有兴趣的 大二大三本科生加入 我们团队 进行科研训"
+    },
+    {
+      "officialId": "062840124f507f53",
+      "name": "Chau Vincent",
+      "title": "官网列表未标注",
+      "officialSections": [
+        "师资队伍"
+      ],
+      "profileUrl": "https://cse.seu.edu.cn/2024/0117/c48203a479215/page.htm",
+      "portraitUrl": null,
+      "sourcePageUrl": "https://cse.seu.edu.cn/szdw_48203/list.htm",
+      "officialRosterUrl": "https://cse.seu.edu.cn/szdw_48203/list.htm",
+      "profileChecked": true,
+      "decision": "excluded_insufficient_scope_evidence",
+      "reason": "官方资料能确认相关研究方向，但可访问页面不足以证明其现任独立 PI 或招生资格；本轮按证据门槛不纳入，而非推断为非 PI。",
+      "evidenceUrl": "https://cse.seu.edu.cn/2024/0117/c48203a479215/page.htm",
+      "evidenceExcerpt": "182 第一页 <<上一页 下一页>> 尾页 页码 1 / 5 相关链接 东南大学 计算机网络和信息集成教育部重点实验室（东南大学） 新一代人工智能技术与交叉应用教育部重点实验室（东南大学） 江苏省网络与信息安全重点实验室 计算机国家级实验教学示范中心（东南大学） 东南大学计算机科学拔尖学生培养基地 联系方式 通信地址：南京市江宁区东南大学路2号东南大学九龙湖校区 邮政编码：211189 ​办公地点：东南大学九龙湖校区计算机楼 学院微信公众号 Copyright © 东南大学计算机科学与工程学院、软件学"
+    },
+    {
+      "officialId": "1cf7b8990f13c5a4",
+      "name": "崇志宏",
+      "title": "官网列表未标注",
+      "officialSections": [
+        "师资队伍"
+      ],
+      "profileUrl": "https://cse.seu.edu.cn/2024/0117/c48203a479431/page.htm",
+      "portraitUrl": null,
+      "sourcePageUrl": "https://cse.seu.edu.cn/szdw_48203/list.htm",
+      "officialRosterUrl": "https://cse.seu.edu.cn/szdw_48203/list.htm",
+      "profileChecked": true,
+      "decision": "include_new_pi",
+      "reason": "官方个人页的研究方向命中 AI/NLP/CV/ML、数据智能、机器人或紧密相关方向，并确认教授/研究员或独立招生资格。",
+      "evidenceUrl": "https://cse.seu.edu.cn/2024/0117/c48203a479431/page.htm",
+      "evidenceExcerpt": "计算机科学与工程学院、软件学院、副教授、硕士生导师。曾在澳大利亚新南威尔士大学、新加坡和伊利诺伊大学联合研究中心从事学术访问和研究。主要从事人工智能的数学基础与应用技术、神经网络计算的数据科学与系统、互联网与去中心化计算/区块链的理论研究和应用研发。先后主持或参与国家自然基金、国家重点研发规划、 863 项目等多项，主持校企合作项目十多项。在人工智能、数据科学领域知名会议、期刊发表研究论文多篇 （ 研究论文@DBLP ） 研究生招生：欢迎爱动脑筋、有探索兴趣、有创业冲动或者职业追求、喜欢运动的同学联系、"
+    },
+    {
+      "officialId": "6c426b96de0c62f9",
+      "name": "曹玲玲",
+      "title": "官网列表未标注",
+      "officialSections": [
+        "师资队伍"
+      ],
+      "profileUrl": "https://cse.seu.edu.cn/2024/0111/c48203a478789/page.htm",
+      "portraitUrl": null,
+      "sourcePageUrl": "https://cse.seu.edu.cn/szdw_48203/list.htm",
+      "officialRosterUrl": "https://cse.seu.edu.cn/szdw_48203/list.htm",
+      "profileChecked": true,
+      "decision": "excluded_insufficient_scope_evidence",
+      "reason": "官方资料能确认相关研究方向，但可访问页面不足以证明其现任独立 PI 或招生资格；本轮按证据门槛不纳入，而非推断为非 PI。",
+      "evidenceUrl": "https://cse.seu.edu.cn/2024/0111/c48203a478789/page.htm",
+      "evidenceExcerpt": "mpt 第一页 <<上一页 下一页>> 尾页 页码 1 / 9 相关链接 东南大学 计算机网络和信息集成教育部重点实验室（东南大学） 新一代人工智能技术与交叉应用教育部重点实验室（东南大学） 江苏省网络与信息安全重点实验室 计算机国家级实验教学示范中心（东南大学） 东南大学计算机科学拔尖学生培养基地 联系方式 通信地址：南京市江宁区东南大学路2号东南大学九龙湖校区 邮政编码：211189 ​办公地点：东南大学九龙湖校区计算机楼 学院微信公众号 Copyright © 东南大学计算机科学与工程学院、软件学"
+    },
+    {
+      "officialId": "0832abae63c39e91",
+      "name": "蔡志玲",
+      "title": "官网列表未标注",
+      "officialSections": [
+        "师资队伍"
+      ],
+      "profileUrl": "https://cse.seu.edu.cn/2024/0117/c48203a479447/page.htm",
+      "portraitUrl": null,
+      "sourcePageUrl": "https://cse.seu.edu.cn/szdw_48203/list.htm",
+      "officialRosterUrl": "https://cse.seu.edu.cn/szdw_48203/list.htm",
+      "profileChecked": true,
+      "decision": "excluded_insufficient_scope_evidence",
+      "reason": "官方资料能确认相关研究方向，但可访问页面不足以证明其现任独立 PI 或招生资格；本轮按证据门槛不纳入，而非推断为非 PI。",
+      "evidenceUrl": "https://cse.seu.edu.cn/2024/0117/c48203a479447/page.htm",
+      "evidenceExcerpt": "118 第一页 <<上一页 下一页>> 尾页 页码 1 / 5 相关链接 东南大学 计算机网络和信息集成教育部重点实验室（东南大学） 新一代人工智能技术与交叉应用教育部重点实验室（东南大学） 江苏省网络与信息安全重点实验室 计算机国家级实验教学示范中心（东南大学） 东南大学计算机科学拔尖学生培养基地 联系方式 通信地址：南京市江宁区东南大学路2号东南大学九龙湖校区 邮政编码：211189 ​办公地点：东南大学九龙湖校区计算机楼 学院微信公众号 Copyright © 东南大学计算机科学与工程学院、软件学"
+    },
+    {
+      "officialId": "98bb75ae89b27580",
+      "name": "褚小磊",
+      "title": "官网列表未标注",
+      "officialSections": [
+        "师资队伍"
+      ],
+      "profileUrl": "https://cse.seu.edu.cn/2024/0117/c48203a479336/page.htm",
+      "portraitUrl": null,
+      "sourcePageUrl": "https://cse.seu.edu.cn/szdw_48203/list.htm",
+      "officialRosterUrl": "https://cse.seu.edu.cn/szdw_48203/list.htm",
+      "profileChecked": true,
+      "decision": "excluded_insufficient_scope_evidence",
+      "reason": "官方资料能确认相关研究方向，但可访问页面不足以证明其现任独立 PI 或招生资格；本轮按证据门槛不纳入，而非推断为非 PI。",
+      "evidenceUrl": "https://cse.seu.edu.cn/2024/0117/c48203a479336/page.htm",
+      "evidenceExcerpt": "258 第一页 <<上一页 下一页>> 尾页 页码 1 / 5 相关链接 东南大学 计算机网络和信息集成教育部重点实验室（东南大学） 新一代人工智能技术与交叉应用教育部重点实验室（东南大学） 江苏省网络与信息安全重点实验室 计算机国家级实验教学示范中心（东南大学） 东南大学计算机科学拔尖学生培养基地 联系方式 通信地址：南京市江宁区东南大学路2号东南大学九龙湖校区 邮政编码：211189 ​办公地点：东南大学九龙湖校区计算机楼 学院微信公众号 Copyright © 东南大学计算机科学与工程学院、软件学"
+    },
+    {
+      "officialId": "34aaa30f2102ce75",
+      "name": "陈伟",
+      "title": "官网列表未标注",
+      "officialSections": [
+        "师资队伍"
+      ],
+      "profileUrl": "https://cse.seu.edu.cn/2024/0216/c48203a480667/page.htm",
+      "portraitUrl": null,
+      "sourcePageUrl": "https://cse.seu.edu.cn/szdw_48203/list.htm",
+      "officialRosterUrl": "https://cse.seu.edu.cn/szdw_48203/list.htm",
+      "profileChecked": true,
+      "decision": "excluded_insufficient_scope_evidence",
+      "reason": "官方资料能确认相关研究方向，但可访问页面不足以证明其现任独立 PI 或招生资格；本轮按证据门槛不纳入，而非推断为非 PI。",
+      "evidenceUrl": "https://cse.seu.edu.cn/2024/0216/c48203a480667/page.htm",
+      "evidenceExcerpt": "167 第一页 <<上一页 下一页>> 尾页 页码 1 / 5 相关链接 东南大学 计算机网络和信息集成教育部重点实验室（东南大学） 新一代人工智能技术与交叉应用教育部重点实验室（东南大学） 江苏省网络与信息安全重点实验室 计算机国家级实验教学示范中心（东南大学） 东南大学计算机科学拔尖学生培养基地 联系方式 通信地址：南京市江宁区东南大学路2号东南大学九龙湖校区 邮政编码：211189 ​办公地点：东南大学九龙湖校区计算机楼 学院微信公众号 Copyright © 东南大学计算机科学与工程学院、软件学"
+    },
+    {
+      "officialId": "c74a6e807046d1c8",
+      "name": "陈忠英",
+      "title": "官网列表未标注",
+      "officialSections": [
+        "师资队伍"
+      ],
+      "profileUrl": "https://cse.seu.edu.cn/2024/0321/c48203a484645/page.htm",
+      "portraitUrl": null,
+      "sourcePageUrl": "https://cse.seu.edu.cn/szdw_48203/list.htm",
+      "officialRosterUrl": "https://cse.seu.edu.cn/szdw_48203/list.htm",
+      "profileChecked": true,
+      "decision": "include_new_pi",
+      "reason": "官方个人页的研究方向命中 AI/NLP/CV/ML、数据智能、机器人或紧密相关方向，并确认教授/研究员或独立招生资格。",
+      "evidenceUrl": "https://cse.seu.edu.cn/2024/0321/c48203a484645/page.htm",
+      "evidenceExcerpt": "博士学位。2024年加入 东南大学计算机科学与工程学院 ，先后任副教授（2024-2025年）、教授（2025年12月-至今）。 研究方向为神经网络、智能计算和智慧能源系统。 在人工智能和能源领域国际 上有影响力的期刊和会议上发表 多篇 论文 。主持国家自然基金，江苏省自然基金等项目。 更多信息请见： 学院中文主页 ， 英文主页 第一页 <<上一页 下一页>> 尾页 页码 1 / 9 相关链接 东南大学 计算机网络和信息集成教育部重点实验室（东南大学） 新一代人工智能技术与交叉应用教育部重点实验室（东南"
+    },
+    {
+      "officialId": "9897f0a407469bfd",
+      "name": "陈永锐",
+      "title": "官网列表未标注",
+      "officialSections": [
+        "师资队伍"
+      ],
+      "profileUrl": "https://cse.seu.edu.cn/2024/0903/c48203a501785/page.htm",
+      "portraitUrl": null,
+      "sourcePageUrl": "https://cse.seu.edu.cn/szdw_48203/list.htm",
+      "officialRosterUrl": "https://cse.seu.edu.cn/szdw_48203/list.htm",
+      "profileChecked": true,
+      "decision": "include_new_pi",
+      "reason": "官方个人页的研究方向命中 AI/NLP/CV/ML、数据智能、机器人或紧密相关方向，并确认教授/研究员或独立招生资格。",
+      "evidenceUrl": "https://cse.seu.edu.cn/2024/0903/c48203a501785/page.htm",
+      "evidenceExcerpt": "gence，COIN） 成员，入选江苏省卓越博士后计划、腾讯犀牛鸟精英人才计划。2024年获得东南大学软件工程博士学位，导师漆桂林教授。主攻人工智能自然语言处理领域，涵盖了知识图谱推理、数据库推理、大模型持续学习等多个前沿方向。 在NeurIPS、TKDE、AAAI、 IJCAI、EMNLP等国际顶级学术期刊及会议上发表学术论文30余篇，并且参与了包括TPAMI、TKDD、CIKM、EMNLP、VLDB在内的多项顶级期刊会议的审稿工作。与漆桂林教授合作，深度参与华为“难题揭榜”大模型内外知识融合课题研究"
+    },
+    {
+      "officialId": "f12057b73fadfec8",
+      "name": "陈浩",
+      "title": "官网列表未标注",
+      "officialSections": [
+        "师资队伍"
+      ],
+      "profileUrl": "https://cse.seu.edu.cn/2024/0117/c48203a479211/page.htm",
+      "portraitUrl": null,
+      "sourcePageUrl": "https://cse.seu.edu.cn/szdw_48203/list.htm",
+      "officialRosterUrl": "https://cse.seu.edu.cn/szdw_48203/list.htm",
+      "profileChecked": true,
+      "decision": "excluded_insufficient_scope_evidence",
+      "reason": "官方资料能确认相关研究方向，但可访问页面不足以证明其现任独立 PI 或招生资格；本轮按证据门槛不纳入，而非推断为非 PI。",
+      "evidenceUrl": "https://cse.seu.edu.cn/2024/0117/c48203a479211/page.htm",
+      "evidenceExcerpt": "117 第一页 <<上一页 下一页>> 尾页 页码 1 / 9 相关链接 东南大学 计算机网络和信息集成教育部重点实验室（东南大学） 新一代人工智能技术与交叉应用教育部重点实验室（东南大学） 江苏省网络与信息安全重点实验室 计算机国家级实验教学示范中心（东南大学） 东南大学计算机科学拔尖学生培养基地 联系方式 通信地址：南京市江宁区东南大学路2号东南大学九龙湖校区 邮政编码：211189 ​办公地点：东南大学九龙湖校区计算机楼 学院微信公众号 Copyright © 东南大学计算机科学与工程学院、软件学"
+    },
+    {
+      "officialId": "a24094f973d3d2ce",
+      "name": "陈芸丽",
+      "title": "官网列表未标注",
+      "officialSections": [
+        "师资队伍"
+      ],
+      "profileUrl": "https://cse.seu.edu.cn/2024/0301/c48203a482761/page.htm",
+      "portraitUrl": null,
+      "sourcePageUrl": "https://cse.seu.edu.cn/szdw_48203/list.htm",
+      "officialRosterUrl": "https://cse.seu.edu.cn/szdw_48203/list.htm",
+      "profileChecked": true,
+      "decision": "excluded_insufficient_scope_evidence",
+      "reason": "官方资料能确认相关研究方向，但可访问页面不足以证明其现任独立 PI 或招生资格；本轮按证据门槛不纳入，而非推断为非 PI。",
+      "evidenceUrl": "https://cse.seu.edu.cn/2024/0301/c48203a482761/page.htm",
+      "evidenceExcerpt": "179 第一页 <<上一页 下一页>> 尾页 页码 1 / 5 相关链接 东南大学 计算机网络和信息集成教育部重点实验室（东南大学） 新一代人工智能技术与交叉应用教育部重点实验室（东南大学） 江苏省网络与信息安全重点实验室 计算机国家级实验教学示范中心（东南大学） 东南大学计算机科学拔尖学生培养基地 联系方式 通信地址：南京市江宁区东南大学路2号东南大学九龙湖校区 邮政编码：211189 ​办公地点：东南大学九龙湖校区计算机楼 学院微信公众号 Copyright © 东南大学计算机科学与工程学院、软件学"
+    },
+    {
+      "officialId": "39b994be80106e04",
+      "name": "陈阳",
+      "title": "官网列表未标注",
+      "officialSections": [
+        "师资队伍"
+      ],
+      "profileUrl": "https://cse.seu.edu.cn/2024/0116/c48203a479090/page.htm",
+      "portraitUrl": null,
+      "sourcePageUrl": "https://cse.seu.edu.cn/szdw_48203/list.htm",
+      "officialRosterUrl": "https://cse.seu.edu.cn/szdw_48203/list.htm",
+      "profileChecked": true,
+      "decision": "excluded_insufficient_scope_evidence",
+      "reason": "官方资料能确认相关研究方向，但可访问页面不足以证明其现任独立 PI 或招生资格；本轮按证据门槛不纳入，而非推断为非 PI。",
+      "evidenceUrl": "https://cse.seu.edu.cn/2024/0116/c48203a479090/page.htm",
+      "evidenceExcerpt": "253 第一页 <<上一页 下一页>> 尾页 页码 1 / 5 相关链接 东南大学 计算机网络和信息集成教育部重点实验室（东南大学） 新一代人工智能技术与交叉应用教育部重点实验室（东南大学） 江苏省网络与信息安全重点实验室 计算机国家级实验教学示范中心（东南大学） 东南大学计算机科学拔尖学生培养基地 联系方式 通信地址：南京市江宁区东南大学路2号东南大学九龙湖校区 邮政编码：211189 ​办公地点：东南大学九龙湖校区计算机楼 学院微信公众号 Copyright © 东南大学计算机科学与工程学院、软件学"
+    },
+    {
+      "officialId": "93c9cc4e04babe1b",
+      "name": "陈龙",
+      "title": "官网列表未标注",
+      "officialSections": [
+        "师资队伍"
+      ],
+      "profileUrl": "https://cse.seu.edu.cn/2024/0117/c48203a479472/page.htm",
+      "portraitUrl": null,
+      "sourcePageUrl": "https://cse.seu.edu.cn/szdw_48203/list.htm",
+      "officialRosterUrl": "https://cse.seu.edu.cn/szdw_48203/list.htm",
+      "profileChecked": true,
+      "decision": "include_new_pi",
+      "reason": "官方个人页的研究方向命中 AI/NLP/CV/ML、数据智能、机器人或紧密相关方向，并确认教授/研究员或独立招生资格。",
+      "evidenceUrl": "https://cse.seu.edu.cn/2024/0117/c48203a479472/page.htm",
+      "evidenceExcerpt": "EEE 、 ACM 、 CCF 会员， CCF 协同计算专委会委员、中国仿真学会智能仿真优化与调度专委会委员。长期从事边缘计算、 云计算、 大模型部署优化等方面的研究。主持国家重点研发计划子课题“基于业务融合和闭环反馈的多场景决策模型及知识图谱”。主持国家自然科学青年项目 “ 无服务器工作流的图挖掘与分形调度 ” 和江苏省自然科学基金青年项目 “ 基于频繁子图挖掘的函数工作流快速调度方法 ” ；参与国家重点研发计划项目 “ 专业科技资源及服务集成技术 ” 、国家自然科学基金重点项目 “ 大数据环境下的"
+    },
+    {
+      "officialId": "9037339368100c65",
+      "name": "丁彧",
+      "title": "官网列表未标注",
+      "officialSections": [
+        "师资队伍"
+      ],
+      "profileUrl": "https://cse.seu.edu.cn/2024/0216/c48203a480707/page.htm",
+      "portraitUrl": null,
+      "sourcePageUrl": "https://cse.seu.edu.cn/szdw_48203/list.htm",
+      "officialRosterUrl": "https://cse.seu.edu.cn/szdw_48203/list.htm",
+      "profileChecked": true,
+      "decision": "excluded_insufficient_scope_evidence",
+      "reason": "官方资料能确认相关研究方向，但可访问页面不足以证明其现任独立 PI 或招生资格；本轮按证据门槛不纳入，而非推断为非 PI。",
+      "evidenceUrl": "https://cse.seu.edu.cn/2024/0216/c48203a480707/page.htm",
+      "evidenceExcerpt": "110 第一页 <<上一页 下一页>> 尾页 页码 1 / 5 相关链接 东南大学 计算机网络和信息集成教育部重点实验室（东南大学） 新一代人工智能技术与交叉应用教育部重点实验室（东南大学） 江苏省网络与信息安全重点实验室 计算机国家级实验教学示范中心（东南大学） 东南大学计算机科学拔尖学生培养基地 联系方式 通信地址：南京市江宁区东南大学路2号东南大学九龙湖校区 邮政编码：211189 ​办公地点：东南大学九龙湖校区计算机楼 学院微信公众号 Copyright © 东南大学计算机科学与工程学院、软件学"
+    },
+    {
+      "officialId": "4144cbdd0d8069e2",
+      "name": "丁玎",
+      "title": "官网列表未标注",
+      "officialSections": [
+        "师资队伍"
+      ],
+      "profileUrl": "https://cse.seu.edu.cn/2024/0117/c48203a479475/page.htm",
+      "portraitUrl": null,
+      "sourcePageUrl": "https://cse.seu.edu.cn/szdw_48203/list.htm",
+      "officialRosterUrl": "https://cse.seu.edu.cn/szdw_48203/list.htm",
+      "profileChecked": true,
+      "decision": "include_new_pi",
+      "reason": "官方个人页的研究方向命中 AI/NLP/CV/ML、数据智能、机器人或紧密相关方向，并确认教授/研究员或独立招生资格。",
+      "evidenceUrl": "https://cse.seu.edu.cn/2024/0117/c48203a479475/page.htm",
+      "evidenceExcerpt": "究，并于2018年赴加拿大魁北克大学做短期访问学者。 目前在“江苏省网 络与信息安全重点实验室”从事教学科研工作， 主要研究方向为虚拟现实与人机交互、 智慧医疗与数字健康、交互智能与边缘计算， 累计以第一作者或通讯作者身份在领域权威国际期刊和国际会议上发表论文二十余篇 ，其中包括 IJHCS 、TOSN、 IJHCI 、 IWC 等 CCF A 、 B 类期刊多篇 ，担任 CHI、ACM MM、CSCW、TAC、TKDE 等多个国际知名会议与期刊审稿人。 在荷工作期间，曾作为导师指导 多 位硕士生和 本"
+    },
+    {
+      "officialId": "6f19fa5482b55a4d",
+      "name": "东方",
+      "title": "官网列表未标注",
+      "officialSections": [
+        "师资队伍"
+      ],
+      "profileUrl": "https://cse.seu.edu.cn/2023/0915/c48203a464568/page.htm",
+      "portraitUrl": null,
+      "sourcePageUrl": "https://cse.seu.edu.cn/szdw_48203/list.htm",
+      "officialRosterUrl": "https://cse.seu.edu.cn/szdw_48203/list.htm",
+      "profileChecked": true,
+      "decision": "include_new_pi",
+      "reason": "官方个人页的研究方向命中 AI/NLP/CV/ML、数据智能、机器人或紧密相关方向，并确认教授/研究员或独立招生资格。",
+      "evidenceUrl": "https://cse.seu.edu.cn/2023/0915/c48203a464568/page.htm",
+      "evidenceExcerpt": "io/ 第一页 <<上一页 下一页>> 尾页 页码 1 / 9 相关链接 东南大学 计算机网络和信息集成教育部重点实验室（东南大学） 新一代人工智能技术与交叉应用教育部重点实验室（东南大学） 江苏省网络与信息安全重点实验室 计算机国家级实验教学示范中心（东南大学） 东南大学计算机科学拔尖学生培养基地 联系方式 通信地址：南京市江宁区东南大学路2号东南大学九龙湖校区 邮政编码：211189 ​办公地点：东南大学九龙湖校区计算机楼 学院微信公众号 Copyright © 东南大学计算机科学与工程学院、软件学"
+    },
+    {
+      "officialId": "8220146cb13d9048",
+      "name": "单冯",
+      "title": "官网列表未标注",
+      "officialSections": [
+        "师资队伍"
+      ],
+      "profileUrl": "https://cse.seu.edu.cn/2024/0116/c48203a479022/page.htm",
+      "portraitUrl": null,
+      "sourcePageUrl": "https://cse.seu.edu.cn/szdw_48203/list.htm",
+      "officialRosterUrl": "https://cse.seu.edu.cn/szdw_48203/list.htm",
+      "profileChecked": true,
+      "decision": "include_new_pi",
+      "reason": "官方个人页的研究方向命中 AI/NLP/CV/ML、数据智能、机器人或紧密相关方向，并确认教授/研究员或独立招生资格。",
+      "evidenceUrl": "https://cse.seu.edu.cn/2024/0116/c48203a479022/page.htm",
+      "evidenceExcerpt": "得东南大学优秀班主任标兵、东南大学优秀本科生导师、东南大学教育基金“思特奇未来之星”等荣誉称号。 我的研究兴趣包括智能嵌入式系统、边缘智能、群体智能、具身智能体网络、规划与调度、算法设计与优化等。我所在的研究团队隶属于江苏省网络与信息安全重点实验室、网络与信息集成教育部重点实验室。欢迎希望从事智能嵌入式系统、边缘智能、群体智能、具身智能体网络、规划与调度、算法设计与优化等研究的同学联系我！ 研究小组成员及毕业去向 。 2027年博士仍有名额（方向：智能嵌入式系统、边缘智能、群体智能、具身智能体网络、规划"
+    },
+    {
+      "officialId": "d7e1595414ef6226",
+      "name": "单琥",
+      "title": "官网列表未标注",
+      "officialSections": [
+        "师资队伍"
+      ],
+      "profileUrl": "https://cse.seu.edu.cn/2024/0216/c48203a480669/page.htm",
+      "portraitUrl": null,
+      "sourcePageUrl": "https://cse.seu.edu.cn/szdw_48203/list.htm",
+      "officialRosterUrl": "https://cse.seu.edu.cn/szdw_48203/list.htm",
+      "profileChecked": true,
+      "decision": "excluded_insufficient_scope_evidence",
+      "reason": "官方资料能确认相关研究方向，但可访问页面不足以证明其现任独立 PI 或招生资格；本轮按证据门槛不纳入，而非推断为非 PI。",
+      "evidenceUrl": "https://cse.seu.edu.cn/2024/0216/c48203a480669/page.htm",
+      "evidenceExcerpt": "105 第一页 <<上一页 下一页>> 尾页 页码 1 / 5 相关链接 东南大学 计算机网络和信息集成教育部重点实验室（东南大学） 新一代人工智能技术与交叉应用教育部重点实验室（东南大学） 江苏省网络与信息安全重点实验室 计算机国家级实验教学示范中心（东南大学） 东南大学计算机科学拔尖学生培养基地 联系方式 通信地址：南京市江宁区东南大学路2号东南大学九龙湖校区 邮政编码：211189 ​办公地点：东南大学九龙湖校区计算机楼 学院微信公众号 Copyright © 东南大学计算机科学与工程学院、软件学"
+    },
+    {
+      "officialId": "ebe3afed016e5b1e",
+      "name": "狄凯",
+      "title": "官网列表未标注",
+      "officialSections": [
+        "师资队伍"
+      ],
+      "profileUrl": "https://cse.seu.edu.cn/2024/0216/c48203a480721/page.htm",
+      "portraitUrl": null,
+      "sourcePageUrl": "https://cse.seu.edu.cn/szdw_48203/list.htm",
+      "officialRosterUrl": "https://cse.seu.edu.cn/szdw_48203/list.htm",
+      "profileChecked": true,
+      "decision": "excluded_insufficient_scope_evidence",
+      "reason": "官方资料能确认相关研究方向，但可访问页面不足以证明其现任独立 PI 或招生资格；本轮按证据门槛不纳入，而非推断为非 PI。",
+      "evidenceUrl": "https://cse.seu.edu.cn/2024/0216/c48203a480721/page.htm",
+      "evidenceExcerpt": "276 第一页 <<上一页 下一页>> 尾页 页码 1 / 5 相关链接 东南大学 计算机网络和信息集成教育部重点实验室（东南大学） 新一代人工智能技术与交叉应用教育部重点实验室（东南大学） 江苏省网络与信息安全重点实验室 计算机国家级实验教学示范中心（东南大学） 东南大学计算机科学拔尖学生培养基地 联系方式 通信地址：南京市江宁区东南大学路2号东南大学九龙湖校区 邮政编码：211189 ​办公地点：东南大学九龙湖校区计算机楼 学院微信公众号 Copyright © 东南大学计算机科学与工程学院、软件学"
+    },
+    {
+      "officialId": "dfdfc583e77b1d24",
+      "name": "董恺",
+      "title": "官网列表未标注",
+      "officialSections": [
+        "师资队伍"
+      ],
+      "profileUrl": "https://cse.seu.edu.cn/2024/0116/c48203a479018/page.htm",
+      "portraitUrl": null,
+      "sourcePageUrl": "https://cse.seu.edu.cn/szdw_48203/list.htm",
+      "officialRosterUrl": "https://cse.seu.edu.cn/szdw_48203/list.htm",
+      "profileChecked": true,
+      "decision": "excluded_insufficient_scope_evidence",
+      "reason": "官方资料能确认相关研究方向，但可访问页面不足以证明其现任独立 PI 或招生资格；本轮按证据门槛不纳入，而非推断为非 PI。",
+      "evidenceUrl": "https://cse.seu.edu.cn/2024/0116/c48203a479018/page.htm",
+      "evidenceExcerpt": "8 - 第一页 <<上一页 下一页>> 尾页 页码 1 / 9 相关链接 东南大学 计算机网络和信息集成教育部重点实验室（东南大学） 新一代人工智能技术与交叉应用教育部重点实验室（东南大学） 江苏省网络与信息安全重点实验室 计算机国家级实验教学示范中心（东南大学） 东南大学计算机科学拔尖学生培养基地 联系方式 通信地址：南京市江宁区东南大学路2号东南大学九龙湖校区 邮政编码：211189 ​办公地点：东南大学九龙湖校区计算机楼 学院微信公众号 Copyright © 东南大学计算机科学与工程学院、软件学"
+    },
+    {
+      "officialId": "698ed7a3afb71b2a",
+      "name": "董晓",
+      "title": "官网列表未标注",
+      "officialSections": [
+        "师资队伍"
+      ],
+      "profileUrl": "https://cse.seu.edu.cn/2024/0116/c48203a479099/page.htm",
+      "portraitUrl": null,
+      "sourcePageUrl": "https://cse.seu.edu.cn/szdw_48203/list.htm",
+      "officialRosterUrl": "https://cse.seu.edu.cn/szdw_48203/list.htm",
+      "profileChecked": true,
+      "decision": "excluded_insufficient_scope_evidence",
+      "reason": "官方资料能确认相关研究方向，但可访问页面不足以证明其现任独立 PI 或招生资格；本轮按证据门槛不纳入，而非推断为非 PI。",
+      "evidenceUrl": "https://cse.seu.edu.cn/2024/0116/c48203a479099/page.htm",
+      "evidenceExcerpt": "玩了。 第一页 <<上一页 下一页>> 尾页 页码 1 / 8 相关链接 东南大学 计算机网络和信息集成教育部重点实验室（东南大学） 新一代人工智能技术与交叉应用教育部重点实验室（东南大学） 江苏省网络与信息安全重点实验室 计算机国家级实验教学示范中心（东南大学） 东南大学计算机科学拔尖学生培养基地 联系方式 通信地址：南京市江宁区东南大学路2号东南大学九龙湖校区 邮政编码：211189 ​办公地点：东南大学九龙湖校区计算机楼 学院微信公众号 Copyright © 东南大学计算机科学与工程学院、软件学"
+    },
+    {
+      "officialId": "3c6f7109f091382a",
+      "name": "董永强",
+      "title": "官网列表未标注",
+      "officialSections": [
+        "师资队伍"
+      ],
+      "profileUrl": "https://cse.seu.edu.cn/2024/0116/c48203a479036/page.htm",
+      "portraitUrl": null,
+      "sourcePageUrl": "https://cse.seu.edu.cn/szdw_48203/list.htm",
+      "officialRosterUrl": "https://cse.seu.edu.cn/szdw_48203/list.htm",
+      "profileChecked": true,
+      "decision": "excluded_insufficient_scope_evidence",
+      "reason": "官方资料能确认相关研究方向，但可访问页面不足以证明其现任独立 PI 或招生资格；本轮按证据门槛不纳入，而非推断为非 PI。",
+      "evidenceUrl": "https://cse.seu.edu.cn/2024/0116/c48203a479036/page.htm",
+      "evidenceExcerpt": "548 第一页 <<上一页 下一页>> 尾页 页码 1 / 9 相关链接 东南大学 计算机网络和信息集成教育部重点实验室（东南大学） 新一代人工智能技术与交叉应用教育部重点实验室（东南大学） 江苏省网络与信息安全重点实验室 计算机国家级实验教学示范中心（东南大学） 东南大学计算机科学拔尖学生培养基地 联系方式 通信地址：南京市江宁区东南大学路2号东南大学九龙湖校区 邮政编码：211189 ​办公地点：东南大学九龙湖校区计算机楼 学院微信公众号 Copyright © 东南大学计算机科学与工程学院、软件学"
+    },
+    {
+      "officialId": "25c76f11c9b0d249",
+      "name": "董烨",
+      "title": "官网列表未标注",
+      "officialSections": [
+        "师资队伍"
+      ],
+      "profileUrl": "https://cse.seu.edu.cn/2024/0117/c48203a479344/page.htm",
+      "portraitUrl": null,
+      "sourcePageUrl": "https://cse.seu.edu.cn/szdw_48203/list.htm",
+      "officialRosterUrl": "https://cse.seu.edu.cn/szdw_48203/list.htm",
+      "profileChecked": true,
+      "decision": "excluded_insufficient_scope_evidence",
+      "reason": "官方资料能确认相关研究方向，但可访问页面不足以证明其现任独立 PI 或招生资格；本轮按证据门槛不纳入，而非推断为非 PI。",
+      "evidenceUrl": "https://cse.seu.edu.cn/2024/0117/c48203a479344/page.htm",
+      "evidenceExcerpt": "120 第一页 <<上一页 下一页>> 尾页 页码 1 / 5 相关链接 东南大学 计算机网络和信息集成教育部重点实验室（东南大学） 新一代人工智能技术与交叉应用教育部重点实验室（东南大学） 江苏省网络与信息安全重点实验室 计算机国家级实验教学示范中心（东南大学） 东南大学计算机科学拔尖学生培养基地 联系方式 通信地址：南京市江宁区东南大学路2号东南大学九龙湖校区 邮政编码：211189 ​办公地点：东南大学九龙湖校区计算机楼 学院微信公众号 Copyright © 东南大学计算机科学与工程学院、软件学"
+    },
+    {
+      "officialId": "a1fcaf48aa9cb5d1",
+      "name": "邸世民",
+      "title": "官网列表未标注",
+      "officialSections": [
+        "师资队伍"
+      ],
+      "profileUrl": "https://cse.seu.edu.cn/2025/0225/c48203a519385/page.htm",
+      "portraitUrl": null,
+      "sourcePageUrl": "https://cse.seu.edu.cn/szdw_48203/list.htm",
+      "officialRosterUrl": "https://cse.seu.edu.cn/szdw_48203/list.htm",
+      "profileChecked": true,
+      "decision": "include_new_pi",
+      "reason": "官方个人页的研究方向命中 AI/NLP/CV/ML、数据智能、机器人或紧密相关方向，并确认教授/研究员或独立招生资格。",
+      "evidenceUrl": "https://cse.seu.edu.cn/2025/0225/c48203a519385/page.htm",
+      "evidenceExcerpt": "青年人才（2024）、香港科学院青年科学家（2024）、小米青年学者（2025）、紫金青年学者（2025）等计划，主要研究领域为智能体系统、数据挖掘与科学智能。2016年自湖南大学数学学院取得学士学位，2017年、2022年先后获香港科技大学硕士、博士学位，同年加入香港科技大学，历任博士后研究员、研究助理教授，2025年起任教于东南大学，2026年被聘为东南大学青年首席教授。 近年来，他围绕大模型智能体系统和科学垂域智能体系统展开理论技术攻关和示范应用研发，逐步形成从可执行工具供给、稳定任务规划、工作流"
+    },
+    {
+      "officialId": "670453e25041059b",
+      "name": "傅忱忱",
+      "title": "官网列表未标注",
+      "officialSections": [
+        "师资队伍"
+      ],
+      "profileUrl": "https://cse.seu.edu.cn/2024/0117/c48203a479459/page.htm",
+      "portraitUrl": null,
+      "sourcePageUrl": "https://cse.seu.edu.cn/szdw_48203/list.htm",
+      "officialRosterUrl": "https://cse.seu.edu.cn/szdw_48203/list.htm",
+      "profileChecked": true,
+      "decision": "include_new_pi",
+      "reason": "官方个人页的研究方向命中 AI/NLP/CV/ML、数据智能、机器人或紧密相关方向，并确认教授/研究员或独立招生资格。",
+      "evidenceUrl": "https://cse.seu.edu.cn/2024/0117/c48203a479459/page.htm",
+      "evidenceExcerpt": "S等多个国际会议的PC member。 招生须知： 每年招收 2-3名博士生，4- 5名 研究生 ，有钻研精神的本科生 不限。 非常欢迎有 大模型Agent使用经验、 ACM、NOI、数理类奥林匹克等 相关竞赛获奖经历或参赛经历的学生报名！ 同学可根据自身情况选择系统研究路线或理论研究路线。 系统研究路线 侧重于对AI agent、深度强化学习、大语言模型等相关算法的学习与实践，包括且不限于AI agent开发、智能无人系统（无人车、无人机、机器人等），具身智能等方向，要求具有较高的编程能力和探究精神"
+    },
+    {
+      "officialId": "69b1cae3c9120eb4",
+      "name": "冯前进",
+      "title": "官网列表未标注",
+      "officialSections": [
+        "师资队伍"
+      ],
+      "profileUrl": "https://cse.seu.edu.cn/2025/0211/c48203a518379/page.htm",
+      "portraitUrl": null,
+      "sourcePageUrl": "https://cse.seu.edu.cn/szdw_48203/list.htm",
+      "officialRosterUrl": "https://cse.seu.edu.cn/szdw_48203/list.htm",
+      "profileChecked": true,
+      "decision": "excluded_insufficient_scope_evidence",
+      "reason": "官方资料能确认相关研究方向，但可访问页面不足以证明其现任独立 PI 或招生资格；本轮按证据门槛不纳入，而非推断为非 PI。",
+      "evidenceUrl": "https://cse.seu.edu.cn/2025/0211/c48203a518379/page.htm",
+      "evidenceExcerpt": "160 第一页 <<上一页 下一页>> 尾页 页码 1 / 5 相关链接 东南大学 计算机网络和信息集成教育部重点实验室（东南大学） 新一代人工智能技术与交叉应用教育部重点实验室（东南大学） 江苏省网络与信息安全重点实验室 计算机国家级实验教学示范中心（东南大学） 东南大学计算机科学拔尖学生培养基地 联系方式 通信地址：南京市江宁区东南大学路2号东南大学九龙湖校区 邮政编码：211189 ​办公地点：东南大学九龙湖校区计算机楼 学院微信公众号 Copyright © 东南大学计算机科学与工程学院、软件学"
+    },
+    {
+      "officialId": "846db5ca5066e537",
+      "name": "冯磊",
+      "title": "官网列表未标注",
+      "officialSections": [
+        "师资队伍"
+      ],
+      "profileUrl": "https://cse.seu.edu.cn/2025/0321/c48203a522422/page.htm",
+      "portraitUrl": null,
+      "sourcePageUrl": "https://cse.seu.edu.cn/szdw_48203/list.htm",
+      "officialRosterUrl": "https://cse.seu.edu.cn/szdw_48203/list.htm",
+      "profileChecked": true,
+      "decision": "include_new_pi",
+      "reason": "官方个人页的研究方向命中 AI/NLP/CV/ML、数据智能、机器人或紧密相关方向，并确认教授/研究员或独立招生资格。",
+      "evidenceUrl": "https://cse.seu.edu.cn/2025/0321/c48203a522422/page.htm",
+      "evidenceExcerpt": "浏览次数： 8168 冯磊，东南大学计算机科学与工程学院青年首席教授/博导、国家级高层次青年人才。 博士毕业于新加坡南洋理工大学，研究方向为大模型智能体、人工智能安全、科学智能。 长期担任多个国际高水平会议（如ICML、NeurIPS、ICLR）的领域主席，并担任国际知名期刊（如TMLR、NN）的编委。目前已在国际高水平学术会议与期刊上发表论文100余篇，获得了ICLR 2022杰出论文奖荣誉提名、2024年世界人工智能大会青年优秀论文提名奖等荣誉， 先后入选了2021年福布斯中国30位30岁以下精英"
+    },
+    {
+      "officialId": "df1fb31f6e9d3578",
+      "name": "方效林",
+      "title": "官网列表未标注",
+      "officialSections": [
+        "师资队伍"
+      ],
+      "profileUrl": "https://cse.seu.edu.cn/2024/0116/c48203a479012/page.htm",
+      "portraitUrl": null,
+      "sourcePageUrl": "https://cse.seu.edu.cn/szdw_48203/list.htm",
+      "officialRosterUrl": "https://cse.seu.edu.cn/szdw_48203/list.htm",
+      "profileChecked": true,
+      "decision": "include_new_pi",
+      "reason": "官方个人页的研究方向命中 AI/NLP/CV/ML、数据智能、机器人或紧密相关方向，并确认教授/研究员或独立招生资格。",
+      "evidenceUrl": "https://cse.seu.edu.cn/2024/0116/c48203a479012/page.htm",
+      "evidenceExcerpt": "件与理论专业，师从高宏和李建中教授，获博士学位。同年进入东南大学计算机科学与工程学院任教。其研究领域包括传感器网络数据分析处理技术及其应用、无人机自动控制等。 第一页 <<上一页 下一页>> 尾页 页码 1 / 9 相关链接 东南大学 计算机网络和信息集成教育部重点实验室（东南大学） 新一代人工智能技术与交叉应用教育部重点实验室（东南大学） 江苏省网络与信息安全重点实验室 计算机国家级实验教学示范中心（东南大学） 东南大学计算机科学拔尖学生培养基地 联系方式 通信地址：南京市江宁区东南大学路2号东南大"
+    },
+    {
+      "officialId": "900bd4d8aeedcbb2",
+      "name": "方鹏飞",
+      "title": "官网列表未标注",
+      "officialSections": [
+        "师资队伍"
+      ],
+      "profileUrl": "https://cse.seu.edu.cn/2024/0117/c48203a479330/page.htm",
+      "portraitUrl": null,
+      "sourcePageUrl": "https://cse.seu.edu.cn/szdw_48203/list.htm",
+      "officialRosterUrl": "https://cse.seu.edu.cn/szdw_48203/list.htm",
+      "profileChecked": true,
+      "decision": "include_new_pi",
+      "reason": "官方个人页的研究方向命中 AI/NLP/CV/ML、数据智能、机器人或紧密相关方向，并确认教授/研究员或独立招生资格。",
+      "evidenceUrl": "https://cse.seu.edu.cn/2024/0117/c48203a479330/page.htm",
+      "evidenceExcerpt": "of Computer Science and Engineering Key Laboratory of New Generation Artificial Intelligence Technology and Its Interdisciplinary Applications (Southeast University), Ministry of Education, China Southeast University Office: Room 437, Computer Science Building, Jiulonghu"
+    },
+    {
+      "officialId": "3bcd7687c90401d6",
+      "name": "樊文飞",
+      "title": "官网列表未标注",
+      "officialSections": [
+        "师资队伍"
+      ],
+      "profileUrl": "https://cse.seu.edu.cn/2024/1204/c48203a513601/page.htm",
+      "portraitUrl": null,
+      "sourcePageUrl": "https://cse.seu.edu.cn/szdw_48203/list.htm",
+      "officialRosterUrl": "https://cse.seu.edu.cn/szdw_48203/list.htm",
+      "profileChecked": true,
+      "decision": "include_new_pi",
+      "reason": "官方个人页的研究方向命中 AI/NLP/CV/ML、数据智能、机器人或紧密相关方向，并确认教授/研究员或独立招生资格。",
+      "evidenceUrl": "https://cse.seu.edu.cn/2024/1204/c48203a513601/page.htm",
+      "evidenceExcerpt": "年当选为欧洲科学院院士；2018年当选为英国皇家学会院士；2019年当选为中国科学院外籍院士；2023年当选为英国皇家工程院院士。 樊文飞，数据库专家，长期从事数据库理论与系统的研究，在大数据计算、数据质量与半结构化数据管理等方面做出了开创性和系统性工作。 第一页 <<上一页 下一页>> 尾页 页码 1 / 5 相关链接 东南大学 计算机网络和信息集成教育部重点实验室（东南大学） 新一代人工智能技术与交叉应用教育部重点实验室（东南大学） 江苏省网络与信息安全重点实验室 计算机国家级实验教学示范中心（东"
+    },
+    {
+      "officialId": "bf498c7d0a6dc777",
+      "name": "耿新",
+      "title": "官网列表未标注",
+      "officialSections": [
+        "师资队伍"
+      ],
+      "profileUrl": "https://cse.seu.edu.cn/2024/0116/c48203a479080/page.htm",
+      "portraitUrl": null,
+      "sourcePageUrl": "https://cse.seu.edu.cn/szdw_48203/list.htm",
+      "officialRosterUrl": "https://cse.seu.edu.cn/szdw_48203/list.htm",
+      "profileChecked": true,
+      "decision": "include_new_pi",
+      "reason": "官方个人页的研究方向命中 AI/NLP/CV/ML、数据智能、机器人或紧密相关方向，并确认教授/研究员或独立招生资格。",
+      "evidenceUrl": "https://cse.seu.edu.cn/2024/0116/c48203a479080/page.htm",
+      "evidenceExcerpt": "动态 耿新 发布者：耿新 发布时间：2024-05-30 浏览次数： 1333 耿新， 东南大学首席教授， 研究生院 常务副院长 ， 新一代人工智能技术与交叉应用教育部重点实验室 主任 ，国家杰出青年科学基金、国家优秀青年科学基金获得者 。 曾任 计算机科学与工程学院 、 软件学院 院长， 执行院长。分别于2001年和2004年在 南京大学 计算机科学与技术系 获得学士和硕士学位，于2008年获得 澳大利亚Deakin大学 博士学位。 创建东南大学 模式学习与挖掘（PALM）实验室 并担任实验室主任至今"
+    },
+    {
+      "officialId": "b060919d371270f2",
+      "name": "顾晓丹",
+      "title": "官网列表未标注",
+      "officialSections": [
+        "师资队伍"
+      ],
+      "profileUrl": "https://cse.seu.edu.cn/2024/0116/c48203a479030/page.htm",
+      "portraitUrl": null,
+      "sourcePageUrl": "https://cse.seu.edu.cn/szdw_48203/list.htm",
+      "officialRosterUrl": "https://cse.seu.edu.cn/szdw_48203/list.htm",
+      "profileChecked": true,
+      "decision": "excluded_insufficient_scope_evidence",
+      "reason": "官方资料能确认相关研究方向，但可访问页面不足以证明其现任独立 PI 或招生资格；本轮按证据门槛不纳入，而非推断为非 PI。",
+      "evidenceUrl": "https://cse.seu.edu.cn/2024/0116/c48203a479030/page.htm",
+      "evidenceExcerpt": "163 第一页 <<上一页 下一页>> 尾页 页码 1 / 5 相关链接 东南大学 计算机网络和信息集成教育部重点实验室（东南大学） 新一代人工智能技术与交叉应用教育部重点实验室（东南大学） 江苏省网络与信息安全重点实验室 计算机国家级实验教学示范中心（东南大学） 东南大学计算机科学拔尖学生培养基地 联系方式 通信地址：南京市江宁区东南大学路2号东南大学九龙湖校区 邮政编码：211189 ​办公地点：东南大学九龙湖校区计算机楼 学院微信公众号 Copyright © 东南大学计算机科学与工程学院、软件学"
+    },
+    {
+      "officialId": "fafc7378454251c6",
+      "name": "高奕",
+      "title": "官网列表未标注",
+      "officialSections": [
+        "师资队伍"
+      ],
+      "profileUrl": "https://cse.seu.edu.cn/2025/0416/c48203a525049/page.htm",
+      "portraitUrl": null,
+      "sourcePageUrl": "https://cse.seu.edu.cn/szdw_48203/list.htm",
+      "officialRosterUrl": "https://cse.seu.edu.cn/szdw_48203/list.htm",
+      "profileChecked": true,
+      "decision": "include_new_pi",
+      "reason": "官方个人页的研究方向命中 AI/NLP/CV/ML、数据智能、机器人或紧密相关方向，并确认教授/研究员或独立招生资格。",
+      "evidenceUrl": "https://cse.seu.edu.cn/2025/0416/c48203a525049/page.htm",
+      "evidenceExcerpt": "校友动态 高奕 发布者：高奕 发布时间：2026-05-29 浏览次数： 305 高奕，东南大学计算机科学与工程学院助理研究员，研究方向包括机器学习、弱监督学习等，研究成果发表于国际期刊IEEE TPAMI，以及国际会议ICML、IJCAI等。主持“ NSFC 博士生基金 ”项目，并担任多个著名国际期刊/会议审稿人。更多信息请访问我的 个人主页 。 第一页 <<上一页 下一页>> 尾页 页码 1 / 6 相关链接 东南大学 计算机网络和信息集成教育部重点实验室（东南大学） 新一代人工智能技术与交叉应用教"
+    },
+    {
+      "officialId": "60f6e3664ee81ebf",
+      "name": "高志强",
+      "title": "官网列表未标注",
+      "officialSections": [
+        "师资队伍"
+      ],
+      "profileUrl": "https://cse.seu.edu.cn/2024/0116/c48203a479076/page.htm",
+      "portraitUrl": null,
+      "sourcePageUrl": "https://cse.seu.edu.cn/szdw_48203/list.htm",
+      "officialRosterUrl": "https://cse.seu.edu.cn/szdw_48203/list.htm",
+      "profileChecked": true,
+      "decision": "excluded_insufficient_scope_evidence",
+      "reason": "官方资料能确认相关研究方向，但可访问页面不足以证明其现任独立 PI 或招生资格；本轮按证据门槛不纳入，而非推断为非 PI。",
+      "evidenceUrl": "https://cse.seu.edu.cn/2024/0116/c48203a479076/page.htm",
+      "evidenceExcerpt": "214 第一页 <<上一页 下一页>> 尾页 页码 1 / 5 相关链接 东南大学 计算机网络和信息集成教育部重点实验室（东南大学） 新一代人工智能技术与交叉应用教育部重点实验室（东南大学） 江苏省网络与信息安全重点实验室 计算机国家级实验教学示范中心（东南大学） 东南大学计算机科学拔尖学生培养基地 联系方式 通信地址：南京市江宁区东南大学路2号东南大学九龙湖校区 邮政编码：211189 ​办公地点：东南大学九龙湖校区计算机楼 学院微信公众号 Copyright © 东南大学计算机科学与工程学院、软件学"
+    },
+    {
+      "officialId": "f4bd1caf0e40b61a",
+      "name": "何东标",
+      "title": "官网列表未标注",
+      "officialSections": [
+        "师资队伍"
+      ],
+      "profileUrl": "https://cse.seu.edu.cn/2026/0109/c48203a551977/page.htm",
+      "portraitUrl": null,
+      "sourcePageUrl": "https://cse.seu.edu.cn/szdw_48203/list.htm",
+      "officialRosterUrl": "https://cse.seu.edu.cn/szdw_48203/list.htm",
+      "profileChecked": true,
+      "decision": "excluded_insufficient_scope_evidence",
+      "reason": "官方资料能确认相关研究方向，但可访问页面不足以证明其现任独立 PI 或招生资格；本轮按证据门槛不纳入，而非推断为非 PI。",
+      "evidenceUrl": "https://cse.seu.edu.cn/2026/0109/c48203a551977/page.htm",
+      "evidenceExcerpt": "息 】 第一页 <<上一页 下一页>> 尾页 页码 1 / 8 相关链接 东南大学 计算机网络和信息集成教育部重点实验室（东南大学） 新一代人工智能技术与交叉应用教育部重点实验室（东南大学） 江苏省网络与信息安全重点实验室 计算机国家级实验教学示范中心（东南大学） 东南大学计算机科学拔尖学生培养基地 联系方式 通信地址：南京市江宁区东南大学路2号东南大学九龙湖校区 邮政编码：211189 ​办公地点：东南大学九龙湖校区计算机楼 学院微信公众号 Copyright © 东南大学计算机科学与工程学院、软件学"
+    },
+    {
+      "officialId": "674ab180942ee7e4",
+      "name": "何洁月",
+      "title": "官网列表未标注",
+      "officialSections": [
+        "师资队伍"
+      ],
+      "profileUrl": "https://cse.seu.edu.cn/2024/0117/c48203a479423/page.htm",
+      "portraitUrl": null,
+      "sourcePageUrl": "https://cse.seu.edu.cn/szdw_48203/list.htm",
+      "officialRosterUrl": "https://cse.seu.edu.cn/szdw_48203/list.htm",
+      "profileChecked": true,
+      "decision": "include_new_pi",
+      "reason": "官方个人页的研究方向命中 AI/NLP/CV/ML、数据智能、机器人或紧密相关方向，并确认教授/研究员或独立招生资格。",
+      "evidenceUrl": "https://cse.seu.edu.cn/2024/0117/c48203a479423/page.htm",
+      "evidenceExcerpt": "亚州 立大学访问进修、工作。现任东南大学计算机科学与工程学院教授，中国计算机学会大数据专家委员会委员，江苏省大数据专家委员会副主任，江苏省生物信息学会委员。主要研究兴趣包括数据密集型计算、数据挖掘和机器学习、生物信息学等。本人长期从事数据分析与挖掘工作，近年来在面向大数据的网络表示学习与挖掘，大数据下的深度学习及推荐，大数据下的数据仓库建模及复杂查询分析等方面进行了较深入的研究，积累了大量经验和成果，并发表相关多篇论文。 第一页 <<上一页 下一页>> 尾页 页码 1 / 7 相关链接 东南大学 计算"
+    },
+    {
+      "officialId": "6f820aee0cdd3de5",
+      "name": "洪小丽",
+      "title": "官网列表未标注",
+      "officialSections": [
+        "师资队伍"
+      ],
+      "profileUrl": "https://cse.seu.edu.cn/2024/0116/c48203a479121/page.htm",
+      "portraitUrl": null,
+      "sourcePageUrl": "https://cse.seu.edu.cn/szdw_48203/list.htm",
+      "officialRosterUrl": "https://cse.seu.edu.cn/szdw_48203/list.htm",
+      "profileChecked": true,
+      "decision": "excluded_insufficient_scope_evidence",
+      "reason": "官方资料能确认相关研究方向，但可访问页面不足以证明其现任独立 PI 或招生资格；本轮按证据门槛不纳入，而非推断为非 PI。",
+      "evidenceUrl": "https://cse.seu.edu.cn/2024/0116/c48203a479121/page.htm",
+      "evidenceExcerpt": "100 第一页 <<上一页 下一页>> 尾页 页码 1 / 5 相关链接 东南大学 计算机网络和信息集成教育部重点实验室（东南大学） 新一代人工智能技术与交叉应用教育部重点实验室（东南大学） 江苏省网络与信息安全重点实验室 计算机国家级实验教学示范中心（东南大学） 东南大学计算机科学拔尖学生培养基地 联系方式 通信地址：南京市江宁区东南大学路2号东南大学九龙湖校区 邮政编码：211189 ​办公地点：东南大学九龙湖校区计算机楼 学院微信公众号 Copyright © 东南大学计算机科学与工程学院、软件学"
+    },
+    {
+      "officialId": "2eaa2f0d79209156",
+      "name": "胡宇韬",
+      "title": "官网列表未标注",
+      "officialSections": [
+        "师资队伍"
+      ],
+      "profileUrl": "https://cse.seu.edu.cn/2024/0613/c48203a493810/page.htm",
+      "portraitUrl": null,
+      "sourcePageUrl": "https://cse.seu.edu.cn/szdw_48203/list.htm",
+      "officialRosterUrl": "https://cse.seu.edu.cn/szdw_48203/list.htm",
+      "profileChecked": true,
+      "decision": "include_new_pi",
+      "reason": "官方个人页的研究方向命中 AI/NLP/CV/ML、数据智能、机器人或紧密相关方向，并确认教授/研究员或独立招生资格。",
+      "evidenceUrl": "https://cse.seu.edu.cn/2024/0613/c48203a493810/page.htm",
+      "evidenceExcerpt": "博士学位（师从张军院士，曹先彬教授）。 2 022 年至 2 024 年于香港大 学进行博士后研究（合作导师罗平教授）。近期主要研究方向为：计算机视觉、多模态学习、医学影像处理等。 在 计算机视觉领域顶级会议、期刊（ C VPR 、 I CCV 、 E CCV等 ） 发表论文 近 2 0篇，长期担任多个国际著名期刊 、 会议 （ C VPR 、 I CCV 、 E CCV 、 IEEE-TIP 、 I EEE-TNNLS 等）的 审稿人。 招生： - 欢迎2 027年9月入学的 保研学生与我联系（包括："
+    },
+    {
+      "officialId": "0cdad7ef448536b2",
+      "name": "韩琳",
+      "title": "官网列表未标注",
+      "officialSections": [
+        "师资队伍"
+      ],
+      "profileUrl": "https://cse.seu.edu.cn/2025/0224/c48203a519291/page.htm",
+      "portraitUrl": null,
+      "sourcePageUrl": "https://cse.seu.edu.cn/szdw_48203/list.htm",
+      "officialRosterUrl": "https://cse.seu.edu.cn/szdw_48203/list.htm",
+      "profileChecked": true,
+      "decision": "excluded_insufficient_scope_evidence",
+      "reason": "官方资料能确认相关研究方向，但可访问页面不足以证明其现任独立 PI 或招生资格；本轮按证据门槛不纳入，而非推断为非 PI。",
+      "evidenceUrl": "https://cse.seu.edu.cn/2025/0224/c48203a519291/page.htm",
+      "evidenceExcerpt": "143 第一页 <<上一页 下一页>> 尾页 页码 1 / 5 相关链接 东南大学 计算机网络和信息集成教育部重点实验室（东南大学） 新一代人工智能技术与交叉应用教育部重点实验室（东南大学） 江苏省网络与信息安全重点实验室 计算机国家级实验教学示范中心（东南大学） 东南大学计算机科学拔尖学生培养基地 联系方式 通信地址：南京市江宁区东南大学路2号东南大学九龙湖校区 邮政编码：211189 ​办公地点：东南大学九龙湖校区计算机楼 学院微信公众号 Copyright © 东南大学计算机科学与工程学院、软件学"
+    },
+    {
+      "officialId": "cacb39de1dec4e7d",
+      "name": "黄晓菁",
+      "title": "官网列表未标注",
+      "officialSections": [
+        "师资队伍"
+      ],
+      "profileUrl": "https://cse.seu.edu.cn/2024/0117/c48203a479451/page.htm",
+      "portraitUrl": null,
+      "sourcePageUrl": "https://cse.seu.edu.cn/szdw_48203/list.htm",
+      "officialRosterUrl": "https://cse.seu.edu.cn/szdw_48203/list.htm",
+      "profileChecked": true,
+      "decision": "excluded_insufficient_scope_evidence",
+      "reason": "官方资料能确认相关研究方向，但可访问页面不足以证明其现任独立 PI 或招生资格；本轮按证据门槛不纳入，而非推断为非 PI。",
+      "evidenceUrl": "https://cse.seu.edu.cn/2024/0117/c48203a479451/page.htm",
+      "evidenceExcerpt": "127 第一页 <<上一页 下一页>> 尾页 页码 1 / 5 相关链接 东南大学 计算机网络和信息集成教育部重点实验室（东南大学） 新一代人工智能技术与交叉应用教育部重点实验室（东南大学） 江苏省网络与信息安全重点实验室 计算机国家级实验教学示范中心（东南大学） 东南大学计算机科学拔尖学生培养基地 联系方式 通信地址：南京市江宁区东南大学路2号东南大学九龙湖校区 邮政编码：211189 ​办公地点：东南大学九龙湖校区计算机楼 学院微信公众号 Copyright © 东南大学计算机科学与工程学院、软件学"
+    },
+    {
+      "officialId": "9be8db98f6e9a539",
+      "name": "姜龙玉",
+      "title": "官网列表未标注",
+      "officialSections": [
+        "师资队伍"
+      ],
+      "profileUrl": "https://cse.seu.edu.cn/2024/0116/c48203a479105/page.htm",
+      "portraitUrl": null,
+      "sourcePageUrl": "https://cse.seu.edu.cn/szdw_48203/list.htm",
+      "officialRosterUrl": "https://cse.seu.edu.cn/szdw_48203/list.htm",
+      "profileChecked": true,
+      "decision": "include_new_pi",
+      "reason": "官方个人页的研究方向命中 AI/NLP/CV/ML、数据智能、机器人或紧密相关方向，并确认教授/研究员或独立招生资格。",
+      "evidenceUrl": "https://cse.seu.edu.cn/2024/0116/c48203a479105/page.htm",
+      "evidenceExcerpt": "，女，分别从武汉大学、东南大学、法国格勒诺布尔大学获得学士、硕士、博士学位，现为东南大学青年特聘教授（聘期二级教授）、博士生导师。主要从事 人工智能、海洋信息智能处理，水下目标检测和识别、大模型 等方面的研究工作，近年来先后主持国家重点项目、国家重大专项课题、国家自然科学基金、江苏省自然科学基金，教育部留学回国人员基金等多项科研项目，在 IEEE Journal of Oceanic Engineering, The Journal of the Acoustical Society of Americ"
+    },
+    {
+      "officialId": "0fd9c303b4923f48",
+      "name": "季续",
+      "title": "官网列表未标注",
+      "officialSections": [
+        "师资队伍"
+      ],
+      "profileUrl": "https://cse.seu.edu.cn/2024/0117/c48203a479237/page.htm",
+      "portraitUrl": null,
+      "sourcePageUrl": "https://cse.seu.edu.cn/szdw_48203/list.htm",
+      "officialRosterUrl": "https://cse.seu.edu.cn/szdw_48203/list.htm",
+      "profileChecked": true,
+      "decision": "include_new_pi",
+      "reason": "官方个人页的研究方向命中 AI/NLP/CV/ML、数据智能、机器人或紧密相关方向，并确认教授/研究员或独立招生资格。",
+      "evidenceUrl": "https://cse.seu.edu.cn/2024/0117/c48203a479237/page.htm",
+      "evidenceExcerpt": "京大学及美国威斯康辛麦迪逊大学获学士及博士学位，回国后加入东南大学计算机科学与工程学院影像科学与技术系 陈阳 教授团队。研究领域为智能成像与图像处理方法（侧重于医学图像处理），主持多项横纵向基金，以第一作者或通讯作者在 IEEE Trans. Med. Imag. 等医学成像领域的国际知名 SCI 期刊发表论文二十余篇。招生需求：硕士生 3-5 名 / 年，博士生1-2名。有意向报考本课题组的同学，请提前阅读 进组须知 .pdf . 第一页 <<上一页 下一页>> 尾页 页码 1 / 9 相关链接"
+    },
+    {
+      "officialId": "d2cf2fd9cbf86010",
+      "name": "焦阳",
+      "title": "官网列表未标注",
+      "officialSections": [
+        "师资队伍"
+      ],
+      "profileUrl": "https://cse.seu.edu.cn/2026/0527/c48203a569197/page.htm",
+      "portraitUrl": null,
+      "sourcePageUrl": "https://cse.seu.edu.cn/szdw_48203/list.htm",
+      "officialRosterUrl": "https://cse.seu.edu.cn/szdw_48203/list.htm",
+      "profileChecked": true,
+      "decision": "include_new_pi",
+      "reason": "官方个人页的研究方向命中 AI/NLP/CV/ML、数据智能、机器人或紧密相关方向，并确认教授/研究员或独立招生资格。",
+      "evidenceUrl": "https://cse.seu.edu.cn/2026/0527/c48203a569197/page.htm",
+      "evidenceExcerpt": "焦阳 发布时间：2026-09-02 浏览次数： 212 焦阳，博士，东南大学计算机科学与工程学院讲师，硕士生导师。研究方向包括AI+网络、机器学习、分布式学习、多层优化等，在ICML、NeurIPS、ICLR、AAAI、SIGIR、INFOCOM、IEEE TMC、IEEE TDSC 等国际知名期刊与会议上发表学术论文十余篇。 第一页 <<上一页 下一页>> 尾页 页码 1 / 6 相关链接 东南大学 计算机网络和信息集成教育部重点实验室（东南大学） 新一代人工智能技术与交叉应用教育部重点实验室（东南"
+    },
+    {
+      "officialId": "4dad1e1680bedb1d",
+      "name": "蒋平",
+      "title": "官网列表未标注",
+      "officialSections": [
+        "师资队伍"
+      ],
+      "profileUrl": "https://cse.seu.edu.cn/2025/0211/c48203a518377/page.htm",
+      "portraitUrl": null,
+      "sourcePageUrl": "https://cse.seu.edu.cn/szdw_48203/list.htm",
+      "officialRosterUrl": "https://cse.seu.edu.cn/szdw_48203/list.htm",
+      "profileChecked": true,
+      "decision": "excluded_insufficient_scope_evidence",
+      "reason": "官方资料能确认相关研究方向，但可访问页面不足以证明其现任独立 PI 或招生资格；本轮按证据门槛不纳入，而非推断为非 PI。",
+      "evidenceUrl": "https://cse.seu.edu.cn/2025/0211/c48203a518377/page.htm",
+      "evidenceExcerpt": "100 第一页 <<上一页 下一页>> 尾页 页码 1 / 5 相关链接 东南大学 计算机网络和信息集成教育部重点实验室（东南大学） 新一代人工智能技术与交叉应用教育部重点实验室（东南大学） 江苏省网络与信息安全重点实验室 计算机国家级实验教学示范中心（东南大学） 东南大学计算机科学拔尖学生培养基地 联系方式 通信地址：南京市江宁区东南大学路2号东南大学九龙湖校区 邮政编码：211189 ​办公地点：东南大学九龙湖校区计算机楼 学院微信公众号 Copyright © 东南大学计算机科学与工程学院、软件学"
+    },
+    {
+      "officialId": "a5fe2119a84b8915",
+      "name": "贾育衡",
+      "title": "官网列表未标注",
+      "officialSections": [
+        "师资队伍"
+      ],
+      "profileUrl": "https://cse.seu.edu.cn/2024/0117/c48203a479205/page.htm",
+      "portraitUrl": null,
+      "sourcePageUrl": "https://cse.seu.edu.cn/szdw_48203/list.htm",
+      "officialRosterUrl": "https://cse.seu.edu.cn/szdw_48203/list.htm",
+      "profileChecked": true,
+      "decision": "include_new_pi",
+      "reason": "官方个人页的研究方向命中 AI/NLP/CV/ML、数据智能、机器人或紧密相关方向，并确认教授/研究员或独立招生资格。",
+      "evidenceUrl": "https://cse.seu.edu.cn/2024/0117/c48203a479205/page.htm",
+      "evidenceExcerpt": "副教授。现为东南大学PALM实验室成员。曾任斯坦福大学（ Stanford University ）访问学者（2018年）。研究内容广泛涉及机器学习和数据表示的多个子领域，主要包括半\\弱\\无监督学习、大模型应用、张量\\矩阵优化与建模、鲁棒\\可信机器学习以及机器学习算法在计算机视觉、高光谱表示、社区检测、交通信号处理、智能城市等方向的一些应用。在相关研究领域的国际会议和期刊上发表学术论文100余篇，其中 CCF-A/IEEE Trans 论文70余篇 。担任多个国际著名期刊会议的编委、程序委员会委员和审稿"
+    },
+    {
+      "officialId": "031a5f16cdbf43ef",
+      "name": "金嘉晖",
+      "title": "官网列表未标注",
+      "officialSections": [
+        "师资队伍"
+      ],
+      "profileUrl": "https://cse.seu.edu.cn/2024/0116/c48203a479024/page.htm",
+      "portraitUrl": null,
+      "sourcePageUrl": "https://cse.seu.edu.cn/szdw_48203/list.htm",
+      "officialRosterUrl": "https://cse.seu.edu.cn/szdw_48203/list.htm",
+      "profileChecked": true,
+      "decision": "include_new_pi",
+      "reason": "官方个人页的研究方向命中 AI/NLP/CV/ML、数据智能、机器人或紧密相关方向，并确认教授/研究员或独立招生资格。",
+      "evidenceUrl": "https://cse.seu.edu.cn/2024/0116/c48203a479024/page.htm",
+      "evidenceExcerpt": "毕业生去向为头部互联网企业、公务员、科研院所等。我们的宗旨是“以人为本，互联你我”，每一位同学的进步都是团队的荣耀。欢迎希望从事大数据处理（知识图谱、社交网络、城市计算等领域；图查询、图挖掘、图学习、图计算等技术），以及大模型RAG研究的同学的加入！ （欢迎报名2027级硕/博研究生，发送个人简历、项目经历和文章列表到我的邮箱；欢迎本科生同学加入小组学习） 此外，本小组与樊文飞院士（ 主页 ）联合招收数据库方向博士研究生（培养地深圳），欢迎对科研感兴趣、有志于在相关领域钻研的计算机/智能/数学以及其它相"
+    },
+    {
+      "officialId": "b57143150d753a64",
+      "name": "金笑雨",
+      "title": "官网列表未标注",
+      "officialSections": [
+        "师资队伍"
+      ],
+      "profileUrl": "https://cse.seu.edu.cn/2024/0903/c48203a501793/page.htm",
+      "portraitUrl": null,
+      "sourcePageUrl": "https://cse.seu.edu.cn/szdw_48203/list.htm",
+      "officialRosterUrl": "https://cse.seu.edu.cn/szdw_48203/list.htm",
+      "profileChecked": true,
+      "decision": "excluded_insufficient_scope_evidence",
+      "reason": "官方资料能确认相关研究方向，但可访问页面不足以证明其现任独立 PI 或招生资格；本轮按证据门槛不纳入，而非推断为非 PI。",
+      "evidenceUrl": "https://cse.seu.edu.cn/2024/0903/c48203a501793/page.htm",
+      "evidenceExcerpt": "辅导员 第一页 <<上一页 下一页>> 尾页 页码 1 / 5 相关链接 东南大学 计算机网络和信息集成教育部重点实验室（东南大学） 新一代人工智能技术与交叉应用教育部重点实验室（东南大学） 江苏省网络与信息安全重点实验室 计算机国家级实验教学示范中心（东南大学） 东南大学计算机科学拔尖学生培养基地 联系方式 通信地址：南京市江宁区东南大学路2号东南大学九龙湖校区 邮政编码：211189 ​办公地点：东南大学九龙湖校区计算机楼 学院微信公众号 Copyright © 东南大学计算机科学与工程学院、软件学"
+    },
+    {
+      "officialId": "a675942a8672c693",
+      "name": "孔佑勇",
+      "title": "官网列表未标注",
+      "officialSections": [
+        "师资队伍"
+      ],
+      "profileUrl": "https://cse.seu.edu.cn/2024/0116/c48203a479107/page.htm",
+      "portraitUrl": null,
+      "sourcePageUrl": "https://cse.seu.edu.cn/szdw_48203/list.htm",
+      "officialRosterUrl": "https://cse.seu.edu.cn/szdw_48203/list.htm",
+      "profileChecked": true,
+      "decision": "include_new_pi",
+      "reason": "官方个人页的研究方向命中 AI/NLP/CV/ML、数据智能、机器人或紧密相关方向，并确认教授/研究员或独立招生资格。",
+      "evidenceUrl": "https://cse.seu.edu.cn/2024/0116/c48203a479107/page.htm",
+      "evidenceExcerpt": "布时间：2026-04-12 浏览次数： 2362 孔佑勇，香港中文大学博士，东南大学 副教授，博士生导师，计算机科学与工程学院、软件学院、人工智能 学院 副院长，北京中关村学院兼聘博士生导师。 研究方向为人工智能（大模型）与交叉应用， 主持国家重点研发计划课题1项，国家自然科学基金3项。在IEEE TMI 、 MedIA、ICML 、NeurIPS 等人工智能期刊与会议发表学术论文80余篇。 Youyong Kong, Ph.D (CUHK), is an associate professor an"
+    },
+    {
+      "officialId": "dab44337fa59cece",
+      "name": "孔德华",
+      "title": "官网列表未标注",
+      "officialSections": [
+        "师资队伍"
+      ],
+      "profileUrl": "https://cse.seu.edu.cn/2024/0116/c48203a479125/page.htm",
+      "portraitUrl": null,
+      "sourcePageUrl": "https://cse.seu.edu.cn/szdw_48203/list.htm",
+      "officialRosterUrl": "https://cse.seu.edu.cn/szdw_48203/list.htm",
+      "profileChecked": true,
+      "decision": "excluded_insufficient_scope_evidence",
+      "reason": "官方资料能确认相关研究方向，但可访问页面不足以证明其现任独立 PI 或招生资格；本轮按证据门槛不纳入，而非推断为非 PI。",
+      "evidenceUrl": "https://cse.seu.edu.cn/2024/0116/c48203a479125/page.htm",
+      "evidenceExcerpt": "104 第一页 <<上一页 下一页>> 尾页 页码 1 / 5 相关链接 东南大学 计算机网络和信息集成教育部重点实验室（东南大学） 新一代人工智能技术与交叉应用教育部重点实验室（东南大学） 江苏省网络与信息安全重点实验室 计算机国家级实验教学示范中心（东南大学） 东南大学计算机科学拔尖学生培养基地 联系方式 通信地址：南京市江宁区东南大学路2号东南大学九龙湖校区 邮政编码：211189 ​办公地点：东南大学九龙湖校区计算机楼 学院微信公众号 Copyright © 东南大学计算机科学与工程学院、软件学"
+    },
+    {
+      "officialId": "bea0a4c94712643b",
+      "name": "柯文俊",
+      "title": "官网列表未标注",
+      "officialSections": [
+        "师资队伍"
+      ],
+      "profileUrl": "https://cse.seu.edu.cn/2024/0117/c48203a479334/page.htm",
+      "portraitUrl": null,
+      "sourcePageUrl": "https://cse.seu.edu.cn/szdw_48203/list.htm",
+      "officialRosterUrl": "https://cse.seu.edu.cn/szdw_48203/list.htm",
+      "profileChecked": true,
+      "decision": "include_new_pi",
+      "reason": "官方个人页的研究方向命中 AI/NLP/CV/ML、数据智能、机器人或紧密相关方向，并确认教授/研究员或独立招生资格。",
+      "evidenceUrl": "https://cse.seu.edu.cn/2024/0117/c48203a479334/page.htm",
+      "evidenceExcerpt": "士毕业于中国科学院计算技术研究所（导师为 程学旗 研究员）， 加入东南大学KGCode实验室（实验室负责人 为 汪鹏 教授）。研究方向为： 人工智能、 自然语言处理、大语言模型、知识图谱 ，先 后主持7项国家级科研项目，并参与4项国家级科研项目。先后获得省部级/市厅级等荣誉7项，任中国仿真学会会刊、CCF-T2中文核心期刊《系统仿真学报》青年编委， CCF-T3中文核心期刊 《计算机工程与设计》编委。在WSDM、NeurIPS、ACL、IJCAI、AAAI、ISWC、TOIS、TKDE、KBS、ESWA"
+    },
+    {
+      "officialId": "77188cd20f92c72b",
+      "name": "凌振",
+      "title": "官网列表未标注",
+      "officialSections": [
+        "师资队伍"
+      ],
+      "profileUrl": "https://cse.seu.edu.cn/2024/0116/c48203a479016/page.htm",
+      "portraitUrl": null,
+      "sourcePageUrl": "https://cse.seu.edu.cn/szdw_48203/list.htm",
+      "officialRosterUrl": "https://cse.seu.edu.cn/szdw_48203/list.htm",
+      "profileChecked": true,
+      "decision": "include_new_pi",
+      "reason": "官方个人页的研究方向命中 AI/NLP/CV/ML、数据智能、机器人或紧密相关方向，并确认教授/研究员或独立招生资格。",
+      "evidenceUrl": "https://cse.seu.edu.cn/2024/0116/c48203a479016/page.htm",
+      "evidenceExcerpt": "页链接 第一页 <<上一页 下一页>> 尾页 页码 1 / 9 相关链接 东南大学 计算机网络和信息集成教育部重点实验室（东南大学） 新一代人工智能技术与交叉应用教育部重点实验室（东南大学） 江苏省网络与信息安全重点实验室 计算机国家级实验教学示范中心（东南大学） 东南大学计算机科学拔尖学生培养基地 联系方式 通信地址：南京市江宁区东南大学路2号东南大学九龙湖校区 邮政编码：211189 ​办公地点：东南大学九龙湖校区计算机楼 学院微信公众号 Copyright © 东南大学计算机科学与工程学院、软件学"
+    },
+    {
+      "officialId": "0b1890931b1046d4",
+      "name": "刘光迟",
+      "title": "官网列表未标注",
+      "officialSections": [
+        "师资队伍"
+      ],
+      "profileUrl": "https://cse.seu.edu.cn/2024/0117/c48203a479340/page.htm",
+      "portraitUrl": null,
+      "sourcePageUrl": "https://cse.seu.edu.cn/szdw_48203/list.htm",
+      "officialRosterUrl": "https://cse.seu.edu.cn/szdw_48203/list.htm",
+      "profileChecked": true,
+      "decision": "include_new_pi",
+      "reason": "官方个人页的研究方向命中 AI/NLP/CV/ML、数据智能、机器人或紧密相关方向，并确认教授/研究员或独立招生资格。",
+      "evidenceUrl": "https://cse.seu.edu.cn/2024/0117/c48203a479340/page.htm",
+      "evidenceExcerpt": "nterests lie in the areas of AI for Cyber Science , Security for AI , Machine Learning and Natural Language Processing , etc. I used to be an industry research lead in the U.S. for 5 years. Under my supervision, my team prototyped and productionized numerious social"
+    },
+    {
+      "officialId": "0eb9e34fbbfe0701",
+      "name": "刘尊颐",
+      "title": "官网列表未标注",
+      "officialSections": [
+        "师资队伍"
+      ],
+      "profileUrl": "https://cse.seu.edu.cn/2024/0117/c48203a479346/page.htm",
+      "portraitUrl": null,
+      "sourcePageUrl": "https://cse.seu.edu.cn/szdw_48203/list.htm",
+      "officialRosterUrl": "https://cse.seu.edu.cn/szdw_48203/list.htm",
+      "profileChecked": true,
+      "decision": "excluded_insufficient_scope_evidence",
+      "reason": "官方资料能确认相关研究方向，但可访问页面不足以证明其现任独立 PI 或招生资格；本轮按证据门槛不纳入，而非推断为非 PI。",
+      "evidenceUrl": "https://cse.seu.edu.cn/2024/0117/c48203a479346/page.htm",
+      "evidenceExcerpt": "142 第一页 <<上一页 下一页>> 尾页 页码 1 / 5 相关链接 东南大学 计算机网络和信息集成教育部重点实验室（东南大学） 新一代人工智能技术与交叉应用教育部重点实验室（东南大学） 江苏省网络与信息安全重点实验室 计算机国家级实验教学示范中心（东南大学） 东南大学计算机科学拔尖学生培养基地 联系方式 通信地址：南京市江宁区东南大学路2号东南大学九龙湖校区 邮政编码：211189 ​办公地点：东南大学九龙湖校区计算机楼 学院微信公众号 Copyright © 东南大学计算机科学与工程学院、软件学"
+    },
+    {
+      "officialId": "25a94d8d9e0406a0",
+      "name": "刘帆",
+      "title": "官网列表未标注",
+      "officialSections": [
+        "师资队伍"
+      ],
+      "profileUrl": "https://cse.seu.edu.cn/2025/1216/c48203a548651/page.htm",
+      "portraitUrl": null,
+      "sourcePageUrl": "https://cse.seu.edu.cn/szdw_48203/list.htm",
+      "officialRosterUrl": "https://cse.seu.edu.cn/szdw_48203/list.htm",
+      "profileChecked": true,
+      "decision": "include_new_pi",
+      "reason": "官方个人页的研究方向命中 AI/NLP/CV/ML、数据智能、机器人或紧密相关方向，并确认教授/研究员或独立招生资格。",
+      "evidenceUrl": "https://cse.seu.edu.cn/2025/1216/c48203a548651/page.htm",
+      "evidenceExcerpt": "者：刘帆 发布时间：2026-08-07 浏览次数： 1390 刘帆 ，东南大学教授，国家级高层次青年人才，博士生导师。主要从事多模态理解、基础模型与自主智能研究，聚焦复杂开放环境中的感知理解、语义推理与自主决策等关键问题。当前研究涵盖多模态大模型、智能体与具身智能等方向， 探索多源信息与知识驱动的自主智能理论与方法， 并推动其在科学发现与科研辅助等领域的应用。已在 CCF-A 类会议及 IEEE/ACM 汇刊等国际高水平会议和期刊发表论文 40 余篇，出版第一作者学术专著 2 部。曾 多次担任 ACM"
+    },
+    {
+      "officialId": "fda47b77871249b2",
+      "name": "刘志昊",
+      "title": "官网列表未标注",
+      "officialSections": [
+        "师资队伍"
+      ],
+      "profileUrl": "https://cse.seu.edu.cn/2024/0117/c48203a479381/page.htm",
+      "portraitUrl": null,
+      "sourcePageUrl": "https://cse.seu.edu.cn/szdw_48203/list.htm",
+      "officialRosterUrl": "https://cse.seu.edu.cn/szdw_48203/list.htm",
+      "profileChecked": true,
+      "decision": "include_new_pi",
+      "reason": "官方个人页的研究方向命中 AI/NLP/CV/ML、数据智能、机器人或紧密相关方向，并确认教授/研究员或独立招生资格。",
+      "evidenceUrl": "https://cse.seu.edu.cn/2024/0117/c48203a479381/page.htm",
+      "evidenceExcerpt": "就业。 第一页 <<上一页 下一页>> 尾页 页码 1 / 9 相关链接 东南大学 计算机网络和信息集成教育部重点实验室（东南大学） 新一代人工智能技术与交叉应用教育部重点实验室（东南大学） 江苏省网络与信息安全重点实验室 计算机国家级实验教学示范中心（东南大学） 东南大学计算机科学拔尖学生培养基地 联系方式 通信地址：南京市江宁区东南大学路2号东南大学九龙湖校区 邮政编码：211189 ​办公地点：东南大学九龙湖校区计算机楼 学院微信公众号 Copyright © 东南大学计算机科学与工程学院、软件学"
+    },
+    {
+      "officialId": "50b8fed461e30aac",
+      "name": "刘新",
+      "title": "官网列表未标注",
+      "officialSections": [
+        "师资队伍"
+      ],
+      "profileUrl": "https://cse.seu.edu.cn/2024/0216/c48203a480673/page.htm",
+      "portraitUrl": null,
+      "sourcePageUrl": "https://cse.seu.edu.cn/szdw_48203/list.htm",
+      "officialRosterUrl": "https://cse.seu.edu.cn/szdw_48203/list.htm",
+      "profileChecked": true,
+      "decision": "excluded_insufficient_scope_evidence",
+      "reason": "官方资料能确认相关研究方向，但可访问页面不足以证明其现任独立 PI 或招生资格；本轮按证据门槛不纳入，而非推断为非 PI。",
+      "evidenceUrl": "https://cse.seu.edu.cn/2024/0216/c48203a480673/page.htm",
+      "evidenceExcerpt": "92 第一页 <<上一页 下一页>> 尾页 页码 1 / 5 相关链接 东南大学 计算机网络和信息集成教育部重点实验室（东南大学） 新一代人工智能技术与交叉应用教育部重点实验室（东南大学） 江苏省网络与信息安全重点实验室 计算机国家级实验教学示范中心（东南大学） 东南大学计算机科学拔尖学生培养基地 联系方式 通信地址：南京市江宁区东南大学路2号东南大学九龙湖校区 邮政编码：211189 ​办公地点：东南大学九龙湖校区计算机楼 学院微信公众号 Copyright © 东南大学计算机科学与工程学院、软件学"
+    },
+    {
+      "officialId": "d8cfcc0666ce29ca",
+      "name": "刘波",
+      "title": "官网列表未标注",
+      "officialSections": [
+        "师资队伍"
+      ],
+      "profileUrl": "https://cse.seu.edu.cn/2023/0915/c48203a464566/page.htm",
+      "portraitUrl": null,
+      "sourcePageUrl": "https://cse.seu.edu.cn/szdw_48203/list.htm",
+      "officialRosterUrl": "https://cse.seu.edu.cn/szdw_48203/list.htm",
+      "profileChecked": true,
+      "decision": "include_new_pi",
+      "reason": "官方个人页的研究方向命中 AI/NLP/CV/ML、数据智能、机器人或紧密相关方向，并确认教授/研究员或独立招生资格。",
+      "evidenceUrl": "https://cse.seu.edu.cn/2023/0915/c48203a464566/page.htm",
+      "evidenceExcerpt": "览次数： 3354 东南大学教授，博士生导师， 美国马萨诸塞州立大学和田纳西大学访问学者。中国计算机学会会员，网络与数据通信专业委员会委员，智能系统与应用专委会委员。 研究兴趣包括算力网络路由与安全、网络大数据智能处理与用户行为分析、基于大模型的Agent拟人化研究，社交网络舆情感知与分析、用户画像与推荐、自然语言处理与智能问答、网络行为分析与安全防御。主持和参与科研项目31项（主持9项，参与21项），其中主持国家自然科学基金项目4项、横向项目5项，参与完成国家自然科学基金项目6项、省部级项目7项，作为"
+    },
+    {
+      "officialId": "bb147606242155e4",
+      "name": "刘翔",
+      "title": "官网列表未标注",
+      "officialSections": [
+        "师资队伍"
+      ],
+      "profileUrl": "https://cse.seu.edu.cn/2024/0117/c48203a479358/page.htm",
+      "portraitUrl": null,
+      "sourcePageUrl": "https://cse.seu.edu.cn/szdw_48203/list.htm",
+      "officialRosterUrl": "https://cse.seu.edu.cn/szdw_48203/list.htm",
+      "profileChecked": true,
+      "decision": "excluded_non_pi",
+      "reason": "官方职称为讲师、助理研究员、工程师或同等级非独立岗位，个人页未显示博士/硕士导师或独立招生资格。",
+      "evidenceUrl": "https://cse.seu.edu.cn/2024/0117/c48203a479358/page.htm",
+      "evidenceExcerpt": "d the Ph.D. degree from the Southeast University. He is currently the postdoc of Chinese University of Hong Kong and Southeast University. His main research interests include algorithmic game theory, auction mechanism design, multi-agent system and reinforc"
+    },
+    {
+      "officialId": "05f38b63d213e3ca",
+      "name": "刘胥影",
+      "title": "官网列表未标注",
+      "officialSections": [
+        "师资队伍"
+      ],
+      "profileUrl": "https://cse.seu.edu.cn/2024/0117/c48203a479365/page.htm",
+      "portraitUrl": null,
+      "sourcePageUrl": "https://cse.seu.edu.cn/szdw_48203/list.htm",
+      "officialRosterUrl": "https://cse.seu.edu.cn/szdw_48203/list.htm",
+      "profileChecked": true,
+      "decision": "excluded_insufficient_scope_evidence",
+      "reason": "官方资料能确认相关研究方向，但可访问页面不足以证明其现任独立 PI 或招生资格；本轮按证据门槛不纳入，而非推断为非 PI。",
+      "evidenceUrl": "https://cse.seu.edu.cn/2024/0117/c48203a479365/page.htm",
+      "evidenceExcerpt": "145 第一页 <<上一页 下一页>> 尾页 页码 1 / 5 相关链接 东南大学 计算机网络和信息集成教育部重点实验室（东南大学） 新一代人工智能技术与交叉应用教育部重点实验室（东南大学） 江苏省网络与信息安全重点实验室 计算机国家级实验教学示范中心（东南大学） 东南大学计算机科学拔尖学生培养基地 联系方式 通信地址：南京市江宁区东南大学路2号东南大学九龙湖校区 邮政编码：211189 ​办公地点：东南大学九龙湖校区计算机楼 学院微信公众号 Copyright © 东南大学计算机科学与工程学院、软件学"
+    },
+    {
+      "officialId": "380aa1c51fafb57e",
+      "name": "吕佳祺",
+      "title": "官网列表未标注",
+      "officialSections": [
+        "师资队伍"
+      ],
+      "profileUrl": "https://cse.seu.edu.cn/2024/0117/c48203a479356/page.htm",
+      "portraitUrl": null,
+      "sourcePageUrl": "https://cse.seu.edu.cn/szdw_48203/list.htm",
+      "officialRosterUrl": "https://cse.seu.edu.cn/szdw_48203/list.htm",
+      "profileChecked": true,
+      "decision": "excluded_insufficient_scope_evidence",
+      "reason": "官方资料能确认相关研究方向，但可访问页面不足以证明其现任独立 PI 或招生资格；本轮按证据门槛不纳入，而非推断为非 PI。",
+      "evidenceUrl": "https://cse.seu.edu.cn/2024/0117/c48203a479356/page.htm",
+      "evidenceExcerpt": "410 第一页 <<上一页 下一页>> 尾页 页码 1 / 9 相关链接 东南大学 计算机网络和信息集成教育部重点实验室（东南大学） 新一代人工智能技术与交叉应用教育部重点实验室（东南大学） 江苏省网络与信息安全重点实验室 计算机国家级实验教学示范中心（东南大学） 东南大学计算机科学拔尖学生培养基地 联系方式 通信地址：南京市江宁区东南大学路2号东南大学九龙湖校区 邮政编码：211189 ​办公地点：东南大学九龙湖校区计算机楼 学院微信公众号 Copyright © 东南大学计算机科学与工程学院、软件学"
+    },
+    {
+      "officialId": "731fd6fcc63f9953",
+      "name": "吕妍",
+      "title": "官网列表未标注",
+      "officialSections": [
+        "师资队伍"
+      ],
+      "profileUrl": "https://cse.seu.edu.cn/2024/0117/c48203a479483/page.htm",
+      "portraitUrl": null,
+      "sourcePageUrl": "https://cse.seu.edu.cn/szdw_48203/list.htm",
+      "officialRosterUrl": "https://cse.seu.edu.cn/szdw_48203/list.htm",
+      "profileChecked": true,
+      "decision": "include_new_pi",
+      "reason": "官方个人页的研究方向命中 AI/NLP/CV/ML、数据智能、机器人或紧密相关方向，并确认教授/研究员或独立招生资格。",
+      "evidenceUrl": "https://cse.seu.edu.cn/2024/0117/c48203a479483/page.htm",
+      "evidenceExcerpt": "rsity of Singapore）博士后研究员。自2020年10月起在东南大学计算机科学与工程学院任职副教授。研究兴趣包括 大数据分析及可视化、时空数据挖掘、 模仿学习、 可解释 人工智能（XAI）、 城市计算、智能交通 等。 在 IEEE TVCG, IEEE TITS, IEEE TKDE, AAAI 等国际顶级期刊 / 会议发表论文 20 余篇, 并担任多个国际著名期刊的审稿人。 获 ACM 分会新星奖 （ 2023 年江苏省共 3 名）、江苏省双创博士、东南大学至善学者。 第一页 <<上一"
+    },
+    {
+      "officialId": "9215124fc0fbceac",
+      "name": "吕建华",
+      "title": "官网列表未标注",
+      "officialSections": [
+        "师资队伍"
+      ],
+      "profileUrl": "https://cse.seu.edu.cn/2024/0117/c48203a479427/page.htm",
+      "portraitUrl": null,
+      "sourcePageUrl": "https://cse.seu.edu.cn/szdw_48203/list.htm",
+      "officialRosterUrl": "https://cse.seu.edu.cn/szdw_48203/list.htm",
+      "profileChecked": true,
+      "decision": "excluded_insufficient_scope_evidence",
+      "reason": "官方资料能确认相关研究方向，但可访问页面不足以证明其现任独立 PI 或招生资格；本轮按证据门槛不纳入，而非推断为非 PI。",
+      "evidenceUrl": "https://cse.seu.edu.cn/2024/0117/c48203a479427/page.htm",
+      "evidenceExcerpt": "6项。 第一页 <<上一页 下一页>> 尾页 页码 1 / 9 相关链接 东南大学 计算机网络和信息集成教育部重点实验室（东南大学） 新一代人工智能技术与交叉应用教育部重点实验室（东南大学） 江苏省网络与信息安全重点实验室 计算机国家级实验教学示范中心（东南大学） 东南大学计算机科学拔尖学生培养基地 联系方式 通信地址：南京市江宁区东南大学路2号东南大学九龙湖校区 邮政编码：211189 ​办公地点：东南大学九龙湖校区计算机楼 学院微信公众号 Copyright © 东南大学计算机科学与工程学院、软件学"
+    },
+    {
+      "officialId": "14ff3e55501df4c8",
+      "name": "吕美香",
+      "title": "官网列表未标注",
+      "officialSections": [
+        "师资队伍"
+      ],
+      "profileUrl": "https://cse.seu.edu.cn/2024/0117/c48203a479445/page.htm",
+      "portraitUrl": null,
+      "sourcePageUrl": "https://cse.seu.edu.cn/szdw_48203/list.htm",
+      "officialRosterUrl": "https://cse.seu.edu.cn/szdw_48203/list.htm",
+      "profileChecked": true,
+      "decision": "excluded_insufficient_scope_evidence",
+      "reason": "官方资料能确认相关研究方向，但可访问页面不足以证明其现任独立 PI 或招生资格；本轮按证据门槛不纳入，而非推断为非 PI。",
+      "evidenceUrl": "https://cse.seu.edu.cn/2024/0117/c48203a479445/page.htm",
+      "evidenceExcerpt": "142 第一页 <<上一页 下一页>> 尾页 页码 1 / 5 相关链接 东南大学 计算机网络和信息集成教育部重点实验室（东南大学） 新一代人工智能技术与交叉应用教育部重点实验室（东南大学） 江苏省网络与信息安全重点实验室 计算机国家级实验教学示范中心（东南大学） 东南大学计算机科学拔尖学生培养基地 联系方式 通信地址：南京市江宁区东南大学路2号东南大学九龙湖校区 邮政编码：211189 ​办公地点：东南大学九龙湖校区计算机楼 学院微信公众号 Copyright © 东南大学计算机科学与工程学院、软件学"
+    },
+    {
+      "officialId": "e707eb14144575a0",
+      "name": "廖力",
+      "title": "官网列表未标注",
+      "officialSections": [
+        "师资队伍"
+      ],
+      "profileUrl": "https://cse.seu.edu.cn/2024/0116/c48203a479066/page.htm",
+      "portraitUrl": null,
+      "sourcePageUrl": "https://cse.seu.edu.cn/szdw_48203/list.htm",
+      "officialRosterUrl": "https://cse.seu.edu.cn/szdw_48203/list.htm",
+      "profileChecked": true,
+      "decision": "include_new_pi",
+      "reason": "官方个人页的研究方向命中 AI/NLP/CV/ML、数据智能、机器人或紧密相关方向，并确认教授/研究员或独立招生资格。",
+      "evidenceUrl": "https://cse.seu.edu.cn/2024/0116/c48203a479066/page.htm",
+      "evidenceExcerpt": "中法班 第一页 <<上一页 下一页>> 尾页 页码 1 / 5 相关链接 东南大学 计算机网络和信息集成教育部重点实验室（东南大学） 新一代人工智能技术与交叉应用教育部重点实验室（东南大学） 江苏省网络与信息安全重点实验室 计算机国家级实验教学示范中心（东南大学） 东南大学计算机科学拔尖学生培养基地 联系方式 通信地址：南京市江宁区东南大学路2号东南大学九龙湖校区 邮政编码：211189 ​办公地点：东南大学九龙湖校区计算机楼 学院微信公众号 Copyright © 东南大学计算机科学与工程学院、软件学"
+    },
+    {
+      "officialId": "69f1f318b91ca75b",
+      "name": "李伟",
+      "title": "官网列表未标注",
+      "officialSections": [
+        "师资队伍"
+      ],
+      "profileUrl": "https://cse.seu.edu.cn/2023/0915/c48203a464562/page.htm",
+      "portraitUrl": null,
+      "sourcePageUrl": "https://cse.seu.edu.cn/szdw_48203/list.htm",
+      "officialRosterUrl": "https://cse.seu.edu.cn/szdw_48203/list.htm",
+      "profileChecked": true,
+      "decision": "include_new_pi",
+      "reason": "官方个人页的研究方向命中 AI/NLP/CV/ML、数据智能、机器人或紧密相关方向，并确认教授/研究员或独立招生资格。",
+      "evidenceUrl": "https://cse.seu.edu.cn/2023/0915/c48203a464562/page.htm",
+      "evidenceExcerpt": "称号。 第一页 <<上一页 下一页>> 尾页 页码 1 / 5 相关链接 东南大学 计算机网络和信息集成教育部重点实验室（东南大学） 新一代人工智能技术与交叉应用教育部重点实验室（东南大学） 江苏省网络与信息安全重点实验室 计算机国家级实验教学示范中心（东南大学） 东南大学计算机科学拔尖学生培养基地 联系方式 通信地址：南京市江宁区东南大学路2号东南大学九龙湖校区 邮政编码：211189 ​办公地点：东南大学九龙湖校区计算机楼 学院微信公众号 Copyright © 东南大学计算机科学与工程学院、软件学"
+    },
+    {
+      "officialId": "c4663a63e2c4edfc",
+      "name": "李传佑",
+      "title": "官网列表未标注",
+      "officialSections": [
+        "师资队伍"
+      ],
+      "profileUrl": "https://cse.seu.edu.cn/2024/0116/c48203a479044/page.htm",
+      "portraitUrl": null,
+      "sourcePageUrl": "https://cse.seu.edu.cn/szdw_48203/list.htm",
+      "officialRosterUrl": "https://cse.seu.edu.cn/szdw_48203/list.htm",
+      "profileChecked": true,
+      "decision": "excluded_non_pi",
+      "reason": "官方职称为讲师、助理研究员、工程师或同等级非独立岗位，个人页未显示博士/硕士导师或独立招生资格。",
+      "evidenceUrl": "https://cse.seu.edu.cn/2024/0116/c48203a479044/page.htm",
+      "evidenceExcerpt": "间：2026-04-08 浏览次数： 388 I am working at School of Computer Science and Engineering, Southeast University, Nanjing, China. My research interests lie at the intersection of AI and systems, with a particular focus on the emerging era of large language models (LL"
+    },
+    {
+      "officialId": "0daf9845b67832cd",
+      "name": "李勇",
+      "title": "官网列表未标注",
+      "officialSections": [
+        "师资队伍"
+      ],
+      "profileUrl": "https://cse.seu.edu.cn/2025/0325/c48203a522914/page.htm",
+      "portraitUrl": null,
+      "sourcePageUrl": "https://cse.seu.edu.cn/szdw_48203/list.htm",
+      "officialRosterUrl": "https://cse.seu.edu.cn/szdw_48203/list.htm",
+      "profileChecked": true,
+      "decision": "include_new_pi",
+      "reason": "官方个人页的研究方向命中 AI/NLP/CV/ML、数据智能、机器人或紧密相关方向，并确认教授/研究员或独立招生资格。",
+      "evidenceUrl": "https://cse.seu.edu.cn/2025/0325/c48203a522914/page.htm",
+      "evidenceExcerpt": "36 李勇，博士，东南大学计算机科学与工程学院、软件学院、副教授，香江学者，江苏省双创博士，入选 教育部海外博士后引才专项。 主要从事多模态大模型、计算机视觉与情感计算相关研究，致力于推动前沿人工智能技术在具身智能机器人，智慧医疗，康复评估等真实场景中的落地应用。以第一作者或通讯作者在 IEEE TPAMI 、 TIP 、 TAC 、 CVPR 、 ICCV 、 NeurIPS 等国际期刊与会议发表多篇学术论文，部分会议论文 入选 Oral / Highlight ，并多次在国内外学术会议作报告。 更"
+    },
+    {
+      "officialId": "deda61f10cfe5dc3",
+      "name": "李博睿",
+      "title": "官网列表未标注",
+      "officialSections": [
+        "师资队伍"
+      ],
+      "profileUrl": "https://cse.seu.edu.cn/2024/0117/c48203a479328/page.htm",
+      "portraitUrl": null,
+      "sourcePageUrl": "https://cse.seu.edu.cn/szdw_48203/list.htm",
+      "officialRosterUrl": "https://cse.seu.edu.cn/szdw_48203/list.htm",
+      "profileChecked": true,
+      "decision": "include_new_pi",
+      "reason": "官方个人页的研究方向命中 AI/NLP/CV/ML、数据智能、机器人或紧密相关方向，并确认教授/研究员或独立招生资格。",
+      "evidenceUrl": "https://cse.seu.edu.cn/2024/0117/c48203a479328/page.htm",
+      "evidenceExcerpt": "please refer to my homepage 团队拥有成熟的科研训练方法与项目支撑， 博士与硕士均有招生名额 。 欢迎本校、外校对具身智能/持续学习/机器学习系统感兴趣、动手能力强的同学申请攻读博士/硕士和进行本科科研训练 ： - 参加博士申请考核（普博） ： 请附上你的简历，随时发送给我。 - 推免到课题组（ 直博/硕士 ）： 本校同学请在 大二暑假-大三寒假 联系，外校同学请在 大三下5-6月 联系。 - 考研到课题组： 可在考研通过初试后联系，考研期间也很欢迎 :)。 - 希望本科进"
+    },
+    {
+      "officialId": "53acc5296d72345b",
+      "name": "李双",
+      "title": "官网列表未标注",
+      "officialSections": [
+        "师资队伍"
+      ],
+      "profileUrl": "https://cse.seu.edu.cn/2023/1108/c48203a471600/page.htm",
+      "portraitUrl": null,
+      "sourcePageUrl": "https://cse.seu.edu.cn/szdw_48203/list.htm",
+      "officialRosterUrl": "https://cse.seu.edu.cn/szdw_48203/list.htm",
+      "profileChecked": true,
+      "decision": "excluded_insufficient_scope_evidence",
+      "reason": "官方资料能确认相关研究方向，但可访问页面不足以证明其现任独立 PI 或招生资格；本轮按证据门槛不纳入，而非推断为非 PI。",
+      "evidenceUrl": "https://cse.seu.edu.cn/2023/1108/c48203a471600/page.htm",
+      "evidenceExcerpt": "139 第一页 <<上一页 下一页>> 尾页 页码 1 / 5 相关链接 东南大学 计算机网络和信息集成教育部重点实验室（东南大学） 新一代人工智能技术与交叉应用教育部重点实验室（东南大学） 江苏省网络与信息安全重点实验室 计算机国家级实验教学示范中心（东南大学） 东南大学计算机科学拔尖学生培养基地 联系方式 通信地址：南京市江宁区东南大学路2号东南大学九龙湖校区 邮政编码：211189 ​办公地点：东南大学九龙湖校区计算机楼 学院微信公众号 Copyright © 东南大学计算机科学与工程学院、软件学"
+    },
+    {
+      "officialId": "62251b7bcd22b205",
+      "name": "李宝生",
+      "title": "官网列表未标注",
+      "officialSections": [
+        "师资队伍"
+      ],
+      "profileUrl": "https://cse.seu.edu.cn/2025/0211/c48203a518381/page.htm",
+      "portraitUrl": null,
+      "sourcePageUrl": "https://cse.seu.edu.cn/szdw_48203/list.htm",
+      "officialRosterUrl": "https://cse.seu.edu.cn/szdw_48203/list.htm",
+      "profileChecked": true,
+      "decision": "excluded_insufficient_scope_evidence",
+      "reason": "官方资料能确认相关研究方向，但可访问页面不足以证明其现任独立 PI 或招生资格；本轮按证据门槛不纳入，而非推断为非 PI。",
+      "evidenceUrl": "https://cse.seu.edu.cn/2025/0211/c48203a518381/page.htm",
+      "evidenceExcerpt": "99 第一页 <<上一页 下一页>> 尾页 页码 1 / 5 相关链接 东南大学 计算机网络和信息集成教育部重点实验室（东南大学） 新一代人工智能技术与交叉应用教育部重点实验室（东南大学） 江苏省网络与信息安全重点实验室 计算机国家级实验教学示范中心（东南大学） 东南大学计算机科学拔尖学生培养基地 联系方式 通信地址：南京市江宁区东南大学路2号东南大学九龙湖校区 邮政编码：211189 ​办公地点：东南大学九龙湖校区计算机楼 学院微信公众号 Copyright © 东南大学计算机科学与工程学院、软件学"
+    },
+    {
+      "officialId": "3cd67a1e0cc34dd6",
+      "name": "李少锋",
+      "title": "官网列表未标注",
+      "officialSections": [
+        "师资队伍"
+      ],
+      "profileUrl": "https://cse.seu.edu.cn/2024/0903/c48203a501767/page.htm",
+      "portraitUrl": null,
+      "sourcePageUrl": "https://cse.seu.edu.cn/szdw_48203/list.htm",
+      "officialRosterUrl": "https://cse.seu.edu.cn/szdw_48203/list.htm",
+      "profileChecked": true,
+      "decision": "include_new_pi",
+      "reason": "官方个人页的研究方向命中 AI/NLP/CV/ML、数据智能、机器人或紧密相关方向，并确认教授/研究员或独立招生资格。",
+      "evidenceUrl": "https://cse.seu.edu.cn/2024/0903/c48203a501767/page.htm",
+      "evidenceExcerpt": "（IEEE Fellow、国家杰青）。2022年至2024年在鹏城国家实验室从事博士后工作，师从沈学民教授（中国工程院外籍院士）。研究兴趣为人工智能与系统安全，在Usenix Security、ACM CCS、NDSS、CVPR、FSE/ ESEC 、 IEEE IWQoS、 IEEE TDSC、 IEEE Security & Privacy、 IEEE TVT、IEEE IoT-J等顶级会议和期刊上，发表一作/通信论文12篇，由国际知名出版社斯普林格出版学术专著2部，谷歌学术累计引用1160余次，以"
+    },
+    {
+      "officialId": "4fae249540d8af28",
+      "name": "李微",
+      "title": "官网列表未标注",
+      "officialSections": [
+        "师资队伍"
+      ],
+      "profileUrl": "https://cse.seu.edu.cn/2024/0116/c48203a479048/page.htm",
+      "portraitUrl": null,
+      "sourcePageUrl": "https://cse.seu.edu.cn/szdw_48203/list.htm",
+      "officialRosterUrl": "https://cse.seu.edu.cn/szdw_48203/list.htm",
+      "profileChecked": true,
+      "decision": "include_new_pi",
+      "reason": "官方个人页的研究方向命中 AI/NLP/CV/ML、数据智能、机器人或紧密相关方向，并确认教授/研究员或独立招生资格。",
+      "evidenceUrl": "https://cse.seu.edu.cn/2024/0116/c48203a479048/page.htm",
+      "evidenceExcerpt": "研究。 第一页 <<上一页 下一页>> 尾页 页码 1 / 8 相关链接 东南大学 计算机网络和信息集成教育部重点实验室（东南大学） 新一代人工智能技术与交叉应用教育部重点实验室（东南大学） 江苏省网络与信息安全重点实验室 计算机国家级实验教学示范中心（东南大学） 东南大学计算机科学拔尖学生培养基地 联系方式 通信地址：南京市江宁区东南大学路2号东南大学九龙湖校区 邮政编码：211189 ​办公地点：东南大学九龙湖校区计算机楼 学院微信公众号 Copyright © 东南大学计算机科学与工程学院、软件学"
+    },
+    {
+      "officialId": "4b942317323876ec",
+      "name": "李必信",
+      "title": "官网列表未标注",
+      "officialSections": [
+        "师资队伍"
+      ],
+      "profileUrl": "https://cse.seu.edu.cn/2024/0116/c48203a479056/page.htm",
+      "portraitUrl": null,
+      "sourcePageUrl": "https://cse.seu.edu.cn/szdw_48203/list.htm",
+      "officialRosterUrl": "https://cse.seu.edu.cn/szdw_48203/list.htm",
+      "profileChecked": true,
+      "decision": "include_new_pi",
+      "reason": "官方个人页的研究方向命中 AI/NLP/CV/ML、数据智能、机器人或紧密相关方向，并确认教授/研究员或独立招生资格。",
+      "evidenceUrl": "https://cse.seu.edu.cn/2024/0116/c48203a479056/page.htm",
+      "evidenceExcerpt": "余项。 第一页 <<上一页 下一页>> 尾页 页码 1 / 7 相关链接 东南大学 计算机网络和信息集成教育部重点实验室（东南大学） 新一代人工智能技术与交叉应用教育部重点实验室（东南大学） 江苏省网络与信息安全重点实验室 计算机国家级实验教学示范中心（东南大学） 东南大学计算机科学拔尖学生培养基地 联系方式 通信地址：南京市江宁区东南大学路2号东南大学九龙湖校区 邮政编码：211189 ​办公地点：东南大学九龙湖校区计算机楼 学院微信公众号 Copyright © 东南大学计算机科学与工程学院、软件学"
+    },
+    {
+      "officialId": "286aef190e9f0a52",
+      "name": "李慧颖",
+      "title": "官网列表未标注",
+      "officialSections": [
+        "师资队伍"
+      ],
+      "profileUrl": "https://cse.seu.edu.cn/2024/0116/c48203a479068/page.htm",
+      "portraitUrl": null,
+      "sourcePageUrl": "https://cse.seu.edu.cn/szdw_48203/list.htm",
+      "officialRosterUrl": "https://cse.seu.edu.cn/szdw_48203/list.htm",
+      "profileChecked": true,
+      "decision": "include_new_pi",
+      "reason": "官方个人页的研究方向命中 AI/NLP/CV/ML、数据智能、机器人或紧密相关方向，并确认教授/研究员或独立招生资格。",
+      "evidenceUrl": "https://cse.seu.edu.cn/2024/0116/c48203a479068/page.htm",
+      "evidenceExcerpt": "e false EN-US ZH-CN X-NONE 李慧颖，博士，副教授，硕士生导师。 从 2002 年进入东南大学参加工作以来，一直从事人工智能应用、自然语言处理、知识图谱问答、表示学习、信息抽取等 领域的研究与开 发。 近年来在国内核心期刊， SCI 源期刊及重要的国际会议上共发表论文 20 余篇，包括： IEEE Transactions on Knowledge and Data Engineering 期刊（ CCF A 类期刊）、 Knowledge-Based Systems 期刊 ("
+    },
+    {
+      "officialId": "4874716fcc28ff91",
+      "name": "李方方",
+      "title": "官网列表未标注",
+      "officialSections": [
+        "师资队伍"
+      ],
+      "profileUrl": "https://cse.seu.edu.cn/2024/0116/c48203a479117/page.htm",
+      "portraitUrl": null,
+      "sourcePageUrl": "https://cse.seu.edu.cn/szdw_48203/list.htm",
+      "officialRosterUrl": "https://cse.seu.edu.cn/szdw_48203/list.htm",
+      "profileChecked": true,
+      "decision": "excluded_insufficient_scope_evidence",
+      "reason": "官方资料能确认相关研究方向，但可访问页面不足以证明其现任独立 PI 或招生资格；本轮按证据门槛不纳入，而非推断为非 PI。",
+      "evidenceUrl": "https://cse.seu.edu.cn/2024/0116/c48203a479117/page.htm",
+      "evidenceExcerpt": "107 第一页 <<上一页 下一页>> 尾页 页码 1 / 5 相关链接 东南大学 计算机网络和信息集成教育部重点实验室（东南大学） 新一代人工智能技术与交叉应用教育部重点实验室（东南大学） 江苏省网络与信息安全重点实验室 计算机国家级实验教学示范中心（东南大学） 东南大学计算机科学拔尖学生培养基地 联系方式 通信地址：南京市江宁区东南大学路2号东南大学九龙湖校区 邮政编码：211189 ​办公地点：东南大学九龙湖校区计算机楼 学院微信公众号 Copyright © 东南大学计算机科学与工程学院、软件学"
+    },
+    {
+      "officialId": "38b9fb624b18ed15",
+      "name": "李松毅",
+      "title": "官网列表未标注",
+      "officialSections": [
+        "师资队伍"
+      ],
+      "profileUrl": "https://cse.seu.edu.cn/2024/0117/c48203a479401/page.htm",
+      "portraitUrl": null,
+      "sourcePageUrl": "https://cse.seu.edu.cn/szdw_48203/list.htm",
+      "officialRosterUrl": "https://cse.seu.edu.cn/szdw_48203/list.htm",
+      "profileChecked": true,
+      "decision": "excluded_insufficient_scope_evidence",
+      "reason": "官方资料能确认相关研究方向，但可访问页面不足以证明其现任独立 PI 或招生资格；本轮按证据门槛不纳入，而非推断为非 PI。",
+      "evidenceUrl": "https://cse.seu.edu.cn/2024/0117/c48203a479401/page.htm",
+      "evidenceExcerpt": "99 第一页 <<上一页 下一页>> 尾页 页码 1 / 5 相关链接 东南大学 计算机网络和信息集成教育部重点实验室（东南大学） 新一代人工智能技术与交叉应用教育部重点实验室（东南大学） 江苏省网络与信息安全重点实验室 计算机国家级实验教学示范中心（东南大学） 东南大学计算机科学拔尖学生培养基地 联系方式 通信地址：南京市江宁区东南大学路2号东南大学九龙湖校区 邮政编码：211189 ​办公地点：东南大学九龙湖校区计算机楼 学院微信公众号 Copyright © 东南大学计算机科学与工程学院、软件学"
+    },
+    {
+      "officialId": "707c0443e6aaf86a",
+      "name": "李熙",
+      "title": "官网列表未标注",
+      "officialSections": [
+        "师资队伍"
+      ],
+      "profileUrl": "https://cse.seu.edu.cn/2024/0216/c48203a480665/page.htm",
+      "portraitUrl": null,
+      "sourcePageUrl": "https://cse.seu.edu.cn/szdw_48203/list.htm",
+      "officialRosterUrl": "https://cse.seu.edu.cn/szdw_48203/list.htm",
+      "profileChecked": true,
+      "decision": "excluded_insufficient_scope_evidence",
+      "reason": "官方资料能确认相关研究方向，但可访问页面不足以证明其现任独立 PI 或招生资格；本轮按证据门槛不纳入，而非推断为非 PI。",
+      "evidenceUrl": "https://cse.seu.edu.cn/2024/0216/c48203a480665/page.htm",
+      "evidenceExcerpt": "161 第一页 <<上一页 下一页>> 尾页 页码 1 / 5 相关链接 东南大学 计算机网络和信息集成教育部重点实验室（东南大学） 新一代人工智能技术与交叉应用教育部重点实验室（东南大学） 江苏省网络与信息安全重点实验室 计算机国家级实验教学示范中心（东南大学） 东南大学计算机科学拔尖学生培养基地 联系方式 通信地址：南京市江宁区东南大学路2号东南大学九龙湖校区 邮政编码：211189 ​办公地点：东南大学九龙湖校区计算机楼 学院微信公众号 Copyright © 东南大学计算机科学与工程学院、软件学"
+    },
+    {
+      "officialId": "6a459cb79ce07929",
+      "name": "李碧薇",
+      "title": "官网列表未标注",
+      "officialSections": [
+        "师资队伍"
+      ],
+      "profileUrl": "https://cse.seu.edu.cn/2026/0109/c48203a551979/page.htm",
+      "portraitUrl": null,
+      "sourcePageUrl": "https://cse.seu.edu.cn/szdw_48203/list.htm",
+      "officialRosterUrl": "https://cse.seu.edu.cn/szdw_48203/list.htm",
+      "profileChecked": true,
+      "decision": "include_new_pi",
+      "reason": "官方个人页的研究方向命中 AI/NLP/CV/ML、数据智能、机器人或紧密相关方向，并确认教授/研究员或独立招生资格。",
+      "evidenceUrl": "https://cse.seu.edu.cn/2026/0109/c48203a551979/page.htm",
+      "evidenceExcerpt": "on. 第一页 <<上一页 下一页>> 尾页 页码 1 / 6 相关链接 东南大学 计算机网络和信息集成教育部重点实验室（东南大学） 新一代人工智能技术与交叉应用教育部重点实验室（东南大学） 江苏省网络与信息安全重点实验室 计算机国家级实验教学示范中心（东南大学） 东南大学计算机科学拔尖学生培养基地 联系方式 通信地址：南京市江宁区东南大学路2号东南大学九龙湖校区 邮政编码：211189 ​办公地点：东南大学九龙湖校区计算机楼 学院微信公众号 Copyright © 东南大学计算机科学与工程学院、软件学"
+    },
+    {
+      "officialId": "795fdb9e72395b34",
+      "name": "李竹颖",
+      "title": "官网列表未标注",
+      "officialSections": [
+        "师资队伍"
+      ],
+      "profileUrl": "https://cse.seu.edu.cn/2024/0117/c48203a479229/page.htm",
+      "portraitUrl": null,
+      "sourcePageUrl": "https://cse.seu.edu.cn/szdw_48203/list.htm",
+      "officialRosterUrl": "https://cse.seu.edu.cn/szdw_48203/list.htm",
+      "profileChecked": true,
+      "decision": "include_new_pi",
+      "reason": "官方个人页的研究方向命中 AI/NLP/CV/ML、数据智能、机器人或紧密相关方向，并确认教授/研究员或独立招生资格。",
+      "evidenceUrl": "https://cse.seu.edu.cn/2024/0117/c48203a479229/page.htm",
+      "evidenceExcerpt": "ueller教授与Stefan Greuter教授。2021年加入 东南大学计算机科学与工程学院，现为东南大学PALM实验室成员。研究领域为人机交互，研究方向主要包括：人机融合、人类增强、情感交互、互动游戏、智能健康等。已在 CHI、TOCHI等领域内国际权威期刊/会议发表论文40余篇。主持/参与多项国家自然科学基金、江苏省自然科学基金等项目。目前担任多个国内外重要学术职务，包括人机交互顶级学术会议CHI 2024无障碍主席（Accessibility Chair）, TEI 2024 Pictoria"
+    },
+    {
+      "officialId": "759c532d1b71cb50",
+      "name": "李美军",
+      "title": "官网列表未标注",
+      "officialSections": [
+        "师资队伍"
+      ],
+      "profileUrl": "https://cse.seu.edu.cn/2024/0216/c48203a480671/page.htm",
+      "portraitUrl": null,
+      "sourcePageUrl": "https://cse.seu.edu.cn/szdw_48203/list.htm",
+      "officialRosterUrl": "https://cse.seu.edu.cn/szdw_48203/list.htm",
+      "profileChecked": true,
+      "decision": "excluded_insufficient_scope_evidence",
+      "reason": "官方资料能确认相关研究方向，但可访问页面不足以证明其现任独立 PI 或招生资格；本轮按证据门槛不纳入，而非推断为非 PI。",
+      "evidenceUrl": "https://cse.seu.edu.cn/2024/0216/c48203a480671/page.htm",
+      "evidenceExcerpt": "102 第一页 <<上一页 下一页>> 尾页 页码 1 / 5 相关链接 东南大学 计算机网络和信息集成教育部重点实验室（东南大学） 新一代人工智能技术与交叉应用教育部重点实验室（东南大学） 江苏省网络与信息安全重点实验室 计算机国家级实验教学示范中心（东南大学） 东南大学计算机科学拔尖学生培养基地 联系方式 通信地址：南京市江宁区东南大学路2号东南大学九龙湖校区 邮政编码：211189 ​办公地点：东南大学九龙湖校区计算机楼 学院微信公众号 Copyright © 东南大学计算机科学与工程学院、软件学"
+    },
+    {
+      "officialId": "85efbd88e48edc48",
+      "name": "李青",
+      "title": "官网列表未标注",
+      "officialSections": [
+        "师资队伍"
+      ],
+      "profileUrl": "https://cse.seu.edu.cn/2024/0117/c48203a479342/page.htm",
+      "portraitUrl": null,
+      "sourcePageUrl": "https://cse.seu.edu.cn/szdw_48203/list.htm",
+      "officialRosterUrl": "https://cse.seu.edu.cn/szdw_48203/list.htm",
+      "profileChecked": true,
+      "decision": "excluded_insufficient_scope_evidence",
+      "reason": "官方资料能确认相关研究方向，但可访问页面不足以证明其现任独立 PI 或招生资格；本轮按证据门槛不纳入，而非推断为非 PI。",
+      "evidenceUrl": "https://cse.seu.edu.cn/2024/0117/c48203a479342/page.htm",
+      "evidenceExcerpt": "127 第一页 <<上一页 下一页>> 尾页 页码 1 / 5 相关链接 东南大学 计算机网络和信息集成教育部重点实验室（东南大学） 新一代人工智能技术与交叉应用教育部重点实验室（东南大学） 江苏省网络与信息安全重点实验室 计算机国家级实验教学示范中心（东南大学） 东南大学计算机科学拔尖学生培养基地 联系方式 通信地址：南京市江宁区东南大学路2号东南大学九龙湖校区 邮政编码：211189 ​办公地点：东南大学九龙湖校区计算机楼 学院微信公众号 Copyright © 东南大学计算机科学与工程学院、软件学"
+    },
+    {
+      "officialId": "d4f4e4f929bff7d0",
+      "name": "林丽",
+      "title": "官网列表未标注",
+      "officialSections": [
+        "师资队伍"
+      ],
+      "profileUrl": "https://cse.seu.edu.cn/2024/0117/c48203a479324/page.htm",
+      "portraitUrl": null,
+      "sourcePageUrl": "https://cse.seu.edu.cn/szdw_48203/list.htm",
+      "officialRosterUrl": "https://cse.seu.edu.cn/szdw_48203/list.htm",
+      "profileChecked": true,
+      "decision": "excluded_insufficient_scope_evidence",
+      "reason": "官方资料能确认相关研究方向，但可访问页面不足以证明其现任独立 PI 或招生资格；本轮按证据门槛不纳入，而非推断为非 PI。",
+      "evidenceUrl": "https://cse.seu.edu.cn/2024/0117/c48203a479324/page.htm",
+      "evidenceExcerpt": "页 。 第一页 <<上一页 下一页>> 尾页 页码 1 / 7 相关链接 东南大学 计算机网络和信息集成教育部重点实验室（东南大学） 新一代人工智能技术与交叉应用教育部重点实验室（东南大学） 江苏省网络与信息安全重点实验室 计算机国家级实验教学示范中心（东南大学） 东南大学计算机科学拔尖学生培养基地 联系方式 通信地址：南京市江宁区东南大学路2号东南大学九龙湖校区 邮政编码：211189 ​办公地点：东南大学九龙湖校区计算机楼 学院微信公众号 Copyright © 东南大学计算机科学与工程学院、软件学"
+    },
+    {
+      "officialId": "b6e70cbb8097b79b",
+      "name": "梁建青",
+      "title": "官网列表未标注",
+      "officialSections": [
+        "师资队伍"
+      ],
+      "profileUrl": "https://cse.seu.edu.cn/2026/0423/c48203a565059/page.htm",
+      "portraitUrl": null,
+      "sourcePageUrl": "https://cse.seu.edu.cn/szdw_48203/list.htm",
+      "officialRosterUrl": "https://cse.seu.edu.cn/szdw_48203/list.htm",
+      "profileChecked": true,
+      "decision": "include_new_pi",
+      "reason": "官方个人页的研究方向命中 AI/NLP/CV/ML、数据智能、机器人或紧密相关方向，并确认教授/研究员或独立招生资格。",
+      "evidenceUrl": "https://cse.seu.edu.cn/2026/0423/c48203a565059/page.htm",
+      "evidenceExcerpt": "发布者：梁建青 发布时间：2026-06-14 浏览次数： 334 梁建青，博士，副教授，硕士生导师。博士毕业于天津大学 。 主要研究方向为机器学习和图数据挖掘。 近年来，在 AI 、 TPAMI 、 TIP 、 ICML 、 NeurIPS 、 WWW 等重要学术刊物上发表学术论文 30 余篇。获 2023 年山西省自然科学一等奖 ， 2024 年山西省科技创新领域青年拔尖人才，2025年 世界人工智能大会青年优秀论文入围奖， 2019 年天津大学优秀博士学位论文奖， WSDM 2022 杰出审稿人奖"
+    },
+    {
+      "officialId": "d9c2c5d3de60bf29",
+      "name": "罗军舟",
+      "title": "官网列表未标注",
+      "officialSections": [
+        "师资队伍"
+      ],
+      "profileUrl": "https://cse.seu.edu.cn/2023/0915/c48203a464558/page.htm",
+      "portraitUrl": null,
+      "sourcePageUrl": "https://cse.seu.edu.cn/szdw_48203/list.htm",
+      "officialRosterUrl": "https://cse.seu.edu.cn/szdw_48203/list.htm",
+      "profileChecked": true,
+      "decision": "include_new_pi",
+      "reason": "官方个人页的研究方向命中 AI/NLP/CV/ML、数据智能、机器人或紧密相关方向，并确认教授/研究员或独立招生资格。",
+      "evidenceUrl": "https://cse.seu.edu.cn/2023/0915/c48203a464558/page.htm",
+      "evidenceExcerpt": "学家。 第一页 <<上一页 下一页>> 尾页 页码 1 / 8 相关链接 东南大学 计算机网络和信息集成教育部重点实验室（东南大学） 新一代人工智能技术与交叉应用教育部重点实验室（东南大学） 江苏省网络与信息安全重点实验室 计算机国家级实验教学示范中心（东南大学） 东南大学计算机科学拔尖学生培养基地 联系方式 通信地址：南京市江宁区东南大学路2号东南大学九龙湖校区 邮政编码：211189 ​办公地点：东南大学九龙湖校区计算机楼 学院微信公众号 Copyright © 东南大学计算机科学与工程学院、软件学"
+    },
+    {
+      "officialId": "9c41e2b5120439f6",
+      "name": "罗翔中",
+      "title": "官网列表未标注",
+      "officialSections": [
+        "师资队伍"
+      ],
+      "profileUrl": "https://cse.seu.edu.cn/2025/0305/c48203a520223/page.htm",
+      "portraitUrl": null,
+      "sourcePageUrl": "https://cse.seu.edu.cn/szdw_48203/list.htm",
+      "officialRosterUrl": "https://cse.seu.edu.cn/szdw_48203/list.htm",
+      "profileChecked": true,
+      "decision": "include_new_pi",
+      "reason": "官方个人页的研究方向命中 AI/NLP/CV/ML、数据智能、机器人或紧密相关方向，并确认教授/研究员或独立招生资格。",
+      "evidenceUrl": "https://cse.seu.edu.cn/2025/0305/c48203a520223/page.htm",
+      "evidenceExcerpt": "联系！ 第一页 <<上一页 下一页>> 尾页 页码 1 / 5 相关链接 东南大学 计算机网络和信息集成教育部重点实验室（东南大学） 新一代人工智能技术与交叉应用教育部重点实验室（东南大学） 江苏省网络与信息安全重点实验室 计算机国家级实验教学示范中心（东南大学） 东南大学计算机科学拔尖学生培养基地 联系方式 通信地址：南京市江宁区东南大学路2号东南大学九龙湖校区 邮政编码：211189 ​办公地点：东南大学九龙湖校区计算机楼 学院微信公众号 Copyright © 东南大学计算机科学与工程学院、软件学"
+    },
+    {
+      "officialId": "93518e471591529e",
+      "name": "赖大荣",
+      "title": "官网列表未标注",
+      "officialSections": [
+        "师资队伍"
+      ],
+      "profileUrl": "https://cse.seu.edu.cn/2024/0117/c48203a479405/page.htm",
+      "portraitUrl": null,
+      "sourcePageUrl": "https://cse.seu.edu.cn/szdw_48203/list.htm",
+      "officialRosterUrl": "https://cse.seu.edu.cn/szdw_48203/list.htm",
+      "profileChecked": true,
+      "decision": "include_new_pi",
+      "reason": "官方个人页的研究方向命中 AI/NLP/CV/ML、数据智能、机器人或紧密相关方向，并确认教授/研究员或独立招生资格。",
+      "evidenceUrl": "https://cse.seu.edu.cn/2024/0117/c48203a479405/page.htm",
+      "evidenceExcerpt": "011 年 7 月博士毕业于上海交通大学，同年 8 月进入东南大学计算机科学与工程学院工作。曾获上海市优秀博士学位论文奖，长期从事网络科学与人工智能交叉研究，主要研究兴趣包括复杂网络信息挖掘、图机器学习、人工智能应用。先后主持国家自然科学基金、江苏省自然科学基金及教育部博士点基金项目，参与包括多项国家自然科学基金、国家重点研发计划在内的纵向科研基金项目。 主要在《 Knowledge-Based Systems 》、 《 Bioinformatics 》、《 Physical Review E 》、《"
+    },
+    {
+      "officialId": "93c7e84f0e3f4828",
+      "name": "陆紫薇",
+      "title": "官网列表未标注",
+      "officialSections": [
+        "师资队伍"
+      ],
+      "profileUrl": "https://cse.seu.edu.cn/2024/0216/c48203a480655/page.htm",
+      "portraitUrl": null,
+      "sourcePageUrl": "https://cse.seu.edu.cn/szdw_48203/list.htm",
+      "officialRosterUrl": "https://cse.seu.edu.cn/szdw_48203/list.htm",
+      "profileChecked": true,
+      "decision": "excluded_insufficient_scope_evidence",
+      "reason": "官方资料能确认相关研究方向，但可访问页面不足以证明其现任独立 PI 或招生资格；本轮按证据门槛不纳入，而非推断为非 PI。",
+      "evidenceUrl": "https://cse.seu.edu.cn/2024/0216/c48203a480655/page.htm",
+      "evidenceExcerpt": "171 第一页 <<上一页 下一页>> 尾页 页码 1 / 5 相关链接 东南大学 计算机网络和信息集成教育部重点实验室（东南大学） 新一代人工智能技术与交叉应用教育部重点实验室（东南大学） 江苏省网络与信息安全重点实验室 计算机国家级实验教学示范中心（东南大学） 东南大学计算机科学拔尖学生培养基地 联系方式 通信地址：南京市江宁区东南大学路2号东南大学九龙湖校区 邮政编码：211189 ​办公地点：东南大学九龙湖校区计算机楼 学院微信公众号 Copyright © 东南大学计算机科学与工程学院、软件学"
+    },
+    {
+      "officialId": "eaebddb7aa158217",
+      "name": "鹿婷",
+      "title": "官网列表未标注",
+      "officialSections": [
+        "师资队伍"
+      ],
+      "profileUrl": "https://cse.seu.edu.cn/2024/0216/c48203a480675/page.htm",
+      "portraitUrl": null,
+      "sourcePageUrl": "https://cse.seu.edu.cn/szdw_48203/list.htm",
+      "officialRosterUrl": "https://cse.seu.edu.cn/szdw_48203/list.htm",
+      "profileChecked": true,
+      "decision": "excluded_insufficient_scope_evidence",
+      "reason": "官方资料能确认相关研究方向，但可访问页面不足以证明其现任独立 PI 或招生资格；本轮按证据门槛不纳入，而非推断为非 PI。",
+      "evidenceUrl": "https://cse.seu.edu.cn/2024/0216/c48203a480675/page.htm",
+      "evidenceExcerpt": "145 第一页 <<上一页 下一页>> 尾页 页码 1 / 5 相关链接 东南大学 计算机网络和信息集成教育部重点实验室（东南大学） 新一代人工智能技术与交叉应用教育部重点实验室（东南大学） 江苏省网络与信息安全重点实验室 计算机国家级实验教学示范中心（东南大学） 东南大学计算机科学拔尖学生培养基地 联系方式 通信地址：南京市江宁区东南大学路2号东南大学九龙湖校区 邮政编码：211189 ​办公地点：东南大学九龙湖校区计算机楼 学院微信公众号 Copyright © 东南大学计算机科学与工程学院、软件学"
+    },
+    {
+      "officialId": "79bdb279526a5f71",
+      "name": "黎仁蔚",
+      "title": "官网列表未标注",
+      "officialSections": [
+        "师资队伍"
+      ],
+      "profileUrl": "https://cse.seu.edu.cn/2024/0506/c48203a489664/page.htm",
+      "portraitUrl": null,
+      "sourcePageUrl": "https://cse.seu.edu.cn/szdw_48203/list.htm",
+      "officialRosterUrl": "https://cse.seu.edu.cn/szdw_48203/list.htm",
+      "profileChecked": true,
+      "decision": "include_new_pi",
+      "reason": "官方个人页的研究方向命中 AI/NLP/CV/ML、数据智能、机器人或紧密相关方向，并确认教授/研究员或独立招生资格。",
+      "evidenceUrl": "https://cse.seu.edu.cn/2024/0506/c48203a489664/page.htm",
+      "evidenceExcerpt": "- 研究成果部署在世界前100大运营商网络中，有些专利运行15年以上。 - 在职业生涯早期，曾在中国科学院软件研究所等单位从事计算机科学、人工智能、数理逻辑、定理自动证明、知识工程的研究，在AAAI, ECAI, Lecture Notes in Computer Science, Journal of Logic and Computation, Annals of Mathematics and Artificial Intelligence，Journal of Applied Non-Clas"
+    },
+    {
+      "officialId": "df74a110a93c433c",
+      "name": "孟杰",
+      "title": "官网列表未标注",
+      "officialSections": [
+        "师资队伍"
+      ],
+      "profileUrl": "https://cse.seu.edu.cn/2024/0216/c48203a480659/page.htm",
+      "portraitUrl": null,
+      "sourcePageUrl": "https://cse.seu.edu.cn/szdw_48203/list.htm",
+      "officialRosterUrl": "https://cse.seu.edu.cn/szdw_48203/list.htm",
+      "profileChecked": true,
+      "decision": "excluded_insufficient_scope_evidence",
+      "reason": "官方资料能确认相关研究方向，但可访问页面不足以证明其现任独立 PI 或招生资格；本轮按证据门槛不纳入，而非推断为非 PI。",
+      "evidenceUrl": "https://cse.seu.edu.cn/2024/0216/c48203a480659/page.htm",
+      "evidenceExcerpt": "130 第一页 <<上一页 下一页>> 尾页 页码 1 / 5 相关链接 东南大学 计算机网络和信息集成教育部重点实验室（东南大学） 新一代人工智能技术与交叉应用教育部重点实验室（东南大学） 江苏省网络与信息安全重点实验室 计算机国家级实验教学示范中心（东南大学） 东南大学计算机科学拔尖学生培养基地 联系方式 通信地址：南京市江宁区东南大学路2号东南大学九龙湖校区 邮政编码：211189 ​办公地点：东南大学九龙湖校区计算机楼 学院微信公众号 Copyright © 东南大学计算机科学与工程学院、软件学"
+    },
+    {
+      "officialId": "e83f66ca61c84c29",
+      "name": "马卫东",
+      "title": "官网列表未标注",
+      "officialSections": [
+        "师资队伍"
+      ],
+      "profileUrl": "https://cse.seu.edu.cn/2024/0117/c48203a479207/page.htm",
+      "portraitUrl": null,
+      "sourcePageUrl": "https://cse.seu.edu.cn/szdw_48203/list.htm",
+      "officialRosterUrl": "https://cse.seu.edu.cn/szdw_48203/list.htm",
+      "profileChecked": true,
+      "decision": "include_new_pi",
+      "reason": "官方个人页的研究方向命中 AI/NLP/CV/ML、数据智能、机器人或紧密相关方向，并确认教授/研究员或独立招生资格。",
+      "evidenceUrl": "https://cse.seu.edu.cn/2024/0117/c48203a479207/page.htm",
+      "evidenceExcerpt": "数： 857 工学博士，东南大学计算机科学与工程学院副研究员，中国计算机学会会员，电子学会会员，形式化方法专委会委员，嵌入式系统专委会委员，人工智能学会离散智能专委会委员；东南大学未来网络研究中心副主任，工业与可信软件技术实验室主任。主要研究方向包括：网络计算与并行计算、大数据与机器学习、嵌入式系统与物联网技术、高可信软件构造与软件测试验证技术、工业核心软件研制等。 1991年毕业于上海交通大学应用数学专业，获理学学士学位；2002年毕业于电子科技大学计算机应用专业，获工学硕士学位；2002-2007年"
+    },
+    {
+      "officialId": "d0cf05d340ef2599",
+      "name": "倪巍伟",
+      "title": "官网列表未标注",
+      "officialSections": [
+        "师资队伍"
+      ],
+      "profileUrl": "https://cse.seu.edu.cn/2024/0117/c48203a479443/page.htm",
+      "portraitUrl": null,
+      "sourcePageUrl": "https://cse.seu.edu.cn/szdw_48203/list.htm",
+      "officialRosterUrl": "https://cse.seu.edu.cn/szdw_48203/list.htm",
+      "profileChecked": true,
+      "decision": "include_new_pi",
+      "reason": "官方个人页的研究方向命中 AI/NLP/CV/ML、数据智能、机器人或紧密相关方向，并确认教授/研究员或独立招生资格。",
+      "evidenceUrl": "https://cse.seu.edu.cn/2024/0117/c48203a479443/page.htm",
+      "evidenceExcerpt": "发布者：倪巍伟 发布时间：2025-10-27 浏览次数： 546 现为东南大学计算机科学与工 程学院、软件学院、教授、博士生导师。主要从事数据科学方面研究，研究兴趣包括 数据智能、数据安全 等 。 数据智能研究主要 包括 数据挖掘、深度学习、大数据技术 。数据安全研究 包括 隐私保护位置服务、 隐私保护数据共享、隐私保护机器学习、对抗机器学习、联邦学习 等。 第一页 <<上一页 下一页>> 尾页 页码 1 / 6 相关链接 东南大学 计算机网络和信息集成教育部重点实验室（东南大学） 新一代人工智能技术"
+    },
+    {
+      "officialId": "448dbf55edec38b2",
+      "name": "倪庆剑",
+      "title": "官网列表未标注",
+      "officialSections": [
+        "师资队伍"
+      ],
+      "profileUrl": "https://cse.seu.edu.cn/2024/0117/c48203a479369/page.htm",
+      "portraitUrl": null,
+      "sourcePageUrl": "https://cse.seu.edu.cn/szdw_48203/list.htm",
+      "officialRosterUrl": "https://cse.seu.edu.cn/szdw_48203/list.htm",
+      "profileChecked": true,
+      "decision": "include_new_pi",
+      "reason": "官方个人页的研究方向命中 AI/NLP/CV/ML、数据智能、机器人或紧密相关方向，并确认教授/研究员或独立招生资格。",
+      "evidenceUrl": "https://cse.seu.edu.cn/2024/0117/c48203a479369/page.htm",
+      "evidenceExcerpt": "3 月 于东南大学计算机应用技术专业获博士学位，曾于 2016-2017 年在美国威斯康星大学麦迪逊分校访学。 【研究与项目】 研究领域为人工智能及其应用 ，主要聚焦 ： 人工智能/机器学习方法； 时序/时空数据挖掘与预测； 计算机视觉应用； 环境/气象/交通/天文领域智能应用 。 当前主持国家自然科学基金项目、企事业单位委托项目多项，研究强调“方法创新 + 应用落地 + 场景验证”。 【博士/硕士研究生招生】 每年招收硕士研究生 3-5 人、博士研究生（含直博） 1-2 人，招生专业覆盖计算机科学与"
+    },
+    {
+      "officialId": "63b2a7d90d402bac",
+      "name": "乔伊果",
+      "title": "官网列表未标注",
+      "officialSections": [
+        "师资队伍"
+      ],
+      "profileUrl": "https://cse.seu.edu.cn/2024/0117/c48203a479338/page.htm",
+      "portraitUrl": null,
+      "sourcePageUrl": "https://cse.seu.edu.cn/szdw_48203/list.htm",
+      "officialRosterUrl": "https://cse.seu.edu.cn/szdw_48203/list.htm",
+      "profileChecked": true,
+      "decision": "include_new_pi",
+      "reason": "官方个人页的研究方向命中 AI/NLP/CV/ML、数据智能、机器人或紧密相关方向，并确认教授/研究员或独立招生资格。",
+      "evidenceUrl": "https://cse.seu.edu.cn/2024/0117/c48203a479338/page.htm",
+      "evidenceExcerpt": "nd Engineering, Southeast University Key Laboratory of New Generation Artificial Intelligence Technology and Its Interdisciplinary Applications, Ministry of Education, China 乔伊果，博士，讲师，硕导，东南大学“紫金青年学者”。2018年于西安电子科技大学获博士学位，2019-2022年于英国巴斯大学CAMERA研究中心和Pering实验室任博士后研究员。研究领域涉及计算"
+    },
+    {
+      "officialId": "8c6bcc33c0a355d7",
+      "name": "戚晓芳",
+      "title": "官网列表未标注",
+      "officialSections": [
+        "师资队伍"
+      ],
+      "profileUrl": "https://cse.seu.edu.cn/2024/0116/c48203a479064/page.htm",
+      "portraitUrl": null,
+      "sourcePageUrl": "https://cse.seu.edu.cn/szdw_48203/list.htm",
+      "officialRosterUrl": "https://cse.seu.edu.cn/szdw_48203/list.htm",
+      "profileChecked": true,
+      "decision": "excluded_insufficient_scope_evidence",
+      "reason": "官方资料能确认相关研究方向，但可访问页面不足以证明其现任独立 PI 或招生资格；本轮按证据门槛不纳入，而非推断为非 PI。",
+      "evidenceUrl": "https://cse.seu.edu.cn/2024/0116/c48203a479064/page.htm",
+      "evidenceExcerpt": "n . 第一页 <<上一页 下一页>> 尾页 页码 1 / 5 相关链接 东南大学 计算机网络和信息集成教育部重点实验室（东南大学） 新一代人工智能技术与交叉应用教育部重点实验室（东南大学） 江苏省网络与信息安全重点实验室 计算机国家级实验教学示范中心（东南大学） 东南大学计算机科学拔尖学生培养基地 联系方式 通信地址：南京市江宁区东南大学路2号东南大学九龙湖校区 邮政编码：211189 ​办公地点：东南大学九龙湖校区计算机楼 学院微信公众号 Copyright © 东南大学计算机科学与工程学院、软件学"
+    },
+    {
+      "officialId": "e9d3ca489fd83be4",
+      "name": "漆桂林",
+      "title": "官网列表未标注",
+      "officialSections": [
+        "师资队伍"
+      ],
+      "profileUrl": "https://cse.seu.edu.cn/2024/0116/c48203a479078/page.htm",
+      "portraitUrl": null,
+      "sourcePageUrl": "https://cse.seu.edu.cn/szdw_48203/list.htm",
+      "officialRosterUrl": "https://cse.seu.edu.cn/szdw_48203/list.htm",
+      "profileChecked": true,
+      "decision": "include_new_pi",
+      "reason": "官方个人页的研究方向命中 AI/NLP/CV/ML、数据智能、机器人或紧密相关方向，并确认教授/研究员或独立招生资格。",
+      "evidenceUrl": "https://cse.seu.edu.cn/2024/0116/c48203a479078/page.htm",
+      "evidenceExcerpt": "博士学位。 2006 年 8 月至 2009 年 8 月在德国 Karlsruhe 大学 AIFB 研究所做博士后研究。 漆桂林教授长期从事人工智能、知识图谱、自然语言处理 方面的科学研究及教学工作。截至目前 , 已经发表高质量学术论文 200 篇多篇，特别是在国际人工智能著名会议 IJCAI 、 AAAI 、 KR 、 UAI 以及国际语义 Web 著名会议 ISWC 、 ESWC 发表多篇会议文章，在国际著名杂志IEEE Transaction on Knowledge Engineering、 J"
+    },
+    {
+      "officialId": "058346b47966ac84",
+      "name": "祁磊",
+      "title": "官网列表未标注",
+      "officialSections": [
+        "师资队伍"
+      ],
+      "profileUrl": "https://cse.seu.edu.cn/2025/0902/c48203a538025/page.htm",
+      "portraitUrl": null,
+      "sourcePageUrl": "https://cse.seu.edu.cn/szdw_48203/list.htm",
+      "officialRosterUrl": "https://cse.seu.edu.cn/szdw_48203/list.htm",
+      "profileChecked": true,
+      "decision": "include_new_pi",
+      "reason": "官方个人页的研究方向命中 AI/NLP/CV/ML、数据智能、机器人或紧密相关方向，并确认教授/研究员或独立招生资格。",
+      "evidenceUrl": "https://cse.seu.edu.cn/2025/0902/c48203a538025/page.htm",
+      "evidenceExcerpt": "布时间：2026-05-26 浏览次数： 418 祁磊，博士，东南大学计算机科学与工程学院副研究员（长聘专任教师），硕士生导师。 研究方向为计算机视觉、模式识别。 2020年博士毕业于南京大学计算机科学与技术系，2018年8月至2019年8月在CSC的资助下到澳大利亚沃隆港大学进行学术交流访问。目前在所研究领域的权威期刊和顶级会议上发表论文60+篇，并主持多项国家/省部级项目。入选国家资助博士后研究人员计划、江苏省卓越博士后、东南大学紫金学者等人才支持计划；曾获CCF产学合作基金优秀项目案例 、中国博士后"
+    },
+    {
+      "officialId": "3845725af8370f4f",
+      "name": "任国林",
+      "title": "官网列表未标注",
+      "officialSections": [
+        "师资队伍"
+      ],
+      "profileUrl": "https://cse.seu.edu.cn/2024/0117/c48203a479415/page.htm",
+      "portraitUrl": null,
+      "sourcePageUrl": "https://cse.seu.edu.cn/szdw_48203/list.htm",
+      "officialRosterUrl": "https://cse.seu.edu.cn/szdw_48203/list.htm",
+      "profileChecked": true,
+      "decision": "include_new_pi",
+      "reason": "官方个人页的研究方向命中 AI/NLP/CV/ML、数据智能、机器人或紧密相关方向，并确认教授/研究员或独立招生资格。",
+      "evidenceUrl": "https://cse.seu.edu.cn/2024/0117/c48203a479415/page.htm",
+      "evidenceExcerpt": "果奖。 第一页 <<上一页 下一页>> 尾页 页码 1 / 6 相关链接 东南大学 计算机网络和信息集成教育部重点实验室（东南大学） 新一代人工智能技术与交叉应用教育部重点实验室（东南大学） 江苏省网络与信息安全重点实验室 计算机国家级实验教学示范中心（东南大学） 东南大学计算机科学拔尖学生培养基地 联系方式 通信地址：南京市江宁区东南大学路2号东南大学九龙湖校区 邮政编码：211189 ​办公地点：东南大学九龙湖校区计算机楼 学院微信公众号 Copyright © 东南大学计算机科学与工程学院、软件学"
+    },
+    {
+      "officialId": "85d32be5390c3be6",
+      "name": "孙明萱",
+      "title": "官网列表未标注",
+      "officialSections": [
+        "师资队伍"
+      ],
+      "profileUrl": "https://cse.seu.edu.cn/2025/1218/c48203a548927/page.htm",
+      "portraitUrl": null,
+      "sourcePageUrl": "https://cse.seu.edu.cn/szdw_48203/list.htm",
+      "officialRosterUrl": "https://cse.seu.edu.cn/szdw_48203/list.htm",
+      "profileChecked": true,
+      "decision": "include_new_pi",
+      "reason": "官方个人页的研究方向命中 AI/NLP/CV/ML、数据智能、机器人或紧密相关方向，并确认教授/研究员或独立招生资格。",
+      "evidenceUrl": "https://cse.seu.edu.cn/2025/1218/c48203a548927/page.htm",
+      "evidenceExcerpt": "。 本科毕业于浙江大学竺可桢学院， 博士毕业于美国佐治亚理工学院。 博士毕业后进入硅谷 Pandora Media任资深科学家， 主导大规模推荐系统研发，之后在美国路易斯安那州立大学任教，并晋升为终身副教授 。主要研究方向为可信机器学习，重点关注公平性 、 安全性和隐私保护性 。相关工作发表于 TPAMI 、 KDD 、 AAAI 等重要国际期刊 / 会议， 获多项美国发明专利。部分成果受到冯•诺伊曼奖章得主、拉格朗日奖得主等国际权威学者引用好评，且已成功转化，有效支撑月均千万用户的工业级应用。获美国自"
+    },
+    {
+      "officialId": "b200b8bb9bfaa388",
+      "name": "孙相国",
+      "title": "官网列表未标注",
+      "officialSections": [
+        "师资队伍"
+      ],
+      "profileUrl": "https://cse.seu.edu.cn/2025/1227/c48203a550125/page.htm",
+      "portraitUrl": null,
+      "sourcePageUrl": "https://cse.seu.edu.cn/szdw_48203/list.htm",
+      "officialRosterUrl": "https://cse.seu.edu.cn/szdw_48203/list.htm",
+      "profileChecked": true,
+      "decision": "include_new_pi",
+      "reason": "官方个人页的研究方向命中 AI/NLP/CV/ML、数据智能、机器人或紧密相关方向，并确认教授/研究员或独立招生资格。",
+      "evidenceUrl": "https://cse.seu.edu.cn/2025/1227/c48203a550125/page.htm",
+      "evidenceExcerpt": "任博后研究员，于东南大学获得博士学位，期间先后在微软亚洲研究院、杭州之江实验室、澳大利亚昆士兰大学等单位进行联合博士培养。他的研究方向聚焦于数据挖掘、在线社交网络与社会计算，并致力于探索面向社会网络的下一代通用人工智能。在SIGKDD, VLDB, TKDE, NeurIPS, ICML, ICLR, TheWebConf, EMNLP, WSDM, CIKM, TOIS, TNNLS, RecSys, IJCAI等国际顶尖会议期刊发表高水平论文40余篇。现担任中国人工智能学会-社会计算专委会副秘书长，"
+    },
+    {
+      "officialId": "9ae9fce12b09752c",
+      "name": "孙颖慧",
+      "title": "官网列表未标注",
+      "officialSections": [
+        "师资队伍"
+      ],
+      "profileUrl": "https://cse.seu.edu.cn/2024/0312/c48203a483730/page.htm",
+      "portraitUrl": null,
+      "sourcePageUrl": "https://cse.seu.edu.cn/szdw_48203/list.htm",
+      "officialRosterUrl": "https://cse.seu.edu.cn/szdw_48203/list.htm",
+      "profileChecked": true,
+      "decision": "excluded_insufficient_scope_evidence",
+      "reason": "官方资料能确认相关研究方向，但可访问页面不足以证明其现任独立 PI 或招生资格；本轮按证据门槛不纳入，而非推断为非 PI。",
+      "evidenceUrl": "https://cse.seu.edu.cn/2024/0312/c48203a483730/page.htm",
+      "evidenceExcerpt": "154 第一页 <<上一页 下一页>> 尾页 页码 1 / 5 相关链接 东南大学 计算机网络和信息集成教育部重点实验室（东南大学） 新一代人工智能技术与交叉应用教育部重点实验室（东南大学） 江苏省网络与信息安全重点实验室 计算机国家级实验教学示范中心（东南大学） 东南大学计算机科学拔尖学生培养基地 联系方式 通信地址：南京市江宁区东南大学路2号东南大学九龙湖校区 邮政编码：211189 ​办公地点：东南大学九龙湖校区计算机楼 学院微信公众号 Copyright © 东南大学计算机科学与工程学院、软件学"
+    },
+    {
+      "officialId": "a79d7204051d4891",
+      "name": "宋沫飞",
+      "title": "官网列表未标注",
+      "officialSections": [
+        "师资队伍"
+      ],
+      "profileUrl": "https://cse.seu.edu.cn/2024/0117/c48203a479461/page.htm",
+      "portraitUrl": null,
+      "sourcePageUrl": "https://cse.seu.edu.cn/szdw_48203/list.htm",
+      "officialRosterUrl": "https://cse.seu.edu.cn/szdw_48203/list.htm",
+      "profileChecked": true,
+      "decision": "include_new_pi",
+      "reason": "官方个人页的研究方向命中 AI/NLP/CV/ML、数据智能、机器人或紧密相关方向，并确认教授/研究员或独立招生资格。",
+      "evidenceUrl": "https://cse.seu.edu.cn/2024/0117/c48203a479461/page.htm",
+      "evidenceExcerpt": "京大学软件工程博士后流动站任博士后研究员，2017年在苏宁金融研究院任区块链首席研究员，2019年加入东南大学计算机科学与工程学院。主要从事计算机图形学、计算机视觉、区块链等方面的研究，主持国家自然科学基金青年基金、江苏省博士后科研资助计划、计算机软件新技术国家重点实验室开放课题等，并作为骨干参与国家高科技发展(863)计划项目、国家自然科学基金面上项目、江苏省科技支撑(工业)计划项目、江苏省产学研合创新资金前瞻性联合研究项目等多个科研项目。在重要国际学术期刊和会议发表论文近30篇，完成学术译著1部、申请"
+    },
+    {
+      "officialId": "6bbbdd8b6817c190",
+      "name": "宋爱波",
+      "title": "官网列表未标注",
+      "officialSections": [
+        "师资队伍"
+      ],
+      "profileUrl": "https://cse.seu.edu.cn/2023/0915/c48203a464560/page.htm",
+      "portraitUrl": null,
+      "sourcePageUrl": "https://cse.seu.edu.cn/szdw_48203/list.htm",
+      "officialRosterUrl": "https://cse.seu.edu.cn/szdw_48203/list.htm",
+      "profileChecked": true,
+      "decision": "include_new_pi",
+      "reason": "官方个人页的研究方向命中 AI/NLP/CV/ML、数据智能、机器人或紧密相关方向，并确认教授/研究员或独立招生资格。",
+      "evidenceUrl": "https://cse.seu.edu.cn/2023/0915/c48203a464560/page.htm",
+      "evidenceExcerpt": "项。 第一页 <<上一页 下一页>> 尾页 页码 1 / 7 相关链接 东南大学 计算机网络和信息集成教育部重点实验室（东南大学） 新一代人工智能技术与交叉应用教育部重点实验室（东南大学） 江苏省网络与信息安全重点实验室 计算机国家级实验教学示范中心（东南大学） 东南大学计算机科学拔尖学生培养基地 联系方式 通信地址：南京市江宁区东南大学路2号东南大学九龙湖校区 邮政编码：211189 ​办公地点：东南大学九龙湖校区计算机楼 学院微信公众号 Copyright © 东南大学计算机科学与工程学院、软件学"
+    },
+    {
+      "officialId": "d63fb028dc0d4da5",
+      "name": "宋重阳",
+      "title": "官网列表未标注",
+      "officialSections": [
+        "师资队伍"
+      ],
+      "profileUrl": "https://cse.seu.edu.cn/2024/0301/c48203a482747/page.htm",
+      "portraitUrl": null,
+      "sourcePageUrl": "https://cse.seu.edu.cn/szdw_48203/list.htm",
+      "officialRosterUrl": "https://cse.seu.edu.cn/szdw_48203/list.htm",
+      "profileChecked": true,
+      "decision": "excluded_insufficient_scope_evidence",
+      "reason": "官方资料能确认相关研究方向，但可访问页面不足以证明其现任独立 PI 或招生资格；本轮按证据门槛不纳入，而非推断为非 PI。",
+      "evidenceUrl": "https://cse.seu.edu.cn/2024/0301/c48203a482747/page.htm",
+      "evidenceExcerpt": "109 第一页 <<上一页 下一页>> 尾页 页码 1 / 5 相关链接 东南大学 计算机网络和信息集成教育部重点实验室（东南大学） 新一代人工智能技术与交叉应用教育部重点实验室（东南大学） 江苏省网络与信息安全重点实验室 计算机国家级实验教学示范中心（东南大学） 东南大学计算机科学拔尖学生培养基地 联系方式 通信地址：南京市江宁区东南大学路2号东南大学九龙湖校区 邮政编码：211189 ​办公地点：东南大学九龙湖校区计算机楼 学院微信公众号 Copyright © 东南大学计算机科学与工程学院、软件学"
+    },
+    {
+      "officialId": "3dd9cc8a328fb64f",
+      "name": "时霄",
+      "title": "官网列表未标注",
+      "officialSections": [
+        "师资队伍"
+      ],
+      "profileUrl": "https://cse.seu.edu.cn/2024/0117/c48203a479209/page.htm",
+      "portraitUrl": null,
+      "sourcePageUrl": "https://cse.seu.edu.cn/szdw_48203/list.htm",
+      "officialRosterUrl": "https://cse.seu.edu.cn/szdw_48203/list.htm",
+      "profileChecked": true,
+      "decision": "include_new_pi",
+      "reason": "官方个人页的研究方向命中 AI/NLP/CV/ML、数据智能、机器人或紧密相关方向，并确认教授/研究员或独立招生资格。",
+      "evidenceUrl": "https://cse.seu.edu.cn/2024/0117/c48203a479209/page.htm",
+      "evidenceExcerpt": "为 Lei He 教授。 2021 年起在东南大学计算机科学与工程学院任职副教授。现为东南大学 PALM 实验室成员。 研究内容 主要包括大语言模型、机器学习、电路可靠性分析等方向工作。曾承担一项美国 Darpa 项目。近年来，发表 SCI 、 EI 论文 10 余篇，担任 TCAD 、 TODAES 、 TRETS 等期刊审稿人。 主持多项国家自然科学基金等横纵向项目。 欢迎感兴趣的本科生及研究生加入！ Selected Publications 1. Ziqi Wang, Liang Pang, X"
+    },
+    {
+      "officialId": "37b1bee411da848e",
+      "name": "沈傲东",
+      "title": "官网列表未标注",
+      "officialSections": [
+        "师资队伍"
+      ],
+      "profileUrl": "https://cse.seu.edu.cn/2024/0116/c48203a479095/page.htm",
+      "portraitUrl": null,
+      "sourcePageUrl": "https://cse.seu.edu.cn/szdw_48203/list.htm",
+      "officialRosterUrl": "https://cse.seu.edu.cn/szdw_48203/list.htm",
+      "profileChecked": true,
+      "decision": "excluded_insufficient_scope_evidence",
+      "reason": "官方资料能确认相关研究方向，但可访问页面不足以证明其现任独立 PI 或招生资格；本轮按证据门槛不纳入，而非推断为非 PI。",
+      "evidenceUrl": "https://cse.seu.edu.cn/2024/0116/c48203a479095/page.htm",
+      "evidenceExcerpt": "467 第一页 <<上一页 下一页>> 尾页 页码 1 / 8 相关链接 东南大学 计算机网络和信息集成教育部重点实验室（东南大学） 新一代人工智能技术与交叉应用教育部重点实验室（东南大学） 江苏省网络与信息安全重点实验室 计算机国家级实验教学示范中心（东南大学） 东南大学计算机科学拔尖学生培养基地 联系方式 通信地址：南京市江宁区东南大学路2号东南大学九龙湖校区 邮政编码：211189 ​办公地点：东南大学九龙湖校区计算机楼 学院微信公众号 Copyright © 东南大学计算机科学与工程学院、软件学"
+    },
+    {
+      "officialId": "a1e5119a8c6323af",
+      "name": "沈典",
+      "title": "官网列表未标注",
+      "officialSections": [
+        "师资队伍"
+      ],
+      "profileUrl": "https://cse.seu.edu.cn/2024/0116/c48203a479026/page.htm",
+      "portraitUrl": null,
+      "sourcePageUrl": "https://cse.seu.edu.cn/szdw_48203/list.htm",
+      "officialRosterUrl": "https://cse.seu.edu.cn/szdw_48203/list.htm",
+      "profileChecked": true,
+      "decision": "include_new_pi",
+      "reason": "官方个人页的研究方向命中 AI/NLP/CV/ML、数据智能、机器人或紧密相关方向，并确认教授/研究员或独立招生资格。",
+      "evidenceUrl": "https://cse.seu.edu.cn/2024/0116/c48203a479026/page.htm",
+      "evidenceExcerpt": "N、IEEE TSC 等多个国际会议、期刊的程序委员会成员或审稿人。 研究方向 ☁️ AI Infra/System 🧠 边缘计算 ⚙️ 人工智能应用 🧑‍🎓 欢迎报考 博士 / 硕士研究生 ，请发送简历至 dshen@seu.edu.cn ✉️ 发送邮件 📄 部分发表文章 AI Infra：支撑 AI / 数据处理的计算、硬件、数据库、云、存储及网络系统研究 Bin Yang, Dian Shen, Jianrui Liu, Beilun Wang. NGSim: A High-Fidelit"
+    },
+    {
+      "officialId": "d6a9ebb60dc7d65c",
+      "name": "沈向洋",
+      "title": "官网列表未标注",
+      "officialSections": [
+        "师资队伍"
+      ],
+      "profileUrl": "https://cse.seu.edu.cn/2025/0211/c48203a518387/page.htm",
+      "portraitUrl": null,
+      "sourcePageUrl": "https://cse.seu.edu.cn/szdw_48203/list.htm",
+      "officialRosterUrl": "https://cse.seu.edu.cn/szdw_48203/list.htm",
+      "profileChecked": true,
+      "decision": "excluded_insufficient_scope_evidence",
+      "reason": "官方资料能确认相关研究方向，但可访问页面不足以证明其现任独立 PI 或招生资格；本轮按证据门槛不纳入，而非推断为非 PI。",
+      "evidenceUrl": "https://cse.seu.edu.cn/2025/0211/c48203a518387/page.htm",
+      "evidenceExcerpt": "89 第一页 <<上一页 下一页>> 尾页 页码 1 / 5 相关链接 东南大学 计算机网络和信息集成教育部重点实验室（东南大学） 新一代人工智能技术与交叉应用教育部重点实验室（东南大学） 江苏省网络与信息安全重点实验室 计算机国家级实验教学示范中心（东南大学） 东南大学计算机科学拔尖学生培养基地 联系方式 通信地址：南京市江宁区东南大学路2号东南大学九龙湖校区 邮政编码：211189 ​办公地点：东南大学九龙湖校区计算机楼 学院微信公众号 Copyright © 东南大学计算机科学与工程学院、软件学"
+    },
+    {
+      "officialId": "34f5cd375724e34a",
+      "name": "石楚涵",
+      "title": "官网列表未标注",
+      "officialSections": [
+        "师资队伍"
+      ],
+      "profileUrl": "https://cse.seu.edu.cn/2024/0117/c48203a479360/page.htm",
+      "portraitUrl": null,
+      "sourcePageUrl": "https://cse.seu.edu.cn/szdw_48203/list.htm",
+      "officialRosterUrl": "https://cse.seu.edu.cn/szdw_48203/list.htm",
+      "profileChecked": true,
+      "decision": "include_new_pi",
+      "reason": "官方个人页的研究方向命中 AI/NLP/CV/ML、数据智能、机器人或紧密相关方向，并确认教授/研究员或独立招生资格。",
+      "evidenceUrl": "https://cse.seu.edu.cn/2024/0117/c48203a479360/page.htm",
+      "evidenceExcerpt": "023 年 12 月起在东南大学计算机科学与工程学院任职副教授。研究领域包括 人智协同（ Human-AI Collaboration ）、人机交互（ Human-computer Interaction ）、数据可视化（ Data Visualization ）、 和 可视分析（ Visual Analytics ） 。现有研究主要关注： 1 ）交互式科学人工智能（ Interactive AI for Science ） 和 2 ）大模型驱动的可视化设计（ LLM-powered Visualiza"
+    },
+    {
+      "officialId": "da6f2431f8849987",
+      "name": "舒华忠",
+      "title": "官网列表未标注",
+      "officialSections": [
+        "师资队伍"
+      ],
+      "profileUrl": "https://cse.seu.edu.cn/2024/0117/c48203a479393/page.htm",
+      "portraitUrl": null,
+      "sourcePageUrl": "https://cse.seu.edu.cn/szdw_48203/list.htm",
+      "officialRosterUrl": "https://cse.seu.edu.cn/szdw_48203/list.htm",
+      "profileChecked": true,
+      "decision": "excluded_insufficient_scope_evidence",
+      "reason": "官方资料能确认相关研究方向，但可访问页面不足以证明其现任独立 PI 或招生资格；本轮按证据门槛不纳入，而非推断为非 PI。",
+      "evidenceUrl": "https://cse.seu.edu.cn/2024/0117/c48203a479393/page.htm",
+      "evidenceExcerpt": "167 第一页 <<上一页 下一页>> 尾页 页码 1 / 5 相关链接 东南大学 计算机网络和信息集成教育部重点实验室（东南大学） 新一代人工智能技术与交叉应用教育部重点实验室（东南大学） 江苏省网络与信息安全重点实验室 计算机国家级实验教学示范中心（东南大学） 东南大学计算机科学拔尖学生培养基地 联系方式 通信地址：南京市江宁区东南大学路2号东南大学九龙湖校区 邮政编码：211189 ​办公地点：东南大学九龙湖校区计算机楼 学院微信公众号 Copyright © 东南大学计算机科学与工程学院、软件学"
+    },
+    {
+      "officialId": "c044717cb61a20ec",
+      "name": "萨姆",
+      "title": "官网列表未标注",
+      "officialSections": [
+        "师资队伍"
+      ],
+      "profileUrl": "https://cse.seu.edu.cn/2025/0817/c48203a536535/page.htm",
+      "portraitUrl": null,
+      "sourcePageUrl": "https://cse.seu.edu.cn/szdw_48203/list.htm",
+      "officialRosterUrl": "https://cse.seu.edu.cn/szdw_48203/list.htm",
+      "profileChecked": true,
+      "decision": "excluded_insufficient_scope_evidence",
+      "reason": "官方资料能确认相关研究方向，但可访问页面不足以证明其现任独立 PI 或招生资格；本轮按证据门槛不纳入，而非推断为非 PI。",
+      "evidenceUrl": "https://cse.seu.edu.cn/2025/0817/c48203a536535/page.htm",
+      "evidenceExcerpt": "43 第一页 <<上一页 下一页>> 尾页 页码 1 / 5 相关链接 东南大学 计算机网络和信息集成教育部重点实验室（东南大学） 新一代人工智能技术与交叉应用教育部重点实验室（东南大学） 江苏省网络与信息安全重点实验室 计算机国家级实验教学示范中心（东南大学） 东南大学计算机科学拔尖学生培养基地 联系方式 通信地址：南京市江宁区东南大学路2号东南大学九龙湖校区 邮政编码：211189 ​办公地点：东南大学九龙湖校区计算机楼 学院微信公众号 Copyright © 东南大学计算机科学与工程学院、软件学"
+    },
+    {
+      "officialId": "f1a79c58a19b5b80",
+      "name": "唐慧",
+      "title": "官网列表未标注",
+      "officialSections": [
+        "师资队伍"
+      ],
+      "profileUrl": "https://cse.seu.edu.cn/2024/0116/c48203a479093/page.htm",
+      "portraitUrl": null,
+      "sourcePageUrl": "https://cse.seu.edu.cn/szdw_48203/list.htm",
+      "officialRosterUrl": "https://cse.seu.edu.cn/szdw_48203/list.htm",
+      "profileChecked": true,
+      "decision": "excluded_non_pi",
+      "reason": "官方职称为讲师、助理研究员、工程师或同等级非独立岗位，个人页未显示博士/硕士导师或独立招生资格。",
+      "evidenceUrl": "https://cse.seu.edu.cn/2024/0116/c48203a479093/page.htm",
+      "evidenceExcerpt": "工作 工会工作 下载专区 校友天地 校友风采 校友动态 唐慧 发布者：唐慧 发布时间：2024-05-16 浏览次数： 369 唐慧、博士、讲师 东南大学计算机学院影像科学与技术系 发表SCI论文40余篇，其中第一作者/通讯作者10余篇 承担科技部重点研发计划子课题 1 项 、江苏省自然科学基金青年基金 1 项 、横向项目多项； 作为项目骨干参与多项国家和省部级项目。 第一页 <<上一页 下一页>> 尾页 页码 1 / 8 相关链接 东南大学 计算机网络和信息集成教育部重点实验室（东南大学） 新一代"
+    },
+    {
+      "officialId": "3c77a22b20422f52",
+      "name": "唐金辉",
+      "title": "官网列表未标注",
+      "officialSections": [
+        "师资队伍"
+      ],
+      "profileUrl": "https://cse.seu.edu.cn/2025/0211/c48203a518383/page.htm",
+      "portraitUrl": null,
+      "sourcePageUrl": "https://cse.seu.edu.cn/szdw_48203/list.htm",
+      "officialRosterUrl": "https://cse.seu.edu.cn/szdw_48203/list.htm",
+      "profileChecked": true,
+      "decision": "include_new_pi",
+      "reason": "官方个人页的研究方向命中 AI/NLP/CV/ML、数据智能、机器人或紧密相关方向，并确认教授/研究员或独立招生资格。",
+      "evidenceUrl": "https://cse.seu.edu.cn/2025/0211/c48203a518383/page.htm",
+      "evidenceExcerpt": "间：2025-11-05 浏览次数： 174 唐金辉，南京林业大学副校长、二级教授，国家杰出青年科学基金获得者、国家级科技创新领军人才、国际模式识别学会会士，“社会安全信息感知与系统”工信部重点实验室主任，主要从事多媒体分析与检索、计算机视觉和模式识别等方面的研究，在IEEE/ACM汇刊和CCF A类会议上发表学术论文200余篇，谷歌学术引用3万4千余次，H-index为93，主持国家自然科学基金重点项目2项、科技创新2030新一代人工智能重大专项课题、973计划青年科学家专题项目等，获国家自然科学二等"
+    },
+    {
+      "officialId": "e99e88960c0f7db1",
+      "name": "田奇",
+      "title": "官网列表未标注",
+      "officialSections": [
+        "师资队伍"
+      ],
+      "profileUrl": "https://cse.seu.edu.cn/2025/0211/c48203a518385/page.htm",
+      "portraitUrl": null,
+      "sourcePageUrl": "https://cse.seu.edu.cn/szdw_48203/list.htm",
+      "officialRosterUrl": "https://cse.seu.edu.cn/szdw_48203/list.htm",
+      "profileChecked": true,
+      "decision": "excluded_insufficient_scope_evidence",
+      "reason": "官方资料能确认相关研究方向，但可访问页面不足以证明其现任独立 PI 或招生资格；本轮按证据门槛不纳入，而非推断为非 PI。",
+      "evidenceUrl": "https://cse.seu.edu.cn/2025/0211/c48203a518385/page.htm",
+      "evidenceExcerpt": "121 第一页 <<上一页 下一页>> 尾页 页码 1 / 5 相关链接 东南大学 计算机网络和信息集成教育部重点实验室（东南大学） 新一代人工智能技术与交叉应用教育部重点实验室（东南大学） 江苏省网络与信息安全重点实验室 计算机国家级实验教学示范中心（东南大学） 东南大学计算机科学拔尖学生培养基地 联系方式 通信地址：南京市江宁区东南大学路2号东南大学九龙湖校区 邮政编码：211189 ​办公地点：东南大学九龙湖校区计算机楼 学院微信公众号 Copyright © 东南大学计算机科学与工程学院、软件学"
+    },
+    {
+      "officialId": "c2a228d7ace37a8c",
+      "name": "田捷",
+      "title": "官网列表未标注",
+      "officialSections": [
+        "师资队伍"
+      ],
+      "profileUrl": "https://cse.seu.edu.cn/2024/0117/c48203a479203/page.htm",
+      "portraitUrl": null,
+      "sourcePageUrl": "https://cse.seu.edu.cn/szdw_48203/list.htm",
+      "officialRosterUrl": "https://cse.seu.edu.cn/szdw_48203/list.htm",
+      "profileChecked": true,
+      "decision": "excluded_insufficient_scope_evidence",
+      "reason": "官方资料能确认相关研究方向，但可访问页面不足以证明其现任独立 PI 或招生资格；本轮按证据门槛不纳入，而非推断为非 PI。",
+      "evidenceUrl": "https://cse.seu.edu.cn/2024/0117/c48203a479203/page.htm",
+      "evidenceExcerpt": "79 第一页 <<上一页 下一页>> 尾页 页码 1 / 5 相关链接 东南大学 计算机网络和信息集成教育部重点实验室（东南大学） 新一代人工智能技术与交叉应用教育部重点实验室（东南大学） 江苏省网络与信息安全重点实验室 计算机国家级实验教学示范中心（东南大学） 东南大学计算机科学拔尖学生培养基地 联系方式 通信地址：南京市江宁区东南大学路2号东南大学九龙湖校区 邮政编码：211189 ​办公地点：东南大学九龙湖校区计算机楼 学院微信公众号 Copyright © 东南大学计算机科学与工程学院、软件学"
+    },
+    {
+      "officialId": "bfbdab7c2fda14bb",
+      "name": "田枫影",
+      "title": "官网列表未标注",
+      "officialSections": [
+        "师资队伍"
+      ],
+      "profileUrl": "https://cse.seu.edu.cn/2024/0216/c48203a480687/page.htm",
+      "portraitUrl": null,
+      "sourcePageUrl": "https://cse.seu.edu.cn/szdw_48203/list.htm",
+      "officialRosterUrl": "https://cse.seu.edu.cn/szdw_48203/list.htm",
+      "profileChecked": true,
+      "decision": "excluded_insufficient_scope_evidence",
+      "reason": "官方资料能确认相关研究方向，但可访问页面不足以证明其现任独立 PI 或招生资格；本轮按证据门槛不纳入，而非推断为非 PI。",
+      "evidenceUrl": "https://cse.seu.edu.cn/2024/0216/c48203a480687/page.htm",
+      "evidenceExcerpt": "142 第一页 <<上一页 下一页>> 尾页 页码 1 / 5 相关链接 东南大学 计算机网络和信息集成教育部重点实验室（东南大学） 新一代人工智能技术与交叉应用教育部重点实验室（东南大学） 江苏省网络与信息安全重点实验室 计算机国家级实验教学示范中心（东南大学） 东南大学计算机科学拔尖学生培养基地 联系方式 通信地址：南京市江宁区东南大学路2号东南大学九龙湖校区 邮政编码：211189 ​办公地点：东南大学九龙湖校区计算机楼 学院微信公众号 Copyright © 东南大学计算机科学与工程学院、软件学"
+    },
+    {
+      "officialId": "1d494435717f95f5",
+      "name": "伍家松",
+      "title": "官网列表未标注",
+      "officialSections": [
+        "师资队伍"
+      ],
+      "profileUrl": "https://cse.seu.edu.cn/2024/0116/c48203a479101/page.htm",
+      "portraitUrl": null,
+      "sourcePageUrl": "https://cse.seu.edu.cn/szdw_48203/list.htm",
+      "officialRosterUrl": "https://cse.seu.edu.cn/szdw_48203/list.htm",
+      "profileChecked": true,
+      "decision": "include_new_pi",
+      "reason": "官方个人页的研究方向命中 AI/NLP/CV/ML、数据智能、机器人或紧密相关方向，并确认教授/研究员或独立招生资格。",
+      "evidenceUrl": "https://cse.seu.edu.cn/2024/0116/c48203a479101/page.htm",
+      "evidenceExcerpt": "与工程学院、软件学院、副教授、博士生导师， IEEE 会员。东南大学生物医学工程专业博士、法国雷恩一大信号处理与通信专业博士。长期从事信号与图像处理与分析、深度学习、计算机视觉、自然语言处理等方面研究工作。 承担科技创新 2030 新一代人工智能重大项目课题、国家自然科学基金、江苏省自然科学基金等项目十余项。在 IEEE TSP 、 IEEE TBME 、 IEEE TCSVT 、 IEEE TCSI 等信号与图像处理、人工智能领域权威期刊发表论文 90 余篇（累计他引 1000 余次），授权国家发"
+    },
+    {
+      "officialId": "daeb742f49395cb5",
+      "name": "吴俊",
+      "title": "官网列表未标注",
+      "officialSections": [
+        "师资队伍"
+      ],
+      "profileUrl": "https://cse.seu.edu.cn/2024/0216/c48203a480709/page.htm",
+      "portraitUrl": null,
+      "sourcePageUrl": "https://cse.seu.edu.cn/szdw_48203/list.htm",
+      "officialRosterUrl": "https://cse.seu.edu.cn/szdw_48203/list.htm",
+      "profileChecked": true,
+      "decision": "excluded_insufficient_scope_evidence",
+      "reason": "官方资料能确认相关研究方向，但可访问页面不足以证明其现任独立 PI 或招生资格；本轮按证据门槛不纳入，而非推断为非 PI。",
+      "evidenceUrl": "https://cse.seu.edu.cn/2024/0216/c48203a480709/page.htm",
+      "evidenceExcerpt": "103 第一页 <<上一页 下一页>> 尾页 页码 1 / 5 相关链接 东南大学 计算机网络和信息集成教育部重点实验室（东南大学） 新一代人工智能技术与交叉应用教育部重点实验室（东南大学） 江苏省网络与信息安全重点实验室 计算机国家级实验教学示范中心（东南大学） 东南大学计算机科学拔尖学生培养基地 联系方式 通信地址：南京市江宁区东南大学路2号东南大学九龙湖校区 邮政编码：211189 ​办公地点：东南大学九龙湖校区计算机楼 学院微信公众号 Copyright © 东南大学计算机科学与工程学院、软件学"
+    },
+    {
+      "officialId": "b58c2accc51e6679",
+      "name": "吴天星",
+      "title": "官网列表未标注",
+      "officialSections": [
+        "师资队伍"
+      ],
+      "profileUrl": "https://cse.seu.edu.cn/2024/0117/c48203a479468/page.htm",
+      "portraitUrl": null,
+      "sourcePageUrl": "https://cse.seu.edu.cn/szdw_48203/list.htm",
+      "officialRosterUrl": "https://cse.seu.edu.cn/szdw_48203/list.htm",
+      "profileChecked": true,
+      "decision": "include_new_pi",
+      "reason": "官方个人页的研究方向命中 AI/NLP/CV/ML、数据智能、机器人或紧密相关方向，并确认教授/研究员或独立招生资格。",
+      "evidenceUrl": "https://cse.seu.edu.cn/2024/0117/c48203a479468/page.htm",
+      "evidenceExcerpt": "评江苏省“双创博士”、江苏省“科技副总”、南京市择优留学人才。两次入选东南大学“至善青年学者”支持计划（2021、2025）。主要研究方向：知识图谱、大语言模型、知识表示与推理、人工智能应用。曾获江苏省计算机学会优秀博士学位论文奖，SIGIR最佳短文提名，WISA最佳学生论文奖，CCKS最佳论文奖，OpenKG优秀开放资源奖。主持国家自然科学基金面上项目、青年项目，江苏省产学研合作项目等纵横向课题多项。在人工智能领域内国际期刊及会议发表论文80余篇，10余项国家发明专利获得授权。担任中国计算机学会信息系"
+    },
+    {
+      "officialId": "bd851cb6dccf9487",
+      "name": "吴巍炜",
+      "title": "官网列表未标注",
+      "officialSections": [
+        "师资队伍"
+      ],
+      "profileUrl": "https://cse.seu.edu.cn/2023/0915/c48203a464570/page.htm",
+      "portraitUrl": null,
+      "sourcePageUrl": "https://cse.seu.edu.cn/szdw_48203/list.htm",
+      "officialRosterUrl": "https://cse.seu.edu.cn/szdw_48203/list.htm",
+      "profileChecked": true,
+      "decision": "include_new_pi",
+      "reason": "官方个人页的研究方向命中 AI/NLP/CV/ML、数据智能、机器人或紧密相关方向，并确认教授/研究员或独立招生资格。",
+      "evidenceUrl": "https://cse.seu.edu.cn/2023/0915/c48203a464570/page.htm",
+      "evidenceExcerpt": "学博士学位，2011-2012年新加坡南洋理工大学博士后，2012年起加入东南大学担任副教授、博导，2019年起担任教授。 主要致力于 智能无人系统、大语言模型智能决策、强化学习、智能 物联网、大数据、深度学习研究 。 主持 国家重点研发计划课题、国家自然科学基金面上/青年项目、省部级和企业合作项目十余项 ，在相关研究领域国际会议和期刊上发表学术论文90余篇， 发表 CCF A+IEEE/ACM Trans. 40余篇 ，担任多个国际著名期刊会议的程序委员会共同主席、委员等。曾先后获得 “ ACM新星奖"
+    },
+    {
+      "officialId": "429daccbca663bb3",
+      "name": "吴战",
+      "title": "官网列表未标注",
+      "officialSections": [
+        "师资队伍"
+      ],
+      "profileUrl": "https://cse.seu.edu.cn/2024/0216/c48203a480685/page.htm",
+      "portraitUrl": null,
+      "sourcePageUrl": "https://cse.seu.edu.cn/szdw_48203/list.htm",
+      "officialRosterUrl": "https://cse.seu.edu.cn/szdw_48203/list.htm",
+      "profileChecked": true,
+      "decision": "include_new_pi",
+      "reason": "官方个人页的研究方向命中 AI/NLP/CV/ML、数据智能、机器人或紧密相关方向，并确认教授/研究员或独立招生资格。",
+      "evidenceUrl": "https://cse.seu.edu.cn/2024/0216/c48203a480685/page.htm",
+      "evidenceExcerpt": "项目。 第一页 <<上一页 下一页>> 尾页 页码 1 / 5 相关链接 东南大学 计算机网络和信息集成教育部重点实验室（东南大学） 新一代人工智能技术与交叉应用教育部重点实验室（东南大学） 江苏省网络与信息安全重点实验室 计算机国家级实验教学示范中心（东南大学） 东南大学计算机科学拔尖学生培养基地 联系方式 通信地址：南京市江宁区东南大学路2号东南大学九龙湖校区 邮政编码：211189 ​办公地点：东南大学九龙湖校区计算机楼 学院微信公众号 Copyright © 东南大学计算机科学与工程学院、软件学"
+    },
+    {
+      "officialId": "7913bb1917035d26",
+      "name": "吴文甲",
+      "title": "官网列表未标注",
+      "officialSections": [
+        "师资队伍"
+      ],
+      "profileUrl": "https://cse.seu.edu.cn/2024/0116/c48203a479010/page.htm",
+      "portraitUrl": null,
+      "sourcePageUrl": "https://cse.seu.edu.cn/szdw_48203/list.htm",
+      "officialRosterUrl": "https://cse.seu.edu.cn/szdw_48203/list.htm",
+      "profileChecked": true,
+      "decision": "include_new_pi",
+      "reason": "官方个人页的研究方向命中 AI/NLP/CV/ML、数据智能、机器人或紧密相关方向，并确认教授/研究员或独立招生资格。",
+      "evidenceUrl": "https://cse.seu.edu.cn/2024/0116/c48203a479010/page.htm",
+      "evidenceExcerpt": "cn。 第一页 <<上一页 下一页>> 尾页 页码 1 / 8 相关链接 东南大学 计算机网络和信息集成教育部重点实验室（东南大学） 新一代人工智能技术与交叉应用教育部重点实验室（东南大学） 江苏省网络与信息安全重点实验室 计算机国家级实验教学示范中心（东南大学） 东南大学计算机科学拔尖学生培养基地 联系方式 通信地址：南京市江宁区东南大学路2号东南大学九龙湖校区 邮政编码：211189 ​办公地点：东南大学九龙湖校区计算机楼 学院微信公众号 Copyright © 东南大学计算机科学与工程学院、软件学"
+    },
+    {
+      "officialId": "c5bc31f58c9318cd",
+      "name": "吴欣",
+      "title": "官网列表未标注",
+      "officialSections": [
+        "师资队伍"
+      ],
+      "profileUrl": "https://cse.seu.edu.cn/2024/0216/c48203a480711/page.htm",
+      "portraitUrl": null,
+      "sourcePageUrl": "https://cse.seu.edu.cn/szdw_48203/list.htm",
+      "officialRosterUrl": "https://cse.seu.edu.cn/szdw_48203/list.htm",
+      "profileChecked": true,
+      "decision": "excluded_insufficient_scope_evidence",
+      "reason": "官方资料能确认相关研究方向，但可访问页面不足以证明其现任独立 PI 或招生资格；本轮按证据门槛不纳入，而非推断为非 PI。",
+      "evidenceUrl": "https://cse.seu.edu.cn/2024/0216/c48203a480711/page.htm",
+      "evidenceExcerpt": "91 第一页 <<上一页 下一页>> 尾页 页码 1 / 5 相关链接 东南大学 计算机网络和信息集成教育部重点实验室（东南大学） 新一代人工智能技术与交叉应用教育部重点实验室（东南大学） 江苏省网络与信息安全重点实验室 计算机国家级实验教学示范中心（东南大学） 东南大学计算机科学拔尖学生培养基地 联系方式 通信地址：南京市江宁区东南大学路2号东南大学九龙湖校区 邮政编码：211189 ​办公地点：东南大学九龙湖校区计算机楼 学院微信公众号 Copyright © 东南大学计算机科学与工程学院、软件学"
+    },
+    {
+      "officialId": "dd00457dedad92cd",
+      "name": "吴蓉",
+      "title": "官网列表未标注",
+      "officialSections": [
+        "师资队伍"
+      ],
+      "profileUrl": "https://cse.seu.edu.cn/2024/0216/c48203a480677/page.htm",
+      "portraitUrl": null,
+      "sourcePageUrl": "https://cse.seu.edu.cn/szdw_48203/list.htm",
+      "officialRosterUrl": "https://cse.seu.edu.cn/szdw_48203/list.htm",
+      "profileChecked": true,
+      "decision": "excluded_insufficient_scope_evidence",
+      "reason": "官方资料能确认相关研究方向，但可访问页面不足以证明其现任独立 PI 或招生资格；本轮按证据门槛不纳入，而非推断为非 PI。",
+      "evidenceUrl": "https://cse.seu.edu.cn/2024/0216/c48203a480677/page.htm",
+      "evidenceExcerpt": "91 第一页 <<上一页 下一页>> 尾页 页码 1 / 5 相关链接 东南大学 计算机网络和信息集成教育部重点实验室（东南大学） 新一代人工智能技术与交叉应用教育部重点实验室（东南大学） 江苏省网络与信息安全重点实验室 计算机国家级实验教学示范中心（东南大学） 东南大学计算机科学拔尖学生培养基地 联系方式 通信地址：南京市江宁区东南大学路2号东南大学九龙湖校区 邮政编码：211189 ​办公地点：东南大学九龙湖校区计算机楼 学院微信公众号 Copyright © 东南大学计算机科学与工程学院、软件学"
+    },
+    {
+      "officialId": "b70419b17d7de539",
+      "name": "宛斌",
+      "title": "官网列表未标注",
+      "officialSections": [
+        "师资队伍"
+      ],
+      "profileUrl": "https://cse.seu.edu.cn/2024/0117/c48203a479437/page.htm",
+      "portraitUrl": null,
+      "sourcePageUrl": "https://cse.seu.edu.cn/szdw_48203/list.htm",
+      "officialRosterUrl": "https://cse.seu.edu.cn/szdw_48203/list.htm",
+      "profileChecked": true,
+      "decision": "excluded_insufficient_scope_evidence",
+      "reason": "官方资料能确认相关研究方向，但可访问页面不足以证明其现任独立 PI 或招生资格；本轮按证据门槛不纳入，而非推断为非 PI。",
+      "evidenceUrl": "https://cse.seu.edu.cn/2024/0117/c48203a479437/page.htm",
+      "evidenceExcerpt": "84 第一页 <<上一页 下一页>> 尾页 页码 1 / 5 相关链接 东南大学 计算机网络和信息集成教育部重点实验室（东南大学） 新一代人工智能技术与交叉应用教育部重点实验室（东南大学） 江苏省网络与信息安全重点实验室 计算机国家级实验教学示范中心（东南大学） 东南大学计算机科学拔尖学生培养基地 联系方式 通信地址：南京市江宁区东南大学路2号东南大学九龙湖校区 邮政编码：211189 ​办公地点：东南大学九龙湖校区计算机楼 学院微信公众号 Copyright © 东南大学计算机科学与工程学院、软件学"
+    },
+    {
+      "officialId": "5549b59dfa7ab01c",
+      "name": "於文雪",
+      "title": "官网列表未标注",
+      "officialSections": [
+        "师资队伍"
+      ],
+      "profileUrl": "https://cse.seu.edu.cn/2024/0117/c48203a479395/page.htm",
+      "portraitUrl": null,
+      "sourcePageUrl": "https://cse.seu.edu.cn/szdw_48203/list.htm",
+      "officialRosterUrl": "https://cse.seu.edu.cn/szdw_48203/list.htm",
+      "profileChecked": true,
+      "decision": "include_new_pi",
+      "reason": "官方个人页的研究方向命中 AI/NLP/CV/ML、数据智能、机器人或紧密相关方向，并确认教授/研究员或独立招生资格。",
+      "evidenceUrl": "https://cse.seu.edu.cn/2024/0117/c48203a479395/page.htm",
+      "evidenceExcerpt": "士研究生导师。2000 年获东南大学生物医学工程专业博士学位，毕业后留校任教至今。其间先后主讲了 6 门本科生和研究生课程。主要研究方向包括图像处理与分析、计算机辅助诊断与治疗和医学物理。曾作为骨干人员参加国家 973 计划 2 项、 863 计划 2 项和国家重点研发项目 1 项，在国内外核心期刊上发表论文 30 余篇，合作论著 3 部。在放射治疗计划系统研发方面硕果丰富，主持开发了系列已销往国内百余家肿瘤医院的 TPS ，主要有： 1 ）具有完全自主产权的 Angelplan 系列放射治疗计划系"
+    },
+    {
+      "officialId": "2583541752c25355",
+      "name": "汪涛",
+      "title": "官网列表未标注",
+      "officialSections": [
+        "师资队伍"
+      ],
+      "profileUrl": "https://cse.seu.edu.cn/2025/0821/c48203a536789/page.htm",
+      "portraitUrl": null,
+      "sourcePageUrl": "https://cse.seu.edu.cn/szdw_48203/list.htm",
+      "officialRosterUrl": "https://cse.seu.edu.cn/szdw_48203/list.htm",
+      "profileChecked": true,
+      "decision": "excluded_insufficient_scope_evidence",
+      "reason": "官方资料能确认相关研究方向，但可访问页面不足以证明其现任独立 PI 或招生资格；本轮按证据门槛不纳入，而非推断为非 PI。",
+      "evidenceUrl": "https://cse.seu.edu.cn/2025/0821/c48203a536789/page.htm",
+      "evidenceExcerpt": "60 第一页 <<上一页 下一页>> 尾页 页码 1 / 5 相关链接 东南大学 计算机网络和信息集成教育部重点实验室（东南大学） 新一代人工智能技术与交叉应用教育部重点实验室（东南大学） 江苏省网络与信息安全重点实验室 计算机国家级实验教学示范中心（东南大学） 东南大学计算机科学拔尖学生培养基地 联系方式 通信地址：南京市江宁区东南大学路2号东南大学九龙湖校区 邮政编码：211189 ​办公地点：东南大学九龙湖校区计算机楼 学院微信公众号 Copyright © 东南大学计算机科学与工程学院、软件学"
+    },
+    {
+      "officialId": "131acafce885c413",
+      "name": "汪芸",
+      "title": "官网列表未标注",
+      "officialSections": [
+        "师资队伍"
+      ],
+      "profileUrl": "https://cse.seu.edu.cn/2024/0116/c48203a479040/page.htm",
+      "portraitUrl": null,
+      "sourcePageUrl": "https://cse.seu.edu.cn/szdw_48203/list.htm",
+      "officialRosterUrl": "https://cse.seu.edu.cn/szdw_48203/list.htm",
+      "profileChecked": true,
+      "decision": "include_new_pi",
+      "reason": "官方个人页的研究方向命中 AI/NLP/CV/ML、数据智能、机器人或紧密相关方向，并确认教授/研究员或独立招生资格。",
+      "evidenceUrl": "https://cse.seu.edu.cn/2024/0116/c48203a479040/page.htm",
+      "evidenceExcerpt": "经验。 第一页 <<上一页 下一页>> 尾页 页码 1 / 8 相关链接 东南大学 计算机网络和信息集成教育部重点实验室（东南大学） 新一代人工智能技术与交叉应用教育部重点实验室（东南大学） 江苏省网络与信息安全重点实验室 计算机国家级实验教学示范中心（东南大学） 东南大学计算机科学拔尖学生培养基地 联系方式 通信地址：南京市江宁区东南大学路2号东南大学九龙湖校区 邮政编码：211189 ​办公地点：东南大学九龙湖校区计算机楼 学院微信公众号 Copyright © 东南大学计算机科学与工程学院、软件学"
+    },
+    {
+      "officialId": "7c16314fce943332",
+      "name": "汪鹏",
+      "title": "官网列表未标注",
+      "officialSections": [
+        "师资队伍"
+      ],
+      "profileUrl": "https://cse.seu.edu.cn/2024/0117/c48203a479371/page.htm",
+      "portraitUrl": null,
+      "sourcePageUrl": "https://cse.seu.edu.cn/szdw_48203/list.htm",
+      "officialRosterUrl": "https://cse.seu.edu.cn/szdw_48203/list.htm",
+      "profileChecked": true,
+      "decision": "include_new_pi",
+      "reason": "官方个人页的研究方向命中 AI/NLP/CV/ML、数据智能、机器人或紧密相关方向，并确认教授/研究员或独立招生资格。",
+      "evidenceUrl": "https://cse.seu.edu.cn/2024/0117/c48203a479371/page.htm",
+      "evidenceExcerpt": "鹏 发布者：汪鹏 发布时间：2026-05-19 浏览次数： 2557 汪鹏，东南大学计算机科学与工程学院/教授，博士生导师。主要研究方向为大模型、知识图谱、自然语言处理等。已在国内外重要学术期刊(TKDE、TOIS、SCIS等)和会议(IJCAI、AAAI、NeurIPS、SIGIR、ACL、EMNLP、COLING、ISWC、CIKM等)上发表学术论文160余篇。担任IJCAI、AAAI、NeurIPS、ICML、ICLR、ACL、ACM MM等重要国际会议的程序委员和审稿人百余次，同时也是TKD"
+    },
+    {
+      "officialId": "e5629c3ba7d41258",
+      "name": "王万元",
+      "title": "官网列表未标注",
+      "officialSections": [
+        "师资队伍"
+      ],
+      "profileUrl": "https://cse.seu.edu.cn/2024/0117/c48203a479411/page.htm",
+      "portraitUrl": null,
+      "sourcePageUrl": "https://cse.seu.edu.cn/szdw_48203/list.htm",
+      "officialRosterUrl": "https://cse.seu.edu.cn/szdw_48203/list.htm",
+      "profileChecked": true,
+      "decision": "include_new_pi",
+      "reason": "官方个人页的研究方向命中 AI/NLP/CV/ML、数据智能、机器人或紧密相关方向，并确认教授/研究员或独立招生资格。",
+      "evidenceUrl": "https://cse.seu.edu.cn/2024/0117/c48203a479411/page.htm",
+      "evidenceExcerpt": "年毕业于东南大学计算机科学与工程学院获得博士学位,2016-2017于新加坡南洋理工大学从事博士后研究工作。主要致力于多Agent系统、深度强化学习、规划和搜索等相关智能决策技术，在具身智能、（多模态）大模型Agent、运筹优化、IT云场景智能运维等实际应用中的研究。在该领域著名国际期刊会议上发表论文50余篇，其中IEEE Transactions系列期刊论文17篇，1篇研究论文获得国际人工智能著名会议ICTAI-2014最佳学生论文奖。曾获得2017年Agent与多Agent系统研究优秀博士论文奖。关"
+    },
+    {
+      "officialId": "db2a640e24afd236",
+      "name": "王世杰",
+      "title": "官网列表未标注",
+      "officialSections": [
+        "师资队伍"
+      ],
+      "profileUrl": "https://cse.seu.edu.cn/2024/0117/c48203a479399/page.htm",
+      "portraitUrl": null,
+      "sourcePageUrl": "https://cse.seu.edu.cn/szdw_48203/list.htm",
+      "officialRosterUrl": "https://cse.seu.edu.cn/szdw_48203/list.htm",
+      "profileChecked": true,
+      "decision": "excluded_insufficient_scope_evidence",
+      "reason": "官方资料能确认相关研究方向，但可访问页面不足以证明其现任独立 PI 或招生资格；本轮按证据门槛不纳入，而非推断为非 PI。",
+      "evidenceUrl": "https://cse.seu.edu.cn/2024/0117/c48203a479399/page.htm",
+      "evidenceExcerpt": "151 第一页 <<上一页 下一页>> 尾页 页码 1 / 5 相关链接 东南大学 计算机网络和信息集成教育部重点实验室（东南大学） 新一代人工智能技术与交叉应用教育部重点实验室（东南大学） 江苏省网络与信息安全重点实验室 计算机国家级实验教学示范中心（东南大学） 东南大学计算机科学拔尖学生培养基地 联系方式 通信地址：南京市江宁区东南大学路2号东南大学九龙湖校区 邮政编码：211189 ​办公地点：东南大学九龙湖校区计算机楼 学院微信公众号 Copyright © 东南大学计算机科学与工程学院、软件学"
+    },
+    {
+      "officialId": "3739c044c4f362dc",
+      "name": "王岩冰",
+      "title": "官网列表未标注",
+      "officialSections": [
+        "师资队伍"
+      ],
+      "profileUrl": "https://cse.seu.edu.cn/2024/0116/c48203a479060/page.htm",
+      "portraitUrl": null,
+      "sourcePageUrl": "https://cse.seu.edu.cn/szdw_48203/list.htm",
+      "officialRosterUrl": "https://cse.seu.edu.cn/szdw_48203/list.htm",
+      "profileChecked": true,
+      "decision": "excluded_insufficient_scope_evidence",
+      "reason": "官方资料能确认相关研究方向，但可访问页面不足以证明其现任独立 PI 或招生资格；本轮按证据门槛不纳入，而非推断为非 PI。",
+      "evidenceUrl": "https://cse.seu.edu.cn/2024/0116/c48203a479060/page.htm",
+      "evidenceExcerpt": "228 第一页 <<上一页 下一页>> 尾页 页码 1 / 6 相关链接 东南大学 计算机网络和信息集成教育部重点实验室（东南大学） 新一代人工智能技术与交叉应用教育部重点实验室（东南大学） 江苏省网络与信息安全重点实验室 计算机国家级实验教学示范中心（东南大学） 东南大学计算机科学拔尖学生培养基地 联系方式 通信地址：南京市江宁区东南大学路2号东南大学九龙湖校区 邮政编码：211189 ​办公地点：东南大学九龙湖校区计算机楼 学院微信公众号 Copyright © 东南大学计算机科学与工程学院、软件学"
+    },
+    {
+      "officialId": "ba91d49ee81e0308",
+      "name": "王帅",
+      "title": "官网列表未标注",
+      "officialSections": [
+        "师资队伍"
+      ],
+      "profileUrl": "https://cse.seu.edu.cn/2024/0322/c48203a484712/page.htm",
+      "portraitUrl": null,
+      "sourcePageUrl": "https://cse.seu.edu.cn/szdw_48203/list.htm",
+      "officialRosterUrl": "https://cse.seu.edu.cn/szdw_48203/list.htm",
+      "profileChecked": true,
+      "decision": "include_new_pi",
+      "reason": "官方个人页的研究方向命中 AI/NLP/CV/ML、数据智能、机器人或紧密相关方向，并确认教授/研究员或独立招生资格。",
+      "evidenceUrl": "https://cse.seu.edu.cn/2024/0322/c48203a484712/page.htm",
+      "evidenceExcerpt": "nt 奖励； 在远距离传输方面的研究成果获得 IEEE Spectrum 专题 报道 。 2026有多个 硕士 及 博士 生指标, 欢迎对 具身智能相关方向 兴趣的同学。有意向同学请将个人简历发到我邮箱: shuaiwang_iot@seu.edu.cn。同时也随时欢迎对科研有兴趣的大二大三本科生加入 我们实验室 进行科研训练，实验室有成熟的科研训练机制，欢迎联系! I am Shuai Wang, a Full Professor at Southeast University in China."
+    },
+    {
+      "officialId": "6a3405e0136fa415",
+      "name": "王帅",
+      "title": "官网列表未标注",
+      "officialSections": [
+        "师资队伍"
+      ],
+      "profileUrl": "https://cse.seu.edu.cn/2024/0116/c48203a479052/page.htm",
+      "portraitUrl": null,
+      "sourcePageUrl": "https://cse.seu.edu.cn/szdw_48203/list.htm",
+      "officialRosterUrl": "https://cse.seu.edu.cn/szdw_48203/list.htm",
+      "profileChecked": true,
+      "decision": "include_new_pi",
+      "reason": "官方个人页的研究方向命中 AI/NLP/CV/ML、数据智能、机器人或紧密相关方向，并确认教授/研究员或独立招生资格。",
+      "evidenceUrl": "https://cse.seu.edu.cn/2024/0116/c48203a479052/page.htm",
+      "evidenceExcerpt": "高级会员，计算机学会网络与数据通信、普适计算专委会委员，电子学会物联网专技组委员， 2017 年毕业于美国明尼苏达大学计算机系。研究方向为具身智能、大数据分析、物联网，在国内外期刊 Nature Cities 、 IEEE/ACM TON 、 TPDS 、 TOC 、 TOSN 、 TWC 、 TKDE 和会议 MobiCom 、 WWW 、 UbiComp 、 INFOCOM 、 SenSys 、 ICNP 、 SIGSPATIAL 、 SIGKDD 发表论文八十余篇，其中包括 CCF/TH-C"
+    },
+    {
+      "officialId": "51674eb9968bf374",
+      "name": "王洪松",
+      "title": "官网列表未标注",
+      "officialSections": [
+        "师资队伍"
+      ],
+      "profileUrl": "https://cse.seu.edu.cn/2024/0117/c48203a479322/page.htm",
+      "portraitUrl": null,
+      "sourcePageUrl": "https://cse.seu.edu.cn/szdw_48203/list.htm",
+      "officialRosterUrl": "https://cse.seu.edu.cn/szdw_48203/list.htm",
+      "profileChecked": true,
+      "decision": "excluded_insufficient_scope_evidence",
+      "reason": "官方资料能确认相关研究方向，但可访问页面不足以证明其现任独立 PI 或招生资格；本轮按证据门槛不纳入，而非推断为非 PI。",
+      "evidenceUrl": "https://cse.seu.edu.cn/2024/0117/c48203a479322/page.htm",
+      "evidenceExcerpt": "委工作 工会工作 下载专区 校友天地 校友风采 校友动态 王洪松 发布者：王洪松 发布时间：2026-05-26 浏览次数： 1046 精通计算机视觉、多模态感知与生成、生成式人工智能（AIGC）、具身智能和大模型等很多领域。主要研究方向如下： 以人为中心的视觉智能感知 可控视频图像生成 多模态大模型 第一页 <<上一页 下一页>> 尾页 页码 1 / 9 相关链接 东南大学 计算机网络和信息集成教育部重点实验室（东南大学） 新一代人工智能技术与交叉应用教育部重点实验室（东南大学） 江苏省网络与信息安全重"
+    },
+    {
+      "officialId": "7b8e1d727f0e5bad",
+      "name": "王爽",
+      "title": "官网列表未标注",
+      "officialSections": [
+        "师资队伍"
+      ],
+      "profileUrl": "https://cse.seu.edu.cn/2024/0117/c48203a479235/page.htm",
+      "portraitUrl": null,
+      "sourcePageUrl": "https://cse.seu.edu.cn/szdw_48203/list.htm",
+      "officialRosterUrl": "https://cse.seu.edu.cn/szdw_48203/list.htm",
+      "profileChecked": true,
+      "decision": "include_new_pi",
+      "reason": "官方个人页的研究方向命中 AI/NLP/CV/ML、数据智能、机器人或紧密相关方向，并确认教授/研究员或独立招生资格。",
+      "evidenceUrl": "https://cse.seu.edu.cn/2024/0117/c48203a479235/page.htm",
+      "evidenceExcerpt": "）等。 第一页 <<上一页 下一页>> 尾页 页码 1 / 9 相关链接 东南大学 计算机网络和信息集成教育部重点实验室（东南大学） 新一代人工智能技术与交叉应用教育部重点实验室（东南大学） 江苏省网络与信息安全重点实验室 计算机国家级实验教学示范中心（东南大学） 东南大学计算机科学拔尖学生培养基地 联系方式 通信地址：南京市江宁区东南大学路2号东南大学九龙湖校区 邮政编码：211189 ​办公地点：东南大学九龙湖校区计算机楼 学院微信公众号 Copyright © 东南大学计算机科学与工程学院、软件学"
+    },
+    {
+      "officialId": "ab816d486fc3b9a0",
+      "name": "王璐璐",
+      "title": "官网列表未标注",
+      "officialSections": [
+        "师资队伍"
+      ],
+      "profileUrl": "https://cse.seu.edu.cn/2024/0117/c48203a479379/page.htm",
+      "portraitUrl": null,
+      "sourcePageUrl": "https://cse.seu.edu.cn/szdw_48203/list.htm",
+      "officialRosterUrl": "https://cse.seu.edu.cn/szdw_48203/list.htm",
+      "profileChecked": true,
+      "decision": "include_new_pi",
+      "reason": "官方个人页的研究方向命中 AI/NLP/CV/ML、数据智能、机器人或紧密相关方向，并确认教授/研究员或独立招生资格。",
+      "evidenceUrl": "https://cse.seu.edu.cn/2024/0117/c48203a479379/page.htm",
+      "evidenceExcerpt": "学会系统软件专委委员，江苏省计算机学会软件专委委员。长期致力于软件分析与测试领域的教学和研究工作，主要研究兴趣包括软件安全智能分析、软件架构知识图谱、微服务系统等。 先后主持和参与多项自然基金课题、国家重点研发计划、军内研究课题和任务。在《Information and Software Technology》、《Journal of Systems and Software》、《Science China: Information science》、《软件学报》、《计算机学报》等国内外著名期刊和会议发"
+    },
+    {
+      "officialId": "9a813bd9d7c2d816",
+      "name": "王登豹",
+      "title": "官网列表未标注",
+      "officialSections": [
+        "师资队伍"
+      ],
+      "profileUrl": "https://cse.seu.edu.cn/2024/1008/c48203a505720/page.htm",
+      "portraitUrl": null,
+      "sourcePageUrl": "https://cse.seu.edu.cn/szdw_48203/list.htm",
+      "officialRosterUrl": "https://cse.seu.edu.cn/szdw_48203/list.htm",
+      "profileChecked": true,
+      "decision": "include_new_pi",
+      "reason": "官方个人页的研究方向命中 AI/NLP/CV/ML、数据智能、机器人或紧密相关方向，并确认教授/研究员或独立招生资格。",
+      "evidenceUrl": "https://cse.seu.edu.cn/2024/1008/c48203a505720/page.htm",
+      "evidenceExcerpt": "豹，东南大学计算机科学与工程学院讲师，硕士生导师。2024年于东南大学计算机科学与工程学院获得博士学位，导师为 张敏灵教授 。 研究领域为 人工智能、 机器学习，近期主要关注可信机器学习，包括大模型置信度校准、多模态模型幻觉检测与缓解等问题。 在机器学习、数据挖掘、人工智能相关领域的重要会议与期刊上（ICML、NeurIPS、KDD、AAAI、IEEE TPAMI 、 IEEE TKDE 等）发表论文二十余篇。入选2025年CCF博士学位论文激励计划、 德国学术交流中心 DAAD AInet Fello"
+    },
+    {
+      "officialId": "e6631fe8e7620c6a",
+      "name": "王靖",
+      "title": "官网列表未标注",
+      "officialSections": [
+        "师资队伍"
+      ],
+      "profileUrl": "https://cse.seu.edu.cn/2024/0218/c48203a480793/page.htm",
+      "portraitUrl": null,
+      "sourcePageUrl": "https://cse.seu.edu.cn/szdw_48203/list.htm",
+      "officialRosterUrl": "https://cse.seu.edu.cn/szdw_48203/list.htm",
+      "profileChecked": true,
+      "decision": "include_new_pi",
+      "reason": "官方个人页的研究方向命中 AI/NLP/CV/ML、数据智能、机器人或紧密相关方向，并确认教授/研究员或独立招生资格。",
+      "evidenceUrl": "https://cse.seu.edu.cn/2024/0218/c48203a480793/page.htm",
+      "evidenceExcerpt": "校友动态 王靖 发布者：王靖 发布时间：2024-06-11 浏览次数： 463 王靖，东南大学计算机科学与工程学院助理研究员，研究方向包括机器学习、大模型、学习基因等，研究成果发表于国际期刊IEEE TPAMI、IEEE TNNLS、IEEE TCSVT，以及国际会议ICML、AAAI、IJCAI上。获得江苏省优秀博士学位论文奖、吴文俊优秀博士学位论文（提名）奖，主持国家自然科学基金、江苏省自然科学基金以及横向项目多项。 个人主页： https://wangjing4research.github.i"
+    },
+    {
+      "officialId": "c63fb24fe4a732e9",
+      "name": "魏敏娜",
+      "title": "官网列表未标注",
+      "officialSections": [
+        "师资队伍"
+      ],
+      "profileUrl": "https://cse.seu.edu.cn/2024/0116/c48203a479123/page.htm",
+      "portraitUrl": null,
+      "sourcePageUrl": "https://cse.seu.edu.cn/szdw_48203/list.htm",
+      "officialRosterUrl": "https://cse.seu.edu.cn/szdw_48203/list.htm",
+      "profileChecked": true,
+      "decision": "excluded_insufficient_scope_evidence",
+      "reason": "官方资料能确认相关研究方向，但可访问页面不足以证明其现任独立 PI 或招生资格；本轮按证据门槛不纳入，而非推断为非 PI。",
+      "evidenceUrl": "https://cse.seu.edu.cn/2024/0116/c48203a479123/page.htm",
+      "evidenceExcerpt": "99 第一页 <<上一页 下一页>> 尾页 页码 1 / 5 相关链接 东南大学 计算机网络和信息集成教育部重点实验室（东南大学） 新一代人工智能技术与交叉应用教育部重点实验室（东南大学） 江苏省网络与信息安全重点实验室 计算机国家级实验教学示范中心（东南大学） 东南大学计算机科学拔尖学生培养基地 联系方式 通信地址：南京市江宁区东南大学路2号东南大学九龙湖校区 邮政编码：211189 ​办公地点：东南大学九龙湖校区计算机楼 学院微信公众号 Copyright © 东南大学计算机科学与工程学院、软件学"
+    },
+    {
+      "officialId": "9eef011af8b78a12",
+      "name": "魏秀参",
+      "title": "官网列表未标注",
+      "officialSections": [
+        "师资队伍"
+      ],
+      "profileUrl": "https://cse.seu.edu.cn/2024/0117/c48203a479354/page.htm",
+      "portraitUrl": null,
+      "sourcePageUrl": "https://cse.seu.edu.cn/szdw_48203/list.htm",
+      "officialRosterUrl": "https://cse.seu.edu.cn/szdw_48203/list.htm",
+      "profileChecked": true,
+      "decision": "include_new_pi",
+      "reason": "官方个人页的研究方向命中 AI/NLP/CV/ML、数据智能、机器人或紧密相关方向，并确认教授/研究员或独立招生资格。",
+      "evidenceUrl": "https://cse.seu.edu.cn/2024/0117/c48203a479354/page.htm",
+      "evidenceExcerpt": "秀参，东南大学青年首席教授、博士生导师，国家基金委青年科学基金项目B类（原优青）获得者、国家重点研发计划首席青年科学家、江苏省杰青。主要从事计算机视觉、机器学习、具身智能和AI4Science方面研究，带领团队开源“PyRetri”、“Hawkeye”等细粒度图像分析算法库（均入选ACM Multimedia开源竞赛Winner Entry）。在国际顶级期刊和会议发表论文八十余篇，Google Scholar Citations逾10000次，相关研究工作获得“江苏省自然科学百篇优秀学术成果”以及含CVP"
+    },
+    {
+      "officialId": "a1cee95a83440c66",
+      "name": "魏通",
+      "title": "官网列表未标注",
+      "officialSections": [
+        "师资队伍"
+      ],
+      "profileUrl": "https://cse.seu.edu.cn/2024/0117/c48203a479233/page.htm",
+      "portraitUrl": null,
+      "sourcePageUrl": "https://cse.seu.edu.cn/szdw_48203/list.htm",
+      "officialRosterUrl": "https://cse.seu.edu.cn/szdw_48203/list.htm",
+      "profileChecked": true,
+      "decision": "include_new_pi",
+      "reason": "官方个人页的研究方向命中 AI/NLP/CV/ML、数据智能、机器人或紧密相关方向，并确认教授/研究员或独立招生资格。",
+      "evidenceUrl": "https://cse.seu.edu.cn/2024/0117/c48203a479233/page.htm",
+      "evidenceExcerpt": "-03 浏览次数： 675 每年在计算机科学与工程学院、软件学院、招收博士生 1 名、硕士生 4-5 名。 欢迎对以下方向感兴趣的同学报考：机器学习、大模型后训练 。 同时也欢迎本科生同学进入课题组学习并开展科学研究工作 。 更详细的信息，请访问PALM实验室 个人主页 。 第一页 <<上一页 下一页>> 尾页 页码 1 / 6 相关链接 东南大学 计算机网络和信息集成教育部重点实验室（东南大学） 新一代人工智能技术与交叉应用教育部重点实验室（东南大学） 江苏省网络与信息安全重点实验室 计算机国家级实验"
+    },
+    {
+      "officialId": "1555bc06f9f98728",
+      "name": "夏文军",
+      "title": "官网列表未标注",
+      "officialSections": [
+        "师资队伍"
+      ],
+      "profileUrl": "https://cse.seu.edu.cn/2025/1015/c48203a542229/page.htm",
+      "portraitUrl": null,
+      "sourcePageUrl": "https://cse.seu.edu.cn/szdw_48203/list.htm",
+      "officialRosterUrl": "https://cse.seu.edu.cn/szdw_48203/list.htm",
+      "profileChecked": true,
+      "decision": "include_new_pi",
+      "reason": "官方个人页的研究方向命中 AI/NLP/CV/ML、数据智能、机器人或紧密相关方向，并确认教授/研究员或独立招生资格。",
+      "evidenceUrl": "https://cse.seu.edu.cn/2025/1015/c48203a542229/page.htm",
+      "evidenceExcerpt": "文军，博士，现任东南大学计算机科学与工程学院教师。 2012 年和 2022 年分别于四川大学获得学士和博士学位，主要从事 CT 成像理论与人工智能重建方法研究。博士后期间在美国伦斯勒理工学院（ Rensselaer Polytechnic Institute ）生物医学工程系开展研究工作，与 IEEE Life Fellow 、 AAPM 和 SPIE Fellow 、 IEEE TMI 主编 Ge Wang 教授合作，探索生成式人工智能与 CT 重建的融合机制。在 IEEE TMI 、 IEEE S"
+    },
+    {
+      "officialId": "0801f69e75d0228a",
+      "name": "小明",
+      "title": "官网列表未标注",
+      "officialSections": [
+        "师资队伍"
+      ],
+      "profileUrl": "https://cse.seu.edu.cn/2026/0120/c48203a553183/page.htm",
+      "portraitUrl": null,
+      "sourcePageUrl": "https://cse.seu.edu.cn/szdw_48203/list.htm",
+      "officialRosterUrl": "https://cse.seu.edu.cn/szdw_48203/list.htm",
+      "profileChecked": true,
+      "decision": "excluded_insufficient_scope_evidence",
+      "reason": "官方资料能确认相关研究方向，但可访问页面不足以证明其现任独立 PI 或招生资格；本轮按证据门槛不纳入，而非推断为非 PI。",
+      "evidenceUrl": "https://cse.seu.edu.cn/2026/0120/c48203a553183/page.htm",
+      "evidenceExcerpt": "10 第一页 <<上一页 下一页>> 尾页 页码 1 / 5 相关链接 东南大学 计算机网络和信息集成教育部重点实验室（东南大学） 新一代人工智能技术与交叉应用教育部重点实验室（东南大学） 江苏省网络与信息安全重点实验室 计算机国家级实验教学示范中心（东南大学） 东南大学计算机科学拔尖学生培养基地 联系方式 通信地址：南京市江宁区东南大学路2号东南大学九龙湖校区 邮政编码：211189 ​办公地点：东南大学九龙湖校区计算机楼 学院微信公众号 Copyright © 东南大学计算机科学与工程学院、软件学"
+    },
+    {
+      "officialId": "3d00749878b97426",
+      "name": "徐宁",
+      "title": "官网列表未标注",
+      "officialSections": [
+        "师资队伍"
+      ],
+      "profileUrl": "https://cse.seu.edu.cn/2025/0110/c48203a517169/page.htm",
+      "portraitUrl": null,
+      "sourcePageUrl": "https://cse.seu.edu.cn/szdw_48203/list.htm",
+      "officialRosterUrl": "https://cse.seu.edu.cn/szdw_48203/list.htm",
+      "profileChecked": true,
+      "decision": "include_new_pi",
+      "reason": "官方个人页的研究方向命中 AI/NLP/CV/ML、数据智能、机器人或紧密相关方向，并确认教授/研究员或独立招生资格。",
+      "evidenceUrl": "https://cse.seu.edu.cn/2025/0110/c48203a517169/page.htm",
+      "evidenceExcerpt": "时间：2026-04-08 浏览次数： 438 徐宁，东南大学计算机科学与工程学院副教授、博导，国家EDA技术创新中心 PI，东南大学新一代人工智能技术与交叉应用教育部重点实验室主任助理，东南大学“紫金青年学者”。长期从事人工智能领域的研究，在 ICML、NeurIPS、ICLR、IEEE TPAMI 等人工智能领域国际顶级会议和期刊上发表论文 60 余篇，带领团队研发了芯片设计领域大模型 ChipExpert。获 2021 年 CCF 优秀博士学位论文奖，担任德国学术交流中心 AInet Fellow"
+    },
+    {
+      "officialId": "73bd3a36d5a2165b",
+      "name": "徐宁",
+      "title": "官网列表未标注",
+      "officialSections": [
+        "师资队伍"
+      ],
+      "profileUrl": "https://cse.seu.edu.cn/2024/0117/c48203a479217/page.htm",
+      "portraitUrl": null,
+      "sourcePageUrl": "https://cse.seu.edu.cn/szdw_48203/list.htm",
+      "officialRosterUrl": "https://cse.seu.edu.cn/szdw_48203/list.htm",
+      "profileChecked": true,
+      "decision": "include_new_pi",
+      "reason": "官方个人页的研究方向命中 AI/NLP/CV/ML、数据智能、机器人或紧密相关方向，并确认教授/研究员或独立招生资格。",
+      "evidenceUrl": "https://cse.seu.edu.cn/2024/0117/c48203a479217/page.htm",
+      "evidenceExcerpt": "友风采 校友动态 徐宁 发布者：徐宁 发布时间：2025-04-30 浏览次数： 820 徐宁博士，东南大学计算机科学与工程学院副教授，从事机器学习、大模型等方向的研究，在人工智能著名国际学术期刊和会议如TPAMI、ICML、NeurIPS、ICLR发表论文50余篇，担任国际顶级会议NeurIPS、IJCAI的领域主席/高级程序委员会委员，CCF人工智能与模式识别专委会执委，获2021年CCF优秀博士学位论文奖，2020年德国DAAD AInet奖。 个人主页： https://palm.seu.edu"
+    },
+    {
+      "officialId": "1f3b09688c4c644e",
+      "name": "徐翔宇",
+      "title": "官网列表未标注",
+      "officialSections": [
+        "师资队伍"
+      ],
+      "profileUrl": "https://cse.seu.edu.cn/2024/0117/c48203a479241/page.htm",
+      "portraitUrl": null,
+      "sourcePageUrl": "https://cse.seu.edu.cn/szdw_48203/list.htm",
+      "officialRosterUrl": "https://cse.seu.edu.cn/szdw_48203/list.htm",
+      "profileChecked": true,
+      "decision": "include_new_pi",
+      "reason": "官方个人页的研究方向命中 AI/NLP/CV/ML、数据智能、机器人或紧密相关方向，并确认教授/研究员或独立招生资格。",
+      "evidenceUrl": "https://cse.seu.edu.cn/2024/0117/c48203a479241/page.htm",
+      "evidenceExcerpt": "） 。 第一页 <<上一页 下一页>> 尾页 页码 1 / 9 相关链接 东南大学 计算机网络和信息集成教育部重点实验室（东南大学） 新一代人工智能技术与交叉应用教育部重点实验室（东南大学） 江苏省网络与信息安全重点实验室 计算机国家级实验教学示范中心（东南大学） 东南大学计算机科学拔尖学生培养基地 联系方式 通信地址：南京市江宁区东南大学路2号东南大学九龙湖校区 邮政编码：211189 ​办公地点：东南大学九龙湖校区计算机楼 学院微信公众号 Copyright © 东南大学计算机科学与工程学院、软件学"
+    },
+    {
+      "officialId": "41803865df1d3ba2",
+      "name": "熊润群",
+      "title": "官网列表未标注",
+      "officialSections": [
+        "师资队伍"
+      ],
+      "profileUrl": "https://cse.seu.edu.cn/2024/0116/c48203a479020/page.htm",
+      "portraitUrl": null,
+      "sourcePageUrl": "https://cse.seu.edu.cn/szdw_48203/list.htm",
+      "officialRosterUrl": "https://cse.seu.edu.cn/szdw_48203/list.htm",
+      "profileChecked": true,
+      "decision": "include_new_pi",
+      "reason": "官方个人页的研究方向命中 AI/NLP/CV/ML、数据智能、机器人或紧密相关方向，并确认教授/研究员或独立招生资格。",
+      "evidenceUrl": "https://cse.seu.edu.cn/2024/0116/c48203a479020/page.htm",
+      "evidenceExcerpt": "奖等。 第一页 <<上一页 下一页>> 尾页 页码 1 / 8 相关链接 东南大学 计算机网络和信息集成教育部重点实验室（东南大学） 新一代人工智能技术与交叉应用教育部重点实验室（东南大学） 江苏省网络与信息安全重点实验室 计算机国家级实验教学示范中心（东南大学） 东南大学计算机科学拔尖学生培养基地 联系方式 通信地址：南京市江宁区东南大学路2号东南大学九龙湖校区 邮政编码：211189 ​办公地点：东南大学九龙湖校区计算机楼 学院微信公众号 Copyright © 东南大学计算机科学与工程学院、软件学"
+    },
+    {
+      "officialId": "8b920dd5a2d24188",
+      "name": "肖国辉",
+      "title": "官网列表未标注",
+      "officialSections": [
+        "师资队伍"
+      ],
+      "profileUrl": "https://cse.seu.edu.cn/2024/0821/c48203a500336/page.htm",
+      "portraitUrl": null,
+      "sourcePageUrl": "https://cse.seu.edu.cn/szdw_48203/list.htm",
+      "officialRosterUrl": "https://cse.seu.edu.cn/szdw_48203/list.htm",
+      "profileChecked": true,
+      "decision": "include_new_pi",
+      "reason": "官方个人页的研究方向命中 AI/NLP/CV/ML、数据智能、机器人或紧密相关方向，并确认教授/研究员或独立招生资格。",
+      "evidenceUrl": "https://cse.seu.edu.cn/2024/0821/c48203a500336/page.htm",
+      "evidenceExcerpt": "(University of Bergen) 长聘副教授、挪威奥斯陆大学 (Univeristy of Oslo) 研究员。主要研究领域为知识工程、知识图谱、逻辑推理、自然语言处理、大语言模型技术。研究涉及基础理论、系统开发和实际用例。曾入选Aminer 2023、2024年度AI2000全球最具影响力人工智能学者。主持开发了开源虚拟知识图谱系统Ontop，在学术界和工业界有广泛影响。共发表文章120余篇，包括期刊JAIR、SWJ、JWS、AAAI、JBR、JBI，会议IJCAI、AAAI、KR、IS"
+    },
+    {
+      "officialId": "cf3768ea1358aaae",
+      "name": "薛晖",
+      "title": "官网列表未标注",
+      "officialSections": [
+        "师资队伍"
+      ],
+      "profileUrl": "https://cse.seu.edu.cn/2024/0117/c48203a479363/page.htm",
+      "portraitUrl": null,
+      "sourcePageUrl": "https://cse.seu.edu.cn/szdw_48203/list.htm",
+      "officialRosterUrl": "https://cse.seu.edu.cn/szdw_48203/list.htm",
+      "profileChecked": true,
+      "decision": "include_new_pi",
+      "reason": "官方个人页的研究方向命中 AI/NLP/CV/ML、数据智能、机器人或紧密相关方向，并确认教授/研究员或独立招生资格。",
+      "evidenceUrl": "https://cse.seu.edu.cn/2024/0117/c48203a479363/page.htm",
+      "evidenceExcerpt": "2024-05-11 浏览次数： 872 薛晖，东南大学计算机科学与工程学院、软件学院、教授，博士生导师，计算机科学系主任。主要研究领域包括机器学习、模式识别与计算机视觉。在 TPAMI 、 NeurIPS 、ICML、 AAAI 、 IJCAI 、 CVPR 、 ACM MM 等重要国际期刊和领域顶级会议上发表论文8 0 余篇，主持多项国家自然科学基金项目和江苏省自然科学基金项目。现任 “新一代人工智能技术与交叉应用”教育部重点实验室常务副主任、 中国计算机学会人工智能与模式识别专业委员会委员、中国人"
+    },
+    {
+      "officialId": "1f1cac34b4829344",
+      "name": "薛澄",
+      "title": "官网列表未标注",
+      "officialSections": [
+        "师资队伍"
+      ],
+      "profileUrl": "https://cse.seu.edu.cn/2024/0117/c48203a479332/page.htm",
+      "portraitUrl": null,
+      "sourcePageUrl": "https://cse.seu.edu.cn/szdw_48203/list.htm",
+      "officialRosterUrl": "https://cse.seu.edu.cn/szdw_48203/list.htm",
+      "profileChecked": true,
+      "decision": "include_new_pi",
+      "reason": "官方个人页的研究方向命中 AI/NLP/CV/ML、数据智能、机器人或紧密相关方向，并确认教授/研究员或独立招生资格。",
+      "evidenceUrl": "https://cse.seu.edu.cn/2024/0117/c48203a479332/page.htm",
+      "evidenceExcerpt": "理工大学博士学位，期间在美国杜克大学进行学术访问。2019-2023年在香港中文大学和香港理工大学担任博士后、研究助理教授。近期研究方向为：医学影像智能分析，手术机器人，多模态大模型，具身智能等。在医学影像分析领域顶刊和顶会 TMI，MIA，MICCAI 等发表论文二十余篇，长期担任多个国际著名期刊会议的编委和审稿人。 招生/Open Positions 1. 招收2027级/软件学院硕士研究生，欢迎有自我驱动力的学生报名！ 2. 欢迎对AI+医学影像感兴趣的本科生跟组进行全面的科研训练。 3. To"
+    },
+    {
+      "officialId": "079c1e54b0e62f7b",
+      "name": "许园园",
+      "title": "官网列表未标注",
+      "officialSections": [
+        "师资队伍"
+      ],
+      "profileUrl": "https://cse.seu.edu.cn/2024/0216/c48203a480679/page.htm",
+      "portraitUrl": null,
+      "sourcePageUrl": "https://cse.seu.edu.cn/szdw_48203/list.htm",
+      "officialRosterUrl": "https://cse.seu.edu.cn/szdw_48203/list.htm",
+      "profileChecked": true,
+      "decision": "excluded_insufficient_scope_evidence",
+      "reason": "官方资料能确认相关研究方向，但可访问页面不足以证明其现任独立 PI 或招生资格；本轮按证据门槛不纳入，而非推断为非 PI。",
+      "evidenceUrl": "https://cse.seu.edu.cn/2024/0216/c48203a480679/page.htm",
+      "evidenceExcerpt": "52 第一页 <<上一页 下一页>> 尾页 页码 1 / 5 相关链接 东南大学 计算机网络和信息集成教育部重点实验室（东南大学） 新一代人工智能技术与交叉应用教育部重点实验室（东南大学） 江苏省网络与信息安全重点实验室 计算机国家级实验教学示范中心（东南大学） 东南大学计算机科学拔尖学生培养基地 联系方式 通信地址：南京市江宁区东南大学路2号东南大学九龙湖校区 邮政编码：211189 ​办公地点：东南大学九龙湖校区计算机楼 学院微信公众号 Copyright © 东南大学计算机科学与工程学院、软件学"
+    },
+    {
+      "officialId": "563fb8651bf04a3b",
+      "name": "谢涛",
+      "title": "官网列表未标注",
+      "officialSections": [
+        "师资队伍"
+      ],
+      "profileUrl": "https://cse.seu.edu.cn/2025/0211/c48203a518373/page.htm",
+      "portraitUrl": null,
+      "sourcePageUrl": "https://cse.seu.edu.cn/szdw_48203/list.htm",
+      "officialRosterUrl": "https://cse.seu.edu.cn/szdw_48203/list.htm",
+      "profileChecked": true,
+      "decision": "include_new_pi",
+      "reason": "官方个人页的研究方向命中 AI/NLP/CV/ML、数据智能、机器人或紧密相关方向，并确认教授/研究员或独立招生资格。",
+      "evidenceUrl": "https://cse.seu.edu.cn/2025/0211/c48203a518373/page.htm",
+      "evidenceExcerpt": "士学位。他曾任美国伊利诺伊大学香槟分校（UIUC）计算机系正教授。他主要研究领域包括软件工程，系统软件，RISC-V基础软件，软件安全，可信人工智能。 详细信息请见谢涛教授个人主页： https://taoxiease.github.io/ 欢迎大家报考！ 第一页 <<上一页 下一页>> 尾页 页码 1 / 5 相关链接 东南大学 计算机网络和信息集成教育部重点实验室（东南大学） 新一代人工智能技术与交叉应用教育部重点实验室（东南大学） 江苏省网络与信息安全重点实验室 计算机国家级实验教学示范中心（东南"
+    },
+    {
+      "officialId": "04529c89e63235eb",
+      "name": "辛蓓",
+      "title": "官网列表未标注",
+      "officialSections": [
+        "师资队伍"
+      ],
+      "profileUrl": "https://cse.seu.edu.cn/2024/0116/c48203a479113/page.htm",
+      "portraitUrl": null,
+      "sourcePageUrl": "https://cse.seu.edu.cn/szdw_48203/list.htm",
+      "officialRosterUrl": "https://cse.seu.edu.cn/szdw_48203/list.htm",
+      "profileChecked": true,
+      "decision": "excluded_insufficient_scope_evidence",
+      "reason": "官方资料能确认相关研究方向，但可访问页面不足以证明其现任独立 PI 或招生资格；本轮按证据门槛不纳入，而非推断为非 PI。",
+      "evidenceUrl": "https://cse.seu.edu.cn/2024/0116/c48203a479113/page.htm",
+      "evidenceExcerpt": "44 第一页 <<上一页 下一页>> 尾页 页码 1 / 5 相关链接 东南大学 计算机网络和信息集成教育部重点实验室（东南大学） 新一代人工智能技术与交叉应用教育部重点实验室（东南大学） 江苏省网络与信息安全重点实验室 计算机国家级实验教学示范中心（东南大学） 东南大学计算机科学拔尖学生培养基地 联系方式 通信地址：南京市江宁区东南大学路2号东南大学九龙湖校区 邮政编码：211189 ​办公地点：东南大学九龙湖校区计算机楼 学院微信公众号 Copyright © 东南大学计算机科学与工程学院、软件学"
+    },
+    {
+      "officialId": "6d90212ea771417f",
+      "name": "邢婉秋",
+      "title": "官网列表未标注",
+      "officialSections": [
+        "师资队伍"
+      ],
+      "profileUrl": "https://cse.seu.edu.cn/2024/0116/c48203a479119/page.htm",
+      "portraitUrl": null,
+      "sourcePageUrl": "https://cse.seu.edu.cn/szdw_48203/list.htm",
+      "officialRosterUrl": "https://cse.seu.edu.cn/szdw_48203/list.htm",
+      "profileChecked": true,
+      "decision": "excluded_insufficient_scope_evidence",
+      "reason": "官方资料能确认相关研究方向，但可访问页面不足以证明其现任独立 PI 或招生资格；本轮按证据门槛不纳入，而非推断为非 PI。",
+      "evidenceUrl": "https://cse.seu.edu.cn/2024/0116/c48203a479119/page.htm",
+      "evidenceExcerpt": "59 第一页 <<上一页 下一页>> 尾页 页码 1 / 5 相关链接 东南大学 计算机网络和信息集成教育部重点实验室（东南大学） 新一代人工智能技术与交叉应用教育部重点实验室（东南大学） 江苏省网络与信息安全重点实验室 计算机国家级实验教学示范中心（东南大学） 东南大学计算机科学拔尖学生培养基地 联系方式 通信地址：南京市江宁区东南大学路2号东南大学九龙湖校区 邮政编码：211189 ​办公地点：东南大学九龙湖校区计算机楼 学院微信公众号 Copyright © 东南大学计算机科学与工程学院、软件学"
+    },
+    {
+      "officialId": "777a31d4fae60457",
+      "name": "严斌",
+      "title": "官网列表未标注",
+      "officialSections": [
+        "师资队伍"
+      ],
+      "profileUrl": "https://cse.seu.edu.cn/2024/1112/c48203a510563/page.htm",
+      "portraitUrl": null,
+      "sourcePageUrl": "https://cse.seu.edu.cn/szdw_48203/list.htm",
+      "officialRosterUrl": "https://cse.seu.edu.cn/szdw_48203/list.htm",
+      "profileChecked": true,
+      "decision": "include_new_pi",
+      "reason": "官方个人页的研究方向命中 AI/NLP/CV/ML、数据智能、机器人或紧密相关方向，并确认教授/研究员或独立招生资格。",
+      "evidenceUrl": "https://cse.seu.edu.cn/2024/1112/c48203a510563/page.htm",
+      "evidenceExcerpt": "验 。 第一页 <<上一页 下一页>> 尾页 页码 1 / 8 相关链接 东南大学 计算机网络和信息集成教育部重点实验室（东南大学） 新一代人工智能技术与交叉应用教育部重点实验室（东南大学） 江苏省网络与信息安全重点实验室 计算机国家级实验教学示范中心（东南大学） 东南大学计算机科学拔尖学生培养基地 联系方式 通信地址：南京市江宁区东南大学路2号东南大学九龙湖校区 邮政编码：211189 ​办公地点：东南大学九龙湖校区计算机楼 学院微信公众号 Copyright © 东南大学计算机科学与工程学院、软件学"
+    },
+    {
+      "officialId": "5d05339531b57503",
+      "name": "姚莉",
+      "title": "官网列表未标注",
+      "officialSections": [
+        "师资队伍"
+      ],
+      "profileUrl": "https://cse.seu.edu.cn/2024/0117/c48203a479367/page.htm",
+      "portraitUrl": null,
+      "sourcePageUrl": "https://cse.seu.edu.cn/szdw_48203/list.htm",
+      "officialRosterUrl": "https://cse.seu.edu.cn/szdw_48203/list.htm",
+      "profileChecked": true,
+      "decision": "include_new_pi",
+      "reason": "官方个人页的研究方向命中 AI/NLP/CV/ML、数据智能、机器人或紧密相关方向，并确认教授/研究员或独立招生资格。",
+      "evidenceUrl": "https://cse.seu.edu.cn/2024/0117/c48203a479367/page.htm",
+      "evidenceExcerpt": "上海交通大学博士学位，博士期间师从 马利庄 教授。 哈佛大学 Hanspeter Pfisher 教授的 VCG实验室 访问研究。 长期从事计算机图形学、计算机视觉以及人工智能交叉学科的科研 及教学工作。 主持完成国家 863项目、国家自然科学基金项目、江苏省重点研发项目、江苏省自然科学基金项目等。 担任中国人工智能学会智能创意与数字艺术专业委员会副秘书长， 江苏省计算机学会图形图像专委会秘书长、副主任，东大玻色人工智能与3D工业检测联合创新中心主任。 第一页 <<上一页 下一页>> 尾页 页码 1 /"
+    },
+    {
+      "officialId": "baef66d3122a6b90",
+      "name": "岳立楠",
+      "title": "官网列表未标注",
+      "officialSections": [
+        "师资队伍"
+      ],
+      "profileUrl": "https://cse.seu.edu.cn/2025/0311/c48203a521239/page.htm",
+      "portraitUrl": null,
+      "sourcePageUrl": "https://cse.seu.edu.cn/szdw_48203/list.htm",
+      "officialRosterUrl": "https://cse.seu.edu.cn/szdw_48203/list.htm",
+      "profileChecked": true,
+      "decision": "include_new_pi",
+      "reason": "官方个人页的研究方向命中 AI/NLP/CV/ML、数据智能、机器人或紧密相关方向，并确认教授/研究员或独立招生资格。",
+      "evidenceUrl": "https://cse.seu.edu.cn/2025/0311/c48203a521239/page.htm",
+      "evidenceExcerpt": "数： 1670 岳立楠 ，东南大学计算机科学与工程学院副教授，硕士生导师。 现为东南大学PALM实验室成员。研究方向包括 知识表示与推理、 大模型及多智能体高效推理、数据智能、 可信人工智能等。 围绕相关研究领域，累计在 CCF-A/B 类推荐的国内外学术期刊和重要学术会议上发表论文40余篇 ，包括IEEE TPAMI， IEEE TKDE, ICML, ICLR, SIGIR, WWW, EMNLP 等，其中第一、通讯作者二十余篇 。曾获中国科学院院长特别奖 、 国际人工智能会议 “Finalist"
+    },
+    {
+      "officialId": "c944d6feef6e0e6f",
+      "name": "杨全胜",
+      "title": "官网列表未标注",
+      "officialSections": [
+        "师资队伍"
+      ],
+      "profileUrl": "https://cse.seu.edu.cn/2024/0117/c48203a479413/page.htm",
+      "portraitUrl": null,
+      "sourcePageUrl": "https://cse.seu.edu.cn/szdw_48203/list.htm",
+      "officialRosterUrl": "https://cse.seu.edu.cn/szdw_48203/list.htm",
+      "profileChecked": true,
+      "decision": "include_new_pi",
+      "reason": "官方个人页的研究方向命中 AI/NLP/CV/ML、数据智能、机器人或紧密相关方向，并确认教授/研究员或独立招生资格。",
+      "evidenceUrl": "https://cse.seu.edu.cn/2024/0117/c48203a479413/page.htm",
+      "evidenceExcerpt": "x公司Outstanding Professor。 1994年工作以来，主要从事计算机系统结构、CPU+FPGA异构多核结构与多核并行算法、人工智能算法及智能芯片、嵌入式系统软件与应用以及可重构计算等研究 。工作至今共教授本专科及研究生课程10余门，在国内外核心期刊发表科研与教学论文60余篇,EI检索10多篇，出版教材7本(其中一本为国 家级十一五 规划教材，一本获全国电子信息类优秀教材二等奖，一本国家级实验教学示范中心联席会计算机学科组），教辅书籍1本，主持一项教育部-Intel精品课程，一项教育部-"
+    },
+    {
+      "officialId": "cd479c762983c0e9",
+      "name": "杨冠羽",
+      "title": "官网列表未标注",
+      "officialSections": [
+        "师资队伍"
+      ],
+      "profileUrl": "https://cse.seu.edu.cn/2024/0116/c48203a479097/page.htm",
+      "portraitUrl": null,
+      "sourcePageUrl": "https://cse.seu.edu.cn/szdw_48203/list.htm",
+      "officialRosterUrl": "https://cse.seu.edu.cn/szdw_48203/list.htm",
+      "profileChecked": true,
+      "decision": "include_new_pi",
+      "reason": "官方个人页的研究方向命中 AI/NLP/CV/ML、数据智能、机器人或紧密相关方向，并确认教授/研究员或独立招生资格。",
+      "evidenceUrl": "https://cse.seu.edu.cn/2024/0116/c48203a479097/page.htm",
+      "evidenceExcerpt": "间：2026-03-19 浏览次数： 1417 东南大学计算机科学与工程学院、软件学院、副院长、教授、博士生导师，IEEE高级会员。中国图象图形学会医学影像专业委员会委员。东南大学生物医学工程专业博士（2008）、法国雷恩一大信号与图像处理专业博士（2009）、荷兰莱顿大学医学中心（LUMC，Leiden University）图像处理实验室博士后。长期从事医学人工智能、图像处理与分析、计算机辅助诊断与手术方面的研究。承担及参与国家重点研发计划、国家科技重大专项、国家自然科学基金、江苏省自然科学基金等"
+    },
+    {
+      "officialId": "d81627fc37db91a7",
+      "name": "杨旭",
+      "title": "官网列表未标注",
+      "officialSections": [
+        "师资队伍"
+      ],
+      "profileUrl": "https://cse.seu.edu.cn/2024/0117/c48203a479231/page.htm",
+      "portraitUrl": null,
+      "sourcePageUrl": "https://cse.seu.edu.cn/szdw_48203/list.htm",
+      "officialRosterUrl": "https://cse.seu.edu.cn/szdw_48203/list.htm",
+      "profileChecked": true,
+      "decision": "include_new_pi",
+      "reason": "官方个人页的研究方向命中 AI/NLP/CV/ML、数据智能、机器人或紧密相关方向，并确认教授/研究员或独立招生资格。",
+      "evidenceUrl": "https://cse.seu.edu.cn/2024/0117/c48203a479231/page.htm",
+      "evidenceExcerpt": "io/ 第一页 <<上一页 下一页>> 尾页 页码 1 / 6 相关链接 东南大学 计算机网络和信息集成教育部重点实验室（东南大学） 新一代人工智能技术与交叉应用教育部重点实验室（东南大学） 江苏省网络与信息安全重点实验室 计算机国家级实验教学示范中心（东南大学） 东南大学计算机科学拔尖学生培养基地 联系方式 通信地址：南京市江宁区东南大学路2号东南大学九龙湖校区 邮政编码：211189 ​办公地点：东南大学九龙湖校区计算机楼 学院微信公众号 Copyright © 东南大学计算机科学与工程学院、软件学"
+    },
+    {
+      "officialId": "c696c72a80d35800",
+      "name": "杨明",
+      "title": "官网列表未标注",
+      "officialSections": [
+        "师资队伍"
+      ],
+      "profileUrl": "https://cse.seu.edu.cn/2023/0915/c48203a464564/page.htm",
+      "portraitUrl": null,
+      "sourcePageUrl": "https://cse.seu.edu.cn/szdw_48203/list.htm",
+      "officialRosterUrl": "https://cse.seu.edu.cn/szdw_48203/list.htm",
+      "profileChecked": true,
+      "decision": "include_new_pi",
+      "reason": "官方个人页的研究方向命中 AI/NLP/CV/ML、数据智能、机器人或紧密相关方向，并确认教授/研究员或独立招生资格。",
+      "evidenceUrl": "https://cse.seu.edu.cn/2023/0915/c48203a464564/page.htm",
+      "evidenceExcerpt": "等。 第一页 <<上一页 下一页>> 尾页 页码 1 / 8 相关链接 东南大学 计算机网络和信息集成教育部重点实验室（东南大学） 新一代人工智能技术与交叉应用教育部重点实验室（东南大学） 江苏省网络与信息安全重点实验室 计算机国家级实验教学示范中心（东南大学） 东南大学计算机科学拔尖学生培养基地 联系方式 通信地址：南京市江宁区东南大学路2号东南大学九龙湖校区 邮政编码：211189 ​办公地点：东南大学九龙湖校区计算机楼 学院微信公众号 Copyright © 东南大学计算机科学与工程学院、软件学"
+    },
+    {
+      "officialId": "59a8f978563e1acb",
+      "name": "杨淳沨",
+      "title": "官网列表未标注",
+      "officialSections": [
+        "师资队伍"
+      ],
+      "profileUrl": "https://cse.seu.edu.cn/2024/0116/c48203a479103/page.htm",
+      "portraitUrl": null,
+      "sourcePageUrl": "https://cse.seu.edu.cn/szdw_48203/list.htm",
+      "officialRosterUrl": "https://cse.seu.edu.cn/szdw_48203/list.htm",
+      "profileChecked": true,
+      "decision": "excluded_insufficient_scope_evidence",
+      "reason": "官方资料能确认相关研究方向，但可访问页面不足以证明其现任独立 PI 或招生资格；本轮按证据门槛不纳入，而非推断为非 PI。",
+      "evidenceUrl": "https://cse.seu.edu.cn/2024/0116/c48203a479103/page.htm",
+      "evidenceExcerpt": "数： 2118 研究生导师，影像科学与技术系副系主任，江苏省科技人才（科技副总）项目获得者。 中国人体健康科技促进会数字医疗专委会委员，亚太脑机接口与脑功能评估及神经调控学会 专委会委员， 江苏省研究型医院学会智能诊疗专委会委员 。 在 法国雷恩第一大学获得博士学位后 到东南大学计算机科学与工程学院、软件学院、工作至今。 研究兴趣主要包含人工智能&信号与图像处理算法及在脑科学、 脑机接口、 生命健康、计算机视觉、情感计算和可穿戴设备中的应用。 近年来 先后 承担和参与国家自然科学基金项目、科技部重点"
+    },
+    {
+      "officialId": "cf875b3af028dedd",
+      "name": "杨绍富",
+      "title": "官网列表未标注",
+      "officialSections": [
+        "师资队伍"
+      ],
+      "profileUrl": "https://cse.seu.edu.cn/2024/0117/c48203a479409/page.htm",
+      "portraitUrl": null,
+      "sourcePageUrl": "https://cse.seu.edu.cn/szdw_48203/list.htm",
+      "officialRosterUrl": "https://cse.seu.edu.cn/szdw_48203/list.htm",
+      "profileChecked": true,
+      "decision": "include_new_pi",
+      "reason": "官方个人页的研究方向命中 AI/NLP/CV/ML、数据智能、机器人或紧密相关方向，并确认教授/研究员或独立招生资格。",
+      "evidenceUrl": "https://cse.seu.edu.cn/2024/0117/c48203a479409/page.htm",
+      "evidenceExcerpt": "：2026-08-14 浏览次数： 2428 杨绍富，教授，博士生导师。于 2016 年在香港中文大学机械与自动化工程系获博士学位。主要从事多智能体强化学习、分布式优化与博弈等基础理论及其应用研究。研究工作发表于 Automatica、IEEE 汇刊系列（TPAMI、TAC、TIFS、TSP 等）、Science China 系列等国内外权威学术期刊上。主持国家自然科学基金青年项目、面上项目、装备预研教育部联合基金项目等。曾获中国仿真学会自然科学奖一等奖，入选中国科协青年人才托举工程、斯坦福全球前2%顶"
+    },
+    {
+      "officialId": "365cfaa3d1ee9185",
+      "name": "杨蕙",
+      "title": "官网列表未标注",
+      "officialSections": [
+        "师资队伍"
+      ],
+      "profileUrl": "https://cse.seu.edu.cn/2024/0117/c48203a479463/page.htm",
+      "portraitUrl": null,
+      "sourcePageUrl": "https://cse.seu.edu.cn/szdw_48203/list.htm",
+      "officialRosterUrl": "https://cse.seu.edu.cn/szdw_48203/list.htm",
+      "profileChecked": true,
+      "decision": "excluded_insufficient_scope_evidence",
+      "reason": "官方资料能确认相关研究方向，但可访问页面不足以证明其现任独立 PI 或招生资格；本轮按证据门槛不纳入，而非推断为非 PI。",
+      "evidenceUrl": "https://cse.seu.edu.cn/2024/0117/c48203a479463/page.htm",
+      "evidenceExcerpt": "83 第一页 <<上一页 下一页>> 尾页 页码 1 / 5 相关链接 东南大学 计算机网络和信息集成教育部重点实验室（东南大学） 新一代人工智能技术与交叉应用教育部重点实验室（东南大学） 江苏省网络与信息安全重点实验室 计算机国家级实验教学示范中心（东南大学） 东南大学计算机科学拔尖学生培养基地 联系方式 通信地址：南京市江宁区东南大学路2号东南大学九龙湖校区 邮政编码：211189 ​办公地点：东南大学九龙湖校区计算机楼 学院微信公众号 Copyright © 东南大学计算机科学与工程学院、软件学"
+    },
+    {
+      "officialId": "1dde0747f7a7c815",
+      "name": "杨鹏",
+      "title": "官网列表未标注",
+      "officialSections": [
+        "师资队伍"
+      ],
+      "profileUrl": "https://cse.seu.edu.cn/2024/0116/c48203a479038/page.htm",
+      "portraitUrl": null,
+      "sourcePageUrl": "https://cse.seu.edu.cn/szdw_48203/list.htm",
+      "officialRosterUrl": "https://cse.seu.edu.cn/szdw_48203/list.htm",
+      "profileChecked": true,
+      "decision": "include_new_pi",
+      "reason": "官方个人页的研究方向命中 AI/NLP/CV/ML、数据智能、机器人或紧密相关方向，并确认教授/研究员或独立招生资格。",
+      "evidenceUrl": "https://cse.seu.edu.cn/2024/0116/c48203a479038/page.htm",
+      "evidenceExcerpt": "ning Systems 、 IEEE Trans. on Audio, Speech and Language Processing 、 Pattern Recognition 、 Information Processing and Management 、 Computer Vision and Image Understanding 、 Computer Networks 、 IEEE Trans. on Network Science and Engineering 、 IEEE Internet of Things Jo"
+    },
+    {
+      "officialId": "cdf5caaf47642106",
+      "name": "闫亚萍",
+      "title": "官网列表未标注",
+      "officialSections": [
+        "师资队伍"
+      ],
+      "profileUrl": "https://cse.seu.edu.cn/2024/0117/c48203a479471/page.htm",
+      "portraitUrl": null,
+      "sourcePageUrl": "https://cse.seu.edu.cn/szdw_48203/list.htm",
+      "officialRosterUrl": "https://cse.seu.edu.cn/szdw_48203/list.htm",
+      "profileChecked": true,
+      "decision": "include_new_pi",
+      "reason": "官方个人页的研究方向命中 AI/NLP/CV/ML、数据智能、机器人或紧密相关方向，并确认教授/研究员或独立招生资格。",
+      "evidenceUrl": "https://cse.seu.edu.cn/2024/0117/c48203a479471/page.htm",
+      "evidenceExcerpt": "布者：闫亚萍 发布时间：2024-05-17 浏览次数： 228 闫亚萍，副教授，硕士生导师，于2020年获北海道大学工学博士学位。主要从事计算机视觉方向的算法研究及其在图像异常检测、视觉质量评估、特征匹配等领域的应用。主持及参与多项国家自然科学基金和江苏省自然科学基金项目，入选江苏省“双创博士”，在国际著名学术期刊和会议上发表论文二十余篇，担任多个CCF-A类会议及期刊审稿人。 第一页 <<上一页 下一页>> 尾页 页码 1 / 5 相关链接 东南大学 计算机网络和信息集成教育部重点实验室（东南大学）"
+    },
+    {
+      "officialId": "c1c8a45108910622",
+      "name": "周德宇",
+      "title": "官网列表未标注",
+      "officialSections": [
+        "师资队伍"
+      ],
+      "profileUrl": "https://cse.seu.edu.cn/2024/0116/c48203a479084/page.htm",
+      "portraitUrl": null,
+      "sourcePageUrl": "https://cse.seu.edu.cn/szdw_48203/list.htm",
+      "officialRosterUrl": "https://cse.seu.edu.cn/szdw_48203/list.htm",
+      "profileChecked": true,
+      "decision": "include_new_pi",
+      "reason": "官方个人页的研究方向命中 AI/NLP/CV/ML、数据智能、机器人或紧密相关方向，并确认教授/研究员或独立招生资格。",
+      "evidenceUrl": "https://cse.seu.edu.cn/2024/0116/c48203a479084/page.htm",
+      "evidenceExcerpt": "校友风采 校友动态 周德宇 发布者：周德宇 发布时间：2025-11-27 浏览次数： 900 周德宇，东南大学教授，博士生导师。主要从事自然语言处理、大模型等相关研究。主要包括： （1）自然语言处理，如情感分析、文本生成； （2） 大模型理论和优化，如推理加速，个性化等； （3）基于大模型的多智能体，协同优化 。 目前发表论文 80 余篇，包括ACL，EMNLP，NAACL等 。获得2024年ACL杰出论文奖。 承担科研项目包括：国家自然基金面上项目（2021-2025，2016-2020），青年（"
+    },
+    {
+      "officialId": "df91a71b2a500f44",
+      "name": "周晓宇",
+      "title": "官网列表未标注",
+      "officialSections": [
+        "师资队伍"
+      ],
+      "profileUrl": "https://cse.seu.edu.cn/2024/0116/c48203a479062/page.htm",
+      "portraitUrl": null,
+      "sourcePageUrl": "https://cse.seu.edu.cn/szdw_48203/list.htm",
+      "officialRosterUrl": "https://cse.seu.edu.cn/szdw_48203/list.htm",
+      "profileChecked": true,
+      "decision": "include_new_pi",
+      "reason": "官方个人页的研究方向命中 AI/NLP/CV/ML、数据智能、机器人或紧密相关方向，并确认教授/研究员或独立招生资格。",
+      "evidenceUrl": "https://cse.seu.edu.cn/2024/0116/c48203a479062/page.htm",
+      "evidenceExcerpt": "算机科学与工程学院在职获得博士学位。 目前的主要研究领域为程序自动生成和可信软件开发方法，主要研究方向为反应式系统自动生成、程序测试与验证、自然语言处理及其在需求工程中的应用。同时也进行程序分析、知识图谱、社交网络分析等方面的研究。 曾参加过多项国家和省自然科学基金项目、部委重点预先研究项目、江苏省科技攻关项目以及与Intel、南瑞等国内外大型IT企业的合作项目。曾在国内外学术杂志和会议上发表论文30余篇，7次获得省部级科技进步奖和教育部提名国家科学技术奖。 曾承担“程序设计语言原理”、“并发程序设计”"
+    },
+    {
+      "officialId": "90dc222061ceaec3",
+      "name": "周毅",
+      "title": "官网列表未标注",
+      "officialSections": [
+        "师资队伍"
+      ],
+      "profileUrl": "https://cse.seu.edu.cn/2024/0117/c48203a479213/page.htm",
+      "portraitUrl": null,
+      "sourcePageUrl": "https://cse.seu.edu.cn/szdw_48203/list.htm",
+      "officialRosterUrl": "https://cse.seu.edu.cn/szdw_48203/list.htm",
+      "profileChecked": true,
+      "decision": "include_new_pi",
+      "reason": "官方个人页的研究方向命中 AI/NLP/CV/ML、数据智能、机器人或紧密相关方向，并确认教授/研究员或独立招生资格。",
+      "evidenceUrl": "https://cse.seu.edu.cn/2024/0117/c48203a479213/page.htm",
+      "evidenceExcerpt": "d Engineering , Southeast University Key Laboratory of New Generation Artificial Intelligence Technology and Its Interdisciplinary Applications (Southeast University), Ministry of Education, China I am a member of PAttern Learning and Mining (PALM) Lab. Brief Bio Dr. Yi Zh"
+    },
+    {
+      "officialId": "e0771bd139b5b38d",
+      "name": "周玲",
+      "title": "官网列表未标注",
+      "officialSections": [
+        "师资队伍"
+      ],
+      "profileUrl": "https://cse.seu.edu.cn/2024/0116/c48203a479042/page.htm",
+      "portraitUrl": null,
+      "sourcePageUrl": "https://cse.seu.edu.cn/szdw_48203/list.htm",
+      "officialRosterUrl": "https://cse.seu.edu.cn/szdw_48203/list.htm",
+      "profileChecked": true,
+      "decision": "include_new_pi",
+      "reason": "官方个人页的研究方向命中 AI/NLP/CV/ML、数据智能、机器人或紧密相关方向，并确认教授/研究员或独立招生资格。",
+      "evidenceUrl": "https://cse.seu.edu.cn/2024/0116/c48203a479042/page.htm",
+      "evidenceExcerpt": "一年级 第一页 <<上一页 下一页>> 尾页 页码 1 / 5 相关链接 东南大学 计算机网络和信息集成教育部重点实验室（东南大学） 新一代人工智能技术与交叉应用教育部重点实验室（东南大学） 江苏省网络与信息安全重点实验室 计算机国家级实验教学示范中心（东南大学） 东南大学计算机科学拔尖学生培养基地 联系方式 通信地址：南京市江宁区东南大学路2号东南大学九龙湖校区 邮政编码：211189 ​办公地点：东南大学九龙湖校区计算机楼 学院微信公众号 Copyright © 东南大学计算机科学与工程学院、软件学"
+    },
+    {
+      "officialId": "223a9bafd7e82502",
+      "name": "周睿婷",
+      "title": "官网列表未标注",
+      "officialSections": [
+        "师资队伍"
+      ],
+      "profileUrl": "https://cse.seu.edu.cn/2024/0117/c48203a479326/page.htm",
+      "portraitUrl": null,
+      "sourcePageUrl": "https://cse.seu.edu.cn/szdw_48203/list.htm",
+      "officialRosterUrl": "https://cse.seu.edu.cn/szdw_48203/list.htm",
+      "profileChecked": true,
+      "decision": "include_new_pi",
+      "reason": "官方个人页的研究方向命中 AI/NLP/CV/ML、数据智能、机器人或紧密相关方向，并确认教授/研究员或独立招生资格。",
+      "evidenceUrl": "https://cse.seu.edu.cn/2024/0117/c48203a479326/page.htm",
+      "evidenceExcerpt": "目 。 第一页 <<上一页 下一页>> 尾页 页码 1 / 9 相关链接 东南大学 计算机网络和信息集成教育部重点实验室（东南大学） 新一代人工智能技术与交叉应用教育部重点实验室（东南大学） 江苏省网络与信息安全重点实验室 计算机国家级实验教学示范中心（东南大学） 东南大学计算机科学拔尖学生培养基地 联系方式 通信地址：南京市江宁区东南大学路2号东南大学九龙湖校区 邮政编码：211189 ​办公地点：东南大学九龙湖校区计算机楼 学院微信公众号 Copyright © 东南大学计算机科学与工程学院、软件学"
+    },
+    {
+      "officialId": "0c89825dee8b1772",
+      "name": "周颖",
+      "title": "官网列表未标注",
+      "officialSections": [
+        "师资队伍"
+      ],
+      "profileUrl": "https://cse.seu.edu.cn/2024/0116/c48203a479070/page.htm",
+      "portraitUrl": null,
+      "sourcePageUrl": "https://cse.seu.edu.cn/szdw_48203/list.htm",
+      "officialRosterUrl": "https://cse.seu.edu.cn/szdw_48203/list.htm",
+      "profileChecked": true,
+      "decision": "excluded_non_pi",
+      "reason": "官方职称为讲师、助理研究员、工程师或同等级非独立岗位，个人页未显示博士/硕士导师或独立招生资格。",
+      "evidenceUrl": "https://cse.seu.edu.cn/2024/0116/c48203a479070/page.htm",
+      "evidenceExcerpt": "关工委工作 工会工作 下载专区 校友天地 校友风采 校友动态 周颖 发布者：周颖 发布时间：2024-05-19 浏览次数： 117 博士，讲师。 目前的研究领域包括软件建模与验证，信息物理融合系统，形式化方法等。 第一页 <<上一页 下一页>> 尾页 页码 1 / 5 相关链接 东南大学 计算机网络和信息集成教育部重点实验室（东南大学） 新一代人工智能技术与交叉应用教育部重点实验室（东南大学） 江苏省网络与信息安全重点实验室 计算机国家级实验教学示范中心（东南大学） 东南大学计算机科学拔尖学生培养"
+    },
+    {
+      "officialId": "5266f76380971665",
+      "name": "张一凡",
+      "title": "官网列表未标注",
+      "officialSections": [
+        "师资队伍"
+      ],
+      "profileUrl": "https://cse.seu.edu.cn/2026/0512/c48203a567452/page.htm",
+      "portraitUrl": null,
+      "sourcePageUrl": "https://cse.seu.edu.cn/szdw_48203/list.htm",
+      "officialRosterUrl": "https://cse.seu.edu.cn/szdw_48203/list.htm",
+      "profileChecked": true,
+      "decision": "include_new_pi",
+      "reason": "官方个人页的研究方向命中 AI/NLP/CV/ML、数据智能、机器人或紧密相关方向，并确认教授/研究员或独立招生资格。",
+      "evidenceUrl": "https://cse.seu.edu.cn/2026/0512/c48203a567452/page.htm",
+      "evidenceExcerpt": "3 浏览次数： 30 张一凡，东南大学计算机科学与工程学院助理研究员。 2026 年于东南大学获得博士学位，导师为张敏灵教授。主要研究方向为机器学习理论，先后围绕多标记学习、可信机器学习的理论问题开展多项工作。相关工作以第一作者身份在 ICML 和 NeurIPS 国际顶级会议上发表 CCF-A 类论文 5 篇，其中 1 篇在机器学习顶会上荣获亮点报告（录用率仅 3% ）。受邀担任 IEEE TPAMI ， IEEE TKDE ， ICML ， NeurIPS 等 CCF-A 类期刊和顶会审稿人。 第一"
+    },
+    {
+      "officialId": "590b4eaccacc76ac",
+      "name": "张宇",
+      "title": "官网列表未标注",
+      "officialSections": [
+        "师资队伍"
+      ],
+      "profileUrl": "https://cse.seu.edu.cn/2024/0117/c48203a479383/page.htm",
+      "portraitUrl": null,
+      "sourcePageUrl": "https://cse.seu.edu.cn/szdw_48203/list.htm",
+      "officialRosterUrl": "https://cse.seu.edu.cn/szdw_48203/list.htm",
+      "profileChecked": true,
+      "decision": "include_new_pi",
+      "reason": "官方个人页的研究方向命中 AI/NLP/CV/ML、数据智能、机器人或紧密相关方向，并确认教授/研究员或独立招生资格。",
+      "evidenceUrl": "https://cse.seu.edu.cn/2024/0117/c48203a479383/page.htm",
+      "evidenceExcerpt": "of Illinois ）及新加坡生物资讯研究所（ BII, A*STAR ）就职，目前是东南大学 PALM 实验室成员 。 主要研究方向为计算机视觉和机器学习，包括大规模图像识别、细粒度图像识别、多标签图像识别、行为图像 / 视频分析、 3D 姿态识别、OCR检测与识别等领域，并在多个计算机视觉顶级会议及期刊 CVPR 、 ECCV 、 TPAMI 、 IJCV 、 TIP 、 PR 等发表过论文。荣获江苏省双创博士、东南大学紫金青年学者称号。目前担任江苏省计算机学会青年工作委员会副主任和《 Front"
+    },
+    {
+      "officialId": "7f31c63693f4503e",
+      "name": "张志政",
+      "title": "官网列表未标注",
+      "officialSections": [
+        "师资队伍"
+      ],
+      "profileUrl": "https://cse.seu.edu.cn/2024/0116/c48203a479082/page.htm",
+      "portraitUrl": null,
+      "sourcePageUrl": "https://cse.seu.edu.cn/szdw_48203/list.htm",
+      "officialRosterUrl": "https://cse.seu.edu.cn/szdw_48203/list.htm",
+      "profileChecked": true,
+      "decision": "excluded_insufficient_scope_evidence",
+      "reason": "官方资料能确认相关研究方向，但可访问页面不足以证明其现任独立 PI 或招生资格；本轮按证据门槛不纳入，而非推断为非 PI。",
+      "evidenceUrl": "https://cse.seu.edu.cn/2024/0116/c48203a479082/page.htm",
+      "evidenceExcerpt": "237 第一页 <<上一页 下一页>> 尾页 页码 1 / 9 相关链接 东南大学 计算机网络和信息集成教育部重点实验室（东南大学） 新一代人工智能技术与交叉应用教育部重点实验室（东南大学） 江苏省网络与信息安全重点实验室 计算机国家级实验教学示范中心（东南大学） 东南大学计算机科学拔尖学生培养基地 联系方式 通信地址：南京市江宁区东南大学路2号东南大学九龙湖校区 邮政编码：211189 ​办公地点：东南大学九龙湖校区计算机楼 学院微信公众号 Copyright © 东南大学计算机科学与工程学院、软件学"
+    },
+    {
+      "officialId": "4cfddaf29a9bbf7b",
+      "name": "张敏灵",
+      "title": "官网列表未标注",
+      "officialSections": [
+        "师资队伍"
+      ],
+      "profileUrl": "https://cse.seu.edu.cn/2024/0116/c48203a479086/page.htm",
+      "portraitUrl": null,
+      "sourcePageUrl": "https://cse.seu.edu.cn/szdw_48203/list.htm",
+      "officialRosterUrl": "https://cse.seu.edu.cn/szdw_48203/list.htm",
+      "profileChecked": true,
+      "decision": "excluded_insufficient_scope_evidence",
+      "reason": "官方资料能确认相关研究方向，但可访问页面不足以证明其现任独立 PI 或招生资格；本轮按证据门槛不纳入，而非推断为非 PI。",
+      "evidenceUrl": "https://cse.seu.edu.cn/2024/0116/c48203a479086/page.htm",
+      "evidenceExcerpt": "200 第一页 <<上一页 下一页>> 尾页 页码 1 / 9 相关链接 东南大学 计算机网络和信息集成教育部重点实验室（东南大学） 新一代人工智能技术与交叉应用教育部重点实验室（东南大学） 江苏省网络与信息安全重点实验室 计算机国家级实验教学示范中心（东南大学） 东南大学计算机科学拔尖学生培养基地 联系方式 通信地址：南京市江宁区东南大学路2号东南大学九龙湖校区 邮政编码：211189 ​办公地点：东南大学九龙湖校区计算机楼 学院微信公众号 Copyright © 东南大学计算机科学与工程学院、软件学"
+    },
+    {
+      "officialId": "7e2266f89d56bcd9",
+      "name": "张柏礼",
+      "title": "官网列表未标注",
+      "officialSections": [
+        "师资队伍"
+      ],
+      "profileUrl": "https://cse.seu.edu.cn/2024/0117/c48203a479429/page.htm",
+      "portraitUrl": null,
+      "sourcePageUrl": "https://cse.seu.edu.cn/szdw_48203/list.htm",
+      "officialRosterUrl": "https://cse.seu.edu.cn/szdw_48203/list.htm",
+      "profileChecked": true,
+      "decision": "include_new_pi",
+      "reason": "官方个人页的研究方向命中 AI/NLP/CV/ML、数据智能、机器人或紧密相关方向，并确认教授/研究员或独立招生资格。",
+      "evidenceUrl": "https://cse.seu.edu.cn/2024/0117/c48203a479429/page.htm",
+      "evidenceExcerpt": "了多年 SCADA/EMS 及决策支持方面的研究工作 , 2000 年— 2005 年在东南大学计算机系攻读硕士、博士学位期间 , 一直从事数据库 / 数据仓库、数据挖掘、决策支持等方面的理论和应用研究 . 2014 年前往英国爱丁堡大学樊文飞教授课题组访问研究，专门从事行业大数据分析及人工智能应用方面研究。 第一页 <<上一页 下一页>> 尾页 页码 1 / 9 相关链接 东南大学 计算机网络和信息集成教育部重点实验室（东南大学） 新一代人工智能技术与交叉应用教育部重点实验室（东南大学） 江苏省网络"
+    },
+    {
+      "officialId": "b9c5f63f8a8f8cc2",
+      "name": "张煜东",
+      "title": "官网列表未标注",
+      "officialSections": [
+        "师资队伍"
+      ],
+      "profileUrl": "https://cse.seu.edu.cn/2024/0117/c48203a479485/page.htm",
+      "portraitUrl": null,
+      "sourcePageUrl": "https://cse.seu.edu.cn/szdw_48203/list.htm",
+      "officialRosterUrl": "https://cse.seu.edu.cn/szdw_48203/list.htm",
+      "profileChecked": true,
+      "decision": "include_new_pi",
+      "reason": "官方个人页的研究方向命中 AI/NLP/CV/ML、数据智能、机器人或紧密相关方向，并确认教授/研究员或独立招生资格。",
+      "evidenceUrl": "https://cse.seu.edu.cn/2024/0117/c48203a479485/page.htm",
+      "evidenceExcerpt": "or. 第一页 <<上一页 下一页>> 尾页 页码 1 / 9 相关链接 东南大学 计算机网络和信息集成教育部重点实验室（东南大学） 新一代人工智能技术与交叉应用教育部重点实验室（东南大学） 江苏省网络与信息安全重点实验室 计算机国家级实验教学示范中心（东南大学） 东南大学计算机科学拔尖学生培养基地 联系方式 通信地址：南京市江宁区东南大学路2号东南大学九龙湖校区 邮政编码：211189 ​办公地点：东南大学九龙湖校区计算机楼 学院微信公众号 Copyright © 东南大学计算机科学与工程学院、软件学"
+    },
+    {
+      "officialId": "3b1cd5e77b939f2e",
+      "name": "张祥",
+      "title": "官网列表未标注",
+      "officialSections": [
+        "师资队伍"
+      ],
+      "profileUrl": "https://cse.seu.edu.cn/2024/0117/c48203a479373/page.htm",
+      "portraitUrl": null,
+      "sourcePageUrl": "https://cse.seu.edu.cn/szdw_48203/list.htm",
+      "officialRosterUrl": "https://cse.seu.edu.cn/szdw_48203/list.htm",
+      "profileChecked": true,
+      "decision": "include_new_pi",
+      "reason": "官方个人页的研究方向命中 AI/NLP/CV/ML、数据智能、机器人或紧密相关方向，并确认教授/研究员或独立招生资格。",
+      "evidenceUrl": "https://cse.seu.edu.cn/2024/0117/c48203a479373/page.htm",
+      "evidenceExcerpt": "克内尔大学 进行了为期一年的访学。 在访学期间，与巴克内尔大学计算机系的孟宪农教授一同探讨了信息检索领域的若干问题。 科研 ：主要研究领域为人工智能，包括语义网、数据挖掘、自然语言处理。目前的研究重点是将人工智能技术（尤其是知识图谱技术）应用于大数据环境下生物医学和商业智能领域。 教学 ：在东南大学软件学院向本科二年级学生讲授 《面向对象程序设计II》, 并且在东南大学苏州研究院和东南大学蒙纳士大学联合研究生院讲授《万维网科学》和《信息检索》课程。 实验室 ：除了日常的教学和科研外，本人在和软件学院建立"
+    },
+    {
+      "officialId": "c0dd9f908215a9d4",
+      "name": "张竞慧",
+      "title": "官网列表未标注",
+      "officialSections": [
+        "师资队伍"
+      ],
+      "profileUrl": "https://cse.seu.edu.cn/2024/0116/c48203a479014/page.htm",
+      "portraitUrl": null,
+      "sourcePageUrl": "https://cse.seu.edu.cn/szdw_48203/list.htm",
+      "officialRosterUrl": "https://cse.seu.edu.cn/szdw_48203/list.htm",
+      "profileChecked": true,
+      "decision": "excluded_insufficient_scope_evidence",
+      "reason": "官方资料能确认相关研究方向，但可访问页面不足以证明其现任独立 PI 或招生资格；本轮按证据门槛不纳入，而非推断为非 PI。",
+      "evidenceUrl": "https://cse.seu.edu.cn/2024/0116/c48203a479014/page.htm",
+      "evidenceExcerpt": "756 第一页 <<上一页 下一页>> 尾页 页码 1 / 9 相关链接 东南大学 计算机网络和信息集成教育部重点实验室（东南大学） 新一代人工智能技术与交叉应用教育部重点实验室（东南大学） 江苏省网络与信息安全重点实验室 计算机国家级实验教学示范中心（东南大学） 东南大学计算机科学拔尖学生培养基地 联系方式 通信地址：南京市江宁区东南大学路2号东南大学九龙湖校区 邮政编码：211189 ​办公地点：东南大学九龙湖校区计算机楼 学院微信公众号 Copyright © 东南大学计算机科学与工程学院、软件学"
+    },
+    {
+      "officialId": "cb086bae55abd33f",
+      "name": "张航",
+      "title": "官网列表未标注",
+      "officialSections": [
+        "师资队伍"
+      ],
+      "profileUrl": "https://cse.seu.edu.cn/2025/0916/c48203a539865/page.htm",
+      "portraitUrl": null,
+      "sourcePageUrl": "https://cse.seu.edu.cn/szdw_48203/list.htm",
+      "officialRosterUrl": "https://cse.seu.edu.cn/szdw_48203/list.htm",
+      "profileChecked": true,
+      "decision": "excluded_insufficient_scope_evidence",
+      "reason": "官方资料能确认相关研究方向，但可访问页面不足以证明其现任独立 PI 或招生资格；本轮按证据门槛不纳入，而非推断为非 PI。",
+      "evidenceUrl": "https://cse.seu.edu.cn/2025/0916/c48203a539865/page.htm",
+      "evidenceExcerpt": "57 第一页 <<上一页 下一页>> 尾页 页码 1 / 5 相关链接 东南大学 计算机网络和信息集成教育部重点实验室（东南大学） 新一代人工智能技术与交叉应用教育部重点实验室（东南大学） 江苏省网络与信息安全重点实验室 计算机国家级实验教学示范中心（东南大学） 东南大学计算机科学拔尖学生培养基地 联系方式 通信地址：南京市江宁区东南大学路2号东南大学九龙湖校区 邮政编码：211189 ​办公地点：东南大学九龙湖校区计算机楼 学院微信公众号 Copyright © 东南大学计算机科学与工程学院、软件学"
+    },
+    {
+      "officialId": "c4f3f6352f8d5533",
+      "name": "张谊坤",
+      "title": "官网列表未标注",
+      "officialSections": [
+        "师资队伍"
+      ],
+      "profileUrl": "https://cse.seu.edu.cn/2024/0117/c48203a479352/page.htm",
+      "portraitUrl": null,
+      "sourcePageUrl": "https://cse.seu.edu.cn/szdw_48203/list.htm",
+      "officialRosterUrl": "https://cse.seu.edu.cn/szdw_48203/list.htm",
+      "profileChecked": true,
+      "decision": "include_new_pi",
+      "reason": "官方个人页的研究方向命中 AI/NLP/CV/ML、数据智能、机器人或紧密相关方向，并确认教授/研究员或独立招生资格。",
+      "evidenceUrl": "https://cse.seu.edu.cn/2024/0117/c48203a479352/page.htm",
+      "evidenceExcerpt": "南大学计算机科学与工程学院获得博士学位， 师从 陈阳教授 ，同年加入东南大学计算机科学与工程 学院影像科学与 技术实验室工作。研究方向为智能医学图像重建、处理与分析，在医学影像领域国际知名期刊/会议累计发表论文60余篇（其中第一作者 / 通讯作者论文30余 篇）。受理/授权专利10余项。担任IEEE TMI/JBHI/TCI、IF、EAAI、PR、CMIG、CMPB、PMB、MP等领域内权威期刊审稿人。 招生需求：硕士生3-5名/年。 欢迎真正热爱科研且喜欢探索，对智能医学影像、图像处理与分析、计算机视"
+    },
+    {
+      "officialId": "de2ed3a3b2a5f8a2",
+      "name": "张靖阳",
+      "title": "官网列表未标注",
+      "officialSections": [
+        "师资队伍"
+      ],
+      "profileUrl": "https://cse.seu.edu.cn/2024/0923/c48203a503741/page.htm",
+      "portraitUrl": null,
+      "sourcePageUrl": "https://cse.seu.edu.cn/szdw_48203/list.htm",
+      "officialRosterUrl": "https://cse.seu.edu.cn/szdw_48203/list.htm",
+      "profileChecked": true,
+      "decision": "include_new_pi",
+      "reason": "官方个人页的研究方向命中 AI/NLP/CV/ML、数据智能、机器人或紧密相关方向，并确认教授/研究员或独立招生资格。",
+      "evidenceUrl": "https://cse.seu.edu.cn/2024/0923/c48203a503741/page.htm",
+      "evidenceExcerpt": "2016年至2021年于上海交通大学获得博士学位，2021年至2024年先后在上海科技大学和香港中文大学担任博士后研究员。近期研究方向为 ：视觉语言大模型和智能体， 医疗多模态基础大模型 ，脑影像智能分析和脑机接口，人工智能辅助药物设计 等。 在医学影像分析领域顶刊和顶会TMI，MIA，MICCAI等以 第一/通讯作者 身份发表论文二十余篇 ，长期担任多个国际著名期刊会议的审稿人、编委及客座主编。 招生： 1. 招收 2027级 推免研究生 （ 名额充足 ） ，欢迎大家和我联系报名！ 2. 欢迎对"
+    },
+    {
+      "officialId": "fc39094d5e7ea453",
+      "name": "扎法",
+      "title": "官网列表未标注",
+      "officialSections": [
+        "师资队伍"
+      ],
+      "profileUrl": "https://cse.seu.edu.cn/2025/0911/c48203a539308/page.htm",
+      "portraitUrl": null,
+      "sourcePageUrl": "https://cse.seu.edu.cn/szdw_48203/list.htm",
+      "officialRosterUrl": "https://cse.seu.edu.cn/szdw_48203/list.htm",
+      "profileChecked": true,
+      "decision": "excluded_insufficient_scope_evidence",
+      "reason": "官方资料能确认相关研究方向，但可访问页面不足以证明其现任独立 PI 或招生资格；本轮按证据门槛不纳入，而非推断为非 PI。",
+      "evidenceUrl": "https://cse.seu.edu.cn/2025/0911/c48203a539308/page.htm",
+      "evidenceExcerpt": "41 第一页 <<上一页 下一页>> 尾页 页码 1 / 6 相关链接 东南大学 计算机网络和信息集成教育部重点实验室（东南大学） 新一代人工智能技术与交叉应用教育部重点实验室（东南大学） 江苏省网络与信息安全重点实验室 计算机国家级实验教学示范中心（东南大学） 东南大学计算机科学拔尖学生培养基地 联系方式 通信地址：南京市江宁区东南大学路2号东南大学九龙湖校区 邮政编码：211189 ​办公地点：东南大学九龙湖校区计算机楼 学院微信公众号 Copyright © 东南大学计算机科学与工程学院、软件学"
+    },
+    {
+      "officialId": "fc9e9d41ef8881ce",
+      "name": "朱同鑫",
+      "title": "官网列表未标注",
+      "officialSections": [
+        "师资队伍"
+      ],
+      "profileUrl": "https://cse.seu.edu.cn/2024/0117/c48203a479239/page.htm",
+      "portraitUrl": null,
+      "sourcePageUrl": "https://cse.seu.edu.cn/szdw_48203/list.htm",
+      "officialRosterUrl": "https://cse.seu.edu.cn/szdw_48203/list.htm",
+      "profileChecked": true,
+      "decision": "include_new_pi",
+      "reason": "官方个人页的研究方向命中 AI/NLP/CV/ML、数据智能、机器人或紧密相关方向，并确认教授/研究员或独立招生资格。",
+      "evidenceUrl": "https://cse.seu.edu.cn/2024/0117/c48203a479239/page.htm",
+      "evidenceExcerpt": "文奖。 第一页 <<上一页 下一页>> 尾页 页码 1 / 9 相关链接 东南大学 计算机网络和信息集成教育部重点实验室（东南大学） 新一代人工智能技术与交叉应用教育部重点实验室（东南大学） 江苏省网络与信息安全重点实验室 计算机国家级实验教学示范中心（东南大学） 东南大学计算机科学拔尖学生培养基地 联系方式 通信地址：南京市江宁区东南大学路2号东南大学九龙湖校区 邮政编码：211189 ​办公地点：东南大学九龙湖校区计算机楼 学院微信公众号 Copyright © 东南大学计算机科学与工程学院、软件学"
+    },
+    {
+      "officialId": "06c40eb85ced70b3",
+      "name": "朱士鹏",
+      "title": "官网列表未标注",
+      "officialSections": [
+        "师资队伍"
+      ],
+      "profileUrl": "https://cse.seu.edu.cn/2025/0811/c48203a536229/page.htm",
+      "portraitUrl": null,
+      "sourcePageUrl": "https://cse.seu.edu.cn/szdw_48203/list.htm",
+      "officialRosterUrl": "https://cse.seu.edu.cn/szdw_48203/list.htm",
+      "profileChecked": true,
+      "decision": "include_new_pi",
+      "reason": "官方个人页的研究方向命中 AI/NLP/CV/ML、数据智能、机器人或紧密相关方向，并确认教授/研究员或独立招生资格。",
+      "evidenceUrl": "https://cse.seu.edu.cn/2025/0811/c48203a536229/page.htm",
+      "evidenceExcerpt": "发布者：朱士鹏 发布时间：2025-09-19 浏览次数： 67 朱士鹏， 东南大学计算机科学与工程学院助理研究员，研究方向包括多模态学习、计算机视觉等，研究成果发表于AAAI、ACM MM等国际会议与期刊。曾获ACM MM最佳论文提名，主持国家自然科学基金青年学生基础研究项目（博士研究生）等。更多信息请访问我的 个人主页 。 第一页 <<上一页 下一页>> 尾页 页码 1 / 5 相关链接 东南大学 计算机网络和信息集成教育部重点实验室（东南大学） 新一代人工智能技术与交叉应用教育部重点实验室（东南大学"
+    },
+    {
+      "officialId": "cab733a6559502d4",
+      "name": "朱夏",
+      "title": "官网列表未标注",
+      "officialSections": [
+        "师资队伍"
+      ],
+      "profileUrl": "https://cse.seu.edu.cn/2024/0117/c48203a479433/page.htm",
+      "portraitUrl": null,
+      "sourcePageUrl": "https://cse.seu.edu.cn/szdw_48203/list.htm",
+      "officialRosterUrl": "https://cse.seu.edu.cn/szdw_48203/list.htm",
+      "profileChecked": true,
+      "decision": "include_new_pi",
+      "reason": "官方个人页的研究方向命中 AI/NLP/CV/ML、数据智能、机器人或紧密相关方向，并确认教授/研究员或独立招生资格。",
+      "evidenceUrl": "https://cse.seu.edu.cn/2024/0117/c48203a479433/page.htm",
+      "evidenceExcerpt": "朱夏，女，博士，副教授、硕导、CCF（中国计算机学会）会员，现任协同计算、服务计算、 智能仿真与优化等专委会委员， 曾任计算机科学与工程学院数据科学教工党支部书记。 第一页 <<上一页 下一页>> 尾页 页码 1 / 9 相关链接 东南大学 计算机网络和信息集成教育部重点实验室（东南大学） 新一代人工智能技术与交叉应用教育部重点实验室（东南大学） 江苏省网络与信息安全重点实验室 计算机国家级实验教学示范中心（东南大学） 东南大学计算机科学拔尖学生培养基地 联系方式 通信地址：南京市江宁区东南大学路2号东"
+    },
+    {
+      "officialId": "5b27a7a2b2b864f0",
+      "name": "朱海林",
+      "title": "官网列表未标注",
+      "officialSections": [
+        "师资队伍"
+      ],
+      "profileUrl": "https://cse.seu.edu.cn/2024/0116/c48203a479074/page.htm",
+      "portraitUrl": null,
+      "sourcePageUrl": "https://cse.seu.edu.cn/szdw_48203/list.htm",
+      "officialRosterUrl": "https://cse.seu.edu.cn/szdw_48203/list.htm",
+      "profileChecked": true,
+      "decision": "excluded_insufficient_scope_evidence",
+      "reason": "官方资料能确认相关研究方向，但可访问页面不足以证明其现任独立 PI 或招生资格；本轮按证据门槛不纳入，而非推断为非 PI。",
+      "evidenceUrl": "https://cse.seu.edu.cn/2024/0116/c48203a479074/page.htm",
+      "evidenceExcerpt": "92 第一页 <<上一页 下一页>> 尾页 页码 1 / 5 相关链接 东南大学 计算机网络和信息集成教育部重点实验室（东南大学） 新一代人工智能技术与交叉应用教育部重点实验室（东南大学） 江苏省网络与信息安全重点实验室 计算机国家级实验教学示范中心（东南大学） 东南大学计算机科学拔尖学生培养基地 联系方式 通信地址：南京市江宁区东南大学路2号东南大学九龙湖校区 邮政编码：211189 ​办公地点：东南大学九龙湖校区计算机楼 学院微信公众号 Copyright © 东南大学计算机科学与工程学院、软件学"
+    },
+    {
+      "officialId": "42fa567f3198c0f0",
+      "name": "章品正",
+      "title": "官网列表未标注",
+      "officialSections": [
+        "师资队伍"
+      ],
+      "profileUrl": "https://cse.seu.edu.cn/2024/0116/c48203a479088/page.htm",
+      "portraitUrl": null,
+      "sourcePageUrl": "https://cse.seu.edu.cn/szdw_48203/list.htm",
+      "officialRosterUrl": "https://cse.seu.edu.cn/szdw_48203/list.htm",
+      "profileChecked": true,
+      "decision": "excluded_insufficient_scope_evidence",
+      "reason": "官方资料能确认相关研究方向，但可访问页面不足以证明其现任独立 PI 或招生资格；本轮按证据门槛不纳入，而非推断为非 PI。",
+      "evidenceUrl": "https://cse.seu.edu.cn/2024/0116/c48203a479088/page.htm",
+      "evidenceExcerpt": "78 第一页 <<上一页 下一页>> 尾页 页码 1 / 5 相关链接 东南大学 计算机网络和信息集成教育部重点实验室（东南大学） 新一代人工智能技术与交叉应用教育部重点实验室（东南大学） 江苏省网络与信息安全重点实验室 计算机国家级实验教学示范中心（东南大学） 东南大学计算机科学拔尖学生培养基地 联系方式 通信地址：南京市江宁区东南大学路2号东南大学九龙湖校区 邮政编码：211189 ​办公地点：东南大学九龙湖校区计算机楼 学院微信公众号 Copyright © 东南大学计算机科学与工程学院、软件学"
+    },
+    {
+      "officialId": "932a82972d14944d",
+      "name": "赵永美",
+      "title": "官网列表未标注",
+      "officialSections": [
+        "师资队伍"
+      ],
+      "profileUrl": "https://cse.seu.edu.cn/2024/0116/c48203a479115/page.htm",
+      "portraitUrl": null,
+      "sourcePageUrl": "https://cse.seu.edu.cn/szdw_48203/list.htm",
+      "officialRosterUrl": "https://cse.seu.edu.cn/szdw_48203/list.htm",
+      "profileChecked": true,
+      "decision": "excluded_insufficient_scope_evidence",
+      "reason": "官方资料能确认相关研究方向，但可访问页面不足以证明其现任独立 PI 或招生资格；本轮按证据门槛不纳入，而非推断为非 PI。",
+      "evidenceUrl": "https://cse.seu.edu.cn/2024/0116/c48203a479115/page.htm",
+      "evidenceExcerpt": "42 第一页 <<上一页 下一页>> 尾页 页码 1 / 5 相关链接 东南大学 计算机网络和信息集成教育部重点实验室（东南大学） 新一代人工智能技术与交叉应用教育部重点实验室（东南大学） 江苏省网络与信息安全重点实验室 计算机国家级实验教学示范中心（东南大学） 东南大学计算机科学拔尖学生培养基地 联系方式 通信地址：南京市江宁区东南大学路2号东南大学九龙湖校区 邮政编码：211189 ​办公地点：东南大学九龙湖校区计算机楼 学院微信公众号 Copyright © 东南大学计算机科学与工程学院、软件学"
+    },
+    {
+      "officialId": "b1ad6ca18ab02da5",
+      "name": "郑鹏",
+      "title": "官网列表未标注",
+      "officialSections": [
+        "师资队伍"
+      ],
+      "profileUrl": "https://cse.seu.edu.cn/2025/0311/c48203a521247/page.htm",
+      "portraitUrl": null,
+      "sourcePageUrl": "https://cse.seu.edu.cn/szdw_48203/list.htm",
+      "officialRosterUrl": "https://cse.seu.edu.cn/szdw_48203/list.htm",
+      "profileChecked": true,
+      "decision": "excluded_insufficient_scope_evidence",
+      "reason": "官方资料能确认相关研究方向，但可访问页面不足以证明其现任独立 PI 或招生资格；本轮按证据门槛不纳入，而非推断为非 PI。",
+      "evidenceUrl": "https://cse.seu.edu.cn/2025/0311/c48203a521247/page.htm",
+      "evidenceExcerpt": "47 第一页 <<上一页 下一页>> 尾页 页码 1 / 5 相关链接 东南大学 计算机网络和信息集成教育部重点实验室（东南大学） 新一代人工智能技术与交叉应用教育部重点实验室（东南大学） 江苏省网络与信息安全重点实验室 计算机国家级实验教学示范中心（东南大学） 东南大学计算机科学拔尖学生培养基地 联系方式 通信地址：南京市江宁区东南大学路2号东南大学九龙湖校区 邮政编码：211189 ​办公地点：东南大学九龙湖校区计算机楼 学院微信公众号 Copyright © 东南大学计算机科学与工程学院、软件学"
+    }
+  ]
+}

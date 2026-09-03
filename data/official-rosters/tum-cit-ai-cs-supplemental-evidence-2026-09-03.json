@@ -1,0 +1,868 @@
+{
+  "schemaVersion": 1,
+  "snapshotAt": "2026-09-03",
+  "purpose": "Frozen first-party evidence used to close the pending TUM CIT tail without depending on mutable live HTML during decision rebuilds",
+  "sources": [
+    {
+      "label": "TUM Department of Computer Science — Professors",
+      "url": "https://www.cs.cit.tum.de/cs/personen/professuren/",
+      "sourceFile": "/private/tmp/tum-cs-professors.html",
+      "sha256": "b88659fcb8f1189c58d57aa0d7b6ed40286195085840bcec3a9c291b74b75b66"
+    },
+    {
+      "label": "TUM CIT — Chairs and Professorships",
+      "url": "https://www.cit.tum.de/en/cit/school/organization/chairs-professorships/",
+      "sourceFile": "/private/tmp/tum-cit-chairs.html",
+      "sha256": "e5f4fcbdcc2be68bd47dfeeeb11a7db4bbfdc1d2cc65c2c7f64da6ec0370463f"
+    }
+  ],
+  "computerScienceProfessorRosterMatches": [
+    "Reto Achermann",
+    "Maribel Acosta Deibe",
+    "Zeynep Akata-Schulz",
+    "Susanne Albers",
+    "Hartwig Anzt",
+    "Michael Bader",
+    "Stefan Bauer",
+    "Pramod Bhatotia",
+    "Martin Bichler",
+    "Felix Brandt",
+    "Florian Bruse",
+    "Hans-Joachim Bungartz",
+    "Chunyang Chen",
+    "Angela Dai",
+    "Felix Dietrich",
+    "Francisco Javier Esparza Estaun",
+    "Seyed Jalal Etesami",
+    "Bernd Finkbeiner",
+    "Alexander Fraser",
+    "Julien Gagneur",
+    "Debarghya Ghoshdastidar",
+    "Jana Giceva Makreshanska",
+    "Matthias Grabmair",
+    "Jens Großklags",
+    "Stephan Günnemann",
+    "Dirk Heckmann",
+    "Alexandros Hollender",
+    "Stefanie Jegelka",
+    "Niki Kilbertus",
+    "Stephen Kobourov",
+    "Stephan Krusche",
+    "Viktor Leis",
+    "Florian Matthes",
+    "Christian Mendl",
+    "Nassir Navab",
+    "Thomas Neumann",
+    "Matthias Nießner",
+    "Johanna Pirker",
+    "Alexander Pretschner",
+    "Luise Pufahl",
+    "Harald Räcke",
+    "Stefanie Rinderle-Ma",
+    "Burkhard Rost",
+    "Daniel Rückert",
+    "Julia Schnabel",
+    "V. Spors",
+    "Andrea Stocco",
+    "Ali Sunyaev",
+    "Nils Thürey",
+    "Mario Trapp",
+    "Stefan Wagner",
+    "Ingo Weber",
+    "Sebastian Werner",
+    "Rüdiger Westermann",
+    "Florian Zuleger"
+  ],
+  "chairs": [
+    {
+      "chairTitle": "3D Artificial Intelligence",
+      "professor": "Angela Dai",
+      "href": "https://www.3dunderstanding.org/"
+    },
+    {
+      "chairTitle": "AI for Scientific Modeling",
+      "professor": "Niki Kilbertus",
+      "href": null
+    },
+    {
+      "chairTitle": "AI Planning in Dynamic Environments",
+      "professor": "Majid Khadiv",
+      "href": "https://www.ce.cit.tum.de/en/aipd/"
+    },
+    {
+      "chairTitle": "AI Processor Design",
+      "professor": "Hussam Amrouch",
+      "href": "https://www.ce.cit.tum.de/en/aipro/welcome/"
+    },
+    {
+      "chairTitle": "Algebraic Geometry",
+      "professor": "Christian Liedtke",
+      "href": "https://www.math.cit.tum.de/en/algebra/home/"
+    },
+    {
+      "chairTitle": "Algorithmic Game Theory",
+      "professor": "Felix Brandt",
+      "href": "https://www.cs.cit.tum.de/dss"
+    },
+    {
+      "chairTitle": "Algorithmic Machine Learning & Explainable AI",
+      "professor": "Stefan Bauer",
+      "href": "https://www.professoren.tum.de/en/bauer-stefan"
+    },
+    {
+      "chairTitle": "Algorithmic Algebra",
+      "professor": "Gregor Kemper",
+      "href": "https://www.math.cit.tum.de/en/algebra/home/"
+    },
+    {
+      "chairTitle": "Algorithms and Complexity",
+      "professor": "Susanne Albers",
+      "href": "https://www.cs.cit.tum.de/ac/"
+    },
+    {
+      "chairTitle": "Analysis and Modelling",
+      "professor": "Johannes Zimmer",
+      "href": "https://www.math.cit.tum.de/en/math/research/groups/analysis-and-mathematical-biology/"
+    },
+    {
+      "chairTitle": "Angewandte Computergestützte Mathematik",
+      "professor": "Tim Nikolai Hoffmann",
+      "href": "https://www.math.cit.tum.de/en/math/research/groups/geometry-and-topology/discrete-differential-geometry/"
+    },
+    {
+      "chairTitle": "Applied Algebra",
+      "professor": "Violetta Weger",
+      "href": "https://user.math.uzh.ch/weger/"
+    },
+    {
+      "chairTitle": "Applied Education Technologies",
+      "professor": "Stephan Krusche",
+      "href": "https://ase.cit.tum.de/people/krusche/"
+    },
+    {
+      "chairTitle": "Applied Mathematics in Ecology and Medicine",
+      "professor": "Johannes Müller",
+      "href": "https://www.math.cit.tum.de/en/math/research/groups/analysis-and-mathematical-biology/"
+    },
+    {
+      "chairTitle": "Applied Numerical Analysis",
+      "professor": "Massimo Fornasier",
+      "href": "https://www.math.cit.tum.de/en/math/research/groups/data-science/"
+    },
+    {
+      "chairTitle": "Applied and Computational Topology",
+      "professor": "Ulrich Bauer",
+      "href": "https://www.math.cit.tum.de/en/math/research/groups/geometry-and-topology/applied-and-computational-topology/"
+    },
+    {
+      "chairTitle": "Architecture of Parallel and Distributed Systems",
+      "professor": "Michael Gerndt",
+      "href": "https://www.ce.cit.tum.de/en/caps/homepage/"
+    },
+    {
+      "chairTitle": "Artificial Intelligence in Healthcare and Medicine",
+      "professor": "Daniel Rückert",
+      "href": "https://aim-lab.io/"
+    },
+    {
+      "chairTitle": "Audio Information Processing",
+      "professor": "Bernhard Seeber",
+      "href": "https://www.ce.cit.tum.de/en/aip/home/"
+    },
+    {
+      "chairTitle": "Augmented Reality",
+      "professor": "David Plecher",
+      "href": "https://www.cs.cit.tum.de/en/far/start/"
+    },
+    {
+      "chairTitle": "Automatic Control Engineering",
+      "professor": "Martin Buss",
+      "href": "https://www.ce.cit.tum.de/en/lsr/home/"
+    },
+    {
+      "chairTitle": "Bio-inspired Information Processing",
+      "professor": "Werner Hemmert",
+      "href": "https://www.ce.cit.tum.de/en/bai/home/"
+    },
+    {
+      "chairTitle": "Bioinformatics",
+      "professor": "Burkhard Rost",
+      "href": "https://www.cs.cit.tum.de/en/bio/home/"
+    },
+    {
+      "chairTitle": "Biomedical Electronics",
+      "professor": "Oliver Hayden",
+      "href": "https://www.ee.cit.tum.de/en/lbe/home/"
+    },
+    {
+      "chairTitle": "Biostatistik",
+      "professor": "Donna Ankerst",
+      "href": "https://www.math.cit.tum.de/en/math/people/professors/ankerst-donna/"
+    },
+    {
+      "chairTitle": "Chip-Based Magnetic Sensor Technology",
+      "professor": "Markus Becherer",
+      "href": "https://www.ee.cit.tum.de/nmd/startseite"
+    },
+    {
+      "chairTitle": "Circuit Design",
+      "professor": "Ralf Brederlow",
+      "href": "https://www.ee.cit.tum.de/en/lse/home/"
+    },
+    {
+      "chairTitle": "Coding and Cryptography",
+      "professor": "Antonia Wachter-Zeh",
+      "href": "https://www.ce.cit.tum.de/en/lnt/research/associate-professorship-of-coding-and-cryptography/"
+    },
+    {
+      "chairTitle": "Cognitive Systems",
+      "professor": "Gordon Cheng",
+      "href": "https://www.ce.cit.tum.de/ics/"
+    },
+    {
+      "chairTitle": "Communication Networks",
+      "professor": "Wolfgang Kellerer",
+      "href": "https://www.ce.cit.tum.de/en/lkn/home/"
+    },
+    {
+      "chairTitle": "Communications Engineering",
+      "professor": "Gerhard Kramer",
+      "href": "https://www.ce.cit.tum.de/en/lnt/research/chair-of-communications-engineering/"
+    },
+    {
+      "chairTitle": "Computational Imaging and AI in Medicine",
+      "professor": "Julia Schnabel",
+      "href": "https://compai-lab.github.io/"
+    },
+    {
+      "chairTitle": "Computational Mathematics",
+      "professor": "Hartwig Anzt",
+      "href": "https://www.cs.cit.tum.de/coma"
+    },
+    {
+      "chairTitle": "Computational Molecular Medicine",
+      "professor": "Julien Gagneur",
+      "href": "https://www.cs.cit.tum.de/cmm/"
+    },
+    {
+      "chairTitle": "Computational Photonics",
+      "professor": "Christian Jirauschek",
+      "href": "http://www.ee.cit.tum.de/cph"
+    },
+    {
+      "chairTitle": "Computer Aided Medical Procedures",
+      "professor": "Nassir Navab",
+      "href": "https://www.cs.cit.tum.de/camp/"
+    },
+    {
+      "chairTitle": "Computer Architecture & Operating Systems, Campus Heilbronn",
+      "professor": "Carsten Trinitis",
+      "href": "https://www.ce.cit.tum.de/en/ce/research/professorships/hncaos/"
+    },
+    {
+      "chairTitle": "Computer Architecture and Parallel Systems",
+      "professor": "Martin Schulz",
+      "href": "https://www.ce.cit.tum.de/en/caps/homepage/"
+    },
+    {
+      "chairTitle": "Computer Graphics and Visualization",
+      "professor": "Rüdiger Westermann",
+      "href": "https://www.cs.cit.tum.de/cg/"
+    },
+    {
+      "chairTitle": "Computer Vision and Artificial Intelligence",
+      "professor": "Daniel Cremers",
+      "href": "https://vision.in.tum.de/"
+    },
+    {
+      "chairTitle": "Connected Mobility",
+      "professor": "Jörg Ott",
+      "href": "https://www.ce.cit.tum.de/cm/"
+    },
+    {
+      "chairTitle": "Control and Manipulation of Microscale Living Objects",
+      "professor": "Ghulam Destgeer",
+      "href": "http://www.ee.cit.tum.de/mml"
+    },
+    {
+      "chairTitle": "Cryptography",
+      "professor": "Lorenz Panny",
+      "href": "https://www.ias.tum.de/ias/research-areas/communication-and-information/cryptography/"
+    },
+    {
+      "chairTitle": "Cyber Physical Systems",
+      "professor": "Amr Abdelhafez Alanwar",
+      "href": "https://www.ce.cit.tum.de/en/ce/research/professorships/hncps/"
+    },
+    {
+      "chairTitle": "Cyber Physical Systems",
+      "professor": "Matthias Althoff",
+      "href": "https://www.ce.cit.tum.de/en/cps/home/"
+    },
+    {
+      "chairTitle": "Cyber Trust",
+      "professor": "Jens Großklags",
+      "href": "https://www.cs.cit.tum.de/ct/"
+    },
+    {
+      "chairTitle": "Data Analytics & Statistics",
+      "professor": "Alexander Fraser",
+      "href": "http://www.cs.cit.tum.de/dast/"
+    },
+    {
+      "chairTitle": "Data Analytics and Machine Learning",
+      "professor": "Stephan Günnemann",
+      "href": "https://www.cs.cit.tum.de/en/daml/home/"
+    },
+    {
+      "chairTitle": "Data Engineering",
+      "professor": "Maribel Acosta Deibe",
+      "href": "https://www.cs.cit.tum.de/cde/homepage/"
+    },
+    {
+      "chairTitle": "Data Processing",
+      "professor": "Klaus Diepold",
+      "href": "https://www.ce.cit.tum.de/en/ldv/homepage/"
+    },
+    {
+      "chairTitle": "Data Science and Engineering",
+      "professor": "Thomas Neumann",
+      "href": "https://db.in.tum.de/~neumann/"
+    },
+    {
+      "chairTitle": "Database Systems",
+      "professor": "Jana Giceva Makreshanska",
+      "href": "https://db.in.tum.de/index.shtml?lang=en"
+    },
+    {
+      "chairTitle": "Decentralized Information Systems",
+      "professor": "Viktor Leis",
+      "href": "https://www.cs.cit.tum.de/dis/"
+    },
+    {
+      "chairTitle": "Decision Analytics",
+      "professor": "Jalal Etesami",
+      "href": "https://www.cs.cit.tum.de/en/dss"
+    },
+    {
+      "chairTitle": "Decision Science & Systems",
+      "professor": "Martin Bichler",
+      "href": "https://www.cs.cit.tum.de/en/dss/"
+    },
+    {
+      "chairTitle": "Design Automation",
+      "professor": "Robert Wille",
+      "href": "https://www.cda.cit.tum.de/"
+    },
+    {
+      "chairTitle": "Discrete Mathematics and Combinatorial Optimization",
+      "professor": "Andreas Wiese",
+      "href": "https://www.math.cit.tum.de/en/math/research/groups/discrete-optimization/"
+    },
+    {
+      "chairTitle": "Discrete Mathematics",
+      "professor": "Stefan Weltge",
+      "href": "https://www.math.cit.tum.de/en/math/research/groups/discrete-optimization/"
+    },
+    {
+      "chairTitle": "Distributed Systems and Operating Systems",
+      "professor": "Pramod Bhatotia",
+      "href": "https://dse.in.tum.de/"
+    },
+    {
+      "chairTitle": "Distributed Systems and Security",
+      "professor": "Stephan Günther",
+      "href": "https://www.ce.cit.tum.de/hndss/homepage/"
+    },
+    {
+      "chairTitle": "Dynamical Systems",
+      "professor": "Daniel Matthes",
+      "href": "https://www.math.cit.tum.de/en/math/research/groups/dynamic-systems/"
+    },
+    {
+      "chairTitle": "Efficient Algorithms",
+      "professor": "Stephen Kobourov",
+      "href": "https://www.cs.cit.tum.de/algo/"
+    },
+    {
+      "chairTitle": "Electronic Design Automation",
+      "professor": "Ulf Schlichtmann",
+      "href": "https://www.ce.cit.tum.de/en/eda/home/"
+    },
+    {
+      "chairTitle": "Embedded Systems and Internet of Things",
+      "professor": "Sebastian Steinhorst",
+      "href": "https://www.ce.cit.tum.de/en/esi/home/"
+    },
+    {
+      "chairTitle": "Engineering robuster kognitiver Systeme",
+      "professor": "Mario Trapp",
+      "href": "https://www.cs.cit.tum.de/ercs/home/"
+    },
+    {
+      "chairTitle": "Environmental Sensing and Modeling",
+      "professor": "Jia Chen",
+      "href": "https://www.ee.cit.tum.de/en/esm/home/"
+    },
+    {
+      "chairTitle": "Formal Languages, Compiler Construction, Software Construction",
+      "professor": "Helmut Seidl",
+      "href": "https://www.cs.cit.tum.de/pl/startseite/"
+    },
+    {
+      "chairTitle": "Foundations of Deep Neural Networks",
+      "professor": "Stefanie Jegelka",
+      "href": "https://mcml.ai/research/groups/jegelka/"
+    },
+    {
+      "chairTitle": "Fundamentals of Programming",
+      "professor": "Florian Zuleger",
+      "href": "https://www.cs.cit.tum.de/en/prog/"
+    },
+    {
+      "chairTitle": "Geometry and Visualization",
+      "professor": "Jürgen Richter-Gebert",
+      "href": "https://www.math.cit.tum.de/math/forschung/gruppen/geometrie-und-topologie/geometrie-und-visualisierung/"
+    },
+    {
+      "chairTitle": "Global Analysis",
+      "professor": "Gero Friesecke",
+      "href": "https://www.math.cit.tum.de/en/math/research/groups/analysis/"
+    },
+    {
+      "chairTitle": "Hardware-aware Algorithms and Software for HPC",
+      "professor": "Michael Bader",
+      "href": "https://www.cs.cit.tum.de/sccs/personen/univ-prof-dr-michael-bader/"
+    },
+    {
+      "chairTitle": "Healthcare and Rehabilitation Robotics",
+      "professor": "Cristina Piazza",
+      "href": "https://www.ce.cit.tum.de/en/nhcr/home/"
+    },
+    {
+      "chairTitle": "High-Frequency Engineering",
+      "professor": "Thomas Eibert",
+      "href": "https://www.ee.cit.tum.de/en/hft/home/"
+    },
+    {
+      "chairTitle": "Human-Centered Digital Design",
+      "professor": "Velvet Spors",
+      "href": null
+    },
+    {
+      "chairTitle": "Hybrid Electronic Systems",
+      "professor": "Franz Kreupl",
+      "href": "http://www.ee.cit.tum.de/hes"
+    },
+    {
+      "chairTitle": "IT Security",
+      "professor": "Claudia Eckert",
+      "href": "https://www.sec.in.tum.de/i20/"
+    },
+    {
+      "chairTitle": "IT Service Management, Development und Operations",
+      "professor": "Ingo Weber",
+      "href": "https://www.cs.cit.tum.de/en/isdo/start/"
+    },
+    {
+      "chairTitle": "Information Infrastructures",
+      "professor": "Ali Sunyaev",
+      "href": "http://www.cs.cit.tum.de/ii/"
+    },
+    {
+      "chairTitle": "Information Systems and Business Process Management",
+      "professor": "Stefanie Rinderle-Ma",
+      "href": "https://www.cs.cit.tum.de/en/bpm/chair/"
+    },
+    {
+      "chairTitle": "Information Systems",
+      "professor": "Luise Pufahl",
+      "href": "http://www.cs.cit.tum.de/infs/"
+    },
+    {
+      "chairTitle": "Information Systems Engineering",
+      "professor": "Sebastian Werner",
+      "href": "https://www.cs.cit.tum.de/ise/startseite/"
+    },
+    {
+      "chairTitle": "Information-oriented Control",
+      "professor": "Sandra Hirche",
+      "href": "https://www.ce.cit.tum.de/en/itr/home/"
+    },
+    {
+      "chairTitle": "Integrated Systems",
+      "professor": "Andreas Herkersdorf",
+      "href": "https://www.ce.cit.tum.de/en/lis/home/"
+    },
+    {
+      "chairTitle": "Intelligent Bio-Robotic Systems",
+      "professor": "Lorenzo Masia",
+      "href": "http://www.ce.cit.tum.de/ibrs/"
+    },
+    {
+      "chairTitle": "Interpretable and Reliable Machine Learning",
+      "professor": "Akata-Schulz",
+      "href": "https://www.eml-munich.de/"
+    },
+    {
+      "chairTitle": "Learning AI for Dextrous Robots",
+      "professor": "Berthold Bäuml",
+      "href": "https://www.ce.cit.tum.de/en/rsi/home/"
+    },
+    {
+      "chairTitle": "Legal Tech",
+      "professor": "Matthias Grabmair",
+      "href": "https://www.cs.cit.tum.de/lt/"
+    },
+    {
+      "chairTitle": "Line Transmission Technology",
+      "professor": "Norbert Hanik",
+      "href": "https://www.ce.cit.tum.de/en/lnt/research/associate-professorship-of-line-transmission-technology/"
+    },
+    {
+      "chairTitle": "Machine Learning",
+      "professor": "Reinhard Heckel",
+      "href": "https://www.ce.cit.tum.de/mli/"
+    },
+    {
+      "chairTitle": "Machine Vision and Perception",
+      "professor": "Darius Burschka",
+      "href": "https://mvp.in.tum.de/"
+    },
+    {
+      "chairTitle": "Mathematical Continuum Mechanics",
+      "professor": "Marco Cicalese",
+      "href": "https://www.math.cit.tum.de/en/math/research/groups/analysis/"
+    },
+    {
+      "chairTitle": "Mathematical Finance",
+      "professor": "Christoph Knochenhauer",
+      "href": "https://www.math.cit.tum.de/en/mathfinance/home/"
+    },
+    {
+      "chairTitle": "Mathematical Finance",
+      "professor": "Rudi Zagst",
+      "href": "https://www.math.cit.tum.de/en/mathfinance/home/"
+    },
+    {
+      "chairTitle": "Mathematical Modelling of Biological Systems",
+      "professor": "Fabian Theis",
+      "href": "https://www.math.cit.tum.de/en/math/people/professors/theis-fabian/"
+    },
+    {
+      "chairTitle": "Mathematical Optimization",
+      "professor": "Michael Ulbrich",
+      "href": "https://www.math.cit.tum.de/en/math/research/groups/mathematical-optimization/"
+    },
+    {
+      "chairTitle": "Mathematical Physics",
+      "professor": "Michael Wolf",
+      "href": "https://www.math.cit.tum.de/en/math/research/areas/mathematical-physics/"
+    },
+    {
+      "chairTitle": "Mathematical Quantum Physics",
+      "professor": "Simone Warzel",
+      "href": "https://www.math.cit.tum.de/en/math/research/groups/analysis-and-its-applications/"
+    },
+    {
+      "chairTitle": "Mathematical Statistics",
+      "professor": "Mathias Drton",
+      "href": "https://www.math.cit.tum.de/en/math/statistics/"
+    },
+    {
+      "chairTitle": "Mathematics in Life Sciences",
+      "professor": "Christina Kuttler",
+      "href": "https://www.math.cit.tum.de/en/math/research/areas/life-science/"
+    },
+    {
+      "chairTitle": "Media Technology",
+      "professor": "Eckehard Steinbach",
+      "href": "https://www.ce.cit.tum.de/en/lmt/home/"
+    },
+    {
+      "chairTitle": "Microwave Sensors and Sensor Systems",
+      "professor": "Benjamin Nuß",
+      "href": "https://www.ee.cit.tum.de/mws/"
+    },
+    {
+      "chairTitle": "Micro- and Nanosystems Technology",
+      "professor": "Amelie Hagelauer",
+      "href": "https://www.ee.cit.tum.de/en/mnt/home/"
+    },
+    {
+      "chairTitle": "Microsensors and Actuators",
+      "professor": "Gabriele Schrag",
+      "href": "https://www.ee.cit.tum.de/en/msa/homepage/"
+    },
+    {
+      "chairTitle": "Molekularelektronik",
+      "professor": "Marc Tornow",
+      "href": "http://www.ee.cit.tum.de/mol"
+    },
+    {
+      "chairTitle": "Multiscale and Stochastic Dynamics",
+      "professor": "Christian Kühn",
+      "href": "https://www.math.cit.tum.de/en/math/research/groups/multiscale-stochastic-dynamics/"
+    },
+    {
+      "chairTitle": "N-Dimensional User Experience",
+      "professor": "Johanna Pirker",
+      "href": "https://www.cs.cit.tum.de/en/ndx/home/"
+    },
+    {
+      "chairTitle": "Nanoelectronic Circuits and Systems",
+      "professor": "Erika Covi",
+      "href": null
+    },
+    {
+      "chairTitle": "Nano- und Microrobotics",
+      "professor": "Berna Özkale Edelmann",
+      "href": "https://www.ee.cit.tum.de/en/rmn/"
+    },
+    {
+      "chairTitle": "Nano- und Quantensensorik",
+      "professor": "Eva Maria Weig",
+      "href": "https://www.ee.cit.tum.de/en/nan/home/"
+    },
+    {
+      "chairTitle": "Network Architectures and Services",
+      "professor": "Georg Carle",
+      "href": "https://www.net.in.tum.de/"
+    },
+    {
+      "chairTitle": "Neuroelectronics",
+      "professor": "Bernhard Wolfrum",
+      "href": "http://www.ee.cit.tum.de/nel"
+    },
+    {
+      "chairTitle": "Neuroengineering",
+      "professor": "Kristen Kozielski",
+      "href": "https://www.ce.cit.tum.de/en/nen/home/"
+    },
+    {
+      "chairTitle": "Numerical Mathematics / Scientific Computing",
+      "professor": "Folkmar Bornemann",
+      "href": "https://www.math.cit.tum.de/en/math/research/areas/numerics/"
+    },
+    {
+      "chairTitle": "Numerical Analysis",
+      "professor": "Barbara Wohlmuth",
+      "href": "https://www.math.cit.tum.de/en/math/research/areas/numerics/"
+    },
+    {
+      "chairTitle": "Numerical Methods in Plasma Physics",
+      "professor": "Eric Sonnendrücker",
+      "href": "https://www.math.cit.tum.de/math/forschung/gruppen/numerical-methods-plasma-physics/"
+    },
+    {
+      "chairTitle": "Numerics for Partial Differential Equations",
+      "professor": "Caroline Lasser",
+      "href": "https://www.math.cit.tum.de/en/math/research/groups/numerics-of-partial-differential-equations/"
+    },
+    {
+      "chairTitle": "Numerics of Complex Systems",
+      "professor": "Oliver Junge",
+      "href": "https://www.math.cit.tum.de/en/math/research/areas/numerics/"
+    },
+    {
+      "chairTitle": "Optimal Control",
+      "professor": "Boris Vexler",
+      "href": "https://www.math.cit.tum.de/math/forschung/gruppen/optimal-control/"
+    },
+    {
+      "chairTitle": "Perception for Intelligent Systems",
+      "professor": "Achim Lilienthal",
+      "href": "https://www.ce.cit.tum.de/pins/startseite/"
+    },
+    {
+      "chairTitle": "Physics-based Simulation",
+      "professor": "Nils Thuerey",
+      "href": "https://ge.in.tum.de/"
+    },
+    {
+      "chairTitle": "Physics-enhanced Machine Learning",
+      "professor": "Felix Dietrich",
+      "href": "https://www.cs.cit.tum.de/en/scml/"
+    },
+    {
+      "chairTitle": "Probability Theory",
+      "professor": "Nina Gantert",
+      "href": "https://www.math.cit.tum.de/math/forschung/gruppen/probability-theory/"
+    },
+    {
+      "chairTitle": "Probability Theory",
+      "professor": "Silke Rolles",
+      "href": "https://www.math.cit.tum.de/math/forschung/gruppen/probability-theory/"
+    },
+    {
+      "chairTitle": "Quantum Communication Systems Engineering",
+      "professor": "Tobias Vogl",
+      "href": "https://www.ce.cit.tum.de/qcs/"
+    },
+    {
+      "chairTitle": "Quantum Computing",
+      "professor": "Christian Mendl",
+      "href": "https://www.cs.cit.tum.de/qc"
+    },
+    {
+      "chairTitle": "Quantum Geometry",
+      "professor": "Murad Alim",
+      "href": "https://muradalim.org"
+    },
+    {
+      "chairTitle": "Quantum Electronics and Computer Engineering",
+      "professor": "Kai Müller",
+      "href": "http://www.ee.cit.tum.de/qec"
+    },
+    {
+      "chairTitle": "Representation Theory",
+      "professor": "Deniz Kus",
+      "href": "https://www.math.cit.tum.de/en/algebra/kus/"
+    },
+    {
+      "chairTitle": "Resilient Operating Systems",
+      "professor": "Reto Achermann",
+      "href": null
+    },
+    {
+      "chairTitle": "Resource Aware Machine Learning",
+      "professor": "Suvit Sra",
+      "href": "https://mcml.ai/research/groups/sra/"
+    },
+    {
+      "chairTitle": "Risk and Insurance",
+      "professor": "Matthias Scherer",
+      "href": "https://www.math.cit.tum.de/mathfinance/home/"
+    },
+    {
+      "chairTitle": "Robotik und System Intelligen ce",
+      "professor": "Alexander König",
+      "href": "https://www.ce.cit.tum.de/rsi/"
+    },
+    {
+      "chairTitle": "Robotik, Künstliche Intelligenz und Echtzeitsysteme",
+      "professor": "Alois Christian Knoll",
+      "href": "https://www.ce.cit.tum.de/air/"
+    },
+    {
+      "chairTitle": "Safety, Performance and Reliability for Learning Systems",
+      "professor": "Angela Schoellig",
+      "href": "https://www.ce.cit.tum.de/lsy/home/"
+    },
+    {
+      "chairTitle": "Scientific Computing and Uncertainty Quantification",
+      "professor": "Elisabeth Ullmann",
+      "href": "https://www.math.cit.tum.de/math/forschung/gruppen/scientific-computing-uncertainty-quantification/"
+    },
+    {
+      "chairTitle": "Scientific Computing",
+      "professor": "Hans-Joachim Bungartz",
+      "href": "https://www.cs.cit.tum.de/sccs/"
+    },
+    {
+      "chairTitle": "Security in Information Technology",
+      "professor": "Georg Sigl",
+      "href": "https://www.ce.cit.tum.de/eisec/"
+    },
+    {
+      "chairTitle": "Semiconductor Technology",
+      "professor": "Mikhail Belkin",
+      "href": "https://www.wsi.tum.de"
+    },
+    {
+      "chairTitle": "Sensor-based Robotic Systems and Intelligent Assistance Systems",
+      "professor": "Alin Albu-Schäffer",
+      "href": "https://www.ce.cit.tum.de/rm/"
+    },
+    {
+      "chairTitle": "Sensors and Wearables for Healthcare",
+      "professor": "Can Dincer",
+      "href": "https://www.ee.cit.tum.de/sen/startseite/"
+    },
+    {
+      "chairTitle": "Signal Processing",
+      "professor": "Wolfgang Utschick",
+      "href": "https://www.ce.cit.tum.de/msv/home/"
+    },
+    {
+      "chairTitle": "Simulation of Nanosystems for Energy Conversion",
+      "professor": "Alessio Gagliardi",
+      "href": "http://www.ee.cit.tum.de/sne"
+    },
+    {
+      "chairTitle": "Software Engineering & AI",
+      "professor": "Chunyang Chen",
+      "href": "https://www.cs.cit.tum.de/seai/homepage/"
+    },
+    {
+      "chairTitle": "Software Engineering for Business Information Systems",
+      "professor": "Florian Matthes",
+      "href": "https://wwwmatthes.in.tum.de/pages/t5ma0jrv6q7k/"
+    },
+    {
+      "chairTitle": "Software Engineering for Data-intensive Application",
+      "professor": "Andrea Stocco",
+      "href": "https://www.cs.cit.tum.de/sse/stocco/"
+    },
+    {
+      "chairTitle": "Software Engineering",
+      "professor": "Stefan Wagner",
+      "href": "https://www.cs.cit.tum.de/hnse/home/"
+    },
+    {
+      "chairTitle": "Software & Systems Engineering",
+      "professor": "Alexander Pretschner",
+      "href": "https://www.cs.cit.tum.de/sse/"
+    },
+    {
+      "chairTitle": "Statistics and Data Science",
+      "professor": "Marie-Christine Düker",
+      "href": "https://www.math.cit.tum.de/en/math/statistics/"
+    },
+    {
+      "chairTitle": "Stochastic Processes",
+      "professor": "Noam Berger Steiger",
+      "href": "https://www.math.cit.tum.de/math/forschung/gruppen/probability-theory/"
+    },
+    {
+      "chairTitle": "Theoretical Computer Science",
+      "professor": "Francisco Javier Esparza Estaun",
+      "href": "https://www.cs.cit.tum.de/tcs/"
+    },
+    {
+      "chairTitle": "Theoretical Computer Science",
+      "professor": "Harald Räcke",
+      "href": "https://www.cs.cit.tum.de/tcs/"
+    },
+    {
+      "chairTitle": "Theoretical Foundations of Artificial Intelligence",
+      "professor": "Debarghya Ghoshdastidar",
+      "href": "https://www.cs.cit.tum.de/tfai/"
+    },
+    {
+      "chairTitle": "Theoretical Information Technology",
+      "professor": "Holger Boche",
+      "href": "https://www.ce.cit.tum.de/lti/"
+    },
+    {
+      "chairTitle": "Theory of Complex Quantum Systems",
+      "professor": "Robert König",
+      "href": "https://www.math.cit.tum.de/math/forschung/gruppen/quantum-information-theory/"
+    },
+    {
+      "chairTitle": "Topology",
+      "professor": "Claudia Scheimbauer",
+      "href": "https://www.math.cit.tum.de/algebra/scheimbauer/"
+    },
+    {
+      "chairTitle": "Verification and Synthesis of Reactive Systems",
+      "professor": "Bernd Finkbeiner",
+      "href": "https://rct.cit.tum.de/"
+    },
+    {
+      "chairTitle": "Visual Computing and Artificial Intelligence",
+      "professor": "Matthias Nießner",
+      "href": "https://niessnerlab.org/"
+    }
+  ]
+}

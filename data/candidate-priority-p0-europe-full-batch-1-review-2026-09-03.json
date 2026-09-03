@@ -1,0 +1,26 @@
+{
+  "generatedAt": "2026-09-03",
+  "scope": "Europe P0 missing-portrait continuation; first strict-ready batch",
+  "gate": "current independent PI; >=2 reliable sources; 3-5 sourced facts including education; verified non-placeholder portrait; >=1 first-party relationship",
+  "counts": {
+    "reviewed": 2,
+    "ready": 2,
+    "stillBlocked": 175
+  },
+  "records": [
+    {
+      "canonicalKey": "Europe:EPFL:emmanuelabbe",
+      "atlasPersonId": "emmanuel-abbe-epfl-p0-full-2026",
+      "disposition": "ready",
+      "portrait": "public/portraits/candidate-p0-europe-full-batch-1-2026/emmanuel-abbe.jpg",
+      "relationshipEvidence": "https://people.epfl.ch/emmanuel.abbe?lang=en"
+    },
+    {
+      "canonicalKey": "Europe:EPFL:rudigerurbanke",
+      "atlasPersonId": "rudiger-urbanke-epfl-p0-full-2026",
+      "disposition": "ready",
+      "portrait": "public/portraits/candidate-p0-europe-full-batch-1-2026/rudiger-urbanke.jpg",
+      "relationshipEvidence": "https://people.epfl.ch/rudiger.urbanke?lang=en"
+    }
+  ]
+}

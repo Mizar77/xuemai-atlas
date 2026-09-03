@@ -1,0 +1,826 @@
+{
+  "completeness": "complete",
+  "fetchedAt": "2026-09-02",
+  "institution": "Karlsruhe Institute of Technology — Department of Informatics",
+  "officialPageUrl": "https://www.informatik.kit.edu/english/people.php",
+  "officialDataUrl": "https://www.informatik.kit.edu/english/5097.php",
+  "officialDataUrls": [
+    "https://www.informatik.kit.edu/english/5097.php"
+  ],
+  "officialRosterCount": 69,
+  "sourceDescription": "The scoped people URL returns 404. The current official Department Research Groups directory was traversed across all ten institute tables, including its separate Emeriti and retired Professors table. It contains 78 group rows and 69 unique named professors/leaders; nine duplicate rows arise from cross-institute or multiple-group leadership and were merged while retaining every group and institute.",
+  "rawRowCount": 78,
+  "sectionRowCounts": {
+    "Institute for Anthropomatics and Robotics (IAR)": 15,
+    "Institute of Information Security and Dependability (KASTEL)": 11,
+    "Institute for Information and Economic Law (IIWR)": 4,
+    "Institute for Program Structures and Data Organization (IPD)": 5,
+    "Institute of Computer Engineering (ITEC)": 4,
+    "Institute of Theoretical Informatics (ITI)": 10,
+    "Institute of Telematics (TM)": 8,
+    "Institute for Visualization and Data Analysis (IVD)": 1,
+    "Affiliated Professors": 3,
+    "Emeriti and retired Professors": 17
+  },
+  "people": [
+    {
+      "officialId": "prof. dr. tamim asfour",
+      "name": "Prof. Dr. Tamim Asfour",
+      "profileUrl": "https://h2t.iar.kit.edu/tamim-asfour.php",
+      "section": "Institute for Anthropomatics and Robotics (IAR)",
+      "researchGroups": [
+        "High Performance Humanoid Technologies (H²T)",
+        "Intelligent Process Automation and Robotics Lab (IPR)"
+      ],
+      "institutes": [],
+      "sourceUrl": "https://www.informatik.kit.edu/english/5097.php"
+    },
+    {
+      "officialId": "prof. dr. jürgen beyerer",
+      "name": "Prof. Dr. Jürgen Beyerer",
+      "profileUrl": "https://ies.iar.kit.edu/english/1473_1497.php",
+      "section": "Institute for Anthropomatics and Robotics (IAR)",
+      "researchGroups": [
+        "Vision and Fusion Laboratory (IES)"
+      ],
+      "institutes": [],
+      "sourceUrl": "https://www.informatik.kit.edu/english/5097.php"
+    },
+    {
+      "officialId": "prof. dr. pascal friederich",
+      "name": "Prof. Dr. Pascal Friederich",
+      "profileUrl": "https://aimat.iar.kit.edu/people_71.php",
+      "section": "Institute for Anthropomatics and Robotics (IAR)",
+      "researchGroups": [
+        "Artificial Intelligence for Materials Sciences"
+      ],
+      "institutes": [],
+      "sourceUrl": "https://www.informatik.kit.edu/english/5097.php"
+    },
+    {
+      "officialId": "prof. dr. kathrin gerling",
+      "name": "Prof. Dr. Kathrin Gerling",
+      "profileUrl": "https://hci.iar.kit.edu/21_59.php",
+      "section": "Institute for Anthropomatics and Robotics (IAR)",
+      "researchGroups": [
+        "Human-Computer Interaction and Accessibility (HCI)"
+      ],
+      "institutes": [],
+      "sourceUrl": "https://www.informatik.kit.edu/english/5097.php"
+    },
+    {
+      "officialId": "prof. dr. uwe hanebeck",
+      "name": "Prof. Dr. Uwe Hanebeck",
+      "profileUrl": "https://isas.iar.kit.edu/Staff_Hanebeck.php",
+      "section": "Institute for Anthropomatics and Robotics (IAR)",
+      "researchGroups": [
+        "Intelligent Sensor-Actuator-Systems (ISAS)"
+      ],
+      "institutes": [],
+      "sourceUrl": "https://www.informatik.kit.edu/english/5097.php"
+    },
+    {
+      "officialId": "prof. dr. katja mombaur",
+      "name": "Prof. Dr. Katja Mombaur",
+      "profileUrl": "https://hcr.iar.kit.edu/team_KMombaur.php",
+      "section": "Institute for Anthropomatics and Robotics (IAR)",
+      "researchGroups": [
+        "Optimization and Biomechanics for Human-Centred Robotics"
+      ],
+      "institutes": [],
+      "sourceUrl": "https://www.informatik.kit.edu/english/5097.php"
+    },
+    {
+      "officialId": "prof. dr. gerhard neumann",
+      "name": "Prof. Dr. Gerhard Neumann",
+      "profileUrl": "https://alr-kit.de/team/geri/",
+      "section": "Institute for Anthropomatics and Robotics (IAR)",
+      "researchGroups": [
+        "Autonomous Learning Robots (ALR)"
+      ],
+      "institutes": [],
+      "sourceUrl": "https://www.informatik.kit.edu/english/5097.php"
+    },
+    {
+      "officialId": "prof. dr. jan niehues",
+      "name": "Prof. Dr. Jan Niehues",
+      "profileUrl": "https://ai4lt.iar.kit.edu/english/team_jan_niehues.php",
+      "section": "Institute for Anthropomatics and Robotics (IAR)",
+      "researchGroups": [
+        "Artificial Intelligence for Language Technologies"
+      ],
+      "institutes": [],
+      "sourceUrl": "https://www.informatik.kit.edu/english/5097.php"
+    },
+    {
+      "officialId": "prof. dr. rainer stiefelhagen",
+      "name": "Prof. Dr. Rainer Stiefelhagen",
+      "profileUrl": "https://cvhci.iar.kit.edu/people_596.php",
+      "section": "Institute for Anthropomatics and Robotics (IAR)",
+      "researchGroups": [
+        "Computer Vision for Human-Computer Interaction Lab (cv:hci)",
+        "Center for Digital Accessibility and Assistive Technology (ACCESS∂KIT)"
+      ],
+      "institutes": [],
+      "sourceUrl": "https://www.informatik.kit.edu/english/5097.php"
+    },
+    {
+      "officialId": "prof. dr. rudolph triebel",
+      "name": "Prof. Dr. Rudolph Triebel",
+      "profileUrl": "https://www.dlr.de/de/rm/ueber-uns/abteilungen/perzeption-und-kognition",
+      "section": "Institute for Anthropomatics and Robotics (IAR)",
+      "researchGroups": [
+        "Intelligent Robot Perception"
+      ],
+      "institutes": [],
+      "sourceUrl": "https://www.informatik.kit.edu/english/5097.php"
+    },
+    {
+      "officialId": "t.-t.-prof. dr. barbara bruno",
+      "name": "T.-T.-Prof. Dr. Barbara Bruno",
+      "profileUrl": "https://sarai.iar.kit.edu/21_58.php",
+      "section": "Institute for Anthropomatics and Robotics (IAR)",
+      "researchGroups": [
+        "Socially Assistive Robotics with Artificial Intelligence (SARAI)"
+      ],
+      "institutes": [],
+      "sourceUrl": "https://www.informatik.kit.edu/english/5097.php"
+    },
+    {
+      "officialId": "t.-t.-prof. dr. rudolf lioutikov",
+      "name": "T.-T.-Prof. Dr. Rudolf Lioutikov",
+      "profileUrl": "https://www.irl.iar.kit.edu/team_58.php",
+      "section": "Institute for Anthropomatics and Robotics (IAR)",
+      "researchGroups": [
+        "Intuitive Robots Lab (IRL)"
+      ],
+      "institutes": [],
+      "sourceUrl": "https://www.informatik.kit.edu/english/5097.php"
+    },
+    {
+      "officialId": "jun.-prof. dr. jan stühmer",
+      "name": "Jun.-Prof. Dr. Jan Stühmer",
+      "profileUrl": "https://www.h-its.org/de/people/dr-jan-stuhmer/",
+      "section": "Institute for Anthropomatics and Robotics (IAR)",
+      "researchGroups": [
+        "Machine Learning and Artificial Intelligence"
+      ],
+      "institutes": [],
+      "sourceUrl": "https://www.informatik.kit.edu/english/5097.php"
+    },
+    {
+      "officialId": "prof. dr. bernhard beckert",
+      "name": "Prof. Dr. Bernhard Beckert",
+      "profileUrl": "https://formal.kastel.kit.edu/~beckert/",
+      "section": "Institute of Information Security and Dependability (KASTEL) | Institute of Theoretical Informatics (ITI)",
+      "researchGroups": [
+        "Application-oriented Formal Verification"
+      ],
+      "institutes": [],
+      "sourceUrl": "https://www.informatik.kit.edu/english/5097.php"
+    },
+    {
+      "officialId": "prof. dr. hannes hartenstein",
+      "name": "Prof. Dr. Hannes Hartenstein",
+      "profileUrl": "https://www.dsn.kastel.kit.edu/english/staff_hartenstein.php",
+      "section": "Institute of Information Security and Dependability (KASTEL) | Institute of Telematics (TM)",
+      "researchGroups": [
+        "Decentralized Systems and Network Services"
+      ],
+      "institutes": [],
+      "sourceUrl": "https://www.informatik.kit.edu/english/5097.php"
+    },
+    {
+      "officialId": "prof. dr. anne koziolek",
+      "name": "Prof. Dr. Anne Koziolek",
+      "profileUrl": "https://mcse.kastel.kit.edu/staff_Koziolek_Anne.php",
+      "section": "Institute of Information Security and Dependability (KASTEL) | Institute for Program Structures and Data Organization (IPD)",
+      "researchGroups": [
+        "Modelling for Continuous Software Engineering"
+      ],
+      "institutes": [],
+      "sourceUrl": "https://www.informatik.kit.edu/english/5097.php"
+    },
+    {
+      "officialId": "prof. dr. raffaela mirandola",
+      "name": "Prof. Dr. Raffaela Mirandola",
+      "profileUrl": "https://sasis.kastel.kit.edu/staff_Raffaela_Mirandola.php",
+      "section": "Institute of Information Security and Dependability (KASTEL)",
+      "researchGroups": [
+        "Self-adaptive Software-intensive Systems"
+      ],
+      "institutes": [],
+      "sourceUrl": "https://www.informatik.kit.edu/english/5097.php"
+    },
+    {
+      "officialId": "prof. dr. jörn müller-quade",
+      "name": "Prof. Dr. Jörn Müller-Quade",
+      "profileUrl": "https://crypto.kastel.kit.edu/english/head-of-institute.php",
+      "section": "Institute of Information Security and Dependability (KASTEL) | Institute of Theoretical Informatics (ITI)",
+      "researchGroups": [
+        "Cryptography and Security"
+      ],
+      "institutes": [],
+      "sourceUrl": "https://www.informatik.kit.edu/english/5097.php"
+    },
+    {
+      "officialId": "prof. dr. andré platzer",
+      "name": "Prof. Dr. André Platzer",
+      "profileUrl": "https://logic.kastel.kit.edu/",
+      "section": "Institute of Information Security and Dependability (KASTEL)",
+      "researchGroups": [
+        "Alexander von Humboldt Professorship for Logic of Autonomous Dynamical Systems"
+      ],
+      "institutes": [],
+      "sourceUrl": "https://www.informatik.kit.edu/english/5097.php"
+    },
+    {
+      "officialId": "prof. dr. ralf reussner",
+      "name": "Prof. Dr. Ralf Reussner",
+      "profileUrl": "https://dsis.kastel.kit.edu/staff_ralf_reussner.php/",
+      "section": "Institute of Information Security and Dependability (KASTEL) | Institute for Program Structures and Data Organization (IPD)",
+      "researchGroups": [
+        "Dependability of Software-intensive Systems"
+      ],
+      "institutes": [],
+      "sourceUrl": "https://www.informatik.kit.edu/english/5097.php"
+    },
+    {
+      "officialId": "prof. dr. ina schaefer",
+      "name": "Prof. Dr. Ina Schaefer",
+      "profileUrl": "https://tva.kastel.kit.edu/english/team_schaefer.php",
+      "section": "Institute of Information Security and Dependability (KASTEL)",
+      "researchGroups": [
+        "Testing, Validation and Analysis of Software-Intensive Systems"
+      ],
+      "institutes": [],
+      "sourceUrl": "https://www.informatik.kit.edu/english/5097.php"
+    },
+    {
+      "officialId": "prof. dr. thorsten strufe",
+      "name": "Prof. Dr. Thorsten Strufe",
+      "profileUrl": "https://ps.tm.kit.edu/english/21_101.php",
+      "section": "Institute of Information Security and Dependability (KASTEL) | Institute of Telematics (TM)",
+      "researchGroups": [
+        "Practical IT Security",
+        "Privacy and Security"
+      ],
+      "institutes": [],
+      "sourceUrl": "https://www.informatik.kit.edu/english/5097.php"
+    },
+    {
+      "officialId": "prof. dr. christian wressnegger",
+      "name": "Prof. Dr. Christian Wressnegger",
+      "profileUrl": "https://intellisec.de/chris/",
+      "section": "Institute of Information Security and Dependability (KASTEL) | Institute of Theoretical Informatics (ITI)",
+      "researchGroups": [
+        "Artificial Intelligence and Secuity (IntelliSEC)",
+        "Intelligent System Security"
+      ],
+      "institutes": [],
+      "sourceUrl": "https://www.informatik.kit.edu/english/5097.php"
+    },
+    {
+      "officialId": "jun.-prof. dr. meike schwammberger",
+      "name": "Jun.-Prof. Dr. Meike Schwammberger",
+      "profileUrl": "https://mase.kastel.kit.edu/english/21_84.php",
+      "section": "Institute of Information Security and Dependability (KASTEL)",
+      "researchGroups": [
+        "Modeling and Analysis in Mobility Software Engineering"
+      ],
+      "institutes": [],
+      "sourceUrl": "https://www.informatik.kit.edu/english/5097.php"
+    },
+    {
+      "officialId": "prof. dr. franziska boehm",
+      "name": "Prof. Dr. Franziska Boehm",
+      "profileUrl": "https://www.zar.kit.edu/mitarbeitende_franziska.boehm.php",
+      "section": "Institute for Information and Economic Law (IIWR)",
+      "researchGroups": [
+        "IIWR-Boehm"
+      ],
+      "institutes": [],
+      "sourceUrl": "https://www.informatik.kit.edu/english/5097.php"
+    },
+    {
+      "officialId": "prof. dr. andreas sattler",
+      "name": "Prof. Dr. Andreas Sattler",
+      "profileUrl": null,
+      "section": "Institute for Information and Economic Law (IIWR)",
+      "researchGroups": [
+        "Law and Informatics"
+      ],
+      "institutes": [],
+      "sourceUrl": "https://www.informatik.kit.edu/english/5097.php"
+    },
+    {
+      "officialId": "t.-t.-prof. dr. frederike zufall",
+      "name": "T.-T.-Prof. Dr. Frederike Zufall",
+      "profileUrl": "https://www.zar.kit.edu/mitarbeitende_frederike.zufall.php",
+      "section": "Institute for Information and Economic Law (IIWR)",
+      "researchGroups": [
+        "Public Law and Computer Science"
+      ],
+      "institutes": [],
+      "sourceUrl": "https://www.informatik.kit.edu/english/5097.php"
+    },
+    {
+      "officialId": "apl. prof. dr. oliver raabe",
+      "name": "apl. Prof. Dr. Oliver Raabe",
+      "profileUrl": "https://compliance.zar.kit.edu/mitarbeitende_oliver.raabe.php",
+      "section": "Institute for Information and Economic Law (IIWR)",
+      "researchGroups": [
+        "Informationsrecht für technische Systeme und Rechtsinformatik"
+      ],
+      "institutes": [],
+      "sourceUrl": "https://www.informatik.kit.edu/english/5097.php"
+    },
+    {
+      "officialId": "prof. dr. klemens böhm",
+      "name": "Prof. Dr. Klemens Böhm",
+      "profileUrl": "https://dbis.ipd.kit.edu/english/722_336.php",
+      "section": "Institute for Program Structures and Data Organization (IPD)",
+      "researchGroups": [
+        "Information Systems"
+      ],
+      "institutes": [],
+      "sourceUrl": "https://www.informatik.kit.edu/english/5097.php"
+    },
+    {
+      "officialId": "prof. dr. sebastian erdweg",
+      "name": "Prof. Dr. Sebastian Erdweg",
+      "profileUrl": "https://pl.ipd.kit.edu/staff_erdweg.php",
+      "section": "Institute for Program Structures and Data Organization (IPD)",
+      "researchGroups": [
+        "Programming Languages"
+      ],
+      "institutes": [],
+      "sourceUrl": "https://www.informatik.kit.edu/english/5097.php"
+    },
+    {
+      "officialId": "prof. dr. nadja klein",
+      "name": "Prof. Dr. Nadja Klein",
+      "profileUrl": "https://www.scc.kit.edu/en/staff/nadja.klein.php",
+      "section": "Institute for Program Structures and Data Organization (IPD)",
+      "researchGroups": [
+        "Methods for Big Data"
+      ],
+      "institutes": [],
+      "sourceUrl": "https://www.informatik.kit.edu/english/5097.php"
+    },
+    {
+      "officialId": "prof. dr. frank bellosa",
+      "name": "Prof. Dr. Frank Bellosa",
+      "profileUrl": "https://os.itec.kit.edu/deutsch/mitarbeiter_31.php",
+      "section": "Institute of Computer Engineering (ITEC)",
+      "researchGroups": [
+        "Operating Systems"
+      ],
+      "institutes": [],
+      "sourceUrl": "https://www.informatik.kit.edu/english/5097.php"
+    },
+    {
+      "officialId": "prof. dr. jörg henkel",
+      "name": "Prof. Dr. Jörg Henkel",
+      "profileUrl": "https://ces.itec.kit.edu/21_henkel.php",
+      "section": "Institute of Computer Engineering (ITEC)",
+      "researchGroups": [
+        "Embedded Systems"
+      ],
+      "institutes": [],
+      "sourceUrl": "https://www.informatik.kit.edu/english/5097.php"
+    },
+    {
+      "officialId": "prof. dr. wolfgang karl",
+      "name": "Prof. Dr. Wolfgang Karl",
+      "profileUrl": "https://capp.itec.kit.edu/english/61_121.php",
+      "section": "Institute of Computer Engineering (ITEC)",
+      "researchGroups": [
+        "Computer Architecture and Parallel Programming"
+      ],
+      "institutes": [],
+      "sourceUrl": "https://www.informatik.kit.edu/english/5097.php"
+    },
+    {
+      "officialId": "prof. dr. mehdi baradaran tahoori",
+      "name": "Prof. Dr. Mehdi Baradaran Tahoori",
+      "profileUrl": "https://cdnc.itec.kit.edu/21_54.php",
+      "section": "Institute of Computer Engineering (ITEC)",
+      "researchGroups": [
+        "Dependable Nano Computing"
+      ],
+      "institutes": [],
+      "sourceUrl": "https://www.informatik.kit.edu/english/5097.php"
+    },
+    {
+      "officialId": "prof. dr. tobias kohn",
+      "name": "Prof. Dr. Tobias Kohn",
+      "profileUrl": "https://cse.iti.kit.edu/team_kohnt.php",
+      "section": "Institute of Theoretical Informatics (ITI)",
+      "researchGroups": [
+        "Didactics of Computer Science"
+      ],
+      "institutes": [],
+      "sourceUrl": "https://www.informatik.kit.edu/english/5097.php"
+    },
+    {
+      "officialId": "prof. dr. marvin künnemann-goos",
+      "name": "Prof. Dr. Marvin Künnemann-Goos",
+      "profileUrl": "https://act.iti.kit.edu/people/marvinkuennemann",
+      "section": "Institute of Theoretical Informatics (ITI)",
+      "researchGroups": [
+        "Algorithms and Complexity"
+      ],
+      "institutes": [],
+      "sourceUrl": "https://www.informatik.kit.edu/english/5097.php"
+    },
+    {
+      "officialId": "prof. dr. henning meyerhenke",
+      "name": "Prof. Dr. Henning Meyerhenke",
+      "profileUrl": "https://eae.iti.kit.edu/21_58.php",
+      "section": "Institute of Theoretical Informatics (ITI)",
+      "researchGroups": [
+        "Exascale Algorithm Engineering"
+      ],
+      "institutes": [],
+      "sourceUrl": "https://www.informatik.kit.edu/english/5097.php"
+    },
+    {
+      "officialId": "prof. dr. peter sanders",
+      "name": "Prof. Dr. Peter Sanders",
+      "profileUrl": "https://ae.iti.kit.edu/english/sanders.php",
+      "section": "Institute of Theoretical Informatics (ITI)",
+      "researchGroups": [
+        "Algorithm Engineering"
+      ],
+      "institutes": [],
+      "sourceUrl": "https://www.informatik.kit.edu/english/5097.php"
+    },
+    {
+      "officialId": "prof. dr. alexandros stamatakis",
+      "name": "Prof. Dr. Alexandros Stamatakis",
+      "profileUrl": "https://cme.h-its.org/exelixis/web/personal_page/alexis/",
+      "section": "Institute of Theoretical Informatics (ITI)",
+      "researchGroups": [
+        "High Performance Computing in den Lebenswissenschaften"
+      ],
+      "institutes": [],
+      "sourceUrl": "https://www.informatik.kit.edu/english/5097.php"
+    },
+    {
+      "officialId": "t.-t.-prof. dr. thomas bläsius",
+      "name": "T.-T.-Prof. Dr. Thomas Bläsius",
+      "profileUrl": "https://scale.iti.kit.edu/people/thomasblaesius",
+      "section": "Institute of Theoretical Informatics (ITI)",
+      "researchGroups": [
+        "Scalable Algorithms"
+      ],
+      "institutes": [],
+      "sourceUrl": "https://www.informatik.kit.edu/english/5097.php"
+    },
+    {
+      "officialId": "t.-t.-prof. dr. peer nowack",
+      "name": "T.-T.-Prof. Dr. Peer Nowack",
+      "profileUrl": "https://ki-klima.iti.kit.edu/21_58.php",
+      "section": "Institute of Theoretical Informatics (ITI)",
+      "researchGroups": [
+        "AI in Climate and Environmental Sciences"
+      ],
+      "institutes": [],
+      "sourceUrl": "https://www.informatik.kit.edu/english/5097.php"
+    },
+    {
+      "officialId": "prof. dr. sebastian abeck",
+      "name": "Prof. Dr. Sebastian Abeck",
+      "profileUrl": "https://cm.tm.kit.edu/staff_abeck.php",
+      "section": "Institute of Telematics (TM)",
+      "researchGroups": [
+        "Cooperation & Management"
+      ],
+      "institutes": [],
+      "sourceUrl": "https://www.informatik.kit.edu/english/5097.php"
+    },
+    {
+      "officialId": "prof. dr. michael beigl",
+      "name": "Prof. Dr. Michael Beigl",
+      "profileUrl": "https://pcs.tm.kit.edu/english/21_52.php",
+      "section": "Institute of Telematics (TM)",
+      "researchGroups": [
+        "Pervasive Computing Systems"
+      ],
+      "institutes": [],
+      "sourceUrl": "https://www.informatik.kit.edu/english/5097.php"
+    },
+    {
+      "officialId": "prof. dr. veit hagenmeyer",
+      "name": "Prof. Dr. Veit Hagenmeyer",
+      "profileUrl": "https://www.iai.kit.edu/Ansprechpersonen_1213.php",
+      "section": "Institute of Telematics (TM)",
+      "researchGroups": [
+        "Institute for Automation and Applied Informatics"
+      ],
+      "institutes": [],
+      "sourceUrl": "https://www.informatik.kit.edu/english/5097.php"
+    },
+    {
+      "officialId": "prof. dr. achim streit",
+      "name": "Prof. Dr. Achim Streit",
+      "profileUrl": "https://www.scc.kit.edu/personen/achim.streit.php",
+      "section": "Institute of Telematics (TM)",
+      "researchGroups": [
+        "Distributed and Parallel High Performance Systems"
+      ],
+      "institutes": [],
+      "sourceUrl": "https://www.informatik.kit.edu/english/5097.php"
+    },
+    {
+      "officialId": "prof. dr. martina zitterbart",
+      "name": "Prof. Dr. Martina Zitterbart",
+      "profileUrl": "https://telematics.tm.kit.edu/staff_zitterbart.php",
+      "section": "Institute of Telematics (TM)",
+      "researchGroups": [
+        "Telematics"
+      ],
+      "institutes": [],
+      "sourceUrl": "https://www.informatik.kit.edu/english/5097.php"
+    },
+    {
+      "officialId": "t.t.-prof. dr. benjamin schäfer",
+      "name": "T.T.-Prof. Dr. Benjamin Schäfer",
+      "profileUrl": "https://www.iai.kit.edu/english/2154_4101.php",
+      "section": "Institute of Telematics (TM)",
+      "researchGroups": [
+        "Artificial Intelligence for the Energy System"
+      ],
+      "institutes": [],
+      "sourceUrl": "https://www.informatik.kit.edu/english/5097.php"
+    },
+    {
+      "officialId": "prof. dr. carsten dachsbacher",
+      "name": "Prof. Dr. Carsten Dachsbacher",
+      "profileUrl": "https://cg.ivd.kit.edu/english/staff/prof/dachsbacher/index_dachsbacher.php",
+      "section": "Institute for Visualization and Data Analysis (IVD)",
+      "researchGroups": [
+        "Computer Graphics"
+      ],
+      "institutes": [],
+      "sourceUrl": "https://www.informatik.kit.edu/english/5097.php"
+    },
+    {
+      "officialId": "prof. dr. björn hein",
+      "name": "Prof. Dr. Björn Hein",
+      "profileUrl": "https://www.h-ka.de/die-hochschule-karlsruhe/organisation-personen/personen-a-z/person/bjoern-hein",
+      "section": "Affiliated Professors",
+      "researchGroups": [
+        "Intelligent Production und Cloud-Robotics"
+      ],
+      "institutes": [
+        "Institut für Anthropomatik und Robotik"
+      ],
+      "sourceUrl": "https://www.informatik.kit.edu/english/5097.php"
+    },
+    {
+      "officialId": "apl. prof. dr. thomas längle",
+      "name": "apl. Prof. Dr. Thomas Längle",
+      "profileUrl": "https://ipr.iar.kit.edu/english/staff_446.php",
+      "section": "Affiliated Professors",
+      "researchGroups": [
+        "Inspection und Optronic Systems"
+      ],
+      "institutes": [
+        "Institut für Anthropomatik und Robotik"
+      ],
+      "sourceUrl": "https://www.informatik.kit.edu/english/5097.php"
+    },
+    {
+      "officialId": "prof. dr. oliver waldhorst",
+      "name": "Prof. Dr. Oliver Waldhorst",
+      "profileUrl": "https://telematics.tm.kit.edu/staff_waldhorst.php",
+      "section": "Affiliated Professors",
+      "researchGroups": [
+        "Computer and Communication Networks"
+      ],
+      "institutes": [
+        "Institut für Telematik"
+      ],
+      "sourceUrl": "https://www.informatik.kit.edu/english/5097.php"
+    },
+    {
+      "officialId": "prof. dr. rüdiger dillmann",
+      "name": "Prof. Dr. Rüdiger Dillmann",
+      "profileUrl": null,
+      "section": "Emeriti and retired Professors",
+      "researchGroups": [
+        "Humanoids and Intelligence Systems Lab"
+      ],
+      "institutes": [
+        "Institute for Anthropomatics and Robotics"
+      ],
+      "sourceUrl": "https://www.informatik.kit.edu/english/5097.php"
+    },
+    {
+      "officialId": "prof. dr. thomas dreier kit distinguished senior fellow",
+      "name": "Prof. Dr. Thomas Dreier KIT Distinguished Senior Fellow",
+      "profileUrl": "https://www.zar.kit.edu/mitarbeitende_thomas.dreier.php",
+      "section": "Emeriti and retired Professors",
+      "researchGroups": [
+        "IIWR Dreier"
+      ],
+      "institutes": [
+        "Institute for Information and Economic Law"
+      ],
+      "sourceUrl": "https://www.informatik.kit.edu/english/5097.php"
+    },
+    {
+      "officialId": "prof. dr. winfried görke",
+      "name": "Prof. Dr. Winfried Görke",
+      "profileUrl": "https://ces.itec.kit.edu/21_500.php",
+      "section": "Emeriti and retired Professors",
+      "researchGroups": [
+        "Embedded Systems"
+      ],
+      "institutes": [
+        "Institute of Computer Engineering"
+      ],
+      "sourceUrl": "https://www.informatik.kit.edu/english/5097.php"
+    },
+    {
+      "officialId": "prof. dr. wilfried juling",
+      "name": "Prof. Dr. Wilfried Juling",
+      "profileUrl": "https://www.do.kit.edu/wilfried-juling.php",
+      "section": "Emeriti and retired Professors",
+      "researchGroups": [
+        "Rechnersysteme und Infrastruktur der Informationsverarbeitung"
+      ],
+      "institutes": [
+        "Institute of Telematics / Scientific Computing Center (SCC)"
+      ],
+      "sourceUrl": "https://www.informatik.kit.edu/english/5097.php"
+    },
+    {
+      "officialId": "prof. dr. peter lockemann †",
+      "name": "Prof. Dr. Peter Lockemann †",
+      "profileUrl": "https://dbis.ipd.kit.edu/english/722_375.php",
+      "section": "Emeriti and retired Professors",
+      "researchGroups": [
+        "Systems of Information Management"
+      ],
+      "institutes": [
+        "Institute for Program Structures und Data Organization"
+      ],
+      "sourceUrl": "https://www.informatik.kit.edu/english/5097.php"
+    },
+    {
+      "officialId": "prof. dr. hans-hellmut nagel",
+      "name": "Prof. Dr. Hans-Hellmut Nagel",
+      "profileUrl": "https://www.informatik.kit.edu/english/13312.php",
+      "section": "Emeriti and retired Professors",
+      "researchGroups": [],
+      "institutes": [
+        "Institute for Anthropomatics and Robotics"
+      ],
+      "sourceUrl": "https://www.informatik.kit.edu/english/5097.php"
+    },
+    {
+      "officialId": "prof. dr. bernhard neumair",
+      "name": "Prof. Dr. Bernhard Neumair",
+      "profileUrl": "https://www.scc.kit.edu/en/staff/bernhard.neumair.php",
+      "section": "Emeriti and retired Professors",
+      "researchGroups": [
+        "Management of Complex IT-Systems"
+      ],
+      "institutes": [
+        "Institute of Telematics / Steinbuch Centre for Computing"
+      ],
+      "sourceUrl": "https://www.informatik.kit.edu/english/5097.php"
+    },
+    {
+      "officialId": "prof. dr. hartmut prautzsch",
+      "name": "Prof. Dr. Hartmut Prautzsch",
+      "profileUrl": "https://geom.ivd.kit.edu/english/21_88.php",
+      "section": "Emeriti and retired Professors",
+      "researchGroups": [
+        "Applied Geometry"
+      ],
+      "institutes": [
+        "Institute for Visualization und Data Analysis"
+      ],
+      "sourceUrl": "https://www.informatik.kit.edu/english/5097.php"
+    },
+    {
+      "officialId": "prof. dr. alfred schmitt",
+      "name": "Prof. Dr. Alfred Schmitt",
+      "profileUrl": "https://cg.ivd.kit.edu/english/staff/emeritus/schmitt/index_schmitt.php",
+      "section": "Emeriti and retired Professors",
+      "researchGroups": [
+        "Computer Graphics"
+      ],
+      "institutes": [
+        "Institute for Visualization und Data Analysis"
+      ],
+      "sourceUrl": "https://www.informatik.kit.edu/english/5097.php"
+    },
+    {
+      "officialId": "prof. dr. peter schmitt",
+      "name": "Prof. Dr. Peter Schmitt",
+      "profileUrl": "https://formal.kastel.kit.edu/~schmitt/",
+      "section": "Emeriti and retired Professors",
+      "researchGroups": [
+        "Logic and Formal Methods"
+      ],
+      "institutes": [
+        "Institute of Theoretical Informatics"
+      ],
+      "sourceUrl": "https://www.informatik.kit.edu/english/5097.php"
+    },
+    {
+      "officialId": "prof. dr. adolf schreiner †",
+      "name": "Prof. Dr. Adolf Schreiner †",
+      "profileUrl": null,
+      "section": "Emeriti and retired Professors",
+      "researchGroups": [],
+      "institutes": [
+        "Institute for Program Structures und Data Organization"
+      ],
+      "sourceUrl": "https://www.informatik.kit.edu/english/5097.php"
+    },
+    {
+      "officialId": "prof. dr. gregor snelting",
+      "name": "Prof. Dr. Gregor Snelting",
+      "profileUrl": "https://pp.ipd.kit.edu/personhp/gregor_snelting.php",
+      "section": "Emeriti and retired Professors",
+      "researchGroups": [
+        "Programming Paradigms"
+      ],
+      "institutes": [
+        "Institute for Program Structures und Data Organization"
+      ],
+      "sourceUrl": "https://www.informatik.kit.edu/english/5097.php"
+    },
+    {
+      "officialId": "prof. dr. walter tichy",
+      "name": "Prof. Dr. Walter Tichy",
+      "profileUrl": "https://ps.ipd.kit.edu/176_376.php",
+      "section": "Emeriti and retired Professors",
+      "researchGroups": [
+        "Programming Systems"
+      ],
+      "institutes": [
+        "Institute for Program Structures und Data Organization"
+      ],
+      "sourceUrl": "https://www.informatik.kit.edu/english/5097.php"
+    },
+    {
+      "officialId": "prof. dr. roland vollmar",
+      "name": "Prof. Dr. Roland Vollmar",
+      "profileUrl": "https://www.informatik.kit.edu/english/13436.php",
+      "section": "Emeriti and retired Professors",
+      "researchGroups": [
+        "Computer Science for Engenieers and Scientists"
+      ],
+      "institutes": [
+        "Institute of Theoretical Informatics"
+      ],
+      "sourceUrl": "https://www.informatik.kit.edu/english/5097.php"
+    },
+    {
+      "officialId": "prof. dr. dorothea wagner",
+      "name": "Prof. Dr. Dorothea Wagner",
+      "profileUrl": "https://i11www.iti.kit.edu/en/members/dorothea_wagner/index",
+      "section": "Emeriti and retired Professors",
+      "researchGroups": [
+        "Algorithmics"
+      ],
+      "institutes": [
+        "Institute of Theoretical Informatics"
+      ],
+      "sourceUrl": "https://www.informatik.kit.edu/english/5097.php"
+    },
+    {
+      "officialId": "prof. dr. alexander waibel",
+      "name": "Prof. Dr. Alexander Waibel",
+      "profileUrl": "https://isl.iar.kit.edu/english/21_74.php",
+      "section": "Emeriti and retired Professors",
+      "researchGroups": [
+        "Interactive Systems Lab (ISL)"
+      ],
+      "institutes": [
+        "Institute for Anthropomatics and Robotics"
+      ],
+      "sourceUrl": "https://www.informatik.kit.edu/english/5097.php"
+    },
+    {
+      "officialId": "prof. dr. heinz wörn",
+      "name": "Prof. Dr. Heinz Wörn",
+      "profileUrl": "https://www.informatik.kit.edu/english/ipr.iar.kit.edu/mitarbeiter_96.php",
+      "section": "Emeriti and retired Professors",
+      "researchGroups": [
+        "Intelligent Process Automation and Robotics Lab"
+      ],
+      "institutes": [
+        "Institute for Anthropomatics and Robotics"
+      ],
+      "sourceUrl": "https://www.informatik.kit.edu/english/5097.php"
+    }
+  ]
+}

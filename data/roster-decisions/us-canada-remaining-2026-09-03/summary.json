@@ -1,0 +1,41 @@
+{
+  "schemaVersion": 1,
+  "checkedAt": "2026-09-03",
+  "region": "United States / Canada",
+  "note": "Canada currently has no additional frozen official-roster artifact outside previously completed Canada batches; this artifact closes every remaining US frozen roster and resolves every US pending row without overwriting prior decisions.",
+  "newlyReviewedUnits": 22,
+  "newlyReviewedFrozenRows": 2675,
+  "resolvedPriorPendingRows": 194,
+  "unresolvedPendingRows": 0,
+  "counts": {
+    "excluded_historical": 225,
+    "excluded_non_ai_cs": 403,
+    "excluded_non_pi": 837,
+    "include_new_pi": 1332,
+    "included_existing": 72
+  },
+  "unitFiles": [
+    "uiuc-ece.json",
+    "umd-cs.json",
+    "umd-umiacs.json",
+    "ucsd-cse.json",
+    "ucsd-ece.json",
+    "gatech-coc.json",
+    "gatech-ic.json",
+    "jhu-cs.json",
+    "jhu-clsp.json",
+    "upenn-cis.json",
+    "upenn-grasp.json",
+    "wisc-cs.json",
+    "utexas-ece.json",
+    "ucla-cs.json",
+    "ucla-ece.json",
+    "nyu-cs.json",
+    "purdue-cs.json",
+    "uw-ece.json",
+    "umich-cse.json",
+    "usc-cs.json",
+    "usc-isi.json",
+    "uva-cs.json"
+  ]
+}

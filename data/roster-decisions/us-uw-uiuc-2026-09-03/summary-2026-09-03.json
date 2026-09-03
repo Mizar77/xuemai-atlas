@@ -1,0 +1,59 @@
+{
+  "schemaVersion": 1,
+  "snapshotAt": "2026-09-03",
+  "scope": "UW Allen School and UIUC Siebel School frozen-roster person decisions",
+  "dedupeKey": "rosterName+unitUrl",
+  "units": {
+    "uw-allen-school": {
+      "frozenOfficialRosterCount": 264,
+      "preexistingDecisionCount": 0,
+      "newDecisionCount": 264,
+      "counts": {
+        "excluded_industry_only": 47,
+        "include_new_pi": 41,
+        "excluded_non_pi": 124,
+        "excluded_historical": 18,
+        "included_existing": 7,
+        "excluded_non_ai_cs": 27
+      },
+      "outputPath": "data/roster-decisions/us-uw-uiuc-2026-09-03/uw-allen-school-2026-09-03.json",
+      "unresolvedPending": 0,
+      "moduleCompleteCount": 8,
+      "queuedAfterScopeDecisionCount": 33
+    },
+    "uiuc-siebel-school": {
+      "frozenOfficialRosterCount": 251,
+      "preexistingDecisionCount": 1,
+      "newDecisionCount": 250,
+      "counts": {
+        "excluded_non_ai_cs": 95,
+        "excluded_non_pi": 62,
+        "excluded_historical": 14,
+        "include_new_pi": 74,
+        "included_existing": 5
+      },
+      "outputPath": "data/roster-decisions/us-uw-uiuc-2026-09-03/uiuc-siebel-school-2026-09-03.json",
+      "unresolvedPending": 0,
+      "moduleCompleteCount": 7,
+      "queuedAfterScopeDecisionCount": 67
+    }
+  },
+  "totals": {
+    "frozenOfficialRosterCount": 515,
+    "preexistingDecisionCount": 1,
+    "newDecisionCount": 514,
+    "counts": {
+      "excluded_industry_only": 47,
+      "include_new_pi": 115,
+      "excluded_non_pi": 186,
+      "excluded_historical": 32,
+      "included_existing": 12,
+      "excluded_non_ai_cs": 122
+    },
+    "unresolvedPending": 0,
+    "moduleCompleteCount": 15,
+    "queuedAfterScopeDecisionCount": 100
+  },
+  "profileEvidenceCache": "data/roster-decisions/us-uw-uiuc-2026-09-03/profile-evidence-cache-2026-09-03.json",
+  "inclusionSemantics": "include_new_pi is a completed scope decision; enrichmentStatus distinguishes the 15 complete expansion records from confirmed in-scope PIs queued for later profile enrichment."
+}

@@ -1,0 +1,3209 @@
+{
+  "schemaVersion": 1,
+  "checkedAt": "2026-09-03",
+  "scope": "Mainland P0 third-pass: 127 relationship-only gaps + 18 facts-only gaps",
+  "source": "data/candidate-priority-p0-mainland-second-pass-disposition-2026-09-03.json",
+  "candidateCount": 145,
+  "reviewedCount": 145,
+  "byOriginalGap": {
+    "first_party_relationship": 127,
+    "three_to_five_sourced_facts": 18
+  },
+  "byVerificationState": {
+    "missing_first_party_relationship": 127,
+    "missing_sourced_facts": 18
+  },
+  "automaticallyPublished": 0,
+  "records": [
+    {
+      "canonicalKey": "Mainland China:上海交通大学:丁宁",
+      "name": "丁宁",
+      "institution": "上海交通大学",
+      "profileUrl": "https://www.cs.sjtu.edu.cn/jiaoshiml/dingning.html",
+      "originalGap": "first_party_relationship",
+      "discovery": {
+        "query": "\"丁宁\" \"上海交通大学\" (导师 OR advisor OR supervised OR CV OR 学生 OR alumni)",
+        "url": "https://search.brave.com/search?q=%22%E4%B8%81%E5%AE%81%22%20%22%E4%B8%8A%E6%B5%B7%E4%BA%A4%E9%80%9A%E5%A4%A7%E5%AD%A6%22%20(%E5%AF%BC%E5%B8%88%20OR%20advisor%20OR%20supervised%20OR%20CV%20OR%20%E5%AD%A6%E7%94%9F%20OR%20alumni)&source=web",
+        "fetch": {
+          "ok": false,
+          "status": 429
+        },
+        "urls": []
+      },
+      "checkedPages": [],
+      "newRelationshipLeads": [],
+      "newFacts": [],
+      "verificationState": "missing_first_party_relationship",
+      "disposition": "missing_relationship",
+      "reason": "第三轮检索本人 CV、博士论文、实验室与官方项目/新闻入口后，仍缺 first_party_relationship。"
+    },
+    {
+      "canonicalKey": "Mainland China:上海交通大学:丁玥",
+      "name": "丁玥",
+      "institution": "上海交通大学",
+      "profileUrl": "https://www.cs.sjtu.edu.cn/jiaoshiml/dingyue.html",
+      "originalGap": "first_party_relationship",
+      "discovery": {
+        "query": "\"丁玥\" \"上海交通大学\" (导师 OR advisor OR supervised OR CV OR 学生 OR alumni)",
+        "url": "https://search.brave.com/search?q=%22%E4%B8%81%E7%8E%A5%22%20%22%E4%B8%8A%E6%B5%B7%E4%BA%A4%E9%80%9A%E5%A4%A7%E5%AD%A6%22%20(%E5%AF%BC%E5%B8%88%20OR%20advisor%20OR%20supervised%20OR%20CV%20OR%20%E5%AD%A6%E7%94%9F%20OR%20alumni)&source=web",
+        "fetch": {
+          "ok": false,
+          "status": 429
+        },
+        "urls": []
+      },
+      "checkedPages": [],
+      "newRelationshipLeads": [],
+      "newFacts": [],
+      "verificationState": "missing_first_party_relationship",
+      "disposition": "missing_relationship",
+      "reason": "第三轮检索本人 CV、博士论文、实验室与官方项目/新闻入口后，仍缺 first_party_relationship。"
+    },
+    {
+      "canonicalKey": "Mainland China:上海交通大学:冯宇",
+      "name": "冯宇",
+      "institution": "上海交通大学",
+      "profileUrl": "https://www.cs.sjtu.edu.cn/jiaoshiml/fengyu.html",
+      "originalGap": "first_party_relationship",
+      "discovery": {
+        "query": "\"冯宇\" \"上海交通大学\" (导师 OR advisor OR supervised OR CV OR 学生 OR alumni)",
+        "url": "https://search.brave.com/search?q=%22%E5%86%AF%E5%AE%87%22%20%22%E4%B8%8A%E6%B5%B7%E4%BA%A4%E9%80%9A%E5%A4%A7%E5%AD%A6%22%20(%E5%AF%BC%E5%B8%88%20OR%20advisor%20OR%20supervised%20OR%20CV%20OR%20%E5%AD%A6%E7%94%9F%20OR%20alumni)&source=web",
+        "fetch": {
+          "ok": false,
+          "status": 429
+        },
+        "urls": []
+      },
+      "checkedPages": [],
+      "newRelationshipLeads": [],
+      "newFacts": [],
+      "verificationState": "missing_first_party_relationship",
+      "disposition": "missing_relationship",
+      "reason": "第三轮检索本人 CV、博士论文、实验室与官方项目/新闻入口后，仍缺 first_party_relationship。"
+    },
+    {
+      "canonicalKey": "Mainland China:上海交通大学:刘盛云",
+      "name": "刘盛云",
+      "institution": "上海交通大学",
+      "profileUrl": "https://www.cs.sjtu.edu.cn/jiaoshiml/liushengyun.html",
+      "originalGap": "first_party_relationship",
+      "discovery": {
+        "query": "\"刘盛云\" \"上海交通大学\" (导师 OR advisor OR supervised OR CV OR 学生 OR alumni)",
+        "url": "https://search.brave.com/search?q=%22%E5%88%98%E7%9B%9B%E4%BA%91%22%20%22%E4%B8%8A%E6%B5%B7%E4%BA%A4%E9%80%9A%E5%A4%A7%E5%AD%A6%22%20(%E5%AF%BC%E5%B8%88%20OR%20advisor%20OR%20supervised%20OR%20CV%20OR%20%E5%AD%A6%E7%94%9F%20OR%20alumni)&source=web",
+        "fetch": {
+          "ok": false,
+          "status": 429
+        },
+        "urls": []
+      },
+      "checkedPages": [],
+      "newRelationshipLeads": [],
+      "newFacts": [],
+      "verificationState": "missing_first_party_relationship",
+      "disposition": "missing_relationship",
+      "reason": "第三轮检索本人 CV、博士论文、实验室与官方项目/新闻入口后，仍缺 first_party_relationship。"
+    },
+    {
+      "canonicalKey": "Mainland China:上海交通大学:张倬胜",
+      "name": "张倬胜",
+      "institution": "上海交通大学",
+      "profileUrl": "https://www.cs.sjtu.edu.cn/jiaoshiml/zhangzhuosheng.html",
+      "originalGap": "first_party_relationship",
+      "discovery": {
+        "query": "\"张倬胜\" \"上海交通大学\" (导师 OR advisor OR supervised OR CV OR 学生 OR alumni)",
+        "url": "https://search.brave.com/search?q=%22%E5%BC%A0%E5%80%AC%E8%83%9C%22%20%22%E4%B8%8A%E6%B5%B7%E4%BA%A4%E9%80%9A%E5%A4%A7%E5%AD%A6%22%20(%E5%AF%BC%E5%B8%88%20OR%20advisor%20OR%20supervised%20OR%20CV%20OR%20%E5%AD%A6%E7%94%9F%20OR%20alumni)&source=web",
+        "fetch": {
+          "ok": false,
+          "status": 429
+        },
+        "urls": []
+      },
+      "checkedPages": [],
+      "newRelationshipLeads": [],
+      "newFacts": [],
+      "verificationState": "missing_first_party_relationship",
+      "disposition": "missing_relationship",
+      "reason": "第三轮检索本人 CV、博士论文、实验室与官方项目/新闻入口后，仍缺 first_party_relationship。"
+    },
+    {
+      "canonicalKey": "Mainland China:上海交通大学:张晓涵",
+      "name": "张晓涵",
+      "institution": "上海交通大学",
+      "profileUrl": "https://www.cs.sjtu.edu.cn/jiaoshiml/zhangxiaohan.html",
+      "originalGap": "three_to_five_sourced_facts",
+      "discovery": {
+        "query": "\"张晓涵\" \"上海交通大学\" (导师 OR advisor OR supervised OR CV OR 学生 OR alumni)",
+        "url": "https://search.brave.com/search?q=%22%E5%BC%A0%E6%99%93%E6%B6%B5%22%20%22%E4%B8%8A%E6%B5%B7%E4%BA%A4%E9%80%9A%E5%A4%A7%E5%AD%A6%22%20(%E5%AF%BC%E5%B8%88%20OR%20advisor%20OR%20supervised%20OR%20CV%20OR%20%E5%AD%A6%E7%94%9F%20OR%20alumni)&source=web",
+        "fetch": {
+          "ok": false,
+          "status": 429
+        },
+        "urls": []
+      },
+      "checkedPages": [],
+      "newRelationshipLeads": [],
+      "newFacts": [],
+      "verificationState": "missing_sourced_facts",
+      "disposition": "missing_portrait",
+      "reason": "第三轮检索本人 CV、博士论文、实验室与官方项目/新闻入口后，仍缺 three_to_five_sourced_facts。"
+    },
+    {
+      "canonicalKey": "Mainland China:上海交通大学:徐燕虹",
+      "name": "徐燕虹",
+      "institution": "上海交通大学",
+      "profileUrl": "https://www.cs.sjtu.edu.cn/jiaoshiml/xuyanhong.html",
+      "originalGap": "first_party_relationship",
+      "discovery": {
+        "query": "\"徐燕虹\" \"上海交通大学\" (导师 OR advisor OR supervised OR CV OR 学生 OR alumni)",
+        "url": "https://search.brave.com/search?q=%22%E5%BE%90%E7%87%95%E8%99%B9%22%20%22%E4%B8%8A%E6%B5%B7%E4%BA%A4%E9%80%9A%E5%A4%A7%E5%AD%A6%22%20(%E5%AF%BC%E5%B8%88%20OR%20advisor%20OR%20supervised%20OR%20CV%20OR%20%E5%AD%A6%E7%94%9F%20OR%20alumni)&source=web",
+        "fetch": {
+          "ok": false,
+          "status": 429
+        },
+        "urls": []
+      },
+      "checkedPages": [],
+      "newRelationshipLeads": [],
+      "newFacts": [],
+      "verificationState": "missing_first_party_relationship",
+      "disposition": "missing_relationship",
+      "reason": "第三轮检索本人 CV、博士论文、实验室与官方项目/新闻入口后，仍缺 first_party_relationship。"
+    },
+    {
+      "canonicalKey": "Mainland China:上海交通大学:徐磊",
+      "name": "徐磊",
+      "institution": "上海交通大学",
+      "profileUrl": "https://www.cs.sjtu.edu.cn/jiaoshiml/xulei.html",
+      "originalGap": "three_to_five_sourced_facts",
+      "discovery": {
+        "query": "\"徐磊\" \"上海交通大学\" (导师 OR advisor OR supervised OR CV OR 学生 OR alumni)",
+        "url": "https://search.brave.com/search?q=%22%E5%BE%90%E7%A3%8A%22%20%22%E4%B8%8A%E6%B5%B7%E4%BA%A4%E9%80%9A%E5%A4%A7%E5%AD%A6%22%20(%E5%AF%BC%E5%B8%88%20OR%20advisor%20OR%20supervised%20OR%20CV%20OR%20%E5%AD%A6%E7%94%9F%20OR%20alumni)&source=web",
+        "fetch": {
+          "ok": false,
+          "status": 429
+        },
+        "urls": []
+      },
+      "checkedPages": [],
+      "newRelationshipLeads": [],
+      "newFacts": [],
+      "verificationState": "missing_sourced_facts",
+      "disposition": "missing_portrait",
+      "reason": "第三轮检索本人 CV、博士论文、实验室与官方项目/新闻入口后，仍缺 three_to_five_sourced_facts。"
+    },
+    {
+      "canonicalKey": "Mainland China:上海交通大学:晏轶超",
+      "name": "晏轶超",
+      "institution": "上海交通大学",
+      "profileUrl": "https://www.cs.sjtu.edu.cn/jiaoshiml/yanyichao.html",
+      "originalGap": "three_to_five_sourced_facts",
+      "discovery": {
+        "query": "\"晏轶超\" \"上海交通大学\" (导师 OR advisor OR supervised OR CV OR 学生 OR alumni)",
+        "url": "https://search.brave.com/search?q=%22%E6%99%8F%E8%BD%B6%E8%B6%85%22%20%22%E4%B8%8A%E6%B5%B7%E4%BA%A4%E9%80%9A%E5%A4%A7%E5%AD%A6%22%20(%E5%AF%BC%E5%B8%88%20OR%20advisor%20OR%20supervised%20OR%20CV%20OR%20%E5%AD%A6%E7%94%9F%20OR%20alumni)&source=web",
+        "fetch": {
+          "ok": false,
+          "status": 429
+        },
+        "urls": []
+      },
+      "checkedPages": [],
+      "newRelationshipLeads": [],
+      "newFacts": [],
+      "verificationState": "missing_sourced_facts",
+      "disposition": "missing_portrait",
+      "reason": "第三轮检索本人 CV、博士论文、实验室与官方项目/新闻入口后，仍缺 three_to_five_sourced_facts。"
+    },
+    {
+      "canonicalKey": "Mainland China:上海交通大学:李伟",
+      "name": "李伟",
+      "institution": "上海交通大学",
+      "profileUrl": "https://www.cs.sjtu.edu.cn/jiaoshiml/liwei.html",
+      "originalGap": "three_to_five_sourced_facts",
+      "discovery": {
+        "query": "\"李伟\" \"上海交通大学\" (导师 OR advisor OR supervised OR CV OR 学生 OR alumni)",
+        "url": "https://search.brave.com/search?q=%22%E6%9D%8E%E4%BC%9F%22%20%22%E4%B8%8A%E6%B5%B7%E4%BA%A4%E9%80%9A%E5%A4%A7%E5%AD%A6%22%20(%E5%AF%BC%E5%B8%88%20OR%20advisor%20OR%20supervised%20OR%20CV%20OR%20%E5%AD%A6%E7%94%9F%20OR%20alumni)&source=web",
+        "fetch": {
+          "ok": false,
+          "status": 429
+        },
+        "urls": []
+      },
+      "checkedPages": [],
+      "newRelationshipLeads": [],
+      "newFacts": [],
+      "verificationState": "missing_sourced_facts",
+      "disposition": "missing_portrait",
+      "reason": "第三轮检索本人 CV、博士论文、实验室与官方项目/新闻入口后，仍缺 three_to_five_sourced_facts。"
+    },
+    {
+      "canonicalKey": "Mainland China:上海交通大学:李健",
+      "name": "李健",
+      "institution": "上海交通大学",
+      "profileUrl": "https://www.cs.sjtu.edu.cn/jiaoshiml/lijian.html",
+      "originalGap": "first_party_relationship",
+      "discovery": {
+        "query": "\"李健\" \"上海交通大学\" (导师 OR advisor OR supervised OR CV OR 学生 OR alumni)",
+        "url": "https://search.brave.com/search?q=%22%E6%9D%8E%E5%81%A5%22%20%22%E4%B8%8A%E6%B5%B7%E4%BA%A4%E9%80%9A%E5%A4%A7%E5%AD%A6%22%20(%E5%AF%BC%E5%B8%88%20OR%20advisor%20OR%20supervised%20OR%20CV%20OR%20%E5%AD%A6%E7%94%9F%20OR%20alumni)&source=web",
+        "fetch": {
+          "ok": false,
+          "status": 429
+        },
+        "urls": []
+      },
+      "checkedPages": [],
+      "newRelationshipLeads": [],
+      "newFacts": [],
+      "verificationState": "missing_first_party_relationship",
+      "disposition": "missing_relationship",
+      "reason": "第三轮检索本人 CV、博士论文、实验室与官方项目/新闻入口后，仍缺 first_party_relationship。"
+    },
+    {
+      "canonicalKey": "Mainland China:上海交通大学:李晨达",
+      "name": "李晨达",
+      "institution": "上海交通大学",
+      "profileUrl": "https://www.cs.sjtu.edu.cn/jiaoshiml/lichenda.html",
+      "originalGap": "first_party_relationship",
+      "discovery": {
+        "query": "\"李晨达\" \"上海交通大学\" (导师 OR advisor OR supervised OR CV OR 学生 OR alumni)",
+        "url": "https://search.brave.com/search?q=%22%E6%9D%8E%E6%99%A8%E8%BE%BE%22%20%22%E4%B8%8A%E6%B5%B7%E4%BA%A4%E9%80%9A%E5%A4%A7%E5%AD%A6%22%20(%E5%AF%BC%E5%B8%88%20OR%20advisor%20OR%20supervised%20OR%20CV%20OR%20%E5%AD%A6%E7%94%9F%20OR%20alumni)&source=web",
+        "fetch": {
+          "ok": false,
+          "status": 429
+        },
+        "urls": []
+      },
+      "checkedPages": [],
+      "newRelationshipLeads": [],
+      "newFacts": [],
+      "verificationState": "missing_first_party_relationship",
+      "disposition": "missing_relationship",
+      "reason": "第三轮检索本人 CV、博士论文、实验室与官方项目/新闻入口后，仍缺 first_party_relationship。"
+    },
+    {
+      "canonicalKey": "Mainland China:上海交通大学:李阳",
+      "name": "李阳",
+      "institution": "上海交通大学",
+      "profileUrl": "https://www.cs.sjtu.edu.cn/jiaoshiml/l.html",
+      "originalGap": "three_to_five_sourced_facts",
+      "discovery": {
+        "query": "\"李阳\" \"上海交通大学\" (导师 OR advisor OR supervised OR CV OR 学生 OR alumni)",
+        "url": "https://search.brave.com/search?q=%22%E6%9D%8E%E9%98%B3%22%20%22%E4%B8%8A%E6%B5%B7%E4%BA%A4%E9%80%9A%E5%A4%A7%E5%AD%A6%22%20(%E5%AF%BC%E5%B8%88%20OR%20advisor%20OR%20supervised%20OR%20CV%20OR%20%E5%AD%A6%E7%94%9F%20OR%20alumni)&source=web",
+        "fetch": {
+          "ok": false,
+          "status": 429
+        },
+        "urls": []
+      },
+      "checkedPages": [],
+      "newRelationshipLeads": [],
+      "newFacts": [],
+      "verificationState": "missing_sourced_facts",
+      "disposition": "missing_portrait",
+      "reason": "第三轮检索本人 CV、博士论文、实验室与官方项目/新闻入口后，仍缺 three_to_five_sourced_facts。"
+    },
+    {
+      "canonicalKey": "Mainland China:上海交通大学:杨一博",
+      "name": "杨一博",
+      "institution": "上海交通大学",
+      "profileUrl": "https://sai.sjtu.edu.cn/cn/facultydetails/zzjs/yangyibo",
+      "originalGap": "first_party_relationship",
+      "discovery": {
+        "query": "\"杨一博\" \"上海交通大学\" (导师 OR advisor OR supervised OR CV OR 学生 OR alumni)",
+        "url": "https://search.brave.com/search?q=%22%E6%9D%A8%E4%B8%80%E5%8D%9A%22%20%22%E4%B8%8A%E6%B5%B7%E4%BA%A4%E9%80%9A%E5%A4%A7%E5%AD%A6%22%20(%E5%AF%BC%E5%B8%88%20OR%20advisor%20OR%20supervised%20OR%20CV%20OR%20%E5%AD%A6%E7%94%9F%20OR%20alumni)&source=web",
+        "fetch": {
+          "ok": false,
+          "status": 429
+        },
+        "urls": []
+      },
+      "checkedPages": [],
+      "newRelationshipLeads": [],
+      "newFacts": [],
+      "verificationState": "missing_first_party_relationship",
+      "disposition": "missing_relationship",
+      "reason": "第三轮检索本人 CV、博士论文、实验室与官方项目/新闻入口后，仍缺 first_party_relationship。"
+    },
+    {
+      "canonicalKey": "Mainland China:上海交通大学:林洲汉",
+      "name": "林洲汉",
+      "institution": "上海交通大学",
+      "profileUrl": "https://sai.sjtu.edu.cn/cn/facultydetails/zzjs/linzhouhan",
+      "originalGap": "three_to_five_sourced_facts",
+      "discovery": {
+        "query": "\"林洲汉\" \"上海交通大学\" (导师 OR advisor OR supervised OR CV OR 学生 OR alumni)",
+        "url": "https://search.brave.com/search?q=%22%E6%9E%97%E6%B4%B2%E6%B1%89%22%20%22%E4%B8%8A%E6%B5%B7%E4%BA%A4%E9%80%9A%E5%A4%A7%E5%AD%A6%22%20(%E5%AF%BC%E5%B8%88%20OR%20advisor%20OR%20supervised%20OR%20CV%20OR%20%E5%AD%A6%E7%94%9F%20OR%20alumni)&source=web",
+        "fetch": {
+          "ok": false,
+          "status": 429
+        },
+        "urls": []
+      },
+      "checkedPages": [],
+      "newRelationshipLeads": [],
+      "newFacts": [],
+      "verificationState": "missing_sourced_facts",
+      "disposition": "missing_relationship",
+      "reason": "第三轮检索本人 CV、博士论文、实验室与官方项目/新闻入口后，仍缺 three_to_five_sourced_facts。"
+    },
+    {
+      "canonicalKey": "Mainland China:上海交通大学:柯晶",
+      "name": "柯晶",
+      "institution": "上海交通大学",
+      "profileUrl": "https://www.cs.sjtu.edu.cn/jiaoshiml/kejing.html",
+      "originalGap": "first_party_relationship",
+      "discovery": {
+        "query": "\"柯晶\" \"上海交通大学\" (导师 OR advisor OR supervised OR CV OR 学生 OR alumni)",
+        "url": "https://search.brave.com/search?q=%22%E6%9F%AF%E6%99%B6%22%20%22%E4%B8%8A%E6%B5%B7%E4%BA%A4%E9%80%9A%E5%A4%A7%E5%AD%A6%22%20(%E5%AF%BC%E5%B8%88%20OR%20advisor%20OR%20supervised%20OR%20CV%20OR%20%E5%AD%A6%E7%94%9F%20OR%20alumni)&source=web",
+        "fetch": {
+          "ok": false,
+          "status": 429
+        },
+        "urls": []
+      },
+      "checkedPages": [],
+      "newRelationshipLeads": [],
+      "newFacts": [],
+      "verificationState": "missing_first_party_relationship",
+      "disposition": "missing_relationship",
+      "reason": "第三轮检索本人 CV、博士论文、实验室与官方项目/新闻入口后，仍缺 first_party_relationship。"
+    },
+    {
+      "canonicalKey": "Mainland China:上海交通大学:沈艳艳",
+      "name": "沈艳艳",
+      "institution": "上海交通大学",
+      "profileUrl": "https://www.cs.sjtu.edu.cn/jiaoshiml/shenyanyan.html",
+      "originalGap": "first_party_relationship",
+      "discovery": {
+        "query": "\"沈艳艳\" \"上海交通大学\" (导师 OR advisor OR supervised OR CV OR 学生 OR alumni)",
+        "url": "https://search.brave.com/search?q=%22%E6%B2%88%E8%89%B3%E8%89%B3%22%20%22%E4%B8%8A%E6%B5%B7%E4%BA%A4%E9%80%9A%E5%A4%A7%E5%AD%A6%22%20(%E5%AF%BC%E5%B8%88%20OR%20advisor%20OR%20supervised%20OR%20CV%20OR%20%E5%AD%A6%E7%94%9F%20OR%20alumni)&source=web",
+        "fetch": {
+          "ok": false,
+          "status": 429
+        },
+        "urls": []
+      },
+      "checkedPages": [],
+      "newRelationshipLeads": [],
+      "newFacts": [],
+      "verificationState": "missing_first_party_relationship",
+      "disposition": "missing_relationship",
+      "reason": "第三轮检索本人 CV、博士论文、实验室与官方项目/新闻入口后，仍缺 first_party_relationship。"
+    },
+    {
+      "canonicalKey": "Mainland China:上海交通大学:洪佳楠",
+      "name": "洪佳楠",
+      "institution": "上海交通大学",
+      "profileUrl": "https://www.cs.sjtu.edu.cn/jiaoshiml/hongjianan.html",
+      "originalGap": "three_to_five_sourced_facts",
+      "discovery": {
+        "query": "\"洪佳楠\" \"上海交通大学\" (导师 OR advisor OR supervised OR CV OR 学生 OR alumni)",
+        "url": "https://search.brave.com/search?q=%22%E6%B4%AA%E4%BD%B3%E6%A5%A0%22%20%22%E4%B8%8A%E6%B5%B7%E4%BA%A4%E9%80%9A%E5%A4%A7%E5%AD%A6%22%20(%E5%AF%BC%E5%B8%88%20OR%20advisor%20OR%20supervised%20OR%20CV%20OR%20%E5%AD%A6%E7%94%9F%20OR%20alumni)&source=web",
+        "fetch": {
+          "ok": false,
+          "status": 429
+        },
+        "urls": []
+      },
+      "checkedPages": [],
+      "newRelationshipLeads": [],
+      "newFacts": [],
+      "verificationState": "missing_sourced_facts",
+      "disposition": "missing_relationship",
+      "reason": "第三轮检索本人 CV、博士论文、实验室与官方项目/新闻入口后，仍缺 three_to_five_sourced_facts。"
+    },
+    {
+      "canonicalKey": "Mainland China:上海交通大学:潘理",
+      "name": "潘理",
+      "institution": "上海交通大学",
+      "profileUrl": "https://www.cs.sjtu.edu.cn/jiaoshiml/panli.html",
+      "originalGap": "first_party_relationship",
+      "discovery": {
+        "query": "\"潘理\" \"上海交通大学\" (导师 OR advisor OR supervised OR CV OR 学生 OR alumni)",
+        "url": "https://search.brave.com/search?q=%22%E6%BD%98%E7%90%86%22%20%22%E4%B8%8A%E6%B5%B7%E4%BA%A4%E9%80%9A%E5%A4%A7%E5%AD%A6%22%20(%E5%AF%BC%E5%B8%88%20OR%20advisor%20OR%20supervised%20OR%20CV%20OR%20%E5%AD%A6%E7%94%9F%20OR%20alumni)&source=web",
+        "fetch": {
+          "ok": false,
+          "status": 429
+        },
+        "urls": []
+      },
+      "checkedPages": [],
+      "newRelationshipLeads": [],
+      "newFacts": [],
+      "verificationState": "missing_first_party_relationship",
+      "disposition": "missing_relationship",
+      "reason": "第三轮检索本人 CV、博士论文、实验室与官方项目/新闻入口后，仍缺 first_party_relationship。"
+    },
+    {
+      "canonicalKey": "Mainland China:上海交通大学:王士林",
+      "name": "王士林",
+      "institution": "上海交通大学",
+      "profileUrl": "https://www.cs.sjtu.edu.cn/jiaoshiml/wangshilin.html",
+      "originalGap": "first_party_relationship",
+      "discovery": {
+        "query": "\"王士林\" \"上海交通大学\" (导师 OR advisor OR supervised OR CV OR 学生 OR alumni)",
+        "url": "https://search.brave.com/search?q=%22%E7%8E%8B%E5%A3%AB%E6%9E%97%22%20%22%E4%B8%8A%E6%B5%B7%E4%BA%A4%E9%80%9A%E5%A4%A7%E5%AD%A6%22%20(%E5%AF%BC%E5%B8%88%20OR%20advisor%20OR%20supervised%20OR%20CV%20OR%20%E5%AD%A6%E7%94%9F%20OR%20alumni)&source=web",
+        "fetch": {
+          "ok": false,
+          "status": 429
+        },
+        "urls": []
+      },
+      "checkedPages": [],
+      "newRelationshipLeads": [],
+      "newFacts": [],
+      "verificationState": "missing_first_party_relationship",
+      "disposition": "missing_relationship",
+      "reason": "第三轮检索本人 CV、博士论文、实验室与官方项目/新闻入口后，仍缺 first_party_relationship。"
+    },
+    {
+      "canonicalKey": "Mainland China:上海交通大学:程远",
+      "name": "程远",
+      "institution": "上海交通大学",
+      "profileUrl": "https://sai.sjtu.edu.cn/cn/facultydetails/zzjs/chengyuan",
+      "originalGap": "three_to_five_sourced_facts",
+      "discovery": {
+        "query": "\"程远\" \"上海交通大学\" (导师 OR advisor OR supervised OR CV OR 学生 OR alumni)",
+        "url": "https://search.brave.com/search?q=%22%E7%A8%8B%E8%BF%9C%22%20%22%E4%B8%8A%E6%B5%B7%E4%BA%A4%E9%80%9A%E5%A4%A7%E5%AD%A6%22%20(%E5%AF%BC%E5%B8%88%20OR%20advisor%20OR%20supervised%20OR%20CV%20OR%20%E5%AD%A6%E7%94%9F%20OR%20alumni)&source=web",
+        "fetch": {
+          "ok": false,
+          "status": 429
+        },
+        "urls": []
+      },
+      "checkedPages": [],
+      "newRelationshipLeads": [],
+      "newFacts": [],
+      "verificationState": "missing_sourced_facts",
+      "disposition": "missing_relationship",
+      "reason": "第三轮检索本人 CV、博士论文、实验室与官方项目/新闻入口后，仍缺 three_to_five_sourced_facts。"
+    },
+    {
+      "canonicalKey": "Mainland China:上海交通大学:娄炯",
+      "name": "娄炯",
+      "institution": "上海交通大学",
+      "profileUrl": "https://www.cs.sjtu.edu.cn/jiaoshiml/loujiong.html",
+      "originalGap": "three_to_five_sourced_facts",
+      "discovery": {
+        "query": "\"娄炯\" \"上海交通大学\" (导师 OR advisor OR supervised OR CV OR 学生 OR alumni)",
+        "url": "https://search.brave.com/search?q=%22%E5%A8%84%E7%82%AF%22%20%22%E4%B8%8A%E6%B5%B7%E4%BA%A4%E9%80%9A%E5%A4%A7%E5%AD%A6%22%20(%E5%AF%BC%E5%B8%88%20OR%20advisor%20OR%20supervised%20OR%20CV%20OR%20%E5%AD%A6%E7%94%9F%20OR%20alumni)&source=web",
+        "fetch": {
+          "ok": false,
+          "status": 429
+        },
+        "urls": []
+      },
+      "checkedPages": [],
+      "newRelationshipLeads": [],
+      "newFacts": [],
+      "verificationState": "missing_sourced_facts",
+      "disposition": "missing_relationship",
+      "reason": "第三轮检索本人 CV、博士论文、实验室与官方项目/新闻入口后，仍缺 three_to_five_sourced_facts。"
+    },
+    {
+      "canonicalKey": "Mainland China:上海交通大学:苏锐丹",
+      "name": "苏锐丹",
+      "institution": "上海交通大学",
+      "profileUrl": "https://www.cs.sjtu.edu.cn/jiaoshiml/suruidan.html",
+      "originalGap": "first_party_relationship",
+      "discovery": {
+        "query": "\"苏锐丹\" \"上海交通大学\" (导师 OR advisor OR supervised OR CV OR 学生 OR alumni)",
+        "url": "https://search.brave.com/search?q=%22%E8%8B%8F%E9%94%90%E4%B8%B9%22%20%22%E4%B8%8A%E6%B5%B7%E4%BA%A4%E9%80%9A%E5%A4%A7%E5%AD%A6%22%20(%E5%AF%BC%E5%B8%88%20OR%20advisor%20OR%20supervised%20OR%20CV%20OR%20%E5%AD%A6%E7%94%9F%20OR%20alumni)&source=web",
+        "fetch": {
+          "ok": false,
+          "status": 429
+        },
+        "urls": []
+      },
+      "checkedPages": [],
+      "newRelationshipLeads": [],
+      "newFacts": [],
+      "verificationState": "missing_first_party_relationship",
+      "disposition": "missing_relationship",
+      "reason": "第三轮检索本人 CV、博士论文、实验室与官方项目/新闻入口后，仍缺 first_party_relationship。"
+    },
+    {
+      "canonicalKey": "Mainland China:上海交通大学:赵沛霖",
+      "name": "赵沛霖",
+      "institution": "上海交通大学",
+      "profileUrl": "https://sai.sjtu.edu.cn/cn/facultydetails/zzjs/zhaopeilin",
+      "originalGap": "three_to_five_sourced_facts",
+      "discovery": {
+        "query": "\"赵沛霖\" \"上海交通大学\" (导师 OR advisor OR supervised OR CV OR 学生 OR alumni)",
+        "url": "https://search.brave.com/search?q=%22%E8%B5%B5%E6%B2%9B%E9%9C%96%22%20%22%E4%B8%8A%E6%B5%B7%E4%BA%A4%E9%80%9A%E5%A4%A7%E5%AD%A6%22%20(%E5%AF%BC%E5%B8%88%20OR%20advisor%20OR%20supervised%20OR%20CV%20OR%20%E5%AD%A6%E7%94%9F%20OR%20alumni)&source=web",
+        "fetch": {
+          "ok": false,
+          "status": 429
+        },
+        "urls": []
+      },
+      "checkedPages": [],
+      "newRelationshipLeads": [],
+      "newFacts": [],
+      "verificationState": "missing_sourced_facts",
+      "disposition": "missing_relationship",
+      "reason": "第三轮检索本人 CV、博士论文、实验室与官方项目/新闻入口后，仍缺 three_to_five_sourced_facts。"
+    },
+    {
+      "canonicalKey": "Mainland China:上海交通大学:郭捷",
+      "name": "郭捷",
+      "institution": "上海交通大学",
+      "profileUrl": "https://www.cs.sjtu.edu.cn/jiaoshiml/guojie.html",
+      "originalGap": "first_party_relationship",
+      "discovery": {
+        "query": "\"郭捷\" \"上海交通大学\" (导师 OR advisor OR supervised OR CV OR 学生 OR alumni)",
+        "url": "https://search.brave.com/search?q=%22%E9%83%AD%E6%8D%B7%22%20%22%E4%B8%8A%E6%B5%B7%E4%BA%A4%E9%80%9A%E5%A4%A7%E5%AD%A6%22%20(%E5%AF%BC%E5%B8%88%20OR%20advisor%20OR%20supervised%20OR%20CV%20OR%20%E5%AD%A6%E7%94%9F%20OR%20alumni)&source=web",
+        "fetch": {
+          "ok": false,
+          "status": 429
+        },
+        "urls": []
+      },
+      "checkedPages": [],
+      "newRelationshipLeads": [],
+      "newFacts": [],
+      "verificationState": "missing_first_party_relationship",
+      "disposition": "missing_relationship",
+      "reason": "第三轮检索本人 CV、博士论文、实验室与官方项目/新闻入口后，仍缺 first_party_relationship。"
+    },
+    {
+      "canonicalKey": "Mainland China:上海交通大学:陈全",
+      "name": "陈全",
+      "institution": "上海交通大学",
+      "profileUrl": "https://www.cs.sjtu.edu.cn/jiaoshiml/chenquan.html",
+      "originalGap": "first_party_relationship",
+      "discovery": {
+        "query": "\"陈全\" \"上海交通大学\" (导师 OR advisor OR supervised OR CV OR 学生 OR alumni)",
+        "url": "https://search.brave.com/search?q=%22%E9%99%88%E5%85%A8%22%20%22%E4%B8%8A%E6%B5%B7%E4%BA%A4%E9%80%9A%E5%A4%A7%E5%AD%A6%22%20(%E5%AF%BC%E5%B8%88%20OR%20advisor%20OR%20supervised%20OR%20CV%20OR%20%E5%AD%A6%E7%94%9F%20OR%20alumni)&source=web",
+        "fetch": {
+          "ok": false,
+          "status": 429
+        },
+        "urls": []
+      },
+      "checkedPages": [],
+      "newRelationshipLeads": [],
+      "newFacts": [],
+      "verificationState": "missing_first_party_relationship",
+      "disposition": "missing_relationship",
+      "reason": "第三轮检索本人 CV、博士论文、实验室与官方项目/新闻入口后，仍缺 first_party_relationship。"
+    },
+    {
+      "canonicalKey": "Mainland China:上海交通大学:陈海波",
+      "name": "陈海波",
+      "institution": "上海交通大学",
+      "profileUrl": "https://www.cs.sjtu.edu.cn/jiaoshiml/chenhaibo.html",
+      "originalGap": "three_to_five_sourced_facts",
+      "discovery": {
+        "query": "\"陈海波\" \"上海交通大学\" (导师 OR advisor OR supervised OR CV OR 学生 OR alumni)",
+        "url": "https://search.brave.com/search?q=%22%E9%99%88%E6%B5%B7%E6%B3%A2%22%20%22%E4%B8%8A%E6%B5%B7%E4%BA%A4%E9%80%9A%E5%A4%A7%E5%AD%A6%22%20(%E5%AF%BC%E5%B8%88%20OR%20advisor%20OR%20supervised%20OR%20CV%20OR%20%E5%AD%A6%E7%94%9F%20OR%20alumni)&source=web",
+        "fetch": {
+          "ok": false,
+          "status": 429
+        },
+        "urls": []
+      },
+      "checkedPages": [],
+      "newRelationshipLeads": [],
+      "newFacts": [],
+      "verificationState": "missing_sourced_facts",
+      "disposition": "missing_portrait",
+      "reason": "第三轮检索本人 CV、博士论文、实验室与官方项目/新闻入口后，仍缺 three_to_five_sourced_facts。"
+    },
+    {
+      "canonicalKey": "Mainland China:上海交通大学:陈秀真",
+      "name": "陈秀真",
+      "institution": "上海交通大学",
+      "profileUrl": "https://www.cs.sjtu.edu.cn/jiaoshiml/chenxiuzhen.html",
+      "originalGap": "three_to_five_sourced_facts",
+      "discovery": {
+        "query": "\"陈秀真\" \"上海交通大学\" (导师 OR advisor OR supervised OR CV OR 学生 OR alumni)",
+        "url": "https://search.brave.com/search?q=%22%E9%99%88%E7%A7%80%E7%9C%9F%22%20%22%E4%B8%8A%E6%B5%B7%E4%BA%A4%E9%80%9A%E5%A4%A7%E5%AD%A6%22%20(%E5%AF%BC%E5%B8%88%20OR%20advisor%20OR%20supervised%20OR%20CV%20OR%20%E5%AD%A6%E7%94%9F%20OR%20alumni)&source=web",
+        "fetch": {
+          "ok": false,
+          "status": 429
+        },
+        "urls": []
+      },
+      "checkedPages": [],
+      "newRelationshipLeads": [],
+      "newFacts": [],
+      "verificationState": "missing_sourced_facts",
+      "disposition": "missing_portrait",
+      "reason": "第三轮检索本人 CV、博士论文、实验室与官方项目/新闻入口后，仍缺 three_to_five_sourced_facts。"
+    },
+    {
+      "canonicalKey": "Mainland China:上海交通大学:黄维然",
+      "name": "黄维然",
+      "institution": "上海交通大学",
+      "profileUrl": "https://www.cs.sjtu.edu.cn/jiaoshiml/huangweiran.html",
+      "originalGap": "three_to_five_sourced_facts",
+      "discovery": {
+        "query": "\"黄维然\" \"上海交通大学\" (导师 OR advisor OR supervised OR CV OR 学生 OR alumni)",
+        "url": "https://search.brave.com/search?q=%22%E9%BB%84%E7%BB%B4%E7%84%B6%22%20%22%E4%B8%8A%E6%B5%B7%E4%BA%A4%E9%80%9A%E5%A4%A7%E5%AD%A6%22%20(%E5%AF%BC%E5%B8%88%20OR%20advisor%20OR%20supervised%20OR%20CV%20OR%20%E5%AD%A6%E7%94%9F%20OR%20alumni)&source=web",
+        "fetch": {
+          "ok": false,
+          "status": 429
+        },
+        "urls": []
+      },
+      "checkedPages": [],
+      "newRelationshipLeads": [],
+      "newFacts": [],
+      "verificationState": "missing_sourced_facts",
+      "disposition": "missing_portrait",
+      "reason": "第三轮检索本人 CV、博士论文、实验室与官方项目/新闻入口后，仍缺 three_to_five_sourced_facts。"
+    },
+    {
+      "canonicalKey": "Mainland China:北京大学:吴玺宏",
+      "name": "吴玺宏",
+      "institution": "北京大学",
+      "profileUrl": "https://www.cis.pku.edu.cn/info/1362/2253.htm",
+      "originalGap": "first_party_relationship",
+      "discovery": {
+        "query": "\"吴玺宏\" \"北京大学\" (导师 OR advisor OR supervised OR CV OR 学生 OR alumni)",
+        "url": "https://search.brave.com/search?q=%22%E5%90%B4%E7%8E%BA%E5%AE%8F%22%20%22%E5%8C%97%E4%BA%AC%E5%A4%A7%E5%AD%A6%22%20(%E5%AF%BC%E5%B8%88%20OR%20advisor%20OR%20supervised%20OR%20CV%20OR%20%E5%AD%A6%E7%94%9F%20OR%20alumni)&source=web",
+        "fetch": {
+          "ok": false,
+          "status": 429
+        },
+        "urls": []
+      },
+      "checkedPages": [],
+      "newRelationshipLeads": [],
+      "newFacts": [],
+      "verificationState": "missing_first_party_relationship",
+      "disposition": "missing_relationship",
+      "reason": "第三轮检索本人 CV、博士论文、实验室与官方项目/新闻入口后，仍缺 first_party_relationship。"
+    },
+    {
+      "canonicalKey": "Mainland China:北京大学:姜少峰",
+      "name": "姜少峰",
+      "institution": "北京大学",
+      "profileUrl": "https://cs.pku.edu.cn/info/1069/1633.htm",
+      "originalGap": "first_party_relationship",
+      "discovery": {
+        "query": "\"姜少峰\" \"北京大学\" (导师 OR advisor OR supervised OR CV OR 学生 OR alumni)",
+        "url": "https://search.brave.com/search?q=%22%E5%A7%9C%E5%B0%91%E5%B3%B0%22%20%22%E5%8C%97%E4%BA%AC%E5%A4%A7%E5%AD%A6%22%20(%E5%AF%BC%E5%B8%88%20OR%20advisor%20OR%20supervised%20OR%20CV%20OR%20%E5%AD%A6%E7%94%9F%20OR%20alumni)&source=web",
+        "fetch": {
+          "ok": false,
+          "status": 429
+        },
+        "urls": []
+      },
+      "checkedPages": [],
+      "newRelationshipLeads": [],
+      "newFacts": [],
+      "verificationState": "missing_first_party_relationship",
+      "disposition": "missing_relationship",
+      "reason": "第三轮检索本人 CV、博士论文、实验室与官方项目/新闻入口后，仍缺 first_party_relationship。"
+    },
+    {
+      "canonicalKey": "Mainland China:北京大学:宋国杰",
+      "name": "宋国杰",
+      "institution": "北京大学",
+      "profileUrl": "https://www.cis.pku.edu.cn/info/1362/2256.htm",
+      "originalGap": "first_party_relationship",
+      "discovery": {
+        "query": "\"宋国杰\" \"北京大学\" (导师 OR advisor OR supervised OR CV OR 学生 OR alumni)",
+        "url": "https://search.brave.com/search?q=%22%E5%AE%8B%E5%9B%BD%E6%9D%B0%22%20%22%E5%8C%97%E4%BA%AC%E5%A4%A7%E5%AD%A6%22%20(%E5%AF%BC%E5%B8%88%20OR%20advisor%20OR%20supervised%20OR%20CV%20OR%20%E5%AD%A6%E7%94%9F%20OR%20alumni)&source=web",
+        "fetch": {
+          "ok": false,
+          "status": 429
+        },
+        "urls": []
+      },
+      "checkedPages": [],
+      "newRelationshipLeads": [],
+      "newFacts": [],
+      "verificationState": "missing_first_party_relationship",
+      "disposition": "missing_relationship",
+      "reason": "第三轮检索本人 CV、博士论文、实验室与官方项目/新闻入口后，仍缺 first_party_relationship。"
+    },
+    {
+      "canonicalKey": "Mainland China:北京大学:崔锦实",
+      "name": "崔锦实",
+      "institution": "北京大学",
+      "profileUrl": "https://www.cis.pku.edu.cn/info/1362/2261.htm",
+      "originalGap": "first_party_relationship",
+      "discovery": {
+        "query": "\"崔锦实\" \"北京大学\" (导师 OR advisor OR supervised OR CV OR 学生 OR alumni)",
+        "url": "https://search.brave.com/search?q=%22%E5%B4%94%E9%94%A6%E5%AE%9E%22%20%22%E5%8C%97%E4%BA%AC%E5%A4%A7%E5%AD%A6%22%20(%E5%AF%BC%E5%B8%88%20OR%20advisor%20OR%20supervised%20OR%20CV%20OR%20%E5%AD%A6%E7%94%9F%20OR%20alumni)&source=web",
+        "fetch": {
+          "ok": false,
+          "status": 429
+        },
+        "urls": []
+      },
+      "checkedPages": [],
+      "newRelationshipLeads": [],
+      "newFacts": [],
+      "verificationState": "missing_first_party_relationship",
+      "disposition": "missing_relationship",
+      "reason": "第三轮检索本人 CV、博士论文、实验室与官方项目/新闻入口后，仍缺 first_party_relationship。"
+    },
+    {
+      "canonicalKey": "Mainland China:北京大学:曲天书",
+      "name": "曲天书",
+      "institution": "北京大学",
+      "profileUrl": "https://www.cis.pku.edu.cn/info/1362/2241.htm",
+      "originalGap": "first_party_relationship",
+      "discovery": {
+        "query": "\"曲天书\" \"北京大学\" (导师 OR advisor OR supervised OR CV OR 学生 OR alumni)",
+        "url": "https://search.brave.com/search?q=%22%E6%9B%B2%E5%A4%A9%E4%B9%A6%22%20%22%E5%8C%97%E4%BA%AC%E5%A4%A7%E5%AD%A6%22%20(%E5%AF%BC%E5%B8%88%20OR%20advisor%20OR%20supervised%20OR%20CV%20OR%20%E5%AD%A6%E7%94%9F%20OR%20alumni)&source=web",
+        "fetch": {
+          "ok": false,
+          "status": 429
+        },
+        "urls": []
+      },
+      "checkedPages": [],
+      "newRelationshipLeads": [],
+      "newFacts": [],
+      "verificationState": "missing_first_party_relationship",
+      "disposition": "missing_relationship",
+      "reason": "第三轮检索本人 CV、博士论文、实验室与官方项目/新闻入口后，仍缺 first_party_relationship。"
+    },
+    {
+      "canonicalKey": "Mainland China:北京大学:曾钢",
+      "name": "曾钢",
+      "institution": "北京大学",
+      "profileUrl": "https://www.cis.pku.edu.cn/info/1362/2254.htm",
+      "originalGap": "first_party_relationship",
+      "discovery": {
+        "query": "\"曾钢\" \"北京大学\" (导师 OR advisor OR supervised OR CV OR 学生 OR alumni)",
+        "url": "https://search.brave.com/search?q=%22%E6%9B%BE%E9%92%A2%22%20%22%E5%8C%97%E4%BA%AC%E5%A4%A7%E5%AD%A6%22%20(%E5%AF%BC%E5%B8%88%20OR%20advisor%20OR%20supervised%20OR%20CV%20OR%20%E5%AD%A6%E7%94%9F%20OR%20alumni)&source=web",
+        "fetch": {
+          "ok": false,
+          "status": 429
+        },
+        "urls": []
+      },
+      "checkedPages": [],
+      "newRelationshipLeads": [],
+      "newFacts": [],
+      "verificationState": "missing_first_party_relationship",
+      "disposition": "missing_relationship",
+      "reason": "第三轮检索本人 CV、博士论文、实验室与官方项目/新闻入口后，仍缺 first_party_relationship。"
+    },
+    {
+      "canonicalKey": "Mainland China:北京大学:李红燕",
+      "name": "李红燕",
+      "institution": "北京大学",
+      "profileUrl": "https://www.cis.pku.edu.cn/info/1362/2242.htm",
+      "originalGap": "first_party_relationship",
+      "discovery": {
+        "query": "\"李红燕\" \"北京大学\" (导师 OR advisor OR supervised OR CV OR 学生 OR alumni)",
+        "url": "https://search.brave.com/search?q=%22%E6%9D%8E%E7%BA%A2%E7%87%95%22%20%22%E5%8C%97%E4%BA%AC%E5%A4%A7%E5%AD%A6%22%20(%E5%AF%BC%E5%B8%88%20OR%20advisor%20OR%20supervised%20OR%20CV%20OR%20%E5%AD%A6%E7%94%9F%20OR%20alumni)&source=web",
+        "fetch": {
+          "ok": false,
+          "status": 429
+        },
+        "urls": []
+      },
+      "checkedPages": [],
+      "newRelationshipLeads": [],
+      "newFacts": [],
+      "verificationState": "missing_first_party_relationship",
+      "disposition": "missing_relationship",
+      "reason": "第三轮检索本人 CV、博士论文、实验室与官方项目/新闻入口后，仍缺 first_party_relationship。"
+    },
+    {
+      "canonicalKey": "Mainland China:北京大学:查红彬",
+      "name": "查红彬",
+      "institution": "北京大学",
+      "profileUrl": "https://www.cis.pku.edu.cn/info/1362/2247.htm",
+      "originalGap": "first_party_relationship",
+      "discovery": {
+        "query": "\"查红彬\" \"北京大学\" (导师 OR advisor OR supervised OR CV OR 学生 OR alumni)",
+        "url": "https://search.brave.com/search?q=%22%E6%9F%A5%E7%BA%A2%E5%BD%AC%22%20%22%E5%8C%97%E4%BA%AC%E5%A4%A7%E5%AD%A6%22%20(%E5%AF%BC%E5%B8%88%20OR%20advisor%20OR%20supervised%20OR%20CV%20OR%20%E5%AD%A6%E7%94%9F%20OR%20alumni)&source=web",
+        "fetch": {
+          "ok": false,
+          "status": 429
+        },
+        "urls": []
+      },
+      "checkedPages": [],
+      "newRelationshipLeads": [],
+      "newFacts": [],
+      "verificationState": "missing_first_party_relationship",
+      "disposition": "missing_relationship",
+      "reason": "第三轮检索本人 CV、博士论文、实验室与官方项目/新闻入口后，仍缺 first_party_relationship。"
+    },
+    {
+      "canonicalKey": "Mainland China:北京大学:楚梦渝",
+      "name": "楚梦渝",
+      "institution": "北京大学",
+      "profileUrl": "https://www.cis.pku.edu.cn/info/1362/2386.htm",
+      "originalGap": "first_party_relationship",
+      "discovery": {
+        "query": "\"楚梦渝\" \"北京大学\" (导师 OR advisor OR supervised OR CV OR 学生 OR alumni)",
+        "url": "https://search.brave.com/search?q=%22%E6%A5%9A%E6%A2%A6%E6%B8%9D%22%20%22%E5%8C%97%E4%BA%AC%E5%A4%A7%E5%AD%A6%22%20(%E5%AF%BC%E5%B8%88%20OR%20advisor%20OR%20supervised%20OR%20CV%20OR%20%E5%AD%A6%E7%94%9F%20OR%20alumni)&source=web",
+        "fetch": {
+          "ok": false,
+          "status": 429
+        },
+        "urls": []
+      },
+      "checkedPages": [],
+      "newRelationshipLeads": [],
+      "newFacts": [],
+      "verificationState": "missing_first_party_relationship",
+      "disposition": "missing_relationship",
+      "reason": "第三轮检索本人 CV、博士论文、实验室与官方项目/新闻入口后，仍缺 first_party_relationship。"
+    },
+    {
+      "canonicalKey": "Mainland China:北京大学:童云海",
+      "name": "童云海",
+      "institution": "北京大学",
+      "profileUrl": "https://www.cis.pku.edu.cn/info/1362/2252.htm",
+      "originalGap": "first_party_relationship",
+      "discovery": {
+        "query": "\"童云海\" \"北京大学\" (导师 OR advisor OR supervised OR CV OR 学生 OR alumni)",
+        "url": "https://search.brave.com/search?q=%22%E7%AB%A5%E4%BA%91%E6%B5%B7%22%20%22%E5%8C%97%E4%BA%AC%E5%A4%A7%E5%AD%A6%22%20(%E5%AF%BC%E5%B8%88%20OR%20advisor%20OR%20supervised%20OR%20CV%20OR%20%E5%AD%A6%E7%94%9F%20OR%20alumni)&source=web",
+        "fetch": {
+          "ok": false,
+          "status": 429
+        },
+        "urls": []
+      },
+      "checkedPages": [],
+      "newRelationshipLeads": [],
+      "newFacts": [],
+      "verificationState": "missing_first_party_relationship",
+      "disposition": "missing_relationship",
+      "reason": "第三轮检索本人 CV、博士论文、实验室与官方项目/新闻入口后，仍缺 first_party_relationship。"
+    },
+    {
+      "canonicalKey": "Mainland China:北京大学:罗定生",
+      "name": "罗定生",
+      "institution": "北京大学",
+      "profileUrl": "https://www.cis.pku.edu.cn/info/1362/2259.htm",
+      "originalGap": "first_party_relationship",
+      "discovery": {
+        "query": "\"罗定生\" \"北京大学\" (导师 OR advisor OR supervised OR CV OR 学生 OR alumni)",
+        "url": "https://search.brave.com/search?q=%22%E7%BD%97%E5%AE%9A%E7%94%9F%22%20%22%E5%8C%97%E4%BA%AC%E5%A4%A7%E5%AD%A6%22%20(%E5%AF%BC%E5%B8%88%20OR%20advisor%20OR%20supervised%20OR%20CV%20OR%20%E5%AD%A6%E7%94%9F%20OR%20alumni)&source=web",
+        "fetch": {
+          "ok": false,
+          "status": 429
+        },
+        "urls": []
+      },
+      "checkedPages": [],
+      "newRelationshipLeads": [],
+      "newFacts": [],
+      "verificationState": "missing_first_party_relationship",
+      "disposition": "missing_relationship",
+      "reason": "第三轮检索本人 CV、博士论文、实验室与官方项目/新闻入口后，仍缺 first_party_relationship。"
+    },
+    {
+      "canonicalKey": "Mainland China:北京大学:英向华",
+      "name": "英向华",
+      "institution": "北京大学",
+      "profileUrl": "https://www.cis.pku.edu.cn/info/1362/2272.htm",
+      "originalGap": "first_party_relationship",
+      "discovery": {
+        "query": "\"英向华\" \"北京大学\" (导师 OR advisor OR supervised OR CV OR 学生 OR alumni)",
+        "url": "https://search.brave.com/search?q=%22%E8%8B%B1%E5%90%91%E5%8D%8E%22%20%22%E5%8C%97%E4%BA%AC%E5%A4%A7%E5%AD%A6%22%20(%E5%AF%BC%E5%B8%88%20OR%20advisor%20OR%20supervised%20OR%20CV%20OR%20%E5%AD%A6%E7%94%9F%20OR%20alumni)&source=web",
+        "fetch": {
+          "ok": false,
+          "status": 429
+        },
+        "urls": []
+      },
+      "checkedPages": [],
+      "newRelationshipLeads": [],
+      "newFacts": [],
+      "verificationState": "missing_first_party_relationship",
+      "disposition": "missing_relationship",
+      "reason": "第三轮检索本人 CV、博士论文、实验室与官方项目/新闻入口后，仍缺 first_party_relationship。"
+    },
+    {
+      "canonicalKey": "Mainland China:北京大学:袁晓如",
+      "name": "袁晓如",
+      "institution": "北京大学",
+      "profileUrl": "https://www.cis.pku.edu.cn/info/1362/2270.htm",
+      "originalGap": "first_party_relationship",
+      "discovery": {
+        "query": "\"袁晓如\" \"北京大学\" (导师 OR advisor OR supervised OR CV OR 学生 OR alumni)",
+        "url": "https://search.brave.com/search?q=%22%E8%A2%81%E6%99%93%E5%A6%82%22%20%22%E5%8C%97%E4%BA%AC%E5%A4%A7%E5%AD%A6%22%20(%E5%AF%BC%E5%B8%88%20OR%20advisor%20OR%20supervised%20OR%20CV%20OR%20%E5%AD%A6%E7%94%9F%20OR%20alumni)&source=web",
+        "fetch": {
+          "ok": false,
+          "status": 429
+        },
+        "urls": []
+      },
+      "checkedPages": [],
+      "newRelationshipLeads": [],
+      "newFacts": [],
+      "verificationState": "missing_first_party_relationship",
+      "disposition": "missing_relationship",
+      "reason": "第三轮检索本人 CV、博士论文、实验室与官方项目/新闻入口后，仍缺 first_party_relationship。"
+    },
+    {
+      "canonicalKey": "Mainland China:北京大学:裴玉茹",
+      "name": "裴玉茹",
+      "institution": "北京大学",
+      "profileUrl": "https://www.cis.pku.edu.cn/info/1362/2238.htm",
+      "originalGap": "first_party_relationship",
+      "discovery": {
+        "query": "\"裴玉茹\" \"北京大学\" (导师 OR advisor OR supervised OR CV OR 学生 OR alumni)",
+        "url": "https://search.brave.com/search?q=%22%E8%A3%B4%E7%8E%89%E8%8C%B9%22%20%22%E5%8C%97%E4%BA%AC%E5%A4%A7%E5%AD%A6%22%20(%E5%AF%BC%E5%B8%88%20OR%20advisor%20OR%20supervised%20OR%20CV%20OR%20%E5%AD%A6%E7%94%9F%20OR%20alumni)&source=web",
+        "fetch": {
+          "ok": false,
+          "status": 429
+        },
+        "urls": []
+      },
+      "checkedPages": [],
+      "newRelationshipLeads": [],
+      "newFacts": [],
+      "verificationState": "missing_first_party_relationship",
+      "disposition": "missing_relationship",
+      "reason": "第三轮检索本人 CV、博士论文、实验室与官方项目/新闻入口后，仍缺 first_party_relationship。"
+    },
+    {
+      "canonicalKey": "Mainland China:北京大学:谭营",
+      "name": "谭营",
+      "institution": "北京大学",
+      "profileUrl": "https://www.cis.pku.edu.cn/info/1362/2263.htm",
+      "originalGap": "first_party_relationship",
+      "discovery": {
+        "query": "\"谭营\" \"北京大学\" (导师 OR advisor OR supervised OR CV OR 学生 OR alumni)",
+        "url": "https://search.brave.com/search?q=%22%E8%B0%AD%E8%90%A5%22%20%22%E5%8C%97%E4%BA%AC%E5%A4%A7%E5%AD%A6%22%20(%E5%AF%BC%E5%B8%88%20OR%20advisor%20OR%20supervised%20OR%20CV%20OR%20%E5%AD%A6%E7%94%9F%20OR%20alumni)&source=web",
+        "fetch": {
+          "ok": false,
+          "status": 429
+        },
+        "urls": []
+      },
+      "checkedPages": [],
+      "newRelationshipLeads": [],
+      "newFacts": [],
+      "verificationState": "missing_first_party_relationship",
+      "disposition": "missing_relationship",
+      "reason": "第三轮检索本人 CV、博士论文、实验室与官方项目/新闻入口后，仍缺 first_party_relationship。"
+    },
+    {
+      "canonicalKey": "Mainland China:北京大学:赵卉菁",
+      "name": "赵卉菁",
+      "institution": "北京大学",
+      "profileUrl": "https://www.cis.pku.edu.cn/info/1362/2246.htm",
+      "originalGap": "first_party_relationship",
+      "discovery": {
+        "query": "\"赵卉菁\" \"北京大学\" (导师 OR advisor OR supervised OR CV OR 学生 OR alumni)",
+        "url": "https://search.brave.com/search?q=%22%E8%B5%B5%E5%8D%89%E8%8F%81%22%20%22%E5%8C%97%E4%BA%AC%E5%A4%A7%E5%AD%A6%22%20(%E5%AF%BC%E5%B8%88%20OR%20advisor%20OR%20supervised%20OR%20CV%20OR%20%E5%AD%A6%E7%94%9F%20OR%20alumni)&source=web",
+        "fetch": {
+          "ok": false,
+          "status": 429
+        },
+        "urls": []
+      },
+      "checkedPages": [],
+      "newRelationshipLeads": [],
+      "newFacts": [],
+      "verificationState": "missing_first_party_relationship",
+      "disposition": "missing_relationship",
+      "reason": "第三轮检索本人 CV、博士论文、实验室与官方项目/新闻入口后，仍缺 first_party_relationship。"
+    },
+    {
+      "canonicalKey": "Mainland China:北京大学:马修军",
+      "name": "马修军",
+      "institution": "北京大学",
+      "profileUrl": "https://www.cis.pku.edu.cn/info/1362/2250.htm",
+      "originalGap": "first_party_relationship",
+      "discovery": {
+        "query": "\"马修军\" \"北京大学\" (导师 OR advisor OR supervised OR CV OR 学生 OR alumni)",
+        "url": "https://search.brave.com/search?q=%22%E9%A9%AC%E4%BF%AE%E5%86%9B%22%20%22%E5%8C%97%E4%BA%AC%E5%A4%A7%E5%AD%A6%22%20(%E5%AF%BC%E5%B8%88%20OR%20advisor%20OR%20supervised%20OR%20CV%20OR%20%E5%AD%A6%E7%94%9F%20OR%20alumni)&source=web",
+        "fetch": {
+          "ok": false,
+          "status": 429
+        },
+        "urls": []
+      },
+      "checkedPages": [],
+      "newRelationshipLeads": [],
+      "newFacts": [],
+      "verificationState": "missing_first_party_relationship",
+      "disposition": "missing_relationship",
+      "reason": "第三轮检索本人 CV、博士论文、实验室与官方项目/新闻入口后，仍缺 first_party_relationship。"
+    },
+    {
+      "canonicalKey": "Mainland China:南京大学:吕建",
+      "name": "吕建 (院士、博导)",
+      "institution": "南京大学",
+      "profileUrl": "https://cs.nju.edu.cn/58/2a/c2639a153642/pagem.htm",
+      "originalGap": "first_party_relationship",
+      "discovery": {
+        "query": "\"吕建\" \"南京大学\" (导师 OR advisor OR supervised OR CV OR 学生 OR alumni)",
+        "url": "https://search.brave.com/search?q=%22%E5%90%95%E5%BB%BA%22%20%22%E5%8D%97%E4%BA%AC%E5%A4%A7%E5%AD%A6%22%20(%E5%AF%BC%E5%B8%88%20OR%20advisor%20OR%20supervised%20OR%20CV%20OR%20%E5%AD%A6%E7%94%9F%20OR%20alumni)&source=web",
+        "fetch": {
+          "ok": false,
+          "status": 429
+        },
+        "urls": []
+      },
+      "checkedPages": [],
+      "newRelationshipLeads": [],
+      "newFacts": [],
+      "verificationState": "missing_first_party_relationship",
+      "disposition": "missing_relationship",
+      "reason": "第三轮检索本人 CV、博士论文、实验室与官方项目/新闻入口后，仍缺 first_party_relationship。"
+    },
+    {
+      "canonicalKey": "Mainland China:南京大学:吴震准聘助理教授",
+      "name": "吴震（准聘助理教授）",
+      "institution": "南京大学",
+      "profileUrl": "https://wuzhen247.github.io/",
+      "originalGap": "first_party_relationship",
+      "discovery": {
+        "query": "\"吴震\" \"南京大学\" (导师 OR advisor OR supervised OR CV OR 学生 OR alumni)",
+        "url": "https://search.brave.com/search?q=%22%E5%90%B4%E9%9C%87%22%20%22%E5%8D%97%E4%BA%AC%E5%A4%A7%E5%AD%A6%22%20(%E5%AF%BC%E5%B8%88%20OR%20advisor%20OR%20supervised%20OR%20CV%20OR%20%E5%AD%A6%E7%94%9F%20OR%20alumni)&source=web",
+        "fetch": {
+          "ok": false,
+          "status": 429
+        },
+        "urls": []
+      },
+      "checkedPages": [],
+      "newRelationshipLeads": [],
+      "newFacts": [],
+      "verificationState": "missing_first_party_relationship",
+      "disposition": "missing_relationship",
+      "reason": "第三轮检索本人 CV、博士论文、实验室与官方项目/新闻入口后，仍缺 first_party_relationship。"
+    },
+    {
+      "canonicalKey": "Mainland China:南京大学:孙正兴",
+      "name": "孙正兴 (博导)",
+      "institution": "南京大学",
+      "profileUrl": "https://cs.nju.edu.cn/58/20/c2639a153632/pagem.htm",
+      "originalGap": "first_party_relationship",
+      "discovery": {
+        "query": "\"孙正兴\" \"南京大学\" (导师 OR advisor OR supervised OR CV OR 学生 OR alumni)",
+        "url": "https://search.brave.com/search?q=%22%E5%AD%99%E6%AD%A3%E5%85%B4%22%20%22%E5%8D%97%E4%BA%AC%E5%A4%A7%E5%AD%A6%22%20(%E5%AF%BC%E5%B8%88%20OR%20advisor%20OR%20supervised%20OR%20CV%20OR%20%E5%AD%A6%E7%94%9F%20OR%20alumni)&source=web",
+        "fetch": {
+          "ok": false,
+          "status": 429
+        },
+        "urls": []
+      },
+      "checkedPages": [],
+      "newRelationshipLeads": [],
+      "newFacts": [],
+      "verificationState": "missing_first_party_relationship",
+      "disposition": "missing_relationship",
+      "reason": "第三轮检索本人 CV、博士论文、实验室与官方项目/新闻入口后，仍缺 first_party_relationship。"
+    },
+    {
+      "canonicalKey": "Mainland China:南京大学:宋宇航准聘副教授",
+      "name": "宋宇航（准聘副教授）",
+      "institution": "南京大学",
+      "profileUrl": "https://atollab.com",
+      "originalGap": "first_party_relationship",
+      "discovery": {
+        "query": "\"宋宇航\" \"南京大学\" (导师 OR advisor OR supervised OR CV OR 学生 OR alumni)",
+        "url": "https://search.brave.com/search?q=%22%E5%AE%8B%E5%AE%87%E8%88%AA%22%20%22%E5%8D%97%E4%BA%AC%E5%A4%A7%E5%AD%A6%22%20(%E5%AF%BC%E5%B8%88%20OR%20advisor%20OR%20supervised%20OR%20CV%20OR%20%E5%AD%A6%E7%94%9F%20OR%20alumni)&source=web",
+        "fetch": {
+          "ok": false,
+          "status": 429
+        },
+        "urls": []
+      },
+      "checkedPages": [],
+      "newRelationshipLeads": [],
+      "newFacts": [],
+      "verificationState": "missing_first_party_relationship",
+      "disposition": "missing_relationship",
+      "reason": "第三轮检索本人 CV、博士论文、实验室与官方项目/新闻入口后，仍缺 first_party_relationship。"
+    },
+    {
+      "canonicalKey": "Mainland China:南京大学:宦成颖准聘助理教授博导",
+      "name": "宦成颖（准聘助理教授、博导）",
+      "institution": "南京大学",
+      "profileUrl": "https://cs.nju.edu.cn/38/f8/c56396a735480/pagem.htm",
+      "originalGap": "first_party_relationship",
+      "discovery": {
+        "query": "\"宦成颖\" \"南京大学\" (导师 OR advisor OR supervised OR CV OR 学生 OR alumni)",
+        "url": "https://search.brave.com/search?q=%22%E5%AE%A6%E6%88%90%E9%A2%96%22%20%22%E5%8D%97%E4%BA%AC%E5%A4%A7%E5%AD%A6%22%20(%E5%AF%BC%E5%B8%88%20OR%20advisor%20OR%20supervised%20OR%20CV%20OR%20%E5%AD%A6%E7%94%9F%20OR%20alumni)&source=web",
+        "fetch": {
+          "ok": false,
+          "status": 429
+        },
+        "urls": []
+      },
+      "checkedPages": [],
+      "newRelationshipLeads": [],
+      "newFacts": [],
+      "verificationState": "missing_first_party_relationship",
+      "disposition": "missing_relationship",
+      "reason": "第三轮检索本人 CV、博士论文、实验室与官方项目/新闻入口后，仍缺 first_party_relationship。"
+    },
+    {
+      "canonicalKey": "Mainland China:南京大学:张杰副教授",
+      "name": "张杰（副教授）",
+      "institution": "南京大学",
+      "profileUrl": "https://ai.nju.edu.cn/zhangjie/",
+      "originalGap": "first_party_relationship",
+      "discovery": {
+        "query": "\"张杰\" \"南京大学\" (导师 OR advisor OR supervised OR CV OR 学生 OR alumni)",
+        "url": "https://search.brave.com/search?q=%22%E5%BC%A0%E6%9D%B0%22%20%22%E5%8D%97%E4%BA%AC%E5%A4%A7%E5%AD%A6%22%20(%E5%AF%BC%E5%B8%88%20OR%20advisor%20OR%20supervised%20OR%20CV%20OR%20%E5%AD%A6%E7%94%9F%20OR%20alumni)&source=web",
+        "fetch": {
+          "ok": false,
+          "status": 429
+        },
+        "urls": []
+      },
+      "checkedPages": [],
+      "newRelationshipLeads": [],
+      "newFacts": [],
+      "verificationState": "missing_first_party_relationship",
+      "disposition": "missing_relationship",
+      "reason": "第三轮检索本人 CV、博士论文、实验室与官方项目/新闻入口后，仍缺 first_party_relationship。"
+    },
+    {
+      "canonicalKey": "Mainland China:南京大学:李晓帆准聘助理教授博导",
+      "name": "李晓帆（准聘助理教授、博导）",
+      "institution": "南京大学",
+      "profileUrl": "https://cs.nju.edu.cn/2b/d3/c56396a797651/pagem.htm",
+      "originalGap": "first_party_relationship",
+      "discovery": {
+        "query": "\"李晓帆\" \"南京大学\" (导师 OR advisor OR supervised OR CV OR 学生 OR alumni)",
+        "url": "https://search.brave.com/search?q=%22%E6%9D%8E%E6%99%93%E5%B8%86%22%20%22%E5%8D%97%E4%BA%AC%E5%A4%A7%E5%AD%A6%22%20(%E5%AF%BC%E5%B8%88%20OR%20advisor%20OR%20supervised%20OR%20CV%20OR%20%E5%AD%A6%E7%94%9F%20OR%20alumni)&source=web",
+        "fetch": {
+          "ok": false,
+          "status": 429
+        },
+        "urls": []
+      },
+      "checkedPages": [],
+      "newRelationshipLeads": [],
+      "newFacts": [],
+      "verificationState": "missing_first_party_relationship",
+      "disposition": "missing_relationship",
+      "reason": "第三轮检索本人 CV、博士论文、实验室与官方项目/新闻入口后，仍缺 first_party_relationship。"
+    },
+    {
+      "canonicalKey": "Mainland China:南京大学:武港山教授",
+      "name": "武港山（教授）",
+      "institution": "南京大学",
+      "profileUrl": "https://ai.nju.edu.cn/_redirect?siteId=391&columnId=18540&articleId=322020",
+      "originalGap": "first_party_relationship",
+      "discovery": {
+        "query": "\"武港山\" \"南京大学\" (导师 OR advisor OR supervised OR CV OR 学生 OR alumni)",
+        "url": "https://search.brave.com/search?q=%22%E6%AD%A6%E6%B8%AF%E5%B1%B1%22%20%22%E5%8D%97%E4%BA%AC%E5%A4%A7%E5%AD%A6%22%20(%E5%AF%BC%E5%B8%88%20OR%20advisor%20OR%20supervised%20OR%20CV%20OR%20%E5%AD%A6%E7%94%9F%20OR%20alumni)&source=web",
+        "fetch": {
+          "ok": false,
+          "status": 429
+        },
+        "urls": []
+      },
+      "checkedPages": [],
+      "newRelationshipLeads": [],
+      "newFacts": [],
+      "verificationState": "missing_first_party_relationship",
+      "disposition": "missing_relationship",
+      "reason": "第三轮检索本人 CV、博士论文、实验室与官方项目/新闻入口后，仍缺 first_party_relationship。"
+    },
+    {
+      "canonicalKey": "Mainland China:南京大学:申富饶教授",
+      "name": "申富饶（教授）",
+      "institution": "南京大学",
+      "profileUrl": "https://ai.nju.edu.cn/_redirect?siteId=391&columnId=18540&articleId=321886",
+      "originalGap": "three_to_five_sourced_facts",
+      "discovery": {
+        "query": "\"申富饶\" \"南京大学\" (导师 OR advisor OR supervised OR CV OR 学生 OR alumni)",
+        "url": "https://search.brave.com/search?q=%22%E7%94%B3%E5%AF%8C%E9%A5%B6%22%20%22%E5%8D%97%E4%BA%AC%E5%A4%A7%E5%AD%A6%22%20(%E5%AF%BC%E5%B8%88%20OR%20advisor%20OR%20supervised%20OR%20CV%20OR%20%E5%AD%A6%E7%94%9F%20OR%20alumni)&source=web",
+        "fetch": {
+          "ok": false,
+          "status": 429
+        },
+        "urls": []
+      },
+      "checkedPages": [],
+      "newRelationshipLeads": [],
+      "newFacts": [],
+      "verificationState": "missing_sourced_facts",
+      "disposition": "missing_relationship",
+      "reason": "第三轮检索本人 CV、博士论文、实验室与官方项目/新闻入口后，仍缺 three_to_five_sourced_facts。"
+    },
+    {
+      "canonicalKey": "Mainland China:南京大学:瞿裕忠",
+      "name": "瞿裕忠 (博导)",
+      "institution": "南京大学",
+      "profileUrl": "https://cs.nju.edu.cn/58/0a/c2639a153610/pagem.htm",
+      "originalGap": "first_party_relationship",
+      "discovery": {
+        "query": "\"瞿裕忠\" \"南京大学\" (导师 OR advisor OR supervised OR CV OR 学生 OR alumni)",
+        "url": "https://search.brave.com/search?q=%22%E7%9E%BF%E8%A3%95%E5%BF%A0%22%20%22%E5%8D%97%E4%BA%AC%E5%A4%A7%E5%AD%A6%22%20(%E5%AF%BC%E5%B8%88%20OR%20advisor%20OR%20supervised%20OR%20CV%20OR%20%E5%AD%A6%E7%94%9F%20OR%20alumni)&source=web",
+        "fetch": {
+          "ok": false,
+          "status": 429
+        },
+        "urls": []
+      },
+      "checkedPages": [],
+      "newRelationshipLeads": [],
+      "newFacts": [],
+      "verificationState": "missing_first_party_relationship",
+      "disposition": "missing_relationship",
+      "reason": "第三轮检索本人 CV、博士论文、实验室与官方项目/新闻入口后，仍缺 first_party_relationship。"
+    },
+    {
+      "canonicalKey": "Mainland China:南京大学:赵建华",
+      "name": "赵建华 (博导)",
+      "institution": "南京大学",
+      "profileUrl": "https://cs.nju.edu.cn/58/18/c2639a153624/pagem.htm",
+      "originalGap": "three_to_five_sourced_facts",
+      "discovery": {
+        "query": "\"赵建华\" \"南京大学\" (导师 OR advisor OR supervised OR CV OR 学生 OR alumni)",
+        "url": "https://search.brave.com/search?q=%22%E8%B5%B5%E5%BB%BA%E5%8D%8E%22%20%22%E5%8D%97%E4%BA%AC%E5%A4%A7%E5%AD%A6%22%20(%E5%AF%BC%E5%B8%88%20OR%20advisor%20OR%20supervised%20OR%20CV%20OR%20%E5%AD%A6%E7%94%9F%20OR%20alumni)&source=web",
+        "fetch": {
+          "ok": false,
+          "status": 429
+        },
+        "urls": []
+      },
+      "checkedPages": [],
+      "newRelationshipLeads": [],
+      "newFacts": [],
+      "verificationState": "missing_sourced_facts",
+      "disposition": "missing_portrait",
+      "reason": "第三轮检索本人 CV、博士论文、实验室与官方项目/新闻入口后，仍缺 three_to_five_sourced_facts。"
+    },
+    {
+      "canonicalKey": "Mainland China:南京大学:赵敏准聘助理教授",
+      "name": "赵敏（准聘助理教授）",
+      "institution": "南京大学",
+      "profileUrl": "https://gracezhao1997.github.io/",
+      "originalGap": "first_party_relationship",
+      "discovery": {
+        "query": "\"赵敏\" \"南京大学\" (导师 OR advisor OR supervised OR CV OR 学生 OR alumni)",
+        "url": "https://search.brave.com/search?q=%22%E8%B5%B5%E6%95%8F%22%20%22%E5%8D%97%E4%BA%AC%E5%A4%A7%E5%AD%A6%22%20(%E5%AF%BC%E5%B8%88%20OR%20advisor%20OR%20supervised%20OR%20CV%20OR%20%E5%AD%A6%E7%94%9F%20OR%20alumni)&source=web",
+        "fetch": {
+          "ok": false,
+          "status": 429
+        },
+        "urls": []
+      },
+      "checkedPages": [],
+      "newRelationshipLeads": [],
+      "newFacts": [],
+      "verificationState": "missing_first_party_relationship",
+      "disposition": "missing_relationship",
+      "reason": "第三轮检索本人 CV、博士论文、实验室与官方项目/新闻入口后，仍缺 first_party_relationship。"
+    },
+    {
+      "canonicalKey": "Mainland China:南京大学:过洁长聘副教授博导",
+      "name": "过洁（长聘副教授、博导）",
+      "institution": "南京大学",
+      "profileUrl": "https://cs.nju.edu.cn/51/c2/c56396a86466/pagem.htm",
+      "originalGap": "first_party_relationship",
+      "discovery": {
+        "query": "\"过洁\" \"南京大学\" (导师 OR advisor OR supervised OR CV OR 学生 OR alumni)",
+        "url": "https://search.brave.com/search?q=%22%E8%BF%87%E6%B4%81%22%20%22%E5%8D%97%E4%BA%AC%E5%A4%A7%E5%AD%A6%22%20(%E5%AF%BC%E5%B8%88%20OR%20advisor%20OR%20supervised%20OR%20CV%20OR%20%E5%AD%A6%E7%94%9F%20OR%20alumni)&source=web",
+        "fetch": {
+          "ok": false,
+          "status": 429
+        },
+        "urls": []
+      },
+      "checkedPages": [],
+      "newRelationshipLeads": [],
+      "newFacts": [],
+      "verificationState": "missing_first_party_relationship",
+      "disposition": "missing_relationship",
+      "reason": "第三轮检索本人 CV、博士论文、实验室与官方项目/新闻入口后，仍缺 first_party_relationship。"
+    },
+    {
+      "canonicalKey": "Mainland China:南京大学:郭延文",
+      "name": "郭延文 (博导)",
+      "institution": "南京大学",
+      "profileUrl": "https://cs.nju.edu.cn/58/0f/c2639a153615/pagem.htm",
+      "originalGap": "first_party_relationship",
+      "discovery": {
+        "query": "\"郭延文\" \"南京大学\" (导师 OR advisor OR supervised OR CV OR 学生 OR alumni)",
+        "url": "https://search.brave.com/search?q=%22%E9%83%AD%E5%BB%B6%E6%96%87%22%20%22%E5%8D%97%E4%BA%AC%E5%A4%A7%E5%AD%A6%22%20(%E5%AF%BC%E5%B8%88%20OR%20advisor%20OR%20supervised%20OR%20CV%20OR%20%E5%AD%A6%E7%94%9F%20OR%20alumni)&source=web",
+        "fetch": {
+          "ok": false,
+          "status": 429
+        },
+        "urls": []
+      },
+      "checkedPages": [],
+      "newRelationshipLeads": [],
+      "newFacts": [],
+      "verificationState": "missing_first_party_relationship",
+      "disposition": "missing_relationship",
+      "reason": "第三轮检索本人 CV、博士论文、实验室与官方项目/新闻入口后，仍缺 first_party_relationship。"
+    },
+    {
+      "canonicalKey": "Mainland China:南京大学:马晓星",
+      "name": "马晓星 (博导)",
+      "institution": "南京大学",
+      "profileUrl": "https://cs.nju.edu.cn/58/12/c2639a153618/pagem.htm",
+      "originalGap": "first_party_relationship",
+      "discovery": {
+        "query": "\"马晓星\" \"南京大学\" (导师 OR advisor OR supervised OR CV OR 学生 OR alumni)",
+        "url": "https://search.brave.com/search?q=%22%E9%A9%AC%E6%99%93%E6%98%9F%22%20%22%E5%8D%97%E4%BA%AC%E5%A4%A7%E5%AD%A6%22%20(%E5%AF%BC%E5%B8%88%20OR%20advisor%20OR%20supervised%20OR%20CV%20OR%20%E5%AD%A6%E7%94%9F%20OR%20alumni)&source=web",
+        "fetch": {
+          "ok": false,
+          "status": 429
+        },
+        "urls": []
+      },
+      "checkedPages": [],
+      "newRelationshipLeads": [],
+      "newFacts": [],
+      "verificationState": "missing_first_party_relationship",
+      "disposition": "missing_relationship",
+      "reason": "第三轮检索本人 CV、博士论文、实验室与官方项目/新闻入口后，仍缺 first_party_relationship。"
+    },
+    {
+      "canonicalKey": "Mainland China:南京大学:马骏",
+      "name": "马骏 (博士)",
+      "institution": "南京大学",
+      "profileUrl": "https://cs.nju.edu.cn/_redirect?siteId=66&columnId=2640&articleId=51673",
+      "originalGap": "three_to_five_sourced_facts",
+      "discovery": {
+        "query": "\"马骏\" \"南京大学\" (导师 OR advisor OR supervised OR CV OR 学生 OR alumni)",
+        "url": "https://search.brave.com/search?q=%22%E9%A9%AC%E9%AA%8F%22%20%22%E5%8D%97%E4%BA%AC%E5%A4%A7%E5%AD%A6%22%20(%E5%AF%BC%E5%B8%88%20OR%20advisor%20OR%20supervised%20OR%20CV%20OR%20%E5%AD%A6%E7%94%9F%20OR%20alumni)&source=web",
+        "fetch": {
+          "ok": false,
+          "status": 429
+        },
+        "urls": []
+      },
+      "checkedPages": [],
+      "newRelationshipLeads": [],
+      "newFacts": [],
+      "verificationState": "missing_sourced_facts",
+      "disposition": "missing_relationship",
+      "reason": "第三轮检索本人 CV、博士论文、实验室与官方项目/新闻入口后，仍缺 three_to_five_sourced_facts。"
+    },
+    {
+      "canonicalKey": "Mainland China:浙江大学:巫英才",
+      "name": "巫英才",
+      "institution": "浙江大学",
+      "profileUrl": "http://www.ycwu.org/",
+      "originalGap": "first_party_relationship",
+      "discovery": {
+        "query": "\"巫英才\" \"浙江大学\" (导师 OR advisor OR supervised OR CV OR 学生 OR alumni)",
+        "url": "https://search.brave.com/search?q=%22%E5%B7%AB%E8%8B%B1%E6%89%8D%22%20%22%E6%B5%99%E6%B1%9F%E5%A4%A7%E5%AD%A6%22%20(%E5%AF%BC%E5%B8%88%20OR%20advisor%20OR%20supervised%20OR%20CV%20OR%20%E5%AD%A6%E7%94%9F%20OR%20alumni)&source=web",
+        "fetch": {
+          "ok": false,
+          "status": 429
+        },
+        "urls": []
+      },
+      "checkedPages": [],
+      "newRelationshipLeads": [],
+      "newFacts": [],
+      "verificationState": "missing_first_party_relationship",
+      "disposition": "missing_relationship",
+      "reason": "第三轮检索本人 CV、博士论文、实验室与官方项目/新闻入口后，仍缺 first_party_relationship。"
+    },
+    {
+      "canonicalKey": "Mainland China:浙江大学:王越",
+      "name": "王越",
+      "institution": "浙江大学",
+      "profileUrl": "http://www.cse.zju.edu.cn/2020/0218/c72509a2660326/page.htm",
+      "originalGap": "first_party_relationship",
+      "discovery": {
+        "query": "\"王越\" \"浙江大学\" (导师 OR advisor OR supervised OR CV OR 学生 OR alumni)",
+        "url": "https://search.brave.com/search?q=%22%E7%8E%8B%E8%B6%8A%22%20%22%E6%B5%99%E6%B1%9F%E5%A4%A7%E5%AD%A6%22%20(%E5%AF%BC%E5%B8%88%20OR%20advisor%20OR%20supervised%20OR%20CV%20OR%20%E5%AD%A6%E7%94%9F%20OR%20alumni)&source=web",
+        "fetch": {
+          "ok": false,
+          "status": 429
+        },
+        "urls": []
+      },
+      "checkedPages": [],
+      "newRelationshipLeads": [],
+      "newFacts": [],
+      "verificationState": "missing_first_party_relationship",
+      "disposition": "missing_relationship",
+      "reason": "第三轮检索本人 CV、博士论文、实验室与官方项目/新闻入口后，仍缺 first_party_relationship。"
+    },
+    {
+      "canonicalKey": "Mainland China:清华大学:万森",
+      "name": "万森",
+      "institution": "清华大学",
+      "profileUrl": "https://www.au.tsinghua.edu.cn/info/1080/3224.htm",
+      "originalGap": "first_party_relationship",
+      "discovery": {
+        "query": "\"万森\" \"清华大学\" (导师 OR advisor OR supervised OR CV OR 学生 OR alumni)",
+        "url": "https://search.brave.com/search?q=%22%E4%B8%87%E6%A3%AE%22%20%22%E6%B8%85%E5%8D%8E%E5%A4%A7%E5%AD%A6%22%20(%E5%AF%BC%E5%B8%88%20OR%20advisor%20OR%20supervised%20OR%20CV%20OR%20%E5%AD%A6%E7%94%9F%20OR%20alumni)&source=web",
+        "fetch": {
+          "ok": false,
+          "status": 429
+        },
+        "urls": []
+      },
+      "checkedPages": [],
+      "newRelationshipLeads": [],
+      "newFacts": [],
+      "verificationState": "missing_first_party_relationship",
+      "disposition": "missing_relationship",
+      "reason": "第三轮检索本人 CV、博士论文、实验室与官方项目/新闻入口后，仍缺 first_party_relationship。"
+    },
+    {
+      "canonicalKey": "Mainland China:清华大学:乔晖",
+      "name": "乔晖",
+      "institution": "清华大学",
+      "profileUrl": "https://www.au.tsinghua.edu.cn/info/1080/3222.htm",
+      "originalGap": "first_party_relationship",
+      "discovery": {
+        "query": "\"乔晖\" \"清华大学\" (导师 OR advisor OR supervised OR CV OR 学生 OR alumni)",
+        "url": "https://search.brave.com/search?q=%22%E4%B9%94%E6%99%96%22%20%22%E6%B8%85%E5%8D%8E%E5%A4%A7%E5%AD%A6%22%20(%E5%AF%BC%E5%B8%88%20OR%20advisor%20OR%20supervised%20OR%20CV%20OR%20%E5%AD%A6%E7%94%9F%20OR%20alumni)&source=web",
+        "fetch": {
+          "ok": false,
+          "status": 429
+        },
+        "urls": []
+      },
+      "checkedPages": [],
+      "newRelationshipLeads": [],
+      "newFacts": [],
+      "verificationState": "missing_first_party_relationship",
+      "disposition": "missing_relationship",
+      "reason": "第三轮检索本人 CV、博士论文、实验室与官方项目/新闻入口后，仍缺 first_party_relationship。"
+    },
+    {
+      "canonicalKey": "Mainland China:清华大学:于国强",
+      "name": "于国强",
+      "institution": "清华大学",
+      "profileUrl": "https://www.au.tsinghua.edu.cn/info/1080/4048.htm",
+      "originalGap": "first_party_relationship",
+      "discovery": {
+        "query": "\"于国强\" \"清华大学\" (导师 OR advisor OR supervised OR CV OR 学生 OR alumni)",
+        "url": "https://search.brave.com/search?q=%22%E4%BA%8E%E5%9B%BD%E5%BC%BA%22%20%22%E6%B8%85%E5%8D%8E%E5%A4%A7%E5%AD%A6%22%20(%E5%AF%BC%E5%B8%88%20OR%20advisor%20OR%20supervised%20OR%20CV%20OR%20%E5%AD%A6%E7%94%9F%20OR%20alumni)&source=web",
+        "fetch": {
+          "ok": false,
+          "status": 429
+        },
+        "urls": []
+      },
+      "checkedPages": [],
+      "newRelationshipLeads": [],
+      "newFacts": [],
+      "verificationState": "missing_first_party_relationship",
+      "disposition": "missing_relationship",
+      "reason": "第三轮检索本人 CV、博士论文、实验室与官方项目/新闻入口后，仍缺 first_party_relationship。"
+    },
+    {
+      "canonicalKey": "Mainland China:清华大学:何潇",
+      "name": "何潇",
+      "institution": "清华大学",
+      "profileUrl": "https://www.au.tsinghua.edu.cn/info/1077/3189.htm",
+      "originalGap": "first_party_relationship",
+      "discovery": {
+        "query": "\"何潇\" \"清华大学\" (导师 OR advisor OR supervised OR CV OR 学生 OR alumni)",
+        "url": "https://search.brave.com/search?q=%22%E4%BD%95%E6%BD%87%22%20%22%E6%B8%85%E5%8D%8E%E5%A4%A7%E5%AD%A6%22%20(%E5%AF%BC%E5%B8%88%20OR%20advisor%20OR%20supervised%20OR%20CV%20OR%20%E5%AD%A6%E7%94%9F%20OR%20alumni)&source=web",
+        "fetch": {
+          "ok": false,
+          "status": 429
+        },
+        "urls": []
+      },
+      "checkedPages": [],
+      "newRelationshipLeads": [],
+      "newFacts": [],
+      "verificationState": "missing_first_party_relationship",
+      "disposition": "missing_relationship",
+      "reason": "第三轮检索本人 CV、博士论文、实验室与官方项目/新闻入口后，仍缺 first_party_relationship。"
+    },
+    {
+      "canonicalKey": "Mainland China:清华大学:何秀强",
+      "name": "何秀强",
+      "institution": "清华大学",
+      "profileUrl": "https://www.au.tsinghua.edu.cn/info/1079/4192.htm",
+      "originalGap": "first_party_relationship",
+      "discovery": {
+        "query": "\"何秀强\" \"清华大学\" (导师 OR advisor OR supervised OR CV OR 学生 OR alumni)",
+        "url": "https://search.brave.com/search?q=%22%E4%BD%95%E7%A7%80%E5%BC%BA%22%20%22%E6%B8%85%E5%8D%8E%E5%A4%A7%E5%AD%A6%22%20(%E5%AF%BC%E5%B8%88%20OR%20advisor%20OR%20supervised%20OR%20CV%20OR%20%E5%AD%A6%E7%94%9F%20OR%20alumni)&source=web",
+        "fetch": {
+          "ok": false,
+          "status": 429
+        },
+        "urls": []
+      },
+      "checkedPages": [],
+      "newRelationshipLeads": [],
+      "newFacts": [],
+      "verificationState": "missing_first_party_relationship",
+      "disposition": "missing_relationship",
+      "reason": "第三轮检索本人 CV、博士论文、实验室与官方项目/新闻入口后，仍缺 first_party_relationship。"
+    },
+    {
+      "canonicalKey": "Mainland China:清华大学:冯建江",
+      "name": "冯建江",
+      "institution": "清华大学",
+      "profileUrl": "https://www.au.tsinghua.edu.cn/info/1078/3262.htm",
+      "originalGap": "first_party_relationship",
+      "discovery": {
+        "query": "\"冯建江\" \"清华大学\" (导师 OR advisor OR supervised OR CV OR 学生 OR alumni)",
+        "url": "https://search.brave.com/search?q=%22%E5%86%AF%E5%BB%BA%E6%B1%9F%22%20%22%E6%B8%85%E5%8D%8E%E5%A4%A7%E5%AD%A6%22%20(%E5%AF%BC%E5%B8%88%20OR%20advisor%20OR%20supervised%20OR%20CV%20OR%20%E5%AD%A6%E7%94%9F%20OR%20alumni)&source=web",
+        "fetch": {
+          "ok": false,
+          "status": 429
+        },
+        "urls": []
+      },
+      "checkedPages": [],
+      "newRelationshipLeads": [],
+      "newFacts": [],
+      "verificationState": "missing_first_party_relationship",
+      "disposition": "missing_relationship",
+      "reason": "第三轮检索本人 CV、博士论文、实验室与官方项目/新闻入口后，仍缺 first_party_relationship。"
+    },
+    {
+      "canonicalKey": "Mainland China:清华大学:刘义",
+      "name": "刘义",
+      "institution": "清华大学",
+      "profileUrl": "https://www.au.tsinghua.edu.cn/info/1075/3210.htm",
+      "originalGap": "first_party_relationship",
+      "discovery": {
+        "query": "\"刘义\" \"清华大学\" (导师 OR advisor OR supervised OR CV OR 学生 OR alumni)",
+        "url": "https://search.brave.com/search?q=%22%E5%88%98%E4%B9%89%22%20%22%E6%B8%85%E5%8D%8E%E5%A4%A7%E5%AD%A6%22%20(%E5%AF%BC%E5%B8%88%20OR%20advisor%20OR%20supervised%20OR%20CV%20OR%20%E5%AD%A6%E7%94%9F%20OR%20alumni)&source=web",
+        "fetch": {
+          "ok": false,
+          "status": 429
+        },
+        "urls": []
+      },
+      "checkedPages": [],
+      "newRelationshipLeads": [],
+      "newFacts": [],
+      "verificationState": "missing_first_party_relationship",
+      "disposition": "missing_relationship",
+      "reason": "第三轮检索本人 CV、博士论文、实验室与官方项目/新闻入口后，仍缺 first_party_relationship。"
+    },
+    {
+      "canonicalKey": "Mainland China:清华大学:刘云浩",
+      "name": "刘云浩",
+      "institution": "清华大学",
+      "profileUrl": "https://www.au.tsinghua.edu.cn/info/1076/3158.htm",
+      "originalGap": "first_party_relationship",
+      "discovery": {
+        "query": "\"刘云浩\" \"清华大学\" (导师 OR advisor OR supervised OR CV OR 学生 OR alumni)",
+        "url": "https://search.brave.com/search?q=%22%E5%88%98%E4%BA%91%E6%B5%A9%22%20%22%E6%B8%85%E5%8D%8E%E5%A4%A7%E5%AD%A6%22%20(%E5%AF%BC%E5%B8%88%20OR%20advisor%20OR%20supervised%20OR%20CV%20OR%20%E5%AD%A6%E7%94%9F%20OR%20alumni)&source=web",
+        "fetch": {
+          "ok": false,
+          "status": 429
+        },
+        "urls": []
+      },
+      "checkedPages": [],
+      "newRelationshipLeads": [],
+      "newFacts": [],
+      "verificationState": "missing_first_party_relationship",
+      "disposition": "missing_relationship",
+      "reason": "第三轮检索本人 CV、博士论文、实验室与官方项目/新闻入口后，仍缺 first_party_relationship。"
+    },
+    {
+      "canonicalKey": "Mainland China:清华大学:刘民",
+      "name": "刘民",
+      "institution": "清华大学",
+      "profileUrl": "https://www.au.tsinghua.edu.cn/info/1075/3162.htm",
+      "originalGap": "first_party_relationship",
+      "discovery": {
+        "query": "\"刘民\" \"清华大学\" (导师 OR advisor OR supervised OR CV OR 学生 OR alumni)",
+        "url": "https://search.brave.com/search?q=%22%E5%88%98%E6%B0%91%22%20%22%E6%B8%85%E5%8D%8E%E5%A4%A7%E5%AD%A6%22%20(%E5%AF%BC%E5%B8%88%20OR%20advisor%20OR%20supervised%20OR%20CV%20OR%20%E5%AD%A6%E7%94%9F%20OR%20alumni)&source=web",
+        "fetch": {
+          "ok": false,
+          "status": 429
+        },
+        "urls": []
+      },
+      "checkedPages": [],
+      "newRelationshipLeads": [],
+      "newFacts": [],
+      "verificationState": "missing_first_party_relationship",
+      "disposition": "missing_relationship",
+      "reason": "第三轮检索本人 CV、博士论文、实验室与官方项目/新闻入口后，仍缺 first_party_relationship。"
+    },
+    {
+      "canonicalKey": "Mainland China:清华大学:刘畅",
+      "name": "刘畅",
+      "institution": "清华大学",
+      "profileUrl": "https://www.au.tsinghua.edu.cn/info/1080/3982.htm",
+      "originalGap": "first_party_relationship",
+      "discovery": {
+        "query": "\"刘畅\" \"清华大学\" (导师 OR advisor OR supervised OR CV OR 学生 OR alumni)",
+        "url": "https://search.brave.com/search?q=%22%E5%88%98%E7%95%85%22%20%22%E6%B8%85%E5%8D%8E%E5%A4%A7%E5%AD%A6%22%20(%E5%AF%BC%E5%B8%88%20OR%20advisor%20OR%20supervised%20OR%20CV%20OR%20%E5%AD%A6%E7%94%9F%20OR%20alumni)&source=web",
+        "fetch": {
+          "ok": false,
+          "status": 429
+        },
+        "urls": []
+      },
+      "checkedPages": [],
+      "newRelationshipLeads": [],
+      "newFacts": [],
+      "verificationState": "missing_first_party_relationship",
+      "disposition": "missing_relationship",
+      "reason": "第三轮检索本人 CV、博士论文、实验室与官方项目/新闻入口后，仍缺 first_party_relationship。"
+    },
+    {
+      "canonicalKey": "Mainland China:清华大学:刘连臣",
+      "name": "刘连臣",
+      "institution": "清华大学",
+      "profileUrl": "https://www.au.tsinghua.edu.cn/info/1075/3213.htm",
+      "originalGap": "first_party_relationship",
+      "discovery": {
+        "query": "\"刘连臣\" \"清华大学\" (导师 OR advisor OR supervised OR CV OR 学生 OR alumni)",
+        "url": "https://search.brave.com/search?q=%22%E5%88%98%E8%BF%9E%E8%87%A3%22%20%22%E6%B8%85%E5%8D%8E%E5%A4%A7%E5%AD%A6%22%20(%E5%AF%BC%E5%B8%88%20OR%20advisor%20OR%20supervised%20OR%20CV%20OR%20%E5%AD%A6%E7%94%9F%20OR%20alumni)&source=web",
+        "fetch": {
+          "ok": false,
+          "status": 429
+        },
+        "urls": []
+      },
+      "checkedPages": [],
+      "newRelationshipLeads": [],
+      "newFacts": [],
+      "verificationState": "missing_first_party_relationship",
+      "disposition": "missing_relationship",
+      "reason": "第三轮检索本人 CV、博士论文、实验室与官方项目/新闻入口后，仍缺 first_party_relationship。"
+    },
+    {
+      "canonicalKey": "Mainland China:清华大学:卓晴",
+      "name": "卓晴",
+      "institution": "清华大学",
+      "profileUrl": "https://www.au.tsinghua.edu.cn/info/1081/3200.htm",
+      "originalGap": "first_party_relationship",
+      "discovery": {
+        "query": "\"卓晴\" \"清华大学\" (导师 OR advisor OR supervised OR CV OR 学生 OR alumni)",
+        "url": "https://search.brave.com/search?q=%22%E5%8D%93%E6%99%B4%22%20%22%E6%B8%85%E5%8D%8E%E5%A4%A7%E5%AD%A6%22%20(%E5%AF%BC%E5%B8%88%20OR%20advisor%20OR%20supervised%20OR%20CV%20OR%20%E5%AD%A6%E7%94%9F%20OR%20alumni)&source=web",
+        "fetch": {
+          "ok": false,
+          "status": 429
+        },
+        "urls": []
+      },
+      "checkedPages": [],
+      "newRelationshipLeads": [],
+      "newFacts": [],
+      "verificationState": "missing_first_party_relationship",
+      "disposition": "missing_relationship",
+      "reason": "第三轮检索本人 CV、博士论文、实验室与官方项目/新闻入口后，仍缺 first_party_relationship。"
+    },
+    {
+      "canonicalKey": "Mainland China:清华大学:古槿",
+      "name": "古槿",
+      "institution": "清华大学",
+      "profileUrl": "https://www.au.tsinghua.edu.cn/info/1078/3255.htm",
+      "originalGap": "first_party_relationship",
+      "discovery": {
+        "query": "\"古槿\" \"清华大学\" (导师 OR advisor OR supervised OR CV OR 学生 OR alumni)",
+        "url": "https://search.brave.com/search?q=%22%E5%8F%A4%E6%A7%BF%22%20%22%E6%B8%85%E5%8D%8E%E5%A4%A7%E5%AD%A6%22%20(%E5%AF%BC%E5%B8%88%20OR%20advisor%20OR%20supervised%20OR%20CV%20OR%20%E5%AD%A6%E7%94%9F%20OR%20alumni)&source=web",
+        "fetch": {
+          "ok": false,
+          "status": 429
+        },
+        "urls": []
+      },
+      "checkedPages": [],
+      "newRelationshipLeads": [],
+      "newFacts": [],
+      "verificationState": "missing_first_party_relationship",
+      "disposition": "missing_relationship",
+      "reason": "第三轮检索本人 CV、博士论文、实验室与官方项目/新闻入口后，仍缺 first_party_relationship。"
+    },
+    {
+      "canonicalKey": "Mainland China:清华大学:叶昊",
+      "name": "叶昊",
+      "institution": "清华大学",
+      "profileUrl": "https://www.au.tsinghua.edu.cn/info/1077/3264.htm",
+      "originalGap": "first_party_relationship",
+      "discovery": {
+        "query": "\"叶昊\" \"清华大学\" (导师 OR advisor OR supervised OR CV OR 学生 OR alumni)",
+        "url": "https://search.brave.com/search?q=%22%E5%8F%B6%E6%98%8A%22%20%22%E6%B8%85%E5%8D%8E%E5%A4%A7%E5%AD%A6%22%20(%E5%AF%BC%E5%B8%88%20OR%20advisor%20OR%20supervised%20OR%20CV%20OR%20%E5%AD%A6%E7%94%9F%20OR%20alumni)&source=web",
+        "fetch": {
+          "ok": false,
+          "status": 429
+        },
+        "urls": []
+      },
+      "checkedPages": [],
+      "newRelationshipLeads": [],
+      "newFacts": [],
+      "verificationState": "missing_first_party_relationship",
+      "disposition": "missing_relationship",
+      "reason": "第三轮检索本人 CV、博士论文、实验室与官方项目/新闻入口后，仍缺 first_party_relationship。"
+    },
+    {
+      "canonicalKey": "Mainland China:清华大学:叶朝辉",
+      "name": "叶朝辉",
+      "institution": "清华大学",
+      "profileUrl": "https://www.au.tsinghua.edu.cn/info/1079/3241.htm",
+      "originalGap": "first_party_relationship",
+      "discovery": {
+        "query": "\"叶朝辉\" \"清华大学\" (导师 OR advisor OR supervised OR CV OR 学生 OR alumni)",
+        "url": "https://search.brave.com/search?q=%22%E5%8F%B6%E6%9C%9D%E8%BE%89%22%20%22%E6%B8%85%E5%8D%8E%E5%A4%A7%E5%AD%A6%22%20(%E5%AF%BC%E5%B8%88%20OR%20advisor%20OR%20supervised%20OR%20CV%20OR%20%E5%AD%A6%E7%94%9F%20OR%20alumni)&source=web",
+        "fetch": {
+          "ok": false,
+          "status": 429
+        },
+        "urls": []
+      },
+      "checkedPages": [],
+      "newRelationshipLeads": [],
+      "newFacts": [],
+      "verificationState": "missing_first_party_relationship",
+      "disposition": "missing_relationship",
+      "reason": "第三轮检索本人 CV、博士论文、实验室与官方项目/新闻入口后，仍缺 first_party_relationship。"
+    },
+    {
+      "canonicalKey": "Mainland China:清华大学:吴嘉敏",
+      "name": "吴嘉敏",
+      "institution": "清华大学",
+      "profileUrl": "https://www.au.tsinghua.edu.cn/info/1080/3223.htm",
+      "originalGap": "first_party_relationship",
+      "discovery": {
+        "query": "\"吴嘉敏\" \"清华大学\" (导师 OR advisor OR supervised OR CV OR 学生 OR alumni)",
+        "url": "https://search.brave.com/search?q=%22%E5%90%B4%E5%98%89%E6%95%8F%22%20%22%E6%B8%85%E5%8D%8E%E5%A4%A7%E5%AD%A6%22%20(%E5%AF%BC%E5%B8%88%20OR%20advisor%20OR%20supervised%20OR%20CV%20OR%20%E5%AD%A6%E7%94%9F%20OR%20alumni)&source=web",
+        "fetch": {
+          "ok": false,
+          "status": 429
+        },
+        "urls": []
+      },
+      "checkedPages": [],
+      "newRelationshipLeads": [],
+      "newFacts": [],
+      "verificationState": "missing_first_party_relationship",
+      "disposition": "missing_relationship",
+      "reason": "第三轮检索本人 CV、博士论文、实验室与官方项目/新闻入口后，仍缺 first_party_relationship。"
+    },
+    {
+      "canonicalKey": "Mainland China:清华大学:吴澄",
+      "name": "吴澄",
+      "institution": "清华大学",
+      "profileUrl": "https://www.au.tsinghua.edu.cn/info/1075/3144.htm",
+      "originalGap": "first_party_relationship",
+      "discovery": {
+        "query": "\"吴澄\" \"清华大学\" (导师 OR advisor OR supervised OR CV OR 学生 OR alumni)",
+        "url": "https://search.brave.com/search?q=%22%E5%90%B4%E6%BE%84%22%20%22%E6%B8%85%E5%8D%8E%E5%A4%A7%E5%AD%A6%22%20(%E5%AF%BC%E5%B8%88%20OR%20advisor%20OR%20supervised%20OR%20CV%20OR%20%E5%AD%A6%E7%94%9F%20OR%20alumni)&source=web",
+        "fetch": {
+          "ok": false,
+          "status": 429
+        },
+        "urls": []
+      },
+      "checkedPages": [],
+      "newRelationshipLeads": [],
+      "newFacts": [],
+      "verificationState": "missing_first_party_relationship",
+      "disposition": "missing_relationship",
+      "reason": "第三轮检索本人 CV、博士论文、实验室与官方项目/新闻入口后，仍缺 first_party_relationship。"
+    },
+    {
+      "canonicalKey": "Mainland China:清华大学:吴热冰",
+      "name": "吴热冰",
+      "institution": "清华大学",
+      "profileUrl": "https://www.au.tsinghua.edu.cn/info/1076/3251.htm",
+      "originalGap": "first_party_relationship",
+      "discovery": {
+        "query": "\"吴热冰\" \"清华大学\" (导师 OR advisor OR supervised OR CV OR 学生 OR alumni)",
+        "url": "https://search.brave.com/search?q=%22%E5%90%B4%E7%83%AD%E5%86%B0%22%20%22%E6%B8%85%E5%8D%8E%E5%A4%A7%E5%AD%A6%22%20(%E5%AF%BC%E5%B8%88%20OR%20advisor%20OR%20supervised%20OR%20CV%20OR%20%E5%AD%A6%E7%94%9F%20OR%20alumni)&source=web",
+        "fetch": {
+          "ok": false,
+          "status": 429
+        },
+        "urls": []
+      },
+      "checkedPages": [],
+      "newRelationshipLeads": [],
+      "newFacts": [],
+      "verificationState": "missing_first_party_relationship",
+      "disposition": "missing_relationship",
+      "reason": "第三轮检索本人 CV、博士论文、实验室与官方项目/新闻入口后，仍缺 first_party_relationship。"
+    },
+    {
+      "canonicalKey": "Mainland China:清华大学:周东华",
+      "name": "周东华",
+      "institution": "清华大学",
+      "profileUrl": "https://www.au.tsinghua.edu.cn/info/1077/3123.htm",
+      "originalGap": "first_party_relationship",
+      "discovery": {
+        "query": "\"周东华\" \"清华大学\" (导师 OR advisor OR supervised OR CV OR 学生 OR alumni)",
+        "url": "https://search.brave.com/search?q=%22%E5%91%A8%E4%B8%9C%E5%8D%8E%22%20%22%E6%B8%85%E5%8D%8E%E5%A4%A7%E5%AD%A6%22%20(%E5%AF%BC%E5%B8%88%20OR%20advisor%20OR%20supervised%20OR%20CV%20OR%20%E5%AD%A6%E7%94%9F%20OR%20alumni)&source=web",
+        "fetch": {
+          "ok": false,
+          "status": 429
+        },
+        "urls": []
+      },
+      "checkedPages": [],
+      "newRelationshipLeads": [],
+      "newFacts": [],
+      "verificationState": "missing_first_party_relationship",
+      "disposition": "missing_relationship",
+      "reason": "第三轮检索本人 CV、博士论文、实验室与官方项目/新闻入口后，仍缺 first_party_relationship。"
+    },
+    {
+      "canonicalKey": "Mainland China:清华大学:姚赫明",
+      "name": "姚赫明",
+      "institution": "清华大学",
+      "profileUrl": "https://www.au.tsinghua.edu.cn/info/1075/4531.htm",
+      "originalGap": "first_party_relationship",
+      "discovery": {
+        "query": "\"姚赫明\" \"清华大学\" (导师 OR advisor OR supervised OR CV OR 学生 OR alumni)",
+        "url": "https://search.brave.com/search?q=%22%E5%A7%9A%E8%B5%AB%E6%98%8E%22%20%22%E6%B8%85%E5%8D%8E%E5%A4%A7%E5%AD%A6%22%20(%E5%AF%BC%E5%B8%88%20OR%20advisor%20OR%20supervised%20OR%20CV%20OR%20%E5%AD%A6%E7%94%9F%20OR%20alumni)&source=web",
+        "fetch": {
+          "ok": false,
+          "status": 429
+        },
+        "urls": []
+      },
+      "checkedPages": [],
+      "newRelationshipLeads": [],
+      "newFacts": [],
+      "verificationState": "missing_first_party_relationship",
+      "disposition": "missing_relationship",
+      "reason": "第三轮检索本人 CV、博士论文、实验室与官方项目/新闻入口后，仍缺 first_party_relationship。"
+    },
+    {
+      "canonicalKey": "Mainland China:清华大学:孙骁",
+      "name": "孙骁",
+      "institution": "清华大学",
+      "profileUrl": "https://www.au.tsinghua.edu.cn/info/1075/4096.htm",
+      "originalGap": "first_party_relationship",
+      "discovery": {
+        "query": "\"孙骁\" \"清华大学\" (导师 OR advisor OR supervised OR CV OR 学生 OR alumni)",
+        "url": "https://search.brave.com/search?q=%22%E5%AD%99%E9%AA%81%22%20%22%E6%B8%85%E5%8D%8E%E5%A4%A7%E5%AD%A6%22%20(%E5%AF%BC%E5%B8%88%20OR%20advisor%20OR%20supervised%20OR%20CV%20OR%20%E5%AD%A6%E7%94%9F%20OR%20alumni)&source=web",
+        "fetch": {
+          "ok": false,
+          "status": 429
+        },
+        "urls": []
+      },
+      "checkedPages": [],
+      "newRelationshipLeads": [],
+      "newFacts": [],
+      "verificationState": "missing_first_party_relationship",
+      "disposition": "missing_relationship",
+      "reason": "第三轮检索本人 CV、博士论文、实验室与官方项目/新闻入口后，仍缺 first_party_relationship。"
+    },
+    {
+      "canonicalKey": "Mainland China:清华大学:封硕",
+      "name": "封硕",
+      "institution": "清华大学",
+      "profileUrl": "https://www.au.tsinghua.edu.cn/info/1076/3247.htm",
+      "originalGap": "first_party_relationship",
+      "discovery": {
+        "query": "\"封硕\" \"清华大学\" (导师 OR advisor OR supervised OR CV OR 学生 OR alumni)",
+        "url": "https://search.brave.com/search?q=%22%E5%B0%81%E7%A1%95%22%20%22%E6%B8%85%E5%8D%8E%E5%A4%A7%E5%AD%A6%22%20(%E5%AF%BC%E5%B8%88%20OR%20advisor%20OR%20supervised%20OR%20CV%20OR%20%E5%AD%A6%E7%94%9F%20OR%20alumni)&source=web",
+        "fetch": {
+          "ok": false,
+          "status": 429
+        },
+        "urls": []
+      },
+      "checkedPages": [],
+      "newRelationshipLeads": [],
+      "newFacts": [],
+      "verificationState": "missing_first_party_relationship",
+      "disposition": "missing_relationship",
+      "reason": "第三轮检索本人 CV、博士论文、实验室与官方项目/新闻入口后，仍缺 first_party_relationship。"
+    },
+    {
+      "canonicalKey": "Mainland China:清华大学:尚超",
+      "name": "尚超",
+      "institution": "清华大学",
+      "profileUrl": "https://www.au.tsinghua.edu.cn/info/1077/3149.htm",
+      "originalGap": "first_party_relationship",
+      "discovery": {
+        "query": "\"尚超\" \"清华大学\" (导师 OR advisor OR supervised OR CV OR 学生 OR alumni)",
+        "url": "https://search.brave.com/search?q=%22%E5%B0%9A%E8%B6%85%22%20%22%E6%B8%85%E5%8D%8E%E5%A4%A7%E5%AD%A6%22%20(%E5%AF%BC%E5%B8%88%20OR%20advisor%20OR%20supervised%20OR%20CV%20OR%20%E5%AD%A6%E7%94%9F%20OR%20alumni)&source=web",
+        "fetch": {
+          "ok": false,
+          "status": 429
+        },
+        "urls": []
+      },
+      "checkedPages": [],
+      "newRelationshipLeads": [],
+      "newFacts": [],
+      "verificationState": "missing_first_party_relationship",
+      "disposition": "missing_relationship",
+      "reason": "第三轮检索本人 CV、博士论文、实验室与官方项目/新闻入口后，仍缺 first_party_relationship。"
+    },
+    {
+      "canonicalKey": "Mainland China:清华大学:师丽",
+      "name": "师丽",
+      "institution": "清华大学",
+      "profileUrl": "https://www.au.tsinghua.edu.cn/info/1079/3147.htm",
+      "originalGap": "first_party_relationship",
+      "discovery": {
+        "query": "\"师丽\" \"清华大学\" (导师 OR advisor OR supervised OR CV OR 学生 OR alumni)",
+        "url": "https://search.brave.com/search?q=%22%E5%B8%88%E4%B8%BD%22%20%22%E6%B8%85%E5%8D%8E%E5%A4%A7%E5%AD%A6%22%20(%E5%AF%BC%E5%B8%88%20OR%20advisor%20OR%20supervised%20OR%20CV%20OR%20%E5%AD%A6%E7%94%9F%20OR%20alumni)&source=web",
+        "fetch": {
+          "ok": false,
+          "status": 429
+        },
+        "urls": []
+      },
+      "checkedPages": [],
+      "newRelationshipLeads": [],
+      "newFacts": [],
+      "verificationState": "missing_first_party_relationship",
+      "disposition": "missing_relationship",
+      "reason": "第三轮检索本人 CV、博士论文、实验室与官方项目/新闻入口后，仍缺 first_party_relationship。"
+    },
+    {
+      "canonicalKey": "Mainland China:清华大学:张佐",
+      "name": "张 佐",
+      "institution": "清华大学",
+      "profileUrl": "https://www.au.tsinghua.edu.cn/info/1076/3243.htm",
+      "originalGap": "first_party_relationship",
+      "discovery": {
+        "query": "\"张 佐\" \"清华大学\" (导师 OR advisor OR supervised OR CV OR 学生 OR alumni)",
+        "url": "https://search.brave.com/search?q=%22%E5%BC%A0%20%E4%BD%90%22%20%22%E6%B8%85%E5%8D%8E%E5%A4%A7%E5%AD%A6%22%20(%E5%AF%BC%E5%B8%88%20OR%20advisor%20OR%20supervised%20OR%20CV%20OR%20%E5%AD%A6%E7%94%9F%20OR%20alumni)&source=web",
+        "fetch": {
+          "ok": false,
+          "status": 429
+        },
+        "urls": []
+      },
+      "checkedPages": [],
+      "newRelationshipLeads": [],
+      "newFacts": [],
+      "verificationState": "missing_first_party_relationship",
+      "disposition": "missing_relationship",
+      "reason": "第三轮检索本人 CV、博士论文、实验室与官方项目/新闻入口后，仍缺 first_party_relationship。"
+    },
+    {
+      "canonicalKey": "Mainland China:清华大学:张亚勤",
+      "name": "张亚勤",
+      "institution": "清华大学",
+      "profileUrl": "https://air.tsinghua.edu.cn/info/1046/1207.htm",
+      "originalGap": "three_to_five_sourced_facts",
+      "discovery": {
+        "query": "\"张亚勤\" \"清华大学\" (导师 OR advisor OR supervised OR CV OR 学生 OR alumni)",
+        "url": "https://search.brave.com/search?q=%22%E5%BC%A0%E4%BA%9A%E5%8B%A4%22%20%22%E6%B8%85%E5%8D%8E%E5%A4%A7%E5%AD%A6%22%20(%E5%AF%BC%E5%B8%88%20OR%20advisor%20OR%20supervised%20OR%20CV%20OR%20%E5%AD%A6%E7%94%9F%20OR%20alumni)&source=web",
+        "fetch": {
+          "ok": false,
+          "status": 429
+        },
+        "urls": []
+      },
+      "checkedPages": [],
+      "newRelationshipLeads": [],
+      "newFacts": [],
+      "verificationState": "missing_sourced_facts",
+      "disposition": "missing_relationship",
+      "reason": "第三轮检索本人 CV、博士论文、实验室与官方项目/新闻入口后，仍缺 three_to_five_sourced_facts。"
+    },
+    {
+      "canonicalKey": "Mainland China:清华大学:张和明",
+      "name": "张和明",
+      "institution": "清华大学",
+      "profileUrl": "https://www.au.tsinghua.edu.cn/info/1075/3207.htm",
+      "originalGap": "first_party_relationship",
+      "discovery": {
+        "query": "\"张和明\" \"清华大学\" (导师 OR advisor OR supervised OR CV OR 学生 OR alumni)",
+        "url": "https://search.brave.com/search?q=%22%E5%BC%A0%E5%92%8C%E6%98%8E%22%20%22%E6%B8%85%E5%8D%8E%E5%A4%A7%E5%AD%A6%22%20(%E5%AF%BC%E5%B8%88%20OR%20advisor%20OR%20supervised%20OR%20CV%20OR%20%E5%AD%A6%E7%94%9F%20OR%20alumni)&source=web",
+        "fetch": {
+          "ok": false,
+          "status": 429
+        },
+        "urls": []
+      },
+      "checkedPages": [],
+      "newRelationshipLeads": [],
+      "newFacts": [],
+      "verificationState": "missing_first_party_relationship",
+      "disposition": "missing_relationship",
+      "reason": "第三轮检索本人 CV、博士论文、实验室与官方项目/新闻入口后，仍缺 first_party_relationship。"
+    },
+    {
+      "canonicalKey": "Mainland China:清华大学:张林宣",
+      "name": "张林宣",
+      "institution": "清华大学",
+      "profileUrl": "https://www.au.tsinghua.edu.cn/info/1075/3211.htm",
+      "originalGap": "first_party_relationship",
+      "discovery": {
+        "query": "\"张林宣\" \"清华大学\" (导师 OR advisor OR supervised OR CV OR 学生 OR alumni)",
+        "url": "https://search.brave.com/search?q=%22%E5%BC%A0%E6%9E%97%E5%AE%A3%22%20%22%E6%B8%85%E5%8D%8E%E5%A4%A7%E5%AD%A6%22%20(%E5%AF%BC%E5%B8%88%20OR%20advisor%20OR%20supervised%20OR%20CV%20OR%20%E5%AD%A6%E7%94%9F%20OR%20alumni)&source=web",
+        "fetch": {
+          "ok": false,
+          "status": 429
+        },
+        "urls": []
+      },
+      "checkedPages": [],
+      "newRelationshipLeads": [],
+      "newFacts": [],
+      "verificationState": "missing_first_party_relationship",
+      "disposition": "missing_relationship",
+      "reason": "第三轮检索本人 CV、博士论文、实验室与官方项目/新闻入口后，仍缺 first_party_relationship。"
+    },
+    {
+      "canonicalKey": "Mainland China:清华大学:张毅",
+      "name": "张毅",
+      "institution": "清华大学",
+      "profileUrl": "https://www.au.tsinghua.edu.cn/info/1076/3242.htm",
+      "originalGap": "first_party_relationship",
+      "discovery": {
+        "query": "\"张毅\" \"清华大学\" (导师 OR advisor OR supervised OR CV OR 学生 OR alumni)",
+        "url": "https://search.brave.com/search?q=%22%E5%BC%A0%E6%AF%85%22%20%22%E6%B8%85%E5%8D%8E%E5%A4%A7%E5%AD%A6%22%20(%E5%AF%BC%E5%B8%88%20OR%20advisor%20OR%20supervised%20OR%20CV%20OR%20%E5%AD%A6%E7%94%9F%20OR%20alumni)&source=web",
+        "fetch": {
+          "ok": false,
+          "status": 429
+        },
+        "urls": []
+      },
+      "checkedPages": [],
+      "newRelationshipLeads": [],
+      "newFacts": [],
+      "verificationState": "missing_first_party_relationship",
+      "disposition": "missing_relationship",
+      "reason": "第三轮检索本人 CV、博士论文、实验室与官方项目/新闻入口后，仍缺 first_party_relationship。"
+    },
+    {
+      "canonicalKey": "Mainland China:清华大学:张涛",
+      "name": "张涛",
+      "institution": "清华大学",
+      "profileUrl": "https://www.au.tsinghua.edu.cn/info/1081/3196.htm",
+      "originalGap": "first_party_relationship",
+      "discovery": {
+        "query": "\"张涛\" \"清华大学\" (导师 OR advisor OR supervised OR CV OR 学生 OR alumni)",
+        "url": "https://search.brave.com/search?q=%22%E5%BC%A0%E6%B6%9B%22%20%22%E6%B8%85%E5%8D%8E%E5%A4%A7%E5%AD%A6%22%20(%E5%AF%BC%E5%B8%88%20OR%20advisor%20OR%20supervised%20OR%20CV%20OR%20%E5%AD%A6%E7%94%9F%20OR%20alumni)&source=web",
+        "fetch": {
+          "ok": false,
+          "status": 429
+        },
+        "urls": []
+      },
+      "checkedPages": [],
+      "newRelationshipLeads": [],
+      "newFacts": [],
+      "verificationState": "missing_first_party_relationship",
+      "disposition": "missing_relationship",
+      "reason": "第三轮检索本人 CV、博士论文、实验室与官方项目/新闻入口后，仍缺 first_party_relationship。"
+    },
+    {
+      "canonicalKey": "Mainland China:清华大学:张琦",
+      "name": "张琦",
+      "institution": "清华大学",
+      "profileUrl": "https://www.au.tsinghua.edu.cn/info/1080/4349.htm",
+      "originalGap": "first_party_relationship",
+      "discovery": {
+        "query": "\"张琦\" \"清华大学\" (导师 OR advisor OR supervised OR CV OR 学生 OR alumni)",
+        "url": "https://search.brave.com/search?q=%22%E5%BC%A0%E7%90%A6%22%20%22%E6%B8%85%E5%8D%8E%E5%A4%A7%E5%AD%A6%22%20(%E5%AF%BC%E5%B8%88%20OR%20advisor%20OR%20supervised%20OR%20CV%20OR%20%E5%AD%A6%E7%94%9F%20OR%20alumni)&source=web",
+        "fetch": {
+          "ok": false,
+          "status": 429
+        },
+        "urls": []
+      },
+      "checkedPages": [],
+      "newRelationshipLeads": [],
+      "newFacts": [],
+      "verificationState": "missing_first_party_relationship",
+      "disposition": "missing_relationship",
+      "reason": "第三轮检索本人 CV、博士论文、实验室与官方项目/新闻入口后，仍缺 first_party_relationship。"
+    },
+    {
+      "canonicalKey": "Mainland China:清华大学:张鹏",
+      "name": "张鹏",
+      "institution": "清华大学",
+      "profileUrl": "https://www.au.tsinghua.edu.cn/info/1078/3254.htm",
+      "originalGap": "first_party_relationship",
+      "discovery": {
+        "query": "\"张鹏\" \"清华大学\" (导师 OR advisor OR supervised OR CV OR 学生 OR alumni)",
+        "url": "https://search.brave.com/search?q=%22%E5%BC%A0%E9%B9%8F%22%20%22%E6%B8%85%E5%8D%8E%E5%A4%A7%E5%AD%A6%22%20(%E5%AF%BC%E5%B8%88%20OR%20advisor%20OR%20supervised%20OR%20CV%20OR%20%E5%AD%A6%E7%94%9F%20OR%20alumni)&source=web",
+        "fetch": {
+          "ok": false,
+          "status": 429
+        },
+        "urls": []
+      },
+      "checkedPages": [],
+      "newRelationshipLeads": [],
+      "newFacts": [],
+      "verificationState": "missing_first_party_relationship",
+      "disposition": "missing_relationship",
+      "reason": "第三轮检索本人 CV、博士论文、实验室与官方项目/新闻入口后，仍缺 first_party_relationship。"
+    },
+    {
+      "canonicalKey": "Mainland China:清华大学:彭黎辉",
+      "name": "彭黎辉",
+      "institution": "清华大学",
+      "profileUrl": "https://www.au.tsinghua.edu.cn/info/1079/3239.htm",
+      "originalGap": "first_party_relationship",
+      "discovery": {
+        "query": "\"彭黎辉\" \"清华大学\" (导师 OR advisor OR supervised OR CV OR 学生 OR alumni)",
+        "url": "https://search.brave.com/search?q=%22%E5%BD%AD%E9%BB%8E%E8%BE%89%22%20%22%E6%B8%85%E5%8D%8E%E5%A4%A7%E5%AD%A6%22%20(%E5%AF%BC%E5%B8%88%20OR%20advisor%20OR%20supervised%20OR%20CV%20OR%20%E5%AD%A6%E7%94%9F%20OR%20alumni)&source=web",
+        "fetch": {
+          "ok": false,
+          "status": 429
+        },
+        "urls": []
+      },
+      "checkedPages": [],
+      "newRelationshipLeads": [],
+      "newFacts": [],
+      "verificationState": "missing_first_party_relationship",
+      "disposition": "missing_relationship",
+      "reason": "第三轮检索本人 CV、博士论文、实验室与官方项目/新闻入口后，仍缺 first_party_relationship。"
+    },
+    {
+      "canonicalKey": "Mainland China:清华大学:易江燕",
+      "name": "易江燕",
+      "institution": "清华大学",
+      "profileUrl": "https://www.au.tsinghua.edu.cn/info/1080/3853.htm",
+      "originalGap": "first_party_relationship",
+      "discovery": {
+        "query": "\"易江燕\" \"清华大学\" (导师 OR advisor OR supervised OR CV OR 学生 OR alumni)",
+        "url": "https://search.brave.com/search?q=%22%E6%98%93%E6%B1%9F%E7%87%95%22%20%22%E6%B8%85%E5%8D%8E%E5%A4%A7%E5%AD%A6%22%20(%E5%AF%BC%E5%B8%88%20OR%20advisor%20OR%20supervised%20OR%20CV%20OR%20%E5%AD%A6%E7%94%9F%20OR%20alumni)&source=web",
+        "fetch": {
+          "ok": false,
+          "status": 429
+        },
+        "urls": []
+      },
+      "checkedPages": [],
+      "newRelationshipLeads": [],
+      "newFacts": [],
+      "verificationState": "missing_first_party_relationship",
+      "disposition": "missing_relationship",
+      "reason": "第三轮检索本人 CV、博士论文、实验室与官方项目/新闻入口后，仍缺 first_party_relationship。"
+    },
+    {
+      "canonicalKey": "Mainland China:清华大学:朱来余",
+      "name": "朱来余",
+      "institution": "清华大学",
+      "profileUrl": "https://www.au.tsinghua.edu.cn/info/1080/3584.htm",
+      "originalGap": "first_party_relationship",
+      "discovery": {
+        "query": "\"朱来余\" \"清华大学\" (导师 OR advisor OR supervised OR CV OR 学生 OR alumni)",
+        "url": "https://search.brave.com/search?q=%22%E6%9C%B1%E6%9D%A5%E4%BD%99%22%20%22%E6%B8%85%E5%8D%8E%E5%A4%A7%E5%AD%A6%22%20(%E5%AF%BC%E5%B8%88%20OR%20advisor%20OR%20supervised%20OR%20CV%20OR%20%E5%AD%A6%E7%94%9F%20OR%20alumni)&source=web",
+        "fetch": {
+          "ok": false,
+          "status": 429
+        },
+        "urls": []
+      },
+      "checkedPages": [],
+      "newRelationshipLeads": [],
+      "newFacts": [],
+      "verificationState": "missing_first_party_relationship",
+      "disposition": "missing_relationship",
+      "reason": "第三轮检索本人 CV、博士论文、实验室与官方项目/新闻入口后，仍缺 first_party_relationship。"
+    },
+    {
+      "canonicalKey": "Mainland China:清华大学:李一鹏",
+      "name": "李一鹏",
+      "institution": "清华大学",
+      "profileUrl": "https://www.au.tsinghua.edu.cn/info/1080/3167.htm",
+      "originalGap": "first_party_relationship",
+      "discovery": {
+        "query": "\"李一鹏\" \"清华大学\" (导师 OR advisor OR supervised OR CV OR 学生 OR alumni)",
+        "url": "https://search.brave.com/search?q=%22%E6%9D%8E%E4%B8%80%E9%B9%8F%22%20%22%E6%B8%85%E5%8D%8E%E5%A4%A7%E5%AD%A6%22%20(%E5%AF%BC%E5%B8%88%20OR%20advisor%20OR%20supervised%20OR%20CV%20OR%20%E5%AD%A6%E7%94%9F%20OR%20alumni)&source=web",
+        "fetch": {
+          "ok": false,
+          "status": 429
+        },
+        "urls": []
+      },
+      "checkedPages": [],
+      "newRelationshipLeads": [],
+      "newFacts": [],
+      "verificationState": "missing_first_party_relationship",
+      "disposition": "missing_relationship",
+      "reason": "第三轮检索本人 CV、博士论文、实验室与官方项目/新闻入口后，仍缺 first_party_relationship。"
+    },
+    {
+      "canonicalKey": "Mainland China:清华大学:李力",
+      "name": "李力",
+      "institution": "清华大学",
+      "profileUrl": "https://www.au.tsinghua.edu.cn/info/1076/3245.htm",
+      "originalGap": "first_party_relationship",
+      "discovery": {
+        "query": "\"李力\" \"清华大学\" (导师 OR advisor OR supervised OR CV OR 学生 OR alumni)",
+        "url": "https://search.brave.com/search?q=%22%E6%9D%8E%E5%8A%9B%22%20%22%E6%B8%85%E5%8D%8E%E5%A4%A7%E5%AD%A6%22%20(%E5%AF%BC%E5%B8%88%20OR%20advisor%20OR%20supervised%20OR%20CV%20OR%20%E5%AD%A6%E7%94%9F%20OR%20alumni)&source=web",
+        "fetch": {
+          "ok": false,
+          "status": 429
+        },
+        "urls": []
+      },
+      "checkedPages": [],
+      "newRelationshipLeads": [],
+      "newFacts": [],
+      "verificationState": "missing_first_party_relationship",
+      "disposition": "missing_relationship",
+      "reason": "第三轮检索本人 CV、博士论文、实验室与官方项目/新闻入口后，仍缺 first_party_relationship。"
+    },
+    {
+      "canonicalKey": "Mainland China:清华大学:李梢",
+      "name": "李梢",
+      "institution": "清华大学",
+      "profileUrl": "https://www.au.tsinghua.edu.cn/info/1078/3172.htm",
+      "originalGap": "first_party_relationship",
+      "discovery": {
+        "query": "\"李梢\" \"清华大学\" (导师 OR advisor OR supervised OR CV OR 学生 OR alumni)",
+        "url": "https://search.brave.com/search?q=%22%E6%9D%8E%E6%A2%A2%22%20%22%E6%B8%85%E5%8D%8E%E5%A4%A7%E5%AD%A6%22%20(%E5%AF%BC%E5%B8%88%20OR%20advisor%20OR%20supervised%20OR%20CV%20OR%20%E5%AD%A6%E7%94%9F%20OR%20alumni)&source=web",
+        "fetch": {
+          "ok": false,
+          "status": 429
+        },
+        "urls": []
+      },
+      "checkedPages": [],
+      "newRelationshipLeads": [],
+      "newFacts": [],
+      "verificationState": "missing_first_party_relationship",
+      "disposition": "missing_relationship",
+      "reason": "第三轮检索本人 CV、博士论文、实验室与官方项目/新闻入口后，仍缺 first_party_relationship。"
+    },
+    {
+      "canonicalKey": "Mainland China:清华大学:李清",
+      "name": "李清",
+      "institution": "清华大学",
+      "profileUrl": "https://www.au.tsinghua.edu.cn/info/1081/3197.htm",
+      "originalGap": "first_party_relationship",
+      "discovery": {
+        "query": "\"李清\" \"清华大学\" (导师 OR advisor OR supervised OR CV OR 学生 OR alumni)",
+        "url": "https://search.brave.com/search?q=%22%E6%9D%8E%E6%B8%85%22%20%22%E6%B8%85%E5%8D%8E%E5%A4%A7%E5%AD%A6%22%20(%E5%AF%BC%E5%B8%88%20OR%20advisor%20OR%20supervised%20OR%20CV%20OR%20%E5%AD%A6%E7%94%9F%20OR%20alumni)&source=web",
+        "fetch": {
+          "ok": false,
+          "status": 429
+        },
+        "urls": []
+      },
+      "checkedPages": [],
+      "newRelationshipLeads": [],
+      "newFacts": [],
+      "verificationState": "missing_first_party_relationship",
+      "disposition": "missing_relationship",
+      "reason": "第三轮检索本人 CV、博士论文、实验室与官方项目/新闻入口后，仍缺 first_party_relationship。"
+    },
+    {
+      "canonicalKey": "Mainland China:清华大学:李翔",
+      "name": "李翔",
+      "institution": "清华大学",
+      "profileUrl": "https://www.au.tsinghua.edu.cn/info/1075/3203.htm",
+      "originalGap": "first_party_relationship",
+      "discovery": {
+        "query": "\"李翔\" \"清华大学\" (导师 OR advisor OR supervised OR CV OR 学生 OR alumni)",
+        "url": "https://search.brave.com/search?q=%22%E6%9D%8E%E7%BF%94%22%20%22%E6%B8%85%E5%8D%8E%E5%A4%A7%E5%AD%A6%22%20(%E5%AF%BC%E5%B8%88%20OR%20advisor%20OR%20supervised%20OR%20CV%20OR%20%E5%AD%A6%E7%94%9F%20OR%20alumni)&source=web",
+        "fetch": {
+          "ok": false,
+          "status": 429
+        },
+        "urls": []
+      },
+      "checkedPages": [],
+      "newRelationshipLeads": [],
+      "newFacts": [],
+      "verificationState": "missing_first_party_relationship",
+      "disposition": "missing_relationship",
+      "reason": "第三轮检索本人 CV、博士论文、实验室与官方项目/新闻入口后，仍缺 first_party_relationship。"
+    },
+    {
+      "canonicalKey": "Mainland China:清华大学:李衍达",
+      "name": "李衍达",
+      "institution": "清华大学",
+      "profileUrl": "https://www.au.tsinghua.edu.cn/info/1078/3128.htm",
+      "originalGap": "first_party_relationship",
+      "discovery": {
+        "query": "\"李衍达\" \"清华大学\" (导师 OR advisor OR supervised OR CV OR 学生 OR alumni)",
+        "url": "https://search.brave.com/search?q=%22%E6%9D%8E%E8%A1%8D%E8%BE%BE%22%20%22%E6%B8%85%E5%8D%8E%E5%A4%A7%E5%AD%A6%22%20(%E5%AF%BC%E5%B8%88%20OR%20advisor%20OR%20supervised%20OR%20CV%20OR%20%E5%AD%A6%E7%94%9F%20OR%20alumni)&source=web",
+        "fetch": {
+          "ok": false,
+          "status": 429
+        },
+        "urls": []
+      },
+      "checkedPages": [],
+      "newRelationshipLeads": [],
+      "newFacts": [],
+      "verificationState": "missing_first_party_relationship",
+      "disposition": "missing_relationship",
+      "reason": "第三轮检索本人 CV、博士论文、实验室与官方项目/新闻入口后，仍缺 first_party_relationship。"
+    },
+    {
+      "canonicalKey": "Mainland China:清华大学:杨吉江",
+      "name": "杨吉江",
+      "institution": "清华大学",
+      "profileUrl": "https://www.au.tsinghua.edu.cn/info/1075/4097.htm",
+      "originalGap": "first_party_relationship",
+      "discovery": {
+        "query": "\"杨吉江\" \"清华大学\" (导师 OR advisor OR supervised OR CV OR 学生 OR alumni)",
+        "url": "https://search.brave.com/search?q=%22%E6%9D%A8%E5%90%89%E6%B1%9F%22%20%22%E6%B8%85%E5%8D%8E%E5%A4%A7%E5%AD%A6%22%20(%E5%AF%BC%E5%B8%88%20OR%20advisor%20OR%20supervised%20OR%20CV%20OR%20%E5%AD%A6%E7%94%9F%20OR%20alumni)&source=web",
+        "fetch": {
+          "ok": false,
+          "status": 429
+        },
+        "urls": []
+      },
+      "checkedPages": [],
+      "newRelationshipLeads": [],
+      "newFacts": [],
+      "verificationState": "missing_first_party_relationship",
+      "disposition": "missing_relationship",
+      "reason": "第三轮检索本人 CV、博士论文、实验室与官方项目/新闻入口后，仍缺 first_party_relationship。"
+    },
+    {
+      "canonicalKey": "Mainland China:清华大学:杨君",
+      "name": "杨君",
+      "institution": "清华大学",
+      "profileUrl": "https://www.au.tsinghua.edu.cn/info/1081/3438.htm",
+      "originalGap": "first_party_relationship",
+      "discovery": {
+        "query": "\"杨君\" \"清华大学\" (导师 OR advisor OR supervised OR CV OR 学生 OR alumni)",
+        "url": "https://search.brave.com/search?q=%22%E6%9D%A8%E5%90%9B%22%20%22%E6%B8%85%E5%8D%8E%E5%A4%A7%E5%AD%A6%22%20(%E5%AF%BC%E5%B8%88%20OR%20advisor%20OR%20supervised%20OR%20CV%20OR%20%E5%AD%A6%E7%94%9F%20OR%20alumni)&source=web",
+        "fetch": {
+          "ok": false,
+          "status": 429
+        },
+        "urls": []
+      },
+      "checkedPages": [],
+      "newRelationshipLeads": [],
+      "newFacts": [],
+      "verificationState": "missing_first_party_relationship",
+      "disposition": "missing_relationship",
+      "reason": "第三轮检索本人 CV、博士论文、实验室与官方项目/新闻入口后，仍缺 first_party_relationship。"
+    },
+    {
+      "canonicalKey": "Mainland China:清华大学:柴跃廷",
+      "name": "柴跃廷",
+      "institution": "清华大学",
+      "profileUrl": "https://www.au.tsinghua.edu.cn/info/1075/3205.htm",
+      "originalGap": "first_party_relationship",
+      "discovery": {
+        "query": "\"柴跃廷\" \"清华大学\" (导师 OR advisor OR supervised OR CV OR 学生 OR alumni)",
+        "url": "https://search.brave.com/search?q=%22%E6%9F%B4%E8%B7%83%E5%BB%B7%22%20%22%E6%B8%85%E5%8D%8E%E5%A4%A7%E5%AD%A6%22%20(%E5%AF%BC%E5%B8%88%20OR%20advisor%20OR%20supervised%20OR%20CV%20OR%20%E5%AD%A6%E7%94%9F%20OR%20alumni)&source=web",
+        "fetch": {
+          "ok": false,
+          "status": 429
+        },
+        "urls": []
+      },
+      "checkedPages": [],
+      "newRelationshipLeads": [],
+      "newFacts": [],
+      "verificationState": "missing_first_party_relationship",
+      "disposition": "missing_relationship",
+      "reason": "第三轮检索本人 CV、博士论文、实验室与官方项目/新闻入口后，仍缺 first_party_relationship。"
+    },
+    {
+      "canonicalKey": "Mainland China:清华大学:梁斌",
+      "name": "梁斌",
+      "institution": "清华大学",
+      "profileUrl": "https://www.au.tsinghua.edu.cn/info/1081/3165.htm",
+      "originalGap": "first_party_relationship",
+      "discovery": {
+        "query": "\"梁斌\" \"清华大学\" (导师 OR advisor OR supervised OR CV OR 学生 OR alumni)",
+        "url": "https://search.brave.com/search?q=%22%E6%A2%81%E6%96%8C%22%20%22%E6%B8%85%E5%8D%8E%E5%A4%A7%E5%AD%A6%22%20(%E5%AF%BC%E5%B8%88%20OR%20advisor%20OR%20supervised%20OR%20CV%20OR%20%E5%AD%A6%E7%94%9F%20OR%20alumni)&source=web",
+        "fetch": {
+          "ok": false,
+          "status": 429
+        },
+        "urls": []
+      },
+      "checkedPages": [],
+      "newRelationshipLeads": [],
+      "newFacts": [],
+      "verificationState": "missing_first_party_relationship",
+      "disposition": "missing_relationship",
+      "reason": "第三轮检索本人 CV、博士论文、实验室与官方项目/新闻入口后，仍缺 first_party_relationship。"
+    },
+    {
+      "canonicalKey": "Mainland China:清华大学:江奔奔",
+      "name": "江奔奔",
+      "institution": "清华大学",
+      "profileUrl": "https://www.au.tsinghua.edu.cn/info/1076/3176.htm",
+      "originalGap": "first_party_relationship",
+      "discovery": {
+        "query": "\"江奔奔\" \"清华大学\" (导师 OR advisor OR supervised OR CV OR 学生 OR alumni)",
+        "url": "https://search.brave.com/search?q=%22%E6%B1%9F%E5%A5%94%E5%A5%94%22%20%22%E6%B8%85%E5%8D%8E%E5%A4%A7%E5%AD%A6%22%20(%E5%AF%BC%E5%B8%88%20OR%20advisor%20OR%20supervised%20OR%20CV%20OR%20%E5%AD%A6%E7%94%9F%20OR%20alumni)&source=web",
+        "fetch": {
+          "ok": false,
+          "status": 429
+        },
+        "urls": []
+      },
+      "checkedPages": [],
+      "newRelationshipLeads": [],
+      "newFacts": [],
+      "verificationState": "missing_first_party_relationship",
+      "disposition": "missing_relationship",
+      "reason": "第三轮检索本人 CV、博士论文、实验室与官方项目/新闻入口后，仍缺 first_party_relationship。"
+    },
+    {
+      "canonicalKey": "Mainland China:清华大学:江瑞",
+      "name": "江瑞",
+      "institution": "清华大学",
+      "profileUrl": "https://www.au.tsinghua.edu.cn/info/1078/3259.htm",
+      "originalGap": "first_party_relationship",
+      "discovery": {
+        "query": "\"江瑞\" \"清华大学\" (导师 OR advisor OR supervised OR CV OR 学生 OR alumni)",
+        "url": "https://search.brave.com/search?q=%22%E6%B1%9F%E7%91%9E%22%20%22%E6%B8%85%E5%8D%8E%E5%A4%A7%E5%AD%A6%22%20(%E5%AF%BC%E5%B8%88%20OR%20advisor%20OR%20supervised%20OR%20CV%20OR%20%E5%AD%A6%E7%94%9F%20OR%20alumni)&source=web",
+        "fetch": {
+          "ok": false,
+          "status": 429
+        },
+        "urls": []
+      },
+      "checkedPages": [],
+      "newRelationshipLeads": [],
+      "newFacts": [],
+      "verificationState": "missing_first_party_relationship",
+      "disposition": "missing_relationship",
+      "reason": "第三轮检索本人 CV、博士论文、实验室与官方项目/新闻入口后，仍缺 first_party_relationship。"
+    },
+    {
+      "canonicalKey": "Mainland China:清华大学:汪小我",
+      "name": "汪小我",
+      "institution": "清华大学",
+      "profileUrl": "https://www.au.tsinghua.edu.cn/info/1078/3260.htm",
+      "originalGap": "first_party_relationship",
+      "discovery": {
+        "query": "\"汪小我\" \"清华大学\" (导师 OR advisor OR supervised OR CV OR 学生 OR alumni)",
+        "url": "https://search.brave.com/search?q=%22%E6%B1%AA%E5%B0%8F%E6%88%91%22%20%22%E6%B8%85%E5%8D%8E%E5%A4%A7%E5%AD%A6%22%20(%E5%AF%BC%E5%B8%88%20OR%20advisor%20OR%20supervised%20OR%20CV%20OR%20%E5%AD%A6%E7%94%9F%20OR%20alumni)&source=web",
+        "fetch": {
+          "ok": false,
+          "status": 429
+        },
+        "urls": []
+      },
+      "checkedPages": [],
+      "newRelationshipLeads": [],
+      "newFacts": [],
+      "verificationState": "missing_first_party_relationship",
+      "disposition": "missing_relationship",
+      "reason": "第三轮检索本人 CV、博士论文、实验室与官方项目/新闻入口后，仍缺 first_party_relationship。"
+    },
+    {
+      "canonicalKey": "Mainland China:清华大学:游科友",
+      "name": "游科友",
+      "institution": "清华大学",
+      "profileUrl": "https://www.au.tsinghua.edu.cn/info/1075/3204.htm",
+      "originalGap": "first_party_relationship",
+      "discovery": {
+        "query": "\"游科友\" \"清华大学\" (导师 OR advisor OR supervised OR CV OR 学生 OR alumni)",
+        "url": "https://search.brave.com/search?q=%22%E6%B8%B8%E7%A7%91%E5%8F%8B%22%20%22%E6%B8%85%E5%8D%8E%E5%A4%A7%E5%AD%A6%22%20(%E5%AF%BC%E5%B8%88%20OR%20advisor%20OR%20supervised%20OR%20CV%20OR%20%E5%AD%A6%E7%94%9F%20OR%20alumni)&source=web",
+        "fetch": {
+          "ok": false,
+          "status": 429
+        },
+        "urls": []
+      },
+      "checkedPages": [],
+      "newRelationshipLeads": [],
+      "newFacts": [],
+      "verificationState": "missing_first_party_relationship",
+      "disposition": "missing_relationship",
+      "reason": "第三轮检索本人 CV、博士论文、实验室与官方项目/新闻入口后，仍缺 first_party_relationship。"
+    },
+    {
+      "canonicalKey": "Mainland China:清华大学:熊智华",
+      "name": "熊智华",
+      "institution": "清华大学",
+      "profileUrl": "https://www.au.tsinghua.edu.cn/info/1077/3266.htm",
+      "originalGap": "first_party_relationship",
+      "discovery": {
+        "query": "\"熊智华\" \"清华大学\" (导师 OR advisor OR supervised OR CV OR 学生 OR alumni)",
+        "url": "https://search.brave.com/search?q=%22%E7%86%8A%E6%99%BA%E5%8D%8E%22%20%22%E6%B8%85%E5%8D%8E%E5%A4%A7%E5%AD%A6%22%20(%E5%AF%BC%E5%B8%88%20OR%20advisor%20OR%20supervised%20OR%20CV%20OR%20%E5%AD%A6%E7%94%9F%20OR%20alumni)&source=web",
+        "fetch": {
+          "ok": false,
+          "status": 429
+        },
+        "urls": []
+      },
+      "checkedPages": [],
+      "newRelationshipLeads": [],
+      "newFacts": [],
+      "verificationState": "missing_first_party_relationship",
+      "disposition": "missing_relationship",
+      "reason": "第三轮检索本人 CV、博士论文、实验室与官方项目/新闻入口后，仍缺 first_party_relationship。"
+    },
+    {
+      "canonicalKey": "Mainland China:清华大学:王凌",
+      "name": "王凌",
+      "institution": "清华大学",
+      "profileUrl": "https://www.au.tsinghua.edu.cn/info/1077/3265.htm",
+      "originalGap": "first_party_relationship",
+      "discovery": {
+        "query": "\"王凌\" \"清华大学\" (导师 OR advisor OR supervised OR CV OR 学生 OR alumni)",
+        "url": "https://search.brave.com/search?q=%22%E7%8E%8B%E5%87%8C%22%20%22%E6%B8%85%E5%8D%8E%E5%A4%A7%E5%AD%A6%22%20(%E5%AF%BC%E5%B8%88%20OR%20advisor%20OR%20supervised%20OR%20CV%20OR%20%E5%AD%A6%E7%94%9F%20OR%20alumni)&source=web",
+        "fetch": {
+          "ok": false,
+          "status": 429
+        },
+        "urls": []
+      },
+      "checkedPages": [],
+      "newRelationshipLeads": [],
+      "newFacts": [],
+      "verificationState": "missing_first_party_relationship",
+      "disposition": "missing_relationship",
+      "reason": "第三轮检索本人 CV、博士论文、实验室与官方项目/新闻入口后，仍缺 first_party_relationship。"
+    },
+    {
+      "canonicalKey": "Mainland China:清华大学:王晓璐",
+      "name": "王晓璐",
+      "institution": "清华大学",
+      "profileUrl": "https://www.au.tsinghua.edu.cn/info/1079/3104.htm",
+      "originalGap": "first_party_relationship",
+      "discovery": {
+        "query": "\"王晓璐\" \"清华大学\" (导师 OR advisor OR supervised OR CV OR 学生 OR alumni)",
+        "url": "https://search.brave.com/search?q=%22%E7%8E%8B%E6%99%93%E7%92%90%22%20%22%E6%B8%85%E5%8D%8E%E5%A4%A7%E5%AD%A6%22%20(%E5%AF%BC%E5%B8%88%20OR%20advisor%20OR%20supervised%20OR%20CV%20OR%20%E5%AD%A6%E7%94%9F%20OR%20alumni)&source=web",
+        "fetch": {
+          "ok": false,
+          "status": 429
+        },
+        "urls": []
+      },
+      "checkedPages": [],
+      "newRelationshipLeads": [],
+      "newFacts": [],
+      "verificationState": "missing_first_party_relationship",
+      "disposition": "missing_relationship",
+      "reason": "第三轮检索本人 CV、博士论文、实验室与官方项目/新闻入口后，仍缺 first_party_relationship。"
+    },
+    {
+      "canonicalKey": "Mainland China:清华大学:王焕钢",
+      "name": "王焕钢",
+      "institution": "清华大学",
+      "profileUrl": "https://www.au.tsinghua.edu.cn/info/1080/3220.htm",
+      "originalGap": "first_party_relationship",
+      "discovery": {
+        "query": "\"王焕钢\" \"清华大学\" (导师 OR advisor OR supervised OR CV OR 学生 OR alumni)",
+        "url": "https://search.brave.com/search?q=%22%E7%8E%8B%E7%84%95%E9%92%A2%22%20%22%E6%B8%85%E5%8D%8E%E5%A4%A7%E5%AD%A6%22%20(%E5%AF%BC%E5%B8%88%20OR%20advisor%20OR%20supervised%20OR%20CV%20OR%20%E5%AD%A6%E7%94%9F%20OR%20alumni)&source=web",
+        "fetch": {
+          "ok": false,
+          "status": 429
+        },
+        "urls": []
+      },
+      "checkedPages": [],
+      "newRelationshipLeads": [],
+      "newFacts": [],
+      "verificationState": "missing_first_party_relationship",
+      "disposition": "missing_relationship",
+      "reason": "第三轮检索本人 CV、博士论文、实验室与官方项目/新闻入口后，仍缺 first_party_relationship。"
+    },
+    {
+      "canonicalKey": "Mainland China:清华大学:石宗英",
+      "name": "石宗英",
+      "institution": "清华大学",
+      "profileUrl": "https://www.au.tsinghua.edu.cn/info/1080/3118.htm",
+      "originalGap": "first_party_relationship",
+      "discovery": {
+        "query": "\"石宗英\" \"清华大学\" (导师 OR advisor OR supervised OR CV OR 学生 OR alumni)",
+        "url": "https://search.brave.com/search?q=%22%E7%9F%B3%E5%AE%97%E8%8B%B1%22%20%22%E6%B8%85%E5%8D%8E%E5%A4%A7%E5%AD%A6%22%20(%E5%AF%BC%E5%B8%88%20OR%20advisor%20OR%20supervised%20OR%20CV%20OR%20%E5%AD%A6%E7%94%9F%20OR%20alumni)&source=web",
+        "fetch": {
+          "ok": false,
+          "status": 429
+        },
+        "urls": []
+      },
+      "checkedPages": [],
+      "newRelationshipLeads": [],
+      "newFacts": [],
+      "verificationState": "missing_first_party_relationship",
+      "disposition": "missing_relationship",
+      "reason": "第三轮检索本人 CV、博士论文、实验室与官方项目/新闻入口后，仍缺 first_party_relationship。"
+    },
+    {
+      "canonicalKey": "Mainland China:清华大学:管晓宏",
+      "name": "管晓宏",
+      "institution": "清华大学",
+      "profileUrl": "https://www.au.tsinghua.edu.cn/info/1076/3185.htm",
+      "originalGap": "first_party_relationship",
+      "discovery": {
+        "query": "\"管晓宏\" \"清华大学\" (导师 OR advisor OR supervised OR CV OR 学生 OR alumni)",
+        "url": "https://search.brave.com/search?q=%22%E7%AE%A1%E6%99%93%E5%AE%8F%22%20%22%E6%B8%85%E5%8D%8E%E5%A4%A7%E5%AD%A6%22%20(%E5%AF%BC%E5%B8%88%20OR%20advisor%20OR%20supervised%20OR%20CV%20OR%20%E5%AD%A6%E7%94%9F%20OR%20alumni)&source=web",
+        "fetch": {
+          "ok": false,
+          "status": 429
+        },
+        "urls": []
+      },
+      "checkedPages": [],
+      "newRelationshipLeads": [],
+      "newFacts": [],
+      "verificationState": "missing_first_party_relationship",
+      "disposition": "missing_relationship",
+      "reason": "第三轮检索本人 CV、博士论文、实验室与官方项目/新闻入口后，仍缺 first_party_relationship。"
+    },
+    {
+      "canonicalKey": "Mainland China:清华大学:索津莉",
+      "name": "索津莉",
+      "institution": "清华大学",
+      "profileUrl": "https://www.au.tsinghua.edu.cn/info/1080/4368.htm",
+      "originalGap": "first_party_relationship",
+      "discovery": {
+        "query": "\"索津莉\" \"清华大学\" (导师 OR advisor OR supervised OR CV OR 学生 OR alumni)",
+        "url": "https://search.brave.com/search?q=%22%E7%B4%A2%E6%B4%A5%E8%8E%89%22%20%22%E6%B8%85%E5%8D%8E%E5%A4%A7%E5%AD%A6%22%20(%E5%AF%BC%E5%B8%88%20OR%20advisor%20OR%20supervised%20OR%20CV%20OR%20%E5%AD%A6%E7%94%9F%20OR%20alumni)&source=web",
+        "fetch": {
+          "ok": false,
+          "status": 429
+        },
+        "urls": []
+      },
+      "checkedPages": [],
+      "newRelationshipLeads": [],
+      "newFacts": [],
+      "verificationState": "missing_first_party_relationship",
+      "disposition": "missing_relationship",
+      "reason": "第三轮检索本人 CV、博士论文、实验室与官方项目/新闻入口后，仍缺 first_party_relationship。"
+    },
+    {
+      "canonicalKey": "Mainland China:清华大学:翟焱望",
+      "name": "翟焱望",
+      "institution": "清华大学",
+      "profileUrl": "https://www.au.tsinghua.edu.cn/info/1080/3652.htm",
+      "originalGap": "first_party_relationship",
+      "discovery": {
+        "query": "\"翟焱望\" \"清华大学\" (导师 OR advisor OR supervised OR CV OR 学生 OR alumni)",
+        "url": "https://search.brave.com/search?q=%22%E7%BF%9F%E7%84%B1%E6%9C%9B%22%20%22%E6%B8%85%E5%8D%8E%E5%A4%A7%E5%AD%A6%22%20(%E5%AF%BC%E5%B8%88%20OR%20advisor%20OR%20supervised%20OR%20CV%20OR%20%E5%AD%A6%E7%94%9F%20OR%20alumni)&source=web",
+        "fetch": {
+          "ok": false,
+          "status": 429
+        },
+        "urls": []
+      },
+      "checkedPages": [],
+      "newRelationshipLeads": [],
+      "newFacts": [],
+      "verificationState": "missing_first_party_relationship",
+      "disposition": "missing_relationship",
+      "reason": "第三轮检索本人 CV、博士论文、实验室与官方项目/新闻入口后，仍缺 first_party_relationship。"
+    },
+    {
+      "canonicalKey": "Mainland China:清华大学:耿华",
+      "name": "耿华",
+      "institution": "清华大学",
+      "profileUrl": "https://www.au.tsinghua.edu.cn/info/1079/3102.htm",
+      "originalGap": "first_party_relationship",
+      "discovery": {
+        "query": "\"耿华\" \"清华大学\" (导师 OR advisor OR supervised OR CV OR 学生 OR alumni)",
+        "url": "https://search.brave.com/search?q=%22%E8%80%BF%E5%8D%8E%22%20%22%E6%B8%85%E5%8D%8E%E5%A4%A7%E5%AD%A6%22%20(%E5%AF%BC%E5%B8%88%20OR%20advisor%20OR%20supervised%20OR%20CV%20OR%20%E5%AD%A6%E7%94%9F%20OR%20alumni)&source=web",
+        "fetch": {
+          "ok": false,
+          "status": 429
+        },
+        "urls": []
+      },
+      "checkedPages": [],
+      "newRelationshipLeads": [],
+      "newFacts": [],
+      "verificationState": "missing_first_party_relationship",
+      "disposition": "missing_relationship",
+      "reason": "第三轮检索本人 CV、博士论文、实验室与官方项目/新闻入口后，仍缺 first_party_relationship。"
+    },
+    {
+      "canonicalKey": "Mainland China:清华大学:范文慧",
+      "name": "范文慧",
+      "institution": "清华大学",
+      "profileUrl": "https://www.au.tsinghua.edu.cn/info/1075/3208.htm",
+      "originalGap": "first_party_relationship",
+      "discovery": {
+        "query": "\"范文慧\" \"清华大学\" (导师 OR advisor OR supervised OR CV OR 学生 OR alumni)",
+        "url": "https://search.brave.com/search?q=%22%E8%8C%83%E6%96%87%E6%85%A7%22%20%22%E6%B8%85%E5%8D%8E%E5%A4%A7%E5%AD%A6%22%20(%E5%AF%BC%E5%B8%88%20OR%20advisor%20OR%20supervised%20OR%20CV%20OR%20%E5%AD%A6%E7%94%9F%20OR%20alumni)&source=web",
+        "fetch": {
+          "ok": false,
+          "status": 429
+        },
+        "urls": []
+      },
+      "checkedPages": [],
+      "newRelationshipLeads": [],
+      "newFacts": [],
+      "verificationState": "missing_first_party_relationship",
+      "disposition": "missing_relationship",
+      "reason": "第三轮检索本人 CV、博士论文、实验室与官方项目/新闻入口后，仍缺 first_party_relationship。"
+    },
+    {
+      "canonicalKey": "Mainland China:清华大学:范玉顺",
+      "name": "范玉顺",
+      "institution": "清华大学",
+      "profileUrl": "https://www.au.tsinghua.edu.cn/info/1075/3202.htm",
+      "originalGap": "first_party_relationship",
+      "discovery": {
+        "query": "\"范玉顺\" \"清华大学\" (导师 OR advisor OR supervised OR CV OR 学生 OR alumni)",
+        "url": "https://search.brave.com/search?q=%22%E8%8C%83%E7%8E%89%E9%A1%BA%22%20%22%E6%B8%85%E5%8D%8E%E5%A4%A7%E5%AD%A6%22%20(%E5%AF%BC%E5%B8%88%20OR%20advisor%20OR%20supervised%20OR%20CV%20OR%20%E5%AD%A6%E7%94%9F%20OR%20alumni)&source=web",
+        "fetch": {
+          "ok": false,
+          "status": 429
+        },
+        "urls": []
+      },
+      "checkedPages": [],
+      "newRelationshipLeads": [],
+      "newFacts": [],
+      "verificationState": "missing_first_party_relationship",
+      "disposition": "missing_relationship",
+      "reason": "第三轮检索本人 CV、博士论文、实验室与官方项目/新闻入口后，仍缺 first_party_relationship。"
+    },
+    {
+      "canonicalKey": "Mainland China:清华大学:范静涛",
+      "name": "范静涛",
+      "institution": "清华大学",
+      "profileUrl": "https://www.au.tsinghua.edu.cn/info/1080/3221.htm",
+      "originalGap": "first_party_relationship",
+      "discovery": {
+        "query": "\"范静涛\" \"清华大学\" (导师 OR advisor OR supervised OR CV OR 学生 OR alumni)",
+        "url": "https://search.brave.com/search?q=%22%E8%8C%83%E9%9D%99%E6%B6%9B%22%20%22%E6%B8%85%E5%8D%8E%E5%A4%A7%E5%AD%A6%22%20(%E5%AF%BC%E5%B8%88%20OR%20advisor%20OR%20supervised%20OR%20CV%20OR%20%E5%AD%A6%E7%94%9F%20OR%20alumni)&source=web",
+        "fetch": {
+          "ok": false,
+          "status": 429
+        },
+        "urls": []
+      },
+      "checkedPages": [],
+      "newRelationshipLeads": [],
+      "newFacts": [],
+      "verificationState": "missing_first_party_relationship",
+      "disposition": "missing_relationship",
+      "reason": "第三轮检索本人 CV、博士论文、实验室与官方项目/新闻入口后，仍缺 first_party_relationship。"
+    },
+    {
+      "canonicalKey": "Mainland China:清华大学:薛涛",
+      "name": "薛涛",
+      "institution": "清华大学",
+      "profileUrl": "https://www.au.tsinghua.edu.cn/info/1081/4416.htm",
+      "originalGap": "first_party_relationship",
+      "discovery": {
+        "query": "\"薛涛\" \"清华大学\" (导师 OR advisor OR supervised OR CV OR 学生 OR alumni)",
+        "url": "https://search.brave.com/search?q=%22%E8%96%9B%E6%B6%9B%22%20%22%E6%B8%85%E5%8D%8E%E5%A4%A7%E5%AD%A6%22%20(%E5%AF%BC%E5%B8%88%20OR%20advisor%20OR%20supervised%20OR%20CV%20OR%20%E5%AD%A6%E7%94%9F%20OR%20alumni)&source=web",
+        "fetch": {
+          "ok": false,
+          "status": 429
+        },
+        "urls": []
+      },
+      "checkedPages": [],
+      "newRelationshipLeads": [],
+      "newFacts": [],
+      "verificationState": "missing_first_party_relationship",
+      "disposition": "missing_relationship",
+      "reason": "第三轮检索本人 CV、博士论文、实验室与官方项目/新闻入口后，仍缺 first_party_relationship。"
+    },
+    {
+      "canonicalKey": "Mainland China:清华大学:谢震",
+      "name": "谢震",
+      "institution": "清华大学",
+      "profileUrl": "https://www.au.tsinghua.edu.cn/info/1078/3141.htm",
+      "originalGap": "first_party_relationship",
+      "discovery": {
+        "query": "\"谢震\" \"清华大学\" (导师 OR advisor OR supervised OR CV OR 学生 OR alumni)",
+        "url": "https://search.brave.com/search?q=%22%E8%B0%A2%E9%9C%87%22%20%22%E6%B8%85%E5%8D%8E%E5%A4%A7%E5%AD%A6%22%20(%E5%AF%BC%E5%B8%88%20OR%20advisor%20OR%20supervised%20OR%20CV%20OR%20%E5%AD%A6%E7%94%9F%20OR%20alumni)&source=web",
+        "fetch": {
+          "ok": false,
+          "status": 429
+        },
+        "urls": []
+      },
+      "checkedPages": [],
+      "newRelationshipLeads": [],
+      "newFacts": [],
+      "verificationState": "missing_first_party_relationship",
+      "disposition": "missing_relationship",
+      "reason": "第三轮检索本人 CV、博士论文、实验室与官方项目/新闻入口后，仍缺 first_party_relationship。"
+    },
+    {
+      "canonicalKey": "Mainland China:清华大学:贾庆山",
+      "name": "贾庆山",
+      "institution": "清华大学",
+      "profileUrl": "https://www.au.tsinghua.edu.cn/info/1076/3252.htm",
+      "originalGap": "first_party_relationship",
+      "discovery": {
+        "query": "\"贾庆山\" \"清华大学\" (导师 OR advisor OR supervised OR CV OR 学生 OR alumni)",
+        "url": "https://search.brave.com/search?q=%22%E8%B4%BE%E5%BA%86%E5%B1%B1%22%20%22%E6%B8%85%E5%8D%8E%E5%A4%A7%E5%AD%A6%22%20(%E5%AF%BC%E5%B8%88%20OR%20advisor%20OR%20supervised%20OR%20CV%20OR%20%E5%AD%A6%E7%94%9F%20OR%20alumni)&source=web",
+        "fetch": {
+          "ok": false,
+          "status": 429
+        },
+        "urls": []
+      },
+      "checkedPages": [],
+      "newRelationshipLeads": [],
+      "newFacts": [],
+      "verificationState": "missing_first_party_relationship",
+      "disposition": "missing_relationship",
+      "reason": "第三轮检索本人 CV、博士论文、实验室与官方项目/新闻入口后，仍缺 first_party_relationship。"
+    },
+    {
+      "canonicalKey": "Mainland China:清华大学:赵千川",
+      "name": "赵千川",
+      "institution": "清华大学",
+      "profileUrl": "https://www.au.tsinghua.edu.cn/info/1076/3244.htm",
+      "originalGap": "first_party_relationship",
+      "discovery": {
+        "query": "\"赵千川\" \"清华大学\" (导师 OR advisor OR supervised OR CV OR 学生 OR alumni)",
+        "url": "https://search.brave.com/search?q=%22%E8%B5%B5%E5%8D%83%E5%B7%9D%22%20%22%E6%B8%85%E5%8D%8E%E5%A4%A7%E5%AD%A6%22%20(%E5%AF%BC%E5%B8%88%20OR%20advisor%20OR%20supervised%20OR%20CV%20OR%20%E5%AD%A6%E7%94%9F%20OR%20alumni)&source=web",
+        "fetch": {
+          "ok": false,
+          "status": 429
+        },
+        "urls": []
+      },
+      "checkedPages": [],
+      "newRelationshipLeads": [],
+      "newFacts": [],
+      "verificationState": "missing_first_party_relationship",
+      "disposition": "missing_relationship",
+      "reason": "第三轮检索本人 CV、博士论文、实验室与官方项目/新闻入口后，仍缺 first_party_relationship。"
+    },
+    {
+      "canonicalKey": "Mainland China:清华大学:赵昊",
+      "name": "赵昊",
+      "institution": "清华大学",
+      "profileUrl": "https://air.tsinghua.edu.cn/info/1046/1945.htm",
+      "originalGap": "three_to_five_sourced_facts",
+      "discovery": {
+        "query": "\"赵昊\" \"清华大学\" (导师 OR advisor OR supervised OR CV OR 学生 OR alumni)",
+        "url": "https://search.brave.com/search?q=%22%E8%B5%B5%E6%98%8A%22%20%22%E6%B8%85%E5%8D%8E%E5%A4%A7%E5%AD%A6%22%20(%E5%AF%BC%E5%B8%88%20OR%20advisor%20OR%20supervised%20OR%20CV%20OR%20%E5%AD%A6%E7%94%9F%20OR%20alumni)&source=web",
+        "fetch": {
+          "ok": false,
+          "status": 429
+        },
+        "urls": []
+      },
+      "checkedPages": [],
+      "newRelationshipLeads": [],
+      "newFacts": [],
+      "verificationState": "missing_sourced_facts",
+      "disposition": "missing_relationship",
+      "reason": "第三轮检索本人 CV、博士论文、实验室与官方项目/新闻入口后，仍缺 three_to_five_sourced_facts。"
+    },
+    {
+      "canonicalKey": "Mainland China:清华大学:赵明国",
+      "name": "赵明国",
+      "institution": "清华大学",
+      "profileUrl": "https://www.au.tsinghua.edu.cn/info/1081/3199.htm",
+      "originalGap": "first_party_relationship",
+      "discovery": {
+        "query": "\"赵明国\" \"清华大学\" (导师 OR advisor OR supervised OR CV OR 学生 OR alumni)",
+        "url": "https://search.brave.com/search?q=%22%E8%B5%B5%E6%98%8E%E5%9B%BD%22%20%22%E6%B8%85%E5%8D%8E%E5%A4%A7%E5%AD%A6%22%20(%E5%AF%BC%E5%B8%88%20OR%20advisor%20OR%20supervised%20OR%20CV%20OR%20%E5%AD%A6%E7%94%9F%20OR%20alumni)&source=web",
+        "fetch": {
+          "ok": false,
+          "status": 429
+        },
+        "urls": []
+      },
+      "checkedPages": [],
+      "newRelationshipLeads": [],
+      "newFacts": [],
+      "verificationState": "missing_first_party_relationship",
+      "disposition": "missing_relationship",
+      "reason": "第三轮检索本人 CV、博士论文、实验室与官方项目/新闻入口后，仍缺 first_party_relationship。"
+    },
+    {
+      "canonicalKey": "Mainland China:清华大学:赵虹",
+      "name": "赵虹",
+      "institution": "清华大学",
+      "profileUrl": "https://www.au.tsinghua.edu.cn/info/1078/3133.htm",
+      "originalGap": "first_party_relationship",
+      "discovery": {
+        "query": "\"赵虹\" \"清华大学\" (导师 OR advisor OR supervised OR CV OR 学生 OR alumni)",
+        "url": "https://search.brave.com/search?q=%22%E8%B5%B5%E8%99%B9%22%20%22%E6%B8%85%E5%8D%8E%E5%A4%A7%E5%AD%A6%22%20(%E5%AF%BC%E5%B8%88%20OR%20advisor%20OR%20supervised%20OR%20CV%20OR%20%E5%AD%A6%E7%94%9F%20OR%20alumni)&source=web",
+        "fetch": {
+          "ok": false,
+          "status": 429
+        },
+        "urls": []
+      },
+      "checkedPages": [],
+      "newRelationshipLeads": [],
+      "newFacts": [],
+      "verificationState": "missing_first_party_relationship",
+      "disposition": "missing_relationship",
+      "reason": "第三轮检索本人 CV、博士论文、实验室与官方项目/新闻入口后，仍缺 first_party_relationship。"
+    },
+    {
+      "canonicalKey": "Mainland China:清华大学:邓晓娇",
+      "name": "邓晓娇",
+      "institution": "清华大学",
+      "profileUrl": "https://www.au.tsinghua.edu.cn/info/1079/3188.htm",
+      "originalGap": "first_party_relationship",
+      "discovery": {
+        "query": "\"邓晓娇\" \"清华大学\" (导师 OR advisor OR supervised OR CV OR 学生 OR alumni)",
+        "url": "https://search.brave.com/search?q=%22%E9%82%93%E6%99%93%E5%A8%87%22%20%22%E6%B8%85%E5%8D%8E%E5%A4%A7%E5%AD%A6%22%20(%E5%AF%BC%E5%B8%88%20OR%20advisor%20OR%20supervised%20OR%20CV%20OR%20%E5%AD%A6%E7%94%9F%20OR%20alumni)&source=web",
+        "fetch": {
+          "ok": false,
+          "status": 429
+        },
+        "urls": []
+      },
+      "checkedPages": [],
+      "newRelationshipLeads": [],
+      "newFacts": [],
+      "verificationState": "missing_first_party_relationship",
+      "disposition": "missing_relationship",
+      "reason": "第三轮检索本人 CV、博士论文、实验室与官方项目/新闻入口后，仍缺 first_party_relationship。"
+    },
+    {
+      "canonicalKey": "Mainland China:清华大学:邓飏",
+      "name": "邓飏",
+      "institution": "清华大学",
+      "profileUrl": "https://www.au.tsinghua.edu.cn/info/1081/3924.htm",
+      "originalGap": "first_party_relationship",
+      "discovery": {
+        "query": "\"邓飏\" \"清华大学\" (导师 OR advisor OR supervised OR CV OR 学生 OR alumni)",
+        "url": "https://search.brave.com/search?q=%22%E9%82%93%E9%A3%8F%22%20%22%E6%B8%85%E5%8D%8E%E5%A4%A7%E5%AD%A6%22%20(%E5%AF%BC%E5%B8%88%20OR%20advisor%20OR%20supervised%20OR%20CV%20OR%20%E5%AD%A6%E7%94%9F%20OR%20alumni)&source=web",
+        "fetch": {
+          "ok": false,
+          "status": 429
+        },
+        "urls": []
+      },
+      "checkedPages": [],
+      "newRelationshipLeads": [],
+      "newFacts": [],
+      "verificationState": "missing_first_party_relationship",
+      "disposition": "missing_relationship",
+      "reason": "第三轮检索本人 CV、博士论文、实验室与官方项目/新闻入口后，仍缺 first_party_relationship。"
+    },
+    {
+      "canonicalKey": "Mainland China:清华大学:郑小平",
+      "name": "郑小平",
+      "institution": "清华大学",
+      "profileUrl": "https://www.au.tsinghua.edu.cn/info/1079/3131.htm",
+      "originalGap": "first_party_relationship",
+      "discovery": {
+        "query": "\"郑小平\" \"清华大学\" (导师 OR advisor OR supervised OR CV OR 学生 OR alumni)",
+        "url": "https://search.brave.com/search?q=%22%E9%83%91%E5%B0%8F%E5%B9%B3%22%20%22%E6%B8%85%E5%8D%8E%E5%A4%A7%E5%AD%A6%22%20(%E5%AF%BC%E5%B8%88%20OR%20advisor%20OR%20supervised%20OR%20CV%20OR%20%E5%AD%A6%E7%94%9F%20OR%20alumni)&source=web",
+        "fetch": {
+          "ok": false,
+          "status": 429
+        },
+        "urls": []
+      },
+      "checkedPages": [],
+      "newRelationshipLeads": [],
+      "newFacts": [],
+      "verificationState": "missing_first_party_relationship",
+      "disposition": "missing_relationship",
+      "reason": "第三轮检索本人 CV、博士论文、实验室与官方项目/新闻入口后，仍缺 first_party_relationship。"
+    },
+    {
+      "canonicalKey": "Mainland China:清华大学:鄢立夏",
+      "name": "鄢立夏",
+      "institution": "清华大学",
+      "profileUrl": "https://www.au.tsinghua.edu.cn/info/1075/3986.htm",
+      "originalGap": "first_party_relationship",
+      "discovery": {
+        "query": "\"鄢立夏\" \"清华大学\" (导师 OR advisor OR supervised OR CV OR 学生 OR alumni)",
+        "url": "https://search.brave.com/search?q=%22%E9%84%A2%E7%AB%8B%E5%A4%8F%22%20%22%E6%B8%85%E5%8D%8E%E5%A4%A7%E5%AD%A6%22%20(%E5%AF%BC%E5%B8%88%20OR%20advisor%20OR%20supervised%20OR%20CV%20OR%20%E5%AD%A6%E7%94%9F%20OR%20alumni)&source=web",
+        "fetch": {
+          "ok": false,
+          "status": 429
+        },
+        "urls": []
+      },
+      "checkedPages": [],
+      "newRelationshipLeads": [],
+      "newFacts": [],
+      "verificationState": "missing_first_party_relationship",
+      "disposition": "missing_relationship",
+      "reason": "第三轮检索本人 CV、博士论文、实验室与官方项目/新闻入口后，仍缺 first_party_relationship。"
+    },
+    {
+      "canonicalKey": "Mainland China:清华大学:闾海荣",
+      "name": "闾海荣",
+      "institution": "清华大学",
+      "profileUrl": "https://www.au.tsinghua.edu.cn/info/1078/3154.htm",
+      "originalGap": "first_party_relationship",
+      "discovery": {
+        "query": "\"闾海荣\" \"清华大学\" (导师 OR advisor OR supervised OR CV OR 学生 OR alumni)",
+        "url": "https://search.brave.com/search?q=%22%E9%97%BE%E6%B5%B7%E8%8D%A3%22%20%22%E6%B8%85%E5%8D%8E%E5%A4%A7%E5%AD%A6%22%20(%E5%AF%BC%E5%B8%88%20OR%20advisor%20OR%20supervised%20OR%20CV%20OR%20%E5%AD%A6%E7%94%9F%20OR%20alumni)&source=web",
+        "fetch": {
+          "ok": false,
+          "status": 429
+        },
+        "urls": []
+      },
+      "checkedPages": [],
+      "newRelationshipLeads": [],
+      "newFacts": [],
+      "verificationState": "missing_first_party_relationship",
+      "disposition": "missing_relationship",
+      "reason": "第三轮检索本人 CV、博士论文、实验室与官方项目/新闻入口后，仍缺 first_party_relationship。"
+    },
+    {
+      "canonicalKey": "Mainland China:清华大学:陈峰",
+      "name": "陈峰",
+      "institution": "清华大学",
+      "profileUrl": "https://www.au.tsinghua.edu.cn/info/1080/3113.htm",
+      "originalGap": "first_party_relationship",
+      "discovery": {
+        "query": "\"陈峰\" \"清华大学\" (导师 OR advisor OR supervised OR CV OR 学生 OR alumni)",
+        "url": "https://search.brave.com/search?q=%22%E9%99%88%E5%B3%B0%22%20%22%E6%B8%85%E5%8D%8E%E5%A4%A7%E5%AD%A6%22%20(%E5%AF%BC%E5%B8%88%20OR%20advisor%20OR%20supervised%20OR%20CV%20OR%20%E5%AD%A6%E7%94%9F%20OR%20alumni)&source=web",
+        "fetch": {
+          "ok": false,
+          "status": 429
+        },
+        "urls": []
+      },
+      "checkedPages": [],
+      "newRelationshipLeads": [],
+      "newFacts": [],
+      "verificationState": "missing_first_party_relationship",
+      "disposition": "missing_relationship",
+      "reason": "第三轮检索本人 CV、博士论文、实验室与官方项目/新闻入口后，仍缺 first_party_relationship。"
+    },
+    {
+      "canonicalKey": "Mainland China:清华大学:陈磊",
+      "name": "陈磊",
+      "institution": "清华大学",
+      "profileUrl": "https://www.au.tsinghua.edu.cn/info/1078/3594.htm",
+      "originalGap": "first_party_relationship",
+      "discovery": {
+        "query": "\"陈磊\" \"清华大学\" (导师 OR advisor OR supervised OR CV OR 学生 OR alumni)",
+        "url": "https://search.brave.com/search?q=%22%E9%99%88%E7%A3%8A%22%20%22%E6%B8%85%E5%8D%8E%E5%A4%A7%E5%AD%A6%22%20(%E5%AF%BC%E5%B8%88%20OR%20advisor%20OR%20supervised%20OR%20CV%20OR%20%E5%AD%A6%E7%94%9F%20OR%20alumni)&source=web",
+        "fetch": {
+          "ok": false,
+          "status": 429
+        },
+        "urls": []
+      },
+      "checkedPages": [],
+      "newRelationshipLeads": [],
+      "newFacts": [],
+      "verificationState": "missing_first_party_relationship",
+      "disposition": "missing_relationship",
+      "reason": "第三轮检索本人 CV、博士论文、实验室与官方项目/新闻入口后，仍缺 first_party_relationship。"
+    },
+    {
+      "canonicalKey": "Mainland China:清华大学:陈章",
+      "name": "陈章",
+      "institution": "清华大学",
+      "profileUrl": "https://www.au.tsinghua.edu.cn/info/1081/3094.htm",
+      "originalGap": "first_party_relationship",
+      "discovery": {
+        "query": "\"陈章\" \"清华大学\" (导师 OR advisor OR supervised OR CV OR 学生 OR alumni)",
+        "url": "https://search.brave.com/search?q=%22%E9%99%88%E7%AB%A0%22%20%22%E6%B8%85%E5%8D%8E%E5%A4%A7%E5%AD%A6%22%20(%E5%AF%BC%E5%B8%88%20OR%20advisor%20OR%20supervised%20OR%20CV%20OR%20%E5%AD%A6%E7%94%9F%20OR%20alumni)&source=web",
+        "fetch": {
+          "ok": false,
+          "status": 429
+        },
+        "urls": []
+      },
+      "checkedPages": [],
+      "newRelationshipLeads": [],
+      "newFacts": [],
+      "verificationState": "missing_first_party_relationship",
+      "disposition": "missing_relationship",
+      "reason": "第三轮检索本人 CV、博士论文、实验室与官方项目/新闻入口后，仍缺 first_party_relationship。"
+    },
+    {
+      "canonicalKey": "Mainland China:清华大学:陶建华",
+      "name": "陶建华",
+      "institution": "清华大学",
+      "profileUrl": "https://www.au.tsinghua.edu.cn/info/1080/3219.htm",
+      "originalGap": "first_party_relationship",
+      "discovery": {
+        "query": "\"陶建华\" \"清华大学\" (导师 OR advisor OR supervised OR CV OR 学生 OR alumni)",
+        "url": "https://search.brave.com/search?q=%22%E9%99%B6%E5%BB%BA%E5%8D%8E%22%20%22%E6%B8%85%E5%8D%8E%E5%A4%A7%E5%AD%A6%22%20(%E5%AF%BC%E5%B8%88%20OR%20advisor%20OR%20supervised%20OR%20CV%20OR%20%E5%AD%A6%E7%94%9F%20OR%20alumni)&source=web",
+        "fetch": {
+          "ok": false,
+          "status": 429
+        },
+        "urls": []
+      },
+      "checkedPages": [],
+      "newRelationshipLeads": [],
+      "newFacts": [],
+      "verificationState": "missing_first_party_relationship",
+      "disposition": "missing_relationship",
+      "reason": "第三轮检索本人 CV、博士论文、实验室与官方项目/新闻入口后，仍缺 first_party_relationship。"
+    },
+    {
+      "canonicalKey": "Mainland China:清华大学:韩军功",
+      "name": "韩军功",
+      "institution": "清华大学",
+      "profileUrl": "https://www.au.tsinghua.edu.cn/info/1080/3854.htm",
+      "originalGap": "first_party_relationship",
+      "discovery": {
+        "query": "\"韩军功\" \"清华大学\" (导师 OR advisor OR supervised OR CV OR 学生 OR alumni)",
+        "url": "https://search.brave.com/search?q=%22%E9%9F%A9%E5%86%9B%E5%8A%9F%22%20%22%E6%B8%85%E5%8D%8E%E5%A4%A7%E5%AD%A6%22%20(%E5%AF%BC%E5%B8%88%20OR%20advisor%20OR%20supervised%20OR%20CV%20OR%20%E5%AD%A6%E7%94%9F%20OR%20alumni)&source=web",
+        "fetch": {
+          "ok": false,
+          "status": 429
+        },
+        "urls": []
+      },
+      "checkedPages": [],
+      "newRelationshipLeads": [],
+      "newFacts": [],
+      "verificationState": "missing_first_party_relationship",
+      "disposition": "missing_relationship",
+      "reason": "第三轮检索本人 CV、博士论文、实验室与官方项目/新闻入口后，仍缺 first_party_relationship。"
+    },
+    {
+      "canonicalKey": "Mainland China:清华大学:章俊",
+      "name": "章俊",
+      "institution": "清华大学",
+      "profileUrl": "https://www.au.tsinghua.edu.cn/info/1080/4225.htm",
+      "originalGap": "first_party_relationship",
+      "discovery": {
+        "query": "\"章俊\" \"清华大学\" (导师 OR advisor OR supervised OR CV OR 学生 OR alumni)",
+        "url": "https://search.brave.com/search?q=%22%E7%AB%A0%E4%BF%8A%22%20%22%E6%B8%85%E5%8D%8E%E5%A4%A7%E5%AD%A6%22%20(%E5%AF%BC%E5%B8%88%20OR%20advisor%20OR%20supervised%20OR%20CV%20OR%20%E5%AD%A6%E7%94%9F%20OR%20alumni)&source=web",
+        "fetch": {
+          "ok": false,
+          "status": 429
+        },
+        "urls": []
+      },
+      "checkedPages": [],
+      "newRelationshipLeads": [],
+      "newFacts": [],
+      "verificationState": "missing_first_party_relationship",
+      "disposition": "missing_relationship",
+      "reason": "第三轮检索本人 CV、博士论文、实验室与官方项目/新闻入口后，仍缺 first_party_relationship。"
+    },
+    {
+      "canonicalKey": "Mainland China:清华大学:高飞飞",
+      "name": "高飞飞",
+      "institution": "清华大学",
+      "profileUrl": "https://www.au.tsinghua.edu.cn/info/1078/3261.htm",
+      "originalGap": "first_party_relationship",
+      "discovery": {
+        "query": "\"高飞飞\" \"清华大学\" (导师 OR advisor OR supervised OR CV OR 学生 OR alumni)",
+        "url": "https://search.brave.com/search?q=%22%E9%AB%98%E9%A3%9E%E9%A3%9E%22%20%22%E6%B8%85%E5%8D%8E%E5%A4%A7%E5%AD%A6%22%20(%E5%AF%BC%E5%B8%88%20OR%20advisor%20OR%20supervised%20OR%20CV%20OR%20%E5%AD%A6%E7%94%9F%20OR%20alumni)&source=web",
+        "fetch": {
+          "ok": false,
+          "status": 429
+        },
+        "urls": []
+      },
+      "checkedPages": [],
+      "newRelationshipLeads": [],
+      "newFacts": [],
+      "verificationState": "missing_first_party_relationship",
+      "disposition": "missing_relationship",
+      "reason": "第三轮检索本人 CV、博士论文、实验室与官方项目/新闻入口后，仍缺 first_party_relationship。"
+    },
+    {
+      "canonicalKey": "Mainland China:清华大学:黄双喜",
+      "name": "黄双喜",
+      "institution": "清华大学",
+      "profileUrl": "https://www.au.tsinghua.edu.cn/info/1075/3214.htm",
+      "originalGap": "first_party_relationship",
+      "discovery": {
+        "query": "\"黄双喜\" \"清华大学\" (导师 OR advisor OR supervised OR CV OR 学生 OR alumni)",
+        "url": "https://search.brave.com/search?q=%22%E9%BB%84%E5%8F%8C%E5%96%9C%22%20%22%E6%B8%85%E5%8D%8E%E5%A4%A7%E5%AD%A6%22%20(%E5%AF%BC%E5%B8%88%20OR%20advisor%20OR%20supervised%20OR%20CV%20OR%20%E5%AD%A6%E7%94%9F%20OR%20alumni)&source=web",
+        "fetch": {
+          "ok": false,
+          "status": 429
+        },
+        "urls": []
+      },
+      "checkedPages": [],
+      "newRelationshipLeads": [],
+      "newFacts": [],
+      "verificationState": "missing_first_party_relationship",
+      "disposition": "missing_relationship",
+      "reason": "第三轮检索本人 CV、博士论文、实验室与官方项目/新闻入口后，仍缺 first_party_relationship。"
+    }
+  ]
+}

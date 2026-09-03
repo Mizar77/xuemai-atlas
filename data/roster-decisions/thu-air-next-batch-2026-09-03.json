@@ -1,0 +1,687 @@
+{
+  "schemaVersion": 1,
+  "unitId": "thu-air-next-batch",
+  "unitUrl": "https://air.tsinghua.edu.cn/airtd/yjtd.htm",
+  "rosterArtifact": "data/official-rosters/thu-air-research-team-2026-09-02.json",
+  "snapshotAt": "2026-09-02",
+  "reviewedAt": "2026-09-03",
+  "officialRosterCount": 39,
+  "decisionCount": 39,
+  "decisionPolicy": "First deduplicate by official URL and normalized name; then classify current independent PI status and AI/NLP/CV/robotics/intelligent-interaction scope from frozen official fields and cached first-party profiles.",
+  "counts": {
+    "included_existing": 2,
+    "include_new_pi": 16,
+    "excluded_non_pi": 17,
+    "excluded_non_ai_cs": 0,
+    "excluded_historical": 3,
+    "excluded_industry_only": 0,
+    "pending_profile_verification": 1
+  },
+  "decisions": [
+    {
+      "officialId": "1207",
+      "name": "张亚勤",
+      "title": "创始院长/讲席教授",
+      "officialSections": [
+        "教授、研究员"
+      ],
+      "affiliation": null,
+      "profileUrl": "https://air.tsinghua.edu.cn/info/1046/1207.htm",
+      "portraitUrl": "https://air.tsinghua.edu.cn/__local/4/52/D9/4980D361E9CF0CE31D583FAFC36_E13031D0_24ED7.jpg",
+      "keywords": null,
+      "sourcePageUrl": "https://air.tsinghua.edu.cn/airtd/yjtd.htm",
+      "profileFetched": true,
+      "decision": "include_new_pi",
+      "reason": "AIR 官方研究团队将其列为教授或研究员序列，且研究机构主线属于产业人工智能。",
+      "evidence": "创始院长/讲席教授"
+    },
+    {
+      "officialId": "1206",
+      "name": "马维英",
+      "title": "首席科学家/惠妍讲席教授",
+      "officialSections": [
+        "教授、研究员"
+      ],
+      "affiliation": null,
+      "profileUrl": "https://air.tsinghua.edu.cn/info/1046/1206.htm",
+      "portraitUrl": "https://air.tsinghua.edu.cn/__local/E/A7/2A/F603F72AAD997E35F0F76316346_E0E4FD8C_1A375.jpg",
+      "keywords": null,
+      "sourcePageUrl": "https://air.tsinghua.edu.cn/airtd/yjtd.htm",
+      "profileFetched": true,
+      "decision": "included_existing",
+      "atlasPersonId": "wei-ying-ma",
+      "reason": "姓名或官方主页与图谱现有人物一致。",
+      "evidence": "https://air.tsinghua.edu.cn/info/1046/1206.htm"
+    },
+    {
+      "officialId": "1204",
+      "name": "刘洋",
+      "title": "院长/万国数据教授",
+      "officialSections": [
+        "教授、研究员"
+      ],
+      "affiliation": null,
+      "profileUrl": "https://air.tsinghua.edu.cn/info/1046/1204.htm",
+      "portraitUrl": "https://air.tsinghua.edu.cn/__local/7/94/E7/B209BB0BE1AE73DA8CFA329DB2A_81A045D2_8B255.jpg",
+      "keywords": null,
+      "sourcePageUrl": "https://air.tsinghua.edu.cn/airtd/yjtd.htm",
+      "profileFetched": true,
+      "decision": "included_existing",
+      "atlasPersonId": "yang-liu-thu",
+      "reason": "姓名或官方主页与图谱现有人物一致。",
+      "evidence": "https://air.tsinghua.edu.cn/info/1046/1204.htm"
+    },
+    {
+      "officialId": "2534",
+      "name": "李航",
+      "title": "首席科学家/卓越访问教授",
+      "officialSections": [
+        "教授、研究员"
+      ],
+      "affiliation": null,
+      "profileUrl": "https://air.tsinghua.edu.cn/info/1046/2534.htm",
+      "portraitUrl": "https://air.tsinghua.edu.cn/__local/6/12/89/696DD3F167071D35E8F1AF20A8B_6CCD1A49_23E50.jpg",
+      "keywords": null,
+      "sourcePageUrl": "https://air.tsinghua.edu.cn/airtd/yjtd.htm",
+      "profileFetched": true,
+      "decision": "excluded_non_pi",
+      "reason": "AIR 官方名录将其列为访问教授，不作为该单位当前独立 PI 接入。",
+      "evidence": "教授、研究员; 首席科学家/卓越访问教授"
+    },
+    {
+      "officialId": "1203",
+      "name": "聂再清",
+      "title": "首席研究员/万国数据教授",
+      "officialSections": [
+        "教授、研究员"
+      ],
+      "affiliation": null,
+      "profileUrl": "https://air.tsinghua.edu.cn/info/1046/1203.htm",
+      "portraitUrl": "https://air.tsinghua.edu.cn/__local/0/14/3F/3D830610CF560D19F4E5B3D58A1_312A07B1_1AFC8.jpg",
+      "keywords": null,
+      "sourcePageUrl": "https://air.tsinghua.edu.cn/airtd/yjtd.htm",
+      "profileFetched": true,
+      "decision": "include_new_pi",
+      "reason": "AIR 官方研究团队将其列为教授或研究员序列，且研究机构主线属于产业人工智能。",
+      "evidence": "首席研究员/万国数据教授"
+    },
+    {
+      "officialId": "1202",
+      "name": "刘云新",
+      "title": "首席研究员/万国数据教授",
+      "officialSections": [
+        "教授、研究员"
+      ],
+      "affiliation": null,
+      "profileUrl": "https://air.tsinghua.edu.cn/info/1046/1202.htm",
+      "portraitUrl": "https://air.tsinghua.edu.cn/__local/3/AC/67/68C8B9E89105975480DAD867DAB_28384987_F05D2.jpg",
+      "keywords": null,
+      "sourcePageUrl": "https://air.tsinghua.edu.cn/airtd/yjtd.htm",
+      "profileFetched": true,
+      "decision": "include_new_pi",
+      "reason": "AIR 官方研究团队将其列为教授或研究员序列，且研究机构主线属于产业人工智能。",
+      "evidence": "首席研究员/万国数据教授"
+    },
+    {
+      "officialId": "1201",
+      "name": "刘菁菁",
+      "title": "首席研究员/万国数据教授",
+      "officialSections": [
+        "教授、研究员"
+      ],
+      "affiliation": null,
+      "profileUrl": "https://air.tsinghua.edu.cn/info/1046/1201.htm",
+      "portraitUrl": "https://air.tsinghua.edu.cn/__local/5/C7/E4/D291DA5F4A6658283E0732020C0_DC651E61_2F1531.jpg",
+      "keywords": null,
+      "sourcePageUrl": "https://air.tsinghua.edu.cn/airtd/yjtd.htm",
+      "profileFetched": true,
+      "decision": "include_new_pi",
+      "reason": "AIR 官方研究团队将其列为教授或研究员序列，且研究机构主线属于产业人工智能。",
+      "evidence": "首席研究员/万国数据教授"
+    },
+    {
+      "officialId": "1200",
+      "name": "兰艳艳",
+      "title": "首席研究员/万国数据教授",
+      "officialSections": [
+        "教授、研究员"
+      ],
+      "affiliation": null,
+      "profileUrl": "https://air.tsinghua.edu.cn/info/1046/1200.htm",
+      "portraitUrl": "https://air.tsinghua.edu.cn/__local/6/AF/48/7719793351E489D5589DAA7AA25_75C376B4_2DD87.jpg",
+      "keywords": null,
+      "sourcePageUrl": "https://air.tsinghua.edu.cn/airtd/yjtd.htm",
+      "profileFetched": true,
+      "decision": "include_new_pi",
+      "reason": "AIR 官方研究团队将其列为教授或研究员序列，且研究机构主线属于产业人工智能。",
+      "evidence": "首席研究员/万国数据教授"
+    },
+    {
+      "officialId": "2451",
+      "name": "曹婷",
+      "title": "研究员/教授",
+      "officialSections": [
+        "教授、研究员"
+      ],
+      "affiliation": null,
+      "profileUrl": "https://air.tsinghua.edu.cn/info/1046/2451.htm",
+      "portraitUrl": "https://air.tsinghua.edu.cn/__local/5/E5/54/51350092ADD3F0EAD680507DFF0_A624D49B_1B790.jpg",
+      "keywords": null,
+      "sourcePageUrl": "https://air.tsinghua.edu.cn/airtd/yjtd.htm",
+      "profileFetched": true,
+      "decision": "include_new_pi",
+      "reason": "AIR 官方研究团队将其列为教授或研究员序列，且研究机构主线属于产业人工智能。",
+      "evidence": "研究员/教授"
+    },
+    {
+      "officialId": "1199",
+      "name": "周谷越",
+      "title": "副研究员/副教授",
+      "officialSections": [
+        "教授、研究员"
+      ],
+      "affiliation": null,
+      "profileUrl": "https://air.tsinghua.edu.cn/info/1046/1199.htm",
+      "portraitUrl": "https://air.tsinghua.edu.cn/__local/7/66/86/0467222E8E364F88539A1840816_E0C6E598_13C46.jpg",
+      "keywords": null,
+      "sourcePageUrl": "https://air.tsinghua.edu.cn/airtd/yjtd.htm",
+      "profileFetched": true,
+      "decision": "include_new_pi",
+      "reason": "AIR 官方研究团队将其列为教授或研究员序列，且研究机构主线属于产业人工智能。",
+      "evidence": "副研究员/副教授"
+    },
+    {
+      "officialId": "1563",
+      "name": "李鹏",
+      "title": "副研究员/副教授",
+      "officialSections": [
+        "教授、研究员"
+      ],
+      "affiliation": null,
+      "profileUrl": "https://air.tsinghua.edu.cn/info/1046/1563.htm",
+      "portraitUrl": "https://air.tsinghua.edu.cn/__local/5/66/D2/45A91610FD43754C7A4A687F0A3_1F3647EE_22519.jpg",
+      "keywords": null,
+      "sourcePageUrl": "https://air.tsinghua.edu.cn/airtd/yjtd.htm",
+      "profileFetched": true,
+      "decision": "include_new_pi",
+      "reason": "AIR 官方研究团队将其列为教授或研究员序列，且研究机构主线属于产业人工智能。",
+      "evidence": "副研究员/副教授"
+    },
+    {
+      "officialId": "1661",
+      "name": "周浩",
+      "title": "副研究员/副教授",
+      "officialSections": [
+        "教授、研究员"
+      ],
+      "affiliation": null,
+      "profileUrl": "https://air.tsinghua.edu.cn/info/1046/1661.htm",
+      "portraitUrl": "https://air.tsinghua.edu.cn/__local/6/FB/16/F5FCB7FCF91A8B289B2EFBC6056_77A6A1B2_11546.jpg",
+      "keywords": null,
+      "sourcePageUrl": "https://air.tsinghua.edu.cn/airtd/yjtd.htm",
+      "profileFetched": true,
+      "decision": "include_new_pi",
+      "reason": "AIR 官方研究团队将其列为教授或研究员序列，且研究机构主线属于产业人工智能。",
+      "evidence": "副研究员/副教授"
+    },
+    {
+      "officialId": "1830",
+      "name": "马剑竹",
+      "title": "副研究员/副教授",
+      "officialSections": [
+        "教授、研究员"
+      ],
+      "affiliation": null,
+      "profileUrl": "https://air.tsinghua.edu.cn/info/1046/1830.htm",
+      "portraitUrl": "https://air.tsinghua.edu.cn/__local/B/3F/57/1C3A4159735257721AA64816FE0_E3266D65_70BA.jpg",
+      "keywords": null,
+      "sourcePageUrl": "https://air.tsinghua.edu.cn/airtd/yjtd.htm",
+      "profileFetched": true,
+      "decision": "include_new_pi",
+      "reason": "AIR 官方研究团队将其列为教授或研究员序列，且研究机构主线属于产业人工智能。",
+      "evidence": "副研究员/副教授"
+    },
+    {
+      "officialId": "1197",
+      "name": "詹仙园",
+      "title": "副研究员/副教授",
+      "officialSections": [
+        "教授、研究员"
+      ],
+      "affiliation": null,
+      "profileUrl": "https://air.tsinghua.edu.cn/info/1046/1197.htm",
+      "portraitUrl": "https://air.tsinghua.edu.cn/__local/E/85/5C/7CBF703A1C6911FEE09B4E8C3D0_1797A471_1DCB5.jpg",
+      "keywords": null,
+      "sourcePageUrl": "https://air.tsinghua.edu.cn/airtd/yjtd.htm",
+      "profileFetched": true,
+      "decision": "include_new_pi",
+      "reason": "AIR 官方研究团队将其列为教授或研究员序列，且研究机构主线属于产业人工智能。",
+      "evidence": "副研究员/副教授"
+    },
+    {
+      "officialId": "1196",
+      "name": "马为之",
+      "title": "副研究员/副教授",
+      "officialSections": [
+        "教授、研究员"
+      ],
+      "affiliation": null,
+      "profileUrl": "https://air.tsinghua.edu.cn/info/1046/1196.htm",
+      "portraitUrl": "https://air.tsinghua.edu.cn/__local/2/8F/46/7267DA0DB16B9C3208194992EC3_43E9A7E1_1B18C.jpg",
+      "keywords": null,
+      "sourcePageUrl": "https://air.tsinghua.edu.cn/airtd/yjtd.htm",
+      "profileFetched": true,
+      "decision": "include_new_pi",
+      "reason": "AIR 官方研究团队将其列为教授或研究员序列，且研究机构主线属于产业人工智能。",
+      "evidence": "副研究员/副教授"
+    },
+    {
+      "officialId": "1195",
+      "name": "李元春",
+      "title": "助理研究员/助理教授",
+      "officialSections": [
+        "教授、研究员"
+      ],
+      "affiliation": null,
+      "profileUrl": "https://air.tsinghua.edu.cn/info/1046/1195.htm",
+      "portraitUrl": "https://air.tsinghua.edu.cn/__local/B/18/53/602AF35D0F6915CDCB882AB3A5E_61257C58_1BE70.jpg",
+      "keywords": null,
+      "sourcePageUrl": "https://air.tsinghua.edu.cn/airtd/yjtd.htm",
+      "profileFetched": true,
+      "decision": "include_new_pi",
+      "reason": "AIR 官方研究团队将其列为教授或研究员序列，且研究机构主线属于产业人工智能。",
+      "evidence": "助理研究员/助理教授"
+    },
+    {
+      "officialId": "1555",
+      "name": "王岩",
+      "title": "助理研究员/助理教授",
+      "officialSections": [
+        "教授、研究员"
+      ],
+      "affiliation": null,
+      "profileUrl": "https://air.tsinghua.edu.cn/info/1046/1555.htm",
+      "portraitUrl": "https://air.tsinghua.edu.cn/__local/1/34/FC/DE8F20815E5E67609B865DEE62B_B8496BA0_38139.jpg",
+      "keywords": null,
+      "sourcePageUrl": "https://air.tsinghua.edu.cn/airtd/yjtd.htm",
+      "profileFetched": true,
+      "decision": "include_new_pi",
+      "reason": "AIR 官方研究团队将其列为教授或研究员序列，且研究机构主线属于产业人工智能。",
+      "evidence": "助理研究员/助理教授"
+    },
+    {
+      "officialId": "1945",
+      "name": "赵昊",
+      "title": "助理研究员/助理教授",
+      "officialSections": [
+        "教授、研究员"
+      ],
+      "affiliation": null,
+      "profileUrl": "https://air.tsinghua.edu.cn/info/1046/1945.htm",
+      "portraitUrl": "https://air.tsinghua.edu.cn/__local/A/E0/B9/8151B5539B8747D4663584D7A21_2F9F80B8_4C0F.jpg",
+      "keywords": null,
+      "sourcePageUrl": "https://air.tsinghua.edu.cn/airtd/yjtd.htm",
+      "profileFetched": true,
+      "decision": "include_new_pi",
+      "reason": "AIR 官方研究团队将其列为教授或研究员序列，且研究机构主线属于产业人工智能。",
+      "evidence": "助理研究员/助理教授"
+    },
+    {
+      "officialId": "2501",
+      "name": "李琨",
+      "title": "助理研究员/助理教授",
+      "officialSections": [
+        "教授、研究员"
+      ],
+      "affiliation": null,
+      "profileUrl": "https://air.tsinghua.edu.cn/info/1046/2501.htm",
+      "portraitUrl": "https://air.tsinghua.edu.cn/__local/1/9C/C8/EABE6D852D3FFA9D4DF6700B19A_18612A25_63DC71.jpeg",
+      "keywords": null,
+      "sourcePageUrl": "https://air.tsinghua.edu.cn/airtd/yjtd.htm",
+      "profileFetched": true,
+      "decision": "include_new_pi",
+      "reason": "AIR 官方研究团队将其列为教授或研究员序列，且研究机构主线属于产业人工智能。",
+      "evidence": "助理研究员/助理教授"
+    },
+    {
+      "officialId": "1205",
+      "name": "赵峰",
+      "title": null,
+      "officialSections": [
+        "教授、研究员"
+      ],
+      "affiliation": null,
+      "profileUrl": "https://air.tsinghua.edu.cn/info/1046/1205.htm",
+      "portraitUrl": "https://air.tsinghua.edu.cn/__local/3/2D/8C/5A20FF241412E120C357790E400_F3E4033C_184DF.jpg",
+      "keywords": null,
+      "sourcePageUrl": "https://air.tsinghua.edu.cn/airtd/yjtd.htm",
+      "profileFetched": true,
+      "decision": "pending_profile_verification",
+      "reason": "位于教授/研究员分组，但官方卡片缺少职称，需进一步确认独立 PI 身份。",
+      "evidence": "https://air.tsinghua.edu.cn/info/1046/1205.htm"
+    },
+    {
+      "officialId": "1198",
+      "name": "刘洋",
+      "title": null,
+      "officialSections": [
+        "教授、研究员"
+      ],
+      "affiliation": null,
+      "profileUrl": "https://air.tsinghua.edu.cn/info/1046/1198.htm",
+      "portraitUrl": "https://air.tsinghua.edu.cn/__local/2/32/F8/5C415108AFB24C1B89BACEF4402_BF4E54F7_13334.jpg",
+      "keywords": null,
+      "sourcePageUrl": "https://air.tsinghua.edu.cn/airtd/yjtd.htm",
+      "profileFetched": true,
+      "decision": "excluded_historical",
+      "reason": "官方个人页明确把 AIR 任职写为过去时，不作为当前 PI 接入。",
+      "evidence": "https://air.tsinghua.edu.cn/info/1046/1198.htm"
+    },
+    {
+      "officialId": "1635",
+      "name": "龚江涛",
+      "title": "助理研究员/助理教授",
+      "officialSections": [
+        "教授、研究员"
+      ],
+      "affiliation": null,
+      "profileUrl": "https://air.tsinghua.edu.cn/info/1046/1635.htm",
+      "portraitUrl": "https://air.tsinghua.edu.cn/__local/D/0E/68/5AF1511FB64643C3BC249E40DED_914E18EB_1C8EC.jpg",
+      "keywords": null,
+      "sourcePageUrl": "https://air.tsinghua.edu.cn/airtd/yjtd.htm",
+      "profileFetched": true,
+      "decision": "excluded_historical",
+      "reason": "官方个人页明确把 AIR 任职写为过去时，不作为当前 PI 接入。",
+      "evidence": "https://air.tsinghua.edu.cn/info/1046/1635.htm"
+    },
+    {
+      "officialId": "1769",
+      "name": "陈亦伦",
+      "title": null,
+      "officialSections": [
+        "教授、研究员"
+      ],
+      "affiliation": null,
+      "profileUrl": "https://air.tsinghua.edu.cn/info/1046/1769.htm",
+      "portraitUrl": "https://air.tsinghua.edu.cn/__local/9/97/69/ED6EF27FF25A29A55BAB78018F9_38E8AB15_30E71.jpg",
+      "keywords": null,
+      "sourcePageUrl": "https://air.tsinghua.edu.cn/airtd/yjtd.htm",
+      "profileFetched": true,
+      "decision": "excluded_historical",
+      "reason": "官方个人页明确把 AIR 任职写为过去时，不作为当前 PI 接入。",
+      "evidence": "https://air.tsinghua.edu.cn/info/1046/1769.htm"
+    },
+    {
+      "officialId": "2539",
+      "name": "Rahim Tafazolli",
+      "title": "杰出访问教授",
+      "officialSections": [
+        "访问教授"
+      ],
+      "affiliation": null,
+      "profileUrl": "https://air.tsinghua.edu.cn/info/1047/2539.htm",
+      "portraitUrl": "https://air.tsinghua.edu.cn/__local/3/58/04/078C7B336ECDDB12C3DBA3D0154_8851E010_9C3E.png",
+      "keywords": null,
+      "sourcePageUrl": "https://air.tsinghua.edu.cn/airtd/yjtd.htm",
+      "profileFetched": true,
+      "decision": "excluded_non_pi",
+      "reason": "AIR 官方名录将其列为访问教授，不作为该单位当前独立 PI 接入。",
+      "evidence": "访问教授; 杰出访问教授"
+    },
+    {
+      "officialId": "1210",
+      "name": "陶大程",
+      "title": "卓越访问教授",
+      "officialSections": [
+        "访问教授"
+      ],
+      "affiliation": null,
+      "profileUrl": "https://air.tsinghua.edu.cn/info/1047/1210.htm",
+      "portraitUrl": "https://air.tsinghua.edu.cn/__local/D/71/2B/487C124FD304D88E229C45147B5_754243D4_199F1.jpg",
+      "keywords": null,
+      "sourcePageUrl": "https://air.tsinghua.edu.cn/airtd/yjtd.htm",
+      "profileFetched": true,
+      "decision": "excluded_non_pi",
+      "reason": "AIR 官方名录将其列为访问教授，不作为该单位当前独立 PI 接入。",
+      "evidence": "访问教授; 卓越访问教授"
+    },
+    {
+      "officialId": "1208",
+      "name": "张宏江",
+      "title": "卓越访问教授",
+      "officialSections": [
+        "访问教授"
+      ],
+      "affiliation": null,
+      "profileUrl": "https://air.tsinghua.edu.cn/info/1047/1208.htm",
+      "portraitUrl": "https://air.tsinghua.edu.cn/__local/F/77/57/599ADF9CEFC89A74F5EE0AF0810_009B5455_18E7C.jpg",
+      "keywords": null,
+      "sourcePageUrl": "https://air.tsinghua.edu.cn/airtd/yjtd.htm",
+      "profileFetched": true,
+      "decision": "excluded_non_pi",
+      "reason": "AIR 官方名录将其列为访问教授，不作为该单位当前独立 PI 接入。",
+      "evidence": "访问教授; 卓越访问教授"
+    },
+    {
+      "officialId": "1209",
+      "name": "彭健",
+      "title": "高级访问教授",
+      "officialSections": [
+        "访问教授"
+      ],
+      "affiliation": null,
+      "profileUrl": "https://air.tsinghua.edu.cn/info/1047/1209.htm",
+      "portraitUrl": "https://air.tsinghua.edu.cn/__local/0/19/5A/9326E2D5A50E6DDE7357852EEDF_166EF5C5_1B22A.jpg",
+      "keywords": null,
+      "sourcePageUrl": "https://air.tsinghua.edu.cn/airtd/yjtd.htm",
+      "profileFetched": true,
+      "decision": "excluded_non_pi",
+      "reason": "AIR 官方名录将其列为访问教授，不作为该单位当前独立 PI 接入。",
+      "evidence": "访问教授; 高级访问教授"
+    },
+    {
+      "officialId": "1675",
+      "name": "许锦波",
+      "title": "卓越访问教授",
+      "officialSections": [
+        "访问教授"
+      ],
+      "affiliation": null,
+      "profileUrl": "https://air.tsinghua.edu.cn/info/1047/1675.htm",
+      "portraitUrl": "https://air.tsinghua.edu.cn/__local/A/0B/F0/F70ED3449710BDF79D56F09D182_BCC0AEBC_32CF6.png",
+      "keywords": null,
+      "sourcePageUrl": "https://air.tsinghua.edu.cn/airtd/yjtd.htm",
+      "profileFetched": true,
+      "decision": "excluded_non_pi",
+      "reason": "AIR 官方名录将其列为访问教授，不作为该单位当前独立 PI 接入。",
+      "evidence": "访问教授; 卓越访问教授"
+    },
+    {
+      "officialId": "2340",
+      "name": "欧阳晔",
+      "title": "杰出访问教授",
+      "officialSections": [
+        "访问教授"
+      ],
+      "affiliation": null,
+      "profileUrl": "https://air.tsinghua.edu.cn/info/1047/2340.htm",
+      "portraitUrl": "https://air.tsinghua.edu.cn/__local/B/40/69/BAFCCE5151F7CAD2783F0E575E1_A8A04922_18743.jpg",
+      "keywords": null,
+      "sourcePageUrl": "https://air.tsinghua.edu.cn/airtd/yjtd.htm",
+      "profileFetched": true,
+      "decision": "excluded_non_pi",
+      "reason": "AIR 官方名录将其列为访问教授，不作为该单位当前独立 PI 接入。",
+      "evidence": "访问教授; 杰出访问教授"
+    },
+    {
+      "officialId": "research-engineer-01",
+      "name": "杨文鲜",
+      "title": "研发工程师",
+      "officialSections": [
+        "科研工程师"
+      ],
+      "affiliation": null,
+      "profileUrl": "https://air.tsinghua.edu.cn/airtd/yjtd.htm",
+      "portraitUrl": "https://air.tsinghua.edu.cn/__local/C/EA/8D/D3DF3C97979C826E672FE613B33_36EBF120_67CE0.jpg",
+      "keywords": null,
+      "sourcePageUrl": "https://air.tsinghua.edu.cn/airtd/yjtd.htm",
+      "profileFetched": true,
+      "decision": "excluded_non_pi",
+      "reason": "AIR 官方名录将其列为科研/研发工程师，而非独立 PI。",
+      "evidence": "科研工程师; 研发工程师"
+    },
+    {
+      "officialId": "research-engineer-02",
+      "name": "范嗣祺",
+      "title": "研发工程师",
+      "officialSections": [
+        "科研工程师"
+      ],
+      "affiliation": null,
+      "profileUrl": "https://air.tsinghua.edu.cn/airtd/yjtd.htm",
+      "portraitUrl": "https://air.tsinghua.edu.cn/__local/3/0F/F0/7654AA967F57F48C9BF376BDDD0_C7B31D9B_64DB.jpg",
+      "keywords": null,
+      "sourcePageUrl": "https://air.tsinghua.edu.cn/airtd/yjtd.htm",
+      "profileFetched": true,
+      "decision": "excluded_non_pi",
+      "reason": "AIR 官方名录将其列为科研/研发工程师，而非独立 PI。",
+      "evidence": "科研工程师; 研发工程师"
+    },
+    {
+      "officialId": "research-engineer-03",
+      "name": "朱翔宇",
+      "title": "研发工程师",
+      "officialSections": [
+        "科研工程师"
+      ],
+      "affiliation": null,
+      "profileUrl": "https://air.tsinghua.edu.cn/airtd/yjtd.htm",
+      "portraitUrl": "https://air.tsinghua.edu.cn/__local/A/53/25/27536E26FB3C18BA8B974783327_BC8365EC_E1BF8.jpg",
+      "keywords": null,
+      "sourcePageUrl": "https://air.tsinghua.edu.cn/airtd/yjtd.htm",
+      "profileFetched": true,
+      "decision": "excluded_non_pi",
+      "reason": "AIR 官方名录将其列为科研/研发工程师，而非独立 PI。",
+      "evidence": "科研工程师; 研发工程师"
+    },
+    {
+      "officialId": "research-engineer-04",
+      "name": "杨凯",
+      "title": "研发工程师",
+      "officialSections": [
+        "科研工程师"
+      ],
+      "affiliation": null,
+      "profileUrl": "https://air.tsinghua.edu.cn/airtd/yjtd.htm",
+      "portraitUrl": "https://air.tsinghua.edu.cn/__local/6/79/24/903C6390DF2E05FB2F98B2B848D_4EAEB499_46B6.jpg",
+      "keywords": null,
+      "sourcePageUrl": "https://air.tsinghua.edu.cn/airtd/yjtd.htm",
+      "profileFetched": true,
+      "decision": "excluded_non_pi",
+      "reason": "AIR 官方名录将其列为科研/研发工程师，而非独立 PI。",
+      "evidence": "科研工程师; 研发工程师"
+    },
+    {
+      "officialId": "research-engineer-05",
+      "name": "张猛",
+      "title": "研发工程师",
+      "officialSections": [
+        "科研工程师"
+      ],
+      "affiliation": null,
+      "profileUrl": "https://air.tsinghua.edu.cn/airtd/yjtd.htm",
+      "portraitUrl": "https://air.tsinghua.edu.cn/__local/7/99/4A/66A789ECE2DE2DF244DABD1592B_32412C1A_174B0.jpg",
+      "keywords": null,
+      "sourcePageUrl": "https://air.tsinghua.edu.cn/airtd/yjtd.htm",
+      "profileFetched": true,
+      "decision": "excluded_non_pi",
+      "reason": "AIR 官方名录将其列为科研/研发工程师，而非独立 PI。",
+      "evidence": "科研工程师; 研发工程师"
+    },
+    {
+      "officialId": "research-engineer-06",
+      "name": "李楚璇",
+      "title": "研发工程师",
+      "officialSections": [
+        "科研工程师"
+      ],
+      "affiliation": null,
+      "profileUrl": "https://air.tsinghua.edu.cn/airtd/yjtd.htm",
+      "portraitUrl": "https://air.tsinghua.edu.cn/__local/9/C5/62/C8E88F09C0FE85A7F55D9B9CD32_1CA86560_159D9.jpg",
+      "keywords": null,
+      "sourcePageUrl": "https://air.tsinghua.edu.cn/airtd/yjtd.htm",
+      "profileFetched": true,
+      "decision": "excluded_non_pi",
+      "reason": "AIR 官方名录将其列为科研/研发工程师，而非独立 PI。",
+      "evidence": "科研工程师; 研发工程师"
+    },
+    {
+      "officialId": "research-engineer-07",
+      "name": "冷霁超",
+      "title": "研发工程师",
+      "officialSections": [
+        "科研工程师"
+      ],
+      "affiliation": null,
+      "profileUrl": "https://air.tsinghua.edu.cn/airtd/yjtd.htm",
+      "portraitUrl": "https://air.tsinghua.edu.cn/__local/D/BE/38/99353691C4A3582B6D8CDCC9F39_725470D9_4D503.jpg",
+      "keywords": null,
+      "sourcePageUrl": "https://air.tsinghua.edu.cn/airtd/yjtd.htm",
+      "profileFetched": true,
+      "decision": "excluded_non_pi",
+      "reason": "AIR 官方名录将其列为科研/研发工程师，而非独立 PI。",
+      "evidence": "科研工程师; 研发工程师"
+    },
+    {
+      "officialId": "research-engineer-08",
+      "name": "李红良",
+      "title": "研发工程师",
+      "officialSections": [
+        "科研工程师"
+      ],
+      "affiliation": null,
+      "profileUrl": "https://air.tsinghua.edu.cn/airtd/yjtd.htm",
+      "portraitUrl": "https://air.tsinghua.edu.cn/__local/9/84/75/33A847EB7D0DFBC54576CCCE9E2_283AFF22_227E.jpg",
+      "keywords": null,
+      "sourcePageUrl": "https://air.tsinghua.edu.cn/airtd/yjtd.htm",
+      "profileFetched": true,
+      "decision": "excluded_non_pi",
+      "reason": "AIR 官方名录将其列为科研/研发工程师，而非独立 PI。",
+      "evidence": "科研工程师; 研发工程师"
+    },
+    {
+      "officialId": "research-engineer-09",
+      "name": "李嘉涵",
+      "title": "研发工程师",
+      "officialSections": [
+        "科研工程师"
+      ],
+      "affiliation": null,
+      "profileUrl": "https://air.tsinghua.edu.cn/airtd/yjtd.htm",
+      "portraitUrl": "https://air.tsinghua.edu.cn/__local/4/2D/71/D88BF9F858C9875BCA4D1EFA425_81D64DB1_4B58.jpg",
+      "keywords": null,
+      "sourcePageUrl": "https://air.tsinghua.edu.cn/airtd/yjtd.htm",
+      "profileFetched": true,
+      "decision": "excluded_non_pi",
+      "reason": "AIR 官方名录将其列为科研/研发工程师，而非独立 PI。",
+      "evidence": "科研工程师; 研发工程师"
+    },
+    {
+      "officialId": "research-engineer-10",
+      "name": "朱文钰",
+      "title": "研发工程师",
+      "officialSections": [
+        "科研工程师"
+      ],
+      "affiliation": null,
+      "profileUrl": "https://air.tsinghua.edu.cn/airtd/yjtd.htm",
+      "portraitUrl": "https://air.tsinghua.edu.cn/__local/0/7E/EE/46F79C5D121A28E01A469B2D11C_8D187BF3_3F62.jpg",
+      "keywords": null,
+      "sourcePageUrl": "https://air.tsinghua.edu.cn/airtd/yjtd.htm",
+      "profileFetched": true,
+      "decision": "excluded_non_pi",
+      "reason": "AIR 官方名录将其列为科研/研发工程师，而非独立 PI。",
+      "evidence": "科研工程师; 研发工程师"
+    }
+  ]
+}

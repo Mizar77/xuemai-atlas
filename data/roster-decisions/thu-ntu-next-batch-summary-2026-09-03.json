@@ -1,0 +1,2340 @@
+{
+  "schemaVersion": 1,
+  "scope": "THU CS + THU Automation + THU AIR + NTU CCDS frozen roster decisions",
+  "reviewedAt": "2026-09-03",
+  "officialRosterTotal": 396,
+  "decisionTotal": 396,
+  "totalsByDecision": {
+    "included_existing": 37,
+    "include_new_pi": 192,
+    "excluded_non_pi": 64,
+    "excluded_non_ai_cs": 96,
+    "excluded_historical": 3,
+    "excluded_industry_only": 0,
+    "pending_profile_verification": 4
+  },
+  "units": [
+    {
+      "unitId": "thu-cs-next-batch",
+      "rosterArtifact": "data/official-rosters/thu-cs-full-time-faculty-2026-09-02.json",
+      "officialRosterCount": 129,
+      "decisionCount": 129,
+      "counts": {
+        "included_existing": 11,
+        "include_new_pi": 40,
+        "excluded_non_pi": 21,
+        "excluded_non_ai_cs": 56,
+        "excluded_historical": 0,
+        "excluded_industry_only": 0,
+        "pending_profile_verification": 1
+      },
+      "outputPath": "data/roster-decisions/thu-cs-next-batch-2026-09-03.json"
+    },
+    {
+      "unitId": "thu-automation-next-batch",
+      "rosterArtifact": "data/official-rosters/thu-automation-faculty-2026-09-02.json",
+      "officialRosterCount": 111,
+      "decisionCount": 111,
+      "counts": {
+        "included_existing": 4,
+        "include_new_pi": 95,
+        "excluded_non_pi": 11,
+        "excluded_non_ai_cs": 0,
+        "excluded_historical": 0,
+        "excluded_industry_only": 0,
+        "pending_profile_verification": 1
+      },
+      "outputPath": "data/roster-decisions/thu-automation-next-batch-2026-09-03.json"
+    },
+    {
+      "unitId": "thu-air-next-batch",
+      "rosterArtifact": "data/official-rosters/thu-air-research-team-2026-09-02.json",
+      "officialRosterCount": 39,
+      "decisionCount": 39,
+      "counts": {
+        "included_existing": 2,
+        "include_new_pi": 16,
+        "excluded_non_pi": 17,
+        "excluded_non_ai_cs": 0,
+        "excluded_historical": 3,
+        "excluded_industry_only": 0,
+        "pending_profile_verification": 1
+      },
+      "outputPath": "data/roster-decisions/thu-air-next-batch-2026-09-03.json"
+    },
+    {
+      "unitId": "ntu-ccds-next-batch",
+      "rosterArtifact": "data/official-rosters/ntu-ccds-faculty-directory-2026-09-02.json",
+      "officialRosterCount": 117,
+      "decisionCount": 117,
+      "counts": {
+        "included_existing": 20,
+        "include_new_pi": 41,
+        "excluded_non_pi": 15,
+        "excluded_non_ai_cs": 40,
+        "excluded_historical": 0,
+        "excluded_industry_only": 0,
+        "pending_profile_verification": 1
+      },
+      "outputPath": "data/roster-decisions/ntu-ccds-next-batch-2026-09-03.json"
+    }
+  ],
+  "unresolved": [
+    {
+      "unitId": "thu-cs-next-batch",
+      "officialId": "4346",
+      "name": "Haixin DUAN",
+      "title": null,
+      "profileUrl": "https://www.cs.tsinghua.edu.cn/csen/info/1309/4346.htm",
+      "reason": "官方卡片未给出足以确认独立 PI 身份的职称。"
+    },
+    {
+      "unitId": "thu-automation-next-batch",
+      "officialId": "3253",
+      "name": "刘莉扬",
+      "title": null,
+      "profileUrl": "https://www.au.tsinghua.edu.cn/info/1078/3253.htm",
+      "reason": "冻结名录没有职称字段，且缓存官方个人页未能抽取独立 PI 职称。"
+    },
+    {
+      "unitId": "thu-air-next-batch",
+      "officialId": "1205",
+      "name": "赵峰",
+      "title": null,
+      "profileUrl": "https://air.tsinghua.edu.cn/info/1046/1205.htm",
+      "reason": "位于教授/研究员分组，但官方卡片缺少职称，需进一步确认独立 PI 身份。"
+    },
+    {
+      "unitId": "ntu-ccds-next-batch",
+      "officialId": "https://dr.ntu.edu.sg/entities/person/Hai-Dang-Dau",
+      "name": "Asst Prof Hai Dang Dau",
+      "title": "Nanyang Assistant Professor, College of Computing & Data Science Nanyang Assistant Professor, School of Physical & Mathematical Sciences",
+      "profileUrl": "https://dr.ntu.edu.sg/entities/person/Hai-Dang-Dau",
+      "reason": "冻结官方目录未给研究关键词，需核验个人页后判断研究范围。"
+    }
+  ],
+  "includeNewPi": [
+    {
+      "unitId": "thu-cs-next-batch",
+      "officialId": "4317",
+      "name": "Guoliang LI",
+      "title": "Professor",
+      "profileUrl": "https://www.cs.tsinghua.edu.cn/csen/info/1303/4317.htm",
+      "portraitUrl": "https://www.cs.tsinghua.edu.cn/__local/A/E7/D4/2F72A715BCF2D62B7582C446D1F_E4C073F3_1A459.jpg",
+      "keywords": null,
+      "officialSections": [
+        "Institute of Computing Software — Full Professor"
+      ]
+    },
+    {
+      "unitId": "thu-cs-next-batch",
+      "officialId": "4318",
+      "name": "Juanzi LI",
+      "title": "Professor",
+      "profileUrl": "https://www.cs.tsinghua.edu.cn/csen/info/1303/4318.htm",
+      "portraitUrl": "https://www.cs.tsinghua.edu.cn/__local/F/D9/9A/3A57EF781EE6122C10E56373032_CCE2BB67_15FC1.jpg",
+      "keywords": null,
+      "officialSections": [
+        "Institute of Computing Software — Full Professor"
+      ]
+    },
+    {
+      "unitId": "thu-cs-next-batch",
+      "officialId": "4320",
+      "name": "Jianyong WANG",
+      "title": "Professor",
+      "profileUrl": "https://www.cs.tsinghua.edu.cn/csen/info/1303/4320.htm",
+      "portraitUrl": "https://www.cs.tsinghua.edu.cn/__local/7/C2/42/C47767513091D00FDA7B10FA95E_5F1B1AE3_190DC.jpg",
+      "keywords": null,
+      "officialSections": [
+        "Institute of Computing Software — Full Professor"
+      ]
+    },
+    {
+      "unitId": "thu-cs-next-batch",
+      "officialId": "4468",
+      "name": "Yuxiao DONG",
+      "title": "Associate Professor",
+      "profileUrl": "https://www.cs.tsinghua.edu.cn/csen/info/1304/4468.htm",
+      "portraitUrl": "https://www.cs.tsinghua.edu.cn/__local/4/F4/EE/C28D44A0E76CF05C50F7E97696D_5EDB3C6E_1574B.jpg",
+      "keywords": null,
+      "officialSections": [
+        "Institute of Computing Software — Associate Professor"
+      ]
+    },
+    {
+      "unitId": "thu-cs-next-batch",
+      "officialId": "4664",
+      "name": "Lei Hou",
+      "title": "Associate Professor",
+      "profileUrl": "https://www.cs.tsinghua.edu.cn/csen/info/1304/4664.htm",
+      "portraitUrl": "https://www.cs.tsinghua.edu.cn/__local/0/80/2C/2AEA2F843EB9A21F5A0F8D2DF01_DCEF3199_1B661.jpg",
+      "keywords": null,
+      "officialSections": [
+        "Institute of Computing Software — Associate Professor"
+      ]
+    },
+    {
+      "unitId": "thu-cs-next-batch",
+      "officialId": "4663",
+      "name": "Ji Sun",
+      "title": "Assistant Professor",
+      "profileUrl": "https://www.cs.tsinghua.edu.cn/csen/info/1305/4663.htm",
+      "portraitUrl": "https://www.cs.tsinghua.edu.cn/__local/9/23/4F/9644F58B4C308CC4AA7BCB88C37_A0FD9774_11411.jpg",
+      "keywords": null,
+      "officialSections": [
+        "Institute of Computing Software — Assistant Professor"
+      ]
+    },
+    {
+      "unitId": "thu-cs-next-batch",
+      "officialId": "4328",
+      "name": "Haizhou AI",
+      "title": "Professor",
+      "profileUrl": "https://www.cs.tsinghua.edu.cn/csen/info/1306/4328.htm",
+      "portraitUrl": "https://www.cs.tsinghua.edu.cn/__local/8/4C/19/5E19D9CCA26211B80171492175C_9BD77DCD_60BB.jpg",
+      "keywords": null,
+      "officialSections": [
+        "Institute of Human-computer Interaction(HCI) and Media Integration — Full Professor"
+      ]
+    },
+    {
+      "unitId": "thu-cs-next-batch",
+      "officialId": "4330",
+      "name": "Jia JIA",
+      "title": "Professor",
+      "profileUrl": "https://www.cs.tsinghua.edu.cn/csen/info/1306/4330.htm",
+      "portraitUrl": "https://www.cs.tsinghua.edu.cn/__local/9/A0/80/3BCAD70379BFAFCC49DB22A3F02_76112C11_195AB.jpg",
+      "keywords": null,
+      "officialSections": [
+        "Institute of Human-computer Interaction(HCI) and Media Integration — Full Professor"
+      ]
+    },
+    {
+      "unitId": "thu-cs-next-batch",
+      "officialId": "4331",
+      "name": "Yongjin LIU",
+      "title": "Professor",
+      "profileUrl": "https://www.cs.tsinghua.edu.cn/csen/info/1306/4331.htm",
+      "portraitUrl": "https://www.cs.tsinghua.edu.cn/__local/C/25/B2/C285549B998500F56AB0642BD91_ECEB4C85_1A21B.jpg",
+      "keywords": null,
+      "officialSections": [
+        "Institute of Human-computer Interaction(HCI) and Media Integration — Full Professor"
+      ]
+    },
+    {
+      "unitId": "thu-cs-next-batch",
+      "officialId": "4332",
+      "name": "Yuanchun SHI",
+      "title": "Professor",
+      "profileUrl": "https://www.cs.tsinghua.edu.cn/csen/info/1306/4332.htm",
+      "portraitUrl": "https://www.cs.tsinghua.edu.cn/__local/9/DF/5F/D88941FAD72DA6BE7FAA1E1A0DF_7DD92A1F_182C9.jpg",
+      "keywords": null,
+      "officialSections": [
+        "Institute of Human-computer Interaction(HCI) and Media Integration — Full Professor"
+      ]
+    },
+    {
+      "unitId": "thu-cs-next-batch",
+      "officialId": "4333",
+      "name": "Lifeng SUN",
+      "title": "Professor",
+      "profileUrl": "https://www.cs.tsinghua.edu.cn/csen/info/1306/4333.htm",
+      "portraitUrl": "https://www.cs.tsinghua.edu.cn/__local/5/01/00/6CBDD6AD98C40904A44F3EDFC00_2663CB6D_16B36.jpg",
+      "keywords": null,
+      "officialSections": [
+        "Institute of Human-computer Interaction(HCI) and Media Integration — Full Professor"
+      ]
+    },
+    {
+      "unitId": "thu-cs-next-batch",
+      "officialId": "4658",
+      "name": "Songhai ZHANG",
+      "title": "Professor",
+      "profileUrl": "https://www.cs.tsinghua.edu.cn/csen/info/1306/4658.htm",
+      "portraitUrl": "https://www.cs.tsinghua.edu.cn/__local/3/D0/6F/12BB18A483EA929BB88CEEB78D3_162B6C58_D6A4.jpg",
+      "keywords": null,
+      "officialSections": [
+        "Institute of Human-computer Interaction(HCI) and Media Integration — Full Professor"
+      ]
+    },
+    {
+      "unitId": "thu-cs-next-batch",
+      "officialId": "4335",
+      "name": "Yuezhi ZHOU",
+      "title": "Professor",
+      "profileUrl": "https://www.cs.tsinghua.edu.cn/csen/info/1306/4335.htm",
+      "portraitUrl": "https://www.cs.tsinghua.edu.cn/__local/5/EC/40/F8B32CD5CEC372C5FF73161D589_595068E7_1A7CE.jpg",
+      "keywords": null,
+      "officialSections": [
+        "Institute of Human-computer Interaction(HCI) and Media Integration — Full Professor"
+      ]
+    },
+    {
+      "unitId": "thu-cs-next-batch",
+      "officialId": "4336",
+      "name": "Wenwu ZHU",
+      "title": "Professor",
+      "profileUrl": "https://www.cs.tsinghua.edu.cn/csen/info/1306/4336.htm",
+      "portraitUrl": "https://www.cs.tsinghua.edu.cn/__local/2/0B/95/367CF30B9C0D34204820AC6060F_ED7B4481_15063.jpg",
+      "keywords": null,
+      "officialSections": [
+        "Institute of Human-computer Interaction(HCI) and Media Integration — Full Professor"
+      ]
+    },
+    {
+      "unitId": "thu-cs-next-batch",
+      "officialId": "4337",
+      "name": "Peng CUI",
+      "title": "Associate Professor (Tenured)",
+      "profileUrl": "https://www.cs.tsinghua.edu.cn/csen/info/1307/4337.htm",
+      "portraitUrl": "https://www.cs.tsinghua.edu.cn/__local/F/90/90/5F67654BB97D616F856208C57B3_BB939554_19B5B.jpg",
+      "keywords": null,
+      "officialSections": [
+        "Institute of Human-computer Interaction(HCI) and Media Integration — Associate Professor"
+      ]
+    },
+    {
+      "unitId": "thu-cs-next-batch",
+      "officialId": "4585",
+      "name": "Taijiang MU",
+      "title": "Associate Professor",
+      "profileUrl": "https://www.cs.tsinghua.edu.cn/csen/info/1307/4585.htm",
+      "portraitUrl": "https://www.cs.tsinghua.edu.cn/__local/4/50/C5/5CACF9749AD41CCBC32738E4C14_B8A94A0D_1B425.jpg",
+      "keywords": null,
+      "officialSections": [
+        "Institute of Human-computer Interaction(HCI) and Media Integration — Associate Professor"
+      ]
+    },
+    {
+      "unitId": "thu-cs-next-batch",
+      "officialId": "4679",
+      "name": "Ju Ren",
+      "title": "Associate Professor",
+      "profileUrl": "https://www.cs.tsinghua.edu.cn/csen/info/1307/4679.htm",
+      "portraitUrl": "https://www.cs.tsinghua.edu.cn/__local/B/9D/8B/36774D6B231037EDBFDE226CFB9_6A845C1F_1B931.jpg",
+      "keywords": null,
+      "officialSections": [
+        "Institute of Human-computer Interaction(HCI) and Media Integration — Associate Professor"
+      ]
+    },
+    {
+      "unitId": "thu-cs-next-batch",
+      "officialId": "4338",
+      "name": "Pin TAO",
+      "title": "Associate Professor",
+      "profileUrl": "https://www.cs.tsinghua.edu.cn/csen/info/1307/4338.htm",
+      "portraitUrl": "https://www.cs.tsinghua.edu.cn/__local/F/96/68/999E44EDE5E10DCA41A96AB544E_304D7D0E_16405.jpg",
+      "keywords": null,
+      "officialSections": [
+        "Institute of Human-computer Interaction(HCI) and Media Integration — Associate Professor"
+      ]
+    },
+    {
+      "unitId": "thu-cs-next-batch",
+      "officialId": "4470",
+      "name": "Xin WANG",
+      "title": "Associate Professor",
+      "profileUrl": "https://www.cs.tsinghua.edu.cn/csen/info/1307/4470.htm",
+      "portraitUrl": "https://www.cs.tsinghua.edu.cn/__local/F/62/B1/43C2D4797E2D0EEBE235105CF89_C47F6F60_1B137.jpg",
+      "keywords": null,
+      "officialSections": [
+        "Institute of Human-computer Interaction(HCI) and Media Integration — Associate Professor"
+      ]
+    },
+    {
+      "unitId": "thu-cs-next-batch",
+      "officialId": "4339",
+      "name": "Yuntao WANG",
+      "title": "Associate Professor",
+      "profileUrl": "https://www.cs.tsinghua.edu.cn/csen/info/1307/4339.htm",
+      "portraitUrl": "https://www.cs.tsinghua.edu.cn/__local/1/9F/CF/FCF4BB874960C226AEB8D1CA7DC_80EB0886_1A326.jpg",
+      "keywords": null,
+      "officialSections": [
+        "Institute of Human-computer Interaction(HCI) and Media Integration — Associate Professor"
+      ]
+    },
+    {
+      "unitId": "thu-cs-next-batch",
+      "officialId": "4340",
+      "name": "Kun XU",
+      "title": "Associate Professor",
+      "profileUrl": "https://www.cs.tsinghua.edu.cn/csen/info/1307/4340.htm",
+      "portraitUrl": "https://www.cs.tsinghua.edu.cn/__local/6/EF/0F/3B1F046D90471E8A98C78DB5D0B_3F45F231_1BDBB.jpg",
+      "keywords": null,
+      "officialSections": [
+        "Institute of Human-computer Interaction(HCI) and Media Integration — Associate Professor"
+      ]
+    },
+    {
+      "unitId": "thu-cs-next-batch",
+      "officialId": "4341",
+      "name": "Chun YU",
+      "title": "Associate Professor",
+      "profileUrl": "https://www.cs.tsinghua.edu.cn/csen/info/1307/4341.htm",
+      "portraitUrl": "https://www.cs.tsinghua.edu.cn/__local/B/AE/0E/1D7E0B81076809DB7E194FC6E54_92297037_19A36.jpg",
+      "keywords": null,
+      "officialSections": [
+        "Institute of Human-computer Interaction(HCI) and Media Integration — Associate Professor"
+      ]
+    },
+    {
+      "unitId": "thu-cs-next-batch",
+      "officialId": "4477",
+      "name": "Yuan Meng",
+      "title": "Assistant Professor",
+      "profileUrl": "https://www.cs.tsinghua.edu.cn/csen/info/1308/4477.htm",
+      "portraitUrl": "https://www.cs.tsinghua.edu.cn/__local/8/C5/25/4A188146685666DCEEB058B79DF_DCF9C05E_194E7.jpg",
+      "keywords": null,
+      "officialSections": [
+        "Institute of Human-computer Interaction(HCI) and Media Integration — Assistant Professor"
+      ]
+    },
+    {
+      "unitId": "thu-cs-next-batch",
+      "officialId": "4385",
+      "name": "Ting CHEN",
+      "title": "Professor",
+      "profileUrl": "https://www.cs.tsinghua.edu.cn/csen/info/1312/4385.htm",
+      "portraitUrl": "https://www.cs.tsinghua.edu.cn/__local/4/38/29/480D125F00ECDEE3E6CD52FA353_8F6D21E6_4997.jpg",
+      "keywords": null,
+      "officialSections": [
+        "Institute of Artificial Intelligence — Full Professor"
+      ]
+    },
+    {
+      "unitId": "thu-cs-next-batch",
+      "officialId": "4386",
+      "name": "Zhidong DENG",
+      "title": "Professor",
+      "profileUrl": "https://www.cs.tsinghua.edu.cn/csen/info/1312/4386.htm",
+      "portraitUrl": "https://www.cs.tsinghua.edu.cn/__local/B/27/66/D1FABE84E4A77C758C7EEBF1443_9C628343_1BDD1.jpg",
+      "keywords": null,
+      "officialSections": [
+        "Institute of Artificial Intelligence — Full Professor"
+      ]
+    },
+    {
+      "unitId": "thu-cs-next-batch",
+      "officialId": "4483",
+      "name": "Yuan Feng",
+      "title": "Professor",
+      "profileUrl": "https://www.cs.tsinghua.edu.cn/csen/info/1312/4483.htm",
+      "portraitUrl": "https://www.cs.tsinghua.edu.cn/__local/3/51/76/5F8C2076CFC7ABC78291A188FA8_0D852A22_1E4C3.jpg",
+      "keywords": null,
+      "officialSections": [
+        "Institute of Artificial Intelligence — Full Professor"
+      ]
+    },
+    {
+      "unitId": "thu-cs-next-batch",
+      "officialId": "4700",
+      "name": "Xiaolin HU",
+      "title": "Professor",
+      "profileUrl": "https://www.cs.tsinghua.edu.cn/csen/info/1312/4700.htm",
+      "portraitUrl": "https://www.cs.tsinghua.edu.cn/__local/D/EF/06/A99D653CDFE1C7895C67C67F81A_B7C38960_1B56D.jpg",
+      "keywords": null,
+      "officialSections": [
+        "Institute of Artificial Intelligence — Full Professor"
+      ]
+    },
+    {
+      "unitId": "thu-cs-next-batch",
+      "officialId": "4388",
+      "name": "Zhengfeng Ji",
+      "title": "Professor",
+      "profileUrl": "https://www.cs.tsinghua.edu.cn/csen/info/1312/4388.htm",
+      "portraitUrl": "https://www.cs.tsinghua.edu.cn/__local/4/EA/6C/4F0C78BDAFB8CF4E1741B4F52EB_C1E3581E_196C9.jpg",
+      "keywords": null,
+      "officialSections": [
+        "Institute of Artificial Intelligence — Full Professor"
+      ]
+    },
+    {
+      "unitId": "thu-cs-next-batch",
+      "officialId": "4389",
+      "name": "Huaping LIU",
+      "title": "Professor",
+      "profileUrl": "https://www.cs.tsinghua.edu.cn/csen/info/1312/4389.htm",
+      "portraitUrl": "https://www.cs.tsinghua.edu.cn/__local/F/74/C5/0E2D9793535DE0947942874AF56_2BAF5BA3_1EC96.jpg",
+      "keywords": null,
+      "officialSections": [
+        "Institute of Artificial Intelligence — Full Professor"
+      ]
+    },
+    {
+      "unitId": "thu-cs-next-batch",
+      "officialId": "4391",
+      "name": "Yiqun LIU",
+      "title": "Professor",
+      "profileUrl": "https://www.cs.tsinghua.edu.cn/csen/info/1312/4391.htm",
+      "portraitUrl": "https://www.cs.tsinghua.edu.cn/__local/6/58/D4/2BC6111124316818814AF8B6CD9_D88202B8_1B385.jpg",
+      "keywords": null,
+      "officialSections": [
+        "Institute of Artificial Intelligence — Full Professor"
+      ]
+    },
+    {
+      "unitId": "thu-cs-next-batch",
+      "officialId": "4393",
+      "name": "Fuchun SUN",
+      "title": "Professor",
+      "profileUrl": "https://www.cs.tsinghua.edu.cn/csen/info/1312/4393.htm",
+      "portraitUrl": "https://www.cs.tsinghua.edu.cn/__local/E/B7/49/932B898264F6883AA0352E9C2B0_6B27DF97_1CD6C.jpg",
+      "keywords": null,
+      "officialSections": [
+        "Institute of Artificial Intelligence — Full Professor"
+      ]
+    },
+    {
+      "unitId": "thu-cs-next-batch",
+      "officialId": "4395",
+      "name": "Mingsheng YING",
+      "title": "Professor",
+      "profileUrl": "https://www.cs.tsinghua.edu.cn/csen/info/1312/4395.htm",
+      "portraitUrl": "https://www.cs.tsinghua.edu.cn/__local/B/C6/B1/A2AF2B71821DC11796E4DCB4F0B_1C2CB3CB_47D9.jpg",
+      "keywords": null,
+      "officialSections": [
+        "Institute of Artificial Intelligence — Full Professor"
+      ]
+    },
+    {
+      "unitId": "thu-cs-next-batch",
+      "officialId": "4397",
+      "name": "Min ZHANG",
+      "title": "Professor",
+      "profileUrl": "https://www.cs.tsinghua.edu.cn/csen/info/1312/4397.htm",
+      "portraitUrl": "https://www.cs.tsinghua.edu.cn/__local/4/D9/83/1D8068AFA1E31A6C7F7D6CC5DB9_F589D56E_19B66.jpg",
+      "keywords": null,
+      "officialSections": [
+        "Institute of Artificial Intelligence — Full Professor"
+      ]
+    },
+    {
+      "unitId": "thu-cs-next-batch",
+      "officialId": "4587",
+      "name": "Qingyao Ai",
+      "title": "Associate Professor",
+      "profileUrl": "https://www.cs.tsinghua.edu.cn/csen/info/1313/4587.htm",
+      "portraitUrl": "https://www.cs.tsinghua.edu.cn/__local/5/6F/6A/AB45133BF3CD1BE7ECEB895D338_5304B98F_1A75E.jpg",
+      "keywords": null,
+      "officialSections": [
+        "Institute of Artificial Intelligence — Associate Professor"
+      ]
+    },
+    {
+      "unitId": "thu-cs-next-batch",
+      "officialId": "4582",
+      "name": "Jianxin Chen",
+      "title": "Associate Professor",
+      "profileUrl": "https://www.cs.tsinghua.edu.cn/csen/info/1313/4582.htm",
+      "portraitUrl": "https://www.cs.tsinghua.edu.cn/__local/9/8D/BB/E5C6695DBBFA29497372BF71B2A_FFCEA7B0_19292.jpg",
+      "keywords": null,
+      "officialSections": [
+        "Institute of Artificial Intelligence — Associate Professor"
+      ]
+    },
+    {
+      "unitId": "thu-cs-next-batch",
+      "officialId": "4401",
+      "name": "Jianmin LI",
+      "title": "Associate Professor",
+      "profileUrl": "https://www.cs.tsinghua.edu.cn/csen/info/1313/4401.htm",
+      "portraitUrl": "https://www.cs.tsinghua.edu.cn/__local/8/6C/56/9E3EA5FB0BB329EF695B2947FD2_B0280CE7_1520E.jpg",
+      "keywords": null,
+      "officialSections": [
+        "Institute of Artificial Intelligence — Associate Professor"
+      ]
+    },
+    {
+      "unitId": "thu-cs-next-batch",
+      "officialId": "4403",
+      "name": "Hang Su",
+      "title": "Associate Professor",
+      "profileUrl": "https://www.cs.tsinghua.edu.cn/csen/info/1313/4403.htm",
+      "portraitUrl": "https://www.cs.tsinghua.edu.cn/__local/C/88/17/66656040CDB8E06A5C402C9A9AD_7578B652_16BF4.jpg",
+      "keywords": null,
+      "officialSections": [
+        "Institute of Artificial Intelligence — Associate Professor"
+      ]
+    },
+    {
+      "unitId": "thu-cs-next-batch",
+      "officialId": "4406",
+      "name": "Hongning Wang",
+      "title": "Associate Professor",
+      "profileUrl": "https://www.cs.tsinghua.edu.cn/csen/info/1313/4406.htm",
+      "portraitUrl": "https://www.cs.tsinghua.edu.cn/__local/0/CA/39/498D94A93F88327D22E738002BF_09A6F683_1E513.jpg",
+      "keywords": null,
+      "officialSections": [
+        "Institute of Artificial Intelligence — Associate Professor"
+      ]
+    },
+    {
+      "unitId": "thu-cs-next-batch",
+      "officialId": "4458",
+      "name": "Hua XU",
+      "title": "Associate Professor",
+      "profileUrl": "https://www.cs.tsinghua.edu.cn/csen/info/1313/4458.htm",
+      "portraitUrl": "https://www.cs.tsinghua.edu.cn/__local/9/43/F8/453A4A9DC95C7DFD088674CC82B_C8B5A13D_1AD22.jpg",
+      "keywords": null,
+      "officialSections": [
+        "Institute of Artificial Intelligence — Associate Professor"
+      ]
+    },
+    {
+      "unitId": "thu-cs-next-batch",
+      "officialId": "4462",
+      "name": "Qiang ZHOU",
+      "title": "Associate Professor",
+      "profileUrl": "https://www.cs.tsinghua.edu.cn/csen/info/1313/4462.htm",
+      "portraitUrl": "https://www.cs.tsinghua.edu.cn/__local/B/BF/AE/37661D76296712433BA1A350D08_7858A815_1B214.jpg",
+      "keywords": null,
+      "officialSections": [
+        "Institute of Artificial Intelligence — Associate Professor"
+      ]
+    },
+    {
+      "unitId": "thu-automation-next-batch",
+      "officialId": "3123",
+      "name": "周东华",
+      "title": null,
+      "profileUrl": "https://www.au.tsinghua.edu.cn/info/1077/3123.htm",
+      "portraitUrl": "https://www.au.tsinghua.edu.cn/__local/4/D9/FB/CF99DA57C16B499C3F1FD204940_9B7F399F_B212F.jpg",
+      "keywords": null,
+      "officialSections": [
+        "控制与决策研究所"
+      ]
+    },
+    {
+      "unitId": "thu-automation-next-batch",
+      "officialId": "3264",
+      "name": "叶昊",
+      "title": null,
+      "profileUrl": "https://www.au.tsinghua.edu.cn/info/1077/3264.htm",
+      "portraitUrl": "https://www.au.tsinghua.edu.cn/__local/7/4C/57/E0FAF76C2D0134C60D1A950CFDD_26E1AC7F_4221.jpg",
+      "keywords": null,
+      "officialSections": [
+        "控制与决策研究所"
+      ]
+    },
+    {
+      "unitId": "thu-automation-next-batch",
+      "officialId": "3265",
+      "name": "王凌",
+      "title": null,
+      "profileUrl": "https://www.au.tsinghua.edu.cn/info/1077/3265.htm",
+      "portraitUrl": "https://www.au.tsinghua.edu.cn/__local/C/6A/F1/749246DA1E7909E41B8717E075E_B4B7E664_434C.jpg",
+      "keywords": null,
+      "officialSections": [
+        "控制与决策研究所"
+      ]
+    },
+    {
+      "unitId": "thu-automation-next-batch",
+      "officialId": "3181",
+      "name": "吉吟东",
+      "title": null,
+      "profileUrl": "https://www.au.tsinghua.edu.cn/info/1077/3181.htm",
+      "portraitUrl": "https://www.au.tsinghua.edu.cn/__local/0/5A/B1/077818906E75948BF8A6C9DA789_06ED0FE1_76969.jpg",
+      "keywords": null,
+      "officialSections": [
+        "控制与决策研究所"
+      ]
+    },
+    {
+      "unitId": "thu-automation-next-batch",
+      "officialId": "3189",
+      "name": "何潇",
+      "title": "系副主任",
+      "profileUrl": "https://www.au.tsinghua.edu.cn/info/1077/3189.htm",
+      "portraitUrl": "https://www.au.tsinghua.edu.cn/__local/2/86/4F/8F673D836ACD923118723109BAD_6922D5DE_1C3F08.png",
+      "keywords": null,
+      "officialSections": [
+        "控制与决策研究所"
+      ]
+    },
+    {
+      "unitId": "thu-automation-next-batch",
+      "officialId": "3266",
+      "name": "熊智华",
+      "title": null,
+      "profileUrl": "https://www.au.tsinghua.edu.cn/info/1077/3266.htm",
+      "portraitUrl": "https://www.au.tsinghua.edu.cn/__local/1/65/E6/AB9A57A93238C1320C828993FE1_DD523CA5_23A5.jpg",
+      "keywords": null,
+      "officialSections": [
+        "控制与决策研究所"
+      ]
+    },
+    {
+      "unitId": "thu-automation-next-batch",
+      "officialId": "3149",
+      "name": "尚超",
+      "title": null,
+      "profileUrl": "https://www.au.tsinghua.edu.cn/info/1077/3149.htm",
+      "portraitUrl": "https://www.au.tsinghua.edu.cn/__local/1/38/D8/CDB8EB2FACB0DF60EA8E810BE0F_16B069B1_4383.jpg",
+      "keywords": null,
+      "officialSections": [
+        "控制与决策研究所"
+      ]
+    },
+    {
+      "unitId": "thu-automation-next-batch",
+      "officialId": "3128",
+      "name": "李衍达",
+      "title": "中国科学院院士",
+      "profileUrl": "https://www.au.tsinghua.edu.cn/info/1078/3128.htm",
+      "portraitUrl": "https://www.au.tsinghua.edu.cn/__local/D/89/2C/788E783ECB9F4EE5D230B87EBFE_EDB555F1_8949.jpg",
+      "keywords": null,
+      "officialSections": [
+        "信息处理研究所"
+      ]
+    },
+    {
+      "unitId": "thu-automation-next-batch",
+      "officialId": "3257",
+      "name": "张长水",
+      "title": null,
+      "profileUrl": "https://www.au.tsinghua.edu.cn/info/1078/3257.htm",
+      "portraitUrl": "https://www.au.tsinghua.edu.cn/__local/F/9F/99/F4DC203FC3423140C2EDAE8DF86_0FF9AEF7_4F33.jpg",
+      "keywords": null,
+      "officialSections": [
+        "信息处理研究所"
+      ]
+    },
+    {
+      "unitId": "thu-automation-next-batch",
+      "officialId": "3135",
+      "name": "张学工",
+      "title": null,
+      "profileUrl": "https://www.au.tsinghua.edu.cn/info/1078/3135.htm",
+      "portraitUrl": "https://www.au.tsinghua.edu.cn/__local/4/4B/79/E66D4E65CE5FF5FCE58FC30886B_39DFAD4C_353A4.jpg",
+      "keywords": null,
+      "officialSections": [
+        "信息处理研究所"
+      ]
+    },
+    {
+      "unitId": "thu-automation-next-batch",
+      "officialId": "3126",
+      "name": "周杰",
+      "title": null,
+      "profileUrl": "https://www.au.tsinghua.edu.cn/info/1078/3126.htm",
+      "portraitUrl": "https://www.au.tsinghua.edu.cn/__local/A/6F/30/C2F14D9FAFE09B68EC41565DFFF_DE4E34AF_5B4E.jpg",
+      "keywords": null,
+      "officialSections": [
+        "信息处理研究所"
+      ]
+    },
+    {
+      "unitId": "thu-automation-next-batch",
+      "officialId": "3258",
+      "name": "陆文凯",
+      "title": null,
+      "profileUrl": "https://www.au.tsinghua.edu.cn/info/1078/3258.htm",
+      "portraitUrl": "https://www.au.tsinghua.edu.cn/__local/D/91/EB/6047A9A8A9AB725A399732B38CA_DBE9B7B3_578D.jpg",
+      "keywords": null,
+      "officialSections": [
+        "信息处理研究所"
+      ]
+    },
+    {
+      "unitId": "thu-automation-next-batch",
+      "officialId": "3172",
+      "name": "李梢",
+      "title": null,
+      "profileUrl": "https://www.au.tsinghua.edu.cn/info/1078/3172.htm",
+      "portraitUrl": "https://www.au.tsinghua.edu.cn/__local/3/7F/B7/02BAA57CB6975C7864462B77798_FDCBDA6B_6299.jpg",
+      "keywords": null,
+      "officialSections": [
+        "信息处理研究所"
+      ]
+    },
+    {
+      "unitId": "thu-automation-next-batch",
+      "officialId": "3260",
+      "name": "汪小我",
+      "title": null,
+      "profileUrl": "https://www.au.tsinghua.edu.cn/info/1078/3260.htm",
+      "portraitUrl": "https://www.au.tsinghua.edu.cn/__local/6/07/1A/039E57570DD3B4D5AE64CA8173A_D3230ECF_3C51.jpg",
+      "keywords": null,
+      "officialSections": [
+        "信息处理研究所"
+      ]
+    },
+    {
+      "unitId": "thu-automation-next-batch",
+      "officialId": "3259",
+      "name": "江瑞",
+      "title": null,
+      "profileUrl": "https://www.au.tsinghua.edu.cn/info/1078/3259.htm",
+      "portraitUrl": "https://www.au.tsinghua.edu.cn/__local/6/C5/F8/D0867EA569CD3F3BFE749E00247_FF9FD7C9_1CC9BF.jpg",
+      "keywords": null,
+      "officialSections": [
+        "信息处理研究所"
+      ]
+    },
+    {
+      "unitId": "thu-automation-next-batch",
+      "officialId": "3261",
+      "name": "高飞飞",
+      "title": null,
+      "profileUrl": "https://www.au.tsinghua.edu.cn/info/1078/3261.htm",
+      "portraitUrl": "https://www.au.tsinghua.edu.cn/__local/F/C3/51/6DE1FFEDFBD1669EAFEE5D97B62_4B3922F1_47C9.jpg",
+      "keywords": null,
+      "officialSections": [
+        "信息处理研究所"
+      ]
+    },
+    {
+      "unitId": "thu-automation-next-batch",
+      "officialId": "3255",
+      "name": "古槿",
+      "title": "系党委书记",
+      "profileUrl": "https://www.au.tsinghua.edu.cn/info/1078/3255.htm",
+      "portraitUrl": "https://www.au.tsinghua.edu.cn/__local/4/01/22/970A40F7C75D3C1C64B6F9E6199_E753107F_B3383.jpg",
+      "keywords": null,
+      "officialSections": [
+        "信息处理研究所"
+      ]
+    },
+    {
+      "unitId": "thu-automation-next-batch",
+      "officialId": "3156",
+      "name": "鲁继文",
+      "title": "系副主任",
+      "profileUrl": "https://www.au.tsinghua.edu.cn/info/1078/3156.htm",
+      "portraitUrl": "https://www.au.tsinghua.edu.cn/__local/0/1D/96/F8EEA2B79B7C51A785A6D27C1E8_420A8D6A_4D08.jpg",
+      "keywords": null,
+      "officialSections": [
+        "信息处理研究所"
+      ]
+    },
+    {
+      "unitId": "thu-automation-next-batch",
+      "officialId": "3262",
+      "name": "冯建江",
+      "title": null,
+      "profileUrl": "https://www.au.tsinghua.edu.cn/info/1078/3262.htm",
+      "portraitUrl": "https://www.au.tsinghua.edu.cn/__local/8/96/08/6B65844A3C743D4F205088E9612_ED1D1C18_586F.jpg",
+      "keywords": null,
+      "officialSections": [
+        "信息处理研究所"
+      ]
+    },
+    {
+      "unitId": "thu-automation-next-batch",
+      "officialId": "3133",
+      "name": "赵虹",
+      "title": null,
+      "profileUrl": "https://www.au.tsinghua.edu.cn/info/1078/3133.htm",
+      "portraitUrl": "https://www.au.tsinghua.edu.cn/__local/7/47/1F/79718923BC3F9DEB3448205F28F_71F176C1_44C8.jpg",
+      "keywords": null,
+      "officialSections": [
+        "信息处理研究所"
+      ]
+    },
+    {
+      "unitId": "thu-automation-next-batch",
+      "officialId": "3154",
+      "name": "闾海荣",
+      "title": null,
+      "profileUrl": "https://www.au.tsinghua.edu.cn/info/1078/3154.htm",
+      "portraitUrl": "https://www.au.tsinghua.edu.cn/__local/3/8D/64/91AF4AE2943F33FC29504346110_1E3C1A3B_4C3EC.jpg",
+      "keywords": null,
+      "officialSections": [
+        "信息处理研究所"
+      ]
+    },
+    {
+      "unitId": "thu-automation-next-batch",
+      "officialId": "3141",
+      "name": "谢震",
+      "title": null,
+      "profileUrl": "https://www.au.tsinghua.edu.cn/info/1078/3141.htm",
+      "portraitUrl": "https://www.au.tsinghua.edu.cn/__local/9/D9/70/85CA3500DF13CFDDCFA0C1F172D_AD32E33C_270BA.jpg",
+      "keywords": null,
+      "officialSections": [
+        "信息处理研究所"
+      ]
+    },
+    {
+      "unitId": "thu-automation-next-batch",
+      "officialId": "3254",
+      "name": "张鹏",
+      "title": null,
+      "profileUrl": "https://www.au.tsinghua.edu.cn/info/1078/3254.htm",
+      "portraitUrl": "https://www.au.tsinghua.edu.cn/__local/E/56/E7/B9563818C6A87DD1DC7D52BA132_F64F0B4B_3E63.jpg",
+      "keywords": null,
+      "officialSections": [
+        "信息处理研究所"
+      ]
+    },
+    {
+      "unitId": "thu-automation-next-batch",
+      "officialId": "3594",
+      "name": "陈磊",
+      "title": null,
+      "profileUrl": "https://www.au.tsinghua.edu.cn/info/1078/3594.htm",
+      "portraitUrl": "https://www.au.tsinghua.edu.cn/__local/2/DF/12/969D3252481B6A1C3C2E4C7238A_D7CCC265_96C79C.jpg",
+      "keywords": null,
+      "officialSections": [
+        "信息处理研究所"
+      ]
+    },
+    {
+      "unitId": "thu-automation-next-batch",
+      "officialId": "3185",
+      "name": "管晓宏",
+      "title": "中国科学院院士",
+      "profileUrl": "https://www.au.tsinghua.edu.cn/info/1076/3185.htm",
+      "portraitUrl": "https://www.au.tsinghua.edu.cn/__local/6/CA/51/3A7091C59352B0FAC24F8062E6B_7C24D2DB_62CA.jpg",
+      "keywords": null,
+      "officialSections": [
+        "系统工程研究所"
+      ]
+    },
+    {
+      "unitId": "thu-automation-next-batch",
+      "officialId": "3243",
+      "name": "张 佐",
+      "title": null,
+      "profileUrl": "https://www.au.tsinghua.edu.cn/info/1076/3243.htm",
+      "portraitUrl": "https://www.au.tsinghua.edu.cn/__local/D/CD/F6/FFCABE81595B3DDE61765025466_51DAE7AD_3E32.jpg",
+      "keywords": null,
+      "officialSections": [
+        "系统工程研究所"
+      ]
+    },
+    {
+      "unitId": "thu-automation-next-batch",
+      "officialId": "3242",
+      "name": "张毅",
+      "title": null,
+      "profileUrl": "https://www.au.tsinghua.edu.cn/info/1076/3242.htm",
+      "portraitUrl": "https://www.au.tsinghua.edu.cn/__local/6/1C/15/4D0C5FB69FAE38E1F874C64D30D_ABC861C9_609CB2.jpg",
+      "keywords": null,
+      "officialSections": [
+        "系统工程研究所"
+      ]
+    },
+    {
+      "unitId": "thu-automation-next-batch",
+      "officialId": "3244",
+      "name": "赵千川",
+      "title": null,
+      "profileUrl": "https://www.au.tsinghua.edu.cn/info/1076/3244.htm",
+      "portraitUrl": "https://www.au.tsinghua.edu.cn/__local/7/9F/D7/50E49E763735C1EA458EA15FABE_30B4C6B0_40EB.jpg",
+      "keywords": null,
+      "officialSections": [
+        "系统工程研究所"
+      ]
+    },
+    {
+      "unitId": "thu-automation-next-batch",
+      "officialId": "3158",
+      "name": "刘云浩",
+      "title": null,
+      "profileUrl": "https://www.au.tsinghua.edu.cn/info/1076/3158.htm",
+      "portraitUrl": "https://www.au.tsinghua.edu.cn/__local/4/B0/74/015D553973715423D1539E009D0_44252046_2213C8.jpg",
+      "keywords": null,
+      "officialSections": [
+        "系统工程研究所"
+      ]
+    },
+    {
+      "unitId": "thu-automation-next-batch",
+      "officialId": "3252",
+      "name": "贾庆山",
+      "title": null,
+      "profileUrl": "https://www.au.tsinghua.edu.cn/info/1076/3252.htm",
+      "portraitUrl": "https://www.au.tsinghua.edu.cn/__local/D/62/2C/3E39C17E0EA7AEF3DDE095B48BE_42EC8E09_638C.jpg",
+      "keywords": null,
+      "officialSections": [
+        "系统工程研究所"
+      ]
+    },
+    {
+      "unitId": "thu-automation-next-batch",
+      "officialId": "3245",
+      "name": "李力",
+      "title": null,
+      "profileUrl": "https://www.au.tsinghua.edu.cn/info/1076/3245.htm",
+      "portraitUrl": "https://www.au.tsinghua.edu.cn/__local/1/D4/5E/B8673B83054A1D8927E9887F884_BF399820_4E38.jpg",
+      "keywords": null,
+      "officialSections": [
+        "系统工程研究所"
+      ]
+    },
+    {
+      "unitId": "thu-automation-next-batch",
+      "officialId": "3248",
+      "name": "胡坚明",
+      "title": null,
+      "profileUrl": "https://www.au.tsinghua.edu.cn/info/1076/3248.htm",
+      "portraitUrl": "https://www.au.tsinghua.edu.cn/__local/B/36/37/D437437F5A84A10938A69E41C26_A52A8EF5_4D3B.jpg",
+      "keywords": null,
+      "officialSections": [
+        "系统工程研究所"
+      ]
+    },
+    {
+      "unitId": "thu-automation-next-batch",
+      "officialId": "3251",
+      "name": "吴热冰",
+      "title": null,
+      "profileUrl": "https://www.au.tsinghua.edu.cn/info/1076/3251.htm",
+      "portraitUrl": "https://www.au.tsinghua.edu.cn/__local/5/60/6C/24EF7B5BB7AD63028479719B936_684AF869_5491.jpg",
+      "keywords": null,
+      "officialSections": [
+        "系统工程研究所"
+      ]
+    },
+    {
+      "unitId": "thu-automation-next-batch",
+      "officialId": "3250",
+      "name": "裴欣",
+      "title": "党委副书记",
+      "profileUrl": "https://www.au.tsinghua.edu.cn/info/1076/3250.htm",
+      "portraitUrl": "https://www.au.tsinghua.edu.cn/__local/9/08/A4/BE52D3AA40552B86BF99CFA274A_88E6369D_4635.jpg",
+      "keywords": null,
+      "officialSections": [
+        "系统工程研究所"
+      ]
+    },
+    {
+      "unitId": "thu-automation-next-batch",
+      "officialId": "3152",
+      "name": "莫一林",
+      "title": null,
+      "profileUrl": "https://www.au.tsinghua.edu.cn/info/1076/3152.htm",
+      "portraitUrl": "https://www.au.tsinghua.edu.cn/__local/B/87/8E/63A84EDA5AD59EF578637F060B8_18EAB042_C9A68.jpg",
+      "keywords": null,
+      "officialSections": [
+        "系统工程研究所"
+      ]
+    },
+    {
+      "unitId": "thu-automation-next-batch",
+      "officialId": "3176",
+      "name": "江奔奔",
+      "title": null,
+      "profileUrl": "https://www.au.tsinghua.edu.cn/info/1076/3176.htm",
+      "portraitUrl": "https://www.au.tsinghua.edu.cn/__local/A/D3/AF/5EE2AC2076E04BFCE32DD5A1A04_873CD272_16CCD.jpg",
+      "keywords": null,
+      "officialSections": [
+        "系统工程研究所"
+      ]
+    },
+    {
+      "unitId": "thu-automation-next-batch",
+      "officialId": "3247",
+      "name": "封硕",
+      "title": null,
+      "profileUrl": "https://www.au.tsinghua.edu.cn/info/1076/3247.htm",
+      "portraitUrl": "https://www.au.tsinghua.edu.cn/__local/4/53/4E/AF3E0C254CBD92BE68800AAA09C_730B77F3_B5F8D.jpg",
+      "keywords": null,
+      "officialSections": [
+        "系统工程研究所"
+      ]
+    },
+    {
+      "unitId": "thu-automation-next-batch",
+      "officialId": "3239",
+      "name": "彭黎辉",
+      "title": null,
+      "profileUrl": "https://www.au.tsinghua.edu.cn/info/1079/3239.htm",
+      "portraitUrl": "https://www.au.tsinghua.edu.cn/__local/4/04/96/58A6C43C676F1E6B5B936742C3B_09BF34F9_5F84.jpg",
+      "keywords": null,
+      "officialSections": [
+        "检测与电子技术研究所"
+      ]
+    },
+    {
+      "unitId": "thu-automation-next-batch",
+      "officialId": "3131",
+      "name": "郑小平",
+      "title": null,
+      "profileUrl": "https://www.au.tsinghua.edu.cn/info/1079/3131.htm",
+      "portraitUrl": "https://www.au.tsinghua.edu.cn/__local/1/FA/72/F8403B89F8E6F478E1FFAF74F5C_FB179058_11B2DD.jpg",
+      "keywords": null,
+      "officialSections": [
+        "检测与电子技术研究所"
+      ]
+    },
+    {
+      "unitId": "thu-automation-next-batch",
+      "officialId": "3147",
+      "name": "师丽",
+      "title": null,
+      "profileUrl": "https://www.au.tsinghua.edu.cn/info/1079/3147.htm",
+      "portraitUrl": "https://www.au.tsinghua.edu.cn/__local/8/21/72/11714008EE4EB90A331765C3343_6CEFEC69_5A73.jpg",
+      "keywords": null,
+      "officialSections": [
+        "检测与电子技术研究所"
+      ]
+    },
+    {
+      "unitId": "thu-automation-next-batch",
+      "officialId": "3240",
+      "name": "王红",
+      "title": null,
+      "profileUrl": "https://www.au.tsinghua.edu.cn/info/1079/3240.htm",
+      "portraitUrl": "https://www.au.tsinghua.edu.cn/__local/3/53/90/9DEDD3F9AA68B20882EBEB65CB0_A029B26C_1480BC.jpg",
+      "keywords": null,
+      "officialSections": [
+        "检测与电子技术研究所"
+      ]
+    },
+    {
+      "unitId": "thu-automation-next-batch",
+      "officialId": "3102",
+      "name": "耿华",
+      "title": "系副主任",
+      "profileUrl": "https://www.au.tsinghua.edu.cn/info/1079/3102.htm",
+      "portraitUrl": "https://www.au.tsinghua.edu.cn/__local/A/3A/68/2A46AEB5C0729C97715178CCD4D_0FF95BDB_99891.jpg",
+      "keywords": null,
+      "officialSections": [
+        "检测与电子技术研究所"
+      ]
+    },
+    {
+      "unitId": "thu-automation-next-batch",
+      "officialId": "3241",
+      "name": "叶朝辉",
+      "title": null,
+      "profileUrl": "https://www.au.tsinghua.edu.cn/info/1079/3241.htm",
+      "portraitUrl": "https://www.au.tsinghua.edu.cn/__local/D/21/7C/913F69C7B513AD104E5C942CB66_FEC6798A_3DDB.jpg",
+      "keywords": null,
+      "officialSections": [
+        "检测与电子技术研究所"
+      ]
+    },
+    {
+      "unitId": "thu-automation-next-batch",
+      "officialId": "3139",
+      "name": "杨帆",
+      "title": null,
+      "profileUrl": "https://www.au.tsinghua.edu.cn/info/1079/3139.htm",
+      "portraitUrl": "https://www.au.tsinghua.edu.cn/__local/4/31/83/8C800A097DC5B463CCD305F8DAA_049A5DC7_4AB6.jpg",
+      "keywords": null,
+      "officialSections": [
+        "检测与电子技术研究所"
+      ]
+    },
+    {
+      "unitId": "thu-automation-next-batch",
+      "officialId": "3188",
+      "name": "邓晓娇",
+      "title": null,
+      "profileUrl": "https://www.au.tsinghua.edu.cn/info/1079/3188.htm",
+      "portraitUrl": "https://www.au.tsinghua.edu.cn/__local/C/69/11/4F700E6D25FF70A57223C6DB84B_2753BE07_97281.jpg",
+      "keywords": null,
+      "officialSections": [
+        "检测与电子技术研究所"
+      ]
+    },
+    {
+      "unitId": "thu-automation-next-batch",
+      "officialId": "3104",
+      "name": "王晓璐",
+      "title": null,
+      "profileUrl": "https://www.au.tsinghua.edu.cn/info/1079/3104.htm",
+      "portraitUrl": "https://www.au.tsinghua.edu.cn/__local/A/F4/D2/EC1767E972857030B4518C6505D_F9747993_2DD646.jpg",
+      "keywords": null,
+      "officialSections": [
+        "检测与电子技术研究所"
+      ]
+    },
+    {
+      "unitId": "thu-automation-next-batch",
+      "officialId": "4192",
+      "name": "何秀强",
+      "title": null,
+      "profileUrl": "https://www.au.tsinghua.edu.cn/info/1079/4192.htm",
+      "portraitUrl": "https://www.au.tsinghua.edu.cn/__local/1/4D/72/DF87534899DFF68AFA15E9730E0_9761354A_37F44.jpg",
+      "keywords": null,
+      "officialSections": [
+        "检测与电子技术研究所"
+      ]
+    },
+    {
+      "unitId": "thu-automation-next-batch",
+      "officialId": "3165",
+      "name": "梁斌",
+      "title": null,
+      "profileUrl": "https://www.au.tsinghua.edu.cn/info/1081/3165.htm",
+      "portraitUrl": "https://www.au.tsinghua.edu.cn/__local/F/FF/B9/26A6E7CD520E1DB814E81355E84_F4D3B403_746A8.jpg",
+      "keywords": null,
+      "officialSections": [
+        "导航与控制研究所"
+      ]
+    },
+    {
+      "unitId": "thu-automation-next-batch",
+      "officialId": "3196",
+      "name": "张涛",
+      "title": null,
+      "profileUrl": "https://www.au.tsinghua.edu.cn/info/1081/3196.htm",
+      "portraitUrl": "https://www.au.tsinghua.edu.cn/__local/F/68/06/1FC4D7BA79A36DCD929A0381D1A_6DEAF480_84FB8.jpg",
+      "keywords": null,
+      "officialSections": [
+        "导航与控制研究所"
+      ]
+    },
+    {
+      "unitId": "thu-automation-next-batch",
+      "officialId": "3197",
+      "name": "李清",
+      "title": "系副主任",
+      "profileUrl": "https://www.au.tsinghua.edu.cn/info/1081/3197.htm",
+      "portraitUrl": "https://www.au.tsinghua.edu.cn/__local/1/F8/B9/BFCFC3E6BD0E89C7B4E67873241_D62233A3_503A.jpg",
+      "keywords": null,
+      "officialSections": [
+        "导航与控制研究所"
+      ]
+    },
+    {
+      "unitId": "thu-automation-next-batch",
+      "officialId": "3199",
+      "name": "赵明国",
+      "title": null,
+      "profileUrl": "https://www.au.tsinghua.edu.cn/info/1081/3199.htm",
+      "portraitUrl": "https://www.au.tsinghua.edu.cn/__local/9/A9/3E/9556E0D97B1206A73DFB652AA2A_793D212D_4A8E.jpg",
+      "keywords": null,
+      "officialSections": [
+        "导航与控制研究所"
+      ]
+    },
+    {
+      "unitId": "thu-automation-next-batch",
+      "officialId": "3200",
+      "name": "卓晴",
+      "title": null,
+      "profileUrl": "https://www.au.tsinghua.edu.cn/info/1081/3200.htm",
+      "portraitUrl": "https://www.au.tsinghua.edu.cn/__local/0/60/40/ED32A7A8018BCFFB5A5CE40683C_3223EC96_42B2.jpg",
+      "keywords": null,
+      "officialSections": [
+        "导航与控制研究所"
+      ]
+    },
+    {
+      "unitId": "thu-automation-next-batch",
+      "officialId": "3438",
+      "name": "杨君",
+      "title": null,
+      "profileUrl": "https://www.au.tsinghua.edu.cn/info/1081/3438.htm",
+      "portraitUrl": "https://www.au.tsinghua.edu.cn/__local/D/D1/5E/597030E85BFFBEDE340236E1A6B_30085B23_218024.jpg",
+      "keywords": null,
+      "officialSections": [
+        "导航与控制研究所"
+      ]
+    },
+    {
+      "unitId": "thu-automation-next-batch",
+      "officialId": "3094",
+      "name": "陈章",
+      "title": null,
+      "profileUrl": "https://www.au.tsinghua.edu.cn/info/1081/3094.htm",
+      "portraitUrl": "https://www.au.tsinghua.edu.cn/__local/A/D5/9D/36F7843BA0B21248906B2C566DB_FE74324D_566B.jpg",
+      "keywords": null,
+      "officialSections": [
+        "导航与控制研究所"
+      ]
+    },
+    {
+      "unitId": "thu-automation-next-batch",
+      "officialId": "3924",
+      "name": "邓飏",
+      "title": null,
+      "profileUrl": "https://www.au.tsinghua.edu.cn/info/1081/3924.htm",
+      "portraitUrl": "https://www.au.tsinghua.edu.cn/__local/E/40/B8/2DC9270AB3774826F412AC61BAD_49EAC8F0_AEC516.jpg",
+      "keywords": null,
+      "officialSections": [
+        "导航与控制研究所"
+      ]
+    },
+    {
+      "unitId": "thu-automation-next-batch",
+      "officialId": "4416",
+      "name": "薛涛",
+      "title": null,
+      "profileUrl": "https://www.au.tsinghua.edu.cn/info/1081/4416.htm",
+      "portraitUrl": "https://www.au.tsinghua.edu.cn/__local/6/AC/27/BCBB200502387AC9A591A9A7ADE_0ADED931_3B6564.jpg",
+      "keywords": null,
+      "officialSections": [
+        "导航与控制研究所"
+      ]
+    },
+    {
+      "unitId": "thu-automation-next-batch",
+      "officialId": "3144",
+      "name": "吴澄",
+      "title": "中国工程院院士",
+      "profileUrl": "https://www.au.tsinghua.edu.cn/info/1075/3144.htm",
+      "portraitUrl": "https://www.au.tsinghua.edu.cn/__local/4/A0/B0/4D4AF2DF96BB6DFBFD437C47CCB_169F647E_139921.jpg",
+      "keywords": null,
+      "officialSections": [
+        "工业智能与系统研究所"
+      ]
+    },
+    {
+      "unitId": "thu-automation-next-batch",
+      "officialId": "3202",
+      "name": "范玉顺",
+      "title": null,
+      "profileUrl": "https://www.au.tsinghua.edu.cn/info/1075/3202.htm",
+      "portraitUrl": "https://www.au.tsinghua.edu.cn/__local/9/76/63/012448ECE099898996882DD27DA_B3C6E49B_551F.jpg",
+      "keywords": null,
+      "officialSections": [
+        "工业智能与系统研究所"
+      ]
+    },
+    {
+      "unitId": "thu-automation-next-batch",
+      "officialId": "3362",
+      "name": "周 彤",
+      "title": null,
+      "profileUrl": "https://www.au.tsinghua.edu.cn/info/1075/3362.htm",
+      "portraitUrl": "https://www.au.tsinghua.edu.cn/__local/C/FE/E9/0CA31850A82F3753B49F76CFD9E_AA82206C_35A66B.jpg",
+      "keywords": null,
+      "officialSections": [
+        "工业智能与系统研究所"
+      ]
+    },
+    {
+      "unitId": "thu-automation-next-batch",
+      "officialId": "3205",
+      "name": "柴跃廷",
+      "title": null,
+      "profileUrl": "https://www.au.tsinghua.edu.cn/info/1075/3205.htm",
+      "portraitUrl": "https://www.au.tsinghua.edu.cn/__local/B/55/78/71EED864BA3981C95C403D436F5_90FD7A45_5AD4.jpg",
+      "keywords": null,
+      "officialSections": [
+        "工业智能与系统研究所"
+      ]
+    },
+    {
+      "unitId": "thu-automation-next-batch",
+      "officialId": "3162",
+      "name": "刘民",
+      "title": null,
+      "profileUrl": "https://www.au.tsinghua.edu.cn/info/1075/3162.htm",
+      "portraitUrl": "https://www.au.tsinghua.edu.cn/__local/F/F6/68/20A31534D5FDE351E653D97761A_072C99DD_1B5A5.jpg",
+      "keywords": null,
+      "officialSections": [
+        "工业智能与系统研究所"
+      ]
+    },
+    {
+      "unitId": "thu-automation-next-batch",
+      "officialId": "3207",
+      "name": "张和明",
+      "title": null,
+      "profileUrl": "https://www.au.tsinghua.edu.cn/info/1075/3207.htm",
+      "portraitUrl": "https://www.au.tsinghua.edu.cn/__local/D/1A/71/75F163AC7D8C3FB0D21F6B8D4E2_757F98DE_40F6.jpg",
+      "keywords": null,
+      "officialSections": [
+        "工业智能与系统研究所"
+      ]
+    },
+    {
+      "unitId": "thu-automation-next-batch",
+      "officialId": "3208",
+      "name": "范文慧",
+      "title": null,
+      "profileUrl": "https://www.au.tsinghua.edu.cn/info/1075/3208.htm",
+      "portraitUrl": "https://www.au.tsinghua.edu.cn/__local/A/16/7F/7BDAF0361AE31492FC176057856_A4E9B047_52D4BB.jpg",
+      "keywords": null,
+      "officialSections": [
+        "工业智能与系统研究所"
+      ]
+    },
+    {
+      "unitId": "thu-automation-next-batch",
+      "officialId": "3204",
+      "name": "游科友",
+      "title": null,
+      "profileUrl": "https://www.au.tsinghua.edu.cn/info/1075/3204.htm",
+      "portraitUrl": "https://www.au.tsinghua.edu.cn/__local/F/FF/18/4DD1851AF10D81FE76E1EFF1232_1ED3E386_4549.jpg",
+      "keywords": null,
+      "officialSections": [
+        "工业智能与系统研究所"
+      ]
+    },
+    {
+      "unitId": "thu-automation-next-batch",
+      "officialId": "3211",
+      "name": "张林宣",
+      "title": null,
+      "profileUrl": "https://www.au.tsinghua.edu.cn/info/1075/3211.htm",
+      "portraitUrl": "https://www.au.tsinghua.edu.cn/__local/B/C6/81/A8D3EE49672323E077A34F30C08_7C6AE4DA_5348.jpg",
+      "keywords": null,
+      "officialSections": [
+        "工业智能与系统研究所"
+      ]
+    },
+    {
+      "unitId": "thu-automation-next-batch",
+      "officialId": "3210",
+      "name": "刘义",
+      "title": null,
+      "profileUrl": "https://www.au.tsinghua.edu.cn/info/1075/3210.htm",
+      "portraitUrl": "https://www.au.tsinghua.edu.cn/__local/D/6B/D0/A25C37D5BD963725AB9B65910DD_92468DB5_506A.jpg",
+      "keywords": null,
+      "officialSections": [
+        "工业智能与系统研究所"
+      ]
+    },
+    {
+      "unitId": "thu-automation-next-batch",
+      "officialId": "4097",
+      "name": "杨吉江",
+      "title": null,
+      "profileUrl": "https://www.au.tsinghua.edu.cn/info/1075/4097.htm",
+      "portraitUrl": "https://www.au.tsinghua.edu.cn/__local/4/F8/0F/30BABAFF96C65A6B0B4B1670AA8_948870C9_64D3.jpg",
+      "keywords": null,
+      "officialSections": [
+        "工业智能与系统研究所"
+      ]
+    },
+    {
+      "unitId": "thu-automation-next-batch",
+      "officialId": "3213",
+      "name": "刘连臣",
+      "title": null,
+      "profileUrl": "https://www.au.tsinghua.edu.cn/info/1075/3213.htm",
+      "portraitUrl": "https://www.au.tsinghua.edu.cn/__local/8/13/86/25C7CDBAF817C8BDD1748C75013_AB37840E_5C00.jpg",
+      "keywords": null,
+      "officialSections": [
+        "工业智能与系统研究所"
+      ]
+    },
+    {
+      "unitId": "thu-automation-next-batch",
+      "officialId": "3214",
+      "name": "黄双喜",
+      "title": null,
+      "profileUrl": "https://www.au.tsinghua.edu.cn/info/1075/3214.htm",
+      "portraitUrl": "https://www.au.tsinghua.edu.cn/__local/0/84/F8/2670C6C7B72D59AF15E3E097F16_C6A48A3D_5612.jpg",
+      "keywords": null,
+      "officialSections": [
+        "工业智能与系统研究所"
+      ]
+    },
+    {
+      "unitId": "thu-automation-next-batch",
+      "officialId": "3203",
+      "name": "李翔",
+      "title": null,
+      "profileUrl": "https://www.au.tsinghua.edu.cn/info/1075/3203.htm",
+      "portraitUrl": "https://www.au.tsinghua.edu.cn/__local/5/41/2B/91D386D7453DB4D661FFF5CE56E_F1320907_C19323.jpg",
+      "keywords": null,
+      "officialSections": [
+        "工业智能与系统研究所"
+      ]
+    },
+    {
+      "unitId": "thu-automation-next-batch",
+      "officialId": "4531",
+      "name": "姚赫明",
+      "title": null,
+      "profileUrl": "https://www.au.tsinghua.edu.cn/info/1075/4531.htm",
+      "portraitUrl": "https://www.au.tsinghua.edu.cn/__local/3/C0/7D/A4852C84EC2BB842A205C0BBD60_7155CC40_2E4036.jpg",
+      "keywords": null,
+      "officialSections": [
+        "工业智能与系统研究所"
+      ]
+    },
+    {
+      "unitId": "thu-automation-next-batch",
+      "officialId": "4096",
+      "name": "孙骁",
+      "title": null,
+      "profileUrl": "https://www.au.tsinghua.edu.cn/info/1075/4096.htm",
+      "portraitUrl": "https://www.au.tsinghua.edu.cn/__local/3/DE/2F/99F140597E97B759AFB07805CC8_CB2BE95A_336766.jpg",
+      "keywords": null,
+      "officialSections": [
+        "工业智能与系统研究所"
+      ]
+    },
+    {
+      "unitId": "thu-automation-next-batch",
+      "officialId": "3986",
+      "name": "鄢立夏",
+      "title": null,
+      "profileUrl": "https://www.au.tsinghua.edu.cn/info/1075/3986.htm",
+      "portraitUrl": "https://www.au.tsinghua.edu.cn/__local/4/C0/E4/EFFDA400472F00025686413D2A0_8EB3D73C_11444.jpg",
+      "keywords": null,
+      "officialSections": [
+        "工业智能与系统研究所"
+      ]
+    },
+    {
+      "unitId": "thu-automation-next-batch",
+      "officialId": "3216",
+      "name": "董明宇",
+      "title": null,
+      "profileUrl": "https://www.au.tsinghua.edu.cn/info/1075/3216.htm",
+      "portraitUrl": "https://www.au.tsinghua.edu.cn/__local/F/4C/A9/47FACC1539C5AFFA3B997079EBA_D4E0599A_4391.jpg",
+      "keywords": null,
+      "officialSections": [
+        "工业智能与系统研究所"
+      ]
+    },
+    {
+      "unitId": "thu-automation-next-batch",
+      "officialId": "3225",
+      "name": "戴琼海",
+      "title": null,
+      "profileUrl": "https://www.au.tsinghua.edu.cn/info/1080/3225.htm",
+      "portraitUrl": "https://www.au.tsinghua.edu.cn/__local/0/E0/44/6F7AB3AA88CC4408F28722A343A_ADB460D0_4793.jpg",
+      "keywords": null,
+      "officialSections": [
+        "脑与认知科学研究所"
+      ]
+    },
+    {
+      "unitId": "thu-automation-next-batch",
+      "officialId": "3113",
+      "name": "陈峰",
+      "title": null,
+      "profileUrl": "https://www.au.tsinghua.edu.cn/info/1080/3113.htm",
+      "portraitUrl": "https://www.au.tsinghua.edu.cn/__local/7/C7/01/D2A8698A01D980E0D0A41C5CE8F_E1161678_1961E2.jpg",
+      "keywords": null,
+      "officialSections": [
+        "脑与认知科学研究所"
+      ]
+    },
+    {
+      "unitId": "thu-automation-next-batch",
+      "officialId": "3178",
+      "name": "季向阳",
+      "title": null,
+      "profileUrl": "https://www.au.tsinghua.edu.cn/info/1080/3178.htm",
+      "portraitUrl": "https://www.au.tsinghua.edu.cn/__local/A/81/D1/AB1715D6CBFE422D7CCE52F55D7_9394576E_EEF53.jpg",
+      "keywords": null,
+      "officialSections": [
+        "脑与认知科学研究所"
+      ]
+    },
+    {
+      "unitId": "thu-automation-next-batch",
+      "officialId": "3220",
+      "name": "王焕钢",
+      "title": null,
+      "profileUrl": "https://www.au.tsinghua.edu.cn/info/1080/3220.htm",
+      "portraitUrl": "https://www.au.tsinghua.edu.cn/__local/C/0D/EC/4F02D96D8A31055565F144ED71D_0794F0F8_532D.jpg",
+      "keywords": null,
+      "officialSections": [
+        "脑与认知科学研究所"
+      ]
+    },
+    {
+      "unitId": "thu-automation-next-batch",
+      "officialId": "3160",
+      "name": "刘烨斌",
+      "title": null,
+      "profileUrl": "https://www.au.tsinghua.edu.cn/info/1080/3160.htm",
+      "portraitUrl": "https://www.au.tsinghua.edu.cn/__local/D/1E/79/902B5CB266D5D999B99C9DD8B75_263634F3_58467.jpg",
+      "keywords": null,
+      "officialSections": [
+        "脑与认知科学研究所"
+      ]
+    },
+    {
+      "unitId": "thu-automation-next-batch",
+      "officialId": "3219",
+      "name": "陶建华",
+      "title": null,
+      "profileUrl": "https://www.au.tsinghua.edu.cn/info/1080/3219.htm",
+      "portraitUrl": "https://www.au.tsinghua.edu.cn/__local/0/0D/4A/56C7ADA0952ADD2A2B4E8174CCC_A58F22D4_5ADB.jpg",
+      "keywords": null,
+      "officialSections": [
+        "脑与认知科学研究所"
+      ]
+    },
+    {
+      "unitId": "thu-automation-next-batch",
+      "officialId": "3221",
+      "name": "范静涛",
+      "title": null,
+      "profileUrl": "https://www.au.tsinghua.edu.cn/info/1080/3221.htm",
+      "portraitUrl": "https://www.au.tsinghua.edu.cn/__local/D/23/83/65C10C37E0A6C9665B2FF881DAB_7A9BB733_4B49.jpg",
+      "keywords": null,
+      "officialSections": [
+        "脑与认知科学研究所"
+      ]
+    },
+    {
+      "unitId": "thu-automation-next-batch",
+      "officialId": "4048",
+      "name": "于国强",
+      "title": null,
+      "profileUrl": "https://www.au.tsinghua.edu.cn/info/1080/4048.htm",
+      "portraitUrl": "https://www.au.tsinghua.edu.cn/__local/9/F6/A2/82DC3210277F783C6538D2320B5_F53A0FB6_1B15F3.jpg",
+      "keywords": null,
+      "officialSections": [
+        "脑与认知科学研究所"
+      ]
+    },
+    {
+      "unitId": "thu-automation-next-batch",
+      "officialId": "3854",
+      "name": "韩军功",
+      "title": null,
+      "profileUrl": "https://www.au.tsinghua.edu.cn/info/1080/3854.htm",
+      "portraitUrl": "https://www.au.tsinghua.edu.cn/__local/2/B3/DD/04FD6760E64AE124F61C0520DFA_64464324_707F5F.jpg",
+      "keywords": null,
+      "officialSections": [
+        "脑与认知科学研究所"
+      ]
+    },
+    {
+      "unitId": "thu-automation-next-batch",
+      "officialId": "3118",
+      "name": "石宗英",
+      "title": null,
+      "profileUrl": "https://www.au.tsinghua.edu.cn/info/1080/3118.htm",
+      "portraitUrl": "https://www.au.tsinghua.edu.cn/__local/C/12/85/2F0C340DAFB50C3971DACFB5C14_58B7DA1D_511D.jpg",
+      "keywords": null,
+      "officialSections": [
+        "脑与认知科学研究所"
+      ]
+    },
+    {
+      "unitId": "thu-automation-next-batch",
+      "officialId": "3167",
+      "name": "李一鹏",
+      "title": null,
+      "profileUrl": "https://www.au.tsinghua.edu.cn/info/1080/3167.htm",
+      "portraitUrl": "https://www.au.tsinghua.edu.cn/__local/0/14/6B/B4D763F5F8751CC635B2B41F769_B32015D8_52EC.jpg",
+      "keywords": null,
+      "officialSections": [
+        "脑与认知科学研究所"
+      ]
+    },
+    {
+      "unitId": "thu-automation-next-batch",
+      "officialId": "3222",
+      "name": "乔晖",
+      "title": null,
+      "profileUrl": "https://www.au.tsinghua.edu.cn/info/1080/3222.htm",
+      "portraitUrl": "https://www.au.tsinghua.edu.cn/__local/2/9A/AE/5735DF36F418FF67B3727088916_D7FBBA9F_252F9.jpg",
+      "keywords": null,
+      "officialSections": [
+        "脑与认知科学研究所"
+      ]
+    },
+    {
+      "unitId": "thu-automation-next-batch",
+      "officialId": "4368",
+      "name": "索津莉",
+      "title": null,
+      "profileUrl": "https://www.au.tsinghua.edu.cn/info/1080/4368.htm",
+      "portraitUrl": "https://www.au.tsinghua.edu.cn/__local/2/C7/E4/48D8D2D2C4CBB99A843481B4037_847AAA5C_C5ADE.jpg",
+      "keywords": null,
+      "officialSections": [
+        "脑与认知科学研究所"
+      ]
+    },
+    {
+      "unitId": "thu-automation-next-batch",
+      "officialId": "3223",
+      "name": "吴嘉敏",
+      "title": null,
+      "profileUrl": "https://www.au.tsinghua.edu.cn/info/1080/3223.htm",
+      "portraitUrl": "https://www.au.tsinghua.edu.cn/__local/D/74/6B/95D8BE58395F91021D15CA9A1DB_58429353_1FAB0.jpg",
+      "keywords": null,
+      "officialSections": [
+        "脑与认知科学研究所"
+      ]
+    },
+    {
+      "unitId": "thu-automation-next-batch",
+      "officialId": "3853",
+      "name": "易江燕",
+      "title": null,
+      "profileUrl": "https://www.au.tsinghua.edu.cn/info/1080/3853.htm",
+      "portraitUrl": "https://www.au.tsinghua.edu.cn/__local/B/61/16/9ACA71A259549158E1CDF69BCDA_25060155_AA1EB3.jpg",
+      "keywords": null,
+      "officialSections": [
+        "脑与认知科学研究所"
+      ]
+    },
+    {
+      "unitId": "thu-automation-next-batch",
+      "officialId": "3224",
+      "name": "万森",
+      "title": null,
+      "profileUrl": "https://www.au.tsinghua.edu.cn/info/1080/3224.htm",
+      "portraitUrl": "https://www.au.tsinghua.edu.cn/__local/D/E5/4F/F65F16DC8F06C009AA968CDAD98_BB059EFE_4C6D.jpg",
+      "keywords": null,
+      "officialSections": [
+        "脑与认知科学研究所"
+      ]
+    },
+    {
+      "unitId": "thu-automation-next-batch",
+      "officialId": "4225",
+      "name": "章俊",
+      "title": null,
+      "profileUrl": "https://www.au.tsinghua.edu.cn/info/1080/4225.htm",
+      "portraitUrl": "https://www.au.tsinghua.edu.cn/__local/7/69/CA/68A846212D45BA68CB235012A41_BAE2FCB1_2E8823.jpg",
+      "keywords": null,
+      "officialSections": [
+        "脑与认知科学研究所"
+      ]
+    },
+    {
+      "unitId": "thu-automation-next-batch",
+      "officialId": "3584",
+      "name": "朱来余",
+      "title": null,
+      "profileUrl": "https://www.au.tsinghua.edu.cn/info/1080/3584.htm",
+      "portraitUrl": "https://www.au.tsinghua.edu.cn/__local/B/8E/67/C35A8DB477863867819080F0239_C1B27CB0_AE5006.jpg",
+      "keywords": null,
+      "officialSections": [
+        "脑与认知科学研究所"
+      ]
+    },
+    {
+      "unitId": "thu-automation-next-batch",
+      "officialId": "3982",
+      "name": "刘畅",
+      "title": null,
+      "profileUrl": "https://www.au.tsinghua.edu.cn/info/1080/3982.htm",
+      "portraitUrl": "https://www.au.tsinghua.edu.cn/__local/A/3F/C6/96246AF2A62D8BB2199DDDC743A_7796A586_9D3B0D.jpg",
+      "keywords": null,
+      "officialSections": [
+        "脑与认知科学研究所"
+      ]
+    },
+    {
+      "unitId": "thu-automation-next-batch",
+      "officialId": "4349",
+      "name": "张琦",
+      "title": null,
+      "profileUrl": "https://www.au.tsinghua.edu.cn/info/1080/4349.htm",
+      "portraitUrl": "https://www.au.tsinghua.edu.cn/__local/C/04/8C/3D40F029E0E7F9C3BDC6D14FBA2_6DF8E5D9_11BD0.jpg",
+      "keywords": null,
+      "officialSections": [
+        "脑与认知科学研究所"
+      ]
+    },
+    {
+      "unitId": "thu-automation-next-batch",
+      "officialId": "3652",
+      "name": "翟焱望",
+      "title": null,
+      "profileUrl": "https://www.au.tsinghua.edu.cn/info/1080/3652.htm",
+      "portraitUrl": "https://www.au.tsinghua.edu.cn/__local/2/AE/4A/2A0414D79FDCBD9D69119C535A0_820AE59E_A8C9B7.jpg",
+      "keywords": null,
+      "officialSections": [
+        "脑与认知科学研究所"
+      ]
+    },
+    {
+      "unitId": "thu-air-next-batch",
+      "officialId": "1207",
+      "name": "张亚勤",
+      "title": "创始院长/讲席教授",
+      "profileUrl": "https://air.tsinghua.edu.cn/info/1046/1207.htm",
+      "portraitUrl": "https://air.tsinghua.edu.cn/__local/4/52/D9/4980D361E9CF0CE31D583FAFC36_E13031D0_24ED7.jpg",
+      "keywords": null,
+      "officialSections": [
+        "教授、研究员"
+      ]
+    },
+    {
+      "unitId": "thu-air-next-batch",
+      "officialId": "1203",
+      "name": "聂再清",
+      "title": "首席研究员/万国数据教授",
+      "profileUrl": "https://air.tsinghua.edu.cn/info/1046/1203.htm",
+      "portraitUrl": "https://air.tsinghua.edu.cn/__local/0/14/3F/3D830610CF560D19F4E5B3D58A1_312A07B1_1AFC8.jpg",
+      "keywords": null,
+      "officialSections": [
+        "教授、研究员"
+      ]
+    },
+    {
+      "unitId": "thu-air-next-batch",
+      "officialId": "1202",
+      "name": "刘云新",
+      "title": "首席研究员/万国数据教授",
+      "profileUrl": "https://air.tsinghua.edu.cn/info/1046/1202.htm",
+      "portraitUrl": "https://air.tsinghua.edu.cn/__local/3/AC/67/68C8B9E89105975480DAD867DAB_28384987_F05D2.jpg",
+      "keywords": null,
+      "officialSections": [
+        "教授、研究员"
+      ]
+    },
+    {
+      "unitId": "thu-air-next-batch",
+      "officialId": "1201",
+      "name": "刘菁菁",
+      "title": "首席研究员/万国数据教授",
+      "profileUrl": "https://air.tsinghua.edu.cn/info/1046/1201.htm",
+      "portraitUrl": "https://air.tsinghua.edu.cn/__local/5/C7/E4/D291DA5F4A6658283E0732020C0_DC651E61_2F1531.jpg",
+      "keywords": null,
+      "officialSections": [
+        "教授、研究员"
+      ]
+    },
+    {
+      "unitId": "thu-air-next-batch",
+      "officialId": "1200",
+      "name": "兰艳艳",
+      "title": "首席研究员/万国数据教授",
+      "profileUrl": "https://air.tsinghua.edu.cn/info/1046/1200.htm",
+      "portraitUrl": "https://air.tsinghua.edu.cn/__local/6/AF/48/7719793351E489D5589DAA7AA25_75C376B4_2DD87.jpg",
+      "keywords": null,
+      "officialSections": [
+        "教授、研究员"
+      ]
+    },
+    {
+      "unitId": "thu-air-next-batch",
+      "officialId": "2451",
+      "name": "曹婷",
+      "title": "研究员/教授",
+      "profileUrl": "https://air.tsinghua.edu.cn/info/1046/2451.htm",
+      "portraitUrl": "https://air.tsinghua.edu.cn/__local/5/E5/54/51350092ADD3F0EAD680507DFF0_A624D49B_1B790.jpg",
+      "keywords": null,
+      "officialSections": [
+        "教授、研究员"
+      ]
+    },
+    {
+      "unitId": "thu-air-next-batch",
+      "officialId": "1199",
+      "name": "周谷越",
+      "title": "副研究员/副教授",
+      "profileUrl": "https://air.tsinghua.edu.cn/info/1046/1199.htm",
+      "portraitUrl": "https://air.tsinghua.edu.cn/__local/7/66/86/0467222E8E364F88539A1840816_E0C6E598_13C46.jpg",
+      "keywords": null,
+      "officialSections": [
+        "教授、研究员"
+      ]
+    },
+    {
+      "unitId": "thu-air-next-batch",
+      "officialId": "1563",
+      "name": "李鹏",
+      "title": "副研究员/副教授",
+      "profileUrl": "https://air.tsinghua.edu.cn/info/1046/1563.htm",
+      "portraitUrl": "https://air.tsinghua.edu.cn/__local/5/66/D2/45A91610FD43754C7A4A687F0A3_1F3647EE_22519.jpg",
+      "keywords": null,
+      "officialSections": [
+        "教授、研究员"
+      ]
+    },
+    {
+      "unitId": "thu-air-next-batch",
+      "officialId": "1661",
+      "name": "周浩",
+      "title": "副研究员/副教授",
+      "profileUrl": "https://air.tsinghua.edu.cn/info/1046/1661.htm",
+      "portraitUrl": "https://air.tsinghua.edu.cn/__local/6/FB/16/F5FCB7FCF91A8B289B2EFBC6056_77A6A1B2_11546.jpg",
+      "keywords": null,
+      "officialSections": [
+        "教授、研究员"
+      ]
+    },
+    {
+      "unitId": "thu-air-next-batch",
+      "officialId": "1830",
+      "name": "马剑竹",
+      "title": "副研究员/副教授",
+      "profileUrl": "https://air.tsinghua.edu.cn/info/1046/1830.htm",
+      "portraitUrl": "https://air.tsinghua.edu.cn/__local/B/3F/57/1C3A4159735257721AA64816FE0_E3266D65_70BA.jpg",
+      "keywords": null,
+      "officialSections": [
+        "教授、研究员"
+      ]
+    },
+    {
+      "unitId": "thu-air-next-batch",
+      "officialId": "1197",
+      "name": "詹仙园",
+      "title": "副研究员/副教授",
+      "profileUrl": "https://air.tsinghua.edu.cn/info/1046/1197.htm",
+      "portraitUrl": "https://air.tsinghua.edu.cn/__local/E/85/5C/7CBF703A1C6911FEE09B4E8C3D0_1797A471_1DCB5.jpg",
+      "keywords": null,
+      "officialSections": [
+        "教授、研究员"
+      ]
+    },
+    {
+      "unitId": "thu-air-next-batch",
+      "officialId": "1196",
+      "name": "马为之",
+      "title": "副研究员/副教授",
+      "profileUrl": "https://air.tsinghua.edu.cn/info/1046/1196.htm",
+      "portraitUrl": "https://air.tsinghua.edu.cn/__local/2/8F/46/7267DA0DB16B9C3208194992EC3_43E9A7E1_1B18C.jpg",
+      "keywords": null,
+      "officialSections": [
+        "教授、研究员"
+      ]
+    },
+    {
+      "unitId": "thu-air-next-batch",
+      "officialId": "1195",
+      "name": "李元春",
+      "title": "助理研究员/助理教授",
+      "profileUrl": "https://air.tsinghua.edu.cn/info/1046/1195.htm",
+      "portraitUrl": "https://air.tsinghua.edu.cn/__local/B/18/53/602AF35D0F6915CDCB882AB3A5E_61257C58_1BE70.jpg",
+      "keywords": null,
+      "officialSections": [
+        "教授、研究员"
+      ]
+    },
+    {
+      "unitId": "thu-air-next-batch",
+      "officialId": "1555",
+      "name": "王岩",
+      "title": "助理研究员/助理教授",
+      "profileUrl": "https://air.tsinghua.edu.cn/info/1046/1555.htm",
+      "portraitUrl": "https://air.tsinghua.edu.cn/__local/1/34/FC/DE8F20815E5E67609B865DEE62B_B8496BA0_38139.jpg",
+      "keywords": null,
+      "officialSections": [
+        "教授、研究员"
+      ]
+    },
+    {
+      "unitId": "thu-air-next-batch",
+      "officialId": "1945",
+      "name": "赵昊",
+      "title": "助理研究员/助理教授",
+      "profileUrl": "https://air.tsinghua.edu.cn/info/1046/1945.htm",
+      "portraitUrl": "https://air.tsinghua.edu.cn/__local/A/E0/B9/8151B5539B8747D4663584D7A21_2F9F80B8_4C0F.jpg",
+      "keywords": null,
+      "officialSections": [
+        "教授、研究员"
+      ]
+    },
+    {
+      "unitId": "thu-air-next-batch",
+      "officialId": "2501",
+      "name": "李琨",
+      "title": "助理研究员/助理教授",
+      "profileUrl": "https://air.tsinghua.edu.cn/info/1046/2501.htm",
+      "portraitUrl": "https://air.tsinghua.edu.cn/__local/1/9C/C8/EABE6D852D3FFA9D4DF6700B19A_18612A25_63DC71.jpeg",
+      "keywords": null,
+      "officialSections": [
+        "教授、研究员"
+      ]
+    },
+    {
+      "unitId": "ntu-ccds-next-batch",
+      "officialId": "https://dr.ntu.edu.sg/entities/person/Alexei-Sourin",
+      "name": "Assoc Prof Alexei Sourin",
+      "title": "Associate Professor, College of Computing & Data Science",
+      "profileUrl": "https://dr.ntu.edu.sg/entities/person/Alexei-Sourin",
+      "portraitUrl": "https://dr.ntu.edu.sg/server/api/core/bitstreams/851d987a-17be-470f-8e2d-bbebfcf6c7c0/content",
+      "keywords": "Computer Science and Engineering | Graphics and Interactive Computing | Interactive Digital Media | Smart Cities",
+      "officialSections": []
+    },
+    {
+      "unitId": "ntu-ccds-next-batch",
+      "officialId": "https://dr.ntu.edu.sg/entities/person/Jiawang-Bian",
+      "name": "Asst Prof Jiawang Bian",
+      "title": "Nanyang Assistant Professor, College of Computing & Data Science",
+      "profileUrl": "https://dr.ntu.edu.sg/entities/person/Jiawang-Bian",
+      "portraitUrl": "https://dr.ntu.edu.sg/server/api/core/bitstreams/51894d84-94f9-4d97-9977-2d2dccd2fddb/content",
+      "keywords": "Artificial and Augmented Intelligence | Computer Vision and Sensing | Robotics and Intelligent Systems",
+      "officialSections": []
+    },
+    {
+      "unitId": "ntu-ccds-next-batch",
+      "officialId": "https://dr.ntu.edu.sg/entities/person/Alvin-Chan-Guo-Wei",
+      "name": "Asst Prof Alvin Chan Guo Wei",
+      "title": "Assistant Professor, College of Computing & Data Science Assistant Professor, Lee Kong Chian School of Medicine",
+      "profileUrl": "https://dr.ntu.edu.sg/entities/person/Alvin-Chan-Guo-Wei",
+      "portraitUrl": "https://dr.ntu.edu.sg/server/api/core/bitstreams/e96293b4-11e1-4552-b995-98bf3407a0ba/content",
+      "keywords": "Artificial and Augmented Intelligence",
+      "officialSections": []
+    },
+    {
+      "unitId": "ntu-ccds-next-batch",
+      "officialId": "https://dr.ntu.edu.sg/entities/person/Samantha-Chan",
+      "name": "Asst Prof Samantha Chan",
+      "title": "Assistant Professor, College of Computing & Data Science",
+      "profileUrl": "https://dr.ntu.edu.sg/entities/person/Samantha-Chan",
+      "portraitUrl": "https://dr.ntu.edu.sg/server/api/core/bitstreams/1f305387-a734-4eb1-8a74-3ab173835a7b/content",
+      "keywords": "Ageing | Artificial and Augmented Intelligence | Brain Machine Interface | Graphics and Interactive Computing | Healthy Brain Ageing | Neuroscience | Science of Learning",
+      "officialSections": []
+    },
+    {
+      "unitId": "ntu-ccds-next-batch",
+      "officialId": "https://dr.ntu.edu.sg/entities/person/Siu-Lun-Chau",
+      "name": "Asst Prof Siu Lun Chau",
+      "title": "Assistant Professor, College of Computing & Data Science",
+      "profileUrl": "https://dr.ntu.edu.sg/entities/person/Siu-Lun-Chau",
+      "portraitUrl": "https://dr.ntu.edu.sg/server/api/core/bitstreams/d5ecce70-5e2a-4f76-a835-24105933a6df/content",
+      "keywords": "Applied Mathematics and Statistics | Artificial and Augmented Intelligence | Information Sciences and Systems | Mathematics",
+      "officialSections": []
+    },
+    {
+      "unitId": "ntu-ccds-next-batch",
+      "officialId": "https://dr.ntu.edu.sg/entities/person/Kang-Hao-Cheong",
+      "name": "Assoc Prof Kang Hao Cheong",
+      "title": "Associate Professor, School of Physical & Mathematical Sciences Associate Professor, School of Physical & Mathematical Sciences Associate Professor, College of Computing & Data Science Assistant Dean (Continuing Education and Training), College of Science",
+      "profileUrl": "https://dr.ntu.edu.sg/entities/person/Kang-Hao-Cheong",
+      "portraitUrl": "https://dr.ntu.edu.sg/server/api/core/bitstreams/24c2c850-213e-4837-b84d-5dca889b0da6/content",
+      "keywords": "Artificial and Augmented Intelligence | Information Sciences and Systems | Mathematics",
+      "officialSections": []
+    },
+    {
+      "unitId": "ntu-ccds-next-batch",
+      "officialId": "https://dr.ntu.edu.sg/entities/person/Yeshwanth-Cherapanamjeri",
+      "name": "Asst Prof Yeshwanth Cherapanamjeri",
+      "title": "Nanyang Assistant Professor, College of Computing & Data Science",
+      "profileUrl": "https://dr.ntu.edu.sg/entities/person/Yeshwanth-Cherapanamjeri",
+      "portraitUrl": "https://dr.ntu.edu.sg/server/api/core/bitstreams/53b23d07-fe58-4dcb-bee2-42b8b8a52459/content",
+      "keywords": "Artificial and Augmented Intelligence | Mathematics | Neuroscience",
+      "officialSections": []
+    },
+    {
+      "unitId": "ntu-ccds-next-batch",
+      "officialId": "https://dr.ntu.edu.sg/entities/person/Will-Cong",
+      "name": "Prof Will Cong",
+      "title": "Associate Dean (Global Engagement & Convergence Initiatives), NBS President’s Chair Professor Professor, College of Business Professor, College of Computing & Data Science Professor, School of Social Sciences (Courtesy Appointment) Director, Global Institute of Finance, Technology and Society (GIFTS)",
+      "profileUrl": "https://dr.ntu.edu.sg/entities/person/Will-Cong",
+      "portraitUrl": "https://dr.ntu.edu.sg/server/api/core/bitstreams/8bafbd59-0913-4637-a0af-ce31d225e270/content",
+      "keywords": "Artificial and Augmented Intelligence | Business and Management | Economics | Entrepreneurship and Innovation",
+      "officialSections": []
+    },
+    {
+      "unitId": "ntu-ccds-next-batch",
+      "officialId": "https://dr.ntu.edu.sg/entities/person/Rob-Cornish",
+      "name": "Asst Prof Rob Cornish",
+      "title": "Nanyang Assistant Professor, College of Computing & Data Science",
+      "profileUrl": "https://dr.ntu.edu.sg/entities/person/Rob-Cornish",
+      "portraitUrl": "https://dr.ntu.edu.sg/server/api/core/bitstreams/8e171a89-de65-4b86-ac88-9ac0f5e65a8c/content",
+      "keywords": "Artificial and Augmented Intelligence",
+      "officialSections": []
+    },
+    {
+      "unitId": "ntu-ccds-next-batch",
+      "officialId": "https://dr.ntu.edu.sg/entities/person/Xuefeng-Du",
+      "name": "Asst Prof Sean Du",
+      "title": "Assistant Professor, College of Computing & Data Science",
+      "profileUrl": "https://dr.ntu.edu.sg/entities/person/Xuefeng-Du",
+      "portraitUrl": "https://dr.ntu.edu.sg/server/api/core/bitstreams/baba1d92-c175-49a3-b729-cfed14ee3c75/content",
+      "keywords": "Artificial and Augmented Intelligence | Computational Intelligence | Computer Vision and Sensing",
+      "officialSections": []
+    },
+    {
+      "unitId": "ntu-ccds-next-batch",
+      "officialId": "https://dr.ntu.edu.sg/entities/person/Du-Yuxuan",
+      "name": "Asst Prof Du Yuxuan",
+      "title": "Assistant Professor, College of Computing & Data Science Assistant Professor, School of Physical & Mathematical Sciences",
+      "profileUrl": "https://dr.ntu.edu.sg/entities/person/Du-Yuxuan",
+      "portraitUrl": "https://dr.ntu.edu.sg/server/api/core/bitstreams/5fcdb63d-9c3d-47aa-96e8-c382c8ed06fe/content",
+      "keywords": "Artificial and Augmented Intelligence | Information Sciences and Systems",
+      "officialSections": []
+    },
+    {
+      "unitId": "ntu-ccds-next-batch",
+      "officialId": "https://dr.ntu.edu.sg/entities/person/Pranjal-Dutta",
+      "name": "Asst Prof Pranjal Dutta",
+      "title": "Nanyang Assistant Professor, College of Computing & Data Science",
+      "profileUrl": "https://dr.ntu.edu.sg/entities/person/Pranjal-Dutta",
+      "portraitUrl": "https://dr.ntu.edu.sg/server/api/core/bitstreams/4dffcd5e-baa1-4335-b91b-0a4857fb1bc4/content",
+      "keywords": "Computational Intelligence | Information Sciences and Systems | Mathematics",
+      "officialSections": []
+    },
+    {
+      "unitId": "ntu-ccds-next-batch",
+      "officialId": "https://dr.ntu.edu.sg/entities/person/Fan-Xiuyi",
+      "name": "Asst Prof Fan Xiuyi",
+      "title": "Assistant Professor of Digital Health, Lee Kong Chian School of Medicine Assistant Professor, Lee Kong Chian School of Medicine",
+      "profileUrl": "https://dr.ntu.edu.sg/entities/person/Fan-Xiuyi",
+      "portraitUrl": "https://dr.ntu.edu.sg/server/api/core/bitstreams/c41f9d92-7ef8-4975-9495-29b40a86c0dc/content",
+      "keywords": "Artificial and Augmented Intelligence",
+      "officialSections": []
+    },
+    {
+      "unitId": "ntu-ccds-next-batch",
+      "officialId": "https://dr.ntu.edu.sg/entities/person/Cong-Gao",
+      "name": "Prof Cong Gao",
+      "title": "Head, Division of Data Science, College of Computing & Data Science Professor, College of Computing & Data Science Courtesy Appointment, School of Physical & Mathematical Sciences (Courtesy Appointment)",
+      "profileUrl": "https://dr.ntu.edu.sg/entities/person/Cong-Gao",
+      "portraitUrl": "https://dr.ntu.edu.sg/server/api/core/bitstreams/25b3fefe-1823-477b-aa56-1d47ccecd579/content",
+      "keywords": "Artificial and Augmented Intelligence | Computer Science and Engineering | Smart Cities | Sociology",
+      "officialSections": []
+    },
+    {
+      "unitId": "ntu-ccds-next-batch",
+      "officialId": "https://dr.ntu.edu.sg/entities/person/Themistoklis-Gouleakis",
+      "name": "Asst Prof Themistoklis Gouleakis",
+      "title": "Assistant Professor, College of Computing & Data Science",
+      "profileUrl": "https://dr.ntu.edu.sg/entities/person/Themistoklis-Gouleakis",
+      "portraitUrl": "https://dr.ntu.edu.sg/server/api/core/bitstreams/5775171a-edce-49fe-91f8-4342cf01b250/content",
+      "keywords": "Artificial and Augmented Intelligence | Computational Intelligence | Mathematics | Parallel and Distributed Computing",
+      "officialSections": []
+    },
+    {
+      "unitId": "ntu-ccds-next-batch",
+      "officialId": "https://dr.ntu.edu.sg/entities/person/Jagath-Chandana-Rajapakse",
+      "name": "Prof Jagath Chandana Rajapakse",
+      "title": "Professor, College of Computing & Data Science",
+      "profileUrl": "https://dr.ntu.edu.sg/entities/person/Jagath-Chandana-Rajapakse",
+      "portraitUrl": "https://dr.ntu.edu.sg/server/api/core/bitstreams/0ec45bbc-81dd-47d1-af04-e7aa9cd53882/content",
+      "keywords": "Artificial and Augmented Intelligence | Biomedical Engineering | Biomedical Informatics and Data Science | Computational Intelligence | Healthy Brain Ageing | Information Sciences and Systems | Mental Health | Neuroscience",
+      "officialSections": []
+    },
+    {
+      "unitId": "ntu-ccds-next-batch",
+      "officialId": "https://dr.ntu.edu.sg/entities/person/Wai-Kin-Adams-Kong",
+      "name": "Assoc Prof Wai Kin Adams Kong",
+      "title": "Associate Professor, College of Computing & Data Science",
+      "profileUrl": "https://dr.ntu.edu.sg/entities/person/Wai-Kin-Adams-Kong",
+      "portraitUrl": "https://dr.ntu.edu.sg/server/api/core/bitstreams/8d994f88-384f-4586-b5f3-4ae5a93ba75d/content",
+      "keywords": "Artificial and Augmented Intelligence | Biomedical Informatics and Data Science | Computational Intelligence | Computer Vision and Sensing",
+      "officialSections": []
+    },
+    {
+      "unitId": "ntu-ccds-next-batch",
+      "officialId": "https://dr.ntu.edu.sg/entities/person/Kwoh-Chee-Keong",
+      "name": "Assoc Prof Kwoh Chee Keong",
+      "title": "Associate Professor, College of Computing & Data Science",
+      "profileUrl": "https://dr.ntu.edu.sg/entities/person/Kwoh-Chee-Keong",
+      "portraitUrl": "https://dr.ntu.edu.sg/server/api/core/bitstreams/8c96bc20-1390-4d4a-a75b-6a5146325604/content",
+      "keywords": "Biomedical Informatics and Data Science | Biomedical Sciences & Life Sciences | Computational Intelligence | Computer Science and Engineering | Mathematics | Systems and Engineering Management",
+      "officialSections": []
+    },
+    {
+      "unitId": "ntu-ccds-next-batch",
+      "officialId": "https://dr.ntu.edu.sg/entities/person/Yingzhen-Li",
+      "name": "Assoc Prof Yingzhen Li",
+      "title": "Nanyang Associate Professor, College of Computing & Data Science Associate Professor, College of Computing & Data Science",
+      "profileUrl": "https://dr.ntu.edu.sg/entities/person/Yingzhen-Li",
+      "portraitUrl": "https://dr.ntu.edu.sg/server/api/core/bitstreams/b9161175-3b0b-4aa6-a70d-34efa0dd6603/content",
+      "keywords": "Artificial and Augmented Intelligence | Computational Intelligence",
+      "officialSections": []
+    },
+    {
+      "unitId": "ntu-ccds-next-batch",
+      "officialId": "https://dr.ntu.edu.sg/entities/person/Lim-Wei-Yang-Bryan",
+      "name": "Asst Prof Lim Wei Yang Bryan",
+      "title": "Assistant Professor, College of Computing & Data Science",
+      "profileUrl": "https://dr.ntu.edu.sg/entities/person/Lim-Wei-Yang-Bryan",
+      "portraitUrl": "https://dr.ntu.edu.sg/server/api/core/bitstreams/98639dfe-45d8-4dd4-bc1b-f9540b39577a/content",
+      "keywords": "Artificial and Augmented Intelligence | Internet of Things | Parallel and Distributed Computing | Smart Cities",
+      "officialSections": []
+    },
+    {
+      "unitId": "ntu-ccds-next-batch",
+      "officialId": "https://dr.ntu.edu.sg/entities/person/Luo-Jun",
+      "name": "Prof Luo Jun",
+      "title": "Professor, College of Computing & Data Science",
+      "profileUrl": "https://dr.ntu.edu.sg/entities/person/Luo-Jun",
+      "portraitUrl": "https://dr.ntu.edu.sg/server/api/core/bitstreams/47695e0f-203d-46df-a67d-fc1ac728ae0d/content",
+      "keywords": "Computer Networks and Communications | Computer Vision and Sensing | Cyber Security and Forensics | Hardware and Embedded Systems | Internet of Things",
+      "officialSections": []
+    },
+    {
+      "unitId": "ntu-ccds-next-batch",
+      "officialId": "https://dr.ntu.edu.sg/entities/person/Miao-Chun-Yan",
+      "name": "Prof Miao Chun Yan",
+      "title": "Associate Vice President (Capability Building) President’s Chair in Computer Science Professor, College of Computing & Data Science Co-Director, Centre of AI in Medicine (C-AIM) Director, Alibaba-NTU Singapore Joint Research Institute (JRI) Director, NTU-PKU Joint Research Institute (JRI) Director, Alibaba-NTU Global e-Sustainability CorpLab (ANGEL) Director, WeBank NTU Joint Research Institute on Fintech Director (Advisory), Jinan-NTU Green Technology Research Institute (GreenTRI)",
+      "profileUrl": "https://dr.ntu.edu.sg/entities/person/Miao-Chun-Yan",
+      "portraitUrl": "https://dr.ntu.edu.sg/server/api/core/bitstreams/4f260665-d838-4c5d-8083-023c15ae8c28/content",
+      "keywords": "Artificial and Augmented Intelligence | Computer Science and Engineering | Info-Communication Technology | Interactive Digital Media | Internet & Communications",
+      "officialSections": []
+    },
+    {
+      "unitId": "ntu-ccds-next-batch",
+      "officialId": "https://dr.ntu.edu.sg/entities/person/Atsushi-Nitanda",
+      "name": "Assoc Prof Atsushi Nitanda",
+      "title": "Associate Professor, College of Computing & Data Science",
+      "profileUrl": "https://dr.ntu.edu.sg/entities/person/Atsushi-Nitanda",
+      "portraitUrl": "https://dr.ntu.edu.sg/server/api/core/bitstreams/5652983c-887d-48f3-b72a-30ab1690ac6a/content",
+      "keywords": "Computational Intelligence | Information Sciences and Systems | Mathematics",
+      "officialSections": []
+    },
+    {
+      "unitId": "ntu-ccds-next-batch",
+      "officialId": "https://dr.ntu.edu.sg/entities/person/Luke-Ong",
+      "name": "Prof Luke Ong （翁之昊）",
+      "title": "Distinguished University Professor, Vice President (AI & Digital Economy) and Dean, College of Computing & Data Science (CCDS) Professor, College of Computing & Data Science",
+      "profileUrl": "https://dr.ntu.edu.sg/entities/person/Luke-Ong",
+      "portraitUrl": "https://dr.ntu.edu.sg/server/api/core/bitstreams/0bfbea47-c1a7-4b80-874e-52f0517ef727/content",
+      "keywords": "Artificial and Augmented Intelligence | Mathematics",
+      "officialSections": []
+    },
+    {
+      "unitId": "ntu-ccds-next-batch",
+      "officialId": "https://dr.ntu.edu.sg/entities/person/Daniel-Paulin",
+      "name": "Assoc Prof Daniel Paulin",
+      "title": "Associate Professor, College of Computing & Data Science Associate Professor, School of Physical & Mathematical Sciences",
+      "profileUrl": "https://dr.ntu.edu.sg/entities/person/Daniel-Paulin",
+      "portraitUrl": "https://dr.ntu.edu.sg/server/api/core/bitstreams/b5168d54-6193-4d31-946a-eed75a7d47b8/content",
+      "keywords": "Artificial and Augmented Intelligence | Information Sciences and Systems | Mathematics",
+      "officialSections": []
+    },
+    {
+      "unitId": "ntu-ccds-next-batch",
+      "officialId": "https://dr.ntu.edu.sg/entities/person/Yewen-Pu",
+      "name": "Asst Prof Yewen Pu",
+      "title": "Nanyang Assistant Professor, College of Computing & Data Science",
+      "profileUrl": "https://dr.ntu.edu.sg/entities/person/Yewen-Pu",
+      "portraitUrl": "https://dr.ntu.edu.sg/server/api/core/bitstreams/676c3755-287e-4a91-bf13-97649c023720/content",
+      "keywords": "Computational Intelligence",
+      "officialSections": []
+    },
+    {
+      "unitId": "ntu-ccds-next-batch",
+      "officialId": "https://dr.ntu.edu.sg/entities/person/Stefano-V-Albrecht",
+      "name": "Assoc Prof Stefano V. Albrecht",
+      "title": "Associate Professor, College of Computing & Data Science",
+      "profileUrl": "https://dr.ntu.edu.sg/entities/person/Stefano-V-Albrecht",
+      "portraitUrl": "https://dr.ntu.edu.sg/server/api/core/bitstreams/7eded923-592a-4a77-9635-92fa90c44a89/content",
+      "keywords": "Artificial and Augmented Intelligence | Computational Intelligence | Control and Systems Engineering | Robotics and Intelligent Systems",
+      "officialSections": []
+    },
+    {
+      "unitId": "ntu-ccds-next-batch",
+      "officialId": "https://dr.ntu.edu.sg/entities/person/Yoonchang-Sung",
+      "name": "Asst Prof Yoonchang Sung",
+      "title": "Assistant Professor, College of Computing & Data Science",
+      "profileUrl": "https://dr.ntu.edu.sg/entities/person/Yoonchang-Sung",
+      "portraitUrl": "https://dr.ntu.edu.sg/server/api/core/bitstreams/b1fd802f-b21d-4206-9455-3e4772f35885/content",
+      "keywords": "Artificial and Augmented Intelligence | Robotics and Intelligent Systems",
+      "officialSections": []
+    },
+    {
+      "unitId": "ntu-ccds-next-batch",
+      "officialId": "https://dr.ntu.edu.sg/entities/person/Chee-Wei-Tan",
+      "name": "Assoc Prof Chee Wei Tan",
+      "title": "Associate Professor, College of Computing & Data Science",
+      "profileUrl": "https://dr.ntu.edu.sg/entities/person/Chee-Wei-Tan",
+      "portraitUrl": "https://dr.ntu.edu.sg/server/api/core/bitstreams/60c50a40-854a-401d-9ffc-a946076ee77e/content",
+      "keywords": "Artificial and Augmented Intelligence | Information Sciences and Systems",
+      "officialSections": []
+    },
+    {
+      "unitId": "ntu-ccds-next-batch",
+      "officialId": "https://dr.ntu.edu.sg/entities/person/Tan-Yong-Kiam",
+      "name": "Asst Prof Tan Yong Kiam",
+      "title": "Nanyang Assistant Professor, College of Computing & Data Science",
+      "profileUrl": "https://dr.ntu.edu.sg/entities/person/Tan-Yong-Kiam",
+      "portraitUrl": "https://dr.ntu.edu.sg/server/api/core/bitstreams/72efed22-9fca-4be9-81a6-aa8fa6bd535d/content",
+      "keywords": "Computational Intelligence | Mathematics",
+      "officialSections": []
+    },
+    {
+      "unitId": "ntu-ccds-next-batch",
+      "officialId": "https://dr.ntu.edu.sg/entities/person/Tao-Dacheng",
+      "name": "Prof Tao Dacheng",
+      "title": "Distinguished University Professor, College of Computing & Data Science Professor, College of Computing & Data Science Distinguished University Professor, Lee Kong Chian School of Medicine (Courtesy Appointment) Distinguished University Professor, College of Business (Courtesy Appointment)",
+      "profileUrl": "https://dr.ntu.edu.sg/entities/person/Tao-Dacheng",
+      "portraitUrl": "https://dr.ntu.edu.sg/server/api/core/bitstreams/55dc183f-fac8-48b6-9c85-f41b55e7efba/content",
+      "keywords": "Artificial and Augmented Intelligence | Biomedical Informatics and Data Science",
+      "officialSections": []
+    },
+    {
+      "unitId": "ntu-ccds-next-batch",
+      "officialId": "https://dr.ntu.edu.sg/entities/person/Timothy-van-Bremen",
+      "name": "Asst Prof Timothy van Bremen",
+      "title": "Assistant Professor, College of Computing & Data Science",
+      "profileUrl": "https://dr.ntu.edu.sg/entities/person/Timothy-van-Bremen",
+      "portraitUrl": "https://dr.ntu.edu.sg/server/api/core/bitstreams/3af05356-d79e-434a-8f95-580bda310c30/content",
+      "keywords": "Artificial and Augmented Intelligence | Information Sciences and Systems",
+      "officialSections": []
+    },
+    {
+      "unitId": "ntu-ccds-next-batch",
+      "officialId": "https://dr.ntu.edu.sg/entities/person/Jordan-Boyd-Graber-Ying",
+      "name": "Prof Jordan Boyd-Graber Ying",
+      "title": "Professor, College of Computing & Data Science",
+      "profileUrl": "https://dr.ntu.edu.sg/entities/person/Jordan-Boyd-Graber-Ying",
+      "portraitUrl": "https://dr.ntu.edu.sg/server/api/core/bitstreams/1e8eb2fc-5292-4abe-898e-0ab72e898f80/content",
+      "keywords": "Artificial and Augmented Intelligence | Computational Intelligence | Linguistics and Multilingual Studies | Machine-Person Interoperability",
+      "officialSections": []
+    },
+    {
+      "unitId": "ntu-ccds-next-batch",
+      "officialId": "https://dr.ntu.edu.sg/entities/person/Djordje-Zikelic",
+      "name": "Asst Prof Djordje Zikelic",
+      "title": "Assistant Professor, College of Computing & Data Science",
+      "profileUrl": "https://dr.ntu.edu.sg/entities/person/Djordje-Zikelic",
+      "portraitUrl": "https://dr.ntu.edu.sg/server/api/core/bitstreams/7a28036a-7ba2-4c3d-8782-184d634cd1b3/content",
+      "keywords": "Artificial and Augmented Intelligence | Information Sciences and Systems | Mathematics",
+      "officialSections": []
+    },
+    {
+      "unitId": "ntu-ccds-next-batch",
+      "officialId": "https://dr.ntu.edu.sg/entities/person/Wang-Xiaofeng",
+      "name": "Prof Xiaofeng Wang",
+      "title": "Associate Vice President (Cybersecurity) President's Chair Professor Professor, College of Computing & Data Science Head, Division of Computing, College of Computing & Data Science (CCDS)",
+      "profileUrl": "https://dr.ntu.edu.sg/entities/person/Wang-Xiaofeng",
+      "portraitUrl": "https://dr.ntu.edu.sg/server/api/core/bitstreams/a949fb27-bb57-4cb2-933e-e42b9f102577/content",
+      "keywords": "Computational Intelligence | Cyber Security and Forensics",
+      "officialSections": []
+    },
+    {
+      "unitId": "ntu-ccds-next-batch",
+      "officialId": "https://dr.ntu.edu.sg/entities/person/Wang-Yong",
+      "name": "Asst Prof Wang Yong",
+      "title": "Assistant Professor, College of Computing & Data Science",
+      "profileUrl": "https://dr.ntu.edu.sg/entities/person/Wang-Yong",
+      "portraitUrl": "https://dr.ntu.edu.sg/server/api/core/bitstreams/7060b0fa-0b1f-4cd1-bc13-2edd979ce430/content",
+      "keywords": "Graphics and Interactive Computing",
+      "officialSections": []
+    },
+    {
+      "unitId": "ntu-ccds-next-batch",
+      "officialId": "https://dr.ntu.edu.sg/entities/person/Yeo-Chai-Kiat",
+      "name": "Assoc Prof Yeo Chai Kiat",
+      "title": "Associate Dean (Academic) for Graduate College Associate Professor, College of Computing & Data Science",
+      "profileUrl": "https://dr.ntu.edu.sg/entities/person/Yeo-Chai-Kiat",
+      "portraitUrl": "https://dr.ntu.edu.sg/server/api/core/bitstreams/aac74b9f-9f62-4f64-8989-360fb8cc4bc9/content",
+      "keywords": "Artificial and Augmented Intelligence | Computational Intelligence | Computer Networks and Communications | Computer Vision and Sensing | Information Sciences and Systems | Robotics and Intelligent Systems",
+      "officialSections": []
+    },
+    {
+      "unitId": "ntu-ccds-next-batch",
+      "officialId": "https://dr.ntu.edu.sg/entities/person/Jaehong-Yoon",
+      "name": "Asst Prof Jaehong Yoon",
+      "title": "Assistant Professor, College of Computing & Data Science",
+      "profileUrl": "https://dr.ntu.edu.sg/entities/person/Jaehong-Yoon",
+      "portraitUrl": "https://dr.ntu.edu.sg/server/api/core/bitstreams/3bbaf95a-e2c3-4711-bbb1-4d05dbf01272/content",
+      "keywords": "Artificial and Augmented Intelligence | Computer Vision and Sensing",
+      "officialSections": []
+    },
+    {
+      "unitId": "ntu-ccds-next-batch",
+      "officialId": "https://dr.ntu.edu.sg/entities/person/Yu-Han",
+      "name": "Assoc Prof Yu Han",
+      "title": "Associate Professor, College of Computing & Data Science",
+      "profileUrl": "https://dr.ntu.edu.sg/entities/person/Yu-Han",
+      "portraitUrl": "https://dr.ntu.edu.sg/server/api/core/bitstreams/1ded68b1-eadb-4c1a-81e1-a349dc4c7fd0/content",
+      "keywords": "Artificial and Augmented Intelligence | Computational Intelligence | Graphics and Interactive Computing | Information Sciences and Systems | Parallel and Distributed Computing",
+      "officialSections": []
+    },
+    {
+      "unitId": "ntu-ccds-next-batch",
+      "officialId": "https://dr.ntu.edu.sg/entities/person/Zhang-Mengmi",
+      "name": "Asst Prof Zhang Mengmi",
+      "title": "Nanyang Assistant Professor, College of Computing & Data Science Professor Angela Goh Career Development Professor in Computer Science and Engineering",
+      "profileUrl": "https://dr.ntu.edu.sg/entities/person/Zhang-Mengmi",
+      "portraitUrl": "https://dr.ntu.edu.sg/server/api/core/bitstreams/c6fb98e5-01e0-4f0c-af04-6eaeb663c2b7/content",
+      "keywords": "Computational Intelligence | Computer Vision and Sensing | Neuroscience | Psychology | Robotics and Intelligent Systems",
+      "officialSections": []
+    },
+    {
+      "unitId": "ntu-ccds-next-batch",
+      "officialId": "https://dr.ntu.edu.sg/entities/person/Chuanxia-Zheng",
+      "name": "Asst Prof Chuanxia Zheng",
+      "title": "Nanyang Assistant Professor, College of Computing & Data Science",
+      "profileUrl": "https://dr.ntu.edu.sg/entities/person/Chuanxia-Zheng",
+      "portraitUrl": "https://dr.ntu.edu.sg/server/api/core/bitstreams/880d8a1c-eb55-48bb-96e4-b53dad1e7f8a/content",
+      "keywords": "Artificial and Augmented Intelligence",
+      "officialSections": []
+    }
+  ]
+}

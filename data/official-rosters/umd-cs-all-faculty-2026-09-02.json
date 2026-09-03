@@ -1,0 +1,2030 @@
+{
+  "completeness": "complete",
+  "fetchedAt": "2026-09-02",
+  "institution": "University of Maryland, College Park",
+  "officialPageUrl": "https://www.cs.umd.edu/people/faculty",
+  "officialDataUrl": "https://www.cs.umd.edu/people/faculty",
+  "officialRosterCount": 176,
+  "officialSectionCounts": {
+    "CS Faculty": 93,
+    "Emeritus Faculty": 18,
+    "Adjunct Faculty": 24,
+    "Affiliate Faculty": 39,
+    "Post Doctoral Scientists/Research Assistants": 2
+  },
+  "sourcePageSha256": "4a2a5417ec0d09e50970859ec6d2d56b30461ef5685c14c3a98b8852a8188eae",
+  "people": [
+    {
+      "officialId": "abadi",
+      "name": "Daniel Abadi",
+      "officialSection": "CS Faculty",
+      "title": "Professor",
+      "profileUrl": "https://www.cs.umd.edu/people/abadi",
+      "portraitUrl": "https://www.cs.umd.edu/sites/default/files/styles/thumbnail/public/images/userpictures/dan_2019.jpg?itok=Ix8KrdVS&c=ca837d531c5e886829e714e1f78340b6",
+      "researchAreas": [
+        "Databases and Big Data",
+        "Systems, Networking, and Architecture"
+      ]
+    },
+    {
+      "officialId": "agrawala",
+      "name": "Ashok Agrawala",
+      "officialSection": "CS Faculty",
+      "title": "Professor",
+      "profileUrl": "https://www.cs.umd.edu/people/agrawala",
+      "portraitUrl": "https://www.cs.umd.edu/sites/default/files/styles/thumbnail/public/images/userpictures/agrawala.jpg?itok=I3oFZVuj&c=4c837d87cde282beaf49afc5eccb1d02",
+      "researchAreas": [
+        "Systems, Networking, and Architecture",
+        "Machine Learning and Data Science",
+        "IoT and Wearables Technology"
+      ]
+    },
+    {
+      "officialId": "fardina",
+      "name": "Fardina Alam",
+      "officialSection": "CS Faculty",
+      "title": "Lecturer",
+      "profileUrl": "https://www.cs.umd.edu/people/fardina",
+      "portraitUrl": "https://www.cs.umd.edu/sites/default/files/styles/thumbnail/public/images/userpictures/IMG_9608.JPG?itok=ys6cZaRl&c=fec49da77a4b003f67f65e697089a16c",
+      "researchAreas": [
+        "Bioinformatics and Computational Biology",
+        "Machine Learning and Data Science"
+      ]
+    },
+    {
+      "officialId": "jyaloimo",
+      "name": "John Aloimonos",
+      "officialSection": "CS Faculty",
+      "title": "Professor",
+      "profileUrl": "https://www.cs.umd.edu/people/jyaloimo",
+      "portraitUrl": "https://www.cs.umd.edu/sites/default/files/styles/thumbnail/public/images/userpictures/John%20Aloimonos.jpg?itok=YuhsCK5A&c=ca7af2ca2800a2c42d8a4113f182c35c",
+      "researchAreas": [
+        "AI and Robotics",
+        "Computer Vision and Machine Perception",
+        "Graphics Visualization and VR AR"
+      ]
+    },
+    {
+      "officialId": "bahar",
+      "name": "Bahar Asgari",
+      "officialSection": "CS Faculty",
+      "title": "Assistant Professor",
+      "profileUrl": "https://www.cs.umd.edu/people/bahar",
+      "portraitUrl": "https://www.cs.umd.edu/sites/default/files/styles/thumbnail/public/images/userpictures/Bahar_Asgari.jpeg?itok=NhlG4SXt&c=0fbcd4a6a3653f866e7bb3d3037e1bf5",
+      "researchAreas": [
+        "Systems, Networking, and Architecture",
+        "High Performance and Scientific Computing"
+      ]
+    },
+    {
+      "officialId": "cyb",
+      "name": "Clifford Bakalian",
+      "officialSection": "CS Faculty",
+      "title": "Lecturer",
+      "profileUrl": "https://www.cs.umd.edu/people/cyb",
+      "portraitUrl": "https://www.cs.umd.edu/sites/default/files/styles/thumbnail/public/images/userpictures/Snapchat-1232086035.jpg?itok=7Tn8d2Km&c=6a988621e4b886d8be3c5cf436ffaa1d",
+      "researchAreas": []
+    },
+    {
+      "officialId": "calin",
+      "name": "Calin Belta",
+      "officialSection": "CS Faculty",
+      "title": "Professor",
+      "profileUrl": "https://www.cs.umd.edu/people/calin",
+      "portraitUrl": "https://www.cs.umd.edu/sites/default/files/styles/thumbnail/public/images/userpictures/Calin%20Belta.jpg?itok=wGBhLWVE&c=a0a0ed22325484f04c9810ceefe055f7",
+      "researchAreas": [
+        "AI and Robotics",
+        "Bioinformatics and Computational Biology",
+        "Machine Learning and Data Science"
+      ]
+    },
+    {
+      "officialId": "bhatele",
+      "name": "Abhinav Bhatele",
+      "officialSection": "CS Faculty",
+      "title": "Professor",
+      "profileUrl": "https://www.cs.umd.edu/people/bhatele",
+      "portraitUrl": "https://www.cs.umd.edu/sites/default/files/styles/thumbnail/public/images/userpictures/bhatele-4-square.jpg?itok=U3D7elGb",
+      "researchAreas": [
+        "High Performance and Scientific Computing",
+        "Systems, Networking, and Architecture"
+      ]
+    },
+    {
+      "officialId": "bobby",
+      "name": "Bobby Bhattacharjee",
+      "officialSection": "CS Faculty",
+      "title": "Professor",
+      "profileUrl": "https://www.cs.umd.edu/people/bobby",
+      "portraitUrl": "https://www.cs.umd.edu/sites/default/files/styles/thumbnail/public/default_images/user_icon.png?itok=YGrztVGT",
+      "researchAreas": [
+        "Cybersecurity and Cryptography",
+        "Systems, Networking, and Architecture"
+      ]
+    },
+    {
+      "officialId": "ying",
+      "name": "Jordan Boyd-Graber",
+      "officialSection": "CS Faculty",
+      "title": "Professor",
+      "profileUrl": "https://www.cs.umd.edu/people/ying",
+      "portraitUrl": "https://www.cs.umd.edu/sites/default/files/styles/thumbnail/public/images/userpictures/boyd-graber.png?itok=WWXwzE0J&c=693e11a0b8e9eacac34c2373cbfca06d",
+      "researchAreas": [
+        "AI and Robotics",
+        "Information Retrieval and Geographic Information Systems (GIS)",
+        "Machine Learning and Data Science",
+        "Natural Language Processing"
+      ]
+    },
+    {
+      "officialId": "nburkhau",
+      "name": "Nora Burkhauser",
+      "officialSection": "CS Faculty",
+      "title": "Lecturer",
+      "profileUrl": "https://www.cs.umd.edu/people/nburkhau",
+      "portraitUrl": "https://www.cs.umd.edu/sites/default/files/styles/thumbnail/public/images/userpictures/IMG_2803.jpg?itok=5im1G7St&c=a988509da0c92f81a650be0a8e8cb42c",
+      "researchAreas": []
+    },
+    {
+      "officialId": "marine",
+      "name": "Marine Carpuat",
+      "officialSection": "CS Faculty",
+      "title": "Professor",
+      "profileUrl": "https://www.cs.umd.edu/people/marine",
+      "portraitUrl": "https://www.cs.umd.edu/sites/default/files/styles/thumbnail/public/images/userpictures/marine.jpg?itok=JsWU1M_F&c=b07d6b94a64ef5a8e8fdb5a3a2d05efe",
+      "researchAreas": [
+        "AI and Robotics",
+        "Machine Learning and Data Science",
+        "Natural Language Processing"
+      ]
+    },
+    {
+      "officialId": "yzchen",
+      "name": "Yizheng Chen",
+      "officialSection": "CS Faculty",
+      "title": "Assistant Professor",
+      "profileUrl": "https://www.cs.umd.edu/people/yzchen",
+      "portraitUrl": "https://www.cs.umd.edu/sites/default/files/styles/thumbnail/public/images/userpictures/yizheng-umd-v3.jpeg?itok=gVrpuVDn",
+      "researchAreas": [
+        "Cybersecurity and Cryptography",
+        "Machine Learning and Data Science"
+      ]
+    },
+    {
+      "officialId": "amchilds",
+      "name": "Andrew Childs",
+      "officialSection": "CS Faculty",
+      "title": "Professor",
+      "profileUrl": "https://www.cs.umd.edu/people/amchilds",
+      "portraitUrl": "https://www.cs.umd.edu/sites/default/files/styles/thumbnail/public/images/userpictures/amchilds.jpg?itok=6ptLsoWj",
+      "researchAreas": [
+        "Quantum Computing",
+        "Algorithms and Theory"
+      ]
+    },
+    {
+      "officialId": "hal3",
+      "name": "Hal Daumé III",
+      "officialSection": "CS Faculty",
+      "title": "Professor",
+      "profileUrl": "https://www.cs.umd.edu/people/hal3",
+      "portraitUrl": "https://www.cs.umd.edu/sites/default/files/styles/thumbnail/public/images/userpictures/me-photo.jpg?itok=j02wbRmx",
+      "researchAreas": [
+        "AI and Robotics",
+        "Machine Learning and Data Science",
+        "Natural Language Processing"
+      ]
+    },
+    {
+      "officialId": "amol",
+      "name": "Amol Deshpande",
+      "officialSection": "CS Faculty",
+      "title": "Professor",
+      "profileUrl": "https://www.cs.umd.edu/people/amol",
+      "portraitUrl": "https://www.cs.umd.edu/sites/default/files/styles/thumbnail/public/images/userpictures/deshpande.jpg?itok=MMNBxywd&c=d0b2b4ebcd3f0b4ed6869e56be8fe000",
+      "researchAreas": [
+        "Databases and Big Data",
+        "Machine Learning and Data Science"
+      ]
+    },
+    {
+      "officialId": "laxman",
+      "name": "Laxman Dhulipala",
+      "officialSection": "CS Faculty",
+      "title": "Assistant Professor",
+      "profileUrl": "https://www.cs.umd.edu/people/laxman",
+      "portraitUrl": "https://www.cs.umd.edu/sites/default/files/styles/thumbnail/public/images/userpictures/headshot_3.jpg?itok=sRrvQWzH",
+      "researchAreas": [
+        "Algorithms and Theory",
+        "High Performance and Scientific Computing",
+        "Databases and Big Data",
+        "Systems, Networking, and Architecture"
+      ]
+    },
+    {
+      "officialId": "ramanid",
+      "name": "Ramani Duraiswami",
+      "officialSection": "CS Faculty",
+      "title": "Professor",
+      "profileUrl": "https://www.cs.umd.edu/people/ramanid",
+      "portraitUrl": "https://www.cs.umd.edu/sites/default/files/styles/thumbnail/public/images/userpictures/r-duraiswami-web.jpg?itok=xplQrIaT&c=628e6c0c5578512a7bac8304a4780cbf",
+      "researchAreas": [
+        "Computer Vision and Machine Perception",
+        "High Performance and Scientific Computing",
+        "Information Retrieval and Geographic Information Systems (GIS)"
+      ]
+    },
+    {
+      "officialId": "reastman",
+      "name": "Roger Eastman",
+      "officialSection": "CS Faculty",
+      "title": "Professor of the Practice",
+      "profileUrl": "https://www.cs.umd.edu/people/reastman",
+      "portraitUrl": "https://www.cs.umd.edu/sites/default/files/styles/thumbnail/public/images/userpictures/UMIACS_01162019_3619_1.JPG?itok=Uindnaxh&c=819535d9e5cd7177cc84304e13f5d03b",
+      "researchAreas": [
+        "AI and Robotics",
+        "Computer Vision and Machine Perception",
+        "Graphics Visualization and VR AR"
+      ]
+    },
+    {
+      "officialId": "fpe",
+      "name": "Fawzi Emad",
+      "officialSection": "CS Faculty",
+      "title": "Principal Lecturer",
+      "profileUrl": "https://www.cs.umd.edu/people/fpe",
+      "portraitUrl": "https://www.cs.umd.edu/sites/default/files/styles/thumbnail/public/images/userpictures/Fawzi%20Emad.jpg?itok=SPvGoS-l&c=162c24414ed4411cfd4e58b57d47ed93",
+      "researchAreas": []
+    },
+    {
+      "officialId": "annae",
+      "name": "Anna Evtushenko",
+      "officialSection": "CS Faculty",
+      "title": "Lecturer",
+      "profileUrl": "https://www.cs.umd.edu/people/annae",
+      "portraitUrl": "https://www.cs.umd.edu/sites/default/files/styles/thumbnail/public/default_images/user_icon.png?itok=YGrztVGT",
+      "researchAreas": []
+    },
+    {
+      "officialId": "sfeizi",
+      "name": "Soheil Feizi",
+      "officialSection": "CS Faculty",
+      "title": "Associate Professor",
+      "profileUrl": "https://www.cs.umd.edu/people/sfeizi",
+      "portraitUrl": "https://www.cs.umd.edu/sites/default/files/styles/thumbnail/public/images/userpictures/Soheil%20Feizi-profile%20picture.jpg?itok=q8qEjpl2&c=0ca755fa47ca1414d88b7cb4419da00a",
+      "researchAreas": [
+        "Machine Learning and Data Science",
+        "Computer Vision and Machine Perception",
+        "AI and Robotics"
+      ]
+    },
+    {
+      "officialId": "firtina",
+      "name": "Can Firtina",
+      "officialSection": "CS Faculty",
+      "title": "Assistant Professor",
+      "profileUrl": "https://www.cs.umd.edu/people/firtina",
+      "portraitUrl": "https://www.cs.umd.edu/sites/default/files/styles/thumbnail/public/images/userpictures/Can03_rect.jpg?itok=LO4lrzmX&c=1fd2ab476d19fe2275d6773f2b22ed77",
+      "researchAreas": [
+        "Bioinformatics and Computational Biology",
+        "Systems, Networking, and Architecture",
+        "Machine Learning and Data Science"
+      ]
+    },
+    {
+      "officialId": "hfrances",
+      "name": "Hervé Franceschi",
+      "officialSection": "CS Faculty",
+      "title": "Senior Lecturer",
+      "profileUrl": "https://www.cs.umd.edu/people/hfrances",
+      "portraitUrl": "https://www.cs.umd.edu/sites/default/files/styles/thumbnail/public/images/userpictures/thumb_IMG_0319_1024.jpg?itok=Wa-llvFu",
+      "researchAreas": []
+    },
+    {
+      "officialId": "rhgao",
+      "name": "Ruohan Gao",
+      "officialSection": "CS Faculty",
+      "title": "Assistant Professor",
+      "profileUrl": "https://www.cs.umd.edu/people/rhgao",
+      "portraitUrl": "https://www.cs.umd.edu/sites/default/files/styles/thumbnail/public/images/userpictures/Ruohan_Gao.jpg?itok=VbXMz6FT&c=f0e95ace56112d94086e33b40c0d714e",
+      "researchAreas": [
+        "Computer Vision and Machine Perception",
+        "AI and Robotics",
+        "Machine Learning and Data Science",
+        "Graphics Visualization and VR AR"
+      ]
+    },
+    {
+      "officialId": "gasarch",
+      "name": "William Gasarch",
+      "officialSection": "CS Faculty",
+      "title": "Professor",
+      "profileUrl": "https://www.cs.umd.edu/people/gasarch",
+      "portraitUrl": "https://www.cs.umd.edu/sites/default/files/styles/thumbnail/public/images/userpictures/billvdw.jpg?itok=BLgQ0Jjj&c=ab96e1cb31ca5bf3e6e0c96c466a79f1",
+      "researchAreas": [
+        "Algorithms and Theory"
+      ]
+    },
+    {
+      "officialId": "tomg",
+      "name": "Tom Goldstein",
+      "officialSection": "CS Faculty",
+      "title": "Professor",
+      "profileUrl": "https://www.cs.umd.edu/people/tomg",
+      "portraitUrl": "https://www.cs.umd.edu/sites/default/files/styles/thumbnail/public/images/userpictures/good2_wide_edit_crop_1.jpg?itok=WWIQZE7I&c=31bede39b717b3f42b1307d45f57e540",
+      "researchAreas": [
+        "AI and Robotics",
+        "Computer Vision and Machine Perception",
+        "High Performance and Scientific Computing",
+        "Machine Learning and Data Science"
+      ]
+    },
+    {
+      "officialId": "egolub",
+      "name": "Evan Golub",
+      "officialSection": "CS Faculty",
+      "title": "Principal Lecturer",
+      "profileUrl": "https://www.cs.umd.edu/people/egolub",
+      "portraitUrl": "https://www.cs.umd.edu/sites/default/files/styles/thumbnail/public/images/userpictures/Golub.jpg?itok=DD7wPoZd&c=93b65b124c66c9bdd29e029175f14cdb",
+      "researchAreas": [
+        "Human Computer Interaction"
+      ]
+    },
+    {
+      "officialId": "egonzal5",
+      "name": "Elias Gonzalez",
+      "officialSection": "CS Faculty",
+      "title": "Lecturer",
+      "profileUrl": "https://www.cs.umd.edu/people/egonzal5",
+      "portraitUrl": "https://www.cs.umd.edu/sites/default/files/styles/thumbnail/public/images/userpictures/Elias%20Gonzalez-17.jpg?itok=ixavJM82&c=76b01d9134790809962b970821ec8ca9",
+      "researchAreas": []
+    },
+    {
+      "officialId": "dgottesm",
+      "name": "Daniel Gottesman",
+      "officialSection": "CS Faculty",
+      "title": "Professor",
+      "profileUrl": "https://www.cs.umd.edu/people/dgottesm",
+      "portraitUrl": "https://www.cs.umd.edu/sites/default/files/styles/thumbnail/public/images/userpictures/daniel_gottesman.jpg?itok=X2yZeeSB&c=661ead4711748a1c0b4a394704b41fbc",
+      "researchAreas": [
+        "Algorithms and Theory",
+        "Quantum Computing"
+      ]
+    },
+    {
+      "officialId": "ritwikg",
+      "name": "Ritwik Gupta",
+      "officialSection": "CS Faculty",
+      "title": "Assistant Professor",
+      "profileUrl": "https://www.cs.umd.edu/people/ritwikg",
+      "portraitUrl": "https://www.cs.umd.edu/sites/default/files/styles/thumbnail/public/images/userpictures/RitwikBerkeleyHeadshot.jpg?itok=udzlnPEO",
+      "researchAreas": [
+        "Computer Vision and Machine Perception",
+        "Machine Learning and Data Science"
+      ]
+    },
+    {
+      "officialId": "hajiagha",
+      "name": "Mohammad Hajiaghayi",
+      "officialSection": "CS Faculty",
+      "title": "Professor",
+      "profileUrl": "https://www.cs.umd.edu/people/hajiagha",
+      "portraitUrl": "https://www.cs.umd.edu/sites/default/files/styles/thumbnail/public/images/userpictures/mohammad%20%281%20of%201%29.jpg?itok=UN1ThZau&c=9b345bc26c15999e6aab497aa218f8e6",
+      "researchAreas": [
+        "Algorithms and Theory",
+        "Databases and Big Data",
+        "Machine Learning and Data Science"
+      ]
+    },
+    {
+      "officialId": "larry",
+      "name": "Larry Herman",
+      "officialSection": "CS Faculty",
+      "title": "Lecturer",
+      "profileUrl": "https://www.cs.umd.edu/people/larry",
+      "portraitUrl": "https://www.cs.umd.edu/sites/default/files/styles/thumbnail/public/default_images/user_icon.png?itok=YGrztVGT",
+      "researchAreas": []
+    },
+    {
+      "officialId": "hollings",
+      "name": "Jeffrey K. Hollingsworth",
+      "officialSection": "CS Faculty",
+      "title": "Professor",
+      "profileUrl": "https://www.cs.umd.edu/people/hollings",
+      "portraitUrl": "https://www.cs.umd.edu/sites/default/files/styles/thumbnail/public/images/userpictures/IMG_2456_1.JPG?itok=S9kDln5x",
+      "researchAreas": [
+        "High Performance and Scientific Computing",
+        "Systems, Networking, and Architecture"
+      ]
+    },
+    {
+      "officialId": "jbhuang",
+      "name": "Jia-Bin Huang",
+      "officialSection": "CS Faculty",
+      "title": "Associate Professor",
+      "profileUrl": "https://www.cs.umd.edu/people/jbhuang",
+      "portraitUrl": "https://www.cs.umd.edu/sites/default/files/styles/thumbnail/public/images/userpictures/jbhuang.jpeg?itok=FWW9EA-E&c=c64e94c0fed9f358401927c150ca401a",
+      "researchAreas": [
+        "AI and Robotics",
+        "Computer Vision and Machine Perception",
+        "Graphics Visualization and VR AR",
+        "Machine Learning and Data Science"
+      ]
+    },
+    {
+      "officialId": "heng",
+      "name": "Heng Huang",
+      "officialSection": "CS Faculty",
+      "title": "Professor",
+      "profileUrl": "https://www.cs.umd.edu/people/heng",
+      "portraitUrl": "https://www.cs.umd.edu/sites/default/files/styles/thumbnail/public/images/userpictures/square.jpg?itok=riOEPHto",
+      "researchAreas": [
+        "Machine Learning and Data Science",
+        "Bioinformatics and Computational Biology",
+        "Computer Vision and Machine Perception",
+        "Natural Language Processing",
+        "AI and Robotics"
+      ]
+    },
+    {
+      "officialId": "furongh",
+      "name": "Furong Huang",
+      "officialSection": "CS Faculty",
+      "title": "Associate Professor",
+      "profileUrl": "https://www.cs.umd.edu/people/furongh",
+      "portraitUrl": "https://www.cs.umd.edu/sites/default/files/styles/thumbnail/public/images/userpictures/Professional-Headshot-Furong-Huang-Cropped.jpg?itok=gN0DoLnk",
+      "researchAreas": [
+        "AI and Robotics",
+        "Machine Learning and Data Science",
+        "Natural Language Processing",
+        "Computer Vision and Machine Perception",
+        "High Performance and Scientific Computing",
+        "Algorithms and Theory"
+      ]
+    },
+    {
+      "officialId": "miyyer",
+      "name": "Mohit Iyyer",
+      "officialSection": "CS Faculty",
+      "title": "Associate Professor",
+      "profileUrl": "https://www.cs.umd.edu/people/miyyer",
+      "portraitUrl": "https://www.cs.umd.edu/sites/default/files/styles/thumbnail/public/images/userpictures/miyyer_headshot.jpg?itok=Ggsom0wo&c=5bde9e7a42e43806f9ecb05efefcc68f",
+      "researchAreas": [
+        "Machine Learning and Data Science",
+        "Natural Language Processing"
+      ]
+    },
+    {
+      "officialId": "dwj",
+      "name": "David Jacobs",
+      "officialSection": "CS Faculty",
+      "title": "Professor",
+      "profileUrl": "https://www.cs.umd.edu/people/dwj",
+      "portraitUrl": "https://www.cs.umd.edu/sites/default/files/styles/thumbnail/public/images/userpictures/DavidJacobs.JPG?itok=bqT-Z7Eb&c=2c11b9e28a345563fe5cdc4fcede2066",
+      "researchAreas": [
+        "AI and Robotics",
+        "Computer Vision and Machine Perception"
+      ]
+    },
+    {
+      "officialId": "tjiang1",
+      "name": "Ting Jiang",
+      "officialSection": "CS Faculty",
+      "title": "Lecturer",
+      "profileUrl": "https://www.cs.umd.edu/people/tjiang1",
+      "portraitUrl": "https://www.cs.umd.edu/sites/default/files/styles/thumbnail/public/default_images/user_icon.png?itok=YGrztVGT",
+      "researchAreas": []
+    },
+    {
+      "officialId": "kaptchuk",
+      "name": "Gabriel Kaptchuk",
+      "officialSection": "CS Faculty",
+      "title": "Assistant Professor",
+      "profileUrl": "https://www.cs.umd.edu/people/kaptchuk",
+      "portraitUrl": "https://www.cs.umd.edu/sites/default/files/styles/thumbnail/public/images/userpictures/professional_picture.jpg?itok=EEWwJHPy",
+      "researchAreas": [
+        "Cybersecurity and Cryptography"
+      ]
+    },
+    {
+      "officialId": "profk",
+      "name": "Christopher Kauffman",
+      "officialSection": "CS Faculty",
+      "title": "Senior Lecturer",
+      "profileUrl": "https://www.cs.umd.edu/people/profk",
+      "portraitUrl": "https://www.cs.umd.edu/sites/default/files/styles/thumbnail/public/images/userpictures/Kauffman_Chris_headshot-small-square.jpg?itok=Sd2sBMpv",
+      "researchAreas": []
+    },
+    {
+      "officialId": "keleher",
+      "name": "Pete Keleher",
+      "officialSection": "CS Faculty",
+      "title": "Associate Professor",
+      "profileUrl": "https://www.cs.umd.edu/people/keleher",
+      "portraitUrl": "https://www.cs.umd.edu/sites/default/files/styles/thumbnail/public/images/userpictures/Screen%20Shot%202018-12-29%20at%2011.58.47%20AM_2.png?itok=9HY_CI0E",
+      "researchAreas": [
+        "Systems, Networking, and Architecture",
+        "Cybersecurity and Cryptography"
+      ]
+    },
+    {
+      "officialId": "sujeong",
+      "name": "Sujeong Kim",
+      "officialSection": "CS Faculty",
+      "title": "Lecturer",
+      "profileUrl": "https://www.cs.umd.edu/people/sujeong",
+      "portraitUrl": "https://www.cs.umd.edu/sites/default/files/styles/thumbnail/public/images/userpictures/Shoott_2026_headshot.jpg?itok=5bmjMdpC",
+      "researchAreas": []
+    },
+    {
+      "officialId": "ckruskal",
+      "name": "Clyde Kruskal",
+      "officialSection": "CS Faculty",
+      "title": "Associate Professor",
+      "profileUrl": "https://www.cs.umd.edu/people/ckruskal",
+      "portraitUrl": "https://www.cs.umd.edu/sites/default/files/styles/thumbnail/public/images/userpictures/kruskal%20clyde.jpg?itok=A87Sk3Qb&c=5b1c9af8fe0d44ce02e596a99900d813",
+      "researchAreas": [
+        "Algorithms and Theory"
+      ]
+    },
+    {
+      "officialId": "leonidas",
+      "name": "Leonidas Lampropoulos",
+      "officialSection": "CS Faculty",
+      "title": "Associate Professor",
+      "profileUrl": "https://www.cs.umd.edu/people/leonidas",
+      "portraitUrl": "https://www.cs.umd.edu/sites/default/files/styles/thumbnail/public/images/userpictures/LemonGrainSide.jpg?itok=MGIP-jKQ",
+      "researchAreas": [
+        "Programming Languages and Software Engineering"
+      ]
+    },
+    {
+      "officialId": "myungin",
+      "name": "Myungin Lee",
+      "officialSection": "CS Faculty",
+      "title": "Lecturer",
+      "profileUrl": "https://www.cs.umd.edu/people/myungin",
+      "portraitUrl": "https://www.cs.umd.edu/sites/default/files/styles/thumbnail/public/images/userpictures/myungin1000x1000.jpg?itok=5yXJXpw1&c=154ddcab33b696afd1be86fcd2190402",
+      "researchAreas": []
+    },
+    {
+      "officialId": "dml",
+      "name": "Dave Levin",
+      "officialSection": "CS Faculty",
+      "title": "Associate Professor",
+      "profileUrl": "https://www.cs.umd.edu/people/dml",
+      "portraitUrl": "https://www.cs.umd.edu/sites/default/files/styles/thumbnail/public/images/userpictures/dml-cropped-tiny.png?itok=Ks7paNBT",
+      "researchAreas": [
+        "Cybersecurity and Cryptography",
+        "Systems, Networking, and Architecture"
+      ]
+    },
+    {
+      "officialId": "lin",
+      "name": "Ming Lin",
+      "officialSection": "CS Faculty",
+      "title": "Professor",
+      "profileUrl": "https://www.cs.umd.edu/people/lin",
+      "portraitUrl": "https://www.cs.umd.edu/sites/default/files/styles/thumbnail/public/images/userpictures/Lin2022.png?itok=0TAMLvra&c=64b112a610ed07ec11268f2b6341bdbc",
+      "researchAreas": [
+        "AI and Robotics",
+        "Computer Vision and Machine Perception",
+        "Graphics Visualization and VR AR",
+        "High Performance and Scientific Computing",
+        "Human Computer Interaction",
+        "Machine Learning and Data Science"
+      ]
+    },
+    {
+      "officialId": "ruoshi",
+      "name": "Ruoshi Liu",
+      "officialSection": "CS Faculty",
+      "title": "Assistant Professor",
+      "profileUrl": "https://www.cs.umd.edu/people/ruoshi",
+      "portraitUrl": "https://www.cs.umd.edu/sites/default/files/styles/thumbnail/public/images/userpictures/ruoshi-smile-small.jpg?itok=5PkfI2Ki",
+      "researchAreas": [
+        "AI and Robotics",
+        "Computer Vision and Machine Perception",
+        "Machine Learning and Data Science",
+        "Graphics Visualization and VR AR"
+      ]
+    },
+    {
+      "officialId": "zaoxing",
+      "name": "Alan Zaoxing Liu",
+      "officialSection": "CS Faculty",
+      "title": "Assistant Professor",
+      "profileUrl": "https://www.cs.umd.edu/people/zaoxing",
+      "portraitUrl": "https://www.cs.umd.edu/sites/default/files/styles/thumbnail/public/images/userpictures/Liu_Profile_UMD.jpg?itok=Bxx2gnd9&c=6926e0020085a3e5c9064c38c169bc21",
+      "researchAreas": [
+        "Systems, Networking, and Architecture",
+        "Databases and Big Data",
+        "Machine Learning and Data Science",
+        "Cybersecurity and Cryptography"
+      ]
+    },
+    {
+      "officialId": "leozcliu",
+      "name": "Leo Zhicheng Liu",
+      "officialSection": "CS Faculty",
+      "title": "Associate Professor",
+      "profileUrl": "https://www.cs.umd.edu/people/leozcliu",
+      "portraitUrl": "https://www.cs.umd.edu/sites/default/files/styles/thumbnail/public/images/userpictures/profile%20copy.png?itok=d_pBbSaC&c=9347be3925753c37c3df40267ff8611a",
+      "researchAreas": [
+        "Human Computer Interaction",
+        "Graphics Visualization and VR AR",
+        "Machine Learning and Data Science"
+      ]
+    },
+    {
+      "officialId": "anwar",
+      "name": "Anwar Mamat",
+      "officialSection": "CS Faculty",
+      "title": "Senior Lecturer",
+      "profileUrl": "https://www.cs.umd.edu/people/anwar",
+      "portraitUrl": "https://www.cs.umd.edu/sites/default/files/styles/thumbnail/public/images/userpictures/anwar-passport-photo.jpg?itok=4p8yUs6z",
+      "researchAreas": []
+    },
+    {
+      "officialId": "dmanocha",
+      "name": "Dinesh Manocha",
+      "officialSection": "CS Faculty",
+      "title": "Professor",
+      "profileUrl": "https://www.cs.umd.edu/people/dmanocha",
+      "portraitUrl": "https://www.cs.umd.edu/sites/default/files/styles/thumbnail/public/images/userpictures/dm2018-face.jpg?itok=v9mtC2rC&c=378f925a572f506653c71a3fa5582f12",
+      "researchAreas": [
+        "AI and Robotics",
+        "Graphics Visualization and VR AR",
+        "High Performance and Scientific Computing"
+      ]
+    },
+    {
+      "officialId": "mmarsh",
+      "name": "Michael Marsh",
+      "officialSection": "CS Faculty",
+      "title": "Senior Lecturer",
+      "profileUrl": "https://www.cs.umd.edu/people/mmarsh",
+      "portraitUrl": "https://www.cs.umd.edu/sites/default/files/styles/thumbnail/public/images/userpictures/240405_umd_051.jpg?itok=4ZgfqUcB&c=02f7e1436afaabeaff282fc96fd15b63",
+      "researchAreas": [
+        "Cybersecurity and Cryptography",
+        "Systems, Networking, and Architecture"
+      ]
+    },
+    {
+      "officialId": "mmazurek",
+      "name": "Michelle Mazurek",
+      "officialSection": "CS Faculty",
+      "title": "Professor",
+      "profileUrl": "https://www.cs.umd.edu/people/mmazurek",
+      "portraitUrl": "https://www.cs.umd.edu/sites/default/files/styles/thumbnail/public/images/userpictures/mazurek-9394.jpg?itok=nBURRYY_",
+      "researchAreas": [
+        "Cybersecurity and Cryptography",
+        "Human Computer Interaction"
+      ]
+    },
+    {
+      "officialId": "metzler",
+      "name": "Christopher Metzler",
+      "officialSection": "CS Faculty",
+      "title": "Associate Professor",
+      "profileUrl": "https://www.cs.umd.edu/people/metzler",
+      "portraitUrl": "https://www.cs.umd.edu/sites/default/files/styles/thumbnail/public/images/userpictures/chris.jpg?itok=ZkaF8Oi6",
+      "researchAreas": [
+        "Computer Vision and Machine Perception",
+        "AI and Robotics",
+        "Machine Learning and Data Science"
+      ]
+    },
+    {
+      "officialId": "imiers",
+      "name": "Ian Miers",
+      "officialSection": "CS Faculty",
+      "title": "Assistant Professor",
+      "profileUrl": "https://www.cs.umd.edu/people/imiers",
+      "portraitUrl": "https://www.cs.umd.edu/sites/default/files/styles/thumbnail/public/images/userpictures/swiss.jpeg?itok=c-Jm2PxW&c=381d9edf0c49994cc01e9db2a9de44a9",
+      "researchAreas": [
+        "Cybersecurity and Cryptography"
+      ]
+    },
+    {
+      "officialId": "stevensm",
+      "name": "Stevens Miller",
+      "officialSection": "CS Faculty",
+      "title": "Senior Lecturer",
+      "profileUrl": "https://www.cs.umd.edu/people/stevensm",
+      "portraitUrl": "https://www.cs.umd.edu/sites/default/files/styles/thumbnail/public/images/userpictures/MeCloseUp.png?itok=r3lTgRu1",
+      "researchAreas": []
+    },
+    {
+      "officialId": "ekmolloy",
+      "name": "Erin Molloy",
+      "officialSection": "CS Faculty",
+      "title": "Assistant Professor",
+      "profileUrl": "https://www.cs.umd.edu/people/ekmolloy",
+      "portraitUrl": "https://www.cs.umd.edu/sites/default/files/styles/thumbnail/public/images/userpictures/erin-molloy.jpg?itok=M5PqF1pg&c=d90dd57bb983076f80bbfe48a7a0ad10",
+      "researchAreas": [
+        "Bioinformatics and Computational Biology"
+      ]
+    },
+    {
+      "officialId": "morawski",
+      "name": "Maksym Morawski",
+      "officialSection": "CS Faculty",
+      "title": "Lecturer",
+      "profileUrl": "https://www.cs.umd.edu/people/morawski",
+      "portraitUrl": "https://www.cs.umd.edu/sites/default/files/styles/thumbnail/public/default_images/user_icon.png?itok=YGrztVGT",
+      "researchAreas": []
+    },
+    {
+      "officialId": "mount",
+      "name": "David Mount",
+      "officialSection": "CS Faculty",
+      "title": "Professor",
+      "profileUrl": "https://www.cs.umd.edu/people/mount",
+      "portraitUrl": "https://www.cs.umd.edu/sites/default/files/styles/thumbnail/public/images/userpictures/2020-400x400.png?itok=ks105S12",
+      "researchAreas": [
+        "Algorithms and Theory",
+        "Information Retrieval and Geographic Information Systems (GIS)"
+      ]
+    },
+    {
+      "officialId": "jun",
+      "name": "Jun Nishida",
+      "officialSection": "CS Faculty",
+      "title": "Assistant Professor",
+      "profileUrl": "https://www.cs.umd.edu/people/jun",
+      "portraitUrl": "https://www.cs.umd.edu/sites/default/files/styles/thumbnail/public/images/userpictures/CH_sq_crp_720.jpeg?itok=_CQQE1qW",
+      "researchAreas": [
+        "Human Computer Interaction",
+        "IoT and Wearables Technology"
+      ]
+    },
+    {
+      "officialId": "mttnln",
+      "name": "Matthew Nolan",
+      "officialSection": "CS Faculty",
+      "title": "Lecturer",
+      "profileUrl": "https://www.cs.umd.edu/people/mttnln",
+      "portraitUrl": "https://www.cs.umd.edu/sites/default/files/styles/thumbnail/public/default_images/user_icon.png?itok=YGrztVGT",
+      "researchAreas": []
+    },
+    {
+      "officialId": "nelson",
+      "name": "Nelson Padua-Perez",
+      "officialSection": "CS Faculty",
+      "title": "Principal Lecturer",
+      "profileUrl": "https://www.cs.umd.edu/people/nelson",
+      "portraitUrl": "https://www.cs.umd.edu/sites/default/files/styles/thumbnail/public/images/userpictures/nelson%20paduaperez.png?itok=59PFqZjN",
+      "researchAreas": []
+    },
+    {
+      "officialId": "nomad",
+      "name": "Rob Patro",
+      "officialSection": "CS Faculty",
+      "title": "Professor",
+      "profileUrl": "https://www.cs.umd.edu/people/nomad",
+      "portraitUrl": "https://www.cs.umd.edu/sites/default/files/styles/thumbnail/public/images/userpictures/Screenshot%202024-01-26%20at%203.09.32%20PM.png?itok=dETDTDMp&c=b8133745a8675f6f722079286d026830",
+      "researchAreas": [
+        "Algorithms and Theory",
+        "Bioinformatics and Computational Biology",
+        "High Performance and Scientific Computing"
+      ]
+    },
+    {
+      "officialId": "huaishu",
+      "name": "Huaishu Peng",
+      "officialSection": "CS Faculty",
+      "title": "Associate Professor",
+      "profileUrl": "https://www.cs.umd.edu/people/huaishu",
+      "portraitUrl": "https://www.cs.umd.edu/sites/default/files/styles/thumbnail/public/images/userpictures/profile_1.png?itok=ppyBrBdy",
+      "researchAreas": [
+        "Human Computer Interaction",
+        "IoT and Wearables Technology"
+      ]
+    },
+    {
+      "officialId": "binghuip",
+      "name": "Binghui Peng",
+      "officialSection": "CS Faculty",
+      "title": "Assistant Professor",
+      "profileUrl": "https://www.cs.umd.edu/people/binghuip",
+      "portraitUrl": "https://www.cs.umd.edu/sites/default/files/styles/thumbnail/public/images/userpictures/image-9.png?itok=QviM4gIf&c=8570bb2a6cf56cb8bd6a456b278e0618",
+      "researchAreas": [
+        "Algorithms and Theory",
+        "Machine Learning and Data Science"
+      ]
+    },
+    {
+      "officialId": "mpop",
+      "name": "Mihai Pop",
+      "officialSection": "CS Faculty",
+      "title": "Professor",
+      "profileUrl": "https://www.cs.umd.edu/people/mpop",
+      "portraitUrl": "https://www.cs.umd.edu/sites/default/files/styles/thumbnail/public/images/userpictures/Mihai_cropped.jpg?itok=RXuUwLJv",
+      "researchAreas": [
+        "Bioinformatics and Computational Biology"
+      ]
+    },
+    {
+      "officialId": "aporter",
+      "name": "Adam Porter",
+      "officialSection": "CS Faculty",
+      "title": "Professor",
+      "profileUrl": "https://www.cs.umd.edu/people/aporter",
+      "portraitUrl": "https://www.cs.umd.edu/sites/default/files/styles/thumbnail/public/images/userpictures/porter%20adam.JPG?itok=RgV9D7pP&c=42d2ea1d9fc8e59c31a606670cf72811",
+      "researchAreas": [
+        "Programming Languages and Software Engineering"
+      ]
+    },
+    {
+      "officialId": "purtilo",
+      "name": "James Purtilo",
+      "officialSection": "CS Faculty",
+      "title": "Associate Professor",
+      "profileUrl": "https://www.cs.umd.edu/people/purtilo",
+      "portraitUrl": "https://www.cs.umd.edu/sites/default/files/styles/thumbnail/public/default_images/user_icon.png?itok=YGrztVGT",
+      "researchAreas": []
+    },
+    {
+      "officialId": "regli",
+      "name": "William Regli",
+      "officialSection": "CS Faculty",
+      "title": "Professor",
+      "profileUrl": "https://www.cs.umd.edu/people/regli",
+      "portraitUrl": "https://www.cs.umd.edu/sites/default/files/styles/thumbnail/public/images/userpictures/regli.jpeg?itok=bWQwMqW6&c=c18d86bb681bff6701e1eeca6836f6c6",
+      "researchAreas": [
+        "AI and Robotics",
+        "Graphics Visualization and VR AR"
+      ]
+    },
+    {
+      "officialId": "niruroy",
+      "name": "Nirupam Roy",
+      "officialSection": "CS Faculty",
+      "title": "Associate Professor",
+      "profileUrl": "https://www.cs.umd.edu/people/niruroy",
+      "portraitUrl": "https://www.cs.umd.edu/sites/default/files/styles/thumbnail/public/images/userpictures/NirupamRoy.jpg?itok=y57LUWZ7",
+      "researchAreas": [
+        "Systems, Networking, and Architecture",
+        "IoT and Wearables Technology",
+        "Cybersecurity and Cryptography"
+      ]
+    },
+    {
+      "officialId": "rudinger",
+      "name": "Rachel Rudinger",
+      "officialSection": "CS Faculty",
+      "title": "Associate Professor",
+      "profileUrl": "https://www.cs.umd.edu/people/rudinger",
+      "portraitUrl": "https://www.cs.umd.edu/sites/default/files/styles/thumbnail/public/images/userpictures/rudinger_headshot.jpg?itok=jDMHSngM",
+      "researchAreas": [
+        "Natural Language Processing",
+        "Machine Learning and Data Science",
+        "AI and Robotics"
+      ]
+    },
+    {
+      "officialId": "psadeghi",
+      "name": "Pedram Sadeghian",
+      "officialSection": "CS Faculty",
+      "title": "Senior Lecturer",
+      "profileUrl": "https://www.cs.umd.edu/people/psadeghi",
+      "portraitUrl": "https://www.cs.umd.edu/sites/default/files/styles/thumbnail/public/default_images/user_icon.png?itok=YGrztVGT",
+      "researchAreas": []
+    },
+    {
+      "officialId": "hjs",
+      "name": "Hanan Samet",
+      "officialSection": "CS Faculty",
+      "title": "Professor",
+      "profileUrl": "https://www.cs.umd.edu/people/hjs",
+      "portraitUrl": "https://www.cs.umd.edu/sites/default/files/styles/thumbnail/public/images/userpictures/Samet%20%281%29.jpg?itok=k1g0JY_-&c=cd33b8eb4d7189fec1716c13afd67926",
+      "researchAreas": [
+        "Algorithms and Theory",
+        "AI and Robotics",
+        "Computer Vision and Machine Perception",
+        "Databases and Big Data",
+        "Graphics Visualization and VR AR",
+        "Information Retrieval and Geographic Information Systems (GIS)",
+        "Human Computer Interaction",
+        "Machine Learning and Data Science",
+        "Natural Language Processing",
+        "Programming Languages and Software Engineering"
+      ]
+    },
+    {
+      "officialId": "hanshao",
+      "name": "Han Shao",
+      "officialSection": "CS Faculty",
+      "title": "Assistant Professor",
+      "profileUrl": "https://www.cs.umd.edu/people/hanshao",
+      "portraitUrl": "https://www.cs.umd.edu/sites/default/files/styles/thumbnail/public/images/userpictures/photo-Han.jpg?itok=9R84WbT4&c=6d5a26912f50f0749ec50fbc89b8548d",
+      "researchAreas": [
+        "Machine Learning and Data Science",
+        "Algorithms and Theory",
+        "AI and Robotics"
+      ]
+    },
+    {
+      "officialId": "abhinav2",
+      "name": "Abhinav Shrivastava",
+      "officialSection": "CS Faculty",
+      "title": "Associate Professor",
+      "profileUrl": "https://www.cs.umd.edu/people/abhinav2",
+      "portraitUrl": "https://www.cs.umd.edu/sites/default/files/styles/thumbnail/public/images/userpictures/IMG_1721.jpeg?itok=zJ8ZWwxt&c=b89965011f3fb191da566021a72bb7ef",
+      "researchAreas": [
+        "Computer Vision and Machine Perception",
+        "AI and Robotics",
+        "Machine Learning and Data Science",
+        "Graphics Visualization and VR AR"
+      ]
+    },
+    {
+      "officialId": "asriniv1",
+      "name": "Aravind Srinivasan",
+      "officialSection": "CS Faculty",
+      "title": "Professor",
+      "profileUrl": "https://www.cs.umd.edu/people/asriniv1",
+      "portraitUrl": "https://www.cs.umd.edu/sites/default/files/styles/thumbnail/public/images/userpictures/aravind_srinivasan.jpg?itok=bHd3YQOQ&c=3f0e85f397707b258e373f22d3edab0a",
+      "researchAreas": [
+        "Algorithms and Theory",
+        "Bioinformatics and Computational Biology"
+      ]
+    },
+    {
+      "officialId": "milijana",
+      "name": "Milijana Surbatovich",
+      "officialSection": "CS Faculty",
+      "title": "Assistant Professor",
+      "profileUrl": "https://www.cs.umd.edu/people/milijana",
+      "portraitUrl": "https://www.cs.umd.edu/sites/default/files/styles/thumbnail/public/images/userpictures/myself.jpg?itok=-GsFtH9S&c=51ec306ba18bbe8f2a1e11964c5b2ac8",
+      "researchAreas": [
+        "Programming Languages and Software Engineering",
+        "Systems, Networking, and Architecture"
+      ]
+    },
+    {
+      "officialId": "asussman",
+      "name": "Alan Sussman",
+      "officialSection": "CS Faculty",
+      "title": "Professor",
+      "profileUrl": "https://www.cs.umd.edu/people/asussman",
+      "portraitUrl": "https://www.cs.umd.edu/sites/default/files/styles/thumbnail/public/images/userpictures/als-2012.jpg?itok=ZwDII0Oq",
+      "researchAreas": [
+        "Databases and Big Data",
+        "High Performance and Scientific Computing",
+        "Systems, Networking, and Architecture"
+      ]
+    },
+    {
+      "officialId": "rztao",
+      "name": "Runzhou Tao",
+      "officialSection": "CS Faculty",
+      "title": "Assistant Professor",
+      "profileUrl": "https://www.cs.umd.edu/people/rztao",
+      "portraitUrl": "https://www.cs.umd.edu/sites/default/files/styles/thumbnail/public/images/userpictures/photo_runzhou.jpg?itok=TarhPQpi&c=3687882dd248274805e3e1b520fa18bb",
+      "researchAreas": [
+        "Quantum Computing",
+        "Programming Languages and Software Engineering",
+        "Algorithms and Theory",
+        "Systems, Networking, and Architecture"
+      ]
+    },
+    {
+      "officialId": "nayeem",
+      "name": "Mohammad Nayeem Teli",
+      "officialSection": "CS Faculty",
+      "title": "Principal Lecturer",
+      "profileUrl": "https://www.cs.umd.edu/people/nayeem",
+      "portraitUrl": "https://www.cs.umd.edu/sites/default/files/styles/thumbnail/public/images/userpictures/linkedInNew.jpeg?itok=VFmaU_v1",
+      "researchAreas": [
+        "Computer Vision and Machine Perception",
+        "Machine Learning and Data Science"
+      ]
+    },
+    {
+      "officialId": "tokekar",
+      "name": "Pratap Tokekar",
+      "officialSection": "CS Faculty",
+      "title": "Associate Professor",
+      "profileUrl": "https://www.cs.umd.edu/people/tokekar",
+      "portraitUrl": "https://www.cs.umd.edu/sites/default/files/styles/thumbnail/public/images/userpictures/PratapTokekar.jpg?itok=nPVGvAdK&c=3d281b5cce7156f0a20a4dec5fd6800b",
+      "researchAreas": [
+        "AI and Robotics"
+      ]
+    },
+    {
+      "officialId": "dvanhorn",
+      "name": "David Van Horn",
+      "officialSection": "CS Faculty",
+      "title": "Associate Professor",
+      "profileUrl": "https://www.cs.umd.edu/people/dvanhorn",
+      "portraitUrl": "https://www.cs.umd.edu/sites/default/files/styles/thumbnail/public/images/userpictures/DSC_0054.jpg?itok=4xPZ2z3b&c=b2f2992411906de904c1e522be9221df",
+      "researchAreas": [
+        "Programming Languages and Software Engineering",
+        "Cybersecurity and Cryptography"
+      ]
+    },
+    {
+      "officialId": "varshney",
+      "name": "Amitabh Varshney",
+      "officialSection": "CS Faculty",
+      "title": "Professor",
+      "profileUrl": "https://www.cs.umd.edu/people/varshney",
+      "portraitUrl": "https://www.cs.umd.edu/sites/default/files/styles/thumbnail/public/images/userpictures/AVPortrait.png?itok=6O3cLvlo&c=9ac179a8d16ce10ede759587c5071d2a",
+      "researchAreas": [
+        "Graphics Visualization and VR AR",
+        "High Performance and Scientific Computing"
+      ]
+    },
+    {
+      "officialId": "sarahwie",
+      "name": "Sarah Wiegreffe",
+      "officialSection": "CS Faculty",
+      "title": "Assistant Professor",
+      "profileUrl": "https://www.cs.umd.edu/people/sarahwie",
+      "portraitUrl": "https://www.cs.umd.edu/sites/default/files/styles/thumbnail/public/images/userpictures/swiegref.jpeg?itok=aDf2G5IO&c=4e40d6657dd872b1566c9d90658976d4",
+      "researchAreas": [
+        "Natural Language Processing",
+        "Machine Learning and Data Science"
+      ]
+    },
+    {
+      "officialId": "xiaodiwu",
+      "name": "Xiaodi Wu",
+      "officialSection": "CS Faculty",
+      "title": "Associate Professor",
+      "profileUrl": "https://www.cs.umd.edu/people/xiaodiwu",
+      "portraitUrl": "https://www.cs.umd.edu/sites/default/files/styles/thumbnail/public/images/userpictures/head1.jpg?itok=hdNXb2Qz&c=c562bf9b816c13cb48e941d7309f2fb0",
+      "researchAreas": [
+        "Algorithms and Theory",
+        "Programming Languages and Software Engineering",
+        "Quantum Computing",
+        "Machine Learning and Data Science"
+      ]
+    },
+    {
+      "officialId": "immortal",
+      "name": "Justin Wyss-Gallifent",
+      "officialSection": "CS Faculty",
+      "title": "Principal Lecturer",
+      "profileUrl": "https://www.cs.umd.edu/people/immortal",
+      "portraitUrl": "https://www.cs.umd.edu/sites/default/files/styles/thumbnail/public/images/userpictures/justincuba.jpeg?itok=yuYP7f3M",
+      "researchAreas": []
+    },
+    {
+      "officialId": "fmy",
+      "name": "Fumeng Yang",
+      "officialSection": "CS Faculty",
+      "title": "Assistant Professor",
+      "profileUrl": "https://www.cs.umd.edu/people/fmy",
+      "portraitUrl": "https://www.cs.umd.edu/sites/default/files/styles/thumbnail/public/images/userpictures/FumengYang-2024-1.3.jpg?itok=w5XGwRAb",
+      "researchAreas": [
+        "Human Computer Interaction",
+        "Graphics Visualization and VR AR"
+      ]
+    },
+    {
+      "officialId": "icyoon",
+      "name": "Ilchul Yoon",
+      "officialSection": "CS Faculty",
+      "title": "Lecturer",
+      "profileUrl": "https://www.cs.umd.edu/people/icyoon",
+      "portraitUrl": "https://www.cs.umd.edu/sites/default/files/styles/thumbnail/public/images/userpictures/Ilchul_portrait.jpeg?itok=pAFg2DB_&c=e8308e3eb867cb171cb27d5ff6eab158",
+      "researchAreas": []
+    },
+    {
+      "officialId": "yaodong",
+      "name": "Yaodong Yu",
+      "officialSection": "CS Faculty",
+      "title": "Assistant Professor",
+      "profileUrl": "https://www.cs.umd.edu/people/yaodong",
+      "portraitUrl": "https://www.cs.umd.edu/sites/default/files/styles/thumbnail/public/default_images/user_icon.png?itok=YGrztVGT",
+      "researchAreas": []
+    },
+    {
+      "officialId": "zwicker",
+      "name": "Matthias Zwicker",
+      "officialSection": "CS Faculty",
+      "title": "Professor",
+      "profileUrl": "https://www.cs.umd.edu/people/zwicker",
+      "portraitUrl": "https://www.cs.umd.edu/sites/default/files/styles/thumbnail/public/images/userpictures/Zwicker%202021.jpg?itok=fzdP33uj&c=92f3cdb8644445de42d699eb4055c743",
+      "researchAreas": [
+        "Graphics Visualization and VR AR",
+        "Computer Vision and Machine Perception"
+      ]
+    },
+    {
+      "officialId": "warbaugh",
+      "name": "William Arbaugh",
+      "officialSection": "Emeritus Faculty",
+      "title": "Associate Professor Emeritus",
+      "profileUrl": "https://www.cs.umd.edu/people/warbaugh",
+      "portraitUrl": "https://www.cs.umd.edu/sites/default/files/styles/thumbnail/public/images/userpictures/Stading-small.jpg?itok=CkH3AL6u&c=d187ac3b097333d54e811155230f8e49",
+      "researchAreas": [
+        "Cybersecurity and Cryptography"
+      ]
+    },
+    {
+      "officialId": "basivic",
+      "name": "Victor Basili",
+      "officialSection": "Emeritus Faculty",
+      "title": "Professor Emeritus",
+      "profileUrl": "https://www.cs.umd.edu/people/basivic",
+      "portraitUrl": "https://www.cs.umd.edu/sites/default/files/styles/thumbnail/public/images/userpictures/Victor%20Basili.JPG?itok=qJg4cGXl&c=6913e9fe2e7512ff8c975403a4a7075b",
+      "researchAreas": [
+        "Programming Languages and Software Engineering"
+      ]
+    },
+    {
+      "officialId": "bederson",
+      "name": "Ben Bederson",
+      "officialSection": "Emeritus Faculty",
+      "title": "Professor Emeritus",
+      "profileUrl": "https://www.cs.umd.edu/people/bederson",
+      "portraitUrl": "https://www.cs.umd.edu/sites/default/files/styles/thumbnail/public/images/userpictures/bederson.jpg?itok=JEsGQ2jn&c=e5d8648c1772facb7da92b1aaa26fd09",
+      "researchAreas": [
+        "Human Computer Interaction"
+      ]
+    },
+    {
+      "officialId": "lsdavis",
+      "name": "Larry Davis",
+      "officialSection": "Emeritus Faculty",
+      "title": "Professor Emeritus",
+      "profileUrl": "https://www.cs.umd.edu/people/lsdavis",
+      "portraitUrl": "https://www.cs.umd.edu/sites/default/files/styles/thumbnail/public/images/userpictures/Larry%20Davis.jpg?itok=2wYUl9XA&c=4b85d17523de6774f524f7696576d8dc",
+      "researchAreas": [
+        "AI and Robotics",
+        "Computer Vision and Machine Perception"
+      ]
+    },
+    {
+      "officialId": "bdorr",
+      "name": "Bonnie Dorr",
+      "officialSection": "Emeritus Faculty",
+      "title": "Professor Emerita",
+      "profileUrl": "https://www.cs.umd.edu/people/bdorr",
+      "portraitUrl": "https://www.cs.umd.edu/sites/default/files/styles/thumbnail/public/images/userpictures/20210226-Dorr-headshot-cropped.jpg?itok=DWyQFBoL&c=99d9c90b941dfee211691ae43fa088f4",
+      "researchAreas": [
+        "AI and Robotics",
+        "Natural Language Processing"
+      ]
+    },
+    {
+      "officialId": "mhicks2",
+      "name": "Michael Hicks",
+      "officialSection": "Emeritus Faculty",
+      "title": "Professor Emeritus",
+      "profileUrl": "https://www.cs.umd.edu/people/mhicks2",
+      "portraitUrl": "https://www.cs.umd.edu/sites/default/files/styles/thumbnail/public/images/userpictures/hicks.jpg?itok=6oyBZYeS&c=aec91935ac7661c379336d8755aa8121",
+      "researchAreas": [
+        "Cybersecurity and Cryptography",
+        "Programming Languages and Software Engineering",
+        "Systems, Networking, and Architecture"
+      ]
+    },
+    {
+      "officialId": "jkatz2",
+      "name": "Jonathan Katz",
+      "officialSection": "Emeritus Faculty",
+      "title": "Professor Emeritus",
+      "profileUrl": "https://www.cs.umd.edu/people/jkatz2",
+      "portraitUrl": "https://www.cs.umd.edu/sites/default/files/styles/thumbnail/public/images/userpictures/katz%20jonathan.jpg?itok=flhpi0vG",
+      "researchAreas": [
+        "Algorithms and Theory",
+        "Cybersecurity and Cryptography"
+      ]
+    },
+    {
+      "officialId": "samirk",
+      "name": "Samir Khuller",
+      "officialSection": "Emeritus Faculty",
+      "title": "Professor Emeritus",
+      "profileUrl": "https://www.cs.umd.edu/people/samirk",
+      "portraitUrl": "https://www.cs.umd.edu/sites/default/files/styles/thumbnail/public/images/userpictures/Leadership%20%283%20of%203%29.jpg?itok=Hj3ZxW3q&c=8c89f8363a9df30eb1d9bb2786dee911",
+      "researchAreas": [
+        "Algorithms and Theory",
+        "Databases and Big Data"
+      ]
+    },
+    {
+      "officialId": "nau",
+      "name": "Dana Nau",
+      "officialSection": "Emeritus Faculty",
+      "title": "Professor Emeritus",
+      "profileUrl": "https://www.cs.umd.edu/people/nau",
+      "portraitUrl": "https://www.cs.umd.edu/sites/default/files/styles/thumbnail/public/images/userpictures/nau%20dana.png?itok=o0K87NWn",
+      "researchAreas": [
+        "AI and Robotics"
+      ]
+    },
+    {
+      "officialId": "oleary",
+      "name": "Dianne O'Leary",
+      "officialSection": "Emeritus Faculty",
+      "title": "Professor Emerita",
+      "profileUrl": "https://www.cs.umd.edu/people/oleary",
+      "portraitUrl": "https://www.cs.umd.edu/sites/default/files/styles/thumbnail/public/images/userpictures/o%27leary%20diane.jpg?itok=N1hqzIwW&c=6933a757ebdd2b319410fdd66faa618f",
+      "researchAreas": [
+        "High Performance and Scientific Computing"
+      ]
+    },
+    {
+      "officialId": "perlis",
+      "name": "Don Perlis",
+      "officialSection": "Emeritus Faculty",
+      "title": "Professor Emeritus",
+      "profileUrl": "https://www.cs.umd.edu/people/perlis",
+      "portraitUrl": "https://www.cs.umd.edu/sites/default/files/styles/thumbnail/public/images/userpictures/perlis%20don.jpg?itok=QhvcEk7K",
+      "researchAreas": [
+        "AI and Robotics"
+      ]
+    },
+    {
+      "officialId": "jplane",
+      "name": "Jandelyn Plane",
+      "officialSection": "Emeritus Faculty",
+      "title": "Principal Lecturer Emerita",
+      "profileUrl": "https://www.cs.umd.edu/people/jplane",
+      "portraitUrl": "https://www.cs.umd.edu/sites/default/files/styles/thumbnail/public/images/userpictures/JanPicture880K.jpg?itok=dYVaAKy9&c=c83e07bcbb91a5498b2ae8a6f96cff8e",
+      "researchAreas": []
+    },
+    {
+      "officialId": "pugh",
+      "name": "William Pugh",
+      "officialSection": "Emeritus Faculty",
+      "title": "Professor Emeritus",
+      "profileUrl": "https://www.cs.umd.edu/people/pugh",
+      "portraitUrl": "https://www.cs.umd.edu/sites/default/files/styles/thumbnail/public/images/userpictures/pugh%20william.jpg?itok=JZiemGRe",
+      "researchAreas": [
+        "Programming Languages and Software Engineering"
+      ]
+    },
+    {
+      "officialId": "reggia",
+      "name": "James Reggia",
+      "officialSection": "Emeritus Faculty",
+      "title": "Professor Emeritus",
+      "profileUrl": "https://www.cs.umd.edu/people/reggia",
+      "portraitUrl": "https://www.cs.umd.edu/sites/default/files/styles/thumbnail/public/images/userpictures/reggia%20james.jpg?itok=0zNxobnn&c=181637d776a025d0b8fab9cc8cf6903e",
+      "researchAreas": [
+        "AI and Robotics"
+      ]
+    },
+    {
+      "officialId": "nickr",
+      "name": "Nicholas Roussopoulos",
+      "officialSection": "Emeritus Faculty",
+      "title": "Professor Emeritus",
+      "profileUrl": "https://www.cs.umd.edu/people/nickr",
+      "portraitUrl": "https://www.cs.umd.edu/sites/default/files/styles/thumbnail/public/images/userpictures/Roussopolos%20nick.jpg?itok=eqiwkjjB",
+      "researchAreas": [
+        "Databases and Big Data",
+        "Information Retrieval and Geographic Information Systems (GIS)"
+      ]
+    },
+    {
+      "officialId": "shankar",
+      "name": "A. Udaya Shankar",
+      "officialSection": "Emeritus Faculty",
+      "title": "Professor Emeritus",
+      "profileUrl": "https://www.cs.umd.edu/people/shankar",
+      "portraitUrl": "https://www.cs.umd.edu/sites/default/files/styles/thumbnail/public/images/userpictures/Shankar.jpg?itok=hv0pumIe",
+      "researchAreas": [
+        "Systems, Networking, and Architecture"
+      ]
+    },
+    {
+      "officialId": "bshneide",
+      "name": "Ben Shneiderman",
+      "officialSection": "Emeritus Faculty",
+      "title": "Professor Emeritus",
+      "profileUrl": "https://www.cs.umd.edu/people/bshneide",
+      "portraitUrl": "https://www.cs.umd.edu/sites/default/files/styles/thumbnail/public/images/userpictures/shneiderman%20ben.jpg?itok=3V7uZyR8&c=fdfe621dff429f26ed4467f0dac19b82",
+      "researchAreas": [
+        "Human Computer Interaction",
+        "Machine Learning and Data Science"
+      ]
+    },
+    {
+      "officialId": "mvz",
+      "name": "Marvin Zelkowitz",
+      "officialSection": "Emeritus Faculty",
+      "title": "Professor Emeritus",
+      "profileUrl": "https://www.cs.umd.edu/people/mvz",
+      "portraitUrl": "https://www.cs.umd.edu/sites/default/files/styles/thumbnail/public/images/userpictures/zelkowitz.jpg?itok=lhs3JmaU&c=40bdd877075d007e5611d1577e17536c",
+      "researchAreas": [
+        "Programming Languages and Software Engineering"
+      ]
+    },
+    {
+      "officialId": "vva",
+      "name": "Victor Albert",
+      "officialSection": "Adjunct Faculty",
+      "title": "Adjunct Assistant Professor",
+      "profileUrl": "https://www.cs.umd.edu/people/vva",
+      "portraitUrl": "https://www.cs.umd.edu/sites/default/files/styles/thumbnail/public/images/userpictures/profile_2018_large.jpg?itok=GEEO21y5",
+      "researchAreas": []
+    },
+    {
+      "officialId": "leilani",
+      "name": "Leilani Battle",
+      "officialSection": "Adjunct Faculty",
+      "title": "Adjunct Assistant Professor",
+      "profileUrl": "https://www.cs.umd.edu/people/leilani",
+      "portraitUrl": "https://www.cs.umd.edu/sites/default/files/styles/thumbnail/public/images/userpictures/leilani_pp2.png?itok=-LPM_OHe&c=7dbd722d0d85d9198cbf62a16cccc4ad",
+      "researchAreas": [
+        "Databases and Big Data",
+        "Human Computer Interaction",
+        "Machine Learning and Data Science"
+      ]
+    },
+    {
+      "officialId": "amritbd",
+      "name": "Amrit Singh Bedi",
+      "officialSection": "Adjunct Faculty",
+      "title": "Adjunct Assistant Professor",
+      "profileUrl": "https://www.cs.umd.edu/people/amritbd",
+      "portraitUrl": "https://www.cs.umd.edu/sites/default/files/styles/thumbnail/public/default_images/user_icon.png?itok=YGrztVGT",
+      "researchAreas": []
+    },
+    {
+      "officialId": "bera",
+      "name": "Aniket Bera",
+      "officialSection": "Adjunct Faculty",
+      "title": "Adjunct Associate Professor",
+      "profileUrl": "https://www.cs.umd.edu/people/bera",
+      "portraitUrl": "https://www.cs.umd.edu/sites/default/files/styles/thumbnail/public/images/userpictures/20211108_Aniket_Bera_Research_33_2%20%281%29.JPG?itok=1bVXLM0Z",
+      "researchAreas": [
+        "Graphics Visualization and VR AR",
+        "AI and Robotics"
+      ]
+    },
+    {
+      "officialId": "mcoudron",
+      "name": "Matthew Coudron",
+      "officialSection": "Adjunct Faculty",
+      "title": "Adjunct Assistant Professor",
+      "profileUrl": "https://www.cs.umd.edu/people/mcoudron",
+      "portraitUrl": "https://www.cs.umd.edu/sites/default/files/styles/thumbnail/public/images/userpictures/SuitPicture.jpg?itok=z1NZRkJ-&c=c77dcfc30ac8f5862f32bec7d219d9f9",
+      "researchAreas": [
+        "Algorithms and Theory",
+        "Quantum Computing"
+      ]
+    },
+    {
+      "officialId": "johnd",
+      "name": "John Dickerson",
+      "officialSection": "Adjunct Faculty",
+      "title": "Adjunct Associate Professor",
+      "profileUrl": "https://www.cs.umd.edu/people/johnd",
+      "portraitUrl": "https://www.cs.umd.edu/sites/default/files/styles/thumbnail/public/images/userpictures/cropped_01.jpg?itok=IGdVPk1U",
+      "researchAreas": [
+        "AI and Robotics",
+        "Databases and Big Data",
+        "Machine Learning and Data Science"
+      ]
+    },
+    {
+      "officialId": "maxehr",
+      "name": "Max Ehrlich",
+      "officialSection": "Adjunct Faculty",
+      "title": "Adjunct Assistant Professor",
+      "profileUrl": "https://www.cs.umd.edu/people/maxehr",
+      "portraitUrl": "https://www.cs.umd.edu/sites/default/files/styles/thumbnail/public/images/userpictures/profile_12.jpg?itok=2zmYAjaj",
+      "researchAreas": [
+        "Computer Vision and Machine Perception",
+        "Machine Learning and Data Science"
+      ]
+    },
+    {
+      "officialId": "elm",
+      "name": "Niklas Elmqvist",
+      "officialSection": "Adjunct Faculty",
+      "title": "Adjunct Professor",
+      "profileUrl": "https://www.cs.umd.edu/people/elm",
+      "portraitUrl": "https://www.cs.umd.edu/sites/default/files/styles/thumbnail/public/images/userpictures/elmqvist1.jpg?itok=c3bzuYa-&c=abba7c084d792902a3a4a1ddbb1ecb80",
+      "researchAreas": [
+        "Human Computer Interaction"
+      ]
+    },
+    {
+      "officialId": "jfoster4",
+      "name": "Jeffrey Foster",
+      "officialSection": "Adjunct Faculty",
+      "title": "Adjunct Professor",
+      "profileUrl": "https://www.cs.umd.edu/people/jfoster4",
+      "portraitUrl": "https://www.cs.umd.edu/sites/default/files/styles/thumbnail/public/images/userpictures/IMG_4681%20-%20Version%202.jpg?itok=WrIp7_t0&c=38bdc46b21d706b48c7fdc32cfc9abba",
+      "researchAreas": [
+        "Cybersecurity and Cryptography",
+        "Programming Languages and Software Engineering"
+      ]
+    },
+    {
+      "officialId": "lgetoor",
+      "name": "Lise Getoor",
+      "officialSection": "Adjunct Faculty",
+      "title": "Adjunct Professor",
+      "profileUrl": "https://www.cs.umd.edu/people/lgetoor",
+      "portraitUrl": "https://www.cs.umd.edu/sites/default/files/styles/thumbnail/public/images/userpictures/lcg.jpg?itok=lLbhlo4O&c=abb1756f3b04a6f05fca11a13c1e85e9",
+      "researchAreas": [
+        "AI and Robotics",
+        "Databases and Big Data"
+      ]
+    },
+    {
+      "officialId": "grantj",
+      "name": "John Grant",
+      "officialSection": "Adjunct Faculty",
+      "title": "Adjunct Professor",
+      "profileUrl": "https://www.cs.umd.edu/people/grantj",
+      "portraitUrl": "https://www.cs.umd.edu/sites/default/files/styles/thumbnail/public/images/userpictures/John%20Grant.jpg?itok=rqNfDJGy&c=7fbc1b6af32ebb1695f634fd8a92bb24",
+      "researchAreas": [
+        "AI and Robotics"
+      ]
+    },
+    {
+      "officialId": "mgullans",
+      "name": "Michael Gullans",
+      "officialSection": "Adjunct Faculty",
+      "title": "Adjunct Assistant Professor",
+      "profileUrl": "https://www.cs.umd.edu/people/mgullans",
+      "portraitUrl": "https://www.cs.umd.edu/sites/default/files/styles/thumbnail/public/default_images/user_icon.png?itok=YGrztVGT",
+      "researchAreas": []
+    },
+    {
+      "officialId": "ileaniz",
+      "name": "Iker Leanizbarrutia Alonso",
+      "officialSection": "Adjunct Faculty",
+      "title": "Adjunct Assistant Professor",
+      "profileUrl": "https://www.cs.umd.edu/people/ileaniz",
+      "portraitUrl": "https://www.cs.umd.edu/sites/default/files/styles/thumbnail/public/default_images/user_icon.png?itok=YGrztVGT",
+      "researchAreas": []
+    },
+    {
+      "officialId": "sdr",
+      "name": "Marc Lichtman",
+      "officialSection": "Adjunct Faculty",
+      "title": "Adjunct Assistant Professor",
+      "profileUrl": "https://www.cs.umd.edu/people/sdr",
+      "portraitUrl": "https://www.cs.umd.edu/sites/default/files/styles/thumbnail/public/images/userpictures/avatar_2.jpg?itok=bnpVJt3g",
+      "researchAreas": [
+        "Machine Learning and Data Science",
+        "Systems, Networking, and Architecture"
+      ]
+    },
+    {
+      "officialId": "mlindval",
+      "name": "Mikael Lindvall",
+      "officialSection": "Adjunct Faculty",
+      "title": "Adjunct Professor",
+      "profileUrl": "https://www.cs.umd.edu/people/mlindval",
+      "portraitUrl": "https://www.cs.umd.edu/sites/default/files/styles/thumbnail/public/images/userpictures/lindvall%20mikael.gif?itok=-St8fQUK",
+      "researchAreas": []
+    },
+    {
+      "officialId": "yikailiu",
+      "name": "Yi-Kai Liu",
+      "officialSection": "Adjunct Faculty",
+      "title": "Adjunct Associate Professor",
+      "profileUrl": "https://www.cs.umd.edu/people/yikailiu",
+      "portraitUrl": "https://www.cs.umd.edu/sites/default/files/styles/thumbnail/public/images/userpictures/ykliu.jpg?itok=YDGy-qPq&c=e7c600a3d125e374fdb080322c65d532",
+      "researchAreas": [
+        "Algorithms and Theory",
+        "Quantum Computing"
+      ]
+    },
+    {
+      "officialId": "jmanly",
+      "name": "Jennifer Manly",
+      "officialSection": "Adjunct Faculty",
+      "title": "Adjunct Lecturer",
+      "profileUrl": "https://www.cs.umd.edu/people/jmanly",
+      "portraitUrl": "https://www.cs.umd.edu/sites/default/files/styles/thumbnail/public/images/userpictures/Manly_Jennifer_2019-4.jpg?itok=fPP9S3bN&c=673cfa28592b3a0269f2de1016303fb3",
+      "researchAreas": []
+    },
+    {
+      "officialId": "camiller",
+      "name": "Carl Miller",
+      "officialSection": "Adjunct Faculty",
+      "title": "Adjunct Associate Professor",
+      "profileUrl": "https://www.cs.umd.edu/people/camiller",
+      "portraitUrl": "https://www.cs.umd.edu/sites/default/files/styles/thumbnail/public/images/userpictures/HeadshotQuICS_1.JPG?itok=HS8hei-8",
+      "researchAreas": [
+        "Algorithms and Theory",
+        "Quantum Computing"
+      ]
+    },
+    {
+      "officialId": "anenkova",
+      "name": "Ani Nenkova",
+      "officialSection": "Adjunct Faculty",
+      "title": "Adjunct Professor",
+      "profileUrl": "https://www.cs.umd.edu/people/anenkova",
+      "portraitUrl": "https://www.cs.umd.edu/sites/default/files/styles/thumbnail/public/default_images/user_icon.png?itok=YGrztVGT",
+      "researchAreas": []
+    },
+    {
+      "officialId": "myniu",
+      "name": "Murphy Yuezhen Niu",
+      "officialSection": "Adjunct Faculty",
+      "title": "Adjunct Assistant Professor",
+      "profileUrl": "https://www.cs.umd.edu/people/myniu",
+      "portraitUrl": "https://www.cs.umd.edu/sites/default/files/styles/thumbnail/public/default_images/user_icon.png?itok=YGrztVGT",
+      "researchAreas": []
+    },
+    {
+      "officialId": "makro",
+      "name": "Mak Roberts",
+      "officialSection": "Adjunct Faculty",
+      "title": "Adjunct Lecturer",
+      "profileUrl": "https://www.cs.umd.edu/people/makro",
+      "portraitUrl": "https://www.cs.umd.edu/sites/default/files/styles/thumbnail/public/default_images/user_icon.png?itok=YGrztVGT",
+      "researchAreas": []
+    },
+    {
+      "officialId": "crytting",
+      "name": "C. Anton Rytting",
+      "officialSection": "Adjunct Faculty",
+      "title": "Adjunct Lecturer",
+      "profileUrl": "https://www.cs.umd.edu/people/crytting",
+      "portraitUrl": "https://www.cs.umd.edu/sites/default/files/styles/thumbnail/public/images/userpictures/Rytting_pic_2018_4MP.JPG?itok=BbVsk4Go&c=39ce2397253eb58912f2d1299b14ec7b",
+      "researchAreas": [
+        "Natural Language Processing"
+      ]
+    },
+    {
+      "officialId": "sahinalp",
+      "name": "S. Cenk Sahinalp",
+      "officialSection": "Adjunct Faculty",
+      "title": "Adjunct Professor",
+      "profileUrl": "https://www.cs.umd.edu/people/sahinalp",
+      "portraitUrl": "https://www.cs.umd.edu/sites/default/files/styles/thumbnail/public/images/userpictures/cenk_sahinalp_-_235px.png?itok=jWN1z0GT&c=b1276d9fc577af4bf2ec9276878c150b",
+      "researchAreas": [
+        "Bioinformatics and Computational Biology",
+        "Algorithms and Theory"
+      ]
+    },
+    {
+      "officialId": "runting",
+      "name": "Elaine Shi",
+      "officialSection": "Adjunct Faculty",
+      "title": "Adjunct Professor",
+      "profileUrl": "https://www.cs.umd.edu/people/runting",
+      "portraitUrl": "https://www.cs.umd.edu/sites/default/files/styles/thumbnail/public/default_images/user_icon.png?itok=YGrztVGT",
+      "researchAreas": [
+        "Cybersecurity and Cryptography",
+        "Programming Languages and Software Engineering"
+      ]
+    },
+    {
+      "officialId": "aiwei",
+      "name": "Wei Ai",
+      "officialSection": "Affiliate Faculty",
+      "title": "Affiliate Assistant Professor",
+      "profileUrl": "https://www.cs.umd.edu/people/aiwei",
+      "portraitUrl": "https://www.cs.umd.edu/sites/default/files/styles/thumbnail/public/default_images/user_icon.png?itok=YGrztVGT",
+      "researchAreas": []
+    },
+    {
+      "officialId": "galagic",
+      "name": "Gorjan Alagic",
+      "officialSection": "Affiliate Faculty",
+      "title": "Affiliate Associate Research Scientist",
+      "profileUrl": "https://www.cs.umd.edu/people/galagic",
+      "portraitUrl": "https://www.cs.umd.edu/sites/default/files/styles/thumbnail/public/images/userpictures/GorjanAlagic_headshot.JPG?itok=SsC4mQ2C&c=8533e89e3eceb5067d0b7649ca7ea5a2",
+      "researchAreas": [
+        "Quantum Computing"
+      ]
+    },
+    {
+      "officialId": "baras",
+      "name": "John Baras",
+      "officialSection": "Affiliate Faculty",
+      "title": "Affiliate Professor",
+      "profileUrl": "https://www.cs.umd.edu/people/baras",
+      "portraitUrl": "https://www.cs.umd.edu/sites/default/files/styles/thumbnail/public/images/userpictures/2016_JohnBaras_headshot_highres.png?itok=zqWgtWiw&c=f04a4e5055c7c58feb7c91a549fdc24d",
+      "researchAreas": []
+    },
+    {
+      "officialId": "abarg",
+      "name": "Alexander Barg",
+      "officialSection": "Affiliate Faculty",
+      "title": "Affiliate Professor",
+      "profileUrl": "https://www.cs.umd.edu/people/abarg",
+      "portraitUrl": "https://www.cs.umd.edu/sites/default/files/styles/thumbnail/public/images/userpictures/barg.jpg?itok=wY0AvygS&c=d80a27052ffdb507fb67cf4c743ac75e",
+      "researchAreas": [
+        "Algorithms and Theory"
+      ]
+    },
+    {
+      "officialId": "ssb",
+      "name": "Shuvra Bhattacharyya",
+      "officialSection": "Affiliate Faculty",
+      "title": "Affiliate Professor",
+      "profileUrl": "https://www.cs.umd.edu/people/ssb",
+      "portraitUrl": "https://www.cs.umd.edu/sites/default/files/styles/thumbnail/public/default_images/user_icon.png?itok=YGrztVGT",
+      "researchAreas": [
+        "AI and Robotics",
+        "IoT and Wearables Technology",
+        "Computer Vision and Machine Perception"
+      ]
+    },
+    {
+      "officialId": "cbuntain",
+      "name": "Cody Buntain",
+      "officialSection": "Affiliate Faculty",
+      "title": "Affiliate Assistant Professor",
+      "profileUrl": "https://www.cs.umd.edu/people/cbuntain",
+      "portraitUrl": "https://www.cs.umd.edu/sites/default/files/styles/thumbnail/public/images/userpictures/Me2.jpg?itok=vytfgLtn&c=a421c789bd2daad02dcb165525c60f7c",
+      "researchAreas": []
+    },
+    {
+      "officialId": "mariakc",
+      "name": "Maria Cameron",
+      "officialSection": "Affiliate Faculty",
+      "title": "Affiliate Professor",
+      "profileUrl": "https://www.cs.umd.edu/people/mariakc",
+      "portraitUrl": "https://www.cs.umd.edu/sites/default/files/styles/thumbnail/public/default_images/user_icon.png?itok=YGrztVGT",
+      "researchAreas": []
+    },
+    {
+      "officialId": "joelchan",
+      "name": "Joel Chan",
+      "officialSection": "Affiliate Faculty",
+      "title": "Affiliate Associate Professor",
+      "profileUrl": "https://www.cs.umd.edu/people/joelchan",
+      "portraitUrl": "https://www.cs.umd.edu/sites/default/files/styles/thumbnail/public/default_images/user_icon.png?itok=YGrztVGT",
+      "researchAreas": []
+    },
+    {
+      "officialId": "choe",
+      "name": "Eun Kyoung Choe",
+      "officialSection": "Affiliate Faculty",
+      "title": "Affiliate Associate Professor",
+      "profileUrl": "https://www.cs.umd.edu/people/choe",
+      "portraitUrl": "https://www.cs.umd.edu/sites/default/files/styles/thumbnail/public/images/userpictures/ekc-headshot.png?itok=G9yatmyM&c=944700ce38fad108b3a4dd60c04570bd",
+      "researchAreas": [
+        "Human Computer Interaction"
+      ]
+    },
+    {
+      "officialId": "gciampag",
+      "name": "Giovanni Luca Ciampaglia",
+      "officialSection": "Affiliate Faculty",
+      "title": "Affiliate Assistant Professor",
+      "profileUrl": "https://www.cs.umd.edu/people/gciampag",
+      "portraitUrl": "https://www.cs.umd.edu/sites/default/files/styles/thumbnail/public/default_images/user_icon.png?itok=YGrztVGT",
+      "researchAreas": []
+    },
+    {
+      "officialId": "mcukier",
+      "name": "Michel Cukier",
+      "officialSection": "Affiliate Faculty",
+      "title": "Affiliate Professor",
+      "profileUrl": "https://www.cs.umd.edu/people/mcukier",
+      "portraitUrl": "https://www.cs.umd.edu/sites/default/files/styles/thumbnail/public/images/userpictures/cukier.jpg?itok=FdqapjpB&c=c3d52dd84edd75ee92de7d70b6834fbb",
+      "researchAreas": [
+        "Cybersecurity and Cryptography"
+      ]
+    },
+    {
+      "officialId": "danadach",
+      "name": "Dana Dachman-Soled",
+      "officialSection": "Affiliate Faculty",
+      "title": "Affiliate Associate Professor",
+      "profileUrl": "https://www.cs.umd.edu/people/danadach",
+      "portraitUrl": "https://www.cs.umd.edu/sites/default/files/styles/thumbnail/public/default_images/user_icon.png?itok=YGrztVGT",
+      "researchAreas": [
+        "Algorithms and Theory",
+        "Cybersecurity and Cryptography"
+      ]
+    },
+    {
+      "officialId": "deflo",
+      "name": "Leila De Floriani",
+      "officialSection": "Affiliate Faculty",
+      "title": "Affiliate Professor",
+      "profileUrl": "https://www.cs.umd.edu/people/deflo",
+      "portraitUrl": "https://www.cs.umd.edu/sites/default/files/styles/thumbnail/public/images/userpictures/%C2%A9RM_Leila_De-Floriani_March2024_webpage.jpg?itok=aejt9TiF",
+      "researchAreas": [
+        "Graphics Visualization and VR AR",
+        "Information Retrieval and Geographic Information Systems (GIS)",
+        "Machine Learning and Data Science"
+      ]
+    },
+    {
+      "officialId": "yancy",
+      "name": "Yancy Diaz-Mercado",
+      "officialSection": "Affiliate Faculty",
+      "title": "Affiliate Assistant Professor",
+      "profileUrl": "https://www.cs.umd.edu/people/yancy",
+      "portraitUrl": "https://www.cs.umd.edu/sites/default/files/styles/thumbnail/public/images/userpictures/YancyDiaz-Mercado_Headshot_Small_Square_1.jpg?itok=ChKinYTY",
+      "researchAreas": []
+    },
+    {
+      "officialId": "tudor",
+      "name": "Tudor Dumitras",
+      "officialSection": "Affiliate Faculty",
+      "title": "Affiliate Associate Professor",
+      "profileUrl": "https://www.cs.umd.edu/people/tudor",
+      "portraitUrl": "https://www.cs.umd.edu/sites/default/files/styles/thumbnail/public/default_images/user_icon.png?itok=YGrztVGT",
+      "researchAreas": [
+        "Cybersecurity and Cryptography"
+      ]
+    },
+    {
+      "officialId": "sanghamd",
+      "name": "Sanghamitra Dutta",
+      "officialSection": "Affiliate Faculty",
+      "title": "Affiliate Assistant Professor",
+      "profileUrl": "https://www.cs.umd.edu/people/sanghamd",
+      "portraitUrl": "https://www.cs.umd.edu/sites/default/files/styles/thumbnail/public/images/userpictures/mmorgan_240612_18305_1.jpg?itok=8oD5Cdek&c=993fbd4eaee89788bc6269f1235e636e",
+      "researchAreas": [
+        "Algorithms and Theory",
+        "Machine Learning and Data Science",
+        "Computer Vision and Machine Perception"
+      ]
+    },
+    {
+      "officialId": "serete",
+      "name": "Sheena Erete",
+      "officialSection": "Affiliate Faculty",
+      "title": "Affiliate Associate Professor",
+      "profileUrl": "https://www.cs.umd.edu/people/serete",
+      "portraitUrl": "https://www.cs.umd.edu/sites/default/files/styles/thumbnail/public/default_images/user_icon.png?itok=YGrztVGT",
+      "researchAreas": []
+    },
+    {
+      "officialId": "nhf",
+      "name": "Naomi Feldman",
+      "officialSection": "Affiliate Faculty",
+      "title": "Affiliate Associate Professor",
+      "profileUrl": "https://www.cs.umd.edu/people/nhf",
+      "portraitUrl": "https://www.cs.umd.edu/sites/default/files/styles/thumbnail/public/images/userpictures/naomiMD4.jpg?itok=xR96k_yn",
+      "researchAreas": [
+        "Natural Language Processing",
+        "Machine Learning and Data Science"
+      ]
+    },
+    {
+      "officialId": "vfrias",
+      "name": "Vanessa Frias-Martinez",
+      "officialSection": "Affiliate Faculty",
+      "title": "Affiliate Associate Professor",
+      "profileUrl": "https://www.cs.umd.edu/people/vfrias",
+      "portraitUrl": "https://www.cs.umd.edu/sites/default/files/styles/thumbnail/public/images/userpictures/Frias-Martinez.png?itok=p7Ic5Pxw&c=f05a46be5cf35b78dc8369e73617067b",
+      "researchAreas": [
+        "Databases and Big Data",
+        "Information Retrieval and Geographic Information Systems (GIS)",
+        "Machine Learning and Data Science"
+      ]
+    },
+    {
+      "officialId": "rezag",
+      "name": "Reza Ghanadan",
+      "officialSection": "Affiliate Faculty",
+      "title": "Affiliate Research Professor",
+      "profileUrl": "https://www.cs.umd.edu/people/rezag",
+      "portraitUrl": "https://www.cs.umd.edu/sites/default/files/styles/thumbnail/public/default_images/user_icon.png?itok=YGrztVGT",
+      "researchAreas": []
+    },
+    {
+      "officialId": "jgolbeck",
+      "name": "Jennifer Golbeck",
+      "officialSection": "Affiliate Faculty",
+      "title": "Affiliate Professor",
+      "profileUrl": "https://www.cs.umd.edu/people/jgolbeck",
+      "portraitUrl": "https://www.cs.umd.edu/sites/default/files/styles/thumbnail/public/images/userpictures/golbeck%20jen.jpg?itok=7dE_Nl3t",
+      "researchAreas": [
+        "Human Computer Interaction",
+        "Machine Learning and Data Science"
+      ]
+    },
+    {
+      "officialId": "horty",
+      "name": "John Horty",
+      "officialSection": "Affiliate Faculty",
+      "title": "Affiliate Professor",
+      "profileUrl": "https://www.cs.umd.edu/people/horty",
+      "portraitUrl": "https://www.cs.umd.edu/sites/default/files/styles/thumbnail/public/default_images/user_icon.png?itok=YGrztVGT",
+      "researchAreas": []
+    },
+    {
+      "officialId": "hernisa",
+      "name": "Hernisa Kacorri",
+      "officialSection": "Affiliate Faculty",
+      "title": "Affiliate Assistant Professor",
+      "profileUrl": "https://www.cs.umd.edu/people/hernisa",
+      "portraitUrl": "https://www.cs.umd.edu/sites/default/files/styles/thumbnail/public/images/userpictures/kacorri_hernisa-05.jpg?itok=pJREvWL_&c=4d4876b7d1d37e6a341549f776b284b9",
+      "researchAreas": [
+        "Natural Language Processing",
+        "Human Computer Interaction",
+        "Machine Learning and Data Science"
+      ]
+    },
+    {
+      "officialId": "yongkwon",
+      "name": "Yonghwi Kwon",
+      "officialSection": "Affiliate Faculty",
+      "title": "Affiliate Assistant Professor",
+      "profileUrl": "https://www.cs.umd.edu/people/yongkwon",
+      "portraitUrl": "https://www.cs.umd.edu/sites/default/files/styles/thumbnail/public/images/userpictures/yonghwi_kwon_1.jpg?itok=S9RGfGdg",
+      "researchAreas": [
+        "Cybersecurity and Cryptography",
+        "Programming Languages and Software Engineering",
+        "Systems, Networking, and Architecture"
+      ]
+    },
+    {
+      "officialId": "lazar",
+      "name": "Amanda Lazar",
+      "officialSection": "Affiliate Faculty",
+      "title": "Affiliate Assistant Professor",
+      "profileUrl": "https://www.cs.umd.edu/people/lazar",
+      "portraitUrl": "https://www.cs.umd.edu/sites/default/files/styles/thumbnail/public/images/userpictures/lazar_amanda_0.jpg?itok=hc-ls-Wf&c=ab66837cc39ed6e68885e55367b88470",
+      "researchAreas": [
+        "Human Computer Interaction"
+      ]
+    },
+    {
+      "officialId": "angliece",
+      "name": "Ang Li",
+      "officialSection": "Affiliate Faculty",
+      "title": "Affiliate Assistant Professor",
+      "profileUrl": "https://www.cs.umd.edu/people/angliece",
+      "portraitUrl": "https://www.cs.umd.edu/sites/default/files/styles/thumbnail/public/images/userpictures/250221_umd_037.jpg?itok=ziptWZTI&c=5c62e77da41313cea2ee6bc223f5cbe3",
+      "researchAreas": []
+    },
+    {
+      "officialId": "marciano",
+      "name": "Richard Marciano",
+      "officialSection": "Affiliate Faculty",
+      "title": "Affiliate Professor",
+      "profileUrl": "https://www.cs.umd.edu/people/marciano",
+      "portraitUrl": "https://www.cs.umd.edu/sites/default/files/styles/thumbnail/public/images/userpictures/Richard_Marciano.jpg?itok=7imKud4F&c=394859658442b488a6f07c4a06a097f3",
+      "researchAreas": [
+        "Databases and Big Data",
+        "Information Retrieval and Geographic Information Systems (GIS)",
+        "Machine Learning and Data Science"
+      ]
+    },
+    {
+      "officialId": "juliame",
+      "name": "Julia Mendelsohn",
+      "officialSection": "Affiliate Faculty",
+      "title": "Affiliate Assistant Professor",
+      "profileUrl": "https://www.cs.umd.edu/people/juliame",
+      "portraitUrl": "https://www.cs.umd.edu/sites/default/files/styles/thumbnail/public/default_images/user_icon.png?itok=YGrztVGT",
+      "researchAreas": []
+    },
+    {
+      "officialId": "oard",
+      "name": "Doug Oard",
+      "officialSection": "Affiliate Faculty",
+      "title": "Affiliate Professor",
+      "profileUrl": "https://www.cs.umd.edu/people/oard",
+      "portraitUrl": "https://www.cs.umd.edu/sites/default/files/styles/thumbnail/public/images/userpictures/oard%20douglas.jpg?itok=pZaYPJhF&c=c883ae031fffeab0249d0ec0e23ac05d",
+      "researchAreas": [
+        "AI and Robotics",
+        "Human Computer Interaction",
+        "Information Retrieval and Geographic Information Systems (GIS)"
+      ]
+    },
+    {
+      "officialId": "otte",
+      "name": "Michael Otte",
+      "officialSection": "Affiliate Faculty",
+      "title": "Affiliate Assistant Professor",
+      "profileUrl": "https://www.cs.umd.edu/people/otte",
+      "portraitUrl": "https://www.cs.umd.edu/sites/default/files/styles/thumbnail/public/images/userpictures/facultyfile_1.jpg?itok=T-rfPkCS&c=3e507ab2ee0b32a17a0594da03d5baa8",
+      "researchAreas": []
+    },
+    {
+      "officialId": "lraschid",
+      "name": "Louiqa Raschid",
+      "officialSection": "Affiliate Faculty",
+      "title": "Affiliate Professor",
+      "profileUrl": "https://www.cs.umd.edu/people/lraschid",
+      "portraitUrl": "https://www.cs.umd.edu/sites/default/files/styles/thumbnail/public/images/userpictures/raschid%20louiqa.jpg?itok=7gEJU32z&c=9dab11dbe37b4e66e2df439752a4169c",
+      "researchAreas": [
+        "Databases and Big Data",
+        "Machine Learning and Data Science"
+      ]
+    },
+    {
+      "officialId": "resnik",
+      "name": "Philip Resnik",
+      "officialSection": "Affiliate Faculty",
+      "title": "Affiliate Professor",
+      "profileUrl": "https://www.cs.umd.edu/people/resnik",
+      "portraitUrl": "https://www.cs.umd.edu/sites/default/files/styles/thumbnail/public/images/userpictures/resnik_headshot2_spring2023.png?itok=0HwYCheC",
+      "researchAreas": [
+        "AI and Robotics",
+        "Machine Learning and Data Science",
+        "Natural Language Processing"
+      ]
+    },
+    {
+      "officialId": "vishkin",
+      "name": "Uzi Vishkin",
+      "officialSection": "Affiliate Faculty",
+      "title": "Affiliate Professor",
+      "profileUrl": "https://www.cs.umd.edu/people/vishkin",
+      "portraitUrl": "https://www.cs.umd.edu/sites/default/files/styles/thumbnail/public/images/userpictures/vishkin%20uzi.jpg?itok=4ZuFP361&c=120a968910f844ae4e17fa21fbb542ea",
+      "researchAreas": [
+        "Algorithms and Theory"
+      ]
+    },
+    {
+      "officialId": "weintrop",
+      "name": "David Weintrop",
+      "officialSection": "Affiliate Faculty",
+      "title": "Affiliate Associate Professor",
+      "profileUrl": "https://www.cs.umd.edu/people/weintrop",
+      "portraitUrl": "https://www.cs.umd.edu/sites/default/files/styles/thumbnail/public/images/userpictures/DW-profile-pic4.jpg?itok=ROwPtu4P",
+      "researchAreas": [
+        "Human Computer Interaction"
+      ]
+    },
+    {
+      "officialId": "mumu",
+      "name": "Mumu Xu",
+      "officialSection": "Affiliate Faculty",
+      "title": "Affiliate Associate Professor",
+      "profileUrl": "https://www.cs.umd.edu/people/mumu",
+      "portraitUrl": "https://www.cs.umd.edu/sites/default/files/styles/thumbnail/public/images/userpictures/Xu_Pic.jpeg?itok=8xtRgzPv",
+      "researchAreas": [
+        "AI and Robotics",
+        "Programming Languages and Software Engineering"
+      ]
+    },
+    {
+      "officialId": "hzyang",
+      "name": "Haizhao Yang",
+      "officialSection": "Affiliate Faculty",
+      "title": "Affiliate Professor",
+      "profileUrl": "https://www.cs.umd.edu/people/hzyang",
+      "portraitUrl": "https://www.cs.umd.edu/sites/default/files/styles/thumbnail/public/images/userpictures/2023%20blur.png?itok=x1AGxRPk&c=bd0eefd34f830c642297fa70c5be2282",
+      "researchAreas": [
+        "Algorithms and Theory",
+        "AI and Robotics",
+        "High Performance and Scientific Computing",
+        "Machine Learning and Data Science"
+      ]
+    },
+    {
+      "officialId": "yeung",
+      "name": "Donald Yeung",
+      "officialSection": "Affiliate Faculty",
+      "title": "Affiliate Professor",
+      "profileUrl": "https://www.cs.umd.edu/people/yeung",
+      "portraitUrl": "https://www.cs.umd.edu/sites/default/files/styles/thumbnail/public/images/userpictures/yeung-2020.png?itok=rp-eW-Ua&c=f5019c3f33b4bc8858ff7946377df7a3",
+      "researchAreas": []
+    },
+    {
+      "officialId": "cunxiyu",
+      "name": "Cunxi Yu",
+      "officialSection": "Affiliate Faculty",
+      "title": "Affiliate Assistant Professor",
+      "profileUrl": "https://www.cs.umd.edu/people/cunxiyu",
+      "portraitUrl": "https://www.cs.umd.edu/sites/default/files/styles/thumbnail/public/images/userpictures/cunxi2.jpg?itok=L-pXcO6Z&c=549eacddf2b7d819f39323150d73751e",
+      "researchAreas": [
+        "Systems, Networking, and Architecture",
+        "Machine Learning and Data Science"
+      ]
+    },
+    {
+      "officialId": "kaiqing",
+      "name": "Kaiqing Zhang",
+      "officialSection": "Affiliate Faculty",
+      "title": "Affiliate Assistant Professor",
+      "profileUrl": "https://www.cs.umd.edu/people/kaiqing",
+      "portraitUrl": "https://www.cs.umd.edu/sites/default/files/styles/thumbnail/public/images/userpictures/photo_kaiqing_5.JPG?itok=rSdWRH2v",
+      "researchAreas": [
+        "AI and Robotics",
+        "Algorithms and Theory",
+        "Machine Learning and Data Science"
+      ]
+    },
+    {
+      "officialId": "zikui",
+      "name": "Zikui Cai",
+      "officialSection": "Post Doctoral Scientists/Research Assistants",
+      "title": "Post-Doctoral Associate",
+      "profileUrl": "https://www.cs.umd.edu/people/zikui",
+      "portraitUrl": "https://www.cs.umd.edu/sites/default/files/styles/thumbnail/public/default_images/user_icon.png?itok=YGrztVGT",
+      "researchAreas": []
+    },
+    {
+      "officialId": "mcai1",
+      "name": "Mara Cai",
+      "officialSection": "Post Doctoral Scientists/Research Assistants",
+      "title": "Faculty Specialist",
+      "profileUrl": "https://www.cs.umd.edu/people/mcai1",
+      "portraitUrl": "https://www.cs.umd.edu/sites/default/files/styles/thumbnail/public/default_images/user_icon.png?itok=YGrztVGT",
+      "researchAreas": []
+    }
+  ]
+}

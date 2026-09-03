@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-03",
+  "attemptedCount": 10,
+  "readyCount": 10,
+  "blockedAttemptedCount": 0,
+  "notAttemptedAfterCheckpoint": 256,
+  "attempts": [
+    { "name": "Jimmy Ho Man Lee", "result": "ready", "checked": ["CUHK official profile", "CUHK faculty roster"] },
+    { "name": "Zili Shao", "result": "ready", "checked": ["CUHK official profile", "CUHK faculty roster", "first-party homepage"] },
+    { "name": "Kede Ma", "result": "ready", "checked": ["CityUHK Scholars profile", "CityU CS faculty roster"] },
+    { "name": "Jing Liao", "result": "ready", "checked": ["CityUHK Scholars profile", "CityU CS faculty roster"] },
+    { "name": "Linqi Song", "result": "ready", "checked": ["CityUHK Scholars profile", "CityU CS faculty roster"] },
+    { "name": "Mengmi Zhang", "result": "ready", "checked": ["NTU research profile", "NTU CCDS faculty roster", "first-party lab page"] },
+    { "name": "Ilya Sergey", "result": "ready", "checked": ["NUS official profile", "NUS faculty roster", "first-party student roster", "NUS PLDI award report"] },
+    { "name": "Suranga Nanayakkara", "result": "ready", "checked": ["NUS official profile", "NUS faculty roster", "Augmented Human Lab people page"] },
+    { "name": "Hady W. Lauw", "result": "ready", "checked": ["SMU faculty profile", "SMU faculty roster", "first-party CV"] },
+    { "name": "Kwoh Chee Keong", "result": "ready", "checked": ["NTU faculty roster", "first-party homepage", "NTU PACE biography", "NTU HIL student seminar"] }
+  ],
+  "remainingBlockers": {
+    "missing_portrait": 45,
+    "missing_relationship": 211,
+    "note": "Unattempted records preserve their original master-ledger disposition."
+  }
+}

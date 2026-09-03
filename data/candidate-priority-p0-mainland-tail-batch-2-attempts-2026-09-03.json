@@ -1,0 +1,66 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-03",
+  "batch": "candidate-priority-p0-mainland-tail-batch-2-2026",
+  "attempts": [
+    {
+      "name": "贾珈",
+      "masterName": "Jia JIA",
+      "checked": [
+        "https://www.cs.tsinghua.edu.cn/csen/info/1154/3920.htm",
+        "https://hcsi.cs.tsinghua.edu.cn/",
+        "https://hcsi.cs.tsinghua.edu.cn/jiajiaabout",
+        "https://www.cs.tsinghua.edu.cn/csen/Faculty/Full_time_Faculty.htm"
+      ],
+      "portrait": "Tsinghua CS official faculty portrait",
+      "relationship": "Coauthored IJCAI 2018 and TKDE 2017 papers with 唐杰",
+      "result": "ready"
+    },
+    {
+      "name": "王奕森",
+      "checked": [
+        "https://www.cis.pku.edu.cn/info/1362/2264.htm",
+        "https://zero-lab-pku.github.io/authors/wangyisen/",
+        "https://zero-lab-pku.github.io/personwise/wangyifei/"
+      ],
+      "portrait": "PKU Intelligence official faculty portrait",
+      "relationship": "王逸飞 states that 王奕森 and 杨剑生 co-supervise him",
+      "result": "ready"
+    },
+    {
+      "name": "卢宗青",
+      "checked": [
+        "https://idm.pku.edu.cn/info/1017/1032.htm",
+        "https://z0ngqing.github.io/",
+        "https://z0ngqing.github.io/project/"
+      ],
+      "portrait": "PKU official faculty portrait",
+      "relationship": "Lab roster lists Haobin Jiang among current PhD students",
+      "result": "ready"
+    },
+    {
+      "name": "孙富春",
+      "masterName": "Fuchun SUN",
+      "checked": [
+        "https://www.cs.tsinghua.edu.cn/csen/info/1312/4393.htm",
+        "https://www.tsinghua.edu.cn/en/info/1245/14991.htm",
+        "https://www.cs.tsinghua.edu.cn/csen/Faculty/Full_time_Faculty.htm"
+      ],
+      "portrait": "Tsinghua CS official faculty portrait",
+      "relationship": "Official publication list records sustained coauthorship with 刘华平 and a monograph with 张钹",
+      "result": "ready"
+    },
+    {
+      "name": "刘华平",
+      "masterName": "Huaping LIU",
+      "checked": [
+        "https://www.cs.tsinghua.edu.cn/csen/info/1312/4389.htm",
+        "https://ac.cs.tsinghua.edu.cn/faculty.html",
+        "https://www.cs.tsinghua.edu.cn/csen/Faculty/Full_time_Faculty.htm"
+      ],
+      "portrait": "Tsinghua CS official faculty portrait",
+      "relationship": "Official publication list records multiple papers with 孙富春",
+      "result": "ready"
+    }
+  ]
+}

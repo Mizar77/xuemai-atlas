@@ -1,0 +1,1209 @@
+{
+  "apiNumFound": 132,
+  "apiQuery": {
+    "_api_proxy_uri": "people",
+    "fq[]": "ss_name:Principal Investigators OR ss_name:Core/Dual OR ss_name:Associates OR ss_name:Emeritus",
+    "q": "*:*",
+    "rows": 216,
+    "start": 0
+  },
+  "completeness": "complete",
+  "fetchedAt": "2026-09-02",
+  "institution": "Massachusetts Institute of Technology",
+  "officialDataUrl": "https://www.csail.mit.edu/api-proxy/angular-solr",
+  "officialPageUrl": "https://www.csail.mit.edu/people?roleFacets=Principal%20Investigators%2CCore%2FDual%2CAssociates%2CEmeritus",
+  "officialRosterCount": 132,
+  "people": [
+    {
+      "name": "Hal Abelson",
+      "officialId": "/person/hal-abelson",
+      "officialRole": "Core/Dual",
+      "portraitUrl": "https://www.csail.mit.edu/sites/default/files/styles/headshot/public/images/migration/abelson.jpg",
+      "profileUrl": "https://www.csail.mit.edu/person/hal-abelson",
+      "summary": "Programming, privacy, App Inventor",
+      "title": "Professor"
+    },
+    {
+      "name": "Ted Adelson",
+      "officialId": "/person/ted-adelson",
+      "officialRole": "Core/Dual",
+      "portraitUrl": "https://www.csail.mit.edu/sites/default/files/styles/headshot/public/images/people/card/Ted Adelson.jpg",
+      "profileUrl": "https://www.csail.mit.edu/person/ted-adelson",
+      "summary": "Vision, touch sensing, robotics",
+      "title": "Professor"
+    },
+    {
+      "name": "Anant Agarwal",
+      "officialId": "/person/anant-agarwal",
+      "officialRole": "Associates",
+      "portraitUrl": "https://www.csail.mit.edu/sites/default/files/styles/headshot/public/images/migration/agarwal.jpg",
+      "profileUrl": "https://www.csail.mit.edu/person/anant-agarwal",
+      "summary": "Systems, architecture, online learning, edX",
+      "title": "Professor"
+    },
+    {
+      "name": "Pulkit Agrawal",
+      "officialId": "/person/pulkit-agrawal",
+      "officialRole": "Core/Dual",
+      "portraitUrl": "https://www.csail.mit.edu/sites/default/files/styles/headshot/public/images/people/card/pulkit.jpg",
+      "profileUrl": "https://www.csail.mit.edu/person/pulkit-agrawal",
+      "summary": "",
+      "title": "Associate Professor"
+    },
+    {
+      "name": "Mohammad Alizadeh",
+      "officialId": "/person/mohammad-alizadeh",
+      "officialRole": "Core/Dual",
+      "portraitUrl": "https://www.csail.mit.edu/sites/default/files/styles/headshot/public/images/people/card/MohammadAlizadeh.jpeg",
+      "profileUrl": "https://www.csail.mit.edu/person/mohammad-alizadeh",
+      "summary": "",
+      "title": "Professor"
+    },
+    {
+      "name": "Eric Alm",
+      "officialId": "/person/eric-alm",
+      "officialRole": "Associates",
+      "portraitUrl": "",
+      "profileUrl": "https://www.csail.mit.edu/person/eric-alm",
+      "summary": "",
+      "title": "Professor"
+    },
+    {
+      "name": "Saman Amarasinghe",
+      "officialId": "/person/saman-amarasinghe",
+      "officialRole": "Core/Dual",
+      "portraitUrl": "https://www.csail.mit.edu/sites/default/files/styles/headshot/public/images/migration/amarasinghe.jpg",
+      "profileUrl": "https://www.csail.mit.edu/person/saman-amarasinghe",
+      "summary": "Compilers, architectures, software engineering",
+      "title": "Professor"
+    },
+    {
+      "name": "Jacob Andreas",
+      "officialId": "/person/jacob-andreas",
+      "officialRole": "Core/Dual",
+      "portraitUrl": "https://www.csail.mit.edu/sites/default/files/styles/headshot/public/images/people/card/Jacob Andreas_0.jpeg",
+      "profileUrl": "https://www.csail.mit.edu/person/jacob-andreas",
+      "summary": "",
+      "title": "Associate Professor"
+    },
+    {
+      "name": "Hari Balakrishnan",
+      "officialId": "/person/hari-balakrishnan",
+      "officialRole": "Core/Dual",
+      "portraitUrl": "https://www.csail.mit.edu/sites/default/files/styles/headshot/public/images/people/card/HariBalakrishnan-1.jpg",
+      "profileUrl": "https://www.csail.mit.edu/person/hari-balakrishnan",
+      "summary": "Networks, wireless, mobile systems, data management",
+      "title": "Professor"
+    },
+    {
+      "name": "Regina Barzilay",
+      "officialId": "/person/regina-barzilay",
+      "officialRole": "Core/Dual",
+      "portraitUrl": "https://www.csail.mit.edu/sites/default/files/styles/headshot/public/images/people/card/regina.jpeg",
+      "profileUrl": "https://www.csail.mit.edu/person/regina-barzilay",
+      "summary": "Natural language processing, machine learning",
+      "title": "Professor"
+    },
+    {
+      "name": "Sara Beery",
+      "officialId": "/person/sara-beery",
+      "officialRole": "Core/Dual",
+      "portraitUrl": "https://www.csail.mit.edu/sites/default/files/styles/headshot/public/images/people/card/SaraBeery1.png",
+      "profileUrl": "https://www.csail.mit.edu/person/sara-beery",
+      "summary": "",
+      "title": "Assistant Professor"
+    },
+    {
+      "name": "Adam Belay",
+      "officialId": "/person/adam-belay",
+      "officialRole": "Core/Dual",
+      "portraitUrl": "https://www.csail.mit.edu/sites/default/files/styles/headshot/public/images/people/card/picture-1326.jpg",
+      "profileUrl": "https://www.csail.mit.edu/person/adam-belay",
+      "summary": "Operating systems, networking, systems security, and performance",
+      "title": "Associate Professor"
+    },
+    {
+      "name": "Bonnie Berger",
+      "officialId": "/person/bonnie-berger",
+      "officialRole": "Core/Dual",
+      "portraitUrl": "https://www.csail.mit.edu/sites/default/files/styles/headshot/public/images/migration/berger.jpg",
+      "profileUrl": "https://www.csail.mit.edu/person/bonnie-berger",
+      "summary": "Computational biology, genomics",
+      "title": "Professor"
+    },
+    {
+      "name": "Tim Berners-Lee",
+      "officialId": "/person/tim-berners-lee",
+      "officialRole": "Emeritus",
+      "portraitUrl": "https://www.csail.mit.edu/sites/default/files/styles/headshot/public/images/migration/berners-lee.jpg",
+      "profileUrl": "https://www.csail.mit.edu/person/tim-berners-lee",
+      "summary": "Systems, privacy, inventor of the World Wide Web",
+      "title": "Professor Emeritus"
+    },
+    {
+      "name": "Andreea Bobu",
+      "officialId": "/person/andreea-bobu",
+      "officialRole": "Core/Dual",
+      "portraitUrl": "https://www.csail.mit.edu/sites/default/files/styles/headshot/public/images/people/card/andreea1.jpg",
+      "profileUrl": "https://www.csail.mit.edu/person/andreea-bobu",
+      "summary": "",
+      "title": "Assistant Professor"
+    },
+    {
+      "name": "Jas Bordeau Brooks",
+      "officialId": "/person/jas-bordeau-brooks",
+      "officialRole": "Core/Dual",
+      "portraitUrl": "",
+      "profileUrl": "https://www.csail.mit.edu/person/jas-bordeau-brooks",
+      "summary": "",
+      "title": "Assistant Professor"
+    },
+    {
+      "name": "Tamara Broderick",
+      "officialId": "/person/tamara-broderick",
+      "officialRole": "Associates",
+      "portraitUrl": "https://www.csail.mit.edu/sites/default/files/styles/headshot/public/images/people/card/head_pic.jpg",
+      "profileUrl": "https://www.csail.mit.edu/person/tamara-broderick",
+      "summary": "Machine learning, statistics, Bayesian methods, inference",
+      "title": "Associate Professor"
+    },
+    {
+      "name": "Rodney Brooks",
+      "officialId": "/person/rodney-brooks",
+      "officialRole": "Emeritus",
+      "portraitUrl": "https://www.csail.mit.edu/sites/default/files/styles/headshot/public/images/migration/brooks.jpg",
+      "profileUrl": "https://www.csail.mit.edu/person/rodney-brooks",
+      "summary": "Computer vision, artificial intelligence, robotics",
+      "title": "Professor Emeritus"
+    },
+    {
+      "name": "Zana Bucinca",
+      "officialId": "/person/zana-bucinca",
+      "officialRole": "Core/Dual",
+      "portraitUrl": "",
+      "profileUrl": "https://www.csail.mit.edu/person/zana-bucinca",
+      "summary": "",
+      "title": "Assistant Professor"
+    },
+    {
+      "name": "Michael  Cafarella",
+      "officialId": "/person/michael-cafarella",
+      "officialRole": "Core/Dual",
+      "portraitUrl": "https://www.csail.mit.edu/sites/default/files/styles/headshot/public/images/people/card/M.Cafarella.jpg",
+      "profileUrl": "https://www.csail.mit.edu/person/michael-cafarella",
+      "summary": "Databases, data+AI, applying data management methods to economics",
+      "title": "Senior Research Scientist"
+    },
+    {
+      "name": "Michael Carbin",
+      "officialId": "/person/michael-carbin",
+      "officialRole": "Core/Dual",
+      "portraitUrl": "https://www.csail.mit.edu/sites/default/files/styles/headshot/public/images/people/card/michael carbin.jpg",
+      "profileUrl": "https://www.csail.mit.edu/person/michael-carbin",
+      "summary": "Programming languages and systems.",
+      "title": "Associate Professor"
+    },
+    {
+      "name": "Adam Chlipala",
+      "officialId": "/person/adam-chlipala",
+      "officialRole": "Core/Dual",
+      "portraitUrl": "https://www.csail.mit.edu/sites/default/files/styles/headshot/public/images/people/card/chlipala-picture-2587.jpg",
+      "profileUrl": "https://www.csail.mit.edu/person/adam-chlipala",
+      "summary": "Programming languages, formal methods, security & privacy, systems",
+      "title": "Professor"
+    },
+    {
+      "name": "David Clark",
+      "officialId": "/person/david-clark",
+      "officialRole": "Core/Dual",
+      "portraitUrl": "https://www.csail.mit.edu/sites/default/files/styles/headshot/public/images/migration/clark.jpg",
+      "profileUrl": "https://www.csail.mit.edu/person/david-clark",
+      "summary": "Internet architectures, communications  policy, security",
+      "title": "Senior Research Scientist"
+    },
+    {
+      "name": "Costis Daskalakis",
+      "officialId": "/person/costis-daskalakis",
+      "officialRole": "Core/Dual",
+      "portraitUrl": "https://www.csail.mit.edu/sites/default/files/styles/headshot/public/images/migration/Daskalakis-140.jpg",
+      "profileUrl": "https://www.csail.mit.edu/person/costis-daskalakis",
+      "summary": "Algorithms, Economics, Game Theory, Statistics, Machine Learning",
+      "title": "Professor"
+    },
+    {
+      "name": "Randall Davis",
+      "officialId": "/person/randall-davis",
+      "officialRole": "Core/Dual",
+      "portraitUrl": "https://www.csail.mit.edu/sites/default/files/styles/headshot/public/images/people/card/Jun 30 2016 - Digital Cognition Technologies - Randy Davis - 0001 - social.jpg",
+      "profileUrl": "https://www.csail.mit.edu/person/randall-davis",
+      "summary": "Human-computer interaction, systems, classic AI",
+      "title": "Professor"
+    },
+    {
+      "name": "Christina  Delimitrou",
+      "officialId": "/person/christina-delimitrou",
+      "officialRole": "Core/Dual",
+      "portraitUrl": "https://www.csail.mit.edu/sites/default/files/styles/headshot/public/images/people/card/Christina_Delimitrou.png",
+      "profileUrl": "https://www.csail.mit.edu/person/christina-delimitrou",
+      "summary": "",
+      "title": "Associate Professor"
+    },
+    {
+      "name": "Erik Demaine",
+      "officialId": "/person/erik-demaine",
+      "officialRole": "Core/Dual",
+      "portraitUrl": "https://www.csail.mit.edu/sites/default/files/styles/headshot/public/images/people/card/tenure_headshot_small_squarecrop.png",
+      "profileUrl": "https://www.csail.mit.edu/person/erik-demaine",
+      "summary": "Algorithms, theory, computational geometry, complexity",
+      "title": "Professor"
+    },
+    {
+      "name": "Srini Devadas",
+      "officialId": "/person/srini-devadas",
+      "officialRole": "Core/Dual",
+      "portraitUrl": "https://www.csail.mit.edu/sites/default/files/styles/headshot/public/images/migration/devadas.jpg",
+      "profileUrl": "https://www.csail.mit.edu/person/srini-devadas",
+      "summary": "Computer security, applied cryptography, computer architecture",
+      "title": "Professor"
+    },
+    {
+      "name": "David DeWitt",
+      "officialId": "/person/david-dewitt",
+      "officialRole": "Core/Dual",
+      "portraitUrl": "https://www.csail.mit.edu/sites/default/files/styles/headshot/public/images/people/card/DeWitt.png",
+      "profileUrl": "https://www.csail.mit.edu/person/david-dewitt",
+      "summary": "",
+      "title": "Adjunct Professor"
+    },
+    {
+      "name": "Fredo Durand",
+      "officialId": "/person/fredo-durand",
+      "officialRole": "Core/Dual",
+      "portraitUrl": "https://www.csail.mit.edu/sites/default/files/styles/headshot/public/images/migration/durand.jpg",
+      "profileUrl": "https://www.csail.mit.edu/person/fredo-durand",
+      "summary": "Vision, graphics, computational photography",
+      "title": "Professor"
+    },
+    {
+      "name": "Alan Edelman",
+      "officialId": "/person/alan-edelman",
+      "officialRole": "Core/Dual",
+      "portraitUrl": "https://www.csail.mit.edu/sites/default/files/styles/headshot/public/images/people/card/edelman.png",
+      "profileUrl": "https://www.csail.mit.edu/person/alan-edelman",
+      "summary": "Julia, high performance, linear algebra, random matrix theory",
+      "title": "Professor"
+    },
+    {
+      "name": "Joel Emer",
+      "officialId": "/person/joel-emer",
+      "officialRole": "Core/Dual",
+      "portraitUrl": "https://www.csail.mit.edu/sites/default/files/styles/headshot/public/images/people/card/Emer-picture-1060.jpg",
+      "profileUrl": "https://www.csail.mit.edu/person/joel-emer",
+      "summary": "Architecture, performance modeling",
+      "title": "Professor of the Practice"
+    },
+    {
+      "name": "William Freeman",
+      "officialId": "/person/william-freeman",
+      "officialRole": "Core/Dual",
+      "portraitUrl": "https://www.csail.mit.edu/sites/default/files/styles/headshot/public/images/migration/freeman.jpg",
+      "profileUrl": "https://www.csail.mit.edu/person/william-freeman",
+      "summary": "Vision, machine learning, Bayesian modeling",
+      "title": "Professor"
+    },
+    {
+      "name": "Mohsen Ghaffari",
+      "officialId": "/person/mohsen-ghaffari",
+      "officialRole": "Core/Dual",
+      "portraitUrl": "https://www.csail.mit.edu/sites/default/files/styles/headshot/public/images/people/card/Mohsen.jpg",
+      "profileUrl": "https://www.csail.mit.edu/person/mohsen-ghaffari",
+      "summary": "",
+      "title": "Associate Professor"
+    },
+    {
+      "name": "Manya Ghobadi",
+      "officialId": "/person/manya-ghobadi",
+      "officialRole": "Core/Dual",
+      "portraitUrl": "https://www.csail.mit.edu/sites/default/files/styles/headshot/public/images/people/card/Manya Ghobadi_0.jpg",
+      "profileUrl": "https://www.csail.mit.edu/person/manya-ghobadi",
+      "summary": "Networks, Systems, Hardware",
+      "title": "Associate Professor"
+    },
+    {
+      "name": "Dave Gifford",
+      "officialId": "/person/dave-gifford",
+      "officialRole": "Core/Dual",
+      "portraitUrl": "https://www.csail.mit.edu/sites/default/files/styles/headshot/public/images/migration/gifford.jpg",
+      "profileUrl": "https://www.csail.mit.edu/person/dave-gifford",
+      "summary": "Computational biology, genomics, machine learning",
+      "title": "Professor"
+    },
+    {
+      "name": "Jim Glass",
+      "officialId": "/person/jim-glass",
+      "officialRole": "Core/Dual",
+      "portraitUrl": "https://www.csail.mit.edu/sites/default/files/styles/headshot/public/images/people/card/glass-6-2023-square.jpg",
+      "profileUrl": "https://www.csail.mit.edu/person/jim-glass",
+      "summary": "speech and language processing",
+      "title": "Senior Research Scientist"
+    },
+    {
+      "name": "Michel Goemans",
+      "officialId": "/person/michel-goemans",
+      "officialRole": "Associates",
+      "portraitUrl": "https://www.csail.mit.edu/sites/default/files/styles/headshot/public/images/migration/goemans.jpg",
+      "profileUrl": "https://www.csail.mit.edu/person/michel-goemans",
+      "summary": "Discrete algorithms, combinatorial optimization",
+      "title": "Professor"
+    },
+    {
+      "name": "Shafi Goldwasser",
+      "officialId": "/person/shafi-goldwasser",
+      "officialRole": "Core/Dual",
+      "portraitUrl": "https://www.csail.mit.edu/sites/default/files/styles/headshot/public/images/migration/goldwasser.jpg",
+      "profileUrl": "https://www.csail.mit.edu/person/shafi-goldwasser",
+      "summary": "Theory, cryptography, cybersecurity, complexity",
+      "title": "Professor"
+    },
+    {
+      "name": "Polina Golland",
+      "officialId": "/person/polina-golland",
+      "officialRole": "Core/Dual",
+      "portraitUrl": "https://www.csail.mit.edu/sites/default/files/styles/headshot/public/images/people/card/polina_0.jpg",
+      "profileUrl": "https://www.csail.mit.edu/person/polina-golland",
+      "summary": "Vision, medical imaging, statistical inference",
+      "title": "Professor"
+    },
+    {
+      "name": "Mitchell Gordon",
+      "officialId": "/person/mitchell-gordon",
+      "officialRole": "Core/Dual",
+      "portraitUrl": "https://www.csail.mit.edu/sites/default/files/styles/headshot/public/images/people/card/mGordon.png",
+      "profileUrl": "https://www.csail.mit.edu/person/mitchell-gordon",
+      "summary": "",
+      "title": "Assistant Professor"
+    },
+    {
+      "name": "Eric Grimson",
+      "officialId": "/person/eric-grimson",
+      "officialRole": "Emeritus",
+      "portraitUrl": "https://www.csail.mit.edu/sites/default/files/styles/headshot/public/images/people/card/grimson1.jpg",
+      "profileUrl": "https://www.csail.mit.edu/person/eric-grimson",
+      "summary": "",
+      "title": "Chancellor for Academic Advancement"
+    },
+    {
+      "name": "John Guttag",
+      "officialId": "/person/john-guttag",
+      "officialRole": "Core/Dual",
+      "portraitUrl": "https://www.csail.mit.edu/sites/default/files/styles/headshot/public/images/migration/guttag.jpg",
+      "profileUrl": "https://www.csail.mit.edu/person/john-guttag",
+      "summary": "Machine learning, medicine, data-driven inference",
+      "title": "Professor Post Tenure"
+    },
+    {
+      "name": "Dylan Hadfield-Menell",
+      "officialId": "/person/dylan-hadfield-menell",
+      "officialRole": "Core/Dual",
+      "portraitUrl": "https://www.csail.mit.edu/sites/default/files/styles/headshot/public/images/people/card/Hadfield-Menell_0.png",
+      "profileUrl": "https://www.csail.mit.edu/person/dylan-hadfield-menell",
+      "summary": "",
+      "title": "Associate Professor"
+    },
+    {
+      "name": "D. Fox Harrell",
+      "officialId": "/person/d-fox-harrell",
+      "officialRole": "Core/Dual",
+      "portraitUrl": "https://www.csail.mit.edu/sites/default/files/styles/headshot/public/images/people/card/fox-csail-image.jpg",
+      "profileUrl": "https://www.csail.mit.edu/person/d-fox-harrell",
+      "summary": "AI, systems for social change and creative expression",
+      "title": "Professor"
+    },
+    {
+      "name": "Kaiming He",
+      "officialId": "/person/kaiming-he",
+      "officialRole": "Core/Dual",
+      "portraitUrl": "https://www.csail.mit.edu/sites/default/files/styles/headshot/public/images/people/card/Screenshot 2024-10-18 at 6.19.54 PM.png",
+      "profileUrl": "https://www.csail.mit.edu/person/kaiming-he",
+      "summary": "",
+      "title": "Associate Professor"
+    },
+    {
+      "name": "Sam  Hopkins",
+      "officialId": "/person/sam-hopkins",
+      "officialRole": "Core/Dual",
+      "portraitUrl": "https://www.csail.mit.edu/sites/default/files/styles/headshot/public/images/people/card/sam.jpg",
+      "profileUrl": "https://www.csail.mit.edu/person/sam-hopkins",
+      "summary": "",
+      "title": "Associate Professor"
+    },
+    {
+      "name": "Berthold Horn",
+      "officialId": "/person/berthold-horn",
+      "officialRole": "Emeritus",
+      "portraitUrl": "https://www.csail.mit.edu/sites/default/files/styles/headshot/public/images/migration/horn.jpg",
+      "profileUrl": "https://www.csail.mit.edu/person/berthold-horn",
+      "summary": "Vision, computational imaging",
+      "title": "Professor Emeritus"
+    },
+    {
+      "name": "Anna Huang",
+      "officialId": "/person/anna-huang",
+      "officialRole": "Core/Dual",
+      "portraitUrl": "https://www.csail.mit.edu/sites/default/files/styles/headshot/public/images/people/card/ab.png",
+      "profileUrl": "https://www.csail.mit.edu/person/anna-huang",
+      "summary": "",
+      "title": "Assistant Professor"
+    },
+    {
+      "name": "Dan Huttenlocher",
+      "officialId": "/person/dan-huttenlocher",
+      "officialRole": "Core/Dual",
+      "portraitUrl": "https://www.csail.mit.edu/sites/default/files/styles/headshot/public/images/people/card/D_huttenlocher.jpg",
+      "profileUrl": "https://www.csail.mit.edu/person/dan-huttenlocher",
+      "summary": "",
+      "title": "Professor"
+    },
+    {
+      "name": "Piotr Indyk",
+      "officialId": "/person/piotr-indyk",
+      "officialRole": "Core/Dual",
+      "portraitUrl": "https://www.csail.mit.edu/sites/default/files/styles/headshot/public/images/people/card/indyk.jpg",
+      "profileUrl": "https://www.csail.mit.edu/person/piotr-indyk",
+      "summary": "Algorithms, theory, computational geometry",
+      "title": "Professor"
+    },
+    {
+      "name": "Phillip John Isola",
+      "officialId": "/person/phillip-john-isola",
+      "officialRole": "Core/Dual",
+      "portraitUrl": "https://www.csail.mit.edu/sites/default/files/styles/headshot/public/images/people/card/Phillip Isola.jpg",
+      "profileUrl": "https://www.csail.mit.edu/person/phillip-john-isola",
+      "summary": "",
+      "title": "Associate Professor"
+    },
+    {
+      "name": "Tommi Jaakkola",
+      "officialId": "/person/tommi-jaakkola",
+      "officialRole": "Core/Dual",
+      "portraitUrl": "https://www.csail.mit.edu/sites/default/files/styles/headshot/public/images/people/card/Tommi_Jaakkola-1.jpg",
+      "profileUrl": "https://www.csail.mit.edu/person/tommi-jaakkola",
+      "summary": "Machine learning, natural language processing, genomics",
+      "title": "Professor"
+    },
+    {
+      "name": "Daniel Jackson",
+      "officialId": "/person/daniel-jackson",
+      "officialRole": "Core/Dual",
+      "portraitUrl": "https://www.csail.mit.edu/sites/default/files/styles/headshot/public/images/people/card/photo.1031-14.jpg",
+      "profileUrl": "https://www.csail.mit.edu/person/daniel-jackson",
+      "summary": "Software design, programming, systems",
+      "title": "Professor"
+    },
+    {
+      "name": "Frans Kaashoek",
+      "officialId": "/person/frans-kaashoek",
+      "officialRole": "Core/Dual",
+      "portraitUrl": "https://www.csail.mit.edu/sites/default/files/styles/headshot/public/images/migration/kaashoek.jpg",
+      "profileUrl": "https://www.csail.mit.edu/person/frans-kaashoek",
+      "summary": "Systems, networks, architectures",
+      "title": "Professor"
+    },
+    {
+      "name": "Leslie Kaelbling",
+      "officialId": "/person/leslie-kaelbling",
+      "officialRole": "Core/Dual",
+      "portraitUrl": "https://www.csail.mit.edu/sites/default/files/styles/headshot/public/images/migration/kaelbling.jpg",
+      "profileUrl": "https://www.csail.mit.edu/person/leslie-kaelbling",
+      "summary": "Robotics, machine learning, planning, uncertainty",
+      "title": "Professor"
+    },
+    {
+      "name": "Lalana Kagal",
+      "officialId": "/person/lalana-kagal",
+      "officialRole": "Core/Dual",
+      "portraitUrl": "https://www.csail.mit.edu/sites/default/files/styles/headshot/public/images/people/card/Kagal-picture-1001.jpg",
+      "profileUrl": "https://www.csail.mit.edu/person/lalana-kagal",
+      "summary": "Privacy, web decentralization, distributed data",
+      "title": "Principal Research Scientist"
+    },
+    {
+      "name": "Yael Kalai",
+      "officialId": "/person/yael-kalai",
+      "officialRole": "Core/Dual",
+      "portraitUrl": "https://www.csail.mit.edu/sites/default/files/styles/headshot/public/images/people/card/Yael_Kalai.jpg",
+      "profileUrl": "https://www.csail.mit.edu/person/yael-kalai",
+      "summary": "",
+      "title": "Professor"
+    },
+    {
+      "name": "David Karger",
+      "officialId": "/person/david-karger",
+      "officialRole": "Core/Dual",
+      "portraitUrl": "https://www.csail.mit.edu/sites/default/files/styles/headshot/public/images/migration/karger.jpg",
+      "profileUrl": "https://www.csail.mit.edu/person/david-karger",
+      "summary": "Helping people manage information",
+      "title": "Professor"
+    },
+    {
+      "name": "Dina Katabi",
+      "officialId": "/person/dina-katabi",
+      "officialRole": "Core/Dual",
+      "portraitUrl": "https://www.csail.mit.edu/sites/default/files/styles/headshot/public/images/migration/katabi.jpg",
+      "profileUrl": "https://www.csail.mit.edu/person/dina-katabi",
+      "summary": "Wireless, networks, machine learning",
+      "title": "Professor"
+    },
+    {
+      "name": "Boris Katz",
+      "officialId": "/person/boris-katz",
+      "officialRole": "Core/Dual",
+      "portraitUrl": "https://www.csail.mit.edu/sites/default/files/styles/headshot/public/images/migration/katz.jpg",
+      "profileUrl": "https://www.csail.mit.edu/person/boris-katz",
+      "summary": "Natural language processing",
+      "title": "Principal Research Scientist"
+    },
+    {
+      "name": "Manolis Kellis",
+      "officialId": "/person/manolis-kellis",
+      "officialRole": "Core/Dual",
+      "portraitUrl": "https://www.csail.mit.edu/sites/default/files/styles/headshot/public/images/migration/kellis.jpg",
+      "profileUrl": "https://www.csail.mit.edu/person/manolis-kellis",
+      "summary": "Computational biology, computational genomics",
+      "title": "Professor"
+    },
+    {
+      "name": "Jonathan Kelner",
+      "officialId": "/person/jonathan-kelner",
+      "officialRole": "Core/Dual",
+      "portraitUrl": "https://www.csail.mit.edu/sites/default/files/styles/headshot/public/images/people/card/Jonathan_Kelner_0.jpg",
+      "profileUrl": "https://www.csail.mit.edu/person/jonathan-kelner",
+      "summary": "Mathematics, algorithms, complexity theory",
+      "title": "Professor"
+    },
+    {
+      "name": "Omar Khattab",
+      "officialId": "/person/omar-khattab",
+      "officialRole": "Core/Dual",
+      "portraitUrl": "",
+      "profileUrl": "https://www.csail.mit.edu/person/omar-khattab",
+      "summary": "",
+      "title": "Assistant Professor"
+    },
+    {
+      "name": "Yoon Kim",
+      "officialId": "/person/yoon-kim",
+      "officialRole": "Core/Dual",
+      "portraitUrl": "https://www.csail.mit.edu/sites/default/files/styles/headshot/public/images/people/card/profile2.png",
+      "profileUrl": "https://www.csail.mit.edu/person/yoon-kim",
+      "summary": "Natural language processing, machine learning",
+      "title": "Associate Professor"
+    },
+    {
+      "name": "Mina  Konakovic Lukovic",
+      "officialId": "/person/mina-konakovic-lukovic",
+      "officialRole": "Core/Dual",
+      "portraitUrl": "https://www.csail.mit.edu/sites/default/files/styles/headshot/public/images/people/card/Mina-1.jpg",
+      "profileUrl": "https://www.csail.mit.edu/person/mina-konakovic-lukovic",
+      "summary": "Graphics, fabrication, geometry, ML, robotics",
+      "title": "Assistant Professor"
+    },
+    {
+      "name": "Tim Kraska",
+      "officialId": "/person/tim-kraska",
+      "officialRole": "Core/Dual",
+      "portraitUrl": "https://www.csail.mit.edu/sites/default/files/styles/headshot/public/images/people/card/Tim Kraska.jpg",
+      "profileUrl": "https://www.csail.mit.edu/person/tim-kraska",
+      "summary": "Systems for ML, ML for Systems, Interactive Data Exploration",
+      "title": "Professor"
+    },
+    {
+      "name": "Butler Lampson",
+      "officialId": "/person/butler-lampson",
+      "officialRole": "Emeritus",
+      "portraitUrl": "https://www.csail.mit.edu/sites/default/files/styles/headshot/public/images/people/card/lampson_0_0.jpg",
+      "profileUrl": "https://www.csail.mit.edu/person/butler-lampson",
+      "summary": "",
+      "title": "Adjunct Professor"
+    },
+    {
+      "name": "Tom Leighton",
+      "officialId": "/person/tom-leighton",
+      "officialRole": "Associates",
+      "portraitUrl": "https://www.csail.mit.edu/sites/default/files/styles/headshot/public/images/people/card/Tom Leighton portrait 2020.jpg",
+      "profileUrl": "https://www.csail.mit.edu/person/tom-leighton",
+      "summary": "Networks, distributed/parallel computing, architectures",
+      "title": "Professor"
+    },
+    {
+      "name": "Charles E. Leiserson",
+      "officialId": "/person/charles-e-leiserson",
+      "officialRole": "Core/Dual",
+      "portraitUrl": "https://www.csail.mit.edu/sites/default/files/styles/headshot/public/images/people/card/Charles Leiserson.jpg",
+      "profileUrl": "https://www.csail.mit.edu/person/charles-e-leiserson",
+      "summary": "Algorithms, parallel computing, performance engineering",
+      "title": "Professor"
+    },
+    {
+      "name": "John Leonard",
+      "officialId": "/person/john-leonard",
+      "officialRole": "Core/Dual",
+      "portraitUrl": "https://www.csail.mit.edu/sites/default/files/styles/headshot/public/images/people/card/jleonard_headshot3_nov2014.jpg",
+      "profileUrl": "https://www.csail.mit.edu/person/john-leonard",
+      "summary": "Robotics, navigation/mapping, self-driving cars",
+      "title": "Professor"
+    },
+    {
+      "name": "Barbara Liskov",
+      "officialId": "/person/barbara-liskov",
+      "officialRole": "Core/Dual",
+      "portraitUrl": "https://www.csail.mit.edu/sites/default/files/styles/headshot/public/images/migration/liskov.jpg",
+      "profileUrl": "https://www.csail.mit.edu/person/barbara-liskov",
+      "summary": "Programming methodology, languages and systems",
+      "title": "Institute Professor"
+    },
+    {
+      "name": "Andrew Lo",
+      "officialId": "/person/andrew-lo",
+      "officialRole": "Associates",
+      "portraitUrl": "https://www.csail.mit.edu/sites/default/files/styles/headshot/public/images/people/card/ALO_portrait_0.jpg",
+      "profileUrl": "https://www.csail.mit.edu/person/andrew-lo",
+      "summary": "Charles E. and Susan T. Harris Professor, CSAIL Principal Investigator",
+      "title": "Professor"
+    },
+    {
+      "name": "Tomas Lozano-Perez",
+      "officialId": "/person/tomas-lozano-perez",
+      "officialRole": "Core/Dual",
+      "portraitUrl": "https://www.csail.mit.edu/sites/default/files/styles/headshot/public/images/migration/lozano-perez.jpg",
+      "profileUrl": "https://www.csail.mit.edu/person/tomas-lozano-perez",
+      "summary": "Robotics, artificial intelligence",
+      "title": "Professor"
+    },
+    {
+      "name": "Nancy Lynch",
+      "officialId": "/person/nancy-lynch",
+      "officialRole": "Core/Dual",
+      "portraitUrl": "https://www.csail.mit.edu/sites/default/files/styles/headshot/public/images/people/card/Lynch Photo Radcliffe.jpg",
+      "profileUrl": "https://www.csail.mit.edu/person/nancy-lynch",
+      "summary": "Theory, algorithms, distributed systems, real-time computing",
+      "title": "Professor"
+    },
+    {
+      "name": "Sam Madden",
+      "officialId": "/person/sam-madden",
+      "officialRole": "Core/Dual",
+      "portraitUrl": "https://www.csail.mit.edu/sites/default/files/styles/headshot/public/images/migration/madden.jpg",
+      "profileUrl": "https://www.csail.mit.edu/person/sam-madden",
+      "summary": "Systems for processing and manipulating data",
+      "title": "Professor"
+    },
+    {
+      "name": "Aleksander Madry",
+      "officialId": "/person/aleksander-madry",
+      "officialRole": "Core/Dual",
+      "portraitUrl": "https://www.csail.mit.edu/sites/default/files/styles/headshot/public/images/people/card/Madry-picture-1295.jpg",
+      "profileUrl": "https://www.csail.mit.edu/person/aleksander-madry",
+      "summary": "Theory, algorithms, optimization, robust and reliable ML",
+      "title": "Temporary Visiting Professor"
+    },
+    {
+      "name": "Thomas Magnanti",
+      "officialId": "/person/thomas-magnanti",
+      "officialRole": "Core/Dual",
+      "portraitUrl": "https://www.csail.mit.edu/sites/default/files/styles/headshot/public/images/people/card/magnanti.jpg",
+      "profileUrl": "https://www.csail.mit.edu/person/thomas-magnanti",
+      "summary": "",
+      "title": "Institute Professor"
+    },
+    {
+      "name": "Wojciech Matusik",
+      "officialId": "/person/wojciech-matusik",
+      "officialRole": "Core/Dual",
+      "portraitUrl": "https://www.csail.mit.edu/sites/default/files/styles/headshot/public/images/people/card/Matusik-picture-855.jpg",
+      "profileUrl": "https://www.csail.mit.edu/person/wojciech-matusik",
+      "summary": "Graphics, vision, fabrication, robotics, hci",
+      "title": "Professor"
+    },
+    {
+      "name": "Albert R. Meyer",
+      "officialId": "/person/albert-r-meyer",
+      "officialRole": "Emeritus",
+      "portraitUrl": "https://www.csail.mit.edu/sites/default/files/styles/headshot/public/images/migration/meyer.jpg",
+      "profileUrl": "https://www.csail.mit.edu/person/albert-r-meyer",
+      "summary": "Programming languages, theory, complexity, online education",
+      "title": "Professor Emeritus"
+    },
+    {
+      "name": "Silvio Micali",
+      "officialId": "/person/silvio-micali",
+      "officialRole": "Core/Dual",
+      "portraitUrl": "https://www.csail.mit.edu/sites/default/files/styles/headshot/public/images/people/card/CACM56.06_SilvioFull_FINAL_A04_0.jpg",
+      "profileUrl": "https://www.csail.mit.edu/person/silvio-micali",
+      "summary": "Cryptography, cybersecurity, zero-knowledge proofs",
+      "title": "Professor"
+    },
+    {
+      "name": "Rob Miller",
+      "officialId": "/person/rob-miller",
+      "officialRole": "Core/Dual",
+      "portraitUrl": "https://www.csail.mit.edu/sites/default/files/styles/headshot/public/images/migration/miller.jpg",
+      "profileUrl": "https://www.csail.mit.edu/person/rob-miller",
+      "summary": "Human-computer interaction, online education, software development",
+      "title": "Professor"
+    },
+    {
+      "name": "Ankur Moitra",
+      "officialId": "/person/ankur-moitra",
+      "officialRole": "Core/Dual",
+      "portraitUrl": "https://www.csail.mit.edu/sites/default/files/styles/headshot/public/images/people/card/Screenshot 2024-10-18 at 6.24.23 PM.png",
+      "profileUrl": "https://www.csail.mit.edu/person/ankur-moitra",
+      "summary": "",
+      "title": "Norbert Wiener Professor"
+    },
+    {
+      "name": "Robert Morris",
+      "officialId": "/person/robert-morris",
+      "officialRole": "Core/Dual",
+      "portraitUrl": "https://www.csail.mit.edu/sites/default/files/styles/headshot/public/images/migration/morris.jpg",
+      "profileUrl": "https://www.csail.mit.edu/person/robert-morris",
+      "summary": "Parallel and distributed operating systems, software, storage",
+      "title": "Professor"
+    },
+    {
+      "name": "Stefanie Mueller",
+      "officialId": "/person/stefanie-mueller",
+      "officialRole": "Core/Dual",
+      "portraitUrl": "https://www.csail.mit.edu/sites/default/files/styles/headshot/public/images/people/card/stefanie-mueller-profile-picture_0.jpg",
+      "profileUrl": "https://www.csail.mit.edu/person/stefanie-mueller",
+      "summary": "Human-computer interaction, fabrication, hardware, robotics.",
+      "title": "Associate Professor"
+    },
+    {
+      "name": "Anand Natarajan",
+      "officialId": "/person/anand-natarajan",
+      "officialRole": "Core/Dual",
+      "portraitUrl": "https://www.csail.mit.edu/sites/default/files/styles/headshot/public/images/people/card/anand-caltech-picture.jpg",
+      "profileUrl": "https://www.csail.mit.edu/person/anand-natarajan",
+      "summary": "",
+      "title": "Associate Professor"
+    },
+    {
+      "name": "Rachit Nigam",
+      "officialId": "/person/rachit-nigam",
+      "officialRole": "Core/Dual",
+      "portraitUrl": "",
+      "profileUrl": "https://www.csail.mit.edu/person/rachit-nigam",
+      "summary": "Assistant Professor",
+      "title": "Assistant Professor"
+    },
+    {
+      "name": "Una-May O'Reilly",
+      "officialId": "/person/una-may-oreilly",
+      "officialRole": "Core/Dual",
+      "portraitUrl": "https://www.csail.mit.edu/sites/default/files/styles/headshot/public/images/people/card/UM112.png",
+      "profileUrl": "https://www.csail.mit.edu/person/una-may-oreilly",
+      "summary": "Applied AI and ML, Cyber and Information Security",
+      "title": "Senior Research Scientist"
+    },
+    {
+      "name": "Aude Oliva",
+      "officialId": "/person/aude-oliva",
+      "officialRole": "Core/Dual",
+      "portraitUrl": "https://www.csail.mit.edu/sites/default/files/styles/headshot/public/images/people/card/Oliva-picture-2533.jpg",
+      "profileUrl": "https://www.csail.mit.edu/person/aude-oliva",
+      "summary": "Vision, perception/cognition, cognitive neuroscience",
+      "title": "Senior Research Scientist"
+    },
+    {
+      "name": "Tomaso Poggio",
+      "officialId": "/person/tomaso-poggio",
+      "officialRole": "Associates",
+      "portraitUrl": "https://www.csail.mit.edu/sites/default/files/styles/headshot/public/images/migration/poggio.jpg",
+      "profileUrl": "https://www.csail.mit.edu/person/tomaso-poggio",
+      "summary": "AI, neuroscience, vision, machine learning",
+      "title": "Professor"
+    },
+    {
+      "name": "Jonathan Ragan-Kelley",
+      "officialId": "/person/jonathan-ragan-kelley",
+      "officialRole": "Core/Dual",
+      "portraitUrl": "https://www.csail.mit.edu/sites/default/files/styles/headshot/public/images/people/card/Jonathan_Ragan-Kelley.jpg",
+      "profileUrl": "https://www.csail.mit.edu/person/jonathan-ragan-kelley",
+      "summary": "Programming languages and systems for graphics and visual computing",
+      "title": "Associate Professor"
+    },
+    {
+      "name": "Martin Rinard",
+      "officialId": "/person/martin-rinard",
+      "officialRole": "Core/Dual",
+      "portraitUrl": "https://www.csail.mit.edu/sites/default/files/styles/headshot/public/images/migration/rinard.jpg",
+      "profileUrl": "https://www.csail.mit.edu/person/martin-rinard",
+      "summary": "Systems, programming languages and verification",
+      "title": "Professor"
+    },
+    {
+      "name": "Ronald L. Rivest",
+      "officialId": "/person/ronald-l-rivest",
+      "officialRole": "Core/Dual",
+      "portraitUrl": "https://www.csail.mit.edu/sites/default/files/styles/headshot/public/images/migration/rivest.jpg",
+      "profileUrl": "https://www.csail.mit.edu/person/ronald-l-rivest",
+      "summary": "Cryptography, cybersecurity, RSA public-key encryption",
+      "title": "Institute Professor"
+    },
+    {
+      "name": "Nicholas Roy",
+      "officialId": "/person/nicholas-roy",
+      "officialRole": "Core/Dual",
+      "portraitUrl": "https://www.csail.mit.edu/sites/default/files/styles/headshot/public/images/people/card/Square version of 23917.png",
+      "profileUrl": "https://www.csail.mit.edu/person/nicholas-roy",
+      "summary": "Robotics, autonomy, artificial intelligence, motion planning",
+      "title": "Professor"
+    },
+    {
+      "name": "Ronitt Rubinfeld",
+      "officialId": "/person/ronitt-rubinfeld",
+      "officialRole": "Core/Dual",
+      "portraitUrl": "https://www.csail.mit.edu/sites/default/files/styles/headshot/public/images/migration/rubinfeld.jpg",
+      "profileUrl": "https://www.csail.mit.edu/person/ronitt-rubinfeld",
+      "summary": "Theory, algorithms",
+      "title": "Professor"
+    },
+    {
+      "name": "Daniela Rus",
+      "officialId": "/person/daniela-rus",
+      "officialRole": "Core/Dual",
+      "portraitUrl": "https://www.csail.mit.edu/sites/default/files/styles/headshot/public/images/migration/rus.jpg",
+      "profileUrl": "https://www.csail.mit.edu/person/daniela-rus",
+      "summary": "CSAIL director, robotics, AI, data science, privacy",
+      "title": "Director"
+    },
+    {
+      "name": "Jerry Saltzer",
+      "officialId": "/person/jerry-saltzer",
+      "officialRole": "Emeritus",
+      "portraitUrl": "https://www.csail.mit.edu/sites/default/files/styles/headshot/public/images/migration/saltzer.jpg",
+      "profileUrl": "https://www.csail.mit.edu/person/jerry-saltzer",
+      "summary": "Developed early time-sharing and networking systems",
+      "title": "Professor Emeritus"
+    },
+    {
+      "name": "Daniel Sanchez",
+      "officialId": "/person/daniel-sanchez",
+      "officialRole": "Core/Dual",
+      "portraitUrl": "https://www.csail.mit.edu/sites/default/files/styles/headshot/public/images/people/card/sanchez-picture-2990.jpg",
+      "profileUrl": "https://www.csail.mit.edu/person/daniel-sanchez",
+      "summary": "Architectures, systems, parallel computing, multicores, memory",
+      "title": "Professor"
+    },
+    {
+      "name": "Arvind  Satyanarayan",
+      "officialId": "/person/arvind-satyanarayan",
+      "officialRole": "Core/Dual",
+      "portraitUrl": "https://www.csail.mit.edu/sites/default/files/styles/headshot/public/images/people/card/Arvind_Satyanarayan_31_headshot_0.jpg",
+      "profileUrl": "https://www.csail.mit.edu/person/arvind-satyanarayan",
+      "summary": "",
+      "title": "Associate Professor"
+    },
+    {
+      "name": "Stephanie Seneff",
+      "officialId": "/person/stephanie-seneff",
+      "officialRole": "Core/Dual",
+      "portraitUrl": "https://www.csail.mit.edu/sites/default/files/styles/headshot/public/images/migration/seneff.jpg",
+      "profileUrl": "https://www.csail.mit.edu/person/stephanie-seneff",
+      "summary": "The relationship between toxic chemicals and human disease.",
+      "title": "Senior Research Scientist"
+    },
+    {
+      "name": "Devavrat Shah",
+      "officialId": "/person/devavrat-shah",
+      "officialRole": "Associates",
+      "portraitUrl": "https://www.csail.mit.edu/sites/default/files/styles/headshot/public/images/people/card/devavrat-shah_0_0.jpg",
+      "profileUrl": "https://www.csail.mit.edu/person/devavrat-shah",
+      "summary": "Statistical inference, network algorithms, stochastics",
+      "title": "Professor"
+    },
+    {
+      "name": "Julie Shah",
+      "officialId": "/person/julie-shah",
+      "officialRole": "Core/Dual",
+      "portraitUrl": "https://www.csail.mit.edu/sites/default/files/styles/headshot/public/images/people/card/shah-picture-1174.jpg",
+      "profileUrl": "https://www.csail.mit.edu/person/julie-shah",
+      "summary": "Robotics, machine learning, artificial intelligence",
+      "title": "Professor"
+    },
+    {
+      "name": "Nir Shavit",
+      "officialId": "/person/nir-shavit",
+      "officialRole": "Core/Dual",
+      "portraitUrl": "https://www.csail.mit.edu/sites/default/files/styles/headshot/public/images/people/card/shavit-picture-2590.jpg",
+      "profileUrl": "https://www.csail.mit.edu/person/nir-shavit",
+      "summary": "Algorithms, neuroscience",
+      "title": "Professor"
+    },
+    {
+      "name": "Peter Shor",
+      "officialId": "/person/peter-shor",
+      "officialRole": "Associates",
+      "portraitUrl": "https://www.csail.mit.edu/sites/default/files/styles/headshot/public/images/people/card/peter_shor.jpg",
+      "profileUrl": "https://www.csail.mit.edu/person/peter-shor",
+      "summary": "",
+      "title": "Professor"
+    },
+    {
+      "name": "Howard Shrobe",
+      "officialId": "/person/howard-shrobe",
+      "officialRole": "Core/Dual",
+      "portraitUrl": "https://www.csail.mit.edu/sites/default/files/styles/headshot/public/images/people/card/Howard Shrobe_ 002.jpg",
+      "profileUrl": "https://www.csail.mit.edu/person/howard-shrobe",
+      "summary": "Architectures, cybersecurity, web policy",
+      "title": "Principal Research Scientist"
+    },
+    {
+      "name": "Julian Shun",
+      "officialId": "/person/julian-shun",
+      "officialRole": "Core/Dual",
+      "portraitUrl": "https://www.csail.mit.edu/sites/default/files/styles/headshot/public/images/people/card/pic.jpeg",
+      "profileUrl": "https://www.csail.mit.edu/person/julian-shun",
+      "summary": "Parallel computing, applied algorithms, graph processing.",
+      "title": "Associate Professor"
+    },
+    {
+      "name": "Michael Sipser",
+      "officialId": "/person/michael-sipser",
+      "officialRole": "Associates",
+      "portraitUrl": "https://www.csail.mit.edu/sites/default/files/styles/headshot/public/images/migration/sipser.jpg",
+      "profileUrl": "https://www.csail.mit.edu/person/michael-sipser",
+      "summary": "Theory, algorithms, complexity, error correction",
+      "title": "Professor"
+    },
+    {
+      "name": "Vincent  Sitzmann",
+      "officialId": "/person/vincent-sitzmann",
+      "officialRole": "Core/Dual",
+      "portraitUrl": "https://www.csail.mit.edu/sites/default/files/styles/headshot/public/images/people/card/v_sitzmann.jpeg",
+      "profileUrl": "https://www.csail.mit.edu/person/vincent-sitzmann",
+      "summary": "",
+      "title": "Associate Professor"
+    },
+    {
+      "name": "Armando Solar-Lezama",
+      "officialId": "/person/armando-solar-lezama",
+      "officialRole": "Core/Dual",
+      "portraitUrl": "https://www.csail.mit.edu/sites/default/files/styles/headshot/public/images/migration/asolar_180.jpg",
+      "profileUrl": "https://www.csail.mit.edu/person/armando-solar-lezama",
+      "summary": "Programming languages, software analysis",
+      "title": "Professor"
+    },
+    {
+      "name": "Justin Solomon",
+      "officialId": "/person/justin-solomon",
+      "officialRole": "Core/Dual",
+      "portraitUrl": "https://www.csail.mit.edu/sites/default/files/styles/headshot/public/images/people/card/me_small_0.jpg",
+      "profileUrl": "https://www.csail.mit.edu/person/justin-solomon",
+      "summary": "Geometry, graphics, vision, machine learning, optimization.",
+      "title": "Associate Dean of Engineering Education"
+    },
+    {
+      "name": "David Sontag",
+      "officialId": "/person/david-sontag",
+      "officialRole": "Core/Dual",
+      "portraitUrl": "https://www.csail.mit.edu/sites/default/files/styles/headshot/public/images/people/card/mit_headshot.jpg",
+      "profileUrl": "https://www.csail.mit.edu/person/david-sontag",
+      "summary": "Machine learning, artificial intelligence, healthcare.",
+      "title": "Visiting Professor"
+    },
+    {
+      "name": "Michael Stonebraker",
+      "officialId": "/person/michael-stonebraker",
+      "officialRole": "Core/Dual",
+      "portraitUrl": "https://www.csail.mit.edu/sites/default/files/styles/headshot/public/images/migration/stonebraker.jpg",
+      "profileUrl": "https://www.csail.mit.edu/person/michael-stonebraker",
+      "summary": "Databases, big data",
+      "title": "Adjunct Professor"
+    },
+    {
+      "name": "Collin Stultz",
+      "officialId": "/person/collin-stultz",
+      "officialRole": "Associates",
+      "portraitUrl": "https://www.csail.mit.edu/sites/default/files/styles/headshot/public/images/people/card/Headshot_with_lab_coat.jpg",
+      "profileUrl": "https://www.csail.mit.edu/person/collin-stultz",
+      "summary": "",
+      "title": "Professor"
+    },
+    {
+      "name": "Gerald Sussman",
+      "officialId": "/person/gerald-sussman",
+      "officialRole": "Core/Dual",
+      "portraitUrl": "https://www.csail.mit.edu/sites/default/files/styles/headshot/public/images/people/card/Gerald Sussman.jpg",
+      "profileUrl": "https://www.csail.mit.edu/person/gerald-sussman",
+      "summary": "Artificial intelligence, supercomputers",
+      "title": "Professor- Post Tenure"
+    },
+    {
+      "name": "Vivienne Sze",
+      "officialId": "/person/vivienne-sze",
+      "officialRole": "Associates",
+      "portraitUrl": "https://www.csail.mit.edu/sites/default/files/styles/headshot/public/images/people/card/Vivienne_Sze_8_crop.jpg",
+      "profileUrl": "https://www.csail.mit.edu/person/vivienne-sze",
+      "summary": "",
+      "title": "Professor"
+    },
+    {
+      "name": "Peter Szolovits",
+      "officialId": "/person/peter-szolovits",
+      "officialRole": "Core/Dual",
+      "portraitUrl": "https://www.csail.mit.edu/sites/default/files/styles/headshot/public/images/migration/szolovits.jpg",
+      "profileUrl": "https://www.csail.mit.edu/person/peter-szolovits",
+      "summary": "Machine learning, natural language processing",
+      "title": "Professor Post Tenure"
+    },
+    {
+      "name": "Russ Tedrake",
+      "officialId": "/person/russ-tedrake",
+      "officialRole": "Core/Dual",
+      "portraitUrl": "https://www.csail.mit.edu/sites/default/files/styles/headshot/public/images/people/card/Screen Shot 2019-05-06 at 15.41.55.png",
+      "profileUrl": "https://www.csail.mit.edu/person/russ-tedrake",
+      "summary": "Robotics, machine learning, motion planning and control",
+      "title": "Professor"
+    },
+    {
+      "name": "Joshua Tenenbaum",
+      "officialId": "/person/joshua-tenenbaum",
+      "officialRole": "Associates",
+      "portraitUrl": "https://www.csail.mit.edu/sites/default/files/styles/headshot/public/images/migration/tenenbaum.jpg",
+      "profileUrl": "https://www.csail.mit.edu/person/joshua-tenenbaum",
+      "summary": "Computational cognitive science, machine learning",
+      "title": "Professor"
+    },
+    {
+      "name": "Chris Terman",
+      "officialId": "/person/chris-terman",
+      "officialRole": "Emeritus",
+      "portraitUrl": "https://www.csail.mit.edu/sites/default/files/styles/headshot/public/images/migration/terman.jpg",
+      "profileUrl": "https://www.csail.mit.edu/person/chris-terman",
+      "summary": "Online education",
+      "title": "Senior Lecturer Emeritus"
+    },
+    {
+      "name": "Bruce Tidor",
+      "officialId": "/person/bruce-tidor",
+      "officialRole": "Core/Dual",
+      "portraitUrl": "https://www.csail.mit.edu/sites/default/files/styles/headshot/public/images/migration/tidor.jpg",
+      "profileUrl": "https://www.csail.mit.edu/person/bruce-tidor",
+      "summary": "Computational genomics, computational biology",
+      "title": "Professor"
+    },
+    {
+      "name": "Antonio Torralba",
+      "officialId": "/person/antonio-torralba",
+      "officialRole": "Core/Dual",
+      "portraitUrl": "https://www.csail.mit.edu/sites/default/files/styles/headshot/public/images/people/card/AntonioTorralba photo www 200x200.jpg",
+      "profileUrl": "https://www.csail.mit.edu/person/antonio-torralba",
+      "summary": "Vision, graphics, perception, machine learning",
+      "title": "Professor"
+    },
+    {
+      "name": "Vinod Vaikuntanathan",
+      "officialId": "/person/vinod-vaikuntanathan",
+      "officialRole": "Core/Dual",
+      "portraitUrl": "https://www.csail.mit.edu/sites/default/files/styles/headshot/public/images/people/card/vaikuntanathan_0.jpg",
+      "profileUrl": "https://www.csail.mit.edu/person/vinod-vaikuntanathan",
+      "summary": "",
+      "title": "Professor"
+    },
+    {
+      "name": "Steve Ward",
+      "officialId": "/person/steve-ward",
+      "officialRole": "Emeritus",
+      "portraitUrl": "https://www.csail.mit.edu/sites/default/files/styles/headshot/public/images/migration/ward.jpg",
+      "profileUrl": "https://www.csail.mit.edu/person/steve-ward",
+      "summary": "Architectures, compilers, systems, multiprocessors",
+      "title": "Professor Emeritus"
+    },
+    {
+      "name": "Daniel Weitzner",
+      "officialId": "/person/daniel-weitzner",
+      "officialRole": "Core/Dual",
+      "portraitUrl": "https://www.csail.mit.edu/sites/default/files/styles/headshot/public/images/people/card/DanielWeitzner-tie-sq.jpg",
+      "profileUrl": "https://www.csail.mit.edu/person/daniel-weitzner",
+      "summary": "Web policy, cybersecurity, web architecture",
+      "title": "Senior Research Scientist"
+    },
+    {
+      "name": "Brian Williams",
+      "officialId": "/person/brian-williams",
+      "officialRole": "Core/Dual",
+      "portraitUrl": "https://www.csail.mit.edu/sites/default/files/styles/headshot/public/images/migration/williams.jpg",
+      "profileUrl": "https://www.csail.mit.edu/person/brian-williams",
+      "summary": "Robotics, autonomy, artificial intelligence, machine learning",
+      "title": "Professor"
+    },
+    {
+      "name": "Virginia Vassilevska Williams",
+      "officialId": "/person/virginia-vassilevska-williams",
+      "officialRole": "Core/Dual",
+      "portraitUrl": "https://www.csail.mit.edu/sites/default/files/styles/headshot/public/images/people/card/WilliamsV-picture-5000.jpg",
+      "profileUrl": "https://www.csail.mit.edu/person/virginia-vassilevska-williams",
+      "summary": "Theory, algorithms, complexity.",
+      "title": "Professor"
+    },
+    {
+      "name": "Ryan Williams",
+      "officialId": "/person/ryan-williams",
+      "officialRole": "Core/Dual",
+      "portraitUrl": "https://www.csail.mit.edu/sites/default/files/styles/headshot/public/images/people/card/Williams-picture-5002_0.jpg",
+      "profileUrl": "https://www.csail.mit.edu/person/ryan-williams",
+      "summary": "Theory, algorithms, complexity.",
+      "title": "Professor"
+    },
+    {
+      "name": "Alan Willsky",
+      "officialId": "/person/alan-willsky",
+      "officialRole": "Emeritus",
+      "portraitUrl": "https://www.csail.mit.edu/sites/default/files/styles/headshot/public/images/migration/willsky.jpg",
+      "profileUrl": "https://www.csail.mit.edu/person/alan-willsky",
+      "summary": "estimation and inference, signal and image processing",
+      "title": "Professor Emeritus"
+    },
+    {
+      "name": "Gregory Wornell",
+      "officialId": "/person/gregory-wornell",
+      "officialRole": "Associates",
+      "portraitUrl": "https://www.csail.mit.edu/sites/default/files/styles/headshot/public/images/people/card/gww_new_alt_square2.jpg",
+      "profileUrl": "https://www.csail.mit.edu/person/gregory-wornell",
+      "summary": "Inference, learning, information theory, signal processing, imaging",
+      "title": "Professor"
+    },
+    {
+      "name": "Mengjia Yan",
+      "officialId": "/person/mengjia-yan",
+      "officialRole": "Core/Dual",
+      "portraitUrl": "https://www.csail.mit.edu/sites/default/files/styles/headshot/public/images/people/card/mengjia_headshot.png",
+      "profileUrl": "https://www.csail.mit.edu/person/mengjia-yan",
+      "summary": "Assistant Professor, MIT EECS",
+      "title": "Associate Professor"
+    },
+    {
+      "name": "Nickolai Zeldovich",
+      "officialId": "/person/nickolai-zeldovich",
+      "officialRole": "Core/Dual",
+      "portraitUrl": "https://www.csail.mit.edu/sites/default/files/styles/headshot/public/images/migration/zeldovich.jpg",
+      "profileUrl": "https://www.csail.mit.edu/person/nickolai-zeldovich",
+      "summary": "Operating systems, hardware, programming languages",
+      "title": "Professor"
+    },
+    {
+      "name": "Victor Zue",
+      "officialId": "/person/victor-zue",
+      "officialRole": "Emeritus",
+      "portraitUrl": "https://www.csail.mit.edu/sites/default/files/styles/headshot/public/images/migration/zue.jpg",
+      "profileUrl": "https://www.csail.mit.edu/person/victor-zue",
+      "summary": "Spoken language systems, human language technologies",
+      "title": "Professor Emeritus"
+    }
+  ],
+  "schemaVersion": 1,
+  "selectionRule": "Use the official People page Faculty/PI role filter and include every API record in Principal Investigators, Core/Dual, Associates, or Emeritus; preserve official role/title/profile/photo/summary without scope classification.",
+  "unit": "EECS / Computer Science and Artificial Intelligence Laboratory"
+}

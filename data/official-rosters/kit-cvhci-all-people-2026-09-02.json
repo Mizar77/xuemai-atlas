@@ -1,0 +1,501 @@
+{
+  "completeness": "complete",
+  "fetchedAt": "2026-09-02",
+  "institution": "KIT — Computer Vision for Human-Computer Interaction Lab",
+  "officialPageUrl": "https://cvhci.iar.kit.edu/people.php",
+  "officialDataUrl": "https://cvhci.iar.kit.edu/people.php",
+  "officialDataUrls": [
+    "https://cvhci.iar.kit.edu/people.php"
+  ],
+  "officialRosterCount": 60,
+  "sourceDescription": "All five tables on the official People page were frozen: Director 1, Secretary 1, Academic Staff 12, External Ph.D. Students 2 and Alumni 44. Non-PI and historical rows remain intentionally present for later classification.",
+  "categoryCounts": {
+    "Director": 1,
+    "Secretary": 1,
+    "Academic Staff": 12,
+    "External Ph.D. Students": 2,
+    "Alumni": 44
+  },
+  "people": [
+    {
+      "detail": "+49 (0)721 608 46385",
+      "name": "Stiefelhagen, Rainer",
+      "officialId": "Director:stiefelhagen, rainer",
+      "profileUrl": "https://cvhci.iar.kit.edu/people_596.php",
+      "title": "Prof. Dr.-Ing.",
+      "category": "Director"
+    },
+    {
+      "detail": "corinna haas-heckerDzh8∂kit edu",
+      "name": "Haas-Hecker, Corinna",
+      "officialId": "Secretary:haas-hecker, corinna",
+      "profileUrl": "https://cvhci.iar.kit.edu/people_699.php",
+      "title": "+49 721 608-45334",
+      "category": "Secretary"
+    },
+    {
+      "detail": "+49 (0)721 608 41692",
+      "name": "Chen, Yufan",
+      "officialId": "Academic Staff:chen, yufan",
+      "profileUrl": "https://cvhci.iar.kit.edu/people_2407.php",
+      "title": "M.Sc.",
+      "category": "Academic Staff"
+    },
+    {
+      "detail": "+49 (0)721 608 44735",
+      "name": "Halady, Pradnya",
+      "officialId": "Academic Staff:halady, pradnya",
+      "profileUrl": "https://cvhci.iar.kit.edu/people_2825.php",
+      "title": "M.Sc.",
+      "category": "Academic Staff"
+    },
+    {
+      "detail": "+49 (0)721 608 46386",
+      "name": "Jaus, Alexander",
+      "officialId": "Academic Staff:jaus, alexander",
+      "profileUrl": "https://cvhci.iar.kit.edu/people_2206.php",
+      "title": "Dr.-Ing.",
+      "category": "Academic Staff"
+    },
+    {
+      "detail": "+49 (0)721 608 46386",
+      "name": "Liu, Ruiping",
+      "officialId": "Academic Staff:liu, ruiping",
+      "profileUrl": "https://cvhci.iar.kit.edu/people_2408.php",
+      "title": "M.Sc.",
+      "category": "Academic Staff"
+    },
+    {
+      "detail": "+49 (0)721 608 46265",
+      "name": "Marinov, Zdravko",
+      "officialId": "Academic Staff:marinov, zdravko",
+      "profileUrl": "https://cvhci.iar.kit.edu/people_2240.php",
+      "title": "Dr.-Ing.",
+      "category": "Academic Staff"
+    },
+    {
+      "detail": "+49 721 608-41954",
+      "name": "Peng, Kunyu",
+      "officialId": "Academic Staff:peng, kunyu",
+      "profileUrl": "https://cvhci.iar.kit.edu/people_2123.php",
+      "title": "Dr.-Ing.",
+      "category": "Academic Staff"
+    },
+    {
+      "detail": "+49 (0)721 608 44735",
+      "name": "Reiß, Simon",
+      "officialId": "Academic Staff:reiß, simon",
+      "profileUrl": "https://cvhci.iar.kit.edu/people_1948.php",
+      "title": "Dr.-Ing.",
+      "category": "Academic Staff"
+    },
+    {
+      "detail": "+49 (0)721 608 41694",
+      "name": "Sarfraz, Saquib",
+      "officialId": "Academic Staff:sarfraz, saquib",
+      "profileUrl": "https://cvhci.iar.kit.edu/people_713.php",
+      "title": "Dr.-Ing.",
+      "category": "Academic Staff"
+    },
+    {
+      "detail": "",
+      "name": "Schneider, David",
+      "officialId": "Academic Staff:schneider, david",
+      "profileUrl": "https://cvhci.iar.kit.edu/people_2125.php",
+      "title": "Dr.-Ing.",
+      "category": "Academic Staff"
+    },
+    {
+      "detail": "+49 721 608-46265",
+      "name": "Wei, Jiale",
+      "officialId": "Academic Staff:wei, jiale",
+      "profileUrl": "https://cvhci.iar.kit.edu/people_2640.php",
+      "title": "M.Sc.",
+      "category": "Academic Staff"
+    },
+    {
+      "detail": "+49 721 608-41954",
+      "name": "Wen, Di",
+      "officialId": "Academic Staff:wen, di",
+      "profileUrl": "https://cvhci.iar.kit.edu/people_2519.php",
+      "title": "M.Sc.",
+      "category": "Academic Staff"
+    },
+    {
+      "detail": "+49 (0)721 608 46386",
+      "name": "Zheng, Junwei",
+      "officialId": "Academic Staff:zheng, junwei",
+      "profileUrl": "https://cvhci.iar.kit.edu/people_2444.php",
+      "title": "M.Sc.",
+      "category": "Academic Staff"
+    },
+    {
+      "detail": "david lerchLnf5∂iosb fraunhofer de",
+      "name": "Lerch, David",
+      "officialId": "External Ph.D. Students:lerch, david",
+      "profileUrl": "https://cvhci.iar.kit.edu/people_2431.php",
+      "title": "Fraunhofer IOSB",
+      "category": "External Ph.D. Students"
+    },
+    {
+      "detail": "valentin wagnerDts3∂iosb fraunhofer de",
+      "name": "Wagner, Valentin",
+      "officialId": "External Ph.D. Students:wagner, valentin",
+      "profileUrl": "https://cvhci.iar.kit.edu/people_2325.php",
+      "title": "Fraunhofer IOSB",
+      "category": "External Ph.D. Students"
+    },
+    {
+      "detail": "Assistant Professor at University of Utah",
+      "name": "Al-Halah, Ziad",
+      "officialId": "Alumni:al-halah, ziad",
+      "profileUrl": "https://cvhci.iar.kit.edu/people_1697.php",
+      "title": "Prof. Dr.-Ing.",
+      "category": "Alumni"
+    },
+    {
+      "detail": "",
+      "name": "Alzalabny, Sara",
+      "officialId": "Alumni:alzalabny, sara",
+      "profileUrl": "https://cvhci.iar.kit.edu/people_2751.php",
+      "title": "Dr.-Ing.",
+      "category": "Alumni"
+    },
+    {
+      "detail": "Martin is now with Google Zürich.",
+      "name": "Bäuml, Martin",
+      "officialId": "Alumni:bäuml, martin",
+      "profileUrl": "https://cvhci.iar.kit.edu/people_1042.php",
+      "title": "Dr.-Ing.",
+      "category": "Alumni"
+    },
+    {
+      "detail": "",
+      "name": "Bernardin, Keni",
+      "officialId": "Alumni:bernardin, keni",
+      "profileUrl": "https://cvhci.iar.kit.edu/people_912.php",
+      "title": "Dr.-Ing.",
+      "category": "Alumni"
+    },
+    {
+      "detail": "Professor at University of Applied Sciences, Kempten",
+      "name": "Brauer, Jürgen",
+      "officialId": "Alumni:brauer, jürgen",
+      "profileUrl": "https://cvhci.iar.kit.edu/people_1046.php",
+      "title": "Prof. Dr.-Ing.",
+      "category": "Alumni"
+    },
+    {
+      "detail": "",
+      "name": "Bullinger, Sebastian",
+      "officialId": "Alumni:bullinger, sebastian",
+      "profileUrl": "https://cvhci.iar.kit.edu/people_1901.php",
+      "title": "Dr.-Ing.",
+      "category": "Alumni"
+    },
+    {
+      "detail": "Professor at ITU, Department of Computer Engineering, Turkey",
+      "name": "Ekenel, Hazım Kemal",
+      "officialId": "Alumni:ekenel, hazım kemal",
+      "profileUrl": "https://cvhci.iar.kit.edu/people_73.php",
+      "title": "Prof. Dr.-Ing.",
+      "category": "Alumni"
+    },
+    {
+      "detail": "",
+      "name": "Feldmann, Tobias",
+      "officialId": "Alumni:feldmann, tobias",
+      "profileUrl": "https://cvhci.iar.kit.edu/people_1048.php",
+      "title": "Dr.-Ing.",
+      "category": "Alumni"
+    },
+    {
+      "detail": "",
+      "name": "Fervers, Florian",
+      "officialId": "Alumni:fervers, florian",
+      "profileUrl": "https://cvhci.iar.kit.edu/people_2642.php",
+      "title": "Dr.-Ing.",
+      "category": "Alumni"
+    },
+    {
+      "detail": "",
+      "name": "Fischer, Mika",
+      "officialId": "Alumni:fischer, mika",
+      "profileUrl": "https://cvhci.iar.kit.edu/people_1507.php",
+      "title": "Dipl.-Inform.",
+      "category": "Alumni"
+    },
+    {
+      "detail": "",
+      "name": "Gao, Hua",
+      "officialId": "Alumni:gao, hua",
+      "profileUrl": "https://cvhci.iar.kit.edu/people_85.php",
+      "title": "Dr.-Ing.",
+      "category": "Alumni"
+    },
+    {
+      "detail": "",
+      "name": "Gehrig, Tobias",
+      "officialId": "Alumni:gehrig, tobias",
+      "profileUrl": "https://cvhci.iar.kit.edu/people_1510.php",
+      "title": "Dipl.-Inform.",
+      "category": "Alumni"
+    },
+    {
+      "detail": "",
+      "name": "Haurilet, Monica",
+      "officialId": "Alumni:haurilet, monica",
+      "profileUrl": "https://cvhci.iar.kit.edu/people_1938.php",
+      "title": "Dr.-Ing.",
+      "category": "Alumni"
+    },
+    {
+      "detail": "",
+      "name": "IJsselmuiden, Joris",
+      "officialId": "Alumni:ijsselmuiden, joris",
+      "profileUrl": "https://cvhci.iar.kit.edu/people_1047.php",
+      "title": "Dr.-Ing.",
+      "category": "Alumni"
+    },
+    {
+      "detail": "",
+      "name": "Jäger, Paul",
+      "officialId": "Alumni:jäger, paul",
+      "profileUrl": "https://cvhci.iar.kit.edu/people_1963.php",
+      "title": "Dr.-Ing.",
+      "category": "Alumni"
+    },
+    {
+      "detail": "",
+      "name": "Kieritz, Hilke",
+      "officialId": "Alumni:kieritz, hilke",
+      "profileUrl": "https://cvhci.iar.kit.edu/people_1902.php",
+      "title": "Dipl.-Inform.",
+      "category": "Alumni"
+    },
+    {
+      "detail": "",
+      "name": "Koester, Daniel",
+      "officialId": "Alumni:koester, daniel",
+      "profileUrl": "https://cvhci.iar.kit.edu/people_1854.php",
+      "title": "Dr.-Ing.",
+      "category": "Alumni"
+    },
+    {
+      "detail": "",
+      "name": "Kohl, Simon",
+      "officialId": "Alumni:kohl, simon",
+      "profileUrl": "https://cvhci.iar.kit.edu/people_1939.php",
+      "title": "Dr.-Ing.",
+      "category": "Alumni"
+    },
+    {
+      "detail": "",
+      "name": "Koulakis, Marios",
+      "officialId": "Alumni:koulakis, marios",
+      "profileUrl": "https://cvhci.iar.kit.edu/people_2424.php",
+      "title": "Dr.",
+      "category": "Alumni"
+    },
+    {
+      "detail": "Professor at Universität Tübingen, Germany",
+      "name": "Kühne, Hildegard",
+      "officialId": "Alumni:kühne, hildegard",
+      "profileUrl": "https://cvhci.iar.kit.edu/people_722.php",
+      "title": "Prof. Dr.-Ing.",
+      "category": "Alumni"
+    },
+    {
+      "detail": "",
+      "name": "Lang, Matthias",
+      "officialId": "Alumni:lang, matthias",
+      "profileUrl": "https://cvhci.iar.kit.edu/people_1506.php",
+      "title": "Dipl.-Inform.",
+      "category": "Alumni"
+    },
+    {
+      "detail": "",
+      "name": "Martin, Manuel",
+      "officialId": "Alumni:martin, manuel",
+      "profileUrl": "https://cvhci.iar.kit.edu/people_2356.php",
+      "title": "Dr.-Ing.",
+      "category": "Alumni"
+    },
+    {
+      "detail": "",
+      "name": "Martinez Torres, Manuel",
+      "officialId": "Alumni:martinez torres, manuel",
+      "profileUrl": "https://cvhci.iar.kit.edu/people_2336.php",
+      "title": "Dr.-Ing.",
+      "category": "Alumni"
+    },
+    {
+      "detail": "",
+      "name": "Moured, Omar",
+      "officialId": "Alumni:moured, omar",
+      "profileUrl": "https://cvhci.iar.kit.edu/people_2782.php",
+      "title": "Dr.-Ing.",
+      "category": "Alumni"
+    },
+    {
+      "detail": "",
+      "name": "Münch, David",
+      "officialId": "Alumni:münch, david",
+      "profileUrl": "https://cvhci.iar.kit.edu/people_1592.php",
+      "title": "Dr.-Ing.",
+      "category": "Alumni"
+    },
+    {
+      "detail": "Kai is now with Videmo Intelligente Videoanalyse.",
+      "name": "Nickel, Kai",
+      "officialId": "Alumni:nickel, kai",
+      "profileUrl": "https://cvhci.iar.kit.edu/people_913.php",
+      "title": "Dr.-Ing.",
+      "category": "Alumni"
+    },
+    {
+      "detail": "",
+      "name": "Quiong, Liu",
+      "officialId": "Alumni:quiong, liu",
+      "profileUrl": "https://cvhci.iar.kit.edu/people_915.php",
+      "title": "",
+      "category": "Alumni"
+    },
+    {
+      "detail": "",
+      "name": "Ramoa, Gaspar",
+      "officialId": "Alumni:ramoa, gaspar",
+      "profileUrl": "https://cvhci.iar.kit.edu/people_2719.php",
+      "title": "Dr.-Ing.",
+      "category": "Alumni"
+    },
+    {
+      "detail": "Professor at Universität Hildesheim, Germany",
+      "name": "Roitberg, Alina",
+      "officialId": "Alumni:roitberg, alina",
+      "profileUrl": "https://cvhci.iar.kit.edu/people_2423.php",
+      "title": "Prof. Dr.-Ing.",
+      "category": "Alumni"
+    },
+    {
+      "detail": "",
+      "name": "Schauerte, Boris",
+      "officialId": "Alumni:schauerte, boris",
+      "profileUrl": "https://cvhci.iar.kit.edu/people_1564.php",
+      "title": "Dr.-Ing.",
+      "category": "Alumni"
+    },
+    {
+      "detail": "Alexander is now with Bosch.",
+      "name": "Schick, Alexander",
+      "officialId": "Alumni:schick, alexander",
+      "profileUrl": "https://cvhci.iar.kit.edu/people_1045.php",
+      "title": "Dr.-Ing.",
+      "category": "Alumni"
+    },
+    {
+      "detail": "",
+      "name": "Schmitt, Felix",
+      "officialId": "Alumni:schmitt, felix",
+      "profileUrl": "https://cvhci.iar.kit.edu/people_1698.php",
+      "title": "Dr.-Ing.",
+      "category": "Alumni"
+    },
+    {
+      "detail": "",
+      "name": "Schön, Angela",
+      "officialId": "Alumni:schön, angela",
+      "profileUrl": "https://cvhci.iar.kit.edu/people_2515.php",
+      "title": "Dr.-Ing.",
+      "category": "Alumni"
+    },
+    {
+      "detail": "",
+      "name": "Schulz, Andreas",
+      "officialId": "Alumni:schulz, andreas",
+      "profileUrl": "https://cvhci.iar.kit.edu/people_1551.php",
+      "title": "Dr.-Ing.",
+      "category": "Alumni"
+    },
+    {
+      "detail": "",
+      "name": "Schumann, Arne",
+      "officialId": "Alumni:schumann, arne",
+      "profileUrl": "https://cvhci.iar.kit.edu/people_1858.php",
+      "title": "Dr.-Ing.",
+      "category": "Alumni"
+    },
+    {
+      "detail": "",
+      "name": "Schwarz, Anke",
+      "officialId": "Alumni:schwarz, anke",
+      "profileUrl": "https://cvhci.iar.kit.edu/people_1696.php",
+      "title": "Dr.-Ing.",
+      "category": "Alumni"
+    },
+    {
+      "detail": "",
+      "name": "Seibold, Constantin",
+      "officialId": "Alumni:seibold, constantin",
+      "profileUrl": "https://cvhci.iar.kit.edu/people_2363.php",
+      "title": "Dr.-Ing.",
+      "category": "Alumni"
+    },
+    {
+      "detail": "",
+      "name": "Sharma, Vivek",
+      "officialId": "Alumni:sharma, vivek",
+      "profileUrl": "https://cvhci.iar.kit.edu/people_2826.php",
+      "title": "Dr.-Ing",
+      "category": "Alumni"
+    },
+    {
+      "detail": "Assistant Professor at IIT Hyderabad, India",
+      "name": "Tapaswi, Makarand",
+      "officialId": "Alumni:tapaswi, makarand",
+      "profileUrl": "https://cvhci.iar.kit.edu/people_1522.php",
+      "title": "Prof. Dr.-Ing.",
+      "category": "Alumni"
+    },
+    {
+      "detail": "",
+      "name": "van de Camp, Florian",
+      "officialId": "Alumni:van de camp, florian",
+      "profileUrl": "https://cvhci.iar.kit.edu/people_1044.php",
+      "title": "Dr.-Ing.",
+      "category": "Alumni"
+    },
+    {
+      "detail": "Group manager of the Perceptual User Interfaces research group at Fraunhofer IOSB",
+      "name": "Voit, Michael",
+      "officialId": "Alumni:voit, michael",
+      "profileUrl": "https://cvhci.iar.kit.edu/people_914.php",
+      "title": "Dr.-Ing.",
+      "category": "Alumni"
+    },
+    {
+      "detail": "",
+      "name": "Vujasinovic, Stéphane",
+      "officialId": "Alumni:vujasinovic, stéphane",
+      "profileUrl": "https://cvhci.iar.kit.edu/people_2752.php",
+      "title": "Dr.-Ing.",
+      "category": "Alumni"
+    },
+    {
+      "detail": "Associate Professor at School of Robotics, Hunan University (HNU)",
+      "name": "Yang, Kailun",
+      "officialId": "Alumni:yang, kailun",
+      "profileUrl": "https://cvhci.iar.kit.edu/people_2355.php",
+      "title": "Dr.",
+      "category": "Alumni"
+    },
+    {
+      "detail": "Professor at the School of AI and Robotics at Hunan University, China",
+      "name": "Zhang, Jiaming",
+      "officialId": "Alumni:zhang, jiaming",
+      "profileUrl": "https://cvhci.iar.kit.edu/people_2720.php",
+      "title": "Prof. Dr.-Ing.",
+      "category": "Alumni"
+    }
+  ]
+}

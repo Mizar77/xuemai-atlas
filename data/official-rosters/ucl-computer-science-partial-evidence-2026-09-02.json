@@ -1,0 +1,47 @@
+{
+  "completeness": "partial",
+  "fetchedAt": "2026-09-02",
+  "institution": "University College London Department of Computer Science",
+  "officialPageUrl": "https://www.ucl.ac.uk/computer-science/people/academic-and-research-staff",
+  "officialDataUrl": "https://profiles.ucl.ac.uk/search?by=text&d=Dept+of+Computer+Science&type=user&v=",
+  "officialRosterCount": null,
+  "visibleOfficialSubsetCounts": {
+    "profilesSearchResults": 554,
+    "resultsPerPage": 25,
+    "pages": 23,
+    "capturedFirstPage": 25
+  },
+  "sourceDescription": "The current UCL Engineering academic-staff page delegates its All staff (A-Z) directory to UCL Profiles. That first-party search reports 554 records across 23 client-rendered pages, but the population includes professors, research fellows, honorary staff, postgraduate teaching assistants, administrators and other departmental appointments. The paginated SPA did not expose a stable server-side page URL in this capture, so only the first 25 exact records are retained as evidence and no complete roster count is frozen.",
+  "blockingEvidence": [
+    "The legacy scope URL has moved to a new UCL Engineering people page.",
+    "The official UCL Profiles result set is broader than academic/research staff and requires later role classification.",
+    "The client-rendered pagination did not expose a stable complete export or page parameter during this audit."
+  ],
+  "people": [
+    { "name": "Mr S A", "officialId": "99475-s-a", "profileUrl": "https://profiles.ucl.ac.uk/99475-s-a", "source": "https://profiles.ucl.ac.uk/search?by=text&d=Dept+of+Computer+Science&type=user&v=" },
+    { "name": "Dr Mina Abbaszadeh", "officialId": "99512-mina-abbaszadeh", "profileUrl": "https://profiles.ucl.ac.uk/99512-mina-abbaszadeh", "source": "https://profiles.ucl.ac.uk/search?by=text&d=Dept+of+Computer+Science&type=user&v=" },
+    { "name": "Dr Ahmed Abdelkarim", "officialId": "87672-ahmed-abdelkarim", "profileUrl": "https://profiles.ucl.ac.uk/87672-ahmed-abdelkarim", "source": "https://profiles.ucl.ac.uk/search?by=text&d=Dept+of+Computer+Science&type=user&v=" },
+    { "name": "Prof Samson Abramsky", "officialId": "86621-samson-abramsky", "profileUrl": "https://profiles.ucl.ac.uk/86621-samson-abramsky", "source": "https://profiles.ucl.ac.uk/search?by=text&d=Dept+of+Computer+Science&type=user&v=" },
+    { "name": "Ms Andrea Achilleos", "officialId": "90296-andrea-achilleos", "profileUrl": "https://profiles.ucl.ac.uk/90296-andrea-achilleos", "source": "https://profiles.ucl.ac.uk/search?by=text&d=Dept+of+Computer+Science&type=user&v=" },
+    { "name": "Dr Manal Adham", "officialId": "42518-manal-adham", "profileUrl": "https://profiles.ucl.ac.uk/42518-manal-adham", "source": "https://profiles.ucl.ac.uk/search?by=text&d=Dept+of+Computer+Science&type=user&v=" },
+    { "name": "Miss Mayokun Afolabi", "officialId": "91983-mayokun-afolabi", "profileUrl": "https://profiles.ucl.ac.uk/91983-mayokun-afolabi", "source": "https://profiles.ucl.ac.uk/search?by=text&d=Dept+of+Computer+Science&type=user&v=" },
+    { "name": "Mr Sharad Agarwal", "officialId": "89073-sharad-agarwal", "profileUrl": "https://profiles.ucl.ac.uk/89073-sharad-agarwal", "source": "https://profiles.ucl.ac.uk/search?by=text&d=Dept+of+Computer+Science&type=user&v=" },
+    { "name": "Dr Kaan Akşit", "officialId": "79621-kaan-akşit", "profileUrl": "https://profiles.ucl.ac.uk/79621-kaan-akşit", "source": "https://profiles.ucl.ac.uk/search?by=text&d=Dept+of+Computer+Science&type=user&v=" },
+    { "name": "Mr Hazem Danny Al Nakib", "officialId": "84170-hazem-danny-al-nakib", "profileUrl": "https://profiles.ucl.ac.uk/84170-hazem-danny-al-nakib", "source": "https://profiles.ucl.ac.uk/search?by=text&d=Dept+of+Computer+Science&type=user&v=" },
+    { "name": "Mr Mathieu Alain", "officialId": "86608-mathieu-alain", "profileUrl": "https://profiles.ucl.ac.uk/86608-mathieu-alain", "source": "https://profiles.ucl.ac.uk/search?by=text&d=Dept+of+Computer+Science&type=user&v=" },
+    { "name": "Ms Karin Alderson", "officialId": "74437-karin-alderson", "profileUrl": "https://profiles.ucl.ac.uk/74437-karin-alderson", "source": "https://profiles.ucl.ac.uk/search?by=text&d=Dept+of+Computer+Science&type=user&v=" },
+    { "name": "Prof Daniel Alexander", "officialId": "3589-daniel-alexander", "profileUrl": "https://profiles.ucl.ac.uk/3589-daniel-alexander", "source": "https://profiles.ucl.ac.uk/search?by=text&d=Dept+of+Computer+Science&type=user&v=" },
+    { "name": "Prof Jade Alglave", "officialId": "35899-jade-alglave", "profileUrl": "https://profiles.ucl.ac.uk/35899-jade-alglave", "source": "https://profiles.ucl.ac.uk/search?by=text&d=Dept+of+Computer+Science&type=user&v=" },
+    { "name": "Dr Jack Allen", "officialId": "97450-jack-allen", "profileUrl": "https://profiles.ucl.ac.uk/97450-jack-allen", "source": "https://profiles.ucl.ac.uk/search?by=text&d=Dept+of+Computer+Science&type=user&v=" },
+    { "name": "Mr Mehran Allybaccus", "officialId": "99141-mehran-allybaccus", "profileUrl": "https://profiles.ucl.ac.uk/99141-mehran-allybaccus", "source": "https://profiles.ucl.ac.uk/search?by=text&d=Dept+of+Computer+Science&type=user&v=" },
+    { "name": "Dr Melis Anaturk", "officialId": "78719-melis-anaturk", "profileUrl": "https://profiles.ucl.ac.uk/78719-melis-anaturk", "source": "https://profiles.ucl.ac.uk/search?by=text&d=Dept+of+Computer+Science&type=user&v=" },
+    { "name": "Mr Romulo Aparecido", "officialId": "93510-romulo-aparecido", "profileUrl": "https://profiles.ucl.ac.uk/93510-romulo-aparecido", "source": "https://profiles.ucl.ac.uk/search?by=text&d=Dept+of+Computer+Science&type=user&v=" },
+    { "name": "Dr Dr Daniel Archer Archer", "officialId": "68226-dr-daniel-archer-archer", "profileUrl": "https://profiles.ucl.ac.uk/68226-dr-daniel-archer-archer", "source": "https://profiles.ucl.ac.uk/search?by=text&d=Dept+of+Computer+Science&type=user&v=" },
+    { "name": "Prof Simon Arridge", "officialId": "4864-simon-arridge", "profileUrl": "https://profiles.ucl.ac.uk/4864-simon-arridge", "source": "https://profiles.ucl.ac.uk/search?by=text&d=Dept+of+Computer+Science&type=user&v=" },
+    { "name": "Prof Tomaso Aste", "officialId": "36202-tomaso-aste", "profileUrl": "https://profiles.ucl.ac.uk/36202-tomaso-aste", "source": "https://profiles.ucl.ac.uk/search?by=text&d=Dept+of+Computer+Science&type=user&v=" },
+    { "name": "Dr Rafiq Atia", "officialId": "84955-rafiq-atia", "profileUrl": "https://profiles.ucl.ac.uk/84955-rafiq-atia", "source": "https://profiles.ucl.ac.uk/search?by=text&d=Dept+of+Computer+Science&type=user&v=" },
+    { "name": "Ms Sabrina Aufiero", "officialId": "96205-sabrina-aufiero", "profileUrl": "https://profiles.ucl.ac.uk/96205-sabrina-aufiero", "source": "https://profiles.ucl.ac.uk/search?by=text&d=Dept+of+Computer+Science&type=user&v=" },
+    { "name": "Dr Victoria Austin", "officialId": "67193-victoria-austin", "profileUrl": "https://profiles.ucl.ac.uk/67193-victoria-austin", "source": "https://profiles.ucl.ac.uk/search?by=text&d=Dept+of+Computer+Science&type=user&v=" },
+    { "name": "Mr Ahmed Awad", "officialId": "63849-ahmed-awad", "profileUrl": "https://profiles.ucl.ac.uk/63849-ahmed-awad", "source": "https://profiles.ucl.ac.uk/search?by=text&d=Dept+of+Computer+Science&type=user&v=" }
+  ]
+}

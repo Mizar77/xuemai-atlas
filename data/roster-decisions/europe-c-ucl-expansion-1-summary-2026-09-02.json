@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 1,
+  "snapshotAt": "2026-09-02",
+  "unitId": "ucl-cs",
+  "sourceDecisionFile": "data/roster-decisions/ucl-cs-2026-09-02.json",
+  "proposalModule": "app/europe-c-ucl-roster-pi-expansion-1.ts",
+  "portraitDirectory": "public/portraits/europe-c-ucl-roster-2026",
+  "readyCount": 12,
+  "ready": [
+    "david-barber-ucl-roster",
+    "neill-campbell-ucl-roster",
+    "danail-stoyanov-ucl-roster",
+    "lorenzo-jamone-ucl-roster",
+    "dimitrios-kanoulas-ucl-roster",
+    "vasileios-lampos-ucl-roster",
+    "mirco-musolesi-ucl-roster",
+    "massimiliano-pontil-ucl-roster",
+    "john-shawe-taylor-ucl-roster",
+    "marta-betcke-ucl-roster",
+    "ivana-drobnjak-ucl-roster",
+    "ann-blandford-ucl-roster"
+  ],
+  "deferredCount": 0,
+  "deferred": [],
+  "evidencePolicy": "All people are current independent PIs verified from UCL Profiles current-role fields. Education, research, entrepreneurship, student and industry claims are included only when the first-party UCL profile states them. Coauthorship, group membership and project participation are not converted into lineage or placement edges.",
+  "classificationResult": {
+    "rosterCount": 554,
+    "includedExisting": 5,
+    "includeNewPi": 128,
+    "excludedNonAiCs": 0,
+    "excludedNonPi": 381,
+    "excludedHistorical": 6,
+    "pendingProfileVerification": 34,
+    "finalizedFromPriorPending": 512
+  }
+}

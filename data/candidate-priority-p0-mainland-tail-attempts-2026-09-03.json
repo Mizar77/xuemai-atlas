@@ -1,0 +1,63 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-03",
+  "batch": "candidate-priority-p0-mainland-tail-batch-1-2026",
+  "attempts": [
+    {
+      "name": "张伟楠",
+      "checked": [
+        "https://www.cs.sjtu.edu.cn/jiaoshiml/zhangweinan.html",
+        "https://wnzhang.net/",
+        "https://www0.cs.ucl.ac.uk/staff/Weinan.Zhang/"
+      ],
+      "portrait": "https://www.cs.sjtu.edu.cn/upload/image/20251009/20251009122003.png",
+      "relationship": "Jun Wang and Stephen Robertson co-advised the UCL PhD",
+      "result": "ready"
+    },
+    {
+      "name": "刘松桦",
+      "checked": [
+        "https://sai.sjtu.edu.cn/cn/facultydetails/zzjs/liusonghua",
+        "https://huage001.github.io/"
+      ],
+      "portrait": "https://sai.sjtu.edu.cn/Upload/Faculty/liusonghua.jpg",
+      "relationship": "Xinchao Wang supervised the NUS PhD",
+      "result": "ready"
+    },
+    {
+      "name": "张林峰",
+      "checked": [
+        "https://sai.sjtu.edu.cn/cn/facultydetails/zzjs/zhanglinfeng",
+        "https://en.zhiyuan.sjtu.edu.cn/en/faculty/958/detail",
+        "https://www.zhanglinfeng.tech/index_chinese.html",
+        "https://www.zhanglinfeng.tech/assets/images/CV-new.pdf"
+      ],
+      "portrait": "https://www.zhanglinfeng.tech/assets/images/linfeng.jpg",
+      "relationship": "Kaisheng Ma supervised the Tsinghua PhD",
+      "result": "ready"
+    },
+    {
+      "name": "崔斌",
+      "checked": [
+        "https://cs.pku.edu.cn/info/1062/1608.htm",
+        "https://cuibinpku.github.io/",
+        "https://cuibinpku.github.io/student.html"
+      ],
+      "portrait": "PKU official faculty portrait",
+      "relationship": "Wang Yujie is listed as a current PhD student",
+      "result": "ready"
+    },
+    {
+      "name": "戴琼海",
+      "checked": [
+        "https://www.au.tsinghua.edu.cn/info/1080/3225.htm",
+        "https://media.au.tsinghua.edu.cn/cn/info/1009/1112.htm",
+        "https://www.tsinghua.edu.cn/info/1181/52952.htm",
+        "https://www.tsinghua.edu.cn/jxjywj/qinghuadaxuelinianruxuanbeijingshiyouxiuboshixueweilunwenmingdan2025.pdf"
+      ],
+      "portrait": "Tsinghua Automation official faculty portrait",
+      "relationship": "The Tsinghua dissertation list records 曹汛 under adviser 戴琼海",
+      "result": "ready"
+    }
+  ]
+}

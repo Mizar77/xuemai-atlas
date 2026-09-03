@@ -96,6 +96,472 @@ import { influenceQueueCanadaFinalGroupMembers, influenceQueueCanadaFinalPeople,
 import { influenceQueueUsFinalGroupMembers, influenceQueueUsFinalPeople, influenceQueueUsFinalPersonEnhancements, influenceQueueUsFinalPlacements, influenceQueueUsFinalPortraits, influenceQueueUsFinalRelationships } from "./influence-queue-us-final";
 import { influenceQueueFixPortraits } from "./portrait-data-influence-queue-fixes";
 import { topSchoolAdviserPeople, topSchoolAdviserPersonEnhancements, topSchoolAdviserPortraits, topSchoolAdviserRelationships } from "./top-school-adviser-expansion";
+import { waiLamRosterGroupMembers, waiLamRosterPeople, waiLamRosterPersonEnhancements, waiLamRosterPlacements, waiLamRosterPortraits, waiLamRosterRelationships } from "./wai-lam-roster-expansion";
+import { currentPiBackfill2026Portraits } from "./portrait-data-current-pi-backfill-2026";
+import { topSchoolRosterGroupMembers2026, topSchoolRosterPeople2026, topSchoolRosterRelationships2026 } from "./top-school-roster-expansion-2026";
+import { topSchoolComprehensivePeople2026 } from "./top-school-roster-comprehensive-2026";
+import { topSchoolRosterRound2People2026 } from "./top-school-roster-round2-2026";
+import { gaoWenNetworkGroupMembers2026, gaoWenNetworkPeople2026, gaoWenNetworkPlacements2026, gaoWenNetworkRelationships2026, gaoWenPersonEnhancements2026 } from "./gao-wen-network-expansion-2026";
+import { gaoWenNetworkRound2People2026, gaoWenNetworkRound2PersonEnhancements2026, gaoWenNetworkRound2Placements2026, gaoWenNetworkRound2Relationships2026 } from "./gao-wen-network-round2-2026";
+import { fiveScholarStudentSystemEnhancements2026, fiveScholarStudentSystemGroupMembers2026, fiveScholarStudentSystemPeople2026, fiveScholarStudentSystemPlacements2026, fiveScholarStudentSystemRelationships2026 } from "./five-scholar-student-systems-2026";
+import { thomasHuangYanGroupMembers, thomasHuangYanPeople, thomasHuangYanPersonEnhancements, thomasHuangYanPlacements, thomasHuangYanRelationships } from "./thomas-huang-yan-network-expansion";
+import { thomasHuangYanPortraits } from "./portrait-data-thomas-huang-yan-network";
+import { hustRosterPiExpansion1Portraits, hustRosterPiExpansion1PublishedPeople, hustRosterPiExpansion1Relationships } from "./hust-roster-pi-expansion-1";
+import { nyuAaltoRosterExpansionPeople2026 } from "./roster-expansion-nyu-aalto-2026";
+import { nyuAaltoRosterPortraits2026 } from "./portrait-data-roster-expansion-nyu-aalto-2026";
+import { hustAiaRosterPiExpansion1Portraits, hustAiaRosterPiExpansion1PublishedPeople } from "./hust-aia-roster-pi-expansion-1";
+import { europeARosterPiExpansion1Portraits, europeARosterPiExpansion1PublishedPeople, europeARosterPiExpansion1Relationships } from "./europe-a-roster-pi-expansion-1";
+import { hustCsRosterPiExpansion2People } from "./hust-cs-roster-pi-expansion-2";
+import { usCornellRosterExpansion1People, usCornellRosterExpansion1Relationships } from "./us-cornell-roster-expansion-1";
+import { europeCTuWienRosterPiExpansion1People } from "./europe-c-tuwien-roster-pi-expansion-1";
+import { hkbuRosterPiExpansion2026People, hkbuRosterPiExpansion2026Relationships } from "./hkbu-roster-pi-expansion-2026";
+import { hkustCseRosterExpansionBatch2People, hkustCseRosterExpansionBatch2Relationships } from "./hkust-cse-roster-expansion-batch2-2026";
+import { europeCUclRosterPiExpansion1People } from "./europe-c-ucl-roster-pi-expansion-1";
+import { usStanfordRosterExpansion2People, usStanfordRosterExpansion2PersonEnhancements, usStanfordRosterExpansion2Portraits, usStanfordRosterExpansion2Relationships } from "./us-stanford-roster-expansion-2";
+import { sergeBelongieInfluenceGroupMembers, sergeBelongieInfluencePersonEnhancements, sergeBelongieInfluenceRelationships } from "./serge-belongie-influence-audit";
+import { stanfordInfluencePendingGroupMembers, stanfordInfluencePendingPersonEnhancements, stanfordInfluencePendingRelationships } from "./stanford-influence-pending-expansion-2026";
+import { usCornellInfluenceFix1GroupMembers, usCornellInfluenceFix1PersonEnhancements, usCornellInfluenceFix1Relationships } from "./us-cornell-influence-fix-1";
+import { stanfordAzaliaUpstreamGroupMembers, stanfordAzaliaUpstreamPeople, stanfordAzaliaUpstreamPersonEnhancements, stanfordAzaliaUpstreamPortraits, stanfordAzaliaUpstreamRelationships } from "./stanford-azalia-upstream-final-2026";
+import { asiaNextRosterPiExpansionPeople2026, asiaNextRosterPiExpansionPortraits2026, asiaNextRosterPiExpansionRelationships2026 } from "./asia-next-roster-pi-expansion-2026";
+import { europeNextRosterPiExpansion1GroupMembers, europeNextRosterPiExpansion1People, europeNextRosterPiExpansion1Portraits, europeNextRosterPiExpansion1Relationships, europeNextRosterPiExpansion1StudentPlacements } from "./europe-next-roster-pi-expansion-1";
+import { cmuScsRosterExpansionGroupMembers2026, cmuScsRosterExpansionPeople2026, cmuScsRosterExpansionPlacements2026, cmuScsRosterExpansionRelationships2026 } from "./cmu-scs-roster-expansion-2026";
+import { usRosterBatch2GroupMembers, usRosterBatch2People, usRosterBatch2Portraits, usRosterBatch2Relationships, usRosterBatch2SupportingPeople } from "./us-roster-batch2-expansion-2026";
+import { usCornellUpstreamEnhancements, usCornellUpstreamPeople, usCornellUpstreamRelationships } from "./us-cornell-upstream-final-2026";
+import { candidatePriorityExistingMatchEnhancements2026 } from "./candidate-priority-existing-match-enhancements-2026";
+import { groupMembers as usUwUiucRosterGroupMembers, people as usUwUiucRosterPeople, relationships as usUwUiucRosterRelationships } from "./us-uw-uiuc-roster-expansion-2026";
+import { europeFrozenTailPiExpansion1GroupMembers, europeFrozenTailPiExpansion1People, europeFrozenTailPiExpansion1PersonEnhancements, europeFrozenTailPiExpansion1Portraits, europeFrozenTailPiExpansion1Relationships, europeFrozenTailPiExpansion1StudentPlacements } from "./europe-frozen-tail-pi-expansion-1";
+import { uiucExistingProfileEnhancements2026, uiucExistingProfilePortraits2026 } from "./uiuc-existing-profile-enhancements-2026";
+import { thuNtuNextBatchPiExpansionPublishedPeople2026, thuNtuNextBatchPiExpansionRelationships2026 } from "./thu-ntu-next-batch-pi-expansion-2026";
+import { asiaPendingResolutionPiExpansionPublishedPeople2026, asiaPendingResolutionPiExpansionRelationships2026 } from "./asia-pending-resolution-pi-expansion-2026";
+import { europeFrozenTailPiExpansion2GroupMembers, europeFrozenTailPiExpansion2People, europeFrozenTailPiExpansion2Relationships, europeFrozenTailPiExpansion2StudentPlacements } from "./europe-frozen-tail-pi-expansion-2";
+import { usCanadaRemainingPriorityGroupMembers2026, usCanadaRemainingPriorityPeople2026, usCanadaRemainingPriorityPlacements2026, usCanadaRemainingPriorityRelationships2026 } from "./us-canada-remaining-priority-expansion-2026";
+import { candidatePriorityBatch1People2026, candidatePriorityBatch1Placements2026, candidatePriorityBatch1Relationships2026 } from "./candidate-priority-batch-1-2026";
+import {
+  candidatePriorityP0EuropeBatch2GroupMembers2026,
+  candidatePriorityP0EuropeBatch2People2026,
+  candidatePriorityP0EuropeBatch2Placements2026,
+  candidatePriorityP0EuropeBatch2Relationships2026,
+} from "./candidate-priority-p0-europe-batch-2-2026";
+import {
+  candidatePriorityP0UsCanadaBatch2GroupMembers2026,
+  candidatePriorityP0UsCanadaBatch2People2026,
+  candidatePriorityP0UsCanadaBatch2Placements2026,
+  candidatePriorityP0UsCanadaBatch2Relationships2026,
+  candidatePriorityP0UsCanadaBatch2SupportingPeople2026,
+} from "./candidate-priority-p0-us-canada-batch-2-2026";
+import {
+  candidatePriorityP0AsiaBatch2GroupMembers2026,
+  candidatePriorityP0AsiaBatch2People2026,
+  candidatePriorityP0AsiaBatch2Placements2026,
+  candidatePriorityP0AsiaBatch2Relationships2026,
+} from "./candidate-priority-p0-asia-batch-2-2026";
+import {
+  candidatePriorityP0EuropeBatch3GroupMembers2026,
+  candidatePriorityP0EuropeBatch3People2026,
+  candidatePriorityP0EuropeBatch3Placements2026,
+  candidatePriorityP0EuropeBatch3Relationships2026,
+} from "./candidate-priority-p0-europe-batch-3-2026";
+import {
+  candidatePriorityP0UsCanadaBatch3GroupMembers2026,
+  candidatePriorityP0UsCanadaBatch3People2026,
+  candidatePriorityP0UsCanadaBatch3Placements2026,
+  candidatePriorityP0UsCanadaBatch3Relationships2026,
+  candidatePriorityP0UsCanadaBatch3SupportingPeople2026,
+} from "./candidate-priority-p0-us-canada-batch-3-2026";
+import {
+  candidatePriorityP0AsiaBatch3GroupMembers2026,
+  candidatePriorityP0AsiaBatch3People2026,
+  candidatePriorityP0AsiaBatch3Placements2026,
+  candidatePriorityP0AsiaBatch3Relationships2026,
+} from "./candidate-priority-p0-asia-batch-3-2026";
+import {
+  candidatePriorityP0EuropeRemainingReadyChunk1GroupMembers2026,
+  candidatePriorityP0EuropeRemainingReadyChunk1People2026,
+  candidatePriorityP0EuropeRemainingReadyChunk1Placements2026,
+  candidatePriorityP0EuropeRemainingReadyChunk1Relationships2026,
+} from "./candidate-priority-p0-europe-remaining-ready-chunk-1-2026";
+import {
+  candidatePriorityP0UsCanadaReadyBatch4GroupMembers2026,
+  candidatePriorityP0UsCanadaReadyBatch4People2026,
+  candidatePriorityP0UsCanadaReadyBatch4Placements2026,
+  candidatePriorityP0UsCanadaReadyBatch4Relationships2026,
+  candidatePriorityP0UsCanadaReadyBatch4SupportingPeople2026,
+} from "./candidate-priority-p0-us-canada-ready-batch-4-2026";
+import {
+  candidatePriorityP0AsiaBatch4GroupMembers2026,
+  candidatePriorityP0AsiaBatch4People2026,
+  candidatePriorityP0AsiaBatch4Placements2026,
+  candidatePriorityP0AsiaBatch4Relationships2026,
+} from "./candidate-priority-p0-asia-batch-4-2026";
+import {
+  candidatePriorityP0UsCanadaReadyBatch5GroupMembers2026,
+  candidatePriorityP0UsCanadaReadyBatch5People2026,
+  candidatePriorityP0UsCanadaReadyBatch5Placements2026,
+  candidatePriorityP0UsCanadaReadyBatch5Relationships2026,
+  candidatePriorityP0UsCanadaReadyBatch5SupportingPeople2026,
+} from "./candidate-priority-p0-us-canada-ready-batch-5-2026";
+import {
+  candidatePriorityP0AsiaBatch5GroupMembers2026,
+  candidatePriorityP0AsiaBatch5People2026,
+  candidatePriorityP0AsiaBatch5Placements2026,
+  candidatePriorityP0AsiaBatch5Relationships2026,
+} from "./candidate-priority-p0-asia-batch-5-2026";
+import {
+  candidatePriorityP0EuropeBatch5GroupMembers2026,
+  candidatePriorityP0EuropeBatch5People2026,
+  candidatePriorityP0EuropeBatch5Placements2026,
+  candidatePriorityP0EuropeBatch5Relationships2026,
+} from "./candidate-priority-p0-europe-batch-5-2026";
+import {
+  candidatePriorityP0AsiaBatch6GroupMembers2026,
+  candidatePriorityP0AsiaBatch6People2026,
+  candidatePriorityP0AsiaBatch6Placements2026,
+  candidatePriorityP0AsiaBatch6Relationships2026,
+} from "./candidate-priority-p0-asia-batch-6-2026";
+import {
+  candidatePriorityP0AsiaBatch7GroupMembers2026,
+  candidatePriorityP0AsiaBatch7People2026,
+  candidatePriorityP0AsiaBatch7Placements2026,
+  candidatePriorityP0AsiaBatch7Relationships2026,
+} from "./candidate-priority-p0-asia-batch-7-2026";
+import {
+  candidatePriorityP0AsiaBatch8GroupMembers2026,
+  candidatePriorityP0AsiaBatch8People2026,
+  candidatePriorityP0AsiaBatch8Placements2026,
+  candidatePriorityP0AsiaBatch8Relationships2026,
+} from "./candidate-priority-p0-asia-batch-8-2026";
+import {
+  candidatePriorityP0AsiaBatch9GroupMembers2026,
+  candidatePriorityP0AsiaBatch9People2026,
+  candidatePriorityP0AsiaBatch9Placements2026,
+  candidatePriorityP0AsiaBatch9Relationships2026,
+} from "./candidate-priority-p0-asia-batch-9-2026";
+import {
+  candidatePriorityP0AsiaBatch10GroupMembers2026,
+  candidatePriorityP0AsiaBatch10People2026,
+  candidatePriorityP0AsiaBatch10Placements2026,
+  candidatePriorityP0AsiaBatch10Relationships2026,
+} from "./candidate-priority-p0-asia-batch-10-2026";
+import {
+  candidatePriorityP0AsiaBatch11GroupMembers2026,
+  candidatePriorityP0AsiaBatch11People2026,
+  candidatePriorityP0AsiaBatch11Placements2026,
+  candidatePriorityP0AsiaBatch11Relationships2026,
+} from "./candidate-priority-p0-asia-batch-11-2026";
+import {
+  candidatePriorityP0AsiaBatch12GroupMembers2026,
+  candidatePriorityP0AsiaBatch12People2026,
+  candidatePriorityP0AsiaBatch12Placements2026,
+  candidatePriorityP0AsiaBatch12Relationships2026,
+} from "./candidate-priority-p0-asia-batch-12-2026";
+import {
+  candidatePriorityP0EuropeBatch6GroupMembers2026,
+  candidatePriorityP0EuropeBatch6People2026,
+  candidatePriorityP0EuropeBatch6Placements2026,
+  candidatePriorityP0EuropeBatch6Relationships2026,
+} from "./candidate-priority-p0-europe-batch-6-2026";
+import {
+  candidatePriorityP0EuropeBatch7GroupMembers2026,
+  candidatePriorityP0EuropeBatch7People2026,
+  candidatePriorityP0EuropeBatch7Placements2026,
+  candidatePriorityP0EuropeBatch7Relationships2026,
+} from "./candidate-priority-p0-europe-batch-7-2026";
+import {
+  candidatePriorityP0EuropeBatch8GroupMembers2026,
+  candidatePriorityP0EuropeBatch8People2026,
+  candidatePriorityP0EuropeBatch8Placements2026,
+  candidatePriorityP0EuropeBatch8Relationships2026,
+} from "./candidate-priority-p0-europe-batch-8-2026";
+import {
+  candidatePriorityP0EuropeBatch9GroupMembers2026,
+  candidatePriorityP0EuropeBatch9People2026,
+  candidatePriorityP0EuropeBatch9Placements2026,
+  candidatePriorityP0EuropeBatch9Relationships2026,
+} from "./candidate-priority-p0-europe-batch-9-2026";
+import {
+  candidatePriorityP0EuropeBatch10GroupMembers2026,
+  candidatePriorityP0EuropeBatch10People2026,
+  candidatePriorityP0EuropeBatch10Placements2026,
+  candidatePriorityP0EuropeBatch10Relationships2026,
+} from "./candidate-priority-p0-europe-batch-10-2026";
+import {
+  candidatePriorityP0EuropeBatch11GroupMembers2026,
+  candidatePriorityP0EuropeBatch11People2026,
+  candidatePriorityP0EuropeBatch11Placements2026,
+  candidatePriorityP0EuropeBatch11Relationships2026,
+} from "./candidate-priority-p0-europe-batch-11-2026";
+import {
+  candidatePriorityP0EuropeBatch12GroupMembers2026,
+  candidatePriorityP0EuropeBatch12People2026,
+  candidatePriorityP0EuropeBatch12Placements2026,
+  candidatePriorityP0EuropeBatch12Relationships2026,
+} from "./candidate-priority-p0-europe-batch-12-2026";
+import {
+  candidatePriorityP0EuropeBatch13GroupMembers2026,
+  candidatePriorityP0EuropeBatch13People2026,
+  candidatePriorityP0EuropeBatch13Placements2026,
+  candidatePriorityP0EuropeBatch13Relationships2026,
+} from "./candidate-priority-p0-europe-batch-13-2026";
+import {
+  candidatePriorityP0EuropeBatch14GroupMembers2026,
+  candidatePriorityP0EuropeBatch14People2026,
+  candidatePriorityP0EuropeBatch14Placements2026,
+  candidatePriorityP0EuropeBatch14Relationships2026,
+} from "./candidate-priority-p0-europe-batch-14-2026";
+import {
+  candidatePriorityP0EuropeBatch15GroupMembers2026,
+  candidatePriorityP0EuropeBatch15People2026,
+  candidatePriorityP0EuropeBatch15Placements2026,
+  candidatePriorityP0EuropeBatch15Relationships2026,
+  candidatePriorityP0EuropeBatch15SupportingPeople2026,
+} from "./candidate-priority-p0-europe-batch-15-2026";
+import {
+  candidatePriorityP0EuropeBatch16GroupMembers2026,
+  candidatePriorityP0EuropeBatch16People2026,
+  candidatePriorityP0EuropeBatch16Placements2026,
+  candidatePriorityP0EuropeBatch16Relationships2026,
+} from "./candidate-priority-p0-europe-batch-16-2026";
+import {
+  candidatePriorityP0EuropeBatch17GroupMembers2026,
+  candidatePriorityP0EuropeBatch17People2026,
+  candidatePriorityP0EuropeBatch17Placements2026,
+  candidatePriorityP0EuropeBatch17Relationships2026,
+} from "./candidate-priority-p0-europe-batch-17-2026";
+import {
+  candidatePriorityP0EuropeBatch18GroupMembers2026,
+  candidatePriorityP0EuropeBatch18People2026,
+  candidatePriorityP0EuropeBatch18Placements2026,
+  candidatePriorityP0EuropeBatch18Relationships2026,
+} from "./candidate-priority-p0-europe-batch-18-2026";
+import {
+  candidatePriorityP0UsCanadaReadyBatch6GroupMembers2026,
+  candidatePriorityP0UsCanadaReadyBatch6People2026,
+  candidatePriorityP0UsCanadaReadyBatch6Placements2026,
+  candidatePriorityP0UsCanadaReadyBatch6Relationships2026,
+} from "./candidate-priority-p0-us-canada-ready-batch-6-2026";
+import {
+  candidatePriorityP0UsCanadaReadyBatch7GroupMembers2026,
+  candidatePriorityP0UsCanadaReadyBatch7People2026,
+  candidatePriorityP0UsCanadaReadyBatch7Placements2026,
+  candidatePriorityP0UsCanadaReadyBatch7Relationships2026,
+  candidatePriorityP0UsCanadaReadyBatch7SupportingPeople2026,
+} from "./candidate-priority-p0-us-canada-ready-batch-7-2026";
+import {
+  candidatePriorityP0UsCanadaReadyBatch8GroupMembers2026,
+  candidatePriorityP0UsCanadaReadyBatch8People2026,
+  candidatePriorityP0UsCanadaReadyBatch8Placements2026,
+  candidatePriorityP0UsCanadaReadyBatch8Relationships2026,
+  candidatePriorityP0UsCanadaReadyBatch8SupportingPeople2026,
+} from "./candidate-priority-p0-us-canada-ready-batch-8-2026";
+import {
+  candidatePriorityP0UsCanadaReadyBatch9GroupMembers2026,
+  candidatePriorityP0UsCanadaReadyBatch9People2026,
+  candidatePriorityP0UsCanadaReadyBatch9Placements2026,
+  candidatePriorityP0UsCanadaReadyBatch9Relationships2026,
+  candidatePriorityP0UsCanadaReadyBatch9SupportingPeople2026,
+} from "./candidate-priority-p0-us-canada-ready-batch-9-2026";
+import {
+  candidatePriorityP0UsCanadaReadyBatch10GroupMembers2026,
+  candidatePriorityP0UsCanadaReadyBatch10People2026,
+  candidatePriorityP0UsCanadaReadyBatch10Placements2026,
+  candidatePriorityP0UsCanadaReadyBatch10Relationships2026,
+} from "./candidate-priority-p0-us-canada-ready-batch-10-2026";
+import {
+  candidatePriorityP0UsCanadaReadyBatch11GroupMembers2026,
+  candidatePriorityP0UsCanadaReadyBatch11People2026,
+  candidatePriorityP0UsCanadaReadyBatch11Placements2026,
+  candidatePriorityP0UsCanadaReadyBatch11Relationships2026,
+  candidatePriorityP0UsCanadaReadyBatch11SupportingPeople2026,
+} from "./candidate-priority-p0-us-canada-ready-batch-11-2026";
+import {
+  candidatePriorityP0UsCanadaReadyBatch12GroupMembers2026,
+  candidatePriorityP0UsCanadaReadyBatch12People2026,
+  candidatePriorityP0UsCanadaReadyBatch12Placements2026,
+  candidatePriorityP0UsCanadaReadyBatch12Relationships2026,
+  candidatePriorityP0UsCanadaReadyBatch12SupportingPeople2026,
+} from "./candidate-priority-p0-us-canada-ready-batch-12-2026";
+import {
+  candidatePriorityP0UsCanadaReadyBatch13GroupMembers2026,
+  candidatePriorityP0UsCanadaReadyBatch13People2026,
+  candidatePriorityP0UsCanadaReadyBatch13Placements2026,
+  candidatePriorityP0UsCanadaReadyBatch13Relationships2026,
+  candidatePriorityP0UsCanadaReadyBatch13SupportingPeople2026,
+} from "./candidate-priority-p0-us-canada-ready-batch-13-2026";
+import {
+  candidatePriorityP0UsCanadaReadyBatch14GroupMembers2026,
+  candidatePriorityP0UsCanadaReadyBatch14People2026,
+  candidatePriorityP0UsCanadaReadyBatch14Placements2026,
+  candidatePriorityP0UsCanadaReadyBatch14Relationships2026,
+  candidatePriorityP0UsCanadaReadyBatch14SupportingPeople2026,
+} from "./candidate-priority-p0-us-canada-ready-batch-14-2026";
+import {
+  candidatePriorityP0UsCanadaReadyBatch15GroupMembers2026,
+  candidatePriorityP0UsCanadaReadyBatch15People2026,
+  candidatePriorityP0UsCanadaReadyBatch15Placements2026,
+  candidatePriorityP0UsCanadaReadyBatch15Relationships2026,
+  candidatePriorityP0UsCanadaReadyBatch15SupportingPeople2026,
+} from "./candidate-priority-p0-us-canada-ready-batch-15-2026";
+import { p0LeadershipNetworkFixPeople2026, p0LeadershipNetworkFixRelationships2026 } from "./p0-leadership-network-fix-2026";
+import {
+  candidatePriorityP0MainlandTailBatch1GroupMembers2026,
+  candidatePriorityP0MainlandTailBatch1People2026,
+  candidatePriorityP0MainlandTailBatch1Placements2026,
+  candidatePriorityP0MainlandTailBatch1Relationships2026,
+  candidatePriorityP0MainlandTailBatch1SupportingPeople2026,
+} from "./candidate-priority-p0-mainland-tail-batch-1-2026";
+import {
+  candidatePriorityP0HkSgTailGroupMembers2026,
+  candidatePriorityP0HkSgTailPeople2026,
+  candidatePriorityP0HkSgTailPlacements2026,
+  candidatePriorityP0HkSgTailRelationships2026,
+  candidatePriorityP0HkSgTailSupportingPeople2026,
+} from "./candidate-priority-p0-hk-sg-tail-batch-2026";
+import {
+  candidatePriorityP0HkSgTailBatch2GroupMembers2026,
+  candidatePriorityP0HkSgTailBatch2People2026,
+  candidatePriorityP0HkSgTailBatch2Placements2026,
+  candidatePriorityP0HkSgTailBatch2Relationships2026,
+  candidatePriorityP0HkSgTailBatch2SupportingPeople2026,
+} from "./candidate-priority-p0-hk-sg-tail-batch-2-2026";
+import {
+  candidatePriorityP0MainlandTailBatch2GroupMembers2026,
+  candidatePriorityP0MainlandTailBatch2People2026,
+  candidatePriorityP0MainlandTailBatch2Placements2026,
+  candidatePriorityP0MainlandTailBatch2Relationships2026,
+  candidatePriorityP0MainlandTailBatch2SupportingPeople2026,
+} from "./candidate-priority-p0-mainland-tail-batch-2-2026";
+import {
+  candidatePriorityP0MainlandTailBatch3GroupMembers2026,
+  candidatePriorityP0MainlandTailBatch3People2026,
+  candidatePriorityP0MainlandTailBatch3Placements2026,
+  candidatePriorityP0MainlandTailBatch3Relationships2026,
+  candidatePriorityP0MainlandTailBatch3SupportingPeople2026,
+} from "./candidate-priority-p0-mainland-tail-batch-3-2026";
+import {
+  candidatePriorityP0HkSgTailBatch3GroupMembers2026,
+  candidatePriorityP0HkSgTailBatch3People2026,
+  candidatePriorityP0HkSgTailBatch3Placements2026,
+  candidatePriorityP0HkSgTailBatch3Relationships2026,
+  candidatePriorityP0HkSgTailBatch3SupportingPeople2026,
+} from "./candidate-priority-p0-hk-sg-tail-batch-3-2026";
+import {
+  candidatePriorityP0MainlandFullBatch1GroupMembers2026,
+  candidatePriorityP0MainlandFullBatch1People2026,
+  candidatePriorityP0MainlandFullBatch1Placements2026,
+  candidatePriorityP0MainlandFullBatch1Relationships2026,
+  candidatePriorityP0MainlandFullBatch1SupportingPeople2026,
+} from "./candidate-priority-p0-mainland-full-batch-1-2026";
+import {
+  candidatePriorityP0HkSgFullBatchExtraGroupMembers2026,
+  candidatePriorityP0HkSgFullBatchGroupMembers2026,
+  candidatePriorityP0HkSgFullBatchPeople2026,
+  candidatePriorityP0HkSgFullBatchPersonEnhancements2026,
+  candidatePriorityP0HkSgFullBatchRelationships2026,
+} from "./candidate-priority-p0-hk-sg-full-batch-2026";
+import {
+  candidatePriorityP0EuropeFullBatch1GroupMembers2026,
+  candidatePriorityP0EuropeFullBatch1People2026,
+  candidatePriorityP0EuropeFullBatch1Placements2026,
+  candidatePriorityP0EuropeFullBatch1Relationships2026,
+} from "./candidate-priority-p0-europe-full-batch-1-2026";
+import {
+  candidatePriorityP0EuropeFullBatch2GroupMembers2026,
+  candidatePriorityP0EuropeFullBatch2People2026,
+  candidatePriorityP0EuropeFullBatch2Placements2026,
+  candidatePriorityP0EuropeFullBatch2Relationships2026,
+} from "./candidate-priority-p0-europe-full-batch-2-2026";
+import {
+  candidatePriorityP0EuropeFullBatch3GroupMembers2026,
+  candidatePriorityP0EuropeFullBatch3People2026,
+  candidatePriorityP0EuropeFullBatch3Placements2026,
+  candidatePriorityP0EuropeFullBatch3Relationships2026,
+} from "./candidate-priority-p0-europe-full-batch-3-2026";
+import {
+  candidatePriorityP0EuropeFullBatch4GroupMembers2026,
+  candidatePriorityP0EuropeFullBatch4People2026,
+  candidatePriorityP0EuropeFullBatch4Placements2026,
+  candidatePriorityP0EuropeFullBatch4Relationships2026,
+} from "./candidate-priority-p0-europe-full-batch-4-2026";
+import {
+  candidatePriorityP0EuropeFullBatch5GroupMembers2026,
+  candidatePriorityP0EuropeFullBatch5People2026,
+  candidatePriorityP0EuropeFullBatch5Placements2026,
+  candidatePriorityP0EuropeFullBatch5Relationships2026,
+} from "./candidate-priority-p0-europe-full-batch-5-2026";
+import {
+  candidatePriorityP0MainlandSecondPassBatch1GroupMembers2026,
+  candidatePriorityP0MainlandSecondPassBatch1People2026,
+  candidatePriorityP0MainlandSecondPassBatch1Placements2026,
+  candidatePriorityP0MainlandSecondPassBatch1Relationships2026,
+  candidatePriorityP0MainlandSecondPassBatch1SupportingPeople2026,
+} from "./candidate-priority-p0-mainland-second-pass-batch-1-2026";
+import {
+  candidatePriorityP0EuropeSecondRoundBatch1GroupMembers2026,
+  candidatePriorityP0EuropeSecondRoundBatch1People2026,
+  candidatePriorityP0EuropeSecondRoundBatch1Placements2026,
+  candidatePriorityP0EuropeSecondRoundBatch1Relationships2026,
+} from "./candidate-priority-p0-europe-second-round-batch-1-2026";
+import {
+  candidatePriorityP0HkSgSecondRoundPeople2026,
+  candidatePriorityP0HkSgSecondRoundRelationships2026,
+  candidatePriorityP0HkSgSecondRoundSupportingPeople2026,
+} from "./candidate-priority-p0-hk-sg-second-round-batch-2026";
+import {
+  candidatePriorityP0EuropeThirdRoundBatch1GroupMembers2026,
+  candidatePriorityP0EuropeThirdRoundBatch1People2026,
+  candidatePriorityP0EuropeThirdRoundBatch1Placements2026,
+  candidatePriorityP0EuropeThirdRoundBatch1Relationships2026,
+  candidatePriorityP0EuropeThirdRoundBatch1SupportingPeople2026,
+} from "./candidate-priority-p0-europe-third-round-batch-1-2026";
+import {
+  candidatePriorityP0HkSgThirdRoundPeople2026,
+  candidatePriorityP0HkSgThirdRoundRelationships2026,
+  candidatePriorityP0HkSgThirdRoundSupportingPeople2026,
+} from "./candidate-priority-p0-hk-sg-third-round-batch-2026";
+import {
+  candidatePriorityP0EuropeFourthRoundBatch1GroupMembers2026,
+  candidatePriorityP0EuropeFourthRoundBatch1People2026,
+  candidatePriorityP0EuropeFourthRoundBatch1Placements2026,
+  candidatePriorityP0EuropeFourthRoundBatch1Relationships2026,
+  candidatePriorityP0EuropeFourthRoundBatch1SupportingPeople2026,
+} from "./candidate-priority-p0-europe-fourth-round-batch-1-2026";
+import {
+  candidatePriorityP0MainlandThirdPassBatch1GroupMembers2026,
+  candidatePriorityP0MainlandThirdPassBatch1People2026,
+  candidatePriorityP0MainlandThirdPassBatch1Placements2026,
+  candidatePriorityP0MainlandThirdPassBatch1Relationships2026,
+  candidatePriorityP0MainlandThirdPassBatch1SupportingPeople2026,
+} from "./candidate-priority-p0-mainland-third-pass-batch-1-2026";
+import {
+  candidatePriorityP0HkSgFourthRoundPeople2026,
+  candidatePriorityP0HkSgFourthRoundRelationships2026,
+  candidatePriorityP0HkSgFourthRoundSupportingPeople2026,
+} from "./candidate-priority-p0-hk-sg-fourth-round-batch-2026";
+import {
+  candidatePriorityP0HkSgFifthRoundPeople2026,
+  candidatePriorityP0HkSgFifthRoundRelationships2026,
+  candidatePriorityP0HkSgFifthRoundSupportingPeople2026,
+} from "./candidate-priority-p0-hk-sg-fifth-round-batch-2026";
+import {
+  candidatePriorityP0MainlandFourthPassBatch1GroupMembers2026,
+  candidatePriorityP0MainlandFourthPassBatch1People2026,
+  candidatePriorityP0MainlandFourthPassBatch1Placements2026,
+  candidatePriorityP0MainlandFourthPassBatch1Relationships2026,
+  candidatePriorityP0MainlandFourthPassBatch1SupportingPeople2026,
+} from "./candidate-priority-p0-mainland-fourth-pass-batch-1-2026";
+import {
+  candidatePriorityP0EuropeFifthRoundBatch1GroupMembers2026,
+  candidatePriorityP0EuropeFifthRoundBatch1People2026,
+  candidatePriorityP0EuropeFifthRoundBatch1Placements2026,
+  candidatePriorityP0EuropeFifthRoundBatch1Relationships2026,
+  candidatePriorityP0EuropeFifthRoundBatch1SupportingPeople2026,
+} from "./candidate-priority-p0-europe-fifth-round-batch-1-2026";
+import {
+  candidatePriorityP0NextRoundGroupMembers2026,
+  candidatePriorityP0NextRoundPeople2026,
+  candidatePriorityP0NextRoundRelationships2026,
+  candidatePriorityP0NextRoundSupportingPeople2026,
+} from "./candidate-priority-p0-next-round-batch-2026";
 
 export type Source = {
   label: string;
@@ -109,10 +575,10 @@ export type Source = {
   supports?: string;
 };
 
-export const dataSnapshotDate = "2026-09-01";
+export const dataSnapshotDate = "2026-09-03";
 
 export type Region = "Singapore" | "Hong Kong" | "Mainland China" | "United States" | "Canada" | "Europe";
-export type Institution = "NUS" | "NTU" | "SUTD" | "SMU" | "A*STAR" | "HKU" | "HKUST" | "CUHK" | "CityU" | "PolyU" | "HKBU" | "THU" | "PKU" | "FDU" | "RUC" | "HIT" | "CAS-IA" | "NJU" | "Soochow" | "SJTU" | "ZJU" | "USTC" | "BIT" | "BUAA" | "BUPT" | "XJTU" | "SYSU" | "ECNU" | "WHU" | "Duke Kunshan" | "CUHK-Shenzhen" | "HKUST(GZ)" | "Stanford" | "Berkeley" | "CMU" | "UW" | "MIT" | "Princeton" | "Cornell" | "NYU" | "Columbia" | "UMass" | "JHU" | "UT Austin" | "UMich" | "UIUC" | "Georgia Tech" | "UCLA" | "UCSD" | "UNC" | "Texas A&M" | "UT Dallas" | "UChicago" | "UMD" | "Penn State" | "Indiana U" | "UAlbany" | "UCF" | "Texas State" | "U of Toronto" | "Université de Montréal" | "McGill" | "Polytechnique Montréal" | "UBC" | "University of Alberta" | "Waterloo" | "SFU" | "Oxford" | "Cambridge" | "UCL" | "Edinburgh" | "ETH Zurich" | "EPFL" | "Tübingen/MPI" | "TUM" | "TU Darmstadt" | "UvA" | "KU Leuven" | "Inria" | "Sapienza" | "Award Network" | "External";
+export type Institution = "NUS" | "NTU" | "SUTD" | "SMU" | "SIT" | "SUSS" | "Duke-NUS" | "A*STAR" | "HKU" | "HKUST" | "CUHK" | "CityU" | "PolyU" | "HKBU" | "EdUHK" | "HKMU" | "Lingnan" | "HSUHK" | "THU" | "PKU" | "FDU" | "RUC" | "HIT" | "CAS-IA" | "CAS-ICT" | "UCAS" | "NJU" | "Soochow" | "SJTU" | "ZJU" | "USTC" | "UESTC" | "BIT" | "BUAA" | "BUPT" | "XJTU" | "SYSU" | "SZU" | "ECNU" | "WHU" | "SEU" | "HUST" | "Nankai" | "Duke Kunshan" | "CUHK-Shenzhen" | "HKUST(GZ)" | "Stanford" | "Berkeley" | "CMU" | "UW" | "MIT" | "Princeton" | "Cornell" | "NYU" | "Columbia" | "UMass" | "JHU" | "UT Austin" | "UMich" | "UIUC" | "Georgia Tech" | "UCLA" | "UCSD" | "UVA" | "UNC" | "Texas A&M" | "UT Dallas" | "UChicago" | "UMD" | "Harvard" | "Wisconsin" | "Penn" | "USC" | "Penn State" | "Indiana U" | "UAlbany" | "UCF" | "Texas State" | "U of Toronto" | "Université de Montréal" | "McGill" | "Polytechnique Montréal" | "UBC" | "University of Alberta" | "Waterloo" | "SFU" | "Oxford" | "Cambridge" | "UCL" | "Edinburgh" | "ETH Zurich" | "EPFL" | "Tübingen/MPI" | "TUM" | "TU Darmstadt" | "TU Wien" | "TU Delft" | "UvA" | "KU Leuven" | "Inria" | "Sapienza" | "Imperial" | "Copenhagen" | "LMU" | "KCL" | "Aalto" | "Surrey" | "KIT" | "Manchester" | "Award Network" | "External";
 export type Stage = "senior" | "emerging" | "institute" | "adjacent" | "historical";
 export type Category = "core" | "adjacent" | "historical";
 
@@ -160,12 +626,12 @@ export type IndustryPathway = {
 };
 
 export const regionalInstitutions: Record<Region, Institution[]> = {
-  Singapore: ["NUS", "NTU", "SUTD", "SMU", "A*STAR", "Award Network"],
-  "Hong Kong": ["HKU", "HKUST", "CUHK", "CityU", "PolyU", "HKBU", "Award Network"],
-  "Mainland China": ["THU", "PKU", "FDU", "RUC", "HIT", "CAS-IA", "NJU", "Soochow", "SJTU", "ZJU", "USTC", "BIT", "BUAA", "BUPT", "XJTU", "SYSU", "ECNU", "WHU", "Duke Kunshan", "CUHK-Shenzhen", "HKUST(GZ)", "Award Network"],
-  "United States": ["Stanford", "Berkeley", "CMU", "UW", "MIT", "Princeton", "Cornell", "NYU", "Columbia", "UMass", "JHU", "UT Austin", "UMich", "UIUC", "Georgia Tech", "UCLA", "UCSD", "UNC", "Texas A&M", "UT Dallas", "UChicago", "UMD", "Penn State", "Indiana U", "UAlbany", "UCF", "Texas State", "Award Network"],
+  Singapore: ["NUS", "NTU", "SUTD", "SMU", "SIT", "SUSS", "Duke-NUS", "A*STAR", "Award Network"],
+  "Hong Kong": ["HKU", "HKUST", "CUHK", "CityU", "PolyU", "HKBU", "EdUHK", "HKMU", "Lingnan", "HSUHK", "Award Network"],
+  "Mainland China": ["THU", "PKU", "FDU", "RUC", "HIT", "CAS-IA", "CAS-ICT", "UCAS", "NJU", "Soochow", "SJTU", "ZJU", "USTC", "UESTC", "BIT", "BUAA", "BUPT", "XJTU", "SYSU", "SZU", "ECNU", "WHU", "SEU", "HUST", "Nankai", "Duke Kunshan", "CUHK-Shenzhen", "HKUST(GZ)", "Award Network"],
+  "United States": ["Stanford", "Berkeley", "CMU", "UW", "MIT", "Princeton", "Cornell", "NYU", "Columbia", "UMass", "JHU", "UT Austin", "UMich", "UIUC", "Georgia Tech", "UCLA", "UCSD", "UVA", "UNC", "Texas A&M", "UT Dallas", "UChicago", "UMD", "Harvard", "Wisconsin", "Penn", "USC", "Penn State", "Indiana U", "UAlbany", "UCF", "Texas State", "Award Network"],
   Canada: ["U of Toronto", "Université de Montréal", "McGill", "Polytechnique Montréal", "UBC", "University of Alberta", "Waterloo", "SFU", "Award Network"],
-  Europe: ["Oxford", "Cambridge", "UCL", "Edinburgh", "ETH Zurich", "EPFL", "Tübingen/MPI", "TUM", "TU Darmstadt", "UvA", "KU Leuven", "Inria", "Sapienza", "Award Network"],
+  Europe: ["Oxford", "Cambridge", "UCL", "Edinburgh", "ETH Zurich", "EPFL", "Tübingen/MPI", "TUM", "TU Darmstadt", "TU Wien", "TU Delft", "UvA", "KU Leuven", "Inria", "Sapienza", "Imperial", "Copenhagen", "LMU", "KCL", "Aalto", "Surrey", "KIT", "Manchester", "Award Network"],
 };
 
 export function regionOf(person: Person): Region {
@@ -836,6 +1302,138 @@ const basePeople: Person[] = [
   ...influenceQueueCanadaFinalPeople,
   ...influenceQueueUsFinalPeople,
   ...topSchoolAdviserPeople,
+  ...waiLamRosterPeople,
+  ...topSchoolRosterPeople2026,
+  ...topSchoolComprehensivePeople2026,
+  ...topSchoolRosterRound2People2026,
+  ...gaoWenNetworkPeople2026,
+  ...gaoWenNetworkRound2People2026,
+  ...fiveScholarStudentSystemPeople2026,
+  ...thomasHuangYanPeople,
+  ...hustRosterPiExpansion1PublishedPeople,
+  ...nyuAaltoRosterExpansionPeople2026,
+  ...hustAiaRosterPiExpansion1PublishedPeople,
+  ...europeARosterPiExpansion1PublishedPeople,
+  ...hustCsRosterPiExpansion2People,
+  ...usCornellRosterExpansion1People,
+  ...europeCTuWienRosterPiExpansion1People,
+  ...hkbuRosterPiExpansion2026People,
+  ...hkustCseRosterExpansionBatch2People,
+  ...europeCUclRosterPiExpansion1People,
+  ...usStanfordRosterExpansion2People,
+  ...stanfordAzaliaUpstreamPeople,
+  ...asiaNextRosterPiExpansionPeople2026,
+  ...europeNextRosterPiExpansion1People,
+  ...cmuScsRosterExpansionPeople2026,
+  ...usRosterBatch2People,
+  ...usRosterBatch2SupportingPeople,
+  ...usCornellUpstreamPeople,
+  ...usUwUiucRosterPeople,
+  ...europeFrozenTailPiExpansion1People,
+  ...thuNtuNextBatchPiExpansionPublishedPeople2026,
+  ...asiaPendingResolutionPiExpansionPublishedPeople2026,
+  ...europeFrozenTailPiExpansion2People,
+  ...usCanadaRemainingPriorityPeople2026,
+  ...candidatePriorityBatch1People2026,
+  ...candidatePriorityP0EuropeBatch2People2026,
+  ...candidatePriorityP0UsCanadaBatch2People2026,
+  ...candidatePriorityP0UsCanadaBatch2SupportingPeople2026,
+  ...candidatePriorityP0AsiaBatch2People2026,
+  ...candidatePriorityP0EuropeBatch3People2026,
+  ...candidatePriorityP0UsCanadaBatch3People2026,
+  ...candidatePriorityP0UsCanadaBatch3SupportingPeople2026,
+  ...candidatePriorityP0AsiaBatch3People2026,
+  ...candidatePriorityP0EuropeRemainingReadyChunk1People2026,
+  ...candidatePriorityP0UsCanadaReadyBatch4People2026,
+  ...candidatePriorityP0UsCanadaReadyBatch4SupportingPeople2026,
+  ...candidatePriorityP0AsiaBatch4People2026,
+  ...candidatePriorityP0UsCanadaReadyBatch5People2026,
+  ...candidatePriorityP0UsCanadaReadyBatch5SupportingPeople2026,
+  ...candidatePriorityP0AsiaBatch5People2026,
+  ...candidatePriorityP0EuropeBatch5People2026,
+  ...candidatePriorityP0AsiaBatch6People2026,
+  ...candidatePriorityP0AsiaBatch7People2026,
+  ...candidatePriorityP0AsiaBatch8People2026,
+  ...candidatePriorityP0AsiaBatch9People2026,
+  ...candidatePriorityP0AsiaBatch10People2026,
+  ...candidatePriorityP0AsiaBatch11People2026,
+  ...candidatePriorityP0AsiaBatch12People2026,
+  ...candidatePriorityP0EuropeBatch6People2026,
+  ...candidatePriorityP0EuropeBatch7People2026,
+  ...candidatePriorityP0EuropeBatch8People2026,
+  ...candidatePriorityP0EuropeBatch9People2026,
+  ...candidatePriorityP0EuropeBatch10People2026,
+  ...candidatePriorityP0EuropeBatch11People2026,
+  ...candidatePriorityP0EuropeBatch12People2026,
+  ...candidatePriorityP0EuropeBatch13People2026,
+  ...candidatePriorityP0EuropeBatch14People2026,
+  ...candidatePriorityP0EuropeBatch15People2026,
+  ...candidatePriorityP0EuropeBatch15SupportingPeople2026,
+  ...candidatePriorityP0EuropeBatch16People2026,
+  ...candidatePriorityP0EuropeBatch17People2026,
+  ...candidatePriorityP0EuropeBatch18People2026,
+  ...candidatePriorityP0UsCanadaReadyBatch6People2026,
+  ...candidatePriorityP0UsCanadaReadyBatch7People2026,
+  ...candidatePriorityP0UsCanadaReadyBatch7SupportingPeople2026,
+  ...candidatePriorityP0UsCanadaReadyBatch8People2026,
+  ...candidatePriorityP0UsCanadaReadyBatch8SupportingPeople2026,
+  ...candidatePriorityP0UsCanadaReadyBatch9People2026,
+  ...candidatePriorityP0UsCanadaReadyBatch9SupportingPeople2026,
+  ...candidatePriorityP0UsCanadaReadyBatch10People2026,
+  ...candidatePriorityP0UsCanadaReadyBatch11People2026,
+  ...candidatePriorityP0UsCanadaReadyBatch11SupportingPeople2026,
+  ...candidatePriorityP0UsCanadaReadyBatch12People2026,
+  ...candidatePriorityP0UsCanadaReadyBatch12SupportingPeople2026,
+  ...candidatePriorityP0UsCanadaReadyBatch13People2026,
+  ...candidatePriorityP0UsCanadaReadyBatch13SupportingPeople2026,
+  ...candidatePriorityP0UsCanadaReadyBatch14People2026,
+  ...candidatePriorityP0UsCanadaReadyBatch14SupportingPeople2026,
+  ...candidatePriorityP0UsCanadaReadyBatch15People2026,
+  ...candidatePriorityP0UsCanadaReadyBatch15SupportingPeople2026,
+  ...p0LeadershipNetworkFixPeople2026,
+  ...candidatePriorityP0MainlandTailBatch1People2026,
+  ...candidatePriorityP0MainlandTailBatch1SupportingPeople2026,
+  ...candidatePriorityP0HkSgTailPeople2026,
+  ...candidatePriorityP0HkSgTailSupportingPeople2026,
+  ...candidatePriorityP0MainlandTailBatch2People2026,
+  ...candidatePriorityP0MainlandTailBatch2SupportingPeople2026,
+  ...candidatePriorityP0HkSgTailBatch2People2026,
+  ...candidatePriorityP0HkSgTailBatch2SupportingPeople2026,
+  ...candidatePriorityP0MainlandTailBatch3People2026,
+  ...candidatePriorityP0MainlandTailBatch3SupportingPeople2026,
+  ...candidatePriorityP0HkSgTailBatch3People2026,
+  ...candidatePriorityP0HkSgTailBatch3SupportingPeople2026,
+  ...candidatePriorityP0MainlandFullBatch1People2026,
+  ...candidatePriorityP0MainlandFullBatch1SupportingPeople2026.filter((person) => person.id !== "xihong-wu-p0-full-b1-support"),
+  ...candidatePriorityP0HkSgFullBatchPeople2026,
+  ...candidatePriorityP0EuropeFullBatch1People2026,
+  ...candidatePriorityP0EuropeFullBatch2People2026,
+  ...candidatePriorityP0EuropeFullBatch3People2026,
+  ...candidatePriorityP0EuropeFullBatch4People2026,
+  ...candidatePriorityP0EuropeFullBatch5People2026,
+  ...candidatePriorityP0MainlandSecondPassBatch1People2026,
+  ...candidatePriorityP0MainlandSecondPassBatch1SupportingPeople2026,
+  ...candidatePriorityP0EuropeSecondRoundBatch1People2026,
+  ...candidatePriorityP0HkSgSecondRoundPeople2026,
+  ...candidatePriorityP0HkSgSecondRoundSupportingPeople2026,
+  ...candidatePriorityP0EuropeThirdRoundBatch1People2026,
+  ...candidatePriorityP0EuropeThirdRoundBatch1SupportingPeople2026,
+  ...candidatePriorityP0HkSgThirdRoundPeople2026,
+  ...candidatePriorityP0HkSgThirdRoundSupportingPeople2026,
+  ...candidatePriorityP0EuropeFourthRoundBatch1People2026,
+  ...candidatePriorityP0EuropeFourthRoundBatch1SupportingPeople2026,
+  ...candidatePriorityP0MainlandThirdPassBatch1People2026,
+  ...candidatePriorityP0MainlandThirdPassBatch1SupportingPeople2026,
+  ...candidatePriorityP0HkSgFourthRoundPeople2026,
+  ...candidatePriorityP0HkSgFourthRoundSupportingPeople2026,
+  ...candidatePriorityP0HkSgFifthRoundPeople2026,
+  ...candidatePriorityP0HkSgFifthRoundSupportingPeople2026,
+  ...candidatePriorityP0MainlandFourthPassBatch1People2026,
+  ...candidatePriorityP0MainlandFourthPassBatch1SupportingPeople2026,
+  ...candidatePriorityP0EuropeFifthRoundBatch1People2026,
+  ...candidatePriorityP0EuropeFifthRoundBatch1SupportingPeople2026,
+  ...candidatePriorityP0NextRoundPeople2026,
+  ...candidatePriorityP0NextRoundSupportingPeople2026,
 ];
 
 const awardAuditRawPeople: Person[] = [
@@ -932,7 +1530,7 @@ export const conferenceAwardAudit = [
 ];
 
 export const people: Person[] = peopleBeforeEnhancement.map((person) => {
-  const portrait = topSchoolAdviserPortraits[person.id] ?? influenceQueueFixPortraits[person.id] ?? influenceQueueUsFinalPortraits[person.id] ?? influenceQueueCanadaFinalPortraits[person.id] ?? influenceQueueUsTengyuFinalPortraits[person.id] ?? influenceQueueUsCanadaPortraits3[person.id] ?? influenceQueueUsResidualAPortraits[person.id] ?? influenceQueueAsiaFinalPortraits[person.id] ?? influenceQueueAsiaPortraits[person.id] ?? influenceQueueUsCanadaPortraits2[person.id] ?? influenceQueueEuropePortraits[person.id] ?? influenceQueueUsCanadaPortraits[person.id] ?? wuFengNetworkPortraits[person.id] ?? seniorCoreNetworkPortraits[person.id] ?? tieniuTanNetworkPortraits[person.id] ?? leadershipNetworkPortraits[person.id] ?? zongNetworkPortraits[person.id] ?? yiMaNetworkPortraits[person.id] ?? atlasNetworkPortraits[person.id] ?? networkExpansionPortraits[person.id] ?? awardAuditPortraits[person.id] ?? globalP0BPortraits[person.id] ?? canadaEastPortraits[person.id] ?? canadaWestPortraits[person.id] ?? globalP0FinalPortraits[person.id] ?? usFoundationalPortraits[person.id] ?? canadaPortraits[person.id] ?? globalP0Portraits[person.id] ?? finalEuropeHkPortraits[person.id] ?? finalMainlandPortraits[person.id] ?? finalUsPortraits[person.id] ?? lamdaPortraits[person.id] ?? europePortraits[person.id] ?? systematicRosterPortraits[person.id] ?? hkSgMissingPortraits[person.id] ?? mainlandMissingPortraits[person.id] ?? mainlandFillAPortraits[person.id] ?? mainlandFillBPortraits[person.id] ?? mainlandPortraits[person.id] ?? hkSgPortraits[person.id] ?? usPortraits[person.id] ?? person.portrait;
+  const portrait = uiucExistingProfilePortraits2026[person.id] ?? europeFrozenTailPiExpansion1Portraits[person.id] ?? usRosterBatch2Portraits[person.id] ?? asiaNextRosterPiExpansionPortraits2026[person.id] ?? europeNextRosterPiExpansion1Portraits[person.id] ?? stanfordAzaliaUpstreamPortraits[person.id] ?? usStanfordRosterExpansion2Portraits[person.id] ?? europeARosterPiExpansion1Portraits[person.id] ?? hustAiaRosterPiExpansion1Portraits[person.id] ?? nyuAaltoRosterPortraits2026[person.id] ?? hustRosterPiExpansion1Portraits[person.id] ?? thomasHuangYanPortraits[person.id] ?? currentPiBackfill2026Portraits[person.id] ?? waiLamRosterPortraits[person.id] ?? topSchoolAdviserPortraits[person.id] ?? influenceQueueFixPortraits[person.id] ?? influenceQueueUsFinalPortraits[person.id] ?? influenceQueueCanadaFinalPortraits[person.id] ?? influenceQueueUsTengyuFinalPortraits[person.id] ?? influenceQueueUsCanadaPortraits3[person.id] ?? influenceQueueUsResidualAPortraits[person.id] ?? influenceQueueAsiaFinalPortraits[person.id] ?? influenceQueueAsiaPortraits[person.id] ?? influenceQueueUsCanadaPortraits2[person.id] ?? influenceQueueEuropePortraits[person.id] ?? influenceQueueUsCanadaPortraits[person.id] ?? wuFengNetworkPortraits[person.id] ?? seniorCoreNetworkPortraits[person.id] ?? tieniuTanNetworkPortraits[person.id] ?? leadershipNetworkPortraits[person.id] ?? zongNetworkPortraits[person.id] ?? yiMaNetworkPortraits[person.id] ?? atlasNetworkPortraits[person.id] ?? networkExpansionPortraits[person.id] ?? awardAuditPortraits[person.id] ?? globalP0BPortraits[person.id] ?? canadaEastPortraits[person.id] ?? canadaWestPortraits[person.id] ?? globalP0FinalPortraits[person.id] ?? usFoundationalPortraits[person.id] ?? canadaPortraits[person.id] ?? globalP0Portraits[person.id] ?? finalEuropeHkPortraits[person.id] ?? finalMainlandPortraits[person.id] ?? finalUsPortraits[person.id] ?? lamdaPortraits[person.id] ?? europePortraits[person.id] ?? systematicRosterPortraits[person.id] ?? hkSgMissingPortraits[person.id] ?? mainlandMissingPortraits[person.id] ?? mainlandFillAPortraits[person.id] ?? mainlandFillBPortraits[person.id] ?? mainlandPortraits[person.id] ?? hkSgPortraits[person.id] ?? usPortraits[person.id] ?? person.portrait;
   const lamdaEnhancement = lamdaPersonEnhancements[person.id];
   const enhancements: Partial<Person>[] = [
     mainlandPersonEnhancements[person.id],
@@ -959,6 +1557,8 @@ export const people: Person[] = peopleBeforeEnhancement.map((person) => {
     thesisSupervisorPersonEnhancements9[person.id],
     thesisSupervisorPersonEnhancements10[person.id],
     thesisSupervisorPersonEnhancements11[person.id],
+    gaoWenPersonEnhancements2026[person.id],
+    gaoWenNetworkRound2PersonEnhancements2026[person.id],
     thesisSupervisorPersonEnhancements12[person.id],
     awardAuditEnhancements[person.id],
     atlasWangPersonEnhancements[person.id],
@@ -979,6 +1579,19 @@ export const people: Person[] = peopleBeforeEnhancement.map((person) => {
     influenceQueueCanadaFinalPersonEnhancements[person.id],
     influenceQueueUsFinalPersonEnhancements[person.id],
     topSchoolAdviserPersonEnhancements[person.id],
+    waiLamRosterPersonEnhancements[person.id],
+    fiveScholarStudentSystemEnhancements2026[person.id],
+    thomasHuangYanPersonEnhancements[person.id],
+    usStanfordRosterExpansion2PersonEnhancements[person.id],
+    sergeBelongieInfluencePersonEnhancements[person.id],
+    stanfordInfluencePendingPersonEnhancements[person.id],
+    usCornellInfluenceFix1PersonEnhancements[person.id],
+    stanfordAzaliaUpstreamPersonEnhancements[person.id],
+    usCornellUpstreamEnhancements[person.id],
+    candidatePriorityExistingMatchEnhancements2026[person.id],
+    uiucExistingProfileEnhancements2026[person.id],
+    europeFrozenTailPiExpansion1PersonEnhancements[person.id],
+    candidatePriorityP0HkSgFullBatchPersonEnhancements2026[person.id],
     lamdaEnhancement,
   ].filter((enhancement): enhancement is Partial<Person> => Boolean(enhancement));
   if (!enhancements.length && !portrait) return person;
@@ -997,7 +1610,7 @@ export const people: Person[] = peopleBeforeEnhancement.map((person) => {
     tags: Array.from(new Set([...person.tags, ...enhancements.flatMap((enhancement) => enhancement?.tags ?? [])])),
     facts,
     sources,
-    portrait,
+    portrait: portrait ?? Object.assign({}, ...enhancements).portrait ?? candidatePriorityExistingMatchEnhancements2026[person.id]?.portrait,
   };
 });
 
@@ -1126,6 +1739,102 @@ const relationshipsBeforeLegacyMigration: Relationship[] = [
   ...influenceQueueCanadaFinalRelationships,
   ...influenceQueueUsFinalRelationships,
   ...topSchoolAdviserRelationships,
+  ...waiLamRosterRelationships,
+  ...topSchoolRosterRelationships2026,
+  ...gaoWenNetworkRelationships2026,
+  ...gaoWenNetworkRound2Relationships2026,
+  ...fiveScholarStudentSystemRelationships2026,
+  ...thomasHuangYanRelationships,
+  ...hustRosterPiExpansion1Relationships,
+  ...europeARosterPiExpansion1Relationships,
+  ...usCornellRosterExpansion1Relationships,
+  ...hkbuRosterPiExpansion2026Relationships,
+  ...hkustCseRosterExpansionBatch2Relationships,
+  ...usStanfordRosterExpansion2Relationships,
+  ...sergeBelongieInfluenceRelationships,
+  ...stanfordInfluencePendingRelationships,
+  ...usCornellInfluenceFix1Relationships,
+  ...stanfordAzaliaUpstreamRelationships,
+  ...asiaNextRosterPiExpansionRelationships2026,
+  ...europeNextRosterPiExpansion1Relationships,
+  ...cmuScsRosterExpansionRelationships2026,
+  ...usRosterBatch2Relationships,
+  ...usCornellUpstreamRelationships,
+  ...usUwUiucRosterRelationships,
+  ...europeFrozenTailPiExpansion1Relationships,
+  ...thuNtuNextBatchPiExpansionRelationships2026,
+  ...asiaPendingResolutionPiExpansionRelationships2026,
+  ...europeFrozenTailPiExpansion2Relationships,
+  ...usCanadaRemainingPriorityRelationships2026,
+  ...candidatePriorityBatch1Relationships2026,
+  ...candidatePriorityP0EuropeBatch2Relationships2026,
+  ...candidatePriorityP0UsCanadaBatch2Relationships2026,
+  ...candidatePriorityP0AsiaBatch2Relationships2026,
+  ...candidatePriorityP0EuropeBatch3Relationships2026,
+  ...candidatePriorityP0UsCanadaBatch3Relationships2026,
+  ...candidatePriorityP0AsiaBatch3Relationships2026,
+  ...candidatePriorityP0EuropeRemainingReadyChunk1Relationships2026,
+  ...candidatePriorityP0UsCanadaReadyBatch4Relationships2026,
+  ...candidatePriorityP0AsiaBatch4Relationships2026,
+  ...candidatePriorityP0UsCanadaReadyBatch5Relationships2026,
+  ...candidatePriorityP0AsiaBatch5Relationships2026,
+  ...candidatePriorityP0EuropeBatch5Relationships2026,
+  ...candidatePriorityP0AsiaBatch6Relationships2026,
+  ...candidatePriorityP0AsiaBatch7Relationships2026,
+  ...candidatePriorityP0AsiaBatch8Relationships2026,
+  ...candidatePriorityP0AsiaBatch9Relationships2026,
+  ...candidatePriorityP0AsiaBatch10Relationships2026,
+  ...candidatePriorityP0AsiaBatch11Relationships2026,
+  ...candidatePriorityP0AsiaBatch12Relationships2026,
+  ...candidatePriorityP0EuropeBatch6Relationships2026,
+  ...candidatePriorityP0EuropeBatch7Relationships2026,
+  ...candidatePriorityP0EuropeBatch8Relationships2026,
+  ...candidatePriorityP0EuropeBatch9Relationships2026,
+  ...candidatePriorityP0EuropeBatch10Relationships2026,
+  ...candidatePriorityP0EuropeBatch11Relationships2026,
+  ...candidatePriorityP0EuropeBatch12Relationships2026,
+  ...candidatePriorityP0EuropeBatch13Relationships2026,
+  ...candidatePriorityP0EuropeBatch14Relationships2026,
+  ...candidatePriorityP0EuropeBatch15Relationships2026,
+  ...candidatePriorityP0EuropeBatch16Relationships2026,
+  ...candidatePriorityP0EuropeBatch17Relationships2026,
+  ...candidatePriorityP0EuropeBatch18Relationships2026,
+  ...candidatePriorityP0UsCanadaReadyBatch6Relationships2026,
+  ...candidatePriorityP0UsCanadaReadyBatch7Relationships2026,
+  ...candidatePriorityP0UsCanadaReadyBatch8Relationships2026,
+  ...candidatePriorityP0UsCanadaReadyBatch9Relationships2026,
+  ...candidatePriorityP0UsCanadaReadyBatch10Relationships2026,
+  ...candidatePriorityP0UsCanadaReadyBatch11Relationships2026,
+  ...candidatePriorityP0UsCanadaReadyBatch12Relationships2026,
+  ...candidatePriorityP0UsCanadaReadyBatch13Relationships2026,
+  ...candidatePriorityP0UsCanadaReadyBatch14Relationships2026,
+  ...candidatePriorityP0UsCanadaReadyBatch15Relationships2026,
+  ...p0LeadershipNetworkFixRelationships2026,
+  ...candidatePriorityP0MainlandTailBatch1Relationships2026,
+  ...candidatePriorityP0HkSgTailRelationships2026,
+  ...candidatePriorityP0MainlandTailBatch2Relationships2026,
+  ...candidatePriorityP0HkSgTailBatch2Relationships2026,
+  ...candidatePriorityP0MainlandTailBatch3Relationships2026,
+  ...candidatePriorityP0HkSgTailBatch3Relationships2026,
+  ...candidatePriorityP0MainlandFullBatch1Relationships2026,
+  ...candidatePriorityP0HkSgFullBatchRelationships2026,
+  ...candidatePriorityP0EuropeFullBatch1Relationships2026,
+  ...candidatePriorityP0EuropeFullBatch2Relationships2026,
+  ...candidatePriorityP0EuropeFullBatch3Relationships2026,
+  ...candidatePriorityP0EuropeFullBatch4Relationships2026,
+  ...candidatePriorityP0EuropeFullBatch5Relationships2026,
+  ...candidatePriorityP0MainlandSecondPassBatch1Relationships2026,
+  ...candidatePriorityP0EuropeSecondRoundBatch1Relationships2026,
+  ...candidatePriorityP0HkSgSecondRoundRelationships2026,
+  ...candidatePriorityP0EuropeThirdRoundBatch1Relationships2026,
+  ...candidatePriorityP0HkSgThirdRoundRelationships2026,
+  ...candidatePriorityP0EuropeFourthRoundBatch1Relationships2026,
+  ...candidatePriorityP0MainlandThirdPassBatch1Relationships2026,
+  ...candidatePriorityP0HkSgFourthRoundRelationships2026,
+  ...candidatePriorityP0HkSgFifthRoundRelationships2026,
+  ...candidatePriorityP0MainlandFourthPassBatch1Relationships2026,
+  ...candidatePriorityP0EuropeFifthRoundBatch1Relationships2026,
+  ...candidatePriorityP0NextRoundRelationships2026,
 ];
 
 export const relationships: Relationship[] = relationshipsBeforeLegacyMigration
@@ -1332,11 +2041,91 @@ export const groupMembers: GroupMember[] = [
   ...influenceQueueEuropeGroupMembers,
   ...influenceQueueUsCanadaGroupMembers2,
   ...influenceQueueAsiaGroupMembers,
+  ...topSchoolRosterGroupMembers2026,
   ...influenceQueueUsResidualAGroupMembers,
   ...influenceQueueUsCanadaGroupMembers3,
   ...influenceQueueUsTengyuFinalGroupMembers,
   ...influenceQueueCanadaFinalGroupMembers,
   ...influenceQueueUsFinalGroupMembers,
+  ...waiLamRosterGroupMembers,
+  ...gaoWenNetworkGroupMembers2026,
+  ...fiveScholarStudentSystemGroupMembers2026,
+  ...thomasHuangYanGroupMembers,
+  ...sergeBelongieInfluenceGroupMembers,
+  ...stanfordInfluencePendingGroupMembers,
+  ...usCornellInfluenceFix1GroupMembers,
+  ...stanfordAzaliaUpstreamGroupMembers,
+  ...europeNextRosterPiExpansion1GroupMembers,
+  ...cmuScsRosterExpansionGroupMembers2026,
+  ...usRosterBatch2GroupMembers,
+  ...usUwUiucRosterGroupMembers,
+  ...europeFrozenTailPiExpansion1GroupMembers,
+  ...europeFrozenTailPiExpansion2GroupMembers,
+  ...usCanadaRemainingPriorityGroupMembers2026,
+  ...candidatePriorityP0EuropeBatch2GroupMembers2026,
+  ...candidatePriorityP0UsCanadaBatch2GroupMembers2026,
+  ...candidatePriorityP0AsiaBatch2GroupMembers2026,
+  ...candidatePriorityP0EuropeBatch3GroupMembers2026,
+  ...candidatePriorityP0UsCanadaBatch3GroupMembers2026,
+  ...candidatePriorityP0AsiaBatch3GroupMembers2026,
+  ...candidatePriorityP0EuropeRemainingReadyChunk1GroupMembers2026,
+  ...candidatePriorityP0UsCanadaReadyBatch4GroupMembers2026,
+  ...candidatePriorityP0AsiaBatch4GroupMembers2026,
+  ...candidatePriorityP0UsCanadaReadyBatch5GroupMembers2026,
+  ...candidatePriorityP0AsiaBatch5GroupMembers2026,
+  ...candidatePriorityP0EuropeBatch5GroupMembers2026,
+  ...candidatePriorityP0AsiaBatch6GroupMembers2026,
+  ...candidatePriorityP0AsiaBatch7GroupMembers2026,
+  ...candidatePriorityP0AsiaBatch8GroupMembers2026,
+  ...candidatePriorityP0AsiaBatch9GroupMembers2026,
+  ...candidatePriorityP0AsiaBatch10GroupMembers2026,
+  ...candidatePriorityP0AsiaBatch11GroupMembers2026,
+  ...candidatePriorityP0AsiaBatch12GroupMembers2026,
+  ...candidatePriorityP0EuropeBatch6GroupMembers2026,
+  ...candidatePriorityP0EuropeBatch7GroupMembers2026,
+  ...candidatePriorityP0EuropeBatch8GroupMembers2026,
+  ...candidatePriorityP0EuropeBatch9GroupMembers2026,
+  ...candidatePriorityP0EuropeBatch10GroupMembers2026,
+  ...candidatePriorityP0EuropeBatch11GroupMembers2026,
+  ...candidatePriorityP0EuropeBatch12GroupMembers2026,
+  ...candidatePriorityP0EuropeBatch13GroupMembers2026,
+  ...candidatePriorityP0EuropeBatch14GroupMembers2026,
+  ...candidatePriorityP0EuropeBatch15GroupMembers2026,
+  ...candidatePriorityP0EuropeBatch16GroupMembers2026,
+  ...candidatePriorityP0EuropeBatch17GroupMembers2026,
+  ...candidatePriorityP0EuropeBatch18GroupMembers2026,
+  ...candidatePriorityP0UsCanadaReadyBatch6GroupMembers2026,
+  ...candidatePriorityP0UsCanadaReadyBatch7GroupMembers2026,
+  ...candidatePriorityP0UsCanadaReadyBatch8GroupMembers2026,
+  ...candidatePriorityP0UsCanadaReadyBatch9GroupMembers2026,
+  ...candidatePriorityP0UsCanadaReadyBatch10GroupMembers2026,
+  ...candidatePriorityP0UsCanadaReadyBatch11GroupMembers2026,
+  ...candidatePriorityP0UsCanadaReadyBatch12GroupMembers2026,
+  ...candidatePriorityP0UsCanadaReadyBatch13GroupMembers2026,
+  ...candidatePriorityP0UsCanadaReadyBatch14GroupMembers2026,
+  ...candidatePriorityP0UsCanadaReadyBatch15GroupMembers2026,
+  ...candidatePriorityP0MainlandTailBatch1GroupMembers2026,
+  ...candidatePriorityP0HkSgTailGroupMembers2026,
+  ...candidatePriorityP0MainlandTailBatch2GroupMembers2026,
+  ...candidatePriorityP0HkSgTailBatch2GroupMembers2026,
+  ...candidatePriorityP0MainlandTailBatch3GroupMembers2026,
+  ...candidatePriorityP0HkSgTailBatch3GroupMembers2026,
+  ...candidatePriorityP0MainlandFullBatch1GroupMembers2026,
+  ...candidatePriorityP0HkSgFullBatchGroupMembers2026,
+  ...candidatePriorityP0HkSgFullBatchExtraGroupMembers2026,
+  ...candidatePriorityP0EuropeFullBatch1GroupMembers2026,
+  ...candidatePriorityP0EuropeFullBatch2GroupMembers2026,
+  ...candidatePriorityP0EuropeFullBatch3GroupMembers2026,
+  ...candidatePriorityP0EuropeFullBatch4GroupMembers2026,
+  ...candidatePriorityP0EuropeFullBatch5GroupMembers2026,
+  ...candidatePriorityP0MainlandSecondPassBatch1GroupMembers2026,
+  ...candidatePriorityP0EuropeSecondRoundBatch1GroupMembers2026,
+  ...candidatePriorityP0EuropeThirdRoundBatch1GroupMembers2026,
+  ...candidatePriorityP0EuropeFourthRoundBatch1GroupMembers2026,
+  ...candidatePriorityP0MainlandThirdPassBatch1GroupMembers2026,
+  ...candidatePriorityP0MainlandFourthPassBatch1GroupMembers2026,
+  ...candidatePriorityP0EuropeFifthRoundBatch1GroupMembers2026,
+  ...candidatePriorityP0NextRoundGroupMembers2026,
 ];
 
 const studentPlacementsBeforeAtlasCorrections: StudentPlacement[] = [
@@ -1423,6 +2212,78 @@ const studentPlacementsBeforeAtlasCorrections: StudentPlacement[] = [
   ...influenceQueueUsTengyuFinalPlacements,
   ...influenceQueueCanadaFinalPlacements,
   ...influenceQueueUsFinalPlacements,
+  ...waiLamRosterPlacements,
+  ...gaoWenNetworkPlacements2026,
+  ...gaoWenNetworkRound2Placements2026,
+  ...fiveScholarStudentSystemPlacements2026,
+  ...thomasHuangYanPlacements,
+  ...europeNextRosterPiExpansion1StudentPlacements,
+  ...cmuScsRosterExpansionPlacements2026,
+  ...europeFrozenTailPiExpansion1StudentPlacements,
+  ...europeFrozenTailPiExpansion2StudentPlacements,
+  ...usCanadaRemainingPriorityPlacements2026,
+  ...candidatePriorityBatch1Placements2026,
+  ...candidatePriorityP0EuropeBatch2Placements2026,
+  ...candidatePriorityP0UsCanadaBatch2Placements2026,
+  ...candidatePriorityP0AsiaBatch2Placements2026,
+  ...candidatePriorityP0EuropeBatch3Placements2026,
+  ...candidatePriorityP0UsCanadaBatch3Placements2026,
+  ...candidatePriorityP0AsiaBatch3Placements2026,
+  ...candidatePriorityP0EuropeRemainingReadyChunk1Placements2026,
+  ...candidatePriorityP0UsCanadaReadyBatch4Placements2026,
+  ...candidatePriorityP0AsiaBatch4Placements2026,
+  ...candidatePriorityP0UsCanadaReadyBatch5Placements2026,
+  ...candidatePriorityP0AsiaBatch5Placements2026,
+  ...candidatePriorityP0EuropeBatch5Placements2026,
+  ...candidatePriorityP0AsiaBatch6Placements2026,
+  ...candidatePriorityP0AsiaBatch7Placements2026,
+  ...candidatePriorityP0AsiaBatch8Placements2026,
+  ...candidatePriorityP0AsiaBatch9Placements2026,
+  ...candidatePriorityP0AsiaBatch10Placements2026,
+  ...candidatePriorityP0AsiaBatch11Placements2026,
+  ...candidatePriorityP0AsiaBatch12Placements2026,
+  ...candidatePriorityP0EuropeBatch6Placements2026,
+  ...candidatePriorityP0EuropeBatch7Placements2026,
+  ...candidatePriorityP0EuropeBatch8Placements2026,
+  ...candidatePriorityP0EuropeBatch9Placements2026,
+  ...candidatePriorityP0EuropeBatch10Placements2026,
+  ...candidatePriorityP0EuropeBatch11Placements2026,
+  ...candidatePriorityP0EuropeBatch12Placements2026,
+  ...candidatePriorityP0EuropeBatch13Placements2026,
+  ...candidatePriorityP0EuropeBatch14Placements2026,
+  ...candidatePriorityP0EuropeBatch15Placements2026,
+  ...candidatePriorityP0EuropeBatch16Placements2026,
+  ...candidatePriorityP0EuropeBatch17Placements2026,
+  ...candidatePriorityP0EuropeBatch18Placements2026,
+  ...candidatePriorityP0UsCanadaReadyBatch6Placements2026,
+  ...candidatePriorityP0UsCanadaReadyBatch7Placements2026,
+  ...candidatePriorityP0UsCanadaReadyBatch8Placements2026,
+  ...candidatePriorityP0UsCanadaReadyBatch9Placements2026,
+  ...candidatePriorityP0UsCanadaReadyBatch10Placements2026,
+  ...candidatePriorityP0UsCanadaReadyBatch11Placements2026,
+  ...candidatePriorityP0UsCanadaReadyBatch12Placements2026,
+  ...candidatePriorityP0UsCanadaReadyBatch13Placements2026,
+  ...candidatePriorityP0UsCanadaReadyBatch14Placements2026,
+  ...candidatePriorityP0UsCanadaReadyBatch15Placements2026,
+  ...candidatePriorityP0MainlandTailBatch1Placements2026,
+  ...candidatePriorityP0HkSgTailPlacements2026,
+  ...candidatePriorityP0MainlandTailBatch2Placements2026,
+  ...candidatePriorityP0HkSgTailBatch2Placements2026,
+  ...candidatePriorityP0MainlandTailBatch3Placements2026,
+  ...candidatePriorityP0HkSgTailBatch3Placements2026,
+  ...candidatePriorityP0MainlandFullBatch1Placements2026,
+  ...candidatePriorityP0EuropeFullBatch1Placements2026,
+  ...candidatePriorityP0EuropeFullBatch2Placements2026,
+  ...candidatePriorityP0EuropeFullBatch3Placements2026,
+  ...candidatePriorityP0EuropeFullBatch4Placements2026,
+  ...candidatePriorityP0EuropeFullBatch5Placements2026,
+  ...candidatePriorityP0MainlandSecondPassBatch1Placements2026,
+  ...candidatePriorityP0EuropeSecondRoundBatch1Placements2026,
+  ...candidatePriorityP0EuropeThirdRoundBatch1Placements2026,
+  ...candidatePriorityP0EuropeFourthRoundBatch1Placements2026,
+  ...candidatePriorityP0MainlandThirdPassBatch1Placements2026,
+  ...candidatePriorityP0MainlandFourthPassBatch1Placements2026,
+  ...candidatePriorityP0EuropeFifthRoundBatch1Placements2026,
 ];
 
 export const studentPlacements: StudentPlacement[] = studentPlacementsBeforeAtlasCorrections.map((placement) => ({

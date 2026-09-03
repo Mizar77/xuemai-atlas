@@ -1,0 +1,2050 @@
+{
+  "completeness": "complete",
+  "fetchedAt": "2026-09-02",
+  "institution": "北京邮电大学计算机学院（国家示范性软件学院）",
+  "officialPageUrl": "https://scs.bupt.edu.cn/szdw/jsml.htm",
+  "officialDataUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm",
+  "officialDataUrls": [
+    "http://scs.bupt.edu.cn/szjs1/jsyl.htm"
+  ],
+  "officialRosterCount": 224,
+  "sourceEntryCount": 225,
+  "sourceDescription": "The current official 教师一览 page was fetched through the university's HTTP/mobile-compatible response after its HTTPS response returned only a JavaScript WAF shell. All 16 research-centre tables were parsed. The page contains 225 section memberships and 224 unique official profile records. 戴志涛 is the sole repeated profile and both memberships are preserved. Two 王玉龙 entries have different official profile URLs and are therefore retained as distinct official records rather than merged by name.",
+  "categoryCounts": {
+    "计算机体系结构中心": 13,
+    "计算机应用技术中心": 13,
+    "计算机软件与理论中心": 14,
+    "大数据与云服务中心": 11,
+    "软件系统与工程中心": 11,
+    "网络与通信软件中心": 9,
+    "网络技术中心": 20,
+    "物联网技术中心": 14,
+    "信息网络中心": 8,
+    "数据科学与服务中心": 16,
+    "交换与智能控制研究中心": 27,
+    "网络体系结构研究中心": 20,
+    "网络服务基础研究中心": 12,
+    "网络管理研究中心": 19,
+    "网络智能研究中心": 17,
+    "实验中心": 1
+  },
+  "people": [
+    {
+      "officialId": "https://teacher.bupt.edu.cn/zhoufeng/zh_CN/index.htm",
+      "name": "周锋",
+      "sections": [
+        "计算机体系结构中心"
+      ],
+      "profileUrl": "https://teacher.bupt.edu.cn/zhoufeng/zh_CN/index.htm",
+      "sourcePageUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm"
+    },
+    {
+      "officialId": "https://teacher.bupt.edu.cn/daizhitao",
+      "name": "戴志涛",
+      "sections": [
+        "计算机体系结构中心",
+        "实验中心"
+      ],
+      "profileUrl": "https://teacher.bupt.edu.cn/daizhitao",
+      "sourcePageUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm"
+    },
+    {
+      "officialId": "https://teacher.bupt.edu.cn/yaowenbin",
+      "name": "姚文斌",
+      "sections": [
+        "计算机体系结构中心"
+      ],
+      "profileUrl": "https://teacher.bupt.edu.cn/yaowenbin",
+      "sourcePageUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm"
+    },
+    {
+      "officialId": "https://teacher.bupt.edu.cn/fangpeiyu",
+      "name": "方沛宇",
+      "sections": [
+        "计算机体系结构中心"
+      ],
+      "profileUrl": "https://teacher.bupt.edu.cn/fangpeiyu",
+      "sourcePageUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm"
+    },
+    {
+      "officialId": "https://teacher.bupt.edu.cn/jianghai/zh_CN/index.htm",
+      "name": "姜海",
+      "sections": [
+        "计算机体系结构中心"
+      ],
+      "profileUrl": "https://teacher.bupt.edu.cn/jianghai/zh_CN/index.htm",
+      "sourcePageUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm"
+    },
+    {
+      "officialId": "http://teacher.bupt.edu.cn/lishigang/zh_CN/index.htm",
+      "name": "李士刚",
+      "sections": [
+        "计算机体系结构中心"
+      ],
+      "profileUrl": "http://teacher.bupt.edu.cn/lishigang/zh_CN/index.htm",
+      "sourcePageUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm"
+    },
+    {
+      "officialId": "https://teacher.bupt.edu.cn/fangwei",
+      "name": "方维",
+      "sections": [
+        "计算机体系结构中心"
+      ],
+      "profileUrl": "https://teacher.bupt.edu.cn/fangwei",
+      "sourcePageUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm"
+    },
+    {
+      "officialId": "https://teacher.bupt.edu.cn/peisongwei",
+      "name": "裴颂伟",
+      "sections": [
+        "计算机体系结构中心"
+      ],
+      "profileUrl": "https://teacher.bupt.edu.cn/peisongwei",
+      "sourcePageUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm"
+    },
+    {
+      "officialId": "https://teacher.bupt.edu.cn/lianghongliang/zh_CN/index.htm",
+      "name": "梁洪亮",
+      "sections": [
+        "计算机体系结构中心"
+      ],
+      "profileUrl": "https://teacher.bupt.edu.cn/lianghongliang/zh_CN/index.htm",
+      "sourcePageUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm"
+    },
+    {
+      "officialId": "https://teacher.bupt.edu.cn/yiqiuping",
+      "name": "易秋萍",
+      "sections": [
+        "计算机体系结构中心"
+      ],
+      "profileUrl": "https://teacher.bupt.edu.cn/yiqiuping",
+      "sourcePageUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm"
+    },
+    {
+      "officialId": "https://teacher.bupt.edu.cn/huangzhibin",
+      "name": "黄智濒",
+      "sections": [
+        "计算机体系结构中心"
+      ],
+      "profileUrl": "https://teacher.bupt.edu.cn/huangzhibin",
+      "sourcePageUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm"
+    },
+    {
+      "officialId": "https://teacher.bupt.edu.cn/luojuanjuan1",
+      "name": "罗娟娟",
+      "sections": [
+        "计算机体系结构中心"
+      ],
+      "profileUrl": "https://teacher.bupt.edu.cn/luojuanjuan1",
+      "sourcePageUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm"
+    },
+    {
+      "officialId": "https://teacher.bupt.edu.cn/wangxueying1/zh_CN/index.htm",
+      "name": "王雪莹",
+      "sections": [
+        "计算机体系结构中心"
+      ],
+      "profileUrl": "https://teacher.bupt.edu.cn/wangxueying1/zh_CN/index.htm",
+      "sourcePageUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm"
+    },
+    {
+      "officialId": "https://teacher.bupt.edu.cn/dujunping",
+      "name": "杜军平",
+      "sections": [
+        "计算机应用技术中心"
+      ],
+      "profileUrl": "https://teacher.bupt.edu.cn/dujunping",
+      "sourcePageUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm"
+    },
+    {
+      "officialId": "https://teacher.bupt.edu.cn/mengxiangwu",
+      "name": "孟祥武",
+      "sections": [
+        "计算机应用技术中心"
+      ],
+      "profileUrl": "https://teacher.bupt.edu.cn/mengxiangwu",
+      "sourcePageUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm"
+    },
+    {
+      "officialId": "https://teacher.bupt.edu.cn/dengfang",
+      "name": "邓芳",
+      "sections": [
+        "计算机应用技术中心"
+      ],
+      "profileUrl": "https://teacher.bupt.edu.cn/dengfang",
+      "sourcePageUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm"
+    },
+    {
+      "officialId": "https://scs.bupt.edu.cn/info/1093/1340.htm",
+      "name": "叶文",
+      "sections": [
+        "计算机应用技术中心"
+      ],
+      "profileUrl": "https://scs.bupt.edu.cn/info/1093/1340.htm",
+      "sourcePageUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm"
+    },
+    {
+      "officialId": "https://scs.bupt.edu.cn/info/1093/1337.htm",
+      "name": "刘晓鸿",
+      "sections": [
+        "计算机应用技术中心"
+      ],
+      "profileUrl": "https://scs.bupt.edu.cn/info/1093/1337.htm",
+      "sourcePageUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm"
+    },
+    {
+      "officialId": "https://teacher.bupt.edu.cn/wangxiaoru",
+      "name": "王晓茹",
+      "sections": [
+        "计算机应用技术中心"
+      ],
+      "profileUrl": "https://teacher.bupt.edu.cn/wangxiaoru",
+      "sourcePageUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm"
+    },
+    {
+      "officialId": "https://teacher.bupt.edu.cn/panweimin/zh_CN/index.htm",
+      "name": "潘维民",
+      "sections": [
+        "计算机应用技术中心"
+      ],
+      "profileUrl": "https://teacher.bupt.edu.cn/panweimin/zh_CN/index.htm",
+      "sourcePageUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm"
+    },
+    {
+      "officialId": "https://teacher.bupt.edu.cn/liangmeiyu",
+      "name": "梁美玉",
+      "sections": [
+        "计算机应用技术中心"
+      ],
+      "profileUrl": "https://teacher.bupt.edu.cn/liangmeiyu",
+      "sourcePageUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm"
+    },
+    {
+      "officialId": "https://teacher.bupt.edu.cn/xuezhe",
+      "name": "薛哲",
+      "sections": [
+        "计算机应用技术中心"
+      ],
+      "profileUrl": "https://teacher.bupt.edu.cn/xuezhe",
+      "sourcePageUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm"
+    },
+    {
+      "officialId": "https://teacher.bupt.edu.cn/shaoyingxia",
+      "name": "邵蓥侠",
+      "sections": [
+        "计算机应用技术中心"
+      ],
+      "profileUrl": "https://teacher.bupt.edu.cn/shaoyingxia",
+      "sourcePageUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm"
+    },
+    {
+      "officialId": "https://teacher.bupt.edu.cn/xiaochen",
+      "name": "肖晨",
+      "sections": [
+        "计算机应用技术中心"
+      ],
+      "profileUrl": "https://teacher.bupt.edu.cn/xiaochen",
+      "sourcePageUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm"
+    },
+    {
+      "officialId": "https://teacher.bupt.edu.cn/liubingyan/zh_CN/index.htm",
+      "name": "刘炳言",
+      "sections": [
+        "计算机应用技术中心"
+      ],
+      "profileUrl": "https://teacher.bupt.edu.cn/liubingyan/zh_CN/index.htm",
+      "sourcePageUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm"
+    },
+    {
+      "officialId": "https://teacher.bupt.edu.cn/yeguanhua/zh_CN/index.htm",
+      "name": "叶冠华",
+      "sections": [
+        "计算机应用技术中心"
+      ],
+      "profileUrl": "https://teacher.bupt.edu.cn/yeguanhua/zh_CN/index.htm",
+      "sourcePageUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm"
+    },
+    {
+      "officialId": "https://teacher.bupt.edu.cn/niushaozhang",
+      "name": "牛少彰",
+      "sections": [
+        "计算机软件与理论中心"
+      ],
+      "profileUrl": "https://teacher.bupt.edu.cn/niushaozhang",
+      "sourcePageUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm"
+    },
+    {
+      "officialId": "https://teacher.bupt.edu.cn/zuoxingquan",
+      "name": "左兴权",
+      "sections": [
+        "计算机软件与理论中心"
+      ],
+      "profileUrl": "https://teacher.bupt.edu.cn/zuoxingquan",
+      "sourcePageUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm"
+    },
+    {
+      "officialId": "https://teacher.bupt.edu.cn/yangjuan",
+      "name": "杨娟",
+      "sections": [
+        "计算机软件与理论中心"
+      ],
+      "profileUrl": "https://teacher.bupt.edu.cn/yangjuan",
+      "sourcePageUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm"
+    },
+    {
+      "officialId": "https://teacher.bupt.edu.cn/wangpengfei",
+      "name": "王鹏飞",
+      "sections": [
+        "计算机软件与理论中心"
+      ],
+      "profileUrl": "https://teacher.bupt.edu.cn/wangpengfei",
+      "sourcePageUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm"
+    },
+    {
+      "officialId": "https://teacher.bupt.edu.cn/yangya",
+      "name": "杨亚",
+      "sections": [
+        "计算机软件与理论中心"
+      ],
+      "profileUrl": "https://teacher.bupt.edu.cn/yangya",
+      "sourcePageUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm"
+    },
+    {
+      "officialId": "https://teacher.bupt.edu.cn/chenhong1/zh_CN/index.htm",
+      "name": "陈洪",
+      "sections": [
+        "计算机软件与理论中心"
+      ],
+      "profileUrl": "https://teacher.bupt.edu.cn/chenhong1/zh_CN/index.htm",
+      "sourcePageUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm"
+    },
+    {
+      "officialId": "https://teacher.bupt.edu.cn/guyonghao",
+      "name": "谷勇浩",
+      "sections": [
+        "计算机软件与理论中心"
+      ],
+      "profileUrl": "https://teacher.bupt.edu.cn/guyonghao",
+      "sourcePageUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm"
+    },
+    {
+      "officialId": "https://teacher.bupt.edu.cn/hhuang",
+      "name": "黄海",
+      "sections": [
+        "计算机软件与理论中心"
+      ],
+      "profileUrl": "https://teacher.bupt.edu.cn/hhuang",
+      "sourcePageUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm"
+    },
+    {
+      "officialId": "https://teacher.bupt.edu.cn/duxiaofeng",
+      "name": "杜晓峰",
+      "sections": [
+        "计算机软件与理论中心"
+      ],
+      "profileUrl": "https://teacher.bupt.edu.cn/duxiaofeng",
+      "sourcePageUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm"
+    },
+    {
+      "officialId": "https://teacher.bupt.edu.cn/xuke",
+      "name": "许可",
+      "sections": [
+        "计算机软件与理论中心"
+      ],
+      "profileUrl": "https://teacher.bupt.edu.cn/xuke",
+      "sourcePageUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm"
+    },
+    {
+      "officialId": "https://teacher.bupt.edu.cn/zhangyanmei",
+      "name": "张艳梅",
+      "sections": [
+        "计算机软件与理论中心"
+      ],
+      "profileUrl": "https://teacher.bupt.edu.cn/zhangyanmei",
+      "sourcePageUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm"
+    },
+    {
+      "officialId": "https://teacher.bupt.edu.cn/yuanbaoku",
+      "name": "袁宝库",
+      "sections": [
+        "计算机软件与理论中心"
+      ],
+      "profileUrl": "https://teacher.bupt.edu.cn/yuanbaoku",
+      "sourcePageUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm"
+    },
+    {
+      "officialId": "https://teacher.bupt.edu.cn/zhouchunyan",
+      "name": "周春燕",
+      "sections": [
+        "计算机软件与理论中心"
+      ],
+      "profileUrl": "https://teacher.bupt.edu.cn/zhouchunyan",
+      "sourcePageUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm"
+    },
+    {
+      "officialId": "https://teacher.bupt.edu.cn/zhangjiwei2",
+      "name": "张继威",
+      "sections": [
+        "计算机软件与理论中心"
+      ],
+      "profileUrl": "https://teacher.bupt.edu.cn/zhangjiwei2",
+      "sourcePageUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm"
+    },
+    {
+      "officialId": "https://teacher.bupt.edu.cn/kuangjian",
+      "name": "邝坚",
+      "sections": [
+        "大数据与云服务中心"
+      ],
+      "profileUrl": "https://teacher.bupt.edu.cn/kuangjian",
+      "sourcePageUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm"
+    },
+    {
+      "officialId": "https://teacher.bupt.edu.cn/zhangxiaoyan/en/index.htm",
+      "name": "张笑燕",
+      "sections": [
+        "大数据与云服务中心"
+      ],
+      "profileUrl": "https://teacher.bupt.edu.cn/zhangxiaoyan/en/index.htm",
+      "sourcePageUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm"
+    },
+    {
+      "officialId": "https://teacher.bupt.edu.cn/niukun",
+      "name": "牛琨",
+      "sections": [
+        "大数据与云服务中心"
+      ],
+      "profileUrl": "https://teacher.bupt.edu.cn/niukun",
+      "sourcePageUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm"
+    },
+    {
+      "officialId": "https://teacher.bupt.edu.cn/guowenming",
+      "name": "郭文明",
+      "sections": [
+        "大数据与云服务中心"
+      ],
+      "profileUrl": "https://teacher.bupt.edu.cn/guowenming",
+      "sourcePageUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm"
+    },
+    {
+      "officialId": "https://teacher.bupt.edu.cn/guoying1/zh_CN/index.htm",
+      "name": "郭迎",
+      "sections": [
+        "大数据与云服务中心"
+      ],
+      "profileUrl": "https://teacher.bupt.edu.cn/guoying1/zh_CN/index.htm",
+      "sourcePageUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm"
+    },
+    {
+      "officialId": "https://teacher.bupt.edu.cn/lichaohui",
+      "name": "李朝晖",
+      "sections": [
+        "大数据与云服务中心"
+      ],
+      "profileUrl": "https://teacher.bupt.edu.cn/lichaohui",
+      "sourcePageUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm"
+    },
+    {
+      "officialId": "https://teacher.bupt.edu.cn/wangyi2/",
+      "name": "王祎",
+      "sections": [
+        "大数据与云服务中心"
+      ],
+      "profileUrl": "https://teacher.bupt.edu.cn/wangyi2/",
+      "sourcePageUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm"
+    },
+    {
+      "officialId": "https://teacher.bupt.edu.cn/yangtan/zh_CN/index.htm",
+      "name": "杨谈",
+      "sections": [
+        "大数据与云服务中心"
+      ],
+      "profileUrl": "https://teacher.bupt.edu.cn/yangtan/zh_CN/index.htm",
+      "sourcePageUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm"
+    },
+    {
+      "officialId": "https://teacher.bupt.edu.cn/lubenjie",
+      "name": "卢本捷",
+      "sections": [
+        "大数据与云服务中心"
+      ],
+      "profileUrl": "https://teacher.bupt.edu.cn/lubenjie",
+      "sourcePageUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm"
+    },
+    {
+      "officialId": "https://teacher.bupt.edu.cn/gaohui2",
+      "name": "高慧",
+      "sections": [
+        "大数据与云服务中心"
+      ],
+      "profileUrl": "https://teacher.bupt.edu.cn/gaohui2",
+      "sourcePageUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm"
+    },
+    {
+      "officialId": "https://teacher.bupt.edu.cn/duxiaoting/zh_CN/index.htm",
+      "name": "杜晓婷",
+      "sections": [
+        "大数据与云服务中心"
+      ],
+      "profileUrl": "https://teacher.bupt.edu.cn/duxiaoting/zh_CN/index.htm",
+      "sourcePageUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm"
+    },
+    {
+      "officialId": "https://teacher.bupt.edu.cn/zhaofang",
+      "name": "赵方",
+      "sections": [
+        "软件系统与工程中心"
+      ],
+      "profileUrl": "https://teacher.bupt.edu.cn/zhaofang",
+      "sourcePageUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm"
+    },
+    {
+      "officialId": "https://scs.bupt.edu.cn/info/1277/2498.htm",
+      "name": "杨正球",
+      "sections": [
+        "软件系统与工程中心"
+      ],
+      "profileUrl": "https://scs.bupt.edu.cn/info/1277/2498.htm",
+      "sourcePageUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm"
+    },
+    {
+      "officialId": "https://teacher.bupt.edu.cn/qiulirong1/zh_CN/index.htm",
+      "name": "邱莉榕",
+      "sections": [
+        "软件系统与工程中心"
+      ],
+      "profileUrl": "https://teacher.bupt.edu.cn/qiulirong1/zh_CN/index.htm",
+      "sourcePageUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm"
+    },
+    {
+      "officialId": "https://teacher.bupt.edu.cn/yuanyuyu",
+      "name": "袁玉宇",
+      "sections": [
+        "软件系统与工程中心"
+      ],
+      "profileUrl": "https://teacher.bupt.edu.cn/yuanyuyu",
+      "sourcePageUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm"
+    },
+    {
+      "officialId": "https://teacher.bupt.edu.cn/xiujiapeng",
+      "name": "修佳鹏",
+      "sections": [
+        "软件系统与工程中心"
+      ],
+      "profileUrl": "https://teacher.bupt.edu.cn/xiujiapeng",
+      "sourcePageUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm"
+    },
+    {
+      "officialId": "https://teacher.bupt.edu.cn/xiayamei/zh_CN/index.htm",
+      "name": "夏亚梅",
+      "sections": [
+        "软件系统与工程中心"
+      ],
+      "profileUrl": "https://teacher.bupt.edu.cn/xiayamei/zh_CN/index.htm",
+      "sourcePageUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm"
+    },
+    {
+      "officialId": "https://teacher.bupt.edu.cn/chenjinpeng",
+      "name": "陈晋鹏",
+      "sections": [
+        "软件系统与工程中心"
+      ],
+      "profileUrl": "https://teacher.bupt.edu.cn/chenjinpeng",
+      "sourcePageUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm"
+    },
+    {
+      "officialId": "https://teacher.bupt.edu.cn/hanwanjiang",
+      "name": "韩万江",
+      "sections": [
+        "软件系统与工程中心"
+      ],
+      "profileUrl": "https://teacher.bupt.edu.cn/hanwanjiang",
+      "sourcePageUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm"
+    },
+    {
+      "officialId": "https://teacher.bupt.edu.cn/yangjincui",
+      "name": "杨金翠",
+      "sections": [
+        "软件系统与工程中心"
+      ],
+      "profileUrl": "https://teacher.bupt.edu.cn/yangjincui",
+      "sourcePageUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm"
+    },
+    {
+      "officialId": "https://teacher.bupt.edu.cn/shaowenhua1",
+      "name": "邵文华",
+      "sections": [
+        "软件系统与工程中心"
+      ],
+      "profileUrl": "https://teacher.bupt.edu.cn/shaowenhua1",
+      "sourcePageUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm"
+    },
+    {
+      "officialId": "https://teacher.bupt.edu.cn/Koufeifei",
+      "name": "寇菲菲",
+      "sections": [
+        "软件系统与工程中心"
+      ],
+      "profileUrl": "https://teacher.bupt.edu.cn/Koufeifei",
+      "sourcePageUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm"
+    },
+    {
+      "officialId": "https://teacher.bupt.edu.cn/wangwendong/",
+      "name": "王文东",
+      "sections": [
+        "网络与通信软件中心"
+      ],
+      "profileUrl": "https://teacher.bupt.edu.cn/wangwendong/",
+      "sourcePageUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm"
+    },
+    {
+      "officialId": "https://teacher.bupt.edu.cn/lutianbo",
+      "name": "陆天波",
+      "sections": [
+        "网络与通信软件中心"
+      ],
+      "profileUrl": "https://teacher.bupt.edu.cn/lutianbo",
+      "sourcePageUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm"
+    },
+    {
+      "officialId": "https://teacher.bupt.edu.cn/fuxiangling",
+      "name": "傅湘玲",
+      "sections": [
+        "网络与通信软件中心"
+      ],
+      "profileUrl": "https://teacher.bupt.edu.cn/fuxiangling",
+      "sourcePageUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm"
+    },
+    {
+      "officialId": "https://teacher.bupt.edu.cn/cyd",
+      "name": "崔毅东",
+      "sections": [
+        "网络与通信软件中心"
+      ],
+      "profileUrl": "https://teacher.bupt.edu.cn/cyd",
+      "sourcePageUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm"
+    },
+    {
+      "officialId": "https://teacher.bupt.edu.cn/leiyouxun",
+      "name": "雷友珣",
+      "sections": [
+        "网络与通信软件中心"
+      ],
+      "profileUrl": "https://teacher.bupt.edu.cn/leiyouxun",
+      "sourcePageUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm"
+    },
+    {
+      "officialId": "https://teacher.bupt.edu.cn/yczhang",
+      "name": "张宇超",
+      "sections": [
+        "网络与通信软件中心"
+      ],
+      "profileUrl": "https://teacher.bupt.edu.cn/yczhang",
+      "sourcePageUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm"
+    },
+    {
+      "officialId": "https://teacher.bupt.edu.cn/xiekun",
+      "name": "谢坤",
+      "sections": [
+        "网络与通信软件中心"
+      ],
+      "profileUrl": "https://teacher.bupt.edu.cn/xiekun",
+      "sourcePageUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm"
+    },
+    {
+      "officialId": "https://teacher.bupt.edu.cn/liuwei1/",
+      "name": "刘巍",
+      "sections": [
+        "网络与通信软件中心"
+      ],
+      "profileUrl": "https://teacher.bupt.edu.cn/liuwei1/",
+      "sourcePageUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm"
+    },
+    {
+      "officialId": "https://teacher.bupt.edu.cn/wangquan",
+      "name": "王泉",
+      "sections": [
+        "网络与通信软件中心"
+      ],
+      "profileUrl": "https://teacher.bupt.edu.cn/wangquan",
+      "sourcePageUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm"
+    },
+    {
+      "officialId": "https://teacher.bupt.edu.cn/bianjiali",
+      "name": "卞佳丽",
+      "sections": [
+        "网络技术中心"
+      ],
+      "profileUrl": "https://teacher.bupt.edu.cn/bianjiali",
+      "sourcePageUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm"
+    },
+    {
+      "officialId": "https://teacher.bupt.edu.cn/zhouanfu/zh_CN/index.htm",
+      "name": "周安福",
+      "sections": [
+        "网络技术中心"
+      ],
+      "profileUrl": "https://teacher.bupt.edu.cn/zhouanfu/zh_CN/index.htm",
+      "sourcePageUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm"
+    },
+    {
+      "officialId": "https://teacher.bupt.edu.cn/mal",
+      "name": "明安龙",
+      "sections": [
+        "网络技术中心"
+      ],
+      "profileUrl": "https://teacher.bupt.edu.cn/mal",
+      "sourcePageUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm"
+    },
+    {
+      "officialId": "https://teacher.bupt.edu.cn/wangli",
+      "name": "王莉",
+      "sections": [
+        "网络技术中心"
+      ],
+      "profileUrl": "https://teacher.bupt.edu.cn/wangli",
+      "sourcePageUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm"
+    },
+    {
+      "officialId": "https://teacher.bupt.edu.cn/gaozhanchun",
+      "name": "高占春",
+      "sections": [
+        "网络技术中心"
+      ],
+      "profileUrl": "https://teacher.bupt.edu.cn/gaozhanchun",
+      "sourcePageUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm"
+    },
+    {
+      "officialId": "https://teacher.bupt.edu.cn/jiangyanjun",
+      "name": "蒋砚军",
+      "sections": [
+        "网络技术中心"
+      ],
+      "profileUrl": "https://teacher.bupt.edu.cn/jiangyanjun",
+      "sourcePageUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm"
+    },
+    {
+      "officialId": "https://teacher.bupt.edu.cn/zhangdongmei",
+      "name": "张冬梅",
+      "sections": [
+        "网络技术中心"
+      ],
+      "profileUrl": "https://teacher.bupt.edu.cn/zhangdongmei",
+      "sourcePageUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm"
+    },
+    {
+      "officialId": "https://teacher.bupt.edu.cn/zhanghaiyang",
+      "name": "张海旸",
+      "sections": [
+        "网络技术中心"
+      ],
+      "profileUrl": "https://teacher.bupt.edu.cn/zhanghaiyang",
+      "sourcePageUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm"
+    },
+    {
+      "officialId": "https://teacher.bupt.edu.cn/yangzhen",
+      "name": "杨震",
+      "sections": [
+        "网络技术中心"
+      ],
+      "profileUrl": "https://teacher.bupt.edu.cn/yangzhen",
+      "sourcePageUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm"
+    },
+    {
+      "officialId": "https://teacher.bupt.edu.cn/zhangchengwen",
+      "name": "张成文",
+      "sections": [
+        "网络技术中心"
+      ],
+      "profileUrl": "https://teacher.bupt.edu.cn/zhangchengwen",
+      "sourcePageUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm"
+    },
+    {
+      "officialId": "https://teacher.bupt.edu.cn/kangxuejing",
+      "name": "康学净",
+      "sections": [
+        "网络技术中心"
+      ],
+      "profileUrl": "https://teacher.bupt.edu.cn/kangxuejing",
+      "sourcePageUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm"
+    },
+    {
+      "officialId": "https://teacher.bupt.edu.cn/zhangxuesong",
+      "name": "张雪松",
+      "sections": [
+        "网络技术中心"
+      ],
+      "profileUrl": "https://teacher.bupt.edu.cn/zhangxuesong",
+      "sourcePageUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm"
+    },
+    {
+      "officialId": "https://teacher.bupt.edu.cn/guogang",
+      "name": "郭岗",
+      "sections": [
+        "网络技术中心"
+      ],
+      "profileUrl": "https://teacher.bupt.edu.cn/guogang",
+      "sourcePageUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm"
+    },
+    {
+      "officialId": "https://teacher.bupt.edu.cn/chengli",
+      "name": "程莉",
+      "sections": [
+        "网络技术中心"
+      ],
+      "profileUrl": "https://teacher.bupt.edu.cn/chengli",
+      "sourcePageUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm"
+    },
+    {
+      "officialId": "https://teacher.bupt.edu.cn/chenliping",
+      "name": "陈莉萍",
+      "sections": [
+        "网络技术中心"
+      ],
+      "profileUrl": "https://teacher.bupt.edu.cn/chenliping",
+      "sourcePageUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm"
+    },
+    {
+      "officialId": "https://teacher.bupt.edu.cn/wangzunliang",
+      "name": "王尊亮",
+      "sections": [
+        "网络技术中心"
+      ],
+      "profileUrl": "https://teacher.bupt.edu.cn/wangzunliang",
+      "sourcePageUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm"
+    },
+    {
+      "officialId": "https://teacher.bupt.edu.cn/liuwei3",
+      "name": "刘伟",
+      "sections": [
+        "网络技术中心"
+      ],
+      "profileUrl": "https://teacher.bupt.edu.cn/liuwei3",
+      "sourcePageUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm"
+    },
+    {
+      "officialId": "https://teacher.bupt.edu.cn/wuxin",
+      "name": "吴鑫",
+      "sections": [
+        "网络技术中心"
+      ],
+      "profileUrl": "https://teacher.bupt.edu.cn/wuxin",
+      "sourcePageUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm"
+    },
+    {
+      "officialId": "https://teacher.bupt.edu.cn/liuna1/zh_CN/index.htm",
+      "name": "刘娜",
+      "sections": [
+        "网络技术中心"
+      ],
+      "profileUrl": "https://teacher.bupt.edu.cn/liuna1/zh_CN/index.htm",
+      "sourcePageUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm"
+    },
+    {
+      "officialId": "http://scs.bupt.edu.cn/szjs1/jsyl.htm#%E5%BC%A0%E9%87%91%E9%91%AB",
+      "name": "张金鑫",
+      "sections": [
+        "网络技术中心"
+      ],
+      "profileUrl": null,
+      "sourcePageUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm"
+    },
+    {
+      "officialId": "https://teacher.bupt.edu.cn/mahuadong",
+      "name": "马华东",
+      "sections": [
+        "物联网技术中心"
+      ],
+      "profileUrl": "https://teacher.bupt.edu.cn/mahuadong",
+      "sourcePageUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm"
+    },
+    {
+      "officialId": "https://teacher.bupt.edu.cn/liuliang",
+      "name": "刘亮",
+      "sections": [
+        "物联网技术中心"
+      ],
+      "profileUrl": "https://teacher.bupt.edu.cn/liuliang",
+      "sourcePageUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm"
+    },
+    {
+      "officialId": "https://teacher.bupt.edu.cn/luohong1",
+      "name": "罗红",
+      "sections": [
+        "物联网技术中心"
+      ],
+      "profileUrl": "https://teacher.bupt.edu.cn/luohong1",
+      "sourcePageUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm"
+    },
+    {
+      "officialId": "https://teacher.bupt.edu.cn/sunyan/zh_CN/index.htm",
+      "name": "孙岩",
+      "sections": [
+        "物联网技术中心"
+      ],
+      "profileUrl": "https://teacher.bupt.edu.cn/sunyan/zh_CN/index.htm",
+      "sourcePageUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm"
+    },
+    {
+      "officialId": "https://teacher.bupt.edu.cn/liwensheng",
+      "name": "李文生",
+      "sections": [
+        "物联网技术中心"
+      ],
+      "profileUrl": "https://teacher.bupt.edu.cn/liwensheng",
+      "sourcePageUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm"
+    },
+    {
+      "officialId": "https://teacher.bupt.edu.cn/duanpengrui",
+      "name": "段鹏瑞",
+      "sections": [
+        "物联网技术中心"
+      ],
+      "profileUrl": "https://teacher.bupt.edu.cn/duanpengrui",
+      "sourcePageUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm"
+    },
+    {
+      "officialId": "https://teacher.bupt.edu.cn/zhanghaitao",
+      "name": "张海涛",
+      "sections": [
+        "物联网技术中心"
+      ],
+      "profileUrl": "https://teacher.bupt.edu.cn/zhanghaitao",
+      "sourcePageUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm"
+    },
+    {
+      "officialId": "https://teacher.bupt.edu.cn/fuhuiyuan",
+      "name": "傅慧源",
+      "sections": [
+        "物联网技术中心"
+      ],
+      "profileUrl": "https://teacher.bupt.edu.cn/fuhuiyuan",
+      "sourcePageUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm"
+    },
+    {
+      "officialId": "https://teacher.bupt.edu.cn/zhaodong",
+      "name": "赵东",
+      "sections": [
+        "物联网技术中心"
+      ],
+      "profileUrl": "https://teacher.bupt.edu.cn/zhaodong",
+      "sourcePageUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm"
+    },
+    {
+      "officialId": "https://teacher.bupt.edu.cn/zhengxiaolong",
+      "name": "郑霄龙",
+      "sections": [
+        "物联网技术中心"
+      ],
+      "profileUrl": "https://teacher.bupt.edu.cn/zhengxiaolong",
+      "sourcePageUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm"
+    },
+    {
+      "officialId": "https://teacher.bupt.edu.cn/qimengshi/zh_CN/index.htm",
+      "name": "齐梦实",
+      "sections": [
+        "物联网技术中心"
+      ],
+      "profileUrl": "https://teacher.bupt.edu.cn/qimengshi/zh_CN/index.htm",
+      "sourcePageUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm"
+    },
+    {
+      "officialId": "https://teacher.bupt.edu.cn/zhanghuanhuan1/zh_CN/index.htm",
+      "name": "张欢欢",
+      "sections": [
+        "物联网技术中心"
+      ],
+      "profileUrl": "https://teacher.bupt.edu.cn/zhanghuanhuan1/zh_CN/index.htm",
+      "sourcePageUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm"
+    },
+    {
+      "officialId": "https://teacher.bupt.edu.cn/xudongzhu1/zh_CN/index.htm",
+      "name": "徐冬竹",
+      "sections": [
+        "物联网技术中心"
+      ],
+      "profileUrl": "https://teacher.bupt.edu.cn/xudongzhu1/zh_CN/index.htm",
+      "sourcePageUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm"
+    },
+    {
+      "officialId": "https://teacher.bupt.edu.cn/xiadan12340/zh_CN/index.htm",
+      "name": "夏丹",
+      "sections": [
+        "物联网技术中心"
+      ],
+      "profileUrl": "https://teacher.bupt.edu.cn/xiadan12340/zh_CN/index.htm",
+      "sourcePageUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm"
+    },
+    {
+      "officialId": "https://teacher.bupt.edu.cn/huangxiaohong/",
+      "name": "黄小红",
+      "sections": [
+        "信息网络中心"
+      ],
+      "profileUrl": "https://teacher.bupt.edu.cn/huangxiaohong/",
+      "sourcePageUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm"
+    },
+    {
+      "officialId": "https://teacher.bupt.edu.cn/lidandan",
+      "name": "李丹丹",
+      "sections": [
+        "信息网络中心"
+      ],
+      "profileUrl": "https://teacher.bupt.edu.cn/lidandan",
+      "sourcePageUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm"
+    },
+    {
+      "officialId": "https://teacher.bupt.edu.cn/linzhaowen/zh_CN/index.htm",
+      "name": "林昭文",
+      "sections": [
+        "信息网络中心"
+      ],
+      "profileUrl": "https://teacher.bupt.edu.cn/linzhaowen/zh_CN/index.htm",
+      "sourcePageUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm"
+    },
+    {
+      "officialId": "https://teacher.bupt.edu.cn/zhangshuzhuang",
+      "name": "张树壮",
+      "sections": [
+        "信息网络中心"
+      ],
+      "profileUrl": "https://teacher.bupt.edu.cn/zhangshuzhuang",
+      "sourcePageUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm"
+    },
+    {
+      "officialId": "https://teacher.bupt.edu.cn/zhangpei",
+      "name": "张沛",
+      "sections": [
+        "信息网络中心"
+      ],
+      "profileUrl": "https://teacher.bupt.edu.cn/zhangpei",
+      "sourcePageUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm"
+    },
+    {
+      "officialId": "https://teacher.bupt.edu.cn/sunyi",
+      "name": "孙溢",
+      "sections": [
+        "信息网络中心"
+      ],
+      "profileUrl": "https://teacher.bupt.edu.cn/sunyi",
+      "sourcePageUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm"
+    },
+    {
+      "officialId": "https://teacher.bupt.edu.cn/wujun",
+      "name": "吴军",
+      "sections": [
+        "信息网络中心"
+      ],
+      "profileUrl": "https://teacher.bupt.edu.cn/wujun",
+      "sourcePageUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm"
+    },
+    {
+      "officialId": "https://teacher.bupt.edu.cn/huangjunfei",
+      "name": "黄俊飞",
+      "sections": [
+        "信息网络中心"
+      ],
+      "profileUrl": "https://teacher.bupt.edu.cn/huangjunfei",
+      "sourcePageUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm"
+    },
+    {
+      "officialId": "https://teacher.bupt.edu.cn/wubin",
+      "name": "吴斌",
+      "sections": [
+        "数据科学与服务中心"
+      ],
+      "profileUrl": "https://teacher.bupt.edu.cn/wubin",
+      "sourcePageUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm"
+    },
+    {
+      "officialId": "https://teacher.bupt.edu.cn/songmeina/zh_CN/index.htm",
+      "name": "宋美娜",
+      "sections": [
+        "数据科学与服务中心"
+      ],
+      "profileUrl": "https://teacher.bupt.edu.cn/songmeina/zh_CN/index.htm",
+      "sourcePageUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm"
+    },
+    {
+      "officialId": "https://teacher.bupt.edu.cn/shichuan",
+      "name": "石川",
+      "sections": [
+        "数据科学与服务中心"
+      ],
+      "profileUrl": "https://teacher.bupt.edu.cn/shichuan",
+      "sourcePageUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm"
+    },
+    {
+      "officialId": "https://teacher.bupt.edu.cn/zhouwenan",
+      "name": "周文安",
+      "sections": [
+        "数据科学与服务中心"
+      ],
+      "profileUrl": "https://teacher.bupt.edu.cn/zhouwenan",
+      "sourcePageUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm"
+    },
+    {
+      "officialId": "https://teacher.bupt.edu.cn/yuyanhua",
+      "name": "于艳华",
+      "sections": [
+        "数据科学与服务中心"
+      ],
+      "profileUrl": "https://teacher.bupt.edu.cn/yuyanhua",
+      "sourcePageUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm"
+    },
+    {
+      "officialId": "https://teacher.bupt.edu.cn/ouzhonghong/zh_CN/index.htm",
+      "name": "欧中洪",
+      "sections": [
+        "数据科学与服务中心"
+      ],
+      "profileUrl": "https://teacher.bupt.edu.cn/ouzhonghong/zh_CN/index.htm",
+      "sourcePageUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm"
+    },
+    {
+      "officialId": "https://teacher.bupt.edu.cn/ehaihong",
+      "name": "鄂海红",
+      "sections": [
+        "数据科学与服务中心"
+      ],
+      "profileUrl": "https://teacher.bupt.edu.cn/ehaihong",
+      "sourcePageUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm"
+    },
+    {
+      "officialId": "https://teacher.bupt.edu.cn/lijie1/zh_CN/index.htm",
+      "name": "李劼",
+      "sections": [
+        "数据科学与服务中心"
+      ],
+      "profileUrl": "https://teacher.bupt.edu.cn/lijie1/zh_CN/index.htm",
+      "sourcePageUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm"
+    },
+    {
+      "officialId": "https://teacher.bupt.edu.cn/xiaoding",
+      "name": "肖丁",
+      "sections": [
+        "数据科学与服务中心"
+      ],
+      "profileUrl": "https://teacher.bupt.edu.cn/xiaoding",
+      "sourcePageUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm"
+    },
+    {
+      "officialId": "https://teacher.bupt.edu.cn/wangxiaohui",
+      "name": "王晓晖",
+      "sections": [
+        "数据科学与服务中心"
+      ],
+      "profileUrl": "https://teacher.bupt.edu.cn/wangxiaohui",
+      "sourcePageUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm"
+    },
+    {
+      "officialId": "https://teacher.bupt.edu.cn/yuanyanni",
+      "name": "袁燕妮",
+      "sections": [
+        "数据科学与服务中心"
+      ],
+      "profileUrl": "https://teacher.bupt.edu.cn/yuanyanni",
+      "sourcePageUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm"
+    },
+    {
+      "officialId": "https://teacher.bupt.edu.cn/pirenjie",
+      "name": "皮人杰",
+      "sections": [
+        "数据科学与服务中心"
+      ],
+      "profileUrl": "https://teacher.bupt.edu.cn/pirenjie",
+      "sourcePageUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm"
+    },
+    {
+      "officialId": "https://teacher.bupt.edu.cn/zhangguangwei",
+      "name": "张光卫",
+      "sections": [
+        "数据科学与服务中心"
+      ],
+      "profileUrl": "https://teacher.bupt.edu.cn/zhangguangwei",
+      "sourcePageUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm"
+    },
+    {
+      "officialId": "https://teacher.bupt.edu.cn/yangcheng",
+      "name": "杨成",
+      "sections": [
+        "数据科学与服务中心"
+      ],
+      "profileUrl": "https://teacher.bupt.edu.cn/yangcheng",
+      "sourcePageUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm"
+    },
+    {
+      "officialId": "https://scs.bupt.edu.cn/info/1090/1953.htm",
+      "name": "白婷",
+      "sections": [
+        "数据科学与服务中心"
+      ],
+      "profileUrl": "https://scs.bupt.edu.cn/info/1090/1953.htm",
+      "sourcePageUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm"
+    },
+    {
+      "officialId": "https://teacher.bupt.edu.cn/zhuyifan/zh_CN/index.htm",
+      "name": "朱一凡",
+      "sections": [
+        "数据科学与服务中心"
+      ],
+      "profileUrl": "https://teacher.bupt.edu.cn/zhuyifan/zh_CN/index.htm",
+      "sourcePageUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm"
+    },
+    {
+      "officialId": "https://teacher.bupt.edu.cn/susen",
+      "name": "苏森",
+      "sections": [
+        "交换与智能控制研究中心"
+      ],
+      "profileUrl": "https://teacher.bupt.edu.cn/susen",
+      "sourcePageUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm"
+    },
+    {
+      "officialId": "https://teacher.bupt.edu.cn/yandanfeng",
+      "name": "闫丹凤",
+      "sections": [
+        "交换与智能控制研究中心"
+      ],
+      "profileUrl": "https://teacher.bupt.edu.cn/yandanfeng",
+      "sourcePageUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm"
+    },
+    {
+      "officialId": "https://teacher.bupt.edu.cn/lijinglin",
+      "name": "李静林",
+      "sections": [
+        "交换与智能控制研究中心"
+      ],
+      "profileUrl": "https://teacher.bupt.edu.cn/lijinglin",
+      "sourcePageUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm"
+    },
+    {
+      "officialId": "https://teacher.bupt.edu.cn/shuangkai",
+      "name": "双锴",
+      "sections": [
+        "交换与智能控制研究中心"
+      ],
+      "profileUrl": "https://teacher.bupt.edu.cn/shuangkai",
+      "sourcePageUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm"
+    },
+    {
+      "officialId": "https://teacher.bupt.edu.cn/wangshangguang",
+      "name": "王尚广",
+      "sections": [
+        "交换与智能控制研究中心"
+      ],
+      "profileUrl": "https://teacher.bupt.edu.cn/wangshangguang",
+      "sourcePageUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm"
+    },
+    {
+      "officialId": "https://teacher.bupt.edu.cn/sunqibo/",
+      "name": "孙其博",
+      "sections": [
+        "交换与智能控制研究中心"
+      ],
+      "profileUrl": "https://teacher.bupt.edu.cn/sunqibo/",
+      "sourcePageUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm"
+    },
+    {
+      "officialId": "https://teacher.bupt.edu.cn/xupeng",
+      "name": "徐鹏",
+      "sections": [
+        "交换与智能控制研究中心"
+      ],
+      "profileUrl": "https://teacher.bupt.edu.cn/xupeng",
+      "sourcePageUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm"
+    },
+    {
+      "officialId": "https://teacher.bupt.edu.cn/zhaoyao",
+      "name": "赵耀",
+      "sections": [
+        "交换与智能控制研究中心"
+      ],
+      "profileUrl": "https://teacher.bupt.edu.cn/zhaoyao",
+      "sourcePageUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm"
+    },
+    {
+      "officialId": "https://teacher.bupt.edu.cn/wangyulong1/zh_CN/index.htm",
+      "name": "王玉龙",
+      "sections": [
+        "交换与智能控制研究中心"
+      ],
+      "profileUrl": "https://teacher.bupt.edu.cn/wangyulong1/zh_CN/index.htm",
+      "sourcePageUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm"
+    },
+    {
+      "officialId": "https://teacher.bupt.edu.cn/linrongheng",
+      "name": "林荣恒",
+      "sections": [
+        "交换与智能控制研究中心"
+      ],
+      "profileUrl": "https://teacher.bupt.edu.cn/linrongheng",
+      "sourcePageUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm"
+    },
+    {
+      "officialId": "https://teacher.bupt.edu.cn/chengxiang",
+      "name": "程祥",
+      "sections": [
+        "交换与智能控制研究中心"
+      ],
+      "profileUrl": "https://teacher.bupt.edu.cn/chengxiang",
+      "sourcePageUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm"
+    },
+    {
+      "officialId": "https://teacher.bupt.edu.cn/zhangzhongbao/zh_CN/index.htm",
+      "name": "张忠宝",
+      "sections": [
+        "交换与智能控制研究中心"
+      ],
+      "profileUrl": "https://teacher.bupt.edu.cn/zhangzhongbao/zh_CN/index.htm",
+      "sourcePageUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm"
+    },
+    {
+      "officialId": "https://teacher.bupt.edu.cn/zhouao",
+      "name": "周傲",
+      "sections": [
+        "交换与智能控制研究中心"
+      ],
+      "profileUrl": "https://teacher.bupt.edu.cn/zhouao",
+      "sourcePageUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm"
+    },
+    {
+      "officialId": "https://teacher.bupt.edu.cn/xumengwei",
+      "name": "徐梦炜",
+      "sections": [
+        "交换与智能控制研究中心"
+      ],
+      "profileUrl": "https://teacher.bupt.edu.cn/xumengwei",
+      "sourcePageUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm"
+    },
+    {
+      "officialId": "https://teacher.bupt.edu.cn/zhanghaibin",
+      "name": "张海滨",
+      "sections": [
+        "交换与智能控制研究中心"
+      ],
+      "profileUrl": "https://teacher.bupt.edu.cn/zhanghaibin",
+      "sourcePageUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm"
+    },
+    {
+      "officialId": "https://teacher.bupt.edu.cn/yuanquan",
+      "name": "袁泉",
+      "sections": [
+        "交换与智能控制研究中心"
+      ],
+      "profileUrl": "https://teacher.bupt.edu.cn/yuanquan",
+      "sourcePageUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm"
+    },
+    {
+      "officialId": "https://teacher.bupt.edu.cn/maxiao1",
+      "name": "马骁",
+      "sections": [
+        "交换与智能控制研究中心"
+      ],
+      "profileUrl": "https://teacher.bupt.edu.cn/maxiao1",
+      "sourcePageUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm"
+    },
+    {
+      "officialId": "https://teacher.bupt.edu.cn/caiyuanqiang",
+      "name": "蔡院强",
+      "sections": [
+        "交换与智能控制研究中心"
+      ],
+      "profileUrl": "https://teacher.bupt.edu.cn/caiyuanqiang",
+      "sourcePageUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm"
+    },
+    {
+      "officialId": "https://teacher.bupt.edu.cn/luoguiyang1/zh_CN/index.htm",
+      "name": "罗贵阳",
+      "sections": [
+        "交换与智能控制研究中心"
+      ],
+      "profileUrl": "https://teacher.bupt.edu.cn/luoguiyang1/zh_CN/index.htm",
+      "sourcePageUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm"
+    },
+    {
+      "officialId": "https://teacher.bupt.edu.cn/zhangyiran/zh_CN/index.htm",
+      "name": "张乙然",
+      "sections": [
+        "交换与智能控制研究中心"
+      ],
+      "profileUrl": "https://teacher.bupt.edu.cn/zhangyiran/zh_CN/index.htm",
+      "sourcePageUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm"
+    },
+    {
+      "officialId": "https://teacher.bupt.edu.cn/qitao2/zh_CN/index.htm",
+      "name": "齐涛",
+      "sections": [
+        "交换与智能控制研究中心"
+      ],
+      "profileUrl": "https://teacher.bupt.edu.cn/qitao2/zh_CN/index.htm",
+      "sourcePageUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm"
+    },
+    {
+      "officialId": "https://teacher.bupt.edu.cn/liqing4/zh_CN/index.htm",
+      "name": "李晴",
+      "sections": [
+        "交换与智能控制研究中心"
+      ],
+      "profileUrl": "https://teacher.bupt.edu.cn/liqing4/zh_CN/index.htm",
+      "sourcePageUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm"
+    },
+    {
+      "officialId": "https://teacher.bupt.edu.cn/liaoxia/zh_CN/index.htm",
+      "name": "廖霞",
+      "sections": [
+        "交换与智能控制研究中心"
+      ],
+      "profileUrl": "https://teacher.bupt.edu.cn/liaoxia/zh_CN/index.htm",
+      "sourcePageUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm"
+    },
+    {
+      "officialId": "https://teacher.bupt.edu.cn/liyuanzhe/zh_CN/index.htm",
+      "name": "李元哲",
+      "sections": [
+        "交换与智能控制研究中心"
+      ],
+      "profileUrl": "https://teacher.bupt.edu.cn/liyuanzhe/zh_CN/index.htm",
+      "sourcePageUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm"
+    },
+    {
+      "officialId": "https://teacher.bupt.edu.cn/xudaliang/zh_CN/index.htm",
+      "name": "徐大亮",
+      "sections": [
+        "交换与智能控制研究中心"
+      ],
+      "profileUrl": "https://teacher.bupt.edu.cn/xudaliang/zh_CN/index.htm",
+      "sourcePageUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm"
+    },
+    {
+      "officialId": "https://teacher.bupt.edu.cn/sunli1/zh_CN/index.htm",
+      "name": "孙笠",
+      "sections": [
+        "交换与智能控制研究中心"
+      ],
+      "profileUrl": "https://teacher.bupt.edu.cn/sunli1/zh_CN/index.htm",
+      "sourcePageUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm"
+    },
+    {
+      "officialId": "https://teacher.bupt.edu.cn/huxiameng/zh_CN/index.htm",
+      "name": "胡夏蒙",
+      "sections": [
+        "交换与智能控制研究中心"
+      ],
+      "profileUrl": "https://teacher.bupt.edu.cn/huxiameng/zh_CN/index.htm",
+      "sourcePageUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm"
+    },
+    {
+      "officialId": "https://teacher.bupt.edu.cn/cqxu/zh_CN/index.htm",
+      "name": "许长桥",
+      "sections": [
+        "网络体系结构研究中心"
+      ],
+      "profileUrl": "https://teacher.bupt.edu.cn/cqxu/zh_CN/index.htm",
+      "sourcePageUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm"
+    },
+    {
+      "officialId": "https://teacher.bupt.edu.cn/xiedongliang",
+      "name": "谢东亮",
+      "sections": [
+        "网络体系结构研究中心"
+      ],
+      "profileUrl": "https://teacher.bupt.edu.cn/xiedongliang",
+      "sourcePageUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm"
+    },
+    {
+      "officialId": "https://teacher.bupt.edu.cn/gongxiangyang",
+      "name": "龚向阳",
+      "sections": [
+        "网络体系结构研究中心"
+      ],
+      "profileUrl": "https://teacher.bupt.edu.cn/gongxiangyang",
+      "sourcePageUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm"
+    },
+    {
+      "officialId": "https://teacher.bupt.edu.cn/hubo",
+      "name": "胡博",
+      "sections": [
+        "网络体系结构研究中心"
+      ],
+      "profileUrl": "https://teacher.bupt.edu.cn/hubo",
+      "sourcePageUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm"
+    },
+    {
+      "officialId": "https://teacher.bupt.edu.cn/lumeilian",
+      "name": "卢美莲",
+      "sections": [
+        "网络体系结构研究中心"
+      ],
+      "profileUrl": "https://teacher.bupt.edu.cn/lumeilian",
+      "sourcePageUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm"
+    },
+    {
+      "officialId": "https://teacher.bupt.edu.cn/guanjianfeng",
+      "name": "关建峰",
+      "sections": [
+        "网络体系结构研究中心"
+      ],
+      "profileUrl": "https://teacher.bupt.edu.cn/guanjianfeng",
+      "sourcePageUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm"
+    },
+    {
+      "officialId": "https://teacher.bupt.edu.cn/xiongyongping",
+      "name": "熊永平",
+      "sections": [
+        "网络体系结构研究中心"
+      ],
+      "profileUrl": "https://teacher.bupt.edu.cn/xiongyongping",
+      "sourcePageUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm"
+    },
+    {
+      "officialId": "https://teacher.bupt.edu.cn/tianye",
+      "name": "田野",
+      "sections": [
+        "网络体系结构研究中心"
+      ],
+      "profileUrl": "https://teacher.bupt.edu.cn/tianye",
+      "sourcePageUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm"
+    },
+    {
+      "officialId": "https://teacher.bupt.edu.cn/lixin",
+      "name": "李昕",
+      "sections": [
+        "网络体系结构研究中心"
+      ],
+      "profileUrl": "https://teacher.bupt.edu.cn/lixin",
+      "sourcePageUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm"
+    },
+    {
+      "officialId": "https://teacher.bupt.edu.cn/quexirong",
+      "name": "阙喜戎",
+      "sections": [
+        "网络体系结构研究中心"
+      ],
+      "profileUrl": "https://teacher.bupt.edu.cn/quexirong",
+      "sourcePageUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm"
+    },
+    {
+      "officialId": "https://teacher.bupt.edu.cn/wanghongbo",
+      "name": "王洪波",
+      "sections": [
+        "网络体系结构研究中心"
+      ],
+      "profileUrl": "https://teacher.bupt.edu.cn/wanghongbo",
+      "sourcePageUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm"
+    },
+    {
+      "officialId": "https://teacher.bupt.edu.cn/zhanglei1",
+      "name": "张雷",
+      "sections": [
+        "网络体系结构研究中心"
+      ],
+      "profileUrl": "https://teacher.bupt.edu.cn/zhanglei1",
+      "sourcePageUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm"
+    },
+    {
+      "officialId": "https://teacher.bupt.edu.cn/shiyan",
+      "name": "时岩",
+      "sections": [
+        "网络体系结构研究中心"
+      ],
+      "profileUrl": "https://teacher.bupt.edu.cn/shiyan",
+      "sourcePageUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm"
+    },
+    {
+      "officialId": "https://teacher.bupt.edu.cn/yangshujie1",
+      "name": "杨树杰",
+      "sections": [
+        "网络体系结构研究中心"
+      ],
+      "profileUrl": "https://teacher.bupt.edu.cn/yangshujie1",
+      "sourcePageUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm"
+    },
+    {
+      "officialId": "https://teacher.bupt.edu.cn/zbo/zh_CN/index.htm",
+      "name": "张波",
+      "sections": [
+        "网络体系结构研究中心"
+      ],
+      "profileUrl": "https://teacher.bupt.edu.cn/zbo/zh_CN/index.htm",
+      "sourcePageUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm"
+    },
+    {
+      "officialId": "https://teacher.bupt.edu.cn/wangmu/zh_CN/index.htm",
+      "name": "王目",
+      "sections": [
+        "网络体系结构研究中心"
+      ],
+      "profileUrl": "https://teacher.bupt.edu.cn/wangmu/zh_CN/index.htm",
+      "sourcePageUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm"
+    },
+    {
+      "officialId": "https://teacher.bupt.edu.cn/wangwufan/zh_CN/index.htm",
+      "name": "王吴凡",
+      "sections": [
+        "网络体系结构研究中心"
+      ],
+      "profileUrl": "https://teacher.bupt.edu.cn/wangwufan/zh_CN/index.htm",
+      "sourcePageUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm"
+    },
+    {
+      "officialId": "https://teacher.bupt.edu.cn/wangziyi/zh_CN/index.htm",
+      "name": "王子逸",
+      "sections": [
+        "网络体系结构研究中心"
+      ],
+      "profileUrl": "https://teacher.bupt.edu.cn/wangziyi/zh_CN/index.htm",
+      "sourcePageUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm"
+    },
+    {
+      "officialId": "https://teacher.bupt.edu.cn/xiaohan1/zh_CN/index.htm",
+      "name": "肖寒",
+      "sections": [
+        "网络体系结构研究中心"
+      ],
+      "profileUrl": "https://teacher.bupt.edu.cn/xiaohan1/zh_CN/index.htm",
+      "sourcePageUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm"
+    },
+    {
+      "officialId": "https://teacher.bupt.edu.cn/zhouzan1/zh_CN/index.htm",
+      "name": "周赞",
+      "sections": [
+        "网络体系结构研究中心"
+      ],
+      "profileUrl": "https://teacher.bupt.edu.cn/zhouzan1/zh_CN/index.htm",
+      "sourcePageUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm"
+    },
+    {
+      "officialId": "https://teacher.bupt.edu.cn/chengbo",
+      "name": "程渤",
+      "sections": [
+        "网络服务基础研究中心"
+      ],
+      "profileUrl": "https://teacher.bupt.edu.cn/chengbo",
+      "sourcePageUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm"
+    },
+    {
+      "officialId": "https://teacher.bupt.edu.cn/qiaoxiuquan",
+      "name": "乔秀全",
+      "sections": [
+        "网络服务基础研究中心"
+      ],
+      "profileUrl": "https://teacher.bupt.edu.cn/qiaoxiuquan",
+      "sourcePageUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm"
+    },
+    {
+      "officialId": "https://scs.bupt.edu.cn/info/1293/2711.htm",
+      "name": "商彦磊",
+      "sections": [
+        "网络服务基础研究中心"
+      ],
+      "profileUrl": "https://scs.bupt.edu.cn/info/1293/2711.htm",
+      "sourcePageUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm"
+    },
+    {
+      "officialId": "https://teacher.bupt.edu.cn/zhangyang",
+      "name": "章洋",
+      "sections": [
+        "网络服务基础研究中心"
+      ],
+      "profileUrl": "https://teacher.bupt.edu.cn/zhangyang",
+      "sourcePageUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm"
+    },
+    {
+      "officialId": "https://teacher.bupt.edu.cn/jindahai",
+      "name": "金大海",
+      "sections": [
+        "网络服务基础研究中心"
+      ],
+      "profileUrl": "https://teacher.bupt.edu.cn/jindahai",
+      "sourcePageUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm"
+    },
+    {
+      "officialId": "https://teacher.bupt.edu.cn/wubudan",
+      "name": "吴步丹",
+      "sections": [
+        "网络服务基础研究中心"
+      ],
+      "profileUrl": "https://teacher.bupt.edu.cn/wubudan",
+      "sourcePageUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm"
+    },
+    {
+      "officialId": "https://teacher.bupt.edu.cn/liuchuanchang",
+      "name": "刘传昌",
+      "sections": [
+        "网络服务基础研究中心"
+      ],
+      "profileUrl": "https://teacher.bupt.edu.cn/liuchuanchang",
+      "sourcePageUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm"
+    },
+    {
+      "officialId": "https://teacher.bupt.edu.cn/wangyawen",
+      "name": "王雅文",
+      "sections": [
+        "网络服务基础研究中心"
+      ],
+      "profileUrl": "https://teacher.bupt.edu.cn/wangyawen",
+      "sourcePageUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm"
+    },
+    {
+      "officialId": "https://teacher.bupt.edu.cn/zhaoshuai",
+      "name": "赵帅",
+      "sections": [
+        "网络服务基础研究中心"
+      ],
+      "profileUrl": "https://teacher.bupt.edu.cn/zhaoshuai",
+      "sourcePageUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm"
+    },
+    {
+      "officialId": "https://teacher.bupt.edu.cn/chenyong",
+      "name": "陈勇",
+      "sections": [
+        "网络服务基础研究中心"
+      ],
+      "profileUrl": "https://teacher.bupt.edu.cn/chenyong",
+      "sourcePageUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm"
+    },
+    {
+      "officialId": "https://teacher.bupt.edu.cn/lishengjie/zh_CN/index.htm",
+      "name": "李胜杰",
+      "sections": [
+        "网络服务基础研究中心"
+      ],
+      "profileUrl": "https://teacher.bupt.edu.cn/lishengjie/zh_CN/index.htm",
+      "sourcePageUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm"
+    },
+    {
+      "officialId": "https://teacher.bupt.edu.cn/huangyakun1/zh_CN/index.htm",
+      "name": "黄亚坤",
+      "sections": [
+        "网络服务基础研究中心"
+      ],
+      "profileUrl": "https://teacher.bupt.edu.cn/huangyakun1/zh_CN/index.htm",
+      "sourcePageUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm"
+    },
+    {
+      "officialId": "https://teacher.bupt.edu.cn/mengluoming",
+      "name": "孟洛明",
+      "sections": [
+        "网络管理研究中心"
+      ],
+      "profileUrl": "https://teacher.bupt.edu.cn/mengluoming",
+      "sourcePageUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm"
+    },
+    {
+      "officialId": "https://teacher.bupt.edu.cn/qifeng",
+      "name": "亓峰",
+      "sections": [
+        "网络管理研究中心"
+      ],
+      "profileUrl": "https://teacher.bupt.edu.cn/qifeng",
+      "sourcePageUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm"
+    },
+    {
+      "officialId": "https://teacher.bupt.edu.cn/qiuxuesong",
+      "name": "邱雪松",
+      "sections": [
+        "网络管理研究中心"
+      ],
+      "profileUrl": "https://teacher.bupt.edu.cn/qiuxuesong",
+      "sourcePageUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm"
+    },
+    {
+      "officialId": "https://teacher.bupt.edu.cn/liwenjing",
+      "name": "李文璟",
+      "sections": [
+        "网络管理研究中心"
+      ],
+      "profileUrl": "https://teacher.bupt.edu.cn/liwenjing",
+      "sourcePageUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm"
+    },
+    {
+      "officialId": "https://teacher.bupt.edu.cn/quzhaowei/zh_CN/index.htm",
+      "name": "曲昭伟",
+      "sections": [
+        "网络管理研究中心"
+      ],
+      "profileUrl": "https://teacher.bupt.edu.cn/quzhaowei/zh_CN/index.htm",
+      "sourcePageUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm"
+    },
+    {
+      "officialId": "https://teacher.bupt.edu.cn/gaozhipeng",
+      "name": "高志鹏",
+      "sections": [
+        "网络管理研究中心"
+      ],
+      "profileUrl": "https://teacher.bupt.edu.cn/gaozhipeng",
+      "sourcePageUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm"
+    },
+    {
+      "officialId": "https://teacher.bupt.edu.cn/chenxingyu/zh_CN/index.htm",
+      "name": "陈兴渝",
+      "sections": [
+        "网络管理研究中心"
+      ],
+      "profileUrl": "https://teacher.bupt.edu.cn/chenxingyu/zh_CN/index.htm",
+      "sourcePageUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm"
+    },
+    {
+      "officialId": "https://teacher.bupt.edu.cn/xiongao",
+      "name": "熊翱",
+      "sections": [
+        "网络管理研究中心"
+      ],
+      "profileUrl": "https://teacher.bupt.edu.cn/xiongao",
+      "sourcePageUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm"
+    },
+    {
+      "officialId": "https://teacher.bupt.edu.cn/ruilanlan",
+      "name": "芮兰兰",
+      "sections": [
+        "网络管理研究中心"
+      ],
+      "profileUrl": "https://teacher.bupt.edu.cn/ruilanlan",
+      "sourcePageUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm"
+    },
+    {
+      "officialId": "https://teacher.bupt.edu.cn/wangying3",
+      "name": "王颖",
+      "sections": [
+        "网络管理研究中心"
+      ],
+      "profileUrl": "https://teacher.bupt.edu.cn/wangying3",
+      "sourcePageUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm"
+    },
+    {
+      "officialId": "https://teacher.bupt.edu.cn/yangyang/zh_CN/index.htm",
+      "name": "杨杨",
+      "sections": [
+        "网络管理研究中心"
+      ],
+      "profileUrl": "https://teacher.bupt.edu.cn/yangyang/zh_CN/index.htm",
+      "sourcePageUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm"
+    },
+    {
+      "officialId": "https://teacher.bupt.edu.cn/wangzhili/zh_CN/index.htm",
+      "name": "王智立",
+      "sections": [
+        "网络管理研究中心"
+      ],
+      "profileUrl": "https://teacher.bupt.edu.cn/wangzhili/zh_CN/index.htm",
+      "sourcePageUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm"
+    },
+    {
+      "officialId": "https://teacher.bupt.edu.cn/liuhuiyong/zh_CN/index.htm",
+      "name": "刘会永",
+      "sections": [
+        "网络管理研究中心"
+      ],
+      "profileUrl": "https://teacher.bupt.edu.cn/liuhuiyong/zh_CN/index.htm",
+      "sourcePageUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm"
+    },
+    {
+      "officialId": "https://teacher.bupt.edu.cn/yupeng",
+      "name": "喻鹏",
+      "sections": [
+        "网络管理研究中心"
+      ],
+      "profileUrl": "https://teacher.bupt.edu.cn/yupeng",
+      "sourcePageUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm"
+    },
+    {
+      "officialId": "https://teacher.bupt.edu.cn/guoshaoyong",
+      "name": "郭少勇",
+      "sections": [
+        "网络管理研究中心"
+      ],
+      "profileUrl": "https://teacher.bupt.edu.cn/guoshaoyong",
+      "sourcePageUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm"
+    },
+    {
+      "officialId": "https://teacher.bupt.edu.cn/fenglei",
+      "name": "丰雷",
+      "sections": [
+        "网络管理研究中心"
+      ],
+      "profileUrl": "https://teacher.bupt.edu.cn/fenglei",
+      "sourcePageUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm"
+    },
+    {
+      "officialId": "https://teacher.bupt.edu.cn/shaosujie",
+      "name": "邵苏杰",
+      "sections": [
+        "网络管理研究中心"
+      ],
+      "profileUrl": "https://teacher.bupt.edu.cn/shaosujie",
+      "sourcePageUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm"
+    },
+    {
+      "officialId": "https://teacher.bupt.edu.cn/xusiya1",
+      "name": "徐思雅",
+      "sections": [
+        "网络管理研究中心"
+      ],
+      "profileUrl": "https://teacher.bupt.edu.cn/xusiya1",
+      "sourcePageUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm"
+    },
+    {
+      "officialId": "https://teacher.bupt.edu.cn/fqzhou",
+      "name": "周凡钦",
+      "sections": [
+        "网络管理研究中心"
+      ],
+      "profileUrl": "https://teacher.bupt.edu.cn/fqzhou",
+      "sourcePageUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm"
+    },
+    {
+      "officialId": "https://teacher.bupt.edu.cn/liaojianxin",
+      "name": "廖建新",
+      "sections": [
+        "网络智能研究中心"
+      ],
+      "profileUrl": "https://teacher.bupt.edu.cn/liaojianxin",
+      "sourcePageUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm"
+    },
+    {
+      "officialId": "https://teacher.bupt.edu.cn/wangjing",
+      "name": "王晶",
+      "sections": [
+        "网络智能研究中心"
+      ],
+      "profileUrl": "https://teacher.bupt.edu.cn/wangjing",
+      "sourcePageUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm"
+    },
+    {
+      "officialId": "https://teacher.bupt.edu.cn/wangchun/zh_CN/index.htm",
+      "name": "王纯",
+      "sections": [
+        "网络智能研究中心"
+      ],
+      "profileUrl": "https://teacher.bupt.edu.cn/wangchun/zh_CN/index.htm",
+      "sourcePageUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm"
+    },
+    {
+      "officialId": "https://teacher.bupt.edu.cn/liwei/zh_CN/index.htm",
+      "name": "李炜",
+      "sections": [
+        "网络智能研究中心"
+      ],
+      "profileUrl": "https://teacher.bupt.edu.cn/liwei/zh_CN/index.htm",
+      "sourcePageUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm"
+    },
+    {
+      "officialId": "https://teacher.bupt.edu.cn/wangjingyu",
+      "name": "王敬宇",
+      "sections": [
+        "网络智能研究中心"
+      ],
+      "profileUrl": "https://teacher.bupt.edu.cn/wangjingyu",
+      "sourcePageUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm"
+    },
+    {
+      "officialId": "https://teacher.bupt.edu.cn/wangyulong/zh_CN/index.htm",
+      "name": "王玉龙",
+      "sections": [
+        "网络智能研究中心"
+      ],
+      "profileUrl": "https://teacher.bupt.edu.cn/wangyulong/zh_CN/index.htm",
+      "sourcePageUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm"
+    },
+    {
+      "officialId": "https://teacher.bupt.edu.cn/qiqi",
+      "name": "戚琦",
+      "sections": [
+        "网络智能研究中心"
+      ],
+      "profileUrl": "https://teacher.bupt.edu.cn/qiqi",
+      "sourcePageUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm"
+    },
+    {
+      "officialId": "https://teacher.bupt.edu.cn/zhanglei2/zh_CN/index.htm",
+      "name": "张磊",
+      "sections": [
+        "网络智能研究中心"
+      ],
+      "profileUrl": "https://teacher.bupt.edu.cn/zhanglei2/zh_CN/index.htm",
+      "sourcePageUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm"
+    },
+    {
+      "officialId": "https://teacher.bupt.edu.cn/zhanglejian",
+      "name": "张乐剑",
+      "sections": [
+        "网络智能研究中心"
+      ],
+      "profileUrl": "https://teacher.bupt.edu.cn/zhanglejian",
+      "sourcePageUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm"
+    },
+    {
+      "officialId": "https://teacher.bupt.edu.cn/xutong",
+      "name": "徐童",
+      "sections": [
+        "网络智能研究中心"
+      ],
+      "profileUrl": "https://teacher.bupt.edu.cn/xutong",
+      "sourcePageUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm"
+    },
+    {
+      "officialId": "https://teacher.bupt.edu.cn/shenqiwei/zh_CN/index.htm",
+      "name": "沈奇威",
+      "sections": [
+        "网络智能研究中心"
+      ],
+      "profileUrl": "https://teacher.bupt.edu.cn/shenqiwei/zh_CN/index.htm",
+      "sourcePageUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm"
+    },
+    {
+      "officialId": "https://teacher.bupt.edu.cn/sunhaifeng",
+      "name": "孙海峰",
+      "sections": [
+        "网络智能研究中心"
+      ],
+      "profileUrl": "https://teacher.bupt.edu.cn/sunhaifeng",
+      "sourcePageUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm"
+    },
+    {
+      "officialId": "https://teacher.bupt.edu.cn/zhangcheng/zh_CN/index.htm",
+      "name": "张成",
+      "sections": [
+        "网络智能研究中心"
+      ],
+      "profileUrl": "https://teacher.bupt.edu.cn/zhangcheng/zh_CN/index.htm",
+      "sourcePageUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm"
+    },
+    {
+      "officialId": "https://teacher.bupt.edu.cn/fuxiaoyuan1",
+      "name": "付霄元",
+      "sections": [
+        "网络智能研究中心"
+      ],
+      "profileUrl": "https://teacher.bupt.edu.cn/fuxiaoyuan1",
+      "sourcePageUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm"
+    },
+    {
+      "officialId": "https://teacher.bupt.edu.cn/zhuangzirui/zh_CN/index.htm",
+      "name": "庄子睿",
+      "sections": [
+        "网络智能研究中心"
+      ],
+      "profileUrl": "https://teacher.bupt.edu.cn/zhuangzirui/zh_CN/index.htm",
+      "sourcePageUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm"
+    },
+    {
+      "officialId": "https://teacher.bupt.edu.cn/hebo1/zh_CN/index.htm",
+      "name": "何波",
+      "sections": [
+        "网络智能研究中心"
+      ],
+      "profileUrl": "https://teacher.bupt.edu.cn/hebo1/zh_CN/index.htm",
+      "sourcePageUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm"
+    },
+    {
+      "officialId": "https://teacher.bupt.edu.cn/renpengfei1/zh_CN/index.htm",
+      "name": "任鹏飞",
+      "sections": [
+        "网络智能研究中心"
+      ],
+      "profileUrl": "https://teacher.bupt.edu.cn/renpengfei1/zh_CN/index.htm",
+      "sourcePageUrl": "http://scs.bupt.edu.cn/szjs1/jsyl.htm"
+    }
+  ]
+}

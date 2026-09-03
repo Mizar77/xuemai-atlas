@@ -1,0 +1,54 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-03",
+  "module": "app/candidate-priority-p0-asia-batch-8-2026.ts",
+  "candidateCount": 9,
+  "readyCount": 9,
+  "failedCount": 0,
+  "relationshipCount": 9,
+  "placementCount": 0,
+  "groupMemberCount": 0,
+  "portraitCount": 9,
+  "rosterPromotionCount": 9,
+  "qualityGate": {
+    "currentIndependentPi": true,
+    "minimumDistinctSources": 2,
+    "minimumSourcedFacts": 3,
+    "maximumSourcedFacts": 5,
+    "educationFactRequired": true,
+    "portraitDimensions": "512x512",
+    "networkEvidenceRequired": true,
+    "relationshipEndpointsRequired": true,
+    "manualPortraitQa": true
+  },
+  "ready": [
+    "Mainland China:清华大学:刘菁菁",
+    "Mainland China:清华大学:周浩",
+    "Mainland China:清华大学:yiqunliu",
+    "Mainland China:清华大学:qiangzhou",
+    "Mainland China:清华大学:zhengfengji",
+    "Mainland China:北京大学:张昕",
+    "Mainland China:北京大学:陈宝权",
+    "Hong Kong:香港中文大学:hanruizhang",
+    "Singapore:National University of Singapore:wangbohan"
+  ],
+  "relationshipSummary": {
+    "publication": 8,
+    "postdoc_mentor": 1,
+    "directionNotes": "论文边仅表示官方主页列出的具体共同论文，不外推为长期合作；博士后师承边从导师 Wojciech Matusik 指向 Bohan Wang。"
+  },
+  "remainingAsiaP0Disposition": {
+    "total": 1190,
+    "readyInThisBatch": 9,
+    "duplicate": 0,
+    "missingPortrait": 703,
+    "missingRelationship": 478,
+    "unresolvedAfterThisBatch": 1181
+  },
+  "notes": [
+    "All nine portraits came from official university profile or roster pages, were square-cropped/resized to 512x512, and were manually inspected for identity and framing.",
+    "Baoquan Chen was retained: the Peking University CFCS official biography explicitly supplies his Tsinghua master's and SUNY Stony Brook PhD training, closing the education gate.",
+    "All nine new IDs were checked against the integrated atlas and all relationship endpoints resolve against the atlas plus this module.",
+    "The latest queue snapshot already excludes earlier integrated Asia batches; therefore its total is 1,190 rather than the prior 1,210."
+  ]
+}

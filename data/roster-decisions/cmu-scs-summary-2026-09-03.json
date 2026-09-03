@@ -1,0 +1,1571 @@
+{
+  "generatedAt": "2026-09-03",
+  "unitId": "cmu-scs",
+  "officialRosterCount": 507,
+  "decisionCount": 507,
+  "counts": {
+    "excluded_historical": 26,
+    "excluded_non_pi": 204,
+    "include_new_pi": 175,
+    "included_existing": 18,
+    "pending_profile_verification": 84
+  },
+  "includeNewPi": [
+    {
+      "officialId": "yuvraja",
+      "name": "Yuvraj Agarwal",
+      "title": "Professor",
+      "officialSection": "ECE: Electrical & Computer Engineering; Human-Computer Interaction Institute; Software and Societal Systems Department"
+    },
+    {
+      "officialId": "swatanab",
+      "name": "Shinji Watanabe",
+      "title": "Associate Professor with Tenure",
+      "officialSection": "Language Technologies Institute; ECE: Electrical & Computer Engineering"
+    },
+    {
+      "officialId": "byronyu",
+      "name": "Byron Yu",
+      "title": "Professor, ECE-BME",
+      "officialSection": "ECE: Electrical & Computer Engineering; Biomedical Engineering; Robotics Institute"
+    },
+    {
+      "officialId": "mxu1",
+      "name": "Min Xu",
+      "title": "Associate Professor",
+      "officialSection": "Ray and Stephanie Lane Computational Biology Department; Robotics Institute; ECE: Electrical & Computer Engineering"
+    },
+    {
+      "officialId": "dst",
+      "name": "David S Touretzky",
+      "title": "Research Professor",
+      "officialSection": "Computer Science Department; Robotics Institute"
+    },
+    {
+      "officialId": "aperer1",
+      "name": "Adam Perer",
+      "title": "Associate Professor",
+      "officialSection": "Human-Computer Interaction Institute"
+    },
+    {
+      "officialId": "jbigham",
+      "name": "Jeffrey Bigham",
+      "title": "Associate Professor",
+      "officialSection": "Human-Computer Interaction Institute; Language Technologies Institute"
+    },
+    {
+      "officialId": "junyanz",
+      "name": "Jun-Yan Zhu",
+      "title": "Associate Professor",
+      "officialSection": "Robotics Institute"
+    },
+    {
+      "officialId": "mlikhach",
+      "name": "Maxim Likhachev",
+      "title": "Professor",
+      "officialSection": "Robotics Institute"
+    },
+    {
+      "officialId": "dlindlba",
+      "name": "David Lindlbauer",
+      "title": "Assistant Professor",
+      "officialSection": "Human-Computer Interaction Institute"
+    },
+    {
+      "officialId": "mgoel1",
+      "name": "Mayank Goel",
+      "title": "Associate Professor",
+      "officialSection": "Human-Computer Interaction Institute; Software and Societal Systems Department"
+    },
+    {
+      "officialId": "pcarvalh",
+      "name": "Paulo Carvalho",
+      "title": "Assistant Professor",
+      "officialSection": "Human-Computer Interaction Institute"
+    },
+    {
+      "officialId": "johnz",
+      "name": "John D Zimmerman",
+      "title": "Tang Family Professor",
+      "officialSection": "Human-Computer Interaction Institute"
+    },
+    {
+      "officialId": "larry",
+      "name": "Larry A Wasserman",
+      "title": "Professor",
+      "officialSection": "Machine Learning Department; Statistics; Heinz General & Administrative"
+    },
+    {
+      "officialId": "hheidari",
+      "name": "Hoda Heidari",
+      "title": "Assistant Professor",
+      "officialSection": "Machine Learning Department; Software and Societal Systems Department; Human-Computer Interaction Institute"
+    },
+    {
+      "officialId": "hammerj",
+      "name": "Jessica Hammer",
+      "title": "Professor of Learning Sciences",
+      "officialSection": "Human-Computer Interaction Institute; ETC: Entertainment Technology Center"
+    },
+    {
+      "officialId": "kmkitani",
+      "name": "Kris M Kitani",
+      "title": "Associate Research Professor",
+      "officialSection": "Robotics Institute; ECE: Electrical & Computer Engineering"
+    },
+    {
+      "officialId": "keenanc",
+      "name": "Keenan Michael Crane",
+      "title": "Associate Professor",
+      "officialSection": "Computer Science Department; Robotics Institute; ECE: Electrical & Computer Engineering"
+    },
+    {
+      "officialId": "okroemer",
+      "name": "Oliver Kroemer",
+      "title": "Associate Professor",
+      "officialSection": "Robotics Institute"
+    },
+    {
+      "officialId": "schase",
+      "name": "Steven Michael Chase",
+      "title": "Professor",
+      "officialSection": "Biomedical Engineering; Ni Neuroscience Institute; Ni: Neuroscience Institute; ECE: Electrical & Computer Engineering; Robotics Institute"
+    },
+    {
+      "officialId": "atalwalk",
+      "name": "Ameet Talwalkar",
+      "title": "Associate Professor with Tenure",
+      "officialSection": "Machine Learning Department"
+    },
+    {
+      "officialId": "dw0s",
+      "name": "David Wettergreen",
+      "title": "Research Professor/Director of the Ph.D. Program",
+      "officialSection": "Robotics Institute; Mechanical Engineering"
+    },
+    {
+      "officialId": "dheld",
+      "name": "David Held",
+      "title": "Associate Professor",
+      "officialSection": "Robotics Institute"
+    },
+    {
+      "officialId": "smithv",
+      "name": "Virginia Smith",
+      "title": "Associate Professor",
+      "officialSection": "Machine Learning Department; ECE: Electrical & Computer Engineering"
+    },
+    {
+      "officialId": "hudson",
+      "name": "Scott E Hudson",
+      "title": "Professor",
+      "officialSection": "Human-Computer Interaction Institute"
+    },
+    {
+      "officialId": "hongs",
+      "name": "Hong Shen",
+      "title": "Assistant Professor",
+      "officialSection": "Human-Computer Interaction Institute"
+    },
+    {
+      "officialId": "hgeyer",
+      "name": "Hartmut Geyer",
+      "title": "Professor",
+      "officialSection": "Robotics Institute"
+    },
+    {
+      "officialId": "aeo",
+      "name": "Amy Elizabeth Ogan",
+      "title": "Professor of Learning Sciences",
+      "officialSection": "Human-Computer Interaction Institute"
+    },
+    {
+      "officialId": "charriso",
+      "name": "Chris Harrison",
+      "title": "Professor",
+      "officialSection": "Human-Computer Interaction Institute"
+    },
+    {
+      "officialId": "gkantor",
+      "name": "George A Kantor",
+      "title": "Research Professor/Associate Director of Education",
+      "officialSection": "Robotics Institute"
+    },
+    {
+      "officialId": "hyaejino",
+      "name": "Jean Oh",
+      "title": "Associate Research Professor",
+      "officialSection": "Robotics Institute"
+    },
+    {
+      "officialId": "yiming",
+      "name": "Yiming Yang",
+      "title": "Professor",
+      "officialSection": "Language Technologies Institute"
+    },
+    {
+      "officialId": "levin",
+      "name": "Lorraine S Levin",
+      "title": "Research Professor",
+      "officialSection": "Language Technologies Institute"
+    },
+    {
+      "officialId": "dabbish",
+      "name": "Laura Alaya Dabbish",
+      "title": "Professor",
+      "officialSection": "Human-Computer Interaction Institute"
+    },
+    {
+      "officialId": "rsimmons",
+      "name": "Reid Gordon Simmons",
+      "title": "Research Professor",
+      "officialSection": "Robotics Institute; Computer Science Department"
+    },
+    {
+      "officialId": "cliu6",
+      "name": "Changliu Liu",
+      "title": "Associate Professor",
+      "officialSection": "Robotics Institute; ECE: Electrical & Computer Engineering; Mechanical Engineering"
+    },
+    {
+      "officialId": "bapoczos",
+      "name": "Barnabas Poczos",
+      "title": "Associate Professor",
+      "officialSection": "Machine Learning Department"
+    },
+    {
+      "officialId": "haiyiz",
+      "name": "Haiyi Zhu",
+      "title": "Associate Professor",
+      "officialSection": "Human-Computer Interaction Institute; Robotics Institute"
+    },
+    {
+      "officialId": "gfk",
+      "name": "Geoff Kaufman",
+      "title": "Robert E. Kraut Associate Professor School of Computer Science",
+      "officialSection": "Human-Computer Interaction Institute"
+    },
+    {
+      "officialId": "deva",
+      "name": "Deva Kannan Ramanan",
+      "title": "Professor",
+      "officialSection": "Robotics Institute"
+    },
+    {
+      "officialId": "shamos",
+      "name": "Michael Ian Shamos",
+      "title": "Distinguished Career Professor",
+      "officialSection": "Language Technologies Institute; Software and Societal Systems Department"
+    },
+    {
+      "officialId": "kk1u",
+      "name": "Ken Koedinger",
+      "title": "University Professor &amp; METALS Program Director",
+      "officialSection": "Human-Computer Interaction Institute"
+    },
+    {
+      "officialId": "basti",
+      "name": "Sebastian Scherer",
+      "title": "Research Professor",
+      "officialSection": "Robotics Institute; ECE: Electrical & Computer Engineering"
+    },
+    {
+      "officialId": "kfragki2",
+      "name": "Katerina Fragkiadaki",
+      "title": "Associate Professor",
+      "officialSection": "Machine Learning Department; Robotics Institute"
+    },
+    {
+      "officialId": "pkr",
+      "name": "Pradeep Ravikumar",
+      "title": "Professor",
+      "officialSection": "Machine Learning Department; ECE: Electrical & Computer Engineering"
+    },
+    {
+      "officialId": "pcarring",
+      "name": "Patrick Carrington",
+      "title": "Associate Professor",
+      "officialSection": "Human-Computer Interaction Institute"
+    },
+    {
+      "officialId": "gaurij",
+      "name": "Gauri Joshi",
+      "title": "Professor",
+      "officialSection": "ECE: Electrical & Computer Engineering; Robotics Institute"
+    },
+    {
+      "officialId": "zkolter",
+      "name": "Zico Kolter",
+      "title": "Professor",
+      "officialSection": "ECE: Electrical & Computer Engineering; Robotics Institute; Machine Learning Department; Computer Science Department"
+    },
+    {
+      "officialId": "conradt",
+      "name": "Conrad Tucker",
+      "title": "Director of CMU-Africa and Associate Dean for International Affairs-Africa - Trustee Professor of Mechanical Engineering",
+      "officialSection": "Mechanical Engineering; Robotics Institute"
+    },
+    {
+      "officialId": "kaess",
+      "name": "Michael Kaess",
+      "title": "Professor",
+      "officialSection": "Robotics Institute; Mechanical Engineering"
+    },
+    {
+      "officialId": "rsingh",
+      "name": "Rita Singh",
+      "title": "Research Professor",
+      "officialSection": "Language Technologies Institute"
+    },
+    {
+      "officialId": "mortamar",
+      "name": "Melisa Orta Martinez",
+      "title": "Associate Professor",
+      "officialSection": "Robotics Institute"
+    },
+    {
+      "officialId": "sbergbre",
+      "name": "Sarah Bergbreiter",
+      "title": "Professor",
+      "officialSection": "Mechanical Engineering; ECE: Electrical & Computer Engineering; Robotics Institute"
+    },
+    {
+      "officialId": "sbalakri",
+      "name": "Sivaraman Balakrishnan",
+      "title": "Professor",
+      "officialSection": "Statistics; Machine Learning Department"
+    },
+    {
+      "officialId": "tianqich",
+      "name": "Tianqi Chen",
+      "title": "Associate Professor",
+      "officialSection": "Machine Learning Department; Computer Science Department; ECE: Electrical & Computer Engineering"
+    },
+    {
+      "officialId": "teruko",
+      "name": "Teruko Mitamura",
+      "title": "Research Professor",
+      "officialSection": "Language Technologies Institute"
+    },
+    {
+      "officialId": "ocarja",
+      "name": "Oana Carja",
+      "title": "Associate Professor",
+      "officialSection": "Ray and Stephanie Lane Computational Biology Department"
+    },
+    {
+      "officialId": "bm1x",
+      "name": "Brad A Myers",
+      "title": "Professor",
+      "officialSection": "Human-Computer Interaction Institute; SCS Dean's Office"
+    },
+    {
+      "officialId": "zlipton",
+      "name": "Zachary Chase Lipton",
+      "title": "Associate Professor",
+      "officialSection": "Heinz General & Administrative; Machine Learning Department"
+    },
+    {
+      "officialId": "ns1i",
+      "name": "Norman M Sadeh",
+      "title": "Professor",
+      "officialSection": "Heinz General & Administrative; Cylab; Language Technologies Institute; Software and Societal Systems Department"
+    },
+    {
+      "officialId": "roeder",
+      "name": "Kathryn Roeder",
+      "title": "Professor",
+      "officialSection": "Statistics; Ray and Stephanie Lane Computational Biology Department"
+    },
+    {
+      "officialId": "meslami",
+      "name": "Motahhare Eslami",
+      "title": "Associate Professor",
+      "officialSection": "Human-Computer Interaction Institute; Software and Societal Systems Department"
+    },
+    {
+      "officialId": "eharpste",
+      "name": "Erik Harpstead",
+      "title": "Associate Research Professor",
+      "officialSection": "Human-Computer Interaction Institute"
+    },
+    {
+      "officialId": "shimada",
+      "name": "Kenji Shimada",
+      "title": "Theodore Aherns Professorship in Engineering",
+      "officialSection": "Mechanical Engineering; Robotics Institute"
+    },
+    {
+      "officialId": "forlizzi",
+      "name": "Jodi L Forlizzi",
+      "title": "Herbert A. Simon Professor",
+      "officialSection": "Human-Computer Interaction Institute"
+    },
+    {
+      "officialId": "christos",
+      "name": "Christos Nick Faloutsos",
+      "title": "Fredkin University Professor of Computer Science",
+      "officialSection": "Computer Science Department; Machine Learning Department"
+    },
+    {
+      "officialId": "criviere",
+      "name": "Cameron N Riviere",
+      "title": "Research Professor",
+      "officialSection": "Robotics Institute; Mechanical Engineering"
+    },
+    {
+      "officialId": "nmartela",
+      "name": "Nikolas Martelaro",
+      "title": "Associate Professor",
+      "officialSection": "Human-Computer Interaction Institute"
+    },
+    {
+      "officialId": "vwebster",
+      "name": "Vickie Webster-Wood",
+      "title": "Associate Professor without Tenure",
+      "officialSection": "Mechanical Engineering; Robotics Institute"
+    },
+    {
+      "officialId": "macw",
+      "name": "Brian Macwhinney",
+      "title": "Theresa Heinz Professor of Cognitive Psychology",
+      "officialSection": "Psychology; Language Technologies Institute"
+    },
+    {
+      "officialId": "aion",
+      "name": "Alexandra Ion",
+      "title": "Assistant Professor",
+      "officialSection": "Human-Computer Interaction Institute; Robotics Institute"
+    },
+    {
+      "officialId": "cga",
+      "name": "Christopher Granger Atkeson",
+      "title": "Professor",
+      "officialSection": "Robotics Institute; Human-Computer Interaction Institute"
+    },
+    {
+      "officialId": "jmccann",
+      "name": "Jim McCann",
+      "title": "Associate Professor",
+      "officialSection": "Robotics Institute"
+    },
+    {
+      "officialId": "aramdas",
+      "name": "Aaditya Ramdas",
+      "title": "Associate Professor with Tenure",
+      "officialSection": "Statistics; Machine Learning Department"
+    },
+    {
+      "officialId": "callan",
+      "name": "Jamie Callan",
+      "title": "Professor",
+      "officialSection": "Language Technologies Institute"
+    },
+    {
+      "officialId": "prl",
+      "name": "Philip R Leduc",
+      "title": "William J. Brown Professor",
+      "officialSection": "Mechanical Engineering; Biological Sciences; Ray and Stephanie Lane Computational Biology Department; ECE: Electrical & Computer Engineering; Robotics Institute"
+    },
+    {
+      "officialId": "dmortens",
+      "name": "David R. Mortensen",
+      "title": "Associate Research Professor",
+      "officialSection": "Language Technologies Institute"
+    },
+    {
+      "officialId": "jssunshi",
+      "name": "Joshua S Sunshine",
+      "title": "Associate Professor",
+      "officialSection": "Human-Computer Interaction Institute; Software and Societal Systems Department"
+    },
+    {
+      "officialId": "waibel",
+      "name": "Alexander Waibel",
+      "title": "Professor",
+      "officialSection": "Language Technologies Institute"
+    },
+    {
+      "officialId": "conzalez",
+      "name": "Cleotilde Gonzalez",
+      "title": "Professor",
+      "officialSection": "SDS: Social & Decision Sciences; SDS: Social and Decision Sciences; Human-Computer Interaction Institute"
+    },
+    {
+      "officialId": "aarti",
+      "name": "Aarti Singh",
+      "title": "Professor",
+      "officialSection": "Machine Learning Department"
+    },
+    {
+      "officialId": "mhebert",
+      "name": "Martial H Hebert",
+      "title": "Professor and Dean",
+      "officialSection": "SCS Dean's Office; Robotics Institute"
+    },
+    {
+      "officialId": "ynakahir",
+      "name": "Yorie Nakahira",
+      "title": "Associate Professor",
+      "officialSection": "ECE: Electrical & Computer Engineering; Robotics Institute"
+    },
+    {
+      "officialId": "ssmith",
+      "name": "Stephen F Smith",
+      "title": "Research Professor",
+      "officialSection": "Robotics Institute; Heinz General & Administrative"
+    },
+    {
+      "officialId": "gg25",
+      "name": "Geoffrey J Gordon",
+      "title": "Professor",
+      "officialSection": "Machine Learning Department"
+    },
+    {
+      "officialId": "kass",
+      "name": "Robert E Kass",
+      "title": "Professor",
+      "officialSection": "Machine Learning Department; Statistics"
+    },
+    {
+      "officialId": "cmajidi",
+      "name": "Carmel S Majidi",
+      "title": "Clarence H. Adamson Professor",
+      "officialSection": "Mechanical Engineering; CEE: Civil & Environmental Engineering; ECE: Electrical & Computer Engineering; Robotics Institute"
+    },
+    {
+      "officialId": "jianma",
+      "name": "Jian Ma",
+      "title": "Ray and Stephanie Lane Professor of Computational Biology",
+      "officialSection": "Ray and Stephanie Lane Computational Biology Department"
+    },
+    {
+      "officialId": "en09",
+      "name": "Eric H Nyberg III",
+      "title": "Professor",
+      "officialSection": "Language Technologies Institute"
+    },
+    {
+      "officialId": "bmclaren",
+      "name": "Bruce McLaren",
+      "title": "Professor",
+      "officialSection": "Human-Computer Interaction Institute"
+    },
+    {
+      "officialId": "ghani",
+      "name": "Rayid Ghani",
+      "title": "Distinguished Career Professor",
+      "officialSection": "Machine Learning Department; Heinz General & Administrative"
+    },
+    {
+      "officialId": "ztemel",
+      "name": "Zeynep Temel",
+      "title": "Associate Professor",
+      "officialSection": "Robotics Institute; Mechanical Engineering"
+    },
+    {
+      "officialId": "mtravers",
+      "name": "Matthew J Travers",
+      "title": "Associate Research Professor",
+      "officialSection": "Robotics Institute"
+    },
+    {
+      "officialId": "awd",
+      "name": "Artur W. Dubrawski",
+      "title": "Alumni Research Professor of Computer Science",
+      "officialSection": "Robotics Institute"
+    },
+    {
+      "officialId": "mcmanus",
+      "name": "Joel Mcmanus",
+      "title": "Associate Professor with Tenure",
+      "officialSection": "Biological Sciences; Ray and Stephanie Lane Computational Biology Department"
+    },
+    {
+      "officialId": "bhikshar",
+      "name": "Bhiksha Raj Ramakrishnan",
+      "title": "Professor",
+      "officialSection": "Language Technologies Institute; ECE: Electrical & Computer Engineering"
+    },
+    {
+      "officialId": "mitchell",
+      "name": "Tom M Mitchell",
+      "title": "SCS Founders University Professor",
+      "officialSection": "Machine Learning Department; Computer Science Department; Ray and Stephanie Lane Computational Biology Department; Language Technologies Institute; Robotics Institute"
+    },
+    {
+      "officialId": "mbalcan",
+      "name": "Maria Florina Balcan",
+      "title": "Cadence Design Systems Professor",
+      "officialSection": "Machine Learning Department; Computer Science Department"
+    },
+    {
+      "officialId": "jcassell",
+      "name": "Justine Cassell",
+      "title": "Professor",
+      "officialSection": "Language Technologies Institute"
+    },
+    {
+      "officialId": "estrubel",
+      "name": "Emma Strubell",
+      "title": "Associate Professor",
+      "officialSection": "Language Technologies Institute"
+    },
+    {
+      "officialId": "rs1e",
+      "name": "Richard M Stern Jr.",
+      "title": "Professor",
+      "officialSection": "ECE: Electrical & Computer Engineering; Language Technologies Institute"
+    },
+    {
+      "officialId": "nihars",
+      "name": "Nihar B Shah",
+      "title": "Associate Professor",
+      "officialSection": "Machine Learning Department; Computer Science Department; ECE: Electrical & Computer Engineering"
+    },
+    {
+      "officialId": "rr2l",
+      "name": "Roni Rosenfeld",
+      "title": "University Professor",
+      "officialSection": "Machine Learning Department; Heinz General & Administrative; Language Technologies Institute; Ray and Stephanie Lane Computational Biology Department"
+    },
+    {
+      "officialId": "amj1",
+      "name": "Aaron M Johnson",
+      "title": "Professor",
+      "officialSection": "Mechanical Engineering; ECE: Electrical & Computer Engineering; Robotics Institute"
+    },
+    {
+      "officialId": "srinivas",
+      "name": "Srinivasa G Narasimhan",
+      "title": "U.A. and Helen Whitaker Professor of Robotics",
+      "officialSection": "Robotics Institute; ECE: Electrical & Computer Engineering; SCS Dean's Office"
+    },
+    {
+      "officialId": "dingzhao",
+      "name": "Ding Zhao",
+      "title": "Associate Professor without Tenure",
+      "officialSection": "Mechanical Engineering; Robotics Institute; CEE: Civil & Environmental Engineering"
+    },
+    {
+      "officialId": "aligh",
+      "name": "Ari Lightman",
+      "title": "Distinguished Service Professor",
+      "officialSection": "Heinz General & Administrative; Machine Learning Department"
+    },
+    {
+      "officialId": "fedder",
+      "name": "Gary K. Fedder",
+      "title": "Hamerschlag University Professor",
+      "officialSection": "ECE: Electrical & Computer Engineering; Robotics Institute; Mechanical Engineering"
+    },
+    {
+      "officialId": "mt01",
+      "name": "Michael Tarr",
+      "title": "Professor",
+      "officialSection": "Robotics Institute; Psychology"
+    },
+    {
+      "officialId": "ckingsf",
+      "name": "Carl Kingsford",
+      "title": "Herbert A. Simon Professor of Computer Science",
+      "officialSection": "Ray and Stephanie Lane Computational Biology Department; Biological Sciences; SCS Dean's Office"
+    },
+    {
+      "officialId": "ah1z",
+      "name": "Alexander G Hauptmann",
+      "title": "Research Professor",
+      "officialSection": "Language Technologies Institute"
+    },
+    {
+      "officialId": "laszloaj",
+      "name": "Laszlo Attila Jeni",
+      "title": "Associate Research Professor",
+      "officialSection": "Robotics Institute; Mechanical Engineering"
+    },
+    {
+      "officialId": "zhammal",
+      "name": "Zakia Hammal",
+      "title": "Assistant Research Professor",
+      "officialSection": "Robotics Institute; Biomedical Engineering"
+    },
+    {
+      "officialId": "rajkumar",
+      "name": "Raj Rajkumar",
+      "title": "Professor",
+      "officialSection": "ECE: Electrical & Computer Engineering; Cylab; Heinz General & Administrative; Robotics Institute"
+    },
+    {
+      "officialId": "jstamper",
+      "name": "John C Stamper",
+      "title": "Associate Professor",
+      "officialSection": "Human-Computer Interaction Institute"
+    },
+    {
+      "officialId": "rr0s",
+      "name": "Raj Reddy",
+      "title": "Moza Bint Nasser University Professor",
+      "officialSection": "Computer Science Department; Language Technologies Institute; ECE: Electrical & Computer Engineering; Robotics Institute"
+    },
+    {
+      "officialId": "russells",
+      "name": "Russell S Schwartz",
+      "title": "Professor",
+      "officialSection": "Computer Science Department; SCS Dean's Office; Ray and Stephanie Lane Computational Biology Department"
+    },
+    {
+      "officialId": "jkh",
+      "name": "Jessica K Hodgins",
+      "title": "Allen Newell University Professor of Computer Science and Robotics",
+      "officialSection": "Computer Science Department; Robotics Institute"
+    },
+    {
+      "officialId": "nkittur",
+      "name": "Aniket D Kittur",
+      "title": "Professor",
+      "officialSection": "Human-Computer Interaction Institute"
+    },
+    {
+      "officialId": "swarunk",
+      "name": "Swarun Kumar",
+      "title": "Professor",
+      "officialSection": "ECE: Electrical & Computer Engineering; Computer Science Department; Human-Computer Interaction Institute"
+    },
+    {
+      "officialId": "illah",
+      "name": "Illah Nourbakhsh",
+      "title": "Kavcic-Moura Professor of Computer Science",
+      "officialSection": "Robotics Institute; Heinz General & Administrative; Dietrich Dean's Office"
+    },
+    {
+      "officialId": "hadmoni",
+      "name": "Henny Admoni",
+      "title": "Associate Professor",
+      "officialSection": "Robotics Institute; Human-Computer Interaction Institute"
+    },
+    {
+      "officialId": "zhiweiw",
+      "name": "Steven Wu",
+      "title": "Associate Professor",
+      "officialSection": "Human-Computer Interaction Institute; Software and Societal Systems Department"
+    },
+    {
+      "officialId": "va0e",
+      "name": "Vincent Aleven",
+      "title": "Professor",
+      "officialSection": "Human-Computer Interaction Institute"
+    },
+    {
+      "officialId": "choset",
+      "name": "Howie Choset",
+      "title": "Kavcic-Moura Professor of Computer Science",
+      "officialSection": "Robotics Institute; Mechanical Engineering"
+    },
+    {
+      "officialId": "ftorre",
+      "name": "Fernando De La Torre Frade",
+      "title": "Research Professor",
+      "officialSection": "Robotics Institute; ECE: Electrical & Computer Engineering"
+    },
+    {
+      "officialId": "rpanat",
+      "name": "Rahul Panat",
+      "title": "Professor",
+      "officialSection": "Mechanical Engineering; CEE: Civil & Environmental Engineering; Robotics Institute"
+    },
+    {
+      "officialId": "dmoritz2",
+      "name": "Dominik Moritz",
+      "title": "Assistant Professor",
+      "officialSection": "Human-Computer Interaction Institute"
+    },
+    {
+      "officialId": "apfennin",
+      "name": "Andreas Robert Pfenning",
+      "title": "Associate Professor",
+      "officialSection": "Ray and Stephanie Lane Computational Biology Department"
+    },
+    {
+      "officialId": "aristesk",
+      "name": "Andrej Risteski",
+      "title": "Associate Professor",
+      "officialSection": "Machine Learning Department"
+    },
+    {
+      "officialId": "motoole2",
+      "name": "Matthew O&apos;Toole",
+      "title": "Associate Professor",
+      "officialSection": "Computer Science Department; Robotics Institute; ECE: Electrical & Computer Engineering"
+    },
+    {
+      "officialId": "hshirado",
+      "name": "Hirokazu Shirado",
+      "title": "Associate Professor",
+      "officialSection": "Human-Computer Interaction Institute"
+    },
+    {
+      "officialId": "as7s",
+      "name": "Aaron M Steinfeld",
+      "title": "Research Professor, and Head of Faculty Mentoring",
+      "officialSection": "Robotics Institute; Human-Computer Interaction Institute"
+    },
+    {
+      "officialId": "epxing",
+      "name": "Eric Poe Xing",
+      "title": "Professor",
+      "officialSection": "Machine Learning Department; Biological Sciences; Language Technologies Institute; Ray and Stephanie Lane Computational Biology Department"
+    },
+    {
+      "officialId": "ehalilaj",
+      "name": "Eni Halilaj",
+      "title": "Associate Professor without Tenure",
+      "officialSection": "Mechanical Engineering; Robotics Institute"
+    },
+    {
+      "officialId": "npollard",
+      "name": "Nancy Pollard",
+      "title": "Professor",
+      "officialSection": "Computer Science Department; Robotics Institute"
+    },
+    {
+      "officialId": "zerickso",
+      "name": "Zackory Erickson",
+      "title": "Assistant Professor",
+      "officialSection": "Robotics Institute"
+    },
+    {
+      "officialId": "bwilder",
+      "name": "Bryan Wilder",
+      "title": "Assistant Professor",
+      "officialSection": "Machine Learning Department"
+    },
+    {
+      "officialId": "jlugomar",
+      "name": "Jose Lugo-Martinez",
+      "title": "Assistant Professor",
+      "officialSection": "Ray and Stephanie Lane Computational Biology Department"
+    },
+    {
+      "officialId": "stulsian",
+      "name": "Shubham Tulsiani",
+      "title": "Assistant Professor",
+      "officialSection": "Robotics Institute"
+    },
+    {
+      "officialId": "jiaoyanl",
+      "name": "Jiaoyang Li",
+      "title": "Assistant Professor",
+      "officialSection": "Robotics Institute"
+    },
+    {
+      "officialId": "abegel",
+      "name": "Andrew Begel",
+      "title": "Associate Professor",
+      "officialSection": "Software and Societal Systems Department; Human-Computer Interaction Institute"
+    },
+    {
+      "officialId": "cx",
+      "name": "Chenyan Xiong",
+      "title": "Associate Professor without Tenure",
+      "officialSection": "Language Technologies Institute"
+    },
+    {
+      "officialId": "guanyas",
+      "name": "Guanya Shi",
+      "title": "Assistant Professor",
+      "officialSection": "Robotics Institute; ECE: Electrical & Computer Engineering; Mechanical Engineering"
+    },
+    {
+      "officialId": "abajcsy",
+      "name": "Andrea Bajcsy",
+      "title": "Assistant Professor",
+      "officialSection": "Robotics Institute"
+    },
+    {
+      "officialId": "jichnows",
+      "name": "Jeff Ichnowski",
+      "title": "Assistant Professor",
+      "officialSection": "Robotics Institute"
+    },
+    {
+      "officialId": "dippolit",
+      "name": "Daphne Ippolito",
+      "title": "Assistant Professor",
+      "officialSection": "Language Technologies Institute"
+    },
+    {
+      "officialId": "sherryw",
+      "name": "Sherry Tongshuang Wu",
+      "title": "Daniel P. Siewiorek Assistant Professor of Human-Computer Interaction",
+      "officialSection": "Human-Computer Interaction Institute; Language Technologies Institute"
+    },
+    {
+      "officialId": "sauvikda",
+      "name": "Sauvik Das",
+      "title": "Associate Professor",
+      "officialSection": "Human-Computer Interaction Institute"
+    },
+    {
+      "officialId": "fernandd",
+      "name": "Fernando Diaz",
+      "title": "Associate Professor",
+      "officialSection": "Language Technologies Institute; Human-Computer Interaction Institute"
+    },
+    {
+      "officialId": "dsaffer",
+      "name": "Dan Saffer",
+      "title": "Assistant Professor of the Practice",
+      "officialSection": "Human-Computer Interaction Institute"
+    },
+    {
+      "officialId": "agu",
+      "name": "Albert Gu",
+      "title": "Assistant Professor",
+      "officialSection": "Machine Learning Department"
+    },
+    {
+      "officialId": "martinzh",
+      "name": "Martin Jinye Zhang",
+      "title": "Assistant Professor",
+      "officialSection": "Ray and Stephanie Lane Computational Biology Department"
+    },
+    {
+      "officialId": "leili",
+      "name": "Lei Li",
+      "title": "Associate Professor without Tenure",
+      "officialSection": "Language Technologies Institute"
+    },
+    {
+      "officialId": "inseungk",
+      "name": "Inseung Kang",
+      "title": "Assistant Professor",
+      "officialSection": "Robotics Institute; Mechanical Engineering"
+    },
+    {
+      "officialId": "aviralku",
+      "name": "Aviral Kumar",
+      "title": "Assistant Professor",
+      "officialSection": "Computer Science Department; Machine Learning Department; Robotics Institute"
+    },
+    {
+      "officialId": "yuny",
+      "name": "Yun William Yu",
+      "title": "Associate Professor",
+      "officialSection": "Ray and Stephanie Lane Computational Biology Department"
+    },
+    {
+      "officialId": "ikaplow",
+      "name": "Irene Kaplow",
+      "title": "Assistant Professor",
+      "officialSection": "Biological Sciences; Ray and Stephanie Lane Computational Biology Department"
+    },
+    {
+      "officialId": "swelleck",
+      "name": "Sean Welleck",
+      "title": "Assistant Professor",
+      "officialSection": "Language Technologies Institute"
+    },
+    {
+      "officialId": "wcohen",
+      "name": "William W Cohen",
+      "title": "Professor",
+      "officialSection": "Machine Learning Department; Language Technologies Institute"
+    },
+    {
+      "officialId": "nboffi",
+      "name": "Nicholas Boffi",
+      "title": "Assistant Professor",
+      "officialSection": "Mathematical Sciences; Machine Learning Department"
+    },
+    {
+      "officialId": "andrewes",
+      "name": "Andrew Spielberg",
+      "title": "Assistant Professor",
+      "officialSection": "ECE: Electrical & Computer Engineering; Robotics Institute; Mechanical Engineering"
+    },
+    {
+      "officialId": "anayebi",
+      "name": "Aran Nayebi",
+      "title": "Assistant Professor",
+      "officialSection": "Machine Learning Department; Robotics Institute"
+    },
+    {
+      "officialId": "msimchow",
+      "name": "Max Simchowitz",
+      "title": "Assistant Professor",
+      "officialSection": "Machine Learning Department; Robotics Institute"
+    },
+    {
+      "officialId": "rborder",
+      "name": "Richard Schuster Border",
+      "title": "Assistant Professor",
+      "officialSection": "Ray and Stephanie Lane Computational Biology Department"
+    },
+    {
+      "officialId": "ccubasam",
+      "name": "Christian Cuba Samaniego",
+      "title": "Assistant Professor",
+      "officialSection": "Ray and Stephanie Lane Computational Biology Department"
+    },
+    {
+      "officialId": "tdettmer",
+      "name": "Tim Dettmers",
+      "title": "Assistant Professor",
+      "officialSection": "Machine Learning Department"
+    },
+    {
+      "officialId": "cbusso",
+      "name": "Carlos Busso",
+      "title": "Professor",
+      "officialSection": "Language Technologies Institute"
+    },
+    {
+      "officialId": "anap",
+      "name": "Ana Maria Sande do Vale Pinto da Silva",
+      "title": "Professor",
+      "officialSection": "Human-Computer Interaction Institute; Design"
+    },
+    {
+      "officialId": "prasenjm",
+      "name": "Prasenjit Mitra",
+      "title": "Distinguished Service Professor",
+      "officialSection": "Rwanda - Information and Communication Technology; Rwanda - ICT; Human-Computer Interaction Institute"
+    },
+    {
+      "officialId": "fdumbgen",
+      "name": "Frederike Duembgen",
+      "title": "Assistant Professor, without tenure",
+      "officialSection": "Robotics Institute; Mechanical Engineering"
+    },
+    {
+      "officialId": "paulad01",
+      "name": "Adam Paulisick",
+      "title": "Distinguished Service Professor",
+      "officialSection": "Language Technologies Institute"
+    },
+    {
+      "officialId": "alon",
+      "name": "Alon Lavie",
+      "title": "Distinguished Career Professor",
+      "officialSection": "Language Technologies Institute"
+    },
+    {
+      "officialId": "thomasco",
+      "name": "Tom Costello",
+      "title": "Assistant Professor",
+      "officialSection": "SDS: Social & Decision Sciences; SDS: Social and Decision Sciences; Human-Computer Interaction Institute"
+    },
+    {
+      "officialId": "randiw",
+      "name": "Randi Williams",
+      "title": "Assistant Research Professor",
+      "officialSection": "Human-Computer Interaction Institute"
+    }
+  ],
+  "pendingProfileVerification": [
+    {
+      "officialId": "gfanti",
+      "name": "Giulia Fanti",
+      "title": "Associate Professor without Tenure",
+      "officialSection": "ECE: Electrical & Computer Engineering; Computer Science Department"
+    },
+    {
+      "officialId": "beckmann",
+      "name": "Nathan Beckmann",
+      "title": "Associate Professor",
+      "officialSection": "Computer Science Department; ECE: Electrical & Computer Engineering"
+    },
+    {
+      "officialId": "mjs",
+      "name": "Mark Stehlik",
+      "title": "University Professor",
+      "officialSection": "Computer Science Department; SCS Dean's Office"
+    },
+    {
+      "officialId": "bparno",
+      "name": "Bryan Parno",
+      "title": "Professor",
+      "officialSection": "Computer Science Department; ECE: Electrical & Computer Engineering"
+    },
+    {
+      "officialId": "ckaestne",
+      "name": "Christian Kaestner",
+      "title": "Associate Professor",
+      "officialSection": "Software and Societal Systems Department"
+    },
+    {
+      "officialId": "dskarlat",
+      "name": "Dimitrios Skarlatos",
+      "title": "Assistant Professor",
+      "officialSection": "Computer Science Department; ECE: Electrical & Computer Engineering"
+    },
+    {
+      "officialId": "af1p",
+      "name": "Alan M Frieze",
+      "title": "University Professor",
+      "officialSection": "Computer Science Department; Mathematical Sciences"
+    },
+    {
+      "officialId": "eunsukk",
+      "name": "Eunsuk Kang",
+      "title": "Associate Professor",
+      "officialSection": "Software and Societal Systems Department"
+    },
+    {
+      "officialId": "lakoglu",
+      "name": "Leman Akoglu",
+      "title": "Associate Professor with Tenure",
+      "officialSection": "Heinz General & Administrative; Computer Science Department"
+    },
+    {
+      "officialId": "vsekar",
+      "name": "Vyas Sekar",
+      "title": "Tan Family Professor of Electrical and Computer Engineering",
+      "officialSection": "ECE: Electrical & Computer Engineering; Cylab; Computer Science Department"
+    },
+    {
+      "officialId": "blucia",
+      "name": "Brandon Lucia",
+      "title": "Professor",
+      "officialSection": "ECE: Electrical & Computer Engineering; Computer Science Department"
+    },
+    {
+      "officialId": "ryanod",
+      "name": "Ryan W. O&apos;Donnell",
+      "title": "Professor",
+      "officialSection": "Computer Science Department"
+    },
+    {
+      "officialId": "feif",
+      "name": "Fei Fang",
+      "title": "Associate Professor",
+      "officialSection": "Software and Societal Systems Department"
+    },
+    {
+      "officialId": "mfredrik",
+      "name": "Matt Fredrikson",
+      "title": "Associate Professor",
+      "officialSection": "Computer Science Department; ECE: Electrical & Computer Engineering"
+    },
+    {
+      "officialId": "fkilinc",
+      "name": "Fatma Kilinc-Karzan",
+      "title": "Andris A. Zoltners Professor of Operations Research",
+      "officialSection": "Tepper School of Business; Computer Science Department"
+    },
+    {
+      "officialId": "taislee",
+      "name": "Tai-Sing Lee",
+      "title": "Professor",
+      "officialSection": "Computer Science Department; Ni: Neuroscience Institute"
+    },
+    {
+      "officialId": "lorrie",
+      "name": "Lorrie Cranor",
+      "title": "FORE Systems University Professor",
+      "officialSection": "EPP: Engineering & Public Policy; Cylab; Heinz General & Administrative; ECE: Electrical & Computer Engineering; Software and Societal Systems Department"
+    },
+    {
+      "officialId": "mheule",
+      "name": "Marijn Heule",
+      "title": "Associate Professor",
+      "officialSection": "Computer Science Department"
+    },
+    {
+      "officialId": "rohanrap",
+      "name": "Rohan Padhye",
+      "title": "Associate Professor",
+      "officialSection": "Software and Societal Systems Department"
+    },
+    {
+      "officialId": "virgil",
+      "name": "Virgil D Gligor",
+      "title": "Professor",
+      "officialSection": "ECE: Electrical & Computer Engineering; Cylab; Computer Science Department"
+    },
+    {
+      "officialId": "sethg",
+      "name": "Seth Copen Goldstein",
+      "title": "Associate Professor",
+      "officialSection": "Computer Science Department"
+    },
+    {
+      "officialId": "mshaw",
+      "name": "Mary M Shaw",
+      "title": "A. J. Perlis University Professor",
+      "officialSection": "Computer Science Department; Software and Societal Systems Department"
+    },
+    {
+      "officialId": "pgibbons",
+      "name": "Phillip B Gibbons",
+      "title": "Professor",
+      "officialSection": "Computer Science Department; ECE: Electrical & Computer Engineering"
+    },
+    {
+      "officialId": "liminjia",
+      "name": "Limin Jia",
+      "title": "Research Professor",
+      "officialSection": "ECE: Electrical & Computer Engineering; Computer Science Department"
+    },
+    {
+      "officialId": "aldrich",
+      "name": "Jonathan E Aldrich",
+      "title": "Professor",
+      "officialSection": "Software and Societal Systems Department"
+    },
+    {
+      "officialId": "weinaw",
+      "name": "Weina Wang",
+      "title": "Associate Professor",
+      "officialSection": "Computer Science Department; ECE: Electrical & Computer Engineering"
+    },
+    {
+      "officialId": "ds5l",
+      "name": "Danny Sleator",
+      "title": "Professor",
+      "officialSection": "Computer Science Department"
+    },
+    {
+      "officialId": "gamvrosi",
+      "name": "George Amvrosiadis",
+      "title": "Associate Research Professor",
+      "officialSection": "Computer Science Department; ECE: Electrical & Computer Engineering"
+    },
+    {
+      "officialId": "uacar",
+      "name": "Umut Akgun Acar",
+      "title": "Professor",
+      "officialSection": "Computer Science Department"
+    },
+    {
+      "officialId": "herbsleb",
+      "name": "James D Herbsleb",
+      "title": "Professor",
+      "officialSection": "Software and Societal Systems Department"
+    },
+    {
+      "officialId": "gb1y",
+      "name": "Guy E Blelloch",
+      "title": "Professor",
+      "officialSection": "Computer Science Department"
+    },
+    {
+      "officialId": "ravi",
+      "name": "R. Ravi",
+      "title": "Vasantrao Dempo Professor of Operations Research and Computer Science",
+      "officialSection": "Tepper School of Business; Computer Science Department"
+    },
+    {
+      "officialId": "rwh",
+      "name": "Robert Harper",
+      "title": "Professor",
+      "officialSection": "Computer Science Department"
+    },
+    {
+      "officialId": "ganger",
+      "name": "Gregory Ganger",
+      "title": "Professor",
+      "officialSection": "ECE: Electrical & Computer Engineering; Computer Science Department; Cylab"
+    },
+    {
+      "officialId": "nicolasc",
+      "name": "Nicolas Christin",
+      "title": "Professor",
+      "officialSection": "SCS Dean's Office; EPP: Engineering & Public Policy"
+    },
+    {
+      "officialId": "jberar",
+      "name": "Jim Berardone",
+      "title": "Associate Professor of the Practice of Product Management",
+      "officialSection": "Software and Societal Systems Department"
+    },
+    {
+      "officialId": "bogdanv",
+      "name": "Bogdan Vasilescu",
+      "title": "Associate Professor",
+      "officialSection": "Software and Societal Systems Department"
+    },
+    {
+      "officialId": "dga2",
+      "name": "David Godbe Andersen",
+      "title": "Professor",
+      "officialSection": "Computer Science Department"
+    },
+    {
+      "officialId": "rubenm",
+      "name": "Ruben Martins",
+      "title": "Associate Research Professor",
+      "officialSection": "Computer Science Department; SEI Ssd Assuring Cyberphysical Systems"
+    },
+    {
+      "officialId": "clegoues",
+      "name": "Claire Le Goues",
+      "title": "Professor",
+      "officialSection": "Software and Societal Systems Department"
+    },
+    {
+      "officialId": "hmiller2",
+      "name": "Heather Miller",
+      "title": "Associate Professor",
+      "officialSection": "Software and Societal Systems Department"
+    },
+    {
+      "officialId": "srini",
+      "name": "Srinivasan Seshan",
+      "title": "Joseph Traub Professor of Computer Science",
+      "officialSection": "Computer Science Department; ECE: Electrical & Computer Engineering"
+    },
+    {
+      "officialId": "fp",
+      "name": "Frank Pfenning",
+      "title": "Professor",
+      "officialSection": "Computer Science Department"
+    },
+    {
+      "officialId": "rvinayak",
+      "name": "Rashmi Korlakai Vinayak",
+      "title": "Associate Professor",
+      "officialSection": "Computer Science Department; ECE: Electrical & Computer Engineering"
+    },
+    {
+      "officialId": "lbauer",
+      "name": "Lujo Bauer",
+      "title": "Professor, ECE-ISR",
+      "officialSection": "ECE: Electrical & Computer Engineering; Software and Societal Systems Department"
+    },
+    {
+      "officialId": "sandholm",
+      "name": "Tuomas W Sandholm",
+      "title": "Angel Jordan University Professor of Computer Science",
+      "officialSection": "Computer Science Department"
+    },
+    {
+      "officialId": "crary",
+      "name": "Karl Crary",
+      "title": "Associate Professor",
+      "officialSection": "Computer Science Department"
+    },
+    {
+      "officialId": "satya",
+      "name": "Mahadev Satyanarayanan",
+      "title": "Jaime Carbonell University Professor of Computer Science",
+      "officialSection": "Computer Science Department; ECE: Electrical & Computer Engineering"
+    },
+    {
+      "officialId": "carley",
+      "name": "Kathleen M Carley",
+      "title": "Professor",
+      "officialSection": "ECE: Electrical & Computer Engineering; Heinz General & Administrative; Software and Societal Systems Department"
+    },
+    {
+      "officialId": "wzheng2",
+      "name": "Wenting Zheng",
+      "title": "Assistant Professor",
+      "officialSection": "Computer Science Department; ECE: Electrical & Computer Engineering"
+    },
+    {
+      "officialId": "tdbreaux",
+      "name": "Travis Breaux",
+      "title": "Associate Professor",
+      "officialSection": "Software and Societal Systems Department"
+    },
+    {
+      "officialId": "golan",
+      "name": "Golan Levin",
+      "title": "Professor of Art / Director of SFCI",
+      "officialSection": "Computer Science Department; Art; CFA Dean's Office; Architecture; Dietrich Centers"
+    },
+    {
+      "officialId": "janh",
+      "name": "Jan Hoffmann",
+      "title": "Associate Professor",
+      "officialSection": "Computer Science Department"
+    },
+    {
+      "officialId": "justines",
+      "name": "Justine Sherry",
+      "title": "Associate Professor",
+      "officialSection": "Computer Science Department; ECE: Electrical & Computer Engineering"
+    },
+    {
+      "officialId": "harchol",
+      "name": "Mor Harchol-Balter",
+      "title": "Dr. Bruce J. Nelson Professor of Computer Science",
+      "officialSection": "Computer Science Department"
+    },
+    {
+      "officialId": "dwoodruf",
+      "name": "David Woodruff",
+      "title": "Professor",
+      "officialSection": "Computer Science Department"
+    },
+    {
+      "officialId": "mowry",
+      "name": "Todd C Mowry",
+      "title": "Professor",
+      "officialSection": "Computer Science Department; ECE: Electrical & Computer Engineering"
+    },
+    {
+      "officialId": "apavlo",
+      "name": "Andrew Pavlo",
+      "title": "Associate Professor",
+      "officialSection": "Computer Science Department"
+    },
+    {
+      "officialId": "dg4d",
+      "name": "David Garlan",
+      "title": "Professor",
+      "officialSection": "Software and Societal Systems Department"
+    },
+    {
+      "officialId": "balzers",
+      "name": "Stephanie Ginette Balzer",
+      "title": "Associate Professor",
+      "officialSection": "Computer Science Department"
+    },
+    {
+      "officialId": "patrickp",
+      "name": "Patrick Park",
+      "title": "Assistant Professor",
+      "officialSection": "Software and Societal Systems Department"
+    },
+    {
+      "officialId": "vconitze",
+      "name": "Vincent Conitzer",
+      "title": "Professor",
+      "officialSection": "Computer Science Department"
+    },
+    {
+      "officialId": "btitzer",
+      "name": "Benjamin Titzer",
+      "title": "Associate Research Professor",
+      "officialSection": "Software and Societal Systems Department; ECE: Electrical & Computer Engineering"
+    },
+    {
+      "officialId": "asrirama",
+      "name": "Akshitha Sriraman",
+      "title": "Assistant Professor",
+      "officialSection": "ECE: Electrical & Computer Engineering; Computer Science Department"
+    },
+    {
+      "officialId": "aayushja",
+      "name": "Aayush Jain",
+      "title": "Assistant Professor",
+      "officialSection": "Computer Science Department"
+    },
+    {
+      "officialId": "fsaad",
+      "name": "Feras Saad",
+      "title": "Assistant Professor",
+      "officialSection": "Computer Science Department"
+    },
+    {
+      "officialId": "yangp",
+      "name": "Richard Peng",
+      "title": "Associate Professor",
+      "officialSection": "Computer Science Department"
+    },
+    {
+      "officialId": "fraserb",
+      "name": "Fraser Brown",
+      "title": "Assistant Professor",
+      "officialSection": "Software and Societal Systems Department"
+    },
+    {
+      "officialId": "beidic",
+      "name": "Beidi Chen",
+      "title": "Assistant Professor",
+      "officialSection": "ECE: Electrical & Computer Engineering; Computer Science Department"
+    },
+    {
+      "officialId": "chrisdon",
+      "name": "Chris Donahue",
+      "title": "Assistant Professor",
+      "officialSection": "Computer Science Department"
+    },
+    {
+      "officialId": "rpaccagn",
+      "name": "Riccardo Paccagnella",
+      "title": "Assistant Professor",
+      "officialSection": "Software and Societal Systems Department; ECE: Electrical & Computer Engineering"
+    },
+    {
+      "officialId": "jigneshp",
+      "name": "Jignesh Patel",
+      "title": "Professor",
+      "officialSection": "Computer Science Department; SCS Dean's Office"
+    },
+    {
+      "officialId": "justinc3",
+      "name": "Justin Chan",
+      "title": "Assistant Professor",
+      "officialSection": "ECE: Electrical & Computer Engineering; Software and Societal Systems Department"
+    },
+    {
+      "officialId": "jmli",
+      "name": "Jason Li",
+      "title": "Assistant Professor",
+      "officialSection": "Computer Science Department"
+    },
+    {
+      "officialId": "sscheffl",
+      "name": "Sarah Scheffler",
+      "title": "Assistant Professor",
+      "officialSection": "EPP:Engineering & Public Policy; Software and Societal Systems Department"
+    },
+    {
+      "officialId": "rwahby",
+      "name": "Riad Samir Wahby",
+      "title": "Assistant Professor",
+      "officialSection": "ECE: Electrical & Computer Engineering; Computer Science Department"
+    },
+    {
+      "officialId": "minchenl",
+      "name": "Minchen Li",
+      "title": "Assistant Professor",
+      "officialSection": "Computer Science Department"
+    },
+    {
+      "officialId": "wkuszmau",
+      "name": "William Kuszmaul",
+      "title": "Assistant Professor",
+      "officialSection": "Computer Science Department; Csd Business Office"
+    },
+    {
+      "officialId": "andrewi",
+      "name": "Andrew Ilyas",
+      "title": "Assistant Professor",
+      "officialSection": "ECE: Electrical & Computer Engineering; Software and Societal Systems Department"
+    },
+    {
+      "officialId": "akasirza",
+      "name": "Atoosa Kasirzadeh",
+      "title": "Assistant Professor",
+      "officialSection": "Philosophy; Software and Societal Systems Department"
+    },
+    {
+      "officialId": "owh",
+      "name": "Olivia Weiya Hsu",
+      "title": "Assistant Professor, without tenure",
+      "officialSection": "ECE: Electrical & Computer Engineering; Computer Science Department"
+    },
+    {
+      "officialId": "jcalandr",
+      "name": "Joseph Anthony Calandrino",
+      "title": "Assistant Professor",
+      "officialSection": "EPP:Engineering & Public Policy; Software and Societal Systems Department"
+    },
+    {
+      "officialId": "sshanka3",
+      "name": "Shreya Shankar",
+      "title": "Assistant Professor",
+      "officialSection": "Computer Science Department"
+    },
+    {
+      "officialId": "stevenx",
+      "name": "Steven Xia",
+      "title": "Assistant Professor",
+      "officialSection": "Software and Societal Systems Department"
+    }
+  ]
+}

@@ -1,0 +1,3663 @@
+{
+  "schemaVersion": 1,
+  "unitId": "gatech-coc",
+  "unitLabel": "Georgia Tech College of Computing",
+  "unitUrl": "https://www.cc.gatech.edu/people/faculty",
+  "snapshotAt": "2026-09-03",
+  "rosterArtifact": "data/official-rosters/gatech-college-computing-faculty-2026-09-02.json",
+  "frozenOfficialRosterCount": 230,
+  "rawRosterRowCount": 230,
+  "duplicateRosterCardCount": 1,
+  "deduplicatedRosterPersonCount": 229,
+  "decisionCount": 229,
+  "counts": {
+    "excluded_historical": 7,
+    "excluded_non_pi": 50,
+    "include_new_pi": 165,
+    "included_existing": 7
+  },
+  "decisions": [
+    {
+      "officialId": "abrahim-ladha",
+      "rosterName": "Abrahim Ladha",
+      "title": "Lecturer",
+      "profileUrl": "https://www.cc.gatech.edu/people/abrahim-ladha",
+      "portraitUrl": "https://www.cc.gatech.edu/sites/default/files/styles/profile_150x180_/public/images/profiles/2025-06/abrahimcopy.jpg?itok=Ie4oefOQ",
+      "officialSections": [
+        "Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cc.gatech.edu/people/faculty",
+      "decision": "excluded_non_pi",
+      "reason": "官方职称或名录分组属于教学、兼职、附属、科研支持或其他非独立 PI 岗位。",
+      "evidence": "Lecturer | Faculty | https://www.cc.gatech.edu/people/abrahim-ladha"
+    },
+    {
+      "officialId": "jacob-abernethy",
+      "rosterName": "Jacob Abernethy",
+      "title": "Associate Professor",
+      "profileUrl": "https://www.cc.gatech.edu/people/jacob-abernethy",
+      "portraitUrl": "https://www.cc.gatech.edu/sites/default/files/styles/profile_150x180_/public/images/profiles/2026-08/jacob_abernethy_0.png?itok=qpM3JdOz",
+      "officialSections": [
+        "Faculty",
+        "ML PhD Program Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cc.gatech.edu/people/faculty",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Associate Professor | Faculty · ML PhD Program Faculty | https://www.cc.gatech.edu/people/jacob-abernethy",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "alexander-t-adams",
+      "rosterName": "Alexander T Adams",
+      "title": "Assistant Professor",
+      "profileUrl": "https://www.cc.gatech.edu/people/alexander-t-adams",
+      "portraitUrl": "https://www.cc.gatech.edu/sites/default/files/styles/profile_150x180_/public/images/profiles/2026-02/alexander_adams_86a6793_copy.jpg?itok=pm96nQAD",
+      "officialSections": [
+        "Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cc.gatech.edu/people/faculty",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Assistant Professor | Faculty | https://www.cc.gatech.edu/people/alexander-t-adams",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "keith-adkins",
+      "rosterName": "Keith Adkins",
+      "title": "Research Associate I",
+      "profileUrl": "https://www.cc.gatech.edu/people/keith-adkins",
+      "portraitUrl": "https://www.cc.gatech.edu/sites/default/files/styles/profile_150x180_/public/default_images/Profile-Default.jpg?itok=LH4JPDtS",
+      "officialSections": [
+        "Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cc.gatech.edu/people/faculty",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Research Associate I | Faculty | https://www.cc.gatech.edu/people/keith-adkins",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "mustaque-ahamad",
+      "rosterName": "Mustaque Ahamad",
+      "title": "SCP Interim Chair, USG Regents Entrepreneur…",
+      "profileUrl": "https://www.cc.gatech.edu/people/mustaque-ahamad",
+      "portraitUrl": "https://www.cc.gatech.edu/sites/default/files/styles/profile_150x180_/public/images/profiles/2025-07/mustaque_ahamad_0.png?itok=P2Bk7Ur3",
+      "officialSections": [
+        "Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cc.gatech.edu/people/faculty",
+      "decision": "excluded_non_pi",
+      "reason": "官方卡片仅显示行政/项目领导职务，未显示独立教授或 PI 职称。",
+      "evidence": "SCP Interim Chair, USG Regents Entrepreneur… | Faculty | https://www.cc.gatech.edu/people/mustaque-ahamad"
+    },
+    {
+      "officialId": "willow-ahrens",
+      "rosterName": "Willow Ahrens",
+      "title": "Assistant Professor",
+      "profileUrl": "https://www.cc.gatech.edu/people/willow-ahrens",
+      "portraitUrl": "https://www.cc.gatech.edu/sites/default/files/styles/profile_150x180_/public/images/profiles/2025-09/willow_ahrens_86a8878.jpg?itok=eoNQKLmo",
+      "officialSections": [
+        "Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cc.gatech.edu/people/faculty",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Assistant Professor | Faculty | https://www.cc.gatech.edu/people/willow-ahrens",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "srinivas-aluru",
+      "rosterName": "Srinivas Aluru",
+      "title": "Senior Associate Dean and Regents' Professor",
+      "profileUrl": "https://www.cc.gatech.edu/people/srinivas-aluru",
+      "portraitUrl": "https://www.cc.gatech.edu/sites/default/files/styles/profile_150x180_/public/images/profiles/2026-08/srinivas_aluru_0.png?itok=TnR7Y_xC",
+      "officialSections": [
+        "Faculty",
+        "ML PhD Program Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cc.gatech.edu/people/faculty",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Senior Associate Dean and Regents' Professor | Faculty · ML PhD Program Faculty | https://www.cc.gatech.edu/people/srinivas-aluru",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "mostafa-ammar",
+      "rosterName": "Mostafa Ammar",
+      "title": "Regents' Professor",
+      "profileUrl": "https://www.cc.gatech.edu/people/mostafa-ammar",
+      "portraitUrl": "https://www.cc.gatech.edu/sites/default/files/styles/profile_150x180_/public/images/profiles/2026-09/mostafa-ammar_0.png?itok=h5sztkhy",
+      "officialSections": [
+        "Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cc.gatech.edu/people/faculty",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Regents' Professor | Faculty | https://www.cc.gatech.edu/people/mostafa-ammar",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "clio-andris",
+      "rosterName": "Clio Andris",
+      "title": "Associate Professor",
+      "profileUrl": "https://www.cc.gatech.edu/people/clio-andris",
+      "portraitUrl": "https://www.cc.gatech.edu/sites/default/files/styles/profile_150x180_/public/images/profiles/2025-06/clio_andris_0.png?itok=vRd7w4f0",
+      "officialSections": [
+        "Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cc.gatech.edu/people/faculty",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Associate Professor | Faculty | https://www.cc.gatech.edu/people/clio-andris",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "annie-anton",
+      "rosterName": "Annie Antón",
+      "title": "Professor",
+      "profileUrl": "https://www.cc.gatech.edu/people/annie-anton",
+      "portraitUrl": "https://www.cc.gatech.edu/sites/default/files/styles/profile_150x180_/public/images/profiles/2026-08/annie_anton_0.png?itok=VrltHJP6",
+      "officialSections": [
+        "Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cc.gatech.edu/people/faculty",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Professor | Faculty | https://www.cc.gatech.edu/people/annie-anton",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "alberto-apostolico-1948-2015",
+      "rosterName": "Alberto Apostolico (1948-2015)",
+      "title": "Professor: In Memoriam",
+      "profileUrl": "https://www.cc.gatech.edu/people/alberto-apostolico-1948-2015",
+      "portraitUrl": "https://www.cc.gatech.edu/sites/default/files/styles/profile_150x180_/public/images/profiles/2025-06/alberto_apostolico_0.png?itok=oLQDzjV8",
+      "officialSections": [
+        "Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cc.gatech.edu/people/faculty",
+      "decision": "excluded_historical",
+      "reason": "官方职称或名录分组明确为荣休、退休或历史人员。",
+      "evidence": "Professor: In Memoriam | Faculty | https://www.cc.gatech.edu/people/alberto-apostolico-1948-2015"
+    },
+    {
+      "officialId": "rosa-arriaga",
+      "rosterName": "Rosa Arriaga",
+      "title": "Associate Professor",
+      "profileUrl": "https://www.cc.gatech.edu/people/rosa-arriaga",
+      "portraitUrl": "https://www.cc.gatech.edu/sites/default/files/styles/profile_150x180_/public/images/profiles/2025-06/arriaga_rosa.jpg?itok=O4nx5DqV",
+      "officialSections": [
+        "Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cc.gatech.edu/people/faculty",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Associate Professor | Faculty | https://www.cc.gatech.edu/people/rosa-arriaga",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "joy-arulraj",
+      "rosterName": "Joy Arulraj",
+      "title": "Associate Professor",
+      "profileUrl": "https://www.cc.gatech.edu/people/joy-arulraj",
+      "portraitUrl": "https://www.cc.gatech.edu/sites/default/files/styles/profile_150x180_/public/images/profiles/2025-06/joy_arulraj_0.png?itok=OtW0wsn8",
+      "officialSections": [
+        "Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cc.gatech.edu/people/faculty",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Associate Professor | Faculty | https://www.cc.gatech.edu/people/joy-arulraj",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "michael-bailey",
+      "rosterName": "Michael Bailey",
+      "title": "Professor",
+      "profileUrl": "https://www.cc.gatech.edu/people/michael-bailey",
+      "portraitUrl": "https://www.cc.gatech.edu/sites/default/files/styles/profile_150x180_/public/images/profiles/2026-01/m_bailey_0.jpg?itok=HTQ50Yo4",
+      "officialSections": [
+        "Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cc.gatech.edu/people/faculty",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Professor | Faculty | https://www.cc.gatech.edu/people/michael-bailey",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "teodora-baluta",
+      "rosterName": "Teodora Baluta",
+      "title": "Assistant Professor, Alan and Anne Taetle Early…",
+      "profileUrl": "https://www.cc.gatech.edu/people/teodora-baluta",
+      "portraitUrl": "https://www.cc.gatech.edu/sites/default/files/styles/profile_150x180_/public/images/profiles/2025-07/baluta.png?itok=YPMu0yhq",
+      "officialSections": [
+        "Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cc.gatech.edu/people/faculty",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Assistant Professor, Alan and Anne Taetle Early… | Faculty | https://www.cc.gatech.edu/people/teodora-baluta",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "suguman-bansal",
+      "rosterName": "Suguman Bansal",
+      "title": "Assistant Professor",
+      "profileUrl": "https://www.cc.gatech.edu/people/suguman-bansal",
+      "portraitUrl": "https://www.cc.gatech.edu/sites/default/files/styles/profile_150x180_/public/images/profiles/2026-08/bansalweb.jpg?itok=8Dlcgh7w",
+      "officialSections": [
+        "Faculty",
+        "ML PhD Program Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cc.gatech.edu/people/faculty",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Assistant Professor | Faculty · ML PhD Program Faculty | https://www.cc.gatech.edu/people/suguman-bansal",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "sababu-barashango",
+      "rosterName": "Sababu Barashango",
+      "title": "Constellations Fellow",
+      "profileUrl": "https://www.cc.gatech.edu/people/sababu-barashango",
+      "portraitUrl": "https://www.cc.gatech.edu/sites/default/files/styles/profile_150x180_/public/images/profiles/2025-06/sababu_barashango.png?itok=i48D3Sro",
+      "officialSections": [
+        "Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cc.gatech.edu/people/faculty",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Constellations Fellow | Faculty | https://www.cc.gatech.edu/people/sababu-barashango",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "shaowen-bardzell",
+      "rosterName": "Shaowen Bardzell",
+      "title": "Professor and Chair of Interactive Computing",
+      "profileUrl": "https://www.cc.gatech.edu/people/shaowen-bardzell",
+      "portraitUrl": "https://www.cc.gatech.edu/sites/default/files/styles/profile_150x180_/public/images/profiles/2025-06/shaowen_bardzell.png?itok=0CRHewol",
+      "officialSections": [
+        "Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cc.gatech.edu/people/faculty",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Professor and Chair of Interactive Computing | Faculty | https://www.cc.gatech.edu/people/shaowen-bardzell",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "michael-best",
+      "rosterName": "Michael Best",
+      "title": "Professor",
+      "profileUrl": "https://www.cc.gatech.edu/people/michael-best",
+      "portraitUrl": "https://www.cc.gatech.edu/sites/default/files/styles/profile_150x180_/public/images/profiles/2025-06/best.michael.jpeg?itok=GiGyL6B-",
+      "officialSections": [
+        "Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cc.gatech.edu/people/faculty",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Professor | Faculty | https://www.cc.gatech.edu/people/michael-best",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "ketan-bhardwaj",
+      "rosterName": "Ketan Bhardwaj",
+      "title": "Senior Research Engineer",
+      "profileUrl": "https://www.cc.gatech.edu/people/ketan-bhardwaj",
+      "portraitUrl": "https://www.cc.gatech.edu/sites/default/files/styles/profile_150x180_/public/images/profiles/2025-06/ketan_bhardwaj_0.png?itok=lXJVQGeO",
+      "officialSections": [
+        "Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cc.gatech.edu/people/faculty",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Senior Research Engineer | Faculty | https://www.cc.gatech.edu/people/ketan-bhardwaj",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "zachary-bischof",
+      "rosterName": "Zachary Bischof",
+      "title": "Senior Research Scientist",
+      "profileUrl": "https://www.cc.gatech.edu/people/zachary-bischof",
+      "portraitUrl": "https://www.cc.gatech.edu/sites/default/files/styles/profile_150x180_/public/default_images/Profile-Default.jpg?itok=LH4JPDtS",
+      "officialSections": [
+        "Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cc.gatech.edu/people/faculty",
+      "decision": "excluded_non_pi",
+      "reason": "官方职称或名录分组属于教学、兼职、附属、科研支持或其他非独立 PI 岗位。",
+      "evidence": "Senior Research Scientist | Faculty | https://www.cc.gatech.edu/people/zachary-bischof"
+    },
+    {
+      "officialId": "kamau-bobb",
+      "rosterName": "Kamau Bobb",
+      "title": "Senior Director, Constellations Center for Equity…",
+      "profileUrl": "https://www.cc.gatech.edu/people/kamau-bobb",
+      "portraitUrl": "https://www.cc.gatech.edu/sites/default/files/styles/profile_150x180_/public/images/profiles/2026-04/kamau_bobb_web.jpg?itok=9cXjTnDp",
+      "officialSections": [
+        "Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cc.gatech.edu/people/faculty",
+      "decision": "excluded_non_pi",
+      "reason": "官方卡片仅显示行政/项目领导职务，未显示独立教授或 PI 职称。",
+      "evidence": "Senior Director, Constellations Center for Equity… | Faculty | https://www.cc.gatech.edu/people/kamau-bobb"
+    },
+    {
+      "officialId": "alexandra-boldyreva",
+      "rosterName": "Alexandra Boldyreva",
+      "title": "Professor, Associate Chair for Graduate Studies…",
+      "profileUrl": "https://www.cc.gatech.edu/people/alexandra-boldyreva",
+      "portraitUrl": "https://www.cc.gatech.edu/sites/default/files/styles/profile_150x180_/public/images/profiles/2025-06/alexandra_boldyreva_0.png?itok=Ha9Ox7cX",
+      "officialSections": [
+        "Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cc.gatech.edu/people/faculty",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Professor, Associate Chair for Graduate Studies… | Faculty | https://www.cc.gatech.edu/people/alexandra-boldyreva",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "rodrigo-borela-valente",
+      "rosterName": "Rodrigo Borela Valente",
+      "title": "Lecturer",
+      "profileUrl": "https://www.cc.gatech.edu/people/rodrigo-borela-valente",
+      "portraitUrl": "https://www.cc.gatech.edu/sites/default/files/styles/profile_150x180_/public/images/profiles/2025-06/rodcopy.jpg?itok=MANtTKVd",
+      "officialSections": [
+        "Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cc.gatech.edu/people/faculty",
+      "decision": "excluded_non_pi",
+      "reason": "官方职称或名录分组属于教学、兼职、附属、科研支持或其他非独立 PI 岗位。",
+      "evidence": "Lecturer | Faculty | https://www.cc.gatech.edu/people/rodrigo-borela-valente"
+    },
+    {
+      "officialId": "mark-borodovsky",
+      "rosterName": "Mark Borodovsky",
+      "title": "Regents' Professor, Joint with Wallace H.…",
+      "profileUrl": "https://www.cc.gatech.edu/people/mark-borodovsky",
+      "portraitUrl": "https://www.cc.gatech.edu/sites/default/files/styles/profile_150x180_/public/images/profiles/2025-06/mark_borodovsky_0.png?itok=OW4uzJr4",
+      "officialSections": [
+        "Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cc.gatech.edu/people/faculty",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Regents' Professor, Joint with Wallace H.… | Faculty | https://www.cc.gatech.edu/people/mark-borodovsky",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "oliver-brdiczka",
+      "rosterName": "Oliver Brdiczka",
+      "title": "Adjunct Professor in CSE",
+      "profileUrl": "https://www.cc.gatech.edu/people/oliver-brdiczka",
+      "portraitUrl": "https://www.cc.gatech.edu/sites/default/files/styles/profile_150x180_/public/images/profiles/2021-10/oliver_brdiczka_0.png?itok=VvIMRsXl",
+      "officialSections": [
+        "Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cc.gatech.edu/people/faculty",
+      "decision": "excluded_non_pi",
+      "reason": "官方职称或名录分组属于教学、兼职、附属、科研支持或其他非独立 PI 岗位。",
+      "evidence": "Adjunct Professor in CSE | Faculty | https://www.cc.gatech.edu/people/oliver-brdiczka"
+    },
+    {
+      "officialId": "gerandy-brito",
+      "rosterName": "Gerandy Brito",
+      "title": "Lecturer",
+      "profileUrl": "https://www.cc.gatech.edu/people/gerandy-brito",
+      "portraitUrl": "https://www.cc.gatech.edu/sites/default/files/styles/profile_150x180_/public/images/profiles/2025-06/gerandy1.jpg?itok=sA18im1w",
+      "officialSections": [
+        "Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cc.gatech.edu/people/faculty",
+      "decision": "excluded_non_pi",
+      "reason": "官方职称或名录分组属于教学、兼职、附属、科研支持或其他非独立 PI 岗位。",
+      "evidence": "Lecturer | Faculty | https://www.cc.gatech.edu/people/gerandy-brito"
+    },
+    {
+      "officialId": "david-brownell",
+      "rosterName": "David Brownell",
+      "title": "Protector of the Practice",
+      "profileUrl": "https://www.cc.gatech.edu/people/david-brownell",
+      "portraitUrl": "https://www.cc.gatech.edu/sites/default/files/styles/profile_150x180_/public/default_images/Profile-Default.jpg?itok=LH4JPDtS",
+      "officialSections": [
+        "Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cc.gatech.edu/people/faculty",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Protector of the Practice | Faculty | https://www.cc.gatech.edu/people/david-brownell",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "carrie-bruce",
+      "rosterName": "Carrie Bruce",
+      "title": "Principal Research Scientist, Assistant Director…",
+      "profileUrl": "https://www.cc.gatech.edu/people/carrie-bruce",
+      "portraitUrl": "https://www.cc.gatech.edu/sites/default/files/styles/profile_150x180_/public/images/profiles/2025-06/bruce_carrie_0.jpg?itok=v6oxjPD8",
+      "officialSections": [
+        "Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cc.gatech.edu/people/faculty",
+      "decision": "excluded_non_pi",
+      "reason": "官方职称或名录分组属于教学、兼职、附属、科研支持或其他非独立 PI 岗位。",
+      "evidence": "Principal Research Scientist, Assistant Director… | Faculty | https://www.cc.gatech.edu/people/carrie-bruce"
+    },
+    {
+      "officialId": "amy-bruckman",
+      "rosterName": "Amy Bruckman",
+      "title": "Regents' Professor and Senior Associate Chair",
+      "profileUrl": "https://www.cc.gatech.edu/people/amy-bruckman",
+      "portraitUrl": "https://www.cc.gatech.edu/sites/default/files/styles/profile_150x180_/public/images/profiles/2025-06/bruckman_amy.jpeg?itok=VCuHR7-n",
+      "officialSections": [
+        "Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cc.gatech.edu/people/faculty",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Regents' Professor and Senior Associate Chair | Faculty | https://www.cc.gatech.edu/people/amy-bruckman",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "elijah-cameron",
+      "rosterName": "Elijah Cameron",
+      "title": "Director of Assessment and Quantitative Services",
+      "profileUrl": "https://www.cc.gatech.edu/people/elijah-cameron",
+      "portraitUrl": "https://www.cc.gatech.edu/sites/default/files/styles/profile_150x180_/public/images/profiles/2025-06/elijah_cameron_0.png?itok=eXYF90Ih",
+      "officialSections": [
+        "Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cc.gatech.edu/people/faculty",
+      "decision": "excluded_non_pi",
+      "reason": "官方卡片仅显示行政/项目领导职务，未显示独立教授或 PI 职称。",
+      "evidence": "Director of Assessment and Quantitative Services | Faculty | https://www.cc.gatech.edu/people/elijah-cameron"
+    },
+    {
+      "officialId": "umit-v-catalyurek",
+      "rosterName": "Ümit V. Çatalyürek",
+      "title": "Professor",
+      "profileUrl": "https://www.cc.gatech.edu/people/umit-v-catalyurek",
+      "portraitUrl": "https://www.cc.gatech.edu/sites/default/files/styles/profile_150x180_/public/images/profiles/2026-08/umit_catalyurek_1.png?itok=XMeuAKia",
+      "officialSections": [
+        "Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cc.gatech.edu/people/faculty",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Professor | Faculty | https://www.cc.gatech.edu/people/umit-v-catalyurek",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "duen-horng-polo-chau",
+      "rosterName": "Duen Horng \"Polo\" Chau",
+      "title": "Professor, Associate Chair",
+      "profileUrl": "https://www.cc.gatech.edu/people/duen-horng-polo-chau",
+      "portraitUrl": "https://www.cc.gatech.edu/sites/default/files/styles/profile_150x180_/public/images/profiles/2026-08/polo_chau_0.png?itok=hXR4bB-u",
+      "officialSections": [
+        "Faculty",
+        "ML PhD Program Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cc.gatech.edu/people/faculty",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Professor, Associate Chair | Faculty · ML PhD Program Faculty | https://www.cc.gatech.edu/people/duen-horng-polo-chau",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "peng-chen",
+      "rosterName": "Peng Chen",
+      "title": "Assistant Professor",
+      "profileUrl": "https://www.cc.gatech.edu/people/peng-chen",
+      "portraitUrl": "https://www.cc.gatech.edu/sites/default/files/styles/profile_150x180_/public/images/profiles/2026-08/pc_new_profile.jpg?itok=zaldK0Ve",
+      "officialSections": [
+        "Faculty",
+        "ML PhD Program Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cc.gatech.edu/people/faculty",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Assistant Professor | Faculty · ML PhD Program Faculty | https://www.cc.gatech.edu/people/peng-chen",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "zongchen-chen",
+      "rosterName": "Zongchen Chen",
+      "title": "Assistant Professor",
+      "profileUrl": "https://www.cc.gatech.edu/people/zongchen-chen",
+      "portraitUrl": "https://www.cc.gatech.edu/sites/default/files/styles/profile_150x180_/public/images/profiles/2025-06/zongchen-chen.jpg?itok=3zwj2eoe",
+      "officialSections": [
+        "Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cc.gatech.edu/people/faculty",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Assistant Professor | Faculty | https://www.cc.gatech.edu/people/zongchen-chen",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "sonia-chernova",
+      "rosterName": "Sonia Chernova",
+      "title": "Professor",
+      "profileUrl": "https://www.cc.gatech.edu/people/sonia-chernova",
+      "portraitUrl": "https://www.cc.gatech.edu/sites/default/files/styles/profile_150x180_/public/images/profiles/2026-08/sonia_chernova_0.png?itok=d9u_FEfQ",
+      "officialSections": [
+        "Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cc.gatech.edu/people/faculty",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Professor | Faculty | https://www.cc.gatech.edu/people/sonia-chernova",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "elizabeth-cherry",
+      "rosterName": "Elizabeth Cherry",
+      "title": "Professor, Associate Dean for Graduate Education",
+      "profileUrl": "https://www.cc.gatech.edu/people/elizabeth-cherry",
+      "portraitUrl": "https://www.cc.gatech.edu/sites/default/files/styles/profile_150x180_/public/images/profiles/2026-08/elizabeth_cherry_1.png?itok=-FVW5HXq",
+      "officialSections": [
+        "Faculty",
+        "ML PhD Program Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cc.gatech.edu/people/faculty",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Professor, Associate Dean for Graduate Education | Faculty · ML PhD Program Faculty | https://www.cc.gatech.edu/people/elizabeth-cherry",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "animesh-chhotaray",
+      "rosterName": "Animesh Chhotaray",
+      "title": "Research Scientist I",
+      "profileUrl": "https://www.cc.gatech.edu/people/animesh-chhotaray",
+      "portraitUrl": "https://www.cc.gatech.edu/sites/default/files/styles/profile_150x180_/public/default_images/Profile-Default.jpg?itok=LH4JPDtS",
+      "officialSections": [
+        "Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cc.gatech.edu/people/faculty",
+      "decision": "excluded_non_pi",
+      "reason": "官方职称或名录分组属于教学、兼职、附属、科研支持或其他非独立 PI 岗位。",
+      "evidence": "Research Scientist I | Faculty | https://www.cc.gatech.edu/people/animesh-chhotaray"
+    },
+    {
+      "officialId": "glen-chou",
+      "rosterName": "Glen Chou",
+      "title": "Assistant Professor in SCP, Joint with the Daniel…",
+      "profileUrl": "https://www.cc.gatech.edu/people/glen-chou",
+      "portraitUrl": "https://www.cc.gatech.edu/sites/default/files/styles/profile_150x180_/public/images/profiles/2026-08/image004.png?itok=voW-hP9T",
+      "officialSections": [
+        "Faculty",
+        "ML PhD Program Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cc.gatech.edu/people/faculty",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Assistant Professor in SCP, Joint with the Daniel… | Faculty · ML PhD Program Faculty | https://www.cc.gatech.edu/people/glen-chou",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "edmond-chow",
+      "rosterName": "Edmond Chow",
+      "title": "Professor",
+      "profileUrl": "https://www.cc.gatech.edu/people/edmond-chow",
+      "portraitUrl": "https://www.cc.gatech.edu/sites/default/files/styles/profile_150x180_/public/images/profiles/2026-08/edmond_chow_profile.png?itok=JQ2aZ7La",
+      "officialSections": [
+        "Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cc.gatech.edu/people/faculty",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Professor | Faculty | https://www.cc.gatech.edu/people/edmond-chow",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "pak-ho-chung",
+      "rosterName": "Pak Ho Chung",
+      "title": "Research Associate II",
+      "profileUrl": "https://www.cc.gatech.edu/people/pak-ho-chung",
+      "portraitUrl": "https://www.cc.gatech.edu/sites/default/files/styles/profile_150x180_/public/default_images/Profile-Default.jpg?itok=LH4JPDtS",
+      "officialSections": [
+        "Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cc.gatech.edu/people/faculty",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Research Associate II | Faculty | https://www.cc.gatech.edu/people/pak-ho-chung",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "dante-ciolfi",
+      "rosterName": "Dante Ciolfi",
+      "title": "Research Associate II",
+      "profileUrl": "https://www.cc.gatech.edu/people/dante-ciolfi",
+      "portraitUrl": "https://www.cc.gatech.edu/sites/default/files/styles/profile_150x180_/public/images/profiles/2025-06/dante_ciolfi_web.jpg?itok=PrBWjuFJ",
+      "officialSections": [
+        "Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cc.gatech.edu/people/faculty",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Research Associate II | Faculty | https://www.cc.gatech.edu/people/dante-ciolfi",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "russell-clark",
+      "rosterName": "Russell Clark",
+      "title": "Senior Research Scientist",
+      "profileUrl": "https://www.cc.gatech.edu/people/russell-clark",
+      "portraitUrl": "https://www.cc.gatech.edu/sites/default/files/styles/profile_150x180_/public/images/profiles/2025-06/russell_clark_0.png?itok=O52Lmpee",
+      "officialSections": [
+        "Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cc.gatech.edu/people/faculty",
+      "decision": "excluded_non_pi",
+      "reason": "官方职称或名录分组属于教学、兼职、附属、科研支持或其他非独立 PI 岗位。",
+      "evidence": "Senior Research Scientist | Faculty | https://www.cc.gatech.edu/people/russell-clark"
+    },
+    {
+      "officialId": "thomas-conte",
+      "rosterName": "Thomas Conte",
+      "title": "Associate Dean for Research; Professor, Joint…",
+      "profileUrl": "https://www.cc.gatech.edu/people/thomas-conte",
+      "portraitUrl": "https://www.cc.gatech.edu/sites/default/files/styles/profile_150x180_/public/images/profiles/2024-09/thomascontesm.jpg?itok=K2bwHiB7",
+      "officialSections": [
+        "Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cc.gatech.edu/people/faculty",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Associate Dean for Research; Professor, Joint… | Faculty | https://www.cc.gatech.edu/people/thomas-conte",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "bryan-cox-0",
+      "rosterName": "Bryan Cox",
+      "title": "Research Associate II",
+      "profileUrl": "https://www.cc.gatech.edu/people/bryan-cox-0",
+      "portraitUrl": "https://www.cc.gatech.edu/sites/default/files/styles/profile_150x180_/public/default_images/Profile-Default.jpg?itok=LH4JPDtS",
+      "officialSections": [
+        "Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cc.gatech.edu/people/faculty",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Research Associate II | Faculty | https://www.cc.gatech.edu/people/bryan-cox-0",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "courtney-crooks",
+      "rosterName": "Courtney Crooks",
+      "title": "GTRI Principal Research Scientist",
+      "profileUrl": "https://www.cc.gatech.edu/people/courtney-crooks",
+      "portraitUrl": "https://www.cc.gatech.edu/sites/default/files/styles/profile_150x180_/public/images/profiles/2026-02/courtney_crooks_web.jpg?itok=UzWTYaZA",
+      "officialSections": [
+        "Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cc.gatech.edu/people/faculty",
+      "decision": "excluded_non_pi",
+      "reason": "官方职称或名录分组属于教学、兼职、附属、科研支持或其他非独立 PI 岗位。",
+      "evidence": "GTRI Principal Research Scientist | Faculty | https://www.cc.gatech.edu/people/courtney-crooks"
+    },
+    {
+      "officialId": "alexandros-daglis",
+      "rosterName": "Alexandros Daglis",
+      "title": "Associate Professor",
+      "profileUrl": "https://www.cc.gatech.edu/people/alexandros-daglis",
+      "portraitUrl": "https://www.cc.gatech.edu/sites/default/files/styles/profile_150x180_/public/images/profiles/2025-09/alexandros_daglis_0.png?itok=inzzHXDN",
+      "officialSections": [
+        "Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cc.gatech.edu/people/faculty",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Associate Professor | Faculty | https://www.cc.gatech.edu/people/alexandros-daglis",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "bo-dai",
+      "rosterName": "Bo Dai",
+      "title": "Assistant Professor",
+      "profileUrl": "https://www.cc.gatech.edu/people/bo-dai",
+      "portraitUrl": "https://www.cc.gatech.edu/sites/default/files/styles/profile_150x180_/public/images/profiles/2026-08/bo_dai_profile.jpg?itok=90ZezDNY",
+      "officialSections": [
+        "Faculty",
+        "ML PhD Program Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cc.gatech.edu/people/faculty",
+      "decision": "included_existing",
+      "atlasPersonId": "bo-dai-hku",
+      "reason": "符合范围，且规范化姓名可与当前图谱人物唯一匹配。",
+      "evidence": "Assistant Professor | Faculty · ML PhD Program Faculty | https://www.cc.gatech.edu/people/bo-dai"
+    },
+    {
+      "officialId": "alberto-dainotti",
+      "rosterName": "Alberto Dainotti",
+      "title": "Associate Professor",
+      "profileUrl": "https://www.cc.gatech.edu/people/alberto-dainotti",
+      "portraitUrl": "https://www.cc.gatech.edu/sites/default/files/styles/profile_150x180_/public/images/profiles/2026-02/alberto.cropped.jpg?itok=NM_QAVKw",
+      "officialSections": [
+        "Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cc.gatech.edu/people/faculty",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Associate Professor | Faculty | https://www.cc.gatech.edu/people/alberto-dainotti",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "martin-davis-jr",
+      "rosterName": "Martin Davis, Jr.",
+      "title": "Senior Academic Professional",
+      "profileUrl": "https://www.cc.gatech.edu/people/martin-davis-jr",
+      "portraitUrl": "https://www.cc.gatech.edu/sites/default/files/styles/profile_150x180_/public/images/profiles/2025-06/martin_davis_0.png?itok=h5CoCLyP",
+      "officialSections": [
+        "Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cc.gatech.edu/people/faculty",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Senior Academic Professional | Faculty | https://www.cc.gatech.edu/people/martin-davis-jr",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "munmun-de-choudhury",
+      "rosterName": "Munmun De Choudhury",
+      "title": "Professor",
+      "profileUrl": "https://www.cc.gatech.edu/people/munmun-de-choudhury",
+      "portraitUrl": "https://www.cc.gatech.edu/sites/default/files/styles/profile_150x180_/public/images/profiles/2026-08/munmun_de_choudhury.jpg?itok=B033NdG3",
+      "officialSections": [
+        "Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cc.gatech.edu/people/faculty",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Professor | Faculty | https://www.cc.gatech.edu/people/munmun-de-choudhury",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "frank-dellaert",
+      "rosterName": "Frank Dellaert",
+      "title": "Professor",
+      "profileUrl": "https://www.cc.gatech.edu/people/frank-dellaert",
+      "portraitUrl": "https://www.cc.gatech.edu/sites/default/files/styles/profile_150x180_/public/images/profiles/2026-08/frank_dellaert_0.png?itok=NqeC-B3L",
+      "officialSections": [
+        "Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cc.gatech.edu/people/faculty",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Professor | Faculty | https://www.cc.gatech.edu/people/frank-dellaert",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "richard-demillo",
+      "rosterName": "Richard DeMillo",
+      "title": "Professor, Founding SCP Chair, and Charlotte B.…",
+      "profileUrl": "https://www.cc.gatech.edu/people/richard-demillo",
+      "portraitUrl": "https://www.cc.gatech.edu/sites/default/files/styles/profile_150x180_/public/images/profiles/2025-06/rich_demillo_0.png?itok=PBWst1GC",
+      "officialSections": [
+        "Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cc.gatech.edu/people/faculty",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Professor, Founding SCP Chair, and Charlotte B.… | Faculty | https://www.cc.gatech.edu/people/richard-demillo",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "ashutosh-dhekne",
+      "rosterName": "Ashutosh Dhekne",
+      "title": "Associate Professor",
+      "profileUrl": "https://www.cc.gatech.edu/people/ashutosh-dhekne",
+      "portraitUrl": "https://www.cc.gatech.edu/sites/default/files/styles/profile_150x180_/public/images/profiles/2025-09/ashutosh_dhekne_0.png?itok=RhbOq5gk",
+      "officialSections": [
+        "Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cc.gatech.edu/people/faculty",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Associate Professor | Faculty | https://www.cc.gatech.edu/people/ashutosh-dhekne",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "lien-diaz",
+      "rosterName": "Lien Diaz",
+      "title": "Director of Educational Innovation and Leadership…",
+      "profileUrl": "https://www.cc.gatech.edu/people/lien-diaz",
+      "portraitUrl": "https://www.cc.gatech.edu/sites/default/files/styles/profile_150x180_/public/images/profiles/2025-06/lien_diaz_0.png?itok=SiHidcC6",
+      "officialSections": [
+        "Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cc.gatech.edu/people/faculty",
+      "decision": "excluded_non_pi",
+      "reason": "官方卡片仅显示行政/项目领导职务，未显示独立教授或 PI 职称。",
+      "evidence": "Director of Educational Innovation and Leadership… | Faculty | https://www.cc.gatech.edu/people/lien-diaz"
+    },
+    {
+      "officialId": "betsy-disalvo",
+      "rosterName": "Betsy DiSalvo",
+      "title": "Professor",
+      "profileUrl": "https://www.cc.gatech.edu/people/betsy-disalvo",
+      "portraitUrl": "https://www.cc.gatech.edu/sites/default/files/styles/profile_150x180_/public/images/profiles/2025-06/disalvo_betsy.jpeg?itok=86fBBWKr",
+      "officialSections": [
+        "Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cc.gatech.edu/people/faculty",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Professor | Faculty | https://www.cc.gatech.edu/people/betsy-disalvo",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "carl-disalvo",
+      "rosterName": "Carl DiSalvo",
+      "title": "Professor",
+      "profileUrl": "https://www.cc.gatech.edu/people/carl-disalvo",
+      "portraitUrl": "https://www.cc.gatech.edu/sites/default/files/styles/profile_150x180_/public/images/profiles/2025-06/disalvo_carl.jpeg?itok=CljqXBlA",
+      "officialSections": [
+        "Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cc.gatech.edu/people/faculty",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Professor | Faculty | https://www.cc.gatech.edu/people/carl-disalvo",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "lynn-dombrowski",
+      "rosterName": "Lynn Dombrowski",
+      "title": "Associate Professor",
+      "profileUrl": "https://www.cc.gatech.edu/people/lynn-dombrowski",
+      "portraitUrl": "https://www.cc.gatech.edu/sites/default/files/styles/profile_150x180_/public/images/profiles/2025-06/lynndombrowski.jpg?itok=fN6HsczM",
+      "officialSections": [
+        "Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cc.gatech.edu/people/faculty",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Associate Professor | Faculty | https://www.cc.gatech.edu/people/lynn-dombrowski",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "gilbert-dominguez",
+      "rosterName": "Gilbert Dominguez",
+      "title": "Research Technologist I",
+      "profileUrl": "https://www.cc.gatech.edu/people/gilbert-dominguez",
+      "portraitUrl": "https://www.cc.gatech.edu/sites/default/files/styles/profile_150x180_/public/default_images/Profile-Default.jpg?itok=LH4JPDtS",
+      "officialSections": [
+        "Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cc.gatech.edu/people/faculty",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Research Technologist I | Faculty | https://www.cc.gatech.edu/people/gilbert-dominguez",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "jon-duke",
+      "rosterName": "Jon Duke",
+      "title": "Principal Research Scientist, Joint with GTRI",
+      "profileUrl": "https://www.cc.gatech.edu/people/jon-duke",
+      "portraitUrl": "https://www.cc.gatech.edu/sites/default/files/styles/profile_150x180_/public/images/profiles/2021-10/jon_duke_0.png?itok=Uv_16hXk",
+      "officialSections": [
+        "Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cc.gatech.edu/people/faculty",
+      "decision": "excluded_non_pi",
+      "reason": "官方职称或名录分组属于教学、兼职、附属、科研支持或其他非独立 PI 岗位。",
+      "evidence": "Principal Research Scientist, Joint with GTRI | Faculty | https://www.cc.gatech.edu/people/jon-duke"
+    },
+    {
+      "officialId": "alex-duncan",
+      "rosterName": "Alex Duncan",
+      "title": "Senior Director of Student Experience, OMSCS",
+      "profileUrl": "https://www.cc.gatech.edu/people/alex-duncan",
+      "portraitUrl": "https://www.cc.gatech.edu/sites/default/files/styles/profile_150x180_/public/default_images/Profile-Default.jpg?itok=LH4JPDtS",
+      "officialSections": [
+        "Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cc.gatech.edu/people/faculty",
+      "decision": "excluded_non_pi",
+      "reason": "官方卡片仅显示行政/项目领导职务，未显示独立教授或 PI 职称。",
+      "evidence": "Senior Director of Student Experience, OMSCS | Faculty | https://www.cc.gatech.edu/people/alex-duncan"
+    },
+    {
+      "officialId": "keith-edwards",
+      "rosterName": "Keith Edwards",
+      "title": "Professor and Director of GVU",
+      "profileUrl": "https://www.cc.gatech.edu/people/keith-edwards",
+      "portraitUrl": "https://www.cc.gatech.edu/sites/default/files/styles/profile_150x180_/public/images/profiles/2025-06/keith_edwards.jpg?itok=InMh2BR0",
+      "officialSections": [
+        "Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cc.gatech.edu/people/faculty",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Professor and Director of GVU | Faculty | https://www.cc.gatech.edu/people/keith-edwards",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "bobbie-eicher-0",
+      "rosterName": "Bobbie Eicher",
+      "title": "Research Associate I",
+      "profileUrl": "https://www.cc.gatech.edu/people/bobbie-eicher-0",
+      "portraitUrl": "https://www.cc.gatech.edu/sites/default/files/styles/profile_150x180_/public/default_images/Profile-Default.jpg?itok=LH4JPDtS",
+      "officialSections": [
+        "Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cc.gatech.edu/people/faculty",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Research Associate I | Faculty | https://www.cc.gatech.edu/people/bobbie-eicher-0",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "greg-eisenhauer",
+      "rosterName": "Greg Eisenhauer",
+      "title": "Senior Research Scientist",
+      "profileUrl": "https://www.cc.gatech.edu/people/greg-eisenhauer",
+      "portraitUrl": "https://www.cc.gatech.edu/sites/default/files/styles/profile_150x180_/public/images/profiles/2025-06/greg_eisenhauer_0.png?itok=Rx2W6Ie0",
+      "officialSections": [
+        "Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cc.gatech.edu/people/faculty",
+      "decision": "excluded_non_pi",
+      "reason": "官方职称或名录分组属于教学、兼职、附属、科研支持或其他非独立 PI 岗位。",
+      "evidence": "Senior Research Scientist | Faculty | https://www.cc.gatech.edu/people/greg-eisenhauer"
+    },
+    {
+      "officialId": "alex-endert",
+      "rosterName": "Alex Endert",
+      "title": "Professor",
+      "profileUrl": "https://www.cc.gatech.edu/people/alex-endert",
+      "portraitUrl": "https://www.cc.gatech.edu/sites/default/files/styles/profile_150x180_/public/images/profiles/2026-08/alex_endert.jpg?itok=YgZU1CzO",
+      "officialSections": [
+        "Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cc.gatech.edu/people/faculty",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Professor | Faculty | https://www.cc.gatech.edu/people/alex-endert",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "irfan-essa",
+      "rosterName": "Irfan Essa",
+      "title": "Distinguished Professor",
+      "profileUrl": "https://www.cc.gatech.edu/people/irfan-essa",
+      "portraitUrl": "https://www.cc.gatech.edu/sites/default/files/styles/profile_150x180_/public/images/profiles/2026-08/irfan_essa_0.png?itok=lEE8ELMv",
+      "officialSections": [
+        "Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cc.gatech.edu/people/faculty",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Distinguished Professor | Faculty | https://www.cc.gatech.edu/people/irfan-essa",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "frederic-faulkner",
+      "rosterName": "Frederic Faulkner",
+      "title": "Lecturer",
+      "profileUrl": "https://www.cc.gatech.edu/people/frederic-faulkner",
+      "portraitUrl": "https://www.cc.gatech.edu/sites/default/files/styles/profile_150x180_/public/images/profiles/2025-06/frederic2.jpg?itok=INp5FV1X",
+      "officialSections": [
+        "Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cc.gatech.edu/people/faculty",
+      "decision": "excluded_non_pi",
+      "reason": "官方职称或名录分组属于教学、兼职、附属、科研支持或其他非独立 PI 岗位。",
+      "evidence": "Lecturer | Faculty | https://www.cc.gatech.edu/people/frederic-faulkner"
+    },
+    {
+      "officialId": "pedro-guillermo-feijoo-garcia",
+      "rosterName": "Pedro Guillermo Feijóo-García",
+      "title": "Lecturer",
+      "profileUrl": "https://www.cc.gatech.edu/people/pedro-guillermo-feijoo-garcia",
+      "portraitUrl": "https://www.cc.gatech.edu/sites/default/files/styles/profile_150x180_/public/images/profiles/2026-02/whatsapp-image-2023-11-25-at-7-54-27-pm-1_orig.jpeg?itok=zcQloN3K",
+      "officialSections": [
+        "Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cc.gatech.edu/people/faculty",
+      "decision": "excluded_non_pi",
+      "reason": "官方职称或名录分组属于教学、兼职、附属、科研支持或其他非独立 PI 岗位。",
+      "evidence": "Lecturer | Faculty | https://www.cc.gatech.edu/people/pedro-guillermo-feijoo-garcia"
+    },
+    {
+      "officialId": "robin-fievet",
+      "rosterName": "Robin Fievet",
+      "title": "Senior Research Engineer",
+      "profileUrl": "https://www.cc.gatech.edu/people/robin-fievet",
+      "portraitUrl": "https://www.cc.gatech.edu/sites/default/files/styles/profile_150x180_/public/default_images/Profile-Default.jpg?itok=LH4JPDtS",
+      "officialSections": [
+        "Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cc.gatech.edu/people/faculty",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Senior Research Engineer | Faculty | https://www.cc.gatech.edu/people/robin-fievet",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "kelly-ann-fitzpatrick",
+      "rosterName": "Kelly Ann Fitzpatrick",
+      "title": "Senior Lecturer",
+      "profileUrl": "https://www.cc.gatech.edu/people/kelly-ann-fitzpatrick",
+      "portraitUrl": "https://www.cc.gatech.edu/sites/default/files/styles/profile_150x180_/public/images/profiles/2026-08/kelly.jpeg?itok=CawEB1fP",
+      "officialSections": [
+        "Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cc.gatech.edu/people/faculty",
+      "decision": "excluded_non_pi",
+      "reason": "官方职称或名录分组属于教学、兼职、附属、科研支持或其他非独立 PI 岗位。",
+      "evidence": "Senior Lecturer | Faculty | https://www.cc.gatech.edu/people/kelly-ann-fitzpatrick"
+    },
+    {
+      "officialId": "james-foley",
+      "rosterName": "James Foley",
+      "title": "Professor and Fleming Chair Emeritus",
+      "profileUrl": "https://www.cc.gatech.edu/people/james-foley",
+      "portraitUrl": "https://www.cc.gatech.edu/sites/default/files/styles/profile_150x180_/public/images/profiles/2025-06/james_foley_0.png?itok=cMCexZ4_",
+      "officialSections": [
+        "Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cc.gatech.edu/people/faculty",
+      "decision": "excluded_historical",
+      "reason": "官方职称或名录分组明确为荣休、退休或历史人员。",
+      "evidence": "Professor and Fleming Chair Emeritus | Faculty | https://www.cc.gatech.edu/people/james-foley"
+    },
+    {
+      "officialId": "daniel-forsyth",
+      "rosterName": "Daniel Forsyth",
+      "title": "Senior Lecturer",
+      "profileUrl": "https://www.cc.gatech.edu/people/daniel-forsyth",
+      "portraitUrl": "https://www.cc.gatech.edu/sites/default/files/styles/profile_150x180_/public/default_images/Profile-Default.jpg?itok=LH4JPDtS",
+      "officialSections": [
+        "Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cc.gatech.edu/people/faculty",
+      "decision": "excluded_non_pi",
+      "reason": "官方职称或名录分组属于教学、兼职、附属、科研支持或其他非独立 PI 岗位。",
+      "evidence": "Senior Lecturer | Faculty | https://www.cc.gatech.edu/people/daniel-forsyth"
+    },
+    {
+      "officialId": "terry-foster",
+      "rosterName": "Terry Foster",
+      "title": "Research Associate I",
+      "profileUrl": "https://www.cc.gatech.edu/people/terry-foster",
+      "portraitUrl": "https://www.cc.gatech.edu/sites/default/files/styles/profile_150x180_/public/images/profiles/2025-06/terry_foster.png?itok=NP76qeUt",
+      "officialSections": [
+        "Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cc.gatech.edu/people/faculty",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Research Associate I | Faculty | https://www.cc.gatech.edu/people/terry-foster",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "paul-fowler",
+      "rosterName": "Paul Fowler",
+      "title": "Senior Research Associate",
+      "profileUrl": "https://www.cc.gatech.edu/people/paul-fowler",
+      "portraitUrl": "https://www.cc.gatech.edu/sites/default/files/styles/profile_150x180_/public/default_images/Profile-Default.jpg?itok=LH4JPDtS",
+      "officialSections": [
+        "Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cc.gatech.edu/people/faculty",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Senior Research Associate | Faculty | https://www.cc.gatech.edu/people/paul-fowler",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "peter-freeman",
+      "rosterName": "Peter Freeman",
+      "title": "Founding Dean and Dean Emeritus",
+      "profileUrl": "https://www.cc.gatech.edu/people/peter-freeman",
+      "portraitUrl": "https://www.cc.gatech.edu/sites/default/files/styles/profile_150x180_/public/images/profiles/2025-06/peter_freeman_0.png?itok=dPRbz8Aq",
+      "officialSections": [
+        "Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cc.gatech.edu/people/faculty",
+      "decision": "excluded_historical",
+      "reason": "官方职称或名录分组明确为荣休、退休或历史人员。",
+      "evidence": "Founding Dean and Dean Emeritus | Faculty | https://www.cc.gatech.edu/people/peter-freeman"
+    },
+    {
+      "officialId": "richard-fujimoto",
+      "rosterName": "Richard Fujimoto",
+      "title": "Regents' Professor Emeritus",
+      "profileUrl": "https://www.cc.gatech.edu/people/richard-fujimoto",
+      "portraitUrl": "https://www.cc.gatech.edu/sites/default/files/styles/profile_150x180_/public/images/profiles/richard_fujimoto_2.jpg?itok=vcZVEbE5",
+      "officialSections": [
+        "Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cc.gatech.edu/people/faculty",
+      "decision": "excluded_historical",
+      "reason": "官方职称或名录分组明确为荣休、退休或历史人员。",
+      "evidence": "Regents' Professor Emeritus | Faculty | https://www.cc.gatech.edu/people/richard-fujimoto"
+    },
+    {
+      "officialId": "victor-fung",
+      "rosterName": "Victor Fung",
+      "title": "Assistant Professor",
+      "profileUrl": "https://www.cc.gatech.edu/people/victor-fung",
+      "portraitUrl": "https://www.cc.gatech.edu/sites/default/files/styles/profile_150x180_/public/images/profiles/2026-08/victor_fung_profile.jpg?itok=UAz_YR9O",
+      "officialSections": [
+        "Faculty",
+        "ML PhD Program Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cc.gatech.edu/people/faculty",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Assistant Professor | Faculty · ML PhD Program Faculty | https://www.cc.gatech.edu/people/victor-fung",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "merrick-furst",
+      "rosterName": "Merrick Furst",
+      "title": "Distinguished Professor",
+      "profileUrl": "https://www.cc.gatech.edu/people/merrick-furst",
+      "portraitUrl": "https://www.cc.gatech.edu/sites/default/files/styles/profile_150x180_/public/images/profiles/2025-06/merrick_furst_0.png?itok=deUVozQV",
+      "officialSections": [
+        "Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cc.gatech.edu/people/faculty",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Distinguished Professor | Faculty | https://www.cc.gatech.edu/people/merrick-furst",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "zvi-galil",
+      "rosterName": "Zvi Galil",
+      "title": "Former John P. Imlay, Jr. Dean of Computing,…",
+      "profileUrl": "https://www.cc.gatech.edu/people/zvi-galil",
+      "portraitUrl": "https://www.cc.gatech.edu/sites/default/files/styles/profile_150x180_/public/images/profiles/2026-04/zvi_galil_0.png?itok=jw4KdoBg",
+      "officialSections": [
+        "Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cc.gatech.edu/people/faculty",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Former John P. Imlay, Jr. Dean of Computing,… | Faculty | https://www.cc.gatech.edu/people/zvi-galil",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "vijay-ganesh",
+      "rosterName": "Vijay Ganesh",
+      "title": "Professor",
+      "profileUrl": "https://www.cc.gatech.edu/people/vijay-ganesh",
+      "portraitUrl": "https://www.cc.gatech.edu/sites/default/files/styles/profile_150x180_/public/images/profiles/2026-08/vijayganesh_web.jpg?itok=C_2jGmNU",
+      "officialSections": [
+        "Faculty",
+        "ML PhD Program Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cc.gatech.edu/people/faculty",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Professor | Faculty · ML PhD Program Faculty | https://www.cc.gatech.edu/people/vijay-ganesh",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "animesh-garg",
+      "rosterName": "Animesh Garg",
+      "title": "Stephen Fleming Early Career Asisstant Professor",
+      "profileUrl": "https://www.cc.gatech.edu/people/animesh-garg",
+      "portraitUrl": "https://www.cc.gatech.edu/sites/default/files/styles/profile_150x180_/public/images/profiles/2026-08/animesh_garg.jpg?itok=J-76X1zt",
+      "officialSections": [
+        "Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cc.gatech.edu/people/faculty",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Stephen Fleming Early Career Asisstant Professor | Faculty | https://www.cc.gatech.edu/people/animesh-garg",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "ada-gavrilovska",
+      "rosterName": "Ada Gavrilovska",
+      "title": "Professor",
+      "profileUrl": "https://www.cc.gatech.edu/people/ada-gavrilovska",
+      "portraitUrl": "https://www.cc.gatech.edu/sites/default/files/styles/profile_150x180_/public/images/profiles/2025-06/ada_gavrilovska_0.png?itok=4f8tTcz9",
+      "officialSections": [
+        "Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cc.gatech.edu/people/faculty",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Professor | Faculty | https://www.cc.gatech.edu/people/ada-gavrilovska",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "william-gelder",
+      "rosterName": "William Gelder",
+      "title": "Research Associate I",
+      "profileUrl": "https://www.cc.gatech.edu/people/william-gelder",
+      "portraitUrl": "https://www.cc.gatech.edu/sites/default/files/styles/profile_150x180_/public/default_images/Profile-Default.jpg?itok=LH4JPDtS",
+      "officialSections": [
+        "Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cc.gatech.edu/people/faculty",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Research Associate I | Faculty | https://www.cc.gatech.edu/people/william-gelder",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "daniel-genkin",
+      "rosterName": "Daniel Genkin",
+      "title": "Associate Professor",
+      "profileUrl": "https://www.cc.gatech.edu/people/daniel-genkin",
+      "portraitUrl": "https://www.cc.gatech.edu/sites/default/files/styles/profile_150x180_/public/images/profiles/2025-10/daniel_genkin_web.png?itok=eqxPX-FA",
+      "officialSections": [
+        "Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cc.gatech.edu/people/faculty",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Associate Professor | Faculty | https://www.cc.gatech.edu/people/daniel-genkin",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "ashok-goel",
+      "rosterName": "Ashok Goel",
+      "title": "Professor",
+      "profileUrl": "https://www.cc.gatech.edu/people/ashok-goel",
+      "portraitUrl": "https://www.cc.gatech.edu/sites/default/files/styles/profile_150x180_/public/images/profiles/2026-08/goel_ashok.png?itok=R5aXhaPc",
+      "officialSections": [
+        "Adjunct Faculty",
+        "Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cc.gatech.edu/people/faculty",
+      "decision": "excluded_non_pi",
+      "reason": "官方职称或名录分组属于教学、兼职、附属、科研支持或其他非独立 PI 岗位。",
+      "evidence": "Professor | Adjunct Faculty · Faculty | https://www.cc.gatech.edu/people/ashok-goel"
+    },
+    {
+      "officialId": "eric-gold",
+      "rosterName": "Eric Gold",
+      "title": "Adjunct Professor of the Practice",
+      "profileUrl": "https://www.cc.gatech.edu/people/eric-gold",
+      "portraitUrl": "https://www.cc.gatech.edu/sites/default/files/styles/profile_150x180_/public/default_images/Profile-Default.jpg?itok=LH4JPDtS",
+      "officialSections": [
+        "Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cc.gatech.edu/people/faculty",
+      "decision": "excluded_non_pi",
+      "reason": "官方职称或名录分组属于教学、兼职、附属、科研支持或其他非独立 PI 岗位。",
+      "evidence": "Adjunct Professor of the Practice | Faculty | https://www.cc.gatech.edu/people/eric-gold"
+    },
+    {
+      "officialId": "matthew-gombolay",
+      "rosterName": "Matthew Gombolay",
+      "title": "Associate Professor",
+      "profileUrl": "https://www.cc.gatech.edu/people/matthew-gombolay",
+      "portraitUrl": "https://www.cc.gatech.edu/sites/default/files/styles/profile_150x180_/public/images/profiles/2026-08/gombolay_matthew.jpeg?itok=-jRfnivJ",
+      "officialSections": [
+        "Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cc.gatech.edu/people/faculty",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Associate Professor | Faculty | https://www.cc.gatech.edu/people/matthew-gombolay",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "seymour-goodman",
+      "rosterName": "Seymour Goodman",
+      "title": "USG Regents' Professor, Professor Emeritus",
+      "profileUrl": "https://www.cc.gatech.edu/people/seymour-goodman",
+      "portraitUrl": "https://www.cc.gatech.edu/sites/default/files/styles/profile_150x180_/public/images/profiles/2026-02/seymore_goodman_0.png?itok=sXOPYa-a",
+      "officialSections": [
+        "Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cc.gatech.edu/people/faculty",
+      "decision": "excluded_historical",
+      "reason": "官方职称或名录分组明确为荣休、退休或历史人员。",
+      "evidence": "USG Regents' Professor, Professor Emeritus | Faculty | https://www.cc.gatech.edu/people/seymour-goodman"
+    },
+    {
+      "officialId": "shruthi-gottumukkala",
+      "rosterName": "Shruthi Gottumukkala",
+      "title": "Research Associate I",
+      "profileUrl": "https://www.cc.gatech.edu/people/shruthi-gottumukkala",
+      "portraitUrl": "https://www.cc.gatech.edu/sites/default/files/styles/profile_150x180_/public/images/profiles/2026-08/shruthi_gottumukkala_web.jpg?itok=kzWSoSOm",
+      "officialSections": [
+        "Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cc.gatech.edu/people/faculty",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Research Associate I | Faculty | https://www.cc.gatech.edu/people/shruthi-gottumukkala",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "kartik-goyal",
+      "rosterName": "Kartik Goyal",
+      "title": "Assistant Professor",
+      "profileUrl": "https://www.cc.gatech.edu/people/kartik-goyal",
+      "portraitUrl": "https://www.cc.gatech.edu/sites/default/files/styles/profile_150x180_/public/images/profiles/2026-08/kartik_goyal.jpg?itok=OQTFjbgm",
+      "officialSections": [
+        "Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cc.gatech.edu/people/faculty",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Assistant Professor | Faculty | https://www.cc.gatech.edu/people/kartik-goyal",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "beki-grinter",
+      "rosterName": "Beki Grinter",
+      "title": "Professor and Associate Dean for Faculty…",
+      "profileUrl": "https://www.cc.gatech.edu/people/beki-grinter",
+      "portraitUrl": "https://www.cc.gatech.edu/sites/default/files/styles/profile_150x180_/public/images/profiles/2024-09/beki_grinter.jpg?itok=i3NjtWmr",
+      "officialSections": [
+        "Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cc.gatech.edu/people/faculty",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Professor and Associate Dean for Faculty… | Faculty | https://www.cc.gatech.edu/people/beki-grinter",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "sehoon-ha-0",
+      "rosterName": "Sehoon Ha",
+      "title": "Associate Professor",
+      "profileUrl": "https://www.cc.gatech.edu/people/sehoon-ha-0",
+      "portraitUrl": "https://www.cc.gatech.edu/sites/default/files/styles/profile_150x180_/public/images/profiles/2026-08/sehoon_ha_2.png?itok=2bfzI_fP",
+      "officialSections": [
+        "Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cc.gatech.edu/people/faculty",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Associate Professor | Faculty | https://www.cc.gatech.edu/people/sehoon-ha-0",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "aaron-hansen",
+      "rosterName": "Aaron Hansen",
+      "title": "Part-Time Lecturer",
+      "profileUrl": "https://www.cc.gatech.edu/people/aaron-hansen",
+      "portraitUrl": "https://www.cc.gatech.edu/sites/default/files/styles/profile_150x180_/public/images/profiles/2025-06/aaron_hansen.jpeg?itok=WJEM0mRF",
+      "officialSections": [
+        "Adjunct Faculty",
+        "Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cc.gatech.edu/people/faculty",
+      "decision": "excluded_non_pi",
+      "reason": "官方职称或名录分组属于教学、兼职、附属、科研支持或其他非独立 PI 岗位。",
+      "evidence": "Part-Time Lecturer | Adjunct Faculty · Faculty | https://www.cc.gatech.edu/people/aaron-hansen"
+    },
+    {
+      "officialId": "james-hays",
+      "rosterName": "James Hays",
+      "title": "Professor",
+      "profileUrl": "https://www.cc.gatech.edu/people/james-hays",
+      "portraitUrl": "https://www.cc.gatech.edu/sites/default/files/styles/profile_150x180_/public/images/profiles/2026-08/james_hays.jpg?itok=TTy_dpvL",
+      "officialSections": [
+        "Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cc.gatech.edu/people/faculty",
+      "decision": "included_existing",
+      "atlasPersonId": "james-hays-us",
+      "reason": "符合范围，且规范化姓名可与当前图谱人物唯一匹配。",
+      "evidence": "Professor | Faculty | https://www.cc.gatech.edu/people/james-hays"
+    },
+    {
+      "officialId": "larry-heck",
+      "rosterName": "Larry Heck",
+      "title": "Professor",
+      "profileUrl": "https://www.cc.gatech.edu/people/larry-heck",
+      "portraitUrl": "https://www.cc.gatech.edu/sites/default/files/styles/profile_150x180_/public/images/profiles/2026-01/heck_larry2.jpg?itok=26-DWony",
+      "officialSections": [
+        "Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cc.gatech.edu/people/faculty",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Professor | Faculty | https://www.cc.gatech.edu/people/larry-heck",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "richard-henneman",
+      "rosterName": "Richard Henneman",
+      "title": "Professor of the Practice",
+      "profileUrl": "https://www.cc.gatech.edu/people/richard-henneman",
+      "portraitUrl": "https://www.cc.gatech.edu/sites/default/files/styles/profile_150x180_/public/images/profiles/2025-06/richard_henneman_0.png?itok=JU77UU6B",
+      "officialSections": [
+        "Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cc.gatech.edu/people/faculty",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Professor of the Practice | Faculty | https://www.cc.gatech.edu/people/richard-henneman",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "felix-herrmann",
+      "rosterName": "Felix Herrmann",
+      "title": "EAS/ECE Joint Appointment Professor",
+      "profileUrl": "https://www.cc.gatech.edu/people/felix-herrmann",
+      "portraitUrl": "https://www.cc.gatech.edu/sites/default/files/styles/profile_150x180_/public/images/profiles/2026-08/felix_herrmann_0.png?itok=WOMVb2Xu",
+      "officialSections": [
+        "Faculty",
+        "ML PhD Program Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cc.gatech.edu/people/faculty",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "EAS/ECE Joint Appointment Professor | Faculty · ML PhD Program Faculty | https://www.cc.gatech.edu/people/felix-herrmann",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "josiah-hester-0",
+      "rosterName": "Josiah Hester",
+      "title": "Associate Professor; Catherine M. and James E.…",
+      "profileUrl": "https://www.cc.gatech.edu/people/josiah-hester-0",
+      "portraitUrl": "https://www.cc.gatech.edu/sites/default/files/styles/profile_150x180_/public/images/profiles/2025-09/josiah_hester_web.jpg?itok=80I9eGqv",
+      "officialSections": [
+        "Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cc.gatech.edu/people/faculty",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Associate Professor; Catherine M. and James E.… | Faculty | https://www.cc.gatech.edu/people/josiah-hester-0",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "aaron-hillegass",
+      "rosterName": "Aaron Hillegass",
+      "title": "Lecturer",
+      "profileUrl": "https://www.cc.gatech.edu/people/aaron-hillegass",
+      "portraitUrl": "https://www.cc.gatech.edu/sites/default/files/styles/profile_150x180_/public/images/profiles/2025-06/headshot_2_0.jpg?itok=ZPBQb4jr",
+      "officialSections": [
+        "Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cc.gatech.edu/people/faculty",
+      "decision": "excluded_non_pi",
+      "reason": "官方职称或名录分组属于教学、兼职、附属、科研支持或其他非独立 PI 岗位。",
+      "evidence": "Lecturer | Faculty | https://www.cc.gatech.edu/people/aaron-hillegass"
+    },
+    {
+      "officialId": "david-howard-0",
+      "rosterName": "David Howard",
+      "title": "Research Technologist I",
+      "profileUrl": "https://www.cc.gatech.edu/people/david-howard-0",
+      "portraitUrl": "https://www.cc.gatech.edu/sites/default/files/styles/profile_150x180_/public/default_images/Profile-Default.jpg?itok=LH4JPDtS",
+      "officialSections": [
+        "Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cc.gatech.edu/people/faculty",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Research Technologist I | Faculty | https://www.cc.gatech.edu/people/david-howard-0",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "ronnie-howard",
+      "rosterName": "Ronnie Howard",
+      "title": "Lecturer",
+      "profileUrl": "https://www.cc.gatech.edu/people/ronnie-howard",
+      "portraitUrl": "https://www.cc.gatech.edu/sites/default/files/styles/profile_150x180_/public/images/profiles/2025-06/ronnie_howard.jpg?itok=9Ve536bS",
+      "officialSections": [
+        "Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cc.gatech.edu/people/faculty",
+      "decision": "excluded_non_pi",
+      "reason": "官方职称或名录分组属于教学、兼职、附属、科研支持或其他非独立 PI 岗位。",
+      "evidence": "Lecturer | Faculty | https://www.cc.gatech.edu/people/ronnie-howard"
+    },
+    {
+      "officialId": "brian-hrolenok",
+      "rosterName": "Brian Hrolenok",
+      "title": "Post-Doc",
+      "profileUrl": "https://www.cc.gatech.edu/people/brian-hrolenok",
+      "portraitUrl": "https://www.cc.gatech.edu/sites/default/files/styles/profile_150x180_/public/default_images/Profile-Default.jpg?itok=LH4JPDtS",
+      "officialSections": [
+        "Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cc.gatech.edu/people/faculty",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Post-Doc | Faculty | https://www.cc.gatech.edu/people/brian-hrolenok",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "mary-hudachek-buswell",
+      "rosterName": "Mary Hudachek-Buswell",
+      "title": "Interim Chair of SCI",
+      "profileUrl": "https://www.cc.gatech.edu/people/mary-hudachek-buswell",
+      "portraitUrl": "https://www.cc.gatech.edu/sites/default/files/styles/profile_150x180_/public/images/profiles/2025-02/472366519_1105632720869381_8351770088466191438_n_0.jpg?itok=jBlxmFZH",
+      "officialSections": [
+        "Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cc.gatech.edu/people/faculty",
+      "decision": "excluded_non_pi",
+      "reason": "官方卡片仅显示行政/项目领导职务，未显示独立教授或 PI 职称。",
+      "evidence": "Interim Chair of SCI | Faculty | https://www.cc.gatech.edu/people/mary-hudachek-buswell"
+    },
+    {
+      "officialId": "nabil-imam",
+      "rosterName": "Nabil Imam",
+      "title": "Assistant Professor",
+      "profileUrl": "https://www.cc.gatech.edu/people/nabil-imam",
+      "portraitUrl": "https://www.cc.gatech.edu/sites/default/files/styles/profile_150x180_/public/images/profiles/2026-08/imam_nabil_copy.jpg?itok=63PmwNS4",
+      "officialSections": [
+        "Faculty",
+        "ML PhD Program Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cc.gatech.edu/people/faculty",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Assistant Professor | Faculty · ML PhD Program Faculty | https://www.cc.gatech.edu/people/nabil-imam",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "melody-jackson",
+      "rosterName": "Melody Jackson",
+      "title": "Director, Center for BioInterface Research and…",
+      "profileUrl": "https://www.cc.gatech.edu/people/melody-jackson",
+      "portraitUrl": "https://www.cc.gatech.edu/sites/default/files/styles/profile_150x180_/public/images/profiles/2025-06/melody_jackson_0.png?itok=YG4ewZap",
+      "officialSections": [
+        "Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cc.gatech.edu/people/faculty",
+      "decision": "excluded_non_pi",
+      "reason": "官方卡片仅显示行政/项目领导职务，未显示独立教授或 PI 职称。",
+      "evidence": "Director, Center for BioInterface Research and… | Faculty | https://www.cc.gatech.edu/people/melody-jackson"
+    },
+    {
+      "officialId": "joseph-jaeger",
+      "rosterName": "Joseph Jaeger",
+      "title": "Assistant Professor",
+      "profileUrl": "https://www.cc.gatech.edu/people/joseph-jaeger",
+      "portraitUrl": "https://www.cc.gatech.edu/sites/default/files/styles/profile_150x180_/public/images/profiles/2025-06/joseph_jaeger_web_0.png?itok=adaNreEr",
+      "officialSections": [
+        "Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cc.gatech.edu/people/faculty",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Assistant Professor | Faculty | https://www.cc.gatech.edu/people/joseph-jaeger",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "david-joyner",
+      "rosterName": "David Joyner",
+      "title": "Associate Dean for Off-Campus and Special…",
+      "profileUrl": "https://www.cc.gatech.edu/people/david-joyner",
+      "portraitUrl": "https://www.cc.gatech.edu/sites/default/files/styles/profile_150x180_/public/images/profiles/2025-01/david_joyner_0.png?itok=I50W2S8Q",
+      "officialSections": [
+        "Adjunct Faculty",
+        "Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cc.gatech.edu/people/faculty",
+      "decision": "excluded_non_pi",
+      "reason": "官方职称或名录分组属于教学、兼职、附属、科研支持或其他非独立 PI 岗位。",
+      "evidence": "Associate Dean for Off-Campus and Special… | Adjunct Faculty · Faculty | https://www.cc.gatech.edu/people/david-joyner"
+    },
+    {
+      "officialId": "surya-kalidindi",
+      "rosterName": "Surya Kalidindi",
+      "title": "Regents' Professor, Joint with the George W…",
+      "profileUrl": "https://www.cc.gatech.edu/people/surya-kalidindi",
+      "portraitUrl": "https://www.cc.gatech.edu/sites/default/files/styles/profile_150x180_/public/images/profiles/2026-08/surya_kalidindi_0.png?itok=o7UJIlsO",
+      "officialSections": [
+        "Faculty",
+        "ML PhD Program Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cc.gatech.edu/people/faculty",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Regents' Professor, Joint with the George W… | Faculty · ML PhD Program Faculty | https://www.cc.gatech.edu/people/surya-kalidindi",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "siddharth-karamcheti",
+      "rosterName": "Siddharth Karamcheti",
+      "title": "Assistant Professor",
+      "profileUrl": "https://www.cc.gatech.edu/people/siddharth-karamcheti",
+      "portraitUrl": "https://www.cc.gatech.edu/sites/default/files/styles/profile_150x180_/public/images/profiles/2026-08/siddharth-karamcheti.png?itok=XSpAHliU",
+      "officialSections": [
+        "Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cc.gatech.edu/people/faculty",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Assistant Professor | Faculty | https://www.cc.gatech.edu/people/siddharth-karamcheti",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "naveena-karusala",
+      "rosterName": "Naveena Karusala",
+      "title": "Assistant Professor",
+      "profileUrl": "https://www.cc.gatech.edu/people/naveena-karusala",
+      "portraitUrl": "https://www.cc.gatech.edu/sites/default/files/styles/profile_150x180_/public/images/profiles/2025-06/naveena_karusala.jpg?itok=P8jCjIKG",
+      "officialSections": [
+        "Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cc.gatech.edu/people/faculty",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Assistant Professor | Faculty | https://www.cc.gatech.edu/people/naveena-karusala",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "iretta-kearse",
+      "rosterName": "Iretta Kearse",
+      "title": "Senior Lecturer",
+      "profileUrl": "https://www.cc.gatech.edu/people/iretta-kearse",
+      "portraitUrl": "https://www.cc.gatech.edu/sites/default/files/styles/profile_150x180_/public/images/profiles/2025-06/irettaheadshot.jpg?itok=3PLNZhQJ",
+      "officialSections": [
+        "Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cc.gatech.edu/people/faculty",
+      "decision": "excluded_non_pi",
+      "reason": "官方职称或名录分组属于教学、兼职、附属、科研支持或其他非独立 PI 岗位。",
+      "evidence": "Senior Lecturer | Faculty | https://www.cc.gatech.edu/people/iretta-kearse"
+    },
+    {
+      "officialId": "hyesoon-kim",
+      "rosterName": "Hyesoon Kim",
+      "title": "Professor and Chair, School of Computer Science",
+      "profileUrl": "https://www.cc.gatech.edu/people/hyesoon-kim",
+      "portraitUrl": "https://www.cc.gatech.edu/sites/default/files/styles/profile_150x180_/public/images/profiles/2026-09/hyesoon_kim.jpg?itok=T2qU10Zc",
+      "officialSections": [
+        "Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cc.gatech.edu/people/faculty",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Professor and Chair, School of Computer Science | Faculty | https://www.cc.gatech.edu/people/hyesoon-kim",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "jennifer-kim",
+      "rosterName": "Jennifer Kim",
+      "title": "Assistant Professor",
+      "profileUrl": "https://www.cc.gatech.edu/people/jennifer-kim",
+      "portraitUrl": "https://www.cc.gatech.edu/sites/default/files/styles/profile_150x180_/public/images/profiles/2026-08/kim_jennifer.jpeg?itok=2zH8S29Y",
+      "officialSections": [
+        "Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cc.gatech.edu/people/faculty",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Assistant Professor | Faculty | https://www.cc.gatech.edu/people/jennifer-kim",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "taesoo-kim",
+      "rosterName": "Taesoo Kim",
+      "title": "Professor and Director of GTS3, Joint with the…",
+      "profileUrl": "https://www.cc.gatech.edu/people/taesoo-kim",
+      "portraitUrl": "https://www.cc.gatech.edu/sites/default/files/styles/profile_150x180_/public/images/profiles/2025-06/taesoo_kim_0.png?itok=YpGNfgs2",
+      "officialSections": [
+        "Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cc.gatech.edu/people/faculty",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Professor and Director of GTS3, Joint with the… | Faculty | https://www.cc.gatech.edu/people/taesoo-kim",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "zsolt-kira",
+      "rosterName": "Zsolt Kira",
+      "title": "Associate Professor",
+      "profileUrl": "https://www.cc.gatech.edu/people/zsolt-kira",
+      "portraitUrl": "https://www.cc.gatech.edu/sites/default/files/styles/profile_150x180_/public/images/profiles/2026-08/zsolt_kira.jpg?itok=YeqADMbV",
+      "officialSections": [
+        "Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cc.gatech.edu/people/faculty",
+      "decision": "included_existing",
+      "atlasPersonId": "zsolt-kira-us",
+      "reason": "符合范围，且规范化姓名可与当前图谱人物唯一匹配。",
+      "evidence": "Associate Professor | Faculty | https://www.cc.gatech.edu/people/zsolt-kira"
+    },
+    {
+      "officialId": "vladimir-kolesnikov",
+      "rosterName": "Vladimir Kolesnikov",
+      "title": "Professor and SCP Senior Associate Chair, Joint…",
+      "profileUrl": "https://www.cc.gatech.edu/people/vladimir-kolesnikov",
+      "portraitUrl": "https://www.cc.gatech.edu/sites/default/files/styles/profile_150x180_/public/images/profiles/2025-06/vlad_kolesnikov_0.png?itok=6c5uoK-X",
+      "officialSections": [
+        "Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cc.gatech.edu/people/faculty",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Professor and SCP Senior Associate Chair, Joint… | Faculty | https://www.cc.gatech.edu/people/vladimir-kolesnikov",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "giri-krishnan",
+      "rosterName": "Giri Krishnan",
+      "title": "Associate Director of ARTISAN",
+      "profileUrl": "https://www.cc.gatech.edu/people/giri-krishnan",
+      "portraitUrl": "https://www.cc.gatech.edu/sites/default/files/styles/profile_150x180_/public/default_images/Profile-Default.jpg?itok=LH4JPDtS",
+      "officialSections": [
+        "Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cc.gatech.edu/people/faculty",
+      "decision": "excluded_non_pi",
+      "reason": "官方卡片仅显示行政/项目领导职务，未显示独立教授或 PI 职称。",
+      "evidence": "Associate Director of ARTISAN | Faculty | https://www.cc.gatech.edu/people/giri-krishnan"
+    },
+    {
+      "officialId": "neha-kumar",
+      "rosterName": "Neha Kumar",
+      "title": "Professor",
+      "profileUrl": "https://www.cc.gatech.edu/people/neha-kumar",
+      "portraitUrl": "https://www.cc.gatech.edu/sites/default/files/styles/profile_150x180_/public/images/profiles/2026-08/neha_web.jpg?itok=XTuue9O9",
+      "officialSections": [
+        "Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cc.gatech.edu/people/faculty",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Professor | Faculty | https://www.cc.gatech.edu/people/neha-kumar",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "srijan-kumar",
+      "rosterName": "Srijan Kumar",
+      "title": "Associate Professor",
+      "profileUrl": "https://www.cc.gatech.edu/people/srijan-kumar",
+      "portraitUrl": "https://www.cc.gatech.edu/sites/default/files/styles/profile_150x180_/public/images/profiles/2026-08/srijan_kumar_0.png?itok=xlP70_fs",
+      "officialSections": [
+        "Faculty",
+        "ML PhD Program Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cc.gatech.edu/people/faculty",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Associate Professor | Faculty · ML PhD Program Faculty | https://www.cc.gatech.edu/people/srijan-kumar",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "jacob-laurel",
+      "rosterName": "Jacob Laurel",
+      "title": "Assistant Professor",
+      "profileUrl": "https://www.cc.gatech.edu/people/jacob-laurel",
+      "portraitUrl": "https://www.cc.gatech.edu/sites/default/files/styles/profile_150x180_/public/default_images/Profile-Default.jpg?itok=LH4JPDtS",
+      "officialSections": [
+        "Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cc.gatech.edu/people/faculty",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Assistant Professor | Faculty | https://www.cc.gatech.edu/people/jacob-laurel",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "william-leahy",
+      "rosterName": "William Leahy",
+      "title": "Senior Lecturer Emeritus",
+      "profileUrl": "https://www.cc.gatech.edu/people/william-leahy",
+      "portraitUrl": "https://www.cc.gatech.edu/sites/default/files/styles/profile_150x180_/public/images/profiles/2025-06/bill_leahy_0.png?itok=4C-yJEv0",
+      "officialSections": [
+        "Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cc.gatech.edu/people/faculty",
+      "decision": "excluded_historical",
+      "reason": "官方职称或名录分组明确为荣休、退休或历史人员。",
+      "evidence": "Senior Lecturer Emeritus | Faculty | https://www.cc.gatech.edu/people/william-leahy"
+    },
+    {
+      "officialId": "wenke-lee",
+      "rosterName": "Wenke Lee",
+      "title": "USG Regents Professor, and John P. Imlay Jr.…",
+      "profileUrl": "https://www.cc.gatech.edu/people/wenke-lee",
+      "portraitUrl": "https://www.cc.gatech.edu/sites/default/files/styles/profile_150x180_/public/images/profiles/2026-08/wenke_lee_0.png?itok=vmPZrI0a",
+      "officialSections": [
+        "Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cc.gatech.edu/people/faculty",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "USG Regents Professor, and John P. Imlay Jr.… | Faculty | https://www.cc.gatech.edu/people/wenke-lee",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "frank-li",
+      "rosterName": "Frank Li",
+      "title": "Assistant Professor, Joint with the School of…",
+      "profileUrl": "https://www.cc.gatech.edu/people/frank-li",
+      "portraitUrl": "https://www.cc.gatech.edu/sites/default/files/styles/profile_150x180_/public/images/profiles/2025-06/li_web.jpg?itok=0Lp3hZCv",
+      "officialSections": [
+        "Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cc.gatech.edu/people/faculty",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Assistant Professor, Joint with the School of… | Faculty | https://www.cc.gatech.edu/people/frank-li",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "yan-liang",
+      "rosterName": "Yan Liang",
+      "title": "Research Associate II",
+      "profileUrl": "https://www.cc.gatech.edu/people/yan-liang",
+      "portraitUrl": "https://www.cc.gatech.edu/sites/default/files/styles/profile_150x180_/public/default_images/Profile-Default.jpg?itok=LH4JPDtS",
+      "officialSections": [
+        "Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cc.gatech.edu/people/faculty",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Research Associate II | Faculty | https://www.cc.gatech.edu/people/yan-liang",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "cindy-kaiying-lin",
+      "rosterName": "Cindy Kaiying Lin",
+      "title": "Stephen Fleming Early Career Assistant Professor",
+      "profileUrl": "https://www.cc.gatech.edu/people/cindy-kaiying-lin",
+      "portraitUrl": "https://www.cc.gatech.edu/sites/default/files/styles/profile_150x180_/public/images/profiles/2025-06/cindylin.jpg?itok=Eyn29FBU",
+      "officialSections": [
+        "Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cc.gatech.edu/people/faculty",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Stephen Fleming Early Career Assistant Professor | Faculty | https://www.cc.gatech.edu/people/cindy-kaiying-lin",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "yingyan-celine-lin",
+      "rosterName": "Yingyan (Celine) Lin",
+      "title": "Associate Professor",
+      "profileUrl": "https://www.cc.gatech.edu/people/yingyan-celine-lin",
+      "portraitUrl": "https://www.cc.gatech.edu/sites/default/files/styles/profile_150x180_/public/images/profiles/2026-08/celine_-headshot36_0.jpg?itok=JPxl7jlq",
+      "officialSections": [
+        "Faculty",
+        "ML PhD Program Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cc.gatech.edu/people/faculty",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Associate Professor | Faculty · ML PhD Program Faculty | https://www.cc.gatech.edu/people/yingyan-celine-lin",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "jon-r-lindsay",
+      "rosterName": "Jon R. Lindsay",
+      "title": "Associate Professor in SCP, Joint with Sam Nunn…",
+      "profileUrl": "https://www.cc.gatech.edu/people/jon-r-lindsay",
+      "portraitUrl": "https://www.cc.gatech.edu/sites/default/files/styles/profile_150x180_/public/images/profiles/2025-06/jonlindsay.jpeg?itok=AMVBaRgB",
+      "officialSections": [
+        "Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cc.gatech.edu/people/faculty",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Associate Professor in SCP, Joint with Sam Nunn… | Faculty | https://www.cc.gatech.edu/people/jon-r-lindsay",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "ling-liu",
+      "rosterName": "Ling Liu",
+      "title": "Professor",
+      "profileUrl": "https://www.cc.gatech.edu/people/ling-liu",
+      "portraitUrl": "https://www.cc.gatech.edu/sites/default/files/styles/profile_150x180_/public/images/profiles/2026-08/ling_liu_0.png?itok=toAoJ06u",
+      "officialSections": [
+        "Faculty",
+        "ML PhD Program Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cc.gatech.edu/people/faculty",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Professor | Faculty · ML PhD Program Faculty | https://www.cc.gatech.edu/people/ling-liu",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "yin-lu",
+      "rosterName": "Yin Lu",
+      "title": "Research Associate II",
+      "profileUrl": "https://www.cc.gatech.edu/people/yin-lu",
+      "portraitUrl": "https://www.cc.gatech.edu/sites/default/files/styles/profile_150x180_/public/default_images/Profile-Default.jpg?itok=LH4JPDtS",
+      "officialSections": [
+        "Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cc.gatech.edu/people/faculty",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Research Associate II | Faculty | https://www.cc.gatech.edu/people/yin-lu",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "yunan-luo",
+      "rosterName": "Yunan Luo",
+      "title": "Assistant Professor",
+      "profileUrl": "https://www.cc.gatech.edu/people/yunan-luo",
+      "portraitUrl": "https://www.cc.gatech.edu/sites/default/files/styles/profile_150x180_/public/images/profiles/2026-08/yunan_luo.jpg?itok=OnMBvI-P",
+      "officialSections": [
+        "Faculty",
+        "ML PhD Program Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cc.gatech.edu/people/faculty",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Assistant Professor | Faculty · ML PhD Program Faculty | https://www.cc.gatech.edu/people/yunan-luo",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "nicholas-lytle",
+      "rosterName": "Nicholas Lytle",
+      "title": "Research Associate II",
+      "profileUrl": "https://www.cc.gatech.edu/people/nicholas-lytle",
+      "portraitUrl": "https://www.cc.gatech.edu/sites/default/files/styles/profile_150x180_/public/default_images/Profile-Default.jpg?itok=LH4JPDtS",
+      "officialSections": [
+        "Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cc.gatech.edu/people/faculty",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Research Associate II | Faculty | https://www.cc.gatech.edu/people/nicholas-lytle",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "christopher-j-maclellan",
+      "rosterName": "Christopher J. MacLellan",
+      "title": "Associate Professor",
+      "profileUrl": "https://www.cc.gatech.edu/people/christopher-j-maclellan",
+      "portraitUrl": "https://www.cc.gatech.edu/sites/default/files/styles/profile_150x180_/public/images/profiles/2026-08/christopher_maclellan.jpg?itok=sEo85anF",
+      "officialSections": [
+        "Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cc.gatech.edu/people/faculty",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Associate Professor | Faculty | https://www.cc.gatech.edu/people/christopher-j-maclellan",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "kim-luong-macleod",
+      "rosterName": "Kim Luong MacLeod",
+      "title": "Associate Director of Enterprise Services, Senior…",
+      "profileUrl": "https://www.cc.gatech.edu/people/kim-luong-macleod",
+      "portraitUrl": "https://www.cc.gatech.edu/sites/default/files/styles/profile_150x180_/public/images/profiles/2025-06/kim_macleod.jpg?itok=OwxMX36h",
+      "officialSections": [
+        "Faculty",
+        "Staff"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cc.gatech.edu/people/faculty",
+      "decision": "excluded_non_pi",
+      "reason": "官方职称或名录分组属于教学、兼职、附属、科研支持或其他非独立 PI 岗位。",
+      "evidence": "Associate Director of Enterprise Services, Senior… | Faculty · Staff | https://www.cc.gatech.edu/people/kim-luong-macleod"
+    },
+    {
+      "officialId": "vijay-madisetti",
+      "rosterName": "Vijay Madisetti",
+      "title": "Professor",
+      "profileUrl": "https://www.cc.gatech.edu/people/vijay-madisetti",
+      "portraitUrl": "https://www.cc.gatech.edu/sites/default/files/styles/profile_150x180_/public/images/profiles/2025-06/vijay-madisetti.jpg?itok=drgKz8d6",
+      "officialSections": [
+        "Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cc.gatech.edu/people/faculty",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Professor | Faculty | https://www.cc.gatech.edu/people/vijay-madisetti",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "brian-magerko",
+      "rosterName": "Brian Magerko",
+      "title": "Adjunct Professor",
+      "profileUrl": "https://www.cc.gatech.edu/people/brian-magerko",
+      "portraitUrl": "https://www.cc.gatech.edu/sites/default/files/styles/profile_150x180_/public/images/profiles/2025-06/brian_magerko_0.png?itok=SVxKnnvH",
+      "officialSections": [
+        "Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cc.gatech.edu/people/faculty",
+      "decision": "excluded_non_pi",
+      "reason": "官方职称或名录分组属于教学、兼职、附属、科研支持或其他非独立 PI 岗位。",
+      "evidence": "Adjunct Professor | Faculty | https://www.cc.gatech.edu/people/brian-magerko"
+    },
+    {
+      "officialId": "divya-mahajan",
+      "rosterName": "Divya Mahajan",
+      "title": "Assistant Professor",
+      "profileUrl": "https://www.cc.gatech.edu/people/divya-mahajan",
+      "portraitUrl": "https://www.cc.gatech.edu/sites/default/files/styles/profile_150x180_/public/images/profiles/2025-06/divyamahajan.jpg?itok=4doIcfBP",
+      "officialSections": [
+        "Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cc.gatech.edu/people/faculty",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Assistant Professor | Faculty | https://www.cc.gatech.edu/people/divya-mahajan",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "mahender-mandala",
+      "rosterName": "Mahender Mandala",
+      "title": "Research Scientist I",
+      "profileUrl": "https://www.cc.gatech.edu/people/mahender-mandala",
+      "portraitUrl": "https://www.cc.gatech.edu/sites/default/files/styles/profile_150x180_/public/default_images/Profile-Default.jpg?itok=LH4JPDtS",
+      "officialSections": [
+        "Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cc.gatech.edu/people/faculty",
+      "decision": "excluded_non_pi",
+      "reason": "官方职称或名录分组属于教学、兼职、附属、科研支持或其他非独立 PI 岗位。",
+      "evidence": "Research Scientist I | Faculty | https://www.cc.gatech.edu/people/mahender-mandala"
+    },
+    {
+      "officialId": "suresh-marru",
+      "rosterName": "Suresh Marru",
+      "title": "Director, ARTISAN",
+      "profileUrl": "https://www.cc.gatech.edu/people/suresh-marru",
+      "portraitUrl": "https://www.cc.gatech.edu/sites/default/files/styles/profile_150x180_/public/default_images/Profile-Default.jpg?itok=LH4JPDtS",
+      "officialSections": [
+        "Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cc.gatech.edu/people/faculty",
+      "decision": "excluded_non_pi",
+      "reason": "官方卡片仅显示行政/项目领导职务，未显示独立教授或 PI 职称。",
+      "evidence": "Director, ARTISAN | Faculty | https://www.cc.gatech.edu/people/suresh-marru"
+    },
+    {
+      "officialId": "melinda-mcdaniel",
+      "rosterName": "Melinda McDaniel",
+      "title": "Senior Lecturer",
+      "profileUrl": "https://www.cc.gatech.edu/people/melinda-mcdaniel",
+      "portraitUrl": "https://www.cc.gatech.edu/sites/default/files/styles/profile_150x180_/public/images/profiles/2026-01/melindaprofile.jpg?itok=VymjIPFS",
+      "officialSections": [
+        "Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cc.gatech.edu/people/faculty",
+      "decision": "excluded_non_pi",
+      "reason": "官方职称或名录分组属于教学、兼职、附属、科研支持或其他非独立 PI 岗位。",
+      "evidence": "Senior Lecturer | Faculty | https://www.cc.gatech.edu/people/melinda-mcdaniel"
+    },
+    {
+      "officialId": "kuldeep-s-meel",
+      "rosterName": "Kuldeep S. Meel",
+      "title": "Stephen Fleming Early-Career Associate Professor",
+      "profileUrl": "https://www.cc.gatech.edu/people/kuldeep-s-meel",
+      "portraitUrl": "https://www.cc.gatech.edu/sites/default/files/styles/profile_150x180_/public/images/profiles/2025-06/kuldeep.jpeg?itok=FuJO45jO",
+      "officialSections": [
+        "Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cc.gatech.edu/people/faculty",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Stephen Fleming Early-Career Associate Professor | Faculty | https://www.cc.gatech.edu/people/kuldeep-s-meel",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "amanda-meng-0",
+      "rosterName": "Amanda Meng",
+      "title": "Senior Research Scientist",
+      "profileUrl": "https://www.cc.gatech.edu/people/amanda-meng-0",
+      "portraitUrl": "https://www.cc.gatech.edu/sites/default/files/styles/profile_150x180_/public/images/profiles/2026-09/amanda_meng.jpg?itok=Xg-dKDR6",
+      "officialSections": [
+        "Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cc.gatech.edu/people/faculty",
+      "decision": "excluded_non_pi",
+      "reason": "官方职称或名录分组属于教学、兼职、附属、科研支持或其他非独立 PI 岗位。",
+      "evidence": "Senior Research Scientist | Faculty | https://www.cc.gatech.edu/people/amanda-meng-0"
+    },
+    {
+      "officialId": "sukarno-mertoguno",
+      "rosterName": "Sukarno Mertoguno",
+      "title": "Principal Research Engineer",
+      "profileUrl": "https://www.cc.gatech.edu/people/sukarno-mertoguno",
+      "portraitUrl": "https://www.cc.gatech.edu/sites/default/files/styles/profile_150x180_/public/images/profiles/2026-02/sukarno_mertoguno_headshot.jpg?itok=gATYgS0Q",
+      "officialSections": [
+        "Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cc.gatech.edu/people/faculty",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Principal Research Engineer | Faculty | https://www.cc.gatech.edu/people/sukarno-mertoguno",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "hannah-moon",
+      "rosterName": "Hannah Moon",
+      "title": "Research Associate II",
+      "profileUrl": "https://www.cc.gatech.edu/people/hannah-moon",
+      "portraitUrl": "https://www.cc.gatech.edu/sites/default/files/styles/profile_150x180_/public/default_images/Profile-Default.jpg?itok=LH4JPDtS",
+      "officialSections": [
+        "Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cc.gatech.edu/people/faculty",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Research Associate II | Faculty | https://www.cc.gatech.edu/people/hannah-moon",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "mark-moss",
+      "rosterName": "Mark Moss",
+      "title": "Senior Lecturer",
+      "profileUrl": "https://www.cc.gatech.edu/people/mark-moss",
+      "portraitUrl": "https://www.cc.gatech.edu/sites/default/files/styles/profile_150x180_/public/images/profiles/2025-06/markmossheadshot.jpg?itok=FA-bj2m9",
+      "officialSections": [
+        "Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cc.gatech.edu/people/faculty",
+      "decision": "excluded_non_pi",
+      "reason": "官方职称或名录分组属于教学、兼职、附属、科研支持或其他非独立 PI 岗位。",
+      "evidence": "Senior Lecturer | Faculty | https://www.cc.gatech.edu/people/mark-moss"
+    },
+    {
+      "officialId": "jaideep-mulherkar",
+      "rosterName": "Jaideep Mulherkar",
+      "title": "Senior Lecturer",
+      "profileUrl": "https://www.cc.gatech.edu/people/jaideep-mulherkar",
+      "portraitUrl": "https://www.cc.gatech.edu/sites/default/files/styles/profile_150x180_/public/images/profiles/2026-02/jaideepcopy.jpg?itok=9PXRxk57",
+      "officialSections": [
+        "Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cc.gatech.edu/people/faculty",
+      "decision": "excluded_non_pi",
+      "reason": "官方职称或名录分组属于教学、兼职、附属、科研支持或其他非独立 PI 岗位。",
+      "evidence": "Senior Lecturer | Faculty | https://www.cc.gatech.edu/people/jaideep-mulherkar"
+    },
+    {
+      "officialId": "aibek-musaev",
+      "rosterName": "Aibek Musaev",
+      "title": "Lecturer",
+      "profileUrl": "https://www.cc.gatech.edu/people/aibek-musaev",
+      "portraitUrl": "https://www.cc.gatech.edu/sites/default/files/styles/profile_150x180_/public/images/profiles/2025-06/aibek_musaev_0.png?itok=WVV8C24t",
+      "officialSections": [
+        "Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cc.gatech.edu/people/faculty",
+      "decision": "excluded_non_pi",
+      "reason": "官方职称或名录分组属于教学、兼职、附属、科研支持或其他非独立 PI 岗位。",
+      "evidence": "Lecturer | Faculty | https://www.cc.gatech.edu/people/aibek-musaev"
+    },
+    {
+      "officialId": "steve-mussmann",
+      "rosterName": "Steve Mussmann",
+      "title": "Assistant Professor",
+      "profileUrl": "https://www.cc.gatech.edu/people/steve-mussmann",
+      "portraitUrl": "https://www.cc.gatech.edu/sites/default/files/styles/profile_150x180_/public/images/profiles/2026-08/steve.jpg?itok=LmqG0cGl",
+      "officialSections": [
+        "Faculty",
+        "ML PhD Program Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cc.gatech.edu/people/faculty",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Assistant Professor | Faculty · ML PhD Program Faculty | https://www.cc.gatech.edu/people/steve-mussmann",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "kristine-nagel",
+      "rosterName": "Kristine Nagel",
+      "title": "Lecturer",
+      "profileUrl": "https://www.cc.gatech.edu/people/kristine-nagel",
+      "portraitUrl": "https://www.cc.gatech.edu/sites/default/files/styles/profile_150x180_/public/images/profiles/2025-06/kris_headshot.jpg?itok=G7UzpYIg",
+      "officialSections": [
+        "Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cc.gatech.edu/people/faculty",
+      "decision": "excluded_non_pi",
+      "reason": "官方职称或名录分组属于教学、兼职、附属、科研支持或其他非独立 PI 岗位。",
+      "evidence": "Lecturer | Faculty | https://www.cc.gatech.edu/people/kristine-nagel"
+    },
+    {
+      "officialId": "varun-narayan",
+      "rosterName": "Varun Narayan",
+      "title": "Research Engineer I",
+      "profileUrl": "https://www.cc.gatech.edu/people/varun-narayan",
+      "portraitUrl": "https://www.cc.gatech.edu/sites/default/files/styles/profile_150x180_/public/default_images/Profile-Default.jpg?itok=LH4JPDtS",
+      "officialSections": [
+        "Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cc.gatech.edu/people/faculty",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Research Engineer I | Faculty | https://www.cc.gatech.edu/people/varun-narayan",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "shamkant-navathe",
+      "rosterName": "Shamkant Navathe",
+      "title": "Professor",
+      "profileUrl": "https://www.cc.gatech.edu/people/shamkant-navathe",
+      "portraitUrl": "https://www.cc.gatech.edu/sites/default/files/styles/profile_150x180_/public/images/profiles/2025-06/shamkant_navathe_0.png?itok=cGW4wrD6",
+      "officialSections": [
+        "Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cc.gatech.edu/people/faculty",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Professor | Faculty | https://www.cc.gatech.edu/people/shamkant-navathe",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "hyunjoo-oh",
+      "rosterName": "HyunJoo Oh",
+      "title": "Associate Professor, joint w/ School of…",
+      "profileUrl": "https://www.cc.gatech.edu/people/hyunjoo-oh",
+      "portraitUrl": "https://www.cc.gatech.edu/sites/default/files/styles/profile_150x180_/public/images/profiles/2026-08/headshot2.hyun_.joo_.oh_.jpg?itok=BIYl8_c5",
+      "officialSections": [
+        "Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cc.gatech.edu/people/faculty",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Associate Professor, joint w/ School of… | Faculty | https://www.cc.gatech.edu/people/hyunjoo-oh",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "olufisayo-omojokun",
+      "rosterName": "Olufisayo Omojokun",
+      "title": "Associate Dean for Undergraduate Education",
+      "profileUrl": "https://www.cc.gatech.edu/people/olufisayo-omojokun",
+      "portraitUrl": "https://www.cc.gatech.edu/sites/default/files/styles/profile_150x180_/public/images/profiles/2025-01/copy_of_fisayocloseup2.png?itok=Kp1VyNfC",
+      "officialSections": [
+        "Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cc.gatech.edu/people/faculty",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Associate Dean for Undergraduate Education | Faculty | https://www.cc.gatech.edu/people/olufisayo-omojokun",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "alex-ozdemir",
+      "rosterName": "Alex Ozdemir",
+      "title": "Assistant Professor",
+      "profileUrl": "https://www.cc.gatech.edu/people/alex-ozdemir",
+      "portraitUrl": "https://www.cc.gatech.edu/sites/default/files/styles/profile_150x180_/public/images/profiles/2026-08/alex_ozdemir.png?itok=MtBvcPbG",
+      "officialSections": [
+        "Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cc.gatech.edu/people/faculty",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Assistant Professor | Faculty | https://www.cc.gatech.edu/people/alex-ozdemir",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "venkata-palepu",
+      "rosterName": "Venkata Palepu",
+      "title": "Research Associate I",
+      "profileUrl": "https://www.cc.gatech.edu/people/venkata-palepu",
+      "portraitUrl": "https://www.cc.gatech.edu/sites/default/files/styles/profile_150x180_/public/default_images/Profile-Default.jpg?itok=LH4JPDtS",
+      "officialSections": [
+        "Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cc.gatech.edu/people/faculty",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Research Associate I | Faculty | https://www.cc.gatech.edu/people/venkata-palepu",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "santosh-pande",
+      "rosterName": "Santosh Pande",
+      "title": "Professor, Associate Chair for Graduate Studies,…",
+      "profileUrl": "https://www.cc.gatech.edu/people/santosh-pande",
+      "portraitUrl": "https://www.cc.gatech.edu/sites/default/files/styles/profile_150x180_/public/images/profiles/2025-06/santosh_pande_0.png?itok=2HZRC6ab",
+      "officialSections": [
+        "Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cc.gatech.edu/people/faculty",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Professor, Associate Chair for Graduate Studies,… | Faculty | https://www.cc.gatech.edu/people/santosh-pande",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "haesun-park",
+      "rosterName": "Haesun Park",
+      "title": "Stephen Flemming Professor, Regents'…",
+      "profileUrl": "https://www.cc.gatech.edu/people/haesun-park",
+      "portraitUrl": "https://www.cc.gatech.edu/sites/default/files/styles/profile_150x180_/public/images/profiles/2026-08/hp_profile.png?itok=Ir1nTcD8",
+      "officialSections": [
+        "Faculty",
+        "ML PhD Program Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cc.gatech.edu/people/faculty",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Stephen Flemming Professor, Regents'… | Faculty · ML PhD Program Faculty | https://www.cc.gatech.edu/people/haesun-park",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "kwangho-park",
+      "rosterName": "Kwangho Park",
+      "title": "Research Technologist I",
+      "profileUrl": "https://www.cc.gatech.edu/people/kwangho-park",
+      "portraitUrl": "https://www.cc.gatech.edu/sites/default/files/styles/profile_150x180_/public/default_images/Profile-Default.jpg?itok=LH4JPDtS",
+      "officialSections": [
+        "Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cc.gatech.edu/people/faculty",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Research Technologist I | Faculty | https://www.cc.gatech.edu/people/kwangho-park",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "andrea-grimes-parker-0",
+      "rosterName": "Andrea Grimes Parker",
+      "title": "Associate Professor",
+      "profileUrl": "https://www.cc.gatech.edu/people/andrea-grimes-parker-0",
+      "portraitUrl": "https://www.cc.gatech.edu/sites/default/files/styles/profile_150x180_/public/images/profiles/2025-06/andrea_grimes_parker_1.png?itok=yjdXxWFh",
+      "officialSections": [
+        "Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cc.gatech.edu/people/faculty",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Associate Professor | Faculty | https://www.cc.gatech.edu/people/andrea-grimes-parker-0",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "tamara-pearson",
+      "rosterName": "Tamara Pearson",
+      "title": "Senior Research Associate",
+      "profileUrl": "https://www.cc.gatech.edu/people/tamara-pearson",
+      "portraitUrl": "https://www.cc.gatech.edu/sites/default/files/styles/profile_150x180_/public/default_images/Profile-Default.jpg?itok=LH4JPDtS",
+      "officialSections": [
+        "Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cc.gatech.edu/people/faculty",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Senior Research Associate | Faculty | https://www.cc.gatech.edu/people/tamara-pearson",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "sterling-peet",
+      "rosterName": "Sterling Peet",
+      "title": "Research Technologist II",
+      "profileUrl": "https://www.cc.gatech.edu/people/sterling-peet",
+      "portraitUrl": "https://www.cc.gatech.edu/sites/default/files/styles/profile_150x180_/public/default_images/Profile-Default.jpg?itok=LH4JPDtS",
+      "officialSections": [
+        "Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cc.gatech.edu/people/faculty",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Research Technologist II | Faculty | https://www.cc.gatech.edu/people/sterling-peet",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "will-perkins",
+      "rosterName": "Will Perkins",
+      "title": "Associate Professor",
+      "profileUrl": "https://www.cc.gatech.edu/people/will-perkins",
+      "portraitUrl": "https://www.cc.gatech.edu/sites/default/files/styles/profile_150x180_/public/images/profiles/2025-06/willperkins.jpg?itok=CLHDntNG",
+      "officialSections": [
+        "Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cc.gatech.edu/people/faculty",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Associate Professor | Faculty | https://www.cc.gatech.edu/people/will-perkins",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "jerry-perullo",
+      "rosterName": "Jerry Perullo",
+      "title": "Professor of the Practice",
+      "profileUrl": "https://www.cc.gatech.edu/people/jerry-perullo",
+      "portraitUrl": "https://www.cc.gatech.edu/sites/default/files/styles/profile_150x180_/public/default_images/Profile-Default.jpg?itok=LH4JPDtS",
+      "officialSections": [
+        "Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cc.gatech.edu/people/faculty",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Professor of the Practice | Faculty | https://www.cc.gatech.edu/people/jerry-perullo",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "raphael-pestourie",
+      "rosterName": "Raphaël Pestourie",
+      "title": "Assistant Professor",
+      "profileUrl": "https://www.cc.gatech.edu/people/raphael-pestourie",
+      "portraitUrl": "https://www.cc.gatech.edu/sites/default/files/styles/profile_150x180_/public/images/profiles/2026-08/raphael_pestourie-_profile.jpeg?itok=t0R79TK0",
+      "officialSections": [
+        "Faculty",
+        "ML PhD Program Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cc.gatech.edu/people/faculty",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Assistant Professor | Faculty · ML PhD Program Faculty | https://www.cc.gatech.edu/people/raphael-pestourie",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "thomas-ploetz",
+      "rosterName": "Thomas Ploetz",
+      "title": "Professor and Associate Chair of Graduate Studies",
+      "profileUrl": "https://www.cc.gatech.edu/people/thomas-ploetz",
+      "portraitUrl": "https://www.cc.gatech.edu/sites/default/files/styles/profile_150x180_/public/images/profiles/2026-08/thomas_ploetz_0.png?itok=8t6_05aM",
+      "officialSections": [
+        "Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cc.gatech.edu/people/faculty",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Professor and Associate Chair of Graduate Studies | Faculty | https://www.cc.gatech.edu/people/thomas-ploetz",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "william-powell",
+      "rosterName": "William Powell",
+      "title": "Research Technologist II",
+      "profileUrl": "https://www.cc.gatech.edu/people/william-powell",
+      "portraitUrl": "https://www.cc.gatech.edu/sites/default/files/styles/profile_150x180_/public/images/profiles/2025-06/william_powell_0.png?itok=UgJYJod5",
+      "officialSections": [
+        "Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cc.gatech.edu/people/faculty",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Research Technologist II | Faculty | https://www.cc.gatech.edu/people/william-powell",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "b-aditya-prakash",
+      "rosterName": "B. Aditya Prakash",
+      "title": "Professor, Associate Chair for Academic Affairs",
+      "profileUrl": "https://www.cc.gatech.edu/people/b-aditya-prakash",
+      "portraitUrl": "https://www.cc.gatech.edu/sites/default/files/styles/profile_150x180_/public/images/profiles/2026-08/aditya_prakash_0.png?itok=RdGamlRL",
+      "officialSections": [
+        "Faculty",
+        "ML PhD Program Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cc.gatech.edu/people/faculty",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Professor, Associate Chair for Academic Affairs | Faculty · ML PhD Program Faculty | https://www.cc.gatech.edu/people/b-aditya-prakash",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "milos-prvulovic",
+      "rosterName": "Milos Prvulovic",
+      "title": "Professor",
+      "profileUrl": "https://www.cc.gatech.edu/people/milos-prvulovic",
+      "portraitUrl": "https://www.cc.gatech.edu/sites/default/files/styles/profile_150x180_/public/images/profiles/2025-06/milos_prvulovic_0.png?itok=uhjFc0sF",
+      "officialSections": [
+        "Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cc.gatech.edu/people/faculty",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Professor | Faculty | https://www.cc.gatech.edu/people/milos-prvulovic",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "calton-pu",
+      "rosterName": "Calton Pu",
+      "title": "Professor and John P. Imlay, Jr. Chair in Software",
+      "profileUrl": "https://www.cc.gatech.edu/people/calton-pu",
+      "portraitUrl": "https://www.cc.gatech.edu/sites/default/files/styles/profile_150x180_/public/images/profiles/2025-06/calton_pu_0.png?itok=z_vUJmNF",
+      "officialSections": [
+        "Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cc.gatech.edu/people/faculty",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Professor and John P. Imlay, Jr. Chair in Software | Faculty | https://www.cc.gatech.edu/people/calton-pu",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "elizabeth-qian",
+      "rosterName": "Elizabeth Qian",
+      "title": "Assistant Professor, Joint with the Daniel…",
+      "profileUrl": "https://www.cc.gatech.edu/people/elizabeth-qian",
+      "portraitUrl": "https://www.cc.gatech.edu/sites/default/files/styles/profile_150x180_/public/images/profiles/2026-08/elizabeth_qian1.jpeg?itok=v1gUgCZB",
+      "officialSections": [
+        "Faculty",
+        "ML PhD Program Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cc.gatech.edu/people/faculty",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Assistant Professor, Joint with the Daniel… | Faculty · ML PhD Program Faculty | https://www.cc.gatech.edu/people/elizabeth-qian",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "moinuddin-qureshi",
+      "rosterName": "Moinuddin Qureshi",
+      "title": "Professor",
+      "profileUrl": "https://www.cc.gatech.edu/people/moinuddin-qureshi",
+      "portraitUrl": "https://www.cc.gatech.edu/sites/default/files/styles/profile_150x180_/public/images/profiles/2025-06/moinpic.jpeg?itok=p8Hl6jYx",
+      "officialSections": [
+        "Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cc.gatech.edu/people/faculty",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Professor | Faculty | https://www.cc.gatech.edu/people/moinuddin-qureshi",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "umakishore-ramachandran",
+      "rosterName": "Umakishore Ramachandran",
+      "title": "Professor",
+      "profileUrl": "https://www.cc.gatech.edu/people/umakishore-ramachandran",
+      "portraitUrl": "https://www.cc.gatech.edu/sites/default/files/styles/profile_150x180_/public/images/profiles/2025-06/kishore_ramachandran_0.png?itok=hvTltbWi",
+      "officialSections": [
+        "Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cc.gatech.edu/people/faculty",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Professor | Faculty | https://www.cc.gatech.edu/people/umakishore-ramachandran",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "dana-randall",
+      "rosterName": "Dana Randall",
+      "title": "Regents’ Professor, Associate Dean for Access and…",
+      "profileUrl": "https://www.cc.gatech.edu/people/dana-randall",
+      "portraitUrl": "https://www.cc.gatech.edu/sites/default/files/styles/profile_150x180_/public/images/profiles/2026-08/dana_randall_0.png?itok=qMEEXOV8",
+      "officialSections": [
+        "Faculty",
+        "ML PhD Program Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cc.gatech.edu/people/faculty",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Regents’ Professor, Associate Dean for Access and… | Faculty · ML PhD Program Faculty | https://www.cc.gatech.edu/people/dana-randall",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "harish-ravichandar",
+      "rosterName": "Harish Ravichandar",
+      "title": "Assistant Professor",
+      "profileUrl": "https://www.cc.gatech.edu/people/harish-ravichandar",
+      "portraitUrl": "https://www.cc.gatech.edu/sites/default/files/styles/profile_150x180_/public/images/profiles/2026-08/harish_ravichandar.jpeg?itok=qnKiCXJ8",
+      "officialSections": [
+        "Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cc.gatech.edu/people/faculty",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Assistant Professor | Faculty | https://www.cc.gatech.edu/people/harish-ravichandar",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "mark-riedl",
+      "rosterName": "Mark Riedl",
+      "title": "Professor",
+      "profileUrl": "https://www.cc.gatech.edu/people/mark-riedl",
+      "portraitUrl": "https://www.cc.gatech.edu/sites/default/files/styles/profile_150x180_/public/images/profiles/2026-08/riedl_mark.jpeg?itok=_vtNAKwQ",
+      "officialSections": [
+        "Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cc.gatech.edu/people/faculty",
+      "decision": "included_existing",
+      "atlasPersonId": "mark-riedl-gatech",
+      "reason": "符合范围，且规范化姓名可与当前图谱人物唯一匹配。",
+      "evidence": "Professor | Faculty | https://www.cc.gatech.edu/people/mark-riedl"
+    },
+    {
+      "officialId": "alan-ritter",
+      "rosterName": "Alan Ritter",
+      "title": "Associate Professor",
+      "profileUrl": "https://www.cc.gatech.edu/people/alan-ritter",
+      "portraitUrl": "https://www.cc.gatech.edu/sites/default/files/styles/profile_150x180_/public/images/profiles/2026-08/ritter_alan.jpeg?itok=odJPyk4x",
+      "officialSections": [
+        "Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cc.gatech.edu/people/faculty",
+      "decision": "included_existing",
+      "atlasPersonId": "alan-ritter-award",
+      "reason": "符合范围，且规范化姓名可与当前图谱人物唯一匹配。",
+      "evidence": "Associate Professor | Faculty | https://www.cc.gatech.edu/people/alan-ritter"
+    },
+    {
+      "officialId": "veronica-rivera",
+      "rosterName": "Veronica Rivera",
+      "title": "Assistant Professor",
+      "profileUrl": "https://www.cc.gatech.edu/people/veronica-rivera",
+      "portraitUrl": "https://www.cc.gatech.edu/sites/default/files/styles/profile_150x180_/public/images/profiles/2026-08/rivera_headshot.jpeg?itok=JZrBYya3",
+      "officialSections": [
+        "Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cc.gatech.edu/people/faculty",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Assistant Professor | Faculty | https://www.cc.gatech.edu/people/veronica-rivera",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "jessica-roberts",
+      "rosterName": "Jessica Roberts",
+      "title": "Associate Professor",
+      "profileUrl": "https://www.cc.gatech.edu/people/jessica-roberts",
+      "portraitUrl": "https://www.cc.gatech.edu/sites/default/files/styles/profile_150x180_/public/images/profiles/2025-08/jessica_roberts_0.png?itok=02qGYE_s",
+      "officialSections": [
+        "Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cc.gatech.edu/people/faculty",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Associate Professor | Faculty | https://www.cc.gatech.edu/people/jessica-roberts",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "francisco-romero",
+      "rosterName": "Francisco Romero",
+      "title": "Assistant Professor",
+      "profileUrl": "https://www.cc.gatech.edu/people/francisco-romero",
+      "portraitUrl": "https://www.cc.gatech.edu/sites/default/files/styles/profile_150x180_/public/images/profiles/2025-08/faromero_headshot.jpg?itok=uitytv_M",
+      "officialSections": [
+        "Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cc.gatech.edu/people/faculty",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Assistant Professor | Faculty | https://www.cc.gatech.edu/people/francisco-romero",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "kexin-rong",
+      "rosterName": "Kexin Rong",
+      "title": "Assistant Professor",
+      "profileUrl": "https://www.cc.gatech.edu/people/kexin-rong",
+      "portraitUrl": "https://www.cc.gatech.edu/sites/default/files/styles/profile_150x180_/public/images/profiles/2025-06/kexinrong.jpg?itok=Y6y0_FFy",
+      "officialSections": [
+        "Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cc.gatech.edu/people/faculty",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Assistant Professor | Faculty | https://www.cc.gatech.edu/people/kexin-rong",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "mahdi-roozbahani",
+      "rosterName": "Mahdi Roozbahani",
+      "title": "Lecturer",
+      "profileUrl": "https://www.cc.gatech.edu/people/mahdi-roozbahani",
+      "portraitUrl": "https://www.cc.gatech.edu/sites/default/files/styles/profile_150x180_/public/images/profiles/2025-06/mahdi.jpg?itok=SFC2tm2Y",
+      "officialSections": [
+        "Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cc.gatech.edu/people/faculty",
+      "decision": "excluded_non_pi",
+      "reason": "官方职称或名录分组属于教学、兼职、附属、科研支持或其他非独立 PI 岗位。",
+      "evidence": "Lecturer | Faculty | https://www.cc.gatech.edu/people/mahdi-roozbahani"
+    },
+    {
+      "officialId": "nimisha-roy-0",
+      "rosterName": "Nimisha Roy",
+      "title": "Lecturer",
+      "profileUrl": "https://www.cc.gatech.edu/people/nimisha-roy-0",
+      "portraitUrl": "https://www.cc.gatech.edu/sites/default/files/styles/profile_150x180_/public/images/profiles/2025-06/nimishaheadshot.jpeg?itok=RXNmkwa4",
+      "officialSections": [
+        "Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cc.gatech.edu/people/faculty",
+      "decision": "excluded_non_pi",
+      "reason": "官方职称或名录分组属于教学、兼职、附属、科研支持或其他非独立 PI 岗位。",
+      "evidence": "Lecturer | Faculty | https://www.cc.gatech.edu/people/nimisha-roy-0"
+    },
+    {
+      "officialId": "agata-rozga",
+      "rosterName": "Agata Rozga",
+      "title": "Principal Research Scientist",
+      "profileUrl": "https://www.cc.gatech.edu/people/agata-rozga",
+      "portraitUrl": "https://www.cc.gatech.edu/sites/default/files/styles/profile_150x180_/public/images/profiles/2025-06/rozga_agata.jpg?itok=cbV1vvum",
+      "officialSections": [
+        "Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cc.gatech.edu/people/faculty",
+      "decision": "excluded_non_pi",
+      "reason": "官方职称或名录分组属于教学、兼职、附属、科研支持或其他非独立 PI 岗位。",
+      "evidence": "Principal Research Scientist | Faculty | https://www.cc.gatech.edu/people/agata-rozga"
+    },
+    {
+      "officialId": "ana-rusch",
+      "rosterName": "Ana Rusch",
+      "title": "Research Associate II",
+      "profileUrl": "https://www.cc.gatech.edu/people/ana-rusch",
+      "portraitUrl": "https://www.cc.gatech.edu/sites/default/files/styles/profile_150x180_/public/default_images/Profile-Default.jpg?itok=LH4JPDtS",
+      "officialSections": [
+        "Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cc.gatech.edu/people/faculty",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Research Associate II | Faculty | https://www.cc.gatech.edu/people/ana-rusch",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "ahmed-saeed",
+      "rosterName": "Ahmed Saeed",
+      "title": "Assistant Professor",
+      "profileUrl": "https://www.cc.gatech.edu/people/ahmed-saeed",
+      "portraitUrl": "https://www.cc.gatech.edu/sites/default/files/styles/profile_150x180_/public/images/profiles/2026-01/ahmed_said_mohamed_86a1030_copy.jpg?itok=vy1YMZVC",
+      "officialSections": [
+        "Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cc.gatech.edu/people/faculty",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Assistant Professor | Faculty | https://www.cc.gatech.edu/people/ahmed-saeed",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "brendan-saltaformaggio",
+      "rosterName": "Brendan Saltaformaggio",
+      "title": "Associate Professor in SCP, Joint with the School…",
+      "profileUrl": "https://www.cc.gatech.edu/people/brendan-saltaformaggio",
+      "portraitUrl": "https://www.cc.gatech.edu/sites/default/files/styles/profile_150x180_/public/images/profiles/2025-06/saltaformaggio_headshot.png?itok=c4FfwwwA",
+      "officialSections": [
+        "Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cc.gatech.edu/people/faculty",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Associate Professor in SCP, Joint with the School… | Faculty | https://www.cc.gatech.edu/people/brendan-saltaformaggio",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "vivek-sarkar",
+      "rosterName": "Vivek Sarkar",
+      "title": "Dean, College of Computing",
+      "profileUrl": "https://www.cc.gatech.edu/people/vivek-sarkar",
+      "portraitUrl": "https://www.cc.gatech.edu/sites/default/files/styles/profile_150x180_/public/images/profiles/2026-08/vivek_sarkar_0.png?itok=SVO9Y3_p",
+      "officialSections": [
+        "Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cc.gatech.edu/people/faculty",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Dean, College of Computing | Faculty | https://www.cc.gatech.edu/people/vivek-sarkar",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "ryan-shandler",
+      "rosterName": "Ryan Shandler",
+      "title": "Assistant Professor",
+      "profileUrl": "https://www.cc.gatech.edu/people/ryan-shandler",
+      "portraitUrl": "https://www.cc.gatech.edu/sites/default/files/styles/profile_150x180_/public/images/profiles/2026-08/ryan_shandler_profile_copy.jpg?itok=KizHjwm2",
+      "officialSections": [
+        "Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cc.gatech.edu/people/faculty",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Assistant Professor | Faculty | https://www.cc.gatech.edu/people/ryan-shandler",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "c-david-sherrill",
+      "rosterName": "C. David Sherrill",
+      "title": "Executive Director, Institute for Data…",
+      "profileUrl": "https://www.cc.gatech.edu/people/c-david-sherrill",
+      "portraitUrl": "https://www.cc.gatech.edu/sites/default/files/styles/profile_150x180_/public/images/profiles/2026-07/david_sherrill_0.png?itok=xkJnC4Nx",
+      "officialSections": [
+        "Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cc.gatech.edu/people/faculty",
+      "decision": "excluded_non_pi",
+      "reason": "官方职称或名录分组属于教学、兼职、附属、科研支持或其他非独立 PI 岗位。",
+      "evidence": "Executive Director, Institute for Data… | Faculty | https://www.cc.gatech.edu/people/c-david-sherrill"
+    },
+    {
+      "officialId": "humphrey-shi",
+      "rosterName": "Humphrey Shi",
+      "title": "Associate Professor",
+      "profileUrl": "https://www.cc.gatech.edu/people/humphrey-shi",
+      "portraitUrl": "https://www.cc.gatech.edu/sites/default/files/styles/profile_150x180_/public/images/profiles/2026-08/shi_humphrey_1.jpg?itok=YGQH2dZ3",
+      "officialSections": [
+        "Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cc.gatech.edu/people/faculty",
+      "decision": "included_existing",
+      "atlasPersonId": "humphrey-shi-gatech",
+      "reason": "符合范围，且规范化姓名可与当前图谱人物唯一匹配。",
+      "evidence": "Associate Professor | Faculty | https://www.cc.gatech.edu/people/humphrey-shi"
+    },
+    {
+      "officialId": "snehal-shirke",
+      "rosterName": "Snehal Shirke",
+      "title": "Lecturer",
+      "profileUrl": "https://www.cc.gatech.edu/people/snehal-shirke",
+      "portraitUrl": "https://www.cc.gatech.edu/sites/default/files/styles/profile_150x180_/public/images/profiles/2026-01/snehal.jpg?itok=D43EYicW",
+      "officialSections": [
+        "Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cc.gatech.edu/people/faculty",
+      "decision": "excluded_non_pi",
+      "reason": "官方职称或名录分组属于教学、兼职、附属、科研支持或其他非独立 PI 岗位。",
+      "evidence": "Lecturer | Faculty | https://www.cc.gatech.edu/people/snehal-shirke"
+    },
+    {
+      "officialId": "sahil-singla",
+      "rosterName": "Sahil Singla",
+      "title": "Assistant Professor",
+      "profileUrl": "https://www.cc.gatech.edu/people/sahil-singla",
+      "portraitUrl": "https://www.cc.gatech.edu/sites/default/files/styles/profile_150x180_/public/images/profiles/2025-06/sahil-singla-headshot.jpg?itok=E4Prm2r-",
+      "officialSections": [
+        "Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cc.gatech.edu/people/faculty",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Assistant Professor | Faculty | https://www.cc.gatech.edu/people/sahil-singla",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "michael-specter",
+      "rosterName": "Michael Specter",
+      "title": "Assistant Professor in SCP, Joint with the School…",
+      "profileUrl": "https://www.cc.gatech.edu/people/michael-specter",
+      "portraitUrl": "https://www.cc.gatech.edu/sites/default/files/styles/profile_150x180_/public/images/profiles/2025-06/prof_pic_0.png?itok=J9ccPxno",
+      "officialSections": [
+        "Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cc.gatech.edu/people/faculty",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Assistant Professor in SCP, Joint with the School… | Faculty | https://www.cc.gatech.edu/people/michael-specter",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "cedric-stallworth",
+      "rosterName": "Cedric Stallworth",
+      "title": "Senior Lecturer",
+      "profileUrl": "https://www.cc.gatech.edu/people/cedric-stallworth",
+      "portraitUrl": "https://www.cc.gatech.edu/sites/default/files/styles/profile_150x180_/public/images/profiles/2026-08/cedric_stallworth_0.png?itok=m0qwY2Zn",
+      "officialSections": [
+        "Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cc.gatech.edu/people/faculty",
+      "decision": "excluded_non_pi",
+      "reason": "官方职称或名录分组属于教学、兼职、附属、科研支持或其他非独立 PI 岗位。",
+      "evidence": "Senior Lecturer | Faculty | https://www.cc.gatech.edu/people/cedric-stallworth"
+    },
+    {
+      "officialId": "thad-starner",
+      "rosterName": "Thad Starner",
+      "title": "Professor",
+      "profileUrl": "https://www.cc.gatech.edu/people/thad-starner",
+      "portraitUrl": "https://www.cc.gatech.edu/sites/default/files/styles/profile_150x180_/public/images/profiles/2026-08/thad_starner_0.png?itok=ZpNYYFd3",
+      "officialSections": [
+        "Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cc.gatech.edu/people/faculty",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Professor | Faculty | https://www.cc.gatech.edu/people/thad-starner",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "john-stasko",
+      "rosterName": "John Stasko",
+      "title": "Professor Emeritus",
+      "profileUrl": "https://www.cc.gatech.edu/people/john-stasko",
+      "portraitUrl": "https://www.cc.gatech.edu/sites/default/files/styles/profile_150x180_/public/images/profiles/2026-08/john_stasko_0.jpg?itok=pQ5goFQ8",
+      "officialSections": [
+        "Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cc.gatech.edu/people/faculty",
+      "decision": "excluded_historical",
+      "reason": "官方职称或名录分组明确为荣休、退休或历史人员。",
+      "evidence": "Professor Emeritus | Faculty | https://www.cc.gatech.edu/people/john-stasko"
+    },
+    {
+      "officialId": "jay-summet",
+      "rosterName": "Jay Summet",
+      "title": "OMSCS Associate Director for Academic Affairs and…",
+      "profileUrl": "https://www.cc.gatech.edu/people/jay-summet",
+      "portraitUrl": "https://www.cc.gatech.edu/sites/default/files/styles/profile_150x180_/public/images/profiles/2026-01/jay_summet_0.png?itok=lpGsUO1q",
+      "officialSections": [
+        "Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cc.gatech.edu/people/faculty",
+      "decision": "excluded_non_pi",
+      "reason": "官方卡片仅显示行政/项目领导职务，未显示独立教授或 PI 职称。",
+      "evidence": "OMSCS Associate Director for Academic Affairs and… | Faculty | https://www.cc.gatech.edu/people/jay-summet"
+    },
+    {
+      "officialId": "henry-swanson",
+      "rosterName": "Henry Swanson",
+      "title": "Research Scientist I",
+      "profileUrl": "https://www.cc.gatech.edu/people/henry-swanson",
+      "portraitUrl": "https://www.cc.gatech.edu/sites/default/files/styles/profile_150x180_/public/default_images/Profile-Default.jpg?itok=LH4JPDtS",
+      "officialSections": [
+        "Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cc.gatech.edu/people/faculty",
+      "decision": "excluded_non_pi",
+      "reason": "官方职称或名录分组属于教学、兼职、附属、科研支持或其他非独立 PI 岗位。",
+      "evidence": "Research Scientist I | Faculty | https://www.cc.gatech.edu/people/henry-swanson"
+    },
+    {
+      "officialId": "peter-swire",
+      "rosterName": "Peter Swire",
+      "title": "J.Z. Liang Chair in the School of Cybersecurity…",
+      "profileUrl": "https://www.cc.gatech.edu/people/peter-swire",
+      "portraitUrl": "https://www.cc.gatech.edu/sites/default/files/styles/profile_150x180_/public/images/profiles/2025-06/swire_web.jpg?itok=kMSUP0uL",
+      "officialSections": [
+        "Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cc.gatech.edu/people/faculty",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "J.Z. Liang Chair in the School of Cybersecurity… | Faculty | https://www.cc.gatech.edu/people/peter-swire",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "qi-tang",
+      "rosterName": "Qi Tang",
+      "title": "Assistant Professor",
+      "profileUrl": "https://www.cc.gatech.edu/people/qi-tang",
+      "portraitUrl": "https://www.cc.gatech.edu/sites/default/files/styles/profile_150x180_/public/images/profiles/2026-08/qi_tang_profile.jpg?itok=l2eu3j2r",
+      "officialSections": [
+        "Faculty",
+        "ML PhD Program Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cc.gatech.edu/people/faculty",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Assistant Professor | Faculty · ML PhD Program Faculty | https://www.cc.gatech.edu/people/qi-tang",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "cecilia-testart",
+      "rosterName": "Cecilia Testart",
+      "title": "Assistant Professor in SCP, Joint with the School…",
+      "profileUrl": "https://www.cc.gatech.edu/people/cecilia-testart",
+      "portraitUrl": "https://www.cc.gatech.edu/sites/default/files/styles/profile_150x180_/public/images/profiles/2025-06/cecilia_testart.png?itok=XK2qiRHl",
+      "officialSections": [
+        "Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cc.gatech.edu/people/faculty",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Assistant Professor in SCP, Joint with the School… | Faculty | https://www.cc.gatech.edu/people/cecilia-testart",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "jesse-thomason",
+      "rosterName": "Jesse Thomason",
+      "title": "Associate Professor",
+      "profileUrl": "https://www.cc.gatech.edu/people/jesse-thomason",
+      "portraitUrl": "https://www.cc.gatech.edu/sites/default/files/styles/profile_150x180_/public/images/profiles/2026-08/jessethomason.jpg?itok=TG9Fz53L",
+      "officialSections": [
+        "Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cc.gatech.edu/people/faculty",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Associate Professor | Faculty | https://www.cc.gatech.edu/people/jesse-thomason",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "alexey-tumanov",
+      "rosterName": "Alexey Tumanov",
+      "title": "Associate Professor",
+      "profileUrl": "https://www.cc.gatech.edu/people/alexey-tumanov",
+      "portraitUrl": "https://www.cc.gatech.edu/sites/default/files/styles/profile_150x180_/public/images/profiles/2026-08/alexeytumanov-202105.png?itok=D6FPLyzN",
+      "officialSections": [
+        "Faculty",
+        "ML PhD Program Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cc.gatech.edu/people/faculty",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Associate Professor | Faculty · ML PhD Program Faculty | https://www.cc.gatech.edu/people/alexey-tumanov",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "greg-turk",
+      "rosterName": "Greg Turk",
+      "title": "Professor",
+      "profileUrl": "https://www.cc.gatech.edu/people/greg-turk",
+      "portraitUrl": "https://www.cc.gatech.edu/sites/default/files/styles/profile_150x180_/public/images/profiles/2026-08/greg_turk_0.png?itok=Iv1boGnZ",
+      "officialSections": [
+        "Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cc.gatech.edu/people/faculty",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Professor | Faculty | https://www.cc.gatech.edu/people/greg-turk",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "judith-uchidiuno",
+      "rosterName": "Judith Uchidiuno",
+      "title": "Assistant Professor",
+      "profileUrl": "https://www.cc.gatech.edu/people/judith-uchidiuno",
+      "portraitUrl": "https://www.cc.gatech.edu/sites/default/files/styles/profile_150x180_/public/images/profiles/2025-06/uchidiuno_judith.jpg?itok=E0_IroCP",
+      "officialSections": [
+        "Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cc.gatech.edu/people/faculty",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Assistant Professor | Faculty | https://www.cc.gatech.edu/people/judith-uchidiuno",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "jan-van-den-brand",
+      "rosterName": "Jan van den Brand",
+      "title": "Assistant Professor",
+      "profileUrl": "https://www.cc.gatech.edu/people/jan-van-den-brand",
+      "portraitUrl": "https://www.cc.gatech.edu/sites/default/files/styles/profile_150x180_/public/images/profiles/2025-06/jan_headshot.jpeg?itok=pWbTYBRO",
+      "officialSections": [
+        "Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cc.gatech.edu/people/faculty",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Assistant Professor | Faculty | https://www.cc.gatech.edu/people/jan-van-den-brand",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "sashank-varma",
+      "rosterName": "Sashank Varma",
+      "title": "Professor",
+      "profileUrl": "https://www.cc.gatech.edu/people/sashank-varma",
+      "portraitUrl": "https://www.cc.gatech.edu/sites/default/files/styles/profile_150x180_/public/images/profiles/2026-08/sashank_varma.jpg?itok=fhPTQ-am",
+      "officialSections": [
+        "Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cc.gatech.edu/people/faculty",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Professor | Faculty | https://www.cc.gatech.edu/people/sashank-varma",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "santosh-vempala",
+      "rosterName": "Santosh Vempala",
+      "title": "Frederick G. Storey Chair in Computing and…",
+      "profileUrl": "https://www.cc.gatech.edu/people/santosh-vempala",
+      "portraitUrl": "https://www.cc.gatech.edu/sites/default/files/styles/profile_150x180_/public/images/profiles/2026-08/santosh_vempala_0.png?itok=lJGtd6Lw",
+      "officialSections": [
+        "Faculty",
+        "ML PhD Program Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cc.gatech.edu/people/faculty",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Frederick G. Storey Chair in Computing and… | Faculty · ML PhD Program Faculty | https://www.cc.gatech.edu/people/santosh-vempala",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "richard-vuduc",
+      "rosterName": "Richard Vuduc",
+      "title": "Professor",
+      "profileUrl": "https://www.cc.gatech.edu/people/richard-vuduc",
+      "portraitUrl": "https://www.cc.gatech.edu/sites/default/files/styles/profile_150x180_/public/images/profiles/2026-04/vuduc_profile.jpg?itok=mZnjaPZO",
+      "officialSections": [
+        "Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cc.gatech.edu/people/faculty",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Professor | Faculty | https://www.cc.gatech.edu/people/richard-vuduc",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "bruce-walker",
+      "rosterName": "Bruce Walker",
+      "title": "Professor (Joint with School of Psychology)",
+      "profileUrl": "https://www.cc.gatech.edu/people/bruce-walker",
+      "portraitUrl": "https://www.cc.gatech.edu/sites/default/files/styles/profile_150x180_/public/images/profiles/2026-08/bruce_walker_0.png?itok=5lcMexn2",
+      "officialSections": [
+        "Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cc.gatech.edu/people/faculty",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Professor (Joint with School of Psychology) | Faculty | https://www.cc.gatech.edu/people/bruce-walker",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "kai-wang",
+      "rosterName": "Kai Wang",
+      "title": "Assistant Professor",
+      "profileUrl": "https://www.cc.gatech.edu/people/kai-wang",
+      "portraitUrl": "https://www.cc.gatech.edu/sites/default/files/styles/profile_150x180_/public/images/profiles/2026-08/kai_wang_profile_2.jpg?itok=g7nbEMMP",
+      "officialSections": [
+        "Faculty",
+        "ML PhD Program Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cc.gatech.edu/people/faculty",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Assistant Professor | Faculty · ML PhD Program Faculty | https://www.cc.gatech.edu/people/kai-wang",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "shana-white",
+      "rosterName": "Shana White",
+      "title": "Research Associate I",
+      "profileUrl": "https://www.cc.gatech.edu/people/shana-white",
+      "portraitUrl": "https://www.cc.gatech.edu/sites/default/files/styles/profile_150x180_/public/default_images/Profile-Default.jpg?itok=LH4JPDtS",
+      "officialSections": [
+        "Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cc.gatech.edu/people/faculty",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Research Associate I | Faculty | https://www.cc.gatech.edu/people/shana-white",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "jennifer-whitlow",
+      "rosterName": "Jennifer Whitlow",
+      "title": "Lecturer; Head of Partnerships, Fusen",
+      "profileUrl": "https://www.cc.gatech.edu/people/jennifer-whitlow",
+      "portraitUrl": "https://www.cc.gatech.edu/sites/default/files/styles/profile_150x180_/public/images/profiles/2025-06/whitlowweb.jpg?itok=QHrfHAdv",
+      "officialSections": [
+        "Board Member",
+        "Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cc.gatech.edu/people/faculty",
+      "decision": "excluded_non_pi",
+      "reason": "官方职称或名录分组属于教学、兼职、附属、科研支持或其他非独立 PI 岗位。",
+      "evidence": "Lecturer; Head of Partnerships, Fusen | Board Member · Faculty | https://www.cc.gatech.edu/people/jennifer-whitlow"
+    },
+    {
+      "officialId": "christopher-wirgler",
+      "rosterName": "Christopher Wirgler",
+      "title": "Research Technologist II",
+      "profileUrl": "https://www.cc.gatech.edu/people/christopher-wirgler",
+      "portraitUrl": "https://www.cc.gatech.edu/sites/default/files/styles/profile_150x180_/public/default_images/Profile-Default.jpg?itok=LH4JPDtS",
+      "officialSections": [
+        "Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cc.gatech.edu/people/faculty",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Research Technologist II | Faculty | https://www.cc.gatech.edu/people/christopher-wirgler",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "anqi-wu",
+      "rosterName": "Anqi Wu",
+      "title": "Edenfield Early-Career Assistant Professor",
+      "profileUrl": "https://www.cc.gatech.edu/people/anqi-wu",
+      "portraitUrl": "https://www.cc.gatech.edu/sites/default/files/styles/profile_150x180_/public/images/profiles/2026-08/anqi_wu_cc_profile.png?itok=dskB5MK2",
+      "officialSections": [
+        "Faculty",
+        "ML PhD Program Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cc.gatech.edu/people/faculty",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Edenfield Early-Career Assistant Professor | Faculty · ML PhD Program Faculty | https://www.cc.gatech.edu/people/anqi-wu",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "xin-xing",
+      "rosterName": "Xin Xing",
+      "title": "Post-doctoral Researcher",
+      "profileUrl": "https://www.cc.gatech.edu/people/xin-xing",
+      "portraitUrl": "https://www.cc.gatech.edu/sites/default/files/styles/profile_150x180_/public/default_images/Profile-Default.jpg?itok=LH4JPDtS",
+      "officialSections": [
+        "Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cc.gatech.edu/people/faculty",
+      "decision": "excluded_non_pi",
+      "reason": "官方职称或名录分组属于教学、兼职、附属、科研支持或其他非独立 PI 岗位。",
+      "evidence": "Post-doctoral Researcher | Faculty | https://www.cc.gatech.edu/people/xin-xing"
+    },
+    {
+      "officialId": "cindy-xiong",
+      "rosterName": "Cindy Xiong",
+      "title": "Assistant Professor",
+      "profileUrl": "https://www.cc.gatech.edu/people/cindy-xiong",
+      "portraitUrl": "https://www.cc.gatech.edu/sites/default/files/styles/profile_150x180_/public/images/profiles/2025-06/2x6a2954_copy.jpg?itok=qDuWjDHy",
+      "officialSections": [
+        "Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cc.gatech.edu/people/faculty",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Assistant Professor | Faculty | https://www.cc.gatech.edu/people/cindy-xiong",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "danfei-xu",
+      "rosterName": "Danfei Xu",
+      "title": "Assistant Professor",
+      "profileUrl": "https://www.cc.gatech.edu/people/danfei-xu",
+      "portraitUrl": "https://www.cc.gatech.edu/sites/default/files/styles/profile_150x180_/public/images/profiles/2026-08/danfeixu2.jpg?itok=a6LO7QoW",
+      "officialSections": [
+        "Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cc.gatech.edu/people/faculty",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Assistant Professor | Faculty | https://www.cc.gatech.edu/people/danfei-xu",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "helen-xu",
+      "rosterName": "Helen Xu",
+      "title": "Assistant Professor",
+      "profileUrl": "https://www.cc.gatech.edu/people/helen-xu",
+      "portraitUrl": "https://www.cc.gatech.edu/sites/default/files/styles/profile_150x180_/public/images/profiles/2025-06/helen_xu_profile_2.jpg?itok=cJffFozj",
+      "officialSections": [
+        "Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cc.gatech.edu/people/faculty",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Assistant Professor | Faculty | https://www.cc.gatech.edu/people/helen-xu",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "jun-xu",
+      "rosterName": "Jun Xu",
+      "title": "Professor",
+      "profileUrl": "https://www.cc.gatech.edu/people/jun-xu",
+      "portraitUrl": "https://www.cc.gatech.edu/sites/default/files/styles/profile_150x180_/public/images/profiles/2025-06/jun_xu_0.png?itok=iGrQtOKn",
+      "officialSections": [
+        "Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cc.gatech.edu/people/faculty",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Professor | Faculty | https://www.cc.gatech.edu/people/jun-xu",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "wei-xu",
+      "rosterName": "Wei Xu",
+      "title": "Associate Professor",
+      "profileUrl": "https://www.cc.gatech.edu/people/wei-xu",
+      "portraitUrl": "https://www.cc.gatech.edu/sites/default/files/styles/profile_150x180_/public/images/profiles/2026-08/wei_xu_0.png?itok=EX7ttgCm",
+      "officialSections": [
+        "Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cc.gatech.edu/people/faculty",
+      "decision": "included_existing",
+      "atlasPersonId": "wei-xu-award",
+      "reason": "符合范围，且规范化姓名可与当前图谱人物唯一匹配。",
+      "evidence": "Associate Professor | Faculty | https://www.cc.gatech.edu/people/wei-xu"
+    },
+    {
+      "officialId": "aviv-yaish",
+      "rosterName": "Aviv Yaish",
+      "title": "Incoming Assistant Professor Fall 2027",
+      "profileUrl": "https://www.cc.gatech.edu/people/aviv-yaish",
+      "portraitUrl": "https://www.cc.gatech.edu/sites/default/files/styles/profile_150x180_/public/images/profiles/2026-08/image001.png?itok=YSNbphgz",
+      "officialSections": [
+        "Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cc.gatech.edu/people/faculty",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Incoming Assistant Professor Fall 2027 | Faculty | https://www.cc.gatech.edu/people/aviv-yaish",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "yalong-yang",
+      "rosterName": "Yalong Yang",
+      "title": "Assistant Professor",
+      "profileUrl": "https://www.cc.gatech.edu/people/yalong-yang",
+      "portraitUrl": "https://www.cc.gatech.edu/sites/default/files/styles/profile_150x180_/public/images/profiles/2025-06/yalong_yang.jpg?itok=IJ_2PEva",
+      "officialSections": [
+        "Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cc.gatech.edu/people/faculty",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Assistant Professor | Faculty | https://www.cc.gatech.edu/people/yalong-yang",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "ellen-zegura",
+      "rosterName": "Ellen Zegura",
+      "title": "Professor and Stephen Fleming Chair in…",
+      "profileUrl": "https://www.cc.gatech.edu/people/ellen-zegura",
+      "portraitUrl": "https://www.cc.gatech.edu/sites/default/files/styles/profile_150x180_/public/images/profiles/2026-08/ellen_zegura_0.png?itok=PmEEiDlN",
+      "officialSections": [
+        "Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cc.gatech.edu/people/faculty",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Professor and Stephen Fleming Chair in… | Faculty | https://www.cc.gatech.edu/people/ellen-zegura",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "chao-zhang",
+      "rosterName": "Chao Zhang",
+      "title": "Edenfield Early-Career Associate Professor",
+      "profileUrl": "https://www.cc.gatech.edu/people/chao-zhang",
+      "portraitUrl": "https://www.cc.gatech.edu/sites/default/files/styles/profile_150x180_/public/images/profiles/2026-08/chao_zhang_0.png?itok=2ghNR570",
+      "officialSections": [
+        "Faculty",
+        "ML PhD Program Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cc.gatech.edu/people/faculty",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Edenfield Early-Career Associate Professor | Faculty · ML PhD Program Faculty | https://www.cc.gatech.edu/people/chao-zhang",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "qirun-zhang",
+      "rosterName": "Qirun Zhang",
+      "title": "Associate Professor",
+      "profileUrl": "https://www.cc.gatech.edu/people/qirun-zhang",
+      "portraitUrl": "https://www.cc.gatech.edu/sites/default/files/styles/profile_150x180_/public/images/profiles/2025-09/qirun_zhang_0.png?itok=Mk1II_C_",
+      "officialSections": [
+        "Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cc.gatech.edu/people/faculty",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Associate Professor | Faculty | https://www.cc.gatech.edu/people/qirun-zhang",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "xiuwei-zhang",
+      "rosterName": "Xiuwei Zhang",
+      "title": "Associate Professor",
+      "profileUrl": "https://www.cc.gatech.edu/people/xiuwei-zhang",
+      "portraitUrl": "https://www.cc.gatech.edu/sites/default/files/styles/profile_150x180_/public/images/profiles/2026-08/xiuwei_zhang_cc_profile.jpg?itok=NtqLRRLy",
+      "officialSections": [
+        "Faculty",
+        "ML PhD Program Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cc.gatech.edu/people/faculty",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Associate Professor | Faculty · ML PhD Program Faculty | https://www.cc.gatech.edu/people/xiuwei-zhang",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "bo-zhu",
+      "rosterName": "Bo Zhu",
+      "title": "Associate Professor",
+      "profileUrl": "https://www.cc.gatech.edu/people/bo-zhu",
+      "portraitUrl": "https://www.cc.gatech.edu/sites/default/files/styles/profile_150x180_/public/images/profiles/2025-08/zhu_bo.png?itok=-Lt6QCjL",
+      "officialSections": [
+        "Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cc.gatech.edu/people/faculty",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Associate Professor | Faculty | https://www.cc.gatech.edu/people/bo-zhu",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "vassilis-zikas",
+      "rosterName": "Vassilis Zikas",
+      "title": "JPMorgan Chase Associate Professor",
+      "profileUrl": "https://www.cc.gatech.edu/people/vassilis-zikas",
+      "portraitUrl": "https://www.cc.gatech.edu/sites/default/files/styles/profile_150x180_/public/images/profiles/2026-05/bp5_0229_copy.jpg?itok=YVtdxwkn",
+      "officialSections": [
+        "Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cc.gatech.edu/people/faculty",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "JPMorgan Chase Associate Professor | Faculty | https://www.cc.gatech.edu/people/vassilis-zikas",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "saman-zonouz",
+      "rosterName": "Saman Zonouz",
+      "title": "Associate Professor in SCP, Joint with the School…",
+      "profileUrl": "https://www.cc.gatech.edu/people/saman-zonouz",
+      "portraitUrl": "https://www.cc.gatech.edu/sites/default/files/styles/profile_150x180_/public/images/profiles/2025-06/saman.jpeg?itok=veghXA7w",
+      "officialSections": [
+        "Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://www.cc.gatech.edu/people/faculty",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Associate Professor in SCP, Joint with the School… | Faculty | https://www.cc.gatech.edu/people/saman-zonouz",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "schemaVersion": 1,
+  "snapshotAt": "2026-09-02",
+  "sourceUnits": [
+    "cornell-cs",
+    "cornell-tech"
+  ],
+  "qualityPolicy": "Every proposed PI has a current Cornell official roster record, a distinct official/personal profile source, at least four sourced facts, and a local official portrait. Adviser, student and industry edges are included only when a first-party page explicitly identifies the relationship; missing public outcomes remain stated as unverified rather than inferred from coauthorship.",
+  "readyForIntegration": [
+    "abe-davis-cornell",
+    "aditya-vashistha-cornell",
+    "ahmed-el-alaoui-cornell",
+    "allison-koenecke-cornell",
+    "andrew-owens-cornell",
+    "angelina-wang-cornell",
+    "cheng-zhang-cornell",
+    "christopher-de-sa-cornell",
+    "diana-cai-cornell",
+    "hadar-averbuch-elor-cornell",
+    "jennifer-sun-cornell",
+    "john-thickstun-cornell"
+  ],
+  "readyCount": 12,
+  "verifiedRelationshipCount": 3,
+  "portraitDirectory": "public/portraits/us-cornell-roster-2026",
+  "expansionModule": "app/us-cornell-roster-expansion-1.ts",
+  "deferred": [
+    {
+      "name": "Bart Selman",
+      "decision": "include_new_pi",
+      "reason": "The existing bart-selman-lineage node does not meet the current profile/portrait baseline. The roster decision deliberately keeps him in the enrichment queue instead of treating the deficient canonical node as a completed inclusion."
+    }
+  ]
+}

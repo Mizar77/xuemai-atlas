@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-03",
+  "ok": true,
+  "module": "app/candidate-priority-p0-hk-sg-tail-batch-3-2026.ts",
+  "auditScript": "scripts/audit-candidate-priority-p0-hk-sg-tail-batch-3-2026.mjs",
+  "primaryPeople": 6,
+  "supportingEndpointPeople": 2,
+  "relationships": 3,
+  "groupMembers": 4,
+  "placements": 4,
+  "rosterPromotions": 6,
+  "portraits": {
+    "required": 6,
+    "present512x512": 6,
+    "directory": "public/portraits/candidate-p0-hk-sg-tail-batch-3-2026"
+  },
+  "qualityGate": {
+    "currentIndependentPiVerified": 6,
+    "twoOrMoreSources": 6,
+    "threeToFiveSourcedFacts": 6,
+    "educationAndTrainingFact": 6,
+    "localReliablePortrait": 6,
+    "verifiableNetworkEvidence": 6
+  },
+  "errors": []
+}

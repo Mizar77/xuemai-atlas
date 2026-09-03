@@ -1,0 +1,996 @@
+{
+  "schemaVersion": 1,
+  "region": "Mainland China",
+  "rank": 18,
+  "institution": "深圳大学",
+  "unitId": "szu-ai-rank11-18",
+  "unitName": "人工智能学院",
+  "snapshotAt": "2026-09-02",
+  "reviewedAt": "2026-09-03",
+  "rosterArtifact": "data/official-rosters/szu-ai-full-faculty-2026-09-02.json",
+  "officialRosterUrl": "https://ai.szu.edu.cn/szdw/js.htm",
+  "officialRosterCount": 57,
+  "decisionCount": 57,
+  "counts": {
+    "included_existing": 1,
+    "include_new_pi": 52,
+    "excluded_non_ai_cs": 4,
+    "excluded_non_pi": 0,
+    "excluded_historical": 0,
+    "excluded_industry_only": 0,
+    "excluded_insufficient_scope_evidence": 0,
+    "pending_profile_verification": 0
+  },
+  "decisions": [
+    {
+      "officialId": "https://ai.szu.edu.cn/info/1073/1270.htm",
+      "name": "李坚强",
+      "title": "教授",
+      "officialSections": [
+        "教授"
+      ],
+      "profileUrl": "https://ai.szu.edu.cn/info/1073/1270.htm",
+      "portraitUrl": null,
+      "sourcePageUrl": "https://ai.szu.edu.cn/szdw/js.htm",
+      "officialRosterUrl": "https://ai.szu.edu.cn/szdw/js.htm",
+      "profileChecked": true,
+      "decision": "include_new_pi",
+      "reason": "官方人工智能学院名录和个人页确认其为教授、副教授、研究员或可独立招生导师；该单位研究主线属于 AI、数据科学及相关智能计算范围。",
+      "evidenceUrl": "https://ai.szu.edu.cn/info/1073/1270.htm",
+      "evidenceExcerpt": "教授 | 教授 | 李坚强 · 教授 · 联系方式： lijq@szu.edu.cn · 招生专业： 智能科学与技术(140500) · 招生方向：具身智能与机器人、大数据健康"
+    },
+    {
+      "officialId": "https://ai.szu.edu.cn/info/1073/5410.htm",
+      "name": "曹一家",
+      "title": "国家杰青，万人计划科技创新领军人才",
+      "officialSections": [
+        "教授"
+      ],
+      "profileUrl": "https://ai.szu.edu.cn/info/1073/5410.htm",
+      "portraitUrl": null,
+      "sourcePageUrl": "https://ai.szu.edu.cn/szdw/js.htm",
+      "officialRosterUrl": "https://ai.szu.edu.cn/szdw/js.htm",
+      "profileChecked": true,
+      "decision": "include_new_pi",
+      "reason": "官方人工智能学院名录和个人页确认其为教授、副教授、研究员或可独立招生导师；该单位研究主线属于 AI、数据科学及相关智能计算范围。",
+      "evidenceUrl": "https://ai.szu.edu.cn/info/1073/5410.htm",
+      "evidenceExcerpt": "国家杰青，万人计划科技创新领军人才 | 教授 | 曹一家 · 国家杰青，万人计划科技创新领军人才 · 联系方式： · 招生专业：人工智能 · 招生方向：智能电网 研究方向为国际能源发展与中国电力系统安全，在国家 973 计划、 863 计划、国家重点研发等重大 项目取得 了一批具有重要国际影响力的原创性成果并推广应用，为中国电力事业的安全高效、绿色低碳发展做出了重大贡献，显著提升了中国智能电网与新能源研究的国际学术地位。 在国际上首次提出并证明了电力系统智能调度算法收敛于全局最优的充分条件，"
+    },
+    {
+      "officialId": "https://ai.szu.edu.cn/info/1073/1623.htm",
+      "name": "沈琳琳",
+      "title": "教授",
+      "officialSections": [
+        "教授"
+      ],
+      "profileUrl": "https://ai.szu.edu.cn/info/1073/1623.htm",
+      "portraitUrl": null,
+      "sourcePageUrl": "https://ai.szu.edu.cn/szdw/js.htm",
+      "officialRosterUrl": "https://ai.szu.edu.cn/szdw/js.htm",
+      "profileChecked": true,
+      "decision": "included_existing",
+      "atlasPersonId": "linlin-shen-szu",
+      "reason": "图谱已有同一人物 linlin-shen-szu；官方名录/个人页确认其当前属于深圳大学人工智能学院。",
+      "evidenceUrl": "https://ai.szu.edu.cn/info/1073/1623.htm",
+      "evidenceExcerpt": "教授 | 教授 | 沈琳琳 · 教授 · 联系方式：Email:llshen@szu.edu.cn · 招生专业：智能科学与技术、人工智能、计算机科学与技术 · 招生方向：计算机视觉 研究方向主要为深度学习理论及其在人脸识别/分析以及医学图像分析上的应用，作为负责人连续主持国家自然科学基金重大研究计划、国际合作研究、面上项目等5项，发表学术论文500余篇。 2023年5月带领团队开源首个中文百亿参数大模型“伶荔”，被金融等垂直行业广泛使用。 IEEE高级会员，入选江西省“双千计"
+    },
+    {
+      "officialId": "https://ai.szu.edu.cn/info/1073/1333.htm",
+      "name": "倪东",
+      "title": "教授，国家重点研发计划项目首席科学家",
+      "officialSections": [
+        "教授"
+      ],
+      "profileUrl": "https://ai.szu.edu.cn/info/1073/1333.htm",
+      "portraitUrl": null,
+      "sourcePageUrl": "https://ai.szu.edu.cn/szdw/js.htm",
+      "officialRosterUrl": "https://ai.szu.edu.cn/szdw/js.htm",
+      "profileChecked": true,
+      "decision": "include_new_pi",
+      "reason": "官方人工智能学院名录和个人页确认其为教授、副教授、研究员或可独立招生导师；该单位研究主线属于 AI、数据科学及相关智能计算范围。",
+      "evidenceUrl": "https://ai.szu.edu.cn/info/1073/1333.htm",
+      "evidenceExcerpt": "目首席科学家 | 教授 | 倪东 · 教授，国家重点研发计划项目首席科学家 · 联系方式：nidong@szu.edu.cn · 招生专业：智能科学与技术(140500) · 招生方向：智能医学超声 研究方向： 利用图像处理、人工智能及机器人技术，实现超声诊断的定量化、智能化和标准化；利用医学超声在内的多模态影像分析和基因分析技术，发现临床诊断新的生物标记物；紧密结合临床，开展有切实临床意义的前沿研究，并实现科研成果的临床应用及转化；关键词：医学超声图像计算、医学通用大模型、医学图像分析、具身智能、医疗"
+    },
+    {
+      "officialId": "https://ai.szu.edu.cn/info/1073/1271.htm",
+      "name": "朱泽轩",
+      "title": "教授",
+      "officialSections": [
+        "教授"
+      ],
+      "profileUrl": "https://ai.szu.edu.cn/info/1073/1271.htm",
+      "portraitUrl": null,
+      "sourcePageUrl": "https://ai.szu.edu.cn/szdw/js.htm",
+      "officialRosterUrl": "https://ai.szu.edu.cn/szdw/js.htm",
+      "profileChecked": true,
+      "decision": "include_new_pi",
+      "reason": "官方人工智能学院名录和个人页确认其为教授、副教授、研究员或可独立招生导师；该单位研究主线属于 AI、数据科学及相关智能计算范围。",
+      "evidenceUrl": "https://ai.szu.edu.cn/info/1073/1271.htm",
+      "evidenceExcerpt": "| 朱泽轩 · 教授 · 联系方式： zhuzx@szu.edu.cn · 招生专业： 计算机科学与技术(081200) · 招生方向： 人工智能；生物信息学 个人简介：朱泽轩（博士，教授，博导）2003年获得复旦大学计算机科学与技术学士学位，2008年获得新加坡南洋理工大学计算机工程博士学位，目前担任深圳大学副院长、大数据系统计算技术国家工程实验室副主任。主要从事计算智能、生物信息学等领域的研究工作。近五年连续入选斯坦福全球前2%顶尖科学家榜单，入选广东省特支计划珠江学者特聘教授和创新青年拔尖人才，"
+    },
+    {
+      "officialId": "https://ai.szu.edu.cn/info/1073/1272.htm",
+      "name": "陈新开",
+      "title": "教授",
+      "officialSections": [
+        "教授"
+      ],
+      "profileUrl": "https://ai.szu.edu.cn/info/1073/1272.htm",
+      "portraitUrl": null,
+      "sourcePageUrl": "https://ai.szu.edu.cn/szdw/js.htm",
+      "officialRosterUrl": "https://ai.szu.edu.cn/szdw/js.htm",
+      "profileChecked": true,
+      "decision": "include_new_pi",
+      "reason": "官方人工智能学院名录和个人页确认其为教授、副教授、研究员或可独立招生导师；该单位研究主线属于 AI、数据科学及相关智能计算范围。",
+      "evidenceUrl": "https://ai.szu.edu.cn/info/1073/1272.htm",
+      "evidenceExcerpt": "教授 | 教授 | 陈新开 · 教授 · 联系方式：xkchen@szu.edu.cn · 招生专业： 智能科学与技术(140500) · 招生方向：超精密驱动控制、工业机器人与具身智能、类脑神经网络芯片算法研究"
+    },
+    {
+      "officialId": "https://ai.szu.edu.cn/info/1073/5500.htm",
+      "name": "伍军",
+      "title": "国家高层次人才",
+      "officialSections": [
+        "教授"
+      ],
+      "profileUrl": "https://ai.szu.edu.cn/info/1073/5500.htm",
+      "portraitUrl": null,
+      "sourcePageUrl": "https://ai.szu.edu.cn/szdw/js.htm",
+      "officialRosterUrl": "https://ai.szu.edu.cn/szdw/js.htm",
+      "profileChecked": true,
+      "decision": "excluded_non_ai_cs",
+      "reason": "已检查官方个人页及名录字段，公开研究主线未显示 AI、NLP、CV、ML、数据智能、机器人或本图谱紧密相邻方向。",
+      "evidenceUrl": "https://ai.szu.edu.cn/info/1073/5500.htm",
+      "evidenceExcerpt": "国家高层次人才 | 教授 | 伍军 · 国家高层次人才 · 联系方式： · 招生专业： · 招生方向："
+    },
+    {
+      "officialId": "https://ai.szu.edu.cn/info/1073/1273.htm",
+      "name": "罗成文",
+      "title": "教授",
+      "officialSections": [
+        "教授"
+      ],
+      "profileUrl": "https://ai.szu.edu.cn/info/1073/1273.htm",
+      "portraitUrl": null,
+      "sourcePageUrl": "https://ai.szu.edu.cn/szdw/js.htm",
+      "officialRosterUrl": "https://ai.szu.edu.cn/szdw/js.htm",
+      "profileChecked": true,
+      "decision": "include_new_pi",
+      "reason": "官方人工智能学院名录和个人页确认其为教授、副教授、研究员或可独立招生导师；该单位研究主线属于 AI、数据科学及相关智能计算范围。",
+      "evidenceUrl": "https://ai.szu.edu.cn/info/1073/1273.htm",
+      "evidenceExcerpt": "教授 | 教授 | 罗成文 · 教授 · 联系方式：chengwen@szu.edu.c · 招生专业： 智能科学与技术(140500) · 招生方向： 智能感知、人机协同 研究方向 智能感知、人机协同 科研项目 国家自然科学基金优秀青年科学基金项目，主持 国家重点研发计划“智能机器人”重点专项，课题负责人 国家自然科学基金面上项目，主持 国家自然科学基金青年科学基金项目，主持 荣誉奖励 广东省人工智能产业协会自然科学一等奖，2023 ACM SIGMOBILE CHI"
+    },
+    {
+      "officialId": "https://ai.szu.edu.cn/info/1073/1274.htm",
+      "name": "尚万峰",
+      "title": "教授",
+      "officialSections": [
+        "教授"
+      ],
+      "profileUrl": "https://ai.szu.edu.cn/info/1073/1274.htm",
+      "portraitUrl": null,
+      "sourcePageUrl": "https://ai.szu.edu.cn/szdw/js.htm",
+      "officialRosterUrl": "https://ai.szu.edu.cn/szdw/js.htm",
+      "profileChecked": true,
+      "decision": "include_new_pi",
+      "reason": "官方人工智能学院名录和个人页确认其为教授、副教授、研究员或可独立招生导师；该单位研究主线属于 AI、数据科学及相关智能计算范围。",
+      "evidenceUrl": "https://ai.szu.edu.cn/info/1073/1274.htm",
+      "evidenceExcerpt": "教授 | 教授 | 尚万峰 · 教授 · 联系方式：wfshang@szu.edu.cn · 招生专业： 计算机技术 · 招生方向：人工智能、类脑计算 研究方向： 人工智能、类脑计算、触觉感知、灵巧手操控、多模态大模型 主要项目： [1] 深圳市基础研究重点项目，2025.01 -2027.12，200万，在研。 [2] 国家自然科学基金委员会–香港研究资助局联合科研资助基金， 2024.01- 2027.12，100万，在研。 [3] 国家自然科学基金，面上项目，2023.01-2026.12"
+    },
+    {
+      "officialId": "https://ai.szu.edu.cn/info/1073/4110.htm",
+      "name": "王冉",
+      "title": "教授",
+      "officialSections": [
+        "教授"
+      ],
+      "profileUrl": "https://ai.szu.edu.cn/info/1073/4110.htm",
+      "portraitUrl": null,
+      "sourcePageUrl": "https://ai.szu.edu.cn/szdw/js.htm",
+      "officialRosterUrl": "https://ai.szu.edu.cn/szdw/js.htm",
+      "profileChecked": true,
+      "decision": "include_new_pi",
+      "reason": "官方人工智能学院名录和个人页确认其为教授、副教授、研究员或可独立招生导师；该单位研究主线属于 AI、数据科学及相关智能计算范围。",
+      "evidenceUrl": "https://ai.szu.edu.cn/info/1073/4110.htm",
+      "evidenceExcerpt": "教授 | 教授 | 王冉 · 教授 · 联系方式： wangran@szu.edu.cn · 招生专业：计算机科学与技术（博士）; 智能科学与技术（学硕）；人工智能（专硕） · 招生方向： 不确定性机器学习、深度学习、模式识别、鲁棒泛化分析 研究方向：不确定性人工智能、监督学习、半监督学习、主动学习、多标记分类、深度学习的鲁棒泛化性研究、启发式优化 科研项目： 01/2026–12/2029 分布偏移视角下的深度学习鲁棒泛化关系研究（主持，国家自然科学基金 面上项目） 01/2022–12/20"
+    },
+    {
+      "officialId": "https://ai.szu.edu.cn/info/1073/4150.htm",
+      "name": "张铁山",
+      "title": "教授",
+      "officialSections": [
+        "教授"
+      ],
+      "profileUrl": "https://ai.szu.edu.cn/info/1073/4150.htm",
+      "portraitUrl": null,
+      "sourcePageUrl": "https://ai.szu.edu.cn/szdw/js.htm",
+      "officialRosterUrl": "https://ai.szu.edu.cn/szdw/js.htm",
+      "profileChecked": true,
+      "decision": "include_new_pi",
+      "reason": "官方人工智能学院名录和个人页确认其为教授、副教授、研究员或可独立招生导师；该单位研究主线属于 AI、数据科学及相关智能计算范围。",
+      "evidenceUrl": "https://ai.szu.edu.cn/info/1073/4150.htm",
+      "evidenceExcerpt": "教授 | 教授 | 张铁山 · 教授 · 联系方式：tszhang@szu.edu.cn · 招生专业：人工智能 · 招生方向：机器人与智能系统，医疗机器人 研究方向为小型 / 仿生机器人、智能系统及其在生物医学工程中的应用。 已发表约 20 篇同行评审期刊 / 会议论文，以一作 / 共同一作身份发表顶级综合期刊（例如 Nature Communications, Engineering ）和机器人领域期刊（例如 IEEE Transactions on Roboti"
+    },
+    {
+      "officialId": "https://ai.szu.edu.cn/info/1073/6430.htm",
+      "name": "陈晨",
+      "title": "联系方式：",
+      "officialSections": [
+        "教授"
+      ],
+      "profileUrl": "https://ai.szu.edu.cn/info/1073/6430.htm",
+      "portraitUrl": null,
+      "sourcePageUrl": "https://ai.szu.edu.cn/szdw/js.htm",
+      "officialRosterUrl": "https://ai.szu.edu.cn/szdw/js.htm",
+      "profileChecked": true,
+      "decision": "excluded_non_ai_cs",
+      "reason": "已检查官方个人页及名录字段，公开研究主线未显示 AI、NLP、CV、ML、数据智能、机器人或本图谱紧密相邻方向。",
+      "evidenceUrl": "https://ai.szu.edu.cn/info/1073/6430.htm",
+      "evidenceExcerpt": "联系方式： | 教授 | 陈晨 · 联系方式： · 招生专业： · 招生方向："
+    },
+    {
+      "officialId": "https://ai.szu.edu.cn/info/1074/1334.htm",
+      "name": "彭小刚",
+      "title": "副教授",
+      "officialSections": [
+        "副教授"
+      ],
+      "profileUrl": "https://ai.szu.edu.cn/info/1074/1334.htm",
+      "portraitUrl": null,
+      "sourcePageUrl": "https://ai.szu.edu.cn/szdw/js.htm",
+      "officialRosterUrl": "https://ai.szu.edu.cn/szdw/js.htm",
+      "profileChecked": true,
+      "decision": "include_new_pi",
+      "reason": "官方人工智能学院名录和个人页确认其为教授、副教授、研究员或可独立招生导师；该单位研究主线属于 AI、数据科学及相关智能计算范围。",
+      "evidenceUrl": "https://ai.szu.edu.cn/info/1074/1334.htm",
+      "evidenceExcerpt": "| 彭小刚 · 副教授 · 联系方式：pengxg@szu.edu.cn · 招生专业： 计算机科学与技术(081200) · 招生方向：数据挖掘 研究方向为数据挖掘，文本信息处理，大数据、互联网商业模型、国际化教育、创新创业。 下一条： 陈杰 【 关闭 】 粤海校区：深圳市南山区南海大道3688号 咨询、建议及投诉电话：0755-26946884 友情链接 智算中心 算力调度平台 学院介绍 学院概况 战略咨询委员会 院长寄语 学院领导 学院标识 机构设置 教学系 研究所 科研平台 重点实验室 师资队"
+    },
+    {
+      "officialId": "https://ai.szu.edu.cn/info/1074/2060.htm",
+      "name": "陈杰",
+      "title": "特聘研究员",
+      "officialSections": [
+        "副教授"
+      ],
+      "profileUrl": "https://ai.szu.edu.cn/info/1074/2060.htm",
+      "portraitUrl": null,
+      "sourcePageUrl": "https://ai.szu.edu.cn/szdw/js.htm",
+      "officialRosterUrl": "https://ai.szu.edu.cn/szdw/js.htm",
+      "profileChecked": true,
+      "decision": "include_new_pi",
+      "reason": "官方人工智能学院名录和个人页确认其为教授、副教授、研究员或可独立招生导师；该单位研究主线属于 AI、数据科学及相关智能计算范围。",
+      "evidenceUrl": "https://ai.szu.edu.cn/info/1074/2060.htm",
+      "evidenceExcerpt": "| 副教授 | 陈杰 · 特聘研究员 · 联系方式：chenjie@szu.edu.cn · 招生专业：167：计算机科学与技术（学博）、智能科学与技术（学硕）、人工智能（专硕）；160腾讯云：计算机技术（专硕）；134华大联合培养中心：人工智能（专硕） · 招生方向：可信大模型与智能体、具身智能、AI4LS 研究方向包括数据高效学习（分布式学习、主动学习）与可信机器学习（可解释性、隐私保护、高鲁棒性学习），并聚焦大语言模型与多智能体系统、具身智能的可信治理与应用，以及人工智能驱动的生命科学交叉研究（"
+    },
+    {
+      "officialId": "https://ai.szu.edu.cn/info/1074/1331.htm",
+      "name": "吴秉哲",
+      "title": "副教授",
+      "officialSections": [
+        "副教授"
+      ],
+      "profileUrl": "https://ai.szu.edu.cn/info/1074/1331.htm",
+      "portraitUrl": null,
+      "sourcePageUrl": "https://ai.szu.edu.cn/szdw/js.htm",
+      "officialRosterUrl": "https://ai.szu.edu.cn/szdw/js.htm",
+      "profileChecked": true,
+      "decision": "include_new_pi",
+      "reason": "官方人工智能学院名录和个人页确认其为教授、副教授、研究员或可独立招生导师；该单位研究主线属于 AI、数据科学及相关智能计算范围。",
+      "evidenceUrl": "https://ai.szu.edu.cn/info/1074/1331.htm",
+      "evidenceExcerpt": "划+证明材料等】邮件打包发送到wubingzheagent@gmail.com&wubingzhe@szu.edu.cn; 研究方向 1. 大模型对齐与安全 1）构建安全的长推理&慢思考模型，并应用于机器人、金融等场景 2）构建可信的工具调用及RAG系统；研究其中的安全攻防方法 2. 应用 1）金融：构建针对金融市场的多智能体风险预警系统，并应用于下游的金融风控，二级市场风险监控等领域 2） 生物医药：围绕双光子图像，病理图像，基因组学等下游应用中的模型可靠性问题，设计分布外优化方法 3） 机器人：围"
+    },
+    {
+      "officialId": "https://ai.szu.edu.cn/info/1074/1276.htm",
+      "name": "潘颖慧",
+      "title": "副教授",
+      "officialSections": [
+        "副教授"
+      ],
+      "profileUrl": "https://ai.szu.edu.cn/info/1074/1276.htm",
+      "portraitUrl": null,
+      "sourcePageUrl": "https://ai.szu.edu.cn/szdw/js.htm",
+      "officialRosterUrl": "https://ai.szu.edu.cn/szdw/js.htm",
+      "profileChecked": true,
+      "decision": "excluded_non_ai_cs",
+      "reason": "已检查官方个人页及名录字段，公开研究主线未显示 AI、NLP、CV、ML、数据智能、机器人或本图谱紧密相邻方向。",
+      "evidenceUrl": "https://ai.szu.edu.cn/info/1074/1276.htm",
+      "evidenceExcerpt": "副教授 | 副教授 | 潘颖慧 · 副教授 · 联系方式：57583472@qq.com · 招生专业： · 招生方向："
+    },
+    {
+      "officialId": "https://ai.szu.edu.cn/info/1074/4500.htm",
+      "name": "王小峰",
+      "title": "副教授、特聘研究员",
+      "officialSections": [
+        "副教授"
+      ],
+      "profileUrl": "https://ai.szu.edu.cn/info/1074/4500.htm",
+      "portraitUrl": null,
+      "sourcePageUrl": "https://ai.szu.edu.cn/szdw/js.htm",
+      "officialRosterUrl": "https://ai.szu.edu.cn/szdw/js.htm",
+      "profileChecked": true,
+      "decision": "include_new_pi",
+      "reason": "官方人工智能学院名录和个人页确认其为教授、副教授、研究员或可独立招生导师；该单位研究主线属于 AI、数据科学及相关智能计算范围。",
+      "evidenceUrl": "https://ai.szu.edu.cn/info/1074/4500.htm",
+      "evidenceExcerpt": "· 副教授、特聘研究员 · 联系方式：freewxf@szu.edu.cn · 招生专业：计算机科学与技术(081200) · 招生方向：数据挖掘"
+    },
+    {
+      "officialId": "https://ai.szu.edu.cn/info/1074/4010.htm",
+      "name": "白小山",
+      "title": "特聘研究员",
+      "officialSections": [
+        "副教授"
+      ],
+      "profileUrl": "https://ai.szu.edu.cn/info/1074/4010.htm",
+      "portraitUrl": null,
+      "sourcePageUrl": "https://ai.szu.edu.cn/szdw/js.htm",
+      "officialRosterUrl": "https://ai.szu.edu.cn/szdw/js.htm",
+      "profileChecked": true,
+      "decision": "include_new_pi",
+      "reason": "官方人工智能学院名录和个人页确认其为教授、副教授、研究员或可独立招生导师；该单位研究主线属于 AI、数据科学及相关智能计算范围。",
+      "evidenceUrl": "https://ai.szu.edu.cn/info/1074/4010.htm",
+      "evidenceExcerpt": "副教授 | 白小山 · 特聘研究员 · 联系方式：baixiaoshan@szu.edu.cn · 招生专业：计算机科学与技术（博士）; 智能科学与技术（学硕）；人工智能（专硕） · 招生方向：多机器人协同任务分配，路径规划 研究方向为多机器人/无人系统协同决策与控制，包括多机器人在复杂环境下的任务分配（Task Assignment）和路径规划（Path Planning）方法研究。作为项目负责人主持1项国家自然科学基金面上项目、1项国家自然科学基金青年项目、2项教育部中国高校产学研创新基金、1项广"
+    },
+    {
+      "officialId": "https://ai.szu.edu.cn/info/1074/5600.htm",
+      "name": "吉君恺",
+      "title": "副教授",
+      "officialSections": [
+        "副教授"
+      ],
+      "profileUrl": "https://ai.szu.edu.cn/info/1074/5600.htm",
+      "portraitUrl": null,
+      "sourcePageUrl": "https://ai.szu.edu.cn/szdw/js.htm",
+      "officialRosterUrl": "https://ai.szu.edu.cn/szdw/js.htm",
+      "profileChecked": true,
+      "decision": "include_new_pi",
+      "reason": "官方人工智能学院名录和个人页确认其为教授、副教授、研究员或可独立招生导师；该单位研究主线属于 AI、数据科学及相关智能计算范围。",
+      "evidenceUrl": "https://ai.szu.edu.cn/info/1074/5600.htm",
+      "evidenceExcerpt": "方式： jijunkai@szu.edu.cn · 招生专业： 计算机科学与技术(081200) · 招生方向： AI药物设计 研究兴趣： 人工智能药物设计，脑启发式神经网络； 累计发表期刊及会议论文70余篇，申请专利4项； 主持国家自然基金面上项目，青年项目，广东省面上项目，联合基金青年基金项目，深圳市自然基金面上项目。 [1] Junkai Ji, Jin Zhou, Zhangfan Yang, Qiuzhen Lin, and Carlos A. Coello Coello. \"AutoDock"
+    },
+    {
+      "officialId": "https://ai.szu.edu.cn/info/1075/6480.htm",
+      "name": "龙佳欢",
+      "title": "助理教授",
+      "officialSections": [
+        "讲师/助理教授"
+      ],
+      "profileUrl": "https://ai.szu.edu.cn/info/1075/6480.htm",
+      "portraitUrl": null,
+      "sourcePageUrl": "https://ai.szu.edu.cn/szdw/js.htm",
+      "officialRosterUrl": "https://ai.szu.edu.cn/szdw/js.htm",
+      "profileChecked": true,
+      "decision": "include_new_pi",
+      "reason": "官方人工智能学院名录和个人页确认其为教授、副教授、研究员或可独立招生导师；该单位研究主线属于 AI、数据科学及相关智能计算范围。",
+      "evidenceUrl": "https://ai.szu.edu.cn/info/1075/6480.htm",
+      "evidenceExcerpt": "理教授 | 讲师/助理教授 | 龙佳欢 · 助理教授 · 联系方式：jiahuanlong@szu.edu.cn · 招生专业：计算机科学，人工智能 · 招生方向：人工智能安全 研究方向为AI安全、大模型安全、智能感知安全，已在 CVPR、ECCV、AAAI、IEEE TII 等国际会议和期刊发表论文十余篇，其中一篇高被引、一篇Highlight。作为项目骨干参与多项千万级国防军工重点项目，相关成果已转化应用至解放军部队、空军基地和航天科工等单位，获国家基金委成果快讯栏目报道。获上海交通大学优秀毕业生。"
+    },
+    {
+      "officialId": "https://ai.szu.edu.cn/info/1075/1392.htm",
+      "name": "刘尊",
+      "title": "特聘研究员",
+      "officialSections": [
+        "讲师/助理教授"
+      ],
+      "profileUrl": "https://ai.szu.edu.cn/info/1075/1392.htm",
+      "portraitUrl": null,
+      "sourcePageUrl": "https://ai.szu.edu.cn/szdw/js.htm",
+      "officialRosterUrl": "https://ai.szu.edu.cn/szdw/js.htm",
+      "profileChecked": true,
+      "decision": "include_new_pi",
+      "reason": "官方人工智能学院名录和个人页确认其为教授、副教授、研究员或可独立招生导师；该单位研究主线属于 AI、数据科学及相关智能计算范围。",
+      "evidenceUrl": "https://ai.szu.edu.cn/info/1075/1392.htm",
+      "evidenceExcerpt": "特聘研究员 | 讲师/助理教授 | 刘尊 · 特聘研究员 · 联系方式：zunliu@szu.edu.cn · 招生专业：硕士：智能科学与技术，学硕；计算机技术，专硕。博士：计算机科学与技术 · 招生方向： 智能机器人/无人机系统，具身智能关键技术 研究方向包含智能机器人系统，具身智能关键技术，智能无人机系统相关，欢迎同学们报考。 论文：作者，题目，期刊名称，卷（期）（年），起止页码； （1）Zun Liu;Yuanqiang Cao; Jianyong Chen; Jianqiang Li"
+    },
+    {
+      "officialId": "https://ai.szu.edu.cn/info/1075/1325.htm",
+      "name": "卓炜",
+      "title": "助理教授",
+      "officialSections": [
+        "讲师/助理教授"
+      ],
+      "profileUrl": "https://ai.szu.edu.cn/info/1075/1325.htm",
+      "portraitUrl": null,
+      "sourcePageUrl": "https://ai.szu.edu.cn/szdw/js.htm",
+      "officialRosterUrl": "https://ai.szu.edu.cn/szdw/js.htm",
+      "profileChecked": true,
+      "decision": "include_new_pi",
+      "reason": "官方人工智能学院名录和个人页确认其为教授、副教授、研究员或可独立招生导师；该单位研究主线属于 AI、数据科学及相关智能计算范围。",
+      "evidenceUrl": "https://ai.szu.edu.cn/info/1075/1325.htm",
+      "evidenceExcerpt": "助理教授 · 联系方式： weizhuo@szu.edu.cn · 招生专业： 计算机科学与技术（学硕）；计算机技术（专硕） · 招生方向：计算机视觉 研究方向：小样本学习，多模态检测分割，医学图像理解以及工业异常检测。 谷歌学者： https://scholar.google.com.au/citations?user=Q-UjnzEAAAAJ&hl=en 招生：今年预计招收2-3名研究生，从事医学图像理解和3D理解研究，欢迎有科研理想、对计算机视觉研究有热情的同学联系。 重要成果列表如下： 1.Jio"
+    },
+    {
+      "officialId": "https://ai.szu.edu.cn/info/1075/6470.htm",
+      "name": "牛泽海",
+      "title": "助理教授",
+      "officialSections": [
+        "讲师/助理教授"
+      ],
+      "profileUrl": "https://ai.szu.edu.cn/info/1075/6470.htm",
+      "portraitUrl": null,
+      "sourcePageUrl": "https://ai.szu.edu.cn/szdw/js.htm",
+      "officialRosterUrl": "https://ai.szu.edu.cn/szdw/js.htm",
+      "profileChecked": true,
+      "decision": "include_new_pi",
+      "reason": "官方人工智能学院名录和个人页确认其为教授、副教授、研究员或可独立招生导师；该单位研究主线属于 AI、数据科学及相关智能计算范围。",
+      "evidenceUrl": "https://ai.szu.edu.cn/info/1075/6470.htm",
+      "evidenceExcerpt": "助理教授 | 讲师/助理教授 | 牛泽海 · 助理教授 · 联系方式：niuzehai@szu.edu.cn · 招生专业：人工智能、智能科学与技术 · 招生方向：多模态大模型、大模型推理加速、数字人 研究方向为多模态大模型、大模型推理加速、VLM可解释性、数字人等。 于中国科学院大学获得计算机应用技术博士学位（2024年）。博士毕业后，于荣耀终端有限公司担任AI研究员，主导游戏业务技术创新，包括业界首个NPU-GPU异构插帧系统M-DLSS 3.0（已量产至消费者手机），以及Robot"
+    },
+    {
+      "officialId": "https://ai.szu.edu.cn/info/1075/1329.htm",
+      "name": "李雪亮",
+      "title": "助理教授",
+      "officialSections": [
+        "讲师/助理教授"
+      ],
+      "profileUrl": "https://ai.szu.edu.cn/info/1075/1329.htm",
+      "portraitUrl": null,
+      "sourcePageUrl": "https://ai.szu.edu.cn/szdw/js.htm",
+      "officialRosterUrl": "https://ai.szu.edu.cn/szdw/js.htm",
+      "profileChecked": true,
+      "decision": "include_new_pi",
+      "reason": "官方人工智能学院名录和个人页确认其为教授、副教授、研究员或可独立招生导师；该单位研究主线属于 AI、数据科学及相关智能计算范围。",
+      "evidenceUrl": "https://ai.szu.edu.cn/info/1075/1329.htm",
+      "evidenceExcerpt": "亮 · 助理教授 · 联系方式：lixueliang01@gmail.cn · 招生专业：计算机科学与技术(081200) · 招生方向： 人工智能、人工移情 研究方向为: 1. 人工智能、人工移情(Artificial Intelligence, Artificial Empathy) 人工智能是一门研究如何使计算机模拟人类智能行为的学科。它涵盖了多个子领域，如机器学习、自然语言处理、计算机视觉等。通过利用大数据和强大的计算能力，人工智能能够从复杂的数据中提取模式和规律，并通过算法进行推理和决策。它已"
+    },
+    {
+      "officialId": "https://ai.szu.edu.cn/info/1075/5580.htm",
+      "name": "汪欣欣",
+      "title": "助理教授",
+      "officialSections": [
+        "讲师/助理教授"
+      ],
+      "profileUrl": "https://ai.szu.edu.cn/info/1075/5580.htm",
+      "portraitUrl": null,
+      "sourcePageUrl": "https://ai.szu.edu.cn/szdw/js.htm",
+      "officialRosterUrl": "https://ai.szu.edu.cn/szdw/js.htm",
+      "profileChecked": true,
+      "decision": "include_new_pi",
+      "reason": "官方人工智能学院名录和个人页确认其为教授、副教授、研究员或可独立招生导师；该单位研究主线属于 AI、数据科学及相关智能计算范围。",
+      "evidenceUrl": "https://ai.szu.edu.cn/info/1075/5580.htm",
+      "evidenceExcerpt": "助理教授 | 讲师/助理教授 | 汪欣欣 · 助理教授 · 联系方式：xinxinwang1024@gmail.com · 招生专业：智能科学与技术、人工智能 · 招生方向：大模型、智能体、机器学习、数据挖掘、遥感与图像智能处理等 研究领域，已发表学术论文20余篇，其中包括 IEEE Transactions on Image Processing, IEEE Transactions on Neural Networks and Learning Systems, IEEE Transactio"
+    },
+    {
+      "officialId": "https://ai.szu.edu.cn/info/1075/4710.htm",
+      "name": "胡嘉伟",
+      "title": "助理教授",
+      "officialSections": [
+        "讲师/助理教授"
+      ],
+      "profileUrl": "https://ai.szu.edu.cn/info/1075/4710.htm",
+      "portraitUrl": null,
+      "sourcePageUrl": "https://ai.szu.edu.cn/szdw/js.htm",
+      "officialRosterUrl": "https://ai.szu.edu.cn/szdw/js.htm",
+      "profileChecked": true,
+      "decision": "include_new_pi",
+      "reason": "官方人工智能学院名录和个人页确认其为教授、副教授、研究员或可独立招生导师；该单位研究主线属于 AI、数据科学及相关智能计算范围。",
+      "evidenceUrl": "https://ai.szu.edu.cn/info/1075/4710.htm",
+      "evidenceExcerpt": "助理教授 | 讲师/助理教授 | 胡嘉伟 · 助理教授 · 联系方式：garyhu@szu.edu.cn · 招生专业：人工智能，智能科学与技术 · 招生方向：人工智能，多模态感知，大模型，具身智能 研究领域 多模态环境感知与通信，大模型与智能体，具身智能，AI4S等 奖项与荣誉 IPSN 2024 Best Paper Runner-Up MobiCom 2023 Best Poster Runner-Up SenSys 2024 Best PhD Forum Presentati"
+    },
+    {
+      "officialId": "https://ai.szu.edu.cn/info/1075/3170.htm",
+      "name": "黄锦滨",
+      "title": "助理教授",
+      "officialSections": [
+        "讲师/助理教授"
+      ],
+      "profileUrl": "https://ai.szu.edu.cn/info/1075/3170.htm",
+      "portraitUrl": null,
+      "sourcePageUrl": "https://ai.szu.edu.cn/szdw/js.htm",
+      "officialRosterUrl": "https://ai.szu.edu.cn/szdw/js.htm",
+      "profileChecked": true,
+      "decision": "include_new_pi",
+      "reason": "官方人工智能学院名录和个人页确认其为教授、副教授、研究员或可独立招生导师；该单位研究主线属于 AI、数据科学及相关智能计算范围。",
+      "evidenceUrl": "https://ai.szu.edu.cn/info/1075/3170.htm",
+      "evidenceExcerpt": "讲师/助理教授 | 黄锦滨 · 助理教授 · 联系方式：jbhuang at szu.edu.cn · 招生专业：数据智能 · 招生方向：图数据库、图算法 研究方向具体包括图数据挖掘、利用GPU加速的图算法、隐私研究等。博士期间曾在国际著名会议/期刊TKDE、ICDE、SIGMOD、VLDB、WWWJ等发表多篇论文，其中一作论文包括2篇TKDE论文（CCF-A），2篇ICDE论文（CCF-A），1篇WWWJ（CCF-B）以及1篇WISE最佳论文（CCF-C）。主持国家自然科学基金项目1项。 已发表论文"
+    },
+    {
+      "officialId": "https://ai.szu.edu.cn/info/1075/4080.htm",
+      "name": "陈革成",
+      "title": "助理教授/特聘副研究员",
+      "officialSections": [
+        "讲师/助理教授"
+      ],
+      "profileUrl": "https://ai.szu.edu.cn/info/1075/4080.htm",
+      "portraitUrl": null,
+      "sourcePageUrl": "https://ai.szu.edu.cn/szdw/js.htm",
+      "officialRosterUrl": "https://ai.szu.edu.cn/szdw/js.htm",
+      "profileChecked": true,
+      "decision": "include_new_pi",
+      "reason": "官方人工智能学院名录和个人页确认其为教授、副教授、研究员或可独立招生导师；该单位研究主线属于 AI、数据科学及相关智能计算范围。",
+      "evidenceUrl": "https://ai.szu.edu.cn/info/1075/4080.htm",
+      "evidenceExcerpt": "究员 | 讲师/助理教授 | 陈革成 · 助理教授/特聘副研究员 · 联系方式：gechengchen@szu.edu.cn · 招生专业：智能科学与技术、人工智能 · 招生方向：大模型；工业智能体；具身智能 研究领域 1.工业智能体：大模型、迁移学习等在工业生产中的应用 2.工业过程智能感知与决策：基于深度迁移学习的工业 过程监测及故障诊断 3.AI4S：基于智能体、大模型的新材料筛选 教育背景 2019 - 2023：Texas A&M University，Industrial Engineeri"
+    },
+    {
+      "officialId": "https://ai.szu.edu.cn/info/1075/2630.htm",
+      "name": "王金宝",
+      "title": "助理教授",
+      "officialSections": [
+        "讲师/助理教授"
+      ],
+      "profileUrl": "https://ai.szu.edu.cn/info/1075/2630.htm",
+      "portraitUrl": null,
+      "sourcePageUrl": "https://ai.szu.edu.cn/szdw/js.htm",
+      "officialRosterUrl": "https://ai.szu.edu.cn/szdw/js.htm",
+      "profileChecked": true,
+      "decision": "include_new_pi",
+      "reason": "官方人工智能学院名录和个人页确认其为教授、副教授、研究员或可独立招生导师；该单位研究主线属于 AI、数据科学及相关智能计算范围。",
+      "evidenceUrl": "https://ai.szu.edu.cn/info/1075/2630.htm",
+      "evidenceExcerpt": "助理教授 | 讲师/助理教授 | 王金宝 · 助理教授 · 联系方式：wangjb@szu.edu.cn · 招生专业：人工智能 / 智能科学与技术 · 招生方向：计算机视觉 / 机器视觉"
+    },
+    {
+      "officialId": "https://ai.szu.edu.cn/info/1075/3070.htm",
+      "name": "陆涵",
+      "title": "助理教授",
+      "officialSections": [
+        "讲师/助理教授"
+      ],
+      "profileUrl": "https://ai.szu.edu.cn/info/1075/3070.htm",
+      "portraitUrl": null,
+      "sourcePageUrl": "https://ai.szu.edu.cn/szdw/js.htm",
+      "officialRosterUrl": "https://ai.szu.edu.cn/szdw/js.htm",
+      "profileChecked": true,
+      "decision": "include_new_pi",
+      "reason": "官方人工智能学院名录和个人页确认其为教授、副教授、研究员或可独立招生导师；该单位研究主线属于 AI、数据科学及相关智能计算范围。",
+      "evidenceUrl": "https://ai.szu.edu.cn/info/1075/3070.htm",
+      "evidenceExcerpt": "助理教授 | 讲师/助理教授 | 陆涵 · 助理教授 · 联系方式：hanlu@szu.edu.cn · 招生专业：智能科学与技术，人工智能 · 招生方向：人工智能、多模态大模型、智能体、计算神经科学 研究方向包括脑启发式AI，情感计算，脑机接口等。同时，积极拓展大模型智能体在脑科学研究中的创新应用，探索融合领域知识的新一代计算模型构建。相关成果发表于 Nature Communications、Science Advances、AAAI 等国际高水平期刊与会议，并获剑桥大学、S"
+    },
+    {
+      "officialId": "https://ai.szu.edu.cn/info/1075/3150.htm",
+      "name": "冯缨岚",
+      "title": "助理教授",
+      "officialSections": [
+        "讲师/助理教授"
+      ],
+      "profileUrl": "https://ai.szu.edu.cn/info/1075/3150.htm",
+      "portraitUrl": null,
+      "sourcePageUrl": "https://ai.szu.edu.cn/szdw/js.htm",
+      "officialRosterUrl": "https://ai.szu.edu.cn/szdw/js.htm",
+      "profileChecked": true,
+      "decision": "include_new_pi",
+      "reason": "官方人工智能学院名录和个人页确认其为教授、副教授、研究员或可独立招生导师；该单位研究主线属于 AI、数据科学及相关智能计算范围。",
+      "evidenceUrl": "https://ai.szu.edu.cn/info/1075/3150.htm",
+      "evidenceExcerpt": "助理教授 | 讲师/助理教授 | 冯缨岚 · 助理教授 · 联系方式：yinglfeng@szu.edu.cn · 招生专业：智能科学与技术、人工智能 · 招生方向：智能优化算法；演化机器学习；大模型智能决策 研究领域为智能优化与学习方法及其在AI与控制中的应用，包括： 📝 智能优化理论：多目标/多层次优化，多任务优化，大规模优化，约束优化 ⏱️ 演化学习方法：特征选择，迁移学习，深度强化学习 🤖 智能决 策应用：大模型优化智 能体，自动算法设计，无人机集群调 度/避障 【2027年招"
+    },
+    {
+      "officialId": "https://ai.szu.edu.cn/info/1075/1330.htm",
+      "name": "张军",
+      "title": "助理教授",
+      "officialSections": [
+        "讲师/助理教授"
+      ],
+      "profileUrl": "https://ai.szu.edu.cn/info/1075/1330.htm",
+      "portraitUrl": null,
+      "sourcePageUrl": "https://ai.szu.edu.cn/szdw/js.htm",
+      "officialRosterUrl": "https://ai.szu.edu.cn/szdw/js.htm",
+      "profileChecked": true,
+      "decision": "include_new_pi",
+      "reason": "官方人工智能学院名录和个人页确认其为教授、副教授、研究员或可独立招生导师；该单位研究主线属于 AI、数据科学及相关智能计算范围。",
+      "evidenceUrl": "https://ai.szu.edu.cn/info/1075/1330.htm",
+      "evidenceExcerpt": "助理教授 | 讲师/助理教授 | 张军 · 助理教授 · 联系方式：junzhang@szu.edu.cn · 招生专业：人工智能，智能科学与技术 · 招生方向：生物大分子药物设计，RNA结构及功能预测 教育背景 2018年-2022年，哈尔滨工业大学（深圳），计算机应用技术，博士 2016年-2018年，哈尔滨工业大学（深圳），计算机科学与技术，硕士 2012年-2016年，河南科技大学，信息管理与信息系统，学士 工作经历 2024年-至今，深圳大学，特聘副研究员 2023年-至今，"
+    },
+    {
+      "officialId": "https://ai.szu.edu.cn/info/1075/1323.htm",
+      "name": "洪文静",
+      "title": "助理教授",
+      "officialSections": [
+        "讲师/助理教授"
+      ],
+      "profileUrl": "https://ai.szu.edu.cn/info/1075/1323.htm",
+      "portraitUrl": null,
+      "sourcePageUrl": "https://ai.szu.edu.cn/szdw/js.htm",
+      "officialRosterUrl": "https://ai.szu.edu.cn/szdw/js.htm",
+      "profileChecked": true,
+      "decision": "include_new_pi",
+      "reason": "官方人工智能学院名录和个人页确认其为教授、副教授、研究员或可独立招生导师；该单位研究主线属于 AI、数据科学及相关智能计算范围。",
+      "evidenceUrl": "https://ai.szu.edu.cn/info/1075/1323.htm",
+      "evidenceExcerpt": "助理教授 | 讲师/助理教授 | 洪文静 · 助理教授 · 联系方式：hongwj@szu.edu.cn · 招生专业：人工智能专业 · 招生方向：智能优化算法，复杂网络分析，算法自动设计 研究方向包括人工智能、演化计算、多目标优化与学习、复杂网络分析、算法自动设计，致力于解决大规模多目标优化问题、复杂网络上的影响力最大化、硬件感知神经网络压缩、生物计算问题等。 在相关领域发表论文 3 0 余篇，包括 IEEE TEVC 、 IEEE TCYB 、 AAAI 等国际重要期刊或会议。主"
+    },
+    {
+      "officialId": "https://ai.szu.edu.cn/info/1075/1326.htm",
+      "name": "黄畅昕",
+      "title": "助理教授",
+      "officialSections": [
+        "讲师/助理教授"
+      ],
+      "profileUrl": "https://ai.szu.edu.cn/info/1075/1326.htm",
+      "portraitUrl": null,
+      "sourcePageUrl": "https://ai.szu.edu.cn/szdw/js.htm",
+      "officialRosterUrl": "https://ai.szu.edu.cn/szdw/js.htm",
+      "profileChecked": true,
+      "decision": "include_new_pi",
+      "reason": "官方人工智能学院名录和个人页确认其为教授、副教授、研究员或可独立招生导师；该单位研究主线属于 AI、数据科学及相关智能计算范围。",
+      "evidenceUrl": "https://ai.szu.edu.cn/info/1075/1326.htm",
+      "evidenceExcerpt": "助理教授 | 讲师/助理教授 | 黄畅昕 · 助理教授 · 联系方式： huangchx@szu.edu.cn · 招生专业：人工智能，智能科学与技术 · 招生方向：具身智能；机器人学习 研究领域 1. 机器人行为学习：深度学习、强化学习及其在机器人上的应用 2. 具身智能：VLA，大模型引导机器人技能学习 3. 机器人行为策略迁移：任务迁移、Sim to Real 从事移动机器人自主决策、技能学习、全身鲁棒控制，以及机器人策略迁移等研究，在机器人和人工智能领域权威期刊及会议上发表论文20"
+    },
+    {
+      "officialId": "https://ai.szu.edu.cn/info/1075/1960.htm",
+      "name": "贺阿龙",
+      "title": "助理教授",
+      "officialSections": [
+        "讲师/助理教授"
+      ],
+      "profileUrl": "https://ai.szu.edu.cn/info/1075/1960.htm",
+      "portraitUrl": null,
+      "sourcePageUrl": "https://ai.szu.edu.cn/szdw/js.htm",
+      "officialRosterUrl": "https://ai.szu.edu.cn/szdw/js.htm",
+      "profileChecked": true,
+      "decision": "include_new_pi",
+      "reason": "官方人工智能学院名录和个人页确认其为教授、副教授、研究员或可独立招生导师；该单位研究主线属于 AI、数据科学及相关智能计算范围。",
+      "evidenceUrl": "https://ai.szu.edu.cn/info/1075/1960.htm",
+      "evidenceExcerpt": "助理教授 | 讲师/助理教授 | 贺阿龙 · 助理教授 · 联系方式：healong@szu.edu.cn · 招生专业：人工智能 · 招生方向：计算机视觉和医疗影像分析 研究兴趣： 医疗影像分析，半监督学习，联邦学习，大模型微调等方向研究 个人主页： https://nkuhealong.github.io/ 教育经历 1) 2020 年 09 月 –2025 年 06 月 南开大学 计算机科学与技术 工学 博士 2) 2023 年 09 月 –2024 年 09 月 新加坡科技研究"
+    },
+    {
+      "officialId": "https://ai.szu.edu.cn/info/1075/1950.htm",
+      "name": "李皓冉",
+      "title": "助理教授",
+      "officialSections": [
+        "讲师/助理教授"
+      ],
+      "profileUrl": "https://ai.szu.edu.cn/info/1075/1950.htm",
+      "portraitUrl": null,
+      "sourcePageUrl": "https://ai.szu.edu.cn/szdw/js.htm",
+      "officialRosterUrl": "https://ai.szu.edu.cn/szdw/js.htm",
+      "profileChecked": true,
+      "decision": "include_new_pi",
+      "reason": "官方人工智能学院名录和个人页确认其为教授、副教授、研究员或可独立招生导师；该单位研究主线属于 AI、数据科学及相关智能计算范围。",
+      "evidenceUrl": "https://ai.szu.edu.cn/info/1075/1950.htm",
+      "evidenceExcerpt": "助理教授 | 讲师/助理教授 | 李皓冉 · 助理教授 · 联系方式：lihr@szu.edu.cn · 招生专业：智能科学与技术，人工智能 · 招生方向：具身智能、​大模型、深度学习理论 研究方向。欢迎新入学还未确定导师的硕士生联系。 李皓冉，2001年5月生，深圳大学助理教授，硕士生导师，博士毕业于美国莱斯大学，硕士毕业于美国约翰霍普金斯大学，本科毕业于清华大学自动化系。李皓冉在深度学习理论、高效学习算法及应用、量子计算理论与算法上开展了一系列的研究，积累了较为丰富的深度学习"
+    },
+    {
+      "officialId": "https://ai.szu.edu.cn/info/1075/1327.htm",
+      "name": "朱庆灵",
+      "title": "助理教授",
+      "officialSections": [
+        "讲师/助理教授"
+      ],
+      "profileUrl": "https://ai.szu.edu.cn/info/1075/1327.htm",
+      "portraitUrl": null,
+      "sourcePageUrl": "https://ai.szu.edu.cn/szdw/js.htm",
+      "officialRosterUrl": "https://ai.szu.edu.cn/szdw/js.htm",
+      "profileChecked": true,
+      "decision": "include_new_pi",
+      "reason": "官方人工智能学院名录和个人页确认其为教授、副教授、研究员或可独立招生导师；该单位研究主线属于 AI、数据科学及相关智能计算范围。",
+      "evidenceUrl": "https://ai.szu.edu.cn/info/1075/1327.htm",
+      "evidenceExcerpt": "| 讲师/助理教授 | 朱庆灵 · 助理教授 · 联系方式：zhuqingling@szu.edu.cn · 招生专业：计算机科学与技术，人工智能，计算机技术 · 招生方向：多目标组合优化、机器人路径规划 研究方向包括智能多目标优化，智能调度组合优化以及基于机器学习的自动算法设计。目前在IEEE Transactions on Evolutionary Computation, IEEE Transactions on Cybernetics,AAAI以及其他国际期刊和会议共发表论文20余篇。连续三年"
+    },
+    {
+      "officialId": "https://ai.szu.edu.cn/info/1075/1316.htm",
+      "name": "李秋富",
+      "title": "助理教授",
+      "officialSections": [
+        "讲师/助理教授"
+      ],
+      "profileUrl": "https://ai.szu.edu.cn/info/1075/1316.htm",
+      "portraitUrl": null,
+      "sourcePageUrl": "https://ai.szu.edu.cn/szdw/js.htm",
+      "officialRosterUrl": "https://ai.szu.edu.cn/szdw/js.htm",
+      "profileChecked": true,
+      "decision": "include_new_pi",
+      "reason": "官方人工智能学院名录和个人页确认其为教授、副教授、研究员或可独立招生导师；该单位研究主线属于 AI、数据科学及相关智能计算范围。",
+      "evidenceUrl": "https://ai.szu.edu.cn/info/1075/1316.htm",
+      "evidenceExcerpt": "授 | 李秋富 · 助理教授 · 联系方式：qiufu_li_1988@163.com；liqiufu@szu.edu.cn · 招生专业：智能科学与技术、计算机科学与技术 · 招生方向：计算机视觉、模式识别、神经元图像分析、大模型"
+    },
+    {
+      "officialId": "https://ai.szu.edu.cn/info/1075/1317.htm",
+      "name": "朱田恬",
+      "title": "助理教授",
+      "officialSections": [
+        "讲师/助理教授"
+      ],
+      "profileUrl": "https://ai.szu.edu.cn/info/1075/1317.htm",
+      "portraitUrl": null,
+      "sourcePageUrl": "https://ai.szu.edu.cn/szdw/js.htm",
+      "officialRosterUrl": "https://ai.szu.edu.cn/szdw/js.htm",
+      "profileChecked": true,
+      "decision": "include_new_pi",
+      "reason": "官方人工智能学院名录和个人页确认其为教授、副教授、研究员或可独立招生导师；该单位研究主线属于 AI、数据科学及相关智能计算范围。",
+      "evidenceUrl": "https://ai.szu.edu.cn/info/1075/1317.htm",
+      "evidenceExcerpt": "助理教授 | 讲师/助理教授 | 朱田恬 · 助理教授 · 联系方式：tiantianzhu@szu.edu.cn · 招生专业：人工智能，智能科学与技术 · 招生方向：自然语言处理，知识图谱，大语言模型 研究方向主要包括自然语言处理、大语言模型、生物医学、知识图谱、信息抽取、深度学习。 在ACL、 AAAI、 IJCAI、EMNLP、TASLP等国际会议及期刊上发表多篇论文，并担任重要国际会议ACL 、 EMNLP 、 COLING等审稿人。 主持国家自然科学基金青年项目 、深圳市高精尖紧缺"
+    },
+    {
+      "officialId": "https://ai.szu.edu.cn/info/1075/3320.htm",
+      "name": "陆亮",
+      "title": "助理教授",
+      "officialSections": [
+        "讲师/助理教授"
+      ],
+      "profileUrl": "https://ai.szu.edu.cn/info/1075/3320.htm",
+      "portraitUrl": null,
+      "sourcePageUrl": "https://ai.szu.edu.cn/szdw/js.htm",
+      "officialRosterUrl": "https://ai.szu.edu.cn/szdw/js.htm",
+      "profileChecked": true,
+      "decision": "include_new_pi",
+      "reason": "官方人工智能学院名录和个人页确认其为教授、副教授、研究员或可独立招生导师；该单位研究主线属于 AI、数据科学及相关智能计算范围。",
+      "evidenceUrl": "https://ai.szu.edu.cn/info/1075/3320.htm",
+      "evidenceExcerpt": "助理教授 | 讲师/助理教授 | 陆亮 · 助理教授 · 联系方式：llu@szu.edu.cn · 招生专业：智能科学与技术/人工智能 · 招生方向：智能机器人导航，运动规划与场景理解 研究方向为：智能机器人语义感知，导航和运动规划。2017至2021年在马德里理工大学和西班牙高等科学研究院共建的机器人和自动化研究中心（CAR-UPM-CSIC）机器视觉和空中机器人课题组（CVAR）从事博士研究并获得机器人与自动化最高荣誉博士学位（CAM LAUDE Mention），博士"
+    },
+    {
+      "officialId": "https://ai.szu.edu.cn/info/1075/1320.htm",
+      "name": "金雄男",
+      "title": "助理教授、特聘副研究员（副高）",
+      "officialSections": [
+        "讲师/助理教授"
+      ],
+      "profileUrl": "https://ai.szu.edu.cn/info/1075/1320.htm",
+      "portraitUrl": null,
+      "sourcePageUrl": "https://ai.szu.edu.cn/szdw/js.htm",
+      "officialRosterUrl": "https://ai.szu.edu.cn/szdw/js.htm",
+      "profileChecked": true,
+      "decision": "include_new_pi",
+      "reason": "官方人工智能学院名录和个人页确认其为教授、副教授、研究员或可独立招生导师；该单位研究主线属于 AI、数据科学及相关智能计算范围。",
+      "evidenceUrl": "https://ai.szu.edu.cn/info/1075/1320.htm",
+      "evidenceExcerpt": "讲师/助理教授 | 金雄男 · 助理教授、特聘副研究员（副高） · 联系方式：xiongnanjin@szu.edu.cn · 招生专业：智能科学与技术、人工智能 · 招生方向：大模型、智能体、神经符号AI、多模态计算、知识图谱等 研究方向： 大模型、智能体、神经符号AI、多模态计算、知识图谱等 教育背景： 博士毕业于韩国 延世大学 （Y onsei University, QS2026 世界排名5 0），本科毕业于 浙江大学 。 工作经历： 美国国家标准与技术研究院 (NIST) [博士后] ->"
+    },
+    {
+      "officialId": "https://ai.szu.edu.cn/info/1075/4490.htm",
+      "name": "章勇",
+      "title": "助理教授 （办公室：汇研楼 820）",
+      "officialSections": [
+        "讲师/助理教授"
+      ],
+      "profileUrl": "https://ai.szu.edu.cn/info/1075/4490.htm",
+      "portraitUrl": null,
+      "sourcePageUrl": "https://ai.szu.edu.cn/szdw/js.htm",
+      "officialRosterUrl": "https://ai.szu.edu.cn/szdw/js.htm",
+      "profileChecked": true,
+      "decision": "include_new_pi",
+      "reason": "官方人工智能学院名录和个人页确认其为教授、副教授、研究员或可独立招生导师；该单位研究主线属于 AI、数据科学及相关智能计算范围。",
+      "evidenceUrl": "https://ai.szu.edu.cn/info/1075/4490.htm",
+      "evidenceExcerpt": "讲师/助理教授 | 章勇 · 助理教授 （办公室：汇研楼 820） · 联系方式：yongzhang@szu.edu.cn · 招生专业：智能科学与技术、人工智能 · 招生方向：视觉-语言多模态、视频理解、大模型、智能体 研究领域： 大模型与智能体、视觉-语言多模态学习、视频理解等； 应用场景： 面向多媒体内容分析、智慧医疗、AI4Science等领域，让技术真正落地解决现实难题。 其他 🔬 个人特点 - 长期扎根在AI前沿，“科研+工程”双栖选手 兼具学术研究的深度与工业界落地的广度； 生活上随和"
+    },
+    {
+      "officialId": "https://ai.szu.edu.cn/info/1075/4320.htm",
+      "name": "李舒敏",
+      "title": "助理教授",
+      "officialSections": [
+        "讲师/助理教授"
+      ],
+      "profileUrl": "https://ai.szu.edu.cn/info/1075/4320.htm",
+      "portraitUrl": null,
+      "sourcePageUrl": "https://ai.szu.edu.cn/szdw/js.htm",
+      "officialRosterUrl": "https://ai.szu.edu.cn/szdw/js.htm",
+      "profileChecked": true,
+      "decision": "include_new_pi",
+      "reason": "官方人工智能学院名录和个人页确认其为教授、副教授、研究员或可独立招生导师；该单位研究主线属于 AI、数据科学及相关智能计算范围。",
+      "evidenceUrl": "https://ai.szu.edu.cn/info/1075/4320.htm",
+      "evidenceExcerpt": "李舒敏 · 助理教授 · 联系方式：lishumin@szu.edu.cn; lishumin@connect.hku.hk · 招生专业：人工智能，智能科学与技术 · 招生方向：人工智能，AI4Science，大模型智能体 研究方向是 AI for Science，主要用人工智能和计算方法研究基因组、单细胞多组学等问题。简单来说，就是：用代码和模型，解读DNA如何构建生命系统，目前在研方向包括： 1. 基因组语言模型（Genomic language model） 2. 虚拟细胞 （AI Virtua"
+    },
+    {
+      "officialId": "https://ai.szu.edu.cn/info/1075/1319.htm",
+      "name": "舒婷",
+      "title": "助理教授、特聘副研究员",
+      "officialSections": [
+        "讲师/助理教授"
+      ],
+      "profileUrl": "https://ai.szu.edu.cn/info/1075/1319.htm",
+      "portraitUrl": null,
+      "sourcePageUrl": "https://ai.szu.edu.cn/szdw/js.htm",
+      "officialRosterUrl": "https://ai.szu.edu.cn/szdw/js.htm",
+      "profileChecked": true,
+      "decision": "include_new_pi",
+      "reason": "官方人工智能学院名录和个人页确认其为教授、副教授、研究员或可独立招生导师；该单位研究主线属于 AI、数据科学及相关智能计算范围。",
+      "evidenceUrl": "https://ai.szu.edu.cn/info/1075/1319.htm",
+      "evidenceExcerpt": "| 舒婷 · 助理教授、特聘副研究员 · 联系方式： tingshu@szu.edu.cn · 招生专业： 计算机科学与技术，计算机技术，智能科学与技术，软件工程 · 招生方向： 人工智能，机器学习，AI for Science 等 研究方向 模式识别，机器学习，AI+气象，可解释人工智能，物理约束机器学习等 招生寄语 招收硕士生，2026级还有名额。在不影响毕业的前提下，支持实习和交流访问。快乐学习，快乐科研，快乐生活～ 教育经历 2015.08-2019.04，澳门大学，计算机科学，博士 2013"
+    },
+    {
+      "officialId": "https://ai.szu.edu.cn/info/1075/4090.htm",
+      "name": "李若祥",
+      "title": "助理教授",
+      "officialSections": [
+        "讲师/助理教授"
+      ],
+      "profileUrl": "https://ai.szu.edu.cn/info/1075/4090.htm",
+      "portraitUrl": null,
+      "sourcePageUrl": "https://ai.szu.edu.cn/szdw/js.htm",
+      "officialRosterUrl": "https://ai.szu.edu.cn/szdw/js.htm",
+      "profileChecked": true,
+      "decision": "include_new_pi",
+      "reason": "官方人工智能学院名录和个人页确认其为教授、副教授、研究员或可独立招生导师；该单位研究主线属于 AI、数据科学及相关智能计算范围。",
+      "evidenceUrl": "https://ai.szu.edu.cn/info/1075/4090.htm",
+      "evidenceExcerpt": "助理教授 | 讲师/助理教授 | 李若祥 · 助理教授 · 联系方式：liruoxiang@szu.edu.cn · 招生专业：智能科学与技术、人工智能 · 招生方向：具身智能系统、机器人操作系统、实时系统 研究领域 ：具身智能系统、机器人操作系统、嵌入式实时系统 教育背景 ： 2021.08 - 2025.10: 香港城市大学，计算机科学，博士 2017.09 - 2019.12: 国防科技大学，计算机科学与技术，硕士 2013.09 - 2017.07：东北大学，物联网工程，学士 代表论"
+    },
+    {
+      "officialId": "https://ai.szu.edu.cn/info/1075/1318.htm",
+      "name": "尚可",
+      "title": "特聘研究员",
+      "officialSections": [
+        "讲师/助理教授"
+      ],
+      "profileUrl": "https://ai.szu.edu.cn/info/1075/1318.htm",
+      "portraitUrl": null,
+      "sourcePageUrl": "https://ai.szu.edu.cn/szdw/js.htm",
+      "officialRosterUrl": "https://ai.szu.edu.cn/szdw/js.htm",
+      "profileChecked": true,
+      "decision": "include_new_pi",
+      "reason": "官方人工智能学院名录和个人页确认其为教授、副教授、研究员或可独立招生导师；该单位研究主线属于 AI、数据科学及相关智能计算范围。",
+      "evidenceUrl": "https://ai.szu.edu.cn/info/1075/1318.htm",
+      "evidenceExcerpt": "可 · 特聘研究员 · 联系方式：shangk AT szu.edu.cn or kshang AT foxmail.com · 招生专业：智能科学与技术、人工智能 · 招生方向：进化计算、多目标优化、大模型算法设计、自进化智能体、开放式进化 研究兴趣：进化计算、多目标优化、大模型算法设计、自进化智能体、开放式进化等。 期刊论文 (*Corresponding author) 1. K. Shang, H. Ishibuchi, Z. Zhu, and Q. Zhang, “An efficient e"
+    },
+    {
+      "officialId": "https://ai.szu.edu.cn/info/1075/1321.htm",
+      "name": "樊超",
+      "title": "助理教授",
+      "officialSections": [
+        "讲师/助理教授"
+      ],
+      "profileUrl": "https://ai.szu.edu.cn/info/1075/1321.htm",
+      "portraitUrl": null,
+      "sourcePageUrl": "https://ai.szu.edu.cn/szdw/js.htm",
+      "officialRosterUrl": "https://ai.szu.edu.cn/szdw/js.htm",
+      "profileChecked": true,
+      "decision": "include_new_pi",
+      "reason": "官方人工智能学院名录和个人页确认其为教授、副教授、研究员或可独立招生导师；该单位研究主线属于 AI、数据科学及相关智能计算范围。",
+      "evidenceUrl": "https://ai.szu.edu.cn/info/1075/1321.htm",
+      "evidenceExcerpt": "助理教授 | 讲师/助理教授 | 樊超 · 助理教授 · 联系方式： chaofan996@szu.edu.cn · 招生专业：智能科学与技术/人工智能 · 招生方向：计算机视觉与智能感知 研究兴趣：（1） 具身智能系统中的感知问题 ；（2）VLA/humanoid等 研究经历：发表CCF-A/B类顶会顶刊近20篇，包括一作2篇T-PAMI，Google Scholar被引2,200余次；Github开源仓库OpenGait获1,100余Stars 基金资助：主持 国自然青年项目（C类）/广"
+    },
+    {
+      "officialId": "https://ai.szu.edu.cn/info/1075/1322.htm",
+      "name": "王松磊",
+      "title": "助理教授",
+      "officialSections": [
+        "讲师/助理教授"
+      ],
+      "profileUrl": "https://ai.szu.edu.cn/info/1075/1322.htm",
+      "portraitUrl": null,
+      "sourcePageUrl": "https://ai.szu.edu.cn/szdw/js.htm",
+      "officialRosterUrl": "https://ai.szu.edu.cn/szdw/js.htm",
+      "profileChecked": true,
+      "decision": "include_new_pi",
+      "reason": "官方人工智能学院名录和个人页确认其为教授、副教授、研究员或可独立招生导师；该单位研究主线属于 AI、数据科学及相关智能计算范围。",
+      "evidenceUrl": "https://ai.szu.edu.cn/info/1075/1322.htm",
+      "evidenceExcerpt": "以第一作者/通讯作者发表CCF-A类论文12篇，相关成果发表于网络空间安全领域四大会议USENIX Security、IEEE S&P，以及数据库领域顶级会议VLDB等。已获授权隐私计算相关国家发明专利9项。担任IEEE TIFS、IEEE TDSC、IEEE TKDE、IEEE TSC等CCF-A类期刊审稿人，并担任USENIX Security 2027、CSDP 2026、MSN 2025等国际会议程序委员会成员或审稿人。 目前仍有2026年秋季入学的 博士和 硕士招生名额 ，欢迎对信息安全方向"
+    },
+    {
+      "officialId": "https://ai.szu.edu.cn/info/1075/1312.htm",
+      "name": "张劲",
+      "title": "助理教授",
+      "officialSections": [
+        "讲师/助理教授"
+      ],
+      "profileUrl": "https://ai.szu.edu.cn/info/1075/1312.htm",
+      "portraitUrl": null,
+      "sourcePageUrl": "https://ai.szu.edu.cn/szdw/js.htm",
+      "officialRosterUrl": "https://ai.szu.edu.cn/szdw/js.htm",
+      "profileChecked": true,
+      "decision": "excluded_non_ai_cs",
+      "reason": "已检查官方个人页及名录字段，公开研究主线未显示 AI、NLP、CV、ML、数据智能、机器人或本图谱紧密相邻方向。",
+      "evidenceUrl": "https://ai.szu.edu.cn/info/1075/1312.htm",
+      "evidenceExcerpt": "助理教授 | 讲师/助理教授 | 张劲 · 助理教授 · 联系方式： jinzhangunsw@gmail · 招生专业： · 招生方向："
+    },
+    {
+      "officialId": "https://ai.szu.edu.cn/info/1075/1313.htm",
+      "name": "陈倩",
+      "title": "助理教授",
+      "officialSections": [
+        "讲师/助理教授"
+      ],
+      "profileUrl": "https://ai.szu.edu.cn/info/1075/1313.htm",
+      "portraitUrl": null,
+      "sourcePageUrl": "https://ai.szu.edu.cn/szdw/js.htm",
+      "officialRosterUrl": "https://ai.szu.edu.cn/szdw/js.htm",
+      "profileChecked": true,
+      "decision": "include_new_pi",
+      "reason": "官方人工智能学院名录和个人页确认其为教授、副教授、研究员或可独立招生导师；该单位研究主线属于 AI、数据科学及相关智能计算范围。",
+      "evidenceUrl": "https://ai.szu.edu.cn/info/1075/1313.htm",
+      "evidenceExcerpt": "助理教授 | 讲师/助理教授 | 陈倩 · 助理教授 · 联系方式：qianchen@szu.edu.cn · 招生专业： 智能科学与技术，人工智能，计算机技术，计算机科学与技术 · 招生方向：数据医疗，金融科技 研究兴趣： 人工智能及交叉领域 （AI4S ） ：算法博弈论，机制设计，多智能体强化学习，大语言模型等 应用领域： 数据医疗，金融科技 招聘研究生: 每年招收研究生2名，IEEE班本科生2名（可提前联系），欢迎积极向上，热爱运动，认真科研的同学们 ！ ！ 欢迎研究生邮件联系与咨"
+    },
+    {
+      "officialId": "https://ai.szu.edu.cn/info/1075/1314.htm",
+      "name": "吴志昊",
+      "title": "助理教授",
+      "officialSections": [
+        "讲师/助理教授"
+      ],
+      "profileUrl": "https://ai.szu.edu.cn/info/1075/1314.htm",
+      "portraitUrl": null,
+      "sourcePageUrl": "https://ai.szu.edu.cn/szdw/js.htm",
+      "officialRosterUrl": "https://ai.szu.edu.cn/szdw/js.htm",
+      "profileChecked": true,
+      "decision": "include_new_pi",
+      "reason": "官方人工智能学院名录和个人页确认其为教授、副教授、研究员或可独立招生导师；该单位研究主线属于 AI、数据科学及相关智能计算范围。",
+      "evidenceUrl": "https://ai.szu.edu.cn/info/1075/1314.htm",
+      "evidenceExcerpt": "助理教授 | 讲师/助理教授 | 吴志昊 · 助理教授 · 联系方式： horatio_ng@163.com · 招生专业： 智能科学与技术（学硕），计算机技术（专硕） · 招生方向： 计算机视觉、多模态感知、AI4S 研究方向，优秀学生可同步加入北大、哈工大的知名课题组联合开展科研工作； [2] 因材施教，将学生个人发展放在首位，注重学生全方位成长。 五、对拟招收研究生的基本要求： [1] 个人素养方面：为人真诚，具有较强的自驱力，努力刻苦，有追求和信心，有团队协作意识； [2] 个人规"
+    },
+    {
+      "officialId": "https://ai.szu.edu.cn/info/1075/1315.htm",
+      "name": "袁一帆",
+      "title": "助理教授",
+      "officialSections": [
+        "讲师/助理教授"
+      ],
+      "profileUrl": "https://ai.szu.edu.cn/info/1075/1315.htm",
+      "portraitUrl": null,
+      "sourcePageUrl": "https://ai.szu.edu.cn/szdw/js.htm",
+      "officialRosterUrl": "https://ai.szu.edu.cn/szdw/js.htm",
+      "profileChecked": true,
+      "decision": "include_new_pi",
+      "reason": "官方人工智能学院名录和个人页确认其为教授、副教授、研究员或可独立招生导师；该单位研究主线属于 AI、数据科学及相关智能计算范围。",
+      "evidenceUrl": "https://ai.szu.edu.cn/info/1075/1315.htm",
+      "evidenceExcerpt": "助理教授 | 讲师/助理教授 | 袁一帆 · 助理教授 · 联系方式： yifanyuan@szu.edu.cn · 招生专业： 智能科学与技术（学硕），计算机技术（专硕） · 招生方向：AIGC，AI for AI，大模型，Agent，图像视频生成，具身智能，情感计算 研究方向包括 AIGC、大模型、Multi Agent、可信图像与视频编辑、自进化、多模态内容理解与生成、具身智能、机器人、世界模型、情感智能体 。研究重点聚焦于生成与编辑任务中的可控性与一致性问题，如编辑精度、语义一致性、身"
+    },
+    {
+      "officialId": "https://ai.szu.edu.cn/info/1075/2070.htm",
+      "name": "秦鹏杰",
+      "title": "副研究员/助理教授",
+      "officialSections": [
+        "讲师/助理教授"
+      ],
+      "profileUrl": "https://ai.szu.edu.cn/info/1075/2070.htm",
+      "portraitUrl": null,
+      "sourcePageUrl": "https://ai.szu.edu.cn/szdw/js.htm",
+      "officialRosterUrl": "https://ai.szu.edu.cn/szdw/js.htm",
+      "profileChecked": true,
+      "decision": "include_new_pi",
+      "reason": "官方人工智能学院名录和个人页确认其为教授、副教授、研究员或可独立招生导师；该单位研究主线属于 AI、数据科学及相关智能计算范围。",
+      "evidenceUrl": "https://ai.szu.edu.cn/info/1075/2070.htm",
+      "evidenceExcerpt": "副研究员/助理教授 | 讲师/助理教授 | 秦鹏杰 · 副研究员/助理教授 · 联系方式：pj.qin@szu.edu.cn · 招生专业：智能科学与技术（学硕），计算机技术（专硕） · 招生方向：机器人与智能系统，可穿戴智能计算 研究方向：聚焦前沿，前景广阔 主要研究方向：神经控制可穿戴机器人、可穿戴智能计算，涵盖神经信号解码、人机协同控制、人机交互等核心领域，研究成果已广泛应用于医疗康复、深空探测、工业辅助等多个热门场景，兼具学术价值与工程应用前景，为研究生提供清晰的研究方向和广阔的发展空间。 三、"
+    },
+    {
+      "officialId": "https://ai.szu.edu.cn/info/1075/5710.htm",
+      "name": "吴嘉欣",
+      "title": "助理教授",
+      "officialSections": [
+        "讲师/助理教授"
+      ],
+      "profileUrl": "https://ai.szu.edu.cn/info/1075/5710.htm",
+      "portraitUrl": null,
+      "sourcePageUrl": "https://ai.szu.edu.cn/szdw/js.htm",
+      "officialRosterUrl": "https://ai.szu.edu.cn/szdw/js.htm",
+      "profileChecked": true,
+      "decision": "include_new_pi",
+      "reason": "官方人工智能学院名录和个人页确认其为教授、副教授、研究员或可独立招生导师；该单位研究主线属于 AI、数据科学及相关智能计算范围。",
+      "evidenceUrl": "https://ai.szu.edu.cn/info/1075/5710.htm",
+      "evidenceExcerpt": "助理教授 | 讲师/助理教授 | 吴嘉欣 · 助理教授 · 联系方式：jiaxinwu@szu.edu.cn · 招生专业：人工智能、智能科学与技术 · 招生方向：多媒体内容分析、跨模态检索、医学视频分析、具身智能、智能体 研究方向为多媒体内容分析、跨模态检索、智能体等。 先后在深圳大学计算机与软件学院获得学士和硕士学位，师从“国家千人”深圳大学特聘教授 江健民教授 和 钟圣华教授 。后于 香港城市大学计算机科学系取得博士学位，师从ACM杰出科学家 杨宗桦教授 (Prof. Ngo Ch"
+    },
+    {
+      "officialId": "https://ai.szu.edu.cn/info/1075/5980.htm",
+      "name": "刘睿书",
+      "title": "助理教授",
+      "officialSections": [
+        "讲师/助理教授"
+      ],
+      "profileUrl": "https://ai.szu.edu.cn/info/1075/5980.htm",
+      "portraitUrl": null,
+      "sourcePageUrl": "https://ai.szu.edu.cn/szdw/js.htm",
+      "officialRosterUrl": "https://ai.szu.edu.cn/szdw/js.htm",
+      "profileChecked": true,
+      "decision": "include_new_pi",
+      "reason": "官方人工智能学院名录和个人页确认其为教授、副教授、研究员或可独立招生导师；该单位研究主线属于 AI、数据科学及相关智能计算范围。",
+      "evidenceUrl": "https://ai.szu.edu.cn/info/1075/5980.htm",
+      "evidenceExcerpt": "助理教授 | 讲师/助理教授 | 刘睿书 · 助理教授 · 联系方式：rsliu@szu.edu.cn · 招生专业：智能科学与技术、人工智能 · 招生方向：机器学习、生成式人工智能模型的数学理论、高效采样算法等 研究方向为 数学和人工智能的交叉研究 ，主要聚焦随机微分方程数值方法在人工智能领域的交叉应用，如扩散生成模型（Diffusion models）的数学理论、Langevin Monte Carlo 等高效采样算法的构造与分析等。在相关领域以第一或通讯作者身份在 Math."
+    },
+    {
+      "officialId": "https://ai.szu.edu.cn/info/1075/6020.htm",
+      "name": "何裕东",
+      "title": "助理教授",
+      "officialSections": [
+        "讲师/助理教授"
+      ],
+      "profileUrl": "https://ai.szu.edu.cn/info/1075/6020.htm",
+      "portraitUrl": null,
+      "sourcePageUrl": "https://ai.szu.edu.cn/szdw/js.htm",
+      "officialRosterUrl": "https://ai.szu.edu.cn/szdw/js.htm",
+      "profileChecked": true,
+      "decision": "include_new_pi",
+      "reason": "官方人工智能学院名录和个人页确认其为教授、副教授、研究员或可独立招生导师；该单位研究主线属于 AI、数据科学及相关智能计算范围。",
+      "evidenceUrl": "https://ai.szu.edu.cn/info/1075/6020.htm",
+      "evidenceExcerpt": "助理教授 | 讲师/助理教授 | 何裕东 · 助理教授 · 联系方式：ydhe@szu.edu.cn · 招生专业：人工智能 · 招生方向：具身智能；无（弱）监督学习；稀疏信号处理（压缩感知）；语音信号处理 研究方向与类脑高效编码、声学感知系统和机器人复杂环境交互高度相关。围绕复杂感知与智能系统申请美国专利1项、中国专利1 项；相关算法已在商业级可穿戴智能声学设备Kyte2、香港机场、多家医院及老人院机构非接触式感知系统、全球首个获美国FDA认证的非接触脉搏测量APP中得到验证，"
+    },
+    {
+      "officialId": "mailto:zhouyanfeng@szu.edu.cn",
+      "name": "周岩峰",
+      "title": "助理教授",
+      "officialSections": [
+        "讲师/助理教授"
+      ],
+      "profileUrl": null,
+      "portraitUrl": null,
+      "sourcePageUrl": "https://ai.szu.edu.cn/szdw/js.htm",
+      "officialRosterUrl": "https://ai.szu.edu.cn/szdw/js.htm",
+      "profileChecked": false,
+      "decision": "include_new_pi",
+      "reason": "官方人工智能学院名录和个人页确认其为教授、副教授、研究员或可独立招生导师；该单位研究主线属于 AI、数据科学及相关智能计算范围。",
+      "evidenceUrl": "https://ai.szu.edu.cn/szdw/js.htm",
+      "evidenceExcerpt": "助理教授 | 讲师/助理教授 | 周岩峰 · 助理教授 · 联系方式：zhouyanfeng@szu.edu.cn · 招生专业：人工智能 · 招生方向：计算机视觉与生物医学影像分析"
+    }
+  ]
+}

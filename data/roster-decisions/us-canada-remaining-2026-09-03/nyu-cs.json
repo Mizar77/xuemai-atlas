@@ -1,0 +1,1941 @@
+{
+  "schemaVersion": 1,
+  "unitId": "nyu-cs",
+  "unitLabel": "New York University Computer Science",
+  "unitUrl": "https://cs.nyu.edu/dynamic/people/faculty/",
+  "snapshotAt": "2026-09-03",
+  "rosterArtifact": "data/official-rosters/nyu-cs-faculty-2026-09-02.json",
+  "frozenOfficialRosterCount": 122,
+  "rawRosterRowCount": 122,
+  "duplicateRosterCardCount": 0,
+  "deduplicatedRosterPersonCount": 122,
+  "decisionCount": 122,
+  "counts": {
+    "excluded_non_pi": 31,
+    "include_new_pi": 80,
+    "included_existing": 11
+  },
+  "decisions": [
+    {
+      "officialId": "aaron-bernstein",
+      "rosterName": "Aaron Bernstein",
+      "title": "Charles S. Baylis Associate Professor of Computer Science and Engineering",
+      "profileUrl": "https://engineering.nyu.edu/faculty/aaron-bernstein",
+      "portraitUrl": "https://cs.nyu.edu/media/faculty_photos/aaron_bernstein.jpg",
+      "officialSections": [
+        "Tenure-Track Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://cs.nyu.edu/dynamic/people/faculty/",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Charles S. Baylis Associate Professor of Computer Science and Engineering | Tenure-Track Faculty | https://engineering.nyu.edu/faculty/aaron-bernstein",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "ainesh-bakshi",
+      "rosterName": "Ainesh Bakshi",
+      "title": "Assistant Professor of Computer Science and Engineering",
+      "profileUrl": "https://engineering.nyu.edu/faculty/ainesh-bakshi",
+      "portraitUrl": "https://cs.nyu.edu/media/faculty_photos/ainesh_bakshi.jpg",
+      "officialSections": [
+        "Tenure-Track Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://cs.nyu.edu/dynamic/people/faculty/",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Assistant Professor of Computer Science and Engineering | Tenure-Track Faculty | https://engineering.nyu.edu/faculty/ainesh-bakshi",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "akbar-rafiey",
+      "rosterName": "Akbar Rafiey",
+      "title": "Visiting Assistant Professor of Computer Science and Engineering",
+      "profileUrl": "",
+      "portraitUrl": "https://cs.nyu.edu/media/faculty_photos/akbar_rafiey.jpg",
+      "officialSections": [
+        "Associated/Affiliated Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://cs.nyu.edu/dynamic/people/faculty/",
+      "decision": "excluded_non_pi",
+      "reason": "官方职称或名录分组属于教学、兼职、附属、科研支持或其他非独立 PI 岗位。",
+      "evidence": "Visiting Assistant Professor of Computer Science and Engineering | Associated/Affiliated Faculty"
+    },
+    {
+      "officialId": "alan-siegel",
+      "rosterName": "Alan Siegel",
+      "title": "Associate Professor of Computer Science",
+      "profileUrl": "http://cs.nyu.edu/cs/faculty/siegel/",
+      "portraitUrl": "https://cs.nyu.edu/media/faculty_photos/Siegel_16-0015_0819_250x250.jpg",
+      "officialSections": [
+        "Tenure-Track Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://cs.nyu.edu/dynamic/people/faculty/",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Associate Professor of Computer Science | Tenure-Track Faculty | http://cs.nyu.edu/cs/faculty/siegel/",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "allen-liu",
+      "rosterName": "Allen Liu",
+      "title": "Assistant Professor of Computer Science",
+      "profileUrl": "https://aliu42.github.io/",
+      "portraitUrl": "https://cs.nyu.edu/media/faculty_photos/pro-pic-3-3.jpg",
+      "officialSections": [
+        "Tenure-Track Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://cs.nyu.edu/dynamic/people/faculty/",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Assistant Professor of Computer Science | Tenure-Track Faculty | https://aliu42.github.io/",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "andrew-gordon-wilson",
+      "rosterName": "Andrew Gordon Wilson",
+      "title": "Professor of Computer Science and Data Science",
+      "profileUrl": "https://cims.nyu.edu/~andrewgw",
+      "portraitUrl": "https://cs.nyu.edu/media/faculty_photos/andrewgwphoto_250x250.jpeg",
+      "officialSections": [
+        "Tenure-Track Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://cs.nyu.edu/dynamic/people/faculty/",
+      "decision": "included_existing",
+      "atlasPersonId": "andrew-gordon-wilson-nyu",
+      "reason": "符合范围，且规范化姓名可与当前图谱人物唯一匹配。",
+      "evidence": "Professor of Computer Science and Data Science | Tenure-Track Faculty | https://cims.nyu.edu/~andrewgw"
+    },
+    {
+      "officialId": "anirudh-sivaraman",
+      "rosterName": "Anirudh Sivaraman",
+      "title": "Associate Professor of Computer Science",
+      "profileUrl": "https://cs.nyu.edu/~anirudh/",
+      "portraitUrl": "https://cs.nyu.edu/media/faculty_photos/Sivaraman_18-0078__0006_250x250.jpg",
+      "officialSections": [
+        "Tenure-Track Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://cs.nyu.edu/dynamic/people/faculty/",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Associate Professor of Computer Science | Tenure-Track Faculty | https://cs.nyu.edu/~anirudh/",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "anupam-gupta",
+      "rosterName": "Anupam Gupta",
+      "title": "Silver Professor of Computer Science",
+      "profileUrl": "https://cs.nyu.edu/~anupamg/",
+      "portraitUrl": "https://cs.nyu.edu/media/faculty_photos/anupam-gupta-2_PaZ6eIn.jpeg",
+      "officialSections": [
+        "Tenure-Track Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://cs.nyu.edu/dynamic/people/faculty/",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Silver Professor of Computer Science | Tenure-Track Faculty | https://cs.nyu.edu/~anupamg/",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "aurojit-panda",
+      "rosterName": "Aurojit Panda",
+      "title": "Associate Professor of Computer Science",
+      "profileUrl": "https://cs.nyu.edu/~apanda/",
+      "portraitUrl": "https://cs.nyu.edu/media/faculty_photos/Panda_250x250_0cflZFt.jpg",
+      "officialSections": [
+        "Tenure-Track Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://cs.nyu.edu/dynamic/people/faculty/",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Associate Professor of Computer Science | Tenure-Track Faculty | https://cs.nyu.edu/~apanda/",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "benedikt-bunz",
+      "rosterName": "Benedikt Bünz",
+      "title": "Assistant Professor Computer Science",
+      "profileUrl": "http://bue.nz",
+      "portraitUrl": "https://cs.nyu.edu/media/faculty_photos/bunz-cropped.png",
+      "officialSections": [
+        "Tenure-Track Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://cs.nyu.edu/dynamic/people/faculty/",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Assistant Professor Computer Science | Tenure-Track Faculty | http://bue.nz",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "benjamin-peherstorfer",
+      "rosterName": "Benjamin Peherstorfer",
+      "title": "Associate Professor of Computer Science and Mathematics",
+      "profileUrl": "https://cims.nyu.edu/~pehersto/",
+      "portraitUrl": "https://cs.nyu.edu/media/faculty_photos/Peherstorfer_250x250_D3KQHjs.jpg",
+      "officialSections": [
+        "Tenure-Track Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://cs.nyu.edu/dynamic/people/faculty/",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Associate Professor of Computer Science and Mathematics | Tenure-Track Faculty | https://cims.nyu.edu/~pehersto/",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "benjamin-riviere",
+      "rosterName": "Benjamin Riviere",
+      "title": "Assistant Professor of Mechanical and Aerospace Engineering, and Computer Science",
+      "profileUrl": "https://sites.google.com/view/riviere-robot-lab/people",
+      "portraitUrl": "https://cs.nyu.edu/media/faculty_photos/headshot_v3_FeqH38j.jpg",
+      "officialSections": [
+        "Tenure-Track Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://cs.nyu.edu/dynamic/people/faculty/",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Assistant Professor of Mechanical and Aerospace Engineering, and Computer Science | Tenure-Track Faculty | https://sites.google.com/view/riviere-robot-lab/people",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "bhubaneswar-mishra",
+      "rosterName": "Bhubaneswar Mishra",
+      "title": "Professor of Computer Science, Mathematics, and Cell Biology",
+      "profileUrl": "http://cs.nyu.edu/cs/faculty/mishra/",
+      "portraitUrl": "https://cs.nyu.edu/media/faculty_photos/Mishra_16-0015_0263_250x250.jpg",
+      "officialSections": [
+        "Tenure-Track Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://cs.nyu.edu/dynamic/people/faculty/",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Professor of Computer Science, Mathematics, and Cell Biology | Tenure-Track Faculty | http://cs.nyu.edu/cs/faculty/mishra/",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "boris-aronov",
+      "rosterName": "Boris Aronov",
+      "title": "Professor of Computer Science and Engineering",
+      "profileUrl": "https://engineering.nyu.edu/faculty/boris-aronov",
+      "portraitUrl": "https://cs.nyu.edu/media/faculty_photos/boris_aronov.jpg",
+      "officialSections": [
+        "Tenure-Track Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://cs.nyu.edu/dynamic/people/faculty/",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Professor of Computer Science and Engineering | Tenure-Track Faculty | https://engineering.nyu.edu/faculty/boris-aronov",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "brandon-reagen",
+      "rosterName": "Brandon Reagen",
+      "title": "Assistant Professor of Electrical & Computer Engineering",
+      "profileUrl": "https://brandonreagen.com/",
+      "portraitUrl": "https://cs.nyu.edu/media/faculty_photos/reagen_headshot.jpg",
+      "officialSections": [
+        "Associated/Affiliated Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://cs.nyu.edu/dynamic/people/faculty/",
+      "decision": "excluded_non_pi",
+      "reason": "官方职称或名录分组属于教学、兼职、附属、科研支持或其他非独立 PI 岗位。",
+      "evidence": "Assistant Professor of Electrical & Computer Engineering | Associated/Affiliated Faculty | https://brandonreagen.com/"
+    },
+    {
+      "officialId": "chee-yap",
+      "rosterName": "Chee Yap",
+      "title": "Professor of Computer Science",
+      "profileUrl": "https://cs.nyu.edu/~yap/",
+      "portraitUrl": "https://cs.nyu.edu/media/faculty_photos/Yap_16-0015_0061_250x250.jpg",
+      "officialSections": [
+        "Tenure-Track Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://cs.nyu.edu/dynamic/people/faculty/",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Professor of Computer Science | Tenure-Track Faculty | https://cs.nyu.edu/~yap/",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "chen-feng",
+      "rosterName": "Chen Feng",
+      "title": "Institute Associate Professor, NYU Tandon",
+      "profileUrl": "http://ai4ce.github.io",
+      "portraitUrl": "https://cs.nyu.edu/media/faculty_photos/chen-feng.jpg",
+      "officialSections": [
+        "Associated/Affiliated Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://cs.nyu.edu/dynamic/people/faculty/",
+      "decision": "excluded_non_pi",
+      "reason": "官方职称或名录分组属于教学、兼职、附属、科研支持或其他非独立 PI 岗位。",
+      "evidence": "Institute Associate Professor, NYU Tandon | Associated/Affiliated Faculty | http://ai4ce.github.io"
+    },
+    {
+      "officialId": "chen-zhao",
+      "rosterName": "Chen Zhao",
+      "title": "Assistant Professor",
+      "profileUrl": "",
+      "portraitUrl": "https://cs.nyu.edu/media/faculty_photos/Screenshot_2025-12-12_at_4.02.17PM.png",
+      "officialSections": [
+        "Associated/Affiliated Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://cs.nyu.edu/dynamic/people/faculty/",
+      "decision": "excluded_non_pi",
+      "reason": "官方职称或名录分组属于教学、兼职、附属、科研支持或其他非独立 PI 岗位。",
+      "evidence": "Assistant Professor | Associated/Affiliated Faculty"
+    },
+    {
+      "officialId": "chinmay-hegde",
+      "rosterName": "Chinmay Hegde",
+      "title": "Associate Professor of Computer Science and Engineering",
+      "profileUrl": "https://engineering.nyu.edu/faculty/chinmay-hegde",
+      "portraitUrl": "https://cs.nyu.edu/media/faculty_photos/chinmay_hegde.jpg",
+      "officialSections": [
+        "Tenure-Track Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://cs.nyu.edu/dynamic/people/faculty/",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Associate Professor of Computer Science and Engineering | Tenure-Track Faculty | https://engineering.nyu.edu/faculty/chinmay-hegde",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "christopher-musco",
+      "rosterName": "Christopher Musco",
+      "title": "Institute Associate Professor of Computer Science and Engineering",
+      "profileUrl": "https://engineering.nyu.edu/faculty/christopher-musco",
+      "portraitUrl": "https://cs.nyu.edu/media/faculty_photos/christopher_musco.jpeg",
+      "officialSections": [
+        "Tenure-Track Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://cs.nyu.edu/dynamic/people/faculty/",
+      "decision": "included_existing",
+      "atlasPersonId": "christopher-musco-award",
+      "reason": "符合范围，且规范化姓名可与当前图谱人物唯一匹配。",
+      "evidence": "Institute Associate Professor of Computer Science and Engineering | Tenure-Track Faculty | https://engineering.nyu.edu/faculty/christopher-musco"
+    },
+    {
+      "officialId": "claudio-silva",
+      "rosterName": "Claudio Silva",
+      "title": "Professor of Computer Science and Engineering, NYU Tandon; Professor of Data Science",
+      "profileUrl": "https://engineering.nyu.edu/faculty/claudio-silva",
+      "portraitUrl": "https://cs.nyu.edu/media/faculty_photos/Silva_250x250.jpg",
+      "officialSections": [
+        "Tenure-Track Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://cs.nyu.edu/dynamic/people/faculty/",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Professor of Computer Science and Engineering, NYU Tandon; Professor of Data Science | Tenure-Track Faculty | https://engineering.nyu.edu/faculty/claudio-silva",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "damon-mccoy",
+      "rosterName": "Damon McCoy",
+      "title": "Professor of Computer Science and Engineering",
+      "profileUrl": "https://engineering.nyu.edu/faculty/damon-mccoy",
+      "portraitUrl": "https://cs.nyu.edu/media/faculty_photos/damon_mccoy.jpg",
+      "officialSections": [
+        "Tenure-Track Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://cs.nyu.edu/dynamic/people/faculty/",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Professor of Computer Science and Engineering | Tenure-Track Faculty | https://engineering.nyu.edu/faculty/damon-mccoy",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "daniel-neill",
+      "rosterName": "Daniel Neill",
+      "title": "Professor of Public Service and Computer Science",
+      "profileUrl": "http://www.cs.nyu.edu/%7Eneill",
+      "portraitUrl": "https://cs.nyu.edu/media/faculty_photos/Neill_Daniel_250x250.jpg",
+      "officialSections": [
+        "Tenure-Track Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://cs.nyu.edu/dynamic/people/faculty/",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Professor of Public Service and Computer Science | Tenure-Track Faculty | http://www.cs.nyu.edu/%7Eneill",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "daniele-panozzo",
+      "rosterName": "Daniele Panozzo",
+      "title": "Professor of Computer Science",
+      "profileUrl": "http://cs.nyu.edu/~panozzo/",
+      "portraitUrl": "https://cs.nyu.edu/media/faculty_photos/Panozzo_250x250_tLQe4j9.jpg",
+      "officialSections": [
+        "Tenure-Track Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://cs.nyu.edu/dynamic/people/faculty/",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Professor of Computer Science | Tenure-Track Faculty | http://cs.nyu.edu/~panozzo/",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "danny-yuxing-huang",
+      "rosterName": "Danny Yuxing Huang",
+      "title": "Assistant Professor",
+      "profileUrl": "",
+      "portraitUrl": "https://cs.nyu.edu/media/faculty_photos/Screenshot_2025-12-12_at_3.46.14PM.png",
+      "officialSections": [
+        "Associated/Affiliated Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://cs.nyu.edu/dynamic/people/faculty/",
+      "decision": "excluded_non_pi",
+      "reason": "官方职称或名录分组属于教学、兼职、附属、科研支持或其他非独立 PI 岗位。",
+      "evidence": "Assistant Professor | Associated/Affiliated Faculty"
+    },
+    {
+      "officialId": "davi-geiger",
+      "rosterName": "Davi Geiger",
+      "title": "Associate Professor of Computer Science and Neural Science",
+      "profileUrl": "http://cs.nyu.edu/cs/faculty/geiger/",
+      "portraitUrl": "https://cs.nyu.edu/media/faculty_photos/Geiger_16-0015_0112_250x250.jpg",
+      "officialSections": [
+        "Tenure-Track Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://cs.nyu.edu/dynamic/people/faculty/",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Associate Professor of Computer Science and Neural Science | Tenure-Track Faculty | http://cs.nyu.edu/cs/faculty/geiger/",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "david-fouhey",
+      "rosterName": "David Fouhey",
+      "title": "Institute Associate Professor of Computer Science and Electrical and Computer Engineering",
+      "profileUrl": "https://cs.nyu.edu/~fouhey/",
+      "portraitUrl": "https://cs.nyu.edu/media/faculty_photos/crop5.jpg",
+      "officialSections": [
+        "Tenure-Track Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://cs.nyu.edu/dynamic/people/faculty/",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Institute Associate Professor of Computer Science and Electrical and Computer Engineering | Tenure-Track Faculty | https://cs.nyu.edu/~fouhey/",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "denis-zorin",
+      "rosterName": "Denis Zorin",
+      "title": "Silver Professor of Computer Science and Mathematics",
+      "profileUrl": "http://cs.nyu.edu/~dzorin/",
+      "portraitUrl": "https://cs.nyu.edu/media/faculty_photos/Zorin_16-0015_0510_250x250.jpg",
+      "officialSections": [
+        "Tenure-Track Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://cs.nyu.edu/dynamic/people/faculty/",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Silver Professor of Computer Science and Mathematics | Tenure-Track Faculty | http://cs.nyu.edu/~dzorin/",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "dennis-shasha",
+      "rosterName": "Dennis Shasha",
+      "title": "Silver Professor of Computer Science",
+      "profileUrl": "http://cs.nyu.edu/cs/faculty/shasha/",
+      "portraitUrl": "https://cs.nyu.edu/media/faculty_photos/Shasha_16-0015_0005_250x250.jpg",
+      "officialSections": [
+        "Tenure-Track Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://cs.nyu.edu/dynamic/people/faculty/",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Silver Professor of Computer Science | Tenure-Track Faculty | http://cs.nyu.edu/cs/faculty/shasha/",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "ed-k-wong",
+      "rosterName": "Ed K Wong",
+      "title": "Associate Professor of Computer Science and Engineering",
+      "profileUrl": "https://engineering.nyu.edu/faculty/edward-wong",
+      "portraitUrl": "https://cs.nyu.edu/media/faculty_photos/ed_wong.jpg",
+      "officialSections": [
+        "Tenure-Track Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://cs.nyu.edu/dynamic/people/faculty/",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Associate Professor of Computer Science and Engineering | Tenure-Track Faculty | https://engineering.nyu.edu/faculty/edward-wong",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "emily-black",
+      "rosterName": "Emily Black",
+      "title": "Assistant Professor of Computer Science and Engineering",
+      "profileUrl": "https://engineering.nyu.edu/faculty/emily-black",
+      "portraitUrl": "https://cs.nyu.edu/media/faculty_photos/emily_black.jpg",
+      "officialSections": [
+        "Tenure-Track Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://cs.nyu.edu/dynamic/people/faculty/",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Assistant Professor of Computer Science and Engineering | Tenure-Track Faculty | https://engineering.nyu.edu/faculty/emily-black",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "eran-halperin",
+      "rosterName": "Eran Halperin",
+      "title": "Professor of Computer Science; Research Professor of Medicine",
+      "profileUrl": "https://tinyurl.com/4ub7hv6p",
+      "portraitUrl": "https://cs.nyu.edu/media/faculty_photos/EranHalperinheadshot.jpg",
+      "officialSections": [
+        "Tenure-Track Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://cs.nyu.edu/dynamic/people/faculty/",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Professor of Computer Science; Research Professor of Medicine | Tenure-Track Faculty | https://tinyurl.com/4ub7hv6p",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "erdem-varol",
+      "rosterName": "Erdem Varol",
+      "title": "Assistant Professor of Computer Science and Engineering",
+      "profileUrl": "https://engineering.nyu.edu/faculty/erdem-varol",
+      "portraitUrl": "https://cs.nyu.edu/media/faculty_photos/erdem_varol.png",
+      "officialSections": [
+        "Tenure-Track Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://cs.nyu.edu/dynamic/people/faculty/",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Assistant Professor of Computer Science and Engineering | Tenure-Track Faculty | https://engineering.nyu.edu/faculty/erdem-varol",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "ernest-davis",
+      "rosterName": "Ernest Davis",
+      "title": "Professor of Computer Science",
+      "profileUrl": "http://cs.nyu.edu/cs/faculty/davise/",
+      "portraitUrl": "https://cs.nyu.edu/media/faculty_photos/Davis_16-0015_0748_250x250.jpg",
+      "officialSections": [
+        "Tenure-Track Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://cs.nyu.edu/dynamic/people/faculty/",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Professor of Computer Science | Tenure-Track Faculty | http://cs.nyu.edu/cs/faculty/davise/",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "eugene-vinitsky",
+      "rosterName": "Eugene Vinitsky",
+      "title": "Assistant Professor",
+      "profileUrl": "",
+      "portraitUrl": "https://cs.nyu.edu/media/faculty_photos/Screenshot_2025-12-12_at_4.00.45PM.png",
+      "officialSections": [
+        "Associated/Affiliated Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://cs.nyu.edu/dynamic/people/faculty/",
+      "decision": "excluded_non_pi",
+      "reason": "官方职称或名录分组属于教学、兼职、附属、科研支持或其他非独立 PI 岗位。",
+      "evidence": "Assistant Professor | Associated/Affiliated Faculty"
+    },
+    {
+      "officialId": "eunsol-choi",
+      "rosterName": "Eunsol Choi",
+      "title": "Assistant Professor of Computer Science and Data Science",
+      "profileUrl": "https://eunsol.github.io/",
+      "portraitUrl": "https://cs.nyu.edu/media/faculty_photos/choi_eunsol_larger_headshot250x250.jpg",
+      "officialSections": [
+        "Tenure-Track Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://cs.nyu.edu/dynamic/people/faculty/",
+      "decision": "included_existing",
+      "atlasPersonId": "eunsol-choi-us",
+      "reason": "符合范围，且规范化姓名可与当前图谱人物唯一匹配。",
+      "evidence": "Assistant Professor of Computer Science and Data Science | Tenure-Track Faculty | https://eunsol.github.io/"
+    },
+    {
+      "officialId": "evan-johnson",
+      "rosterName": "Evan Johnson",
+      "title": "Assistant Professor of Computer Science and Engineering",
+      "profileUrl": "",
+      "portraitUrl": "https://cs.nyu.edu/media/faculty_photos/profile.jpg",
+      "officialSections": [
+        "Tenure-Track Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://cs.nyu.edu/dynamic/people/faculty/",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Assistant Professor of Computer Science and Engineering | Tenure-Track Faculty",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "fermi-ma",
+      "rosterName": "Fermi Ma",
+      "title": "Assistant Professor of Computer Science",
+      "profileUrl": "https://fermima.com/",
+      "portraitUrl": "https://cs.nyu.edu/media/faculty_photos/fermi.png",
+      "officialSections": [
+        "Tenure-Track Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://cs.nyu.edu/dynamic/people/faculty/",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Assistant Professor of Computer Science | Tenure-Track Faculty | https://fermima.com/",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "florian-schaefer",
+      "rosterName": "Florian Schaefer",
+      "title": "Assistant Professor of Computer Science",
+      "profileUrl": "https://f-t-s.github.io/",
+      "portraitUrl": "https://cs.nyu.edu/media/faculty_photos/prof_pic-480.webp",
+      "officialSections": [
+        "Tenure-Track Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://cs.nyu.edu/dynamic/people/faculty/",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Assistant Professor of Computer Science | Tenure-Track Faculty | https://f-t-s.github.io/",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "gautam-kamath",
+      "rosterName": "Gautam Kamath",
+      "title": "Assistant Professor of Computer Science",
+      "profileUrl": "http://www.gautamkamath.com/#http:// http://www.gautamkamath.com/",
+      "portraitUrl": "https://cs.nyu.edu/media/faculty_photos/gautam_Kamath.jpg",
+      "officialSections": [
+        "Tenure-Track Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://cs.nyu.edu/dynamic/people/faculty/",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Assistant Professor of Computer Science | Tenure-Track Faculty | http://www.gautamkamath.com/#http:// http://www.gautamkamath.com/",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "georg-stadler",
+      "rosterName": "Georg Stadler",
+      "title": "Professor of Mathematics and Computer Science",
+      "profileUrl": "https://math.nyu.edu/~stadler/",
+      "portraitUrl": "https://cs.nyu.edu/media/faculty_photos/georg_office_small.png",
+      "officialSections": [
+        "Associated/Affiliated Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://cs.nyu.edu/dynamic/people/faculty/",
+      "decision": "excluded_non_pi",
+      "reason": "官方职称或名录分组属于教学、兼职、附属、科研支持或其他非独立 PI 岗位。",
+      "evidence": "Professor of Mathematics and Computer Science | Associated/Affiliated Faculty | https://math.nyu.edu/~stadler/"
+    },
+    {
+      "officialId": "greg-durrett",
+      "rosterName": "Greg Durrett",
+      "title": "Associate Professor of Computer Science and Data Science",
+      "profileUrl": "https://gregdurrett.github.io/",
+      "portraitUrl": "https://cs.nyu.edu/media/faculty_photos/photo.png",
+      "officialSections": [
+        "Tenure-Track Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://cs.nyu.edu/dynamic/people/faculty/",
+      "decision": "included_existing",
+      "atlasPersonId": "greg-durrett-us",
+      "reason": "符合范围，且规范化姓名可与当前图谱人物唯一匹配。",
+      "evidence": "Associate Professor of Computer Science and Data Science | Tenure-Track Faculty | https://gregdurrett.github.io/"
+    },
+    {
+      "officialId": "hao-su",
+      "rosterName": "Hao Su",
+      "title": "Associate Professor of Biomedical Engineering",
+      "profileUrl": "https://haosu-robotics.github.io/",
+      "portraitUrl": "https://cs.nyu.edu/media/faculty_photos/Screenshot_2025-12-18_at_4.30.29PM.png",
+      "officialSections": [
+        "Associated/Affiliated Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://cs.nyu.edu/dynamic/people/faculty/",
+      "decision": "excluded_non_pi",
+      "reason": "官方职称或名录分组属于教学、兼职、附属、科研支持或其他非独立 PI 岗位。",
+      "evidence": "Associate Professor of Biomedical Engineering | Associated/Affiliated Faculty | https://haosu-robotics.github.io/"
+    },
+    {
+      "officialId": "he-he",
+      "rosterName": "He He",
+      "title": "Associate Professor of Computer Science and Data Science",
+      "profileUrl": "https://hhexiy.github.io/",
+      "portraitUrl": "https://cs.nyu.edu/media/faculty_photos/He_250x250.jpg",
+      "officialSections": [
+        "Tenure-Track Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://cs.nyu.edu/dynamic/people/faculty/",
+      "decision": "included_existing",
+      "atlasPersonId": "he-he-us",
+      "reason": "符合范围，且规范化姓名可与当前图谱人物唯一匹配。",
+      "evidence": "Associate Professor of Computer Science and Data Science | Tenure-Track Faculty | https://hhexiy.github.io/"
+    },
+    {
+      "officialId": "hongyi-wen",
+      "rosterName": "Hongyi Wen",
+      "title": "Assistant Professor",
+      "profileUrl": "",
+      "portraitUrl": "https://cs.nyu.edu/media/faculty_photos/Screenshot_2025-12-12_at_4.01.47PM.png",
+      "officialSections": [
+        "Associated/Affiliated Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://cs.nyu.edu/dynamic/people/faculty/",
+      "decision": "excluded_non_pi",
+      "reason": "官方职称或名录分组属于教学、兼职、附属、科研支持或其他非独立 PI 岗位。",
+      "evidence": "Assistant Professor | Associated/Affiliated Faculty"
+    },
+    {
+      "officialId": "jie-xue",
+      "rosterName": "Jie Xue",
+      "title": "Assistant Professor",
+      "profileUrl": "",
+      "portraitUrl": "https://cs.nyu.edu/media/faculty_photos/Screenshot_2025-12-12_at_4.24.44PM.png",
+      "officialSections": [
+        "Associated/Affiliated Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://cs.nyu.edu/dynamic/people/faculty/",
+      "decision": "excluded_non_pi",
+      "reason": "官方职称或名录分组属于教学、兼职、附属、科研支持或其他非独立 PI 岗位。",
+      "evidence": "Assistant Professor | Associated/Affiliated Faculty"
+    },
+    {
+      "officialId": "jinyang-li",
+      "rosterName": "Jinyang Li",
+      "title": "Professor of Computer Science",
+      "profileUrl": "http://cs.nyu.edu/~jinyang/",
+      "portraitUrl": "https://cs.nyu.edu/media/faculty_photos/Li_16-0015_0086_250x250.jpg",
+      "officialSections": [
+        "Tenure-Track Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://cs.nyu.edu/dynamic/people/faculty/",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Professor of Computer Science | Tenure-Track Faculty | http://cs.nyu.edu/~jinyang/",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "joan-bruna",
+      "rosterName": "Joan Bruna",
+      "title": "Professor of Computer Science and Data Science",
+      "profileUrl": "http://cims.nyu.edu/~bruna",
+      "portraitUrl": "https://cs.nyu.edu/media/faculty_photos/Bruna_250x250.jpg",
+      "officialSections": [
+        "Tenure-Track Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://cs.nyu.edu/dynamic/people/faculty/",
+      "decision": "included_existing",
+      "atlasPersonId": "joan-bruna-nyu",
+      "reason": "符合范围，且规范化姓名可与当前图谱人物唯一匹配。",
+      "evidence": "Professor of Computer Science and Data Science | Tenure-Track Faculty | http://cims.nyu.edu/~bruna"
+    },
+    {
+      "officialId": "joseph-bonneau",
+      "rosterName": "Joseph Bonneau",
+      "title": "Associate Professor of Computer Science",
+      "profileUrl": "http://jbonneau.com/",
+      "portraitUrl": "https://cs.nyu.edu/media/faculty_photos/Bonneau_Joseph_final_250x250.jpg",
+      "officialSections": [
+        "Tenure-Track Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://cs.nyu.edu/dynamic/people/faculty/",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Associate Professor of Computer Science | Tenure-Track Faculty | http://jbonneau.com/",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "joseph-tassarotti",
+      "rosterName": "Joseph Tassarotti",
+      "title": "Assistant Professor of Computer Science",
+      "profileUrl": "https://cs.nyu.edu/~jt4767/",
+      "portraitUrl": "https://cs.nyu.edu/media/faculty_photos/jtassarotti_profile.jpg",
+      "officialSections": [
+        "Tenure-Track Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://cs.nyu.edu/dynamic/people/faculty/",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Assistant Professor of Computer Science | Tenure-Track Faculty | https://cs.nyu.edu/~jt4767/",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "juan-de-pablo",
+      "rosterName": "Juan de Pablo",
+      "title": "Executive Vice President for Global Science and Technology; Executive Dean of the NYU Tandon School of Engineering; Professor of Chemical and Biomolecular Engineering",
+      "profileUrl": "https://engineering.nyu.edu/faculty/juan-de-pablo",
+      "portraitUrl": "https://cs.nyu.edu/media/faculty_photos/Juan_de_Pablo_2022.jpg",
+      "officialSections": [
+        "Tenure-Track Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://cs.nyu.edu/dynamic/people/faculty/",
+      "decision": "excluded_non_pi",
+      "reason": "官方职称或名录分组属于教学、兼职、附属、科研支持或其他非独立 PI 岗位。",
+      "evidence": "Executive Vice President for Global Science and Technology; Executive Dean of the NYU Tandon School of Engineering; Professor of Chemical and Biomolecular Engineering | Tenure-Track Faculty | https://engineering.nyu.edu/faculty/juan-de-pablo"
+    },
+    {
+      "officialId": "juan-pablo-bello",
+      "rosterName": "Juan Pablo Bello",
+      "title": "Professor of Computer Science and Engineering",
+      "profileUrl": "https://engineering.nyu.edu/faculty/juan-pablo-bello",
+      "portraitUrl": "https://cs.nyu.edu/media/faculty_photos/Bello_Juan_Pablo_-_Headshot_2.png",
+      "officialSections": [
+        "Tenure-Track Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://cs.nyu.edu/dynamic/people/faculty/",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Professor of Computer Science and Engineering | Tenure-Track Faculty | https://engineering.nyu.edu/faculty/juan-pablo-bello",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "juan-perdomo-silva",
+      "rosterName": "Juan Perdomo Silva",
+      "title": "Assistant Professor of Computer Science and Data Science",
+      "profileUrl": "http://jcperdomo.org/",
+      "portraitUrl": "https://cs.nyu.edu/media/faculty_photos/juan_carlos_perdomo_BmIoIYn.JPG",
+      "officialSections": [
+        "Tenure-Track Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://cs.nyu.edu/dynamic/people/faculty/",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Assistant Professor of Computer Science and Data Science | Tenure-Track Faculty | http://jcperdomo.org/",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "julia-kempe",
+      "rosterName": "Julia Kempe",
+      "title": "Silver Professor of Computer Science, Mathematics and Data Science",
+      "profileUrl": "https://cims.nyu.edu/~kempe/",
+      "portraitUrl": "https://cs.nyu.edu/media/faculty_photos/Kempe_250x250.jpg",
+      "officialSections": [
+        "Tenure-Track Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://cs.nyu.edu/dynamic/people/faculty/",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Silver Professor of Computer Science, Mathematics and Data Science | Tenure-Track Faculty | https://cims.nyu.edu/~kempe/",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "julia-stoyanovich",
+      "rosterName": "Julia Stoyanovich",
+      "title": "Institute Associate Professor of Computer Science and Engineering, Associate Professor of Data Science",
+      "profileUrl": "https://engineering.nyu.edu/faculty/julia-stoyanovich",
+      "portraitUrl": "https://cs.nyu.edu/media/faculty_photos/julia_stoyanovich.jpg",
+      "officialSections": [
+        "Tenure-Track Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://cs.nyu.edu/dynamic/people/faculty/",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Institute Associate Professor of Computer Science and Engineering, Associate Professor of Data Science | Tenure-Track Faculty | https://engineering.nyu.edu/faculty/julia-stoyanovich",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "julian-togelius",
+      "rosterName": "Julian Togelius",
+      "title": "Professor of Computer Science and Engineering",
+      "profileUrl": "https://engineering.nyu.edu/faculty/julian-togelius",
+      "portraitUrl": "https://cs.nyu.edu/media/faculty_photos/julian_togelius.png",
+      "officialSections": [
+        "Tenure-Track Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://cs.nyu.edu/dynamic/people/faculty/",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Professor of Computer Science and Engineering | Tenure-Track Faculty | https://engineering.nyu.edu/faculty/julian-togelius",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "juliana-freire",
+      "rosterName": "Juliana Freire",
+      "title": "Professor of Computer Science and Engineering, NYU Tandon; Professor of Data Science",
+      "profileUrl": "https://engineering.nyu.edu/faculty/juliana-freire",
+      "portraitUrl": "https://cs.nyu.edu/media/faculty_photos/Freire_250x250.jpg",
+      "officialSections": [
+        "Tenure-Track Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://cs.nyu.edu/dynamic/people/faculty/",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Professor of Computer Science and Engineering, NYU Tandon; Professor of Data Science | Tenure-Track Faculty | https://engineering.nyu.edu/faculty/juliana-freire",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "justin-cappos",
+      "rosterName": "Justin Cappos",
+      "title": "Professor of Computer Science and Engineering",
+      "profileUrl": "https://engineering.nyu.edu/faculty/justin-cappos",
+      "portraitUrl": "https://cs.nyu.edu/media/faculty_photos/justin_cappos.JPG",
+      "officialSections": [
+        "Tenure-Track Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://cs.nyu.edu/dynamic/people/faculty/",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Professor of Computer Science and Engineering | Tenure-Track Faculty | https://engineering.nyu.edu/faculty/justin-cappos",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "keith-ross",
+      "rosterName": "Keith Ross",
+      "title": "Dean of Engineering and Computer Science, NYU Shanghai; Leonard J. Shustek Professor of Computer Science, NYU Tandon",
+      "profileUrl": "",
+      "portraitUrl": "https://cs.nyu.edu/media/faculty_photos/Ross_250x250.jpg",
+      "officialSections": [
+        "Associated/Affiliated Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://cs.nyu.edu/dynamic/people/faculty/",
+      "decision": "excluded_non_pi",
+      "reason": "官方职称或名录分组属于教学、兼职、附属、科研支持或其他非独立 PI 岗位。",
+      "evidence": "Dean of Engineering and Computer Science, NYU Shanghai; Leonard J. Shustek Professor of Computer Science, NYU Tandon | Associated/Affiliated Faculty"
+    },
+    {
+      "officialId": "kenneth-perlin",
+      "rosterName": "Kenneth Perlin",
+      "title": "Professor of Computer Science",
+      "profileUrl": "http://cs.nyu.edu/~perlin/",
+      "portraitUrl": "https://cs.nyu.edu/media/faculty_photos/Perlin_16-0015_1040_250x250.jpg",
+      "officialSections": [
+        "Tenure-Track Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://cs.nyu.edu/dynamic/people/faculty/",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Professor of Computer Science | Tenure-Track Faculty | http://cs.nyu.edu/~perlin/",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "kyunghyun-cho",
+      "rosterName": "Kyunghyun Cho",
+      "title": "Glen de Vries Chaired Professor of Computer Science and Data Science",
+      "profileUrl": "http://kyunghyuncho.me/",
+      "portraitUrl": "https://cs.nyu.edu/media/faculty_photos/Cho_16-0015_1000_250x250.jpg",
+      "officialSections": [
+        "Tenure-Track Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://cs.nyu.edu/dynamic/people/faculty/",
+      "decision": "included_existing",
+      "atlasPersonId": "kyunghyun-cho-us",
+      "reason": "符合范围，且规范化姓名可与当前图谱人物唯一匹配。",
+      "evidence": "Glen de Vries Chaired Professor of Computer Science and Data Science | Tenure-Track Faculty | http://kyunghyuncho.me/"
+    },
+    {
+      "officialId": "lakshminarayanan-subramanian",
+      "rosterName": "Lakshminarayanan Subramanian",
+      "title": "Professor of Computer Science",
+      "profileUrl": "http://cs.nyu.edu/~lakshmi/",
+      "portraitUrl": "https://cs.nyu.edu/media/faculty_photos/Subramanian_16-0015_0690_250x250.jpg",
+      "officialSections": [
+        "Tenure-Track Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://cs.nyu.edu/dynamic/people/faculty/",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Professor of Computer Science | Tenure-Track Faculty | http://cs.nyu.edu/~lakshmi/",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "lerrel-pinto",
+      "rosterName": "Lerrel Pinto",
+      "title": "Assistant Professor of Computer Science",
+      "profileUrl": "https://cs.nyu.edu/lerrel",
+      "portraitUrl": "https://cs.nyu.edu/media/faculty_photos/lerrel.jpg",
+      "officialSections": [
+        "Tenure-Track Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://cs.nyu.edu/dynamic/people/faculty/",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Assistant Professor of Computer Science | Tenure-Track Faculty | https://cs.nyu.edu/lerrel",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "leslie-greengard",
+      "rosterName": "Leslie Greengard",
+      "title": "Silver Professor of Mathematics and Computer Science",
+      "profileUrl": "http://math.nyu.edu/faculty/greengar/index.html",
+      "portraitUrl": "https://cs.nyu.edu/media/faculty_photos/Greengard_250x250_Whz5A82.jpg",
+      "officialSections": [
+        "Associated/Affiliated Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://cs.nyu.edu/dynamic/people/faculty/",
+      "decision": "excluded_non_pi",
+      "reason": "官方职称或名录分组属于教学、兼职、附属、科研支持或其他非独立 PI 岗位。",
+      "evidence": "Silver Professor of Mathematics and Computer Science | Associated/Affiliated Faculty | http://math.nyu.edu/faculty/greengar/index.html"
+    },
+    {
+      "officialId": "liat-shenhav",
+      "rosterName": "Liat Shenhav",
+      "title": "Assistant Professor, Department of Microbiology Assistant Professor, Department of Obstetrics and Gynecology",
+      "profileUrl": "https://med.nyu.edu/faculty/liat-shenhav",
+      "portraitUrl": "https://cs.nyu.edu/media/faculty_photos/liat_shenhav.jpg",
+      "officialSections": [
+        "Associated/Affiliated Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://cs.nyu.edu/dynamic/people/faculty/",
+      "decision": "excluded_non_pi",
+      "reason": "官方职称或名录分组属于教学、兼职、附属、科研支持或其他非独立 PI 岗位。",
+      "evidence": "Assistant Professor, Department of Microbiology Assistant Professor, Department of Obstetrics and Gynecology | Associated/Affiliated Faculty | https://med.nyu.edu/faculty/liat-shenhav"
+    },
+    {
+      "officialId": "lisa-hellerstein",
+      "rosterName": "Lisa Hellerstein",
+      "title": "Professor of Computer Science and Engineering",
+      "profileUrl": "https://engineering.nyu.edu/faculty/lisa-hellerstein",
+      "portraitUrl": "https://cs.nyu.edu/media/faculty_photos/lisa_hellerstein.jpg",
+      "officialSections": [
+        "Tenure-Track Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://cs.nyu.edu/dynamic/people/faculty/",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Professor of Computer Science and Engineering | Tenure-Track Faculty | https://engineering.nyu.edu/faculty/lisa-hellerstein",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "ludovic-righetti",
+      "rosterName": "Ludovic Righetti",
+      "title": "Professor of Electrical and Computer Engineering, Mechanical and Space Engineering, and Computer Science",
+      "profileUrl": "https://engineering.nyu.edu/faculty/ludovic-righetti",
+      "portraitUrl": "https://cs.nyu.edu/media/faculty_photos/Screenshot_2025-12-18_at_4.33.16PM.png",
+      "officialSections": [
+        "Associated/Affiliated Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://cs.nyu.edu/dynamic/people/faculty/",
+      "decision": "excluded_non_pi",
+      "reason": "官方职称或名录分组属于教学、兼职、附属、科研支持或其他非独立 PI 岗位。",
+      "evidence": "Professor of Electrical and Computer Engineering, Mechanical and Space Engineering, and Computer Science | Associated/Affiliated Faculty | https://engineering.nyu.edu/faculty/ludovic-righetti"
+    },
+    {
+      "officialId": "magdalena-fuentes",
+      "rosterName": "Magdalena Fuentes",
+      "title": "Assistant Professor of Music Technology and Integrated Design & Media",
+      "profileUrl": "",
+      "portraitUrl": "https://cs.nyu.edu/media/faculty_photos/Screenshot_2025-12-12_at_4.13.49PM.png",
+      "officialSections": [
+        "Associated/Affiliated Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://cs.nyu.edu/dynamic/people/faculty/",
+      "decision": "excluded_non_pi",
+      "reason": "官方职称或名录分组属于教学、兼职、附属、科研支持或其他非独立 PI 岗位。",
+      "evidence": "Assistant Professor of Music Technology and Integrated Design & Media | Associated/Affiliated Faculty"
+    },
+    {
+      "officialId": "marcelo-mattar",
+      "rosterName": "Marcelo Mattar",
+      "title": "Assistant Professor",
+      "profileUrl": "",
+      "portraitUrl": "https://cs.nyu.edu/media/faculty_photos/Screenshot_2025-12-12_at_4.23.27PM.png",
+      "officialSections": [
+        "Associated/Affiliated Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://cs.nyu.edu/dynamic/people/faculty/",
+      "decision": "excluded_non_pi",
+      "reason": "官方职称或名录分组属于教学、兼职、附属、科研支持或其他非独立 PI 岗位。",
+      "evidence": "Assistant Professor | Associated/Affiliated Faculty"
+    },
+    {
+      "officialId": "mark-ho",
+      "rosterName": "Mark Ho",
+      "title": "Assistant Professor of Psychology",
+      "profileUrl": "https://as.nyu.edu/faculty/mark-ho.html",
+      "portraitUrl": "https://cs.nyu.edu/media/faculty_photos/Screenshot_2025-12-17_at_4.38.08PM.png",
+      "officialSections": [
+        "Associated/Affiliated Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://cs.nyu.edu/dynamic/people/faculty/",
+      "decision": "excluded_non_pi",
+      "reason": "官方职称或名录分组属于教学、兼职、附属、科研支持或其他非独立 PI 岗位。",
+      "evidence": "Assistant Professor of Psychology | Associated/Affiliated Faculty | https://as.nyu.edu/faculty/mark-ho.html"
+    },
+    {
+      "officialId": "marshall-ball",
+      "rosterName": "Marshall Ball",
+      "title": "Assistant Professor of Computer Science",
+      "profileUrl": "https://cs.nyu.edu/~mmb586/index.html",
+      "portraitUrl": "https://cs.nyu.edu/media/faculty_photos/Ball.JPG",
+      "officialSections": [
+        "Tenure-Track Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://cs.nyu.edu/dynamic/people/faculty/",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Assistant Professor of Computer Science | Tenure-Track Faculty | https://cs.nyu.edu/~mmb586/index.html",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "martin-farach-colton",
+      "rosterName": "Martin Farach-Colton",
+      "title": "Leonard J. Shustek Professor of Computer Science and Engineering",
+      "profileUrl": "https://engineering.nyu.edu/faculty/martin-farach-colton",
+      "portraitUrl": "https://cs.nyu.edu/media/faculty_photos/martin_colton.JPG",
+      "officialSections": [
+        "Tenure-Track Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://cs.nyu.edu/dynamic/people/faculty/",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Leonard J. Shustek Professor of Computer Science and Engineering | Tenure-Track Faculty | https://engineering.nyu.edu/faculty/martin-farach-colton",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "matus-telgarsky",
+      "rosterName": "Matus Telgarsky",
+      "title": "Associate Professor of Computer Science",
+      "profileUrl": "https://cims.nyu.edu/~matus/",
+      "portraitUrl": "https://cs.nyu.edu/media/faculty_photos/matus-cropped.png",
+      "officialSections": [
+        "Tenure-Track Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://cs.nyu.edu/dynamic/people/faculty/",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Associate Professor of Computer Science | Tenure-Track Faculty | https://cims.nyu.edu/~matus/",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "mehryar-mohri",
+      "rosterName": "Mehryar Mohri",
+      "title": "Professor of Computer Science",
+      "profileUrl": "http://cs.nyu.edu/cs/faculty/mohri/",
+      "portraitUrl": "https://cs.nyu.edu/media/faculty_photos/Mohri_16-0015_0666_250x250.jpg",
+      "officialSections": [
+        "Tenure-Track Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://cs.nyu.edu/dynamic/people/faculty/",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Professor of Computer Science | Tenure-Track Faculty | http://cs.nyu.edu/cs/faculty/mohri/",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "mengye-ren",
+      "rosterName": "Mengye Ren",
+      "title": "Assistant Professor of Computer Science and Data Science",
+      "profileUrl": "https://mengyeren.com/",
+      "portraitUrl": "https://cs.nyu.edu/media/faculty_photos/mengye_ren4.jpg",
+      "officialSections": [
+        "Tenure-Track Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://cs.nyu.edu/dynamic/people/faculty/",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Assistant Professor of Computer Science and Data Science | Tenure-Track Faculty | https://mengyeren.com/",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "michael-overton",
+      "rosterName": "Michael Overton",
+      "title": "Silver Professor of Computer Science and Mathematics",
+      "profileUrl": "http://cs.nyu.edu/cs/faculty/overton/",
+      "portraitUrl": "https://cs.nyu.edu/media/faculty_photos/Overton_16-0015_0604_250x250.jpg",
+      "officialSections": [
+        "Tenure-Track Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://cs.nyu.edu/dynamic/people/faculty/",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Silver Professor of Computer Science and Mathematics | Tenure-Track Faculty | http://cs.nyu.edu/cs/faculty/overton/",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "michael-walfish",
+      "rosterName": "Michael Walfish",
+      "title": "Professor of Computer Science",
+      "profileUrl": "http://www.cs.nyu.edu/~mwalfish/",
+      "portraitUrl": "https://cs.nyu.edu/media/faculty_photos/Walfish_16-0015_1156_250x250.jpg",
+      "officialSections": [
+        "Tenure-Track Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://cs.nyu.edu/dynamic/people/faculty/",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Professor of Computer Science | Tenure-Track Faculty | http://www.cs.nyu.edu/~mwalfish/",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "nadav-brandes",
+      "rosterName": "Nadav Brandes",
+      "title": "Assistant Professor, Department of Biochemistry and Molecular Pharmacology",
+      "profileUrl": "https://med.nyu.edu/faculty/nadav-brandes",
+      "portraitUrl": "https://cs.nyu.edu/media/faculty_photos/nadav_brandes.jpg",
+      "officialSections": [
+        "Associated/Affiliated Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://cs.nyu.edu/dynamic/people/faculty/",
+      "decision": "excluded_non_pi",
+      "reason": "官方职称或名录分组属于教学、兼职、附属、科研支持或其他非独立 PI 岗位。",
+      "evidence": "Assistant Professor, Department of Biochemistry and Molecular Pharmacology | Associated/Affiliated Faculty | https://med.nyu.edu/faculty/nadav-brandes"
+    },
+    {
+      "officialId": "nasir-memon",
+      "rosterName": "Nasir Memon",
+      "title": "Vice Dean for Academics and Student Affairs and Professor of Computer Science and Engineering, NYU Tandon",
+      "profileUrl": "https://engineering.nyu.edu/faculty/nasir-memon",
+      "portraitUrl": "https://cs.nyu.edu/media/faculty_photos/Memon_250x250.jpg",
+      "officialSections": [
+        "Tenure-Track Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://cs.nyu.edu/dynamic/people/faculty/",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Vice Dean for Academics and Student Affairs and Professor of Computer Science and Engineering, NYU Tandon | Tenure-Track Faculty | https://engineering.nyu.edu/faculty/nasir-memon",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "nir-bitansky",
+      "rosterName": "Nir Bitansky",
+      "title": "Associate Professor of Computer Science",
+      "profileUrl": "https://cs.nyu.edu/~nb3873/",
+      "portraitUrl": "https://cs.nyu.edu/media/faculty_photos/nir-cropped_iNfo8Hd.png",
+      "officialSections": [
+        "Tenure-Track Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://cs.nyu.edu/dynamic/people/faculty/",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Associate Professor of Computer Science | Tenure-Track Faculty | https://cs.nyu.edu/~nb3873/",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "oded-nov",
+      "rosterName": "Oded Nov",
+      "title": "Technology Management and Innovation Department Chair, Morton L. Topfer Professor of Technology Management",
+      "profileUrl": "https://wp.nyu.edu/odednov\nDigital Health Work",
+      "portraitUrl": "https://cs.nyu.edu/media/faculty_photos/Screenshot_2025-12-12_at_3.49.57PM_Ys73ZUG.png",
+      "officialSections": [
+        "Associated/Affiliated Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://cs.nyu.edu/dynamic/people/faculty/",
+      "decision": "excluded_non_pi",
+      "reason": "官方职称或名录分组属于教学、兼职、附属、科研支持或其他非独立 PI 岗位。",
+      "evidence": "Technology Management and Innovation Department Chair, Morton L. Topfer Professor of Technology Management | Associated/Affiliated Faculty | https://wp.nyu.edu/odednov\nDigital Health Work"
+    },
+    {
+      "officialId": "oded-regev",
+      "rosterName": "Oded Regev",
+      "title": "Silver Professor of Computer Science",
+      "profileUrl": "http://www.cims.nyu.edu/~regev/",
+      "portraitUrl": "https://cs.nyu.edu/media/faculty_photos/Regev_16-0015_0376_250x250.jpg",
+      "officialSections": [
+        "Tenure-Track Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://cs.nyu.edu/dynamic/people/faculty/",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Silver Professor of Computer Science | Tenure-Track Faculty | http://www.cims.nyu.edu/~regev/",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "patrick-cousot",
+      "rosterName": "Patrick Cousot",
+      "title": "Silver Professor of Computer Science",
+      "profileUrl": "http://cs.nyu.edu/~pcousot/",
+      "portraitUrl": "https://cs.nyu.edu/media/faculty_photos/Cousot_16-0015_1348_250x250.jpg",
+      "officialSections": [
+        "Tenure-Track Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://cs.nyu.edu/dynamic/people/faculty/",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Silver Professor of Computer Science | Tenure-Track Faculty | http://cs.nyu.edu/~pcousot/",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "paul-torrens",
+      "rosterName": "Paul Torrens",
+      "title": "Professor of Computer Science and Engineering; Vice Dean for Faculty Affairs, Tandon School of Engineering",
+      "profileUrl": "https://engineering.nyu.edu/faculty/paul-torrens",
+      "portraitUrl": "https://cs.nyu.edu/media/faculty_photos/paul_torrens.png",
+      "officialSections": [
+        "Tenure-Track Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://cs.nyu.edu/dynamic/people/faculty/",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Professor of Computer Science and Engineering; Vice Dean for Faculty Affairs, Tandon School of Engineering | Tenure-Track Faculty | https://engineering.nyu.edu/faculty/paul-torrens",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "pavel-izmailov",
+      "rosterName": "Pavel Izmailov",
+      "title": "Assistant Professor of Computer Science and Engineering",
+      "profileUrl": "https://engineering.nyu.edu/faculty/pavel-izmailov",
+      "portraitUrl": "https://cs.nyu.edu/media/faculty_photos/pavel_izmailov.jpeg",
+      "officialSections": [
+        "Tenure-Track Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://cs.nyu.edu/dynamic/people/faculty/",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Assistant Professor of Computer Science and Engineering | Tenure-Track Faculty | https://engineering.nyu.edu/faculty/pavel-izmailov",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "pratyusha-sharma",
+      "rosterName": "Pratyusha Sharma",
+      "title": "Assistant Professor of Computer Science and Data Science",
+      "profileUrl": "https://pratyushasharma.github.io",
+      "portraitUrl": "https://cs.nyu.edu/media/faculty_photos/pratyusha-headshot_1.jpg",
+      "officialSections": [
+        "Tenure-Track Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://cs.nyu.edu/dynamic/people/faculty/",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Assistant Professor of Computer Science and Data Science | Tenure-Track Faculty | https://pratyushasharma.github.io",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "qi-lei",
+      "rosterName": "Qi Lei",
+      "title": "Assistant Professor of Mathematics and Data Science",
+      "profileUrl": "https://cecilialeiqi.github.io/",
+      "portraitUrl": "https://cs.nyu.edu/media/faculty_photos/Qi_Lei_KjliKMY.jpg",
+      "officialSections": [
+        "Associated/Affiliated Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://cs.nyu.edu/dynamic/people/faculty/",
+      "decision": "excluded_non_pi",
+      "reason": "官方职称或名录分组属于教学、兼职、附属、科研支持或其他非独立 PI 岗位。",
+      "evidence": "Assistant Professor of Mathematics and Data Science | Associated/Affiliated Faculty | https://cecilialeiqi.github.io/"
+    },
+    {
+      "officialId": "qi-sun",
+      "rosterName": "Qi Sun",
+      "title": "Associate Professor of Computer Science and Engineering",
+      "profileUrl": "https://qisun.me/",
+      "portraitUrl": "https://cs.nyu.edu/media/faculty_photos/qi_sun.jpg",
+      "officialSections": [
+        "Tenure-Track Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://cs.nyu.edu/dynamic/people/faculty/",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Associate Professor of Computer Science and Engineering | Tenure-Track Faculty | https://qisun.me/",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "qiaoyu-tan",
+      "rosterName": "Qiaoyu Tan",
+      "title": "Assistant Professor",
+      "profileUrl": "",
+      "portraitUrl": "https://cs.nyu.edu/media/faculty_photos/Screenshot_2025-12-12_at_4.00.09PM.png",
+      "officialSections": [
+        "Associated/Affiliated Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://cs.nyu.edu/dynamic/people/faculty/",
+      "decision": "excluded_non_pi",
+      "reason": "官方职称或名录分组属于教学、兼职、附属、科研支持或其他非独立 PI 岗位。",
+      "evidence": "Assistant Professor | Associated/Affiliated Faculty"
+    },
+    {
+      "officialId": "rachel-greenstadt",
+      "rosterName": "Rachel Greenstadt",
+      "title": "Professor of Computer Science and Engineering",
+      "profileUrl": "https://engineering.nyu.edu/faculty/rachel-greenstadt",
+      "portraitUrl": "https://cs.nyu.edu/media/faculty_photos/rachel_greenstadt.jpg",
+      "officialSections": [
+        "Tenure-Track Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://cs.nyu.edu/dynamic/people/faculty/",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Professor of Computer Science and Engineering | Tenure-Track Faculty | https://engineering.nyu.edu/faculty/rachel-greenstadt",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "rajesh-ranganath",
+      "rosterName": "Rajesh Ranganath",
+      "title": "Associate Professor of Computer Science and Data Science",
+      "profileUrl": "https://cims.nyu.edu/~rajeshr/",
+      "portraitUrl": "https://cs.nyu.edu/media/faculty_photos/Ranganath_250x250_cCkxoxI.jpg",
+      "officialSections": [
+        "Tenure-Track Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://cs.nyu.edu/dynamic/people/faculty/",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Associate Professor of Computer Science and Data Science | Tenure-Track Faculty | https://cims.nyu.edu/~rajeshr/",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "ramesh-karri",
+      "rosterName": "Ramesh Karri",
+      "title": "Electrical and Computer Engineering Department Chair",
+      "profileUrl": "",
+      "portraitUrl": "https://cs.nyu.edu/media/faculty_photos/Screenshot_2025-12-12_at_3.48.21PM.png",
+      "officialSections": [
+        "Associated/Affiliated Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://cs.nyu.edu/dynamic/people/faculty/",
+      "decision": "excluded_non_pi",
+      "reason": "官方职称或名录分组属于教学、兼职、附属、科研支持或其他非独立 PI 岗位。",
+      "evidence": "Electrical and Computer Engineering Department Chair | Associated/Affiliated Faculty"
+    },
+    {
+      "officialId": "rob-fergus",
+      "rosterName": "Rob Fergus",
+      "title": "Professor of Computer Science",
+      "profileUrl": "http://cs.nyu.edu/~fergus/",
+      "portraitUrl": "https://cs.nyu.edu/media/faculty_photos/Fergus_16-0015_1004.jpg",
+      "officialSections": [
+        "Tenure-Track Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://cs.nyu.edu/dynamic/people/faculty/",
+      "decision": "included_existing",
+      "atlasPersonId": "rob-fergus-us",
+      "reason": "符合范围，且规范化姓名可与当前图谱人物唯一匹配。",
+      "evidence": "Professor of Computer Science | Tenure-Track Faculty | http://cs.nyu.edu/~fergus/"
+    },
+    {
+      "officialId": "robert-krueger",
+      "rosterName": "Robert Krueger",
+      "title": "Assistant Professor of Computer Science and Engineering",
+      "profileUrl": "https://engineering.nyu.edu/faculty/robert-krueger",
+      "portraitUrl": "https://cs.nyu.edu/media/faculty_photos/robert_krueger.jpg",
+      "officialSections": [
+        "Tenure-Track Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://cs.nyu.edu/dynamic/people/faculty/",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Assistant Professor of Computer Science and Engineering | Tenure-Track Faculty | https://engineering.nyu.edu/faculty/robert-krueger",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "romain-lopez",
+      "rosterName": "Romain Lopez",
+      "title": "Assistant Professor of Computer Science and Biology",
+      "profileUrl": "https://romain-lopez.github.io/",
+      "portraitUrl": "https://cs.nyu.edu/media/faculty_photos/avatar_huee5440d67f790764fd5d8017075b032f_1280543_250x250_fill_q90_lanczos_center.jpg",
+      "officialSections": [
+        "Tenure-Track Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://cs.nyu.edu/dynamic/people/faculty/",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Assistant Professor of Computer Science and Biology | Tenure-Track Faculty | https://romain-lopez.github.io/",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "rosanna-bellini",
+      "rosterName": "Rosanna Bellini",
+      "title": "Assistant Professor of Computer Science and Engineering",
+      "profileUrl": "https://engineering.nyu.edu/faculty/rosanna-bellini",
+      "portraitUrl": "https://cs.nyu.edu/media/faculty_photos/rosanna_bellini.png",
+      "officialSections": [
+        "Tenure-Track Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://cs.nyu.edu/dynamic/people/faculty/",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Assistant Professor of Computer Science and Engineering | Tenure-Track Faculty | https://engineering.nyu.edu/faculty/rosanna-bellini",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "rumi-chunara",
+      "rosterName": "Rumi Chunara",
+      "title": "Associate Professor of Computer Science and Engineering and Biostatistics",
+      "profileUrl": "https://engineering.nyu.edu/faculty/rumi-chunara",
+      "portraitUrl": "https://cs.nyu.edu/media/faculty_photos/rumi_chunara.png",
+      "officialSections": [
+        "Tenure-Track Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://cs.nyu.edu/dynamic/people/faculty/",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Associate Professor of Computer Science and Engineering and Biostatistics | Tenure-Track Faculty | https://engineering.nyu.edu/faculty/rumi-chunara",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "sai-qian-zhang",
+      "rosterName": "Sai Qian Zhang",
+      "title": "Assistant Professor of Electrical and Computer Engineering and Computer Science",
+      "profileUrl": "https://saiqianzhang.com/",
+      "portraitUrl": "https://cs.nyu.edu/media/faculty_photos/sai-cropped.png",
+      "officialSections": [
+        "Tenure-Track Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://cs.nyu.edu/dynamic/people/faculty/",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Assistant Professor of Electrical and Computer Engineering and Computer Science | Tenure-Track Faculty | https://saiqianzhang.com/",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "saining-xie",
+      "rosterName": "Saining Xie",
+      "title": "Assistant Professor of Computer Science",
+      "profileUrl": "http://www.sainingxie.com/",
+      "portraitUrl": "https://cs.nyu.edu/media/faculty_photos/Saining_xie.jpeg",
+      "officialSections": [
+        "Tenure-Track Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://cs.nyu.edu/dynamic/people/faculty/",
+      "decision": "included_existing",
+      "atlasPersonId": "saining-xie-us",
+      "reason": "符合范围，且规范化姓名可与当前图谱人物唯一匹配。",
+      "evidence": "Assistant Professor of Computer Science | Tenure-Track Faculty | http://www.sainingxie.com/"
+    },
+    {
+      "officialId": "sam-westrick",
+      "rosterName": "Sam Westrick",
+      "title": "Assistant Professor of Computer Science",
+      "profileUrl": "http://samwestrick.com",
+      "portraitUrl": "https://cs.nyu.edu/media/faculty_photos/westrick-headshot-2024-250x250.jpg",
+      "officialSections": [
+        "Tenure-Track Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://cs.nyu.edu/dynamic/people/faculty/",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Assistant Professor of Computer Science | Tenure-Track Faculty | http://samwestrick.com",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "samuel-bowman",
+      "rosterName": "Samuel Bowman",
+      "title": "Associate Professor of Computer Science and Data Science",
+      "profileUrl": "https://sleepinyourhat.github.io/",
+      "portraitUrl": "https://cs.nyu.edu/media/faculty_photos/Bowman_Samuel_250x250.jpg",
+      "officialSections": [
+        "Tenure-Track Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://cs.nyu.edu/dynamic/people/faculty/",
+      "decision": "included_existing",
+      "atlasPersonId": "samuel-bowman-us",
+      "reason": "符合范围，且规范化姓名可与当前图谱人物唯一匹配。",
+      "evidence": "Associate Professor of Computer Science and Data Science | Tenure-Track Faculty | https://sleepinyourhat.github.io/"
+    },
+    {
+      "officialId": "sandra-siby",
+      "rosterName": "Sandra Siby",
+      "title": "Global Network Assistant Professor of Computer Science and Engineering",
+      "profileUrl": "",
+      "portraitUrl": "https://cs.nyu.edu/media/faculty_photos/siby-sandra-sds8646-cropped.jpg",
+      "officialSections": [
+        "Associated/Affiliated Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://cs.nyu.edu/dynamic/people/faculty/",
+      "decision": "excluded_non_pi",
+      "reason": "官方职称或名录分组属于教学、兼职、附属、科研支持或其他非独立 PI 岗位。",
+      "evidence": "Global Network Assistant Professor of Computer Science and Engineering | Associated/Affiliated Faculty"
+    },
+    {
+      "officialId": "sanjeev-khanna",
+      "rosterName": "Sanjeev Khanna",
+      "title": "Silver Professor of Computer Science",
+      "profileUrl": "https://sanjeevkhanna.org/",
+      "portraitUrl": "https://cs.nyu.edu/media/faculty_photos/Sanjeev_Profile_Photo.jpg",
+      "officialSections": [
+        "Tenure-Track Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://cs.nyu.edu/dynamic/people/faculty/",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Silver Professor of Computer Science | Tenure-Track Faculty | https://sanjeevkhanna.org/",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "semiha-ergan",
+      "rosterName": "Semiha Ergan",
+      "title": "Associate Department Chair, Civil and Urban Engineering",
+      "profileUrl": "https://bilab.engineering.nyu.edu",
+      "portraitUrl": "https://cs.nyu.edu/media/faculty_photos/Screenshot_2025-12-12_at_3.13.33PM.png",
+      "officialSections": [
+        "Associated/Affiliated Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://cs.nyu.edu/dynamic/people/faculty/",
+      "decision": "excluded_non_pi",
+      "reason": "官方职称或名录分组属于教学、兼职、附属、科研支持或其他非独立 PI 岗位。",
+      "evidence": "Associate Department Chair, Civil and Urban Engineering | Associated/Affiliated Faculty | https://bilab.engineering.nyu.edu"
+    },
+    {
+      "officialId": "shengjie-wang",
+      "rosterName": "Shengjie Wang",
+      "title": "Assistant Professor",
+      "profileUrl": "",
+      "portraitUrl": "https://cs.nyu.edu/media/faculty_photos/Screenshot_2025-12-12_at_4.01.20PM.png",
+      "officialSections": [
+        "Associated/Affiliated Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://cs.nyu.edu/dynamic/people/faculty/",
+      "decision": "excluded_non_pi",
+      "reason": "官方职称或名录分组属于教学、兼职、附属、科研支持或其他非独立 PI 岗位。",
+      "evidence": "Assistant Professor | Associated/Affiliated Faculty"
+    },
+    {
+      "officialId": "sherry-yang",
+      "rosterName": "Sherry Yang",
+      "title": "Assistant Professor of Computer Science",
+      "profileUrl": "https://sherryy.github.io/.",
+      "portraitUrl": "https://cs.nyu.edu/media/faculty_photos/sherry_1.jpeg",
+      "officialSections": [
+        "Tenure-Track Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://cs.nyu.edu/dynamic/people/faculty/",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Assistant Professor of Computer Science | Tenure-Track Faculty | https://sherryy.github.io/.",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "siddharth-garg",
+      "rosterName": "Siddharth Garg",
+      "title": "Professor of ECE at NYU Tandon",
+      "profileUrl": "",
+      "portraitUrl": "https://cs.nyu.edu/media/faculty_photos/Screenshot_2025-12-12_at_3.45.29PM.png",
+      "officialSections": [
+        "Associated/Affiliated Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://cs.nyu.edu/dynamic/people/faculty/",
+      "decision": "excluded_non_pi",
+      "reason": "官方职称或名录分组属于教学、兼职、附属、科研支持或其他非独立 PI 岗位。",
+      "evidence": "Professor of ECE at NYU Tandon | Associated/Affiliated Faculty"
+    },
+    {
+      "officialId": "subhash-khot",
+      "rosterName": "Subhash Khot",
+      "title": "Silver Professor of Computer Science",
+      "profileUrl": "http://cs.nyu.edu/~khot/",
+      "portraitUrl": "https://cs.nyu.edu/media/faculty_photos/Khot_250x250.jpg",
+      "officialSections": [
+        "Tenure-Track Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://cs.nyu.edu/dynamic/people/faculty/",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Silver Professor of Computer Science | Tenure-Track Faculty | http://cs.nyu.edu/~khot/",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "sumit-chopra",
+      "rosterName": "Sumit Chopra",
+      "title": "Associate Professor of Computer Science",
+      "profileUrl": "https://www.spchopra.net/",
+      "portraitUrl": "https://cs.nyu.edu/media/faculty_photos/Chopra.jpg",
+      "officialSections": [
+        "Tenure-Track Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://cs.nyu.edu/dynamic/people/faculty/",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Associate Professor of Computer Science | Tenure-Track Faculty | https://www.spchopra.net/",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "sunoo-park",
+      "rosterName": "Sunoo Park",
+      "title": "Assistant Professor of Computer Science",
+      "profileUrl": "https://sunoopark.com",
+      "portraitUrl": "https://cs.nyu.edu/media/faculty_photos/sunoo-cropped.jpg",
+      "officialSections": [
+        "Tenure-Track Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://cs.nyu.edu/dynamic/people/faculty/",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Assistant Professor of Computer Science | Tenure-Track Faculty | https://sunoopark.com",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "tamar-schlick",
+      "rosterName": "Tamar Schlick",
+      "title": "Professor of Chemistry, Mathematics and Computer Science",
+      "profileUrl": "https://as.nyu.edu/faculty/tamar-schlick.html",
+      "portraitUrl": "https://cs.nyu.edu/media/faculty_photos/Schlick_250x250.jpg",
+      "officialSections": [
+        "Associated/Affiliated Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://cs.nyu.edu/dynamic/people/faculty/",
+      "decision": "excluded_non_pi",
+      "reason": "官方职称或名录分组属于教学、兼职、附属、科研支持或其他非独立 PI 岗位。",
+      "evidence": "Professor of Chemistry, Mathematics and Computer Science | Associated/Affiliated Faculty | https://as.nyu.edu/faculty/tamar-schlick.html"
+    },
+    {
+      "officialId": "theodore-rappaport",
+      "rosterName": "Theodore Rappaport",
+      "title": "Professor of Electrical and Computer Engineering, Computer Science, and Radiology",
+      "profileUrl": "https://wireless.engineering.nyu.edu/tedrappaport/",
+      "portraitUrl": "https://cs.nyu.edu/media/faculty_photos/Rappaport_18-0078__0284_250x250.jpg",
+      "officialSections": [
+        "Tenure-Track Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://cs.nyu.edu/dynamic/people/faculty/",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Professor of Electrical and Computer Engineering, Computer Science, and Radiology | Tenure-Track Faculty | https://wireless.engineering.nyu.edu/tedrappaport/",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "thibault-dardinier",
+      "rosterName": "Thibault Dardinier",
+      "title": "Assistant Professor of Computer Science",
+      "profileUrl": "https://dardinier.me/",
+      "portraitUrl": "https://cs.nyu.edu/media/faculty_photos/picture_profile.jpeg",
+      "officialSections": [
+        "Tenure-Track Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://cs.nyu.edu/dynamic/people/faculty/",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Assistant Professor of Computer Science | Tenure-Track Faculty | https://dardinier.me/",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "thomas-wies",
+      "rosterName": "Thomas Wies",
+      "title": "Professor of Computer Science",
+      "profileUrl": "http://cs.nyu.edu/wies/",
+      "portraitUrl": "https://cs.nyu.edu/media/faculty_photos/Wies_16-0015_0573_250x250.jpg",
+      "officialSections": [
+        "Tenure-Track Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://cs.nyu.edu/dynamic/people/faculty/",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Professor of Computer Science | Tenure-Track Faculty | http://cs.nyu.edu/wies/",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "tony-metger",
+      "rosterName": "Tony Metger",
+      "title": "Assistant Professor of Computer Science and Physics",
+      "profileUrl": "https://tonymetger.com/",
+      "portraitUrl": "https://cs.nyu.edu/media/faculty_photos/Tony_Metger_poster_v1.jpg",
+      "officialSections": [
+        "Tenure-Track Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://cs.nyu.edu/dynamic/people/faculty/",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Assistant Professor of Computer Science and Physics | Tenure-Track Faculty | https://tonymetger.com/",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "torsten-suel",
+      "rosterName": "Torsten Suel",
+      "title": "Professor of Computer Science and Engineering",
+      "profileUrl": "https://engineering.nyu.edu/faculty/torsten-suel",
+      "portraitUrl": "https://cs.nyu.edu/media/faculty_photos/torsten_suel.jpg",
+      "officialSections": [
+        "Tenure-Track Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://cs.nyu.edu/dynamic/people/faculty/",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Professor of Computer Science and Engineering | Tenure-Track Faculty | https://engineering.nyu.edu/faculty/torsten-suel",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "yanjun-han",
+      "rosterName": "Yanjun Han",
+      "title": "Assistant Professor of Mathematics and Data Science",
+      "profileUrl": "https://yanjunhan2021.github.io/index.html",
+      "portraitUrl": "https://cs.nyu.edu/media/faculty_photos/yanjun-cropped.JPG",
+      "officialSections": [
+        "Associated/Affiliated Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://cs.nyu.edu/dynamic/people/faculty/",
+      "decision": "excluded_non_pi",
+      "reason": "官方职称或名录分组属于教学、兼职、附属、科研支持或其他非独立 PI 岗位。",
+      "evidence": "Assistant Professor of Mathematics and Data Science | Associated/Affiliated Faculty | https://yanjunhan2021.github.io/index.html"
+    },
+    {
+      "officialId": "yann-lecun",
+      "rosterName": "Yann LeCun",
+      "title": "Jacob T. Schwartz Chaired Professor in Computer Science",
+      "profileUrl": "http://yann.lecun.com",
+      "portraitUrl": "https://cs.nyu.edu/media/faculty_photos/Lecun_16-0015_0310_250x250.jpg",
+      "officialSections": [
+        "Tenure-Track Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://cs.nyu.edu/dynamic/people/faculty/",
+      "decision": "included_existing",
+      "atlasPersonId": "yann-lecun-us",
+      "reason": "符合范围，且规范化姓名可与当前图谱人物唯一匹配。",
+      "evidence": "Jacob T. Schwartz Chaired Professor in Computer Science | Tenure-Track Faculty | http://yann.lecun.com"
+    },
+    {
+      "officialId": "yevgeniy-dodis",
+      "rosterName": "Yevgeniy Dodis",
+      "title": "Professor of Computer Science",
+      "profileUrl": "http://cs.nyu.edu/~dodis/",
+      "portraitUrl": "https://cs.nyu.edu/media/faculty_photos/Dodis_16-0015_1192_250x250.jpg",
+      "officialSections": [
+        "Tenure-Track Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://cs.nyu.edu/dynamic/people/faculty/",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Professor of Computer Science | Tenure-Track Faculty | http://cs.nyu.edu/~dodis/",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "yi-jen-chiang",
+      "rosterName": "Yi-Jen Chiang",
+      "title": "Associate Professor of Computer Science and Engineering",
+      "profileUrl": "https://engineering.nyu.edu/faculty/yi-jen-chiang",
+      "portraitUrl": "https://cs.nyu.edu/media/faculty_photos/yijen_chiang.jpg",
+      "officialSections": [
+        "Tenure-Track Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://cs.nyu.edu/dynamic/people/faculty/",
+      "decision": "include_new_pi",
+      "reason": "官方名录确认现任独立 faculty/PI，且院系或研究字段属于本轮 AI/CS 范围；当前图谱无规范化姓名匹配。",
+      "evidence": "Associate Professor of Computer Science and Engineering | Tenure-Track Faculty | https://engineering.nyu.edu/faculty/yi-jen-chiang",
+      "enrichmentStatus": "queued_for_profile_portrait_lineage"
+    },
+    {
+      "officialId": "zhengyuan-zhou",
+      "rosterName": "Zhengyuan Zhou",
+      "title": "Assistant Professor",
+      "profileUrl": "",
+      "portraitUrl": "https://cs.nyu.edu/media/faculty_photos/Screenshot_2025-12-12_at_4.25.33PM.png",
+      "officialSections": [
+        "Associated/Affiliated Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://cs.nyu.edu/dynamic/people/faculty/",
+      "decision": "excluded_non_pi",
+      "reason": "官方职称或名录分组属于教学、兼职、附属、科研支持或其他非独立 PI 岗位。",
+      "evidence": "Assistant Professor | Associated/Affiliated Faculty"
+    },
+    {
+      "officialId": "zhong-ping-jiang",
+      "rosterName": "Zhong-Ping Jiang",
+      "title": "Institute Professor",
+      "profileUrl": "https://engineering.nyu.edu/faculty/zhong-ping-jiang",
+      "portraitUrl": "https://cs.nyu.edu/media/faculty_photos/zhongping_jiang.jpg",
+      "officialSections": [
+        "Associated/Affiliated Faculty"
+      ],
+      "researchFields": [],
+      "unitUrl": "https://cs.nyu.edu/dynamic/people/faculty/",
+      "decision": "excluded_non_pi",
+      "reason": "官方职称或名录分组属于教学、兼职、附属、科研支持或其他非独立 PI 岗位。",
+      "evidence": "Institute Professor | Associated/Affiliated Faculty | https://engineering.nyu.edu/faculty/zhong-ping-jiang"
+    }
+  ]
+}

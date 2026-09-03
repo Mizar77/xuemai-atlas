@@ -93,7 +93,7 @@ button:focus-visible, a:focus-visible, input:focus-visible, select:focus-visible
 .region-switch button.active { background: var(--ink); color: white; box-shadow: 0 3px 9px rgba(16,32,56,.16); }
 .region-switch button.active small { color: var(--lime); }
 .section-index { font: 700 11px var(--font-space), sans-serif; text-transform: uppercase; letter-spacing: .14em; color: var(--cobalt); }
-.hero-summary { min-width: 0; display: grid; grid-template-columns: repeat(3, minmax(90px, 1fr)); justify-self: stretch; }
+.hero-summary { min-width: 0; display: grid; grid-template-columns: repeat(4, minmax(90px, 1fr)); justify-self: stretch; }
 .hero-summary div { min-width: 0; padding: 2px 18px; border-left: 1px solid var(--line); }
 .hero-summary strong, .hero-summary span { display: block; }
 .hero-summary strong { font: 700 23px var(--font-space), sans-serif; letter-spacing: -.04em; }
@@ -181,6 +181,8 @@ button:focus-visible, a:focus-visible, input:focus-visible, select:focus-visible
 .dot-talent { background: var(--violet); }
 
 .atlas-content { display: grid; grid-template-columns: minmax(0, 1fr) 360px; min-height: 690px; }
+.atlas-loading { min-height: 690px; display: flex; align-items: center; justify-content: center; gap: 10px; color: #667085; font-size: 12px; }
+.atlas-loading span { width: 9px; height: 9px; border-radius: 50%; background: var(--cobalt); box-shadow: 0 0 0 7px rgba(85,103,232,.1); }
 .atlas-content-people { align-items: start; min-height: 0; }
 .atlas-content-people .people-directory { width: 100%; box-sizing: border-box; align-self: start; }
 .atlas-content-people .inspector { max-height: 800px; align-self: start; }
@@ -468,6 +470,40 @@ button:focus-visible, a:focus-visible, input:focus-visible, select:focus-visible
 .scope-notes article { padding: 20px; background: rgba(255,255,255,.65); border: 1px solid #d1d8cc; }
 .scope-notes strong { font-size: 12px; }
 .scope-notes p { margin: 7px 0 0; color: #687687; font-size: 10px; line-height: 1.65; }
+.top-school-audit { max-width: 1380px; margin: 28px auto 0; border: 1px solid #cfd8e6; border-radius: 24px; background: rgba(255,255,255,.82); overflow: hidden; box-shadow: 0 14px 40px rgba(19,35,60,.06); }
+.top-school-audit summary { cursor: pointer; list-style: none; display: flex; align-items: center; justify-content: space-between; gap: 24px; padding: 22px 26px; background: #132036; color: white; }
+.top-school-audit summary::-webkit-details-marker { display: none; }
+.top-school-audit summary span { display: grid; gap: 5px; }
+.top-school-audit summary small { color: #75e0c4; font-size: 11px; letter-spacing: .14em; font-weight: 800; }
+.top-school-audit summary strong { font-size: clamp(18px,2vw,26px); }
+.top-school-audit summary b { color: #b8c6d9; font-size: 13px; font-weight: 650; }
+.top-school-method { margin: 0; padding: 20px 26px; color: #536176; font-size: 14px; line-height: 1.75; border-bottom: 1px solid #dfe5ee; }
+.top-school-grid { display: grid; grid-template-columns: repeat(2,minmax(0,1fr)); }
+.top-school-grid article { min-width: 0; display: grid; grid-template-columns: 42px 1fr; gap: 12px; padding: 18px 22px; border-bottom: 1px solid #e3e8ef; }
+.top-school-grid article:nth-child(odd) { border-right: 1px solid #e3e8ef; }
+.top-school-rank { width: 36px; height: 36px; display: grid; place-items: center; border-radius: 50%; background: #eef3ff; color: #3d63df; font: 800 12px/1 var(--font-mono,monospace); }
+.top-school-grid article div { min-width: 0; display: grid; gap: 5px; }
+.top-school-grid article strong { color: #132036; font-size: 15px; }
+.top-school-grid article small { color: #7a8798; font-size: 11px; line-height: 1.5; }
+.top-school-grid article p { margin: 2px 0 0; color: #526176; font-size: 12px; line-height: 1.55; }
+.top-school-grid article a { color: #275ee6; text-decoration: none; }
+.top-school-grid article a:hover { text-decoration: underline; }
+.roster-ledger-units { display: grid; gap: 8px; margin-top: 6px; }
+.top-school-grid article .roster-ledger-unit { display: grid; grid-template-columns: 1fr; gap: 6px; padding: 10px 12px; border: 1px solid #dfe5ee; border-radius: 12px; background: #f8faff; }
+.top-school-grid article .roster-ledger-unit.complete { border-color: #9fd8c7; background: #f1fbf7; }
+.top-school-grid article .roster-ledger-unit.in_progress { border-color: #b8c9ff; background: #f4f7ff; }
+.roster-ledger-unit > a { width: fit-content; font-size: 12px; font-weight: 750; }
+.top-school-grid article .roster-ledger-unit > p { display: flex; flex-wrap: wrap; gap: 5px; margin: 0; }
+.roster-ledger-unit > p span { padding: 4px 7px; border-radius: 999px; background: #e9eef7; color: #506077; font: 700 9px/1.2 var(--font-space), sans-serif; }
+.roster-ledger-unit ul { display: flex; flex-wrap: wrap; gap: 5px; margin: 0; padding: 0; list-style: none; }
+.roster-ledger-unit li { display: inline-flex; align-items: center; gap: 5px; padding: 4px 7px; border-radius: 8px; background: white; border: 1px solid #e2e7ef; font-size: 9px; }
+.roster-ledger-unit li a { font-weight: 750; }
+.roster-ledger-unit li span { color: #17866e; }
+.roster-exclusion-summary { color: #9c552d !important; }
+.top-school-audit footer { display: grid; grid-template-columns: repeat(2,minmax(0,1fr)); gap: 12px; padding: 18px 22px 22px; background: #f5f7fb; }
+.top-school-audit footer a { display: grid; gap: 5px; padding: 14px; border: 1px solid #dbe2ec; border-radius: 14px; background: white; color: #132036; text-decoration: none; }
+.top-school-audit footer strong { font-size: 13px; }
+.top-school-audit footer span { color: #68778b; font-size: 11px; line-height: 1.5; }
 .award-audit-summary { grid-template-columns: repeat(5, minmax(0, 1fr)); margin-bottom: 28px; }
 .award-audit-summary article { border-top: 3px solid var(--teal); background: rgba(255,255,255,.88); }
 .award-audit-summary a { color: var(--cobalt); font-weight: 800; text-decoration: none; white-space: nowrap; }
@@ -829,7 +865,7 @@ body { background: var(--paper); }
 
 .hero { padding: 24px 24px 56px; }
 .hero-stage {
-  position: relative; min-height: 620px; display: block;
+  position: relative; min-height: 560px; display: block;
   border: 1px solid rgba(255,255,255,.1); border-radius: 30px;
   background:
     radial-gradient(circle at 82% 20%, rgba(85,103,232,.4), transparent 32%),
@@ -837,7 +873,7 @@ body { background: var(--paper); }
     linear-gradient(135deg,#0a1120 0%,#111b31 58%,#182441 100%);
   box-shadow: 0 30px 80px rgba(15,23,42,.18);
 }
-.hero-copy { width: 58%; min-height: 620px; padding: clamp(52px,6vw,92px); background: transparent; color: white; }
+.hero-copy { width: 58%; min-height: 560px; padding: clamp(48px,5vw,78px); background: transparent; color: white; }
 .hero-copy::after { width: 240px; height: 240px; background: rgba(118,230,197,.13); filter: blur(8px); }
 .hero-eyebrow { margin-bottom: 24px; color: var(--lime); }
 .hero-copy h1 { max-width: 750px; font-size: clamp(44px,4.35vw,68px); line-height: 1.01; letter-spacing: -.062em; }
@@ -875,7 +911,7 @@ body { background: var(--paper); }
 .task-entry > button:hover { border-color: #cad3e2; transform: translateY(-3px); box-shadow: 0 16px 34px rgba(15,23,42,.08); }
 .atlas-glossary { border-radius: 12px; background: rgba(255,255,255,.7); }
 
-.atlas-section { padding-top: 52px; background: #f8fafc; }
+.atlas-section { padding-top: 36px; background: #f8fafc; }
 .section-index { color: var(--cobalt); letter-spacing: .16em; }
 .section-heading h2 { color: #0f172a; letter-spacing: -.06em; }
 .view-switch { padding: 5px; border: 0; border-radius: 12px; background: #e9edf4; }
@@ -1123,6 +1159,9 @@ body { background: var(--paper); }
 .obsidian-graph .self-relation-badge { border-color: white; box-shadow: 0 3px 10px rgba(35,50,79,.22), 0 0 9px currentColor; }
 
 @media (max-width: 760px) {
+  .top-school-audit summary { align-items: flex-start; flex-direction: column; }
+  .top-school-grid, .top-school-audit footer { grid-template-columns: 1fr; }
+  .top-school-grid article:nth-child(odd) { border-right: 0; }
   .community-card { min-height: 0; }
   .community-branches { grid-template-columns: 1fr; }
   .community-legend { align-items: flex-start; flex-wrap: wrap; }

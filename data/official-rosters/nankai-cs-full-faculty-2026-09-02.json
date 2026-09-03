@@ -1,0 +1,805 @@
+{
+  "completeness": "complete",
+  "fetchedAt": "2026-09-02",
+  "institution": "南开大学计算机学院 / 网络空间安全学院",
+  "officialPageUrl": "https://cc.nankai.edu.cn/szdw/list.htm",
+  "officialDataUrl": "https://cc.nankai.edu.cn/jswyjy/list.htm",
+  "officialDataUrls": [
+    "https://cc.nankai.edu.cn/jswyjy/list.htm",
+    "https://cc.nankai.edu.cn/fjswfyjy/list.htm",
+    "https://cc.nankai.edu.cn/js/list.htm"
+  ],
+  "officialRosterCount": 98,
+  "sourceDescription": "The obsolete combined /szdw/list.htm URL was replaced with the current official faculty navigation. All three current academic-faculty category pages were frozen: professor/researcher, associate professor/associate researcher, and lecturer. Experimental teaching staff, postdoctoral researchers, adjunct and retired personnel are separate directories and are not included.",
+  "categoryCounts": {
+    "教授/研究员": 46,
+    "副教授/副研究员": 42,
+    "讲师": 10
+  },
+  "people": [
+    {
+      "officialId": "https://cc.nankai.edu.cn/2021/0323/c13619a569225/page.htm",
+      "name": "陈森",
+      "title": "教授",
+      "section": "教授/研究员",
+      "profileUrl": "https://cc.nankai.edu.cn/2021/0323/c13619a569225/page.htm",
+      "sourcePageUrl": "https://cc.nankai.edu.cn/jswyjy/list.htm"
+    },
+    {
+      "officialId": "https://cc.nankai.edu.cn/2021/0323/c13619a548889/page.htm",
+      "name": "程明明",
+      "title": "教授",
+      "section": "教授/研究员",
+      "profileUrl": "https://cc.nankai.edu.cn/2021/0323/c13619a548889/page.htm",
+      "sourcePageUrl": "https://cc.nankai.edu.cn/jswyjy/list.htm"
+    },
+    {
+      "officialId": "https://cc.nankai.edu.cn/2021/0323/c13619a548888/page.htm",
+      "name": "程仁洪",
+      "title": "教授",
+      "section": "教授/研究员",
+      "profileUrl": "https://cc.nankai.edu.cn/2021/0323/c13619a548888/page.htm",
+      "sourcePageUrl": "https://cc.nankai.edu.cn/jswyjy/list.htm"
+    },
+    {
+      "officialId": "https://cc.nankai.edu.cn/2021/0323/c13619a569770/page.htm",
+      "name": "丁丹",
+      "title": "教授",
+      "section": "教授/研究员",
+      "profileUrl": "https://cc.nankai.edu.cn/2021/0323/c13619a569770/page.htm",
+      "sourcePageUrl": "https://cc.nankai.edu.cn/jswyjy/list.htm"
+    },
+    {
+      "officialId": "https://cc.nankai.edu.cn/2021/0323/c13619a548887/page.htm",
+      "name": "范登平",
+      "title": "教授",
+      "section": "教授/研究员",
+      "profileUrl": "https://cc.nankai.edu.cn/2021/0323/c13619a548887/page.htm",
+      "sourcePageUrl": "https://cc.nankai.edu.cn/jswyjy/list.htm"
+    },
+    {
+      "officialId": "https://cc.nankai.edu.cn/2021/0323/c13619a548886/page.htm",
+      "name": "宫晓利",
+      "title": "教授",
+      "section": "教授/研究员",
+      "profileUrl": "https://cc.nankai.edu.cn/2021/0323/c13619a548886/page.htm",
+      "sourcePageUrl": "https://cc.nankai.edu.cn/jswyjy/list.htm"
+    },
+    {
+      "officialId": "https://cc.nankai.edu.cn/2021/0323/c13619a577808/page.htm",
+      "name": "郭青",
+      "title": "教授",
+      "section": "教授/研究员",
+      "profileUrl": "https://cc.nankai.edu.cn/2021/0323/c13619a577808/page.htm",
+      "sourcePageUrl": "https://cc.nankai.edu.cn/jswyjy/list.htm"
+    },
+    {
+      "officialId": "https://cc.nankai.edu.cn/2021/0323/c13619a548885/page.htm",
+      "name": "贾春福",
+      "title": "教授",
+      "section": "教授/研究员",
+      "profileUrl": "https://cc.nankai.edu.cn/2021/0323/c13619a548885/page.htm",
+      "sourcePageUrl": "https://cc.nankai.edu.cn/jswyjy/list.htm"
+    },
+    {
+      "officialId": "https://cc.nankai.edu.cn/2021/0323/c13619a548884/page.htm",
+      "name": "李起成",
+      "title": "教授",
+      "section": "教授/研究员",
+      "profileUrl": "https://cc.nankai.edu.cn/2021/0323/c13619a548884/page.htm",
+      "sourcePageUrl": "https://cc.nankai.edu.cn/jswyjy/list.htm"
+    },
+    {
+      "officialId": "https://cc.nankai.edu.cn/2021/0323/c13619a548883/page.htm",
+      "name": "李庆诚",
+      "title": "教授",
+      "section": "教授/研究员",
+      "profileUrl": "https://cc.nankai.edu.cn/2021/0323/c13619a548883/page.htm",
+      "sourcePageUrl": "https://cc.nankai.edu.cn/jswyjy/list.htm"
+    },
+    {
+      "officialId": "https://cc.nankai.edu.cn/2021/0323/c13619a548882/page.htm",
+      "name": "李涛",
+      "title": "教授",
+      "section": "教授/研究员",
+      "profileUrl": "https://cc.nankai.edu.cn/2021/0323/c13619a548882/page.htm",
+      "sourcePageUrl": "https://cc.nankai.edu.cn/jswyjy/list.htm"
+    },
+    {
+      "officialId": "https://cc.nankai.edu.cn/2021/0323/c13619a548881/page.htm",
+      "name": "李雨森",
+      "title": "教授",
+      "section": "教授/研究员",
+      "profileUrl": "https://cc.nankai.edu.cn/2021/0323/c13619a548881/page.htm",
+      "sourcePageUrl": "https://cc.nankai.edu.cn/jswyjy/list.htm"
+    },
+    {
+      "officialId": "https://cc.nankai.edu.cn/2021/0323/c13619a548880/page.htm",
+      "name": "李重仪",
+      "title": "教授",
+      "section": "教授/研究员",
+      "profileUrl": "https://cc.nankai.edu.cn/2021/0323/c13619a548880/page.htm",
+      "sourcePageUrl": "https://cc.nankai.edu.cn/jswyjy/list.htm"
+    },
+    {
+      "officialId": "https://cc.nankai.edu.cn/2021/0323/c13619a592257/page.htm",
+      "name": "刘承威",
+      "title": "教授",
+      "section": "教授/研究员",
+      "profileUrl": "https://cc.nankai.edu.cn/2021/0323/c13619a592257/page.htm",
+      "sourcePageUrl": "https://cc.nankai.edu.cn/jswyjy/list.htm"
+    },
+    {
+      "officialId": "https://cc.nankai.edu.cn/2021/0323/c13619a548879/page.htm",
+      "name": "刘健",
+      "title": "教授",
+      "section": "教授/研究员",
+      "profileUrl": "https://cc.nankai.edu.cn/2021/0323/c13619a548879/page.htm",
+      "sourcePageUrl": "https://cc.nankai.edu.cn/jswyjy/list.htm"
+    },
+    {
+      "officialId": "https://cc.nankai.edu.cn/2021/0323/c13619a599894/page.htm",
+      "name": "刘夏雷",
+      "title": "教授",
+      "section": "教授/研究员",
+      "profileUrl": "https://cc.nankai.edu.cn/2021/0323/c13619a599894/page.htm",
+      "sourcePageUrl": "https://cc.nankai.edu.cn/jswyjy/list.htm"
+    },
+    {
+      "officialId": "https://cc.nankai.edu.cn/2021/0323/c13619a548878/page.htm",
+      "name": "刘晓光",
+      "title": "教授",
+      "section": "教授/研究员",
+      "profileUrl": "https://cc.nankai.edu.cn/2021/0323/c13619a548878/page.htm",
+      "sourcePageUrl": "https://cc.nankai.edu.cn/jswyjy/list.htm"
+    },
+    {
+      "officialId": "https://cc.nankai.edu.cn/2021/0323/c13619a572841/page.htm",
+      "name": "刘云",
+      "title": "教授",
+      "section": "教授/研究员",
+      "profileUrl": "https://cc.nankai.edu.cn/2021/0323/c13619a572841/page.htm",
+      "sourcePageUrl": "https://cc.nankai.edu.cn/jswyjy/list.htm"
+    },
+    {
+      "officialId": "https://cc.nankai.edu.cn/2021/0323/c13619a548877/page.htm",
+      "name": "刘哲理",
+      "title": "教授",
+      "section": "教授/研究员",
+      "profileUrl": "https://cc.nankai.edu.cn/2021/0323/c13619a548877/page.htm",
+      "sourcePageUrl": "https://cc.nankai.edu.cn/jswyjy/list.htm"
+    },
+    {
+      "officialId": "https://cc.nankai.edu.cn/2021/0323/c13619a572673/page.htm",
+      "name": "卢冶",
+      "title": "教授",
+      "section": "教授/研究员",
+      "profileUrl": "https://cc.nankai.edu.cn/2021/0323/c13619a572673/page.htm",
+      "sourcePageUrl": "https://cc.nankai.edu.cn/jswyjy/list.htm"
+    },
+    {
+      "officialId": "https://cc.nankai.edu.cn/2021/0323/c13619a572935/page.htm",
+      "name": "宁博",
+      "title": "教授",
+      "section": "教授/研究员",
+      "profileUrl": "https://cc.nankai.edu.cn/2021/0323/c13619a572935/page.htm",
+      "sourcePageUrl": "https://cc.nankai.edu.cn/jswyjy/list.htm"
+    },
+    {
+      "officialId": "https://cc.nankai.edu.cn/2021/0323/c13619a551346/page.htm",
+      "name": "温延龙",
+      "title": "教授",
+      "section": "教授/研究员",
+      "profileUrl": "https://cc.nankai.edu.cn/2021/0323/c13619a551346/page.htm",
+      "sourcePageUrl": "https://cc.nankai.edu.cn/jswyjy/list.htm"
+    },
+    {
+      "officialId": "https://cc.nankai.edu.cn/2021/0323/c13619a548876/page.htm",
+      "name": "秦勇",
+      "title": "教授",
+      "section": "教授/研究员",
+      "profileUrl": "https://cc.nankai.edu.cn/2021/0323/c13619a548876/page.htm",
+      "sourcePageUrl": "https://cc.nankai.edu.cn/jswyjy/list.htm"
+    },
+    {
+      "officialId": "https://cc.nankai.edu.cn/2021/0323/c13619a572934/page.htm",
+      "name": "任博",
+      "title": "教授",
+      "section": "教授/研究员",
+      "profileUrl": "https://cc.nankai.edu.cn/2021/0323/c13619a572934/page.htm",
+      "sourcePageUrl": "https://cc.nankai.edu.cn/jswyjy/list.htm"
+    },
+    {
+      "officialId": "https://cc.nankai.edu.cn/2021/0323/c13619a548875/page.htm",
+      "name": "邵秀丽",
+      "title": "教授",
+      "section": "教授/研究员",
+      "profileUrl": "https://cc.nankai.edu.cn/2021/0323/c13619a548875/page.htm",
+      "sourcePageUrl": "https://cc.nankai.edu.cn/jswyjy/list.htm"
+    },
+    {
+      "officialId": "https://cc.nankai.edu.cn/2021/0323/c13619a548874/page.htm",
+      "name": "沈玮",
+      "title": "教授",
+      "section": "教授/研究员",
+      "profileUrl": "https://cc.nankai.edu.cn/2021/0323/c13619a548874/page.htm",
+      "sourcePageUrl": "https://cc.nankai.edu.cn/jswyjy/list.htm"
+    },
+    {
+      "officialId": "https://cc.nankai.edu.cn/2021/0323/c13619a572933/page.htm",
+      "name": "孙国磊",
+      "title": "教授",
+      "section": "教授/研究员",
+      "profileUrl": "https://cc.nankai.edu.cn/2021/0323/c13619a572933/page.htm",
+      "sourcePageUrl": "https://cc.nankai.edu.cn/jswyjy/list.htm"
+    },
+    {
+      "officialId": "https://cc.nankai.edu.cn/2021/0323/c13619a548873/page.htm",
+      "name": "汪定",
+      "title": "教授",
+      "section": "教授/研究员",
+      "profileUrl": "https://cc.nankai.edu.cn/2021/0323/c13619a548873/page.htm",
+      "sourcePageUrl": "https://cc.nankai.edu.cn/jswyjy/list.htm"
+    },
+    {
+      "officialId": "https://cc.nankai.edu.cn/2021/0323/c13619a548871/page.htm",
+      "name": "王刚（计）",
+      "title": "教授",
+      "section": "教授/研究员",
+      "profileUrl": "https://cc.nankai.edu.cn/2021/0323/c13619a548871/page.htm",
+      "sourcePageUrl": "https://cc.nankai.edu.cn/jswyjy/list.htm"
+    },
+    {
+      "officialId": "https://cc.nankai.edu.cn/2021/0323/c13619a559015/page.htm",
+      "name": "王金伟",
+      "title": "教授",
+      "section": "教授/研究员",
+      "profileUrl": "https://cc.nankai.edu.cn/2021/0323/c13619a559015/page.htm",
+      "sourcePageUrl": "https://cc.nankai.edu.cn/jswyjy/list.htm"
+    },
+    {
+      "officialId": "https://cc.nankai.edu.cn/2021/0323/c13619a548870/page.htm",
+      "name": "王恺",
+      "title": "教授",
+      "section": "教授/研究员",
+      "profileUrl": "https://cc.nankai.edu.cn/2021/0323/c13619a548870/page.htm",
+      "sourcePageUrl": "https://cc.nankai.edu.cn/jswyjy/list.htm"
+    },
+    {
+      "officialId": "https://cc.nankai.edu.cn/2021/0323/c13619a599867/page.htm",
+      "name": "王志",
+      "title": "教授",
+      "section": "教授/研究员",
+      "profileUrl": "https://cc.nankai.edu.cn/2021/0323/c13619a599867/page.htm",
+      "sourcePageUrl": "https://cc.nankai.edu.cn/jswyjy/list.htm"
+    },
+    {
+      "officialId": "https://cc.nankai.edu.cn/2021/0323/c13619a548869/page.htm",
+      "name": "卫金茂",
+      "title": "教授",
+      "section": "教授/研究员",
+      "profileUrl": "https://cc.nankai.edu.cn/2021/0323/c13619a548869/page.htm",
+      "sourcePageUrl": "https://cc.nankai.edu.cn/jswyjy/list.htm"
+    },
+    {
+      "officialId": "https://cc.nankai.edu.cn/2021/0323/c13619a548866/page.htm",
+      "name": "徐敬东",
+      "title": "教授",
+      "section": "教授/研究员",
+      "profileUrl": "https://cc.nankai.edu.cn/2021/0323/c13619a548866/page.htm",
+      "sourcePageUrl": "https://cc.nankai.edu.cn/jswyjy/list.htm"
+    },
+    {
+      "officialId": "https://cc.nankai.edu.cn/2021/0323/c13619a548864/page.htm",
+      "name": "杨巨峰",
+      "title": "教授",
+      "section": "教授/研究员",
+      "profileUrl": "https://cc.nankai.edu.cn/2021/0323/c13619a548864/page.htm",
+      "sourcePageUrl": "https://cc.nankai.edu.cn/jswyjy/list.htm"
+    },
+    {
+      "officialId": "https://cc.nankai.edu.cn/2021/0323/c13619a548863/page.htm",
+      "name": "杨愚鲁",
+      "title": "教授",
+      "section": "教授/研究员",
+      "profileUrl": "https://cc.nankai.edu.cn/2021/0323/c13619a548863/page.htm",
+      "sourcePageUrl": "https://cc.nankai.edu.cn/jswyjy/list.htm"
+    },
+    {
+      "officialId": "https://cc.nankai.edu.cn/2021/0323/c13619a548862/page.htm",
+      "name": "杨征路",
+      "title": "教授",
+      "section": "教授/研究员",
+      "profileUrl": "https://cc.nankai.edu.cn/2021/0323/c13619a548862/page.htm",
+      "sourcePageUrl": "https://cc.nankai.edu.cn/jswyjy/list.htm"
+    },
+    {
+      "officialId": "https://cc.nankai.edu.cn/2021/0323/c13619a548861/page.htm",
+      "name": "袁晓洁",
+      "title": "教授",
+      "section": "教授/研究员",
+      "profileUrl": "https://cc.nankai.edu.cn/2021/0323/c13619a548861/page.htm",
+      "sourcePageUrl": "https://cc.nankai.edu.cn/jswyjy/list.htm"
+    },
+    {
+      "officialId": "https://cc.nankai.edu.cn/2021/0323/c13619a599893/page.htm",
+      "name": "张海威",
+      "title": "教授",
+      "section": "教授/研究员",
+      "profileUrl": "https://cc.nankai.edu.cn/2021/0323/c13619a599893/page.htm",
+      "sourcePageUrl": "https://cc.nankai.edu.cn/jswyjy/list.htm"
+    },
+    {
+      "officialId": "https://cc.nankai.edu.cn/2021/0323/c13619a548857/page.htm",
+      "name": "张文生",
+      "title": "讲座教授",
+      "section": "教授/研究员",
+      "profileUrl": "https://cc.nankai.edu.cn/2021/0323/c13619a548857/page.htm",
+      "sourcePageUrl": "https://cc.nankai.edu.cn/jswyjy/list.htm"
+    },
+    {
+      "officialId": "https://cc.nankai.edu.cn/2021/0323/c13619a548860/page.htm",
+      "name": "张建忠",
+      "title": "教授",
+      "section": "教授/研究员",
+      "profileUrl": "https://cc.nankai.edu.cn/2021/0323/c13619a548860/page.htm",
+      "sourcePageUrl": "https://cc.nankai.edu.cn/jswyjy/list.htm"
+    },
+    {
+      "officialId": "https://cc.nankai.edu.cn/2021/0323/c13619a548859/page.htm",
+      "name": "张健（男）",
+      "title": "教授",
+      "section": "教授/研究员",
+      "profileUrl": "https://cc.nankai.edu.cn/2021/0323/c13619a548859/page.htm",
+      "sourcePageUrl": "https://cc.nankai.edu.cn/jswyjy/list.htm"
+    },
+    {
+      "officialId": "https://cc.nankai.edu.cn/2021/0323/c13619a548858/page.htm",
+      "name": "张金",
+      "title": "教授",
+      "section": "教授/研究员",
+      "profileUrl": "https://cc.nankai.edu.cn/2021/0323/c13619a548858/page.htm",
+      "sourcePageUrl": "https://cc.nankai.edu.cn/jswyjy/list.htm"
+    },
+    {
+      "officialId": "https://cc.nankai.edu.cn/2021/0323/c13619a548856/page.htm",
+      "name": "张莹",
+      "title": "教授",
+      "section": "教授/研究员",
+      "profileUrl": "https://cc.nankai.edu.cn/2021/0323/c13619a548856/page.htm",
+      "sourcePageUrl": "https://cc.nankai.edu.cn/jswyjy/list.htm"
+    },
+    {
+      "officialId": "https://cc.nankai.edu.cn/2021/0323/c13619a548855/page.htm",
+      "name": "赵宏",
+      "title": "教授",
+      "section": "教授/研究员",
+      "profileUrl": "https://cc.nankai.edu.cn/2021/0323/c13619a548855/page.htm",
+      "sourcePageUrl": "https://cc.nankai.edu.cn/jswyjy/list.htm"
+    },
+    {
+      "officialId": "https://cc.nankai.edu.cn/2021/0323/c13619a548854/page.htm",
+      "name": "周宇",
+      "title": "教授",
+      "section": "教授/研究员",
+      "profileUrl": "https://cc.nankai.edu.cn/2021/0323/c13619a548854/page.htm",
+      "sourcePageUrl": "https://cc.nankai.edu.cn/jswyjy/list.htm"
+    },
+    {
+      "officialId": "https://cc.nankai.edu.cn/2021/0323/c13620a549998/page.htm",
+      "name": "蔡庆琼",
+      "title": "副教授",
+      "section": "副教授/副研究员",
+      "profileUrl": "https://cc.nankai.edu.cn/2021/0323/c13620a549998/page.htm",
+      "sourcePageUrl": "https://cc.nankai.edu.cn/fjswfyjy/list.htm"
+    },
+    {
+      "officialId": "https://cc.nankai.edu.cn/2021/0323/c13620a549997/page.htm",
+      "name": "蔡祥睿",
+      "title": "副教授",
+      "section": "副教授/副研究员",
+      "profileUrl": "https://cc.nankai.edu.cn/2021/0323/c13620a549997/page.htm",
+      "sourcePageUrl": "https://cc.nankai.edu.cn/fjswfyjy/list.htm"
+    },
+    {
+      "officialId": "https://cc.nankai.edu.cn/2021/0323/c13620a549996/page.htm",
+      "name": "陈晨",
+      "title": "副教授",
+      "section": "副教授/副研究员",
+      "profileUrl": "https://cc.nankai.edu.cn/2021/0323/c13620a549996/page.htm",
+      "sourcePageUrl": "https://cc.nankai.edu.cn/fjswfyjy/list.htm"
+    },
+    {
+      "officialId": "https://cc.nankai.edu.cn/2021/0323/c13620a574113/page.htm",
+      "name": "戴一冕",
+      "title": "副教授",
+      "section": "副教授/副研究员",
+      "profileUrl": "https://cc.nankai.edu.cn/2021/0323/c13620a574113/page.htm",
+      "sourcePageUrl": "https://cc.nankai.edu.cn/fjswfyjy/list.htm"
+    },
+    {
+      "officialId": "https://cc.nankai.edu.cn/2021/0323/c13620a599896/page.htm",
+      "name": "董晓东",
+      "title": "副教授",
+      "section": "副教授/副研究员",
+      "profileUrl": "https://cc.nankai.edu.cn/2021/0323/c13620a599896/page.htm",
+      "sourcePageUrl": "https://cc.nankai.edu.cn/fjswfyjy/list.htm"
+    },
+    {
+      "officialId": "https://cc.nankai.edu.cn/2021/0323/c13620a549994/page.htm",
+      "name": "范玲玲",
+      "title": "副教授",
+      "section": "副教授/副研究员",
+      "profileUrl": "https://cc.nankai.edu.cn/2021/0323/c13620a549994/page.htm",
+      "sourcePageUrl": "https://cc.nankai.edu.cn/fjswfyjy/list.htm"
+    },
+    {
+      "officialId": "https://cc.nankai.edu.cn/2021/0323/c13620a549993/page.htm",
+      "name": "高裴裴",
+      "title": "副教授",
+      "section": "副教授/副研究员",
+      "profileUrl": "https://cc.nankai.edu.cn/2021/0323/c13620a549993/page.htm",
+      "sourcePageUrl": "https://cc.nankai.edu.cn/fjswfyjy/list.htm"
+    },
+    {
+      "officialId": "https://cc.nankai.edu.cn/2021/0323/c13620a549992/page.htm",
+      "name": "高琪",
+      "title": "副教授",
+      "section": "副教授/副研究员",
+      "profileUrl": "https://cc.nankai.edu.cn/2021/0323/c13620a549992/page.htm",
+      "sourcePageUrl": "https://cc.nankai.edu.cn/fjswfyjy/list.htm"
+    },
+    {
+      "officialId": "https://cc.nankai.edu.cn/2021/0323/c13620a549991/page.htm",
+      "name": "郭春乐",
+      "title": "副教授",
+      "section": "副教授/副研究员",
+      "profileUrl": "https://cc.nankai.edu.cn/2021/0323/c13620a549991/page.htm",
+      "sourcePageUrl": "https://cc.nankai.edu.cn/fjswfyjy/list.htm"
+    },
+    {
+      "officialId": "https://cc.nankai.edu.cn/2021/0323/c13620a599895/page.htm",
+      "name": "郭文雅",
+      "title": "副教授",
+      "section": "副教授/副研究员",
+      "profileUrl": "https://cc.nankai.edu.cn/2021/0323/c13620a599895/page.htm",
+      "sourcePageUrl": "https://cc.nankai.edu.cn/fjswfyjy/list.htm"
+    },
+    {
+      "officialId": "https://cc.nankai.edu.cn/2021/0323/c13620a549989/page.htm",
+      "name": "过辰楷",
+      "title": "副教授",
+      "section": "副教授/副研究员",
+      "profileUrl": "https://cc.nankai.edu.cn/2021/0323/c13620a549989/page.htm",
+      "sourcePageUrl": "https://cc.nankai.edu.cn/fjswfyjy/list.htm"
+    },
+    {
+      "officialId": "https://cc.nankai.edu.cn/2021/0323/c13620a549988/page.htm",
+      "name": "侯淇彬",
+      "title": "副教授",
+      "section": "副教授/副研究员",
+      "profileUrl": "https://cc.nankai.edu.cn/2021/0323/c13620a549988/page.htm",
+      "sourcePageUrl": "https://cc.nankai.edu.cn/fjswfyjy/list.htm"
+    },
+    {
+      "officialId": "https://cc.nankai.edu.cn/2021/0323/c13620a549986/page.htm",
+      "name": "贾岩",
+      "title": "副教授",
+      "section": "副教授/副研究员",
+      "profileUrl": "https://cc.nankai.edu.cn/2021/0323/c13620a549986/page.htm",
+      "sourcePageUrl": "https://cc.nankai.edu.cn/fjswfyjy/list.htm"
+    },
+    {
+      "officialId": "https://cc.nankai.edu.cn/2021/0323/c13620a588912/page.htm",
+      "name": "姜智卓",
+      "title": "副教授",
+      "section": "副教授/副研究员",
+      "profileUrl": "https://cc.nankai.edu.cn/2021/0323/c13620a588912/page.htm",
+      "sourcePageUrl": "https://cc.nankai.edu.cn/fjswfyjy/list.htm"
+    },
+    {
+      "officialId": "http://cc-backend.nankai.edu.cn/teachers/introduce/kangh",
+      "name": "康宏",
+      "title": "副教授",
+      "section": "副教授/副研究员",
+      "profileUrl": "http://cc-backend.nankai.edu.cn/teachers/introduce/kangh",
+      "sourcePageUrl": "https://cc.nankai.edu.cn/fjswfyjy/list.htm"
+    },
+    {
+      "officialId": "https://cc.nankai.edu.cn/2021/0323/c13620a549984/page.htm",
+      "name": "李朝晖",
+      "title": "副教授",
+      "section": "副教授/副研究员",
+      "profileUrl": "https://cc.nankai.edu.cn/2021/0323/c13620a549984/page.htm",
+      "sourcePageUrl": "https://cc.nankai.edu.cn/fjswfyjy/list.htm"
+    },
+    {
+      "officialId": "https://cc.nankai.edu.cn/2021/0323/c13620a549983/page.htm",
+      "name": "李敏",
+      "title": "副教授",
+      "section": "副教授/副研究员",
+      "profileUrl": "https://cc.nankai.edu.cn/2021/0323/c13620a549983/page.htm",
+      "sourcePageUrl": "https://cc.nankai.edu.cn/fjswfyjy/list.htm"
+    },
+    {
+      "officialId": "https://cc.nankai.edu.cn/2021/0323/c13620a549982/page.htm",
+      "name": "李同",
+      "title": "副教授",
+      "section": "副教授/副研究员",
+      "profileUrl": "https://cc.nankai.edu.cn/2021/0323/c13620a549982/page.htm",
+      "sourcePageUrl": "https://cc.nankai.edu.cn/fjswfyjy/list.htm"
+    },
+    {
+      "officialId": "https://cc.nankai.edu.cn/2021/0323/c13620a549981/page.htm",
+      "name": "李翔",
+      "title": "副教授",
+      "section": "副教授/副研究员",
+      "profileUrl": "https://cc.nankai.edu.cn/2021/0323/c13620a549981/page.htm",
+      "sourcePageUrl": "https://cc.nankai.edu.cn/fjswfyjy/list.htm"
+    },
+    {
+      "officialId": "https://cc.nankai.edu.cn/2021/0323/c13620a549980/page.htm",
+      "name": "李想",
+      "title": "副教授",
+      "section": "副教授/副研究员",
+      "profileUrl": "https://cc.nankai.edu.cn/2021/0323/c13620a549980/page.htm",
+      "sourcePageUrl": "https://cc.nankai.edu.cn/fjswfyjy/list.htm"
+    },
+    {
+      "officialId": "http://cc-backend.nankai.edu.cn/teachers/introduce/liyue",
+      "name": "李岳",
+      "title": "副教授",
+      "section": "副教授/副研究员",
+      "profileUrl": "http://cc-backend.nankai.edu.cn/teachers/introduce/liyue",
+      "sourcePageUrl": "https://cc.nankai.edu.cn/fjswfyjy/list.htm"
+    },
+    {
+      "officialId": "https://cc.nankai.edu.cn/2021/0323/c13620a549978/page.htm",
+      "name": "李忠伟",
+      "title": "副教授",
+      "section": "副教授/副研究员",
+      "profileUrl": "https://cc.nankai.edu.cn/2021/0323/c13620a549978/page.htm",
+      "sourcePageUrl": "https://cc.nankai.edu.cn/fjswfyjy/list.htm"
+    },
+    {
+      "officialId": "https://cc.nankai.edu.cn/2021/0323/c13620a592255/page.htm",
+      "name": "刘晗",
+      "title": "副教授",
+      "section": "副教授/副研究员",
+      "profileUrl": "https://cc.nankai.edu.cn/2021/0323/c13620a592255/page.htm",
+      "sourcePageUrl": "https://cc.nankai.edu.cn/fjswfyjy/list.htm"
+    },
+    {
+      "officialId": "http://cc-backend.nankai.edu.cn/teachers/introduce/liuweijie",
+      "name": "刘维杰",
+      "title": "副教授",
+      "section": "副教授/副研究员",
+      "profileUrl": "http://cc-backend.nankai.edu.cn/teachers/introduce/liuweijie",
+      "sourcePageUrl": "https://cc.nankai.edu.cn/fjswfyjy/list.htm"
+    },
+    {
+      "officialId": "https://cc.nankai.edu.cn/2021/0323/c13620a570392/page.htm",
+      "name": "吕思艺",
+      "title": "副教授",
+      "section": "副教授/副研究员",
+      "profileUrl": "https://cc.nankai.edu.cn/2021/0323/c13620a570392/page.htm",
+      "sourcePageUrl": "https://cc.nankai.edu.cn/fjswfyjy/list.htm"
+    },
+    {
+      "officialId": "https://cc.nankai.edu.cn/2021/0323/c13620a549973/page.htm",
+      "name": "蒲凌君",
+      "title": "副教授",
+      "section": "副教授/副研究员",
+      "profileUrl": "https://cc.nankai.edu.cn/2021/0323/c13620a549973/page.htm",
+      "sourcePageUrl": "https://cc.nankai.edu.cn/fjswfyjy/list.htm"
+    },
+    {
+      "officialId": "https://cc.nankai.edu.cn/2021/0323/c13620a572366/page.htm",
+      "name": "乔亚琼",
+      "title": "副教授",
+      "section": "副教授/副研究员",
+      "profileUrl": "https://cc.nankai.edu.cn/2021/0323/c13620a572366/page.htm",
+      "sourcePageUrl": "https://cc.nankai.edu.cn/fjswfyjy/list.htm"
+    },
+    {
+      "officialId": "https://cc.nankai.edu.cn/2021/0323/c13620a549971/page.htm",
+      "name": "任明明",
+      "title": "副教授",
+      "section": "副教授/副研究员",
+      "profileUrl": "https://cc.nankai.edu.cn/2021/0323/c13620a549971/page.htm",
+      "sourcePageUrl": "https://cc.nankai.edu.cn/fjswfyjy/list.htm"
+    },
+    {
+      "officialId": "https://cc.nankai.edu.cn/2021/0323/c13620a572937/page.htm",
+      "name": "时晶磊",
+      "title": "副教授",
+      "section": "副教授/副研究员",
+      "profileUrl": "https://cc.nankai.edu.cn/2021/0323/c13620a572937/page.htm",
+      "sourcePageUrl": "https://cc.nankai.edu.cn/fjswfyjy/list.htm"
+    },
+    {
+      "officialId": "https://cc.nankai.edu.cn/2021/0323/c13620a549970/page.htm",
+      "name": "宋春瑶",
+      "title": "副教授",
+      "section": "副教授/副研究员",
+      "profileUrl": "https://cc.nankai.edu.cn/2021/0323/c13620a549970/page.htm",
+      "sourcePageUrl": "https://cc.nankai.edu.cn/fjswfyjy/list.htm"
+    },
+    {
+      "officialId": "https://cc.nankai.edu.cn/2021/0323/c13620a549969/page.htm",
+      "name": "苏明",
+      "title": "副研究员",
+      "section": "副教授/副研究员",
+      "profileUrl": "https://cc.nankai.edu.cn/2021/0323/c13620a549969/page.htm",
+      "sourcePageUrl": "https://cc.nankai.edu.cn/fjswfyjy/list.htm"
+    },
+    {
+      "officialId": "https://cc.nankai.edu.cn/2021/0323/c13620a572936/page.htm",
+      "name": "孙宇",
+      "title": "副教授",
+      "section": "副教授/副研究员",
+      "profileUrl": "https://cc.nankai.edu.cn/2021/0323/c13620a572936/page.htm",
+      "sourcePageUrl": "https://cc.nankai.edu.cn/fjswfyjy/list.htm"
+    },
+    {
+      "officialId": "https://cc.nankai.edu.cn/2021/0323/c13620a549968/page.htm",
+      "name": "王刚",
+      "title": "副教授",
+      "section": "副教授/副研究员",
+      "profileUrl": "https://cc.nankai.edu.cn/2021/0323/c13620a549968/page.htm",
+      "sourcePageUrl": "https://cc.nankai.edu.cn/fjswfyjy/list.htm"
+    },
+    {
+      "officialId": "https://cc.nankai.edu.cn/2021/0323/c13620a549967/page.htm",
+      "name": "王玮",
+      "title": "副教授",
+      "section": "副教授/副研究员",
+      "profileUrl": "https://cc.nankai.edu.cn/2021/0323/c13620a549967/page.htm",
+      "sourcePageUrl": "https://cc.nankai.edu.cn/fjswfyjy/list.htm"
+    },
+    {
+      "officialId": "https://cc.nankai.edu.cn/2021/0323/c13620a599892/page.htm",
+      "name": "王叙萌",
+      "title": "副教授",
+      "section": "副教授/副研究员",
+      "profileUrl": "https://cc.nankai.edu.cn/2021/0323/c13620a599892/page.htm",
+      "sourcePageUrl": "https://cc.nankai.edu.cn/fjswfyjy/list.htm"
+    },
+    {
+      "officialId": "https://cc.nankai.edu.cn/2021/0323/c13620a549966/page.htm",
+      "name": "王亚星",
+      "title": "副教授",
+      "section": "副教授/副研究员",
+      "profileUrl": "https://cc.nankai.edu.cn/2021/0323/c13620a549966/page.htm",
+      "sourcePageUrl": "https://cc.nankai.edu.cn/fjswfyjy/list.htm"
+    },
+    {
+      "officialId": "https://cc.nankai.edu.cn/2021/0323/c13620a549964/page.htm",
+      "name": "吴英",
+      "title": "副教授",
+      "section": "副教授/副研究员",
+      "profileUrl": "https://cc.nankai.edu.cn/2021/0323/c13620a549964/page.htm",
+      "sourcePageUrl": "https://cc.nankai.edu.cn/fjswfyjy/list.htm"
+    },
+    {
+      "officialId": "https://cc.nankai.edu.cn/2021/0323/c13620a549963/page.htm",
+      "name": "徐思涵",
+      "title": "副教授",
+      "section": "副教授/副研究员",
+      "profileUrl": "https://cc.nankai.edu.cn/2021/0323/c13620a549963/page.htm",
+      "sourcePageUrl": "https://cc.nankai.edu.cn/fjswfyjy/list.htm"
+    },
+    {
+      "officialId": "https://cc.nankai.edu.cn/2021/0323/c13620a549961/page.htm",
+      "name": "殷爱茹",
+      "title": "副教授",
+      "section": "副教授/副研究员",
+      "profileUrl": "https://cc.nankai.edu.cn/2021/0323/c13620a549961/page.htm",
+      "sourcePageUrl": "https://cc.nankai.edu.cn/fjswfyjy/list.htm"
+    },
+    {
+      "officialId": "https://cc.nankai.edu.cn/2021/0323/c13620a577371/page.htm",
+      "name": "苑新婧",
+      "title": "副教授",
+      "section": "副教授/副研究员",
+      "profileUrl": "https://cc.nankai.edu.cn/2021/0323/c13620a577371/page.htm",
+      "sourcePageUrl": "https://cc.nankai.edu.cn/fjswfyjy/list.htm"
+    },
+    {
+      "officialId": "https://cc.nankai.edu.cn/2021/0323/c13620a592254/page.htm",
+      "name": "曾庆锴",
+      "title": "副教授",
+      "section": "副教授/副研究员",
+      "profileUrl": "https://cc.nankai.edu.cn/2021/0323/c13620a592254/page.htm",
+      "sourcePageUrl": "https://cc.nankai.edu.cn/fjswfyjy/list.htm"
+    },
+    {
+      "officialId": "https://cc.nankai.edu.cn/2021/0323/c13620a549959/page.htm",
+      "name": "张玉",
+      "title": "副教授",
+      "section": "副教授/副研究员",
+      "profileUrl": "https://cc.nankai.edu.cn/2021/0323/c13620a549959/page.htm",
+      "sourcePageUrl": "https://cc.nankai.edu.cn/fjswfyjy/list.htm"
+    },
+    {
+      "officialId": "https://cc.nankai.edu.cn/2021/0323/c13621a584707/page.htm",
+      "name": "崔立骁",
+      "title": "讲师",
+      "section": "讲师",
+      "profileUrl": "https://cc.nankai.edu.cn/2021/0323/c13621a584707/page.htm",
+      "sourcePageUrl": "https://cc.nankai.edu.cn/js/list.htm"
+    },
+    {
+      "officialId": "https://cc.nankai.edu.cn/2021/0323/c13621a550008/page.htm",
+      "name": "古力",
+      "title": "讲师",
+      "section": "讲师",
+      "profileUrl": "https://cc.nankai.edu.cn/2021/0323/c13621a550008/page.htm",
+      "sourcePageUrl": "https://cc.nankai.edu.cn/js/list.htm"
+    },
+    {
+      "officialId": "https://cc.nankai.edu.cn/2021/0323/c13621a584082/page.htm",
+      "name": "哈冠雄",
+      "title": "讲师",
+      "section": "讲师",
+      "profileUrl": "https://cc.nankai.edu.cn/2021/0323/c13621a584082/page.htm",
+      "sourcePageUrl": "https://cc.nankai.edu.cn/js/list.htm"
+    },
+    {
+      "officialId": "https://cc.nankai.edu.cn/2021/0323/c13621a550006/page.htm",
+      "name": "李兴娟",
+      "title": "讲师",
+      "section": "讲师",
+      "profileUrl": "https://cc.nankai.edu.cn/2021/0323/c13621a550006/page.htm",
+      "sourcePageUrl": "https://cc.nankai.edu.cn/js/list.htm"
+    },
+    {
+      "officialId": "https://cc.nankai.edu.cn/2021/0323/c13621a580565/page.htm",
+      "name": "刘涵凯",
+      "title": "讲师",
+      "section": "讲师",
+      "profileUrl": "https://cc.nankai.edu.cn/2021/0323/c13621a580565/page.htm",
+      "sourcePageUrl": "https://cc.nankai.edu.cn/js/list.htm"
+    },
+    {
+      "officialId": "https://cc.nankai.edu.cn/2021/0323/c13621a570934/page.htm",
+      "name": "师建新",
+      "title": "讲师",
+      "section": "讲师",
+      "profileUrl": "https://cc.nankai.edu.cn/2021/0323/c13621a570934/page.htm",
+      "sourcePageUrl": "https://cc.nankai.edu.cn/js/list.htm"
+    },
+    {
+      "officialId": "http://cc-backend.nankai.edu.cn/teachers/introduce/yangfei",
+      "name": "杨飞",
+      "title": "讲师",
+      "section": "讲师",
+      "profileUrl": "http://cc-backend.nankai.edu.cn/teachers/introduce/yangfei",
+      "sourcePageUrl": "https://cc.nankai.edu.cn/js/list.htm"
+    },
+    {
+      "officialId": "https://cc.nankai.edu.cn/2021/0323/c13621a550001/page.htm",
+      "name": "于刚",
+      "title": "讲师",
+      "section": "讲师",
+      "profileUrl": "https://cc.nankai.edu.cn/2021/0323/c13621a550001/page.htm",
+      "sourcePageUrl": "https://cc.nankai.edu.cn/js/list.htm"
+    },
+    {
+      "officialId": "https://cc.nankai.edu.cn/2021/0323/c13621a550000/page.htm",
+      "name": "张健",
+      "title": "讲师",
+      "section": "讲师",
+      "profileUrl": "https://cc.nankai.edu.cn/2021/0323/c13621a550000/page.htm",
+      "sourcePageUrl": "https://cc.nankai.edu.cn/js/list.htm"
+    },
+    {
+      "officialId": "https://cc.nankai.edu.cn/2021/0323/c13621a549999/page.htm",
+      "name": "张久武",
+      "title": "讲师",
+      "section": "讲师",
+      "profileUrl": "https://cc.nankai.edu.cn/2021/0323/c13621a549999/page.htm",
+      "sourcePageUrl": "https://cc.nankai.edu.cn/js/list.htm"
+    }
+  ]
+}

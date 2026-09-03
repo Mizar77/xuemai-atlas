@@ -1,0 +1,64 @@
+{
+  "schemaVersion": 1,
+  "region": "Mainland China",
+  "scope": "Rank 19 HUST residual records and duplicate-name disambiguation after first-party verification",
+  "reviewedAt": "2026-09-03",
+  "decisionCount": 4,
+  "counts": {
+    "include_new_pi": 2,
+    "excluded_insufficient_scope_evidence": 2,
+    "pending_profile_verification": 0
+  },
+  "decisions": [
+    {
+      "officialId": "http://www.cs.hust.edu.cn/szdw/jsml/axmpyszmlb.htm#%E7%86%8A%E6%AD%A3%E5%A4%A7",
+      "name": "熊正大",
+      "profileUrl": null,
+      "sourcePageUrl": "http://www.cs.hust.edu.cn/szdw/jsml/axmpyszmlb.htm",
+      "officialRosterUrl": "https://cs.hust.edu.cn/szdw/js.htm",
+      "decision": "excluded_insufficient_scope_evidence",
+      "reason": "华中科技大学计算机学院冻结名录仅提供姓名，未提供可核验个人页、研究方向、职称或独立招生资格；该记录已完成审计，但在证据门槛下不纳入，也不推断其为非 PI。",
+      "evidenceUrl": "http://www.cs.hust.edu.cn/szdw/jsml/axmpyszmlb.htm",
+      "evidenceExcerpt": "官方按姓名拼音教师名录列出“熊正大”，但卡片没有个人页、职称、研究方向或招生字段。",
+      "supersedesDecisionFile": "data/roster-decisions/asia-pending-resolution-2026-09-03.json"
+    },
+    {
+      "officialId": "http://www.cs.hust.edu.cn/szdw/jsml/axmpyszmlb.htm#%E8%B5%B5%E5%B0%8F%E6%9D%BE",
+      "name": "赵小松",
+      "profileUrl": null,
+      "sourcePageUrl": "http://www.cs.hust.edu.cn/szdw/jsml/axmpyszmlb.htm",
+      "officialRosterUrl": "https://cs.hust.edu.cn/szdw/js.htm",
+      "decision": "excluded_insufficient_scope_evidence",
+      "reason": "华中科技大学计算机学院冻结名录仅提供姓名，未提供可核验个人页、研究方向、职称或独立招生资格；该记录已完成审计，但在证据门槛下不纳入，也不推断其为非 PI。",
+      "evidenceUrl": "http://www.cs.hust.edu.cn/szdw/jsml/axmpyszmlb.htm",
+      "evidenceExcerpt": "官方按姓名拼音教师名录列出“赵小松”，但卡片没有个人页、职称、研究方向或招生字段。",
+      "supersedesDecisionFile": "data/roster-decisions/asia-pending-resolution-2026-09-03.json"
+    },
+    {
+      "officialId": "http://faculty.hust.edu.cn/WANGBo/zh_CN/index.htm",
+      "name": "王博",
+      "rosterName": "王博 [http://faculty.hust.edu.cn/WANGBo/zh_CN/index.htm]",
+      "profileUrl": "http://faculty.hust.edu.cn/WANGBo/zh_CN/index.htm",
+      "sourcePageUrl": "https://aia.hust.edu.cn/szdw/xysz/axlb.htm",
+      "officialRosterUrl": "https://aia.hust.edu.cn/szdw.htm",
+      "decision": "include_new_pi",
+      "reason": "华中科技大学人工智能与自动化学院官方个人页确认该王博为智能系统与系统工程系在职副教授、硕士生导师，研究涉及深度学习、深度强化学习及智能决策，符合现任独立 PI 候选门槛。",
+      "evidenceUrl": "http://faculty.hust.edu.cn/WANGBo/zh_CN/index.htm",
+      "evidenceExcerpt": "王博，副教授、硕士生导师，在职，所在单位为人工智能与自动化学院；研究涉及贝叶斯推理、深度学习、深度强化学习及飞行器协同任务规划。",
+      "supersedesDecisionFile": "data/roster-decisions/hust-aia-2026-09-02.json"
+    },
+    {
+      "officialId": "http://faculty.hust.edu.cn/bowang/zh_CN/more/2538470/jsjjgd/index.htm",
+      "name": "王博",
+      "rosterName": "王博 [http://faculty.hust.edu.cn/bowang/zh_CN/more/2538470/jsjjgd/index.htm]",
+      "profileUrl": "http://faculty.hust.edu.cn/bowang/zh_CN/more/2538470/jsjjgd/index.htm",
+      "sourcePageUrl": "https://aia.hust.edu.cn/szdw/xysz/axlb.htm",
+      "officialRosterUrl": "https://aia.hust.edu.cn/szdw.htm",
+      "decision": "include_new_pi",
+      "reason": "华中科技大学官方个人页确认该王博为图像识别与智能科学系名录中的在职副研究员、博士生导师和硕士生导师，研究计算机视觉、医学影像及人工智能手术规划，符合现任独立 PI 候选门槛。",
+      "evidenceUrl": "http://faculty.hust.edu.cn/bowang/zh_CN/more/2538470/jsjjgd/index.htm",
+      "evidenceExcerpt": "王博，副研究员、博士生导师、硕士生导师，在职；研究计算机视觉、医学影像、手术光流导航及人工智能手术规划系统。",
+      "supersedesDecisionFile": "data/roster-decisions/hust-aia-2026-09-02.json"
+    }
+  ]
+}

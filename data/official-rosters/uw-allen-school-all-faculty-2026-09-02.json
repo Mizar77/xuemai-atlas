@@ -1,0 +1,3164 @@
+{
+  "completeness": "complete",
+  "fetchedAt": "2026-09-02",
+  "institution": "University of Washington Paul G. Allen School of Computer Science & Engineering",
+  "officialPageUrl": "https://www.cs.washington.edu/people/faculty-members/",
+  "officialDataUrl": "https://www.cs.washington.edu/people/faculty-members/",
+  "officialPageUrls": [
+    "https://www.cs.washington.edu/people/faculty-members/",
+    "https://www.cs.washington.edu/people/adjunct/",
+    "https://www.cs.washington.edu/people/emeritus/",
+    "https://www.cs.washington.edu/people/affiliate/"
+  ],
+  "officialRosterCount": 264,
+  "officialSectionCardCounts": {
+    "Current Faculty": 94,
+    "Adjunct Faculty": 50,
+    "Emeritus Faculty": 18,
+    "Affiliate Faculty": 102
+  },
+  "overlapAcrossSections": 0,
+  "sourceDescription": "The Allen School publishes four separate official rosters: current, adjunct, emeritus, and affiliate faculty. All entries from all four pages are retained and merged by normalized name; category membership is preserved for later person-level classification.",
+  "people": [
+    {
+      "officialId": "aaronhertzmann",
+      "name": "Aaron Hertzmann",
+      "officialSections": [
+        "Affiliate Faculty"
+      ],
+      "externalAffiliation": "Adobe Research",
+      "researchAreas": [
+        "Computer Graphics & Computer Vision"
+      ],
+      "profileUrl": "http://www.adobe.com/technology/people/san-francisco/aaron-hertzmann.html"
+    },
+    {
+      "officialId": "46742",
+      "name": "Abhishek Gupta",
+      "officialSections": [
+        "Current Faculty"
+      ],
+      "title": "Assistant Professor",
+      "researchAreas": [],
+      "profileUrl": "https://www.cs.washington.edu/people/faculty/abhishek-gupta/",
+      "portraitUrl": "https://www.cs.washington.edu/wp-content/uploads/2024/08/portrait-abhishek-gupta.jpg"
+    },
+    {
+      "officialId": "61571",
+      "name": "Abraham Flaxman",
+      "officialSections": [
+        "Adjunct Faculty"
+      ],
+      "title": "Adjunct",
+      "affiliatedDepartment": "Institute for Health Metrics and Evaluation",
+      "researchAreas": [],
+      "profileUrl": "https://www.cs.washington.edu/people/faculty/flaxman-abraham/",
+      "portraitUrl": "https://www.cs.washington.edu/wp-content/uploads/2024/12/portrait-abraham-flaxman.jpg"
+    },
+    {
+      "officialId": "adamshostack",
+      "name": "Adam Shostack",
+      "officialSections": [
+        "Affiliate Faculty"
+      ],
+      "researchAreas": []
+    },
+    {
+      "officialId": "61913",
+      "name": "Adrian Salguero",
+      "officialSections": [
+        "Current Faculty"
+      ],
+      "title": "Assistant Teaching Professor",
+      "researchAreas": [],
+      "profileUrl": "https://www.cs.washington.edu/people/faculty/salguero-adrian/",
+      "portraitUrl": "https://www.cs.washington.edu/wp-content/uploads/2024/12/portrait-adrian-salguero.jpg"
+    },
+    {
+      "officialId": "adrianaschulz",
+      "name": "Adriana Schulz",
+      "officialSections": [
+        "Affiliate Faculty"
+      ],
+      "researchAreas": [],
+      "profileUrl": "https://homes.cs.washington.edu/~adriana/"
+    },
+    {
+      "officialId": "49672",
+      "name": "Alan Borning",
+      "officialSections": [
+        "Emeritus Faculty"
+      ],
+      "title": "Professor Emeritus",
+      "researchAreas": [],
+      "profileUrl": "https://www.cs.washington.edu/people/faculty/alan-borning/",
+      "portraitUrl": "https://www.cs.washington.edu/wp-content/uploads/2024/07/portrait-emeritus-alan-borning.jpg"
+    },
+    {
+      "officialId": "61857",
+      "name": "Alan Shaw",
+      "officialSections": [
+        "Emeritus Faculty"
+      ],
+      "title": "Professor Emeritus",
+      "researchAreas": [],
+      "profileUrl": "https://www.cs.washington.edu/people/faculty/shaw-alan/",
+      "portraitUrl": "https://www.cs.washington.edu/wp-content/uploads/2024/07/fallback-bronze-w-portrait.jpg"
+    },
+    {
+      "officialId": "alekhagarwal",
+      "name": "Alekh Agarwal",
+      "officialSections": [
+        "Affiliate Faculty"
+      ],
+      "externalAffiliation": "Microsoft Research",
+      "researchAreas": [
+        "Machine Learning",
+        "Statistics and Optimization"
+      ],
+      "profileUrl": "http://alekhagarwal.net/"
+    },
+    {
+      "officialId": "49688",
+      "name": "Aleksandr Aravkin",
+      "officialSections": [
+        "Adjunct Faculty"
+      ],
+      "title": "Adjunct",
+      "affiliatedDepartment": "Department of Applied Mathematics",
+      "researchAreas": [],
+      "profileUrl": "https://www.cs.washington.edu/people/faculty/aleksandr-aravkin/",
+      "portraitUrl": "https://www.cs.washington.edu/wp-content/uploads/2024/07/fallback-bronze-w-portrait.jpg"
+    },
+    {
+      "officialId": "alexanderjratner",
+      "name": "Alexander J. Ratner",
+      "officialSections": [
+        "Affiliate Faculty"
+      ],
+      "externalAffiliation": "Snorkel AI",
+      "researchAreas": [],
+      "profileUrl": "https://snorkel.ai/author/alex-ratner/"
+    },
+    {
+      "officialId": "61582",
+      "name": "Alexis Hiniker",
+      "officialSections": [
+        "Adjunct Faculty"
+      ],
+      "title": "Adjunct",
+      "affiliatedDepartment": "Information School",
+      "researchAreas": [],
+      "profileUrl": "https://www.cs.washington.edu/people/faculty/hiniker-alexis/",
+      "portraitUrl": "https://www.cs.washington.edu/wp-content/uploads/2024/11/portrait-adjunct-alexis-hiniker.jpg"
+    },
+    {
+      "officialId": "43744",
+      "name": "Ali Farhadi",
+      "officialSections": [
+        "Current Faculty"
+      ],
+      "title": "Professor",
+      "researchAreas": [],
+      "profileUrl": "https://www.cs.washington.edu/people/faculty/ali-farhadi/",
+      "portraitUrl": "https://www.cs.washington.edu/wp-content/uploads/2024/04/portrait-ali-farhadi.jpg"
+    },
+    {
+      "officialId": "alonhalevy",
+      "name": "Alon Halevy",
+      "officialSections": [
+        "Affiliate Faculty"
+      ],
+      "externalAffiliation": "Facebook",
+      "researchAreas": [
+        "Data management",
+        "artificial intelligence"
+      ],
+      "profileUrl": "https://homes.cs.washington.edu/~alon/"
+    },
+    {
+      "officialId": "alvincheung",
+      "name": "Alvin Cheung",
+      "officialSections": [
+        "Affiliate Faculty"
+      ],
+      "externalAffiliation": "Data management, programming systems",
+      "researchAreas": [],
+      "profileUrl": "https://www2.eecs.berkeley.edu/Faculty/Homepages/akcheung.html"
+    },
+    {
+      "officialId": "61633",
+      "name": "Amy J. Ko",
+      "officialSections": [
+        "Adjunct Faculty"
+      ],
+      "title": "Adjunct",
+      "affiliatedDepartment": "Information School",
+      "researchAreas": [],
+      "profileUrl": "https://www.cs.washington.edu/people/faculty/ko-amy-j/",
+      "portraitUrl": "https://www.cs.washington.edu/wp-content/uploads/2024/11/portrait-adjunct-amy-ko.jpg"
+    },
+    {
+      "officialId": "44723",
+      "name": "Amy Zhang",
+      "officialSections": [
+        "Current Faculty"
+      ],
+      "title": "Associate Professor",
+      "researchAreas": [],
+      "profileUrl": "https://www.cs.washington.edu/people/faculty/amy-zhang/",
+      "portraitUrl": "https://www.cs.washington.edu/wp-content/uploads/2024/04/portrait-amy-zhang.jpg"
+    },
+    {
+      "officialId": "43737",
+      "name": "Andrea Coladangelo",
+      "officialSections": [
+        "Current Faculty"
+      ],
+      "title": "Assistant Professor",
+      "researchAreas": [],
+      "profileUrl": "https://www.cs.washington.edu/people/faculty/andrea-coladangelo/",
+      "portraitUrl": "https://www.cs.washington.edu/wp-content/uploads/2024/04/portrait-andrea-coladangelo-2.png"
+    },
+    {
+      "officialId": "61686",
+      "name": "Andrea Stocco",
+      "officialSections": [
+        "Adjunct Faculty"
+      ],
+      "title": "Adjunct",
+      "affiliatedDepartment": "Department of Psychology",
+      "researchAreas": [],
+      "profileUrl": "https://www.cs.washington.edu/people/faculty/stocco-andrea/",
+      "portraitUrl": "https://www.cs.washington.edu/wp-content/uploads/2024/11/portrait-adjunct-andrea-stocco.jpg"
+    },
+    {
+      "officialId": "andresmonroyhernandez",
+      "name": "Andres Monroy-Hernandez",
+      "officialSections": [
+        "Affiliate Faculty"
+      ],
+      "externalAffiliation": "Snap, Inc.",
+      "researchAreas": [],
+      "profileUrl": "http://andresmh.com"
+    },
+    {
+      "officialId": "61419",
+      "name": "Andrew Connolly",
+      "officialSections": [
+        "Adjunct Faculty"
+      ],
+      "title": "Adjunct",
+      "affiliatedDepartment": "Department of Astronomy",
+      "researchAreas": [],
+      "profileUrl": "https://www.cs.washington.edu/people/faculty/connolly-andrew/",
+      "portraitUrl": "https://www.cs.washington.edu/wp-content/uploads/2024/11/portrait-adjunct-andrew-connolly.jpg"
+    },
+    {
+      "officialId": "andrewlumsdaine",
+      "name": "Andrew Lumsdaine",
+      "officialSections": [
+        "Affiliate Faculty"
+      ],
+      "externalAffiliation": "PNNL NIAC",
+      "researchAreas": [
+        "High performance computing"
+      ],
+      "profileUrl": "https://homes.cs.washington.edu/~al75/"
+    },
+    {
+      "officialId": "anikembhavi",
+      "name": "Ani Kembhavi",
+      "officialSections": [
+        "Affiliate Faculty"
+      ],
+      "externalAffiliation": "Allen Institute for Artificial Intelligence",
+      "researchAreas": [
+        "Computer vision"
+      ],
+      "profileUrl": "https://anikem.github.io/"
+    },
+    {
+      "officialId": "61426",
+      "name": "Anind Dey",
+      "officialSections": [
+        "Adjunct Faculty"
+      ],
+      "title": "Adjunct",
+      "affiliatedDepartment": "Information School",
+      "researchAreas": [
+        "Ethics & Fairness; Human-Computer Interaction; Machine Learning; Ubiquitous Computing",
+        "Sensing & Embedded Systems"
+      ],
+      "profileUrl": "https://www.cs.washington.edu/people/faculty/dey-anind/",
+      "portraitUrl": "https://www.cs.washington.edu/wp-content/uploads/2024/11/portrait-adjunct-anind-dey.jpg"
+    },
+    {
+      "officialId": "44594",
+      "name": "Anna R. Karlin",
+      "officialSections": [
+        "Current Faculty"
+      ],
+      "title": "Professor",
+      "affiliatedDepartment": "Associate Director of Graduate Studies",
+      "researchAreas": [],
+      "profileUrl": "https://www.cs.washington.edu/people/faculty/anna-karlin/",
+      "portraitUrl": "https://www.cs.washington.edu/wp-content/uploads/2024/08/portrait-anna-karlin.jpg"
+    },
+    {
+      "officialId": "44661",
+      "name": "Anup Rao",
+      "officialSections": [
+        "Current Faculty"
+      ],
+      "title": "Professor",
+      "researchAreas": [],
+      "profileUrl": "https://www.cs.washington.edu/people/faculty/anup-rao/",
+      "portraitUrl": "https://www.cs.washington.edu/wp-content/uploads/2024/04/portrait-anup-rao.jpg"
+    },
+    {
+      "officialId": "armancohan",
+      "name": "Arman Cohan",
+      "officialSections": [
+        "Affiliate Faculty"
+      ],
+      "externalAffiliation": "Allen Institute for AI",
+      "researchAreas": [
+        "Natural Language Processing",
+        "Machine Learning"
+      ],
+      "profileUrl": "https://armancohan.com/"
+    },
+    {
+      "officialId": "arminalaghi",
+      "name": "Armin Alaghi",
+      "officialSections": [
+        "Affiliate Faculty"
+      ],
+      "externalAffiliation": "Oculus Research",
+      "researchAreas": [
+        "Embedded systems",
+        "signal processing",
+        "and virtual/augmented reality"
+      ],
+      "profileUrl": "http://homes.cs.washington.edu/~armin/"
+    },
+    {
+      "officialId": "51653",
+      "name": "Arvind Krishnamurthy",
+      "officialSections": [
+        "Current Faculty"
+      ],
+      "title": "Professor",
+      "researchAreas": [],
+      "profileUrl": "https://www.cs.washington.edu/people/faculty/arvind-krishnamurthy/",
+      "portraitUrl": "https://www.cs.washington.edu/wp-content/uploads/2024/08/portrait-arvind-krishnamurthy.jpg"
+    },
+    {
+      "officialId": "aseemagarwala",
+      "name": "Aseem Agarwala",
+      "officialSections": [
+        "Affiliate Faculty"
+      ],
+      "externalAffiliation": "Adobe",
+      "researchAreas": [
+        "Computer graphics",
+        "computer vision",
+        "and computational imaging"
+      ],
+      "profileUrl": "http://www.agarwala.org/"
+    },
+    {
+      "officialId": "aslicelikyilmaz",
+      "name": "Asli Celikyilmaz",
+      "officialSections": [
+        "Affiliate Faculty"
+      ],
+      "externalAffiliation": "Microsoft Research",
+      "researchAreas": []
+    },
+    {
+      "officialId": "61410",
+      "name": "Aylin Caliskan",
+      "officialSections": [
+        "Adjunct Faculty"
+      ],
+      "title": "Adjunct",
+      "affiliatedDepartment": "Information School",
+      "researchAreas": [],
+      "profileUrl": "https://www.cs.washington.edu/people/faculty/caliskan-aylin/",
+      "portraitUrl": "https://www.cs.washington.edu/wp-content/uploads/2024/11/portrait-adjunct-aylin-caliskan.jpg"
+    },
+    {
+      "officialId": "44631",
+      "name": "Barbara Mones",
+      "officialSections": [
+        "Current Faculty"
+      ],
+      "title": "Teaching Professor",
+      "researchAreas": [
+        "Computing Education; Augmented",
+        "Virtual & Mixed Reality; Computer Graphics & Animation"
+      ],
+      "profileUrl": "https://www.cs.washington.edu/people/faculty/barbara-mones/",
+      "portraitUrl": "https://www.cs.washington.edu/wp-content/uploads/2024/04/portrait-barbara-mones.jpg"
+    },
+    {
+      "officialId": "44596",
+      "name": "Baris Kasikci",
+      "officialSections": [
+        "Current Faculty"
+      ],
+      "title": "Associate Professor",
+      "researchAreas": [],
+      "profileUrl": "https://www.cs.washington.edu/people/faculty/baris-kasikci/",
+      "portraitUrl": "https://www.cs.washington.edu/wp-content/uploads/2024/04/portrait-baris-kasikci.jpg"
+    },
+    {
+      "officialId": "bengreenstein",
+      "name": "Ben Greenstein",
+      "officialSections": [
+        "Affiliate Faculty"
+      ],
+      "externalAffiliation": "Google, Inc.",
+      "researchAreas": [
+        "Networks and embedded systems"
+      ],
+      "profileUrl": "https://plus.google.com/107028056457311329776/posts"
+    },
+    {
+      "officialId": "61580",
+      "name": "Benjamin Mako Hill",
+      "officialSections": [
+        "Adjunct Faculty"
+      ],
+      "title": "Adjunct",
+      "affiliatedDepartment": "Department of Communication",
+      "researchAreas": [],
+      "profileUrl": "https://www.cs.washington.edu/people/faculty/hill-benjamin-mako/",
+      "portraitUrl": "https://www.cs.washington.edu/wp-content/uploads/2024/11/portrait-adjunct-benjamin-mako-hill.jpg"
+    },
+    {
+      "officialId": "bichliennguyen",
+      "name": "Bichlien Nguyen",
+      "officialSections": [
+        "Affiliate Faculty"
+      ],
+      "externalAffiliation": "Microsoft Research",
+      "researchAreas": [
+        "DNA data storage"
+      ]
+    },
+    {
+      "officialId": "61587",
+      "name": "Bill Howe",
+      "officialSections": [
+        "Adjunct Faculty"
+      ],
+      "title": "Adjunct",
+      "affiliatedDepartment": "Information School",
+      "researchAreas": [],
+      "profileUrl": "https://www.cs.washington.edu/people/faculty/howe-bill/",
+      "portraitUrl": "https://www.cs.washington.edu/wp-content/uploads/2024/11/portrait-adjunct-bill-howe.jpg"
+    },
+    {
+      "officialId": "61405",
+      "name": "Bingni Brunton",
+      "officialSections": [
+        "Adjunct Faculty"
+      ],
+      "title": "Adjunct",
+      "affiliatedDepartment": "Department of Biology",
+      "researchAreas": [],
+      "profileUrl": "https://www.cs.washington.edu/people/faculty/brunton-bingni/",
+      "portraitUrl": "https://www.cs.washington.edu/wp-content/uploads/2024/11/portrait-adjunct-bingni-brunton.jpg"
+    },
+    {
+      "officialId": "bradfordchamberlain",
+      "name": "Bradford Chamberlain",
+      "officialSections": [
+        "Affiliate Faculty"
+      ],
+      "externalAffiliation": "Hewlett Packard Enterprise",
+      "researchAreas": [
+        "Compilers",
+        "language design",
+        "and productivity for scalable parallel computing"
+      ],
+      "profileUrl": "http://www.cs.washington.edu/homes/bradc/"
+    },
+    {
+      "officialId": "44718",
+      "name": "Brett Wortzman",
+      "officialSections": [
+        "Current Faculty"
+      ],
+      "title": "Associate Teaching Professor",
+      "researchAreas": [],
+      "profileUrl": "https://www.cs.washington.edu/people/faculty/brett-wortzman/",
+      "portraitUrl": "https://www.cs.washington.edu/wp-content/uploads/2024/04/portrait-brett-wortzman.jpg"
+    },
+    {
+      "officialId": "43738",
+      "name": "Brian Curless",
+      "officialSections": [
+        "Current Faculty"
+      ],
+      "title": "Professor",
+      "researchAreas": [
+        "Augmented",
+        "Virtual & Mixed Reality; Computer Graphics & Animation; Computer Vision"
+      ],
+      "profileUrl": "https://www.cs.washington.edu/people/faculty/brian-curless/",
+      "portraitUrl": "https://www.cs.washington.edu/wp-content/uploads/2024/04/portrait-brian-curless.jpg"
+    },
+    {
+      "officialId": "brianlamacchia",
+      "name": "Brian LaMacchia",
+      "officialSections": [
+        "Affiliate Faculty"
+      ],
+      "externalAffiliation": "Microsoft Research",
+      "researchAreas": [
+        "Cryptography",
+        "automated resource discovery"
+      ],
+      "profileUrl": "http://www.farcaster.com/"
+    },
+    {
+      "officialId": "61829",
+      "name": "Bruce Hemingway",
+      "officialSections": [
+        "Emeritus Faculty"
+      ],
+      "title": "Teaching Professor Emeritus",
+      "researchAreas": [
+        "Computer Graphics & Animation; Computing Education Research; Ubiquitous Computing",
+        "Sensing & Embedded Systems"
+      ],
+      "profileUrl": "https://www.cs.washington.edu/people/faculty/hemingway-bruce/",
+      "portraitUrl": "https://www.cs.washington.edu/wp-content/uploads/2024/12/portrait-emeritus-bruce-hemingway.jpg"
+    },
+    {
+      "officialId": "43725",
+      "name": "Byron Boots",
+      "officialSections": [
+        "Current Faculty"
+      ],
+      "title": "Professor",
+      "researchAreas": [],
+      "profileUrl": "https://www.cs.washington.edu/people/faculty/byron-boots/",
+      "portraitUrl": "https://www.cs.washington.edu/wp-content/uploads/2024/08/portrait-byron-boots.jpg"
+    },
+    {
+      "officialId": "60373",
+      "name": "Carl Ebeling",
+      "officialSections": [
+        "Emeritus Faculty"
+      ],
+      "title": "Professor Emeritus",
+      "researchAreas": [],
+      "profileUrl": "https://www.cs.washington.edu/people/faculty/ebeling-carl/",
+      "portraitUrl": "https://www.cs.washington.edu/wp-content/uploads/2024/12/portrait-emeritus-carl-ebeling.jpg"
+    },
+    {
+      "officialId": "carlosguestrin",
+      "name": "Carlos Guestrin",
+      "officialSections": [
+        "Affiliate Faculty"
+      ],
+      "externalAffiliation": "Machine Learning, Distributed Systems, AI, Optimization",
+      "researchAreas": [],
+      "profileUrl": "http://homes.cs.washington.edu/~guestrin/"
+    },
+    {
+      "officialId": "carvermead",
+      "name": "Carver Mead",
+      "officialSections": [
+        "Affiliate Faculty"
+      ],
+      "externalAffiliation": "Caltech (emeritus)",
+      "researchAreas": [
+        "Microelectronics",
+        "neural models of computing",
+        "physics"
+      ],
+      "profileUrl": "http://www.carvermead.caltech.edu/"
+    },
+    {
+      "officialId": "chandrakananandi",
+      "name": "Chandrakana Nandi",
+      "officialSections": [
+        "Affiliate Faculty"
+      ],
+      "externalAffiliation": "Certora, Inc.",
+      "researchAreas": [
+        "Programming Languages",
+        "Program Synthesis",
+        "Formal Verification",
+        "Term Rewriting",
+        "Software Engineering",
+        "Computational Fabrication"
+      ],
+      "profileUrl": "http://cnandi.com/"
+    },
+    {
+      "officialId": "charleslarryzitnickiii",
+      "name": "Charles (Larry) Zitnick III",
+      "officialSections": [
+        "Affiliate Faculty"
+      ],
+      "externalAffiliation": "Facebook AI Research",
+      "researchAreas": [
+        "Object detection",
+        "semantic scene understanding",
+        "and human debugging"
+      ],
+      "profileUrl": "http://larryzitnick.org/"
+    },
+    {
+      "officialId": "44640",
+      "name": "Chinmay Nirkhe",
+      "officialSections": [
+        "Current Faculty"
+      ],
+      "title": "Assistant Professor",
+      "researchAreas": [],
+      "profileUrl": "https://www.cs.washington.edu/people/faculty/chinmay-nirkhe/",
+      "portraitUrl": "https://www.cs.washington.edu/wp-content/uploads/2024/04/portrait-chinmay-nirkhe.jpg"
+    },
+    {
+      "officialId": "61669",
+      "name": "Chirag Shah",
+      "officialSections": [
+        "Adjunct Faculty"
+      ],
+      "title": "Adjunct",
+      "affiliatedDepartment": "Information School",
+      "researchAreas": [],
+      "profileUrl": "https://www.cs.washington.edu/people/faculty/shah-chirag/",
+      "portraitUrl": "https://www.cs.washington.edu/wp-content/uploads/2024/11/portrait-adjunct-chirag-shah.jpg"
+    },
+    {
+      "officialId": "chrisdiorio",
+      "name": "Chris Diorio",
+      "officialSections": [
+        "Affiliate Faculty"
+      ],
+      "externalAffiliation": "Impinj",
+      "researchAreas": [
+        "Neurally-inspired computing; RFID"
+      ],
+      "profileUrl": "https://www.impinj.com/about-us/management-team"
+    },
+    {
+      "officialId": "44702",
+      "name": "Chris Thachuk",
+      "officialSections": [
+        "Current Faculty"
+      ],
+      "title": "Assistant Professor",
+      "researchAreas": [],
+      "profileUrl": "https://www.cs.washington.edu/people/faculty/chris-thachuk/",
+      "portraitUrl": "https://www.cs.washington.edu/wp-content/uploads/2024/04/portrait-chris-thachuk.jpg"
+    },
+    {
+      "officialId": "chunliangli",
+      "name": "Chun-Liang Li",
+      "officialSections": [
+        "Affiliate Faculty"
+      ],
+      "externalAffiliation": "Apple Machine Learning Research",
+      "researchAreas": [
+        "Machine Learning",
+        "Computer Vision",
+        "Natural Language Processing"
+      ],
+      "profileUrl": "https://chunliangli.github.io/"
+    },
+    {
+      "officialId": "61782",
+      "name": "Cole Trapnell",
+      "officialSections": [
+        "Adjunct Faculty"
+      ],
+      "title": "Adjunct",
+      "affiliatedDepartment": "Department of Genome Sciences",
+      "researchAreas": [],
+      "profileUrl": "https://www.cs.washington.edu/people/faculty/trapnell-cole/",
+      "portraitUrl": "https://www.cs.washington.edu/wp-content/uploads/2024/12/portrait-adjunct-cole-trapnell.jpg"
+    },
+    {
+      "officialId": "craigchambers",
+      "name": "Craig Chambers",
+      "officialSections": [
+        "Affiliate Faculty"
+      ],
+      "externalAffiliation": "Google, Inc.",
+      "researchAreas": [
+        "Programming languages",
+        "compilers"
+      ],
+      "profileUrl": "https://homes.cs.washington.edu/~chambers/"
+    },
+    {
+      "officialId": "44564",
+      "name": "Dan Grossman",
+      "officialSections": [
+        "Current Faculty"
+      ],
+      "title": "Professor & Interim Director",
+      "researchAreas": [],
+      "profileUrl": "https://www.cs.washington.edu/people/faculty/dan-grossman/",
+      "portraitUrl": "https://www.cs.washington.edu/wp-content/uploads/2024/08/portrait-dan-grossman.jpg"
+    },
+    {
+      "officialId": "44692",
+      "name": "Dan Suciu",
+      "officialSections": [
+        "Current Faculty"
+      ],
+      "title": "Professor",
+      "researchAreas": [],
+      "profileUrl": "https://www.cs.washington.edu/people/faculty/dan-suciu/",
+      "portraitUrl": "https://www.cs.washington.edu/wp-content/uploads/2024/04/portrait-dan-suciu.jpg"
+    },
+    {
+      "officialId": "danielberger",
+      "name": "Daniel Berger",
+      "officialSections": [
+        "Affiliate Faculty"
+      ],
+      "externalAffiliation": "Microsoft Research",
+      "researchAreas": [
+        "Computer systems (including distributed",
+        "networking",
+        "and storage systems) and memory architecture (virtualization",
+        "disaggregation",
+        "and DRAM alternatives"
+      ],
+      "profileUrl": "https://www.microsoft.com/en-us/research/people/daberg/"
+    },
+    {
+      "officialId": "danielgoldman",
+      "name": "Daniel Goldman",
+      "officialSections": [
+        "Affiliate Faculty"
+      ],
+      "externalAffiliation": "Google",
+      "researchAreas": [
+        "Computer graphics research on techniques for digital viewing and imaging"
+      ],
+      "profileUrl": "http://www.danbgoldman.com/"
+    },
+    {
+      "officialId": "danielmcduff",
+      "name": "Daniel McDuff",
+      "officialSections": [
+        "Affiliate Faculty"
+      ],
+      "researchAreas": []
+    },
+    {
+      "officialId": "61880",
+      "name": "Daniel S. Weld",
+      "officialSections": [
+        "Emeritus Faculty"
+      ],
+      "title": "Professor Emeritus",
+      "researchAreas": [],
+      "profileUrl": "https://www.cs.washington.edu/people/faculty/weld-daniel-s/",
+      "portraitUrl": "https://www.cs.washington.edu/wp-content/uploads/2024/12/portrait-emeritus-dan-weld.jpg"
+    },
+    {
+      "officialId": "61663",
+      "name": "Daniela Rosner",
+      "officialSections": [
+        "Adjunct Faculty"
+      ],
+      "title": "Adjunct",
+      "affiliatedDepartment": "Department of Human-Centered Design & Engineering",
+      "researchAreas": [],
+      "profileUrl": "https://www.cs.washington.edu/people/faculty/rosner-daniela/",
+      "portraitUrl": "https://www.cs.washington.edu/wp-content/uploads/2024/11/portrait-adjunct-daniela-rosner.jpg"
+    },
+    {
+      "officialId": "davebacon",
+      "name": "Dave Bacon",
+      "officialSections": [
+        "Affiliate Faculty"
+      ],
+      "externalAffiliation": "Google, Inc.",
+      "researchAreas": [
+        "Quantum computing",
+        "quantum algorithms",
+        "fault-tolerant computing"
+      ],
+      "profileUrl": "https://research.google/people/105078/?&type=google"
+    },
+    {
+      "officialId": "61267",
+      "name": "David Baker",
+      "officialSections": [
+        "Adjunct Faculty"
+      ],
+      "title": "Adjunct",
+      "affiliatedDepartment": "Department of Biochemistry",
+      "researchAreas": [],
+      "profileUrl": "https://www.cs.washington.edu/people/faculty/baker-david/",
+      "portraitUrl": "https://www.cs.washington.edu/wp-content/uploads/2024/11/portrait-adjunct-david-baker.jpg"
+    },
+    {
+      "officialId": "61277",
+      "name": "David Beck",
+      "officialSections": [
+        "Adjunct Faculty"
+      ],
+      "title": "Adjunct",
+      "affiliatedDepartment": "Department of Chemical Engineering",
+      "researchAreas": [],
+      "profileUrl": "https://www.cs.washington.edu/people/faculty/beck-david/",
+      "portraitUrl": "https://www.cs.washington.edu/wp-content/uploads/2024/12/portrait-david-beck.jpg"
+    },
+    {
+      "officialId": "davidcutler",
+      "name": "David Cutler",
+      "officialSections": [
+        "Affiliate Faculty"
+      ],
+      "externalAffiliation": "Microsoft",
+      "researchAreas": [
+        "Operating systems design and development"
+      ]
+    },
+    {
+      "officialId": "44602",
+      "name": "David Kohlbrenner",
+      "officialSections": [
+        "Current Faculty"
+      ],
+      "title": "Assistant Professor",
+      "researchAreas": [],
+      "profileUrl": "https://www.cs.washington.edu/people/faculty/david-kohlbrenner/",
+      "portraitUrl": "https://www.cs.washington.edu/wp-content/uploads/2024/04/portrait-david-kohlbrenner.jpg"
+    },
+    {
+      "officialId": "davidsalesin",
+      "name": "David Salesin",
+      "officialSections": [
+        "Affiliate Faculty"
+      ],
+      "externalAffiliation": "Adobe Systems",
+      "researchAreas": [
+        "Graphics",
+        "digital photography",
+        "visualization"
+      ],
+      "profileUrl": "https://salesin.cs.washington.edu/"
+    },
+    {
+      "officialId": "debadeeptadey",
+      "name": "Debadeepta Dey",
+      "officialSections": [
+        "Affiliate Faculty"
+      ],
+      "externalAffiliation": "Microsoft Research",
+      "researchAreas": [
+        "Decision-making under uncertainty",
+        "computer vision",
+        "reinforcement learning",
+        "planning",
+        "robotics and machine learning"
+      ],
+      "profileUrl": "https://www.debadeepta.com/"
+    },
+    {
+      "officialId": "desneytan",
+      "name": "Desney Tan",
+      "officialSections": [
+        "Affiliate Faculty"
+      ],
+      "externalAffiliation": "Microsoft Research",
+      "researchAreas": [
+        "Human-Computer Interaction and Brain-Computer Interfaces"
+      ],
+      "profileUrl": "http://research.microsoft.com/~desney/"
+    },
+    {
+      "officialId": "43746",
+      "name": "Dieter Fox",
+      "officialSections": [
+        "Current Faculty"
+      ],
+      "title": "Professor",
+      "researchAreas": [],
+      "profileUrl": "https://www.cs.washington.edu/people/faculty/dieter-fox/",
+      "portraitUrl": "https://www.cs.washington.edu/wp-content/uploads/2024/08/portrait-dieter-fox.jpg"
+    },
+    {
+      "officialId": "douglasburger",
+      "name": "Douglas Burger",
+      "officialSections": [
+        "Affiliate Faculty"
+      ],
+      "externalAffiliation": "Microsoft Research",
+      "researchAreas": [
+        "Computer architecture"
+      ],
+      "profileUrl": "http://research.microsoft.com/en-us/people/dburger/"
+    },
+    {
+      "officialId": "douglascarmean",
+      "name": "Douglas Carmean",
+      "officialSections": [
+        "Affiliate Faculty"
+      ],
+      "externalAffiliation": "Microsoft Research",
+      "researchAreas": [
+        "Computer architecture"
+      ],
+      "profileUrl": "https://www.linkedin.com/in/doug-carmean-078b66"
+    },
+    {
+      "officialId": "ecekamar",
+      "name": "Ece Kamar",
+      "officialSections": [
+        "Affiliate Faculty"
+      ],
+      "externalAffiliation": "Microsoft Research",
+      "researchAreas": [
+        "Artificial Intelligence",
+        "Responsible AI",
+        "Human-AI Collaboration",
+        "AI Fairness",
+        "AI Robustness"
+      ],
+      "profileUrl": "https://www.microsoft.com/en-us/research/people/eckamar/"
+    },
+    {
+      "officialId": "44608",
+      "name": "Ed Lazowska",
+      "officialSections": [
+        "Emeritus Faculty"
+      ],
+      "title": "Professor Emeritus",
+      "researchAreas": [],
+      "profileUrl": "https://www.cs.washington.edu/people/faculty/ed-lazowska/",
+      "portraitUrl": "https://www.cs.washington.edu/wp-content/uploads/2024/08/portrait-ed-lazowska.jpg"
+    },
+    {
+      "officialId": "44512",
+      "name": "Elba Garza",
+      "officialSections": [
+        "Current Faculty"
+      ],
+      "title": "Assistant Teaching Professor",
+      "researchAreas": [],
+      "profileUrl": "https://www.cs.washington.edu/people/faculty/elba-garza/",
+      "portraitUrl": "https://www.cs.washington.edu/wp-content/uploads/2024/04/portrait-elba-garza.jpg"
+    },
+    {
+      "officialId": "emanueltodorov",
+      "name": "Emanuel Todorov",
+      "officialSections": [
+        "Affiliate Faculty"
+      ],
+      "externalAffiliation": "Intelligent control in biology and engineering",
+      "researchAreas": [],
+      "profileUrl": "https://roboti.us/lab/index.html"
+    },
+    {
+      "officialId": "61281",
+      "name": "Emily Bender",
+      "officialSections": [
+        "Adjunct Faculty"
+      ],
+      "title": "Adjunct",
+      "affiliatedDepartment": "Department of Linguistics",
+      "researchAreas": [],
+      "profileUrl": "https://www.cs.washington.edu/people/faculty/bender-emily/",
+      "portraitUrl": "https://www.cs.washington.edu/wp-content/uploads/2024/11/portrait-adjunct-emily-bender.jpg"
+    },
+    {
+      "officialId": "eminatorlak",
+      "name": "Emina Torlak",
+      "officialSections": [
+        "Affiliate Faculty"
+      ],
+      "researchAreas": []
+    },
+    {
+      "officialId": "emmabrunskill",
+      "name": "Emma Brunskill",
+      "officialSections": [
+        "Affiliate Faculty"
+      ],
+      "externalAffiliation": "Carnegie Mellon University",
+      "researchAreas": [
+        "Machine learning",
+        "sequential decision making under uncertainty",
+        "and artificial intelligence"
+      ],
+      "profileUrl": "http://www.cs.cmu.edu/~ebrun/"
+    },
+    {
+      "officialId": "erichorvitz",
+      "name": "Eric Horvitz",
+      "officialSections": [
+        "Affiliate Faculty"
+      ],
+      "externalAffiliation": "Microsoft Research",
+      "researchAreas": [
+        "Adaptive systems and interaction"
+      ],
+      "profileUrl": "http://research.microsoft.com/~horvitz/"
+    },
+    {
+      "officialId": "61616",
+      "name": "Eric Klavins",
+      "officialSections": [
+        "Adjunct Faculty"
+      ],
+      "title": "Adjunct",
+      "affiliatedDepartment": "Department of Electrical & Computer Engineering",
+      "researchAreas": [],
+      "profileUrl": "https://www.cs.washington.edu/people/faculty/klavins-eric/",
+      "portraitUrl": "https://www.cs.washington.edu/wp-content/uploads/2024/11/portrait-adjunct-eric-klavins.jpg"
+    },
+    {
+      "officialId": "44667",
+      "name": "Franziska Roesner",
+      "officialSections": [
+        "Current Faculty"
+      ],
+      "title": "Professor",
+      "researchAreas": [
+        "Augmented",
+        "Virtual & Mixed Reality; Human-Computer Interaction; Security & Privacy"
+      ],
+      "profileUrl": "https://www.cs.washington.edu/people/faculty/franziska-roesner/",
+      "portraitUrl": "https://www.cs.washington.edu/wp-content/uploads/2024/08/portrait-franziska-roesner.jpg"
+    },
+    {
+      "officialId": "61671",
+      "name": "Frederick Shic",
+      "officialSections": [
+        "Adjunct Faculty"
+      ],
+      "title": "Adjunct",
+      "affiliatedDepartment": "UW Medicine",
+      "researchAreas": [
+        "Computational Neuroscience & Neuroengineering; Ubiquitous Computing",
+        "Sensing & Embedded Systems"
+      ],
+      "profileUrl": "https://www.cs.washington.edu/people/faculty/shic-frederick/",
+      "portraitUrl": "https://www.cs.washington.edu/wp-content/uploads/2024/11/portrait-adjunct-frederick-shic.jpg"
+    },
+    {
+      "officialId": "gailalverson",
+      "name": "Gail Alverson",
+      "officialSections": [
+        "Affiliate Faculty"
+      ],
+      "externalAffiliation": "Microsoft",
+      "researchAreas": [
+        "Software Engineering",
+        "Parallel Systems and Programming Environments"
+      ]
+    },
+    {
+      "officialId": "61588",
+      "name": "Gary Hsieh",
+      "officialSections": [
+        "Adjunct Faculty"
+      ],
+      "title": "Adjunct",
+      "affiliatedDepartment": "Department of Human-Centered Design & Engineering",
+      "researchAreas": [],
+      "profileUrl": "https://www.cs.washington.edu/people/faculty/hsieh-gary/",
+      "portraitUrl": "https://www.cs.washington.edu/wp-content/uploads/2024/12/portrait-adjunct-gary-hsieh.jpg"
+    },
+    {
+      "officialId": "garykimura",
+      "name": "Gary Kimura",
+      "officialSections": [
+        "Affiliate Faculty"
+      ],
+      "externalAffiliation": "Paul G. Allen School of Computer Science & Engineering",
+      "researchAreas": [
+        "Software engineering and operating systems"
+      ],
+      "profileUrl": "http://homes.cs.washington.edu/~garyki/"
+    },
+    {
+      "officialId": "genniegebhart",
+      "name": "Gennie Gebhart",
+      "officialSections": [
+        "Affiliate Faculty"
+      ],
+      "externalAffiliation": "Electronic Frontier Foundation",
+      "researchAreas": [
+        "Third-party tracking",
+        "secure messaging",
+        "platform censorship",
+        "open access"
+      ],
+      "profileUrl": "https://www.eff.org/about/staff/gennie-gebhart"
+    },
+    {
+      "officialId": "44677",
+      "name": "Georg Seelig",
+      "officialSections": [
+        "Current Faculty"
+      ],
+      "title": "Professor",
+      "researchAreas": [],
+      "profileUrl": "https://www.cs.washington.edu/people/faculty/georg-seelig/",
+      "portraitUrl": "https://www.cs.washington.edu/wp-content/uploads/2024/08/portrait-georg-seelig.jpg"
+    },
+    {
+      "officialId": "43723",
+      "name": "Gilbert Bernstein",
+      "officialSections": [
+        "Current Faculty"
+      ],
+      "title": "Assistant Professor",
+      "researchAreas": [],
+      "profileUrl": "https://www.cs.washington.edu/people/faculty/gilbert-bernstein/",
+      "portraitUrl": "https://www.cs.washington.edu/wp-content/uploads/2024/08/portrait-gilbert-bernstein.jpg"
+    },
+    {
+      "officialId": "44653",
+      "name": "Hal Perkins",
+      "officialSections": [
+        "Emeritus Faculty"
+      ],
+      "title": "Teaching Professor Emeritus",
+      "researchAreas": [],
+      "profileUrl": "https://www.cs.washington.edu/people/faculty/hal-perkins/",
+      "portraitUrl": "https://www.cs.washington.edu/wp-content/uploads/2024/07/fallback-bronze-w-portrait.jpg"
+    },
+    {
+      "officialId": "44616",
+      "name": "Hank Levy",
+      "officialSections": [
+        "Emeritus Faculty"
+      ],
+      "title": "Professor Emeritus",
+      "researchAreas": [],
+      "profileUrl": "https://www.cs.washington.edu/people/faculty/hank-levy/",
+      "portraitUrl": "https://www.cs.washington.edu/wp-content/uploads/2024/04/portrait-emeritus-hank-levy.jpg"
+    },
+    {
+      "officialId": "44570",
+      "name": "Hannaneh Hajishirzi",
+      "officialSections": [
+        "Current Faculty"
+      ],
+      "title": "Associate Professor",
+      "researchAreas": [],
+      "profileUrl": "https://www.cs.washington.edu/people/faculty/hannaneh-hajishirzi/",
+      "portraitUrl": "https://www.cs.washington.edu/wp-content/uploads/2024/04/portrait-hannaneh-hajishirzi.jpg"
+    },
+    {
+      "officialId": "61793",
+      "name": "Hema Yoganarasimhan",
+      "officialSections": [
+        "Adjunct Faculty"
+      ],
+      "title": "Adjunct",
+      "affiliatedDepartment": "Foster School of Business",
+      "researchAreas": [],
+      "profileUrl": "https://www.cs.washington.edu/people/faculty/yoganarasimhan-hema/",
+      "portraitUrl": "https://www.cs.washington.edu/wp-content/uploads/2024/12/portrait-adjunct-hema-yoganarasimhan.jpg"
+    },
+    {
+      "officialId": "henrykautz",
+      "name": "Henry Kautz",
+      "officialSections": [
+        "Affiliate Faculty"
+      ],
+      "externalAffiliation": "University of Rochester",
+      "researchAreas": [
+        "Knowledge representation and reasoning systems."
+      ],
+      "profileUrl": "http://www.cs.rochester.edu/u/kautz/"
+    },
+    {
+      "officialId": "44618",
+      "name": "Huijia (Rachel) Lin",
+      "officialSections": [
+        "Current Faculty"
+      ],
+      "title": "Professor",
+      "researchAreas": [],
+      "profileUrl": "https://www.cs.washington.edu/people/faculty/huijia-rachel-lin/",
+      "portraitUrl": "https://www.cs.washington.edu/wp-content/uploads/2024/08/portrait-rachel-lin.jpg"
+    },
+    {
+      "officialId": "hunterschafer",
+      "name": "Hunter Schafer",
+      "officialSections": [
+        "Affiliate Faculty"
+      ],
+      "researchAreas": []
+    },
+    {
+      "officialId": "44598",
+      "name": "Ira Kemelmacher-Shlizerman",
+      "officialSections": [
+        "Current Faculty"
+      ],
+      "title": "Professor",
+      "researchAreas": [
+        "Augmented",
+        "Virtual & Mixed Reality; Computer Graphics & Animation; Computer Vision; Generative AI"
+      ],
+      "profileUrl": "https://www.cs.washington.edu/people/faculty/ira-kemelmacher-shlizerman/",
+      "portraitUrl": "https://www.cs.washington.edu/wp-content/uploads/2024/04/portrait-ira-kemelmacher-shlizerman.jpg"
+    },
+    {
+      "officialId": "61691",
+      "name": "Jacob Sunshine, M.D.",
+      "officialSections": [
+        "Adjunct Faculty"
+      ],
+      "title": "Adjunct",
+      "affiliatedDepartment": "School of Medicine",
+      "researchAreas": [
+        "Ubiquitous Computing",
+        "Sensing & Embedded Systems"
+      ],
+      "profileUrl": "https://www.cs.washington.edu/people/faculty/sunshine-m-d-jacob/",
+      "portraitUrl": "https://www.cs.washington.edu/wp-content/uploads/2024/12/portrait-adjunct-jacob-sunshine.jpg"
+    },
+    {
+      "officialId": "61789",
+      "name": "Jacob Wobbrock",
+      "officialSections": [
+        "Adjunct Faculty"
+      ],
+      "title": "Adjunct",
+      "affiliatedDepartment": "Information School",
+      "researchAreas": [],
+      "profileUrl": "https://www.cs.washington.edu/people/faculty/wobbrock-jacob/",
+      "portraitUrl": "https://www.cs.washington.edu/wp-content/uploads/2024/12/portrait-adjunct-jacob-wobbrock.jpg"
+    },
+    {
+      "officialId": "43745",
+      "name": "James Fogarty",
+      "officialSections": [
+        "Current Faculty"
+      ],
+      "title": "Professor",
+      "affiliatedDepartment": "Associate Director for Faculty Affairs",
+      "researchAreas": [
+        "Accessibility; Human-Centered AI; Human-Computer Interaction; Ubiquitous Computing",
+        "Sensing & Embedded Systems"
+      ],
+      "profileUrl": "https://www.cs.washington.edu/people/faculty/james-fogarty/",
+      "portraitUrl": "https://www.cs.washington.edu/wp-content/uploads/2024/04/portrait-james-fogarty.jpg"
+    },
+    {
+      "officialId": "jameslarus",
+      "name": "James Larus",
+      "officialSections": [
+        "Affiliate Faculty"
+      ],
+      "externalAffiliation": "EPFL",
+      "researchAreas": [
+        "Programming languages and compilers"
+      ],
+      "profileUrl": "http://research.microsoft.com/~larus/"
+    },
+    {
+      "officialId": "44716",
+      "name": "James R. Wilcox",
+      "officialSections": [
+        "Current Faculty"
+      ],
+      "title": "Assistant Teaching Professor",
+      "researchAreas": [],
+      "profileUrl": "https://www.cs.washington.edu/people/faculty/james-r-wilcox/",
+      "portraitUrl": "https://www.cs.washington.edu/wp-content/uploads/2024/04/portrait-james-wilcox.jpg"
+    },
+    {
+      "officialId": "74475",
+      "name": "James Weichert",
+      "officialSections": [
+        "Current Faculty"
+      ],
+      "title": "Assistant Teaching Professor",
+      "researchAreas": [
+        "Computing Education Research",
+        "Ethics & Fairness"
+      ],
+      "profileUrl": "https://www.cs.washington.edu/people/faculty/weichert-james/",
+      "portraitUrl": "https://www.cs.washington.edu/wp-content/uploads/2025/08/portrait-james-weichert.jpg"
+    },
+    {
+      "officialId": "44633",
+      "name": "Jamie Morgenstern",
+      "officialSections": [
+        "Current Faculty"
+      ],
+      "title": "Associate Professor",
+      "researchAreas": [],
+      "profileUrl": "https://www.cs.washington.edu/people/faculty/jamie-morgenstern/",
+      "portraitUrl": "https://www.cs.washington.edu/wp-content/uploads/2024/04/portrait-jamie-morgenstern.jpg"
+    },
+    {
+      "officialId": "jamieteevan",
+      "name": "Jamie Teevan",
+      "officialSections": [
+        "Affiliate Faculty"
+      ],
+      "researchAreas": []
+    },
+    {
+      "officialId": "jancuny",
+      "name": "Jan Cuny",
+      "officialSections": [
+        "Affiliate Faculty"
+      ],
+      "researchAreas": []
+    },
+    {
+      "officialId": "jaylorch",
+      "name": "Jay Lorch",
+      "officialSections": [
+        "Affiliate Faculty"
+      ],
+      "externalAffiliation": "Microsoft Research",
+      "researchAreas": [
+        "Distributed systems",
+        "software verification",
+        "security & privacy"
+      ],
+      "profileUrl": "https://jaylorch.net"
+    },
+    {
+      "officialId": "49654",
+      "name": "Jean-Loup Baer",
+      "officialSections": [
+        "Emeritus Faculty"
+      ],
+      "title": "Professor Emeritus",
+      "researchAreas": [],
+      "profileUrl": "https://www.cs.washington.edu/people/faculty/jean-loup-baer/",
+      "portraitUrl": "https://www.cs.washington.edu/wp-content/uploads/2024/07/portrait-emeritus-jean-loup-baer.jpg"
+    },
+    {
+      "officialId": "44642",
+      "name": "Jeff Nivala",
+      "officialSections": [
+        "Current Faculty"
+      ],
+      "title": "Assistant Professor",
+      "researchAreas": [],
+      "profileUrl": "https://www.cs.washington.edu/people/faculty/jeff-nivala/",
+      "portraitUrl": "https://www.cs.washington.edu/wp-content/uploads/2024/04/portrait-jeff-nivala.jpg"
+    },
+    {
+      "officialId": "61282",
+      "name": "Jeffrey Bilmes",
+      "officialSections": [
+        "Adjunct Faculty"
+      ],
+      "title": "Adjunct",
+      "affiliatedDepartment": "Department of Electrical & Computer Engineering",
+      "researchAreas": [],
+      "profileUrl": "https://www.cs.washington.edu/people/faculty/bilmes-jeffrey/",
+      "portraitUrl": "https://www.cs.washington.edu/wp-content/uploads/2024/11/portrait-adjunct-jeffrey-bilmes.jpg"
+    },
+    {
+      "officialId": "44572",
+      "name": "Jeffrey Heer",
+      "officialSections": [
+        "Current Faculty"
+      ],
+      "title": "Professor",
+      "researchAreas": [],
+      "profileUrl": "https://www.cs.washington.edu/people/faculty/jeffrey-heer/",
+      "portraitUrl": "https://www.cs.washington.edu/wp-content/uploads/2024/08/portrait-jeffrey-heer.jpg"
+    },
+    {
+      "officialId": "61578",
+      "name": "Jeffrey Herron",
+      "officialSections": [
+        "Adjunct Faculty"
+      ],
+      "title": "Adjunct",
+      "affiliatedDepartment": "Department of Neurological Surgery",
+      "researchAreas": [],
+      "profileUrl": "https://www.cs.washington.edu/people/faculty/herron-jeffrey/",
+      "portraitUrl": "https://www.cs.washington.edu/wp-content/uploads/2024/11/portrait-adjunct-jeffrey-herron.jpg"
+    },
+    {
+      "officialId": "44629",
+      "name": "Jen Mankoff",
+      "officialSections": [
+        "Current Faculty"
+      ],
+      "title": "Professor",
+      "researchAreas": [
+        "Accessibility; Ethics & Fairness; Fabrication; Human-Computer Interaction; Ubiquitous Computing",
+        "Sensing & Embedded Systems"
+      ],
+      "profileUrl": "https://www.cs.washington.edu/people/faculty/jennifer-mankoff/",
+      "portraitUrl": "https://www.cs.washington.edu/wp-content/uploads/2024/04/portrait-jen-mankoff.jpg"
+    },
+    {
+      "officialId": "57794",
+      "name": "Jerry Li",
+      "officialSections": [
+        "Current Faculty"
+      ],
+      "title": "Associate Professor",
+      "researchAreas": [],
+      "profileUrl": "https://www.cs.washington.edu/people/faculty/li-jerry/",
+      "portraitUrl": "https://www.cs.washington.edu/wp-content/uploads/2024/11/portrait-jerry-li.jpg"
+    },
+    {
+      "officialId": "jessicaschroeder",
+      "name": "Jessica Schroeder",
+      "officialSections": [
+        "Affiliate Faculty"
+      ],
+      "researchAreas": []
+    },
+    {
+      "officialId": "61787",
+      "name": "Jevin West",
+      "officialSections": [
+        "Adjunct Faculty"
+      ],
+      "title": "Adjunct",
+      "affiliatedDepartment": "Information School",
+      "researchAreas": [],
+      "profileUrl": "https://www.cs.washington.edu/people/faculty/west-jevin/",
+      "portraitUrl": "https://www.cs.washington.edu/wp-content/uploads/2024/12/portrait-adjunct-jevin-west.jpg"
+    },
+    {
+      "officialId": "jianfenggao",
+      "name": "Jianfeng Gao",
+      "officialSections": [
+        "Affiliate Faculty"
+      ],
+      "externalAffiliation": "Microsoft Research",
+      "researchAreas": [
+        "Deep Learning",
+        "Natural Language Processing (NLP)",
+        "Web Search and Information Retrieval (IR)",
+        "Multi-Modal Modeling"
+      ],
+      "profileUrl": "http://research.microsoft.com/people/jfgao"
+    },
+    {
+      "officialId": "jinasuh",
+      "name": "Jina Suh",
+      "officialSections": [
+        "Affiliate Faculty"
+      ],
+      "researchAreas": []
+    },
+    {
+      "officialId": "johannesgehrke",
+      "name": "Johannes Gehrke",
+      "officialSections": [
+        "Affiliate Faculty"
+      ],
+      "externalAffiliation": "Microsoft Research",
+      "researchAreas": [
+        "Database systems",
+        "distributed systems",
+        "and machine learning"
+      ],
+      "profileUrl": "https://www.microsoft.com/en-us/research/people/johannes/"
+    },
+    {
+      "officialId": "61891",
+      "name": "John Zahorjan",
+      "officialSections": [
+        "Emeritus Faculty"
+      ],
+      "title": "Professor Emeritus",
+      "researchAreas": [],
+      "profileUrl": "https://www.cs.washington.edu/people/faculty/zahorjan-john/",
+      "portraitUrl": "https://www.cs.washington.edu/wp-content/uploads/2024/12/portrait-emeritus-john-zahorjan.jpg"
+    },
+    {
+      "officialId": "43747",
+      "name": "Jon E. Froehlich",
+      "officialSections": [
+        "Current Faculty"
+      ],
+      "title": "Professor",
+      "researchAreas": [
+        "Accessibility; Augmented",
+        "Virtual & Mixed Reality; Human-Computer Interaction; Ubiquitous Computing",
+        "Sensing & Embedded Systems"
+      ],
+      "profileUrl": "https://www.cs.washington.edu/people/faculty/jon-e-froehlich/",
+      "portraitUrl": "https://www.cs.washington.edu/wp-content/uploads/2024/08/portrait-jon-froehlich.jpg"
+    },
+    {
+      "officialId": "jonhowell",
+      "name": "Jon Howell",
+      "officialSections": [
+        "Affiliate Faculty"
+      ],
+      "externalAffiliation": "VMware Research",
+      "researchAreas": [
+        "Systems verification",
+        "Distributed Systems",
+        "Security",
+        "Operating Systems"
+      ],
+      "profileUrl": "https://www.jonh.net/~jonh/cv/"
+    },
+    {
+      "officialId": "josephhellerstein",
+      "name": "Joseph Hellerstein",
+      "officialSections": [
+        "Affiliate Faculty"
+      ],
+      "externalAffiliation": "UW eScience Institute",
+      "researchAreas": [
+        "Performance evaluation",
+        "systems management",
+        "science in the cloud terms"
+      ],
+      "profileUrl": "https://sites.google.com/site/josephlhellerstein/"
+    },
+    {
+      "officialId": "joshbenaloh",
+      "name": "Josh Benaloh",
+      "officialSections": [
+        "Affiliate Faculty"
+      ],
+      "externalAffiliation": "Microsoft Research",
+      "researchAreas": [
+        "Cryptography"
+      ],
+      "profileUrl": "http://research.microsoft.com/~benaloh/"
+    },
+    {
+      "officialId": "44686",
+      "name": "Joshua Smith",
+      "officialSections": [
+        "Current Faculty"
+      ],
+      "title": "Professor",
+      "researchAreas": [
+        "Computer Networking; Robotics; Ubiquitous Computing",
+        "Sensing & Embedded Systems; Wireless Sensing"
+      ],
+      "profileUrl": "https://www.cs.washington.edu/people/faculty/joshua-r-smith/",
+      "portraitUrl": "https://www.cs.washington.edu/wp-content/uploads/2024/04/portrait-joshua-smith.jpg"
+    },
+    {
+      "officialId": "jovanpopovic",
+      "name": "Jovan Popovic",
+      "officialSections": [
+        "Affiliate Faculty"
+      ],
+      "externalAffiliation": "Adobe",
+      "researchAreas": [
+        "Computer animation and geometric modeling"
+      ],
+      "profileUrl": "http://www.adobe.com/technology/people/seattle/popovic.html"
+    },
+    {
+      "officialId": "judyilles",
+      "name": "Judy Illes",
+      "officialSections": [
+        "Affiliate Faculty"
+      ],
+      "externalAffiliation": "University of British Columbia",
+      "researchAreas": [
+        "Neurology and neuroethics"
+      ],
+      "profileUrl": "http://neuroethics.med.ubc.ca/people-2/"
+    },
+    {
+      "officialId": "61603",
+      "name": "Julie Kientz",
+      "officialSections": [
+        "Adjunct Faculty"
+      ],
+      "title": "Adjunct",
+      "affiliatedDepartment": "Department of Human-Centered Design & Engineering",
+      "researchAreas": [
+        "Accessibility; Human-Computer Interaction; Ubiquitous Computing",
+        "Sensing & Embedded Systems"
+      ],
+      "profileUrl": "https://www.cs.washington.edu/people/faculty/kientz-julie/",
+      "portraitUrl": "https://www.cs.washington.edu/wp-content/uploads/2024/11/portrait-adjunct-julie-kientz.jpg"
+    },
+    {
+      "officialId": "44577",
+      "name": "Justin Hsia",
+      "officialSections": [
+        "Current Faculty"
+      ],
+      "title": "Associate Teaching Professor",
+      "researchAreas": [],
+      "profileUrl": "https://www.cs.washington.edu/people/faculty/justin-hsia/",
+      "portraitUrl": "https://www.cs.washington.edu/wp-content/uploads/2024/04/portrait-justin-hsia.jpg"
+    },
+    {
+      "officialId": "kamaljain",
+      "name": "Kamal Jain",
+      "officialSections": [
+        "Affiliate Faculty"
+      ],
+      "externalAffiliation": "eBay Research Labs",
+      "researchAreas": [
+        "algorithmic game theory",
+        "combinatorial optimization"
+      ],
+      "profileUrl": "https://labs.ebay.com/people/kamal-jain/"
+    },
+    {
+      "officialId": "karinstrauss",
+      "name": "Karin Strauss",
+      "officialSections": [
+        "Affiliate Faculty"
+      ],
+      "externalAffiliation": "Microsoft Research",
+      "researchAreas": [
+        "Parallel computer architecture"
+      ],
+      "profileUrl": "https://www.microsoft.com/en-us/research/people/kstrauss/"
+    },
+    {
+      "officialId": "61372",
+      "name": "Karl Böhringer",
+      "officialSections": [
+        "Adjunct Faculty"
+      ],
+      "title": "Adjunct",
+      "affiliatedDepartment": "Department of Electrical & Computer Engineering",
+      "researchAreas": [
+        "Architecture & Parallel Computing; Molecular Programming & Synthetic Biology; Ubiquitous Computing",
+        "Sensing & Embedded Systems"
+      ],
+      "profileUrl": "https://www.cs.washington.edu/people/faculty/bohringer-karl/",
+      "portraitUrl": "https://www.cs.washington.edu/wp-content/uploads/2024/11/portrait-adjunct-karl-bohringer.jpg"
+    },
+    {
+      "officialId": "61675",
+      "name": "Kate Starbird",
+      "officialSections": [
+        "Adjunct Faculty"
+      ],
+      "title": "Adjunct",
+      "affiliatedDepartment": "Department of Human-Centered Design & Engineering",
+      "researchAreas": [],
+      "profileUrl": "https://www.cs.washington.edu/people/faculty/starbird-kate/",
+      "portraitUrl": "https://www.cs.washington.edu/wp-content/uploads/2024/11/portrait-adjunct-kate-starbird.jpg"
+    },
+    {
+      "officialId": "44665",
+      "name": "Katharina Reinecke",
+      "officialSections": [
+        "Current Faculty"
+      ],
+      "title": "Professor",
+      "affiliatedDepartment": "Associate Director for Research and Communication",
+      "researchAreas": [],
+      "profileUrl": "https://www.cs.washington.edu/people/faculty/katharina-reinecke/",
+      "portraitUrl": "https://www.cs.washington.edu/wp-content/uploads/2024/08/portrait-katharina-reinecke.jpg"
+    },
+    {
+      "officialId": "44581",
+      "name": "Kevin Jamieson",
+      "officialSections": [
+        "Current Faculty"
+      ],
+      "title": "Associate Professor",
+      "researchAreas": [],
+      "profileUrl": "https://www.cs.washington.edu/people/faculty/kevin-jamieson/",
+      "portraitUrl": "https://www.cs.washington.edu/wp-content/uploads/2024/08/portrait-kevin-jamieson.jpg"
+    },
+    {
+      "officialId": "44620",
+      "name": "Kevin Lin",
+      "officialSections": [
+        "Current Faculty"
+      ],
+      "title": "Associate Teaching Professor",
+      "researchAreas": [],
+      "profileUrl": "https://www.cs.washington.edu/people/faculty/kevin-lin/",
+      "portraitUrl": "https://www.cs.washington.edu/wp-content/uploads/2024/04/portrait-kevin-lin.jpg"
+    },
+    {
+      "officialId": "44575",
+      "name": "Kurtis Heimerl",
+      "officialSections": [
+        "Current Faculty"
+      ],
+      "title": "Associate Professor",
+      "researchAreas": [],
+      "profileUrl": "https://www.cs.washington.edu/people/faculty/kurtis-heimerl/",
+      "portraitUrl": "https://www.cs.washington.edu/wp-content/uploads/2024/08/portrait-kurtis-heimerl.jpg"
+    },
+    {
+      "officialId": "43726",
+      "name": "Lauren Bricker",
+      "officialSections": [
+        "Current Faculty"
+      ],
+      "title": "Associate Teaching Professor",
+      "researchAreas": [],
+      "profileUrl": "https://www.cs.washington.edu/people/faculty/lauren-bricker/",
+      "portraitUrl": "https://www.cs.washington.edu/wp-content/uploads/2024/04/portrait-lauren-bricker.jpg"
+    },
+    {
+      "officialId": "61870",
+      "name": "Lawrence (Larry) Snyder",
+      "officialSections": [
+        "Emeritus Faculty"
+      ],
+      "title": "Professor Emeritus",
+      "researchAreas": [],
+      "profileUrl": "https://www.cs.washington.edu/people/faculty/snyder-lawrence-larry/",
+      "portraitUrl": "https://www.cs.washington.edu/wp-content/uploads/2024/12/portrait-emeritus-larry-snyder.jpg"
+    },
+    {
+      "officialId": "61570",
+      "name": "Leah Findlater",
+      "officialSections": [
+        "Adjunct Faculty"
+      ],
+      "title": "Adjunct",
+      "affiliatedDepartment": "Department of Human-Centered Design & Engineering",
+      "researchAreas": [
+        "Accessibility; Human-Centered AI; Human-Computer Interaction; Ubiquitous Computing",
+        "Sensing & Embedded Systems"
+      ],
+      "profileUrl": "https://www.cs.washington.edu/people/faculty/findlater-leah/",
+      "portraitUrl": "https://www.cs.washington.edu/wp-content/uploads/2024/07/fallback-bronze-w-portrait.jpg"
+    },
+    {
+      "officialId": "43721",
+      "name": "Leilani Battle",
+      "officialSections": [
+        "Current Faculty"
+      ],
+      "title": "Associate Professor",
+      "researchAreas": [],
+      "profileUrl": "https://www.cs.washington.edu/people/faculty/leilani-battle/",
+      "portraitUrl": "https://www.cs.washington.edu/wp-content/uploads/2024/08/portrait-leilani-battle.jpg"
+    },
+    {
+      "officialId": "leroyhood",
+      "name": "Leroy Hood",
+      "officialSections": [
+        "Affiliate Faculty"
+      ],
+      "externalAffiliation": "Institute for Systems Biology",
+      "researchAreas": [],
+      "profileUrl": "https://www.systemsbiology.org/leroy-hood"
+    },
+    {
+      "officialId": "61654",
+      "name": "Lillian Ratliff",
+      "officialSections": [
+        "Adjunct Faculty"
+      ],
+      "title": "Adjunct",
+      "affiliatedDepartment": "Department of Electrical & Computer Engineering",
+      "researchAreas": [],
+      "profileUrl": "https://www.cs.washington.edu/people/faculty/ratliff-lillian/",
+      "portraitUrl": "https://www.cs.washington.edu/wp-content/uploads/2024/11/portrait-adjunct-lillian-ratliff.jpg"
+    },
+    {
+      "officialId": "44683",
+      "name": "Linda Shapiro",
+      "officialSections": [
+        "Current Faculty"
+      ],
+      "title": "Professor",
+      "researchAreas": [],
+      "profileUrl": "https://www.cs.washington.edu/people/faculty/linda-shapiro/",
+      "portraitUrl": "https://www.cs.washington.edu/wp-content/uploads/2024/11/portrait-linda-shapiro.jpg"
+    },
+    {
+      "officialId": "61785",
+      "name": "Lucy Wang",
+      "officialSections": [
+        "Adjunct Faculty"
+      ],
+      "title": "Adjunct",
+      "affiliatedDepartment": "Information School",
+      "researchAreas": [],
+      "profileUrl": "https://www.cs.washington.edu/people/faculty/wang-lucy/",
+      "portraitUrl": "https://www.cs.washington.edu/wp-content/uploads/2024/12/portrait-adjunct-lucy-wang.jpg"
+    },
+    {
+      "officialId": "ludwigschmidt",
+      "name": "Ludwig Schmidt",
+      "officialSections": [
+        "Affiliate Faculty"
+      ],
+      "researchAreas": []
+    },
+    {
+      "officialId": "43729",
+      "name": "Luis Ceze",
+      "officialSections": [
+        "Current Faculty"
+      ],
+      "title": "Professor",
+      "researchAreas": [],
+      "profileUrl": "https://www.cs.washington.edu/people/faculty/luis-ceze/",
+      "portraitUrl": "https://www.cs.washington.edu/wp-content/uploads/2024/08/portrait-luis-ceze.jpg"
+    },
+    {
+      "officialId": "44721",
+      "name": "Luke Zettlemoyer",
+      "officialSections": [
+        "Current Faculty"
+      ],
+      "title": "Professor",
+      "researchAreas": [],
+      "profileUrl": "https://www.cs.washington.edu/people/faculty/luke-zettlemoyer/",
+      "portraitUrl": "https://www.cs.washington.edu/wp-content/uploads/2024/04/portrait-luke-zettlemoyer.jpg"
+    },
+    {
+      "officialId": "61393",
+      "name": "Léonard Boussioux",
+      "officialSections": [
+        "Adjunct Faculty"
+      ],
+      "title": "Adjunct",
+      "affiliatedDepartment": "Foster School of Business",
+      "researchAreas": [],
+      "profileUrl": "https://www.cs.washington.edu/people/faculty/boussioux-leonard/",
+      "portraitUrl": "https://www.cs.washington.edu/wp-content/uploads/2024/12/portrait-adjunct-leonard-boussioux.jpg"
+    },
+    {
+      "officialId": "43720",
+      "name": "Magdalena Balazinska",
+      "officialSections": [
+        "Current Faculty"
+      ],
+      "title": "Professor",
+      "researchAreas": [],
+      "profileUrl": "https://www.cs.washington.edu/people/faculty/magdalena-balazinska/",
+      "portraitUrl": "https://www.cs.washington.edu/wp-content/uploads/2024/08/portrait-magdalena-balazinska.jpg"
+    },
+    {
+      "officialId": "marcotulioribeiro",
+      "name": "Marco Tulio Ribeiro",
+      "officialSections": [
+        "Affiliate Faculty"
+      ],
+      "externalAffiliation": "Microsoft Research",
+      "researchAreas": [
+        "Machine Learning"
+      ],
+      "profileUrl": "https://homes.cs.washington.edu/~marcotcr/"
+    },
+    {
+      "officialId": "61652",
+      "name": "Mari Ostendorf",
+      "officialSections": [
+        "Adjunct Faculty"
+      ],
+      "title": "Adjunct",
+      "affiliatedDepartment": "Department of Electrical & Computer Engineering",
+      "researchAreas": [],
+      "profileUrl": "https://www.cs.washington.edu/people/faculty/ostendorf-mari/",
+      "portraitUrl": "https://www.cs.washington.edu/wp-content/uploads/2024/11/portrait-adjunct-mari-ostendorf.jpg"
+    },
+    {
+      "officialId": "44646",
+      "name": "Mark Oskin",
+      "officialSections": [
+        "Current Faculty"
+      ],
+      "title": "Professor",
+      "researchAreas": [],
+      "profileUrl": "https://www.cs.washington.edu/people/faculty/mark-oskin/",
+      "portraitUrl": "https://www.cs.washington.edu/wp-content/uploads/2024/04/portrait-mark-oskin.jpg"
+    },
+    {
+      "officialId": "61665",
+      "name": "Martin Saveski",
+      "officialSections": [
+        "Adjunct Faculty"
+      ],
+      "title": "Adjunct",
+      "affiliatedDepartment": "Information School",
+      "researchAreas": [],
+      "profileUrl": "https://www.cs.washington.edu/people/faculty/saveski-martin/",
+      "portraitUrl": "https://www.cs.washington.edu/wp-content/uploads/2024/11/portrait-adjunct-martin-saveski.jpg"
+    },
+    {
+      "officialId": "61843",
+      "name": "Martin Tompa",
+      "officialSections": [
+        "Emeritus Faculty"
+      ],
+      "title": "Professor Emeritus",
+      "researchAreas": [],
+      "profileUrl": "https://www.cs.washington.edu/people/faculty/tompa-martin/",
+      "portraitUrl": "https://www.cs.washington.edu/wp-content/uploads/2024/12/portrait-emeritus-martin-tompa.jpg"
+    },
+    {
+      "officialId": "61428",
+      "name": "Maryam Fazel",
+      "officialSections": [
+        "Adjunct Faculty"
+      ],
+      "title": "Adjunct",
+      "affiliatedDepartment": "Department of Electrical & Computer Engineering",
+      "researchAreas": [],
+      "profileUrl": "https://www.cs.washington.edu/people/faculty/fazel-maryam/",
+      "portraitUrl": "https://www.cs.washington.edu/wp-content/uploads/2024/11/portrait-adjunct-maryam-fazel.jpg"
+    },
+    {
+      "officialId": "61656",
+      "name": "Matt Reynolds",
+      "officialSections": [
+        "Adjunct Faculty"
+      ],
+      "title": "Adjunct",
+      "affiliatedDepartment": "Department of Electrical & Computer Engineering",
+      "researchAreas": [
+        "Computer Networking; Ubiquitous Computing",
+        "Sensing & Embedded Systems; Wireless Systems"
+      ],
+      "profileUrl": "https://www.cs.washington.edu/people/faculty/reynolds-matt/",
+      "portraitUrl": "https://www.cs.washington.edu/wp-content/uploads/2024/11/portrait-adjunct-matt-reynolds.jpg"
+    },
+    {
+      "officialId": "44708",
+      "name": "Matt Wang",
+      "officialSections": [
+        "Current Faculty"
+      ],
+      "title": "Assistant Teaching Professor",
+      "researchAreas": [],
+      "profileUrl": "https://www.cs.washington.edu/people/faculty/matt-wang/",
+      "portraitUrl": "https://www.cs.washington.edu/wp-content/uploads/2024/04/portrait-matt-wang.jpg"
+    },
+    {
+      "officialId": "matthaiphilipose",
+      "name": "Matthai Philipose",
+      "officialSections": [
+        "Affiliate Faculty"
+      ],
+      "externalAffiliation": "Microsoft Research",
+      "researchAreas": [
+        "Human activity recognition",
+        "sensor-based reasoning"
+      ],
+      "profileUrl": "http://www.cs.washington.edu/homes/matthai/"
+    },
+    {
+      "officialId": "44562",
+      "name": "Matthew Golub",
+      "officialSections": [
+        "Current Faculty"
+      ],
+      "title": "Assistant Professor",
+      "researchAreas": [],
+      "profileUrl": "https://www.cs.washington.edu/people/faculty/matthew-golub/",
+      "portraitUrl": "https://www.cs.washington.edu/wp-content/uploads/2024/04/portrait-matthew-golub.jpg"
+    },
+    {
+      "officialId": "maureenstone",
+      "name": "Maureen Stone",
+      "officialSections": [
+        "Affiliate Faculty"
+      ],
+      "externalAffiliation": "Tableau Research (retired)",
+      "researchAreas": [
+        "Visual analysis",
+        "digital color",
+        "accessibility"
+      ],
+      "profileUrl": "http://mcstone.github.io/"
+    },
+    {
+      "officialId": "mausam",
+      "name": "Mausam",
+      "officialSections": [
+        "Affiliate Faculty"
+      ],
+      "externalAffiliation": "India Institute of Technology Delhi",
+      "researchAreas": [
+        "Artificial intelligence: natural language processing",
+        "automated planning",
+        "applications to crowdsourcing."
+      ],
+      "profileUrl": "http://www.cs.washington.edu/homes/mausam/"
+    },
+    {
+      "officialId": "61630",
+      "name": "Max Kleiman-Weiner",
+      "officialSections": [
+        "Adjunct Faculty"
+      ],
+      "title": "Adjunct",
+      "affiliatedDepartment": "Foster School of Business",
+      "researchAreas": [],
+      "profileUrl": "https://www.cs.washington.edu/people/faculty/kleiman-weiner-max/",
+      "portraitUrl": "https://www.cs.washington.edu/wp-content/uploads/2024/11/portrait-adjunct-max-kleiman-weiner.jpg"
+    },
+    {
+      "officialId": "43728",
+      "name": "Maya Cakmak",
+      "officialSections": [
+        "Current Faculty"
+      ],
+      "title": "Professor",
+      "researchAreas": [],
+      "profileUrl": "https://www.cs.washington.edu/people/faculty/maya-cakmak/",
+      "portraitUrl": "https://www.cs.washington.edu/wp-content/uploads/2024/04/portrait-maya-cakmak.jpg"
+    },
+    {
+      "officialId": "72613",
+      "name": "Megan Hazen",
+      "officialSections": [
+        "Current Faculty"
+      ],
+      "title": "Associate Teaching Professor",
+      "researchAreas": [
+        "Data Science",
+        "Machine Learning"
+      ],
+      "profileUrl": "https://www.cs.washington.edu/people/faculty/hazen-megan/",
+      "portraitUrl": "https://www.cs.washington.edu/wp-content/uploads/2025/09/portrait-megan-hazen.jpg"
+    },
+    {
+      "officialId": "meredithmorris",
+      "name": "Meredith Morris",
+      "officialSections": [
+        "Affiliate Faculty"
+      ],
+      "externalAffiliation": "Google Research",
+      "researchAreas": [
+        "HCI",
+        "Accessibility",
+        "and Human-Centered AI"
+      ],
+      "profileUrl": "http://merrie.info/"
+    },
+    {
+      "officialId": "44698",
+      "name": "Michael Bedford Taylor",
+      "officialSections": [
+        "Current Faculty"
+      ],
+      "title": "Professor",
+      "researchAreas": [],
+      "profileUrl": "https://www.cs.washington.edu/people/faculty/michael-taylor/",
+      "portraitUrl": "https://www.cs.washington.edu/wp-content/uploads/2024/04/portrait-michael-taylor.jpg"
+    },
+    {
+      "officialId": "michaelcohen",
+      "name": "Michael Cohen",
+      "officialSections": [
+        "Affiliate Faculty"
+      ],
+      "externalAffiliation": "Facebook",
+      "researchAreas": [
+        "Computer graphics and image synthesis"
+      ]
+    },
+    {
+      "officialId": "43743",
+      "name": "Michael Ernst",
+      "officialSections": [
+        "Current Faculty"
+      ],
+      "title": "Professor",
+      "researchAreas": [],
+      "profileUrl": "https://www.cs.washington.edu/people/faculty/michael-ernst/",
+      "portraitUrl": "https://www.cs.washington.edu/wp-content/uploads/2024/08/portrait-michael-ernst.jpg"
+    },
+    {
+      "officialId": "61679",
+      "name": "Michael Stiber",
+      "officialSections": [
+        "Adjunct Faculty"
+      ],
+      "title": "Adjunct",
+      "affiliatedDepartment": "Computing & Software Systems Division, UW Bothell",
+      "researchAreas": [],
+      "profileUrl": "https://www.cs.washington.edu/people/faculty/stiber-michael/",
+      "portraitUrl": "https://www.cs.washington.edu/wp-content/uploads/2024/11/portrait-adjunct-michael-stiber.jpg"
+    },
+    {
+      "officialId": "michaelwolf",
+      "name": "Michael Wolf",
+      "officialSections": [
+        "Affiliate Faculty"
+      ],
+      "externalAffiliation": "Amazon",
+      "researchAreas": []
+    },
+    {
+      "officialId": "mikelewis",
+      "name": "Mike Lewis",
+      "officialSections": [
+        "Affiliate Faculty"
+      ],
+      "researchAreas": []
+    },
+    {
+      "officialId": "72612",
+      "name": "Mitali Bafna",
+      "officialSections": [
+        "Current Faculty"
+      ],
+      "title": "Assistant Professor",
+      "researchAreas": [],
+      "profileUrl": "https://www.cs.washington.edu/people/faculty/bafna-mitali/",
+      "portraitUrl": "https://www.cs.washington.edu/wp-content/uploads/2025/09/portrait-mitali-bafna.jpg"
+    },
+    {
+      "officialId": "44637",
+      "name": "Miya Natsuhara",
+      "officialSections": [
+        "Current Faculty"
+      ],
+      "title": "Assistant Teaching Professor",
+      "researchAreas": [],
+      "profileUrl": "https://www.cs.washington.edu/people/faculty/miya-natsuhara/",
+      "portraitUrl": "https://www.cs.washington.edu/wp-content/uploads/2024/08/portrait-miya-natsuhara.jpg"
+    },
+    {
+      "officialId": "mohammadrastegari",
+      "name": "Mohammad Rastegari",
+      "officialSections": [
+        "Affiliate Faculty"
+      ],
+      "externalAffiliation": "Allen Institute for Artificial Intelligence",
+      "researchAreas": [],
+      "profileUrl": "https://mrastegari.github.io/"
+    },
+    {
+      "officialId": "61653",
+      "name": "Nadya Peek",
+      "officialSections": [
+        "Adjunct Faculty"
+      ],
+      "title": "Adjunct",
+      "affiliatedDepartment": "Department of Human-Centered Design & Engineering",
+      "researchAreas": [],
+      "profileUrl": "https://www.cs.washington.edu/people/faculty/peek-nadya/",
+      "portraitUrl": "https://www.cs.washington.edu/wp-content/uploads/2024/11/portrait-adjunct-nadya-peek.jpg"
+    },
+    {
+      "officialId": "72611",
+      "name": "Naomi Alterman",
+      "officialSections": [
+        "Current Faculty"
+      ],
+      "title": "Assistant Teaching Professor",
+      "researchAreas": [
+        "Computing Education Research",
+        "Data Science",
+        "Ethics & Fairness",
+        "Software Engineering"
+      ],
+      "profileUrl": "https://www.cs.washington.edu/people/faculty/alterman-naomi/",
+      "portraitUrl": "https://www.cs.washington.edu/wp-content/uploads/2025/07/portrait-naomi-alterman.jpg"
+    },
+    {
+      "officialId": "44583",
+      "name": "Natasha Jaques",
+      "officialSections": [
+        "Current Faculty"
+      ],
+      "title": "Assistant Professor",
+      "researchAreas": [],
+      "profileUrl": "https://www.cs.washington.edu/people/faculty/natasha-jaques/",
+      "portraitUrl": "https://www.cs.washington.edu/wp-content/uploads/2024/04/portrait-natasha-jaques.jpg"
+    },
+    {
+      "officialId": "43727",
+      "name": "Nathan Brunelle",
+      "officialSections": [
+        "Current Faculty"
+      ],
+      "title": "Associate Teaching Professor",
+      "researchAreas": [],
+      "profileUrl": "https://www.cs.washington.edu/people/faculty/nathan-brunelle/",
+      "portraitUrl": "https://www.cs.washington.edu/wp-content/uploads/2024/04/portrait-nathan-brunelle.jpg"
+    },
+    {
+      "officialId": "nathanprice",
+      "name": "Nathan Price",
+      "officialSections": [
+        "Affiliate Faculty"
+      ],
+      "externalAffiliation": "Institute for Systems Biology",
+      "researchAreas": [
+        "Systems biology"
+      ],
+      "profileUrl": "https://www.systemsbiology.org/bio/nathan-price/"
+    },
+    {
+      "officialId": "nikhildevanur",
+      "name": "Nikhil Devanur",
+      "officialSections": [
+        "Affiliate Faculty"
+      ],
+      "externalAffiliation": "Microsoft Research",
+      "researchAreas": [
+        "Automated economics and algorithms"
+      ],
+      "profileUrl": "http://research.microsoft.com/en-us/um/people/nikdev/"
+    },
+    {
+      "officialId": "44706",
+      "name": "Nirvan Tyagi",
+      "officialSections": [
+        "Current Faculty"
+      ],
+      "title": "Assistant Professor",
+      "researchAreas": [],
+      "profileUrl": "https://www.cs.washington.edu/people/faculty/nirvan-tyagi/",
+      "portraitUrl": "https://www.cs.washington.edu/wp-content/uploads/2024/04/portrait-nirvan-tyagi.jpg"
+    },
+    {
+      "officialId": "nithyasambasivan",
+      "name": "Nithya Sambasivan",
+      "officialSections": [
+        "Affiliate Faculty"
+      ],
+      "externalAffiliation": "Google Research",
+      "researchAreas": [
+        "Human-Computer Interaction (HCI)",
+        "Artificial Intelligence (AI)",
+        "Information Communication Technology and Development (ICTD)"
+      ],
+      "profileUrl": "https://nithyasambasivan.com/"
+    },
+    {
+      "officialId": "44688",
+      "name": "Noah A. Smith",
+      "officialSections": [
+        "Current Faculty"
+      ],
+      "title": "Professor",
+      "affiliatedDepartment": "UW Vice Provost for Artificial Intelligence",
+      "researchAreas": [],
+      "profileUrl": "https://www.cs.washington.edu/people/faculty/noah-smith/",
+      "portraitUrl": "https://www.cs.washington.edu/wp-content/uploads/2024/04/portrait-noah-smith.jpg"
+    },
+    {
+      "officialId": "oferdekel",
+      "name": "Ofer Dekel",
+      "officialSections": [
+        "Affiliate Faculty"
+      ],
+      "externalAffiliation": "Microsoft Research",
+      "researchAreas": [
+        "Machine learning",
+        "online prediction",
+        "statistical learning theory and optimization"
+      ],
+      "profileUrl": "http://research.microsoft.com/en-us/um/people/oferd/"
+    },
+    {
+      "officialId": "60375",
+      "name": "Oren Etzioni",
+      "officialSections": [
+        "Emeritus Faculty"
+      ],
+      "title": "Professor Emeritus",
+      "researchAreas": [],
+      "profileUrl": "https://www.cs.washington.edu/people/faculty/etzioni-oren/",
+      "portraitUrl": "https://www.cs.washington.edu/wp-content/uploads/2024/12/portrait-emeritus-oren-etzioni.jpg"
+    },
+    {
+      "officialId": "44600",
+      "name": "Pang Wei Koh",
+      "officialSections": [
+        "Current Faculty"
+      ],
+      "title": "Assistant Professor",
+      "researchAreas": [],
+      "profileUrl": "https://www.cs.washington.edu/people/faculty/pang-wei-koh/",
+      "portraitUrl": "https://www.cs.washington.edu/wp-content/uploads/2024/08/portrait-pang-wei-koh.jpg"
+    },
+    {
+      "officialId": "43722",
+      "name": "Paul Beame",
+      "officialSections": [
+        "Current Faculty"
+      ],
+      "title": "Professor",
+      "affiliatedDepartment": "Associate Director for Facilities",
+      "researchAreas": [],
+      "profileUrl": "https://www.cs.washington.edu/people/faculty/paul-beame/",
+      "portraitUrl": "https://www.cs.washington.edu/wp-content/uploads/2024/08/portrait-paul-beame.jpg"
+    },
+    {
+      "officialId": "pauldietz",
+      "name": "Paul Dietz",
+      "officialSections": [
+        "Affiliate Faculty"
+      ],
+      "researchAreas": []
+    },
+    {
+      "officialId": "paulleach",
+      "name": "Paul Leach",
+      "officialSections": [
+        "Affiliate Faculty"
+      ],
+      "externalAffiliation": "Microsoft (retired)",
+      "researchAreas": [
+        "Distributed and object-oriented systems"
+      ],
+      "profileUrl": "http://www.networksorcery.com/enp/authors/LeachPaulJ.htm"
+    },
+    {
+      "officialId": "49684",
+      "name": "Pedro Domingos",
+      "officialSections": [
+        "Emeritus Faculty"
+      ],
+      "title": "Professor Emeritus",
+      "researchAreas": [],
+      "profileUrl": "https://www.cs.washington.edu/people/faculty/pedro-domingos/",
+      "portraitUrl": "https://www.cs.washington.edu/wp-content/uploads/2024/07/portrait-pedro-domingos.jpg"
+    },
+    {
+      "officialId": "61781",
+      "name": "Peter Tarczy-Hornoch",
+      "officialSections": [
+        "Adjunct Faculty"
+      ],
+      "title": "Adjunct",
+      "affiliatedDepartment": "Department of Biomedical Informatics and Medical Education",
+      "researchAreas": [],
+      "profileUrl": "https://www.cs.washington.edu/people/faculty/tarczy-hornoch-peter/",
+      "portraitUrl": "https://www.cs.washington.edu/wp-content/uploads/2024/12/portrait-peter-tarczy-hornoch.jpg"
+    },
+    {
+      "officialId": "philipbernstein",
+      "name": "Philip Bernstein",
+      "officialSections": [
+        "Affiliate Faculty"
+      ],
+      "externalAffiliation": "Microsoft Research",
+      "researchAreas": [
+        "Databases",
+        "transaction processing",
+        "concurrency control",
+        "data repositories"
+      ],
+      "profileUrl": "http://www.research.microsoft.com/~philbe/"
+    },
+    {
+      "officialId": "61575",
+      "name": "Philip Green",
+      "officialSections": [
+        "Adjunct Faculty"
+      ],
+      "title": "Adjunct",
+      "affiliatedDepartment": "Department of Genome Sciences",
+      "researchAreas": [],
+      "profileUrl": "https://www.cs.washington.edu/people/faculty/green-philip/",
+      "portraitUrl": "https://www.cs.washington.edu/wp-content/uploads/2024/12/portrait-philip-green.jpg"
+    },
+    {
+      "officialId": "ralexcolburn",
+      "name": "R Alex Colburn",
+      "officialSections": [
+        "Affiliate Faculty"
+      ],
+      "externalAffiliation": "Apple, Inc.",
+      "researchAreas": [
+        "Machine learning",
+        "computer graphics",
+        "and computer vision"
+      ],
+      "profileUrl": "https://www.colburn.org/"
+    },
+    {
+      "officialId": "44681",
+      "name": "R. Benjamin Shapiro",
+      "officialSections": [
+        "Current Faculty"
+      ],
+      "title": "Associate Professor",
+      "affiliatedDepartment": "Associate Director for Community",
+      "researchAreas": [],
+      "profileUrl": "https://www.cs.washington.edu/people/faculty/benjamin-shapiro/",
+      "portraitUrl": "https://www.cs.washington.edu/wp-content/uploads/2024/04/portrait-benjamin-shapiro.jpg"
+    },
+    {
+      "officialId": "radiaperlman",
+      "name": "Radia Perlman",
+      "officialSections": [
+        "Affiliate Faculty"
+      ],
+      "externalAffiliation": "EMC",
+      "researchAreas": [
+        "Networking and security."
+      ],
+      "profileUrl": "http://en.wikipedia.org/wiki/Radia_Perlman"
+    },
+    {
+      "officialId": "60178",
+      "name": "Rajesh P.N. Rao",
+      "officialSections": [
+        "Current Faculty"
+      ],
+      "title": "Professor",
+      "researchAreas": [],
+      "profileUrl": "https://www.cs.washington.edu/people/faculty/rao-rajesh-p-n/",
+      "portraitUrl": "https://www.cs.washington.edu/wp-content/uploads/2024/08/portrait-rajesh-rao.jpg"
+    },
+    {
+      "officialId": "44606",
+      "name": "Ranjay Krishna",
+      "officialSections": [
+        "Current Faculty"
+      ],
+      "title": "Assistant Professor",
+      "researchAreas": [],
+      "profileUrl": "https://www.cs.washington.edu/people/faculty/ranjay-krishna/",
+      "portraitUrl": "https://www.cs.washington.edu/wp-content/uploads/2024/04/portrait-ranjay-krishna.jpg"
+    },
+    {
+      "officialId": "44627",
+      "name": "Ratul Mahajan",
+      "officialSections": [
+        "Current Faculty"
+      ],
+      "title": "Associate Professor",
+      "researchAreas": [],
+      "profileUrl": "https://www.cs.washington.edu/people/faculty/ratul-mahajan/",
+      "portraitUrl": "https://www.cs.washington.edu/wp-content/uploads/2024/08/portrait-ratul-mahajan.jpg"
+    },
+    {
+      "officialId": "44585",
+      "name": "René Just",
+      "officialSections": [
+        "Current Faculty"
+      ],
+      "title": "Associate Professor",
+      "researchAreas": [],
+      "profileUrl": "https://www.cs.washington.edu/people/faculty/rene-just/",
+      "portraitUrl": "https://www.cs.washington.edu/wp-content/uploads/2024/08/portrait-rene-just.jpg"
+    },
+    {
+      "officialId": "43713",
+      "name": "Richard Anderson",
+      "officialSections": [
+        "Emeritus Faculty"
+      ],
+      "title": "Professor Emeritus",
+      "researchAreas": [],
+      "profileUrl": "https://www.cs.washington.edu/people/faculty/richard-anderson/",
+      "portraitUrl": "https://www.cs.washington.edu/wp-content/uploads/2024/08/portrait-richard-anderson.jpg"
+    },
+    {
+      "officialId": "61831",
+      "name": "Richard Ladner",
+      "officialSections": [
+        "Emeritus Faculty"
+      ],
+      "title": "Professor Emeritus",
+      "researchAreas": [],
+      "profileUrl": "https://www.cs.washington.edu/people/faculty/ladner-richard/",
+      "portraitUrl": "https://www.cs.washington.edu/wp-content/uploads/2024/12/portrait-emeritus-richard-ladner.jpg"
+    },
+    {
+      "officialId": "richardnewcombe",
+      "name": "Richard Newcombe",
+      "officialSections": [
+        "Affiliate Faculty"
+      ],
+      "externalAffiliation": "Facebook",
+      "researchAreas": [
+        "Computer vision and robotics"
+      ]
+    },
+    {
+      "officialId": "rickszeliski",
+      "name": "Rick Szeliski",
+      "officialSections": [
+        "Affiliate Faculty"
+      ],
+      "externalAffiliation": "Facebook",
+      "researchAreas": [
+        "Computer vision and graphics"
+      ]
+    },
+    {
+      "officialId": "44714",
+      "name": "Robbie Weber",
+      "officialSections": [
+        "Current Faculty"
+      ],
+      "title": "Assistant Teaching Professor",
+      "researchAreas": [],
+      "profileUrl": "https://www.cs.washington.edu/people/faculty/robbie-weber/",
+      "portraitUrl": "https://www.cs.washington.edu/wp-content/uploads/2024/08/portrait-robbie-weber.jpg"
+    },
+    {
+      "officialId": "robertcarlson",
+      "name": "Robert Carlson",
+      "officialSections": [
+        "Affiliate Faculty"
+      ],
+      "externalAffiliation": "Bioeconomy Capital",
+      "researchAreas": [
+        "Synthetic Biology"
+      ],
+      "profileUrl": "http://www.synthesis.cc/"
+    },
+    {
+      "officialId": "roozbehmottaghi",
+      "name": "Roozbeh Mottaghi",
+      "officialSections": [
+        "Affiliate Faculty"
+      ],
+      "externalAffiliation": "Allen Institute for Artificial Intelligence",
+      "researchAreas": [
+        "Computer Vision",
+        "Machine Learning"
+      ],
+      "profileUrl": "https://roozbehm.info/"
+    },
+    {
+      "officialId": "rossbgirshick",
+      "name": "Ross B Girshick",
+      "officialSections": [
+        "Affiliate Faculty"
+      ],
+      "externalAffiliation": "Facebook AI Research (FAIR)",
+      "researchAreas": [
+        "Algorithms for visual perception and visual reasoning"
+      ],
+      "profileUrl": "http://www.rossgirshick.info/"
+    },
+    {
+      "officialId": "43718",
+      "name": "Ruth E. Anderson",
+      "officialSections": [
+        "Current Faculty"
+      ],
+      "title": "Teaching Professor",
+      "researchAreas": [],
+      "profileUrl": "https://www.cs.washington.edu/people/faculty/ruth-e-anderson/",
+      "portraitUrl": "https://www.cs.washington.edu/wp-content/uploads/2024/04/portrait-ruth-e-anderson.jpg"
+    },
+    {
+      "officialId": "61411",
+      "name": "Ryan Calo",
+      "officialSections": [
+        "Adjunct Faculty"
+      ],
+      "title": "Adjunct",
+      "affiliatedDepartment": "School of Law",
+      "researchAreas": [
+        "Augmented",
+        "Virtual & Mixed Reality; Ethics & Fairness; Human-Centered AI; Robotics; Security & Privacy"
+      ],
+      "profileUrl": "https://www.cs.washington.edu/people/faculty/calo-ryan/",
+      "portraitUrl": "https://www.cs.washington.edu/wp-content/uploads/2024/12/portrait-adjunct-ryan-calo.jpg"
+    },
+    {
+      "officialId": "44625",
+      "name": "Ryan Maas",
+      "officialSections": [
+        "Current Faculty"
+      ],
+      "title": "Associate Teaching Professor",
+      "researchAreas": [],
+      "profileUrl": "https://www.cs.washington.edu/people/faculty/ryan-maas/",
+      "portraitUrl": "https://www.cs.washington.edu/wp-content/uploads/2024/04/portrait-ryan-maas.jpg"
+    },
+    {
+      "officialId": "ryenwhite",
+      "name": "Ryen White",
+      "officialSections": [
+        "Affiliate Faculty"
+      ],
+      "externalAffiliation": "Microsoft Research",
+      "researchAreas": [
+        "Information retrieval",
+        "human-computer interaction",
+        "computational health"
+      ],
+      "profileUrl": "http://www.ryenwhite.com/"
+    },
+    {
+      "officialId": "sameeragarwal",
+      "name": "Sameer Agarwal",
+      "officialSections": [
+        "Affiliate Faculty"
+      ],
+      "externalAffiliation": "Google, Inc.",
+      "researchAreas": [
+        "Computer Vision",
+        "Machine Learning",
+        "Optimization",
+        "Computer Graphics"
+      ],
+      "profileUrl": "http://www.cs.washington.edu/homes/sagarwal"
+    },
+    {
+      "officialId": "44635",
+      "name": "Sara Mostafavi",
+      "officialSections": [
+        "Current Faculty"
+      ],
+      "title": "Associate Professor",
+      "researchAreas": [],
+      "profileUrl": "https://www.cs.washington.edu/people/faculty/sara-mostafavi/",
+      "portraitUrl": "https://www.cs.washington.edu/wp-content/uploads/2024/04/portrait-sara-mostafavi.jpg"
+    },
+    {
+      "officialId": "61574",
+      "name": "Sawyer Fuller",
+      "officialSections": [
+        "Adjunct Faculty"
+      ],
+      "title": "Adjunct",
+      "affiliatedDepartment": "Department of Mechanical Engineering",
+      "researchAreas": [
+        "Robotics; Ubiquitous Computing",
+        "Sensing & Embedded Systems; Wireless Systems"
+      ],
+      "profileUrl": "https://www.cs.washington.edu/people/faculty/fuller-sawyer/",
+      "portraitUrl": "https://www.cs.washington.edu/wp-content/uploads/2024/11/portrait-adjunct-sawyer-fuller.jpg"
+    },
+    {
+      "officialId": "61577",
+      "name": "Scott Hauck",
+      "officialSections": [
+        "Adjunct Faculty"
+      ],
+      "title": "Adjunct",
+      "affiliatedDepartment": "Department of Electrical & Computer Engineering",
+      "researchAreas": [],
+      "profileUrl": "https://www.cs.washington.edu/people/faculty/hauck-scott/",
+      "portraitUrl": "https://www.cs.washington.edu/wp-content/uploads/2024/11/portrait-adjunct-scott-hauck.jpg"
+    },
+    {
+      "officialId": "scottlundberg",
+      "name": "Scott Lundberg",
+      "officialSections": [
+        "Affiliate Faculty"
+      ],
+      "externalAffiliation": "Microsoft Research",
+      "researchAreas": [],
+      "profileUrl": "http://scottlundberg.com"
+    },
+    {
+      "officialId": "61649",
+      "name": "Sean Munson",
+      "officialSections": [
+        "Adjunct Faculty"
+      ],
+      "title": "Adjunct",
+      "affiliatedDepartment": "Department of Human-Centered Design & Engineering",
+      "researchAreas": [],
+      "profileUrl": "https://www.cs.washington.edu/people/faculty/munson-sean/",
+      "portraitUrl": "https://www.cs.washington.edu/wp-content/uploads/2024/11/portrait-adjunct-sean-munson.jpg"
+    },
+    {
+      "officialId": "sebastienbubeck",
+      "name": "Sebastien Bubeck",
+      "officialSections": [
+        "Affiliate Faculty"
+      ],
+      "externalAffiliation": "Microsoft Research",
+      "researchAreas": [
+        "Machine learning",
+        "convex optimization"
+      ],
+      "profileUrl": "http://research.microsoft.com/en-us/um/people/sebubeck/"
+    },
+    {
+      "officialId": "44644",
+      "name": "Sewoong Oh",
+      "officialSections": [
+        "Current Faculty"
+      ],
+      "title": "Professor",
+      "researchAreas": [],
+      "profileUrl": "https://www.cs.washington.edu/people/faculty/sewoong-oh/",
+      "portraitUrl": "https://www.cs.washington.edu/wp-content/uploads/2024/04/portrait-sewoong-oh.jpg"
+    },
+    {
+      "officialId": "shamkakade",
+      "name": "Sham Kakade",
+      "officialSections": [
+        "Affiliate Faculty"
+      ],
+      "externalAffiliation": "Data science: large scale computational methods for statistics, machine learning and signal processing",
+      "researchAreas": []
+    },
+    {
+      "officialId": "44648",
+      "name": "Shayan Oveis Gharan",
+      "officialSections": [
+        "Current Faculty"
+      ],
+      "title": "Professor",
+      "researchAreas": [],
+      "profileUrl": "https://www.cs.washington.edu/people/faculty/shayan-oveis-gharan/",
+      "portraitUrl": "https://www.cs.washington.edu/wp-content/uploads/2024/04/portrait-shayan-oveis-gharan.jpg"
+    },
+    {
+      "officialId": "44710",
+      "name": "Sheng Wang",
+      "officialSections": [
+        "Current Faculty"
+      ],
+      "title": "Assistant Professor",
+      "researchAreas": [],
+      "profileUrl": "https://www.cs.washington.edu/people/faculty/sheng-wang/",
+      "portraitUrl": "https://www.cs.washington.edu/wp-content/uploads/2024/04/portrait-sheng-wang.jpg"
+    },
+    {
+      "officialId": "44651",
+      "name": "Shwetak Patel",
+      "officialSections": [
+        "Current Faculty"
+      ],
+      "title": "Professor",
+      "affiliatedDepartment": "Associate Director for Development & Entrepreneurship",
+      "researchAreas": [
+        "Human-Computer Interaction; Machine Learning; Ubiquitous Computing",
+        "Sensing & Embedded Systems"
+      ],
+      "profileUrl": "https://www.cs.washington.edu/people/faculty/shwetak-patel/",
+      "portraitUrl": "https://www.cs.washington.edu/wp-content/uploads/2024/08/portrait-shwetak-patel.jpg"
+    },
+    {
+      "officialId": "44560",
+      "name": "Shyam Gollakota",
+      "officialSections": [
+        "Current Faculty"
+      ],
+      "title": "Professor",
+      "researchAreas": [
+        "Computer Networking; Human-Centered AI; Ubiquitous Computing",
+        "Sensing & Embedded Systems; Wireless Systems"
+      ],
+      "profileUrl": "https://www.cs.washington.edu/people/faculty/shyam-gollakota/",
+      "portraitUrl": "https://www.cs.washington.edu/wp-content/uploads/2024/08/portrait-shyam-gollakota.jpg"
+    },
+    {
+      "officialId": "44690",
+      "name": "Siddhartha (Sidd) Srinivasa",
+      "officialSections": [
+        "Current Faculty"
+      ],
+      "title": "Professor",
+      "researchAreas": [],
+      "profileUrl": "https://www.cs.washington.edu/people/faculty/siddhartha-sidd-srinivasa/",
+      "portraitUrl": "https://www.cs.washington.edu/wp-content/uploads/2024/08/portrait-siddhartha-srinivasa.jpg"
+    },
+    {
+      "officialId": "simonkahan",
+      "name": "Simon Kahan",
+      "officialSections": [
+        "Affiliate Faculty"
+      ],
+      "externalAffiliation": "Biocellion SPC",
+      "researchAreas": [
+        "Parallel computing"
+      ],
+      "profileUrl": "https://www.systemsbiology.org/bio/simon-kahan/"
+    },
+    {
+      "officialId": "44655",
+      "name": "Simon Peter",
+      "officialSections": [
+        "Current Faculty"
+      ],
+      "title": "Associate Professor",
+      "researchAreas": [],
+      "profileUrl": "https://www.cs.washington.edu/people/faculty/simon-peter/",
+      "portraitUrl": "https://www.cs.washington.edu/wp-content/uploads/2024/08/portrait-simon-peter.jpg"
+    },
+    {
+      "officialId": "43739",
+      "name": "Simon Shaolei Du",
+      "officialSections": [
+        "Current Faculty"
+      ],
+      "title": "Associate Professor",
+      "researchAreas": [],
+      "profileUrl": "https://www.cs.washington.edu/people/faculty/simon-du/",
+      "portraitUrl": "https://www.cs.washington.edu/wp-content/uploads/2024/08/portrait-simon-shaolei-du.jpg"
+    },
+    {
+      "officialId": "44700",
+      "name": "Stefano Tessaro",
+      "officialSections": [
+        "Current Faculty"
+      ],
+      "title": "Professor",
+      "researchAreas": [],
+      "profileUrl": "https://www.cs.washington.edu/people/faculty/stefano-tessaro/",
+      "portraitUrl": "https://www.cs.washington.edu/wp-content/uploads/2024/08/portrait-stefano-tessaro.jpg"
+    },
+    {
+      "officialId": "44712",
+      "name": "Stephanie Wang",
+      "officialSections": [
+        "Current Faculty"
+      ],
+      "title": "Assistant Professor",
+      "researchAreas": [],
+      "profileUrl": "https://www.cs.washington.edu/people/faculty/stephanie-wang/",
+      "portraitUrl": "https://www.cs.washington.edu/wp-content/uploads/2024/04/portrait-stephanie-wang.jpg"
+    },
+    {
+      "officialId": "44694",
+      "name": "Steve Tanimoto",
+      "officialSections": [
+        "Current Faculty"
+      ],
+      "title": "Professor",
+      "researchAreas": [],
+      "profileUrl": "https://www.cs.washington.edu/people/faculty/steve-tanimoto/",
+      "portraitUrl": "https://www.cs.washington.edu/wp-content/uploads/2024/04/portrait-steve-tanimoto.jpg"
+    },
+    {
+      "officialId": "61409",
+      "name": "Steven Brunton",
+      "officialSections": [
+        "Adjunct Faculty"
+      ],
+      "title": "Adjunct",
+      "affiliatedDepartment": "Department of Mechanical Engineering",
+      "researchAreas": [],
+      "profileUrl": "https://www.cs.washington.edu/people/faculty/brunton-steven/",
+      "portraitUrl": "https://www.cs.washington.edu/wp-content/uploads/2024/11/portrait-adjunct-steven-brunton.jpg"
+    },
+    {
+      "officialId": "stevendrucker",
+      "name": "Steven Drucker",
+      "officialSections": [
+        "Affiliate Faculty"
+      ],
+      "externalAffiliation": "Microsoft Research",
+      "researchAreas": [
+        "User interface",
+        "info. visualization",
+        "and graphics"
+      ],
+      "profileUrl": "http://research.microsoft.com/~sdrucker/"
+    },
+    {
+      "officialId": "44679",
+      "name": "Steven Seitz",
+      "officialSections": [
+        "Current Faculty"
+      ],
+      "title": "Professor",
+      "researchAreas": [
+        "Augmented",
+        "Virtual & Mixed Reality; Computer Graphics & Animation; Computer Vision; Generative AI"
+      ],
+      "profileUrl": "https://www.cs.washington.edu/people/faculty/steven-seitz/",
+      "portraitUrl": "https://www.cs.washington.edu/wp-content/uploads/2024/04/portrait-steve-seitz.jpg"
+    },
+    {
+      "officialId": "44663",
+      "name": "Stuart Reges",
+      "officialSections": [
+        "Current Faculty"
+      ],
+      "title": "Teaching Professor",
+      "researchAreas": [],
+      "profileUrl": "https://www.cs.washington.edu/people/faculty/stuart-reges/",
+      "portraitUrl": "https://www.cs.washington.edu/wp-content/uploads/2024/04/portrait-stuart-reges2.jpg"
+    },
+    {
+      "officialId": "44612",
+      "name": "Su-In Lee",
+      "officialSections": [
+        "Current Faculty"
+      ],
+      "title": "Professor",
+      "researchAreas": [],
+      "profileUrl": "https://www.cs.washington.edu/people/faculty/su-in-lee/",
+      "portraitUrl": "https://www.cs.washington.edu/wp-content/uploads/2024/04/portrait-su-in-lee.jpg"
+    },
+    {
+      "officialId": "59986",
+      "name": "Susan Eggers",
+      "officialSections": [
+        "Emeritus Faculty"
+      ],
+      "title": "Professor Emerita",
+      "researchAreas": [],
+      "profileUrl": "https://www.cs.washington.edu/people/faculty/eggers-susan/",
+      "portraitUrl": "https://www.cs.washington.edu/wp-content/uploads/2024/11/portrait-emeritus-susan-eggers.jpg"
+    },
+    {
+      "officialId": "tadayoshikohno",
+      "name": "Tadayoshi Kohno",
+      "officialSections": [
+        "Affiliate Faculty"
+      ],
+      "externalAffiliation": "Computer security and privacy",
+      "researchAreas": [],
+      "profileUrl": "http://www.cs.washington.edu/homes/yoshi/"
+    },
+    {
+      "officialId": "61644",
+      "name": "Tanu Mitra",
+      "officialSections": [
+        "Adjunct Faculty"
+      ],
+      "title": "Adjunct",
+      "affiliatedDepartment": "Information School",
+      "researchAreas": [],
+      "profileUrl": "https://www.cs.washington.edu/people/faculty/mitra-tanu/",
+      "portraitUrl": "https://www.cs.washington.edu/wp-content/uploads/2024/11/portrait-adjunct-tanu-mitra.jpg"
+    },
+    {
+      "officialId": "83533",
+      "name": "Taylor Kessler Faulkner",
+      "officialSections": [
+        "Current Faculty"
+      ],
+      "title": "Assistant Teaching Professor",
+      "researchAreas": [],
+      "profileUrl": "https://www.cs.washington.edu/people/faculty/faulkner-taylor-kessler/",
+      "portraitUrl": "https://www.cs.washington.edu/wp-content/uploads/2025/04/portrait-taylor-faulkner.jpg"
+    },
+    {
+      "officialId": "thomasball",
+      "name": "Thomas Ball",
+      "officialSections": [
+        "Affiliate Faculty"
+      ],
+      "externalAffiliation": "Microsoft Research",
+      "researchAreas": [
+        "Software engineering",
+        "formal methods",
+        "physical computing",
+        "CS education"
+      ],
+      "profileUrl": "https://research.microsoft.com/~tball/"
+    },
+    {
+      "officialId": "44669",
+      "name": "Thomas Rothvoss",
+      "officialSections": [
+        "Current Faculty"
+      ],
+      "title": "Professor",
+      "researchAreas": [],
+      "profileUrl": "https://www.cs.washington.edu/people/faculty/thomas-rothvoss/",
+      "portraitUrl": "https://www.cs.washington.edu/wp-content/uploads/2024/04/portrait-thomas-rothvoss.jpg"
+    },
+    {
+      "officialId": "thomaszimmermann",
+      "name": "Thomas Zimmermann",
+      "officialSections": [
+        "Affiliate Faculty"
+      ],
+      "externalAffiliation": "Microsoft Research",
+      "researchAreas": [
+        "Software Engineering"
+      ],
+      "profileUrl": "http://research.microsoft.com/en-us/people/tzimmer/"
+    },
+    {
+      "officialId": "43712",
+      "name": "Tim Althoff",
+      "officialSections": [
+        "Current Faculty"
+      ],
+      "title": "Associate Professor",
+      "researchAreas": [],
+      "profileUrl": "https://www.cs.washington.edu/people/faculty/tim-althoff/",
+      "portraitUrl": "https://www.cs.washington.edu/wp-content/uploads/2024/08/portrait-tim-althoff.jpg"
+    },
+    {
+      "officialId": "43719",
+      "name": "Tom Anderson",
+      "officialSections": [
+        "Current Faculty"
+      ],
+      "title": "Professor",
+      "researchAreas": [],
+      "profileUrl": "https://www.cs.washington.edu/people/faculty/tom-anderson/",
+      "portraitUrl": "https://www.cs.washington.edu/wp-content/uploads/2024/08/portrait-tom-anderson.jpg"
+    },
+    {
+      "officialId": "tonyderose",
+      "name": "Tony DeRose",
+      "officialSections": [
+        "Affiliate Faculty"
+      ],
+      "externalAffiliation": "Pixar",
+      "researchAreas": [
+        "Computer-aided geometric design and modeling",
+        "graphical user interfaces"
+      ]
+    },
+    {
+      "officialId": "uygarsumbul",
+      "name": "Uygar Sümbül",
+      "officialSections": [
+        "Affiliate Faculty"
+      ],
+      "externalAffiliation": "Allen Institute for Brain Science",
+      "researchAreas": [
+        "Neuroscience",
+        "Machine Learning",
+        "Computer Vision",
+        "Optimization"
+      ],
+      "profileUrl": "https://www.alleninstitute.org/what-we-do/brain-science/about/team/staff-profiles/uygar-sumbul/"
+    },
+    {
+      "officialId": "44579",
+      "name": "Vikram Iyer",
+      "officialSections": [
+        "Current Faculty"
+      ],
+      "title": "Assistant Professor",
+      "researchAreas": [
+        "Robotics; Ubiquitous Computing",
+        "Sensing & Embedded Systems; Wireless Systems"
+      ],
+      "profileUrl": "https://www.cs.washington.edu/people/faculty/vikram-iyer/",
+      "portraitUrl": "https://www.cs.washington.edu/wp-content/uploads/2024/04/portrait-vikram-iyer.jpg"
+    },
+    {
+      "officialId": "61833",
+      "name": "Walter L. (Larry) Ruzzo",
+      "officialSections": [
+        "Emeritus Faculty"
+      ],
+      "title": "Professor Emeritus",
+      "researchAreas": [],
+      "profileUrl": "https://www.cs.washington.edu/people/faculty/ruzzo-walter-l-larry/",
+      "portraitUrl": "https://www.cs.washington.edu/wp-content/uploads/2024/12/portrait-emeritus-larry-ruzzo.jpg"
+    },
+    {
+      "officialId": "61650",
+      "name": "William Noble",
+      "officialSections": [
+        "Adjunct Faculty"
+      ],
+      "title": "Adjunct",
+      "affiliatedDepartment": "Department of Genome Sciences",
+      "researchAreas": [],
+      "profileUrl": "https://www.cs.washington.edu/people/faculty/noble-william/",
+      "portraitUrl": "https://www.cs.washington.edu/wp-content/uploads/2024/12/portrait-william-noble.jpg"
+    },
+    {
+      "officialId": "woutermeuleman",
+      "name": "Wouter Meuleman",
+      "officialSections": [
+        "Affiliate Faculty"
+      ],
+      "externalAffiliation": "Computational Biology, Regulatory Genomics, Epigenomics, Machine Learning, Data Visualization, Augmented Genomics",
+      "researchAreas": [],
+      "profileUrl": "https://www.meuleman.org/"
+    },
+    {
+      "officialId": "yangli",
+      "name": "Yang Li",
+      "officialSections": [
+        "Affiliate Faculty"
+      ],
+      "externalAffiliation": "Google",
+      "researchAreas": [
+        "Human computer interaction and mobile computing"
+      ],
+      "profileUrl": "http://research.google.com/pubs/author38946.html"
+    },
+    {
+      "officialId": "yejinchoi",
+      "name": "Yejin Choi",
+      "officialSections": [
+        "Affiliate Faculty"
+      ],
+      "researchAreas": []
+    },
+    {
+      "officialId": "yuanjyuechen",
+      "name": "Yuan-Jyue Chen",
+      "officialSections": [
+        "Affiliate Faculty"
+      ],
+      "externalAffiliation": "Microsoft Research",
+      "researchAreas": [
+        "DNA data storage",
+        "DNA computing"
+      ],
+      "profileUrl": "https://www.linkedin.com/in/yuan-jyue-chen-7338a435"
+    },
+    {
+      "officialId": "44704",
+      "name": "Yulia Tsvetkov",
+      "officialSections": [
+        "Current Faculty"
+      ],
+      "title": "Associate Professor",
+      "researchAreas": [],
+      "profileUrl": "https://www.cs.washington.edu/people/faculty/yulia-tsvetkov/",
+      "portraitUrl": "https://www.cs.washington.edu/wp-content/uploads/2024/08/portrait-yulia-tsvetkov.jpg"
+    },
+    {
+      "officialId": "yunenliu",
+      "name": "Yun-En Liu",
+      "officialSections": [
+        "Affiliate Faculty"
+      ],
+      "researchAreas": []
+    },
+    {
+      "officialId": "44696",
+      "name": "Zachary Tatlock",
+      "officialSections": [
+        "Current Faculty"
+      ],
+      "title": "Professor",
+      "researchAreas": [],
+      "profileUrl": "https://www.cs.washington.edu/people/faculty/zachary-tatlock/",
+      "portraitUrl": "https://www.cs.washington.edu/wp-content/uploads/2024/04/portrait-zachary-tatlock.jpg"
+    },
+    {
+      "officialId": "61576",
+      "name": "Zaid Harchaoui",
+      "officialSections": [
+        "Adjunct Faculty"
+      ],
+      "title": "Adjunct",
+      "affiliatedDepartment": "Department of Statistics",
+      "researchAreas": [],
+      "profileUrl": "https://www.cs.washington.edu/people/faculty/harchaoui-zaid/",
+      "portraitUrl": "https://www.cs.washington.edu/wp-content/uploads/2024/12/portrait-zaid-harchaoui2.jpg"
+    },
+    {
+      "officialId": "44659",
+      "name": "Zoran Popović",
+      "officialSections": [
+        "Current Faculty"
+      ],
+      "title": "Professor",
+      "researchAreas": [],
+      "profileUrl": "https://www.cs.washington.edu/people/faculty/zoran-popovic/",
+      "portraitUrl": "https://www.cs.washington.edu/wp-content/uploads/2024/04/portrait-zoran-popovic.jpg"
+    }
+  ]
+}

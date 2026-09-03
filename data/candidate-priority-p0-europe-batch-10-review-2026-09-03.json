@@ -1,0 +1,769 @@
+{
+  "generatedAt": "2026-09-03",
+  "scope": "Europe P0 relationship-first review through batch 10",
+  "total": 28,
+  "byDisposition": {
+    "blocked_missing_specific_first_party_network_evidence": 22,
+    "ready_batch_10": 6
+  },
+  "readyNames": [
+    "Ana Klimovic",
+    "Gustavo Alonso",
+    "David Basin",
+    "Srdjan Čapkun",
+    "Shweta Shinde",
+    "Zhendong Su"
+  ],
+  "records": [
+    {
+      "canonicalKey": "Europe:Technical University of Munich:florianbruse",
+      "name": "Florian Bruse",
+      "region": "Europe",
+      "institution": "Technical University of Munich",
+      "score": 115,
+      "disposition": "missing_relationship",
+      "atlasPersonId": null,
+      "officialId": "60cba590cc371a52",
+      "officialTitle": "Prof. Dr. rer. nat.",
+      "officialSection": "Professors",
+      "profileUrl": "https://campus.tum.de/tumonline/ee/ui/ca2/app/desktop/#/pl/ui/$ctx/visitenkarte.show_vcard?$ctx=design=ca2;header=max;lang=de&pPersonenGruppe=3&pPersonenId=8E421E853365202B",
+      "portraitUrl": "https://www.cit.tum.de/_assets/32ebf5255105e66824f82cb2d7e14490/Icons/person.svg",
+      "rosterUrl": "https://www.cit.tum.de/en/cit/school/people/professors/",
+      "evidenceUrls": [
+        "https://www.cit.tum.de/en/cit/school/people/professors/",
+        "https://www.cs.cit.tum.de/cs/personen/professuren/",
+        "https://campus.tum.de/tumonline/ee/ui/ca2/app/desktop/#/pl/ui/$ctx/visitenkarte.show_vcard?$ctx=design=ca2;header=max;lang=de&pPersonenGruppe=3&pPersonenId=8E421E853365202B",
+        "https://www.professoren.tum.de/en/bruse-florian"
+      ],
+      "reason": "现任 faculty、两项官方入口与头像均已具备，但缓存中没有达到发布门槛的一手师承、学生、团队或产业关系证据。",
+      "sourceDecision": "pending_profile_verification",
+      "batch10Disposition": "blocked_missing_specific_first_party_network_evidence",
+      "blocker": "已核验冻结名录、官方 faculty/profile 入口与头像，但本轮仍未找到能明确到具名导师、学生、课题组成员或产业流向的第一方关系记录；不可用合著或泛化团队描述替代。",
+      "attemptedUrls": [
+        "https://www.cit.tum.de/en/cit/school/people/professors/",
+        "https://www.cs.cit.tum.de/cs/personen/professuren/",
+        "https://campus.tum.de/tumonline/ee/ui/ca2/app/desktop/#/pl/ui/$ctx/visitenkarte.show_vcard?$ctx=design=ca2;header=max;lang=de&pPersonenGruppe=3&pPersonenId=8E421E853365202B",
+        "https://www.professoren.tum.de/en/bruse-florian"
+      ]
+    },
+    {
+      "canonicalKey": "Europe:Technical University of Munich:franciscojavieresparzaestaun",
+      "name": "Francisco Javier Esparza Estaun",
+      "region": "Europe",
+      "institution": "Technical University of Munich",
+      "score": 115,
+      "disposition": "missing_relationship",
+      "atlasPersonId": null,
+      "officialId": "5a2cd04dfc22e13a",
+      "officialTitle": "Prof.",
+      "officialSection": "Professors",
+      "profileUrl": "https://campus.tum.de/tumonline/ee/ui/ca2/app/desktop/#/pl/ui/$ctx/visitenkarte.show_vcard?$ctx=design=ca2;header=max;lang=de&pPersonenGruppe=3&pPersonenId=2B2CA7120B2D22C1",
+      "portraitUrl": "https://campus.tum.de/tumonline/visitenkarte.showImage?pPersonenGruppe=3&pPersonenId=2B2CA7120B2D22C1",
+      "rosterUrl": "https://www.cit.tum.de/en/cit/school/people/professors/",
+      "evidenceUrls": [
+        "https://www.cit.tum.de/en/cit/school/people/professors/",
+        "https://www.cs.cit.tum.de/cs/personen/professuren/",
+        "https://campus.tum.de/tumonline/ee/ui/ca2/app/desktop/#/pl/ui/$ctx/visitenkarte.show_vcard?$ctx=design=ca2;header=max;lang=de&pPersonenGruppe=3&pPersonenId=2B2CA7120B2D22C1",
+        "https://portal.fis.tum.de/en/persons/francisco-javier-esparza-estaun/"
+      ],
+      "reason": "现任 faculty、两项官方入口与头像均已具备，但缓存中没有达到发布门槛的一手师承、学生、团队或产业关系证据。",
+      "sourceDecision": "pending_profile_verification",
+      "batch10Disposition": "blocked_missing_specific_first_party_network_evidence",
+      "blocker": "已核验冻结名录、官方 faculty/profile 入口与头像，但本轮仍未找到能明确到具名导师、学生、课题组成员或产业流向的第一方关系记录；不可用合著或泛化团队描述替代。",
+      "attemptedUrls": [
+        "https://www.cit.tum.de/en/cit/school/people/professors/",
+        "https://www.cs.cit.tum.de/cs/personen/professuren/",
+        "https://campus.tum.de/tumonline/ee/ui/ca2/app/desktop/#/pl/ui/$ctx/visitenkarte.show_vcard?$ctx=design=ca2;header=max;lang=de&pPersonenGruppe=3&pPersonenId=2B2CA7120B2D22C1",
+        "https://portal.fis.tum.de/en/persons/francisco-javier-esparza-estaun/"
+      ]
+    },
+    {
+      "canonicalKey": "Europe:Technical University of Munich:mariechristineduker",
+      "name": "Marie-Christine Düker",
+      "region": "Europe",
+      "institution": "Technical University of Munich",
+      "score": 115,
+      "disposition": "missing_relationship",
+      "atlasPersonId": null,
+      "officialId": "5039b3c2d1e1106b",
+      "officialTitle": "Prof. Dr. rer. nat.",
+      "officialSection": "Professors",
+      "profileUrl": "https://campus.tum.de/tumonline/ee/ui/ca2/app/desktop/#/pl/ui/$ctx/visitenkarte.show_vcard?$ctx=design=ca2;header=max;lang=de&pPersonenGruppe=3&pPersonenId=58CA68BB208983E0",
+      "portraitUrl": "https://campus.tum.de/tumonline/visitenkarte.showImage?pPersonenGruppe=3&pPersonenId=58CA68BB208983E0",
+      "rosterUrl": "https://www.cit.tum.de/en/cit/school/people/professors/",
+      "evidenceUrls": [
+        "https://www.cit.tum.de/en/cit/school/people/professors/",
+        "https://www.math.cit.tum.de/en/math/statistics/",
+        "https://campus.tum.de/tumonline/ee/ui/ca2/app/desktop/#/pl/ui/$ctx/visitenkarte.show_vcard?$ctx=design=ca2;header=max;lang=de&pPersonenGruppe=3&pPersonenId=58CA68BB208983E0",
+        "https://www.math.cit.tum.de/math/personen/professuren/dueker-marie/"
+      ],
+      "reason": "现任 faculty、两项官方入口与头像均已具备，但缓存中没有达到发布门槛的一手师承、学生、团队或产业关系证据。",
+      "sourceDecision": "pending_profile_verification",
+      "batch10Disposition": "blocked_missing_specific_first_party_network_evidence",
+      "blocker": "已核验冻结名录、官方 faculty/profile 入口与头像，但本轮仍未找到能明确到具名导师、学生、课题组成员或产业流向的第一方关系记录；不可用合著或泛化团队描述替代。",
+      "attemptedUrls": [
+        "https://www.cit.tum.de/en/cit/school/people/professors/",
+        "https://www.math.cit.tum.de/en/math/statistics/",
+        "https://campus.tum.de/tumonline/ee/ui/ca2/app/desktop/#/pl/ui/$ctx/visitenkarte.show_vcard?$ctx=design=ca2;header=max;lang=de&pPersonenGruppe=3&pPersonenId=58CA68BB208983E0",
+        "https://www.math.cit.tum.de/math/personen/professuren/dueker-marie/"
+      ]
+    },
+    {
+      "canonicalKey": "Europe:Technical University of Munich:seyedjalaletesami",
+      "name": "Seyed Jalal Etesami",
+      "region": "Europe",
+      "institution": "Technical University of Munich",
+      "score": 115,
+      "disposition": "missing_relationship",
+      "atlasPersonId": null,
+      "officialId": "13bda434e384a08e",
+      "officialTitle": "Prof. Dr.",
+      "officialSection": "Professors",
+      "profileUrl": "https://campus.tum.de/tumonline/ee/ui/ca2/app/desktop/#/pl/ui/$ctx/visitenkarte.show_vcard?$ctx=design=ca2;header=max;lang=de&pPersonenGruppe=3&pPersonenId=11582B8747F1A812",
+      "portraitUrl": "https://campus.tum.de/tumonline/visitenkarte.showImage?pPersonenGruppe=3&pPersonenId=11582B8747F1A812",
+      "rosterUrl": "https://www.cit.tum.de/en/cit/school/people/professors/",
+      "evidenceUrls": [
+        "https://www.cit.tum.de/en/cit/school/people/professors/",
+        "https://www.cs.cit.tum.de/cs/personen/professuren/",
+        "https://campus.tum.de/tumonline/ee/ui/ca2/app/desktop/#/pl/ui/$ctx/visitenkarte.show_vcard?$ctx=design=ca2;header=max;lang=de&pPersonenGruppe=3&pPersonenId=11582B8747F1A812",
+        "https://www.professoren.tum.de/en/etesami-seyed-jalal"
+      ],
+      "reason": "现任 faculty、两项官方入口与头像均已具备，但缓存中没有达到发布门槛的一手师承、学生、团队或产业关系证据。",
+      "sourceDecision": "pending_profile_verification",
+      "batch10Disposition": "blocked_missing_specific_first_party_network_evidence",
+      "blocker": "已核验冻结名录、官方 faculty/profile 入口与头像，但本轮仍未找到能明确到具名导师、学生、课题组成员或产业流向的第一方关系记录；不可用合著或泛化团队描述替代。",
+      "attemptedUrls": [
+        "https://www.cit.tum.de/en/cit/school/people/professors/",
+        "https://www.cs.cit.tum.de/cs/personen/professuren/",
+        "https://campus.tum.de/tumonline/ee/ui/ca2/app/desktop/#/pl/ui/$ctx/visitenkarte.show_vcard?$ctx=design=ca2;header=max;lang=de&pPersonenGruppe=3&pPersonenId=11582B8747F1A812",
+        "https://www.professoren.tum.de/en/etesami-seyed-jalal"
+      ]
+    },
+    {
+      "canonicalKey": "Europe:Technical University of Munich:vspors",
+      "name": "V. Spors",
+      "region": "Europe",
+      "institution": "Technical University of Munich",
+      "score": 115,
+      "disposition": "missing_relationship",
+      "atlasPersonId": null,
+      "officialId": "e5a89bdc635a0f41",
+      "officialTitle": null,
+      "officialSection": "Professors",
+      "profileUrl": "https://www.cit.tum.de/en/cit/news/article/professor-velvet-spors/",
+      "portraitUrl": "https://www.cit.tum.de/_assets/32ebf5255105e66824f82cb2d7e14490/Icons/person.svg",
+      "rosterUrl": "https://www.cit.tum.de/en/cit/school/people/professors/",
+      "evidenceUrls": [
+        "https://www.cit.tum.de/en/cit/school/people/professors/",
+        "https://www.cs.cit.tum.de/cs/personen/professuren/",
+        "https://www.cit.tum.de/en/cit/news/article/professor-velvet-spors/"
+      ],
+      "reason": "现任 faculty、两项官方入口与头像均已具备，但缓存中没有达到发布门槛的一手师承、学生、团队或产业关系证据。",
+      "sourceDecision": "pending_profile_verification",
+      "batch10Disposition": "blocked_missing_specific_first_party_network_evidence",
+      "blocker": "已核验冻结名录、官方 faculty/profile 入口与头像，但本轮仍未找到能明确到具名导师、学生、课题组成员或产业流向的第一方关系记录；不可用合著或泛化团队描述替代。",
+      "attemptedUrls": [
+        "https://www.cit.tum.de/en/cit/school/people/professors/",
+        "https://www.cs.cit.tum.de/cs/personen/professuren/",
+        "https://www.cit.tum.de/en/cit/news/article/professor-velvet-spors/"
+      ]
+    },
+    {
+      "canonicalKey": "Europe:ETH Zurich:anaklimovic",
+      "name": "Ana Klimovic",
+      "region": "Europe",
+      "institution": "ETH Zurich",
+      "score": 109,
+      "disposition": "ready",
+      "atlasPersonId": null,
+      "officialId": "8552757668dc6f6b",
+      "officialTitle": "Assistant Professor",
+      "officialSection": "Department Faculty",
+      "profileUrl": "https://inf.ethz.ch/people/people-atoz/person-detail.MjYyNzc1.TGlzdC8zMDQsLTIxNDE4MTU0NjA=.html",
+      "portraitUrl": "https://inf.ethz.ch/people/faculty/faculty/_jcr_content/par/twocolumn_550620171_/par_right/textimage_1158370542/image.imageformat.textsingle.946856127.jpg",
+      "rosterUrl": "https://inf.ethz.ch/people/faculty.html",
+      "evidenceUrls": [
+        "https://inf.ethz.ch/people/faculty.html",
+        "https://inf.ethz.ch/people/people-atoz/person-detail.MjYyNzc1.TGlzdC8zMDQsLTIxNDE4MTU0NjA=.html"
+      ],
+      "reason": "独立数据模块已补齐两项以上来源、3–5 条带来源事实（含教育与学术训练）、512×512 官方头像及一手团队/合作/学生证据，可供主线程集成。",
+      "sourceDecision": "include_new_pi",
+      "batch10Disposition": "ready_batch_10",
+      "blocker": null
+    },
+    {
+      "canonicalKey": "Europe:ETH Zurich:angelikasteger",
+      "name": "Angelika Steger",
+      "region": "Europe",
+      "institution": "ETH Zurich",
+      "score": 109,
+      "disposition": "missing_relationship",
+      "atlasPersonId": null,
+      "officialId": "f811db8e0f329736",
+      "officialTitle": "Full Professor",
+      "officialSection": "Department Faculty",
+      "profileUrl": "https://inf.ethz.ch/people/person-detail.steger.html",
+      "portraitUrl": "https://inf.ethz.ch/people/faculty/faculty/_jcr_content/par/twocolumn_1050777005/par_left/textimage/image.imageformat.textsingle.1447621775.jpg",
+      "rosterUrl": "https://inf.ethz.ch/people/faculty.html",
+      "evidenceUrls": [
+        "https://inf.ethz.ch/people/faculty.html",
+        "https://inf.ethz.ch/people/person-detail.steger.html"
+      ],
+      "reason": "现任 faculty、两项官方入口与头像均已具备，但缓存中没有达到发布门槛的一手师承、学生、团队或产业关系证据。",
+      "sourceDecision": "include_new_pi",
+      "batch10Disposition": "blocked_missing_specific_first_party_network_evidence",
+      "blocker": "已核验冻结名录、官方 faculty/profile 入口与头像，但本轮仍未找到能明确到具名导师、学生、课题组成员或产业流向的第一方关系记录；不可用合著或泛化团队描述替代。",
+      "attemptedUrls": [
+        "https://inf.ethz.ch/people/faculty.html",
+        "https://inf.ethz.ch/people/person-detail.steger.html"
+      ]
+    },
+    {
+      "canonicalKey": "Europe:ETH Zurich:berndgartner",
+      "name": "Bernd Gärtner",
+      "region": "Europe",
+      "institution": "ETH Zurich",
+      "score": 109,
+      "disposition": "missing_relationship",
+      "atlasPersonId": null,
+      "officialId": "b5281cfc71cfdda9",
+      "officialTitle": "Adjunct Professor",
+      "officialSection": "Department Faculty",
+      "profileUrl": "https://www.inf.ethz.ch/people/person-detail.gaertner.html",
+      "portraitUrl": "https://inf.ethz.ch/people/faculty/faculty/_jcr_content/par/twocolumn_3/par_left/textimage_1619413473/image.imageformat.textsingle.709284779.jpg",
+      "rosterUrl": "https://inf.ethz.ch/people/faculty.html",
+      "evidenceUrls": [
+        "https://inf.ethz.ch/people/faculty.html",
+        "https://www.inf.ethz.ch/people/person-detail.gaertner.html"
+      ],
+      "reason": "现任 faculty、两项官方入口与头像均已具备，但缓存中没有达到发布门槛的一手师承、学生、团队或产业关系证据。",
+      "sourceDecision": "include_new_pi",
+      "batch10Disposition": "blocked_missing_specific_first_party_network_evidence",
+      "blocker": "已核验冻结名录、官方 faculty/profile 入口与头像，但本轮仍未找到能明确到具名导师、学生、课题组成员或产业流向的第一方关系记录；不可用合著或泛化团队描述替代。",
+      "attemptedUrls": [
+        "https://inf.ethz.ch/people/faculty.html",
+        "https://www.inf.ethz.ch/people/person-detail.gaertner.html"
+      ]
+    },
+    {
+      "canonicalKey": "Europe:ETH Zurich:davidbasin",
+      "name": "David Basin",
+      "region": "Europe",
+      "institution": "ETH Zurich",
+      "score": 109,
+      "disposition": "ready",
+      "atlasPersonId": null,
+      "officialId": "f8bb4af30ed26783",
+      "officialTitle": "Full Professor",
+      "officialSection": "Department Faculty",
+      "profileUrl": "https://inf.ethz.ch/people/person-detail.basin.html",
+      "portraitUrl": "https://inf.ethz.ch/people/faculty/faculty/_jcr_content/par/twocolumn/par_right/textimage/image.imageformat.textsingle.675929318.jpg",
+      "rosterUrl": "https://inf.ethz.ch/people/faculty.html",
+      "evidenceUrls": [
+        "https://inf.ethz.ch/people/faculty.html",
+        "https://inf.ethz.ch/people/person-detail.basin.html"
+      ],
+      "reason": "独立数据模块已补齐两项以上来源、3–5 条带来源事实（含教育与学术训练）、512×512 官方头像及一手团队/合作/学生证据，可供主线程集成。",
+      "sourceDecision": "include_new_pi",
+      "batch10Disposition": "ready_batch_10",
+      "blocker": null
+    },
+    {
+      "canonicalKey": "Europe:ETH Zurich:davidsteurer",
+      "name": "David Steurer",
+      "region": "Europe",
+      "institution": "ETH Zurich",
+      "score": 109,
+      "disposition": "missing_relationship",
+      "atlasPersonId": null,
+      "officialId": "080474984cfaca48",
+      "officialTitle": "Associate Professor",
+      "officialSection": "Department Faculty",
+      "profileUrl": "https://inf.ethz.ch/people/person-detail.steurer.html",
+      "portraitUrl": "https://inf.ethz.ch/people/faculty/faculty/_jcr_content/par/twocolumn_1050777005/par_right/textimage_1999223003/image.imageformat.textsingle.625799641.jpg",
+      "rosterUrl": "https://inf.ethz.ch/people/faculty.html",
+      "evidenceUrls": [
+        "https://inf.ethz.ch/people/faculty.html",
+        "https://inf.ethz.ch/people/person-detail.steurer.html"
+      ],
+      "reason": "现任 faculty、两项官方入口与头像均已具备，但缓存中没有达到发布门槛的一手师承、学生、团队或产业关系证据。",
+      "sourceDecision": "include_new_pi",
+      "batch10Disposition": "blocked_missing_specific_first_party_network_evidence",
+      "blocker": "已核验冻结名录、官方 faculty/profile 入口与头像，但本轮仍未找到能明确到具名导师、学生、课题组成员或产业流向的第一方关系记录；不可用合著或泛化团队描述替代。",
+      "attemptedUrls": [
+        "https://inf.ethz.ch/people/faculty.html",
+        "https://inf.ethz.ch/people/person-detail.steurer.html"
+      ]
+    },
+    {
+      "canonicalKey": "Europe:ETH Zurich:dennishofheinz",
+      "name": "Dennis Hofheinz",
+      "region": "Europe",
+      "institution": "ETH Zurich",
+      "score": 109,
+      "disposition": "missing_relationship",
+      "atlasPersonId": null,
+      "officialId": "f1a37e18011b5f2c",
+      "officialTitle": "Full Professor",
+      "officialSection": "Department Faculty",
+      "profileUrl": "https://inf.ethz.ch/people/person-detail.MjY4MTEw.TGlzdC8zMDQsLTg3NDc3NjI0MQ==.html",
+      "portraitUrl": "https://inf.ethz.ch/people/faculty/faculty/_jcr_content/par/twocolumn_674765439/par_left/textimage_1596566139/image.imageformat.textsingle.420929254.jpg",
+      "rosterUrl": "https://inf.ethz.ch/people/faculty.html",
+      "evidenceUrls": [
+        "https://inf.ethz.ch/people/faculty.html",
+        "https://inf.ethz.ch/people/person-detail.MjY4MTEw.TGlzdC8zMDQsLTg3NDc3NjI0MQ==.html"
+      ],
+      "reason": "现任 faculty、两项官方入口与头像均已具备，但缓存中没有达到发布门槛的一手师承、学生、团队或产业关系证据。",
+      "sourceDecision": "include_new_pi",
+      "batch10Disposition": "blocked_missing_specific_first_party_network_evidence",
+      "blocker": "已核验冻结名录、官方 faculty/profile 入口与头像，但本轮仍未找到能明确到具名导师、学生、课题组成员或产业流向的第一方关系记录；不可用合著或泛化团队描述替代。",
+      "attemptedUrls": [
+        "https://inf.ethz.ch/people/faculty.html",
+        "https://inf.ethz.ch/people/person-detail.MjY4MTEw.TGlzdC8zMDQsLTg3NDc3NjI0MQ==.html"
+      ]
+    },
+    {
+      "canonicalKey": "Europe:ETH Zurich:denniskomm",
+      "name": "Dennis Komm",
+      "region": "Europe",
+      "institution": "ETH Zurich",
+      "score": 109,
+      "disposition": "missing_relationship",
+      "atlasPersonId": null,
+      "officialId": "98b009c372a38c99",
+      "officialTitle": "Associate Professor",
+      "officialSection": "Department Faculty",
+      "profileUrl": "https://inf.ethz.ch/people/person-detail.MTU2MjAz.TGlzdC8zMDQsLTg3NDc3NjI0MQ==.html",
+      "portraitUrl": "https://inf.ethz.ch/people/faculty/faculty/_jcr_content/par/twocolumn_550620171/par_right/textimage/image.imageformat.textsingle.1451331953.jpg",
+      "rosterUrl": "https://inf.ethz.ch/people/faculty.html",
+      "evidenceUrls": [
+        "https://inf.ethz.ch/people/faculty.html",
+        "https://inf.ethz.ch/people/person-detail.MTU2MjAz.TGlzdC8zMDQsLTg3NDc3NjI0MQ==.html"
+      ],
+      "reason": "现任 faculty、两项官方入口与头像均已具备，但缓存中没有达到发布门槛的一手师承、学生、团队或产业关系证据。",
+      "sourceDecision": "include_new_pi",
+      "batch10Disposition": "blocked_missing_specific_first_party_network_evidence",
+      "blocker": "已核验冻结名录、官方 faculty/profile 入口与头像，但本轮仍未找到能明确到具名导师、学生、课题组成员或产业流向的第一方关系记录；不可用合著或泛化团队描述替代。",
+      "attemptedUrls": [
+        "https://inf.ethz.ch/people/faculty.html",
+        "https://inf.ethz.ch/people/person-detail.MTU2MjAz.TGlzdC8zMDQsLTg3NDc3NjI0MQ==.html"
+      ]
+    },
+    {
+      "canonicalKey": "Europe:ETH Zurich:gustavoalonso",
+      "name": "Gustavo Alonso",
+      "region": "Europe",
+      "institution": "ETH Zurich",
+      "score": 109,
+      "disposition": "ready",
+      "atlasPersonId": null,
+      "officialId": "07003b6cba8ec495",
+      "officialTitle": "Full Professor",
+      "officialSection": "Department Faculty",
+      "profileUrl": "https://inf.ethz.ch/people/person-detail.alonso.html",
+      "portraitUrl": "https://inf.ethz.ch/people/faculty/faculty/_jcr_content/par/twocolumn/par_left/textimage/image.imageformat.textsingle.1808453358.jpg",
+      "rosterUrl": "https://inf.ethz.ch/people/faculty.html",
+      "evidenceUrls": [
+        "https://inf.ethz.ch/people/faculty.html",
+        "https://inf.ethz.ch/people/person-detail.alonso.html"
+      ],
+      "reason": "独立数据模块已补齐两项以上来源、3–5 条带来源事实（含教育与学术训练）、512×512 官方头像及一手团队/合作/学生证据，可供主线程集成。",
+      "sourceDecision": "include_new_pi",
+      "batch10Disposition": "ready_batch_10",
+      "blocker": null
+    },
+    {
+      "canonicalKey": "Europe:ETH Zurich:johanneslengler",
+      "name": "Johannes Lengler",
+      "region": "Europe",
+      "institution": "ETH Zurich",
+      "score": 109,
+      "disposition": "missing_relationship",
+      "atlasPersonId": null,
+      "officialId": "f8f2bbf350a58501",
+      "officialTitle": "Adjunct Professor",
+      "officialSection": "Department Faculty",
+      "profileUrl": "https://inf.ethz.ch/people/people-atoz/person-detail.MTc0MDI5.TGlzdC8zMDQsLTIxNDE4MTU0NjA=.html",
+      "portraitUrl": "https://inf.ethz.ch/people/faculty/faculty/_jcr_content/par/twocolumn_701667867/par_left/textimage_220043515/image.imageformat.textsingle.214663071.jpg",
+      "rosterUrl": "https://inf.ethz.ch/people/faculty.html",
+      "evidenceUrls": [
+        "https://inf.ethz.ch/people/faculty.html",
+        "https://inf.ethz.ch/people/people-atoz/person-detail.MTc0MDI5.TGlzdC8zMDQsLTIxNDE4MTU0NjA=.html"
+      ],
+      "reason": "现任 faculty、两项官方入口与头像均已具备，但缓存中没有达到发布门槛的一手师承、学生、团队或产业关系证据。",
+      "sourceDecision": "include_new_pi",
+      "batch10Disposition": "blocked_missing_specific_first_party_network_evidence",
+      "blocker": "已核验冻结名录、官方 faculty/profile 入口与头像，但本轮仍未找到能明确到具名导师、学生、课题组成员或产业流向的第一方关系记录；不可用合著或泛化团队描述替代。",
+      "attemptedUrls": [
+        "https://inf.ethz.ch/people/faculty.html",
+        "https://inf.ethz.ch/people/people-atoz/person-detail.MTc0MDI5.TGlzdC8zMDQsLTIxNDE4MTU0NjA=.html"
+      ]
+    },
+    {
+      "canonicalKey": "Europe:ETH Zurich:julesjacobs",
+      "name": "Jules Jacobs",
+      "region": "Europe",
+      "institution": "ETH Zurich",
+      "score": 109,
+      "disposition": "missing_relationship",
+      "atlasPersonId": null,
+      "officialId": "68bce0fd5f2747dc",
+      "officialTitle": "Assistant Professor",
+      "officialSection": "Department Faculty",
+      "profileUrl": "https://julesjacobs.com/",
+      "portraitUrl": "https://inf.ethz.ch/people/faculty/faculty/_jcr_content/par/twocolumn_5/par_right/textimage_copy/image.imageformat.textsingle.2035155105.jpg",
+      "rosterUrl": "https://inf.ethz.ch/people/faculty.html",
+      "evidenceUrls": [
+        "https://inf.ethz.ch/people/faculty.html",
+        "https://julesjacobs.com/"
+      ],
+      "reason": "现任 faculty、两项官方入口与头像均已具备，但缓存中没有达到发布门槛的一手师承、学生、团队或产业关系证据。",
+      "sourceDecision": "include_new_pi",
+      "batch10Disposition": "blocked_missing_specific_first_party_network_evidence",
+      "blocker": "已核验冻结名录、官方 faculty/profile 入口与头像，但本轮仍未找到能明确到具名导师、学生、课题组成员或产业流向的第一方关系记录；不可用合著或泛化团队描述替代。",
+      "attemptedUrls": [
+        "https://inf.ethz.ch/people/faculty.html",
+        "https://julesjacobs.com/"
+      ]
+    },
+    {
+      "canonicalKey": "Europe:ETH Zurich:karlbringmann",
+      "name": "Karl Bringmann",
+      "region": "Europe",
+      "institution": "ETH Zurich",
+      "score": 109,
+      "disposition": "missing_relationship",
+      "atlasPersonId": null,
+      "officialId": "93f1f18b22a1fc76",
+      "officialTitle": "Full Professor",
+      "officialSection": "Department Faculty",
+      "profileUrl": "https://ethz.ch/en/the-eth-zurich/organisation/who-is-who/infk/details.MjEwNzAz.TGlzdC8xOTA5LDg5MTA1NjU2NQ==.html",
+      "portraitUrl": "https://inf.ethz.ch/people/faculty/faculty/_jcr_content/par/twocolumn_0/par_right/textimage_copy/image.imageformat.textsingle.1001278418.jpg",
+      "rosterUrl": "https://inf.ethz.ch/people/faculty.html",
+      "evidenceUrls": [
+        "https://inf.ethz.ch/people/faculty.html",
+        "https://ethz.ch/en/the-eth-zurich/organisation/who-is-who/infk/details.MjEwNzAz.TGlzdC8xOTA5LDg5MTA1NjU2NQ==.html"
+      ],
+      "reason": "现任 faculty、两项官方入口与头像均已具备，但缓存中没有达到发布门槛的一手师承、学生、团队或产业关系证据。",
+      "sourceDecision": "include_new_pi",
+      "batch10Disposition": "blocked_missing_specific_first_party_network_evidence",
+      "blocker": "已核验冻结名录、官方 faculty/profile 入口与头像，但本轮仍未找到能明确到具名导师、学生、课题组成员或产业流向的第一方关系记录；不可用合著或泛化团队描述替代。",
+      "attemptedUrls": [
+        "https://inf.ethz.ch/people/faculty.html",
+        "https://ethz.ch/en/the-eth-zurich/organisation/who-is-who/infk/details.MjEwNzAz.TGlzdC8xOTA5LDg5MTA1NjU2NQ==.html"
+      ]
+    },
+    {
+      "canonicalKey": "Europe:ETH Zurich:kennypaterson",
+      "name": "Kenny Paterson",
+      "region": "Europe",
+      "institution": "ETH Zurich",
+      "score": 109,
+      "disposition": "missing_relationship",
+      "atlasPersonId": null,
+      "officialId": "177d12b4acda8aff",
+      "officialTitle": "Full Professor",
+      "officialSection": "Department Faculty",
+      "profileUrl": "https://inf.ethz.ch/people/person-detail.paterson.html",
+      "portraitUrl": "https://inf.ethz.ch/people/faculty/faculty/_jcr_content/par/twocolumn_7/par_right/textimage_487698436/image.imageformat.textsingle.2102660933.jpg",
+      "rosterUrl": "https://inf.ethz.ch/people/faculty.html",
+      "evidenceUrls": [
+        "https://inf.ethz.ch/people/faculty.html",
+        "https://inf.ethz.ch/people/person-detail.paterson.html"
+      ],
+      "reason": "现任 faculty、两项官方入口与头像均已具备，但缓存中没有达到发布门槛的一手师承、学生、团队或产业关系证据。",
+      "sourceDecision": "include_new_pi",
+      "batch10Disposition": "blocked_missing_specific_first_party_network_evidence",
+      "blocker": "已核验冻结名录、官方 faculty/profile 入口与头像，但本轮仍未找到能明确到具名导师、学生、课题组成员或产业流向的第一方关系记录；不可用合著或泛化团队描述替代。",
+      "attemptedUrls": [
+        "https://inf.ethz.ch/people/faculty.html",
+        "https://inf.ethz.ch/people/person-detail.paterson.html"
+      ]
+    },
+    {
+      "canonicalKey": "Europe:ETH Zurich:michalfriedman",
+      "name": "Michal Friedman",
+      "region": "Europe",
+      "institution": "ETH Zurich",
+      "score": 109,
+      "disposition": "missing_relationship",
+      "atlasPersonId": null,
+      "officialId": "94615170388d0c7e",
+      "officialTitle": "Assistant Professor",
+      "officialSection": "Department Faculty",
+      "profileUrl": "https://inf.ethz.ch/people/people-atoz/person-detail.MzAwMjM2.TGlzdC8zMDQsLTIxNDE4MTU0NjA=.html",
+      "portraitUrl": "https://inf.ethz.ch/people/faculty/faculty/_jcr_content/par/twocolumn_2/par_right/textimage_331243019_/image.imageformat.textsingle.1516807761.jpg",
+      "rosterUrl": "https://inf.ethz.ch/people/faculty.html",
+      "evidenceUrls": [
+        "https://inf.ethz.ch/people/faculty.html",
+        "https://inf.ethz.ch/people/people-atoz/person-detail.MzAwMjM2.TGlzdC8zMDQsLTIxNDE4MTU0NjA=.html"
+      ],
+      "reason": "现任 faculty、两项官方入口与头像均已具备，但缓存中没有达到发布门槛的一手师承、学生、团队或产业关系证据。",
+      "sourceDecision": "include_new_pi",
+      "batch10Disposition": "blocked_missing_specific_first_party_network_evidence",
+      "blocker": "已核验冻结名录、官方 faculty/profile 入口与头像，但本轮仍未找到能明确到具名导师、学生、课题组成员或产业流向的第一方关系记录；不可用合著或泛化团队描述替代。",
+      "attemptedUrls": [
+        "https://inf.ethz.ch/people/faculty.html",
+        "https://inf.ethz.ch/people/people-atoz/person-detail.MzAwMjM2.TGlzdC8zMDQsLTIxNDE4MTU0NjA=.html"
+      ]
+    },
+    {
+      "canonicalKey": "Europe:ETH Zurich:michaliskokologiannakis",
+      "name": "Michalis Kokologiannakis",
+      "region": "Europe",
+      "institution": "ETH Zurich",
+      "score": 109,
+      "disposition": "missing_relationship",
+      "atlasPersonId": null,
+      "officialId": "690ca35f344a9323",
+      "officialTitle": "Assistant Professor",
+      "officialSection": "Department Faculty",
+      "profileUrl": "https://inf.ethz.ch/people/people-atoz/person-detail.mko.html",
+      "portraitUrl": "https://inf.ethz.ch/people/faculty/faculty/_jcr_content/par/twocolumn_550620171/par_left/textimage_111791564/image.imageformat.textsingle.1715004689.jpg",
+      "rosterUrl": "https://inf.ethz.ch/people/faculty.html",
+      "evidenceUrls": [
+        "https://inf.ethz.ch/people/faculty.html",
+        "https://inf.ethz.ch/people/people-atoz/person-detail.mko.html"
+      ],
+      "reason": "现任 faculty、两项官方入口与头像均已具备，但缓存中没有达到发布门槛的一手师承、学生、团队或产业关系证据。",
+      "sourceDecision": "include_new_pi",
+      "batch10Disposition": "blocked_missing_specific_first_party_network_evidence",
+      "blocker": "已核验冻结名录、官方 faculty/profile 入口与头像，但本轮仍未找到能明确到具名导师、学生、课题组成员或产业流向的第一方关系记录；不可用合著或泛化团队描述替代。",
+      "attemptedUrls": [
+        "https://inf.ethz.ch/people/faculty.html",
+        "https://inf.ethz.ch/people/people-atoz/person-detail.mko.html"
+      ]
+    },
+    {
+      "canonicalKey": "Europe:ETH Zurich:petermuller",
+      "name": "Peter Müller",
+      "region": "Europe",
+      "institution": "ETH Zurich",
+      "score": 109,
+      "disposition": "missing_relationship",
+      "atlasPersonId": null,
+      "officialId": "ee2b2d8e802d0a57",
+      "officialTitle": "Full Professor",
+      "officialSection": "Department Faculty",
+      "profileUrl": "https://inf.ethz.ch/people/person-detail.mueller.html",
+      "portraitUrl": "https://inf.ethz.ch/people/faculty/faculty/_jcr_content/par/twocolumn_7/par_left/textimage_2013082573/image.imageformat.textsingle.2121098011.jpg",
+      "rosterUrl": "https://inf.ethz.ch/people/faculty.html",
+      "evidenceUrls": [
+        "https://inf.ethz.ch/people/faculty.html",
+        "https://inf.ethz.ch/people/person-detail.mueller.html"
+      ],
+      "reason": "现任 faculty、两项官方入口与头像均已具备，但缓存中没有达到发布门槛的一手师承、学生、团队或产业关系证据。",
+      "sourceDecision": "include_new_pi",
+      "batch10Disposition": "blocked_missing_specific_first_party_network_evidence",
+      "blocker": "已核验冻结名录、官方 faculty/profile 入口与头像，但本轮仍未找到能明确到具名导师、学生、课题组成员或产业流向的第一方关系记录；不可用合著或泛化团队描述替代。",
+      "attemptedUrls": [
+        "https://inf.ethz.ch/people/faculty.html",
+        "https://inf.ethz.ch/people/person-detail.mueller.html"
+      ]
+    },
+    {
+      "canonicalKey": "Europe:ETH Zurich:ralfjung",
+      "name": "Ralf Jung",
+      "region": "Europe",
+      "institution": "ETH Zurich",
+      "score": 109,
+      "disposition": "missing_relationship",
+      "atlasPersonId": null,
+      "officialId": "9976720b3c0006a9",
+      "officialTitle": "Assistant Professor",
+      "officialSection": "Department Faculty",
+      "profileUrl": "https://cms-author.ethz.ch/editor.html/content/specialinterest/infk/department/de/personen/faculty/professoren-professorinnen.html",
+      "portraitUrl": "https://inf.ethz.ch/people/faculty/faculty/_jcr_content/par/twocolumn_550620171_/par_left/textimage/image.imageformat.textsingle.634618581.jpg",
+      "rosterUrl": "https://inf.ethz.ch/people/faculty.html",
+      "evidenceUrls": [
+        "https://inf.ethz.ch/people/faculty.html",
+        "https://cms-author.ethz.ch/editor.html/content/specialinterest/infk/department/de/personen/faculty/professoren-professorinnen.html"
+      ],
+      "reason": "现任 faculty、两项官方入口与头像均已具备，但缓存中没有达到发布门槛的一手师承、学生、团队或产业关系证据。",
+      "sourceDecision": "include_new_pi",
+      "batch10Disposition": "blocked_missing_specific_first_party_network_evidence",
+      "blocker": "已核验冻结名录、官方 faculty/profile 入口与头像，但本轮仍未找到能明确到具名导师、学生、课题组成员或产业流向的第一方关系记录；不可用合著或泛化团队描述替代。",
+      "attemptedUrls": [
+        "https://inf.ethz.ch/people/faculty.html",
+        "https://cms-author.ethz.ch/editor.html/content/specialinterest/infk/department/de/personen/faculty/professoren-professorinnen.html"
+      ]
+    },
+    {
+      "canonicalKey": "Europe:ETH Zurich:rasmuskyng",
+      "name": "Rasmus Kyng",
+      "region": "Europe",
+      "institution": "ETH Zurich",
+      "score": 109,
+      "disposition": "missing_relationship",
+      "atlasPersonId": null,
+      "officialId": "9887addea76bd330",
+      "officialTitle": "Associate Professor",
+      "officialSection": "Department Faculty",
+      "profileUrl": "https://inf.ethz.ch/people/person-detail.MjYyNzc2.TGlzdC8zMDQsLTg3NDc3NjI0MQ==.html",
+      "portraitUrl": "https://inf.ethz.ch/people/faculty/faculty/_jcr_content/par/twocolumn_6/par_right/textimage_1768018657/image.imageformat.textsingle.1485316323.jpg",
+      "rosterUrl": "https://inf.ethz.ch/people/faculty.html",
+      "evidenceUrls": [
+        "https://inf.ethz.ch/people/faculty.html",
+        "https://inf.ethz.ch/people/person-detail.MjYyNzc2.TGlzdC8zMDQsLTg3NDc3NjI0MQ==.html"
+      ],
+      "reason": "现任 faculty、两项官方入口与头像均已具备，但缓存中没有达到发布门槛的一手师承、学生、团队或产业关系证据。",
+      "sourceDecision": "include_new_pi",
+      "batch10Disposition": "blocked_missing_specific_first_party_network_evidence",
+      "blocker": "已核验冻结名录、官方 faculty/profile 入口与头像，但本轮仍未找到能明确到具名导师、学生、课题组成员或产业流向的第一方关系记录；不可用合著或泛化团队描述替代。",
+      "attemptedUrls": [
+        "https://inf.ethz.ch/people/faculty.html",
+        "https://inf.ethz.ch/people/person-detail.MjYyNzc2.TGlzdC8zMDQsLTg3NDc3NjI0MQ==.html"
+      ]
+    },
+    {
+      "canonicalKey": "Europe:ETH Zurich:shwetashinde",
+      "name": "Shweta Shinde",
+      "region": "Europe",
+      "institution": "ETH Zurich",
+      "score": 109,
+      "disposition": "ready",
+      "atlasPersonId": null,
+      "officialId": "5d8b31f993eb92b4",
+      "officialTitle": "Assistant Professor",
+      "officialSection": "Department Faculty",
+      "profileUrl": "https://inf.ethz.ch/people/people-atoz/person-detail.Mjc3NTYy.TGlzdC8zMDQsLTIxNDE4MTU0NjA=.html",
+      "portraitUrl": "https://inf.ethz.ch/people/faculty/faculty/_jcr_content/par/twocolumn_12/par_right/textimage_1882676727/image.imageformat.textsingle.2105970293.jpg",
+      "rosterUrl": "https://inf.ethz.ch/people/faculty.html",
+      "evidenceUrls": [
+        "https://inf.ethz.ch/people/faculty.html",
+        "https://inf.ethz.ch/people/people-atoz/person-detail.Mjc3NTYy.TGlzdC8zMDQsLTIxNDE4MTU0NjA=.html"
+      ],
+      "reason": "独立数据模块已补齐两项以上来源、3–5 条带来源事实（含教育与学术训练）、512×512 官方头像及一手团队/合作/学生证据，可供主线程集成。",
+      "sourceDecision": "include_new_pi",
+      "batch10Disposition": "ready_batch_10",
+      "blocker": null
+    },
+    {
+      "canonicalKey": "Europe:ETH Zurich:srdjancapkun",
+      "name": "Srdjan Čapkun",
+      "region": "Europe",
+      "institution": "ETH Zurich",
+      "score": 109,
+      "disposition": "ready",
+      "atlasPersonId": null,
+      "officialId": "bad465fb778e6bdb",
+      "officialTitle": "Full Professor",
+      "officialSection": "Department Faculty",
+      "profileUrl": "https://inf.ethz.ch/people/person-detail.capkun.html",
+      "portraitUrl": "https://inf.ethz.ch/people/faculty/faculty/_jcr_content/par/twocolumn_1/par_left/textimage/image.imageformat.textsingle.439147873.jpg",
+      "rosterUrl": "https://inf.ethz.ch/people/faculty.html",
+      "evidenceUrls": [
+        "https://inf.ethz.ch/people/faculty.html",
+        "https://inf.ethz.ch/people/person-detail.capkun.html"
+      ],
+      "reason": "独立数据模块已补齐两项以上来源、3–5 条带来源事实（含教育与学术训练）、512×512 官方头像及一手团队/合作/学生证据，可供主线程集成。",
+      "sourceDecision": "include_new_pi",
+      "batch10Disposition": "ready_batch_10",
+      "blocker": null
+    },
+    {
+      "canonicalKey": "Europe:ETH Zurich:timothyroscoe",
+      "name": "Timothy Roscoe",
+      "region": "Europe",
+      "institution": "ETH Zurich",
+      "score": 109,
+      "disposition": "missing_relationship",
+      "atlasPersonId": null,
+      "officialId": "f106a3fd147f0698",
+      "officialTitle": "Full Professor",
+      "officialSection": "Department Faculty",
+      "profileUrl": "https://www.inf.ethz.ch/people/person-detail.roscoe.html",
+      "portraitUrl": "https://inf.ethz.ch/people/faculty/faculty/_jcr_content/par/twocolumn_11/par_left/textimage/image.imageformat.textsingle.250605718.jpg",
+      "rosterUrl": "https://inf.ethz.ch/people/faculty.html",
+      "evidenceUrls": [
+        "https://inf.ethz.ch/people/faculty.html",
+        "https://www.inf.ethz.ch/people/person-detail.roscoe.html"
+      ],
+      "reason": "现任 faculty、两项官方入口与头像均已具备，但缓存中没有达到发布门槛的一手师承、学生、团队或产业关系证据。",
+      "sourceDecision": "include_new_pi",
+      "batch10Disposition": "blocked_missing_specific_first_party_network_evidence",
+      "blocker": "已核验冻结名录、官方 faculty/profile 入口与头像，但本轮仍未找到能明确到具名导师、学生、课题组成员或产业流向的第一方关系记录；不可用合著或泛化团队描述替代。",
+      "attemptedUrls": [
+        "https://inf.ethz.ch/people/faculty.html",
+        "https://www.inf.ethz.ch/people/person-detail.roscoe.html"
+      ]
+    },
+    {
+      "canonicalKey": "Europe:ETH Zurich:veratraub",
+      "name": "Vera Traub",
+      "region": "Europe",
+      "institution": "ETH Zurich",
+      "score": 109,
+      "disposition": "missing_relationship",
+      "atlasPersonId": null,
+      "officialId": "01309e01fdc1045a",
+      "officialTitle": "Associate Professor",
+      "officialSection": "Department Faculty",
+      "profileUrl": "https://people.inf.ethz.ch/vtraub/",
+      "portraitUrl": "https://inf.ethz.ch/people/faculty/faculty/_jcr_content/par/twocolumn_1823732438/par_right/textimage_285571634_/image.imageformat.textsingle.1521009148.jpg",
+      "rosterUrl": "https://inf.ethz.ch/people/faculty.html",
+      "evidenceUrls": [
+        "https://inf.ethz.ch/people/faculty.html",
+        "https://people.inf.ethz.ch/vtraub/"
+      ],
+      "reason": "现任 faculty、两项官方入口与头像均已具备，但缓存中没有达到发布门槛的一手师承、学生、团队或产业关系证据。",
+      "sourceDecision": "include_new_pi",
+      "batch10Disposition": "blocked_missing_specific_first_party_network_evidence",
+      "blocker": "已核验冻结名录、官方 faculty/profile 入口与头像，但本轮仍未找到能明确到具名导师、学生、课题组成员或产业流向的第一方关系记录；不可用合著或泛化团队描述替代。",
+      "attemptedUrls": [
+        "https://inf.ethz.ch/people/faculty.html",
+        "https://people.inf.ethz.ch/vtraub/"
+      ]
+    },
+    {
+      "canonicalKey": "Europe:ETH Zurich:yannischronis",
+      "name": "Yannis Chronis",
+      "region": "Europe",
+      "institution": "ETH Zurich",
+      "score": 109,
+      "disposition": "missing_relationship",
+      "atlasPersonId": null,
+      "officialId": "6f409e890afe777f",
+      "officialTitle": "Assistant Professor",
+      "officialSection": "Department Faculty",
+      "profileUrl": "https://inf.ethz.ch/people/people-atoz/person-detail.yannischronis.html",
+      "portraitUrl": "https://inf.ethz.ch/people/faculty/faculty/_jcr_content/par/twocolumn_1/par_right/textimage_copy/image.imageformat.textsingle.320310597.jpg",
+      "rosterUrl": "https://inf.ethz.ch/people/faculty.html",
+      "evidenceUrls": [
+        "https://inf.ethz.ch/people/faculty.html",
+        "https://inf.ethz.ch/people/people-atoz/person-detail.yannischronis.html"
+      ],
+      "reason": "现任 faculty、两项官方入口与头像均已具备，但缓存中没有达到发布门槛的一手师承、学生、团队或产业关系证据。",
+      "sourceDecision": "include_new_pi",
+      "batch10Disposition": "blocked_missing_specific_first_party_network_evidence",
+      "blocker": "已核验冻结名录、官方 faculty/profile 入口与头像，但本轮仍未找到能明确到具名导师、学生、课题组成员或产业流向的第一方关系记录；不可用合著或泛化团队描述替代。",
+      "attemptedUrls": [
+        "https://inf.ethz.ch/people/faculty.html",
+        "https://inf.ethz.ch/people/people-atoz/person-detail.yannischronis.html"
+      ]
+    },
+    {
+      "canonicalKey": "Europe:ETH Zurich:zhendongsu",
+      "name": "Zhendong Su",
+      "region": "Europe",
+      "institution": "ETH Zurich",
+      "score": 109,
+      "disposition": "ready",
+      "atlasPersonId": null,
+      "officialId": "6a174782f4a8cffa",
+      "officialTitle": "Full Professor",
+      "officialSection": "Department Faculty",
+      "profileUrl": "https://inf.ethz.ch/people/person-detail.su.html",
+      "portraitUrl": "https://inf.ethz.ch/people/faculty/faculty/_jcr_content/par/twocolumn_526948177/par_left/textimage_1522936724/image.imageformat.textsingle.1948107644.jpg",
+      "rosterUrl": "https://inf.ethz.ch/people/faculty.html",
+      "evidenceUrls": [
+        "https://inf.ethz.ch/people/faculty.html",
+        "https://inf.ethz.ch/people/person-detail.su.html"
+      ],
+      "reason": "独立数据模块已补齐两项以上来源、3–5 条带来源事实（含教育与学术训练）、512×512 官方头像及一手团队/合作/学生证据，可供主线程集成。",
+      "sourceDecision": "include_new_pi",
+      "batch10Disposition": "ready_batch_10",
+      "blocker": null
+    }
+  ]
+}
