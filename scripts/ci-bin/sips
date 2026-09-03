@@ -1,0 +1,23 @@
+#!/usr/bin/env node
+
+import path from "node:path";
+import sharp from "sharp";
+
+const imagePath = process.argv.at(-1);
+
+if (!imagePath || imagePath.startsWith("-")) {
+  console.error("Usage: sips -g pixelWidth -g pixelHeight <image>");
+  process.exit(2);
+}
+
+try {
+  const metadata = await sharp(imagePath).metadata();
+  if (!metadata.width || !metadata.height) {
+    throw new Error("image dimensions are unavailable");
+  }
+
+  console.log(`${path.resolve(imagePath)}\n  pixelWidth: ${metadata.width}\n  pixelHeight: ${metadata.height}`);
+} catch (error) {
+  console.error(`Unable to inspect ${imagePath}: ${error instanceof Error ? error.message : String(error)}`);
+  process.exit(1);
+}

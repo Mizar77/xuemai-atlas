@@ -30,6 +30,12 @@ jobs:
       - name: Install dependencies
         run: npm ci
 
+      - name: Prepare cross-platform audit compatibility
+        run: |
+          sudo mkdir -p /private/tmp
+          sudo chmod 1777 /private/tmp
+          echo "$GITHUB_WORKSPACE/scripts/ci-bin" >> "$GITHUB_PATH"
+
       - name: Build static site
         run: npm run build:pages
 
